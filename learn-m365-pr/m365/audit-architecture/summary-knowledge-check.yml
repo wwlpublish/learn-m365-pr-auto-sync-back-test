@@ -4,9 +4,9 @@ title: Summary and knowledge check
 metadata:
   title: Summary and knowledge check
   description: Learn how the architecture of Microsoft 365 implements security and privacy features to protect customers who use Microsoft 365 multi-tenant services.
-  ms.date: 06/18/2020
+  ms.date: 05/13/2021
   author: NamrahK
-  ms.author: v-nakhu
+  ms.author: beccarobins
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 durationInMinutes: 5
@@ -62,3 +62,15 @@ quiz:
       - content: "Protection against accidental loss"
         isCorrect: true
         explanation: "Correct. Microsoft 365 provides customers with tools to recover accidentally deleted or modified data, but customers are responsible for configuring and using data recovery tools."
+
+    - content: "Microsoft’s unique scale and global footprint bolster which aspect of DDoS defense?"
+      choices:
+      - content: "Absorption"
+        isCorrect: true
+        explanation: "Correct. The scale and global distribution of Microsoft’s online services improve their ability to absorb DDoS attacks, increasing time available for detection and mitigation without loss of availability."
+      - content: "Detection"
+        isCorrect: false
+        explanation: "The scale and global distribution of Microsoft’s online services increase the time allowed for detection but do not directly contribute to detection capabilities."
+      - content: "Mitigation"
+        isCorrect: false
+        explanation: "The scale and global distribution of Microsoft’s online services increase the time allowed for mitigation but do not directly contribute to mitigation capabilities."

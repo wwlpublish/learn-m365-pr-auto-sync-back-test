@@ -3,9 +3,9 @@ uid: learn-m365.mcas-power-automate
 metadata:
   title: Automate Microsoft Cloud App Security with Power Automate
   description: Learn how to use automation with Power Automate to manage alerts in Microsoft Cloud App Security.
-  ms.date: 02/04/2021
+  ms.date: 05/11/2021
   author: geoffallix
-  ms.author: v-gea
+  ms.author: beccarobins
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Automate Microsoft Cloud App Security with Power Automate
@@ -22,7 +22,7 @@ prerequisites: |
   - Experience working with Power Automate
   - Knowledge of security concepts, risks, and mitigations
   - Microsoft Cloud App Security intermediate or equivalent  
-iconUrl: /learn/achievements/generic-badge.svg
+iconUrl: /learn/achievements/automate-microsoft-cloud-app-security-with-power-automate.svg
 levels:
 - advanced
 roles:

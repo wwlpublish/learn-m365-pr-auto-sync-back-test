@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.edu-manage-devices.summary
+metadata:
+  title: Summary
+  description: Review what you've learned in this module.
+  ms.date: 10/14/2020
+  author: iankensey
+  ms.author: v-iakens
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Summary
+durationInMinutes: 1
+content: |
+  [!include[](includes/summary.md)]

@@ -3,7 +3,7 @@ uid: learn.wwl.manage-tenant-health-services-microsoft-365
 metadata:
   title: Manage tenant health and services in Microsoft 365
   description: "Manage tenant health and services in Microsoft 365"
-  ms.date: 04/14/2021
+  ms.date: 05/17/2021
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -17,7 +17,7 @@ abstract: |
   - Request assistance from Microsoft to address technical, pre-sales, billing, and subscription support issues
 prerequisites: |
   None
-iconUrl: /learn/achievements/generic-badge.svg
+iconUrl: /learn/achievements/manage-tenant-health-and-services-in-microsoft-365.svg
 levels:
 - intermediate
 roles:

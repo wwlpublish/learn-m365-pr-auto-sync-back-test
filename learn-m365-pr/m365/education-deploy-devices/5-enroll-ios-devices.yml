@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.edu-deploy-devices.5-enroll-ios-devices
+metadata:
+  title: Enroll iOS devices with automated device enrollment
+  description: Learn about integrating Microsoft Intune with Apples automated device enrollment.
+  ms.date: 10/09/2020
+  author: iankensey
+  ms.author: v-iakens
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Enroll iOS devices with automated device enrollment 
+durationInMinutes: 6
+content: |
+  [!include[](includes/5-enroll-ios-devices.md)]
