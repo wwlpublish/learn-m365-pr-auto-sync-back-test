@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365-pr.viva-topics-knowledge.lifecycle
+metadata:
+  title: Manage content through the topics lifecycle
+  description: Learn about the topics lifecycle - the four phases topics go through from suggested to confirmed, published to rejected.
+  ms.date: 05/03/2021
+  author: lizap
+  ms.author: elizapo
+  ms.topic: interactive-tutorial
+  ms.prod: learning-teams
+title: Manage content through the topics lifecycle
+durationInMinutes: 3
+content: |
+  [!include[](includes/lifecycle.md)]

@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.msgraph-toolkit-customize-part-one.2-change-behavior-attributes
+metadata:
+  title: Change the behavior of components by using attributes
+  description: Learn how to change the behavior of Microsoft Graph Toolkit components by using attributes.
+  ms.date: 04/09/2021
+  author: aycabas
+  ms.author: aycabas
+  ms.topic: interactive-tutorial
+  ms.prod: learning-graph
+title: Change the behavior of components by using attributes
+durationInMinutes: 5
+content: |
+  [!include[](includes/2-change-behavior-attributes.md)]

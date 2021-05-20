@@ -1,0 +1,49 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.edu-manage-devices.knowledge-check
+metadata:
+  title: Knowledge check
+  description: Check your knowledge
+  ms.date: 10/14/2020
+  author: iankensey
+  ms.author: v-iakens
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Knowledge check
+durationInMinutes: 5
+content: |
+quiz:
+    title: Check your knowledge
+    questions:
+    - content: "How can you launch express configuration?"
+      choices:
+      - content: "Sign in to the School Data Sync portal, then select Launch express configuration."
+        isCorrect: false
+        explanation: "You can't launch express configuration from the School Data Sync portal. Instead, you sign in to the Intune for Education portal to launch express configuration."
+      - content: "Sign in to the Intune for Education portal, then select Launch express configuration."
+        isCorrect: true
+        explanation: "That's right. You can launch express configuration from the Intune for Education portal."
+      - content: "Sign in to the Express Configuration portal, then select Launch express configuration."
+        isCorrect: false
+        explanation: "This portal doesn't exist. Instead, you sign in to the Intune for Education portal to launch express configuration."
+    - content: "Which permissions do you need so you can deploy School Data Sync?"
+      choices:
+      - content: "Global Owner permissions"
+        isCorrect: false
+        explanation: "This isn’t a valid permission to deploy School Data Sync. You need the Global Administrator permissions."
+      - content: "Global Administrator permissions"
+        isCorrect: true
+        explanation: "That’s right. This will ensure you have the appropriate access to deploy School Data Sync."
+      - content: "Global Contributor permissions"
+        isCorrect: false
+        explanation: "This isn’t a valid permission to deploy School Data Sync. You need the Global Administrator permissions."
+    - content: "Some students need assistive technologies such as narrators while taking a test, what will you need to do?"
+      choices:
+      - content: "Assistive technology such as narrators should run like normal. You just need to make sure they’re configured to run above the lock screen."
+        isCorrect: true
+        explanation: "That’s correct. This means assistive technologies will run as intended during tests."
+      - content: "Specify all assistive technologies when creating a Take a Test profile. If they aren’t specified, assistive technologies could be blocked from running."
+        isCorrect: false
+        explanation: "You can’t specify assistive technologies when creating Take a Test profile. Instead, you just need to make sure those technologies are configured to run at least above the lock screen."
+      - content: "You need to create an Assistive Technologies profile in order to ensure assistive technologies aren’t blocked."
+        isCorrect: false
+        explanation: "You can’t create an assistive technologies profile. Instead, you just need to make sure those technologies are configured to run at least above the lock screen."

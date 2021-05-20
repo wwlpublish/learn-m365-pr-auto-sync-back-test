@@ -1,0 +1,29 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.introduction-to-microsoft-defender-for-office-365.protect-users-from-malicious-urls-by-using-safe-links
+title: Protect users from malicious URLs by using Safe Links
+metadata:
+  title: Protect users from malicious URLs by using Safe Links
+  description: "Protect users from malicious URLs by using Safe Links"
+  ms.date: 05/10/2021
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+durationInMinutes: 5
+content: |
+  [!include[](includes/5-protect-users-from-malicious-urls-by-using-safe-links.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "When Safe Links is enabled, what does it do when it encounters a malicious link?"
+    choices:
+    - content: "All links are removed from the message"
+      isCorrect: false
+      explanation: "That's incorrect. Safe Links is selective enough to remove only malicious links. Even within a single email, only the malicious links will be removed. If there are other links that are safe, the user can select them and navigate to the target websites without interference. Try again."
+    - content: "The user is blocked from continuing to the site, and the browser displays a warning page"
+      isCorrect: true
+      explanation: "That's correct. An MX record ensures that email sent to the tenant’s domain will arrive in mailboxes hosted in Exchange Online through the EOP service."
+    - content: "An email notification is sent to the user indicating the URL in the original message was blocked"
+      isCorrect: false
+      explanation: "That's incorrect. This action isn't what Safe Links does when testing a URL.  Try again."
