@@ -12,12 +12,12 @@ The following steps illustrate how to create a policy based on the U.S. Personal
 1.  Go to the [Security &amp; Compliance Center](https://sip.protection.office.com/homepage?azure-portal=true) and sign in using your work or school account.
 2.  In the left-hand navigation pane, select **Data loss prevention** and then select **Policy**.<br>
 3.  On the **Policy** page, select the **+Create a policy** button. This button starts the **New DLP Policy** wizard.
-4.  On the **Choose the information to protect** page, select **Privacy**. In the column to the right of it, select the **U.S. Personally Identifiable Information (PII) Data** template from the list of pre-built Privacy templates. Select **Next**.<br><br>:::image type="content" source="../media/9.3.02b-5080117c.png":::
+4.  On the **Choose the information to protect** page, select **Privacy**. In the column to the right of it, select the **U.S. Personally Identifiable Information (PII) Data** template from the list of pre-built Privacy templates. Select **Next**.<br><br>:::image type="content" source="../media/dlp-policy-wizard-protect-information-8a4a24a6.png" alt-text="screenshot of the DLP policy wizard showing the Choose the information to protect page":::
     
 5.  On the **Name your policy** page, **U.S. Personally Identifiable Information (PII) Data** is displayed by default in the **Name** field. Leave this name or change it, and then optionally enter a **Description**. Select **Next**.
-
-:::image type="content" source="../media/9.3.02c-1a778478.png":::
-
+    
+    :::image type="content" source="../media/dlp-policy-wizard-name-your-policy-72cdbfc4.png" alt-text="screenshot of the DLP policy wizard showing the Name your policy page":::
+    
 
 The wizard continues in the next unit, at which point you'll choose the locations that you want to protect.
 
