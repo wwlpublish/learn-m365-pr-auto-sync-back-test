@@ -30,13 +30,12 @@ Your web application will have one HTML file and a folder for Live Server settin
 1. Add a folder named *.vscode* into the root of your project folder
 1. Add a file named *settings.json* into the *.vscode* folder. Copy and paste the following code into *settings.json*, and save the file.
 
-```json
-{
-    "liveServer.settings.host": "localhost",
-    "liveServer.settings.port": 3000
-}
-
-```
+    ```json
+    {
+        "liveServer.settings.host": "localhost",
+        "liveServer.settings.port": 3000
+    }
+    ```
 
 These settings ensure the smooth testing of the application locally, when you're using Live Server.
 
@@ -44,7 +43,7 @@ These settings ensure the smooth testing of the application locally, when you're
 
 Before you start adding code to use the toolkit in your web application, you'll need to set up an Azure Active Directory (Azure AD) application.
 
-You'll use the details of the Azure AD application to authenticate your application by using the Microsoft Authentication Library (MSAL) provider.
+You'll use the details of the Azure AD application to authenticate your application by using the Microsoft Authentication Library (MSAL) v2 provider.
 
 ### Set up an Azure AD application
 
@@ -61,17 +60,17 @@ Earlier you learned that you can reference the toolkit directly from the content
 
 ```
 
-### Initialize the MSAL provider
+### Initialize the MSAL v2 provider
 
-To authenticate your application, initialize the MSAL provider by using the **Application(client)ID** that you saved in the previous section.
+To authenticate your application, initialize the MSAL v2 provider by using the **Application(client) ID** that you saved in the previous section.
 
 Add the following snippet into the body of your *index.html* file.
 
 ```html
-<mgt-msal-provider client-id="YOUR-CLIENT-ID"></mgt-msal-provider>
+<mgt-msal2-provider client-id="YOUR-CLIENT-ID"></mgt-msal2-provider>
 ```
 
-Replace `YOUR-CLIENT-ID` with the **Application(client)ID** that you saved in the previous section.
+Replace `YOUR-CLIENT-ID` with the **Application (client) ID** that you saved in the previous section.
 
 ### Add the Login component to your web app
 
@@ -89,7 +88,7 @@ After all the changes, your *index.html* file should look like the following:
     <script src="https://unpkg.com/@microsoft/mgt/dist/bundle/mgt-loader.js"></script>
 </head>
 <body>
-    <mgt-msal-provider client-id="YOUR-CLIENT-ID"></mgt-msal-provider>
+    <mgt-msal2-provider client-id="YOUR-CLIENT-ID"></mgt-msal2-provider>
     <mgt-login></mgt-login>
 </body>
 </html>
