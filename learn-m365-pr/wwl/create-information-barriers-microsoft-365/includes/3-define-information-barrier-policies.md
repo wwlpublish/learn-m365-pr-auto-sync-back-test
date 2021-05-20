@@ -50,7 +50,7 @@ Organizations should complete the following steps to enable information barrier 
 2.  Run the following PowerShell command. This command tries to establish a handshake to your Microsoft 365 tenant through the Azure portal. It then identifies the information barrier application and starts the authorization request to use information barriers inside the organization.
     
     ```powershell
-    Connect-AzAccount -Tenant "&lt;yourtenantdomain.com&gt;" 
+    Connect-AzAccount -Tenant "&lt;yourtenantdomain.com&gt;"
     
     //for example: Connect-AzAccount -Tenant "Contoso.onmicrosoft.com"
     
@@ -69,7 +69,7 @@ Organizations should complete the following steps to enable information barrier 
 
 Use the following steps to configure information barriers for your organization.
 
-:::image type="content" source="../media/configure-information-barriers-4ed133be.png":::
+:::image type="content" source="../media/configure-information-barriers-4ed133be.png" alt-text="diagram showing the steps required to configure information barriers that are covered in the following table":::
 
 
 The following table provides a summarized view of each step along with additional resources.
