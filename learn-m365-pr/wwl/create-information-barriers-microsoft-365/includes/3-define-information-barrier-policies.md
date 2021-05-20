@@ -50,11 +50,11 @@ Organizations should complete the following steps to enable information barrier 
 2.  Run the following PowerShell command. This command tries to establish a handshake to your Microsoft 365 tenant through the Azure portal. It then identifies the information barrier application and starts the authorization request to use information barriers inside the organization.
     
     ```powershell
-    Connect-AzAccount -Tenant "&lt;yourtenantdomain.com&gt;"
+    Connect-AzAccount -Tenant "<yourtenantdomain.com>"
     
     //for example: Connect-AzAccount -Tenant "Contoso.onmicrosoft.com"
     
-    $appId="&lt;app id&gt;"
+    $appId="<app id>"
     
     $sp=Get-AzADServicePrincipal -ServicePrincipalName $appId
     
@@ -103,7 +103,7 @@ The following table provides a summarized view of each step along with additiona
 :::row-end:::
 :::row:::
   :::column:::
-    Step 2: [Make sure prerequisites are met](https://docs.microsoft.com/microsoft-365/compliance/information-barriers-policies?azure-portal=true)
+    Step 2: [Make sure prerequisites are met](https://docs.microsoft.com/microsoft-365/compliance/information-barriers-policies?azure-portal=true#prerequisites)
   :::column-end:::
   :::column:::
     
@@ -121,7 +121,8 @@ The following table provides a summarized view of each step along with additiona
 :::row-end:::
 :::row:::
   :::column:::
-    Step 3: [Segment users in your organization](https://docs.microsoft.com/microsoft-365/compliance/information-barriers-policies?azure-portal=true)
+    Step 3: [Segment users in your organization](https://docs.microsoft.com/microsoft-365/compliance/information-barriers-policies?view=o365-worldwide?azure-portal=true#part-1-segment-users)
+
   :::column-end:::
   :::column:::
     
@@ -136,7 +137,8 @@ The following table provides a summarized view of each step along with additiona
 :::row-end:::
 :::row:::
   :::column:::
-    Step 4: [Define information barrier policies](https://docs.microsoft.com/microsoft-365/compliance/information-barriers-policies?azure-portal=true)
+    Step 4: [Define information barrier policies](https://docs.microsoft.com/microsoft-365/compliance/information-barriers-policies?azure-portal=true#part-2-define-information-barrier-policies)
+
   :::column-end:::
   :::column:::
     
@@ -149,7 +151,8 @@ The following table provides a summarized view of each step along with additiona
 :::row-end:::
 :::row:::
   :::column:::
-    Step 5: [Apply information barrier policies](https://docs.microsoft.com/microsoft-365/compliance/information-barriers-policies?azure-portal=true)
+    Step 5: [Apply information barrier policies](https://docs.microsoft.com/microsoft-365/compliance/information-barriers-policies?azure-portal=true#part-3-apply-information-barrier-policies)
+
   :::column-end:::
   :::column:::
     

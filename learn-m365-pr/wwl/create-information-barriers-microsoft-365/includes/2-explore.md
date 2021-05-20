@@ -1,6 +1,6 @@
 Some of the most common issues that businesses struggle with are conflicts of interest and insider trading with intercommunication and collaborations between certain groups within the organization. Microsoft 365 addresses these types of issues by implementing information barriers.
 
-### What are Information barriers?
+### What are information barriers?
 
 Information barriers (IB) are policies that restrict communication between certain groups within an organization. Information barrier policies only apply to SharePoint Online, Microsoft Teams, and OneDrive services. Information barrier policies can be used in different kinds of scenarios, including:
 
