@@ -167,7 +167,7 @@ Currently, Outlook 2013 and later supports showing policy tips only for these co
 
 ### Policy tips in the Exchange admin center vs. the Security &amp; Compliance Center
 
-DLP policies and mail flow rules can be created in the Exchange admin center. DLP policies can also be created in the Security and Compliance Center. However, policy tips can work with only one of these method, but not both. This restriction is because the policies created in the Exchange admin center are stored in different location fronm the policies created in the SCC, and policy tips can draw only from a single location.
+DLP policies and mail flow rules can be created in the Exchange admin center. DLP policies can also be created in the Security and Compliance Center. However, policy tips can work with only one of these methods, but not both. This restriction is because the policies created in the Exchange admin center are stored in a different location from the policies created in the SCC, and policy tips can draw only from a single location.
 
 If you've configured policy tips in the Exchange admin center, any policy tips that you configure in the Security &amp; Compliance Center won't appear to users in Outlook on the web and Outlook 2013 and later until you turn off the tips in the Exchange admin center. This ensures that your current Exchange mail flow rules (also known as transport rules) will continue to work until you choose to switch over to the Security &amp; Compliance Center.
 
