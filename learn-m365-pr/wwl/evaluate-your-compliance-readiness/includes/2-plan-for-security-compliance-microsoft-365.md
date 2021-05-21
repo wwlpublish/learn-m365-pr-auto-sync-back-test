@@ -93,7 +93,7 @@ Step 4: Plan data protection based on data sensitivity.
   :::column:::
     
 
-Review the [File Protection Solutions in the Microsoft 365](http://download.microsoft.com/download/7/8/9/789645A5-BD10-4541-BC33-F8D1EFF5E911/MSFT_cloud_architecture_O365%20file%20protection.pdf?azure-portal=true) document and plan your file protection capabilities based on recommended architectures for protecting files in Microsoft 365.
+Review the [File Protection Solutions in the Microsoft 365](https://download.microsoft.com/download/7/8/9/789645A5-BD10-4541-BC33-F8D1EFF5E911/MSFT_cloud_architecture_O365%20file%20protection.pdf?azure-portal=true) document and plan your file protection capabilities based on recommended architectures for protecting files in Microsoft 365.
 
 
   :::column-end:::

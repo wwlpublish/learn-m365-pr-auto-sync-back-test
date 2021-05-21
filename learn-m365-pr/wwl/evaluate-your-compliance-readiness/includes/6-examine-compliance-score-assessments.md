@@ -38,4 +38,4 @@ This Assessment diagram displays the following Microsoft-managed controls (A thr
  -  Microsoft's implementation of the control.
  -  How the control was tested and validated by an independent third-party auditor.
 
-**Additional reading.** For more information, see [how your compliance score is calculated and continuously monitored](https://docs.microsoft.com/microsoft-365/compliance/compliance-score-methodologyhttps://docs.microsoft.com/microsoft-365/compliance/compliance-score-setuphttps://docs.microsoft.com/microsoft-365/compliance/compliance-score-calculation?azure-portal=true).
+**Additional reading.** For more information, see [how your compliance score is calculated and continuously monitored](https://docs.microsoft.com/microsoft-365/compliance/compliance-score-methodology?azure-portal=true).
