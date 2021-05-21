@@ -1,4 +1,4 @@
-In this module, you learned how to prepare your environment for Windows Virtual Desktop. The steps to prepare your environment are:
+In this module, you learned how to prepare your environment for Azure Virtual Desktop. The steps to prepare your environment are:
 
 - Set up Azure Active Directory (Azure AD)
 - Integrate with Active Directory Domain Services
@@ -7,10 +7,10 @@ In this module, you learned how to prepare your environment for Windows Virtual 
   - Virtual network
   - Storage account
 - Assign administrator roles
-- Assign licenses to Windows Virtual Desktop users
+- Assign licenses to Azure Virtual Desktop users
 - Register the DesktopVirtualization provider with your subscription
 
-Go to the next module in the Windows Virtual Desktop learning path to learn how to deploy Windows Virtual Desktop.
+Go to the next module in the Azure Virtual Desktop learning path to learn how to deploy Azure Virtual Desktop.
 
 ## Learn more
 

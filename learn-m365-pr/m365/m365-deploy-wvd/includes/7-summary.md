@@ -1,13 +1,13 @@
-In this module, you learned how to deploy Windows Virtual Desktop in your environment. We reviewed the options to provision a Windows Virtual Desktop host pool and how to use app groups to share apps with your users. Specifically you learned how to:
+In this module, you learned how to deploy Azure Virtual Desktop in your environment. We reviewed the options to provision an Azure Virtual Desktop host pool and how to use app groups to share apps with your users. Specifically you learned how to:
 
-- Create a Windows Virtual Desktop host pool and workspace
+- Create an Azure Virtual Desktop host pool and workspace
 - Make a desktop and apps available to users by using application groups
 - Customize the workspace
-- Connect to the workspace by using the Windows Virtual Desktop client 
+- Connect to the workspace by using the Azure Virtual Desktop client 
 
 ## Learn more
 
-Connect to Windows Virtual Desktop with client:
+Connect to Azure Virtual Desktop with client:
 
 - [Connect with the Windows Desktop client](https://docs.microsoft.com/azure/virtual-desktop/connect-windows-7-and-10)
 - [Connect with the web client](https://docs.microsoft.com/azure/virtual-desktop/connect-web)

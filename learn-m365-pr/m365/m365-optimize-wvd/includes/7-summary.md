@@ -1,4 +1,4 @@
-In this module you learned how you can optimize your Windows Virtual Desktop environment by:
+In this module you learned how you can optimize your Azure Virtual Desktop environment by:
 
 - Setting up roaming and stateful user profiles by using Azure File Storage and FSLogix
 - Configuring Azure File Sync to sync on-premises files or user profile data to Azure Storage
@@ -9,7 +9,7 @@ In this module you learned how you can optimize your Windows Virtual Desktop env
 Docs resources:
 
 - [What is FSLogix?](https://docs.microsoft.com/fslogix/overview)
-- [Storage options for FSLogix profile containers in Windows Virtual Desktop](https://docs.microsoft.com/azure/virtual-desktop/store-fslogix-profile)
+- [Storage options for FSLogix profile containers in Azure Virtual Desktop](https://docs.microsoft.com/azure/virtual-desktop/store-fslogix-profile)
 - [Set up MSIX app attach](https://docs.microsoft.com/azure/virtual-desktop/app-attach)
 - [Enable AD DS authentication for your Azure file shares](https://docs.microsoft.com/azure/storage/files/storage-files-identity-ad-ds-enable)
 -  [Download and Install FSLogix](https://docs.microsoft.com/fslogix/install-ht)
@@ -19,8 +19,8 @@ Docs resources:
 
 Tools:
 
-- [Windows Virtual Desktop PowerShell module](https://docs.microsoft.com/powershell/windows-virtual-desktop/overview)
-- [Windows Virtual Desktop scaling script repository](https://aka.ms/WVDscaling)
+- [Azure Virtual Desktop PowerShell module](https://docs.microsoft.com/powershell/windows-virtual-desktop/overview)
+- [Azure Virtual Desktop scaling script repository](https://aka.ms/WVDscaling)
 
 Related Microsoft Learn training:
 
