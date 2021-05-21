@@ -16,7 +16,7 @@ As important as the types of events we collect is the data those events contain.
 
 ## Enforcing our logging policy
 
-Microsoft 365 enforces logging requirements at the machine level as part of the deployment process. Baseline images include a custom logging agent called the Office Data Loader (ODL). The ODL is configured to collect the events defined by Microsoft 365 Security and send these events to centralized services for processing and storage. Log data is encrypted in transit and scrubbed for end user identifiable information before it is uploaded to the central log storage service.
+Microsoft 365 enforces logging requirements at the machine level as part of the deployment process. Baseline images include a custom logging agent called the Office Data Loader (ODL). The ODL is configured to collect the events defined by Microsoft 365 Security and send these events to centralized services for processing and storage. Log data is encrypted in transit and scrubbed for end-user information before it is uploaded to the central log storage service.
 
 ## Learn more
 
