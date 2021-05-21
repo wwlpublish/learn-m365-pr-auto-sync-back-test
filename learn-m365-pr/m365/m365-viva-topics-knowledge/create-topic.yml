@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365-pr.viva-topics-knowledge.create-topic
+metadata:
+  title: Create a new topic for Viva Topics
+  description: Learn how to create a new topic in Viva Topics.
+  ms.date: 04/11/2021
+  author: lizap
+  ms.author: elizapo
+  ms.topic: interactive-tutorial
+  ms.prod: learning-teams
+title: Create a new topic for Viva Topics
+durationInMinutes: 4
+content: |
+  [!include[](includes/create-topic.md)]
