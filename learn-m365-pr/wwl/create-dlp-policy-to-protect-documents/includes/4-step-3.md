@@ -32,4 +32,4 @@ Both rules used the **Document properties contain any of these values** conditio
 
 The following graphic shows an external user being blocked from accessing a document with a managed property.
 
-:::image type="content" source="../media/blocking-external-sharing-2a2496c1.jpg" alt-text="graphic shows an external user being blocked from accessing a document with a managed propert":::
+:::image type="content" source="../media/blocking-external-sharing-2a2496c1.jpg" alt-text="graphic shows an external user being blocked from accessing a document with a managed property":::
