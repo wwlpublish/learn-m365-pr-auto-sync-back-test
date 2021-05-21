@@ -1,14 +1,14 @@
 ### YamlMime:Module
 uid: learn-m365.optimize-wvd
 metadata:
-  title: Optimize Azure Virtual Desktop in Microsoft Azure
+  title: Optimize Azure Virtual Desktop
   description: Learn the steps to optimize Azure Virtual Desktop, including how to take advantage of new storage, file management, and automated scaling options.  
   ms.date: 06/29/2020
   author: lizap
   ms.author: elizapo
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-title: Optimize Azure Virtual Desktop in Microsoft Azure
+title: Optimize Azure Virtual Desktop
 summary: Learn the steps to optimize Azure Virtual Desktop, including how to customize a basic environment to take advantage of new storage, file management, and automated scaling options.  
 abstract: |
   In this module, you will learn how to:

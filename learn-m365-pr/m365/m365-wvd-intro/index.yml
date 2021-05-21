@@ -1,14 +1,14 @@
 ### YamlMime:Module
 uid: learn-m365.wvd-intro
 metadata:
-  title: Introduction to Azure Virtual Desktop in Microsoft Azure
+  title: Introduction to Azure Virtual Desktop
   description: Learn how to use Azure Virtual Desktop to deliver remote desktop and remote app experiences in Microsoft Azure.
   ms.date: 06/25/2020
   author: lizap
   ms.author: elizapo
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-title: Introduction to Azure Virtual Desktop in Microsoft Azure
+title: Introduction to Azure Virtual Desktop
 summary: Learn how to use Azure Virtual Desktop to deliver remote desktop and remote app experiences in Microsoft Azure.
 abstract: |
   At the end of this module, you should be able to:
