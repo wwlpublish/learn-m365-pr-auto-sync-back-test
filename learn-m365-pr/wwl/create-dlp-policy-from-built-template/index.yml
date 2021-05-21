@@ -3,7 +3,7 @@ uid: learn.wwl.create-dlp-policy-from-built-template
 metadata:
   title: Create a DLP policy from a built-in template
   description: "Create a DLP policy from a built-in template"
-  ms.date: 05/20/2021
+  ms.date: 05/21/2021
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
