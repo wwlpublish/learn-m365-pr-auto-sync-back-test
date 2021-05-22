@@ -153,7 +153,7 @@ const handleExcelOnClick = useCallback(async() => {
     },
     body: JSON.stringify({
       displayName: "Excel",
-      "teamsApp@odata.bind" : "https://graph.microsoft.com/v1.0/appCatalogs/teamsApps/com.microsoft.teamspace.tab.file.staticviewer.word",
+      "teamsApp@odata.bind" : "https://graph.microsoft.com/v1.0/appCatalogs/teamsApps/com.microsoft.teamspace.tab.file.staticviewer.excel",
       configuration: {
         entityId: "2A451F2C-5BC0-4EEF-B986-671705798A54",
         contentUrl: "https://m365x285179.sharepoint.com/sites/TestTeam/Shared Documents/General/Book.xlsx",

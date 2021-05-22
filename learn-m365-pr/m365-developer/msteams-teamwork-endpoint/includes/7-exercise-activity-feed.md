@@ -5,7 +5,7 @@ In this exercise, you'll learn how to use Microsoft Graph to submit notification
 
 ## Add the TeamsActivity.Send permission to the Azure AD application
 
-The Microsoft Graph teamwork endpoint supports modifying the tabs in an existing channel. The user that executes the code that calls the tabs endpoint must consent to one of the **TeamsActivity.\*** permissions. In this exercise, you'll create tabs using this endpoint, so you need to consent to the permission that enables reading and writing tabs: **TeamsActivity.Send**.
+The Microsoft Graph teamwork endpoint supports sending notifications to users. The user that executes the code that calls the endpoint must consent to one of the **TeamsActivity.\*** permissions. In this exercise, you'll send the activity notification using the teamwork endpoint and permission, so you need to consent to the permission that enables this: **TeamsActivity.Send**.
 
 Let's start by adding and pre-consenting this permission for our existing Azure AD application.
 
@@ -75,7 +75,11 @@ After making this change, you'll have to reinstall the app so Microsoft Teams is
 
 ## Update the tab's code
 
-The last step is to add code to call Microsoft Graph. Locate the `return` statement and add the following code immediately before it:
+The last step is to add code to call Microsoft Graph.
+
+Locate and open the **./src/client/MsGraphTeamworkTab/MsGraphTeamworkTab.tsx** file that contains our tab.
+
+Locate the `return` statement and add the following code immediately before it:
 
 ```typescript
 const sendActivityMessage = useCallback(async() => {
@@ -125,7 +129,7 @@ Locate the `handleWordOnClick` callback you added in the previous exercise. At t
 await sendActivityMessage();
 ```
 
-At this point, you're ready to test the activity feed notification code. Save your changes to the **tab.tsx** file.
+At this point, you're ready to test the activity feed notification code. Save your changes to the **MsGraphTeamworkTab.tsx** file.
 
 ## Build and test the application
 

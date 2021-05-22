@@ -13,7 +13,7 @@ You'll use Node.js to create custom Microsoft Teams tabs in this module. The exe
 > [!IMPORTANT]
 > In most cases, installing the latest version of the following tools is the best option. The versions listed here were used when this module was published and last tested.
 
-- [Node.js](https://nodejs.org/) - v10.\* (or higher)
+- [Node.js](https://nodejs.org/) - v12.\* (or higher)
 - NPM (installed with Node.js) - v6.\* (or higher)
 - [Visual Studio Code](https://code.visualstudio.com)
 - [Yeoman](https://yeoman.io/) - v3.\* (or higher)
@@ -232,7 +232,7 @@ useEffect(() => {
 }, [inTeams]);
 ```
 
-This hook will run when the component loads. If the page is loaded in a Microsoft Teams client, as it is when it's in a tab, it calls the `getAuthToken()` method on the Microsoft Teams JavaScript API. When successful, it extracts the ID token Microsoft Teams received from Azure AD and provided to the tab to retrieve the currently signed in user's display name. The user's name is then set, using the `setName()` method, to the React state `name` property.
+This hook will run when the component loads. If the page is loaded in a Microsoft Teams client, as it is when it's in a tab, it calls the `getAuthToken()` method on the Microsoft Teams JavaScript SDK. When successful, it extracts the ID token Microsoft Teams received from Azure AD and provided to the tab to retrieve the currently signed in user's display name. The user's name is then set, using the `setName()` method, to the React state `name` property.
 
 Changing the state triggers React to rerender the component. The code in the `return` statement within the React component will render the updated user experience that includes the user's name from the React state property as shown in the following code.
 
@@ -319,10 +319,10 @@ MSGRAPHTEAMWORK_APP_SCOPES=https://graph.microsoft.com/User.Read email openid pr
 
 The next step is to update the server-side API to add support for using the ID token, obtained by Microsoft Teams, for an OBO access token that can be used to submit requests to Microsoft Graph.
 
-First, install two new dependencies into the project. These are used to submit an HTTP request (*Axios*) and to decode the token returned by Azure AD's token endpoint (*jwt-decode)*
+First, install a new dependencies into the project. This is used to submit an HTTP request (*Axios*):
 
 ```console
-npm install jwt-decode axios -SE
+npm install axios -SE
 ```
 
 Next, locate, and open the **./src/server/server.ts** file.
