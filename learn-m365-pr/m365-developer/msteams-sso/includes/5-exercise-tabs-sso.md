@@ -16,11 +16,12 @@ You'll use Node.js to create a custom Microsoft Teams app in this module. The ex
 > [!IMPORTANT]
 > In most cases, installing the latest version of the following tools is the best option. The versions listed here were used when this module was published and last tested.
 
-- [Node.js](https://nodejs.org/) - v10.\* (or higher)
+- [Node.js](https://nodejs.org/) - v12.\* (or higher)
 - NPM (installed with Node.js) - v6.\* (or higher)
-- [Visual Studio Code](https://code.visualstudio.com)
+- [Gulp](https://gulpjs.com/) - v4.\* (or higher)
 - [Yeoman](https://yeoman.io/) - v3.\* (or higher)
-- [Yeoman Generator for Microsoft Teams](https://github.com/OfficeDev/generator-teams) - v3.0.3 (or higher)
+- [Yeoman Generator for Microsoft Teams](https://github.com/OfficeDev/generator-teams) - v3.0.\* (or higher)
+- [Visual Studio Code](https://code.visualstudio.com)
 
 You must have the minimum versions of these prerequisites installed on your workstation.
 
@@ -60,8 +61,6 @@ After answering the generator's questions, the generator will create the scaffol
 ## Explore the initial project
 
 Let's explore a few parts of the project created by the Yeoman Generator for Microsoft Teams in Visual Studio Code.
-
-The initial project actually contains two separate web applications that you'll use:
 
 ![Screenshot of the custom Teams app project](../media/05-vs-code-create-project-01.png)
 
@@ -152,7 +151,7 @@ Before testing the Microsoft Teams app, you need to update all locations where y
 
 - **Visual Studio Code project**
   - Locate and open the **./.env** file
-  - Find & replace all instances of `REPLACe.ngrok.io`
+  - Find & replace all instances of `REPLACE.ngrok.io`
 - **Azure AD Application > Authentication > Redirect URIs**
 - **Azure AD Application > Expose an API > Application ID URI**
 
@@ -190,11 +189,9 @@ When the tab loads, it will initiate the SSO process with Azure AD and obtain an
 
 At this point, our tab uses Microsoft Teams' SSO support to obtain an ID token for the current user. This ID token can only be used to identify the user, but it can't be used to authenticate requests with Microsoft Graph.
 
-To submit requests to Microsoft Graph, you must include an access token with the necessary permissions for Microsoft Graph for the current user to. You can update the project to submit the ID token to Azure AD's token endpoint to exchange it for an access token that can be used to authenticate requests to Microsoft Graph. This is done by implementing the [OAuth2 On-Behalf-Of (OBO) flow](/azure/active-directory/develop/v2-oauth2-on-behalf-of-flow), but this can't be done client-side, rather it must be done server-side.
+To submit requests to Microsoft Graph, you must include an access token with the necessary permissions for Microsoft Graph for the current user. You can update the project to submit the ID token to Azure AD's token endpoint to exchange it for an access token that can be used to authenticate requests to Microsoft Graph. This is done by implementing the [OAuth2 On-Behalf-Of (OBO) flow](/azure/active-directory/develop/v2-oauth2-on-behalf-of-flow), but this can't be done client-side, rather it must be done server-side.
 
 ### Update project to obtain access tokens for Microsoft Graph via the OAuth2 OBO flow
-
-Now that the Azure AD application is updated, let's apply those changes to the app project.
 
 In your Microsoft Teams app project, locate and open the **./.env** file. At the end of the file, there are two environment variables that were set by the Yeoman generator when you created the project. Their names are based on the name of the project:
 
@@ -215,13 +212,7 @@ SSOTAB_APP_SCOPES=https://graph.microsoft.com/User.Read email openid profile off
 
 The next step is to update the server-side API to add support for using the ID token, obtained by Microsoft Teams, for an OBO access token that can be used to submit requests to Microsoft Graph.
 
-First, install two new dependencies into the project. These are used to submit an HTTP request (*Axios*) and to decode the token returned by Azure AD's token endpoint (*jwt-decode)*
-
-```console
-npm install axios -SE
-```
-
-Next, locate, and open the **./src/server/server.ts** file.
+Locate, and open the **./src/server/server.ts** file.
 
 Add the following two `import` statements after the existing `import` statements:
 

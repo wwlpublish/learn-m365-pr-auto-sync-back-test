@@ -19,11 +19,12 @@ You'll use Node.js to create a custom Microsoft Teams app in this module. The ex
 > [!IMPORTANT]
 > In most cases, installing the latest version of the following tools is the best option. The versions listed here were used when this module was published and last tested.
 
-- [Node.js](https://nodejs.org/) - v10.\* (or higher)
+- [Node.js](https://nodejs.org/) - v12.\* (or higher)
 - NPM (installed with Node.js) - v6.\* (or higher)
-- [Visual Studio Code](https://code.visualstudio.com)
+- [Gulp](https://gulpjs.com/) - v4.\* (or higher)
 - [Yeoman](https://yeoman.io/) - v3.\* (or higher)
-- [Yeoman Generator for Microsoft Teams](https://github.com/OfficeDev/generator-teams) - v3.0.3 (or higher)
+- [Yeoman Generator for Microsoft Teams](https://github.com/OfficeDev/generator-teams) - v3.0.\* (or higher)
+- [Visual Studio Code](https://code.visualstudio.com)
 
 You must have the minimum versions of these prerequisites installed on your workstation.
 
@@ -170,7 +171,7 @@ Once this process is complete, you should see both the **Web Chat** and **Micros
 
 ## Create your Microsoft Teams app project
 
-Open your command prompt, navigate to a directory where you want to save your work, create a new folder **learn-msteams-sso-tab**, and change directory into that folder.
+Open your command prompt, navigate to a directory where you want to save your work, create a new folder **learn-msteams-sso-bot**, and change directory into that folder.
 
 Run the Yeoman Generator for Microsoft Teams by running the following command:
 
@@ -180,23 +181,21 @@ yo teams
 
 Yeoman will launch and ask you a series of questions. Answer the questions with the following values:
 
-- **What is your solution name?**: learn-msteams-sso-tab
+- **What is your solution name?**: learn-msteams-sso-bot
 - **Where do you want to place the files?**: Use the current folder
-- **Title of your Microsoft Teams App project?**: SSO Teams Tab
+- **Title of your Microsoft Teams App project?**: SSO Teams Bot
 - **Your (company) name? (max 32 characters)**: Contoso
 - **Which manifest version would you like to use?**: v1.8
 - **Quick scaffolding**: Yes
-- **What features do you want to add to your project?**: A Tab
-- **The URL where you will host this solution?**: https://REPLACE.ngrok.io
+- **What features do you want to add to your project?**: A bot
+- **The URL where you will host this solution?**:  (Accept the default option)
 - **Would you like to show a loading indicator when your app/tab loads?** No
 - **What type of bot would you like to use?** An already existing and running bot (not hosted in this solution)
 - **What is the Microsoft App ID for the bot? It's found in the Bot Framework portal (https://dev.botframework.com)** *Enter the Azure AD application ID (also known as the application ID) for the app you registered in a previous exercise.*
-- **Default Tab name? (max 16 characters)**: SSO Tab
-- **What kind of Tab would you like to create?**: Configurable
-- **What scopes do you intend to use for your Tab?**: In a Team
-- **Do you require Azure AD Single-Sign-On support for the tab?** Yes
-- **What is the Application ID to associate with the SSO Tab?**: *Enter the **Application (Client) ID** for the Azure AD application you registered in the previous exercise*
-- **What is the Application ID URI to associate with the SSO Tab?**: (Accept the default)
+- **Do you want to add a static tab to your bot?** Yes
+- **What is the title of your static tab for the bot? (max 16 characters)**: SSO Bot
+- **Do you want to support file upload to the bot?** No
+- **Do you want to include bot calling support?** No
 
 > [!IMPORTANT]
 > At the time of writing this exercise, the Yeoman Generator for Microsoft Teams doesn't contain a project template for a bot that supports SSO. That's why you selected *An already existing and running bot* in the options above. In the next step, you'll manually add the bot to the project.
@@ -364,7 +363,7 @@ The `SsoOAuthHelper` class contains the following two methods:
 - `shouldProcessTokenExchange()`: This method determines if the activity `signin/tokenExchange` should be processed by this caller. If so, it calls the other method `exchangeToken()`.
 - `exchangeToken()`: This method attempts to retrieve an access token from the bot's OAuth connection configuration in the Bot Framework registration. This is done by specifying the connection name specified. If this fails, then the bot framework is unable to exchange the token, so the bot notifies the sender that a preconditioned failed. Our bot uses this to prompt the user to consent to the sign-in prompt.
 
-Next, add the helper for obtaining data from Microsoft Graph. Add a new file **SsoOAuthHelper.ts** to the **helpers** folder, and add the following code to it:
+Next, add the helper for obtaining data from Microsoft Graph. Add a new file **MsGraphHelper.ts** to the **helpers** folder, and add the following code to it:
 
 ```typescript
 import { Client } from "@microsoft/microsoft-graph-client";
@@ -622,7 +621,7 @@ export class SsoOauthPrompt extends OAuthPrompt {
 }
 ```
 
-At this point, we cannot implement the main part of our bot: the `DialogBot` class.
+At this point, we can implement the main part of our bot: the `DialogBot` class.
 
 Create a new file, **./src/server/SsoBot/DialogBot.ts** that will serve as the base for our bot. Notice the constructor of the `DialogBot` class accepts an instance of the `MainDialog` that our bot will pass into it. When the bot receives a message, it will run the `MainDialog`.
 
@@ -635,7 +634,7 @@ import {
   TeamsActivityHandler,
   TurnContext
 } from "botbuilder";
-import { MainDialog } from "./dialogs/mainDialog.ts";
+import { MainDialog } from "./dialogs/mainDialog";
 
 export class DialogBot extends TeamsActivityHandler {
   public dialogState: any;
@@ -670,7 +669,7 @@ The last step in creating our bot is to implement the bot itself.
 
 ### Add the bot to the project
 
-Create a new file, **./src/server/SsoBot/SsoBot.ts, and add the following code to it:
+Create a new file, **./src/server/SsoBot/SsoBot.ts**, and add the following code to it:
 
 ```typescript
 import { DialogBot } from "./DialogBot";
@@ -725,7 +724,7 @@ Notice in the constructor for the `SsoBot`, which extends the `DialogBot` you pr
 
 The other two events in the `SsoBot` class, `handleTeamsSigninTokenExchange()` and `handleTeamsSigninVerifyState()`, handle when the invoke activities of types `signin/tokenExchange` and `signin/verifyState` respectively.
 
-The handler for the `signin/tokenExchange` activity uses the helper we previously created to process the token received, if it should be processed. The token should only be processed once while the response is sent to every Microsoft Teams instance where the user is signed in, which may be more than one.
+The handler for the `signin/tokenExchange` activity uses the helper we previously created to process the token received, if it should be processed. The token should only be processed once, while the response is sent to every Microsoft Teams instance where the user is signed in, which may be more than one.
 
 ### Load the bot when the web server starts
 
@@ -780,7 +779,7 @@ adapter.onTurnError = async (context, error) => {
 };
 ```
 
-This code will create an instance of the `BotFrameworkAdapter`, initialized with our Azure AD app's credentials. It then runs out bot whenever an activity is received on the **/api/messages** endpoint.
+This code will create an instance of the `BotFrameworkAdapter`, initialized with our Azure AD app's credentials. It then runs our bot whenever an activity is received on the **/api/messages** endpoint.
 
 Lastly, locate and open the file **./src/server/TeamsAppsComponents.ts**. Make sure this file doesn't reference our bot, nor any non-existent files in our project. For instance, the default template may include a reference to the following file:
 
