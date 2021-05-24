@@ -133,7 +133,7 @@ Yeoman will launch and ask you a series of questions. Answer the questions with 
 - **Which manifest version would you like to use?**: v1.8
 - **Quick scaffolding**: Yes
 - **What features do you want to add to your project?**: A Tab
-- **The URL where you will host this solution?**: https://REPLACE.ngrok.io
+- **The URL where you will host this solution?**: `https://REPLACE.ngrok.io`
 - **Would you like to show a loading indicator when your app/tab loads?** No
 - **Default Tab name? (max 16 characters)**: MSGraph Teamwork
 - **What kind of Tab would you like to create?**: Configurable
@@ -184,8 +184,6 @@ Next, select the plus icon to the right of the existing tabs to add a new tab:
 ![Screenshot selecting a team and channel](../media/03-add-tab-01.png)
 
 The app containing our new tab isn't installed yet, so in the **Add a tab** dialog, select **Manage apps** in the lower-right corner.
-
-![Screenshot installing a new tab, step 1](../media/03-add-tab-02.png)
 
 On the next screen, select the **Upload a custom app** link in the lower right corner of the screen below the list of existing installed apps.
 
