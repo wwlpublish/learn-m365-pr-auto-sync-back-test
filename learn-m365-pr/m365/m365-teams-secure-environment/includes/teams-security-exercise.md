@@ -8,4 +8,4 @@ In this exercise, you will:
 Click [Identity, access management, and threat protection for Teams](https://aka.ms/teamsesecurityinteractiveguide?azure-portal=true) to start the exercise. Be sure to return to this page when you're finished with the exercise, to complete this module.
 
 >[!NOTE]
-> In this exercise, you'll see references to Office 365 Advanced Threat Protection - this product has been renamed Microsoft 365 Defender. The exercise materials will be updated.
+> In this exercise, you'll see references to Office 365 Advanced Threat Protection - this product has been renamed Microsoft Defender for Office 365. The exercise materials will be updated.

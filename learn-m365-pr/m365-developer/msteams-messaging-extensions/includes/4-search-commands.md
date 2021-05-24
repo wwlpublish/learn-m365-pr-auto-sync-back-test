@@ -21,7 +21,7 @@ To register a search command messaging extension, add it to the `composeExtensio
 ```json
 "composeExtensions": [
   {
-    "botId": "<REPLACE_WITH_MICROSOFT_APP_ID>",
+    "botId": "{{MICROSOFT_APP_ID}}",
     "canUpdateConfiguration": false,
     "commands": [
       {
