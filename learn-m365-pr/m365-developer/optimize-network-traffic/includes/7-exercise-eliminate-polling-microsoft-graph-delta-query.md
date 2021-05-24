@@ -1,5 +1,8 @@
 In this exercise, you'll use the Azure AD application and .NET console application you previously created and modify them to demonstrate using the delta query feature of Microsoft Graph. An application can leverage the delta query feature to avoid costly requests to poll for changes in Microsoft Graph that can trigger requests to be throttled.
 
+> [!IMPORTANT]
+> This exercise assumes you have created the Azure AD application and .NET console application from the previous unit in this module. You'll edit the existing Azure AD application and .NET console application created in that exercise in this exercise.
+
 ## Add an additional permission the Azure AD application
 
 In this exercise, you'll update the application to get a list of all the users in the tenant. To do this task, the Azure AD application needs additional permissions.
@@ -159,12 +162,6 @@ while (true)
 The first request will result in the application obtaining the delta link that will be used in future requests to include only the new and changed users. Each time users are requested, the delta link will be refreshed.
 
 ### Build and test the application
-
-Run the following command to ensure the developer certificate has been trusted:
-
-```console
-dotnet dev-certs https --trust
-```
 
 Run the following command in a command prompt to compile the console application:
 

@@ -12,7 +12,7 @@ By the end of this module, you'll be able to:
 ## Prerequisites
 
 - Basic knowledge of REST services and APIs
-- Ability to develop with ASP.NET Core at the intermediate level
+- Ability to develop with NET Core at the intermediate level
 - Experience using Visual Studio Code at the beginner level
 - Access to a [Microsoft 365 tenant](https://developer.microsoft.com/office/dev-program?ocid=MSlearn)
 

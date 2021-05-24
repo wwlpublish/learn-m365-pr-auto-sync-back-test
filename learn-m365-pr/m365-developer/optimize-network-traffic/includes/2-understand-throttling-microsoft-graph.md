@@ -32,7 +32,7 @@ In HTTP APIs, the result of a request is indicated by the HTTP status code retur
 
 For example, successful status codes are in the range of 200-299. Common successful status codes include:
 
-- 200: used when requesting a resource) or
+- 200: used when requesting a resource or
 - 201 and 204: used on write operations for creating, updating, or deleting resources
 
 Error status codes are in the ranges of 400-499 & 500s. Common failed status codes include:

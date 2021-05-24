@@ -1,6 +1,6 @@
 ## Avoid polling Microsoft Graph for changes
 
-One common scenario that custom applications implement is polling Microsoft Graph on scheduled intervals. Typically this strategy is used to keep the application’s local data store in sync with data exposed in Microsoft Graph. However, polling Microsoft Graph for changes usually requires multiple GET requests for many data to submit in succession, a scenario that commonly triggers requests to be throttled.
+One common scenario that custom applications implement is polling Microsoft Graph on scheduled intervals. Typically this strategy is used to keep the application’s local data store in sync with data exposed in Microsoft Graph. However, polling Microsoft Graph for changes usually requires multiple GET requests for data to submit in succession, a scenario that commonly triggers requests to be throttled.
 
 ## Microsoft Graph: delta query
 
@@ -8,9 +8,9 @@ One way to mitigate throttling when polling Microsoft Graph for large data sets 
 
 Delta query works using the concept of a state token. An application will issue an initial request to Microsoft Graph the same way it normally does, except it will include the delta link function in the request.
 
-Microsoft Graph will respond with the requested data as normal, except the last page of data will include an extra property deltaLink. This contains the endpoint with the state token of the delta query.
+Microsoft Graph will respond with the requested data as normal, except the last page of data will include an extra property `deltaLink`. This contains the endpoint with the state token of the delta query.
 
-To request the changes that happened in the resulting data set from the time the previous query was submitted, the application uses the endpoint from the previous request’s deltaLink endpoint. This tells Microsoft Graph to execute the same query, but only return the items that have changed since the first request, as indicated using the state token included in the deltaLink property. The last page of results on this second request will include a new deltaLink property value that can be used for the next request, and so on.
+To request the changes that happened in the resulting data set from the time the previous query was submitted, the application uses the endpoint from the previous request’s `deltaLink` endpoint. This tells Microsoft Graph to execute the same query, but only return the items that have changed since the first request, as indicated using the state token included in the `deltaLink` property. The last page of results on this second request will include a new `deltaLink` property value that can be used for the next request, and so on.
 
 ### Delta query supported by many Microsoft Graph resources
 
@@ -22,7 +22,7 @@ Delta query, when combined with another feature of Microsoft Graph, can be used 
 
 ### Microsoft Graph change notifications
 
-An application can subscribe to be notified when a specific resource changes, such as the users. When a user is added, updated, or deleted, the application is notified something changed in the users endpoint by Microsoft Graph via an HTTP POST. The application can then use delta query to request all changes since the last time it made the request.
+An application can subscribe to be notified when a specific resource changes, such as the `users`. When a user is added, updated, or deleted, the application is notified something changed in the `users` endpoint by Microsoft Graph via an HTTP POST. The application can then use delta query to request all changes since the last time it made the request.
 
 Using this strategy, applications can nearly eliminate the need to frequently poll Microsoft Graph and process those changes to keep a local data store in sync, greatly reducing the chances for their requests to be throttled.
 
