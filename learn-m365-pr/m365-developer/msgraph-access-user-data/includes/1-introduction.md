@@ -6,7 +6,7 @@ In this module, you'll learn how to use Microsoft Graph to work with users in Mi
 
 - Basic knowledge of REST services & APIs
 - Basic knowledge of Microsoft Graph
-- Ability to develop with ASP.NET Core at the intermediate level
+- Ability to develop with NET Core at the intermediate level
 - Experience using Visual Studio Code at the beginner level
 - Access to a [Microsoft 365 tenant](https://developer.microsoft.com/office/dev-program?ocid=MSlearn)
 

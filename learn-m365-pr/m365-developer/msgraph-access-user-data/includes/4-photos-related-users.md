@@ -82,7 +82,7 @@ One of the resources linked off the user resource is the user's manager. The `/m
 
 ```csharp
 var userId = "{ID}";
-var requestUserManager = client.Users[userId]
+var requestUserManager = graphClient.Users[userId]
                                .Manager
                                .Request();
 var resultsUserManager = requestUserManager.GetAsync().Result;
