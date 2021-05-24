@@ -17,7 +17,7 @@ abstract: |
   - Explain how to review your assessment.  
 
 prerequisites: | 
- - Basic understanding of Microsoft Azure. If you are unfamiliar with this, we recommend you take [Microsoft Azure Fundamentals](https://docs.microsoft.com/learn/paths/azure-fundamentals/)
+ - Basic understanding of Microsoft Azure. If you are unfamiliar with this, we recommend you take [Microsoft Azure Fundamentals](/learn/paths/azure-fundamentals/)
 iconUrl: /learn/achievements/discover-assess-azure-migrate-server-migration.svg
 ratingEnabled: true
 levels:
