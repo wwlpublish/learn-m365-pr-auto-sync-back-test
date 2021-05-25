@@ -6,9 +6,10 @@ Once an organization has finished creating and configuring its sensitivity label
      -  In the Security &amp; Compliance Center, navigate to **Classification &gt; Sensitivity labels.**<br>
 2.  Select the **Label policies** tab, and then select **Publish labels** to start the **Create policy** wizard. The following image shows this step in the Microsoft 365 compliance center.<br><br>:::image type="content" source="../media/publish-sensitivity-labels-full-80bc98e3.png" alt-text="screenshot of the Label policies page with the Publish labels button highlighted":::
     <br>
-    
+
     > [!NOTE]
-    > By default, Microsoft 365 tenants don't have any label policies. As a result, you must create at least one policy to publish your sensitivity labels.
+    > By default, Microsoft 365 tenants don't have any label policies. As a result, you must create at least one policy to publish your sensitivity labels
+
 3.  In the wizard, select **Choose sensitivity labels to publish**. Select the labels that you want to make available in apps and to services, and then select **Add**.
 4.  Review the selected labels. To make any changes, select **Edit**. If no changes are needed, select **Next**.
 5.  Follow the prompts to configure the policy settings.<br><br>The policy settings that you see match the scope of the labels that you selected. For example, if you selected labels that have just the **Files &amp; emails** scope, you won't see the policy settings titled "**Apply this label by default to groups and sites"** and "**Require users to apply a label to their groups and sites**."<br><br>Labels configured for Azure Purview assets (preview) won't have any associated policy settings.

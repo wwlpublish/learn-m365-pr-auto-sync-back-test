@@ -20,9 +20,10 @@ Complete the following steps to create and configure sensitivity labels:
     
     The following image shows this step in the Microsoft 365 compliance center.<br><br>:::image type="content" source="../media/create-sensitivity-label-full-354f79f0.png" alt-text="screenshot showing the sensitivity label window in the Microsoft 365 compliance center":::
     
-    
+
     > [!NOTE]
-    > By default, Microsoft 365 tenants don't have any labels. As a result, you must create them. The labels in the prior image show default labels that were [migrated from Azure Information Protection](https://docs.microsoft.com/azure/information-protection/configure-policy-migrate-labels?azure-portal=true).
+    > By default, Microsoft 365 tenants don't have any labels. As a result, you must create them. The labels in the prior image show default labels that were migrated from Azure Information Protection.
+
 3.  On the **Define the scope for this label** page, the options selected determine the label's scope for the settings that you can configure and where they'll be visible when they're published.
     
     :::image type="content" source="../media/sensitivity-label-scope-options-5b86e312.png" alt-text="screenshot of the Define the scope for this label page":::
