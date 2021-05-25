@@ -88,7 +88,7 @@ Here are the values used in the example:
 
 Here is the result of running the PowerShell command shown above. The **ClientIPAddress** and **ClientInfoString** details help to determine if the sync activity came from a legitimate source.
 
- ![PowerShell command results](../media/search-mailboxauditlog.png) 
+ ![The PowerShell command results from checking the sync activity context showing that user meganb accessed mail through Microsoft Exchange.](../media/search-mailboxauditlog.png)
  
 ## Check for bind activities
 After performing the sync activity analysis, you can be confident all other access to email messages, whether by a legitimate user or the attacker, will be captured in the **MailItemsAccessed** audit records with a **MailAccessType** property with a value of "Bind". To search for **MailItemsAccessed** records where the mail items were accessed by a Bind operation, run the following command:
@@ -97,7 +97,7 @@ After performing the sync activity analysis, you can be confident all other acce
 
 Here is the result of running the PowerShell command shown above: 
  
- ![PowerShell command results](../media/search-unifiedauditlog-2.png) 
+ ![The PowerShell command results from checking for bind activities showing all the times user meganb accessed mail through Microsoft Exchange on the specified date.](../media/search-unifiedauditlog-2.png)
 
 Email messages that were accessed are identified by their **InternetMessageId** value. You can also check to see if any audit records have the same context as those records already associated with other attacker activity. 
 
