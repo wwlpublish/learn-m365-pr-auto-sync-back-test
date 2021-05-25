@@ -25,7 +25,7 @@ Complete the following steps to create and configure sensitivity labels:
     > By default, Microsoft 365 tenants don't have any labels. As a result, you must create them. The labels in the prior image show default labels that were [migrated from Azure Information Protection](https://docs.microsoft.com/azure/information-protection/configure-policy-migrate-labels?azure-portal=true).
 3.  On the **Define the scope for this label** page, the options selected determine the label's scope for the settings that you can configure and where they'll be visible when they're published.
     
-    :::image type="content" source="../media/sensitivity-labels-scopes-75ffb444.png" alt-text="screenshot of the Define the scope for this label page":::
+    :::image type="content" source="../media/sensitivity-label-scope-options-5b86e312.png" alt-text="screenshot of the Define the scope for this label page":::
     
     
      -  If you select the **Files &amp; emails** option, you can configure settings in this wizard that apply to apps that support sensitivity labels, such as Office Word and Outlook. If you don't select this option, the wizard displays the first page of these settings. However, you can't configure them and the labels won't be available for users to select in these apps.
