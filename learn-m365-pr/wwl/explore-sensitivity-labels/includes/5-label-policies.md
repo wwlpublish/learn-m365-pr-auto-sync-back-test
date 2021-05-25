@@ -27,10 +27,10 @@ When an organization configures a label policy, it can:
     :::image type="content" source="../media/sensitivity-labels-mandatory-prompt-aip-outlook-e1aeec1c.png" alt-text="screenshot displays an example of a prompt shown in Outlook when a user is required to assign a label":::
     
 
-> [!NOTE]
-> Mandatory labeling for documents and emails isn't available for all apps or all platforms. For more information, see [Require users to apply a label to their email and documents](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-office-apps?azure-portal=true).
+    Organizations should consider using this option to help increase their labeling coverage. However, without user training, these settings can result in inaccurate labeling and frustrated users. For example, unless you also set a corresponding default label, mandatory labeling can frustrate your users with the frequent prompts.
 
-Organizations should consider using this option to help increase their labeling coverage. However, without user training, these settings can result in inaccurate labeling and frustrated users. For example, unless you also set a corresponding default label, mandatory labeling can frustrate your users with the frequent prompts.<br>
+    > [!NOTE]
+    > Mandatory labeling for documents and emails isn't available for all apps or all platforms. For more information, see [Require users to apply a label to their email and documents](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-office-apps?azure-portal=true).
 
  -  **Provide help link to a custom help page.** If your users aren't sure what your sensitivity labels mean or how they should be used, you can provide a **Learn More** URL. This URL will appear at the bottom of the Sensitivity label menu in the Office apps.
     
