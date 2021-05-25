@@ -3,9 +3,9 @@ uid: learn-m365.advanced-scenarios-guidance
 metadata:
   title: Configure advanced scenarios in Microsoft Cloud App Security
   description: Use advanced features of Microsoft Cloud App Security to protect more devices, integrate with other products, and customize security tools.
-  ms.date: 02/04/2021
+  ms.date: 05/14/2021
   author: alistairmatthews
-  ms.author: v-alimat
+  ms.author: beccarobins
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Configure advanced scenarios in Microsoft Cloud App Security
@@ -22,7 +22,7 @@ prerequisites: |
   - Experience working with Azure 
   - Knowledge of security concepts, risks, and mitigations
   - Microsoft Cloud App Security fundamentals or equivalent
-iconUrl: /learn/achievements/generic-badge.svg
+iconUrl: /learn/achievements/configure-advanced-scenarios-in-microsoft-cloud-app-security.svg
 levels:
 - advanced
 roles:

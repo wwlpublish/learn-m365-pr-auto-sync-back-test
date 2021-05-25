@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.teams.securing-environment.teams-security-exercise
+title: Exercise - Configure identity, access management, and threat protection for Teams
+metadata:
+  title: Exercise - Configure identity, access management, and threat protection for Teams
+  description: Walk through the steps to configure security in Microsoft Teams.
+  ms.date: 05/23/2021
+  ms.author: elizapo
+  author: lizap
+  ms.topic: interactive-tutorial
+  ms.prod: learning-teams
+durationInMinutes: 10
+content: |
+  [!include[](includes/teams-security-exercise.md)]

@@ -14,7 +14,6 @@ Let's say you want to change the appearance of the button content for the **Logi
     <style>
     </style>
 </head>
-
 ```
 
 1. To customize the body of the page, add **body{}** between the `<style>` tags. Use the following CSS property inside the **body{}** selector:
@@ -33,36 +32,34 @@ Let's say you want to change the appearance of the button content for the **Logi
     ```html
     <head>
     <style>
-     	body {
-                background-color:black;   
-            }
-            mgt-login {
-                --padding: 30px ; 
-                --button-color--hover:grey;
-                --button-background-color:slategrey;
-                --popup-color:slategrey;
-            }
-            mgt-agenda{
-                --agenda-header-font-size:24px;
-                --event-padding:20px;
-                --event-background-color:slategrey;
-                --event-box-shadow:grey;   
-            }
+        body {
+            background-color:black;   
+        }
+        mgt-login {
+            --padding: 30px ; 
+            --button-color--hover:grey;
+            --button-background-color:slategrey;
+            --popup-color:slategrey;
+        }
+        mgt-agenda{
+            --agenda-header-font-size:24px;
+            --event-padding:20px;
+            --event-background-color:slategrey;
+            --event-box-shadow:grey;   
+        }
     </style>
     </head>
-    
-    
-    ```      
+    ```
 
 1. Let's add a dark global theme to the HTML page by using `class="mgt-dark"`. Open the **index.html** file, and add the following **class** attribute to the `<body>` tag.
-    
+
     ```html
     <html>
         <head>
-        	...
+            ...
         </head>
         <body class="mgt-dark"> 
-        	...
+            ...
         </body>
     </html>
     
@@ -97,12 +94,12 @@ The final version of the **index.html** file will look like this example:
 </head>
 <body class="mgt-dark">
     
-    <mgt-msal-provider client-id="[Your-Client-ID]"></mgt-msal-provider>
+    <mgt-msal2-provider client-id="[Your-Client-ID]"></mgt-msal2-provider>
     
-<mgt-login>
+    <mgt-login>
         <template data-type="signed-in-button-content" > 
             <div>
-            {{personDetails.mail}}
+                {{personDetails.mail}}
             </div>
         </template>    
     </mgt-login>

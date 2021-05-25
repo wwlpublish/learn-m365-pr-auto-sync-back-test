@@ -3,7 +3,7 @@ Microsoft Graph Toolkit provides various components that help you connect with s
 Let’s say you want to display a group of people in your app. You can use the People component to handle calling Microsoft Graph.
 
 Here's an example of using the People component in HTML:
-    
+
 ```html
 <mgt-people></mgt-people>
 ```
@@ -26,7 +26,8 @@ GET /me/messages
 
 Although this functionality isn't one of the toolkit components, it's possible to consume any Microsoft Graph query to reach hundreds of different datasets available in Microsoft 365. By using the Get component, you can call any Microsoft Graph query to retrieve required data directly in HTML.
 
-Here's an example of using the Get component: 
+Here's an example of using the Get component:
+
 ```html
 <mgt-get></mgt-get>
 ```

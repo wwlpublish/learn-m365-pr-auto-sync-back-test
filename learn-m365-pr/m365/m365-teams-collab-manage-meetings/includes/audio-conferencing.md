@@ -55,6 +55,15 @@ In addition to the core deployment decisions, it’s important to also consider 
 | Dial plans | A dial plan, as part of Phone System in Microsoft 365, is a set of normalization rules that translate dialed phone numbers into an alternate format (typically E.164 format) for call authorization and call routing. |
 | Monitor and troubleshoot meeting and call quality | Teams gives you two ways to monitor and troubleshoot call quality problems:  **Call Analytics** and **Call Quality Dashboard.** Both tools are described in the unit **Monitor call quality.**|
 
+## Try it - configure audio conferencing
+Now that you've learned the basics for audio conferences, it's time to try configuring the settings yourself. 
+
+In this exercise, you will:
+- Get and configure the conferencing bridge number.
+- Assign a dial-in number for meeting leaders.
+
+Click [Configure Audio Conferencing for Teams](https://aka.ms/AudioConferencingInteractiveGuide?azure-portal=true) to start the exercise. Be sure to return to this page when you're finished with the exercise, to complete this module.
+
 ## Learn more
 
 When you're done with a link, use the **Back** arrow in your browser to come back to this page.

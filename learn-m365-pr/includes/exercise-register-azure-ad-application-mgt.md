@@ -13,18 +13,7 @@ ms.topic: include
 
 1. On the **Register an application** page, enter the **Name** for your Azure Active Directory app. An example is **mgt-aad-app**.
 1. For the type of **Supported account types**, select **Accounts in any organizational directory (Any Azure AD directory - Multitenant) and personal Microsoft accounts (e.g. Skype, Xbox)**.
-1. In the **Redirect URI** field, in the dropdown, select **Web**. In the URL field, enter http://localhost:3000.
+1. In the **Redirect URI** field, in the dropdown, select **Single Page Application (SPA)**. In the URL field, enter http://localhost:3000.
 1. Confirm changes by selecting **Register**.
 
     :::image type="content" source="../media/exercise-register-azure-ad-application-mgt/register-application.png" alt-text="Screenshot that shows registering your application in Azure Active Directory.":::
-
-1. After registration is complete, the **Overview** page of the Azure Active Directory app appears. Save the **Application(client)ID**. You'll need it in the upcoming section.
-
-1. In the left pane, under the **Manage** section, select **Authentication**.
-
-    :::image type="content" source="../media/exercise-register-azure-ad-application-mgt/authentication-left-nav.png" alt-text="Screenshot that shows selecting Authentication.":::
-
-1. Locate the **Implicit grant and hybrid flows** section, and enable **Access Tokens** and **ID tokens**.
-1. Select **Save** in the top menu to save your changes.
-
-    :::image type="content" source="../media/exercise-register-azure-ad-application-mgt/implicit-grant.png" alt-text="Screenshot that shows saving the authentication settings for your app.":::

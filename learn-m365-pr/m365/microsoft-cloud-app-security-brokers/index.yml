@@ -3,9 +3,9 @@ uid: learn-m365.mcas-casbs
 metadata:
   title: Implement app security best practices with Cloud Access Security Brokers
   description: Learn about Cloud Access Security Brokers, including use cases and best practices.
-  ms.date: 02/12/2021
+  ms.date: 05/12/2021
   author: geoffallix
-  ms.author: v-gea
+  ms.author: beccarobins
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Implement app security best practices with Cloud Access Security Brokers
@@ -18,7 +18,7 @@ abstract: |
 prerequisites: | 
   - Knowledge of security fundamentals
   - Knowledge of Microsoft Azure and Microsoft 365 fundamentals
-iconUrl: /learn/achievements/generic-badge.svg
+iconUrl: /learn/achievements/implement-app-security-best-practices-with-cloud-access-security-brokers.svg
 levels:
 - beginner
 roles:
