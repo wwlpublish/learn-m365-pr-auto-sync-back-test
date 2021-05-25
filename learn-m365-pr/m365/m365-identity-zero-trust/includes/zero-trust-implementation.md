@@ -21,7 +21,7 @@ Be sure to click the full-screen option in the video player. When you're done, u
 ## Automate provisioning to applications
 
 Once you have your users’ identities in Azure AD, you can use Azure AD to automate provisioning those user identities into your various cloud applications. 
-
+G
 ## Get your logging and reporting in order
 
 Be sure to analyze the logs from Azure AD either in Azure or using a SIEM system of choice.
