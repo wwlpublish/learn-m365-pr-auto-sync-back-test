@@ -1,4 +1,4 @@
-In this exercise, you'll use the Azure AD application and .NET console application you previously created to find related entities and search for users by using the $expand and $search query parameters.
+In this exercise, you'll use the Azure AD application and .NET console application you previously created to find related entities and search for users by using the `$expand` and `$search` query parameters.
 
 > [!IMPORTANT]
 > This exercise assumes you have created the Azure AD application and .NET console application from the previous unit in this module. You'll edit the existing Azure AD application and .NET console application created in that exercise in this exercise.
@@ -89,9 +89,9 @@ The `$search` query parameter is supported on the **people** endpoint. Enter the
 
 Notice you can scroll through many results in the **Response Preview** window after executing the query.
 
-Now enter the following query that will search for a user with the name *"wilke"* and select the **Run Query** button. This time the query will only return a single user: **https://graph.microsoft.com/v1.0/me/people?search="wilke"**.
+Now enter the following query that will search for a user with the name *"wilke"* and select the **Run Query** button. This time the query will only return a single user: **https://graph.microsoft.com/v1.0/me/people?$search="wilke"**.
 
-The `$search` query parameter also supports wildcards. Execute the following query to see many more people were found in the same data collection: **https://graph.microsoft.com/v1.0/me/people?search="wil&ast;"**.
+The `$search` query parameter also supports wildcards. Execute the following query to see many more people were found in the same data collection: **https://graph.microsoft.com/v1.0/me/people?$search="wil&ast;"**.
 
 ## Summary
 

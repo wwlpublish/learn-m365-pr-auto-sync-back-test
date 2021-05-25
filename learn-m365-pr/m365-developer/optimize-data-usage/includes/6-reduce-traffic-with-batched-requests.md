@@ -26,7 +26,7 @@ Furthermore, a batch that contains five requests, for example, can have three re
 
 ## Submitting batch requests
 
-All batch requests must be submitted as an HTTP POST to the https://graph.microsoft.com/v1.0/ endpoint and include the `$batch` query operator
+All batch requests must be submitted as an HTTP POST to the https://graph.microsoft.com/v1.0/ endpoint and include the `$batch` query operator.
 
 The requests in a batch are submitted within a JSON collection of requests within the batch request body.
 

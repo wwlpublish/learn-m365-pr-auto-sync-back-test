@@ -10,9 +10,9 @@ Open a browser and navigate to https://developer.microsoft.com/graph/graph-explo
 
 ![Screenshot of the Graph Explorer](../media/graph-explorer-01.png)
 
-Select the **Sign In with Microsoft** button in the left-side panel and enter the credentials of a Work and School account.
+Select the **Sign to Graph Explorer** button in the left-side panel and enter the credentials of a Work and School account.
 
-After signing in, select the gear icon to the right of your user profile and then select **Select permissions**. Verify the user has enough permissions to submit the requests in this exercise. You must consent to at least these minimum permissions:
+After signing in, select the **...** menu to the right of your user profile and then select **Select permissions**. Verify the user has enough permissions to submit the requests in this exercise. You must consent to at least these minimum permissions:
 
 - Mail.Read
 - Calendars.Read
