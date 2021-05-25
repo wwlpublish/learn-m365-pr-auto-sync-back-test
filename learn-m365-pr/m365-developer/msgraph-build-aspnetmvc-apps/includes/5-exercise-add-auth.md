@@ -1,6 +1,6 @@
 In this exercise, you'll extend the application from the previous exercise to support authentication with Azure AD. This is required to obtain the necessary OAuth access token to call the Microsoft Graph API. In this step, you'll integrate the OWIN middleware and the [Microsoft Authentication Library](https://www.nuget.org/packages/Microsoft.Identity.Client/) library into the application.
 
-Right-click the **graph-tutorial** project in Solution Explorer and select **Add > New Item...**.
+Right-click the **graph-tutorial** project in **Solution Explorer** and select **Add > New Item...**.
 
 Select **Web Configuration File**, name the file **PrivateSettings.config** and select **Add**.
 
@@ -324,7 +324,7 @@ Now that you can get tokens, it's time to implement a way to store them in the a
 - Update the authentication code to use the token store class.
 - Update the base controller class to expose the stored user details to all views in the application.
 
-Right-click the **graph-tutorial** folder in Solution Explorer, and select **Add > New Folder**. Name the folder **TokenStorage**.
+Right-click the **graph-tutorial** folder in **Solution Explorer**, and select **Add > New Folder**. Name the folder **TokenStorage**.
 
 Right-click this new folder and select **Add > Class...**. Name the file **SessionTokenStore.cs** and select **Add**. Replace the contents of this file with the following code.
 
@@ -588,7 +588,7 @@ At this point, your application has an access token, which is sent in the `Autho
 
 However, this token is short-lived. The token expires an hour after it's issued. This is where the refresh token becomes useful. The refresh token allows the app to request a new access token without requiring the user to sign in again.
 
-Because the app is using the MSAL library and serializing the `TokenCache` object, you don't have to implement any token refresh logic. The `ConfidentialClientApplication.AcquireTokenSilentAsync` method does all of the logic for you. It first checks the cached token, and if it isn't expired, it returns it. If it's expired, it uses the cached refresh token to obtain a new one. You'll use this method in the following module.
+Because the app is using the MSAL library and serializing the `TokenCache` object, you don't have to implement any token refresh logic. The `ConfidentialClientApplication.AcquireTokenSilentAsync` method does all of the logic for you. It first checks the cached token, and if it isn't expired, it returns it. If it's expired, it uses the cached refresh token to obtain a new one. You'll use this method in a later exercise.
 
 ## Summary
 

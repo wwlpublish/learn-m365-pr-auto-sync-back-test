@@ -1,4 +1,4 @@
-In this demo, you'll incorporate Microsoft Graph into the application. For this application, you'll use the [Microsoft Graph Client Library for .NET](https://github.com/microsoftgraph/msgraph-sdk-dotnet) to make calls to Microsoft Graph.
+In this exercise, you'll incorporate Microsoft Graph into the application. For this application, you'll use the [Microsoft Graph Client Library for .NET](https://github.com/microsoftgraph/msgraph-sdk-dotnet) to make calls to Microsoft Graph.
 
 ## Get calendar events from Outlook
 
@@ -74,7 +74,7 @@ private static GraphServiceClient GetAuthenticatedClient()
 >   - The `Select` function limits the fields returned for each events to just those the view will actually use.
 >   - The `OrderBy` function sorts the results by the date and time they were created, with the most recent item being first.
 
-Create a controller for the calendar views. Right-click the **Controllers** folder in Solution Explorer and select **Add > Controller...**. Choose **MVC 5 Controller - Empty** and select **Add**. Name the controller **CalendarController** and select **Add**. Replace the entire contents of the new file with the following code.
+Create a controller for the calendar views. Right-click the **Controllers** folder in **Solution Explorer** and select **Add > Controller...**. Choose **MVC 5 Controller - Empty** and select **Add**. Name the controller **CalendarController** and select **Add**. Replace the entire contents of the new file with the following code.
 
 ```csharp
 using graph_tutorial.Helpers;
@@ -113,7 +113,7 @@ Start the app, sign in, and select the **Calendar** link in the nav bar. If ever
 
 Now you can add a view to display the results in a more user-friendly manner.
 
-In Solution Explorer, right-click the **Views/Calendar** folder and select **Add > View...**. Name the view **Index** and select **Add**. Replace the entire contents of the new file with the following code.
+In **Solution Explorer**, right-click the **Views/Calendar** folder and select **Add > View...**. Name the view **Index** and select **Add**. Replace the entire contents of the new file with the following code.
 
 ```html
 @model IEnumerable<Microsoft.Graph.Event>
@@ -160,4 +160,4 @@ Start the app, sign in, and select the **Calendar** link. The app should now ren
 
 ## Summary
 
-In this demo, you incorporated Microsoft Graph into the application. For this application, you used the [Microsoft Graph Client Library for .NET](https://github.com/microsoftgraph/msgraph-sdk-dotnet) to make calls to Microsoft Graph.
+In this exercise, you incorporated Microsoft Graph into the application. For this application, you used the [Microsoft Graph Client Library for .NET](https://github.com/microsoftgraph/msgraph-sdk-dotnet) to make calls to Microsoft Graph.
