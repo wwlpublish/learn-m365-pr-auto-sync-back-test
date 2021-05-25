@@ -106,7 +106,7 @@ Watch this demonstration on how to view your audit log retention policies.
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4AkzK]
  
 ## Learn more
-- [Manage audit log retention policies](https://docs.microsoft.com/microsoft-365/compliance/audit-log-retention-policies?view=o365-worldwide?azure-portal=true)
-- [Office 365 Security & Compliance Center PowerShell](https://docs.microsoft.com/powershell/exchange/office-365-scc/office-365-scc-powershell?view=exchange-ps?azure-portal=true)
-- [New-UnifiedAuditLogRetentionPolicy cmdlet reference](https://docs.microsoft.com/powershell/module/exchange/new-unifiedauditlogretentionpolicy?azure-portal=true)
-- [Get-UnifiedAuditLogRetentionPolicy cmdlet reference](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-audit/get-unifiedauditlogretentionpolicy?azure-portal=true)
+- [Manage audit log retention policies](/microsoft-365/compliance/audit-log-retention-policies?view=o365-worldwide?azure-portal=true)
+- [Office 365 Security & Compliance Center PowerShell](/powershell/exchange/office-365-scc/office-365-scc-powershell?view=exchange-ps?azure-portal=true)
+- [New-UnifiedAuditLogRetentionPolicy cmdlet reference](/powershell/module/exchange/new-unifiedauditlogretentionpolicy?azure-portal=true)
+- [Get-UnifiedAuditLogRetentionPolicy cmdlet reference](/powershell/module/exchange/policy-and-compliance-audit/get-unifiedauditlogretentionpolicy?azure-portal=true)

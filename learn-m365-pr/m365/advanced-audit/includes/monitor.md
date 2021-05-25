@@ -16,4 +16,4 @@ If more than 1,000 **MailItemsAccessed** audit records are generated in less tha
 - You should assume **MailItemsAccessed** activity wasn't recorded in the audit logs if a mailbox is throttled.
 
 ## Learn more
-- [The MailItemsAccessed mailbox auditing action](https://docs.microsoft.com/microsoft-365/compliance/mailitemsaccessed-forensics-investigations?view=o365-worldwide#the-mailitemsaccessed-mailbox-auditing-action?azure-portal=true)
+- [The MailItemsAccessed mailbox auditing action](/microsoft-365/compliance/mailitemsaccessed-forensics-investigations?view=o365-worldwide#the-mailitemsaccessed-mailbox-auditing-action?azure-portal=true)
