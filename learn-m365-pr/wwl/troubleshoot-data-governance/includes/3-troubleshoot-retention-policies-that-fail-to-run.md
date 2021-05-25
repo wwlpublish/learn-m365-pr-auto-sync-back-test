@@ -17,7 +17,7 @@ For mailboxes in Exchange Online that are larger than 10 megabytes (MB), the ret
 For mailboxes that are smaller than 10 MB, you must manually run the following PowerShell command in the Exchange Management Shell every time that you want to move messages to the archive.
 
 ```powershell
-<code>Start-ManagedFolderAssistant –Identity &lt;mailbox&gt;</code>
+<code>Start-ManagedFolderAssistant –Identity <mailbox></code>
 ```
 
 **Additional reading.** For information related to Outlook client license requirements, see [Outlook license requirements for Exchange features](https://support.microsoft.com/office/outlook-license-requirements-for-exchange-features-46b6b7c5-c3ca-43e5-8424-1e2807917c99?azure-portal=true).
