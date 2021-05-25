@@ -1,0 +1,43 @@
+### YamlMime:Module
+uid: learn.wwl.explore-sensitivity-labels
+metadata:
+  title: Explore sensitivity labels
+  description: "Explore sensitivity labels"
+  ms.date: 05/25/2021
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Explore sensitivity labels
+summary: This module examines how sensitivity labels from the Microsoft Information Protection solution let you classify and protect your organization's data, while making sure that user productivity and collaboration isn't hindered.
+abstract: |
+  By the end of this module, you will be able to:
+  - Describe how sensitivity labels let you classify and protect your organization's data
+  - Identify the common reasons why organizations use sensitivity labels
+  - Explain what a sensitivity label is and what they can do for an organization
+  - Configure a sensitivity label's scope
+  - Explain why the order of sensitivity labels in your admin center is important
+  - Describe what label policies can do
+prerequisites: ""
+iconUrl: /learn/achievements/generic-badge.svg
+levels:
+- intermediate
+roles:
+- administrator
+- security-engineer
+- solution-architect
+- technology-manager
+products:
+- azure-active-directory
+- m365
+- office-365
+units:
+- learn.wwl.explore-sensitivity-labels.introduction
+- learn.wwl.explore-sensitivity-labels.manage-data-protection-sensitivity-labels
+- learn.wwl.explore-sensitivity-labels.explore-what-can-do
+- learn.wwl.explore-sensitivity-labels.determine-scope
+- learn.wwl.explore-sensitivity-labels.label-policies
+- learn.wwl.explore-sensitivity-labels.knowledge-check
+- learn.wwl.explore-sensitivity-labels.summary
+badge:
+  uid: learn.wwl.explore-sensitivity-labels.badge
