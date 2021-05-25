@@ -88,7 +88,7 @@ Here are the values used in the example:
 
 Here is the result of running the PowerShell command shown above. The **ClientIPAddress** and **ClientInfoString** details help to determine if the sync activity came from a legitimate source.
 
- ![PowerShell command results](../media/search-mailboxauditlog.png) 
+ ![The PowerShell command results from checking the sync activity context showing that user meganb accessed mail through Microsoft Exchange.](../media/search-mailboxauditlog.png)
  
 ## Check for bind activities
 After performing the sync activity analysis, you can be confident all other access to email messages, whether by a legitimate user or the attacker, will be captured in the **MailItemsAccessed** audit records with a **MailAccessType** property with a value of "Bind". To search for **MailItemsAccessed** records where the mail items were accessed by a Bind operation, run the following command:
@@ -97,7 +97,7 @@ After performing the sync activity analysis, you can be confident all other acce
 
 Here is the result of running the PowerShell command shown above: 
  
- ![PowerShell command results](../media/search-unifiedauditlog-2.png) 
+ ![The PowerShell command results from checking for bind activities showing all the times user meganb accessed mail through Microsoft Exchange on the specified date.](../media/search-unifiedauditlog-2.png)
 
 Email messages that were accessed are identified by their **InternetMessageId** value. You can also check to see if any audit records have the same context as those records already associated with other attacker activity. 
 
@@ -106,8 +106,8 @@ You can use the audit data for bind operations in two different ways:
 - Use **InternetMessageId** to search audit records related to a set of potentially sensitive email messages. This value is useful if you're concerned only about a small number of messages.
 
 ## Learn more
-- [Responding to a Compromised Email Account](https://docs.microsoft.com/microsoft-365/security/office-365-security/responding-to-a-compromised-email-account?view=o365-worldwide?azure-portal=true)
-- [Use Advanced Audit to investigate compromised accounts](https://docs.microsoft.com/microsoft-365/compliance/mailitemsaccessed-forensics-investigations?azure-portal=true)
-- [Exchange Online PowerShell V2](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell-v2/exchange-online-powershell-v2?azure-portal=true)
-- [Search-UnifiedAuditLog PowerShell cmdlet reference](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-audit/Search-UnifiedAuditLog?azure-portal=true)
-- [Search-MailboxAuditLog PowerShell cmdlet reference](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-audit/search-mailboxauditlog?azure-portal=true)
+- [Responding to a Compromised Email Account](/microsoft-365/security/office-365-security/responding-to-a-compromised-email-account?azure-portal=true)
+- [Use Advanced Audit to investigate compromised accounts](/microsoft-365/compliance/mailitemsaccessed-forensics-investigations?azure-portal=true)
+- [Exchange Online PowerShell V2](/powershell/exchange/exchange-online/exchange-online-powershell-v2/exchange-online-powershell-v2?azure-portal=true)
+- [Search-UnifiedAuditLog PowerShell cmdlet reference](/powershell/module/exchange/policy-and-compliance-audit/Search-UnifiedAuditLog?azure-portal=true)
+- [Search-MailboxAuditLog PowerShell cmdlet reference](/powershell/module/exchange/policy-and-compliance-audit/search-mailboxauditlog?azure-portal=true)
