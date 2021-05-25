@@ -6,11 +6,14 @@ Now that you've completed this module, you should know:
 - How to use Viva Topics for admins  
 - How to modernize SharePoint  
 - How to sign up for & set up a Viva Topics trial
+- Create a Topic center & assign licenses
+- Change the name of the Topic center
+
 
 ## Resources
-- [Microsoft Viva Topics](https://docs.microsoft.com/microsoft-365/knowledge/) technical content
-- [Microsoft SharePoint modernization](https://docs.microsoft.com/sharepoint/dev/transform/modernize-guidance) technical content
-- [Microsoft SharePoint scanner](https://docs.microsoft.com/sharepoint/dev/transform/modernize-scanner)
-- [Apply sensitivity labels](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels)
-- [Graph content connectors](https://docs.microsoft.com/microsoftsearch/configure-connector)  
+- [Microsoft Viva Topics](/microsoft-365/knowledge/) technical content
+- [Microsoft SharePoint modernization](/sharepoint/dev/transform/modernize-guidance) technical content
+- [Microsoft SharePoint scanner](/sharepoint/dev/transform/modernize-scanner)
+- [Apply sensitivity labels](/microsoft-365/compliance/sensitivity-labels)
+- [Graph content connectors](/microsoftsearch/configure-connector)  
 - [Microsoft Tech Community for Microsoft Viva](https://techcommunity.microsoft.com/t5/microsoft-viva/ct-p/MicrosoftViva)

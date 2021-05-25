@@ -2,7 +2,7 @@
 
 After you sign up for & set up a Viva Topics trial in this learning path, you have a Topic center to curate the topics to be shared. The Topic center is a SharePoint site where users have a personalized view of relevant knowledge across your organization and the Knowledge manager can manage topics. Topic pages are hosted here. 
 
-You must be a Global administrator, SharePoint administrator or Knowledge administrator to perform these tasks:
+**You must be a Global administrator, SharePoint administrator or Knowledge administrator to perform these tasks:**
 
 1.	On the Create topic center page, you can create your topic center site in which topic pages can be viewed and topics can be managed. 
 2.	In the Site name box, type a name for your topic center. You can optionally type a short description in the Description box.
@@ -19,7 +19,7 @@ The first time topic discovery is enabled, it may take two weeks or more for all
 
 ## Setup overview for Graph connectors by Microsoft
 
-The basic process includes the following steps:
+**The basic process includes the following steps:**
 
 - Add a Graph connector in the Microsoft 365 admin center
 - Name the connection
@@ -36,7 +36,7 @@ Visit Resources at the end of this learning path on how to configure Graph conte
 
 Once you have configured topic experiences, you must assign licenses for the users who will be using Topics. Only users with a license can see information on topics including highlights, topic cards, topic pages and the topic center.
 
-To assign licenses:
+**To assign licenses:**
 
 1. In the Microsoft 365 admin center, under Users, click Active users
 1. Select the users that you want to license and click Licenses and apps.
