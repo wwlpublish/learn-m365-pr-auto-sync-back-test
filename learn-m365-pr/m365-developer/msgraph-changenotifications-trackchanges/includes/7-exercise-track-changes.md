@@ -2,6 +2,9 @@ In this exercise, you'll learn how to use the track changes capability in Micros
 
 You'll then implement track changes with the existing change notifications code to create a responsive application that only sends requests to Microsoft Graph when entities change and only retrieves those entities that changed. This process results in fewer requests to Microsoft Graph and receives smaller payloads from Microsoft Graph, making it be more performant application.
 
+> [!IMPORTANT]
+> This exercise assumes you have created the Azure AD application and .NET console application from the previous unit in this module. You'll edit the existing Azure AD application and .NET console application created in that exercise in this exercise.
+
 ## Update the ASP.NET Core web API project
 
 Locate and open the following controller: **Controllers > NotificationsController.cs**.

@@ -1,5 +1,22 @@
 In this exercise, you'll create a new Azure AD app registration using the Azure AD admin center and grant administrator consent to the required permission scopes.
 
+## Prerequisites
+
+Developing Microsoft Graph apps requires a Microsoft 365 tenant.
+
+For the Microsoft 365 tenant, follow the instructions on the [Microsoft 365 Developer Program](https://developer.microsoft.com/microsoft-365/dev-program) site for obtaining a developer tenant if you don't currently have a Microsoft 365 account.
+
+You'll use the .NET SDK to create custom Microsoft Graph app in this module. The exercises in this module assume you have the following tools installed on your developer workstation.
+
+> [!IMPORTANT]
+> In most cases, installing the latest version of the following tools is the best option. The versions listed here were used when this module was published and last tested.
+
+- [.NET SDK](https://dotnet.microsoft.com/) - v5.\* (or higher)
+- [ngrok](https://ngrok.com/)
+- [Visual Studio Code](https://code.visualstudio.com)
+
+You must have the minimum versions of these prerequisites installed on your workstation.
+
 ## Register Azure AD app
 
 Open a browser and navigate to the [Azure Active Directory admin center](https://aad.portal.azure.com). Login using a **Work or School Account**.
@@ -65,12 +82,7 @@ Select **Grant admin consent for [your tenant name]**, then select **Yes** to co
 
 ## Create an ASP.NET Core web API project
 
-> [!NOTE]
-> The instructions below assume you are using .NET 5. They were last tested using v5.0.202 of the .NET 5 SDK.
-
 In order for the Microsoft Graph to send notifications to your application running on your development machine, you need to use a tool such as ngrok to tunnel calls from the internet to your development machine. Ngrok allows calls from the internet to be directed to your application running locally without needing to create firewall rules.
-
-Before you continue, you should have [ngrok](https://ngrok.com) installed on your development machine.
 
 Run ngrok by executing the following command from the command line:
 
