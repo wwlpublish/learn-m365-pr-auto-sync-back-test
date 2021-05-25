@@ -9,7 +9,7 @@ metadata:
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Manage retention in email
-summary: This module examines how to use retention tags and Exchange Online retention policies to email messages and folders in Outlook and Outlook on the web, and how to add additional policies and remove a policy.
+summary: This module examines how to use retention tags and Exchange Online retention policies to email messages and folders in Outlook and Outlook on the web, and how to add optional policies and remove a policy.
 abstract: |
   By the end of this module, you will be able to:
   - Determine when and how to use retention tags in mailboxes

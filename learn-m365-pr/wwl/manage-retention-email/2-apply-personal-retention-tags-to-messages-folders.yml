@@ -23,7 +23,7 @@ quiz:
       explanation: "That's incorrect. These locations are where users assign personal tags. Try again."
     - content: "To default folders"
       isCorrect: true
-      explanation: "That's correct. Retention poilcy tags are assigned to default folders, such as the Inbox, Sent Items, and Deleted Items folders."
+      explanation: "That's correct. Retention policy tags are assigned to default folders, such as the Inbox, Sent Items, and Deleted Items folders."
     - content: "To mailboxes to manage the retention of all untagged items"
       isCorrect: false
       explanation: "That's incorrect. This item describes the purpose of default policy tags. Try again."
