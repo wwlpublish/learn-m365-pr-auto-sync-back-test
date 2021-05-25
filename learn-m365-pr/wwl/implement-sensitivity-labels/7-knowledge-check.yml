@@ -1,0 +1,51 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.implement-sensitivity-labels.knowledge-check
+title: Knowledge check
+metadata:
+  title: Knowledge check
+  description: "Knowledge check"
+  ms.date: 05/25/2021
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+durationInMinutes: 6
+content: |
+  [!include[](includes/7-knowledge-check.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "When you delete a sensitivity label or remove a sensitivity label from a label policy, how long does it take the changes to replicate to all users and services?"
+    choices:
+    - content: "up to 24 hours"
+      isCorrect: true
+      explanation: "That's correct. When you delete a sensitivity label or remove a sensitivity label from a label policy, the changes can take up to 24 hours to replicate to all users and services."
+    - content: "up to 48 hours"
+      isCorrect: false
+      explanation: "That's incorrect. This item isn't how long it takes the changes to replicate to all users and services. Try again."
+    - content: "The changes are immediately replicated to all users and services"
+      isCorrect: false
+      explanation: "That's incorrect. The changes aren't replicated immediately to all users and services. Try again."
+  - content: "As the Enterprise Administrator for Northwind Traders, Allan Deyoung is implementing sensitivity labels. Which of the following items is a recommended practice that Allan should implement when publishing labels?"
+    choices:
+    - content: "Publish a sensitivity label policy for each group in the company"
+      isCorrect: false
+      explanation: "That's incorrect. Aim to have as few label policies as possible. It's not uncommon to have just one label policy for the entire organization. Try again."
+    - content: "Delete labels from a policy because it's less risky than removing labels from a policy"
+      isCorrect: false
+      explanation: "That's incorrect. Deleting a label from a policy is actually riskier than removing a label from a policy. Try again."
+    - content: "Have as few label policies as possible"
+      isCorrect: true
+      explanation: "That's correct. Multiple label policies are needed only if users need different labels or different policy settings. Aim to have as few label policies as possible. It's not uncommon to have just one label policy for the entire organization."
+  - content: "As the Enterprise Administrator for Lucerne Publishing, Patti Fernandez is working with a select group of company stakeholders to develop a Data Classification framework. Which of the following items is a recommended practice they should follow?"
+    choices:
+    - content: "Develop a framework for your company's cybersecurity professionals"
+      isCorrect: false
+      explanation: "That's incorrect. Avoid just writing for cybersecurity professionals. Data Classifications frameworks are meant for a broad audience, including your average staff member, your legal and compliance team, and your IT team. Try again."
+    - content: "Plan to go as granular as possible"
+      isCorrect: false
+      explanation: "That's incorrect. You should only go granular if you need to. Just because you can include five levels in your Data Classification framework doesn’t mean you should. Try again."
+    - content: "Balance security against convenience"
+      isCorrect: true
+      explanation: "That's correct. A good balance of security against convenience alongside easy-to-use tools will lead to wider end-user support. Also, if there are gaps in your framework, don’t wait until everything is perfect to start implementation. Instead, assess the risk or gap, create a plan to mitigate, and continue with the implementation."
