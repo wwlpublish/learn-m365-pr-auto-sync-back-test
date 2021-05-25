@@ -106,7 +106,7 @@ You can use the audit data for bind operations in two different ways:
 - Use **InternetMessageId** to search audit records related to a set of potentially sensitive email messages. This value is useful if you're concerned only about a small number of messages.
 
 ## Learn more
-- [Responding to a Compromised Email Account](/microsoft-365/security/office-365-security/responding-to-a-compromised-email-account?view=o365-worldwide?azure-portal=true)
+- [Responding to a Compromised Email Account](/microsoft-365/security/office-365-security/responding-to-a-compromised-email-account?azure-portal=true)
 - [Use Advanced Audit to investigate compromised accounts](/microsoft-365/compliance/mailitemsaccessed-forensics-investigations?azure-portal=true)
 - [Exchange Online PowerShell V2](/powershell/exchange/exchange-online/exchange-online-powershell-v2/exchange-online-powershell-v2?azure-portal=true)
 - [Search-UnifiedAuditLog PowerShell cmdlet reference](/powershell/module/exchange/policy-and-compliance-audit/Search-UnifiedAuditLog?azure-portal=true)
