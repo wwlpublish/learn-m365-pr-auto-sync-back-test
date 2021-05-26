@@ -7,6 +7,6 @@ To include the appropriate content for your users, you need the right people for
 
 By the end of this module, you'll understand how to: 
 
-  - Create a deployment plan for Viva Topics.
-  - Get your environment ready for Viva Topics.
-  - Understand best practices for deploying Viva Topics.
+- Create a deployment plan for Viva Topics.
+- Get your environment ready for Viva Topics.
+- Understand best practices for deploying Viva Topics.
