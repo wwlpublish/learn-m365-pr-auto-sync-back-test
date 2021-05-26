@@ -44,7 +44,7 @@ You can exclude topics from discovery by uploading a list using a .csv file. If 
 1. On the **Topic discovery** tab, under **Exclude topics**, select **Edit**. 
 2. Select **Exclude topics by name**. 
 
-   If you need to create a list, download the .csv template described in [Manage topic discovering in Microsoft Viva Topics](https://docs.microsoft.com/microsoft-365/knowledge/topic-experiences-discovery) and add the topics you want to exclude. 
+   If you need to create a list, download the .csv template described in [Manage topic discovering in Microsoft Viva Topics](/microsoft-365/knowledge/topic-experiences-discovery) and add the topics you want to exclude. 
 3. Select **Save**. 
 
 ### Create a .csv list of sites
