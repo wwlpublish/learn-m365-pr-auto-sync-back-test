@@ -15,7 +15,8 @@ abstract: |
   - Describe Windows Information Protection and what it is used for
   - Plan a deployment of Windows Information Protection policies
   - Implement Windows Information Protection policies in Windows desktop apps
-prerequisites: ""
+prerequisites: |
+  None
 iconUrl: /learn/achievements/generic-badge.svg
 levels:
 - intermediate
