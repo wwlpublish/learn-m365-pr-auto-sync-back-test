@@ -17,4 +17,4 @@ Consider brainstorming sessions to reward champions and help unmotivated users g
 
 ## About Microsoft technical library & Microsoft Learn 
 
-The Microsoft technical libraries, available at docs.microsoft.com, are the home for Microsoft documentation and learning for developers and technology professionals to explore guides and articles by product. Microsoft Learn helps admins explore a topic in-depth through guided paths or learn how to accomplish a specific task through individual modules. 
+The Microsoft technical libraries, available at docs.microsoft.com, are the home for Microsoft documentation and learning for developers and technology professionals to explore guides and articles by product. Microsoft Learn helps admins explore a topic in-depth through guided paths or learn how to accomplish a specific task through individual modules.
