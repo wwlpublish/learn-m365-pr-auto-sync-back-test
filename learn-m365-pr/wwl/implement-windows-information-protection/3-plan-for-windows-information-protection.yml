@@ -4,13 +4,13 @@ title: Plan for Windows Information Protection
 metadata:
   title: Plan for Windows Information Protection
   description: "Plan for Windows Information Protection"
-  ms.date: 05/25/2021
+  ms.date: 05/26/2021
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
-durationInMinutes: 3
+durationInMinutes: 8
 content: |
   [!include[](includes/3-plan-for-windows-information-protection.md)]
 quiz:
