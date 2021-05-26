@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365-pr.introduction-delivering-virtual-events-using-microsoft-teams-microsoft-365.what-virtual-events
+title: What are virtual events?
+metadata:
+  unitType: learning-content
+  title: What are virtual events?
+  description: Learn about the different kinds of virtual events. 
+  ms.date: 05/19/2021
+  author: lizap
+  ms.author: elizapo
+  ms.topic: interactive-tutorial # do we need ms.topic?
+durationInMinutes: 5 # user input: the estimate time to complete the unit
+content: |
+  [!include[](includes/what-virtual-events.md)]
