@@ -18,7 +18,8 @@ abstract: |
   - Create and configure sensitivity labels
   - Publish sensitivity labels by creating a label policy
   - Identify the differences between removing and deleting sensitivity labels
-prerequisites: ""
+prerequisites: |
+  None
 iconUrl: /learn/achievements/generic-badge.svg
 levels:
 - intermediate
