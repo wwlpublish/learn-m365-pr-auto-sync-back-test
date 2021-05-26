@@ -12,11 +12,11 @@ Viva Topics discovers content through Microsoft Graph, a graph database in Micro
 When content is created or shared in Microsoft 365 apps, the graph database records these activities as hints or signals as topics. AI and machine learning indexes these signals to predict future Topics your employees will likely want to see. As people in your organization engage or ignore the suggested Topics across Microsoft 365, Viva Topics will curate what content is most relevant for each of your end users.
 
 ## Learning objectives
-By the end of this learning path, you will know:
+By the end of this learning path, you be able to:
 
-- How AI interacts on Viva Topics  
-- How to use Viva Topics for admins  
-- How to modernize SharePoint  
-- How to sign up for & set up a Viva Topics trial
+- Understand how AI interacts on Viva Topics  
+- Use Viva Topics for admins  
+- Modernize SharePoint  
+- Sign up for & set up a Viva Topics trial
 - Create a Topic center & assign licenses
 - Change the name of the Topic center

@@ -4,10 +4,10 @@ After you sign up for & set up a Viva Topics trial in this learning path, you ha
 
 **You must be a Global administrator, SharePoint administrator or Knowledge administrator to perform these tasks:**
 
-1.	On the Create topic center page, you can create your topic center site in which topic pages can be viewed and topics can be managed. 
-2.	In the Site name box, type a name for your topic center. You can optionally type a short description in the Description box.
-3.	Select Next.
-4.	On the Review and finish page, you can look at your selected setting and choose to make changes. If you are satisfied with your selections, select Activate.
+1. On the Create topic center page, you can create your topic center site in which topic pages can be viewed and topics can be managed.
+1. In the Site name box, type a name for your topic center. You can optionally type a short description in the Description box.
+1. Select Next.
+1. On the Review and finish page, you can look at your selected setting and choose to make changes. If you are satisfied with your selections, select Activate.
 
 ![IMAGE](../media/create-topic-center.png)
 
