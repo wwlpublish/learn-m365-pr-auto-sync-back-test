@@ -67,7 +67,9 @@ Microsoft 365 security settings (permissions to sites, files, and folders) and V
 Setting up Topics does not modify any existing access controls on content in your organization. Users will only see what they already have access to. 
 
 ### Manage topic visibility 
-You can manage the set of users who can see topic highlights, topic cards, and the topic center in the Microsoft 365 admin center. You must be a global administrator, SharePoint administrator or Knowledge administrator to perform these tasks. 
+You can manage the set of users who can see topic highlights, topic cards, and the topic center in the Microsoft 365 admin center. You must be a global administrator, SharePoint administrator or Knowledge administrator to perform these tasks.
+
+Learn more about [Knowledge management of Viva Topics]().
 
 ### Manage topic permissions
 Manage topic permissions settings and topic discovery settings in the Microsoft 365 admin center as a global administrator, SharePoint administrator or Knowledge administrator.
@@ -81,4 +83,3 @@ Manage topic permissions settings and topic discovery settings in the Microsoft 
  
 ## Step 5: Change management/adoption 
 Decide on high-quality Topics to be shown to your users and they have the right permissions to consume and contribute knowledge. Plan your approach and target scenarios, engage your organization, train your organization, and build a champion network.  
-
