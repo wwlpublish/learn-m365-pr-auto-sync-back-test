@@ -70,9 +70,9 @@ The Text viewer provides a view of the extracted text of a file. It ignores any 
 - Search hit highlighting that will highlight keywords within the document as well as the scrollbar
 - Differential view provides a comparison view that highlights textual differences when viewing Near Duplicate documents
 
-![Text viewer.](../media/text-view.png) 
+![Screenshot of a document in the text viewer.](../media/text-view.png) 
 
-![Text viewer.](../media/text-view-2.png)   
+![Screenshot of a differential view in the text viewer.](../media/text-view-2.png)
  
 ### Annotate view
 The Annotate view provides features that allow users to apply markup on a document and is especially useful for redacting content in documents. Other features include the following:
@@ -84,8 +84,8 @@ The Annotate view provides features that allow users to apply markup on a docume
 - **Rotate**. Users can rotate document clockwise.
 - **Search**. Users can search within a document and navigate to the various hits within the document.
  
-![Annotate view.](../media/annotate-view-1.png) 
-![Annotate view.](../media/annotate-view-2.png) 
+![Screenshot of the annotate view showing the location of the area redaction button.](../media/annotate-view-1.png) 
+![Screenshot of the annotate view showing redacted text.](../media/annotate-view-2.png) 
  
 ### File metadata
 The **File metadata** panel can be toggled on or off to display various metadata associated with the document. Although the search results grid can be customized to display specific metadata, there are instances where scrolling horizontally can be difficult while reviewing data. The File metadata panel allows a user to toggle on a view within the viewer.
