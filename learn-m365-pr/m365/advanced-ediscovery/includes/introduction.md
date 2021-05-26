@@ -22,24 +22,24 @@ The EDRM diagram below represents a conceptual view of the eDiscovery process, n
 It’s also worth noting that the same step may be repeated numerous times or you may cycle back to earlier steps in order to refine your approach as a better understanding of the data emerges or as the nature of the matter changes.
 
 ## Advanced eDiscovery in Microsoft 365
-The Advanced eDiscovery solution in Microsoft 365 builds on the original, core [eDiscovery](https://docs.microsoft.com/microsoft-365/compliance/ediscovery?view=o365-worldwide?azure-portal=true) solution in Microsoft 365 by providing expanded capabilities that enable you to do more while the data remains in-place in your tenant. 
+The Advanced eDiscovery solution in Microsoft 365 builds on the original, core [eDiscovery](/microsoft-365/compliance/ediscovery?azure-portal=true) solution in Microsoft 365 by providing expanded capabilities that enable you to do more while the data remains in-place in your tenant. 
 
  ![Advanced eDiscovery solution in Microsoft 365](../media/all-microsoft-365.png) 
  
 By providing expanded capabilities so that you can do more things in-place to further reduce and cull your data, Advanced eDiscovery in Microsoft 365 provides a workflow aligned to the EDRM framework that is more efficient and cost effective. In addition to the efficiency and cost savings, the reduction of risk cannot be understated here – the in-place culling and reduction of data helps to keep sensitive and private data within the tenant without having to share additional copies to outside vendors unless absolutely necessary. 
 
 At a high level, here's how Advanced eDiscovery supports the EDRM processes and workflow:
-1.	**Identification**. Adding persons of interest as custodians to an Advanced eDiscovery case. Custodians are the individuals who are under investigation. 
-1.	**Preservation**. Placing a legal hold on custodial and non-custodial data with the ability to send legal hold notifications to custodians and track their acknowledgments.
-1.	**Collection**. Searching for and collecting live data from the custodial data sources (and non-custodial data sources, if applicable) that may be relevant to a case.
-1.	**Processing**. Copying the data identified in the collection phase to an Azure Storage location (called a review set) which provides a static view of the data for review and analysis. 
-1.	**Review**. Viewing specific documents and running additional queries to reduce the data to what is most relevant to the case, including the ability to annotate and tag specific documents.
-1.	**Analysis**. Using integrated analytics and machine learning to further cull data from the review set that you determine is not relevant to the case makes the review process easier, more efficient, and less expensive.
-1.	**Production**. Exporting documents from a review set for legal review. 
-1.	**Presentation**. Displaying content before audiences (e.g., depositions, hearings, trials, etc.).
+1. **Identification**. Adding persons of interest as custodians to an Advanced eDiscovery case. Custodians are the individuals who are under investigation. 
+1. **Preservation**. Placing a legal hold on custodial and non-custodial data with the ability to send legal hold notifications to custodians and track their acknowledgments.
+1. **Collection**. Searching for and collecting live data from the custodial data sources (and non-custodial data sources, if applicable) that may be relevant to a case.
+1. **Processing**. Copying the data identified in the collection phase to an Azure Storage location (called a review set) which provides a static view of the data for review and analysis. 
+1. **Review**. Viewing specific documents and running additional queries to reduce the data to what is most relevant to the case, including the ability to annotate and tag specific documents.
+1. **Analysis**. Using integrated analytics and machine learning to further cull data from the review set that you determine is not relevant to the case makes the review process easier, more efficient, and less expensive.
+1. **Production**. Exporting documents from a review set for legal review. 
+1. **Presentation**. Displaying content before audiences (e.g., depositions, hearings, trials, etc.).
 
 At Microsoft, we have seen the average volume of user-generated data grow from 4 GB per custodian 10 years ago to a current average of 81 GB – 20x growth that is represented illustrated in the chart below by the black line. 
- 
+
 ![Microsoft's legal team found 85% reduction in cost per custodian](../media/reduce-cost.png) 
 
 Even with this tremendous growth in data, the graph shows our cost savings we have seen with the adoption of Office 365 and in-place preservation and eDiscovery. You can see the transition from the “traditional” eDiscovery approach where we outsourced all of the processing and searching of data by sending it to our third-party eDiscovery partner represented by the left-most bar (100 percent), the use of Core eDiscovery to cull in-place that saved us approximately 70 percent of our costs, and then the adoption of the Advanced eDiscovery analytics that helped to reduce our costs by an additional 50 percent for an overall average savings of nearly 85 percent. 
@@ -56,7 +56,7 @@ For a quick look at Advanced eDiscovery in Microsoft 365, watch:
 > - Microsoft 365 E5 Compliance 
 > - Microsoft 365 E5 eDiscovery and Audit 
 >
-> Please review [Microsoft 365 licensing guidance for security & compliance](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance?azure-portal=true) to identify required licenses for your organization.
+> Please review [Microsoft 365 licensing guidance for security & compliance](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance?azure-portal=true) to identify required licenses for your organization.
 
 ## Microsoft 365 Compliance Center
 If you've ever worked with the core eDiscovery solution in the Office 365 Security & Compliance center, you may be aware that you could further manage a case using Advanced eDiscovery by clicking **Switch to Advanced eDiscovery**. This opened the case in Advanced eDiscovery (classic) which is being retired. Its functionality has been replaced by a new version of Advanced eDiscovery in the Microsoft 365 compliance center.
