@@ -17,7 +17,8 @@ abstract: |
   - Understand how to systematically troubleshoot when a retention policy appears to fail
   - Conduct policy tests in test mode with policy tips
   - Describe how to monitor DLP policies through message tracking
-prerequisites: ""
+prerequisites: |
+  None
 iconUrl: /learn/achievements/generic-badge.svg
 levels:
 - intermediate
