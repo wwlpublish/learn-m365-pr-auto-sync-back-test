@@ -26,3 +26,5 @@ What do people think? This will only work once all modules have been written and
 - [Accessible events guide](https://sway.office.com/Uk6btnkIIONW6ZmI?ref=Link)
 - [Disability Answer Desk](https://www.microsoft.com/Accessibility/disability-answer-desk)
 - [Make your PowerPoint presentations accessible to people with disabilities](https://aka.ms/PowerPointAccessibility)
+- [Microsoft 365 Live Events Assistance](https://docs.microsoft.com/stream/live-events-assistance)
+- [Manage the Microsoft Teams Exploratory license](https://docs.microsoft.com/microsoftteams/teams-exploratory)

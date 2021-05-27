@@ -44,7 +44,7 @@ Find the apps on your platforms app store.
 
 ## Licensing
 
-Microsoft Teams is available with several different licenses. From the free version, to the  [Teams Exploratory](https://docs.microsoft.com/en-us/microsoftteams/teams-exploratory) license. However, to get the full features and support for Live Events one of the following Microsoft 365 or Office 365 licenses is required. 
+Microsoft Teams is available with several different licenses. There's a free version, or at no cost the Teams Exploratory license for more features. However, to get the full features and support for Live Events one of the following Microsoft 365 or Office 365 licenses is required. 
 
 | License        | Microsoft Teams  | Yammer Enterprise  | Microsoft Stream  | Live Events |
 |---------|---------|---------|---------|---|

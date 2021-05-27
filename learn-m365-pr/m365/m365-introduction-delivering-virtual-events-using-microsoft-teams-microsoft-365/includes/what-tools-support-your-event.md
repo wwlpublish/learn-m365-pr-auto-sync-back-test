@@ -1,6 +1,6 @@
 Unlike in-person events, virtual events require you to make different choices about how to deliver your content and what tools to use. 
 
-After planning and designing your new virtual summit, you've come to realize that Microsoft 365 supports you with two distinct options. You can run small events up to 300 people with a normal Microsoft Teams meeting. Using all it's tools for video and screen sharing, and interactivity between meeting attendees. When your audience is larger, up to 100,000 people, Microsoft supports you with Live Events.
+After planning and designing your new virtual summit, you've come to realize that Microsoft 365 supports you with two distinct options. You can run small events up to 1,000 people with a normal Microsoft Teams meeting. Using all it's tools for video and screen sharing, and interactivity between meeting attendees. When your audience is larger, up to 100,000 people, Microsoft supports you with Live Events.
 
 Here you'll see how to make the decision on which approach to is best to take. 
 
@@ -12,7 +12,7 @@ The best tool to use for your event depends on the experience you want for your 
 
 The table has four columns. From the left the columns are What type of event, What type of attendee experience, How many people will watch the event live, and What level of video production.
 
-Under the columns are three rows. In each row there are cells highlighted in blue, which show the kind of experience best supported by Microsoft Teams. These cells are Single event, Event series, Part of an engagement community, Open two-way discussion, up to 300, and simple webcam and screen share.
+Under the columns are three rows. In each row there are cells highlighted in blue, which show the kind of experience best supported by Microsoft Teams. These cells are Single event, Event series, Part of an engagement community, Open two-way discussion, up to 1,000, and simple webcam and screen share.
 
 :::image-end:::
 
@@ -28,7 +28,7 @@ Under the columns are three rows. In each row there are cells highlighted in blu
         
     :::column-end:::
     :::column span="3":::
-        For your virtual events that are up to 300 people and only need the presenters to use their own webcams and screen sharing, Microsoft recommends Microsoft Teams meetings. Microsoft Teams supports:
+        For your virtual events that are up to 1,000 people and only need the presenters to use their own webcams and screen sharing, Microsoft recommends Microsoft Teams meetings. Microsoft Teams supports:
 
         - Open discussions via audio and video for attendees
         - Interactive chat & multiple presenters
