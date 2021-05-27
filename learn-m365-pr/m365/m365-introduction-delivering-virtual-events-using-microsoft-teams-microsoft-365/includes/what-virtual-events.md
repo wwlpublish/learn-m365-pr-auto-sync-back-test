@@ -2,7 +2,7 @@ People need to communicate with each other to get their work done. It's hard to 
 
 As part of the group organizing your virtual summit, you know your project wants to have different kinds of events. You're going to research Microsoft 365 and check it has the tools to support the range of events you're going to produce.
 
-Here you'll define what virtual events mean to your organization, look at the different scenario's, what roles make an event a success, and finally how you can bring these different kinds of interactions together in a combined virtual summit.
+Here you'll define what virtual events mean to your organization, look at the different scenarios, what roles make an event a success, and finally how you can bring these different kinds of interactions together in a combined virtual summit.
 
 ## Microsoft Teams meeting vs. Webinar vs. Live Events
 
