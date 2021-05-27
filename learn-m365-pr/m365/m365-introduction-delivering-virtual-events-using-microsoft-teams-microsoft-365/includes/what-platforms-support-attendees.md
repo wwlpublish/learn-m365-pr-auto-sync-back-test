@@ -1,4 +1,4 @@
-If an organization changes to delivering virtual events, they also need to ensure everyone involved in the event can participate.
+If an organization changes to delivering virtual events they need to ensure everyone involved in the event can participate.
 
 You'd like to understand how people can run the software they need to participate in your virtual summit. You know about the web and mobile versions of Microsoft Teams, but not sure what the desktop app hardware requirements are. The event sponsor wants your IT team to confirm your organization has the correct licensing.
 
@@ -40,7 +40,7 @@ Microsoft Teams is available on these mobile platforms:
 
     Support is limited to the last two major versions of iOS.
 
-Find the apps on your platforms app store. 
+Find the apps on your platforms app store.
 
 ## Licensing
 
