@@ -40,6 +40,6 @@ Complete the following steps to create a policy for a site content type:
 4.  On the **Site Settings** page, under the **Web Designer Galleries** group, select **Site content types**.
 5.  On the **Site Settings&gt;Site Content Types** page, select the content type that you want to add a policy to.
 6.  On the **Site Content Types&gt;Site Content Type** page, under **Settings**, select **Information management policy settings.**
-7.  On the **Site Content Types&gt;Edit Policy** page, enter a **Name** and optional **Administrative Description** for the policy, and then entetr a brief **Policy Statement** that explains to users what the policy is for.
+7.  On the **Site Content Types&gt;Edit Policy** page, enter a **Name** and optional **Administrative Description** for the policy, and then enter a brief **Policy Statement** that explains to users what the policy is for.
 8.  To enable auditing for the documents and items that are subject to this policy, select the **Enable Auditing** check box and then specify the events you want to audit.
 9.  Select **OK** to apply the auditing feature to the policy.
