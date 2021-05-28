@@ -1,0 +1,29 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.search-for-content-security-compliance-center.configure-search-permissions-filtering
+title: Configure search permissions filtering
+metadata:
+  title: Configure search permissions filtering
+  description: "Configure search permissions filtering"
+  ms.date: 05/28/2021
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/6-configure-search-permissions-filtering.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "As the Enterprise Administrator for Northwind Traders, Allan Deyoung wants to run compliance security filter cmdlets in Windows PowerShell. Which of the following is a step that Allan must complete to run these cmdlets?"
+    choices:
+    - content: "Enable search permission filtering in the Security and Compliance Center"
+      isCorrect: false
+      explanation: "That's incorrect. This item isn't a valid step that Allan must complete. Try again."
+    - content: "Connect Windows PowerShell to both the Security and Compliance Center and to Microsoft Teams"
+      isCorrect: false
+      explanation: "That's incorrect. Allan must Connect Windows PowerShell to both the Security & Compliance Center and to Northwind's Exchange Online organization. Try again."
+    - content: "Be a member of the Organization Management role group in the Security & Compliance Center"
+      isCorrect: true
+      explanation: "That's correct. Allan must be a member of the Organization Management role group in the SCC to have the permissions necessary to run the compliance security filter cmdlets in Windows PowerShell."

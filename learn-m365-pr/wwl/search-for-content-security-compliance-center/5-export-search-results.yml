@@ -1,0 +1,28 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.search-for-content-security-compliance-center.export-search-results
+title: Export the search results and search report
+metadata:
+  title: Export the search results and search report
+  description: "Export the search results and search report"
+  ms.date: 05/28/2021
+  author: wwlpublish
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+azureSandbox: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/5-export-search-results.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "As the Enterprise Admin for Lucerne Publishing, Patti Fernandez is in the process of downloading search results. Patti wants to optimize the download experience so that it doesn't adversely affect network traffic. Which of the following guidelines should Patti follow to achieve this goal?"
+    choices:
+    - content: "Disable anti-virus scanning for the folder that you download the search result to"
+      isCorrect: true
+      explanation: "That's correct. Disabling anti-virus scanning on the folder to which you're downloading search results will help to optimize the download process."
+    - content: "Download search results to the same folder for concurrent download jobs"
+      isCorrect: false
+      explanation: "That's incorrect. When downloading search results for concurrent download jobs, you should download the results to different folders. Try again."
+    - content: "Download search results to a mapped network drive"
+      isCorrect: false
+      explanation: "That's incorrect. Downloading search results to a mapped network drive can have an adverse affect on network traffic. Try again."
