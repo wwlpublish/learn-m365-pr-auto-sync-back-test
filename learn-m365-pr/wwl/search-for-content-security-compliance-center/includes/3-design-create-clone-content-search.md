@@ -27,8 +27,8 @@ As mentioned in the previous unit, you must be a member of the eDiscovery Manage
 2.  In the left-hand navigation pane of the Microsoft 365 compliance center, select **Show all**, and then select **Content search**.
 3.  On the **Content search** page, select **New search**.
 
-> [!NOTE]
-> The **Search by ID list** option enables organizations to search for specific email messages and other mailbox items using a list of Exchange IDs. To create an ID list search, you submit a comma-separated value (CSV) file that identifies the specific mailbox items to search for. For instructions, see [Prepare a CSV file for an ID list search](/microsoft-365/compliance/csv-file-for-an-id-list-content-search).
+    > [!NOTE]
+    > The **Search by ID list** option enables organizations to search for specific email messages and other mailbox items using a list of Exchange IDs. To create an ID list search, you submit a comma-separated value (CSV) file that identifies the specific mailbox items to search for. For instructions, see [Prepare a CSV file for an ID list search](/microsoft-365/compliance/csv-file-for-an-id-list-content-search).
 
 4.  Type a name for the search, an optional description that helps identify the search. The name of the search must be unique in your organization.
 5.  On the **Locations** page, choose the content locations that you want to search. The four locations available on this page are shown in the following image as items A, B, C, and D. These items are described in detail following the image.
