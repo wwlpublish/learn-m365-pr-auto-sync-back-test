@@ -4,9 +4,9 @@ title: Configure web access policies
 metadata:
   title: Configure web access policies
   description: Learn how to configure clients to access associated Exchange Online mailboxes, how to troubleshoot connectivity issues, and how to connect your clients. 
-  ms.date: 04/06/2020
+  ms.date: 05/28/2021
   author: AlexandraHrt
-  ms.author: v-aleha
+  ms.author: elizapo
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 durationInMinutes: 4
