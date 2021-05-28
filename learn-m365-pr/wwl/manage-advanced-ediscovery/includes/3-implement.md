@@ -1,6 +1,6 @@
 Advanced eDiscovery in Microsoft 365 provides a beginning-to-end workflow to preserve, collect, review, analyze, and export data that's responsive to your organization's internal and external investigations. Nothing is needed to deploy Advanced eDiscovery. Organizations just need to configure licenses, permissions, and an optional global setting to set it up. Once Advanced eDiscovery is set up, you're ready to create and manage cases.
 
-:::image type="content" source="../media/get-started-advanced-ediscovery-831676ec.png" alt-text="diagram showing the two steps to get started with advanced eDiscovery inluding setting it up and creating cases":::
+:::image type="content" source="../media/get-started-advanced-ediscovery-831676ec.png" alt-text="diagram showing the two steps to get started with advanced eDiscovery including setting it up and creating cases":::
 
 
 The tasks required to set up licenses, permissions, and an optional global setting are outlined in the following sections.
