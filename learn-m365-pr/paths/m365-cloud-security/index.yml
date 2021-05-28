@@ -3,9 +3,9 @@ uid: learn-m365.m365-cloud-security
 metadata:
   title: Safeguard multi-cloud apps and resources with cloud security solutions from Microsoft
   description: Learn how Azure can provide comprehensive security for your organization's estate. 
-  ms.date: 09/17/2020
+  ms.date: 05/27/2021
   author: IanKensey
-  ms.author: iankensey
+  ms.author: beccarobins
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Safeguard multi-cloud apps and resources with cloud security solutions from Microsoft
@@ -13,7 +13,7 @@ summary: "Microsoft 365 provides you with a suite of security and compliance too
 prerequisites: | 
   - An understanding of concepts including containers, virtual machines, storage, Logic Apps, and Log Analytics.
   - Familiarity with the Azure portal, and Azure Security Center.
-iconUrl: /learn/achievements/generic-trophy.svg
+iconUrl: /learn/achievements/cloud-security-solutions-safeguard.svg
 levels: 
 - intermediate
 roles:
