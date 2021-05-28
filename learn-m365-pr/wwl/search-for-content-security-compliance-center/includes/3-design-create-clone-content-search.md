@@ -55,8 +55,8 @@ As mentioned in the previous unit, you must be a member of the eDiscovery Manage
 
     Using the keyword list enables you to get statistics that show how many items match each keyword. These statistics can help quickly identify which keywords are the most (and least) effective. You can also use a keyword phrase (surrounded by parentheses) in a row. For more information about the keyword list and search statistics, see [Get keyword statistics for searches](/microsoft-365/compliance/view-keyword-statistics-for-content-search).
 
-> [!NOTE]
-> To help reduce issues caused by large keyword lists, you're limited to a maximum of 20 rows in the keyword list.
+    > [!NOTE]
+    > To help reduce issues caused by large keyword lists, you're limited to a maximum of 20 rows in the keyword list.
 
     **C. Add condition.** You can add search conditions to narrow a search and return a more refined set of results. Each condition adds a clause to the search query that is created and run when you start the search. A condition is logically connected to the keyword query (specified in the keyword box) by a logical operator (c:c) that is similar in functionality to the AND operator. That means that items have to satisfy both the keyword query and one or more conditions to be included in the results. This design is how conditions help to narrow your results. For a list and description of conditions that you can use in a search query, see [Search conditions](/microsoft-365/compliance/keyword-queries-and-search-conditions).
 
