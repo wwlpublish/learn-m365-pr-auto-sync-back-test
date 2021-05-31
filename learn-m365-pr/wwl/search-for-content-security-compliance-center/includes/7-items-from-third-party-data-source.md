@@ -14,7 +14,7 @@ kind:externaldata AND subject:contoso
 Instead of searching all types of third-party data, you can create queries that only search for a specific type of third-party data. This type of search can be created by using the following message property-value pair in the keyword box for a Content search:
 
 ```
-itemclass:ipm.externaldata.<third-party data type>*
+itemclass:ipm.externaldata.&lt;third-party data type&gt;*
 ```
 
 For example, you would use the following query to only search Facebook data that contains the word "contoso" in the Subject property:
