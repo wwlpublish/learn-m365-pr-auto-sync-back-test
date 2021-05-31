@@ -24,6 +24,6 @@ quiz:
     - content: "Mailbox audit logging wasn't turned on for each user mailbox"
       isCorrect: true
       explanation: "That's correct. Mailbox audit logging must be turned on for each user mailbox before user activity in Exchange Online is logged."
-    - content: "Patti didn't turn on audit log searching by running the Set-AdminAuditLogConfig cmdlet in Exchange Online Powershell"
+    - content: "Patti didn't turn on audit log searching by running the Set-AdminAuditLogConfig cmdlet in Exchange Online PowerShell"
       isCorrect: false
       explanation: "That's incorrect. This cmdlet is one way of turning on audit log searching. However, it was already turned on, otherwise Patti wouldn't have been able to run an audit log search. Try again."
