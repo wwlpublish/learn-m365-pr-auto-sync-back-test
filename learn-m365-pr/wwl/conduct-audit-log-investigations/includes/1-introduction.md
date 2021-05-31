@@ -8,7 +8,7 @@ In this module, you'll examine the steps for searching, viewing, filtering, and 
  -  Azure Active Directory
  -  other Microsoft 365 services
 
-After completing this module, you'll be able to:
+After completing this module, you'll be able to: 
 
  -  Describe what the audit log is and the permissions that are necessary to search the Microsoft 365 audit log.
  -  Create audit policies in SharePoint Online.
