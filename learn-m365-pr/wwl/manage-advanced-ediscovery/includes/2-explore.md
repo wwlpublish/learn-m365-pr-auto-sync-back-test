@@ -51,7 +51,7 @@ Other machine learning capabilities can further refine and identify relevant dat
 
 The built-in workflow of Advanced eDiscovery aligns with the eDiscovery process outlined by the Electronic Discovery Reference Model (EDRM). EDRM is a framework that outlines standards for the recovery and discovery of digital data. Its goal is to guide organizations when they collect and assimilate electronic data during the legal process, including criminal evidence discovery. The EDRM framework is a conceptual standard for the E-discovery process, as shown in the following diagram.
 
-:::image type="content" source="../media/EDRMworkflow-f4b5b64e.png" alt-text="Diagram showing eDiscovery workflow based on the EDRM framework":::
+:::image type="content" source="../media/edrm-workflow-01f5fb0f.png" alt-text="Diagram showing eDiscovery workflow based on the EDRM framework":::
 <br><br>(Image source courtesy of edrm.net. The source image was made available under Creative Commons Attribution 3.0 Unported License.)
 
 At a high level, here's how Advanced eDiscovery supports the EDRM workflow:

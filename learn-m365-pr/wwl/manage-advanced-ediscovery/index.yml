@@ -16,7 +16,8 @@ abstract: |
   - Configure permissions for users in Advanced eDiscovery
   - Create cases in Advanced eDiscovery
   - Search and prepare data for Advanced eDiscovery
-prerequisites: ""
+prerequisites: |
+  None
 iconUrl: /learn/achievements/generic-badge.svg
 levels:
 - intermediate
