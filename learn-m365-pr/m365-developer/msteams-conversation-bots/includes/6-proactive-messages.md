@@ -18,7 +18,7 @@ Sending proactive messages to users can be an effective way to communicate with 
 
 It is important to use this functionality sparingly. Provide them with enough information to let them understand why they're being messaged.
 
-Proactive messages generally fall into one of two categories, welcome messages or notifications.
+Proactive messages generally fall into one of two categories: welcome messages or notifications.
 
 ### Welcome messages
 

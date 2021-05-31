@@ -82,7 +82,7 @@ To create a conversational bot for Microsoft Teams, you need to do the following
 1. create your Microsoft Teams app manifest and app package
 1. upload your app package to Microsoft Teams
 
-Microsoft provides SDKs for multiple platforms, including .NET and Node.js. This module will use the Node.js SDK
+Microsoft provides SDKs for multiple platforms, including .NET and Node.js. This module will use the Node.js SDK.
 
 ### Create a web service
 
@@ -138,7 +138,7 @@ You can use App Studio to add a bot to the app's manifest file. App Studio can c
 
 ![Screenshot of App Studio](../media/03-app-studio-01.png)
 
-The following JSON is taken from the app's manifest for the bot you'll create in the next unit of this module. This bot defines a new command **MentionMe** that is displayed to users who want to interact with it. Listing all the supported commands isn't required, but it does make your bot more user-friendly.
+The following JSON is taken from the app's manifest for the bot you'll create in the next unit of this module. This bot defines a new command, **MentionMe**, that is displayed to users who want to interact with it. Listing all the supported commands isn't required, but it does make your bot more user-friendly.
 
 ```json
 "bots": [
@@ -189,7 +189,7 @@ To receive a text message, use the `text` property of the `Activity` object. In 
 
 ### Send a message
 
-To send a text message, specify the string you want to send as the activity. In the bot's activity handlers, use the turn context object's `SendActivity` method to send a single message response.
+To send a text message, specify the string you want to send as the activity. In the bot's activity handlers, use the turn context object's `SendActivity()` method to send a single message response.
 
 ## Summary
 
