@@ -1,3 +1,5 @@
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4OARp]
+
 Custom Microsoft Teams apps that incorporate user data protected by Azure AD will need to implement an authentication process. Single sign-on (SSO) provides a seamless way for your Microsoft Teams apps to authenticate users.
 
 In this unit, you'll learn about the different authentication options supported by Microsoft Teams and how the single sign-on (SSO) works with custom tabs and bots.
