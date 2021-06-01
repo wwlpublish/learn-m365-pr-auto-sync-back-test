@@ -9,7 +9,8 @@ metadata:
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Reduce risk with Microsoft Compliance Manager
-summary: "Learn how Microsoft Compliance Manager measures your progress in completing actions that help reduce risks around data protection and regulatory standards."
+summary: |
+  Learn how Microsoft Compliance Manager measures your progress in completing actions that help reduce risks around data protection and regulatory standards.
 prerequisites: | 
   - Cloud computing concepts
 iconUrl: /learn/achievements/reduce-risk-with-microsoft-compliance-manager.svg
