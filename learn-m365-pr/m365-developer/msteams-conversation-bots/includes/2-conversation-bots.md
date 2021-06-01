@@ -1,3 +1,5 @@
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4NHyi]
+
 Conversation bots allow users to interact with a web service through text, interactive cards, and task modules from the Microsoft Teams client. This capability enables developers to create a guided interaction with your users.
 
 In this unit, you’ll learn the basics of bots, the Microsoft Bot Framework, and the steps required to register a bot in a Microsoft Teams app to interact with it from the Microsoft Teams client.
