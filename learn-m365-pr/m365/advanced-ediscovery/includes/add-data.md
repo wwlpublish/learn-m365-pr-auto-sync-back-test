@@ -29,10 +29,10 @@ After the review set processing is completed, you can click the Review sets tab 
 Not all content that you need to analyze in Advanced eDiscovery is in Microsoft 365. If you want to add data from a source other than Office 365 into your search – including data from an on-premises environment - a process is provided to add that data after you complete your initial search. With the non-Microsoft 365 data import feature in Advanced eDiscovery, you can upload documents that aren't located in Microsoft 365 to a review set. 
 
 > [!NOTE]
-> Non-Microsoft 365 data must be a file type that is supported by Advanced eDiscovery. For more information, see [Supported file types in Advanced eDiscovery](https://docs.microsoft.com/microsoft-365/compliance/supported-filetypes-ediscovery20?view=o365-worldwide?azure-portal=true).
+> Non-Microsoft 365 data must be a file type that is supported by Advanced eDiscovery. For more information, see [Supported file types in Advanced eDiscovery](/microsoft-365/compliance/supported-filetypes-ediscovery20?azure-portal=true).
 
 ### Before you begin
-Loading non-Microsoft 365 data into a review set leverages an Azure AzCopy command that contains parameters with the location of where the files that you want to upload are stored and the Azure storage location that the files will be uploaded to. Therefore, before you attempt to load non-Microsoft 365 data, it is necessary to [install the AzCopy command-line utility](https://docs.microsoft.com/azure/storage/common/storage-use-azcopy-v10?azure-portal=true) to your local computer in the default location, which is **%ProgramFiles(x86)%\Microsoft SDKs\Azure\AzCopy**.  
+Loading non-Microsoft 365 data into a review set leverages an Azure AzCopy command that contains parameters with the location of where the files that you want to upload are stored and the Azure storage location that the files will be uploaded to. Therefore, before you attempt to load non-Microsoft 365 data, it is necessary to [install the AzCopy command-line utility](/azure/storage/common/storage-use-azcopy-v10?azure-portal=true) to your local computer in the default location, which is **%ProgramFiles(x86)%\Microsoft SDKs\Azure\AzCopy**.  
 
 The files to be uploaded must be located in subfolders, where each subfolder is associated with a specific custodian using the following naming convention: **alias\@domainname**. The alias@domainname must be the user's Microsoft 365 alias and domain. The parent folder can only contain the alias@domainname folders without any loose files. As an example, the folder structure for the non-Microsoft 365 data that you want to upload would be similar to the following:
  - c:\nonO365\abraham.mcmahon@contoso.com
@@ -78,7 +78,7 @@ You can add content from one review set to another one by selecting specific doc
 
 ![Adding selected items.](../media/action.png)  
 
-In the **Add to another review set** flyout page, choose the review set you want to add the items to. Choose whether to add **All documents in the review set** or **Selected documents only**. **Additional information** provides options to include metadata from the items and whether to include [tags](https://docs.microsoft.com/microsoft-365/compliance/tagging-documents?view=o365-worldwide?azure-portal=true) from the source review set when the documents are added to the new review set.
+In the **Add to another review set** flyout page, choose the review set you want to add the items to. Choose whether to add **All documents in the review set** or **Selected documents only**. **Additional information** provides options to include metadata from the items and whether to include [tags](/microsoft-365/compliance/tagging-documents?azure-portal=true) from the source review set when the documents are added to the new review set.
 
  ![Add to another review set options flyout page](../media/add-to-another-review-set.png) 
 
@@ -86,4 +86,3 @@ In the **Add to another review set** flyout page, choose the review set you want
 Investigations may be conducted over the course of weeks or even months. As the case progresses, you may discover that there may be additional data sources relevant to a specific custodian. This may require you to create multiple searches over the course of time so that your review set includes all the data that is relevant to the case. 
 
 A load set is an instance of adding data to a review set. For example, if you add the results of two different searches to the same review set, each will represent a load set. 
-

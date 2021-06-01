@@ -19,7 +19,7 @@ abstract: |
 prerequisites: |
  - Familiarity with Microsoft Azure administration. 
  - Familiarity with Windows and iOS devices. 
-iconUrl: https://docs.microsoft.com/media/learn/module.svg
+iconUrl: /learn/achievements/generic-badge.svg
 levels: 
 - beginner
 roles: 
