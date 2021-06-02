@@ -16,11 +16,10 @@ Review the following steps to understand the procedure for searching the audit l
      -  **Users**. Select in this box and then select one or more users to display search results for. The audit log entries for the selected activity completed by the users you select in this box are displayed in the list of results. Leave this box blank to return entries for all users (and service accounts) in your organization.
      -  **File, folder, or site**. Type some or all of a file or folder name to search for activity related to the file or folder that contains the specified keyword. You can also specify a URL or part of a URL to display entries for activity on any object in the specified URL path. Special characters, such as forward slash (/), back slash (), dash (-), and underscore (\_), aren't supported in the search query. Be sure to replace special characters with a space.<br><br>For example, to search for activity by Patti Fernandez (alias: patti) in a OneDrive for Business site such as **`https://contoso-mysharepoint.com/personal/patti_contoso_onmicrosoft_com`**, you could type the following text in this search field: **personal patti contoso**.
 3.  Select **Search** to run the search using your search criteria.
+4.  The search results are loaded, and after a few moments they're displayed under **Results**.
 
-The search results are loaded, and after a few moments they're displayed under **Results**.
-
-> [!NOTE]
-> A maximum of 5000 events will be displayed in increments of 150 events. If more than 5000 events meet the search criteria, only the most recent 5000 events are displayed.
+    > [!NOTE]
+    > A maximum of 5000 events will be displayed in increments of 150 events. If more than 5000 events meet the search criteria, only the most recent 5000 events are displayed.
 
 ### Tips for searching the audit log
 
