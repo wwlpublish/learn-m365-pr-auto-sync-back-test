@@ -63,7 +63,7 @@ You can test your network access to Microsoft 365 using the **Microsoft 365 Netw
 
 ## Learn more
 
-- [Domains FAQ](/microsoft-365/admin/setup/domains-faq?view=o365-worldwide)
+- [Domains FAQ](/microsoft-365/admin/setup/domains-faq)
 - [New Office 365 endpoint categories](/office365/enterprise/office-365-network-connectivity-principles#BKMK_Categories)
 - [Office 365 URLs and IP address ranges](/office365/enterprise/urls-and-ip-address-ranges)
 - [Microsoft 365 network connectivity overview](/office365/enterprise/office-365-networking-overview)

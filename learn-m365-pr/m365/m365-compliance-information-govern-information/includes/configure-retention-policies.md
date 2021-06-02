@@ -105,4 +105,4 @@ The image below shows the retention policy **Teams Chats Retention Policy** with
 
 ## Learn more
 - [Overview of retention policies](/microsoft-365/compliance/retention-policies?azure-portal=true)
-- [Retention policy precedence](/microsoft-365/compliance/labels?view=o365-worldwide#the-principles-of-retention-or-what-takes-precedence?azure-portal=true)
+- [Retention policy precedence](/microsoft-365/compliance/labels?the-principles-of-retention-or-what-takes-precedence?azure-portal=true)

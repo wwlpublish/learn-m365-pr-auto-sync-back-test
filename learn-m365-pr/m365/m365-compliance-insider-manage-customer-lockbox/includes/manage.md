@@ -49,7 +49,7 @@ The actions performed by a Microsoft engineer after a Customer Lockbox request i
 |  Item |  \<empty\> |
 
 ## Searching the audit log
-Before you can search the audit log, you must first turn on audit logging. To turn it on, go to the [Security & Compliance Center](https://protection.office.com?azure-portal=true), then click **Search > Audit log search > Turn on auditing.** If you do not see the link for **Turn on auditing**, then auditing has already been turned on for your organization. After you turn it on, a message is displayed that says the audit log is being prepared and that you can run a search in a couple of hours after the preparation is complete. You only have to do this once. For more information, see [Turn audit log search on or off](/microsoft-365/compliance/turn-audit-log-search-on-or-off?view=o365-worldwide?azure-portal=true).
+Before you can search the audit log, you must first turn on audit logging. To turn it on, go to the [Security & Compliance Center](https://protection.office.com?azure-portal=true), then click **Search > Audit log search > Turn on auditing.** If you do not see the link for **Turn on auditing**, then auditing has already been turned on for your organization. After you turn it on, a message is displayed that says the audit log is being prepared and that you can run a search in a couple of hours after the preparation is complete. You only have to do this once. For more information, see [Turn audit log search on or off](/microsoft-365/compliance/turn-audit-log-search-on-or-off?azure-portal=true).
 
 You also have to be assigned the View-Only Audit Logs or Audit Logs role in Exchange Online to search the audit log. By default, these roles are assigned to the Compliance Management and Organization Management role groups on the **Permissions** page in the [Exchange admin center](https://outlook.office365.com/ecp/?azure-portal=true). Individuals with work or school accounts that are assigned the global admin role are automatically added as members of the Organization Management role group in Exchange Online. 
 
@@ -62,4 +62,4 @@ Once auditing has been turned on, an administrator with the appropriate permissi
 3.	Filter the search results.
 4.	Export the search results to a file. 
 
-For more information about the process and the types of activities you can search for, see [Search the audit log in the Security & Compliance Center](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance?view=o365-worldwide?azure-portal=true).
+For more information about the process and the types of activities you can search for, see [Search the audit log in the Security & Compliance Center](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance?azure-portal=true).

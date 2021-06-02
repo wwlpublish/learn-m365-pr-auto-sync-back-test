@@ -82,7 +82,7 @@ Grant-CsOnlineVoicemailPolicy -PolicyName TranscriptionProfanityMaskingEnabled -
 ## Learn more
 
 - [Use Connectors to Configure Mail Flow](/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/use-connectors-to-configure-mail-flow)
-- [Email encryption](/microsoft-365/compliance/email-encryption?view=o365-worldwide)
-- [Set up new Message Encryption capabilities](/microsoft-365/compliance/set-up-new-message-encryption-capabilities?view=o365-worldwide)
+- [Email encryption](/microsoft-365/compliance/email-encryption)
+- [Set up new Message Encryption capabilities](/microsoft-365/compliance/set-up-new-message-encryption-capabilities)
 - [Configuring and managing templates for Azure Information Protection](/information-protection/deploy-use/configure-policy-templates)
 - [Do Not Forward option for emails](/information-protection/deploy-use/configure-usage-rights#do-not-forward-option-for-emails)

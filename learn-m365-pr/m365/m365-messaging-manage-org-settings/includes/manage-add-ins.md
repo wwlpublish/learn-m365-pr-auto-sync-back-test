@@ -94,7 +94,7 @@ If the add-in doesn't support add-in commands or if you want to view all deploye
 
 
 ## Learn more
-- [Determine if Centralized Deployment of add-ins works for your Microsoft 365 organization](/microsoft-365/admin/manage/centralized-deployment-of-add-ins?view=o365-worldwide?azure-portal=true)
-- [See Add-in states](/microsoft-365/admin/manage/manage-deployment-of-add-ins?view=o365-worldwide#add-in-states?azure-portal=true)
+- [Determine if Centralized Deployment of add-ins works for your Microsoft 365 organization](/microsoft-365/admin/manage/centralized-deployment-of-add-ins?azure-portal=true)
+- [See Add-in states](/microsoft-365/admin/manage/manage-deployment-of-add-ins?add-in-states?azure-portal=true)
 - [Specify the administrators and users who can install and manage add-ins for Outlook](/exchange/clients-and-mobile-in-exchange-online/add-ins-for-outlook/specify-who-can-install-and-manage-add-ins?redirectedfrom=MSDN?azure-portal=true)
 

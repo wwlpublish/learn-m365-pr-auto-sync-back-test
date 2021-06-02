@@ -5,7 +5,7 @@ A case investigation may end up with a notice being sent to the offending employ
 
 Once an investigation has concluded and the necessary actions have been taken, the case can be closed by resolving the case as either benign or a confirmed policy violation with specific actions taken.
 
-To learn more about Advanced eDiscovery cases, see [Overview of Advanced eDiscovery in Microsoft 365](/microsoft-365/compliance/overview-ediscovery-20?view=o365-worldwide?azure-portal=true).
+To learn more about Advanced eDiscovery cases, see [Overview of Advanced eDiscovery in Microsoft 365](/microsoft-365/compliance/overview-ediscovery-20?azure-portal=true).
 
 ## Case dashboard
 The insider risk management **Cases dashboard** allows you to view and take action on cases. The **Cases dashboard** displays information from the previous 30 days for the following widgets: 
@@ -70,7 +70,7 @@ The **Content explorer** tab allows risk analysts and investigators to review co
 
   ![Content explorer](../media/content-explorer.png)
 
-**Content explorer** is a powerful tool with basic and advanced search and filtering features. To learn more about using the content explorer, see [Insider risk management content explorer](/microsoft-365/compliance/insider-risk-management-content-explorer?view=o365-worldwide?azure-portal=true).
+**Content explorer** is a powerful tool with basic and advanced search and filtering features. To learn more about using the content explorer, see [Insider risk management content explorer](/microsoft-365/compliance/insider-risk-management-content-explorer?azure-portal=true).
 ### Case notes
 The **Case notes** tab enables risk analysts and investigators to comment, feedback, and add insight about their work for the case. Notes are permanent additions to a case and cannot be edited or deleted after the note is saved. When a case is created from an alert, the comments entered in the **Confirm alert and create insider risk case** dialog are automatically added as a case note.
 ### Contributors
@@ -99,9 +99,9 @@ The **Notices templates dashboard** displays a list of configured notice templat
 
 ![Notice templates](../media/notice-templates.png)
 
-If you'd like to create more than a simple text-based email message for notifications, you can create a more detailed message by [using the HTML in the message body field](/microsoft-365/compliance/insider-risk-management-notices?view=o365-worldwide#html-for-notices?azure-portal=true) of a notice template.
+If you'd like to create more than a simple text-based email message for notifications, you can create a more detailed message by [using the HTML in the message body field](/microsoft-365/compliance/insider-risk-management-notices?html-for-notices?azure-portal=true) of a notice template.
 
-[Learn more about creating, updating, and deleting notice templates.](/microsoft-365/compliance/insider-risk-management-notices?view=o365-worldwide?azure-portal=true)
+[Learn more about creating, updating, and deleting notice templates.](/microsoft-365/compliance/insider-risk-management-notices?azure-portal=true)
 
 ### Explore how to minimize internal risks
 

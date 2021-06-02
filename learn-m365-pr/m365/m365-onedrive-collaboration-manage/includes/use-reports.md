@@ -33,8 +33,8 @@ The **Storage** view shows the amount of OneDrive storage you're using.
 You can also export the report data into an Excel .csv file.
 
 ## Learn more
-- [Microsoft 365 Reports in the admin center](/microsoft-365/admin/activity-reports/activity-reports?view=o365-worldwide?azure-portal=true)
-- [Microsoft 365 Reports in the admin center – OneDrive for Business usage](/microsoft-365/admin/activity-reports/onedrive-for-business-usage?view=o365-worldwide?azure-portal=true)
-- [Microsoft 365 Reports in the admin center – OneDrive for Business activity](/microsoft-365/admin/activity-reports/onedrive-for-business-activity?view=o365-worldwide?azure-portal=true)
+- [Microsoft 365 Reports in the admin center](/microsoft-365/admin/activity-reports/activity-reports?azure-portal=true)
+- [Microsoft 365 Reports in the admin center – OneDrive for Business usage](/microsoft-365/admin/activity-reports/onedrive-for-business-usage?azure-portal=true)
+- [Microsoft 365 Reports in the admin center – OneDrive for Business activity](/microsoft-365/admin/activity-reports/onedrive-for-business-activity?azure-portal=true)
 - [OneDrive usage reports through Microsoft Graph](/graph/api/resources/onedrive-usage-reports?view=graph-rest-1.0?azure-portal=true)
 - [OneDrive activity reports through Microsoft Graph](/graph/api/resources/onedrive-activity-reports?view=graph-rest-1.0?azure-portal=true)

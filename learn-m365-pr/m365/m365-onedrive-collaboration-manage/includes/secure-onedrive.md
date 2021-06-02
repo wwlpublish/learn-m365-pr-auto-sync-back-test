@@ -21,8 +21,8 @@ With a sensitivity label you can:
 To support sensitivity labels for Office on the web and for labels that apply encryption, make sure that your tenant is enabled for sensitivity labels for Office files in SharePoint and OneDrive.  
 
 ## Learn more
-- [Overview of data loss prevention](/microsoft-365/compliance/data-loss-prevention-policies?view=o365-worldwide?azure-portal=true)
-- [Learn about sensitivity labels](/microsoft-365/compliance/sensitivity-labels?view=o365-worldwide?azure-portal=true)
-- [Create and configure sensitivity labels and their policies](/microsoft-365/compliance/create-sensitivity-labels?view=o365-worldwide?azure-portal=true)
-- [Restrict access to content by using sensitivity labels to apply encryption](/microsoft-365/compliance/encryption-sensitivity-labels?view=o365-worldwide?azure-portal=true)
-- [Enable sensitivity labels for Office files in SharePoint and OneDrive](/microsoft-365/compliance/sensitivity-labels-sharepoint-onedrive-files?view=o365-worldwide?azure-portal=true)
+- [Overview of data loss prevention](/microsoft-365/compliance/data-loss-prevention-policies?azure-portal=true)
+- [Learn about sensitivity labels](/microsoft-365/compliance/sensitivity-labels?azure-portal=true)
+- [Create and configure sensitivity labels and their policies](/microsoft-365/compliance/create-sensitivity-labels?azure-portal=true)
+- [Restrict access to content by using sensitivity labels to apply encryption](/microsoft-365/compliance/encryption-sensitivity-labels?azure-portal=true)
+- [Enable sensitivity labels for Office files in SharePoint and OneDrive](/microsoft-365/compliance/sensitivity-labels-sharepoint-onedrive-files?azure-portal=true)

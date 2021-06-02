@@ -42,5 +42,5 @@ To manage sign-in security:
 
 To manage licenses:
 
-- [Assign licenses to users in Microsoft 365](/microsoft-365/admin/manage/assign-licenses-to-users?view=o365-worldwide)
+- [Assign licenses to users in Microsoft 365](/microsoft-365/admin/manage/assign-licenses-to-users)
 - [Assign or remove licenses in the Azure Active Directory portal](/azure/active-directory/fundamentals/license-users-groups)

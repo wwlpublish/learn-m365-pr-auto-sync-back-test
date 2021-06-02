@@ -137,8 +137,8 @@ You will be given one last opportunity to review and edit your settings before s
 ![Review your settings](../media/review-your-settings.png) 
 
 ## Learn more
-- [Restrict access to content by using sensitivity levels to apply encryption](/microsoft-365/compliance/encryption-sensitivity-labels?view=o365-worldwide?azure-portal=true)
-- [When Office 365 applies content marking and encryption](/microsoft-365/compliance/sensitivity-labels-office-apps?view=o365-worldwide#when-office-365-applies-content-marking-and-encryption?azure-portal=true)
-- [Enable sensitivity labels for Office files in SharePoint and OneDrive](/microsoft-365/compliance/sensitivity-labels-sharepoint-onedrive-files?view=o365-worldwide?azure-portal=true)
+- [Restrict access to content by using sensitivity levels to apply encryption](/microsoft-365/compliance/encryption-sensitivity-labels?azure-portal=true)
+- [When Office 365 applies content marking and encryption](/microsoft-365/compliance/sensitivity-labels-office-apps?when-office-365-applies-content-marking-and-encryption?azure-portal=true)
+- [Enable sensitivity labels for Office files in SharePoint and OneDrive](/microsoft-365/compliance/sensitivity-labels-sharepoint-onedrive-files?azure-portal=true)
 - [Use sensitivity labels to protect content in Microsoft Teams, Office 365 groups, and SharePoint sites (public preview)](/microsoft-365/compliance/sensitivity-labels-teams-groups-sites?azure-portal=true)
-- [Support for sensitivity label capabilities in Office apps](/microsoft-365/compliance/sensitivity-labels-office-apps?view=o365-worldwide#support-for-sensitivity-label-capabilities-in-apps?azure-portal=true)
+- [Support for sensitivity label capabilities in Office apps](/microsoft-365/compliance/sensitivity-labels-office-apps?support-for-sensitivity-label-capabilities-in-apps?azure-portal=true)

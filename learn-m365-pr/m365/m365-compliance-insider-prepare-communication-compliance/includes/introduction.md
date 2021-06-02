@@ -50,5 +50,5 @@ New interactive dashboards for alerts, policy matches, actions, and trends help 
 ![Communication compliance](../media/communication-compliance.png)
 
 ## Learn more
-- [Supported communication types](/microsoft-365/compliance/communication-compliance-feature-reference?view=o365-worldwide#supported-communication-types?azure-portal=true)
+- [Supported communication types](/microsoft-365/compliance/communication-compliance-feature-reference?supported-communication-types?azure-portal=true)
 

@@ -18,7 +18,7 @@ The next step is to sort the messages so that it's easier for you to investigate
 
    ![Policy filter](../media/policy-filter.png)
  
-For a complete list of filters and field details, see the [Filters](/microsoft-365/compliance/communication-compliance-feature-reference?view=o365-worldwide#filters?azure-portal=true) topic.
+For a complete list of filters and field details, see the [Filters](/microsoft-365/compliance/communication-compliance-feature-reference?filters?azure-portal=true) topic.
 
 ### Using near and exact duplicate analysis
 Communication compliance policies automatically scan and pre-group near and exact message duplicates without any additional configuration steps. This view allows you to quickly remediate similar messages one-by-one or as a group, reducing the message investigation burden for reviewers. As duplicates are detected, the **Near Duplicates** and/or the **Exact Duplicates** controls are displayed in the remediation action toolbar.

@@ -51,7 +51,7 @@ Be sure to click the full-screen option in the video player.
 
 ## Learn more
 - [External sharing overview](/sharepoint/external-sharing-overview?azure-portal=true)
-- [Microsoft 365 guest sharing settings reference](/microsoft-365/solutions/microsoft-365-guest-settings?view=o365-worldwide?azure-portal=true)
+- [Microsoft 365 guest sharing settings reference](/microsoft-365/solutions/microsoft-365-guest-settings?azure-portal=true)
 - [Manage sharing settings](/sharepoint/turn-external-sharing-on-or-off?azure-portal=true)
-- [Best practices for sharing files and folders with unauthenticated users](/microsoft-365/solutions/best-practices-anonymous-sharing?view=o365-worldwide?azure-portal=true)
+- [Best practices for sharing files and folders with unauthenticated users](/microsoft-365/solutions/best-practices-anonymous-sharing?azure-portal=true)
 - [Manage sharing in OneDrive and SharePoint](/onedrive/manage-sharing?azure-portal=true)

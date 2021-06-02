@@ -11,4 +11,4 @@ To the Security & Compliance Center to manage quarantined email messages:
 4.	After you’ve selected a message, you can perform several actions, including reporting the message to Microsoft or releasing it to the original recipient. If you take no action, the message will be deleted after the default quarantine retention period expires.
 
 ## Learn more
-[Manage quarantined messages and files as an admin](/microsoft-365/security/office-365-security/manage-quarantined-messages-and-files?view=o365-worldwide?azure-portal=true)
+[Manage quarantined messages and files as an admin](/microsoft-365/security/office-365-security/manage-quarantined-messages-and-files?azure-portal=true)

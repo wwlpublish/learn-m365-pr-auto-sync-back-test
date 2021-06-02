@@ -32,5 +32,5 @@ If a user leaves your organization, any files subject to a retention policy or c
 ## Learn more
 - [Set the default storage space for OneDrive users](/onedrive/set-default-storage-space?azure-portal=true)
 - [Change a specific user’s OneDrive storage space](/onedrive/change-user-storage?azure-portal=true)
-- [Learn about retention policies](/microsoft-365/compliance/retention-policies?view=o365-worldwide?azure-portal=true)
-- [Learn about retention labels](/microsoft-365/compliance/labels?view=o365-worldwide?azure-portal=true)
+- [Learn about retention policies](/microsoft-365/compliance/retention-policies?azure-portal=true)
+- [Learn about retention labels](/microsoft-365/compliance/labels?azure-portal=true)

@@ -27,8 +27,8 @@ The GDPR requires controllers to prepare a Data Protection Impact Assessment (DP
 
 ## Learn more
 
-- [GDPR Summary](/microsoft-365/compliance/gdpr?view=o365-worldwide&azure-portal=true)
-- [Data Subject Requests](/microsoft-365/compliance/gdpr-data-subject-requests?view=o365-worldwide&azure-portal=true)
-- [Data Subject Requests for the GDPR and CCPA](/microsoft-365/compliance/gdpr-dsr-office365?view=o365-worldwide&azure-portal=true)
-- [Data Protection Impact Assessment for the GDPR](/microsoft-365/compliance/gdpr-data-protection-impact-assessments?view=o365-worldwide&azure-portal=true)
+- [GDPR Summary](/microsoft-365/compliance/gdpr?azure-portal=true)
+- [Data Subject Requests](/microsoft-365/compliance/gdpr-data-subject-requests?azure-portal=true)
+- [Data Subject Requests for the GDPR and CCPA](/microsoft-365/compliance/gdpr-dsr-office365?azure-portal=true)
+- [Data Protection Impact Assessment for the GDPR](/microsoft-365/compliance/gdpr-data-protection-impact-assessments?azure-portal=true)
 - [Contents of DPIA](/microsoft-365/compliance/gdpr-dpia-office365#part-2--contents-of-a-dpia?azure-portal=true)

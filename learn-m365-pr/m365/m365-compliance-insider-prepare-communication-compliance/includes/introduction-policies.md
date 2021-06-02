@@ -16,17 +16,17 @@ There are several policy settings you can customize, including the following:
    - **Inbound.** You can choose **Inbound** to review communications sent *to* the people you chose to supervise.
    - **Outbound.** You can choose **Outbound** if you want to review communications sent *from* the people you chose to supervise.
    - **Internal.** You can choose **Internal** to review communications sent *between* the people you identified in the policy.
-- **Sensitive information types.** You have the option of including sensitive information types to help identify and protect credit card numbers, bank account numbers, passport numbers, and more. As part of [data loss prevention (DLP)](/microsoft-365/compliance/data-loss-prevention-policies?view=o365-worldwide?azure-portal=true), the sensitive information configuration can use patterns, character proximity, confidence levels, and even custom data types to help identify and flag content that may be sensitive. To learn more about sensitive information details and the patterns included in the default types, see [What sensitive information types look for](/microsoft-365/compliance/what-the-sensitive-information-types-look-for?view=o365-worldwide?azure-portal=true).
-- **Custom keyword dictionaries.** You can create custom dictionaries when you need to support terms or languages specific to your organization and policies. For more information, see [Create a keyword dictionary](/microsoft-365/compliance/create-a-keyword-dictionary?view=o365-worldwide?azure-portal=true).
+- **Sensitive information types.** You have the option of including sensitive information types to help identify and protect credit card numbers, bank account numbers, passport numbers, and more. As part of [data loss prevention (DLP)](/microsoft-365/compliance/data-loss-prevention-policies?azure-portal=true), the sensitive information configuration can use patterns, character proximity, confidence levels, and even custom data types to help identify and flag content that may be sensitive. To learn more about sensitive information details and the patterns included in the default types, see [What sensitive information types look for](/microsoft-365/compliance/what-the-sensitive-information-types-look-for?azure-portal=true).
+- **Custom keyword dictionaries.** You can create custom dictionaries when you need to support terms or languages specific to your organization and policies. For more information, see [Create a keyword dictionary](/microsoft-365/compliance/create-a-keyword-dictionary?azure-portal=true).
 
 - **Classifiers.** Built-in classifiers scan sent or received messages across all communication channels in your organization for different types of compliance issues. Classifiers use a combination of artificial intelligence and keywords to identify language in messages likely to violate anti-harassment policies. Communication compliance built-in classifiers scan communications for terms and sentiment for the following types of language:
    - **Harassment.** Scans for offensive conduct targeting people regarding race, color, religion, national origin.
    - **Profanity.** Scans for profane expressions that embarrass most people. 
    - **Threat.** Scans for threats to commit violence or physical harm to a person or property.
    
-   For information about classifiers in Microsoft 365, see [Classifiers](/microsoft-365/compliance/classifier-getting-started-with?view=o365-worldwide?azure-portal=true).
+   For information about classifiers in Microsoft 365, see [Classifiers](/microsoft-365/compliance/classifier-getting-started-with?azure-portal=true).
 
-- **Conditional settings**. The conditions you choose for the policy apply to communications from both email and third-party sources in your organization (like from Facebook or DropBox). This [table](/microsoft-365/compliance/communication-compliance-feature-reference?view=o365-worldwide#conditional-settings?azure-portal=true) explains more about each condition that is available and when to use it.
+- **Conditional settings**. The conditions you choose for the policy apply to communications from both email and third-party sources in your organization (like from Facebook or DropBox). This [table](/microsoft-365/compliance/communication-compliance-feature-reference?conditional-settings?azure-portal=true) explains more about each condition that is available and when to use it.
 
 - **Review percentage.** If you want to reduce the amount of content to review, you can specify a percentage of all the communications governed by a supervision policy. A real-time, random sample of content is selected from the total percentage of content that matches chosen policy conditions. If you want reviewers to review all items, you can configure *100%* in a communication compliance policy.
 
@@ -48,12 +48,12 @@ With communication compliance policies, you can choose to scan messages in one o
 - **Yammer**: Private messages and public community conversations in [Yammer](/yammer/yammer-landing-page?azure-portal=true) are supported in communication compliance policies. Yammer is an optional channel and must be in [native mode](/yammer/configure-your-yammer-network/overview-native-mode?azure-portal=true) to support scanning of messages and attachments.
 - **Skype for Business Online**: Chat communications and associated attachments in Skype for Business Online can be supervised. Skype for Business Online chats matching communication compliance policy conditions may take up to 24 hours to process. Supervised chat conversations are sourced from previous conversations saved in Skype for Business Online. To supervise user chat communications in Skype for Business Online, assign individual users or assign a distribution group to the communication compliance policy. This setting is for one-to-one or one-to-many user/chat relationships.
 - **Third-party sources**: You can scan communications from third-party sources for data imported into mailboxes in your Microsoft 365 organization. Connectors support the following third-party resources:
-   - [Instant Bloomberg](/microsoft-365/compliance/archive-instant-bloomberg-data?view=o365-worldwide?azure-portal=true)
-   - [Facebook](/microsoft-365/compliance/archive-facebook-data-with-sample-connector?view=o365-worldwide?azure-portal=true)
-   - [LinkedIn](/microsoft-365/compliance/archive-linkedin-data?view=o365-worldwide?azure-portal=true)
+   - [Instant Bloomberg](/microsoft-365/compliance/archive-instant-bloomberg-data?azure-portal=true)
+   - [Facebook](/microsoft-365/compliance/archive-facebook-data-with-sample-connector?azure-portal=true)
+   - [LinkedIn](/microsoft-365/compliance/archive-linkedin-data?azure-portal=true)
    - SAP SuccessFactors
-   - [Twitter](/microsoft-365/compliance/archive-twitter-data-with-sample-connector?view=o365-worldwide?azure-portal=true)
-   - [Custom data connector](/microsoft-365/compliance/archiving-third-party-data?view=o365-worldwide?azure-portal=true)
+   - [Twitter](/microsoft-365/compliance/archive-twitter-data-with-sample-connector?azure-portal=true)
+   - [Custom data connector](/microsoft-365/compliance/archiving-third-party-data?azure-portal=true)
 
 ## Transitioning from Supervision Policies in Microsoft 365
 Supervision policies in Microsoft 365 will be fully replaced by the communication compliance solution. Organizations using Supervision policies and planning to transition to communication compliance policies in Microsoft 365 need to understand these important points:
@@ -63,7 +63,7 @@ Supervision policies in Microsoft 365 will be fully replaced by the communicatio
 - When transitioning to communication compliance in Microsoft 365, you should plan to export reporting data from supervision in Office 365 if you have internal compliance retention policy requirements.
 
 ## Learn more
-- [Archive third-party data](/microsoft-365/compliance/archiving-third-party-data?view=o365-worldwide?azure-portal=true)
+- [Archive third-party data](/microsoft-365/compliance/archiving-third-party-data?azure-portal=true)
 
 
 

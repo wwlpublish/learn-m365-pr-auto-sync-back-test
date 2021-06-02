@@ -14,4 +14,4 @@ If you've tried a different mail client, and if running the Microsoft Support an
 Sign into Microsoft 365 Apps for Business as an administrator, and then start the Admin app. Under **Service health**, go to **View the service health**. You'll see any previously reported issues for your organization, and, if available, the steps you need to take to resolve them.
 
 ## Learn more
-[Find and fix email delivery issues as an Office 365 for business admin](/exchange/troubleshoot/mail-delivery/email-delivery-issues?view=o365-worldwide?azure-portal=true)
+[Find and fix email delivery issues as an Office 365 for business admin](/exchange/troubleshoot/mail-delivery/email-delivery-issues?azure-portal=true)

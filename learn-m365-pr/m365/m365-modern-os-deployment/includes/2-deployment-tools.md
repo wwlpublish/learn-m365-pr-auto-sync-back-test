@@ -27,4 +27,4 @@ Once you have deployed Windows 10 in your organization, it is important to stay 
 
 ## Learn more
 - [Create a deployment plan](/windows/deployment/update/create-deployment-plan?azure-portal=true)
-- [Modern Desktop Deployment Center](/microsoft-365/enterprise/desktop-deployment-center-home?view=o365-worldwide?azure-portal=true)
+- [Modern Desktop Deployment Center](/microsoft-365/enterprise/desktop-deployment-center-home?azure-portal=true)

@@ -36,6 +36,6 @@ How the affected content is managed after detection is determined by your settin
 **Safe attachments** is an Microsoft Defender for Office 365 feature that's designed to enhance security by checking and identifying malicious attachments. Global Admins or Security Admins create policies to prevent malicious attachments from being sent to users, clicked, or acted on. Safe attachment protection is available in SharePoint, OneDrive, and Microsoft Teams. Microsoft Defender for Endpoint Plan 1 and 2 have this capability.  
 
 ## Learn more
-- [Microsoft Defender for SharePoint, OneDrive, and Microsoft Teams](/microsoft-365/security/office-365-security/atp-for-spo-odb-and-teams?view=o365-worldwide)
-- [Safe Attachments](/microsoft-365/security/office-365-security/atp-safe-attachments?view=o365-worldwide)
+- [Microsoft Defender for SharePoint, OneDrive, and Microsoft Teams](/microsoft-365/security/office-365-security/atp-for-spo-odb-and-teams)
+- [Safe Attachments](/microsoft-365/security/office-365-security/atp-safe-attachments)
 - [Microsoft Defender for Endpoint](/microsoft-365/security/office-365-security/office-365-atp)

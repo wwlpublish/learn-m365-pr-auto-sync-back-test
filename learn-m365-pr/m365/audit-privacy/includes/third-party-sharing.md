@@ -28,5 +28,5 @@ If a government wants customer data, it must follow applicable legal processes, 
 - [About our practices and your data](https://blogs.microsoft.com/datalaw/our-practices/?azure-portal=true)
 - [A call for principle-based international agreements to govern law enforcement access to data](https://blogs.microsoft.com/on-the-issues/2018/09/11/a-call-for-principle-based-international-agreements-to-govern-law-enforcement-access-to-data/?azure-portal=true)
 - [Law Enforcement Requests Report](https://www.microsoft.com/corporate-responsibility/law-enforcement-requests-report?azure-portal=true)
-- [Archive third party data](/microsoft-365/compliance/archiving-third-party-data?view=o365-worldwide&azure-portal=true)
+- [Archive third party data](/microsoft-365/compliance/archiving-third-party-data?azure-portal=true)
 - [Overview of optional connected experiences in Office](/deployoffice/privacy/optional-connected-experiences?azure-portal=true)  
