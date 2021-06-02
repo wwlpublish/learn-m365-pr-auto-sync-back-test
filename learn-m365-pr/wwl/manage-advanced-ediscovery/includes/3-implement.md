@@ -52,6 +52,6 @@ There are two subgroups in the eDiscovery Manager role group. The difference bet
 
 ### Step 3: Configure global settings for Advanced eDiscovery
 
-The last step to complete before people in your organization start to create and use cases is to configure global settings that apply to all cases in your organization. At this time, the only global setting that's available is attorney-client privilege detection (more global settings will be available in the future). This setting enables the attorney-client privilege model to run when you analyze data in a review set.
+The last step to complete before people in your organization start to create and use cases is to configure global settings that apply to all cases in your organization. At this time, the only global setting that's available is attorney-client privilege detection. This setting enables the attorney-client privilege model to run when you analyze data in a review set.
 
 **Additional reading.** For more information about setting up and using the attorney-client privilege detection model view, see [Set up attorney-client privilege detection in Advanced eDiscovery](/microsoft-365/compliance/attorney-privilege-detection).

@@ -1,6 +1,6 @@
 To get organizations started using Advanced eDiscovery, here's a workflow diagram that aligns with common eDiscovery practices. Each of the five steps is introduced in the following sections.
 
-:::image type="content" source="../media/aedworkflow-ccfce77b.png" alt-text="diagram showing the workflow of Advanced eDiscovery.":::
+:::image type="content" source="../media/aed-workflow-2e83d77a.png" alt-text="diagram showing the workflow of Advanced eDiscovery.":::
 <br><br>
 
 ### Step 1. Add custodians to a case
