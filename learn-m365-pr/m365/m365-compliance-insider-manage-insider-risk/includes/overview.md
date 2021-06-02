@@ -21,7 +21,7 @@ Watch the video below to learn how insider risk management can help your organiz
 >  -	Microsoft 365 E5 Compliance 
 >  -	Microsoft 365 E5 Insider Risk Management 
 > 
-> Please review [Microsoft 365 licensing guidance for security & compliance](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance?azure-portal=true) to identify required licenses for your organization.
+> Please review [Microsoft 365 licensing guidance for security & compliance](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance?azure-portal=true) to identify required licenses for your organization.
 > 
 
 ## Risk Pain Points in the Modern Workplace

@@ -10,9 +10,9 @@ Now that you've completed this module, you should be able to:
 
 ## Learn more
 
-- [File policies](https://docs.microsoft.com/cloud-app-security/data-protection-policies)
-- [Overview of the Microsoft 365 security center](https://docs.microsoft.com/microsoft-365/security/mtp/overview-security-center)
-- [Microsoft Defender for Endpoint for iOS](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-atp-ios)
-- [Getting started with Kusto]( https://docs.microsoft.com/azure/data-explorer/kusto/concepts/)
-- [Set up a log collector on-premises]( https://docs.microsoft.com/cloud-app-security/discovery-docker-ubuntu)
-- [Cloud App Security REST API](https://docs.microsoft.com/cloud-app-security/api-introduction)
+- [File policies](/cloud-app-security/data-protection-policies)
+- [Overview of the Microsoft 365 security center](/microsoft-365/security/mtp/overview-security-center)
+- [Microsoft Defender for Endpoint for iOS](/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-atp-ios)
+- [Getting started with Kusto]( /azure/data-explorer/kusto/concepts/)
+- [Set up a log collector on-premises]( /cloud-app-security/discovery-docker-ubuntu)
+- [Cloud App Security REST API](/cloud-app-security/api-introduction)

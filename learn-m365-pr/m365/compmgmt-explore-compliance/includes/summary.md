@@ -7,6 +7,6 @@ Now that you have finished this module, you should be able to:
 
 ## Resources
 
-- [Microsoft Compliance Manager](https://docs.microsoft.com/microsoft-365/compliance/compliance-manager-overview?azure-portal=true)
-- [Get started with Compliance Manager](https://docs.microsoft.com/microsoft-365/compliance/compliance-manager-setup?azure-portal=true)
+- [Microsoft Compliance Manager](/microsoft-365/compliance/compliance-manager-overview?azure-portal=true)
+- [Get started with Compliance Manager](/microsoft-365/compliance/compliance-manager-setup?azure-portal=true)
 - [Texas bank extends a century plus legacy with Compliance Manager, keeps connections with Microsoft Teams](https://customers.microsoft.com/story/843247-frost-bank-banking-capital-markets-microsoft-365-security-compliance?azure-portal=true)

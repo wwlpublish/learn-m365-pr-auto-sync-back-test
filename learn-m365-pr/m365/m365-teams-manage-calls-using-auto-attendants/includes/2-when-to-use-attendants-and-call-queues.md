@@ -47,5 +47,5 @@ The following image shows what an attendant would see when a caller was in a cal
 
 ## Learn more
   
-- [Voice - Phone System and PSTN connectivity options](https://docs.microsoft.com/MicrosoftTeams/cloud-voice-landing-page#core-deployment-decisions)
-- [What is Phone System](https://docs.microsoft.com/MicrosoftTeams/what-is-phone-system-in-office-365)
+- [Voice - Phone System and PSTN connectivity options](/MicrosoftTeams/cloud-voice-landing-page#core-deployment-decisions)
+- [What is Phone System](/MicrosoftTeams/what-is-phone-system-in-office-365)

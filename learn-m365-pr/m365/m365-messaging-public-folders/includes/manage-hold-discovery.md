@@ -57,4 +57,4 @@ You can’t choose individual public folders, as Microsoft 365 compliance center
 ## Learn more
 
 - [Microsoft 365 compliance center](https://compliance.microsoft.com/?azure-portal=true)
-- [Get started with Advanced eDiscovery](https://docs.microsoft.com/microsoft-365/compliance/get-started-with-advanced-ediscovery?azure-portal=true)
+- [Get started with Advanced eDiscovery](/microsoft-365/compliance/get-started-with-advanced-ediscovery?azure-portal=true)

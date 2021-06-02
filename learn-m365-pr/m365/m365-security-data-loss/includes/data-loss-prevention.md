@@ -25,4 +25,4 @@ Most of your organization’s data might not be RMS-protected but still require 
 
 When you're done with a link, use the **Back** arrow in your browser to come back to this page.
 
-- [Overview of data loss prevention](https://docs.microsoft.com/microsoft-365/compliance/data-loss-prevention-policies)
+- [Overview of data loss prevention](/microsoft-365/compliance/data-loss-prevention-policies)

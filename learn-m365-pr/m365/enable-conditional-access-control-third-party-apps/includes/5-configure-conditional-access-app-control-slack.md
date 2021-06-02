@@ -39,7 +39,7 @@ First, you’ll need to add the Slack app to Azure AD, and then provision users 
         - Configure the Settings value as desired, and then select **Save Configuration**.
 
     > [!TIP]
-    > For additional details, review the following document: [Tutorial: Azure Active Directory single sign-on (SSO) integration with Slack](https://docs.microsoft.com/azure/active-directory/saas-apps/slack-tutorial?azure-portal-true).
+    > For additional details, review the following document: [Tutorial: Azure Active Directory single sign-on (SSO) integration with Slack](/azure/active-directory/saas-apps/slack-tutorial?azure-portal-true).
 
 1. Switch back to the **Azure Active Directory admin center**, and on the **SAML-based Sign-on** page, select **Test**. You should be able to successfully sign in to Slack, assuming the currently signed in user is one of the users you assigned earlier.
 

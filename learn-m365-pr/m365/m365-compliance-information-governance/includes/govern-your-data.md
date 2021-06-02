@@ -17,5 +17,5 @@ Governance policies can be configured to work automatically and applied organiza
 Retention policies are flexible including the capability to create custom events, such as the departure of an employee, to trigger the retention process. Disposition review lets you name specific people, per label, to review and determine what should be done for each item reaching the end of its retention period.
 
 ## Learn more
- - [Information governance](https://docs.microsoft.com/microsoft-365/compliance/manage-information-governance?azure-portal=true)
- - [Records Management](https://docs.microsoft.com/microsoft-365/compliance/records-management?azure-portal=true)
+ - [Information governance](/microsoft-365/compliance/manage-information-governance?azure-portal=true)
+ - [Records Management](/microsoft-365/compliance/records-management?azure-portal=true)

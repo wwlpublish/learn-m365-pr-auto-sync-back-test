@@ -53,4 +53,4 @@ As you validate your upgrade to TeamsOnly mode and are ready to expand, repeat t
 
 When you're done with a link, use the **Back** arrow in your browser to come back to this page.
 
-- [Upgrade from Skype for Business Online to Teams](https://docs.microsoft.com/MicrosoftTeams/upgrade-to-teams-execute-skypeforbusinessonline)
+- [Upgrade from Skype for Business Online to Teams](/MicrosoftTeams/upgrade-to-teams-execute-skypeforbusinessonline)

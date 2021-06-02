@@ -66,4 +66,4 @@ Basing the label on an event means the content will be retained forever until th
 The final step in the process is to review your settings, make any needed updates, and create the label. Next, you will need to decide if you want to publish the label for manual labeling or auto-apply it. These processes are covered in the units that follow.
 
 ## Learn more
-- [Overview of retention labels](https://docs.microsoft.com/microsoft-365/compliance/labels?azure-portal=true)
+- [Overview of retention labels](/microsoft-365/compliance/labels?azure-portal=true)

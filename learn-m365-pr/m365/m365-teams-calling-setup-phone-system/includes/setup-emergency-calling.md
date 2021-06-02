@@ -221,8 +221,8 @@ Use the **Plan and Configure dynamic emergency calling** link in the **Learn mor
 
 ## Learn more
 
-- [Plan and configure dynamic emergency calling](https://docs.microsoft.com/microsoftteams/configure-dynamic-emergency-calling)
-- [Emergency call routing](https://docs.microsoft.com/microsoftteams/what-are-emergency-locations-addresses-and-call-routing#emergency-call-routing)
-- [Configure Direct Routing](https://docs.microsoft.com/microsoftteams/direct-routing-configure)
-- [Considerations for Calling Plans](https://docs.microsoft.com/microsoftteams/what-are-emergency-locations-addresses-and-call-routing#considerations-for-calling-plans)
-- [Considerations for Direct Routing](https://docs.microsoft.com/microsoftteams/what-are-emergency-locations-addresses-and-call-routing#considerations-for-direct-routing)
+- [Plan and configure dynamic emergency calling](/microsoftteams/configure-dynamic-emergency-calling)
+- [Emergency call routing](/microsoftteams/what-are-emergency-locations-addresses-and-call-routing#emergency-call-routing)
+- [Configure Direct Routing](/microsoftteams/direct-routing-configure)
+- [Considerations for Calling Plans](/microsoftteams/what-are-emergency-locations-addresses-and-call-routing#considerations-for-calling-plans)
+- [Considerations for Direct Routing](/microsoftteams/what-are-emergency-locations-addresses-and-call-routing#considerations-for-direct-routing)

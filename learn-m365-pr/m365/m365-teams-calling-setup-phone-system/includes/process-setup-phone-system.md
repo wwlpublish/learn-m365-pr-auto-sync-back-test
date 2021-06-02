@@ -140,13 +140,13 @@ Audio Conferencing licenses are assigned in the same way as Calling Plan license
 
 ## Learn more
 
-- [Request forms for new numbers](https://docs.microsoft.com/microsoftteams/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization#request-forms-for-new-phone-numbers)
-- [Country and region availability for Audio Conference and Calling](https://docs.microsoft.com/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)
-- [Assign Teams add-on licenses to users using PowerShell](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/assign-teams-add-on-licenses#using-powershell)
-- [Set up Calling Plans](https://docs.microsoft.com/microsoftteams/set-up-calling-plans)
-- [Set up Audio Conferencing for Microsoft Teams](https://docs.microsoft.com/microsoftteams/set-up-audio-conferencing-in-teams#step-3-get-service-numbers-for-your-conferencing-bridges)
-- [Create a call queue](https://docs.microsoft.com/microsoftteams/create-a-phone-system-call-queue)
-- [Manage calls in Microsoft Teams by using auto attendants and call queues](https://docs.microsoft.com/learn/modules/m365-teams-manage-calls-using-auto-attendants/)
-- [Change the phone numbers on your Audio Conferencing bridge](https://docs.microsoft.com/MicrosoftTeams/change-the-phone-numbers-on-your-audio-conferencing-bridge#steps-when-you-are-assigning-a-new-service-phone-number-to-your-conference-bridge)
-- [Set up Communications Credits for your organization](https://docs.microsoft.com/microsoftteams/set-up-communications-credits-for-your-organization)
-- [Configure and manage Direct Routing with Microsoft Teams](https://docs.microsoft.com/learn/modules/m365-teams-configure-manage-direct-routing/)
+- [Request forms for new numbers](/microsoftteams/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization#request-forms-for-new-phone-numbers)
+- [Country and region availability for Audio Conference and Calling](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)
+- [Assign Teams add-on licenses to users using PowerShell](/microsoftteams/teams-add-on-licensing/assign-teams-add-on-licenses#using-powershell)
+- [Set up Calling Plans](/microsoftteams/set-up-calling-plans)
+- [Set up Audio Conferencing for Microsoft Teams](/microsoftteams/set-up-audio-conferencing-in-teams#step-3-get-service-numbers-for-your-conferencing-bridges)
+- [Create a call queue](/microsoftteams/create-a-phone-system-call-queue)
+- [Manage calls in Microsoft Teams by using auto attendants and call queues](/learn/modules/m365-teams-manage-calls-using-auto-attendants/)
+- [Change the phone numbers on your Audio Conferencing bridge](/MicrosoftTeams/change-the-phone-numbers-on-your-audio-conferencing-bridge#steps-when-you-are-assigning-a-new-service-phone-number-to-your-conference-bridge)
+- [Set up Communications Credits for your organization](/microsoftteams/set-up-communications-credits-for-your-organization)
+- [Configure and manage Direct Routing with Microsoft Teams](/learn/modules/m365-teams-configure-manage-direct-routing/)
