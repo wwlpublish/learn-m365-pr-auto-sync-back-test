@@ -54,4 +54,4 @@ $Get-MigrationBatch -Identity SalesDeptMigration
 ## Learn more
 
 - [Move mailboxes between on-premises and Exchange Online organizations in hybrid deployments](/Exchange/hybrid-deployment/move-mailboxes?azure-portal=true)
-- [Get-MigrationBatch](/powershell/module/exchange/move-and-migration/get-migrationbatch?view=exchange-ps&azure-portal=true)
+- [Get-MigrationBatch](/powershell/module/exchange/move-and-migration/get-migrationbatch?azure-portal=true)

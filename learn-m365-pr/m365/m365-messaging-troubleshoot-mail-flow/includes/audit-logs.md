@@ -27,4 +27,4 @@ Set-OwaMailboxPolicy -Identity Default -AllowedFileTypes @{Add=".xml"}
 
 ## Learn more
 - [Auditing reports in the Exchange admin center in Exchange Online](/exchange/security-and-compliance/exchange-auditing-reports/exchange-auditing-reports?azure-portal=true)
-- [PowerShell command reference library](/powershell/windows/get-started?view=win10-ps?azure-portal=true) 
+- [PowerShell command reference library](/powershell/windows/get-started?azure-portal=true) 

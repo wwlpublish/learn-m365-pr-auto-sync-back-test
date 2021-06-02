@@ -190,6 +190,6 @@ You assign a dial plan in the same way you assign policies. You can assign a pol
 - [Set-CSOnlinePSTNGateway](/powershell/module/skype/set-csonlinepstngateway)
 - [Set-CsTenantDialPlan](/powershell/module/skype/set-cstenantdialplan)
 - [Grant-CsTenantDialPlan](/powershell/module/skype/grant-cstenantdialplan)
-- [Get-CsTenantDialPlan](/powershell/module/skype/get-cstenantdialplan?view=skype-ps)
+- [Get-CsTenantDialPlan](/powershell/module/skype/get-cstenantdialplan)
 - [Get-CsEffectiveTenantDialPlan](/powershell/module/skype/get-cseffectivetenantdialplan)
 - [Normalization rules](/microsoftteams/what-are-dial-plans#normalization-rules)

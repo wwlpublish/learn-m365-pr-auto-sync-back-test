@@ -16,8 +16,8 @@ There are several phases involved in implementing information barriers. First, y
 - Making sure [audit logging is turned on](/microsoft-365/compliance/turn-audit-log-search-on-or-off?azure-portal=true).
 - Making sure no [Exchange address book policies](/exchange/address-books/address-book-policies/remove-an-address-book-policy?azure-portal=true) are in place.
 - PowerShell
-   - Connect to [Office 365 Security & Compliance Center PowerShell](/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell?view=exchange-ps?azure-portal=true).
-   - Connect to [Azure PowerShell module](/powershell/azure/install-az-ps?view=azps-3.7.0&viewFallbackFrom=azps-2.3.2?azure-portal=true).
+   - Connect to [Office 365 Security & Compliance Center PowerShell](/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell?azure-portal=true).
+   - Connect to [Azure PowerShell module](/powershell/azure/install-az-ps?azure-portal=true).
 - Providing admin consent for Microsoft Teams.
 
 For more information, see [Prerequisites](/microsoft-365/compliance/information-barriers-policies?prerequisites?azure-portal=true).

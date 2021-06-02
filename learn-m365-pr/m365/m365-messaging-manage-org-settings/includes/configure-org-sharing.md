@@ -93,5 +93,5 @@ You can remove an organization relationship to disable calendar sharing with the
 4.	In the warning that appears, click **yes**.
 
 ## Learn more
-[PowerShell command reference library](/powershell/windows/get-started?view=win10-ps?azure-portal=true)
+[PowerShell command reference library](/powershell/windows/get-started?azure-portal=true)
 

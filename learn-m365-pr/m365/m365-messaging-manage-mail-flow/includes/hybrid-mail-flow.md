@@ -17,5 +17,5 @@ For organizations with Exchange server running on-premises, there’s an Exchang
 As you’ve done in earlier steps, you can use remote PowerShell commands to connect to Exchange Online and run management scripts remotely.  
 
 ## Learn more  
-- [Exchange admin center in Exchange Server](/exchange/architecture/client-access/exchange-admin-center?view=exchserver-2019&azure-portal=true) 
-- [Exchange Server PowerShell](/powershell/exchange/exchange-server/exchange-management-shell?view=exchange-ps&azure-portal=true) 
+- [Exchange admin center in Exchange Server](/exchange/architecture/client-access/exchange-admin-center?azure-portal=true) 
+- [Exchange Server PowerShell](/powershell/exchange/exchange-server/exchange-management-shell?azure-portal=true) 

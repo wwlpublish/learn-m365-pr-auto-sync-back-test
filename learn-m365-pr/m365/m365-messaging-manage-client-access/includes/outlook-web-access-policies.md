@@ -35,7 +35,7 @@ Inbox rules in Outlook on the web and Outlook are limited to 256 KB total for al
 ## Learn more  
 
 - [Public attachment handling in Exchange Online](/exchange/clients-and-mobile-in-exchange-online/outlook-on-the-web/public-attachment-handling&azure-portal=true)
-- [PowerShell Reference Library](/powershell/windows/get-started?view=win10-ps&azure-portal=true) 
+- [PowerShell Reference Library](/powershell/windows/get-started?azure-portal=true) 
 
  
 

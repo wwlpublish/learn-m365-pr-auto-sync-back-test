@@ -32,7 +32,7 @@ To get the most benefit out of your org-wide team, team owners should follow the
 
 - [Create an org-wide team in Microsoft Teams](/MicrosoftTeams/create-an-org-wide-team)
 - [Use PowerShell to create a team](/MicrosoftTeams/teams-powershell-overview?azure-portal=true)
-- [Using Microsoft Graph to create a team](/graph/api/team-put-teams?view=graph-rest-1.0&tabs=http?azure-portal=true)
+- [Using Microsoft Graph to create a team](/graph/api/team-put-teams?tabs=http?azure-portal=true)
 - [Create a team from an existing Distribution Group](/office365/admin/manage/upgrade-distribution-lists?azure-portal=true)
 - [Create a Team from an existing Office 365 Group](https://support.office.com/article/Create-a-team-from-an-existing-group-24ec428e-40d7-4a1a-ab87-29be7d145865?azure-portal=true)
 - [Manage privacy levels for a team](https://support.office.com/article/Make-a-public-team-private-in-Teams-6f324fbc-6599-4612-8daa-ff5d35a746bf?azure-portal=true)

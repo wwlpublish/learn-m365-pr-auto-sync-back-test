@@ -87,4 +87,4 @@ New-GlobalAddressList -Name "<GAL Name>" [<Precanned recipient filter | Custom r
 - [Create a global address list in Exchange Online](/Exchange/address-books/address-lists/create-global-address-list?azure-portal=true)
 - [Connect to Exchange Online PowerShell](/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell?azure-portal=true)
 - [Use Exchange Online PowerShell to create address lists](/Exchange/address-books/address-lists/manage-address-lists#use-exchange-online-powershell-to-create-address-lists?azure-portal=true)
-- [PowerShell command reference library](/powershell/windows/get-started?view=win10-ps?azure-portal=true)
+- [PowerShell command reference library](/powershell/windows/get-started?azure-portal=true)

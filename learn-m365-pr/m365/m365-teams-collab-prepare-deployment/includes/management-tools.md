@@ -58,4 +58,4 @@ When you're done with a link, use the **Back** arrow in your browser to come bac
 
 - [Manage teams in the Microsoft Teams admin center](/microsoftteams/manage-teams-in-modern-portal)
 - [Microsoft 365 security and compliance centers](/office365/servicedescriptions/office-365-platform-service-description/office-365-securitycompliance-center)
-- [Windows 10 PowerShell reference](/powershell/scripting/developer/windows-powershell-reference?view=powershell-6)
+- [Windows 10 PowerShell reference](/powershell/scripting/developer/windows-powershell-reference)

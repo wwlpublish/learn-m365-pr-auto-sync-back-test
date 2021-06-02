@@ -28,5 +28,5 @@ Message trace follows email messages as they travel through your Exchange Online
 
 ## Learn more
 - [Monitoring, reporting, and message tracing in Exchange Online](/exchange/monitoring/monitoring?azure-portal=true)
-- [Overview of Microsoft Graph](/graph/overview?view=graph-rest-1.0?azure-portal=true)
-- [Email activity reports](/graph/api/resources/email-activity-reports?view=graph-rest-1.0?azure-portal=true)
+- [Overview of Microsoft Graph](/graph/overview?azure-portal=true)
+- [Email activity reports](/graph/api/resources/email-activity-reports?azure-portal=true)
