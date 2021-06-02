@@ -16,7 +16,7 @@ The Microsoft 365 compliance center can be used to search the unified audit log 
 Depending on the Microsoft 365 service, it can take anywhere from 30 minutes to 24 hours after an event occurs for the corresponding audit log entry to be displayed in the search results. The following table shows the time it can take for the different services.
 
 |              **Microsoft 365 service**              | **Up to** **30 minutes after an event occurs** | **Up to** **24 hours after an event occurs** |
-|::|:-:|:--:|
+|::|::|::|
 |    <p>Azure Active Directory (admin events)</p>     |                                                |                   <p>X</p>                   |
 | <p>Azure Active Directory (user sign-in events)</p> |                                                |                   <p>X</p>                   |
 |               <p>Exchange Online</p>                |                    <p>X</p>                    |                                              |
