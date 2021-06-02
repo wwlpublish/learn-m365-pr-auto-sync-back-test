@@ -16,7 +16,7 @@ prerequisites: |
   - Ability to develop JavaScript applications
   - Basic understanding of Azure Active Directory and [Microsoft Identity](/learn/modules/getting-started-identity/?WT.mc_id=m365-16105-cxa) concepts is recommended
   - [Node.js](https://nodejs.org/en/) 
-iconUrl: /learn/achievements/generic-badge.svg
+iconUrl: /learn/achievements/graph-fundamentals.svg
 levels: 
 - beginner
 roles:
