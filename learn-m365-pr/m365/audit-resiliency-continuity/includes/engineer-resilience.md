@@ -1,10 +1,10 @@
 Microsoft defines resilience as “the ability of a business process or service to meet customer expectations in the face of faults and challenges to normal operations.” At the scale of Microsoft 365, resilience is crucial for maintaining the availability of our online services. We build our services to be resilient because we know that:
 
-- **Hardware will fail.** Assume a Mean Time Before Failure (MTFB) of 100,000 hours for a hard drive. For a single hard drive, this seems like a very manageable 1 failure every 11.5 years. But if you have 10,000,000 hard drives, that comes to one failure roughly every 30 seconds. Resilience against the failure of common hardware components is a key feature of how we design and build our online services.
-- **Humans will make mistakes.** Assume a human in a typical IT implementation performs 100 operations per day in a system of 100 servers. At 99% accuracy, that is still 1 mistake per day. Scaled to 250,000 servers, this is 2500 mistakes per day.
+- **Hardware will fail.** Assume a Mean Time Before Failure (MTFB) of 100,000 hours for a hard drive. For a single hard drive, this seems like a manageable one failure every 11.5 years. But if you have 10,000,000 hard drives, that comes to one failure roughly every 30 seconds. Resilience against the failure of common hardware components is a key feature of how we design and build our online services.
+- **Humans will make mistakes.** Assume a human in a typical IT implementation performs 100 operations per day in a system of 100 servers. At 99% accuracy, that is still one mistake per day. Scaled to 250,000 servers, this is 2500 mistakes per day.
 - **Software will have bugs.** Software updates must be deployed continuously to keep services up to date. Resilient services must protect themselves from both new and previously undiscovered bugs in software.
 
-We respond to these challenges by leveraging Microsoft’s hyper-scale cloud and employing service automation to make our services resilient against multiple failure modes.
+We respond to these challenges by using Microsoft’s hyper-scale cloud and employing service automation to make our services resilient against multiple failure modes.
 
 ![A graphic representation of engineering for resilience principles - active/active service design, fault isolation, reduced blast radius, and continuous improvement](../media/engineering-resilience-principles.png)
 
@@ -35,5 +35,5 @@ Post-Incident Reviews help to identify resiliency improvements that might preven
 
 ## Learn more
 
-- [M365 Service Resilience and Customer Guidance](https://aka.ms/M365ServiceResilienceGuidance?azure-portal=true)
+- [Microsoft 365 Service Resilience and Customer Guidance](https://aka.ms/M365ServiceResilienceGuidance?azure-portal=true)
 - [Data Resiliency in Microsoft 365](/office365/Enterprise/office-365-data-resiliency-overview?azure-portal=true)
