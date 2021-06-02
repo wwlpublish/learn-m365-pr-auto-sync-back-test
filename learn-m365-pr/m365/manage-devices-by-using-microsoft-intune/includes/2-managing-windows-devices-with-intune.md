@@ -78,8 +78,8 @@ The Windows 10 operating system requires each user to have a user profile. User 
 - **Temporary User Profiles:** A temporary profile is issued each time that an error condition prevents the user's profile from loading.
 
 ## Learn more
-- [Plan for device Compliance](https://docs.microsoft.com/azure/active-directory/conditional-access/plan-conditional-access?azure-portal=true)
-- [Design and create Conditional Access Policies](https://docs.microsoft.com/azure/active-directory/conditional-access/concept-conditional-access-policies?azure-portal=true)
-- [Configure device compliance policy](https://docs.microsoft.com/intune/protect/device-compliance-get-started?azure-portal=true)
-- [Manage Conditional Access Policies](https://docs.microsoft.com/intune/protect/conditional-access-intune-common-ways-use?azure-portal=true)
-- [Microsoft Intune device reports](https://docs.microsoft.com/mem/intune/fundamentals/reports?azure-portal=true)
+- [Plan for device Compliance](/azure/active-directory/conditional-access/plan-conditional-access?azure-portal=true)
+- [Design and create Conditional Access Policies](/azure/active-directory/conditional-access/concept-conditional-access-policies?azure-portal=true)
+- [Configure device compliance policy](/intune/protect/device-compliance-get-started?azure-portal=true)
+- [Manage Conditional Access Policies](/intune/protect/conditional-access-intune-common-ways-use?azure-portal=true)
+- [Microsoft Intune device reports](/mem/intune/fundamentals/reports?azure-portal=true)

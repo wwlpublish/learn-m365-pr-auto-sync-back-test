@@ -334,9 +334,9 @@ issue.
 
 ## Learn more
 
-- [Onboard Windows servers to Microsoft Defender for Endpoint](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/configure-server-endpoints).
-- [Onboarding to Azure Security Center Standard for enhanced security](https://docs.microsoft.com/azure/security-center/security-center-onboarding).
-- [Azure Security Center’s ACR bundle](https://docs.microsoft.com/azure/security-center/azure-kubernetes-service-integration)
-- [Azure Security Center’s AKS bundle](https://docs.microsoft.com/azure/security-center/azure-kubernetes-service-integration)
-- [Azure Defender for IoT Supported platforms](https://docs.microsoft.com/azure/asc-for-iot/how-to-deploy-agent#supported-platforms)
-- [Azure Defender for IoT supported regions](https://docs.microsoft.com/azure/asc-for-iot/service-prerequisites#supported-service-regions)
+- [Onboard Windows servers to Microsoft Defender for Endpoint](/windows/security/threat-protection/microsoft-defender-atp/configure-server-endpoints).
+- [Onboarding to Azure Security Center Standard for enhanced security](/azure/security-center/security-center-onboarding).
+- [Azure Security Center’s ACR bundle](/azure/security-center/azure-kubernetes-service-integration)
+- [Azure Security Center’s AKS bundle](/azure/security-center/azure-kubernetes-service-integration)
+- [Azure Defender for IoT Supported platforms](/azure/asc-for-iot/how-to-deploy-agent#supported-platforms)
+- [Azure Defender for IoT supported regions](/azure/asc-for-iot/service-prerequisites#supported-service-regions)

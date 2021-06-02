@@ -112,5 +112,5 @@ You can customize Teams meeting invitations to satisfy your organization's needs
 
 ## Learn more
 
-- [Assign licenses to users](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users)
-- [Manage meeting settings in Microsoft Teams](https://docs.microsoft.com/microsoftteams/meeting-settings-in-teams)
+- [Assign licenses to users](/microsoft-365/admin/manage/assign-licenses-to-users)
+- [Manage meeting settings in Microsoft Teams](/microsoftteams/meeting-settings-in-teams)

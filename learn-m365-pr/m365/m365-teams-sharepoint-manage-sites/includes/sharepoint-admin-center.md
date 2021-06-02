@@ -19,5 +19,5 @@ From the admin center, you can:
 
 When you're done with a link, use the **Back** arrow in your browser to come back to this page.
 
-- [Manage sites in the new SharePoint admin center](https://docs.microsoft.com/sharepoint/manage-sites-in-new-admin-center)
-- [Get started with the new SharePoint admin center](https://docs.microsoft.com/sharepoint/get-started-new-admin-center)
+- [Manage sites in the new SharePoint admin center](/sharepoint/manage-sites-in-new-admin-center)
+- [Get started with the new SharePoint admin center](/sharepoint/get-started-new-admin-center)

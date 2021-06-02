@@ -8,6 +8,6 @@ Now that you've completed this module, you should be able to:
 
 ## Learn more
 
-- [What is Conditional Access?]( https://docs.microsoft.com/azure/active-directory/conditional-access/overview?azure-portal=true)
-- [Deploy Cloud App Security Conditional Access App Control for any web app using PingOne]( https://docs.microsoft.com/cloud-app-security/proxy-idp-examples?azure-portal=true).
-- [Onboard and deploy Conditional Access App Control for any web app using Active Directory Federation Services (AD FS) as the identity provider](https://docs.microsoft.com/cloud-app-security/proxy-idp-adfs).
+- [What is Conditional Access?]( /azure/active-directory/conditional-access/overview?azure-portal=true)
+- [Deploy Cloud App Security Conditional Access App Control for any web app using PingOne]( /cloud-app-security/proxy-idp-examples?azure-portal=true).
+- [Onboard and deploy Conditional Access App Control for any web app using Active Directory Federation Services (AD FS) as the identity provider](/cloud-app-security/proxy-idp-adfs).

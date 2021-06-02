@@ -172,8 +172,8 @@ You'll find some additional resources in the upper right of each screen.
 
 ## Learn more
 
-- [Peer analysis overview](https://docs.microsoft.com/workplace-analytics/use/peer-analysis?azure-portal=true)
-- [Queries overview and ways to query data](https://docs.microsoft.com/workplace-analytics/tutorials/query-basics?azure-portal=true)
-- [Workplace Analytics plans](https://docs.microsoft.com/workplace-analytics/tutorials/solutionsv2-intro?azure-portal=true)
-- [Workplace Analytics data sources](https://docs.microsoft.com/workplace-analytics/use/data-sourcesv2?azure-portal=true)
-- [Exclusions](https://docs.microsoft.com/workplace-analytics/tutorials/exclusions-introduction?azure-portal=true)
+- [Peer analysis overview](/workplace-analytics/use/peer-analysis?azure-portal=true)
+- [Queries overview and ways to query data](/workplace-analytics/tutorials/query-basics?azure-portal=true)
+- [Workplace Analytics plans](/workplace-analytics/tutorials/solutionsv2-intro?azure-portal=true)
+- [Workplace Analytics data sources](/workplace-analytics/use/data-sourcesv2?azure-portal=true)
+- [Exclusions](/workplace-analytics/tutorials/exclusions-introduction?azure-portal=true)

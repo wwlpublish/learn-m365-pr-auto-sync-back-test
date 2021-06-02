@@ -13,4 +13,4 @@ You use meeting settings to:
 
 When you're done with a link, use the **Back** arrow in your browser to come back to this page.
 
-- [Manage meeting settings in Microsoft Teams](https://docs.microsoft.com/microsoftteams/meeting-settings-in-teams)
+- [Manage meeting settings in Microsoft Teams](/microsoftteams/meeting-settings-in-teams)

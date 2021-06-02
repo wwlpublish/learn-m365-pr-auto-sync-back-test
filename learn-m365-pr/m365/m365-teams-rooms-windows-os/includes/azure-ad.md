@@ -10,4 +10,4 @@ You can create a dynamic security group that automatically populates with Teams 
 
 ## Learn more
 
-- [What is Azure Active Directory](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-whatis?azure-portal=true)
+- [What is Azure Active Directory](/azure/active-directory/fundamentals/active-directory-whatis?azure-portal=true)

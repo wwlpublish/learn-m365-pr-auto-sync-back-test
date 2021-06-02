@@ -70,7 +70,7 @@ Autopilot supports multiple ways of delivering applications to users and devices
 
 ## Learn more
 
-- [Create and assign deployment profile](https://docs.microsoft.com/intune/enrollment/enrollment-autopilot?azure-portal=true)
-- [Extract device hardware information to CSV](https://docs.microsoft.com/windows/deployment/windows-autopilot/add-devices#device-identification?azure-portal=true)
-- [Import device hardware information to cloud service](https://docs.microsoft.com/intune/enrollment/enrollment-autopilot?azure-portal=true)
-- [Troubleshoot deployment](https://docs.microsoft.com/windows/deployment/windows-autopilot/troubleshooting?azure-portal=true)
+- [Create and assign deployment profile](/intune/enrollment/enrollment-autopilot?azure-portal=true)
+- [Extract device hardware information to CSV](/windows/deployment/windows-autopilot/add-devices#device-identification?azure-portal=true)
+- [Import device hardware information to cloud service](/intune/enrollment/enrollment-autopilot?azure-portal=true)
+- [Troubleshoot deployment](/windows/deployment/windows-autopilot/troubleshooting?azure-portal=true)
