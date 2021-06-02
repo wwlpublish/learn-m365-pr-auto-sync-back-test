@@ -54,8 +54,8 @@ The next step is to download the search results from the Azure Storage location 
 2.  Select the export job that you created in **Step 1-Prepare search results for export**.
 3.  On the flyout page under **Export key**, select **Copy to clipboard**. This key will be used in step 6 to download the search results.
 
-> [!WARNING]
-> Because anyone can install and start the eDiscovery Export tool, and then use this key to download the search results, be sure to take precautions to protect this key just like you would protect passwords or other security-related information.
+    > [!WARNING]
+    > Because anyone can install and start the eDiscovery Export tool, and then use this key to download the search results, be sure to take precautions to protect this key just like you would protect passwords or other security-related information.
 
 4.  At the top of the flyout page, select **Download results**.
 5.  If you're prompted to install the **eDiscovery Export Tool**, select **Install**.
@@ -67,8 +67,8 @@ The next step is to download the search results from the Azure Storage location 
     :::image type="content" source="../media/ediscovery-export-tool-4851035a.png" alt-text="screenshot showing the eDiscovery export tool window and the field for pasting in the export key":::
 
 
-> [!CAUTION]
-> Because of high network activity during download, you should download search results only to a location on an internal drive on your local computer. For the best download experience, follow these guidelines:<br><br>\- Don't download search results to a UNC path, a mapped network drive, an external USB drive, or a synched OneDrive for Business account.<br>\- Disable anti-virus scanning for the folder that you download the search result to.<br>\- Download search results to different folders for concurrent download jobs.
+    > [!CAUTION]
+    > Because of high network activity during download, you should download search results only to a location on an internal drive on your local computer. For the best download experience, follow these guidelines:<br><br>\- Don't download search results to a UNC path, a mapped network drive, an external USB drive, or a synched OneDrive for Business account.<br>\- Disable anti-virus scanning for the folder that you download the search result to.<br>\- Download search results to different folders for concurrent download jobs.
 
 7.  Select **Start** to download the search results to your computer.
     
