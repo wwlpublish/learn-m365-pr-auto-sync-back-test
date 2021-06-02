@@ -16,7 +16,7 @@ Azure Migrate also discovers dependencies across virtual machines in your group.
 
 Click on **View Dependencies** from the list of servers to see dependencies for a virtual machine. There, you will find a view of dependent resources with ports and IP addresses that communicate with your virtual machine. This view displays all TCP/IP traffic between resources You can migrate those dependent resources to ensure your applications will work after the migration.
 
->![Dependencies](../media/dependencies.png)
+>![A screenshot of dependencies including the number of servers for different ports.](../media/dependencies.png)
 
 You can export the assessment in a detailed Microsoft Excel spreadsheet. Using the assessment, you can find virtual machine recommendations, cost estimates, and any dependencies to ensure your migration goes smoothly.
 

@@ -16,11 +16,11 @@ You can turn on Customer Lockbox controls in the Microsoft 365 admin center. Whe
 
 1. To display a list of Customer Lockbox requests, the customer selects **Customer Lockbox Requests** from the **Support** menu. The customer can then select the appropriate request and choose either **Approve** or **Deny**.
 
-    ![approval-denial](../media/approval-denial.png) 
+    ![Screenshot of an individual request highlighting the "Approve" and "Deny" buttons.](../media/approval-denial.png) 
 
 1. A confirmation message about the approval of the Customer Lockbox request is displayed.
 
-    ![Confirmation](../media/confirmation.png) 
+    ![Screenshot of the confirmation shown after a request has been either approved or denied.](../media/confirmation.png)
 
 
 ## Auditing Customer Lockbox requests
