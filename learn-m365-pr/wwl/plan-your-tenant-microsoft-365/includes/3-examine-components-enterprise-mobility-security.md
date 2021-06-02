@@ -10,7 +10,7 @@ The following table provides an overview of the Enterprise Mobility + Security c
 :::row-end:::
 :::row:::
   :::column:::
-    <a href="https://docs.microsoft.com/azure/active-directory/active-directory-whatis?azure-portal=true">Microsoft Azure Active Directory</a>
+    <a href="/azure/active-directory/active-directory-whatis">Microsoft Azure Active Directory</a>
   :::column-end:::
   :::column:::
     Azure Active Directory (Azure AD) provides a full suite of identity management capabilities including multi-factor authentication, device registration, self-service password management, self-service group management, role-based access control, application usage monitoring, rich auditing, and security monitoring and alerting. Azure AD includes the following premium editions:  
@@ -20,7 +20,7 @@ The following table provides an overview of the Enterprise Mobility + Security c
 :::row-end:::
 :::row:::
   :::column:::
-    <a href="https://docs.microsoft.com/azure/active-directory/active-directory-identityprotection?azure-portal=true">Azure AD Identity Protection</a>
+    <a href="/azure/active-directory/active-directory-identityprotection">Azure AD Identity Protection</a>
   :::column-end:::
   :::column:::
     This service enables you to detect potential vulnerabilities affecting your organization's identities and configure automated responses through conditional access policies to low, medium, and high sign-in risk and user risk.
@@ -28,7 +28,7 @@ The following table provides an overview of the Enterprise Mobility + Security c
 :::row-end:::
 :::row:::
   :::column:::
-    <a href="https://docs.microsoft.com/azure/active-directory/active-directory-privileged-identity-management-configure?azure-portal=true">Azure AD Privileged Identity Management</a>
+    <a href="/azure/active-directory/active-directory-privileged-identity-management-configure">Azure AD Privileged Identity Management</a>
   :::column-end:::
   :::column:::
     Azure AD Privileged Identity Management enables organizations to minimize the number of people who have persistent access to privileged operations. This service introduces the concept of an eligible administrator. Eligible admins should be users that need privileged access now and then, but not every day. The role is inactive until the user needs access, at which point they must complete an activation process and become an active admin for a predetermined amount of time.
@@ -36,10 +36,10 @@ The following table provides an overview of the Enterprise Mobility + Security c
 :::row-end:::
 :::row:::
   :::column:::
-    <a href="https://docs.microsoft.com/information-protection/understand-explore/what-is-information-protection?azure-portal=true">Azure Information Protection</a>
+    <a href="/information-protection/understand-explore/what-is-information-protection">Azure Information Protection</a>
   :::column-end:::
   :::column:::
-    Azure Information Protection (AIP) is a cloud-based solution that is delivered as part of the Mobility + Security E3 and E5 subscriptions. AIP helps organizations classify, label, and protect their documents and emails, all of which can be done automatically by administrators who define rules and conditions, manually by users, or a combination where users are given recommendations. You use Azure Information Protection labels to apply classification to documents and emails. When using AIP labels, the classification is always identifiable, regardless of where the data is stored or with whom it’s shared. AIP policy settings are protected by <a href="https://docs.microsoft.com/information-protection/understand-explore/what-is-azure-rms?azure-portal=true">Azure Rights Management</a>. Protection that's applied by using Rights Management is similar to how the labels are applied; that is, it stays with the documents and emails independently of the location—inside or outside your organization, networks, file servers, and applications.
+    Azure Information Protection (AIP) is a cloud-based solution that is delivered as part of the Mobility + Security E3 and E5 subscriptions. AIP helps organizations classify, label, and protect their documents and emails, all of which can be done automatically by administrators who define rules and conditions, manually by users, or a combination where users are given recommendations. You use Azure Information Protection labels to apply classification to documents and emails. When using AIP labels, the classification is always identifiable, regardless of where the data is stored or with whom it’s shared. AIP policy settings are protected by <a href="/information-protection/understand-explore/what-is-azure-rms">Azure Rights Management</a>. Protection that's applied by using Rights Management is similar to how the labels are applied; that is, it stays with the documents and emails independently of the location—inside or outside your organization, networks, file servers, and applications.
   :::column-end:::
 :::row-end:::
 :::row:::
@@ -47,7 +47,7 @@ The following table provides an overview of the Enterprise Mobility + Security c
     <a href="https://www.microsoft.com/microsoft-365/enterprise-mobility-security/microsoft-intune?azure-portal=true">Microsoft Intune</a>
   :::column-end:::
   :::column:::
-    Intune is a cloud-based Enterprise Mobility Management (EMM) service that enables an organization’s workforce to be productive while keeping its corporate data protected. Intune integrates closely with Azure AD for identity and access control and is used for device and application management. <a href="https://docs.microsoft.com/mem/intune/fundamentals/what-is-device-management?azure-portal=true">Intune's device management</a> capabilities are used to configure and protect user's devices, including Windows PCs. Intune device management capabilities support both <a href="https://docs.microsoft.com/enterprise-mobility-security/solutions/enable-byod?azure-portal=true">Bring Your Own Device (BYOD)</a> enrollment, which lets users enroll their personal phones, tablets, or PCs, and <a href="https://docs.microsoft.com/enterprise-mobility-security/solutions/issue-corp-devices?azure-portal=true">Corporate-owned Device (COD)</a> enrollment, which enables management scenarios like automatic enrollment, shared devices, and pre-authorized enrollment requirement configurations. For added security, organizations can even require Multi-Factor Authentication to enroll a device. Once enrolled into management, Intune can configure device features and settings to enable secure access to company resources.
+    Intune is a cloud-based Enterprise Mobility Management (EMM) service that enables an organization’s workforce to be productive while keeping its corporate data protected. Intune integrates closely with Azure AD for identity and access control and is used for device and application management. <a href="/mem/intune/fundamentals/what-is-device-management">Intune's device management</a> capabilities are used to configure and protect user's devices, including Windows PCs. Intune device management capabilities support both <a href="/enterprise-mobility-security/solutions/enable-byod">Bring Your Own Device (BYOD)</a> enrollment, which lets users enroll their personal phones, tablets, or PCs, and <a href="/enterprise-mobility-security/solutions/issue-corp-devices">Corporate-owned Device (COD)</a> enrollment, which enables management scenarios like automatic enrollment, shared devices, and pre-authorized enrollment requirement configurations. For added security, organizations can even require Multi-Factor Authentication to enroll a device. Once enrolled into management, Intune can configure device features and settings to enable secure access to company resources.
   :::column-end:::
 :::row-end:::
 
