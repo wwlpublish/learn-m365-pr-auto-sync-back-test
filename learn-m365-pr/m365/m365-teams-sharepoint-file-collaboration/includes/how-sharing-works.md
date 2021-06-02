@@ -38,4 +38,4 @@ You can stop sharing with guests by removing their permissions from the shared i
 
 When you're done with a link, use the **Back** arrow in your browser to come back to this page.
 
-- [External sharing overview](https://docs.microsoft.com/sharepoint/external-sharing-overview)
+- [External sharing overview](/sharepoint/external-sharing-overview)

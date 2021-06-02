@@ -24,4 +24,4 @@ Teams meetings are accessible from multiple clients, including desktop and mobil
 
 When you're done with a link, use the **Back** arrow in your browser to come back to this page.
 
-- [Meeting clients](https://docs.microsoft.com/MicrosoftTeams/tutorial-meetings-in-teams?tutorial-step=3)
+- [Meeting clients](/MicrosoftTeams/tutorial-meetings-in-teams?tutorial-step=3)

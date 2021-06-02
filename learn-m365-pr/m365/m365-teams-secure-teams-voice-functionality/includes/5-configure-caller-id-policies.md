@@ -116,7 +116,7 @@ Grant-CsCallingLineIdentity -Identity "amos.marble@contoso.com" -PolicyName $nul
 ```
 
 ## Learn more
-- [How can caller ID be used in your organization](https://docs.microsoft.com/microsoftteams/how-can-caller-id-be-used-in-your-organization)
-- [More about Calling Line ID and Calling Party Name](https://docs.microsoft.com/skypeforbusiness/what-are-calling-plans-in-office-365/more-about-calling-line-ID-and-calling-party-name)
-- [Emergency calling terms and conditions](https://docs.microsoft.com/microsoftteams/emergency-calling-terms-and-conditions)
+- [How can caller ID be used in your organization](/microsoftteams/how-can-caller-id-be-used-in-your-organization)
+- [More about Calling Line ID and Calling Party Name](/skypeforbusiness/what-are-calling-plans-in-office-365/more-about-calling-line-ID-and-calling-party-name)
+- [Emergency calling terms and conditions](/microsoftteams/emergency-calling-terms-and-conditions)
 - [Skype for Business Online: Emergency Calling disclaimer label](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)

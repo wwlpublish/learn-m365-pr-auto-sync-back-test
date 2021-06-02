@@ -85,7 +85,7 @@ Modern authentication is available for every organization that uses Teams. If us
 ## Learn more
 
 - [Managed App Configuration channel for iOS](https://developer.apple.com/library/archive/samplecode/sc2279/Introduction/Intro.html)
-- [Add app configuration policies for managed iOS/iPadOS devices](https://docs.microsoft.com/mem/intune/apps/app-configuration-policies-use-ios)
-- [Add app configuration policies for managed Android devices](https://docs.microsoft.com/mem/intune/apps/app-configuration-policies-use-android)
-- [Office 365 URLs and IP address ranges](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges)
+- [Add app configuration policies for managed iOS/iPadOS devices](/mem/intune/apps/app-configuration-policies-use-ios)
+- [Add app configuration policies for managed Android devices](/mem/intune/apps/app-configuration-policies-use-android)
+- [Office 365 URLs and IP address ranges](/office365/enterprise/urls-and-ip-address-ranges)
 - [Why am I having trouble signing in to Microsoft Teams?](https://support.office.com/article/why-am-i-having-trouble-signing-in-to-microsoft-teams-a02f683b-61a3-4008-9447-ee60c5593b0f)

@@ -10,4 +10,4 @@ After testing the hybrid management accounts, conducting the verification and to
 
 ## Learn more
 
-- [Hybrid Configuration wizard ](https://docs.microsoft.com/exchange/hybrid-configuration-wizard?azure-portal=true)
+- [Hybrid Configuration wizard ](/exchange/hybrid-configuration-wizard?azure-portal=true)

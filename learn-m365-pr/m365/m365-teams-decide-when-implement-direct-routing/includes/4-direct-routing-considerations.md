@@ -21,6 +21,6 @@ You'll also need to consider emergency calling, and how you want to configure it
 
 ## Learn more
 
-- [Getting service phone numbers](https://docs.microsoft.com/MicrosoftTeams/getting-service-phone-numbers)
-- [Manage emergency calling](https://docs.microsoft.com/MicrosoftTeams/what-are-emergency-locations-addresses-and-call-routing)
-- [List of Session Border Controllers certified for Direct Routing](https://docs.microsoft.com/MicrosoftTeams/direct-routing-border-controllers)
+- [Getting service phone numbers](/MicrosoftTeams/getting-service-phone-numbers)
+- [Manage emergency calling](/MicrosoftTeams/what-are-emergency-locations-addresses-and-call-routing)
+- [List of Session Border Controllers certified for Direct Routing](/MicrosoftTeams/direct-routing-border-controllers)

@@ -20,11 +20,11 @@ Video: Modern Windows 10 Management with Enterprise Mobility + Security
 
 With Windows 10, you can continue to use traditional OS deployment for small scale implementations, but you can also “manage out of the box” for a simpler experience for both users and IT. To transform new devices into fully configured, fully managed devices, you can:
 
-- Avoid reimaging with cloud-based device management services such as [Microsoft Autopilot](https://docs.microsoft.com/windows/deployment/windows-10-auto-pilot) for Windows 10 and [Microsoft Intune](https://docs.microsoft.com/intune/understand-explore/introduction-to-microsoft-intune) for dynamic provisioning of subscriptions, applications, devices, and user profiles.
+- Avoid reimaging with cloud-based device management services such as [Microsoft Autopilot](/windows/deployment/windows-10-auto-pilot) for Windows 10 and [Microsoft Intune](/intune/understand-explore/introduction-to-microsoft-intune) for dynamic provisioning of subscriptions, applications, devices, and user profiles.
 
 - Create self-contained provisioning packages built with the [Windows Configuration Designer](https://technet.microsoft.com/itpro/windows/deploy/provisioning-packages).
 
-- Use traditional imaging techniques such as deploying custom images using [System Center Configuration Manager](https://docs.microsoft.com/sccm/core/understand/introduction).
+- Use traditional imaging techniques such as deploying custom images using [System Center Configuration Manager](/sccm/core/understand/introduction).
 
 You have multiple options for [upgrading to Windows 10](https://technet.microsoft.com/itpro/windows/deploy/windows-10-deployment-scenarios). For existing devices running Windows 7 or Windows 8.1, it is recommended to use the robust in-place upgrade process for a fast, reliable move to Windows 10 while automatically preserving all the existing apps, data, and settings. This can mean significantly lower deployment costs, as well as improved productivity as end users can be immediately productive – everything is right where they left it. Of course, you can also use a traditional wipe-and-load approach if you prefer, using the same tools that you use today with Windows 7.
 
@@ -44,5 +44,5 @@ You can envision user and device management as falling into these two categories
 
 - Domain joined PCs and tablets used for traditional applications and access to important resources. These may be traditional applications and resources that require authentication or accessing highly sensitive or classified resources on-premises. With Windows 10, if you have an on-premises [Active Directory](https://technet.microsoft.com/windows-server-docs/identity/whats-new-active-directory-domain-services) domain that’s [integrated with Azure AD](https://azure.microsoft.com/documentation/articles/active-directory-azureadjoin-devices-group-policy/), when employee devices are joined, they automatically register with Azure AD.
 
-Domain-joined PCs and tablets can continue to be managed with the [System Center Configuration Manager](https://docs.microsoft.com/sccm/core/understand/introduction) client or Group Policy.
+Domain-joined PCs and tablets can continue to be managed with the [System Center Configuration Manager](/sccm/core/understand/introduction) client or Group Policy.
 

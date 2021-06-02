@@ -34,6 +34,6 @@ It is also recommended that you run the **Set-SPOTenant** cmdlet with the **Disa
 
 ## Learn more
 
-- [Microsoft Defender for Office 365 Safe Attachments](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-attachments)
-- [Microsoft Defender for Office 365 for SharePoint, OneDrive, and Microsoft Teams](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-for-spo-odb-and-teams)
-- [Turn on Microsoft Defender for Office 365 for SharePoint, OneDrive, and Microsoft Teams](https://docs.microsoft.com/microsoft-365/security/office-365-security/turn-on-atp-for-spo-odb-and-teams)
+- [Microsoft Defender for Office 365 Safe Attachments](/microsoft-365/security/office-365-security/atp-safe-attachments)
+- [Microsoft Defender for Office 365 for SharePoint, OneDrive, and Microsoft Teams](/microsoft-365/security/office-365-security/atp-for-spo-odb-and-teams)
+- [Turn on Microsoft Defender for Office 365 for SharePoint, OneDrive, and Microsoft Teams](/microsoft-365/security/office-365-security/turn-on-atp-for-spo-odb-and-teams)

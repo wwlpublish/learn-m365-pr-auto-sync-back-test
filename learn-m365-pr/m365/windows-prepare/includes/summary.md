@@ -5,7 +5,7 @@ Without preparation, Woodgrove’s environment wouldn’t have been able to supp
 
 ## Learn more
 
-- [What is Desktop Analytics?](https://docs.microsoft.com/configmgr/desktop-analytics/overview)
-- [What's new in Windows 10](https://docs.microsoft.com/windows/whats-new/)
-- [Tutorial: Deploy Windows 10 to pilot ](https://docs.microsoft.com/mem/configmgr/desktop-analytics/tutorial-windows10)
+- [What is Desktop Analytics?](/configmgr/desktop-analytics/overview)
+- [What's new in Windows 10](/windows/whats-new/)
+- [Tutorial: Deploy Windows 10 to pilot ](/mem/configmgr/desktop-analytics/tutorial-windows10)
 

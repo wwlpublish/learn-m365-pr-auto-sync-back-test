@@ -22,4 +22,4 @@ Key acronyms relevant to this module:
 ## Learn more
 
 - [Top 20 use cases for CASBs](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE3nibJ)
-- [Cloud App Security best practices](https://docs.microsoft.com/cloud-app-security/best-practices)
+- [Cloud App Security best practices](/cloud-app-security/best-practices)

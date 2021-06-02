@@ -12,6 +12,6 @@ To enable Azure enterprise state roaming, you’ll need to be in one of the [Azu
 
 ## Learn more
 
-- [Configure Enterprise State Roaming in Azure AD](https://docs.microsoft.com/azure/active-directory/devices/enterprise-state-roaming-faqs?azure-portal=true)
-- [Configure sync settings](https://docs.microsoft.com/azure/active-directory/devices/enterprise-state-roaming-group-policy-settings?azure-portal=true)	
-- [Windows 10 roaming settings reference](https://docs.microsoft.com/azure/active-directory/devices/enterprise-state-roaming-windows-settings-reference?azure-portal=true)
+- [Configure Enterprise State Roaming in Azure AD](/azure/active-directory/devices/enterprise-state-roaming-faqs?azure-portal=true)
+- [Configure sync settings](/azure/active-directory/devices/enterprise-state-roaming-group-policy-settings?azure-portal=true)	
+- [Windows 10 roaming settings reference](/azure/active-directory/devices/enterprise-state-roaming-windows-settings-reference?azure-portal=true)

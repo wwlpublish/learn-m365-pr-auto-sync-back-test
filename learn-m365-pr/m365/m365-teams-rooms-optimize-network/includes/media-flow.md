@@ -21,4 +21,4 @@ No. The media will travel to the Microsoft datacenter closest to the first perso
 
 ## Learn more 
 
-- [Microsoft Teams call flows](https://docs.microsoft.com/microsoftteams/microsoft-teams-online-call-flows?azure-portal=true)
+- [Microsoft Teams call flows](/microsoftteams/microsoft-teams-online-call-flows?azure-portal=true)

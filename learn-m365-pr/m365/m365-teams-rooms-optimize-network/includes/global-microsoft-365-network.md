@@ -58,6 +58,6 @@ Do you need to increase bandwidth when implementing Microsoft 365? To help you a
 ## Learn more 
 
 - [Microsoft peering locations](https://www.peeringdb.com/asn/8075?azure-portal=true)
-- [Microsoft 365 and Office 365 URLs and IP address ranges](https://docs.microsoft.com/microsoftteams/office-365-urls-ip-address-ranges?azure-portal=true)
-- [Microsoft 365 network connectivity principles](https://docs.microsoft.com/microsoft-365/enterprise/microsoft-365-network-connectivity-principles?view=o365-worldwide?azure-portal=true)
-- [Networking up (to the cloud) — One architect’s viewpoint](https://docs.microsoft.com/microsoft-365/solutions/networking-design-principles?view=o365-worldwide?azure-portal=true)
+- [Microsoft 365 and Office 365 URLs and IP address ranges](/microsoftteams/office-365-urls-ip-address-ranges?azure-portal=true)
+- [Microsoft 365 network connectivity principles](/microsoft-365/enterprise/microsoft-365-network-connectivity-principles?azure-portal=true)
+- [Networking up (to the cloud) — One architect’s viewpoint](/microsoft-365/solutions/networking-design-principles?azure-portal=true)

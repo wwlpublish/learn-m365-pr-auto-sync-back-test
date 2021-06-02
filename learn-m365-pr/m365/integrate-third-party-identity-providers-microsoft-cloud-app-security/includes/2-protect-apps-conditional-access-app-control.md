@@ -72,4 +72,4 @@ To deploy any app so that it is controlled by Cloud App Security Conditional Acc
 1. Update the Azure AD policy
 
 > [!NOTE]
-> You can review more detail in the following document: [To deploy any app](https://docs.microsoft.com/cloud-app-security/proxy-deployment-any-app#to-deploy-any-app?aure-portal=true).
+> You can review more detail in the following document: [To deploy any app](/cloud-app-security/proxy-deployment-any-app#to-deploy-any-app?aure-portal=true).

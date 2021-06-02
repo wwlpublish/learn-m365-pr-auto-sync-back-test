@@ -6,7 +6,7 @@ Delivery Optimization is a service that will help you decrease the bandwidth tha
 
 ### Requirements
 
-Here are some of the [requirements](https://docs.microsoft.com/windows/deployment/update/waas-delivery-optimization#requirements) for Delivery Optimization:
+Here are some of the [requirements](/windows/deployment/update/waas-delivery-optimization#requirements) for Delivery Optimization:
 
 - Devices must be able to access the internet
 - Computers running Windows must be on version 1511 or higher
@@ -27,7 +27,7 @@ Microsoft Connected Cache is a service that you use to cache content on-premises
 
 ### Requirements
 
-Microsoft Connected Cache [requirements](https://docs.microsoft.com/mem/configmgr/core/plan-design/hierarchy/microsoft-connected-cache) include:
+Microsoft Connected Cache [requirements](/mem/configmgr/core/plan-design/hierarchy/microsoft-connected-cache) include:
 
 - A distribution point on-premises that runs Windows Server 2012 or later
 - Computers must run Windows 10 version 1709 or later

@@ -8,12 +8,12 @@ In this module, you learned how to use MSIX app attach to deliver MSIX packages 
 
 You can learn more by reviewing the following resources:
 
-- [What is MSIX?](https://docs.microsoft.com/windows/msix/overview)
-- [What is MSIX app attach?](https://docs.microsoft.com/azure/virtual-desktop/what-is-app-attach)
-- [Create PowerShell scripts for MSIX app attach (preview)](https://docs.microsoft.com/azure/virtual-desktop/app-attach)
-- [What is Windows Virtual Desktop?](https://docs.microsoft.com/azure/virtual-desktop/overview)
-- [MSIX Packaging Tool](https://docs.microsoft.com/windows/msix/packaging-tool/tool-overview)
-- [Using startup, shutdown, logon, and logoff scripts in Group Policy](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/dn789196(v=ws.11)/)
-- [Windows Virtual Desktop cmdlets for Windows PowerShell](https://docs.microsoft.com/powershell/windows-virtual-desktop/overview)
+- [What is MSIX?](/windows/msix/overview)
+- [What is MSIX app attach?](/azure/virtual-desktop/what-is-app-attach)
+- [Create PowerShell scripts for MSIX app attach (preview)](/azure/virtual-desktop/app-attach)
+- [What is Windows Virtual Desktop?](/azure/virtual-desktop/overview)
+- [MSIX Packaging Tool](/windows/msix/packaging-tool/tool-overview)
+- [Using startup, shutdown, logon, and logoff scripts in Group Policy](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/dn789196(v=ws.11)/)
+- [Windows Virtual Desktop cmdlets for Windows PowerShell](/powershell/windows-virtual-desktop/overview)
 - [Windows Virtual Desktop scaling script repository](https://aka.ms/WVDscaling)
-- [Tutorial: Manage app groups with the Azure portal](https://docs.microsoft.com/azure/virtual-desktop/manage-app-groups)
+- [Tutorial: Manage app groups with the Azure portal](/azure/virtual-desktop/manage-app-groups)

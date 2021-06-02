@@ -18,9 +18,9 @@ Conditional Access also provides you with a centralized place to see the health 
 
 ## Learn more
 
-- [Implement conditional access policies](https://docs.microsoft.com/intune/protect/create-conditional-access-intune?azure-portal=true)
-- [Manage conditional access policies](https://docs.microsoft.com/intune/apps/app-management?azure-portal=true)
-- [Plan conditional access policies](https://docs.microsoft.com/intune/protect/conditional-access-intune-common-ways-use?azure-portal=true)
-- [Implement device compliance policies](https://docs.microsoft.com/intune/protect/create-compliance-policy?azure-portal=true)
-- [Manage device compliance policies](https://docs.microsoft.com/intune/protect/compliance-policy-monitor?azure-portal=true)
-- [Plan device compliance policies](https://docs.microsoft.com/intune/protect/device-compliance-get-started?azure-portal=true)
+- [Implement conditional access policies](/intune/protect/create-conditional-access-intune?azure-portal=true)
+- [Manage conditional access policies](/intune/apps/app-management?azure-portal=true)
+- [Plan conditional access policies](/intune/protect/conditional-access-intune-common-ways-use?azure-portal=true)
+- [Implement device compliance policies](/intune/protect/create-compliance-policy?azure-portal=true)
+- [Manage device compliance policies](/intune/protect/compliance-policy-monitor?azure-portal=true)
+- [Plan device compliance policies](/intune/protect/device-compliance-get-started?azure-portal=true)

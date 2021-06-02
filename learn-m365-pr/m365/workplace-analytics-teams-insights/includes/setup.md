@@ -59,5 +59,5 @@ After you've selected the settings for your population, you can start analyzing 
 
 ## Learn more
 
-- [Detailed step-by-step instructions and troubleshooting for the Teams insight Power BI template](https://docs.microsoft.com/workplace-analytics/tutorials/power-bi-teams?azure-portal=true)
+- [Detailed step-by-step instructions and troubleshooting for the Teams insight Power BI template](/workplace-analytics/tutorials/power-bi-teams?azure-portal=true)
 

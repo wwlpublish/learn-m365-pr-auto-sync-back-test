@@ -14,4 +14,4 @@ Organization relationships are needed for both the on-premises and Exchange Onli
 
 ## Learn more
 
-- [Shared free/busy in Exchange hybrid deployments](https://docs.microsoft.com/Exchange/shared-free-busy?azure-portal=true)
+- [Shared free/busy in Exchange hybrid deployments](/Exchange/shared-free-busy?azure-portal=true)
