@@ -9,4 +9,4 @@ You can specify the number of days after which an Anyone link expires. Once a li
 You can specify the file and folder permissions available to recipients of Anyone links. Files permissions can allow editing or can be restricted to view only. Folder permissions can allow editing and uploading or can be restricted to view only.
 
 ## Learn more
-- [Manage sharing settings](https://docs.microsoft.com/sharepoint/turn-external-sharing-on-or-off?azure-portal=true)
+- [Manage sharing settings](/sharepoint/turn-external-sharing-on-or-off?azure-portal=true)

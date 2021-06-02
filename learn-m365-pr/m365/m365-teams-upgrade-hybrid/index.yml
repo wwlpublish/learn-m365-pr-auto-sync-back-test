@@ -3,7 +3,7 @@ uid: learn-m365.m365-teams-upgrade-hybrid
 metadata:
   title: Understand hybrid connectivity
   description: Learn how to facilitate moving an on-premises Skype environment to the cloud by setting up hybrid connectivity. Discover how to configure connectivity, move users between on-premises and cloud, and disable hybrid connectivity once you’ve completed the migration.
-  ms.date: 01/17/20
+  ms.date: 01/17/2020
   author: AlexandraHrt
   ms.author: elizapo
   ms.topic: interactive-tutorial
@@ -20,7 +20,7 @@ abstract: |
   - Explain how to disable hybrid to complete migration to the cloud.
   - Describe cloud consolidation for Teams and Skype for Business
 prerequisites: | 
- - Basic understanding of Microsoft 365. If you are unfamiliar with this, we recommend you take [Microsoft 365 Fundamentals](https://docs.microsoft.com/learn/paths/m365-fundamentals/)
+ - Basic understanding of Microsoft 365. If you are unfamiliar with this, we recommend you take [Microsoft 365 Fundamentals](/learn/paths/m365-fundamentals/)
 iconUrl: /learn/achievements/m365-teams-upgrade-hybrid.svg
 ratingEnabled: true
 levels:

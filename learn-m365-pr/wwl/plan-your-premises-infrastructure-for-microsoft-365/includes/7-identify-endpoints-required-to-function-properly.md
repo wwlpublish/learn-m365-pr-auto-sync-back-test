@@ -220,7 +220,7 @@ The **Row** column identifies whether there's a specific subnet you must use if 
   -[Azure AD Device Registration](https://support.office.com/article/azure-ad-device-registration-028d73d7-4b86-4ee0-8fb7-9a209434b04e?azure-portal=true)
   - Forms
   - StaffHub
-  - [Application Insights](https://docs.microsoft.com/azure/application-insights/app-insights-ip-addresses?azure-portal=true)
+  - [Application Insights](/azure/application-insights/app-insights-ip-addresses)
   - captcha services
   
   <b>Destination:</b><br>  *.blob.core.windows.net<br>  *.hockeyapp.net<br>  *.sharepointonline.com<br>  *.staffhub.office.com<br>  api.office.com<br>  enterpriseregistration.windows.net<br>  dc.applicationinsights.microsoft.com<br>  dc.services.visualstudio.com<br>  forms.microsoft.com<br>  forms.office.com<br>  graph.windows.net<br>  manage.office.com<br>  mem.gfx.ms<br>  office365servicehealthcommunications.cloudapp.net<br>  securescore.office.com<br>  signup.microsoft.com<br>  staffhub.ms<br>  staffhubweb.azureedge.net<br>  staffhub.office.com<br>  staffhub.uservoice.com<br>  weu-000.forms.osi.office.net<br>  wus-000.forms.osi.office.net<br>  neu-000.forms.osi.office.net<br>  eus2-000.forms.osi.office.net<br>  ea-000.forms.osi.office.net<br>  watson.telemetry.microsoft.com<br>  wu.client.hip.live.com

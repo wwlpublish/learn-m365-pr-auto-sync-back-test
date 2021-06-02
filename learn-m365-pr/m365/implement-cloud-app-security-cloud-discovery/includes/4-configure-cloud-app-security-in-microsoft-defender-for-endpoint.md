@@ -8,7 +8,7 @@ Microsoft Cloud App Security integrates with Microsoft Defender for Endpoint to 
 You can use Microsoft Defender for Endpoint within your organization to help prevent, detect, investigate, and mitigate advanced security threats. Defender for Endpoint is based on Windows 10 technologies and combines with cloud security analytics and threat intelligence that’s provided by Microsoft’s cloud services. 
 
 > [!IMPORTANT]
-> Microsoft Defender for Endpoint is a licensed product. Details are available here: [Licensing requirements](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/minimum-requirements#licensing-requirements?azure-portal=true). 
+> Microsoft Defender for Endpoint is a licensed product. Details are available here: [Licensing requirements](/windows/security/threat-protection/microsoft-defender-atp/minimum-requirements#licensing-requirements?azure-portal=true). 
 
 ## Implement Defender for Endpoint integration with Cloud App Security
 

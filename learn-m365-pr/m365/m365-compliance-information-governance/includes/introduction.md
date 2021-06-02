@@ -101,9 +101,9 @@ As the image below illustrates, information protection and governance is not som
 ![Powered by an intelligent platform](../media/powered-by-intelligent-platform.png) 
  
 ## Learn more
- - [Learn about sensitivity labels](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels?azure-portal=true)
- - [Overview of retention policies](https://docs.microsoft.com/microsoft-365/compliance/retention-policies?azure-portal=true)
- - [Overview of retention labels](https://docs.microsoft.com/microsoft-365/compliance/labels?azure-portal=true)
- - [Get started with trainable classifiers](https://docs.microsoft.com/microsoft-365/compliance/classifier-getting-started-with?azure-portal=true)
- - [Use sensitivity labels in Office apps](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-office-apps?azure-portal=true)
+ - [Learn about sensitivity labels](/microsoft-365/compliance/sensitivity-labels?azure-portal=true)
+ - [Overview of retention policies](/microsoft-365/compliance/retention-policies?azure-portal=true)
+ - [Overview of retention labels](/microsoft-365/compliance/labels?azure-portal=true)
+ - [Get started with trainable classifiers](/microsoft-365/compliance/classifier-getting-started-with?azure-portal=true)
+ - [Use sensitivity labels in Office apps](/microsoft-365/compliance/sensitivity-labels-office-apps?azure-portal=true)
 

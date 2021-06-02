@@ -27,4 +27,4 @@ For more details on routing and presence behavior based on mode, see **Coexisten
 
 When you're done with a link, use the **Back** arrow in your browser to come back to this page.
 
-- [Teams client experience and conformance to coexistence modes ](https://docs.microsoft.com/MicrosoftTeams/teams-client-experience-and-conformance-to-coexistence-modes)
+- [Teams client experience and conformance to coexistence modes ](/MicrosoftTeams/teams-client-experience-and-conformance-to-coexistence-modes)

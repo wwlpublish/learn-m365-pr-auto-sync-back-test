@@ -114,4 +114,4 @@ The best way to test the implementation is to call the number configured for an 
 
 ## Learn more
 
-- [Planning and implementing auto attendants](https://docs.microsoft.com/MicrosoftTeams/tutorial-org-aa)
+- [Planning and implementing auto attendants](/MicrosoftTeams/tutorial-org-aa)

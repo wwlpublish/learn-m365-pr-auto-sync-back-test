@@ -12,4 +12,4 @@ Follow these steps in order and, for more information, see the module **Manage T
 
 ## Learn more
 
-[Manage Teams Rooms and Devices](https://docs.microsoft.com/microsoftteams/rooms/rooms-manage)
+[Manage Teams Rooms and Devices](/microsoftteams/rooms/rooms-manage)

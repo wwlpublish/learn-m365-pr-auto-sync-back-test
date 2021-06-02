@@ -101,7 +101,7 @@ The tool collects packet loss, jitter, round-trip latency, and packet reorder pe
 
 ## Learn more
 
-- [Prepare your organization's network for Microsoft Teams](https://docs.microsoft.com/microsoftteams/prepare-network)
-- [Use the Network Planner for Microsoft Teams](https://docs.microsoft.com/microsoftteams/network-planner)
-- [Media Quality and Network Connectivity Performance in Skype for Business](https://docs.microsoft.com/SkypeForBusiness/optimizing-your-network/media-quality-and-network-connectivity-performance)
+- [Prepare your organization's network for Microsoft Teams](/microsoftteams/prepare-network)
+- [Use the Network Planner for Microsoft Teams](/microsoftteams/network-planner)
+- [Media Quality and Network Connectivity Performance in Skype for Business](/SkypeForBusiness/optimizing-your-network/media-quality-and-network-connectivity-performance)
 - [Microsoft 365 Network Onboarding Tool](https://connectivity.office.com/)

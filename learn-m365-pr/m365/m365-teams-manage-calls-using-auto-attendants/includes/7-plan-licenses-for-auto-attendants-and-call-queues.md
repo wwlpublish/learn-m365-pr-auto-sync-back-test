@@ -28,5 +28,5 @@ When using nested auto attendants, as long as they don't have a phone number ass
 
 ## Learn more
 
-- [Assign Teams add-on licenses to user](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/assign-teams-add-on-licenses)
-- [Teams - add on licenses](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing?tabs=small-business)
+- [Assign Teams add-on licenses to user](/microsoftteams/teams-add-on-licensing/assign-teams-add-on-licenses)
+- [Teams - add on licenses](/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing?tabs=small-business)

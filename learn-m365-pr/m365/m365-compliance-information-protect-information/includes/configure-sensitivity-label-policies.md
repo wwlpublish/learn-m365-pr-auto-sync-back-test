@@ -48,4 +48,4 @@ You will be given one last opportunity to review and edit your settings before s
 ![Review and finish](../media/review-and-finish.png)  
 
 ## Learn more
-- [What label policies can do](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels?view=o365-worldwide#what-label-policies-can-do?azure-portal=true)
+- [What label policies can do](/microsoft-365/compliance/sensitivity-labels?what-label-policies-can-do?azure-portal=true)

@@ -22,4 +22,4 @@ Different Microsoft 365 subscriptions include different threat protection types.
 
 ## Learn more
 
-- [Protect against threats](https://docs.microsoft.com/microsoft-365/security/office-365-security/protect-against-threats?view=o365-worldwide?azure-portal=true)
+- [Protect against threats](/microsoft-365/security/office-365-security/protect-against-threats?azure-portal=true)

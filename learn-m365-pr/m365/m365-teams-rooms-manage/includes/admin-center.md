@@ -43,4 +43,4 @@ Click on the **System** icon to learn more about what hardware the participant w
 
 ## Learn more
 
-- [Network performance requirements from a Skype for Business client to Microsoft network Edge](https://docs.microsoft.com/skypeforbusiness/optimizing-your-network/media-quality-and-network-connectivity-performance#network-performance-requirements-from-a-skype-for-business-client-to-microsoft-network-edge)
+- [Network performance requirements from a Skype for Business client to Microsoft network Edge](/skypeforbusiness/optimizing-your-network/media-quality-and-network-connectivity-performance#network-performance-requirements-from-a-skype-for-business-client-to-microsoft-network-edge)

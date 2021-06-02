@@ -25,6 +25,6 @@ You can change the global messaging policy or create a new custom policy. For ex
 
 ## Learn more
 
-- [Manage messaging policies in Teams](https://docs.microsoft.com/MicrosoftTeams/messaging-policies-in-teams?azure-portal=true)
-- [Manage Teams policies](https://docs.microsoft.com/microsoftteams/teams-policies?azure-portal=true)
-- [Manage private channel creation policies](https://docs.microsoft.com/microsoftteams/private-channels?azure-portal=true)
+- [Manage messaging policies in Teams](/MicrosoftTeams/messaging-policies-in-teams?azure-portal=true)
+- [Manage Teams policies](/microsoftteams/teams-policies?azure-portal=true)
+- [Manage private channel creation policies](/microsoftteams/private-channels?azure-portal=true)

@@ -77,6 +77,6 @@ It's important to note that driving change is often a journey that consists of u
 
 ## Learn more
  
-- [Ways of working tracker dashboard tutorial](https://docs.microsoft.com/Workplace-Analytics/tutorials/power-bi-collab-track?azure-portal=true)
+- [Ways of working tracker dashboard tutorial](/Workplace-Analytics/tutorials/power-bi-collab-track?azure-portal=true)
 
 This topic includes template updates, setup instructions with video, things to remember when sharing the dashboard, FAQs, errors and troubleshooting, and support.

@@ -18,5 +18,5 @@ Be sure to click the full-screen option in the video player. When you're done, u
 
 ## Learn more
 
-- [Set up directory synchronization](https://docs.microsoft.com/office365/enterprise/set-up-directory-synchronization?azure-portal=true)
-- [Prepare for directory synchronization to Microsoft 365](https://docs.microsoft.com/office365/enterprise/prepare-for-directory-synchronization?azure-portal=true)
+- [Set up directory synchronization](/office365/enterprise/set-up-directory-synchronization?azure-portal=true)
+- [Prepare for directory synchronization to Microsoft 365](/office365/enterprise/prepare-for-directory-synchronization?azure-portal=true)
