@@ -100,9 +100,9 @@ New-Mailbox -Database "Mailbox Database 1" -Name MotorVehicle2 -OrganizationalUn
 ``` 
 
 ## Learn more
-- [Exchange Online Archiving service](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-archiving-service-description/exchange-online-archiving-service-description) 
-- [Exchange Online Archiving plans](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-archiving-service-description/exchange-online-archiving-service-description#exchange-online-archiving-plans) 
-- [Feature sets for Exchange Online Archiving plans](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-archiving-service-description/exchange-online-archiving-service-description#feature-availability-across-exchange-online-archiving-plans) 
-- [Create and manage room mailboxes](https://docs.microsoft.com/Exchange/recipients-in-exchange-online/manage-room-mailboxes) 
-- [Create and manage equipment mailboxes](https://docs.microsoft.com/Exchange/recipients-in-exchange-online/manage-equipment-mailboxes) 
-- [PowerShell Reference Library](https://docs.microsoft.com/powershell/windows/get-started?view=win10-ps&azure-portal=true) 
+- [Exchange Online Archiving service](/office365/servicedescriptions/exchange-online-archiving-service-description/exchange-online-archiving-service-description) 
+- [Exchange Online Archiving plans](/office365/servicedescriptions/exchange-online-archiving-service-description/exchange-online-archiving-service-description#exchange-online-archiving-plans) 
+- [Feature sets for Exchange Online Archiving plans](/office365/servicedescriptions/exchange-online-archiving-service-description/exchange-online-archiving-service-description#feature-availability-across-exchange-online-archiving-plans) 
+- [Create and manage room mailboxes](/Exchange/recipients-in-exchange-online/manage-room-mailboxes) 
+- [Create and manage equipment mailboxes](/Exchange/recipients-in-exchange-online/manage-equipment-mailboxes) 
+- [PowerShell Reference Library](/powershell/windows/get-started?view=win10-ps&azure-portal=true) 

@@ -20,5 +20,5 @@ Administrators can import and archive third-party data from social media platfor
 Microsoft provides several data connectors in the Microsoft 365 compliance center for Facebook, Twitter, LinkedIn, Instant Bloomberg and HR data. You can also work with a Microsoft partner if you have a requirement to import data from these, or other sources.
 
 ## Learn more
-- [Overview of importing your organizations PST files to Office 365](https://docs.microsoft.com/microsoft-365/compliance/importing-pst-files-to-office-365?azure-portal=true)
-- [Overview of archiving third-party data](https://docs.microsoft.com/microsoft-365/compliance/archiving-third-party-data?azure-portal=true)
+- [Overview of importing your organizations PST files to Office 365](/microsoft-365/compliance/importing-pst-files-to-office-365?azure-portal=true)
+- [Overview of archiving third-party data](/microsoft-365/compliance/archiving-third-party-data?azure-portal=true)

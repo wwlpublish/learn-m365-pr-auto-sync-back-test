@@ -19,7 +19,7 @@ abstract: |
   - Describe how administrators and Microsoft combine to keep data safe in SharePoint.
 
 prerequisites: | 
- - Basic understanding of Microsoft 365. If you are unfamiliar with this, we recommend you take [Microsoft 365 Fundamentals](https://docs.microsoft.com/learn/paths/m365-fundamentals/)
+ - Basic understanding of Microsoft 365. If you are unfamiliar with this, we recommend you take [Microsoft 365 Fundamentals](/learn/paths/m365-fundamentals/)
 iconUrl: /learn/achievements/manage-your-microsoft-sharepoint-sites.svg
 ratingEnabled: true
 levels:

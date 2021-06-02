@@ -20,4 +20,4 @@ The following diagram illustrates the Customer Lockbox workflow when a customer 
 
 ## Learn more
 
-- [Customer Lockbox FAQ](https://docs.microsoft.com/microsoft-365/compliance/customer-lockbox-requests?azure-portal=true)
+- [Customer Lockbox FAQ](/microsoft-365/compliance/customer-lockbox-requests?azure-portal=true)

@@ -9,5 +9,5 @@ Activity explorer, shown in the image below, includes information on activity re
 :::image type="content" source="../media/activity-explorer.png" alt-text="A screenshot shows the activity explorer window, with a bar chart that maps the activities during a set time period.":::
 
 ## Learn more
-- [Get started with content explorer](https://docs.microsoft.com/microsoft-365/compliance/data-classification-content-explorer?view=o365-worldwide)
-- [Get started with activity explorer](https://docs.microsoft.com/microsoft-365/compliance/data-classification-activity-explorer?view=o365-worldwide)
+- [Get started with content explorer](/microsoft-365/compliance/data-classification-content-explorer?view=o365-worldwide)
+- [Get started with activity explorer](/microsoft-365/compliance/data-classification-activity-explorer?view=o365-worldwide)

@@ -26,6 +26,6 @@ Safe Links, a feature of Microsoft Defender for Endpoint, helps protect your org
 
 ## Learn more
 
-- [Set up Safe Attachments policies](https://docs.microsoft.com/microsoft-365/security/office-365-security/set-up-atp-safe-attachments-policies?view=o365-worldwide?azure-portal=true)
-- [Set up Safe Links policies](https://docs.microsoft.com/microsoft-365/security/office-365-security/set-up-atp-safe-links-policies?view=o365-worldwide?azure-portal=true)
+- [Set up Safe Attachments policies](/microsoft-365/security/office-365-security/set-up-atp-safe-attachments-policies?view=o365-worldwide?azure-portal=true)
+- [Set up Safe Links policies](/microsoft-365/security/office-365-security/set-up-atp-safe-links-policies?view=o365-worldwide?azure-portal=true)
 

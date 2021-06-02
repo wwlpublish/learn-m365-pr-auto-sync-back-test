@@ -26,5 +26,5 @@ Modern deployment methods are recommended unless you have a specific need to use
 Once you have deployed Windows 10 in your organization, it is important to stay up to date by creating a deployment plan for Windows 10 feature updates.
 
 ## Learn more
-- [Create a deployment plan](https://docs.microsoft.com/windows/deployment/update/create-deployment-plan?azure-portal=true)
-- [Modern Desktop Deployment Center](https://docs.microsoft.com/microsoft-365/enterprise/desktop-deployment-center-home?view=o365-worldwide?azure-portal=true)
+- [Create a deployment plan](/windows/deployment/update/create-deployment-plan?azure-portal=true)
+- [Modern Desktop Deployment Center](/microsoft-365/enterprise/desktop-deployment-center-home?view=o365-worldwide?azure-portal=true)

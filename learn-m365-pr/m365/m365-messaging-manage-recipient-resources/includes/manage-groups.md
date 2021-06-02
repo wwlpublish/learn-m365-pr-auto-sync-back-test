@@ -62,7 +62,7 @@ Groups in Microsoft 365 let you choose a set of people with whom you wish to col
 
 
 ## Learn more
-- [Manage Distribution Groups](https://docs.microsoft.com/Exchange/recipients-in-exchange-online/manage-distribution-groups/manage-distribution-groups) 
-- [Manage Security Groups](https://docs.microsoft.com/Exchange/recipients-in-exchange-online/manage-mail-enabled-security-groups) 
-- [Microsoft 365 Groups](https://docs.microsoft.com/exchange/hybrid-deployment/set-up-office-365-groups) 
-- [PowerShell Reference Library](https://docs.microsoft.com/powershell/windows/get-started?view=win10-ps&azure-portal=true) 
+- [Manage Distribution Groups](/Exchange/recipients-in-exchange-online/manage-distribution-groups/manage-distribution-groups) 
+- [Manage Security Groups](/Exchange/recipients-in-exchange-online/manage-mail-enabled-security-groups) 
+- [Microsoft 365 Groups](/exchange/hybrid-deployment/set-up-office-365-groups) 
+- [PowerShell Reference Library](/powershell/windows/get-started?view=win10-ps&azure-portal=true) 

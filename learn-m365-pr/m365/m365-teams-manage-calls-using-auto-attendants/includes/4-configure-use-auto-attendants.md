@@ -30,6 +30,6 @@ Microsoft Teams auto attendants now support redirection to voicemail. With this 
 
 ## Learn more
   
-- [Call flow - extension dialing](https://docs.microsoft.com/microsoftteams/create-a-phone-system-auto-attendant#call-flow)
+- [Call flow - extension dialing](/microsoftteams/create-a-phone-system-auto-attendant#call-flow)
 - [Extension dialing (non MS)](https://ucstatus.com/2020/03/30/use-extension-dialing-in-microsoft-teams/)
 - [Shared mailbox - VIDEO](https://www.youtube.com/watch?v=Iepnko_v0ro&list=PLaSOUojkSiGnKuE30ckcjnDVkMNqDv0Vl)

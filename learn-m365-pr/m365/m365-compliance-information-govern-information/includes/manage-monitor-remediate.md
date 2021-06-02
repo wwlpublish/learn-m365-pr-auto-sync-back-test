@@ -10,7 +10,7 @@ The following cards from the overview page are relevant to information governanc
 See the “Information protection and governance data classification” module in this learning path to learn more.
 
 ## Learn more
-- [Monitor retention labels](https://docs.microsoft.com/microsoft-365/compliance/labels?view=o365-worldwide#monitor-retention-labels?azure-portal=true)
-- [Verify label activity for documents](https://docs.microsoft.com/microsoft-365/compliance/labels?view=o365-worldwide#monitor-retention-labels?azure-portal=true)
-- [View label usage with label analytics](https://docs.microsoft.com/microsoft-365/compliance/label-analytics?azure-portal=true)
-- [View the data governance reports](https://docs.microsoft.com/microsoft-365/compliance/view-the-data-governance-reports?azure-portal=true)
+- [Monitor retention labels](/microsoft-365/compliance/labels?view=o365-worldwide#monitor-retention-labels?azure-portal=true)
+- [Verify label activity for documents](/microsoft-365/compliance/labels?view=o365-worldwide#monitor-retention-labels?azure-portal=true)
+- [View label usage with label analytics](/microsoft-365/compliance/label-analytics?azure-portal=true)
+- [View the data governance reports](/microsoft-365/compliance/view-the-data-governance-reports?azure-portal=true)

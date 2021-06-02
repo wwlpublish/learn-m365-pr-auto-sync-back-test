@@ -43,5 +43,5 @@ The next step in the process is to complete the file plan template. Since your g
 When ready, upload the completed plan to Microsoft 365. Once you have verified everything looks as expected, publish, or auto-apply the labels to activate them. Refer to the information governance module in this learning path for instructions on publishing or auto-applying a label policy.
 
 ## Learn more
-- [Import retention labels into your file plan](https://docs.microsoft.com/microsoft-365/compliance/file-plan-manager?view=o365-worldwide#import-retention-labels-into-your-file-plan?azure-portal=true)
-- [Retention label file plan descriptors columns](https://docs.microsoft.com/microsoft-365/compliance/file-plan-manager?view=o365-worldwide#retention-label-file-plan-descriptors-columns?azure-portal=true)
+- [Import retention labels into your file plan](/microsoft-365/compliance/file-plan-manager?view=o365-worldwide#import-retention-labels-into-your-file-plan?azure-portal=true)
+- [Retention label file plan descriptors columns](/microsoft-365/compliance/file-plan-manager?view=o365-worldwide#retention-label-file-plan-descriptors-columns?azure-portal=true)

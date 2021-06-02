@@ -18,4 +18,4 @@ You can add or remove team members and perform other team-management tasks withi
 
 When you're done with a link, use the **Back** arrow in your browser to come back to this page.
 
-- [Microsoft 365 Groups and Microsoft Teams](https://docs.microsoft.com/microsoftteams/office-365-groups)
+- [Microsoft 365 Groups and Microsoft Teams](/microsoftteams/office-365-groups)

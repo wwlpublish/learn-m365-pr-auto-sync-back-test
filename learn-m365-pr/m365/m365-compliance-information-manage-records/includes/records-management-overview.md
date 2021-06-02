@@ -37,7 +37,7 @@ Here are some common things a typical file plan includes:
 - Responsible party for managing of different types of records.
  
 ## Learn more
-- [Records management in Microsoft 365](https://docs.microsoft.com/microsoft-365/compliance/records-management?azure-portal=true)
-- [Overview of records](https://docs.microsoft.com/microsoft-365/compliance/records-management?azure-portal=true)
-- [Microsoft 365 security & compliance licensing guidance](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance?azure-portal=true)
-- [Records management licensing guidance](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#records-management?azure-portal=true)
+- [Records management in Microsoft 365](/microsoft-365/compliance/records-management?azure-portal=true)
+- [Overview of records](/microsoft-365/compliance/records-management?azure-portal=true)
+- [Microsoft 365 security & compliance licensing guidance](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance?azure-portal=true)
+- [Records management licensing guidance](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#records-management?azure-portal=true)

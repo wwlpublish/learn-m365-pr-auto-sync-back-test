@@ -25,7 +25,7 @@ If you're using the Shifts app in Teams, you can also search the audit log for a
 
 ## Learn more
 
-- [Teams activities](https://docs.microsoft.com/microsoftteams/audit-log-events)
-- [Search the audit log for events in Microsoft Teams](https://docs.microsoft.com/microsoftteams/audit-log-events)
-- [Shifts in Teams activities](https://docs.microsoft.com/microsoftteams/audit-log-events)
-- [Turn audit log search on or off](https://docs.microsoft.com/microsoft-365/compliance/turn-audit-log-search-on-or-off)
+- [Teams activities](/microsoftteams/audit-log-events)
+- [Search the audit log for events in Microsoft Teams](/microsoftteams/audit-log-events)
+- [Shifts in Teams activities](/microsoftteams/audit-log-events)
+- [Turn audit log search on or off](/microsoft-365/compliance/turn-audit-log-search-on-or-off)

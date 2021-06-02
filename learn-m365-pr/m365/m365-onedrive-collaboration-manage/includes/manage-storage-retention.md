@@ -30,7 +30,7 @@ To add retention settings to specific files in OneDrive vs the entire OneDrive s
 If a user leaves your organization, any files subject to a retention policy or containing retention labels will remain for the duration of the policy or label. During that period, all sharing access continues to work. When the retention period expires, files move into the site collection recycle bin.
 
 ## Learn more
-- [Set the default storage space for OneDrive users](https://docs.microsoft.com/onedrive/set-default-storage-space?azure-portal=true)
-- [Change a specific user’s OneDrive storage space](https://docs.microsoft.com/onedrive/change-user-storage?azure-portal=true)
-- [Learn about retention policies](https://docs.microsoft.com/microsoft-365/compliance/retention-policies?view=o365-worldwide?azure-portal=true)
-- [Learn about retention labels](https://docs.microsoft.com/microsoft-365/compliance/labels?view=o365-worldwide?azure-portal=true)
+- [Set the default storage space for OneDrive users](/onedrive/set-default-storage-space?azure-portal=true)
+- [Change a specific user’s OneDrive storage space](/onedrive/change-user-storage?azure-portal=true)
+- [Learn about retention policies](/microsoft-365/compliance/retention-policies?view=o365-worldwide?azure-portal=true)
+- [Learn about retention labels](/microsoft-365/compliance/labels?view=o365-worldwide?azure-portal=true)

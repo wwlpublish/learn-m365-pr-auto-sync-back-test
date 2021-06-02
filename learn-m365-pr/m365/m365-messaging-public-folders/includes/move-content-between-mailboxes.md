@@ -52,5 +52,5 @@ New-MailboxRestoreRequest -SourceStoreMailbox SourceMailboxName -SourceDatabase 
 
 ## Learn more
 
-- [Move a public folder to a different public folder mailbox](https://docs.microsoft.com/exchange/move-a-public-folder-to-a-different-public-folder-mailbox-exchange-2013-help?azure-portal=true)
-- [To see the full list of states a move request can be in, see Get-PublicFolderMoveRequest](https://docs.microsoft.com/powershell/module/exchange/move-and-migration/get-publicfoldermoverequest?view=exchange-ps#parameters&azure-portal=true )
+- [Move a public folder to a different public folder mailbox](/exchange/move-a-public-folder-to-a-different-public-folder-mailbox-exchange-2013-help?azure-portal=true)
+- [To see the full list of states a move request can be in, see Get-PublicFolderMoveRequest](/powershell/module/exchange/move-and-migration/get-publicfoldermoverequest?view=exchange-ps#parameters&azure-portal=true )

@@ -12,7 +12,7 @@ There are three types of retention tags, based on who can apply them and where i
 |Personal tag|	Manually to items and folders<br>Users can automate tagging by using Inbox rules to either move a message to a folder that has a particular tag or to apply a personal tag to the message.|	Users|	Move to archive<br>Delete and allow recovery<br>Permanently delete|	Personal tags allow your users to determine how long an item should be retained. For example, the mailbox can have a DPT to delete items in seven years, but a user can create an exception for items such as newsletters and automated notifications by applying a personal tag to delete them in three days.|
 
 >[!NOTE]
-> Before you can create a retention tag (or any of the procedures in this unit), you need the right permissions. To see what permissions you need, see [Messaging policy and compliance permissions in Exchange Server](https://docs.microsoft.com/Exchange/permissions/feature-permissions/policy-and-compliance-permissions?redirectedfrom=MSDN&view=exchserver-2019).
+> Before you can create a retention tag (or any of the procedures in this unit), you need the right permissions. To see what permissions you need, see [Messaging policy and compliance permissions in Exchange Server](/Exchange/permissions/feature-permissions/policy-and-compliance-permissions?redirectedfrom=MSDN&view=exchserver-2019).
 
 To create a retention tag:
 
@@ -111,7 +111,7 @@ To remove the retention hold, run the same cmdlet, but set  *RetentionHoldEnable
  >```
 
 ## Learn more
-- [Create a Retention Policy](https://docs.microsoft.com/exchange/security-and-compliance/messaging-records-management/create-a-retention-policy?azure-portal=true)
+- [Create a Retention Policy](/exchange/security-and-compliance/messaging-records-management/create-a-retention-policy?azure-portal=true)
 - [Video - How to enable online archiving](https://go.microsoft.com/fwlink/p/?LinkId=825854?azure-portal=true)
-- [PowerShell command reference library](https://docs.microsoft.com/powershell/windows/get-started?view=win10-ps?azure-portal=true)
+- [PowerShell command reference library](/powershell/windows/get-started?view=win10-ps?azure-portal=true)
 

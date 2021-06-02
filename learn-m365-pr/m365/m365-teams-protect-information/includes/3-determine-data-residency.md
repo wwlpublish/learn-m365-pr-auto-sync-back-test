@@ -53,4 +53,4 @@ Microsoft doesn't provide any data residency support for partner apps and servic
 
 ## Learn more
 
-- [Location of data in Microsoft Teams](https://docs.microsoft.com/microsoftteams/location-of-data-in-teams)
+- [Location of data in Microsoft Teams](/microsoftteams/location-of-data-in-teams)

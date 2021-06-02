@@ -16,5 +16,5 @@ Also by default, the following hybrid deployment features are enabled by the Hyb
 
 ## Learn more
 
-- [Hybrid Configuration Wizard](https://docs.microsoft.com/exchange/hybrid-configuration-wizard?azure-portal=true)
-- [PowerShell Reference Library](https://docs.microsoft.com/powershell/windows/get-started?view=win10-ps&azure-portal=true)
+- [Hybrid Configuration Wizard](/exchange/hybrid-configuration-wizard?azure-portal=true)
+- [PowerShell Reference Library](/powershell/windows/get-started?view=win10-ps&azure-portal=true)

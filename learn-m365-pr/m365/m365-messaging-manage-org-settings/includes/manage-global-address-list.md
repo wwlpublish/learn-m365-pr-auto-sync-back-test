@@ -79,12 +79,12 @@ New-GlobalAddressList -Name "<GAL Name>" [<Precanned recipient filter | Custom r
 ```
 
 ## Learn more
-- [Manage Global Address Lists](https://docs.microsoft.com/Exchange/address-books/address-lists/address-lists#global-address-lists?azure-portal=true)
-- [Manage address lists in Exchange Online](https://docs.microsoft.com/Exchange/address-books/address-lists/manage-address-lists?azure-portal=true)
-- [Recipient filters for address lists in Exchange Online PowerShell](https://docs.microsoft.com/Exchange/address-books/address-lists/use-recipient-filters-to-create-an-address-list?azure-portal=true)
-- [Remove a global address list in Exchange Online](https://docs.microsoft.com/Exchange/address-books/address-lists/remove-a-global-address-list?azure-portal=true)
-- [Configure global address list properties in Exchange Online](https://docs.microsoft.com/Exchange/address-books/address-lists/configure-global-address-list-properties?azure-portal=true)
-- [Create a global address list in Exchange Online](https://docs.microsoft.com/Exchange/address-books/address-lists/create-global-address-list?azure-portal=true)
-- [Connect to Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell?azure-portal=true)
-- [Use Exchange Online PowerShell to create address lists](https://docs.microsoft.com/Exchange/address-books/address-lists/manage-address-lists#use-exchange-online-powershell-to-create-address-lists?azure-portal=true)
-- [PowerShell command reference library](https://docs.microsoft.com/powershell/windows/get-started?view=win10-ps?azure-portal=true)
+- [Manage Global Address Lists](/Exchange/address-books/address-lists/address-lists#global-address-lists?azure-portal=true)
+- [Manage address lists in Exchange Online](/Exchange/address-books/address-lists/manage-address-lists?azure-portal=true)
+- [Recipient filters for address lists in Exchange Online PowerShell](/Exchange/address-books/address-lists/use-recipient-filters-to-create-an-address-list?azure-portal=true)
+- [Remove a global address list in Exchange Online](/Exchange/address-books/address-lists/remove-a-global-address-list?azure-portal=true)
+- [Configure global address list properties in Exchange Online](/Exchange/address-books/address-lists/configure-global-address-list-properties?azure-portal=true)
+- [Create a global address list in Exchange Online](/Exchange/address-books/address-lists/create-global-address-list?azure-portal=true)
+- [Connect to Exchange Online PowerShell](/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell?azure-portal=true)
+- [Use Exchange Online PowerShell to create address lists](/Exchange/address-books/address-lists/manage-address-lists#use-exchange-online-powershell-to-create-address-lists?azure-portal=true)
+- [PowerShell command reference library](/powershell/windows/get-started?view=win10-ps?azure-portal=true)

@@ -40,4 +40,4 @@ Get-MailboxAuditBypassAssociation -Identity <MailboxIdentity> | Format-List Audi
 If you see the value **True** for the user, then mailbox audit logging is bypassed for the user.
 
 ## Learn more
-[Manage mailbox auditing](https://docs.microsoft.com/microsoft-365/compliance/enable-mailbox-auditing?view=o365-worldwide?azure-portal=true)
+[Manage mailbox auditing](/microsoft-365/compliance/enable-mailbox-auditing?view=o365-worldwide?azure-portal=true)

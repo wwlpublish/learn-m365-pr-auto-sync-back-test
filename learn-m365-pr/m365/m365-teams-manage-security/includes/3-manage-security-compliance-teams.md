@@ -33,9 +33,9 @@ You can do these and other similar activities in the Security and Compliance Cen
 
 ## Learn more
 
-- [Security and compliance in Microsoft Teams](https://docs.microsoft.com/microsoftteams/security-compliance-overview)
-- [Information barriers in Microsoft Teams](https://docs.microsoft.com/microsoftteams/information-barriers-in-teams)
+- [Security and compliance in Microsoft Teams](/microsoftteams/security-compliance-overview)
+- [Information barriers in Microsoft Teams](/microsoftteams/information-barriers-in-teams)
 - [Microsoft Compliance Center](https://compliance.microsoft.com/)
-- [Retention policies in Microsoft Teams](https://docs.microsoft.com/microsoftteams/retention-policies)
-- [Data loss prevention and Microsoft Teams](https://docs.microsoft.com/microsoft-365/compliance/dlp-microsoft-teams)
-- [Manage legal investigations in Microsoft 365](https://docs.microsoft.com/microsoft-365/compliance/manage-legal-investigations)
+- [Retention policies in Microsoft Teams](/microsoftteams/retention-policies)
+- [Data loss prevention and Microsoft Teams](/microsoft-365/compliance/dlp-microsoft-teams)
+- [Manage legal investigations in Microsoft 365](/microsoft-365/compliance/manage-legal-investigations)

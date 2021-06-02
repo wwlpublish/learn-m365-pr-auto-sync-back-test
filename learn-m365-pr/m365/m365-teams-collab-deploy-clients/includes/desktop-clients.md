@@ -22,8 +22,8 @@ Teams desktop client updates are released every two weeks after rigorous interna
 
 ## Learn more
 
-- [Hardware requirements for the Teams desktop app](https://docs.microsoft.com/microsoftteams/hardware-requirements-for-the-teams-app?azure-portal=true)
-- [Get clients for Microsoft Teams: Mac](https://docs.microsoft.com/microsoftteams/get-clients#mac?azure-portal=true)
-- [Manage configuration profiles](https://docs.microsoft.com/microsoftteams/device-management#use-configuration-profiles-in-teams?azure-portal=true)
-- [Manage device settings and firmware](https://docs.microsoft.com/microsoftteams/device-management#manage-devices-in-teams?azure-portal=true)
-- [Configure Microsoft Teams Rooms](https://docs.microsoft.com/microsoftteams/room-systems/with-office-365?azure-portal=true)
+- [Hardware requirements for the Teams desktop app](/microsoftteams/hardware-requirements-for-the-teams-app?azure-portal=true)
+- [Get clients for Microsoft Teams: Mac](/microsoftteams/get-clients#mac?azure-portal=true)
+- [Manage configuration profiles](/microsoftteams/device-management#use-configuration-profiles-in-teams?azure-portal=true)
+- [Manage device settings and firmware](/microsoftteams/device-management#manage-devices-in-teams?azure-portal=true)
+- [Configure Microsoft Teams Rooms](/microsoftteams/room-systems/with-office-365?azure-portal=true)

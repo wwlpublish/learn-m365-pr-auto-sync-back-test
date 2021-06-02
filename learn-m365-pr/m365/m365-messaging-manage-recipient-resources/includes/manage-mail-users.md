@@ -124,10 +124,10 @@ When you bulk edit mail users, you can change the following property areas:
 
 ## Learn more 
 
-- [Recipients in Exchange Online](https://docs.microsoft.com/Exchange/recipients-in-exchange-online/recipients-in-exchange-online) 
-- [Create a new mail user using the EAC](https://docs.microsoft.com/Exchange/recipients-in-exchange-online/manage-mail-users#use-the-eac-to-create-a-mail-user) 
-- [Use the EAC to bulk edit mail users](https://docs.microsoft.com/Exchange/recipients-in-exchange-online/manage-mail-users#use-the-eac-to-bulk-edit-mail-users) 
-- [Use the EAC to change mail user properties](https://docs.microsoft.com/Exchange/recipients-in-exchange-online/manage-mail-users#use-the-eac-to-change-user-mailbox-properties) 
-- [Use Exchange Online PowerShell to change mail user properties](https://docs.microsoft.com/Exchange/recipients-in-exchange-online/manage-mail-users#use-exchange-online-powershell-to-change-mail-user-properties) 
-- [Bulk edit mail user](https://docs.microsoft.com/Exchange/recipients-in-exchange-online/manage-mail-users#bulk-edit-mail-users) 
-- [PowerShell Reference Library](https://docs.microsoft.com/powershell/windows/get-started?view=win10-ps&azure-portal=true)
+- [Recipients in Exchange Online](/Exchange/recipients-in-exchange-online/recipients-in-exchange-online) 
+- [Create a new mail user using the EAC](/Exchange/recipients-in-exchange-online/manage-mail-users#use-the-eac-to-create-a-mail-user) 
+- [Use the EAC to bulk edit mail users](/Exchange/recipients-in-exchange-online/manage-mail-users#use-the-eac-to-bulk-edit-mail-users) 
+- [Use the EAC to change mail user properties](/Exchange/recipients-in-exchange-online/manage-mail-users#use-the-eac-to-change-user-mailbox-properties) 
+- [Use Exchange Online PowerShell to change mail user properties](/Exchange/recipients-in-exchange-online/manage-mail-users#use-exchange-online-powershell-to-change-mail-user-properties) 
+- [Bulk edit mail user](/Exchange/recipients-in-exchange-online/manage-mail-users#bulk-edit-mail-users) 
+- [PowerShell Reference Library](/powershell/windows/get-started?view=win10-ps&azure-portal=true)

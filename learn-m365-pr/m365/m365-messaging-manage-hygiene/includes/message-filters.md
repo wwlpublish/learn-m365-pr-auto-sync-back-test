@@ -38,6 +38,6 @@ You use either PowerShell or the Security & Compliance Center to configure your 
 
 ## Learn more
 
-- [Configure connection filtering](https://docs.microsoft.com/microsoft-365/security/office-365-security/configure-the-connection-filter-policy?view=o365-worldwide?azure-portal=true)
-- [Configure anti-malware policies](https://docs.microsoft.com/microsoft-365/security/office-365-security/configure-anti-malware-policies?view=o365-worldwide?azure-portal=true)
-- [Configure anti-spam policies](https://docs.microsoft.com/microsoft-365/security/office-365-security/configure-your-spam-filter-policies?view=o365-worldwide?azure-portal=true)
+- [Configure connection filtering](/microsoft-365/security/office-365-security/configure-the-connection-filter-policy?view=o365-worldwide?azure-portal=true)
+- [Configure anti-malware policies](/microsoft-365/security/office-365-security/configure-anti-malware-policies?view=o365-worldwide?azure-portal=true)
+- [Configure anti-spam policies](/microsoft-365/security/office-365-security/configure-your-spam-filter-policies?view=o365-worldwide?azure-portal=true)

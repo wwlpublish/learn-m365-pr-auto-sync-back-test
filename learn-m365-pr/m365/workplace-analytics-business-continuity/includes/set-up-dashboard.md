@@ -61,4 +61,4 @@ For a more detailed list of step-by-step instructions on Business continuity das
 
 ## Learn more
 
-- [Business continuity dashboard](https://docs.microsoft.com/Workplace-Analytics/tutorials/power-bi-bc?azure-portal=true)
+- [Business continuity dashboard](/Workplace-Analytics/tutorials/power-bi-bc?azure-portal=true)

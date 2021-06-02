@@ -34,4 +34,4 @@ Baseline service team accounts are limited to broad system metadata read access 
 
 ## Learn more
 
-- [Microsoft cloud background check](https://docs.microsoft.com/compliance/assurance/assurance-cloud-background-check?azure-portal=true)
+- [Microsoft cloud background check](/compliance/assurance/assurance-cloud-background-check?azure-portal=true)

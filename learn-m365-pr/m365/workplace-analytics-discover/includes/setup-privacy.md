@@ -32,4 +32,4 @@ Features in Workplace Analytics default to non-personal information and a minimu
 
 ## Learn more
 
-- [Set up Workplace Analytics](https://docs.microsoft.com/workplace-analytics/setup/set-up-workplace-analytics?azure-portal=true)
+- [Set up Workplace Analytics](/workplace-analytics/setup/set-up-workplace-analytics?azure-portal=true)

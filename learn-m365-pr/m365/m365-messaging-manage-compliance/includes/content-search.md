@@ -84,4 +84,4 @@ To export search results:
 3.	Follow the instructions to specify the export options. 
 
 ## Learn more
-[Content Search in Microsoft 365](https://docs.microsoft.com/microsoft-365/compliance/content-search?view=o365-worldwide?azure-portal=true)
+[Content Search in Microsoft 365](/microsoft-365/compliance/content-search?view=o365-worldwide?azure-portal=true)

@@ -24,4 +24,4 @@ After you are satisfied with your recommendations and the path forward, you can 
 
 ## Learn more
  - [How to run VMware in Azure - Demo Tutorial](https://www.microsoft.com/videoplayer/embed/RE4sOiW?azure-portal=true)
- - [Prerequisites setup guidance](https://docs.microsoft.com/azure/migrate/tutorial-prepare-vmware#prepare-azure?azure-portal=true)
+ - [Prerequisites setup guidance](/azure/migrate/tutorial-prepare-vmware#prepare-azure?azure-portal=true)

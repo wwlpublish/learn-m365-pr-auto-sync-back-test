@@ -4,5 +4,5 @@ If your organization uses Skype for Business today and you are upgrading to Team
 
 When you're done with a link, use the **Back** arrow in your browser to come back to this page.
 
-- [Teams client experience and conformance to coexistence modes ](https://docs.microsoft.com/MicrosoftTeams/teams-client-experience-and-conformance-to-coexistence-modes)
-- [Understand Microsoft Teams and Skype for Business coexistence and interoperability ](https://docs.microsoft.com/MicrosoftTeams/teams-and-skypeforbusiness-coexistence-and-interoperability)
+- [Teams client experience and conformance to coexistence modes ](/MicrosoftTeams/teams-client-experience-and-conformance-to-coexistence-modes)
+- [Understand Microsoft Teams and Skype for Business coexistence and interoperability ](/MicrosoftTeams/teams-and-skypeforbusiness-coexistence-and-interoperability)

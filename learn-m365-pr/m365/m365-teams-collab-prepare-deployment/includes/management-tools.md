@@ -56,6 +56,6 @@ In Graph, Teams is represented by a group resource, since Teams and Microsoft 36
 
 When you're done with a link, use the **Back** arrow in your browser to come back to this page.
 
-- [Manage teams in the Microsoft Teams admin center](https://docs.microsoft.com/microsoftteams/manage-teams-in-modern-portal)
-- [Microsoft 365 security and compliance centers](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-securitycompliance-center)
-- [Windows 10 PowerShell reference](https://docs.microsoft.com/powershell/scripting/developer/windows-powershell-reference?view=powershell-6)
+- [Manage teams in the Microsoft Teams admin center](/microsoftteams/manage-teams-in-modern-portal)
+- [Microsoft 365 security and compliance centers](/office365/servicedescriptions/office-365-platform-service-description/office-365-securitycompliance-center)
+- [Windows 10 PowerShell reference](/powershell/scripting/developer/windows-powershell-reference?view=powershell-6)

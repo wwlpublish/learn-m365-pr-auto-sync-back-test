@@ -46,5 +46,5 @@ Watch this video on Data classification in the compliance center.
 
 > 
 ## Learn more
-- [Get started with activity explorer](https://docs.microsoft.com/microsoft-365/compliance/data-classification-activity-explorer?azure-portal=true)
+- [Get started with activity explorer](/microsoft-365/compliance/data-classification-activity-explorer?azure-portal=true)
 
