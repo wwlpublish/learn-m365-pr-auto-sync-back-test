@@ -3,9 +3,9 @@ uid: learn-m365.edu-deploy-devices.3-configure-enroll-devices-provisioning-packa
 metadata:
   title: Configure and enroll devices with provisioning packages
   description: Learn about provisioning packages, share PC mode policies, creation of provisioning packages and different ways that they can be applied.
-  ms.date: 10/09/2020
+  ms.date: 06/03/2021
   author: iankensey
-  ms.author: v-iakens
+  ms.author: beccarobins
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Configure and enroll devices with provisioning packages
