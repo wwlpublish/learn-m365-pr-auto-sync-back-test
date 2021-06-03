@@ -10,6 +10,6 @@ In this module, you learned how to implement protection of your Azure Virtual De
 
 To learn more, see the following articles:
 
-- [Set up a business continuity and disaster recovery plan](https://docs.microsoft.com/azure/virtual-desktop/disaster-recovery)
-- [Set up disaster recovery to a secondary Azure region for an Azure VM](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-quickstart)
-- [Planning for an Azure Files deployment](https://docs.microsoft.com/azure/storage/files/storage-files-planning#redundancy)
+- [Set up a business continuity and disaster recovery plan](/azure/virtual-desktop/disaster-recovery)
+- [Set up disaster recovery to a secondary Azure region for an Azure VM](/azure/site-recovery/azure-to-azure-quickstart)
+- [Planning for an Azure Files deployment](/azure/storage/files/storage-files-planning#redundancy)
