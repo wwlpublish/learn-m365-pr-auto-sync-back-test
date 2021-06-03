@@ -19,7 +19,7 @@ prerequisites: |
   - Basic understanding of Azure Active Directory and [Microsoft identity](https://docs.microsoft.com/learn/modules/getting-started-identity/?WT.mc_id=m365-16105-cxa) concepts is recommended
   - [Node.js](https://nodejs.org/en/)
   - Completion of the [Configure a JavaScript application to retrieve Microsoft 365 data by using Microsoft Graph](https://docs.microsoft.com/learn/modules/msgraph-javascript-app/?WT.mc_id=m365-16105-cxa) module
-iconUrl: /learn/achievements/generic-badge.svg
+iconUrl: /learn/achievements/graph-photo-information.svg
 levels:
 - beginner
 roles:
