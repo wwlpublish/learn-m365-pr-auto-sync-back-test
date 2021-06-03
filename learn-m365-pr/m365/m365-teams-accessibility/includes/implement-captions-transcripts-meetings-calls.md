@@ -109,6 +109,6 @@ With cloud recording and transcription enabled, your users can generate automati
 
 ## Learn more
 
-- [Add subtitles or captions to your Microsoft Stream video](https://docs.microsoft.com/stream/portal-add-subtitles-captions)
+- [Add subtitles or captions to your Microsoft Stream video](/stream/portal-add-subtitles-captions)
 - [Accessibility support for enterprise](https://support.microsoft.com/accessibility/enterprise-answer-desk)
 - [Ask a question about privacy at Microsoft](https://privacy.microsoft.com/privacy-questions)

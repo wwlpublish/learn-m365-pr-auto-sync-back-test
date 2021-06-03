@@ -78,7 +78,7 @@ MSIX images are separated from the main operating system and reside in the file 
 
 Windows Virtual Desktop is a desktop and app virtualization service that runs on the cloud. You can deploy and manage virtual desktops by using the Azure portal, PowerShell, or REST interfaces.
 
-To configure the host pools, create app groups, assign users, and publish resources, use the [Create a host pool with the Azure portal](https://docs.microsoft.com/azure/virtual-desktop/create-host-pools-azure-marketplace) tutorial.
+To configure the host pools, create app groups, assign users, and publish resources, use the [Create a host pool with the Azure portal](/azure/virtual-desktop/create-host-pools-azure-marketplace) tutorial.
 
 ### Create an MSIX app
 

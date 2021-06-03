@@ -101,8 +101,8 @@ You can use internal champions to address the problem of having different change
 
 ## Learn more
 
-- [Get clients for Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/get-clients)
+- [Get clients for Microsoft Teams](/MicrosoftTeams/get-clients)
 - [Teams Adoption Guide](https://aka.ms/teamstoolkit)
 - [Champion Program](https://aka.ms/O365Champions)
-- [Assess organizational change readiness](https://docs.microsoft.com/MicrosoftTeams/upgrade-org-change-readiness)
+- [Assess organizational change readiness](/MicrosoftTeams/upgrade-org-change-readiness)
 - [Envision, Onboard, and Drive Value with Microsoft 365 Adoption Tools](https://adoption.microsoft.com/)

@@ -7,7 +7,7 @@ In this unit, you will learn about how to best manage the device experience for 
 
 By default, devices scan for new updates daily (roughly every 22 hours) or when needed for the update process. If a user selects **Check for updates** on the Windows Update Settings page, the device will perform a scan on demand. Currently, there is no way to reliably change the scan frequency for devices that update directly from Windows Update. Configuring either of the policies below **will not** make devices scan at the specified frequency if updating from Windows Update:
 
-- Configuration Service Provider (CSP) policy: [Update/DetectionFrequency](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-update) policy.
+- Configuration Service Provider (CSP) policy: [Update/DetectionFrequency](/windows/client-management/mdm/policy-csp-update) policy.
 - Group Policy: **Automatic Updates detection frequency** policy.
 
 ## Manage downloads
@@ -32,9 +32,9 @@ Delivery Optimization can significantly reduce the amount of network traffic to 
 
 Delivery Optimization also offers a feature called *Microsoft Connected Cache*. It allows you to configure a dedicated in-network transparent cache for files requested through Delivery Optimization and works in parallel with peers. By setting up the Connected Cache at the WAN or internet access point, you can minimize file downloads across your WAN or a limited bandwidth internet connection.
 
-- To get started, see the [Set up Delivery Optimization for Windows 10 updates](https://docs.microsoft.com/windows/deployment/update/waas-delivery-optimization-setup?azure-portal=true).
+- To get started, see the [Set up Delivery Optimization for Windows 10 updates](/windows/deployment/update/waas-delivery-optimization-setup?azure-portal=true).
 - For a comprehensive list of settings to fine-tune behaviors, see Delivery Optimization reference.
-- Learn more about [Microsoft Connected Cache](https://docs.microsoft.com/windows/deployment/update/waas-delivery-optimization-reference).
+- Learn more about [Microsoft Connected Cache](/windows/deployment/update/waas-delivery-optimization-reference).
 
 ## Manage installations
 
@@ -138,7 +138,7 @@ Microsoft recommends that you do not configure this policy and allow Intelligent
 
 ### Use an MDM to set the active hours range for auto restarts
 
-Alternatively, you can use an MDM to configure the [Update/ActiveHoursMaxRange]( https://docs.microsoft.com/windows/client-management/mdm/policy-csp-update) CSP for the number of hours you want to allow as the maximum active hours range. The allowed range is between eight and 18 hours; 18 is the default.
+Alternatively, you can use an MDM to configure the [Update/ActiveHoursMaxRange]( /windows/client-management/mdm/policy-csp-update) CSP for the number of hours you want to allow as the maximum active hours range. The allowed range is between eight and 18 hours; 18 is the default.
 
 Microsoft Intune does not currently provide the ability to configure the maximum range for active hours. In Microsoft Intune, you can configure active hours if you set **Automatic update behavior** to **Auto install at maintenance time** or **Auto install and restart at maintenance time**. We recommend that you set **Automatic update behavior** to **Reset to default**. See Figure 13.
 
@@ -156,4 +156,4 @@ This Group Policy will only work for devices running the educational (EDU) versi
 
 ## Monitor updates
 
-After configuring your devices, you want to monitor updates in your organization to identify any devices that have encountered an update failure and need remediation. [Intune provides reporting capability within the management tool](https://docs.microsoft.com/mem/intune/protect/windows-update-compliance-reports?azure-portal=true). [Update Compliance](https://docs.microsoft.com/windows/deployment/update/update-compliance-get-started?azure-portal=true) provides a standalone Microsoft Azure solution for monitoring updates as well. You can then use [Azure Monitor Workbooks](https://docs.microsoft.com/azure/azure-monitor/platform/workbooks-overview?azure-portal=true) to build customer reporting solutions on top of the data Update Compliance provides.
+After configuring your devices, you want to monitor updates in your organization to identify any devices that have encountered an update failure and need remediation. [Intune provides reporting capability within the management tool](/mem/intune/protect/windows-update-compliance-reports?azure-portal=true). [Update Compliance](/windows/deployment/update/update-compliance-get-started?azure-portal=true) provides a standalone Microsoft Azure solution for monitoring updates as well. You can then use [Azure Monitor Workbooks](/azure/azure-monitor/platform/workbooks-overview?azure-portal=true) to build customer reporting solutions on top of the data Update Compliance provides.

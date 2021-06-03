@@ -136,4 +136,4 @@ After you've configured your SBCs, you can configure voice routing as outlined i
 
 ## Learn more
 
-- [Configure SBC(s) for Local Media Optimization according to the SBC vendor specification](https://docs.microsoft.com/microsoftteams/direct-routing-media-optimization-configure#configure-sbcs-for-local-media-optimization-according-to-the-sbc-vendor-specification)
+- [Configure SBC(s) for Local Media Optimization according to the SBC vendor specification](/microsoftteams/direct-routing-media-optimization-configure#configure-sbcs-for-local-media-optimization-according-to-the-sbc-vendor-specification)

@@ -14,7 +14,7 @@ You can get additional information about a given call session including detailed
 
 ## Use the Call Quality Dashboard to optimize network bandwidth
 
-Call Analytics is designed to help admins and helpdesk agents troubleshoot call quality problems with *specific calls*. Call Quality Dashboard (CQD) is designed to help Teams admins, Skype for Business admins, and network engineers *optimize a network*. CQD shifts focus from specific users and instead looks at aggregate information for an entire Teams or Skype for Business organization. For more information, see [Features of the Call Quality Dashboard for Teams and Skype for Business Online](https://docs.microsoft.com/MicrosoftTeams/turning-on-and-using-call-quality-dashboard#BKMKFeaturesOfTheCQD).
+Call Analytics is designed to help admins and helpdesk agents troubleshoot call quality problems with *specific calls*. Call Quality Dashboard (CQD) is designed to help Teams admins, Skype for Business admins, and network engineers *optimize a network*. CQD shifts focus from specific users and instead looks at aggregate information for an entire Teams or Skype for Business organization. For more information, see [Features of the Call Quality Dashboard for Teams and Skype for Business Online](/MicrosoftTeams/turning-on-and-using-call-quality-dashboard#BKMKFeaturesOfTheCQD).
   
 Suppose a user's poor call quality is due to a network issue that also affects many other users. The individual call experience isn't visible in CQD, but the overall quality of calls made using Microsoft Teams or Skype for Business is captured. With  CQD, overall patterns may become apparent, so network engineers can make informed assessments of call quality. CQD provides reports of call quality metrics that give you insight into overall call quality, server-client streams, client-client streams, and voice quality [SLA](https://go.microsoft.com/fwlink/p/?linkid=846252).
 
@@ -35,4 +35,4 @@ Like Call Analytics, employees who are not administrators, such as help desk age
 
 When you're done with a link, use the **Back** arrow in your browser to come back to this page.
  
-- [Call Analytics and Call Quality Dashboard](https://docs.microsoft.com/microsoftteams/difference-between-call-analytics-and-call-quality-dashboard)
+- [Call Analytics and Call Quality Dashboard](/microsoftteams/difference-between-call-analytics-and-call-quality-dashboard)

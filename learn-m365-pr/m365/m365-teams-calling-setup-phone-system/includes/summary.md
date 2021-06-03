@@ -10,12 +10,12 @@ Now that you've completed this module, you should be able to:
 
 ## Learn more
 
-- [What is Phone System?](https://docs.microsoft.com/microsoftteams/what-is-phone-system-in-office-365)
-- [Set up Cloud Voicemail](https://docs.microsoft.com/microsoftteams/set-up-phone-system-voicemail)
-- [Manage caller ID policies](https://docs.microsoft.com/microsoftteams/caller-id-policies)
-- [Block inbound calls](https://docs.microsoft.com/microsoftteams/block-inbound-calls)
-- [Call park and retrieve](https://docs.microsoft.com/microsoftteams/call-park-and-retrieve)
-- [Create a call queue](https://docs.microsoft.com/microsoftteams/create-a-phone-system-call-queue)
-- [Call sharing and group call](https://docs.microsoft.com/microsoftteams/call-sharing-and-group-call-pickup)
-- [Calling policies in Microsoft Teams](https://docs.microsoft.com/microsoftteams/teams-calling-policy)
-- [Manage emergency calling policies](https://docs.microsoft.com/microsoftteams/manage-emergency-calling-policies)
+- [What is Phone System?](/microsoftteams/what-is-phone-system-in-office-365)
+- [Set up Cloud Voicemail](/microsoftteams/set-up-phone-system-voicemail)
+- [Manage caller ID policies](/microsoftteams/caller-id-policies)
+- [Block inbound calls](/microsoftteams/block-inbound-calls)
+- [Call park and retrieve](/microsoftteams/call-park-and-retrieve)
+- [Create a call queue](/microsoftteams/create-a-phone-system-call-queue)
+- [Call sharing and group call](/microsoftteams/call-sharing-and-group-call-pickup)
+- [Calling policies in Microsoft Teams](/microsoftteams/teams-calling-policy)
+- [Manage emergency calling policies](/microsoftteams/manage-emergency-calling-policies)

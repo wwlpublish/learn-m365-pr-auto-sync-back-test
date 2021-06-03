@@ -19,7 +19,7 @@ When you go to provision a Windows Virtual Desktop, you can create a new resourc
   |wvdportalstorageblob.blob.core.windows.net|443|Azure portal support|AzureCloud|
 
   Consider using Azure Firewall with your virtual network to help you lock down your environment and filter outbound traffic.
-- **Storage account** - A storage account in Azure to store virtual disk files used with FSLogix profiles and to synchronize or provision file share services for Windows Virtual Desktop session hosts. You can also use [Azure NetApp Files](https://docs.microsoft.com/azure/azure-netapp-files/azure-netapp-files-introduction) or [Storage Spaces Direct](https://docs.microsoft.com/windows-server/storage/storage-spaces/storage-spaces-direct-overview).  
+- **Storage account** - A storage account in Azure to store virtual disk files used with FSLogix profiles and to synchronize or provision file share services for Windows Virtual Desktop session hosts. You can also use [Azure NetApp Files](/azure/azure-netapp-files/azure-netapp-files-introduction) or [Storage Spaces Direct](/windows-server/storage/storage-spaces/storage-spaces-direct-overview).  
 - **Azure accounts** - Administrator, user, and system accounts required to manage services. In large organizations, it's a good idea to assign administrator roles to different people and establish multiple people per role. If you’re just starting out or you have a small IT department, these can be the same person.  
 
 To learn how to create these resources, see the learn more section at the end of this module.

@@ -87,9 +87,9 @@ If you want guests to join meetings, you must turn on the **Anonymous users can 
 
 ## Learn more
 
-- [Allow or block invitations to B2B users from specific organizations](https://docs.microsoft.com/azure/active-directory/external-identities/allow-deny-list)
-- [Use Teams administrator roles to manage Teams](https://docs.microsoft.com/microsoftteams/using-admin-roles)
-- [Manage guest access in Microsoft 365 Groups](https://docs.microsoft.com/microsoft-365/admin/create-groups/manage-guest-access-in-groups)
-- [Control guest access in Microsoft 365 Groups](https://docs.microsoft.com/microsoftteams/teams-dependencies)
-- [Manage meeting settings in Teams](https://docs.microsoft.com/microsoftteams/meeting-settings-in-teams)
-- [Troubleshoot problems with guest access in Microsoft Teams](https://docs.microsoft.com/microsoftteams/troubleshoot-guest-access)
+- [Allow or block invitations to B2B users from specific organizations](/azure/active-directory/external-identities/allow-deny-list)
+- [Use Teams administrator roles to manage Teams](/microsoftteams/using-admin-roles)
+- [Manage guest access in Microsoft 365 Groups](/microsoft-365/admin/create-groups/manage-guest-access-in-groups)
+- [Control guest access in Microsoft 365 Groups](/microsoftteams/teams-dependencies)
+- [Manage meeting settings in Teams](/microsoftteams/meeting-settings-in-teams)
+- [Troubleshoot problems with guest access in Microsoft Teams](/microsoftteams/troubleshoot-guest-access)

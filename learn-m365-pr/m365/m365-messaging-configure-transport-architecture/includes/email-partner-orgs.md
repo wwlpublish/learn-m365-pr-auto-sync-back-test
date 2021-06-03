@@ -40,6 +40,6 @@ Now that you have the connector, it's a good idea to contact an administrator at
 
 ## Learn more 
 
-- [Configure mail flow using connectors](https://docs.microsoft.com/Exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/use-connectors-to-configure-mail-flow?azure-portal=true)  
-- [Set up connectors to route mail between Office 365 and your own email servers](https://docs.microsoft.com/Exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/set-up-connectors-to-route-mail?azure-portal=true)
-- [Set up connectors for secure mail flow with a partner organization](https://docs.microsoft.com/Exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/set-up-connectors-for-secure-mail-flow-with-a-partner?azure-portal=true)
+- [Configure mail flow using connectors](/Exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/use-connectors-to-configure-mail-flow?azure-portal=true)  
+- [Set up connectors to route mail between Office 365 and your own email servers](/Exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/set-up-connectors-to-route-mail?azure-portal=true)
+- [Set up connectors for secure mail flow with a partner organization](/Exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/set-up-connectors-for-secure-mail-flow-with-a-partner?azure-portal=true)

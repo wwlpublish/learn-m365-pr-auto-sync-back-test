@@ -69,4 +69,4 @@ For a more detailed list of step-by-step instructions on Ways of working assessm
 
 ## Learn more
 
-[Ways of working assessment dashboard](https://docs.microsoft.com/Workplace-Analytics/tutorials/power-bi-collab-assess?azure-portal=true)
+[Ways of working assessment dashboard](/Workplace-Analytics/tutorials/power-bi-collab-assess?azure-portal=true)

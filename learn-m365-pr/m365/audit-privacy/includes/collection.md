@@ -34,5 +34,5 @@ Microsoft complies with the below international data protection laws regarding t
 
 - [Online Services Terms (OST) & Data Protection Addendum (DPA)](https://www.microsoft.com/licensing/product-licensing/products?azure-portal=true)
 - [How Microsoft categorizes data for online services](https://www.microsoft.com/trust-center/privacy/customer-data-definitions?azure-portal=true)
-- [EU Model Clauses](https://docs.microsoft.com/microsoft-365/compliance/offering-eu-model-clauses?view=o365-worldwide&azure-portal=true)
-- [EU-U.S. Privacy Shield](https://docs.microsoft.com/microsoft-365/compliance/offering-eu-us-privacy-shield?view=o365-worldwide&azure-portal=true)
+- [EU Model Clauses](/microsoft-365/compliance/offering-eu-model-clauses?azure-portal=true)
+- [EU-U.S. Privacy Shield](/microsoft-365/compliance/offering-eu-us-privacy-shield?azure-portal=true)
