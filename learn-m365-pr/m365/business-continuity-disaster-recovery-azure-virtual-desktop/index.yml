@@ -1,9 +1,9 @@
 ### YamlMime:Module
-uid: learn.azure.business-continuity-disaster-recovery-azure-virtual-desktop
+uid: learn-m365.business-continuity-disaster-recovery-azure-virtual-desktop
 metadata:
   title: Business Continuity and Disaster Recovery for Azure Virtual Desktop
   description: Microsoft Azure Virtual Desktop is a cloud service that enables you to provide users with a secure remote desktop from anywhere. By using Azure Virtual Desktop, you can plan appropriate BCDR strategies to sustain both unplanned and planned failures and to provide redundancy. 
-  ms.date: 07/07/2021
+  ms.date: 06/03/2021
   author: ndelgado
   ms.author: nedelgad
   ms.topic: interactive-tutorial
@@ -34,11 +34,11 @@ roles:
 products:
 - azure
 units:
-- learn.azure.business-continuity-disaster-recovery-azure-virtual-desktop.introduction
-- learn.azure.business-continuity-disaster-recovery-azure-virtual-desktop.identify-components-to-protect
-- learn.azure.business-continuity-disaster-recovery-azure-virtual-desktop.develop-bcdr-plan-azure-virtual-desktop
-- learn.azure.business-continuity-disaster-recovery-azure-virtual-desktop.identify-correct-dr-scenario
-- learn.azure.business-continuity-disaster-recovery-azure-virtual-desktop.knowledge-check
-- learn.azure.business-continuity-disaster-recovery-azure-virtual-desktop.summary
+- learn-m365.business-continuity-disaster-recovery-azure-virtual-desktop.introduction
+- learn-m365.business-continuity-disaster-recovery-azure-virtual-desktop.identify-components-to-protect
+- learn-m365.business-continuity-disaster-recovery-azure-virtual-desktop.develop-bcdr-plan-azure-virtual-desktop
+- learn-m365.business-continuity-disaster-recovery-azure-virtual-desktop.identify-correct-dr-scenario
+- learn-m365.business-continuity-disaster-recovery-azure-virtual-desktop.knowledge-check
+- learn-m365.business-continuity-disaster-recovery-azure-virtual-desktop.summary
 badge:
-  uid: learn.azure.business-continuity-disaster-recovery-azure-virtual-desktop.badge
+  uid: learn-m365.business-continuity-disaster-recovery-azure-virtual-desktop.badge

@@ -1,10 +1,10 @@
 ### YamlMime:ModuleUnit
-uid: learn.azure.business-continuity-disaster-recovery-azure-virtual-desktop.identify-correct-dr-scenario
+uid: learn-m365.business-continuity-disaster-recovery-azure-virtual-desktop.identify-correct-dr-scenario
 title: Identify the correct DR scenario
 metadata:
   title: Identify the correct DR scenario
   description: Identify different DR scenarios.
-  ms.date: 06/15/2020
+  ms.date: 06/03/2021
   author: ndelgado
   ms.author: nedelgad
   ms.topic: interactive-tutorial

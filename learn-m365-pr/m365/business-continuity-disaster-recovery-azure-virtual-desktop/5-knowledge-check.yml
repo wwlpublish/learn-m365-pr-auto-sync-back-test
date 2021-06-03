@@ -1,10 +1,10 @@
 ### YamlMime:ModuleUnit
-uid: learn.azure.business-continuity-disaster-recovery-azure-virtual-desktop.knowledge-check
+uid: learn-m365.business-continuity-disaster-recovery-azure-virtual-desktop.knowledge-check
 title: Knowledge check
 metadata:
   title: Knowledge check
   description: Check your knowledge.
-  ms.date: 07/07/2021
+  ms.date: 06/03/2021
   author: ndelgado
   ms.author: nedelgad
   ms.topic: interactive-tutorial

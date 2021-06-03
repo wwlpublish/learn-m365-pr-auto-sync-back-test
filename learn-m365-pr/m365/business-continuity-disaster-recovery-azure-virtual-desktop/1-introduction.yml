@@ -1,10 +1,10 @@
 ### YamlMime:ModuleUnit
-uid: learn.azure.business-continuity-disaster-recovery-azure-virtual-desktop.introduction
+uid: learn-m365.business-continuity-disaster-recovery-azure-virtual-desktop.introduction
 title: Introduction
 metadata:
   title: Introduction
   description: Introduction
-  ms.date: 07/07/2021
+  ms.date: 06/03/2021
   author: ndelgado
   ms.author: nedelgad
   ms.topic: interactive-tutorial
