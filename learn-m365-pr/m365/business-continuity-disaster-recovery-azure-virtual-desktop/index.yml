@@ -17,11 +17,11 @@ abstract: |
   - How to plan an appropriate BCDR strategy to sustain both unplanned and planned failures. 
 
 prerequisites: |
-- Intermediate knowledge of Microsoft Azure services such as core Azure compute, storage, networking, and virtualization technologies.
-- Intermediate knowledge of Azure operational concepts, such as monitoring, logging, and alerting.
-- Familiarity with Azure Virtual Desktop.
-- Familiarity with Windows virtualization technologies, including Remote Desktop Services.
-- (Optional) Access to an Azure environment that's prepared for Azure Virtual Desktop. Must have Azure Active Directory (Azure AD) configured and integrated with Active Directory Domain Services (AD DS), and an Azure Virtual Network that’s connected to your domain.
+  - Intermediate knowledge of Microsoft Azure services such as core Azure compute, storage, networking, and virtualization technologies.
+  - Intermediate knowledge of Azure operational concepts, such as monitoring, logging, and alerting.
+  - Familiarity with Azure Virtual Desktop.
+  - Familiarity with Windows virtualization technologies, including Remote Desktop Services.
+  - (Optional) Access to an Azure environment that's prepared for Azure Virtual Desktop. Must have Azure Active Directory (Azure AD) configured and integrated with Active Directory Domain Services (AD DS), and an Azure Virtual Network that’s connected to your domain.
 iconUrl: /learn/achievements/generic-badge.svg
 ratingEnabled: true
 levels:
