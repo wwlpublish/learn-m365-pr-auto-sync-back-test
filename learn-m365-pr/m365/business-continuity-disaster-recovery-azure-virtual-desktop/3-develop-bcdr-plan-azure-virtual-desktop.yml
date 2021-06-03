@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn.azure.business-continuity-disaster-recovery-azure-virtual-desktop.develop-bcdr-plan-azure-virtual-desktop
+title: Develop a BCDR plan for Azure Virtual Desktop
+metadata:
+  title: Develop a BCDR plan for Azure Virtual Desktop  
+  description: Develop a BCDR plan for Azure Virtual Desktop
+  ms.date: 07/07/2021
+  author: ndelgado
+  ms.author: nedelgad
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+durationInMinutes: 10
+content: |
+  [!include[](includes/3-develop-bcdr-plan-azure-virtual-desktop.md)]
+

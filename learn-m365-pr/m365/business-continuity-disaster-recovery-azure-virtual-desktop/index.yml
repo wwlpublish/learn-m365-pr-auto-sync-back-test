@@ -1,0 +1,44 @@
+### YamlMime:Module
+uid: learn.azure.business-continuity-disaster-recovery-azure-virtual-desktop
+metadata:
+  title: Business Continuity and Disaster Recovery for Azure Virtual Desktop
+  description: Microsoft Azure Virtual Desktop is a cloud service that enables you to provide users with a secure remote desktop from anywhere. By using Azure Virtual Desktop, you can plan appropriate BCDR strategies to sustain both unplanned and planned failures and to provide redundancy. 
+  ms.date: 07/07/2021
+  author: ndelgado
+  ms.author: nedelgad
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+title: Business Continuity and Disaster Recovery for Azure Virtual Desktop
+summary: |
+  Microsoft Azure Virtual Desktop is a cloud service that enables you to provide users with a secure remote desktop from anywhere. By using Azure Virtual Desktop, you can plan appropriate BCDR strategies to sustain both unplanned and planned failures and to provide redundancy.
+abstract: |
+  After completing this module, you should know more about:
+  - How to evaluate and identify a redundancy option for Azure Virtual Desktop. 
+  - How to plan an appropriate BCDR strategy to sustain both unplanned and planned failures. 
+prerequisites: |
+- Intermediate knowledge of Microsoft Azure services such as core Azure compute, storage, networking, and virtualization technologies.
+- Intermediate knowledge of Azure operational concepts, such as monitoring, logging, and alerting.
+- Familiarity with Azure Virtual Desktop.
+- Familiarity with Windows virtualization technologies, including Remote Desktop Services.
+- (Optional) Access to an Azure environment that’s prepared for Azure Virtual Desktop: must have Azure Active Directory (Azure AD) configured and integrated with Active Directory Domain Services (AD DS), and an Azure Virtual Network that’s connected to your domain.
+iconUrl: /learn/achievements/generic-badge.svg
+ratingEnabled: true
+levels:
+- intermediate
+roles:
+- administrator
+- developer
+- devops-engineer
+- data-engineer
+- solution-architect
+products:
+- azure
+units:
+- learn.azure.business-continuity-disaster-recovery-azure-virtual-desktop.introduction
+- learn.azure.business-continuity-disaster-recovery-azure-virtual-desktop.identify-components-to-protect
+- learn.azure.business-continuity-disaster-recovery-azure-virtual-desktop.develop-bcdr-plan-azure-virtual-desktop
+- learn.azure.business-continuity-disaster-recovery-azure-virtual-desktop.identify-correct-dr-scenario
+- learn.azure.business-continuity-disaster-recovery-azure-virtual-desktop.knowledge-check
+- learn.azure.business-continuity-disaster-recovery-azure-virtual-desktop.summary
+badge:
+  uid: learn.azure.business-continuity-disaster-recovery-azure-virtual-desktop.badge
