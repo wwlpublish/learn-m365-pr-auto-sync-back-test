@@ -130,7 +130,7 @@ With the app updated to let users load more emails, the final step is to add fun
 
 ## Run your app
 
-You've extended your app to show a user's emails by using Microsoft Graph in batches of 10 items and let them navigate between the paged data. Let's run the app locally.
+You've extended your app to show a user's emails by using Microsoft Graph in batches of 10 items and let them load more emails. Let's run the app locally.
 
 1. Preview the web app by executing the following command in the terminal.
 
@@ -142,5 +142,5 @@ You've extended your app to show a user's emails by using Microsoft Graph in bat
 1. Select the **Sign in with Microsoft** button to sign in with your Microsoft 365 account.
 1. After you sign in with your account, select the **Show email** button.
 1. You should see a list of the user's last 10 emails displayed in the app.
-1. If there are more than 10 emails in your mailbox, you'll see buttons that allow you to view the next or previous 10 messages.
+1. If there are more than 10 emails in your mailbox, you'll see a button that allows you to load the next 10 messages.
 1. Stop the Node.js server by selecting Ctrl+C in the terminal window.
