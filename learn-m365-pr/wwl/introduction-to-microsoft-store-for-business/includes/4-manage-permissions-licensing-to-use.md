@@ -11,8 +11,8 @@ The following roles can be assigned to users to manage access to apps and comple
 
 The following table identifies the tasks that each role can complete.
 
-| <p><b>Task</b></p>                   | <p><b>Admin</b></p> | <p><b>Purchaser</b></p> | <p><b>Basic purchaser</b></p> | <p><b>Device Guard signer</b></p> |
-|:-:|:-:|:-:|:-:|:-:|
+| Task                                 | <p><b>Admin</b></p> | <p><b>Purchaser</b></p> | <p><b>Basic purchaser</b></p> | <p><b>Device Guard signer</b></p> |
+|: |:-:|:--:|:--:|::|
 | <p>Assign roles</p>                  |      <p>X</p>       |        <p> </p>         |           <p> </p>            |             <p> </p>              |
 | <p>Manage store settings</p>         |      <p>X</p>       |        <p> </p>         |           <p> </p>            |             <p> </p>              |
 | <p>Acquire online licensed apps</p>  |      <p>X</p>       |        <p>X</p>         |           <p>X</p>            |             <p> </p>              |
