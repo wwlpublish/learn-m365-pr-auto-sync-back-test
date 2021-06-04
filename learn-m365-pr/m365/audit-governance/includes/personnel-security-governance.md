@@ -26,4 +26,4 @@ Microsoft uses clearly defined policies and procedures to promptly revoke physic
 
 ## Learn more
 
-- [Human resources overview](https://docs.microsoft.com/compliance/assurance/assurance-human-resources?azure-portal=true)
+- [Human resources overview](/compliance/assurance/assurance-human-resources?azure-portal=true)

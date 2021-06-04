@@ -26,4 +26,4 @@ The following eDiscovery-related RBAC roles are available in the Security & Comp
 - **RMS Decrypt** - decrypt rights-protected email messages when exporting search results or preparing search results for analysis in Advanced eDiscovery.
 - **Search and purge** - perform bulk removal of data matching the criteria of a content search.
 
-You can see more information about RBAC roles and how the work in eDiscovery in [RBAC roles related to eDiscovery](https://docs.microsoft.com/microsoft-365/compliance/assign-ediscovery-permissions?view=o365-worldwide#rbac-roles-related-to-ediscovery).
+You can see more information about RBAC roles and how the work in eDiscovery in [RBAC roles related to eDiscovery](/microsoft-365/compliance/assign-ediscovery-permissions?rbac-roles-related-to-ediscovery).

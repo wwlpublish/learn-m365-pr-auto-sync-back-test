@@ -65,4 +65,4 @@ When you select an existing policy on the **Meeting policies** page or select **
 
 When you're done with a link, use the **Back** arrow in your browser to come back to this page.
 
-- [Manage meeting policies in Teams](https://docs.microsoft.com/microsoftteams/meeting-policies-in-teams)
+- [Manage meeting policies in Teams](/microsoftteams/meeting-policies-in-teams)

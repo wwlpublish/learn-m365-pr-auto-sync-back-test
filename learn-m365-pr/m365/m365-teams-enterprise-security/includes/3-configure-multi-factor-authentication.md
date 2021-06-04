@@ -47,8 +47,8 @@ Input the criteria and select **What If** to generate a list of results. The too
 
 ## Learn more
 
-- [What are service dependencies in Azure Active Directory Conditional Access?](https://docs.microsoft.com/azure/active-directory/conditional-access/service-dependencies)
-- [Conditional Access: Require MFA for all users](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-conditional-access-policy-all-users-mfa)
-- [Manage emergency access accounts in Azure AD](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-emergency-access)
-- [How it works: Azure Multi-Factor Authentication](https://docs.microsoft.com/azure/active-directory/authentication/concept-mfa-howitworks)
-- [Troubleshooting Conditional Access using the What If tool](https://docs.microsoft.com/azure/active-directory/conditional-access/troubleshoot-conditional-access-what-if)
+- [What are service dependencies in Azure Active Directory Conditional Access?](/azure/active-directory/conditional-access/service-dependencies)
+- [Conditional Access: Require MFA for all users](/azure/active-directory/conditional-access/howto-conditional-access-policy-all-users-mfa)
+- [Manage emergency access accounts in Azure AD](/azure/active-directory/users-groups-roles/directory-emergency-access)
+- [How it works: Azure Multi-Factor Authentication](/azure/active-directory/authentication/concept-mfa-howitworks)
+- [Troubleshooting Conditional Access using the What If tool](/azure/active-directory/conditional-access/troubleshoot-conditional-access-what-if)

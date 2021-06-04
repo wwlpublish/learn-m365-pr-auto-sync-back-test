@@ -65,5 +65,5 @@ Structured meetings allow the presenter to do everything needed to run the meeti
 ## Learn more
 
 - [Microsoft Security Development Lifecycle](https://www.microsoft.com/securityengineering/sdl/)
-- [Securing Public Key Infrastructure (PKI)](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012)
-- [Security and Microsoft Teams](https://docs.microsoft.com/microsoftteams/teams-security-guide)
+- [Securing Public Key Infrastructure (PKI)](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012)
+- [Security and Microsoft Teams](/microsoftteams/teams-security-guide)

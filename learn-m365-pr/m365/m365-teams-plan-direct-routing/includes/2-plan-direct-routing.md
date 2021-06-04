@@ -88,8 +88,8 @@ These objects are discussed in the following units.
 
 ## Learn more
 
-- [Set up Audio Conferencing for Microsoft Teams](https://docs.microsoft.com/microsoftteams/set-up-audio-conferencing-in-teams)
+- [Set up Audio Conferencing for Microsoft Teams](/microsoftteams/set-up-audio-conferencing-in-teams)
 - [Skype for Business phones (3PIP) support with Microsoft Teams](https://aka.ms/3pip)
-- [Session Border Controllers certified for Direct Routing](https://docs.microsoft.com/MicrosoftTeams/direct-routing-border-controllers)
-- [Public trusted certificate for the SBC](https://docs.microsoft.com/MicrosoftTeams/direct-routing-plan#public-trusted-certificate-for-the-sbc)
-- [SIP Signaling: FQDNs](https://docs.microsoft.com/microsoftteams/direct-routing-plan#sip-signaling-fqdns)
+- [Session Border Controllers certified for Direct Routing](/MicrosoftTeams/direct-routing-border-controllers)
+- [Public trusted certificate for the SBC](/MicrosoftTeams/direct-routing-plan#public-trusted-certificate-for-the-sbc)
+- [SIP Signaling: FQDNs](/microsoftteams/direct-routing-plan#sip-signaling-fqdns)
