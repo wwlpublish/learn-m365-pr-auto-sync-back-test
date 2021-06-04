@@ -31,13 +31,13 @@ quiz:
     choices:
     - content: "Joining the Windows 10 devices to Azure AD"
       isCorrect: false
-      explanation: "That's incorrect. This item isn't the second preerequisite to using Intune. Try again."
+      explanation: "That's incorrect. This item isn't the second prerequisite to using Intune. Try again."
     - content: "Enabling Windows 10 automatic enrollment"
       isCorrect: true
       explanation: "That's correct. There are two prerequisites to using Intune - setting it up and enabling Windows 10 automatic enrollment."
     - content: "Connecting Configuration Manager to Intune"
       isCorrect: false
-      explanation: "That's incorrect. This item is required for Co-management, but it isn't the second preerequisite to using Intune. Try again."
+      explanation: "That's incorrect. This item is required for Co-management, but it isn't the second prerequisite to using Intune. Try again."
   - content: "As the Enterprise Administrator for Contoso, Holly Dickson has found that Contoso's IT staff is constantly asking questions about co-managing devices and hybrid Azure AD-joined devices. They keep confusing these two services. To help clarify this situation, Holly has told them to remember one fact - Co-management and Azure AD are different types of options. Co-management is a management option. What type of option is Azure AD?"
     choices:
     - content: "a Mobile Desktop Management option"
