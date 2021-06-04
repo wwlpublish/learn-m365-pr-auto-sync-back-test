@@ -22,4 +22,4 @@ The following screenshot shows the four workloads and how each workload is manag
 
 In this example, Configuration Manager is still managing Compliance policies and Resource access policies. Intune is set to manage Windows Update policies for all devices. The Endpoint Protection workload is set to Pilot Intune in this example. This option means that Intune manages Endpoint Protection for devices in the Pilot collection, and Configuration Manager manages it for all other devices.
 
-:::image type="content" source="../media/co-management-workloads-settings-dfd0eb42.jpg" alt-text="screenshot of the Configuration Manager's Properties window showing the Workloads tab and the managment option selected for each of the four workloads":::
+:::image type="content" source="../media/co-management-workloads-settings-dfd0eb42.jpg" alt-text="screenshot of the Configuration Manager's Properties window showing the Workloads tab and the management option selected for each of the four workloads":::
