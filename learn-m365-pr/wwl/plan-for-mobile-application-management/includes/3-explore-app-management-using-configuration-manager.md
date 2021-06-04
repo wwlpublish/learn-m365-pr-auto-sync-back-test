@@ -35,8 +35,8 @@ Configuration Manager evaluates requirements to determine whether it installs an
 
 Configuration Manager enables organizations to deploy the following app types:
 
- -  Windows Installer (msi)<br>
- -  Windows app package and app bundles (appx, appxbundle, msix, msixbundle)<br>
+ -  Windows Installer (.msi)<br>
+ -  Windows app package and app bundles (.appx, .appxbundle, .msix, .msixbundle)<br>
  -  Windows app package in the Microsoft Store for Business<br>
  -  Script installer for third-party installers and script wrappers<br>
  -  Microsoft App-V v4 and v5<br>
@@ -46,9 +46,9 @@ Configuration Manager enables organizations to deploy the following app types:
 When organizations manage devices through Configuration Manager on-premises device management, they can also manage these app types:
 
  -  Web application
- -  Windows Phone app package (xap)<br>
+ -  Windows Phone app package (.xap)<br>
  -  Windows Phone app package in the Microsoft Store for Business<br>
- -  Windows Installer through MDM (msi)
+ -  Windows Installer through MDM (.msi)
 
 The remainder of this unit focuses on using Configuration Manager to manage desktop and mobile apps.
 
