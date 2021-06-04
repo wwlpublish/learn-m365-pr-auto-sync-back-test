@@ -1,0 +1,32 @@
+### YamlMime:Module
+uid: learn-m365.syntex-intro
+metadata:
+  title: Introduction to SharePoint Syntex
+  description: TBD
+  ms.date: 06/04/2021
+  author: beccarobins
+  ms.author: beccarobins
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Introduction to SharePoint Syntex
+summary: TBD
+abstract: |
+  - TBD 
+prerequisites: | 
+   - TBD
+iconUrl:  /learn/achievements/generic-badge.svg
+ratingEnabled: true
+levels:
+- beginner
+roles:
+- administrator
+- business-user
+products:
+- m365
+units:
+- learn-m365.syntex-intro.introduction
+- learn-m365.syntex-intro.knowledge-check
+- learn-m365.syntex-intro.summary
+
+badge: 
+  uid: learn-m365.syntex-intro.badges
