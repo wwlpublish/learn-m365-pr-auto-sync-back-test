@@ -30,5 +30,6 @@ products:
 modules:
 - learn.wwl.search-for-content-security-compliance-center
 - learn.wwl.conduct-audit-log-investigations
+- learn.wwl.manage-advanced-ediscovery
 trophy:
   uid: learn.wwl.manage-content-search-investigations-microsoft-365.trophy
