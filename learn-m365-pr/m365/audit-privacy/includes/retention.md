@@ -31,5 +31,5 @@ In addition, Microsoft has developed add-on features to allow archiving of data 
 ## Learn more
 
 - [Additional data location resources](https://www.microsoft.com/trust-center/privacy/data-location#coreui-collapsibledrawer-j9z4i5q?azure-portal=true)
-- [Data Retention, Deletion, and Destruction in Microsoft 365](https://docs.microsoft.com/office365/Enterprise/office-365-data-retention-deletion-and-destruction-overview?azure-portal=true)
-- [Immutability in Microsoft 365](https://docs.microsoft.com/office365/Enterprise/office-365-data-immutability?azure-portal=true)
+- [Data Retention, Deletion, and Destruction in Microsoft 365](/office365/Enterprise/office-365-data-retention-deletion-and-destruction-overview?azure-portal=true)
+- [Immutability in Microsoft 365](/office365/Enterprise/office-365-data-immutability?azure-portal=true)

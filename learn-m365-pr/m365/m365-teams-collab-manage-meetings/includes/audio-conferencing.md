@@ -68,6 +68,6 @@ Click [Configure Audio Conferencing for Teams](https://aka.ms/AudioConferencingI
 
 When you're done with a link, use the **Back** arrow in your browser to come back to this page.
 
-- [Audio Conferencing in Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/deploy-audio-conferencing-teams-landing-page)
-- [Audio Conferencing common questions](https://docs.microsoft.com/MicrosoftTeams/audio-conferencing-common-questions)
-- [Country and region availability for Audio Conferencing and Calling Plans](https://docs.microsoft.com/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)
+- [Audio Conferencing in Microsoft Teams](/MicrosoftTeams/deploy-audio-conferencing-teams-landing-page)
+- [Audio Conferencing common questions](/MicrosoftTeams/audio-conferencing-common-questions)
+- [Country and region availability for Audio Conferencing and Calling Plans](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)

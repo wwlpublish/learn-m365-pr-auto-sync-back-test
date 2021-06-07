@@ -15,7 +15,7 @@ Once the case has been created, you can begin adding the persons of interest by 
 When you add a custodian, the system automatically identifies and places a hold on their Exchange mailbox and OneDrive for Business account. This is the *Preservation* phase of the EDRM model. During this process, you can also select additional data sources such as SharePoint sites, Teams, and Yammer groups that the custodian either contributed to or is a member of. 
 
 > [!NOTE]
-> All Yammer networks are required to be in [Native Mode](https://docs.microsoft.com/yammer/configure-your-yammer-network/overview-native-mode?azure-portal=true) for Yammer content to be discovered in eDiscovery. 
+> All Yammer networks are required to be in [Native Mode](/yammer/configure-your-yammer-network/overview-native-mode?azure-portal=true) for Yammer content to be discovered in eDiscovery. 
 
  ![Selecting additional locations ](../media/select-additional-locations.png) 
 

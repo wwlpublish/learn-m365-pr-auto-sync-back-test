@@ -37,5 +37,5 @@ If a user in your Microsoft Teams organization needs permission to manage Azure 
 
 ## Learn more
 
-- [Assign team owners and members in Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/assign-roles-permissions?azure-portal=true)
-- [Manage access review for team members](https://docs.microsoft.com/azure/active-directory/governance/access-reviews-overview?azure-portal=true)
+- [Assign team owners and members in Microsoft Teams](/MicrosoftTeams/assign-roles-permissions?azure-portal=true)
+- [Manage access review for team members](/azure/active-directory/governance/access-reviews-overview?azure-portal=true)

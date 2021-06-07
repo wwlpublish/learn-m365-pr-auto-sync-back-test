@@ -16,4 +16,4 @@ Lessons learned from the security incident are implemented with coordination fro
 
 ## Learn more
 
-- [Microsoft 365 security incident management: Post-incident activity](https://docs.microsoft.com/compliance/assurance/assurance-sim-post-incident-activity?azure-portal=true)
+- [Microsoft 365 security incident management: Post-incident activity](/compliance/assurance/assurance-sim-post-incident-activity?azure-portal=true)

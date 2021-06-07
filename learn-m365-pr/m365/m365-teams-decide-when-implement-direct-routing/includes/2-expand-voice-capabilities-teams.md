@@ -39,4 +39,4 @@ As you can see from the diagram, the SBC can also be used to link to other servi
 
 ## Learn more
 
-- [Country and region availability for Audio Conferencing and Calling Plans](https://docs.microsoft.com/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)
+- [Country and region availability for Audio Conferencing and Calling Plans](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)

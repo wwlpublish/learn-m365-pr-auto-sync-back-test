@@ -78,7 +78,7 @@ Once the audit log is enabled, you can start creating policy for communication c
 
 To learn more about the topics covered in this unit, see:
 
-- [Communication compliance with Microsoft Teams](https://docs.microsoft.com/microsoftteams/communication-compliance).
-- [Get started with communication compliance](https://docs.microsoft.com/microsoft-365/compliance/communication-compliance-configure).
-- [Turn audit log search on or off](https://docs.microsoft.com/microsoft-365/compliance/turn-audit-log-search-on-or-off).
-- [Search the audit log in the Security & Compliance Center](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance).
+- [Communication compliance with Microsoft Teams](/microsoftteams/communication-compliance).
+- [Get started with communication compliance](/microsoft-365/compliance/communication-compliance-configure).
+- [Turn audit log search on or off](/microsoft-365/compliance/turn-audit-log-search-on-or-off).
+- [Search the audit log in the Security & Compliance Center](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance).

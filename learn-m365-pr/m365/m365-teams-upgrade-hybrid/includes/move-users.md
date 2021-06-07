@@ -35,7 +35,7 @@ The policies (such as to control messaging, meeting, and calling behavior) in on
 
 ## Learn more
 
-- [Move users between on-premises and the cloud](https://docs.microsoft.com/SkypeForBusiness/hybrid/move-users-between-on-premises-and-cloud?azure-portal=true)
-- [Use PowerShell for automation](https://docs.microsoft.com/microsoftteams/upgrade-basic-powershell?azure-portal=true)
-- [Setting your coexistence and upgrade settings](https://docs.microsoft.com/MicrosoftTeams/setting-your-coexistence-and-upgrade-settings?azure-portal=true)
+- [Move users between on-premises and the cloud](/SkypeForBusiness/hybrid/move-users-between-on-premises-and-cloud?azure-portal=true)
+- [Use PowerShell for automation](/microsoftteams/upgrade-basic-powershell?azure-portal=true)
+- [Setting your coexistence and upgrade settings](/MicrosoftTeams/setting-your-coexistence-and-upgrade-settings?azure-portal=true)
 

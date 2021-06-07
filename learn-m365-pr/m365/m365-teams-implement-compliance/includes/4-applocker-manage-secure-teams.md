@@ -28,5 +28,5 @@ Product name: MICROSOFT TEAMS UPDATE
 
 ## Learn more
 
-- [AppLocker technical reference](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-application-control/applocker/applocker-technical-reference)
-- [Understanding the publisher rule condition in AppLocker](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-application-control/applocker/understanding-the-publisher-rule-condition-in-applocker)
+- [AppLocker technical reference](/windows/security/threat-protection/windows-defender-application-control/applocker/applocker-technical-reference)
+- [Understanding the publisher rule condition in AppLocker](/windows/security/threat-protection/windows-defender-application-control/applocker/understanding-the-publisher-rule-condition-in-applocker)

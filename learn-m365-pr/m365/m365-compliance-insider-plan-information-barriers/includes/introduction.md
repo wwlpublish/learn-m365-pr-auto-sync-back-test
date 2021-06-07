@@ -11,7 +11,7 @@ However, since introducing information barriers, many other areas have found the
 
 For all these example scenarios (and more), information barrier policies can be defined to prevent or allow communications in Microsoft Teams. Such policies can prevent people from calling or chatting with those they should not or enable people to communicate only with specific groups in Microsoft Teams. With information barrier policies in effect, whenever users who are covered by those policies attempt to communicate with others in Microsoft Teams, checks are done to prevent or allow communication as defined by the policies). 
 
-It should be noted that information barriers are based on [Exchange address book policies](https://docs.microsoft.com/exchange/address-books/address-book-policies/address-book-policies?azure-portal=true) and the two cannot be used simultaneously. Before you define and apply information barrier policies, make sure your organization does not have or require address book policies to be in effect. 
+It should be noted that information barriers are based on [Exchange address book policies](/exchange/address-books/address-book-policies/address-book-policies?azure-portal=true) and the two cannot be used simultaneously. Before you define and apply information barrier policies, make sure your organization does not have or require address book policies to be in effect. 
 
 > [!NOTE]
 > This feature is a capability included with:
@@ -19,7 +19,7 @@ It should be noted that information barriers are based on [Exchange address book
 >  -	Microsoft 365 E5 Compliance 
 >  -	Microsoft 365 E5 Insider Risk Management 
 > 
-> Please review [Microsoft 365 licensing guidance for security & compliance](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance?azure-portal=true) to identify required licenses for your organization.
+> Please review [Microsoft 365 licensing guidance for security & compliance](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance?azure-portal=true) to identify required licenses for your organization.
 
 ## What happens with information barriers?
 Information barriers apply to Microsoft Teams chats and channels. In Microsoft Teams, information barrier policies determine and prevent the following kinds of unauthorized communications:
@@ -45,7 +45,7 @@ For example, Sergio belongs to the Banking segment and Pradeep belongs to the Fi
  
 When you define policies for information barriers, you will work with user account attributes, segments, "block" and/or "allow" policies, and policy application.
 - **User account attributes** are defined in Azure Active Directory (or Exchange Online). These attributes can include department, job title, location, team name, and other job profile details.
-- **Segments** are sets of users that are defined in the Office 365 Security & Compliance Center using a selected **user account attribute**. (See the [list of supported attributes](https://docs.microsoft.com/microsoft-365/compliance/information-barriers-attributes?view=o365-worldwide?azure-portal=true).)
+- **Segments** are sets of users that are defined in the Office 365 Security & Compliance Center using a selected **user account attribute**. (See the [list of supported attributes](/microsoft-365/compliance/information-barriers-attributes?azure-portal=true).)
 - Information barrier policies determine communication limits or restrictions. When you define information barrier policies, you choose from two kinds of policies:
    - **Block** policies prevent one segment from communicating with another segment.
    - **Allow** policies allow one segment to communicate with only certain other segments.

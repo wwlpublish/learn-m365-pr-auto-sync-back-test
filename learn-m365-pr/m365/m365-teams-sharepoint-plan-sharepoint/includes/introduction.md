@@ -44,4 +44,4 @@ Microsoft 365 services such as Data Loss Protection, Cloud App Security, and Mic
 
 When you're done with a link, use the **Back** arrow in your browser to come back to this page.
 
-- [Introduction to SharePoint Online](https://docs.microsoft.com/sharepoint/introduction)
+- [Introduction to SharePoint Online](/sharepoint/introduction)

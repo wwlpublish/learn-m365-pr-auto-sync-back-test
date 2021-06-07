@@ -27,4 +27,4 @@ You can choose either **Attendant, Serial, Longest idle**, or **Round Robin** as
 
 ## Learn more
 
-- [Ordering individual agents](https://docs.microsoft.com/microsoftteams/create-a-phone-system-call-queue#select-the-call-answering-options)
+- [Ordering individual agents](/microsoftteams/create-a-phone-system-call-queue#select-the-call-answering-options)

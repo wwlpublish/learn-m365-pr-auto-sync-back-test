@@ -26,5 +26,5 @@ Now your Azure Migrate project is set up and ready to receive assessment and dis
 
 ## Learn more
  - [How to run VMware in Azure - Demo Tutorial](https://www.microsoft.com/videoplayer/embed/RE4sOiW?azure-portal=true)
- - [Prerequisites setup guidance](https://docs.microsoft.com/azure/migrate/tutorial-prepare-vmware#prepare-azure?azure-portal=true)
+ - [Prerequisites setup guidance](/azure/migrate/tutorial-prepare-vmware#prepare-azure?azure-portal=true)
 

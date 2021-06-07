@@ -8,8 +8,8 @@ Now that you've completed this module, you should be able to:
 - Implement Cloud App Security app connectors
 
 ## Learn more
--	[Tutorial: Discover and manage shadow IT in your network](https://docs.microsoft.com/cloud-app-security/tutorial-shadow-it?azure-portal=true). 
--	[Working with the dashboard](https://docs.microsoft.com/cloud-app-security/daily-activities-to-protect-your-cloud-environment?azure-portal=true).  
--	[Working with discovered apps](https://docs.microsoft.com/cloud-app-security/discovered-apps?azure-portal=true). 
--	[Working with App risk scores](https://docs.microsoft.com/cloud-app-security/risk-score?azure-portal=true).  
--	[Connect apps](https://docs.microsoft.com/cloud-app-security/enable-instant-visibility-protection-and-governance-actions-for-your-apps?azure-portal=true).  
+-	[Tutorial: Discover and manage shadow IT in your network](/cloud-app-security/tutorial-shadow-it?azure-portal=true). 
+-	[Working with the dashboard](/cloud-app-security/daily-activities-to-protect-your-cloud-environment?azure-portal=true).  
+-	[Working with discovered apps](/cloud-app-security/discovered-apps?azure-portal=true). 
+-	[Working with App risk scores](/cloud-app-security/risk-score?azure-portal=true).  
+-	[Connect apps](/cloud-app-security/enable-instant-visibility-protection-and-governance-actions-for-your-apps?azure-portal=true).  

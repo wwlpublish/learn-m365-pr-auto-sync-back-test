@@ -134,7 +134,7 @@ The following Anomaly policies are available:
 - Unusual impersonated activity
 
 > [!NOTE]
-> For a complete description of these policies, review the following document: [Anomaly detection policies](https://docs.microsoft.com/cloud-app-security/anomaly-detection-policy#anomaly-detection-policies?azure-portal=true)
+> For a complete description of these policies, review the following document: [Anomaly detection policies](/cloud-app-security/anomaly-detection-policy#anomaly-detection-policies?azure-portal=true)
 
 Although you do not create anomaly detection policies, you can edit the following properties of these policies:
 

@@ -12,4 +12,4 @@ When you add an Edge Transport server to your hybrid deployment, it communicates
 
 ## Learn more
 
-- [Edge Transport servers with hybrid deployments](https://docs.microsoft.com/Exchange/edge-transport-servers?azure-portal=true)
+- [Edge Transport servers with hybrid deployments](/Exchange/edge-transport-servers?azure-portal=true)
