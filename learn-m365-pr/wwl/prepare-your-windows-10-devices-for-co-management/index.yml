@@ -15,7 +15,8 @@ abstract: |
   - Describe the prerequisites for using Co-management
   - Configure Microsoft Endpoint Configuration Manager for Co-management
   - Enroll Windows 10 Devices to Intune
-prerequisites: ""
+prerequisites: |
+  None
 iconUrl: /learn/achievements/generic-badge.svg
 levels:
 - intermediate
