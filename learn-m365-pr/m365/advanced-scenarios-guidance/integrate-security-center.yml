@@ -1,5 +1,5 @@
 ### YamlMime:ModuleUnit
-uid: learn-m365.advanced-scenarios-guidance.3-integrate-security-center
+uid: learn-m365.advanced-scenarios-guidance.integrate-security-center
 metadata:
   title: Integrate the Microsoft 365 security center with Microsoft Cloud App Security
   description: Advanced scenarios and guidance with Microsoft Cloud App Security
@@ -11,4 +11,4 @@ metadata:
 title: Integrate the Microsoft 365 security center with Microsoft Cloud App Security
 durationInMinutes: 5
 content: |
-  [!include[](includes/3-integrate-security-center.md)]
+  [!include[](includes/integrate-security-center.md)]

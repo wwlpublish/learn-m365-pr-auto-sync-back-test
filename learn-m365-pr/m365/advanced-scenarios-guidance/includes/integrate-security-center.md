@@ -18,7 +18,7 @@ These incursions might be detected and mitigated by Microsoft Cloud App Security
 
 The Microsoft 365 security center integrates with many different Microsoft Security products and provides a single location where events can be investigated and diagnosed. In Microsoft 365 security center, you can view and analyze security events from across your organization’s identities, data, devices, apps, and infrastructure.
 
-You can access the Microsoft 365 security center at [https://security.microsoft.com](https://security.microsoft.com)
+You can access the Microsoft 365 security center at <https://security.microsoft.com>
 
 > [!NOTE]
 > Along with Microsoft Defender for Endpoint, Microsoft Defender for Identity, and Microsoft Cloud App Security, the Microsoft 365 security center is a part of the Microsoft 365 Defender security suite. Before October 2020, Microsoft 365 Defender was known as Microsoft Threat Protection.
@@ -62,7 +62,7 @@ The cards you can use fall into four categories:
 
 You can customize the cards that the home page displays. You can use cards to build a dashboard of information that's targeted precisely to your role and helps you to focus on the most relevant events.
 
-:::image type="content" source="../media/03-security-center-homepage.png" alt-text="A screenshot of the Microsoft 365 Defender security center homepage, showing the cards-based interface.":::
+![A screenshot of the Microsoft 365 Defender security center homepage, showing the cards-based interface.](../media/03-security-center-homepage.png)
 
 Other pages in the Microsoft 365 security center include:
 
