@@ -1,4 +1,4 @@
-To provide the best experience for your Windows Virtual Desktop users, use FSLogix profiles. FSLogix is designed to roam profiles in remote computing environments, such as Windows Virtual Desktop. It stores a complete user profile in a single container. At sign-in, this container is dynamically attached to the computing environment using natively supported Virtual Hard Disk (VHD) and Hyper-V Virtual Hard disk (VHDX). The user profile is immediately available and appears in the system exactly like a native user profile. 
+To provide the best experience for your Azure Virtual Desktop users, use FSLogix profiles. FSLogix is designed to roam profiles in remote computing environments, such as Azure Virtual Desktop. It stores a complete user profile in a single container. At sign-in, this container is dynamically attached to the computing environment using natively supported Virtual Hard Disk (VHD) and Hyper-V Virtual Hard disk (VHDX). The user profile is immediately available and appears in the system exactly like a native user profile. 
 
 ## What is FSLogix?
 
@@ -11,7 +11,7 @@ FSLogix is a set of solutions that allow you to manage non-persistent Windows co
 - Simplify the management of applications and images
 - Specify the version of Java to be used by specific URL and applications
 
-## Generate user profiles for Windows Virtual Desktop
+## Generate user profiles for Azure Virtual Desktop
 
 A user profile contains data elements about an individual, including configuration information like desktop settings, persistent network connections, and application settings. A remote user profile provides a partition between user data and the operating system.
 
@@ -35,6 +35,6 @@ The following diagram shows the process of getting the user profile after a user
 1. User gets assigned to a session host virtual machine (VM).
 1. VM gets the user profile from the Azure file share.
 1. (Preview) If you have MSIX app attach configured, apps are dynamically delivered to the session host VM. MSIX app attach uses FSLogix storage concepts, but for applications.
-1. User gets their Windows Virtual Desktop workspace populated with their assigned app(s) or session desktop.
+1. User gets their Azure Virtual Desktop workspace populated with their assigned app(s) or session desktop.
 
 We'll walk through the process of creating a FSLogix profile in the following unit.
