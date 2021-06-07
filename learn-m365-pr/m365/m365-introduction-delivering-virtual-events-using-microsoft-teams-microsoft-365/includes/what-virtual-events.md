@@ -101,4 +101,4 @@ The kind of virtual events you're producing will dictate the number and types of
 
 Having read about all the different event scenarios you'll see that in most cases events will use a combination of all the above. For your summit, you'll want to have small breakout sessions that support different content tracks. Attendees will likely use Microsoft Teams to participate. The moderators will encourage two-way conversations, with attendees able to share their own content and videos.
 
-:::image type="content" source="../media/combination-events.png" alt-text="" border="false":::
+:::image type="content" source="../media/combination-events.png" alt-text="A diagram showing the different scale between Live Events and Teams Meetings - with breakouts in the center." border="false":::
