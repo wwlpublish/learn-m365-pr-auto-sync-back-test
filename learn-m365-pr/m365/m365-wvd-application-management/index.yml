@@ -34,7 +34,6 @@ roles:
 products:
 - m365
 - azure
-- windows-virtual-desktop
 units:
 - learn-m365.wvd-msix-app-attach.introduction
 - learn-m365.wvd-msix-app-attach.what-is-msix

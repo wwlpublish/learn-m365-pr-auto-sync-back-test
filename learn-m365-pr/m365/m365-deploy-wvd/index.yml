@@ -28,7 +28,6 @@ roles:
 products:
 - m365
 - azure
-- windows-virtual-desktop
 units:
 - learn-m365.deploy-wvd.introduction
 - learn-m365.deploy-wvd.wvd-deployment-overview
