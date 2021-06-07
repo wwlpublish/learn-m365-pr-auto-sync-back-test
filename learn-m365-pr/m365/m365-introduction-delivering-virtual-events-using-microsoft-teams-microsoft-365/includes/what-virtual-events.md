@@ -18,9 +18,12 @@ To scale up the production of a virtual event to the level of broadcasting to th
 A diagram that has five columns. The first shows complexity with simple at the top and an arrow pointing to down to complex. The second column is titled event scenario and lists Team meetings, webinars, virtual conferences, leadership townhall, and public broadcasts. The third column is production level, and lists webcams, could be custom production, and custom production only. The fourth column is attendees with the top value up to 10,000 and the bottom value up to 100,000. The last column is solution, and it lists Live event in Teams, then Live event in Yammer, and the lowest item is Live event in Stream.
 :::image-end:::
 
-The different kinds of virtual event support in Microsoft 365 ranges in complexity from the simplest small team meetings using Microsoft Teams, to international public broadcasts to hundreds of thousands of attendees with Live events and Microsoft Stream.
+The different kinds of virtual event support in Microsoft 365 ranges in complexity. The scenarios are supported by:
 
-Webinars are the next step up in complexity from team meetings, and can be stand alone or form part of a series. You might consider using them to funnel attendance to larger conferences or community events. Great webinars are interactive and include hands on learning with presentations possibly being a combination of pre-recorded and live video.
+
+- **Team meetings**: Supported using Microsoft Teams, supports up to a new limit of 1,000 participants.
+
+- **Webinars**: Are the next step up in complexity from team meetings, and can be stand alone or form part of a series. You might consider using them to funnel attendance to larger conferences or community events. Great webinars are interactive and include hands on learning with presentations possibly being a combination of pre-recorded and live video.
 
 Virtual conferences will tend to be larger and longer than webinars, with multi-track and varying content types. It's a good idea to have moderators involved with the event to monitor and manage question and answer sessions.
 
