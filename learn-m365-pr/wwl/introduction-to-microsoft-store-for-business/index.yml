@@ -16,7 +16,8 @@ abstract: |
   - Examine the prerequisites to using the Microsoft  Store for Business
   - Manage permissions and licensing to use the Microsoft Store for Business
   - Add apps to your private store
-prerequisites: ""
+prerequisites: |
+  None
 iconUrl: /learn/achievements/generic-badge.svg
 levels:
 - intermediate
