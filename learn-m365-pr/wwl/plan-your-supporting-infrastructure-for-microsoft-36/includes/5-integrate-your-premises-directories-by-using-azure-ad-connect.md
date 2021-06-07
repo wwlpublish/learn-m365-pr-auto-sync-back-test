@@ -18,6 +18,6 @@ Users and organizations can take advantage of the following Azure AD Connect fea
 Azure Active Directory Connect is made up of two primary components:
 
  *  **Synchronization services.** This component is responsible for synchronizing users, groups, and other objects. It is also responsible for making sure identity information for your on-premises users and groups is matching the cloud.
- *  **Azure AD Connect Health.** Azure AD Connect Health provides robust health monitoring and a central location in the Azure portal to view this activity. For more information, see [Azure Active Directory Connect Health](https://docs.microsoft.com/azure/active-directory/connect-health/active-directory-aadconnect-health?azure-portal=true).
+ *  **Azure AD Connect Health.** Azure AD Connect Health provides robust health monitoring and a central location in the Azure portal to view this activity. For more information, see [Azure Active Directory Connect Health](/azure/active-directory/connect-health/active-directory-aadconnect-health).
 
 :::image type="content" source="../media/aad-connect-sync-services-e02fe3af.png" alt-text="image of Azure AD Connect Sync Services - Directory synchronization, Azure AD Sync, and FIM plus Azure AD Connector":::

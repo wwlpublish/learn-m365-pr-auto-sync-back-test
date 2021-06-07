@@ -2,18 +2,18 @@ In this exercise, you'll create a custom channel tab that displays information a
 
 ## Prerequisites
 
-Developing Microsoft Teams apps requires an Office 365 tenant, Microsoft Teams configured for development, and the necessary tools installed on your workstation.
+Developing Microsoft Teams apps requires a Microsoft 365 tenant, Microsoft Teams configured for development, and the necessary tools installed on your workstation.
 
-For the Office 365 tenant, follow the instructions in [Microsoft Teams: Prepare your Office 365 tenant](https://docs.microsoft.com/microsoftteams/platform/get-started/get-started-tenant) to obtain a developer tenant if you don't currently have an Office 365 account. Make sure you've also enabled Microsoft Teams for your organization.
+For the Microsoft 365 tenant, follow the instructions in [Microsoft Teams: Prepare your Microsoft 365 tenant](/microsoftteams/platform/get-started/get-started-tenant) to obtain a developer tenant if you don't currently have a Microsoft 365 account. Make sure you've also enabled Microsoft Teams for your organization.
 
-Microsoft Teams must be configured to enable custom apps and allow custom apps to be uploaded to your tenant to build custom apps for Microsoft Teams. Follow the instructions in "Prepare your Office 365 tenant" mentioned previously.
+Microsoft Teams must be configured to enable custom apps and allow custom apps to be uploaded to your tenant to build custom apps for Microsoft Teams. Follow the instructions in "Prepare your Microsoft 365 tenant" mentioned previously.
 
 You'll use Node.js to create custom Microsoft Teams tabs in this module. The exercises in this module assume you have the following tools installed on your developer workstation.
 
 > [!IMPORTANT]
 > In most cases, installing the latest version of the following tools is the best option. The versions listed here were used when this module was published and last tested.
 
-- [Node.js](https://nodejs.org/) - v10.\* (or higher)
+- [Node.js](https://nodejs.org/) - v12.\* (or higher)
 - NPM (installed with Node.js) - v6.\* (or higher)
 - [Gulp](https://gulpjs.com/) - v4.\* (or higher)
 - [Yeoman](https://yeoman.io/) - v3.\* (or higher)
@@ -42,7 +42,7 @@ On the **Register an application** page, set the values as follows:
 
 - **Name**: Teams Calendar Graph Tab
 - **Supported account types**: Accounts in this organizational directory only (Contoso only - Single tenant)
-- **Redirect URI**: Web = *https:\//XXXX.ngrok.io/auth-end.html*
+- **Redirect URI**: Web = `https://XXXX.ngrok.io/auth-end.html`
 
     > [!NOTE]
     > Each time ngrok starts, it generates a new random subdomain. Azure AD requires that the redirect URI is specified in the app registration. You'll need to return to this Azure AD app registration to add or change the redirect URI after you start the ngrok utility.
@@ -112,8 +112,7 @@ Yeoman starts and asks you a series of questions. Answer the questions with the 
 - **Do you want to create a configurable or static tab?**: Configurable
 - **What scopes do you intend to use for your tab?**: In a Team
 - **Do you require Azure AD Single-Sign-On support for the tab?** No
-- **Do you want this tab to be available in SharePoint Online?**: Yes
-- **How do you want your tab to be available in SharePoint?**: As a full-page application, as a web part
+- **Do you want this tab to be available in SharePoint Online?**: No
 
 After you answer the generator's questions, the generator creates the scaffolding for the project. The generator then runs `npm install` that downloads all the dependencies required by the project.
 
@@ -122,14 +121,6 @@ The tab you'll create in this exercise will get the latest emails from the curre
 ```console
 npm install @microsoft/microsoft-graph-client
 npm install @types/microsoft-graph --save-dev
-```
-
-### Ensure the project is using the latest version of Teams SDK
-
-Run the npm command to install the latest version of the SDK
-
-```console
-npm i @microsoft/teams-js
 ```
 
 ## Update the tab to use the current Theme
@@ -165,17 +156,10 @@ import * as MicrosoftGraphClient from "@microsoft/microsoft-graph-client";
 import * as MicrosoftGraph from "microsoft-graph";
 ```
 
-Next, update the state of the component to store the OAuth access token used to authenticate with and the email messages returned from Microsoft Graph.
+Next, update the state of the component to store the email messages returned from Microsoft Graph.
 
 ```typescript
-const [accessToken, setAccessToken] = useState<string>("");
 const [messages, setMessages] = useState<MicrosoftGraph.Message[]>([]);
-```
-
-Add the following code to the top of the `LearnAuthTab` component. This action creates a new class-scoped member of the Microsoft Graph client and initializes the state of the component.
-
-```typescript
-var msGraphClient: MicrosoftGraphClient.Client;
 ```
 
 Locate the `return` statement, and update it to the following code. The component displays a button for the user to select to sign in and request their emails from Microsoft Graph. It then displays the email messages in a list.
@@ -184,7 +168,7 @@ Locate the `return` statement, and update it to the following code. The componen
 return (
   <Provider theme={theme}>
     <Flex column gap="gap.small">
-      <Header>Recent messages in current user's mailbox</Header>
+      <Header>Recent messages in current user&apos;s mailbox</Header>
       <Button primary
               content="Get My Messages"
               onClick={handleGetMyMessagesOnClick}></Button>
@@ -206,8 +190,8 @@ return (
 Add the `onclick` event handler for the button to the `LearnAuthTab` class.
 
 ```typescript
-private handleGetMyMessagesOnClick = async (event): Promise<void> => {
-  await this.getMessages();
+const handleGetMyMessagesOnClick = async (event): Promise<void> => {
+  await getMessages();
 }
 ```
 
@@ -215,29 +199,17 @@ private handleGetMyMessagesOnClick = async (event): Promise<void> => {
 
 At this point, the tab is ready to add the logic necessary to request the email messages for the current user. Before you request email messages from Microsoft Graph, you need the user to sign in and obtain an access token from Azure AD. There are multiple steps to do to implement the authentication routine.
 
-Start by adding the following code to the component to initialize the Microsoft Graph client:
-
-```typescript
-useEffect(() => {
-  msGraphClient = MicrosoftGraphClient.Client.init({
-    authProvider: async (done) => {
-      if (!accessToken) {
-        const token = await getAccessToken();
-        setAccessToken(token);
-      }
-      done(null, accessToken);
-    }
-  });
-}, []);
-```
-
-Next, add the following method to the `LearnAuthTab` component:
+Start by adding the following method to the `LearnAuthTab` component:
 
 ```typescript
 const getMessages = async (promptConsent: boolean = false): Promise<void> => {
-  if (promptConsent || accessToken === "") {
-    await signin(promptConsent);
-  }
+  const token = await getAccessToken();
+
+  const msGraphClient: MicrosoftGraphClient.Client = MicrosoftGraphClient.Client.init({
+    authProvider: async (done) => {
+      done(null, token);
+    }
+  });
 
   msGraphClient
     .api("me/messages")
@@ -249,29 +221,17 @@ const getMessages = async (promptConsent: boolean = false): Promise<void> => {
         Promise.resolve();
       } else {
         console.error("graph error", error);
-        // re-sign in but this time force consent
-        await getMessages(true);
       }
     });
 }
 ```
 
-The `getMessages()` method first checks if the component has an access token. If so, it submits the request to Microsoft Graph for the top 15 email messages. Otherwise, if the component doesn't have an access token, it calls the `signin()` method.
+The `getMessages()` method first acquires an access token. It then submits the request to Microsoft Graph for the top 15 email messages.
 
-Add the following code to implement the `signin()` method:
-
-```typescript
-const signin = async (promptConsent: boolean = false): Promise<void> => {
-  const token = await getAccessToken(promptConsent);
-  setAccessToken(token);
-  Promise.resolve();
-}
-```
-
-This method calls the `getAccessToken()` method that uses the Microsoft Teams JavaScript SDK to start the authentication process. It opens a pop-up window that loads the **auth-start.html** page to start the authentication process with Azure AD. Ultimately, the authentication process ends in the pop-up window and results in either a successful or failed authentication process. In either case, the associated callback handlers are registered in the `authenticate()` method in the following code:
+The `getAccessToken()` method uses the Microsoft Teams JavaScript SDK to start the authentication process. It opens a pop-up window that loads the **auth-start.html** page to start the authentication process with Azure AD. Ultimately, the authentication process ends in the pop-up window and results in either a successful or failed authentication process. In either case, the associated callback handlers are registered in the `authenticate()` method in the following code:
 
 ```typescript
-private async getAccessToken(promptConsent: boolean = false): Promise<string> {
+const getAccessToken = async (promptConsent: boolean = false): Promise < string > => {
   return new Promise<string>((resolve, reject) => {
     microsoftTeams.authentication.authenticate({
       url: window.location.origin + "/auth-start.html",
@@ -294,7 +254,7 @@ Create the new file **./src/public/auth-start.html** in the project, and add the
 <!DOCTYPE html>
 <html>
 <body>
-  <script src="https://statics.teams.cdn.office.net/sdk/v1.5.2/js/MicrosoftTeams.min.js" crossorigin="anonymous"></script>
+  <script src="https://statics.teams.cdn.office.net/sdk/v1.9.0/js/MicrosoftTeams.min.js" crossorigin="anonymous"></script>
   <script src="https://secure.aadcdn.microsoftonline-p.com/lib/1.0.17/js/adal.min.js" crossorigin="anonymous"></script>
   <script type="text/javascript">
     microsoftTeams.initialize();
@@ -348,7 +308,7 @@ Create the new file **./src/public/auth-start.html** in the project, and add the
 </html>
 ```
 
-Create the new file **./src/public/auth-end.html** in the project, and add the following code to it. Like the auth-start.html file, this file uses the Microsoft Teams JavaScript SDK and ADAL.js libraries to configure ADAL for the Azure AD application created previously in this exercise. It parses the results received from Azure AD. If the user successfully authenticated, this page requests an access token for Microsoft Graph from Azure AD and then notifies Microsoft Teams that the authentication process succeeded or failed.
+Create the new file **./src/public/auth-end.html** in the project, and add the following code to it. Like the **auth-start.html** file, this file uses the Microsoft Teams JavaScript SDK and ADAL.js libraries to configure ADAL for the Azure AD application created previously in this exercise. It parses the results received from Azure AD. If the user successfully authenticated, this page requests an access token for Microsoft Graph from Azure AD and then notifies Microsoft Teams that the authentication process succeeded or failed.
 
 The notification process triggers Microsoft Teams to close the pop-up window and run the registered callback handlers in our tab:
 
@@ -356,7 +316,7 @@ The notification process triggers Microsoft Teams to close the pop-up window and
 <!DOCTYPE html>
 <html>
 <body>
-  <script src="https://statics.teams.cdn.office.net/sdk/v1.5.2/js/MicrosoftTeams.min.js" crossorigin="anonymous"></script>
+  <script src="https://statics.teams.cdn.office.net/sdk/v1.9.0/js/MicrosoftTeams.min.js" crossorigin="anonymous"></script>
   <script src="https://secure.aadcdn.microsoftonline-p.com/lib/1.0.17/js/adal.min.js" crossorigin="anonymous"></script>
 
   <script type="text/javascript">
@@ -421,7 +381,7 @@ Using the app bar on the left, select the **More added apps** button. Then selec
 
 On the **Browse available apps and services** page, select **Upload a custom app** > **Upload for me or my teams**.
 
-In the file dialog box that appears, select the Microsoft Teams package in your project. This app package is a zip file that can be found in the project's ./package folder.
+In the file dialog box that appears, select the Microsoft Teams package in your project. This app package is a zip file that can be found in the project's **./package** folder.
 
 After the package is uploaded, Microsoft Teams displays a summary of the app. Select the **Add to a team** button to install the app. Select a team to add the channel to, and select **Save** on the configuration page.
 

@@ -84,7 +84,7 @@ You can also create a policy that blocks a message from leaving the sender's out
 
 ## Learn more
 
-- [Create a DLP policy from a template](https://docs.microsoft.com/exchange/security-and-compliance/data-loss-prevention/create-dlp-policy-from-template?azure-portal=true)
-- [Integrating sensitive information rules with mail flow rules](https://docs.microsoft.com/exchange/security-and-compliance/data-loss-prevention/integrate-sensitive-information-rules?azure-portal=true)
-- [Policy Tips](https://docs.microsoft.com/exchange/security-and-compliance/data-loss-prevention/policy-tips?azure-portal=true)
+- [Create a DLP policy from a template](/exchange/security-and-compliance/data-loss-prevention/create-dlp-policy-from-template?azure-portal=true)
+- [Integrating sensitive information rules with mail flow rules](/exchange/security-and-compliance/data-loss-prevention/integrate-sensitive-information-rules?azure-portal=true)
+- [Policy Tips](/exchange/security-and-compliance/data-loss-prevention/policy-tips?azure-portal=true)
 - [Video – Turn on & customize DLP policy tips for email](https://www.microsoft.com/videoplayer/embed/dd629bb7-063d-49f3-b7e1-8f2e0aa4de13?autoplay=false?azure-portal=true)

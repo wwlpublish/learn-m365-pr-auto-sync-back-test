@@ -12,4 +12,4 @@ As part of a multi-tiered approach to DDoS defense, applications such as Exchang
 
 ## Learn more:
 
-- [Microsoft 365 denial-of-service defense strategy](https://docs.microsoft.com/compliance/assurance/assurance-microsoft-dos-defense-strategy?azure-portal=true)
+- [Microsoft 365 denial-of-service defense strategy](/compliance/assurance/assurance-microsoft-dos-defense-strategy?azure-portal=true)

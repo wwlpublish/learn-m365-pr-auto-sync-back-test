@@ -8,6 +8,6 @@ Now that you've completed this module, you should be able to:
 
 ## Learn more
 
-- [Control cloud apps with policies](https://docs.microsoft.com/cloud-app-security/control-cloud-apps-with-policies)
+- [Control cloud apps with policies](/cloud-app-security/control-cloud-apps-with-policies)
 - [Introducing Investigation Priority built on User and Entity Behavior Analytics - Microsoft Tech Community](https://techcommunity.microsoft.com/t5/microsoft-security-and/introducing-investigation-priority-built-on-user-and-entity/ba-p/360853)
-- [OAuth app policies](https://docs.microsoft.com/cloud-app-security/app-permission-policy)
+- [OAuth app policies](/cloud-app-security/app-permission-policy)

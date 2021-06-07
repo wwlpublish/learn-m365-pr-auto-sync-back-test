@@ -14,4 +14,4 @@ To configure Skype for Business hybrid, you need to:
 
 When you're done with a link, use the **Back** arrow in your browser to come back to this page.
 
-- [Configure Skype for Business hybrid](https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-federation-with-skype-for-business-online)
+- [Configure Skype for Business hybrid](/SkypeForBusiness/hybrid/configure-federation-with-skype-for-business-online)

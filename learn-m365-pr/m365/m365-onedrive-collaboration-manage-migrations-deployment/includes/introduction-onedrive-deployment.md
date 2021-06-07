@@ -16,6 +16,6 @@ The answers to these questions will help you build your deployment strategy. Onc
 
 ## Learn more
 - [What is OneDrive for Business](https://support.office.com/article/what-is-onedrive-for-business-187f90af-056f-47c0-9656-cc0ddca7fdc2?azure-portal=true)
-- [Office 365 URLs and IP address ranges](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges?azure-portal=true)
-- [Plan hybrid OneDrive for Business](https://docs.microsoft.com/sharepoint/hybrid/plan-hybrid-onedrive-for-business?azure-portal=true)
+- [Office 365 URLs and IP address ranges](/office365/enterprise/urls-and-ip-address-ranges?azure-portal=true)
+- [Plan hybrid OneDrive for Business](/sharepoint/hybrid/plan-hybrid-onedrive-for-business?azure-portal=true)
 

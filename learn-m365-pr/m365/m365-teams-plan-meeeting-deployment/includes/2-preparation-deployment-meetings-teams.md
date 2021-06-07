@@ -41,8 +41,8 @@ By default, when a licensing plan (for example, Microsoft 365 Enterprise E3 or M
 
 ## Learn more
 
-- [Meetings and conferencing in Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/deploy-meetings-microsoft-teams-landing-page)
-- [Meetings in Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/tutorial-meetings-in-teams?tutorial-step=4)
-- [Prepare your organization's network for Teams](https://docs.microsoft.com/microsoftteams/prepare-network)
+- [Meetings and conferencing in Microsoft Teams](/MicrosoftTeams/deploy-meetings-microsoft-teams-landing-page)
+- [Meetings in Microsoft Teams](/MicrosoftTeams/tutorial-meetings-in-teams?tutorial-step=4)
+- [Prepare your organization's network for Teams](/microsoftteams/prepare-network)
 - [Network Assessment Tool](https://www.microsoft.com/download/details.aspx?id=53885)
-- [Media Quality and Network Connectivity Performance](https://docs.microsoft.com/SkypeForBusiness/optimizing-your-network/media-quality-and-network-connectivity-performance)
+- [Media Quality and Network Connectivity Performance](/SkypeForBusiness/optimizing-your-network/media-quality-and-network-connectivity-performance)

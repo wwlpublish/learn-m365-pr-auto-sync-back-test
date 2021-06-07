@@ -21,6 +21,6 @@ By the time you start deploying broadly, the processes, communications, training
 
 ## Learn more
 
-- [Evaluate and select deployment options](https://docs.microsoft.com/learn/modules/m365-modern-os-deployment/2-deployment-tools?azure-portal=true)
-- [Build deployment rings](https://docs.microsoft.com/windows/deployment/update/waas-deployment-rings-windows-10-updates?azure-portal=true)
-- [Manage and troubleshoot provisioning packages](https://docs.microsoft.com/windows/configuration/provisioning-packages/provisioning-packages?azure-portal=true)
+- [Evaluate and select deployment options](/learn/modules/m365-modern-os-deployment/2-deployment-tools?azure-portal=true)
+- [Build deployment rings](/windows/deployment/update/waas-deployment-rings-windows-10-updates?azure-portal=true)
+- [Manage and troubleshoot provisioning packages](/windows/configuration/provisioning-packages/provisioning-packages?azure-portal=true)

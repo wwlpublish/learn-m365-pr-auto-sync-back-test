@@ -12,4 +12,4 @@ Microsoft Teams integrates with Microsoft Endpoint Manager, which includes Micro
 
 ## Learn more
 
-- [Azure Active Directory Quickstart](https://docs.microsoft.com/azure/active-directory/active-directory-conditional-access-azure-portal-get-started)
+- [Azure Active Directory Quickstart](/azure/active-directory/active-directory-conditional-access-azure-portal-get-started)

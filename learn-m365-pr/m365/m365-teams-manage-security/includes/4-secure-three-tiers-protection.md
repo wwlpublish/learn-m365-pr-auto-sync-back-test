@@ -31,4 +31,4 @@ Use this as a guide and adjust the configurations to meet your organization's re
 
 ## Learn more
 
-- [Configure Teams with three tiers of protection](https://docs.microsoft.com/microsoft-365/solutions/configure-teams-three-tiers-protection)
+- [Configure Teams with three tiers of protection](/microsoft-365/solutions/configure-teams-three-tiers-protection)

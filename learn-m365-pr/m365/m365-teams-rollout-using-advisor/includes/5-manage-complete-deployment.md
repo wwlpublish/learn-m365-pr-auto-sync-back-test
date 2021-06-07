@@ -33,6 +33,6 @@ Use the responses to plan your communication and training programs, and to under
 
 ## Learn more
 
-- [Use Advisor for Teams to help you roll out Microsoft Teams](https://docs.microsoft.com/microsoftteams/use-advisor-teams-roll-out)
+- [Use Advisor for Teams to help you roll out Microsoft Teams](/microsoftteams/use-advisor-teams-roll-out)
 - [Create a poll in Microsoft Teams](https://support.microsoft.com/office/create-a-poll-in-microsoft-teams-a3f9112c-01e1-4ee4-bd88-25e4e243b80b) 
 

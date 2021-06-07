@@ -32,7 +32,7 @@ You can create up to 159 VMs when you first create your host pool. Each deployme
 
 For single-session scenarios, we recommend at least two physical CPU cores per VM. But check with your software vendor for sizing recommendations specific to your workload. VM sizing for single-session VMs likely align with physical device guidelines.
 
-For multi-session VM sizing recommendations, see [Virtual machine sizing guidelines](https://docs.microsoft.com/windows-server/remote/remote-desktop-services/virtual-machine-recs?context=/azure/virtual-desktop/context/context#multi-session-recommendations).
+For multi-session VM sizing recommendations, see [Virtual machine sizing guidelines](/windows-server/remote/remote-desktop-services/virtual-machine-recs?context=/azure/virtual-desktop/context/context#multi-session-recommendations).
 
 ### Image types
 

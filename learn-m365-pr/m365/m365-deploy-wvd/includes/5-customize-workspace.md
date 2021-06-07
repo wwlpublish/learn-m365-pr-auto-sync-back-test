@@ -32,7 +32,7 @@ To complete the exercise, you'll need the credentials for the user account that 
 
    :::image type="content" source="../media/5-host-pool-settings-rdp.png" alt-text="Screenshot that shows the RDP Properties text field with some redirection properties like audiocapturemode and audiomode set.":::
 
-   For the list of supported properties, see [Supported Remote Desktop RDP file settings](https://docs.microsoft.com/windows-server/remote/remote-desktop-services/clients/rdp-files?context=/azure/virtual-desktop/context/context).
+   For the list of supported properties, see [Supported Remote Desktop RDP file settings](/windows-server/remote/remote-desktop-services/clients/rdp-files?context=/azure/virtual-desktop/context/context).
 1. When you're done, select **Save**.
 
 ## Install the Azure Virtual Desktop Client for Windows

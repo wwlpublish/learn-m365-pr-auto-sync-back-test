@@ -42,6 +42,6 @@ In addition, a **downstream SBC** is required. This SBC doesn't have a public IP
 
 ## Learn more
 
-- [Local Media Optimization for Direct Routing](https://docs.microsoft.com/MicrosoftTeams/direct-routing-media-optimization)
-- [List of Session Border Controllers certified for Direct Routing](https://docs.microsoft.com/MicrosoftTeams/direct-routing-border-controllers)
-- [Plan for media bypass with Direct Routing](https://docs.microsoft.com/microsoftteams/direct-routing-plan-media-bypass)
+- [Local Media Optimization for Direct Routing](/MicrosoftTeams/direct-routing-media-optimization)
+- [List of Session Border Controllers certified for Direct Routing](/MicrosoftTeams/direct-routing-border-controllers)
+- [Plan for media bypass with Direct Routing](/microsoftteams/direct-routing-plan-media-bypass)

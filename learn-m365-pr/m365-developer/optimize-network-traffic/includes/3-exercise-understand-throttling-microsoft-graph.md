@@ -37,7 +37,7 @@ In the **Redirect URIs** section of the **Configure Desktop + devices** panel, s
 
 ![Screenshot of the Configure Desktop + devices panel](../media/azure-ad-portal-new-app-03.png)
 
-In the **Authentication** page, scroll down to the **Default client type** section and set the toggle to **Yes**.
+In the **Authentication** page, scroll down to the **Allow public client flows** section and set the toggle to **Yes**.
 
 ![Screenshot of the Default client type section](../media/azure-ad-portal-new-app-04.png)
 
@@ -68,12 +68,12 @@ In the **Configured Permissions** panel, select the button **Grant admin consent
 ![Screenshot of the Configured permissions panel](../media/azure-ad-portal-new-app-permissions-04.png)
 
 > [!NOTE]
-> The option to **Grant admin consent** here in the Azure AD admin center is pre-consenting the permissions to the users in the tenant to simplify the exercise. This approach allows the console application to use the [resource owner password credential grant](https://docs.microsoft.com/azure/active-directory/develop/v2-oauth-ropc), so the user isn't prompted to grant consent to the application that simplifies the process of obtaining an OAuth access token. You could elect to implement alternative options such as the [device code flow](https://docs.microsoft.com/azure/active-directory/develop/v2-oauth2-device-code) to utilize dynamic consent as another option.
+> The option to **Grant admin consent** here in the Azure AD admin center is pre-consenting the permissions to the users in the tenant to simplify the exercise. This approach allows the console application to use the [resource owner password credential grant](/azure/active-directory/develop/v2-oauth-ropc), so the user isn't prompted to grant consent to the application that simplifies the process of obtaining an OAuth access token. You could elect to implement alternative options such as the [device code flow](/azure/active-directory/develop/v2-oauth2-device-code) to utilize dynamic consent as another option.
 
 ## Create .NET Core console application
 
 > [!NOTE]
-> The instructions below assume you are using .NET 5. They were last tested using v5.0.102 of the .NET 5 SDK.
+> The instructions below assume you are using .NET 5. They were last tested using v5.0.202 of the .NET 5 SDK.
 
 Open your command prompt, navigate to a directory where you have rights to create your project, and run the following command to create a new .NET Core console application:
 

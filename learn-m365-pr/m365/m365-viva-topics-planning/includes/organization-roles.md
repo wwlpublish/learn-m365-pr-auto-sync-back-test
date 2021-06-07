@@ -60,6 +60,6 @@ During setup, you can configure Viva Topics to:
 - Select which licensed users who can manage topics (knowledge managers). 
 - Name the Topic center. 
 
-Check out [Setup overview for Graph connectors by Microsoft](https://docs.microsoft.com/microsoftsearch/configure-connector?azure-portal=true) for more information on how to configure Graph content connectors*.  
+Check out [Setup overview for Graph connectors by Microsoft](/microsoftsearch/configure-connector?azure-portal=true) for more information on how to configure Graph content connectors*.  
 
 Knowledge managers need to be able to coordinate with all Viva Topics stakeholders in their organization to know how to configure it. For example, if a new project has sensitive information, the knowledge manager needs to inform the Knowledge admins to make sure the SharePoint site is not crawled for topics, or specific topic names need to be excluded. 

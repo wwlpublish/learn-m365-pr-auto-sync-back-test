@@ -36,11 +36,11 @@ To create a new account using the Microsoft 365 admin center:
 8. On the *next* pane that appears, type in the new password into the Password field. Be sure to leave the **Require this user to  change their password when they first sign in** option unchecked. There's no way to force a password change interactively within the Teams Rooms app. 
 
 9. Next you need to assign a license to this resource account. While still in Active users, click on the room’s display name to bring up the **Properties** pane. From there, click on **Licenses and Apps**. You can now assign the proper license, such as Microsoft Teams Rooms Standard.
-1. Finally, you need to set the password so that it never expires. Follow the guidance at [Set an individual user's password to never expire](https://docs.microsoft.com/microsoft-365/admin/add-users/set-password-to-never-expire?view=o365-worldwide?azure-portal=true) for detailed steps.
+1. Finally, you need to set the password so that it never expires. Follow the guidance at [Set an individual user's password to never expire](/microsoft-365/admin/add-users/set-password-to-never-expire?azure-portal=true) for detailed steps.
 
    ![Assign a license](../media/assign-license.png)
 
 ## Learn more
 
-- [Create a Microsoft 365 resource account using the Microsoft 365 admin center](https://docs.microsoft.com/microsoftteams/devices/resource-account-ui?azure-portal=true)
-- [Set an individual user's password to never expire](https://docs.microsoft.com/microsoft-365/admin/add-users/set-password-to-never-expire?view=o365-worldwide?azure-portal=true)
+- [Create a Microsoft 365 resource account using the Microsoft 365 admin center](/microsoftteams/devices/resource-account-ui?azure-portal=true)
+- [Set an individual user's password to never expire](/microsoft-365/admin/add-users/set-password-to-never-expire?azure-portal=true)

@@ -28,5 +28,5 @@ Microsoft Teams audio conferencing is an excellent solution for attendees who ne
 
 ## Learn more
 
-- [Meetings in Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/tutorial-meetings-in-teams?azure-portal=true)
-- [Audio conferencing in Microsoft 365](https://docs.microsoft.com/microsoftteams/audio-conferencing-in-office-365?azure-portal=true)
+- [Meetings in Microsoft Teams](/MicrosoftTeams/tutorial-meetings-in-teams?azure-portal=true)
+- [Audio conferencing in Microsoft 365](/microsoftteams/audio-conferencing-in-office-365?azure-portal=true)
