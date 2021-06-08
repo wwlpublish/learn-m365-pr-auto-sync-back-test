@@ -8,7 +8,7 @@ This module examines how to manage Windows desktop apps, Microsoft store apps, a
 
 The module begins by examining how to protect company data by using app protection policies. The module then explores how apps can be managed using Configuration Manager, Intune, and Azure AD.<br>
 
-After completing this module, you'll be able to: 
+After completing this module, you'll be able to:
 
  -  Describe how to protect company data by using app protection policies.
  -  Describe how apps can be managed using Configuration Manager.

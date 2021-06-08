@@ -25,7 +25,8 @@ You can use Intune for managing the lifecycle of traditional desktop apps and mo
 
 You can assign and manage apps on Intune-enrolled devices, and on devices that aren't enrolled to Intune.
 
-***Important:** If a device isn't enrolled to Intune, only MAM-aware apps can be managed on that device based on user identity. The device itself can't be managed. For example, you can prevent copying information between a business-related app and a private app, but you can't manage the device by using MDM.*
+> [!IMPORTANT]
+> If a device isn't enrolled to Intune, only MAM-aware apps can be managed on that device based on user identity. The device itself can't be managed. For example, you can prevent copying information between a business-related app and a private app, but you can't manage the device by using MDM.
 
 ### **App management capabilities in Intune by platform**
 
