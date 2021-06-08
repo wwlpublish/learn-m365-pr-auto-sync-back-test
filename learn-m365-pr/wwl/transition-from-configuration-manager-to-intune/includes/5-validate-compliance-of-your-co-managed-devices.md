@@ -14,7 +14,7 @@ You can then drill down into an individual device to view the settings and polic
 
 For devices that apply compliance policies from Configuration Manager, you can view compliance results in the Configuration Manager console or by using reports. For devices that apply compliance policies from Intune, you can view their compliance status in the Intune section on the Azure portal.
 
-### **Device compliance dashboard**
+### Device compliance dashboard
 
 In the Device compliance dashboard, you can monitor the compliance of different devices, their protection status, and more. You can also view the following reports:
 
@@ -26,7 +26,7 @@ In the Device compliance dashboard, you can monitor the compliance of different 
 
 You can also view the specific compliance policies and settings that apply to an individual device, and the final compliance state for each of those settings on the device.
 
-### **Overall device compliance aggregate report**
+### Overall device compliance aggregate report
 
 This report displays the aggregate compliance state for all co-managed devices for which Intune is managing compliance policy. Device compliance state can have one of the following values:
 
@@ -41,7 +41,7 @@ This report displays the aggregate compliance state for all co-managed devices f
 :::image type="content" source="../media/device-compliance-chart-91711f77.jpg" alt-text="device compliance circle chart showing the number of devices that are compliant, not compliant, in a grace period, and not evaluated.":::
 
 
-### **Notifying users about non-compliant devices**
+### Notifying users about non-compliant devices
 
 Actions can be configured and applied to devices that don’t meet the device compliance policy. By default, when a device doesn't meet the device compliance policy, Intune immediately marks it as non-compliant. You can use the **Actions for noncompliance** setting of the compliance policy to configure what to do when a device is non-compliant. You can configure two actions:
 

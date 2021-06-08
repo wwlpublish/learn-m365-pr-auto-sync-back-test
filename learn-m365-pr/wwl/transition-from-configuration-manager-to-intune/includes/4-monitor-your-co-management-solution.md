@@ -10,7 +10,7 @@ The co-management dashboard displays the following graphs for your environment:
 
  -  **Co-managed devices.** This graph displays number of client devices that are managed by Configuration Manager and the percentage of co-managed devices throughout your environment.
 
-:::image type="content" source="../media/co-managed-devices-graph-6d57d711.jpg" alt-text="graph showing number of co-managed devices":::
+    :::image type="content" source="../media/co-managed-devices-graph-6d57d711.jpg" alt-text="graph showing number of co-managed devices":::
 
 
  -  **Client OS distribution**. This graph shows the number of client devices that are managed by Configuration manage and which operating system (OS) they run. Operating systems are grouped in the following categories:
@@ -22,7 +22,7 @@ The co-management dashboard displays the following graphs for your environment:
     > [!NOTE]
     > Windows 10 version 1709 or newer is required for co-management.
 
-:::image type="content" source="../media/client-os-distribution-chart-43a95980.jpg" alt-text="graph showing distribution of client operating systems in company":::
+    :::image type="content" source="../media/client-os-distribution-chart-43a95980.jpg" alt-text="graph showing distribution of client operating systems in company":::
 
 
  -  **Co-management status**. This graph displays the breakdown of device success or failure in the following categories:
@@ -31,9 +31,26 @@ The co-management dashboard displays the following graphs for your environment:
      -  Success, Azure AD Joined
      -  Failure: Auto-enrollment failed
 
-    By hovering over a graph category, you'll see the percentage of devices in that category. If you select a graph section, you'll see the list of devices in that category.<br>
+    By hovering over a graph category, you'll see the percentage of devices in that category. If you select a graph section, you'll see the list of devices in that category.
 
- -  **Workload transition**. This graph displays a bar chart with the number of devices that you transitioned to Microsoft Intune for the four available workloads:
+    :::image type="content" source="../media/co-management-status-chart-ec74a498.png" alt-text="A funnel chart that shows the number of devices with the following states from the enrollment process, eligible devices, scheduled, enrollment initiated, and enrolled":::
+
+
+ -  **Co-management enrollment status**. This graph shows the breakdown of device status in the following categories:
+    
+     -  Success, hybrid Azure AD-joined
+     -  Success, Azure AD-joined
+     -  Enrolling, hybrid Azure AD-joined
+     -  Failure, hybrid Azure AD-joined
+     -  Failure, Azure AD-joined
+     -  Pending user sign in
+
+    Select a state in the tile to drill through to a list of devices in that state.
+
+    :::image type="content" source="../media/co-management-enrollment-status-36bb0da9.png" alt-text="chart showing the breakdown of each device enrollment status":::
+
+
+ -  **Workload transition**. This graph displays a bar chart with the number of devices that you transitioned to Microsoft Intune for the four available workloads:<br>
     
      -  Compliance Policies
      -  Resource Access
@@ -42,4 +59,4 @@ The co-management dashboard displays the following graphs for your environment:
 
     Hovering over a chart section displays the number of devices transitioned for each workload.
 
-:::image type="content" source="../media/devices-transitioned-per-workload-chart-bce56d50.jpg" alt-text="bar chart showing the number of devices transitioned for each of the four workloads":::
+    :::image type="content" source="../media/workload-transition-d67e1f77.png" alt-text="bar chart with the number of devices that you've transitioned to Microsoft Intune for the available workloads":::

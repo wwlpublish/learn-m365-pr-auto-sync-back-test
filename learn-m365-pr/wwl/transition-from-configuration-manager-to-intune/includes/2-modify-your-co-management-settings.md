@@ -19,7 +19,7 @@ Organizations can modify the following co-management settings:
      -  **Pilot**. If you select this option, then only devices in the pilot collection will be co-managed.
      -  **All**. If this option is selected, then every Configuration Manager managed device that meets the prerequisites will be co-managed.<br>
     
-    :::image type="content" source="../media/co-management-auto-enrollment-in-Intune-option-b0617ee2.jpg" alt-text="screenshot of Properties window with the Enablement tab selected showing the automatic enrollment in Intune options":::
+    :::image type="content" source="../media/co-management-auto-enrollment-in-intune-option-80e1f229.jpg" alt-text="screenshot of Properties window with the Enablement tab selected showing the automatic enrollment in Intune options":::
     
  -  **Workloads**. This setting only applies to devices enabled for co-management. It controls which workloads are managed by Configuration Manager and which are managed by Intune. You can currently control the following four workloads:
     
