@@ -1,4 +1,4 @@
-Customers can take several actions and use multiple tools to help secure their Windows Virtual Desktop deployment. The following table lists some tested suggestions for securing your Windows Virtual Desktop deployment.
+Customers can take several actions and use multiple tools to help secure their Azure Virtual Desktop deployment. The following table lists some tested suggestions for securing your Azure Virtual Desktop deployment.
 
 |**Best practice**| **Result**                                                   |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
@@ -7,23 +7,23 @@ Customers can take several actions and use multiple tools to help secure their W
 |Enable Conditional Access|Manage risks before you grant users access.|
 |Collect audit logs|Review user and administrator activity.|
 |Use RemoteApp|Reduce risk by letting the user work with only a subset of the remote machine exposed.|
-|Monitor usage with Azure Monitor| Create service health alerts to receive notifications for the Windows Virtual Desktop service.|
+|Monitor usage with Azure Monitor| Create service health alerts to receive notifications for the Azure Virtual Desktop service.|
 |Enable endpoint protection|Protect your deployment from known malware.|
 |Install an endpoint detection and response (EDR) product|Use EDR to provide advanced detection and response capabilities.|
 |Enable threat and vulnerability management assessments|Help identify problem spots through vulnerability assessments for server operating systems.|
 |Fix software vulnerabilities in your environment| When a vulnerability is identified, on-premises or in a virtual environment, you must fix it.|
 |Establish maximum inactive time and disconnection policies|Sign out users when they're inactive to preserve resources and prevent unauthorized access. |
-|Lock setup screen for idle sessions|Prevent unwanted system access by configuring Windows Virtual Desktop to lock a machine's screen during idle time and requiring authentication to unlock it.|
+|Lock setup screen for idle sessions|Prevent unwanted system access by configuring Azure Virtual Desktop to lock a machine's screen during idle time and requiring authentication to unlock it.|
 |Don't grant your users administrator access to virtual desktops|Manage software packages by using Configuration Manager.|
 |Consider which users should access which resources|Limit host connection to internet resources.|
 |Restrict operating system capabilities|Strengthen the security of your session hosts.|
-|In the Windows Virtual Desktop host pools, limit device redirection under RDP properties|Prevent data leakage.|
+|In the Azure Virtual Desktop host pools, limit device redirection under RDP properties|Prevent data leakage.|
 
 ## Enable endpoint protection by using Microsoft Defender for Endpoint
 
 To help secure a company's endpoints, we recommend that you configure Microsoft Defender for Endpoint. It was previously known as Microsoft Defender for Endpoint. Microsoft Defender for Endpoint is typically used on-premises but can also be used in a virtual desktop infrastructure (VDI) environment.
 
-To deploy Microsoft Defender for Endpoint on your Windows Virtual Desktop VMs, enroll the VMs into Azure Security Center. Security Center provides a license as part of its standard offering. 
+To deploy Microsoft Defender for Endpoint on your Azure Virtual Desktop VMs, enroll the VMs into Azure Security Center. Security Center provides a license as part of its standard offering. 
 
 You should also use automatic provisioning. The settings for automatic provisioning in Security Center have a toggle for each type of supported extension. When you enable automatic provisioning of an extension, you assign the appropriate **DeployIfNotExists** policy to make sure that the extension is provisioned on all existing and future resources of that type.
 

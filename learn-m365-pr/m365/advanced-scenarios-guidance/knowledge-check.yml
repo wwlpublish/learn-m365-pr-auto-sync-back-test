@@ -1,5 +1,5 @@
 ### YamlMime:ModuleUnit
-uid: learn-m365.advanced-scenarios-guidance.7-knowledge-check
+uid: learn-m365.advanced-scenarios-guidance.knowledge-check
 metadata:
   title: Knowledge check
   description: Advanced scenarios and guidance with Microsoft Cloud App Security
@@ -11,7 +11,7 @@ metadata:
 title: Knowledge check
 durationInMinutes: 2
 content: |
-  [!include[](includes/7-knowledge-check.md)]
+  [!include[](includes/knowledge-check.md)]
 quiz: 
   title: Check your knowledge 
   questions: 

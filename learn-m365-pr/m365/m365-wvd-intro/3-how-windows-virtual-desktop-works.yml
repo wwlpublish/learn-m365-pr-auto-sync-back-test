@@ -1,9 +1,9 @@
 ### YamlMime:ModuleUnit
 uid: learn-m365.wvd-intro.wvd-configuration
-title: How does Windows Virtual Desktop work?
+title: How does Azure Virtual Desktop work?
 metadata:
-  title: How does Windows Virtual Desktop work?
-  description: Learn how Windows Virtual Desktop works.
+  title: How does Azure Virtual Desktop work?
+  description: Learn how Azure Virtual Desktop works.
   ms.date: 06/28/2020
   author: lizap
   ms.author: elizapo

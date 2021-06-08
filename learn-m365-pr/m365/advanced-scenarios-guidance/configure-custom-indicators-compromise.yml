@@ -1,5 +1,5 @@
 ### YamlMime:ModuleUnit
-uid: learn-m365.advanced-scenarios-guidance.2-configure-custom-indicators-compromise
+uid: learn-m365.advanced-scenarios-guidance.configure-custom-indicators-compromise
 metadata:
   title: Configure custom indicators of compromise
   description: Advanced scenarios and guidance with Microsoft Cloud App Security
@@ -11,4 +11,4 @@ metadata:
 title: Configure custom indicators of compromise
 durationInMinutes: 7
 content: |
-  [!include[](includes/2-configure-custom-indicators-compromise.md)]
+  [!include[](includes/configure-custom-indicators-compromise.md)]
