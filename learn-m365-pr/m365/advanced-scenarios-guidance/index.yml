@@ -30,13 +30,13 @@ roles:
 products:
 - m365-ems-cloud-app-security
 units:
-- learn-m365.advanced-scenarios-guidance.1-introduction
-- learn-m365.advanced-scenarios-guidance.2-configure-custom-indicators-compromise
-- learn-m365.advanced-scenarios-guidance.3-integrate-security-center
-- learn-m365.advanced-scenarios-guidance.4-protect-ios-devices
-- learn-m365.advanced-scenarios-guidance.5-configure-log-collector-behind-proxy
-- learn-m365.advanced-scenarios-guidance.6-use-mcas-rest-api
-- learn-m365.advanced-scenarios-guidance.7-knowledge-check
-- learn-m365.advanced-scenarios-guidance.8-summary
+- learn-m365.advanced-scenarios-guidance.introduction
+- learn-m365.advanced-scenarios-guidance.configure-custom-indicators-compromise
+- learn-m365.advanced-scenarios-guidance.integrate-security-center
+- learn-m365.advanced-scenarios-guidance.protect-ios-devices
+- learn-m365.advanced-scenarios-guidance.configure-log-collector-behind-proxy
+- learn-m365.advanced-scenarios-guidance.use-mcas-rest-api
+- learn-m365.advanced-scenarios-guidance.knowledge-check
+- learn-m365.advanced-scenarios-guidance.summary
 badge:
   uid: learn-m365.advanced-scenarios-guidance.badge

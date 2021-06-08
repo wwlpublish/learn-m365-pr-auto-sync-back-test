@@ -3,7 +3,7 @@ uid: learn-m365.wvd-intro.introduction
 title: Introduction
 metadata:
   title: Introduction
-  description: Learn about Windows Virtual Desktop, a cloud-based desktop virtualization solution that works across devices – including Windows, Mac, iOS, and Android – with full-featured apps to access remote desktops and apps.
+  description: Learn about Azure Virtual Desktop, a cloud-based desktop virtualization solution that works across devices – including Windows, Mac, iOS, and Android – with full-featured apps to access remote desktops and apps.
   ms.date:  06/28/2020
   author: lizap
   ms.author: elizapo
