@@ -19,7 +19,8 @@ Co-management supports the following workloads:
 
 You're also able to pilot a workload with a separate collection of devices. Piloting allows you to test the Intune functionality with a subset of devices before switching a larger group.
 
-***Important:** Based on recent updates, Microsoft Intune and Configuration Manager have been moved into Microsoft Endpoint Manager. Microsoft Endpoint Manager is a unified platform that includes Configuration Manager, Microsoft Intune, Desktop Analytics, and Co-management.*
+> [!IMPORTANT]
+> Based on recent updates, Microsoft Intune and Configuration Manager have been moved into Microsoft Endpoint Manager. Microsoft Endpoint Manager is a unified platform that includes Configuration Manager, Microsoft Intune, Desktop Analytics, and Co-management.
 
 :::image type="content" source="../media/co-management-architecture-7720e7a9.jpg" alt-text="graphic showing co-management architecture":::
 
