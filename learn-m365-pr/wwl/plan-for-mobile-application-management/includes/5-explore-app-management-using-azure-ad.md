@@ -34,9 +34,6 @@ You can use Azure AD as your identity system for just about any app. Many apps a
 > [!TIP]
 > The Azure AD app gallery contains many popular applications that are already pre-configured to work with Azure AD as an identity provider.
 
-:::image type="content" source="../media/my-app-mobile-app-fa0b9c82.jpg" alt-text="screenshot of the My Apps mobile app":::
-
-
 ### Improve productivity with single sign-on
 
 Single sign-on (SSO) provides a unified user experience between Microsoft 365 and all the other apps you use. The purpose of SSO is to eliminate the need to constantly enter your username and password. You can manually configure most apps for single sign-on if they aren't already in the gallery. When building your own line-of-business applications, you can also integrate them with Azure AD to support single sign-on.

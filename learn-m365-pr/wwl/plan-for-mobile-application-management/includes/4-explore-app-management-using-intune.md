@@ -58,12 +58,7 @@ Intune MAM supports two configurations:<br>
  -  **Intune MDM + MAM.** In this configuration, you can only manage apps using MAM and app protection policies on devices that are enrolled with Intune Mobile Device Management (MDM).
  -  **MAM without device enrollment.** MAM without device enrollment, or MAM-WE, enables you to manage apps using MAM and app protection policies on devices that aren't enrolled with Intune MDM. With MAM-WE, a work-related app that contains sensitive data can be managed on almost any device, including personal devices in bring-your-own-device (BYOD) scenarios.
 
-MAM also protects a company’s data within an application. Many productivity apps, such as the Microsoft Office apps, can be managed by Intune MAM. The following graphic displays the logos of some of the apps that can be managed by Intune MAM.
-
-:::image type="content" source="../media/app-icons-managed-by-intune-00043465.jpg" alt-text="screenshot showing some of the apps that can be managed by Intune MAM":::
-
-
-If you need to manage traditional desktop apps, Intune's management extension lets you upload PowerShell scripts in Intune to run on Windows 10 devices. For example, you can create a PowerShell script that:
+MAM also protects a company’s data within an application. Many productivity apps, such as the Microsoft Office apps, can be managed by Intune MAM. If you need to manage traditional desktop apps, Intune's management extension lets you upload PowerShell scripts in Intune to run on Windows 10 devices. For example, you can create a PowerShell script that:
 
 1.  Installs a legacy Win32 app on your Windows 10 devices.
 2.  Uploads the script to Intune.

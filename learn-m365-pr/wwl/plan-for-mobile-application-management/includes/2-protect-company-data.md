@@ -1,4 +1,4 @@
-App protection policies are rules that ensure an organization's data remains safe or contained in a managed app. A policy can be a rule that's enforced when the user attempts to access or move "corporate" data. It can also be a set of actions that are prohibited or monitored when the user is inside the app. A managed app is an app that has app protection policies applied to it, and can be managed by Intune.
+xxxApp protection policies are rules that ensure an organization's data remains safe or contained in a managed app. A policy can be a rule that's enforced when the user attempts to access or move "corporate" data. It can also be a set of actions that are prohibited or monitored when the user is inside the app. A managed app is an app that has app protection policies applied to it, and can be managed by Intune.
 
 Mobile Application Management (MAM) is suite of management features in Intune that lets you publish, push, configure, secure, monitor, and update mobile apps. MAM is configured by using app protection policies. You can apply app protection policies to Windows 10, Android, and iOS devices.
 
@@ -58,7 +58,7 @@ If your iOS or Android app doesn't support MDM, you can enable MAM support by us
 
 When apps are used without restrictions, company and personal data can get intermingled. Company data could end up in locations like personal storage or transferred to apps outside of your purview, resulting in data loss. The arrows in the following diagram show unrestricted data movement between apps (corporate and personal) and to storage locations.
 
-:::image type="content" source="../media/mobile-phone-with-apps-and-data-9171e111.jpg" alt-text="graphic depicting a mobile phone with various app icons displayed, including Word, Excel, and PowerPoint, along with corporate and personal Word files stored on the phone":::
+:::image type="content" source="../media/mobile-phone-with-apps-and-data-cbf20946.png" alt-text="graphic depicting a mobile phone with various app icons displayed, including Word, Excel, and PowerPoint, along with corporate and personal Word files stored on the phone":::
 
 
 ### **Data protection with app protection policies**
@@ -68,7 +68,7 @@ The following image shows how you can use app protection policies to prevent com
  -  Data relocation policies such as **Save copies of org data** and **Restrict cut, copy, and paste**.
  -  Access policy settings such as **Require simple PIN for access** and **Block-managed apps from running on jailbroken or rooted devices**.
 
-:::image type="content" source="../media/mobile-phone-with-apps-and-locked-data-ab7cd4f0.jpg" alt-text="graphic depicting a mobile phone with various app icons displayed, including Word, Excel, and PowerPoint, along with corporate and personal Word files stored on the phone, where the corporate files are locked so as to restrict access":::
+:::image type="content" source="../media/mobile-phone-with-apps-and-locked-data-298aac0e.png" alt-text="graphic depicting a mobile phone with various app icons displayed, including Word, Excel, and PowerPoint, along with corporate and personal Word files stored on the phone, where the corporate files are locked so as to restrict access":::
 
 
 ### Data protection with app protection policies on devices managed by an MDM solution
