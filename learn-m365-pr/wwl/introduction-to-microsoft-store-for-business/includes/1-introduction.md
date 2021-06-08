@@ -6,7 +6,7 @@ Microsoft Store for Business includes basic distribution abilities that enable y
 
 This module reviews the Microsoft Store for Business. You'll examine the features of the store, the prerequisites to using it, and the benefits that it provides to organizations. You'll also learn about the permissions and licensing required to access the store.
 
-By completing this module, you'll be able to:
+By completing this module, you'll be able to: 
 
  -  Describe the features and benefits of the Microsoft Store for Business.
  -  Examine the prerequisites to using the Microsoft Store for Business.
