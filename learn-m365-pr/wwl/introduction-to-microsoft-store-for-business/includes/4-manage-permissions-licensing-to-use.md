@@ -42,7 +42,7 @@ A user who's assigned the Admin role can manage the following Microsoft Store fo
  -  **Permissions**. Delegate permissions for the Microsoft Store for Business. Doing so enables company users to complete certain management tasks in the Microsoft Store for Business.
  -  **Line-of-business publishers**. Invite company developers or third-party vendors to submit their LOB apps to the Microsoft Store for Business. These LOB apps can be available only in your organization's private store and not in the public Microsoft Store.
 
-### **App licensing models in the Microsoft Store for Business**
+### App licensing models in the Microsoft Store for Business
 
 A licensing model specifies and controls how apps can be obtained from the Microsoft Store for Business and installed on a device. The Microsoft Store for Business supports two licensing models to license apps from the store:
 
