@@ -1089,6 +1089,16 @@
       "source_path": "learn-m365-pr/wwl/describe-compliance-management-capabilities-microsoft-365/2-undestand-common-compliance-needs.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/describe-compliance-management-capabilities-microsoft/",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/m365-developer/msgraph-show-user-emails/7-page-users-email.yml",
+      "redirect_url": "https://docs.microsoft.com/en-us/learn/modules/msgraph-show-user-emails/7-load-users-email-batches",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/m365-developer/msgraph-show-user-emails/8-exercise-page-users-email.yml",
+      "redirect_url": "https://docs.microsoft.com/en-us/learn/modules/msgraph-show-user-emails/8-exercise-load-users-email-batches",
+      "redirect_document_id": false
     }
   ]
 }
