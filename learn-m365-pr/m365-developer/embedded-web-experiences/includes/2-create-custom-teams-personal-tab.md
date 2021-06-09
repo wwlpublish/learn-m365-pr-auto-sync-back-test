@@ -1,3 +1,5 @@
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4NHyj]
+
 In this unit, you'll learn how to create tabs in Microsoft Teams apps.
 
 ## Microsoft Teams extensibility options
@@ -67,6 +69,8 @@ Teams determines where a tab can be used based on its scope. Scope is set in th
 - **Personal scope**: By using personal tabs, users can interact with your experience privately. The content in a personal tab is only relevant to individual users.
 
 ## Develop custom Microsoft Teams tabs
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4NzEu]
 
 This section addresses the process of creating custom tabs for Microsoft Teams.
 
