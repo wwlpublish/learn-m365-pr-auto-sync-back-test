@@ -4,9 +4,9 @@ title: Investigate audit logs
 metadata:
   title: Investigate audit logs
   description: Learn how to use audit logs to troubleshoot issues with mail flow in Exchange Online.
-  ms.date: 06/09/2020
+  ms.date: 05/28/2021
   author: AlexandraHrt
-  ms.author: v-aleha
+  ms.author: elizapo
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 durationInMinutes: 3

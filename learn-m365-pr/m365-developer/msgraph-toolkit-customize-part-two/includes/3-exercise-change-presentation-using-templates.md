@@ -9,7 +9,7 @@ Complete these steps as prerequisites for this exercise.
 For this module, you'll need an application with the following settings:
 
 - **Name**: My app
-- **Platform**: Web
+- **Platform**: Single Page Application (SPA)
 - **Supported account types**: Accounts in any organizational directory (Any Azure AD directory - Multitenant) and personal Microsoft accounts (e.g. Skype, Xbox)
 - **Redirect URIs**: http://localhost:3000
 
@@ -31,7 +31,7 @@ To create this application, follow these steps:
             <script src="https://unpkg.com/@microsoft/mgt/dist/bundle/mgt-loader.js"></script>
         </head>
         <body>    
-            <mgt-msal-provider client-id="YOUR-CLIENT-ID"></mgt-msal-provider>    
+            <mgt-msal2-provider client-id="YOUR-CLIENT-ID"></mgt-msal2-provider>
             <mgt-login></mgt-login>
             <mgt-agenda></mgt-agenda>
         </body>
@@ -41,7 +41,7 @@ To create this application, follow these steps:
 
 1. Add a folder named **.vscode** into the root of your project folder.
 1. Add a file named **settings.json** into the **.vscode** folder. Copy and paste the following code into **settings.json**, and save the file.
-    
+
     ```json
     {
         "liveServer.settings.host": "localhost",
@@ -56,11 +56,10 @@ Suppose you want to show a user's email address as the content of a signed-in bu
 
 ```html
 <mgt-login>
-	<template data-type=”signed-in-button-content”> 
-		<div>{{personDetails.mail}}</div>
-	</template>
+    <template data-type=”signed-in-button-content”> 
+        <div>{{personDetails.mail}}</div>
+    </template>
 </mgt-login>
-
 ```
 
 >[!Tip]
@@ -75,19 +74,19 @@ The final version of **index.html** will look like this example:
         <script src="https://unpkg.com/@microsoft/mgt/dist/bundle/mgt-loader.js"></script>
     </head>
     <body>    
-        <mgt-msal-provider client-id="YOUR-CLIENT-ID"></mgt-msal-provider>   
+        <mgt-msal2-provider client-id="YOUR-CLIENT-ID"></mgt-msal2-provider>   
  
         <mgt-login>
-	<template data-type=”signed-in-button-content”> 
-		<div>{{personDetails.mail}}</div>
-	</template>
-</mgt-login>
+            <template data-type=”signed-in-button-content”> 
+                <div>{{personDetails.mail}}</div>
+            </template>
+        </mgt-login>
 
-<mgt-agenda
+        <mgt-agenda
             date="March 9, 2021"
             days="3"
             group-by-day>
- </mgt-agenda>
+        </mgt-agenda>
 
     </body>
 </html>

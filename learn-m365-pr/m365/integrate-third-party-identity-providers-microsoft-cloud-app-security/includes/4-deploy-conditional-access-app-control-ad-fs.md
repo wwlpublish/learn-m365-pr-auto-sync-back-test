@@ -11,7 +11,7 @@ AD FS enables organizations to provide their users with the flexibility to sign 
 By using AD FS, your organization can manage its own user accounts, and users can take advantage of SSO, saving them the need to remember multiple sets of credentials.  
 
 > [!NOTE]
-> Refer to the following document if you require more guidance on AD FS: [Understanding Key AD FS Concepts]( https://docs.microsoft.com/windows-server/identity/ad-fs/technical-reference/understanding-key-ad-fs-concepts).
+> Refer to the following document if you require more guidance on AD FS: [Understanding Key AD FS Concepts]( /windows-server/identity/ad-fs/technical-reference/understanding-key-ad-fs-concepts).
 
 ## Overview
 

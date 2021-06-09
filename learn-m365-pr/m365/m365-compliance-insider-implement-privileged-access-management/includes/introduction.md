@@ -11,10 +11,10 @@ Watch the video below for a quick overview of privileged access management in Of
 >  -	Microsoft 365 E5 Compliance 
 >  -	Microsoft 365 E5 Insider Risk Management 
 > 
-> Please review [Microsoft 365 licensing guidance for security & compliance](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance?azure-portal=true) to identify required licenses for your organization.
+> Please review [Microsoft 365 licensing guidance for security & compliance](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance?azure-portal=true) to identify required licenses for your organization.
 
 ## Layers of protection 
-Privileged access management complements other data and access feature protections within the Office 365 security architecture. Including privileged access management as part of an integrated and layered approach to security provides a security model that maximizes protection of sensitive information and Office 365 configuration settings. As shown in the diagram, privileged access management builds on the protection provided with native encryption of Office 365 data and the role-based access control security model of Office 365 services. When used with [Azure AD Privileged Identity Management](https://docs.microsoft.com/azure/active-directory/active-directory-privileged-identity-management-configure?azure-portal=true), these two features provide access control with just-in-time access at different scopes. 
+Privileged access management complements other data and access feature protections within the Office 365 security architecture. Including privileged access management as part of an integrated and layered approach to security provides a security model that maximizes protection of sensitive information and Office 365 configuration settings. As shown in the diagram, privileged access management builds on the protection provided with native encryption of Office 365 data and the role-based access control security model of Office 365 services. When used with [Azure AD Privileged Identity Management](/azure/active-directory/active-directory-privileged-identity-management-configure?azure-portal=true), these two features provide access control with just-in-time access at different scopes. 
  
   ![Layers of protection](../media/layers-of-protection.png)
  
@@ -52,4 +52,4 @@ The approval workflow can also be illustrated as follows:
    ![Approval workflow](../media/approval-workflow.png)   
  
 ## Learn more
-- [What is Azure AD Privileged Identity Management?](https://docs.microsoft.com/azure/active-directory/privileged-identity-management/pim-configure/?azure-portal=true)
+- [What is Azure AD Privileged Identity Management?](/azure/active-directory/privileged-identity-management/pim-configure/?azure-portal=true)

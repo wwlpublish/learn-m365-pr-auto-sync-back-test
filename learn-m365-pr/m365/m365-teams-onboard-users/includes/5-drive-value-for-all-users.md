@@ -102,6 +102,6 @@ Be clear in your champions program design what your employees will get and what 
 
 ## Learn more
 
-- [Microsoft 365 Reports in the admin center - Microsoft Teams user activity](https://docs.microsoft.com/microsoft-365/admin/activity-reports/microsoft-teams-user-activity)
-- [Use activity reports for Microsoft Teams](https://docs.microsoft.com/microsoftteams/teams-activity-reports)
-- [Teams collaboration]( https://docs.microsoft.com/workplace-analytics/use/explore-metrics-teams)
+- [Microsoft 365 Reports in the admin center - Microsoft Teams user activity](/microsoft-365/admin/activity-reports/microsoft-teams-user-activity)
+- [Use activity reports for Microsoft Teams](/microsoftteams/teams-activity-reports)
+- [Teams collaboration]( /workplace-analytics/use/explore-metrics-teams)

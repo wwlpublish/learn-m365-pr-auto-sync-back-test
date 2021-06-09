@@ -141,8 +141,8 @@ New-GlobalAddressList -Name "<GAL Name>" [<Precanned recipient filter | Custom r
 ```
 
 ## Learn more
-- [Offline address books in Exchange Online](https://docs.microsoft.com/Exchange/address-books/offline-address-books/offline-address-books?azure-portal=true)
-- [Address book policies in Exchange Online](https://docs.microsoft.com/Exchange/address-books/address-book-policies/address-book-policies?azure-portal=true)
-- [Address book policy procedures in Exchange Online](https://docs.microsoft.com/Exchange/address-books/address-book-policies/address-book-policy-procedures?azure-portal=true)
-- [PowerShell command reference library](https://docs.microsoft.com/powershell/windows/get-started?view=win10-ps?azure-portal=true)
+- [Offline address books in Exchange Online](/Exchange/address-books/offline-address-books/offline-address-books?azure-portal=true)
+- [Address book policies in Exchange Online](/Exchange/address-books/address-book-policies/address-book-policies?azure-portal=true)
+- [Address book policy procedures in Exchange Online](/Exchange/address-books/address-book-policies/address-book-policy-procedures?azure-portal=true)
+- [PowerShell command reference library](/powershell/windows/get-started?azure-portal=true)
 

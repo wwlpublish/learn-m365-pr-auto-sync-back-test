@@ -6,7 +6,7 @@ Setting up hybrid connectivity is the first step in moving your on-premises envi
 
 If you have on-premises Skype for Business users that are also using Teams (side by side), those users do not have the ability to interoperate with Skype for Business users from their Teams client, nor communicate with users in federated organizations, from their Teams client. To gain this functionality in Teams, these users must be moved from Skype for Business on-premises to the cloud, which requires configuring Skype for Business hybrid mode. In addition, for the best experience, these users should be in TeamsOnly mode, which ensures all incoming calls and chats from any user land in the user’s Teams client.
 
-You can learn more about hybrid connectivity in the [Understanding hybrid connectivity](https://docs.microsoft.com/learn/modules/m365-teams-upgrade-hybrid/index) module.
+You can learn more about hybrid connectivity in the [Understanding hybrid connectivity](/learn/modules/m365-teams-upgrade-hybrid/index) module.
 
 ## Step 2: Set a transitional coexistence mode (optional)
 
@@ -18,7 +18,7 @@ Prior to users reaching TeamsOnly mode, organizations can optionally use any of 
 
 When a user is in any of the Skype for Business modes, all incoming chats and calls are routed to the user’s Skype for Business client. To avoid end-user confusion and ensure proper routing, calling and chat functionality in the Teams client is disabled when a user is in any of the Skype for Business modes. Similarly, meeting scheduling in Teams is explicitly disabled when users are in the SfBOnly or SfBWithTeamsCollab modes, and explicitly enabled when a user is in the SfBWithTeamsCollabAndMeetings mode.
 
- Depending on your requirements, you can assign the appropriate coexistence mode based on the upgrade path that your organization has chosen. For more information, see [Migration and interoperability guidance for organizations using Teams together with Skype for Business](https://docs.microsoft.com/MicrosoftTeams/migration-interop-guidance-for-teams-with-skype) and [Setting your coexistence and upgrade settings](https://aka.ms/SkypeToTeams-SetCoexistence).
+ Depending on your requirements, you can assign the appropriate coexistence mode based on the upgrade path that your organization has chosen. For more information, see [Migration and interoperability guidance for organizations using Teams together with Skype for Business](/MicrosoftTeams/migration-interop-guidance-for-teams-with-skype) and [Setting your coexistence and upgrade settings](https://aka.ms/SkypeToTeams-SetCoexistence).
 
 ## Step 3: Move users between Skype for Business on-premises to TeamsOnly
 
@@ -67,9 +67,9 @@ To move users between on-premises and the cloud, you must use an account with su
 
 When you're done with a link, use the **Back** arrow in your browser to come back to this page.
 
-- [Upgrade from Skype for Business on-premises to Teams](https://docs.microsoft.com/MicrosoftTeams/upgrade-to-teams-execute-skypeforbusinesshybridonprem)
-- [Move users between on-premises and the cloud](https://docs.microsoft.com/skypeforbusiness/hybrid/move-users-between-on-premises-and-cloud)
-- [Plan hybrid connectivity between Skype for Business Server and Microsoft 365](https://docs.microsoft.com/SkypeForBusiness/hybrid/plan-hybrid-connectivity?toc=/SkypeForBusiness/sfbhybridtoc/toc.json)
-- [Configure hybrid connectivity](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/deploy-hybrid-connectivity)
+- [Upgrade from Skype for Business on-premises to Teams](/MicrosoftTeams/upgrade-to-teams-execute-skypeforbusinesshybridonprem)
+- [Move users between on-premises and the cloud](/skypeforbusiness/hybrid/move-users-between-on-premises-and-cloud)
+- [Plan hybrid connectivity between Skype for Business Server and Microsoft 365](/SkypeForBusiness/hybrid/plan-hybrid-connectivity?toc=/SkypeForBusiness/sfbhybridtoc/toc.json)
+- [Configure hybrid connectivity](/skypeforbusiness/skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/deploy-hybrid-connectivity)
 - [Setting your coexistence and upgrade settings](https://aka.ms/SkypeToTeams-SetCoexistence)
-- [TeamsUpgradePolicy: managing migration and coexistence](https://docs.microsoft.com/MicrosoftTeams/migration-interop-guidance-for-teams-with-skype#teamsupgradepolicy-managing-migration-and-co-existence)
+- [TeamsUpgradePolicy: managing migration and coexistence](/MicrosoftTeams/migration-interop-guidance-for-teams-with-skype#teamsupgradepolicy-managing-migration-and-co-existence)

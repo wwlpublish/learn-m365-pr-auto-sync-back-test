@@ -43,5 +43,5 @@ The wpa R package includes the following essential and advanced features:
 
 - [Base R Cheat Sheet](https://www.rstudio.com/wp-content/uploads/2016/10/r-cheat-sheet-3.pdf?azure-portal=true)
 - [Resource on using R for data science](https://r4ds.had.co.nz?azure-portal=true)
-- [wpa R package documentation](https://docs.microsoft.com/workplace-analytics/tutorials/wpa-r-package?azure-portal=true)
+- [wpa R package documentation](/workplace-analytics/tutorials/wpa-r-package?azure-portal=true)
 - [wpa R package on CRAN](https://CRAN.R-project.org/package=wpa?azure-portal=true)

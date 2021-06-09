@@ -11,4 +11,4 @@ Teams provides a great out-of-the-box collaboration experience for your organiza
 When you're done with a link, use the **Back** arrow in your browser to come back to this page.
 
 - [Overview of apps in Teams](https://support.office.com/article/overview-of-apps-in-teams-747492ee-7cdd-4115-a993-8c7e7f98a3d0)
-- [Apps, bots, and connectors in Microsoft Teams](https://docs.microsoft.com/microsoftteams/deploy-apps-microsoft-teams-landing-page)
+- [Apps, bots, and connectors in Microsoft Teams](/microsoftteams/deploy-apps-microsoft-teams-landing-page)

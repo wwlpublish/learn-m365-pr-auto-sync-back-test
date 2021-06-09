@@ -10,7 +10,7 @@ Microsoft 365, together with Azure Active Directory (Azure AD), provides differe
      *  The agent validates the username and password against Active Directory by using standard Windows APIs, which is a similar mechanism to what is used by Active Directory Federation Services (AD FS). The username can either be the on-premises default username, usually User Principal Name, or another attribute (known as Alternate ID) configured in Azure AD Connect.
      *  The on-premises Active Directory domain controller (DC) evaluates the request and returns the appropriate response (success, failure, password expired, or user locked out) to the agent.
      *  The Authentication Agent returns this response back to Azure AD, then Azure AD evaluates the response and responds to the user as appropriate. For example, Azure AD either signs the user in immediately or requests Azure Active Directory Multi-Factor Authentication. If the user sign-in is successful, the user can access the application.
- *  **Azure AD pass-through Authentication with Seamless Single Sign On (SSO).** You can combine Pass-through Authentication with the [Seamless Single Sign-On](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect-sso?azure-portal=true) This way, when your users are accessing applications on their corporate machines inside your corporate network, they don't need to type in their passwords to sign in.
+ *  **Azure AD pass-through Authentication with Seamless Single Sign On (SSO).** You can combine Pass-through Authentication with the [Seamless Single Sign-On](/azure/active-directory/connect/active-directory-aadconnect-sso) This way, when your users are accessing applications on their corporate machines inside your corporate network, they don't need to type in their passwords to sign in.
  *  **Federated SSO (with Active Directory Federation Services (AD FS).** With federated sign-in, users sign in to Azure AD-based services with their on-premises passwords. This service uses an intermediary server call a WAP, which uses proxy DNS names to route your users to their desired location. While they're on the corporate network, they don't even have to enter their passwords. By using the federation option with AD FS, you can deploy a new or existing farm with AD FS in Windows Server 2012 R2. If you choose to specify an existing farm, Azure AD Connect configures the trust between your farm and Azure AD so that your users can sign in. **Note:** This option can be the most complex and the costliest to set up depending on your environment.
 
 The following table compares the different deployment strategies for implementing Microsoft 365 services:
@@ -65,10 +65,10 @@ The following table compares the different deployment strategies for implementin
     None
   :::column-end:::
   :::column:::
-    <a href="https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect-pass-through-authentication-quick-start?azure-portal=true"><span style="color: blue;">Outbound Internet access</span></a> from the servers running authentication agents
+    <a href="/azure/active-directory/connect/active-directory-aadconnect-pass-through-authentication-quick-start"><span style="color: blue;">Outbound Internet access</span></a> from the servers running authentication agents
   :::column-end:::
   :::column:::
-    <a href="https://docs.microsoft.com/windows-server/identity/ad-fs/overview/ad-fs-requirements?azure-portal=true"><span style="color: blue;">Inbound Internet access</span></a> to WAP servers in the perimeter<br>  Inbound network access to AD FS servers from WAP servers in the perimeter<br>  Network load balancing
+    <a href="/windows-server/identity/ad-fs/overview/ad-fs-requirements"><span style="color: blue;">Inbound Internet access</span></a> to WAP servers in the perimeter<br>  Inbound network access to AD FS servers from WAP servers in the perimeter<br>  Network load balancing
   :::column-end:::
 :::row-end:::
 :::row:::
@@ -93,10 +93,10 @@ The following table compares the different deployment strategies for implementin
     N/A
   :::column-end:::
   :::column:::
-    Agent status provided by <a href="https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect-troubleshoot-pass-through-authentication?azure-portal=true"><span style="color: blue;">Azure Active Directory admin center</span></a>
+    Agent status provided by <a href="/azure/active-directory/connect/active-directory-aadconnect-troubleshoot-pass-through-authentication"><span style="color: blue;">Azure Active Directory admin center</span></a>
   :::column-end:::
   :::column:::
-    <a href="https://docs.microsoft.com/azure/active-directory/connect-health/active-directory-aadconnect-health-adfs?azure-portal=true"><span style="color: blue;">Azure AD Connect Health</span></a>
+    <a href="/azure/active-directory/connect-health/active-directory-aadconnect-health-adfs"><span style="color: blue;">Azure AD Connect Health</span></a>
   :::column-end:::
 :::row-end:::
 :::row:::
@@ -104,10 +104,10 @@ The following table compares the different deployment strategies for implementin
     Do users get single sign-on to cloud resources from domain-joined devices within the company network?
   :::column-end:::
   :::column:::
-    Yes with <a href="https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect-sso?azure-portal=true"><span style="color: blue;">Seamless SSO</span></a>
+    Yes with <a href="/azure/active-directory/connect/active-directory-aadconnect-sso"><span style="color: blue;">Seamless SSO</span></a>
   :::column-end:::
   :::column:::
-    Yes with <a href="https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect-sso?azure-portal=true"><span style="color: blue;">Seamless SSO</span></a>
+    Yes with <a href="/azure/active-directory/connect/active-directory-aadconnect-sso"><span style="color: blue;">Seamless SSO</span></a>
   :::column-end:::
   :::column:::
     Yes
@@ -118,13 +118,13 @@ The following table compares the different deployment strategies for implementin
     What sign-in types are supported?
   :::column-end:::
   :::column:::
-    UserPrincipalName + password<br>  Windows Integrated Authentication by using <a href="https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect-sso?azure-portal=true"><span style="color: blue;">Seamless SSO</span></a><br>  <a href="https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect-get-started-custom?azure-portal=true"><span style="color: blue;">Alternate login ID</span></a>
+    UserPrincipalName + password<br>  Windows Integrated Authentication by using <a href="/azure/active-directory/connect/active-directory-aadconnect-sso"><span style="color: blue;">Seamless SSO</span></a><br>  <a href="/azure/active-directory/connect/active-directory-aadconnect-get-started-custom"><span style="color: blue;">Alternate login ID</span></a>
   :::column-end:::
   :::column:::
-    UserPrincipalName + password<br>  Windows Integrated Authentication by using <a href="https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect-sso?azure-portal=true"><span style="color: blue;">Seamless SSO</span></a><br>  <a href="https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect-pass-through-authentication-faq?azure-portal=true"><span style="color: blue;">Alternate login ID</span></a>
+    UserPrincipalName + password<br>  Windows Integrated Authentication by using <a href="/azure/active-directory/connect/active-directory-aadconnect-sso"><span style="color: blue;">Seamless SSO</span></a><br>  <a href="/azure/active-directory/connect/active-directory-aadconnect-pass-through-authentication-faq"><span style="color: blue;">Alternate login ID</span></a>
   :::column-end:::
   :::column:::
-    UserPrincipalName + password<br>  sAMAccountName + password<br>  Windows Integrated Authentication<br>  <a href="https://docs.microsoft.com/windows-server/identity/ad-fs/operations/configure-user-certificate-authentication?azure-portal=true"><span style="color: blue;">Certificate and smart card authentication</span></a><br>  <a href="https://docs.microsoft.com/windows-server/identity/ad-fs/operations/configuring-alternate-login-id?azure-portal=true"><span style="color: blue;">Alternate login ID</span></a>
+    UserPrincipalName + password<br>  sAMAccountName + password<br>  Windows Integrated Authentication<br>  <a href="/windows-server/identity/ad-fs/operations/configure-user-certificate-authentication"><span style="color: blue;">Certificate and smart card authentication</span></a><br>  <a href="/windows-server/identity/ad-fs/operations/configuring-alternate-login-id"><span style="color: blue;">Alternate login ID</span></a>
   :::column-end:::
 :::row-end:::
 :::row:::
@@ -132,13 +132,13 @@ The following table compares the different deployment strategies for implementin
     Is Windows Hello for Business supported?
   :::column-end:::
   :::column:::
-    <a href="https://docs.microsoft.com/windows/security/identity-protection/hello-for-business/hello-identity-verification?azure-portal=true"><span style="color: blue;">Key trust model</span></a><br>  <a href="https://docs.microsoft.com/intune/certificates-configure?azure-portal=true"><span style="color: blue;">Certificate trust model with Intune</span></a>
+    <a href="/windows/security/identity-protection/hello-for-business/hello-identity-verification"><span style="color: blue;">Key trust model</span></a><br>  <a href="/intune/certificates-configure"><span style="color: blue;">Certificate trust model with Intune</span></a>
   :::column-end:::
   :::column:::
-    <a href="https://docs.microsoft.com/windows/security/identity-protection/hello-for-business/hello-identity-verification"><span style="color: blue;">Key trust model</span></a><br>  <a href="https://docs.microsoft.com/intune/certificates-configure?azure-portal=true"><span style="color: blue;">Certificate trust model with Intune</span></a>
+    <a href="/windows/security/identity-protection/hello-for-business/hello-identity-verification"><span style="color: blue;">Key trust model</span></a><br>  <a href="/intune/certificates-configure"><span style="color: blue;">Certificate trust model with Intune</span></a>
   :::column-end:::
   :::column:::
-    <a href="https://docs.microsoft.com/windows/security/identity-protection/hello-for-business/hello-identity-verification?azure-portal=true"><span style="color: blue;">Key trust model</span></a><br>  <a href="https://docs.microsoft.com/windows/security/identity-protection/hello-for-business/hello-key-trust-adfs?azure-portal=true"><span style="color: blue;">Certificate trust model</span></a>
+    <a href="/windows/security/identity-protection/hello-for-business/hello-identity-verification"><span style="color: blue;">Key trust model</span></a><br>  <a href="/windows/security/identity-protection/hello-for-business/hello-key-trust-adfs"><span style="color: blue;">Certificate trust model</span></a>
   :::column-end:::
 :::row-end:::
 :::row:::
@@ -146,13 +146,13 @@ The following table compares the different deployment strategies for implementin
     What are the multifactor authentication options?
   :::column-end:::
   :::column:::
-    <a href="https://docs.microsoft.com/azure/multi-factor-authentication/?azure-portal=true"><span style="color: blue;">Azure MFA</span></a>
+    <a href="/azure/multi-factor-authentication/"><span style="color: blue;">Azure MFA</span></a>
   :::column-end:::
   :::column:::
-    <a href="https://docs.microsoft.com/azure/multi-factor-authentication/?azure-portal=true"><span style="color: blue;">Azure MFA</span></a>
+    <a href="/azure/multi-factor-authentication/"><span style="color: blue;">Azure MFA</span></a>
   :::column-end:::
   :::column:::
-    <a href="https://docs.microsoft.com/azure/multi-factor-authentication/?azure-portal=true"><span style="color: blue;">Azure MFA</span></a><br>  <a href="https://docs.microsoft.com/azure/active-directory/authentication/howto-mfaserver-deploy?azure-portal=true"><span style="color: blue;">Azure MFA server</span></a><br>  <a href="https://docs.microsoft.com/windows-server/identity/ad-fs/operations/configure-additional-authentication-methods-for-ad-fs?azure-portal=true"><span style="color: blue;">Third-party MFA</span></a>
+    <a href="/azure/multi-factor-authentication/"><span style="color: blue;">Azure MFA</span></a><br>  <a href="/azure/active-directory/authentication/howto-mfaserver-deploy"><span style="color: blue;">Azure MFA server</span></a><br>  <a href="/windows-server/identity/ad-fs/operations/configure-additional-authentication-methods-for-ad-fs"><span style="color: blue;">Third-party MFA</span></a>
   :::column-end:::
 :::row-end:::
 :::row:::
@@ -174,13 +174,13 @@ The following table compares the different deployment strategies for implementin
     What are the conditional access options?
   :::column-end:::
   :::column:::
-    <a href="https://docs.microsoft.com/azure/active-directory/active-directory-conditional-access-azure-portal?azure-portal=true"><span style="color: blue;">Azure AD conditional access</span></a>
+    <a href="/azure/active-directory/active-directory-conditional-access-azure-portal"><span style="color: blue;">Azure AD conditional access</span></a>
   :::column-end:::
   :::column:::
-    <a href="https://docs.microsoft.com/azure/active-directory/active-directory-conditional-access-azure-portal?azure-portal=true"><span style="color: blue;">Azure AD conditional access</span></a>
+    <a href="/azure/active-directory/active-directory-conditional-access-azure-portal"><span style="color: blue;">Azure AD conditional access</span></a>
   :::column-end:::
   :::column:::
-    <a href="https://docs.microsoft.com/azure/active-directory/active-directory-conditional-access-azure-portal?azure-portal=true"><span style="color: blue;">Azure AD conditional access</span></a><br>  <a href="https://adfshelp.microsoft.com/AadTrustClaims/ClaimsGenerator?azure-portal=true"><span style="color: blue;">AD FS claim rules</span></a>
+    <a href="/azure/active-directory/active-directory-conditional-access-azure-portal"><span style="color: blue;">Azure AD conditional access</span></a><br>  <a href="https://adfshelp.microsoft.com/AadTrustClaims/ClaimsGenerator?azure-portal=true"><span style="color: blue;">AD FS claim rules</span></a>
   :::column-end:::
 :::row-end:::
 :::row:::
@@ -188,13 +188,13 @@ The following table compares the different deployment strategies for implementin
     Is blocking legacy protocols supported?
   :::column-end:::
   :::column:::
-    <a href="https://docs.microsoft.com/azure/active-directory/active-directory-conditional-access-conditions#legacy-authentication?azure-portal=true"><span style="color: blue;">Yes</span></a>
+    <a href="/azure/active-directory/active-directory-conditional-access-conditions#legacy-authentication?azure-portal=true"><span style="color: blue;">Yes</span></a>
   :::column-end:::
   :::column:::
-    <a href="https://docs.microsoft.com/azure/active-directory/active-directory-conditional-access-conditions#legacy-authentication?azure-portal=true"><span style="color: blue;">Yes</span></a>
+    <a href="/azure/active-directory/active-directory-conditional-access-conditions#legacy-authentication?azure-portal=true"><span style="color: blue;">Yes</span></a>
   :::column-end:::
   :::column:::
-    <a href="https://docs.microsoft.com/windows-server/identity/ad-fs/operations/access-control-policies-w2k12?azure-portal=true"><span style="color: blue;">Yes</span></a>
+    <a href="/windows-server/identity/ad-fs/operations/access-control-policies-w2k12"><span style="color: blue;">Yes</span></a>
   :::column-end:::
 :::row-end:::
 :::row:::
@@ -202,13 +202,13 @@ The following table compares the different deployment strategies for implementin
     Can you customize the logo, image, and description on the sign-in pages?
   :::column-end:::
   :::column:::
-    <a href="https://docs.microsoft.com/azure/active-directory/customize-branding?azure-portal=true"><span style="color: blue;">Yes, with Azure AD Premium</span></a>
+    <a href="/azure/active-directory/customize-branding"><span style="color: blue;">Yes, with Azure AD Premium</span></a>
   :::column-end:::
   :::column:::
-    <a href="https://docs.microsoft.com/azure/active-directory/customize-branding?azure-portal=true"><span style="color: blue;">Yes, with Azure AD Premium</span></a>
+    <a href="/azure/active-directory/customize-branding"><span style="color: blue;">Yes, with Azure AD Premium</span></a>
   :::column-end:::
   :::column:::
-    <a href="https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect-federation-management#customlogo?azure-portal=true"><span style="color: blue;">Yes</span></a>
+    <a href="/azure/active-directory/connect/active-directory-aadconnect-federation-management#customlogo?azure-portal=true"><span style="color: blue;">Yes</span></a>
   :::column-end:::
 :::row-end:::
 :::row:::
@@ -216,13 +216,13 @@ The following table compares the different deployment strategies for implementin
     What advanced scenarios are supported?
   :::column-end:::
   :::column:::
-    <a href="https://docs.microsoft.com/azure/active-directory/active-directory-secure-passwords?azure-portal=true"><span style="color: blue;">Smart password lockout</span></a><br>  <a href="https://docs.microsoft.com/azure/active-directory/active-directory-reporting-risk-events?azure-portal=true"><span style="color: blue;">Leaked credentials reports</span></a>
+    <a href="/azure/active-directory/active-directory-secure-passwords"><span style="color: blue;">Smart password lockout</span></a><br>  <a href="/azure/active-directory/active-directory-reporting-risk-events"><span style="color: blue;">Leaked credentials reports</span></a>
   :::column-end:::
   :::column:::
-    <a href="https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect-pass-through-authentication-smart-lockout?azure-portal=true"><span style="color: blue;">Smart password lockout</span></a>
+    <a href="/azure/active-directory/connect/active-directory-aadconnect-pass-through-authentication-smart-lockout"><span style="color: blue;">Smart password lockout</span></a>
   :::column-end:::
   :::column:::
-    Multi-site low-latency authentication system<br>  <a href="https://docs.microsoft.com/windows-server/identity/ad-fs/operations/configure-ad-fs-extranet-smart-lockout-protection?azure-portal=true"><span style="color: blue;">AD FS extranet lockout</span></a><br>  <a href="https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect-federation-compatibility?azure-portal=true"><span style="color: blue;">Integration with third-party identity systems</span></a>
+    Multi-site low-latency authentication system<br>  <a href="/windows-server/identity/ad-fs/operations/configure-ad-fs-extranet-smart-lockout-protection"><span style="color: blue;">AD FS extranet lockout</span></a><br>  <a href="/azure/active-directory/connect/active-directory-aadconnect-federation-compatibility"><span style="color: blue;">Integration with third-party identity systems</span></a>
   :::column-end:::
 :::row-end:::
 

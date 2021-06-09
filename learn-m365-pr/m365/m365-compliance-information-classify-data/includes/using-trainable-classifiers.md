@@ -80,7 +80,7 @@ Watch this video on trainable classifiers.
 
 > 
 ## Learn more
-- [Get started with trainable classifiers](https://docs.microsoft.com/microsoft-365/compliance/classifier-getting-started-with?azure-portal=true)
-- [Using a built-in classifier](https://docs.microsoft.com/microsoft-365/compliance/classifier-using-a-ready-to-use-classifier?azure-portal=true)
-- [Creating a trainable classifier](https://docs.microsoft.com/microsoft-365/compliance/classifier-creating-a-trainable-classifier?azure-portal=true)
+- [Get started with trainable classifiers](/microsoft-365/compliance/classifier-getting-started-with?azure-portal=true)
+- [Using a built-in classifier](/microsoft-365/compliance/classifier-using-a-ready-to-use-classifier?azure-portal=true)
+- [Creating a trainable classifier](/microsoft-365/compliance/classifier-creating-a-trainable-classifier?azure-portal=true)
 

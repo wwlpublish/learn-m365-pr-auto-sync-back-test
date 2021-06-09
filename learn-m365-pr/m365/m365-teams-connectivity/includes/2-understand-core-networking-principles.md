@@ -57,6 +57,6 @@ You can test your network access to Microsoft 365 using the **Microsoft 365 Netw
 
 ## Learn more
 
-- [Use the Network Planner for Microsoft Teams](https://docs.microsoft.com/microsoftteams/network-planner)
-- [Media Quality and Network Connectivity Performance in Skype for Business](https://docs.microsoft.com/SkypeForBusiness/optimizing-your-network/media-quality-and-network-connectivity-performance)
+- [Use the Network Planner for Microsoft Teams](/microsoftteams/network-planner)
+- [Media Quality and Network Connectivity Performance in Skype for Business](/SkypeForBusiness/optimizing-your-network/media-quality-and-network-connectivity-performance)
 - [Microsoft 365 Network Onboarding Tool](https://connectivity.office.com/)

@@ -3,7 +3,7 @@ uid: learn-m365.information-protection-real-time-controls
 metadata:
   title: Protect information in real time with Microsoft Cloud App Security
   description: Learn to configure information protection in Microsoft Cloud App Security and protect data stored in all locations, including non-Microsoft services.
-  ms.date: 05/13/2021
+  ms.date: 05/14/2021
   author: geoffallix
   ms.author: beccarobins
   ms.topic: interactive-tutorial
@@ -26,7 +26,7 @@ prerequisites: |
   - Knowledge of security concepts, risks, and mitigations
   - Microsoft Cloud App Security fundamentals or equivalent
 
-iconUrl: /learn/achievements/generic-badge.svg
+iconUrl: /learn/achievements/protect-information-in-real-time-with-mcas.svg
 levels:
 - intermediate
 roles:

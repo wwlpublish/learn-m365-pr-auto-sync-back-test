@@ -31,7 +31,7 @@ Microsoft 365 Advanced Audit adds new auditing capabilities that can help your o
 > - Microsoft 365 E5 Compliance 
 > - Microsoft 365 E5 eDiscovery and Audit 
 >
-> Please review [Microsoft 365 licensing guidance for security & compliance](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance?azure-portal=true) to identify required licenses for your organization.
+> Please review [Microsoft 365 licensing guidance for security & compliance](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance?azure-portal=true) to identify required licenses for your organization.
 
 ## Access crucial events
 Basic Microsoft 365 auditing capabilities give you access to over 1,500 audit event types that satisfy most requirements. However, there are some situations where this may not provide enough information to determine when someone breached your environment, or what the attacker accessed. For example, if an earnings document was leaked in an email, the basic auditing events don't tell you who opened the email. This signal could make a critical difference in a forensic investigation. Without clear indicators, you must assume the worst, which can lead to higher cost and longer turnaround time to control risk.
@@ -64,8 +64,8 @@ Advanced Audit changes the way bandwidth is allocated to enable faster access to
 Each organization gets their own fully allocated bandwidth to access auditing data. The bandwidth is not a static predefined limit but is modeled on a combination of factors. All organizations are initially allocated a baseline of 2,000 requests per minute. This limit will dynamically increase depending on an organization's seat count and their licensing subscription. Organizations licensed for Advanced Audit will get approximately twice as much bandwidth as those that are not. There will also be a cap on the maximum bandwidth to protect the health of the service.
 
 ## Learn more
-- [Search the audit log in the Security & Compliance Center](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance#introduction?azure-portal=true)
-- [Office 365 Management APIs](https://docs.microsoft.com/office/office-365-management-api/?azure-portal=true)
-- [Audited Activities](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance#audited-activities?azure-portal=true)
-- [Detailed properties in the audit log](https://docs.microsoft.com/microsoft-365/compliance/detailed-properties-in-the-office-365-audit-log?azure-portal=true)
-- [Microsoft 365 licensing guidance for advanced audit](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#advanced-audit?azure-portal=true)
+- [Search the audit log in the Security & Compliance Center](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance#introduction?azure-portal=true)
+- [Office 365 Management APIs](/office/office-365-management-api/?azure-portal=true)
+- [Audited Activities](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance#audited-activities?azure-portal=true)
+- [Detailed properties in the audit log](/microsoft-365/compliance/detailed-properties-in-the-office-365-audit-log?azure-portal=true)
+- [Microsoft 365 licensing guidance for advanced audit](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#advanced-audit?azure-portal=true)

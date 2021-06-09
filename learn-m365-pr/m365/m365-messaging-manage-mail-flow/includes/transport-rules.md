@@ -237,10 +237,10 @@ To import an XML rule file, use this command:
 
  
 ## Learn more 
-- [Mail flow rule conditions and exceptions (predicates) in Exchange Online](https://docs.microsoft.com/Exchange/security-and-compliance/mail-flow-rules/conditions-and-exceptions?azure-portal=true) 
-- [Mail flow rule actions in Exchange Online](https://docs.microsoft.com//Exchange/security-and-compliance/mail-flow-rules/mail-flow-rule-actions?azure-portal=true) 
-- [Mail flow rule properties](https://docs.microsoft.com/Exchange/security-and-compliance/mail-flow-rules/mail-flow-rules#mail-flow-rule-properties?azure-portal=true) 
+- [Mail flow rule conditions and exceptions (predicates) in Exchange Online](/Exchange/security-and-compliance/mail-flow-rules/conditions-and-exceptions?azure-portal=true) 
+- [Mail flow rule actions in Exchange Online](//Exchange/security-and-compliance/mail-flow-rules/mail-flow-rule-actions?azure-portal=true) 
+- [Mail flow rule properties](/Exchange/security-and-compliance/mail-flow-rules/mail-flow-rules#mail-flow-rule-properties?azure-portal=true) 
 - [Microsoft 365 Security & Compliance center](https://protection.office.com?azure-portal=true) 
 - [Exchange admin center](https://outlook.office365.com/ecp?azure-portal=true) 
-- [Create, test, and tune a DLP policy](https://docs.microsoft.com/microsoft-365/compliance/create-test-tune-dlp-policy?view=o365-worldwide&azure-portal=true) 
-- [Manage mail flow rules in Exchange Online](https://docs.microsoft.com/Exchange/security-and-compliance/mail-flow-rules/manage-mail-flow-rules?azure-portal=true) 
+- [Create, test, and tune a DLP policy](/microsoft-365/compliance/create-test-tune-dlp-policy?azure-portal=true) 
+- [Manage mail flow rules in Exchange Online](/Exchange/security-and-compliance/mail-flow-rules/manage-mail-flow-rules?azure-portal=true) 

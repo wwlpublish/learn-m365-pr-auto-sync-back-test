@@ -9,7 +9,6 @@ metadata:
   ms.author: Bneeb
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-  ROBOTS: NOINDEX 
 durationInMinutes: 4
 content: |
   [!include[](includes/6-managing-apps-on-non-enrolled-devices.md)] 

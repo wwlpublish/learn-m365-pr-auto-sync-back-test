@@ -24,11 +24,11 @@ At a minimum, you'll need access to an Office 365 organization with custom app u
 
 Developers have multiple options when building Microsoft Teams apps.
 
-The community-based **Yeoman Generator for Microsoft Teams** (*also known as: "yo teams"*) scaffolds a project once the developer has answered a few questions for the type of Microsoft Teams app they're building. You can learn more about the Yeoman Generator for Microsoft Teams here: [Create your First Microsoft Teams App](https://docs.microsoft.com/microsoftteams/platform/tutorials/get-started-yeoman).
+The community-based **Yeoman Generator for Microsoft Teams** (*also known as: "yo teams"*) scaffolds a project once the developer has answered a few questions for the type of Microsoft Teams app they're building. You can learn more about the Yeoman Generator for Microsoft Teams here: [Create your First Microsoft Teams App](/microsoftteams/platform/tutorials/get-started-yeoman).
 
-The **Microsoft Teams Toolkit** enables you to create custom Teams apps directly within the **Visual Studio Code** environment. The toolkit guides you through the process and provides everything you need to build, debug, and launch your Teams app. You can learn more about the Microsoft Teams Toolkit for Visual Studio Code here: [Build apps with the Microsoft Teams Toolkit and Visual Studio Code](https://docs.microsoft.com/microsoftteams/platform/toolkit/visual-studio-code-overview).
+The **Microsoft Teams Toolkit** enables you to create custom Teams apps directly within the **Visual Studio Code** environment. The toolkit guides you through the process and provides everything you need to build, debug, and launch your Teams app. You can learn more about the Microsoft Teams Toolkit for Visual Studio Code here: [Build apps with the Microsoft Teams Toolkit and Visual Studio Code](/microsoftteams/platform/toolkit/visual-studio-code-overview).
 
-The **Microsoft Teams Toolkit** enables you to create custom Teams apps directly within the **Visual Studio** integrated development environment (IDE). The Microsoft Teams toolkit guides you through the process and provides everything you need to build, debug, and launch your Teams app. You can learn more about the Microsoft Teams Toolkit for Visual Studio Code here: [Build apps with the Microsoft Teams Toolkit and Visual Studio](https://docs.microsoft.com/microsoftteams/platform/toolkit/visual-studio-overview)
+The **Microsoft Teams Toolkit** enables you to create custom Teams apps directly within the **Visual Studio** integrated development environment (IDE). The Microsoft Teams toolkit guides you through the process and provides everything you need to build, debug, and launch your Teams app. You can learn more about the Microsoft Teams Toolkit for Visual Studio Code here: [Build apps with the Microsoft Teams Toolkit and Visual Studio](/microsoftteams/platform/toolkit/visual-studio-overview)
 
 ## Build your web services
 
@@ -40,7 +40,7 @@ Once you've decided how users are going to interact with your app, its time to b
 - A set of open-source controls for your web content pages, Fluent UI
 - Ready-for-production App Templates
 
-For the complete list of tools and samples available to help you get started, see [the complete documentation](https://docs.microsoft.com/microsoftteams/platform/).
+For the complete list of tools and samples available to help you get started, see [the complete documentation](/microsoftteams/platform/).
 
 Remember, you'll need to host your web services in a way that makes them publicly accessible over the internet (typically in a cloud service provider like Azure), and serve up your content over HTTPS.
 

@@ -22,5 +22,5 @@ The image below shows the Audit solution in the Microsoft 365 compliance center.
 ![Audit solution in the Microsoft 365 compliance center ](../media/audit.png) 
 
 ## Learn more
-- [Turn audit log search on or off](https://docs.microsoft.com/microsoft-365/compliance/turn-audit-log-search-on-or-off?azure-portal=true)
-- [Permission requirements for retention policy creation and modification](https://docs.microsoft.com/microsoft-365/compliance/audit-log-retention-policies%23before-you-begin?azure-portal=true)
+- [Turn audit log search on or off](/microsoft-365/compliance/turn-audit-log-search-on-or-off?azure-portal=true)
+- [Permission requirements for retention policy creation and modification](/microsoft-365/compliance/audit-log-retention-policies%23before-you-begin?azure-portal=true)

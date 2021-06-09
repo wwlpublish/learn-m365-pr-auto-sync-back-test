@@ -44,4 +44,4 @@ The data collected during an incident response is often sensitive and must remai
 
 ## Learn more
 
-- [Microsoft 365 security incident management: Preparation](https://docs.microsoft.com/compliance/assurance/assurance-sim-preparation?azure-portal=true)
+- [Microsoft 365 security incident management: Preparation](/compliance/assurance/assurance-sim-preparation?azure-portal=true)

@@ -3,9 +3,9 @@ uid: learn-m365.edu-manage-devices
 metadata:
   title: Manage devices used for education 
   description: This module will introduce some of the tools you can leverage to deploy and manage devices used for education.
-  ms.date: 10/14/2020
+  ms.date: 06/03/2021
   author: iankensey
-  ms.author: v-iakens
+  ms.author: beccarobins
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Manage devices used for education 
@@ -18,7 +18,7 @@ abstract: |
  - Configure Take a Test profile.
 prerequisites: |
    - Basic understanding of modern management in Microsoft 365  
-iconUrl: https://docs.microsoft.com/media/learn/module.svg
+iconUrl: /learn/achievements/generic-badge.svg
 levels: 
 - beginner
 roles: 

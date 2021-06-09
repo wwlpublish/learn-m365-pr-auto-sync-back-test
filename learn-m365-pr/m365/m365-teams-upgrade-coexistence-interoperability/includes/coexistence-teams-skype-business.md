@@ -55,5 +55,5 @@ You can learn more about coexistence modes in the module **Upgrade to Teams from
 
 When you're done with a link, use the **Back** arrow in your browser to come back to this page.
 
-- [Understand Microsoft Teams and Skype for Business coexistence and interoperability](https://docs.microsoft.com/MicrosoftTeams/teams-and-skypeforbusiness-coexistence-and-interoperability)
+- [Understand Microsoft Teams and Skype for Business coexistence and interoperability](/MicrosoftTeams/teams-and-skypeforbusiness-coexistence-and-interoperability)
 - [Skype to Teams Upgrade Wizard](https://www.microsoft.com/fasttrack/teams-upgrade-plan?rtc=1)

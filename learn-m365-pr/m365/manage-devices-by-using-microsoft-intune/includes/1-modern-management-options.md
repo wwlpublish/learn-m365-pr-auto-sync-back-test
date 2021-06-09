@@ -41,7 +41,7 @@ In the following diagram, you can see how Intune interacts with other components
 
 
 ## Learn more
-- [Planning for Mobile Device Management](https://docs.microsoft.com/intune/fundamentals/planning-guide?azure-portal=true)
-- [Configure Mobile Device Management integration with Azure AD](https://docs.microsoft.com/windows/client-management/mdm/azure-active-directory-integration-with-mdm?azure-portal=true) 
-- [Mobile Device Management Authority](https://docs.microsoft.com/intune/fundamentals/mdm-authority-set?azure-portal=true)
-- [Device enrollment restrictions](https://docs.microsoft.com/intune/enrollment/enrollment-restrictions-set?azure-portal=true)
+- [Planning for Mobile Device Management](/intune/fundamentals/planning-guide?azure-portal=true)
+- [Configure Mobile Device Management integration with Azure AD](/windows/client-management/mdm/azure-active-directory-integration-with-mdm?azure-portal=true) 
+- [Mobile Device Management Authority](/intune/fundamentals/mdm-authority-set?azure-portal=true)
+- [Device enrollment restrictions](/intune/enrollment/enrollment-restrictions-set?azure-portal=true)
