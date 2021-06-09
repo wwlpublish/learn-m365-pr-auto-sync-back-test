@@ -1,0 +1,32 @@
+### YamlMime:Module
+uid: learn-m365.TBD
+metadata:
+  title: TBD
+  description: Learn about SharePoint Syntex, including the business problem it solves, how it works, and common scenarios for use.
+  ms.date: 06/09/2021
+  author: beccarobins
+  ms.author: beccarobins
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: TBD
+summary: Learn about SharePoint Syntex, including the business problem it solves, how it works, and common scenarios for use.
+abstract: |
+ TBD
+prerequisites: | 
+   - TBD
+iconUrl:  /learn/achievements/generic-badge.svg
+ratingEnabled: true
+levels:
+- beginner
+roles:
+- administrator
+- business-user
+products:
+- m365
+units:
+- learn-m365.TBD.introduction
+- learn-m365.TBD.knowledge-check
+- learn-m365.TBD.summary
+
+badge: 
+  uid: learn-m365.TBD.badges
