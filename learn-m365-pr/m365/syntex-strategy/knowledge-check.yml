@@ -1,9 +1,9 @@
 ### YamlMime:ModuleUnit
-uid: learn-m365.TBD.knowledge-check
+uid: learn-m365.syntex-strategy.knowledge-check
 title: Knowledge check
 metadata:
   title: Knowledge check
-  description:  Learn about SharePoint Syntex, including the business problem it solves, how it works, and common scenarios for use.
+  description:  Develop a plan to administer and utilize SharePoint Syntex for your specific organization’s content understanding solution needs and requirements.
   ms.date: 06/09/2021
   author: beccarobins
   ms.author: beccarobins
