@@ -1,1 +1,9 @@
-Enter content here.
+People can only do so much with the time they have in a day – with thousands of documents circulating throughout your organization in just a week, how do you make real sense of all the information efficiently and profitably? SharePoint Syntex is a content understanding, processing, and compliance service that uses AI and machine learning to automatically and thoughtfully organize and classify documents in your SharePoint library – transforming your data into knowledge. 
+
+Suggested video: https://www.microsoft.com/en-us/videoplayer/embed/RE4GJXS  
+
+Imagine you work for Contoso Electronics. The company handles a high-volume of documents and forms transferred between you, your clients, and all the departments within your business – from HR to accounting to sales. Documents and forms will typically include contracts, billing statements, forms, inquiries, applications, and more. Most of these documents are already stored in your SharePoint library. However, you and your team realize that the number of filed documents is growing, and it’s becoming increasingly difficult to locate the information needed in these different types of documents quickly, decreasing overall efficiency and profitability. A quarterly accounting deadline is looming, and you know that financial data needs to be organized and extracted from many of these documents.
+
+In this module, you will learn what SharePoint Syntex is and how it can help resolve this challenge; including how it works and when to use and not use Syntex. By delivering more efficient business processes, we will see in this example how Syntex can save hundreds of hours of labor and greatly impact business efficiency to not only help meet quarterly goals, but also create a solid foundation for content understanding.
+
+And by the end of this module, you will understand the major components of SharePoint Syntex and identify how Syntex can help you customize your business workflow to automate document processing. You will also learn which parts of Syntex to use for your specific workplace needs.
