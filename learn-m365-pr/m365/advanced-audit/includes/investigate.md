@@ -1,6 +1,7 @@
 Using **MailItemsAccessed** audit records for forensic purposes is typically performed after a data breach has been identified and the attacker evicted. To begin your investigation, identify the mailboxes that may have been compromised and determine the time frame when the attacker had access. Then, you can use the **Search-UnifiedAuditLog** or **Search-MailboxAuditLog** cmdlets in Exchange Online PowerShell to search the audit records that correspond to the data breach. 
 
 Once you connect to the Exchange Online PowerShell, you can follow the steps below for using **MailItemsAccessed** audit records to investigate a compromised email account. 
+
 1. Identify throttled mailboxes.
 2. Check for sync activities.
 3. Check sync activity context.
@@ -31,10 +32,10 @@ To connect to the Exchange Online PowerShell V2, open Windows PowerShell and fol
 Here you can see a successful connection to Exchange Online PowerShell V2.
 
  ![Successful connection to Exchange Online PowerShell V2.](../media/exchange-online.png)
- 
+
 ### Accounts with multi-factor authentication enabled
 
-1. Replace <UPN> with your account in user principal name format (meganb@contoso.com) and run the following command:
+1. Replace `UPN` with your account in user principal name format (meganb@contoso.com) and run the following command:
 
     `Connect-ExchangeOnline -UserPrincipalName <UPN> -ShowProgress $true`
 
@@ -81,8 +82,7 @@ Check sync activities to determine if sync activity occurred in the same context
 |  SessionId | Session ID helps to differentiate attacker actions vs. day-to-day user activities on the same account (in the case of a compromised account)  |
 |  UserId |  UPN of the user reading the message |
 
-
-The following PowerShell command helps determine the context for the sync activity. Substitute the values for EndDate, StartDate, and Identity with what is appropriate for your situation. 
+The following PowerShell command helps determine the context for the sync activity. Substitute the values for EndDate, StartDate, and Identity with what is appropriate for your situation.
 
 `Search-MailboxAuditLog -Identity meganb -StartDate 05/13/2020 -EndDate 05/14/2020 -ShowDetails -Operations MailltemsAccessed -ResultSize 2000 | Select LastAccessed, Operation, ClientIPAddress, ClientInfoString`
 
@@ -108,7 +108,7 @@ Here is the result of running the PowerShell command shown above:
 
  ![The PowerShell command results from checking for bind activities showing all the times user meganb accessed mail through Microsoft Exchange on the specified date.](../media/search-unifiedauditlog-2.png)
 
-Email messages that were accessed are identified by their **InternetMessageId** value. You can also check to see if any audit records have the same context as those records already associated with other attacker activity. 
+Email messages that were accessed are identified by their **InternetMessageId** value. You can also check to see if any audit records have the same context as those records already associated with other attacker activity.
 
 You can use the audit data for bind operations in two different ways:
 
