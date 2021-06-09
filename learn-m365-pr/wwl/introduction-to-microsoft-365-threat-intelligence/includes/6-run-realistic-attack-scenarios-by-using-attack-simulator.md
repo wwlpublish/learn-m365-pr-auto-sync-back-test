@@ -1,4 +1,4 @@
-Organizations that have Microsoft 365 E5 or Microsoft Defender for Office 365 Plan 2 (which includes [Threat Investigation and Response capabilities](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-ti?azure-portal=true)) can use Attack simulation training in the Microsoft Security Center to run realistic attack scenarios. These simulated attacks can help identify vulnerable users and change their behaviors before a real attack impacts an organization's bottom line.
+Organizations that have Microsoft 365 E5 or Microsoft Defender for Office 365 Plan 2 (which includes [Threat Investigation and Response capabilities](/microsoft-365/security/office-365-security/office-365-ti)) can use Attack simulation training in the Microsoft Security Center to run realistic attack scenarios. These simulated attacks can help identify vulnerable users and change their behaviors before a real attack impacts an organization's bottom line.
 
 > [!NOTE]
 > Attack simulation training replaces the old Attack Simulator experience that's described in Attack Simulator in Microsoft Defender for Office 365.

@@ -14,7 +14,7 @@ You can use the same threat-hunting queries to build custom detection rules. The
 
 It's recommended that you complete several steps to quickly get started with advanced hunting in Microsoft 365 Defender:
 
-1.  **Learn the language.** Advanced hunting is based on [Kusto query language](https://docs.microsoft.com/azure/kusto/query/https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-ti?azure-portal=true), supporting the same syntax and operators. Start learning the query language by running your first query.
+1.  **Learn the language.** Advanced hunting is based on [Kusto query language](/azure/kusto/query/https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-ti?azure-portal=true), supporting the same syntax and operators. Start learning the query language by running your first query.
 2.  **Learn how to use the query results.** Learn about charts and various ways you can view or export your results. Explore how you can quickly tweak queries, drill down to get richer information, and take response actions.
 3.  **Understand the schema.** Get a good, high-level understanding of the tables in the schema and their columns. Learn where to look for data when constructing your queries.
 4.  **Get expert tips and examples.** Train for free with guides from Microsoft experts. Explore collections of predefined queries covering different threat hunting scenarios.
