@@ -126,7 +126,7 @@ While there are many roles in the Security and Compliance Center, only certain r
 | <p>View-only Record Management</p>         |           <p>X</p>            |              <p> </p>              |        <p> </p>         |         <p> </p>          |            <p> </p>             |       <p> </p>       |
 | <p>View-only Retention Management</p>      |           <p>X</p>            |              <p> </p>              |        <p> </p>         |         <p> </p>          |            <p> </p>             |       <p> </p>       |
 
-**Additional reading.** For more information on alerts, see [Alert policies in the Security and Compliance Center](https://docs.microsoft.com/office365/securitycompliance/alert-policies?azure-portal=true).
+**Additional reading.** For more information on alerts, see [Alert policies in the Security and Compliance Center](/office365/securitycompliance/alert-policies).
 
 ## Knowledge check
 

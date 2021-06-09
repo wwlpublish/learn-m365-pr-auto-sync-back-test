@@ -1,3 +1,5 @@
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4NzEw]
+
 In this exercise, you'll create a custom channel tab that displays information about the current user, which was retrieved from Microsoft Graph.
 
 ## Prerequisites
@@ -196,6 +198,8 @@ const handleGetMyMessagesOnClick = async (event): Promise<void> => {
 ```
 
 ## Implement the authentication and Microsoft Graph request logic
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4NzEy]
 
 At this point, the tab is ready to add the logic necessary to request the email messages for the current user. Before you request email messages from Microsoft Graph, you need the user to sign in and obtain an access token from Azure AD. There are multiple steps to do to implement the authentication routine.
 
