@@ -1,0 +1,32 @@
+### YamlMime:Module
+uid: learn-m365.syntex-setup
+metadata:
+  title: TBD
+  description: TBD
+  ms.date: 06/09/2021
+  author: beccarobins
+  ms.author: beccarobins
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: TBD
+summary: TBD
+abstract: |
+ TBD
+prerequisites: | 
+   - TBD
+iconUrl:  /learn/achievements/generic-badge.svg
+ratingEnabled: true
+levels:
+- beginner
+roles:
+- administrator
+- business-user
+products:
+- m365
+units:
+- learn-m365.syntex-setup.introduction
+- learn-m365.syntex-setup.knowledge-check
+- learn-m365.syntex-setup.summary
+
+badge: 
+  uid: learn-m365.syntex-setup.badges
