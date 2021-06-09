@@ -30,6 +30,10 @@ products:
 - m365
 units:
 - learn-m365.syntex-strategy.introduction
+- learn-m365.syntex-strategy.use-cases
+- learn-m365.syntex-strategy.roles-responsibilities
+- learn-m365.syntex-strategy.key-stakeholders
+- learn-m365.syntex-strategy.strategy-alignment
 - learn-m365.syntex-strategy.knowledge-check
 - learn-m365.syntex-strategy.summary
 
