@@ -19,7 +19,5 @@ Microsoft recommends organizations plan for the transition to the new informatio
 - **Innovation**. All future innovation and development will use the Microsoft Information Protection framework.
  
 ## Learn more
-- [Microsoft Information Protection (MIP) SDK setup and configuration](https://docs.microsoft.cominformation-protection/develop/setup-configure-mip?azure-portal=true)
-- [PDF readers that support Microsoft Information Protection](https://docs.microsoft.comazure/information-protection/rms-client/protected-pdf-readers?azure-portal=true)
-
-
+- [Microsoft Information Protection (MIP) SDK setup and configuration](/information-protection/develop/setup-configure-mip?azure-portal=true)
+- [PDF readers that support Microsoft Information Protection](/azure/information-protection/rms-client/protected-pdf-readers?azure-portal=true)
