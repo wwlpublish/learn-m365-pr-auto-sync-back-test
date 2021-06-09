@@ -51,7 +51,7 @@ A device is automatically enrolled the first time a user signs into Teams on the
 
 For more information about the topics covered in this unit, see:
 
-- [Call quality dashboard](https://docs.microsoft.com/microsoftteams/business-voice/analytics-dashboard).
-- [Data and reports in Call Quality Dashboard (CQD)](https://docs.microsoft.com/microsoftteams/cqd-data-and-reports).
-- [Use Power BI to analyze CQD data for Microsoft Teams](https://docs.microsoft.com/microsoftteams/cqd-power-bi-query-templates).
-- [Voice - Phone System and PSTN connectivity options](https://docs.microsoft.com/microsoftteams/cloud-voice-landing-page).
+- [Call quality dashboard](/microsoftteams/business-voice/analytics-dashboard).
+- [Data and reports in Call Quality Dashboard (CQD)](/microsoftteams/cqd-data-and-reports).
+- [Use Power BI to analyze CQD data for Microsoft Teams](/microsoftteams/cqd-power-bi-query-templates).
+- [Voice - Phone System and PSTN connectivity options](/microsoftteams/cloud-voice-landing-page).

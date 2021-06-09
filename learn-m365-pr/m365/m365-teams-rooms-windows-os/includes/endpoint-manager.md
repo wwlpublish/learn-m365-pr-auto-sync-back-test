@@ -17,4 +17,4 @@ There are a couple of ways to enroll Teams Rooms devices into Intune. One way is
 ## Learn more
 
 - [Managing Teams Meeting Rooms with Intune](https://techcommunity.microsoft.com/t5/intune-customer-success/managing-teams-meeting-rooms-with-intune/ba-p/1069230?azure-portal=true)
-- [Using Intune to add local administrators](https://docs.microsoft.com/windows/client-management/mdm/accounts-csp?azure-portal=true)
+- [Using Intune to add local administrators](/windows/client-management/mdm/accounts-csp?azure-portal=true)

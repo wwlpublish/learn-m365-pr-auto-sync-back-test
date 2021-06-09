@@ -6,7 +6,7 @@ Here, you'll learn how to create telephony routes for users in Direct Routing.
 
 ## Number translation
 
-Number translation is an optional step you might consider when communicating with Session Border Controllers (SBCs). It's used to bring together a legacy PBX and the Microsoft Phone System, by converting the inbound or outbound dialed phone number to the correct format for either system. Number translation rules can be applied either at the gateway or at the SBC level. The rules apply to both inbound and outbound traffic, which covers calls coming from the public switched telephone network (PSTN) endpoint into the Microsoft Teams client (inbound), and from the Microsoft Teams client to the PSTN endpoint (outbound).
+Number translation is an optional step you might consider when communicating with Session Border Controllers (SBCs). It's used to bring together a legacy PBX and the Microsoft Teams Phone, by converting the inbound or outbound dialed phone number to the correct format for either system. Number translation rules can be applied either at the gateway or at the SBC level. The rules apply to both inbound and outbound traffic, which covers calls coming from the public switched telephone network (PSTN) endpoint into the Microsoft Teams client (inbound), and from the Microsoft Teams client to the PSTN endpoint (outbound).
 
 In the following examples, there are two users, Alice and Bob. Alice is a Microsoft Teams user whose number is +1 206 555 0100. Bob is a PSTN user whose number is +1 425 555 0100.
 
@@ -71,7 +71,7 @@ A Calling Plan is an add-on telephone service that, when combined with Phone Sys
 Whether you're provisioning for Direct Routing only or using Microsoft Calling Plan and Direct Routing, there are five steps to consider:
 
 - What licenses are required? Typically, you'll need a minimum of:
-  - Microsoft Phone System
+  - Microsoft Teams Phone
   - Microsoft Teams
   - Audio Conferencing (for scheduled meeting dial in/out)
   - Microsoft Calling Plan (only applicable if you choose that provisioning type)
@@ -86,7 +86,7 @@ The table below provides an at-a-glance example of the type of settings you migh
 
 |  | Direct Routing only  | Microsoft Calling Plan and Direct Routing |
 |---------|---------|---------|
-|Licenses required     | Microsoft Phone System, Microsoft Teams, Audio Conferencing (for scheduled meeting dial in/out)        | Microsoft Phone System, Microsoft Teams, Audio Conferencing (for scheduled meeting dial in/out)        |
+|Licenses required     | Microsoft Teams Phone, Microsoft Teams, Audio Conferencing (for scheduled meeting dial in/out)        | Microsoft Teams Phone, Microsoft Teams, Audio Conferencing (for scheduled meeting dial in/out)        |
 |Number provisioned     | In Azure Active Directory (User Online or AADSync)        |  Acquired from **Microsoft** or **ported to Phone System**       |
 |Enable the user     | `Set-CsUser -Identity "User name" -OnPremLineURI tel:+123456789 -EnterpriseVoiceEnabled $true -HostedVoiceMail $true`        |  User is assigned a number through Teams Admin Center or **Set-CsOnlineVoiceUser** (inbound calling is anchored on Calling Plan)       |
 |Routing behavior     | Only administrator routes evaluated, if no routes exist matching the callee number, the call drops        | <ul><li>Step 1. Routes configured by administrator evaluated.</li><li>Step 2. If no routed matching the callee number exist on Step 1, route the call via Microsoft Calling plan.</li></ul>         |
@@ -186,10 +186,10 @@ You assign a dial plan in the same way you assign policies. You can assign a pol
 
 ## Learn more
 
-- [New-CSOnlinePSTNGateway](https://docs.microsoft.com/powershell/module/skype/new-csonlinepstngateway)
-- [Set-CSOnlinePSTNGateway](https://docs.microsoft.com/powershell/module/skype/set-csonlinepstngateway)
-- [Set-CsTenantDialPlan](https://docs.microsoft.com/powershell/module/skype/set-cstenantdialplan)
-- [Grant-CsTenantDialPlan](https://docs.microsoft.com/powershell/module/skype/grant-cstenantdialplan)
-- [Get-CsTenantDialPlan](https://docs.microsoft.com/powershell/module/skype/get-cstenantdialplan?view=skype-ps)
-- [Get-CsEffectiveTenantDialPlan](https://docs.microsoft.com/powershell/module/skype/get-cseffectivetenantdialplan)
-- [Normalization rules](https://docs.microsoft.com/microsoftteams/what-are-dial-plans#normalization-rules)
+- [New-CSOnlinePSTNGateway](/powershell/module/skype/new-csonlinepstngateway)
+- [Set-CSOnlinePSTNGateway](/powershell/module/skype/set-csonlinepstngateway)
+- [Set-CsTenantDialPlan](/powershell/module/skype/set-cstenantdialplan)
+- [Grant-CsTenantDialPlan](/powershell/module/skype/grant-cstenantdialplan)
+- [Get-CsTenantDialPlan](/powershell/module/skype/get-cstenantdialplan)
+- [Get-CsEffectiveTenantDialPlan](/powershell/module/skype/get-cseffectivetenantdialplan)
+- [Normalization rules](/microsoftteams/what-are-dial-plans#normalization-rules)

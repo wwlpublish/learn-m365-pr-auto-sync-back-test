@@ -18,4 +18,4 @@ You can search for specific sensitive information types, sensitivity labels or r
    ![Content explorer additional information](../media/content-explorer-additional-information.png) 
 
 ## Learn more
-- [Get started with content explorer](https://docs.microsoft.com/microsoft-365/compliance/data-classification-content-explorer?azure-portal=true)
+- [Get started with content explorer](/microsoft-365/compliance/data-classification-content-explorer?azure-portal=true)

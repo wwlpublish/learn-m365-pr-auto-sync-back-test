@@ -20,4 +20,4 @@ The reason you would enable this setting is Quality of Service (QoS). Now that y
 
 ## Learn more 
 
-- [Implement Quality of Service in Microsoft Teams](https://docs.microsoft.com/microsoftteams/qos-in-teams?azure-portal=true)
+- [Implement Quality of Service in Microsoft Teams](/microsoftteams/qos-in-teams?azure-portal=true)

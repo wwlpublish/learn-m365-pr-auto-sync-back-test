@@ -31,9 +31,9 @@ Application Guard has been created to target several types of systems:
 
 ## Learn more
 
-- [Implement and manage Windows Defender Application Guard](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-application-guard/wd-app-guard-overview?azure-portal=true)
-- [Implement and manage Windows Defender Credential Guard](https://docs.microsoft.com/windows/security/identity-protection/credential-guard/credential-guard-requirements?azure-portal=true)
-- [Implement and manage Windows Defender Exploit Guard](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/configure-attack-surface-reduction?azure-portal=true)
-- [Implement Microsoft Defender for Endpoint](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection?azure-portal=true)
-- [Integrate Windows Defender Application Control](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-application-control/windows-defender-application-control-deployment-guide?azure-portal=true)	
-- [Manage Windows Defender Antivirus](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-antivirus/deploy-manage-report-microsoft-defender-antivirus?azure-portal=true)
+- [Implement and manage Windows Defender Application Guard](/windows/security/threat-protection/windows-defender-application-guard/wd-app-guard-overview?azure-portal=true)
+- [Implement and manage Windows Defender Credential Guard](/windows/security/identity-protection/credential-guard/credential-guard-requirements?azure-portal=true)
+- [Implement and manage Windows Defender Exploit Guard](/windows/security/threat-protection/microsoft-defender-atp/configure-attack-surface-reduction?azure-portal=true)
+- [Implement Microsoft Defender for Endpoint](/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection?azure-portal=true)
+- [Integrate Windows Defender Application Control](/windows/security/threat-protection/windows-defender-application-control/windows-defender-application-control-deployment-guide?azure-portal=true)	
+- [Manage Windows Defender Antivirus](/windows/security/threat-protection/microsoft-defender-antivirus/deploy-manage-report-microsoft-defender-antivirus?azure-portal=true)

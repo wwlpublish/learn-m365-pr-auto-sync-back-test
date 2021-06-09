@@ -9,5 +9,5 @@ To create a mail flow rule, open the Exchange admin center, go to **Mail flow > 
 ![A screenshot of the New Rule window in the Exchange admin center](../media/spam-rule.png)
 
 ## Learn more
-- [Spam confidence level](https://docs.microsoft.com/microsoft-365/security/office-365-security/spam-confidence-levels?view=o365-worldwide?azure-portal=true)
-- [Use mail flow rules to set the spam confidence level in messages](https://docs.microsoft.com/microsoft-365/security/office-365-security/use-mail-flow-rules-to-set-the-spam-confidence-level-scl-in-messages?view=o365-worldwide?azure-portal=true)
+- [Spam confidence level](/microsoft-365/security/office-365-security/spam-confidence-levels?azure-portal=true)
+- [Use mail flow rules to set the spam confidence level in messages](/microsoft-365/security/office-365-security/use-mail-flow-rules-to-set-the-spam-confidence-level-scl-in-messages?azure-portal=true)

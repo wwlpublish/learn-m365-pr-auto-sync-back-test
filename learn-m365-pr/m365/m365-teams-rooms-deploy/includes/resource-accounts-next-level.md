@@ -129,5 +129,5 @@ Creating Places must be done via PowerShell using the **Set-Place** cmdlet. In t
 
 ## Learn more
 
-- [Create and manage Room mailboxes](https://docs.microsoft.com/exchange/recipients-in-exchange-online/manage-room-mailboxes?azure-portal=true)
-- [PowerShell module browser](https://docs.microsoft.com/powershell/module/?azure-portal=true)
+- [Create and manage Room mailboxes](/exchange/recipients-in-exchange-online/manage-room-mailboxes?azure-portal=true)
+- [PowerShell module browser](/powershell/module/?azure-portal=true)

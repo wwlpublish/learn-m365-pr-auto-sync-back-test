@@ -27,5 +27,5 @@ The diagram below illustrates Teams service dependencies. Solid arrows indicate 
 Whenever possible, you should set common policies across related apps and services. Setting a common policy across Exchange Online, SharePoint Online, Microsoft Teams, and Skype for Business significantly reduces unexpected prompts that might arise from different policies being applied to downstream services.
 
 ## Learn more
-- [Building a Conditional Access policy](https://docs.microsoft.com/azure/active-directory/conditional-access/concept-conditional-access-policies)
-- [What are service dependencies in Azure Active Directory Conditional Access?](https://docs.microsoft.com/azure/active-directory/conditional-access/service-dependencies)
+- [Building a Conditional Access policy](/azure/active-directory/conditional-access/concept-conditional-access-policies)
+- [What are service dependencies in Azure Active Directory Conditional Access?](/azure/active-directory/conditional-access/service-dependencies)

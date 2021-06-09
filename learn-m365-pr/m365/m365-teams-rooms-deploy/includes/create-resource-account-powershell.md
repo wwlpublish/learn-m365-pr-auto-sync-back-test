@@ -122,5 +122,5 @@ Enable-CsMeetingRoom -Identity MTR-STP-Avanti-1@contoso.com -RegistrarPool "skyp
 
 ## Learn more
 
-- [PowerShell module browser](https://docs.microsoft.com/powershell/module/?azure-portal=true)
-- [Deploy Microsoft Teams Rooms with Microsoft 365](https://docs.microsoft.com/MicrosoftTeams/rooms/with-office-365?azure-portal=true)
+- [PowerShell module browser](/powershell/module/?azure-portal=true)
+- [Deploy Microsoft Teams Rooms with Microsoft 365](/MicrosoftTeams/rooms/with-office-365?azure-portal=true)

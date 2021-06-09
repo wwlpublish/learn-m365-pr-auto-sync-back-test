@@ -5,7 +5,7 @@ In this exercise, you'll learn how to use Microsoft Graph to submit notification
 
 ## Add the TeamsActivity.Send permission to the Azure AD application
 
-The Microsoft Graph teamwork endpoint supports modifying the tabs in an existing channel. The user that executes the code that calls the tabs endpoint must consent to one of the **TeamsActivity.\*** permissions. In this exercise, you'll create tabs using this endpoint, so you need to consent to the permission that enables reading and writing tabs: **TeamsActivity.Send**.
+The Microsoft Graph teamwork endpoint supports sending notifications to users. The user that executes the code that calls the endpoint must consent to one of the **TeamsActivity.\*** permissions. In this exercise, you'll send the activity notification using the teamwork endpoint and permission, so you need to consent to the permission that enables this: **TeamsActivity.Send**.
 
 Let's start by adding and pre-consenting this permission for our existing Azure AD application.
 
@@ -15,7 +15,7 @@ Select **Azure Active Directory** in the left-hand navigation.
 
 Select **Manage > App registrations** in the left-hand navigation.
 
-On the **App registrations** page, select the app **Toolkit SSO: MSGraph Playground**. This is the name of the app you entered when creating the project with the toolkit, prefixed with **Toolkit SSO:**.
+On the **App registrations** page, select the app **My Teams SSO App**.
 
 In the left-hand navigation, select **Manage > API permissions**.
 
@@ -26,6 +26,16 @@ Search for, and select the permission **TeamsActivity.Send**, then select the **
 ![Screenshot adding a new permission to the app](../media/07-azure-ad-add-api-permissions.png)
 
 To simplify the testing process, select **Grant admin consent for Contoso** to consent this new permission for all users in your tenant.
+
+### Update the list of permissions requested by the tab
+
+With the permission added to the Azure AD app, you now need to update the list of permissions the server-side API will include in the request for the access token.
+
+Locate and open the **./.env**. At the end of the file, locate the environment variable that contains the space-delimited permissions and add the following permission you just added so it now looks like the following:
+
+```txt
+MSGRAPHTEAMWORK_APP_SCOPES=https://graph.microsoft.com/User.Read https://graph.microsoft.com/Team.ReadBasic.All https://graph.microsoft.com/TeamsTab.ReadWriteForTeam https://graph.microsoft.com/TeamsActivity.Send email openid profile offline_access
+```
 
 ## Add a user to the team
 
@@ -65,63 +75,46 @@ After making this change, you'll have to reinstall the app so Microsoft Teams is
 
 ## Update the tab's code
 
-The last step is to add code to call Microsoft Graph. Locate the method `_handleWordOnClick()` you added in the previous exercise. At the end of the method, locate the code the handles the response to creating a new tab for Microsoft Word:
+The last step is to add code to call Microsoft Graph.
+
+Locate and open the **./src/client/MsGraphTeamworkTab/MsGraphTeamworkTab.tsx** file that contains our tab.
+
+Locate the `return` statement and add the following code immediately before it:
 
 ```typescript
-if (response) {
-  if (!response.ok){
-    console.error("ERROR: ", response);
-    this.setState({error:true});
-  }
-}
-```
+const sendActivityMessage = useCallback(async() => {
+  if (!msGraphOboToken || !context) { return; }
 
-In the inner `if` statement, add an `else` statement and update the value of the `endpoint` parameter:
-
-```typescript
-if (response) {
-  if (!response.ok){
-    console.error("ERROR: ", response);
-    this.setState({error:true});
-  } else {
-    endpoint = `https://graph.microsoft.com/beta/teams/${this.state.context?.groupId}/sendActivityNotification`;
-    // TODO
-  }
-}
-```
-
-Next, replace the `// TODO` commend with the following code. This code creates the request that's submitted to Microsoft Graph.
-
-```typescript
-graphRequestParams = {
-  method: 'POST',
-  headers: {
-    'Content-Type': 'application/json',
-    "authorization": "bearer " + this.state.graphAccessToken
-  },
-  body: JSON.stringify({
-    "topic": {
-      "source": "entityUrl",
-      "value": `https://graph.microsoft.com/beta/teams/${this.state.context?.groupId}`
+  const endpoint = `https://graph.microsoft.com/v1.0/teams/${context.groupId}/sendActivityNotification`;
+  const requestObject = {
+    method: 'POST',
+    headers: {
+      authorization: `bearer ${msGraphOboToken}`,
+      'content-type': 'application/json',
     },
-    "activityType": "userMention",
-    "previewText": {
-      "content": "New tab created"
-    },
-    "recipient": {
-      "@odata.type": "microsoft.graph.aadUserNotificationRecipient",
-      "userId": "97c431bf-2437-4154-acee-6865979eed54"
-    },
-    "templateParameters": [
-      { "name": "tabName", "value": "Word" },
-      { "name": "teamName", "value": `${this.state.context?.teamName}` },
-      { "name": "channelName", "value": `${this.state.context?.channelName}` }
-    ]
-  })
-};
+    body: JSON.stringify({
+      topic: {
+        source: "entityUrl",
+        value: `https://graph.microsoft.com/v1.0/teams/${context.groupId}`
+      },
+      activityType: "userMention",
+      previewText: {
+        content: "New tab created"
+      },
+      recipient: {
+        "@odata.type": "microsoft.graph.aadUserNotificationRecipient",
+        userId: "97c431bf-2437-4154-acee-6865979eed54"
+      },
+      templateParameters: [
+        { name: "tabName", value: "Word" },
+        { name: "teamName", value: `${context.teamName}` },
+        { name: "channelName", value: `${context.channelName}` }
+      ]
+    })
+  };
 
-// submit request to Microsoft Graph
-await fetch(endpoint, graphRequestParams).catch(this.unhandledFetchError);
+  await fetch(endpoint, requestObject);
+}, [context, msGraphOboToken]);
 ```
 
 Notice a few things from this code:
@@ -130,58 +123,32 @@ Notice a few things from this code:
 - The `recipient` object contains the **Object ID** of the use the notification is intended for. In a real world application, you would likely want to look up the user the notification is intended for to make this value dynamic.
 - The `templateParameters` array contains objects that match the template strings we specified in the `templateText` property of the activity that we registered in the app's **manfest.json** file.
 
-At this point, you're ready to test the activity feed notification code. Save your changes to the **tab.tsx** file.
+Locate the `handleWordOnClick` callback you added in the previous exercise. At the end of the method, add the following line to call the activity sender callback:
+
+```typescript
+await sendActivityMessage();
+```
+
+At this point, you're ready to test the activity feed notification code. Save your changes to the **MsGraphTeamworkTab.tsx** file.
 
 ## Build and test the application
 
-To test the application, you must do the following:
+Now let's test the new functionality added in this exercise.
 
-1. Start the web API project
-1. Start the React web app project
+From the command line, navigate to the root folder for the project and execute the following command:
 
-> [!TIP]
-> The following steps assume ngrok is still running from a previous exercise. If not, make sure you start ngrok following the same process outlined above. The ngrok URL points to the React web app project.
+```console
+gulp ngrok-serve
+```
+
+> [!IMPORTANT]
+> If the **ngrok-serve** stopped for any reason, remember when you start/restart the **gulp ngrok-serve** task, the dynamic ngrok URL will change.
 >
-> Remember, if you restart the ngrok process, the dynamic subdomain will change and you'll need to make the appropriate updates in the registered Azure AD application, custom Microsoft Teams app, environment variables in the web API project, and  environment variables in the React web app project.
+> You'll need to update all the locations where you set the URL in your project as well as in the Azure AD app registration as previously explained.
+>
+> In addition, you'll need to reinstall your app package because the Microsoft Teams app manifest contains the URL. To do this, you'll first need to increment the `version` property in the app's **./manifest/manifest.json** file. This value is dynamically set using the `version` property from the **./package.json** file. When you repeat the installation process of the app, it will update the existing installation.
 
-### Start the web API project
-
-Open a new console, change to current folder to the **./api-server** folder in the project and execute the following command to start the web API project:
-
-```console
-npm start
-```
-
-You'll know it's working when returns the following in the console:
-
-```console
-API server is listening on port 5000
-```
-
-> [!TIP]
-> If you need to stop either processes in the future, press <kbd>CTRL</kbd>+<kbd>C</kbd> in the console.
-
-### Start the React web app project
-
-Open a new console, change to current folder to the **./** folder in the project and execute the following command to start the React web app project:
-
-```console
-npm start
-```
-
-You'll know it's working when returns the following in the console:
-
-```console
-Compiled successfully!
-
-You can now view microsoft-teams-app in the browser.
-
-  Local:            https://localhost:3000
-  On Your Network:  https://###.###.###.###:3000
-
-Note that the development build is not optimized.
-To create a production build, use npm run build.
-```
+Once the app starts, go back to the browser and navigate back to your tab that you previously installed.
 
 ### Update the Microsoft Teams app
 
@@ -197,7 +164,7 @@ On the team management screen, select the **Apps** tab and then select **Upload 
 
 ![Screenshots of the team management page](../media/07-test-02.png)
 
-Select the ZIP file from the project's **./appPackage** folder and install the app.
+Select the ZIP file from the project's **./package** folder and install the app.
 
 ### Test the activity feed
 

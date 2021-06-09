@@ -199,7 +199,7 @@ To test certificate authentication in Android:
 
 ## Learn more
 
-* [Azure Active Directory certificate-based authentication on Android](https://docs.microsoft.com/azure/active-directory/authentication/active-directory-certificate-based-authentication-android)
-* [Azure Active Directory certificate-based authentication on iOS](https://docs.microsoft.com/azure/active-directory/authentication/active-directory-certificate-based-authentication-ios)
-* [Additional information about certificate-based authentication on Android devices](https://docs.microsoft.com/azure/active-directory/authentication/active-directory-certificate-based-authentication-android)
-* [Additional information about certificate-based authentication on iOS devices](https://docs.microsoft.com/azure/active-directory/)
+* [Azure Active Directory certificate-based authentication on Android](/azure/active-directory/authentication/active-directory-certificate-based-authentication-android)
+* [Azure Active Directory certificate-based authentication on iOS](/azure/active-directory/authentication/active-directory-certificate-based-authentication-ios)
+* [Additional information about certificate-based authentication on Android devices](/azure/active-directory/authentication/active-directory-certificate-based-authentication-android)
+* [Additional information about certificate-based authentication on iOS devices](/azure/active-directory/)

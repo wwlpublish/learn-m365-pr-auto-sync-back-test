@@ -6,7 +6,7 @@ This unit walks you through the additional steps required to use Endpoint DLP:
 3.	Configure global Endpoint DLP settings
 
 ## Confirm devices meet requirements
-Windows 10 devices you plan on monitoring with Endpoint DLP must meet the system requirements. Review the [requirements](https://docs.microsoft.com/microsoft-365/compliance/endpoint-dlp-getting-started#prepare-your-endpoints) before you onboard devices.
+Windows 10 devices you plan on monitoring with Endpoint DLP must meet the system requirements. Review the [requirements](/microsoft-365/compliance/endpoint-dlp-getting-started#prepare-your-endpoints) before you onboard devices.
 
 ## Onboard devices
 Before you can include Windows 10 devices in DLP policies, you need to *onboard* them, or enable data collection. 
@@ -88,7 +88,7 @@ Here are the settings available to you:
    > Unless you've added other browsers to the **Unallowed browsers** list, user can still upload the protected content by using a different browser. Be sure to add the other browsers in use in your organization to the unallowed browsers list if you want service domain restrictions to work correctly.
 
 ## Learn more
-- [Learn about Microsoft 365 Endpoint data loss prevention | Microsoft Docs](https://docs.microsoft.com/microsoft-365/compliance/endpoint-dlp-learn-about)
-- [Get started with Endpoint data loss prevention | Microsoft Docs](https://docs.microsoft.com/microsoft-365/compliance/endpoint-dlp-getting-started)
-- [Using Endpoint data loss prevention | Microsoft Docs](https://docs.microsoft.com/microsoft-365/compliance/endpoint-dlp-using)
-- [Data loss prevention device onboarding | Microsoft Docs](https://docs.microsoft.com/microsoft-365/compliance/dlp-configure-endpoints)
+- [Learn about Microsoft 365 Endpoint data loss prevention | Microsoft Docs](/microsoft-365/compliance/endpoint-dlp-learn-about)
+- [Get started with Endpoint data loss prevention | Microsoft Docs](/microsoft-365/compliance/endpoint-dlp-getting-started)
+- [Using Endpoint data loss prevention | Microsoft Docs](/microsoft-365/compliance/endpoint-dlp-using)
+- [Data loss prevention device onboarding | Microsoft Docs](/microsoft-365/compliance/dlp-configure-endpoints)

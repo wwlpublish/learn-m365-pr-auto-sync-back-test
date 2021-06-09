@@ -35,14 +35,14 @@ The **Keywords** box supports keywords, email message properties (such as sent a
 > To optimize performance, you are limited to a maximum of 20 rows in the keyword list.
 
 ### Conditions
-Conditions are granular parameters such as dates, authors, or email recipients which can be used to narrow the scope of a search and return a more refined set of results. Each condition adds a clause to the search query that is created and run when you start the search. A condition is logically connected to the keyword query specified in the keyword box by a logical operator (which is represented as c:c in the search query syntax) that is similar in functionality to the **AND** operator. That means that items must satisfy both the keyword query and one or more conditions to be included in the search results. This is how conditions help to narrow your results. For a list and description of conditions that you can use in a search query, see [Search conditions](https://docs.microsoft.com/microsoft-365/compliance/keyword-queries-and-search-conditions?view=o365-worldwide#search-conditions?azure-portal=true).
+Conditions are granular parameters such as dates, authors, or email recipients which can be used to narrow the scope of a search and return a more refined set of results. Each condition adds a clause to the search query that is created and run when you start the search. A condition is logically connected to the keyword query specified in the keyword box by a logical operator (which is represented as c:c in the search query syntax) that is similar in functionality to the **AND** operator. That means that items must satisfy both the keyword query and one or more conditions to be included in the search results. This is how conditions help to narrow your results. For a list and description of conditions that you can use in a search query, see [Search conditions](/microsoft-365/compliance/keyword-queries-and-search-conditions?azure-portal=true).
 
 ## Validate search results
 After executing a search, you can use **Statistics** and **Preview** options to verify the search you created is collecting the type of data you need. 
  
 ![Statistics and Preview options verify the search](../media/search-custodian-data.png) 
 
-Statistics on the retrieved items lets you validate your search results and make sure they align with your expectations. You can see things such as the locations that had the most items that matched the search query, and the number of and size of unindexed items. To learn more about statistics, see [Search statistics](https://docs.microsoft.com/microsoft-365/compliance/search-statistics?view=o365-worldwide?azure-portal=true). 
+Statistics on the retrieved items lets you validate your search results and make sure they align with your expectations. You can see things such as the locations that had the most items that matched the search query, and the number of and size of unindexed items. To learn more about statistics, see [Search statistics](/microsoft-365/compliance/search-statistics?azure-portal=true). 
 
 ![Statistics on the retrieved items lets you validate your search results and make sure they align with your expectations.](../media/search-statistics.png) 
  
@@ -74,7 +74,7 @@ The **Processing** tab in Advanced eDiscovery provides insight into the status o
 ## Error remediation
 Error remediation enables you to address issues that prevent Advanced eDiscovery from processing content. For example, files that are password protected cannot be processed since the files are locked or encrypted. Using error remediation, you can download files with such errors, remove the password protection, and then upload the remediated files.
 
-Error remediation of documents leverages an Azure AzCopy command that contains parameters with the location of where the files that you want to upload are stored and the Azure storage location that the files will be uploaded to. Therefore, before you begin the process of error remediation, it is necessary to [install the AzCopy command-line utility](https://docs.microsoft.com/azure/storage/common/storage-use-azcopy-v10?azure-portal=true) to your local computer in the default location, which is **%ProgramFiles(x86)%\Microsoft SDKs\Azure\AzCopy**.  
+Error remediation of documents leverages an Azure AzCopy command that contains parameters with the location of where the files that you want to upload are stored and the Azure storage location that the files will be uploaded to. Therefore, before you begin the process of error remediation, it is necessary to [install the AzCopy command-line utility](/azure/storage/common/storage-use-azcopy-v10?azure-portal=true) to your local computer in the default location, which is **%ProgramFiles(x86)%\Microsoft SDKs\Azure\AzCopy**.  
 
 1. To begin the process of error remediation, select **Errors** in the **View** drop-down menu on the **Processing** tab and then select a case or review set from the **Scope** drop-down menu. This section displays all errors from the case or error from a specific review set. In the example below, an error was found in the Investigation – 01234 case. 
 
@@ -122,7 +122,4 @@ Error remediation of documents leverages an Azure AzCopy command that contains p
     When processing is complete, you can go to the review set and view the remediated files.
 
 ### Single item error remediation
-Sometimes it doesn't make sense to remediate errors in multiple files when you’re unsure if any of those files are relevant to the case you’re investigating. It also might not make sense to remediate errors before you’ve had a chance to review the file metadata (such as file location or who had access) to help you make decisions about the relevance. **Single item error remediation** is a feature that enables you to view the metadata of files with a processing error and, if necessary, remediate the error directly in the review set. To learn more about this, please see [single item error remediation](https://docs.microsoft.com/microsoft-365/compliance/single-item-error-remediation?view=o365-worldwide?azure-portal=true).
-
-
-
+Sometimes it doesn't make sense to remediate errors in multiple files when you’re unsure if any of those files are relevant to the case you’re investigating. It also might not make sense to remediate errors before you’ve had a chance to review the file metadata (such as file location or who had access) to help you make decisions about the relevance. **Single item error remediation** is a feature that enables you to view the metadata of files with a processing error and, if necessary, remediate the error directly in the review set. To learn more about this, please see [single item error remediation](/microsoft-365/compliance/single-item-error-remediation?azure-portal=true).

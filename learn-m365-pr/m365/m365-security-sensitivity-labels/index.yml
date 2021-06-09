@@ -3,9 +3,9 @@ uid: learn-m365.m365-security-sensitivity-labels
 metadata:
   title: Protect your data with sensitivity labels
   description: Learn how to use information protection sensitivity labels to classify and protect your organizational data.
-  ms.date: 09/23/2019
+  ms.date: 05/28/2021
   author: puffinanda
-  ms.author: v-jolev
+  ms.author: beccarobins
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Protect your data with sensitivity labels  
@@ -17,7 +17,7 @@ abstract: |
   - Apply protection levels based on sensitivity labels
 
 prerequisites: | 
- - Basic understanding of Microsoft 365. If you are unfamiliar with Microsoft 365, we recommend you take [Microsoft 365 Fundamentals](https://docs.microsoft.com/learn/paths/m365-fundamentals/)
+ - Basic understanding of Microsoft 365. If you are unfamiliar with Microsoft 365, we recommend you take [Microsoft 365 Fundamentals](/learn/paths/m365-fundamentals/)
 iconUrl: /learn/achievements/protect-data-with-sensitivity-labels.svg
 ratingEnabled: true
 levels:

@@ -41,5 +41,5 @@ You're now ready to start collaborating on your Teams rollout.
 
 ## Learn more
 
-- [Use Advisor for Teams to help you roll out Microsoft Teams](https://docs.microsoft.com/microsoftteams/use-advisor-teams-roll-out)
-- [Advisor for Teams assessment tests](https://docs.microsoft.com/microsoftteams/use-advisor-teams-roll-out#assessment-tests-for-all-workloads)
+- [Use Advisor for Teams to help you roll out Microsoft Teams](/microsoftteams/use-advisor-teams-roll-out)
+- [Advisor for Teams assessment tests](/microsoftteams/use-advisor-teams-roll-out#assessment-tests-for-all-workloads)

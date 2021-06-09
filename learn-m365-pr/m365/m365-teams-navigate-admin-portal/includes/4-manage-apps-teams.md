@@ -39,6 +39,6 @@ As an admin, you can use app setup policies to do the following:
 ## Learn more
 
 For more information about the topics covered in this unit, see:
-- [Admin settings for apps in Microsoft Teams](https://docs.microsoft.com/microsoftteams/admin-settings).
-- [Manage app setup policies in Microsoft Teams](https://docs.microsoft.com/microsoftteams/teams-app-setup-policies).
-- [Manage app permission policies in Microsoft Teams](https://docs.microsoft.com/microsoftteams/teams-app-permission-policies).
+- [Admin settings for apps in Microsoft Teams](/microsoftteams/admin-settings).
+- [Manage app setup policies in Microsoft Teams](/microsoftteams/teams-app-setup-policies).
+- [Manage app permission policies in Microsoft Teams](/microsoftteams/teams-app-permission-policies).

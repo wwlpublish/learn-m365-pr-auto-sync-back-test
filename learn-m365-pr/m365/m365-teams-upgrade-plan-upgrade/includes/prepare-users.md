@@ -28,6 +28,6 @@ An optimal user readiness plan incorporates how you’ll communicate with, train
 
 When you're done with a link, use the **Back** arrow in your browser to come back to this page.
 
-- [Prepare your organization](https://docs.microsoft.com/MicrosoftTeams/upgrade-prepare-organization)
-- [Assess organizational change readiness](https://docs.microsoft.com/MicrosoftTeams/upgrade-org-change-readiness)
-- [Prepare a user readiness plan](https://docs.microsoft.com/MicrosoftTeams/upgrade-user-readiness)
+- [Prepare your organization](/MicrosoftTeams/upgrade-prepare-organization)
+- [Assess organizational change readiness](/MicrosoftTeams/upgrade-org-change-readiness)
+- [Prepare a user readiness plan](/MicrosoftTeams/upgrade-user-readiness)

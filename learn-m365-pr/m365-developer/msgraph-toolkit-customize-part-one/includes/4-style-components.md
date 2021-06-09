@@ -17,8 +17,8 @@ To style the contents of Microsoft Graph Toolkit, use custom CSS properties expo
     --event-location-color: blue;
   }
 </style>
-
 ```
+
 :::image type="content" source="../media/4-css-properties.png" alt-text="Microsoft Graph Toolkit components styling with CSS custom properties.":::
 
 You can find more information about the available custom CSS properties exposed by each component in their documentation.

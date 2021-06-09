@@ -1,9 +1,9 @@
 ### YamlMime:ModuleUnit
 uid: learn-m365.wvd-intro.when-to-use-wvd
-title: When to use Windows Virtual Desktop
+title: When to use Azure Virtual Desktop
 metadata:
-  title: When to use Windows Virtual Desktop
-  description: Learn when to use Windows Virtual Desktop in your organization.
+  title: When to use Azure Virtual Desktop
+  description: Learn when to use Azure Virtual Desktop in your organization.
   ms.date:  06/28/2020
   author: lizap
   ms.author: elizapo

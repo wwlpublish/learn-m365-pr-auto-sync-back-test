@@ -1,0 +1,7 @@
+In this module, you explored how to implement sensitivity labels. Sensitivity labels are an important tool in addressing data protection within Microsoft 365. The foundation for creating these labels is known as Data Classification. Before organizations create sensitivity labels, they should first develop a Data Classification framework that provides the foundation upon which their sensitivity labels will later be built.
+
+You learned in this module that Data Classification is a specialized term used in the fields of cybersecurity and information governance. It describes the process of identifying, categorizing, and protecting content according to its sensitivity or impact level. In its most basic form, data classification is a means of protecting data from unauthorized disclosure, alteration, or destruction based on how sensitive or impactful it is.
+
+This module examined the importance of developing a Data Classification framework, the process of developing that framework, and the pain points that organizations experience when doing so. It also provided guidance on how to implement this framework to support the use of sensitivity labels.
+
+You learned how to create sensitivity labels and a label policy once your Data Classification framework is in place. The module examined how to publish sensitivity labels by creating a label policy, how to remove labels from a policy, and how to delete labels. You also learned about the differences between removing and deleting sensitivity labels.

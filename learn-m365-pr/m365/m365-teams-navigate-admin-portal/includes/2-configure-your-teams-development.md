@@ -75,10 +75,10 @@ Teams settings lets you set up Teams features such as email integration, cloud s
 
 To find out more about the topics covered in this unit, see:
 
-- [Deploy Teams](https://docs.microsoft.com/microsoftteams/deploy-chat-teams-channels-microsoft-teams-landing-page).
-- [Use Microsoft Teams administrator roles to manage Teams](https://docs.microsoft.com/microsoftteams/using-admin-roles).
-- [Assign team owners and members in Microsoft Teams](https://docs.microsoft.com/microsoftteams/assign-roles-permissions).
-- [Set up and manage channel moderation in Microsoft Teams](https://docs.microsoft.com/microsoftteams/manage-channel-moderation-in-teams).
-- [Guest access in Microsoft Teams](https://docs.microsoft.com/microsoftteams/guest-access).
-- [Plan for external access](https://docs.microsoft.com/microsoftteams/manage-external-access#plan-for-external-access).
-- [Teams settings](https://docs.microsoft.com/microsoftteams/enable-features-office-365#teams-settings).
+- [Deploy Teams](/microsoftteams/deploy-chat-teams-channels-microsoft-teams-landing-page).
+- [Use Microsoft Teams administrator roles to manage Teams](/microsoftteams/using-admin-roles).
+- [Assign team owners and members in Microsoft Teams](/microsoftteams/assign-roles-permissions).
+- [Set up and manage channel moderation in Microsoft Teams](/microsoftteams/manage-channel-moderation-in-teams).
+- [Guest access in Microsoft Teams](/microsoftteams/guest-access).
+- [Plan for external access](/microsoftteams/manage-external-access#plan-for-external-access).
+- [Teams settings](/microsoftteams/enable-features-office-365#teams-settings).
