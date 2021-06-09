@@ -11,7 +11,7 @@ Microsoft 365 security center includes the following data protection features.
 - Security Center Reports inform you about:
     - Users with the most shared files
     - Matches from DLP Policies
-    - False positives and overrides of theDLP Polices 
+    - False positives and overrides of the DLP Polices 
     - Integration of third-party DLP Policy matches 
 
 - Label Analytics show:
