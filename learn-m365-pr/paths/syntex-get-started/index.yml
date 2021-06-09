@@ -21,9 +21,9 @@ products:
 - m365
 modules:
 - learn-m365.syntex-intro
-- learn-m365.syntex-2
-- learn-m365.syntex-3
-- learn-m365.syntex-4
-- learn-m365.syntex-5
+- learn-m365.syntex-strategy
+- learn-m365.syntex-setup
+- learn-m365.syntex-document-understanding
+- learn-m365.syntex-form-processing
 trophy: 
   uid: learn-m365.syntex-get-started.trophy
