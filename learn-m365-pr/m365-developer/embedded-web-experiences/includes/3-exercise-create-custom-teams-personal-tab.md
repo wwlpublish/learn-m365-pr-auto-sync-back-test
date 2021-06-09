@@ -1,3 +1,5 @@
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4NCi6]
+
 In this exercise, you'll create a new Microsoft Teams personal tab by using the Microsoft Teams Yeoman generator, Visual Studio Code, and App Studio.
 
 ## Prerequisites
@@ -120,6 +122,8 @@ Next, stop the local web server by selecting <kbd>Ctrl</kbd>+<kbd>C</kbd> in the
 
 ## Implement the personal tab's user interface
 
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4NHyn]
+
 Now you can implement the user interface for the tab. The simple tab has a basic interface. It presents a list of items, and users can add items to the list.
 
 Locate and open the file that contains the React component used in the project: **./src/client/learnPersonalTab/LearnPersonalTab.tsx**.
@@ -220,6 +224,8 @@ Finally, locate the string `TODO: add new list item form here` in the `render()`
 ```
 
 ## Use App Studio to update the Microsoft Teams app manifest
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4NHyl]
 
 At this point, the app is complete. Recall from our initial test that when the app was added to Microsoft Teams, it had a few todo strings for the description of the app. While you could change these values in the project's **./src/manifest/manifest.json** file, you'll use App Studio to make these changes.
 
