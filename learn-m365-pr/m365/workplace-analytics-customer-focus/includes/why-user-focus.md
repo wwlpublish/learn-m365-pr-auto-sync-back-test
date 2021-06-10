@@ -13,9 +13,9 @@ Reduced sales cycles and internal processes benefits include:
 
 With Workplace Analytics, you can focus on three main themes to drive these outcomes:
 
-1. **External collaboration** - Analyze how external-facing employees collaborate with customers and partners to identify the best practices of top performers and top performing teams.
-1. **Internal collaboration** - Examine the types and lengths of meetings in your sales organization, and where there might be unnecessary collaboration.
-1. **Coaching and onboarding** - Understand the importance of coaching and onboarding to external-facing employees, and how these activities can help them be more effective salespeople.
+- **External collaboration** - Analyze how external-facing employees collaborate with customers and partners to identify the best practices of top performers and top performing teams.
+- **Internal collaboration** - Examine the types and lengths of meetings in your sales organization, and where there might be unnecessary collaboration.
+- **Coaching and onboarding** - Understand the importance of coaching and onboarding to external-facing employees, and how these activities can help them be more effective salespeople.
 
 The following video shows how a U.S. headquartered, multinational technology firm who integrated Workplace Analytics metrics with their existing CRM dashboard used these analysis areas to understand the collaboration patterns of their sales employees.
 
