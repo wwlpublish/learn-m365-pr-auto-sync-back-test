@@ -125,4 +125,4 @@ Complete the following steps to create this ethical wall in Exchange Online:
 7.  Select **Save**.
 
 > [!NOTE]
-> You must be assigned permissions before you can complete this procedure. See the "Transport rules" section in the following article for the list of permissions that are needed: [Messaging Policy and Compliance Permissions](https://docs.microsoft.com/Exchange/permissions/feature-permissions/policy-and-compliance-permissions?azure-portal=true).
+> You must be assigned permissions before you can complete this procedure. See the "Transport rules" section in the following article for the list of permissions that are needed: [Messaging Policy and Compliance Permissions](/Exchange/permissions/feature-permissions/policy-and-compliance-permissions).
