@@ -3,7 +3,7 @@ uid: learn.wwl.implement-data-governance-microsoft-365-intelligence
 metadata:
   title: Implement data governance in Microsoft 365 intelligence
   description: Implement data governance in Microsoft 365 intelligence
-  ms.date: 05/24/2021
+  ms.date: 06/10/2021
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -15,7 +15,7 @@ prerequisites: |
   - Students must have a proficient understanding of general IT practices.
 summary: |
   This learning path provides instruction on implementing the Microsoft 365 data governance features, including how to calculate your compliance readiness, implement compliance solutions, and create information barriers, DLP policies, and policy tips.
-iconUrl: /learn/achievements/generic-trophy.svg
+iconUrl: /learn/achievements/implement-data-governance-in-microsoft-365-intelligence.svg
 levels:
 - intermediate
 roles:
