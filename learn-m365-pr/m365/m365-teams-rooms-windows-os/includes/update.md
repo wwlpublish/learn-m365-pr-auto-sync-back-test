@@ -10,4 +10,4 @@ The Teams Rooms app requires a specific version of Windows. The app blocks Windo
 
 ## Learn more
 
-- [Microsoft Teams Rooms Reset (Factory Restore)](https://docs.microsoft.com/microsoftteams/rooms/rooms-operations#microsoft-teams-rooms-reset-factory-restore)
+- [Microsoft Teams Rooms Reset (Factory Restore)](/microsoftteams/rooms/rooms-operations#microsoft-teams-rooms-reset-factory-restore)

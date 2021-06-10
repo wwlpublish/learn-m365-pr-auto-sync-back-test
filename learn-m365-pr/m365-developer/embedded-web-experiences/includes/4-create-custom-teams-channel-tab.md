@@ -1,3 +1,5 @@
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4NCi3]
+
 In this unit, you'll learn how to create channel tabs and configuration pages in Microsoft Teams apps.
 
 ## Compare personal and channel tabs
@@ -67,7 +69,7 @@ You might decide that a tab's configuration can or can't be changed after it's a
 
 Here's an example of the channel tab configuration page experience.
 
-![Screenshot of a tab configuration page](../media/04-03.png)
+![Screenshot of a tab configuration page to select a map provider](../media/04-03.png)
 
 This image is the configuration page that prompts the user for the mapping site to use in the custom tab.
 

@@ -25,5 +25,5 @@ Some of the key tasks SharePoint administrators can do include:
 
 When you're done with a link, use the **Back** arrow in your browser to come back to this page.
 
-- [Get started with the new SharePoint admin center](https://docs.microsoft.com/sharepoint/get-started-new-admin-center)
+- [Get started with the new SharePoint admin center](/sharepoint/get-started-new-admin-center)
 - [Introduction to the SharePoint Online Management Shell](https://support.office.com/article/Introduction-to-the-SharePoint-Online-Management-Shell-C16941C3-19B4-4710-8056-34C034493429)

@@ -46,8 +46,8 @@ More reports are being added, including the ones already in preview. See the Tea
 
 ## Learn more
 
-- [Monitor usage and feedback in Microsoft Teams](https://docs.microsoft.com/microsoftteams/get-started-with-teams-monitor-usage-and-feedback)
-- [Microsoft Teams analytics and reporting](https://docs.microsoft.com/microsoftteams/teams-analytics-and-reports/teams-reporting-reference)
-- [Use activity reports for Microsoft Teams](https://docs.microsoft.com/microsoftteams/teams-activity-reports)
-- [Microsoft Teams live event usage report](https://docs.microsoft.com/microsoftteams/teams-analytics-and-reports/teams-live-event-usage-report)
-- [Microsoft Teams PSTN usage report](https://docs.microsoft.com/microsoftteams/teams-analytics-and-reports/pstn-usage-report)
+- [Monitor usage and feedback in Microsoft Teams](/microsoftteams/get-started-with-teams-monitor-usage-and-feedback)
+- [Microsoft Teams analytics and reporting](/microsoftteams/teams-analytics-and-reports/teams-reporting-reference)
+- [Use activity reports for Microsoft Teams](/microsoftteams/teams-activity-reports)
+- [Microsoft Teams live event usage report](/microsoftteams/teams-analytics-and-reports/teams-live-event-usage-report)
+- [Microsoft Teams PSTN usage report](/microsoftteams/teams-analytics-and-reports/pstn-usage-report)

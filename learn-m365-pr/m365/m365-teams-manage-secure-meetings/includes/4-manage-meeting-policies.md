@@ -89,4 +89,4 @@ You can then assign the custom policy to specific users. In the Microsoft Teams 
 
 ## Learn more
 
-- [Manage meeting policies in Teams](https://docs.microsoft.com/MicrosoftTeams/meeting-policies-in-teams)
+- [Manage meeting policies in Teams](/MicrosoftTeams/meeting-policies-in-teams)

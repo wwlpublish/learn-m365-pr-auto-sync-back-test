@@ -4,4 +4,4 @@ You want to manage your SharePoint deployment so that users can work securely, e
 
 When you're done with a link, use the **Back** arrow in your browser to come back to this page.
 
-- [File collaboration in SharePoint with Microsoft 365](https://docs.microsoft.com/sharepoint/deploy-file-collaboration)
+- [File collaboration in SharePoint with Microsoft 365](/sharepoint/deploy-file-collaboration)

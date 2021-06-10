@@ -8,7 +8,7 @@ Now that you've completed this module, you should be able to:
 - Access the MCAS tech community
 ## Learn more
 
-- [What are the differences in discovery capabilities for Azure Active Directory and Microsoft Cloud App Security?](https://docs.microsoft.com/cloud-app-security/editions-cloud-app-security-aad?azure-portal=true)
-- [What are the differences between Microsoft Cloud App Security and Office 365 Cloud App Security?](https://docs.microsoft.com/cloud-app-security/editions-cloud-app-security-o365?azure-portal=true)
-- [Microsoft Cloud App Security overview](https://docs.microsoft.com/cloud-app-security/what-is-cloud-app-security?azure-portal=true).
+- [What are the differences in discovery capabilities for Azure Active Directory and Microsoft Cloud App Security?](/cloud-app-security/editions-cloud-app-security-aad?azure-portal=true)
+- [What are the differences between Microsoft Cloud App Security and Office 365 Cloud App Security?](/cloud-app-security/editions-cloud-app-security-o365?azure-portal=true)
+- [Microsoft Cloud App Security overview](/cloud-app-security/what-is-cloud-app-security?azure-portal=true).
 - [Licensing Datasheet](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE2NXYO?azure-portal=true).

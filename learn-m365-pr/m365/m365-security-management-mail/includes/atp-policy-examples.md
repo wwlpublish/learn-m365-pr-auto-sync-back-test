@@ -19,6 +19,6 @@ The security administrator at Contoso might use values like the following in ord
 
 ## Learn more
 
-- [Set up anti phishing policies](https://docs.microsoft.com/microsoft-365/security/office-365-security/set-up-anti-phishing-policies?azure-portal=true)
-- [Configure anti phishing policies](https://docs.microsoft.com/microsoft-365/security/office-365-security/configure-atp-anti-phishing-policies?azure-portal=true)
-- [Anti-spoofing protection in EOP](https://docs.microsoft.com/microsoft-365/security/office-365-security/anti-spoofing-protection?azure-portal=true)
+- [Set up anti phishing policies](/microsoft-365/security/office-365-security/set-up-anti-phishing-policies?azure-portal=true)
+- [Configure anti phishing policies](/microsoft-365/security/office-365-security/configure-atp-anti-phishing-policies?azure-portal=true)
+- [Anti-spoofing protection in EOP](/microsoft-365/security/office-365-security/anti-spoofing-protection?azure-portal=true)

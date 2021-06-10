@@ -10,6 +10,6 @@ You learned in this module that planning a hybrid Microsoft Teams and Skype for 
 
 Visit the following links to learn more about some of the topics we explored in this module.
 
- *  [Hybrid Exchange planning](https://docs.microsoft.com/Exchange/hybrid-deployment-prerequisites?azure-portal=true)
- *  [Hybrid SharePoint planning](https://docs.microsoft.com/SharePoint/hybrid/hardware-and-software-requirements-for-sharepoint-hybrid?azure-portal=true)
- *  [Hybrid Skype for Business planning](https://docs.microsoft.com/skypeforbusiness/hybrid/plan-hybrid-connectivity#:~:text=To%20implement%20hybrid%20connectivity%20between%20your%20on-premises%20environment,supported%20topology.%20See%20Topology%20requirements%20in%20this%20topic.?azure-portal=true)
+ *  [Hybrid Exchange planning](/Exchange/hybrid-deployment-prerequisites)
+ *  [Hybrid SharePoint planning](/SharePoint/hybrid/hardware-and-software-requirements-for-sharepoint-hybrid)
+ *  [Hybrid Skype for Business planning](/skypeforbusiness/hybrid/plan-hybrid-connectivity#:~:text=To%20implement%20hybrid%20connectivity%20between%20your%20on-premises%20environment,supported%20topology.%20See%20Topology%20requirements%20in%20this%20topic.?azure-portal=true)

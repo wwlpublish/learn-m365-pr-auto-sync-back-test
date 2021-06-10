@@ -1,4 +1,4 @@
-The last step to prepare for your deployment is to authorize the Windows Virtual Desktop service provider to be used in your subscription. 
+The last step to prepare for your deployment is to authorize the Azure Virtual Desktop service provider to be used in your subscription. 
 
 ## Register the Microsoft.DesktopVirtualization provider
 

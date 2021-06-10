@@ -11,8 +11,8 @@ Now that you've completed this module, you should be able to:
 
 ## Learn more
 
-- [Access policies](https://docs.microsoft.com/cloud-app-security/access-policy-aad?azure-portal=true).
-- [Session policies](https://docs.microsoft.com/cloud-app-security/session-policy-aad?azure-portal=true).
-- [Onboard and deploy Conditional Access App Control for any app](https://docs.microsoft.com/cloud-app-security/proxy-deployment-any-app?azure-portal=true).
-- [Tutorial: Azure Active Directory single sign-on (SSO) integration with Slack](https://docs.microsoft.com/azure/active-directory/saas-apps/slack-tutorial?azure-portal=true).
-- [Tutorial: Azure Active Directory single sign-on (SSO) integration with Box](https://docs.microsoft.com/azure/active-directory/saas-apps/box-tutorial?azure-portal=true).
+- [Access policies](/cloud-app-security/access-policy-aad?azure-portal=true).
+- [Session policies](/cloud-app-security/session-policy-aad?azure-portal=true).
+- [Onboard and deploy Conditional Access App Control for any app](/cloud-app-security/proxy-deployment-any-app?azure-portal=true).
+- [Tutorial: Azure Active Directory single sign-on (SSO) integration with Slack](/azure/active-directory/saas-apps/slack-tutorial?azure-portal=true).
+- [Tutorial: Azure Active Directory single sign-on (SSO) integration with Box](/azure/active-directory/saas-apps/box-tutorial?azure-portal=true).

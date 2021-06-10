@@ -2,24 +2,23 @@ In this exercise, you’ll learn how to create a web service and register it as 
 
 ## Prerequisites
 
-Developing Microsoft Teams apps requires an Office 365 tenant, Microsoft Teams configured for development, and the necessary tools installed on your workstation.
+Developing Microsoft Teams apps requires a Microsoft 365 tenant, Microsoft Teams configured for development, and the necessary tools installed on your workstation.
 
-For the Office 365 tenant, follow the instructions on [Microsoft Teams: Prepare your Office 365 tenant](https://docs.microsoft.com/microsoftteams/platform/get-started/get-started-tenant) for obtaining a developer tenant if you don't currently have an Office 365 account. Make sure you have also enabled Microsoft Teams for your organization.
+For the Microsoft 365 tenant, follow the instructions on [Microsoft Teams: Prepare your Microsoft 365 tenant](/microsoftteams/platform/get-started/get-started-tenant) for obtaining a developer tenant if you don't currently have a Microsoft 365 account. Make sure you have also enabled Microsoft Teams for your organization.
 
-Microsoft Teams must be configured to enable custom apps and allow custom apps to be uploaded to your tenant to build custom apps for Microsoft Teams. Follow the instructions on the same **Prepare your Office 365 tenant** page mentioned above.
+Microsoft Teams must be configured to enable custom apps and allow custom apps to be uploaded to your tenant to build custom apps for Microsoft Teams. Follow the instructions on the same **Prepare your Microsoft 365 tenant** page mentioned above.
 
 You'll use Node.js to create custom Microsoft Teams tabs in this module. The exercises in this module assume you've the following tools installed on your developer workstation.
 
 > [!IMPORTANT]
 > In most cases, installing the latest version of the following tools is the best option. The versions listed here were used when this module was published and last tested.
 
-- [Node.js](https://nodejs.org/) - v10.\* (or higher)
+- [Node.js](https://nodejs.org/) - v12.\* (or higher)
 - NPM (installed with Node.js) - v6.\* (or higher)
 - [Gulp](https://gulpjs.com/) - v4.\* (or higher)
 - [Yeoman](https://yeoman.io/) - v3.\* (or higher)
-- [Yeoman Generator for Microsoft Teams](https://github.com/OfficeDev/generator-teams) - v3.0.\* (or higher)
+- [Yeoman Generator for Microsoft Teams](https://github.com/OfficeDev/generator-teams) - v3.1.\* (or higher)
 - [Visual Studio Code](https://code.visualstudio.com)
-- [ngrok](https://ngrok.io)
 
 You must have the minimum versions of these prerequisites installed on your workstation.
 
@@ -41,7 +40,7 @@ Yeoman will launch and ask you a series of questions. Answer the questions with 
 - **Where do you want to place the files?**: Use the current folder
 - **Title of your Microsoft Teams App project?**: Teams Webhooks
 - **Your (company) name? (max 32 characters)**: Contoso
-- **Which manifest version would you like to use?**: v1.8
+- **Which manifest version would you like to use?**: (Accept the default option)
 - **Quick scaffolding**: Yes
 - **What features do you want to add to your project?**: An Outgoing Webhook
 - **The URL where you will host this solution?**: (Accept the default option)
@@ -73,7 +72,7 @@ message.text = `Echo ${incoming.text}`;
 
 This code simply echoes the string entered in the message back to Microsoft Teams that will be added in a reply to the message that triggered the webhook.
 
-Let's update this code to add some real functionality. When a user @mentions the bot, if they enter the name of a known planet of our solar system, it will respond with an adaptive card that displays details of the planet.
+Let's update this code to add some real functionality. When a user @mentions the webhook, if they enter the name of a known planet of our solar system, it will respond with an adaptive card that displays details of the planet.
 
 Let's start by adding two resource files to the project.
 
@@ -172,7 +171,7 @@ Create a new file **planets.json** in the **./src/server/teamsWebhooksOutgoingWe
 ]
 ```
 
-Next, create a new file **planetDisplayCard.json** in the **./src/app/teamsWebhooksOutgoingWebhook** folder and add the following JSON to it. This file will contain a template of the adaptive card the web service will respond with:
+Next, create a new file **planetDisplayCard.json** in the **./src/server/teamsWebhooksOutgoingWebhook** folder and add the following JSON to it. This file will contain a template of the adaptive card the web service will respond with:
 
 ```json
 {
@@ -341,7 +340,7 @@ Finally, update the `requestHandler()` method:
     const message: Partial<builder.Activity> = {
       type: builder.ActivityTypes.Message
     };
-    ...
+    ```
 
 - Locate and replace the following code:
 

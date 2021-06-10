@@ -99,5 +99,5 @@ Set-InformationBarrierPolicy -Identity 43c37853-ea10-4b90-a23d-ab8c93772471 -Sta
 
 To learn more about the topics in this unit, see:
 
-- [Information barriers](https://docs.microsoft.com/microsoft-365/compliance/information-barriers).
-- [Information barriers in Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/information-barriers-in-teams).
+- [Information barriers](/microsoft-365/compliance/information-barriers).
+- [Information barriers in Microsoft Teams](/MicrosoftTeams/information-barriers-in-teams).

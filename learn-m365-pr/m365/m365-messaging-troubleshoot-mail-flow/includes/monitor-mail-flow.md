@@ -27,6 +27,6 @@ You can create reports from the available Exchange Online PowerShell reporting c
 Message trace follows email messages as they travel through your Exchange Online organization. Audit logging tracks specific changes made by admins to your Exchange Online organization.
 
 ## Learn more
-- [Monitoring, reporting, and message tracing in Exchange Online](https://docs.microsoft.com/exchange/monitoring/monitoring?azure-portal=true)
-- [Overview of Microsoft Graph](https://docs.microsoft.com/graph/overview?view=graph-rest-1.0?azure-portal=true)
-- [Email activity reports](https://docs.microsoft.com/graph/api/resources/email-activity-reports?view=graph-rest-1.0?azure-portal=true)
+- [Monitoring, reporting, and message tracing in Exchange Online](/exchange/monitoring/monitoring?azure-portal=true)
+- [Overview of Microsoft Graph](/graph/overview?azure-portal=true)
+- [Email activity reports](/graph/api/resources/email-activity-reports?azure-portal=true)

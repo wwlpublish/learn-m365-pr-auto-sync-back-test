@@ -1,3 +1,5 @@
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4NzEx]
+
 In this unit, you'll learn how to implement authentication with Microsoft Teams tabs.
 
 ## Authentication and Microsoft Teams tabs
@@ -26,7 +28,7 @@ A basic understanding of the OAuth 2.0 implicit grant flow is a prerequisite for
     For example, when authenticating with Azure AD, if the `loginHint` parameter is set to the user's email address, the user might not have to sign in if they've done so recently. They might not have to sign in because Azure AD uses the user's cached credentials if possible. In this scenario, the pop-up window flashes briefly and then disappears.
 
 1. The tab then calls the `microsoftTeams.authentication.authenticate()` method and registers the `successCallback` and `failureCallback` functions.
-1. Microsoft Teams opens the start page in an `<iframe>` in a pop-up window. The start page generates random state data and saves it for future validation. The start page then redirects to the identity provider's authorize endpoint, such as `https://login.microsoftonline.com/{tenant` ID}/oauth2/authorize for Azure AD:
+1. Microsoft Teams opens the start page in an `<iframe>` in a pop-up window. The start page generates random state data and saves it for future validation. The start page then redirects to the identity provider's authorize endpoint, such as `https://login.microsoftonline.com/{tenant ID}/oauth2/authorize` for Azure AD:
     - Like other application auth flows in Microsoft Teams, the start page must be on a domain that's in its `validDomains` list, and on the same domain as the post-sign-in redirect page.
 
     > [!IMPORTANT]
@@ -40,6 +42,8 @@ A basic understanding of the OAuth 2.0 implicit grant flow is a prerequisite for
 
 ## Authentication pop-up page flow
 
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4NzEv]
+
 Before you implement authentication in your Microsoft Teams tab, you must first configure your identity provider. In a scenario where Azure AD is the selected identity provider, you need to register a new Azure AD application and define the permissions that the application needs. The user is required to consent to these permissions to the application when they first sign in to the application.
 
 The Microsoft Teams JavaScript SDK contains an API to start the pop-up window authentication process. The `microsoftTeams.authentication.authenticate()` method takes a single configuration object in as a parameter. You can use this configuration object to specify the URL of the page that starts the authentication flow and the success and failure callback handlers when the process completes.
@@ -47,7 +51,7 @@ The Microsoft Teams JavaScript SDK contains an API to start the pop-up window au
 If the authentication process failed, Microsoft Teams reports back with the error. Two predefined failure reasons are specific to Microsoft Teams:
 
 - **CancelledByUser**: This reason indicates that the user closed the pop-up window before they completed the authentication flow.
-- **FailedToOpenWindow**: This reason indicates that Microsoft Teams was unable to open the pop-up window. When Microsoft Teams runs in a browser, this error indicates that the window was blocked by the browser's pop-up blocker. 
+- **FailedToOpenWindow**: This reason indicates that Microsoft Teams was unable to open the pop-up window. When Microsoft Teams runs in a browser, this error indicates that the window was blocked by the browser's pop-up blocker.
 
 You're also free to provide your own authentication failure reasons.
 
@@ -85,11 +89,11 @@ private async getAccessToken(promptConsent: boolean = false): Promise<string> {
 
 Now that we've covered the authentication process, let's look at the relevant code for each of the parts involved in the pop-up window pattern.
 
-The code on this page is triggered by the user action, such as selecting a button within the configuration tab or content page for a tab. It uses the Microsoft Teams JavaScript SDK to call the authenticate() method. This method sets the size of the pop-up window, the success and failure callbacks, and the initial URL for the pop-up page.
+The code on this page is triggered by the user action, such as selecting a button within the configuration tab or content page for a tab. It uses the Microsoft Teams JavaScript SDK to call the `authenticate()` method. This method sets the size of the pop-up window, the success and failure callbacks, and the initial URL for the pop-up page.
 
 ### Authentication flow example: auth-start.html
 
-```js
+```javascript
 // ADAL.js configuration
 let config = {
   clientId: "de2631c1-c814-4224-a3fe-060fb00b358e",
@@ -121,7 +125,7 @@ Finally, the `login()` method is called to start the authentication process. The
 
 ### Authentication flow example: auth-end.html
 
-```js
+```javascript
 let authContext = new AuthenticationContext(config);
 
 // ensure page loaded via Azure AD callback
@@ -130,7 +134,7 @@ if (authContext.isCallback(window.location.hash)) {
 
   // Only call notifySuccess or notifyFailure if this page is in the authentication pop-up
   if (window.opener) {
-    // if able to retrieve current user... 
+    // if able to retrieve current user...
     if (authContext.getCachedUser()) {
       // get access token for Microsoft Graph
       authContext.acquireToken("https://graph.microsoft.com", function (error, token) {
@@ -163,6 +167,6 @@ Silent authentication in Azure AD is a simplified form of single sign-on (SSO). 
 
 If you want to keep your code client-side, you can use ADAL.js to attempt to acquire an Azure AD access token silently. In this case, the user might never see a pop-up dialog box if they signed in recently.
 
-The ADAL.js library creates a hidden `<iframe>` for OAuth 2.0 implicit grant flow, but it specifies prompt=none so that Azure AD never shows the sign-in page. If user interaction is required because the user needs to sign in or grant access to the application, Azure AD immediately returns an error that ADAL.js then reports to your app. At this point, your app can show a sign-in button if needed.
+The ADAL.js library creates a hidden `<iframe>` for OAuth 2.0 implicit grant flow, but it specifies `prompt=none` so that Azure AD never shows the sign-in page. If user interaction is required because the user needs to sign in or grant access to the application, Azure AD immediately returns an error that ADAL.js then reports to your app. At this point, your app can show a sign-in button if needed.
 
 If silent authentication fails, Azure AD returns an error that can be handled via ADAL.js and your application. In this scenario, your custom tab falls back to an interactive sign-in by using the pop-up window pattern.

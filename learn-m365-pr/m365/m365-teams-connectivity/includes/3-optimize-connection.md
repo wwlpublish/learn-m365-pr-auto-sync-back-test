@@ -63,10 +63,10 @@ You can test your network access to Microsoft 365 using the **Microsoft 365 Netw
 
 ## Learn more
 
-- [Domains FAQ](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq?view=o365-worldwide)
-- [New Office 365 endpoint categories](https://docs.microsoft.com/office365/enterprise/office-365-network-connectivity-principles#BKMK_Categories)
-- [Office 365 URLs and IP address ranges](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges)
-- [Microsoft 365 network connectivity overview](https://docs.microsoft.com/office365/enterprise/office-365-networking-overview)
+- [Domains FAQ](/microsoft-365/admin/setup/domains-faq)
+- [New Office 365 endpoint categories](/office365/enterprise/office-365-network-connectivity-principles#BKMK_Categories)
+- [Office 365 URLs and IP address ranges](/office365/enterprise/urls-and-ip-address-ranges)
+- [Microsoft 365 network connectivity overview](/office365/enterprise/office-365-networking-overview)
 - [Office 365 Network Onboarding Tool](https://connectivity.office.com/)
-- [Microsoft 365 Network Connectivity Principles](https://docs.microsoft.com/office365/enterprise/office-365-network-connectivity-principles)
-- [VPN routing decisions](https://docs.microsoft.com/windows/security/identity-protection/vpn/vpn-routing)
+- [Microsoft 365 Network Connectivity Principles](/office365/enterprise/office-365-network-connectivity-principles)
+- [VPN routing decisions](/windows/security/identity-protection/vpn/vpn-routing)

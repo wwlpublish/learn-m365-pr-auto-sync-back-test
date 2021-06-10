@@ -13,8 +13,8 @@ Now that you've completed this module, you should be able to:
 
 - [Intune for Education](https://www.microsoft.com/education/intune)
 - [Intune for Education portal](https://intuneeducation.portal.azure.com/)
-- [Set up iOS device management](https://docs.microsoft.com/intune-education/setup-ios-device-management)
+- [Set up iOS device management](/intune-education/setup-ios-device-management)
 - [Microsoft School Data Sync product page](https://sds.microsoft.com/)
-- [Planning checklist for School Data Sync](https://docs.microsoft.com/schooldatasync/planning-checklist)
-- [Install the School Data Sync Toolkit](https://docs.microsoft.com/schooldatasync/install-the-school-data-sync-toolkit)
-- [Take a Test app technical reference](https://docs.microsoft.com/education/windows/take-a-test-app-technical)
+- [Planning checklist for School Data Sync](/schooldatasync/planning-checklist)
+- [Install the School Data Sync Toolkit](/schooldatasync/install-the-school-data-sync-toolkit)
+- [Take a Test app technical reference](/education/windows/take-a-test-app-technical)

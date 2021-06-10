@@ -10,6 +10,6 @@ Internet email tests check the steps for inbound SMTP email, outbound SMTP email
 
 ## Learn more
 
-[Remote Connectivity Analyzer tests for Exchange Online](https://docs.microsoft.com/exchange/clients-and-mobile-in-exchange-online/remote-connectivity-analyzer-tests) 
+[Remote Connectivity Analyzer tests for Exchange Online](/exchange/clients-and-mobile-in-exchange-online/remote-connectivity-analyzer-tests) 
 
  

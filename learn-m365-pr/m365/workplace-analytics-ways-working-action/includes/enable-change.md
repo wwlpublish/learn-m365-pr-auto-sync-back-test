@@ -161,6 +161,6 @@ After identifying an opportunity, the manager can take action by enrolling team 
 
 ## Learn More
 
-- [More about MyAnalytics](https://docs.microsoft.com/workplace-analytics/myanalytics/use/mya-elements?azure-portal=true)
-- [MyAnalytics deployment guide](https://docs.microsoft.com/workplace-analytics/myanalytics/setup/deployment-guide?azure-portal=true)
-- [More about Plans](https://docs.microsoft.com/workplace-analytics/tutorials/solutionsv2-intro?azure-portal=true)
+- [More about MyAnalytics](/workplace-analytics/myanalytics/use/mya-elements?azure-portal=true)
+- [MyAnalytics deployment guide](/workplace-analytics/myanalytics/setup/deployment-guide?azure-portal=true)
+- [More about Plans](/workplace-analytics/tutorials/solutionsv2-intro?azure-portal=true)
