@@ -25,4 +25,4 @@ When a license SKU is assigned to a user, a Microsoft Teams license is automatic
 
 When you're done with a link, use the **Back** arrow in your browser to come back to this page.
 
-- [Licensing for Microsoft Teams](https://docs.microsoft.com/microsoftteams/office-365-licensing)
+- [Licensing for Microsoft Teams](/microsoftteams/office-365-licensing)

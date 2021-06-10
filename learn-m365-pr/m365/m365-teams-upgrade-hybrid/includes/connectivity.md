@@ -1,4 +1,4 @@
-This unit describes the key concepts for configuring hybrid connectivity. For detailed steps, see [Configure hybrid connectivity between Skype for Business Server and Microsoft 365](https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-hybrid-connectivity).
+This unit describes the key concepts for configuring hybrid connectivity. For detailed steps, see [Configure hybrid connectivity between Skype for Business Server and Microsoft 365](/SkypeForBusiness/hybrid/configure-hybrid-connectivity).
 
 The following tasks are required to configure Skype for Business hybrid connectivity:
 
@@ -17,4 +17,4 @@ In addition, if you have Exchange on-premises, then you may want to configure OA
 
 When you're done with a link, use the **Back** arrow in your browser to come back to this page.
 
-- [Configure hybrid connectivity between Skype for Business Server and Microsoft 365](https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-hybrid-connectivity)
+- [Configure hybrid connectivity between Skype for Business Server and Microsoft 365](/SkypeForBusiness/hybrid/configure-hybrid-connectivity)

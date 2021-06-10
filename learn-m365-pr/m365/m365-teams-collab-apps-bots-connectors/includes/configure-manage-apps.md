@@ -33,5 +33,5 @@ The Microsoft Developer Network provides sample tabs developed by Microsoft that
 
 When you're done with a link, use the **Back** arrow in your browser to come back to this page.
 
-- [Admin settings for apps in Microsoft Teams](https://docs.microsoft.com/microsoftteams/admin-settings)
-- [Use built-in and custom tabs in Microsoft Teams](https://docs.microsoft.com/microsoftteams/built-in-custom-tabs)
+- [Admin settings for apps in Microsoft Teams](/microsoftteams/admin-settings)
+- [Use built-in and custom tabs in Microsoft Teams](/microsoftteams/built-in-custom-tabs)

@@ -3,7 +3,7 @@ uid: learn-m365.introduction-to-microsoft-cloud-app-security
 metadata:
   title: Introduction to Microsoft Cloud App Security
   description: Introduction to Microsoft Cloud App Security
-  ms.date: 05/14/2021
+  ms.date: 05/27/2021
   author: geoffallix
   ms.author: beccarobins
   ms.topic: interactive-tutorial
@@ -18,7 +18,7 @@ abstract: |
 prerequisites: | 
   - Knowledge of security fundamentals
   - Knowledge of Microsoft Azure and Microsoft 365 fundamentals
-iconUrl: /learn/achievements/generic-badge.svg
+iconUrl: /learn/achievements/cloud-app-security-introduction.svg
 levels:
 - beginner
 roles:

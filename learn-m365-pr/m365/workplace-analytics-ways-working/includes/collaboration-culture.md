@@ -152,5 +152,5 @@ A *Glossary* is also included in the dashboard, providing a reference for the me
 
 ## Learn more
 
-- [Workplace Analytics metrics](https://docs.microsoft.com/Workplace-Analytics/use/metric-definitions?azure-portal=true)
-- [About the reports](https://docs.microsoft.com//Workplace-Analytics/tutorials/power-bi-collab-assess#about-the-reports?azure-portal=true)
+- [Workplace Analytics metrics](/Workplace-Analytics/use/metric-definitions?azure-portal=true)
+- [About the reports](//Workplace-Analytics/tutorials/power-bi-collab-assess#about-the-reports?azure-portal=true)

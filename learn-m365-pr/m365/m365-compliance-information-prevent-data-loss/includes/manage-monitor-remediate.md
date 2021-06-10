@@ -40,4 +40,4 @@ This image shows the DLP false positives and overrides report. One line in the c
 :::image type="content" source="../media/dlp-false-positives.png" alt-text="A screenshot of the DLP false positive and overrides report.":::
 
 ## Learn more
-- [View the reports for data loss prevention | Microsoft Docs](https://docs.microsoft.com/microsoft-365/compliance/view-the-dlp-reports)
+- [View the reports for data loss prevention | Microsoft Docs](/microsoft-365/compliance/view-the-dlp-reports)

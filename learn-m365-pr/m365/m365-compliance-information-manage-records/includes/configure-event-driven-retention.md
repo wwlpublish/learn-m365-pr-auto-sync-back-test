@@ -52,6 +52,6 @@ This option is for situations where an event type was not previously defined. Ch
 The final step in the process is to create the event. 
 
 ## Learn more
-- [Overview of event driven retention](https://docs.microsoft.com/microsoft-365/compliance/event-driven-retention?azure-portal=true)
-- [Automate event-based retention](https://docs.microsoft.com/microsoft-365/compliance/automate-event-driven-retention?azure-portal=true)
+- [Overview of event driven retention](/microsoft-365/compliance/event-driven-retention?azure-portal=true)
+- [Automate event-based retention](/microsoft-365/compliance/automate-event-driven-retention?azure-portal=true)
 

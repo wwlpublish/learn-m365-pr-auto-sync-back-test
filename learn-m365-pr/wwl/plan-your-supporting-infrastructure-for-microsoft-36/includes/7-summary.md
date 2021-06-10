@@ -12,7 +12,7 @@ This module concluded with a discussion of Azure Active Directory Connect. Micro
 
 Visit the following links to learn more about some of the items we explored in this module.
 
- *  [Microsoft 365 Mail Migration Advisor](https://docs.microsoft.com/exchange/mail-migration-jump?azure-portal=true)
- *  [Set up file storage and sharing in Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/setup/set-up-file-storage-and-sharing?view=o365-worldwide?azure-portal=true)<br>
- *  [Network planning for Microsoft Teams](https://docs.microsoft.com/microsoftteams/prepare-network?azure-portal=true)
- *  [Azure Active Directory Connect](https://docs.microsoft.com/azure/active-directory/hybrid/whatis-azure-ad-connect?azure-portal=true)
+ *  [Microsoft 365 Mail Migration Advisor](/exchange/mail-migration-jump)
+ *  [Set up file storage and sharing in Microsoft 365](/microsoft-365/admin/setup/set-up-file-storage-and-sharing)<br>
+ *  [Network planning for Microsoft Teams](/microsoftteams/prepare-network)
+ *  [Azure Active Directory Connect](/azure/active-directory/hybrid/whatis-azure-ad-connect)

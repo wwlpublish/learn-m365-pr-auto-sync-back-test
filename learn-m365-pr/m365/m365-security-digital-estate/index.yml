@@ -3,9 +3,9 @@ uid: learn-m365.m365-security-digital-estate
 metadata:
   title: Information protection and the growing digital estate 
   description: Learn how Microsoft Information Protection helps your organization meet standards and requirements through supporting classification methods for end users. 
-  ms.date: 10/28/2019
+  ms.date: 05/28/2021
   author: puffinanda 
-  ms.author: v-jolev
+  ms.author: beccarobins
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Information protection and the growing digital estate  
@@ -16,7 +16,7 @@ abstract: |
   - Describe how IT and end users can classify data
 
 prerequisites: | 
- - Basic understanding of Microsoft 365. If you are unfamiliar with this, we recommend you take [Microsoft 365 Fundamentals](https://docs.microsoft.com/learn/paths/m365-fundamentals/)
+ - Basic understanding of Microsoft 365. If you are unfamiliar with this, we recommend you take [Microsoft 365 Fundamentals](/learn/paths/m365-fundamentals/)
 iconUrl: /learn/achievements/info-protection-growing-digital-estate.svg
 ratingEnabled: true
 levels:

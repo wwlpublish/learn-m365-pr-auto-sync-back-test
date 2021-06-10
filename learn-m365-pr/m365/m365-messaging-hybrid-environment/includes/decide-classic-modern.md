@@ -14,5 +14,5 @@ The Hybrid Agent removes some of the challenges you might face when you configur
 
 ## Learn more
 
-- [Exchange Server hybrid deployments](https://docs.microsoft.com/exchange/exchange-hybrid?azure-portal=true)
-- [Microsoft Hybrid Agent](https://docs.microsoft.com/exchange/hybrid-deployment/hybrid-agent?azure-portal=true)
+- [Exchange Server hybrid deployments](/exchange/exchange-hybrid?azure-portal=true)
+- [Microsoft Hybrid Agent](/exchange/hybrid-deployment/hybrid-agent?azure-portal=true)

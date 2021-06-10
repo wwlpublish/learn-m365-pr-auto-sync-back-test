@@ -4,9 +4,9 @@ title: Validate inbound and outbound mail flow
 metadata:
   title: Validate inbound and outbound mail flow
   description: Learn how to validate the inbound and outbound flow of mail in your Exchange Online environment.
-  ms.date: 06/09/2020
+  ms.date: 05/28/2021
   author: AlexandraHrt
-  ms.author: v-aleha
+  ms.author: elizapo
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 durationInMinutes: 3

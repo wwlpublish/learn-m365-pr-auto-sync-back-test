@@ -65,4 +65,4 @@ By default, Teams switches the live stream view to whoever is talking. However, 
 
 ## Learn more
 
-[Manage meeting policies in Teams - Allow IP Video](https://docs.microsoft.com/MicrosoftTeams/meeting-policies-in-teams#allow-ip-video)
+[Manage meeting policies in Teams - Allow IP Video](/MicrosoftTeams/meeting-policies-in-teams#allow-ip-video)
