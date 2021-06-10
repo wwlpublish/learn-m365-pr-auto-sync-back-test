@@ -10,7 +10,7 @@ metadata:
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
-durationInMinutes: 3
+durationInMinutes: 9
 content: |
   [!include[](includes/2-explore-windows-10-diagnostic-data.md)]
 quiz:
@@ -20,7 +20,7 @@ quiz:
     choices:
     - content: "Required"
       isCorrect: false
-      explanation: "That's incorrect. This level gathers a limited set of data that’s critical for understanding the device and its configuration.. Try again."
+      explanation: "That's incorrect. This level gathers a limited set of data that’s critical for understanding the device and its configuration. Try again."
     - content: "Optional"
       isCorrect: false
       explanation: "That's incorrect. This level includes more detailed information about your device and its settings, capabilities, and device health. Try again."

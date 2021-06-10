@@ -56,7 +56,7 @@ The following information and workflow is provided:
      -  which apps and drivers need attention.
      -  suggestions on how to mitigate the issue if information about the issue is available.
     
-    <br>:::image type="content" source="../media/upgrade-workflow-identify-resolve-8dc2a14f.jpg":::
+    <br>:::image type="content" source="../media/upgrade-workflow-identify-resolve-8dc2a14f.jpg" alt-text="screenshot of the workflow showing the critical high-level upgrade tasks for the first two steps, Identify and Resolve Issues":::
     <br>
 
  -  **Step 3: Deploy**. After you've worked through compatibility testing, you can see the list of devices that are ready to upgrade. You can list the devices or export their list in a CSV file that can be imported to your management tool.<br><br>:::image type="content" source="../media/upgrade-workflow-deploy-29ebbe23.jpg" alt-text="screenshot of Step 3 (Deploy) in the workflow":::

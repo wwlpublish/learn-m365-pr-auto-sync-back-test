@@ -9,13 +9,13 @@ metadata:
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Analyze Windows 10 diagnostic data using Desktop Analytics
-summary: This module examines the diagnostic data captured by Windows 10 devices, as well as the Desktop Analytics tools that analyze that data to determine device health, software update compliance levels, and upgrade readiness.
+summary: This module examines the diagnostic data captured by Windows 10 devices, and the Desktop Analytics tools that analyze that data to determine device health, software update compliance levels, and upgrade readiness.
 abstract: |
   By the end of this module, you will be able to:
   - Identify the types of diagnostic data captured on each device by Windows 10
   - Describe the three components of Desktop Analytics - Device Health, Update Compliance, and Upgrade Readiness
   - Explain how the Device Health tool analyzes a device's performance and reliability health
-  - Explain how the Update Compliance tool analyzes how up-to-date a device is based on software quality updates, feature updates, and anti-virus updates
+  - Explain how the Update Compliance tool analyzes how up to date a device is based on software quality updates, feature updates, and anti-virus updates
   - Explain how the Upgrade Readiness tool analyzes a device's preparedness to run a Windows 10 upgrade
 prerequisites: ""
 iconUrl: /learn/achievements/generic-badge.svg
