@@ -1089,6 +1089,11 @@
       "source_path": "learn-m365-pr/wwl/describe-compliance-management-capabilities-microsoft-365/2-undestand-common-compliance-needs.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/describe-compliance-management-capabilities-microsoft/",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/explore-place-records-management-sharepoint/2-explore-in-place-records-management-sharepoint.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/explore-place-records-management-sharepoint/2-examine-in-place-records-management",
+      "redirect_document_id": true
     }
   ]
 }
