@@ -20,4 +20,4 @@ The following diagram shows the insider risk management workflow that Microsoft 
 :::image type="content" source="../media/insider-risk-workflow-36347d68.png" alt-text="Diagram showing workflow for Insider risk management.":::
 <br><br>
 
-**Additional reading.** For more information, see the following article on [Insider Risk Management scenarios](https://docs.microsoft.com/microsoft-365/compliance/insider-risk-management?azure-portal=true).
+**Additional reading.** For more information, see the following article on [Insider Risk Management scenarios](/microsoft-365/compliance/insider-risk-management).
