@@ -1,0 +1,48 @@
+### YamlMime:Module
+uid: learn.wwl.implement-windows-autopilot
+metadata:
+  title: Explore Windows Autopilot deployment models
+  description: "Explore Windows Autopilot deployment models"
+  ms.date: 06/10/2021
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Explore Windows Autopilot deployment models
+summary: This module examines the Windows Autopilot deployment models and how they enable you to deploy new devices without the need to build, maintain, and apply custom operating system images to the devices.
+abstract: |
+  By the end of this module, you will be able to:
+  - Describe the Windows Autopilot deployment requirements
+  - Configure Windows Autopilot
+  - Create and assign a Windows Autopilot profile
+  - Deploy and validate Windows Autopilot
+  - Explain how the Autopilot self-deployment model deploys Windows 10 with little or no user interaction
+  - Explain how the Autopilot pre-provisioned deployment model enables end-users to provision new devices by using the preinstalled OEM image and drivers
+  - Explain how the Autopilot user-driven deployment model enables new Windows 10 devices to be transformed from their initial factory state without requiring IT personnel to ever touch the device
+  - Deploy BitLocker encryption for Autopiloted devices
+prerequisites: ""
+iconUrl: /learn/achievements/generic-badge.svg
+levels:
+- intermediate
+roles:
+- administrator
+- security-engineer
+- solution-architect
+- technology-manager
+products:
+- azure-active-directory
+- m365
+- office-365
+units:
+- learn.wwl.implement-windows-autopilot.introduction
+- learn.wwl.implement-windows-autopilot.explore
+- learn.wwl.implement-windows-autopilot.examine-prerequisites
+- learn.wwl.implement-windows-autopilot.plan-autopilot-profile-settings
+- learn.wwl.implement-windows-autopilot.examine-self-deployment-model
+- learn.wwl.implement-windows-autopilot.examine-pre-provisioned-deployment-model
+- learn.wwl.implement-windows-autopilot.examine-user-driven-deployment-model
+- learn.wwl.implement-windows-autopilot.deploy-bitlocker-encryption-for-autopiloted-devices
+- learn.wwl.implement-windows-autopilot.knowledge-check
+- learn.wwl.implement-windows-autopilot.summary
+badge:
+  uid: learn.wwl.implement-windows-autopilot.badge
