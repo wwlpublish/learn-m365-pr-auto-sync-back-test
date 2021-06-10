@@ -49,6 +49,9 @@ More time spent with the best customer opportunities is key to sales effectivene
 
 **Why does this matter?** Locating and maintaining relationships with the right contacts, based on the nature of the product or service, leads to more effective sales conversations.
 
+> [!NOTE]
+> The External contact analysis requires detailed CRM and customer contact data. To perform this analysis, additional data extraction capabilities are required.
+
 ### CRM augmentation
 
 **Is our CRM database up-to-date?** You can identify the number of contacts from your CRM database by contact type to ensure your CRM is up-to-date.
@@ -58,7 +61,7 @@ More time spent with the best customer opportunities is key to sales effectivene
 **Why does this matter?** An up-to-date CRM database is the foundation for effective sales planning, sales projections, and coaching conversations. It is critical for smooth operations and keeping the team informed.
 
 > [!NOTE]
-> The Account portfolio management and CRM augmentation analyses require detailed CRM and customer contact data. To perform these analyses, additional data extraction capabilities are required.
+> The CRM augmentation analysis requires detailed CRM and customer contact data. To perform this analysis, additional data extraction capabilities are required.
 
 ## Internal collaboration
 
