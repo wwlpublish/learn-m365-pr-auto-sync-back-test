@@ -66,7 +66,7 @@ This configuration option is unique to the records management solution. If selec
 The final step in the process is to review your settings, make any needed updates, and create the label.
 
 ## Learn more
-- [Overview of retention labels](https://docs.microsoft.com/microsoft-365/compliance/labels?azure-portal=true)
-- [Retention policy precedence](https://docs.microsoft.com/microsoft-365/compliance/labels?view=o365-worldwide#the-principles-of-retention-or-what-takes-precedence?azure-portal=true)
-- [Overview of disposition reviews](https://docs.microsoft.com/microsoft-365/compliance/disposition-reviews?azure-portal=true)
-- [How a retention policy works with content in place](https://docs.microsoft.com/microsoft-365/compliance/retention-policies#how-a-retention-policy-works-with-content-in-place?azure-portal=true)
+- [Overview of retention labels](/microsoft-365/compliance/labels?azure-portal=true)
+- [Retention policy precedence](/microsoft-365/compliance/labels?the-principles-of-retention-or-what-takes-precedence?azure-portal=true)
+- [Overview of disposition reviews](/microsoft-365/compliance/disposition-reviews?azure-portal=true)
+- [How a retention policy works with content in place](/microsoft-365/compliance/retention-policies#how-a-retention-policy-works-with-content-in-place?azure-portal=true)

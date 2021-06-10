@@ -10,11 +10,11 @@ Share the following resources (see **Learn more** below for links) with your IT 
 
 ## Learn more
 
-- [Prepare your environment for upgrading to Teams](https://docs.microsoft.com/MicrosoftTeams/upgrade-prepare-environment?azure-portal=true)
-- [Prepare your IT staff for Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/upgrade-prepare-it-pros?azure-portal=true)
-- [Create and manage DLP policies for Microsoft Teams](https://docs.microsoft.com/office365/securitycompliance/dlp-microsoft-teams?azure-portal=true)
-- [Create and manage retention policies for Microsoft Teams](https://docs.microsoft.com/microsoftteams/retention-policies?azure-portal=true)
-- [Perform eDiscovery investigations for Microsoft Teams](https://docs.microsoft.com/microsoftteams/ediscovery-investigation?azure-portal=true)
-- [Create security and compliance alerts for Microsoft Teams](https://docs.microsoft.com/microsoft-365/compliance/alert-policies?azure-portal=true)
-- [Create an information barrier policy](https://docs.microsoft.com/microsoftteams/information-barriers-in-teams?azure-portal=true)
-- [Interpret security reports for Microsoft Teams](https://docs.microsoft.com/microsoft-365/compliance/reports-in-security-and-compliance?azure-portal=true)
+- [Prepare your environment for upgrading to Teams](/MicrosoftTeams/upgrade-prepare-environment?azure-portal=true)
+- [Prepare your IT staff for Microsoft Teams](/MicrosoftTeams/upgrade-prepare-it-pros?azure-portal=true)
+- [Create and manage DLP policies for Microsoft Teams](/office365/securitycompliance/dlp-microsoft-teams?azure-portal=true)
+- [Create and manage retention policies for Microsoft Teams](/microsoftteams/retention-policies?azure-portal=true)
+- [Perform eDiscovery investigations for Microsoft Teams](/microsoftteams/ediscovery-investigation?azure-portal=true)
+- [Create security and compliance alerts for Microsoft Teams](/microsoft-365/compliance/alert-policies?azure-portal=true)
+- [Create an information barrier policy](/microsoftteams/information-barriers-in-teams?azure-portal=true)
+- [Interpret security reports for Microsoft Teams](/microsoft-365/compliance/reports-in-security-and-compliance?azure-portal=true)

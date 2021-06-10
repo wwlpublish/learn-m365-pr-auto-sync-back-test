@@ -26,4 +26,4 @@ When a potential security incident is escalated, the corresponding investigation
 
 ## Learn more
 
-- [Microsoft 365 security incident management: Detection and analysis](https://docs.microsoft.com/compliance/assurance/assurance-sim-detection-analysis?azure-portal=true)
+- [Microsoft 365 security incident management: Detection and analysis](/compliance/assurance/assurance-sim-detection-analysis?azure-portal=true)

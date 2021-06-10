@@ -12,5 +12,5 @@ For example, you could enable Anyone links but not make that the default link ty
 The default sharing link permission can be set to either **View** or **Edit**. The user can change it from View or Edit within the sharing experience prior to sharing.
 
 ## Learn more
-- [Change the default link type for a site](https://docs.microsoft.com/sharepoint/change-default-sharing-link?azure-portal=true)
-- [Manage sharing settings](https://docs.microsoft.com/sharepoint/turn-external-sharing-on-or-off?azure-portal=true)
+- [Change the default link type for a site](/sharepoint/change-default-sharing-link?azure-portal=true)
+- [Manage sharing settings](/sharepoint/turn-external-sharing-on-or-off?azure-portal=true)

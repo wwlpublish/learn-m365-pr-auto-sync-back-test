@@ -45,5 +45,5 @@ If you are managing devices in your organization using Intune, you can complete 
 
 ## Learn more
 - [OneDrive sync app release notes](https://support.office.com/article/845dcf18-f921-435e-bf28-4e24b95e5fc0?azure-portal=true)
-- [Use Group Policy to control OneDrive sync settings](https://docs.microsoft.com/onedrive/use-group-policy?azure-portal=true)
-- [The OneDrive sync app update process](https://docs.microsoft.com/onedrive/sync-client-update-process?azure-portal=true)
+- [Use Group Policy to control OneDrive sync settings](/onedrive/use-group-policy?azure-portal=true)
+- [The OneDrive sync app update process](/onedrive/sync-client-update-process?azure-portal=true)

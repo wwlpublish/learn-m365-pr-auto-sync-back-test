@@ -128,5 +128,5 @@ The best way to test the implementation is to call the number configured for the
 
 ## Learn more
 
-- [Planning and implementing call queues](https://docs.microsoft.com/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-cq)
-- [Creating a cloud call queue](https://docs.microsoft.com/MicrosoftTeams/what-are-phone-system-auto-attendants)
+- [Planning and implementing call queues](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-cq)
+- [Creating a cloud call queue](/MicrosoftTeams/what-are-phone-system-auto-attendants)

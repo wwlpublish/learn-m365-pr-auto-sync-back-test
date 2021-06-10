@@ -186,10 +186,10 @@ You assign a dial plan in the same way you assign policies. You can assign a pol
 
 ## Learn more
 
-- [New-CSOnlinePSTNGateway](https://docs.microsoft.com/powershell/module/skype/new-csonlinepstngateway)
-- [Set-CSOnlinePSTNGateway](https://docs.microsoft.com/powershell/module/skype/set-csonlinepstngateway)
-- [Set-CsTenantDialPlan](https://docs.microsoft.com/powershell/module/skype/set-cstenantdialplan)
-- [Grant-CsTenantDialPlan](https://docs.microsoft.com/powershell/module/skype/grant-cstenantdialplan)
-- [Get-CsTenantDialPlan](https://docs.microsoft.com/powershell/module/skype/get-cstenantdialplan?view=skype-ps)
-- [Get-CsEffectiveTenantDialPlan](https://docs.microsoft.com/powershell/module/skype/get-cseffectivetenantdialplan)
-- [Normalization rules](https://docs.microsoft.com/microsoftteams/what-are-dial-plans#normalization-rules)
+- [New-CSOnlinePSTNGateway](/powershell/module/skype/new-csonlinepstngateway)
+- [Set-CSOnlinePSTNGateway](/powershell/module/skype/set-csonlinepstngateway)
+- [Set-CsTenantDialPlan](/powershell/module/skype/set-cstenantdialplan)
+- [Grant-CsTenantDialPlan](/powershell/module/skype/grant-cstenantdialplan)
+- [Get-CsTenantDialPlan](/powershell/module/skype/get-cstenantdialplan)
+- [Get-CsEffectiveTenantDialPlan](/powershell/module/skype/get-cseffectivetenantdialplan)
+- [Normalization rules](/microsoftteams/what-are-dial-plans#normalization-rules)

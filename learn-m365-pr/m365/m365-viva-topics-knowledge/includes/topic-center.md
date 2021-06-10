@@ -6,7 +6,7 @@ The Topic Center in Viva Topics is a central place to manage and discover knowle
 
 |Knowledge identification|Knowledge curation|Knowledge discovery|
 |------------------------|------------------|-------------------|
-|Viva Topics applies AI to identify knowledge and experts in the Microsoft Graph and automatically organizes them into related topics.|Viva Topics organizes knowledge into topic pages. Experts can refine topics, and Cortex learns to update topics automatically.|Topic cards are delivered to you in the apps you use every day - you can also discover topics in Microsoft Search results. |
+|Viva Topics applies AI to identify knowledge and experts in the Microsoft Graph and automatically organizes them into related topics.|Viva Topics organizes knowledge into topic pages. Experts can refine topics, and Viva Topics learns to update topics automatically.|Topic cards are delivered to you in the apps you use every day - you can also discover topics in Microsoft Search results. |
 
 ## Topic Center capabilities 
 

@@ -34,6 +34,6 @@ All these devices are managed the in the Microsoft Teams admin center and have t
 
 For more information about the topics covered in this unit, see:
 
-- [Manage your devices in Microsoft Teams](https://docs.microsoft.com/microsoftteams/devices/device-management).
-- [IP Phones certified for Microsoft Teams](https://docs.microsoft.com/microsoftteams/devices/teams-ip-phones).
-- [Phones for Microsoft Teams](https://docs.microsoft.com/microsoftteams/devices/phones-for-teams).
+- [Manage your devices in Microsoft Teams](/microsoftteams/devices/device-management).
+- [IP Phones certified for Microsoft Teams](/microsoftteams/devices/teams-ip-phones).
+- [Phones for Microsoft Teams](/microsoftteams/devices/phones-for-teams).

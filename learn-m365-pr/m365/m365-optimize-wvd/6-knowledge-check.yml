@@ -3,7 +3,7 @@ uid: learn-m365.optimize-wvd.knowledge-check
 title: Knowledge check
 metadata:
   title: Knowledge check
-  description: Review what you learned about optimizing Windows Virtual Desktop.
+  description: Review what you learned about optimizing Azure Virtual Desktop.
   ms.date: 06/29/2020
   author: lizap
   ms.author: elizapo
@@ -21,21 +21,21 @@ quiz:
      - content: "Create a new role in Azure AD to read and write in Azure storage"
        isCorrect: false
        explanation: "Incorrect. You need a new role in Azure AD to read and write in Azure storage so users can access and modify the virtual disks that contain their user profile."
-     - content: "Install FSLogix software in Windows Virtual Desktop gallery images"
+     - content: "Install FSLogix software in Azure Virtual Desktop gallery images"
        isCorrect: true
        explanation: "Correct. FSLogix software is preinstalled in the Azure gallery images. If you use your *own* image, you'll need to install the FSLogix software yourself."
    - content: "What service can you use to migrate file or user profile data from an on-premises location to Azure?"
      choices:
      - content: "Azure Automation"
        isCorrect: false
-       explanation: "Use Azure Automation and Azure Logic Apps to automatically scale Windows Virtual Desktop session hosts."
+       explanation: "Use Azure Automation and Azure Logic Apps to automatically scale Azure Virtual Desktop session hosts."
      - content: "Azure File Sync"
        isCorrect: true
        explanation: "Deploy Azure File Sync to sync on-premises files or user profile data to Azure Storage."
-     - content: "Windows Virtual Desktop"
+     - content: "Azure Virtual Desktop"
        isCorrect: false
-       explanation: "Virtualize desktops and apps by using Windows Virtual Desktop."
-   - content: "What's one of the primary reasons to use automated scaling in Windows Virtual Desktop?"
+       explanation: "Virtualize desktops and apps by using Azure Virtual Desktop."
+   - content: "What's one of the primary reasons to use automated scaling in Azure Virtual Desktop?"
      choices:
      - content: "To increase virtual disk storage when users get close to reaching the limits in a VM."
        isCorrect: false

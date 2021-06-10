@@ -54,8 +54,8 @@ For QoS to be effective, you must apply consistent QoS settings throughout your 
 
 ## Learn more
 
-- [Use call analytics to troubleshoot poor call quality](https://docs.microsoft.com/microsoftteams/use-call-analytics-to-troubleshoot-poor-call-quality)
-- [Set up call analytics for Microsoft Teams](https://docs.microsoft.com/microsoftteams/set-up-call-analytics)
-- [Monitor and improve call quality for Microsoft Teams](https://docs.microsoft.com/microsoftteams/monitor-call-quality-qos)
-- [What is Call Quality Dashboard (CQD)?](https://docs.microsoft.com/microsoftteams/cqd-what-is-call-quality-dashboard)
-- [Upload tenant and building data in Call Quality Dashboard (CQD)](https://docs.microsoft.com/microsoftteams/cqd-upload-tenant-building-data)
+- [Use call analytics to troubleshoot poor call quality](/microsoftteams/use-call-analytics-to-troubleshoot-poor-call-quality)
+- [Set up call analytics for Microsoft Teams](/microsoftteams/set-up-call-analytics)
+- [Monitor and improve call quality for Microsoft Teams](/microsoftteams/monitor-call-quality-qos)
+- [What is Call Quality Dashboard (CQD)?](/microsoftteams/cqd-what-is-call-quality-dashboard)
+- [Upload tenant and building data in Call Quality Dashboard (CQD)](/microsoftteams/cqd-upload-tenant-building-data)

@@ -12,11 +12,11 @@ Now that you've completed this module, you should be able to:
 
 ## Learn more
 
-- [Create policies on Cloud Discovery apps](https://docs.microsoft.com/cloud-app-security/cloud-discovery-policies?azure-portal=true)
-- [Configure automatic log upload for continuous reports in Cloud App Security](https://docs.microsoft.com/cloud-app-security/discovery-docker?azure-portal=true)
-- [Integrate Cloud App Security with Zscaler](https://docs.microsoft.com/cloud-app-security/zscaler-integration?azure-portal=true)
-- [Integrate Cloud App Security with iboss](https://docs.microsoft.com/cloud-app-security/iboss-integration?azure-portal=true)
-- [Integrate Cloud App Security with Corrata](https://docs.microsoft.com/cloud-app-security/corrata-integration?azure-portal=true)
-- [Integrate Microsoft Defender for Endpoint with Cloud App Security](https://docs.microsoft.com/cloud-app-security/mde-integration?azure-portal=true)
-- [Deploy Cloud Discovery](https://docs.microsoft.com/cloud-app-security/set-up-cloud-discovery?azure-portal=true)
+- [Create policies on Cloud Discovery apps](/cloud-app-security/cloud-discovery-policies?azure-portal=true)
+- [Configure automatic log upload for continuous reports in Cloud App Security](/cloud-app-security/discovery-docker?azure-portal=true)
+- [Integrate Cloud App Security with Zscaler](/cloud-app-security/zscaler-integration?azure-portal=true)
+- [Integrate Cloud App Security with iboss](/cloud-app-security/iboss-integration?azure-portal=true)
+- [Integrate Cloud App Security with Corrata](/cloud-app-security/corrata-integration?azure-portal=true)
+- [Integrate Microsoft Defender for Endpoint with Cloud App Security](/cloud-app-security/mde-integration?azure-portal=true)
+- [Deploy Cloud Discovery](/cloud-app-security/set-up-cloud-discovery?azure-portal=true)
 

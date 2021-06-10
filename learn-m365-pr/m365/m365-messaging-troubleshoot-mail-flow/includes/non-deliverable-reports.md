@@ -21,4 +21,4 @@ The NDR includes:
 If you receive an NDR from a server that's not an Exchange Online mail server, such as a generic Internet email server, the NDR might be less graphical and more text-based. The information included is still the same.
 
 ## Learn more
-[List of NDR codes](https://docs.microsoft.com/exchange/mail-flow-best-practices/non-delivery-reports-in-exchange-online/non-delivery-reports-in-exchange-online?azure-portal=true)
+[List of NDR codes](/exchange/mail-flow-best-practices/non-delivery-reports-in-exchange-online/non-delivery-reports-in-exchange-online?azure-portal=true)

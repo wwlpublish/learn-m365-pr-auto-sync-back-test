@@ -1091,6 +1091,16 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "learn-m365-pr/wwl/explore-place-records-management-sharepoint/2-explore-in-place-records-management-sharepoint.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/explore-place-records-management-sharepoint/2-examine-in-place-records-management",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/explore-office-365-message-encryption/2-explore-office-365-message-encryption.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/explore-office-365-message-encryption/2-examine-office-365-message-encryption",
+      "redirect_document_id": true
+    },
+    {
       "source_path": "learn-m365-pr/m365-developer/msgraph-show-user-emails/7-page-users-email.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/msgraph-show-user-emails/7-load-users-email-batches",
       "redirect_document_id": false
