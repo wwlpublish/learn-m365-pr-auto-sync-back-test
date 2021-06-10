@@ -33,7 +33,7 @@ products:
 - office-365
 units:
 - learn.wwl.explore-office-365-message-encryption.introduction
-- learn.wwl.explore-office-365-message-encryption.examine-office-365-message-encryption
+- learn.wwl.explore-office-365-message-encryption.explore-office-365-message-encryption
 - learn.wwl.explore-office-365-message-encryption.examine-how-works
 - learn.wwl.explore-office-365-message-encryption.work-with-encrypted-emails
 - learn.wwl.explore-office-365-message-encryption.advanced-message-encryption
