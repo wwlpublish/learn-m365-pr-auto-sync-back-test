@@ -19,8 +19,7 @@ With Workplace Analytics, you can focus on three main themes to drive these outc
 
 The following video shows how a U.S. headquartered, multinational technology firm who integrated Workplace Analytics metrics with their existing CRM dashboard used these analysis areas to understand the collaboration patterns of their sales employees.
 
-> [!div class="centered"]
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4NClr]
+[!VIDEO https://www.microsoft.com/videoplayer/embed/RE4NClr]
 
 In the next unit, you’ll learn about the many customer focus analyses you can perform in these three areas: External collaboration, Internal collaboration, and Coaching and onboarding.
 
