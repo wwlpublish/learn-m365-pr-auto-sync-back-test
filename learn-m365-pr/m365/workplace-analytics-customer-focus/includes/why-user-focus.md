@@ -1,4 +1,4 @@
-Workplace Analytics enables organizations in many industries around the globe to analyze collaboration related to customer focus. Customer focus analyses can help leaders understand and improve sales productivity and effectiveness. The results can be useful to sales leaders as well as many other external-facing functions, such as supplier management, business development, and marketing. 
+Workplace Analytics enables organizations in many industries around the globe to analyze collaboration related to customer focus. Customer focus analyses can help leaders understand and improve sales productivity and effectiveness. The results can be useful to sales leaders and many other external-facing functions, such as supplier management, business development, and marketing. 
 
 Sales organizations that adopt Workplace Analytics can benefit from two aspects: increased sales performance and reduced sales cycles and internal processes.
 
@@ -17,7 +17,7 @@ With Workplace Analytics, you can focus on three main themes to drive these outc
 1. **Internal collaboration** - Examine the types and lengths of meetings in your sales organization, and where there might be unnecessary collaboration.
 1. **Coaching and onboarding** - Understand the importance of coaching and onboarding to external-facing employees, and how these activities can help them be more effective salespeople.
 
-The following video shows how a U.S. headquartered, multinational technology firm who integrated Workplace Analytics metrics with their existing CRM dashboard and used these analysis areas to understand the collaboration patterns of their sales employees.
+The following video shows how a U.S. headquartered, multinational technology firm who integrated Workplace Analytics metrics with their existing CRM dashboard used these analysis areas to understand the collaboration patterns of their sales employees.
 
 > [!div class="centered"]
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4NClr]
