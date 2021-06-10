@@ -1,12 +1,13 @@
 Workplace Analytics provides insights around three key pillars of customer focus: External collaboration, Internal collaboration, and Coaching and onboarding.
 
+> [!div class="centered"]
 ![Customer focus categories](../media/customer-focus-categories.png)
 
 ## What questions about customer focus can you answer with Workplace Analytics?
 
 When beginning your customer focus analysis, it is important to know your business priorities and identify business questions to guide your analysis. The following are some examples of questions you might ask for each pillar:
 
-- **External collaboration** - Are sales employees spending the right amount time with the right customers to effectively drive high-value activities?
+- **External collaboration** - Are sales employees spending the right amount of time with the right customers to effectively drive high-value activities?
 - **Internal collaboration** - Are sales employees getting sufficient support from internal teams who can help drive high-value, external activities and spending the minimum time possible in internal processes?
 - **Coaching and onboarding** - Are sales employees getting enough empowerment from the management and building the knowledge and skills that can set them up for success?
 
@@ -42,19 +43,25 @@ More time spent with the best customer opportunities is key to sales effectivene
 
 ### External contact analysis
 
-**How many sales contacts do employees talk to, and are they the right contacts?** With Workplace Analytics, you can use CRM data to identify the number of contacts employees have by contact role to determine if sales employees are connecting with the right people.
+**How many sales contacts do employees talk to, and are they the right contacts?** You can use CRM data to identify the number of contacts employees have by contact role to determine if sales employees are connecting with the right people.
 
 ![External contact analysis](../media/external-contact-analysis.png)
 
 **Why does this matter?** Locating and maintaining relationships with the right contacts, based on the nature of the product or service, leads to more effective sales conversations.
 
+> [!NOTE]
+> To perform this analysis, additional data extraction capabilities are required.
+
 ### CRM augmentation
 
-**Is our CRM database up-to-date?** With Workplace Analytics, you can identify the number of contacts from your CRM database by contact type to ensure your CRM is up-to-date.
+**Is our CRM database up-to-date?** You can identify the number of contacts from your CRM database by contact type to ensure your CRM is up-to-date.
 
 ![CRM augmentation](../media/crm-augmentation.png)
 
 **Why does this matter?** An up-to-date CRM database is the foundation for effective sales planning, sales projections, and coaching conversations. It is critical for smooth operations and keeping the team informed.
+
+> [!NOTE]
+> To perform this analysis, additional data extraction capabilities are required.
 
 ## Internal collaboration
 
@@ -141,7 +148,7 @@ Knowledge and skills are essential for sales success. A robust onboarding progra
 
 ## Know your priorities for customer focus
 
-Identifying the core business issues and defining your business questions are key to an impactful project with insights-driven data analysis. Refer to the business questions introduced in the interactive video to begin team conversations on which priorities to address.
+Identifying the core business issues and defining your business questions are key to an impactful project with insights-driven data analysis. Use the business questions introduced in this unit to begin team conversations on which priorities to address.
 
 > [!NOTE]
 > See the Workplace Analytics Customer Focus Playbook for more detailed information on the analyses presented in this module. To access the playbook, use the Resource playbooks link in **Learn more**, or do the following in Workplace Analytics.

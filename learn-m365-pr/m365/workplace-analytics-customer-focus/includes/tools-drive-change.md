@@ -10,6 +10,9 @@ A Seller success plan can help sellers be more successful by showing the time sp
 
 ![Seller success plan](../media/seller-success-plan.png)
 
+> [!NOTE]
+> The Seller success plan requires CRM data.
+
 The Seller success plan links to MyAnalytics and provides individual insights through email digests and in the recipient’s MyAnalytics dashboard. Sellers receive a monthly email with insights around their collaboration habits, time spent with their most important accounts, the depth of engagement with key accounts, and a snapshot of their internal network.
 
 ![Seller insights](../media/seller-insights-myanalytics.png)

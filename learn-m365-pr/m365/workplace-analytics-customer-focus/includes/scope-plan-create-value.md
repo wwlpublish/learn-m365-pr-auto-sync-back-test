@@ -141,7 +141,7 @@ Implement change tactics:
 
 Track and share progress:
 - Select the Workplace Analytics metrics to track based on opportunities.
-- Build custom dashboards.Get context from interviews, surveys, and workshops.
+- Build custom dashboards.
 - Tailor communications to foster accountability.
 
 These actions will help drive change and ensure continued success with your customer focus initiative.
