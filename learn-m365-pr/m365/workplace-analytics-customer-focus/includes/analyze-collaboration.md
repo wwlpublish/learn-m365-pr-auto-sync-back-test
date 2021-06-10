@@ -1,7 +1,7 @@
 Workplace Analytics provides insights around three key pillars of customer focus: External collaboration, Internal collaboration, and Coaching and onboarding.
 
-> [!div class="centered"]
-> ![Customer focus categories](../media/customer-focus-categories.png)
+[!div class="centered"]
+![Customer focus categories](../media/customer-focus-categories.png)
 
 ## What questions about customer focus can you answer with Workplace Analytics?
 
