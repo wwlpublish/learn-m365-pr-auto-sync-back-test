@@ -68,4 +68,4 @@ In **Develop effective managers > Promote coaching and development > See your in
 
 ## Learn more
 
-- [Home page overview](https://docs.microsoft.com/workplace-analytics/use/insights?azure-portal=true)
+- [Home page overview](/workplace-analytics/use/insights?azure-portal=true)

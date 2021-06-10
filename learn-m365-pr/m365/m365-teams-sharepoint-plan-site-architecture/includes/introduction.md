@@ -8,5 +8,5 @@ SharePoint provides three main types of sites to help you create your intranet s
 
 When you're done with a link, use the **Back** arrow in your browser to come back to this page.
 
-- [Guide to the Modern experience in SharePoint](https://docs.microsoft.com/sharepoint/guide-to-sharepoint-modern-experience)
-- [Moving from publishing sites to communication sites](https://docs.microsoft.com/sharepoint/publishing-sites-classic-to-modern-experience)
+- [Guide to the Modern experience in SharePoint](/sharepoint/guide-to-sharepoint-modern-experience)
+- [Moving from publishing sites to communication sites](/sharepoint/publishing-sites-classic-to-modern-experience)

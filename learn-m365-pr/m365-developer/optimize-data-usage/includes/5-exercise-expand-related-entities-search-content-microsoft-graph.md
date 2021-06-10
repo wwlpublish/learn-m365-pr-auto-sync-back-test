@@ -91,7 +91,7 @@ Notice you can scroll through many results in the **Response Preview** window af
 
 Now enter the following query that will search for a user with the name *"wilke"* and select the **Run Query** button. This time the query will only return a single user: **https://graph.microsoft.com/v1.0/me/people?search="wilke"**.
 
-The `$search` query parameter also supports wildcards. Execute the following query to see many more people were found in the same data collection: **https://graph.microsoft.com/v1.0/me/people?search="wil\*"**.
+The `$search` query parameter also supports wildcards. Execute the following query to see many more people were found in the same data collection: **https://graph.microsoft.com/v1.0/me/people?search="wil&ast;"**.
 
 ## Summary
 

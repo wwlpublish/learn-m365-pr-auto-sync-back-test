@@ -3,19 +3,20 @@ uid: learn-m365-pr.m365-teams-calling
 metadata:
   title: Set up calling in Microsoft Teams with Phone System
   description: Use Microsoft Teams to implement telephony in your business and integrate it with video conferences, chats, and other Teams features. 
-  ms.date: 03/10/2021
+  ms.date: 05/12/2021
   author: iankensey
-  ms.author: v-iakens
+  ms.author: beccarobins
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Set up calling in Microsoft Teams with Phone System
-summary: "Microsoft Teams Phone System is a private branch exchange (PBX) system that you can use to build a telephone system without complicated and expensive equipment. Phone System seamlessly integrates with Microsoft Teams, bringing together telephony, video conference, and chats in one unified application. Through Teams Calling, any user can make and receive calls from any location using their work number. Phone System supports Microsoft Calling Plans and Direct Routing depending on whether your company has an existing carrier or their own on-premises PBX. Support for voicemail and other features can be managed through the Teams Admin Center."
+summary: |
+  Microsoft Teams Phone System is a private branch exchange (PBX) system that you can use to build a telephone system without complicated and expensive equipment. Phone System seamlessly integrates with Microsoft Teams, bringing together telephony, video conference, and chats in one unified application. Through Teams Calling, any user can make and receive calls from any location using their work number. Phone System supports Microsoft Calling Plans and Direct Routing depending on whether your company has an existing carrier or their own on-premises PBX. Support for voicemail and other features can be managed through the Teams Admin Center.
 prerequisites: |
   - Familiarity with Microsoft Teams
   - Familiarity with Voice over IP (VOIP)
   - Familiarity with private branch exchange (PBS)
   - Familiarity with public switched telephony network (PSTN)
-iconUrl: /learn/achievements/generic-trophy.svg
+iconUrl: /learn/achievements/set-up-calling-in-microsoft-teams-with-phone-system.svg
 levels: 
 - advanced
 roles:

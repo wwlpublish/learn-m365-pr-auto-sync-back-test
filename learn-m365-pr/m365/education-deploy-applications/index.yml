@@ -3,9 +3,9 @@ uid: learn-m365.edu-deploy-applications
 metadata:
   title: Deploy applications using Microsoft Intune and Intune for Education 
   description: This module will introduce you to the Microsoft Store for Education from which you can deploy both free and paid-for apps. These apps can be either win32 or iOS apps. You will learn how to configure Azure AD requirements needed in this environment.
-  ms.date: 10/15/2020
+  ms.date: 06/03/2021
   author: iankensey
-  ms.author: v-iakens
+  ms.author: beccarobins
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Deploy applications using Microsoft Intune and Intune for Education 
@@ -18,7 +18,7 @@ abstract: |
 prerequisites: |
  - Familiarity with Microsoft Azure administration.
  - Familiarity with Windows, Android, or iOS devices. 
-iconUrl: https://docs.microsoft.com/media/learn/module.svg
+iconUrl: /learn/achievements/generic-badge.svg
 levels: 
 - beginner
 roles: 

@@ -1,4 +1,4 @@
-Microsoft Phone System provides auto attendants and call queues, which can be used to let external and internal callers move through a menu system to locate and place or transfer calls to users or departments in your organization. These tools can be used to design and build a phone system that suits your exact business needs.
+Microsoft Teams Phone provides auto attendants and call queues, which can be used to let external and internal callers move through a menu system to locate and place or transfer calls to users or departments in your organization. These tools can be used to design and build a phone system that suits your exact business needs.
 
 Suppose you're starting to plan how support calls will be handled by your phone system when it's moved to Microsoft Teams for your digital camera company. You want to investigate whether Teams can present the menu of options you've planned and whether it can handle the large volume of calls that you expect to receive at busy times.
 
@@ -47,5 +47,5 @@ The following image shows what an attendant would see when a caller was in a cal
 
 ## Learn more
   
-- [Voice - Phone System and PSTN connectivity options](https://docs.microsoft.com/MicrosoftTeams/cloud-voice-landing-page#core-deployment-decisions)
-- [What is Phone System](https://docs.microsoft.com/MicrosoftTeams/what-is-phone-system-in-office-365)
+- [Voice - Phone System and PSTN connectivity options](/MicrosoftTeams/cloud-voice-landing-page#core-deployment-decisions)
+- [What is Phone System](/MicrosoftTeams/what-is-phone-system-in-office-365)

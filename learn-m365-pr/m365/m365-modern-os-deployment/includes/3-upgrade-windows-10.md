@@ -32,7 +32,7 @@ Regardless of the deployment type you choose, automation provides predictability
 
 ## Learn more
 
-- [Manage in-place upgrades](https://docs.microsoft.com/windows/deployment/upgrade/upgrade-to-windows-10-with-system-center-configuraton-manager?azure-portal=true)
-- [Windows Autopilot for existing devices](https://docs.microsoft.com/windows/deployment/windows-autopilot/existing-devices?azure-portal=true)
-- [Configure a Desktop Analytics environment](https://docs.microsoft.com/configmgr/desktop-analytics/set-up?azure-portal=true)
-- [Assess which computers can be upgraded to Windows 10](https://docs.microsoft.com/configmgr/desktop-analytics/about-deployment-plans?azure-portal=true)
+- [Manage in-place upgrades](/windows/deployment/upgrade/upgrade-to-windows-10-with-system-center-configuraton-manager?azure-portal=true)
+- [Windows Autopilot for existing devices](/windows/deployment/windows-autopilot/existing-devices?azure-portal=true)
+- [Configure a Desktop Analytics environment](/configmgr/desktop-analytics/set-up?azure-portal=true)
+- [Assess which computers can be upgraded to Windows 10](/configmgr/desktop-analytics/about-deployment-plans?azure-portal=true)

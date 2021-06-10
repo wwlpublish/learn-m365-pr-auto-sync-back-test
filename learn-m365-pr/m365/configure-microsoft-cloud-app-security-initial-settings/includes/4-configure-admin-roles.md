@@ -51,7 +51,7 @@ These roles are described in the following table.
 > You can only assign user group admins permissions to imported Azure AD groups.
 
 > [!NOTE]
-> For a full list of administrative capabilities, review the following document: [Built-in Cloud App Security admin roles](https://docs.microsoft.com/cloud-app-security/manage-admins?azure-portal=true#built-in-cloud-app-security-admin-roles). 
+> For a full list of administrative capabilities, review the following document: [Built-in Cloud App Security admin roles](/cloud-app-security/manage-admins?azure-portal=true#built-in-cloud-app-security-admin-roles). 
 
 ### Override admin permissions
 

@@ -10,4 +10,4 @@ For any subscription, a subscriber can contact Microsoft Support and request exp
 
 ## Learn more
 
-- [Data Retention, Deletion, and Destruction in Microsoft 365](https://docs.microsoft.com/office365/Enterprise/office-365-data-retention-deletion-and-destruction-overview?azure-portal=true)
+- [Data Retention, Deletion, and Destruction in Microsoft 365](/office365/Enterprise/office-365-data-retention-deletion-and-destruction-overview?azure-portal=true)

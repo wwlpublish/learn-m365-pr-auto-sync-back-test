@@ -12,6 +12,6 @@ This module examined the key steps involved in planning such a move by reviewing
 
 Visit the following links to learn more about some of the items we explored in this module:
 
- *  [Deployment guide for Microsoft 365 Apps](https://docs.microsoft.com/deployoffice/deployment-guide-microsoft-365-apps?azure-portal=true)
- *  [Prepare for directory synchronization to Microsoft 365](https://docs.microsoft.com/microsoft-365/enterprise/prepare-for-directory-synchronization?view=o365-worldwide?azure-portal=true)
- *  [Decide on a mail migration path](https://docs.microsoft.com/exchange/mailbox-migration/decide-on-a-migration-path?azure-portal=true)
+ *  [Deployment guide for Microsoft 365 Apps](/deployoffice/deployment-guide-microsoft-365-apps)
+ *  [Prepare for directory synchronization to Microsoft 365](/microsoft-365/enterprise/prepare-for-directory-synchronization)
+ *  [Decide on a mail migration path](/exchange/mailbox-migration/decide-on-a-migration-path)

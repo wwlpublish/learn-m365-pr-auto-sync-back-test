@@ -1,4 +1,4 @@
-Microsoft Teams Calling enables users to make and receive calls from any location, using their work number. You can connect from Teams to landline and mobile devices through the Public Switched Telephone Network (PSTN). Microsoft Teams works with Microsoft Phone System to enable call control and PBX capabilities through the Office 365 cloud. Phone System supports two primary options to implement PSTN connectivity with Microsoft Teams:
+Microsoft Teams Calling enables users to make and receive calls from any location, using their work number. You can connect from Teams to landline and mobile devices through the Public Switched Telephone Network (PSTN). Microsoft Teams works with Microsoft Teams Phone to enable call control and PBX capabilities through the Office 365 cloud. Phone System supports two primary options to implement PSTN connectivity with Microsoft Teams:
 
 - Use a Microsoft Calling Plan, or
 - Use Direct Routing.

@@ -41,5 +41,5 @@ To create a new DLP policy using a template:
 
 ## Learn more
 
-- [Retention policies in Microsoft Teams](https://docs.microsoft.com/microsoftteams/retention-policies).
-- [Overview of data loss prevention](https://docs.microsoft.com/microsoft-365/compliance/data-loss-prevention-policies)
+- [Retention policies in Microsoft Teams](/microsoftteams/retention-policies).
+- [Overview of data loss prevention](/microsoft-365/compliance/data-loss-prevention-policies)

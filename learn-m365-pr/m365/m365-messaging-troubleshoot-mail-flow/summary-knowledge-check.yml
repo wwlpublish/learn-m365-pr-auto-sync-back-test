@@ -4,9 +4,9 @@ title: Summary and knowledge check
 metadata:
   title: Summary and knowledge check
   description: Troubleshoot mail flow issues in Exchange Online using reports, transport logs, and validation.
-  ms.date: 06/09/2020
+  ms.date: 05/28/2021
   author: AlexandraHrt
-  ms.author: v-aleha
+  ms.author: elizapo
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 durationInMinutes: 5

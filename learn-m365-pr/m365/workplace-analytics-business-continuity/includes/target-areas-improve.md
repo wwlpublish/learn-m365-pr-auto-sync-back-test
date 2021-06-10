@@ -44,7 +44,7 @@ This final report, the *Glossary*, provides a reference for the metrics and term
 
 ## Learn more
 
-- [Workplace Analytics metrics](https://docs.microsoft.com/Workplace-Analytics/use/metric-definitions?azure-portal=true)
-- [About the reports](https://docs.microsoft.com/Workplace-Analytics/tutorials/power-bi-bc#about-the-reports)
-- [Workplace Analytics Plans](https://docs.microsoft.com/Workplace-Analytics/tutorials/solutionsv2-task?azure-portal=true)
+- [Workplace Analytics metrics](/Workplace-Analytics/use/metric-definitions?azure-portal=true)
+- [About the reports](/Workplace-Analytics/tutorials/power-bi-bc#about-the-reports)
+- [Workplace Analytics Plans](/Workplace-Analytics/tutorials/solutionsv2-task?azure-portal=true)
 - [Article: How Managers Can Support Remote Employees](https://hbr.org/2020/04/how-managers-can-support-remote-employees?ab=hero-subleft-1?azure-portal=true)

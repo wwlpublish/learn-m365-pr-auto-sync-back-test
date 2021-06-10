@@ -1,3 +1,5 @@
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4NzEt]
+
 In this exercise, you'll learn how to create a channel tab with a configuration page in a Microsoft Teams app.
 
 > [!IMPORTANT]
@@ -26,18 +28,9 @@ Yeoman starts and asks you a series of questions. Answer the questions with the 
 - **What kind of Tab would you like to create?**: Configurable
 - **What scopes do you intend to use for your tab?**: In a Team
 - **Do you require Azure AD Single-Sign-On support for the tab?** No
-- **Do you want this tab to be available in SharePoint Online?**: Yes
-- **How do you want your tab to be available in SharePoint?**: As a full-page application, as a web part
+- **Do you want this tab to be available in SharePoint Online?**: No
 
 After you answer the generator's questions, the generator adds the additional files for a new component. Then it runs `npm install` to ensure that any new dependencies are downloaded for the project.
-
-### Ensure the project is using the latest version of Teams manifest & SDK
-
-Run the npm command to install the latest version of the SDK
-
-```console
-npm i @microsoft/teams-js
-```
 
 ## Test the channel tab
 
@@ -141,9 +134,9 @@ return (
         ]}
         onChange={(e, data) => {
           if (data) {
-            let op = (data.value) ? data.value.toString() : "add";
+            const op = (data.value) ? data.value.toString() : "add";
             setMathOperator(op);
-            entityId.current = `${op}MathPage`
+            entityId.current = `${op}MathPage`;
           }
         }}
         value={mathOperator}></Dropdown>
@@ -168,6 +161,8 @@ Select one of the math operators, and save your changes by selecting **Save**. T
 
 ## Implement the channel tab
 
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4NCi7]
+
 The last step is to implement the channel tab.
 
 Locate and open the file **./src/client/configMathTab/ConfigMathTab.tsx**.
@@ -183,7 +178,7 @@ import { Provider, Flex, Text, Button, Header } from "@fluentui/react-northstar"
 Replace the previous statement with the following import statement:
 
 ```typescript
-import { Provider, Flex, Text, Button, Header, Input } from "@fluentui/react-northstar";
+import { Provider, Flex, Text, Button, Header, Input, InputProps } from "@fluentui/react-northstar";
 ```
 
 Add an interface to define the state our component will use. Add the following after the `import` statements:
@@ -287,19 +282,19 @@ return (
           <Flex gap="gap.smaller">
             <Flex.Item>
               <Input autoFocus
-                value={this.state.operandA}
+                value={mathTabState.operandA}
                 onChange={(e, data) => handleOnChangedOperandA(data)}></Input>
             </Flex.Item>
-            <Text content={this.state.mathOperator}></Text>
+            <Text content={mathTabState.mathOperator}></Text>
             <Flex.Item>
-              <Input value={this.state.operandB}
+              <Input value={mathTabState.operandB}
                 onChange={(e, data) => handleOnChangedOperandB(data)}></Input>
             </Flex.Item>
           </Flex>
         </Flex.Item>
         <Button content="Calculate" primary
-                onClick={this.handleOperandChange}></Button>
-        <Text content={this.state.result}></Text>
+          onClick={handleOperandChange}></Button>
+        <Text content={mathTabState.result}></Text>
       </Flex>
       <Text content="(C) Copyright Contoso" size="smallest"></Text>
     </Flex>

@@ -29,7 +29,7 @@ The following steps cover how to enable authentication for Azure file shares wit
 
 ## Assign roles to access storage data
 
-You need to assign roles to the AAD DC Administrators group and to your Windows Virtual Desktop users.
+You need to assign roles to the AAD DC Administrators group and to your Azure Virtual Desktop users.
 
 ### Assign role to AAD DC Administrators
 
@@ -44,15 +44,15 @@ Give the administrators the ability to modify NTFS permissions by assigning an e
 
 1. Select **Save**.
 
-### Assign role to non-administrator Windows Virtual Desktop users
+### Assign role to non-administrator Azure Virtual Desktop users
 
 Assign users a contributor role so they have permission to read and write file data in the SMB file share where the user profile virtual disks are stored.
 
 1. Select **Add** > **Add role assignment**.
 1. For **Role**, select **Storage File Data SMB Share Contributor**.
-1. Select each Windows Virtual Desktop user.
+1. Select each Azure Virtual Desktop user.
 
-    :::image type="content" source="../media/3-add-role-file-data-contributor.png" alt-text="Screenshot that shows the role and Windows Virtual Desktop user selected.":::
+    :::image type="content" source="../media/3-add-role-file-data-contributor.png" alt-text="Screenshot that shows the role and Azure Virtual Desktop user selected.":::
 
 1. Select **Save**.
 

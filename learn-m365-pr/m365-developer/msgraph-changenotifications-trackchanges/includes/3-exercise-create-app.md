@@ -65,6 +65,9 @@ Select **Grant admin consent for [your tenant name]**, then select **Yes** to co
 
 ## Create an ASP.NET Core web API project
 
+> [!NOTE]
+> The instructions below assume you are using .NET 5. They were last tested using v5.0.202 of the .NET 5 SDK.
+
 In order for the Microsoft Graph to send notifications to your application running on your development machine, you need to use a tool such as ngrok to tunnel calls from the internet to your development machine. Ngrok allows calls from the internet to be directed to your application running locally without needing to create firewall rules.
 
 Before you continue, you should have [ngrok](https://ngrok.com) installed on your development machine.

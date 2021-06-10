@@ -31,4 +31,4 @@ Sites associated with a SharePoint hub site don't inherit the permissions of the
 
 When you're done with a link, use the **Back** arrow in your browser to come back to this page.
 
-- [Planning your SharePoint hub sites](https://docs.microsoft.com/sharepoint/planning-hub-sites)
+- [Planning your SharePoint hub sites](/sharepoint/planning-hub-sites)
