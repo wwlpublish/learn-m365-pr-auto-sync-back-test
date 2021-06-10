@@ -50,7 +50,7 @@ In SharePoint Online and OneDrive, information barrier policies determine and pr
 
 Segments are attributes that an administrator uses to define the IB policy for a group. These attributes are taken from the list of attributes that a group is part of. For example, a segment called HR is defined using a value in the Department attribute. Defining segments doesn't affect users. It just sets the stage for defining and applying information barrier policies.
 
-**Additional reading.** For more information, see [Attributes for information barrier policies](https://docs.microsoft.com/microsoft-365/compliance/information-barriers-attributes?azure-portal=true).
+**Additional reading.** For more information, see [Attributes for information barrier policies](/microsoft-365/compliance/information-barriers-attributes).
 
 ## Knowledge check
 

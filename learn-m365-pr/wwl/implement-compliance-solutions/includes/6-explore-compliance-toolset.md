@@ -44,4 +44,4 @@ The toolbox doesn't include new tools. Instead, it’s a collection of tools and
 
 You can access the GDPR Toolbox in the Security &amp; Compliance portal by navigating to **Data Privacy** on the GDPR dashboard.
 
-**Additional reading.** For more information about GDPR, see [General Data Protection Regulation Summary](https://docs.microsoft.com/microsoft-365/compliance/gdpr?azure-portal=true).
+**Additional reading.** For more information about GDPR, see [General Data Protection Regulation Summary](/microsoft-365/compliance/gdpr).
