@@ -24,3 +24,4 @@ After completing this module, you'll be able to:
  -  Explain how the Device Health tool analyzes a device's performance and reliability health.
  -  Explain how the Update Compliance tool analyzes how up to date a device is based on software quality updates, feature updates, and anti-virus updates.
  -  Explain how the Upgrade Readiness tool analyzes a device's preparedness to run a Windows 10 upgrade.
+
