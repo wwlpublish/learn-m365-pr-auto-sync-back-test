@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.workplace-analytics-customer-focus.why-user-focus
+title: Why use Workplace Analytics to improve customer focus?
+metadata:
+  title: Why use Workplace Analytics to improve customer focus?
+  description: Learn how to use Workplace Analytics to improve customer focus.  
+  ms.date: 05/11/2021
+  author: jelathro
+  ms.author: jelathro
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 6
+content: |
+  [!include[](includes/why-user-focus.md)]
