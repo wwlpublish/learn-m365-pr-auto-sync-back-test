@@ -16,7 +16,8 @@ abstract: |
   - Explain how the modern Windows 10 deployment model combines both traditional on-premises and cloud services to deliver a streamlined, cost effective deployment experience
   - Explain how the dynamic Windows 10 deployment model can transform the existing version of Windows 10 that's included on a device to a customized version that is used in your company without reinstalling Windows 10
   - Explain how the traditional Windows 10 deployment model is image-based and uses an organization’s on-premises infrastructure
-prerequisites: ""
+prerequisites: |
+  None
 iconUrl: /learn/achievements/generic-badge.svg
 levels:
 - intermediate
