@@ -15,7 +15,8 @@ abstract: |
   - Describe how Windows 10 Enterprise E3 subscriptions can be purchased through the Cloud Service Provider channel
   - Configure Virtual Desktop Access for automatic subscription activation on virtual machines
   - Explain how Windows 10 Enterprise licenses can be deployed automatically and without device restart
-prerequisites: ""
+prerequisites: |
+  None
 iconUrl: /learn/achievements/generic-badge.svg
 levels:
 - intermediate
