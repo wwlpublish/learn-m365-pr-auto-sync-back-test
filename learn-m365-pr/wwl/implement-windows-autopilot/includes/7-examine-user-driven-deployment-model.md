@@ -19,8 +19,10 @@ Windows Autopilot user-driven mode supports Azure Active Directory and Hybrid Az
 
 The following options are available for user-driven deployment:
 
- -  [Azure Active Directory join](/windows/deployment/windows-autopilot/user-driven#user-driven-mode-for-azure-active-directory-join?azure-portal=true) is available if devices don't need to be joined to an on-premises Active Directory domain.
- -  [Hybrid Azure Active Directory join](/windows/deployment/windows-autopilot/user-driven#user-driven-mode-for-hybrid-azure-active-directory-join?azure-portal=true) is available for devices that must be joined to both Azure Active Directory and an on-premises Active Directory domain.
+ -  **Azure Active Directory join.** This option is available if devices don't need to be joined to an on-premises Active Directory domain.
+ -  **Hybrid Azure Active Directory join.** This option is available for devices that must be joined to both Azure Active Directory and an on-premises Active Directory domain.
+
+The following sections provide a summary of  user-driven mode for Azure AD join and Hybrid Azure AD join. For more detailed information on these two options, see [Windows Autopilot user-driven mode](/windows/deployment/windows-autopilot/user-driven).
 
 ### User-driven mode for Azure Active Directory join
 
