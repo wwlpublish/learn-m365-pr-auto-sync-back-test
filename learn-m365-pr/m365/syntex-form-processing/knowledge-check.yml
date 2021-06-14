@@ -1,0 +1,52 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.syntex-form-processing.knowledge-check
+title: Knowledge check
+metadata:
+  title: Knowledge check
+  description:  TBD
+  ms.date: 06/09/2021
+  author: beccarobins
+  ms.author: beccarobins
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+ 
+durationInMinutes: 3
+content: |
+quiz:
+    title: Check your knowledge
+    questions:
+    - content: "Question"
+      choices:
+      - content: "Possible answer"
+        isCorrect: true
+        explanation: "Text"
+      - content: "Possible answer"
+        isCorrect: false
+        explanation: "Text"
+      - content: "Possible answer"
+        isCorrect: false
+        explanation: "Text"
+
+    - content: "Question"
+      choices:
+      - content: "Possible answer"
+        isCorrect: true
+        explanation: "Text"
+      - content: "Possible answer"
+        isCorrect: false
+        explanation: "Text"
+      - content: "Possible answer"
+        isCorrect: false
+        explanation: "Text"
+
+    - content: "Question"
+      choices:
+      - content: "Possible answer"
+        isCorrect: true
+        explanation: "Text"
+      - content: "Possible answer"
+        isCorrect: false
+        explanation: "Text"
+      - content: "Possible answer"
+        isCorrect: false
+        explanation: "Text"
