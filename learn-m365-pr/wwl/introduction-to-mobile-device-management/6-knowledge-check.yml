@@ -1,0 +1,51 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.introduction-to-mobile-device-management.knowledge-check
+title: Knowledge check
+metadata:
+  title: Knowledge check
+  description: "Knowledge check"
+  ms.date: 06/14/2021
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/6-knowledge-check.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "Which of the following capabilities is provided in both Microsoft Intune and Basic Mobility and Security?"
+    choices:
+    - content: "Managed browser"
+      isCorrect: false
+      explanation: "That's incorrect. This feature is only available in Microsoft Intune. Try again."
+    - content: "Zero touch enrollment programs"
+      isCorrect: false
+      explanation: "That's incorrect. This feature is only available in Microsoft Intune. Try again."
+    - content: "Remote actions"
+      isCorrect: true
+      explanation: "That's correct. Remote actions is available in both Microsoft Intune and Basic Mobility and Security, although limited functionality is provided in Basic Mobility and Security."
+  - content: "As the Enterprise Administrator for Northwind Traders, Allan Deyoung wants to implement Microsoft Intune as Northwind's MDM authority. Allan likes the fact MDM can only allow access to e-mail and documents from devices that are managed by MDM and follow company policy. Which of the following items is an MDM policy used in Microsoft 365?"
+    choices:
+    - content: "Devices that aren't enrolled to MDM can't be prevented from accessing mailboxes, documents, and cloud apps"
+      isCorrect: false
+      explanation: "That's incorrect. Devices that aren't enrolled to MDM can still be prevented from accessing mailboxes, documents, and cloud apps. Try again."
+    - content: "Devices that aren't enrolled to MDM can't have their compliance evaluated"
+      isCorrect: true
+      explanation: "That's correct. Devices that aren't enrolled to MDM can't have their compliance evaluated"
+    - content: "If a user tries to access their mailbox from a device that's not enrolled to MDM, the user won't have access"
+      isCorrect: false
+      explanation: "That's incorrect. Depending on how the policy is set up, the user could have access, but Microsoft 365 would report a policy violation. Try again."
+  - content: "When organizations create policies or profiles, how can they deploy them?"
+    choices:
+    - content: "They must be assigned directly to individual users"
+      isCorrect: false
+      explanation: "That's incorrect. Policies and profiles can't be assigned directly to individual users. Try again."
+    - content: "They must be assigned directly to individual devices"
+      isCorrect: false
+      explanation: "That's incorrect. Policies and profiles can't be assigned directly to individual devices. Try again."
+    - content: "They must be assigned to groups of users"
+      isCorrect: true
+      explanation: "That's correct. When organizations create policies or profiles, they can only deploy them by assigning them to groups of users. They can't assign them directly to individual devices or users."
