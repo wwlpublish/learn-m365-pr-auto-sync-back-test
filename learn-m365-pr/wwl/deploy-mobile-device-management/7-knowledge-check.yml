@@ -10,7 +10,7 @@ metadata:
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
-durationInMinutes: 3
+durationInMinutes: 6
 content: |
   [!include[](includes/7-knowledge-check.md)]
 quiz:
@@ -20,10 +20,10 @@ quiz:
     choices:
     - content: "Purchase an Azure AD Premium license"
       isCorrect: false
-      explanation: "That's incorrect. This items doesn't configure the Autodiscover service for device enrollment. Try again."
+      explanation: "That's incorrect. This action doesn't configure the Autodiscover service for device enrollment. Try again."
     - content: "Add an EnterpriseRegistration CNAME DNS record that points to EnterpriseRegistration.windows.net"
       isCorrect: false
-      explanation: "That's incorrect. This action is required when organizations want to enable the Autodiscover service for registering devices in Azure AD rather then MDM. Try again."
+      explanation: "That's incorrect. This action is required when organizations want to enable the Autodiscover service for registering devices in Azure AD rather than MDM. Try again."
     - content: "Create a CNAME record in the external (public) DNS zone that automatically redirects enrollment requests to Intune servers"
       isCorrect: true
       explanation: "That's correct. The Autodiscover service is configured when you create an alias (CNAME resource record type) in the domain DNS zone that automatically redirects enrollment requests to Intune servers."
