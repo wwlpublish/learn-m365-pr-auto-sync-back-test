@@ -27,7 +27,8 @@ Organizations can configure automatic enrollment to MDM for Windows 10 devices o
  -  If a Windows 10 device is already joined to an on-premises AD DS that is synced to Azure AD, the **Enable automatic MDM enrollment using default Azure AD credentials** Group Policy setting can be configured to enroll devices to MDM.
  -  If Azure AD is integrated with MDM, then any Windows 10 devices that users join to Azure AD are automatically enrolled to MDM.
 
-Azure AD users can enroll devices to Azure AD by default. However, they must have an Intune license to use this feature.
+    > [!NOTE]
+    > Azure AD users can enroll devices to Azure AD by default. However, they must have an Intune license to use this feature.
 
 **Additional reading.** For more information, see the following resources:
 
