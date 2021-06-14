@@ -38,11 +38,7 @@ The following table describes some log files and how to use them for troubleshoo
 :::row-end:::
 :::row:::
   :::column:::
-    
-
-setupact.log
-
-
+    setupact.log
   :::column-end:::
   :::column:::
     
@@ -68,6 +64,9 @@ All downlevel failures and the starting point for rollback investigations. This 
 :::row-end:::
 :::row:::
   :::column:::
+    setupact.log
+  :::column-end:::
+  :::column:::
     
 
 Second boot: $Windows.~BT\\Sources\\Panther\\UnattendGC
@@ -90,6 +89,9 @@ Investigating rollbacks that failed during OOBE phase and operations. Typical ex
   :::column-end:::
 :::row-end:::
 :::row:::
+  :::column:::
+    setupact.log
+  :::column-end:::
   :::column:::
     
 
@@ -114,6 +116,9 @@ Investigating generic rollbacks - result code 0xC1900101.
 :::row-end:::
 :::row:::
   :::column:::
+    setupact.log
+  :::column-end:::
+  :::column:::
     
 
 Pre-initialization (before downlevel): Windows
@@ -136,6 +141,9 @@ If setup fails to launch.
   :::column-end:::
 :::row-end:::
 :::row:::
+  :::column:::
+    setupact.log
+  :::column-end:::
   :::column:::
     
 
@@ -220,7 +228,7 @@ Identify post upgrade data migration issues.
 :::row-end:::
 
 
-To analyze Windows Setup log files, complete following steps:
+To analyze Windows Setup log files, complete following steps:<br>
 
 1.  Determine the Windows Setup error code. This code is returned by Windows Setup if the Windows 10 upgrade isn't successful.
 2.  Based on the extend code portion of the error code, determine the type and location of a log file to investigate.
