@@ -230,9 +230,6 @@ Enhanced diagnostic data includes data about the websites you browse, how Window
  -  Device-specific events that are specific to certain devices, such as Surface Hub and Microsoft HoloLens. For example, Microsoft HoloLens sends Holographic Processing Unit (HPU)-related events.<br>
  -  All crash dump types, except for heap dumps and full dumps.<br>
 
-> [!IMPORTANT]
-> In an upcoming release of Windows 10, Microsoft will be simplifying the diagnostic data controls by moving from four diagnostic data controls to three: Diagnostic data off, Required, and Optional. If your devices are set to Enhanced when they're upgraded, the device settings will be evaluated to be at the more privacy-preserving setting of Required diagnostic data. This change means that analytic services that use Enhanced data collection may not work properly. Administrators should read through [Changes to Windows diagnostic data collection](/windows/privacy/changes-to-windows-diagnostic-data-collection) and determine whether to apply these new policies to restore the same collection settings as they had before this change.
-
 #### Optional diagnostic data
 
 This setting was previously labeled as Full. It includes more detailed information about your device and its settings, capabilities, and device health. Optional diagnostic data also includes data about the websites you browse, device activity, and enhanced error reporting that helps Microsoft to fix and improve products and services for all users. When you choose to send optional diagnostic data, required diagnostic data will always be included, and Microsoft collects the following additional information:
