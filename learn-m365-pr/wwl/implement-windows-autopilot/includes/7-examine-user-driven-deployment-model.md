@@ -1,9 +1,9 @@
 Windows Autopilot user-driven mode enables new Windows 10 devices to be transformed from their initial state directly from the factory into a ready-to-use state without requiring IT personnel to ever touch the device. The process is designed to be easy so that anyone can complete it. By doing so, devices can be shipped or distributed to the end user directly with basic instructions:
 
- -  Unbox the device, plug it in, and turn it on.
- -  Choose a language, locale, and keyboard.
- -  Connect it to a wireless or wired network with internet access.
- -  Specify your e-mail address and password for your organization account.
+1.  Unbox the device, plug it in, and turn it on.
+2.  Choose a language, locale, and keyboard.
+3.  Connect it to a wireless or wired network with internet access.
+4.  Specify your e-mail address and password for your organization account.
 
 After completing those simple steps, the rest of the process is automated. At the end of the process, the device will be:
 
@@ -28,17 +28,17 @@ The following sections provide a summary of user-driven mode for Azure AD join a
 
 To complete a user-driven deployment using Windows Autopilot, the following preparation steps must be completed:
 
- -  Ensure the users who will be performing user-driven mode deployments can join devices to Azure Active Directory.
- -  Create an Autopilot profile for user-driven mode with the required settings. In Microsoft Intune, this mode is explicitly chosen when creating the profile. With Microsoft Store for Business and Partner Center, user-driven mode is the default and doesn't need to be selected.
- -  If using Intune, create a device group in Azure Active Directory and assign the Autopilot profile to that group.
+1.  Ensure the users who will be performing user-driven mode deployments can join devices to Azure Active Directory.
+2.  Create an Autopilot profile for user-driven mode with the required settings. In Microsoft Intune, this mode is explicitly chosen when creating the profile. With Microsoft Store for Business and Partner Center, user-driven mode is the default and doesn't need to be selected.
+3.  If using Intune, create a device group in Azure Active Directory and assign the Autopilot profile to that group.
 
 For each device that will be deployed using user-driven deployment, these extra steps are needed:
 
- -  Ensure that the device has been added to Windows Autopilot. Adding a device to Windows Autopilot can be done in two ways:
+4.  Ensure that the device has been added to Windows Autopilot. Adding a device to Windows Autopilot can be done in two ways:
     
      -  Automatically by an OEM or partner at the time the device is purchased.
      -  Manual harvesting as described in [Adding devices to Windows Autopilot](/mem/autopilot/add-devices).
- -  Ensure an Autopilot profile has been assigned to the device:
+5.  Ensure an Autopilot profile has been assigned to the device:
     
      -  If using Intune and Azure Active Directory dynamic device groups, the profile can be assigned to the device automatically.
      -  If using Intune and Azure Active Directory static device groups, manually add the device to the device group.

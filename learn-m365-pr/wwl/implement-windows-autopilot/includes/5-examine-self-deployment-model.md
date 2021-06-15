@@ -5,10 +5,10 @@ Windows Autopilot Self-deploying mode doesn't associate a user with a device. In
 
 Self-deploying mode consists of the following high-level steps:<br>
 
- -  Joins the device to Azure Active Directory.
- -  Enrolls the device in Intune (or another MDM service) using Azure AD for automatic MDM enrollment.
- -  Ensures that all policies, applications, certificates, and networking profiles are provisioned on the device.
- -  Uses the Enrollment Status Page to prevent access until the device is fully provisioned.
+1.  Joins the device to Azure Active Directory.
+2.  Enrolls the device in Intune (or another MDM service) using Azure AD for automatic MDM enrollment.
+3.  Ensures that all policies, applications, certificates, and networking profiles are provisioned on the device.
+4.  Uses the Enrollment Status Page to prevent access until the device is fully provisioned.
 
 > [!NOTE]
 > Self-deploying mode doesn't support Active Directory Join or Hybrid Azure AD Join. All devices will be joined to Azure Active Directory.
@@ -42,13 +42,13 @@ You can display an organization-specific logo and organization name during the A
 
 To complete a self-deploying mode deployment using Windows Autopilot, the following preparation steps must be completed:
 
- -  Create an Autopilot profile for self-deploying mode with the required settings. In Microsoft Intune, this mode is explicitly chosen when creating the profile.
+1.  Create an Autopilot profile for self-deploying mode with the required settings. In Microsoft Intune, this mode is explicitly chosen when creating the profile.
 
     > [!NOTE]
     > You can't create a profile in the Microsoft Store for Business or Partner Center for self-deploying mode.
 
- -  If using Intune, create a device group in Azure Active Directory and assign the Autopilot profile to that group. Ensure the profile has been assigned to the device before attempting to deploy that device.
- -  Boot the device, connecting it to Wi-fi if necessary, then wait for the provisioning process to complete.
+2.  If using Intune, create a device group in Azure Active Directory and assign the Autopilot profile to that group. Ensure the profile has been assigned to the device before attempting to deploy that device.
+3.  Boot the device, connecting it to Wi-fi if necessary, then wait for the provisioning process to complete.
 
 ### Validation
 

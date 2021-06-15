@@ -61,20 +61,20 @@ Each of these scenarios consists of two parts - a technician flow and a user flo
 
 #### Technician flow
 
-After the customer or IT Admin has targeted all the apps and settings they want for their devices through Intune, the white glove technician can begin the white glove process. The technician could be a member of the IT staff, a services partner, or an OEM – each organization can decide who should complete these activities. Whatever the scenario, the process to be performed by the technician is the same:
+After the customer or IT Admin has targeted all the apps and settings they want for their devices through Intune, the pre-provision technician can begin the pre-provisioned process. The technician could be a member of the IT staff, a services partner, or an OEM – each organization can decide who should complete these activities. Whatever the scenario, the process to be performed by the technician is the same:
 
- -  Boot the device (running Windows 10 Pro, Enterprise, or Education SKUs, version 1903 or later).
- -  From the first OOBE screen (which could be a language selection or locale selection screen), don't select **Next**. Instead, press the Windows key five times to view another options dialog. From that screen, choose the **Windows Autopilot provisioning** option and then select **Continue**.
- -  On the **Windows Autopilot Configuration** screen, the following information will be displayed about the device:
+1.  Boot the device (running Windows 10 Pro, Enterprise, or Education SKUs, version 1903 or later).
+2.  From the first OOBE screen (which could be a language selection or locale selection screen), don't select **Next**. Instead, press the Windows key five times to view another options dialog. From that screen, choose the **Windows Autopilot provisioning** option and then select **Continue**.
+3.  On the **Windows Autopilot Configuration** screen, the following information will be displayed about the device:
     
      -  The Autopilot profile assigned to the device.
      -  The organization name for the device.
      -  The user assigned to the device (if there's a user).
      -  A QR code containing a unique identifier for the device. You can use this code to look up the device in Intune. You may need to look up the device in Intune to make configuration changes, like assigning a user or adding the device to groups needed for app or policy targeting.
- -  Validate the information displayed. If any changes are needed, make the changes and then select **Refresh** to redownload the updated Autopilot profile details.
- -  Select **Provision** to begin the provisioning process.
- -  If the pre-provisioning process completes successfully, a green status screen appears with information about the device, including the same details presented previously.
- -  Select **Reseal** to shut down the device. At that point, the device can be shipped to the end user.
+4.  Validate the information displayed. If any changes are needed, make the changes and then select **Refresh** to redownload the updated Autopilot profile details.
+5.  Select **Provision** to begin the provisioning process.
+6.  If the pre-provisioning process completes successfully, a green status screen appears with information about the device, including the same details presented previously.
+7.  Select **Reseal** to shut down the device. At that point, the device can be shipped to the end user.
 
 If the pre-provisioning process fails:
 
@@ -83,11 +83,11 @@ If the pre-provisioning process fails:
 
 #### User flow
 
-If the pre-provisioning process completed successfully and the device was resealed, it can be delivered to the end user to complete the normal Windows Autopilot user-driven process. The use must then complete a standard set of steps:
+If the pre-provisioning process completed successfully and the device was resealed, it can be delivered to the end user to complete the normal Windows Autopilot user-driven process. The user must then complete a standard set of steps:
 
- -  Power on the device.
- -  Select the appropriate language, locale, and keyboard layout.
- -  Connect to a network (if using Wi-Fi). If using Hybrid Azure AD Join, there must be connectivity to a domain controller; if using Azure AD Join, internet connectivity is required.
- -  On the branded sign-on screen, enter the user’s Azure Active Directory credentials.
- -  If using Hybrid Azure AD Join, the device will reboot. After the reboot, enter the user’s Active Directory credentials.
- -  Other policies and apps will be delivered to the device, as tracked by the Enrollment Status Page (ESP). Once complete, the user can access the desktop.
+1.  Power on the device.
+2.  Select the appropriate language, locale, and keyboard layout.
+3.  Connect to a network (if using Wi-Fi). If using Hybrid Azure AD Join, there must be connectivity to a domain controller; if using Azure AD Join, internet connectivity is required.
+4.  On the branded sign-on screen, enter the user’s Azure Active Directory credentials.
+5.  If using Hybrid Azure AD Join, the device will reboot. After the reboot, enter the user’s Active Directory credentials.
+6.  Other policies and apps will be delivered to the device, as tracked by the Enrollment Status Page (ESP). Once complete, the user can access the desktop.
