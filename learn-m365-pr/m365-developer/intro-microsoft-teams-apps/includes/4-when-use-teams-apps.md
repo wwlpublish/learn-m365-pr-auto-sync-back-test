@@ -8,7 +8,7 @@ Teams apps shine when they're focused on enhancing collaboration and communicati
 
 ### Encouraging social interactions
 
-Apps that focus on encouraging social interactions between team members work also work well. These are apps that send polls, let people send feedback to each other, connect them together, or are just for fun (don't underestimate the power of a few "just for fun" apps can have on team morale). Teams is a social platform; custom social-focused apps encourage your team to extend your company culture into your collaboration space.
+Apps that focus on encouraging social interactions between team members also work well. These are apps that send polls, let people send feedback to each other, connect them together, or are just for fun (don't underestimate the power of a few "just for fun" apps can have on team morale). Teams is a social platform; custom social-focused apps encourage your team to extend your company culture into your collaboration space.
 
 ### Starting & helping common business processes
 
