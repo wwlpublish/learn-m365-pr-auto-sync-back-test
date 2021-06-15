@@ -1,4 +1,4 @@
-One type of permissions supported by the Microsoft Identity platform is the delegated permission, also referred to as on behalf of permissions. Delegated permissions are permissions grated by a user or administrator to an app to allow the app act on behalf of the user.
+One type of permissions supported by the Microsoft Identity platform is the delegated permission, also referred to as on behalf of permissions. Delegated permissions are permissions granted by a user or administrator to an app to allow the app act on behalf of the user.
 
 In this exercise, you’ll learn how to request delegated permissions and enable users to grant them to applications with either static or dynamic consent.
 
