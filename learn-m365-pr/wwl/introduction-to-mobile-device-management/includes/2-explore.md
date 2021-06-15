@@ -46,8 +46,6 @@ The following diagram shows what happens when a user with a new device signs in 
 :::image type="content" source="../media/basic-mobility-security-access-control-flow-0f850383.jpg" alt-text="diagram showing what happens when a user with a new device signs in to an application that supports access control with MDM for Microsoft 365":::
 
 
-**Additional reading.** For more information, see [Capabilities of built-in Mobile Device Management for Office 365](https://support.office.com/article/capabilities-of-built-in-mobile-device-management-for-office-365-a1da44e5-7475-4992-be91-9ccec25905b0?azure-portal=true).
-
 ## Knowledge check
 
 Choose the best response for the following question. Then select “Check your answers.”
