@@ -53,7 +53,7 @@ The instructions in the rest of this module assume you have added **Information 
 1. Click **Save**.
 
 ## Learn more
-- [Manage information governance](https://docs.microsoft.com/microsoft-365/compliance/manage-information-governance?azure-portal=true)
-- [Microsoft 365 security & compliance licensing guidance](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance?azure-portal=true)
-- [Information governance licensing guidance](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance%23information-governance?azure-portal=true)
-- [Applying a retention label automatically](https://docs.microsoft.com/microsoft-365/compliance/labels?view=o365-worldwide#applying-a-retention-label-automatically-based-on-conditions?azure-portal=true)
+- [Manage information governance](/microsoft-365/compliance/manage-information-governance?azure-portal=true)
+- [Microsoft 365 security & compliance licensing guidance](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance?azure-portal=true)
+- [Information governance licensing guidance](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance%23information-governance?azure-portal=true)
+- [Applying a retention label automatically](/microsoft-365/compliance/labels?applying-a-retention-label-automatically-based-on-conditions?azure-portal=true)

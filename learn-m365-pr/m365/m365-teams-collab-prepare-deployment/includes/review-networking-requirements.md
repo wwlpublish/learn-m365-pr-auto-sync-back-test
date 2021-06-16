@@ -53,4 +53,4 @@ With variable codecs, media can be negotiated in limited-bandwidth environments 
 
 When you're done with a link, use the **Back** arrow in your browser to come back to this page.
 
-- [Prepare your network for upgrading to Teams](https://docs.microsoft.com/microsoftteams/upgrade-prepare-environment-prepare-network).
+- [Prepare your network for upgrading to Teams](/microsoftteams/upgrade-prepare-environment-prepare-network).

@@ -3,5 +3,5 @@ To drive a successful Teams upgrade, it’s important that you validate your cur
 
 ## Learn more
 
-- [Prepare your environment for upgrading to Teams](https://docs.microsoft.com/MicrosoftTeams/upgrade-prepare-environment-prepare-service?azure-portal=true)
-- [Use Advisor for Teams to assess your Microsoft 365 environment](https://docs.microsoft.com/microsoftteams/use-advisor-teams-roll-out?azure-portal=true)
+- [Prepare your environment for upgrading to Teams](/MicrosoftTeams/upgrade-prepare-environment-prepare-service?azure-portal=true)
+- [Use Advisor for Teams to assess your Microsoft 365 environment](/microsoftteams/use-advisor-teams-roll-out?azure-portal=true)

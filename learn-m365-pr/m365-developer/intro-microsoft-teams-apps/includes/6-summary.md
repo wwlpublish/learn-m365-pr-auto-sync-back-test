@@ -6,4 +6,4 @@ Nice work! You should now have a solid understanding of what an app for Microsof
 
 ## Next steps
 
-Ready to get started? Check out the [complete documentation for the Microsoft Teams Platform](https://docs.microsoft.com/microsoftteams/platform/).
+Ready to get started? Check out the [complete documentation for the Microsoft Teams Platform](/microsoftteams/platform/).

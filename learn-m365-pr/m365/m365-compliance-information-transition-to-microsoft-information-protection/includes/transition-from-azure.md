@@ -81,8 +81,8 @@ Deploying the Windows installer (MSI) version of the client is supported for sil
 Transition to unified labeling is complete and you can manage labels in the Microsoft 365 compliance center once you perform the steps above. Once all your clients are using unified labeling, the only reason you may still need to use the Azure portal for Azure Information Protection or to manage the Azure Information Protection scanner and to monitor label activities using Azure Information
 
 ## Learn more
-- [What label policies can do](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels?view=o365-worldwide#what-label-policies-can-do?azure-portal=true)
-- [Choose which labeling client to Windows computers](https://docs.microsoft.com/azure/information-protection/rms-client/use-client#choose-which-labeling-client-to-use-for-windows-computers?azure-portal=true)
+- [What label policies can do](/microsoft-365/compliance/sensitivity-labels?what-label-policies-can-do?azure-portal=true)
+- [Choose which labeling client to Windows computers](/azure/information-protection/rms-client/use-client#choose-which-labeling-client-to-use-for-windows-computers?azure-portal=true)
 - [Apply sensitivity labels to your files and email in Office](https://support.microsoft.com/office/apply-sensitivity-labels-to-your-files-and-email-in-office-2f96e7cd-d5a4-403b-8bd7-4cc636bae0f9?azure-portal=true)
 - [Compare the labeling clients for Windows computers](https://support.microsoft.com/office/apply-sensitivity-labels-to-your-files-and-email-in-office-2f96e7cd-d5a4-403b-8bd7-4cc636bae0f9?azure-portal=true)
-- [Azure Information Protection unified labeling client for Windows](https://docs.microsoft.com/azure/information-protection/rms-client/aip-clientv2?azure-portal=true)
+- [Azure Information Protection unified labeling client for Windows](/azure/information-protection/rms-client/aip-clientv2?azure-portal=true)

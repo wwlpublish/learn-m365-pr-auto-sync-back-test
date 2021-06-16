@@ -7,5 +7,5 @@ Once you have the message that you’re looking for, select the message and clic
 When a trace is completed, you'll get an email where you can  download message traces (as a .CSV file) for items that are more than seven days old.
 
 ## Learn more
-- [Find and fix email delivery issues as an Office 365 for business admin](https://docs.microsoft.com/exchange/troubleshoot/mail-delivery/email-delivery-issues?view=o365-worldwide?azure-portal=true)
-- [Trace an email message](https://docs.microsoft.com/exchange/monitoring/trace-an-email-message/trace-an-email-message?view=o365-worldwide?azure-portal=true)
+- [Find and fix email delivery issues as an Office 365 for business admin](/exchange/troubleshoot/mail-delivery/email-delivery-issues?azure-portal=true)
+- [Trace an email message](/exchange/monitoring/trace-an-email-message/trace-an-email-message?azure-portal=true)

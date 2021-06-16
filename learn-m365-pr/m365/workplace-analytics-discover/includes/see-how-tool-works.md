@@ -66,5 +66,5 @@ Query output is available as a downloadable .csv file or as an OData link which 
 
 ## Learn more
 
-- [Workplace Analytics metric definitions](https://docs.microsoft.com/workplace-analytics/use/metric-definitions?azure-portal=true)
-- [Workplace Analytics glossary](https://docs.microsoft.com/workplace-analytics/use/glossary?azure-portal=true)
+- [Workplace Analytics metric definitions](/workplace-analytics/use/metric-definitions?azure-portal=true)
+- [Workplace Analytics glossary](/workplace-analytics/use/glossary?azure-portal=true)

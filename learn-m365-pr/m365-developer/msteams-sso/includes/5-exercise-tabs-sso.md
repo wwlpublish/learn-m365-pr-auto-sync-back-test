@@ -7,7 +7,7 @@ In this exercise, you'll add a custom tab to a Microsoft Teams app and use singl
 
 Developing Microsoft Teams apps requires a Microsoft 365 tenant, Microsoft Teams configured for development, and the necessary tools installed on your workstation.
 
-For the Microsoft 365 tenant, follow the instructions on [Microsoft Teams: Prepare your Microsoft 365 tenant](https://docs.microsoft.com/microsoftteams/platform/get-started/get-started-tenant) for obtaining a developer tenant if you don't currently have a Microsoft 365 account. Make sure you have also enabled Microsoft Teams for your organization.
+For the Microsoft 365 tenant, follow the instructions on [Microsoft Teams: Prepare your Microsoft 365 tenant](/microsoftteams/platform/get-started/get-started-tenant) for obtaining a developer tenant if you don't currently have a Microsoft 365 account. Make sure you have also enabled Microsoft Teams for your organization.
 
 Microsoft Teams must be configured to enable custom apps and allow custom apps to be uploaded to your tenant to build custom apps for Microsoft Teams. Follow the instructions on the same **Prepare your Microsoft 365 tenant** page mentioned above.
 
@@ -16,269 +16,347 @@ You'll use Node.js to create a custom Microsoft Teams app in this module. The ex
 > [!IMPORTANT]
 > In most cases, installing the latest version of the following tools is the best option. The versions listed here were used when this module was published and last tested.
 
-- [Node.js](https://nodejs.org/) - v10.\* (or higher)
+- [Node.js](https://nodejs.org/) - v12.\* (or higher)
 - NPM (installed with Node.js) - v6.\* (or higher)
-- [ngrok](https://www.ngrok.com)
+- [Gulp](https://gulpjs.com/) - v4.\* (or higher)
+- [Yeoman](https://yeoman.io/) - v3.\* (or higher)
+- [Yeoman Generator for Microsoft Teams](https://github.com/OfficeDev/generator-teams) - v3.0.\* (or higher)
 - [Visual Studio Code](https://code.visualstudio.com)
-- [Microsoft Teams Toolkit for Visual Studio Code](https://docs.microsoft.com/microsoftteams/platform/toolkit/visual-studio-code-overview)
 
 You must have the minimum versions of these prerequisites installed on your workstation.
 
 ## Create your Microsoft Teams app project
 
-Let's start by creating a Microsoft Teams app project. To do this, you'll use the Microsoft Teams Toolkit for Visual Studio Code.
+Open your command prompt, navigate to a directory where you want to save your work, create a new folder **learn-msteams-sso-tab**, and change directory into that folder.
 
-Start by launching Visual Studio Code, and then select the **Microsoft Teams Toolkit** from the activity bar:
-
-![Screenshot of the Teams Toolkit in VSCode's activity bar](../media/05-vs-code-activity-bar-microsoft-teams.png)
-
-From the list of **Microsoft Teams: Commands**, select **Create a new Teams app**.
-
-The Teams Toolkit will prompt you to sign in to your Microsoft account. This will be used to register the Teams app in both your Microsoft 365 tenant's Microsoft Teams app store and Azure Active Directory (Azure AD). Select **Allow** and sign-in using your Microsoft 365 Work & school account.
-
-![Screenshot of the Microsoft sign in dialog](../media/05-vs-code-microsoft-365-sign-in.png)
-
-After signing in, the toolkit prompts you to select a project type to create. Because this project will use the Microsoft Graph, which requires all requests to include OAuth2 access token for authorization, create a new tab project using the single sign-on (SSO) capability supported by Microsoft Teams.
-
-Select the **TypeScript** option for **Channel and group app with single sign-on (SSO)** app type:
-
-![Screenshot of the project creation option](../media/05-vs-code-create-project-01.png)
-
-On the **Configure project** screen, you're prompted for the **Application name** and **Azure AD single sign-on** domain name:
-
-![Screenshot of the configure project dialog](../media/05-vs-code-create-project-02.png)
-
-Set the **Application name** to **My SSO Tab**.
-
-For the domain name, this must be a fully qualified domain name that will serve the custom app, it must be HTTPS, and the domain can't be localhost. You can address these requirements during development with the tool [ngrok](https://www.ngrok.com). Ngrok creates a secure routable URL to your local HTTP webserver. For example, ngrok can route requests from `https://something.ngrok.io` to `http://localhost:3000`.
-
-While you don't have a local webserver running yet because you're still creating the project, you can still start ngrok now and leave it running during the exercise.
-
-In the console, run the following command to start ngrok:
+Run the Yeoman Generator for Microsoft Teams by running the following command:
 
 ```console
-ngrok http https://localhost:3000
+yo teams
 ```
 
-When ngrok starts, it will display the temporary subdomain. In this case, the URL `https://d4fa28c4e203.ngrok.io` is forwarding all requests to `https://localhost:3000` that you'll start later in the exercise.
+Yeoman will launch and ask you a series of questions. Answer the questions with the following values:
 
-![Screenshot of the running ngrok process](../media/05-vs-code-create-project-03.png)
+- **What is your solution name?**: learn-msteams-sso-tab
+- **Where do you want to place the files?**: Use the current folder
+- **Title of your Microsoft Teams App project?**: SSO Teams Tab
+- **Your (company) name? (max 32 characters)**: Contoso
+- **Which manifest version would you like to use?**: v1.8
+- **Quick scaffolding**: Yes
+- **What features do you want to add to your project?**: A Tab
+- **The URL where you will host this solution?**: `https://REPLACE.ngrok.io`
+- **Would you like to show a loading indicator when your app/tab loads?** No
+- **Default Tab name? (max 16 characters)**: SSO Tab
+- **What kind of Tab would you like to create?**: Configurable
+- **What scopes do you intend to use for your Tab?**: In a Team
+- **Do you require Azure AD Single-Sign-On support for the tab?** Yes
+- **What is the Application ID to associate with the SSO Tab?**: *Enter the **Application (Client) ID** for the Azure AD application you registered in the previous exercise*
+- **What is the Application ID URI to associate with the SSO Tab?**: (Accept the default)
 
-Enter the full ngrok address, excluding the protocol, in the **Configure project** dialog for the domain name and select **Register**.
+> [!NOTE]
+> Most of the answers to these questions can be changed after creating the project. For example, the URL where the project will be hosted and Application ID URI must be changed when you start debugging your project using the ngrok utility.
 
-![Screenshot of the completed configure project dialog](../media/05-vs-code-create-project-04.png)
-
-The toolkit will create a new Azure AD application using the values you've provided as shown in the following screenshot. It's a good idea to copy all of this information into a text file.
-
-> [!IMPORTANT]
-> Each time ngrok is started, it will generate a new dynamic subdomain for the URL. **If you restart ngrok, you'll need to update anywhere you've referenced the dynamic subdomain.** The optional licensed version of ngrok allows you to define and reuse the same subdomain.
-
-![Screenshot of the Azure AD app creation summary](../media/05-vs-code-create-project-05.png)
-
-When you select **Finish**, the toolkit will prompt you for the location where to create the project. Select a folder on your local workstation. The toolkit will create a new folder the specified location and create all the project scaffolding required.
-
-Once the project has been created, the toolkit will load it in Visual Studio Code.
-
-## Update the previously registered Azure AD application
-
-While the project creation process registered an Azure AD application that our project can use, let's instead use the one created in the previous exercise.
-
-To use this, you'll need the client ID and the client secret.
-
-> [!IMPORTANT]
-> If you didn't copy these values from the previous exercise, you'll need to create a new client secret. Follow the steps in the previous exercise to create a new secret.
->
-> The client ID is found on the app's **Overview** page.
-
-The previous exercise used a temporary URL, `REPLACE.ngrok.io`, for the address where our custom Microsoft Teams app would be served from. Now that you've started ngrok and have a dynamic subdomain, you need to update the Azure AD application to use the new domain.
-
-Open a browser and navigate to the [Azure Active Directory admin center (https://aad.portal.azure.com)](https://aad.portal.azure.com). Sign in using a **Work or School Account** that has global administrator rights to the tenancy.
-
-Select **Manage > App registrations** in the left-hand navigation and select the **My Teams SSO App**.
-
-Use the following list to find the `REPLACE.ngrok.io` domain with the dynamic subdomain. For example, ngrok created `d4fa28c4e203.ngrok.io`:
-
-- **Manage > Authentication**: Redirect URIs
-- **Manage > Expose an API**: Application ID URI
+After answering the generator's questions, the generator will create the scaffolding for the project and then execute `npm install` that downloads all the dependencies required by the project.
 
 ## Explore the initial project
 
-Let's explore a few parts of the project created by the toolkit in Visual Studio Code.
+Let's explore a few parts of the project created by the Yeoman Generator for Microsoft Teams in Visual Studio Code.
 
-The initial project actually contains two separate web applications that you'll use:
+![Screenshot of the custom Teams app project](../media/05-vs-code-create-project-01.png)
 
-![Screenshot of the custom Teams app project](../media/05-vs-code-create-project-06.png)
+### Client-side web app
 
-### Microsoft Teams tab web application
+The **./src/client** and **./src/public** folders represent the web app that implements the custom Microsoft Teams tab app.
 
-The root files in the project, the **./public**, and the **./src** folders represent the web app that implements the custom Microsoft Teams tab app.
+Open the **./.env** file that contains the environment variables used by the project. Take note of the following properties that were set from the project creation process:
 
-Open the **./.env** file that contains environment variables used by the project. Take note of the following properties that were set from the project creation process:
+- **HOSTNAME**: This is the fully qualified URL, excluding the protocol, you specified where the app would be hosted.
+- **APPLICATION_ID**: This is the unique ID of the Microsoft Teams application.
+- **SSOTAB_APP_ID**: This is the Azure AD application (client) ID that you specified.
+- **SSOTAB_APP_URI** This is the Azure AD application ID URI you specified.
 
-- **REACT_APP_AZURE_APP_REGISTRATION_ID**: This is the ID of the Azure AD application created by the Teams Toolkit project creation experience.
-- **REACT_APP_BASE_URL**: This is the fully qualified URL, including the protocol, to the web server hosted by the application. In our case, this is the ngrok URL.
-
-Change the value of the **REACT_APP_AZURE_APP_REGISTRATION_ID** to the client ID of the Azure AD app you registered in the previous exercise.
-
-```text
-HTTPS=true
-BROWSER=none
-DANGEROUSLY_DISABLE_HOST_CHECK=true
-REACT_APP_AZURE_APP_REGISTRATION_ID=023adcaa-4fef-4a4d-a94a-0cde3a0c5b31
-REACT_APP_BASE_URL=https://d4fa28c4e203.ngrok.io
-REACT_APP_GRAPH_SCOPES=User.Read
-```
+> [!NOTE]
+> The prefix of the last two items in the above list is generated using the name of the tab you specified during the project creation process.
 
 > [!IMPORTANT]
-> If you restart ngrok and get a new dynamic subdomain, you'll need to update everywhere you've seen the **\*.ngrok.io** URL.
+> Each time ngrok starts, it generates a new dynamic subdomain for the URL. If you have to restart ngrok, you will need to repackage and and update the app in Microsoft Teams to make the installed app aware of the new URL. The optional licensed version of ngrok allows you to define and reuse the same subdomain.
 
-The **src** folder contains a client-side React application that is used for the custom Teams tab.
+The web application in the project consists of static and dynamic assets. All the static assets such as images, HTML, and CSS files are found in the **./src/public** folder while the dynamic assets such as TypeScript and React controls are found in the **./src/client** folder.
 
-### Authentication web API
+For this project, notice the tab is implemented as a React functional component in the **./src/client/ssoTab** folder. Each of the components within that folder are hosted in corresponding HTML files in the **./src/public/ssoTab** folder.
 
-The **./api_server** folder contains a Node.js-based web API that's used to implement the OAuth2 on-behalf-of flow to exchange the access token obtained by the Microsoft Teams client that implements SSO to obtain an access token that can be used to call Microsoft Graph.
+The React component that makes up the content of the is the **./src/client/ssoTab/SsoTab.tsx** file. Locate and open this file.
 
-Open the **./api_server/.env** file that contains environment variables used by this web API project. Take note of the following properties that were set from the project creation process:
+This file exports a single functional component that returns the React component's UX. This can be found near the bottom of the file in the `return` statement.
 
-- **CLIENT_ID**: This is the client ID of the Azure AD application created by the Teams Toolkit project creation experience.
-- **CLIENT_SECRET**: This is the client secret of the Azure AD application created by the Teams Toolkit project creation experience.
+The default tab is implemented using [React hooks](https://reactjs.org/docs/hooks-intro.html). The `useEffect()` hook performs side effects when a component mounts or when React changes the DOM. The default tab contains two of these hooks.
 
-Change the value of the **CLIENT_ID** to the client ID of the Azure AD app you registered in the previous exercise.
+The job of the first hook runs after the component has rendered and first checks to see if it is running within Microsoft Teams. If it is, it calls the `getAuthToken()` method on the Microsoft Teams JavaScript SDK to obtain an ID token from Microsoft Teams.
 
-The following represents the **./api_server/.env** file from the project created using the previous steps:
+When this method is called, it triggers Microsoft Teams to obtain an ID token from Azure AD's token endpoint for the currently signed in user. Once received, the success callback decodes the token to extract the current user's name. It then sets the React component's state property `name` to the name in the ID token using the `setName()` method.
 
-```text
-CLIENT_ID=023adcaa-4fef-4a4d-a94a-0cde3a0c5b31
-CLIENT_SECRET=4fKuf8W.EnY-KV4YbsXcw_-~-6U1dz3Sn1
-GRAPH_SCOPES=User.Read
+```typescript
+useEffect(() => {
+  if (inTeams === true) {
+    microsoftTeams.authentication.getAuthToken({
+      successCallback: (token: string) => {
+        const decoded: { [key: string]: any; } = jwtDecode(token) as { [key: string]: any; };
+        setName(decoded!.name);
+        microsoftTeams.appInitialization.notifySuccess();
+      },
+      failureCallback: (message: string) => {
+        setError(message);
+        microsoftTeams.appInitialization.notifyFailure({
+          reason: microsoftTeams.appInitialization.FailedReason.AuthFailed,
+          message
+        });
+      },
+      resources: [process.env.SSOTAB_APP_URI as string]
+    });
+  } else {
+    setEntityId("Not in Microsoft Teams");
+  }
+}, [inTeams]);
 ```
 
-### Microsoft Teams app manifest & app package
+Notice the `getAuthToken()` method accepts an object with three properties. in addition to the two callbacks, you also set the Application ID URL of the Azure AD application you registered and associated with this Microsoft Teams app. Azure AD will automatically trust the Microsoft Teams client to act on the current user's behalf because in a previous exercise you granted it the `access_as_user` scope.
 
-The **./appPackage** folder contains the Microsoft Teams app manifest file, **./appPackage/manifest.json** and the images used by the custom app. The toolkit also created the app package, **./appPackage/appPackage.zip**
+### Server-side web app
 
-Open the **manifest.json** file and notice the `webApplicationInfo` element at the end of the file. This contains some of the same details about the Azure AD application created by the toolkit. This is what configures the Microsoft Teams SSO process with our custom application.
+The other part of the project is a server-side web app that hosts and serves up the web assets. This is found in the **./src/server/server.ts** file.
 
-Change the `id` and `resource` properties on the `webApplicationInfo` element to use the values from the Azure AD app registered in the previous exercise:
-
-```json
-"webApplicationInfo": {
-  "id": "023adcaa-4fef-4a4d-a94a-0cde3a0c5b31",
-  "resource": "api://d4fa28c4e203.ngrok.io/023adcaa-4fef-4a4d-a94a-0cde3a0c5b31"
-}
-```
-
-> [!IMPORTANT]
-> If you restart ngrok and get a new dynamic subdomain, you'll need to update everywhere you've seen the **\*.ngrok.io** URL in the **manifest.json** file, package, and update any installed instances of the app.
+You'll need to make a change to this later, but for now you can review the comments in the **server.ts** file to review what it does.
 
 ## Build and test the application
 
-To test the application you have three steps:
+Before customizing the tab, let's test the tab to see the initial developer experience for testing.
 
-1. Install the dependencies & start the web API project
-1. Install the dependencies & start the React web app project
-1. Install the custom Microsoft Teams tab
+From the command line, navigate to the root folder for the project and execute the following command:
+
+```console
+gulp ngrok-serve
+```
+
+This gulp task will run many other tasks all displayed within the command-line console. The **ngrok-serve** task builds your project and starts a local web server (http://localhost:3007). It then starts ngrok with a random subdomain that creates a secure URL to your local webserver.
+
+> [!NOTE]
+> Microsoft Teams requires all content displayed within a tab be loaded from an HTTPS request. In development, can be done using the tool [ngrok](https://www.ngrok.com) that creates a secure rotatable URL to your local HTTP webserver. Ngrok is included as a dependency within the project so there is nothing to setup or configure.
+
+> [!IMPORTANT]
+> Each time ngrok starts, it generates a new dynamic subdomain for the URL. If you have to restart ngrok, you will need to repackage and and update the app in Microsoft Teams to make the installed app aware of the new URL. The optional licensed version of ngrok allows you to define and reuse the same subdomain.
+
+![Screenshot of gulp ngrok-serve](../media/05-ngrok-dynamic-url.png)
+
+Before testing the Microsoft Teams app, you need to update all locations where you entered the URL `REPLACE.ngrok.io` in both your project and the Azure AD app you registered. For example:
+
+- **Visual Studio Code project**
+  - Locate and open the **./.env** file
+  - Find & replace all instances of `REPLACE.ngrok.io`
+- **Azure AD Application > Authentication > Redirect URIs**
+- **Azure AD Application > Expose an API > Application ID URI**
+
+In the browser, navigate to **https://teams.microsoft.com** and sign in with the credentials of a Work and School account.
+
+Select a team that you want to install and test your custom teams app in and then select the team's **General** channel.
+
+Next, select the plus icon to the right of the existing tabs to add a new tab:
+
+![Screenshot selecting a team and channel](../media/05-add-tab-01.png)
+
+The app containing our new tab isn't installed yet, so in the **Add a tab** dialog, select **Manage apps** in the lower-right corner.
+
+On the next screen, select the **Upload a custom app** link in the lower right corner of the screen below the list of existing installed apps.
+
+Locate and select the Microsoft Teams app package, found in the **./package** folder in your Visual Studio Code project to upload the app.
+
+Microsoft Teams will display the details of the app in a dialog. Select the **Add** button to install the app into the current team:
+
+![Screenshot installing a new tab, step 2](../media/05-add-tab-03.png)
+
+After installing the app, select the team's **General** channel, and then the plus icon to the right of the existing tabs in the channel. When prompted to select the tab, select the **SSO Teams Tab**:
+
+![Screenshot installing a new tab, step 3](../media/05-add-tab-04.png)
+
+When you select the tab to add to the channel, Microsoft Teams will present the tab's configuration screen. Enter anything into the provided input box and select **Save** to add the tab.
+
+When the tab loads, it will initiate the SSO process with Azure AD and obtain an ID token. This token contains the basic identification information about the current user. The current user's display name is included in this token and is displayed in the tab:
+
+![Screenshot installing a new tab, step 5](../media/05-add-tab-05.png)
+
+## Add support to submit requests to Microsoft Graph
+
+At this point, our tab uses Microsoft Teams' SSO support to obtain an ID token for the current user. This ID token can only be used to identify the user, but it can't be used to authenticate requests with Microsoft Graph.
+
+To submit requests to Microsoft Graph, you must include an access token with the necessary permissions for Microsoft Graph for the current user. You can update the project to submit the ID token to Azure AD's token endpoint to exchange it for an access token that can be used to authenticate requests to Microsoft Graph. This is done by implementing the [OAuth2 On-Behalf-Of (OBO) flow](/azure/active-directory/develop/v2-oauth2-on-behalf-of-flow), but this can't be done client-side, rather it must be done server-side.
+
+### Update project to obtain access tokens for Microsoft Graph via the OAuth2 OBO flow
+
+In your Microsoft Teams app project, locate and open the **./.env** file. At the end of the file, there are two environment variables that were set by the Yeoman generator when you created the project. Their names are based on the name of the project:
+
+```text
+SSOTAB_APP_ID=...
+SSOTAB_APP_URI=...
+```
+
+Add the following two properties after these two existing properties. Set the first to the Azure AD app's client secret you created in the previous exercise, and the second to the permissions defined by the app, separated by spaces:
+
+```text
+SSOTAB_APP_SECRET=jFD.Od8qh3vNs-8OkN78ROGw_ovIT6rEh~
+SSOTAB_APP_SCOPES=https://graph.microsoft.com/User.Read email openid profile offline_access
+```
 
 > [!TIP]
-> The following steps assume ngrok is still running from a previous step. If not, make sure you start ngrok following the same process outlined above. The ngrok URL points to the React web app project.
->
-> Remember, if you restart the ngrok process, the dynamic subdomain will change and you'll need to make the appropriate updates in the registered Azure AD application, custom Microsoft Teams app, environment variables in the web API project, and environment variables in the React web app project.
+> The list of scopes, also known as permissions, can be found from the registered Azure AD app's **API Permissions** page in the Azure AD admin portal.
 
-### Install the dependencies & start the web API project
+The next step is to update the server-side API to add support for using the ID token, obtained by Microsoft Teams, for an OBO access token that can be used to submit requests to Microsoft Graph.
 
-Open a new console, change to current folder to the **./api-server** folder in the project and install all dependencies by running the executing command:
+Locate, and open the **./src/server/server.ts** file.
 
-```console
-npm install
+Add the following two `import` statements after the existing `import` statements:
+
+```typescript
+import jwtDecode from "jwt-decode";
+import Axios, { AxiosResponse } from "axios";
 ```
 
-After all dependencies are installed, run the following command to start the web API project:
+Now, add a route that takes the SSO ID token from the request and submits a request to Azure AD using the OAuth OBO flow to exchange it for an OAuth access token that can be used to authenticate requests to Microsoft Graph.
 
-```console
-npm start
+Locate the following lines near the end of the **server.ts** file:
+
+```typescript
+// Set the port
+express.set("port", port);
 ```
 
-You'll know it's working when returns the following in the console:
+Add the following code before the lines you just found that set the listening port on the solution. The comments within the code explain the relevant parts:
 
-```console
-API server is listening on port 5000
+```typescript
+express.get("/exchangeSsoTokenForOboToken", async (req, res) => {
+  log("getting access token for Microsoft Graph...");
+
+  const clientId = process.env.SSOTAB_APP_ID as string;
+  const clientSecret = process.env.SSOTAB_APP_SECRET as string;
+  const ssoToken = req.query.ssoToken as string;
+
+  // build Azure AD OAuth2 token endpoint
+  const aadTokenEndpoint = `https://login.microsoftonline.com/${jwtDecode<any>(ssoToken).tid}/oauth2/v2.0/token`;
+
+  // build body of request to obtain an access token using the OAuth2 OBO flow
+  const oAuthOBOParams = {
+    grant_type: "urn:ietf:params:oauth:grant-type:jwt-bearer",
+    client_id: clientId,
+    client_secret: clientSecret,
+    assertion: ssoToken,
+    requested_token_use: "on_behalf_of",
+    scope: process.env.SSOTAB_APP_SCOPES
+  };
+
+  // convert params to URL encoded form body payload
+  const oAuthOboRequest = Object.keys(oAuthOBOParams)
+    .map((key, index) => `${key}=${encodeURIComponent(oAuthOBOParams[key])}`)
+    .join("&");
+
+  const HEADERS = {
+    accept: "application/json",
+    "content-type": "application/x-www-form-urlencoded"
+  };
+
+  try {
+    // submit request
+    const response = await Axios.post(aadTokenEndpoint, oAuthOboRequest, { headers: HEADERS });
+
+    // check response
+    if (response.status === 200) {
+      // on successful response, return full object to client
+      res.status(200).send(response.data);
+    } else {
+      // else on non-success...
+      if ((response.data.error === "invalid_grant") || (response.data.error === "interaction_required")) {
+        // if consent required... reply with 403: Forbidden
+        res.status(403).json({ error: "consent_required" });
+      } else {
+        // else, some other error occurred... fail
+        res.status(500).json({ error: "Could not exchange access token" });
+      }
+    }
+  } catch (error) {
+    // for all others, fail
+    res.status(400).json({ error: `Unknown error: ${error}` });
+  }
+});
 ```
 
-> [!TIP]
-> If you need to stop either processes in the future, press <kbd>CTRL</kbd>+<kbd>C</kbd> in the console.
+### Update the SSO tab to exchange the ID token for an access token
 
-### Install the dependencies & start the React web app project
+With the server-side API updated, we can now update the SSO tab to exchange the ID token obtained by Microsoft Teams and it's SSO support for an access token that can be used to authenticate requests for Microsoft Graph.
 
-Open a new console, change to current folder to the **./** folder in the project and install all dependencies by running the executing command:
+Locate and open the file **./src/client/ssoTab/SsoTab.tsx**.
 
-```console
-npm install
+Next, locate the `import` statement for the `react` package and add the `useCallback` hook to the list of imports:
+
+```typescript
+import { useState, useEffect, useCallback } from "react";
 ```
 
-After all dependencies are installed, run the following command to start the React web app project:
+This file contains a single functional component exported to the caller. Near the top of this component's declaration, locate a collection of `const` declarations that configure the initial state of the React component.
 
-```console
-npm start
+Add the following to add a few more properties to the component's state. These will be used to store the ID token and access token
+
+```typescript
+const [ssoToken, setSsoToken] = useState<string>();
+const [msGraphOboToken, setMsGraphOboToken] = useState<string>();
 ```
 
-You'll know it's working when returns the following in the console:
+Now locate the `useEffect()` hook (*the first one in the file*) that the tab is using to obtain the ID token from Microsoft Teams. When the request to authenticate with the Microsoft Teams SDK is successful, it parses the returned ID token to obtain the signed in user's name and sets it to the component's state property `name`. This triggers React to re-render the component and display the user's name.
 
-```console
-Compiled successfully!
+Let's update this to save the ID token to the component's `ssoToken` state property. Locate the following line in the success callback:
 
-You can now view microsoft-teams-app in the browser.
-
-  Local:            https://localhost:3000
-  On Your Network:  https://###.###.###.###:3000
-
-Note that the development build is not optimized.
-To create a production build, use npm run build.
+```typescript
+microsoftTeams.appInitialization.notifySuccess();
 ```
 
-> [!TIP]
-> If you need to stop the process in the future, press <kbd>CTRL</kbd>+<kbd>C</kbd>.
+Add the following line immediately before the `notifySuccess()` call:
 
-### Install the custom Microsoft Teams tab
+```typescript
+setSsoToken(token);
+```
 
-Now let's load the tab in Microsoft Teams. In the browser, go to [Microsoft Teams](https://teams.microsoft.com). Sign in with the credentials of a Work and School account.
+In order to submit requests to Microsoft Graph, it needs to exchange this SSO obtained ID token for an access token. This is an asynchronous request to the server-side API endpoint you previously implemented. Add the following `useCallback()` hook to implement token exchange request:
 
-In the app bar on the left, select the **More added apps** button. Then select **More apps**.
+```typescript
+const exchangeSsoTokenForOboToken = useCallback(async () => {
+  const response = await fetch(`/exchangeSsoTokenForOboToken/?ssoToken=${ssoToken}`);
+  const responsePayload = await response.json();
+  if (response.ok) {
+    setMsGraphOboToken(responsePayload.access_token);
+  } else {
+    if (responsePayload!.error === "consent_required") {
+      setError("consent_required");
+    } else {
+      setError("unknown SSO error");
+    }
+  }
+}, [ssoToken]);
+```
 
-On the **Browse available apps and services** page, select **Upload a custom app** > **Upload for me or my teams**.
+To initiate this process, add another `useEffect()` hook that's triggered when the `ssoToken` state property is updated by the call to `setSsoToken()` we previously added:
 
-![Screenshot of available apps and services page in Microsoft Teams](../media/05-test-01.png)
+```typescript
+useEffect(() => {
+  // if the SSO token is defined...
+  if (ssoToken && ssoToken.length > 0) {
+    exchangeSsoTokenForOboToken();
+  }
+}, [exchangeSsoTokenForOboToken, ssoToken]);
+```
 
-In the file dialog box that appears, select the Microsoft Teams package in your project. This app package is a zip file in the project's **./appPackage** folder.
+At this point, the tab has an access token that will authenticate requests to Microsoft Graph, so the next step is to submit a request to Microsoft Graph.
 
-After the package is uploaded, select it to display a summary of the app. Here you can see some todo items to address. You'll update the todo items later in the exercise.
-
-![Screenshot of Microsoft Teams app](../media/05-test-02.png)
-
-Select the **Add to a team** button, specify an existing team and channel to install the app to, and then select the **Set up a tab** button.
-
-![Screenshot of installing the Microsoft Teams app](../media/05-test-03.png)
-
-In the **Tab Configuration** dialog, select the **Save** button.
-
-Test the tab by navigating to the team and channel where you installed the tab. Then select the **My tab** tab. You should see the working tab, with the current user's UPN and profile picture displayed:
-
-![Screenshot of the installed and working Microsoft Teams tab](../media/05-test-04.png)
-
-This working sample demonstrates the following:
-
-1. The React app that implements the tab is successfully communicating with the host Microsoft Teams client that uses SSO to obtain an access token for the currently signed in user.
-1. The React app is exchanging this access token for an access token that can be used to submit requests to Microsoft Graph. This process is handled by our local web API server.
-1. The React app is then using the access token to submit a request to Microsoft Graph for the currently signed in user's profile picture.
-
-With everything working, let's update the tab and Azure AD application to display a list of all teams the current user as joined.
-
-Leave the ngrok and web API processes running in the consoles, but stop the React app project's process by pressing <kbd>CTRL</kbd>+<kbd>C</kbd>.
-
-## Display a list of upcoming meetings
+### Display a list of upcoming meetings
 
 In this step, you'll update the Azure AD app and Microsoft Teams app project to display a list of the recent emails received by the currently logged in user with Microsoft Graph.
 
-### Update the Azure AD app's permissions
+#### Update the Azure AD app's permissions
 
 The registered Azure AD app must be granted permissions to the app.
 
@@ -294,130 +372,103 @@ On the **Select an API** screen, select **Microsoft Graph**, then select **Deleg
 
 Next, select the **Grant admin consent for Contoso** followed by accepting the confirmation prompt by selecting **Yes**.
 
-### Update the Microsoft Teams tab
+#### Update the project's server-side permission request
 
-The next step is to update the tab project to call Microsoft Graph to obtain a list of all teams the signed in user has joined.
+The new **Mail.Read** permission you added to the Azure AD app needs to be included in the list of permissions the server-side API requests when it exchanges the ID token for an access token. This is to ensure the current user has consented to the permissions the app needs.
 
-In Visual Studio Code, locate and open the **./src/components/tab.tsx** file.
+Locate and open the **./.env** file in your project.
+
+Near the end of the file, locate the existing environment variable `SSOTAB_APP_SCOPES`. Update this property to include the request for the **Mail.Read** property:
+
+```text
+SSOTAB_APP_SCOPES=https://graph.microsoft.com/User.Read https://graph.microsoft.com/Mail.Read email openid profile offline_access
+```
+
+#### Update the Microsoft Teams tab
+
+The next step is to update the tab project to call Microsoft Graph to obtain a list of the user's recent email.
+
+In Visual Studio Code, locate and open the **./src/client/ssoTab/SsoTab.tsx** file.
 
 First, add a new React component to display a list of items. Locate the following line at the top of the file:
 
 ```typescript
-import { Avatar, Loader } from '@fluentui/react-northstar'
+import { Provider, Flex, Text, Button, Header } from "@fluentui/react-northstar";
 ```
 
 Add the `List` component to the `import` statement:
 
 ```typescript
-import { Avatar, Loader, List } from '@fluentui/react-northstar'
+import { Provider, Flex, Text, Button, Header, List } from "@fluentui/react-northstar";
 ```
 
-Next, update the tab component's state. Locate the `ITabState` interface and add an array declaration of `recentMail`:
+Next, add the following line after the existing `const` statements at the top of the component. This will add a new state property to the React component to store the list of emails:
 
 ```typescript
-interface ITabState {
-  context?: microsoftTeams.Context;
-  ssoToken: string;
-  consentRequired: boolean;
-  consentProvided: boolean;
-  graphAccessToken: string;
-  photo: string;
-  recentMail: [];
-  error: boolean;
-}
+const [recentMail, setRecentMail] = useState<any[]>();
 ```
 
-Locate the tab's `constructor()` method and update the code that initializes the state to include an empty collection of `recentMail`:
+With the state of the component updated, now add the following `useCallback()` hook to request the last 10 emails using Microsoft Graph:
 
 ```typescript
-this.state = {
-  context: undefined,
-  ssoToken: "",
-  consentRequired: false,
-  consentProvided: false,
-  graphAccessToken: "",
-  photo: "",
-  recentMail: [],
-  error: false
-}
-```
+const getRecentEmails = useCallback(async () => {
+  if (!msGraphOboToken) { return; }
 
-With the state of the component updated, now add code to call Microsoft Graph. Add the following method declaration after the `componentDidUpdate()` React lifecycle method declaration:
-
-```typescript
-getUsersRecentMail = async () => {
-  let endpoint = `https://graph.microsoft.com/v1.0/me/messages?$select=receivedDateTime,subject&$orderby=receivedDateTime&$top=10`;
-  let graphRequestParams = {
+  const endpoint = `https://graph.microsoft.com/v1.0/me/messages?$select=receivedDateTime,subject&$orderby=receivedDateTime&$top=10`;
+  const requestObject = {
     method: 'GET',
     headers: {
-      "authorization": "bearer " + this.state.graphAccessToken
+      "authorization": "bearer " + msGraphOboToken
     }
-  }
+  };
 
-  // submit request to Microsoft Graph
-  let response = await fetch(endpoint, graphRequestParams).catch(this.unhandledFetchError);
+  const response = await fetch(endpoint, requestObject);
+  const responsePayload = await response.json();
 
-  // process response
-  if (response) {
-    if(!response.ok){
-      console.error("ERROR: ", response);
-      this.setState({error:true});
-    }
-
-    this.setState({ recentMail: (await response.json()).value });
-  }
-}
-```
-
-Update the tab to call the new `getUsersRecentMail()` method when the component loads on the page. Locate the `componentDidUpdate()` method. After the existing `this.callGraphFromClient();` call, add a call to the new method:
-
-```typescript
-componentDidUpdate = async (prevProps: ITabProps, prevState: ITabState) => {
-  if((prevState.graphAccessToken === "") && (this.state.graphAccessToken !== "")){
-    this.callGraphFromClient();
-    this.getUsersRecentMail();
-  }
-}
-```
-
-The last step is to update the user interface. Locate the `render()` method and locate the following line:
-
-```tsx
-let avatar = this.state.photo !== "" ?
-  <Avatar image={this.state.photo} size='largest'/> : null;
-```
-
-Add the following code immediately after this line. This code will convert the array of objects returned from Microsoft Graph to an array to bind to the `<List />` component:
-
-```typescript
-let recentMails = this.state.recentMail.length > 0
-  ? this.state.recentMail.map((mail: any) => ({
+  if (response.ok) {
+    const recentMail = responsePayload.value.map((mail: any) => ({
       key: mail.id,
       header: mail.subject,
       headerMedia: mail.receivedDateTime
-    }))
-  : [];
+    }));
+    setRecentMail(recentMail);
+  }
+}, [msGraphOboToken]);
 ```
 
-Finally, locate the line `<h1>{avatar}</h1>` in the `render()` method and add the following code after it:
+We want to get the list recent emails once we have an access token that can be used to authenticate with Microsoft Graph. Because we've already added that code, we just need to add a new `useEffect()` hook that runs when the `msGraphOboToken` state property is updated.
+
+Add the following code immediately before the existing `return` statement.
+
+```typescript
+useEffect(() => {
+  getRecentEmails();
+}, [msGraphOboToken]);
+```
+
+The last step is to update the rendering in the component's `return` statement to include the list of recent emails. Locate following code in the `return` statement:
 
 ```tsx
-<h2>Your recent emails:</h2>
-<List items={recentMails} />
+<div>
+  <Text content={`Hello ${name}`} />
+</div>
 ```
 
-Save all the changes to the **tab.tsx** file.
+Add the following code immediately after the above code:
+
+```tsx
+{recentMail && <div><h3>Your recent emails:</h3><List items={recentMail} /></div>}
+```
 
 ## Build and retest the application
 
-Repeat the process to start the React web app project by executing the following statement in the command line:
+Go back to the browser and navigate back to the tab you added earlier in this exercise. Notice how it's now displaying all your recent emails:
 
-```console
-npm start
-```
+> [!IMPORTANT]
+> If the **ngrok-serve** stopped for any reason, remember when you start/restart the **gulp ngrok-serve** task, the dynamic ngrok URL will change.
+>
+> You'll need to update all the locations where you set the URL in your project as well as in the Azure AD app registration as previously explained.
+>
+> In addition, you'll need to reinstall your app package because the Microsoft Teams app manifest contains the URL. To do this, you'll first need to increment the `version` property in the app's **./manifest/manifest.json** file. This value is dynamically set using the `version` property from the **./package.json** file. When you repeat the installation process of the app, it will update the existing installation.
 
-Once the app starts, go back to the browser and navigate back to your tab that you previously installed. You'll now see the list emails the user recently received:
-
-![Screenshot displaying the list emails the user recently received](../media/05-test-05.png)
-
-You can now stop the web project and web API projects in their respective consoles by pressing <kbd>CTRL</kbd>+<kbd>C</kbd> in each one. However, you can leave the ngrok process running so the dynamic subdomain won't change for future exercises in this module.
+![Screenshot displaying the list emails the user recently received](../media/05-test-recent-emails.png)

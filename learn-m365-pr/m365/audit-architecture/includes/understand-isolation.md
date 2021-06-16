@@ -25,7 +25,7 @@ Individual services may provide additional layers of tenant isolation at the dat
 
 ## Learn more
 
-- [Tenant Isolation in Microsoft 365](https://docs.microsoft.com/office365/Enterprise/office-365-tenant-isolation-overview?azure-portal=true)
-- [Encryption in the Microsoft Cloud](https://docs.microsoft.com/microsoft-365/compliance/office-365-encryption-in-the-microsoft-cloud-overview?azure-portal=true)
-- [Administrative Access Controls in Microsoft 365](https://docs.microsoft.com/office365/Enterprise/office-365-administrative-access-controls-overview?azure-portal=true)
+- [Tenant Isolation in Microsoft 365](/office365/Enterprise/office-365-tenant-isolation-overview?azure-portal=true)
+- [Encryption in the Microsoft Cloud](/microsoft-365/compliance/office-365-encryption-in-the-microsoft-cloud-overview?azure-portal=true)
+- [Administrative Access Controls in Microsoft 365](/office365/Enterprise/office-365-administrative-access-controls-overview?azure-portal=true)
 - [A behind the scenes look at how we secure the Microsoft 365 platform](https://techcommunity.microsoft.com/t5/security-privacy-and-compliance/a-behind-the-scenes-look-at-how-we-secure-the-microsoft-365/ba-p/1048697?azure-portal=true)

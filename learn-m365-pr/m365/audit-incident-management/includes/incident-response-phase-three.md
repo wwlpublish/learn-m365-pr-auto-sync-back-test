@@ -22,4 +22,4 @@ A key aspect to the recovery process is enhanced detection controls to validate 
 
 ## Learn more
 
-- [Microsoft 365 security incident management: Containment, eradication, and recovery](https://docs.microsoft.com/compliance/assurance/assurance-sim-containment-eradication-recovery?azure-portal=true)
+- [Microsoft 365 security incident management: Containment, eradication, and recovery](/compliance/assurance/assurance-sim-containment-eradication-recovery?azure-portal=true)

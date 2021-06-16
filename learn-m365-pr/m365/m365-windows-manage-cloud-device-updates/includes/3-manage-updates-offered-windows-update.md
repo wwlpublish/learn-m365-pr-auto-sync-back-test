@@ -24,15 +24,15 @@ Additionally, if the feature update version the device is on is close to its end
 
 ### Get access to pre-release feature updates
 
-In addition to deploying a specific feature update, you can validate upcoming feature updates by enrolling some devices for Release Preview. To do this, you must first join the [Windows Insider Program for Business](https://insider.windows.com/for-business?azure-portal=true); also see [Get started with the Windows Insider Program](https://docs.microsoft.com/windows-insider/get-started?azure-portal=true). This will give you early access to the addressed issues and features that will be released soon. To receive the latest feature update before it’s generally available, configure the following:
+In addition to deploying a specific feature update, you can validate upcoming feature updates by enrolling some devices for Release Preview. To do this, you must first join the [Windows Insider Program for Business](https://insider.windows.com/for-business?azure-portal=true); also see [Get started with the Windows Insider Program](/windows-insider/get-started?azure-portal=true). This will give you early access to the addressed issues and features that will be released soon. To receive the latest feature update before it’s generally available, configure the following:
 For Group Policy, enable the **Manage preview builds** policy and specify when to receive preview builds and feature updates.
 
 :::image type="content" source="../media/3-manage-preview-builds-expanded.png" lightbox="../media/3-manage-preview-builds-inline.png" alt-text="Figure 4. Manage preview builds.":::
 
 For configuration service provider (CSP), use the following policies:
 
-- [Update/ManagePreviewBuilds](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-update#update-managepreviewbuilds?azure-portal=true)
-- [Update/BranchReadinessLevel](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-update#update-branchreadinesslevel?azure-portal=true)
+- [Update/ManagePreviewBuilds](/windows/client-management/mdm/policy-csp-update#update-managepreviewbuilds?azure-portal=true)
+- [Update/BranchReadinessLevel](/windows/client-management/mdm/policy-csp-update#update-branchreadinesslevel?azure-portal=true)
 
 Validating the preview release on at least 1% of the devices in your organization will help to increase your confidence about the upcoming feature update. You can report any problems you find for free to Microsoft’s customer service representatives or the Feedback Hub so that they fixed before release.
 
@@ -57,14 +57,14 @@ By default, driver updates automatically deploy to devices; we recommend that yo
 
     :::image type="content" source="../media/3-turn-off-driver-updates-through-group-policy-expanded.png" lightbox="../media/3-turn-off-driver-updates-through-group-policy-inline.png" alt-text="Figure 9. Turn off driver updates using a Group Policy.":::
 
-- CSP: Configure the [Update/ExcludeWUDriversInQualityUpdate](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-update) policy.
+- CSP: Configure the [Update/ExcludeWUDriversInQualityUpdate](/windows/client-management/mdm/policy-csp-update) policy.
 
 ## Manage other Microsoft product updates
 
 Windows Update for Business only offers Windows updates to devices. Updates for other Microsoft products do not deploy automatically. These products include applications like Visual Studio and Microsoft Edge. To manage updates for these kinds of products, do one of the following:
 
 - On the **Configure Automatic Update** Group Policy template page, check the **Install updates for other Microsoft products** box.
-- Configure the [Update/AllowMUUpdateService](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-update) CSP policy to **1 (Allow)**.
+- Configure the [Update/AllowMUUpdateService](/windows/client-management/mdm/policy-csp-update) CSP policy to **1 (Allow)**.
 
 ## Use update rings
 

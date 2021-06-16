@@ -16,7 +16,7 @@ quiz:
   title: Check your knowledge
   questions:
   
-  - content: "Which of the following processes is part of the Microsoft-managed services in a Windows Virtual Desktop deployment?"
+  - content: "Which of the following processes is part of the Microsoft-managed services in an Azure Virtual Desktop deployment?"
     choices:
     - content: "Gateway"
       isCorrect: true
@@ -28,19 +28,19 @@ quiz:
       isCorrect: false
       explanation: "That's incorrect. The user needs to manage this."
       
-  - content: "Why is Conditional Access recommended as a security control in a Windows Virtual Desktop deployment?"
+  - content: "Why is Conditional Access recommended as a security control in an Azure Virtual Desktop deployment?"
     choices:
     - content: "It allows for faster access."
       isCorrect: false
       explanation: "That's incorrect. Conditional Access is a tool that Azure Active Directory uses to make decisions and enforce organizational policies."
     - content: "It allows for management of risk before access is granted."
       isCorrect: true
-      explanation: "That's correct. Enabling Conditional Access lets you manage risks before you grant users access to your Windows Virtual Desktop environment."
+      explanation: "That's correct. Enabling Conditional Access lets you manage risks before you grant users access to your Azure Virtual Desktop environment."
     - content: "With Conditional Access, you can remove the user's burden of multifactor authentication."
       isCorrect: false
       explanation: "That's incorrect. Multifactor authentication should be used with Conditional Access."
       
-  - content: "Which of the following services should an administrator enable in a secure Windows Virtual Desktop deployment?"
+  - content: "Which of the following services should an administrator enable in a secure Azure Virtual Desktop deployment?"
     choices:
     - content: "A common administration password to limit complexity"
       isCorrect: false

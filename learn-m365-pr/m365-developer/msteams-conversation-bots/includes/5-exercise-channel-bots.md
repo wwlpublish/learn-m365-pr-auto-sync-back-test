@@ -3,13 +3,13 @@ Conversation bots can do many things within the Microsoft Teams client. They can
 In this exercise, you’ll modify the existing Microsoft Teams app to update your bot to respond to message reactions, and update or delete messages capabilities.
 
 > [!IMPORTANT]
-> This exercise assumes you have created the Microsoft Teams app project with the Yeoman generator that contains a personal tab from the previous exercise in this module. You'll update the project to add a new task module that uses an Adaptive Card.
+> This exercise assumes you have created the Microsoft Teams app project with the Yeoman generator from the previous exercise in this module.
 
 ## Add channel support to a conversation bot
 
 In a previous exercise, you created a bot that could be used in the personal scope that enabled one:one chat. When a bot is used in a channel, you must @mention it to receive messages.
 
-In this section, you'll modify the existing Microsoft Teams app to support being added to a team and respond to messages from the **Conversations** tab.
+In this section, you'll modify the existing Microsoft Teams app to support being added to a team and respond to messages from the **Posts** tab.
 
 ### Update the app's configuration
 
@@ -109,7 +109,6 @@ After the package is uploaded, Microsoft Teams displays a summary of the app. Se
 In the **Select a channel to start using** dialog box, select an existing team. Then select **Set up a tab**:
 
 ![Screenshot selecting a team to add the channel tab to](../media/05-channel-tab-02.png)
-
 
 Navigate to an existing channel in a team.
 
@@ -371,8 +370,6 @@ In the Microsoft Teams client, go to the channel you installed the bot in the pr
 The bot will reply to the message with a card:
 
 ![Screenshot of a message from the bot using cards](../media/05-test-04.png)
-
-Notice the value in the card is set to **0**.
 
 Select the button **Update card**. After a few seconds, the card should be updated with a new card containing an incremented counter value and a new button:
 

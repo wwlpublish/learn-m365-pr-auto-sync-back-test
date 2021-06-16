@@ -7,9 +7,9 @@ Microsoft Teams provides the backbone for enterprise voice and video in Microsof
 
 To achieve the best experience using Microsoft Teams, an organization should deploy Exchange Online and SharePoint Online, and it should ensure that its current environment is ready for Teams. To prepare your organization for a Teams deployment, refer to the following articles:
 
- *  If your organization has not synchronized identities to Azure Active Directory, see [Identity models and authentication in Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/identify-models-authentication?azure-portal=true).
- *  If your organization does not have Exchange Online, see [Understand how Exchange and Microsoft Teams interact](https://docs.microsoft.com/MicrosoftTeams/exchange-teams-interact?azure-portal=true).
- *  If your organization has an existing on-premises Skype for Business Server (or Lync Server) deployment, you must configure Azure AD Connect to synchronize your on-premises directory with Microsoft 365. For more information, see [Configure Azure AD Connect for Teams and Skype for Business](https://docs.microsoft.com/skypeforbusiness/hybrid/configure-azure-ad-connect?azure-portal=true).
+ *  If your organization has not synchronized identities to Azure Active Directory, see [Identity models and authentication in Microsoft Teams](/MicrosoftTeams/identify-models-authentication).
+ *  If your organization does not have Exchange Online, see [Understand how Exchange and Microsoft Teams interact](/MicrosoftTeams/exchange-teams-interact).
+ *  If your organization has an existing on-premises Skype for Business Server (or Lync Server) deployment, you must configure Azure AD Connect to synchronize your on-premises directory with Microsoft 365. For more information, see [Configure Azure AD Connect for Teams and Skype for Business](/skypeforbusiness/hybrid/configure-azure-ad-connect).
 
 ### Prepare your organization's network for Microsoft Teams
 
@@ -35,7 +35,7 @@ The following diagram displays how Teams clients can be located in a company beh
 :::image type="content" source="../media/teams-clients-behind-network-perimeter-bcce29da.jpg" alt-text="diagram displays how Teams clients can be located in a company behind a perimeter network or at home of individual users":::
 
 
-To achieve an optimal experience with real-time media within Microsoft Teams, your network must meet the networking requirements for Microsoft 365. For more information, see [Media Quality and Network Connectivity Performance for Skype for Business Online](https://docs.microsoft.com/SkypeForBusiness/optimizing-your-network/media-quality-and-network-connectivity-performance?azure-portal=true).
+To achieve an optimal experience with real-time media within Microsoft Teams, your network must meet the networking requirements for Microsoft 365. For more information, see [Media Quality and Network Connectivity Performance for Skype for Business Online](/SkypeForBusiness/optimizing-your-network/media-quality-and-network-connectivity-performance).
 
 For the two defining network segments (Client to Microsoft Edge and Customer Edge to Microsoft Edge), organizations should consider the following recommendations.
 
@@ -122,7 +122,7 @@ For the two defining network segments (Client to Microsoft Edge and Customer Edg
 
 Your company site connection to the Microsoft network edge includes first hop network access, which can be WiFi or another wireless technology.
 
-The network performance targets assume proper bandwidth and/or [QoS planning](https://docs.microsoft.com/MicrosoftTeams/qos-in-teams?azure-portal=true). In other words, the requirements apply directly to Teams real-time media traffic when the network connection is under a peak load.
+The network performance targets assume proper bandwidth and/or [QoS planning](/MicrosoftTeams/qos-in-teams). In other words, the requirements apply directly to Teams real-time media traffic when the network connection is under a peak load.
 
 To test both network segments, you can use the [Network Assessment Tool](https://go.microsoft.com/fwlink/?linkid=855799?azure-portal=true). This tool can be deployed on both the client PC directly and on a PC connected to the Customer Network Edge. By running this Network Readiness Assessment, you can validate your network’s readiness to run real-time media applications, such as Microsoft Teams.
 
@@ -202,6 +202,6 @@ Teams is always conservative on bandwidth utilization and can deliver HD video q
 
 Organizations should also consider the following factors when planning their networking environment for a Microsoft Teams deployment:
 
- *  **External Name Resolution.** Ensure that all client computers running the Teams client can resolve external DNS queries to discover the services provided by Microsoft 365, and that your firewalls are not preventing access. For information about configuring firewall ports, see [Office 365 URLs and IP ranges](https://docs.microsoft.com/microsoftteams/office-365-urls-ip-address-ranges?azure-portal=true).
+ *  **External Name Resolution.** Ensure that all client computers running the Teams client can resolve external DNS queries to discover the services provided by Microsoft 365, and that your firewalls are not preventing access. For information about configuring firewall ports, see [Office 365 URLs and IP ranges](/microsoftteams/office-365-urls-ip-address-ranges).
  *  **NAT Pool Size.** When multiple users/devices access Office 365 using Network Address Translation (NAT) or Port Address Translation (PAT), you need to ensure that the devices hidden behind each publicly routable IP address do not exceed the supported number. To mitigate this risk, ensure adequate Public IP addresses are assigned to the NAT pools to prevent port exhaustion. Port exhaustion will cause internal end users and devices to face issues when connecting to the Microsoft 365 services. For more information, see [NAT support with Office 365](https://support.office.com/article/NAT-support-with-Office-365-170e96ea-d65d-4e51-acac-1de56abe39b9?azure-portal=true).
  *  **Intrusion Detection and Prevention Guidance.** If your environment has an Intrusion Detection and/or Prevention System (IDS/IPS) deployed for an extra layer of security for outbound connections, ensure that any traffic with destination to Microsoft 365 URLs is safeguarded.

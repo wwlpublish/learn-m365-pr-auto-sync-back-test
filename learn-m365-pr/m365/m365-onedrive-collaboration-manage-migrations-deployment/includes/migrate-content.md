@@ -41,9 +41,9 @@ The more content that is migrated, the more complex a migration becomes and the 
 With Microsoft 365 Multi-Geo, you can provision and store data at rest in the geographical locations that you choose to meet data residency requirements.  In a multi-geo configuration, your organization consists of a central location and one or more satellite geographical locations. Each user's OneDrive can be provisioned in or moved by an administrator to a satellite location in accordance with the user's preferred data location in Azure AD. Files stores in OneDrive are then kept in that geographical location, though they can be shared with users in other locations.
 
 ## Learn more
-- [Migrate content to OneDrive for Business](https://docs.microsoft.com/sharepointmigration/migrating-content-to-onedrive-for-business?azure-portal=true)
-- [File share to OneDrive and SharePoint Migration Guide](https://docs.microsoft.com/sharepointmigration/fileshare-to-odsp-migration-guide?azure-portal=true)
+- [Migrate content to OneDrive for Business](/sharepointmigration/migrating-content-to-onedrive-for-business?azure-portal=true)
+- [File share to OneDrive and SharePoint Migration Guide](/sharepointmigration/fileshare-to-odsp-migration-guide?azure-portal=true)
 - [Migrate OneDrive for Business files from on-premises SharePoint 2013 to Office 365](https://support.office.com/article/migrate-onedrive-for-business-files-from-on-premises-sharepoint-2013-to-office-365-a9894a64-675a-4931-91f6-a76d94136edc?azure-portal=true)
-- [Pre-provision OneDrive for users in your organization](https://docs.microsoft.com/onedrive/pre-provision-accounts?azure-portal=true)
-- [Get started with the Migration Manager](https://docs.microsoft.com/sharepointmigration/mm-get-started?azure-portal=true)
-- [FastTrack Center Benefit Overview](https://docs.microsoft.com/fasttrack/O365-data-migration?azure-portal=true)
+- [Pre-provision OneDrive for users in your organization](/onedrive/pre-provision-accounts?azure-portal=true)
+- [Get started with the Migration Manager](/sharepointmigration/mm-get-started?azure-portal=true)
+- [FastTrack Center Benefit Overview](/fasttrack/O365-data-migration?azure-portal=true)

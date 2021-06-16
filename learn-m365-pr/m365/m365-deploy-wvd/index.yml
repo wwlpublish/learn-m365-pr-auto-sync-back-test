@@ -1,23 +1,23 @@
 ### YamlMime:Module
 uid: learn-m365.deploy-wvd
 metadata:
-  title: Deploy Windows Virtual Desktop in Microsoft Azure
-  description: Learn how to deploy Windows Virtual Desktop and customize the workspace for your users.  
+  title: Deploy Azure Virtual Desktop
+  description: Learn how to deploy Azure Virtual Desktop and customize the workspace for your users.  
   ms.date: 06/29/2020
   author: lizap
   ms.author: elizapo
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-title: Deploy Windows Virtual Desktop in Microsoft Azure
-summary: Learn how to deploy Windows Virtual Desktop. Provision a Windows Virtual Desktop connection to a remote resource. Make a desktop and apps available to users by using application groups. Customize the workspace for your users. Install Windows Virtual Desktop client for Windows and connect to the workspace.
+title: Deploy Azure Virtual Desktop
+summary: Learn how to deploy Azure Virtual Desktop. Provision an Azure Virtual Desktop connection to a remote resource. Make a desktop and apps available to users by using application groups. Customize the workspace for your users. Install Azure Virtual Desktop client for Windows and connect to the workspace.
 abstract: |
   In this module, you will:
-  - Learn about the key components of Windows Virtual Desktop and the deployment options 
+  - Learn about the key components of Azure Virtual Desktop and the deployment options 
   - Deploy a customized workspace with a virtual desktop and remote app 
 prerequisites:  |
   - Familiarity with server and client management concepts and tools
   - Familiarity with Windows virtualization technologies, like Remote Desktop Services
-  - (Optional) Access to an Azure environment prepared for Windows Virtual Desktop: Azure Active Directory (Azure AD) configured and integrated with Active Directory Domain Services (AD DS), and an Azure Virtual Network that's connected to your domain 
+  - (Optional) Access to an Azure environment prepared for Azure Virtual Desktop: Azure Active Directory (Azure AD) configured and integrated with Active Directory Domain Services (AD DS), and an Azure Virtual Network that's connected to your domain 
   - (Optional) User credentials for three user accounts in Azure AD: a user account that's assigned to the AD DS administrator role and two non-administrative user accounts
 iconUrl: /learn/achievements/deploy-windows-virtual-desktop.svg
 ratingEnabled: true
@@ -28,7 +28,6 @@ roles:
 products:
 - m365
 - azure
-- windows-virtual-desktop
 units:
 - learn-m365.deploy-wvd.introduction
 - learn-m365.deploy-wvd.wvd-deployment-overview

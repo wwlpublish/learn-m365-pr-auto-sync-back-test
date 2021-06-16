@@ -16,4 +16,3 @@ Your first step is to get a general picture of your cloud apps. Start at the Clo
 If your organization is using Microsoft Defender for Endpoint (or a similar solution), any unsanctioned app is automatically blocked.
 
 If you don't have a threat protection solution, you can run a script against the data source to block the app. Then users will see a notification that the application is blocked when they try to access it.
-

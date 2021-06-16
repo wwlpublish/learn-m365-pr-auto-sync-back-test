@@ -40,7 +40,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowCloudRecording $false
 
 ## Learn more
 
-- [Teams cloud meeting recording](https://docs.microsoft.com/MicrosoftTeams/cloud-recording)
-- [Allow cloud recording](https://docs.microsoft.com/MicrosoftTeams/meeting-policies-in-teams#allow-cloud-recording)
-- [Add usage guidelines and require consent before uploading Microsoft Stream videos](https://docs.microsoft.com/stream/company-policy-and-consent)
-- [Manage meeting policies in Teams](https://docs.microsoft.com/MicrosoftTeams/meeting-policies-in-teams)
+- [Teams cloud meeting recording](/MicrosoftTeams/cloud-recording)
+- [Allow cloud recording](/MicrosoftTeams/meeting-policies-in-teams#allow-cloud-recording)
+- [Add usage guidelines and require consent before uploading Microsoft Stream videos](/stream/company-policy-and-consent)
+- [Manage meeting policies in Teams](/MicrosoftTeams/meeting-policies-in-teams)

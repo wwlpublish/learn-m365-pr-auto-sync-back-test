@@ -1,7 +1,7 @@
-Microsoft Phone System acts like a virtual PBX for your business. You can use it in place of an on-premises PBX to connect to the PSTN. Internal calls are routed through Phone System and do not reach the PSTN. This includes long-distance calls between offices in different regions.
+Microsoft Teams Phone acts like a virtual PBX for your business. You can use it in place of an on-premises PBX to connect to the PSTN. Internal calls are routed through Phone System and do not reach the PSTN. This includes long-distance calls between offices in different regions.
 
 > [!NOTE]
-> In some countries and regions, it's illegal to bypass the PSTN provider to decrease long-distance calling costs. Location-Based Routing for Direct Routing enables you to restrict toll bypass for Microsoft Teams users based on their geographic location. For more information, read [Plan Location-Based Routing for Direct Routing]( https://docs.microsoft.com/microsoftteams/location-based-routing-plan).
+> In some countries and regions, it's illegal to bypass the PSTN provider to decrease long-distance calling costs. Location-Based Routing for Direct Routing enables you to restrict toll bypass for Microsoft Teams users based on their geographic location. For more information, read [Plan Location-Based Routing for Direct Routing]( /microsoftteams/location-based-routing-plan).
 
 ## Calling users
 
@@ -25,6 +25,6 @@ Additional features of Phone System include:
 - **Call transfer**. A call can be easily transferred to another user. Alternatively, you can transfer a call to a different device (such as a mobile phone) if you want to continue a call but leave your desk.
 - **Caller ID**. Calls from internal users can display information retrieved from the corporate directory (such as name, photo, and job title) rather than simply the phone number. If a caller is external, information provided by the Caller ID service of the phone provider can be displayed.
 - **Make and receive video calls**. If enabled for a user that has a camera attached to their device, the user can make face-to-face video calls.
-For a comprehensive list of features, read [Here's what you get with Phone System]( https://docs.microsoft.com/microsoftteams/here-s-what-you-get-with-phone-system)
+For a comprehensive list of features, read [Here's what you get with Phone System]( /microsoftteams/here-s-what-you-get-with-phone-system)
 
 

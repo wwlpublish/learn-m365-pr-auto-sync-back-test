@@ -1,6 +1,6 @@
-As a senior administrator working for Contoso, you've been asked to test Microsoft AppLocker for future deployment in your Windows Virtual Desktop environment. In an enterprise, this process is normally done through Group Policy objects, Intune, or Configuration Manager. This exercise doesn't include access to those tools or an Active Directory domain controller.
+As a senior administrator working for Contoso, you've been asked to test Microsoft AppLocker for future deployment in your Azure Virtual Desktop environment. In an enterprise, this process is normally done through Group Policy objects, Intune, or Configuration Manager. This exercise doesn't include access to those tools or an Active Directory domain controller.
 
-In this exercise, you'll use a Windows Server 2016 VM running in Azure. Because this isn't a Windows Virtual Desktop environment for the lab, Windows 10 Enterprise is not available. You will:
+In this exercise, you'll use a Windows Server 2016 VM running in Azure. Because this isn't an Azure Virtual Desktop environment for the lab, Windows 10 Enterprise is not available. You will:
 
 - Open Azure Cloud Shell.
 - Create a resource group.
@@ -230,8 +230,8 @@ az group delete --name myResourceGroup
 ```
 This process takes 2 to 3 minutes.
 
-## Demo: Use AppLocker in a Windows Virtual Desktop environment
+## Demo: Use AppLocker in an Azure Virtual Desktop environment
 
-The following video shows how you can use AppLocker to help secure your Windows Virtual Desktop deployment.
+The following video shows how you can use AppLocker to help secure your Azure Virtual Desktop deployment.
 
 >[!VIDEO https://www.microsoft.com/videoplayer/embed/RE4M709]
