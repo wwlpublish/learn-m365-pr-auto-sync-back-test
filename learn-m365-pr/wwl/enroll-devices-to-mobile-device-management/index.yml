@@ -39,7 +39,7 @@ units:
 - learn.wwl.enroll-devices-to-mobile-device-management.regulate-device-enrollment-by-using-enrollment-rules
 - learn.wwl.enroll-devices-to-mobile-device-management.examine-how-users-can-enroll-their-personal-devices
 - learn.wwl.enroll-devices-to-mobile-device-management.enroll-devices-using-device-enrollment-manager-account
-- learn.wwl.enroll-devices-to-mobile-device-management.examine-need-for-mfa-to-secure-enrollment
+- learn.wwl.enroll-devices-to-mobile-device-management.examine-need-for-multi-factor-authentication-to-secure-enrollment
 - learn.wwl.enroll-devices-to-mobile-device-management.knowledge-check
 - learn.wwl.enroll-devices-to-mobile-device-management.summary
 badge:
