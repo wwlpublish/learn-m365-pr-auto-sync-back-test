@@ -7,7 +7,7 @@ Guest access is an organization-wide setting in Teams and is turned off by defau
 
 ## What is external access?
 
-External access is subtly different to guest access as it allows another organizations users access to your Teams environment. Through external access, they can call, message, and find anyone in your organization. However, they won't have access to your teams or channels, or any other Teams resources. By default, external access is enabled.
+External access is subtly different to guest access as it allows another organization's users access to your Teams environment. Through external access, they can call, message, and find anyone in your organization. However, they won't have access to your teams or channels, or any other Teams resources. By default, external access is enabled.
 
 If you need a third party to access your teams and channels, you may want to consider guest access, since external access won't permit this.
 
@@ -23,7 +23,7 @@ These include:
 
 ## Enable guest access
 
-Before you enable guest access, you first of all need to assess what level of access they need. Teams provides guess access to features and capabilities using four levels of authorization. Each authorization level controls the guest experience when using Teams:
+Before you enable guest access, you first of all need to assess what level of access they need. Teams provides guest access to features and capabilities using four levels of authorization. Each authorization level controls the guest experience when using Teams:
 
 - **Azure Active Directory** - This authorization level controls the guest experience at the directory, tenant, and application level.
 - **Microsoft Teams** - Controls the guest experience at a Teams level only.
@@ -79,7 +79,7 @@ In Teams, an anonymous user is one that hasn't been authenticated against your A
 
 By default, anonymous users can't start a meeting, but they can be invited by participants of a meeting if you've enabled them.
 
-You'll need to use Teams PowerPoint to make changes to policies.
+You'll need to use Teams PowerShell to make changes to policies.
 
 Run the following to get the Teams meeting policy assignments for your organization.
 
