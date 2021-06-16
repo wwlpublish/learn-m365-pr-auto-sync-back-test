@@ -9,7 +9,7 @@ After a device is enrolled to Intune, a built-in device MDM agent automatically 
 
 Organizations can view device information in the Microsoft Endpoint Manager admin center or when generating reports. They can also use synchronized device attributes when specifying membership rules for dynamic groups. Groups can be used in Intune for deploying profiles, policies, and apps.
 
-**Additional reading.** For more information, see [Device data that is available in Intune](/intune/device-inventory).
+**Additional reading.** For more information, see [Device data that is available in Intune](https://docs.microsoft.com/intune/device-inventory?azure-portal=true).
 
 ### Group membership
 
