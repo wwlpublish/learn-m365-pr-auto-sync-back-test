@@ -112,6 +112,6 @@ Android and iOS devices are enrolled to MDM by using the Company Portal app. The
 
 **Additional reading.** For more information on configuring domains for MDM and enrolling Windows 10 devices to MDM, see the following resources:
 
- -  [Set up enrollment for Windows devices](/intune/windows-enroll)
+ -  [Set up enrollment for Windows devices](https://docs.microsoft.com/intune/windows-enroll?azure-portal=true)
  -  [Set up Mobile Device Management (MDM) in Office 365](https://support.office.com/article/set-up-mobile-device-management-mdm-in-office-365-dd892318-bc44-4eb1-af00-9db5430be3cd?azure-portal=true)
  -  [Which CNAMEs to use for Autodiscovery during MDM Enrollment](https://blogs.technet.microsoft.com/intunesupport/2017/03/04/which-cnames-to-use-for-auto-discovery-during-mdm-enrollment/?azure-portal=true)

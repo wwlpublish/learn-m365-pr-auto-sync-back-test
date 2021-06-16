@@ -22,7 +22,7 @@ Microsoft Intune enables organizations to create and deploy different types of d
 
 In a device configuration profile, you can specify how a specific device setting should be configured. For example, you can configure password settings, lock some of the device features, and limit access to cloud storage and the app store.
 
-:::image type="content" source="../media/Intune-device-restrictions-window-f1811035.jpg" alt-text="screenshot of the Device Restrictions window in Microsoft Intune":::
+:::image type="content" source="../media/intune-device-restrictions-window-f1811035.jpg" alt-text="screenshot of the Device Restrictions window in Microsoft Intune":::
 
 
 ### Device compliance policy

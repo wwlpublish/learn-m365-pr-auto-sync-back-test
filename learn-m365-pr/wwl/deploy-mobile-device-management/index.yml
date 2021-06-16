@@ -33,10 +33,10 @@ products:
 - office-365
 units:
 - learn.wwl.deploy-mobile-device-management.introduction
-- learn.wwl.deploy-mobile-device-management.activate-mdm-services-microsoft-365
-- learn.wwl.deploy-mobile-device-management.configure-domains-for-mdm
-- learn.wwl.deploy-mobile-device-management.obtain-apns-certificate-for-ios-devices
-- learn.wwl.deploy-mobile-device-management.manage-security-policies-for-mdm-managed-devices
+- learn.wwl.deploy-mobile-device-management.activate-mobile-device-management-services-microsoft-365
+- learn.wwl.deploy-mobile-device-management.configure-domains-for-mobile-device-management
+- learn.wwl.deploy-mobile-device-management.obtain-apple-push-notification-service-certificate
+- learn.wwl.deploy-mobile-device-management.manage-security-policies-for-mobile-device-managed-devices
 - learn.wwl.deploy-mobile-device-management.define-corporate-device-enrollment-policy
 - learn.wwl.deploy-mobile-device-management.knowledge-check
 - learn.wwl.deploy-mobile-device-management.summary

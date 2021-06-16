@@ -6,7 +6,7 @@ This module examined the preparation tasks that organizations must complete befo
  -  adding DNS records for clients to use Autodiscover when enrolling the devices.
  -  obtaining an Apple Push Notification Service (APNS) certificate, which is required for enrolling and managing iOS devices.
 
-You learned that organizations can enroll all supported device types to MDM, which includes Android, iOS, and Windows devices. Companies can also limit enrollment by configuring enrollment restrictions. They can also set up other enrollment policies, such as requiring employees to use Azure Multi-Factor Authentication (MFA) when enrolling devices. MFA requires another form of authentication, such as a phone call, text message, or app notification when a user wants to enroll the device.
+You learned that organizations can enroll all supported device types to MDM, which includes Android, iOS, and Windows devices. Companies can also limit enrollment by configuring enrollment restrictions. They can also set up other enrollment policies, such as requiring employees to use Multi-Factor Authentication (MFA) when enrolling devices. MFA requires another form of authentication, such as a phone call, text message, or app notification when a user wants to enroll the device.
 
 After MDM is activated and configured, users can start enrolling their devices. This module examined how Windows 10 devices can be enrolled by using either the Settings app, enrollment package, or Company Portal app that can be installed from the Microsoft store. Android and iOS devices can be enrolled by using the Company Portal app that can be installed from Google Play store or from the Apple app store, respectively.
 
