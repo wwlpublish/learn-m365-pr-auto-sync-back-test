@@ -12,7 +12,7 @@ Update Compliance provides the following benefits:
  -  The ability to track protection and threat status for Windows Defender Antivirus-enabled devices.
  -  An overview of Windows Update for Business (WUfB) deferral configurations.
 
-:::image type="content" source="../media/update-compliance-window-e7190b8a.jpg" alt-text="screenshot of update compliance page":::
+:::image type="content" source="../media/update-compliance-window-e7190b8a.jpg" alt-text="screenshot of update compliance page" lightbox="../media/update-compliance-window-e7190b8a.jpg":::
 
 
 Update Compliance’s overview query provides a summarization of all the data that Update Compliance focuses on. It functions as a hub from which you can navigate to different reports. The title of the query shows the total number of devices that are reporting to Update Compliance, followed by their distribution based on whether they're up to date:

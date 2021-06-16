@@ -15,7 +15,7 @@ Desktop Analytics includes three different views, called solutions, that can be 
 
 If an organization wants to start using Desktop Analytics, it must first create a free Azure Log Analytics workspace. This workspace provides the organization with a Commercial ID value, which it should deploy to all Windows devices that it wants to begin monitoring in Desktop Analytics. A Commercial ID value can be deployed through various methods, including a script, Group Policy, MDM, or a management tool such as Configuration Manager. Desktop Analytics doesn't require any type of client.
 
-:::image type="content" source="../media/desktop-analytics-solutions-8665a115.jpg" alt-text="graphic displaying the three solutions in Windows Analytics that displays the key components of each":::
+:::image type="content" source="../media/desktop-analytics-solutions-8665a115.jpg" alt-text="graphic displaying the three solutions in Windows Analytics that displays the key components of each" lightbox="../media/desktop-analytics-solutions-8665a115.jpg":::
 
 
 Desktop Analytics has following requirements:
