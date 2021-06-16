@@ -29,7 +29,7 @@ It's common for people to have multiple devices that use different platforms. Fo
 
 With Intune, you can manage multiple devices per person and the different platforms that run on each device, including iOS/iPadOS, macOS, Android, and Windows. Intune separates policies and settings by device platform. So it's easy to manage and view the devices of a specific platform.
 
-**Additional reading.** For more information, see [Microsoft Intune is an MDM and MAM provider for your devices](/mem/intune/fundamentals/what-is-intune).
+**Additional reading.** For more information, see [Microsoft Intune is an MDM and MAM provider for your devices](https://docs.microsoft.com/mem/intune/fundamentals/what-is-intune?azure-portal=true).
 
 ### MDM within Microsoft 365 plans
 
@@ -644,43 +644,43 @@ Send commands to devices over the internet. For example, remove Office data from
 
  -  Autopilot reset (Windows only)
     
- -  [BitLocker key rotation](/mem/intune/protect/encrypt-devices#rotate-bitlocker-recovery-keys?azure-portal=true) (Windows only)
+ -  [BitLocker key rotation](https://docs.microsoft.com/mem/intune/protect/encrypt-devices#rotate-bitlocker-recovery-keys?azure-portal=true) (Windows only)
     
- -  [Delete](/mem/intune/remote-actions/devices-wipe#delete-devices-from-the-intune-portal?azure-portal=true)
+ -  [Delete](https://docs.microsoft.com/mem/intune/remote-actions/devices-wipe#delete-devices-from-the-intune-portal?azure-portal=true)
     
- -  [Disable activation loc](/mem/intune/remote-actions/device-activation-lock-disable) (iOS only)
+ -  [Disable activation loc](https://docs.microsoft.com/mem/intune/remote-actions/device-activation-lock-disable?azure-portal=true) (iOS only)
     
- -  [Fresh start](/mem/intune/remote-actions/device-fresh-start) (Windows only)
+ -  [Fresh start](https://docs.microsoft.com/mem/intune/remote-actions/device-fresh-start?azure-portal=true) (Windows only)
     
- -  [Full scan](/mem/intune/configuration/device-restrictions-windows-10#microsoft-defender-antivirus?azure-portal=true) (Windows 10 only)
+ -  [Full scan](https://docs.microsoft.com/mem/intune/configuration/device-restrictions-windows-10#microsoft-defender-antivirus?azure-portal=true) (Windows 10 only)
     
- -  [Locate device](/mem/intune/remote-actions/device-locate) (iOS only)
+ -  [Locate device](https://docs.microsoft.com/mem/intune/remote-actions/device-locate?azure-portal=true) (iOS only)
     
- -  [Lost mode](/mem/intune/remote-actions/device-lost-mode) (iOS only)
+ -  [Lost mode](https://docs.microsoft.com/mem/intune/remote-actions/device-lost-mode?azure-portal=true) (iOS only)
     
- -  [Quick scan](/mem/intune/configuration/device-restrictions-windows-10#microsoft-defender-antivirus?azure-portal=true) (Windows 10 only)
+ -  [Quick scan](https://docs.microsoft.com/mem/intune/configuration/device-restrictions-windows-10#microsoft-defender-antivirus?azure-portal=true) (Windows 10 only)
     
- -  [Remote control for Android](/mem/intune/remote-actions/teamviewer-support)
+ -  [Remote control for Android](https://docs.microsoft.com/mem/intune/remote-actions/teamviewer-support?azure-portal=true)
     
- -  [Remote lock](/mem/intune/remote-actions/device-remote-lock)
+ -  [Remote lock](https://docs.microsoft.com/mem/intune/remote-actions/device-remote-lock?azure-portal=true)
     
- -  [Rename device](/mem/intune/remote-actions/device-rename)
+ -  [Rename device](https://docs.microsoft.com/mem/intune/remote-actions/device-rename?azure-portal=true)
     
- -  [Reset passcode](/mem/intune/remote-actions/device-passcode-reset)
+ -  [Reset passcode](https://docs.microsoft.com/mem/intune/remote-actions/device-passcode-reset?azure-portal=true)
     
- -  [Restart](/mem/intune/remote-actions/device-restart) (Windows only)
+ -  [Restart](https://docs.microsoft.com/mem/intune/remote-actions/device-restart?azure-portal=true) (Windows only)
     
- -  [Retire](/mem/intune/remote-actions/devices-wipe#retire?azure-portal=true)
+ -  [Retire](https://docs.microsoft.com/mem/intune/remote-actions/devices-wipe#retire?azure-portal=true)
     
  -  Update Windows Defender Security Intelligence (Windows only)
     
  -  Windows 10 PIN reset (Windows only)
     
- -  [Wipe](/mem/intune/remote-actions/devices-wipe#wipe?azure-portal=true)
+ -  [Wipe](https://docs.microsoft.com/mem/intune/remote-actions/devices-wipe#wipe?azure-portal=true)
     
- -  [Send custom notifications](/mem/intune/remote-actions/custom-notifications#send-a-custom-notification-to-a-single-device?azure-portal=true) (Android, iOS, iPad OS)
+ -  [Send custom notifications](https://docs.microsoft.com/mem/intune/remote-actions/custom-notifications#send-a-custom-notification-to-a-single-device?azure-portal=true) (Android, iOS, iPad OS)
     
- -  [Synchronize device](/mem/intune/remote-actions/device-sync)
+ -  [Synchronize device](https://docs.microsoft.com/mem/intune/remote-actions/device-sync?azure-portal=true)
     
 
 

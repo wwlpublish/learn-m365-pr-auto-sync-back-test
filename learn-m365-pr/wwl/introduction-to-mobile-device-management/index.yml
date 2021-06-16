@@ -33,9 +33,9 @@ products:
 units:
 - learn.wwl.introduction-to-mobile-device-management.introduction
 - learn.wwl.introduction-to-mobile-device-management.explore
-- learn.wwl.introduction-to-mobile-device-management.explore-mdm-services-microsoft-365
-- learn.wwl.introduction-to-mobile-device-management.examine-mdm-policy-settings-microsoft-365
-- learn.wwl.introduction-to-mobile-device-management.examine-how-email-document-access-are-controlled-mdm-managed-devices
+- learn.wwl.introduction-to-mobile-device-management.explore-mobile-device-management-services-microsoft-365
+- learn.wwl.introduction-to-mobile-device-management.examine-mobile-device-management-policy-settings-microsoft-365
+- learn.wwl.introduction-to-mobile-device-management.examine-how-email-document-access-are-controlled
 - learn.wwl.introduction-to-mobile-device-management.knowledge-check
 - learn.wwl.introduction-to-mobile-device-management.summary
 badge:
