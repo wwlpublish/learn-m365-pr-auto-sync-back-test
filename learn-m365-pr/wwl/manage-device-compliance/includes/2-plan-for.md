@@ -17,7 +17,7 @@ An organization must first satisfy the following prerequisites before it can imp
 
 *  Its devices must be enrolled in Intune to be eligible for compliance management.
 *  It must be licensed for Azure Active Directory (AD) Premium P1 or Azure Active Directory (AD) Premium P2 and Intune. Both are part of Microsoft 365 or Enterprise Mobility + Security, but they can also be obtained separately.
-*  Its devices must run one of the following supported platforms:    - Android    - Android Enterprise    - iOS    - macOS    - Windows Phone 8.1    - Windows 8.1 and later    - Windows 10 
+*  Its devices must run one of the following supported platforms:    - Android    - Android Enterprise    - iOS    - macOS    - Windows Phone 8.1    - Windows 8.1 and later    - Windows 10    
 
 By default, when Intune detects a device that isn't compliant, it immediately marks the device as noncompliant. Organizations can configure actions for noncompliant devices in each compliance policy. These actions provide more flexibility when deciding what to do.
 
@@ -25,7 +25,8 @@ For example, organizations typically block access to company resources from a no
 
 There are two types of noncompliant actions:
 *  **Notify end users through email.** Organizations can customize an email notification before sending it to the end user. The recipients, subject, and message body, including company logo and contact information, can all be customized. Intune includes details about the noncompliant device in the email notification. 
-*  **Mark device noncompliant.** Organizations can grant a grace period for users to update the device to make it compliant. Devices that aren't updated in that grace period are marked as noncompliant. Two options are available here:    - If the grace period is set to zero days, a device that's flagged as noncompliant will be immediately marked as noncompliant.   - If the grace period is set to a specific number of days, the user has that many days to update the device so that it's compliant. If the device is still not compliant after the specified number of days, it will be marked as noncompliant. 
+*  **Mark device noncompliant.** Organizations can grant a grace period for users to update the device to make it compliant. Devices that aren't updated in that grace period are marked as noncompliant. Two options are available here:    - If the grace period is set to zero days, a device that's flagged as noncompliant will be immediately marked as noncompliant.    - If the grace period is set to a specific number of days, the user has that many days to update the device so that it's compliant. If the device is still not compliant after the specified number of days, it will be marked as noncompliant. 
+
 
 
 Device compliance policies can be used in the following manner:
