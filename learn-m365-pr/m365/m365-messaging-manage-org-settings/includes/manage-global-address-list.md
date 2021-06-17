@@ -32,7 +32,7 @@ If you want to selectively include the recipient in some address lists but not o
 
 ### Use the Exchange admin center to hide recipients from address lists
 
-You can't use the Exchange admin center to hide Microsoft 365 groups from address lists.
+You can use the Exchange admin center to hide Microsoft 365 groups from address lists.
 1.	In the Exchange admin center, go to one of the following locations based on the recipient type:
     - **Recipients > Mailboxes**: User mailboxes.
     - **Recipients > Groups**: Distribution groups, mail-enabled security groups, and dynamic distribution groups.
