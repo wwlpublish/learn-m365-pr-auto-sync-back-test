@@ -2,7 +2,7 @@ In **Teams apps** in the Microsoft Teams admin center, you can set policies to m
 
 ## Configure app policies
 
-As an administrator, you can use app setup policies in the Teams admin center to customize the app experience for your users. You choose the apps that you want to pin to the app bar in the Teams clients and the order in which they appear, on web, desktop, and mobile clients. App setup policies let you showcase apps that users in your organization need, including those built by third parties or by developers in your organization. You can also use app setup policies to manage how built-in features appear.
+As an administrator, you can use app setup policies in the Teams admin center to customize the app experience for your users. You choose the apps that you want to pin to the app bar in the Teams clients and the order in which they appear on web, desktop, and mobile clients. App setup policies let you showcase apps that users in your organization need, including those built by third parties or by developers in your organization. You can also use app setup policies to manage how built-in features appear.
 
 Apps are pinned to the app bar. This is the bar on the side of the Teams desktop client and at the bottom of the Teams mobile clients (iOS and Android).
 
