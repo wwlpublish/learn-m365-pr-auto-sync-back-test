@@ -10,13 +10,13 @@ All available Microsoft REST APIs that don't support anonymous requests are secu
 
 ### Secure Azure Functions with Azure AD
 
-A common approach to implementing a REST API is to use Azure Functions. Securing an Azure Function with Azure AD is simple. In the left-hand navigation, select the **Authentication** menu item. 
+A common approach to implementing a REST API is to use Azure Functions. Securing an Azure Function with Azure AD is simple. In the left-hand navigation, select the **Authentication** menu item.
 
 ![Screenshot of Azure Function app configuration page](../media/04-secure-azure-functions-01.png)
 
 The **Authentication** blade supports authentication using different OAuth 2.0 providers, including Microsoft, Facebook, Google, and Twitter.
 
-![Screenshot of Add an identity provider page](../media/04-secure-azure-functions-02.png)
+![Screenshot of Add an the Authentication page](../media/04-secure-azure-functions-02.png)
 
 After selecting **Microsoft**, you'll then either create a new Azure AD app or associate the Azure Function app with an existing Azure AD app.
 

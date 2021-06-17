@@ -230,7 +230,7 @@ gulp package-solution --ship
 In the browser, navigate to your SharePoint Online Tenant App Catalog.
 
 > [!TIP]
-> Creation of the Tenant App Catalog site is one of the steps in the **[Getting Started > Set up Office 365 Tenant](https://docs.microsoft.com/sharepoint/dev/spfx/set-up-your-developer-tenant)** setup documentation.
+> Creation of the Tenant App Catalog site is one of the steps in the **[Getting Started > Set up Office 365 Tenant](/sharepoint/dev/spfx/set-up-your-developer-tenant)** setup documentation.
 
 Select the **Apps for SharePoint** link in the navigation:
 
