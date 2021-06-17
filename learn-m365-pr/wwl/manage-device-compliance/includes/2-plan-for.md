@@ -19,9 +19,10 @@ An organization must first satisfy the following prerequisites before it can imp
 - It must be licensed for Azure Active Directory (AD) Premium P1 or Azure Active Directory (AD) Premium P2 and Intune. Both are part of Microsoft 365 or Enterprise Mobility + Security, but they can also be obtained separately.
 - Its devices must run one of the following supported platforms:   - Android   - Android Enterprise   - iOS   - macOS   - Windows Phone 8.1   - Windows 8.1 and later   - Windows 10
 
+**New**  
 - Its devices must be enrolled in Intune to be eligible for compliance management.
 - It must be licensed for Azure Active Directory (AD) Premium P1 or Azure Active Directory (AD) Premium P2 and Intune. Both are part of Microsoft 365 or Enterprise Mobility + Security, but they can also be obtained separately.
-- Its devices must run one of the following supported platforms:    - Android    - Android Enterprise    - iOS    - macOS    - Windows Phone 8.1    - Windows 8.1 and later    - Windows 10
+- Its devices must run one of the following supported platforms: - Android - Android Enterprise - iOS - macOS - Windows Phone 8.1 - Windows 8.1 and later - Windows 10
 
 By default, when Intune detects a device that isn't compliant, it immediately marks the device as noncompliant. Organizations can configure actions for noncompliant devices in each compliance policy. These actions provide more flexibility when deciding what to do.
 
