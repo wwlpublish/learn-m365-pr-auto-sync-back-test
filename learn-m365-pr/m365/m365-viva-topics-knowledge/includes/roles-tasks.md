@@ -48,4 +48,4 @@ Knowledge managers help to guide discovered topics through various topic lifecyc
 - **Published**: A confirmed topic has been curated; manual edits have been made to improve its quality. 
 - **Rejected**: A topic is rejected by a Knowledge manager and will no longer be visible to viewers. The topic can be in any stage when it is removed (suggested, confirmed, or published). When a published topic is removed, the page with the curated details will need to be deleted manually from the Pages Library of Topic Center. 
 
-On the **Manage Topics** page, each Knowledge manager will only be able to see the topics related to files and pages that they have access to, sorted into **Suggested**, **Confirmed**, **Removed**, and **Published** columns. However, the topic counts show the total counts in the organization regardless of permissions. 
+On the **Manage Topics** page, each Knowledge manager will only be able to see the topics related to files and pages that they have access to, sorted into **Suggested**, **Confirmed**, **Removed**, and **Published** columns. However, the topic counts show the total counts in the organization regardless of permissions.
