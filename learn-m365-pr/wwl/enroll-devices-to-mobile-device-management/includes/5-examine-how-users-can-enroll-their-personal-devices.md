@@ -32,8 +32,8 @@ Organizations can configure automatic enrollment to MDM for Windows 10 devices o
 
 **Additional reading.** For more information, see the following resources:
 
- -  [Enrolling Windows 10 devices by using Group Policy](https://docs.microsoft.com/windows/client-management/mdm/enroll-a-windows-10-device-automatically-using-group-policy?azure-portal=true).
- -  [Integrating Azure AD with MDM](https://docs.microsoft.com/windows/client-management/mdm/azure-ad-and-microsoft-intune-automatic-mdm-enrollment-in-the-new-portal?azure-portal=true).
+ -  [Enrolling Windows 10 devices by using Group Policy](/windows/client-management/mdm/enroll-a-windows-10-device-automatically-using-group-policy).
+ -  [Integrating Azure AD with MDM](/windows/client-management/mdm/azure-ad-and-microsoft-intune-automatic-mdm-enrollment-in-the-new-portal).
 
 ### Manual enrollment of Windows 10 devices
 
@@ -50,6 +50,6 @@ Organizations can enroll Android and iOS devices by using the Company Portal app
 :::image type="content" source="../media/company-portal-sign-in-page-041d875a.jpg" alt-text="screenshot of the company portal sign-in page":::
 
 
-**Additional reading.** For more information, see [Enrolling Android and iOS devices to MDM](https://docs.microsoft.com/intune-user-help/enroll-your-device-in-intune-all?azure-portal=true).
+**Additional reading.** For more information, see [Enrolling Android and iOS devices to MDM](/intune-user-help/enroll-your-device-in-intune-all).
 
 ### 
