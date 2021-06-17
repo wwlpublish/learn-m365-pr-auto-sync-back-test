@@ -1,6 +1,6 @@
 In this section, we will look at some of the aspects of a Contoso Case Study. We will look at some of the questions they had to answer and the decisions that resulted from that analysis. For more information, see **Contoso case study: Teams voice migration overview** in the **Additional resources** section in the Summary.
 
-In this case study, Contoso is a multi-national corporation, which is implementing a Teams voice solution. The goal is to migrate their on-premises users to Teams for unified communication, collaboration, and voice. Contoso migrated their Skype for Business enterprise voice users to Phone System using Microsoft Calling Plan, Phone System Direct Routing, or a combination of both.
+In this case study, Contoso is a multi-national corporation, which is implementing a Teams voice solution. The goal is to migrate their on-premises users to Teams for unified communication, collaboration, and voice. Contoso migrated their Skype for Business enterprise voice users to Phone System using Microsoft Calling Plan, Direct Routing, or a combination of both.
 
 ## Phone System
 
@@ -139,7 +139,7 @@ The ability to dynamically route emergency calls for Direct Routing users varies
 
 ## Security desk notification
 
-Security desk notification is available with both Teams Calling Plans and Phone System Direct Routing.
+Security desk notification is available with both Teams Calling Plans and Direct Routing.
 
 You use a Teams emergency calling policy (TeamsEmergencyCallingPolicy) to configure who should be notified during an emergency call and how they're notified: chat only, conferenced in and muted, or conferenced in and muted but with the ability to unmute. You can also specify an external PSTN number of a user or group to call and join the emergency call.
 An emergency calling policy can be granted to a Teams user account, assigned to a network site, or both. When a Teams client starts or changes a network connection, Teams performs a lookup of the network site where the client is located:

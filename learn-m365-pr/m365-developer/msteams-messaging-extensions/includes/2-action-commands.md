@@ -1,6 +1,6 @@
 A messaging extension consists of a web service you host and your Microsoft Teams app manifest that defines where your web service can be invoked from in the Microsoft Teams client. They take advantage of the Bot Framework's messaging schema and secure communication protocol, so you'll also need to register your web service as a bot in the Bot Framework.
 
-In this unit, you’ll learn what messaging extensions are, what scenarios where they can be used and the different types of messaging extensions available to developers. This unit will focus on one type of messaging extension: the action command. Action commands allow you present your users with a modal popup (called a task module in Teams) to collect or display information, then process their interaction and send information back to Teams.
+In this unit, you’ll learn what messaging extensions are, what scenarios where they can be used and the different types of messaging extensions available to developers. This unit will focus on one type of messaging extension: the action command. Action commands allow you to present your users with a modal popup (called a task module in Teams) to collect or display information, then process their interaction and send information back to Teams.
 
 ## What are messaging extensions?
 
@@ -175,4 +175,4 @@ The method `handleTeamsMessagingExtensionSubmitAction()` is called by the Bot Fr
 
 In this unit, you learned what messaging extensions are, what scenarios where they can be used and the different types of messaging extensions available to developers.
 
-This unit focused on one type of messaging extension: the action command. Action commands allow you present your users with a modal popup (called a task module in Teams) to collect or display information, then process their interaction and send information back to Teams.
+This unit focused on one type of messaging extension: the action command. Action commands allow you to present your users with a modal popup (called a task module in Teams) to collect or display information, then process their interaction and send information back to Teams.
