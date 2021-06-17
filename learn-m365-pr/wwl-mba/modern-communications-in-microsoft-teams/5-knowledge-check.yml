@@ -21,11 +21,11 @@ quiz:
       explanation: "Incorrect. That is not an accurate description of the needs of the modern workforce."
     - content: "The modern workforce is team-focused, and requires tools to facilitate communication with teammates, no matter where they are located."
       isCorrect: true
-      explanation: "That’s Correct! The modern workforce has evolved to be more focused on team contributions than those of an individual. As technology creates remote and global teams, all employees must be able to connect with each other."
+      explanation: "That’s correct! The modern workforce has evolved to be more focused on team contributions than those of an individual. As technology creates remote and global teams, all employees must be able to connect with each other."
     - content: "The modern workforce is increasingly diverse, so employees are compelled to learn at least two more languages to be successful."
       isCorrect: false
       explanation: "Incorrect. While the workforce is becoming more diverse, this is not an accurate description of the needs of the modern workforce."
-    - content: "The modern workforce is individualistic, with siloes built up that negate the need for digital communication."
+    - content: "The modern workforce is individualistic, with silos built up that negate the need for digital communication."
       isCorrect: false
       explanation: "Incorrect. That is not an accurate description of the needs of the modern workforce."
   - content: "What single product offers a complete meeting solution supporting sharing, video and audio conferencing from anywhere, for all types of meetings?"
