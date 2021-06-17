@@ -51,8 +51,8 @@ Common problems are documented in the Teams Troubleshooting section of the Micro
 
 For more information about the topics covered in this unit, see:
 
-- [Office 365 URLs and IP address ranges](https://docs.microsoft.com/microsoft-365/enterprise/urls-and-ip-address-ranges)
-- [Prepare your organization's network for Microsoft Teams](https://docs.microsoft.com/microsoftteams/prepare-network)
-- [Teams troubleshooting](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/teams-welcome)
-- [Troubleshoot connectivity issues with the Microsoft Teams client](https://docs.microsoft.com/microsoftteams/connectivity-issues)
-- [Use log files in troubleshooting Microsoft Teams](https://docs.microsoft.com/microsoftteams/log-files)
+- [Office 365 URLs and IP address ranges](/microsoft-365/enterprise/urls-and-ip-address-ranges)
+- [Prepare your organization's network for Microsoft Teams](/microsoftteams/prepare-network)
+- [Teams troubleshooting](/MicrosoftTeams/troubleshoot/teams-welcome)
+- [Troubleshoot connectivity issues with the Microsoft Teams client](/microsoftteams/connectivity-issues)
+- [Use log files in troubleshooting Microsoft Teams](/microsoftteams/log-files)

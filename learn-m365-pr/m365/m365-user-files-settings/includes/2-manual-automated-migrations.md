@@ -50,6 +50,6 @@ Be sure to click the full-screen option in the video player. When you're done, u
 
 ## Learn more
 
-- [Identify users and mailboxes to be migrated](https://docs.microsoft.com/exchange/mailbox-migration/mailbox-migration?azure-portal=true)
-- [Plan migration of on-prem users and groups](https://docs.microsoft.com/exchange/mailbox-migration/decide-on-a-migration-path?azure-portal=true)
-- [Import PST Files](https://docs.microsoft.com/microsoft-365/compliance/importing-pst-files-to-office-365?azure-portal=true)
+- [Identify users and mailboxes to be migrated](/exchange/mailbox-migration/mailbox-migration?azure-portal=true)
+- [Plan migration of on-prem users and groups](/exchange/mailbox-migration/decide-on-a-migration-path?azure-portal=true)
+- [Import PST Files](/microsoft-365/compliance/importing-pst-files-to-office-365?azure-portal=true)

@@ -37,7 +37,7 @@ Compliance Manager is a feature in the Microsoft 365 Compliance Center. Its purp
 
 Compliance Manager helps simplify compliance and reduce risk by providing:
 
- -  Pre-built assessments for common industry and regional standards and regulations, or custom assessments to meet an organization's unique compliance needs (available assessments depend on [an organization's licensing agreement](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance?azure-portal=true)).
+ -  Pre-built assessments for common industry and regional standards and regulations, or custom assessments to meet an organization's unique compliance needs (available assessments depend on [an organization's licensing agreement](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance)).
  -  Workflow capabilities to help organizations efficiently complete their risk assessments through a single tool.
  -  Detailed step-by-step guidance on suggested improvement actions to help organizations follow the standards and regulations that are most relevant for them. For actions that are managed by Microsoft, implementation details and audit results will be displayed.
  -  A risk-based compliance score to help organizations understand their compliance posture by measuring their progress in completing improvement actions.

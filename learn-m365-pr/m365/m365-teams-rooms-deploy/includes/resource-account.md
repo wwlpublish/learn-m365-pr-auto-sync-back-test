@@ -4,7 +4,7 @@ When people schedule a room, it is this resource mailbox that they invite to the
 
 Try to establish a naming convention, particularly when you move to Azure Active Directory (Azure AD) and the concept of dynamic groups. A resource account can automatically be added to Azure AD groups based on the naming convention. It's recommended that you assign the Teams Rooms Standard or Teams Rooms Premium license to all Teams Rooms resource accounts. The Teams Rooms Standard license is a cost-effective license that includes all the core components needed for Teams Rooms.
 
-The Teams Rooms Premium license adds additional features such as a Microsoft-managed service that will help with everything from planning your rooms to monitoring and troubleshooting them. This license also includes everything in the Standard license. You can find more information about licensing on the [Teams Meeting Room Licensing Update](https://docs.microsoft.com/MicrosoftTeams/rooms/rooms-licensing?azure-portal=true) page.
+The Teams Rooms Premium license adds additional features such as a Microsoft-managed service that will help with everything from planning your rooms to monitoring and troubleshooting them. This license also includes everything in the Standard license. You can find more information about licensing on the [Teams Meeting Room Licensing Update](/MicrosoftTeams/rooms/rooms-licensing?azure-portal=true) page.
 
 ![Standard versus Premium licenses](../media/standard-premium-license.png)
 
@@ -40,5 +40,5 @@ The Teams Rooms Premium license adds additional features such as a Microsoft-man
 
 ## Learn more
 
-- [Configure accounts for Microsoft Teams Rooms](https://docs.microsoft.com/MicrosoftTeams/rooms/rooms-configure-accounts?azure-portal=true)
-- [Teams Room licensing update](https://docs.microsoft.com/MicrosoftTeams/rooms/rooms-licensing?azure-portal=true)
+- [Configure accounts for Microsoft Teams Rooms](/MicrosoftTeams/rooms/rooms-configure-accounts?azure-portal=true)
+- [Teams Room licensing update](/MicrosoftTeams/rooms/rooms-licensing?azure-portal=true)

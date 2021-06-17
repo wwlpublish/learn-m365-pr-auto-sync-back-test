@@ -10,6 +10,6 @@ Now that you've completed this module, you should be able to:
 
 ## Additional resources
 
-- [Admin training for Microsoft Teams](https://docs.microsoft.com/microsoftteams/itadmin-readiness#technical-training)
-- [View Microsoft Teams utilization in Power BI using CQD data]( https://docs.microsoft.com/microsoftteams/cqd-teams-utilization-report)
-- [Use Power BI to analyze CQD data for Microsoft Teams]( https://docs.microsoft.com/microsoftteams/cqd-power-bi-query-templates)
+- [Admin training for Microsoft Teams](/microsoftteams/itadmin-readiness#technical-training)
+- [View Microsoft Teams utilization in Power BI using CQD data]( /microsoftteams/cqd-teams-utilization-report)
+- [Use Power BI to analyze CQD data for Microsoft Teams]( /microsoftteams/cqd-power-bi-query-templates)

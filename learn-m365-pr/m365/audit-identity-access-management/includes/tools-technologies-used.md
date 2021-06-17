@@ -38,4 +38,4 @@ Microsoft 365 requires at least two factors for MFA. Using MFA increases the sec
 
 ## Learn more
 
-- [Multi-factor authentication for Microsoft 365](https://docs.microsoft.com/microsoft-365/admin/security-and-compliance/multi-factor-authentication-microsoft-365?azure-portal=true)
+- [Multi-factor authentication for Microsoft 365](/microsoft-365/admin/security-and-compliance/multi-factor-authentication-microsoft-365?azure-portal=true)

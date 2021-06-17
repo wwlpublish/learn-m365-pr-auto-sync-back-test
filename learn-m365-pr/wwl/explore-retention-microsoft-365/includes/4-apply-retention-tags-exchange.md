@@ -185,7 +185,7 @@ Given the requirements in this example, you should create the following tags tha
 :::image type="content" source="../media/retention-policy-applied-to-mailbox-82324434.png" alt-text="graphic showing how retention policy is applied to a mailbox":::
 
 
-**Additional reading.** For more information, see the following article on [Retention tags and retention policies](https://docs.microsoft.com/Exchange/policy-and-compliance/mrm/retention-tags-and-retention-policies?azure-portal=true).
+**Additional reading.** For more information, see the following article on [Retention tags and retention policies](/Exchange/policy-and-compliance/mrm/retention-tags-and-retention-policies).
 
 ## Knowledge check
 

@@ -29,5 +29,5 @@ File and folder owners will be emailed when:
 If external sharing is enabled in your organization, these notifications are enabled by default.
 
 ## Learn more
-- [Restrict sharing of SharePoint and OneDrive content by domain](https://docs.microsoft.com/sharepoint/restricted-domains-sharing?azure-portal=true)
-- [Allow/Block guest access to Microsoft 365 groups](https://docs.microsoft.com/exchange/recipients-in-exchange-online/manage-group-access-to-office-365-groups?azure-portal=true)
+- [Restrict sharing of SharePoint and OneDrive content by domain](/sharepoint/restricted-domains-sharing?azure-portal=true)
+- [Allow/Block guest access to Microsoft 365 groups](/exchange/recipients-in-exchange-online/manage-group-access-to-office-365-groups?azure-portal=true)

@@ -10,7 +10,7 @@ Now that you've finished this module, you've learned about:
 
 ## Resources  
 
-- [Microsoft Viva Topics buy now or free trial](/microsoft-viva/topics)
+- [Microsoft Viva Topics buy now or free trial](https://www.microsoft.com/microsoft-viva/topics)
 - [Graph content connectors setup overview](/microsoftsearch/configure-connector)
 - [Modern SharePoint guidance](/sharepoint/dev/transform/modernize-guidance)  
 - [Microsoft content for all Viva Topics users](/microsoft-365/knowledge/)

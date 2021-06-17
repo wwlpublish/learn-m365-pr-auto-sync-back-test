@@ -30,5 +30,5 @@ You don't want a new DLP policy to unintentionally block access to thousands of 
 
 
 ## Learn more
-- [Overview of data loss prevention](https://docs.microsoft.com/microsoft-365/compliance/data-loss-prevention-policies?azure-portal=true)
-- [Microsoft 365 licensing guidance for security & compliance](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance)
+- [Overview of data loss prevention](/microsoft-365/compliance/data-loss-prevention-policies?azure-portal=true)
+- [Microsoft 365 licensing guidance for security & compliance](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance)

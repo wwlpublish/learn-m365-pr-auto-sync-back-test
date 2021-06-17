@@ -18,13 +18,13 @@ An assessment is an evaluation of a template that starts the scoring process for
 
 By default, Compliance Score provides an organization with an assessment based on the Microsoft 365 data protection baseline. This recommendation is used for reducing an organization's data protection and compliance risks.
 
-**Additional reading.** For more information on how the Compliance Score is calculated, see [Compliance score calculation](https://docs.microsoft.com/microsoft-365/compliance/compliance-score-calculation?azure-portal=true).
+**Additional reading.** For more information on how the Compliance Score is calculated, see [Compliance score calculation](/microsoft-365/compliance/compliance-score-calculation).
 
 ### **Templates**
 
 Compliance Score provides pre-configured templates for assessments. Compliance Score also allows organizations to create templates for their own assessments to suit their needs. For example, you can create a template for your business process control, or a template for a regional data protection or compliance standard that isn’t covered by one of the pre-configured templates. By creating your own templates, you can create custom assessments to ensure that Compliance Score tracks not only Microsoft cloud assessments, but also any other risk assessments in scope for your organization.
 
-**Additional reading.** For more information on creating templates, see [Microsoft Compliance Manager](https://docs.microsoft.com/microsoft-365/compliance/compliance-manager?azure-portal=true).
+**Additional reading.** For more information on creating templates, see [Microsoft Compliance Manager](/microsoft-365/compliance/compliance-manager).
 
 ### **Groups**
 
@@ -32,7 +32,7 @@ Groups allow you to organize assessments in a way that is logical to you. For ex
 
 When two different assessments in the same group share customer-managed actions, the completion of implementation details, testing, and status for the action in one assessment automatically synchronizes to the same action in any other assessment in the group. This design unifies the assigned improvement actions across the group and reduces duplicating work.
 
-**Additional reading.** For more information on setting up Compliance Score, see [Microsoft Compliance Score setup](https://docs.microsoft.com/microsoft-365/compliance/compliance-score-setup?azure-portal=true).
+**Additional reading.** For more information on setting up Compliance Score, see [Microsoft Compliance Score setup](/microsoft-365/compliance/compliance-score-setup).
 
 ## Knowledge check
 

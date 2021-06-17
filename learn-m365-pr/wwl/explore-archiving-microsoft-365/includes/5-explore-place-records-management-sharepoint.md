@@ -31,4 +31,4 @@ When weighing the pros and cons of these two methods of records management, ask 
  -  **Will the project members need frequent access to the documents after the documents have become records?** If you use an in-place approach, project members can access documents in the same manner. In this case, it won't matter whether they're active documents or records.
  -  **Are records managers in your organization responsible for only records, or are they responsible for all information, including active documents and records?** If records managers are responsible only for official records, having a separate Records Center site might be easier for them.
 
-**Additional reading.** For more information, see [Use a SharePoint Server records archive or manage records in place](https://docs.microsoft.com/SharePoint/governance/use-a-records-archive-or-manage-records-in-place?azure-portal=true).
+**Additional reading.** For more information, see [Use a SharePoint Server records archive or manage records in place](/SharePoint/governance/use-a-records-archive-or-manage-records-in-place).

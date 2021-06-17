@@ -32,4 +32,4 @@ At Microsoft, our operations teams are integrated with development teams using t
 ## Learn more
 
 - [What are Microsoft SDL practices?](https://www.microsoft.com/securityengineering/sdl/practices?azure-portal=true)
-- [DevOps at Microsoft](https://docs.microsoft.com/azure/devops/learn/devops-at-microsoft/?azure-portal=true)
+- [DevOps at Microsoft](/azure/devops/learn/devops-at-microsoft/?azure-portal=true)
