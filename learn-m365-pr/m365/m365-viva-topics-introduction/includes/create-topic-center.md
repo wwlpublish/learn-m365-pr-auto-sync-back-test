@@ -9,7 +9,7 @@ After you sign up for & set up a Viva Topics trial in this learning path, you ha
 1. Select Next.
 1. On the Review and finish page, you can look at your selected setting and choose to make changes. If you are satisfied with your selections, select Activate.
 
-![IMAGE](../media/create-topic-center.png)
+![Screenshot that shows the settings you're making in the Topic center.](../media/create-topic-center.png)
 
 The Viva Topics activated page will display, confirming that the system will now start analyzing your selected sites for topics and creating the topic center site. Select Done.
 
@@ -44,4 +44,4 @@ Once you have configured topic experiences, you must assign licenses for the use
 1. Under Apps, make sure Graph Connectors Search with Index (Viva Topics)* and Viva Topics are both selected.
 1. Click Save changes.
 
-![IMAGE](../media/viva-topics-licenses.png)
+![Screenshot shows confirmation that you've saved your changes to Viva Topics licenses.](../media/viva-topics-licenses.png)
