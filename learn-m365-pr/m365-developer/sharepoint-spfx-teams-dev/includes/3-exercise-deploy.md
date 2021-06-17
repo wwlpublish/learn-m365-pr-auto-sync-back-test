@@ -46,7 +46,7 @@ Add another option to enable this web part to be used as a tab in a Microsoft Te
 Notice the project contains a folder **teams** that contains two images. These are used in Microsoft Teams to display the custom tab.
 
 > [!NOTE]
-> You may notice there is no **manifest.json** file present. The manifest file can be generated automatically by SharePoint from the **App Catalog** site or you can create it manually. For more information on manual creation of the manifest file, see the documentation: [Deployment options for SharePoint Framework solutions for Microsoft Teams](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/deployment-spfx-teams-solutions).
+> You may notice there is no **manifest.json** file present. The manifest file can be generated automatically by SharePoint from the **App Catalog** site or you can create it manually. For more information on manual creation of the manifest file, see the documentation: [Deployment options for SharePoint Framework solutions for Microsoft Teams](/sharepoint/dev/spfx/deployment-spfx-teams-solutions).
 >
 > In this exercise you will manually create the Microsoft Teams manifest file so that you may get familliar with its contents.
 

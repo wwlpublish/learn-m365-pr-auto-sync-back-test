@@ -102,7 +102,7 @@ After uploading and deploying the SharePoint package to the SharePoint App Catal
 
 ![Screenshot of the App Catalog with Sync to Teams button](../media/03-sync-to-teams.png)
 
-When you select the **Sync to Teams** button, SharePoint will look for a custom Teams app package named **TeamsSPFxApp.zip** in the **./teams** folder of your project. If SharePoint doesn't find this file, then it will dynamically create the Teams app manifest and package. SharePoint will then deploy the Teams app package (custom or generated) to the tenant's Teams app store. For more information, see the documentation: [Deployment options for SharePoint Framework solutions for Microsoft Teams](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/deployment-spfx-teams-solutions).
+When you select the **Sync to Teams** button, SharePoint will look for a custom Teams app package named **TeamsSPFxApp.zip** in the **./teams** folder of your project. If SharePoint doesn't find this file, then it will dynamically create the Teams app manifest and package. SharePoint will then deploy the Teams app package (custom or generated) to the tenant's Teams app store. For more information, see the documentation: [Deployment options for SharePoint Framework solutions for Microsoft Teams](/sharepoint/dev/spfx/deployment-spfx-teams-solutions).
 
 The following code contains the default template for the **manifest.json** file that you can use as a template if you create your own manifest:
 
