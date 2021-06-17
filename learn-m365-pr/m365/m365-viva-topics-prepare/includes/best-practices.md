@@ -82,6 +82,6 @@ Viva Topics uses Graph content connectors in the Microsoft and partner ecosystem
 
 View the list of resources at the end of this module for information on how to configure Graph content connectors*.  
 
-## Step 7: Consider a pilot of topic management or content processing features   
+## Step 7: Consider a pilot of topic management or content processing features
 
 Before rolling out Viva Topics to your entire organization, consider testing its topic management or content processing features with a pilot group of users. Set clear goals, decide on a pilot period length, choose your champions, and develop an onboarding and communications plan.

@@ -10,7 +10,7 @@ You can also apply restrictions on the scope and availability of topic informati
 
 Setting up Topics does not modify any existing access controls on content in your organization. Users will only see what they already have access to. 
 
-The content inventory and user access across current content need to be correctly controlled and secured. If the content on SharePoint and permissions are set to a broader group of people, classified information could be accidentally shared when it should be confidential.   
+The content inventory and user access across current content need to be correctly controlled and secured. If the content on SharePoint and permissions are set to a broader group of people, classified information could be accidentally shared when it should be confidential.
 
 Viva Topics uses existing content security features in Microsoft 365, along with admin controls to control what AI-generated content is shown to users. It is the combination of Microsoft 365 security settings (permissions to sites, files, and folders) and Topics admin settings that determine what any user can see.  
 

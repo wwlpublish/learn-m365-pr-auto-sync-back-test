@@ -29,4 +29,4 @@ Before you create a modern page, you should activate the Site Pages feature on y
    2. In site pages library, select **Files**, and then select **New Document**. 
    3. Select **Site page**. 
    4. Select the new page to navigate to the modern site page. 
-   5. Provide a name for the page, select **Save**, and then close the page. 
+   5. Provide a name for the page, select **Save**, and then close the page.
