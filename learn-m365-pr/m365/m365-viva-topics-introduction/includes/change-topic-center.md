@@ -8,7 +8,7 @@ After you have set up and configured the Topic center, you can change the name i
 1. On the Services tab, click Topic experiences.
 1. Select the Topic center tab. See the following sections for information about each setting.
 
-![IMAGE](../media/topic-experiences.png)
+![Screenshot of the Topic center.](../media/topic-experiences.png)
 
 Update your topic center name
 
@@ -18,4 +18,4 @@ Update your topic center name
 1. On the Edit topic center name page, in the Topic center name box, type the new name for your topic center.
 1. Select Save
 
- ![IMAGE](../media/edit-topic-name.png)
+ ![Screenshot showing the confirmation scree.](../media/edit-topic-name.png)
