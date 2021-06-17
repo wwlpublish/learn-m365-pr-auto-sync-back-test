@@ -19,4 +19,4 @@ By the end of this module, you'll understand:
 - Viva Topics roles in your organization  
 - Viva Topics scenarios in your organization  
 - Viva Topics IT skills planning  
-- Skills planning for all new users  
+- Skills planning for all new users

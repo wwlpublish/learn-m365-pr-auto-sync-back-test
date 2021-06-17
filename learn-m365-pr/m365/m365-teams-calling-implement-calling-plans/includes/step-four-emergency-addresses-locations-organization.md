@@ -18,7 +18,7 @@ Microsoft recommends that you create emergency addresses for Calling Plan by usi
 > To assign an emergency location to a network identifier for dynamic emergency calling, the emergency address must contain an appropriate geo code.
 
 > [!NOTE]
-> There are some differences in how you manage emergency calling depending on whether you are using Phone System Calling Plans or Phone System Direct Routing for your PSTN connectivity. These considerations are described throughout this section.
+> There are some differences in how you manage emergency calling depending on whether you are using Phone System Calling Plans or Direct Routing for your PSTN connectivity. These considerations are described throughout this section.
 
 ### Emergency call enablement for Calling Plans
 
@@ -77,7 +77,7 @@ Teams clients for Direct Routing users can acquire a dynamic emergency address, 
 
 ### Plan and configure dynamic emergency calling
 
-Dynamic emergency calling for Microsoft Calling Plans and Phone System Direct Routing provides the capability to configure and route emergency calls and notify security personnel based on the current location of the Teams client.
+Dynamic emergency calling for Microsoft Calling Plans and Direct Routing provides the capability to configure and route emergency calls and notify security personnel based on the current location of the Teams client.
 
 Based on the network topology that the tenant administrator defines, the Teams client provides network connectivity information in a request to the Location Information Service (LIS). If there's a match, the LIS returns a location to the client. This location data is transmitted back to the client.
 The Teams client includes location data as part of an emergency call. This data is then used by the emergency service provider to determine the appropriate Public Safety Answering Point (PSAP) and to route the call to that PSAP, which allows the PSAP dispatcher to obtain the caller's location.
@@ -270,7 +270,7 @@ Upon a callback to the emergency number, the ELIN application will do the revers
 
 ## Security desk notification
 
-Security desk notification is available with both Microsoft Calling Plans and Phone System Direct Routing.
+Security desk notification is available with both Microsoft Calling Plans and Direct Routing.
 You use a Teams emergency calling policy (TeamsEmergencyCallingPolicy) to configure who should be notified during an emergency call and how they are notified: chat only, conferenced in and muted, or conferenced in and muted but with the ability to unmute. You can also specify an external PSTN number of a user or group to call and join the emergency call.
 
 An emergency calling policy can be granted to a Teams user account, assigned to a network site, or both. When a Teams client starts or changes a network connection, Teams performs a lookup of the network site where the client is located:
