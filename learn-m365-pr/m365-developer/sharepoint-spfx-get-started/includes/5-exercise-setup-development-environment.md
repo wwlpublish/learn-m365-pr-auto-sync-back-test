@@ -66,7 +66,7 @@ To install a previous version of Node.js, you'll need to navigate further into t
 
 Select **Downloads** from the top menu navigation then scroll to the bottom of the page and select **Previous Releases**.
 
-![Screenshot of the Downloads page](../media/05-install-node-02.png)
+![Screenshot of the additional platforms download page](../media/05-install-node-02.png)
 
 In the Previous Releases page, select the version of Node.js you wish to install.
 
@@ -103,7 +103,7 @@ npm install --global gulp
 ```
 
 > [!IMPORTANT]
-> If you're using Node.js v12.x or higher, you must use Gulp v4.x. If you're using a version of Node.js lower than v12.x, you must use Gulp v3.x. For more information, see: [SharePoint Framework v1.12.1 release notes | Gulp versions & Node.js v12+](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/release-1.12.1#gulp-versions--nodejs-v12).
+> If you're using Node.js v12.x or higher, you must use Gulp v4.x. If you're using a version of Node.js lower than v12.x, you must use Gulp v3.x. For more information, see: [SharePoint Framework v1.12.1 release notes | Gulp versions & Node.js v12+](/sharepoint/dev/spfx/release-1.12.1#gulp-versions--nodejs-v12).
 
 ### Install the SharePoint Framework Yeoman generator
 
