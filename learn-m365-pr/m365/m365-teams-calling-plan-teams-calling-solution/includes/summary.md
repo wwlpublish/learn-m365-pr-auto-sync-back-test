@@ -1,4 +1,4 @@
-Microsoft Teams Phone System can be configured as a cloud-only system using Calling Plans when you do not have requirements for retaining an existing PSTN and you want a system that doesn't need you to purchase or maintain extra equipment. For situations where you do need to make use of an existing PSTN or continue to use a third-party PBX you can configure Phone System with Direct Routing.
+Microsoft Teams Phone System can be configured as a cloud-only system using Teams Calling Plans when you do not have requirements for retaining an existing PSTN and you want a system that doesn't need you to purchase or maintain extra equipment. For situations where you do need to make use of an existing PSTN or continue to use a third-party PBX you can configure Phone System with Direct Routing.
 
 Now that you've completed this module, you should be able to:
 

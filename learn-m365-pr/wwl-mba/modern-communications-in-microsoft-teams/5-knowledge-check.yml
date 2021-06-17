@@ -30,9 +30,9 @@ quiz:
       explanation: "Incorrect. That is not an accurate description of the needs of the modern workforce."
   - content: "What single product offers a complete meeting solution supporting sharing, video and audio conferencing from anywhere, for all types of meetings?"
     choices:
-    - content: "Phone System with Calling Plans."
+    - content: "Phone System with Teams Calling Plans."
       isCorrect: false
-      explanation: "Incorrect. Phone System with Calling Plans can extend the Teams meeting experience but is not a meeting solution in and of itself."
+      explanation: "Incorrect. Phone System with Teams Calling Plans can extend the Teams meeting experience but is not a meeting solution in and of itself."
     - content: "Yammer."
       isCorrect: false
       explanation: "Incorrect. Yammer is a useful tool for sharing information across an organization, but it is not a meeting solution."

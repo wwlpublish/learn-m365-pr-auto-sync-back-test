@@ -16,12 +16,12 @@ For the several locations around the world that Contoso has, they started the de
 
 Based on this analysis, Contoso has decided to:
 
-- Move the users that are located in a region where PSTN calling plans are available to Phone System with Calling Plans.
+- Move the users that are located in a region where PSTN calling plans are available to Phone System with Teams Calling Plans.
 - Move the users that are not located in a region where PSTN calling plans is available, users located in a site where the ROI on the SBCs has yet to be met, and users that resided in a country that has telephony regulations to Phone System with Direct Routing.
 
-The following diagram shows how this deployment was migrated to both Microsoft Calling Plans and Direct Routing:
+The following diagram shows how this deployment was migrated to both Teams Calling Plans and Direct Routing:
 
-:::image type="content" source="../media/3-contoso-phone-system-calling-plans.png" alt-text="Contoso Phone System with Calling Plans":::
+:::image type="content" source="../media/3-contoso-phone-system-calling-plans.png" alt-text="Contoso Phone System with Teams Calling Plans":::
 
 :::image type="content" source="../media/3-contoso-direct-routing.png" alt-text="Contoso Phone System with Direct Routing":::
 
@@ -60,7 +60,7 @@ For Direct Routing, additional configuration is required for routing emergency c
 Contoso has offices in the United States and outside of the United States:
 
 - In the United States, Contoso Calling Plan users can use dynamic locations for routing emergency calls.
-- Outside of the United States, Contoso has some sites that use Calling Plans and some sites that are connected to Phone System through Direct Routing.
+- Outside of the United States, Contoso has some sites that use Teams Calling Plans and some sites that are connected to Phone System through Direct Routing.
 
 As such, three possible Emergency calling plans will be used:
 
@@ -70,7 +70,7 @@ As such, three possible Emergency calling plans will be used:
 
 ### Calling Plan user in the United States
 
-In the United States, the phone number needs to be associated with the caller’s emergency location. Based on this requirement, Contoso has decided to associate the location with the telephone number. Dynamic emergency calling for Microsoft Calling Plans provides the capability to configure and route emergency calls based on the current location of the Teams client. The ability to do automatic routing to the appropriate Public Safety Answering Point (PSAP) or to notify security desk personnel varies depending on the country of usage of the Teams user.
+In the United States, the phone number needs to be associated with the caller’s emergency location. Based on this requirement, Contoso has decided to associate the location with the telephone number. Dynamic emergency calling for Teams Calling Plans provides the capability to configure and route emergency calls based on the current location of the Teams client. The ability to do automatic routing to the appropriate Public Safety Answering Point (PSAP) or to notify security desk personnel varies depending on the country of usage of the Teams user.
 
 For Calling Plan users, dynamic location for routing emergency calls is only supported in the United States as follows:
 
@@ -107,7 +107,7 @@ When a Teams Calling Plan user dials an emergency number, how the call is routed
 
 Here are some reasons you would consider selecting Direct Routing:
 
-- If Calling Plans aren't available in your country or region, then your only option is Direct Routing.
+- If Teams Calling Plans isn't available in your country or region, then your only option is Direct Routing.
 - You would use Direct Routing if you retain your PSTN carrier or you make use of third-party PBXs or other equipment such as pager or analog equipment.
 - With Direct Routing, you can configure an on-premises PSTN connectivity with Microsoft Teams client. Direct Routing is only supported with Microsoft Teams.
 
@@ -139,7 +139,7 @@ The ability to dynamically route emergency calls for Direct Routing users varies
 
 ## Security desk notification
 
-Security desk notification is available with both Microsoft Calling Plans and Phone System Direct Routing.
+Security desk notification is available with both Teams Calling Plans and Phone System Direct Routing.
 
 You use a Teams emergency calling policy (TeamsEmergencyCallingPolicy) to configure who should be notified during an emergency call and how they're notified: chat only, conferenced in and muted, or conferenced in and muted but with the ability to unmute. You can also specify an external PSTN number of a user or group to call and join the emergency call.
 An emergency calling policy can be granted to a Teams user account, assigned to a network site, or both. When a Teams client starts or changes a network connection, Teams performs a lookup of the network site where the client is located:
