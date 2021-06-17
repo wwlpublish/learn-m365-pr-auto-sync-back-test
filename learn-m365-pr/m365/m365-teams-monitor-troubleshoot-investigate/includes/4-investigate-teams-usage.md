@@ -40,7 +40,7 @@ The PSTN blocked users report displays the users in your organization who are bl
 
 The PSTN minute pools report shows an overview of audio conferencing and calling activity in your organization by displaying the number of minutes consumed during the current month. You can see a breakdown of activity including the license used for calls, total minutes available, used minutes, and license usage by location.
 
-The PSTN usage report displays an overview of calling and audio-conferencing activity in your organization. You can view detailed calling activity for Calling Plans if you use Microsoft as your telephony carrier, or for Direct Routing if you use your own telephony carrier.
+The PSTN usage report displays an overview of calling and audio-conferencing activity in your organization. You can view detailed calling activity for Teams Calling Plans if you use Microsoft as your telephony carrier, or for Direct Routing if you use your own telephony carrier.
 
 More reports are being added, including the ones already in preview. See the Teams documentation for details.
 
