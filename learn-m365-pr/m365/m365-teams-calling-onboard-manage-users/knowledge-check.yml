@@ -15,7 +15,7 @@ quiz:
   title: Check your knowledge
   questions:
 
-  - content: "What are your options if your country isn't supported by Microsoft's Calling Plans?"
+  - content: "What are your options if your country isn't supported by Teams Calling Plans?"
     choices:
     - content: "You won't be able to use Calling for Microsoft Teams until your country is supported."
       isCorrect: false

@@ -42,4 +42,4 @@ To create a new topic:
  
 8. Select **Publish** to save your changes. 
 
-After you publish the page, the topic name, alternate name, description, and pinned people is available to all licensed users who view the topic. Specific files, pages, and sites will only appear on the topic page if the viewer has Office 365 permissions to the item. 
+After you publish the page, the topic name, alternate name, description, and pinned people is available to all licensed users who view the topic. Specific files, pages, and sites will only appear on the topic page if the viewer has Office 365 permissions to the item.

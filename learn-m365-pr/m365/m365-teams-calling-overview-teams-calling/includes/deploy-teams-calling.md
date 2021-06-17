@@ -25,7 +25,7 @@ Configure caller ID for incoming and outgoing calls.
 
 ## Set up audio conferencing
 
-Verify that this feature is available in your country/region. A full list of country/region capabilities is available at [Country and region availability for Audio Conferencing and Calling Plans]( /microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans).
+Verify that this feature is available in your country/region. A full list of country/region capabilities is available at [Country and region availability for Audio Conferencing and Teams Calling Plans]( /microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans).
 Determine which business users and sites require access to audio conferencing. Consider rolling out audio conferencing on a site-by-site basis. Obtain service numbers or numbers for toll-free calling; you might be able to transfer existing toll-free numbers.
 Configure the default bridge number, set up languages for conference bridge phone numbers, and configure the meeting join experience (entry/exit announcements, PIN length, and so on). Customize meeting invitations to include any additional legal or help information, and add logos to ensure invitations match corporate look and feel.
 
