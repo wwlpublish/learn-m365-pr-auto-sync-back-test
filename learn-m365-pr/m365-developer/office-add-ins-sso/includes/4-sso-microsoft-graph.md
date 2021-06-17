@@ -2,7 +2,7 @@ Users sign in to Office (online, mobile, and desktop platforms) using either the
 
 The best way for an Office Add-in to get authorized access to Microsoft Graph is to use the credentials from the user's Office sign-on. This enables them to access their Microsoft Graph data without needing to sign in a second time.
 
-In this unit, you'll learn how to implement SSO in an Office add-in to submit requests and retrieve information from Microsoft Graph.
+In this unit, you'll learn how to implement SSO in an Office Add-in to submit requests and retrieve information from Microsoft Graph.
 
 ## Office Add-ins, SSO, and Microsoft Graph
 
