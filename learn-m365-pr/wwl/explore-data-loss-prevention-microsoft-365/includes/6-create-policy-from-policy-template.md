@@ -25,7 +25,7 @@ Microsoft 365 includes the following methods that will enable you to begin creat
 
 After you've added a policy, you can review and change its rules, make the policy inactive, or remove it completely.
 
-**Additional reading.** For more information, see [What the DLP policy templates include](https://docs.microsoft.com/microsoft-365/compliance/what-the-dlp-policy-templates-include?azure-portal=true).
+**Additional reading.** For more information, see [What the DLP policy templates include](/microsoft-365/compliance/what-the-dlp-policy-templates-include).
 
 ## Knowledge check
 

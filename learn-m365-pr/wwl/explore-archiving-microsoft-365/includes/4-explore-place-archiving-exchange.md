@@ -38,7 +38,7 @@ This architectural design provides the following key benefits:
 
 When an item is deleted from any folder, it’s placed in the Deleted Items default folder. Then when an item is deleted from the Deleted Items default folder, it’s placed in the Recoverable Items folder. If an Outlook user deletes an item by pressing Shift+Delete, the Deleted Items folder is bypassed, and the item is placed directly in the Recoverable Items folder.
 
-**Additional reading.** For more information, see [Recoverable Items folder in Exchange Server](https://docs.microsoft.com/Exchange/policy-and-compliance/recoverable-items-folder/recoverable-items-folder?azure-portal=true).
+**Additional reading.** For more information, see [Recoverable Items folder in Exchange Server](/Exchange/policy-and-compliance/recoverable-items-folder/recoverable-items-folder).
 
 ### Default retention policy of the archive mailbox
 

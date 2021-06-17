@@ -1,0 +1,42 @@
+### YamlMime:Module
+uid: learn-m365.workplace-analytics-customer-focus
+metadata:
+  title: Introduction to customer focus with Microsoft Workplace Analytics
+  description: Discover ways to use Microsoft Workplace Analytics to analyze collaboration behaviors related to customer focus, and how your organization can benefit from the analysis. Understand the data requirements and key considerations to scope and perform a customer focus analysis and learn how you can identify opportunities and track progress to create value for your organization.
+  ms.date: 05/11/2021
+  author: jelathro
+  ms.author: jelathro
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Introduction to customer focus with Microsoft Workplace Analytics
+summary: Discover ways to use Microsoft Workplace Analytics to analyze collaboration behaviors related to customer focus, and how your organization can benefit from the analysis. Understand the data requirements and key considerations to scope and perform a customer focus analysis and learn how you can identify opportunities and track progress to create value for your organization.
+abstract: |
+  At the end of this module, you should be able to:
+  - Explain how your organization can benefit from using Workplace Analytics to improve customer focus.
+  - Understand the many ways you can analyze collaboration data to improve customer focus.
+  - Determine project scoping, data requirements, and how you can create value with your customer focus analysis.
+  - Know which Microsoft 365 tools you can use to effectively track and manage customer focus initiatives.
+prerequisites: |
+  - Familiarity with Workplace Analytics data sources and metrics
+  - Basic knowledge of Workplace Analytics queries and query structure
+  - Familiarity with the analyses in the Workplace Analytics Ways of working assessment
+iconUrl: /learn/achievements/generic-badge.svg
+levels:
+- intermediate
+roles:
+- business-analyst
+- data-analyst
+- functional-consultant
+products:
+- m365
+- m365-workplace-analytics
+units:
+- learn-m365.workplace-analytics-customer-focus.introduction
+- learn-m365.workplace-analytics-customer-focus.why-user-focus
+- learn-m365.workplace-analytics-customer-focus.analyze-collaboration
+- learn-m365.workplace-analytics-customer-focus.scope-plan-create-value
+- learn-m365.workplace-analytics-customer-focus.tools-drive-change
+- learn-m365.workplace-analytics-customer-focus.knowledge-check
+- learn-m365.workplace-analytics-customer-focus.summary
+badge: 
+  uid: learn-m365.workplace-analytics-customer-focus.badge
