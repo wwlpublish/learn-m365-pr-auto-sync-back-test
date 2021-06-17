@@ -1,7 +1,7 @@
 In this exercise, you'll create a SharePoint Framework web part solution that will work in both SharePoint Online and as a tab in Microsoft Teams.
 
 > [!IMPORTANT]
-> The instructions below assume you are using v1.11.0 of the SharePoint Framework Yeoman generator.
+> The instructions below assume you are using v1.12.1 of the SharePoint Framework Yeoman generator.
 
 Open a command prompt and change to the folder where you want to create the SharePoint Framework project. Then, run the SharePoint Yeoman generator by executing the following command:
 
@@ -46,11 +46,11 @@ Add another option to enable this web part to be used as a tab in a Microsoft Te
 Notice the project contains a folder **teams** that contains two images. These are used in Microsoft Teams to display the custom tab.
 
 > [!NOTE]
-> You may notice there is no **manifest.json** file present. The manifest file can be generated automatically by SharePoint from the **App Catalog** site or you can create it manually. For more information on manual creation of the manifest file, see the documentation: [Create Microsoft Teams manifest manually for a web part and deploy it to Microsoft Teams](https://docs.microsoft.com/sharepoint/dev/spfx/web-parts/guidance/creating-team-manifest-manually-for-webpart).
+> You may notice there is no **manifest.json** file present. The manifest file can be generated automatically by SharePoint from the **App Catalog** site or you can create it manually. For more information on manual creation of the manifest file, see the documentation: [Deployment options for SharePoint Framework solutions for Microsoft Teams](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/deployment-spfx-teams-solutions).
 >
 > In this exercise you will manually create the Microsoft Teams manifest file so that you may get familliar with its contents.
 
-### Manually create the Microsoft Teams manifest and app package
+### Manually create the Microsoft Teams manifest
 
 Locate the **./teams** folder in the project.
 
@@ -121,6 +121,19 @@ This file contains multiple strings that need to be updated to match the SharePo
 
 > [!IMPORTANT]
 > The tokens surrounded by single curly braces (e.g. `{teamSiteDomain}`) do not need to be replaced.
+
+### Manually create the Microsoft Teams app package
+
+Locate the **./teams** folder in the project.
+
+Create a ZIP archive containing the three files in the folder: the two images and **manifest.json**. 
+
+> [!IMPORTANT]
+> ZIP the contents of the folder, not the folder itself.
+
+Name the ZIP archive **TeamsSPFxApp.zip** and save it in the **teams** folder. The **teams** folder should now contain four files.
+
+![Screenshot of the teams folder](../media/03-teams-package-01.png)
 
 ## Create and deploy the SharePoint package
 
@@ -216,7 +229,7 @@ In the **Add a tab** dialog, select **More Apps**
 
 ![Screenshot of the Add a tab dialog](../media/03-add-tab-step-10.png)
 
-Select **Built for [your tenant name]**.
+Select **Built for your org**.
 
 Select the **SPFx Teams Together** app.
 
