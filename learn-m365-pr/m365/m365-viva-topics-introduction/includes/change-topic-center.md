@@ -4,7 +4,7 @@ After you have set up and configured the Topic center, you can change the name i
 
 **To access topics management settings:**
 
-1. In the Microsoft 365 admin center, click Settings, then Org settings
+1. In the Microsoft 365 admin center, click Settings, then Org settings.
 1. On the Services tab, click Topic experiences.
 1. Select the Topic center tab. See the following sections for information about each setting.
 
@@ -16,6 +16,6 @@ Update your topic center name
 
 1. On the Topic center tab, under Topic center name, select Edit.
 1. On the Edit topic center name page, in the Topic center name box, type the new name for your topic center.
-1. Select Save
+1. Select Save.
 
  ![Screenshot showing the confirmation scree.](../media/edit-topic-name.png)
