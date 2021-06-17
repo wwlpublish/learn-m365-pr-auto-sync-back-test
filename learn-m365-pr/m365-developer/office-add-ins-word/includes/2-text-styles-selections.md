@@ -2,7 +2,7 @@ The Word JavaScript API enables programmatic control over text, formatting, sele
 
 ## Office 365 Platform Overview
 
-The Microsoft Office 365 platform offers many canvases for developers to embed customizations and Office add-ins are one of three canvases: documents, conversations  and pages.
+The Microsoft Office 365 platform offers many canvases for developers to embed customizations and Office Add-ins are one of three canvases: documents, conversations  and pages.
 
 Microsoft Teams makes conversations between users and enables developers to extend the experience using messaging extensions, conversational bots, and other customization options.
 
@@ -18,7 +18,7 @@ We'll start by looking at an anatomy of an Office.js for Microsoft Word:
 
 ![Screenshot of the anatomy of an Office.js add-in](../media/02-office-js-anatomy.png)
 
-- All Office add-ins must call off the `Office.initialize()` method when a page first loads the add-in.
+- All Office Add-ins must call off the `Office.initialize()` method when a page first loads the add-in.
 - If you're using a newer Office.js capability in your add-in, it's important to check if the client supports those extensions using the `requirements` API.
 - For the Word JavaScript APIs, you'll use the `Word.run()` method to get an instance of the current document `context`.
 - Once you have a reference to the current Word document's `context`, you can load any properties on the context using the `load()` method. This method will add the request queue, allowing you to chain multiple requests together for performance reasons.
@@ -165,7 +165,7 @@ The following code snippets demonstrate working examples of applying styles and 
 
 ## Selections and ranges
 
-When working with Office add-ins, developers will often hear the term *range*. A range is any contiguous area of a document in Microsoft Word.
+When working with Office Add-ins, developers will often hear the term *range*. A range is any contiguous area of a document in Microsoft Word.
 
 Ranges can be established through many ways, including search, selection, or through a conversion. For example, the `paragraph.getRange()` method will return the paragraph as a range.
 
