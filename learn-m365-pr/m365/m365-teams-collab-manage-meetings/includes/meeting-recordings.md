@@ -19,4 +19,4 @@ Meeting recordings are considered tenant-owned content. If the owner of the reco
 
 When you're done with a link, use the **Back** arrow in your browser to come back to this page.
 
-- [Teams cloud meeting recording](https://docs.microsoft.com/microsoftteams/cloud-recording)
+- [Teams cloud meeting recording](/microsoftteams/cloud-recording)

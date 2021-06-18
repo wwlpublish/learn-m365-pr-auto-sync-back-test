@@ -48,4 +48,4 @@ In such scenarios, it's the customer’s responsibility to ensure proper configu
 
 When you're done with a link, use the **Back** arrow in your browser to come back to this page.
 
-- [Configure Azure AD Connect for Teams and Skype for Business](https://docs.microsoft.com/SkypeForBusiness/hybrid/configure-azure-ad-connect)
+- [Configure Azure AD Connect for Teams and Skype for Business](/SkypeForBusiness/hybrid/configure-azure-ad-connect)

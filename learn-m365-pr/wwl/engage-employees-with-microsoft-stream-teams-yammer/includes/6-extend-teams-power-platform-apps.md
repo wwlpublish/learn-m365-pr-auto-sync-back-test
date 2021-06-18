@@ -55,4 +55,4 @@ Users can find connectors by right-clicking on a team's channel and selecting **
 
 In addition to Microsoft apps and services, users can find connectors for third-party apps like GitHub, Bitbucket, Salesforce, and many more.
 
-Finally, users can use Office 365 Connectors. Office 356 Connectors enable users to make custom configuration pages for incoming webhooks and package them as part of a Microsoft Teams app. They can use this type of connector to work with other applications, like Outlook. Your organization can publish this type of connector internally, and also to Microsoft's App Store.
+Finally, users can use Office 365 Connectors. Office 365 Connectors enable users to make custom configuration pages for incoming webhooks and package them as part of a Microsoft Teams app. They can use this type of connector to work with other applications, like Outlook. Your organization can publish this type of connector internally, and also to Microsoft's App Store.

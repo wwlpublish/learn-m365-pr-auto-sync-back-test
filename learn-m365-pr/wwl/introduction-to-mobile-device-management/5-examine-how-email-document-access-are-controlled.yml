@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.introduction-to-mobile-device-management.examine-how-email-document-access-are-controlled
+title: Examine how email and document access are controlled on mobile device-managed devices
+metadata:
+  title: Examine how email and document access are controlled on mobile device-managed devices
+  description: "Examine how email and document access are controlled on mobile device-managed devices"
+  ms.date: 06/17/2021
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+durationInMinutes: 5
+content: |
+  [!include[](includes/5-examine-how-email-document-access-are-controlled.md)]

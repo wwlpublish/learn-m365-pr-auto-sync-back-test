@@ -7,5 +7,5 @@ Now that you have finished this module, you should be able to:
 
 ## Resources
 
-- [Microsoft Compliance Manager](https://docs.microsoft.com/microsoft-365/compliance/compliance-manager-overview?azure-portal=true)
-- [Compliance score calculation](https://docs.microsoft.com/microsoft-365/compliance/compliance-score-calculation?azure-portal=true)
+- [Microsoft Compliance Manager](/microsoft-365/compliance/compliance-manager-overview?azure-portal=true)
+- [Compliance score calculation](/microsoft-365/compliance/compliance-score-calculation?azure-portal=true)

@@ -11,7 +11,6 @@ Our automated security tooling falls into several broad categories for testing c
 | Static code analysis | Analyzes source code for potential security flaws, including the presence of credentials in code. |
 | Binary analysis | Assesses vulnerabilities at the binary code level to confirm code is production ready. |
 | Encryption scanning | Validates encryption best practices in source code and code execution. |
-| Fuzz testing | Uses malformed and unexpected data to find defects in code and validate proper error handling. |
 | Configuration validation | Analyzes the configuration of production systems against security standards and best practices. |
 
 ## Static code analysis and binary analysis
@@ -26,12 +25,6 @@ In addition to static analysis of source code, we use automated tooling like Bin
 
 Microsoft takes care to ensure all data, including security-sensitive information and management and control data, is protected from unintended disclosure or alteration when it is being transmitted or stored using strong encryption. The SDL limits developers to approved encryption modules that implement encryption reliably and securely. To enforce this policy, our tools scan and validate cryptography implementations in source code and during code execution. Insecure use of cryptography is flagged for remediation and validated during security review.
 
-## Fuzz testing
-
-Fuzzing is a form of dynamic testing used to systematically find defects in code that account for many of the most severe security bugs. Fuzzing is capable of finding remote code execution (buffer overruns), permanent denial-of-service (unhandled exceptions, read AVs, thread hangs), and temporary denial-of-service (leaks, memory spikes) vulnerabilities.
-
-Microsoft’s SDL requires fuzz testing to validate all inputs from untrusted sources, including user inputs, inputs received from networks, and file uploads. Our build pipelines incorporate automated fuzz testing tools that run parallel to the build process. Separate dynamic code testing tools are configured to automatically scan and fuzz web APIs for potential security flaws. Security flaws detected by our fuzz tooling are flagged for remediation and validated during security review.
-
 ## Configuration validation
 
 At Microsoft, our operations teams are integrated with development teams using the DevOps model. As part of DevOps, we continue to validate the secure operation of our code after a build is a released to production environments. Operations teams use secure deployment checklists, baseline configuration scanning, vulnerability scanning, and host-based intrusion detection systems to validate that software is configured and operated according to security best practices. Configuration flaws detected by the operations teams are flagged for remediation, while any bugs discovered by the operations team are assigned to the appropriate development team to be fixed at the code level. By integrating operational security into our SDL requirements, we help to ensure the ongoing security of our products and services even after release.
@@ -39,4 +32,4 @@ At Microsoft, our operations teams are integrated with development teams using t
 ## Learn more
 
 - [What are Microsoft SDL practices?](https://www.microsoft.com/securityengineering/sdl/practices?azure-portal=true)
-- [DevOps at Microsoft](https://docs.microsoft.com/azure/devops/learn/devops-at-microsoft/?azure-portal=true)
+- [DevOps at Microsoft](/azure/devops/learn/devops-at-microsoft/?azure-portal=true)

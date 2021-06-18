@@ -70,9 +70,9 @@ The Text viewer provides a view of the extracted text of a file. It ignores any 
 - Search hit highlighting that will highlight keywords within the document as well as the scrollbar
 - Differential view provides a comparison view that highlights textual differences when viewing Near Duplicate documents
 
-![Text viewer.](../media/text-view.png) 
+![Screenshot of a document in the text viewer.](../media/text-view.png) 
 
-![Text viewer.](../media/text-view-2.png)   
+![Screenshot of a differential view in the text viewer.](../media/text-view-2.png)
  
 ### Annotate view
 The Annotate view provides features that allow users to apply markup on a document and is especially useful for redacting content in documents. Other features include the following:
@@ -84,8 +84,8 @@ The Annotate view provides features that allow users to apply markup on a docume
 - **Rotate**. Users can rotate document clockwise.
 - **Search**. Users can search within a document and navigate to the various hits within the document.
  
-![Annotate view.](../media/annotate-view-1.png) 
-![Annotate view.](../media/annotate-view-2.png) 
+![Screenshot of the annotate view showing the location of the area redaction button.](../media/annotate-view-1.png) 
+![Screenshot of the annotate view showing redacted text.](../media/annotate-view-2.png) 
  
 ### File metadata
 The **File metadata** panel can be toggled on or off to display various metadata associated with the document. Although the search results grid can be customized to display specific metadata, there are instances where scrolling horizontally can be difficult while reviewing data. The File metadata panel allows a user to toggle on a view within the viewer.
@@ -99,7 +99,7 @@ To create and run a query on the documents in a review set, click **New query** 
 
  ![New query screen in a review set.](../media/new-query.png) 
 
-After you name your query, you can create it by using a combination of conditions and query language in the Keywords condition card. You can also group conditions together as a block (called a **condition group**) to build a more complex query. For a list and description of metadata properties that you can search, see [Document metadata fields in Advanced eDiscovery](https://docs.microsoft.com/microsoft-365/compliance/document-metadata-fields-in-advanced-ediscovery?view=o365-worldwide?azure-portal=true).
+After you name your query, you can create it by using a combination of conditions and query language in the Keywords condition card. You can also group conditions together as a block (called a **condition group**) to build a more complex query. For a list and description of metadata properties that you can search, see [Document metadata fields in Advanced eDiscovery](/microsoft-365/compliance/document-metadata-fields-in-advanced-ediscovery?azure-portal=true).
 
  ![Condition group in building a query.](../media/new-query-2.png) 
 
@@ -168,5 +168,4 @@ Either method will open the interface that enables you to customize the Attorney
 
  ![Two locations for configuring smart tag groups.](../media/manage-tags-attorney-client-privilege.png) 
 
-For more information, see [Use the attorney-client privilege detection model](https://docs.microsoft.com/microsoft-365/compliance/attorney-privilege-detection?view=o365-worldwide#use-the-attorney-client-privilege-detection-model?azure-portal=true).
-
+For more information, see [Use the attorney-client privilege detection model](/microsoft-365/compliance/attorney-privilege-detection?azure-portal=true).

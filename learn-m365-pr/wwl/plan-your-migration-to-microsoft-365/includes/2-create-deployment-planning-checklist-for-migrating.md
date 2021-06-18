@@ -33,7 +33,7 @@ The Deployment Planning Checklist for Microsoft 365, which is adaptable to any o
 4. **Set up Microsoft 365 services to work for your organization.** Perform the following steps to configure your Microsoft 365 subscription:
     *  [Verify the domains you want to use with your subscription](https://go.microsoft.com/fwlink/?LinkId=534828?azure-portal=true)
     *  Configure [application settings](https://go.microsoft.com/fwlink/?LinkId=534829?azure-portal=true) (email, instant messaging, online meetings, web collaboration, file storage, Yammer)
-    *  Optionally [prepare for directory synchronization](https://docs.microsoft.com/office365/enterprise/prepare-for-directory-synchronization?azure-portal=true)
+    *  Optionally [prepare for directory synchronization](/office365/enterprise/prepare-for-directory-synchronization)
     *  Optionally [prepare for single sign-on](https://go.microsoft.com/fwlink/?LinkId=534831?azure-portal=true)
     *  Prepare your organization
     *  Prepare service desk for upcoming migration

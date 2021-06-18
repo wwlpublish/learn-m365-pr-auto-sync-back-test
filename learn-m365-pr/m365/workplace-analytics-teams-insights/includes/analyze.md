@@ -125,4 +125,4 @@ Select the Best practices recommendations links for training videos, tips, and t
 
 ## Learn more
 
-- [Workplace Analytics metrics](https://docs.microsoft.com/Workplace-Analytics/use/metric-definitions?azure-portal=true)
+- [Workplace Analytics metrics](/Workplace-Analytics/use/metric-definitions?azure-portal=true)

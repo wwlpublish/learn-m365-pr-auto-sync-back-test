@@ -93,7 +93,7 @@ Locate the `return` statement and add the following code to add a button after o
 Next, add the following method to the `YouTubePlayer1Tab` class:
 
 ```typescript
-private onChangeVideoAdaptiveCard = (): void => {
+const onChangeVideoAdaptiveCard = (): void => {
   const taskModuleInfo = {
     title: "YouTube Video Selector",
     width: 350,
@@ -104,7 +104,7 @@ private onChangeVideoAdaptiveCard = (): void => {
   };
 
   microsoftTeams.tasks.startTask(taskModuleInfo, submitHandler);
-}
+};
 ```
 
 The first step is to load the Adaptive Card and set the value of the video ID to display when it loads. Do this by adding the following code to the top of the `onChangeVideoAdaptiveCard()` method:
@@ -128,6 +128,7 @@ Next, implement the callback. When the Adaptive Card executes the submit action,
 
 ```typescript
 const submitHandler = (err: string, result: any): void => {
+  console.log(`Submit handler - err: ${err}`);
   setYouTubeVideoId(result.youTubeVideoId);
 };
 ```
@@ -163,7 +164,7 @@ Replace the video ID in the input box and select **Update**. Notice the video ID
 
 ## Invoking task modules with deep links
 
-Task modules can be invoked by selecting a button in the Microsoft Teams experience, or using a deep link. Deep links allow you to trigger a task module invocation from outside of teams, or within teams from a conversation.
+Task modules can be invoked by selecting a button in the Microsoft Teams experience, or using a deep link. Deep links allow you to trigger a task module invocation from outside of Teams, or within Teams from a conversation.
 
 The format for a deep link is as follows:
 

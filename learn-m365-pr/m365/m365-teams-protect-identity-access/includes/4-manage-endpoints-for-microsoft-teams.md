@@ -70,9 +70,9 @@ Conditional Access allows only specific services to be accessed under certain co
 
 ## Learn more
 
-- [Get clients for Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/get-clients)
-- [Office 365 URLs and IP address ranges](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges)
-- [Monitor and improve call quality for Teams](https://docs.microsoft.com/microsoftteams/monitor-call-quality-qos)
-- [How to check Microsoft 365 service health](https://docs.microsoft.com/office365/enterprise/view-service-health)
-- [Protect your enterprise data using Windows Information Protection (WIP)](https://docs.microsoft.com/windows/security/information-protection/windows-information-protection/protect-enterprise-data-using-wip)
+- [Get clients for Microsoft Teams](/MicrosoftTeams/get-clients)
+- [Office 365 URLs and IP address ranges](/office365/enterprise/urls-and-ip-address-ranges)
+- [Monitor and improve call quality for Teams](/microsoftteams/monitor-call-quality-qos)
+- [How to check Microsoft 365 service health](/office365/enterprise/view-service-health)
+- [Protect your enterprise data using Windows Information Protection (WIP)](/windows/security/information-protection/windows-information-protection/protect-enterprise-data-using-wip)
 - [Contact support for Microsoft Teams (Premier customers)](https://support.microsoft.com/premier/contacts)

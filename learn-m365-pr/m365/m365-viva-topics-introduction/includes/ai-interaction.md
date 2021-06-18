@@ -31,4 +31,4 @@ When you search for a specific topic in Microsoft Search, if a topic exists and 
 - Topic name 
 - Alternate names: Alternate names or acronyms for the topic. 
 - Definition: Description of the topic provided by AI or manually added by a person. 
-- Suggested or Pinned resources: Files, pages, or sites suggested by AI or pinned to the topic by a person. 
+- Suggested or Pinned resources: Files, pages, or sites suggested by AI or pinned to the topic by a person.

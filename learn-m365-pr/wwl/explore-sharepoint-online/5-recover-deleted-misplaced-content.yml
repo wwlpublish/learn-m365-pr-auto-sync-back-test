@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.explore-sharepoint-online.recover-deleted-misplaced-content
+title: Recover deleted and misplaced content
+metadata:
+  title: Recover deleted and misplaced content
+  description: "Recover deleted and misplaced content"
+  ms.date: 04/23/2021
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/5-recover-deleted-misplaced-content.md)]

@@ -37,7 +37,7 @@ Direct Routing supports the following **endpoints**:
 
 ## SBC
 
-A SBC is the interface between Microsoft Phone System and Teams, and third-party systems, such as a public switched telephone network (PSTN) or legacy private branch exchange (PBX). The SBC is a powerful network device with built-in intelligence that translates signals from legacy systems to Microsoft Phone System. An SBC has three main functions:
+A SBC is the interface between Microsoft Teams Phone and Teams, and third-party systems, such as a public switched telephone network (PSTN) or legacy private branch exchange (PBX). The SBC is a powerful network device with built-in intelligence that translates signals from legacy systems to Microsoft Teams Phone. An SBC has three main functions:
 
 - **Connectivity** - allows Teams to interconnect with other voice components.
 - **Security** - acts as a firewall for Session Initiation Protocol (SIP)) traffic.
@@ -88,8 +88,8 @@ These objects are discussed in the following units.
 
 ## Learn more
 
-- [Set up Audio Conferencing for Microsoft Teams](https://docs.microsoft.com/microsoftteams/set-up-audio-conferencing-in-teams)
+- [Set up Audio Conferencing for Microsoft Teams](/microsoftteams/set-up-audio-conferencing-in-teams)
 - [Skype for Business phones (3PIP) support with Microsoft Teams](https://aka.ms/3pip)
-- [Session Border Controllers certified for Direct Routing](https://docs.microsoft.com/MicrosoftTeams/direct-routing-border-controllers)
-- [Public trusted certificate for the SBC](https://docs.microsoft.com/MicrosoftTeams/direct-routing-plan#public-trusted-certificate-for-the-sbc)
-- [SIP Signaling: FQDNs](https://docs.microsoft.com/microsoftteams/direct-routing-plan#sip-signaling-fqdns)
+- [Session Border Controllers certified for Direct Routing](/MicrosoftTeams/direct-routing-border-controllers)
+- [Public trusted certificate for the SBC](/MicrosoftTeams/direct-routing-plan#public-trusted-certificate-for-the-sbc)
+- [SIP Signaling: FQDNs](/microsoftteams/direct-routing-plan#sip-signaling-fqdns)

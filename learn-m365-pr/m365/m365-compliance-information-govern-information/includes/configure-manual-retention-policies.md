@@ -48,4 +48,4 @@ The final step in the process is to review your settings, make any needed update
 > Labels will appear in Outlook and Outlook web app only for mailboxes with at least 10 MB of data.
 
 ## Learn more
-- [Overview of retention labels](https://docs.microsoft.com/microsoft-365/compliance/labels?azure-portal=true)
+- [Overview of retention labels](/microsoft-365/compliance/labels?azure-portal=true)

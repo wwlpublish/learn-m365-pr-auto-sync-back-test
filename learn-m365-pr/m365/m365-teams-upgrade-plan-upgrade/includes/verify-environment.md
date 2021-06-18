@@ -6,4 +6,4 @@ Although not all services are required, we highly recommend that you implement a
 
 When you're done with a link, use the **Back** arrow in your browser to come back to this page.
 
-- [Prerequisites and environmental dependencies for Teams](https://docs.microsoft.com/MicrosoftTeams/upgrade-plan-journey-prerequisites)
+- [Prerequisites and environmental dependencies for Teams](/MicrosoftTeams/upgrade-plan-journey-prerequisites)

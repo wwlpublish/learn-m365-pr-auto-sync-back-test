@@ -42,7 +42,7 @@ Depending on whether the event is public or private, attendees in live events ma
 
 ## Learn more
 
-- [What are Microsoft Teams live events?](https://docs.microsoft.com/MicrosoftTeams/teams-live-events/what-are-teams-live-events?azure-portal=true)
-- [Plan for live events in Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/teams-live-events/plan-for-teams-live-events?azure-portal=true)
-- [Configure settings for live events](https://docs.microsoft.com/microsoftteams/teams-live-events/configure-teams-live-events?azure-portal=true)
-- [Create and manage policies for live events](https://docs.microsoft.com/microsoftteams/teams-live-events/set-up-for-teams-live-events#step-3-set-up-live-events-policies?azure-portal=true)
+- [What are Microsoft Teams live events?](/MicrosoftTeams/teams-live-events/what-are-teams-live-events?azure-portal=true)
+- [Plan for live events in Microsoft Teams](/MicrosoftTeams/teams-live-events/plan-for-teams-live-events?azure-portal=true)
+- [Configure settings for live events](/microsoftteams/teams-live-events/configure-teams-live-events?azure-portal=true)
+- [Create and manage policies for live events](/microsoftteams/teams-live-events/set-up-for-teams-live-events#step-3-set-up-live-events-policies?azure-portal=true)

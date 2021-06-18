@@ -1,19 +1,19 @@
 ### YamlMime:Module
 uid: learn-m365.wvd-intro
 metadata:
-  title: Introduction to Windows Virtual Desktop in Microsoft Azure
-  description: Learn how to use Windows Virtual Desktop to deliver remote desktop and remote app experiences in Microsoft Azure.
+  title: Introduction to Azure Virtual Desktop
+  description: Learn how to use Azure Virtual Desktop to deliver remote desktop and remote app experiences in Microsoft Azure.
   ms.date: 06/25/2020
   author: lizap
   ms.author: elizapo
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-title: Introduction to Windows Virtual Desktop in Microsoft Azure
-summary: Learn how to use Windows Virtual Desktop to deliver remote desktop and remote app experiences in Microsoft Azure.
+title: Introduction to Azure Virtual Desktop
+summary: Learn how to use Azure Virtual Desktop to deliver remote desktop and remote app experiences in Microsoft Azure.
 abstract: |
   At the end of this module, you should be able to:
-  - Describe Windows Virtual Desktop and how it works
-  - Decide whether Windows Virtual Desktop is a good choice for your organization
+  - Describe Azure Virtual Desktop and how it works
+  - Decide whether Azure Virtual Desktop is a good choice for your organization
 prerequisites: |
   - Familiarity with server and client management concepts and tools
   - Familiarity with Windows virtualization technologies, like Remote Desktop Services
@@ -26,7 +26,6 @@ roles:
 products:
 - m365
 - azure
-- windows-virtual-desktop
 units:
 - learn-m365.wvd-intro.introduction
 - learn-m365.wvd-intro.what-is-wvd

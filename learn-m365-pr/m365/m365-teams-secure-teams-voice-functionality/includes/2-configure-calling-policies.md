@@ -52,5 +52,5 @@ Here's the settings that you can configure for calling policies:
 
 ## Learn more
 
-- [Assign policies to your users in Teams](https://docs.microsoft.com/microsoftteams/assign-policies)
+- [Assign policies to your users in Teams](/microsoftteams/assign-policies)
 - [Share a phone line with a delegate](https://support.office.com/article/share-a-phone-line-with-a-delegate-16307929-a51f-43fc-8323-3b1bf115e5a8)

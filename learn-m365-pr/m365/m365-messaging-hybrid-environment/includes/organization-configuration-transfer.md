@@ -19,4 +19,4 @@ In the Hybrid Configuration wizard, the **Organization Configuration Transfer** 
 
 ## Learn more
 
-- [Organization configuration transfer attributes](https://docs.microsoft.com/exchange/org-config-transfer-attributes/org-config-transfer-attributes?azure-portal=true)
+- [Organization configuration transfer attributes](/exchange/org-config-transfer-attributes/org-config-transfer-attributes?azure-portal=true)

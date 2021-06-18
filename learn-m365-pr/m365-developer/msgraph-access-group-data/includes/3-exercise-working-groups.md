@@ -37,9 +37,9 @@ In the **Redirect URIs** section of the **Configure Desktop + devices** panel, s
 
 ![Screenshot of the Configure Desktop + devices panel](../media/azure-ad-portal-new-app-03.png)
 
-In the **Authentication** panel, scroll down to the **Default client type** section and set the toggle to **Yes**.
+In the **Authentication** panel, scroll down to the **Allow public client flows** section and set the toggle to **Yes**.
 
-![Screenshot of the Default client type section](../media/azure-ad-portal-new-app-04.png)
+![Screenshot of the Allow public client flows section](../media/azure-ad-portal-new-app-04.png)
 
 Select **Save** in the top menu to save your changes.
 
@@ -64,9 +64,12 @@ Enter **User.R** in the **Select permissions** search box and select the **User.
 In the **Configured Permissions** panel, select the button **Grant admin consent for [tenant]**, and then select the **Yes** button in the consent dialog to grant all users in your organization this permission.
 
 > [!NOTE]
-> The option to **Grant admin consent** here in the Azure AD admin center is pre-consenting the permissions to the users in the tenant to simplify the exercise. This approach allows the console application to use the [resource owner password credential grant](https://docs.microsoft.com/azure/active-directory/develop/v2-oauth-ropc), so the user isn't prompted to grant consent to the application that simplifies the process of obtaining an OAuth access token. You could elect to implement alternative options such as the [device code flow](https://docs.microsoft.com/azure/active-directory/develop/v2-oauth2-device-code) to utilize dynamic consent as another option.
+> The option to **Grant admin consent** here in the Azure AD admin center is pre-consenting the permissions to the users in the tenant to simplify the exercise. This approach allows the console application to use the [resource owner password credential grant](/azure/active-directory/develop/v2-oauth-ropc), so the user isn't prompted to grant consent to the application that simplifies the process of obtaining an OAuth access token. You could elect to implement alternative options such as the [device code flow](/azure/active-directory/develop/v2-oauth2-device-code) to utilize dynamic consent as another option.
 
 ## Create .NET Core console application
+
+> [!NOTE]
+> The instructions below assume you are using .NET 5. They were last tested using v5.0.202 of the .NET 5 SDK.
 
 Open your command prompt, navigate to a directory where you have rights to create your project, and run the following command to create a new .NET Core console application:
 
@@ -360,7 +363,7 @@ In this section, you'll get a specific group using Microsoft Graph.
 
 Locate the code you added above for `// request 1 - all groups` and comment it out so it doesn't continue to execute.
 
-Using the results in the console from the previous step, copy the ID from one of the groups displayed. Add the following code to the end of the `Main` method, replacing `{{REPLACE_WITH_GROUP_ID}}` with the ID you copied from the console:
+Using the results in the console from the previous step, copy the ID from one of the groups displayed. Add the following code to the end of the `Main` method, replacing `{{REPLACE_WITH_GROUP_ID}}` with the ID you copied from the console. 
 
 ```csharp
 var groupId = "{{REPLACE_WITH_GROUP_ID}}";
@@ -415,6 +418,9 @@ Console.WriteLine("\nGraph Request:");
 Console.WriteLine(requestGroupOwners.GetHttpRequestMessage().RequestUri);
 ```
 
+> [!NOTE]
+> Owners are currently not available in Microsoft Graph for groups that were created in Exchange or groups that are synchronized from an on-premises environment. If no owners are displayed, it's likely you selected a one of these types of group. Update the code to use a different group ID and rerun the test. Repeat this process until until at least one owner is displayed. 
+
 ### Build and test the application
 
 Run the following commands in a command prompt to compile and run the console application:
@@ -428,8 +434,6 @@ After entering the username and password of a user, you'll see the list of owner
 
 ![Screenshot of the console application showing a single group's owners in the organization](../media/03-app-run-03.png)
 
-> [!NOTE]
-> If no owners are displayed, you may have selected a group without any owners set. If that happens, try a different group ID and retry the test until the console app displays at least one owner.
 
 ## Get members of an Office 365 group
 

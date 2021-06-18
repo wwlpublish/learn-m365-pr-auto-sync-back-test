@@ -30,7 +30,7 @@ If you'd like to continue to use your existing calling plan, you'll need to use 
 
 Once you've moved to Calling with Microsoft Teams, you can start to take calls with apps on your computer or mobile devices. You can also continue to use any existing desktop IP telephones.
 
-For a full list of all the capabilities and features of the Phone System see: [https://docs.microsoft.com/microsoftteams/here-s-what-you-get-with-phone-system](https://docs.microsoft.com/microsoftteams/here-s-what-you-get-with-phone-system), but here are some of the main features:
+For a full list of all the capabilities and features of the Phone System see: [/microsoftteams/here-s-what-you-get-with-phone-system](/microsoftteams/here-s-what-you-get-with-phone-system), but here are some of the main features:
 
 | Feature | Description |
 | --- | --- |
@@ -47,7 +47,7 @@ For a full list of all the capabilities and features of the Phone System see: [h
 
 For an organization to use Direct Routing they'll need to be using Microsoft 365 and have the following licenses assigned to their subscription:
 
-- Microsoft Phone System
+- Microsoft Teams Phone
 - Microsoft Teams
 - Skype for Business Plan 2 (if already included in any licensing agreement)
 - Microsoft Audio Conferencing (if you need to add external callers by dialing out or allowing them to dial in)
