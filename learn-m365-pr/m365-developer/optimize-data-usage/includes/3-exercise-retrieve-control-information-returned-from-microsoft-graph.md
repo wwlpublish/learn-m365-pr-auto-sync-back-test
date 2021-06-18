@@ -1,3 +1,5 @@
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4OIAs]
+
 In this exercise, you'll create a new Azure AD web application registration using the Azure Active Directory admin center, a .NET Core console application, and query Microsoft Graph.
 
 ## Prerequisites
@@ -81,6 +83,8 @@ In the **Configured permissions** panel, select the button **Grant admin consent
 ![Screenshot of the Configured permissions panel](../media/azure-ad-portal-new-app-permissions-04.png)
 
 ## Create .NET Core console application
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4OIAz]
 
 Open your command prompt, navigate to a directory where you have rights to create your project, and run the following command to create a new .NET Core console application:
 
@@ -333,6 +337,8 @@ When the application runs, you'll see a list of users displayed. The query retri
 > Notice the URL written to the console. This is the entire request, including query parameters, that the Microsoft Graph SDK is generating. Take note for each query you run in this exercise.
 
 ### Edit the application to optimize the query
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4OIAw]
 
 The current console application isn't efficient because it retrieves all information about all users in your organization but only displays three properties. The `$select` query parameter can limit the amount of data that is returned by Microsoft Graph, optimizing the query.
 

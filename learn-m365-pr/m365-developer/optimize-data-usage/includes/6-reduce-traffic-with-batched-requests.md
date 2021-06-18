@@ -1,3 +1,5 @@
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4OIAx]
+
 In this unit, you'll learn how to optimize applications that have complex or many interactions with Microsoft Graph.
 
 ## Common scenarios require multiple requests

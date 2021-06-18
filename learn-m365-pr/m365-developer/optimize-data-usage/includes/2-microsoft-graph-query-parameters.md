@@ -1,3 +1,5 @@
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4OIAr]
+
 In this unit, let's look at the endpoint characteristics of Microsoft Graph and how you can use query parameters to manipulate requests.
 
 ## Accessing Microsoft Graph

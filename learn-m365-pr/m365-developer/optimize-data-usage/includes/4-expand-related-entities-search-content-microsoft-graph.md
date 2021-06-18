@@ -1,3 +1,5 @@
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4OIAu]
+
 In this unit, we'll explore how you can use two query parameters to search and include related data in Microsoft Graph requests.
 
 ## Microsoft Graph exposes relationships between entities

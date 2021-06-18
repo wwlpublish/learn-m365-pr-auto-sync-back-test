@@ -1,3 +1,5 @@
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4OO3B]
+
 In this exercise, you'll use the Azure AD application and .NET console application you previously created to find related entities and search for users by using the `$expand` and `$search` query parameters.
 
 > [!IMPORTANT]

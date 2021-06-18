@@ -24,4 +24,4 @@ By the end of this module, you'll be able to:
 
 Refer to the following repository for additional resources associated with this module. This repository includes completed code samples from the exercise units found in this module: [MicrosoftGraph/msgraph-training-optimize-data-usage](https://github.com/microsoftgraph/msgraph-training-optimize-data-usage).
 
-This module is also available as a screencast: [Optimize data usage when using Microsoft Graph with query parameters](https://youtu.be/8cIPfpRvCJ8)
+This module is also available as a screencast: [Optimize data usage when using Microsoft Graph with query parameters](https://youtube.com/playlist?list=PLWZJrkeLOrbaN6ec41NC27RsQW1VtRzsm)
