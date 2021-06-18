@@ -58,7 +58,7 @@ For example, when your tab loads, it can get the current Microsoft Teams client 
 
 Another option your custom tab can use to get Microsoft Teams context is through the Microsoft Teams JavaScript SDK. You can obtain context by calling the `microsoftTeams.getContext()` method and passing a success callback that returns the current Microsoft Teams context.
 
-The following table lists some of the noteworthy properties you have access to on the Microsoft teams context:
+The following table lists some of the noteworthy properties you have access to on the Microsoft Teams context:
 
 |   Property    |                                 Description                                 |
 | ------------- | --------------------------------------------------------------------------- |
@@ -76,7 +76,7 @@ The following table lists some of the noteworthy properties you have access to o
 
 In 2019, Microsoft introduced the capability to use a SharePoint Framework client-side web part as a tab in Microsoft Teams. As we've previously covered, a Microsoft Teams tab is just a web page loaded in an Iframe.
 
-The development process of a Microsoft Teams tab that's implemented using a SharePoint Framework client-side web part is nearly identical to creating a web part for a SharePoint site. Any web part can be exposed as a tab in Microsoft teams.
+The development process of a Microsoft Teams tab that's implemented using a SharePoint Framework client-side web part is nearly identical to creating a web part for a SharePoint site. Any web part can be exposed as a tab in Microsoft Teams.
 
 To enable a client-side web part to be used as a tab in Microsoft Teams, you'll need to update a single property in the component's manifest.
 

@@ -28,7 +28,7 @@ quiz:
     - content: "You can't, only Microsoft Teams tabs created using the Microsoft Teams SDK can be configured disable updating the tab's configuration. SharePoint client-side web part settings can always be updated."
       isCorrect: false
       explanation: "SharePoint client-side web parts inherit the same `canUpdateConfiguration` property set on a tab in the Microsoft Teams app manifest."
-    - content: "When the tab is added to a team in Microsoft teams, enable the **Disable configuration updates** setting."
+    - content: "When the tab is added to a team in Microsoft Teams, enable the **Disable configuration updates** setting."
       isCorrect: false
       explanation: "There's no **Disable configuration updates** setting when adding a tab to a team."
     - content: "Set the `canUpdateConfiguration` property in the Microsoft Teams app manifest to `false`."
