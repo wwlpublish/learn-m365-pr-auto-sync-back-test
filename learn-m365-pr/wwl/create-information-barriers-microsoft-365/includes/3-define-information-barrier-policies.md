@@ -7,20 +7,20 @@ Information barriers (IB) policies can play an integral part in an organization.
 
 The following requirements must be met before configuring an IB policy:
 
- -  **Licenses.** The minimum license needed is Office 365 E5/A5, although other licenses can be used. For a complete license list, see [required licenses and permissions](https://docs.microsoft.com/microsoft-365/compliance/information-barriers?azure-portal=true).
+ -  **Licenses.** The minimum license needed is Office 365 E5/A5, although other licenses can be used. For a complete license list, see [required licenses and permissions](/microsoft-365/compliance/information-barriers).
  -  **Directory data.** Organizations must ensure their structure is reflected in their directory data. For example, organizations should ensure that user account attributes, such as group membership, department name, and so on, are populated correctly in Azure Active Directory (or Exchange Online). For more information, see the following resources:
     
-     -  [Attributes for information barrier policies](https://docs.microsoft.com/microsoft-365/compliance/information-barriers-attributes?azure-portal=true).
-     -  [Add or update a user's profile information using Azure Active Directory](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-users-profile-azure-portal?azure-portal=true).
-     -  [Configure user account properties with Office 365 PowerShell](https://docs.microsoft.com/microsoft-365/enterprise/configure-user-account-properties-with-microsoft-365-powershell?azure-portal=true).
- -  **Scoped directory search.** Before an organization defines its first information barrier policy, it must [enable scoped directory search in Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/teams-scoped-directory-search?azure-portal=true). Wait at least 24 hours after enabling scoped directory search before you set up or define information barrier policies.
+     -  [Attributes for information barrier policies](/microsoft-365/compliance/information-barriers-attributes).
+     -  [Add or update a user's profile information using Azure Active Directory](/azure/active-directory/fundamentals/active-directory-users-profile-azure-portal).
+     -  [Configure user account properties with Office 365 PowerShell](/microsoft-365/enterprise/configure-user-account-properties-with-microsoft-365-powershell).
+ -  **Scoped directory search.** Before an organization defines its first information barrier policy, it must [enable scoped directory search in Microsoft Teams](/MicrosoftTeams/teams-scoped-directory-search). Wait at least 24 hours after enabling scoped directory search before you set up or define information barrier policies.
  -  **Exchange Online license.** Information barrier policies work only if the target users have been assigned an Exchange Online license.
- -  **Audit logging.** To look up the status of a policy application, audit logging must be turned on. It's recommended that you enable auditing before you begin to define segments or policies. For more information, see [Turn the audit log search on or off](https://docs.microsoft.com/microsoft-365/compliance/turn-audit-log-search-on-or-off?azure-portal=true).
- -  **No address book policies.** Before you define and apply information barrier policies, make sure no Exchange address book policies are in place. Information barriers are based on address book policies, but the two kinds of policies aren't compatible. If you do have such policies, make sure to [remove your address book policies](https://docs.microsoft.com/exchange/address-books/address-book-policies/remove-an-address-book-policy?azure-portal=true) first. Once information barrier policies are enabled and you have hierarchical address book enabled, all users **who aren't included** in an information barrier segment will see the [hierarchical address book](https://docs.microsoft.com/exchange/address-books/hierarchical-address-books/hierarchical-address-books?azure-portal=true) in Exchange Online.
+ -  **Audit logging.** To look up the status of a policy application, audit logging must be turned on. It's recommended that you enable auditing before you begin to define segments or policies. For more information, see [Turn the audit log search on or off](/microsoft-365/compliance/turn-audit-log-search-on-or-off).
+ -  **No address book policies.** Before you define and apply information barrier policies, make sure no Exchange address book policies are in place. Information barriers are based on address book policies, but the two kinds of policies aren't compatible. If you do have such policies, make sure to [remove your address book policies](/exchange/address-books/address-book-policies/remove-an-address-book-policy) first. Once information barrier policies are enabled and you have hierarchical address book enabled, all users **who aren't included** in an information barrier segment will see the [hierarchical address book](/exchange/address-books/hierarchical-address-books/hierarchical-address-books) in Exchange Online.
  -  **Azure PowerShell module.** Currently, information barrier policies are defined and managed in the Microsoft 365 Security and Compliance Center using PowerShell cmdlets. Organizations must install the Azure PowerShell module. For more information, see:
     
-     -  [Connect to Security &amp; Compliance Center PowerShell](https://docs.microsoft.com/powershell/exchange/connect-to-scc-powershell?azure-portal=true).
-     -  [Install the Azure PowerShell module](https://docs.microsoft.com/powershell/azure/install-az-ps?azure-portal=true).
+     -  [Connect to Security &amp; Compliance Center PowerShell](/powershell/exchange/connect-to-scc-powershell).
+     -  [Install the Azure PowerShell module](/powershell/azure/install-az-ps).
 
 ### Planning information barrier policies<br>
 
@@ -84,31 +84,31 @@ The following table provides a summarized view of each step along with additiona
 :::row-end:::
 :::row:::
   :::column:::
-    Step 1: [Learn about information barriers in Microsoft 365](https://docs.microsoft.com/microsoft-365/compliance/information-barriers?azure-portal=true)
+    Step 1: [Learn about information barriers in Microsoft 365](/microsoft-365/compliance/information-barriers)
   :::column-end:::
   :::column:::
     
 
- -  [Information barriers in Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/information-barriers-in-teams#how-policy-changes-impact-existing-chats?azure-portal=true)
+ -  [Information barriers in Microsoft Teams](/MicrosoftTeams/information-barriers-in-teams#how-policy-changes-impact-existing-chats?azure-portal=true)
     
- -  [Information barriers in SharePoint](https://docs.microsoft.com/sharepoint/information-barriers?azure-portal=true)
+ -  [Information barriers in SharePoint](/sharepoint/information-barriers)
     
- -  [information barriers in OneDrive](https://docs.microsoft.com/onedrive/information-barriers?azure-portal=true)
- -  [See the attributes that can be used for information barrier policies](https://docs.microsoft.com/microsoft-365/compliance/information-barriers-attributes?azure-portal=true)
- -  [Define policies for information barriers](https://docs.microsoft.com/microsoft-365/compliance/information-barriers-policies?azure-portal=true)
- -  [Edit (or remove) information barrier policies](https://docs.microsoft.com/microsoft-365/compliance/information-barriers-edit-segments-policies?azure-portal=true)
+ -  [information barriers in OneDrive](/onedrive/information-barriers)
+ -  [See the attributes that can be used for information barrier policies](/microsoft-365/compliance/information-barriers-attributes)
+ -  [Define policies for information barriers](/microsoft-365/compliance/information-barriers-policies)
+ -  [Edit (or remove) information barrier policies](/microsoft-365/compliance/information-barriers-edit-segments-policies)
 
 
   :::column-end:::
 :::row-end:::
 :::row:::
   :::column:::
-    Step 2: [Make sure prerequisites are met](https://docs.microsoft.com/microsoft-365/compliance/information-barriers-policies?azure-portal=true#prerequisites)
+    Step 2: [Make sure prerequisites are met](/microsoft-365/compliance/information-barriers-policies#prerequisites)
   :::column-end:::
   :::column:::
     
 
- -  Verify that you have the [required licenses and permissions](https://docs.microsoft.com/microsoft-365/compliance/information-barriers?azure-portal=true)
+ -  Verify that you have the [required licenses and permissions](/microsoft-365/compliance/information-barriers)
  -  Verify that your directory includes data for segmenting users
  -  Enable scoped directory search for Microsoft Teams
  -  Make sure audit logging is turned on
@@ -121,7 +121,7 @@ The following table provides a summarized view of each step along with additiona
 :::row-end:::
 :::row:::
   :::column:::
-    Step 3: [Segment users in your organization](https://docs.microsoft.com/microsoft-365/compliance/information-barriers-policies?view=o365-worldwide?azure-portal=true#part-1-segment-users)
+    Step 3: [Segment users in your organization](/microsoft-365/compliance/information-barriers-policies#part-1-segment-users)
 
   :::column-end:::
   :::column:::
@@ -137,7 +137,7 @@ The following table provides a summarized view of each step along with additiona
 :::row-end:::
 :::row:::
   :::column:::
-    Step 4: [Define information barrier policies](https://docs.microsoft.com/microsoft-365/compliance/information-barriers-policies?azure-portal=true#part-2-define-information-barrier-policies)
+    Step 4: [Define information barrier policies](/microsoft-365/compliance/information-barriers-policies#part-2-define-information-barrier-policies)
 
   :::column-end:::
   :::column:::
@@ -151,7 +151,7 @@ The following table provides a summarized view of each step along with additiona
 :::row-end:::
 :::row:::
   :::column:::
-    Step 5: [Apply information barrier policies](https://docs.microsoft.com/microsoft-365/compliance/information-barriers-policies?azure-portal=true#part-3-apply-information-barrier-policies)
+    Step 5: [Apply information barrier policies](/microsoft-365/compliance/information-barriers-policies#part-3-apply-information-barrier-policies)
 
   :::column-end:::
   :::column:::

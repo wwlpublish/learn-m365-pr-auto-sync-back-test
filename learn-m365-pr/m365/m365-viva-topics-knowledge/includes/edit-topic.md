@@ -24,4 +24,4 @@ To edit a topic page:
 
    To remove a related topic, select the topic you want to remove, then select **Remove topic > Remove**. 
 8. You can also add static items to the page — such as text, images, or links - by selecting the canvas icon, which you can find below the short description. This opens the SharePoint toolbox from which you can choose the item you want to add to the page. 
-9. Select **Publish** or **Republish** to save your changes. (**Republish** will be your available option if the topic has been published previously.) 
+9. Select **Publish** or **Republish** to save your changes. (**Republish** will be your available option if the topic has been published previously.)

@@ -20,7 +20,7 @@ quiz:
         explanation: "This is a generic term used to describe multiple technologies."
       - content: "Phone System with Calling Plan."
         isCorrect: false
-        explanation: "Phone System with Calling Plans is a technology that does not make use of Session Border Controllers."
+        explanation: "Phone System with Teams Calling Plans is a technology that does not make use of Session Border Controllers."
       - content: "Phone System with Direct Routing."
         isCorrect: true
         explanation: "Phone System with Direct Routing works through Session Border Controllers."

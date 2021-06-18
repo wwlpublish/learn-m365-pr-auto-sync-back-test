@@ -176,7 +176,7 @@ Where are the limitations and interdependencies of WIP?
   :::column:::
     
 
-Consider the limitations of WIP. For example, the Windows feature known as Direct Access (DA) is incompatible with WIP. WIP is designed for use only by a single user per device. For more information, see the following article on [the limitations of WIP](https://docs.microsoft.com/windows/security/information-protection/windows-information-protection/limitations-with-wip?azure-portal=true).
+Consider the limitations of WIP. For example, the Windows feature known as Direct Access (DA) is incompatible with WIP. WIP is designed for use only by a single user per device. For more information, see the following article on [the limitations of WIP](/windows/security/information-protection/windows-information-protection/limitations-with-wip).
 
 
 
@@ -332,7 +332,7 @@ All required networks should be added to the list of trusted locations. For exam
 > [!NOTE]
 > If you configure Outlook on the web (OWA) as a trustful networking place, all logins to **https://outlook.office.com** will be treated as trusted. In contrast to SharePoint Online, where your tenant name is a part of your web address (**&lt;tenant name&gt;.sharepoint.com**), Outlook on the web is available as a shared web address. If a user signs in to **https://outlook.office.com** using a login name from another tenant, they'll also be fully trusted in your environment.
 
-**Additional reading.** For more information, see [How to add custom apps for protection](https://docs.microsoft.com/windows/security/information-protection/windows-information-protection/create-wip-policy-using-intune-azure#add-store-apps?azure-portal=true).
+**Additional reading.** For more information, see [How to add custom apps for protection](/windows/security/information-protection/windows-information-protection/create-wip-policy-using-intune-azure#add-store-apps?azure-portal=true).
 
 ## Knowledge check
 
