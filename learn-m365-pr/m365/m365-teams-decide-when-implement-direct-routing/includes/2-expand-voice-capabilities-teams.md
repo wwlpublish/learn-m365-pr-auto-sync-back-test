@@ -20,14 +20,14 @@ Direct Routing may be right for your organization if:
 - You want to keep your users' existing telephone numbers, also known as direct inward dials (DIDs).
 - You have a contract with your existing telephony service provider.
 - Microsoft Calling Plan isn't available in your country (see below).
-- You want to use Microsoft Calling Plans as well as Direct Routing.
+- You want to use Teams Calling Plans as well as Direct Routing.
 - You want a controlled migration of non-Microsoft endpoints to Microsoft Teams.
 
 ## What other options are available?
 
 :::image type="content" source="../media/2-teams-direct-routing.png" alt-text="Direct Routing and Teams":::
 
-Microsoft Calling Plans is an alternative to Direct Routing. It's available in many, but not all countries. If Calling Plans isn't available in your country, Direct Routing is the alternative.
+Teams Calling Plans is an alternative to Direct Routing. It's available in many, but not all countries. If Teams Calling Plans isn't available in your country, Direct Routing is the alternative.
 
 ## What infrastructure do I need?
 
