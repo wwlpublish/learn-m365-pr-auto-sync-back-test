@@ -104,6 +104,6 @@ If you use the access token in your own API, you should implement accepted best 
 
 #### Use the access token to access Microsoft Graph
 
-In the scenario where your app needs to access Microsoft Graph, your code can use this token provided by Microsoft Teams to your app to start the [OAuth2 On-Behalf-Of (OBO) flow](https://docs.microsoft.com/azure/active-directory/develop/v2-oauth2-on-behalf-of-flow). When the token is used in this way, it's referred to as the "bootstrap token" because it's only used to obtain an access token that can be used to call Microsoft Graph.
+In the scenario where your app needs to access Microsoft Graph, your code can use this token provided by Microsoft Teams to your app to start the [OAuth2 On-Behalf-Of (OBO) flow](/azure/active-directory/develop/v2-oauth2-on-behalf-of-flow). When the token is used in this way, it's referred to as the "bootstrap token" because it's only used to obtain an access token that can be used to call Microsoft Graph.
 
 Other units in this module will focus on the specifics of each implementation of SSO in tabs and bots.
