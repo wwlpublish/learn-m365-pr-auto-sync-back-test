@@ -1,3 +1,5 @@
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4OARo]
+
 In this exercise, you'll add a custom tab to a Microsoft Teams app and use single sign-on (SSO) to obtain an access token to submit requests to Microsoft Graph.
 
 > [!IMPORTANT]
@@ -185,6 +187,8 @@ When the tab loads, it will initiate the SSO process with Azure AD and obtain an
 
 ## Add support to submit requests to Microsoft Graph
 
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4ODdg]
+
 At this point, our tab uses Microsoft Teams' SSO support to obtain an ID token for the current user. This ID token can only be used to identify the user, but it can't be used to authenticate requests with Microsoft Graph.
 
 To submit requests to Microsoft Graph, you must include an access token with the necessary permissions for Microsoft Graph for the current user. You can update the project to submit the ID token to Azure AD's token endpoint to exchange it for an access token that can be used to authenticate requests to Microsoft Graph. This is done by implementing the [OAuth2 On-Behalf-Of (OBO) flow](/azure/active-directory/develop/v2-oauth2-on-behalf-of-flow), but this can't be done client-side, rather it must be done server-side.
@@ -353,6 +357,8 @@ useEffect(() => {
 At this point, the tab has an access token that will authenticate requests to Microsoft Graph, so the next step is to submit a request to Microsoft Graph.
 
 ### Display a list of upcoming meetings
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4OARC]
 
 In this step, you'll update the Azure AD app and Microsoft Teams app project to display a list of the recent emails received by the currently logged in user with Microsoft Graph.
 
