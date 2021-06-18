@@ -22,4 +22,4 @@ In this module, you'll learn how to create and add bots to custom Microsoft Team
 
 Refer to the following repository for additional resources associated with this module. This repository includes completed code samples from the exercise units found in this module: [40 Create interactive conversational bots for Microsoft Teams](https://github.com/OfficeDev/TrainingContent/tree/master/Teams/40%20Conversational%20Bots).
 
-This module is also available as the screencast [Create interactive conversational bots for Microsoft Teams](https://www.youtube.com/watch?v=zSIysk0yL0Q).
+This module is also available as the screencast [Create interactive conversational bots for Microsoft Teams](https://youtube.com/playlist?list=PLWZJrkeLOrbbh9EgDsFylRx4XmXbWaG4B).

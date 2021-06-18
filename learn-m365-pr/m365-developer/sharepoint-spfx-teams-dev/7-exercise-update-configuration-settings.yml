@@ -3,7 +3,7 @@ uid: learn-m365.sharepoint-spfx-teams-dev.7-exercise-update-configuration-settin
 metadata:
   title: Exercise - Update configuration settings
   description: In this exercise, you'll update the configuration settings for the SharePoint Framework application and the configuration details of the Microsoft Teams application.
-  ms.date: 11/30/2020
+  ms.date: 06/17/2021
   author: andrewconnell
   ms.author: v-johnco
   ms.topic: interactive-tutorial
@@ -28,7 +28,7 @@ quiz:
     - content: "You can't, only Microsoft Teams tabs created using the Microsoft Teams SDK can be configured disable updating the tab's configuration. SharePoint client-side web part settings can always be updated."
       isCorrect: false
       explanation: "SharePoint client-side web parts inherit the same `canUpdateConfiguration` property set on a tab in the Microsoft Teams app manifest."
-    - content: "When the tab is added to a team in Microsoft teams, enable the **Disable configuration updates** setting."
+    - content: "When the tab is added to a team in Microsoft Teams, enable the **Disable configuration updates** setting."
       isCorrect: false
       explanation: "There's no **Disable configuration updates** setting when adding a tab to a team."
     - content: "Set the `canUpdateConfiguration` property in the Microsoft Teams app manifest to `false`."
