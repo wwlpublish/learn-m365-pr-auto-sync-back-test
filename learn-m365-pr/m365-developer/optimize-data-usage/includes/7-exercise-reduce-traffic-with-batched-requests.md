@@ -109,7 +109,7 @@ Select the **Run Query** button.
 
 Observe the results in the **Response Preview** box at the bottom of the page:
 
-![Screenshot of Microsoft Graph batch response](../media/graph-explorer-05.png)
+![Screenshot of Microsoft Graph batch response in Graph Explorer](../media/graph-explorer-05.png)
 
 Notice this response contains two objects. The first request resulted in an HTTP 201 that says the item, or folder, was created.
 
