@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.implement-windows-autopilot.plan-autopilot-profile-settings
+title: Plan the settings for Windows Autopilot profiles
+metadata:
+  title: Plan the settings for Windows Autopilot profiles
+  description: "Plan the settings for Windows Autopilot profiles"
+  ms.date: 06/16/2021
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+durationInMinutes: 2
+content: |
+  [!include[](includes/4-plan-autopilot-profile-settings.md)]

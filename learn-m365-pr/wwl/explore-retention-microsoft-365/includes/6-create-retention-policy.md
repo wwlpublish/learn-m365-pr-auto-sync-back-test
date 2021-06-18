@@ -140,7 +140,7 @@ The following steps show how to create a retention policy with PowerShell:
     This command holds content for an unlimited time. It's also assigned to a policy that's valid for all locations.
 4.  Check the newly created retention policy and rule by using the Get cmdlets in SCC PowerShell or within the Security &amp; Compliance Center.
 
-**Additional reading**: For more information, see the following article titled [Connect to Office 365 Security &amp; Compliance Center PowerShell](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell?azure-portal=true).
+**Additional reading**: For more information, see the following article titled [Connect to Office 365 Security &amp; Compliance Center PowerShell](/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell).
 
 ### Use advanced retention settings
 

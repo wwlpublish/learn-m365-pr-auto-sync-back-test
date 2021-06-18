@@ -36,8 +36,8 @@ units:
 - learn-m365.msgraph-show-user-emails.4-exercise-connect-javascript-app
 - learn-m365.msgraph-show-user-emails.5-show-users-email
 - learn-m365.msgraph-show-user-emails.6-exercise-show-users-email
-- learn-m365.msgraph-show-user-emails.7-page-users-email
-- learn-m365.msgraph-show-user-emails.8-exercise-page-users-email
+- learn-m365.msgraph-show-user-emails.7-load-users-email-batches
+- learn-m365.msgraph-show-user-emails.8-exercise-load-users-email-batches
 - learn-m365.msgraph-show-user-emails.9-summary
 badge:
   uid: learn-m365.msgraph-show-user-emails.badge

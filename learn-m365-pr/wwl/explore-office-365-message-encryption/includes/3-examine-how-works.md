@@ -21,4 +21,4 @@ The following diagram summarizes the passage of an email message through the enc
 :::image type="content" source="../media/email-flow-through-encryption-decryption-539e7d7c.jpg" alt-text="graphic summarizes the passage of an email message through the encryption and decryption process":::
 
 
-**Additional reading.** For more information, see [Encryption in Office 365](https://docs.microsoft.com/microsoft-365/compliance/encryption?azure-portal=true).<br>
+**Additional reading.** For more information, see [Encryption in Office 365](/microsoft-365/compliance/encryption).<br>
