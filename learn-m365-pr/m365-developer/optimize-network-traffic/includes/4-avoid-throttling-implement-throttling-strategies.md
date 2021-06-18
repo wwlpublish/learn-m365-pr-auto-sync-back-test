@@ -1,3 +1,5 @@
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4OIAy]
+
 ## Options for addressing throttling
 
 If an application relies on external services that implement some request throttling or rate-limiting, the developers of the application should incorporate it into the application design.

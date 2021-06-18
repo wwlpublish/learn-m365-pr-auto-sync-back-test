@@ -1,3 +1,5 @@
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4OIAC]
+
 ## Avoid polling Microsoft Graph for changes
 
 One common scenario that custom applications implement is polling Microsoft Graph on scheduled intervals. Typically this strategy is used to keep the application’s local data store in sync with data exposed in Microsoft Graph. However, polling Microsoft Graph for changes usually requires multiple GET requests for data to submit in succession, a scenario that commonly triggers requests to be throttled.

@@ -1,3 +1,5 @@
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4OIAD]
+
 In this exercise, you'll use the Azure AD application and .NET console application you previously created and modify them to demonstrate two strategies to account for throttling in your application.
 
 The first strategy you'll employ involves working with the `HttpClient` object to call the base Microsoft Graph REST API. This approach will enable you to see the underlying protocol responses and how to handle them.
@@ -269,6 +271,8 @@ In this case, the **messages** endpoint returned a `Retry-After` value of one (1
 The important point is that the application completed successfully, retrieving all 100 messages, even when some requests were rejected because of being throttled by Microsoft Graph.
 
 ## Implement Microsoft Graph SDK for throttling retry strategy
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4OIAB]
 
 In the last section, you modified the application to implement a strategy to determine if a request is throttled. In the case the request was throttled, as indicated by the response to the REST endpoint request, you implemented a retry strategy using the `HttpClient`.
 

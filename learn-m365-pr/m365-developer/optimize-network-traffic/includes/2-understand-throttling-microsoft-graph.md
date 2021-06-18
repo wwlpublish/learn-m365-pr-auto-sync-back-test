@@ -1,3 +1,5 @@
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4OO3C]
+
 ## Understand throttling in Microsoft Graph
 
 Microsoft Graph is designed to handle a high volume of requests. If an overwhelming number of requests occurs, throttling helps maintain optimal performance and reliability of the Microsoft Graph service. Throttling limits the number of concurrent calls to a service to prevent overuse of resources.
@@ -25,6 +27,8 @@ Any requests made before this delay time have elapsed will continue to be thrott
 While some requests are throttled, other requests by the same client to the same endpoint may be allowed. For instance, a high volume of write requests could trigger Microsoft Graph to throttle future write requests, but read requests would still be allowed.
 
 ## Identifying throttled requests
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4OO3D]
 
 The first step to understanding throttling is knowing how to identify Microsoft Graph is throttling requests.
 

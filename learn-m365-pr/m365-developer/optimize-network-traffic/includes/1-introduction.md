@@ -20,4 +20,4 @@ By the end of this module, you'll be able to:
 
 Refer to the following repository for additional resources associated with this module. This repository includes completed code samples from the exercise units found in this module: [MicrosoftGraph/msgraph-training-optimize-network-traffic](https://github.com/microsoftgraph/msgraph-training-optimize-network-traffic).
 
-This module is also available as a screencast: [Optimize Network Traffic with Microsoft Graph](https://youtu.be/cVIGICXp9Ws)
+This module is also available as a screencast: [Optimize Network Traffic with Microsoft Graph](https://youtube.com/playlist?list=PLWZJrkeLOrbabcgkU-_DQJfEUbIw1qZeK)
