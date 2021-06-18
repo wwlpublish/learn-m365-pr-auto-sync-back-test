@@ -139,7 +139,7 @@ This interface merges the custom properties (defined above) with the standard pr
 Create a new file **IPropertyPaneContinentSelectorInternalProps.ts** in the **./src/controls/PropertyPaneContinentSelector** folder. Add the following code to the **IPropertyPaneContinentSelectorInternalProps.ts** file:
 
 ```typescript
-import { IPropertyPaneCustomFieldProps } from '@microsoft/sp-webpart-base';
+import { IPropertyPaneCustomFieldProps } from '@microsoft/sp-property-pane';
 import { IPropertyPaneContinentSelectorProps } from './IPropertyPaneContinentSelectorProps';
 
 export interface IPropertyPaneContinentSelectorInternalProps extends IPropertyPaneCustomFieldProps, IPropertyPaneContinentSelectorProps { }
