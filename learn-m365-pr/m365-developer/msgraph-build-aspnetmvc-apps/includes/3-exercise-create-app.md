@@ -1,3 +1,5 @@
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4OG3g]
+
 In this exercise, you'll create an ASP.NET MVC web application with Visual Studio and Azure AD application with the Azure Active Directory admin center. Once the application is created, you'll then add the necessary packages and libraries that support user authentication and requesting data from Microsoft Graph.
 
 ## Prerequisites

@@ -1,3 +1,5 @@
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4OO3i]
+
 In this exercise, you'll extend the application from the previous exercise to support authentication with Azure AD. This is required to obtain the necessary OAuth access token to call the Microsoft Graph API. In this step, you'll integrate the OWIN middleware and the [Microsoft Authentication Library](https://www.nuget.org/packages/Microsoft.Identity.Client/) library into the application.
 
 Right-click the **graph-tutorial** project in **Solution Explorer** and select **Add > New Item...**.
@@ -227,6 +229,8 @@ This defines a `SignIn` and `SignOut` action. The `SignIn` action checks if the 
 Save your changes and start the project. Select the **Sign In** button and you should be redirected to `https://login.microsoftonline.com`. Log in with your Microsoft account and consent to the requested permissions. The browser redirects to the app, showing the token.
 
 ### Get user details
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4OG3c]
 
 Once the user is logged in, you can get their information from Microsoft Graph.
 

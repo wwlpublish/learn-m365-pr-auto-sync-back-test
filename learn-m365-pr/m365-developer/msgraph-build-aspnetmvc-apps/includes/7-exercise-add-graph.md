@@ -1,3 +1,5 @@
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4OATc]
+
 In this exercise, you'll incorporate Microsoft Graph into the application. For this application, you'll use the [Microsoft Graph Client Library for .NET](https://github.com/microsoftgraph/msgraph-sdk-dotnet) to make calls to Microsoft Graph.
 
 ## Get calendar events from Outlook
