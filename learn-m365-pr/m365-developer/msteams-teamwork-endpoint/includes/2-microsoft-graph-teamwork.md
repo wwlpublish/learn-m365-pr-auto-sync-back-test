@@ -127,4 +127,4 @@ GET https://graph.microsoft.com/v1.0/me/joinedTeams
 
 Some APIs related to Microsoft Teams exposed by Microsoft Graph access sensitive data. These are considered *protected APIs* and require more validation beyond the typical permissions and consent other APIs require.
 
-In order for your app to use one of the protected APIs, you must submit a request to Microsoft for review. You can learn more about protected APIs, including which APIs are included in this list and the review process from the Microsoft Graph documentation: [Microsoft Graph: Protected APIs in Microsoft Teams](https://docs.microsoft.com/graph/teams-protected-apis)
+In order for your app to use one of the protected APIs, you must submit a request to Microsoft for review. You can learn more about protected APIs, including which APIs are included in this list and the review process from the Microsoft Graph documentation: [Microsoft Graph: Protected APIs in Microsoft Teams](/graph/teams-protected-apis)
