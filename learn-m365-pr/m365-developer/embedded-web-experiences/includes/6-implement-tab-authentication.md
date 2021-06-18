@@ -1,3 +1,5 @@
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4NzEx]
+
 In this unit, you'll learn how to implement authentication with Microsoft Teams tabs.
 
 ## Authentication and Microsoft Teams tabs
@@ -39,6 +41,8 @@ A basic understanding of the OAuth 2.0 implicit grant flow is a prerequisite for
 1. The tab either displays configuration UI or refreshes or reloads the tab's content, based on where the user started.
 
 ## Authentication pop-up page flow
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4NzEv]
 
 Before you implement authentication in your Microsoft Teams tab, you must first configure your identity provider. In a scenario where Azure AD is the selected identity provider, you need to register a new Azure AD application and define the permissions that the application needs. The user is required to consent to these permissions to the application when they first sign in to the application.
 

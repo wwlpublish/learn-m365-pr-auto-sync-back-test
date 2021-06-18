@@ -54,7 +54,7 @@ IRM-based solutions that AD RMS supports can't prevent all types of threats to t
 
 ### Configure and test IRM<br>
 
-You use the Exchange Management Shell to configure IRM features in Exchange. For procedures, see [Managing Rights Protection](https://docs.microsoft.com/Exchange/information-rights-management-procedures-exchange-2013-help?azure-portal=true).
+You use the Exchange Management Shell to configure IRM features in Exchange. For procedures, see [Managing Rights Protection](/Exchange/information-rights-management-procedures-exchange-2013-help).
 
 After you install and configure a Mailbox server, you can use the **Test-IRMConfiguration** cmdlet to conduct end-to-end tests of your IRM deployment. The cmdlet performs these tests:
 
@@ -66,4 +66,4 @@ After you install and configure a Mailbox server, you can use the **Test-IRMConf
  -  Retrieves a Super User use license for the specified recipient.<br>
  -  Acquires a prelicense for the specified recipient.<br>
 
-**Additional reading.** For more information, see [Test-IRMConfiguration](https://docs.microsoft.com/powershell/module/exchange/test-irmconfiguration?azure-portal=true).
+**Additional reading.** For more information, see [Test-IRMConfiguration](/powershell/module/exchange/test-irmconfiguration).

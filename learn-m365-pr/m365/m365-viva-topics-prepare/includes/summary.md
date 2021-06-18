@@ -19,5 +19,3 @@ Now that you've finished this module, you've learned to:
 - [Apply sensitivity labels](/microsoft-365/compliance/sensitivity-labels)  
 - [Data Loss Prevention policies](/microsoft-365/compliance/data-loss-prevention-policies)
 - [Microsoft Tech Community](https://resources.techcommunity.microsoft.com/viva-topics/) is a place to interact, ask questions, share ideas or observations with peers, developers, end users for Microsoft 365 and other Microsoft technologies.
-
- 

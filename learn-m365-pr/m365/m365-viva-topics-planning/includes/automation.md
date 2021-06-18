@@ -48,4 +48,4 @@ Automate this scenario in Viva Topics to ensure:
 - Support call times are reduced. 
 - Escalations to 2nd and 3rd tier support are reduced. 
 - Number of call-backs on a given case are reduced. 
-- Customer satisfaction is increased. 
+- Customer satisfaction is increased.

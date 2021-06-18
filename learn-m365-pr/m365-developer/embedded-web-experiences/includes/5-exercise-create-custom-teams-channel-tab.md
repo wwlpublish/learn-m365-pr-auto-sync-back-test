@@ -1,3 +1,5 @@
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4NzEt]
+
 In this exercise, you'll learn how to create a channel tab with a configuration page in a Microsoft Teams app.
 
 > [!IMPORTANT]
@@ -158,6 +160,8 @@ The configuration page opens with the updated component.
 Select one of the math operators, and save your changes by selecting **Save**. The tab should display the selected operator with the **MathPage** suffix.
 
 ## Implement the channel tab
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4NCi7]
 
 The last step is to implement the channel tab.
 

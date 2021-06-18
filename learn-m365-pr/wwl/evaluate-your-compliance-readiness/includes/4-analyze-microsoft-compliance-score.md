@@ -14,9 +14,9 @@ The main Compliance Score page is your custom dashboard. It shows the organizati
 
 ### Understanding your score
 
-Your compliance score is featured prominently at the top of the Compliance Score page. It shows a percentage based on points achievable for completing improvement actions that address key data protection standards and regulations. Points from [Microsoft actions](https://docs.microsoft.com/microsoft-365/compliance/compliance-manager-assessments?azure-portal=true), which are managed my Microsoft, also count toward your compliance score.
+Your compliance score is featured prominently at the top of the Compliance Score page. It shows a percentage based on points achievable for completing improvement actions that address key data protection standards and regulations. Points from [Microsoft actions](/microsoft-365/compliance/compliance-manager-assessments), which are managed my Microsoft, also count toward your compliance score.
 
-When you come to Compliance Manager for the first time, your initial score is based on the [Microsoft 365 data protection baseline](https://docs.microsoft.com/microsoft-365/compliance/compliance-manager-assessments?azure-portal=true). This baseline assessment, which is available to all organizations, is a set of controls that includes common industry regulations and standards. Compliance Manager scans your existing Microsoft 365 solutions and gives you an initial assessment based on your current privacy and security settings. As you add assessments that are relevant to your organization, your score becomes more meaningful for you.
+When you come to Compliance Manager for the first time, your initial score is based on the [Microsoft 365 data protection baseline](/microsoft-365/compliance/compliance-manager-assessments). This baseline assessment, which is available to all organizations, is a set of controls that includes common industry regulations and standards. Compliance Manager scans your existing Microsoft 365 solutions and gives you an initial assessment based on your current privacy and security settings. As you add assessments that are relevant to your organization, your score becomes more meaningful for you.
 
 The Compliance Score dashboard displays a score that measures an organization's progress in completing improvement actions within controls. The organization accrues points when it completes actions. An organization's score is calculated based on the completion of Microsoft-managed actions and customer-managed actions. Each action has a different impact on the score, depending on the potential risks involved. This design enables the Compliance Score to rank which action to focus on to improve a company's overall compliance posture.
 
@@ -27,7 +27,7 @@ The Compliance Score values that are displayed for the control are applied in th
 
 The sum of points earned by taking improvement actions is the control score. The sum of a company's control scores is its assessment score. The sum of the company's assessment scores is its overall compliance score.
 
-**Additional reading.** For more information about compliance scoring, see [How Compliance Score continuously assesses controls](https://docs.microsoft.com/microsoft-365/compliance/compliance-score-methodology?azure-portal=true).
+**Additional reading.** For more information about compliance scoring, see [How Compliance Score continuously assesses controls](/microsoft-365/compliance/compliance-score-methodology).
 
 ## Knowledge check
 
