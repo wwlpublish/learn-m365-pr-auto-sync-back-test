@@ -1,3 +1,5 @@
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4Oycs]
+
 In this unit, you’ll learn how to get a reference to and download a user’s profile photo and how to get the user’s manager’s profile.
 
 ## User profile photos
