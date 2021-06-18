@@ -27,7 +27,7 @@ In the next unit, you’ll learn about the many customer focus analyses you can 
 
 ## Learn more
 
-- [Increase customer focus with Workplace Analytics](https://docs.microsoft.com/workplace-analytics/use/customer-focus?azure-portal=true)
+- [Increase customer focus with Workplace Analytics](/workplace-analytics/use/customer-focus?azure-portal=true)
 - [3 Behaviors That Drive Successful Salespeople](https://hbr.org/2014/08/3-behaviors-that-drive-successful-salespeople?azure-portal=true)
 - [The Analytics of Sales Time Well Spent](https://www.bain.com/insights/the-analytics-of-sales-time-well-spent?azure-portal=true)
 - [Is Your Sales Organization a House Divided?](https://www.bain.com/insights/is-your-sales-organization-a-house-divided-chart?azure-portal=true)

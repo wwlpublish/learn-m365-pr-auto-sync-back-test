@@ -23,14 +23,14 @@ You outline the following high-level decisions and tasks to be implemented acros
 |***Infrastructure***|Review all of the approved infrastructure changes.|Validate all the changes.|Implement all the changes.|Agree that deployment readiness criteria have been met (pass or fail).|
 |***Configuration***|Review new security settings.|Review security baselines for changes.|Implement and validate security settings and baseline changes.|Create a security and settings baseline file.|
 
-:::image type="content" source="../media/2-compatibility-arrow.png" border="false"alt-text="Deployment":::
+:::image type="content" source="../media/2-compatibility-arrow.png" border="false"alt-text="Compatilibility":::
 
 ||||||
 |---------|---------|---------|---------|---------|
 |***Applications***|Define application validation plan|Validate applications|Remediate apps and escalate failures|Determine Pilot deployment readiness
 |***Devices***|Identify devices|Configure devices|Identify users|Validate by pilot testing on devices|
 
-:::image type="content" source="../media/2-capability-arrow.png" border="false"alt-text="Deployment":::
+:::image type="content" source="../media/2-capability-arrow.png" border="false"alt-text="Capability & modernization":::
 
 ||||||
 |---------|---------|---------|---------|---------|

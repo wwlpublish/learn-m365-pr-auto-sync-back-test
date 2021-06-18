@@ -165,6 +165,6 @@ In the next unit, you’ll learn more about the Microsoft 365 tools you can use 
 
 ## Learn more
 
-- [Workplace Analytics Resource playbooks](https://docs.microsoft.com/workplace-analytics/use/playbooks?azure-portal=true)
-- [Instructions to upload CRM data](https://docs.microsoft.com/workplace-analytics/setup/crm-data-upload?azure-portal=true)
-- [Workplace Analytics best practices](https://docs.microsoft.com/workplace-analytics/tutorials/gm-best-practices?azure-portal=true)
+- [Workplace Analytics Resource playbooks](/workplace-analytics/use/playbooks?azure-portal=true)
+- [Instructions to upload CRM data](/workplace-analytics/setup/crm-data-upload?azure-portal=true)
+- [Workplace Analytics best practices](/workplace-analytics/tutorials/gm-best-practices?azure-portal=true)
