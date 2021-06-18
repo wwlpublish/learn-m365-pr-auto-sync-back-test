@@ -1,7 +1,7 @@
 Here's an example of a small room configuration. The compute module is the heart of Teams Rooms. Everything will eventually connect to it. The compute module is a computer that runs Window 10 IoT Enterprise.
 
 - The middle of table console connects to the compute module via USB. This console is what meeting attendees interact with.
-- In this example, microphone, audio, and camera are all contained in one unit, and that connects via USB to the compute module. 
+- In this example, microphone, audio, and camera are all contained in one unit, and that connects via USB to the compute module.
 - The display connects via HDMI to the compute module. You may also enable touchscreen via USB if the display supports it.
 
 ![Simple Rooms configuration](../media/simple-configuration.png)
