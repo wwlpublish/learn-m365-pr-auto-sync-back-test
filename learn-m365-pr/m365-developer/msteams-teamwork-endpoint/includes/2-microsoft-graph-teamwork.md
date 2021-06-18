@@ -1,3 +1,5 @@
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4OyaF]
+
 Microsoft Graph can be used to integrate your custom applications and processes. Developers can use Microsoft Graph to create new teams and channels, install apps in new teams, and pin apps to a tab in new channels, among other things.
 
 In this unit, you'll learn how to create an application that interacts with Microsoft Teams using Microsoft Graph.
@@ -22,7 +24,7 @@ Let customers create new teams and channels. Install your Teams app in the new t
 
 ### Create and manage multiple teams and channels
 
-Microsoft Graph makes it easy to create large numbers of teams and populate them with users and channels, by automate creating and managing teams, channels, tabs, and apps. Microsoft Graph also lets you find and archive the teams you're no longer using. This is the same API that the Microsoft Teams Admin Center and Teams PowerShell commandlets are built on.
+Microsoft Graph makes it easy to create large numbers of teams and populate them with users and channels, by automate creating and managing teams, channels, tabs, and apps. Microsoft Graph also lets you find and archive the teams you're no longer using. This is the same API that the Microsoft Teams Admin Center and Teams PowerShell cmdlets are built on.
 
 ### Deploy apps to teams
 
@@ -43,9 +45,6 @@ Microsoft Teams supports subscribing to changes (create, update, and delete) to 
 ## Microsoft Graph's teamwork endpoint
 
 Let's explore some of the things you can do with Microsoft Graph's teamwork endpoint, the way you interact with Microsoft Teams with an API.
-
-> [!NOTE]
-> Currently the teamwork endpoint is pre-release and available through Microsoft Graph's beta endpoint: `https://graph.microsoft.com/beta`.
 
 ### Create teams
 
@@ -87,10 +86,10 @@ POST https://graph.microsoft.com/v1.0/groups
 Once a Microsoft 365 group has been created, you then convert it to a Microsoft Teams team with the `/teams` endpoint. To do this, submit an HTTP POST that includes the ID of the Microsoft 365 group to convert to a team:
 
 ```http
-POST https://graph.microsoft.com/beta/teams
+POST https://graph.microsoft.com/v1.0/teams
 Content-Type: application/json
 {
-  "template@odata.bind": "https://graph.microsoft.com/beta/teamsTemplates('standard')",
+  "template@odata.bind": "https://graph.microsoft.com/v1.0/teamsTemplates('standard')",
   "group@odata.bind": "https://graph.microsoft.com/v1.0/groups('groupId')"
 }
 ```
@@ -128,4 +127,4 @@ GET https://graph.microsoft.com/v1.0/me/joinedTeams
 
 Some APIs related to Microsoft Teams exposed by Microsoft Graph access sensitive data. These are considered *protected APIs* and require more validation beyond the typical permissions and consent other APIs require.
 
-In order for your app needs to use one of the protected APIs, you must submit a request to Microsoft for review. You can learn more about protected APIs, including which APIs are included in this list and the review process from the Microsoft Graph documentation: [Microsoft Graph: Protected APIs in Microsoft Teams](https://docs.microsoft.com/graph/teams-protected-apis)
+In order for your app to use one of the protected APIs, you must submit a request to Microsoft for review. You can learn more about protected APIs, including which APIs are included in this list and the review process from the Microsoft Graph documentation: [Microsoft Graph: Protected APIs in Microsoft Teams](/graph/teams-protected-apis)

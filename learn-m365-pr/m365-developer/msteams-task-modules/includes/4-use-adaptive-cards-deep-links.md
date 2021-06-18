@@ -1,3 +1,5 @@
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4OO1q]
+
 In this unit, you’ll learn how to use Adaptive Cards in a custom task module in a custom Microsoft Teams app. You’ll also learn how to invoke task modules from anywhere within Microsoft Teams using deep links.
 
 ## Overview of adaptive cards

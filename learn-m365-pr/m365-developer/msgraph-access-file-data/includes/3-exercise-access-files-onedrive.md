@@ -1,4 +1,22 @@
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4OO2J]
+
 In this exercise, you'll create a .NET Core console app that will access and download files from a user's OneDrive account using Microsoft Graph.
+
+## Prerequisites
+
+Developing Microsoft Graph apps requires a Microsoft 365 tenant.
+
+For the Microsoft 365 tenant, follow the instructions on the [Microsoft 365 Developer Program](https://developer.microsoft.com/microsoft-365/dev-program) site for obtaining a developer tenant if you don't currently have a Microsoft 365 account.
+
+You'll use the .NET SDK to create custom Microsoft Graph app in this module. The exercises in this module assume you have the following tools installed on your developer workstation.
+
+> [!IMPORTANT]
+> In most cases, installing the latest version of the following tools is the best option. The versions listed here were used when this module was published and last tested.
+
+- [.NET SDK](https://dotnet.microsoft.com/) - v5.\* (or higher)
+- [Visual Studio Code](https://code.visualstudio.com)
+
+You must have the minimum versions of these prerequisites installed on your workstation.
 
 ## Create an Azure AD application
 
@@ -70,8 +88,7 @@ In the **Configured Permissions** panel, select the button **Grant admin consent
 
 ## Create .NET Core console application
 
-> [!NOTE]
-> The instructions below assume you are using .NET 5. They were last tested using v5.0.202 of the .NET 5 SDK.
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4OO2L]
 
 Open your command prompt, navigate to a directory where you have rights to create your project, and run the following command to create a new .NET Core console application:
 
@@ -356,6 +373,8 @@ After entering the username and password of a user, you'll see the results of al
 ![Screenshot of the console application showing all files in the currently signed-in user's OneDrive root folder](../media/03-app-run-01.png)
 
 ## Display a specific file
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4OO2M]
 
 Now, update the console app to show the details of a specific file.
 
