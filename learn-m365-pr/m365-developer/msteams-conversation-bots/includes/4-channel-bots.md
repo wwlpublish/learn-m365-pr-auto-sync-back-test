@@ -1,3 +1,5 @@
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4NzEs]
+
 Conversation bots can do many things within the Microsoft Teams client. They can subscribe to channel or group chat events, listen for and act on Microsoft Teams specific events and even update their own messages.
 
 In this unit, you’ll learn how to expand on your existing bot to add some of this functionality.

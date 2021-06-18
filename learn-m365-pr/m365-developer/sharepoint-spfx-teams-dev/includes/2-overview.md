@@ -58,7 +58,7 @@ For example, when your tab loads, it can get the current Microsoft Teams client 
 
 Another option your custom tab can use to get Microsoft Teams context is through the Microsoft Teams JavaScript SDK. You can obtain context by calling the `microsoftTeams.getContext()` method and passing a success callback that returns the current Microsoft Teams context.
 
-The following table lists some of the noteworthy properties you have access to on the Microsoft teams context:
+The following table lists some of the noteworthy properties you have access to on the Microsoft Teams context:
 
 |   Property    |                                 Description                                 |
 | ------------- | --------------------------------------------------------------------------- |
@@ -76,7 +76,7 @@ The following table lists some of the noteworthy properties you have access to o
 
 In 2019, Microsoft introduced the capability to use a SharePoint Framework client-side web part as a tab in Microsoft Teams. As we've previously covered, a Microsoft Teams tab is just a web page loaded in an Iframe.
 
-The development process of a Microsoft Teams tab that's implemented using a SharePoint Framework client-side web part is nearly identical to creating a web part for a SharePoint site. Any web part can be exposed as a tab in Microsoft teams.
+The development process of a Microsoft Teams tab that's implemented using a SharePoint Framework client-side web part is nearly identical to creating a web part for a SharePoint site. Any web part can be exposed as a tab in Microsoft Teams.
 
 To enable a client-side web part to be used as a tab in Microsoft Teams, you'll need to update a single property in the component's manifest.
 
@@ -96,15 +96,15 @@ The process of configuring a SharePoint Framework client-side web part to be use
 
 The Microsoft Teams app manifest tells Microsoft Teams about your custom app. It contains the name and location of the images, name and description of the tabs, the location of the application, and other metadata about the app.
 
-When you use a SharePoint Framework client-side web part as a tab, you can create the app manifest yourself, or to let SharePoint create it for you.
+When you use a SharePoint Framework client-side web part as a tab, you can create the app manifest yourself, or let SharePoint create it for you.
 
 After uploading and deploying the SharePoint package to the SharePoint App Catalog, you'll notice a **Sync to Teams** button in the ribbon when you select the package.
 
 ![Screenshot of the App Catalog with Sync to Teams button](../media/03-sync-to-teams.png)
 
-When you select the **Sync to Teams** button, SharePoint will create the Microsoft Teams app package and upload it to your tenant's Microsoft Teams store. The Microsoft Teams app package contains the tab's images and the manifest file.
+When you select the **Sync to Teams** button, SharePoint will look for a custom Teams app package named **TeamsSPFxApp.zip** in the **./teams** folder of your project. If SharePoint doesn't find this file, then it will dynamically create the Teams app manifest and package. SharePoint will then deploy the Teams app package (custom or generated) to the tenant's Teams app store. For more information, see the documentation: [Deployment options for SharePoint Framework solutions for Microsoft Teams](/sharepoint/dev/spfx/deployment-spfx-teams-solutions).
 
-If a manifest file is present in your **./teams** folder, SharePoint will use it. If it doesn't exist, SharePoint will create one automatically. The following code contains the default template for the **manifest.json** file that you can use as a template if you create your own manifest:
+The following code contains the default template for the **manifest.json** file that you can use as a template if you create your own manifest:
 
 ```json
 {

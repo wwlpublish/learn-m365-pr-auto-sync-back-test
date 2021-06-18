@@ -1,3 +1,5 @@
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4OARr]
+
 Developers can create custom tabs for Microsoft Teams that display user information using Microsoft Graph. Because users sign in to Microsoft Teams via their Azure Active Directory (Azure AD) accounts in Microsoft 365, developers can take advantage of this by implementing single sign-on (SSO) to authorize the tab.
 
 If a user consents to use your app, they don't have to consent again on another device as they're signed in automatically. Also, your access token is prefetched to improve performance and load times.
@@ -82,7 +84,7 @@ There are two parts of this section that must be updated for your application:
 
 ### Obtain the ID token from Microsoft Teams
 
-The next step is for your tab to obtain the initial access token from Microsoft Teams. Recall this is commonly referred to as the *bootstrap token* because it only contains details used to identify the currently signed in user; it won't contain any permissions that can be used to call Microsoft Graph.
+The next step is for your tab to obtain the initial ID token from Microsoft Teams. Recall this is commonly referred to as the *bootstrap token* because it only contains details used to identify the currently signed in user; it won't contain any permissions that can be used to call Microsoft Graph.
 
 To obtain this ID token, use the Microsoft Teams JavaScript SDK's `authentication` object:
 
@@ -93,11 +95,11 @@ microsoftTeams.authentication.getAuthToken({
 });
 ```
 
-The `result` object passed to the `successCallback` method contains the access token returned by Azure AD.
+The `result` object passed to the `successCallback` method contains the ID token returned by Azure AD.
 
 This token can be used to identify the user within your tab or your own back-end system.
 
-If you use the access token in your own API, you should implement accepted best practices when forwarding the token received from Microsoft Teams. This includes validating the token to ensure it was created by Azure AD, it's from the expected authority, the app is the intended audience of the token, the token hasn't expired, and the scope is set to `access_as_user`.
+If you use the ID token in your own API, you should implement accepted best practices when forwarding the token received from Microsoft Teams. This includes validating the token to ensure it was created by Azure AD, it's from the expected authority, the app is the intended audience of the token, the token hasn't expired, and the scope is set to `access_as_user`.
 
 ### Obtain an access token for Microsoft Graph
 

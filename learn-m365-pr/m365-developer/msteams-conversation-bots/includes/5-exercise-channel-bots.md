@@ -1,3 +1,5 @@
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4NzEr]
+
 Conversation bots can do many things within the Microsoft Teams client. They can proactively send a message to a channel or group chat, listen for and act on Microsoft Teams specific events and even update their own messages.
 
 In this exercise, you’ll modify the existing Microsoft Teams app to update your bot to respond to message reactions, and update or delete messages capabilities.
@@ -121,6 +123,8 @@ After installing the bot, when you @mention it and include the message `mentionm
 ![Screenshot of the bot replying to a channel conversation](../media/05-test-03.png)
 
 ## Reply to messages with Adaptive cards
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4NHym]
 
 In this section, you'll update the bot to respond to unknown messages using an Adaptive card. The card's single action will trigger the bot to update the existing message with a new Adaptive card. The updated message will include an additional action that will trigger the bot to delete the message.
 
