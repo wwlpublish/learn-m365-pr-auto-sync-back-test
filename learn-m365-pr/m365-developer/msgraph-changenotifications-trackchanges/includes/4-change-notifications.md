@@ -1,3 +1,5 @@
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4OG3j]
+
 In this unit, you'll learn how to manage the notification lifecycle with Microsoft Graph. The key aspect to notification lifecycle is to understand how change notification subscriptions work.
 
 ## Create change notification subscriptions

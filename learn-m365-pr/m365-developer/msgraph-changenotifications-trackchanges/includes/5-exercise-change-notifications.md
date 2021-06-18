@@ -1,3 +1,5 @@
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4OO3j]
+
 In this exercise, you'll extend the existing ASP.NET Core web API application to receive notifications from Microsoft Graph subscriptions. The notifications are sent after a subscription is successfully created, requesting Microsoft Graph to notify an endpoint when specified entities are created, updated, or deleted.
 
 > [!IMPORTANT]
@@ -330,6 +332,8 @@ Received notification: 'Users/7a7fded6-0269-42c2-a0be-512d58da4463', 7a7fded6-02
 This indicates the application successfully received the notification from the Microsoft Graph for the user specified in the output. You can then use this information to query the Microsoft Graph for the users full details if you want to synchronize their details into your application.
 
 ### Renew subscriptions
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4OATd]
 
 Subscriptions for notifications expire and need to be renewed periodically. The following steps will demonstrate how to renew notifications
 
