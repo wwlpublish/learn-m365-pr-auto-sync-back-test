@@ -1,3 +1,5 @@
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4OO2J]
+
 In this exercise, you'll create a .NET Core console app that will access and download files from a user's OneDrive account using Microsoft Graph.
 
 ## Prerequisites
@@ -85,6 +87,8 @@ In the **Configured Permissions** panel, select the button **Grant admin consent
 > The option to **Grant admin consent** here in the Azure AD admin center is pre-consenting the permissions to the users in the tenant to simplify the exercise. This approach allows the console application to use the [resource owner password credential grant](/azure/active-directory/develop/v2-oauth-ropc), so the user isn't prompted to grant consent to the application that simplifies the process of obtaining an OAuth access token. You could elect to implement alternative options such as the [device code flow](/azure/active-directory/develop/v2-oauth2-device-code) to utilize dynamic consent as another option.
 
 ## Create .NET Core console application
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4OO2L]
 
 Open your command prompt, navigate to a directory where you have rights to create your project, and run the following command to create a new .NET Core console application:
 
@@ -369,6 +373,8 @@ After entering the username and password of a user, you'll see the results of al
 ![Screenshot of the console application showing all files in the currently signed-in user's OneDrive root folder](../media/03-app-run-01.png)
 
 ## Display a specific file
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4OO2M]
 
 Now, update the console app to show the details of a specific file.
 
