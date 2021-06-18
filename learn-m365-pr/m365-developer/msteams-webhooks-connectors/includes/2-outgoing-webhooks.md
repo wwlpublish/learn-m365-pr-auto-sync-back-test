@@ -1,3 +1,5 @@
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4ODcZ]
+
 Webhooks are a great way for Microsoft Teams to integrate with external apps. A webhook is an HTTP POST request sent to a callback URL. In Microsoft Teams, outgoing webhooks provide a simple way to allow users to send messages to your web service without having to go through the process of creating bots via the Microsoft Bot Framework.
 
 In this unit, you’ll learn how to create a web service and register it as an outgoing webhook in the Microsoft Teams client.

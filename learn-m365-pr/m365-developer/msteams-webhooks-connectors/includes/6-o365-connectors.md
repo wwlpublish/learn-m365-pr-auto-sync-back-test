@@ -1,3 +1,5 @@
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4ODcX]
+
 Registered Connectors can be distributed as part of a Microsoft Teams app package. Whether as a standalone solution, or one of several capabilities that your experience enables in Microsoft Teams, you can provide it to users directly for uploading within Microsoft Teams.
 
 Microsoft Teams supports two types of Connectors: incoming webhooks and Office 365 Connectors. In this unit, you’ll learn how to create an Office 365 Connector and add it to Microsoft Teams.

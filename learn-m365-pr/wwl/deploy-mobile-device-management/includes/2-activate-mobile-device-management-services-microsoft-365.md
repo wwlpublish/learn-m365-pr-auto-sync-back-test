@@ -1,5 +1,7 @@
 While Microsoft has two solutions for MDM, Intune and Basic Mobility and Security, they don't have the same prerequisites. Preparing your MDM environment will be a bit different depending on which solution you want to use.
--  **Basic Mobility and Security.** Start by activating the Mobile Device Management service. Once you activate the MDM service, you must then do several other steps to complete the deployment.-  **Intune.** Choose the MDM authority before you can start managing devices.
+
+ -  **Basic Mobility and Security.** Start by activating the Mobile Device Management service. Once you activate the MDM service, you must then do several other steps to complete the deployment.
+ -  **Intune.** Choose the MDM authority before you can start managing devices.
 
 ### Basic Mobility and Security
 
@@ -18,7 +20,13 @@ It takes some time for the service to start, after which you'll receive an email
 ### Microsoft Intune
 
 To set up Microsoft Intune for device management, organizations must configure the MDM authority. Device management in Intune is initially disabled and MDM authority is unknown. Before an organization can start enrolling and managing devices, it must configure the MDM authority by selecting one of three available options:
--  **Intune MDM Authority**. This option sets the MDM authority solely to Microsoft Intune. Intune is a cloud-only MDM solution, and it's managed by using a web browser. Microsoft recommends that organizations select this deployment option when using Intune.-  **Configuration Manager MDM Authority**. This option is referred to as Hybrid MDM because it assumes the organization uses Configuration Manager for managing on-premises devices. This scenario integrates Intune's MDM capabilities into Configuration Manager in the following manner:       -  It uses Intune as the delivery channel for policies, profiles, and applications to devices.    -  It uses Configuration Manager’s on-premises infrastructure to administer content and manage the devices.-  **None**. This option indicates that no MDM Authority has been chosen. Devices can only be managed by Intune if an MDM authority is chosen.
+
+ -  **Intune MDM Authority**. This option sets the MDM authority solely to Microsoft Intune. Intune is a cloud-only MDM solution, and it's managed by using a web browser. Microsoft recommends that organizations select this deployment option when using Intune.
+ -  **Configuration Manager MDM Authority**. This option is referred to as Hybrid MDM because it assumes the organization uses Configuration Manager for managing on-premises devices. This scenario integrates Intune's MDM capabilities into Configuration Manager in the following manner:
+    
+     -  It uses Intune as the delivery channel for policies, profiles, and applications to devices.
+     -  It uses Configuration Manager’s on-premises infrastructure to administer content and manage the devices.
+ -  **None**. This option indicates that no MDM Authority has been chosen. Devices can only be managed by Intune if an MDM authority is chosen.
 
 If organizations want to enroll and manage iOS devices, they must also add an APNS certificate to Intune. No certificate is needed for enrolling and managing Android and Windows 10 devices.<br>
 
