@@ -33,7 +33,7 @@ Select **New client secret**.
 
 ![Screenshot of the Add a client secret dialog](../media/azure-ad-portal-new-app-secret.png)
 
-On the **Add a client secret** page, enter a value in **Description**, select one of the options for **Expires** and select **Add**.
+In the **Add a client secret** panel that appears, enter a value in **Description**, select one of the options for **Expires** and select **Add**.
 
   > [!IMPORTANT]
   > This client secret is never shown again, so make sure you copy it now.
@@ -67,7 +67,7 @@ In the **Configured permissions** panel, select the button **Grant admin consent
 ## Create .NET Core console application
 
 > [!NOTE]
-> The instructions below assume you are using .NET 5. They were last tested using v5.0.102 of the .NET 5 SDK.
+> The instructions below assume you are using .NET 5. They were last tested using v5.0.202 of the .NET 5 SDK.
 
 Open your command prompt, navigate to a directory where you have rights to create your project, and run the following command to create a new .NET Core console application:
 

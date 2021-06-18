@@ -1,0 +1,29 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.deploy-mobile-device-management.activate-mobile-device-management-services-microsoft-365
+title: Activate the Mobile Device Management services in Microsoft 365
+metadata:
+  title: Activate the Mobile Device Management services in Microsoft 365
+  description: "Activate the Mobile Device Management services in Microsoft 365"
+  ms.date: 06/17/2021
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+durationInMinutes: 6
+content: |
+  [!include[](includes/2-activate-mobile-device-management-services-microsoft-365.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "As the Enterprise Administrator for Northwind Traders, Allan Deyoung wants to change Northwind's MDM authority from Configuration Manager MDM Authority to Intune MDM Authority. How should Allan make this change?"
+    choices:
+    - content: "Allan should contact Microsoft Support to make this change for Northwind Traders"
+      isCorrect: false
+      explanation: "That's incorrect. In the past, this was the method of change. This item is no longer how organizations change the MDM authority. Try again."
+    - content: "Unenroll the existing managed devices, make the change through the Intune portal, then reenroll the devices"
+      isCorrect: false
+      explanation: "That's incorrect. This item isn't how Allan should make this change. Try again."
+    - content: "Through the Configuration Manager console"
+      isCorrect: true
+      explanation: "That's correct. If an organization wants to change its MDM authority setting, it can do so by using the Configuration Manager console."

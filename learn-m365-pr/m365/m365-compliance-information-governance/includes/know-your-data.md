@@ -80,6 +80,6 @@ Most organizations store some of their sensitive data outside the Microsoft ecos
  ![Discover and classify cloud services using Microsoft Cloud App Security](../media/discover-classify-cloud-services.png) 
 
 ## Learn more
- - [Information protection](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-office-apps?azure-portal=true)
- - [Data loss prevention](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-office-apps?azure-portal=true)
+ - [Information protection](/microsoft-365/compliance/sensitivity-labels-office-apps?azure-portal=true)
+ - [Data loss prevention](/microsoft-365/compliance/sensitivity-labels-office-apps?azure-portal=true)
 

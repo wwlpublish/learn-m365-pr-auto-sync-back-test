@@ -1,19 +1,21 @@
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4NCi6]
+
 In this exercise, you'll create a new Microsoft Teams personal tab by using the Microsoft Teams Yeoman generator, Visual Studio Code, and App Studio.
 
 ## Prerequisites
 
-Developing Microsoft Teams apps requires an Office 365 tenant, Microsoft Teams configured for development, and the necessary tools installed on your workstation.
+Developing Microsoft Teams apps requires a Microsoft 365 tenant, Microsoft Teams configured for development, and the necessary tools installed on your workstation.
 
-For the Office 365 tenant, follow the instructions in [Microsoft Teams: Prepare your Office 365 tenant](https://docs.microsoft.com/microsoftteams/platform/get-started/get-started-tenant) to obtain a developer tenant if you don't currently have an Office 365 account. Make sure you've also enabled Microsoft Teams for your organization.
+For the Microsoft 365 tenant, follow the instructions in [Microsoft Teams: Prepare your Microsoft 365 tenant](/microsoftteams/platform/get-started/get-started-tenant) to obtain a developer tenant if you don't currently have a Microsoft 365 account. Make sure you've also enabled Microsoft Teams for your organization.
 
-Microsoft Teams must be configured to enable custom apps and allow custom apps to be uploaded to your tenant to build custom apps for Microsoft Teams. Follow the instructions in "Prepare your Office 365 tenant" mentioned previously.
+Microsoft Teams must be configured to enable custom apps and allow custom apps to be uploaded to your tenant to build custom apps for Microsoft Teams. Follow the instructions in "Prepare your Microsoft 365 tenant" mentioned previously.
 
 You'll use Node.js to create custom Microsoft Teams tabs in this module. The exercises in this module assume you've the following tools installed on your developer workstation.
 
 > [!IMPORTANT]
 > In most cases, installing the latest version of the following tools is the best option. The versions listed here were used when this module was published and last tested.
 
-- [Node.js](https://nodejs.org/) - v10.\* (or higher)
+- [Node.js](https://nodejs.org/) - v12.\* (or higher)
 - NPM (installed with Node.js) - v6.\* (or higher)
 - [Gulp](https://gulpjs.com/) - v4.\* (or higher)
 - [Yeoman](https://yeoman.io/) - v3.\* (or higher)
@@ -54,14 +56,6 @@ Yeoman starts and asks you a series of questions. Answer the questions with the 
 
 After you answer the generator's questions, the generator creates the scaffolding for the project. The generator then runs `npm install` that downloads all the dependencies required by the project.
 
-### Ensure the project is using the latest version of Teams SDK
-
-Run the npm command to install the latest version of the SDK
-
-```console
-npm i @microsoft/teams-js
-```
-
 ## Test the personal tab
 
 Before you customize the tab, let's test the tab to see the initial developer experience for testing.
@@ -96,11 +90,11 @@ In the app bar on the left, select the **More added apps** button. Then select *
 
 ![Screenshot of More added apps dialog box in Microsoft Teams](../media/03-yo-teams-05.png)
 
-On the **Browse available apps and services** page, select **Upload a custom app** > **Upload for me or my teams**.
+On the **Get more done with apps!** page, select **Upload a custom app** > **Upload for me or my teams**.
 
 ![Screenshot of available apps and services page in Microsoft Teams](../media/03-yo-teams-05a.png)
 
-In the file dialog box that appears, select the Microsoft Teams package in your project. This app package is a zip file in the project's ./package folder.
+In the file dialog box that appears, select the Microsoft Teams package in your project. This app package is a zip file in the project's **./package** folder.
 
 After the package is uploaded, select it to display a summary of the app. Here you can see some todo items to address. You'll update the todo items later in the exercise.
 
@@ -128,21 +122,23 @@ Next, stop the local web server by selecting <kbd>Ctrl</kbd>+<kbd>C</kbd> in the
 
 ## Implement the personal tab's user interface
 
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4NHyn]
+
 Now you can implement the user interface for the tab. The simple tab has a basic interface. It presents a list of items, and users can add items to the list.
 
 Locate and open the file that contains the React component used in the project: **./src/client/learnPersonalTab/LearnPersonalTab.tsx**.
 
-Update the import statements in this file to add components from the Fluent UI - React library. Find the following import statement at the top of the file that imports components from the Fluent UI - React library:
+Update the `import` statements in this file to add components from the Fluent UI - React library. Find the following `import` statement at the top of the file that imports components from the Fluent UI - React library:
 
 ```typescript
 import { Provider, Flex, Text, Button, Header } from "@fluentui/react-northstar";
 ```
 
-Replace the previous statement with the following import statement:
+Replace the previous statement with the following `import` statement:
 
 ```typescript
 import { Provider, Flex, Text, Button, Header,
-  List, Alert, WindowMaximizeIcon, ExclamationTriangleIcon, 
+  List, Alert, WindowMaximizeIcon, ExclamationTriangleIcon,
   Label, Input, ToDoListIcon
 } from "@fluentui/react-northstar";
 ```
@@ -150,8 +146,8 @@ import { Provider, Flex, Text, Button, Header,
 Next, update the state of the component to contain a list of to do items and a property for a new item. Add the following statements after the existing `useState` statements in the **LearnPersonalTab.tsx** file:
 
 ```typescript
-const [todoItems, setTodoItems] = useState<string[] | undefined>();
-const [newTodoValue, setNewTodoValue] = useState<string | undefined>();
+const [todoItems, setTodoItems] = useState<string[]>(["Submit time sheet","Submit expense report"]);
+const [newTodoValue, setNewTodoValue] = useState<string>("");
 ```
 
 Locate the `return` statement, and update it to the following code. The component now displays the list of items in our state with a brief copyright statement.
@@ -217,17 +213,19 @@ Finally, locate the string `TODO: add new list item form here` in the `render()`
              }}></Label>
       <Flex.Item grow>
         <Input placeholder="New todo item" fluid
-               value={this.state.newTodoValue}
-               onChange={this.handleOnChanged}></Input>
+               value={newTodoValue}
+               onChange={handleOnChanged}></Input>
       </Flex.Item>
     </Flex>
   </Flex.Item>
   <Button content="Add Todo" primary
-          onClick={this.handleOnClick}></Button>
+          onClick={handleOnClick}></Button>
 </Flex>
 ```
 
 ## Use App Studio to update the Microsoft Teams app manifest
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4NHyl]
 
 At this point, the app is complete. Recall from our initial test that when the app was added to Microsoft Teams, it had a few todo strings for the description of the app. While you could change these values in the project's **./src/manifest/manifest.json** file, you'll use App Studio to make these changes.
 

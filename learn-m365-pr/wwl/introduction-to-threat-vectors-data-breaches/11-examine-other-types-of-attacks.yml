@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.introduction-to-threat-vectors-data-breaches.examine-other-types-of-attacks
+title: Examine other types of attacks
+metadata:
+  title: Examine other types of attacks
+  description: "Examine other types of attacks"
+  ms.date: 04/29/2021
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/11-examine-other-types-of-attacks.md)]

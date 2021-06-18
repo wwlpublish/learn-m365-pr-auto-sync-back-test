@@ -224,4 +224,4 @@ Be sure to click the full-screen option in the video player. When you're done, u
 
 ## Learn more
 
-- [Workflow automation required roles and permissions](https://docs.microsoft.com/azure/security-center/workflow-automation#availability)
+- [Workflow automation required roles and permissions](/azure/security-center/workflow-automation#availability)

@@ -10,4 +10,4 @@ When you finish this module, you'll be able to:
 - Understand how to use Cloud Discovery for visibility in your organization. 
 - Explain how to use Conditional Access App Control policies to monitor and control access to your applications.
 - Understand how to classify and protect your information.
-- Understand how to use anomaly detection policies to detect threat in your cloud environment.
+- Understand how to use anomaly detection policies to detect threats in your cloud environment.

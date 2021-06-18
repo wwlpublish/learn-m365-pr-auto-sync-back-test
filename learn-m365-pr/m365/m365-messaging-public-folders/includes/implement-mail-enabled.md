@@ -108,5 +108,5 @@ In Outlook, you'll need to use an account that has Owner permissions on the publ
 
 ## Learn more
 
-- [Mail-enable or mail-disable a public folder](https://docs.microsoft.com/exchange/collaboration-exo/public-folders/enable-or-disable-mail-for-public-folder?azure-portal=true)
-- [Assign **Send As** or **Send on Behalf** permissions for mail-enabled public folders](https://docs.microsoft.com/exchange/collaboration-exo/public-folders/assign-permissions-mail-enabled-pfs?azure-portal=true)
+- [Mail-enable or mail-disable a public folder](/exchange/collaboration-exo/public-folders/enable-or-disable-mail-for-public-folder?azure-portal=true)
+- [Assign **Send As** or **Send on Behalf** permissions for mail-enabled public folders](/exchange/collaboration-exo/public-folders/assign-permissions-mail-enabled-pfs?azure-portal=true)

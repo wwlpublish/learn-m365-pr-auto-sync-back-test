@@ -36,7 +36,7 @@ In Meetings, you have a few options to consider.
    Set-CalendarProcessing <Teams Rooms Resource Account UPN  > -ProcessExternalMeetingMessages $True -DeleteComments $False -DeleteSubject $False
    ```
 
-You'll also need to disable Microsoft 365 Threat Protection link rewrite for any third-party domain names (such as **.webex.com*), using the article ["Do not rewrite the following URLs" lists in Safe Links policies](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-links?view=o365-worldwide#do-not-rewrite-the-following-urls-lists-in-safe-links-policies).
+You'll also need to disable Microsoft 365 Threat Protection link rewrite for any third-party domain names (such as **.webex.com*), using the article ["Do not rewrite the following URLs" lists in Safe Links policies](/microsoft-365/security/office-365-security/atp-safe-links?do-not-rewrite-the-following-urls-lists-in-safe-links-policies).
 
 
 #### The Device screen
@@ -65,7 +65,7 @@ In the Peripherals screen, you can change the microphone, speaker, and default s
 
 ### Content Camera
 
-The Content Camera option lets you select which camera you'll use for this feature. Only a subset of certified cameras are supported to record analog whiteboards. You can see the list of [supported content cameras](https://docs.microsoft.com/MicrosoftTeams/rooms/requirements#certified-firmware-versions-for-usb-audio-and-video-peripherals) on the Microsoft Teams Rooms requirements page. 
+The Content Camera option lets you select which camera you'll use for this feature. Only a subset of certified cameras are supported to record analog whiteboards. You can see the list of [supported content cameras](/MicrosoftTeams/rooms/requirements#certified-firmware-versions-for-usb-audio-and-video-peripherals) on the Microsoft Teams Rooms requirements page. 
 
 ### Content enhancements (recommended)
 
@@ -81,5 +81,5 @@ Teams Rooms ships with pre-installed themes. In this area, you have the chance t
 
 ## Learn more
 
-- [Read about the Content Camera feature](https://docs.microsoft.com/MicrosoftTeams/rooms/content-camera?azure-portal=true)
-- [Installing custom themes](https://docs.microsoft.com/microsoftteams/rooms/xml-config-file#custom-theme-images)
+- [Read about the Content Camera feature](/MicrosoftTeams/rooms/content-camera?azure-portal=true)
+- [Installing custom themes](/microsoftteams/rooms/xml-config-file#custom-theme-images)

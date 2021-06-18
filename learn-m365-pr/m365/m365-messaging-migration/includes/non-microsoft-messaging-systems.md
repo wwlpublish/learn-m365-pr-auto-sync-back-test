@@ -63,6 +63,6 @@ Get-MigrationBatch -Identity IMAPImport | Format-List Status
 
 ## Learn more
 
-- [Migrate other types of IMAP mailboxes to Office 365](https://docs.microsoft.com/exchange/mailbox-migration/migrating-imap-mailboxes/migrate-other-types-of-imap-mailboxes?azure-portal=true)
-- [CSV files for IMAP migration batches](https://docs.microsoft.com/exchange/mailbox-migration/migrating-imap-mailboxes/csv-files-for-imap-migrations?azure-portal=true)
-- [Use PowerShell to perform an IMAP migration to Office 365](https://docs.microsoft.com/office365/enterprise/powershell/use-powershell-to-perform-an-imap-migration-to-office-365?azure-portal=true)
+- [Migrate other types of IMAP mailboxes to Office 365](/exchange/mailbox-migration/migrating-imap-mailboxes/migrate-other-types-of-imap-mailboxes?azure-portal=true)
+- [CSV files for IMAP migration batches](/exchange/mailbox-migration/migrating-imap-mailboxes/csv-files-for-imap-migrations?azure-portal=true)
+- [Use PowerShell to perform an IMAP migration to Office 365](/office365/enterprise/powershell/use-powershell-to-perform-an-imap-migration-to-office-365?azure-portal=true)

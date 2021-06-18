@@ -6,7 +6,7 @@ If you’re running Skype for Business and are ready to upgrade to Teams, or if 
 
 When you're done with a link, use the **Back** arrow in your browser to come back to this page.
 
-- [Welcome to Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/teams-overview)
-- [Getting started with your Microsoft Teams upgrade](https://docs.microsoft.com/MicrosoftTeams/upgrade-start-here)
-- [Upgrade from Skype for Business to Teams — for IT administrators](https://docs.microsoft.com/MicrosoftTeams/upgrade-to-teams-on-prem-overview)
-- [Teams upgrade planning workshops](https://docs.microsoft.com/MicrosoftTeams/upgrade-workshops-landing-page)
+- [Welcome to Microsoft Teams](/MicrosoftTeams/teams-overview)
+- [Getting started with your Microsoft Teams upgrade](/MicrosoftTeams/upgrade-start-here)
+- [Upgrade from Skype for Business to Teams — for IT administrators](/MicrosoftTeams/upgrade-to-teams-on-prem-overview)
+- [Teams upgrade planning workshops](/MicrosoftTeams/upgrade-workshops-landing-page)

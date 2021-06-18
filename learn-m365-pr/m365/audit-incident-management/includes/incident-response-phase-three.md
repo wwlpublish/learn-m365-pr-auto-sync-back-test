@@ -19,3 +19,7 @@ Eradication steps to evict the adversary and mitigate vulnerabilities are based 
 When the Microsoft 365 Security Response team is confident the adversary has been evicted from the environment and known vulnerabilities have been remediated, they work with affected service teams to initiate recovery. Recovery brings affected services to a known secure configuration. The recovery process includes identifying the last known good state of the service, restoring from backups to this state, and confirming the restored state mitigates the vulnerabilities that contributed to the incident.
 
 A key aspect to the recovery process is enhanced detection controls to validate that the recovery plan has been successfully executed and that no signs of breach remain within the environment. Examples of additional detection controls include increased network-level monitoring, targeted alerting for attack vectors identified during the incident response process, and additional security team vigilance for critical resources. Enhanced monitoring helps to ensure that eradication was successful, and that the adversary is unable to reenter the environment.
+
+## Learn more
+
+- [Microsoft 365 security incident management: Containment, eradication, and recovery](/compliance/assurance/assurance-sim-containment-eradication-recovery?azure-portal=true)

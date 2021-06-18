@@ -46,9 +46,6 @@ namespace graphconsoleapp
 }
 ```
 
-> [!NOTE]
-> Ensure the namespace in the **Messages.cs** file matches the namespace in the rest of the application.
-
 This class is used by the JSON deserializer to translate a JSON response into a `Messages` object.
 
 ### Add method to implement delayed retry strategy when requests are throttled

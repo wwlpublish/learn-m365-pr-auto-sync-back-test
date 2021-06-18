@@ -64,7 +64,7 @@ You can use either an interactive UI or a command line to convert an existing pa
 - Understand the dependencies of the applications to properly prepare the MSIX package.
 
 >[!NOTE]
-> Starting with Windows 10 Fall Creators Update (Windows 10 version 1709), Microsoft provides a [Hyper-V Quick Create](https://docs.microsoft.com/windows/msix/packaging-tool/quick-create-vm) virtual environment that you can use for MSIX packaging projects.
+> Starting with Windows 10 Fall Creators Update (Windows 10 version 1709), Microsoft provides a [Hyper-V Quick Create](/windows/msix/packaging-tool/quick-create-vm) virtual environment that you can use for MSIX packaging projects.
 
 When you run the MSIX Packaging Tool on the clean computer, you'll be prompted to choose one of the following three options:
 

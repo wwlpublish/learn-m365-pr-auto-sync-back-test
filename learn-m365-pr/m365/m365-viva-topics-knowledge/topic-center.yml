@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365-pr.viva-topics-knowledge.topic-center
+metadata:
+  title: Overview of the Topic Center in Viva
+  description: Learn about the Topic Center, a tool to create and manage knowledge content in Viva Topics.
+  ms.date: 05/26/2021
+  author: lizap
+  ms.author: elizapo
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Overview of the Topic Center in Viva
+durationInMinutes: 1
+content: |
+  [!include[](includes/topic-center.md)]

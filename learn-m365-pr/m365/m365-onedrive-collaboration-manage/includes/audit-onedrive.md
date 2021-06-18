@@ -31,6 +31,6 @@ Activities when searching audit logs commonly involve files, folders, sharing, a
 - When a user creates an anonymous link to a resource.
 
 ## Learn more
-- [Search the audit log in the Security & Compliance Center](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance?view=o365-worldwide?azure-portal=true)
-- [Turn audit log search on or off](https://docs.microsoft.com/microsoft-365/compliance/turn-audit-log-search-on-or-off?view=o365-worldwide?azure-portal=true)
-- [Manage audit log retention policies](https://docs.microsoft.com/microsoft-365/compliance/audit-log-retention-policies?view=o365-worldwide?azure-portal=true)
+- [Search the audit log in the Security & Compliance Center](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance?azure-portal=true)
+- [Turn audit log search on or off](/microsoft-365/compliance/turn-audit-log-search-on-or-off?azure-portal=true)
+- [Manage audit log retention policies](/microsoft-365/compliance/audit-log-retention-policies?azure-portal=true)

@@ -4,9 +4,9 @@ title: Summary and knowledge check
 metadata:
   title: Summary and knowledge check
   description: Learn how Microsoft 365 encrypts data at rest and in transit, securely manages encryption keys, and provides key management options to customers to meet their business needs and compliance obligations.
-  ms.date: 06/18/2020
+  ms.date: 05/13/2021
   author: NamrahK
-  ms.author: v-nakhu
+  ms.author: beccarobins
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 durationInMinutes: 4
@@ -23,7 +23,7 @@ quiz:
       - content: "It helps mitigate the impact of data theft."
         isCorrect: true
         explanation: "Correct. When data is encrypted with strong encryption, it cannot reasonably be deciphered without the correct encryption key."
-      - content: "It renders data unreadable."
+      - content: "It renders data permanently unreadable."
         isCorrect: false
         explanation: "Encryption is a two-way process. Anyone with the correct encryption key can decipher encrypted data, making key management an important part of implementing strong encryption."
       - content: "It meets all access control requirements."

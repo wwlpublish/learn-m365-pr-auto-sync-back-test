@@ -4,9 +4,9 @@ title: Introduction to troubleshooting mail flow
 metadata:
   title: Introduction to managing mail flow
   description: Manage the mail flow in Exchange Online by using domains, hybrid mail flow, and transport rules. 
-  ms.date: 04/02/2020
+  ms.date: 05/28/2021
   author: AlexandraHrt
-  ms.author: v-aleha
+  ms.author: elizapo
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 durationInMinutes: 1

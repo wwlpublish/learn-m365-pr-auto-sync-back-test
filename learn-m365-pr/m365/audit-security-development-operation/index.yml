@@ -3,9 +3,9 @@ uid: learn-m365.audit-security-development-operation
 metadata:
   title: Understand Microsoft 365 security development and operation 
   description: Learn how Microsoft 365 follows Microsoft’s Security Development Lifecycle (SDL) to build security and privacy into our products and services.
-  ms.date: 05/29/2020
+  ms.date: 05/13/2021
   author: NamrahK
-  ms.author: v-nakhu
+  ms.author: beccarobins
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Understand Microsoft 365 security development and operation 
@@ -38,6 +38,7 @@ units:
 - learn-m365.audit-security-development-operation.security-tool-automation
 - learn-m365.audit-security-development-operation.application-penetration-testing
 - learn-m365.audit-security-development-operation.support-secure-deployment
+- learn-m365.audit-security-development-operation.safe-deployment-process
 - learn-m365.audit-security-development-operation.open-source-security
 - learn-m365.audit-security-development-operation.summary-knowledge-check
 badge: 

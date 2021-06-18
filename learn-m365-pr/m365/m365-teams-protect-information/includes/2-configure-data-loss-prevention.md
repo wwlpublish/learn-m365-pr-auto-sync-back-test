@@ -83,6 +83,6 @@ Allow approximately one hour for the changes to work their way through your data
 
 ## Learn more
 
-- [Overview of data loss prevention](https://docs.microsoft.com/microsoft-365/compliance/data-loss-prevention-policies)
-- [Data loss prevention and Microsoft Teams](https://docs.microsoft.com/microsoft-365/compliance/dlp-microsoft-teams)
-- [Permissions](https://docs.microsoft.com/microsoft-365/compliance/data-loss-prevention-policies)
+- [Overview of data loss prevention](/microsoft-365/compliance/data-loss-prevention-policies)
+- [Data loss prevention and Microsoft Teams](/microsoft-365/compliance/dlp-microsoft-teams)
+- [Permissions](/microsoft-365/compliance/data-loss-prevention-policies)

@@ -45,7 +45,7 @@ Uploading non-Microsoft 365 data using the import feature in Advanced eDiscovery
 The person who enables Attorney-Client Privilege Detection in your tenant must be assigned to the eDiscovery Administrator role in your organization.
 
 ### Permissions to set up compliance boundaries
-To run the compliance security filter cmdlets, you must be a member of the Organization Management role group in the Security & Compliance Center. For more information, see [Permissions in the Security & Compliance Center](https://docs.microsoft.com/microsoft-365/security/office-365-security/permissions-in-the-security-and-compliance-center?view=o365-worldwide?azure-portal=true). You also must connect Windows PowerShell to both the Security & Compliance Center and to your Exchange Online organization to use the compliance security filter cmdlets. This is necessary because these cmdlets require access to mailbox properties, which is why you have to connect to Exchange Online. 
+To run the compliance security filter cmdlets, you must be a member of the Organization Management role group in the Security & Compliance Center. For more information, see [Permissions in the Security & Compliance Center](/microsoft-365/security/office-365-security/permissions-in-the-security-and-compliance-center?azure-portal=true). You also must connect Windows PowerShell to both the Security & Compliance Center and to your Exchange Online organization to use the compliance security filter cmdlets. This is necessary because these cmdlets require access to mailbox properties, which is why you have to connect to Exchange Online. 
 
 ### Licensing
 Microsoft 365 E3 only provide the rights for a user to benefit from core eDiscovery features as illustrated in the table below. 
@@ -58,7 +58,7 @@ Microsoft 365 E3 only provide the rights for a user to benefit from core eDiscov
 > - Microsoft 365 E5 Compliance 
 > - Microsoft 365 E5 eDiscovery and Audit 
 >
-> Please review [Microsoft 365 licensing guidance for security & compliance](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance?azure-portal=true) to identify required licenses for your organization.
+> Please review [Microsoft 365 licensing guidance for security & compliance](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance?azure-portal=true) to identify required licenses for your organization.
 
 ## Add or remove members from a case
 You can add or remove members to manage who can access the case. However, before a member can access and perform tasks in an Advanced eDiscovery case, you must add the user to the eDiscovery Manager role group on the **Permissions** page in the [Security & Compliance Center](https://protection.office.com?azure-portal=true). 
@@ -90,7 +90,7 @@ In the example illustrated below, Contoso LTD is an Office 365 organization that
     ![Compliance boundaries](../media/compliance-boundaries.png)  
 
 ### Implement compliance boundaries
-Compliance boundaries are defined and managed by using a combination of role groups and [Office 365 Security & Compliance PowerShell](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell?view=o365-worldwide?azure-portal=true) cmdlets. 
+Compliance boundaries are defined and managed by using a combination of role groups and [Office 365 Security & Compliance PowerShell](/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell?azure-portal=true) cmdlets. 
 
 #### Create a role group for each agency
 Role groups are used to control who can see the eDiscovery cases in the Microsoft 365 Compliance Center. This means that eDiscovery managers and investigators can only see the eDiscovery cases in their agency. Role groups also control who can assign members to an eDiscovery case. This means eDiscovery managers and investigators can only assign members to cases that they themselves are a member of. We recommend that you create a role group by copying the built-in eDiscovery Managers group, adding the appropriate members, and removing roles that may not be applicable to your needs. 
@@ -112,7 +112,7 @@ Here are examples of the two search permissions filters that would be created to
 
 `New-ComplianceSecurityFilter -FilterName "Coho Winery Security Filter" -Users "Coho Winery eDiscovery Managers", "Coho Winery Investigators" -Filters "Mailbox_Department -eq 'CohoWinery'", "Site_ComplianceAttribute -eq 'CohoWinery' -or Site_Path -like 'https://contoso.sharepoint.com/sites/CohoWinery*'" -Action ALL`
 
-To learn more about each of the **New-ComplianceSecurityFilter** parameters, see [New-ComplianceSecurityFilter](https://docs.microsoft.com/microsoft-365/compliance/permissions-filtering-for-content-search?view=o365-worldwide#new-compliancesecurityfilter?azure-portal=true).
+To learn more about each of the **New-ComplianceSecurityFilter** parameters, see [New-ComplianceSecurityFilter](/microsoft-365/compliance/permissions-filtering-for-content-search?azure-portal=true).
 
 The entire process for setting up compliance boundaries involves the following steps:
 1.	Identify a user attribute to define your agencies, i.e. Company or Department. 
@@ -121,7 +121,7 @@ The entire process for setting up compliance boundaries involves the following s
 1.	Create a search permissions filter to enforce the compliance boundary.
 1.	Create an eDiscovery case for intra-agency investigations
 
-    To learn more, see [Set up compliance boundaries for eDiscovery investigations](https://docs.microsoft.com/microsoft-365/compliance/set-up-compliance-boundaries?view=o365-worldwide?azure-portal=true).
+    To learn more, see [Set up compliance boundaries for eDiscovery investigations](/microsoft-365/compliance/set-up-compliance-boundaries?azure-portal=true).
 
 ### Limitations
 Consider the following limitations when managing eDiscovery cases and investigations that use compliance boundaries.
@@ -148,7 +148,7 @@ It might take up to 60 minutes for the closing process to complete.
 
 #### To reopen a case:
 1.	On the **Advanced eDiscovery** page, select the case that you want to reopen.
-1.	On the **Settings** tab, under **Case Informatio**n, click **Select**.
+1.	On the **Settings** tab, under **Case Information**, click **Select**.
 1.	Click **Reopen case**. 
 It might take up to 60 minutes for the closing process to complete.
 
