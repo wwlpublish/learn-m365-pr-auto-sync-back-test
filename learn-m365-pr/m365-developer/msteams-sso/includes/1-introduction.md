@@ -24,4 +24,4 @@ By the end of this module, you'll be able to:
 
 Refer to the following repository for more resources associated with this module. This repository includes completed code samples from the exercise units found in this module: [Microsoft Teams – Authentication and Single Sign-on](https://github.com/OfficeDev/TrainingContent/tree/master/Teams/80%20Using%20Single%20Sign-On%20with%20Microsoft%20Teams).
 
-This module is also available as the screencast [Microsoft Teams – Authentication and Single Sign-on](https://www.youtube.com/watch?v=pJwtUjv3G_o).
+This module is also available as the screencast [Microsoft Teams – Authentication and Single Sign-on](https://youtube.com/playlist?list=PLWZJrkeLOrbZ3uG8Xb8yOUeWu7UDu4Q_-).

@@ -1,3 +1,5 @@
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4OO3C]
+
 ## Understand throttling in Microsoft Graph
 
 Microsoft Graph is designed to handle a high volume of requests. If an overwhelming number of requests occurs, throttling helps maintain optimal performance and reliability of the Microsoft Graph service. Throttling limits the number of concurrent calls to a service to prevent overuse of resources.
@@ -26,13 +28,15 @@ While some requests are throttled, other requests by the same client to the same
 
 ## Identifying throttled requests
 
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4OO3D]
+
 The first step to understanding throttling is knowing how to identify Microsoft Graph is throttling requests.
 
 In HTTP APIs, the result of a request is indicated by the HTTP status code returned. HTTP status codes are classified in groups.
 
 For example, successful status codes are in the range of 200-299. Common successful status codes include:
 
-- 200: used when requesting a resource) or
+- 200: used when requesting a resource or
 - 201 and 204: used on write operations for creating, updating, or deleting resources
 
 Error status codes are in the ranges of 400-499 & 500s. Common failed status codes include:

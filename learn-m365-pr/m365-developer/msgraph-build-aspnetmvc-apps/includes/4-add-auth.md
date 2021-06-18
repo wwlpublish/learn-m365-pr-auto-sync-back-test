@@ -1,3 +1,5 @@
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4OO3f]
+
 In this unit, the focus is on the Azure Active Directory (AD). You'll learn how to use the Azure AD admin center to register an application, set up the app's credentials, and configure the type of the application. Next, you'll learn how to modify an existing ASP.NET MVC application so it will work with Azure AD.
 
 ## Azure AD endpoint versions
@@ -14,7 +16,7 @@ Another other challenge with the v1 endpoint is that it only supports static con
 
 ### Azure AD v2 endpoint
 
-The Azure AD v2 endpoint addresses these two shortcomings with the v1 endpoint. First, it implements converged authentication that merges the Microsoft account and the work and school (Azure AD) account sign-in experiences together. Developers no longer need to direct users to specific sign-in experiences; all users are sent to the converged sign-in experience and rely on Microsoft identity to determine the type of account. This also enables developers to write the same code to access Microsoft Graph for things like reading, mail, and retrieving contacts.
+The Azure AD v2 endpoint addresses these two shortcomings with the v1 endpoint. First, it implements converged authentication that merges the Microsoft account and the work and school (Azure AD) account sign-in experiences together. Developers no longer need to direct users to specific sign-in experiences; all users are sent to the converged sign-in experience and rely on Microsoft identity to determine the type of account. This also enables developers to write the same code to access Microsoft Graph for things like reading mail and retrieving contacts.
 
 Another benefit to the v2 endpoint is dynamic consent. Dynamic consent differs from static consent in that when a user signs in, the application requests the permissions it needs at that time. Microsoft identity will determine if the user has previously consented to the requested permissions. If one or more hasn't been consented to, the user is presented with the consent dialog for only those new permissions requests.
 
