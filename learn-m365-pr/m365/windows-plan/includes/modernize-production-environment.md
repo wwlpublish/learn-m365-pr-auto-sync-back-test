@@ -2,7 +2,7 @@ Woodgrove has missed out on taking advantage of new capabilities in the past, an
 
 ## Inputs
 
-You’ll need to look at what new features and improvements are available, and assess your current situation to understand what you might need to do to modernize your environment. 
+You’ll need to look at what new features and improvements are available, and assess your current situation to understand what you might need to do to modernize your environment.
 
 ### Investigate new features and improvements
 

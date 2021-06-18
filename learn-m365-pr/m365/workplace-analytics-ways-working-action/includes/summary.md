@@ -1,6 +1,6 @@
 In the introductory scenario, you needed to act on insights identified through Workplace Analytics and understand how to improve productivity by driving behavior change.
 
-Microsoft 365 technology enabled you to implement personal dashboards, email digests, in-line nudges, and data you could act on. You learned to use common tactics to replicate actions other organizations have taken. You also developed custom tactics tailored to the culture of your organization. After taking action, you used dashboards to track change and monitor opportunities for improvement. 
+Microsoft 365 technology enabled you to implement personal dashboards, email digests, in-line nudges, and data you could act on. You learned to use common tactics to replicate actions other organizations have taken. You also developed custom tactics tailored to the culture of your organization. After taking action, you used dashboards to track change and monitor opportunities for improvement.
 
 Imagine how difficult it would have been to drive change when starting from scratch. You may have been able to identify the areas that you wanted to improve but would have struggled to change your organization’s habits and culture.
 

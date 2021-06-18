@@ -13,49 +13,49 @@ Use the following steps to create and initialize the VHD or VHDX disk by using P
 
 1. Run the following cmdlet in PowerShell to create a VHD:
 
-    ```
+  ```PowerShell
     New-VHD -SizeBytes <size>MB -Path c:\temp\<name>.vhd -Dynamic -Confirm:$false
-    ```
+  ```
 
-2. To mount the newly created VHD, run:
+1. To mount the newly created VHD, run:
 
-    ```
+  ```PowerShell
     $vhdObject = Mount-VHD c:\temp\<name>.vhd -Passthru
-    ```
+  ```
 
-3. To initialize the VHD, run:
+1. To initialize the VHD, run:
 
-    ```
+  ```PowerShell
     $disk = Initialize-Disk -Passthru -Number $vhdObject.Number
-    ```
+  ```
 
-4. To create a new partition, run:
+1. To create a new partition, run:
 
-    ```
+  ```PowerShell
     $partition = New-Partition -AssignDriveLetter -UseMaximumSize -DiskNumber $disk.Number
-    ```
+  ```
 
-5. To format the partition, run:
+1. To format the partition, run:
 
-    ```
+  ```PowerShell
     Format-Volume -FileSystem NTFS -Confirm:$false -DriveLetter $partition.DriveLetter -Force
-    ```
+  ```
 
-6. Create a parent folder on the mounted VHD.
+1. Create a parent folder on the mounted VHD.
 
 ## Expand the MSIX package
 
 You now need to expand the MSIX package in the newly created VHD. To unpack the MSIX image:
 
 1. Open a command prompt as an administrator and go to the folder where you downloaded and unzipped the msixmgr tool.
-2. Run the following cmdlet to unpack the MSIX package into the VHD that you created and mounted in the previous section:
+1. Run the following cmdlet to unpack the MSIX package into the VHD that you created and mounted in the previous section:
 
-    ```
+  ```PowerShell
     msixmgr.exe -Unpack -packagePath <package>.msix -destination "f:\<name of folder you created earlier>" -applyacls
-    ```
+  ```
 
-3. Go to the mounted VHD, open the app folder, and confirm that the package content is present.
-4. Unmount the VHD.
+1. Go to the mounted VHD, open the app folder, and confirm that the package content is present.
+1. Unmount the VHD.
 
 You can prepare the MSIX image by using the Composite Image File System (CimFS) format that's available in the Windows 10 2004 release. CimFS provides faster mounting and unmounting times and lower memory and CPU consumption than VHD. You can also create the MSIX image with CIM format that's similar to Windows Imaging Format (WIM), or read-only VHD.
 
@@ -88,7 +88,7 @@ To add the MSIX image to the host pool, you need to obtain the UNC path of the M
 
 For example, if your storage account is called **contosostorage**, your file share is **msixfileshare**, and your MSIX image is **mymsix.vhd**, use the following example:
 
-```
+```PowerShell
 URL
 https://contosostorage.files.core.windows.net/msixfileshare/mymsix.vhd
 

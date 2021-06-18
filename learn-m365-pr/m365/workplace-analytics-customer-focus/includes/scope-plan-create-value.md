@@ -117,6 +117,7 @@ After your analysis is complete, it is important to identify what actions you’
 The first step is to get the most out of your customer focus analysis by defining what’s next. Begin with the results that identify opportunities and define the target groups for your customer focus initiative. Then, discuss the potential change tactics you can implement to drive change in your organization.
 
 To create customer focus change tactics:
+
 - Define tactics that will achieve the desired outcome.
 - Identify the level of effort for each tactic.
 - Determine the metrics you will use to measure and track progress.
@@ -125,21 +126,23 @@ Define next steps and create change tactics to realize value and drive positive 
 
 For specific examples of customer focus change levers, see the Resource playbooks link in **Learn more** and download the Customer Focus Playbook.
 
-
 ### Track and share information
 
 After identifying target groups and implementing your customer focus change tactics, it is important to share the information with employees and track progress to ensure success. To do this, you can…
 
 Enable Microsoft 365 tools:
+
 - MyAnalytics
 - Workplace Analytics Seller success plan
 
 Implement change tactics:
+
 - Utilize Workplace Analytics best practices.
 - Get context from interviews, surveys, and workshops.
 - Leverage influential employees to drive success.
 
 Track and share progress:
+
 - Select the Workplace Analytics metrics to track based on opportunities.
 - Build custom dashboards.
 - Tailor communications to foster accountability.
