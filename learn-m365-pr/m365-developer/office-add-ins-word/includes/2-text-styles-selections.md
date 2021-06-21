@@ -1,8 +1,8 @@
 The Word JavaScript API enables programmatic control over text, formatting, selections, and ranges in Word documents. In this unit, you'll learn how to work with text, paragraphs, apply styles and formatting to text, and how to work with selections and ranges of text from a custom Word add-in.
 
-## Office 365 Platform Overview
+## Office developer platform overview
 
-The Microsoft Office 365 platform offers many canvases for developers to embed customizations and Office Add-ins are one of three canvases: documents, conversations  and pages.
+The Microsoft 365 developer platform platform, which includes Office, offers many canvases for developers to embed customizations and Office Add-ins are one of three canvases: documents, conversations and pages.
 
 Microsoft Teams makes conversations between users and enables developers to extend the experience using messaging extensions, conversational bots, and other customization options.
 
@@ -10,7 +10,7 @@ Developers customize pages in SharePoint Server and SharePoint online using the 
 
 Office clients, such as Word, Excel, PowerPoint, OneNote, and Outlook can also be extended to implement custom task panes, actions, and other customizations using add-ins.
 
-![Screenshot overview of the Office 365 Platform](../media/02-office-365-platform.png)
+![Screenshot overview of the Microsoft 365 Platform](../media/02-office-365-platform.png)
 
 ## Anatomy of Office.js add-in for Microsoft Word
 
