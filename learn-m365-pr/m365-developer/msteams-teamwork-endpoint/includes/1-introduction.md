@@ -21,4 +21,4 @@ In this module, you'll learn how to use Microsoft Graph to interact with Microso
 
 Refer to the following repository for more resources associated with this module. This repository includes completed code samples from the exercise units found in this module: [50 Task Modules](https://github.com/OfficeDev/TrainingContent/tree/master/Teams/70%20Microsoft%20Graph%20Teamwork%20Endpoint).
 
-This module is also available as the screencast [Microsoft Teams – Use the teamwork Microsoft Graph endpoint](https://www.youtube.com/watch?v=G33bN7cl2QU).
+This module is also available as the screencast [Microsoft Teams – Use the teamwork Microsoft Graph endpoint](https://youtube.com/playlist?list=PLWZJrkeLOrbZnS7i-mjIbAP9DXlo9YNBc).

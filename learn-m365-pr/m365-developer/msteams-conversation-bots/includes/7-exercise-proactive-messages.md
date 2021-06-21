@@ -1,3 +1,5 @@
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4NHyk]
+
 In this exercise, you’ll update the existing Teams app to send a proactive message from your bot.
 
 > [!IMPORTANT]

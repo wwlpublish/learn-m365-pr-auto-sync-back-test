@@ -72,7 +72,7 @@ PropertyFieldPeoplePicker('people', {
   allowDuplicate: false,
   principalType: [PrincipalType.Users, PrincipalType.SharePoint, PrincipalType.Security],
   onPropertyChange: this.onPropertyPaneFieldChanged,
-  context: this.context,
+  context: this.context as any,
   properties: this.properties,
   onGetErrorMessage: null,
   deferredValidationTime: 0,

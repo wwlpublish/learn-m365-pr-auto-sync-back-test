@@ -1,3 +1,5 @@
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4OIwO]
+
 In this exercise, you’ll learn how to create a project using the Yeoman Generator for Microsoft Teams and configure the custom Microsoft Teams app with single sign-on to submit requests to Microsoft Graph.
 
 ## Prerequisites
@@ -115,6 +117,8 @@ Add the following client applications by selecting the **Add a client applicatio
   - *Microsoft Teams web client*
 
 ## Create your Microsoft Teams app project
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4ODbw]
 
 Open your command prompt, navigate to a directory where you want to save your work, create a new folder **learn-msteams-teamwork**, and change directory into that folder.
 
@@ -256,6 +260,8 @@ return (
 At this point, the tab is successfully using Microsoft Teams' support for SSO, but it's limited to using the ID token.
 
 ## Add support to submit requests to Microsoft Graph
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4OIwN]
 
 In this section, we'll update the Microsoft Teams app to add support for submitting requests to Microsoft Graph building off the SSO support currently in place.
 
@@ -401,6 +407,8 @@ express.get("/exchangeSsoTokenForOboToken", async (req, res) => {
 
 ### Update the SSO tab to display the user's profile photo
 
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4OAOP]
+
 With the server-side API updated, we can now update the SSO tab to request and display the current user's profile photo. To do this, the tab will first exchange the ID token obtained by Microsoft Teams and it's SSO support for an access token that can be used to authenticate requests for Microsoft Graph.
 
 Locate and open the file **./src/client/msGraphTeamworkTab/MsGraphTeamworkTab.tsx**.
@@ -530,6 +538,8 @@ Go back to the browser and navigate back to the tab you added earlier in this ex
 With everything working, let's update the tab and Azure AD application to display a list of all teams the current user as joined.
 
 ## Display the teams the current user has joined
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4OAOQ]
 
 In this step, you'll update the project to use a different Microsoft Graph endpoint to display a list of all teams the current user has joined.
 
