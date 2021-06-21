@@ -39,7 +39,7 @@ You now need to create a resource group. An Azure resource group is a logical co
   az group create -n myResourceGroup -l westus
   ```
 
-1. Verify your new resource group by using the following command. This command gets the Azure resource group in your subscription named myResourceGroup.
+2. Verify your new resource group by using the following command. This command gets the Azure resource group in your subscription named myResourceGroup.
 
   ```PowerShell
   Get-AZResourceGroup -Name myResourceGroup
@@ -47,14 +47,14 @@ You now need to create a resource group. An Azure resource group is a logical co
 
 ## Deploy a Windows Server 2016 VM
 
-1. Enter the following commands in the CLI window:
+3. Enter the following commands in the CLI window:
 
   ```PowerShell
   az vm create --resource-group myResourceGroup --name myVM --image win2016datacenter --admin-username myVMadmin
   ```
 
-1. Enter the admin password and confirm it when you're prompted.
-1. When the **Running** message appears, the machine is being deployed. The Azure resources should take 2 to 3 minutes to deploy.
+4. Enter the admin password and confirm it when you're prompted.
+5. When the **Running** message appears, the machine is being deployed. The Azure resources should take 2 to 3 minutes to deploy.
 
    When the process is finished, the following output appears:
 
@@ -72,7 +72,7 @@ You now need to create a resource group. An Azure resource group is a logical co
     }
     ```
 
-1. Use the public address in your Remote Desktop connection. Note the address with your administrator password.
+6. Use the public address in your Remote Desktop connection. Note the address with your administrator password.
 
 ## Connect to the VM
 
