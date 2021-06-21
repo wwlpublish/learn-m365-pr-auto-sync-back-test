@@ -2,7 +2,7 @@ Every event, whether virtual or in-person, needs to be made accessible to all. A
 
 Here you'll explore how to design for accessibility, with a focus on the logistics and content being presented.
 
-## Event Design Model
+## Event design model
 
 <div align="center">
 
@@ -15,7 +15,7 @@ A circular diagram with arrows pointing around it to each component of the desig
 
 Making your event a success means making it the best it can be for as many people as possible. You could lose possible future attendees if you don't pay attention to accessibility from the start of your event planning.
 
-Use the above event design model from Microsoft to guide you through thinking about how to get people to attend your event, enjoy participating in your event, and get feedback to improve your future events.
+Use the above event design model to guide you through thinking about how to get people to attend your event, enjoy participating in your event, and get feedback to improve your future events.
 
 - **Awareness**: How will you make your attendees aware your event is happening? What is the core message you want to deliver?
 - **Education**: Inform potential attendees about why they should attend, and what they'll gain from attendance. How will you engage with your people?

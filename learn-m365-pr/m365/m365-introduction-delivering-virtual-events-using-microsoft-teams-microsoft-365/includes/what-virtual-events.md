@@ -1,4 +1,4 @@
-People need to communicate with each other to get their work done. It's hard to match face-to-face meetings, but when your team is distributed globally virtual events are the solution. Microsoft 365 includes Microsoft Teams support many different approaches to hosting virtual events.
+People need to communicate with each other to get their work done. It's hard to match face-to-face meetings, but when your team is distributed globally virtual events are the solution. Microsoft 365 includes Microsoft Teams, which supports many different approaches to hosting virtual events.
 
 As part of the group organizing your virtual summit, you know your project wants to have different kinds of events. You're going to research Microsoft 365 and check it has the tools to support the range of events you're going to produce.
 
@@ -6,11 +6,11 @@ Here you'll define what virtual events mean to your organization, look at the di
 
 ## Microsoft Teams meeting vs. Webinar vs. Live Events
 
-Microsoft 365 can scale from the smallest one-to-one video call, to a large-scale public broadcast with one to many thousands of attendees. For example, you can easily meet everyone in your team virtually by selecting **Join Online** from a calendar reminder.
+Microsoft 365 can scale from the smallest one-to-one video call, to a large-scale public broadcast thousands of attendees. Small scale video calls can be as simple as a Microsoft Teams meeting, whereas webinars can be a combination of live, or pre-recorded content, with the ability to have two-way engagement with the audience. 
 
-Compare meetings to **Webinars** that can be a combination of live, or pre-recorded content, delivered to communities or at conferences. The best webinars involve two-way engagement so the chat, screen sharing, and video sharing tools built into Microsoft Teams make it a great fit for webinars. When you create your Webinar in Microsoft Teams you can make use of a registration form to find out information about your attendees.
+If a webinar is the right experience for your event, you can make use of a built-in registration form to find out extra information about your attendees.
 
-To scale up the production of a virtual event to the level of broadcasting to thousands of attendees, Microsoft Teams lets you create **Live Events**. With Live Events Microsoft give you more control of production and how your content and the presenters are shown to attendees. Live events support can be found in Microsoft Teams, Yammer, and Microsoft Stream. You can choose the right tool for the size and complexity of your event scenario. You'll need to create your own process to manage attendee registration.
+To scale up the production of a virtual event to the level of broadcasting to thousands of attendees, Microsoft Teams lets you create **Live Events**. With Teams Live Events, Microsoft gives you more control over production and how your content and presenters are shown to attendees. You can choose the right tool for the size and complexity of your event scenario. You'll need to create your own process to manage attendee registration.
 
 ## Event scenarios
 
@@ -20,15 +20,12 @@ A diagram that has five columns. The first shows complexity with simple at the t
 
 The different kinds of virtual event support in Microsoft 365 ranges in complexity. The scenarios are supported by:
 
-- **Team meetings**: Supported using a Teams meeting, supports up to a new limit of 1,000 participants.
+- **Team meetings**: Supported using a Teams meeting, with a limit of 1,000 attendees.
+- **Webinars**: Individual or series, often destination learning events, that require attendee registration. Can be pre-recorded or live presentations with two-way engagement with attendees (open or moderated).
+- **Virtual conferences**: Single or multi-day experiences with multi-track and varying content types, that funnel attendees to online communities for ongoing engagement, as well as moderated Q&A.
+- **Leadership townhalls**: 1-to-many delivery with managed Q&A, often set up as moderated destination events and can be part of a regular rhythm of business or on-demand.
+- **Public broadcasts**: 1-to-many destination broadcast with optional streaming configurations and may stream to multiple platforms.
 
-- **Webinars**: Are the next step up in complexity from team meetings. Webinars are scheduled in Teams and includes an out of the box registration form. You can ask questions to your attendees, download the registration information and have up to 20,000 internal or external participants.
-
-- **Virtual conferences**: will tend to be larger and longer than webinars, with multi-track and varying content types. It's a good idea to have moderators involved with the event to monitor and manage question and answer sessions. Depending on the interaction required Teams Webinars or Live Events could be the best option.
-
-- **Leadership townhalls**: The interaction from two-way engagement to single presenters and large audiences. Q & A can be moderated along with the presentations, with the aim to deliver quality messages to large teams or departments. Live Events would be a good choice.
-
-- **Public broadcasts**: The most complex scenario that will likely involve presenters recorded live in a studio. The production will be optimized for viewers to stream the event onto a wide range of platforms. Your keynote speakers will most likely present at your summit using one of the Live Event options.
 
 
 ## Key roles to make your event a success
@@ -45,7 +42,7 @@ The kind of virtual events you're producing will dictate the number and types of
     :::column-end:::
     :::column span="2":::
         <br/>
-        The people attending your event. For the more simple events this will be in Microsoft Teams, but more complex events might have your attendees using Yammer or Microsoft Stream.
+        The people attending your event. For simple events, attendees may be joining from Teams only, but more complex events may have attendees join from Yammer or Microsoft Stream.
     :::column-end:::
 :::row-end:::
 
@@ -69,14 +66,14 @@ The kind of virtual events you're producing will dictate the number and types of
     :::column-end:::
     :::column span="2":::
         <br/>
-        The event host. Organizers create the virtual events, choosing the permissions and selecting who to invite. They'll curate and send out the event links.
+        Organizers create events, set the permissions, invite the event team, and curate the event links.
     :::column-end:::
 :::row-end:::
 
 :::row:::
     :::column span="2":::
         <br/>
-        <p align="right">Presenters deliver the content at your event. They'll present with a combination of audio, video, screen sharing, or playing pre-recorded videos. Depending on the number of attendees, they may also moderate Q & A.</p>
+        <p align="right">Presenters deliver the content at your event. They'll can present audio, video, and share their screen with the attendees. Depending on the number of attendees, they may also moderate Q & A.</p>
     :::column-end:::
     :::column:::
         :::image type="content" source="../media/presenter-small.png" alt-text="Presenter icon" border="false":::
@@ -93,12 +90,6 @@ The kind of virtual events you're producing will dictate the number and types of
     :::column-end:::
     :::column span="2":::
         <br/>
-        The producers role is to ensure the event runs smoothly. They will start and stop events, queue content, and manage back stage chat. For simple events they could also be the same person as the organizer.
+        Producers ensure the event runs smoothly. When using Teams Live Events they'll start and stop events, queue content, and manage backstage chat. For simple events, they could also be the same person as the Organizer.
     :::column-end:::
 :::row-end:::
-
-## Combination events
-
-Having read about all the different event scenarios you'll see that in most cases events will use a combination of all the above. For your summit, you'll want to have small breakout sessions that support different content tracks. Attendees will likely use Microsoft Teams to participate. The moderators will encourage two-way conversations, with attendees able to share their own content and videos.
-
-:::image type="content" source="../media/combination-events.png" alt-text="A diagram showing the different scale between Live Events and Teams Meetings - with breakouts in the center." border="false":::

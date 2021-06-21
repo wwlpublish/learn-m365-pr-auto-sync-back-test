@@ -26,7 +26,6 @@ abstract: | # user input: learning objectives (https://review.docs.microsoft.com
     - Build accessible presentations to support your virtual events
     - Choose the most appropriate tools for your virtual events
     - Explain the different platform requirements
-    - Understand how to gather insights from your event
 prerequisites: | # user input: prerequisites (https://review.docs.microsoft.com/help/learn/id-guidance-prerequisites?branch=master)
 iconUrl: /learn/achievements/generic-badge.svg
 levels: # user input: add levels from level taxonomy (https://review.docs.microsoft.com/help/contribute/metadata-taxonomies?branch=master#level)
