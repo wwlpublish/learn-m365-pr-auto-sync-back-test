@@ -63,7 +63,7 @@ Permanently delete.
   :::column:::
     Automatically to a default folder.
 
-Default folders are folders created automatically in all mailboxes, for example: Inbox, Deleted Items, and Sent Items. See the list of supported default folders in [Default folders that support Retention Policy Tags](https://docs.microsoft.com/exchange/security-and-compliance/messaging-records-management/default-folders?azure-portal=true).
+Default folders are folders created automatically in all mailboxes, for example: Inbox, Deleted Items, and Sent Items. See the list of supported default folders in [Default folders that support Retention Policy Tags](/exchange/security-and-compliance/messaging-records-management/default-folders).
   :::column-end:::
   :::column:::
     Administrator
@@ -121,7 +121,7 @@ Users can also use Outlook on the web (under **Settings** &gt; **Your app settin
 :::image type="content" source="../media/retention-policies-in-outlook-0116d4ff.png" alt-text="screenshot of retention policies in Outlook on the Web":::
 
 
-**Additional reading.** For more information on retention policies, see [MyRetentionPolicies role](https://docs.microsoft.com/exchange/myretentionpolicies-role-exchange-2013-help?azure-portal=true).
+**Additional reading.** For more information on retention policies, see [MyRetentionPolicies role](/exchange/myretentionpolicies-role-exchange-2013-help).
 
 ## Knowledge check
 

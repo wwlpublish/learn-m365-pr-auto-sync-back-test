@@ -1,3 +1,5 @@
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4OIAA]
+
 In this exercise, you'll use the Graph Explorer to create and issue a single request that contains multiple child requests. This batching of requests enables developers to submit multiple requests in a single round-trip request to Microsoft Graph, creating more optimized queries.
 
 ## Sign in to the Microsoft Graph Explorer
@@ -10,9 +12,9 @@ Open a browser and navigate to https://developer.microsoft.com/graph/graph-explo
 
 ![Screenshot of the Graph Explorer](../media/graph-explorer-01.png)
 
-Select the **Sign In with Microsoft** button in the left-side panel and enter the credentials of a Work and School account.
+Select the **Sign to Graph Explorer** button in the left-side panel and enter the credentials of a Work and School account.
 
-After signing in, select the gear icon to the right of your user profile and then select **Select permissions**. Verify the user has enough permissions to submit the requests in this exercise. You must consent to at least these minimum permissions:
+After signing in, select the **...** menu to the right of your user profile and then select **Select permissions**. Verify the user has enough permissions to submit the requests in this exercise. You must consent to at least these minimum permissions:
 
 - Mail.Read
 - Calendars.Read
@@ -107,7 +109,7 @@ Select the **Run Query** button.
 
 Observe the results in the **Response Preview** box at the bottom of the page:
 
-![Screenshot of Microsoft Graph batch response](../media/graph-explorer-05.png)
+![Screenshot of Microsoft Graph batch response in Graph Explorer](../media/graph-explorer-05.png)
 
 Notice this response contains two objects. The first request resulted in an HTTP 201 that says the item, or folder, was created.
 
