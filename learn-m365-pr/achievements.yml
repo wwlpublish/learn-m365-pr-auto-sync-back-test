@@ -60,3 +60,8 @@ achievements:
   title: Discover how your organization can achieve more with Surface for Business and Microsoft 365
   summary: Discover how your organization can achieve more with Surface for Business and Microsoft 365
   iconUrl: /learn/achievements/get-more-from-microsoft-365-with-surface-for-business.svg
+- uid: learn-wwl.deploy-and-manage-windows-10-and-office-365-proplus.badge
+  type: badge
+  title: Balance IT and user needs with Windows 10 and Microsoft 365 Apps for enterprise
+  summary: Balance IT and user needs with Windows 10 and Microsoft 365 Apps for enterprise
+  iconUrl: /learn/achievements/deploy-and-manage-windows-10-and-office-365-proplus.svg
