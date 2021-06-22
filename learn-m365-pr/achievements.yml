@@ -35,3 +35,28 @@ achievements:
   title: Describe the compliance management capabilities of Microsoft 365
   summary: Describe the compliance management capabilities of Microsoft 365
   iconUrl: /learn/achievements/describe-the-compliance-management-capabilities-of-microsoft-365.svg
+- uid: learn-wwl.modernize-workplace-with-m365-and-surface-v1-1.trophy
+  type: trophy
+  title: Modernize your workplace with Microsoft 365 and Surface for Business
+  summary: Modernize your workplace with Microsoft 365 and Surface for Business
+  iconUrl: /learn/achievements/m365-sfa-learning-path.svg
+- uid: learn-wwl.discover-modern-workplace-solutions-m365-surface-business.badge
+  type: badge
+  title: Discover modern workplace solutions with Microsoft 365 and Surface for Business
+  summary: Discover modern workplace solutions with Microsoft 365 and Surface for Business
+  iconUrl: /learn/achievements/discover-modern-workplace-solutions-m365-surface-business.svg
+- uid: learn-wwl.facilitate-teamwork-with-microsoft-365.badge
+  type: badge
+  title: Facilitate teamwork to achieve more with Microsoft 365
+  summary: Facilitate teamwork to achieve more with Microsoft 365
+  iconUrl: /learn/achievements/facilitate-teamwork-with-microsoft-365.svg
+- uid: learn-wwl.modern-communications-in-microsoft-teams.badge
+  type: badge
+  title: Enable modern communication and collaboration with Microsoft Teams
+  summary: Enable modern communication and collaboration with Microsoft Teams
+  iconUrl: /learn/achievements/modern-communications-in-microsoft-teams.svg
+- uid: learn-wwl.get-more-from-microsoft-365-with-surface-for-business.badge
+  type: badge
+  title: Discover how your organization can achieve more with Surface for Business and Microsoft 365
+  summary: Discover how your organization can achieve more with Surface for Business and Microsoft 365
+  iconUrl: /learn/achievements/get-more-from-microsoft-365-with-surface-for-business.svg
