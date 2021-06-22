@@ -55,3 +55,8 @@ achievements:
   title: Enable modern communication and collaboration with Microsoft Teams
   summary: Enable modern communication and collaboration with Microsoft Teams
   iconUrl: /learn/achievements/modern-communications-in-microsoft-teams.svg
+- uid: learn-wwl.get-more-from-microsoft-365-with-surface-for-business.badge
+  type: badge
+  title: Discover how your organization can achieve more with Surface for Business and Microsoft 365
+  summary: Discover how your organization can achieve more with Surface for Business and Microsoft 365
+  iconUrl: /learn/achievements/get-more-from-microsoft-365-with-surface-for-business.svg
