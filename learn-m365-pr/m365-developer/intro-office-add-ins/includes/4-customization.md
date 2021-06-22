@@ -1,4 +1,4 @@
-The Office Add-ins platform enables you to customize your add-in. In this module, you'll explore how to customize your add-in by persisting state, and using Fluent UI (Fluent UI) and Microsoft Graph. By the end of this module, you should know how to customize Office Add-ins using persisted state, Fluent UI (Fluent UI), and Microsoft Graph.
+The Office Add-ins platform enables you to customize your add-in. In this module, you'll explore how to customize your add-in by persisting state, and using Fluent UI and Microsoft Graph. By the end of this module, you should know how to customize Office Add-ins using persisted state, Fluent UI, and Microsoft Graph.
 
 ## Understand the options for persisting state and settings
 
@@ -22,16 +22,16 @@ You can also use HTML5 web storage and other techniques available through the ad
 > [!IMPORTANT]
 > Don't store passwords and sensitive personally identifiable information (PII) on the user's device.
 
-## Understand Fluent UI (Fluent UI) in Office Add-ins
+## Understand Fluent UI in Office Add-ins
 
-As you build your add-in, you have many UI design factors to consider. The Fluent UI (Fluent UI) provides elements that adhere to Office branding so your add-in looks like a natural extension of Office.
+As you build your add-in, you have many UI design factors to consider. The Fluent UI provides elements that adhere to Office branding so your add-in looks like a natural extension of Office.
 
 > [!NOTE]
 > Using UI Fabric is optional but recommended.
 
-### About UI Fabric
+### About Fluent UI
 
-Fluent UI (Fluent UI) has two (2) main areas:
+Fluent UI has two (2) main areas:
 
 - Fabric Core - Provides basic elements like font, icons, and color
 - Fabric React components - Includes Fabric Core elements and adds input, navigation, and notification components, among others
@@ -119,4 +119,4 @@ Depending on your development choices, you can use one of the following librarie
 
 ## Summary
 
-The Office Add-ins platform enables you to customize your add-in. In this module, you explored how to customize your add-in by persisting state, and using Fluent UI (Fluent UI) and Microsoft Graph. By the end of this module, you should know how to customize Office Add-ins using persisted state, Fluent UI (Fluent UI), and Microsoft Graph.
+The Office Add-ins platform enables you to customize your add-in. In this module, you explored how to customize your add-in by persisting state, and using Fluent UI and Microsoft Graph. By the end of this module, you should know how to customize Office Add-ins using persisted state, Fluent UI, and Microsoft Graph.
