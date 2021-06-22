@@ -18,15 +18,15 @@ Making your event a success means making it the best it can be for as many peopl
 Use the above event design model to guide you through thinking about how to get people to attend your event, enjoy participating in your event, and get feedback to improve your future events.
 
 - **Awareness**: How will you make your attendees aware your event is happening? What is the core message you want to deliver?
-- **Education**: Inform potential attendees about why they should attend, and what they'll gain from attendance. How will you engage with your people?
-- **Intent**: If they're aware, and know why they should attend, people need to act on their intent to attend.
+- **Education**: Inform potential attendees about why they should attend, and what they'll gain from attendance. How will you engage with people?
+- **Intent**: Once they're aware, and know why they should attend, people need to act on their intent to attend.
 - **Conversion**: Converting them from possible to registered attendees, reduce friction in the sign-up process. As you begin to register attendees and their preferences, begin to build or adapt your content with a focus on them.
 - **Engagement**: During the event, provide multiple ways for your attendees to engage with the content. Have you trained your presenters and moderators on all the tools they need to succeed?
 - **Satisfaction**: If your event is a success, attendees will be satisfied, and hopefully recommend future events to others. What was your audience profile, can you gather metrics on their diversity?
 
 ## Event accessibility
 
-Accessibility and inclusivity begins with your event planning. Building on the event design model above, your advertising and promotion of the event needs to be accessible to people of all abilities. The text and images used should apply accessibility best practices where possible:
+Accessibility and inclusivity begin with your event planning. Building on the event design model above, your advertising and promotion of the event needs to be accessible to people of all abilities. The text and images used should apply accessibility best practices where possible:
 
 - Sans serif fonts are easier for a wide variety of reading levels
 - Use larger fonts for the key information
