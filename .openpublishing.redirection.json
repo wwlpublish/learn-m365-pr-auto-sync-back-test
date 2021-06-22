@@ -1219,6 +1219,41 @@
       "source_path": "learn-m365-pr/wwl-mba/modern-communications-in-microsoft-teams/6-summary-and-resources.md",
       "redirect_url": "https://docs.microsoft.com/learn/paths/m365-productivity-teamwork-solutions/",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl-mba/get-more-from-microsoft-365-with-surface-for-business/index.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/m365-productivity-teamwork-solutions/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl-mba/get-more-from-microsoft-365-with-surface-for-business/1-introduction.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/m365-productivity-teamwork-solutions/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl-mba/get-more-from-microsoft-365-with-surface-for-business/2-surface-for-business-devices.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/m365-productivity-teamwork-solutions/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl-mba/get-more-from-microsoft-365-with-surface-for-business/3-customer-success-story.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/m365-productivity-teamwork-solutions/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl-mba/get-more-from-microsoft-365-with-surface-for-business/4-assess-your-device-needs.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/m365-productivity-teamwork-solutions/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl-mba/get-more-from-microsoft-365-with-surface-for-business/5-knowledge-check.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/m365-productivity-teamwork-solutions/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl-mba/get-more-from-microsoft-365-with-surface-for-business/6-summary-and-resources.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/m365-productivity-teamwork-solutions/",
+      "redirect_document_id": false
     }
   ]
 }
