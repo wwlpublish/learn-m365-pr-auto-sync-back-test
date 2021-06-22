@@ -50,3 +50,8 @@ achievements:
   title: Facilitate teamwork to achieve more with Microsoft 365
   summary: Facilitate teamwork to achieve more with Microsoft 365
   iconUrl: /learn/achievements/facilitate-teamwork-with-microsoft-365.svg
+- uid: learn-wwl.modern-communications-in-microsoft-teams.badge
+  type: badge
+  title: Enable modern communication and collaboration with Microsoft Teams
+  summary: Enable modern communication and collaboration with Microsoft Teams
+  iconUrl: /learn/achievements/modern-communications-in-microsoft-teams.svg
