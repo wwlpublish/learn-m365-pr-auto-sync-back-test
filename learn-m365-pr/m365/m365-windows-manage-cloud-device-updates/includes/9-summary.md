@@ -8,7 +8,7 @@ Now that you’ve completed this module, you should be able to:
 - Manage quality, feature, and driver updates for Windows devices
 - Manage the post-deployment experience for updates
 
-## Learn more 
+## Learn more
 
 - [Update Baseline]( https://www.microsoft.com/download/details.aspx?id=101056) 
 - [Deploy Windows Server Update Services](/windows-server/administration/windows-server-update-services/deploy/deploy-windows-server-update-services)

@@ -4,5 +4,3 @@ You work for Woodgrove, a large financial organization. A recent report revealed
 Previously, you’ve helped your organization prepare its environment for a new Windows 10 feature update so it can stay current. As the process manager, you’ve been asked to help Woodgrove complete pilot and broad deployment for feature updates across the environment.
 
 In this module, you'll learn how to use the Windows servicing process to complete pilot and broad deployments to help your organization to stay current. By the end of this module, you'll understand how your organization can deploy updates across its estate, and improve how future updates are delivered.
-
-

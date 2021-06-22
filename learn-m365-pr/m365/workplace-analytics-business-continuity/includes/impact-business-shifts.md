@@ -3,7 +3,7 @@ The Business continuity Power BI template provides a quick and easy way to under
 ## So how does it work?
 
 Each report page provides insights into one of the themes laid out on the introduction page. Dynamic filtering and embedded guidance let users uncover useful insights quickly:
- 
+
 - Filtering data by the change in the amount of collaboration enables analysts to drill down to groups in the organization that are most impacted.
 - Broader contextual guidance within each page helps users ground their findings in a business context.
 
@@ -11,7 +11,7 @@ Each report page provides insights into one of the themes laid out on the introd
 
 ### The Introduction page
 
-The Introduction page of the report helps set up the context around what questions the Business continuity Dashboard will address, as well as why it matters. 
+The Introduction page of the report helps set up the context around what questions the Business continuity Dashboard will address, as well as why it matters.
 
 ![the Introduction Page](../media/introduction-page.png)
 
@@ -21,7 +21,7 @@ The Business continuity Dashboard is often converted into a PDF and distributed 
 
 The *Collaboration activity report* shows how collaboration patterns are changing in response to shifting work patterns, and which tools people are substituting for in-person interactions.
 
-- The chart on the left shows the average level of collaboration for the measured employees on a per-employee per-week level. 
+- The chart on the left shows the average level of collaboration for the measured employees on a per-employee per-week level.
 
 - The chart on the right breaks out the change in collaboration between the baseline and current time periods, across your selected organizational attribute
 
@@ -29,9 +29,9 @@ The *Collaboration activity report* shows how collaboration patterns are changin
 
 > [!TIP]
 > Select any bar in the column chart on the right to filter the timeline chart on the left (this filter is only applied to this report page).
-> 
+>
 
-- Increased collaboration can indicate a shift from face-to-face time to digital collaboration. An increase in meetings in particular can indicate a lengthening of work cycles as interactions that once happened informally now have to be scheduled in advance. 
+- Increased collaboration can indicate a shift from face-to-face time to digital collaboration. An increase in meetings in particular can indicate a lengthening of work cycles as interactions that once happened informally now have to be scheduled in advance.
 
 - If collaboration is lower than before, check how the collaboration mix is changing. Is a drop in meetings offset by an increase in emails and chats? If so, it may be that activities that previously required a meeting are shifting to a mix of meetings, email, calls, and chats.
 
@@ -47,22 +47,22 @@ Part 1 of the *Work-life integration report* helps you determine the share of em
 
 - The chart on the left shows the share of employees by group with the selected change in collaboration hours. In the example below, collaboration hours decreased 4+ hours for 11% of Legal and increased by 4+ hours for 42% of Legal.
 
-- The chart on the right shows the share of employees by group with the selected change in workweek span hours. In the example below, workweek span decreased by 4+ hours for 14% of Professional Services and increased by 4+ hours for 34% of Professional Services. 
+- The chart on the right shows the share of employees by group with the selected change in workweek span hours. In the example below, workweek span decreased by 4+ hours for 14% of Professional Services and increased by 4+ hours for 34% of Professional Services.
 
 ![The work-life-integration report Part 1](../media/work-life-integration-impacts-1.png)
 
 > [!TIP]
-> 
+>
 > Use the hours-per-week drop-down menu at the top of each pane to adjust the comparison points for  collaboration and workweek span hours  to at least zero, two, or four hours per week.
-> 
+>
 
-- If you see team collaboration patterns revert to near-normal levels, employees might still be impacted due to managing work demands with family or community, technology-related blockers, or prioritizing non-collaborative work to make the most of decreased connectivity. 
+- If you see team collaboration patterns revert to near-normal levels, employees might still be impacted due to managing work demands with family or community, technology-related blockers, or prioritizing non-collaborative work to make the most of decreased connectivity.
 
-- Workweek spans can change depending on how employees adapt to remote work and how they use increased flexibility to accommodate the needs of family or community. For teams accustomed to working in the same location and with the same working hours, increased flexibility might cause some friction. 
+- Workweek spans can change depending on how employees adapt to remote work and how they use increased flexibility to accommodate the needs of family or community. For teams accustomed to working in the same location and with the same working hours, increased flexibility might cause some friction.
 
 - Low workweek spans do not necessarily indicate lower productivity or less time working – rather, employees might be handling collaborative activity in fewer hours, and performing focused work outside of that window.
 
-- If some employees are sending messages early or late in the day, and others are sticking to their prior schedules, it might be valuable for teams to align their expectations on how “after-hours” messages should be handled, and how quickly to respond or expect a response. 
+- If some employees are sending messages early or late in the day, and others are sticking to their prior schedules, it might be valuable for teams to align their expectations on how “after-hours” messages should be handled, and how quickly to respond or expect a response.
 
 ### Report: What are the impacts of work-life integration? Part 2
 
@@ -88,7 +88,7 @@ Part 2 of the *Work-life integration report* shows the share of employees whose 
 
 ### Report: Are external relationships being maintained?
 
-The *External relationships report* quantifies changes in communication with customers, partners, and others outside the organization. 
+The *External relationships report* quantifies changes in communication with customers, partners, and others outside the organization.
 
 - The metrics on the left provide a consolidated view of email and meeting hours changes compared to the baseline time period.
 
@@ -100,11 +100,11 @@ Teams with significant decreases in external collaboration might be struggling t
 
 > [!NOTE]
 > External collaboration hours include collaboration with personal domains such as gmail.com and yahoo.com. To exclude personal domains, customize the *external email hours* and *external meeting hours* metrics in the query.
-> 
+>
 
 ### Report: Are employees engaged and connected?
 
-The *Engagement and connectivity report* helps identify areas that might be struggling with employee connectivity and community by showing recent manager one-on-one and small group conversation activity. 
+The *Engagement and connectivity report* helps identify areas that might be struggling with employee connectivity and community by showing recent manager one-on-one and small group conversation activity.
 
 - The chart on the left shows the share of employees by group with no manager one-on-one meetings.  
 
@@ -113,12 +113,12 @@ The *Engagement and connectivity report* helps identify areas that might be stru
 ![The engagement and connectivity report](../media/employees-engaged-connected.png)
 
 > [!NOTE]
-> These metrics reflect the last two weeks of the current time frame only. 
-> 
+> These metrics reflect the last two weeks of the current time frame only.
+>
 
-- Manager one-on-one meetings are an indicator of support and development opportunities. In a remote work environment, it is important for managers to check in with employees on a regular basis to see how they are doing, identify barriers, and ensure that workloads are manageable. Such check-ins demonstrate compassion and empathy and establish trust. 
+- Manager one-on-one meetings are an indicator of support and development opportunities. In a remote work environment, it is important for managers to check in with employees on a regular basis to see how they are doing, identify barriers, and ensure that workloads are manageable. Such check-ins demonstrate compassion and empathy and establish trust.
 
-- Small group conversations in meetings, calls, and chats can reduce feelings of isolation (while email might push a workstream, it is impersonal and does not promote engaged connectivity). Employees experiencing low connectivity (< two hours per week) might be struggling to adapt to virtual work and might need more training and assistance. 
+- Small group conversations in meetings, calls, and chats can reduce feelings of isolation (while email might push a workstream, it is impersonal and does not promote engaged connectivity). Employees experiencing low connectivity (< two hours per week) might be struggling to adapt to virtual work and might need more training and assistance.
 
 - The visuals in this report can be used together to form a story. For example, employees with low connectivity and limited manager one-on-one sessions are likely at the highest risk of isolation and disengagement.
 

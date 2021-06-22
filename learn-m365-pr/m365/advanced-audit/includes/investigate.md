@@ -1,6 +1,6 @@
-Using **MailItemsAccessed** audit records for forensic purposes is typically performed after a data breach has been identified and the attacker evicted. To begin your investigation, identify the mailboxes that may have been compromised and determine the time frame when the attacker had access. Then, you can use the **Search-UnifiedAuditLog** or **Search-MailboxAuditLog** cmdlets in Exchange Online PowerShell to search the audit records that correspond to the data breach. 
+Using **MailItemsAccessed** audit records for forensic purposes is typically performed after a data breach has been identified and the attacker evicted. To begin your investigation, identify the mailboxes that may have been compromised and determine the time frame when the attacker had access. Then, you can use the **Search-UnifiedAuditLog** or **Search-MailboxAuditLog** cmdlets in Exchange Online PowerShell to search the audit records that correspond to the data breach.
 
-Once you connect to the Exchange Online PowerShell, you can follow the steps below for using **MailItemsAccessed** audit records to investigate a compromised email account. 
+Once you connect to the Exchange Online PowerShell, you can follow the steps below for using **MailItemsAccessed** audit records to investigate a compromised email account.
 
 1. Identify throttled mailboxes.
 2. Check for sync activities.
@@ -41,7 +41,7 @@ Here you can see a successful connection to Exchange Online PowerShell V2.
 
 ## Identify throttled mailboxes
 
-Check if the mailbox was throttled during the time it may have been compromised. If it has been throttled, some mailbox auditing records were likely not logged. In the case where any audit records have "IsThrottled" as "True," you should assume that for a 24-hour period after that record was generated, access to the mailbox wasn't audited and that all mail data has been compromised. Getting no results means the mailbox wasn't throttled during the period you're investigating. To search for **MailItemsAccessed** records where the mailbox was throttled, run the following PowerShell command, substituting the appropriate values for your investigation. 
+Check if the mailbox was throttled during the time it may have been compromised. If it has been throttled, some mailbox auditing records were likely not logged. In the case where any audit records have "IsThrottled" as "True," you should assume that for a 24-hour period after that record was generated, access to the mailbox wasn't audited and that all mail data has been compromised. Getting no results means the mailbox wasn't throttled during the period you're investigating. To search for **MailItemsAccessed** records where the mailbox was throttled, run the following PowerShell command, substituting the appropriate values for your investigation.
 
 `Search-UnifiedAuditLog -StartDate 05/13/2020 -EndDate 05/14/2020 -UserIds meganb -Operations MailItemsAccessed -ResultSize 1000 | Where {$_.AuditData -like '*"IsThrottled","Value":"True"*'} | FL`
 
@@ -55,7 +55,7 @@ Here are the values used in the example:
 
 ## Check for sync activities
 
-If an attacker uses an email client to download messages in a mailbox, they can disconnect the computer from the Internet and view the messages offline. As a result, mailbox auditing wouldn't be able to audit these activities. You should assume all synced email messages were compromised if the request came from the attacker’s PC or Mac. To search for **MailItemsAccessed** records where the mail items were accessed via a sync operation, run the following command substituting the values for **EndDate, StartDate**, and **UserIds** values with what is appropriate for your situation. 
+If an attacker uses an email client to download messages in a mailbox, they can disconnect the computer from the Internet and view the messages offline. As a result, mailbox auditing wouldn't be able to audit these activities. You should assume all synced email messages were compromised if the request came from the attacker’s PC or Mac. To search for **MailItemsAccessed** records where the mail items were accessed via a sync operation, run the following command substituting the values for **EndDate, StartDate**, and **UserIds** values with what is appropriate for your situation.
 
 `Search-UnifiedAuditLog -StartDate 05/13/2020 -EndDate 05/14/2020 -UserIds meganb -Operations MailItemsAccessed -ResultSize 1000 | Where {$_.AuditData -like '*"MailAccessType","Value":"Sync"*'} | FL`
 
