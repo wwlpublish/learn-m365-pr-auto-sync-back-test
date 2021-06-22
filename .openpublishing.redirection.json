@@ -1114,6 +1114,41 @@
       "source_path": "learn-m365-pr/paths/modernize-workplace-with-m365-and-surface/index.md",
       "redirect_url": "https://docs.microsoft.com/learn/paths/m365-productivity-teamwork-solutions/",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl-mba/discover-modern-workplace-solutions-m365-surface-business/index.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/m365-productivity-teamwork-solutions/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl-mba/discover-modern-workplace-solutions-m365-surface-business/1-introduction.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/m365-productivity-teamwork-solutions/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl-mba/discover-modern-workplace-solutions-m365-surface-business/2-microsoft-365.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/m365-productivity-teamwork-solutions/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl-mba/discover-modern-workplace-solutions-m365-surface-business/3-surface-business-devices.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/m365-productivity-teamwork-solutions/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl-mba/discover-modern-workplace-solutions-m365-surface-business/4-customer-success-story.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/m365-productivity-teamwork-solutions/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl-mba/discover-modern-workplace-solutions-m365-surface-business/5-knowledge-check.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/m365-productivity-teamwork-solutions/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl-mba/discover-modern-workplace-solutions-m365-surface-business/6-summary-resources.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/m365-productivity-teamwork-solutions/",
+      "redirect_document_id": false
     }
   ]
 }
