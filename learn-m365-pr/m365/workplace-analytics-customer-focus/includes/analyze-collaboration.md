@@ -165,7 +165,7 @@ In the next unit, you’ll learn how to scope your analysis, use the business qu
 
 ## Learn more
 
-- [Workplace Analytics glossary](https://docs.microsoft.com/workplace-analytics/use/glossary?azure-portal=true)
-- [Workplace Analytics metrics](https://docs.microsoft.com/workplace-analytics/use/metric-definitions?azure-portal=true)
-- [Learn about the Ways of working assessment](https://docs.microsoft.com/workplace-analytics/tutorials/power-bi-collab-assess?azure-portal=true)
-- [Workplace Analytics Resource playbooks](https://docs.microsoft.com/workplace-analytics/use/playbooks?azure-portal=true)
+- [Workplace Analytics glossary](/workplace-analytics/use/glossary?azure-portal=true)
+- [Workplace Analytics metrics](/workplace-analytics/use/metric-definitions?azure-portal=true)
+- [Learn about the Ways of working assessment](/workplace-analytics/tutorials/power-bi-collab-assess?azure-portal=true)
+- [Workplace Analytics Resource playbooks](/workplace-analytics/use/playbooks?azure-portal=true)

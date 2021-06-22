@@ -37,6 +37,7 @@ Here are the steps to connect to Security & Compliance PowerShell:
 ### Connect to Office 365 Security & Compliance Center PowerShell
 
 Watch this demonstration of how to connect to Office 365 Security & Compliance Center PowerShell.
+
 >
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4Asf5]
 

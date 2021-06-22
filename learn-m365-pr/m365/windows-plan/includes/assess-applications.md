@@ -10,7 +10,6 @@ Woodgrove needs to decide how it wants to categorize application importance for 
 |Important|These are applications that the organization's individual staff members need to support their productivity. Downtime here would affect individual users, but would only have minimal impact on the business.|
 |Not important|There is no impact on the business if these applications experience downtime. |
 
-
 Once you have classified your applications, you should agree what each level of importance means to the organization in terms of priority and severity, to ensure that issues can be triaged with the right level of urgency. The next step is to assign one of the following priority levels to each application:
 
 |Priority level  |Description  |
@@ -21,7 +20,6 @@ Once you have classified your applications, you should agree what each level of 
 |Priority 4|Start investigating risks and issues within 20 business days. You can fix them in the current or any future development cycle.|
 
 Much like a risk assessment matrix, defining a severity level helps the organization map what will happen to the deployment process, for example:
-
 
 |Severity  |Impact  |Deployment state  |
 |---------|---------|---------|
@@ -48,4 +46,3 @@ For Microsoft 365 Apps, you can use the following servicing channels:
 |Semi-Annual Enterprise Channel     |Released in January and July. This channel is selected by default for commercial customers. Users will have to wait a longer time to consume new feature updates.|
 |Current Channel     |Released in March and September. Use this channel to have users receive feature updates quicker than the Semi-Annual enterprise channel.|
 |Monthly Enterprise Channel|If your environment doesn't have critical line-of-business applications, add-ins, or macros that need to be tested to determine if they work with an updated version of Microsoft 365 Apps, the Monthly Channel is the best way to provide new features to users in the quickest way. Rapid adopters of Windows are encouraged to use this servicing channel.|
-

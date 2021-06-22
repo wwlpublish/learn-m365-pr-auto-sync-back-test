@@ -1,4 +1,5 @@
 Auditing plays an important role in the security and compliance strategy for many organizations. Microsoft 365 delivers comprehensive audit logs and alerts across more than 15 services, so you can track user and administrator activity. Here is a short list of some of the activities available in the audit log:
+
 - User and admin activity in Exchange Online
 - Admin activity in Azure Active Directory
 - User and admin activity in SharePoint Online
@@ -33,6 +34,7 @@ Microsoft 365 Advanced Audit adds new auditing capabilities that can help your o
 
 > [!NOTE]
 > This feature is a capability included with:
+>
 > - Microsoft 365 E5
 > - Microsoft 365 E5 Compliance
 > - Microsoft 365 E5 eDiscovery and Audit

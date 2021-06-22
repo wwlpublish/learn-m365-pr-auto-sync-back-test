@@ -11,12 +11,8 @@ Without a servicing process, your organization’s environment could continue to
 - [Release tracker for Windows Insider Program](https://blogs.windows.com/windowsexperience/tag/windows-insider-program/)
 - [What is Desktop Analytics?](/configmgr/desktop-analytics/overview)
 - Desktop Analytics video tutorials:
-    - [Overview](https://www.microsoft.com/videoplayer/embed/RE4wte2)
-    - [Create a deployment plan](https://www.microsoft.com/videoplayer/embed/RE4wB8j)
-    - [Monitor](https://www.microsoft.com/videoplayer/embed/RE4wprt)
+  - [Overview](https://www.microsoft.com/videoplayer/embed/RE4wte2)
+  - [Create a deployment plan](https://www.microsoft.com/videoplayer/embed/RE4wB8j)
+  - [Monitor](https://www.microsoft.com/videoplayer/embed/RE4wprt)
 - [Track new Configuration Manager changes](/configmgr/core/plan-design/changes/whats-new-in-version-1910)
 - [Microsoft guidance for policies](https://aka.ms/UpdateVelocity)
-
-
-
-
