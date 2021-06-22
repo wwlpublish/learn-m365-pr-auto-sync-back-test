@@ -1254,6 +1254,41 @@
       "source_path": "learn-m365-pr/wwl-mba/get-more-from-microsoft-365-with-surface-for-business/6-summary-and-resources.md",
       "redirect_url": "https://docs.microsoft.com/learn/paths/m365-productivity-teamwork-solutions/",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl-mba/deploy-and-manage-windows-10-and-office-365-proplus/index.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/m365-productivity-teamwork-solutions/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl-mba/deploy-and-manage-windows-10-and-office-365-proplus/1-introduction.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/m365-productivity-teamwork-solutions/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl-mba/deploy-and-manage-windows-10-and-office-365-proplus/2-windows-10-and-microsoft-365-apps-enterprise.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/m365-productivity-teamwork-solutions/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl-mba/deploy-and-manage-windows-10-and-office-365-proplus/3-customer-success-story.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/m365-productivity-teamwork-solutions/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl-mba/deploy-and-manage-windows-10-and-office-365-proplus/4-how-modern-is-your-it-organization.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/m365-productivity-teamwork-solutions/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl-mba/deploy-and-manage-windows-10-and-office-365-proplus/5-knowledge-check.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/m365-productivity-teamwork-solutions/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl-mba/deploy-and-manage-windows-10-and-office-365-proplus/6-summary-and-resources.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/m365-productivity-teamwork-solutions/",
+      "redirect_document_id": false
     }
   ]
 }
