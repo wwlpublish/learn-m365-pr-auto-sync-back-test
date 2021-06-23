@@ -48,17 +48,17 @@ quiz:
     - content: "Configure all log collectors to block the executable file."
       isCorrect: false
       explanation: "Log collectors are used to obtain logs from firewalls and proxy servers and send them to Cloud App Security. You can’t use them to intercept and prevent access to malicious files."
-  - content: "You’re using the Advanced hunting tool in the Microsoft 365 security center to find information about a suspicious activity certain users have been executing. Which of these languages should you use to write the query?"
+  - content: "You’re using the Advanced hunting tool in the Microsoft 365 Defender portal to find information about a suspicious activity certain users have been executing. Which of these languages should you use to write the query?"
     choices:
     - content: "Transact SQL"
       isCorrect: false
-      explanation: "That’s incorrect. The Microsoft 365 security center doesn’t support the Transact-SQL language for queries in the advanced hunting tool."
+      explanation: "That’s incorrect. The Microsoft 365 Defender portal doesn’t support the Transact-SQL language for queries in the advanced hunting tool."
     - content: "Kusto"
       isCorrect: true
-      explanation: "That’s correct. The Microsoft 365 security center uses the Kusto query language for queries in the advanced hunting tool."
+      explanation: "That’s correct. The Microsoft 365 Defender portal uses the Kusto query language for queries in the advanced hunting tool."
     - content: "XML"
       isCorrect: false
-      explanation: "That’s incorrect. The Microsoft 365 security center doesn’t support the Transact-SQL language for queries in the advanced hunting tool."
+      explanation: "That’s incorrect. The Microsoft 365 Defender portal doesn’t support the Transact-SQL language for queries in the advanced hunting tool."
   - content: "You have used curl to issue the following REST request but have been denied access. What should you do to fix the problem? curl -XGET 'https://<portal_url>/api/v1/alerts'"
     choices:
     - content: "Include a filter in your query"
