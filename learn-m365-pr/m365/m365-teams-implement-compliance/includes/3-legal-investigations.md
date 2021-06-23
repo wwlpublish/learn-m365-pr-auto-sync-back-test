@@ -38,13 +38,13 @@ Not all Teams content is eDiscoverable. The following table shows the content ty
 - Added channel
 - Changed setting
 
-These logs can help during an investigation and can be located during eDiscovery. To be able to look at audit data, you must turn on auditing in the Security and Compliance Center. For help with this action, read Turn audit log search on or off in the Learn more section below.
+These logs can help during an investigation and can be located during eDiscovery. To be able to look at audit data, you must turn on auditing in the Microsoft 365 Defender portal. For help with this action, read Turn audit log search on or off in the Learn more section below.
 
 ### Retrieve Teams data from the audit log
 
 To locate information from audit logs during eDiscovery, follow these steps:
 
-1. Sign into the [Security and Compliance Center](https://security.microsoft.com).
+1. Sign into the [Microsoft 365 Defender portal](https://security.microsoft.com).
 1. Under **Search**, select **Audit log search**.
 1. Use **Search** to filter by the activities, dates, and users you want to audit.
 1. Export your results to Excel for further analysis.
@@ -77,7 +77,7 @@ If there is a chance of litigation, you must preserve electronically stored info
 
 To put a user or a team on legal hold:
 
-1. To create a case, in the Security and Compliance Center go to **eDiscovery** or **Advanced eDiscovery** and select **+ Create a case**. When the case is created, open it.
+1. To create a case, in the Microsoft 365 Defender portal go to **eDiscovery** or **Advanced eDiscovery** and select **+ Create a case**. When the case is created, open it.
 
    :::image type="content" source="../media/3-legal-hold-1.png" alt-text="Create a case":::
 

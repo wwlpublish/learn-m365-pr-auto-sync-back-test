@@ -28,7 +28,7 @@ By default, Teams chat, channel, and files data are kept indefinitely. Retention
 **DLP capabilities** include Microsoft Teams chat and channel messages, and private channel messages. If your organization has DLP, you can define policies that prevent people from sharing sensitive information in a Microsoft Teams channel or chat session.
 
 **E-discovery** is the process of identifying, collecting, and producing electronically stored information (ESI) when needed. E-discovery allows you to respond to a legal case involving people in your organization. This process might involve finding and keeping specific information in email, documents, instant messaging conversations, and other locations. Within Teams, e-discovery includes chat, messaging, files, meeting, and call summaries.
-You can do these and other similar activities in the Security and Compliance Center.
+You can do these and other similar activities in the Microsoft 365 Defender portal.
 
 
 ## Learn more

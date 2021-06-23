@@ -179,7 +179,7 @@ Get-TransportRuleAction
 
 The Microsoft 365 Microsoft 365 Defender portal shows all the statistics about mail flows in your organization on a dashboard. You access the dashboard in the mail flow section of the compliance center. 
 
-![A screenshot shows the Mail flow insights page of the security and compliance center](../media/2-monitor-mail-flows.png) 
+![A screenshot shows the Mail flow insights page of the Microsoft 365 Defender portal](../media/2-monitor-mail-flows.png) 
 
  
 

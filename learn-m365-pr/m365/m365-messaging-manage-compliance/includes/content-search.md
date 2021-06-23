@@ -10,16 +10,16 @@ Use Content Search to search for items in these services:
 
 ## Create a search
 
-The Content Search tool is available in the Microsoft 365 Security and Compliance center. Use the following steps to create your first search.
+The Content Search tool is available in the Microsoft 365 Microsoft 365 Defender portal. Use the following steps to create your first search.
 
 >[!NOTE]
 > Before you can create a retention tag (or any of the procedures in this unit), you need to be a member of the eDiscovery Manager role group.
 
 
-1.	Go to the Security and Compliance center at https://security.microsoft.com/, and sign in using your Microsoft 365 credentials.
+1.	Go to the Microsoft 365 Defender portal at https://security.microsoft.com/, and sign in using your Microsoft 365 credentials.
 2.	Click **Search > Content search**.
 3.	On the **Search** page, click the arrow next to **+ New search**.
-   ![A screenshot shows the New search dropdown list in the Security and Compliance center.](../media/create-new-search.png) 
+   ![A screenshot shows the New search dropdown list in the Microsoft 365 Defender portal.](../media/create-new-search.png) 
 4. Choose which kind of search you want to run:
    - **Guided search** - a wizard guides you through your search.
    - **New search** - create a search without the help of the search wizard. This is the default. 
