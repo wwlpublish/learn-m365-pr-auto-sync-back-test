@@ -1409,6 +1409,41 @@
       "source_path": "learn-m365-pr/wwl-mba/deliver-the-value-of-modern-workplace-through-business-conversations/9-summary-resources.md",
       "redirect_url": "https://docs.microsoft.com/learn/paths/m365-productivity-teamwork-solutions/",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl-mba/get-started-with-microsoft-365-using-fasttrack/index.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/m365-productivity-teamwork-solutions/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl-mba/get-started-with-microsoft-365-using-fasttrack/1-introduction.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/m365-productivity-teamwork-solutions/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl-mba/get-started-with-microsoft-365-using-fasttrack/2-microsoft-helps-you-get-up-and-running-with-fasttrack.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/m365-productivity-teamwork-solutions/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl-mba/get-started-with-microsoft-365-using-fasttrack/3-customer-success-story.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/m365-productivity-teamwork-solutions/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl-mba/get-started-with-microsoft-365-using-fasttrack/4-be-strategic-and-thoughtful-about-your-deployment.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/m365-productivity-teamwork-solutions/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl-mba/get-started-with-microsoft-365-using-fasttrack/5-knowledge-check.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/m365-productivity-teamwork-solutions/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl-mba/get-started-with-microsoft-365-using-fasttrack/6-summary-and-resources.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/m365-productivity-teamwork-solutions/",
+      "redirect_document_id": false
     }
   ]
 }
