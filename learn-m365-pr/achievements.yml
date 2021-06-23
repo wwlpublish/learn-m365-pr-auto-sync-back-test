@@ -65,3 +65,23 @@ achievements:
   title: Balance IT and user needs with Windows 10 and Microsoft 365 Apps for enterprise
   summary: Balance IT and user needs with Windows 10 and Microsoft 365 Apps for enterprise
   iconUrl: /learn/achievements/deploy-and-manage-windows-10-and-office-365-proplus.svg
+- uid: learn-wwl.security-with-microsoft-365.badge
+  type: badge
+  title: Secure your organization with built-in, intelligent security from Microsoft 365
+  summary: Secure your organization with built-in, intelligent security from Microsoft 365
+  iconUrl: /learn/achievements/security-with-microsoft-365.svg
+- uid: learn-wwl.compliance-with-microsoft-365.badge
+  type: badge
+  title: Meet the growing demand for transparency, privacy, and compliance with Microsoft 365
+  summary: Meet the growing demand for transparency, privacy, and compliance with Microsoft 365
+  iconUrl: /learn/achievements/compliance-with-microsoft-365.svg
+- uid: learn.wwl.deliver-the-value-of-modern-workplace-through-business-conversations.badge
+  type: badge
+  title: Deliver the value of modern workplace through business conversations
+  summary: Deliver the value of modern workplace through business conversations
+  iconUrl: /learn/achievements/deliver-value-modern-workplace-through-business-conversations.svg
+- uid: learn-wwl.get-started-with-microsoft-365-using-fasttrack.badge
+  type: badge
+  title: Accelerate deployment and improve adoption of Microsoft 365 with FastTrack
+  summary: Accelerate deployment and improve adoption of Microsoft 365 with FastTrack
+  iconUrl: /learn/achievements/get-started-with-microsoft-365-using-fasttrack.svg
