@@ -4,6 +4,9 @@ This module describes Advanced eDiscovery administration in the following areas:
 - Implementing compliance boundaries
 - Closing or deleting a case
 
+> [!NOTE]
+> The Security & Compliance Center is now Microsoft 365 Defender
+
 ## Permissions and licensing
 This section explains permissions that a user must have to manage the following:
 - Use Advanced eDiscovery
@@ -13,7 +16,7 @@ This section explains permissions that a user must have to manage the following:
 - Access Advanced eDiscovery Reports (in Preview)
 
 ### Permissions to use eDiscovery 
-To access Advanced eDiscovery in the Microsoft 365 compliance center, you must assign the user the appropriate permissions. Specifically, a user must be added as a member of the eDiscovery Manager or eDiscovery Administrators role group on the **Permissions** page in the Microsoft 365 Defender portal. 
+To access Advanced eDiscovery in the Microsoft 365 compliance center, you must assign the user the appropriate permissions. Specifically, a user must be added as a member of the eDiscovery Manager or eDiscovery Administrators role group on the **Permissions** page in the Microsoft 365 Defender portal.
 
 Members of these two role groups can do the following:
 - Create new cases. 
