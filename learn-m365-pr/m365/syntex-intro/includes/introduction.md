@@ -2,10 +2,6 @@ You can only do so much with the time you have in a day – with thousands of do
 
 AI and machine learning empower you to better understand your content by accurately and efficiently classifying and extracting relevant information. Rather than clicking and sorting through hundreds, or even thousands of files, SharePoint Syntex extracts data for you, making the search and discovery of essential content _streamlined_ and _seamless_. This returns valuable time to you and your team. You can now not only dive deeper into your content to truly understand it, but you can also increase document insight and control.
 
-<br>
-
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4GJXS]
-
 Imagine you work for Contoso Electronics. The company handles a high volume of documents and forms transferred between you, your clients, and all the departments within your business – from HR to accounting to sales. Documents and forms typically include contracts, billing statements, forms, inquiries, applications, and more. Most of these documents are already stored in SharePoint document libraries. However, you and your team realize that the number of filed documents is growing, and it is becoming increasingly difficult to locate the information you need. A quarterly accounting deadline is looming, and you know that financial data needs to be organized and extracted from these documents.
 
 In this module, you will learn what SharePoint Syntex is and how it can help resolve this challenge; including how it works and when to&mdash;and when not to&mdash; use SharePoint Syntex. By delivering more efficient business processes, you will see in this example how SharePoint Syntex can save hundreds of hours of labor and greatly impact business efficiency to not only help meet quarterly goals, but also create a solid foundation for content understanding.
