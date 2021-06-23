@@ -22,13 +22,13 @@ quiz:
         explanation: "In the Microsoft 365 Defender portal, you can view your organization’s security health in the Secure Score report."
       - content: "DLP Policy matches from DLP Policies"
         isCorrect: false
-        explanation: "Microsoft 365 Defender portal provides reporting of DLP policy matches from existing DLP policies."
+        explanation: "The Microsoft 365 Defender portal provides reporting of DLP policy matches from existing DLP policies."
       - content: "Azure Information Protection (AIP) analytics"
         isCorrect: true
         explanation: "AIP analytics offers central reporting to help track label adoption."
       - content: "Device compliance report"
         isCorrect: false
-        explanation: "Microsoft 365 Defender portal displays a list of devices that Microsoft Intune deems compliant."
+        explanation: "The Microsoft 365 Defender portal displays a list of devices that Microsoft Intune deems compliant."
 
     - content: "A security administrator needs to identify documents that contain sensitive information and determine whether these documents should be classified. What tool should the administrator use?"
       choices:
