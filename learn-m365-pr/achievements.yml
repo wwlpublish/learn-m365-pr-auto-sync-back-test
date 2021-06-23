@@ -80,3 +80,8 @@ achievements:
   title: Deliver the value of modern workplace through business conversations
   summary: Deliver the value of modern workplace through business conversations
   iconUrl: /learn/achievements/deliver-value-modern-workplace-through-business-conversations.svg
+- uid: learn-wwl.get-started-with-microsoft-365-using-fasttrack.badge
+  type: badge
+  title: Accelerate deployment and improve adoption of Microsoft 365 with FastTrack
+  summary: Accelerate deployment and improve adoption of Microsoft 365 with FastTrack
+  iconUrl: /learn/achievements/get-started-with-microsoft-365-using-fasttrack.svg
