@@ -70,3 +70,8 @@ achievements:
   title: Secure your organization with built-in, intelligent security from Microsoft 365
   summary: Secure your organization with built-in, intelligent security from Microsoft 365
   iconUrl: /learn/achievements/security-with-microsoft-365.svg
+- uid: learn-wwl.compliance-with-microsoft-365.badge
+  type: badge
+  title: Meet the growing demand for transparency, privacy, and compliance with Microsoft 365
+  summary: Meet the growing demand for transparency, privacy, and compliance with Microsoft 365
+  iconUrl: /learn/achievements/compliance-with-microsoft-365.svg

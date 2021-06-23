@@ -1324,6 +1324,41 @@
       "source_path": "learn-m365-pr/wwl-mba/security-with-microsoft-365/6-summary-and-resources.md",
       "redirect_url": "https://docs.microsoft.com/learn/paths/m365-productivity-teamwork-solutions/",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl-mba/compliance-with-microsoft-365/index.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/m365-productivity-teamwork-solutions/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl-mba/compliance-with-microsoft-365/1-introduction.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/m365-productivity-teamwork-solutions/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl-mba/compliance-with-microsoft-365/2-compliance-with-microsoft-365.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/m365-productivity-teamwork-solutions/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl-mba/compliance-with-microsoft-365/3-customer-success-story.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/m365-productivity-teamwork-solutions/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl-mba/compliance-with-microsoft-365/4-meet-your-compliance-obligations.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/m365-productivity-teamwork-solutions/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl-mba/compliance-with-microsoft-365/5-knowledge-check.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/m365-productivity-teamwork-solutions/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl-mba/compliance-with-microsoft-365/6-summary-and-resources.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/m365-productivity-teamwork-solutions/",
+      "redirect_document_id": false
     }
   ]
 }
