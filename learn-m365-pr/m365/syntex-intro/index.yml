@@ -11,13 +11,13 @@ metadata:
 title: Introduction to SharePoint Syntex
 summary: Learn about SharePoint Syntex, including the business problem it solves, how it works, and common scenarios for use.
 abstract: |
- After completing this module, you will be able to: 
- - Define what SharePoint Syntex is and what it is used for 
- - Outline the features and components of SharePoint Syntex  
- - Identify the appropriate use cases for SharePoint Syntex 
+  After completing this module, you will be able to: 
+  - Define what SharePoint Syntex is and what it is used for 
+  - Outline the features and components of SharePoint Syntex  
+  - Identify the appropriate use cases for SharePoint Syntex
 prerequisites: | 
-   - Basic understanding of SharePoint document library
-iconUrl:  /learn/achievements/generic-badge.svg
+  - Basic understanding of SharePoint document library
+iconUrl: /learn/achievements/generic-badge.svg
 ratingEnabled: true
 levels:
 - beginner
@@ -34,6 +34,5 @@ units:
 - learn-m365.syntex-intro.syntex-usage
 - learn-m365.syntex-intro.knowledge-check
 - learn-m365.syntex-intro.summary
-
 badge: 
   uid: learn-m365.syntex-intro.badges
