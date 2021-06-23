@@ -77,7 +77,7 @@ Each organization gets their own fully allocated bandwidth to access auditing da
 
 ## Learn more
 
-- [Search the audit log in the Microsoft 365 Defender portal](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance#introduction?azure-portal=true)
+- [Search the audit log in the compliance center](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance#introduction?azure-portal=true)
 - [Office 365 Management APIs](/office/office-365-management-api/?azure-portal=true)
 - [Audited Activities](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance#audited-activities?azure-portal=true)
 - [Detailed properties in the audit log](/microsoft-365/compliance/detailed-properties-in-the-office-365-audit-log?azure-portal=true)
