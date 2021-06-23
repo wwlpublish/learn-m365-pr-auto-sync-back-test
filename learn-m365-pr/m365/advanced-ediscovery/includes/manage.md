@@ -93,7 +93,7 @@ In the example illustrated below, Contoso LTD is a Microsoft 365 organization th
     ![Compliance boundaries](../media/compliance-boundaries.png)  
 
 ### Implement compliance boundaries
-Compliance boundaries are defined and managed by using a combination of role groups and [365 Security & Compliance PowerShell](/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell?azure-portal=true) cmdlets. 
+Compliance boundaries are defined and managed by using a combination of role groups and [Security & Compliance PowerShell](/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell?azure-portal=true) cmdlets. 
 
 #### Create a role group for each agency
 Role groups are used to control who can see the eDiscovery cases in the Microsoft 365 Compliance Center. This means that eDiscovery managers and investigators can only see the eDiscovery cases in their agency. Role groups also control who can assign members to an eDiscovery case. This means eDiscovery managers and investigators can only assign members to cases that they themselves are a member of. We recommend that you create a role group by copying the built-in eDiscovery Managers group, adding the appropriate members, and removing roles that may not be applicable to your needs. 
