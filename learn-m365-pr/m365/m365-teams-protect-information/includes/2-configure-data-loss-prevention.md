@@ -23,7 +23,7 @@ With a DLP policy, you can:
 - **Help users to stay compliant**. You can educate users about DLP policies and help them remain compliant without blocking their work. If a user tries to share a document containing sensitive information, a DLP policy can both send them an email notification, and display a policy tip that allows them to override the policy if there's a business justification. The same policy tips also appear in Outlook on the web, Outlook, Excel, PowerPoint, and Word.
 - **View DLP reports** showing content that matches your organization's DLP policies. To assess how your business is complying with a DLP policy, you'll see how many matches each policy and rule has over time. If a DLP policy allows users to override a policy tip and report a false positive, you can also view what users have reported.
 
-You create and manage DLP policies on the **Data loss prevention** page in the Microsoft 365 Microsoft 365 Defender portal.
+You create and manage DLP policies on the **Data loss prevention** page in the Microsoft 365 Defender portal.
 
 ## DLP policies for Microsoft Teams
 

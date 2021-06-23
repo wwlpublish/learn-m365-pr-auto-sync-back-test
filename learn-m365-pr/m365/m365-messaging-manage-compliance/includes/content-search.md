@@ -10,7 +10,7 @@ Use Content Search to search for items in these services:
 
 ## Create a search
 
-The Content Search tool is available in the Microsoft 365 Microsoft 365 Defender portal. Use the following steps to create your first search.
+The Content Search tool is available in the Microsoft 365 Defender portal. Use the following steps to create your first search.
 
 >[!NOTE]
 > Before you can create a retention tag (or any of the procedures in this unit), you need to be a member of the eDiscovery Manager role group.

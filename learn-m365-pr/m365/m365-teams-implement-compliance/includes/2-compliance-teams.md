@@ -11,7 +11,7 @@ Caleb and Rowan work for a large bank. Caleb is a financial advisor and Rowan wo
 
 :::image type="content" source="../media/2-information-barriers.png" alt-text="Information Barriers":::
 
-In Microsoft Teams, you can use information barriers to prevent Caleb and Rowan from communicating. You configure information barrier policies in the Microsoft 365 Microsoft 365 Defender portal (SCC) by using PowerShell cmdlets.
+In Microsoft Teams, you can use information barriers to prevent Caleb and Rowan from communicating. You configure information barrier policies in the Microsoft 365 Defender portal (SCC) by using PowerShell cmdlets.
 
 ## Retention policies in Microsoft Teams
 

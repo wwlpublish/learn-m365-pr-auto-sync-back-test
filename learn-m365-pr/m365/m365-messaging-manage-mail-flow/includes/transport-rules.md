@@ -177,7 +177,7 @@ Get-TransportRuleAction
 
 ## Monitor mail flow usage 
 
-The Microsoft 365 Microsoft 365 Defender portal shows all the statistics about mail flows in your organization on a dashboard. You access the dashboard in the mail flow section of the compliance center. 
+The Microsoft 365 Defender portal shows all the statistics about mail flows in your organization on a dashboard. You access the dashboard in the mail flow section of the compliance center. 
 
 ![A screenshot shows the Mail flow insights page of the Microsoft 365 Defender portal](../media/2-monitor-mail-flows.png) 
 
@@ -240,7 +240,7 @@ To import an XML rule file, use this command:
 - [Mail flow rule conditions and exceptions (predicates) in Exchange Online](/Exchange/security-and-compliance/mail-flow-rules/conditions-and-exceptions?azure-portal=true) 
 - [Mail flow rule actions in Exchange Online](//Exchange/security-and-compliance/mail-flow-rules/mail-flow-rule-actions?azure-portal=true) 
 - [Mail flow rule properties](/Exchange/security-and-compliance/mail-flow-rules/mail-flow-rules#mail-flow-rule-properties?azure-portal=true) 
-- [Microsoft 365 Microsoft 365 Defender portal](https://security.microsoft.com?azure-portal=true) 
+- [Microsoft 365 Defender portal](https://security.microsoft.com?azure-portal=true) 
 - [Exchange admin center](https://outlook.office365.com/ecp?azure-portal=true) 
 - [Create, test, and tune a DLP policy](/microsoft-365/compliance/create-test-tune-dlp-policy?azure-portal=true) 
 - [Manage mail flow rules in Exchange Online](/Exchange/security-and-compliance/mail-flow-rules/manage-mail-flow-rules?azure-portal=true) 
