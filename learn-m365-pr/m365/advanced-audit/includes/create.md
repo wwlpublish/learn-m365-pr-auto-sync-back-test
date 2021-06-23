@@ -1,11 +1,11 @@
-You must be assigned the Organization Configuration role in the Security & Compliance Center to create or modify an audit log retention policy. This can be accomplished by adding the admin to the Organization Manager role group using the Office 365 Security & Compliance Center or PowerShell.
+You must be assigned the Organization Configuration role in the Security & Compliance Center to create or modify an audit log retention policy. This can be accomplished by adding the admin to the Organization Manager role group using the Microsoft 365 Defender portal or PowerShell.
 
 Once you have the appropriate permissions, audit log retention policies can be created using the Microsoft 365 compliance center or PowerShell.
 
 > [!NOTE]
-> Both the Exchange admin center and the Office 365 Security & Compliance Center have a role group named Organization Manager. They are not the same.
+> Both the Exchange admin center and the Microsoft 365 Defender portal have a role group named Organization Manager. They are not the same.
 
-## Connect to Office 365 Security & Compliance Center PowerShell
+## Connect to Microsoft 365 Defender portal PowerShell
 
 Connecting to Office 365 Security & Compliance PowerShell is required to configure audit log retention policies using PowerShell. The instructions below assume the following tasks have already been completed.
 
@@ -34,9 +34,9 @@ Here are the steps to connect to Security & Compliance PowerShell:
 
     `Import-PSSession $Session -DisableNameChecking`
 
-### Connect to Office 365 Security & Compliance Center PowerShell
+### Connect to Microsoft 365 Defender portal PowerShell
 
-Watch this demonstration of how to connect to Office 365 Security & Compliance Center PowerShell.
+Watch this demonstration of how to connect to Microsoft 365 Defender portal PowerShell.
 
 >
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4Asf5]
@@ -45,12 +45,12 @@ Watch this demonstration of how to connect to Office 365 Security & Compliance C
 
 You must be assigned the Organization Configuration role in the Security & Compliance Center to create or modify an audit log retention policy. Here are the instructions for granting these permissions using PowerShell.
 
-1. Connect to Office 365 Security & Compliance Center PowerShell using an account that already has access.
+1. Connect to Microsoft 365 Defender portal PowerShell using an account that already has access.
 1. Use the **Add-RoleGroupMember** cmdlet to add a user to the Organization Management role group. This example shows AlexW being added to the role group:
 
     `Add-RoleGroupMember -Identity "Organization Management" -Member AlexW`
 
-1. Confirm the user has been added to the Organization Management group in Office 365 Security & Compliance center. Here is an example:
+1. Confirm the user has been added to the Organization Management group in Microsoft 365 Defender portal. Here is an example:
 
     `Get-RoleGroupMember -Identity "Organization Management"`
 
@@ -123,6 +123,6 @@ Watch this demonstration on how to view your audit log retention policies.
 ## Learn more
 
 - [Manage audit log retention policies](/microsoft-365/compliance/audit-log-retention-policies?azure-portal=true)
-- [Office 365 Security & Compliance Center PowerShell](/powershell/exchange/office-365-scc/office-365-scc-powershell?azure-portal=true)
+- [Microsoft 365 Defender portal PowerShell](/powershell/exchange/office-365-scc/office-365-scc-powershell?azure-portal=true)
 - [New-UnifiedAuditLogRetentionPolicy cmdlet reference](/powershell/module/exchange/new-unifiedauditlogretentionpolicy?azure-portal=true)
 - [Get-UnifiedAuditLogRetentionPolicy cmdlet reference](/powershell/module/exchange/policy-and-compliance-audit/get-unifiedauditlogretentionpolicy?azure-portal=true)
