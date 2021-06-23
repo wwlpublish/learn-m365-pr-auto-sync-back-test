@@ -1,4 +1,4 @@
-The Content Search tool in the Security & Compliance Center helps you quickly find email in Exchange mailboxes, documents in SharePoint sites and OneDrive locations, and instant messaging conversations in Skype for Business. After you find what you're looking for, you can export and download the results to your local computer. If you're using Content Search as part of your response to an email attack on your organization, you can delete the emails returned by your search from user mailboxes.
+The Content Search tool in the Microsoft 365 Defender portal helps you quickly find email in Exchange mailboxes, documents in SharePoint sites and OneDrive locations, and instant messaging conversations in Skype for Business. After you find what you're looking for, you can export and download the results to your local computer. If you're using Content Search as part of your response to an email attack on your organization, you can delete the emails returned by your search from user mailboxes.
 
 Use Content Search to search for items in these services:
 - Exchange Online mailboxes and public folders

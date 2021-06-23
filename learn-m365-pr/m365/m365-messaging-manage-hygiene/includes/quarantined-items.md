@@ -1,8 +1,8 @@
 Quarantine holds potentially dangerous or unwanted messages. The quarantined item can be viewed either by the user to whom it was sent or by an admin.
 
-You view and manage quarantined messages in PowerShell or in the Security & Compliance Center.
+You view and manage quarantined messages in PowerShell or in the Microsoft 365 Defender portal.
 
-To the Security & Compliance Center to manage quarantined email messages:
+To the Microsoft 365 Defender portal to manage quarantined email messages:
 
 1.	In the Security and Compliance Center, go to **Threat Management > Review > Quarantine**.
    ![A screenshot of the Quarantine page under Threat management in the Security and Compliance center](../media/threat-management.png)

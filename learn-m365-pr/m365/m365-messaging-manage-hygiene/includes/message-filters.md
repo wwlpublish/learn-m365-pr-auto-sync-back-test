@@ -10,14 +10,14 @@ You use connection filtering in EOP (specifically, the default connection filter
 - **IP Block list**: Block all incoming messages from source email servers that you specify by IP address or IP address range.
 - **Safe list**: This dynamic IP allow list in the Microsoft datacenter requires no customer configuration. Microsoft identifies trusted email sources and the safe list is automatically maintained and updated. 
 
-You can manage connection filters by using the Security & Compliance Center or the **Set-HostedConnectionFilterPolicy** PowerShell cmdlet.
+You can manage connection filters by using the Microsoft 365 Defender portal or the **Set-HostedConnectionFilterPolicy** PowerShell cmdlet.
 
 ## Configure malware filters
 Email messages are automatically protected against malware by EOP. EOP uses anti-malware policies (also known as *malware filter policies*) for malware protection.
 
-You configure an anti-malware policy using either PowerShell or the Security & Compliance Center.
+You configure an anti-malware policy using either PowerShell or the Microsoft 365 Defender portal.
 
-1.	In the Security & Compliance Center, go to **Threat management > Policy > Anti-Malware**, and then select **New +**.
+1.	In the Microsoft 365 Defender portal, go to **Threat management > Policy > Anti-Malware**, and then select **New +**.
 2.	In the New anti-malware policy page that opens, configure these settings:
    - **Name**
    - **Description**
@@ -30,9 +30,9 @@ You configure an anti-malware policy using either PowerShell or the Security & C
 ## Configure spam filters
 Inbound email messages are automatically protected against spam by EOP. EOP uses anti-spam policies (also known as spam filter policies or content filter policies) as part of your organization's overall defense against spam. Admins can view, edit, and configure (but not delete) the default anti-spam policy.
 
-You use either PowerShell or the Security & Compliance Center to configure your anti-spam policy.
+You use either PowerShell or the Microsoft 365 Defender portal to configure your anti-spam policy.
 
-1. In the Security & Compliance Center, go to **Threat management > Policy > Anti-spam**. 
+1. In the Microsoft 365 Defender portal, go to **Threat management > Policy > Anti-spam**. 
 2. Select **Create a policy**.
 3. Specify the **Name** and **Description** and, optionally, alter any settings from the default.
 

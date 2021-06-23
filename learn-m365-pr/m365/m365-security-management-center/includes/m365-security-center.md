@@ -17,4 +17,4 @@ The Microsoft 365 Defender portal includes:
 
 ## Learn more
 
-- [Service assurance in the Security & Compliance Center](/microsoft-365/compliance/service-assurance?azure-portal=true)
+- [Service assurance in the Microsoft 365 Defender portal](/microsoft-365/compliance/service-assurance?azure-portal=true)

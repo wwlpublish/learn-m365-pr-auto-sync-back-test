@@ -34,7 +34,7 @@ You can also control organization-wide user settings in the Microsoft Teams admi
 
 ## Microsoft 365 Defender portal and Microsoft 365 compliance center
 
-The Microsoft 365 security and compliance centers are designed to help you manage compliance features across Microsoft 365 for your organization, including Teams. Links to existing SharePoint and Exchange compliance features bring together compliance capabilities across Microsoft 365. To use the Security & Compliance Center, you must either be assigned the global administrator role or have been assigned to one or more Security & Compliance Center role groups by a global administrator.
+The Microsoft 365 security and compliance centers are designed to help you manage compliance features across Microsoft 365 for your organization, including Teams. Links to existing SharePoint and Exchange compliance features bring together compliance capabilities across Microsoft 365. To use the Microsoft 365 Defender portal, you must either be assigned the global administrator role or have been assigned to one or more Microsoft 365 Defender portal role groups by a global administrator.
 
 ## PowerShell
 

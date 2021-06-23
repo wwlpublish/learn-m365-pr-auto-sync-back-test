@@ -23,13 +23,13 @@ With a DLP policy, you can:
 - **Help users to stay compliant**. You can educate users about DLP policies and help them remain compliant without blocking their work. If a user tries to share a document containing sensitive information, a DLP policy can both send them an email notification, and display a policy tip that allows them to override the policy if there's a business justification. The same policy tips also appear in Outlook on the web, Outlook, Excel, PowerPoint, and Word.
 - **View DLP reports** showing content that matches your organization's DLP policies. To assess how your business is complying with a DLP policy, you'll see how many matches each policy and rule has over time. If a DLP policy allows users to override a policy tip and report a false positive, you can also view what users have reported.
 
-You create and manage DLP policies on the **Data loss prevention** page in the Microsoft 365 Security & Compliance Center.
+You create and manage DLP policies on the **Data loss prevention** page in the Microsoft 365 Microsoft 365 Defender portal.
 
 ## DLP policies for Microsoft Teams
 
 If your organization has DLP, you can define policies to prevent people from sharing sensitive information in a Microsoft Teams channel or chat session. A DLP policy can also prevent sensitive information being shared with external users. To create a new DLP policy, you must be assigned a role that has permissions to edit DLP them.
 
-1. Sign into the [Security & Compliance Center](https://security.microsoft.com).
+1. Sign into the [Microsoft 365 Defender portal](https://security.microsoft.com).
 1. Choose **Data loss prevention** > **Policy** > **+ Create a policy**.
 1. Choose a **template** > **Next**.
 1. On the **Name your policy tab**, enter a name and description, and choose **Next**.
@@ -72,7 +72,7 @@ Policy tips help to educate and explain to users when an action conflicts with a
 
 To add Microsoft Teams as a location to existing DLP policies, you must have permissions to edit them.
 
-1. Sign into the [Security & Compliance Center](https://security.microsoft.com).
+1. Sign into the [Microsoft 365 Defender portal](https://security.microsoft.com).
 1. Choose **Data loss prevention** > **Policy**.
 1. Select a policy and review the **Locations** section. If **Teams chat and channel messages** is listed, you don't need to do anything. If it isn't listed, select **Edit**.
 1. In the **Status** column, turn on the policy for Teams chat and channel messages.

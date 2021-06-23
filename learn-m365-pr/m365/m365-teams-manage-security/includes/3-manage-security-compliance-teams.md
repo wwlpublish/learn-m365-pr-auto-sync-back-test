@@ -23,7 +23,7 @@ Teams has a range of tools to help you with compliance, including information ba
 
 **Retention policies** help you to manage information retention in your organization. Use retention policies to keep data that must be stored to comply with your organization's internal policies, industry regulations, or legal needs. Retention policies are also used to delete data that's considered a liability, that you're no longer required to keep, or has no legal or business value.
 
-By default, Teams chat, channel, and files data are kept indefinitely. Retention policies for Teams are created and managed in the Microsoft 365 compliance center or by using the Security & Compliance Center PowerShell cmdlets. You can apply a Teams retention policy to your entire organization or to specific users and teams. You can set up Teams retention policies for chat and channel messages, and decide whether to retain the data, delete it, or keep it for a specific period of time.
+By default, Teams chat, channel, and files data are kept indefinitely. Retention policies for Teams are created and managed in the Microsoft 365 compliance center or by using the Microsoft 365 Defender portal PowerShell cmdlets. You can apply a Teams retention policy to your entire organization or to specific users and teams. You can set up Teams retention policies for chat and channel messages, and decide whether to retain the data, delete it, or keep it for a specific period of time.
 
 **DLP capabilities** include Microsoft Teams chat and channel messages, and private channel messages. If your organization has DLP, you can define policies that prevent people from sharing sensitive information in a Microsoft Teams channel or chat session.
 
