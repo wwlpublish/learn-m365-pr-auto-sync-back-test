@@ -1,7 +1,7 @@
 People regularly send, receive, and share attachments, and it's not always easy to tell whether an attachment is safe or malicious just by looking at the email message. Microsoft Defender for Office 365 helps prevent malicious attachments from infiltrating your organization.
 
 ### Set up (or edit) a Safe Attachments policy
-1.	Go to https://protection.office.com and sign in with your work or school account.
+1.	Go to https://security.microsoft.com and sign in with your work or school account.
 2.	In the Security & Compliance Center, in the left navigation pane, under **Threat management**, choose **Policy > ATP safe attachments**.
 3.	If you see **Turn on ATP for SharePoint, OneDrive, and Microsoft Teams**, select this option. This will enable Microsoft Defender for SharePoint, OneDrive, and Microsoft Teams for your Microsoft 365 environment.
    ![A screenshot of the safe attachments reports page](../media/attachment-report.png)
@@ -15,7 +15,7 @@ Safe Links, a feature of Microsoft Defender for Endpoint, helps protect your org
 > The Safe Links web page contains a link to allow the user to continue to the website if they choose to ignore the warning. 
 
 ### Define (or review) the Safe Links policy that applies to everyone
-1.	Go to https://protection.office.com and sign in with your work or school account.
+1.	Go to https://security.microsoft.com and sign in with your work or school account.
 2.	In the left navigation, under **Threat management**, select **Policy > Safe Links**.
 3.	In the **Policies that apply to the entire organization** section, select **Default**, and then select **Edit**.
 

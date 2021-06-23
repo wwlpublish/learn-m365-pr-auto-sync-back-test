@@ -61,7 +61,7 @@ Microsoft 365 E3 only provide the rights for a user to benefit from core eDiscov
 > Please review [Microsoft 365 licensing guidance for security & compliance](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance?azure-portal=true) to identify required licenses for your organization.
 
 ## Add or remove members from a case
-You can add or remove members to manage who can access the case. However, before a member can access and perform tasks in an Advanced eDiscovery case, you must add the user to the eDiscovery Manager role group on the **Permissions** page in the [Security & Compliance Center](https://protection.office.com?azure-portal=true). 
+You can add or remove members to manage who can access the case. However, before a member can access and perform tasks in an Advanced eDiscovery case, you must add the user to the eDiscovery Manager role group on the **Permissions** page in the [Security & Compliance Center](https://security.microsoft.com?azure-portal=true). 
 
 On the **Advanced eDiscovery** page, go to the case that you want to add a member to.
 1.	Click the **Settings** tab and then click **Select** in the **Access & permissions** tile.
@@ -95,7 +95,7 @@ Compliance boundaries are defined and managed by using a combination of role gro
 #### Create a role group for each agency
 Role groups are used to control who can see the eDiscovery cases in the Microsoft 365 Compliance Center. This means that eDiscovery managers and investigators can only see the eDiscovery cases in their agency. Role groups also control who can assign members to an eDiscovery case. This means eDiscovery managers and investigators can only assign members to cases that they themselves are a member of. We recommend that you create a role group by copying the built-in eDiscovery Managers group, adding the appropriate members, and removing roles that may not be applicable to your needs. 
 
-To create the role groups, go to the **Permissions** page in the [Security & Compliance Center](https://protection.office.com?azure-portal=true) and create a role group for each team in each agency that will use compliance boundaries and eDiscovery cases to manage investigations.
+To create the role groups, go to the **Permissions** page in the [Security & Compliance Center](https://security.microsoft.com?azure-portal=true) and create a role group for each team in each agency that will use compliance boundaries and eDiscovery cases to manage investigations.
 
 Using the Contoso compliance boundaries sample scenario, four role groups need to be created and the appropriate members added to each one.
 - Fourth Coffee eDiscovery Managers

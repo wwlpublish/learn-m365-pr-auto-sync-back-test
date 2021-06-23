@@ -42,7 +42,7 @@ You can use the Security & Compliance Center or PowerShell to turn on audit log 
 
 To enable the audit log follow these steps:
 
-1. Sign into the [Office 365 Security & Compliance center](https://protection.office.com).
+1. Sign into the [Office 365 Security & Compliance center](https://security.microsoft.com).
 1. In the left navigation, select **Search** > **Audit log search**.
 1. Select **Turn on auditing** on the **Audit log search** page.
 

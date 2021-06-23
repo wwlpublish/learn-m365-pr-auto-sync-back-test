@@ -9,7 +9,7 @@ This case study will cover the basics for quickly configuring a communication co
 ## Step 1 - Planning for communication compliance 
 ### Permissions
 By default, global administrators do not have access to communication compliance features. [Permissions must be configured](/microsoft-365/compliance/communication-compliance-configure?step-1-required-enable-permissions-for-communication-compliance?azure-portal=true) so that Contoso IT administrators and compliance specialists have access to communication compliance.
-1. Contoso IT administrators sign into the [**Office 365 Security and Compliance center permissions page**](https://protection.office.com/permissions?azure-portal=true) using credentials for a global administrator account and select the link to view and manage roles in Office 365.
+1. Contoso IT administrators sign into the [**Office 365 Security and Compliance center permissions page**](https://security.microsoft.com/permissions?azure-portal=true) using credentials for a global administrator account and select the link to view and manage roles in Office 365.
 1. After selecting **Create**, they give the new role group a friendly name of *Communication compliance* and select **Next**.
 1. They select **Choose roles** and then select **Add**. They add the required roles by selecting the checkbox for **Supervisory Review Administrator**, **Case Management**, **Compliance Administrator**, and **Review**, then they select **Add**, **Done**, and **Next**.
 
