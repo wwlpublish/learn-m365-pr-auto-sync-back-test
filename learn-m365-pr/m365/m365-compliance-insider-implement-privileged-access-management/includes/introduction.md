@@ -28,12 +28,12 @@ Privileged access management in Microsoft 365 is defined and scoped at the *ta
 Each of the following process flows outline the architecture of privileged access and how it interacts with Microsoft 365 auditing and the Exchange Management run space.  
 
 ### Step 1: Configure a privileged access policy 
-When you configure a privileged access policy with the [Microsoft 365 admin center](https://admin.microsoft.com/?azure-portal=true) or Exchange Online PowerShell, you define the policy and the privileged access feature processes and the policy attributes in the Office 365 substrate. The activities are logged in the Office 365 Microsoft 365 Defender portal. The policy is now enabled and ready to handle incoming requests for approvals. 
+When you configure a privileged access policy with the [Microsoft 365 admin center](https://admin.microsoft.com/?azure-portal=true) or Exchange Online PowerShell, you define the policy and the privileged access feature processes and the policy attributes in the Office 365 substrate. The activities are logged in the Microsoft 365 Defender portal. The policy is now enabled and ready to handle incoming requests for approvals. 
 
  ![Configure privileged access policy](../media/configure-privileged-access-policy.png)  
 
 ### Step 2: Access request 
-In the Microsoft 365 admin center or with the Exchange Online PowerShell, users can request access to elevated or privileged tasks. The privileged access feature sends the request to the Office 365 substrate for processing against the configured privilege access policy and records the activity in the Office 365 Microsoft 365 Defender portal logs. 
+In the Microsoft 365 admin center or with the Exchange Online PowerShell, users can request access to elevated or privileged tasks. The privileged access feature sends the request to the Office 365 substrate for processing against the configured privilege access policy and records the activity in the Microsoft 365 Defender portal logs. 
   
  ![Access request](../media/access-request.png)    
  
