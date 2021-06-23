@@ -1,4 +1,4 @@
-You can use Attack Surface Reduction (ASR) in Microsoft 365 security center to help reduce your Windows 10 attack surfaces. Its rules help prevent actions and apps that are typically used by exploit-seeking malware to infect machines. These rules control when and how executables can run. For example, you can prevent JavaScript or VBScript from launching a downloaded executable, block Win32 API calls from Office macros, or block processes that run from USB drives.
+You can use Attack Surface Reduction (ASR) in Microsoft 365 Defender portal to help reduce your Windows 10 attack surfaces. Its rules help prevent actions and apps that are typically used by exploit-seeking malware to infect machines. These rules control when and how executables can run. For example, you can prevent JavaScript or VBScript from launching a downloaded executable, block Win32 API calls from Office macros, or block processes that run from USB drives.
 
 ![Attack surface reduction threat rules](../media/asr-threats.png)
 

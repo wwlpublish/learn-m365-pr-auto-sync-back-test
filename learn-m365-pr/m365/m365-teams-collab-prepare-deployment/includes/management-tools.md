@@ -5,7 +5,7 @@ The primary GUI tools for Teams management are:
 - Microsoft Teams admin center
 - Azure Active Directory admin center
 - Microsoft 365 admin center
-- Microsoft 365 security center and compliance center
+- Microsoft 365 Defender portal and compliance center
 
 Command-line and automation tools include:
 
@@ -32,7 +32,7 @@ External apps are provided by third parties. You can configure the following set
 
 You can also control organization-wide user settings in the Microsoft Teams admin center under **Org-wide settings**.
 
-## Microsoft 365 security center and Microsoft 365 compliance center
+## Microsoft 365 Defender portal and Microsoft 365 compliance center
 
 The Microsoft 365 security and compliance centers are designed to help you manage compliance features across Microsoft 365 for your organization, including Teams. Links to existing SharePoint and Exchange compliance features bring together compliance capabilities across Microsoft 365. To use the Security & Compliance Center, you must either be assigned the global administrator role or have been assigned to one or more Security & Compliance Center role groups by a global administrator.
 

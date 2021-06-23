@@ -1,9 +1,9 @@
 ### YamlMime:ModuleUnit
 uid: learn-m365.m365-security-management-secure-score.introduction
-title: Introduction to reporting in Microsoft 365 security center
+title: Introduction to reporting in Microsoft 365 Defender portal
 metadata:
-  title: Introduction to reporting in Microsoft 365 security center
-  description: Learn about the different reports in the Microsoft 365 security center, including reviewing the four types of reports available.
+  title: Introduction to reporting in Microsoft 365 Defender portal
+  description: Learn about the different reports in the Microsoft 365 Defender portal, including reviewing the four types of reports available.
   ms.date: 10/14/2019
   author: AlexandraHrt
   ms.author: elizapo

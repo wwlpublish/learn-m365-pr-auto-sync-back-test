@@ -13,7 +13,7 @@ summary: Use advanced features of Microsoft Cloud App Security to protect more d
 abstract: | 
   After completing this module, you’ll be able to:
   -	Create a custom indicator of compromise in Microsoft Cloud App Security.
-  -	Observe security threats detected by Microsoft Cloud App Security in Microsoft 365 security center.
+  -	Observe security threats detected by Microsoft Cloud App Security in Microsoft 365 Defender portal.
   -	Block apps and websites on iOS devices by using Defender for Endpoint and Microsoft Cloud App Security.
   -	Ensure that a log collector can communicate with Microsoft Cloud App Security from behind a proxy server.
   -	Interact with Microsoft Cloud App Security by using the REST API.

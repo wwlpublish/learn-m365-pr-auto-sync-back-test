@@ -1,4 +1,4 @@
-Reporting in Microsoft 365 security center is split up into four categories:
+Reporting in Microsoft 365 Defender portal is split up into four categories:
 
 - **Identities** – user accounts and credentials
 - **Data** – email and document contents
