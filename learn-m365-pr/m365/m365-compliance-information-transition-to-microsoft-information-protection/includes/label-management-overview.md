@@ -19,7 +19,7 @@ These changes resulted in the creation of a new unified label management experie
 Microsoft recommends organizations plan for the transition to the new information protection solution. Here are some reasons to consider migrating to Microsoft Information Protection:
 
 - **Built-in Office client**. Windows users running Microsoft 365 Apps for enterprise (formerly known as Office 365 ProPlus) version 1910 or higher on Windows may not need to install an Office Add-in. Unified labeling support is built into the client.
-- **Unified experience**. The same sensitivity labels can be used across Office 365 applications and services. Sensitivity label capabilities can also be extended into other applications from Microsoft and third parties. Examples include the sensitivity label integration added to Microsoft Power BI and the work Adobe has done to support the framework in PDF documents.
+- **Unified experience**. The same sensitivity labels can be used across Microsoft 365 applications and services. Sensitivity label capabilities can also be extended into other applications from Microsoft and third parties. Examples include the sensitivity label integration added to Microsoft Power BI and the work Adobe has done to support the framework in PDF documents.
 - **Innovation**. All future innovation and development will use the Microsoft Information Protection framework.
  
 ## Learn more
