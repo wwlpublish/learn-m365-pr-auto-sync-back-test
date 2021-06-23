@@ -5,6 +5,9 @@ Once you have the appropriate permissions, audit log retention policies can be c
 > [!NOTE]
 > Both the Exchange admin center and the Microsoft 365 Defender portal have a role group named Organization Manager. They are not the same.
 
+> [!Important]
+> The Security & Compliance Center PowerShell is the administrative interface that enables you to manage the features that are available in the Microsoft 365 Defender portal and the Microsoft 365 compliance center from the command line.
+
 ## Connect to Security & Compliance Center PowerShell
 
 Connecting to Office 365 Security & Compliance PowerShell is required to configure audit log retention policies using PowerShell. The instructions below assume the following tasks have already been completed.
