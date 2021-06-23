@@ -1,0 +1,11 @@
+You can only do so much with the time you have in a day – with thousands of documents circulating throughout your organization in just a week, how do you make real sense of the information efficiently and profitably? SharePoint Syntex is a content understanding, processing, and compliance service that uses Artificial Intelligence (AI) and machine learning to automatically and thoughtfully organize and classify documents in your SharePoint library – transforming your data into knowledge.
+
+AI and machine learning empower you to better understand your content. You can more accurately and efficiently classify and extract information. Rather than clicking and sorting through hundreds, or even thousands of files, SharePoint Syntex extracts data for you, making search and discovery of essential content streamlined and seamless. This returns valuable time to you and your team. You can not only dive deeper into your content and truly understand it, you can also increase document insight and control.
+
+<br>
+
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4GJXS]
+
+Imagine you work for Contoso Electronics. The company handles a high volume of documents and forms transferred between you, your clients, and all the departments within your business – from HR to accounting to sales. Documents and forms typically include contracts, billing statements, forms, inquiries, applications, and more. Most of these documents are already stored in SharePoint document libraries. However, you and your team realize that the number of filed documents is growing, and it is becoming increasingly difficult to locate the information you need. A quarterly accounting deadline is looming, and you know that financial data needs to be organized and extracted from these documents.
+
+In this module, you will learn what SharePoint Syntex is and how it can help resolve this challenge; including how it works, and when to use and not use SharePoint Syntex. By delivering more efficient business processes, you will see in this example how SharePoint Syntex can save hundreds of hours of labor and greatly impact business efficiency to not only help meet quarterly goals, but also create a solid foundation for content understanding.
