@@ -8,20 +8,20 @@ With SharePoint Syntex, you use AI and machine learning to automatically and tho
 
 How this is achieved can be broken into three parts: document understanding, form processing, and content compliance.
 
-## Document understanding
+### Document understanding
 
 The first part of SharePoint Syntex is document understanding. Using AI, you can classify and extract the information that you pre-define in your content so that metadata is automatically applied, appearing as columns in your SharePoint document library. Document understanding allows for quicker and more efficient understanding of the information within your content.  
 
-Returning to Contoso Electronics, automated and AI-driven document understanding can be valuable for documents like inquiries where there may be less uniformity and structure to the documents, but they still need to be processed and understood in a timely manner.
+At Contoso Electronics, automated and AI-driven document understanding could be valuable for documents like inquiries, which often have less uniformity and structure, but still need to be processed and understood in a timely manner.
 
-## Form processing
+### Form processing
 
-Forms processing is the “assembly-line” part of SharePoint Syntex. This is where AI models take in structured and semi-structured documents to capture, ingest, and categorize the content so that business processes can be streamlined.
+Forms processing is the “assembly-line” part of SharePoint Syntex. This is where AI models take in _structured_ and _semi-structured_ documents to capture, ingest, and categorize the content so that business processes can be streamlined.
 
-At Contoso Electronics, form processing would be how you handle items such as sales contracts. These contracts will have specific information and concrete data that is kept within a uniform structure. Information from these contracts needs to be extracted so that the necessary members of your company have exactly what they need to process the contracts.
+At Contoso, form processing would be how you handle items such as sales contracts. These contracts have specific information and concrete data that is kept within a uniform structure. Information from these contracts needs to be extracted so that your colleagues have exactly what they need to process the contracts.
 
-## Content compliance
+### Content compliance
 
 Understanding your content allows for better organization. Organization increases management and governance options for all your data. When content is properly tagged and labeled, you will have better control over your data and be able to follow regulations more easily. Being able to correctly process data is key to ensuring that it is secure and accurate.  
 
-Your electronics company will receive and handle sensitive client information. Being able to easily locate and dispose of this data when appropriate sets the company and its clients up for compliance and data governance success.
+Contoso receives and handles sensitive client information. Being able to easily locate and dispose of this data when appropriate sets the company and its clients up for compliance and data governance success.

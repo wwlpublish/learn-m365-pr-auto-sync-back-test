@@ -26,7 +26,7 @@ quiz:
         isCorrect: false
         explanation: "Incorrect. Content compliance is focused on security and governance, which is a result of the proper understanding, processing, and retention of sensitive data and information."
         
-    - content: "The legal department of your organization wants to ensure that a specific set of documents are kept in the SharePoint document library for the next year. What would need to be applied to the document library to ensure this happens?"
+    - content: "The legal department of your organization wants to ensure that a specific set of documents is kept in the SharePoint document library for the next year. What would need to be applied to the document library to ensure this happens?"
       choices:
       - content: "Explanation"
         isCorrect: false
@@ -38,14 +38,14 @@ quiz:
         isCorrect: false
         explanation: "Incorrect. A classifier model may include retention labels but the model itself will not have retention set up unless the labels are added."
 
-    - content: "Your organization’s accounting team wants to create a new form processing model for processing employee timesheets. The SharePoint document library has already been enabled for creating form processing models. Where should they go to create the form processing model?"
+    - content: "Your organization’s accounting team wants to create a new form processing model for processing employee timesheets. The SharePoint document library has already been enabled to create form processing models. Where should they go to create the form processing model?"
       choices:
       - content: "Content center"
         isCorrect: false
         explanation: "Incorrect. The content center is where they should go to create a document understanding model, not a form processing model."
       - content: "The timesheet library"
         isCorrect: true
-        explanation: "Correct. Since a SharePoint admin has already enabled form processing for the SharePoint document library, the team can select the AI Builder option on the Automate menu in the document library where the timesheets will be added."
+        explanation: "Correct. Since a SharePoint admin has already enabled form processing for the SharePoint document library, the team can select the AI Builder option on the Automate menu in the SharePoint document library where the timesheets will be added."
       - content: "Microsoft 365 admin center"
         isCorrect: false
         explanation: "Incorrect. The admin center is where SharePoint admin can enable form processing for individual document libraries but would not be where the team should go to create the form processing models."

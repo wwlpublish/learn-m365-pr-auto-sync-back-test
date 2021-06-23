@@ -1,4 +1,4 @@
-or Contoso Electronics, in addition to processing various documents comprised of blocks of text using document understanding models, your team will also need form processing for the sales order forms that are filled out and submitted by clients. To create these models specifically, your organization will need to use AI Builder, as opposed to the content center where your document understanding models originated.
+For Contoso Electronics, in addition to processing various documents comprised of blocks of text using document understanding models, your team will also need form processing for the sales order forms that are filled out and submitted by clients. To create these models, your organization will need to use AI Builder, as opposed to the content center where your document understanding models originated.
 
 Here, you will learn what the parts of SharePoint Syntex form processing models are so you can understand what kind of content these models should be applied to and when to use them.
 
@@ -12,9 +12,9 @@ Example files are used to train your AI model what text needs to be extracted an
 
 ![A screenshot of a sample invoice with information fields selected that might be used to train a form processing model.](../media/invoice.png)
 
-## What is AI Builder?
+### What is AI Builder?
 
-Form processing models are created directly in the SharePoint document library where they are used, but they are built with AI Builder, a feature in Microsoft Power Apps, instead of in the content center. With AI Builder, you can create AI-powered form processing models without having to know any complicated coding. AI Builder walks you through the entire process to create your form processing model. The basic process of AI Builder includes:
+Form processing models are pre-built, automated, and contain fewer parts than a document understanding model. These models are _created_ directly in the SharePoint document library where they are used, but they are _built_ with AI Builder, a feature in Microsoft Power Apps, instead of in the content center. With AI Builder, you can create AI-powered form processing models without having to know any complicated coding. AI Builder walks you through the entire process to create your form processing model. The basic process of AI Builder includes:
 
 - Naming your form processing model
 - Selecting the example files for analysis
@@ -23,8 +23,6 @@ Form processing models are created directly in the SharePoint document library w
 - Publishing your model
 - Using your model
 
-## How do the parts of a form processing model work together?
+## Learn more
 
-Form processing models are pre-built, automated, and contain fewer parts than a document understanding model.
-
-- **AI Builder** – Instead of the content center, form processing models are created using the AI Builder option directly in your SharePoint document library. The model can only be used in the library where it was created.
+- [What is AI builder?](/en-us/ai-builder/overview)
