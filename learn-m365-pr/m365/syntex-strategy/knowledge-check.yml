@@ -10,31 +10,19 @@ metadata:
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
  
-durationInMinutes: 3
+durationInMinutes: 4
 content: |
 quiz:
     title: Check your knowledge
     questions:
-    - content: "Your finance department wants to start processing invoices more efficiently. Why would form processing models be the best solution for this type of content understanding, as opposed to document understanding models?"
-      choices:
-      - content: "Invoices are a structured document that contains defined fields and a similar structure between all forms."
-        isCorrect: true
-        explanation: "Correct. Form processing is ideal for structured or semi-structured documents, whereas document understanding is for unstructured documents, such as letters or contracts."
-      - content: "Invoices contain information that AI can easily extract and document understanding models do not use AI Builder."
-        isCorrect: false
-        explanation: "Incorrect. While form processing models do use AI Builder, document understanding models built in the content center also use AI for processing, so this logic does not accurately explain why you wouldn’t use a document understanding model."
-      - content: "Invoices are less structured and are not uniform enough to be used by a form processing model."
-        isCorrect: false
-        explanation: "Incorrect. Invoices are structured documents with defined fields and sections, as opposed to being a block of text that would be processed with document understanding models."
-
-    - content: "Before using SharePoint Syntex more widely in your organization, the leadership team wants to establish best practices and guidelines for use. Which SharePoint Syntex role would this responsibility fall under?"
+    - content: "1.	Before using SharePoint Syntex more widely in your organization, the leadership team wants to establish best practices and guidelines for use. Which SharePoint Syntex role would this responsibility fall under?"
       choices:
       - content: "SharePoint/Knowledge admin"
         isCorrect: false
         explanation: "Incorrect. The SharePoint/Knowledge admin is responsible for creating content centers and applying AI Builder to the appropriate document libraries, as well as assigning permissions."
       - content: "Power Platform admin"
         isCorrect: false
-        explanation: "Incorrect. The Power Platform admin is responsible for configuring the data service environment for form processing, as well as purchasing and allocating audio index blob (AIB) credits."
+        explanation: "Incorrect. The Power Platform admin is responsible for configuring the data service environment for form processing, as well as purchasing and allocating AI Builder (AIB) credits."
       - content: "Knowledge manager"
         isCorrect: true
         explanation: "Correct. The knowledge manager establishes best practices and guidelines for using SharePoint Syntex, as well as pinpointing and aggregating the specific use cases for content understanding that apply to your organization’s needs and pain points."
@@ -43,7 +31,7 @@ quiz:
       choices:
       - content: "Power Platform admin"
         isCorrect: false
-        explanation: "Incorrect. As a stakeholder, the Power Platform is a technical stakeholder who manages the use of Power Apps and AI Builder."
+        explanation: "Incorrect. The Power Platform is a technical stakeholder who manages the use of Power Apps and AI Builder."
       - content: " Knowledge admin"
         isCorrect: false
         explanation: "Incorrect. The knowledge admin is particularly interested in the establishment and success of content centers that they create for your document understanding models."
@@ -67,7 +55,7 @@ quiz:
       choices:
       - content: "Fiscal outcomes"
         isCorrect: false
-        explanation: "Incorrect. Fiscal outcomes are focused on monetary outcomes of the change, such as reduced costs and ROI."
+        explanation: "Incorrect. Fiscal outcomes are focused on monetary outcomes of the change, such as reduced costs and increased ROI."
       - content: "Agility outcomes"
         isCorrect: false
         explanation: "Incorrect. Agility outcomes are about your organization’s ability to adapt to a changing market and stay innovative."
