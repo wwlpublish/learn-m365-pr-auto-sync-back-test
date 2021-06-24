@@ -8,7 +8,7 @@ After an organization's environment is ready, it can enable co-management for al
 
 In this module, you'll examine how to transfer workload management from Configuration Manager to Intune. Once that transition is complete, you'll need to monitor your co-management solution. The module will then explore how to complete the transition by validating the compliance of your co-managed devices.
 
-After completing this module, you'll be able to: 
+After completing this module, you'll be able to:
 
  -  Modify the co-management settings involving pilot collection, automatic enrollment in Intune, and workloads.
  -  Transfer workload management from Configuration Manager to Intune.

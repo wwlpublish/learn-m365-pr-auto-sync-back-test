@@ -5,7 +5,7 @@ To define or edit information barrier policies, you must be assigned one of the 
 - Compliance administrator
 - IB Compliance Management 
 
-To learn more about roles and permissions, see [Permissions in the Office 365 Security & Compliance Center](/microsoft-365/security/office-365-security/permissions-in-the-security-and-compliance-center?azure-portal=true).
+To learn more about roles and permissions, see [Permissions in the Microsoft 365 Defender portal](/microsoft-365/security/office-365-security/permissions-in-the-security-and-compliance-center?azure-portal=true).
 
 ## Workflow at a glance
 There are several phases involved in implementing information barriers. First, you need to ensure that prerequisites have been met. This involves:
@@ -16,7 +16,7 @@ There are several phases involved in implementing information barriers. First, y
 - Making sure [audit logging is turned on](/microsoft-365/compliance/turn-audit-log-search-on-or-off?azure-portal=true).
 - Making sure no [Exchange address book policies](/exchange/address-books/address-book-policies/remove-an-address-book-policy?azure-portal=true) are in place.
 - PowerShell
-   - Connect to [Office 365 Security & Compliance Center PowerShell](/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell?azure-portal=true).
+   - Connect to [Microsoft 365 Defender portal PowerShell](/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell?azure-portal=true).
    - Connect to [Azure PowerShell module](/powershell/azure/install-az-ps?azure-portal=true).
 - Providing admin consent for Microsoft Teams.
 
