@@ -25,7 +25,6 @@ quiz:
       - content: "Power Platform admin"
         isCorrect: false
         explanation: "Incorrect. The Power Platform admin is responsible for configuring the data service environment for form processing, as well as purchasing and allocating AI Builder (AIB) credits."
-
     - content: "Which stakeholder manages the entire execution and launch of the new content understanding system?"
       choices:
       - content: "Power Platform admin"

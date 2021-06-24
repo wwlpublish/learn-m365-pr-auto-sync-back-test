@@ -1,0 +1,29 @@
+### YamlMime:LearningPath
+uid: learn-m365.syntex-get-started
+metadata:
+  title: Get started with SharePoint Syntex
+  description: TBD
+  ms.date: 06/04/2021
+  author: beccarobins
+  ms.author: beccarobins
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Get Started with SharePoint Syntex
+summary: TBD
+prerequisites: None
+iconUrl: /learn/achievements/generic-trophy.svg
+levels: 
+- beginner
+roles:
+- administrator
+- business-user
+products: 
+- m365
+modules:
+- learn-m365.syntex-intro
+- learn-m365.syntex-strategy
+- learn-m365.syntex-setup
+- learn-m365.syntex-document-understanding
+- learn-m365.syntex-form-processing
+trophy: 
+  uid: learn-m365.syntex-get-started.trophy
