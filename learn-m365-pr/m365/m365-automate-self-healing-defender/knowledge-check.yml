@@ -1,15 +1,16 @@
 ### YamlMime:ModuleUnit
 uid: learn-m365-pr.m365-automate-self-healing-microsoft-365-defender.knowledge-check
-title: Knowledge check ### Do not edit: use "Knowledge check" as the title; also, don't add another title in the quiz element or an associated markdown page (if such a markdown page exists which is rare)
+title: Knowledge check
 metadata:
   unitType: knowledge_check
-  title: "Knowledge check" # user input: module title for browser tab and search results
-  description: Check what you've learnt in this module. # user input: a description for site search and SEO
+  title: "Knowledge check"
+  description: Check what you've learnt in this module.
   ms.date: 05/20/2021
   author: iankensey
   ms.author: v-iakens
   ms.topic: interactive-tutorial
-durationInMinutes: 2 # user input: the estimate time to complete the unit
+  ms.prod: learning-m365
+durationInMinutes: 2 
 content: |
 quiz:
   questions:
@@ -35,3 +36,14 @@ quiz:
     - content: "Investigation graph"
       isCorrect: true
       explanation: "Provides a visual representation of the investigation. Depicts entities and lists threats found, along with alerts and whether any actions are awaiting approval. "
+  - content: "In the Action center, which tab would you use to see a list of all the actions that require attention?"
+    choices:
+    - content: "Pending" 
+      isCorrect: true
+      explanation: "Yes, it displays a list of actions that require attention."
+    - content: "Awaiting"
+      isCorrect: false
+      explanation: "That is incorrect.  Awaiting is not a valid tab in the Action center."
+    - content: "Attention"
+      isCorrect: false
+      explanation: "That is incorrect.  Attention is not a valid tab in the Action center"
