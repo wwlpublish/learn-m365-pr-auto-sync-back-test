@@ -13,7 +13,7 @@ You can find out about each of the schemas using the build-in schema reference i
 
 ### How to access the schema reference
 
-From within the Microsoft 365 security center, you can quickly access the schema reference, by selecting the **View reference action** next to the table name in the schema representation. You can also select Schema reference to search for a table.
+From within the Microsoft 365 Defender portal, you can quickly access the schema reference, by selecting the **View reference action** next to the table name in the schema representation. You can also select Schema reference to search for a table.
 
 :::image type="content" source="../media/3-schema-reference.png" alt-text="Screenshot showing how to find the schema reference.":::
 

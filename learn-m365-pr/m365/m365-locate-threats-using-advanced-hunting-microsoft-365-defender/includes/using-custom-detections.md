@@ -13,12 +13,12 @@ Custom detections provide:
 
 To manage custom detections, you need to be assigned one of these roles:
 
-- **Security administrator**: Users with this Azure Active Directory role can manage security settings in Microsoft 365 security center and other portals and services.
-- **Security operator**: Users with this Azure Active Directory role can manage alerts and have global read-only access to security-related features, including all information in Microsoft 365 security center.
+- **Security administrator**: Users with this Azure Active Directory role can manage security settings in Microsoft 365 Defender portal and other portals and services.
+- **Security operator**: Users with this Azure Active Directory role can manage alerts and have global read-only access to security-related features, including all information in Microsoft 365 Defender portal.
 
 ## Create custom detection rules
 
-In Microsoft 365 security center, go to Advanced hunting and select an existing query or create a new query. When using a new query, run the query to identify errors and understand possible results.
+In Microsoft 365 Defender portal, go to Advanced hunting and select an existing query or create a new query. When using a new query, run the query to identify errors and understand possible results.
 
 > [!IMPORTANT]
 > To prevent the service from returning too many alerts, each rule is limited to generating only 100 alerts whenever it runs. Before creating a rule, tweak your query to avoid alerting for normal, day-to-day activity.
