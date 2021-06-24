@@ -26,7 +26,7 @@ You can get to the results of an automated investigation through the Action Cent
 
 The first place you’ll go to is the **incident details** page. This lets you and your team view detailed information about any incident, and to drill down to find any alerts that were triggered, and information about any affected devices, user accounts and mailboxes.
 
-:::image type="content" source="../media/3-investigation-page.png" alt-text="Screenshot showing a fragment of the Microsoft 365 security center incident investigation page.":::
+:::image type="content" source="../media/3-investigation-page.png" alt-text="Screenshot showing a fragment of the Microsoft 365 Defender portal incident investigation page.":::
 
 You can track the current progress of an active or remediated incident by viewing the **investigation** page. This page shows a breakdown of each automated investigation that has been carried out so far and lets you drill into each to obtain more information like the current remediation status, the actions that were taken, how long the investigation took, and the investigation graph.
 
