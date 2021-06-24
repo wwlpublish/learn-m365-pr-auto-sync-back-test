@@ -53,7 +53,7 @@ The default Microsoft 365 audit log retention period is 90 days. Research indica
 
 Longer term audit log retention can help with ongoing forensic or compliance investigations. Advanced Audit retains all Exchange, SharePoint, and Azure Active Directory audit records for one year. This is accomplished by a default audit log retention policy that retains any audit record containing the value of **Exchange, SharePoint**, or **AzureActiveDirectory** for the Workload property, indicating the service with which the audit record is associated.
 
-Audit records not covered by the default audit log retention policy in Advanced Audit are retained for 90 days. However, you can create custom policies to retain these audit activities for up to one year, based on one or more of the following parameters:
+Audit records not covered by the default audit log retention policy in Advanced Audit are retained for 90 days. However, you can create custom policies to retain these audit activities for up to ten years, based on one or more of the following parameters:
 
 - Microsoft 365 service where the audited activities occur
 - Specific audited activities
@@ -65,8 +65,11 @@ Custom audit log retention policies have priority over the default audit log ret
 |---|---|---|
 |  Turn audit log on/off |  Yes | Yes  |
 |  Custom retention period | No  |  Yes |
-|  Maximum retention duration | 90 days  |  One year |
+|  Maximum retention duration | 90 days  | 10 years |
 
+>[!NOTE]
+> If you need to retain audit logs for 10 years, you need both the appropriate E5 license and a 10-year audit log retention add-on license.
+ 
 ## High-bandwidth access to data
 
 Audit log generation and consumption is a bandwidth-intensive activity. The bandwidth required to consume audit events, especially via the Office 365 Management Activity API, could become a bottleneck due to a number of factors, including the sheer volume of audit log activity.
@@ -77,7 +80,7 @@ Each organization gets their own fully allocated bandwidth to access auditing da
 
 ## Learn more
 
-- [Search the audit log in the Security & Compliance Center](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance#introduction?azure-portal=true)
+- [Search the audit log in the compliance center](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance#introduction?azure-portal=true)
 - [Office 365 Management APIs](/office/office-365-management-api/?azure-portal=true)
 - [Audited Activities](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance#audited-activities?azure-portal=true)
 - [Detailed properties in the audit log](/microsoft-365/compliance/detailed-properties-in-the-office-365-audit-log?azure-portal=true)

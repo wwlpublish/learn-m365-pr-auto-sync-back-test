@@ -15,7 +15,7 @@ content: |
 quiz:
     title: Check your knowledge
     questions:
-    - content: "What are the four categories of reporting found in the Microsoft 365 security center?"
+    - content: "What are the four categories of reporting found in the Microsoft 365 Defender portal?"
       choices:
       - content: "Identities, data, end points, apps"
         isCorrect: false
@@ -28,7 +28,7 @@ quiz:
         explanation: "Azure AD is not one of the four categories of reporting."
       - content: "Identities, data, devices, apps"
         isCorrect: true
-        explanation: "Correct. The four categories found in the Microsoft 365 security center are around identities, data, devices, and apps."
+        explanation: "Correct. The four categories found in the Microsoft 365 Defender portal are around identities, data, devices, and apps."
     - content: "As a security administrator you are tasked with identifying how many DLP matches happened in your third-party cloud services. What reporting insights category would you leverage to find the information?"
       choices:
       - content: "Microsoft Cloud App Security"
@@ -51,7 +51,7 @@ quiz:
         explanation: "Microsoft Secure Score includes recommendations from Azure AD."
       - content: "Office Security Center"
         isCorrect: true
-        explanation: "Correct. Office Security Center does not exist, the Microsoft 365 security center is the centralized location for security administrators and security operations teams."
+        explanation: "Correct. Office Security Center does not exist, the Microsoft 365 Defender portal is the centralized location for security administrators and security operations teams."
       - content: "Microsoft Defender for Endpoint"
         isCorrect: false
         explanation: "Microsoft Secure Score includes recommendations from Microsoft Defender for Endpoint."
