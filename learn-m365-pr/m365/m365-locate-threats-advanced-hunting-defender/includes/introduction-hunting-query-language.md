@@ -44,7 +44,7 @@ Control commands are requests to Kusto to process and *potentially* modify data 
 
 Control commands have their own syntax, which isn't part of the KQL syntax, although the two share many concepts. Control commands are distinguished from regular Kusto queries by starting with a dot (.) character. This distinction prevents many kinds of security attacks, simply because it prevents embedding control commands inside queries.
 
-Not all control commands modify data or metadata. The largest class of control commands start with ".show", and are used to display metadata or data.
+Not all control commands modify data or metadata. The largest class of control commands starts with ".show", and are used to display metadata or data.
 
 ### Learn common query functions
 
@@ -63,7 +63,7 @@ To make full use of the advanced hunting capabilities in Microsoft 365 Defender,
 | `makeset`    | Return a  dynamic (JSON) array of the set of distinct values that Expr takes in the  group. |
 | `find`       | Find rows  that match a predicate across a set of tables.    |
 
-Using just these common commands, you can build powerful queries to search, find and remediate attacks.
+Using just these common commands, you can build powerful queries to search, find, and remediate attacks.
 
 ### Understand data types
 
@@ -87,7 +87,7 @@ The following table lists the scalar data types supported by Kusto:
 
 #### Null and mismatched data
 
-All non-string data types include a special "null" value, which represents the lack of data or a mismatch of data. For example, attempting to ingest the string `"abc"` into an `int` column results in ~~this~~a null value. You can’t explicitly create null items, but you can detect whether an expression evaluates to this value by using the `isnull()` function.
+All non-string data types include a special "null" value, which represents the lack of data or a mismatch of data. For example, attempting to ingest the string `"abc"` into an `int` column results in a null value. You can’t explicitly create null items, but you can detect whether an expression evaluates to this value by using the `isnull()` function.
 
 > [!NOTE]
 > While KQL and SQL may look similar and share many common commands, like union, top, and join, it’s important to understand that Kusto processes all queries in a linear fashion.  Each command is separated by a pipe (|), and is processed from top to bottom. 
@@ -176,7 +176,7 @@ Now that your query clearly identifies the data you want to locate, you can defi
 | project Timestamp, DeviceName, InitiatingProcessFileName, InitiatingProcessCommandLine, FileName, ProcessCommandLine, RemoteIP, RemoteUrl, RemotePort, RemoteIPType
 ```
 
-Constrain the results
+### Constrain the results
 
 To maintain performance, you’ll want to constrain the number of results that are returned.  Using **top,** limits the number of results returned.
 

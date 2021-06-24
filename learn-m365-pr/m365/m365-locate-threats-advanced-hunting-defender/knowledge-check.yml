@@ -1,15 +1,15 @@
 ### YamlMime:ModuleUnit
 uid: learn-m365-pr.m365-locate-threats-using-advanced-hunting-microsoft-365-defender.knowledge-check
-title: Knowledge check ### Do not edit: use "Knowledge check" as the title; also, don't add another title in the quiz element or an associated markdown page (if such a markdown page exists which is rare)
+title: Knowledge check
 metadata:
   unitType: knowledge_check
   title: "Knowledge check"
-  description: Test what you have learnt in this module.
+  description: Test what you have learned in this module.
   ms.date: 05/13/2021
   author: iankensey
   ms.author: v-iakens
   ms.topic: interactive-tutorial
-  ms.prod: <TODO>
+  ms.prod: learning-m365
 durationInMinutes: 3
 content: |
 quiz:
