@@ -10,4 +10,5 @@ metadata:
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 durationInMinutes: 6
+content: |
   [!include[](includes/document-understanding-models.md)]
