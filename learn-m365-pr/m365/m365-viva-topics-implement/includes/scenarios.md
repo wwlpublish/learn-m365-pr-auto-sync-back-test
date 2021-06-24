@@ -16,8 +16,6 @@ Here are several common scenarios where knowledge management and topics can help
 ## Step 2: Prioritize the scenarios 
 One way to prioritize them is to plot out your scenarios in a grid showing impact vs. ease of implementation. Look for scenarios that are high impact, easy to implement and make those your top priority. Low impact and hard-to-implement scenarios are your lowest priority. When you have a quick win with a high impact, easy-to-implement scenario, it helps people get excited and see the possibilities of using topics. 
 
-(insert graphic)
-
 ## Step 3: Implement high priority scenarios first 
 
 Pick a couple of key scenarios to focus on initially, work with your early adopters to get some feedback, and then roll out in stages. This way you can iterate, make improvements, and gain feedback to grow adoption over time. 
