@@ -1,0 +1,37 @@
+### YamlMime:ModuleUnit
+uid: learn-m365-pr.m365-automate-self-healing-microsoft-365-defender.knowledge-check
+title: Knowledge check ### Do not edit: use "Knowledge check" as the title; also, don't add another title in the quiz element or an associated markdown page (if such a markdown page exists which is rare)
+metadata:
+  unitType: knowledge_check
+  title: "Knowledge check" # user input: module title for browser tab and search results
+  description: Check what you've learnt in this module. # user input: a description for site search and SEO
+  ms.date: 05/20/2021
+  author: iankensey
+  ms.author: v-iakens
+  ms.topic: interactive-tutorial
+durationInMinutes: 2 # user input: the estimate time to complete the unit
+content: |
+quiz:
+  questions:
+  - content: "Microsoft 365 Defender provides automated self-healing to automatically investigate and remediate threats. Which two features enable this?"
+    choices:
+    - content: "Automated investigation and remediation, and advanced hunting"
+      isCorrect: false
+      explanation: "Only automated investigation and remediation are valid. Automated hunting does not support self-healing. "
+    - content: "Automated investigation and remediation, and Action center"
+      isCorrect: true
+      explanation: "Both of these features can be utilized to enable self-healing across your security environment."
+    - content: "Automated investigation and remediation, and Autoquarantine"
+      isCorrect: false
+      explanation: "Autoquarantine is not a valid feature of self-healing."
+  - content: "In the investigation details view, which tab would you use to find a visual representation of the current investigation?"
+    choices:
+    - content: "Pending actions"
+      isCorrect: false
+      explanation: "This tab lists items that require approval to proceed."
+    - content: "Alerts"
+      isCorrect: false
+      explanation: "This tab lists alerts associated with the investigation. Alerts can come from threat protection features on a user's device, in Office apps, Cloud App Security, and other Microsoft 365 Defender features."
+    - content: "Investigation graph"
+      isCorrect: true
+      explanation: "Provides a visual representation of the investigation. Depicts entities and lists threats found, along with alerts and whether any actions are awaiting approval. "
