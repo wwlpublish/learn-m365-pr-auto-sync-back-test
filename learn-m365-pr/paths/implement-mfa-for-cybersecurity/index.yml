@@ -1,0 +1,29 @@
+### YamlMime:LearningPath
+uid: learn-m365.cybersecurity-multifactor-authentication
+metadata:
+  title: Learn how Microsoft supports using Multi-Factor Authentication as part of a cybersecurity solution
+  description: Multi-Factor Authentication helps secure your environment and resources by requiring that your users confirm their identity by using multiple authentication methods, like a phone call, text message, mobile app notification, or one-time password. You can use MFA both on-premises and in the cloud to add security for accessing Microsoft online services, remote access applications, and more. <br><br>This learning path provides an overview of how to use MFA as part of a Zero Trust deployment.
+  ms.date: 06/20/2021
+  author: lizap
+  ms.author: elizapo
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Learn how Microsoft supports using Multi-Factor Authentication as part of a cybersecurity solution
+summary: Multi-Factor Authentication helps secure your environment and resources by requiring that your users confirm their identity by using multiple authentication methods, like a phone call, text message, mobile app notification, or one-time password. You can use MFA both on-premises and in the cloud to add security for accessing Microsoft online services, remote access applications, and more. <br><br>This learning path provides an overview of how to use MFA as part of a Zero Trust deployment.
+prerequisites: None
+iconUrl: /learn/achievements/generic-trophy.svg
+levels: 
+- beginner
+roles:
+- administrator
+- security-operations-analyst
+- security-engineer
+products: 
+- m365
+- azure
+modules:
+- learn.azure-security.secure-aad-users-with-mfa
+- learn-m365.audit-identity-access-management
+- learn.wwl.implement-manage-hybrid-identity
+trophy: 
+  uid: learn-m365.cybersecurity-multifactor-authentication.trophy

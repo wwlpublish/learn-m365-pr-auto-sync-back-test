@@ -1,0 +1,35 @@
+### YamlMime:LearningPath
+uid: learn-m365.cybersecurity-edr
+metadata:
+  title: Learn how Microsoft supports endpoint protection and response (EDR) as part of a cybersecurity solution
+  description: Endpoint detection and response (EDR) capabilities provide advanced attack detections that are near real-time and actionable. When you implement EDR in your environment, your security analysts can prioritize alerts effectively, gain visibility into the full scope of a breach, and take action to remediate threats. <br><br> This learning path provides an overview of Microsoft's EDR capabilities and how to use them as part of a cybersecurity solution.
+  ms.date: 06/20/2021
+  author: lizap
+  ms.author: elizapo
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Learn how Microsoft supports Learn how Microsoft supports endpoint protection and response (EDR) as part of a cybersecurity solution
+summary: Endpoint detection and response (EDR) capabilities provide advanced attack detections that are near real-time and actionable. When you implement EDR in your environment, your security analysts can prioritize alerts effectively, gain visibility into the full scope of a breach, and take action to remediate threats. <br><br> This learning path provides an overview of Microsoft's EDR capabilities and how to use them as part of a cybersecurity solution.
+prerequisites: None
+iconUrl: /learn/achievements/generic-trophy.svg
+levels: 
+- beginner
+roles:
+- administrator
+- security-operations-analyst
+- security-engineer
+products: 
+- m365
+- azure
+modules:
+- learn.wwl.connect-azure-assets-to-azure-defender
+- learn-m365.m365-security-threat-protect
+- learn.azure.network-fundamentals-2
+- learn.wwl.introduction-to-microsoft-365-threat-intelligence
+- learn-m365.mcas-threat-detection
+- learn-m365.audit-incident-management
+- learn-m365.audit-vulnerability-management
+- learn.tm-introduction-to-threat-modeling
+- learn.azure.protect-against-security-threats-azure
+trophy: 
+  uid: learn-m365.cybersecurity-edr.trophy
