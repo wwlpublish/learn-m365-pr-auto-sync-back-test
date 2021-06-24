@@ -12,7 +12,6 @@ By completing this module, you can:
 
 ## Learn more
 
-- [Analyze incidents](/security/blog/2020/07/29/inside-microsoft-threat-protection-solving-cross-domain-security-incidents-through-the-power-of-correlation-analytics/)
 - [Get email notifications](/microsoft-365/security/defender/get-incident-notifications?view=o365-worldwide&preserve-view=true)
 - [Incident overview](/microsoft-365/security/defender/incidents-overview?view=o365-worldwide&preserve-view=true)
 - [Investigate Incidents](/microsoft-365/security/defender/investigate-incidents?view=o365-worldwide&preserve-view=true)

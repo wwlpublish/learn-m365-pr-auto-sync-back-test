@@ -71,7 +71,7 @@ Classifying incidents and alerts can help you to improve their quality, which is
 In order to reduce the number of *false positives* in your incident queue, you may need to make changes in your environment. These could include:
 
 - Changing any applications or scripts used within your organization.
-- Setup and configure a custom indicator allow list.
+- Setup and configure a custom indicator allowlist.
 - The creation of suppression rules.
 - Define policies that prevent *false positives*.
 
