@@ -4,9 +4,9 @@ Here, you will learn which stakeholders you should approach with your proposal f
 
 ## Executive/Leadership
 
-"Buy-in" and _endorsement_ at the executive level ensures that all other stakeholders are invested in SharePoint Syntex and aligned on the greater goal or mission of implementing efficient content understanding processes. Leadership will already have a clear idea of what the entire company's goals and values are, allowing them to align implementing SharePoint Syntex with these more easily and clearly. And of course, much of the company looks to the executive team for direction and trusts their buy-in, making it easier to adopt and support SharePoint Syntex throughout the entire company.  
+"Buy-in" or _endorsement_ at the executive level ensure that all other stakeholders are invested in SharePoint Syntex and aligned on the greater goal or mission of implementing efficient content understanding processes. Leadership will already have a clear idea the company's goals and values, allowing them to align implementing SharePoint Syntex with these more easily and clearly. And of course, much of the company looks to the executive team for direction and trusts their buy-in, making it easier to adopt and support SharePoint Syntex throughout the entire company.  
 
-You may make your proposal to your CEO or Chief Operating Officer. With the executive team's endorsement and support, SharePoint Syntex is one major step closer to implementation. Leadership could also potentially be on a smaller scale, depending on the organization's size, such as the IT administrator.
+You may make your proposal to your CEO or Chief Operating Officer. Leadership could also potentially be on a smaller scale, depending on the organization's size, such as the IT administrator. With the executive team's endorsement and support, SharePoint Syntex is one major step closer to implementation.
 
 Once your stakeholder from leadership is invested in taking advantage of SharePoint Syntex, they can begin speaking to the rest of your company about SharePoint Syntex's benefits.
 
@@ -22,6 +22,6 @@ With the leadership team onboard and champions evangelizing for SharePoint Synte
 
 ## Project leads
 
-Project leads are the person or team that manages the _deployment_ of SharePoint Syntex and then the launch of content understanding. They will need a solid understanding of Contoso Electronics' goal in adopting SharePoint Syntex. They will require insight into what is involved to make that happen. Project leads ensure that all the other stakeholders are identified and brought into communication channels. As the project gets underway, the project lead makes certain that identified roles and responsibilities are clearly defined. A project lead will need to be someone familiar with project management and have an all-encompassing view of your organization's structure.
+Project leads are the person or team that manages the _deployment_ of SharePoint Syntex. They will need a solid understanding of Contoso Electronics' goal in adopting SharePoint Syntex. They will require insight into what is involved to make that happen. Project leads ensure that all the other stakeholders are identified and brought into communication channels. As the project gets underway, the project lead makes certain that identified roles and responsibilities are clearly defined. A project lead will need to be someone familiar with project management and have an all-encompassing view of your organization's structure.
 
 Thus far, you have been acting as project lead to this point at Contoso. Once your proposal for applying SharePoint Syntex to Contoso Electronics' disorganized content libraries gets the green light, you may decide to pass the project lead baton to someone from your project management team.  

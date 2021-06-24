@@ -1,7 +1,7 @@
-Contoso Electronics has decided on a phased rollout of SharePoint Syntex. After much discussion, the Human Resources department was identified for the first phase. Now the project team needs to nominate personnel for SharePoint Syntex roles. Each of those people will need to be brought into the larger project team as stakeholders to give them familiarity with SharePoint Syntex and allow them to begin learning their new responsibilities. Along with other Contoso stakeholders, you identify the following individuals:
+You've received the green light from your stakeholders and Contoso Electronics has decided on a phased rollout of SharePoint Syntex starting with the struggling Sales team. Now the project team needs to nominate personnel for SharePoint Syntex roles. Each of those people will need to be brought into the larger project team as stakeholders to give them familiarity with SharePoint Syntex and allow them to begin learning their new responsibilities. Along with other Contoso stakeholders, you identify the following individuals:
 
 - Since the Knowledge admin creates content centers and needs to know how they should be structured and also manage security and access privileges, your project team identifies someone from IT to take on the role.
-- The Human Resources manager identifies an admin in the Human Resources department who volunteered for the Content manager/model owner role. This person will work closely with the project lead to understand project goals.
+- The Sales manager identifies someone in their department who volunteered for the Content manager/model owner role. This person will work closely with the project lead to understand project goals.
 - An IT admin wanted to take on the role of Power Platform admin. This person will coordinate applying AI builder to Human Resource's libraries.
 
 With stakeholders in place and roles defined, you can equip your executive team and champions with business case presentations. They will drive your organization's understanding of the fiscal and agility outcomes that will result from implementing SharePoint Syntex.
@@ -27,11 +27,11 @@ An outcomes template can help you define what your company needs to achieve your
 - **Stakeholder**: The party, or parties, who will be the most invested or will benefit the most in a particular business outcome and will need to support its development.
   - _Example_: Contoso Electronics executives, managers, and IT teams.
 - **Business unit**: The department of your organization that is directly impacted by this outcome.
-  - _Example_: Contoso Electronics' Human Resources team.
+  - _Example_: Contoso Electronics' Sales team.
 - **Business outcome**: The outcome itself, or otherwise, the specific measurement or result that you are trying to produce.
   - _Example_: ROI, time back, and process management.
 - **Business drivers**: The challenges that your organization is currently facing, as well as the desired opportunities of this particular outcome.
-  - _Example_: Time spent on document understanding for the Contoso Electronics Human Resources team.
+  - _Example_: Time spent on processes instead of selling.
 - **KPIs**: The key numbers that will help define how the change is measured
   - _Example_: Productivity numbers, such as hours spent working, employee ratings, etc.
 - **Technical capability**: The technical skills and resources necessary to make your business outcome happen, such as solutions, services, applications, etc.
@@ -70,4 +70,4 @@ Evaluating company readiness can involve asking questions such as:
 - What solutions do we already have in place that may be replaced by this new solution?
 - Which stakeholders will be the primary points of contact for questions?
 
-Finally, in collaboration with the project team, you'll need to develop a strategy for rolling out SharePoint Syntex and a strategy for applying document understanding and form processing. Then align your Human Resources team on those strategies for phase 1.
+Finally, in collaboration with the project team, you'll need to develop a strategy for rolling out SharePoint Syntex and a strategy for applying document understanding and form processing. Then align your Sales team on those strategies for phase 1.
