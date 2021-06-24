@@ -45,7 +45,7 @@ The Microsoft 365 Defender portal provides access to:
 - **Advanced hunting**: Proactively search for malware, suspicious files, and activities across all your Microsoft 365 organization.
 - **Classification**: Help protect data loss by adding labels to classify documents, email messages, documents, sites, and more.
 - **Policies**: Set up policies to manage devices, protect against threats, and receive alerts about various activities in your organization.
-- **Permissions**: Manage who in your organization has access to view content and perform tasks in the Microsoft 365 security center.
+- **Permissions**: Manage who in your organization has access to view content and perform tasks in the Microsoft 365 Defender portal.
 
 > [!NOTE]
 > You must be assigned an appropriate role, such as Global Administrator, Security Administrator, Security Operator, or Security Reader in Azure AD to access Microsoft 365 Defender.
