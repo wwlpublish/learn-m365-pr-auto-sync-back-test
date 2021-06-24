@@ -4,17 +4,14 @@ At Contoso Electronics, you decide to build a proposal for deploying SharePoint 
 
 SharePoint Syntex defines four main roles you will need to designate and assign:
 
-SharePoint/Knowledge admin: Enable AI Builder, create content centers, and maintain SharePoint Syntex going forward, including user permissions and access.
-
-Power Platform admin: Configure the data service environment for form processing and purchase and allocate AI Builder (AIB) credits.
-
-Knowledge manager: Establish best practices and use cases for utilizing SharePoint Syntex.
-
-Model owner: Own, create, and oversee document understanding and/or form processing models.
+- **SharePoint/Knowledge admin**: Enable AI Builder, create content centers, and maintain SharePoint Syntex going forward, including user permissions and access.
+- **Power Platform admin**: Configure the data service environment for form processing and purchase and allocate AI Builder (AIB) credits.
+- **Knowledge manager**: Establish best practices and use cases for utilizing SharePoint Syntex.
+- **Model owner**: Own, create, and oversee document understanding and/or form processing models.
 
 You will see how existing roles within your organization might already align with the responsibilities necessary to set up and administer SharePoint Syntex.
 
-SharePoint/Knowledge admin role and responsibilities
+## SharePoint/Knowledge admin role and responsibilities
 
 The SharePoint/Knowledge admin will need to not only establish your organization’s SharePoint Syntex instance but also maintain it. The SharePoint admin will configure form processing in individual SharePoint document libraries and set up the default content center and additional content centers for document understanding models, as needed. The SharePoint admin is also responsible for assigning and controlling permissions for who can access the content center.  
 
@@ -22,7 +19,7 @@ As you build your case for using SharePoint Syntex at Contoso Electronics, you m
 
 No matter who is named the SharePoint/Knowledge admin, you need buy-in from that person and from the teams they’ll serve.  
 
-Power Platform admin role and responsibilities
+## Power Platform admin role and responsibilities
 
 An administrator with this role manages the Power Apps AI Builder capabilities within each SharePoint document library, enabling form processing. They will be responsible for configuring the data service environment for form processing, as well as purchasing and allocating AI Builder (AIB) credits.  
 
@@ -30,13 +27,13 @@ Based on the requirements for this role, you want someone on your team who has a
 
 Considering this, within Contoso Electronics, the same technical writer may be ideal as your Power Platform admin since they know the documentation process. You could also consider the IT admin, who already handles the IT operations of your organization.
 
-Knowledge manager role and responsibilities
+## Knowledge manager role and responsibilities
 
-The knowledge manager role oversees the models. They pinpoint and aggregate specific use cases for content understanding that apply to your organization’s needs and pain points. They establish the best practices and guidelines for using SharePoint Syntex. The knowledge manager also reviews the models on a regular basis, checking the model analytics to ensure that models are working properly and evaluating the information they are returning. 
+The knowledge manager role oversees the models. They pinpoint and aggregate specific use cases for content understanding that apply to your organization’s needs and pain points. They establish the best practices and guidelines for using SharePoint Syntex. The knowledge manager also reviews the models on a regular basis, checking the model analytics to ensure that models are working properly and evaluating the information they are returning.
 
 You want to appoint someone who works closely with your document libraries on a day-to-day basis, as well as works with the model owners. You could consider a customer service or Sales manager. Both roles manage contracts and other important customer information. They’d have a good sense of the current state of Contoso Electronics’ information. Since they deal with the content libraries daily, they likely have insight into how to improve organization and compliance.
 
-Model owner role and responsibilities
+## Model owner role and responsibilities
 
 The model owner owns the use of the models. They create and oversee the document understanding and/or form processing models. They are the champions or advocates for the models and their use, so they should be closely tied to the input and output of the models. To build meaningful, useful models, they will need to gather real business use cases within your organization. They will need to transform use cases into document understanding models and form processing models. The model owner can then apply models to existing libraries.
 
@@ -46,12 +43,10 @@ A single model owner offers centralized control over how documents are processed
 
 Alternatively, you could recommend that each department identify a model owner. Opting for different model owners for different sectors of the business allows for targeted models that capitalizes on each department’s understanding of what they need from their content libraries.
 
-Graphical user interface, application, Teams
-
-Description automatically generated
+![Graphical user interface, application, Teams](../media/create-form-model.png)
 
 In addition to these roles and responsibilities, you will want to think about who will manage security and permissions for SharePoint Syntex. Consider this another role:
 
-Global admin
+### Global admin
 
 This person will manage access for SharePoint Syntex users. This role controls levels of access and what users have access to. The global admin is likely a security specialist with IT understanding since tenant-level settings require more backend work and an understanding of how to administer IT settings. The global administrator will need to be comfortable with not only establishing tenant-level settings but also updating them on a regular basis, as needed, including when new model owners and other admins are onboarded to your organization.
