@@ -9,7 +9,6 @@ metadata:
   ms.author: beccarobins
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
- 
 durationInMinutes: 4
 content: |
 quiz:
@@ -19,7 +18,7 @@ quiz:
       choices:
       - content: "SharePoint/Knowledge admin"
         isCorrect: false
-        explanation: "Incorrect. The SharePoint/Knowledge admin is responsible for creating content centers and applying AI Builder to the appropriate document libraries, as well as assigning permissions."
+        explanation: "Incorrect. The SharePoint/Knowledge admin is responsible for creating content centers and applying AI Builder to the appropriate document libraries, and assigning permissions."
       - content: "Power Platform admin"
         isCorrect: false
         explanation: "Incorrect. The Power Platform admin is responsible for configuring the data service environment for form processing, as well as purchasing and allocating AI Builder (AIB) credits."
