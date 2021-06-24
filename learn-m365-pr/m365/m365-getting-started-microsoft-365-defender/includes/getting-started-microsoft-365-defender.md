@@ -10,7 +10,7 @@ Next, you'll need to deploy the supported services that come with Microsoft 365 
 
 ### Check Licenses
 
-A license to a Microsoft 365 security product generally entitles you to use Microsoft 365 Defender in Microsoft 365 security center without extra licensing cost.
+A license to a Microsoft 365 security product generally entitles you to use Microsoft 365 Defender in Microsoft 365 Defender portal without extra licensing cost.
 
 For detailed licensing information, [read the licensing requirements](/microsoft-365/security/defender/prerequisites?view=o365-worldwide#licensing-requirements&preserve-view=true).
 

@@ -22,9 +22,9 @@ Custom Roles provide your security team with only the access needed using the le
 
 ## Permissions and roles
 
-To manage access to Microsoft 365 Defender, you'll need to assign permissions and roles to your users. Permissions and roles are managed in the Microsoft 365 security center.
+To manage access to Microsoft 365 Defender, you'll need to assign permissions and roles to your users. Permissions and roles are managed in the Microsoft 365 Defender portal.
 
-1. Sign in to the Microsoft 365 security center at **[security.microsoft.com](https://security.microsoft.com)**.
+1. Sign in to the Microsoft 365 Defender portal at **[security.microsoft.com](https://security.microsoft.com)**.
 
 1. In the navigation pane, select Permissions & roles.
 
