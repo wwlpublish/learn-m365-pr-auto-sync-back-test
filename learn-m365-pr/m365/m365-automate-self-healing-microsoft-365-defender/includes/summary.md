@@ -10,6 +10,6 @@ Now that you've completed this module, you should be able to:
 
 ### Resources
 
-- [Automated investigation and response in Microsoft 365 Defender](/microsoft-365/security/defender/m365d-autoir?view=o365-worldwide)
-- [Remediate actions in Microsoft 365 Defender](/microsoft-365/security/defender/m365d-remediation-actions?view=o365-worldwide)
-- [Configure automated investigation and response capabilities in Microsoft 365 Defender](/microsoft-365/security/defender/m365d-configure-auto-investigation-response?view=o365-worldwide)
+- [Automated investigation and response in Microsoft 365 Defender](/microsoft-365/security/defender/m365d-autoir?view=o365-worldwide&preserve-view=true)
+- [Remediate actions in Microsoft 365 Defender](/microsoft-365/security/defender/m365d-remediation-actions?view=o365-worldwide&preserve-view=true)
+- [Configure automated investigation and response capabilities in Microsoft 365 Defender](/microsoft-365/security/defender/m365d-configure-auto-investigation-response?view=o365-worldwide&preserve-view=true)
