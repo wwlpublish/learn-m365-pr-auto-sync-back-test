@@ -1,0 +1,38 @@
+### YamlMime:Module
+uid: learn-m365-pr.m365-introduction-to-microsoft-365-defender
+metadata:
+  moduleType: standard
+  title: Introduction to Microsoft 365 Defender 
+  description: Understand what Microsoft 365 Defender is and how it can help to improve your security posture by empowering your Security Operations Center (SOC) or security teams with the tools they need to identify, control, and remediate security threats.
+  ms.date: 04/24/2021
+  author: iankensey
+  ms.author: v-iakens
+  ms.topic: interactive-tutorial # do we need ms.topic?
+title: Introduction to Microsoft 365 Defender 
+summary: Understand what Microsoft 365 Defender is and how it can help to improve your security posture by empowering your Security Operations Center (SOC) or security teams with the tools they need to identify, control, and remediate security threats.
+abstract: | 
+  By the end of this module, you'll be able to:
+    - Understand Microsoft 365 Defender
+    - Understand Microsoft 365 Defender integration with other Defender products
+prerequisites: | 
+  - None
+iconUrl: /media/learn/module.svg
+levels: 
+  - beginner
+roles:
+  - security-operations-analyst
+  - security-engineer
+  - administrator
+products:
+  - m365
+  - m365-ems-cloud-app-security
+  - m365-security-center
+  - m365-threat-protection
+units:
+- learn-m365-pr.m365-introduction-to-microsoft-365-defender.introduction
+- learn-m365-pr.m365-introduction-to-microsoft-365-defender.what-microsoft-365-defender
+- learn-m365-pr.m365-introduction-to-microsoft-365-defender.what-microsoft-defender-products
+- learn-m365-pr.m365-introduction-to-microsoft-365-defender.knowledge-check
+- learn-m365-pr.m365-introduction-to-microsoft-365-defender.summary
+badge:
+  uid: learn-m365-pr.m365-introduction-to-microsoft-365-defender.badge
