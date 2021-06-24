@@ -2,19 +2,19 @@
 uid: learn-m365.syntex-strategy
 metadata:
   title: Create your SharePoint Syntex strategy
-  description: Develop a plan to administer and utilize SharePoint Syntex for your specific organization’s content understanding solution needs and requirements.
+  description: Develop a plan to administer and utilize SharePoint Syntex for your specific organization's content understanding solution needs and requirements.
   ms.date: 06/09/2021
   author: beccarobins
   ms.author: beccarobins
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Create your SharePoint Syntex strategy
-summary: Develop a plan to administer and utilize SharePoint Syntex for your specific organization’s content understanding solution needs and requirements.
+summary: Develop a plan to administer and utilize SharePoint Syntex for your specific organization's content understanding solution needs and requirements.
 abstract: |
  After completing this module, you will be able to: 
  - Determine team members for actuating different components of SharePoint Syntex 
  - Pinpoint key stakeholders for involvement when enabling SharePoint Syntex 
- - Create alignment on your organization’s specific strategy for SharePoint Syntex
+ - Create alignment on your organization's specific strategy for SharePoint Syntex
 prerequisites: | 
  - Beginner understanding of SharePoint Syntex 
  - SharePoint administrative access
