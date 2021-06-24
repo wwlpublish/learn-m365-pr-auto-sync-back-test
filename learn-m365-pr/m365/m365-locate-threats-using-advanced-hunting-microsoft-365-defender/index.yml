@@ -1,0 +1,38 @@
+### YamlMime:Module
+uid: learn-m365-pr.m365-locate-threats-using-advanced-hunting-microsoft-365-defender
+metadata:
+  moduleType: standard
+  title: Locate threats using advanced hunting with Microsoft 365 Defender 
+  description: Gain an understanding of the advanced hunting query language, Kusto, and how to create queries to find threats. You'll gain an awareness of the data schemas provided by Microsoft 365 and how they can enrich query results. Finally, you'll explore custom detections and how they can be used to automate detection and remediation of threats.
+  ms.date: 05/13/2021
+  author: iankensey
+  ms.author: v-iakens
+  ms.topic: interactive-tutorial # do we need ms.topic?
+title: Locate threats using advanced hunting with Microsoft 365 Defender
+summary: Gain an understanding of the advanced hunting query language, Kusto, and how to create queries to find threats. You'll gain an awareness of the data schemas provided by Microsoft 365 and how they can enrich query results. Finally, you'll explore custom detections and how they can be used to automate detection and remediation of threats.
+abstract: | 
+  By the end of this module, you'll be able to:
+    - Use the advanced hunting query language, Kusto.
+    - Use the advanced hunting query schemas to enrich your queries.
+    - Create custom detection queries to facilitate automated threat identification and resolution.
+prerequisites: | # user input: prerequisites (https://review.docs.microsoft.com/help/learn/id-guidance-prerequisites?branch=master)
+  - None
+iconUrl: /media/learn/module.svg
+levels: # user input: add levels from level taxonomy (https://review.docs.microsoft.com/help/contribute/metadata-taxonomies?branch=master#level)
+  - beginner
+roles: # user input: add roles from role taxonomy (https://review.docs.microsoft.com/help/contribute/metadata-taxonomies?branch=master#role)
+  - security-engineer
+  - security-operations-analyst
+products:
+  - m365
+  - m365-security-center
+  - m365-threat-protection
+units:
+- learn-m365-pr.m365-locate-threats-using-advanced-hunting-microsoft-365-defender.introduction
+- learn-m365-pr.m365-locate-threats-using-advanced-hunting-microsoft-365-defender.introduction-hunting-query-language
+- learn-m365-pr.m365-locate-threats-using-advanced-hunting-microsoft-365-defender.understand-hunting-data-schema
+- learn-m365-pr.m365-locate-threats-using-advanced-hunting-microsoft-365-defender.using-custom-detections
+- learn-m365-pr.m365-locate-threats-using-advanced-hunting-microsoft-365-defender.knowledge-check
+- learn-m365-pr.m365-locate-threats-using-advanced-hunting-microsoft-365-defender.summary
+badge:
+  uid: learn-m365-pr.m365-locate-threats-using-advanced-hunting-microsoft-365-defender.badge
