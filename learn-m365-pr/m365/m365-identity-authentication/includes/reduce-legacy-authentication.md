@@ -50,7 +50,7 @@ Once you have a better idea who is using legacy authentication in your directory
 
 3. **Enable Exchange Online modern authentication**. In order for Windows-based Outlook clients to use modern authentication, Exchange Online must be modern authentication-enabled as well. If modern authentication is disabled for Exchange Online, Windows-based Outlook clients that support modern authentication (Outlook 2013 or later) will use basic authentication to connect to Exchange Online mailboxes.
 
-   SharePoint Online is enabled for modern authentication default. For directories created after August 1, 2017, modern authentication is enabled by default in Exchange Online. However, if you had previously disabled modern authentication or if you are using a directory created prior to this date, you will need to manually enable modern authentication.
+   SharePoint Online is enabled for modern authentication by default. For directories created after August 1, 2017, modern authentication is enabled by default in Exchange Online. However, if you had previously disabled modern authentication or if you are using a directory created prior to this date, you will need to manually enable modern authentication.
 
 4. **Enable Skype for Business Online modern authentication**. To prevent legacy authentication requests made by Skype for Business, it's necessary to enable modern authentication for Skype for Business Online. For directories created after August 1, 2017, modern authentication for Skype for Business is enabled by default. We suggest you transition to Microsoft Teams, which supports modern authentication by default.
 

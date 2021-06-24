@@ -7,8 +7,6 @@ Your employees use mobile devices for both personal and work tasks. While making
 Intune MAM supports two configurations:
 
 - **Intune MDM + MAM:** IT administrators can only manage apps using MAM and app protection policies on devices that are enrolled with Intune MDM. To manage apps using MDM + MAM, you should use the Intune console in the Azure portal at [https://portal.azure.com](https://portal.azure.com/)
-
 - **MAM without device enrollment:** MAM without device enrollment (MAM-WE) allows IT administrators to manage apps using MAM and app protection policies on devices not enrolled with Intune MDM. This means apps can be managed by Intune on devices enrolled with third-party Enterprise Mobility Management (EMM) providers. To manage apps using MAM-WE, you should use the Intune console in the Azure portal at [https://portal.azure.com](https://portal.azure.com/) . Also, apps can be managed by Intune on devices enrolled with third-party EMM providers or not enrolled with an MDM at all.
 
 The MAM-WE configuration is for organizations that have decided to allow devices, not managed by Intune, to access organization data but still want to manage data on those devices through MAM app protection policies. The Intune MDM + MAM configuration is for organizations using Intune for device management and MAM for application management.
-

@@ -69,7 +69,7 @@ A process periodically evaluates items in the Recoverable Items folder. If an it
 
 When a person attempts to change certain properties of a mailbox item—such as the subject, body, attachments, senders and recipients, or date sent or received for a message—a copy of the original item is saved to the Recoverable Items folder before the change is committed. This process also happens after any other changes. At the end of the retention period, copies in the Recoverable Items folder are permanently deleted.
 
-If a user leaves your organization, and their mailbox is included in a retention policy, the mailbox becomes an inactive mailbox when the user's Microsoft 365 account is deleted. The contents of an inactive mailbox are still subject to any retention policy that was placed on the mailbox before it was made inactive, and the contents are available to an eDiscovery search. For more information, see [Create and Manage Inactive Mailboxes in Office 365](https://docs.microsoft.com/office365/securitycompliance/create-and-manage-inactive-mailboxes?azure-portal=true).
+If a user leaves your organization, and their mailbox is included in a retention policy, the mailbox becomes an inactive mailbox when the user's Microsoft 365 account is deleted. The contents of an inactive mailbox are still subject to any retention policy that was placed on the mailbox before it was made inactive, and the contents are available to an eDiscovery search. For more information, see [Create and Manage Inactive Mailboxes in Office 365](/office365/securitycompliance/create-and-manage-inactive-mailboxes).
 
 :::image type="content" source="../media/delete-email-from-public-folder-b9683f59.png" alt-text="graphic showing the two options as to how email or content from a public folder is permanently deleted":::
 
@@ -78,7 +78,7 @@ If a user leaves your organization, and their mailbox is included in a retention
 
 You can use a retention policy to save chats and channel messages in Teams. Teams chats are stored in a hidden folder in the mailbox of each user included in the chat, and Teams channel messages are stored in a similar hidden folder in the group mailbox for the team. However, it’s important to understand that Teams uses an Azure-powered chat service that also stores this data, and by default this service stores the data forever. For this reason, it's recommended that you use the Teams location to save and delete Teams data. Using the Teams location will permanently delete data from both the Exchange mailboxes and the underlying Azure-powered chat service.
 
-**Additional reading.** For more information, see [Overview of security and compliance in Microsoft Teams](https://docs.microsoft.com/microsoftteams/security-compliance-overview?azure-portal=true).
+**Additional reading.** For more information, see [Overview of security and compliance in Microsoft Teams](/microsoftteams/security-compliance-overview).
 
 > [!NOTE]
 > Teams chats and channel messages are not affected by retention policies applied to user or group mailboxes in the Exchange or Microsoft 365 groups locations. Even though Teams chats and channel messages are stored in Exchange, they’re affected only by a retention policy that’s applied to the Teams location.

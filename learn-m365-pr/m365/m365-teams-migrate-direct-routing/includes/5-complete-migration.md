@@ -16,7 +16,7 @@ The service numbers used with the call queues, and the resource accounts used wi
 
 If you're using common area phones, they can be reconfigured to Teams. Under **Learn more** below, you'll find a link to **Set up the Common Area Phone license for Microsoft Teams**.
 
-The analog devices that are currently configured in Skype for Business can be reconfigured to work in Teams. It's not the same approach as for Skype for Business. When you configure analog devices connected to Direct Routing in Teams, all of the routing logic and configuration is handled through the SBCs. If a user wants to call the analog device, they'll have to manually enter the phone number that's associated it. Under **Learn more** below, you'll find a link to **How to use analog devices with Phone System Direct Routing**.
+The analog devices that are currently configured in Skype for Business can be reconfigured to work in Teams. It's not the same approach as for Skype for Business. When you configure analog devices connected to Direct Routing in Teams, all of the routing logic and configuration is handled through the SBCs. If a user wants to call the analog device, they'll have to manually enter the phone number that's associated it. Under **Learn more** below, you'll find a link to **How to use analog devices with Direct Routing**.
 
 Lastly, there's a couple of features that currently aren't supported in Teams: vacant number announcements and private lines. Be aware of this situation as you're staging the rest of the migration from on-premises.
 
@@ -158,4 +158,4 @@ Or you could use this demarcation so that, from this point forward, you don't ma
 - [What are Cloud auto attendants](https://aka.ms/teams-aa)
 - [Create a Cloud call queue](https://aka.ms/teams-cq)
 - [Set up the Common Area Phone license for Microsoft Teams](https://aka.ms/teams-cap)
-- [How to use analog devices with Phone System Direct Routing](https://aka.ms/teams-analog)
+- [How to use analog devices with Direct Routing](https://aka.ms/teams-analog)

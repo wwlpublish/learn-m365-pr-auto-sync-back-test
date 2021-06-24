@@ -1089,6 +1089,361 @@
       "source_path": "learn-m365-pr/wwl/describe-compliance-management-capabilities-microsoft-365/2-undestand-common-compliance-needs.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/describe-compliance-management-capabilities-microsoft/",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/explore-place-records-management-sharepoint/2-explore-in-place-records-management-sharepoint.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/explore-place-records-management-sharepoint/2-examine-in-place-records-management",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/explore-office-365-message-encryption/2-explore-office-365-message-encryption.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/explore-office-365-message-encryption/2-examine-office-365-message-encryption",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/m365-developer/msgraph-show-user-emails/7-page-users-email.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/msgraph-show-user-emails/7-load-users-email-batches",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/m365-developer/msgraph-show-user-emails/8-exercise-page-users-email.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/msgraph-show-user-emails/8-exercise-load-users-email-batches",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/paths/modernize-workplace-with-m365-and-surface/index.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/m365-productivity-teamwork-solutions/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl-mba/discover-modern-workplace-solutions-m365-surface-business/index.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/m365-productivity-teamwork-solutions/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl-mba/discover-modern-workplace-solutions-m365-surface-business/1-introduction.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/m365-productivity-teamwork-solutions/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl-mba/discover-modern-workplace-solutions-m365-surface-business/2-microsoft-365.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/m365-productivity-teamwork-solutions/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl-mba/discover-modern-workplace-solutions-m365-surface-business/3-surface-business-devices.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/m365-productivity-teamwork-solutions/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl-mba/discover-modern-workplace-solutions-m365-surface-business/4-customer-success-story.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/m365-productivity-teamwork-solutions/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl-mba/discover-modern-workplace-solutions-m365-surface-business/5-knowledge-check.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/m365-productivity-teamwork-solutions/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl-mba/discover-modern-workplace-solutions-m365-surface-business/6-summary-resources.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/m365-productivity-teamwork-solutions/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl-mba/facilitate-teamwork-with-microsoft-365/index.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/m365-productivity-teamwork-solutions/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl-mba/facilitate-teamwork-with-microsoft-365/1-introduction.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/m365-productivity-teamwork-solutions/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl-mba/facilitate-teamwork-with-microsoft-365/2-microsoft-teams-and-office-365.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/m365-productivity-teamwork-solutions/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl-mba/facilitate-teamwork-with-microsoft-365/3-customer-success-story.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/m365-productivity-teamwork-solutions/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl-mba/facilitate-teamwork-with-microsoft-365/4-how-well-do-your-teams-work.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/m365-productivity-teamwork-solutions/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl-mba/facilitate-teamwork-with-microsoft-365/5-knowledge-check.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/m365-productivity-teamwork-solutions/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl-mba/facilitate-teamwork-with-microsoft-365/6-summary-and-resources.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/m365-productivity-teamwork-solutions/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl-mba/modern-communications-in-microsoft-teams/index.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/m365-productivity-teamwork-solutions/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl-mba/modern-communications-in-microsoft-teams/1-introduction.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/m365-productivity-teamwork-solutions/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl-mba/modern-communications-in-microsoft-teams/2-microsoft-teams-meetings,-voice,-and-devices.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/m365-productivity-teamwork-solutions/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl-mba/modern-communications-in-microsoft-teams/3-customer-success-story.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/m365-productivity-teamwork-solutions/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl-mba/modern-communications-in-microsoft-teams/4-assess-your-communications-experiences.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/m365-productivity-teamwork-solutions/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl-mba/modern-communications-in-microsoft-teams/5-knowledge-check.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/m365-productivity-teamwork-solutions/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl-mba/modern-communications-in-microsoft-teams/6-summary-and-resources.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/m365-productivity-teamwork-solutions/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl-mba/get-more-from-microsoft-365-with-surface-for-business/index.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/m365-productivity-teamwork-solutions/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl-mba/get-more-from-microsoft-365-with-surface-for-business/1-introduction.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/m365-productivity-teamwork-solutions/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl-mba/get-more-from-microsoft-365-with-surface-for-business/2-surface-for-business-devices.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/m365-productivity-teamwork-solutions/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl-mba/get-more-from-microsoft-365-with-surface-for-business/3-customer-success-story.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/m365-productivity-teamwork-solutions/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl-mba/get-more-from-microsoft-365-with-surface-for-business/4-assess-your-device-needs.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/m365-productivity-teamwork-solutions/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl-mba/get-more-from-microsoft-365-with-surface-for-business/5-knowledge-check.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/m365-productivity-teamwork-solutions/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl-mba/get-more-from-microsoft-365-with-surface-for-business/6-summary-and-resources.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/m365-productivity-teamwork-solutions/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl-mba/deploy-and-manage-windows-10-and-office-365-proplus/index.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/m365-productivity-teamwork-solutions/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl-mba/deploy-and-manage-windows-10-and-office-365-proplus/1-introduction.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/m365-productivity-teamwork-solutions/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl-mba/deploy-and-manage-windows-10-and-office-365-proplus/2-windows-10-and-microsoft-365-apps-enterprise.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/m365-productivity-teamwork-solutions/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl-mba/deploy-and-manage-windows-10-and-office-365-proplus/3-customer-success-story.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/m365-productivity-teamwork-solutions/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl-mba/deploy-and-manage-windows-10-and-office-365-proplus/4-how-modern-is-your-it-organization.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/m365-productivity-teamwork-solutions/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl-mba/deploy-and-manage-windows-10-and-office-365-proplus/5-knowledge-check.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/m365-productivity-teamwork-solutions/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl-mba/deploy-and-manage-windows-10-and-office-365-proplus/6-summary-and-resources.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/m365-productivity-teamwork-solutions/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl-mba/security-with-microsoft-365/index.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/m365-productivity-teamwork-solutions/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl-mba/security-with-microsoft-365/1-introduction.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/m365-productivity-teamwork-solutions/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl-mba/security-with-microsoft-365/2-security-with-microsoft-365.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/m365-productivity-teamwork-solutions/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl-mba/security-with-microsoft-365/3-customer-success-story.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/m365-productivity-teamwork-solutions/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl-mba/security-with-microsoft-365/4-assess-your-security-needs.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/m365-productivity-teamwork-solutions/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl-mba/security-with-microsoft-365/5-knowledge-check.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/m365-productivity-teamwork-solutions/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl-mba/security-with-microsoft-365/6-summary-and-resources.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/m365-productivity-teamwork-solutions/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl-mba/compliance-with-microsoft-365/index.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/m365-productivity-teamwork-solutions/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl-mba/compliance-with-microsoft-365/1-introduction.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/m365-productivity-teamwork-solutions/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl-mba/compliance-with-microsoft-365/2-compliance-with-microsoft-365.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/m365-productivity-teamwork-solutions/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl-mba/compliance-with-microsoft-365/3-customer-success-story.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/m365-productivity-teamwork-solutions/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl-mba/compliance-with-microsoft-365/4-meet-your-compliance-obligations.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/m365-productivity-teamwork-solutions/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl-mba/compliance-with-microsoft-365/5-knowledge-check.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/m365-productivity-teamwork-solutions/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl-mba/compliance-with-microsoft-365/6-summary-and-resources.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/m365-productivity-teamwork-solutions/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl-mba/deliver-the-value-of-modern-workplace-through-business-conversations/index.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/m365-productivity-teamwork-solutions/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl-mba/deliver-the-value-of-modern-workplace-through-business-conversations/1-introduction-business-conversations.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/m365-productivity-teamwork-solutions/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl-mba/deliver-the-value-of-modern-workplace-through-business-conversations/2-microsoft-365-worlds-productivity-cloud.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/m365-productivity-teamwork-solutions/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl-mba/deliver-the-value-of-modern-workplace-through-business-conversations/3-employee-engagement.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/m365-productivity-teamwork-solutions/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl-mba/deliver-the-value-of-modern-workplace-through-business-conversations/4-meetings-made-simple.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/m365-productivity-teamwork-solutions/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl-mba/deliver-the-value-of-modern-workplace-through-business-conversations/5-modern-devices.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/m365-productivity-teamwork-solutions/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl-mba/deliver-the-value-of-modern-workplace-through-business-conversations/6-simplify-security-compliance.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/m365-productivity-teamwork-solutions/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl-mba/deliver-the-value-of-modern-workplace-through-business-conversations/7-intelligent-compliance-risk-management.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/m365-productivity-teamwork-solutions/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl-mba/deliver-the-value-of-modern-workplace-through-business-conversations/8-knowledge-check.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/m365-productivity-teamwork-solutions/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl-mba/deliver-the-value-of-modern-workplace-through-business-conversations/9-summary-resources.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/m365-productivity-teamwork-solutions/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl-mba/get-started-with-microsoft-365-using-fasttrack/index.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/m365-productivity-teamwork-solutions/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl-mba/get-started-with-microsoft-365-using-fasttrack/1-introduction.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/m365-productivity-teamwork-solutions/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl-mba/get-started-with-microsoft-365-using-fasttrack/2-microsoft-helps-you-get-up-and-running-with-fasttrack.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/m365-productivity-teamwork-solutions/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl-mba/get-started-with-microsoft-365-using-fasttrack/3-customer-success-story.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/m365-productivity-teamwork-solutions/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl-mba/get-started-with-microsoft-365-using-fasttrack/4-be-strategic-and-thoughtful-about-your-deployment.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/m365-productivity-teamwork-solutions/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl-mba/get-started-with-microsoft-365-using-fasttrack/5-knowledge-check.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/m365-productivity-teamwork-solutions/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl-mba/get-started-with-microsoft-365-using-fasttrack/6-summary-and-resources.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/m365-productivity-teamwork-solutions/",
+      "redirect_document_id": false
     }
   ]
 }

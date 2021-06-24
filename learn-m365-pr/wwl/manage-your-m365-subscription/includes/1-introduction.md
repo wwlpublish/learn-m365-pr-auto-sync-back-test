@@ -17,7 +17,7 @@ The **Microsoft 365 admin center** is the common entry point for all teams and r
 
 ## Perform tasks with the Microsoft 365 admin center
 
-You’ll use the Microsoft 365 admin center to perform tasks such as creating user accounts, managing users rights and access to resources, managing licenses and subscription billing, monitoring service health, and creating service requests. You’ll also find links to specialist workspaces such as SharePoint, Teams, Exchange, Security, Compliance, Device Management, and Azure Active Directory from the Microsoft 365 admin center navigation pane.
+You’ll use the Microsoft 365 admin center to perform tasks such as creating user accounts, managing users' rights and access to resources, managing licenses and subscription billing, monitoring service health, and creating service requests. You’ll also find links to specialist workspaces such as SharePoint, Teams, Exchange, Security, Compliance, Device Management, and Azure Active Directory from the Microsoft 365 admin center navigation pane.
 
 ### Explore the Microsoft 365 admin center
 

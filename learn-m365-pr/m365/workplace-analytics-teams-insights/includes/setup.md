@@ -1,4 +1,4 @@
-The Microsoft Teams insights dashboard uses a prebuilt Power BI template populated by output (OData) from two Workplace Analytics queries, *Microsoft Teams insights* and *Influence insights*. 
+The Microsoft Teams insights dashboard uses a prebuilt Power BI template populated by output (OData) from two Workplace Analytics queries, *Microsoft Teams insights* and *Influence insights*.
 
 ![Teamscollaboration queries](../media/teams-collaboration-queries.png)
 
@@ -18,20 +18,20 @@ In the upper right corner of the query card, you'll notice a Power BI icon. This
 
 > [!IMPORTANT]
 > Be sure to download and install the most recent version of Power BI to avoid issues setting up and loading data into the dashboard.
-> 
+>
 
 As you run each query, give it a descriptive name. Then select your date range and meeting or attendee exclusions (use the same date range and filters for both queries). To create a report that updates weekly, you can choose to enable **Autorefresh** for each query.
 
 Some things to keep in mind when running the queries to populate the Teams insights dashboard:
 
 - For best results, select the **Last 6 months** as a date range.
-- Under **Select metrics**, keep all preselected metrics, and don't delete any of them. The dashboard uses them to create the charts, graphs, and actionable data in the report pages. 
+- Under **Select metrics**, keep all preselected metrics, and don't delete any of them. The dashboard uses them to create the charts, graphs, and actionable data in the report pages.
 - Under **Select filters**, if you'd like, filter using the attributes from the organizational data to further refine the population.
 - If you'll be filtering for a subset of the population, you'll need to edit all the preselected metrics in the Influencer insights query. If you want to view collaboration activity for Human Resources, you'll need to select the pencil icon and filter on **Organization = Human Resources** for each metric.
-- In the Microsoft Teams insights query, under **Select Organizational attributes**, you can leave the default attributes, or add any other attributes. Be sure to select the attribute that identifies people managers in your organization. If you cannot find a manager indicator field in the dropdown menu, contact your Workplace Analytics Admin to confirm it was included in the data. 
+- In the Microsoft Teams insights query, under **Select Organizational attributes**, you can leave the default attributes, or add any other attributes. Be sure to select the attribute that identifies people managers in your organization. If you cannot find a manager indicator field in the dropdown menu, contact your Workplace Analytics Admin to confirm it was included in the data.
 - In the Influence insights query, under **Select Organizational attributes**, leave the default attributes selected. Don't delete them as they're needed to populate meeting-related charts and graphs in the report pages.
 
-**2. Download the Teams Insights Power BI template and load the query output**. Once the queries have finished running, you can access the template and data via OData URL by clicking the **Results** tab on the Queries page. 
+**2. Download the Teams Insights Power BI template and load the query output**. Once the queries have finished running, you can access the template and data via OData URL by clicking the **Results** tab on the Queries page.
 
 ![Load the query output into the downloaded template](../media/load-data-template.png)
 
@@ -49,7 +49,7 @@ The dashboard visualizations on each page of the report will populate with Workp
 
 **3. Select your settings in the Teams insights dashboard**. After you've loaded the data to generate the report, you can adjust some settings on the Settings page.
 
-- Select the time period for your report. 
+- Select the time period for your report.
 - Select an organizational attribute to view the report by.
 - To filter out employees, select the organizational attribute and values you’d like to filter by.
 
@@ -60,4 +60,3 @@ After you've selected the settings for your population, you can start analyzing 
 ## Learn more
 
 - [Detailed step-by-step instructions and troubleshooting for the Teams insight Power BI template](/workplace-analytics/tutorials/power-bi-teams?azure-portal=true)
-

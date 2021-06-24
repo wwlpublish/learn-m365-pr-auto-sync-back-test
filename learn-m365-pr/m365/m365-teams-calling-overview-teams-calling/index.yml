@@ -9,13 +9,13 @@ metadata:
   ms.topic: interactive-tutorial
   ms.prod: learning-teams
 title: Overview of Microsoft Teams Calling
-summary: In this module you'll learn about Teams Calling architecture, Phone System, Direct Routing and Microsoft Calling Plans.
+summary: In this module you'll learn about Teams Calling architecture, Phone System, Direct Routing and Teams Calling Plans.
 abstract: |
   By the end of this module you will be able to:
   -	Understand the architecture of Teams Calling.
   -	Have a clear understanding of the capabilities of Phone System.
   -	Understand the benefits of Direct Routing.
-  - Understand the different Calling Plans available to your organization.
+  - Understand the different Teams Calling Plans available to your organization.
 prerequisites: None
 iconUrl: /learn/achievements/overview-of-microsoft-teams-calling.svg
 levels:

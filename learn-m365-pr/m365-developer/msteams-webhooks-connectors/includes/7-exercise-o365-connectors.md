@@ -1,3 +1,5 @@
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4OIzv]
+
 In this exercise, you’ll learn how to create an Office 365 Connector and add it to Microsoft Teams.
 
 The first step will be to create a new Microsoft Teams app that contains a web service and the necessary details to associate the Office 365 Connector to connect it to Microsoft Teams. Then you'll register a new Office 365 Connector with the **Connectors Developer Dashboard**.
@@ -140,6 +142,8 @@ Copy this URL as you'll need it in the next step.
 > Make sure to leave the web server running and don't terminate the process. If the web server stops for any reason, you'll have to update the Connector's registration details with the new endpoint created by ngrok.
 
 ## Register an Office 365 Connector
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4OARc]
 
 Open a browser and navigate to the **Connectors Developer Dashboard**: https://aka.ms/ConnectorsDashboard
 

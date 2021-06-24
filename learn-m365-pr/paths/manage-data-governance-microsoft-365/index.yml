@@ -3,7 +3,7 @@ uid: learn.wwl.manage-data-governance-microsoft-365
 metadata:
   title: Manage data governance in Microsoft 365
   description: Manage data governance in Microsoft 365
-  ms.date: 05/27/2021
+  ms.date: 06/23/2021
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -15,7 +15,7 @@ prerequisites: |
   - Students must have a proficient understanding of general IT practices.
 summary: |
   This learning path provides instruction on managing the Microsoft 365 data governance features, including how to implement retention in email, sensitivity labels, and Windows Information Protection, and how to troubleshoot data loss prevention issues.
-iconUrl: /learn/achievements/generic-trophy.svg
+iconUrl: /learn/achievements/m365-data-governance.svg
 levels:
 - intermediate
 roles:

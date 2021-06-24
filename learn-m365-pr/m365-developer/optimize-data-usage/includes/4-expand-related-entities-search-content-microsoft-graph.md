@@ -1,3 +1,5 @@
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4OIAu]
+
 In this unit, we'll explore how you can use two query parameters to search and include related data in Microsoft Graph requests.
 
 ## Microsoft Graph exposes relationships between entities
@@ -14,7 +16,7 @@ The `$expand` operator, can be used to expand a collection of items, saving you 
 https://graph.microsoft.com/v1.0/me/drive/root?$expand=children
 ```
 
-In this example, you've requested Microsoft Graph to automatically include the children collection from the drive/root endpoint. The response will include all the default properties for the collection of files and folders within the root folder of the user’s OneDrive.
+In this example, you've requested Microsoft Graph to automatically include the `children` collection from the `drive/root` endpoint. The response will include all the default properties for the collection of files and folders within the root folder of the user’s OneDrive.
 
 You can further optimize this query by including a `$select` query operator to only include the specific properties from the children collection.
 
