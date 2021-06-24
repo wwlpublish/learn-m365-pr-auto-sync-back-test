@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365-pr.m365-getting-started-microsoft-365-defender.manage-access-microsoft-365-defender
+title: Manage access to Microsoft 365 Defender
+metadata:
+  unitType: learning-content
+  title: Manage access to Microsoft 365 Defender
+  description: Manage who has access to Microsoft 365 Defender and the data it makes available.
+  ms.date: 04/26/2021
+  author: iankensey 
+  ms.author: v-iakens 
+  ms.topic: interactive-tutorial # do we need ms.topic?
+durationInMinutes: 5
+content: |
+  [!include[](includes/manage-access-microsoft-365-defender.md)]
