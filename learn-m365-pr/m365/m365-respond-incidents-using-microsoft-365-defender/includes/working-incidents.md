@@ -104,7 +104,7 @@ You can add multiple comments to an incident with the Comment field. Each commen
 
 ## Example of an incident response workflow
 
-Here's an example workflow for responding to incidents with the Microsoft 365 security center.
+Here's an example workflow for responding to incidents with the Microsoft 365 Defender portal.
 
 :::image type="content" source="../media/2-incidents-example-workflow.png" alt-text="Diagram showing the incident response workflow":::
 
