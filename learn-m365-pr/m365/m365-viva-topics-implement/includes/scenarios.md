@@ -42,8 +42,6 @@ We recommend having each of these roles fulfilled throughout your rollout, altho
 ## Step 5: Perform Topic discovery & curation 
 Before you get started with adoption, you need to understand the concepts involved in Knowledge management and Viva Topics. The following diagram shows what happens during topic discovery and curation for your end users: 
 
-(insert graphic) 
-
 - **Discovery**: Users can discover knowledge in the apps they use every day through topic cards - they can also discover topics in Microsoft Search. 
 - **Curation**: Subject matter experts (SMEs) refine topics through topic pages, and AI learns from their input. The topic center contains topic pages users can explore, and experts can manage. 
 - **Identification**: With Microsoft Graph and Artificial Intelligence (AI) knowledge and people (topics, skills, and so on) are identified and automatically organized into related topics. SharePoint content is indexed with security content. 
