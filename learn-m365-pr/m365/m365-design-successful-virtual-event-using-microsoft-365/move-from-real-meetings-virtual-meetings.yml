@@ -1,14 +1,14 @@
 ### YamlMime:ModuleUnit
 uid: learn-m365-pr.design-successful-virtual-event-using-microsoft-365.move-from-real-meetings-virtual-meetings
-title: Move from in-person meetings to virtual meetings
+title: Focus on inclusivity when you move from in-person meetings to virtual meetings
 metadata:
   unitType: learning-content
-  title: Move from in-person meetings to virtual meetings
+  title: Focus on inclusivity when you move from in-person meetings to virtual meetings
   description: Learn how to best move your events from in-person to virtual meetings
   ms.date: 05/26/2021
   author: lizap
   ms.author: elizapo
   ms.topic: interactive-tutorial # do we need ms.topic?
-durationInMinutes: 8 # user input: the estimate time to complete the unit
+durationInMinutes: 7 # user input: the estimate time to complete the unit
 content: |
   [!include[](includes/move-from-real-meetings-virtual-meetings.md)]

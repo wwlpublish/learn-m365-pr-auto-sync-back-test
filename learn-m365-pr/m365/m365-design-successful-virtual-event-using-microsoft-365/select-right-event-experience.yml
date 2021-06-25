@@ -1,9 +1,9 @@
 ### YamlMime:ModuleUnit
-uid: learn-m365-pr.design-successful-virtual-event-using-microsoft-365.prepare-your-event-for-success
-title: Prepare your event for success
+uid: learn-m365-pr.design-successful-virtual-event-using-microsoft-365.select-right-event-experience
+title: Select the right event experience
 metadata:
   unitType: learning-content
-  title: Prepare your event for success
+  title: Select the right event experience
   description: "TODO" # user input: a description for site search and SEO
   ms.date: 05/26/2021
   author: lizap
@@ -11,4 +11,4 @@ metadata:
   ms.topic: interactive-tutorial # do we need ms.topic?
 durationInMinutes: 10 # user input: the estimate time to complete the unit
 content: |
-  [!include[](includes/prepare-your-event-for-success.md)]
+  [!include[](includes/select-right-event-experience.md)]

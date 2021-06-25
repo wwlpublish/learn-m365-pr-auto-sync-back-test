@@ -1,47 +1,41 @@
-Your organization has gained many years experience delivering in-person live events as part of its annual summits. You'll build on these gained skills to bring together a team to create a successful virtual event. 
+Your organization has been delivering in-person, live events as part of its annual summit for years. You need to figure out how to leverage that experience to move from in-person to virtual, and make sure it's an accessible and inclusive event. You've previously learned about the different accessibility features available in Microsoft 365 and Teams. Now it's time to look at inclusivity.
 
-## Evolve your physical events to a digital format
+## Plan to include everyone
 
-A team that has run in-person events need to build on their experience and tailor it to make the most of the virtual medium. The roles you need have been described in the first module of this learning path - **Introduction to delivering virtual events using Microsoft Teams and Microsoft 365** module.
+Creating an inclusive event starts with planning. Your virtual summit team should include people with diverse experiences and roles, including people that haven't participated in the past. (You can see the roles we recommend including on your team in [Introduction to delivering virtual events with Microsoft 365](/learn/modules/m365-introduction-delivering-virtual-events-using-microsoft-teams-microsoft-365).)
 
-Now is the time to put people's names against each of these roles and bring them together to prepare them.
+Consider these recommended tasks during the planning process:
 
-|Role  | Person  |
-|---------|---------|
-|Executive Sponsor     | A leader with a special and unique interest in the education or insights of the audience.       |
-|Organizer     | Event host and team coordinator. Create the event, set permissions, curate the event link.        |
-|Producer     | Responsible for starting and stopping the live event, queuing content, back channel chat. This can also be the Organizer.        |
-|Presenter    | Responsible for content delivery and commentary. They can present audio, video, and share their screen with the attendees.        |
-|Moderator     | Helps facilitate Teams Q & A or Yammer Conversation in a Live Event. In Teams should be a person in the meeting Organizer or Presenter role, in Yammer should be a Group Admin.        |
-|IT Contact     | Ensures network and service health in advance of your event. Routes support requests.        |
+- Prepare, publish, and enforce a Code of Conduct for the event. Include a point of contact for any concerns. Check out this [Microsoft example](https://aka.ms/VECodeofConduct).
+- Include ways for people to share their preferences during registration. This can include preferred pronouns, physical and mental requirements, and other accommodations they might need. (These preferences are the equivalent of asking about dietary limitations and allergies for in-person events.)
+- Review your speaker list. How diverse are they? Are there opportunities to bring in newer talent to work with seasoned presenters?
+- Plan for post-event surveys to get feedback from everyone involved.
 
-### Prepare your team
 
-You need to get time from the whole events team to be able to run at least one practice, think dress rehearsal, event. Getting time from everyone to run through the content before they do it for real sets up your event for success.
+### Plan for inclusive attendees
 
-- **Organizer**: How are you going to attract people to attend your event? How you name and describe the event is a key factor to sign-ups. As is the scheduling and how you ask people to sign up.
-- **Producer**: Changing from live to virtual events gives you the chance to prepare a detailed schedule of content. You can take advantage of pre-recorded content to give a natural break for the presenters and moderators. Think about creating pre-recorded video breaks between presenters to show your timetable, or prompt people about the best way to interact with your presenters. A 👋🏼 or ❤ is always appreciated.
-- **Presenters**: The instant feedback of a crowd is missing when you present to a screen of attendees versus a live audience. If you can, think about increasing your own energy levels to compensate. Increase interactivity by using live polls, ask attendees to add their questions and ask moderators to select some for you to answer live. Structure your content to allow for breakout rooms and discussions. Focus on how you can be more interactive.
-- **Moderators**: Facilitate the interaction between attendees and presenters, consider modeling the audience behavior you'd like to see. For example, add some questions to the Q & A, in Teams add reactions give a like, heart, and applaud presenters.
+One of the advantages of moving from in-person to virtual is that it broadens the pool of who can attend your event. Attendees may be participating from unique locations, they may have physical disabilities, and it's important that you consider who they are and what they're hoping to get from your event.
 
-Use your practice events to get everyone comfortable with the tooling, and even consider having a *beta* audience to allow IT to check that network and service health are acceptable. Use the practice to gain honest feedback and make changes to content that could be better.
+Start with [Simple things count](https://news.microsoft.com/stories/simplethingscount/), our guidance about simple ways you can be more inclusive of people with disabilities. Beyond your virtual event, this guidance can help you in all of your work and professional relationships. There are seven ways to be more inclusive – you can view a short video of each on the Simple things count web site:
 
-### Prepare your content
+1. Be your usual self.
+1. Make sure your work is accessible.
+1. Disability is a strength.
+1. Follow the principles of inclusive design.
+1. Accept each person as a human first.
+1. learn the appropriate etiquette.
+1. Follow our lead.
 
-If you already have content that you were going to use for an in-person event, or you're creating new content, consider how to improve it for your virtual attendees. These tips will improve the engagement and accessibility of your event.
+Consider the following questions about who your attendees are, what they're using, and where they're joining from to mitigate common event issues.
 
-- Factor in time to make the best pre-recorded content you can. Video should be high quality, have professional captioning and audio. This means making time for the creation of content, recording it, and post-production.
-- Create an agenda with a flexible schedule to cater for live segments over or underrunning. Think about what you want people to see on their screens when there isn't a presenter.
-- Have slides and scripts checked for accessibility and inclusivity. Have them available to share with attendees before your event or make them available after if you can.
-- Shorter sessions as virtual events are more tiring for presenters and attendees. Everyone will benefit if you can change what would have been a one or two hour keynote into three or four 30-minute sessions.
-- Up level your production values, can you have presenters and slides on the screen at the same time? Can you add lower thirds or other graphics and animations?
-- In Q & A sessions, allow enough silence to accommodate for audio delays. Have your moderators pre-seed questions that you have good answers for.
-- Use the best hardware you can to improve presenters video and audio. This can include external mics, video cameras, and improved lighting.
-- Do you need to you offer Sign Language interpretation? How will you support this alongside a live presentation?
 
-### Prepare your attendees
+|Area  |Questions  |Actions  |
+|---------|---------|---------|
+|**Identity**     | Are the attendees members of your Microsoft 365 tenant? <br/><br/>Do you support guest attendees? Anonymous attendees?        |  Configure these items in your service policies and meeting options. Decide the scope of your viewing audience in advance.       |
+|**Devices and clients**     |  What hardware and software are your attendees using? <br/><br/>Windows and Mac devices? Browsers or desktop clients? Mobile devices and tablets? <br/><br/>Room devices?           | Device type dictates elements of the experience. Teams minimizes that impact by prioritizing quality, allowing for meeting controls and focus modes.        |
+|**Location**     | Hard wired or wireless? <br/><br/>Mobile networks? <br/><br/>Cellular service only?        | Network bandwidth can impact your event. Include an on-demand viewing strategy to ensure attendees can access your content when they return to a good signal location.        |
 
-Everyone's time is valuable so being clear about what people can hope to gain from attending your event. This starts with making the name and description of your event understandable.
+Everyone's time is valuable so be clear about what people can hope to gain from attending your event. This starts with making the name and description of your event understandable.
 
 Think about asking all attendees to download Teams for desktop, or to upgrade their web browsers to the latest version.
 
@@ -50,13 +44,47 @@ If you know that your audience isn't experienced with Teams, consider including 
 - [Join a meeting in Teams](https://support.microsoft.com/office/join-a-meeting-in-teams-1613bb53-f3fa-431e-85a9-d6a91e3468c9)
 - [Attend a live event in Teams](https://support.microsoft.com/office/attend-a-live-event-in-teams-a1c7b989-ebb1-4479-b750-c86c9bc98d84)
 
+## Evolve your physical events to a digital format
 
-## Avoid common issues
+### Plan for inclusive content
 
-Bringing all this together these steps should help your virtual event avoid the most common issues:
+If you already have content that you were going to use for an in-person event, or you're creating new content, consider how to improve it for your virtual attendees. New methods of sharing information are key to delivering a successful virtual event. These tips will improve the engagement and accessibility of your event.
 
-- Give everyone time to prepare - this can be reduced after everyone has gained experience
-- Check your service and network health with your IT department
-- Focus on the quality of your content - is your message clear
-- Presenters should be able to practice - they are the heart of your event
-- Plan time for your whole team to rehearse - keep the morale high and be flexible
+> [!TIP]
+> Use our checklist to stay on track and prepare for your virtual event. Download it from [**https://aka.ms/Organizer/Checklist**](https://aka.ms/Organizer/Checklist).
+
+### Shorter sessions
+
+Minimize the amount of information you share. Have a clear topic and a follow-up call to action. Consider breaking up long sessions into multiple, shorter sessions. Virtual events can be more tiring than in-person events, for both presenters and attendees.
+
+For multi-hour and multi-day events, plan for breaks. Include programming breaks to give your attendees time to stretch, walk their dog, or visit the facilities.
+
+Create an agenda that's flexible enough to cater for sessions going over or under their allotted time. Think about what you want people to see on their screens when there isn't a presenter.
+
+### Interactive content
+
+Look for opportunities to use online polls, trivia games relevant to your content, and prepared videos to keep the content moving. 
+Allow plenty of time for Q&A. Pre-seed questions in the chat window to get the ball rolling. Sometimes people are hesitant to come off mute and speak in the virtual forum. (But remember to allow enough silence to accommodate delays in audio transmission/unmuting.)
+
+### Presenter skills
+
+Rehearse, rehearse, rehearse! There's no replacement for preparation. Use your virtual team as a beta audience for your presenters.
+
+Online presentation skills are more complex when you don't have access to the non-verbal feedback from your audience. Consider making speaker training mandatory for your presenters. 
+
+Use the best hardware you can to improve video and audio. This can include external mics, video cameras, and lighting.
+
+### Semi-live model
+
+Consider including pre-recorded content mixed in with your live content. You can play back pre-recorded sessions with Q&A moderators. This can help reduce some of the pressure on your production staff and speakers.
+
+### Avoid common issues
+
+This is a lot of information. Creating a quality event can sometimes feel impossible. These recommended steps from our experts can help you avoid common issues:
+
+- **Time to prepare**: Even a one-person event takes time to produce. Schedule events in advance and avoid throwing things together at the last minute, if you can.
+- **Service and network health**: Work with your IT department to ensure your network, service, and devices are healthy. When possible, share hardware and software requirements with your attendees in advance, and ask them to make sure they're ready for the event.
+- **Content quality**: Focus on the quality of your content – not even the best production can make up for poor content. Is your message clear? Will someone new to the topic understand?
+- **Presentation skills**: Your speakers are the heart of your event. Make sure they have time to prepare and understand the presentation process.
+
+**Event support**: The longer and more complex your event is, the more you'll need event support staff. Train them early. Provide easy ways for presenters and attendees to ask for help. Every event producer knows that things can and often will go wrong, but your planning and preparation can help make sure your audience has the best possible attendee experience.

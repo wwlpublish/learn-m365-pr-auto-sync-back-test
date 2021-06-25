@@ -1,12 +1,9 @@
-Microsoft 365 lets you deliver engaging and inclusive virtual events to teams of all sizes.
+Microsoft 365 helps you deliver engaging, inclusive virtual events to teams of all sizes.
 
-As part of your organization's virtual summit planning team, you've been tasked with both organizing and moderating several sessions.
+In this training, we'll use the following example: You're part of the virtual summit planning team for your organization. You're responsible for organizing the event,  moderating several sessions, and ensuring the event is inclusive. You're familiar with the event options available with Microsoft 365 and Microsoft Teams, and you're ready to get started working on your event.
 
-Before looking at what you are presenting, you will bring together a team and work out how to change your physical event into an engaging virtual event. With your team in place you can then ensure the content your team delivers is accessible and inclusive.
+This module walks you through the planning process – from what it takes to move an in-person event to a virtual event to collecting and analyzing feedback from attendees. A successful virtual event includes multiple roles – this module has content for event organizers, producers, presenters, and moderators.
 
-When the summit has finished, you'll want to review its success and put improvements in place for the future and follow up to keep the momentum you gained from your event going.
-
-This module has content for organizers, producers, presenters, and moderators.
 
 :::row:::
     :::column:::
@@ -28,5 +25,5 @@ By the end of this module, you should be able to:
 - Design an inclusive virtual event
 - Create accessible presentations and videos
 - Manage virtual events to be more inclusive and engaging
-- Review your events success and plan future improvements
-- Understand how to gather insights from your event
+- Review how your event went and identify opportunities for improvement
+- Understand how to gather feedback and turn them into insights
