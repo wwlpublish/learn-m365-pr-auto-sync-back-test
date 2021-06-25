@@ -3,14 +3,14 @@ uid: learn-m365-pr.automated-investigation-remediation-microsoft-defender-endpoi
 metadata:
   moduleType: standard
   title: "Use automated investigation and remediation in Microsoft Defender for Endpoint" 
-  description: "Learn how automated investigation and remediation (AIR) works in Microsoft Defender for Endpoint. You'll learn about concepts, including automation levels, how automated investigations are triggered, how to review investigation findings, and how automated remediation actions work." # user input: a description for site search and SEO
+  description: "Learn how automated investigation and remediation (AIR) work in Microsoft Defender for Endpoint. You'll learn about concepts, including automation levels, how automated investigations are triggered, how to review investigation findings, and how automated remediation actions work." # user input: a description for site search and SEO
   ms.date: 05/24/2021
   author: iankensey
   ms.author: v-iakens
   ms.topic: interactive-tutorial 
   ms.prod: learning-m365
 title: Use automated investigation and remediation in Microsoft Defender for Endpoint
-summary: "Learn how automated investigation and remediation (AIR) works in Microsoft Defender for Endpoint. You'll learn about concepts, including automation levels, how automated investigations are triggered, how to review investigation findings, and how automated remediation actions work." # user input: introductory summary (https://review.docs.microsoft.com/help/learn/id-guidance-introductory-summaries?branch=master)
+summary: "Learn how automated investigation and remediation (AIR) work in Microsoft Defender for Endpoint. You'll learn about concepts, including automation levels, how automated investigations are triggered, how to review investigation findings, and how automated remediation actions work." # user input: introductory summary (https://review.docs.microsoft.com/help/learn/id-guidance-introductory-summaries?branch=master)
 abstract: |
   - Understand automated investigation 
   - Understand how threats are remediated
