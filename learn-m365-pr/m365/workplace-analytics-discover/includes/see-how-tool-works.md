@@ -7,7 +7,7 @@ Workplace Analytics users can analyze and explore the data in multiple ways:
 
 ![Main Workplace Analytics menu](../media/main-menu.png)
 
-> [!NOTE] 
+> [!NOTE]
 > Click the **menu** icon at the top of the panel. It compresses the menu so you can see a full screen view. Click again to reveal the menu names.
 
 The graphic below shows how these outputs can be used to create executive presentations and business intelligence tools to drive transformational outcomes.
@@ -32,7 +32,7 @@ Workplace Analytics joins the organizational data to the collaboration data to g
 
 ## Workplace Analytics metrics
 
-After the Workplace Analytics data sources are processed, the data is de-identified and filtered, creating a large library of behavioral base metrics related to workplace behaviors, time use, and networks. 
+After the Workplace Analytics data sources are processed, the data is de-identified and filtered, creating a large library of behavioral base metrics related to workplace behaviors, time use, and networks.
 
 ![Data to metrics](../media/data-to-metrics.png)
 

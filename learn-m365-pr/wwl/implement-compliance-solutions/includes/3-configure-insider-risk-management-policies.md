@@ -8,7 +8,7 @@ Configuring insider risk management within an organization involves completing t
 4.  **Configure insider risk settings**. All templates include insider risk settings, which apply to all insider risk management policies.
 5.  **Create an insider risk management policy**. Insider risk management policies include assigned users. They define which types of risk indicators are configured for alerts.
 
-**Additional reading.** For detailed instructions to configure insider risk management, see [Get started with insider risk management](https://docs.microsoft.com/microsoft-365/compliance/insider-risk-management-configure?azure-portal=true).
+**Additional reading.** For detailed instructions to configure insider risk management, see [Get started with insider risk management](/microsoft-365/compliance/insider-risk-management-configure).
 
 ### Insider risk management policies
 
@@ -34,7 +34,7 @@ Insider risk management templates are pre-defined policy conditions that define 
  -  Data leaks
  -  Offensive language in email
 
-**Additional reading.** For details on insider risk policy templates, see [Policy templates](https://docs.microsoft.com/microsoft-365/compliance/insider-risk-management-policies?azure-portal=true).
+**Additional reading.** For details on insider risk policy templates, see [Policy templates](/microsoft-365/compliance/insider-risk-management-policies).
 
 #### Policy settings
 
@@ -45,7 +45,7 @@ Insider risk settings apply to all insider risk management policies. Settings ar
  -  **Policy timeframes**. Timeframes enable you to define past and future review periods. Review periods are triggered after policy matches occur based on events and activities.
  -  **Intelligent detections**. These settings help refine how the detection of risky activities is processed for alerts. In certain circumstances, you may need to define files types to ignore. You can also define a detection level for files to help define a minimum bar for alerts.
 
-**Additional reading.** For more information, see [Policy settings](https://docs.microsoft.com/microsoft-365/compliance/insider-risk-management-policies?azure-portal=true) and [Create a new policy](https://docs.microsoft.com/microsoft-365/compliance/insider-risk-management-policies?azure-portal=true).
+**Additional reading.** For more information, see [Policy settings](/microsoft-365/compliance/insider-risk-management-policies) and [Create a new policy](/microsoft-365/compliance/insider-risk-management-policies).
 
 ## Knowledge check
 

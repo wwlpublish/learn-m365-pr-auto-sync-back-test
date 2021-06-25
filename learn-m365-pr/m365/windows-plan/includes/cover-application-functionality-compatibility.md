@@ -27,7 +27,7 @@ Once you’ve classified the applications, you’ll need to make a couple of dec
 - **Severity 3**: Deployment can continue for affected devices, provided that there is a workaround guidance for affected users.
 - **Severity 4**: Continue deployment to all devices.
 
-The agreed severity mapping ensures you won’t have to work out how individual applications should be handled and prioritized once an importance level as been assigned to them.  For example, you would know that the deployment process should stop for some or all users if any issues arise for any critical application. Once the issues have been resolved, the deployment can continue.
+The agreed severity mapping ensures you won’t have to work out how individual applications should be handled and prioritized once an importance level has been assigned to them.  For example, you would know that the deployment process should stop for some or all users if any issues arise for any critical application. Once the issues have been resolved, the deployment can continue.
 
 ## Tasks
 

@@ -12,4 +12,4 @@ When in-place records management is enabled for a site, you can create a policy 
 
 For example, one policy could be created that declares an active document to be a record two years after the document was created. A second policy could then be created that deletes a record seven years after it was declared to be a record.
 
-**Additional reading.** For more information, see [Plan ways to convert active documents to records in SharePoint Server](https://docs.microsoft.com/SharePoint/governance/plan-how-records-are-collected?azure-portal=true) and [Implement Records Management](https://support.office.com/article/implement-records-management-0bfe419e-eb1d-421a-becd-5be9fed1e479?azure-portal=true).
+**Additional reading.** For more information, see [Plan ways to convert active documents to records in SharePoint Server](/SharePoint/governance/plan-how-records-are-collected) and [Implement Records Management](https://support.office.com/article/implement-records-management-0bfe419e-eb1d-421a-becd-5be9fed1e479?azure-portal=true).

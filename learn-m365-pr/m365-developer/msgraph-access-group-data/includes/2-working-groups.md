@@ -1,3 +1,5 @@
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4OG33]
+
 In this unit, you'll learn what groups are and the basics of working with groups using Microsoft Graph, including required permissions, and the differences between security groups and Office 365 groups. Finally, you’ll learn how to work with groups including how to get information about a group and the users who manage and are members of the group.
 
 ## Overview

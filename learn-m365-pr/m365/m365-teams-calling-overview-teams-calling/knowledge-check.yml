@@ -31,13 +31,13 @@ quiz:
     choices:
     - content: You want to retain your existing PSTN carrier.  
       isCorrect: false
-      explanation: With Calling Plans, Microsoft becomes your carrier.
+      explanation: With Teams Calling Plans, Microsoft becomes your carrier.
     - content: You don’t want to purchase or deploy any additional equipment to connect to the PSTN.
       isCorrect: true
-      explanation: With Calling Plans you can use your existing equipment to connect to the PSTN.
+      explanation: With Teams Calling Plans you can use your existing equipment to connect to the PSTN.
     - content: You need to support voice mail 
       isCorrect: false
-      explanation: You don't need Calling Plans for voicemail.
+      explanation: You don't need Teams Calling Plans for voicemail.
  # Question 3
   - content: When should you consider using Direct Routing rather than any other option?
     choices:

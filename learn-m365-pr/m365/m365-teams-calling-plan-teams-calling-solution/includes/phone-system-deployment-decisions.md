@@ -119,9 +119,9 @@ Depending on your requirements you might need:
 
 Links to more information on the topics listed in the table above are in the **Additional resources** section in the Summary.
 
-## Combining Phone System with Calling Plans and with Direct Routing
+## Combining Phone System with Teams Calling Plans and with Direct Routing
 
-You have options to install Phone System with Calling Plans or Phone System with Direct Routing. In some environments, you may deploy both scenarios. The following will help you decide when and if to use a particular system.
+You have options to install Phone System with Teams Calling Plans or Phone System with Direct Routing. In some environments, you may deploy both scenarios. The following will help you decide when and if to use a particular system.
 
 ### Leverage Phone System with Calling Plan
 
@@ -136,8 +136,8 @@ Calling plan offers you a solution where you do not need to install and maintain
 If Calling Plan isn't available in a particular country, then you have no choice but to use Direct Routing.
 Direct Routing is the choice whenever you want to keep your existing PSTN. For example, if you have a desirable rate with your PSTN or when you want to continue with your existing equipment long enough to recoup the ROI.
 
-### Combining Calling Plans with Direct Routing
+### Combining Teams Calling Plans with Direct Routing
 
-Larger enterprises often combine Calling Plans and Direct Routing. For example, the main headquarters office already using an existing PSTN might stay with Direct Routing whereas a smaller regional office located in a region where they don’t have a PSTN and would benefit from an all-cloud solution would use Calling Plan.
+Larger enterprises often combine Teams Calling Plans and Direct Routing. For example, the main headquarters office already using an existing PSTN might stay with Direct Routing whereas a smaller regional office located in a region where they don’t have a PSTN and would benefit from an all-cloud solution would use Calling Plan.
 
 A single office might have both systems configured so that they can use Direct Routing for international calls and use the Calling Plan solution for domestic calls.

@@ -1,3 +1,5 @@
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4OIAy]
+
 ## Options for addressing throttling
 
 If an application relies on external services that implement some request throttling or rate-limiting, the developers of the application should incorporate it into the application design.
@@ -32,7 +34,7 @@ There are two strategies you can implement in your applications to avoid request
 
 First, limit the number of requests to Microsoft Graph over a short time period.
 
-Another option is to limit the number of operations per request. A query that includes multiple `$expand` and `$filter` query parameters is much more expensive than a simple read operation that limits the data set using the $select query parameter.
+Another option is to limit the number of operations per request. A query that includes multiple `$expand` and `$filter` query parameters is much more expensive than a simple read operation that limits the data set using the `$select` query parameter.
 
 Keep in mind these aren't perfect strategies where you can ensure your applications are never throttled. Your application could experience a burst in traffic and usage that makes it impossible to completely avoid some requests from being throttled.
 
@@ -48,8 +50,8 @@ The first step is to identify when requests are throttled. Identifying throttlin
 
 ## HTTP header Retry-After
 
-Many responses include an HTTP header Retry-After that specifies the number of seconds the client should wait before submitting another request. This includes repeating the same request, or additional requests.
+Many responses include an HTTP header `Retry-After` that specifies the number of seconds the client should wait before submitting another request. This includes repeating the same request, or additional requests.
 
-Consider that not all endpoints in Microsoft Graph include the Retry-After header value. Your application should have a default delay number it uses. Also consider implementing an exponential back-off strategy for later requests.
+Consider that not all endpoints in Microsoft Graph include the `Retry-After` header value. Your application should have a default delay number it uses. Also consider implementing an exponential back-off strategy for later requests.
 
-Consider the situation where a response of 429 comes back with no Retry-After header and you delay for two seconds. If your requests continue to be throttled, maybe the two-second delay isn’t long enough. If a replayed request continues to be throttled, consider doubling the next request, and so on, to improve the changes of a future request succeeding. The application should also have an upper limit of how long an exponential delay could be and if exceeded, it should trigger an exception.
+Consider the situation where a response of 429 comes back with no `Retry-After` header and you delay for two seconds. If your requests continue to be throttled, maybe the two-second delay isn’t long enough. If a replayed request continues to be throttled, consider doubling the next request, and so on, to improve the chances of a future request succeeding. The application should also have an upper limit of how long an exponential delay could be and if exceeded, it should trigger an exception.

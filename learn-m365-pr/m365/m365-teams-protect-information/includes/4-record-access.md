@@ -6,7 +6,7 @@ The audit log gives you visibility into users' activity within Microsoft Teams. 
 
 ## Enable auditing in Teams
 
-To use audit data, you first enable auditing in the Security & Compliance Center. Audit data is available only from the point at which you turn on auditing.
+To use audit data, you first enable auditing in the Microsoft 365 Defender portal. Audit data is available only from the point at which you turn on auditing.
 
 ## Search the audit log
 

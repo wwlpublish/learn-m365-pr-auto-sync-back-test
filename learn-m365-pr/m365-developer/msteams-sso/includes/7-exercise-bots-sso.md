@@ -1,3 +1,5 @@
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4OASc]
+
 In this exercise, you'll add a custom bot in a new existing Microsoft Teams app and use single sign-on (SSO) to obtain an access token to submit requests to Microsoft Graph.
 
 > [!IMPORTANT]
@@ -171,6 +173,8 @@ Once this process is complete, you should see both the **Web Chat** and **Micros
 
 ## Create your Microsoft Teams app project
 
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4ODdh]
+
 Open your command prompt, navigate to a directory where you want to save your work, create a new folder **learn-msteams-sso-bot**, and change directory into that folder.
 
 Run the Yeoman Generator for Microsoft Teams by running the following command:
@@ -279,6 +283,8 @@ The last step is to add the `webApplicationInfo` object to the app's manifest fi
 At this point, the project is configured and you can now start coding the bot.
 
 ## Code the bot
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4OO1Y]
 
 Create a new folder **SsoBot** in the **./src/server** folder.
 
@@ -727,6 +733,8 @@ The other two events in the `SsoBot` class, `handleTeamsSigninTokenExchange()` a
 The handler for the `signin/tokenExchange` activity uses the helper we previously created to process the token received, if it should be processed. The token should only be processed once, while the response is sent to every Microsoft Teams instance where the user is signed in, which may be more than one.
 
 ### Load the bot when the web server starts
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4OG2C]
 
 The last step is to add the bot to the web server when it starts.
 

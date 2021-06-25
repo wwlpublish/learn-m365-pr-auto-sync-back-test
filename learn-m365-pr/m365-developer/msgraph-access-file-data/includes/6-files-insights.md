@@ -1,3 +1,5 @@
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4OG2S]
+
 Microsoft Graph enables more features than just reading and writing files. In this unit, you'll learn how to get a list of files trending around a user and how to get all the files owned by a specific user.
 
 Insights are relationships calculated using advanced analytics and machine learning techniques. Using Microsoft Graph, you can identify OneDrive documents trending around users.

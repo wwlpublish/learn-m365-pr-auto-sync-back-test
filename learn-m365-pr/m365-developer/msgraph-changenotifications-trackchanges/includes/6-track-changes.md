@@ -1,3 +1,5 @@
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4OG3i]
+
 In this unit, you'll learn how you can track changes to entities in a collection over time without writing code to detect which items have changed. This capability is provided as part of the *delta query* feature in Microsoft Graph.
 
 ## Tracking changes to entities with Microsoft Graph

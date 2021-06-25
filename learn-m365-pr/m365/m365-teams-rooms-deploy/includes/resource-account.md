@@ -1,5 +1,5 @@
 The resource account is a Microsoft Exchange resource mailbox.
- 
+
 When people schedule a room, it is this resource mailbox that they invite to their meeting. This mailbox will - on behalf of the room - accept or decline the meeting invite. This resource account is also the account that signs into the Microsoft Teams Rooms app. It must be enabled for Skype for Business and/or Microsoft Teams.
 
 Try to establish a naming convention, particularly when you move to Azure Active Directory (Azure AD) and the concept of dynamic groups. A resource account can automatically be added to Azure AD groups based on the naming convention. It's recommended that you assign the Teams Rooms Standard or Teams Rooms Premium license to all Teams Rooms resource accounts. The Teams Rooms Standard license is a cost-effective license that includes all the core components needed for Teams Rooms.
@@ -23,20 +23,19 @@ The Teams Rooms Premium license adds additional features such as a Microsoft-man
 
 1. First identify what room you are going to use with Teams Rooms. Does a resource already exist? It's very possible that a resource account for this room was created previously for other purposes.
 
-   - If that is the case, you can then move forward with configuring auto accept. 
+   - If that is the case, you can then move forward with configuring auto accept.
    - If there is not an existing resource, create a new Exchange resource and then configure auto accept within Exchange.
 
-2. Once the auto-accept parameters for the Exchange mailbox have been configured, you will need to set the password to never expire. *Resource accounts must have their password set to not expire*. Otherwise, the account will not be able to sign in to Teams Rooms when it’s password has expired and no one will be able to join meetings in that room until someone physically changes the password on the Teams Rooms application. 
+2. Once the auto-accept parameters for the Exchange mailbox have been configured, you will need to set the password to never expire. *Resource accounts must have their password set to not expire*. Otherwise, the account will not be able to sign in to Teams Rooms when it’s password has expired and no one will be able to join meetings in that room until someone physically changes the password on the Teams Rooms application.
 
 3. Will you enable this account for Skype for Business?
 
-   - If yes, enable the account for Skype. 
-   - If not, assign a Teams license. 
+   - If yes, enable the account for Skype.
+   - If not, assign a Teams license.
 
-4. If you have enabled the account for Skype, will you enable it for Teams as well as for Skype? If yes, assign a Teams license. 
+4. If you have enabled the account for Skype, will you enable it for Teams as well as for Skype? If yes, assign a Teams license.
 
     ![Resource account workflow](../media/resource-account-flow.png)
-
 
 ## Learn more
 

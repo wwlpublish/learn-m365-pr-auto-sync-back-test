@@ -59,7 +59,7 @@ For a quick look at Advanced eDiscovery in Microsoft 365, watch:
 > Please review [Microsoft 365 licensing guidance for security & compliance](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance?azure-portal=true) to identify required licenses for your organization.
 
 ## Microsoft 365 Compliance Center
-If you've ever worked with the core eDiscovery solution in the Office 365 Security & Compliance center, you may be aware that you could further manage a case using Advanced eDiscovery by clicking **Switch to Advanced eDiscovery**. This opened the case in Advanced eDiscovery (classic) which is being retired. Its functionality has been replaced by a new version of Advanced eDiscovery in the Microsoft 365 compliance center.
+If you've ever worked with the core eDiscovery solution in the Microsoft 365 Defender portal, you may be aware that you could further manage a case using Advanced eDiscovery by clicking **Switch to Advanced eDiscovery**. This opened the case in Advanced eDiscovery (classic) which is being retired. Its functionality has been replaced by a new version of Advanced eDiscovery in the Microsoft 365 compliance center.
  
 ![Microsoft 365 compliance center](../media/microsoft-365-compliance-center.png) 
 

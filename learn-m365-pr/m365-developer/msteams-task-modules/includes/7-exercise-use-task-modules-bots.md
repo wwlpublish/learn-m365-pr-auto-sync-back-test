@@ -1,3 +1,5 @@
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4OIwK]
+
 In this exercise, you'll learn how to use task modules with bots in Microsoft Teams.
 
 The first step will be to create a bot and add it to our existing Microsoft Teams app. You'll then extend the bot to support the existing task modules to display a video and change the selected video.
@@ -273,6 +275,8 @@ Next, enter some random text. Because the bot is looking for specific text, it w
 At this point, the bot is working. Move onto the next section to add task module support.
 
 ## Add the video player task module
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4OAON]
 
 In this section, you'll add a task module to the bot. First, let's update the Hero card to add a button the user can select.
 

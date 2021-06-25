@@ -1,3 +1,5 @@
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4OIvN]
+
 Link unfurling is the process of taking a hyperlink pasted into a message and doing some action based on the result of processing the link. This process allows developers to do a search, or display a card.
 
 In this unit, you’ll learn how to add link unfurling to your Microsoft Teams app and how to implement this type of messaging extension.
