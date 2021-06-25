@@ -27,7 +27,7 @@ The deployment process using Microsoft Endpoint Manager consists of the followin
 
 You'll create a group for your pilot devices and users to apply configurations. You do this using the Microsoft Endpoint Manager portal:
 
-:::image type="content" source="../media/4-navigate-groups-intune.png" alt-text="Go to the Groups pane.":::
+:::image type="content" source="../media/4-navigate-groups-intune.png" alt-text="Screenshot showing the Microsoft Endpoint manager, and how to go to the Groups pane.":::
 
 ### Step 2: Configure capabilities
 
@@ -51,18 +51,18 @@ You can use the Onboarding using Microsoft Endpoint Manager link in the **Learn 
 
 Once you've created a profile, you'll confirm whether it has been applied to your pilot devices. You do this by selecting the profile you've created. For example, you can select the profile you've created for next-generation protection in the **Antivirus** pane:
 
-:::image type="content" source="../media/4-next-generation-protection-profile-created.png" alt-text="Select your profile.":::
+:::image type="content" source="../media/4-next-generation-protection-profile-created.png" alt-text="Screenshot showing the Endpoint security, and how to select your profile.":::
 
 > [!NOTE]
 > It might take some time for your configuration policy to be applied.
 
 You'll be taken to the policy profile overview pane:
 
-:::image type="content" source="../media/4-profile-overview-pane.png" alt-text="The profile overview pane.":::
+:::image type="content" source="../media/4-profile-overview-pane.png" alt-text="Screenshot showing the Endpoint Manager admin center and the profile overview pane.":::
 
 Here, you can check whether the profile has been applied successfully at multiple levels. For example, to check which devices it has been applied to successfully, you can select **Device status**:
 
-:::image type="content" source="../media/4-profile-device-status.png" alt-text="Device status.":::
+:::image type="content" source="../media/4-profile-device-status.png" alt-text="Screenshot showing how to get to the Device status.":::
 
 If the **Assignment status** shows as **Succeeded**, then that device has been onboarded successfully.
 

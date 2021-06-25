@@ -2,7 +2,7 @@ First, you’ll need to define what your organization's current security archite
 
 Here you'll identify an architecture that is the closest to your current organization, review and then identify the tools that you can use. 
 
-:::image type="content" source="../media/plan-table-contents.png" alt-text="A diagram showing the three topics covered in this unit, architecture, tools, and capabilities" border="false":::
+:::image type="content" source="../media/plan-table-contents.png" alt-text="A diagram showing the three topics covered in this unit, architecture, tools, and capabilities." border="false":::
 
 ## Identify architecture
 
@@ -10,19 +10,19 @@ You can connect Microsoft Defender for Endpoint with your environment in differe
 
 ### Cloud-native 
 
-:::image type="complex" source="../media/cloud-native.png" alt-text="Diagram explaining what a cloud native architecture looks like":::
+:::image type="complex" source="../media/cloud-native.png" alt-text="Diagram explaining what a cloud native architecture looks like.":::
 
 Choose a cloud-native architecture if your organization’s devices are based in the cloud.   For example, if all devices are managed by Microsoft Endpoint Manager, or if your organization would like to move to them in the future to be managed by Microsoft Endpoint Manager.
 
 ### Co-management
 
-:::image type="complex" source="../media/co-management.png" alt-text="Diagram explaining what a co-management architecture looks like":::
+:::image type="complex" source="../media/co-management.png" alt-text="Diagram explaining what a co-management architecture looks like.":::
 
 Choose co-management if you have a blended architecture, with devices managed by Microsoft Endpoint Manager and an on-premises configuration management solution.
 
 ### On-premises
 
-:::image type="complex" source="../media/on-premises.png" alt-text="Diagram explaining what an on-premises architecture looks like":::
+:::image type="complex" source="../media/on-premises.png" alt-text="Diagram explaining what an on-premises architecture looks like.":::
 
 Choose an on-premises architecture if all your devices are using either Configuration Manager or Active Directory Domain Services. Your organization can still benefit from using the power of the cloud-based Microsoft Defender for Endpoint.
 
@@ -45,7 +45,7 @@ Next, you need to define   deployment rings. Using deployment rings, you onboard
 
 The recommended deployment ring structure to use with Microsoft Defender for Endpoint is as follows:
 
-:::image type="content" source="../media/4-deployment-rings.png" alt-text="Deployment rings.":::
+:::image type="content" source="../media/4-deployment-rings.png" alt-text="A diagram that shows the Deployment rings.":::
 
 Each ring represents a group of devices. The rings work like this:
 
