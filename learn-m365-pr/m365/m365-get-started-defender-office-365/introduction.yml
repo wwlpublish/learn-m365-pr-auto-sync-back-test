@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-m365-pr.getting-started-with-microsoft-defender-for-office-365.introduction
+title: Introduction
+metadata:
+  unitType: introduction
+  title: Introduction
+  description: Understand how to get started with Microsoft Defender for Office 365.
+  ms.date: 5/17/2021
+  author: iankensey
+  ms.author: v-iakens
+  ms.topic: interactive-tutorial 
+  ms.prod: learning-m365
+durationInMinutes: 1
+content: |
+  [!include[](includes/introduction.md)]
