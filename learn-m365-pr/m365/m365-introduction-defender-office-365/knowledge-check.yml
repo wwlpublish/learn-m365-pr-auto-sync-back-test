@@ -1,0 +1,49 @@
+### YamlMime:ModuleUnit
+uid: learn-m365-pr.introduction-microsoft-defender-for-office-365.knowledge-check
+title: Knowledge check 
+metadata:
+  unitType: knowledge_check
+  title: Knowledge check
+  description: Test your knowledge of the module content
+  ms.date: 5/17/2021
+  author: iankensey
+  ms.author: v-iakens
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 4
+content: |
+quiz:
+  questions:
+  - content: "You want to implement automated investigation and response (AIR). Which of the following describes the proper level you need to acquire to get this option?"
+    choices:
+    - content: "Plan 2"
+      isCorrect: true
+      explanation: "This is correct. AIR is a feature of Plan 2"
+    - content: "Plan 1"
+      isCorrect: false
+      explanation: "This is incorrect. AIR isn't a feature of Plan 1"
+    - content: "EOP"
+      isCorrect: false
+      explanation: "This is incorrect. AIR isn't a feature of EOP"
+  - content: "Which of the following protection stack levels provides critical features to catch spam?"
+    choices:
+    - content: "Content filtering"
+      isCorrect: false
+      explanation: "Content filtering takes action on messages that are in transit. Sender intelligence is the critical level in the protection stack for catching spam."
+    - content: "Sender intelligence"
+      isCorrect: true
+      explanation: "Sender intelligence is the critical level for catching spam."
+    - content: "Post delivery protection"
+      isCorrect: false
+      explanation: "Post delivery protection is the level where reporting and URL detonation occurs. Sender intelligence is the critical level in the protection stack for catching spam."
+  - content: "Which product provides a unified view of all your email, collaboration, identity, and device threats?"
+    choices:
+    - content: "Microsoft Security and Compliance portal"
+      isCorrect: false
+      explanation: "This is incorrect. The Microsoft security and compliance portal doesn't provide a unified view of all your threats."
+    - content: "Microsoft 365 Defender portal"
+      isCorrect: true
+      explanation: "That is correct. Microsoft 365 Defender portal provides a unified portal that provides protection, detection, investigation, and response regarding email, collaboration, identity, and device threats. "
+    - content: "Microsoft Security and Threat portal"
+      isCorrect: false
+      explanation: "This is incorrect.  Security and Threat isn't a valid portal."
