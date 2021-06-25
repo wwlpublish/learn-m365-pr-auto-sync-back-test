@@ -192,7 +192,7 @@ function insertTextIntoRange() {
 
     > [!NOTE]
     >
-    > - The method is intended to add a range whose text is "Office 2019, " before the range with text "Office 365". It makes a simplifying assumption that the string is present and the user has selected it.
+    > - The method is intended to add a range whose text is "Office 2019, " before the range with text "Microsoft 365". It makes a simplifying assumption that the string is present and the user has selected it.
     > - The first parameter of the `Range.insertText()` method is the string to add.
     > - The second parameter specifies where in the range the additional text should be inserted. For more information about the location options, see the previous discussion of the `insertTextIntoRange()` function.
 
@@ -278,8 +278,8 @@ function insertTextIntoRange() {
 1. In the task pane, select the **Insert Paragraph** button to ensure that there's a paragraph at the start of the document.
 1. Within the document, select the phrase "Click-to-Run". *Be careful not to include the preceding space or following comma in the selection.*
 1. Select the **Insert Abbreviation** button. Note that " (C2R)" is added. Note also that at the bottom of the document a new paragraph is added with the entire expanded text because the new string was added to the existing range.
-1. Within the document, select the phrase "Office 365". *Be careful not to include the preceding or following space in the selection.*
-1. Select the **Add Version Info** button. Note that "Office 2019, " is inserted between "Office 2016" and "Office 365". Note also that at the bottom of the document a new paragraph is added but it contains only the originally selected text because the new string became a new range rather than being added to the original range.
+1. Within the document, select the phrase "Microsoft 365". *Be careful not to include the preceding or following space in the selection.*
+1. Select the **Add Version Info** button. Note that "Office 2019, " is inserted between "Office 2016" and "Microsoft 365". Note also that at the bottom of the document a new paragraph is added but it contains only the originally selected text because the new string became a new range rather than being added to the original range.
 1. Within the document, select the word "several". *Be careful not to include the preceding or following space in the selection.*
 1. Select the **Change Quantity Term** button. Note that "many" replaces the selected text.
 

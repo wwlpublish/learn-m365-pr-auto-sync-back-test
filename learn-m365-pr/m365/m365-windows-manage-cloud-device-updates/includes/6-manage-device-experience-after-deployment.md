@@ -1,5 +1,4 @@
-You're aware that a poor device experience with updates can result in devices that are in line with the latest Windows updates. You want to make sure you manage the device experience for updates to provide a consistent update experience across your devices. 
-You'll investigate the controls for device experience that are available to you, and you will see how these controls positively or negatively affect productivity and device security. With this information, you can make decisions about how best to configure policies for your organization.
+You're aware that a poor device experience with updates can result in devices that are in line with the latest Windows updates. You want to make sure you manage the device experience for updates to provide a consistent update experience across your devices. You'll investigate the controls for device experience that are available to you, and you will see how these controls positively or negatively affect productivity and device security. With this information, you can make decisions about how best to configure policies for your organization.
 
 In this unit, you will learn about how to best manage the device experience for updates.
 
@@ -20,9 +19,7 @@ By default, the update will download automatically at a time that the Update Orc
   - You can find this setting under the Group Policy path **Computer Configuration > Administrative Templates > Windows Components > Windows Update > Configure Automatic Updates**.
   - Configuring this policy will prevent the update from downloading until a user acts by selecting a notification or going to the Windows Update Settings page. If the user takes no action, the update will not download until the deadline you have configured is reached. This policy will likely provide a poor user experience and slow update adoption. Think carefully before configuring.
 
-### Microsoft recommendation
-
-Microsoft recommends that you avoid configuring these policies. As you're the administrator for your organization, you should allow updates to download automatically.
+**Microsoft recommendation**: avoid configuring these policies. As you're the administrator for your organization, you should allow updates to download automatically.
 
 ### Optimize downloads and manage bandwidth
 
@@ -92,9 +89,7 @@ When a device is plugged in, this Group Policy will wake the system automaticall
 
 :::image type="content" source="../media/4-wake-system-expanded.png" lightbox="../media/4-wake-system-inline.png" alt-text="Wake the system to install updates when plugged in.":::
 
-#### Microsoft recommendation
-
-Microsoft recommends that you don't try to install on a specific day or week and allow updates to install automatically; don't configure any policies.
+**Microsoft recommendation**: don't install on a specific day or week and allow updates to install automatically; don't configure any policies.
 
 ## Manage restarts
 
@@ -120,9 +115,7 @@ Instead of relying on Intelligent active hours, users can configure their own ac
 
 :::image type="content" source="../media/4-user-configured-active-hours-expanded.png" lightbox="../media/4-user-configured-active-hours-inline.png" alt-text="User-configured active hours.":::
 
-#### Microsoft recommendation
-
-Microsoft recommends that you allow updates to restart automatically outside of active hours. Don't configure any policies or only specify the active hours range.
+**Microsoft recommendation**: allow updates to restart automatically outside of active hours. Don't configure any policies or only specify the active hours range.
 
 ### Group Policy: Specify active hours range for auto restarts
 
@@ -132,9 +125,7 @@ Use the  **Specify active hours range for auto restarts** policy to set the rang
 
 You can enable the policy and configure it for the number of hours you want to allow users to have as a maximum active hours range. The allowed values are between eight and 18 hours; the default is 18 hours. We recommend configuring a maximum range of 12 hours to balance the user’s usage and to ensure enough time to update outside of active hours.
 
-#### Microsoft recommendation
-
-Microsoft recommends that you do not configure this policy and allow Intelligent active hours to take effect, or allow your users to configure active hours for a better user experience.
+**Microsoft recommendation**: do not configure this policy and allow Intelligent active hours to take effect, or allow your users to configure active hours for a better user experience.
 
 ### Use an MDM to set the active hours range for auto restarts
 

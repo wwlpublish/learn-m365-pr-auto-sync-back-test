@@ -43,13 +43,13 @@ You can now use Security &amp; Compliance Center PowerShell to create and config
 
 Other label policy settings are available with the Set-LabelPolicy cmdlet from Security &amp; Compliance Center PowerShell.
 
-The Azure Information Protection unified labeling client supports many advanced settings that include migrating from other labeling solutions, and pop-up messages in Outlook that warn, justify, or block emails being sent. For the full list, see [Available advanced settings for label policies](https://docs.microsoft.com/azure/information-protection/rms-client/clientv2-admin-guide-customizations#available-advanced-settings-for-label-policies?azure-portal=true) from this client's admin guide.
+The Azure Information Protection unified labeling client supports many advanced settings that include migrating from other labeling solutions, and pop-up messages in Outlook that warn, justify, or block emails being sent. For the full list, see [Available advanced settings for label policies](/azure/information-protection/rms-client/clientv2-admin-guide-customizations#available-advanced-settings-for-label-policies?azure-portal=true) from this client's admin guide.
 
 **Additional reading.** For more information, see the following documentation for supported parameters and values:
 
- -  [New-Label](https://docs.microsoft.com/powershell/module/exchange/new-label?azure-portal=true)
- -  [New-LabelPolicy](https://docs.microsoft.com/powershell/module/exchange/new-labelpolicy?azure-portal=true)
- -  [Set-Label](https://docs.microsoft.com/powershell/module/exchange/set-label?azure-portal=true)
- -  [Set-LabelPolicy](https://docs.microsoft.com/powershell/module/exchange/set-labelpolicy?azure-portal=true)
+ -  [New-Label](/powershell/module/exchange/new-label)
+ -  [New-LabelPolicy](/powershell/module/exchange/new-labelpolicy)
+ -  [Set-Label](/powershell/module/exchange/set-label)
+ -  [Set-LabelPolicy](/powershell/module/exchange/set-labelpolicy)
 
-You can also use [Remove-Label](https://docs.microsoft.com/powershell/module/exchange/remove-label?azure-portal=true) and [Remove-LabelPolicy](https://docs.microsoft.com/powershell/module/exchange/remove-labelpolicy?azure-portal=true) if you need to script the deletion of sensitivity labels or sensitivity label policies. However, before you delete sensitivity labels, make sure you read the following unit on removing and deleting sensitivity labels.
+You can also use [Remove-Label](/powershell/module/exchange/remove-label) and [Remove-LabelPolicy](/powershell/module/exchange/remove-labelpolicy) if you need to script the deletion of sensitivity labels or sensitivity label policies. However, before you delete sensitivity labels, make sure you read the following unit on removing and deleting sensitivity labels.

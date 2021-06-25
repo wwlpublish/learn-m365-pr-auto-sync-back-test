@@ -1,6 +1,5 @@
 The Microsoft Teams desktop client provides a full-featured experience and can be installed either individually by users or rolled out by IT in a mass deployment. Advantages of the Teams desktop client include auto-start, which ensures that you’ll stay signed in and won’t miss any important notifications, as well as more features and a more granular management experience.
 
-
 ## Installation options
 
 The Teams desktop client comes with a stand-alone (.exe) installer for user installation and works with MSI for IT installations. It's also available by default as part of Microsoft 365 Apps. Anybody who has a Teams license can sign in to Teams via the web.
@@ -16,7 +15,7 @@ The Windows desktop client is installed per user. The client can be installed wi
 
 ## Client updates
 
-The desktop client updates itself automatically, but users can also manually download updates. While Teams is installed by default with new installations of Microsoft 365 Apps, Teams follow its own update process and not that of other Office apps such as Word or PowerPoint.
+The desktop client updates itself automatically, but users can also manually download updates. While Teams is installed by default with new installations of Microsoft 365 Apps, Teams follows its own update process and not that of other Office apps such as Word or PowerPoint.
 
 Teams desktop client updates are released every two weeks after rigorous internal testing and validation. If a critical update is required, Teams will bypass this schedule and release the update as soon as it’s available.
 

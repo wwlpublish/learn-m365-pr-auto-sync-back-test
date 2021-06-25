@@ -1,3 +1,5 @@
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4OIzu]
+
 In this exercise, you’ll learn how to create a web service and register it as an outgoing webhook in Microsoft Teams.
 
 ## Prerequisites

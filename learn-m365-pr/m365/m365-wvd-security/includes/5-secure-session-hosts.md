@@ -23,7 +23,7 @@ Customers can take several actions and use multiple tools to help secure their A
 
 To help secure a company's endpoints, we recommend that you configure Microsoft Defender for Endpoint. It was previously known as Microsoft Defender for Endpoint. Microsoft Defender for Endpoint is typically used on-premises but can also be used in a virtual desktop infrastructure (VDI) environment.
 
-To deploy Microsoft Defender for Endpoint on your Azure Virtual Desktop VMs, enroll the VMs into Azure Security Center. Security Center provides a license as part of its standard offering. 
+To deploy Microsoft Defender for Endpoint on your Azure Virtual Desktop VMs, enroll the VMs into Azure Security Center. Security Center provides a license as part of its standard offering.
 
 You should also use automatic provisioning. The settings for automatic provisioning in Security Center have a toggle for each type of supported extension. When you enable automatic provisioning of an extension, you assign the appropriate **DeployIfNotExists** policy to make sure that the extension is provisioned on all existing and future resources of that type.
 
@@ -34,9 +34,9 @@ You should also use automatic provisioning. The settings for automatic provision
 
 Microsoft 365 includes support for the Microsoft Endpoint Manager admin center and Microsoft Endpoint Configuration Manager.
 
-You can use Microsoft Intune to create and check for compliance. You can also use it to deploy apps, features, and settings to your devices that use Azure. 
+You can use Microsoft Intune to create and check for compliance. You can also use it to deploy apps, features, and settings to your devices that use Azure.
 
-Microsoft Intune is integrated with Azure Active Directory (Azure AD) for authentication and authorization. It also integrates with Azure Information Protection for data protection. You can use Microsoft Intune with the Microsoft 365 suite of products. 
+Microsoft Intune is integrated with Azure Active Directory (Azure AD) for authentication and authorization. It also integrates with Azure Information Protection for data protection. You can use Microsoft Intune with the Microsoft 365 suite of products.
 
 The following table describes some of the main functionalities of Microsoft Intune.
 
@@ -50,7 +50,7 @@ Application control moves from an application trust model that assumes all appli
 
 ### Windows Defender Application Control
 
-Windows 10 introduced Windows Defender Application Control. Organizations can use this feature to control the drivers and applications that can run on their Windows 10 clients. 
+Windows 10 introduced Windows Defender Application Control. Organizations can use this feature to control the drivers and applications that can run on their Windows 10 clients.
 
 Initially in Windows 10, Windows Defender Application Control was known as configurable code integrity. Configurable code integrity carries no specific hardware or software requirements other than running Windows 10. It was also one of the features that contained the now-defunct Device Guard.
 

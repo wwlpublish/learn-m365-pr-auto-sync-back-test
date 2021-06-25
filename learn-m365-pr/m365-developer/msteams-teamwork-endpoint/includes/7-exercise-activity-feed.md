@@ -1,3 +1,5 @@
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4OIwR]
+
 In this exercise, you'll learn how to use Microsoft Graph to submit notifications to the Microsoft Teams activity feed.
 
 > [!IMPORTANT]

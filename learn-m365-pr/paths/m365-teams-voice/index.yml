@@ -10,7 +10,7 @@ metadata:
   ms.prod: learning-m365
 title: Set up calling in Microsoft Teams with Phone System
 summary: |
-  Microsoft Teams Phone System is a private branch exchange (PBX) system that you can use to build a telephone system without complicated and expensive equipment. Phone System seamlessly integrates with Microsoft Teams, bringing together telephony, video conference, and chats in one unified application. Through Teams Calling, any user can make and receive calls from any location using their work number. Phone System supports Microsoft Calling Plans and Direct Routing depending on whether your company has an existing carrier or their own on-premises PBX. Support for voicemail and other features can be managed through the Teams Admin Center.
+  Microsoft Teams Phone System is a private branch exchange (PBX) system that you can use to build a telephone system without complicated and expensive equipment. Phone System seamlessly integrates with Microsoft Teams, bringing together telephony, video conference, and chats in one unified application. Through Teams Calling, any user can make and receive calls from any location using their work number. Phone System supports Teams Calling Plans and Direct Routing depending on whether your company has an existing carrier or their own on-premises PBX. Support for voicemail and other features can be managed through the Teams Admin Center.
 prerequisites: |
   - Familiarity with Microsoft Teams
   - Familiarity with Voice over IP (VOIP)

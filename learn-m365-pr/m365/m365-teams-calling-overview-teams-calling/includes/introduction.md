@@ -8,4 +8,4 @@ By the end of this module, you should be able to:
 - Understand the Teams Calling Architecture.
 - Have a clear understanding of the capabilities of Phone System.
 - Understand the benefits of Direct Routing.
-- Understand the different Calling Plans available to your organization.
+- Understand the different Teams Calling Plans available to your organization.
