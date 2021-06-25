@@ -12,4 +12,4 @@ metadata:
   ms.prod: learning-m365
 durationInMinutes: 6
 content: |
-  [!include[](includes/overview-preset-security-policies-configuration-analyzer-message-overrides.md)]
+  [!include[](includes/overview-preset-security-policies-message-overrides.md)]
