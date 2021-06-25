@@ -139,6 +139,7 @@ If you need up to 100,000 people viewing, or 20,000 with no attendee discussion 
 
 How you schedule your Live Event depends on where it’s going to be hosted. See how to plan and schedule a Live Event in this video.
 
+
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE3eTQ3]
 
 
