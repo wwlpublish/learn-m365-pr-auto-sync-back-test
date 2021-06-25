@@ -7,7 +7,7 @@ Microsoft Defender for Office 365 includes:
 - **Threat investigation and response capabilities**: Use leading-edge features to investigate, understand, simulate, and prevent threats.
 - **Automated investigation and response capabilities**: Save time and effort investigating and mitigating threats. Automated incident response capabilities include automated investigation processes in response to well-known threats that exist today.
 
-## Plan Types
+## Plan types
 
 An important consideration for you and your team is to decide what capabilities or features you want out of Microsoft Defender for Office 365.  There are currently two plans to choose from:
 
