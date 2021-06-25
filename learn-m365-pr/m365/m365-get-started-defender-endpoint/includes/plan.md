@@ -16,13 +16,13 @@ You should choose a cloud-native architecture if your organization’s devices a
 
 ### Co-management
 
-:::image type="content" source="../media/co-management.png" alt-text="Diagram explaining what a co-management architecture looks like.":::
+:::image type="content" source="../media/co-management.png" alt-text="Diagram explaining what a co-management architecture looks like." border="false":::
 
 Choose co-management if you have a blended architecture, with devices managed by Microsoft Endpoint Manager and an on-premises configuration management solution.
 
 ### On-premises
 
-:::image type="content" source="../media/on-premises.png" alt-text="Diagram explaining what an on-premises architecture looks like.":::
+:::image type="content" source="../media/on-premises.png" alt-text="Diagram explaining what an on-premises architecture looks like." border="false":::
 
 Choose an on-premises architecture if all your devices are using either Configuration Manager or Active Directory Domain Services. Your organization can still benefit from using the power of the cloud-based Microsoft Defender for Endpoint.
 
@@ -45,7 +45,7 @@ Next, you need to define   deployment rings. Using deployment rings, you onboard
 
 The recommended deployment ring structure to use with Microsoft Defender for Endpoint is as follows:
 
-:::image type="content" source="../media/4-deployment-rings.png" alt-text="A diagram that shows the Deployment rings.":::
+:::image type="content" source="../media/4-deployment-rings.png" alt-text="A diagram that shows the Deployment rings." border="false":::
 
 Each ring represents a group of devices. The rings work like this:
 
