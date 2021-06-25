@@ -8,6 +8,7 @@ metadata:
   author: iankensey
   ms.author: v-iakens
   ms.topic: interactive-tutorial 
+  ms.prod: learning-m365
 title: Enable Microsoft 365 Defender in your organization 
 summary: Understand the steps needed to enable Microsoft 365 Defender for your organization. 
 abstract: | 
@@ -17,7 +18,7 @@ abstract: |
     - Manage who has access to the functions and data in Microsoft 365 Defender. 
 prerequisites: | 
   - None
-iconUrl: /media/learn/module.svg
+iconUrl: /learn/achievements/generic-badge.svg
 levels: 
   - beginner
 roles: 
@@ -30,7 +31,7 @@ products:
 - m365-threat-protection
 units:
 - learn-m365-pr.m365-getting-started-microsoft-365-defender.introduction
-- learn-m365-pr.m365-getting-started-microsoft-365-defender.getting-started-microsoft-365-defender
+- learn-m365-pr.m365-getting-started-microsoft-365-defender.get-started-microsoft-365-defender
 - learn-m365-pr.m365-getting-started-microsoft-365-defender.manage-access-microsoft-365-defender
 - learn-m365-pr.m365-getting-started-microsoft-365-defender.knowledge-check
 - learn-m365-pr.m365-getting-started-microsoft-365-defender.summary

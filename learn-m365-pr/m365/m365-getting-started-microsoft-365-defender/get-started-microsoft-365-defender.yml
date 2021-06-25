@@ -1,5 +1,5 @@
 ### YamlMime:ModuleUnit
-uid: learn-m365-pr.m365-getting-started-microsoft-365-defender.getting-started-microsoft-365-defender
+uid: learn-m365-pr.m365-getting-started-microsoft-365-defender.get-started-microsoft-365-defender
 title: Roll out Microsoft 365 Defender for your organization
 metadata:
   unitType: learning-content
@@ -9,6 +9,7 @@ metadata:
   author: iankensey
   ms.author: v-iakens
   ms.topic: interactive-tutorial
+  ms.prod: learning-m365
 durationInMinutes: 5
 content: |
-  [!include[](includes/getting-started-microsoft-365-defender.md)]
+  [!include[](includes/get-started-microsoft-365-defender.md)]

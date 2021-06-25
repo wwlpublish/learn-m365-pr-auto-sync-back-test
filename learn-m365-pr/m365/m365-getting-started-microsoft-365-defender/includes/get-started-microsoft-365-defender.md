@@ -2,13 +2,13 @@ Before you can use Microsoft 365 Defender, you need to set up and configure your
 
 Here, you'll learn about the licensing, hardware and software requirements, and other configuration settings to provision and use Microsoft 365 Defender in your organization.
 
-## Getting Started
+## Get Started
 
 Preparation is key to any successful deployment. Getting started with Microsoft 365 Defender requires only a few steps. First, you’ll need to turn on the service by making sure you have the right license in place, and roles are assigned so that you can access the portal.
 
 Next, you'll need to deploy the supported services that come with Microsoft 365 Defender, for example Microsoft Defender for Endpoint, or Microsoft Defender for Identity. These services increase your visibility of threat signals from assets across your network.
 
-### Check Licenses
+### Check licenses
 
 A license to a Microsoft 365 security product generally entitles you to use Microsoft 365 Defender in Microsoft 365 Defender portal without extra licensing cost.
 
@@ -29,7 +29,7 @@ Accounts assigned the following Azure Active Directory (AD) roles can access Mic
 > [!NOTE]
 > Role-based access control settings in Microsoft Defender for Endpoint influence access to data. For more information, read about managing access to Microsoft 365 Defender.
 
-## Deploying supported services
+## Deploy supported services
 
 Microsoft 365 Defender aggregates data from the various supported services that you've already deployed. It will process and store data centrally to identify new insights and make centralized response workflows possible. It does this without affecting existing deployments, settings, or data associated with the integrated services.
 

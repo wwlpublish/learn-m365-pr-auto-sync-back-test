@@ -28,13 +28,13 @@ To manage access to Microsoft 365 Defender, you'll need to assign permissions an
 
 1. In the navigation pane, select Permissions & roles.
 
-   :::image type="content" source="../media/3-permissions-roles-m365-security.png" alt-text="Screenshot from the Micrsosoft 365 Defender portal, showing how to get to the permissions and roles page.":::
+   :::image type="content" source="../media/3-permissions-roles-m365-security.png" alt-text="Screenshot from the Microsoft 365 Defender portal, showing how to get to the permissions and roles page.":::
 
 1. Under the Permissions header, select Roles.
 
 From here, you can give the required roles to your users.
 
-## Limiting access to security data
+## Limit access to security data
 
 You can control access to Microsoft 365 Defender data by using the scope assigned to user groups in Microsoft Defender for Endpoint role-based access control (RBAC). As long as your access isn’t scoped to a specific set of devices in Defender for Endpoint, you have full access to data in Microsoft 365 Defender. However, once your account is scoped, you’ll only see data about the devices in your scope.
 
