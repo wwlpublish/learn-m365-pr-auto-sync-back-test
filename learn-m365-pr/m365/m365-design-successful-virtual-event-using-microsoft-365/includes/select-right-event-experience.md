@@ -5,7 +5,7 @@ In this unit, you'll learn when to use each option, based on your audience and t
 
 ## Select your event experience
 
-The best tool to use for your event depends on the experience you want for your attendees. These are the elements to consider:
+The best tool to use for your event depends on the experience you want for your attendees. The table shows the elements to consider:
 
 :::image type="complex" source="../media/select-experience-matrix.png" alt-text="Grid to select from":::
 The table has four columns. From the left the columns are What type of event, What type of attendee experience, How many people will watch the event live, and What level of video production.
@@ -19,7 +19,7 @@ Under the columns are three rows. These cells are Single event, Event series, Pa
 
 The table has four columns. From the left the columns are What type of event, What type of attendee experience, How many people will watch the event live, and What level of video production.
 
-Under the columns are three rows. In each row there are cells highlighted in blue, which show the kind of experience best supported by Microsoft Teams. These cells are Single event, Event series, Part of an engagement community, Open two-way discussion, up to 300, and simple webcam and screen share.
+Under the columns are three rows. In each row, there are cells highlighted in blue, which show the kind of experience best supported by Microsoft Teams. These cells are Single event, Event series, Part of an engagement community, Open two-way discussion, up to 300, and simple webcam and screen share.
 
 :::image-end:::
 
@@ -53,7 +53,7 @@ Under the columns are three rows. In each row there are cells highlighted in blu
 
 The table has four columns. From the left the columns are What type of event, What type of attendee experience, How many people will watch the event live, and What level of video production.
 
-Under the columns are three rows. In each row there are cells highlighted in blue, which show the kind of experience best supported by Microsoft Teams Webinars. These cells are Single event, Event series, Part of an engagement community, Open two-way discussion, Managed Q&A, Up to 1,000, Up to 20,000, simple webcam and screen share, and mulitple presenters.
+Under the columns are three rows. In each row, there are cells highlighted in blue, which show the kind of experience best supported by Microsoft Teams Webinars. These cells are Single event, Event series, Part of an engagement community, Open two-way discussion, Managed Q&A, Up to 1,000, Up to 20,000, simple webcam and screen share, and multiple presenters.
 
 :::image-end:::
 
@@ -87,7 +87,7 @@ Under the columns are three rows. In each row there are cells highlighted in blu
 :::image type="complex" source="../media/live-event-experience.png" alt-text="Table showing experience that is best supported by Live Events.":::
 This is the same table with four columns. From the left the columns are What type of event, What type of attendee experience, How many people will watch the event live, and What level of video production.
 
-There are then three rows under it. There are cells highlighted in blue which show the kind of experience best supported by Live Events. These cells are Single event, Event series, shaded Part of an engagement community, Managed Q & A, No attendee discussion or Q&A, Up to 20,000 and 100,000 people, multiple presenters, and Custom production.
+There are then three rows under it. There are cells highlighted in blue, which show the kind of experience best supported by Live Events. These cells are Single event, Event series, shaded Part of an engagement community, Managed Q & A, No attendee discussion or Q&A, Up to 20,000 and 100,000 people, multiple presenters, and Custom production.
 :::image-end:::
 
 :::row:::
@@ -122,7 +122,7 @@ There are then three rows under it. There are cells highlighted in blue which sh
 If you've decided that a Live Event is the right choice to deliver your virtual event, you still have a choice on the tools you can use: Teams, Yammer, or Stream.
 
 :::image type="complex" source="../media/live-events-decision-matrix.png" alt-text="A decision matrix that guides the reader through choosing Teams, Yammer, or Stream for your Live Event.":::
-This diagram has two paths, if you'll have up to 20,000 people - 10,000 after December 31st 2021 - or you've up to 100,000. For the 20,000 path, Live Events in Teams is a good choice if you need to include external people to your organization and need only webcam and screen sharing production. Yammer is better for internal events only with open discussions.
+This diagram has two paths, if you'll have up to 20,000 people - 10,000 after December 31, 2021 - or you've up to 100,000. For the 20,000 path, Live Events in Teams is a good choice if you need to include external people to your organization and need only webcam and screen sharing production. Yammer is better for internal events only with open discussions.
 
 If you need up to 100,000 people viewing, or 20,000 and no attendee discussion and custom video production then Live Events with Stream is the better option.
 :::image-end:::
@@ -137,7 +137,7 @@ If you need up to 100,000 people viewing, or 20,000 with no attendee discussion 
 
 ## Schedule a Live Event
 
-How you schedule your Live Event depends on where it’s going to be hosted. In this video see how to plan and schedlue a Live Event.
+How you schedule your Live Event depends on where it’s going to be hosted. See how to plan and schedule a Live Event in this video.
 
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE3eTQ3]
 
