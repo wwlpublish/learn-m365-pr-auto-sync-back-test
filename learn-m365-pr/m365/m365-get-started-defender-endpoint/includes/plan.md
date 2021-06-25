@@ -10,7 +10,7 @@ You can connect Microsoft Defender for Endpoint with your environment in differe
 
 ### Cloud-native 
 
-:::image type="complex" source="../media/cloud-native.png" alt-text="Diagram explaining what a cloud native architecture looks like.":::
+:::image type="complex" source="../media/cloud-native.png" alt-text="Diagram explaining what a cloud native architecture looks like." border="false":::
 
 Choose a cloud-native architecture if your organization’s devices are based in the cloud.   For example, if all devices are managed by Microsoft Endpoint Manager, or if your organization would like to move to them in the future to be managed by Microsoft Endpoint Manager.
 
