@@ -1,79 +1,73 @@
-Syntex is made up of two main features that make it a service for content understanding, processing, and compliance:
+SharePoint Syntex is made up of two main features that make it a service for content understanding, processing, and compliance:
 
-1. Document understanding models  
-1. Form processing models
+- Document understanding models  
+- Form processing models
 
-At Contoso Electronics, your organization will need to have clear understanding of documents such as sales letters. To process these kinds of documents and extract knowledge from them, your organization will need to use the SharePoint content center to build document understanding models, which will include features such as retention labels, classifiers, and extractors to produce the outcomes your organization wants for organizing its document libraries.
+Contoso Electronics needs a clear understanding of documents such as sales letters. To process these kinds of documents and extract knowledge from them, you'll use the SharePoint content center to build document understanding models. Document understanding models include features such as retention labels, classifiers, and extractors you'll use to organize your document libraries.
 
-Here, you will learn what the parts of document understanding models are so you can understand how they all work together for clearer knowledge gathering and processing in your document libraries.  
+Here, you'll learn about the parts of document understanding models and how they work together.
 
-## How does content understanding inform document understanding models?
+## What's a document understanding model?
 
-We’ve already touched a bit on content understanding as the basis of Syntex and the motivation for document understanding models. Content understanding is the ability to identify and classify documents that are a part of your SharePoint document libraries, allowing you to extract information from these files.
+A document understanding model uses AI to _automatically_ classify documents within a SharePoint document library and, if you choose, to extract specific information from these documents. Document understanding models are created in a content center and classify and extract information from _unstructured_ documents.
 
-For Contoso Electronics, an example of content understanding would be to properly identify all the sales letters as the right document type. Then, if you want to pull out when these letters were dated, you can extract this information and add it as a column in your document library.
+For your organization, unstructured documents may include product testing reports, project documents, or any text-based content that isn't structured like a form.
 
-Content understanding is what sets you up to create document understanding models by classifying and extracting the data using the AI guidelines you set.  
+![A picture of a sample business letter with key fields highlighted for Document understanding model processing in SharePoint Syntex.](../media/document-example.png)
 
-## What is a document understanding model?
+### What's a content center?
 
-A document understanding model uses AI to automatically classify your documents within a SharePoint document library and, if you so choose, to extract specific information from these documents.  
+A content center is a special SharePoint site that enables you to create, train, and manage models. You can also view and track which models are applied to which document libraries.
 
-Document understanding models are created in the content center and will classify and extract information from unstructured documents.  
+A default content center is created during the SharePoint admin setup process, but you can create more content centers if it makes sense for your organization. The departments in your organization use different kinds of documents and need different models. For example, the Human Resources department and Sales departments use different kinds of documents and have different privacy and security compliance requirements. As a result, you may want to create different content centers to house each of their models.
 
-For Contoso Electronics, an unstructured document may be product testing reports, project documents, or anything that is more of a block of text as opposed to a form with a very specific structure.  
+Content centers offer you control and clear insight into your content. Your content centers help ensure proper governance throughout your data by helping you establish the processes that adhere to the compliance and security standards in your business.
 
-![A report with several blocks of text and a few key phrases highlighted, such as the date and name.]()
+![A screenshot of a content center with the Model creation page and Model monitoring & management options in the page.](../media/content-center.png)
 
-## What is a content center?
+### What's a classifier?
 
-You should think of the content center as the hub for your document understanding models. This is where you not only create your document understanding models, but also view and track which models are applied to which document libraries.
+A classifier is a type of document understanding model that identifies the document _type_ and then classifies it accordingly.
 
-A default content center is created during the SharePoint admin setup process, but admins can create additional content centers as it makes sense for your organization. When considering Contoso Electronics, there is most likely an internal team that deals directly with client relations, as well as another team focused on sales. The company has many departments which may require different documents and different models. As a result, your company admin may want to create different content centers to house each of their unique models.
+At your organization, you'll probably need several classifier models. You could create a classifier model that identifies government letters and one specifically for sales letters.
 
-![Image of example content center.]()
+### What's an extractor?
 
-## What is an extractor?
+An extractor is _part_ of a document understanding model that pulls the information from your documents. You can create an extractor before or after you’ve created your document understanding model.
 
-An extractor is what pulls the information out of your document understanding model. You can create an extractor before or after you’ve created your document understanding model.  
+For example, imagine you’ve created a document understanding model that classifies all of your sales letters. Later you realize that it would be helpful to see when a letter's date, allowing you to archive some letters and more quickly address others. You can create an extractor for _Date Sent_ so the model can analyze the documents for the “date sent” field that you identify, then placing this value into a column for each of your documents in the SharePoint document library.
 
-For example, at Contoso Electronics, if you’ve already created a document understanding model that classifies all of your sales letters as such, you may realize later on that it would be helpful to easily extract and see when the letter was dated, allowing you to archive some letters and more quickly address others. You can create an extractor for Date Sent so the model can analyze the documents for the “date sent” field that you identify, then placing this value into a column for each of your documents in the SharePoint document library.
+### What's an explanation?
 
-## What is a retention label?
+An explanation is _part_ of your classifier model or extractor. An explanation describes what will be either classified or extracted.
 
-Retention labels are also optional for document understanding models. They are originally created in the Microsoft 365 Compliance Center but will appear as part of the Security and compliance section of your model once they’re created in the Compliance Center.  
+Explanations types include:
 
-These labels can be particularly helpful when dealing with any sensitive information within your SharePoint document library that should be retained for records purposes. For instance, at Contoso Electronics, there may be letters received from the government regarding standards compliance requirements. A retention label titled Legal could be added to these documents to ensure any document with this label is never deleted and is retained in your library forever. That way, if a team member attempts to delete the labeled document at some point, they won’t be able to.
+- Phrase list – Words, phrases, numbers, or patterns that are part of the document type
+  - Example – When processing sales contracts, this could be a text string such as _Requester Company Type_, which would enable you to easily pull and analyze the industries your company is successfully selling.
+- Proximity – How close one phrase is to another
+  - Example – If _Requester Company Type_ and _Date Sent_ are always within a certain distance from each other, then this can be defined by a proximity explanation.
 
-## What is a classifier?
+### What's a sensitivity label?
 
-Unlike extractors, which are applied to your model, classifiers are a type of document understanding model that will identify the document type in your SharePoint document library and then classify it accordingly.
+Sensitivity labels let you apply encryption, sharing, and conditional access policies to the documents that your models identify. For example, you want your model to not only identify financial documents that contain bank account numbers or credit card numbers that are uploaded to your document library, but also to apply an _Encryption_ sensitivity label to them to restrict who can access that content. SharePoint Syntex models honor the label order rules and do not overwrite an existing label that was manually applied by a user to the file.
 
-With Contoso Electronics, there are several classifier models you may want. You could create a classifier model that identifies government letters and is called such, or you could also create a classifier model specifically for sales letters.
+> [!NOTE]
+> At this time, sensitivity labels are available only for document understanding models. Support for sensitivity labels for form processing will be available shortly.
 
-## What is an explanation?
+### What are retention labels?
 
-An explanation is part of your classifier model and extractors. This is how you define the value for what will either be classified or what will be extracted.
+Retention labels give you the option to apply retention settings to your documents. Retention settings are policies defining how documents are kept or deleted. Retention labels enforce _who_ may delete documents and _when_ they may delete them. They are created in the Microsoft 365 compliance center but will appear as part of the compliance section of your model once they're created in the compliance center.
 
-Explanations come in three main types:
-
-- _Phrase list_ – Words, phrases, numbers, or other characters that are part of the document type
-  - Example – When processing sales contracts at Contoso Electronics, this could be a text string such as Requester Company Type so you can easily pull and analyze the industries your company is successfully selling into.
-- _Pattern list_ – Patterns of numbers, letters, or other characters that are part of the document type
- - Example – Going back to our Date Sent example for Contoso Electronics, a pattern list would be the explanation type when defining the extractor for the date field that you want to extract.
-- _Proximity_ – How close the phrase or pattern lists are to one another
- - Example – If Requester Company Type and Date Sent are always within a certain distance from each other, then this can be defined by a proximity explanation.
+Retention labels can be helpful when dealing with any sensitive information within your SharePoint document library that should be retained for records purposes. For instance, at Contoso Electronics, there may be letters received from the government regarding regulatory standards and compliance requirements. A retention label titled _Legal_ could be added to these documents to ensure any document with this label is never deleted and is retained in your library forever. That way, if a team member attempts to delete the labeled document at some point, they won’t be able to.
 
 ## How do the parts of the document understanding model work together?
 
-When creating a document understanding model, it helps to understand how each of the parts flow into one another and inform each other.  
+When creating a document understanding model, it helps to understand how each of the parts flow into one another and inform each other.
 
-- **Content center** – This is where you’ll begin, considering it’s the point where you will create your model. Either a default content center will be used, or an admin will need to create others as your business sees fit.
-
-- **Classifier model** – This is the document understanding model type you’ll create within the content center.
-
-- **Explanations** – Explanations are part of your classifier model and must be included so that the model knows exactly what it’s looking for and how it’s classifying the documents.
-
-- **Extractor** – Creating an extractor is not mandatory. It can be created before or after you build your document understanding. If you already know the information that you want to extract, create the extractor beforehand, or, if you don’t, wait until you have a better understanding of your model.
-
+- **Content center** – This is where you’ll begin, where you'll create your model. You can either use a default content center or create a new content model, based on the needs of your organization.
+- **Classifier** – This is the document understanding model type you’ll create within a content center.
+- **Extractor** – Creating an extractor is not mandatory. It can be created before or after you build your document understanding model. If you already know the information that you want to extract, create the extractor beforehand, or, if you don’t, wait until you have a better understanding of your model.
+- **Explanation** – Explanations are part of your classifier model and must be included so that the model knows exactly what it’s looking for and how it’s classifying the documents.
+- **Sensitivity label** - Sensitivity labels can be used to apply encryption, sharing, and conditional access policies to documents.
 - **Retention label** – This is optional but can be applied to any document understanding model. It can even be added to a document library that has already had the document understanding model applied.

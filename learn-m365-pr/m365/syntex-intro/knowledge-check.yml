@@ -4,12 +4,11 @@ title: Knowledge check
 metadata:
   title: Knowledge check
   description:  Learn about SharePoint Syntex, including the business problem it solves, how it works, and common scenarios for use.
-  ms.date: 06/09/2021
+  ms.date: 06/23/2021
   author: beccarobins
   ms.author: beccarobins
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
- 
 durationInMinutes: 4
 content: |
 quiz:
@@ -17,17 +16,17 @@ quiz:
     questions:
     - content: "Your team wants to classify and extract information from a large set of letters recently added to a SharePoint document library and would also like to pull metadata from these letters for use in the document library. Which part of SharePoint Syntex would this capability fall under?"
       choices:
-      - content: "Content understanding"
+      - content: "Document understanding"
         isCorrect: true
-        explanation: "Correct. Content understanding uses no-code AI models to classify and identify documents so that metadata can be extracted and used within SharePoint document libraries."
-      - content: "Content processing"
+        explanation: "Correct. Document understanding uses no-code AI models to classify and identify documents so that metadata can be extracted and used within SharePoint document libraries."
+      - content: "Form processing"
         isCorrect: false
-        explanation: "Incorrect. Content processing applies to capturing, ingesting, and categorizing structured documents, such as invoices and applications, for more streamlined content processes."
+        explanation: "Incorrect. Form processing applies to capturing, ingesting, and categorizing structured documents, such as invoices and applications, for more streamlined content processes."
       - content: "Content compliance"
         isCorrect: false
         explanation: "Incorrect. Content compliance is focused on security and governance, which is a result of the proper understanding, processing, and retention of sensitive data and information."
         
-    - content: "The legal department of your organization wants to ensure that a specific set of documents are kept in the SharePoint document library for the next year. What would need to be applied to the document library to ensure this happens?"
+    - content: "The legal department of your organization wants to ensure that a specific set of documents is kept in the SharePoint document library for the next year. What would need to be applied to the document library to ensure this happens?"
       choices:
       - content: "Explanation"
         isCorrect: false
@@ -39,19 +38,19 @@ quiz:
         isCorrect: false
         explanation: "Incorrect. A classifier model may include retention labels but the model itself will not have retention set up unless the labels are added."
 
-    - content: "Your organization’s accounting team wants to create a new form processing model for processing employee timesheets. The SharePoint document library has already been enabled for creating form processing models. Where should they go to create the form processing model?"
+    - content: "Your organization’s Accounting team wants to create a new form processing model for processing employee timesheets. The SharePoint document library has already been enabled to create form processing models. Where should they go to create the form processing model?"
       choices:
       - content: "Content center"
         isCorrect: false
-        explanation: "Incorrect. The content center is where they should go to create a document understanding model, not a form processing model."
-      - content: "AI Builder"
+        explanation: "Incorrect. A content center is where they should go to create a document understanding model, not a form processing model."
+      - content: "The timesheets document library"
         isCorrect: true
-        explanation: "Correct. Since a SharePoint admin has already enabled form processing for the SharePoint document library, the team can go directly to the AI Builder option within the SharePoint document library."
+        explanation: "Correct. Since a SharePoint admin has already enabled form processing for the SharePoint document library, the team can select the AI Builder option on the Automate menu in the SharePoint document library where the timesheets will be added."
       - content: "Microsoft 365 admin center"
         isCorrect: false
         explanation: "Incorrect. The admin center is where SharePoint admin can enable form processing for individual document libraries but would not be where the team should go to create the form processing models."
 
-    - content: "A member of your organization’s operations team shares that they have been receiving a large amount of invoices from a number of suppliers each week and they are not sure how to manage these documents in the SharePoint document library so they can be passed along to the appropriate department. Which feature of SharePoint Syntex would be the ideal solution to address this need?"
+    - content: "A member of your organization’s Operations team shares that they have been receiving many invoices from several suppliers each week and they are not sure how to manage these documents in the SharePoint document library so they can be passed along to the appropriate department. Which feature of SharePoint Syntex would be the ideal solution to address this need?"
       choices:
       - content: "Form processing model"
         isCorrect: true
