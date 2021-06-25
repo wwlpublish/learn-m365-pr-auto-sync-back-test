@@ -2,7 +2,7 @@ First, you’ll need to define what your organization's current security archite
 
 Here you'll identify an architecture that is the closest to your current organization, review and then identify the tools that you can use. 
 
-:::image type="content" source="../media/plan-table-contents.png" alt-text="A diagram showing the three topics covered in this unit, architecture, tools, and capabilities." border="false":::
+:::image type="content" source="../media/plan-table-contents.png" alt-text="A diagram showing the three topics covered in this unit, architecture, tools, and capabilities.":::
 
 ## Identify architecture
 
@@ -57,4 +57,3 @@ Each ring represents a group of devices. The rings work like this:
 
 ## Learn more
 - [Plan your Microsoft Defender for Endpoint deployment](/microsoft-365/security/defender-endpoint/deployment-strategy?view=o365-worldwide&preserve-view=true)
- 
