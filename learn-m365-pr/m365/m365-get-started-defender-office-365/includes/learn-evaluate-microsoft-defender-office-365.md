@@ -60,7 +60,7 @@ When the evaluation mode is set up, you'll have a report updated daily with up t
 
 From the report you can see how many advanced threat links, advanced threat attachments, and potential impersonations were identified. Data will be collected from both emails and collaboration workspaces.
 
-> [!NOTE:]
+> [!NOTE]
 > At any time during the evaluation period, you can go to settings and update your routing or turn off your evaluation.
 
 ## Video Guide

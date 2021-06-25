@@ -43,7 +43,7 @@ quiz:
       explanation: "This is incorrect. You can't start the Microsoft Defender for Office 365 trial from the Microsoft 365 Defender portal."
     - content: "Microsoft 365 security center"
       isCorrect: false
-      explanation: "This is correct. You can't start the Microsoft Defender for Office 365 trial from the Microsoft 365 security center."
+      explanation: "This is incorrect. You can't start the Microsoft Defender for Office 365 trial from the Microsoft 365 security center."
     - content: "Office 365 Security and Compliance portal"
       isCorrect: true
-      explanation: "This is incorrect. To get stated with a trial evaluation of Defender for Office 365, you'll need to go to the Office 365 Security and Compliance portal."
+      explanation: "This is correct. To get stated with a trial evaluation of Defender for Office 365, you'll need to go to the Office 365 Security and Compliance portal."
