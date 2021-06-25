@@ -13,7 +13,7 @@ The software inventory in Microsoft Defender for Endpoint lists important detail
 
 Software inventory also allows you to filter software based any of these criteria, and more. View the image to see how software inventory lists all of the information for each application:
 
-:::image type="content" source="../media/4-software-inventory-list-inline.png" lightbox="../media/4-software-inventory-list-expanded.png" alt-text="Software inventory list":::
+:::image type="content" source="../media/4-software-inventory-list-inline.png" lightbox="../media/4-software-inventory-list-expanded.png" alt-text="Screenshot showing where to find the software inventory list.":::
 
 You access the software inventory by selecting **Software inventory** under **Threat and vulnerability management** from the navigation pane.
 
@@ -22,7 +22,7 @@ You access the software inventory by selecting **Software inventory** under **Th
 
 When you select an individual application from the inventory list, you are then able to access its **Software page** for more insights on that particular application:
 
-:::image type="content" source="../media/4-software-page-inline.png" lightbox="../media/4-software-page-expanded.png" alt-text="Software page.":::
+:::image type="content" source="../media/4-software-page-inline.png" lightbox="../media/4-software-page-expanded.png" alt-text="Screenshot showing the software page for Windows 10.":::
 
 Use the software page to get more information such as:
 
@@ -35,7 +35,7 @@ Use the software page to get more information such as:
 
 Use the **Weaknesses** pane to find the common vulnerabilities and exposures across your organization's devices:
 
-:::image type="content" source="../media/4-weaknesses-inline.png" lightbox="../media/4-weaknesses-expanded.png" alt-text="A screenshot of the Weaknesses pane.":::
+:::image type="content" source="../media/4-weaknesses-inline.png" lightbox="../media/4-weaknesses-expanded.png" alt-text="A screenshot showing hot to get to the Weaknesses pane.":::
 
 The **Weaknesses** pane shown in the image, provides you with a list of Common Vulnerabilities and Exposures (CVE), with details such as:
 
@@ -47,7 +47,7 @@ The **Weaknesses** pane shown in the image, provides you with a list of Common V
 
 With this information at your disposal, you can begin to address your common vulnerabilities and exposures. You can find more detailed insights about a particular CVE by selecting it from the list:  
 
-:::image type="content" source="../media/4-remediate-vulnerabilities-inline.png" lightbox="../media/4-remediate-vulnerabilities-expanded.png" alt-text="Review vulnerability.":::
+:::image type="content" source="../media/4-remediate-vulnerabilities-inline.png" lightbox="../media/4-remediate-vulnerabilities-expanded.png" alt-text="Screenshot showing the Review vulnerability pane.":::
 
 Use it to review the information, then you can select **Go to related security recommendation** to begin to remediate the issue.
 
@@ -55,11 +55,11 @@ Use it to review the information, then you can select **Go to related security r
 
 The event timeline is a risk news feed used to understand how risk has made its way into your organization through exploits and vulnerabilities. Events include things like configuration changes, new vulnerabilities that have been identified for software, and more. Different events can impact your devices, and how your devices are scored. The event timeline lists these events as they occurred.
 
-:::image type="content" source="../media/4-event-timeline-list-inline.png" lightbox="../media/4-event-timeline-list-expanded.png" alt-text="Event timeline":::
+:::image type="content" source="../media/4-event-timeline-list-inline.png" lightbox="../media/4-event-timeline-list-expanded.png" alt-text="Screenshot showing an Event timeline and how access the security recommendations.":::
 
 Selecting an event from the timeline shows how it has impacted your endpoints. You'll see a pane that provides detailed information:
 
-:::image type="content" source="../media/4-event-details-inline.png" lightbox="../media/4-event-details-expanded.png" alt-text="Event details pane.":::
+:::image type="content" source="../media/4-event-details-inline.png" lightbox="../media/4-event-details-expanded.png" alt-text="Screenshot showing the contents of the event details pane.":::
 
 This information includes:
 

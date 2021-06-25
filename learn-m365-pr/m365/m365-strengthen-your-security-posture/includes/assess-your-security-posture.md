@@ -4,7 +4,7 @@ As the security analyst of your team, you want to know how to understand your en
 
 You can access the dashboard by selecting **Dashboard** under **Threat and vulnerability management** in the navigation pane of the portal:
 
-:::image type="content" source="../media/3-dashboard-inline.png" lightbox="../media/3-dashboard-expanded.png" alt-text="A screenshot showing how to access the dashboard":::
+:::image type="content" source="../media/3-dashboard-inline.png" lightbox="../media/3-dashboard-expanded.png" alt-text="A screenshot showing how to access the dashboard.":::
 
 The dashboard provides a birds-eye view and access to different kinds of information. The information in the dashboard is displayed as individual cards that each represent key information such as top vulnerable software, top exposed devices, and top security recommendations. But it also includes information such as:
 
@@ -21,11 +21,12 @@ Multiple things can affect your exposure score, including:
 To improve your exposure score, you can implement the security recommendations provided by the threat and vulnerability management component of Microsoft Defender for Endpoint. The lower your exposure score, the better.
 
 Here’s an example exposure score from the dashboard:
+
 :::image type="content" source="../media/3-exposure-score-inline.png" lightbox="../media/3-exposure-score-expanded.png" alt-text="A screenshot showing the exposure score card.":::
 
 From the dashboard, you can select **Improve score** to learn how to improve your exposure score. Here’s an example of the kind of security recommendations that you might see that will improve your score:
 
-:::image type="content" source="../media/3-exposure-score-recommended-actions-inline.png" lightbox="../media/3-exposure-score-recommended-actions-expanded.png" alt-text="A screenshot showing recommended actions to improve exposure score":::
+:::image type="content" source="../media/3-exposure-score-recommended-actions-inline.png" lightbox="../media/3-exposure-score-recommended-actions-expanded.png" alt-text="A screenshot showing recommended actions to improve exposure score.":::
 
 #### Use device value tagging
 
