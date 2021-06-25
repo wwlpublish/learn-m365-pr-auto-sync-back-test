@@ -35,7 +35,7 @@ quiz:
       explanation: "That's incorrect. Yammer participants can only be internal to your organization."
     - content: "Live Event hosted in Streams"
       isCorrect: true
-      explanation: "That's correct. Stream supports up to 20,000 internal and external participants (with a maximum of 100,000 if the Live Events Assistance Programme are involved). "
+      explanation: "That's correct. Stream supports up to 20,000 internal and external participants (with a maximum of 100,000 if the Live Events Assistance Program are involved). "
   - content: "What's one of the seven ways you can be more inclusive?"
     choices:
     - content: "Always offer a helping hand."
