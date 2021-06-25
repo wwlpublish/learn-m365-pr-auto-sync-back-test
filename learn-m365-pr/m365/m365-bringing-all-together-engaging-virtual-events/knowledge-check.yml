@@ -1,0 +1,49 @@
+### YamlMime:ModuleUnit
+uid: learn-m365-pr.bringing-all-together-engaging-virtual-events.knowledge-check
+title: Knowledge check
+metadata:
+  unitType: knowledge-check
+  title: Knowledge check
+  description: Check what you've learned through this module.
+  ms.date: 05/26/2021
+  author: lizap
+  ms.author: elizapo
+  ms.topic: interactive-tutorial 
+durationInMinutes: 5
+content: |
+quiz:
+  title: Check your knowledge
+  questions:
+  - content: "You've moderated a successful live event in Teams. Now, you want to download the roster of participants. Where can you obtain this list?"
+    choices:
+    - content: "In the meeting invite in Outlook."
+      isCorrect: false
+      explanation: "That's not correct. The meeting invite in Outlook shows who was invited to the meeting but not who attended the meeting."
+    - content: "In the meeting invite in Teams, under the Live event resources."
+      isCorrect: true
+      explanation: "That's correct. To download the meeting roster, which shows who attended the meeting, use the download button in the Participants pane in the meeting item in Teams."
+    - content: "In the meeting transcript."
+      isCorrect: false
+      explanation: "That's not correct. The meeting transcript contains the automatically transcribed captions for everything that was said in the meeting."
+  - content: "You've been asked to present a segment at an online board meeting for your company. You want to ensure that you have a reliable network connection during the meeting. What should you do?"
+    choices:
+    - content: "Use only one screen with a low resolution."
+      isCorrect: false
+      explanation: "That's not correct. Using a single small screen will not improve your network connection."
+    - content: "Use a mobile network dongle."
+      isCorrect: false
+      explanation: "That's not correct. The mobile network in your area may not provide a more reliable network connection than a broadband internet connection."
+    - content: "Use an Ethernet cable to plug your computer directly into your router."
+      isCorrect: true
+      explanation: "That's correct. Using a physical Ethernet cable is likely to give a faster, more reliable connection than your wifi network."
+  - content: "After a recent presentation, you received feedback that the sound was distorted by loud pops when you pronounced 'B' and 'P' sounds. What should you do to improve for the next presentation?"
+    choices:
+    - content: "Place the microphone closer to your mouth"
+      isCorrect: false
+      explanation: "That's not correct. By placing the microphone closer to your mouth, you'll reduce echoes from the room but will make plosive distortion worse."
+    - content: "Use a large-diaphragm microphone"
+      isCorrect: false
+      explanation: "That's not correct. By using a large-diaphragm microphone, you'll capture a full spectrum of sound but will make plosive distortion worse."
+    - content: "Use a pop shield"
+      isCorrect: true
+      explanation: "That's correct. Pop shields are designed to reduce the distortion associated with plosive vocal sounds."
