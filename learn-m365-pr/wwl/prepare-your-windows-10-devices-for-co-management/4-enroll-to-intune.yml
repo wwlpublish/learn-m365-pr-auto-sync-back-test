@@ -1,10 +1,10 @@
 ### YamlMime:ModuleUnit
 uid: learn.wwl.prepare-your-windows-10-devices-for-co-management.enroll-to-intune
-title: Enroll Windows 10 Devices to Intune
+title: Enroll Windows 10 devices to Intune
 metadata:
-  title: Enroll Windows 10 Devices to Intune
-  description: "Enroll Windows 10 Devices to Intune"
-  ms.date: 06/07/2021
+  title: Enroll Windows 10 devices to Intune
+  description: "Enroll Windows 10 devices to Intune"
+  ms.date: 06/25/2021
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
