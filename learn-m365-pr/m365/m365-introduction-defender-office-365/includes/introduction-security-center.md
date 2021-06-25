@@ -1,4 +1,4 @@
-The [Microsoft 365 Defender portal](security.microsoft.com) is a unified portal that provides protection, detection, investigation, and response regarding email, collaboration, identity, and device threats.
+The [Microsoft 365 Defender portal](https://security.microsoft.com) is a unified portal that provides protection, detection, investigation, and response regarding email, collaboration, identity, and device threats.
 
 The Microsoft 365 Defender portal provides you with quick access to information presented in a simple layout that combines related information for easier use. Microsoft 365 Defender portal helps you respond to attacks by bringing information into a set of unified experiences for:
 
@@ -11,7 +11,7 @@ The Microsoft 365 Defender portal provides you with quick access to information 
 
 Microsoft 365 Defender portal combines resources from multiple data sources to provide a complete view of security in your organization.  
 
-:::image type="content" source="../media/4-incident-management-inline.png" lightbox="../media/4-incident-management-expanded" alt-text="Incident Management":::
+:::image type="content" source="../media/4-incident-management-inline.png" lightbox="../media/4-incident-management-expanded.png" alt-text="Incident Management":::
 
 When you select an incident name, it displays a page showing an incident from multiple sources.
 

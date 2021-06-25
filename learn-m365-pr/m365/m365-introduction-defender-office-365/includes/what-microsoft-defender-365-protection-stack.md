@@ -1,6 +1,6 @@
 The Microsoft Defender for Office 365 protection stack provides multiple layers of security protection to all incoming messages.   The stack comprises four parts: edge protection, sender Intelligence, content filtering, and post-delivery protection, with each layer checking for a different type of threat.  A message will, typically, pass through each of the layers. However, the actual route through each part depends on how you’ve chosen to configure Defender for Office 365.
 
-:::image type="content" source="../media/3-protection-stack-inline.png" lightbox="../media/3-protection-stack-expanded" alt-text="Protection Stack":::
+:::image type="content" source="../media/3-protection-stack-inline.png" lightbox="../media/3-protection-stack-expanded.png" alt-text="Protection Stack":::
 
 ### The Edge protection layer
 
@@ -14,7 +14,7 @@ The edge protection layer is the first point of contact for an inbound message. 
 Here's a brief description of each edge block:
 
 - **Network throttling** protects against Denial of Service (DOS) attacks by limiting the number of messages that can be submitted.
-- **IP reputation and throttling** will block messages sent from known bad connecting IP addresses. 
+- **IP reputation and throttling** will block messages sent from known bad connecting IP addresses.
 - **Domain reputation** will block any messages sent from a known bad domain.
 - **Directory-based edge filtering** blocks attempts to harvest an organization's directory information through SMTP.
 - **Backscatter detection** prevents an organization from being attacked through invalid non-delivery reports (NDRs).
