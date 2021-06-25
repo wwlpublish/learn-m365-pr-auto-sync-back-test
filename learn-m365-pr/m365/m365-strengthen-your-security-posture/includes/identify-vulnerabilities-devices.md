@@ -35,7 +35,7 @@ Use the software page to get more information such as:
 
 Use the **Weaknesses** pane to find the common vulnerabilities and exposures across your organization's devices:
 
-:::image type="content" source="../media/4-weaknesses-inline.png" lightbox="../media/4-weaknesses-expanded.png" alt-text="A screenshot showing hot to get to the Weaknesses pane.":::
+:::image type="content" source="../media/4-weaknesses-inline.png" lightbox="../media/4-weaknesses-expanded.png" alt-text="A screenshot showing how to get to the Weaknesses pane.":::
 
 The **Weaknesses** pane shown in the image, provides you with a list of Common Vulnerabilities and Exposures (CVE), with details such as:
 
