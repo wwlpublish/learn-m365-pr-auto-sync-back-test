@@ -14,7 +14,7 @@ durationInMinutes: 3
 content: |
 quiz:
   questions:
-  - content: "You are bringing together your event team for this year's virtual summit. You know you'd like someone to be able to review the chat and help people mute and unmute themselves. What role is best suited to these tasks?"
+  - content: "You are bringing together your event team for this year's virtual summit. You know you'd like someone to be able to watch the chat and help people mute and unmute themselves. What role is best suited to these tasks?"
     choices:
     - content: "Producer"
       isCorrect: false
@@ -47,7 +47,7 @@ quiz:
     - content: "Live Event in Stream"
       isCorrect: false
       explanation: "That's incorrect. However, you could use a Live Event in Stream if moderated Q&A wasn't a requirement."
-  - content: "You've polled your attendees about the kinds of devices they'll use to attend your event. Which of these devices does support Microsoft Teams?"
+  - content: "You've polled your attendees about the kinds of devices they'll use to attend your event. Which of these devices support Teams?"
     choices:
     - content: "Android tablet running the fifth previous version of Android."
       isCorrect: false

@@ -1,14 +1,14 @@
-If an organization changes to delivering virtual events they need to ensure everyone involved in the event can participate.
+If an organization changes to delivering virtual events, they also need to ensure everyone involved in the event can participate.
 
-You'd like to understand how people can run the software they need to participate in your virtual summit. You know about the web and mobile versions of Microsoft Teams, but not sure what the desktop app hardware requirements are. The event sponsor wants your IT team to confirm your organization has the correct licensing.
+You need to understand how people can run the software they need to participate in your virtual summit. You know about the web and mobile versions of Teams, but may not be sure what the desktop app hardware requirements are, and the event sponsor wants your IT team to confirm your organization has the correct licensing.
 
-Here you'll learn about all the supported hardware and what licensing Microsoft 365 needs to support Microsoft Teams meetings and Live Events.
+Here you'll learn about the supported hardware and what licensing Microsoft 365 needs to support Teams meetings and Teams Live Events.
 
 ## Devices and Clients
 
-The members of your event team and the attendees can choose to use a range of clients. For presenters, producers, and moderators a desktop client is recommended. It's possible to present from a browser or mobile device, but the Teams experience will be more limited.
+TThe members of your event team and the attendees can choose to use a range of clients. For presenters, producers, and moderators, a desktop client is recommended. While it's possible to present from a browser or mobile device, the Teams experience will be more limited.
 
-For attendees along with desktops and mobiles, they might use a Teams Room device.
+For attendees, they might use a Teams Room device in addition to desktop and mobile applications.
 
 If you're installing the Microsoft Teams client, these are the hardware requirements.
 
@@ -30,7 +30,7 @@ If you're installing the Microsoft Teams client, these are the hardware requirem
 
 ### Mobile devices
 
-Microsoft Teams is available on these mobile platforms:
+Teams is available on these mobile platforms:
 
 - **Android**: Compatible with Android phones and tablets.
 
@@ -40,11 +40,11 @@ Microsoft Teams is available on these mobile platforms:
 
     Support is limited to the last two major versions of iOS.
 
-Find the apps on your platforms app store.
+Find the apps on your platform's app store.
 
 ## Licensing
 
-Microsoft Teams is available with several different licenses. There's a free version, or at no cost the Teams Exploratory license for more features. However, to get the full features and support for Live Events one of the following Microsoft 365 or Office 365 licenses is required. 
+Teams is available with several different licenses, from the free version to the Teams Exploratory license. However, specific Microsoft 365 or Office 365 licenses are required to get the full features and support for live events.
 
 | License        | Microsoft Teams  | Yammer Enterprise  | Microsoft Stream  | Live Events |
 |---------|---------|---------|---------|---|

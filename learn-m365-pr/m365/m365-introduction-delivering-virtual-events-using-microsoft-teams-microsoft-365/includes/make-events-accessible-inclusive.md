@@ -1,4 +1,4 @@
-Every event, whether virtual or in-person, needs to be made accessible to all. As your prepare the content and people for your up-and-coming virtual event, you intend to ensure it is as accessible and engaging as possible.
+Every event, whether virtual or in-person, needs to be made accessible to all. As you prepare the content and people for your up-and-coming virtual event, you intend to ensure it is as accessible and engaging as possible.
 
 Here you'll explore how to design for accessibility, with a focus on the logistics and content being presented.
 
@@ -26,7 +26,7 @@ Use the above event design model to guide you through thinking about how to get 
 
 ## Event accessibility
 
-Accessibility and inclusivity begin with your event planning. Building on the event design model above, your advertising and promotion of the event needs to be accessible to people of all abilities. The text and images used should apply accessibility best practices where possible:
+Accessibility and inclusivity begin with your event planning. Building on the event design model above, your advertisement and promotion of the event need to be accessible to people of all abilities. The text and images used should apply accessibility best practices where possible:
 
 - Sans serif fonts are easier for a wide variety of reading levels
 - Use larger fonts for the key information
@@ -36,35 +36,35 @@ Accessibility and inclusivity begin with your event planning. Building on the ev
 
 Next focus on the actual invite you send to people, normally via email. Keep the above in mind but also avoid using images only to convey information. If you do use any images in digital media, these should all have alternative text.
 
-You can also begin to capture any accessibility accommodations that your potential attendees need. In your invites ask people if they have any needs. Also include any information about sensory experiences like loud music or flashing lights. If you are using Microsoft Outlook, you can run the accessibility checker on your final email.
+You can also begin to capture any accessibility accommodations that your potential attendees need. In your invites or registration form, ask attendees if they have any needs. Also include any information about sensory experiences like loud music or flashing lights. If you are using Microsoft Outlook, you can run the accessibility checker on your final email.
 
 > [!TIP]
 > To run the accessibility checker in Microsoft Outlook, in the ribbon bar select **Review**, then select **Check Accessibility**.
 > :::image type="content" source="../media/outlook-accessibility-checker.png" alt-text="A screenshot of the Microsoft Outlook Accessibility Checker.":::
 
-Inclusivity isn't just about the people attending your invite. During the planning phase, try to look to bring in as wide a range of presenters and speakers as you can. Consolidate the presenter diversity in your event team, so that you can capture diverse perspectives there too.
+Inclusivity isn't just about the people attending your invite. During the planning phase, try to look to bring in as wide a range of presenters and speakers as you can. Consolidate the presenter diversity in your event team, so that you can capture diverse perspectives there, too.
 
 Now that you've promoted your event and sent out invites, how are people going to register for the event? The platform you use for registration is a great place to capture accommodations. Consider asking if people need any of these:
 
 - Captioned videos and live captioning of presentations
-- Sign Language interpretation, ask if American Sign Language (ASL) or Universal Sign Language (USL) is proffered
+- Sign Language interpretation, ask if American Sign Language (ASL) or Universal Sign Language (USL) is preferred
 - Other language interpretations
 - Provide presentation materials before the event
 - Large print or braille versions of handouts
 
-Plan enough time for all your presenters, moderators, and producers to train on the tools they'll be using before the actual event. As you'll have a diverse event team, all your training materials need to be accessible. The training should also help presenters think about how their presentations can be made more accessible. For example, calling out important items on screen. All this training should culminate in one or more dress rehearsals. Each rehearsal allows the presenters to become comfortable with the tools. The producers to work out any technical issues, and the moderators refine the interactive experience they'd like for your attendees.
+Plan enough time for all your presenters, moderators, and producers to train on the tools they'll be using before the actual event. As you'll have a diverse event team, all your training materials need to be accessible. The training should also help presenters think about how their presentations can be made more accessible, such as calling out important items on screen. All this training should culminate in one or more dress rehearsals. Each rehearsal allows the presenters to become comfortable with the tools, the producers to work out any technical issues, and the moderators to refine the interactive experience they'd like for your attendees.
 
 > [!IMPORTANT]
-> Giving everyone enough time to prepare and rehearse will help your event reduce the chance of issues, enable you to polish the content and it's delivery, and keep your event teams morale high and relaxed for success.
-
+> Giving everyone enough time to prepare and rehearse will help your event reduce the chance of issues, enable you to polish the content and its delivery, and keep your event teams morale high and relaxed for success.
 
 ## Presentation accessibility
 
-Presentations are at the heart of any event, in-person or virtual. So slide content and design needs to consider all these components.
+Presentations are at the heart of any event, in-person or virtual, so slide content and design needs to consider all these components.
 
 ### Contrast
 
 :::row:::
+
     :::column:::
         <div align="center">
 
@@ -87,6 +87,7 @@ Presentations are at the heart of any event, in-person or virtual. So slide cont
 ### Shape and color
 
 :::row:::
+
     :::column span="2":::
         Use different shapes when using colors when indicating statuses. This will help people with color blindness to understand the chart. 
         
@@ -104,6 +105,7 @@ Presentations are at the heart of any event, in-person or virtual. So slide cont
 ### Alternative text
 
 :::row:::
+
     :::column:::
         <div align="center">
 
@@ -111,10 +113,11 @@ Presentations are at the heart of any event, in-person or virtual. So slide cont
 
         </div>
 
-        To add alt text to object in Microsoft PowerPoint, right click then select **Edit Alt Text**. The pop out provides guidance, add one or two detailed sentences.
+        To add alt text to an object in Microsoft PowerPoint, right click and select Edit Alt Text. The pop out provides guidance to add one or two detailed sentences.
+
     :::column-end:::
     :::column span="2":::
-        Alt text helps people with screen readers to understand the images you use, and the content of your slides. Every image in your slide should have alt text, consider grouping individual shapes so that you can describe the slide as a whole. If an object has no meaning mark it as decorative.
+        Alt text helps people with screen readers to understand the images you use and the content of your slides. Every image in your slide should have alt text and consider grouping individual shapes so that you can describe the slide as a whole. If an object has no meaning, mark it as decorative.
 
         <div align="center">
 
@@ -128,8 +131,9 @@ Presentations are at the heart of any event, in-person or virtual. So slide cont
 ### Slide layouts
 
 :::row:::
+
     :::column span="2":::
-        Try to use the built-in slide layouts. This will help as it ensures a hierarchical reading of the text blocks. For example, if this is a title slide choose a built-in title layout rather than a blank side and adding a text box at the top. 
+        Try to use the built-in slide layouts. This will help ensure a hierarchical reading of the text blocks. For example, if this is a title slide, choose a built-in title layout rather than a blank side and adding a text box at the top.
 
         This will also help when trying to create a good reading order.
         
@@ -147,6 +151,7 @@ Presentations are at the heart of any event, in-person or virtual. So slide cont
 ### Reading order
 
 :::row:::
+
     :::column:::
         <div align="center">
 
@@ -157,7 +162,8 @@ Presentations are at the heart of any event, in-person or virtual. So slide cont
 
     :::column-end:::
     :::column span="2":::
-        Screen readers are software that describe the content being shown on screen. This is normally in the order it is created. To check that your content is in the correct reading order, arrange your objects in the **Selection Pane** as appropriate.
+        Screen readers are software that describe the content being shown on screen. This is normally in the order it is created. To check that your content is in the correct reading order, arrange your objects in the **Selection Pane** as appropriate.
+
 
         <div align="center">
 
