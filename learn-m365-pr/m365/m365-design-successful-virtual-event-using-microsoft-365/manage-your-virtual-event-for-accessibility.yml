@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365-pr.design-successful-virtual-event-using-microsoft-365.manage-your-virtual-event-for-accessibility
+title: Manage your virtual event for accessibility
+metadata:
+  unitType: learning-content
+  title: Manage your virtual event for accessibility
+  description: "TODO" # user input: a description for site search and SEO
+  ms.date: 05/26/2021
+  author: lizap
+  ms.author: elizapo
+  ms.topic: interactive-tutorial # do we need ms.topic?
+durationInMinutes: 7 # user input: the estimate time to complete the unit
+content: |
+  [!include[](includes/manage-your-virtual-event-for-accessibility.md)]

@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365-pr.design-successful-virtual-event-using-microsoft-365.prepare-your-event-for-success
+title: Prepare your event for success
+metadata:
+  unitType: learning-content
+  title: Prepare your event for success
+  description: "TODO" # user input: a description for site search and SEO
+  ms.date: 05/26/2021
+  author: lizap
+  ms.author: elizapo
+  ms.topic: interactive-tutorial # do we need ms.topic?
+durationInMinutes: 10 # user input: the estimate time to complete the unit
+content: |
+  [!include[](includes/prepare-your-event-for-success.md)]
