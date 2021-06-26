@@ -8,7 +8,8 @@ metadata:
   ms.date: 05/26/2021
   author: lizap
   ms.author: elizapo
-  ms.topic: interactive-tutorial 
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
 title: Bringing it all together for engaging virtual events in Microsoft 365
 summary:  | 
     Present, moderate, or attend a virtual event in Microsoft Teams or Microsoft 365 and optimize your experience. 
@@ -16,13 +17,13 @@ summary:  |
     This module has content for presenters, moderators, and attendees.
     :::row:::
       :::column:::
-        :::image type="content" source="../m365-introduction-delivering-virtual-events-using-microsoft-teams-microsoft-365/media/presenter-small.png" alt-text="Icon for the Presenter role." border="false":::
+        :::image type="content" source="../m365-introduction-deliver-virtual-events-using-microsoft-teams/media/presenter-small.png" alt-text="Icon for the Presenter role." border="false":::
       :::column-end:::
       :::column:::
-        :::image type="content" source="../m365-introduction-delivering-virtual-events-using-microsoft-teams-microsoft-365/media/moderator-small.png" alt-text="Icon for the Moderator role." border="false":::        
+        :::image type="content" source="../m365-introduction-deliver-virtual-events-using-microsoft-teams/media/moderator-small.png" alt-text="Icon for the Moderator role." border="false":::        
       :::column-end:::
       :::column:::
-        :::image type="content" source="../m365-introduction-delivering-virtual-events-using-microsoft-teams-microsoft-365/media/attendee-small.png" alt-text="Icon for the Attendee role." border="false":::        
+        :::image type="content" source="../m365-introduction-deliver-virtual-events-using-microsoft-teams/media/attendee-small.png" alt-text="Icon for the Attendee role." border="false":::        
       :::column-end:::
     :::row-end:::
 abstract: |
@@ -31,6 +32,7 @@ abstract: |
     - Moderate a presentation in a Microsoft Teams meeting or live event.
     - Get the most out of attending a presentation in a Microsoft Teams meeting or live event.
 prerequisites: | 
+  - General understanding of virtual events, Microsoft Teams, an accessibility requirements
 iconUrl: /learn/achievements/generic-badge.svg
 levels: 
   - beginner

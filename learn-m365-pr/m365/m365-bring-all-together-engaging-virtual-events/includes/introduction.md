@@ -8,17 +8,17 @@ This module has content for presenters, moderators, and attendees.
 
 :::row:::
     :::column:::
-        :::image type="content" source="../../m365-introduction-delivering-virtual-events-using-microsoft-teams-microsoft-365/media/presenter-small.png" alt-text="Icon depicting the Presenter role." border="false":::
+        :::image type="content" source="../../m365-introduction-deliver-virtual-events-using-microsoft-teams/media/presenter-small.png" alt-text="Icon depicting the Presenter role." border="false":::
     :::column-end:::
     :::column:::
-        :::image type="content" source="../../m365-introduction-delivering-virtual-events-using-microsoft-teams-microsoft-365/media/moderator-small.png" alt-text="Icon depicting the Moderator role." border="false":::
+        :::image type="content" source="../../m365-introduction-deliver-virtual-events-using-microsoft-teams/media/moderator-small.png" alt-text="Icon depicting the Moderator role." border="false":::
     :::column-end:::
     :::column:::
-        :::image type="content" source="../../m365-introduction-delivering-virtual-events-using-microsoft-teams-microsoft-365/media/attendee-small.png" alt-text="Icon depicting the Attendee role." border="false":::
+        :::image type="content" source="../../m365-introduction-deliver-virtual-events-using-microsoft-teams/media/attendee-small.png" alt-text="Icon depicting the Attendee role." border="false":::
     :::column-end:::
 :::row-end:::
 
-## Learning Objectives
+## Learning objectives
 
 By the end of this module, you should be able to:
 
