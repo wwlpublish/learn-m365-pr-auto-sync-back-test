@@ -7,9 +7,9 @@ Microsoft Defender for Office 365 provides customizable policies that help you c
 
 A preset security policies provide the means to apply all the necessary security policies to all your users at the same time, for example phishing, malware and spam policies. These policy settings can’t be changed by you or your security team as they are defined by Microsoft, based on their experience and observations. These policies aim for balance by keeping harmful content away from your users without disrupting their work. Preset security policies consist of the following:
 
-1. Profiles
-1. Policies
-1. Policy settings
+- Profiles
+- Policies
+- Policy settings
 
 > [!NOTE]
 > The order of precedence for these policies is important if multiple preset security policies and other policies apply to the same user.
@@ -36,7 +36,7 @@ To access the preset policies, launch the Microsoft 365 security center.
 
 1. Select **Policies & rules**
 1. Then select **Threat policies**
-   1. Enter the type of policies you want to view. For example, 3-anti-spam-preset-security-policies around this graphic. This will be fixed in markdown.  
+   1. Enter the type of policies you want to view.
 
 ## Message overrides
 

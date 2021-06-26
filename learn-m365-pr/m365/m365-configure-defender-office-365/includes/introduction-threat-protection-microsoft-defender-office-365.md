@@ -31,8 +31,8 @@ Unmonitored junk email can clog inboxes and networks, impact user satisfaction, 
 
 The anti-spam settings capabilities in Microsoft Defender for Office 365 use:
 
-- **Connection filtering**: Identifies good and bad email source servers early in the inbound email connection via the IP allow list, IP blocklist, and the safe list (a dynamic but non-editable list of trusted senders maintained by Microsoft). You configure these settings in the connection filter policy. 
-- **Spam filtering (content filtering)**: It uses the following spam filtering verdicts to classify messages: Spam, High confidence spam, Bulk email, Phishing email and High confidence phishing email. 
+- **Connection filtering**: Identifies good and bad email source servers early in the inbound email connection via the IP allowlist, IP blocklist, and the safe list (a dynamic but non-editable list of trusted senders maintained by Microsoft). You configure these settings in the connection filter policy.
+- **Spam filtering (content filtering)**: It uses the following spam filtering verdicts to classify messages: Spam, High confidence spam, Bulk email, Phishing email and High confidence phishing email.
 - **Outbound spam filtering**: This will check to make sure that your users don't send spam, either in outbound message content or by exceeding outbound message limits.
 - **Spoof intelligence**: When a sender spoofs an email address, they appear to be a user in one of your organization's domains, or a user in an external domain that sends email to your organization. Anti-phishing protection
 
