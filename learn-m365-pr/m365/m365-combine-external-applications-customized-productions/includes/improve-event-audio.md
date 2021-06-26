@@ -1,4 +1,4 @@
-Even if you've invested in quality cameras or vision mixers to produce custom video broadcasts, poor quality audio can still let you down. If attendees can't hear you, they  become disengaged and uninterested. You’ve invested much time in the video for your upcoming company-wide meeting, and now you want to make sure the sound is high quality as well.
+Even if you've invested in quality cameras or vision mixers to produce custom video broadcasts, poor quality audio can still let you down. If attendees can't hear you, they  become disengaged and uninterested. You've invested much time in the video for your upcoming company-wide meeting, and now you want to make sure the sound is high quality as well.
 
 ## Common sound problems
 
@@ -26,15 +26,11 @@ For the best audio quality, use a separate, dedicated microphone on its own stan
 
 Choose a good quality sound card, which usually connects your computer via USB. Make sure that it has the correct input plug. For example, expensive mics often use an XLR plug, and if you don't have an XLR socket on your sound card, you'll need an adapter.
 
-:::image type="content" source="../media/quality-sound-card.png" alt-text="A quality sound card can improve your presentation.":::
-
 Some USB mics have the sound card built into them. Once you've connected them to your computer and drivers have been installed, they should appear as a separate sound device to select in Teams.
 
 If you want to work with multiple microphones, for example if you're producing an event with two or more presenters in the same room, you might need an audio mixer. This device is a sound card with multiple inputs and hardware mixing controls, much like the sound mixers used in the music industry. Audio mixers often connect to your computer through a USB connection.
 
 If you have persistent noise or hum on your audio, you may have a ground loop. Ground loops occur when there are multiple paths to electrical grounds and small differences in the potential of those grounds. A ground loop isolator can solve these issues by blocking direct current and low frequency alternating current.
-
-:::image type="content" source="../media/ground-loop-isolator.png" alt-text="A ground loop isolator can eliminate hum and other persistent noise.":::
 
 ## Audio equipment setup
 
