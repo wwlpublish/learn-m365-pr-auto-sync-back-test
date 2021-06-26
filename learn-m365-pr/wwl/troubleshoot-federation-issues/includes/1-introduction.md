@@ -1,6 +1,6 @@
-You work for an enterprise-level organization. Most users in your organization have upgraded to Microsoft Teams, but some still use Skype for Business for their meetings and communication. Although your organization has a programme to migrate all users to Teams, until everyone has upgraded you must manage issues that arise from using both systems.
+You work for a large organization where employees in your organization have upgraded to Microsoft Teams. Some employees still use Skype for Business for their meetings and communication. Your organization has a program to migrate all users to Teams but until everyone has upgraded, you must manage issues that arise from using both systems.
 
-In this module we will discuss federation and interoperability between Teams and Skype for Business.
+In this module, we will discuss federation and interoperability between Teams and Skype for Business.
 
 **Federation** is the term used for communicating with users outside of your organization using Skype for Business or Teams.  
 
