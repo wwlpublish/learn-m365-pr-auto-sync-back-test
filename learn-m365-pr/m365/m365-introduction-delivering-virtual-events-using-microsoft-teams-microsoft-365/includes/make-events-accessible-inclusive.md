@@ -82,11 +82,19 @@ Presentations are at the heart of any event, in-person or virtual, so slide cont
 
 ### Shape and color
 
-<div align="center">
+:::row:::
+    :::column:::
+    :::column-end:::
+    :::column:::
+        :::image type="content" source="../media/shape-and-color.png" alt-text="Example graphic showing text and different colored shapes.":::
+    :::column-end:::
+    :::column:::
+    :::column-end:::
+:::row-end:::
 
-:::image type="content" source="../media/shape-and-color.png" alt-text="Example graphic showing text and different colored shapes.":::
 
-</div>
+
+
 
 Use different shapes when using colors when indicating statuses. This will help people with color blindness to understand the chart.
 
