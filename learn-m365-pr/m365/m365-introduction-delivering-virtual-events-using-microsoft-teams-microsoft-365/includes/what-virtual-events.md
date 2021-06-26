@@ -30,61 +30,53 @@ The kind of virtual events you're producing will dictate the number and types of
 
 :::row:::
     :::column:::
-        <div align="right">
 
         :::image type="content" source="../media/attendee-small.png" alt-text="Attendee icon" border="false":::
 
-        </div>
     :::column-end:::
-    :::column span="2":::
+    :::column span="3":::
         <br/>
         The people attending your event. For more simple events, attendees may be joining from Teams only, but more complex events may have attendees join from Yammer or Microsoft Stream.
     :::column-end:::
 :::row-end:::
 
 :::row:::
-    :::column span="2":::
-        <br/>
-        <p align="right">Moderators help support the smooth running of virtual events by facilitating conversations and Q&A.</p>
-    :::column-end:::
     :::column:::
         :::image type="content" source="../media/moderator-small.png" alt-text="Moderator icon" border="false":::
     :::column-end:::
+    :::column span="3":::
+        <br/><br/>
+        Moderators help support the smooth running of virtual events by facilitating conversations and Q&A.
+    :::column-end:::
+
 :::row-end:::
 
 :::row:::
     :::column:::
-        <div align="right">
-
         :::image type="content" source="../media/organizer-small.png" alt-text="Organizer icon" border="false":::
-
-        </div>
     :::column-end:::
-    :::column span="2":::
-        <br/>
+    :::column span="3":::
+        <br/><br/>
         Organizers create the events, set the permissions, invite the event team, and curate the event links.
     :::column-end:::
 :::row-end:::
 
 :::row:::
-    :::column span="2":::
-        <br/>
-        <p align="right">Presenters deliver the content at your event. They can present audio, video, and share their screen with the attendees. Depending on the number of attendees, they may also moderate Q&A.</p>
-    :::column-end:::
     :::column:::
         :::image type="content" source="../media/presenter-small.png" alt-text="Presenter icon" border="false":::
     :::column-end:::
+    :::column span="3":::
+        <br/>
+        Presenters deliver the content at your event. They can present audio, video, and share their screen with the attendees. Depending on the number of attendees, they may also moderate Q&A.
+    :::column-end:::
+
 :::row-end:::
 
 :::row:::
     :::column:::
-        <div align="right">
-
         :::image type="content" source="../media/producer-small.png" alt-text="Producer icon" border="false":::
-
-        </div>
     :::column-end:::
-    :::column span="2":::
+    :::column span="3":::
         <br/>
         Producers ensure the event runs smoothly. When using Live Events, they will start and stop events, queue content, and manage backstage chat. For simple events, they could also be the same person as the Organizer.
     :::column-end:::

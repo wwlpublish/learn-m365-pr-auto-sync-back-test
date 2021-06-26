@@ -82,26 +82,26 @@ Presentations are at the heart of any event, in-person or virtual, so slide cont
 
 ### Shape and color
 
-        <div float="left">
+<div align="center">
 
-        :::image type="content" source="../media/shape-and-color.png" alt-text="Example graphic showing text and different colored shapes.":::
+:::image type="content" source="../media/shape-and-color.png" alt-text="Example graphic showing text and different colored shapes.":::
 
-        Use different shapes when using colors when indicating statuses. This will help people with color blindness to understand the chart. 
-        </div>
+</div>
 
+Use different shapes when using colors when indicating statuses. This will help people with color blindness to understand the chart.
 
 ### Alternative text
 
 :::row:::
 
-    :::column:::
+    :::column span="2":::
 
         To add alt text to an object in Microsoft PowerPoint, right click and select Edit Alt Text. The pop out provides guidance to add one or two detailed sentences.
 
         Alt text helps people with screen readers to understand the images you use and the content of your slides. Every image in your slide should have alt text and consider grouping individual shapes so that you can describe the slide as a whole. If an object has no meaning, mark it as decorative.
 
     :::column-end:::
-    :::column span="2":::
+    :::column:::
 
         <div align="center">
 
@@ -142,13 +142,8 @@ Presentations are at the heart of any event, in-person or virtual, so slide cont
         :::image type="content" source="../media/selection-pane.png" alt-text="Screenshot showing the Selection Pane option.":::
 
         </div>
-
-
     :::column-end:::
     :::column span="2":::
         Screen readers are software that describe the content being shown on screen. This is normally in the order it is created. To check that your content is in the correct reading order, arrange your objects in the **Selection Pane** as appropriate.
-
-
-
     :::column-end:::
 :::row-end:::
