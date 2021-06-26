@@ -6,7 +6,7 @@ Here you'll learn about the supported hardware and what licensing Microsoft 365 
 
 ## Devices and Clients
 
-TThe members of your event team and the attendees can choose to use a range of clients. For presenters, producers, and moderators, a desktop client is recommended. While it's possible to present from a browser or mobile device, the Teams experience will be more limited.
+The members of your event team and the attendees can choose to use a range of clients. For presenters, producers, and moderators, a desktop client is recommended. While it's possible to present from a browser or mobile device, the Teams experience will be more limited.
 
 For attendees, they might use a Teams Room device in addition to desktop and mobile applications.
 

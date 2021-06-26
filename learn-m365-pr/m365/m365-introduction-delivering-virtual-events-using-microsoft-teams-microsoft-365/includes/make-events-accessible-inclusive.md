@@ -68,56 +68,40 @@ Presentations are at the heart of any event, in-person or virtual, so slide cont
     :::column:::
         <div align="center">
 
-        :::image type="content" source="../media/contrast.png" alt-text="Example graphic showing contrast in an image. Black background with bright blue and white foreground text.":::
+        :::image type="content" source="../media/contrast-text.png" alt-text="Example text on a background color. Three examples two that are good, black text on a white background and white text on a dark blue background. One bad example of white text on a light blue background." border="false":::
 
         </div>
     :::column-end:::
     :::column span="2":::
         Use high contrast colors, the minimum contrast you should use is 4.5:1. But for your larger text as much as 3:1 is recommended. 
 
-        <div align="center">
 
-        :::image type="content" source="../media/contrast-text.png" alt-text="Example text on a background color. Three examples two that are good, black text on a white background and white text on a dark blue background. One bad example of white text on a light blue background." border="false":::
-
-        </div>
         
     :::column-end:::
 :::row-end:::
 
 ### Shape and color
 
-:::row:::
-
-    :::column span="2":::
-        Use different shapes when using colors when indicating statuses. This will help people with color blindness to understand the chart. 
-        
-    :::column-end:::
-    :::column:::
-        <div align="center">
+        <div float="left">
 
         :::image type="content" source="../media/shape-and-color.png" alt-text="Example graphic showing text and different colored shapes.":::
 
+        Use different shapes when using colors when indicating statuses. This will help people with color blindness to understand the chart. 
         </div>
-    :::column-end:::
 
-:::row-end:::
 
 ### Alternative text
 
 :::row:::
 
     :::column:::
-        <div align="center">
-
-        :::image type="content" source="../media/alt-text.png" alt-text="Two example slides the top with a person and a company logo. The bottom slide shows an empty coffee shop.":::
-
-        </div>
 
         To add alt text to an object in Microsoft PowerPoint, right click and select Edit Alt Text. The pop out provides guidance to add one or two detailed sentences.
 
+        Alt text helps people with screen readers to understand the images you use and the content of your slides. Every image in your slide should have alt text and consider grouping individual shapes so that you can describe the slide as a whole. If an object has no meaning, mark it as decorative.
+
     :::column-end:::
     :::column span="2":::
-        Alt text helps people with screen readers to understand the images you use and the content of your slides. Every image in your slide should have alt text and consider grouping individual shapes so that you can describe the slide as a whole. If an object has no meaning, mark it as decorative.
 
         <div align="center">
 
@@ -151,11 +135,11 @@ Presentations are at the heart of any event, in-person or virtual, so slide cont
 ### Reading order
 
 :::row:::
-
     :::column:::
+
         <div align="center">
 
-        :::image type="content" source="../media/reading-order.png" alt-text="A screenshot of Microsoft PowerPoint showing a slide and the reading order below it.":::
+        :::image type="content" source="../media/selection-pane.png" alt-text="Screenshot showing the Selection Pane option.":::
 
         </div>
 
@@ -165,10 +149,6 @@ Presentations are at the heart of any event, in-person or virtual, so slide cont
         Screen readers are software that describe the content being shown on screen. This is normally in the order it is created. To check that your content is in the correct reading order, arrange your objects in the **Selection Pane** as appropriate.
 
 
-        <div align="center">
 
-        :::image type="content" source="../media/selection-pane.png" alt-text="Screenshot showing the Selection Pane option.":::
-
-        </div>
     :::column-end:::
 :::row-end:::

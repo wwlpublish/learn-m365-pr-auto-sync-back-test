@@ -9,6 +9,7 @@ metadata:
   author: lizap
   ms.author: elizapo
   ms.topic: interactive-tutorial # do we need ms.topic?
+  ms.prod: learning-m365
 durationInMinutes: 7 
 content: |
   [!include[](includes/make-events-accessible-inclusive.md)]
