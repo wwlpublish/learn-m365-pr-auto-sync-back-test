@@ -13,7 +13,7 @@ title: Enable Microsoft 365 Defender in your organization
 summary: Understand the steps needed to enable Microsoft 365 Defender for your organization. 
 abstract: | 
   By the end of this module, you'll be able to:
-    - Make your environment ready to deploy Microsoft 365 defender. 
+    - Make your environment ready to deploy Microsoft 365 Defender. 
     - Enable Microsoft 365 Defender in your organization. 
     - Manage who has access to the functions and data in Microsoft 365 Defender. 
 prerequisites: | 
