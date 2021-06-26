@@ -2,14 +2,14 @@
 uid: learn-m365.cybersecurity-edr
 metadata:
   title: Learn how Microsoft supports endpoint protection and response (EDR) as part of a cybersecurity solution
-  description: Endpoint detection and response (EDR) capabilities provide advanced attack detections that are near real-time and actionable. When you implement EDR in your environment, your security analysts can prioritize alerts effectively, gain visibility into the full scope of a breach, and take action to remediate threats. <br><br> This learning path provides an overview of Microsoft's EDR capabilities and how to use them as part of a cybersecurity solution.<br><br>The deadline for agencies to adopt government-wide EDR approaches based on OMB requirements, per section 7 of the Executive Order on Improving the Nation's Cybersecurity, is September 9, 2021.
-  ms.date: 06/20/2021
+  description: Endpoint detection and response (EDR) capabilities provide advanced attack detections that are near real-time and actionable. When you implement EDR in your environment, your security analysts can prioritize alerts effectively, gain visibility into the full scope of a breach, and take action to remediate threats. <br><br> This learning path provides an overview of Microsoft's EDR capabilities and how to use them as part of a cybersecurity solution.<br><br>The deadline for agencies to adopt government-wide EDR approaches based on OMB requirements, per section 7 of the Executive Order on Improving the Nation's Cybersecurity, is **September 9, 2021**.
+  ms.date: 06/25/2021
   author: lizap
   ms.author: elizapo
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Learn how Microsoft supports endpoint protection and response (EDR) as part of a cybersecurity solution
-summary: Endpoint detection and response (EDR) capabilities provide advanced attack detections that are near real-time and actionable. When you implement EDR in your environment, your security analysts can prioritize alerts effectively, gain visibility into the full scope of a breach, and take action to remediate threats. <br><br> This learning path provides an overview of Microsoft's EDR capabilities and how to use them as part of a cybersecurity solution.<br><br>The deadline for agencies to adopt government-wide EDR approaches based on OMB requirements, per section 7 of the Executive Order on Improving the Nation's Cybersecurity, is September 9, 2021.
+summary: Endpoint detection and response (EDR) capabilities provide advanced attack detections that are near real-time and actionable. When you implement EDR in your environment, your security analysts can prioritize alerts effectively, gain visibility into the full scope of a breach, and take action to remediate threats. <br><br> This learning path provides an overview of Microsoft's EDR capabilities and how to use them as part of a cybersecurity solution.<br><br>The deadline for agencies to adopt government-wide EDR approaches based on OMB requirements, per section 7 of the Executive Order on Improving the Nation's Cybersecurity, is **September 9, 2021**.
 prerequisites: None
 iconUrl: /learn/achievements/generic-trophy.svg
 levels: 
