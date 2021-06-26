@@ -134,8 +134,8 @@ If you need up to 100,000 people viewing, or 20,000 and no attendee discussion a
 :::image-end:::
 
 > [!IMPORTANT]
-> * Attendee limit increases over 10,000 are temporarily available until December 31, 2021.
-> ** Stream live events are generally only delivered inside your organization.
+> \* Attendee limit increases over 10,000 are temporarily available until December 31, 2021.
+> \*\* Stream live events are generally only delivered inside your organization.
 
 Using the decision matrix you can see that for events with up to 20,000 attendees, Live Events in Teams is a good choice if you need to include external people to your organization and need only webcam and screen sharing production. Yammer is better for internal events only with open discussions.
 
@@ -146,7 +146,7 @@ If you need up to 100,000 people viewing, or 20,000 with no attendee discussion 
 How you schedule your Live Event depends on where it’s going to be hosted. See how to plan and schedule a Live Event in this video.
 
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE3eTQ3]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3eTQ3]
 
 
 ## Combination events

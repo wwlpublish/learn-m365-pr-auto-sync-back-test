@@ -3,11 +3,12 @@ uid: learn-m365-pr.design-successful-virtual-event-using-microsoft-365
 metadata:
   moduleType: standard
   title: Design a successful virtual event using Microsoft 365
-  description: "TODO" # user input: a description for site search and SEO
+  description: Learn how to design a successful virtual event using Microsoft 365.
   ms.date: 05/26/2021
   author: lizap
   ms.author: elizapo
   ms.topic: interactive-tutorial # do we need ms.topic?
+  ms.prod: learning-m365
 title: Design a successful virtual event using Microsoft 365
 summary: |
   Learn how to create accessible presentations and review best practices to manage your event.

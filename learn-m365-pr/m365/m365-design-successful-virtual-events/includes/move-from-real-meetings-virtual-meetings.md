@@ -18,13 +18,13 @@ One of the advantages of moving from in-person to virtual is that it broadens th
 
 Start with [Simple things count](https://news.microsoft.com/stories/simplethingscount/), our guidance about simple ways you can be more inclusive of people with disabilities. Beyond your virtual event, this guidance can help you in all of your work and professional relationships. There are seven ways to be more inclusive – you can view a short video of each on the Simple things count web site:
 
-1. Be your usual self.
-1. Make sure your work is accessible.
-1. Disability is a strength.
-1. Follow the principles of inclusive design.
-1. Accept each person as a human first.
-1. learn the appropriate etiquette.
-1. Follow our lead.
+- Be your usual self.
+- Make sure your work is accessible.
+- Disability is a strength.
+- Follow the principles of inclusive design.
+- Accept each person as a human first.
+- learn the appropriate etiquette.
+- Follow our lead.
 
 Consider the following questions about who your attendees are, what they're using, and where they're joining from to mitigate common event issues.
 
