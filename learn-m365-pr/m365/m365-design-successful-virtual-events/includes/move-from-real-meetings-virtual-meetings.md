@@ -2,7 +2,7 @@ Your organization has been delivering in-person, live events as part of its annu
 
 ## Plan to include everyone
 
-Creating an inclusive event starts with planning. Your virtual summit team should include people with diverse experiences and roles, including people that haven't participated in the past. (You can see the roles we recommend including on your team in [Introduction to delivering virtual events with Microsoft 365](/learn/modules/m365-introduction-delivering-virtual-events-using-microsoft-teams-microsoft-365).)
+Creating an inclusive event starts with planning. Your virtual summit team should include people with diverse experiences and roles, including people that haven't participated in the past. (You can see the roles we recommend including on your team in [Introduction to delivering virtual events with Microsoft 365](/learn/modules/m365-introduction-deliver-virtual-events-using-microsoft-teams).)
 
 Consider these recommended tasks during the planning process:
 
