@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-m365-pr.m365-configure-microsoft-defender-for-office-365.introduction-threat-protection-microsoft-defender-office-365
+title: Introduction to Threat Protection in Microsoft Defender for Office 365
+metadata:
+  unitType: learning-content
+  title: Introduction to Threat Protection in Microsoft Defender for Office 365 
+  description: Learn all about the various threat protection capabilities available in Microsoft Defender for Office 365. 
+  ms.date: 5/17/2021 
+  author: iankensey 
+  ms.author: v-iakens 
+  ms.topic: interactive-tutorial 
+  ms.prod: learning-m365
+durationInMinutes: 15
+content: |
+  [!include[](includes/introduction-threat-protection-microsoft-defender-office-365.md)]

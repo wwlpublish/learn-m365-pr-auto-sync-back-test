@@ -1,0 +1,38 @@
+### YamlMime:Module
+uid: learn-m365-pr.m365-configure-microsoft-defender-for-office-365
+metadata:
+  moduleType: standard
+  title: "Configure Microsoft Defender for Office 365"
+  description: "Understand the steps needed to configure Microsoft Defender for Office 365 in your organization."
+  ms.date: 5/17/2021
+  author: iankensey
+  ms.author: v-iakens
+  ms.topic: interactive-tutorial 
+  ms.prod: learning-m365
+title: Configure Microsoft Defender for Office 365
+summary: Understand the steps need to configure Microsoft Defender for Office 365 in your organization.
+abstract: |
+  By the end of this module, you'll be able to:
+  - Understand preset security policies, configuration analyzer, and message overrides.
+  - Configure Exchange Online Protection and Microsoft Defender for Office 365
+  - Understand threat protection features of Microsoft Defender for Office 365
+  - Understand the reporting of emails and files to Microsoft
+prerequisites: | 
+  - None
+iconUrl: /learn/achievements/generic-badge.svg
+levels: 
+  - beginner
+roles: 
+  - security-operations-analyst
+  - security-engineer
+products:
+- m365
+units:
+- learn-m365-pr.m365-configure-microsoft-defender-for-office-365.introduction
+- learn-m365-pr.m365-configure-microsoft-defender-for-office-365.overview-preset-security-policies-configuration-analyzer-message-overrides
+- learn-m365-pr.m365-configure-microsoft-defender-for-office-365.introduction-threat-protection-microsoft-defender-office-365
+- learn-m365-pr.m365-configure-microsoft-defender-for-office-365.reporting-messages-files-microsoft
+- learn-m365-pr.m365-configure-microsoft-defender-for-office-365.knowledge-check
+- learn-m365-pr.m365-configure-microsoft-defender-for-office-365.summary
+badge:
+  uid: learn-m365-pr.m365-getting-started-microsoft-365-defender.badge
