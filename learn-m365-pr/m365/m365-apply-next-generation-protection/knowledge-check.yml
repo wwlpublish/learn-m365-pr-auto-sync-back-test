@@ -33,7 +33,7 @@ quiz:
       explanation: "That's incorrect. Always-on protection is for fast and intelligent protection against viruses and malware."
     - content: "Block at first sight"
       isCorrect: false
-      explanation: "That's not correct. The block at first sight feature protects against viruses and malware."
+      explanation: "That's incorrect. The block at first sight feature protects against viruses and malware."
     - content: "PUA protection"
       isCorrect: true
       explanation: "That's correct. Potentially Unwanted App (PUA) protection blocks applications with poor reputations and annoying features, including desktop advertising."
