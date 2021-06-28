@@ -8,10 +8,10 @@ Now that you’ve completed this module, you should be able to:
 
 ## Learn more
 
-- [Use attack surface reduction rules to prevent malware infection](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/attack-surface-reduction)
-- [Protect you network](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/network-protection)
-- [Deploying Windows Defender Application Control (WDAC) policies](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-application-control/windows-defender-application-control-deployment-guide)
-- [Protect your organization against web threats](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/web-threat-protection)
-- [Protect important folders with controlled folder access](https://docs.microsoft.com/microsoft-365/security/defender-endpoint/controlled-folders)
-- [Microsoft Defender Application Guard overview](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-application-guard/md-app-guard-overview)
-- [Enable attack surface reduction rules](/microsoft-365/security/defender-endpoint/enable-attack-surface-reduction?view=o365-worldwide)
+- [Use attack surface reduction rules to prevent malware infection](/microsoft-365/security/defender-endpoint/attack-surface-reduction)
+- [Protect you network](/microsoft-365/security/defender-endpoint/network-protection)
+- [Deploying Windows Defender Application Control (WDAC) policies](/windows/security/threat-protection/windows-defender-application-control/windows-defender-application-control-deployment-guide)
+- [Protect your organization against web threats](/microsoft-365/security/defender-endpoint/web-threat-protection)
+- [Protect important folders with controlled folder access](/microsoft-365/security/defender-endpoint/controlled-folders)
+- [Microsoft Defender Application Guard overview](/windows/security/threat-protection/microsoft-defender-application-guard/md-app-guard-overview)
+- [Enable attack surface reduction rules](/microsoft-365/security/defender-endpoint/enable-attack-surface-reduction)

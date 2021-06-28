@@ -43,9 +43,9 @@ You can use many different tools to configure attack surface reduction:
 You can use the links in the **Learn more** section for detailed guidance on these tools.
 
 ## Learn more
--	[Turn on network protection ](/microsoft-365/security/defender-endpoint/enable-network-protection?view=o365-worldwide)
--	[Enable exploit protection ](/microsoft-365/security/defender-endpoint/enable-exploit-protection?view=o365-worldwide)
+-	[Turn on network protection ](/microsoft-365/security/defender-endpoint/enable-network-protection)
+-	[Enable exploit protection ](/microsoft-365/security/defender-endpoint/enable-exploit-protection)
 -	[Application Control for Windows](/windows/security/threat-protection/windows-defender-application-control/windows-defender-application-control)
--	[Protect your organization against web threats](/microsoft-365/security/defender-endpoint/web-threat-protection?view=o365-worldwide)
--	[Enable controlled folder access](/microsoft-365/security/defender-endpoint/enable-controlled-folders?view=o365-worldwide)
--	[Hardware-based isolation in Windows 10](/microsoft-365/security/defender-endpoint/overview-hardware-based-isolation?view=o365-worldwide)
+-	[Protect your organization against web threats](/microsoft-365/security/defender-endpoint/web-threat-protection)
+-	[Enable controlled folder access](/microsoft-365/security/defender-endpoint/enable-controlled-folders)
+-	[Hardware-based isolation in Windows 10](/microsoft-365/security/defender-endpoint/overview-hardware-based-isolation)

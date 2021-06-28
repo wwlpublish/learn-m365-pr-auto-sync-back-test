@@ -47,4 +47,4 @@ Use the link in the **Learn more** section for details on how to use any of thes
 
 ## Learn more
 
-- [Enable attack surface reduction rules](/microsoft-365/security/defender-endpoint/enable-attack-surface-reduction?view=o365-worldwide)
+- [Enable attack surface reduction rules](/microsoft-365/security/defender-endpoint/enable-attack-surface-reduction)
