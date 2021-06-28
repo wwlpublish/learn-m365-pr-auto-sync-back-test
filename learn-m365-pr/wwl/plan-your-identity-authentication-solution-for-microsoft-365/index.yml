@@ -9,11 +9,11 @@ metadata:
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Plan your identity and authentication solution for Microsoft 365
-summary: This module examines the key areas that organizations must plan for to design the identity and authentication solutions they will employ in their Microsoft 365 tenant.
+summary: This module examines the key areas that organizations must plan for to design the identity and authentication solutions they'll employ in their Microsoft 365 tenant.
 abstract: |
   By the end of this module, you will be able to:
   - Describe authentication behavior for Office client apps when they connect with or without modern authentication to Exchange Online, SharePoint Online, and Skype for Business Online
-  - Explain how multi-factor authentication is supported in a Microsoft 365 deployment
+  - Explain how multifactor authentication is supported in a Microsoft 365 deployment
   - Create a plan for directory synchronization and Azure AD Connect Pass-through authentication
   - Describe the issues, benefits, and best practices when implementing federated authentication using Active Directory Federation Services (AD FS)
   - Contrast the options available for restricting traffic in an AD FS deployment
