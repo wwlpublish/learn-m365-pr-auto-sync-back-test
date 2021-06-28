@@ -16,7 +16,7 @@ In addition, you can specifically:
 
 Select **Add a domain**, enter the **domain name**, and select whether it should be **allowed** or **blocked**.
 
-:::image type="content" source="../images/external-access-1.png" alt-text="Enabling external access":::
+:::image type="content" source="../media/external-access-1.png" alt-text="Enabling external access":::
 
 ## Guests and external access
 
@@ -33,7 +33,7 @@ Guest access allows a person from outside your organization to work in the same 
 The differences between guest users and external users:
 
 - Guests cannot search for people in other organizations.
-- Guests are added to your organization’s azure Active Directory as a B2B user and must sign-in to Teams using their guest account. They may have to sign out of their own organization to sign-in to your organization.
+- Guests are added to your organization’s Azure Active Directory as a B2B user and must sign-in to Teams using their guest account. They may have to sign out of their own organization to sign-in to your organization.
 - External access users cannot share files, see out-of-office messages, or block someone in another organization.
 
 ## Troubleshoot chat for federated users in Teams
