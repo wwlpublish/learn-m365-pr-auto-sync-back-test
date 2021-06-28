@@ -53,13 +53,13 @@ To run the Network planner, open the Microsoft Teams admin center:
 2. Create a network plan by selecting **Add**.
 3. Add your network sites. For each site, you’ll need to:
 
-   - Provide a name
-   - Enter the number of users
-   - Add subnet information 
-   - Select ExpressRoute or Connected to WAN as appropriate for your Microsoft 365 connection type
-   - Specify the Internet egress device
-   - Specify the link capacity for the site in Mbps
-   - Select the PSTN egress setting that best describes your situation
+    - Provide a name
+    - Enter the number of users
+    - Add subnet information 
+    - Select ExpressRoute or Connected to WAN as appropriate for your Microsoft 365 connection type
+    - Specify the Internet egress device
+    - Specify the link capacity for the site in Mbps
+    - Select the PSTN egress setting that best describes your situation
 
 4. Select **Save**, and then define the remaining sites. 
 5. When all sites are defined and saved, select the **Report** tab. 
