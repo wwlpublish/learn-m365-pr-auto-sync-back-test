@@ -18,13 +18,13 @@ To troubleshoot the Teams desktop client, use the following high-level procedure
    4. Restart Teams and try to sign in. 
    5. If that doesn’t resolve the issue, in **%appdata%\Microsoft\Teams**, consider deleting the contents of the following subfolders:
 
-      - \application cache\cache
-      - \blob_storage
-      - \databases
-      - \GPUcache
-      - \IndexedDB
-      - \Local Storage
-      - \tmp
+       - \application cache\cache
+       - \blob_storage
+       - \databases
+       - \GPUcache
+       - \IndexedDB
+       - \Local Storage
+       - \tmp
 
    6. Restart Teams and try to sign in.
 
@@ -38,7 +38,7 @@ The Teams Meeting add-in in Outlook enables users to schedule meetings from with
 - Meet Now 
 - New Teams Meeting
 
-:::image type="content" source="../media/teams-add-in-for-outlook.png" alt-text="A screenshot displays a portion of the Outlook ribbon in calendar view. Mett Now and New Teams Meeting tiles are displayed.":::
+:::image type="content" source="../media/teams-add-for-outlook.png" alt-text="A screenshot displays a portion of the Outlook ribbon in calendar view. Mett Now and New Teams Meeting tiles are displayed.":::
 
 In addition, if a user creates a new appointment, in the **untitled – Appointment** window, the add-in displays the **Teams Meeting** tile on the ribbon. 
 

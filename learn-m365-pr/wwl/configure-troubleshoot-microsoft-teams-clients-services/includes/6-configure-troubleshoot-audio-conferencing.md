@@ -6,14 +6,14 @@ To setup audio conferencing in Teams, you’ll need to complete the following hi
 
 1. Configure conference bridges. Conferencing bridges allow users to dial into meetings through their phones. When configuring Audio Conferencing in your Office 365 environment, you’ll receive phone numbers for your users from what is called an audio-conferencing bridge. 
 
-  > [!TIP]
-  > A conferencing bridge can contain one or more phone numbers.
+   > [!TIP]
+   > A conferencing bridge can contain one or more phone numbers.
 
-These phone numbers are used when the users dial in to a meeting. As an admin, you can choose to continue using the default settings for a conferencing bridge, or you can change the phone numbers (toll and toll-free) and other settings (as the PIN or the languages that are used). 
+   These phone numbers are used when the users dial in to a meeting. As an admin, you can choose to continue using the default settings for a conferencing bridge, or you can change the phone numbers (toll and toll-free) and other settings (as the PIN or the languages that are used). 
 
 2. Configure bridge settings. You can control meeting entry and exit notifications, announcement types, whether users must record their names before joining, PIN length, and email notifications, as displayed in the following screenshot. 
 
-:::image type="content" source="../media/conference-bridge.png" alt-text="A screenshot that displays the Bridge settings blade in Conference bridges. Default values are selected.":::
+   :::image type="content" source="../media/conference-bridge.png" alt-text="A screenshot that displays the Bridge settings blade in Conference bridges. Default values are selected.":::
 
 3. Assign licenses. Audio Conferencing licenses are available as part of an Office 365 E5 subscription or as add-on licenses to an existing subscription. 
 4. Enable audio conferencing for users. You must ensure that any meetings organizers have audio conferencing enabled on their accounts, configured with the appropriate dial-in settings. 

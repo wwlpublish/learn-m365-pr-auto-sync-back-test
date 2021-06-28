@@ -87,7 +87,7 @@ To configure a calling plan, in the Microsoft Teams admin center:
 5. On the **Assign policy to group** blade, enter the group name, select the rank, and then select your policy. 
 6. Select **Apply**.
 
-:::image type="content" source="../media/calling-policy.png" alt-text="A screenshot displays the settings in the Global (Org-wide default) calling policy. Values are at their defaults.":::
+:::image type="content" source="../media/call-policy.png" alt-text="A screenshot displays the settings in the Global (Org-wide default) calling policy. Values are at their defaults.":::
 
 
 > [!TIP]

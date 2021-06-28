@@ -6,7 +6,7 @@ Before you investigate specific device configuration, verify the any policies as
 
 Open the **Microsoft Teams admin center**, and review the **Audio & video** section of the appropriate meeting policy, as shown in the following screenshot.
 
-:::image type="content" source="../media/av-settings.png" alt-text="A screenshot that displays the Audio & video meeting policy settings. Defaults are configured.":::
+:::image type="content" source="../media/audio-video-settings.png" alt-text="A screenshot that displays the Audio & video meeting policy settings. Defaults are configured.":::
 
 Ensure that the **Mode for IP audio** and **Mode for IP video** are both enabled. Also ensure that **Allow IP video** is enabled. 
 
@@ -17,7 +17,7 @@ Ensure that the **Mode for IP audio** and **Mode for IP video** are both enabled
 
 Specific network ports must be accessible in Teams. These can be reviewed or managed in the **Meeting settings** page in the **Microsoft Teams admin center**. Ensure that the audio and video ports are available. 
 
-:::image type="content" source="../media/sharing-ports.png" alt-text="A screenshot that displays the Network section of Meeting settings. Default values are displayed.":::
+:::image type="content" source="../media/share-ports.png" alt-text="A screenshot that displays the Network section of Meeting settings. Default values are displayed.":::
 
 ## Verify audio and video device configuration
 
@@ -52,7 +52,7 @@ If the audio and video devices work with Windows and with other Windows apps, th
 4. If necessary, make a test call. 
 5. Close Settings. 
 
-:::image type="content" source="../media/teams-av-settings.png" alt-text="A screenshot that displays the Device tab in Settings in the Teams desktop client.":::
+:::image type="content" source="../media/teams-audio-video-settings.png" alt-text="A screenshot that displays the Device tab in Settings in the Teams desktop client.":::
 
 ## Resolve issues with 4K/UHD monitors
 

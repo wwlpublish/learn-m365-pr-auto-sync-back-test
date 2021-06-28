@@ -44,7 +44,7 @@ An auto attendant directs callers to an appropriate person or department based o
 
 Auto attendant and call queue often work together. The best way to avoid issues with auto attendant and call queues is to plan carefully the call flow, as displayed in the following example.
 
-:::image type="content" source="../media/attendant-and-queue-call-routing.png" alt-text="A diagram that displays how calls are handled with auto attendants and call queues.":::
+:::image type="content" source="../media/attendant-queue-call-routing.png" alt-text="A diagram that displays how calls are handled with auto attendants and call queues.":::
 
 In the preceding example: 
 
