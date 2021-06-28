@@ -4,7 +4,7 @@ Media flow is the term used for Microsoft Team’s real-time audio and video tra
 ## Understand media flow
 For the best user experience Teams tries to establish a peer-to-peer connection over UDP. That isn’t always possible, however, as client devices are often on different networks, behind firewalls, and use NAT servers. To always provide the optimal experience, Teams uses Transport Relays (TR) to enable users to connect using UDP, TCP or HTTP. The Transport Relay is a cloud server providing ICE, STUN, and TURN services.
 
-:::image type="content" source="../media/transport-relay-UDP.png" alt-text="Transport relays":::
+:::image type="content" source="../media/transport-relay-udp.png" alt-text="Transport relays":::
 
 ICE is the interactive connectivity establishment standard that allows peer-to-peer communication between devices on different networks. STUN and TURN are part of ICE and act as transport relay servers to allow packets with a changed source address to deliver the media information inside.
 
@@ -16,7 +16,7 @@ So how do ICE, STUN and TURN work?
 
 By using the signalling connection, which all devices can establish, the STUN and TURN servers ensure the media packets can flow through to their correct destination. See **Learn More**  for a link to the *Media in Teams – Media Flow* video.
 
-:::image type="content" source="../media/transport-relay-UDP-ports.png" alt-text="Transport relay ports":::
+:::image type="content" source="../media/transport-relay-udp-ports.png" alt-text="Transport relay ports":::
 
 ##Troubleshooting media quality between Teams devices
 
