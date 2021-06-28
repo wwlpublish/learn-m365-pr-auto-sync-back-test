@@ -1,6 +1,6 @@
 Channels in Teams allows users to organize their work by topic, project, or whichever way is most appropriate to the Team.
 
-:::image type="content" source="../images/Teams-Channels-1.png" alt-text="Teams Channels":::
+:::image type="content" source="../media/teams-channels-1.png" alt-text="Teams Channels":::
 
 There are three types of channels:
 
@@ -8,7 +8,7 @@ There are three types of channels:
 - **Public** channels are added for specific purposes and include all Team members.
 - **Private** channels are added for specific purposes but only include certain members of the Team. Private channels display a padlock symbol.
 
-:::image type="content" source="../images/Private-Channel-1.png" alt-text="Private Channel"::: 
+:::image type="content" source="../media/private-channel-1.png" alt-text="Private Channel"::: 
 
 Within each Channel, there are three default tabs – **Posts**, **Files**, and **Wiki**. Users can also **Add a tab +** to create more tabs. Tabs might include **Lists**, **Tasks**, a **Whiteboard**, or apps that are relevant to the team.
 
@@ -39,7 +39,7 @@ Check the teams policy assigned to the user. In the **Teams admin center > Teams
 
 This is by design. Public channels cannot be changed to private channels, and private channels cannot become public channels.
 
-:::image type="content" source="../images/ManageTeams-Policies.png" alt-text="Manage Teams Policies":::
+:::image type="content" source="../media/manage-teams-policies.png" alt-text="Manage Teams Policies":::
 
 ## Identify limitations for private channels
 

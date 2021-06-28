@@ -54,7 +54,7 @@ quiz:
     - content: "Teams admin center > Users > Teams > Update policies."
       isCorrect: false
       explanation: "That's incorrect. Update policies does not determine whether users can create private channels. Update policies determine how users see pre-release or preview features."
-    - content: ") Teams admin center > Users > Teams > Manage teams"
+    - content: "Teams admin center > Users > Teams > Manage teams"
       isCorrect: false
       explanation: "That's incorrect. Manage teams does not determine whether users can create private channels."
     - content: "Teams admin center > Users > Teams > Manage policies"
