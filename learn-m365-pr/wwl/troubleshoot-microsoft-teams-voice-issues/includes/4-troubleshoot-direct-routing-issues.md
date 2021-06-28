@@ -49,7 +49,8 @@ To ensure interoperability between the SBC and Phone System Direct Routing, crea
 
 A dial plan translates a shortened version of a number, such as an extension number, into a unique number that adheres to an international dialling standard usually E.164. Dial plans are implemented in the Microsoft Teams admin center using regular expressions to create a set of normalization rules. These rules allow users to keep numbers they are familiar with, which are then translated into internationally unique numbers.
 
-**Tip:** Before creating dial plans and normalization rules, decide on an organization-wide naming convention. This will reduce errors and improve understanding when troubleshooting problems. Names should be descriptive so that anyone can understand their purpose.
+> [!TIP] 
+> Before creating dial plans and normalization rules, decide on an organization-wide naming convention. This will reduce errors and improve understanding when troubleshooting problems. Names should be descriptive so that anyone can understand their purpose.
 
 There are three different types of dial plan which are used in order. That means that if you haven’t modified any dial plan, then the service dial plan will be used. If you modify the tenant global dial plan, that will be used in combination with the user dial plan. Finally, the user dial plan is used.
 
@@ -65,7 +66,8 @@ Each dial plan must have one or more normalization rules, which are created usin
 
 Normalization rules are used in sequence. When a number is dialled, the first matching rule will be used, and all other rules ignored. Create the most restrictive rules first, followed by less restrictive rules.
 
-**Tip:** Create PowerShell scripts to create dial plans. Scripts allow more than one person to check the rules before the script is run. You can add comments to a script to make it more understandable. Scripts are also easier to update, without introducing other errors. To create dial plan scripts, you will need the Teams PowerShell module.
+> [!TIP] 
+> Create PowerShell scripts to create dial plans. Scripts allow more than one person to check the rules before the script is run. You can add comments to a script to make it more understandable. Scripts are also easier to update, without introducing other errors. To create dial plan scripts, you will need the Teams PowerShell module.
 
 ## Troubleshooting normalization rules
 

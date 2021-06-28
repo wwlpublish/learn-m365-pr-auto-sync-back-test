@@ -28,7 +28,8 @@ By using the signalling connection, which all devices can establish, the STUN an
 - In the meetings policy, set the maximum bandwidth for users. This is an average limit, not a peak limit, and stops high usage clients using too much bandwidth and reducing quality for others.  
 - Check that packet shaper or packet inspection devices are not installed.
 
-**TIP:** Do not use any kind of packet snipper, packet inspection, or packet shaper devices. These can degrade the Teams media traffic quality significantly.
+> [!TIP] 
+> Do not use any kind of packet snipper, packet inspection, or packet shaper devices. These can degrade the Teams media traffic quality significantly.
 
 ## Call Quality Dashboard
 
@@ -71,7 +72,8 @@ When troubleshooting Teams, there are three types of logs you can use:
 
 Media logging is turned off by default. To log diagnostic data for Teams meetings, users must turn on the option in the Teams client. From the Teams client top status bar, select **Settings and more (…)**, select **Settings > General**, then select the **Enable logging for meeting diagnostics (requires restarting Teams)**. The user must then restart Teams and reproduce the issue.
 
-**TIP:** Sign out and log back into the Teams client after selecting **Enable logging for meeting diagnostics (requires restarting Teams)**. Just closing Teams and opening it again in not sufficient. Although the setting appears to have been saved, the changes won't take effect without signing out and logging back in again.
+> [!TIP] 
+> Sign out and log back into the Teams client after selecting **Enable logging for meeting diagnostics (requires restarting Teams)**. Just closing Teams and opening it again in not sufficient. Although the setting appears to have been saved, the changes won't take effect without signing out and logging back in again.
 
 :::image type="content" source="../media/enable-logging.png" alt-text="Enable logging for meeting diagnostics":::
 
@@ -79,7 +81,8 @@ Collect the logs as soon as the issue occurs. Right-click the Teams icon in the 
 
 Most logs are text-based and are read from the bottom-up. They can be read using any text-based editor, and new logs are created when logging into the client.
 
-**TIP:** Media-stack, skylib logs are encrypted. These may be requested by Microsoft support engineers who can decrypt them.
+> [!TIP] 
+> Media-stack, skylib logs are encrypted. These may be requested by Microsoft support engineers who can decrypt them.
 
 Debug logs show login, connection requests and call/conversion data flows. Media files contain information related to the media stack. Individual log files contain different information. See the link in Learn more for details of each log file.
 
