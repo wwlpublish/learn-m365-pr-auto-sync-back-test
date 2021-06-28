@@ -9,6 +9,7 @@ metadata:
   author: alistairmatthews
   ms.author: v-alimat
   ms.topic: interactive-tutorial
+  ms.prod: learning-m365
 durationInMinutes: 7
 content: |
-  [!include[](includes/3-behavioral-blocking-containment.md)]
+  [!include[](includes/behavioral-blocking-containment.md)]

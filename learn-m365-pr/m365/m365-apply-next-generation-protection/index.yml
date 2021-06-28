@@ -3,20 +3,21 @@ uid: learn-m365-pr.apply-next-generation-protection-with-microsoft-defender-for-
 metadata:
   moduleType: standard
   title: Apply next-generation protection with Microsoft Defender for Endpoint
-  description: Learn about next generation protection in Microsoft Defender for Endpoint.
+  description: Learn about next generation protection in Microsoft Defender for Endpoint, including capabilities such as cloud-delivered protection, client behavioral blocking and containment, always-on protection, feedback-loop blocking, and more.
   ms.date: 05/12/2021
   author: alistairmatthews
   ms.author: v-alimat
   ms.topic: interactive-tutorial
+  ms.prod: learning-m365
 title: Apply next-generation protection with Microsoft Defender for Endpoint
-summary: Learn about next generation protection in Microsoft Defender for Endpoint.
+summary: Learn about next generation protection in Microsoft Defender for Endpoint, including capabilities such as cloud-delivered protection, client behavioral blocking and containment, always-on protection, feedback-loop blocking, and more.
 abstract: | 
   By the end of this module, you'll be able to: 
-    - Describe Microsoft Defender Antivirus.
-    - Describe behavioral blocking and containment.
+  - Understand Microsoft Defender for Endpoint’s next-generation protection
+  - Understand behavioral blocking and containment.
 prerequisites: | 
   - Basic familiarity with Microsoft Defender for Endpoint.
-iconUrl: https://docs.microsoft.com/media/learn/module.svg
+iconUrl: /learn/achievements/generic-badge.svg
 levels: 
   - beginner
 roles: 
