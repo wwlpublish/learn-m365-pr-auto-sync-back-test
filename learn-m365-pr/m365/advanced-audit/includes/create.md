@@ -74,8 +74,7 @@ Audit log retention policies can be created using the Microsoft 365 compliance c
 |  Users | Select one or more users to apply the policy to. If you leave this box blank, then the policy will apply to all users. If you leave Users blank, you must select a Record Type.  |
 |  Record Type | The audit record type the policy applies to. If you select more than one record type, you can't select activities because the policy will apply to all activities for the selected record types. Also, if you leave Record Type blank, you must select a User.  |
 |   Operations| This option is only visible if you select a Record Type. Use this box to choose activities from the record type you selected. You can choose specific activities to apply the policy to. If you do not choose specific activities, the policy will apply to all activities of the selected record type.  |
-|  Duration | The amount of time to retain the audit log activities that meet the policy criteria.
-	  |
+|  Duration | The amount of time to retain the audit log activities that meet the policy criteria.|
 | Priority  | This value determines the order in which audit log retention policies are processed. A higher value indicates a higher priority. For example, a policy with a priority value of 5 would take priority over a policy with a priority value of 0. Custom audit log retention policies take precedence over the default policy for your organization.  |
 
 There is no visual feedback indicating the audit retention policy is created. The list of audit log retention policies is available via the PowerShell cmdlet *Get-UnifiedAuditLogRetentionPolicy*. An example of how to use this cmdlet is provided later in this course.
