@@ -15,18 +15,18 @@ content: |
 quiz:
   title: Check your knowledge
   questions:
-  - content: "You want to enable your Chrome users to run a website with hardware-based isolation. You enable the rule in block mode but events indicate that Chrome is not using hardware-based isolation. What should you do?"
+  - content: "You want your users to only be able to run applications that are trusted. What will you use?"
     choices:
-    - content: "Instruct Chrome users to open the site in Microsoft Edge"
+    - content: "Application control"
       isCorrect: true
-      explanation: "That's correct. Hardware-based isolation is only supported for Microsoft Edge."
-    - content: "Change the rule to run in audit mode"
+      explanation: "That's correct. With application control, you can ensure your users only run apps that are safe."
+    - content: "Controlled folder access"
       isCorrect: false
-      explanation: "That's incorrect. In audit mode, rules are triggered and events are recorded but the rules are not enforced. This situation does not address the problem."
-    - content: "Ensure that there is at least 5 GB of available disk space on the client computers."
+      explanation: "That's incorrect. This technology won't enable you to prevent your users from running unsafe apps."
+    - content: "Hardware-based isolation"
       isCorrect: false
-      explanation: "That's incorrect. Although hardware-based isolation requires 5 GB of available disk space, this issue is not addressed by that change."
-  - content: "You want to ensure that users of Chrome, Edge, and a custom app that your company uses cannot access a specific custom domain on the internet. Which type of attack surface reduction rule should you use?"
+      explanation: "That's incorrect. This technology won't enable you to prevent your users from running unsafe apps."
+  - content: "You want to ensure that users of Chrome, Microsoft Edge, and a custom app that your company uses cannot access a specific custom domain on the internet. Which attack surface reduction capability should you use?"
     choices:
     - content: "Network protection"
       isCorrect: true
