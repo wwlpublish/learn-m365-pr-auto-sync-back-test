@@ -20,7 +20,8 @@ To assign the upgrade mode for users, go to the **Microsoft Teams Admin center**
 
 Depending on which client people are using, and whether they are communicating in-tenant or cross-tenant, chat will either be plain text or have rich formatting options available.
 
-**NOTE:** Skype for Business Online should upgrade to Teams, or for specific cases migrate to Skype for Business on-premises.
+> [!NOTE] 
+> Skype for Business Online should upgrade to Teams, or for specific cases migrate to Skype for Business on-premises.
 
 From|To|In-tenant, pure online, or hybrid |Cross-tenant federation configured in both tenant
 ---|---|---|---
@@ -74,4 +75,5 @@ Check whether you are in **Islands** or **Teams Only** mode. If you are in **Isl
 
 Check the users upgrade mode. **Teams Only** modes does not allow a user to initiate a Skype for Business chat, call, or meeting.
 
-**Tip:** Coexistence modes will continue to exist after the retirement of Skype for Business Online on July 31, 2021. Upgrade users to Microsoft Teams before that date, otherwise they will be automatically scheduled for an assisted upgrade. It is recommended that you plan and implement the upgrade yourself, using Microsoft’s upgrade guidance. See the **Learn More** section for more information.
+> [!TIP] 
+> Coexistence modes will continue to exist after the retirement of Skype for Business Online on July 31, 2021. Upgrade users to Microsoft Teams before that date, otherwise they will be automatically scheduled for an assisted upgrade. It is recommended that you plan and implement the upgrade yourself, using Microsoft’s upgrade guidance. See the **Learn More** section for more information.

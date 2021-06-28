@@ -11,8 +11,8 @@ By default, these two options are set to **On**:
 
 In addition, you can specifically:
 
-1 Add a domain to allow communication with users from that domain.
-2 Block a domain, to prevent communication with users from that domain.
+1. Add a domain to allow communication with users from that domain.
+2. Block a domain, to prevent communication with users from that domain.
 
 Select **Add a domain**, enter the **domain name**, and select whether it should be **allowed** or **blocked**.
 
