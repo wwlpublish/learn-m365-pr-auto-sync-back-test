@@ -4,7 +4,7 @@ title: Knowledge check
 metadata:
   title: Knowledge check
   description: "Knowledge check"
-  ms.date: 06/02/2021
+  ms.date: 06/28/2021
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -31,10 +31,10 @@ quiz:
     choices:
     - content: "Office 365 E3"
       isCorrect: false
-      explanation: "That's incorrect. This plan does not provide the ability to install Office 2019 apps locally, whether it's on a Mac or Windows computer. Try again."
+      explanation: "That's incorrect. This plan doesn't provide the ability to install Office 2019 apps locally, whether it's on a Mac or Windows computer. Try again."
     - content: "Office 365 F3"
       isCorrect: false
-      explanation: "That's incorrect. This plan does not provide the ability to install Office 2019 apps locally, whether it's on a Mac or Windows computer. Try again."
+      explanation: "That's incorrect. This plan doesn't provide the ability to install Office 2019 apps locally, whether it's on a Mac or Windows computer. Try again."
     - content: "Microsoft 365 Apps for enterprise"
       isCorrect: true
       explanation: "That's correct. Only Microsoft 365 Apps for enterprise provides the ability to install Office 2019 apps locally, whether it's a Mac or Windows computer."
