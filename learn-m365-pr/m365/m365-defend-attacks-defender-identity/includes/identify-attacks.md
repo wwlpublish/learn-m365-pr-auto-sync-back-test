@@ -10,8 +10,8 @@ Attackers’ attempts to obtain identity information from your organization, are
 - Attempts to modify the keys and directory structure for a domain.
 - Unexpected exfiltration of sensitive data from a service or computer.
 
-Attackers often perform these tasks as a series of phases. For example, the *Reconnaissance phase* is often the starting point for an attacker, followed by the *Compromise* phase to gain a foothold in your system by gaining access to a weakly protected computer, service, or user account. At this point, the compromised account can be used by the attacker in the *Collection phase* to probe and infiltrate other parts of your system by gathering information about other more valuable accounts and assets in your environment. 
-S
+Attackers often perform these tasks as a series of phases. For example, the *Reconnaissance phase* is often the starting point for an attacker, followed by the *Compromise* phase to gain a foothold in your system by gaining access to a weakly protected computer, service, or user account. At this point, the compromised account can be used by the attacker in the *Collection phase* to probe and infiltrate other parts of your system by gathering information about other more valuable accounts and assets in your environment.
+
 An attacker may take an incremental approach, taking advantage of lateral movement paths (described later) to gain access to accounts with increasing privileges until they gain rights over your entire domain. At this point, the attacker can modify the security structure of the domain, replace encryption keys, grant and deny rights to users, and read or write any data in the domain. This stage is known as the Domain dominance phase. Once an attacker has control, they might transfer the account and security data (keys, passwords, and so on) to an off-site location for subsequent use. This stage is the *Exfiltration* phase. At some point in the future, this information could be used to launch a  larger attack on the system, or steal data from the organization.
 
 :::image type="content" source="../media/attack.png" alt-text="A diagram that shows the phases of an attack.":::
