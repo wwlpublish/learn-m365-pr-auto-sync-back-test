@@ -3,7 +3,7 @@ Most teams have added one or more channels to focus on specific tasks. This is w
 
 In this module you will learn how to troubleshoot the issues that arise in public and private channels, including working with apps. You will learn how to configure and validate app permission policies, and setup policies. You will also learn how to define permissions and policies for public and private channels.
 
-After completing this module, you’ll be able to:
+After completing this module, you’ll be able to: 
 
 - Describe how to troubleshoot app issues in channels.
 - Understand how to configure app permission and setup policies. 
