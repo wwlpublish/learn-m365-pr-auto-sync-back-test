@@ -7,7 +7,7 @@ Co-management requires the following licenses:
  -  **Azure AD Premium.** An Enterprise Mobility + Security (EMS) subscription includes both Azure Active Directory Premium and Microsoft Intune.
  -  **Intune.** At least one Intune license for you as the administrator to access the Intune portal. An Intune license must be assigned to the account that you use to sign in to your tenant. Otherwise, sign in will fail.
     
-    You may not need to purchase and assign individual Intune or EMS licenses to your users. For more information, see the [Product and licensing FAQ](/mem/configmgr/core/understand/product-and-licensing-faq#what-changes-with-licensing-for-co-management-in-microsoft-endpoint-manager-?azure-portal=true).
+    You may not need to purchase and assign individual Intune or EMS licenses to your users. For more information, see the [Product and licensing FAQ](https://docs.microsoft.com/mem/configmgr/core/understand/product-and-licensing-faq#what-changes-with-licensing-for-co-management-in-microsoft-endpoint-manager-?azure-portal=true).
 
 ### Configuration Manager
 
@@ -30,11 +30,11 @@ Windows 10 devices must be connected to Azure AD. They can be either of the foll
 There are two prerequisites to using Intune - setting it up and enabling Windows 10 automatic enrollment. For detailed information on the steps involved in these tasks, see the following links:
 
  -  [Set up Intune](/intune/setup-steps).<br>
- -  [Enable Windows 10 automatic enrollment](/intune/windows-enroll#enable-windows-10-automatic-enrollment?azure-portal=true).
+ -  [Enable Windows 10 automatic enrollment](https://docs.microsoft.com/intune/windows-enroll#enable-windows-10-automatic-enrollment?azure-portal=true).
 
 ### Windows 10
 
-Upgrade your devices to Windows 10, version 1709 or later. For more information, see [Adopting Windows as a service](/mem/configmgr/core/understand/configuration-manager-and-windows-as-service#key-articles-about-adopting-windows-as-a-service?azure-portal=true).
+Upgrade your devices to Windows 10, version 1709 or later. For more information, see [Adopting Windows as a service](https://docs.microsoft.com/mem/configmgr/core/understand/configuration-manager-and-windows-as-service#key-articles-about-adopting-windows-as-a-service?azure-portal=true).
 
 > [!IMPORTANT]
 > Windows 10 mobile devices don't support co-management.<br>
