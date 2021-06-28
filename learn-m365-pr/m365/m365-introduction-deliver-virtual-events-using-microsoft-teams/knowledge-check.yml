@@ -1,0 +1,60 @@
+### YamlMime:ModuleUnit
+uid: learn-m365-pr.introduction-delivering-virtual-events-using-microsoft-teams-microsoft-365.knowledge-check
+title: Knowledge check ### Do not edit: use "Knowledge check" as the title; also, don't add another title in the quiz element or an associated markdown page (if such a markdown page exists which is rare)
+metadata:
+  unitType: knowledge_check
+  title: Knowledge check
+  description: Check what you've learned through this module
+  ms.date: 05/19/2021
+  author: lizap
+  ms.author: elizapo
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 3 
+content: |
+quiz:
+  questions:
+  - content: "You are bringing together your event team for this year's virtual summit. You know you'd like someone to be able to watch the chat and help people mute and unmute themselves. What role is best suited to these tasks?"
+    choices:
+    - content: "Producer"
+      isCorrect: false
+      explanation: "That's incorrect. The producer is responsible for starting and stopping the events, queuing content, and managing back stage chat."
+    - content: "Moderator"
+      isCorrect: true
+      explanation: "That's correct. The moderator helps facilitate the smooth running of the event, manages the chat room and Q & A."
+    - content: "Organizer"
+      isCorrect: false
+      explanation: "That's incorrect. The organizer is the event host and create the event in Microsoft Teams. They'll curate and send out the invites."
+  - content: "You're reviewing the slides for the first day of your summit. The presenter has used large bold text with a color contrast ratio of 4.5:1. Is this OK for accessibility?"
+    choices:
+    - content: "4.5:1 is the minimum contrast ratio, so the slides are as accessible as they can be."
+      isCorrect: false
+      explanation: "That's incorrect. 4.5:1 is the minimum requirement for accessibility. The slide could be made more accessible with a different value."
+    - content: "3:1 is the preferable color contrast for large text. So, they could be more accessible if changed."
+      isCorrect: true
+      explanation: "That's correct. 3:1 is the recommended color contrast."
+    - content: "2:1 is what's required for all color contrast content, the size of the text doesn't matter."
+      isCorrect: false
+      explanation: "That's incorrect. 2:1 isn't a required contrast ration, and there are different values depending on the size of text."
+  - content: "Your keynote presentation is expected to have over 5,000 internal and external people attending. You're also going to moderate Q&A during the event. Which is the best type of Live Event to run?"
+    choices:
+    - content: "Live Event in Microsoft Teams"
+      isCorrect: true
+      explanation: "That's correct. Microsoft Teams can be used with Live Events with less than 20,000 people viewing and allows for internal and external attendees."
+    - content: "Live Event in Yammer"
+      isCorrect: false
+      explanation: "That's incorrect. Yammer doesn't allow external attendees."
+    - content: "Live Event in Stream"
+      isCorrect: false
+      explanation: "That's incorrect. However, you could use a Live Event in Stream if moderated Q&A wasn't a requirement."
+  - content: "You've polled your attendees about the kinds of devices they'll use to attend your event. Which of these devices support Teams?"
+    choices:
+    - content: "Android tablet running the fifth previous version of Android."
+      isCorrect: false
+      explanation: "That's incorrect. Android is supported up to the last four versions."
+    - content: "A Windows 7 machine with all the latest patches and updates."
+      isCorrect: false
+      explanation: "That's incorrect. Windows 8 is the oldest version of Windows supported."
+    - content: "An iPod touch running last year's version of iOS."
+      isCorrect: true
+      explanation: "That's correct. All iOS devices are supported back to the last two versions of iOS."
