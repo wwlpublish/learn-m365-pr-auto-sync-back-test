@@ -7,7 +7,7 @@ Now that you've completed this module, you should be able to:
 
 ## Learn more
 
-- [Next-generation protection](microsoft-365/security/defender-endpoint/microsoft-defender-antivirus-in-windows-10)
+- [Next-generation protection](/microsoft-365/security/defender-endpoint/microsoft-defender-antivirus-in-windows-10)
 - [Use next-generation technologies in Microsoft Defender Antivirus through cloud-delivered protection](/microsoft-365/security/defender-endpoint/cloud-protection-microsoft-defender-antivirus)
 - [Enable and configure Microsoft Defender Antivirus always-on protection in Group Policy](/microsoft-365/security/defender-endpoint/configure-real-time-protection-microsoft-defender-antivirus)
 - [Turn on block at first sight](/microsoft-365/security/defender-endpoint/configure-block-at-first-sight-microsoft-defender-antivirus)
