@@ -12,7 +12,7 @@ When users experience problems with initiating shared content in a meeting, revi
 
 To review the content sharing settings, open the **Microsoft Teams admin center**, and review the **Content sharing** section of the appropriate meeting policy, as shown in the following screenshot.
 
-:::image type="content" source="../media/sharing-settings.png" alt-text="A screenshot that displays the Content sharing section in a meeting policy. All values displayed are defaults.":::
+:::image type="content" source="../media/share-settings.png" alt-text="A screenshot that displays the Content sharing section in a meeting policy. All values displayed are defaults.":::
 
 The following table describes content sharing policy settings.
 
@@ -42,4 +42,4 @@ The **Allow a participant to give or request control** setting is per-user only.
 
 Specific network ports must be accessible for screen sharing in Teams. These can be reviewed or managed in the **Meeting settings** page in the **Microsoft Teams admin center**. For sharing, the default network ports are: 50040 to 50059. 
 
-:::image type="content" source="../media/sharing-ports.png" alt-text="A screenshot that displays the Network section of Meeting settings. Default values are displayed.":::
+:::image type="content" source="../media/share-ports.png" alt-text="A screenshot that displays the Network section of Meeting settings. Default values are displayed.":::

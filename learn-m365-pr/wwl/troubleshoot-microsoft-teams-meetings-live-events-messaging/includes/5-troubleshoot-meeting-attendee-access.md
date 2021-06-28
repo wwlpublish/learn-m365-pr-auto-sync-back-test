@@ -41,13 +41,13 @@ If you experience persistent sign in issues when joining meetings, consider clea
 3. Restart Teams and try to sign in to your meeting.
 4. If that doesn’t resolve the issue, in **%appdata%\Microsoft\Teams**, consider deleting the contents of the following subfolders:
 
-   - \application cache\cache
-   - \blob_storage
-   - \databases
-   - \GPUcache
-   - \IndexedDB
-   - \Local Storage
-   - \tmp
+    - \application cache\cache
+    - \blob_storage
+    - \databases
+    - \GPUcache
+    - \IndexedDB
+    - \Local Storage
+    - \tmp
 
 5. Restart Teams and try to sign in to your meeting.
 

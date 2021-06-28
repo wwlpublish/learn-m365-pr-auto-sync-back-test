@@ -9,7 +9,7 @@ A good place to start is by reviewing the audio and video policy settings for th
 
 Open the **Microsoft Teams admin center**, and review the **Audio & video** section of the appropriate meeting policy, as displayed in the following screenshot.
 
-:::image type="content" source="../media/av-settings.png" alt-text="A screenshot that displays the Audio & video meeting policy settings. Defaults are configured.":::
+:::image type="content" source="../media/audio-video-settings.png" alt-text="A screenshot that displays the Audio & video meeting policy settings. Defaults are configured.":::
 
 
 There are several settings in this section, but the one relevant to recordings is **Allow cloud recording**. This setting is a per-organizer and per-user policy. The setting determines whether a user’s meeting can be recorded. Depending on settings, the recording can be started by:
