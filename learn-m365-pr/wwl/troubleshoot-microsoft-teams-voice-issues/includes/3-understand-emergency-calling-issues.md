@@ -5,7 +5,7 @@ To configure dynamic emergency calling:
 1.	First, check the supported clients for emergency calling.
 2.	Assign emergency addresses. In the, from the left navigation select Locations > Emergency addresses.  Enter a location name and description. Select the country or region and the find the address or edit the address manually. Select Save. 
 3.	The network administrator must configure the network settings and Location Information Service (LIS). The LIS returns the location, which is then sent as part of the emergency call. Direct Routing requires the session border controller to be configured to send calls to the Emergency Routing Service (ERS) provider. If you have an emergency location identification number (ELIN) application integrated with your Direct Routing deployment, you also need to associate the emergency addresses with telephone numbers. 
-4.	Configure Location Information Service using the Microsoft Teams admin center or using PowerShell scripts. In the Teams admin center, in the left navigation, go to Locations > Networks & locations. You can then select a network identifier to add, such as a Subnets, Wi-Fi access points, Switches, or Ports. Complete the fields, add an emergency location, and select Apply. 
+4.	Configure Location Information Service using the Microsoft Teams admin center or using PowerShell scripts. In the Teams admin center, in the left navigation, go to Locations > Networks & locations. You can then select a network identifier to add, such as a Subnet, Wi-Fi access points, Switches, or Ports. Complete the fields, add an emergency location, and select Apply. 
 5.	Enable users and sites. Finally, assign emergency call routing policies and emergency calling policies. 
 
 ## Test emergency calling
@@ -16,7 +16,7 @@ For users located in the United States, some Emergency Routing Service Providers
 
 ### Troubleshooting emergency calling
 Before troubleshooting emergency calling issues, always check that the client’s public IP address is added to the tenant trusted IP list. 
-If you use Phone System Direct Routing and the error message Update the TeamsEmergencyCallRouting Policy to avoid emergency call failures is displayed, you need to update your Teams Emergency Call Routing policy. Previously, a ‘+’ was inserted before a dialled number but this was changed so that the number is sent as dialled. Update your Teams Emergency Call Routing policy to reflect this change. 
+If you use Phone System Direct Routing and the error message "Update the TeamsEmergencyCallRouting Policy to avoid emergency call failures" is displayed, you need to update your Teams Emergency Call Routing policy. Previously, a ‘+’ was inserted before a dialed number but this was changed so that the number is sent as dialed. Update your Teams Emergency Call Routing policy to reflect this change. 
 Also, check the session border controller logs. This will verify that calls are being routed to the correct SBC.
 
 ### Troubleshoot missing locations
@@ -28,14 +28,14 @@ If the dynamic emergency address is missing in Teams client settings, check the 
 
 ### Troubleshoot emergency phone normalization rules 
 
-The order in which normalization rules are listed in a tenant dial plan is important. The dialled number will be matched to the logic in the first rule, and if a match is made all other normalization rules will be ignored. Only if there is not a match will the second rule be applied.
+The order in which normalization rules are listed in a tenant dial plan is important. The dialed number will be matched to the logic in the first rule, and if a match is made all other normalization rules will be ignored. Only if there is not a match will the second rule be applied.
 
 You can also use the PowerShell **Get-CsEffectiveTenantDialPlan** cmdlet to understand which tenant dial plan normalization rules are applicable to a specific user. This cmdlet takes the user’s identity as the input parameter. For example. The following returns the effective tenant dial plan for Vt1_User1.
 
 **Get-CsEffectiveTenantDialPlan -Identity Vt1_User1**
 
 ### Troubleshoot dial mask issues. 
-A dial mask enables a number to be dialled, and then translated into the emergency services number. This allows users to dial numbers that are familiar to them, whilst still reaching emergency services. For each emergency number, you can specify zero or more emergency dial masks.  Dial masks are defined within emergency call routing policies.
+A dial mask enables a number to be dialed, and then translated into the emergency services number. This allows users to dial numbers that are familiar to them, whilst still reaching emergency services. For each emergency number, you can specify zero or more emergency dial masks.  Dial masks are defined within emergency call routing policies.
 
 As an example, if you add 112 as the emergency dial mask, which is the emergency service number for most of Europe, and 911 as the emergency dial string. A Teams user from Europe who is visiting may not know that 911 is the emergency number in the United States. When they dial 112, the call is automatically made to 911. To define multiple dial masks, separate each value by a semicolon. For example, 112;212.
 
