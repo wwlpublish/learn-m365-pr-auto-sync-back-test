@@ -66,7 +66,7 @@ You can also add policies specific to your users’ needs if the built-in polici
 ### Customize store
 To customize the Teams app store with your organization’s logo, corporate colors, background, and text color.
 
-:::image type="content" source="../images/Apps-Customiz-Store.png" alt-text="Customize store":::
+:::image type="content" source="../images/apps-customiz-store.png" alt-text="Customize store":::
 
 ## Personal and channel tabs
 
