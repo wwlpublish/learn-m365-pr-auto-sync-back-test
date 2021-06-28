@@ -1,5 +1,5 @@
 ### YamlMime:ModuleUnit
-uid: learn.wwl.plan-your-premises-infrastructure-for-microsoft-365.estimate-your-organizationss-bandwidth-requirements-to-support
+uid: learn.wwl.plan-your-premises-infrastructure-for-microsoft-365.estimate-your-organizations-bandwidth-requirements-to-support
 title: Estimate your organization's bandwidth requirements to support Microsoft 365
 metadata:
   title: Estimate your organization's bandwidth requirements to support Microsoft 365
@@ -12,4 +12,4 @@ metadata:
 azureSandbox: false
 durationInMinutes: 3
 content: |
-  [!include[](includes/4-estimate-your-organizationss-bandwidth-requirements-to-support.md)]
+  [!include[](includes/4-estimate-your-organizations-bandwidth-requirements-to-support.md)]
