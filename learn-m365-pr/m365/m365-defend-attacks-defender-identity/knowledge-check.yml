@@ -1,0 +1,38 @@
+### YamlMime:ModuleUnit
+uid: learn-m365-pr.defend-against-attacks-defender-identity.knowledge-check
+title: Knowledge check ### Do not edit: use "Knowledge check" as the title; also, don't add another title in the quiz element or an associated markdown page (if such a markdown page exists which is rare)
+metadata:
+  unitType: knowledge_check
+  title: Knowledge check
+  description: Knowledge check
+  ms.date: 04/26/2021
+  author: GeoffAllix
+  ms.author: beccarobins
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 3
+content: |
+quiz:
+  questions:
+  - content: "What is a lateral movement path?"
+    choices:
+    - content: "A potential link between two accounts caused by sharing access to resources."
+      isCorrect: true
+      explanation: "That's correct. A lateral movement path is a potential link between two accounts caused by sharing access to resources"
+    - content: "A means of transferring data from a machine on one network to a machine on another network."
+      isCorrect: false
+      explanation: "That's incorrect. A lateral movement path is not a means of transferring data from a machine on one network to a machine on another network."
+    - content: "A mechanism for decrypting data that doesn't require an encryption key."
+      isCorrect: false
+      explanation: "That's incorrect. A lateral movement path is not a mechanism for decrypting data that doesn't require an encryption key."
+  - content: "What is the exfiltration phase?"
+    choices:
+    - content: "When an attacker attempts to guess your users’ user names in your domain by sending sign-in requests to see which credentials works."
+      isCorrect: false
+      explanation: "Incorrect. The exploit is something that happens during the reconnaissance phase."
+    - content: "When an attacker transfers account and security data to an off-site location for subsequent use."
+      isCorrect: true
+      explanation: "That's correct. The passwords, keys, and other credentials could be used for a larger attack in the future."
+    - content: "When an attacker modifies the security structure of the domain, replace encryption keys, grant and deny rights to users, and read or write any data in the domain."
+      isCorrect: false
+      explanation: "Incorrect. The exploit is part of the domain dominance phase."
