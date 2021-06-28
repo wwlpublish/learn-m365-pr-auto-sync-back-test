@@ -1,6 +1,6 @@
 Users can chat one-to-one or in groups by selecting **New chat** at the top of the chat list and sending a message to start the chat. Users then enter the names of people they would like to add in the **To** field, up to 250 people.
 
-:::image type="content" source="../images/new-chat.png" alt-text="Start a new chat":::
+:::image type="content" source="../media/new-chat.png" alt-text="Start a new chat":::
 
 Teams saves all the chat history from the first message, even if someone leaves the group.
 
