@@ -38,7 +38,7 @@ The Teams Meeting add-in in Outlook enables users to schedule meetings from with
 - Meet Now 
 - New Teams Meeting
 
-:::image type="content" source="../media/teams-add-for-outlook.png" alt-text="A screenshot displays a portion of the Outlook ribbon in calendar view. Mett Now and New Teams Meeting tiles are displayed.":::
+:::image type="content" source="../media/teams-add-for-outlook.png" alt-text="A screenshot displays a portion of the Outlook ribbon in calendar view. Meet Now and New Teams Meeting tiles are displayed.":::
 
 In addition, if a user creates a new appointment, in the **untitled – Appointment** window, the add-in displays the **Teams Meeting** tile on the ribbon. 
 

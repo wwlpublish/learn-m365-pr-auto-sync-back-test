@@ -62,7 +62,7 @@ Depending on which plan you already have, the following add-on licenses are avai
 - Calling Plans. Enables the users to call any phone numbers outside of your business. 
 - Microsoft Teams Rooms. Enables you to use capable devices for connecting video, audio, and content sharing features to conference rooms.
 
-### Assign licences 
+### Assign licenses 
 
 To assign a license for audio conferencing and phone system features, switch to the Microsoft 365 admin center, and then:
 

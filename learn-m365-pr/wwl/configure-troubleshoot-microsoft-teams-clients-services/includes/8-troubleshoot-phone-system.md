@@ -5,8 +5,8 @@ You can connect Phone System to the PSTN in two ways:
 - Purchase a Microsoft Calling Plan. Review [Which Calling Plan is right for you?](/microsoftteams/calling-plan-landing-page) for more details.
 - Use your existing telephony infrastructure for on-premises PSTN connectivity.
 
->  [!TIP]
->  For your Teams users, you can connect your on-premises telephony infrastructure to Phone System by using Direct Routing.
+> [!TIP]
+> For your Teams users, you can connect your on-premises telephony infrastructure to Phone System by using Direct Routing.
 
 You can use Phone System to support the services described in the following table. 
 
@@ -17,8 +17,8 @@ You can use Phone System to support the services described in the following tabl
 | Voicemail       | Enables licensed users to access voicemail  that has been left by callers. |
 
 
->  [!NOTE]
->  After you assign a Phone System license and a phone number to a user, Cloud Voicemail is automatically set up and provisioned.
+> [!NOTE]
+> After you assign a Phone System license and a phone number to a user, Cloud Voicemail is automatically set up and provisioned.
 
 ## Verify Phone System set up and configuration
 
@@ -39,8 +39,8 @@ If you need to troubleshoot Phone System issues, you should be familiar with how
 
 An auto attendant directs callers to an appropriate person or department based on the caller's input to the provided menu options. A call queue is like a waiting room, but for phone calls. Callers wait on hold while calls are routed to the agents in the queue. 
 
->  [!TIP]
->  Call queues are often used for sales or service functions.
+> [!TIP]
+> Call queues are often used for sales or service functions.
 
 Auto attendant and call queue often work together. The best way to avoid issues with auto attendant and call queues is to plan carefully the call flow, as displayed in the following example.
 
@@ -60,8 +60,8 @@ It’s a good idea to create diagrams like this one to map out your call routing
 - What are the out of office hours and holiday routing requirements for your auto attendants?
 - The membership for each call queue. 
 
->  [!TIP] 
->  You can add users individually to a call queue, or map the queue to different kinds of groups. Mapping a queue to a group provides the most versatile experience.
+> [!TIP] 
+> You can add users individually to a call queue, or map the queue to different kinds of groups. Mapping a queue to a group provides the most versatile experience.
 
 ### Create auto attendants and call queues
 
@@ -88,5 +88,5 @@ If you experience auto attendant or call queuing issues, you should:
 - Review the configuration of your auto attendants and call flow
 - Gather Microsoft Teams logs for further analysis
 
->  [!NOTE]
->  Review the [Use log files to monitor and troubleshoot Microsoft Teams](/microsoftteams/log-files) document to learn how to enable and retrieve debug, media, and desktop logs.
+> [!NOTE]
+> Review the [Use log files to monitor and troubleshoot Microsoft Teams](/microsoftteams/log-files) document to learn how to enable and retrieve debug, media, and desktop logs.
