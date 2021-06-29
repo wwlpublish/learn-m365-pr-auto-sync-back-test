@@ -1,0 +1,32 @@
+### YamlMime:LearningPath
+uid: learn-m365.m365-enhance-security-organization-defender
+metadata:
+  title: Enhance the security of your organization with Microsoft 365 Defender
+  description: Microsoft 365 Defender leverages the Microsoft 365 security portfolio to analyze threat data automatically across domains, building a complete picture of an attack in a single dashboard. The Microsoft 365 Defender fundamentals learning path includes modules to introduce Microsoft 365 Defender, getting started, investigate incidents, advanced hunting, and self-healing.
+  ms.date: 06/29/2021
+  author: alistairmatthews
+  ms.author: beccarobins
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Enhance the security of your organization with Microsoft 365 Defender
+summary: "Microsoft 365 Defender leverages the Microsoft 365 security portfolio to analyze threat data automatically across domains, building a complete picture of an attack in a single dashboard. The Microsoft 365 Defender fundamentals learning path includes modules to introduce Microsoft 365 Defender, getting started, investigate incidents, advanced hunting, and self-healing."
+prerequisites: | 
+  - An understanding of basic security concepts
+iconUrl: /learn/achievements/generic-trophy.svg
+levels: 
+- beginner
+roles:
+- administrator
+- security-operations-analyst
+- security-engineer
+products: 
+- m365
+- mdatp
+modules:
+- learn-m365-pr.m365-introduction-to-microsoft-365-defender
+- learn-m365-pr.m365-getting-started-microsoft-365-defender
+- learn-m365-pr.m365-respond-incidents-using-microsoft-365-defender
+- learn-m365-pr.m365-locate-threats-using-advanced-hunting-microsoft-365-defender
+- learn-m365-pr.m365-automate-self-healing-microsoft-365-defender
+trophy: 
+  uid: learn-m365.m365-enhance-security-organization-defender.trophy
