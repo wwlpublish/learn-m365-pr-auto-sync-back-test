@@ -21,7 +21,7 @@ Share a link of a file stored in OneDrive by right clicking the file or folder, 
 
 File sharing in Teams is based on the settings configured in SharePoint and OneDrive, so whatever you set up for SharePoint and OneDrive will affect sharing in Teams.
 
-- **OneDrive admin centre > Sharing** defines OneDrive for Business file sharing settings. From here you can define settings for sharing in OneDrive and SharePoint.
+- **OneDrive admin center > Sharing** defines OneDrive for Business file sharing settings. From here you can define settings for sharing in OneDrive and SharePoint.
 - **SharePoint admin center > Policies > Sharing** defines SharePoint file sharing settings.
 
 ## Troubleshooting sharing OneDrive files
