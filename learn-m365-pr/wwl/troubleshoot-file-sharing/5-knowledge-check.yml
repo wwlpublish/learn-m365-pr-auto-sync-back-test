@@ -4,7 +4,7 @@ title: Knowledge Check
 metadata:
   title: Knowledge Check
   description: "Knowledge Check"
-  ms.date: 06/28/2021
+  ms.date: 06/29/2021
   author: wwlpublish
   ms.author: cyncarey
   ms.topic: interactive-tutorial
@@ -20,7 +20,7 @@ quiz:
     choices:
     - content: "In the Files tab, select Open in OneDrive"
       isCorrect: false
-      explanation: "That's incorrect. Teams files can be synchronised with OneDrive, but are stored in a SharePoint document library. The Files tab does not include an option to view files in OneDrive."
+      explanation: "That's incorrect. Teams files can be synchronized with OneDrive, but are stored in a SharePoint document library. The Files tab does not include an option to view files in OneDrive."
     - content: "In the Files tab, select Sync."
       isCorrect: false
       explanation: "That's incorrect. Sync allows you to sync Teams shared files with a user’s OneDrive. This will not help you troubleshoot a missing file."

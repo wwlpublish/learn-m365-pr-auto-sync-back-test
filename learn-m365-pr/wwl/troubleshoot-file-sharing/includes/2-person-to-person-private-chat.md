@@ -1,13 +1,13 @@
 Users can chat one-to-one or in groups by selecting **New chat** at the top of the chat list and sending a message to start the chat. Users then enter the names of people they would like to add in the **To** field, up to 250 people.
 
-:::image type="content" source="../media/new-chat.png" alt-text="Start a new chat":::
+:::image type="content" source="../media/new-chat.png" alt-text="Start a new chat" lightbox="../media/new-chat.png":::
 
 Teams saves all the chat history from the first message, even if someone leaves the group.
 
 To troubleshoot chat:
 
 - Users can restart Teams to force a refresh.
-- Check Messaging policies. From the **Teams admin center**, select **Messaging policies**. Messaging policies are used to control behaviour such as whether Giphy can be used in chat, whether users can delete sent messages, and chat permissions.
+- Check Messaging policies. From the **Teams admin center**, select **Messaging policies**. Messaging policies are used to control behavior such as whether Giphy can be used in chat, whether users can delete sent messages, and chat permissions.
 - Check the **Filter** option. If users receive a high volume of chat messages, they can set the filter option to reduce the number of displayed messages. The filter can be set to display only unread messages, meeting messages, or muted conversations.
 - If you want to retrieve old chat messages, from the **Office 365 Security & Compliance Admin Center > Search > Content Search > Guided Search**. Name your search, and add specific query conditions, such as **Type: IM** or **Type: Call**.
   
