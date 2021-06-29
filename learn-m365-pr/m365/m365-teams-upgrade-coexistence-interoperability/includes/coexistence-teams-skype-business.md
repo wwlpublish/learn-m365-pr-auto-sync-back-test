@@ -13,7 +13,7 @@ To avoid a confusing or regressed Skype for Business experience, external (feder
 > [!NOTE]
 > In Islands mode, all messages and calls from federated users (people outside your organization) are delivered to Skype for Business. After upgrading to TeamsOnly mode, all messages and calls from outside your organization are delivered to Teams.
 
-The recommended path for Skype for Business Online customers is to start with the default Islands mode, drive Teams adoption saturation in the organization, and then move to TeamsOnly mode rapidly. On premises and hybrid customers, especially complex ones, might benefit from deploying the Skype for Business with Teams Collaboration mode as a starting point rather than Islands mode, and progress from there to Skype for Business with Teams Collaboration and Meetings mode (that is, Meetings First), if appropriate, and to TeamsOnly mode when the organization is ready to adopt Teams.
+The recommended path for Skype for Business Online customers is to start with the default Islands mode, drive Teams adoption saturation in the organization, and then move to TeamsOnly mode rapidly. On-premises and hybrid customers, especially complex ones, might benefit from deploying the Skype for Business with Teams Collaboration mode as a starting point rather than Islands mode, and progress from there to Skype for Business with Teams Collaboration and Meetings mode (that is, Meetings First), if appropriate, and to TeamsOnly mode when the organization is ready to adopt Teams.
 
 ## Skype for Business only mode
 
@@ -33,7 +33,7 @@ As soon as your organization is ready for some or all users to use Teams as thei
 
 Use this mode to introduce Teams in your environment while you continue to take advantage of your existing investment in Skype for Business. In this mode, you leave Skype for Business unchanged for chat, calling, and meeting capabilities, and you add Teams collaboration capabilities—teams and channels, access to files in Microsoft 365, and applications. Teams communications capabilities—private chat, calling, and scheduling meetings—are off by default in this mode.
 
-Organizations with a starting point of Skype for Business Server on premises or hybrid should consider this mode as an alternative to Islands mode if they want to give users interoperability and predictability for their communications, as well as having a predictable timeline for their upgrade to Teams (as opposed to relying on adoption saturation in Islands mode).
+Organizations with a starting point of Skype for Business Server on-premises or hybrid should consider this mode as an alternative to Islands mode if they want to give users interoperability and predictability for their communications, as well as having a predictable timeline for their upgrade to Teams (as opposed to relying on adoption saturation in Islands mode).
 
 ## Skype for Business with Teams Collaboration and Meetings, also known as Meetings First mode
 
