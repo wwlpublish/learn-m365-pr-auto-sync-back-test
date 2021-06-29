@@ -97,7 +97,7 @@ Also, users in the same company may have cloud mailboxes that are located in dat
     
 
  -  Evaluate network delays to all potential Microsoft datacenters to help ensure the result is consistent and the experience for end users is consistent. Work with your ISP to address Internet-related issues.
- -  Add IP addresses for Microsoft datacenter servers to your allow list, or bypass all migration-related traffic from your network firewall. For more information about the Microsoft 365 IP ranges, see [Office 365 URLs and IP address ranges](https://support.office.com/article/office-365-urls-and-ip-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2#bkmk_home?azure-portal=true).
+ -  Add IP addresses for Microsoft datacenter servers to your allowlist, or bypass all migration-related traffic from your network firewall. For more information about the Microsoft 365 IP ranges, see [Office 365 URLs and IP address ranges](https://support.office.com/article/office-365-urls-and-ip-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2#bkmk_home?azure-portal=true).
 
 
   :::column-end:::
