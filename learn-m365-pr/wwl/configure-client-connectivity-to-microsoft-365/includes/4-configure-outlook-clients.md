@@ -11,7 +11,7 @@ MAPI over HTTP and Outlook Anywhere both use TCP port 443. If a client, such as 
 
 The following graphic shows the encapsulation of MAPI commands in RPC calls, MAPI commands in RPC calls in HTTP packages, and MAPI commands directly in HTTP packages. This graphic shows the progression from old to new protocols; that is, from RPC/tcp to RPC/http to MAPI/http.
 
-:::image type="content" source="../media/old-to-new-protocols-2589586f.jpg":::
+:::image type="content" source="../media/old-to-new-protocols-2589586f.jpg" alt-text="graphic shows the progression from old to new protocols, from RPC over tcp to RPC over http to MAPI over http":::
 
 
 **Additional reading.** For more information, see [MAPI over HTTP in Exchange 2016](https://go.microsoft.com/fwlink/?linkid=830370%3Fazure-portal%3Dtrue).
