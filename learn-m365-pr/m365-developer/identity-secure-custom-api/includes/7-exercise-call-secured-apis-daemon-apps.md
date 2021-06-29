@@ -100,9 +100,12 @@ Select **Grant admin consent for [Tenant Name]**. Select **Yes** to complete the
 
 ## Create a .NET Core console application
 
+> [!NOTE]
+> The instructions below assume you are using .NET 5. They were last tested using v5.0.202 of the .NET 5 SDK.
+
 Open your command prompt, navigate to a directory where you want to save your work.
 
-Execute the following command to create a new .NET core console application:
+Execute the following command to create a new .NET 5 console application:
 
 ```console
 dotnet new console -o ProductCatalogDaemon
