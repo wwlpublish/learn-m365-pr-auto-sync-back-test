@@ -88,4 +88,4 @@ Upon acceptance, they are put in the Teams meeting; they must start sharing from
 
 Meanwhile, the Skype for Business user receives an incoming chat message with the link to the meeting and is guided to join.
 
-This escalation to a Teams meeting is available for both in-tenant interoperability and cross-tenant federated calls and chats. It is on by default and there is no setting the administrator has to provision. However, it is turned off for the user if the administrator sets `-AllowPrivateMeetNow` in `CsTeamsMeetingPolicy to $false.
+This escalation to a Teams meeting is available for both in-tenant interoperability and cross-tenant federated calls and chats. It is on by default and there is no setting the administrator has to provision. However, it is turned off for the user if the administrator sets `-AllowPrivateMeetNow` in `CsTeamsMeetingPolicy` to `$false`.
