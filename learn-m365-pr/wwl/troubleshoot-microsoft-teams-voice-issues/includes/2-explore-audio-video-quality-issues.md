@@ -4,27 +4,27 @@ Media flow is the term used for Microsoft Team’s real-time audio and video tra
 ## Understand media flow
 For the best user experience Teams tries to establish a peer-to-peer connection over UDP. That isn’t always possible, however, as client devices are often on different networks, behind firewalls, and use NAT servers. To always provide the optimal experience, Teams uses Transport Relays (TR) to enable users to connect using UDP, TCP or HTTP. The Transport Relay is a cloud server providing ICE, STUN, and TURN services.
 
-:::image type="content" source="../media/transport-relay-udp.png" alt-text="Transport relays":::
+
 
 ICE is the interactive connectivity establishment standard that allows peer-to-peer communication between devices on different networks. STUN and TURN are part of ICE and act as transport relay servers to allow packets with a changed source address to deliver the media information inside.
 
 So how do ICE, STUN and TURN work?
 
-- First a signalling connection is established. Teams uses REST API via https and WebSockets to establish the signalling connection to the cloud.
+- First a signaling connection is established. Teams uses REST API via https and WebSockets to establish the signaling connection to the cloud.
 - Once Teams has a connection to the cloud, the STUN and TURN servers relay the packets.
 - The STUN and TURN servers enable a device behind a firewall to set up a UDP connections and send and receive data through intermediary servers.
 
-By using the signalling connection, which all devices can establish, the STUN and TURN servers ensure the media packets can flow through to their correct destination. See **Learn More**  for a link to the *Media in Teams – Media Flow* video.
+By using the signaling connection, which all devices can establish, the STUN and TURN servers ensure the media packets can flow through to their correct destination. See **Learn More**  for a link to the *Media in Teams – Media Flow* video.
 
-:::image type="content" source="../media/transport-relay-udp-ports.png" alt-text="Transport relay ports":::
 
-##Troubleshooting media quality between Teams devices
+
+## Troubleshoot media quality between Teams devices
 
 - Use Local Internet Breakouts to ensure internet access is as close to the user as possible.
 - Open UDP Ports 3478 – 3481 to allow communication with the Transport Relays.
 - In the Teams admin portal, in Meeting settings, select Quality of Service. This will open the ports between the client and its allocated Transport Relay.
 - Have Teams’ traffic bypass HTTP Proxy Servers.
-- Avoid Teams traffic across a VPN. Consider implementing VPN split tunnelling - see the Learn more section for more information.
+- Avoid Teams traffic across a VPN. Consider implementing VPN split tunneling - see the Learn more section for more information.
 - In the meetings policy, set the maximum bandwidth for users. This is an average limit, not a peak limit, and stops high usage clients using too much bandwidth and reducing quality for others.  
 - Check that packet shaper or packet inspection devices are not installed.
 
@@ -41,7 +41,7 @@ The CQD can be accessed in the way that best suits your needs:
 
 - Teams admin center > Users page. This displays commonly used data and cannot be changed.
 - CQD portal.  This provides more detailed reports, with drill-through filtering. You can customize these reports.
-- Use Power BI to analyze CQD data by downoading the Power BI query templates for CQD. You also need to install the Power BI Connector for Microsoft CQD.
+- Use Power BI to analyze CQD data by downloading the Power BI query templates for CQD. You also need to install the Power BI Connector for Microsoft CQD.
 - Graph API. This option also allows you to access and analyze the data yourself.
 From the CQD you can see how many calls had quality issues, and on what dates.
 

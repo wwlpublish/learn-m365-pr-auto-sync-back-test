@@ -34,7 +34,7 @@ You can also use the PowerShell **Get-CsEffectiveTenantDialPlan** cmdlet to unde
 
 **Get-CsEffectiveTenantDialPlan -Identity Vt1_User1**
 
-### Troubleshoot dial mask issues. 
+### Troubleshoot dial mask issues 
 A dial mask enables a number to be dialed, and then translated into the emergency services number. This allows users to dial numbers that are familiar to them, whilst still reaching emergency services. For each emergency number, you can specify zero or more emergency dial masks.  Dial masks are defined within emergency call routing policies.
 
 As an example, if you add 112 as the emergency dial mask, which is the emergency service number for most of Europe, and 911 as the emergency dial string. A Teams user from Europe who is visiting may not know that 911 is the emergency number in the United States. When they dial 112, the call is automatically made to 911. To define multiple dial masks, separate each value by a semicolon. For example, 112;212.

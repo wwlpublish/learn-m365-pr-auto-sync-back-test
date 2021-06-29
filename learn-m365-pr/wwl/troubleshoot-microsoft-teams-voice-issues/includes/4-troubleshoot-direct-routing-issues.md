@@ -30,7 +30,7 @@ After a few hours the user should see the dial pad on the Calls screen.
 
 The Health Dashboard for Direct Routing allows you to monitor the interface between the Session Border Controller (SBC) and Direct Routing. The Health Dashboard provides both high level information about the connected SBCs and detailed information. You must be logged in as an administrator with permission to access the health dashboard.
 
-:::image type="content" source="../media/health-dashboard-direct-routing.png" alt-text="Health Dashboard for Direct Routing":::
+:::image type="content" source="../media/health-dashboard-direct-routing.png" alt-text="Health Dashboard for Direct Routing" lightbox="../media/health-dashboard-direct-routing.png":::
 
 ### Troubleshoot SBC phone numbers
 
@@ -47,7 +47,7 @@ To ensure interoperability between the SBC and Phone System Direct Routing, crea
 
 ### Troubleshoot dial plans
 
-A dial plan translates a shortened version of a number, such as an extension number, into a unique number that adheres to an international dialling standard usually E.164. Dial plans are implemented in the Microsoft Teams admin center using regular expressions to create a set of normalization rules. These rules allow users to keep numbers they are familiar with, which are then translated into internationally unique numbers.
+A dial plan translates a shortened version of a number, such as an extension number, into a unique number that adheres to an international dialing standard usually E.164. Dial plans are implemented in the Microsoft Teams admin center using regular expressions to create a set of normalization rules. These rules allow users to keep numbers they are familiar with, which are then translated into internationally unique numbers.
 
 > [!TIP] 
 > Before creating dial plans and normalization rules, decide on an organization-wide naming convention. This will reduce errors and improve understanding when troubleshooting problems. Names should be descriptive so that anyone can understand their purpose.
@@ -64,7 +64,7 @@ User |Group of users. |Normalization rules customized for a specific group of us
 
 Each dial plan must have one or more normalization rules, which are created using regular expressions. See the Learn More section for how regular expressions work.
 
-Normalization rules are used in sequence. When a number is dialled, the first matching rule will be used, and all other rules ignored. Create the most restrictive rules first, followed by less restrictive rules.
+Normalization rules are used in sequence. When a number is dialed, the first matching rule will be used, and all other rules ignored. Create the most restrictive rules first, followed by less restrictive rules.
 
 > [!TIP] 
 > Create PowerShell scripts to create dial plans. Scripts allow more than one person to check the rules before the script is run. You can add comments to a script to make it more understandable. Scripts are also easier to update, without introducing other errors. To create dial plan scripts, you will need the Teams PowerShell module.
@@ -73,7 +73,7 @@ Normalization rules are used in sequence. When a number is dialled, the first ma
 
 - Check that the normalization rules are in the correct dial plan. Dial plans are used in sequence and merged with the plan above in the hierarchy. If you have modified the global dial plan, this will be merged with the service dial plan. If you have created one or more user dial plans, these will be merged with the global dial plan. You do not, for example, need to add a country code because that is already in the service dial plan.
 - Test each dial plan by entering a phone number and selecting Test.
-- Rarely, users are forced to type in five or more digits, even though a dial plan normalization rule is in place to allow short digit dialling. As a workaround, users should type the full number instead of the shortened number.
+- Rarely, users are forced to type in five or more digits, even though a dial plan normalization rule is in place to allow short digit dialing. As a workaround, users should type the full number instead of the shortened number.
 
 ### Review the SBC log
 
@@ -119,6 +119,6 @@ Without media bypass, media will flow to Microsoft data centers, and back to the
 
 To troubleshoot media bypass:
 
-- Check that the Teams client has access to the public IP address of the SBC, including from the internal network. This is known as “hairpinning”.
+- Check that the Teams client has access to the public IP address of the SBC, including from the internal network. This is known as “hair-pinning”.
 - If the Teams client does not have access to the public IP address of the SBC, media will be relayed by the Teams Transport Relay servers but still bypasses the Media Processors.
 - To optimize media bypass for your configuration, consider the location of your SBCs, and how close your users are to the Microsoft Transport Relay servers. Where possible, allow internal users to connect directly to the SBC, but block external users.
