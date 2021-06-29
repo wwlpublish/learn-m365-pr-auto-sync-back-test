@@ -8,7 +8,7 @@ Azure AD Identity Governance helps manage access using the following capabilitie
 
 - Ensuring that only authorized users have access based on policies.
 - Providing employees and guest users with workflows to request access.
-- Establishing regular access reviews to validate if access if still needed.
+- Establishing regular access reviews to validate if access is still needed.
 - Establishing effective controls with time-limited access for privileged roles assignments.
 
 ### Explore how to enable business-to-business collaboration in Azure AD
