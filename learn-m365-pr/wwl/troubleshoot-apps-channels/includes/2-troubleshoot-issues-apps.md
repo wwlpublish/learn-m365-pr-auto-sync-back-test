@@ -15,7 +15,7 @@ In the **Teams admin center**, from the left-hand navigation, select **Teams app
 
 To manage which apps users in your organization can add to Teams, including custom apps developed by your organization, go to the **Teams admin center > Teams apps > Manage apps > Org-wide app settings**. The **org-wide app settings** blade is displayed.
 
-**Org-wide app settings** govern the behaviour for all users and override any other app permission policies assigned to users. You can use them to control malicious or problematic apps.
+**Org-wide app settings** govern the behavior for all users and override any other app permission policies assigned to users. You can use them to control malicious or problematic apps.
 
 The org-wide settings blade is split into three sections: third-party apps, Custom apps, and external access (information only).
 
@@ -66,7 +66,7 @@ You can also add policies specific to your users’ needs if the built-in polici
 ### Customize store
 To customize the Teams app store with your organization’s logo, corporate colors, background, and text color.
 
-:::image type="content" source="../media/apps-customiz-store.png" alt-text="Customize store":::
+
 
 ## Personal and channel tabs
 
@@ -90,7 +90,7 @@ Check which apps are allowed in the Teams admin center. Permissions are by categ
 
 ### The tab displays a blank screen and not the app
 
-Check that the content you want to display is capable of being displayed in an <iframe>.
+Check that the content you want to display is capable of being displayed in an `<iframe>`.
 
 ### Users are unable to delete an app
 
