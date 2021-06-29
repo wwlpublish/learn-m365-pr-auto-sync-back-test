@@ -2,7 +2,7 @@
 Media flow is the term used for Microsoft Team’s real-time audio and video traffic between devices.
 
 ## Understand media flow
-For the best user experience Teams tries to establish a peer-to-peer connection over UDP. That isn’t always possible, however, as client devices are often on different networks, behind firewalls, and use NAT servers. To always provide the optimal experience, Teams uses Transport Relays (TR) to enable users to connect using UDP, TCP or HTTP. The Transport Relay is a cloud server providing ICE, STUN, and TURN services.
+For the best user experience Teams tries to establish a peer-to-peer connection over UDP. That isn’t always possible, however, as client devices are often on different networks, behind firewalls, and use NAT servers. To always provide the optimal experience, Teams uses Transport Relays (TR) to enable users to connect using UDP, TCP, or HTTP. The Transport Relay is a cloud server providing ICE, STUN, and TURN services.
 
 
 
@@ -12,7 +12,7 @@ So how do ICE, STUN and TURN work?
 
 - First a signaling connection is established. Teams uses REST API via https and WebSockets to establish the signaling connection to the cloud.
 - Once Teams has a connection to the cloud, the STUN and TURN servers relay the packets.
-- The STUN and TURN servers enable a device behind a firewall to set up a UDP connections and send and receive data through intermediary servers.
+- The STUN and TURN servers enable a device behind a firewall to set up a UDP connection and send and receive data through intermediary servers.
 
 By using the signaling connection, which all devices can establish, the STUN and TURN servers ensure the media packets can flow through to their correct destination. See **Learn More**  for a link to the *Media in Teams – Media Flow* video.
 
@@ -35,7 +35,7 @@ By using the signaling connection, which all devices can establish, the STUN and
 
 The Call Quality Dashboard (CQD) for Microsoft Teams and Skype for Business Online allows you to gain insights into the quality of calls made by users.
 
-CQD starts storing data after the first sign-in. You must be assigned Global Administrator or Teams Administrator permissions to sign in. Alternatively, certain non admin roles also have access to CQD, see Learn More. After the first sign-in it may take a few hours for data to be collected.
+CQD starts storing data after the first sign-in. You must be assigned Global Administrator or Teams Administrator permissions to sign in. Alternatively, certain non-admin roles also have access to CQD, see Learn More. After the first sign-in, it may take a few hours for data to be collected.
 
 The CQD can be accessed in the way that best suits your needs:
 
@@ -84,7 +84,7 @@ Most logs are text-based and are read from the bottom-up. They can be read using
 > [!TIP] 
 > Media-stack, skylib logs are encrypted. These may be requested by Microsoft support engineers who can decrypt them.
 
-Debug logs show login, connection requests and call/conversion data flows. Media files contain information related to the media stack. Individual log files contain different information. See the link in Learn more for details of each log file.
+Debug logs show login, connection requests, and call/conversion data flows. Media files contain information related to the media stack. Individual log files contain different information. See the link in Learn more for details of each log file.
 
 ## Calling policies
 

@@ -14,7 +14,7 @@ For users located in the United States, some Emergency Routing Service Providers
 - Calling Plan users in the United States can use the predefined test emergency number 933 to validate their emergency calling configuration. This number is routed to a bot, which then echoes back the caller phone number (calling line ID), emergency address or location, and whether the call would be automatically routed to the PSAP or screened first.
 - Direct Routing customers in the United States should coordinate with their ERSP for a test service.
 
-### Troubleshooting emergency calling
+### Troubleshoot emergency calling
 Before troubleshooting emergency calling issues, always check that the client’s public IP address is added to the tenant trusted IP list. 
 If you use Phone System Direct Routing and the error message "Update the TeamsEmergencyCallRouting Policy to avoid emergency call failures" is displayed, you need to update your Teams Emergency Call Routing policy. Previously, a ‘+’ was inserted before a dialed number but this was changed so that the number is sent as dialed. Update your Teams Emergency Call Routing policy to reflect this change. 
 Also, check the session border controller logs. This will verify that calls are being routed to the correct SBC.

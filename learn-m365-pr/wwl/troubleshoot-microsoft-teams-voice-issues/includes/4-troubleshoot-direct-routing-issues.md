@@ -1,4 +1,4 @@
-Microsoft Phone System Direct Routing connects on-premises telephony systems to Microsoft Teams. In this unit you will learn how to troubleshoot some of the common issues with direct routing.
+Microsoft Phone System Direct Routing connects on-premises telephony systems to Microsoft Teams. In this unit, you will learn how to troubleshoot some of the common issues with direct routing.
 
 When troubleshooting direct routing issues, first check:
 
@@ -24,11 +24,11 @@ If the **OnlineVoiceRoutingPolicy** value is set incorrectly, administrators sho
 **Grant-CsOnlineVoiceRoutingPolicy -Identity "Ken Myer" -PolicyName $Null**
 **Grant-CsOnlineVoiceRoutingPolicy -Identity "Ken Myer" -PolicyName "RedmondPolicy"**
 
-After a few hours the user should see the dial pad on the Calls screen.
+After a few hours, the user should see the dial pad on the Calls screen.
 
 ### Health dashboard for Direct Routing
 
-The Health Dashboard for Direct Routing allows you to monitor the interface between the Session Border Controller (SBC) and Direct Routing. The Health Dashboard provides both high level information about the connected SBCs and detailed information. You must be logged in as an administrator with permission to access the health dashboard.
+The Health Dashboard for Direct Routing allows you to monitor the interface between the Session Border Controller (SBC) and Direct Routing. The Health Dashboard provides both high-level information about the connected SBCs and detailed information. You must be logged in as an administrator with permission to access the health dashboard.
 
 :::image type="content" source="../media/health-dashboard-direct-routing.png" alt-text="Health Dashboard for Direct Routing" lightbox="../media/health-dashboard-direct-routing.png":::
 
@@ -40,7 +40,7 @@ Verify that the SBC is on the list of paired SBCs, and validate the SIP options.
 
 To ensure interoperability between the SBC and Phone System Direct Routing, create a Number Translation Rules policy using PowerShell. This translates numbers to the correct format. Number Translation Rules policies convert inbound calls from a caller to a Teams client, or to convert outbound calls from a Teams client to a PSTN endpoint (the person being called). Each policy can include multiple translation rules, which are applied in sequence. 
 
-### Troubleshooting Number Translation Rules
+### Troubleshoot Number Translation Rules
 
 - The rules in a Number Translation Rule policy are applied in sequence. Check the sequence of your rules and if necessary, change of the order in the policy.
 - Check the format of your rules using the examples in Translate phone numbers for Direct Routing - Microsoft Teams.
@@ -52,7 +52,7 @@ A dial plan translates a shortened version of a number, such as an extension num
 > [!TIP] 
 > Before creating dial plans and normalization rules, decide on an organization-wide naming convention. This will reduce errors and improve understanding when troubleshooting problems. Names should be descriptive so that anyone can understand their purpose.
 
-There are three different types of dial plan which are used in order. That means that if you haven’t modified any dial plan, then the service dial plan will be used. If you modify the tenant global dial plan, that will be used in combination with the user dial plan. Finally, the user dial plan is used.
+There are three different types of dial plan, which are used in order. That means that if you haven’t modified any dial plan, then the service dial plan will be used. If you modify the tenant global dial plan, that will be used in combination with the user dial plan. Finally, the user dial plan is used.
 
 |Dial plan|Scope|Description
 |---|---|---
@@ -69,7 +69,7 @@ Normalization rules are used in sequence. When a number is dialed, the first mat
 > [!TIP] 
 > Create PowerShell scripts to create dial plans. Scripts allow more than one person to check the rules before the script is run. You can add comments to a script to make it more understandable. Scripts are also easier to update, without introducing other errors. To create dial plan scripts, you will need the Teams PowerShell module.
 
-## Troubleshooting normalization rules
+## Troubleshoot normalization rules
 
 - Check that the normalization rules are in the correct dial plan. Dial plans are used in sequence and merged with the plan above in the hierarchy. If you have modified the global dial plan, this will be merged with the service dial plan. If you have created one or more user dial plans, these will be merged with the global dial plan. You do not, for example, need to add a country code because that is already in the service dial plan.
 - Test each dial plan by entering a phone number and selecting Test.
