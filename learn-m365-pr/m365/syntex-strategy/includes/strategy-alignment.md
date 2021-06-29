@@ -1,22 +1,22 @@
-You've received the green light from your stakeholders and Contoso Electronics has decided on a phased rollout of SharePoint Syntex starting with the struggling Sales team. Now the project team needs to nominate personnel for SharePoint Syntex roles. Each of those people will need to be brought into the larger project team as stakeholders to give them familiarity with SharePoint Syntex and allow them to begin learning their new responsibilities. Along with other Contoso stakeholders, you identify the following individuals:
+You've received the green light from your stakeholders for a phased rollout of SharePoint Syntex, starting with the struggling Sales team. Now the project team needs to nominate personnel for SharePoint Syntex roles. Each of those people will need to be brought into the larger project team as stakeholders. Along with your other stakeholders, you identify the following individuals:
 
-- Since the Knowledge admin creates content centers and needs to know how they should be structured and also manage security and access privileges, your project team identifies someone from IT to take on the role.
-- The Sales manager identifies someone in their department who volunteered for the Content manager/model owner role. This person will work closely with the project lead to understand project goals.
-- An IT admin wanted to take on the role of Power Platform admin. This person will coordinate applying AI builder to Human Resource's libraries.
+- Since the Knowledge admin creates content centers and manages security and access privileges, your project team identifies someone from IT to take on the role.
+- The Sales manager identifies someone in their department for the content manager/model owner role.
+- An IT admin takes on the role of Power Platform admin. This person will coordinate applying AI builder to Human Resource's libraries.
 
-With stakeholders in place and roles defined, you can equip your executive team and champions with business case presentations. They will drive your organization's understanding of the fiscal and agility outcomes that will result from implementing SharePoint Syntex.
+With stakeholders in place and roles defined, you can equip your executive team and champions with business case presentations. They'll drive your organization's understanding of the fiscal and agility outcomes that will result from implementing SharePoint Syntex.
 
 ## Business outcomes
 
 ### Fiscal outcomes
 
-Anticipating the fiscal outcomes of adopting SharePoint Syntex is necessary, as spend and revenue is often top of mind for key stakeholders.
+Anticipating the fiscal outcomes of adopting SharePoint Syntex is necessary, as spending and revenue is often top of mind for key stakeholders.
 
-One of the primary ways SharePoint Syntex delivers ROI is through time saved and increased productivity. As a solution, SharePoint Syntex provides more efficient and clear understanding of your documents, reducing time spent on making sense of content, giving overloaded team members time back in their day for more essential tasks.
+One of the primary ways SharePoint Syntex delivers ROI is through time saved and increased productivity. SharePoint Syntex provides more efficient and clear understanding of your documents, reducing the time spent on making sense of content, giving overloaded team members time back in their day for more essential tasks.
 
 ### Agility outcomes
 
-Agility outcomes are focused on increasing your organization's ability to adapt quickly to an ever-changing and fluctuating market. Your business needs to be able to keep up with the innovation of your industry, including updating and creating new products and processes that meet market demand. Time-to-market considers how quickly your internal teams can produce solutions and services that are in demand.
+Agility outcomes focus on increasing how quickly your organization can adapt to an ever-changing market. Your business needs to be able to keep up with the innovation of your industry, including updating and creating new products and processes that meet market demand. Time-to-market considers how quickly your internal teams can produce solutions and services that are in demand.
 
 SharePoint Syntex supports agility. It quickly and efficiently produces document understanding and form processing models that your organization needs to understand content quickly to apply what you have learned to potential products, new processes, and the overall growth of your business.
 
@@ -30,7 +30,7 @@ An outcomes template can help you define what your company needs to achieve your
   - _Example_: Contoso Electronics' Sales team.
 - **Business outcome**: The outcome itself, or otherwise, the specific measurement or result that you are trying to produce.
   - _Example_: ROI, time back, and process management.
-- **Business drivers**: The challenges that your organization is currently facing, as well as the desired opportunities of this particular outcome.
+- **Business drivers**: The challenges that your organization is currently facing and the opportunities of this particular outcome.
   - _Example_: Time spent on processes instead of selling.
 - **KPIs**: The key numbers that will help define how the change is measured
   - _Example_: Productivity numbers, such as hours spent working, employee ratings, etc.
@@ -43,7 +43,7 @@ An outcomes template can help you define what your company needs to achieve your
 
 ### Business case deck
 
-An on-hand, easily accessible PowerPoint deck can be the easiest resource for providing executives with the information they need to help employees align on strategy. This deck should offer an overview of the initiative so that key executives can become convinced of and invested in the overall strategy. By understanding the strategy, leaders can more easily communicate it to the rest of the company.
+An on-hand, easily accessible PowerPoint deck can be the easiest resource to provide executives with the information they need to help employees align on strategy. This deck should offer an overview of the initiative so that key executives can become convinced of and invested in the overall strategy. By understanding the strategy, leaders can more easily communicate it to the rest of the company.
 
 Your deck can include:
 
