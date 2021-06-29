@@ -7,12 +7,16 @@ Teams provides all relevant instances of TeamsUpgradePolicy via built-in, read-o
 These policy instances can be granted either to individual users or on a tenant-wide basis. For example:
 
 - To upgrade a user ($SipAddress) to Teams, grant the “UpgradeToTeams” instance:
- 
-   `Grant-CsTeamsUpgradePolicy -PolicyName UpgradeToTeams -Identity $SipAddress`
+
+   ```bash
+   Grant-CsTeamsUpgradePolicy -PolicyName UpgradeToTeams -Identity $SipAddress
+    ```
 
 - To upgrade the entire tenant, omit the identity parameter from the grant command:
 
-   `Grant-CsTeamsUpgradePolicy -PolicyName UpgradeToTeams`
+   ```bash
+    Grant-CsTeamsUpgradePolicy -PolicyName UpgradeToTeams
+    ```
 
 ## Federation considerations
 
