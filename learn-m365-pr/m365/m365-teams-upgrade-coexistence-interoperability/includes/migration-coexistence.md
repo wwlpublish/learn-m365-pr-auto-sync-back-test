@@ -28,17 +28,15 @@ Federation from Teams to another user using Skype for Business requires the Team
 - Chats and calls initiated from Teams land in Teams if the recipient is in the same tenant.
 - Chats and calls initiated from `SfB` always land in Skype for Business.
 
-
 ## The Teams client user experience when using SfB modes
 
-When a user is in any of the Skype for Business modes (`SfBOnly`, `SfBWithTeamsCollab`, `SfBWithTeamsCollabAndMeetings`), all incoming chats and calls are routed to the user’s Skype for Business client. To avoid end-user confusion and ensure proper routing, calling and chat functionality in the Teams client is automatically disabled when a user is in any Skype for Business mode. Similarly, meeting scheduling in Teams is automatically disabled when users are in the `SfBOnly` or `SfBWithTeamsCollab` modes, and automatically enabled when a user is in the `SfBWithTeamsCollabAndMeetings` mode. 
+When a user is in any of the Skype for Business modes (`SfBOnly`, `SfBWithTeamsCollab`, `SfBWithTeamsCollabAndMeetings`), all incoming chats and calls are routed to the user’s Skype for Business client. To avoid end-user confusion and ensure proper routing, calling and chat functionality in the Teams client is automatically disabled when a user is in any Skype for Business mode. Similarly, meeting scheduling in Teams is automatically disabled when users are in the `SfBOnly` or `SfBWithTeamsCollab` modes, and automatically enabled when a user is in the `SfBWithTeamsCollabAndMeetings` mode.
 
 ## Setting your coexistence and upgrade settings
 
-When you upgrade your Skype for Business users to use Teams, you have several options to help you make it a seamless process for your users. You can change coexistence and upgrade settings for all the users in your organization at once or you can change settings for a single or set of users in your organization. Older versions of Skype for Business clients may not honor these settings. 
+When you upgrade your Skype for Business users to use Teams, you have several options to help you make it a seamless process for your users. You can change coexistence and upgrade settings for all the users in your organization at once or you can change settings for a single or set of users in your organization. Older versions of Skype for Business clients may not honor these settings.
 
-You change coexistence and upgrade settings in the Teams admin center or by using PowerShell. 
-
+You change coexistence and upgrade settings in the Teams admin center or by using PowerShell.
 
 ## Learn more
 
