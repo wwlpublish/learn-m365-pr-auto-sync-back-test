@@ -12,13 +12,13 @@ A Conditional Access policy brings signals together, to make decisions, and enfo
 Conditional Access can use the following signals when deciding whether to grant access:
 
 - **User or group membership**. Policies can be targeted to specific users and groups, giving administrators fine-grained control over access.
-- **IP Location information**. Trusted IP address ranges can be created, then used when making policy decisions. Also, Administrators can opt to block or allow traffic from an entire countries IP range.
+- **IP Location information**. Trusted IP address ranges can be created, then used when making policy decisions. Also, Administrators can opt to block or allow traffic from an entire country/region's IP range.
 - **Device**. Users with devices of specific platforms or marked with a specific state can be used/
 - **Application**. Users attempting to access specific applications can trigger different Conditional Access policies.
 - **Real-time sign in risk detection**. Signals integration with Azure AD Identity Protection allows Conditional Access policies to identify risky sign in behavior. Policies can then force users to perform password changes or multifactor authentication. This reduces their risk level and may prevent them from being blocked from access until an administrator takes manual action.
 - **Microsoft Cloud App Security**. Enables user application access and sessions to be monitored and controlled in real-time, increasing visibility and control over access to and activities performed within your cloud environment.
 
-This means that Conditional Access policies can be created to allow or block specific users or groups access to certain applications. You can create trusted IP address ranges and block other countries or IP address ranges. You might prevent a legacy device being used to access sensitive data. 
+This means that Conditional Access policies can be created to allow or block specific users or groups access to certain applications. You can create trusted IP address ranges and block other countries/regions or IP address ranges. You might prevent a legacy device being used to access sensitive data. 
 
 Sign in risk represents the probability that a given authentication request is *not* authorized by the identity owner. Sign in risk can be calculated in real-time or offline using Microsoft's internal and external threat intelligence sources. Policies can then force users to perform password changes or enter multifactor authentication, or the policy might block access until an administrator takes manual action.
 

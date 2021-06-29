@@ -12,7 +12,7 @@ There are seven essential steps to sign up for and set up a Viva Topics trial fo
 
 Once you have Modern SharePoint or Modern SharePoint pages on classic SharePoint, sign up for and set up Viva Topics. You must be a Microsoft 365 Global administrator, Billing administrator or Knowledge administrator to activate a Viva Topics trial, one-time per Microsoft 365 tenant.*
 
-You can sign up for a trial from either the [Microsoft Viva Topics product page](/microsoft-viva/topics) or from the Microsoft 365 admin center.
+You can sign up for a trial from either the [Microsoft Viva Topics product page](https://www.microsoft.com/microsoft-viva/topics/overview) or from the Microsoft 365 admin center.
 
    >[!NOTE]
    >- Trial must be added to existing tenant or generated from E3 or E5 licensing.
