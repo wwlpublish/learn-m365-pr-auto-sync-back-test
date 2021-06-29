@@ -68,7 +68,7 @@ You should also check the Azure AD Connect health. In the Azure Active Directory
 | Role based access control (IAM) | Enables you to review or configure the  role assignments for your configuration. |
 
 
-:::image type="content" source="../media/adconnect-health.png" alt-text="A screenshot displays the Azure Active Directory Connect Health Quick Start page.":::
+:::image type="content" source="../media/ad-connect-health.png" alt-text="A screenshot displays the Azure Active Directory Connect Health Quick Start page.":::
 
 ## Troubleshoot synchronization
 
