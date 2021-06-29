@@ -1,6 +1,6 @@
 <br>Modern authentication is a Microsoft solution based on the [Microsoft Authentication Library (MSAL)](/azure/active-directory/develop/msal-migration). It applies the Open Authorization (OAuth) standard when an application or client software tries to obtain access tokens from an authentication provider to access resources. Modern authentication enables sign-in features such as:
 
- -  Multi-Factor Authentication (MFA)
+ -  Multifactor authentication (MFA)
  -  SAML-based third-party Identity Providers with Office client applications
  -  Smart card authentication
  -  Certificate-based authentication

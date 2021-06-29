@@ -33,7 +33,7 @@ products:
 units:
 - learn.wwl.plan-your-identity-authentication-solution-for-microsoft-365.introduction
 - learn.wwl.plan-your-identity-authentication-solution-for-microsoft-365.examine-modern-authentication-for-office-apps
-- learn.wwl.plan-your-identity-authentication-solution-for-microsoft-365.evaluate-multi-factor-authentication-for-your-deployment
+- learn.wwl.plan-your-identity-authentication-solution-for-microsoft-365.evaluate-multifactor-authentication-for-your-deployment
 - learn.wwl.plan-your-identity-authentication-solution-for-microsoft-365.prepare-for-directory-synchronization-to-manage-identities
 - learn.wwl.plan-your-identity-authentication-solution-for-microsoft-365.implement-azure-ad-connect-pass-through-authentication
 - learn.wwl.plan-your-identity-authentication-solution-for-microsoft-365.implement-federated-authentication-using-adfs

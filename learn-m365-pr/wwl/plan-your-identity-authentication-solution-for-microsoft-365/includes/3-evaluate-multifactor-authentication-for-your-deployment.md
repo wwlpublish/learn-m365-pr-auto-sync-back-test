@@ -1,4 +1,4 @@
-Multi-factor authentication (MFA) is a method of authentication that requires the use of more than one verification method. By doing so, it adds a second layer of security to user sign-ins and transactions. MFA works by requiring any two or more of the following verification methods:
+Multifactor authentication (MFA) is a method of authentication that requires the use of more than one verification method. By doing so, it adds a second layer of security to user sign-ins and transactions. MFA works by requiring any two or more of the following verification methods:
 
  -  A randomly generated pass code
  -  A phone call
@@ -6,18 +6,18 @@ Multi-factor authentication (MFA) is a method of authentication that requires th
  -  A smart card (virtual or physical)
  -  A biometric device
 
-### Multi-factor authentication in Microsoft 365
+### Multifactor authentication in Microsoft 365
 
-Microsoft 365 uses multi-factor authentication to provide the extra security. MFA in Microsoft 365 is managed from the Microsoft 365 admin center. Microsoft 365 offers the following subset of Azure Active Directory multi-factor authentication capabilities as a part of the subscription:
+Microsoft 365 uses multifactor authentication to provide the extra security. MFA in Microsoft 365 is managed from the Microsoft 365 admin center. Microsoft 365 offers the following subset of Azure Active Directory multifactor authentication capabilities as a part of the subscription:
 
- -  The ability to enable and enforce multi-factor authentication for end users.
+ -  The ability to enable and enforce multifactor authentication for end users.
  -  The use of a mobile app (online and one-time password \[OTP\]) as a second authentication factor.
  -  The use of a phone call as a second authentication factor.
  -  The use of a Short Message Service (SMS) message as a second authentication factor.
  -  Application passwords for non-browser clients (for example, the Microsoft Lync 2013 communications software).
  -  Default Microsoft greetings that are provided during authentication phone calls.
 
-For the full list of added features, see [the comparison of Azure Active Directory Multi-Factor Authentication version](https://go.microsoft.com/fwlink/?LinkId=506927?azure-portal=true). You can always get the full functionality by purchasing the Azure Active Directory Multi-Factor Authentication service.
+For the full list of added features, see [the comparison of Azure Active Directory Multifactor Authentication version](https://go.microsoft.com/fwlink/?LinkId=506927?azure-portal=true). You can always get the full functionality by purchasing the Azure Active Directory Multifactor authentication service.
 
 Organizations get a different subset of capabilities depending on whether they have a cloud-only deployment for Microsoft 365 or a hybrid setup with single sign-on and Active Directory Federation Services (AD FS).
 
@@ -77,7 +77,7 @@ If you manage user identity on-premises, you have the following choices:
 
 You can also use any other MFA solutions that are offered with your on-premises directory. For example, the [Azure AD federation compatibility list](/azure/active-directory/hybrid/how-to-connect-fed-compatibility) might offer MFA solutions that you can manage according to the identity provider's specifications.
 
-The Office 2013 device apps support multi-factor authentication by using the [Active Directory Authentication Library](https://go.microsoft.com/fwlink/p/?LinkId=526684?azure-portal=true). Azure AD hosts a webpage where users can sign in. The identity provider can be Azure AD or a federated identity provider like AD FS. The authentication for federated users follows these steps:
+The Office 2013 device apps support multifactor authentication by using the [Active Directory Authentication Library](https://go.microsoft.com/fwlink/p/?LinkId=526684?azure-portal=true). Azure AD hosts a webpage where users can sign in. The identity provider can be Azure AD or a federated identity provider like AD FS. The authentication for federated users follows these steps:
 
 1.  Azure AD redirects the user to the sign-in web page hosted by the identity provider of record for the Microsoft 365 tenant. The identity provider is determined by the domain specified in the user’s sign-in name.
 2.  The user signs in on the sign-in web page on their device.

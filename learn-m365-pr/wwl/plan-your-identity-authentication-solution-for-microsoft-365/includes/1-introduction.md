@@ -12,7 +12,7 @@ This module also examines the key areas that organizations must plan for to eith
 After completing this module, you'll be able to:
 
  -  Describe authentication behavior for Office client apps when they connect with or without modern authentication to Exchange Online, SharePoint Online, and Skype for Business Online.
- -  Explain multi-factor authentication in Microsoft 365 deployments.
+ -  Explain multifactor authentication in Microsoft 365 deployments.
  -  Create a plan for directory synchronization and Azure AD Connect Pass-Through authentication.
  -  Describe the issues, benefits, and recommendations when implementing federated authentication using Active Directory Federation Services (AD FS).
  -  Describe the options available for restricting traffic in an AD FS deployment.
