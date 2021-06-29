@@ -13,7 +13,7 @@ To avoid a confusing or regressed Skype for Business experience, external (feder
 > [!NOTE]
 > In Islands mode, all messages and calls from federated users (people outside your organization) are delivered to Skype for Business. After upgrading to TeamsOnly mode, all messages and calls from outside your organization are delivered to Teams.
 
-Skype for Business Online customers recommended path is to start with the default Islands mode, drive Teams adoption saturation in the organization, and then move to TeamsOnly mode rapidly. On premises and hybrid customers, especially complex ones, might benefit from deploying the Skype for Business with Teams Collaboration mode as a starting point rather than Islands mode, and progress from there to Skype for Business with Teams Collaboration and Meetings mode (that is, Meetings First), if appropriate, and to TeamsOnly mode when the organization is ready to adopt Teams.
+The recommended path for Skype for Business Online customers is to start with the default Islands mode, drive Teams adoption saturation in the organization, and then move to TeamsOnly mode rapidly. On premises and hybrid customers, especially complex ones, might benefit from deploying the Skype for Business with Teams Collaboration mode as a starting point rather than Islands mode, and progress from there to Skype for Business with Teams Collaboration and Meetings mode (that is, Meetings First), if appropriate, and to TeamsOnly mode when the organization is ready to adopt Teams.
 
 ## Skype for Business only mode
 
