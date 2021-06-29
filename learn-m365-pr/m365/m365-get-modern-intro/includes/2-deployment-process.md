@@ -1,5 +1,3 @@
-![getting-started-icon](../media/getting-started-icon.png)
-
 To help you through the deployment process, we’ve developed the **desktop deployment wheel**. The wheel guides you through the recommended steps for your shift to Windows 10 and Microsoft 365 Apps.
 
 ![desktop deployment wheel](../media/intro_deploymentwheel.png)
