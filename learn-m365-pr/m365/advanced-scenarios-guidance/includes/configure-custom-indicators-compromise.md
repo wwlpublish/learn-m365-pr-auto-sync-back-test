@@ -31,7 +31,7 @@ You can create a custom indicator of compromise in Microsoft Cloud App Security 
 1. In the **Create a filter for the files this policy will act on** box, select **File ID**, and then select **is** in the drop-down lists. Then enter the file hash in the third box.
 
     ![A screenshot of the Microsoft Cloud App Security portal showing how to add a file filter to a policy.](../media/02-add-file-filter.png)
- 
+
     You can add multiple file hashes with **OR** conditions to intercept several different files.
 
 1. To filter the policy to work in specific folders, use the first **Apply to** drop-down list. If you want the policy to work throughout your discovered network, select **all files**.
