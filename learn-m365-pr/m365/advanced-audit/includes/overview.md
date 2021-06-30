@@ -69,7 +69,7 @@ Custom audit log retention policies have priority over the default audit log ret
 
 >[!NOTE]
 > If you need to retain audit logs for 10 years, you need both the appropriate E5 license and a 10-year audit log retention add-on license.
- 
+
 ## High-bandwidth access to data
 
 Audit log generation and consumption is a bandwidth-intensive activity. The bandwidth required to consume audit events, especially via the Office 365 Management Activity API, could become a bottleneck due to a number of factors, including the sheer volume of audit log activity.

@@ -54,7 +54,7 @@ Apply turns on encryption, which impacts Office files (Word, PowerPoint, Excel) 
    ![Assign permissions now or let users decide](../media/encryption-3.png)  
 
 ### Remove
-None means encryption will be removed on the files and email messages with this label applied.
+Remove means encryption will be removed on the files and email messages with this label applied.
 
 ## Step 3: Content marking
 Content marking adds custom headers, footers, and watermarks to email messages or documents when the label is applied. These marks are visible to the user. Content marking does not protect the document in any way. It only informs the viewer of the sensitive nature of the content. You can add one or more of the following text-only content marks:
