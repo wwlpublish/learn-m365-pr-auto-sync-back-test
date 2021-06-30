@@ -43,4 +43,3 @@ White glove deployments are for devices that will be configured by the OEM or me
 ## Deploy Windows 10 on existing Windows 7 or 8.1 devices
 
 Windows Autopilot, along with System Center Configuration Manager, can be used to deploy Windows 10 to managed devices running Windows 7 or 8.1. Apps, policies, and settings can all be preconfigured with Intune, so the devices are business ready after being wiped and reimaged with Windows 10.
-
