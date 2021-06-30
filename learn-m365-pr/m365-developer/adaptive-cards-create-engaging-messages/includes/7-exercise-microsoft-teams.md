@@ -12,7 +12,7 @@ The other task module is implemented with an Adaptive Card. This task module ena
 
 Developing Microsoft Teams apps requires an Office 365 tenant, Microsoft Teams configured for development, and the necessary tools installed on your workstation.
 
-For the Office 365 tenant, follow the instructions on [Microsoft Teams: Prepare your Office 365 tenant](https://docs.microsoft.com/microsoftteams/platform/get-started/get-started-tenant) for obtaining a developer tenant if you don't currently have an Office 365 account. Make sure you've also enabled Microsoft Teams for your organization.
+For the Office 365 tenant, follow the instructions on [Microsoft Teams: Prepare your Office 365 tenant](/microsoftteams/platform/get-started/get-started-tenant) for obtaining a developer tenant if you don't currently have an Office 365 account. Make sure you've also enabled Microsoft Teams for your organization.
 
 Microsoft Teams must be configured to enable custom apps and allow custom apps to be uploaded to your tenant to build custom apps for Microsoft Teams. Follow the instructions on the same **Prepare your Office 365 tenant** page mentioned above.
 
@@ -25,7 +25,7 @@ You'll use Node.js to create custom Microsoft Teams tabs in this module. The exe
 - NPM (installed with Node.js) - v6.\* (or higher)
 - [Gulp](https://gulpjs.com/) - v4.\* (or higher)
 - [Yeoman](https://yeoman.io/) - v3.\* (or higher)
-- [Yeoman Generator for Microsoft Teams](https://github.com/OfficeDev/generator-teams) - v3.0\* (or higher)
+- [Yeoman Generator for Microsoft Teams](https://github.com/OfficeDev/generator-teams) - v3.0.3 (or higher)
 - [Visual Studio Code](https://code.visualstudio.com)
 
 You must have the minimum versions of these prerequisites installed on your workstation.
@@ -156,10 +156,10 @@ const [youTubeVideoId, setYouTubeVideoId] = useState<string | undefined>("jugBQq
 Add the following methods to the `YouTubePlayerTab` component. These methods will handle updating the state when specific events happen on the form you'll add to the component:
 
 ```typescript
-let onChangeVideo = (): void => { 
+const onChangeVideo = (): void => { 
 };
 
-let onShowVideo = ():  void => {
+const onShowVideo = ():  void => {
 };
 ```
 
@@ -178,11 +178,11 @@ return (
         <div>
           <div>
             <Text>YouTube Video ID:</Text>
-            <Input value={this.state.youTubeVideoId} disabled></Input>
+            <Input value={youTubeVideoId} disabled></Input>
           </div>
           <div>
-            <Button content="Change Video ID" onClick={this.onChangeVideo}></Button>
-            <Button content="Show Video" primary onClick={this.onShowVideo}></Button>
+            <Button content="Change Video ID" onClick={onChangeVideo}></Button>
+            <Button content="Show Video" primary onClick={onShowVideo}></Button>
           </div>
         </div>
       </Flex.Item>
@@ -280,7 +280,7 @@ Now, implement the task module in the personal tab.
 
 Locate and open the **./src/client/youTubePlayerTab/YouTubePlayerTab.tsx** file.
 
-First, add the following utility method to the `YouTubePlayerTab` class:
+First, add the following utility method to the `YouTubePlayerTab` component:
 
 ```typescript
 const appRoot = (): string => {
@@ -435,7 +435,7 @@ From the command line, navigate to the root folder for the project and execute t
 gulp ngrok-serve
 ```
 
-Refresh the Microsoft Teams interface and select the new button **Change Video ID (AdaptiveCard)**. Microsoft Teams will open a task module with the rendered Adaptive Card:
+Refresh the Microsoft Teams interface and select the button **Change Video ID**. Microsoft Teams will open a task module with the rendered Adaptive Card:
 
 ![Screenshot of the Adaptive Card rendered in a task module](../media/07-test-rendered-adaptive-card.png)
 
