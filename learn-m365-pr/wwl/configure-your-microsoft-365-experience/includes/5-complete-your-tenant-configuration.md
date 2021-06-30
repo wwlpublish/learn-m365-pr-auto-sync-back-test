@@ -12,7 +12,7 @@ While the checklist will be unique to each organization per its deployment requi
  -  Has your company established proper governance policies for mobile devices?
  -  Have the DNS records been updated and published globally?
  -  If Azure Active Directory Connect is in place, is the connector properly configured?
- -  If Multi-Factor Authentication is employed, has it been properly configured?
+ -  If multifactor authentication is employed, has it been properly configured?
  -  Are the mailing policies in place to protect inbound and outbound mail flow?
  -  Is the Organizational profile set up with the correct information?
 
