@@ -1,12 +1,14 @@
-Organizational data provides context to analyses that are performed with Workplace Analytics. By uploading organizational data to Workplace Analytics, you provide descriptive information about employees. Workplace Analytics then maps that data to the collaboration data from Microsoft 365. 
+Organizational data provides context to analyses that are performed with Workplace Analytics. By uploading organizational data to Workplace Analytics, you provide descriptive information about employees. Workplace Analytics then maps that data to the collaboration data from Microsoft 365.
 
 Organizational data supports Workplace Analytics analyses in many ways, including the following:
+
 - Group and filter collaboration results by employee attributes of interest.
 - Create custom collaboration metrics.
 - Understand time allocation across groups of employees.
 - Compare collaboration data to business outcomes.
 
 Some representative organizational data categories include:
+
 - Background: For example, employee type, full-time/part-time status, tenure
 - Location: For example, region, country, city, building
 - Organization: For example, business unit, cost center, division, department
@@ -16,6 +18,7 @@ Some representative organizational data categories include:
 Organizational data is uploaded into Workplace Analytics in a .csv file.
 
 ## Required data attributes
+
 There are five required data attributes to include as part of your organizational data file upload to Workplace Analytics.
 
 - **PersonId** - The employee's primary SMTP email address. When the data is uploaded, this field is hashed and deidentified to maintain employee privacy.
@@ -35,11 +38,13 @@ For these five required attributes, every row in the file must have a non-blank 
 |ann@contoso.com|07/01/2018|carolina@contoso.com|Marketing|**Manager**|
 
 ## Which employees to include
+
 **All employees should be included in your organizational data file**, whether or not they are assigned Workplace Analytics licenses. This lets you  measure how employees in the analysis population work with other employees across the organization.
 
 :::image type="content" source="../media/which-employees-include.png" border="false" alt-text="A graphic shows first an example scenario - the admin assigned licenses to only employees in the United States, but they want to understand how those US employees invested their time with employees across the globe. Then there are two pie charts that compare the time those US employees devoted to other US employees versus all users.":::
 
 ## Additional data attributes
+
 The first time that you activate Workplace Analytics you need just the five *required* attributes. There are more than 100 additional *optional* attributes that you can use, based on the analyses you want to conduct and how you want to group your data. The following table shows some examples of these attributes. Additional data attributes are optional, and you can append them to the organizational file at any time.  
 
 |Type|Description|Example attributes|
@@ -51,9 +56,9 @@ The first time that you activate Workplace Analytics you need just the five *req
 |Outcomes|Includes measures that are driven by *how* an employee works and that contribute to overall business results|- Performance rating, Engagement survey score<br>- Sales quota attainment<br>- Manager effectiveness score<br>- Time and Attendance|
 
 ## Best practices for creating and refreshing the organizational data file
- 
+
 There are several considerations to keep in mind both the first time you create the organizational data file and when you refresh it, as shown in the following table:
- 
+
 |Area|Best practice|
 |-|-|
 |Scope|- Initial organizational file should include one snapshot for each of the past 13 months to map to initial historical collaboration data load. <br>- Include descriptive organizational data for all employees in the company, even if they're not part of the analysis population, to enrich custom collaboration metrics.|
@@ -64,7 +69,8 @@ There are several considerations to keep in mind both the first time you create 
 
 You're now ready to upload the organizational data file to Workplace Analytics.
 
-## Example scenario 
+## Example scenario
+
 In the working group, you and Taylor receive input from the Workplace Analytics analysts on what organizational data they need and how best to structure it to meet their goals. Specifically, the analysts want the last year's quarterly performance assessment for each employee coded as a numeric value (from 1 to 5). This also means that Taylor needs multiple snapshots of the organizational data for each quarter to reflect the composition of Contoso and the performance assessments at each **Effective Date**.
 
 Taylor gets the organizational data from the HRIS, formats it for Workplace Analytics, and then uploads it to the tool.

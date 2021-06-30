@@ -1,3 +1,5 @@
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4OATb]
+
 In this unit, you'll learn how to customize and configure an ASP.NET MVC web application to request and integrate data obtained from Microsoft Graph.
 
 ## Integrate Microsoft Graph in ASP.NET MVC web applications

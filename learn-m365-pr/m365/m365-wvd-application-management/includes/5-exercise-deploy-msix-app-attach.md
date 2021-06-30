@@ -113,4 +113,3 @@ In this exercise, you'll add and test MSIX app attach.
    :::image type="content" source="../media/05-screenshot-of-edge-dev.png" alt-text="Screenshot of published M S I X app attach." border="true":::
 
 5. Close the Remote Desktop session.
-
