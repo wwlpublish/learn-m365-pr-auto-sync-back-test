@@ -2,15 +2,15 @@ To access the Health page, log into the Microsoft 365 admin center and then sele
 
 Each online service’s health will display one of the following statuses:
 
- *  **Normal service.** This status indicates the service is available and suffered no incidents during the reporting period. The icon for this status doesn't link to any other information.
- *  **Extended recovery.** This status indicates that steps have completed to resolve the service incident. However, it will take an extended period for service operations to return to normal. During this time, some service behaviors might take longer than normal to complete.
- *  **Investigating.** This status indicates that a potential service incident is under investigation.
- *  **Service restored.** This status indicates that an incident was active earlier today, but the service was restored.
- *  **Service interruption.** This status indicates the service isn't functioning, and users can't access the service.
- *  **Additional information.** This status indicates that an incident was active during a previous day. The incident may be resolved, or it may still be active.
- *  **Service degradation.** This status indicates the service is slow or is occasionally unresponsive for brief periods.
- *  **PIR published.** This status indicates that a report of the service incident has been published.
- *  **Restoring service.** This status indicates the service incident is being resolved.
+ -  **Normal service.** This status indicates the service is available and suffered no incidents during the reporting period. The icon for this status doesn't link to any other information.
+ -  **Extended recovery.** This status indicates that steps have completed to resolve the service incident. However, it will take an extended period for service operations to return to normal. During this time, some service behaviors might take longer than normal to complete.
+ -  **Investigating.** This status indicates that a potential service incident is under investigation.
+ -  **Service restored.** This status indicates that an incident was active earlier today, but the service was restored.
+ -  **Service interruption.** This status indicates the service isn't functioning, and users can't access the service.
+ -  **Additional information.** This status indicates that an incident was active during a previous day. The incident may be resolved, or it may still be active.
+ -  **Service degradation.** This status indicates the service is slow or is occasionally unresponsive for brief periods.
+ -  **PIR published.** This status indicates that a report of the service incident has been published.
+ -  **Restoring service.** This status indicates the service incident is being resolved.
 
 > > [!NOTE]
 > > In the unlikely event the Microsoft 365 admin center is unavailable, navigate to the Service Health dashboard. If the issue relates to Azure Active Directory - for example, sign-in issues - refer to the [Azure Status](https://aka.ms/kfxpxv?azure-portal=true) site.
@@ -42,11 +42,11 @@ You can use Operations Manager for basic monitoring of Microsoft 365 services, i
 
 To monitor Microsoft 365 services, you must import the Microsoft 365 management pack for Operations Manager into the System Center. After you add a Microsoft 365 subscription, the management pack enables you to monitor services such as:
 
- *  Subscription health
- *  Service status
- *  Active and resolved incidents
- *  Message Center
- *  Alerts
+ -  Subscription health
+ -  Service status
+ -  Active and resolved incidents
+ -  Message Center
+ -  Alerts
 
 ## Knowledge check
 
