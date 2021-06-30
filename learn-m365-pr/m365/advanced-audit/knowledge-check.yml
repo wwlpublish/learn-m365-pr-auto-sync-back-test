@@ -63,14 +63,14 @@ quiz:
         isCorrect: false
         explanation: "If you create an audit log retention policy for Exchange mailbox activity that has a retention period that's shorter than one year, audit records for Exchange mailbox activities will be retained for the shorter duration specified by the custom policy. "
       
-    - content: "Users must be assigned the Organization Configuration role in the Security & Compliance Center to create or modify an audit log retention policy. This is accomplished by adding the user to which role group in the Security & Compliance Center? "
+    - content: "Users must be assigned the Organization Configuration role in the Microsoft 365 Defender portal to create or modify an audit log retention policy. This is accomplished by adding the user to which role group in the Microsoft 365 Defender portal? "
       choices:
       - content: "Compliance Management"
         isCorrect: false
         explanation: "Compliance Management isn't the correct role group."
       - content: "Organization Management"
         isCorrect: true
-        explanation: "This can be accomplished by adding the user to the Organization Management role group in Security & Compliance Center. This is a different role group than the Organization Management role group in the Exchange admin center. "
+        explanation: "This can be accomplished by adding the user to the Organization Management role group in Microsoft 365 Defender portal. This is a different role group than the Organization Management role group in the Exchange admin center. "
       - content: "Security Administrator"
         isCorrect: false
         explanation: "Security Administrator isn't the correct role group."

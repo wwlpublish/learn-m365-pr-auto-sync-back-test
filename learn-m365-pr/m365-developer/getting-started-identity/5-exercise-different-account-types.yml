@@ -3,7 +3,7 @@ uid: learn-m365.getting-started-identity.5-exercise-different-account-types
 metadata:
   title: Exercise - Account types in Microsoft identity
   description: This exercise will demonstrate the different account types that are used within the Microsoft identity platform.
-  ms.date: 03/06/2021
+  ms.date: 06/17/2021
   author: andrewconnell
   ms.author: v-johnco
   ms.topic: interactive-tutorial

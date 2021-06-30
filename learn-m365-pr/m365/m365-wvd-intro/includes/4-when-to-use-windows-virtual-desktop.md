@@ -26,4 +26,3 @@ Let's reconsider our accounting firm scenario from the first unit. The key point
 - You need to provide a secure, consistent, and performant experience to the apps employees need to do their work.
 
 Azure Virtual Desktop can support all these scenarios and would be a good choice for this organization.
-

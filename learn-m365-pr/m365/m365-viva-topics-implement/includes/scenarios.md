@@ -16,8 +16,6 @@ Here are several common scenarios where knowledge management and topics can help
 ## Step 2: Prioritize the scenarios 
 One way to prioritize them is to plot out your scenarios in a grid showing impact vs. ease of implementation. Look for scenarios that are high impact, easy to implement and make those your top priority. Low impact and hard-to-implement scenarios are your lowest priority. When you have a quick win with a high impact, easy-to-implement scenario, it helps people get excited and see the possibilities of using topics. 
 
-(insert graphic)
-
 ## Step 3: Implement high priority scenarios first 
 
 Pick a couple of key scenarios to focus on initially, work with your early adopters to get some feedback, and then roll out in stages. This way you can iterate, make improvements, and gain feedback to grow adoption over time. 
@@ -43,8 +41,6 @@ We recommend having each of these roles fulfilled throughout your rollout, altho
 
 ## Step 5: Perform Topic discovery & curation 
 Before you get started with adoption, you need to understand the concepts involved in Knowledge management and Viva Topics. The following diagram shows what happens during topic discovery and curation for your end users: 
-
-(insert graphic) 
 
 - **Discovery**: Users can discover knowledge in the apps they use every day through topic cards - they can also discover topics in Microsoft Search. 
 - **Curation**: Subject matter experts (SMEs) refine topics through topic pages, and AI learns from their input. The topic center contains topic pages users can explore, and experts can manage. 

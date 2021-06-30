@@ -1,3 +1,5 @@
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4OIAr]
+
 In this unit, let's look at the endpoint characteristics of Microsoft Graph and how you can use query parameters to manipulate requests.
 
 ## Accessing Microsoft Graph
@@ -66,7 +68,7 @@ If the result contains more than five users, Microsoft Graph will return an `@od
 "@odata.nextLink": "https://graph.microsoft.com/v1.0/users?$top=5&$skiptoken=X%274453707 ... 6633B900000000000000000000%27"
 ```
 
-You can retrieve the next page of results by sending the URL value of the @odata:nextLink property to Microsoft Graph.
+You can retrieve the next page of results by sending the URL value of the `@odata:nextLink` property to Microsoft Graph.
 
 ```http
 https://graph.microsoft.com/v1.0/users?$top=5&$skiptoken=X%274453707 ... 6633B900000000000000000000%27
@@ -92,10 +94,10 @@ The `$orderby` parameter enables developers to let data from Microsoft Graph be 
 https://graph.microsoft.com/v1.0/users?$orderby=displayName
 ```
 
-Complex fields can also be sorted. Complex types, such as the from field in an email message is a complex type of an email address that contains a name and address property. To sort by name, use `from/emailAddress/name`.
+Complex fields can also be sorted. Complex types, such as the *from* field in an email message is a complex type of an email address that contains a name and address property. To sort by name, use `from/emailAddress/name`.
 
 ```http
 https://graph.microsoft.com/v1.0/me/messages?$orderby=from/emailAddress/name
 ```
 
-By default, responses from Microsoft Graph are returned in the JSON format. However, you can request data in two other formats, ATOM, and XML, by adding the `$format` parameter.
+By default, responses from Microsoft Graph are returned in the JSON format. However, you can request data in two other formats, ATOM and XML, by adding the `$format` parameter.
