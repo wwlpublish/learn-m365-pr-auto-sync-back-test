@@ -19,4 +19,4 @@ These are the steps to implement certificates:
 Test your configuration using every device type that you need to support. 
 
 ## Learn more
-[Certificate-Based Authentication (CBA) for Exchange Online](https://techcommunity.microsoft.com/t5/exchange-team-blog/certificate-based-authentication-cba-for-exchange-online/ba-p/605173&azure-portal=true) 
+[Certificate-Based Authentication (CBA) for Exchange Online](/azure/active-directory/authentication/active-directory-certificate-based-authentication-get-started)

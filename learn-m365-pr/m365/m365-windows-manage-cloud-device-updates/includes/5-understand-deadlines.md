@@ -1,5 +1,4 @@
-As the admin for your organization, you want to enforce compliance with updates across the devices in your environment.
-You can use deadlines to make sure that devices are migrated to newer versions of Windows.
+As the admin for your organization, you want to enforce compliance with updates across the devices in your environment. You can use deadlines to make sure that devices are migrated to newer versions of Windows.
 
 In this unit, you'll learn about deadlines and how to configure them.
 
