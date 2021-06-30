@@ -85,6 +85,6 @@ You can also export the results of multiple searches - see the documentation onl
 
 - [eDiscovery in Microsoft 365](/microsoft-365/compliance/ediscovery)
 - [Content Search](/microsoft-365/compliance/content-search)
-- [Assign eDiscovery permissions in the Security & Compliance Center](/microsoft-365/compliance/assign-ediscovery-permissions)
+- [Assign eDiscovery permissions in the Microsoft 365 Defender portal](/microsoft-365/compliance/assign-ediscovery-permissions)
 - [Create an eDiscovery hold](/microsoft-365/compliance/create-ediscovery-holds)
 - [Export content from a Core eDiscovery case](/microsoft-365/compliance/export-content-in-core-ediscovery)

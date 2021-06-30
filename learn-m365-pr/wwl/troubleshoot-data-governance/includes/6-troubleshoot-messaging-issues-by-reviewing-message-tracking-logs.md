@@ -16,7 +16,7 @@ Message tracing enables organizations to determine whether a targeted email mess
 
 **Additional reading.** For more information about message tracing in Exchange Online and the Security &amp; Compliance Center, see the following resources:
 
- -  [Trace an email message.](https://docs.microsoft.com/exchange/monitoring/trace-an-email-message/trace-an-email-message?azure-portal=true)
+ -  [Trace an email message.](/exchange/monitoring/trace-an-email-message/trace-an-email-message)
  -  [Message trace in the Microsoft 365 Security &amp; Compliance Center](https://support.office.com/article/Message-trace-in-the-Office-365-Security-Compliance-Center-3e64f99d-ac33-4aba-91c5-9cb4ca476803?azure-portal=true)
 
 ### Data logging format
@@ -55,7 +55,7 @@ The Transport Rule Agent also requires the following properties be grouped by ru
  -  execution Wall clock (optional)
  -  execution CPU clock (optional)
 
-**Additional reading.** For more information, see [View DLP policy detection reports](https://docs.microsoft.com/exchange/view-dlp-policy-detection-reports-exchange-2013-help?azure-portal=true).
+**Additional reading.** For more information, see [View DLP policy detection reports](/exchange/view-dlp-policy-detection-reports-exchange-2013-help).
 
 ### DLP reports in the Security &amp; Compliance Center
 

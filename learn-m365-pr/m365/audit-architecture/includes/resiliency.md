@@ -36,8 +36,7 @@ Customer responsibilities for resilience vary based on the specific Microsoft 36
 - Training users to understand retention and recovery policies and to use retention features.
 - Initiating data recovery within the service retention times for relevant services.
 - Managing and maintaining any on-premises directories.
-- Reviewing and resolving Azure AD
--  sync errors.
+- Reviewing and resolving Azure AD sync errors.
 - Developing and adopting contingency policies (for example, setting up emergency admin access accounts).
 - Managing and ensuring connectivity and functionality of customer HSMs
 

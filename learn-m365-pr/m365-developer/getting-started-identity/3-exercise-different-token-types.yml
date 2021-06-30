@@ -3,7 +3,7 @@ uid: learn-m365.getting-started-identity.3-exercise-different-token-types
 metadata:
   title: Exercise - Different types of tokens used in Microsoft identity
   description: In this exercise, you'll create an Azure AD application and single page application for a user to sign in and display their information on the page.
-  ms.date: 03/06/2021
+  ms.date: 06/17/2021
   author: andrewconnell
   ms.author: v-johnco
   ms.topic: interactive-tutorial

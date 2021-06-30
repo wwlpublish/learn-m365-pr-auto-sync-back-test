@@ -25,4 +25,3 @@ Other than remote control via TeamViewer, to start using these remote device act
 
 - [Implement co-management precedence](/configmgr/comanage/tutorial-co-manage-clients?azure-portal=true)
 - [Migrate group policy to MDM policies](/windows/client-management/mdm/?azure-portal=true)
-

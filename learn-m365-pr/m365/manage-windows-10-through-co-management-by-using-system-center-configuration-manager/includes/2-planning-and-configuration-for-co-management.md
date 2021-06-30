@@ -39,4 +39,3 @@ To set up co-management of your Windows 10 devices that are already enrolled in 
 ## Bootstrap with modern provisioning
 
 To set up co-management of Windows 10 devices in an environment where you use both Azure Active Directory (AD) and an on-premises AD but don't have a hybrid Azure Active Directory (AD), complete the steps outlined in [Tutorial: Enable co-management for new internet-based devices](/sccm/comanage/tutorial-co-manage-new-devices).
-
