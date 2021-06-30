@@ -12,3 +12,4 @@ After completing this module, you'll be able to:
  -  Describe the typical deployment requirements and issues when deploying Office Telemetry.
  -  Describe the types of data collected by the Office Telemetry Agent.
  -  Install and configure Office Telemetry.
+
