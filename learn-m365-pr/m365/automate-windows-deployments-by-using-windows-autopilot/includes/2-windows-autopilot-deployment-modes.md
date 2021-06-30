@@ -11,11 +11,8 @@
 Windows Autopilot user-driven mode is designed to enable new Windows 10 devices to arrive directly from the factory, in a ready-to-use state without requiring IT personnel to ever touch the device. The process is so simple that anyone can complete it, enabling devices to be shipped to the end user with simple instructions:
 
 1. Unbox the device, plug it in, and turn it on.
-
 1. Choose a language, locale, and keyboard.
-
 1. Connect it to a wireless or wired network with internet access.
-
 1. Specify your e-mail address and password for your organization account.
 
 The remainder of the process is entirely automated, with the device being joined to the organization, enrolled in Intune, and fully configured as defined by the organization.
@@ -33,11 +30,8 @@ During a reset, Windows Autopilot Reset removes personal files, apps, and settin
 The Windows Autopilot Reset process automatically retains information from the existing device:
 
 - Set the region, language, and keyboard to the originally configured values.
-
 - Wi-Fi connection details.
-
 - Provisioning packages previously applied to the device, as well as a provisioning package present on a USB drive when the reset process is started.
-
 - Azure Active Directory device membership and MDM enrollment information.
 
 Windows Autopilot Resets can be triggered locally or remotely by IT staff.
