@@ -1444,6 +1444,11 @@
       "source_path": "learn-m365-pr/wwl-mba/get-started-with-microsoft-365-using-fasttrack/6-summary-and-resources.md",
       "redirect_url": "https://docs.microsoft.com/learn/paths/m365-productivity-teamwork-solutions/",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/plan-your-premises-infrastructure-for-microsoft-365/4-estimate-your-organizationss-bandwidth-requirements-to-support.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/plan-your-premises-infrastructure-for-microsoft-365/",
+      "redirect_document_id": true
     }
   ]
 }
