@@ -2,8 +2,8 @@ Microsoft 365 is a managed service that's designed to work in any environment th
 
 Microsoft 365 may increase the usage of your organization’s network. It's important to determine if the amount of network bandwidth currently available is enough to:
 
- *  handle the estimated increase once Microsoft 365 is fully deployed.
- *  have at least 20% of capacity available to handle the busiest of days.
+ -  handle the estimated increase once Microsoft 365 is fully deployed.
+ -  have at least 20% of capacity available to handle the busiest of days.
 
 Complete the following steps to estimate your network’s bandwidth:
 
@@ -13,4 +13,4 @@ Complete the following steps to estimate your network’s bandwidth:
 4.  Use the measurements from the pilot group to extrapolate the entire organization's needs.
 5.  Retest to validate the estimations before making any changes to your network.
 
-**Additional reading.** For more information, see the following article regarding [planning your network with Office 365](https://support.office.com/article/network-planning-and-performance-tuning-for-office-365-e5f1228c-da3c-4654-bf16-d163daee8848?azure-portal=true).
+**Additional reading.** For more information, see [Planning your network with Office 365](https://support.office.com/article/network-planning-and-performance-tuning-for-office-365-e5f1228c-da3c-4654-bf16-d163daee8848?azure-portal=true).
