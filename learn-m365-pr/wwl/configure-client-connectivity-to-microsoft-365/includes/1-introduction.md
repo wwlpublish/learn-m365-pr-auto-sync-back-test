@@ -7,3 +7,4 @@ After completing this module, you'll be able to:
  -  Describe the connectivity protocols that enable Outlook to connect to Microsoft 365.
  -  Describe how multifactor authentication increases security by adding an extra layer of user verification.
  -  Identify the tools that can help you troubleshoot connectivity issues in Microsoft 365 deployments.
+
