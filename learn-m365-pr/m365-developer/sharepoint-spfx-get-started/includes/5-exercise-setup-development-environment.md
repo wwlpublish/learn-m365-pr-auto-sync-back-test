@@ -19,31 +19,32 @@ The tools used in compiling, debugging, and packaging SharePoint Framework proje
 >
 > If a version number is returned, you already have Node.js. The version(s) of Node.js you may use depends on the environment(s) you'll be targeting.
 >
-> If you are building projects for SharePoint 2016, then you should not use Node.js v10.x. If you do you'll not be able to debug SharePoint 2016 projects in the local or SharePoint-hosted workbenches. It is recommended that you instead install Node.js v8.x, which means that the maximum version of the SharePoint Framework Yeoman generator you may use is v1.10.0.
+> If you are building projects for SharePoint 2016, then you should not use a version of Node.js later than v8.x. If you do you'll not be able to debug SharePoint 2016 projects in the local or SharePoint-hosted workbenches. This means that the maximum version of the SharePoint Framework Yeoman generator you may use is v1.10.0.
 >
-> If you are building projects for SharePoint 2019 and/or SharePoint Online, then it is recommended that you install Node.js v10.x and the latest version of the SharePoint Framework (which is currently v1.11.0).
+> If you are building projects for SharePoint 2019 and/or SharePoint Online, then it is recommended that you install the latest version of Node.js v14.x and the latest version of the SharePoint Framework (which is currently v1.12.1).
 
 ### SharePoint Framework / Node.js Compatibility
 
-| SPFx    | Node.js     |
-| ------- | ----------- |
-| v1.11.0 | v10.x       |
-| v1.10.0 | v8.x, v10.x |
-| v1.9.1  | v8.x, v10.x |
-| v1.9.0  | v8.x, v10.x |
-| v1.8.2  | v8.x, v10.x |
-| v1.8.1  | v8.x        |
-| v1.8.0  | v8.x        |
-| v1.7.1  | v8.x        |
-| v1.7.0  | v8.x        |
-| v1.6.0  | v6.x, v8.x  |
-| v1.5.1  | v6.x, v8.x  |
-| v1.5.0  | v6.x, v8.x  |
-| v1.4.1  | v6.x, v8.x  |
-| v1.4.0  | v6.x, v8.x  |
-| v1.2.0  | v6.x, v8.x  |
-| v1.1.1  | v6.x, v8.x  |
-| v1.1.0  | v6.x        |
+| SPFx    | Node.js                         |
+| ------- | ------------------------------- |
+| v1.12.1 | v10.13.0+, v12.13.0+, v14.15.0+ |
+| v1.11.0 | v10.x                           |
+| v1.10.0 | v8.x, v10.x                     |
+| v1.9.1  | v8.x, v10.x                     |
+| v1.9.0  | v8.x, v10.x                     |
+| v1.8.2  | v8.x, v10.x                     |
+| v1.8.1  | v8.x                            |
+| v1.8.0  | v8.x                            |
+| v1.7.1  | v8.x                            |
+| v1.7.0  | v8.x                            |
+| v1.6.0  | v6.x, v8.x                      |
+| v1.5.1  | v6.x, v8.x                      |
+| v1.5.0  | v6.x, v8.x                      |
+| v1.4.1  | v6.x, v8.x                      |
+| v1.4.0  | v6.x, v8.x                      |
+| v1.2.0  | v6.x, v8.x                      |
+| v1.1.1  | v6.x, v8.x                      |
+| v1.1.0  | v6.x                            |
 
 > For SharePoint Framework v1.1.1 through 1.4.0, a workaround is required when debugging in the local or hosted workbench if you have Node.js v8.x installed. Please see the following GitHub issue for more information: [Run gulp serve with 'NODE_NO_HTTP2=1' when using SPFx on node v8](https://github.com/SharePoint/sp-dev-docs/issues/1002).
 
@@ -51,13 +52,23 @@ If you already have a version of Node.js that's compatible with the environment(
 
 Open a browser and navigate to the Node.js Foundation site: https://www.nodejs.org.
 
-The LTS version is currently 14.x so you'll need to navigate further into the site to find the appropriate installer.
+### To install the current LTS version of Node.js
+
+Select **Downloads** from the top menu navigation, ensure the **LTS** tab is selected, and download the appropriate installer or binary for the platform you're using.
+
+![Screenshot of the Downloads page](../media/05-install-node-01.png)
+
+Run the installer, accepting all the default options. This will install Node.js and NPM (*a package manager that Node.js uses, similar to .NET's NuGet*).
+
+### To install a previous version of Node.js 
+
+To install a previous version of Node.js, you'll need to navigate further into the site to find the appropriate installer.
 
 Select **Downloads** from the top menu navigation then scroll to the bottom of the page and select **Previous Releases**.
 
-![Screenshot of the Downloads page](../media/05-install-node-02.png)
+![Screenshot of the additional platforms download page](../media/05-install-node-02.png)
 
-In the Previous Releases page, select Node.js 8.x if you'll be targeting SharePoint Server 2016 or Node.js 10.x if you'll be targeting SharePoint Server 2019 and/or SharePoint Online.
+In the Previous Releases page, select the version of Node.js you wish to install.
 
 ![Screenshot of the Previous Releases page](../media/05-install-node-03.png)
 
@@ -90,6 +101,9 @@ Open a command prompt / terminal window and execute the following command to ins
 ```console
 npm install --global gulp
 ```
+
+> [!IMPORTANT]
+> If you're using Node.js v12.x or higher, you must use Gulp v4.x. If you're using a version of Node.js lower than v12.x, you must use Gulp v3.x. For more information, see: [SharePoint Framework v1.12.1 release notes | Gulp versions & Node.js v12+](/sharepoint/dev/spfx/release-1.12.1#gulp-versions--nodejs-v12).
 
 ### Install the SharePoint Framework Yeoman generator
 

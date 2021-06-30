@@ -15,7 +15,7 @@ abstract: |
   - Connect Box, Salesforce, and GitHub to Microsoft Cloud App Security.
   - Protect storage apps and implement malware detection.
   - Configure read-only mode for external users.
-  - Block unauthorized browsers form accessing corporate web apps.
+  - Block unauthorized browsers from accessing corporate web apps.
   - Use admin quarantine to investigate files.
   - Automatically apply labels to sensitive files.
   - Implement information protection policies.

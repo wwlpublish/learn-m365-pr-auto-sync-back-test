@@ -9,4 +9,3 @@ An unmanaged app is any app available on Windows, Android and iOS. Intune doesnâ
 To receive app updates on devices that aren't enrolled with Intune, device users must go to their organization's Company Portal and manually install app updates.
 
 Users can then use either the Company Portal app or go to the Intune Company Portal website at [https://portal.manage.microsoft.com](https://portal.manage.microsoft.com/) on any of their devices and install the application without needing the device to be enrolled in Intune. The Company Portal app will not prompt users to enroll their devices if the app is configured to not require enrollment.
-

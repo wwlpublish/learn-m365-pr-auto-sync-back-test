@@ -15,4 +15,4 @@ For more detailed information on how to build a customer focus analysis, see the
 
 ## Learn more
 
-- [Workplace Analytics Resource playbooks](https://docs.microsoft.com/workplace-analytics/use/playbooks?azure-portal=true)
+- [Workplace Analytics Resource playbooks](/workplace-analytics/use/playbooks?azure-portal=true)

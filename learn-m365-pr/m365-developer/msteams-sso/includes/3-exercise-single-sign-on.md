@@ -1,3 +1,5 @@
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4OARn]
+
 The Microsoft Teams Toolkit can to register the Azure Active Directory (Azure AD) application in a single sign-in (SSO) project.
 
 In this exercise, you'll learn how to manually register and configure the Azure AD app that can be used to implement SSO in a Microsoft Teams app to better understand all the required settings.

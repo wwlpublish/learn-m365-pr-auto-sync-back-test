@@ -1,4 +1,22 @@
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4OG32]
+
 In this exercise, you'll create an Azure AD application registration using the Azure Active Directory admin center, a .NET Core console application, and query Microsoft Graph for details on Office 365 groups.
+
+## Prerequisites
+
+Developing Microsoft Graph apps requires a Microsoft 365 tenant.
+
+For the Microsoft 365 tenant, follow the instructions on the [Microsoft 365 Developer Program](https://developer.microsoft.com/microsoft-365/dev-program) site for obtaining a developer tenant if you don't currently have a Microsoft 365 account.
+
+You'll use the .NET SDK to create custom Microsoft Graph app in this module. The exercises in this module assume you have the following tools installed on your developer workstation.
+
+> [!IMPORTANT]
+> In most cases, installing the latest version of the following tools is the best option. The versions listed here were used when this module was published and last tested.
+
+- [.NET SDK](https://dotnet.microsoft.com/) - v5.\* (or higher)
+- [Visual Studio Code](https://code.visualstudio.com)
+
+You must have the minimum versions of these prerequisites installed on your workstation.
 
 ## Create an Azure AD application
 
@@ -68,8 +86,7 @@ In the **Configured Permissions** panel, select the button **Grant admin consent
 
 ## Create .NET Core console application
 
-> [!NOTE]
-> The instructions below assume you are using .NET 5. They were last tested using v5.0.202 of the .NET 5 SDK.
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4OO2U]
 
 Open your command prompt, navigate to a directory where you have rights to create your project, and run the following command to create a new .NET Core console application:
 
@@ -359,11 +376,13 @@ After entering the username and password of a user, you'll see the results of al
 
 ## Get a specific Office 365 group
 
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4OASV]
+
 In this section, you'll get a specific group using Microsoft Graph.
 
 Locate the code you added above for `// request 1 - all groups` and comment it out so it doesn't continue to execute.
 
-Using the results in the console from the previous step, copy the ID from one of the groups displayed. Add the following code to the end of the `Main` method, replacing `{{REPLACE_WITH_GROUP_ID}}` with the ID you copied from the console. 
+Using the results in the console from the previous step, copy the ID from one of the groups displayed. Add the following code to the end of the `Main` method, replacing `{{REPLACE_WITH_GROUP_ID}}` with the ID you copied from the console.
 
 ```csharp
 var groupId = "{{REPLACE_WITH_GROUP_ID}}";
@@ -419,7 +438,7 @@ Console.WriteLine(requestGroupOwners.GetHttpRequestMessage().RequestUri);
 ```
 
 > [!NOTE]
-> Owners are currently not available in Microsoft Graph for groups that were created in Exchange or groups that are synchronized from an on-premises environment. If no owners are displayed, it's likely you selected a one of these types of group. Update the code to use a different group ID and rerun the test. Repeat this process until until at least one owner is displayed. 
+> Owners are currently not available in Microsoft Graph for groups that were created in Exchange or groups that are synchronized from an on-premises environment. If no owners are displayed, it's likely you selected a one of these types of group. Update the code to use a different group ID and rerun the test. Repeat this process until until at least one owner is displayed.
 
 ### Build and test the application
 
@@ -439,7 +458,7 @@ After entering the username and password of a user, you'll see the list of owner
 
 In this section, you'll get all the members of the group you obtained in a previous section.
 
-Locate the code you added above for `// request 3 - group owners` and comment it out so it doesn't continue to execute. 
+Locate the code you added above for `// request 3 - group owners` and comment it out so it doesn't continue to execute.
 
 Add the following code ot the end of the `Main` method. This will get the collection of members of the specified group and write them to the console:
 

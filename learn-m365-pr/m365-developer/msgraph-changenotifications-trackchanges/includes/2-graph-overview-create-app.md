@@ -1,3 +1,5 @@
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4OATk]
+
 In this unit, you'll learn how Microsoft Graph fits into the larger Microsoft 365 platform. Next, you'll learn how to create a .NET Core web API that will be used to create and receive HTTP POST requests from Microsoft Graph.
 
 ## Microsoft 365 Platform

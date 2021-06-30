@@ -4,7 +4,7 @@ OneDrive is the files hub for Office 365. OneDrive enables users to access and c
 
 - Basic knowledge of REST services & APIs
 - Basic knowledge of Microsoft Graph
-- Ability to develop with ASP.NET Core at the intermediate level
+- Ability to develop with NET Core at the intermediate level
 - Experience using Visual Studio Code at the beginner level
 - Access to a [Microsoft 365 tenant](https://developer.microsoft.com/office/dev-program?ocid=MSlearn)
 
@@ -21,4 +21,4 @@ By the end of this module, you'll be able to:
 
 Refer to the following repository for additional resources associated with this module. This repository includes completed code samples from the exercise units found in this module: [MicrosoftGraph/msgraph-access-files-data](https://github.com/microsoftgraph/msgraph-access-files-data).
 
-This module is also available as a screencast: [Access Files with Microsoft Graph](https://youtu.be/YYcuyNfNdRw)
+This module is also available as a screencast: [Access Files with Microsoft Graph](https://youtube.com/playlist?list=PLWZJrkeLOrbZ8Gl8zsxUuXTkmytyiEGSh)

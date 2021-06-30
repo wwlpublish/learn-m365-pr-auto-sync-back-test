@@ -27,6 +27,7 @@ The process manager leads the process and has the authority to keep pushing the 
 |Device assessment     |Defining infrastructure update plan|Creating capability proposal|
 
 The process manager also carries out tasks like:
+
 - Collecting remediation outcome reports
 - Escalating failures
 - Determining whether the environment is ready for Pilot deployment at the end of the Prepare phase, and then Broad deployment after Pilot deployment

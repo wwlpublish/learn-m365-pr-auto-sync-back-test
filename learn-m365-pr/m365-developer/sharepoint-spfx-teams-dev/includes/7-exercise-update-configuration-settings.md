@@ -111,7 +111,16 @@ Locate the property `configurableTabs[0].canUpdateConfiguration`.
 
 Set the value of this property to `false` and save the file.
 
-Create a Microsoft Teams app package by zipping the contents of the **./teams** folder. Make sure to zip just the contents and not the folder itself. This ZIP archive should contain three files at the root: two images and the **manifest.json**.
+Locate the **./teams** folder in the project.
+
+Delete the existing Teams app package, **TeamsSPFxApp.zip**.
+
+Recreate the Teams app package by making a new ZIP archive containing the three files in the folder: the two images and **manifest.json**. 
+
+> [!IMPORTANT]
+> ZIP the contents of the folder, not the folder itself.
+
+Name the ZIP archive **TeamsSPFxApp.zip** and save it in the **teams** folder. 
 
 ## Delete the previous Microsoft Teams tab
 
@@ -123,7 +132,7 @@ When prompted, select **Remove**.
 
 ## Update the previously installed Microsoft Teams app
 
-Within the Microsoft Teams client, select **Apps** in the lower right corner, and then select your tenant from the sidebar menu.
+Within the Microsoft Teams client, select **Apps** in the lower right corner, and then select **Built for your org** from the sidebar menu.
 
 Select the app menu, then select **Update**.
 

@@ -13,7 +13,7 @@ The following diagram shows the components of a typical enterprise deployment ar
 
 :::image type="content" source="../media/2-windows-virtual-desktop-at-scale.png" alt-text="Azure Virtual Desktop deployment that consists of Azure A D D S, synchronization to Azure A D via Azure A D Connect, and a network gateway." border="true":::
 
-Azure Virtual Desktop is deployed in a hierarchical workspace. In a traditional on-premises virtual desktop infrastructure (VDI) deployment, the customer is responsible for all aspects of security. With Azure Virtual Desktop, these responsibilities are shared between the customer and Microsoft. 
+Azure Virtual Desktop is deployed in a hierarchical workspace. In a traditional on-premises virtual desktop infrastructure (VDI) deployment, the customer is responsible for all aspects of security. With Azure Virtual Desktop, these responsibilities are shared between the customer and Microsoft.
 
 Microsoft helps secure the physical datacenters, the physical network, and the physical hosts that Azure runs on. Microsoft is also responsible for securing the virtualization control plane, which includes Azure Virtual Desktop services running in Azure.
 
