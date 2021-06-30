@@ -1,4 +1,6 @@
-In this exercise, you'll create an action command messaging extension for a custom Microsoft Teams app. Action commands allow you to present your users with a modal popup to collect or display information, then process their interaction and send information back to Teams.
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4OANG]
+
+In this exercise, you'll create an action command messaging extension for a custom Microsoft Teams app. Action commands allow you present your users with a modal popup to collect or display information, then process their interaction and send information back to Teams.
 
 > [!NOTE]
 > This exercise requires a valid Azure subscription in order to create a bot using Bot Framework. However, if you do not have an Azure subscription, you can use the legacy Bot Framework Registration Portal. Refer to the following docs for more information: [Create a bot for Microsoft Teams](/microsoftteams/platform/bots/how-to/create-a-bot-for-teams)
@@ -288,6 +290,8 @@ Locate the property `composeExtensions`. Add a new action command messaging exte
 At this point, your project is configured to host a messaging extension and your Microsoft Teams app has a single action command registered. Now you can code the action command.
 
 ## Code the messaging extension
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4OFZI]
 
 In this section, you'll code the action command for the messaging extension. Your action command, when triggered, will present the user with a modal dialog where they can select a planet from our solar system. The modal dialog is implemented using an Adaptive Card. After submitting the dialog, the action command will use another adaptive card to add details about the selected planet.
 

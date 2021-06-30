@@ -4,7 +4,7 @@ In this module, you learned about the key factors that must be planned for when 
 
 A publicly available DNS zone is critical during the Microsoft 365 deployment for organizations that want to use custom domains. In this module, you learned about the following two scenarios that organizations can choose from when planning DNS zones for custom domains:
 
- *  Internal DNS zones and external DNS zones have different names
- *  Internal DNS zones and external DNS zones have the same name (referred to as Split brain DNS or "split DNS" for short)
+ -  Internal DNS zones and external DNS zones have different names.
+ -  Internal DNS zones and external DNS zones have the same name (referred to as Split brain DNS or "split DNS" for short).
 
 This module concluded by reviewing the steps to be taken to add a new domain to Microsoft 365 using the Microsoft 365 admin center and DNS Manager.

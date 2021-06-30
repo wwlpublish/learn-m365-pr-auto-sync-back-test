@@ -1,3 +1,5 @@
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4OG3j]
+
 In this unit, you'll learn how to manage the notification lifecycle with Microsoft Graph. The key aspect to notification lifecycle is to understand how change notification subscriptions work.
 
 ## Create change notification subscriptions
@@ -24,9 +26,9 @@ Change notification subscriptions will be good for a specified amount of time. F
 
 You should have a process that is going to monitor the subscriptions to ensure that it isn't expired or isn't going to expire in a certain amount of time.
 
-If the subscription does expire, you can create a new subscription. However, you can proactively renew existing subscriptions with no interruption in notifications as long as the subscription hasn't expired. Your application just needs to  keep track of when the subscription will expire.
+If the subscription does expire, you can create a new subscription. However, you can proactively renew existing subscriptions with no interruption in notifications as long as the subscription hasn't expired. Your application just needs to keep track of when the subscription will expire.
 
-One option you can implement is to check the expiration timestamp on the subscription for each change notification your application receives. If the expiration is within a certain time frame, also to handling the change notification, your application can also renew the subscription. While this solution will work in scenarios that receive a high number of change notifications, it breaks down if no change notifications are received in the specified subscription window.
+One option you can implement is to check the expiration timestamp on the subscription for each change notification your application receives. If the expiration is within a certain time frame, in addition to handling the change notification, your application can also renew the subscription. While this solution will work in scenarios that receive a high number of change notifications, it breaks down if no change notifications are received in the specified subscription window.
 
 To address this, you could have another process on a timer that verifies notifications are received within the subscription window. If not, you can assume the subscription has likely expired and needs to be recreated.
 

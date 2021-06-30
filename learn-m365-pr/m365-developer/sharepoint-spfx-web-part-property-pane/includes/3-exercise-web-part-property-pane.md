@@ -3,7 +3,7 @@ In this exercise, you'll manipulate the property pane for a SharePoint Framework
 ## Create a new SharePoint Framework solution and web part
 
 > [!IMPORTANT]
-> The instructions below assume you are using v1.11.0 of the SharePoint Framework Yeoman generator.
+> The instructions below assume you are using v1.12.1 of the SharePoint Framework Yeoman generator.
 
 Open a command prompt and change to the folder where you want to create the project.
 
