@@ -2,7 +2,7 @@ This module introduces the methodology of device management known as Co-manageme
 
 Windows devices were traditionally managed in on-premises domain environments by using Group Policy and Configuration Manager. IT traditionally built and maintained its infrastructure in its own on-premises data center. This design enabled it to deliver services like Microsoft's Active Directory Domain Services (AD DS). AD DS is used for providing identity management, but also for providing access to company resources, file services, and applications.
 
-While AD DS enables flexible and granular device management, it also requires: 
+While AD DS enables flexible and granular device management, it also requires:
 
  -  that devices be domain joined.
  -  the Configuration Manager management agent is installed on the device.

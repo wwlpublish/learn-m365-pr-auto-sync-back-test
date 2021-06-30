@@ -10,15 +10,19 @@ All available Microsoft REST APIs that don't support anonymous requests are secu
 
 ### Secure Azure Functions with Azure AD
 
-A common approach to implementing a REST API is to use Azure Functions. Securing an Azure Function with Azure AD is simple. In the left-hand navigation, select the **Authentication / Authorization** menu item. The **Authentication / Authorization** blade supports authentication using different OAuth 2.0 providers, including Azure AD, Microsoft Accounts, Facebook, and Google.
+A common approach to implementing a REST API is to use Azure Functions. Securing an Azure Function with Azure AD is simple. In the left-hand navigation, select the **Authentication** menu item.
 
 ![Screenshot of Azure Function app configuration page](../media/04-secure-azure-functions-01.png)
 
-After enabling authentication and selecting **Azure AD**, you'll then either create a new Azure AD app or associate the Azure Function app with an existing Azure AD app.
+The **Authentication** blade supports authentication using different OAuth 2.0 providers, including Microsoft, Facebook, Google, and Twitter.
 
-![Screenshot of Azure Function app Authentication / Authorization blade](../media/04-secure-azure-functions-02.png)
+![Screenshot of Add an the Authentication page](../media/04-secure-azure-functions-02.png)
 
-By enabling Azure AD authentication and authentication on an Azure Function, Microsoft Azure will automatically check for a valid access token in the `authorization` HTTP request header in every request received. If the access token isn't present or not valid, the request is rejected. This verification check is done without you having to write any special code in your Azure Function.
+After selecting **Microsoft**, you'll then either create a new Azure AD app or associate the Azure Function app with an existing Azure AD app.
+
+![Screenshot of Add an identity provider page](../media/04-secure-azure-functions-03.png)
+
+By enabling Azure AD authentication on an Azure Function, Microsoft Azure will automatically check for a valid access token in the `authorization` HTTP request header in every request received. If the access token isn't present or not valid, the request is rejected. This verification check is done without you having to write any special code in your Azure Function.
 
 ## Call Azure AD secured resources from the SharePoint Framework
 

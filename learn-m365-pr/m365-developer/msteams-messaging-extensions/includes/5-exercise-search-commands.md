@@ -1,3 +1,5 @@
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4OFZH]
+
 In this exercise, you’ll learn how to execute a messaging extension search command from an existing message.
 
 > [!IMPORTANT]

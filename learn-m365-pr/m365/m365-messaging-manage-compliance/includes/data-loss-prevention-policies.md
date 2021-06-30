@@ -1,4 +1,4 @@
-To comply with business standards and industry regulations, organizations must protect sensitive information and prevent its inadvertent disclosure. Sensitive information can include financial data or personal information like credit card numbers or health records. With a data loss prevention (DLP) policy in the Microsoft 365 Security & Compliance Center, you can identify, monitor, and automatically protect sensitive information. 
+To comply with business standards and industry regulations, organizations must protect sensitive information and prevent its inadvertent disclosure. Sensitive information can include financial data or personal information like credit card numbers or health records. With a data loss prevention (DLP) policy in the Microsoft 365 Defender portal, you can identify, monitor, and automatically protect sensitive information. 
 
 DLP policies are simple packages that contain sets of conditions, which are made up of mail flow rule conditions, exceptions, and actions that you create in the Exchange admin center (EAC) and then activate to filter email messages and attachments. 
 

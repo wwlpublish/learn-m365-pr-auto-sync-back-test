@@ -1,12 +1,12 @@
 You must understand the state of your sensitive data and how to remediate potential issues. Microsoft information protection technologies offer tools that help you gather information, learn about the state of your sensitive data, and complete your organization’s information protection lifecycle.
 
-## Microsoft 365 security center
+## Microsoft 365 Defender portal
 
-Microsoft 365 security center features capabilities for monitoring and managing security across your Microsoft identities, data, devices, apps, and infrastructure. Here you can view the security health of your organization, act to configure devices, users, and apps, and view alerts for suspicious activity. The Microsoft 365 security center helps enable security admins and security operations teams to manage and protect their organization efficiently and effectively.
+The Microsoft 365 Defender portal features capabilities for monitoring and managing security across your Microsoft identities, data, devices, apps, and infrastructure. Here you can view the security health of your organization, act to configure devices, users, and apps, and view alerts for suspicious activity. The Microsoft 365 Defender portal helps enable security admins and security operations teams to manage and protect their organization efficiently and effectively.
 
-![Screenshot of Microsoft 365 security center dashboard](../media/security-center-dashboard.png)
+![Screenshot of the Microsoft 365 Defender portal dashboard](../media/security-center-dashboard.png)
 
-Microsoft 365 security center includes the following data protection features.
+Microsoft 365 Defender portal includes the following data protection features.
 
 - Security Center Reports inform you about:
     - Users with the most shared files
@@ -32,7 +32,7 @@ Azure Information Protection analytics helps you track adoption of your data cla
 
 ## Microsoft 365 compliance center
 
-Microsoft 365 compliance center allows you to manage your organization's data protection posture. It shows how well your cloud service complies with regulations such as the General Data Protection Regulation (GDPR), Health Insurance Portability and Accountability Act (HIPAA), and the ISO-27001 information security standard. This dashboard links directly to the Cloud App Security Portal, Azure Information Protection (AIP) Analytics, and Microsoft 365 security center.
+Microsoft 365 compliance center allows you to manage your organization's data protection posture. It shows how well your cloud service complies with regulations such as the General Data Protection Regulation (GDPR), Health Insurance Portability and Accountability Act (HIPAA), and the ISO-27001 information security standard. This dashboard links directly to the Cloud App Security Portal, Azure Information Protection (AIP) Analytics, and the Microsoft 365 Defender portal.
 
 ![Screenshot of Microsoft 365 compliance center dashboard](../media/compliance-center-dashboard.png)
 

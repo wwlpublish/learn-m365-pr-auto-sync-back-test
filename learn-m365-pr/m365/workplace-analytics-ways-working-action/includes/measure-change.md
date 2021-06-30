@@ -2,7 +2,7 @@ In addition to the in-product metrics found through features such as Workplace A
 
 ## Prepare the Ways of working tracker dashboard
 
-The Ways of working tracker dashboard uses a prebuilt Power BI template populated by output (OData) from a Workplace Analytics query. 
+The Ways of working tracker dashboard uses a prebuilt Power BI template populated by output (OData) from a Workplace Analytics query.
 
 ![Prepare the dashboard](../media/collaboration-tracker-query.png)
 
@@ -12,7 +12,7 @@ To set up the Ways of working tracker dashboard:
 2. Download the Ways of working tracker Power BI template and load the query output.
 3. Select your settings in the Ways of working tracker dashboard.
 
-After the data is loaded the dashboard reports generate automatically, resulting in Workplace Analytics insights on how collaboration in your organization has changed over time. This data provides views into where you can improve employee wellbeing, meeting culture, and manager effectiveness. 
+After the data is loaded the dashboard reports generate automatically, resulting in Workplace Analytics insights on how collaboration in your organization has changed over time. This data provides views into where you can improve employee wellbeing, meeting culture, and manager effectiveness.
 
 ## 1. Run the Ways of working tracker query
 
@@ -26,16 +26,16 @@ In the upper right corner of the Ways of the Ways of working tracker query, you'
 > Be sure to download and install the most recent version of Power BI to avoid issues setting up and loading data into the dashboard.
 >
 
-Select this query to open it. Give the query a descriptive name and select your date range and meeting exclusions. To create a report that updates weekly, you can choose to enable **Auto-refresh** for each query. 
+Select this query to open it. Give the query a descriptive name and select your date range and meeting exclusions. To create a report that updates weekly, you can choose to enable **Auto-refresh** for each query.
 
 - The Last six-month time period is selected by default. For best results, select the **Last one year** for the time period to see before and after any shifts.
-- Under **Select metrics**, keep all preselected metrics, and don't delete any. The dashboard uses them to create the charts, graphs, and insights in the report pages. 
-- Under **Select filters**, filter using the attributes from the organizational data to further refine the population for your analysis. 
-- Under **Select Organizational attributes**, you can leave the default attributes (Organization, LevelDesignation) selected, or select other ones you would like to filter by when using the reports. 
+- Under **Select metrics**, keep all preselected metrics, and don't delete any. The dashboard uses them to create the charts, graphs, and insights in the report pages.
+- Under **Select filters**, filter using the attributes from the organizational data to further refine the population for your analysis.
+- Under **Select Organizational attributes**, you can leave the default attributes (Organization, LevelDesignation) selected, or select other ones you would like to filter by when using the reports.
 
 ## 2. Download the Ways of working tracker Power BI template and load the query output
 
-After the query has finished running, you can access the Ways of working tracker Power BI template and data via OData URL by clicking the **Results** tab on the Queries page. 
+After the query has finished running, you can access the Ways of working tracker Power BI template and data via OData URL by clicking the **Results** tab on the Queries page.
 
 ![Load the query output](../media/load-data-template.png)
 
@@ -64,19 +64,19 @@ After you’ve selected the settings for the population you’d like to analyze,
 ## Dashboard features
 
 The Ways of working tracker contains key components that you can replicate when creating custom dashboards to track change over time.
- 
-- Line graphs to identify overall trends across KPIs 
+
+- Line graphs to identify overall trends across KPIs
 - Scorecards to track key change initiatives
 - Visualizations to identify trends before and after actions have been taken
 
-These outputs can be used to create executive presentations and business-intelligence tools to further drive transformation. 
+These outputs can be used to create executive presentations and business-intelligence tools to further drive transformation.
 
 ![Opportunity-Action-Impact graph](../media/opportunity-action-impact.png)
 
 It's important to note that driving change is often a journey that consists of using Workplace Analytics to identify the opportunity, designing tactics to take action, and measuring impact. These steps allow you to continuously make progress on realizing your key business outcomes.
 
 ## Learn more
- 
+
 - [Ways of working tracker dashboard tutorial](/Workplace-Analytics/tutorials/power-bi-collab-track?azure-portal=true)
 
 This topic includes template updates, setup instructions with video, things to remember when sharing the dashboard, FAQs, errors and troubleshooting, and support.

@@ -13,7 +13,6 @@ By the end of this module, you will be able to:
 - Describe the key components of the Compliance Manager user experience.
 - List key capabilities available in the various Compliance Manager features.
 
-
 ## Prerequisites
 
 - Cloud computing concepts
