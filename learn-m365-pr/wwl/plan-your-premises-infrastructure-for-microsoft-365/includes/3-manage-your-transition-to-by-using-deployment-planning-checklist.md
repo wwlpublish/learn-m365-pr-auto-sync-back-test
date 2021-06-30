@@ -4,58 +4,48 @@ If your company is having difficulty creating a planning checklist, Microsoft pr
 
 :::row:::
   :::column:::
-    <b>Deployment Tasks /Events</b>
+    
+
+**Deployment Tasks /Events**
+
+
   :::column-end:::
   :::column:::
-    <b>Start Date</b>
+    
+
+**Start Date**
+
+
   :::column-end:::
   :::column:::
-    <b>Finish Date</b>
+    
+
+**Finish Date**
+
+
   :::column-end:::
   :::column:::
-    <b>Resources</b>
+    
+
+**Resources**
+
+
   :::column-end:::
   :::column:::
-    <b>Dependencies</b>
+    
+
+**Dependencies**
+
+
   :::column-end:::
 :::row-end:::
 :::row:::
   :::column:::
-    <b>Determine your deployment goals</b>
-  :::column-end:::
-  :::column:::
     
-  :::column-end:::
-  :::column:::
-    
-  :::column-end:::
-  :::column:::
-    
-  :::column-end:::
-  :::column:::
-    
-  :::column-end:::
-:::row-end:::
-:::row:::
-  :::column:::
-    With your internal and external stakeholders:<br>- Agree on scope and timeline<br>- Agree on project tracking mechanism<br>- Develop success criteria and a communication / <a href="https://support.office.com/article/396b8d9e-e118-42d0-8a0d-87d1f2f055fb?azure-portal=true">Get started with Microsoft 365</a>
-  :::column-end:::
-  :::column:::
-    
-  :::column-end:::
-  :::column:::
-    
-  :::column-end:::
-  :::column:::
-    
-  :::column-end:::
-  :::column:::
-    
-  :::column-end:::
-:::row-end:::
-:::row:::
-  :::column:::
-    <b>Inventory your current environment and make key deployment decisions</b>
+
+**Determine your deployment goals**
+
+
   :::column-end:::
   :::column:::
     
@@ -72,7 +62,14 @@ If your company is having difficulty creating a planning checklist, Microsoft pr
 :::row-end:::
 :::row:::
   :::column:::
-    Inventory your current environment
+    
+
+With your internal and external stakeholders:
+\- Agree on scope and timeline
+\- Agree on project tracking mechanism
+\- Develop success criteria and a communication / [Get started with Microsoft 365](https://support.office.com/article/396b8d9e-e118-42d0-8a0d-87d1f2f055fb?azure-portal=true)
+
+
   :::column-end:::
   :::column:::
     
@@ -89,7 +86,11 @@ If your company is having difficulty creating a planning checklist, Microsoft pr
 :::row-end:::
 :::row:::
   :::column:::
-    Collect the number of user accounts (sign in names, email addresses)
+    
+
+**Inventory your current environment and make key deployment decisions**
+
+
   :::column-end:::
   :::column:::
     
@@ -106,7 +107,11 @@ If your company is having difficulty creating a planning checklist, Microsoft pr
 :::row-end:::
 :::row:::
   :::column:::
-    Collect the number and size of mailboxes (including shared mailboxes and conference rooms)
+    
+
+Inventory your current environment
+
+
   :::column-end:::
   :::column:::
     
@@ -123,7 +128,11 @@ If your company is having difficulty creating a planning checklist, Microsoft pr
 :::row-end:::
 :::row:::
   :::column:::
-    Collect client versions and configurations (browsers, operating systems, office applications, mobile versions, and so on)
+    
+
+Collect the number of user accounts (sign in names, email addresses)
+
+
   :::column-end:::
   :::column:::
     
@@ -140,7 +149,11 @@ If your company is having difficulty creating a planning checklist, Microsoft pr
 :::row-end:::
 :::row:::
   :::column:::
-    Collect details on your network settings (DNS hosts, proxy and/or firewall configuration, internet connectivity)
+    
+
+Collect the number and size of mailboxes (including shared mailboxes and conference rooms)
+
+
   :::column-end:::
   :::column:::
     
@@ -157,7 +170,11 @@ If your company is having difficulty creating a planning checklist, Microsoft pr
 :::row-end:::
 :::row:::
   :::column:::
-    Collect information on file storage locations (file shares, intranet file storage)
+    
+
+Collect client versions and configurations (browsers, operating systems, office applications, mobile versions, and so on)
+
+
   :::column-end:::
   :::column:::
     
@@ -174,7 +191,11 @@ If your company is having difficulty creating a planning checklist, Microsoft pr
 :::row-end:::
 :::row:::
   :::column:::
-    Collect details about any intranet sites that you plan to migrate
+    
+
+Collect details on your network settings (DNS hosts, proxy and/or firewall configuration, internet connectivity)
+
+
   :::column-end:::
   :::column:::
     
@@ -191,7 +212,11 @@ If your company is having difficulty creating a planning checklist, Microsoft pr
 :::row-end:::
 :::row:::
   :::column:::
-    Collect online meeting and Instant Messaging systems that you plan to migrate
+    
+
+Collect information on file storage locations (file shares, intranet file storage)
+
+
   :::column-end:::
   :::column:::
     
@@ -208,7 +233,11 @@ If your company is having difficulty creating a planning checklist, Microsoft pr
 :::row-end:::
 :::row:::
   :::column:::
-    Collect the details about any applications that are integrated with existing systems (mail enabled applications, workflow, CRM, and so on)
+    
+
+Collect details about any intranet sites that you plan to migrate
+
+
   :::column-end:::
   :::column:::
     
@@ -225,7 +254,11 @@ If your company is having difficulty creating a planning checklist, Microsoft pr
 :::row-end:::
 :::row:::
   :::column:::
-    Make key deployment decisions
+    
+
+Collect online meeting and Instant Messaging systems that you plan to migrate
+
+
   :::column-end:::
   :::column:::
     
@@ -242,7 +275,11 @@ If your company is having difficulty creating a planning checklist, Microsoft pr
 :::row-end:::
 :::row:::
   :::column:::
-    How will you <a href="https://go.microsoft.com/fwlink/?LinkId=534819?azure-portal=true">create and/or synchronize accounts</a>?
+    
+
+Collect the details about any applications that are integrated with existing systems (mail enabled applications, workflow, CRM, and so on)
+
+
   :::column-end:::
   :::column:::
     
@@ -259,7 +296,11 @@ If your company is having difficulty creating a planning checklist, Microsoft pr
 :::row-end:::
 :::row:::
   :::column:::
-    How will <a href="https://go.microsoft.com/fwlink/?LinkId=534820?azure-portal=true">user accounts be authenticated</a>?
+    
+
+Make key deployment decisions
+
+
   :::column-end:::
   :::column:::
     
@@ -276,7 +317,11 @@ If your company is having difficulty creating a planning checklist, Microsoft pr
 :::row-end:::
 :::row:::
   :::column:::
-    Will you migrate any data and how will that migration occur (<a href="https://go.microsoft.com/fwlink/?LinkId=534823?azure-portal=true">email</a> and <a href="https://go.microsoft.com/fwlink/?LinkId=534824?azure-portal=true">files</a>)?
+    
+
+How will you [create and synchronize accounts](https://go.microsoft.com/fwlink/?LinkId=534819?azure-portal=true)?
+
+
   :::column-end:::
   :::column:::
     
@@ -293,7 +338,11 @@ If your company is having difficulty creating a planning checklist, Microsoft pr
 :::row-end:::
 :::row:::
   :::column:::
-    Will there be any short or long-term <a href="https://go.microsoft.com/fwlink/?LinkId=534822?azure-portal=true">integration with on-premises systems</a>?
+    
+
+How will [user accounts be authenticated](https://go.microsoft.com/fwlink/?LinkId=534820?azure-portal=true)?
+
+
   :::column-end:::
   :::column:::
     
@@ -310,7 +359,11 @@ If your company is having difficulty creating a planning checklist, Microsoft pr
 :::row-end:::
 :::row:::
   :::column:::
-    What <a href="https://go.microsoft.com/fwlink/?LinkId=534821?azure-portal=true">devices will users be able to connect from</a> (remotely, from mobile devices, or just from your network)?
+    
+
+Will you migrate any data and how will that migration occur ([email](https://go.microsoft.com/fwlink/?LinkId=534823?azure-portal=true) and [files](https://go.microsoft.com/fwlink/?LinkId=534824?azure-portal=true))?
+
+
   :::column-end:::
   :::column:::
     
@@ -327,7 +380,11 @@ If your company is having difficulty creating a planning checklist, Microsoft pr
 :::row-end:::
 :::row:::
   :::column:::
-    <b>Fix potential deployment blockers</b>
+    
+
+Will there be any short or long-term [integration with on-premises systems](https://go.microsoft.com/fwlink/?LinkId=534822?azure-portal=true)?
+
+
   :::column-end:::
   :::column:::
     
@@ -344,7 +401,11 @@ If your company is having difficulty creating a planning checklist, Microsoft pr
 :::row-end:::
 :::row:::
   :::column:::
-    With tools and guidance from Microsoft:
+    
+
+What [devices will users be able to connect from](https://go.microsoft.com/fwlink/?LinkId=534821?azure-portal=true) (remotely, from mobile devices, or just from your network)?
+
+
   :::column-end:::
   :::column:::
     
@@ -361,7 +422,11 @@ If your company is having difficulty creating a planning checklist, Microsoft pr
 :::row-end:::
 :::row:::
   :::column:::
-    Clean up active directory accounts (<a href="https://go.microsoft.com/fwlink/?LinkId=534825?azure-portal=true">guidance</a> and <a href="https://go.microsoft.com/fwlink/?LinkId=534826?azure-portal=true">tool</a>)
+    
+
+**Fix potential deployment blockers**
+
+
   :::column-end:::
   :::column:::
     
@@ -378,7 +443,11 @@ If your company is having difficulty creating a planning checklist, Microsoft pr
 :::row-end:::
 :::row:::
   :::column:::
-    Get your data ready for a migration (<a href="https://go.microsoft.com/fwlink/?LinkId=534823?azure-portal=true">email</a> and <a href="https://go.microsoft.com/fwlink/?LinkId=534824?azure-portal=true">files</a>)
+    
+
+With tools and guidance from Microsoft:
+
+
   :::column-end:::
   :::column:::
     
@@ -395,7 +464,11 @@ If your company is having difficulty creating a planning checklist, Microsoft pr
 :::row-end:::
 :::row:::
   :::column:::
-    Get your network ready (<a href="https://aka.ms/tune?azure-portal=true">guidance and tools</a>)
+    
+
+Clean up active directory accounts ([guidance](https://go.microsoft.com/fwlink/?LinkId=534825?azure-portal=true) and [tool](https://go.microsoft.com/fwlink/?LinkId=534826?azure-portal=true))
+
+
   :::column-end:::
   :::column:::
     
@@ -412,7 +485,11 @@ If your company is having difficulty creating a planning checklist, Microsoft pr
 :::row-end:::
 :::row:::
   :::column:::
-    Update client software versions (<a href="https://go.microsoft.com/fwlink/?LinkId=534827?azure-portal=true">guidance</a>)
+    
+
+Get your data ready for a migration ([email](https://go.microsoft.com/fwlink/?LinkId=534823?azure-portal=true) and [files](https://go.microsoft.com/fwlink/?LinkId=534824?azure-portal=true))
+
+
   :::column-end:::
   :::column:::
     
@@ -429,7 +506,11 @@ If your company is having difficulty creating a planning checklist, Microsoft pr
 :::row-end:::
 :::row:::
   :::column:::
-    If you have Active Directory Rights Management Services: Prepare your environment (<a href="https://go.microsoft.com/fwlink/?linkid=844967?azure-portal=true">guidance</a>)
+    
+
+Get your network ready ([guidance and tools](https://aka.ms/tune?azure-portal=true))
+
+
   :::column-end:::
   :::column:::
     
@@ -446,7 +527,11 @@ If your company is having difficulty creating a planning checklist, Microsoft pr
 :::row-end:::
 :::row:::
   :::column:::
-    <b>Set up Microsoft 365 services to work for your organization</b>
+    
+
+Update client software versions ([guidance](https://go.microsoft.com/fwlink/?LinkId=534827?azure-portal=true))
+
+
   :::column-end:::
   :::column:::
     
@@ -463,7 +548,11 @@ If your company is having difficulty creating a planning checklist, Microsoft pr
 :::row-end:::
 :::row:::
   :::column:::
-    Configure your Microsoft 365 subscription
+    
+
+If you have Active Directory Rights Management Services: Prepare your environment ([guidance](https://go.microsoft.com/fwlink/?linkid=844967?azure-portal=true))
+
+
   :::column-end:::
   :::column:::
     
@@ -480,7 +569,11 @@ If your company is having difficulty creating a planning checklist, Microsoft pr
 :::row-end:::
 :::row:::
   :::column:::
-    <a href="https://go.microsoft.com/fwlink/?LinkId=534828?azure-portal=true">Verify the domains you want to use with your subscription</a>
+    
+
+**Set up Microsoft 365 services to work for your organization**
+
+
   :::column-end:::
   :::column:::
     
@@ -497,7 +590,11 @@ If your company is having difficulty creating a planning checklist, Microsoft pr
 :::row-end:::
 :::row:::
   :::column:::
-    Configure application settings (email, instant messaging, online meetings, web collaboration, file storage, Yammer)
+    
+
+Configure your Microsoft 365 subscription
+
+
   :::column-end:::
   :::column:::
     
@@ -514,7 +611,11 @@ If your company is having difficulty creating a planning checklist, Microsoft pr
 :::row-end:::
 :::row:::
   :::column:::
-    Optionally <a href="https://go.microsoft.com/fwlink/?LinkId=534830?azure-portal=true">prepare for directory synchronization</a>
+    
+
+[Verify the domains you want to use with your subscription](https://go.microsoft.com/fwlink/?LinkId=534828?azure-portal=true)
+
+
   :::column-end:::
   :::column:::
     
@@ -531,7 +632,11 @@ If your company is having difficulty creating a planning checklist, Microsoft pr
 :::row-end:::
 :::row:::
   :::column:::
-    Optionally <a href="https://go.microsoft.com/fwlink/?LinkId=534831?azure-portal=true">prepare for single sign-on</a>
+    
+
+Configure application settings (email, instant messaging, online meetings, web collaboration, file storage, Yammer)
+
+
   :::column-end:::
   :::column:::
     
@@ -548,7 +653,11 @@ If your company is having difficulty creating a planning checklist, Microsoft pr
 :::row-end:::
 :::row:::
   :::column:::
-    Prepare your organization
+    
+
+Optionally [prepare for directory synchronization](https://go.microsoft.com/fwlink/?LinkId=534830?azure-portal=true)
+
+
   :::column-end:::
   :::column:::
     
@@ -565,7 +674,11 @@ If your company is having difficulty creating a planning checklist, Microsoft pr
 :::row-end:::
 :::row:::
   :::column:::
-    Prepare service desk for upcoming migration
+    
+
+Optionally [prepare for single sign-on](https://go.microsoft.com/fwlink/?LinkId=534831?azure-portal=true)
+
+
   :::column-end:::
   :::column:::
     
@@ -582,7 +695,11 @@ If your company is having difficulty creating a planning checklist, Microsoft pr
 :::row-end:::
 :::row:::
   :::column:::
-    Test the deployment and optional migration process
+    
+
+Prepare your organization
+
+
   :::column-end:::
   :::column:::
     
@@ -599,7 +716,11 @@ If your company is having difficulty creating a planning checklist, Microsoft pr
 :::row-end:::
 :::row:::
   :::column:::
-    Tell your users about the upcoming changes and how it will affect them
+    
+
+Prepare service desk for upcoming migration
+
+
   :::column-end:::
   :::column:::
     
@@ -616,7 +737,11 @@ If your company is having difficulty creating a planning checklist, Microsoft pr
 :::row-end:::
 :::row:::
   :::column:::
-    <b>Roll out to users</b>
+    
+
+Test the deployment and optional migration process
+
+
   :::column-end:::
   :::column:::
     
@@ -633,7 +758,11 @@ If your company is having difficulty creating a planning checklist, Microsoft pr
 :::row-end:::
 :::row:::
   :::column:::
-    Setup accounts and mailboxes
+    
+
+Tell your users about the upcoming changes and how it will affect them
+
+
   :::column-end:::
   :::column:::
     
@@ -650,7 +779,11 @@ If your company is having difficulty creating a planning checklist, Microsoft pr
 :::row-end:::
 :::row:::
   :::column:::
-    Add your users and <a href="https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc?azure-portal=true">Assign licenses to users in Microsoft 365 for business</a>
+    
+
+**Roll out to users**
+
+
   :::column-end:::
   :::column:::
     
@@ -667,7 +800,11 @@ If your company is having difficulty creating a planning checklist, Microsoft pr
 :::row-end:::
 :::row:::
   :::column:::
-    Optionally migrate data (<a href="https://go.microsoft.com/fwlink/?LinkId=534823?azure-portal=true">email</a>, and <a href="https://go.microsoft.com/fwlink/?LinkId=534824?azure-portal=true">files</a>, and so on)
+    
+
+Setup accounts and mailboxes
+
+
   :::column-end:::
   :::column:::
     
@@ -684,7 +821,11 @@ If your company is having difficulty creating a planning checklist, Microsoft pr
 :::row-end:::
 :::row:::
   :::column:::
-    Validate functionality then complete final steps
+    
+
+Add your users and [Assign licenses to users in Microsoft 365 for business](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc?azure-portal=true)
+
+
   :::column-end:::
   :::column:::
     
@@ -701,7 +842,11 @@ If your company is having difficulty creating a planning checklist, Microsoft pr
 :::row-end:::
 :::row:::
   :::column:::
-    Migrate <a href="https://go.microsoft.com/fwlink/?LinkId=534835?azure-portal=true">DNS settings to point to Microsoft 365</a>
+    
+
+Optionally migrate data ([email](https://go.microsoft.com/fwlink/?LinkId=534823?azure-portal=true), and [files](https://go.microsoft.com/fwlink/?LinkId=534824?azure-portal=true), and so on)
+
+
   :::column-end:::
   :::column:::
     
@@ -718,7 +863,11 @@ If your company is having difficulty creating a planning checklist, Microsoft pr
 :::row-end:::
 :::row:::
   :::column:::
-    Tell your users when they can <a href="https://support.office.com/article/office-365-basics-video-training-396b8d9e-e118-42d0-8a0d-87d1f2f055fb?azure-portal=true">start using Microsoft 365</a>
+    
+
+Validate functionality then complete final steps
+
+
   :::column-end:::
   :::column:::
     
@@ -735,7 +884,11 @@ If your company is having difficulty creating a planning checklist, Microsoft pr
 :::row-end:::
 :::row:::
   :::column:::
-    Reconfigure client systems to connect to Microsoft 365 (<a href="https://go.microsoft.com/fwlink/?LinkId=534836?azure-portal=true">Office</a>, <a href="https://go.microsoft.com/fwlink/?LinkId=534837?azure-portal=true">Outlook</a>, <a href="https://support.office.com/article/6e27792a-9267-4aa4-8bb6-c84ef146101b#PickTab=Outlook_for_Mac?azure-portal=true">Outlook for Mac</a>, <a href="https://go.microsoft.com/fwlink/?LinkId=534840?azure-portal=true">Mobile Devices</a>)
+    
+
+Migrate [DNS settings to point to Microsoft 365](https://go.microsoft.com/fwlink/?LinkId=534835?azure-portal=true)
+
+
   :::column-end:::
   :::column:::
     
@@ -750,6 +903,49 @@ If your company is having difficulty creating a planning checklist, Microsoft pr
     
   :::column-end:::
 :::row-end:::
+:::row:::
+  :::column:::
+    
+
+Tell your users when they can [start using Microsoft 365](https://support.office.com/article/office-365-basics-video-training-396b8d9e-e118-42d0-8a0d-87d1f2f055fb?azure-portal=true)
+
+
+  :::column-end:::
+  :::column:::
+    
+  :::column-end:::
+  :::column:::
+    
+  :::column-end:::
+  :::column:::
+    
+  :::column-end:::
+  :::column:::
+    
+  :::column-end:::
+:::row-end:::
+:::row:::
+  :::column:::
+    
+
+Reconfigure client systems to connect to Microsoft 365 ([Office](https://go.microsoft.com/fwlink/?LinkId=534836?azure-portal=true), [Outlook](https://go.microsoft.com/fwlink/?LinkId=534837?azure-portal=true), [Outlook for Mac](https://support.office.com/article/6e27792a-9267-4aa4-8bb6-c84ef146101b#PickTab=Outlook_for_Mac?azure-portal=true), [Mobile Devices](https://go.microsoft.com/fwlink/?LinkId=534840?azure-portal=true))
+
+
+  :::column-end:::
+  :::column:::
+    
+  :::column-end:::
+  :::column:::
+    
+  :::column-end:::
+  :::column:::
+    
+  :::column-end:::
+  :::column:::
+    
+  :::column-end:::
+:::row-end:::
+
 
 ## Knowledge check
 

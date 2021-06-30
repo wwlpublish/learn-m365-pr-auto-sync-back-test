@@ -22,4 +22,4 @@ By the end of this module, you'll be able to:
 
 Refer to the following repository for additional resources associated with this module. This repository includes completed code samples from the exercise units found in this module: [MicrosoftGraph/msgraph-training-changenotifications](https://github.com/microsoftgraph/msgraph-training-changenotifications).
 
-This module is also available as a screencast: [Use Change Notifications and Track Changes with Microsoft Graph](https://youtu.be/fThiCZmIcMQ)
+This module is also available as a screencast: [Use Change Notifications and Track Changes with Microsoft Graph](https://youtube.com/playlist?list=PLWZJrkeLOrbZoRCqicVK_wo350w1Y4WBH)

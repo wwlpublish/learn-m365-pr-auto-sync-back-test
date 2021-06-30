@@ -3,13 +3,9 @@ Azure Virtual Desktop, as described earlier, is a shared service offering. Micro
 Azure Virtual Desktop uses Remote Desktop Protocol (RDP) to provide remote display and input capabilities over network connections. The connection data flow for Azure Virtual Desktop starts with a DNS lookup for the closest Azure datacenter.
 
 1. When authenticated in Azure Active Directory, a token is returned to the Remote Desktop Services client.
-
 1. The gateway checks the token with the connection broker.
-
 1. The broker queries the Azure SQL database for resources assigned to the user.
-
 1. The gateway and the broker select the session host for the connected client.
-
 1. The session host creates a reverse connection to the client by using the Azure Virtual Desktop gateway.
 
 No inbound ports are opened. In this version, the gateway is acting as an intelligent reverse proxy. The gateway manages all session connectivity, with nothing but pixels reaching the client. The following image shows the five-step connection process for Azure Virtual Desktop running in Azure.
@@ -34,6 +30,6 @@ Use service tags within your NSG rules to fine-tune network traffic to the Azure
 
 VMs that are in the Azure Virtual Desktop host pool are subject to virtual network security controls. They need outbound internet access to the Azure Virtual Desktop service to operate properly. They might also need outbound internet access for users. You can use Azure Firewall to lock down your environment and filter outbound traffic.
 
-To function properly, Azure Virtual Desktop hosts need access to fully qualified domain names (FQDNs). Azure Firewall provides an Azure Virtual Desktop FQDN tag to simplify this configuration. 
+To function properly, Azure Virtual Desktop hosts need access to fully qualified domain names (FQDNs). Azure Firewall provides an Azure Virtual Desktop FQDN tag to simplify this configuration.
 
 The steps to allow outbound traffic and configure the firewall rules are beyond the scope of this module. The summary of this module includes links to more information.

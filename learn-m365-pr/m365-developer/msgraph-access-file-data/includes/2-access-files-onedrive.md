@@ -1,3 +1,5 @@
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4OG2Q]
+
 In this unit, you’ll learn how to get lists and individual files from OneDrive with Microsoft Graph. Microsoft Graph can be used to get a list of files, or download an individual file using its unique ID or with a relative path to the file in a SharePoint site.
 
 OneDrive is the files hub in Office 365. People work with files in different contexts such as Microsoft Teams, groups, SharePoint, and more. With OneDrive, users can access these files no matter where they're stored, and  Microsoft Graph enables you to use a single API to work with them.
@@ -31,6 +33,8 @@ With Microsoft Graph, you can access rich content through REST APIs without havi
 With webhooks, your app can get notified when files change so you can quickly react. Use the delta API to see what changed since the last time your app synchronized with the cloud.
 
 ## Files resource in Microsoft Graph
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4OO36]
 
 Let's explore the Microsoft Graph files-related resource endpoints.
 

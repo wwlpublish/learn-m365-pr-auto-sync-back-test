@@ -17,7 +17,7 @@ When items have a retention tag, the Managed Folder Assistant tests the age of t
 The retention age of mailbox items is calculated from the date of delivery or the date of creation for items, such as drafts that aren't delivered but created by the user. When the Managed Folder Assistant processes items in a mailbox, it stamps a start date and an expiration date for all items that have retention tags with the **Delete and Allow Recovery** or **Permanently Delete** retention action. Items that have an archive tag are also stamped with a move date.
 
 > [!NOTE]
-> Items in the Deleted Items folder and items that may have a start and end date, such as tasks and calendar items (meetings and appointments), are handled differently from items that aren't in the Deleted Items folder. For more information, see [How retention age is calculated in Exchange 2016](https://docs.microsoft.com/Exchange/policy-and-compliance/mrm/retention-age?azure-portal=true).
+> Items in the Deleted Items folder and items that may have a start and end date, such as tasks and calendar items (meetings and appointments), are handled differently from items that aren't in the Deleted Items folder. For more information, see [How retention age is calculated in Exchange 2016](/Exchange/policy-and-compliance/mrm/retention-age).
 
 In Exchange, the Managed Folder Assistant may process a mailbox every seven days. This timeframe may result in items being expired up to seven days after the expiration date stamped on the item.
 

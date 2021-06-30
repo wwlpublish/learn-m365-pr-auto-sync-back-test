@@ -1,3 +1,5 @@
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4NzEq]
+
 In this exercise, you’ll learn how to create and add a new bot to a Microsoft Teams app and interact with it from the Microsoft Teams client.
 
 > [!NOTE]
@@ -121,6 +123,8 @@ The **Certificate & Secrets** page will display the new secret. It's important y
 Copy the value of the secret as you'll need it later.
 
 ## Create Microsoft Teams app
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4NCi2]
 
 In this section, you'll create a new Node.js project.
 

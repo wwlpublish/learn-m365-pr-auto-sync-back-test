@@ -60,11 +60,11 @@ See the link in **Learn more** for more information about the Ways of working tr
 
 ## Learn more
 
-- [MyAnalytics](https://docs.microsoft.com/workplace-analytics/myanalytics/mya-landing-page?azure-portal=true)
-- [Seller success plan](https://docs.microsoft.com/workplace-analytics/tutorials/seller-success?azure-portal=true)
-- [Change tactics best practices](https://docs.microsoft.com/workplace-analytics/tutorials/gm-best-practices?azure-portal=true)
-- [MyAnalytics Important people list](https://docs.microsoft.com/workplace-analytics/myanalytics/use/use-the-insights#add-important-people?azure-portal=true)
-- [Teams channels](https://docs.microsoft.com/microsoftteams/teams-channels-overview?azure-portal=true)
-- [MyAnalytics Network](https://docs.microsoft.com/workplace-analytics/myanalytics/use/network?azure-portal=true)
-- [Power BI templates in Workplace Analytics](https://docs.microsoft.com/workplace-analytics/tutorials/power-bi-intro?azure-portal=true)
-- [Ways of working tracker](https://docs.microsoft.com/workplace-analytics/tutorials/power-bi-intro?azure-portal=true)
+- [MyAnalytics](/workplace-analytics/myanalytics/mya-landing-page?azure-portal=true)
+- [Seller success plan](/workplace-analytics/tutorials/seller-success?azure-portal=true)
+- [Change tactics best practices](/workplace-analytics/tutorials/gm-best-practices?azure-portal=true)
+- [MyAnalytics Important people list](/workplace-analytics/myanalytics/use/use-the-insights#add-important-people?azure-portal=true)
+- [Teams channels](/microsoftteams/teams-channels-overview?azure-portal=true)
+- [MyAnalytics Network](/workplace-analytics/myanalytics/use/network?azure-portal=true)
+- [Power BI templates in Workplace Analytics](/workplace-analytics/tutorials/power-bi-intro?azure-portal=true)
+- [Ways of working tracker](/workplace-analytics/tutorials/power-bi-intro?azure-portal=true)

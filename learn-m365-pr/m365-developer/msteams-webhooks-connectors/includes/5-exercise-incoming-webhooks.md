@@ -1,3 +1,5 @@
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4ODcY]
+
 In this exercise, you’ll learn how to register an incoming webhook in a Microsoft Teams channel and post a message to it.
 
 ## Register a new incoming webhook

@@ -1,3 +1,5 @@
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4OIwQ]
+
 Built-in Microsoft Teams tabs for websites, Office documents, SharePoint document libraries, and other tabs can be configured using Microsoft Graph.
 
 In this unit, you'll learn how to configure an existing built-in tab with Microsoft Graph.
@@ -45,7 +47,7 @@ The `teamsApp@odata.bind` property is what defines the Microsoft Teams app the t
 
 The `configuration` object contains multiple properties, some that are required, that the tab uses to load the specified content.
 
-Let's look at some different examples for the built-in tabs in Microsoft Teams
+Let's look at some different examples for the built-in tabs in Microsoft Teams.
 
 ## Website tabs
 
@@ -100,4 +102,4 @@ The remaining built-in tabs don't support configuration so you only need to set 
 | Microsoft Forms  | 81fef3a6-72aa-4648-a763-de824aeafb7d    |
 | OneNote          | 0d820ecd-def2-4297-adad-78056cde7c78    |
 | Planner          | com.microsoft.teamspace.tab.planner     |
-| Power BI          | com.microsoft.teamspace.tab.powerbi     |
+| Power BI         | com.microsoft.teamspace.tab.powerbi     |

@@ -81,30 +81,28 @@ In the MSIX Packaging Tool, use the following steps to repackage an application 
 
 1. The MSIX Packaging Tool prepares the computer. In this step, the MSIX package driver is installed and Windows Update is disabled.
 
-2. Choose the installer that you want to package. This step varies based on the installers that you choose to convert. The last part of this step is to sign the package by using one of the following options:
+1. Choose the installer that you want to package. This step varies based on the installers that you choose to convert. The last part of this step is to sign the package by using one of the following options:
 
     - Sign with Device Guard signing.
     - Sign with a certificate (.pfx).
     - Specify a .cer file. This option doesn't sign the package but matches the subject of the certificate that will be used for signing.
 
-4. Detail the package information. The MSIX Packaging Tool tries to autofill information about the app based on the installer that's used. You can customize the input with your own values as needed.
+1. Detail the package information. The MSIX Packaging Tool tries to autofill information about the app based on the installer that's used. You can customize the input with your own values as needed.
 
-5. Run the installation. The tool starts to monitor the installation phase and capture all installation options. If the installer requires a restart, you can restart the computer and continue the process of conversion.
+1. Run the installation. The tool starts to monitor the installation phase and capture all installation options. If the installer requires a restart, you can restart the computer and continue the process of conversion.
 
-6. Manage the tasks that determine the user experience the first time you run the tool.
+1. Manage the tasks that determine the user experience the first time you run the tool.
 
-7. Review the services report. This step is used for installers that register services on the computers. Supported services are listed in the **Included** table. Services that aren't supported appear in the **Excluded** table.
+1. Review the services report. This step is used for installers that register services on the computers. Supported services are listed in the **Included** table. Services that aren't supported appear in the **Excluded** table.
 
-8. Create a package. This is the final phase of the process, where you provide a location to save the MSIX package.
+1. Create a package. This is the final phase of the process, where you provide a location to save the MSIX package.
 
 You can automate the process of repacking the applications by using the command-line interface. The following examples define how to use the MSIX Packaging Tool from the command line:
 
-```
+```PowerShell
  MsixPackagingTool.exe create-package --template c:\users\documents\ConversionTemplate.xml -v
  MSIXPackagingTool.exe create-package --template c:\users\documents\ConversionTemplate.xml --virtualMachinePassword pswd112893
 ```
 
 >[!NOTE]
 > You can find sample PowerShell and Bash scripts that demonstrate how to automate the process of packaging, signing, managing, and distributing MSIX packages in the [scripts](https://github.com/microsoft/MSIX-Toolkit/tree/master/Scripts) folder of the MSIX Toolkit.
-
-

@@ -1,3 +1,5 @@
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4NzEr]
+
 Proactive messages are sent by a bot to start a conversation. Welcome message and poll responses or for external event notifications are common scenarios to use proactive messages.
 
 In this unit, you’ll learn how to send proactive messages from your bot.
@@ -18,7 +20,7 @@ Sending proactive messages to users can be an effective way to communicate with 
 
 It is important to use this functionality sparingly. Provide them with enough information to let them understand why they're being messaged.
 
-Proactive messages generally fall into one of two categories, welcome messages or notifications.
+Proactive messages generally fall into one of two categories: welcome messages or notifications.
 
 ### Welcome messages
 
