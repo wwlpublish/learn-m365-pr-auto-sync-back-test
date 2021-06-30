@@ -14,7 +14,7 @@ prerequisites: |
   - Experience using Windows PowerShell
   - Working experience with performance tuning and service monitoring
 summary: |
-  Learn how to troubleshooting Microsoft Teams including voice issues, live events, messaging and explore how to configure and troubleshoot client and services issues.
+  Learn how to troubleshooting Microsoft Teams including voice issues, live events, messaging, and explore how to configure and troubleshoot client and services issues.
 iconUrl: /learn/achievements/generic-trophy.svg
 levels:
 - advanced
