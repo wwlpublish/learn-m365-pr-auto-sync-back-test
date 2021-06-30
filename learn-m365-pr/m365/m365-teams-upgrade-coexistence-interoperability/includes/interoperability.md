@@ -83,9 +83,9 @@ In interoperability threads, and in federation interoperability threads, the Tea
 If the users were in a call, the menu also warns them that their current call between Teams and Skype for Business will be terminated as they are put into a Teams meeting. If they so choose, they can warn the Skype for Business user prior to accepting.
 
 ![Warning the Skype for Business user](../media/meeting-with-skype-user.png)
- 
+
 Upon acceptance, they are put in the Teams meeting; they must start sharing from the sharing tray in the meeting.
 
 Meanwhile, the Skype for Business user receives an incoming chat message with the link to the meeting and is guided to join.
 
-This escalation to a Teams meeting is available for both in-tenant interoperability and cross-tenant federated calls and chats. It is on by default and there is no setting the administrator has to provision. However, it is turned off for the user if the administrator sets `-AllowPrivateMeetNow` in `CsTeamsMeetingPolicy to $false.
+This escalation to a Teams meeting is available for both in-tenant interoperability and cross-tenant federated calls and chats. It is on by default and there is no setting the administrator has to provision. However, it is turned off for the user if the administrator sets `-AllowPrivateMeetNow` in `CsTeamsMeetingPolicy` to `$false`.
