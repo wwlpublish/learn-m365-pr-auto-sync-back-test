@@ -7,6 +7,9 @@ In this exercise, you’ll learn about the different types of permissions suppor
 
 ## Create a Node.js web application
 
+> [!NOTE]
+> The instructions below assume you are using v2.14.2 of the Microsoft Authentication Library for JavaScript 2.0.
+
 In this first section, you'll create a web application to host a web page that will host the single page application. To do this, you'll create a Node.js web server to serve the HTML page from a web server running on your workstation as http://localhost:3007.
 
 Open your command prompt, navigate to a directory where you want to save your work, create a new folder, and change directory into that folder.
@@ -64,7 +67,7 @@ Create a new folder **web** in the current folder and add a new file **index.htm
 <head>
   <title>Getting Started with Microsoft identity</title>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/bluebird/3.7.2/bluebird.min.js"></script>
-  <script src="https://alcdn.msauth.net/browser/2.11.1/js/msal-browser.js"></script>
+  <script src="https://alcdn.msauth.net/browser/2.14.2/js/msal-browser.js"></script>
 </head>
 
 <body>
