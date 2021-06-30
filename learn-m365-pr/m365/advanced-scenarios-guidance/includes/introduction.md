@@ -7,6 +7,7 @@ In this module, you’ll learn about advanced features, such as custom indicator
 ## Learning objectives
 
 After completing this module, you’ll be able to:
+
 - Create a custom indicator of compromise in Microsoft Cloud App Security.
 - Observe security threats detected by Microsoft Cloud App Security in Microsoft 365 Defender portal.
 - Block apps and websites on iOS devices by using Defender for Endpoint and Microsoft Cloud App Security.
