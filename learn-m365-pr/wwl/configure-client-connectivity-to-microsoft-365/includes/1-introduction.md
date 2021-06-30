@@ -1,4 +1,4 @@
-This module examines how clients connect to Microsoft 365. You'll initially examine the name resolution configurations to ensure that clients can connect without user intervention. You'll then look at Outlook client configuration, followed by the approach to multi-factor authentication called Modern Authentication. Finally, you'll review some troubleshooting techniques that can be helpful for Microsoft 365 clients.
+This module examines how clients connect to Microsoft 365. You'll initially examine the name resolution configurations to ensure that clients can connect without user intervention. You'll then look at Outlook client configuration, followed by the approach to multifactor authentication called Modern Authentication. Finally, you'll review some troubleshooting techniques that can be helpful for Microsoft 365 clients.
 
 After completing this module, you'll be able to:
 
