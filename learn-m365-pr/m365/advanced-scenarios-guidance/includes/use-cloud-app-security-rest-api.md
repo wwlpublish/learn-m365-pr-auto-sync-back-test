@@ -6,7 +6,7 @@ Here, you’ll learn how to access and change security data and settings by usin
 
 ## What is the Microsoft Cloud App Security REST API?
 
-An Application Programming Interface (API) is a set of objects and methods that a developer can call from code to access and interact with a piece of software. Representational State Transfer (REST) APIs are interfaces that conform to a set of common requirements that make them easy to call over the internet. Web services often publish their methods and properties as REST APIs. 
+An Application Programming Interface (API) is a set of objects and methods that a developer can call from code to access and interact with a piece of software. Representational State Transfer (REST) APIs are interfaces that conform to a set of common requirements that make them easy to call over the internet. Web services often publish their methods and properties as REST APIs.
 
 REST APIs usually satisfy these criteria:
 
