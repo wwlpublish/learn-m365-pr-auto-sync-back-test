@@ -1,8 +1,8 @@
-Now we have a host pool and workspace that we can use to deploy a remote app.  Let's create a RemoteApp application group to share an application to a different user in the organization. 
+Now we have a host pool and workspace that we can use to deploy a remote app.  Let's create a RemoteApp application group to share an application to a different user in the organization.
 
 To complete the exercise, you'll need the credentials for a different non-administrative user account that's in Active Directory.
 
-## Create and assign remote applications 
+## Create and assign remote applications
 
 ### Step 1: Basics
 
@@ -59,4 +59,4 @@ To complete the exercise, you'll need the credentials for a different non-admini
 
 1. Go to the [Azure Virtual Desktop web client](https://rdweb.wvd.microsoft.com/arm/webclient/index.html).
 1. Sign in by using the user credentials for the user you assigned to the RemoteApp application group.
-1. You should see the application in the workspace. 
+1. You should see the application in the workspace.

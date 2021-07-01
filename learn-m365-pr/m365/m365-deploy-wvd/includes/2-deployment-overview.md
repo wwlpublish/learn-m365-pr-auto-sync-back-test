@@ -13,8 +13,8 @@ Before we walk through the deployment process, let's review some key terms and d
   
 - Load-balancing options -
 
-   - *Breadth-first* - Default configuration for new non-persistent host pools. Distributes new user sessions across all available session hosts in the host pool. When you configure breadth-first load balancing, you may set a maximum session limit per session host in the host pool.
-   - *Depth-first* - Distributes new user sessions to an available session host with the highest number of connections but has not reached its maximum session limit threshold. When you configure depth-first load balancing, you must set a maximum session limit per session host in the host pool.
+  - *Breadth-first* - Default configuration for new non-persistent host pools. Distributes new user sessions across all available session hosts in the host pool. When you configure breadth-first load balancing, you may set a maximum session limit per session host in the host pool.
+  - *Depth-first* - Distributes new user sessions to an available session host with the highest number of connections but has not reached its maximum session limit threshold. When you configure depth-first load balancing, you must set a maximum session limit per session host in the host pool.
 
 The following diagram shows an Azure Virtual Desktop workspace with two host pools. Host pool A has two application groups: Desktop and RemoteApp. These resources are shared (pooled) across the sales team. Host pool B has a Desktop application group with personal desktops available to an engineering team. 
 
@@ -63,7 +63,7 @@ You'll need to specify an Administrator account so the provisioning process can 
 
 ## Assign application groups
 
-You can assign a user or group to both a remote desktop application group and a RemoteApp application group in the same host pool. However, users can only launch one type of application group per session. 
+You can assign a user or group to both a remote desktop application group and a RemoteApp application group in the same host pool. However, users can only launch one type of application group per session.
 
 If a user or group is assigned to multiple RemoteApp application groups within the same host pool, they'll see all the applications published to those application groups.
 
@@ -87,12 +87,10 @@ After you install the Azure Virtual Desktop client app and first launch it, you'
 
 To bypass that step and simplify the process for your users, set up email discovery with your domain registrar. Add a DNS TXT record that has the following properties for the domain associated with your email:
 
-
 |Property  |Value  |
 |---------|---------|
 |Host     | _msradc      |
 |Text     | https\://rdweb.wvd.microsoft.com/arm/api/feeddiscovery/webfeeddiscovery.aspx    |
 |TTL     | 300    |
-
 
 In the following units, you'll learn how to connect to a workspace by using both a web and desktop client.
