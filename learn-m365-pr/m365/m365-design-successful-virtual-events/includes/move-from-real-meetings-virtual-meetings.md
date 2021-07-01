@@ -1,8 +1,8 @@
-Your organization has been delivering in-person, live events as part of its annual summit for years. You need to figure out how to leverage that experience to move from in-person to virtual, and make sure it's an accessible and inclusive event. You've previously learned about the different accessibility features available in Microsoft 365 and Teams. Now it's time to look at inclusivity.
+Your organization has been delivering in-person, live events as part of its annual summit for years. You need to figure out how to use that experience to move from in-person to virtual, and make sure it's an accessible and inclusive event. You've previously learned about the different accessibility features available in Microsoft 365 and Microsoft Teams. Now it's time to look at inclusivity.
 
 ## Plan to include everyone
 
-Creating an inclusive event starts with planning. Your virtual summit team should include people with diverse experiences and roles, including people that haven't participated in the past. (You can see the roles we recommend including on your team in [Introduction to delivering virtual events with Microsoft 365](/learn/modules/m365-introduction-deliver-virtual-events-using-microsoft-teams).)
+Creating an inclusive event starts with planning. Your virtual summit team should include people with diverse experiences and roles, including people that haven't participated in the past. (You can see the roles we recommend, including on your event team, in [Introduction to delivering virtual events with Microsoft 365](/learn/modules/m365-introduction-deliver-virtual-events-using-microsoft-teams).)
 
 Consider these recommended tasks during the planning process:
 
@@ -16,14 +16,14 @@ Consider these recommended tasks during the planning process:
 
 One of the advantages of moving from in-person to virtual is that it broadens the pool of who can attend your event. Attendees may be participating from unique locations, they may have physical disabilities, and it's important that you consider who they are and what they're hoping to get from your event.
 
-Start with [Simple things count](https://news.microsoft.com/stories/simplethingscount/), our guidance about simple ways you can be more inclusive of people with disabilities. Beyond your virtual event, this guidance can help you in all of your work and professional relationships. There are seven ways to be more inclusive – you can view a short video of each on the Simple things count web site:
+Start with [Simple things count](https://news.microsoft.com/stories/simplethingscount/), our guidance about simple ways you can be more inclusive of people with disabilities. Beyond your virtual event, this guidance can help you in all of your work and professional relationships. There are seven ways to be more inclusive – you can view a short video of each in our guidance:
 
 - Be your usual self.
 - Make sure your work is accessible.
 - Disability is a strength.
 - Follow the principles of inclusive design.
 - Accept each person as a human first.
-- learn the appropriate etiquette.
+- Learn the appropriate etiquette.
 - Follow our lead.
 
 Consider the following questions about who your attendees are, what they're using, and where they're joining from to mitigate common event issues.
@@ -46,12 +46,10 @@ If you know that your audience isn't experienced with Teams, consider including 
 
 ## Evolve your physical events to a digital format
 
-### Plan for inclusive content
-
-If you already have content that you were going to use for an in-person event, or you're creating new content, consider how to improve it for your virtual attendees. New methods of sharing information are key to delivering a successful virtual event. These tips will improve the engagement and accessibility of your event.
+If you already have content that you were going to use for an in-person event, or you're creating new content, consider how to optimize it for your virtual attendees. New methods of sharing information are key to delivering a successful virtual event. These tips will help improve the engagement and accessibility of your event.
 
 > [!TIP]
-> Use our checklist to stay on track and prepare for your virtual event. Download it from [**https://aka.ms/Organizer/Checklist**](https://aka.ms/Organizer/Checklist).
+> Use our checklist to stay on track and prepare for your virtual event. Download it from [**https://aka.ms/OrganizerChecklist**](https://aka.ms/OrganizerChecklist).
 
 ### Shorter sessions
 

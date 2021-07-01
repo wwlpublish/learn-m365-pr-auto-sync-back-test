@@ -1,4 +1,4 @@
-Moderators can help ensure your live event is inclusive by supporting presenters and attendees before, during, and after the event by following these best practices.
+Moderators are key to helping ensure your live event is inclusive - they support presenters and attendees before, during, and after the event by following these best practices.
 
 ### Before
 
@@ -17,7 +17,7 @@ Moderators can help ensure your live event is inclusive by supporting presenters
 ### After
 
 - Share all the questions asked during the event with the presenter.
-- Capture unanswered questions to include with post event communications or for the presenter to follow-up on.
+- Capture unanswered questions to include with post event communications or for the presenter to follow up on.
 - Coordinate post-production of videos and presentation content with the event organizers to include in any attendee communications
 
-For more tips on moderation you can read the [Event Moderator Guide](https://aka.ms/VEModeratorGuide).
+For more tips on moderation, read the [Event Moderator Guide](https://aka.ms/VEModeratorGuide).
