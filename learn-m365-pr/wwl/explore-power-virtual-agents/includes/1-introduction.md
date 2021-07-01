@@ -4,9 +4,10 @@ Power Virtual Agents lets you create powerful chatbots that can answer questions
 
 This module examines the benefits of using Power Virtual Agents, along with the key features that make this product so popular with businesses. You'll also learn about the two versions of Power Virtual Agents, the key features of each, and the business scenarios for which each version is designed.
 
-After completing this module, you'll be able to:
+After completing this module, you'll be able to: 
 
  *  Explain the purpose of Power Virtual Agents within the Power Platform.
  *  Explain how Power Agents enable teams to easily create powerful bots.
  *  Describe key features of Power Virtual Agents.
  *  Create a bot using Power Virtual Agents.
+ 

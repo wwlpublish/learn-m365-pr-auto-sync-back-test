@@ -8,7 +8,7 @@ Power BI Desktop then loads the workbook, reads its contents, and displays the a
 
 Once the user indicates which tables should be loaded, the data can be viewed in the **Fields** pane. In many cases, the data will need to be cleaned and transformed to make it more useful and user-friendly. To do so, the user can select the option to edit the data. This option opens the Power Query Editor, which enables the user model the data before loading it into the **Fields** pane.
 
-**Additional reading.** For more information, see [Query overview in Power BI Desktop](https://docs.microsoft.com/power-bi/desktop-query-overview?azure-portal=true).
+**Additional reading.** For more information, see [Query overview in Power BI Desktop](/power-bi/desktop-query-overview).
 
 ### Step 2 – Creating visualizations
 

@@ -4,98 +4,194 @@ Some of the key responsibilities assigned to the Microsoft 365 SharePoint Admini
 
 :::row:::
   :::column:::
-    <p><b>Administrative responsibilities</b></p>
+    
+
+**SharePoint Administrator responsibilities**
+
+
   :::column-end:::
   :::column:::
-    <p><b>Description</b></p>
-  :::column-end:::
-:::row-end:::
-:::row:::
-  :::column:::
-    <p>Site collections</p>
-  :::column-end:::
-  :::column:::
-    <p>The SharePoint Administrator can create new site collections and manage them. Site collections are a tiered set of sites.</p>
-  :::column-end:::
-:::row-end:::
-:::row:::
-  :::column:::
-    <p>InfoPath</p>
-  :::column-end:::
-  :::column:::
-    <p>The SharePoint Administrator can use InfoPath Forms Services in SharePoint Online to deploy the organization's forms to its sites, enabling users to fill out these forms in a web browser.</p>
+    
+
+**Description**
+
+
   :::column-end:::
 :::row-end:::
 :::row:::
   :::column:::
-    <p>User profiles</p>
+    
+
+Site collections
+
+
   :::column-end:::
   :::column:::
-    <p>A user profile is the collection of user properties—and the policies and settings associated with each of those properties—that describe a single user. The SharePoint Administrator is responsible for defining the user profile policies and settings for the organization, including management of promoted sites.</p>
-  :::column-end:::
-:::row-end:::
-:::row:::
-  :::column:::
-    <p>Business Connectivity Services (BCS)</p>
-  :::column-end:::
-  :::column:::
-    <p>In SharePoint Online, the SharePoint Administrator can create BCS connections to data sources that are outside the SharePoint Online site. Examples of these data sources include Azure SQL Database and Windows Communication Foundation (WCF) web services.</p>
-  :::column-end:::
-:::row-end:::
-:::row:::
-  :::column:::
-    <p>Term store</p>
-  :::column-end:::
-  :::column:::
-    <p>The SharePoint Administrator can use the Term Store to manage metadata information on a central location.</p>
+    
+
+The SharePoint Administrator can create new site collections and manage them. Site collections are a tiered set of sites.
+
+
   :::column-end:::
 :::row-end:::
 :::row:::
   :::column:::
-    <p>Records management</p>
+    
+
+InfoPath
+
+
   :::column-end:::
   :::column:::
-    <p>The SharePoint Administrator can manage records in place, which means that you can leave a document in its current location on a site, or store records in a specific archive.</p>
-  :::column-end:::
-:::row-end:::
-:::row:::
-  :::column:::
-    <p>Search</p>
-  :::column-end:::
-  :::column:::
-    <p>The SharePoint Administrator can customize the search experience for users. This customization includes defining searchable managed properties in the search schema, identifying high-quality pages to improve relevance, managing query rules and result sources, and removing individual results.</p>
-  :::column-end:::
-:::row-end:::
-:::row:::
-  :::column:::
-    <p>Secure store</p>
-  :::column-end:::
-  :::column:::
-    <p>The SharePoint Administrator can manage the Secure Store Service, which is a claims-aware authorization service that includes an encrypted database for storing credentials.</p>
+    
+
+The SharePoint Administrator can use InfoPath Forms Services in SharePoint Online to deploy the organization's forms to its sites, enabling users to fill out these forms in a web browser.
+
+
   :::column-end:::
 :::row-end:::
 :::row:::
   :::column:::
-    <p>Apps</p>
+    
+
+User profiles
+
+
   :::column-end:::
   :::column:::
-    <p>The SharePoint Administrator can create an App Catalog site to make internally developed custom apps available for users to install. Users can find these apps under the <b>From Your Organization</b> filter on the <b>Site Contents</b> page.</p>
+    
+
+A user profile is the collection of user properties—and the policies and settings associated with each of those properties—that describe a single user. The SharePoint Administrator is responsible for defining the user profile policies and settings for the organization, including management of promoted sites.
+
+
   :::column-end:::
 :::row-end:::
 :::row:::
   :::column:::
-    <p>Settings</p>
+    
+
+Business Connectivity Services (BCS)
+
+
   :::column-end:::
   :::column:::
-    <p>The SharePoint Administrator can manage SharePoint Online tenant-wide settings, such as external sharing and rights management, among others.</p>
+    
+
+In SharePoint Online, the SharePoint Administrator can create BCS connections to data sources that are outside the SharePoint Online site. Examples of these data sources include Azure SQL Database and Windows Communication Foundation (WCF) web services.
+
+
   :::column-end:::
 :::row-end:::
 :::row:::
   :::column:::
-    <p>Configure hybrid</p>
+    
+
+Term store
+
+
   :::column-end:::
   :::column:::
-    <p>The SharePoint Administrator can configure SharePoint Online hybrid with an on-premises SharePoint Online site.</p>
+    
+
+The SharePoint Administrator can use the Term Store to manage metadata information on a central location.
+
+
+  :::column-end:::
+:::row-end:::
+:::row:::
+  :::column:::
+    
+
+Records management
+
+
+  :::column-end:::
+  :::column:::
+    
+
+The SharePoint Administrator can manage records in place, which means that you can leave a document in its current location on a site, or store records in a specific archive.
+
+
+  :::column-end:::
+:::row-end:::
+:::row:::
+  :::column:::
+    
+
+Search
+
+
+  :::column-end:::
+  :::column:::
+    
+
+The SharePoint Administrator can customize the search experience for users. This customization includes defining searchable managed properties in the search schema, identifying high-quality pages to improve relevance, managing query rules and result sources, and removing individual results.
+
+
+  :::column-end:::
+:::row-end:::
+:::row:::
+  :::column:::
+    
+
+Secure store
+
+
+  :::column-end:::
+  :::column:::
+    
+
+The SharePoint Administrator can manage the Secure Store Service, which is a claims-aware authorization service that includes an encrypted database for storing credentials.
+
+
+  :::column-end:::
+:::row-end:::
+:::row:::
+  :::column:::
+    
+
+Apps
+
+
+  :::column-end:::
+  :::column:::
+    
+
+The SharePoint Administrator can create an App Catalog site to make internally developed custom apps available for users to install. Users can find these apps under the **From Your Organization** filter on the **Site Contents** page.
+
+
+  :::column-end:::
+:::row-end:::
+:::row:::
+  :::column:::
+    
+
+Settings
+
+
+  :::column-end:::
+  :::column:::
+    
+
+The SharePoint Administrator can manage SharePoint Online tenant-wide settings, such as external sharing and rights management, among others.
+
+
+  :::column-end:::
+:::row-end:::
+:::row:::
+  :::column:::
+    
+
+Configure hybrid
+
+
+  :::column-end:::
+  :::column:::
+    
+
+The SharePoint Administrator can configure SharePoint Online hybrid with an on-premises SharePoint Online site.
+
+
   :::column-end:::
 :::row-end:::
 
