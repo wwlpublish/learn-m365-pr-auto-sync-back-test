@@ -3,7 +3,7 @@ uid: learn-m365.identity-secure-custom-api.7-exercise-call-secured-apis-daemon-a
 metadata:
   title: Exercise - Leverage app roles to secure custom APIs
   description: In this exercise, you'll learn how to add app roles to an Azure AD Application registration and consume a secured API from a daemon application.
-  ms.date: 03/06/2021
+  ms.date: 06/17/2021
   author: andrewconnell
   ms.author: v-johnco
   ms.topic: interactive-tutorial

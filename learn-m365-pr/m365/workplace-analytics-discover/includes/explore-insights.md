@@ -10,7 +10,7 @@ Scroll down to see the nine themed business outcomes.
 
 ![Workplace Analytics Home page](../media/home-page.png)
 
-> [!NOTE] 
+> [!NOTE]
 > The **Home** page reflects a rolling window of the six most recent months of weekly collaboration data.
 
 The nine available business outcomes are:
@@ -68,4 +68,4 @@ In **Develop effective managers > Promote coaching and development > See your in
 
 ## Learn more
 
-- [Home page overview](https://docs.microsoft.com/workplace-analytics/use/insights?azure-portal=true)
+- [Home page overview](/workplace-analytics/use/insights?azure-portal=true)

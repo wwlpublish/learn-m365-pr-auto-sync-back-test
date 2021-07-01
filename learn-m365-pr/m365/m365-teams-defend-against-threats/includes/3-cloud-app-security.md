@@ -39,7 +39,7 @@ You use policies to define the way you want users to behave in the cloud. Polici
 - Block a risky cloud app from being used by your organization.
 
 ## Learn more
-- [Protect apps with Cloud App Security Conditional Access App Control](https://docs.microsoft.com/cloud-app-security/proxy-intro-aad#featured-apps)
-- [Assign or remove licenses in the Azure Active Directory portal](https://docs.microsoft.com/azure/active-directory/fundamentals/license-users-groups)
-- [Microsoft Cloud App Security overview](https://docs.microsoft.com/cloud-app-security/what-is-cloud-app-security)
-- [Cloud App Security best practices](https://docs.microsoft.com/cloud-app-security/best-practices)
+- [Protect apps with Cloud App Security Conditional Access App Control](/cloud-app-security/proxy-intro-aad#featured-apps)
+- [Assign or remove licenses in the Azure Active Directory portal](/azure/active-directory/fundamentals/license-users-groups)
+- [Microsoft Cloud App Security overview](/cloud-app-security/what-is-cloud-app-security)
+- [Cloud App Security best practices](/cloud-app-security/best-practices)

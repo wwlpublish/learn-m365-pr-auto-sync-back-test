@@ -23,9 +23,7 @@ The wpa R package includes many essential and advanced functions and features. T
 
 There are over 160 different functions in the wpa R package. The image below summarizes the available features in the package. It includes essential features analysts find useful whatever the complexity of their analysis, and more advanced features that make use of advanced data science capabilities in R.
 
-
  ![Summary of wpa functions](../media/wpa-function-summary.png)
-
 
 The wpa R package includes the following essential and advanced features:
 
@@ -43,5 +41,5 @@ The wpa R package includes the following essential and advanced features:
 
 - [Base R Cheat Sheet](https://www.rstudio.com/wp-content/uploads/2016/10/r-cheat-sheet-3.pdf?azure-portal=true)
 - [Resource on using R for data science](https://r4ds.had.co.nz?azure-portal=true)
-- [wpa R package documentation](https://docs.microsoft.com/workplace-analytics/tutorials/wpa-r-package?azure-portal=true)
+- [wpa R package documentation](/workplace-analytics/tutorials/wpa-r-package?azure-portal=true)
 - [wpa R package on CRAN](https://CRAN.R-project.org/package=wpa?azure-portal=true)

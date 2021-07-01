@@ -35,4 +35,4 @@ The first time that Advisor for Teams is run, it will create a **Deployment team
 
 ## Learn more
 
-- [Use Advisor for Teams to help you roll out Microsoft Teams]( https://docs.microsoft.com/microsoftteams/use-advisor-teams-roll-out)
+- [Use Advisor for Teams to help you roll out Microsoft Teams]( /microsoftteams/use-advisor-teams-roll-out)

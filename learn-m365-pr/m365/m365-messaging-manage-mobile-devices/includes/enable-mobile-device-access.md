@@ -70,6 +70,6 @@ Mobile device mailbox policies (formerly known as Exchange ActiveSync policies) 
 > Although you should use Enterprise Mobility + Security  or MDM to manage Outlook for iOS and Android clients, mobile device mailbox policy settings also apply to Outlook clients. For example, you can use them to impose a minimum password length or require encryption. 
 
 ## Learn more 
-- [Clients and mobile in Exchange Online](https://docs.microsoft.com/Exchange/clients-and-mobile-in-exchange-online/clients-and-mobile-in-exchange-online?azure-portal=true) 
-- [Outlook for iOS and Android in Exchange Online](https://docs.microsoft.com/Exchange/clients-and-mobile-in-exchange-online/outlook-for-ios-and-android/outlook-for-ios-and-android?azure-portal=true) 
-- [Exchange ActiveSync in Exchange Online](https://docs.microsoft.com/Exchange/clients-and-mobile-in-exchange-online/exchange-activesync/exchange-activesync?azure-portal=true) 
+- [Clients and mobile in Exchange Online](/Exchange/clients-and-mobile-in-exchange-online/clients-and-mobile-in-exchange-online?azure-portal=true) 
+- [Outlook for iOS and Android in Exchange Online](/Exchange/clients-and-mobile-in-exchange-online/outlook-for-ios-and-android/outlook-for-ios-and-android?azure-portal=true) 
+- [Exchange ActiveSync in Exchange Online](/Exchange/clients-and-mobile-in-exchange-online/exchange-activesync/exchange-activesync?azure-portal=true) 

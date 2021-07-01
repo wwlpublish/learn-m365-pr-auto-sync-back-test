@@ -2,7 +2,7 @@ Users sign in to Office (online, mobile, and desktop platforms) using either the
 
 The best way for an Office Add-in to get authorized access to Microsoft Graph is to use the credentials from the user's Office sign-on. This enables them to access their Microsoft Graph data without needing to sign in a second time.
 
-In this unit, you'll learn how to implement SSO in an Office add-in to submit requests and retrieve information from Microsoft Graph.
+In this unit, you'll learn how to implement SSO in an Office Add-in to submit requests and retrieve information from Microsoft Graph.
 
 ## Office Add-ins, SSO, and Microsoft Graph
 
@@ -22,7 +22,7 @@ Let's start by taking a look at how the authentication flow works at runtime whe
 1. The Office client application sends the bootstrap access token to the add-in as part of the result object returned by the `getAccessToken()` call.
 1. JavaScript in the add-in makes an HTTP request to a web API that is hosted at the same fully qualified domain as the add-in, and it includes the bootstrap access token as proof of authorization.
 1. Server-side code validates the received bootstrap access token.
-1. Server-side code uses the [OAuth2 On-Behalf-Of (OBO) flow](https://docs.microsoft.com/azure/active-directory/develop/v2-oauth2-on-behalf-of-flow) to obtain an access token for Microsoft Graph in exchange for the bootstrap access token.
+1. Server-side code uses the [OAuth2 On-Behalf-Of (OBO) flow](/azure/active-directory/develop/v2-oauth2-on-behalf-of-flow) to obtain an access token for Microsoft Graph in exchange for the bootstrap access token.
 1. Azure AD returns the access token to Microsoft Graph, *and a refresh token, if the add-in requests **offline_access** permission*, to the add-in.
 1. Server-side code caches the access token to Microsoft Graph.
 1. Server-side code makes requests to Microsoft Graph and includes the access token to Microsoft Graph.

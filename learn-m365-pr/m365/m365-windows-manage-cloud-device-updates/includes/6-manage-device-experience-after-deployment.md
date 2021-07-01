@@ -1,5 +1,4 @@
-You're aware that a poor device experience with updates can result in devices that are in line with the latest Windows updates. You want to make sure you manage the device experience for updates to provide a consistent update experience across your devices. 
-You'll investigate the controls for device experience that are available to you, and you will see how these controls positively or negatively affect productivity and device security. With this information, you can make decisions about how best to configure policies for your organization.
+You're aware that a poor device experience with updates can result in devices that are in line with the latest Windows updates. You want to make sure you manage the device experience for updates to provide a consistent update experience across your devices. You'll investigate the controls for device experience that are available to you, and you will see how these controls positively or negatively affect productivity and device security. With this information, you can make decisions about how best to configure policies for your organization.
 
 In this unit, you will learn about how to best manage the device experience for updates.
 
@@ -7,7 +6,7 @@ In this unit, you will learn about how to best manage the device experience for 
 
 By default, devices scan for new updates daily (roughly every 22 hours) or when needed for the update process. If a user selects **Check for updates** on the Windows Update Settings page, the device will perform a scan on demand. Currently, there is no way to reliably change the scan frequency for devices that update directly from Windows Update. Configuring either of the policies below **will not** make devices scan at the specified frequency if updating from Windows Update:
 
-- Configuration Service Provider (CSP) policy: [Update/DetectionFrequency](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-update) policy.
+- Configuration Service Provider (CSP) policy: [Update/DetectionFrequency](/windows/client-management/mdm/policy-csp-update) policy.
 - Group Policy: **Automatic Updates detection frequency** policy.
 
 ## Manage downloads
@@ -20,9 +19,7 @@ By default, the update will download automatically at a time that the Update Orc
   - You can find this setting under the Group Policy path **Computer Configuration > Administrative Templates > Windows Components > Windows Update > Configure Automatic Updates**.
   - Configuring this policy will prevent the update from downloading until a user acts by selecting a notification or going to the Windows Update Settings page. If the user takes no action, the update will not download until the deadline you have configured is reached. This policy will likely provide a poor user experience and slow update adoption. Think carefully before configuring.
 
-### Microsoft recommendation
-
-Microsoft recommends that you avoid configuring these policies. As you're the administrator for your organization, you should allow updates to download automatically.
+**Microsoft recommendation**: avoid configuring these policies. As you're the administrator for your organization, you should allow updates to download automatically.
 
 ### Optimize downloads and manage bandwidth
 
@@ -32,9 +29,9 @@ Delivery Optimization can significantly reduce the amount of network traffic to 
 
 Delivery Optimization also offers a feature called *Microsoft Connected Cache*. It allows you to configure a dedicated in-network transparent cache for files requested through Delivery Optimization and works in parallel with peers. By setting up the Connected Cache at the WAN or internet access point, you can minimize file downloads across your WAN or a limited bandwidth internet connection.
 
-- To get started, see the [Set up Delivery Optimization for Windows 10 updates](https://docs.microsoft.com/windows/deployment/update/waas-delivery-optimization-setup?azure-portal=true).
+- To get started, see the [Set up Delivery Optimization for Windows 10 updates](/windows/deployment/update/waas-delivery-optimization-setup?azure-portal=true).
 - For a comprehensive list of settings to fine-tune behaviors, see Delivery Optimization reference.
-- Learn more about [Microsoft Connected Cache](https://docs.microsoft.com/windows/deployment/update/waas-delivery-optimization-reference).
+- Learn more about [Microsoft Connected Cache](/windows/deployment/update/waas-delivery-optimization-reference).
 
 ## Manage installations
 
@@ -92,9 +89,7 @@ When a device is plugged in, this Group Policy will wake the system automaticall
 
 :::image type="content" source="../media/4-wake-system-expanded.png" lightbox="../media/4-wake-system-inline.png" alt-text="Wake the system to install updates when plugged in.":::
 
-#### Microsoft recommendation
-
-Microsoft recommends that you don't try to install on a specific day or week and allow updates to install automatically; don't configure any policies.
+**Microsoft recommendation**: don't install on a specific day or week and allow updates to install automatically; don't configure any policies.
 
 ## Manage restarts
 
@@ -120,9 +115,7 @@ Instead of relying on Intelligent active hours, users can configure their own ac
 
 :::image type="content" source="../media/4-user-configured-active-hours-expanded.png" lightbox="../media/4-user-configured-active-hours-inline.png" alt-text="User-configured active hours.":::
 
-#### Microsoft recommendation
-
-Microsoft recommends that you allow updates to restart automatically outside of active hours. Don't configure any policies or only specify the active hours range.
+**Microsoft recommendation**: allow updates to restart automatically outside of active hours. Don't configure any policies or only specify the active hours range.
 
 ### Group Policy: Specify active hours range for auto restarts
 
@@ -132,13 +125,11 @@ Use the  **Specify active hours range for auto restarts** policy to set the rang
 
 You can enable the policy and configure it for the number of hours you want to allow users to have as a maximum active hours range. The allowed values are between eight and 18 hours; the default is 18 hours. We recommend configuring a maximum range of 12 hours to balance the user’s usage and to ensure enough time to update outside of active hours.
 
-#### Microsoft recommendation
-
-Microsoft recommends that you do not configure this policy and allow Intelligent active hours to take effect, or allow your users to configure active hours for a better user experience.
+**Microsoft recommendation**: do not configure this policy and allow Intelligent active hours to take effect, or allow your users to configure active hours for a better user experience.
 
 ### Use an MDM to set the active hours range for auto restarts
 
-Alternatively, you can use an MDM to configure the [Update/ActiveHoursMaxRange]( https://docs.microsoft.com/windows/client-management/mdm/policy-csp-update) CSP for the number of hours you want to allow as the maximum active hours range. The allowed range is between eight and 18 hours; 18 is the default.
+Alternatively, you can use an MDM to configure the [Update/ActiveHoursMaxRange]( /windows/client-management/mdm/policy-csp-update) CSP for the number of hours you want to allow as the maximum active hours range. The allowed range is between eight and 18 hours; 18 is the default.
 
 Microsoft Intune does not currently provide the ability to configure the maximum range for active hours. In Microsoft Intune, you can configure active hours if you set **Automatic update behavior** to **Auto install at maintenance time** or **Auto install and restart at maintenance time**. We recommend that you set **Automatic update behavior** to **Reset to default**. See Figure 13.
 
@@ -156,4 +147,4 @@ This Group Policy will only work for devices running the educational (EDU) versi
 
 ## Monitor updates
 
-After configuring your devices, you want to monitor updates in your organization to identify any devices that have encountered an update failure and need remediation. [Intune provides reporting capability within the management tool](https://docs.microsoft.com/mem/intune/protect/windows-update-compliance-reports?azure-portal=true). [Update Compliance](https://docs.microsoft.com/windows/deployment/update/update-compliance-get-started?azure-portal=true) provides a standalone Microsoft Azure solution for monitoring updates as well. You can then use [Azure Monitor Workbooks](https://docs.microsoft.com/azure/azure-monitor/platform/workbooks-overview?azure-portal=true) to build customer reporting solutions on top of the data Update Compliance provides.
+After configuring your devices, you want to monitor updates in your organization to identify any devices that have encountered an update failure and need remediation. [Intune provides reporting capability within the management tool](/mem/intune/protect/windows-update-compliance-reports?azure-portal=true). [Update Compliance](/windows/deployment/update/update-compliance-get-started?azure-portal=true) provides a standalone Microsoft Azure solution for monitoring updates as well. You can then use [Azure Monitor Workbooks](/azure/azure-monitor/platform/workbooks-overview?azure-portal=true) to build customer reporting solutions on top of the data Update Compliance provides.

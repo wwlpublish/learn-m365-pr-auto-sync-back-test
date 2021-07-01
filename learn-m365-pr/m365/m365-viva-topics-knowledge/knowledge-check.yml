@@ -1,0 +1,52 @@
+### YamlMime:ModuleUnit
+uid: learn-m365-pr.viva-topics-knowledge.knowledge-check
+metadata:
+  title: Knowledge check
+  description: Knowledge check
+  ms.date: 05/26/2021
+  author: lizap
+  ms.author: elizapo
+  ms.topic: interactive-tutorial
+  ms.prod: learning-teams
+title: Knowledge check
+durationInMinutes: 4
+content: |
+quiz:
+  title: Check your knowledge
+  questions:
+
+  - content: "Which of the following tasks isn't one of the Topics lifecycle stages?"
+    choices:
+    - content: "Manage changed topics"
+      isCorrect: true
+      explanation: "Correct. Managing changed topics isn't part of the topics lifecycle. The four stages of the lifecycle are suggested, confirmed, published, and removed."
+    - content: "Manage confirmed topics" 
+      isCorrect: false
+      explanation: "Sorry, that's incorrect. Managing confirmed topics is one of the lifecycle stages."
+    - content: "Manage suggested topics"
+      isCorrect: false
+      explanation: "Sorry, that's incorrect. Managing suggested topics is one of the lifecycle stages."
+
+  - content: "Which statement best describes the knowledge manager tasks?"
+    choices:
+    - content: "The Knowledge manager sets up topic experiences, ensures security and compliance policies are followed, and manages licensing." 
+      isCorrect: false
+      explanation: "Sorry, that's incorrect. These are all Knowledge admin tasks. The Knowledge manager owns the quality of topics and curation to create, edit, delete, and reject topics."
+    - content: "The Knowledge manager contributes to topics, curating pinned people and resources, and tracks ongoing topic activity."
+      isCorrect: false
+      explanation: "Sorry, that's incorrect. These are all Knowledge contributor tasks. The Knowledge manager owns the quality of topics and curation to create, edit, delete, and reject topics."
+    - content: "The Knowledge manager confirms or rejects topics, publishes topics for users, and performs other triage tasks." 
+      isCorrect: true
+      explanation: "Yes, that's correct. The Knowledge manager owns the quality of topics and curation to create, edit, delete, and reject topics."
+
+  - content: "Which of the following choices is false about quality scores?"
+    choices:
+    - content: "The quality score can be low if users can't access the files or sites referenced in a topic." 
+      isCorrect: false
+      explanation: "Sorry, that's incorrect. Sometimes users will rate a topic lower not because of the quality of the topic itself, but because they can't access the resources linked in the topic."
+    - content: "The quality score shows what the average user will see." 
+      isCorrect: false
+      explanation: "Sorry, that's incorrect. The quality score reflects the amount of information the average user will see. (Keep in mind that users see different content based on permissions.)"
+    - content: "The quality score shows the number of times a topic has been shown to users, through search, topic highlights, and in the Topic Center."
+      isCorrect: true
+      explanation: "Yes, that's correct. The *impression* displays the number of times a topic has been shown to users, not the quality score."

@@ -1,4 +1,4 @@
-In cloud environments, customers and cloud service providers share the responsibility for achieving a compliant and secure computing environment. Microsoft uses [a shared responsibility model](https://docs.microsoft.com/azure/security/fundamentals/shared-responsibility?azure-portal=true) to define security and operational accountability in Microsoft 365 services. While Microsoft 365 secures the underlying cloud infrastructure and services, customers need to be aware of their responsibilities for ensuring a secure tenant environment for their users and data.
+In cloud environments, customers and cloud service providers share the responsibility for achieving a compliant and secure computing environment. Microsoft uses [a shared responsibility model](/azure/security/fundamentals/shared-responsibility?azure-portal=true) to define security and operational accountability in Microsoft 365 services. While Microsoft 365 secures the underlying cloud infrastructure and services, customers need to be aware of their responsibilities for ensuring a secure tenant environment for their users and data.
 
 > [!NOTE]
 > Microsoft Secure Score provides customers with clear analysis of their tenant configuration and makes actionable suggestions for improving security. We encourage every customer to use self-assessment tools like Microsoft Secure Score to ensure that our shared responsibilities for security and privacy are met.
@@ -44,7 +44,7 @@ Each phase of the response management process is important for effective inciden
 
 ## Learn more
 
-- [Shared Responsibilities for Cloud Computing](https://docs.microsoft.com/azure/security/fundamentals/shared-responsibility?azure-portal=true)
+- [Shared Responsibilities for Cloud Computing](/azure/security/fundamentals/shared-responsibility?azure-portal=true)
 - [National Institute of Standards and Technology (NIST) Special Publication (SP) 800-61](https://csrc.nist.gov/publications/detail/sp/800-61/rev-2/final?azure-portal=true)
-- [Microsoft Secure Score](https://docs.microsoft.com/microsoft-365/security/mtp/microsoft-secure-score-new?azure-portal=true)
-- [Microsoft 365 security incident management](https://docs.microsoft.com/compliance/assurance/assurance-security-incident-management?azure-portal=true)
+- [Microsoft Secure Score](/microsoft-365/security/mtp/microsoft-secure-score-new?azure-portal=true)
+- [Microsoft 365 security incident management](/compliance/assurance/assurance-security-incident-management?azure-portal=true)

@@ -1,3 +1,5 @@
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4OG2T]
+
 Microsoft Graph enables more features than just reading and writing files. In this exercise, you'll learn how to get a list of files trending around a user and how to get recently modified and accessed files by the current user.
 
 > [!IMPORTANT]
@@ -94,7 +96,7 @@ In this section, you'll update the .NET console app to display the files recentl
 
 Locate the code you added above for `// request 1 - get trending files around a specific user (me)` and comment it out so it doesn't continue to execute.
 
-Add the following code to the `Main` method of the console application. 
+Add the following code to the `Main` method of the console application.
 This code will get a list of all files in the group's root OneDrive folder and write the files to the console:
 
 ```csharp

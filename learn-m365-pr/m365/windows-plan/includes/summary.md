@@ -4,19 +4,15 @@ Without a servicing process, your organization’s environment could continue to
 
 ## Learn more
 
-- [What's new in Windows 10](https://docs.microsoft.com/windows/whats-new/)
+- [What's new in Windows 10](/windows/whats-new/)
 - [Windows lifecycle fact sheet](https://support.microsoft.com/help/13853/windows-lifecycle-fact-sheet)
 - [Join the Windows Insider Program](https://insider.windows.com/)
 - [Join the Windows 10 TechCommunity](https://techcommunity.microsoft.com/t5/windows-10/ct-p/Windows10)
 - [Release tracker for Windows Insider Program](https://blogs.windows.com/windowsexperience/tag/windows-insider-program/)
-- [What is Desktop Analytics?](https://docs.microsoft.com/configmgr/desktop-analytics/overview)
+- [What is Desktop Analytics?](/configmgr/desktop-analytics/overview)
 - Desktop Analytics video tutorials:
-    - [Overview](https://www.microsoft.com/videoplayer/embed/RE4wte2)
-    - [Create a deployment plan](https://www.microsoft.com/videoplayer/embed/RE4wB8j)
-    - [Monitor](https://www.microsoft.com/videoplayer/embed/RE4wprt)
-- [Track new Configuration Manager changes](https://docs.microsoft.com/configmgr/core/plan-design/changes/whats-new-in-version-1910)
+  - [Overview](https://www.microsoft.com/videoplayer/embed/RE4wte2)
+  - [Create a deployment plan](https://www.microsoft.com/videoplayer/embed/RE4wB8j)
+  - [Monitor](https://www.microsoft.com/videoplayer/embed/RE4wprt)
+- [Track new Configuration Manager changes](/configmgr/core/plan-design/changes/whats-new-in-version-1910)
 - [Microsoft guidance for policies](https://aka.ms/UpdateVelocity)
-
-
-
-

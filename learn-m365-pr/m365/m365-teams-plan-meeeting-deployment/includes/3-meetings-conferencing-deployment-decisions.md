@@ -32,5 +32,5 @@ For a Teams user's meetings to be recorded, Microsoft Stream must be enabled for
 
 ## Learn more
 
-- [Microsoft Teams cloud meeting recording](https://docs.microsoft.com/MicrosoftTeams/cloud-recording)
-- [Manage meeting policies in Teams](https://docs.microsoft.com/MicrosoftTeams/meeting-policies-in-teams)
+- [Microsoft Teams cloud meeting recording](/MicrosoftTeams/cloud-recording)
+- [Manage meeting policies in Teams](/MicrosoftTeams/meeting-policies-in-teams)

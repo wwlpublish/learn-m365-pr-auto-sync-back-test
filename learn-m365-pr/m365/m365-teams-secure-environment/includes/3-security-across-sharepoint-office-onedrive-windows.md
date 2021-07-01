@@ -16,4 +16,4 @@ Your Teams data is stored differently depending on the content type.
 ## Learn more
 
 - [Configure your Microsoft 365 tenant for increased security
-](https://docs.microsoft.com/office365/securitycompliance/tenant-wide-setup-for-increased-security)
+](/office365/securitycompliance/tenant-wide-setup-for-increased-security)

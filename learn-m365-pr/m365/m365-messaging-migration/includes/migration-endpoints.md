@@ -60,6 +60,6 @@ Test-MigrationServerAvailability -Endpoint endpoint.contoso.com
 
 ## Learn more
 
-- [Move mailboxes between on-premises and Exchange Online organizations in hybrid deployments](https://docs.microsoft.com/Exchange/hybrid-deployment/move-mailboxes?azure-portal=true)
-- [New-MigrationEndpoint](https://docs.microsoft.com/powershell/module/exchange/move-and-migration/new-migrationendpoint?view=exchange-ps&azure-portal=true)
-- [Test-MigrationServerAvailability](https://docs.microsoft.com/powershell/module/exchange/move-and-migration/test-migrationserveravailability?view=exchange-ps&azure-portal=true)
+- [Move mailboxes between on-premises and Exchange Online organizations in hybrid deployments](/Exchange/hybrid-deployment/move-mailboxes?azure-portal=true)
+- [New-MigrationEndpoint](/powershell/module/exchange/move-and-migration/new-migrationendpoint?azure-portal=true)
+- [Test-MigrationServerAvailability](/powershell/module/exchange/move-and-migration/test-migrationserveravailability?azure-portal=true)

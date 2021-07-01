@@ -1,7 +1,9 @@
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4NHyk]
+
 In this exercise, you’ll update the existing Teams app to send a proactive message from your bot.
 
 > [!IMPORTANT]
-> This exercise assumes you have created the Microsoft Teams app project with the Yeoman generator that contains a personal tab from the previous exercise in this module. You'll update the project to add a new task module that uses an Adaptive Card.
+> This exercise assumes you have created the Microsoft Teams app project with the Yeoman generator
 
 ## Start a proactive message from the bot
 

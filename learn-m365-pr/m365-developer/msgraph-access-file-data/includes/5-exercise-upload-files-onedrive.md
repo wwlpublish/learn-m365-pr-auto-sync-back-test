@@ -1,3 +1,5 @@
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4OASP]
+
 In this exercise, you'll learn how to upload files to OneDrive using Microsoft Graph, including both small and large files.
 
 > [!IMPORTANT]

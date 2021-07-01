@@ -1,5 +1,5 @@
 
-Woodgrove has many critical applications that will need to be validated before Pilot deployment.  As the process manager, you’ll have to ensure that these applications are compatible and ready for the update. 
+Woodgrove has many critical applications that will need to be validated before Pilot deployment.  As the process manager, you’ll have to ensure that these applications are compatible and ready for the update.
 
 ## Compatibility tasks
 
@@ -35,6 +35,7 @@ Woodgrove has many devices. There are several things Woodgrove will do to ensure
 ### Identify users
 
 Woodgrove has many users in different departments. These users have different backgrounds and workloads. Woodgrove must know which users are best suited for validating whether devices are ready for the update.  Woodgrove will have to determine which users to select. You suggest that Woodgrove should consider several factors, such as:
+
 - **Location**: Woodgrove has many users in different physical locations. Can the users be supported and can they provide feedback from the region they’re located in?
 - **Application knowledge**: Do the users have the right knowledge of how the application works?
 - **Technical ability**: Do the users have the right level of technical competence to be able to test scenarios and provide useful feedback?

@@ -2,7 +2,7 @@
 Before you can begin creating insider risk policies, there are several requirements that need to be met. 
 
 ### Turn on audit logging
-Insider risk management uses audit logs for user insights and activities configured in policies. The audit logs are a summary of all activities associated with an insider risk management policy or anytime a policy is modified. For step-by-step instructions to turn on auditing, see [Turn Office 365 audit log search on or off](https://docs.microsoft.com/microsoft-365/compliance/turn-audit-log-search-on-or-off?view=o365-worldwide?azure-portal=true). After you turn on auditing, a message is displayed that says the audit log is being prepared and that you can run a search in a couple of hours after the preparation is complete. 
+Insider risk management uses audit logs for user insights and activities configured in policies. The audit logs are a summary of all activities associated with an insider risk management policy or anytime a policy is modified. For step-by-step instructions to turn on auditing, see [Turn Office 365 audit log search on or off](/microsoft-365/compliance/turn-audit-log-search-on-or-off?azure-portal=true). After you turn on auditing, a message is displayed that says the audit log is being prepared and that you can run a search in a couple of hours after the preparation is complete. 
 ### Assign permissions
 A global administrator will need to assign you and other compliance officers to the **Insider Risk Management** or **Insider Risk Management Admin** role group by using the **Permissions** module in the Microsoft 365 compliance center. Once you have been assigned to one of these roles, you have the ability to assign additional users to specific role groups to manage different sets of insider risk management features. 
 
@@ -27,12 +27,12 @@ The following requirements must be met before you can set up an HR connector:
   1. 	Creating an HR connector in the Microsoft 365 compliance center.
   1. 	Running a script that will upload the HR data in the CSV file to the Microsoft cloud.
 
-  For more details, see the [Set up a connector to import HR data](https://docs.microsoft.com/microsoft-365/compliance/import-hr-data?view=o365-worldwide?azure-portal=true) topic.
+  For more details, see the [Set up a connector to import HR data](/microsoft-365/compliance/import-hr-data?azure-portal=true) topic.
 ### Data leaks template
 Insider risk management supports using DLP policies to help identify the intentional or accidental exposure of sensitive information to unwanted parties. When configuring an insider risk management policy with the Data leaks template, you have to assign a specific DLP policy.  This policy helps drive the alert indicators for sensitive information and is an important part of configuring full risk management coverage in your organization.
 
 > [!NOTE]
-> To reduce noise, alerts will only fire when a high volume DLP policy qualifying event is triggered. For example, an alert will fire if the policy detects 10 or more credit card numbers in an email or document, but not less. See the [Create, test, and tune a DLP policy](https://docs.microsoft.com/microsoft-365/compliance/create-test-tune-dlp-policy?view=o365-worldwide?azure-portal=true) topic to learn how to configure DLP policies for your organization. 
+> To reduce noise, alerts will only fire when a high volume DLP policy qualifying event is triggered. For example, an alert will fire if the policy detects 10 or more credit card numbers in an email or document, but not less. See the [Create, test, and tune a DLP policy](/microsoft-365/compliance/create-test-tune-dlp-policy?azure-portal=true) topic to learn how to configure DLP policies for your organization. 
 
 ## Creating a new insider risk policy 
 Insider risk management policies include assigned users and define which types of risk indicators are configured for alerts. Before activities can trigger alerts, a policy must be configured. 
@@ -43,13 +43,13 @@ To create a new insider risk management policy, you use the policy wizard in the
 - **Alert indicators** (**Indicators** need to be enabled under **Policy Settings** before they can be selected when creating a policy)
 - **Duration** (time frame) for monitoring
 
-For more information, see [Create an insider risk policy](https://docs.microsoft.com/microsoft-365/compliance/insider-risk-management-configure?view=o365-worldwide#step-5-required-create-an-insider-risk-management-policy?azure-portal=true).
+For more information, see [Create an insider risk policy](/microsoft-365/compliance/insider-risk-management-configure?step-5-required-create-an-insider-risk-management-policy?azure-portal=true).
 
 
 ## Learn more
 - [Compare Microsoft 365 Enterprise Plans](https://www.microsoft.com/microsoft-365/compare-microsoft-365-enterprise-plans?rtc=1?azure-portal=true)
-- [Enable permissions for insider risk management](https://docs.microsoft.com/microsoft-365/compliance/insider-risk-management-configure?view=o365-worldwide#step-1-required-enable-permissions-for-insider-risk-management?azure-portal=true)
-- [Create, test, and tune a DLP policy](https://docs.microsoft.com/microsoft-365/compliance/create-test-tune-dlp-policy?view=o365-worldwide?azure-portal=true)
+- [Enable permissions for insider risk management](/microsoft-365/compliance/insider-risk-management-configure?step-1-required-enable-permissions-for-insider-risk-management?azure-portal=true)
+- [Create, test, and tune a DLP policy](/microsoft-365/compliance/create-test-tune-dlp-policy?azure-portal=true)
 
 
 

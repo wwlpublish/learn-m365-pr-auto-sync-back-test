@@ -73,4 +73,4 @@ Your SBC is now connected.
 
 ## Learn more
 
-- [Configure Direct Routing](https://docs.microsoft.com/microsoftteams/direct-routing-configure)
+- [Configure Direct Routing](/microsoftteams/direct-routing-configure)

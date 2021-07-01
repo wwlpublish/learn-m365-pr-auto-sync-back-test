@@ -1,8 +1,8 @@
-You've learned about MSIX packages. Now let's consider how you can deploy those applications into your Windows Virtual Desktop environment and determine if MSIX app attach is right for Contoso.
+You've learned about MSIX packages. Now let's consider how you can deploy those applications into your Azure Virtual Desktop environment and determine if MSIX app attach is right for Contoso.
 
 ## Purpose and benefits of MSIX app attach
 
-MSIX app attach is a Microsoft application-delivery approach that's designed for a modern workspace. With MSIX app attach, you can use one application format (MSIX) to deliver applications to both physical and virtual machines. Although you can use MSIX app attach on-premises or in Azure, this technology is specially adopted for Windows Virtual Desktop.
+MSIX app attach is a Microsoft application-delivery approach that's designed for a modern workspace. With MSIX app attach, you can use one application format (MSIX) to deliver applications to both physical and virtual machines. Although you can use MSIX app attach on-premises or in Azure, this technology is specially adopted for Azure Virtual Desktop.
 
 MSIX app attach offers the following benefits:
 
@@ -12,7 +12,7 @@ MSIX app attach offers the following benefits:
 - You can edit and update the applications. After that, all the changes will be saved as a new package that can replace the old MSIX app attach package.
 - You can combine MSIX app attach with FSLogix profile containers to isolate user profiles on a separate VHD or VHDX.
 
-Contoso is a good candidate for using MSIX app attach for its application delivery needs because the company uses Windows Virtual Desktop and Azure for file management.
+Contoso is a good candidate for using MSIX app attach for its application delivery needs because the company uses Azure Virtual Desktop and Azure for file management.
 
 ## How MSIX app attach works
 
@@ -32,10 +32,10 @@ MSIX app attach follows several steps or actions:
 
 After you open MSIX app attach, you experience the following process:
 
-1. From the Windows Virtual Desktop client, you sign in and select the host pool for which you have access. The process is similar to opening published RemoteApp programs from the Windows Virtual Desktop environment.
-2. You're assigned a virtual machine within the host pool, on which a RemoteApp or Remote Desktop session is created. The Windows Virtual Desktop client interacts with that session.
+1. From the Azure Virtual Desktop client, you sign in and select the host pool for which you have access. The process is similar to opening published RemoteApp programs from the Azure Virtual Desktop environment.
+2. You're assigned a virtual machine within the host pool, on which a RemoteApp or Remote Desktop session is created. The Azure Virtual Desktop client interacts with that session.
 3. If the user profile is configured, the FSLogix agent on the session host provides the user profile from the file share. The file share can be Azure Files, Azure NetApp Files, or an infrastructure as a service (IaaS) file server.
-4. Applications that are assigned to you are read from Windows Virtual Desktop.
+4. Applications that are assigned to you are read from Azure Virtual Desktop.
 5. MSIX app attach applications are registered to the virtual machine for you, from the attached MSIX virtual disk. That virtual disk might be on an IaaS file share, Azure Files, or Azure NetApp Files.
 
 :::image type="content" source="../media/03-how-msix-app-attach-work.png" alt-text="Diagram of how M S I X app attach works." border="true":::

@@ -1,8 +1,8 @@
 In this unit, you'll learn the basics of an Outlook mail add-in.
 
-## Office 365 Platform Overview
+## Office developer platform overview
 
-The Microsoft Office 365 platform offers many canvases for developers to embed customizations and Office add-ins are one of three canvases: documents, conversations  and pages.
+The Microsoft 365 developer platform platform, which includes Office, offers many canvases for developers to embed customizations and Office add-ins are one of three canvases: documents, conversations  and pages.
 
 Microsoft Teams makes conversations between users and enables developers to extend the experience using messaging extensions, conversational bots, and other customization options.
 
@@ -10,7 +10,7 @@ Developers customize pages in SharePoint Server and SharePoint online using the 
 
 Office clients, such as Word, Excel, PowerPoint, OneNote, and Outlook can also be extended to implement custom task panes, actions, and more customizations using add-ins.
 
-![Screenshot overview of the Office 365 Platform](../media/02-office-365-platform.png)
+![Screenshot overview of the Microsoft 365 Platform](../media/02-office-365-platform.png)
 
 ## Historical add-in challenges
 
@@ -32,7 +32,7 @@ Office add-ins are built using modern web standards, which mean developers won't
 
 Modern Office add-ins are just web app applications. Office clients include Office.js, which provides a bridge between the hosting Office application and your custom add-in.
 
-The web applications that implement a modern Office add-in are hosted by the developer, which results in a greatly simplified deployment, installation, and upgrade experience for end users. There's zero client footprint on installation. In fact, when the add-in is installed in one Office client, provided the user is signed into their Office 365 account, the add-in will be available in the desktop, mobile, and web Office client applications.
+The web applications that implement a modern Office add-in are hosted by the developer, which results in a greatly simplified deployment, installation, and upgrade experience for end users. There's zero client footprint on installation. In fact, when the add-in is installed in one Office client, provided the user is signed into their Microsoft 365 account, the add-in will be available in the desktop, mobile, and web Office client applications.
 
 ![Screenshot of add-in structure](../media/02-modern-add-in-value-proposition.png)
 

@@ -22,11 +22,11 @@ IRM can't protect restricted content from the following actions:
  -  Using third-party screen-capture programs to copy content.
  -  Using third-party screen-capture programs or copy-and-paste action to copy content metadata (column values).
 
-**Additional reading.** For more information, see [How Office applications and services support Azure Rights Management](https://docs.microsoft.com/azure/information-protection/understand-explore/office-apps-services-support?azure-portal=true).
+**Additional reading.** For more information, see [How Office applications and services support Azure Rights Management](/azure/information-protection/understand-explore/office-apps-services-support).
 
 ### Turn on IRM service using SharePoint admin center
 
-Before an organization can IRM-protect SharePoint lists and libraries, it may need to activate the Azure Rights Management service. To learn whether your organization must activate Azure Rights Management and how to do so, see [Activating Azure Rights Management](https://docs.microsoft.com/information-protection/deploy-use/activate-service?azure-portal=true).
+Before an organization can IRM-protect SharePoint lists and libraries, it may need to activate the Azure Rights Management service. To learn whether your organization must activate Azure Rights Management and how to do so, see [Activating Azure Rights Management](/information-protection/deploy-use/activate-service).
 
 After activating the Azure Rights Management service, sign in to the SharePoint admin center to turn on IRM.
 
@@ -40,7 +40,7 @@ After you refresh IRM settings, people in your organization can begin using IRM 
 
 ### IRM-enable SharePoint document libraries and lists
 
-After refreshing IRM settings, site owners can IRM-protect their SharePoint lists and document libraries. For more information, see [Apply Information Rights Management to a list or library](https://docs.microsoft.com/microsoft-365/compliance/apply-irm-to-a-list-or-library?azure-portal=true).
+After refreshing IRM settings, site owners can IRM-protect their SharePoint lists and document libraries. For more information, see [Apply Information Rights Management to a list or library](/microsoft-365/compliance/apply-irm-to-a-list-or-library).
 
 You can't create or edit documents in an IRM-enabled library using Office in a browser. Instead, one person at a time can download and edit IRM-encrypted files. Use check-in and check-out to manage coauthoring, which is the authoring of a document by multiple users.<br>
 

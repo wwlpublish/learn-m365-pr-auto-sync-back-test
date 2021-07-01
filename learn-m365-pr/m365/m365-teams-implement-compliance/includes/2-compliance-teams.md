@@ -11,7 +11,7 @@ Caleb and Rowan work for a large bank. Caleb is a financial advisor and Rowan wo
 
 :::image type="content" source="../media/2-information-barriers.png" alt-text="Information Barriers":::
 
-In Microsoft Teams, you can use information barriers to prevent Caleb and Rowan from communicating. You configure information barrier policies in the Microsoft 365 Security and Compliance Center (SCC) by using PowerShell cmdlets.
+In Microsoft Teams, you can use information barriers to prevent Caleb and Rowan from communicating. You configure information barrier policies in the Microsoft 365 Defender portal by using PowerShell cmdlets.
 
 ## Retention policies in Microsoft Teams
 
@@ -23,7 +23,7 @@ You can implement these requirements by using retention policies. These policies
 > In the United States, you may be required to comply with Securities and Exchange Commission (SEC) Rule 17a-4, which requires that after a retention policy is turned on, it cannot be turned off or made less restrictive.
 
 The default configuration in Teams is to retain chat, channel, and files date indefinitely, unless it's deleted manually or by a retention policy. You can configure Teams retention policies for chat and channel messages separately and you can apply a policy to your entire organization or to specific users and groups.
-Use the Microsoft 365 Compliance Center to create and manage retention policies. Alternatively, you can create them by using the Security and Compliance Center PowerShell cmdlets.
+Use the Microsoft 365 Compliance Center to create and manage retention policies. Alternatively, you can create them by using the Security & Compliance Center PowerShell cmdlets.
 
 ## Communication compliance in Microsoft Teams
 
@@ -37,7 +37,7 @@ Because Microsoft Teams is built on Microsoft 365, communications compliance pol
 
 ## Learn more
 
-- [Define policies for information barriers](https://docs.microsoft.com/office365/securitycompliance/information-barriers-policies)
-- [Information barriers in Microsoft Teams](https://docs.microsoft.com/microsoftteams/information-barriers-in-teams)
-- [Retention policies in Microsoft Teams](https://docs.microsoft.com/microsoftteams/retention-policies)
-- [Communication compliance in Microsoft 365](https://docs.microsoft.com/microsoft-365/compliance/communication-compliance?view=o365-worldwide)
+- [Define policies for information barriers](/office365/securitycompliance/information-barriers-policies)
+- [Information barriers in Microsoft Teams](/microsoftteams/information-barriers-in-teams)
+- [Retention policies in Microsoft Teams](/microsoftteams/retention-policies)
+- [Communication compliance in Microsoft 365](/microsoft-365/compliance/communication-compliance)

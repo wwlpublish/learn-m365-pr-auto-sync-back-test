@@ -1,13 +1,15 @@
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4OFZG]
+
 In this exercise, you’ll learn how to add link unfurling to your Microsoft Teams app and how to implement this type of messaging extension.
 
 > [!IMPORTANT]
-> This exercise assumes you have created the Microsoft Teams app project with the Yeoman generator that contains a personal tab from the previous exercise in this module. You'll update the project to add a new task module that uses an Adaptive Card.
+> This exercise assumes you have created the Microsoft Teams app project with the Yeoman generator.
 
 ## Add a new search messaging extension to the Teams app
 
-In a previous exercise, you created an action messaging extension that enabled a user to add the details of a planet to a message.
+In a previous exercise, you created an action messaging extension that enabled a user to add the details of a planet to a message as well as search for a planet.
 
-In this section, you'll add a search messaging extension to find a specific planet.
+In this section, you'll add the link unfurling ability to the app
 
 ### Update the app's configuration
 

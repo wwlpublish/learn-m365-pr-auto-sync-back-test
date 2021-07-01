@@ -48,5 +48,5 @@ Use activity reports to see how users in your organization are using Teams so yo
 
 When you're done with a link, use the **Back** arrow in your browser to come back to this page.
 
-- [Meetings & conferencing in Microsoft Teams](https://docs.microsoft.com/microsoftteams/deploy-meetings-microsoft-teams-landing-page)
-- [Tutorial: Meetings in Teams](https://docs.microsoft.com/microsoftteams/tutorial-meetings-in-teams?tutorial-step=1)
+- [Meetings & conferencing in Microsoft Teams](/microsoftteams/deploy-meetings-microsoft-teams-landing-page)
+- [Tutorial: Meetings in Teams](/microsoftteams/tutorial-meetings-in-teams?tutorial-step=1)

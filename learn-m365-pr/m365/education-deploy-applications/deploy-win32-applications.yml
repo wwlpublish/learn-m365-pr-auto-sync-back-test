@@ -3,9 +3,9 @@ uid: learn-m365.edu-deploy-applications.deploy-win32-applications
 metadata:
   title: Deploy Win32 applications 
   description: Learn how to install applications from the Microsoft Store for Eduction using Intune for Education.
-  ms.date: 10/15/2020
+  ms.date: 06/03/2021
   author: iankensey
-  ms.author: v-iakens
+  ms.author: beccarobins
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Deploy Win32 applications 

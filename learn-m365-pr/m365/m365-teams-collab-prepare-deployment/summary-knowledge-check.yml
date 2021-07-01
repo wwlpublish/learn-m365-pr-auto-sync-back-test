@@ -6,11 +6,10 @@ metadata:
   description: Review the Microsoft Teams user experience and learn about requirements and important considerations for deploying Teams as part of a Microsoft 365 installation. 
   ms.date: 08/05/2019
   author: AlexandraHrt
-  ms.author: v-aleha
+  ms.author: beccarobins
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-  ROBOTS: NOINDEX
-durationInMinutes: 5
+durationInMinutes: 4
 content: |
   [!include[](includes/summary-knowledge-check.md)]
 quiz:

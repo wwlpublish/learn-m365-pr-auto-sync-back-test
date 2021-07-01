@@ -7,7 +7,7 @@ Now that you've completed this module, you should be able to:
 
 ## Learn more
 
-- [Role-based access control (RBAC) with Microsoft Intune](https://docs.microsoft.com/mem/intune/fundamentals/role-based-access-control)
-- [Create a custom role in Intune](https://docs.microsoft.com/mem/intune/fundamentals/create-custom-role)
-- [Assign a role to an Intune user](https://docs.microsoft.com/mem/intune/fundamentals/assign-role)
-- [Use role-based access control (RBAC) and scope tags for distributed IT](https://docs.microsoft.com/mem/intune/fundamentals/scope-tags)
+- [Role-based access control (RBAC) with Microsoft Intune](/mem/intune/fundamentals/role-based-access-control)
+- [Create a custom role in Intune](/mem/intune/fundamentals/create-custom-role)
+- [Assign a role to an Intune user](/mem/intune/fundamentals/assign-role)
+- [Use role-based access control (RBAC) and scope tags for distributed IT](/mem/intune/fundamentals/scope-tags)

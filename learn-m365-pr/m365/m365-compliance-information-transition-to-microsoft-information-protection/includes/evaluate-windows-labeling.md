@@ -43,9 +43,9 @@ Use the decision tree below to help you decide which Windows client to install i
 ![Use the decision tree below to help you decide which Windows client to install if you are an existing Azure Information Protection customer transitioning to Microsoft Information Protection..](../media/windows-client-aip-decision-tree.png) 
 
 ## Learn more
-- [Use sensitivity labels in Office apps](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-office-apps?azure-portal=true)
-- [Azure Information Protection unified labeling client for Windows](https://docs.microsoft.com/azure/information-protection/rms-client/aip-clientv2?azure-portal=true)
-- [The difference between the AIP client and the AIP unified labeling client](https://docs.microsoft.com/azure/information-protection/faqs#whats-the-difference-between-the-azure-information-protection-client-and-the-azure-information-protection-unified-labeling-client?azure-portal=true)
-- [Choose with labeling client to use for Windows computers](https://docs.microsoft.com/azure/information-protection/rms-client/use-client#choose-which-labeling-client-to-use-for-windows-computers?azure-portal=true)
+- [Use sensitivity labels in Office apps](/microsoft-365/compliance/sensitivity-labels-office-apps?azure-portal=true)
+- [Azure Information Protection unified labeling client for Windows](/azure/information-protection/rms-client/aip-clientv2?azure-portal=true)
+- [The difference between the AIP client and the AIP unified labeling client](/azure/information-protection/faqs#whats-the-difference-between-the-azure-information-protection-client-and-the-azure-information-protection-unified-labeling-client?azure-portal=true)
+- [Choose with labeling client to use for Windows computers](/azure/information-protection/rms-client/use-client#choose-which-labeling-client-to-use-for-windows-computers?azure-portal=true)
 - [Announcing timelines for sunsetting label management in the Azure portal and AIP client (classic)](https://techcommunity.microsoft.com/t5/azure-information-protection/announcing-timelines-for-sunsetting-label-management-in-the/ba-p/1226179?azure-portal=true)
 

@@ -128,13 +128,13 @@ As with any communications and adoption campaign you will want to identify your 
 - [Guidance for Setting up Teams, Channels, and Tab](https://youtu.be/hjJWtoaRJeE)
 - [Microsoft Teams Customer Success Kit](https://aka.ms/TeamsCustomerSuccess)
 - [Adoption Plan Enterprise Templates](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/teams-adopt-service-adoption-plans-oct-2018.zip?raw=true)
-- [FastTrack Center Benefit for Microsoft 365]( https://docs.microsoft.com/fasttrack/introduction)
+- [FastTrack Center Benefit for Microsoft 365]( /fasttrack/introduction)
 - [Envision, Onboard and Drive Value with Microsoft 365 Adoption Tools]( https://adoption.microsoft.com/)
 
 ## Training resources
 
-- [Instructor-led end-user training for Teams](https://docs.microsoft.com/MicrosoftTeams/instructor-led-training-teams-landing-page)
-- [Administrator training for Teams](https://docs.microsoft.com/MicrosoftTeams/itadmin-readiness)
+- [Instructor-led end-user training for Teams](/MicrosoftTeams/instructor-led-training-teams-landing-page)
+- [Administrator training for Teams](/MicrosoftTeams/itadmin-readiness)
 - [Online End-user video training](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)
 - [Coffee in the Cloud online training for champions & IT pros](https://aka.ms/CoffeeintheCloud)
 - [Adoption Tools](https://aka.ms/O365AdoptionTools)

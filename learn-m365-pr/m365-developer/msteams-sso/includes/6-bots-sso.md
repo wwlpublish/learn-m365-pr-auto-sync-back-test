@@ -1,3 +1,5 @@
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4ODdf]
+
 Developers can create bots for Microsoft Teams that display user information using Microsoft Graph. Because users sign in to Microsoft Teams via their Azure AD accounts in Microsoft 365, developers can take advantage of this by implementing single sign-on (SSO) to authorize the bot.
 
 Single sign-on authentication in Azure Active Directory (Azure AD) minimizes the number of times users need to enter their sign-in credentials by silently refreshing the authentication token. If users agree to use your app, they don't need to consent again on another device and can sign in automatically. The flow is similar to that of Microsoft Teams tab SSO support, however, the difference is in the protocol for how a bot requests tokens and receives responses.
@@ -27,7 +29,7 @@ Let's look at how the SSO process works at runtime in bots:
 
 1. Microsoft Teams requests the bot application token from the Azure AD endpoint for the current user.
 1. Azure AD sends the bot application token to the Microsoft Teams application.
-1. Microsoft Teams sends the token to the bot as part of the value object returned by the invoke activity with the name **sign-in/tokenExchange**.
+1. Microsoft Teams sends the token to the bot as part of the value object returned by the invoke activity with the name `sign-in/tokenExchange`.
 1. The parsed token in the bot application provides the required information, such as the user's email address.
 
 ## Configure the Azure AD application for SSO with bots
@@ -86,7 +88,7 @@ There are two parts of this section that must be updated for your application:
 
 ### Code the bot to request and receive an access token
 
-The request to get access token involves submitting an HTTP POST message request using the existing message schema. Its included in the attachments of an *OAuthCard*. The schema for the [OAuthCard](https://docs.microsoft.com/dotnet/api/microsoft.bot.schema.oauthcard) class is defined in Microsoft Bot Schema 4.0 and Its similar to a sign-in card.
+The request to get access token involves submitting an HTTP POST message request using the existing message schema. Its included in the attachments of an *OAuthCard*. The schema for the [OAuthCard](/dotnet/api/microsoft.bot.schema.oauthcard) class is defined in Microsoft Bot Schema 4.0 and its similar to a sign-in card.
 
 Microsoft Teams treats the request as a silent token acquisition if the `TokenExchangeResource` property is populated on the card. For Microsoft Teams channels, only the `ID` property, which uniquely identifies a token request, is honored.
 
@@ -99,95 +101,68 @@ When the user selects **Continue**, the following events occur:
 - If the bot defines a sign-in button, the sign-in flow for bots is triggered similar to the sign-in flow from an OAuth card button in a message stream. The developer must decide which permissions require user's consent.
 
     This approach is recommended if you require a token with permissions beyond `openid` such as in the case when you want to exchange the token for Microsoft Graph resources.
+
 - If the bot isn't providing a sign-in button on the OAuth card, user consent is required for a minimal set of permissions. This token is useful for basic authentication to identify the user. For example, to get the user's email address, identity provider's object ID, the user's tenant ID, or the user's display name.
 
 When building a bot that that requires an authenticated user, consider using dialogs. Dialogs provide a state-based model to manage a long-running conversation with the user. The nature of the sequential conversation that depends on authentication makes dialogs well suited for this scenario.
 
-Dialogs simplify the sequential steps of signing in, interacting with the user and secured resources requiring user and bot authorization, and ultimately signing out. Learn more from the [Bot Framework documentation: Dialogs](https://docs.microsoft.com/composer/concept-dialog) and [Bot Framework SDK: Dialogs library](https://docs.microsoft.com/azure/bot-service/bot-builder-concept-dialog).
+Dialogs simplify the sequential steps of signing in, interacting with the user and secured resources requiring user and bot authorization, and ultimately signing out. Learn more from the [Bot Framework documentation: Dialogs](/composer/concept-dialog) and [Bot Framework SDK: Dialogs library](/azure/bot-service/bot-builder-concept-dialog).
 
 The following example demonstrates using a waterfall dialog
 
-```javascript
+```typescript
 this.addDialog(new WaterfallDialog(MAIN_WATERFALL_DIALOG, [
   this.promptStep.bind(this),
-  this.loginStep.bind(this),
-  this.ensureOAuth.bind(this),
-  this.displayToken.bind(this)
+  this.displayMicrosoftGraphDataStep.bind(this)
 ]));
 ```
 
 This first step in the waterfall dialog prompts the user and bot to authenticate:
 
-```javascript
-async promptStep(stepContext) {
+```typescript
+public async promptStep(stepContext: WaterfallStepContext): Promise<DialogTurnResult> {
   try {
-    return await stepContext.beginDialog(OAUTH_PROMPT);
+    return await stepContext.beginDialog(OAUTH_PROMPT_ID);
   } catch (err) {
     console.error(err);
   }
+  return await stepContext.endDialog();
 }
 ```
 
 Next, the login step will attempt to obtain an access token using the bot's authentication support. If successful, it uses the access token obtained in the OAuth process to submit a request to Microsoft Graph to display information returned from Microsoft Graph:
 
-```javascript
-async loginStep(stepContext) {
+```typescript
+public async displayMicrosoftGraphDataStep(stepContext: WaterfallStepContext): Promise<DialogTurnResult> {
+  // get token from prev step (or directly from the prompt itself)
   const tokenResponse = stepContext.result;
-  if (!tokenResponse || !tokenResponse.token) {
-    await stepContext.context.sendActivity('Login was not successful please try again.');
+  if (!tokenResponse?.token) {
+    await stepContext.context.sendActivity("Login not successful, please try again.");
   } else {
-    const microsoftGraphClient = new MicrosoftGraphClient(tokenResponse.token);
+    const msGraphClient = new MsGraphHelper(tokenResponse?.token);
 
-    // get user's basic profile information
-    const me = await microsoftGraphClient.getMe();
-    const title = me ? me.jobTitle : 'UnKnown';
-    // respond to Microsoft Teams with an activity message
-    await stepContext.context.sendActivity(
-        `You're logged in as ${me.displayName} (${me.userPrincipalName});
-         your job title is: ${title}; your photo is: `
-    );
+    const user = await msGraphClient.getCurrentUser();
+    await stepContext.context.sendActivity(`Thank you for signing in ${user.displayName as string} (${user.userPrincipalName as string})!`);
+    await stepContext.context.sendActivity(`I can retrieve your details from Microsoft Graph using my support for SSO! For example...`);
 
-    // get user's profile photo
-    const photoBase64 = await microsoftGraphClient.GetPhotoAsync(tokenResponse.token);
-    const card = CardFactory.thumbnailCard("", CardFactory.images([photoBase64]));
-    // respond to Microsoft Teams with an activity message
-    await stepContext.context.sendActivity({attachments: [card]});
-
-    // add a prompt message, offering the user to review their token
-    return await stepContext.prompt(CONFIRM_PROMPT, 'Would you like to view your token?');
+    const email = await msGraphClient.getMostRecentEmail();
+    await stepContext.context.sendActivity(`Your most recent email about "${email.subject as string}" was received at ${new Date(email.receivedDateTime as string).toLocaleString()}.`);
   }
+
   return await stepContext.endDialog();
 }
 ```
 
-![Screenshot of the bot displaying the user's information](../media/07-test-03.png)
+When you run the bot, the first time the user interacts with the bot, they'll be prompted to consent to a sign-in experience:
 
-In this example, notice after the `loginStep()`, we included two more steps: `ensureOAuth()` and `displayToken()`. These will fire if the user accepts the `prompt` returned by the `loginStep()` method.
+![Screenshot of the sign in prompt](../media/07-test-06.png)
 
-The `ensureOAuth()` step is recommended to prompt for an access token again:
+Once they consent by selecting the **Continue** button, the bot will display information about the currently signed in user.
 
-```javascript
-async ensureOAuth(stepContext) {
-  await stepContext.context.sendActivity('Thank you.');
+This information was retrieved using the SSO support in Microsoft Teams to obtain an ID token for the currently signed in user, exchanging this ID token for an access token, and using that to submit requests to Microsoft Graph:
 
-  const result = stepContext.result;
-  if (result) {
-    return await stepContext.beginDialog(OAUTH_PROMPT);
-  }
-  return await stepContext.endDialog();
-}
-```
+![Screenshot of the bot displaying the user's information](../media/07-test-07.png)
 
-If the user is already logged in, the bot doesn't need to store the token locally and handle the token refresh if necessary. Instead, the bot can just call the prompt again to get the token. The other more important case is that you can't know how long the user will take to respond. If they want a long time, the token may expire which would require another prompt to log in again.
+Finally, when the user submits the message **logout**, it will complete the sign-out process:
 
-The final step, `displayToken()`, receives the step context that will contain the token:
-
-```javascript
-async displayToken(stepContext) {
-  const tokenResponse = stepContext.result;
-  if (tokenResponse && tokenResponse.token) {
-    await stepContext.context.sendActivity(`Here is your token ${tokenResponse.token}`);
-  }
-  return await stepContext.endDialog();
-}
-```
+![Screenshot of the bot displaying the logout process](../media/07-test-08.png)

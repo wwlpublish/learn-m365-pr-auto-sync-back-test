@@ -1,3 +1,5 @@
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4OO3l]
+
 In this unit, you'll learn how Microsoft Graph fits into the larger Microsoft 365 platform. You'll then learn how to use Microsoft Graph in an ASP.NET MVC application to display events from the currently signed in user's calendar.
 
 ## Microsoft 365 platform

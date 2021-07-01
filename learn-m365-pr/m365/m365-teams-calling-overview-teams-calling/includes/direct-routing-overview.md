@@ -6,7 +6,7 @@ Direct Routing enables you to connect your SBC to a telephony trunk using third-
 
 Direct Routing is useful in situations where Microsoft Calling Plan is not available. Alternatively, you can use Direct Routing and Calling Plan as part of the same hybrid solution.
 
-You can find a list of SBC devices certified for Direct Routing online at [List of Session Border Controllers certified for Direct Routing](https://docs.microsoft.com/microsoftteams/direct-routing-border-controllers).
+You can find a list of SBC devices certified for Direct Routing online at [List of Session Border Controllers certified for Direct Routing](/microsoftteams/direct-routing-border-controllers).
 
 Direct Routing is available Microsoft 365 and Office 365, as well as Office 365 GCC, Office 365 GCC High, and Office 365 DoD.
 
@@ -26,4 +26,4 @@ There are a number of points that you need to address when considering how to de
 - Which users should be able to use Direct Routing, and which services should they be able to access. For example, should all users be able to make external calls through Direct Routing, what voice routes are required, and what voice routing policies should be configured to control PSTN usage?
 - What licenses are required? Each user must have licenses assigned in Microsoft 365 or Office 365 for Phone System, Teams, and Microsoft Audio Conferencing.
 - Where and how should SBCs be deployed? Does the SBC need to support multiple tenants?
-For detailed information, read [Core deployment decisions](https://docs.microsoft.com/microsoftteams/direct-routing-landing-page#core-deployment-decisions)
+For detailed information, read [Core deployment decisions](/microsoftteams/direct-routing-landing-page#core-deployment-decisions)

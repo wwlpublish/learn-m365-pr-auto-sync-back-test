@@ -38,11 +38,11 @@ To manage communication policies and alerts, create one or more admin role group
 
 ## Enable the audit log
 Communication compliance requires that the audit log is enabled. The log shows alerts and tracks remediation actions taken by reviewers. The audit logs are a summary of all activities associated with a defined organizational policy or anytime a communication compliance policy changes.
-You can use the Security & Compliance Center or PowerShell to turn on audit log search. You have to be assigned the Audit Logs role in Exchange Online to turn on audit log search.
+You can use the Microsoft 365 Defender portal or PowerShell to turn on audit log search. You have to be assigned the Audit Logs role in Exchange Online to turn on audit log search.
 
 To enable the audit log follow these steps:
 
-1. Sign into the [Office 365 Security & Compliance center](https://protection.office.com).
+1. Sign into the [Microsoft 365 Defender portal](https://security.microsoft.com).
 1. In the left navigation, select **Search** > **Audit log search**.
 1. Select **Turn on auditing** on the **Audit log search** page.
 
@@ -78,7 +78,7 @@ Once the audit log is enabled, you can start creating policy for communication c
 
 To learn more about the topics covered in this unit, see:
 
-- [Communication compliance with Microsoft Teams](https://docs.microsoft.com/microsoftteams/communication-compliance).
-- [Get started with communication compliance](https://docs.microsoft.com/microsoft-365/compliance/communication-compliance-configure).
-- [Turn audit log search on or off](https://docs.microsoft.com/microsoft-365/compliance/turn-audit-log-search-on-or-off).
-- [Search the audit log in the Security & Compliance Center](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance).
+- [Communication compliance with Microsoft Teams](/microsoftteams/communication-compliance).
+- [Get started with communication compliance](/microsoft-365/compliance/communication-compliance-configure).
+- [Turn audit log search on or off](/microsoft-365/compliance/turn-audit-log-search-on-or-off).
+- [Search the audit log in the Microsoft 365 Defender portal](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance).

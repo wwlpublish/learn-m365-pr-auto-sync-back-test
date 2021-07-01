@@ -60,6 +60,9 @@ The API can require administrative consent for specific scopes as well. Create a
 
 ## Create a .NET Core web API application
 
+> [!NOTE]
+> The instructions below assume you are using .NET 5. They were last tested using v5.0.202 of the .NET 5 SDK.
+
 A web API application is typically a dynamic web application that is called by client applications, returning information as JSON. This example will use an Azure AD application to authenticate calls made to the application using a token provided in the Authentication header of the Http request.
 
 Open your command prompt, navigate to a directory where you want to save your work.

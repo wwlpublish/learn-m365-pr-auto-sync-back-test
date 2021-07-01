@@ -17,4 +17,4 @@ In this case, we see that the event was a file that included a high volume of U.
 :::image type="content" source="../media/alert-event-details.png" alt-text="A screenshot shows the details for an event that prompted a high severity alert.":::
 
 ## Learn more
-[Configure and view alerts for DLP policies (preview) | Microsoft Docs](https://docs.microsoft.com/microsoft-365/compliance/dlp-configure-view-alerts-policies)
+[Configure and view alerts for DLP policies (preview) | Microsoft Docs](/microsoft-365/compliance/dlp-configure-view-alerts-policies)

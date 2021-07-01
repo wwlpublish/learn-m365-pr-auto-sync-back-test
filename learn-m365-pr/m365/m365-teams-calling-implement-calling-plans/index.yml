@@ -1,20 +1,20 @@
 ### YamlMime:Module
 uid: learn-m365-pr.teams-calling-implement-calling-plans
 metadata:
-  title: Implement Microsoft Calling Plans
-  description: This module will introduce you to the steps required to implement Calling Plans. You will learn how to determine availability, proper licensing, and how to obtain phone numbers.
+  title: Implement Microsoft Teams Calling Plans
+  description: This module will introduce you to the steps required to implement Microsoft Teams Calling Plans. You will learn how to determine availability, proper licensing, and how to obtain phone numbers.
   ms.date: 05/12/2021
   author: iankensey
   ms.author: beccarobins
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-title: Implement Microsoft Calling Plans
-summary: This module will introduce you to the steps required to implement Calling Plans. You will learn how to determine availability, proper licensing, and how to obtain phone numbers.
+title: Implement Microsoft Teams Calling Plans
+summary: This module will introduce you to the steps required to implement Microsoft Teams Calling Plans. You will learn how to determine availability, proper licensing, and how to obtain phone numbers.
 abstract: |
   Upon completion of this module, you`ll be able to:
   - Understand the steps necessary to set up calling plans
   - Understand how to transfer and port numbers
-  - Understand how to configure emergency numbers for both Calling Plans and Direct Routing
+  - Understand how to configure emergency numbers for both Teams Calling Plans and Direct Routing
 prerequisites: |
  - An understanding of Microsoft Teams Client
  - An understanding of Microsoft Teams Phone

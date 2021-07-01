@@ -19,5 +19,5 @@ Microsoft Defender for Office 365 contains additional and more advanced anti-phi
 - **Attack simulator**: Allows admins to create fake phishing messages and send them to internal users as an education tool. 
 
 ## Learn more
-- [Anti-phishing protection](https://docs.microsoft.com/microsoft-365/security/office-365-security/anti-phishing-protection?view=o365-worldwide?azure-portal=true)
-- [Anti-phishing policies](https://docs.microsoft.com/microsoft-365/security/office-365-security/set-up-anti-phishing-policies?view=o365-worldwide?azure-portal=true)
+- [Anti-phishing protection](/microsoft-365/security/office-365-security/anti-phishing-protection?azure-portal=true)
+- [Anti-phishing policies](/microsoft-365/security/office-365-security/set-up-anti-phishing-policies?azure-portal=true)

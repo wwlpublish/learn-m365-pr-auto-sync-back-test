@@ -1,4 +1,16 @@
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4OG3g]
+
 In this exercise, you'll create an ASP.NET MVC web application with Visual Studio and Azure AD application with the Azure Active Directory admin center. Once the application is created, you'll then add the necessary packages and libraries that support user authentication and requesting data from Microsoft Graph.
+
+## Prerequisites
+
+Developing Microsoft Graph apps requires a Microsoft 365 tenant.
+
+For the Microsoft 365 tenant, follow the instructions on the [Microsoft 365 Developer Program](https://developer.microsoft.com/microsoft-365/dev-program) site for obtaining a developer tenant if you don't currently have a Microsoft 365 account.
+
+The exercises in this module assume you have the following tools installed on your developer workstation.
+
+- [Visual Studio 2019](https://visualstudio.com)
 
 ## Create ASP.NET MVC web application
 
@@ -35,13 +47,13 @@ Select **Tools > NuGet Package Manager > Package Manager Console**.
 
 In the **Package Manager Console**, enter the following commands.
 
-```powershell
-Update-Package bootstrap
+```powershellb
+Update-Package bootstrap -Version 4.6.0
 Install-Package Microsoft.Owin.Host.SystemWeb
 Install-Package Microsoft.Owin.Security.OpenIdConnect
 Install-Package Microsoft.Owin.Security.Cookies
-Install-Package Microsoft.Identity.Client -Version 4.27.0
-Install-Package Microsoft.Graph -Version 3.25.0
+Install-Package Microsoft.Identity.Client -Version 4.31.0
+Install-Package Microsoft.Graph -Version 3.32.0
 ```
 
 ## Design the app
@@ -250,7 +262,7 @@ Save all of your changes and restart the server. Now, the app should look differ
 
 In this section, you'll create a new Azure AD web application registration using the Azure Active Directory admin center.
 
-Determine your ASP.NET app's SSL URL. In Visual Studio's Solution Explorer, select the **graph-tutorial** project. In the **Properties** window, find the value of **SSL URL**. Copy this value.
+Determine your ASP.NET app's SSL URL. In Visual Studio's **Solution Explorer**, select the **graph-tutorial** project. In the **Properties** window, find the value of **SSL URL**. Copy this value.
 
 ![Screenshot of the Visual Studio Properties window](../media/03-vs-project-url.png)
 

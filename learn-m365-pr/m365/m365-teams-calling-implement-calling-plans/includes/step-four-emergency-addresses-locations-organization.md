@@ -18,9 +18,9 @@ Microsoft recommends that you create emergency addresses for Calling Plan by usi
 > To assign an emergency location to a network identifier for dynamic emergency calling, the emergency address must contain an appropriate geo code.
 
 > [!NOTE]
-> There are some differences in how you manage emergency calling depending on whether you are using Phone System Calling Plans or Phone System Direct Routing for your PSTN connectivity. These considerations are described throughout this section.
+> There are some differences in how you manage emergency calling depending on whether you are using Teams Calling Plans or Direct Routing for your PSTN connectivity. These considerations are described throughout this section.
 
-### Emergency call enablement for Calling Plans
+### Emergency call enablement for Teams Calling Plans
 
 Each Calling Plan user is automatically enabled for emergency calling and is required to have a registered emergency address associated with their assigned telephone number.
 When the location must be associated to the telephone number depends on the country/region:
@@ -28,16 +28,16 @@ When the location must be associated to the telephone number depends on the coun
 - In the United States and Canada, for example, an emergency location is required when a number is assigned to a user.
 - For other countries--such as in Europe, the Middle East, and Africa (EMEA)--an emergency location is required when you get the phone number from Microsoft 365 or Office 365, or when it's transferred from another service provider or carrier.
 
-### Dynamic emergency calling for Calling Plans
+### Dynamic emergency calling for Teams Calling Plans
 
-Dynamic emergency calling for Microsoft Calling Plans provides the capability to configure and route emergency calls based on the current location of the Teams client. The ability to do automatic routing to the appropriate Public Safety Answering Point (PSAP) or to notify security desk personnel varies depending on the country of usage of the Teams user.
+Dynamic emergency calling for Teams Calling Plans provides the capability to configure and route emergency calls based on the current location of the Teams client. The ability to do automatic routing to the appropriate Public Safety Answering Point (PSAP) or to notify security desk personnel varies depending on the country of usage of the Teams user.
 For Calling Plan users, dynamic location for routing emergency calls is only supported in the United States as follows. (For information about dynamic emergency calling and Direct Routing, see Considerations for Direct Routing.
 
 - If a Teams client for a United States Calling Plan user dynamically acquires an emergency address within the United States, that address is used for emergency routing instead of the registered address, and the call will be automatically routed to the PSAP in the serving area of the address.
 - If a Teams client for a United States Calling Plan user doesn't dynamically acquire an emergency address within the United States, then the registered emergency address is used to help screen and route the call. However, the call will be screened to determine if an updated address is required before connecting the caller to the appropriate PSAP.
 In the United States, you must configure the civic address that is part of the emergency locations that are assigned to network identifiers—and include the associated geo codes. For more information, see **Plan and configure dynamic emergency calling** below.
 
-### Emergency call routing for Calling Plans
+### Emergency call routing for Teams Calling Plans
 
 When a Teams Calling Plan user dials an emergency number, how the call is routed to the PSAP depends on the following:
 
@@ -77,7 +77,7 @@ Teams clients for Direct Routing users can acquire a dynamic emergency address, 
 
 ### Plan and configure dynamic emergency calling
 
-Dynamic emergency calling for Microsoft Calling Plans and Phone System Direct Routing provides the capability to configure and route emergency calls and notify security personnel based on the current location of the Teams client.
+Dynamic emergency calling for Teams Calling Plans and Direct Routing provides the capability to configure and route emergency calls and notify security personnel based on the current location of the Teams client.
 
 Based on the network topology that the tenant administrator defines, the Teams client provides network connectivity information in a request to the Location Information Service (LIS). If there's a match, the LIS returns a location to the client. This location data is transmitted back to the client.
 The Teams client includes location data as part of an emergency call. This data is then used by the emergency service provider to determine the appropriate Public Safety Answering Point (PSAP) and to route the call to that PSAP, which allows the PSAP dispatcher to obtain the caller's location.
@@ -192,9 +192,9 @@ Use the following cmdlets to add ports, switches, subnets, and WAPs to the LIS.
 
 Use the following policies to configure emergency calling. You can manage these policies in the Microsoft Teams admin center or by using PowerShell.
 
-- **Emergency call routing policy** – Applies only to Direct Routing. This policy configures the emergency numbers, masks per number if desired, and the PSTN route per number. You can assign this policy to users, to network sites, or to both. (Calling Plans Teams clients are automatically enabled for emergency calling with the emergency numbers from the country based upon their Microsoft 365 or Office 365 usage location.) To **Additional resources**, see Manage emergency call routing policies for Direct Routing.
+- **Emergency call routing policy** – Applies only to Direct Routing. This policy configures the emergency numbers, masks per number if desired, and the PSTN route per number. You can assign this policy to users, to network sites, or to both. (Teams Calling Plans clients are automatically enabled for emergency calling with the emergency numbers from the country based upon their Microsoft 365 or Office 365 usage location.) To **Additional resources**, see Manage emergency call routing policies for Direct Routing.
 
-- **Emergency calling policy** - Applies to Calling Plans and Direct Routing. This policy configures the security desk notification experience when an emergency call is made. You can set who to notify and how they are notified. For example, to automatically notify your organization's security desk and have them listen in on emergency calls. This policy can either be assigned to users or network sites or both. To **Additional resources**, see Manage emergency calling policies in Teams.
+- **Emergency calling policy** - Applies to Teams Calling Plans and Direct Routing. This policy configures the security desk notification experience when an emergency call is made. You can set who to notify and how they are notified. For example, to automatically notify your organization's security desk and have them listen in on emergency calls. This policy can either be assigned to users or network sites or both. To **Additional resources**, see Manage emergency calling policies in Teams.
 
 #### Enable users and sites
 
@@ -270,7 +270,8 @@ Upon a callback to the emergency number, the ELIN application will do the revers
 
 ## Security desk notification
 
-Security desk notification is available with both Microsoft Calling Plans and Phone System Direct Routing.
+Security desk notification is available with both Teams Calling Plans and Direct Routing.
+
 You use a Teams emergency calling policy (TeamsEmergencyCallingPolicy) to configure who should be notified during an emergency call and how they are notified: chat only, conferenced in and muted, or conferenced in and muted but with the ability to unmute. You can also specify an external PSTN number of a user or group to call and join the emergency call.
 
 An emergency calling policy can be granted to a Teams user account, assigned to a network site, or both. When a Teams client starts or changes a network connection, Teams performs a lookup of the network site where the client is located:
