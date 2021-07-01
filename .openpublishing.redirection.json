@@ -1454,6 +1454,11 @@
       "source_path": "learn-m365-pr/wwl/configure-your-microsoft-365-experience/5-finalize-your-tenant-configuration.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/configure-your-microsoft-365-experience/",
       "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/configure-client-connectivity-to-microsoft-365/5-configure-azure-active-directory-multi-factor-authentication.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/configure-client-connectivity-to-microsoft-365/5-configure-azure-active-directory-multifactor-authentication",
+      "redirect_document_id": true
     }
   ]
 }
