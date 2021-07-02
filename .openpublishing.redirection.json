@@ -1459,6 +1459,11 @@
       "source_path": "learn-m365-pr/wwl/configure-client-connectivity-to-microsoft-365/5-configure-azure-active-directory-multi-factor-authentication.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/configure-client-connectivity-to-microsoft-365/5-configure-azure-active-directory-multifactor-authentication",
       "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/deploy-microsoft-365-apps-for-enterprise/4-perform-self-service-installation-of.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/deploy-microsoft-365-apps-for-enterprise/4-complete-self-service-installation-of",
+      "redirect_document_id": true
     }
   ]
 }
