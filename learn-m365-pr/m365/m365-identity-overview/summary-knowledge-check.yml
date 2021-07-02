@@ -31,16 +31,16 @@ quiz:
         explanation: "Correct! Azure AD provides organizations with Identity as a Service, and helps employees sign in and access resources within external and internal sources."
       - content: "Controls and helps secure email, documents, and sensitive data inside and outside your company walls"
         isCorrect: false
-        explanation: "Incorrect. This is an explanation of Azure Information Protection. Azure AD is Microsoft’s cloud-based identity and access management service."
+        explanation: "Incorrect. This describes Azure Information Protection. Azure AD is Microsoft’s cloud-based identity and access management service."
       - content: "Safeguards access to data and applications by requiring a second form of authentication and a range of easy to use authentication methods."
         isCorrect: false
-        explanation: "Incorrect. This is an explanation of multi-factor authentication. Azure AD is Microsoft’s cloud-based identity and access management service."
+        explanation: "Incorrect. This describes multi-factor authentication. Azure AD is Microsoft’s cloud-based identity and access management service."
     
     - content: "Which of the following is a reason that the network perimeter is no longer enough?"
       choices:
       - content: "Organizational data is kept internal to the network boundaries."
         isCorrect: false
-        explanation: "Incorrect. Organizational data, devices, and users often reside and operate outside of traditional network boundaries (whether this was sanctioned by IT or not."
+        explanation: "Incorrect. Organizational data, devices, and users often reside and operate outside of traditional network boundaries (whether this was sanctioned by IT or not.)"
       - content: "Adversaries are using phishing attacks."
         isCorrect: true
         explanation: "Correct! Adversaries have demonstrated a consistent and ongoing ability to penetrate network perimeters using phishing attacks.."
