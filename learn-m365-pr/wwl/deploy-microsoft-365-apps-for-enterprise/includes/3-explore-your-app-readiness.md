@@ -22,25 +22,25 @@ The following image shows the overview page of the Readiness Report Creator.
 
 The Excel spread sheet that’s created by the Readiness Toolkit includes the following workbook tabs:<br>
 
- *  **Overview.** This tab provides access to reports that assess the results of the VBA macros and add-ins found on the company’s devices. You can review each report by selecting the View VBA/Add-in Report buttons located inside this tab.
- *  **VBA Overview.** This tab displays a pie chart of each VBA found on all scanned files, and it includes a readiness assessment. You can define the filters in this tab by Office version and bit version.
- *  **VBA Summary.** This tab displays the raw data table that's used to generate the reports in the VBA Overview tab.
- *  **VBA Results.** This tab displays information on each file scanned by the Readiness Report Creator. If multiple issues are found in a scanned file, there's a separate row for each issue.
- *  **VBA Remediation.** This tab provides proposed changes to VBA macro code found during the scan.
- *  **VBA References.** This tab lists any references that were identified in VBA macro code and in the VBA project. These references are used to call external DLLs, linked files, and ODBC connections for use by the VBA code.
- *  **Add-in Summary.** This tab displays a high-level overview of the add-ins found by the report. The data at the top of the worksheet should give you a quick assessment of how many add-ins will likely be compatible with Microsoft 365 Apps and how many add-ins you must do more research on.
- *  **Add-in Details.** This tab displays metadata information about the add-ins found (for example, publisher and version number), the total number of installs of each add-in, and the readiness status.
- *  **By computer name.** This tab displays information similar to what’s on the Add-in Details worksheet. But while the Add-in Details worksheet displays the total number of installs for each add-in, this tab lists every computer in which the add-ins are installed.
+ -  **Overview.** This tab provides access to reports that assess the results of the VBA macros and add-ins found on the company’s devices. You can review each report by selecting the View VBA/Add-in Report buttons located inside this tab.
+ -  **VBA Overview.** This tab displays a pie chart of each VBA found on all scanned files, and it includes a readiness assessment. You can define the filters in this tab by Office version and bit version.
+ -  **VBA Summary.** This tab displays the raw data table that's used to generate the reports in the VBA Overview tab.
+ -  **VBA Results.** This tab displays information on each file scanned by the Readiness Report Creator. If multiple issues are found in a scanned file, there's a separate row for each issue.
+ -  **VBA Remediation.** This tab provides proposed changes to VBA macro code found during the scan.
+ -  **VBA References.** This tab lists any references that were identified in VBA macro code and in the VBA project. These references are used to call external DLLs, linked files, and ODBC connections for use by the VBA code.
+ -  **Add-in Summary.** This tab displays a high-level overview of the add-ins found by the report. The data at the top of the worksheet should give you a quick assessment of how many add-ins will likely be compatible with Microsoft 365 Apps and how many add-ins you must do more research on.
+ -  **Add-in Details.** This tab displays metadata information about the add-ins found (for example, publisher and version number), the total number of installs of each add-in, and the readiness status.
+ -  **By computer name.** This tab displays information similar to what’s on the Add-in Details worksheet. But while the Add-in Details worksheet displays the total number of installs for each add-in, this tab lists every computer in which the add-ins are installed.
 
 ### Configuring the readiness report
 
-Before creating a readiness report, you must first determine the type of information you want to collect. For example, you may ask yourself questions such as:
+Before creating a readiness report, an organization's Enterprise Administrator must first determine the type of information they want to collect. For example, the admin may ask questions such as:
 
- *  Are the files local, or do they belong to a network share?
- *  Because the Readiness Toolkit can't scan web documents, do you have a previous readiness report to compare the results to?
- *  Are you using the Office Telemetry Dashboard to assess your add-compatibility?
+ -  Are the files local, or do they belong to a network share?
+ -  Because the Readiness Toolkit can't scan web documents, is there a previous readiness report to compare the results to?
+ -  Is the Office Telemetry Dashboard being used to assess the organization's add-compatibility?
 
-Questions such as these will help determine the type of report that you want to generate.
+Questions such as these will help determine the type of report that an organization wants to generate.
 
 > [!TIP]
 > Before installing and using the Readiness Toolkit, see the [requirements and limitations of the Readiness Toolkit.](https://docs.microsoft.com/deployoffice/readiness-toolkit-application-compatibility-microsoft-365-apps#creating-a-readiness-report?azure-portal=true)
@@ -50,12 +50,15 @@ The following image shows the Readiness Toolkit web UI.
 :::image type="content" source="../media/readiness-toolkit-19e44296.png" alt-text="screenshot of the Readiness Toolkit web user interface":::
 
 
-After selecting the information that'll be used to create your report, you must specify a location to save your report and choose whether to create a basic report or an advanced report.
+After selecting the information that will be used to create the organization's report, the Enterprise Administrator must specify a location to save the report and choose whether to create a basic report or an advanced report.
 
-It’s strongly recommended that you create an advanced report, which provides additional information to help you assess the compatibility of your VBA macros and add-ins with Microsoft 365 Apps. For example, in an advanced report, you get the following additional information:
+It’s recommended that organizations create an advanced report, which provides additional information to help assess the compatibility of their VBA macros and add-ins with Microsoft 365 Apps. For example, in an advanced report, the following extra information is displayed:
 
- *  Remediation advice for any issues found in your VBA macros. This information is shown in a separate worksheet in the report.
- *  Readiness status for add-ins. For example, the report may indicate the software provider has a supported version of the add-in for Microsoft 365 Apps.
+ -  Remediation advice for any issues found in the organization's VBA macros. This information is shown in a separate worksheet in the report.
+ -  Readiness status for add-ins. For example, the report may indicate the software provider has a supported version of the add-in for Microsoft 365 Apps.
+
+    > [!NOTE]
+    > The readiness status for add-ins is derived from telemetry-based computations and explicit support statements from ISVs.
 
 To provide you with the most up-to-date remediation advice and readiness status, the Readiness Report Creator contacts Microsoft when it creates the report. Some information about your VBA macros and add-ins is sent to Microsoft.
 
