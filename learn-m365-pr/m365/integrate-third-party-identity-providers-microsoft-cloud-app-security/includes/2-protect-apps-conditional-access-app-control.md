@@ -1,11 +1,11 @@
-It’s important that security administrators know what’s happening in their organization’s cloud app environment. 
+It's important that security administrators know what's happening in their organization's cloud app environment.
 
-If Contoso's users are using apps that you don’t know about, they might be introducing malware without your knowledge. Contoso might suffer from data loss when users share content without proper controls. However, you must allow users to use the apps they need, and from devices that they might own. In short, you must strike a balance between users’ needs, and the security of Contoso and its data.
+If Contoso's users are using apps that you don't know about, they might be introducing malware without your knowledge. Contoso might suffer from data loss when users share content without proper controls. However, you must allow users to use the apps they need, and from devices that they might own. In short, you must strike a balance between users' needs, and the security of Contoso and its data.
 
-Some of these apps might use Azure Active Directory (Azure AD) as the identity provider. Other apps might not, and might instead rely on an alternative identity provider. But by using Microsoft Cloud App Security, you can implement access and session controls with any supported identity provider. 
+Some of these apps might use Azure Active Directory (Azure AD) as the identity provider. Other apps might not, and might instead rely on an alternative identity provider. But by using Microsoft Cloud App Security, you can implement access and session controls with any supported identity provider.
 
 > [!NOTE]
-> If your users' apps rely on Azure AD, access and session controls are already fully integrated into Azure AD’s Conditional Access tool.
+> If your users' apps rely on Azure AD, access and session controls are already fully integrated into Azure AD's Conditional Access tool.
 
 ## What is Conditional App Access Control?
 
@@ -25,7 +25,7 @@ You can use Conditional App Access Control in Cloud App Security to monitor and 
 
 You start by creating a session policy in Cloud App Security. This session policy enables you to control user sessions. In effect, the user session is redirected through a reverse proxy instead of connecting directly to the targeted app. This approach means that all user access is directed through Cloud App Security, providing you with the controls discussed earlier.
 
-When you protect a session with a proxy, all the app’s URLs and cookies are modified with a Cloud App Security suffix. For example, if the app URL is **app.contoso.com**, the modified URL is **app.Contoso.com.mcas.ms**.
+When you protect a session with a proxy, all the app's URLs and cookies are modified with a Cloud App Security suffix. For example, if the app URL is **app.contoso.com**, the modified URL is **app.Contoso.com.mcas.ms**.
 
 > [!TIP]
 > Using this method avoids you having to install anything on a device in order to redirect app access through the proxy.

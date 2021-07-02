@@ -1,13 +1,13 @@
-In order to gain the benefits of Cloud App Security, your organization must obtain a license for its use. There are several licensing plans available to suit different organizational needs. 
+In order to gain the benefits of Cloud App Security, your organization must obtain a license for its use. There are several licensing plans available to suit different organizational needs.
 
 > [!IMPORTANT]
-> Licensing plans are subject to change. 
+> Licensing plans are subject to change.
 
 ## Overview
 
-Cloud App Security is a user-based subscription, which means for each user, you require a license. There is a monthly charged attached to each licensed user. 
+Cloud App Security is a user-based subscription, which means for each user, you require a license. There is a monthly charged attached to each licensed user.
 
-You can choose to license Cloud App Security as a standalone product, or you can license it as part of a licensing plans, which include other products. 
+You can choose to license Cloud App Security as a standalone product, or you can license it as part of a licensing plans, which include other products.
 
 ### Common licensing options
 
@@ -27,12 +27,12 @@ The following table describes the most common licensing options.
 Alternatively, you can opt to use the following licensing plans:
 
 - Office 365 E5. Includes only Office 365 Cloud App Security (a subset of Microsoft Cloud App Security). The subset includes Discovery and Risk assessment capabilities, and all other Microsoft Cloud App Security functionality, but is limited to the use of Office 365 (no third-party app support).
-- Azure AD Premium P1 or P2. Includes the Microsoft Cloud App Security Discovery and Risk Assessment capabilities only. 
+- Azure AD Premium P1 or P2. Includes the Microsoft Cloud App Security Discovery and Risk Assessment capabilities only.
 
 > [!IMPORTANT]
 > Doesn't include the reverse proxy/session control aspects of Conditional Access.
 
-### US government licensing 
+### US government licensing
 
 Microsoft provides three US Government licensing plans. These are described in the following table.
 
