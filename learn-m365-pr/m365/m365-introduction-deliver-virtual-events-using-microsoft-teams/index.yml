@@ -4,10 +4,10 @@ metadata:
   moduleType: standard
   title: Introduction to delivering virtual events using Microsoft Teams and Microsoft 365
   description: | 
-    Explore the features of Microsoft Teams and Microsoft 365 that support producing accessible and inclusive virtual events. This module is a great start for anyone involved with 
-    producing or attending virtual events. <img src="https://review.docs.microsoft.com/en-us/learn/m365/m365-introduction-delivering-virtual-events-using-microsoft-teams-microsoft-365/media/all-rolls.png"/> or
-    :::image type="content" source="media/all-rolls.png" alt-text="Icons depicting all the different roles in virtual events. Organizer, Producer, Presenter, Moderator, and Attendee." border="false":::
-  ms.date: 05/19/2021
+    Explore the features of Microsoft Teams and Microsoft 365 that support producing accessible and inclusive virtual events. <br><br>This module is a great start for anyone involved with organizing, 
+    producing, presenting in, moderating, or attending virtual events. 
+        :::image type="content" source="../media/all-rolls.png" alt-text="Icons depicting all the different roles in virtual events. Organizer, Producer, Presenter, Moderator, and Attendee." border="false":::
+  ms.date: 06/30/2021
   author: lizap
   ms.author: elizapo
   ms.topic: interactive-tutorial # do we need ms.topic?
@@ -16,7 +16,7 @@ title: Introduction to delivering virtual events using Microsoft Teams and Micro
 summary:  | 
     Explore the features of Microsoft Teams and Microsoft 365 that support producing accessible and inclusive virtual events. 
     
-    This module is a great start for anyone involved with producing or attending virtual events.
+    <br><br>This module is a great start for anyone involved with organizing, producing, presenting in, moderating, or attending virtual events.
 
 
     :::image type="content" source="media/all-roles.png" alt-text="Icons depicting all the different roles in virtual events. Organizer, Producer, Presenter, Moderator, and Attendee." border="false":::
@@ -25,7 +25,7 @@ abstract: | # user input: learning objectives (https://review.docs.microsoft.com
   By the end of this module, you'll be able to:
     - Describe the different virtual events supported by Microsoft 365
     - Build accessible presentations to support your virtual events
-    - Choose the most appropriate tools for your virtual events
+    - Understand the importance of the event design model
     - Explain the different platform requirements
 prerequisites: None
 iconUrl: /learn/achievements/generic-badge.svg
@@ -41,6 +41,7 @@ products:
 units:
 - learn-m365-pr.introduction-delivering-virtual-events-using-microsoft-teams-microsoft-365.introduction
 - learn-m365-pr.introduction-delivering-virtual-events-using-microsoft-teams-microsoft-365.what-virtual-events
+- learn-m365-pr.introduction-delivering-virtual-events-using-microsoft-teams-microsoft-365.event-design-model
 - learn-m365-pr.introduction-delivering-virtual-events-using-microsoft-teams-microsoft-365.make-events-accessible-inclusive
 - learn-m365-pr.introduction-delivering-virtual-events-using-microsoft-teams-microsoft-365.what-platforms-support-attendees
 - learn-m365-pr.introduction-delivering-virtual-events-using-microsoft-teams-microsoft-365.knowledge-check
