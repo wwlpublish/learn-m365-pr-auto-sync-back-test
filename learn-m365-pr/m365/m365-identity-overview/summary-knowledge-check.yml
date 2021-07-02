@@ -26,7 +26,7 @@ quiz:
       
     - content: "Which of the following describes Azure Active Directory?"
       choices:
-      - content: "Microsoft’s evolution of identity and access management for the cloud"
+      - content: "Microsoft’s cloud-based evolution of identity and access management."
         isCorrect: true
         explanation: "Correct! Azure AD provides organizations with Identity as a Service, and helps employees sign in and access resources within external and internal sources."
       - content: "Controls and helps secure email, documents, and sensitive data inside and outside your company walls"
