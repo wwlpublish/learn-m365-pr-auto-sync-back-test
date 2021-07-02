@@ -12,4 +12,4 @@ The easiest way to make sure your attendees and event team members have the righ
 
 ## Licensing
 
-Teams is available with several different licenses, from the free version to the Teams Exploratory license. However, specific Microsoft 365 or Office 365 licenses are required to get the full features and support for live events. Check which license you need at [Admin quick start - Meetings and live events in Microsoft Teams](microsoftteams/quick-start-meetings-live-events)
+Teams is available with several different licenses, from the free version to the Teams Exploratory license. However, specific Microsoft 365 or Office 365 licenses are required to get the full features and support for live events. Check which license you need at [Admin quick start - Meetings and live events in Microsoft Teams](/microsoftteams/quick-start-meetings-live-events#get-licenses-for-meetings-and-live-events)
