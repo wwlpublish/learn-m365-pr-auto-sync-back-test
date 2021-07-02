@@ -4,41 +4,81 @@ Some of the key responsibilities assigned to the Microsoft 365 Modern Desktop Ad
 
 :::row:::
   :::column:::
-    <p><b>Administrator responsibilities</b></p>
+    
+
+**Modern Desktop Administrator responsibilities**
+
+
   :::column-end:::
   :::column:::
-    <p><b>Description</b></p>
-  :::column-end:::
-:::row-end:::
-:::row:::
-  :::column:::
-    <p>Planning and deployment of devices</p>
-  :::column-end:::
-  :::column:::
-    <p>The Modern Desktop Administrator is responsible for Azure Active Directory Connect and Device enrollment, which covers devices such as Apple and Android mobile devices. The Modern Desktop Administrator is responsible for creating the terms and conditions policies and configuring device restrictions</p>
-  :::column-end:::
-:::row-end:::
-:::row:::
-  :::column:::
-    <p>Device compliance</p>
-  :::column-end:::
-  :::column:::
-    <p>The Modern Desktop Administrator is responsible for monitoring and configuring compliance policies. These include secure password length, application restrictions, device health, and encryption.</p>
+    
+
+**Description**
+
+
   :::column-end:::
 :::row-end:::
 :::row:::
   :::column:::
-    <p>Monitoring services</p>
+    
+
+Planning and deployment of devices
+
+
   :::column-end:::
   :::column:::
-    <p>The Modern Desktop Administrator is responsible for reviewing logs and analytics tools to keep devices within compliance.</p>
+    
+
+The Modern Desktop Administrator is responsible for Azure Active Directory Connect and Device enrollment, which covers devices such as Apple and Android mobile devices. The Modern Desktop Administrator is responsible for creating the terms and conditions policies and configuring device restrictions.
+
+
   :::column-end:::
 :::row-end:::
 :::row:::
   :::column:::
-    <p>Update management</p>
+    
+
+Device compliance
+
+
   :::column-end:::
   :::column:::
-    <p>The Modern Desktop Administrator is responsible for testing and deploying updates to all managed devices, including Windows 10, Tablets, Android, and Apple. The Modern Desktop Administrator is also responsible for backups and restoration of all listed devices.</p>
+    
+
+The Modern Desktop Administrator is responsible for monitoring and configuring compliance policies. These include secure password length, application restrictions, device health, and encryption.
+
+
+  :::column-end:::
+:::row-end:::
+:::row:::
+  :::column:::
+    
+
+Monitoring services
+
+
+  :::column-end:::
+  :::column:::
+    
+
+The Modern Desktop Administrator is responsible for reviewing logs and analytics tools to keep devices within compliance.
+
+
+  :::column-end:::
+:::row-end:::
+:::row:::
+  :::column:::
+    
+
+Update management
+
+
+  :::column-end:::
+  :::column:::
+    
+
+The Modern Desktop Administrator is responsible for testing and deploying updates to all managed devices, including Windows 10, Tablets, Android, and Apple. The Modern Desktop Administrator is also responsible for backups and restoration of all listed devices.
+
+
   :::column-end:::
 :::row-end:::

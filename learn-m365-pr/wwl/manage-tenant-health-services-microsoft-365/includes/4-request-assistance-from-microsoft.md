@@ -6,26 +6,70 @@ Technical support for Microsoft 365 subscriptions aids with basic installation, 
 
 :::row:::
   :::column:::
-    <p><b>Support Category </b></p>
+    
+
+**Support Category** 
+
+
   :::column-end:::
   :::column:::
-    <p><b>Examples </b></p>
+    
+
+**Examples** 
+
+
   :::column-end:::
 :::row-end:::
 :::row:::
   :::column:::
-    <p>Installation and setup</p>
+    
+
+Installation and setup
+
+
   :::column-end:::
   :::column:::
-    Exchange Online:  Microsoft 365 mailbox migration  Recipient configuration (mailbox permissions, configuring mail forwarding, configuring shared mailbox)  Autodiscover configuration  SharePoint Online:  Permissions and user groups  Configuration of external users  Skype for Business Online:  Installation and creating contacts  Microsoft 365 Apps for enterprise: Installation and setup assistance
+    
+
+ -  Exchange Online:
+    
+     -  Microsoft 365 mailbox migration
+     -  Recipient configuration (mailbox permissions, configuring mail forwarding, configuring shared mailbox)
+     -  Autodiscover configuration
+ -  SharePoint Online:
+    
+     -  Permissions and user groups
+     -  Configuration of external users
+ -  Skype for Business Online:
+    
+     -  Installation and creating contacts
+ -  Microsoft 365 Apps for enterprise: Installation and setup assistance
+
+
   :::column-end:::
 :::row-end:::
 :::row:::
   :::column:::
-    <p>Configuration</p>
+    
+
+Configuration
+
+
   :::column-end:::
   :::column:::
-    Service configuration failure issues  Provisioning issues  Domain setup and redelegation  Service configuration issues  Single sign-on (SSO)  Active Directory synchronization<br>
+    
+
+ -  Service configuration failure issues
+    
+     -  Provisioning issues
+     -  Domain setup and redelegation
+ -  Service configuration issues
+    
+     -  Single sign-on (SSO)
+     -  Active Directory synchronization
+        
+
+
   :::column-end:::
 :::row-end:::
 
@@ -34,46 +78,101 @@ Microsoft assigns a severity level to a case when it’s opened, based on an ass
 
 :::row:::
   :::column:::
-    <p><b>Severity Level </b></p>
+    
+
+**Severity Level** 
+
+
   :::column-end:::
   :::column:::
-    <p><b>Operations and Support Description </b></p>
+    
+
+**Operations and Support Description** 
+
+
   :::column-end:::
   :::column:::
-    <p><b>Examples </b></p>
-  :::column-end:::
-:::row-end:::
-:::row:::
-  :::column:::
-    <p>Sev A (Critical)</p>
-  :::column-end:::
-  :::column:::
-    <p>One or more services aren’t accessible or are unusable. Production, operations, or deployment deadlines are severely affected, or there will be a severe impact on production or profitability. Multiple users or services are affected.<br></p>
-  :::column-end:::
-  :::column:::
-    Widespread problems sending or receiving mail.  SharePoint site down.  All users can’t send instant messages, join or schedule Skype for Business Meetings, or make Skype for Business calls.
-  :::column-end:::
-:::row-end:::
-:::row:::
-  :::column:::
-    <p>Sev B (High)</p>
-  :::column-end:::
-  :::column:::
-    <p>The service is usable but in an impaired fashion. The situation has moderate business impact and can be dealt with during business hours. A single user, customer, or service is partially affected.<br></p>
-  :::column-end:::
-  :::column:::
-    The Send button in Outlook is garbled.  Setting is impossible from the EAC (Exchange Admin Center), but it's possible in PowerShell.
+    
+
+**Examples** 
+
+
   :::column-end:::
 :::row-end:::
 :::row:::
   :::column:::
-    <p>Sev C (Non-critical)</p>
+    
+
+Sev A (Critical)
+
+
   :::column-end:::
   :::column:::
-    <p>The situation has minimal business impact. The issue is important but doesn't have a significant current service or productivity impact for the customer. A single user is experiencing partial disruption, but an acceptable workaround exists.<br></p>
+    
+
+One or more services aren’t accessible or are unusable. Production, operations, or deployment deadlines are severely affected, or there will be a severe impact on production or profitability. Multiple users or services are affected.
+
+
+
   :::column-end:::
   :::column:::
-    How to set user passwords that never expire.  User can’t delete contact information in Exchange Online.
+    
+
+ -  Widespread problems sending or receiving mail.
+ -  SharePoint site down.
+ -  All users can’t send instant messages, join or schedule Skype for Business Meetings, or make Skype for Business calls.
+
+
+  :::column-end:::
+:::row-end:::
+:::row:::
+  :::column:::
+    
+
+Sev B (High)
+
+
+  :::column-end:::
+  :::column:::
+    
+
+The service is usable but in an impaired fashion. The situation has moderate business impact and can be dealt with during business hours. A single user, customer, or service is partially affected.
+
+
+
+  :::column-end:::
+  :::column:::
+    
+
+ -  The Send button in Outlook is garbled.
+ -  Setting is impossible from the EAC (Exchange Admin Center), but it's possible in PowerShell.
+
+
+  :::column-end:::
+:::row-end:::
+:::row:::
+  :::column:::
+    
+
+Sev C (Non-critical)
+
+
+  :::column-end:::
+  :::column:::
+    
+
+The situation has minimal business impact. The issue is important but doesn't have a significant current service or productivity impact for the customer. A single user is experiencing partial disruption, but an acceptable workaround exists.
+
+
+
+  :::column-end:::
+  :::column:::
+    
+
+ -  How to set user passwords that never expire.
+ -  User can’t delete contact information in Exchange Online.
+
+
   :::column-end:::
 :::row-end:::
 
@@ -86,25 +185,25 @@ With Microsoft 365 Enterprise and Microsoft 365 Business plans, you can choose s
 
 The administrator is:
 
- *  responsible for service administration and account maintenance.
- *  the primary contact that sets up and supports each service user.
- *  authorized to submit service requests to Microsoft.
+ -  responsible for service administration and account maintenance.
+ -  the primary contact that sets up and supports each service user.
+ -  authorized to submit service requests to Microsoft.
 
 The administrator’s role is to:
 
- *  provide user account setup and configuration to allow users access to the services.
- *  address client connectivity, client software, and mobility installation issues.
- *  address service availability issues within the customer’s organizational span of control.
- *  use Microsoft’s self-service support resources to resolve support issues.
+ -  provide user account setup and configuration to allow users access to the services.
+ -  address client connectivity, client software, and mobility installation issues.
+ -  address service availability issues within the customer’s organizational span of control.
+ -  use Microsoft’s self-service support resources to resolve support issues.
 
 Microsoft support’s role is to:
 
- *  troubleshoot and provide technical guidance for customer issues and escalations.
- *  gather and validate information related to specific service requests.
- *  provide issue coordination and resolution management.
- *  maintain communication with the administrators to help ensure that issues are addressed on an ongoing basis.
- *  aid with licensing, invoicing, and subscription inquiries, and purchasing and trial inquiries.
- *  continually gather customer feedback on how to improve the service through surveys.
+ -  troubleshoot and provide technical guidance for customer issues and escalations.
+ -  gather and validate information related to specific service requests.
+ -  provide issue coordination and resolution management.
+ -  maintain communication with the administrators to help ensure that issues are addressed on an ongoing basis.
+ -  aid with licensing, invoicing, and subscription inquiries, and purchasing and trial inquiries.
+ -  continually gather customer feedback on how to improve the service through surveys.
 
 To Submit a Service Request:
 

@@ -22,14 +22,14 @@ While Microsoft distributes certified connectors, it's not responsible for their
 To use a non-certified custom connector, the connector must be included in the Customer Connectors folder, and the data extension security settings must be modified from the default setting to enable their use.
 
 
-**Additional reading.** For more information on certified data connectors, see [Power BI data sources](https://docs.microsoft.com/power-bi/power-bi-data-sources?azure-portal=true). For more information on data connectors, see [Connector Extensibility in Power BI](https://docs.microsoft.com/power-bi/desktop-connector-extensibility?azure-portal=true).
+**Additional reading.** For more information on certified data connectors, see [Power BI data sources](/power-bi/power-bi-data-sources). For more information on data connectors, see [Connector Extensibility in Power BI](/power-bi/desktop-connector-extensibility).
 
 ### Types of data connections
 
 Power BI Desktop supports three methods for connecting to data: Import, DirectQuery, and Live connection. Not all data sources support all three methods.
 
  *  **Import.** With this method, the selected tables and columns from the data source are imported into Power BI Desktop. As a user creates or interacts with a visualization, Power BI Desktop uses the imported data. To see underlying data changes since the initial import, the user must refresh the data by reimporting the full dataset.
- *  **DirectQuery.** No data is imported or copied into Power BI Desktop when using DirectQuery. Instead, as the user creates or interacts with a visualization, Power BI Desktop queries the underlying data source. As a result, the data being viewed is always current. For more information, see [About using DirectQuery in Power BI](https://docs.microsoft.com/power-bi/desktop-directquery-about?azure-portal=true).
+ *  **DirectQuery.** No data is imported or copied into Power BI Desktop when using DirectQuery. Instead, as the user creates or interacts with a visualization, Power BI Desktop queries the underlying data source. As a result, the data being viewed is always current. For more information, see [About using DirectQuery in Power BI](/power-bi/desktop-directquery-about).
  *  **Live connection.** A live connection can be used in the following scenarios:
     
      *  A user connects to a dataset that's been shared/published to the Power BI service to create new reports in separate .pbix files (Power BI desktop files). In other words, a report that's already published to the Power BI Service serves as the data source for creating a new report in Power BI desktop.
@@ -37,7 +37,7 @@ Power BI Desktop supports three methods for connecting to data: Import, DirectQu
 
 Many factors should be considered when determining the type of connection for a given data source. These factors include security requirements, performance, data limits, and data model sizes. It's important to remember that not all data sources support all connection modes.
 
-**Additional reading.** For more information, see [Power BI data sources](https://docs.microsoft.com/power-bi/power-bi-data-sources?azure-portal=true).
+**Additional reading.** For more information, see [Power BI data sources](/power-bi/power-bi-data-sources).
 
 ### On-premises gateways
 
@@ -55,7 +55,7 @@ Some important points to consider when using an on-premises data gateway with Po
      *  **Hardware requirements.** With direct query, a query is sent each time any user opens the report or looks at data. It's important to ensure the computer has robust and capable hardware components to address the number of users that may access data concurrently. More CPU cores result in better throughput for a DirectQuery connection. Similarly, scheduled refreshes associated with import data sources may benefit from more available RAM, number of users, the refresh cycle, and how and where data transformations occur.
  *  **Location.** The location of the gateway installation can have significant impact on the performance of queries. It's recommended that the gateway, the data source locations, and the Power BI tenant be located as close as possible to each other to minimize network latency.
 
-**Additional reading.** For more information, see [Guidance for deploying a data gateway for Power BI](https://docs.microsoft.com/power-bi/service-gateway-deployment-guidance?azure-portal=true), and [Use personal gateways in Power BI](https://docs.microsoft.com/power-bi/service-gateway-personal-mode?azure-portal=true).
+**Additional reading.** For more information, see [Guidance for deploying a data gateway for Power BI](/power-bi/service-gateway-deployment-guidance), and [Use personal gateways in Power BI](/power-bi/service-gateway-personal-mode).
 
 ### Data source authentication
 
@@ -70,9 +70,9 @@ Single sign-on (for DirectQuery sources) works differently. When the SSO option 
 
 On-premises data gateways can support SSO by using DirectQuery to connect to on-premises data sources. There's no shared data caching across different users when SSO is configured.
 
-**Additional reading.** For more information including a list of data sources supported in SSO for connections through DirectQuery, see [Single sign-on (SSO) for DirectQuery sources](https://docs.microsoft.com/power-bi/power-bi-data-sources?azure-portal=true).
+**Additional reading.** For more information including a list of data sources supported in SSO for connections through DirectQuery, see [Single sign-on (SSO) for DirectQuery sources](/power-bi/power-bi-data-sources).
 
-For more information on SSO support by data gateways, see [Overview of single sign-on (SSO) for gateway in Power BI](https://docs.microsoft.com/power-bi/service-gateway-sso-overview?azure-portal=true).
+For more information on SSO support by data gateways, see [Overview of single sign-on (SSO) for gateway in Power BI](/power-bi/service-gateway-sso-overview).
 
 ## Knowledge check
 

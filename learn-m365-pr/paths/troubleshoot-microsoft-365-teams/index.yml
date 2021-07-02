@@ -1,14 +1,14 @@
 ### YamlMime:LearningPath
 uid: learn.wwl.troubleshoot-microsoft-365-teams
 metadata:
-  title: Troubleshoot Microsoft 365 Teams
-  description: Troubleshoot Microsoft 365 Teams
-  ms.date: 06/30/2021
+  title: Troubleshoot Microsoft Teams
+  description: Troubleshoot Microsoft Teams
+  ms.date: 07/01/2021
   author: wwlpublish
   ms.author: cyncarey
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-title: Troubleshoot Microsoft 365 Teams
+title: Troubleshoot Microsoft Teams
 prerequisites: |
   - Experience configuring and administering Microsoft Teams
   - Experience using Windows PowerShell
