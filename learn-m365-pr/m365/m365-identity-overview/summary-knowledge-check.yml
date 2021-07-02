@@ -34,7 +34,7 @@ quiz:
         explanation: "Incorrect. This describes Azure Information Protection. Azure AD is Microsoft’s cloud-based identity and access management service."
       - content: "Safeguards access to data and applications by requiring a second form of authentication and a range of easy to use authentication methods."
         isCorrect: false
-        explanation: "Incorrect. This describes multi-factor authentication. Azure AD is Microsoft’s cloud-based identity and access management service."
+        explanation: "Incorrect. This describes multifactor authentication. Azure AD is Microsoft’s cloud-based identity and access management service."
     
     - content: "Which of the following is a reason that the network perimeter is no longer enough?"
       choices:
