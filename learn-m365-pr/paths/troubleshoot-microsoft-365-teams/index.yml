@@ -3,7 +3,7 @@ uid: learn.wwl.troubleshoot-microsoft-365-teams
 metadata:
   title: Troubleshoot Microsoft Teams
   description: Troubleshoot Microsoft Teams
-  ms.date: 07/01/2021
+  ms.date: 07/02/2021
   author: wwlpublish
   ms.author: cyncarey
   ms.topic: interactive-tutorial
@@ -14,7 +14,7 @@ prerequisites: |
   - Experience using Windows PowerShell
   - Working experience with performance tuning and service monitoring
 summary: |
-  Learn how to troubleshooting Microsoft Teams including voice issues, live events, messaging, and explore how to configure and troubleshoot client and services issues.
+  Learn how to troubleshoot Microsoft Teams, including voice issues, live events, and messaging. Explore how to configure and troubleshoot client and services issues.
 iconUrl: /learn/achievements/generic-trophy.svg
 levels:
 - advanced
