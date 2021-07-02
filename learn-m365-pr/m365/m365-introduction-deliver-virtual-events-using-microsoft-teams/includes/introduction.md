@@ -1,5 +1,7 @@
 Microsoft Teams and Microsoft 365 enable you to run engaging and accessible virtual events. Whether you are a seasoned producer or new to creating virtual events this module will walk you through the best practices for using Microsoft 365 technology to deliver compelling events.
 
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWFTIB]
+
 In this training we'll use the following example: You've been asked to be part of the event team planning your organization's annual event. This year the event's changing from an in-person offsite summit to a virtual event that everyone can attend. You know that you'll be hosting a range of virtual meetings, breakout sessions, and keynote speeches.
 
 You want to explore the tools you'll need to produce a live, accessible, and engaging event.
