@@ -22,4 +22,4 @@ The user can continue to add visuals to the dashboard. Or, the user can pin an e
 
 These basic steps enable a user to create a dashboard, which the user can then share.
 
-**Additional reading.** For more information, see [Creating a Power BI Dashboard from a report](https://docs.microsoft.com/power-bi/service-dashboard-create?azure-portal=true).
+**Additional reading.** For more information, see [Creating a Power BI Dashboard from a report](/power-bi/service-dashboard-create).

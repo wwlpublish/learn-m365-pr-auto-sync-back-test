@@ -6,11 +6,11 @@ Other online services have their own permission models. For example, Exchange On
 
 This training will examine several of the key administrator roles that are available in the Microsoft 365 Azure RBAC model, including:
 
- *  Exchange Administrator
- *  SharePoint Administrator
- *  Modern Desktop Administrator
- *  Security and Compliance Administrator
- *  Teams Administrator
+ -  Exchange Administrator
+ -  SharePoint Administrator
+ -  Modern Desktop Administrator
+ -  Security and Compliance Administrator
+ -  Teams Administrator
 
 A Microsoft 365 Enterprise Administrator typically assigns these roles to users who are responsible for specific Microsoft 365 product areas.
 

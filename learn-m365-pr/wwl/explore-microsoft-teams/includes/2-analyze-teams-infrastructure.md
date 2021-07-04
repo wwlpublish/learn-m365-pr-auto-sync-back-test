@@ -28,14 +28,14 @@ Microsoft Teams enables individual teams to self-organize and collaborate across
  *  **Channels.** A channel is a dedicated section within a team to keep conversations organized by specific topics, projects, or disciplines. Files that you share in a channel (on the Files tab) are stored in SharePoint.
     
      *  Channels are places where conversations happen and where the work actually gets done. Channels can be open to all team members or, if you need a more select audience, they can be private. Standard channels are for conversations that everyone in a team can participate in. Private channels limit communication to a subset of people in a team.
-     *  Channels are most valuable when extended with apps that include tabs, connectors, and bots that increase their value to the members of the team. To learn more, see [Apps, bots, &amp; connectors in Teams](https://docs.microsoft.com/microsoftteams/deploy-apps-microsoft-teams-landing-page?azure-portal=true).
+     *  Channels are most valuable when extended with apps that include tabs, connectors, and bots that increase their value to the members of the team. To learn more, see [Apps, bots, &amp; connectors in Teams](/microsoftteams/deploy-apps-microsoft-teams-landing-page).
 
 **Additional reading.** For more information on Teams, see the following articles:
 
 
  *  To learn about standard guidelines, news, and trends directly from the team behind Microsoft Teams, see the [Microsoft Teams’ blog](https://aka.ms/teamsblog?azure-portal=true).
  *  For more information on Microsoft's vision for Intelligent Communications, see [A new vision for intelligent communications in Office 365](https://aka.ms/IntelComm?azure-portal=true).
- *  For more information on collaborating within Microsoft Teams, see [How SharePoint Online and OneDrive for Business interact with Teams](https://docs.microsoft.com/microsoftteams/sharepoint-onedrive-interact?azure-portal=true).
+ *  For more information on collaborating within Microsoft Teams, see [How SharePoint Online and OneDrive for Business interact with Teams](/microsoftteams/sharepoint-onedrive-interact).
 
 ## Knowledge check
 

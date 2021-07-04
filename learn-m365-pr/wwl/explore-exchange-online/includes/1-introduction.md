@@ -18,3 +18,4 @@ After completing this module, you'll be able to:
  *  Select the right mail migration strategy for your organization.
  *  Determine when you want to change the DNS MX record for a domain in a Microsoft 365 migration to point to Exchange Online.
  *  Describe the different ways to migrate mailboxes to Microsoft 365 in a hybrid Exchange environment.
+ 

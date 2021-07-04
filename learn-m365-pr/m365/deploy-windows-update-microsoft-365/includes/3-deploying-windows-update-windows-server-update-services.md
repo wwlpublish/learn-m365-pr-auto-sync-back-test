@@ -9,4 +9,3 @@ You can use computer groups to target a subset of devices that have specific qua
 ## Using WSUS console to populate deployment rings
 
 Adding computers to computer groups in the WSUS Administration Console is simple, but it could take much longer than managing membership through Group Policy, especially if you have many computers to add. Adding computers to computer groups in the WSUS Administration Console is called *server-side targeting*.
-

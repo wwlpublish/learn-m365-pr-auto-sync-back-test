@@ -16,61 +16,58 @@ The Public Switched Telephone Network (PSTN) is used for landline telephone syst
 
 To better understand how Microsoft 365's Phone System works together with a company's PSTN connection, imagine you’re buying a mobile phone. The phone has nice features (such as buttons and apps), but to make calls you’ll need a call plan with a phone provider, who gives you an actual phone number and provides connectivity to the PSTN.
 
-Microsoft 365's Phone System is the equivalent of the mobile phone. In other words, it provides functionality such as voicemail, but it doesn't give you a phone number or let you place or receive phone calls to or from the PSTN. For connecting Phone System to the PSTN—the equivalent of a contract with a phone provider—Microsoft offers Microsoft Teams Calling Plans. Teams Calling Plans is an add-in to the Phone System feature in Microsoft 365. With Teams Calling Plans, Microsoft provides each user a phone number that can be used to place and receive calls.
+Microsoft 365's Phone System is the equivalent of the mobile phone. In other words, it provides functionality such as voicemail, but it doesn't give you a phone number or let you place or receive phone calls to or from the PSTN. For connecting Phone System to the PSTN—the equivalent of a contract with a phone provider—Microsoft offers Calling Plans. Calling Plans is an add-in to the Phone System feature in Microsoft 365. With Calling Plans, Microsoft provides each user a phone number that can be used to place and receive calls.
 
-Teams Calling Plans is currently the only way to connect Microsoft 365 Phone System to the PSTN. In the future, you can connect any existing telephone environment that you have on-premises to Teams.
+Calling Plans are currently the only way to connect Microsoft 365 Phone System to the PSTN. In the future, you can connect any existing telephone environment that you have on-premises to Teams.
 
 ### Service availability and user locations
 
-Phone System is available where Microsoft 365 is available (for the complete list of countries and regions, see [International availability](https://products.office.com/business/international-availability?azure-portal=true)). The availability of the Teams Calling Plans service is a little more restricted. The commercial availability of Phone System and Teams Calling Plans depends on two factors:
+Phone System is available where Microsoft 365 is available (for the complete list of countries and regions, see [International availability](https://products.office.com/business/international-availability?azure-portal=true)). The availability of the Calling Plans service is a little more restricted. The commercial availability of Phone System and Calling Plans depends on two factors:
 
  *  Where your organization is based.
  *  In which country or region your organization has a commercial relationship with Microsoft and its partners.
 
-Teams Calling plans can be assigned and used only for users located in countries and regions where calling plans are available. Teams Calling Plans can only be purchased if your billing address is located in a country or region where Audio Conferencing can be purchased.
+Calling Plans can be assigned and used only for users located in countries and regions where calling plans are available. Calling Plans can only be purchased if your billing address is located in a country or region where Audio Conferencing can be purchased.
 
 #### **Example 1**
 
-Contoso's billing address is in Austria. The company wants to use Phone System with Teams Calling Plans for their users in Germany. Although Teams Calling Plans is available in Germany, they aren’t available in Austria. However, Audio Conferencing can be purchased in Austria, so Contoso can buy the required licenses for their users in Germany.
-
->[!NOTE]
-> This is an example and does not indicate whether Teams Calling Plans is available in these regions. If you have questions about availability, go to [Country and region availability for Audio Conferencing and Calling Plans](https://docs.microsoft.com/SkypeForBusiness/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans?azure-portal=true).
+Contoso's billing address is in Austria. The company wants to use Phone System with Calling Plans for their users in Germany. Although the Calling Plans are available in Germany, they aren’t available in Austria. However, Audio Conferencing can be purchased in Austria, so Contoso can buy the required licenses for their users in Germany.
 
 #### **Example 2**
 
-Fabrikam, Inc. is a company based out of Hong Kong SAR, with some users in the United States. Their billing address is in Hong Kong SAR. Although Microsoft can provide a phone number for Audio Conferencing in Hong Kong SAR, Audio Conferencing isn’t available for purchase in that region. Unfortunately, this situation means that Fabrikam can't acquire Teams Calling Plans for their US-based users.
+Fabrikam, Inc. is a company based out of Hong Kong SAR, with some users in the United States. Their billing address is in Hong Kong SAR. Although Microsoft can provide a phone number for Audio Conferencing in Hong Kong SAR, Audio Conferencing isn’t available for purchase in that region. Unfortunately, this situation means that Fabrikam can't acquire Calling Plans for their US-based users.
 
-**Action**: Review [Country and region availability for Audio Conferencing and Calling Plans](https://docs.microsoft.com/SkypeForBusiness/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans?azure-portal=true) for the following information:
+**Action**: Review [Country and region availability for Audio Conferencing and Calling Plans](/SkypeForBusiness/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans) for the following information:
 
- *  For the country or region where your billing address is located, check whether Audio Conferencing is available for purchase. You can buy Teams Calling Plans if Audio Conferencing is available for purchase.
- *  For every country or region where you want users to use Teams Calling Plans, select **Is Phone System available for purchase?** to learn whether Teams Calling Plans is available for that region.
+ *  For the country or region where your billing address is located, check whether Audio Conferencing is available for purchase. You can buy Calling Plans if Audio Conferencing is available for purchase.
+ *  For every country or region where you want users to use Calling Plans, check the “Is Phone System available for purchase?” option to learn whether Calling Plans are available in that country or region.
 
 ### Phone System licensing
 
 A Phone System license is available as part of Office 365 E5 subscription plans, or as an add-on service to Office 365 E3 subscription plans.
 
-Because Teams Calling Plans is an add-in to the Phone System feature in Microsoft 365, users must be assigned a Phone System license to use Teams Calling Plans. In general, there are two types of Calling Plan add-ins:
+Because Calling Plans is an add-in to the Phone System feature in Microsoft 365, users must be assigned a Phone System license to use Calling Plans. In general, there are two types of Calling Plan add-ins:
 
  *  Domestic Calling Plan
  *  International and Domestic Calling Plan
 
 Each Calling Plan type provides an allocation for calling minutes that users can use per month, either to make domestic calls or international calls. The number of minutes varies by country or region. Once a user has exhausted their allocation of minutes, they can't make outbound calls (except for Emergency Services calling) until the next month’s billing cycle.
 
-As you might expect, a Domestic Calling Plan costs less than the International and Domestic Calling Plan. Typically, not everyone in an organization needs to make international calls. You can assign individual users to different calling plans based on the user’s business requirements. This flexibility can help you control the costs of your Phone System with Teams Calling Plans implementation.
+As you might expect, a Domestic Calling Plan costs less than the International and Domestic Calling Plan. Typically, not everyone in an organization needs to make international calls. You can assign individual users to different calling plans based on the user’s business requirements. This flexibility can help you control the costs of your Phone System with Calling Plans implementation.
 
 You can set up Communications Credits so that users can make calls even after they’ve used up their minutes. They can do so without having to wait until the next month’s billing cycle. As soon as your allocation is exhausted, you can pay based on your consumption. You can also use Communications Credits to let users who have been assigned to a Domestic Calling Plan make international calls, which are then charged by using a “pay-per-minute” model.
 
-**Action**: Review the Teams Calling Plans section in [Country and region availability for Audio Conferencing and Calling Plans](https://docs.microsoft.com/SkypeForBusiness/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans?azure-portal=true) to understand the calling minutes allocation for each Calling Plan add-in type.
+**Action**: Review the Calling Plans section in [Country and region availability for Audio Conferencing and Calling Plans](/SkypeForBusiness/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans) to understand the calling minutes allocation for each Calling Plan add-in type.
 
 **Additional reading.** For more information on phone system licensing, see:
 
- *  [What are Calling Plans in Office 365?](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/what-are-calling-plans-in-office-365?azure-portal=true)
+ *  [What are Calling Plans in Office 365?](/SkypeForBusiness/what-are-calling-plans-in-office-365/what-are-calling-plans-in-office-365)
     
- *  [What are Communications Credits?](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits?azure-portal=true)
+ *  [What are Communications Credits?](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits)
 
 ### Phone numbers and emergency locations
 
-For Phone System with Teams Calling Plans implementation, every user in your organization needs to have a unique subscriber (user) phone number. Subscriber (user) phone numbers can be obtained directly from Microsoft, or existing phone numbers can be transferred (ported) to Microsoft.
+For Phone System with Calling Plans implementation, every user in your organization needs to have a unique subscriber (user) phone number. Subscriber (user) phone numbers can be obtained directly from Microsoft, or existing phone numbers can be transferred (ported) to Microsoft.
 
 > [!NOTE]
 > The complexity of obtaining or transferring phone numbers varies greatly depending on country/region, carrier, number of circuits involved, and many other contributing factors.
@@ -81,11 +78,11 @@ To give emergency responders more exact information about the location of your u
 
 **Additional reading.** For more information on phone numbers and emergency locations, see:
 
- *  [Different kinds of phone numbers used for Calling Plans](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/different-kinds-of-phone-numbers-used-for-calling-plans?azure-portal=true).
- *  [Manage phone numbers for your organization.](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization?azure-portal=true)
- *  [Transfer phone numbers to Office 365](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/transfer-phone-numbers-to-office-365?azure-portal=true).
- *  [What are emergency locations, addresses and call routing?](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/what-are-emergency-locations-addresses-and-call-routing?azure-portal=true)
- *  [Emergency calling terms and conditions](https://docs.microsoft.com/SkypeForBusiness/legal-and-regulatory/emergency-calling-terms-and-conditions?azure-portal=true).
+ *  [Different kinds of phone numbers used for Calling Plans](/SkypeForBusiness/what-are-calling-plans-in-office-365/different-kinds-of-phone-numbers-used-for-calling-plans).
+ *  [Manage phone numbers for your organization.](/SkypeForBusiness/what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization)
+ *  [Transfer phone numbers to Office 365](/SkypeForBusiness/what-are-calling-plans-in-office-365/transfer-phone-numbers-to-office-365).
+ *  [What are emergency locations, addresses and call routing?](/SkypeForBusiness/what-are-calling-plans-in-office-365/what-are-emergency-locations-addresses-and-call-routing)
+ *  [Emergency calling terms and conditions](/SkypeForBusiness/legal-and-regulatory/emergency-calling-terms-and-conditions).
 
 ### Voicemail
 
@@ -106,11 +103,11 @@ By default, all outbound calls use the assigned phone number for the calling ide
 
 #### **Example**
 
-Contoso is using Phone System with Teams Calling Plans for their users. However, their business requirement demands that if the receptionist calls a phone number, the caller ID shouldn’t represent the phone number of the receptionist but rather the main phone number of the office.
+Contoso is using Phone System with Calling Plans for their users. However, their business requirement demands that if the receptionist calls a phone number, the caller ID shouldn’t represent the phone number of the receptionist but rather the main phone number of the office.
 
 Other calling identity options include the ability to block (anonymize) Caller ID presentation altogether, and to give users the choice of using their caller ID or calling out anonymously. Caller ID can also be blocked for incoming calls.
 
-**Additional information.** For more information, see [How can caller ID be used in your organization](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/how-can-caller-id-be-used-in-your-organization?azure-portal=true).
+**Additional information.** For more information, see [How can caller ID be used in your organization](/SkypeForBusiness/what-are-calling-plans-in-office-365/how-can-caller-id-be-used-in-your-organization).
 
 ### Optional: Dial Plans
 

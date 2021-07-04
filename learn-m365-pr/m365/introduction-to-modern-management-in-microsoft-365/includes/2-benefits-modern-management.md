@@ -9,6 +9,7 @@ Video: Modern Windows 10 Management with Enterprise Mobility + Security
 | ![Icon indicating play video](../media/video-icon.png)| Watch this video to learn why you should consider implementing a modern management approach for Windows devices in your organization:<br />[Modern Windows 10 Management with Enterprise Mobility + Security](https://www.youtube.com/watch?v=3gAtjMOJ-uw)|
 
 ## Pillars of modern management
+
 |||
 | :--- | :--- |
 | **Easy to deploy and manage**| Traditional operating system deployment (OSD) while powerful is typically complex and time consuming. There is now a simpler way to provision new Windows 10 devices. Windows Autopilot, which is deeply integrated with Azure Active Directory (Azure AD) and Intune, simplifies and personalizes out-of-the-box (OOBE) experience for users, joins the device to Azure AD, and enrolls it in Intune. Users’ email, apps, files, preferences as well organization’s security settings are also automatically applied by Intune without needing to create custom OS images.|
@@ -45,4 +46,3 @@ You can envision user and device management as falling into these two categories
 - Domain joined PCs and tablets used for traditional applications and access to important resources. These may be traditional applications and resources that require authentication or accessing highly sensitive or classified resources on-premises. With Windows 10, if you have an on-premises [Active Directory](https://technet.microsoft.com/windows-server-docs/identity/whats-new-active-directory-domain-services) domain that’s [integrated with Azure AD](https://azure.microsoft.com/documentation/articles/active-directory-azureadjoin-devices-group-policy/), when employee devices are joined, they automatically register with Azure AD.
 
 Domain-joined PCs and tablets can continue to be managed with the [System Center Configuration Manager](/sccm/core/understand/introduction) client or Group Policy.
-

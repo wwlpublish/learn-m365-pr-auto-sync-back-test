@@ -14,8 +14,6 @@ By the end of this module, you will be able to:
 - List common compliance management challenges.
 - Explain how Microsoft Compliance Manager helps you achieve compliance management goals.
 
-
 ## Prerequisites
 
 - Cloud computing concepts
-

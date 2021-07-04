@@ -1,4 +1,4 @@
-To deploy Azure Virtual Desktop, we'll start by creating a host pool, specifying our session host VMs, and creating a workspace. This process creates a desktop application group. We'll then assign that application group to a user and verify they can see the virtual desktop in their workspace. 
+To deploy Azure Virtual Desktop, we'll start by creating a host pool, specifying our session host VMs, and creating a workspace. This process creates a desktop application group. We'll then assign that application group to a user and verify they can see the virtual desktop in their workspace.
 
 The following steps provide some initial values for you to use to test out Azure Virtual Desktop. Review the available options to plan and customize your deployment to match your organization's needs.
 
@@ -18,7 +18,6 @@ To complete the exercise, you'll need the Azure credentials for:
 
    :::image type="content" source="../media/3-create-host-pool.png" alt-text="Screenshot of the Azure Virtual Desktop create host pool basic tab.":::
 
-
    |Field  |Value  |
    |---------|---------|
    |Subscription     |  Subscription where you want Azure Virtual Desktop to run       |
@@ -36,7 +35,6 @@ To complete the exercise, you'll need the Azure credentials for:
 1. Use the information in the following table to fill out the virtual machine tab.
 
    :::image type="content" source="../media/3-create-host-pool-vm.png" alt-text="Screenshot of the Azure Virtual Desktop create host pool virtual machine tab.":::
-
 
     Field  |Value |
    |---------|---------|
@@ -79,15 +77,12 @@ Assign the desktop application group to a non-administrative user account that's
 1. Select **Application groups**.
 1. Select the desktop application group.
 1. Select **Access control (IAM)** > **Add** > **Add role assignment**.
-1. For **Role**, select **Desktop Virtualization User**. 
+1. For **Role**, select **Desktop Virtualization User**.
 1. For **Select**, enter the name of a non-administrative user account that's in Active Directory.
 1. Select **Save**.
-
 
 ## Verify access to desktop
 
 1. Go to the [Azure Virtual Desktop web client](https://rdweb.wvd.microsoft.com/arm/webclient/index.html).
 1. Sign in by using the user credentials for the user you assigned to the desktop application group.
-1. You should see a virtual desktop. 
-
-
+1. You should see a virtual desktop.

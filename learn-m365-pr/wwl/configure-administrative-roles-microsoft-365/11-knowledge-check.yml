@@ -4,7 +4,7 @@ title: Knowledge check
 metadata:
   title: Knowledge check
   description: "Knowledge check"
-  ms.date: 04/19/2021
+  ms.date: 07/01/2021
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -20,18 +20,18 @@ quiz:
     choices:
     - content: "Exchange Administrator"
       isCorrect: false
-      explanation: "That's incorrect. This is not the person who typically assigns roles to users who are responsible for specific Microsoft 365 product areas. Try again."
+      explanation: "That's incorrect. This person doesn't typically assign roles to users who are responsible for specific Microsoft 365 product areas. Try again."
     - content: "Microsoft 365 Enterprise Administrator"
       isCorrect: true
       explanation: "That's correct. A company's Microsoft 365 Enterprise Administrator typically assigns roles to users who are responsible for specific Microsoft 365 product areas."
     - content: "SharePoint Online Administrator"
       isCorrect: false
-      explanation: "That's incorrect. This is not the person who typically assigns roles to users who are responsible for specific Microsoft 365 product areas. Try again."
+      explanation: "That's incorrect. This person doesn't typically assign roles to users who are responsible for specific Microsoft 365 product areas. Try again."
   - content: "Which administrator role in Microsoft 365 is the only admin role who can assign other admin roles?"
     choices:
     - content: "Enterprise Administrator"
       isCorrect: false
-      explanation: "That's incorrect. This is a personnel position within a company, but it's not a Microsoft 365 admin role. Try again."
+      explanation: "That's incorrect. This role is a personnel position within a company, but it's not a Microsoft 365 admin role. Try again."
     - content: "User Management Administrator"
       isCorrect: false
       explanation: "That's incorrect. This role can reset passwords, monitor service health, add and delete user accounts, and manage service requests. However, it can't assign other admin roles. Try again."
