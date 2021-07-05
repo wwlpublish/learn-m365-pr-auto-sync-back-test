@@ -38,9 +38,8 @@ You can use session controls in Cloud App Security to work with any app. These a
 - A Microsoft Cloud App Security license
 - Apps that are configured for single sign-on (SSO)
 - Apps that support one of the following authentication protocols:
-
-    - SAML 2.0
-    - OpenID Connect
+  - SAML 2.0
+  - OpenID Connect
 
 ### To deploy any app
 

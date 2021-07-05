@@ -3,7 +3,6 @@
 In this module, you will:
 
 - Articulate the benefits of modern management with Microsoft 365.
-
 - Describe the modern device management options available to organizations with Microsoft 365.
 
 ## Modern management
@@ -18,9 +17,6 @@ With modern management tools, such as **Microsoft Intune** and **System Center C
 
 Windows 10 offers a range of management options, as shown in the following diagram:
 
-
 ![Diagram of modern management options](../media/windows-10-management-range-options.png)
 
-
 As indicated in the diagram, Microsoft continues to provide support for deep manageability and security through technologies like Group Policy, Active Directory, and System Center Configuration Manager. It also delivers a “mobile-first, cloud-first” approach of simplified, modern management using cloud-based device management solutions such as **Microsoft Enterprise Mobility + Security (EMS)**. Future Windows innovations, delivered through **Windows as a Service**, are complemented by cloud services like Microsoft Intune, Azure Active Directory, Azure Information Protection, and the Microsoft Store for Business.
-
