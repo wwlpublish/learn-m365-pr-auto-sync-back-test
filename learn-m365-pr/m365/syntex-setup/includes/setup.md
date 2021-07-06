@@ -80,4 +80,4 @@ To assign licenses, return to the Microsoft 365 admin center.
 
 - Click **Save changes**.
 
-You have successfully set up and activated your first SharePoint Syntex environment in the Human Resources libraries. When Contoso decides to rollout SharePoint Syntex to other departments, you'll return to your Microsoft 365 Admin Center to add more sites.
+You have successfully set up and activated your first SharePoint Syntex environment in the Human Resources libraries. When Contoso decides to rollout SharePoint Syntex to other departments, you'll return to your Microsoft 365 admin center to add more sites.
