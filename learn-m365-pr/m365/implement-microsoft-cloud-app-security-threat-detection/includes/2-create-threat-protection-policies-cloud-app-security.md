@@ -165,7 +165,7 @@ To create an OAuth app policy, use the following procedure:
 
    1.   Policy name
    2.   Policy severity (choose between **Low**, **Medium**, and **High**)
-   
+
    > [!TIP]
    > You cannot modify the severity of OAuth app anomaly detection policies.
 

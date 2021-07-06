@@ -38,7 +38,7 @@ Microsoft provides three US Government licensing plans. These are described in t
 
 | Plan                                          | Description                                                  |
 | --------------------------------------------- | ------------------------------------------------------------ |
-| Government Community Cloud (GCC)              | These licensing plans are offered in the  Azure Commercial environment and are covered by Azure Commercial’s FedRAMP  High Authorization to Operate (ATO), but may not meet other GCC compliance  attributes, such as CJIS background screening, (IRS 1075, CJIS) and access to  customer content being restricted to US government screened personnel. |
+| Government Community Cloud (GCC)              | These licensing plans are offered in the  Azure Commercial environment and are covered by Azure Commercial's FedRAMP  High Authorization to Operate (ATO), but may not meet other GCC compliance  attributes, such as CJIS background screening, (IRS 1075, CJIS) and access to  customer content being restricted to US government screened personnel. |
 | Government Community Cloud – High (GCC  High) | The Microsoft Cloud App Security offering  for GCC High is built on Microsoft Azure Government cloud and designed to  inter-operate with the Office 365 GCC High environment. |
 | Department of Defense (DoD)                   | As of July 2020, there is no availability  for Microsoft Cloud App Security in DoD environments. |
 
