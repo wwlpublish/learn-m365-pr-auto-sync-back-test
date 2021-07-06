@@ -1,11 +1,11 @@
 ### YamlMime:ModuleUnit
-uid: learn.setup-tenant-attach-using-configuration-manager.enable-device-upload
+uid: learn.set-up-tenant-attach-using-configuration-manager.enable-device-upload
 title: Enable device upload
 metadata:
   unitType: learning-content
   title: Enable device upload
   description: Enable device upload
-  ms.date: 7/1/2021
+  ms.date: 7/06/2021
   author: Erikre
   ms.author: erikre
   ms.topic: interactive-tutorial

@@ -1,11 +1,11 @@
 ### YamlMime:ModuleUnit
-uid: learn.setup-tenant-attach-using-configuration-manager.perform-device-actions
+uid: learn.set-up-tenant-attach-using-configuration-manager.perform-device-actions
 title: Perform device actions
 metadata:
   unitType: learning-content
   title: Perform device actions
   description: Perform device actions
-  ms.date: 7/1/2021
+  ms.date: 7/06/2021
   author: Erikre
   ms.author: erikre
   ms.topic: interactive-tutorial

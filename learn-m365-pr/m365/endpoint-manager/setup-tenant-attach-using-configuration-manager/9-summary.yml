@@ -1,11 +1,11 @@
 ### YamlMime:ModuleUnit
-uid: learn.setup-tenant-attach-using-configuration-manager.summary
+uid: learn.set-up-tenant-attach-using-configuration-manager.summary
 title: Summary
 metadata:
   unitType: summary
   title: Summary
   description: Summary
-  ms.date: 6/16/2021
+  ms.date: 7/06/2021
   author: Erikre
   ms.author: erikre
   ms.topic: interactive-tutorial 

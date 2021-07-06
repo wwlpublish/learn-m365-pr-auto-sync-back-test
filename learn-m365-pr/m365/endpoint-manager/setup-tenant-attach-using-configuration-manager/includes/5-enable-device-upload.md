@@ -13,7 +13,7 @@ When co-management isn't enabled, use the instructions below to enable device up
    - Make sure the option **Enable automatic client enrollment for co-management** isn't checked if you don't want to enable co-management now. If you do want to enable co-management, select the option.
    - If you enable co-management along with device upload, you'll be given additional pages in the wizard to complete. For more information, see [Enable co-management](/mem/configmgr/comanage/how-to-enable.md).
 
-   [ ![Co-management Configuration Wizard](../media/setup-tenant-attach-using-confirmation-manager-03.png) ](../media/setup-tenant-attach-using-confirmation-manager-03.png#lightbox)
+   [ ![Co-management Configuration Wizard](../media/set-up-tenant-attach-using-confirmation-manager-03.png) ](../media/set-up-tenant-attach-using-confirmation-manager-03.png#lightbox)
 
 1. Choose **Next** and then **Yes** to accept the **Create AAD Application** notification. This action provisions a service principal and creates an Azure AD application registration to facilitate the sync.
 1. On the **Configure upload** page, select the recommended device upload setting for **All my devices managed by Microsoft Endpoint Configuration Manager**. If needed, you can limit upload to a single device collection.

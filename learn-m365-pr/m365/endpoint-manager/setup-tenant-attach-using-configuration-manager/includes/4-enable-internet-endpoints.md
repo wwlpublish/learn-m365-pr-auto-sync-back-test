@@ -21,4 +21,4 @@ If your environment has proxy rules to allow only specific certificate revocatio
 - `http://ocsp.msocsp.com`
 - `http://www.microsoft.com/pkiops`
 
-The service connection point validates important internet endpoints for tenant attach. These checks help make sure that the cloud service is available. It also helps you troubleshoot issues by quickly determining if network connectivity is a problem. For more information, see [Validate internet access](/mem/configmgr/core/servers/deploy/configure/about-the-service-connection-point.md#validate-internet-access).
+The service connection point validates important internet endpoints for tenant-attach. These checks help make sure that the cloud service is available. It also helps you troubleshoot issues by quickly determining if network connectivity is a problem. For more information, see [Validate internet access](/mem/configmgr/core/servers/deploy/configure/about-the-service-connection-point.md#validate-internet-access).

@@ -1,8 +1,8 @@
-Before you enable tenant attach, you must meet a set of prerequisites and enable a set of internet endpoints.
+Before you enable tenant-attach, you must meet a set of prerequisites and enable a set of internet endpoints.
 
 ## Verify prerequisites
 
-There are four main prerequisites to enable tenant attach:
+There are four main prerequisites to enable tenant-attach:
 - Create an Microsoft Intune tenant
 - Verify your *Global Administrator* account
 - Confirm your Azure public cloud environment

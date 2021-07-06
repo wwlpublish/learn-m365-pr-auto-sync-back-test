@@ -1,11 +1,11 @@
 ### YamlMime:ModuleUnit
-uid: learn.setup-tenant-attach-using-configuration-manager.knowledge-check
+uid: learn.set-up-tenant-attach-using-configuration-manager.knowledge-check
 title: Knowledge check 
 metadata:
   unitType: knowledge_check
   title: Knowledge check
   description: Knowledge check
-  ms.date: 6/16/2021
+  ms.date: 7/06/2021
   author: Erikre
   ms.author: erikre
   ms.topic: interactive-tutorial

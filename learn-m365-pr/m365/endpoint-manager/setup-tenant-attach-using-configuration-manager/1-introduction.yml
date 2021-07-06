@@ -1,11 +1,11 @@
 ### YamlMime:ModuleUnit
-uid: learn.setup-tenant-attach-using-configuration-manager.introduction
+uid: learn.set-up-tenant-attach-using-configuration-manager.introduction
 title: Introduction
 metadata:
   unitType: introduction
   title: Introduction
-  description: Introduction to tenant attach
-  ms.date: 6/16/2021
+  description: Introduction to tenant-attach
+  ms.date: 7/06/2021
   author: Erikre
   ms.author: erikre
   ms.topic: interactive-tutorial
