@@ -31,11 +31,11 @@ Based on the verdict, the type of threat, and how your device groups are configu
 - Sending files to quarantine
 - Disabling drivers
 
-You can ensure that actions run automatically, or only when approval has been provided, depending on your team’s security needs.
+You can ensure that actions run automatically, or only when approval has been provided, depending on your team's security needs.
 
 ## What are automation levels?
 
-You want to know whether it is flexible enough to meet your team’s particular needs. For example, what if your team wants to manually approve automated actions before they’re carried out on some folders?
+You want to know whether it is flexible enough to meet your team's particular needs. For example, what if your team wants to manually approve automated actions before they're carried out on some folders?
 
 You can configure automated investigation and remediation using one of several different levels of automation. You can use automation levels to dictate whether the remediation actions in response to automated investigations should be carried out automatically, or only after approval. The levels are:
 
@@ -60,4 +60,4 @@ Semi automation comes in different types, including:
 
 ### No automated response
 
-You use this automation level to make sure that automated investigations aren’t carried out on your organization's devices. But this also means that no remediation actions are run in turn. This automation level is not recommended, so you should avoid using this level.
+You use this automation level to make sure that automated investigations aren't carried out on your organization's devices. But this also means that no remediation actions are run in turn. This automation level is not recommended, so you should avoid using this level.
