@@ -1,4 +1,4 @@
-If you want to broadcast to hundreds or thousands of attendees, you can use a Teams Live Event. You’ve got a company-wide meeting coming up that’s much larger than the meetings you’re used to. You want to make sure that you can support this event in Teams.
+If you want to broadcast to hundreds or thousands of attendees, you can use a Teams Live Event. You've got a company-wide meeting coming up that's much larger than the meetings you're used to. You want to make sure that you can support this event in Teams.
 
 ## What are Live Events in Teams?
 
