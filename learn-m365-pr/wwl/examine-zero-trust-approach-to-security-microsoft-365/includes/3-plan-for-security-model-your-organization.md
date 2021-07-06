@@ -10,23 +10,22 @@ A successful Zero Trust strategy requires flexible access to applications, syste
 4.  **Increase your awareness**. Use auditing and logging of security-related events and related alerts to help detect patterns that may indicate internal attacks or attempted or successful external penetration of your network.
 5.  **Enable user self-help**. Reduce friction by enabling your users to stay productive, even as you remain vigilant.
 
-**Additional reading.** For more information, see [Five steps to securing your identity infrastructure](https://docs.microsoft.com/azure/security/fundamentals/steps-secure-identity?azure-portal=true).
-
+**Additional reading.** For more information, see [Five steps to securing your identity infrastructure](/azure/security/fundamentals/steps-secure-identity).<br>
 
 ### Move from a model of implicit trust to one of explicit verification
 
 To implement a Zero Trust model—and assuming that all users, applications, and machines are on the internet—you must move from a model of implicit trust to one of explicit verification, where:
 
- *  Rather than assuming you have a user that's in a high assurance session (for example, MFA) because of the network, the claim must be verified explicitly.
- *  Instead of assuming the user has a valid machine because of the network, the device must be verified explicitly.
- *  Instead of allowing access to file shares because the user's on the network, data must be explicitly classified and encrypted.
+ -  Rather than assuming you have a user that's in a high assurance session (for example, MFA) because of the network, the claim must be verified explicitly.
+ -  Instead of assuming the user has a valid machine because of the network, the device must be verified explicitly.
+ -  Instead of allowing access to file shares because the user's on the network, data must be explicitly classified and encrypted.
 
 To determine the overall risk of each session, a robust Zero Trust strategy must consider the full context of the session, which includes:
 
- *  The identity of the user.
- *  The state of the user's device.
- *  The apps being used.
- *  The sensitivity of the data the user is trying to access.
+ -  The identity of the user.
+ -  The state of the user's device.
+ -  The apps being used.
+ -  The sensitivity of the data the user is trying to access.
 
 A Zero Trust model then applies holistic policies that define when to allow, block, or restrict access. These policies control access by requiring extra authentication challenges such as MFA, limiting functionality such as downloads, or applying compliance controls such as terms of use. This way, a hacker trying to gain access using stolen credentials on an unknown device will be blocked, as will a verified user running a healthy device trying to access data they don't have permission to see. This strategy not only protects against external threats, but it also helps create guardrails so well-meaning employees can use organizational resources responsibly.
 
