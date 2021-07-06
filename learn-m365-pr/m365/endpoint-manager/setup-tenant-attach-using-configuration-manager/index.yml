@@ -31,14 +31,14 @@ products:
 - m365
 - mem
 units:
-- learn.set-up-tenant-attach-using-configuration-manager.introduction
-- learn.set-up-tenant-attach-using-configuration-manager.understand-tenant-attach
-- learn.set-up-tenant-attach-using-configuration-manager.confirm-tenant-attach-prerequisites
-- learn.set-up-tenant-attach-using-configuration-manager.enable-internet-endpoints
-- learn.set-up-tenant-attach-using-configuration-manager.enable-device-upload
-- learn.set-up-tenant-attach-using-configuration-manager.perform-device-actions
-- learn.set-up-tenant-attach-using-configuration-manager.display-the-connector-status
-- learn.set-up-tenant-attach-using-configuration-manager.knowledge-check
-- learn.set-up-tenant-attach-using-configuration-manager.summary
+- learn.setup-tenant-attach-using-configuration-manager.introduction
+- learn.setup-tenant-attach-using-configuration-manager.understand-tenant-attach
+- learn.setup-tenant-attach-using-configuration-manager.confirm-tenant-attach-prerequisites
+- learn.setup-tenant-attach-using-configuration-manager.enable-internet-endpoints
+- learn.setup-tenant-attach-using-configuration-manager.enable-device-upload
+- learn.setup-tenant-attach-using-configuration-manager.perform-device-actions
+- learn.setup-tenant-attach-using-configuration-manager.display-the-connector-status
+- learn.setup-tenant-attach-using-configuration-manager.knowledge-check
+- learn.setup-tenant-attach-using-configuration-manager.summary
 badge:
   uid: learn.setup-tenant-attach-using-configuration-manager.badge
