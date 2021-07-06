@@ -79,3 +79,9 @@ To assign licenses, return to the Microsoft 365 admin center.
 Click **Save changes**.
 
 You have successfully set up and activated your first SharePoint Syntex environment in the Human Resources libraries. To add more sites, return to your M365 Admin Center.
+
+## FIND WHERE THIS SHOULD GO
+
+If you have more than one Power Platform environment configured, you can pick which one you want to use for form processing. _This option does not appear if you have a single environment configured._
+
+![A screenshot of the Power Platform environment window showing the options that exist if more than one Power Platform environment exists.](../media/powerplatform.png)

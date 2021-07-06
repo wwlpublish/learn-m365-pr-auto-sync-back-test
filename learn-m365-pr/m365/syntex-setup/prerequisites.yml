@@ -1,8 +1,8 @@
 ### YamlMime:ModuleUnit
 uid: learn-m365.syntex-setup.prepare-system
-title: Prepare your system against SharePoint Syntex prerequisites
+title: SharePoint Syntex prerequisites
 metadata:
-  title: Prepare your system against SharePoint Syntex prerequisites
+  title: SharePoint Syntex prerequisites
   description:  Set up SharePoint Syntex for your organization's specific document understanding solution needs and requirements.
   ms.date: 07/06/2021
   author: beccarobins
@@ -12,4 +12,4 @@ metadata:
  
 durationInMinutes: 3
 content: |
-  [!include[](includes/prepare-system.md)]
+  [!include[](includes/prerequisites.md)]
