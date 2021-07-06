@@ -1,4 +1,4 @@
-To use Azure Migrate, you’ll need an Azure subscription. There are a number of promotional offers available to get started at little to no cost.
+To use Azure Migrate, you’ll need an Azure subscription. There are many promotional offers available to get started at little to no cost.
 
 Once in your Azure tenant, make sure that you’ve set the right permissions so that your virtual machine logs can be sent to Azure. Then replicate virtual machines into Azure storage, create and access virtual networks, create virtual machines prior to test, and perform production migration.
 
