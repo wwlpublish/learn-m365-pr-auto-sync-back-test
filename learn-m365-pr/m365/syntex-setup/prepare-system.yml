@@ -3,13 +3,13 @@ uid: learn-m365.syntex-setup.prepare-system
 title: Prepare your system against SharePoint Syntex prerequisites
 metadata:
   title: Prepare your system against SharePoint Syntex prerequisites
-  description:  Set up SharePoint Syntex for your specific organization’s document understanding solution needs and requirements.
+  description:  Set up SharePoint Syntex for your organization's specific document understanding solution needs and requirements.
   ms.date: 07/06/2021
   author: beccarobins
   ms.author: beccarobins
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
  
-durationInMinutes: 1
+durationInMinutes: 3
 content: |
   [!include[](includes/prepare-system.md)]

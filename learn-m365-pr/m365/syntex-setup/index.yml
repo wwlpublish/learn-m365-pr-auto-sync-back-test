@@ -2,20 +2,20 @@
 uid: learn-m365.syntex-setup
 metadata:
   title: Set up SharePoint Syntex
-  description: Set up SharePoint Syntex for your specific organization’s document understanding solution needs and requirements. 
+  description: Set up SharePoint Syntex for your organization's specific document understanding solution needs and requirements.
   ms.date: 07/06/2021
   author: beccarobins
   ms.author: beccarobins
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Set up SharePoint Syntex
-summary: Set up SharePoint Syntex for your specific organization’s document understanding solution needs and requirements. 
+summary: Set up SharePoint Syntex for your organization's specific document understanding solution needs and requirements.
 abstract: |
  After completing this module, you will be able to: 
- - Check the prerequisites for setting up and using SharePoint Syntex
- - Understand licensing, AI Builder credits, and requirements for SharePoint Syntex 
- - Contribute to activating SharePoint Syntex document understanding 
- - Offer input on enabling SharePoint Syntex form processing 
+ - Check the prerequisites for setting up and using SharePoint Syntex.
+ - Understand licensing, AI Builder credits, and requirements for SharePoint Syntex.
+ - Contribute to activating SharePoint Syntex document understanding.
+ - Offer input on enabling SharePoint Syntex form processing.
 prerequisites: | 
    - Basic understanding of SharePoint Syntex 
    - SharePoint administrative access
