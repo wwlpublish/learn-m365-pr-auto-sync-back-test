@@ -1,8 +1,8 @@
-Before you enable tenant-attach, you must meet a set of prerequisites and enable a set of internet endpoints.
+Before you enable tenant attach, you must meet a set of prerequisites and enable a set of internet endpoints.
 
 ## Verify prerequisites
 
-There are four main prerequisites to enable tenant-attach:
+There are four main prerequisites to enable tenant attach:
 - Create an Microsoft Intune tenant
 - Verify your *Global Administrator* account
 - Confirm your Azure public cloud environment
@@ -17,7 +17,7 @@ If you don't already have Intune set up, see [Try Microsoft Intune for free](/me
 
 ### Verify your global administrator account
 
-Your tenant account must set as a *Global Administrator* to apply tenant-attach. The *Global Administrator* is the person who signed up for the tenant. The *Global Administrator* has the permissions to do the following:
+Your tenant account must set as a *Global Administrator* to apply tenant attach. The *Global Administrator* is the person who signed up for the tenant. The *Global Administrator* has the permissions to do the following:
 - Manage access to all administrative features for the tenant, as well as the related services that use Azure Active Directory.
 - Assign administrator roles to others.
 - Reset the password for any user and all other administrators.
@@ -30,7 +30,7 @@ For more information about roles, see [Azure AD roles](/azure/role-based-access-
 
 ### Confirm your Azure public cloud environment
 
-If you set up your Azure tenant in a specific Azure cloud environment, such as the Azure China Cloud or an Azure US Government Cloud, you are using a non-public cloud. To set up tenant-attach, you must be using a standard Azure public cloud environment. If you set up Microsoft Intune following a standard process, such as following the free trial (mentioned above), you are using the Azure public cloud.
+If you set up your Azure tenant in a specific Azure cloud environment, such as the Azure China Cloud or an Azure US Government Cloud, you are using a non-public cloud. To set up tenant attach, you must be using a standard Azure public cloud environment. If you set up Microsoft Intune following a standard process, such as following the free trial (mentioned above), you are using the Azure public cloud.
 
 > [!NOTE]
 > The **Upload to Microsoft Endpoint Manager admin center** option, which will be described later in this module, is disabled for Microsoft Azure China 21Vianet (Azure China Cloud) and Azure US Government Cloud.

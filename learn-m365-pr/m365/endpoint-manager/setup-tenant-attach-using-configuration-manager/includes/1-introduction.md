@@ -2,14 +2,14 @@ Managing your organization's resources can be complex. However, Microsoft Endpoi
 
 Suppose that you're the administrator or business decision maker of a company with several thousand employees. You need to keep your corporate data safe by protecting data, apps, and devices that your employees use, as well as keep your employees productive and maximize the return on your endpoint management investment. You and your company have determined that you need to manage both on-premises endpoints, as well as cloud-based endpoints. Microsoft Endpoint Manager provides this capability by using cloud attach.
 
-In this module, you'll step through the process of setting up cloud attach (tenant-attach and co-management). Also, this module provides the details you need to know to understand what's involved when implementing cloud attach. When you're complete, you'll have a better understanding of cloud attach, tenant-attach, and co-management. All of these steps will prepare you to add and manage devices and apps, whether these endpoints are on-premises, or cloud-based.
+In this module, you'll step through the process of setting up cloud attach (tenant attach and co-management). Also, this module provides the details you need to know to understand what's involved when implementing cloud attach. When you're complete, you'll have a better understanding of cloud attach, tenant attach, and co-management. All of these steps will prepare you to add and manage devices and apps, whether these endpoints are on-premises, or cloud-based.
 
 ## Learning objectives
 
 In this module, you will:
 
-- Understand tenant-attach
-- Confirm tenant-attach prerequisites
+- Understand tenant attach
+- Confirm tenant attach prerequisites
 - Enable internet endpoints
 - Enable device upload
 - Perform device actions
