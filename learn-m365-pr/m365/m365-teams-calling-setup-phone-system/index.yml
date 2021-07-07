@@ -1,0 +1,35 @@
+### YamlMime:Module
+uid: learn-m365-pr.m365-teams-calling-setup-phone-system-for-teams
+metadata:
+  title: Set up Phone System for Microsoft Teams
+  description: You'll learn about how you can set up Phone System with Microsoft Teams for your organization, and configure what are the key Phone System capabilities that will enable you to get the best out of Phone System. 
+  ms.date: 05/12/2021
+  ms.author: v-iakens
+  author: beccarobins
+  ms.topic: interactive-tutorial
+  ms.prod: learning-teams
+title: Set up Phone System for Microsoft Teams
+summary: You'll learn about how you can set up Phone System with Microsoft Teams for your organization, and configure what are the key Phone System capabilities that will enable you to get the best out of Phone System. 
+abstract: |
+  By the end of this module, you should be able to:
+  - Understand the 10-step set up process for Phone System.
+  - Set up key Phone System capabilities.
+  - Set up emergency calling.
+prerequisites: None
+iconUrl: /learn/achievements/set-up-phone-system-for-microsoft-teams.svg
+levels: 
+- advanced
+roles: 
+- administrator
+products: 
+- office-teams
+- m365
+units:
+- learn-m365-pr.m365-teams-calling-setup-phone-system-for-teams.introduction
+- learn-m365-pr.m365-teams-calling-setup-phone-system-for-teams.process-setup-phone-system
+- learn-m365-pr.m365-teams-calling-setup-phone-system-for-teams.setup-capabilities
+- learn-m365-pr.m365-teams-calling-setup-phone-system-for-teams.setup-emergency-calling
+- learn-m365-pr.m365-teams-calling-setup-phone-system-for-teams.knowledge-check
+- learn-m365-pr.m365-teams-calling-setup-phone-system-for-teams.summary
+badge:
+  uid: learn-m365-pr.m365-teams-calling-setup-phone-system-for-teams.badge

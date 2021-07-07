@@ -2,15 +2,15 @@ Woodgrove has missed out on taking advantage of new capabilities in the past, an
 
 ## Inputs
 
-You’ll need to look at what new features and improvements are available, and assess your current situation to understand what you might need to do to modernize your environment. 
+You’ll need to look at what new features and improvements are available, and assess your current situation to understand what you might need to do to modernize your environment.
 
 ### Investigate new features and improvements
 
 Make sure to take advantage of resources that will help you monitor for improvements that are available for all of your tooling and components across your environment.
 
-- **Review IT Pro features of Windows 10** – The "[what’s new in Windows 10](https://docs.microsoft.com/windows/whats-new/)" page lists improvements for IT pros. Reviewing these capabilities against your current environment can help to determine what features to communicate to remote workers, and what IT Professionals should use to support them.  
+- **Review IT Pro features of Windows 10** – The "[what’s new in Windows 10](/windows/whats-new/)" page lists improvements for IT pros. Reviewing these capabilities against your current environment can help to determine what features to communicate to remote workers, and what IT Professionals should use to support them.  
 - **Join the Windows 10 TechCommunity** – Learn about technical best practices, the latest news, and trends related to Windows 10 at [TechCommunity](https://techcommunity.microsoft.com/t5/windows-10/ct-p/Windows10).
-- **Configuration Manager** -  You can keep up to date by tracking all the new changes in each incremental [new version](https://docs.microsoft.com/mem/configmgr/core/plan-design/changes/whats-new-incremental-versions).
+- **Configuration Manager** -  You can keep up to date by tracking all the new changes in each incremental [new version](/mem/configmgr/core/plan-design/changes/whats-new-incremental-versions).
 
 The information you’ve collected from testing and tracking new features and capabilities will help you figure out how Woodgrove can modernize its environment.
 

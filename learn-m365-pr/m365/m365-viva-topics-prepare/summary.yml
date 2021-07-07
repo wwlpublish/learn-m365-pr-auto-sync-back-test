@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365-pr.viva-topics-prepare.summary
+metadata:
+  title: Summary
+  description: Review what you learned in this module.
+  ms.date: 05/26/2021
+  author: lizap
+  ms.author: elizapo
+  ms.topic: interactive-tutorial
+  ms.prod: learning-teams
+title: Summary
+durationInMinutes: 1
+content: |
+  [!include[](includes/summary.md)]

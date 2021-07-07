@@ -1,19 +1,16 @@
->[!IMPORTANT]
->Threat protection product names in Microsoft are changing. [Read more about this and other updates](https://www.microsoft.com/security/blog/?p=91813). We'll be updating names in products and in the Learn content in the near future.
-
 [ ![Integration architecture](../media/integration-architecture.png) ](../media/integration-architecture-magnify.png#lightbox)
 
-The Azure ATP cloud service runs on Azure infrastructure and is currently deployed in the US, Europe, and Asia. Azure ATP cloud service is connected to Microsoft's intelligent security graph. This enables Azure ATP to integrate with Microsoft Cloud App Security, as part of a Microsoft Threat Protection monitoring strategy.
+The Microsoft Defender for Identity cloud service runs on Azure infrastructure and is currently deployed in the US, Europe, and Asia. Microsoft Defender for Identity cloud service is connected to Microsoft's intelligent security graph. This enables Microsoft Defender for Identity to integrate with Microsoft Cloud App Security, as part of a Microsoft 365 Defender monitoring strategy.
 
-Once integrated into Microsoft Cloud App Security, you'll be able to see on-premises activities for all the users in your organization. You will also get advanced insights on your users that combine alerts and suspicious activities across your cloud and on-premises environments. Additionally, policies from Azure ATP will appear on the Cloud App Security policies page. The following screenshot shows Azure ATP reporting within Cloud App Security.
+Once integrated into Microsoft Cloud App Security, you'll be able to see on-premises activities for all the users in your organization. You will also get advanced insights on your users that combine alerts and suspicious activities across your cloud and on-premises environments. Additionally, policies from Microsoft Defender for Identity will appear on the Cloud App Security policies page. The following screenshot shows Microsoft Defender for Identity reporting within Cloud App Security.
 
-[ ![Azure ATP reporting within Microsoft Cloud App Security](../media/azure-reporting-cloud-app-security.png) ](../media/azure-reporting-cloud-app-security-magnify.png#lightbox)
+[ ![Microsoft Defender for Identity reporting within Microsoft Cloud App Security](../media/azure-reporting-cloud-app-security.png) ](../media/azure-reporting-cloud-app-security-magnify.png#lightbox)
 
 >
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4CVTT]
 
-Azure Advanced Threat Protection also enables you to integrate Azure ATP with Microsoft Defender ATP, for an even more complete threat protection solution. While Azure ATP monitors the traffic on your domain controllers, Microsoft Defender ATP monitors your endpoints, together providing a single interface from which you can protect your environment.
-Once Microsoft Defender ATP and Azure Advanced Threat Protection are integrated, you can click on an endpoint to view Azure ATP alerts in the Microsoft Defender ATP portal.
+Microsoft Defender for Identity also enables you to integrate Microsoft Defender for Identity with Microsoft Defender for Endpoint, for an even more complete threat protection solution. While Microsoft Defender for Identity monitors the traffic on your domain controllers, Microsoft Defender for Endpoint monitors your endpoints, together providing a single interface from which you can protect your environment.
+Once Microsoft Defender for Endpoint and Microsoft Defender for Identity are integrated, you can click on an endpoint to view Microsoft Defender for Identity alerts in the Microsoft Defender for Endpoint portal.
 
 [ ![Windows Defender Security Center](../media/windows-defender-security-center.png) ](../media/windows-defender-security-center-magnify.png#lightbox)
 

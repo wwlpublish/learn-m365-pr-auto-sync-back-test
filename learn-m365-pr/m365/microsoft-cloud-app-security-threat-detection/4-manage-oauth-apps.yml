@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.mcas-threat-detection.4-manage-oauth-apps
+metadata:
+  title: Discover and manage OAuth applications
+  description: Learn how to discover and manage OAuth applications
+  ms.date: 05/14/2021
+  author: geoffallix
+  ms.author: beccarobins
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Discover and manage OAuth applications
+durationInMinutes: 7
+content: |
+  [!include[](includes/4-manage-oauth-apps.md)]

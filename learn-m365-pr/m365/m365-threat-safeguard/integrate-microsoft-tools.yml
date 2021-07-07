@@ -3,12 +3,12 @@ uid: learn-m365.m365-threat-safeguard.integrate-microsoft-tools
 title: Integrate with other Microsoft tools
 metadata:
   title: Integrate with other Microsoft tools
-  description: Learn about the Azure Advanced Threat Protection component of Microsoft Threat Protection. 
+  description: Learn about the Microsoft Defender for Identity component of Microsoft 365 Defender. 
   ms.date: 06/24/2020
   author: AlexandraHrt
   ms.author: elizapo
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-durationInMinutes: 10
+durationInMinutes: 5
 content: |
   [!include[](includes/integrate-microsoft-tools.md)]

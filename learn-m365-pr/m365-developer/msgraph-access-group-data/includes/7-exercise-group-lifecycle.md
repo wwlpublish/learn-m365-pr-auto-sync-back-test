@@ -1,3 +1,5 @@
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4Oycq]
+
 In this exercise, you'll modify the existing Azure AD application registration using the Azure Active Directory admin center, a .NET Core console application, and use Microsoft Graph to manage the lifecycle of Office 365 groups. You'll also learn how to provision a Microsoft Teams team from an existing Office 365 group.
 
 > [!IMPORTANT]
@@ -52,7 +54,7 @@ Select **Azure Active Directory** in the left-hand navigation. Locate the Azure 
 
 Select **API Permissions** in the left-hand navigation panel.
 
-![Screenshot of the API Permissions navigation item](../media/azure-ad-portal-permissions-07-01.png)
+![Screenshot of the API Permissions navigation item](../media/07-azure-ad-portal-permissions-01.png)
 
 Select the **Add a permission** button.
 
@@ -68,6 +70,12 @@ In the **Configured Permissions** panel, select the button **Grant admin consent
 
 ### Update console app to create an Office 365 group
 
+Add the following `using` statement to the top of the **Program.cs** file with the other `using` statements:
+
+```csharp
+using System.Threading.Tasks;
+```
+
 To create a new Office 365 group, you need to submit the new group details to the `/groups` endpoint using an HTTP POST request. To do this, add the following method to the existing **Program.cs** file:
 
 ```csharp
@@ -75,13 +83,7 @@ private static async Task<Microsoft.Graph.Group> CreateGroupAsync(GraphServiceCl
 }
 ```
 
-Add the following `using` statement to the top of the **Program.cs** file with the other `using` statements:
-
-```csharp
-using System.Threading.Tasks;
-```
-
-When creating a new group, the developer can specify the owners and members of the group using the `AdditionalData` property on the group object. First, locate the IDs of a few users you want to assign as owners and members to the group. To do this, within the Azure AD admin center, select **Manage > Users**. Select a desired user from the list and copy their **Object ID** property:
+When creating a new group, the developer can specify the owners and members of the group using the `AdditionalData` property on the group object. First, locate the IDs of a few users you want to assign as owners and members to the group. To do this, within the Azure AD admin center, select **Manage > Users**. Select a wanted user from the list and copy their **Object ID** property:
 
 ![Screenshot of a user's properties in the Azure AD admin center](../media/azure-ad-portal-users-01.png)
 
@@ -152,17 +154,17 @@ Within a browser, navigate to https://www.outlook.com and sign-in with the same 
 
 In the primary navigation, select **Groups > Manage Groups**.
 
-![Screenshot of Outlook.com's navigation](../media/app-run-07-01.png)
+![Screenshot of Outlook.com's navigation](../media/07-app-run-01.png)
 
 On the next screen, select **Directory > All Groups** and locate the group you created. It may take a minute or two to appear while Office 365 provisions all the resources for the group.
 
 After selecting the group, select the **Members** pivot to see a list of all users that have been added to the group. You should see both the owner(s) and member(s) you specified when creating the group:
 
-![Screenshot of the group details in Outlook.com](../media/app-run-07-02.png)
+![Screenshot of the group details in Outlook.com](../media/07-app-run-02.png)
 
 ## Create a Microsoft Teams team from an Office 365 group
 
-In this section, you will create a Microsoft Teams team from the Office 365 group you created in the previous section.
+In this section, you'll create a Microsoft Teams team from the Office 365 group you created in the previous section.
 
 First, to avoid any issues with duplicate groups, locate the following lines and comment them out in the `Main` method. This will keep the console app from creating another group:
 
@@ -235,11 +237,11 @@ Within a browser, navigate to https://teams.microsoft.com and sign-in with the s
 
 In the left-hand navigation, select **Teams**. You should see the team displayed in the list of **Your teams** as shown in the following screenshot. If it doesn't appear, wait a minute and refresh the page.
 
-![Screenshot of Microsoft Teams](../media/app-run-07-03.png)
+![Screenshot of Microsoft Teams](../media/07-app-run-03.png)
 
 ## Delete an Office 365 group
 
-In this section, you will delete the Office 365 group you created in a previous section.
+In this section, you'll delete the Office 365 group you created in a previous section.
 
 First, to avoid any issues with the previous sections, locate the following lines and comment them out in the `Main` method. This will keep the console app from creating another Microsoft Teams team:
 
@@ -279,7 +281,7 @@ After entering the username and password of a user, the console app will display
 
 Confirm this by repeating the process from a previous section to find the group within Outlook.com. When looking at a list of groups, you'll notice the group is no longer present:
 
-![Screenshot of Outlook.com](../media/app-run-07-04.png)
+![Screenshot of Outlook.com](../media/07-app-run-04.png)
 
 ## Summary
 

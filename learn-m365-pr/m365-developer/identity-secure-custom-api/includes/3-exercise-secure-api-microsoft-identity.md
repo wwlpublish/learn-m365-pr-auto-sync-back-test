@@ -21,7 +21,7 @@ On the **Register an application** page, set the values as follows:
 
 Select **Register** to create the application.
 
-On the **Product Catalog API** page, copy the values **Application (client) ID** and **Directory (tenant) ID**; you'll need these values later in this exercise.
+On the **Product Catalog API** page, copy the values **Application (client) ID** and **Directory (tenant) ID**; you'll need the value of the tenant ID later in this exercise and you'll need the value of the client ID in all of the exercises in this module.
 
 ![Screenshot of the application ID of the new app registration](../media/03-azure-ad-portal-new-app-details.png)
 
@@ -60,6 +60,9 @@ The API can require administrative consent for specific scopes as well. Create a
 
 ## Create a .NET Core web API application
 
+> [!NOTE]
+> The instructions below assume you are using .NET 5. They were last tested using v5.0.202 of the .NET 5 SDK.
+
 A web API application is typically a dynamic web application that is called by client applications, returning information as JSON. This example will use an Azure AD application to authenticate calls made to the application using a token provided in the Authentication header of the Http request.
 
 Open your command prompt, navigate to a directory where you want to save your work.
@@ -74,7 +77,7 @@ After creating the application, run the following commands to ensure your new pr
 
 ```console
 cd ProductCatalogWeb
-dotnet add package Microsoft.Identity.Web --version 0.3.1-preview
+dotnet add package Microsoft.Identity.Web
 ```
 
 Open the scaffolded project folder, which is named **ProductCatalog** in **Visual Studio Code**. When a dialog box asks if you want to add required assets to the project, select **Yes**.
@@ -116,35 +119,7 @@ Set the `AzureAd.ClientId` property to the **Application (client) ID** you copie
 
 ### Request Authentication & Bearer Token validation
 
-The scaffolded project uses code from the Microsoft.AspNetCore.Authentication library to authenticate requests using the HTTP request's Authorization header. In the **Startup.cs** file, the `ConfigureServices()` method has the following statement that adds the middleware to do this:
-
-```csharp
-services.AddAuthentication(AzureADDefaults.BearerAuthenticationScheme)
-        .AddAzureADBearer(options => Configuration.Bind("AzureAd", options));
-```
-
-You will remove this code and instead use code from the Microsoft.Identity.Web library to add the middleware to authenticate requests. 
-
-First, add the following statement to the top of the **Startup.cs** file:
-
-```csharp
-using Microsoft.Identity.Web;
-```
-
-Next, locate the following two lines of code in the `ConfigureServices()` method:
-
-```csharp
-services.AddAuthentication(AzureADDefaults.BearerAuthenticationScheme)
-        .AddAzureADBearer(options => Configuration.Bind("AzureAd", options));
-```
-
-Replace them with the following code:
-
-```csharp
-services.AddMicrosoftIdentityWebApiAuthentication(Configuration);
-```
-
-While the provided middleware will validate the token, authorizing a request for a specific controller action is the responsibility of the developer. In this exercise, the presence of scopes in the token is used to authorize the action. If the scope is present, the action is allowed. Validating scopes will be done in the action methods of the controllers that will be added later in this exercise.
+While the scaffolded middleware will validate the token, authorizing a request for a specific controller action is the responsibility of the developer. In this exercise, the presence of scopes in the token is used to authorize the action. If the scope is present, the action is allowed. Validating scopes will be done in the action methods of the controllers that will be added later in this exercise.
 
 ### Data models and sample data
 
@@ -224,16 +199,10 @@ namespace ProductCatalog
 }
 ```
 
-The sample data will be stored as a singleton in the dependency injection container built into ASP.NET Core. Open the **Startup.cs** file in the root folder of the project. The contents of the `ConfigureServices()` method should match the following code:
+The sample data will be stored as a singleton in the dependency injection container built into ASP.NET Core. Open the **Startup.cs** file in the root folder of the project. Add the following line at the bottom of the `ConfigureServices()` method:
 
 ```csharp
-public void ConfigureServices(IServiceCollection services)
-{
-    services.AddMicrosoftIdentityWebApiAuthentication(Configuration);
-    services.AddControllers();
-
-    services.AddSingleton(SampleData.Initialize());
-}
+services.AddSingleton(SampleData.Initialize());
 ```
 
 ### Web API Controllers

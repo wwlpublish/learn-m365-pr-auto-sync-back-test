@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365-pr.m365-teams-calling-overview.understand-calling-plans
+title: Understand calling plans for Phone System
+metadata:
+  title: Understand Microsoft Teams Calling Plans for Phone System
+  description: Learn about Microsoft Teams Calling Plans for Phone System.
+  ms.date: 04/02/2020
+  author: iankensey
+  ms.author: v-iakens
+  ms.topic: interactive-tutorial
+  ms.prod: learning-teams
+durationInMinutes: 2
+content: |
+  [!include[](includes/understand-calling-plans.md)]

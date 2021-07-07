@@ -1,7 +1,4 @@
->[!IMPORTANT]
->Threat protection product names in Microsoft are changing. [Read more about this and other updates](https://www.microsoft.com/security/blog/?p=91813). We'll be updating names in products and in the Learn content in the near future.
-
-Reporting in Microsoft 365 security center is split up into four categories:
+Reporting in the Microsoft 365 Defender portal is split up into four categories:
 
 - **Identities** – user accounts and credentials
 - **Data** – email and document contents
@@ -26,7 +23,7 @@ The **Data** category helps track user activity that could lead to unauthorized 
 ![Data reports](../media/data.png)
 
 The **Device** category ensures devices are secure, up-to-date, and that you can spot potential threats. You can see:
-- Microsoft Defender Advanced Threat Protection (ATP) alerts, which may require an immediate response
+- Microsoft Defender for Endpoint alerts, which may require an immediate response
 - Intune enrolled device data such as: device compliance, devices with active malware, and types of malware on devices
 - Attack Surface Reduction rules, which help prevent actions that are used by exploit-seeking malware
 

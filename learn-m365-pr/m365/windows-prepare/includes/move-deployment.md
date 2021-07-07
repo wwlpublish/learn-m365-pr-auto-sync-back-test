@@ -1,5 +1,5 @@
 
-Your manager wants to know how the team can determine whether the environment as a whole is ready to progress to the next phase of deployment. As the process manager, you decide that you want to determine this in the most straightforward way possible. 
+Your manager wants to know how the team can determine whether the environment as a whole is ready to progress to the next phase of deployment. As the process manager, you decide that you want to determine this in the most straightforward way possible.
 
 ## Determine overall readiness
 

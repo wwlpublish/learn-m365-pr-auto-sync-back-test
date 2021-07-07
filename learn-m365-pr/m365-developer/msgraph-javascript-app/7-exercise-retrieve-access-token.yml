@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.msgraph-javascript-app.7-exercise-retrieve-access-token
+metadata:
+  title: Exercise - Retrieve an access token by using MSAL
+  description: Walk through the steps to use MSAL to retrieve an access token.
+  ms.date: 03/16/2021
+  author: rabwill
+  ms.author: rwilliams
+  ms.topic: interactive-tutorial
+  ms.prod: learning-graph
+title: Exercise - Retrieve an access token by using MSAL
+durationInMinutes: 10
+content: |
+  [!include[](includes/7-exercise-retrieve-access-token.md)]

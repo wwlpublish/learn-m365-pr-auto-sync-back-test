@@ -55,4 +55,4 @@ If the results meet your pilot goals, proceed with the next phase of your rollou
 
 When you're done with a link, use the **Back** arrow in your browser to come back to this page.
 
-- [Conduct a user pilot](https://docs.microsoft.com/MicrosoftTeams/pilot-essentials)
+- [Conduct a user pilot](/MicrosoftTeams/pilot-essentials)

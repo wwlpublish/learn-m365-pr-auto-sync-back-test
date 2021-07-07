@@ -1,0 +1,37 @@
+### YamlMime:Module
+uid: learn-m365-pr.teams-calling-plan-teams-calling-solution
+metadata:
+  title: Plan your teams calling solution
+  description: This module will introduce you to the decisions you need to make when deploying Phone System for Microsoft Teams. You will learn about how you can plan Phone System with Microsoft Teams for your organization, and configure what are the key Phone System capabilities that will enable you to get the best out of Phone System. 
+  ms.date: 02/12/2021
+  author: iankensey
+  ms.author: v-iakens
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Plan your teams calling solution
+summary: This module will introduce you to the decisions you need to make when deploying Phone System for Microsoft Teams. You will learn about how you can plan Phone System with Microsoft Teams for your organization, and configure what are the key Phone System capabilities that will enable you to get the best out of Phone System.
+abstract: |
+  Upon completion of this module, you`ll be able to:
+  - Gain and understanding how to plan for a basic phone system.
+  - Gain and understanding how to plan for additional Teams calling options.
+  - Review the planning process from a fictional Contoso case study.
+prerequisites: |
+ - An understanding of Microsoft Teams Client
+ - An understanding of Microsoft Teams Phone
+ - An awareness of Microsoft Direct Routing
+iconUrl: /learn/achievements/plan-your-teams-calling-solution.svg
+levels: 
+- advanced
+roles: 
+- administrator
+products: 
+- m365
+- office-teams
+units:
+- learn-m365-pr.teams-calling-plan-teams-calling-solution.introduction
+- learn-m365-pr.teams-calling-plan-teams-calling-solution.phone-system-deployment-decisions
+- learn-m365-pr.teams-calling-plan-teams-calling-solution.contoso-case-study
+- learn-m365-pr.teams-calling-plan-teams-calling-solution.knowledge-check
+- learn-m365-pr.teams-calling-plan-teams-calling-solution.summary
+badge:
+  uid: learn-m365-pr.teams-calling-plan-teams-calling-solution.badge

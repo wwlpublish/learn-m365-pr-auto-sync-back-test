@@ -1,0 +1,29 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.manage-tenant-health-services-microsoft-365.request-assistance-from-microsoft
+title: Request assistance from Microsoft
+metadata:
+  title: Request assistance from Microsoft
+  description: "Request assistance from Microsoft"
+  ms.date: 07/01/2021
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+durationInMinutes: 7
+content: |
+  [!include[](includes/4-request-assistance-from-microsoft.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "As the Microsoft 365 Enterprise Administrator for Lucerne Publishing, Inc., you've run into an issue that your IT team can't fix. You want to submit a service request to Microsoft seeking its assistance. What is your responsibility as Lucerne's Enterprise Administrator when submitting a service request?"
+    choices:
+    - content: "Address client connectivity, client software, and mobility installation issues"
+      isCorrect: true
+      explanation: "That's correct. This item is part of the Enterprise Admin's responsibilities when submitting a service request."
+    - content: "Troubleshoot and provide technical guidance for customer issues and escalations"
+      isCorrect: false
+      explanation: "That's incorrect. This item isn't part of the Enterprise Admin's responsibilities when submitting a service request. Try again."
+    - content: "Aid with licensing, invoicing, subscription inquiries, and purchasing and trial inquiries"
+      isCorrect: false
+      explanation: "That's incorrect. This item isn't part of the Enterprise Admin's responsibilities when submitting a service request. Try again."

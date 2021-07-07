@@ -23,7 +23,7 @@ There are three available plans for Microsoft 365 for business:  Basic, Standard
 
 Microsoft 365 Education is available for educational organizations and empowers educators to unlock creativity, promote teamwork, and provide a simple and safe experience in a single, affordable solution built for education. Academic licenses can be tailored to fit any institution’s needs, including productivity and security solutions for faculty, staff, and students.
 
-[Compare the three available plans](https://www.microsoft.com/education/buy-license/microsoft365) to see how your organization can benefit from Microsoft 365 for Education.
+[Compare the available plans](https://www.microsoft.com/education/buy-license/microsoft365/default.aspx) to see how your organization can benefit from Microsoft 365 for Education.
 
 ## Microsoft 365 Home
 

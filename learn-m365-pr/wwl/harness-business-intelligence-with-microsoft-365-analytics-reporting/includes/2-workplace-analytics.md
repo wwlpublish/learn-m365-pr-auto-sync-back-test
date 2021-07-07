@@ -13,7 +13,7 @@ Microsoft 365 Workplace Analytics uses data from how people are currently workin
 
 :::image type="content" source="../media/2-workspace-analytics.png" alt-text="Workspace Analytics":::
 
-Workplace Analytics identifies collaboration patterns that may impact productivity, workforce effectiveness, and employee engagement. It has several benefits:
+Workplace Analytics identifies collaboration patterns that may impact productivity, workforce effectiveness, and employee engagement. It has several benefits: 
 
 - The data is generated from people’s actual working patterns.
 - There is no disruption or additional work required.
@@ -21,8 +21,6 @@ Workplace Analytics identifies collaboration patterns that may impact productivi
 - It generates insights to learn and identifies improve the way you work.
 
 Workspace Analytics has been designed to help organizations identify trends across countries, departments, or teams. Organizational culture plays a large part in how we work. With Microsoft 365 Workplace Analytics, organizations can identify working patterns across similar groups, and consider changes that might help people work more effectively.
-
-:::image type="content" source="../media/2-introduce-workplace-analytics.png" alt-text="Introduction to Workplace Analytics"::: 
 
 Watch the video below for an introduction to Workplace Analytics.
 
@@ -38,7 +36,7 @@ Workplace Analytics roles are assigned so that administrators can set system def
 To learn more about Workplace Analytics, have a look at these resources:
 
 - [Workplace Analytics](https://www.microsoft.com/microsoft-365/business/workplace-analytics)
-- [Explore](https://docs.microsoft.com/Workplace-Analytics/use/explore-intro)
+- [Explore Workplace Analytics](https://docs.microsoft.com/Workplace-Analytics/use/explore-intro)
 
 ## MyAnalytics
 
@@ -62,4 +60,4 @@ Find out more here:
 - [MyAnalytics](https://docs.microsoft.com/workplace-analytics/myanalytics/mya-landing-page)
 - [MyAnalytics dashboard](https://docs.microsoft.com/workplace-analytics/myanalytics/use/dashboard-2)
 - [Setting MyAnalytics goals](https://docs.microsoft.com/workplace-analytics/myanalytics/use/mya-adoption/indiv-adopt-set-goals)
-- [Steps to enable Microsoft 365 usage analytics](https://docs.microsoft.com/microsoft-365/admin/usage-analytics/enable-usage-analytics?view=o365-worldwide)
+- [Steps to enable Microsoft 365 usage analytics](https://docs.microsoft.com/microsoft-365/admin/usage-analytics/enable-usage-analytics)

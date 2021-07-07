@@ -45,13 +45,13 @@ When you turn external sharing off for your organization, guests typically lose 
 
 View a [video version](https://www.microsoft.com/videoplayer/embed/RE4yWpO?azure-portal=true) of the interactive guide (captions available in more languages).
 
-<a href="https://mslearn.cloudguides.com/en-us/guides/Manage%20organization-level%20sharing%20for%20OneDrive%20in%20Microsoft%20365?azure-portal=true">![Manage organization-level sharing for OneDrive in Microsoft 365](../media/manage-organization-level-sharing.png)</a>  
+<a href="https://mslearn.cloudguides.com/guides/Manage%20organization-level%20sharing%20for%20OneDrive%20in%20Microsoft%20365?azure-portal=true">![Manage organization-level sharing for OneDrive in Microsoft 365](../media/manage-organization-level-sharing.png)</a>  
 
 Be sure to click the full-screen option in the video player. 
 
 ## Learn more
-- [External sharing overview](https://docs.microsoft.com/sharepoint/external-sharing-overview?azure-portal=true)
-- [Microsoft 365 guest sharing settings reference](https://docs.microsoft.com/microsoft-365/solutions/microsoft-365-guest-settings?view=o365-worldwide?azure-portal=true)
-- [Manage sharing settings](https://docs.microsoft.com/sharepoint/turn-external-sharing-on-or-off?azure-portal=true)
-- [Best practices for sharing files and folders with unauthenticated users](https://docs.microsoft.com/microsoft-365/solutions/best-practices-anonymous-sharing?view=o365-worldwide?azure-portal=true)
-- [Manage sharing in OneDrive and SharePoint](https://docs.microsoft.com/onedrive/manage-sharing?azure-portal=true)
+- [External sharing overview](/sharepoint/external-sharing-overview?azure-portal=true)
+- [Microsoft 365 guest sharing settings reference](/microsoft-365/solutions/microsoft-365-guest-settings?azure-portal=true)
+- [Manage sharing settings](/sharepoint/turn-external-sharing-on-or-off?azure-portal=true)
+- [Best practices for sharing files and folders with unauthenticated users](/microsoft-365/solutions/best-practices-anonymous-sharing?azure-portal=true)
+- [Manage sharing in OneDrive and SharePoint](/onedrive/manage-sharing?azure-portal=true)

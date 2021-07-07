@@ -39,11 +39,7 @@ In the **Platform configurations** section, select the **Add a platform** button
 
 In the **Redirect URIs** section of the **Configure Desktop + devices** panel, select the entry that ends with **nativeclient**, and then select the **Configure** button:
 
-![Screenshot of the Configure Desktop + devices panel](../media/07-azure-ad-portal-new-app-authentication-01a.png)
-
-Scroll down to the **Default client type** section and set the toggle to **Yes**.
-
-![Screenshot of the Default client type section](../media/07-azure-ad-portal-new-app-authentication-02.png)
+![Screenshot of the Configure Desktop + devices panel](../media/07-azure-ad-portal-new-app-authentication-02.png)
 
 Select **Save** in the top menu to save your changes.
 
@@ -95,7 +91,10 @@ On the **Identity Daemon - API Permissions** panel, select the button **Grant ad
 
 ## Create a headless application
 
-You'll use a .NET Core console application to run as a service. This app can then be configured to run on a defined schedule with no user involvement.
+> [!NOTE]
+> The instructions below assume you are using .NET 5. They were last tested using v5.0.202 of the .NET 5 SDK.
+
+You'll use a .NET 5 console application to run as a service. This app can then be configured to run on a defined schedule with no user involvement.
 
 Open your command prompt, navigate to a directory where you have rights to create your project, and run the following command to create a new .NET Core console application:
 
@@ -114,7 +113,7 @@ dotnet add package Microsoft.Extensions.Configuration.FileExtensions
 dotnet add package Microsoft.Extensions.Configuration.Json
 ```
 
-Open the application in Visual Studio Code using the following command:
+Open the application in **Visual Studio Code** using the following command:
 
 ```console
 code .
@@ -332,14 +331,6 @@ Console.WriteLine("\nGraph Request:");
 Console.WriteLine(requestUserEmail.GetHttpRequestMessage().RequestUri);
 ```
 
-### Build and test the application
-
-Run the following command in a command prompt to compile the console application:
-
-```console
-dotnet build
-```
-
 ### Obtain the ID of a user to use in the test
 
 Using the [Azure AD admin center](https://aad.portal.azure.com/), select **Users**, and then select one of the users from the organization:
@@ -350,7 +341,19 @@ Locate the **Object ID** property and copy the value.
 
 In the **appsettings.json** file in the console application, replace  `TARGET_USER_ID_HERE` value with the user's Object ID property you copied.
 
-### Run the daemon application
+### Build and test the application
+
+Run the following command in a command prompt to ensure the developer certificate has been trusted:
+
+```console
+dotnet dev-certs https --trust
+```
+
+Run the following command in a command prompt to compile the console application:
+
+```console
+dotnet build
+```
 
 Run the following command to run the console application:
 
@@ -360,7 +363,7 @@ dotnet run
 
 After a moment, the app will display a list of all the specified user's emails obtained using the Microsoft Graph .NET SDK.
 
-![Screenshot of the All Users page in the Azure AD admin center](../media/07-test-02.png)
+![Screenshot of the All Users page in the console](../media/07-test-02.png)
 
 ## Summary
 

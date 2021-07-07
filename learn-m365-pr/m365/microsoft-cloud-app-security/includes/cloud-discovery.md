@@ -13,7 +13,6 @@ Your first step is to get a general picture of your cloud apps. Start at the Clo
 1. View where discovered apps are located (based on their headquarters) in the **App Headquarters map**.
 1. If you find an app that poses a risk to your organization, you can flag it as **Unsanctioned** in the **Discovered apps** pane.
 
-If your organization is using Microsoft Defender Advanced Threat Protection (or a similar solution), any unsanctioned app is automatically blocked.
+If your organization is using Microsoft Defender for Endpoint (or a similar solution), any unsanctioned app is automatically blocked.
 
 If you don't have a threat protection solution, you can run a script against the data source to block the app. Then users will see a notification that the application is blocked when they try to access it.
-

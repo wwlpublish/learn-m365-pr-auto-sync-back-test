@@ -1,30 +1,8 @@
-In this unit, you’ll learn how to create an Office 365 Connector and add it to Microsoft Teams.
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4OIzv]
 
-The first step will be to register a new Office 365 Connector with the **Connectors Developer Dashboard**. Then you'll create a new Microsoft Teams app that contains a web service and the necessary details to associate the Office 365 Connector to connect it to Microsoft Teams.
+In this exercise, you’ll learn how to create an Office 365 Connector and add it to Microsoft Teams.
 
-## Register an Office 365 Connector
-
-Open a browser and navigate to the **Connectors Developer Dashboard**: https://aka.ms/ConnectorsDashboard
-
-![Screenshot of the Connectors Developer Dashboard](../media/07-connector-dashboard-01.png)
-
-Select **New Connector**.
-
-On the **Register Connector** page, complete the required fields in the form with anything you like and accept any default options presented, with the following exceptions:
-
-- **Connector name**: My First Teams Connector
-- **Configuration page for your Connector**: https://REPLACE.ngrok.io/MyFirstTeamsConnector/config.html
-
-> [!NOTE]
-> In this exercise, it isn't necessary to come back and update the address of the configuration page because we are only testing the Connector in Microsoft Teams.
-
-Select the **I accept the terms and conditions...** checkbox and select **Save** to register the Connector.
-
-After successfully registering your Connector, the **Connectors Developer Dashboard** page will display some additional sections. While there is a button to **Download Manifest** for a custom Microsoft Teams app, we'll use the manifest created by the Yeoman Generator for Microsoft Teams.
-
-You'll need the ID of your new Connector later in the exercise. This ID, a GUID, can be found in the URL of the updated page. Copy this ID for later use.
-
-![Screenshot of the created Connector](../media/07-connector-dashboard-02.png)
+The first step will be to create a new Microsoft Teams app that contains a web service and the necessary details to associate the Office 365 Connector to connect it to Microsoft Teams. Then you'll register a new Office 365 Connector with the **Connectors Developer Dashboard**.
 
 ## Create Microsoft Teams app
 
@@ -42,15 +20,13 @@ Yeoman will launch and ask you a series of questions. Answer the questions with 
 - **Where do you want to place the files?**: Use the current folder
 - **Title of your Microsoft Teams App project?**: My First Teams Connector
 - **Your (company) name? (max 32 characters)**: Contoso
-- **Which manifest version would you like to use?**: v1.6
-- **Enter your Microsoft Partner Id, if you have one?**: (Leave blank to skip)
+- **Which manifest version would you like to use?**: (Accept the default option)
+- **Quick scaffolding**: Yes
 - **What features do you want to add to your project?**: A Connector
 - **The URL where you will host this solution?**: (Accept the default option)
 - **Would you like show a loading indicator when your app/tab loads?**: No
-- **Would you like to include Test framework and initial tests?**: No
-- **Would you like to use Azure Applications Insights for telemetry?**: No
 - **What type of Connector would you like to include?**: A new Connector hosted in this solution
-- **What is the Id of your Connector (found in the Connector Developer Portal)?**: (Enter the ID of the Connector you copied in the last step)
+- **What is the Id of your Connector (found in the Connector Developer Portal)?**:  (Accept the default option)
 - **What is the name of your Connector?** My First Teams Connector
 
 > [!NOTE]
@@ -58,34 +34,11 @@ Yeoman will launch and ask you a series of questions. Answer the questions with 
 
 After answering the generator's questions, the generator will create the scaffolding for the project and then execute `npm install` that downloads all the dependencies required by the project.
 
-### Ensure the project is using the latest version of Teams manifest & SDK
-
-Run the npm command to install the latest version of the SDK
-
-```console
-npm i @microsoft/teams-js
-```
-
-Locate and open the `manifest.json` file in the `manifest`  folder of the project.
-
-- Change the `$schema` property to **https://developer.microsoft.com/en-us/json-schemas/teams/v1.7/MicrosoftTeams.schema.json**
-- Change the `manifestVersion` property to **1.7**.
-- Change the `version` property to **1.0.0**.
-
-Open the `gulp.config.js` file in the root folder of the project. Add the following to the **SCHEMAS** property.
-
-```json
-{
-  version: "1.7",
-  schema: "https://developer.microsoft.com/en-us/json-schemas/teams/v1.7/MicrosoftTeams.schema.json"
-}
-```
-
 ### Examine and update the app manifest file
 
-After creating the project you'll need to make a few edits to the default app manifest file. Locate and open the file **./src/manifest/manifest.json**.
+After creating the project, you'll need to make a few edits to the default app manifest file. Locate and open the file **./src/manifest/manifest.json**.
 
-Within this file, locate the `connectors` array. Notice a single connector is listed:
+Within this file, locate the `connectors` array. Notice a single Connector is listed:
 
 ```json
 "connectors": [
@@ -100,9 +53,9 @@ Within this file, locate the `connectors` array. Notice a single connector is li
 ```
 
 > [!IMPORTANT]
-> Notice the scope of the Connector ID will be replaced by the build process. This ID can be found in the `./.env` file that's used for development.
+> Notice the value of the Connector ID will be replaced by the build process. This ID can be found in the `./.env` file that's used for development.
 
-A default manifest has a few empty array properties that must be removed in order to add the Connector to a team. Locate the following properties and delete them from the **manifest.json** file:
+A default manifest has a few empty array properties that must be removed to add the Connector to a team. Locate the following properties and delete them from the **manifest.json** file:
 
 ```json
 "configurableTabs": []
@@ -118,29 +71,18 @@ Finally, let's explore the code in the default project to see how it works. The 
 
 ### Examine the configuration page
 
-The configuration page is an HTML page that contains a React control. Locate and open the React control file **./src/app/scripts/myFirstTeamsConnector/MyFirstTeamsConnectorConfig.tsx**.
+The configuration page is an HTML page that contains a React control. Locate and open the React control file **./src/client/myFirstTeamsConnector/MyFirstTeamsConnectorConfig.tsx**.
 
-You need to make one edit to this file before building the project. Within the `componentWillMount()` React lifecycle event handler, locate the following code:
+You need to make one edit to this file before building the project. Within the `useEffect()` React hooks method, locate the following code:
 
 ```typescript
-microsoftTeams.getContext((context: microsoftTeams.Context) => {
-  this.setState({
-    color: availableColors.find(c => c.code === context.entityId),
-  });
-  this.setValidityState(this.state.color !== undefined);
-});
+setColor(availableColors.find(c => c.code === context.entityId));
 ```
 
-The `find()` method needs to be replaced with a `filter()` method. Update this line:
+The `find()` method needs to be replaced with a `filter()` method. Update this to the following:
 
 ```typescript
-color: availableColors.find(c => c.code === context.entityId),
-```
-
-... to the following:
-
-```typescript
-color: availableColors.filter(c => c.code === context.entityId)[0],
+setColor(availableColors.filter(c => c.code === context.entityId)[0]),
 ```
 
 The important part of this component to take note of is in the call to the `microsoftTeams.settings.registerOnSaveHandler()` handler that is called when the user selects the **Save**  button on the config page. Selecting **Save** will save the configuration of the Connector in Microsoft Teams and notify the Connector's web service that it has been added to a team.
@@ -150,16 +92,10 @@ The code does the following things:
 - Update the settings for the Connector in Microsoft Teams
 - Submit an HTTP POST to the Connector's `/api/connector/connect` endpoint with a payload that contains necessary information the Connector web service needs to store
 
-Notice before the HTTP POST is executed, the code is calls the `getSettings()` method to retrieve the settings from Microsoft Teams:
+Notice before the HTTP POST is executed, the code calls the `getSettings()` method to retrieve the settings from Microsoft Teams:
 
 ```typescript
-microsoftTeams.settings.getSettings((s: any) => {
-  this.setState({
-    webhookUrl: s.webhookUrl,
-    user: s.userObjectId,
-    appType: s.appType,
-  });
-...
+microsoftTeams.settings.getSettings((setting: any) => { ... });
 ```
 
 This method passes in a settings object that contains a few important properties:
@@ -172,7 +108,7 @@ When the HTTP POST request succeeds, the `notifySuccess()` method is called on t
 
 ### Examine the web service
 
-The Connector is implemented as a web service that is hosted within the Microsoft Teams project. Locate and open the file **./src/app/myFirstTeamsConnector/MyFirstTeamsConnector.ts**.
+The Connector is implemented as a web service that is hosted within the Microsoft Teams project. Locate and open the file **./src/server/myFirstTeamsConnector/MyFirstTeamsConnector.ts**.
 
 The web service exposes two endpoints, both represented by methods with the endpoint's respective names. The endpoints are:
 
@@ -181,21 +117,76 @@ The web service exposes two endpoints, both represented by methods with the endp
     > [!NOTE]
     > The sample web service in the default project uses a JSON file to store the registration. It does not contain any logic to update an existing Connector when it's changed, or remove a Connector. In a real world Connector, you'll likely implement a system that saves this registration to a persistent data store that handles the scenarios of updating and removing a Connector from a team.
 
-- **/ping**: This endpoint can be called by anyone and is simply used to test the Connector. When called, it will create a card and send it to all the registered Connectors.
+- **/ping**: This endpoint can be called by anyone and is used to test the Connector. When called, it will create a card and send it to all the registered Connectors.
 
-## Test the Office 365 Connector in Microsoft Teams
+### Start the project to get the web service endpoint
 
-At this point, our Microsoft Teams app and Office 365 Connector is set up and working. Verify this by starting ngrok and install the Connector.
+Before registering the Connector in the next step, you need to obtain the URL where your Connector's web service will be hosted.
 
-From the command line, navigate to the root folder for the project and execute the following command:
+> [!NOTE]
+> Microsoft Teams requires all content displayed within a tab to be loaded from an HTTPS request. In development, this can be done by using the tool [ngrok](https://www.ngrok.com) that creates a secure rotatable URL to your local HTTP web server. Ngrok is included as a dependency within the project, so there's nothing to set up or configure.
+
+Because we're using ngrok to test our project, and because every time you start ngrok it creates a new dynamic subdomain, we need to start the project. From the command line, navigate to the root folder for the project and execute the following command:
 
 ```console
 gulp ngrok-serve
 ```
 
-Now let's load the Connector in Microsoft Teams. In the browser, navigate to **https://teams.microsoft.com** and sign in with the credentials of a Work and School account.
+Locate and copy the dynamic URL created by ngrok from the command prompt as it was displayed when you started the `gulp ngrok-serve` task:
 
-Once you are signed in, the first step is to install the Microsoft Teams app.
+![Screenshot of the ngrok URL](../media/07-test-setup-app-08.png)
+
+Copy this URL as you'll need it in the next step.
+
+> [!IMPORTANT]
+> Make sure to leave the web server running and don't terminate the process. If the web server stops for any reason, you'll have to update the Connector's registration details with the new endpoint created by ngrok.
+
+## Register an Office 365 Connector
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4OARc]
+
+Open a browser and navigate to the **Connectors Developer Dashboard**: https://aka.ms/ConnectorsDashboard
+
+![Screenshot of the Connectors Developer Dashboard](../media/07-connector-dashboard-01.png)
+
+Select **New Connector**.
+
+On the **Register Connector** page, complete the required fields in the form with anything you like and accept any default options presented, with the following exceptions:
+
+- **Connector name**: My First Teams Connector
+- **Configuration page for your Connector**: `https://REPLACE.ngrok.io/MyFirstTeamsConnector/config.html`
+- **Valid domains**: `REPLACE.ngrok.io`
+
+> [!IMPORTANT]
+> Make sure to use the ngrok subdomain you copied from the previous step.
+
+Select the **I accept the terms and conditions...** checkbox and select **Save** to register the Connector.
+
+After successfully registering your Connector, the **Connectors Developer Dashboard** page will display some additional sections. While there's a button to **Download Manifest** for a custom Microsoft Teams app, we'll use the manifest created by the Yeoman Generator for Microsoft Teams.
+
+You'll need the ID of your new Connector later in the exercise. This ID, a GUID, can be found in the URL of the updated page. Copy this ID for later use.
+
+![Screenshot of the created Connector](../media/07-connector-dashboard-02.png)
+
+### Update the project with the Connector ID
+
+Within your project, locate and open the **./.env** file. Set the `CONNECTOR_ID` to the ID of the Connector you just created.
+
+### Update the Microsoft Teams app package
+
+When you started the project in a previous step, the build process generated the Microsoft Teams app package using the ngrok URL. The process also set the Connector's ID in the **manifest.json** file with the value in the **./.env** file. However, at that time we didn't know the Connector's ID.
+
+To address this, you can start & stop the **ngrok-serve** task, but that'll generate a new ngrok subdomain which would require you to update the Connector's registration details. Changes to an existing Connector registration can take some time to propagate which can delay testing the app.
+
+The other option is to unzip the generated package found in the **./package** folder in your project update the `connectors[0].connectorId` property, and create a new app package ZIP with the updated **manifest.json** file and the two images.
+
+Feel free to chose either of these options.
+
+## Test the Office 365 Connector in Microsoft Teams
+
+At this point, our Microsoft Teams app and Office 365 Connector is set up and working. Let's load the Connector in Microsoft Teams. In the browser, navigate to **https://teams.microsoft.com** and sign in with the credentials of a Work and School account.
+
+Once you're signed in, the first step is to install the Microsoft Teams app.
 
 Select a team, select the action menu on the team and select **Manage team**:
 
@@ -205,7 +196,7 @@ Select the **Apps** tab and then the **More apps** button:
 
 ![Screenshot of the Manage team page](../media/07-test-setup-app-02.png)
 
-From the **Browse available apps and services**, select the **Upload a custom app > Upload for [tenant]** at the bottom of the **Apps** panel of categories. Select the Microsoft Teams app package, the **MyFirstTeamsConnector.zip** file in the **./package** folder of your project.
+From the **Browse available apps and services**, select the **Upload a custom app > Upload for my org** at the bottom of the **Apps** panel of categories. Select the Microsoft Teams app package, the **MyFirstTeamsConnector.zip** file in the **./package** folder of your project.
 
 After uploading the app, Microsoft Teams will display it on the list of apps installed under the **Build for [tenant]** category page:
 
@@ -219,7 +210,7 @@ Once installed, you can now add the Connector to a team. You can do this from th
 
 ![Screenshot of the Add to a team dialog](../media/07-test-setup-app-05.png)
 
-On the **Connectors for... channel in ... team** page, select the **Others** category and scroll to the bottom. You will see your connector under the **Sideloaded** section:
+On the **Connectors for... channel in ... team** page, select the **Others** category and scroll to the bottom. You'll see your Connector under the **Sideloaded** section:
 
 ![Screenshot listing all Connectors available to a team](../media/07-test-setup-app-06.png)
 
@@ -229,11 +220,9 @@ Select the **Configure** button for the Connector. This will display the configu
 
 Select a color and then select the **Save** button.
 
-This will trigger the configuration page to call the web service's `/connect` endpoint to save the connector.
+This will trigger the configuration page to call the web service's `/connect` endpoint to save the Connector.
 
-With the Connector saved, the next step is to see it post to a channel. Do this by submitting an HTTPS request to the web service's `/ping` endpoint. To do this, you need to know the dynamic URL created by the ngrok utility. You can retrieve this from the command prompt as it was displayed when you started the `gulp ngrok-serve` task:
-
-![Screenshot of the ngrok URL](../media/07-test-setup-app-08.png)
+With the Connector saved, the next step is to see it post to a channel. Do this by submitting an HTTPS request to the web service's `/ping` endpoint.
 
 Using the free tool [Postman](https://www.postman.com/), create a new request to the point endpoint:
 
@@ -251,7 +240,7 @@ Using the free tool [Postman](https://www.postman.com/), create a new request to
       "summary": "Larry Bryant created a new task",
       "sections": [
         {
-          "activityTitle": "![TestImage](https://aaaaedee.ngrok.io/Content/Images/default.png)Larry Bryant created a new task",
+          "activityTitle": "![TestImage](https://REPLACE.ngrok.io/Content/Images/default.png)Larry Bryant created a new task",
           "activitySubtitle": "On Project Tango",
           "activityImage": "https://myfirstteamsconnector.azurewebsites.net/static/img/image5.png",
           "facts": [
@@ -351,7 +340,7 @@ Using the free tool [Postman](https://www.postman.com/), create a new request to
     > [!IMPORTANT]
     > Connectors, like incoming webhooks, only support Office 365 Connector Cards for messages sent to Microsoft Teams. Adaptive cards aren't supported when sending messages with cards when using Connectors or incoming webhooks.
 
-Select the **Send** button in Postman. When you go back to the channel, you will see the card displayed as a message in the team:
+Select the **Send** button in Postman. When you go back to the channel, you'll see the card displayed as a message in the team:
 
 ![Screenshot of the rendered card in the team](../media/07-test-setup-app-11.png)
 

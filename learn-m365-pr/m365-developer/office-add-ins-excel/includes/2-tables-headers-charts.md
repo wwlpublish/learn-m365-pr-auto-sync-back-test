@@ -1,16 +1,16 @@
 The Excel JavaScript API makes programmatic control over text, tables, and charts in Excel workbooks. In this unit, you'll learn how to work with tables including formatting options, how to filter data, and sort the data within the table. You'll also learn how to add and customize charts to your worksheets.
 
-## Office 365 Platform Overview
+## Office developer platform overview
 
-The Microsoft Office 365 platform offers a number of canvases for developers to embed customizations and Office add-ins are one of three canvases: documents, conversations  and pages.
+The Microsoft 365 developer platform platform, which includes Office, offers many canvases for developers to embed customizations and Office add-ins are one of three canvases: documents, conversations  and pages.
 
 Microsoft Teams makes conversations between users and enables developers to extend the experience using messaging extensions, conversational bots, and other customization options.
 
 Developers customize pages in SharePoint Server and SharePoint online using the SharePoint Framework.
 
-Office clients, such as Word, Excel, PowerPoint, OneNote, and Outlook can also be extended to implement custom task panes, actions, and additional customizations using add-ins.
+Office clients, such as Word, Excel, PowerPoint, OneNote, and Outlook can also be extended to implement custom task panes, actions, and other customizations using add-ins.
 
-![Screenshot overview of the Office 365 Platform](../media/02-office-365-platform.png)
+![Screenshot overview of the Microsoft 365 Platform](../media/02-office-365-platform.png)
 
 ## Anatomy of Office.js add-in for Microsoft Excel
 
@@ -36,7 +36,7 @@ Office.js provides context to an Excel workbook through `Excel.run()` and the `c
 
 ![Screenshot of Excel object hierarchy](../media/02-excel-object-hierarchy.png)
 
-The workbook contains worksheets that contain a number of collections. These collections include things such as charts, tables, and pivotTables.
+The workbook contains worksheets that contain many collections. These collections include things such as charts, tables, and pivotTables.
 
 Many objects within a worksheet can be accessed directly from the workbook object, including tables and pivotTables.
 
@@ -46,7 +46,7 @@ Worksheets are aware of their siblings using `getNext()` and `getPrevious()` met
 
 You can get the active worksheet using the `workbook.worksheets.getActiveWorkshee()` method and set the active worksheet using `worksheet.activate()` method.
 
-Office.js also offers a number of worksheet events such as `onActivated`, `onDeactivated`, and `onSelectionChanged` that developers can use in their custom add-ins.
+Office.js also offers many worksheet events such as `onActivated`, `onDeactivated`, and `onSelectionChanged` that developers can use in their custom add-ins.
 
 ## Tables and headers
 
@@ -204,9 +204,9 @@ Charts exist within worksheets, but can also be accessed directly from the workb
 
 ![Screenshot of Excel workbook with a chart](../media/02-excel-workbook-02.png)
 
-Charts have a number of complex relational properties that can be used to fine-tune the look of a chart. These include titles, legends, axes, series, labels, and format.
+Charts have many complex relational properties that can be used to fine-tune the look of a chart. These include titles, legends, axes, series, labels, and format.
 
-Users and developers can create a chart based on a data range and are often created in conjunction with tables.
+Users and developers can create a chart based on a data range and are often created with tables.
 
 The `worksheet.charts.add()` function is used to create a chart, which accepts a chart `type`, a data `range`, and `seriesBy`. The `seriesBy` argument supports the following values
 
@@ -216,9 +216,9 @@ The `worksheet.charts.add()` function is used to create a chart, which accepts a
 
 Excel supports many different types of charts. Developers can add a chart to a worksheet using the `worksheet.carts.add("{REPLACE_WITH_CHARTTYPE_ENUM}", range, "{REPLACE_WITH_CHARTSERIESBY_ENUM}")` method.
 
-The `ChartType` argument specifies the type of chart to use. Refer to the SDK for the available options on the [Excel.ChartType enum](https://docs.microsoft.com/javascript/api/excel/excel.charttype).
+The `ChartType` argument specifies the type of chart to use. Refer to the SDK for the available options on the [Excel.ChartType enum](/javascript/api/excel/excel.charttype).
 
-The `ChartSeriesBy` argument specifies whether the series are by rows or by columns. Refer to the SDK for the available options on the [Excel.ChartSeriesBy enum](https://docs.microsoft.com/javascript/api/excel/excel.chartseriesby).
+The `ChartSeriesBy` argument specifies whether the series are by rows or by columns. Refer to the SDK for the available options on the [Excel.ChartSeriesBy enum](/javascript/api/excel/excel.chartseriesby).
 
 ### Chart properties
 
@@ -248,7 +248,7 @@ In addition to the properties in the table above, the chart object includes mult
 | worksheet    | The worksheet containing the current chart. Read-only.                                                                        |
 
 > [!TIP]
-> Refer to the Excel Office.js documentation for all properties, methods, and events on the [Excel.Chart](https://docs.microsoft.com/javascript/api/excel/excel.chart) object.
+> Refer to the Excel Office.js documentation for all properties, methods, and events on the [Excel.Chart](/javascript/api/excel/excel.chart) object.
 
 The following code examples demonstrate how to use the Office.js API to create and manipulate charts in Excel:
 

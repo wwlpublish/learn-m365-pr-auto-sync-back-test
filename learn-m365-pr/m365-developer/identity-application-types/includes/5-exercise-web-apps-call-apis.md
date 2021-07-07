@@ -37,7 +37,7 @@ On the **Authentication** page, select **Add a platform**. When the **Configure 
 
 ![Screenshot of the Configure platforms panel](../media/05-azure-ad-portal-new-app-details-02.png)
 
-In the **Configure Web** panel, add **https://localhost:3007** under **Redirect URIs**, add **https://localhost:3007/signout-oidc** under **Logout URL**, select both **Access tokens** and **ID tokens** under **Implicit grant**, and select **Configure**.
+In the **Configure Web** panel, add **https://localhost:3007** under **Redirect URIs**, add **https://localhost:3007/signout-oidc** under **Logout URL**, select **ID tokens (used for implicit and hybrid flows)** under **Implicit grant and hybrid flows**, and select **Configure**.
 
 ![Screenshot of the Configure Web panel](../media/05-azure-ad-portal-new-app-details-03.png)
 
@@ -65,6 +65,9 @@ The **Certificate & Secrets** page will display the new secret. It's important y
 
 ## Create a single organization ASP.NET web application
 
+> [!NOTE]
+> The instructions below assume you are using .NET 5. They were last tested using v5.0.202 of the .NET 5 SDK.
+
 Open your command prompt, navigate to a directory where you want to save your work, create a new folder, and change directory into that folder.
 
 Execute the following command to create a new ASP.NET Core MVC web application:
@@ -77,12 +80,18 @@ After creating the application, run the following commands to ensure your new pr
 
 ```console
 cd IdentityWeb
-dotnet add package Microsoft.Identity.Web --version 0.3.1-preview
-dotnet add package Microsoft.Identity.Web.UI --version 0.3.1-preview
-dotnet add package Microsoft.Graph
+dotnet add package Microsoft.Identity.Web
+dotnet add package Microsoft.Identity.Web.UI
+dotnet add package Microsoft.Identity.Web.MicrosoftGraph
 ```
 
-Open the root folder of the new ASP.NET core application using a text editor such as **Visual Studio Code**.
+Open the application in Visual Studio Code using the following command:
+
+```console
+code .
+```
+
+When a dialog box asks if you want to add required assets to the project, select **Yes**.
 
 ### Update the web application's launch configuration
 
@@ -106,44 +115,20 @@ Create a new property, **ClientSecret**, immediately after the **ClientId**. Set
 
 Locate and open the **./Startup.cs** file in the ASP.NET Core project.
 
-Add the following `using` statements after the existing statements:
+Within the `ConfigureServices()` method, locate the following line:
 
 ```csharp
-using Microsoft.AspNetCore.Http;
-using Microsoft.Identity.Web;
-using Microsoft.Identity.Web.TokenCacheProviders.InMemory;
-using Microsoft.Identity.Web.UI;
+services.AddAuthentication(OpenIdConnectDefaults.AuthenticationScheme)
+    .AddMicrosoftIdentityWebApp(Configuration.GetSection("AzureAd"));
 ```
-
-Locate the method `ConfigureServices()`.
-
-Replace the body of the method with the following code. This code will configure the web app's middleware to support Azure AD for authentication and to obtain an ID token:
+Update the line to the following. This will configure the web app's middleware to add support for the Microsoft Graph:
 
 ```csharp
-services.Configure<CookiePolicyOptions>(options =>
-{
-  // This lambda determines whether user consent for non-essential cookies is needed for a given request.
-  options.CheckConsentNeeded = context => true;
-  options.MinimumSameSitePolicy = SameSiteMode.Unspecified;
-  // Handling SameSite cookie according to https://docs.microsoft.com/en-us/aspnet/core/security/samesite?view=aspnetcore-3.1
-  options.HandleSameSiteCookieCompatibility();
-});
-
-services.AddOptions();
-
-services.AddMicrosoftIdentityWebAppAuthentication(Configuration)
-        .EnableTokenAcquisitionToCallDownstreamApi(new string[] { "User.Read" })
-        .AddInMemoryTokenCaches();
-
-services.AddControllersWithViews(options =>
-{
-  var policy = new AuthorizationPolicyBuilder()
-                .RequireAuthenticatedUser()
-                .Build();
-  options.Filters.Add(new AuthorizeFilter(policy));
-}).AddMicrosoftIdentityUI();
-
-services.AddRazorPages();
+services.AddAuthentication(OpenIdConnectDefaults.AuthenticationScheme)
+    .AddMicrosoftIdentityWebApp(Configuration.GetSection("AzureAd"))
+    .EnableTokenAcquisitionToCallDownstreamApi(new string[] { "User.Read" })
+    .AddMicrosoftGraph("https://graph.microsoft.com/v1.0", "User.Read")
+    .AddInMemoryTokenCaches();
 ```
 
 ### Add a User controller and view to the web app
@@ -153,7 +138,6 @@ The last step is to add a controller and view to the web app that will display t
 Add a new file **UserController.cs** to the **Controllers** folder. Add the following code to it:
 
 ```csharp
-using System.Net.Http.Headers;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
@@ -167,25 +151,19 @@ namespace IdentityWeb.Controllers
   public class UserController : Controller
   {
     private readonly ILogger<UserController> _logger;
-    private readonly ITokenAcquisition _tokenAcquisition;
+    private readonly GraphServiceClient _graphServiceClient;
 
-    public UserController(ILogger<UserController> logger, ITokenAcquisition tokenAcquisition)
+    public UserController(ILogger<UserController> logger, GraphServiceClient graphServiceClient)
     {
       _logger = logger;
-      _tokenAcquisition = tokenAcquisition;
+      _graphServiceClient = graphServiceClient;
     }
 
 
     [AuthorizeForScopes(Scopes = new[] { "User.Read" })]
     public async Task<IActionResult> Index()
     {
-      var graphServiceClient = new GraphServiceClient(new DelegateAuthenticationProvider(async (request) =>
-      {
-        var accessToken = await _tokenAcquisition.GetAccessTokenForUserAsync(new[] { "User.Read" });
-        request.Headers.Authorization = new AuthenticationHeaderValue("Bearer", accessToken);
-      }));
-
-      var user = await graphServiceClient.Me.Request().GetAsync();
+      var user = await _graphServiceClient.Me.Request().GetAsync();
 
       return View(user);
     }
@@ -193,7 +171,7 @@ namespace IdentityWeb.Controllers
 }
 ```
 
-This controller's default method, `Index()`, creates a new instance of the Microsoft Graph .NET client. The client is configured to use the currently signed-in user to request an access token. This is done using the token acquisition service added as a singleton to the ASP.NET Core dependency injection (DI) configuration in the previous step. It then adds the access token to requests to Microsoft Graph as an HTTP **Authorization** header. Finally, it submits a request to Microsoft Graph for the current user's details.
+This controller's default method, `Index()`, submits a request to Microsoft Graph for the current user's details. This is done using the `GraphServiceClient` added as a singleton to the ASP.NET Core dependency injection (DI) configuration in the previous step. 
 
 Now create the view to display the user's name.
 

@@ -110,7 +110,7 @@ private _onDeleteListItem = (): void => {
 }
 ```
 
-These event handlers will call different methods, which you'll add in the remainder of this exercise. Each one will add, update, or delete an item in the SharePoint list, call the existing `_getListItems()` method you created in the previous exercise, and refresh the web part by calling `render()`.
+These event handlers will call different methods, which you'll add in the rest of this exercise. Each one will add, update, or delete an item in the SharePoint list, call the existing `_getListItems()` method you created in the previous exercise, and refresh the web part by calling `render()`.
 
 Add the following methods to the `SpFxHttpClientDemoWebPart` class to add a new item to the list:
 
@@ -198,7 +198,7 @@ This method will update an existing item in the list by doing the following step
 - A new request object is created to submit to the SharePoint REST API:
   - The headers are set to instruct the REST API you wish to do a **MERGE** operation and...
   - The item that will be updated on the server should have the same version, as indicated by the `@odata.etag` property, as the item that is submitted in the HTTP request.
-- Similar to the add operation, using the `spHttpClient` API's `post()` method, the specific item in the SharePoint list is updated by using the endpoint of the specific item, the wanted configuration and the request object this method constructed.
+- Similar to the add operation, using the `spHttpClient` API's `post()` method, the specific item in the SharePoint list is updated by using the endpoint of the specific item, the wanted configuration, and the request object this method constructed.
 
 Add the following method to the `SpFxHttpClientDemoWebPart` class to delete the last item in the list:
 
@@ -236,53 +236,51 @@ This method will delete the last item in the list by doing the following steps:
 - A new request object is created to submit to the SharePoint REST API:
   - The headers are set to instruct the REST API you wish to do a **DELETE** operation and...
   - The item that will be deleted can match any version.
-- Using the `spHttpClient` API's `post()` method, the specific item in the SharePoint list is deleted by using the endpoint of the specific item, the wanted configuration and the request object this method constructed.
+- Using the `spHttpClient` API's `post()` method, the specific item in the SharePoint list is deleted by using the endpoint of the specific item, the wanted configuration, and the request object this method constructed.
 
 ## Test the web part
 
+Run the following command to ensure the developer certificate is installed:
+
+```console
+gulp trust-dev-cert
+```
+
 Start the local web server and test the web part in the hosted workbench:
 
-```shell
+```console
 gulp serve
 ```
 
-The browser will loads the local workbench, but you cannot use this for testing because there is no SharePoint context in the local workbench. Instead, navigate to the SharePoint Online site where you created the **Countries** list, and load the hosted workbench at **https://[sharepoint-online-site]/_layouts/workbench.aspx**.
+The browser will loads the local workbench, but you can't use this for testing because there's no SharePoint context in the local workbench. Instead, navigate to the SharePoint Online site where you created the **Countries** list, and load the hosted workbench at **https://[sharepoint-online-site]/_layouts/workbench.aspx**.
 
 Add the web part to the page: Select the **Add a new web part** control...
 
-![Screenshot of the SharePoint workbench](../media/add-webpart-01.png)
+![Screenshot of the SharePoint workbench](../media/03-add-webpart-01.png)
 
-...then select the expand toolbox icon in the top-right...
+Then search for **spfxhttp** select the **SPFxHttpClientDemo** web part to add the web part to the page.
 
-![Screenshot of the SharePoint workbench](../media/add-webpart-02.png)
-
-...and select the **SPFxHttpClientContent** web part to add the web part to the page.
-
-![Screenshot of the SharePoint workbench toolbox](../media/add-webpart-03.png)
+![Screenshot of the SharePoint workbench - web part gallery](../media/03-add-webpart-02.png)
 
 The web part will appear on the page with a single button and no data in the list.
 
-![Screenshot of the web part with all buttons](../media/all-buttons.png)
+![Screenshot of the web part with all buttons](../media/05-all-buttons.png)
 
 Select the **Get Countries** button and examine the results returned. Scroll to the bottom of the list and notice there's no entry with a timestamp for the **Title**.
 
 Select the **Add List item** button and scroll to the end of the results returned. Notice the new item that appears with a timestamp as the **Title**.
 
-![Screenshot of the web part with the new item](../media/add-items-sp-01.png)
+![Screenshot of the web part with the new item](../media/05-add-item.png)
 
-Ensure there's an item in the list with the title equal to **United States**. Test the update process by selecting the **Update List Item** button.
+Ensure there's an item in the list with the title equal to **United States**. 
 
-![Screenshot of the web part before updating an item](../media/update-items-sp-01.png)
+![Screenshot of the web part before updating an item](../media/05-update-item-01.png)
 
-Notice after selecting the button, the title has changed from **United States** to **USA**.
+Test the update process by selecting the **Update List Item** button. Notice after selecting the button, the title has changed from **United States** to **USA**.
 
-![Screenshot of the web part after updating an item](../media/update-items-sp-02.png)
+![Screenshot of the web part after updating an item](../media/05-update-item-02.png)
 
-Note the title of the last item in the list. Test the delete process by selecting the **Delete List Item** button.
-
-![Screenshot of the web part delete button](../media/delete-items-sp-01.png)
-
-Notice after selecting the button, the last item in the list has been removed.
+Note the title of the last item in the list. Test the delete process by selecting the **Delete List Item** button. Notice after selecting the button, the last item in the list has been removed.
 
 Stop the local web server by pressing <kbd>CTRL</kbd>+<kbd>C</kbd> in the console/terminal window.
 

@@ -1,0 +1,52 @@
+### YamlMime:ModuleUnit
+uid: learn-m365-pr.m365-teams-calling-onboard-manage-users.knowledge-check
+metadata:
+  title: Knowledge check
+  description: Check what you've learned
+  ms.date: 02/12/2021
+  author: lizap
+  ms.author: elizapo
+  ms.topic: interactive-tutorial
+  ms.prod: learning-teams
+title: Knowledge check
+durationInMinutes: 1
+content: |
+quiz:
+  title: Check your knowledge
+  questions:
+
+  - content: "What are your options if your country isn't supported by Teams Calling Plans?"
+    choices:
+    - content: "You won't be able to use Calling for Microsoft Teams until your country is supported."
+      isCorrect: false
+      explanation: "That's incorrect. You can still deploy Callings for Teams in your organization."
+    - content: "You can use your existing calling plan provider if your hardware and provider will support Direct Routing." 
+      isCorrect: true
+      explanation: "That's correct. You're able to use Direct Routing with your existing calling plan provider to bring calling to Teams."
+    - content: "You can use Calling for Microsoft Teams, but won't be able to port your existing phone numbers."
+      isCorrect: false
+      explanation: "That's incorrect. Calling for Teams needs a calling plan."
+
+  - content: "If you are using Teams Phone System and you receive a call internally from a colleague what information can Teams display?"
+    choices:
+    - content: "Teams can show any information contained in your organizations Active Directory, including full name, profile pictures, and department information." 
+      isCorrect: true
+      explanation: "That's correct. Teams can display any information that has been added to your company's Active Directory."
+    - content: "Teams can only show the phone number, like traditional caller ID on your mobile or desktop phone." 
+      isCorrect: false
+      explanation: "That's incorrect. Teams can show more information that this."
+    - content: "Teams can show the name and email address of the person calling, it can't display the person's phone number."
+      isCorrect: false
+      explanation: "That's incorrect. Teams can show more information that this."
+
+  - content: "Which approach should you take to help diagnose a call quality issue being experienced by everyone in a specific office location?"
+    choices:
+    - content: "Create a Power BI call quality report for the specific office location to track call quality issues over time."
+      isCorrect: false
+      explanation: "That's incorrect. You could create a report, but there is a simpler way to diagnose this issue."
+    - content: "Use the Microsoft Teams admin center's analytics and reports, specifically the Call diagnostics report, filtering on Limited UDP traffic."
+      isCorrect: false
+      explanation: "That's incorrect. This isn't going to help you diagnose call quality issues at a specific location."
+    - content: "The Microsoft Call Quality Dashboard can help you diagnose and explore call quality issues at the organization level. You can then drill down to specific employees at the location and review their call analytics." 
+      isCorrect: true
+      explanation: "That's correct. The default CQD summary reports allow you to drill down to a location to help diagnose issues."

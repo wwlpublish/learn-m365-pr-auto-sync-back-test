@@ -12,17 +12,17 @@ Here, you’ll learn how you can use Azure Defender capabilities to protect thes
 
 ## Protect virtual machines and servers
 
-Azure Security Center protects your virtual machines and servers through several measures, including Microsoft Defender Advanced Threat Protection for Servers, just-in-time access, adaptive application controls, and vulnerability assessments.
+Azure Security Center protects your virtual machines and servers through several measures, including Microsoft Defender for Endpoint for Servers, just-in-time access, adaptive application controls, and vulnerability assessments.
 
-### Use Microsoft Defender Advanced Threat Protection
+### Use Microsoft Defender for Endpoint
 
-Azure Security Center is designed to work with other Azure services to continuously protect and monitor your servers. Azure Security Center can extend how it protects your cloud workloads by integrating with Microsoft Defender Advanced Threat Protection (ATP) for Servers. Both services will work together to provide intelligent endpoint detection and response capabilities. Microsoft Defender ATP for Servers detects threats, and triggers alerts. You can then see these alerts from Azure Security Center. From there, you can jump to the Microsoft Defender ATP portal, and carry out detailed investigations to understand the scope of an attack.
+Azure Security Center is designed to work with other Azure services to continuously protect and monitor your servers. Azure Security Center can extend how it protects your cloud workloads by integrating with Microsoft Defender for Endpoint for Servers. Both services will work together to provide intelligent endpoint detection and response capabilities. Microsoft Defender for Endpoint detects threats, and triggers alerts. You can then see these alerts from Azure Security Center. From there, you can jump to the Microsoft 365 Defender portal, and carry out detailed investigations to understand the scope of an attack.
 
-You’ll need to complete some steps. For example, you can do the following higher-level steps to use Microsoft Defender ATP integration with Azure Security Center, to protect your Windows servers:
+You’ll need to complete some steps. For example, you can do the following higher-level steps to use Microsoft Defender for Endpoint integration with Azure Security Center, to protect your Windows servers:
 
-1. Onboard your Windows servers to the Microsoft Defender ATP service.
+1. Onboard your Windows servers to the Microsoft Defender for Endpoint.
 1. Make sure your Windows servers are onboarded to Azure Security Center Standard.
-1. The Microsoft Defender ATP sensor is then automatically enabled for Windows servers that are onboarded to Azure Security Center. Both services then begin to cooperate.
+1. The Microsoft Defender for Endpoint sensor is then automatically enabled for Windows servers that are onboarded to Azure Security Center. Both services then begin to cooperate.
 
 > [!NOTE]
 > Use the links in the **Learn more** section at the bottom of this unit for a detailed rundown of how to perform these steps.
@@ -242,7 +242,7 @@ Here’s how you configure advanced threat protection for your Azure Key Vaults:
 1. Set **Key Vaults (preview)** to **enabled**.
 1. Select **Save** at the top.
 
-#### Advanced Threat Protection for Azure Storage
+#### Microsoft Defender for Identity for Azure Storage
 
 Through advanced threat protection, Azure Security Center provides protection for different types of Azure Storage resources, including:
 
@@ -275,34 +275,34 @@ Here’s how you configure advanced threat protection for Azure Storage:
 
 ## IoT protection
 
-Every new addition to your IoT infrastructure has the potential to become another attack surface. To secure your IoT infrastructure, you’ll need to provide protection at every level. Azure Security Center helps you provide end-to-end protection for your IoT infrastructure. Through Azure Security Center for IoT, you can mitigate security threats and implement security best practices and analysis across your IoT devices, hubs, and related compute and data assets and resources. You can also get a unified view and control of the security of your workloads in the cloud or on-premises, and use intelligent threat detection to respond promptly and effectively to threats.
+Every new addition to your IoT infrastructure has the potential to become another attack surface. To secure your IoT infrastructure, you’ll need to provide protection at every level. Azure Security Center helps you provide end-to-end protection for your IoT infrastructure. Through Azure Defender for IoT, you can mitigate security threats and implement security best practices and analysis across your IoT devices, hubs, and related compute and data assets and resources. You can also get a unified view and control of the security of your workloads in the cloud or on-premises, and use intelligent threat detection to respond promptly and effectively to threats.
 
-When you want to enable Azure Security Center for IoT, two different deployment options are available. Choose one of the following deployment options, based on what best meets your needs:
+When you want to enable Azure Defender for IoT, two different deployment options are available. Choose one of the following deployment options, based on what best meets your needs:
 
-- **Built-in deployment**: Use this option to quickly integrate Azure Security Center for IoT into your IoT Hub. You’ll get security analysis of your IoT Hub configuration, your hub and device communication patterns, along with device identity and management, and monitoring.
+- **Built-in deployment**: Use this option to quickly integrate Azure Defender for IoT into your IoT Hub. You’ll get security analysis of your IoT Hub configuration, your hub and device communication patterns, along with device identity and management, and monitoring.
 
 - **Enhanced deployment**: Use this option for enhanced security capabilities. These capabilities include comprehensive security posture management, and full threat detection across your devices, such as monitoring logins, remote connections, active applications, and more. This deployment option requires the installation of IoT security device agents on your devices to collect and analyze security events.
 
-You’ll need to make sure the following components are in place to enable Azure Security Center for IoT:
+You’ll need to make sure the following components are in place to enable Azure Defender for IoT:
 
 - **IoT Hub standard tier**
   - You’ll also need an Azure role that has the **Owner** role over it
 - **Azure Security Center**
-- **Log Analytics Workspace** (one is created for you automatically when enabling Azure Security Center for IoT)
+- **Log Analytics Workspace** (one is created for you automatically when enabling Azure Defender for IoT)
 
 > [!NOTE]
 > If you want to use enhanced deployment, you need to also check the supported platforms for agents. You should also make sure that your IoT Hub is in one of the supported regions. You can find details about supported platforms and regions in the **Learn more** section of this unit.
 
-### Enable Azure Security Center for IoT
+### Enable Azure Defender for IoT
 
-How you enable Azure Security Center for IoT depends on the deployment option you’ve chosen. For example, to enable it using built-in deployment, you do the following:
+How you enable Azure Defender for IoT depends on the deployment option you’ve chosen. For example, to enable it using built-in deployment, you do the following:
 
 1. Go to your **IoT Hub** in the Azure portal.
 1. On the left pane, select **Overview**, under **Security**.
 1. Select **Secure your IoT solution** .
 1. Fill in the onboarding form that appears.
 
-After you’ve enabled Azure Security Center for IoT, it will automatically begin to identify other Azure resources and services that are part of your IoT infrastructure, and are connected to your IoT Hub through automatic relationship detection. You can also select which resources, resource groups, or subscriptions to add. Azure Security Center for IoT provides security alerts and recommendations for them too.
+After you’ve enabled Azure Defender for IoT, it will automatically begin to identify other Azure resources and services that are part of your IoT infrastructure, and are connected to your IoT Hub through automatic relationship detection. You can also select which resources, resource groups, or subscriptions to add. Azure Defender for IoT provides security alerts and recommendations for them too.
 
 For example, you can select Azure resources to add by doing the following steps:
 
@@ -311,11 +311,11 @@ For example, you can select Azure resources to add by doing the following steps:
 1. Select **Edit**, then pick the resource groups that you want to add.
 1. Select **Add**.
 
-Azure Security Center for IoT will then begin to monitor the resources you’ve added.
+Azure Defender for IoT will then begin to monitor the resources you’ve added.
 
 ### Investigate and remediate security alerts and recommendations
 
-After you’ve set up Azure Security Center for IoT, it will begin to provide security alerts and recommendations to help protect your IoT infrastructure. You can now view and investigate security alerts, using the following steps:
+After you’ve set up Azure Defender for IoT, it will begin to provide security alerts and recommendations to help protect your IoT infrastructure. You can now view and investigate security alerts, using the following steps:
 
 1. Go to **Azure Security Center** in the Azure portal.
 1. Select **IoT Hubs & resources**, under **Resource security hygiene**.
@@ -334,9 +334,9 @@ issue.
 
 ## Learn more
 
-- [Onboard Windows servers to the Microsoft Defender ATP service](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/configure-server-endpoints).
-- [Onboarding to Azure Security Center Standard for enhanced security](https://docs.microsoft.com/azure/security-center/security-center-onboarding).
-- [Azure Security Center’s ACR bundle](https://docs.microsoft.com/azure/security-center/azure-kubernetes-service-integration)
-- [Azure Security Center’s AKS bundle](https://docs.microsoft.com/azure/security-center/azure-kubernetes-service-integration)
-- [Azure Security Center for IoT Supported platforms](https://docs.microsoft.com/azure/asc-for-iot/how-to-deploy-agent#supported-platforms)
-- [Azure Security Center for IoT supported regions](https://docs.microsoft.com/azure/asc-for-iot/service-prerequisites#supported-service-regions)
+- [Onboard Windows servers to Microsoft Defender for Endpoint](/windows/security/threat-protection/microsoft-defender-atp/configure-server-endpoints).
+- [Onboarding to Azure Security Center Standard for enhanced security](/azure/security-center/security-center-onboarding).
+- [Azure Security Center’s ACR bundle](/azure/security-center/azure-kubernetes-service-integration)
+- [Azure Security Center’s AKS bundle](/azure/security-center/azure-kubernetes-service-integration)
+- [Azure Defender for IoT Supported platforms](/azure/asc-for-iot/how-to-deploy-agent#supported-platforms)
+- [Azure Defender for IoT supported regions](/azure/asc-for-iot/service-prerequisites#supported-service-regions)

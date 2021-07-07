@@ -1,9 +1,11 @@
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4OIwK]
+
 In this exercise, you'll learn how to use task modules with bots in Microsoft Teams.
 
 The first step will be to create a bot and add it to our existing Microsoft Teams app. You'll then extend the bot to support the existing task modules to display a video and change the selected video.
 
 > [!NOTE]
-> This exercise requires a valid Azure subscription in order to create a bot using Bot Framework. However, if you do not have an Azure subscription, you can use the legacy Bot Framework Registration Portal. Refer to the following docs for more information: [Create a bot for Microsoft Teams](https://docs.microsoft.com/microsoftteams/platform/bots/how-to/create-a-bot-for-teams).
+> This exercise requires a valid Azure subscription in order to create a bot using Bot Framework. However, if you don't have an Azure subscription, you can use the legacy Bot Framework Registration Portal. Refer to the following docs for more information: [Create a bot for Microsoft Teams](/microsoftteams/platform/bots/how-to/create-a-bot-for-teams).
 
 > [!IMPORTANT]
 > This exercise assumes you have created the Microsoft Teams app project with the Yeoman generator that contains a personal tab from the previous exercise in this module. You'll update the project to add a new task module that uses an Adaptive Card.
@@ -21,11 +23,11 @@ Open a browser and navigate to the [Azure portal](https://portal.azure.com). Sig
 
 Select **Create a resource** in the left-hand navigation:
 
-![Screenshot of the primary Azure navigation](../media/07-azure-portal-01.png)
+![Screenshot of the primary Azure navigation - create a resource menu option](../media/07-azure-portal-01.png)
 
 Enter **resource group** in the **Search the marketplace** input box, and select **Resource group**.
 
-![Screenshot of creating a resource group](../media/07-azure-portal-02.png)
+![Screenshot of creating a resource group - search for 'resource group'](../media/07-azure-portal-02.png)
 
 On the **Resource Group** page, select the **Create** button to create a new resource group.
 
@@ -37,11 +39,11 @@ Complete the wizard to create the resource group. Once Azure has completed the r
 
 From the resource group, select the **Add** or **Create resources** button.
 
-![Screenshot of creating a new resource](../media/07-azure-bot-registration-01.png)
+![Screenshot of creating a new resource - create a resource group](../media/07-azure-bot-registration-01.png)
 
 Enter **bot** in the **Search the marketplace** input box, and select **Bot Channels Registration** from the list of resources returned. Then select **Create** on the next page to start the process of registering a new bot resource:
 
-![Screenshot of searching for the bot registration resource](../media/07-azure-bot-registration-02.png)
+![Screenshot of searching for the bot registration resource - search for a bot resource](../media/07-azure-bot-registration-02.png)
 
 In the **Bot Channels Registration** blade, enter the following values and then select **Create**:
 
@@ -59,7 +61,7 @@ In the **Bot Channels Registration** blade, enter the following values and then 
 
 Azure will start to provision the new resource. This will take a moment or two. Once it's finished, navigate to the bot resource in the resource group.
 
-![Screenshot of searching for the bot registration resource](../media/07-azure-bot-registration-03.png)
+![Screenshot of searching for the bot registration resource - created Bot Channel registration resource](../media/07-azure-bot-registration-03.png)
 
 ### Enable the Microsoft Teams channel for the bot
 
@@ -79,9 +81,7 @@ Once this process is complete, you should see both the **Web Chat** and **Micros
 
 When Azure created the bot, it also registered a new Azure AD app for the bot. You need to generate this new bot app a secret and copy the app's credentials.
 
-Select **Settings** from the left-hand navigation. Scroll down to the **Microsoft App ID** section.
-
-Copy the ID of the bot as you'll need it later.
+Select **Configuration** from the left-hand navigation. Copy the **Microsoft App ID** of the bot as you'll need it later.
 
 Select **Manage** to navigate to the Azure AD app blade:
 
@@ -89,7 +89,7 @@ Select **Manage** to navigate to the Azure AD app blade:
 
 ### Create a client secret for the app
 
-In order for the daemon app to run without user involvement, it will sign in to Azure AD with an application ID and either a certificate or secret. In this exercise, you'll use a secret.
+In order for your code to connect to the bot framework service, it will sign in to Azure AD with an application ID and either a certificate or secret. In this exercise, you'll use a secret.
 
 Select **Certificates & secrets** from the left-hand navigation panel.
 
@@ -126,7 +126,7 @@ Locate the section `"bots": [],` in the **manifest.json** file. Replace this emp
 ```json
 "bots": [
   {
-    "botId": "618ddfa7-7990-4bba-ab95-fc6e76d2c019",
+    "botId": "{{MICROSOFT_APP_ID}}",
     "scopes": [
       "personal"
     ],
@@ -153,9 +153,9 @@ The next step is to add the code to implement the bot.
 
 ### Code the bot
 
-Create a new folder **learningTeamsBot** in the **./src/app** folder.
+Create a new folder **learningTeamsBot** in the **./src/server** folder.
 
-Create a new file **learningTeamsBot.ts** in the new folder: **./src/app/learningTeamsBot**
+Create a new file **learningTeamsBot.ts** in the new folder: **./src/server/learningTeamsBot**
 
 Add the following code to the **learningTeamsBot.ts** file:
 
@@ -174,24 +174,26 @@ const TextEncoder = Util.TextEncoder;
 @BotDeclaration(
   "/api/messages",
   new MemoryStorage(),
+  // eslint-disable-next-line no-undef
   process.env.MICROSOFT_APP_ID,
+  // eslint-disable-next-line no-undef
   process.env.MICROSOFT_APP_PASSWORD)
 export class LearningTeamsBot extends TeamsActivityHandler {
   constructor() {
     super();
 
     // create handlers
-    this.onMessage(async (context, next) => {
+    this.onMessage(async (context: TurnContext): Promise<void> => {
       switch (context.activity.text.trim().toLowerCase()) {
-        case "mentionme":
+        case "mentionme": {
           await this.mentionActivity(context);
-          break;
-        default:
-          const card = CardFactory.heroCard("Learn Microsoft Teams", undefined, [ ]);
+          return;
+        }
+        default: {
+          const card = CardFactory.heroCard("Learn Microsoft Teams", undefined, []);
           await context.sendActivity({ attachments: [card] });
-          break;
+        }
       }
-      await next();
     });
   }
 
@@ -209,7 +211,7 @@ export class LearningTeamsBot extends TeamsActivityHandler {
 }
 ```
 
-Add the bot to the app components file (**./src/app/TeamsAppsComponents.ts**) so the bot will be loaded when the web server starts up. Add the following line to the **./src/app/TeamsAppsComponents.ts** file:
+Add the bot to the app components file (**./src/server/TeamsAppsComponents.ts**) so the bot will be loaded when the web server starts up. Add the following line to the **./src/server/TeamsAppsComponents.ts** file:
 
 ```typescript
 export * from "./learningTeamsBot/learningTeamsBot";
@@ -231,9 +233,9 @@ In the console, locate the dynamic URL created by ngrok:
 
 Go back to the bot registration in the Azure portal.
 
-Select **Settings** from the left-hand navigation. Update the **Messaging endpoint** of the bot to match the ngrok URL. The resulting URL should be **https://{{REPLACE_THIS}}.ngrok.io/api/messages**.
+Select **Configuration** from the left-hand navigation. Update the **Messaging endpoint** of the bot to match the ngrok URL. The resulting URL should be **https://{{REPLACE_THIS}}.ngrok.io/api/messages**.
 
-![Screenshot of the console with ngrok URL](../media/07-test-bot-02.png)
+![Screenshot of updating the messaging enpoint URL with the ngrok URL](../media/07-test-bot-02.png)
 
 Now you're ready to add the bot to Microsoft Teams. In the browser, navigate to **https://teams.microsoft.com** and sign in with the credentials of a Work and School account.
 
@@ -274,9 +276,11 @@ At this point, the bot is working. Move onto the next section to add task module
 
 ## Add the video player task module
 
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4OAON]
+
 In this section, you'll add a task module to the bot. First, let's update the Hero card to add a button the user can select.
 
-In the bot file, **./src/app/learningTeamsBot/learningTeamsBot.ts**, locate the class constructor. Locate Hero card statement in the `switch` statement's `default` path in the `onMessage()` handler:
+In the bot file, **./src/server/learningTeamsBot/learningTeamsBot.ts**, locate the class constructor. Locate Hero card statement in the `switch` statement's `default` path in the `onMessage()` handler:
 
 ```typescript
 const card = CardFactory.heroCard("Learn Microsoft Teams", undefined, [ ]);
@@ -376,7 +380,7 @@ The next step is to add a task module that submits data.
 
 In this section, you'll add an action to the Hero card that displays a task module using an Adaptive Card. This task module will submit data back to the bot that will use the value to display the specified video in the player task module.
 
-In the bot file, **./src/app/learningTeamsBot/learningTeamsBot.ts**, locate the code in the `learningTeamsBot` class constructor that created the Hero card. Add another action to the end, but notice this action specifies a different `value.taskModule` property:
+In the bot file, **./src/server/learningTeamsBot/learningTeamsBot.ts**, locate the code in the `learningTeamsBot` class constructor that created the Hero card. Add another action to the end, but notice this action specifies a different `value.taskModule` property:
 
 ```typescript
 {

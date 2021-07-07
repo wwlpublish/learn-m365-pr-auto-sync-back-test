@@ -3,11 +3,8 @@
 In this module, you will learn to:
 
 - Articulate the benefits of co-management for device management.
-
 - Describe the workloads that are supported by co-management.
-
 - Explain how to implement conditional access.
-
 - Describe the remote actions available for co-managed devices.
 
 Co-management enables you to concurrently manage Windows 10 devices by using both Configuration Manager and Microsoft Intune. It lets you cloud-attach your existing investment in Configuration Manager by adding new functionality. By using co-management, you have the flexibility to use the technology solution that works best for your organization.
@@ -28,14 +25,8 @@ When a Windows 10 device has the Configuration Manager client and is enrolled to
 When you enroll existing Configuration Manager clients in co-management, you gain the following immediate value:
 
 - Conditional access with device compliance
-
 - Intune-based remote actions, for example: restart, remote control, or factory reset
-
 - Centralized visibility of device health
-
 - Link users, devices, and apps with Azure Active Directory (Azure AD)
-
 - Modern provisioning with Windows Autopilot
-
 - Remote actions
-

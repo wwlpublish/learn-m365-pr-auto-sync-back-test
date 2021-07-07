@@ -1,10 +1,12 @@
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4OG35]
+
 In this unit, you’ll learn the basics of working with users with Microsoft Graph. Working with users requires a user and app be granted specific permissions, some can be granted by a user while others must be granted by an administrator.
 
 Users are the representation of an Azure Active Directory (Azure AD) work or school user account or a Microsoft account in Microsoft Graph. The user resource in Microsoft Graph is a hub from which you can access the relationships and resources that are relevant to your users.
 
 ## Develop user-centric applications
 
-You can use Microsoft Graph to access the relationships, documents, contacts, and preferences that are contextually relevant to the signed-in user. The user resource provides straightforward way for you to access and manipulate user resources without having to perform additional calls, look up specific authentication information, and directly issue queries against other Microsoft Graph resources.
+You can use Microsoft Graph to access the relationships, documents, contacts, and preferences that are contextually relevant to the signed-in user. The user resource provides straightforward way for you to access and manipulate user resources without having to do additional calls, look up specific authentication information, and directly issue queries against other Microsoft Graph resources.
 
 ## What can you do with the Microsoft Graph user resource
 
@@ -32,7 +34,7 @@ You can view, query, and update user calendar and calendar groups associated wit
 
 ### Administer mail and handle contacts
 
-You can configure user mail settings and contact lists and send mail on a user's behalf, including
+You can configure user mail settings and contact lists and send mail on a user's behalf, including:
 
 - List mail messages and send new mail
 - Create and list user contacts and organize contacts in folders
@@ -68,16 +70,16 @@ For example, to get a user with the Microsoft Graph .NET SDK, you would use the 
 ```csharp
 GraphServiceClient graphClient = GetAuthenticatedGraphClient(...);
 // get the signed-in user ...
-var user = client.Me.Request().GetAsync().Result;
+var user = graphClient.Me.Request().GetAsync().Result;
 // ... or get a specific user
-var user = client.Users['{ID}'].Request().GetAsync().Result;
+var user = graphClient.Users['{ID}'].Request().GetAsync().Result;
 // display the results
 Console.WriteLine(user.Id + ": " + user.DisplayName + " <" + user.Mail + ">");
 ```
 
-In order to perform user operations, you'll need one of the following permissions. The specific permission required will depend on the operation you want to perform.
+To do user operations, you'll need one of the following permissions. The specific permission required will depend on the operation you want to do.
 
-For example, if you are creating, editing or deleting a user, one of the *write* permissions is required. Some permissions can be granted by a user while others must be granted to the app by an administrator:
+For example, if you're creating, editing or deleting a user, one of the *write* permissions is required. Some permissions can be granted by a user while others must be granted to the app by an administrator:
 
 - Delegated permissions (granted by users)
   - User.ReadBasic.All
@@ -98,7 +100,7 @@ Microsoft Graph also enables developers to get a list of users. The `/users` end
 
 ```csharp
 GraphServiceClient graphClient = GetAuthenticatedGraphClient(...);
-var users = client.Users.Request().GetAsync().Result;
+var users = graphClient.Users.Request().GetAsync().Result;
 ```
 
 You can use the `$filter` and `$search` query parameters to get a subset of users from this collection as well.

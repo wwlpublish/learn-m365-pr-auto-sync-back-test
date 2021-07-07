@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.information-protection-microsoft-cloud-app-security.2-connect-cloud-app-security
+metadata:
+  title: Connect apps to Microsoft Cloud App Security
+  description: Connect apps to Microsoft Cloud App Security
+  ms.date: 05/14/2021
+  author: geoffallix
+  ms.author: beccarobins
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Connect apps to Microsoft Cloud App Security
+durationInMinutes: 7
+content: |
+  [!include[](includes/2-connect-cloud-app-security.md)]

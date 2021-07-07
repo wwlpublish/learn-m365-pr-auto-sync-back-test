@@ -1,3 +1,5 @@
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4NHyi]
+
 Conversation bots allow users to interact with a web service through text, interactive cards, and task modules from the Microsoft Teams client. This capability enables developers to create a guided interaction with your users.
 
 In this unit, you’ll learn the basics of bots, the Microsoft Bot Framework, and the steps required to register a bot in a Microsoft Teams app to interact with it from the Microsoft Teams client.
@@ -26,7 +28,7 @@ Scenarios that work well in a channel will usually work as well in a group chat.
 
 ### Bots in one-to-one chats
 
-This is the traditional way for a conversational bot to interact with a user. They can enable diverse workloads. Q&A bots, bots that initiate workflows in other systems, bots that tell jokes, and bots that take notes are just a few examples.
+This is the traditional way for a conversational bot to interact with a user. They can enable diverse workloads. Q&A bots, bots that start workflows in other systems, bots that tell jokes, and bots that take notes are just a few examples.
 
 Remember to consider whether a conversation-based interface is the best way to present your functionality.
 
@@ -38,7 +40,7 @@ A conversational bot consists of three things:
 - Your bot registration that registers your bot with the Bot Framework.
 - Your Teams app package that contains your app manifest. This is what your users install and connects the Teams client to your web service (routed through the Bot Service).
 
-Bots for Microsoft Teams are built on the [Microsoft Bot Framework](https://dev.botframework.com/). Microsoft recommends you use either C# or Node.js to take advantage of our [SDKs](https://docs.microsoft.com/microsoftteams/platform/#pivot=sdk-tools). These packages extend the basic Bot Builder SDK classes and methods:
+Bots for Microsoft Teams are built on the [Microsoft Bot Framework](https://dev.botframework.com/). Microsoft recommends you use either C# or Node.js to take advantage of our [SDKs](/microsoftteams/platform/#pivot=sdk-tools). These packages extend the basic Bot Builder SDK classes and methods:
 
 - use specialized card types such as adaptive cards
 - send and receive Microsoft Teams channel-specific data on activities
@@ -82,11 +84,11 @@ To create a conversational bot for Microsoft Teams, you need to do the following
 1. create your Microsoft Teams app manifest and app package
 1. upload your app package to Microsoft Teams
 
-Microsoft provides SDKs for multiple platforms, including .NET and Node.js. This module will use the Node.js SDK
+Microsoft provides SDKs for multiple platforms, including .NET and Node.js. This module will use the Node.js SDK.
 
 ### Create a web service
 
-The heart of your bot is the web service. It will define a single HTTPS route on which to receive all requests. The Microsoft Bot Framework will send different types of messages to your web service. Your web service can inspect the type of message to route it to the desired logic. The other option is to use one of the available SDKs that expose methods the SDK will call when messages matching specific types are received.
+The heart of your bot is the web service. It will define a single HTTPS route on which to receive all requests. The Microsoft Bot Framework will send different types of messages to your web service. Your web service can inspect the type of message to route it to the wanted logic. The other option is to use one of the available SDKs that expose methods the SDK will call when messages matching specific types are received.
 
 For example, when a messaging extension action command is invoked, the SDK will detect the message type `composeExtension/fetchTask` and call the `handleTeamsMessagingExtensionFetchTask()` method, passing in a context and the payload from the message sent as an HTTPS POST from the Microsoft Bot Framework.
 
@@ -138,7 +140,7 @@ You can use App Studio to add a bot to the app's manifest file. App Studio can c
 
 ![Screenshot of App Studio](../media/03-app-studio-01.png)
 
-The following JSON is taken from the app's manifest for the bot you'll create in the next unit of this module. This bot defines a new command **MentionMe** that is displayed to users who want to interact with it. Listing all the supported commands isn't required, but it does make your bot more user-friendly.
+The following JSON is taken from the app's manifest for the bot you'll create in the next unit of this module. This bot defines a new command, **MentionMe**, that is displayed to users who want to interact with it. Listing all the supported commands isn't required, but it does make your bot more user-friendly.
 
 ```json
 "bots": [
@@ -181,7 +183,7 @@ A bot behaves slightly differently depending on what kind of conversation it's i
 
 ### Activities
 
-Each message is an `Activity` object of type `messageType: message`. When a user sends a message, Teams posts the message to your bot; specifically, it sends a JSON object to your bot's messaging endpoint. Your bot examines the message to determine its type and respond accordingly.
+Each message is an `Activity` object of type `messageType: message`. When a user sends a message, Teams posts the message to your bot; specifically, it sends a JSON object to your bot's messaging endpoint. Your bot examines the message to determine its type and respond correctly.
 
 ### Receive a message
 
@@ -189,7 +191,7 @@ To receive a text message, use the `text` property of the `Activity` object. In 
 
 ### Send a message
 
-To send a text message, specify the string you want to send as the activity. In the bot's activity handlers, use the turn context object's `SendActivity` method to send a single message response.
+To send a text message, specify the string you want to send as the activity. In the bot's activity handlers, use the turn context object's `SendActivity()` method to send a single message response.
 
 ## Summary
 

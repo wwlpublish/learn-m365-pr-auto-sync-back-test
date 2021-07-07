@@ -1,0 +1,80 @@
+### YamlMime:ModuleUnit
+uid: learn-m365-pr.m365-windows.manage-windows-updates-cloud.8-knowledge-check
+title: Check your knowledge
+metadata:
+  title: Check your knowledge
+  description: Check your knowledge
+  ms.date: 03/09/2021
+  author: iankensey
+  ms.author: v-iakens
+  ms.topic: interactive-tutorial
+  ms.prod: learning-windows
+durationInMinutes: 5
+content: |
+quiz:
+  title: Check your knowledge
+  questions:
+  #Question 1
+  - content: Laptops are used across your organization. Which mobile device management tool will you use to control device behavior and Windows updates distribution?
+    choices:
+    - content: You'll use the Group Policy Management Console.
+      isCorrect: false
+      explanation: The Group Policy Management Console isn't a mobile device management tool.
+    - content: You'll use the Group Policy Editor.
+      isCorrect: false
+      explanation: Group Policy editor isn't a mobile device management tool.
+    - content: You'll use Microsoft Intune.
+      isCorrect: true
+      explanation: Microsoft Intune is one of the mobile device management tools that you can use. It's now also part of the Microsoft Endpoint Manager. You can also use non-Microsoft mobile device management solutions.
+ # Question 2 
+  - content: You want to validate upcoming feature updates and quality updates by enrolling some devices for Release Preview. What will you need to do?
+    choices:
+    - content: You'll join the Windows Insider Program for Business and/or sync the Windows Insider Pre-release category.
+      isCorrect: true
+      explanation: This will give you early access to feature updates that will be released soon.
+    - content: You'll join the Windows Update Control Program for Business.
+      isCorrect: false
+      explanation: This program doesn’t exist.
+    - content: You'll join the Windows Insider Program and enable the "Do not connect to any Windows Update Internet locations" Group Policy.
+      isCorrect: false
+      explanation: Don't enable that policy. It will stop devices from connecting to Windows Update.
+
+ # Question 3
+  - content: After configuring your devices, you want to monitor updates in your organization to identify any devices that have encountered an update failure. How will you do this?
+    choices:
+    - content: You'll use the Windows Settings page's built-in capabilities.
+      isCorrect: false
+      explanation: The Windows Settings page doesn't enable you to monitor updates across your users' devices.
+    - content: You'll use Microsoft Intune's built-in update monitoring capabilities.
+      isCorrect: true
+      explanation: Microsoft Intune comes with built-in reporting capabilities that you can use to monitor your updates.
+    - content: You'll use the Group Policy Editor.
+      isCorrect: false
+      explanation: The Group Policy Editor doesn't enable you to monitor updates across your users' devices.
+
+# Question 4
+
+  - content: You've found out that Remove access to use all Windows Update features Group Policy has been enabled for some devices. How will the devices be affected?
+    choices:
+    - content: The users won't be able to find out what Windows version they're running, and they won’t be able to configure their own active hours.
+      isCorrect: false
+      explanation: Users can still find out which Windows version they're running.
+    - content: Updates won't automatically be downloaded for those devices, and they can’t configure their own active hours.
+      isCorrect: false
+      explanation: Updates can still be downloaded automatically.
+    - content: The users won’t be able to take action to download or install an update that is offered to the device. Nor will they be able to configure their own active hours.
+      isCorrect: true
+      explanation: Users won't be able to download or install updates offered to their device or configure their own active hours.
+
+# Question 5
+  - content: When a user clicks "Check for Updates" what updates are offered to them?
+    choices:
+    - content: Only updates that were approved by the admin (directly or via policy) are offered to the user.
+      isCorrect: true
+      explanation: Only updates that the device would have received during its next scan (roughly every 22 hours) would be offered. The end-user checking for updates does NOT influence which updates they are offered. That is controlled by admin policy.
+    - content: The latest updates available are offered to the user.
+      isCorrect: false
+      explanation: The user won’t necessarily receive the latest updates. Only updates that were approved by the admin are offered to the device.
+    - content: No updates are offered to the user.
+      isCorrect: false
+      explanation: Updates that were approved by the admin are offered to the user’s device.

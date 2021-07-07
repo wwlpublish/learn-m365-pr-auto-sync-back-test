@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.information-protection-microsoft-cloud-app-security.6-summary
+metadata:
+  title: Summary
+  description: Summary
+  ms.date: 05/14/2021
+  author: geoffallix
+  ms.author: beccarobins
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Summary
+durationInMinutes: 2
+content: |
+  [!include[](includes/6-summary.md)]

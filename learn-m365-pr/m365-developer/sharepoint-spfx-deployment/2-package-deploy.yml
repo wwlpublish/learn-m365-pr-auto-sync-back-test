@@ -1,14 +1,14 @@
 ### YamlMime:ModuleUnit
 uid: learn-m365.sharepoint-spfx-deployment.2-package-deploy
 metadata:
-  title: Package and depoloy SharePoint Framework projects to production
+  title: Package and deploy SharePoint Framework projects to production
   description: In this unit, you'll learn how to package and deploy SharePoint Framework solutions to production.
-  ms.date: 08/31/2020
+  ms.date: 11/30/2020
   author: andrewconnell
   ms.author: v-johnco
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-title: Package and depoloy SharePoint Framework projects to production
+title: Package and deploy SharePoint Framework projects to production
 durationInMinutes: 12
 content: |
   [!include[](includes/2-package-deploy.md)]

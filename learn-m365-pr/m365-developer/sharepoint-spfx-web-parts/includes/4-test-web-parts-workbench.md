@@ -14,7 +14,7 @@ The local workbench is a great option for developers to develop and test web par
 
 The SharePoint-hosted workbench is hosted by a real SharePoint site, located at **https://{your-sharepoint-site}/_layouts/workbench.aspx**. The hosted workbench is unlike the local workbench in that because its hosted by a real SharePoint site, it has SharePoint context. This means that your web part can access data in SharePoint lists and libraries in the same site as the hosted workbench.
 
-The gulp **serve** task will continue to monitor your project and rebuild it when changes are made. However, unlike the local workbench, it won't automatically refresh the browser containing the hosted workbench. To see the changes, you will need to manually refresh the browser where you loaded the hosted workbench.
+The gulp **serve** task will continue to monitor your project and rebuild it when changes are made. However, unlike the local workbench, it won't automatically refresh the browser containing the hosted workbench. To see the changes, you'll need to manually refresh the browser where you loaded the hosted workbench.
 
 ## Debugging
 
@@ -24,19 +24,19 @@ While hosted in a real SharePoint site, the SharePoint-hosted workbench is still
 
 Both the local and hosted workbenches require you to start the local web server that will serve each workbench the SharePoint component's manifest and JavaScript bundle. To do this, execute the following command at the command line from the root of your project:
 
-```shell
+```console
 gulp serve
 ```
 
 This command will run the **build** and **bundle** tasks, start the local web server, launch the default browser, and load the workbench page. If you don't want it to launch the browser automatically, include the `--nobrowser` switch:
 
-```shell
+```console
 gulp serve --nobrowser
 ```
 
 ### Mapping files makes debugging easier
 
-SharePoint Framework projects are authored with TypeScript and the build process transpiles the TypeScript into JavaScript. It then bundles the built files into a single file. As a result of this transpiling and bundling process, it can be hard to debug the JavaScript that's generated in the build process and map it back to the TypeScript you wrote.
+SharePoint Framework projects are authored with TypeScript and the build process transpiles the TypeScript into JavaScript. It then bundles the built files into a single file. Because of this transpiling and bundling process, it can be hard to debug the JavaScript that's generated in the build process and map it back to the TypeScript you wrote.
 
 Source code-mapping files make it possible to debug the original TypeScript code from the running JavaScript code. Mapping files map each line in the generated JavaScript code back to the TypeScript code it was generated from. When you set a breakpoint in JavaScript, a tool such browser development tools or editors like Visual Studio Code, will show you the TypeScript when your breakpoint is hit, even though it's the JavaScript that's running.
 

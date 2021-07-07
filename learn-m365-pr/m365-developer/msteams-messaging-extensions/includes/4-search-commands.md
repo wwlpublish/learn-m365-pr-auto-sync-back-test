@@ -1,3 +1,5 @@
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4OIvK]
+
 Messaging extension search commands allow your users to search external systems and insert the results of that search into a message in the form of a card.
 
 In this unit, you’ll learn how to execute a messaging extension search command from an existing message.
@@ -21,7 +23,7 @@ To register a search command messaging extension, add it to the `composeExtensio
 ```json
 "composeExtensions": [
   {
-    "botId": "<REPLACE_WITH_MICROSOFT_APP_ID>",
+    "botId": "{{MICROSOFT_APP_ID}}",
     "canUpdateConfiguration": false,
     "commands": [
       {
@@ -47,11 +49,11 @@ The `context` property defines where the messaging extension can be invoked.
 
 The `parameters` property defines the input fields displayed in the search experience when the messaging extension is invoked.
 
-If you include the property `initialRun` to `true`, your web service will receive the invoke message as soon as the search command is invoked. Otherwise, it will only receive a message when the search is executed. This property defaults to `false` if it is omitted.
+If you include the property `initialRun` to `true`, your web service will receive the invoke message as soon as the search command is invoked. Otherwise, it will only receive a message when the search is executed. This property defaults to `false` if it's omitted.
 
 ### Respond to the search command
 
-When your search action is invoked, the Bot Framework will send an `Activity` object to your web service of type `composeExtension/query` with the command id that you need to respond to with an object containing a `composeExtension` object within five seconds of receiving the request:
+When your search action is invoked, the Bot Framework will send an `Activity` object to your web service of type `composeExtension/query` with the command ID that you need to respond to with an object containing a `composeExtension` object within five seconds of receiving the request:
 
 ```typescript
 export class PlanetBot extends TeamsActivityHandler {
@@ -102,7 +104,7 @@ The `attachments` property is used when `type` is set to `result` and contains a
 
 If `type` is set to `message`, an additional property `text` can be used to set the plain text message displayed.
 
-When `type` is set to `auth` or `config`, use the `suggestedActions` property to suggest additional actions to perform.
+When `type` is set to `auth` or `config`, use the `suggestedActions` property to suggest additional actions to do.
 
 ## Summary
 

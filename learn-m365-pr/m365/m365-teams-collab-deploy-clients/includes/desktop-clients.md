@@ -1,6 +1,5 @@
 The Microsoft Teams desktop client provides a full-featured experience and can be installed either individually by users or rolled out by IT in a mass deployment. Advantages of the Teams desktop client include auto-start, which ensures that you’ll stay signed in and won’t miss any important notifications, as well as more features and a more granular management experience.
 
-
 ## Installation options
 
 The Teams desktop client comes with a stand-alone (.exe) installer for user installation and works with MSI for IT installations. It's also available by default as part of Microsoft 365 Apps. Anybody who has a Teams license can sign in to Teams via the web.
@@ -16,14 +15,14 @@ The Windows desktop client is installed per user. The client can be installed wi
 
 ## Client updates
 
-The desktop client updates itself automatically, but users can also manually download updates. While Teams is installed by default with new installations of Microsoft 365 Apps, Teams follow its own update process and not that of other Office apps such as Word or PowerPoint.
+The desktop client updates itself automatically, but users can also manually download updates. While Teams is installed by default with new installations of Microsoft 365 Apps, Teams follows its own update process and not that of other Office apps such as Word or PowerPoint.
 
 Teams desktop client updates are released every two weeks after rigorous internal testing and validation. If a critical update is required, Teams will bypass this schedule and release the update as soon as it’s available.
 
 ## Learn more
 
-- [Hardware requirements for the Teams desktop app](https://docs.microsoft.com/microsoftteams/hardware-requirements-for-the-teams-app?azure-portal=true)
-- [Get clients for Microsoft Teams: Mac](https://docs.microsoft.com/microsoftteams/get-clients#mac?azure-portal=true)
-- [Manage configuration profiles](https://docs.microsoft.com/microsoftteams/device-management#use-configuration-profiles-in-teams?azure-portal=true)
-- [Manage device settings and firmware](https://docs.microsoft.com/microsoftteams/device-management#manage-devices-in-teams?azure-portal=true)
-- [Configure Microsoft Teams Rooms](https://docs.microsoft.com/microsoftteams/room-systems/with-office-365?azure-portal=true)
+- [Hardware requirements for the Teams desktop app](/microsoftteams/hardware-requirements-for-the-teams-app?azure-portal=true)
+- [Get clients for Microsoft Teams: Mac](/microsoftteams/get-clients#mac?azure-portal=true)
+- [Manage configuration profiles](/microsoftteams/device-management#use-configuration-profiles-in-teams?azure-portal=true)
+- [Manage device settings and firmware](/microsoftteams/device-management#manage-devices-in-teams?azure-portal=true)
+- [Configure Microsoft Teams Rooms](/microsoftteams/room-systems/with-office-365?azure-portal=true)

@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.configure-microsoft-cloud-app-security-cloud-discovery.5-implement-app-connectors
+metadata:
+  title: Implement app connectors
+  description: Learn to implement app connectors in Cloud App Security
+  ms.date: 05/14/2021
+  author: geoffallix
+  ms.author: beccarobins
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Implement app connectors
+durationInMinutes: 6
+content: |
+  [!include[](includes/5-implement-app-connectors.md)]

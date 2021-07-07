@@ -1,4 +1,4 @@
-The Microsoft Exchange Remote Connectivity Analyzer (ExRCA) helps you set up connectivity for your Exchange servers correctly. It can also help you find and fix problems. You can run tests on the ExRCA website to check for Microsoft Exchange ActiveSync, Exchange Web Services, Microsoft Outlook, and Internet email connectivity. 
+The Microsoft Remote Connectivity Analyzer helps you set up connectivity for your Exchange servers correctly. It can also help you find and fix problems. You can run tests on the Remote Connectivity Analyzer website to check for Microsoft Exchange ActiveSync, Exchange Web Services, Microsoft Outlook, and Internet email connectivity. 
 
 For Exchange ActiveSync, you can simulate the steps that a mobile device uses to connect to an Exchange server using Exchange ActiveSync and the steps an Exchange ActiveSync device uses to obtain settings from the Autodiscover service.  
 
@@ -10,6 +10,6 @@ Internet email tests check the steps for inbound SMTP email, outbound SMTP email
 
 ## Learn more
 
-[Remote Connectivity Analyzer tests for Exchange Online](https://docs.microsoft.com/exchange/clients-and-mobile-in-exchange-online/remote-connectivity-analyzer-tests&azure-portal=true) 
+[Remote Connectivity Analyzer tests for Exchange Online](/exchange/clients-and-mobile-in-exchange-online/remote-connectivity-analyzer-tests) 
 
  

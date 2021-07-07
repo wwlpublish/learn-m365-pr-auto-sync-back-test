@@ -4,7 +4,7 @@ title: Knowledge check
 metadata:
   title: Knowledge check
   description: "Knowledge check"
-  ms.date: 09/25/2020
+  ms.date: 02/17/2021
   author: wwlpublish
   ms.author: ceperezb
   ms.topic: interactive-tutorial
@@ -16,7 +16,7 @@ content: |
 quiz:
   title: "Check your knowledge"
   questions:
-  - content: "Which of the following is a is a cloud-based security solution that identifies, detects, and helps to investigate advanced threats, compromised identities, and malicious insider actions directed at your organization?"
+  - content: "Which of the following is a cloud-based security solution that identifies, detects, and helps to investigate advanced threats, compromised identities, and malicious insider actions directed at your organization?"
     choices:
     - content: "Microsoft Defender for Office 365 (MSDO)"
       isCorrect: false

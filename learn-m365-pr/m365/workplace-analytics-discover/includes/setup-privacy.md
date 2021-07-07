@@ -15,7 +15,7 @@ For more information on system requirements and data processing, see the **Learn
 
 ## Workplace Analytics and data privacy
 
-As an Office 365 service, Workplace Analytics sits in your organization’s trust boundaries with privacy safeguards and protections for individuals. By default, only metadata is processed for metric generation and personal information is not included. Your organization has full control over how Workplace Analytics is used, deployed, and the visibility it has in your organization.
+As a Microsoft 365 service, Workplace Analytics sits in your organization’s trust boundaries with privacy safeguards and protections for individuals. By default, only metadata is processed for metric generation and personal information is not included. Your organization has full control over how Workplace Analytics is used, deployed, and the visibility it has in your organization.
 
 These are the customer-specific controls.
 
@@ -32,4 +32,4 @@ Features in Workplace Analytics default to non-personal information and a minimu
 
 ## Learn more
 
-- [Set up Workplace Analytics](https://docs.microsoft.com/workplace-analytics/setup/set-up-workplace-analytics?azure-portal=true)
+- [Set up Workplace Analytics](/workplace-analytics/setup/set-up-workplace-analytics?azure-portal=true)

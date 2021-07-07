@@ -1,10 +1,12 @@
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4OAOL]
+
 In this unit, you’ll learn the basics of task modules in Microsoft Teams and how to collect input from users in a custom Teams tab.
 
 ## Overview
 
 Task modules allow you to create modal popup experiences in your Teams application. Inside the popup you can run your own custom HTML/JavaScript code, show an `<iframe>`-based widget such as a YouTube or Microsoft Stream video or display an Adaptive Card. They're especially useful for starting and completing tasks or displaying rich information like videos or Power BI dashboards. A popup experience is often more natural for users starting and completing tasks compared to a tab or a conversation-based bot experience.
 
-Task modules build on the foundation of Microsoft Teams tabs; they're essentially a tab inside a popup window. They use the same SDK, so if you've built a tab you're already 90% of the way to being able to create a task module.
+Task modules build on the foundation of Microsoft Teams tabs; they're essentially a tab inside a popup window. They use the same SDK, so if you've built a tab you're already 90% of the way to creating a task module.
 
 ![Screenshot of the YouTube Player task module](../media/03-yo-teams-10.png)
 
@@ -57,7 +59,7 @@ If an error object is passed to the callback, it will be one of the following va
 
 - **"Values for both card and url were specified. One or the other, but not both, are allowed."**: The `taskInfo` object contains values for both the `url` and `card` property. *These are mutually exclusive and only one should be specified.*
 - **"You must specify a value for either card or url."**: This error is the inverse of the previous one. Either the `url` or `card` properties are required.
-- **"Invalid appId."**: The `taskInfo.appId` property is not valid.
+- **"Invalid appId."**: The `taskInfo.appId` property isn't valid.
 - **"User cancelled/closed the task module."**: The user closed the task module.
 
 ## Summary

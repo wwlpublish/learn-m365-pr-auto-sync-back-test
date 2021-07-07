@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365-pr.m365-windows.manage-windows-updates-cloud.3-manage-updates-offered-windows-update
+title: Manage which updates are offered from Windows Update
+metadata:
+  title: Manage which updates are offered from Windows Update
+  description: Learn about how to manage the updates that Windows Update offers to your devices
+  ms.date: 03/09/2021
+  author: iankensey
+  ms.author: v-iakens
+  ms.topic: interactive-tutorial
+  ms.prod: learning-windows
+durationInMinutes: 6
+content: |
+  [!include[](includes/3-manage-updates-offered-windows-update.md)]

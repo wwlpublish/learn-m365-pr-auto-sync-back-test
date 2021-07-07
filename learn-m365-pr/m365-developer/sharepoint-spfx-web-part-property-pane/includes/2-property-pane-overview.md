@@ -78,7 +78,7 @@ export interface IHelloPropertyPaneWebPartProps {
 }
 ```
 
-Next, you need to import the field control objects into your web part's class. These controls are located in the **@microsoft/sp-webpart-base** package.
+Next, you need to import the field control objects into your web part's class. These controls are located in the **@microsoft/sp-property-pane** package.
 
 ```typescript
 import {
@@ -120,7 +120,7 @@ The next step to customizing the property pane is to define how you want to hand
 
 The default mode is reactive. In this mode, changes the value of the property pane controls are immediately applied to the associated properties of the web part.
 
-In the non-reactive mode, changes to field controls are not immediately applied to the associated property of the control. The user must select the **Apply** button at the bottom of the property pane that is only rendered when the web part's property pane is in non-reactive mode.
+In the non-reactive mode, changes to field controls aren't immediately applied to the associated property of the control. The user must select the **Apply** button at the bottom of the property pane that is only rendered when the web part's property pane is in non-reactive mode.
 
 > [!NOTE]
 > The non-reactive mode of client-side web part property panes matches how legacy server-side web part property panes worked.

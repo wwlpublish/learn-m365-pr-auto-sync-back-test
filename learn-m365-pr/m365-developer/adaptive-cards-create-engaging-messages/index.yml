@@ -3,7 +3,7 @@ uid: learn-m365.adaptive-cards-create-engaging-messages
 metadata:
   title: Create engaging messages with Adaptive Cards
   description: Adaptive Cards are platform-agnostic snippets of UI, authored in JSON, that apps and services can openly exchange. When delivered to a specific app, the JSON is transformed into native UI that automatically adapts to its surroundings. It helps design and integrate light-weight UI for all major platforms and frameworks. In this module, you’ll learn how to create engaging messages with Adaptive Cards to create Outlook Actionable Messages and conversations in Microsoft Teams.
-  ms.date: 09/10/2020
+  ms.date: 12/09/2020
   author: andrewconnell
   ms.author: suzanz
   ms.topic: interactive-tutorial
@@ -11,7 +11,7 @@ metadata:
 title: Create engaging messages with Adaptive Cards
 summary: Adaptive Cards are platform-agnostic snippets of UI, authored in JSON, that apps and services can openly exchange. When delivered to a specific app, the JSON is transformed into native UI that automatically adapts to its surroundings. It helps design and integrate light-weight UI for all major platforms and frameworks. In this module, you’ll learn how to create engaging messages with Adaptive Cards to create Outlook Actionable Messages and conversations in Microsoft Teams.
 abstract: |
-  By the end of this module, you will be able to:
+  By the end of this module, you'll be able to:
   - Explain the advantages of using Adaptive Cards in Microsoft Teams and Outlook Actionable Message solutions
   - Demonstrate how to create a conversational bot that replies to messages with Adaptive Cards in Microsoft Teams
   - Demonstrate how to send and receive Outlook Actionable Messages with Adaptive Cards

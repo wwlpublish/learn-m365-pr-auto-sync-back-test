@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.enable-conditional-access-app-control-third-party-apps.4-configure-conditional-access-app-control-box
+metadata:
+  title: Configure Conditional Access App Control for Box
+  description: Configure Conditional Access App Control for Box
+  ms.date: 05/14/2021
+  author: alistairmatthews
+  ms.author: beccarobins
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Configure Conditional Access App Control for Box
+durationInMinutes: 7
+content: |
+  [!include[](includes/4-configure-conditional-access-app-control-box.md)]

@@ -96,7 +96,7 @@ To test a command set extension, you include special query string parameters to 
 
 The Yeoman generator for the SharePoint Framework simplifies this process fo you by creating a configuration that the **gulp serve** task uses to create the debugging URL. These settings are defined in the **./config/serve.json** file.
 
-When SharePoint receives the request with these query string parameters, it will first prompt the user to confirm they want to load debugging scripts. SharePoint does this same technique could be used in a phishing attack. Therefore, you should only load the debugging scripts if you're sure you started the request.
+When SharePoint receives the request with these query string parameters, it will first prompt the user to confirm they want to load debugging scripts. SharePoint does this same technique could be used in a phishing attack. So, you should only load the debugging scripts if you're sure you started the request.
 
 ## Deployment
 

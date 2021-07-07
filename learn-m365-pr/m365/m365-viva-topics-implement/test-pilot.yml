@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365-pr.viva-topics-implement.test-pilot
+metadata:
+  title: Test your pilot for Viva Topics
+  description: Review a checklist to test your pilot Viva Topics deployment.
+  ms.date: 05/26/2021
+  author: lizap
+  ms.author: elizapo
+  ms.topic: interactive-tutorial
+  ms.prod: learning-teams
+title: Test your pilot for Viva Topics
+durationInMinutes: 4
+content: |
+  [!include[](includes/test-pilot.md)]

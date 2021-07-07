@@ -9,7 +9,7 @@ Teams app capabilities depend on underlying communication and collaboration tech
 - An Exchange Online shared mailbox and calendar
 - A OneNote notebook
 
-When you create a team from an existing Office 365 Group, that group’s membership, site, mailbox, and notebook are surfaced in Teams. To customize and extend Teams, you can add other apps such as Planner and Power BI through apps, bots, and connectors using custom tabs.  
+When you create a team from an existing Microsoft 365 Group, that group’s membership, site, mailbox, and notebook are surfaced in Teams. To customize and extend Teams, you can add other apps such as Planner and Power BI through apps, bots, and connectors using custom tabs.  
 
 ![Teams logical architecture](../media/logical-architecture.png)
 
@@ -48,4 +48,4 @@ For the full Teams experience, every user should be enabled for Exchange Online,
 
 When you're done with a link, use the **Back** arrow in your browser to come back to this page.
 
-- [Microsoft Teams IT architecture and telephony solutions](https://docs.microsoft.com/microsoftteams/teams-architecture-solutions-posters)
+- [Microsoft Teams IT architecture and telephony solutions](/microsoftteams/teams-architecture-solutions-posters)

@@ -8,9 +8,9 @@ The primary scenario for the Dialog API is authentication with third-party provi
 
 Another challenge with authentication scenarios is predicting the domains that will need to load. In federated sign-in scenarios the potential list of domains could be endless, which again is troublesome in an add-in where all domains need to be registered in the manifest.
 
-It's important to note that Office offers a single sign-on experience specific for Microsoft identities. If your add-in requires data about the Office user or their resources accessible through Microsoft Graph, such as Office 365 or OneDrive, Microsoft recommends you use the single sign-on API whenever you can. If you use the APIs for single sign-on, then you won't need the Dialog API.
+It's important to note that Office offers a single sign-on experience specific for Microsoft identities. If your add-in requires data about the Office user or their resources accessible through Microsoft Graph, such as Microsoft 365 or OneDrive, Microsoft recommends you use the single sign-on API whenever you can. If you use the APIs for single sign-on, then you won't need the Dialog API.
 
-Beyond authentication, the Dialog API can provide additional screen real estate for elements difficult to display in a traditional task pane of content add-in. A good example would be hosting a video that would be too small if confined to a task pane
+Beyond authentication, the Dialog API can provide more screen real estate for elements difficult to display in a traditional task pane of content add-in. A good example would be hosting a video that would be too small if confined to a task pane
 
 The Dialog API can display any HTTPS web page, but it must be launched to an app domain first and then redirect.
 

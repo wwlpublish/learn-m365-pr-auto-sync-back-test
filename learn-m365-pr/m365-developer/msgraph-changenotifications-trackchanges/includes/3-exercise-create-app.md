@@ -1,30 +1,51 @@
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4OO3m]
+
 In this exercise, you'll create a new Azure AD app registration using the Azure AD admin center and grant administrator consent to the required permission scopes.
+
+## Prerequisites
+
+Developing Microsoft Graph apps requires a Microsoft 365 tenant.
+
+For the Microsoft 365 tenant, follow the instructions on the [Microsoft 365 Developer Program](https://developer.microsoft.com/microsoft-365/dev-program) site for obtaining a developer tenant if you don't currently have a Microsoft 365 account.
+
+You'll use the .NET SDK to create custom Microsoft Graph app in this module. The exercises in this module assume you have the following tools installed on your developer workstation.
+
+> [!IMPORTANT]
+> In most cases, installing the latest version of the following tools is the best option. The versions listed here were used when this module was published and last tested.
+
+- [.NET SDK](https://dotnet.microsoft.com/) - v5.\* (or higher)
+- [ngrok](https://ngrok.com/)
+- [Visual Studio Code](https://code.visualstudio.com)
+
+You must have the minimum versions of these prerequisites installed on your workstation.
 
 ## Register Azure AD app
 
 Open a browser and navigate to the [Azure Active Directory admin center](https://aad.portal.azure.com). Login using a **Work or School Account**.
 
-Select **Azure Active Directory** in the left-hand navigation, then select **App registrations** under **Manage**.
+Select **Azure Active Directory** in the left-hand navigation.
 
-![Screenshot of the App registrations](../media/03-aad-portal-home.png)
+Select **Manage > App registrations** in the left-hand navigation.
 
-Select **New registration**. On the **Register an application** page
+  ![Screenshot of the App registrations](../media/azure-ad-portal-home.png)
 
-![Screenshot of App Registrations page](../media/03-aad-portal-newapp.png)
+On the **App registrations** page, select **New registration**.
 
-Set the values as follows:
+  ![Screenshot of App Registrations page](../media/azure-ad-portal-new-app-00.png)
+
+On the **Register an application** page, set the values as follows:
 
 - **Name**: GraphNotificationTutorial
 - **Supported account types**: Accounts in any organizational directory and personal Microsoft accounts
 - **Redirect URI**: Web > http://localhost
 
-![Screenshot of the Register an application page](../media/03-aad-portal-newapp-01.png)
+![Screenshot of the Register an application page](../media/azure-ad-portal-new-app-01.png)
 
 Select **Register**.
 
 On the **GraphNotificationTutorial** page, copy the value of the **Application (client) ID** and **Directory (tenant) ID** save it, you'll need them later in the exercise.
 
-![Screenshot of the application ID of the new app registration](../media/03-aad-portal-newapp-details.png)
+![Screenshot of the application ID of the new app registration](../media/azure-ad-portal-new-app-details.png)
 
 Select **Manage > Certificates & secrets**.
 
@@ -32,40 +53,38 @@ Select **New client secret**.
 
 Enter a value in **Description** and select one of the options for **Expires** and select **Add**.
 
-![Screenshot of the Add a client secret dialog](../media/03-aad-portal-newapp-secret.png)
+![Screenshot of the Add a client secret dialog](../media/azure-ad-portal-new-app-secret.png)
 
 Copy the client secret value before you leave this page. You'll need it later in the exercise.
 
 > [!IMPORTANT]
 > This client secret is never shown again, so make sure you copy it now.
 
-![Screenshot of the newly added client secret](../media/03-aad-portal-newapp-secret-03.png)
+![Screenshot of the newly added client secret](../media/azure-ad-portal-new-app-secret-02.png)
 
 Select **Manage > API Permissions**.
 
 Select **Add a permission** and select **Microsoft Graph**.
 
-![Screenshot selecting the Microsoft Graph service](../media/03-aad-portal-newapp-graphscope.png)
+![Screenshot selecting the Microsoft Graph service](../media/azure-ad-portal-new-app-permissions-01.png)
 
 Select **Application Permission**, expand the **User** group, and select **User.Read.All** scope.
 
 Select **Add permissions** to save your changes.
 
-![Screenshot selecting Microsoft Graph scope](../media/03-aad-portal-newapp-graphscope-02.png)
+![Screenshot selecting Microsoft Graph scope](../media/azure-ad-portal-new-app-permissions-02.png)
 
-![Screenshot of the newly added client secret](../media/03-aad-portal-newapp-graphscope-03.png)
+![Screenshot of the "not granted for Contoso" admin consent notification](../media/azure-ad-portal-new-app-permissions-03.png)
 
 The application requests an application permission with the **User.Read.All** scope. This permission requires administrative consent.
 
 Select **Grant admin consent for [your tenant name]**, then select **Yes** to consent this application and grant the application access to your tenant using the scopes you specified.
 
-![Screenshot approved admin consent](../media/03-aad-portal-newapp-graphscope-04.png)
+![Screenshot approved admin consent](../media/azure-ad-portal-new-app-permissions-04.png)
 
 ## Create an ASP.NET Core web API project
 
 In order for the Microsoft Graph to send notifications to your application running on your development machine, you need to use a tool such as ngrok to tunnel calls from the internet to your development machine. Ngrok allows calls from the internet to be directed to your application running locally without needing to create firewall rules.
-
-Before you continue, you should have [ngrok](https://ngrok.com) installed on your development machine.
 
 Run ngrok by executing the following command from the command line:
 
@@ -107,6 +126,7 @@ After creating the application, run the following commands to ensure your new pr
 cd msgraphapp
 dotnet add package Microsoft.Identity.Client
 dotnet add package Microsoft.Graph
+dotnet dev-certs https --trust
 dotnet run
 ```
 

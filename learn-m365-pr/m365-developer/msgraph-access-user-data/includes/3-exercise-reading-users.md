@@ -1,4 +1,22 @@
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4OO2Z]
+
 In this exercise, you'll create an Azure AD application registration using the Azure Active Directory admin center, a .NET Core console application, and query Microsoft Graph for user data.
+
+## Prerequisites
+
+Developing Microsoft Graph apps requires a Microsoft 365 tenant.
+
+For the Microsoft 365 tenant, follow the instructions on the [Microsoft 365 Developer Program](https://developer.microsoft.com/microsoft-365/dev-program) site for obtaining a developer tenant if you don't currently have a Microsoft 365 account.
+
+You'll use the .NET SDK to create custom Microsoft Graph app in this module. The exercises in this module assume you have the following tools installed on your developer workstation.
+
+> [!IMPORTANT]
+> In most cases, installing the latest version of the following tools is the best option. The versions listed here were used when this module was published and last tested.
+
+- [.NET SDK](https://dotnet.microsoft.com/) - v5.\* (or higher)
+- [Visual Studio Code](https://code.visualstudio.com)
+
+You must have the minimum versions of these prerequisites installed on your workstation.
 
 ## Create an Azure AD application
 
@@ -8,7 +26,7 @@ Select **Azure Active Directory** in the left-hand navigation.
 
 Select **Manage > App registrations** in the left-hand navigation.
 
-  ![Screenshot of the App registrations](../media/azure-ad-portal-home-appreg-01.png)
+  ![Screenshot of the App registrations](../media/azure-ad-portal-home.png)
 
 On the **App registrations** page, select **New registration**.
 
@@ -35,11 +53,11 @@ In the **Platform configurations** section, select the **Add a platform** button
 
 In the **Redirect URIs** section of the **Configure Desktop + devices** panel, select the entry that ends with **nativeclient**, and then select the **Configure** button:
 
-![Screenshot of the Configure Desktop + devices panel](../media/azure-ad-portal-new-app-02a.png)
+![Screenshot of the Configure Desktop + devices panel](../media/azure-ad-portal-new-app-03.png)
 
-In the **Authentication** panel, scroll down to the **Default client type** section and set the toggle to **Yes**.
+In the **Authentication** panel, scroll down to the **Allow public client flows** section and set the toggle to **Yes**.
 
-![Screenshot of the Default client type section](../media/azure-ad-portal-new-app-03.png)
+![Screenshot of the Default client type section](../media/azure-ad-portal-new-app-04.png)
 
 Select **Save** in the top menu to save your changes.
 
@@ -55,20 +73,22 @@ Select the **Add a permission** button.
 
 In the **Request API permissions** panel that appears, select **Microsoft Graph** from the **Microsoft APIs** tab.
 
-![Screenshot of Microsoft Graph in the Request API permissions panel](../media/azure-ad-portal-new-app-permissions-03.png)
+![Screenshot of Microsoft Graph in the Request API permissions panel](../media/azure-ad-portal-new-app-permissions-02.png)
 
 When prompted for the type of permission, select **Delegated permissions**.
 
 Enter **User.R** in the **Select permissions** search box and select the **User.Read.All** permission, followed by the **Add permission** button at the bottom of the panel.
 
-![Screenshot of the User.Read.All permission in the Request API permissions panel](../media/azure-ad-portal-new-app-permissions-04.png)
+![Screenshot of the User.Read.All permission in the Request API permissions panel](../media/azure-ad-portal-new-app-permissions-03.png)
 
 In the **Configured Permissions** panel, select the button **Grant admin consent for [tenant]**, and then select the **Yes** button in the consent dialog to grant all users in your organization this permission.
 
 > [!NOTE]
-> The option to **Grant admin consent** here in the Azure AD admin center is pre-consenting the permissions to the users in the tenant to simplify the exercise. This approach allows the console application to use the [resource owner password credential grant](https://docs.microsoft.com/azure/active-directory/develop/v2-oauth-ropc), so the user isn't prompted to grant consent to the application that simplifies the process of obtaining an OAuth access token. You could elect to implement alternative options such as the [device code flow](https://docs.microsoft.com/azure/active-directory/develop/v2-oauth2-device-code) to utilize dynamic consent as another option.
+> The option to **Grant admin consent** here in the Azure AD admin center is pre-consenting the permissions to the users in the tenant to simplify the exercise. This approach allows the console application to use the [resource owner password credential grant](/azure/active-directory/develop/v2-oauth-ropc), so the user isn't prompted to grant consent to the application that simplifies the process of obtaining an OAuth access token. You could elect to implement alternative options such as the [device code flow](/azure/active-directory/develop/v2-oauth2-device-code) to utilize dynamic consent as another option.
 
 ## Create .NET Core console application
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4Oyct]
 
 Open your command prompt, navigate to a directory where you have rights to create your project, and run the following command to create a new .NET Core console application:
 
@@ -332,6 +352,12 @@ Console.WriteLine(requestAllUsers.GetHttpRequestMessage().RequestUri);
 
 ### Build and test the application
 
+Run the following command in a command prompt to ensure the developer certificate has been trusted:
+
+```console
+dotnet dev-certs https --trust
+```
+
 Run the following command in a command prompt to compile the console application:
 
 ```console
@@ -346,9 +372,11 @@ dotnet run
 
 After entering the username and password of a user, you'll see the results of all users in the organization written to the console.
 
-![Screenshot of the console application showing all users in the organization](../media/app-run-03-01.png)
+![Screenshot of the console application showing all users in the organization](../media/03-app-run-01.png)
 
 ## Display the currently signed in user's details
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4OAT3]
 
 Now, update the console app to show details on the current user.
 
@@ -378,11 +406,11 @@ dotnet run
 
 After entering the username and password of a user, you'll see the details of the currently signed in user in the organization written to the console.
 
-![Screenshot of the console application showing the currently signed in user](../media/app-run-03-02.png)
+![Screenshot of the console application showing the currently signed in user](../media/03-app-run-02.png)
 
 ## Display details of a specific user
 
-In this last section, you will learn how to obtain a specific user's details.
+In this last section, you'll learn how to obtain a specific user's details.
 
 Locate the code you added above for `// request 2 - current user` and optionally comment it out so it doesn't continue to execute.
 
@@ -413,7 +441,7 @@ dotnet run
 
 After entering the username and password of a user, you'll see the details of a specific user.
 
-![Screenshot of the console application showing a specific user](../media/app-run-03-03.png)
+![Screenshot of the console application showing a specific user](../media/03-app-run-03.png)
 
 ## Summary
 

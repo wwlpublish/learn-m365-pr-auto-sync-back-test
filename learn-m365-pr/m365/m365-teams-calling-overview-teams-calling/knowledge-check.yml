@@ -1,0 +1,52 @@
+### YamlMime:ModuleUnit
+uid: learn-m365-pr.m365-teams-calling-overview.knowledge-check
+title: Knowledge check
+metadata:
+  title: Knowledge check
+  description: Check your knowledge.
+  ms.date: 03/02/2021
+  author: iankensey
+  ms.author: v-iakens
+  ms.topic: interactive-tutorial
+  ms.prod: learning-teams
+durationInMinutes: 3
+content: |
+quiz:
+  title: Check your knowledge
+  questions:
+  #Question 1
+  - content: What are the two methods available with Microsoft Teams Phone for implementing PSTN connectivity with Microsoft Teams?
+    choices:
+    - content: Direct Routing and a Session Border Controller to a PBX 
+      isCorrect: false
+      explanation: This doesn't cover the different methods for PSTN implementation.
+    - content: Calling Plan and a Session Border Controller to a PBX.
+      isCorrect: false
+      explanation: This doesn't cover the different methods for PSTN implementation.
+    - content: Direct Routing and Calling Plan.
+      isCorrect: true
+      explanation: You can use either options to implement PSTN with Microsoft Teams.
+ # Question 2 
+  - content: What is a primary motivation for using a Microsoft Calling Plan?
+    choices:
+    - content: You want to retain your existing PSTN carrier.  
+      isCorrect: false
+      explanation: With Teams Calling Plans, Microsoft becomes your carrier.
+    - content: You don’t want to purchase or deploy any additional equipment to connect to the PSTN.
+      isCorrect: true
+      explanation: With Teams Calling Plans you can use your existing equipment to connect to the PSTN.
+    - content: You need to support voice mail 
+      isCorrect: false
+      explanation: You don't need Teams Calling Plans for voicemail.
+ # Question 3
+  - content: When should you consider using Direct Routing rather than any other option?
+    choices:
+    - content: You need to interoperate with third-party PBXs and/or equipment such as overhead pagers, and other analog devices.
+      isCorrect: true
+      explanation: Direct Routing enables you to take advantage of third-party PBXs and equipment.
+    - content: You want to allow users to enable captioning and transcriptions when making a call.
+      isCorrect: false
+      explanation: You don't need Direct Routing for these features.
+    - content: You need to enable users to transfer calls between devices.
+      isCorrect: false
+      explanation: You don't need Direct Routing for these features.

@@ -1,4 +1,22 @@
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4OIAs]
+
 In this exercise, you'll create a new Azure AD web application registration using the Azure Active Directory admin center, a .NET Core console application, and query Microsoft Graph.
+
+## Prerequisites
+
+Developing Microsoft Graph apps requires a Microsoft 365 tenant.
+
+For the Microsoft 365 tenant, follow the instructions on the [Microsoft 365 Developer Program](https://developer.microsoft.com/microsoft-365/dev-program) site for obtaining a developer tenant if you don't currently have a Microsoft 365 account.
+
+You'll use the .NET SDK to create custom Microsoft Graph app in this module. The exercises in this module assume you have the following tools installed on your developer workstation.
+
+> [!IMPORTANT]
+> In most cases, installing the latest version of the following tools is the best option. The versions listed here were used when this module was published and last tested.
+
+- [.NET SDK](https://dotnet.microsoft.com/) - v5.\* (or higher)
+- [Visual Studio Code](https://code.visualstudio.com)
+
+You must have the minimum versions of these prerequisites installed on your workstation.
 
 ## Create an Azure AD application
 
@@ -6,39 +24,39 @@ Open a browser and navigate to the [Azure Active Directory admin center (https:/
 
 Select **Azure Active Directory** in the left-hand navigation.
 
-  ![Screenshot of the App registrations](../media/aad-portal-home.png)
+  ![Screenshot of the App registrations](../media/azure-ad-portal-home.png)
 
 Select **Manage > App registrations** in the left-hand navigation.
 
 On the **App registrations** page, select **New registration**.
 
-  ![Screenshot of App Registrations page](../media/aad-portal-newapp-00.png)
+  ![Screenshot of App Registrations page](../media/azure-ad-portal-new-app-00.png)
 
 On the **Register an application** page, set the values as follows:
 
 - **Name**: Graph Console App
 - **Supported account types**: Accounts in this organizational directory only (Contoso only - Single tenant)
 
-    ![Screenshot of the Register an application page](../media/aad-portal-newapp-01.png)
+    ![Screenshot of the Register an application page](../media/azure-ad-portal-new-app-01.png)
 
     Select **Register**.
 
-On the **Graph Console App** page, copy the value of the **Application (client) ID** and **Directory (tenant) ID**; you will need them later in this exercise.
+On the **Graph Console App** page, copy the value of the **Application (client) ID** and **Directory (tenant) ID**; you'll need them later in this exercise.
 
-  ![Screenshot of the application ID of the new app registration](../media/aad-portal-newapp-details.png)
+  ![Screenshot of the application ID of the new app registration](../media/azure-ad-portal-new-app-details.png)
 
 Select **Manage > Certificates & secrets**.
 
 Select **New client secret**.
 
-![Screenshot of the Add a client secret dialog](../media/aad-portal-newapp-secret.png)
+![Screenshot of the Add a client secret dialog](../media/azure-ad-portal-new-app-secret.png)
 
-On the **Add a client secret** page, enter a value in **Description**, select one of the options for **Expires** and select **Add**.
+In the **Add a client secret** panel that appears, enter a value in **Description**, select one of the options for **Expires** and select **Add**.
 
   > [!IMPORTANT]
   > This client secret is never shown again, so make sure you copy it now.
 
-![Screenshot of the newly added client secret](../media/aad-portal-newapp-secret-03.png)
+![Screenshot of the newly added client secret](../media/azure-ad-portal-new-app-secret-02.png)
 
 ### Grant Azure AD application permissions to Microsoft Graph
 
@@ -46,25 +64,27 @@ After creating the application, you need to grant it the necessary permissions t
 
 Select **API Permissions** in the left-hand navigation panel.
 
-![Screenshot of the API Permissions navigation item](../media/aad-portal-newapp-permissions-01.png)
+![Screenshot of the API Permissions navigation item](../media/azure-ad-portal-new-app-permissions-01.png)
 
 Select the **Add a permission** button.
 
 In the **Request API permissions** panel that appears, select **Microsoft Graph** from the **Microsoft APIs** tab.
 
-![Screenshot of Microsoft Graph in the Request API permissions panel](../media/aad-portal-newapp-permissions-03.png)
+![Screenshot of Microsoft Graph in the Request API permissions panel](../media/azure-ad-portal-new-app-permissions-02.png)
 
 When prompted for the type of permission, select **Application permissions**.
 
-![Screenshot of the User.Read.All permission in the Request API permissions panel](../media/aad-portal-newapp-permissions-04.png)
+![Screenshot of the User.Read.All permission in the Request API permissions panel](../media/azure-ad-portal-new-app-permissions-03.png)
 
 Enter **User.R** in the **Select permissions** search box and select the **User.Read.All** permission, followed by the **Add permission** button at the bottom of the panel.
 
 In the **Configured permissions** panel, select the button **Grant admin consent for [tenant]**, and then select **Yes** when in the confirmation dialog.
 
-![Screenshot of the Configured permissions panel](../media/aad-portal-newapp-permissions-05.png)
+![Screenshot of the Configured permissions panel](../media/azure-ad-portal-new-app-permissions-04.png)
 
 ## Create .NET Core console application
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4OIAz]
 
 Open your command prompt, navigate to a directory where you have rights to create your project, and run the following command to create a new .NET Core console application:
 
@@ -72,7 +92,7 @@ Open your command prompt, navigate to a directory where you have rights to creat
 dotnet new console -o graphconsoleapp
 ```
 
-After creating the application, run the following commands to ensure your new project runs correctly.
+After creating the application, run the following commands to ensure your new project runs correctly:
 
 ```console
 cd graphconsoleapp
@@ -291,6 +311,12 @@ Console.WriteLine(graphRequest.GetHttpRequestMessage().RequestUri);
 
 ### Build and test the application
 
+Run the following command in a command prompt to ensure the developer certificate has been trusted:
+
+```console
+dotnet dev-certs https --trust
+```
+
 Run the following command in a command prompt to compile the console application:
 
 ```console
@@ -311,6 +337,8 @@ When the application runs, you'll see a list of users displayed. The query retri
 > Notice the URL written to the console. This is the entire request, including query parameters, that the Microsoft Graph SDK is generating. Take note for each query you run in this exercise.
 
 ### Edit the application to optimize the query
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4OIAw]
 
 The current console application isn't efficient because it retrieves all information about all users in your organization but only displays three properties. The `$select` query parameter can limit the amount of data that is returned by Microsoft Graph, optimizing the query.
 

@@ -1,3 +1,5 @@
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4OG2R]
+
 In this unit, you’ll learn how to upload files to OneDrive using Microsoft Graph, including both small and large files.
 
 Microsoft Graph supports, through the REST API and through the multiple SDKs, the ability to upload files to OneDrive. There are two approaches to uploading files:
@@ -29,7 +31,7 @@ Content-Type: text/plain
 A new small file
 ```
 
-You can also use the Microsoft Graph .NET SDK to perform the same action. Assuming a file named **myNewSmallFile.txt** is present in the current folder, use the following code to upload the file to the currently signed-in user's root OneDrive account:
+You can also use the Microsoft Graph .NET SDK to do the same action. Assuming a file named **myNewSmallFile.txt** is present in the current folder, use the following code to upload the file to the currently signed-in user's root OneDrive account:
 
 ```csharp
 // get reference to stream of file in OneDrive
@@ -81,7 +83,7 @@ Content-Type: application/json
 }
 ```
 
-As long as the expiration date has not passed, you can resume the upload session when it's an interrupted or paused upload.
+As long as the expiration date hasn't passed, you can resume the upload session when it's an interrupted or paused upload.
 
 Once you've created the upload session, you can then upload bytes to the temporary file in OneDrive. In this example, you're uploading the first 25 bytes for a 128-byte file
 
@@ -93,7 +95,7 @@ Content-Range: bytes 0-25/128
 <bytes 0-25 of the file>
 ```
 
-The `Content-Range` specifies which chunk you are uploading and the total size of the file. The total size of the file should not change between upload sessions. If it does, the upload session will fail. The previous request will yield the following response that will again state the expiration time and the next expected range for the file:
+The `Content-Range` specifies which chunk you're uploading and the total size of the file. The total size of the file shouldn't change between upload sessions. If it does, the upload session will fail. The previous request will yield the following response that will again state the expiration time and the next expected range for the file:
 
 ```http
 HTTP/1.1 202 Accepted
@@ -161,7 +163,7 @@ using (Stream fileStream = new FileStream(filePath, FileMode.Open))
 
 ## Required permissions
 
-In order to upload files to OneDrive, you'll need one of the following permissions. The specific permission required will depend on the operation you want to perform.
+To upload files to OneDrive, you'll need one of the following permissions. The specific permission required will depend on the operation you want to do.
 
 - Delegated permissions (granted by users)
   - Files.ReadWrite

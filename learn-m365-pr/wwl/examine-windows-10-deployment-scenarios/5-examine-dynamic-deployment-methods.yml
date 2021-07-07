@@ -1,0 +1,29 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.examine-windows-10-deployment-scenarios.examine-dynamic-deployment-methods
+title: Examine the dynamic deployment methods
+metadata:
+  title: Examine the dynamic deployment methods
+  description: "Examine the dynamic deployment methods"
+  ms.date: 06/25/2021
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+durationInMinutes: 5
+content: |
+  [!include[](includes/5-examine-dynamic-deployment-methods.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "Contoso had been running Windows 10 Pro edition on all its devices. It recently purchased a Windows 10 Enterprise E3 online service subscription. Contoso is using Azure AD, and it has assigned a Windows 10 license to all of its users. All of Contoso's users will be signing in to their devices using the Azure AD credentials associated with their Windows 10 Enterprise E3 license. What will happen to their device when they sign in?"
+    choices:
+    - content: "Each device will run Contoso's Windows 10 provisioning package to install Windows 10 Enterprise"
+      isCorrect: false
+      explanation: "That's incorrect. This action isn't what happens when the users sign in to their devices. Try again."
+    - content: "The operating system turns from Windows 10 Pro to Windows 10 Enterprise with no keys and no reboots"
+      isCorrect: true
+      explanation: "That's correct. When a licensed user signs in to a device by using the Azure AD credentials associated with a Windows 10 Enterprise E3 or E5 license, the operating system turns from Windows 10 Pro to Windows 10 Enterprise with no keys and no reboots, and all the Windows 10 Enterprise features are unlocked."
+    - content: "The operating system turns from Windows 10 Pro to Windows 10 Enterprise and each user will have to reboot their device to unlock the Windows 10 Enterprise features"
+      isCorrect: false
+      explanation: "That's incorrect. This action isn't what happens when the users sign in to their devices. Try again."

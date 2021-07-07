@@ -1,6 +1,6 @@
-In this unit, you'll explore the Office add-ins programming model, developer tools, and the capabilities of the Office JavaScript APIs for Excel, Outlook, and Word.
+In this unit, you'll explore the Office Add-ins programming model, developer tools, and the capabilities of the Office JavaScript APIs for Excel, Outlook, and Word.
 
-## Understand the Office add-ins programming model
+## Understand the Office Add-ins programming model
 
 The Office add-in programming model relies on two JavaScript object models:
 
@@ -18,7 +18,7 @@ You may not always have control over the version of Office your users have insta
 
 Requirement sets can be specific to Office hosts, such as an ExcelApi 1.7 set, or common to multiple hosts, such as the Dialog API. Requirement set support varies by Office host and host version.
 
-It's possible to programmatically check if requirement sets are supported by your add-in's Office host, using `isSetSupported`. If the requirement set is supported, `isSetSupported` returns `true` and your add-in can run the additional code that uses the API members from that requirement set. If the Office host doesn't support the requirement set, `isSetSupported` returns `false` and the additional code won't run. The following code shows the syntax to use with `isSetSupported`.
+It's possible to programmatically check if requirement sets are supported by your add-in's Office host, using `isSetSupported`. If the requirement set is supported, `isSetSupported` returns `true` and your add-in can run the extra code that uses the API members from that requirement set. If the Office host doesn't support the requirement set, `isSetSupported` returns `false` and the extra code won't run. The following code shows the syntax to use with `isSetSupported`.
 
 ```javascript
 if (Office.context.requirements.isSetSupported(RequirementSetName, MinimumVersion)) {
@@ -45,9 +45,9 @@ To use these APIs, reference them on the Office.js content delivery network (CDN
 <script src="https://appsforoffice.microsoft.com/lib/beta/hosted/office.js" type="text/javascript"></script>
 ```
 
-Along with adding your preferred CDN link, all Office add-ins require an `Office.onReady()` call. You put your add-in code in this method, and it gets called once the Office.js library has initialized. Inside the `onReady()` method, you can determine which host your add-in is running in by checking the `Office.HostType` enum value (for example, `Excel` or `Word`). You can check which platform your add-in is running on with an `Office.PlatformType` enum value (for example, `PC` or `Mac`).
+Along with adding your preferred CDN link, all Office Add-ins require an `Office.onReady()` call. You put your add-in code in this method, and it gets called once the Office.js library has initialized. Inside the `onReady()` method, you can determine which host your add-in is running in by checking the `Office.HostType` enum value (for example, `Excel` or `Word`). You can check which platform your add-in is running on with an `Office.PlatformType` enum value (for example, `PC` or `Mac`).
 
-If you're using additional JavaScript frameworks that include their own initialization handler or tests, they should be placed within the response to `Office.onReady()`. For example, you would reference jQuery's `$(document).ready()` function as shown in the following code example.
+If you're using extra JavaScript frameworks that include their own initialization handler or tests, they should be placed within the response to `Office.onReady()`. For example, you would reference jQuery's `$(document).ready()` function as shown in the following code example.
 
 ```javascript
 Office.onReady(function() {
@@ -62,7 +62,7 @@ Office.onReady(function() {
 
 When you work with a document, requested read or write actions are batched up using a proxy object. Your API calls don't actually read or update the underlying document until you call the `sync()` method.
 
-For better security, your add-in runs in a sandboxed JavaScript environment that can't directly access the document, or other add-ins. The Office add-ins platform provides a `RequestContext` object that in turn provides proxy objects to represent the document (such as worksheets, ranges, and tables). The `RequestContext` is typically passed to your code as a parameter named `context`. You can use the `context` object to get any proxy objects you need to work with the document.
+For better security, your add-in runs in a sandboxed JavaScript environment that can't directly access the document, or other add-ins. The Office Add-ins platform provides a `RequestContext` object that in turn provides proxy objects to represent the document (such as worksheets, ranges, and tables). The `RequestContext` is typically passed to your code as a parameter named `context`. You can use the `context` object to get any proxy objects you need to work with the document.
 
 Before you can read the properties of a proxy object, you must load the properties to populate the proxy object with data from the Office document. You do this by calling the `load()` method on the proxy object for any properties you need. Then call the `context.sync()` method, which will load all of the requested properties. For example, if you create a proxy range object to work with a user-selected range in an Excel worksheet, and then want to read the selected range's `address` property, you need to load the `address` property before you can read it. To request properties of a proxy object to be loaded, call the `load()` method on the object and specify the properties to load.
 
@@ -84,9 +84,9 @@ Excel.run(function (context) {
 });
 ```
 
-## Understand Office add-ins developer tools
+## Understand Office Add-ins developer tools
 
-You can use Office add-ins developer tools to create an Office add-in, explore Office JavaScript APIs, and validate an Office add-in manifest file. In this unit, you'll learn about the following tools:
+You can use Office Add-ins developer tools to create an Office add-in, explore Office JavaScript APIs, and validate an Office add-in manifest file. In this unit, you'll learn about the following tools:
 
 - Yeoman generator for Office Add-ins
 - Visual Studio
@@ -102,7 +102,7 @@ You can create an Office add-in by using the Yeoman generator for Office Add-ins
 
 #### Yeoman generator for Office Add-ins
 
-The Yeoman generator for Office Add-ins can be used to create a Node.js Office add-in project that can be managed with Visual Studio Code or any other editor. The generator can create Office add-ins for:
+The Yeoman generator for Office Add-ins can be used to create a Node.js Office add-in project that can be managed with Visual Studio Code or any other editor. The generator can create Office Add-ins for:
 
 - Excel
 - OneNote
@@ -130,7 +130,7 @@ To create an Office add-in project with the Yeoman generator, complete the follo
 
 #### Visual Studio
 
-Visual Studio can be used to create Office add-ins for Excel, Word, PowerPoint, or Outlook. An Office add-in project gets created as part of a Visual Studio solution, which means you can use Visual Studio features like selecting **Start** or choosing <kbd>F5</kbd> to automatically run your add-in locally on IIS. Office add-in projects that you create with Visual Studio use HTML, CSS, and JavaScript.
+Visual Studio can be used to create Office Add-ins for Excel, Word, PowerPoint, or Outlook. An Office add-in project gets created as part of a Visual Studio solution, which means you can use Visual Studio features like selecting **Start** or choosing <kbd>F5</kbd> to automatically run your add-in locally on IIS. Office add-in projects that you create with Visual Studio use HTML, CSS, and JavaScript.
 
 To create an Office add-in with Visual Studio, create a new C# or Visual Basic project and choose one of the following project types:
 
@@ -149,7 +149,7 @@ The following video shows Script Lab in action.
 
 ### Validating an Office add-in's manifest file
 
-The Office add-ins manifest validator examines your add-in's manifest file to determine if it's correct and complete. If you created your add-in project using the Yeoman generator for Office Add-ins (version 1.1.17 or later), you can validate the manifest by running the following command in the root directory of the project.
+The Office Add-ins manifest validator examines your add-in's manifest file to determine if it's correct and complete. If you created your add-in project using the Yeoman generator for Office Add-ins (version 1.1.17 or later), you can validate the manifest by running the following command in the root directory of the project.
 
 ```console
 npm run validate
@@ -199,7 +199,7 @@ In addition to task pane add-ins, you can create contextual and module add-ins. 
 
 #### Authentication
 
-Your Outlook add-in can access information from anywhere on the Internet. A few examples include the server that hosts the add-in, your internal network, or elsewhere in the cloud. If that information is protected, your add-in needs a way to authenticate your user. Outlook add-ins provide a number of different methods to authenticate, depending on your specific scenario.
+Your Outlook add-in can access information from anywhere on the Internet. A few examples include the server that hosts the add-in, your internal network, or elsewhere in the cloud. If that information is protected, your add-in needs a way to authenticate your user. Outlook add-ins provide many different methods to authenticate, depending on your specific scenario.
 
 ##### Exchange user identity token
 
@@ -559,4 +559,4 @@ You can create a custom functions project by using the Yeoman generator for Offi
 
 ## Summary
 
-In this unit, you explored the Office add-ins programming model, developer tools, and the capabilities of the Office JavaScript APIs for Excel, Outlook, and Word.
+In this unit, you explored the Office Add-ins programming model, developer tools, and the capabilities of the Office JavaScript APIs for Excel, Outlook, and Word.

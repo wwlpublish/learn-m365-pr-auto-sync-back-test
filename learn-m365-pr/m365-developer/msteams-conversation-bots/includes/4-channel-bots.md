@@ -1,3 +1,5 @@
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4NzEs]
+
 Conversation bots can do many things within the Microsoft Teams client. They can subscribe to channel or group chat events, listen for and act on Microsoft Teams specific events and even update their own messages.
 
 In this unit, you’ll learn how to expand on your existing bot to add some of this functionality.
@@ -96,7 +98,7 @@ However, you shouldn't rely on the text in the message to retrieve any informati
 
 ### Updating and deleting existing messages
 
-Your bot can update existing messages that the bot created, but it can't another person's messages. The following code demonstrates how to update an existing message. The `replyToId` property on the activity that initiated the turn, use the `updateActivity()` method to update an existing message.
+Your bot can update existing messages that the bot created, but not messages created by others. The following code demonstrates how to update an existing message. The `replyToId` property on the activity that started the turn, use the `updateActivity()` method to update an existing message.
 
 ```typescript
 export class ConvoBot extends TeamsActivityHandler {

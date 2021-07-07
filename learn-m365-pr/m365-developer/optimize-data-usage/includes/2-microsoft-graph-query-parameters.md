@@ -1,3 +1,5 @@
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4OIAr]
+
 In this unit, let's look at the endpoint characteristics of Microsoft Graph and how you can use query parameters to manipulate requests.
 
 ## Accessing Microsoft Graph
@@ -6,11 +8,11 @@ Developers can create all sorts of applications that will communicate with Micro
 
 ### Microsoft Graph REST API
 
-At its core, Microsoft Graph is a REST API. That means that developers can use any platform, any framework, and any programming language they're most comfortable with. The only requirement is that they issue common HTTP requests and process HTTP responses. All recent platforms, frameworks, and languages have these capabilities.
+At its core, Microsoft Graph is a REST API. That means that developers can use any platform, any framework, and any programming language they're comfortable with. The only requirement is that they issue common HTTP requests and process HTTP responses. All recent platforms, frameworks, and languages have these capabilities.
 
 ### Microsoft Graph Native SDKs
 
-Microsoft Graph also provides multiple native SDKs for developers who want to use a rich programming model within their applications. These SDKs are available for multiple platforms and simplify the process of interacting with the Microsoft Graph’s REST API. They abstract away the tasks of constructing, submitting, and processing the REST requests and responses with the Microsoft Graph REST API.
+Microsoft Graph also provides multiple native SDKs for developers who want to use a rich programming model within their applications. These SDKs are available for multiple platforms and simplify the process of interacting with the Microsoft Graph REST API. They abstract away the tasks of constructing, submitting, and processing the REST requests and responses with the Microsoft Graph REST API.
 
 You'll find an existing SDK for the platform and language you're working on as all the popular platforms covered, including .NET, iOS, Android, Java, PhP, Ruby, JavaScript, and many more.
 
@@ -52,7 +54,7 @@ https://graph.microsoft.com/v1.0/me/contacts?$skip=10
 
 ### Requesting paged results
 
-Some queries against Microsoft Graph return multiple pages of data either due to server-side paging or due to the use of the `$top` query parameter to specifically limit the page size in a request. When a result set spans multiple pages, Microsoft Graph returns an `@odata.nextLink` property in the response that contains a URL to the next page of results.
+Some queries against Microsoft Graph return multiple pages of data either because of server-side paging or because of the use of the `$top` query parameter to specifically limit the page size in a request. When a result set spans multiple pages, Microsoft Graph returns an `@odata.nextLink` property in the response that contains a URL to the next page of results.
 
 For example, the following URL requests all the users in an organization with a page size of 5, specified with the `$top` query parameter:
 
@@ -66,7 +68,7 @@ If the result contains more than five users, Microsoft Graph will return an `@od
 "@odata.nextLink": "https://graph.microsoft.com/v1.0/users?$top=5&$skiptoken=X%274453707 ... 6633B900000000000000000000%27"
 ```
 
-You can retrieve the next page of results by sending the URL value of the @odata:nextLink property to Microsoft Graph.
+You can retrieve the next page of results by sending the URL value of the `@odata:nextLink` property to Microsoft Graph.
 
 ```http
 https://graph.microsoft.com/v1.0/users?$top=5&$skiptoken=X%274453707 ... 6633B900000000000000000000%27
@@ -76,7 +78,7 @@ Microsoft Graph will continue to return a reference to the next page of data in 
 
 ### Limiting data fields in results
 
-Microsoft Graph responses will include a set of default properties when no result set is defined. Including default properties means if you only want the display name and email address of numerous users, you will actually receive a lot more data that isn’t going to be used. To optimize the request and speed up the response, you can use the `$select` parameter to specify a comma-delimited list of properties you want to receive in the response.
+Microsoft Graph responses will include a set of default properties when no result set is defined. Including default properties means if you only want the display name and email address of many users, you'll actually receive a lot more data that isn’t going to be used. To optimize the request and speed up the response, you can use the `$select` parameter to specify a comma-delimited list of properties you want to receive in the response.
 
 ```http
 https://graph.microsoft.com/v1.0/users?$select=id,givenName,surname
@@ -92,10 +94,10 @@ The `$orderby` parameter enables developers to let data from Microsoft Graph be 
 https://graph.microsoft.com/v1.0/users?$orderby=displayName
 ```
 
-Complex fields can also be sorted. Complex types, such as the from field in an email message is a complex type of an email address that contains a name and address property. To sort by name, use `from/emailAddress/name`.
+Complex fields can also be sorted. Complex types, such as the *from* field in an email message is a complex type of an email address that contains a name and address property. To sort by name, use `from/emailAddress/name`.
 
 ```http
 https://graph.microsoft.com/v1.0/me/messages?$orderby=from/emailAddress/name
 ```
 
-By default, responses from Microsoft Graph are returned in the JSON format. However, you can request data in two other formats, ATOM, and XML, by adding the `$format` parameter.
+By default, responses from Microsoft Graph are returned in the JSON format. However, you can request data in two other formats, ATOM and XML, by adding the `$format` parameter.

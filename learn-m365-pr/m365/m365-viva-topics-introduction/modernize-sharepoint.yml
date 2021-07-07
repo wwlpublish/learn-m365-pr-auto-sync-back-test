@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.viva-topics-intro.modernize-sharepoint
+title: Modernize SharePoint for Viva Topics
+metadata:
+  title: Modernize SharePoint for Viva Topics
+  description: Learn how to update your SharePoint installation to take advantage of Viva Topics. 
+  ms.date: 05/26/2021
+  author: lizap
+  ms.author: elizapo
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+
+durationInMinutes: 4
+content: |
+  [!include[](includes/modernize-sharepoint.md)]

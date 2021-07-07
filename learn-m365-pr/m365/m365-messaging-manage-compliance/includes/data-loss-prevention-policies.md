@@ -1,4 +1,4 @@
-To comply with business standards and industry regulations, organizations must protect sensitive information and prevent its inadvertent disclosure. Sensitive information can include financial data or personal information like credit card numbers or health records. With a data loss prevention (DLP) policy in the Microsoft 365 Security & Compliance Center, you can identify, monitor, and automatically protect sensitive information. 
+To comply with business standards and industry regulations, organizations must protect sensitive information and prevent its inadvertent disclosure. Sensitive information can include financial data or personal information like credit card numbers or health records. With a data loss prevention (DLP) policy in the Microsoft 365 Defender portal, you can identify, monitor, and automatically protect sensitive information. 
 
 DLP policies are simple packages that contain sets of conditions, which are made up of mail flow rule conditions, exceptions, and actions that you create in the Exchange admin center (EAC) and then activate to filter email messages and attachments. 
 
@@ -84,7 +84,7 @@ You can also create a policy that blocks a message from leaving the sender's out
 
 ## Learn more
 
-- [Create a DLP policy from a template](https://docs.microsoft.com/exchange/security-and-compliance/data-loss-prevention/create-dlp-policy-from-template?azure-portal=true)
-- [Integrating sensitive information rules with mail flow rules](https://docs.microsoft.com/exchange/security-and-compliance/data-loss-prevention/integrate-sensitive-information-rules?azure-portal=true)
-- [Policy Tips](https://docs.microsoft.com/exchange/security-and-compliance/data-loss-prevention/policy-tips?azure-portal=true)
+- [Create a DLP policy from a template](/exchange/security-and-compliance/data-loss-prevention/create-dlp-policy-from-template?azure-portal=true)
+- [Integrating sensitive information rules with mail flow rules](/exchange/security-and-compliance/data-loss-prevention/integrate-sensitive-information-rules?azure-portal=true)
+- [Policy Tips](/exchange/security-and-compliance/data-loss-prevention/policy-tips?azure-portal=true)
 - [Video – Turn on & customize DLP policy tips for email](https://www.microsoft.com/videoplayer/embed/dd629bb7-063d-49f3-b7e1-8f2e0aa4de13?autoplay=false?azure-portal=true)

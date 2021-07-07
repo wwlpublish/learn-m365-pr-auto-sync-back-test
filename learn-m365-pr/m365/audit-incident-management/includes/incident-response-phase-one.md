@@ -41,3 +41,7 @@ In addition to ongoing internal penetration testing, Microsoft 365 conducts a va
 ## Protection of evidence
 
 The data collected during an incident response is often sensitive and must remain secure. The Microsoft 365 Security Response team is responsible for ensuring adequate encryption and information protection for all incident-related communications and documentation. This includes using secured evidence lockers for storage of forensic evidence collected during investigations. The team follows approved processes for handling forensic evidence, including chain of custody, to ensure all incident-related evidence remains secure and unmodified.
+
+## Learn more
+
+- [Microsoft 365 security incident management: Preparation](/compliance/assurance/assurance-sim-preparation?azure-portal=true)

@@ -1,12 +1,19 @@
-Workplace Analytics users can access metrics in two ways:
+Workplace Analytics users can analyze and explore the data in multiple ways:
 
-- **Explore dashboards**. Aggregated dashboards that give out-of-the-box insights.
-- **Flexible queries**. Query output row level data for more in-depth analysis.
+- The **Home** page displays the scope of your Workplace Analytics data and allows you to navigate to high-level insights, recommendations, and deeper analysis aligned to nine research-based behavioral outcomes.
+- The **Analyze** page contains two valuable tools: Peer analysis lets you quickly compare base metrics between groups. Queries allow you to customize row-level data for more in-depth exploration.
+- The **Plans** page works with MyAnalytics, where available, to provide targeted suggestions aimed at improving focus, collaboration, well-being, and seller success.
+- The **Settings** pages allow you to validate collaboration data, organizational data, and optional CRM data. It also lets you define system defaults, privacy settings, manager settings, and which calendar activity, if any, to exclude from analysis.
+
+![Main Workplace Analytics menu](../media/main-menu.png)
+
+> [!NOTE]
+> Click the **menu** icon at the top of the panel. It compresses the menu so you can see a full screen view. Click again to reveal the menu names.
+
+The graphic below shows how these outputs can be used to create executive presentations and business intelligence tools to drive transformational outcomes.
 
 > [!div class="centered"]
 > ![The flow of data](../media/data-flowpath.png)
-
-Outputs from the queries and dashboards can be used to create executive presentations and business intelligence tools to drive transformational outcomes.
 
 ## Workplace Analytics data sources
 
@@ -21,33 +28,43 @@ You can use organizational data to group and filter employees and understand how
 
 When Workplace Analytics processes collaboration data from Microsoft 365, it only processes metadata. Metadata is information **about** collaboration, like when and where items are sent (to and from), subject lines, and meeting attendee status. Workplace Analytics uses metadata to generate metrics related to email usage, meetings, Teams instant messages, and calls. The collaboration data refreshes weekly.
 
-Workplace Analytics joins the organizational data to the collaboration data to generate its data model for dashboards and queries. 
+Workplace Analytics joins the organizational data to the collaboration data to generate its data model for out-of-the-box insights and queries.
 
 ## Workplace Analytics metrics
 
-After the Workplace Analytics data sources are processed, the data is pseudonymized and filtered, creating a large library of behavioral base metrics related to workplace behaviors, time use, and networks. 
+After the Workplace Analytics data sources are processed, the data is de-identified and filtered, creating a large library of behavioral base metrics related to workplace behaviors, time use, and networks.
 
-![Data to metrics](../media/data-metrics.png)
+![Data to metrics](../media/data-to-metrics.png)
 
-The Explore dashboards report base metrics while allowing you to use organizational attributes to regroup or filter the analysis population. Flexible queries enable you to go one step further and actually customize base metrics—for example, measuring “recurring meeting hours” instead of the base metric of “meeting hours.”
+The Home page provides a high-level look at Workplace Analytics metrics for nine themed business outcomes aimed at giving leaders visibility into how work gets done.
+
+The Peer analysis feature compares base metrics between groups, allowing you to use organizational attributes to filter each population. Queries allow you to go one step further and customize base metrics—for example, measuring “recurring meeting hours” instead of the base metric of “meeting hours.”
 
 See the **Learn more** section below for a complete list of current Workplace Analytics metrics and terms.
 
 ## Workplace Analytics outputs
 
-**Explore dashboards** are out-of-the-box summary pages that can identify potential problem areas through guided exploration. The following is a snapshot of the Workplace Analytics **Week in the life** dashboard which gives you a high-level look at collaboration time in meetings, emails, and after hours for the average employee in the organization.
+Each themed business outcome on the **Home** page leverages multiple key indicators to offer views of how work happens, with links to further explore the stats and evidence-based suggestions on how to drive change for business success.
 
-![Explore dashboard](../media/explore-dashboard.png)
+The following is a snapshot of the **Protect employee wellbeing** view, which can be found by selecting the **Enhance organizational agility** outcome.
 
-**Flexible queries** (or simply queries) give you access to row-level data and customizable metrics.
+![Home page insight](../media/insight-example.png)
 
-The following is an example of flexible query output. It includes selected human resource attributes (level, function type, and region), as well as selected Workplace Analytics metrics (external and internal collaboration hours, meeting hours, and network size).
+**Peer analysis** provides a way to help you discover differences in collaboration behavior between groups.
 
-![Flexible query outputs](../media/flexible-query-outputs.png)
+The following is an example of Peer analysis output. It provides highlights on metrics with the most variation and charts to compare metric averages between groups.
 
-Flexible query output is available as a downloadable .csv file or as an OData link which can be loaded into business intelligence tools, such as PowerBI, to create impactful reports and presentations. For some queries, you can also visualize the results directly within Workplace Analytics.
+![Peer analysis output](../media/peer-analysis-output.png)
+
+**Queries** give you access to row-level data and customizable metrics.
+
+Below is an example of query output. It includes selected human resource attributes (level, function, type, and region), as well as selected Workplace Analytics metrics (external and internal collaboration hours, meeting hours, and network size).
+
+![Query output](../media/flexible-query-outputs.png)
+
+Query output is available as a downloadable .csv file or as an OData link which can be loaded into business intelligence tools, such as Power BI, to create impactful reports and presentations. For some queries, you can also visualize the results directly within Workplace Analytics.
 
 ## Learn more
 
-- [Workplace Analytics metric definitions](https://docs.microsoft.com/workplace-analytics/use/metric-definitions?azure-portal=true)
-- [Workplace Analytics glossary](https://docs.microsoft.com/workplace-analytics/use/glossary?azure-portal=true)
+- [Workplace Analytics metric definitions](/workplace-analytics/use/metric-definitions?azure-portal=true)
+- [Workplace Analytics glossary](/workplace-analytics/use/glossary?azure-portal=true)

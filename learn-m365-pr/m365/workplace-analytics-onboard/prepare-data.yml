@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.workplace-analytics-onboard.prepare-data
+title: Prepare and upload organizational data
+metadata:
+  title: Prepare and upload organizational data
+  description: Learn how to prepare and upload your Workplace Analytics organizational data. 
+  ms.date: 12/02/2020
+  author: lizap
+  ms.author: elizapo
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 7
+content: |
+  [!include[](includes/prepare-data.md)]

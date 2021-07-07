@@ -1,3 +1,5 @@
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4OO35]
+
 In this unit, you’ll learn how to create, update, and delete users and the permissions required to do these operations.
 
 Microsoft Graph has support for creating, updating, and deleting users in your organization. When creating or updating a user, HTTP request body contains the property values for the user. This is typically submitted as JSON object in string form.
@@ -79,14 +81,14 @@ GraphServiceClient graphClient = GetAuthenticatedGraphClient(...);
 Microsoft.Graph.User user = new Microsoft.Graph.User() {
   MobilePhone = "555-555-1212"
 };
-await client.Me.Request().UpdateAsync(user);
+await graphClient.Me.Request().UpdateAsync(user);
 ```
 
 ## Deleting users
 
 Deleting an existing user is similar to updating a user, except no payload is included in the request, and the request should be sent as an HTTP DELETE.
 
-For example, an HTTP request to update the current user's mobile phone would look like the following:
+For example, an HTTP request to delete a user would look like the following:
 
 ```http
 DELETE https://graph.microsoft.com/v1.0/users/{ID}
@@ -97,5 +99,5 @@ The same request submitted using the Microsoft Graph .NET SDK:
 
 ```csharp
 var userIdToDelete = "{ID}";
-await client.Users[userIdToDelete].Request().DeleteAsync();
+await graphClient.Users[userIdToDelete].Request().DeleteAsync();
 ```

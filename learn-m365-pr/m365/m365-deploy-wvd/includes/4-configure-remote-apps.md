@@ -1,13 +1,13 @@
-Now we have a host pool and workspace that we can use to deploy a remote app.  Let's create a RemoteApp application group to share an application to a different user in the organization. 
+Now we have a host pool and workspace that we can use to deploy a remote app.  Let's create a RemoteApp application group to share an application to a different user in the organization.
 
 To complete the exercise, you'll need the credentials for a different non-administrative user account that's in Active Directory.
 
-## Create and assign remote applications 
+## Create and assign remote applications
 
 ### Step 1: Basics
 
 1. [Sign in](https://portal.azure.com/learn.docs.microsoft.com?azure-portal=true) to the Azure portal.
-1. Use the search box to find **Windows Virtual Desktop**.
+1. Use the search box to find **Azure Virtual Desktop**.
 1. Select **Application groups** > **Add**.
 1. Select the subscription, resource group, host pool, and application type.
 
@@ -16,7 +16,7 @@ To complete the exercise, you'll need the credentials for a different non-admini
    |Field  |Description  |
    |---------|---------|
    |Subscription     |  Subscription where you want the app group to run       |
-   |Resource group     | Resource group you've created for Windows Virtual Desktop resources      |
+   |Resource group     | Resource group you've created for Azure Virtual Desktop resources      |
    |Host pool     | wvd-host-pool-1    |
    |Application group type     | RemoteApp    |
    |Application group name | RemoteApp1 |
@@ -57,6 +57,6 @@ To complete the exercise, you'll need the credentials for a different non-admini
 
 ## Verify access to application
 
-1. Go to the [Windows Virtual Desktop web client](https://rdweb.wvd.microsoft.com/arm/webclient/index.html).
+1. Go to the [Azure Virtual Desktop web client](https://rdweb.wvd.microsoft.com/arm/webclient/index.html).
 1. Sign in by using the user credentials for the user you assigned to the RemoteApp application group.
-1. You should see the application in the workspace. 
+1. You should see the application in the workspace.

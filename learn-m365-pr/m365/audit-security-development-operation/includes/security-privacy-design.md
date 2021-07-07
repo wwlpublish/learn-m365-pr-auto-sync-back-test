@@ -35,4 +35,4 @@ If a reviewer finds problems during code review, they can ask the submitter to r
 ## Learn more
 
 - [Threat Modeling](https://www.microsoft.com/securityengineering/sdl/threatmodeling?azure-portal=true)
-- [How We Use Git at Microsoft](https:/docs.microsoft.com/azure/devops/learn/devops-at-microsoft/use-git-microsoft?azure-portal=true)
+- [How We Use Git at Microsoft](/azure/devops/learn/devops-at-microsoft/use-git-microsoft?azure-portal=true)

@@ -1,3 +1,5 @@
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4OO1q]
+
 In this unit, you’ll learn how to use Adaptive Cards in a custom task module in a custom Microsoft Teams app. You’ll also learn how to invoke task modules from anywhere within Microsoft Teams using deep links.
 
 ## Overview of adaptive cards
@@ -8,9 +10,9 @@ Adaptive Cards are a cross-product specification for various Microsoft products 
 
 An Adaptive Card is represented as a JSON object. The JSON string defines all the controls, text, and actions that the hosting application will use to render the card.
 
-This JSON can be authored in any text editor. The Microsoft Teams app, App Studio, can be used to author Adaptive Cards starting with a template as well as preview the rendering of the card.
+This JSON can be authored in any text editor. The Microsoft Teams app, App Studio, can be used to author Adaptive Cards starting with a template and preview the rendering of the card.
 
-![Screenshot of the YouTube Video Selector card](../media/05-appstudio-04.png)
+![Screenshot of the YouTube Video Selector card](../media/05-app-studio-04.png)
 
 The following JSON represents an Adaptive Card that contains an input box and single submit button:
 

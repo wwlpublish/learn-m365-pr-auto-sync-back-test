@@ -2,11 +2,11 @@ By preparing your organization for collaboration and cloud voice services with T
 
 The following checklists walk you through the steps for deploying Microsoft Teams in your organization:
 
-- [Prepare Microsoft 365 for Teams](https://docs.microsoft.com/microsoftteams/office-365-groups)
-- [Configure Teams core capabilities](https://docs.microsoft.com/MicrosoftTeams/deploy-chat-teams-channels-microsoft-teams-landing-page) 
-- [Configure networking](https://docs.microsoft.com/microsoftteams/upgrade-prepare-environment-prepare-network) 
-- [Configure cloud voice workloads in Teams](https://docs.microsoft.com/MicrosoftTeams/cloud-voice-landing-page)
-- [Configure Direct Routing in Teams](https://docs.microsoft.com/MicrosoftTeams/direct-routing-landing-page) 
+- [Prepare Microsoft 365 for Teams](/microsoftteams/office-365-groups)
+- [Configure Teams core capabilities](/MicrosoftTeams/deploy-chat-teams-channels-microsoft-teams-landing-page) 
+- [Configure networking](/microsoftteams/upgrade-prepare-environment-prepare-network) 
+- [Configure cloud voice workloads in Teams](/MicrosoftTeams/cloud-voice-landing-page)
+- [Configure Direct Routing in Teams](/MicrosoftTeams/direct-routing-landing-page) 
 
 
  The tasks and activities in these checklists are the core "to-do" items that apply to every deployment of collaboration and voice capabilities with Teams. You can customize the checklists to include the activities and tasks that are specific to your own Teams journey.
@@ -25,4 +25,4 @@ When you’re onboarding users on a per-site basis, we highly recommended that y
 
 When you're done with a link, use the **Back** arrow in your browser to come back to this page.
 
-- [Prepare your service for upgrading to Teams](https://docs.microsoft.com/MicrosoftTeams/upgrade-prepare-environment-prepare-service)
+- [Prepare your service for upgrading to Teams](/MicrosoftTeams/upgrade-prepare-environment-prepare-service)

@@ -1,0 +1,53 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.integrate-third-party-identity-providers-mcas.5-knowledge-check
+metadata:
+  title: Knowledge check
+  description: Knowledge check
+  ms.date: 05/14/2021
+  author: alistairmatthews
+  ms.author: beccarobins
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Knowledge check
+durationInMinutes: 4
+content: |
+  [!include[](includes/5-knowledge-check.md)]
+quiz:
+  title: Check your knowledge
+  questions:
+
+  - content: "An administrator at Contoso wants to use device identification as a way to enforce Conditional App Access Control in Cloud App Security. The administrator knows that client certificates in a trusted chain can be used to make a determination around access or session policies that implement device state as a filter. Which of the following can also be used?"
+    choices:
+    - content: "Whether a device is AD DS joined."
+      isCorrect: false
+      explanation: " That's incorrect. A device must also be Azure AD joined. In other words, a device must be Hybrid Azure AD joined"
+    - content: "Whether a device is Azure AD joined."
+      isCorrect: true
+      explanation: "That's correct. A device must also be AD DS joined. In other words, a device must be Hybrid Azure AD joined"
+    - content: "Whether a device is Azure AD registered."
+      isCorrect: false
+      explanation: "That's incorrect. A device must be Hybrid Azure AD joined."
+
+  - content: "An administrator at Contoso wants to use device identification as a way to enforce Conditional App Access Control in Cloud App Security. The administrator knows that client certificates in a trusted chain can be used to make a determination around access or session policies that implement device state as a filter. The administrator starts to upload root CA certificates to the Cloud App Security portal. What format do the certificates need to be?"
+    choices:
+    - content: "Certificates must be in the .CER format."
+      isCorrect: false
+      explanation: " That's incorrect. Certificates cannot be uploaded in this format."
+    - content: " Certificates must be in the PEM format."
+      isCorrect: true
+      explanation: "That's correct. You can upload Root CE certificates and intermediate CA certificates in this format."
+    - content: " Certificates must be in the P7B format."
+      isCorrect: false
+      explanation: "That's incorrect. Certificates cannot be uploaded in this format."
+
+  - content: "When an administrator starts to deploy Conditional Access App Control with AD FS as the identity provider, they create a new AD FS Relying Party Trust and App Single Sign-On configuration. Why is this necessary?"
+    choices:
+    - content: "To duplicate the existing configuration."
+      isCorrect: false
+      explanation: " That's incorrect. This procedure doesn’t duplicate the existing configuration."
+    - content: "To create a secondary configuration, which is a requirement of this process."
+      isCorrect: false
+      explanation: "That's incorrect. You do not need a secondary configuration."
+    - content: "To limit end-user downtime and preserve your existing known good configuration."
+      isCorrect: true
+      explanation: "That's correct. It’s a good idea to create a new Relying Party Trust and SSO configuration to limit user inconvenience during setup, and to ensure your live configuration is unaffected."

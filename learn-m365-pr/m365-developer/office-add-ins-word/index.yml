@@ -1,14 +1,14 @@
 ### YamlMime:Module
 uid: learn-m365.office-add-ins-word
 metadata:
-  title: Build Office add-ins for Word
-  description: This module walks through development of Office add-ins for Microsoft Word.
-  ms.date: 08/31/2020
+  title: Build Office Add-ins for Word
+  description: This module walks through development of Office Add-ins for Microsoft Word.
+  ms.date: 06/17/2021
   author: andrewconnell
   ms.author: suzanz
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-title: Build Office add-ins for Word
+title: Build Office Add-ins for Word
 summary: Microsoft Office clients enable developers to create add-ins that extend Microsoft Word with custom functionality. Through a JavaScript API, developers can manipulate the content in a Word document from an app running in the task pane. In this module, you'll learn how to build a Word add-in that inserts (and replaces) text ranges, paragraphs, images, HTML, tables, and content controls. You'll also learn how to format text and how to insert (and replace) content in content controls.
 abstract: |
   By the end of this module, you'll be able to:

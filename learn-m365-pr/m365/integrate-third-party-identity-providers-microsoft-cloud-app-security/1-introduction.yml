@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.integrate-third-party-identity-providers-mcas.1-introduction
+metadata:
+  title: Introduction
+  description: Integrate third-party identity providers with Microsoft Cloud App Security
+  ms.date: 05/14/2021
+  author: alistairmatthews
+  ms.author: beccarobins
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Introduction
+durationInMinutes: 2
+content: |
+  [!include[](includes/1-introduction.md)]

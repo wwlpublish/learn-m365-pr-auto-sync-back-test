@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.configure-microsoft-cloud-app-security-cloud-discovery.4-work-with-discovered-apps
+metadata:
+  title: Work with discovered apps
+  description: Learn how to work with discovered apps
+  ms.date: 05/14/2021
+  author: geoffallix
+  ms.author: beccarobins
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Work with discovered apps
+durationInMinutes: 8
+content: |
+  [!include[](includes/4-work-with-discovered-apps.md)]

@@ -3,7 +3,7 @@ uid: learn-m365.optimize-data-usage.5-exercise-expand-related-entities-search-co
 metadata:
   title: Exercise - Expand related entities & search content in Microsoft Graph
   description: In this exercise, you'll use the Azure AD application and .NET console application you previously created to find related entities and search for users by using the $expand and $search query parameters.
-  ms.date: 09/10/2020
+  ms.date: 06/18/2021
   author: andrewconnell
   ms.author: v-johnco
   ms.topic: interactive-tutorial
@@ -19,10 +19,10 @@ quiz:
     choices:
     - content: "?$include"
       isCorrect: false
-      explanation: "$include is not a valid query parameter."
+      explanation: "$include isn't a valid query parameter."
     - content: "?$join"
       isCorrect: false
-      explanation: "$join is not a valid query parameter."
+      explanation: "$join isn't a valid query parameter."
     - content: "?$expand"
       isCorrect: true
       explanation: "Correct, the $expand query parameter will include related entities for the specified collection property."
@@ -30,13 +30,13 @@ quiz:
     choices:
     - content: "?$find(\"wilk*\")"
       isCorrect: false
-      explanation: "$find is not a valid query parameter."
+      explanation: "$find isn't a valid query parameter."
     - content: "?$find=\"wilk*\""
       isCorrect: false
-      explanation: "$find is not a valid query parameter."
+      explanation: "$find isn't a valid query parameter."
     - content: "?$search(\"wilk*\")"
       isCorrect: false
-      explanation: "While the $search query parameter is the correct way to search, it is not a function that expects parameters as used here."
+      explanation: "While the $search query parameter is the correct way to search, it isn't a function that expects parameters as used here."
     - content: "?$search=\"wilk*\""
       isCorrect: true
-      explanation: "Correct! Proceed to the next unit in the module."
+      explanation: "Correct! Continue to the next unit in the module."

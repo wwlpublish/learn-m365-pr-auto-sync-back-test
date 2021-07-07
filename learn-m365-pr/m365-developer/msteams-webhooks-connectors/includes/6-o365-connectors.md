@@ -1,3 +1,5 @@
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4ODcX]
+
 Registered Connectors can be distributed as part of a Microsoft Teams app package. Whether as a standalone solution, or one of several capabilities that your experience enables in Microsoft Teams, you can provide it to users directly for uploading within Microsoft Teams.
 
 Microsoft Teams supports two types of Connectors: incoming webhooks and Office 365 Connectors. In this unit, you’ll learn how to create an Office 365 Connector and add it to Microsoft Teams.
@@ -47,7 +49,7 @@ Developers implementing the configuration experience should do the following:
 
 Your code should handle users returning to edit an existing connector configuration. To do this, call `microsoftTeams.settings.setSettings()` during the initial configuration.
 
-The call to `setSettings()` is usually made as part of your `registerOnSaveHandler()` implementation.
+The call to `setSettings()` is made as part of your `registerOnSaveHandler()` implementation.
 
 ### Removing configured Connectors
 

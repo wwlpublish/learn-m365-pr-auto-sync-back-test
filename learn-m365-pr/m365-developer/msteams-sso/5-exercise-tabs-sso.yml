@@ -1,0 +1,50 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.msteams-sso.5-exercise-tabs-sso
+metadata:
+  title: Exercise - Single sign-on (SSO) with Microsoft Teams tabs
+  description: In this exercise, you'll add a custom tab to the existing Microsoft Teams app and use single sign-on (SSO) to obtain an access token to submit requests to Microsoft Graph.
+  ms.date: 06/18/2021
+  author: andrewconnell
+  ms.author: suzanz
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Exercise - Single sign-on (SSO) with Microsoft Teams tabs
+durationInMinutes: 15
+content: |
+  [!include[](includes/5-exercise-tabs-sso.md)]
+quiz:
+  title: Test your knowledge
+  questions:
+  - content: "The Azure AD application registered for a Microsoft Teams SSO enabled app automatically trust that of the Microsoft Teams clients to call it?"
+    choices:
+      - content: "The Microsoft Teams web client is automatically trusted by the Azure AD application because its a hosted web application maintained by Microsoft."
+        isCorrect: false
+        explanation: "This isn't correct - none of the Microsoft Teams clients are automatically trusted by the app."
+      - content: "The Microsoft Teams web client is automatically trusted by the Azure AD application because its a hosted web application maintained by Microsoft."
+        isCorrect: false
+        explanation: "This isn't correct - none of the Microsoft Teams clients are automatically trusted by the app."
+      - content: "All Microsoft Teams clients, including the web client, desktop clients, and mobile clients, are automatically trusted by the Azure AD application."
+        isCorrect: false
+        explanation: "This isn't correct - none of the Microsoft Teams clients are automatically trusted by the app."
+      - content: "None of the Microsoft Teams clients are automatically trusted by the Azure AD application. Add the `access_as_user` scope for each of the Microsoft Teams clients you want trust."
+        isCorrect: true
+        explanation: "Correct!"
+  - content: "Which of the following application types are supported for Microsoft Teams SSO enabled apps?"
+    choices:
+      - content: "Multitenant"
+        isCorrect: true
+        explanation: "Correct!"
+      - content: "Single tenant, multitenant, and personal accounts."
+        isCorrect: false
+        explanation: "Single tenant applications aren't supported."
+      - content: "Single tenant and personal accounts"
+        isCorrect: false
+        explanation: "Single tenant applications aren't supported; multitenant applications are supported."
+  - content: "In order for a Microsoft Teams tab to obtain an access token to submit authorized requests to Microsoft Graph, an administrator must first grant consent to all defined permissions before users access the tab."
+    choices:
+    - content: "False"
+      isCorrect: true
+      explanation: "Correct!"
+    - content: "True"
+      isCorrect: false
+      explanation: "This is not correct. While administrators can proactively grant admin consent to permissions to an Azure AD app before users access the tab, Microsoft Teams and the tab can prompt the user to consent as well when necessary."

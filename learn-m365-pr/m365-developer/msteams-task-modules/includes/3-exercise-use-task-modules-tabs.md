@@ -1,8 +1,10 @@
-In this exercise, you'll learn the basics of task modules in Microsoft Teams and how to collect input from users in a custom Teams tab. After creating a new Microsoft Teams personal tab, you'll add two task modules to it.
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4ODbu]
+
+In this exercise, you'll learn the basics of task modules in Microsoft Teams and how to collect input from users in a custom task module. After creating a new Microsoft Teams personal tab, you'll add two task modules to it.
 
 One is a standard HTML page that accepts the ID of a video on YouTube. When the task module is invoked, it will display the video using the YouTube embedded player. This task module will get the video ID from the query string, but it will not need to return any information back to the tab.
 
-![Screenshot of the YouTube Player task module](../media/03-yo-teams-10.png)
+![Screenshot of the YouTube Player task module loading a web page](../media/03-yo-teams-10.png)
 
 The other task module is implemented using React, the same way custom tabs are implemented using the Yeoman Generator for Microsoft Teams. This task module enables the user to specify the ID of the YouTube video to display. Once changed, when the user saves their changes, it will use the callback to close submit the new ID back to the tab.
 
@@ -10,22 +12,22 @@ The other task module is implemented using React, the same way custom tabs are i
 
 ## Prerequisites
 
-Developing Microsoft Teams apps requires an Office 365 tenant, Microsoft Teams configured for development, and the necessary tools installed on your workstation.
+Developing Microsoft Teams apps requires a Microsoft 365 tenant, Microsoft Teams configured for development, and the necessary tools installed on your workstation.
 
-For the Office 365 tenant, follow the instructions on [Microsoft Teams: Prepare your Office 365 tenant](https://docs.microsoft.com/microsoftteams/platform/get-started/get-started-tenant) for obtaining a developer tenant if you don't currently have an Office 365 account. Make sure you have also enabled Microsoft Teams for your organization.
+For the Microsoft 365 tenant, follow the instructions on [Microsoft Teams: Prepare your Microsoft 365 tenant](/microsoftteams/platform/get-started/get-started-tenant) for obtaining a developer tenant if you don't currently have a Microsoft 365 account. Make sure you've also enabled Microsoft Teams for your organization.
 
-Microsoft Teams must be configured to enable custom apps and allow custom apps to be uploaded to your tenant to build custom apps for Microsoft Teams. Follow the instructions on the same **Prepare your Office 365 tenant** page mentioned above.
+Microsoft Teams must be configured to enable custom apps and allow custom apps to be uploaded to your tenant to build custom apps for Microsoft Teams. Follow the instructions on the same **Prepare your Microsoft 365 tenant** page mentioned above.
 
 You'll use Node.js to create custom Microsoft Teams tabs in this module. The exercises in this module assume you have the following tools installed on your developer workstation.
 
 > [!IMPORTANT]
 > In most cases, installing the latest version of the following tools is the best option. The versions listed here were used when this module was published and last tested.
 
-- [Node.js](https://nodejs.org/) - v10.\* (or higher)
+- [Node.js](https://nodejs.org/) - v12.\* (or higher)
 - NPM (installed with Node.js) - v6.\* (or higher)
 - [Gulp](https://gulpjs.com/) - v4.\* (or higher)
 - [Yeoman](https://yeoman.io/) - v3.\* (or higher)
-- [Yeoman Generator for Microsoft Teams](https://github.com/OfficeDev/generator-teams) - v2.15.0 (or higher)
+- [Yeoman Generator for Microsoft Teams](https://github.com/OfficeDev/generator-teams) - v3.0.3 (or higher)
 - [Visual Studio Code](https://code.visualstudio.com)
 
 You must have the minimum versions of these prerequisites installed on your workstation.
@@ -48,43 +50,19 @@ Yeoman will launch and ask you a series of questions. Answer the questions with 
 - **Where do you want to place the files?**: Use the current folder
 - **Title of your Microsoft Teams App project?**: YouTube Player
 - **Your (company) name? (max 32 characters)**: Contoso
-- **Which manifest version would you like to use?**: v1.6
-- **Enter your Microsoft Partner ID, if you have one?**: (Leave blank to skip)
+- **Which manifest version would you like to use?**: v1.8
+- **Quick scaffolding**: Yes
 - **What features do you want to add to your project?**: A Tab
 - **The URL where you will host this solution?**: (Accept the default option)
 - **Would you like to show a loading indicator when your app/tab loads?** No
-- **Would you like to include Test framework and initial tests?**: No
-- **Would you like to use Azure Applications Insights for telemetry?**: No
 - **Default Tab name? (max 16 characters)**: YouTube Player 1
-- **Do you want to create a configurable or static tab?**: Static
+- **What kind of Tab would you like to create?**: Personal (static)
 - **Do you require Azure AD Single-Sign-On support for the tab?** No
 
 > [!NOTE]
 > Most of the answers to these questions can be changed after creating the project. For example, the URL where the project will be hosted isn't important at the time of creating or testing the project.
 
 After answering the generator's questions, the generator will create the scaffolding for the project and then execute `npm install` that downloads all the dependencies required by the project.
-
-### Ensure the project is using the latest version of Teams manifest & SDK
-
-Run the npm command to install the latest version of the SDK
-
-```console
-npm i @microsoft/teams-js
-```
-
-Locate and open the `manifest.json` file in the `manifest`  folder of the project. 
-- Change the `$schema` property to **https://developer.microsoft.com/en-us/json-schemas/teams/v1.7/MicrosoftTeams.schema.json**
-- Change the `manifestVersion` property to **1.7**.
-
-Open the `gulp.config.js` file in the root folder of the project. Add the following to the **SCHEMAS** property.
-
-```json
-{
-  version: "1.7",
-  schema: "https://developer.microsoft.com/en-us/json-schemas/teams/v1.7/MicrosoftTeams.schema.json"
-}
-```
-
 
 ### Test the personal tab
 
@@ -108,11 +86,11 @@ This gulp task will run many other tasks all displayed within the command-line c
 
 Open a browser and navigate to the ngrok URL displayed in the console:
 
-![Screenshot of the local web app hosting the Teams tab project](../media/03-yo-teams-03.png)
+![Screenshot of the local web app hosting the Teams tab project with the homepage loaded](../media/03-yo-teams-03.png)
 
 Update the URL in the browser to load the tab created by the scaffolding process. Here you can see the page can determine that it isn't running within the Microsoft Teams client.
 
-![Screenshot of the local web app hosting the Teams tab project](../media/03-yo-teams-04.png)
+![Screenshot of the local web app hosting the Teams tab project with the tab loaded](../media/03-yo-teams-04.png)
 
 Now let's load the tab in Microsoft Teams. In the browser, navigate to **https://teams.microsoft.com** and sign in with the credentials of a Work and School account.
 
@@ -139,7 +117,7 @@ Select the app to navigate to the new tab:
 
 ![Screenshot of the installed Microsoft Teams app personal tab](../media/03-yo-teams-08.png)
 
-Notice that when the content page is loaded in a tab within the Microsoft teams client, it's displaying the value of the `entityId` property of the tab, not the message "This isn't hosted in Microsoft Teams" as you saw when viewing the content page in the browser. The tab can detect if it's loaded within the Microsoft Teams client using the Microsoft Teams JavaScript SDK.
+Notice that when the content page is loaded in a tab within the Microsoft Teams client, it's displaying the value of the `entityId` property of the tab, not the message "This isn't hosted in Microsoft Teams" as you saw when viewing the content page in the browser. The tab can detect if it's loaded within the Microsoft Teams client using the Microsoft Teams JavaScript SDK.
 
 The next step is to make some changes to the project.
 
@@ -149,115 +127,70 @@ Next, stop the local web server by pressing <kbd>CTRL</kbd>+<kbd>C</kbd> in the 
 
 Now you can implement the user interface for the tab. The simple tab will have a basic interface.
 
-Locate and open the file that contains the React component used in the project: **./src/app/scripts/youTubePlayer1Tab/YouTubePlayer1Tab.tsx**.
+Locate and open the file that contains the React component used in the project: **./src/client/youTubePlayer1Tab/YouTubePlayer1Tab.tsx**.
 
-Update the import statements in this file to add components from the Fluent UI - React library. Find the following import statement at the top of the file that imports components from the Fluent UI - React library:
+Update the `import` statements in this file to add components from the Fluent UI - React library. Find the following `import` statement at the top of the file that imports components from the Fluent UI - React library:
 
 ```typescript
 import { Provider, Flex, Text, Button, Header } from "@fluentui/react-northstar";
 ```
 
-Replace the previous statement with the following import statement:
+Replace the previous statement with the following `import` statement:
 
 ```typescript
-import {
-  Provider,
-  Flex,
-  Text,
-  Button,
-  Header,
-  ThemePrepared,
-  themes,
-  Input
-} from "@fluentui/react-northstar";
+import { Provider, Flex, Text, Button, Header, Input } from "@fluentui/react-northstar";
 ```
 
-Update the state of the component to contain a list of items and a property for a new item. Locate the `IYouTubePlayer1TabState` interface in the **YouTubePlayer1Tab.tsx** file and add the following properties to it:
+Update the state of the component to contain a video ID. Add the following statement after the existing `useState` statements in the **YouTubePlayer1Tab.tsx** file:
 
 ```typescript
-teamsTheme: ThemePrepared;
-youTubeVideoId?: string;
+const [youTubeVideoId, setYouTubeVideoId] = useState<string | undefined>("VlEH4vtaxp4");
 ```
 
-Add the following method to the `YouTubePlayer1Tab` class that updates the component state to the theme that matches the currently selected Microsoft Teams client theme:
+Add the following methods to the `YouTubePlayer1Tab` class. These methods will handle updating the state when specific events happen on the form you'll add to the component:
 
 ```typescript
-private updateComponentTheme = (teamsTheme: string = "default"): void => {
-  let theme: ThemePrepared;
+const onShowVideo = (): void => {
+};
 
-  switch (teamsTheme) {
-    case "default":
-      theme = themes.teams;
-      break;
-    case "dark":
-      theme = themes.teamsDark;
-      break;
-    case "contrast":
-      theme = themes.teamsHighContrast;
-      break;
-    default:
-      theme = themes.teams;
-      break;
-  }
-  // update the state
-  this.setState(Object.assign({}, this.state, {
-    teamsTheme: theme
-  }));
-}
+const onChangeVideo = (): void => {
+};
 ```
 
-Initialize the current theme and state of the component. Locate the line `this.updateTheme(this.getQueryVariable("theme"));` and replace it with the following code in the `componentWillMount()` method:
-
-```typescript
-this.updateComponentTheme(this.getQueryVariable("theme"));
-this.setState(Object.assign({}, this.state, {
-  youTubeVideoId: "VlEH4vtaxp4"
-}));
-```
-
-Within the `componentWillMount()` method, locate the following line:
-
-```typescript
-microsoftTeams.registerOnThemeChangeHandler(this.updateTheme);
-```
-
-This code registers an event handler to update the component's theme to match the theme of the current Microsoft Teams client when this page is loaded as a tab. Update this line to call the new handler in the following line to register another handler to update the component theme:
-
-```typescript
-microsoftTeams.registerOnThemeChangeHandler(this.updateComponentTheme);
-```
-
-With the theme management and state initialized, we can now implement the user interface.
-
-Locate the `render()` method and update the return statement to the following code. The `render()` method will now display the list of items in our state out with a brief copyright statement:
+Locate the `return` statement and update to the following code. The component will now display state with a brief copyright statement:
 
 ```tsx
-public render() {
-  return (
-    <Provider theme={this.state.teamsTheme}>
-      <Flex column gap="gap.smaller">
+return (
+  <Provider theme={theme}>
+    <Flex fill={true} column styles={{
+      padding: ".8rem 0 .8rem .5rem"
+    }}>
+      <Flex.Item>
         <Header>Task Module Demo</Header>
-        <Text>YouTube Video ID:</Text>
-        <Input value={this.state.youTubeVideoId} disabled></Input>
-        <Button content="Change Video ID" onClick={this.onChangeVideo}></Button>
-        <Button content="Show Video" primary onClick={this.onShowVideo}></Button>
-        <Text content="(C) Copyright Contoso" size="smallest"></Text>
-      </Flex>
-    </Provider>
-  );
-}
+      </Flex.Item>
+      <Flex.Item>
+        <div>
+          <div>
+            <Text>YouTube Video ID:</Text>
+            <Input value={youTubeVideoId} disabled></Input>
+          </div>
+          <div>
+            <Button content="Change Video ID" onClick={() => onChangeVideo()}></Button>
+            <Button content="Show Video" primary onClick={() => onShowVideo()}></Button>
+          </div>
+        </div>
+      </Flex.Item>
+      <Flex.Item styles={{
+        padding: ".8rem 0 .8rem .5rem"
+      }}>
+        <Text content="(C) Copyright Contoso" size="smaller"></Text>
+      </Flex.Item>
+    </Flex>
+  </Provider>
+);
 ```
 
-The next step is to add some interactivity to the tab. Add the following methods to the `YouTubePlayer1Tab` class. These methods will handle updating the state when specific events happen on the form you'll add to the component:
-
-```typescript
-private onShowVideo = (event: React.MouseEvent<HTMLButtonElement>): void => {
-}
-
-private onChangeVideo = (event: React.MouseEvent<HTMLButtonElement>): void => {
-}
-```
-
+The next step is to add some interactivity to the tab.
 
 ### Test the personal tab
 
@@ -283,7 +216,7 @@ Stop the local web server by pressing <kbd>CTRL</kbd>+<kbd>C</kbd> in the consol
 
 ## Add video player task module
 
-A task module can be a web page implemented with HTML and JavaScript. Create the video player task module by creating a new file, **player.html** in the **./src/app/web/youTubePlayer1Tab** folder in your project.
+A task module can be a web page implemented with HTML and JavaScript. Create the video player task module by creating a new file, **player.html** in the **./src/public/youTubePlayer1Tab** folder in your project.
 
 Add the following HTML to the **player.html** file:
 
@@ -343,12 +276,12 @@ Implement the `<iframe>` embedded video player by adding the following JavaScrip
 
 Now, implement the task module in the personal tab.
 
-Locate and open the **./src/app/scripts/YouTubePlayer1Tab.tsx** file.
+Locate and open the **./src/client/youTubePlayer1Tab/YouTubePlayer1Tab.tsx** file.
 
-First, add the following utility method to the `YouTubePlayer1Tab` class:
+First, add the following utility method to the `YouTubePlayer1Tab` component:
 
 ```typescript
-private appRoot(): string {
+const appRoot = (): string => {
   if (typeof window === "undefined") {
     return "https://{{HOSTNAME}}";
   } else {
@@ -360,10 +293,10 @@ private appRoot(): string {
 Next, add the following code to the `onShowVideo()` method:
 
 ```typescript
-private onShowVideo = (event: React.MouseEvent<HTMLButtonElement>): void => {
+const onShowVideo = (): void => {
   const taskModuleInfo = {
     title: "YouTube Player",
-    url: this.appRoot() + `/youTubePlayer1Tab/player.html?vid=${this.state.youTubeVideoId}`,
+    url: appRoot() + `/youTubePlayer1Tab/player.html?vid=${youTubeVideoId}`,
     width: 1000,
     height: 700
   };
@@ -387,17 +320,19 @@ Upgrade the previously deployed Teams app with the updated app package.
 
 In the browser, navigate back to the tab in the Microsoft Teams interface. Select the **Show video** button. Microsoft Teams will load the video player task module with the specified video loaded in the embedded player:
 
-![Screenshot of the YouTube Player task module](../media/03-yo-teams-10.png)
+![Screenshot of the YouTube Player task module with a video loaded in the web page](../media/03-yo-teams-10.png)
 
 Stop the local web server by pressing <kbd>CTRL</kbd>+<kbd>C</kbd> in the console to stop the running process.
 
 ## Add video selector task module
 
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4OIwJ]
+
 Now let's update the project to include a task module that will enable the user to change the video loaded in the player task module. For this task module, you'll implement it similar to how the custom tab is implemented: as a React app.
 
 ### Create the task module's React app web page host
 
-Create a new file, **selector.html**, in the **./src/app/web/youTubePlayer1Tab** folder.
+Create a new file, **selector.html**, in the **./src/public/youTubePlayer1Tab** folder.
 
 Add the following HTML to it:
 
@@ -428,7 +363,7 @@ Add the following HTML to it:
   <!-- inject:js -->
   <!-- endinject -->
   <script type='text/javascript'>
-    youTubePlayer.VideoSelectorTaskModule.render(document.getElementById('app'), {});
+    youTubePlayer.render(youTubePlayer.VideoSelectorTaskModule, document.getElementById('app'), {});
   </script>
 </body>
 
@@ -439,7 +374,7 @@ Add the following HTML to it:
 
 Next, register the page you created in the last step with the project's hosting infrastructure. This will also add the necessary HTTP headers to the page's response to ensure it can be loaded within an IFRAME, but only within a Microsoft Teams client.
 
-Create a new file, **VideoSelectorTaskModule.ts**, in the **./src/app/youTubePlayer1Tab** folder.
+Create a new file, **VideoSelectorTaskModule.ts**, in the **./src/server/youTubePlayer1Tab** folder.
 
 Add the following code to the file:
 
@@ -451,7 +386,7 @@ import { PreventIframe } from "express-msteams-host";
 export class VideoSelectorTaskModule { }
 ```
 
-Now register the page by adding the following line to the end of the **./src/app/TeamsAppsComponents.ts** file:
+Now register the page by adding the following line to the end of the **./src/server/TeamsAppComponents.ts** file:
 
 ```typescript
 export * from "./youTubePlayer1Tab/VideoSelectorTaskModule";
@@ -461,77 +396,54 @@ export * from "./youTubePlayer1Tab/VideoSelectorTaskModule";
 
 With the selector's page created and registered, the next step is to implement the React app that is loaded in the page.
 
-Create a new file, **VideoSelectorTaskModule.tsx**, in the folder **./src/app/scripts/youTubePlayer1Tab**.
+Create a new file, **VideoSelectorTaskModule.tsx**, in the folder **./src/client/youTubePlayer1Tab**.
 
 Add the following code to the page. Most of this code mirrors what you would see if you created a new tab.
 
 ```typescript
 import * as React from "react";
-import { Provider, Flex, Text, Button, Header, ThemePrepared, themes, Input } from "@fluentui/react-northstar";
-import TeamsBaseComponent, { ITeamsBaseComponentState } from "msteams-react-base-component";
+import { Provider, Flex, Text, Button, Header, Input } from "@fluentui/react-northstar";
+import { useState, useEffect } from "react";
+import { useTeams, getQueryVariable } from "msteams-react-base-component";
 import * as microsoftTeams from "@microsoft/teams-js";
 
-export interface IVideoSelectorTaskModuleState extends ITeamsBaseComponentState {
-  teamsTheme: ThemePrepared;
-  youTubeVideoId?: string;
-}
 
-export interface IVideoSelectorTaskModuleProps extends {
-}
+export const VideoSelectorTaskModule = () => {
 
-export class VideoSelectorTaskModule extends TeamsBaseComponent<IVideoSelectorTaskModuleProps, IVideoSelectorTaskModuleState> {
-  public componentWillMount(): void {
-    this.updateComponentTheme(this.getQueryVariable("theme"));
-    this.setState(Object.assign({}, this.state, {
-      youTubeVideoId: this.getQueryVariable("vid")
-    }));
+  const [{ inTeams, theme, context }] = useTeams();
+  const [entityId, setEntityId] = useState<string | undefined>();
+  const [youTubeVideoId, setYouTubeVideoId] = useState<string | undefined>("VlEH4vtaxp4");
 
-    if (this.inTeams()) {
-      microsoftTeams.initialize();
-      microsoftTeams.registerOnThemeChangeHandler(this.updateComponentTheme);
+  useEffect(() => {
+    if (inTeams === true) {
+      microsoftTeams.appInitialization.notifySuccess();
+    } else {
+      setEntityId("Not in Microsoft Teams");
     }
-  }
+  }, [inTeams]);
 
-  public render() {
-    return (
-    );
-  }
-
-  private updateComponentTheme = (teamsTheme: string = "default"): void => {
-    let theme: ThemePrepared;
-
-    switch (teamsTheme) {
-      case "default":
-        theme = themes.teams;
-        break;
-      case "dark":
-        theme = themes.teamsDark;
-        break;
-      case "contrast":
-        theme = themes.teamsHighContrast;
-        break;
-      default:
-        theme = themes.teams;
-        break;
+  useEffect(() => {
+    if (context) {
+      setEntityId(context.entityId);
+      setYouTubeVideoId(getQueryVariable("vid"));
     }
-    // update the state
-    this.setState(Object.assign({}, this.state, {
-      teamsTheme: theme
-    }));
-  }
-}
+  }, [context]);
+
+  return (
+  );
+};
 ```
 
-Implement the user interface of the task module by adding the following code to the `render()` method:
+Implement the user interface of the task module by adding the following code to the `return()` statement:
 
 ```tsx
-<Provider theme={this.state.teamsTheme}>
+<Provider theme={theme}>
   <Flex column gap="gap.smaller">
     <Text size="medium">
       Enter the ID of a YouTube video to show in the task module player.
     </Text>
-    <Input value={this.state.youTubeVideoId} onChange={this.handleOnChanged}></Input>
-    <Button content="Update" primary onClick={this.handleOnClick}></Button>
+    <Input value={youTubeVideoId} onChange={(e) => handleOnChanged(e)}></Input>
+    <Button content="Update" primary onClick={() => handleOnClick()}></Button>
   </Flex>
 </Provider>
 ```
@@ -539,39 +451,36 @@ Implement the user interface of the task module by adding the following code to 
 Next, implement the two handlers referenced in the `render()` method. Add these two functions to the `VideoSelectorTaskModule` class:
 
 ```typescript
-private handleOnChanged = (event): void => {
-  this.setState(Object.assign({}, this.state, {
-    youTubeVideoId: event.target.value
-  }));
-}
+const handleOnChanged = (event): void => {
+  setYouTubeVideoId(event.target.value);
+};
 
-private handleOnClick = (event: React.MouseEvent<HTMLButtonElement>): void => {
-  microsoftTeams.tasks.submitTask(this.state.youTubeVideoId, undefined);
-}
+const handleOnClick = (): void => {
+  microsoftTeams.tasks.submitTask(youTubeVideoId, undefined);
+};
 ```
 
 The `handleOnChanged()` method updates the state with the value specified in the input control, while the `handleOnClick()` method uses the Microsoft Teams SDK to pass the ID of the video back to the personal tab.
 
-Make this React class available to the rest of the application by adding the following line to the **./src/app/scripts/client.ts** file:
+Make this React class available to the rest of the application by adding the following line to the **./src/client/client.ts** file:
 
 ```typescript
 export * from "./youTubePlayer1Tab/VideoSelectorTaskModule";
 ```
 
-The last step is to wire this task module up to the tab. Within the **./src/app/scripts/youTubePlayer1Tab/YouTubePlayer1Tab.tsx** file, locate the method `onChangeVideo()`. Add the following code to the method:
+The last step is to wire this task module up to the tab. Within the **./src/client/youTubePlayer1Tab/YouTubePlayer1Tab.tsx** file, locate the method `onChangeVideo()`. Add the following code to the method:
 
 ```typescript
 const taskModuleInfo = {
   title: "YouTube Video Selector",
-  url: this.appRoot() + `/youTubePlayer1Tab/selector.html?theme={theme}&vid=${this.state.youTubeVideoId}`,
+  url: appRoot() + `/youTubePlayer1Tab/selector.html?theme={theme}&vid=${youTubeVideoId}`,
   width: 350,
   height: 150
 };
 
 const submitHandler = (err: string, result: string): void => {
-  this.setState(Object.assign({}, this.state, {
-    youTubeVideoId: result
-  }));
+  console.log(`Submit handler - err: ${err}`);
+  setYouTubeVideoId(result);
 };
 
 microsoftTeams.tasks.startTask(taskModuleInfo, submitHandler);

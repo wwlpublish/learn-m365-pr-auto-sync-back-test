@@ -1,0 +1,45 @@
+### YamlMime:Module
+uid: learn.wwl.implement-sensitivity-labels
+metadata:
+  title: Implement sensitivity labels
+  description: "Implement sensitivity labels"
+  ms.date: 06/18/2021
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Implement sensitivity labels
+summary: This module examines the process for implementing sensitivity labels, including applying proper administrative permissions, determining a deployment strategy, creating, configuring, and publishing labels, and removing and deleting labels.
+abstract: |
+  By the end of this module, you will be able to:
+  - Describe the overall process to create, configure, and publish sensitivity labels
+  - Identify the administrative permissions that must be assigned to compliance team members to implement sensitivity labels
+  - Develop a data classification framework that provides the foundation for your sensitivity labels
+  - Create and configure sensitivity labels
+  - Publish sensitivity labels by creating a label policy
+  - Identify the differences between removing and deleting sensitivity labels
+prerequisites: |
+  None
+iconUrl: /learn/achievements/labels-implementing-labels.svg
+levels:
+- intermediate
+roles:
+- administrator
+- security-engineer
+- solution-architect
+- technology-manager
+products:
+- azure-active-directory
+- m365
+- office-365
+units:
+- learn.wwl.implement-sensitivity-labels.introduction
+- learn.wwl.implement-sensitivity-labels.examine-how-to-create-sensitivity-label
+- learn.wwl.implement-sensitivity-labels.develop-data-classification
+- learn.wwl.implement-sensitivity-labels.create
+- learn.wwl.implement-sensitivity-labels.publish
+- learn.wwl.implement-sensitivity-labels.remove-delete
+- learn.wwl.implement-sensitivity-labels.knowledge-check
+- learn.wwl.implement-sensitivity-labels.summary
+badge:
+  uid: learn.wwl.implement-sensitivity-labels.badge

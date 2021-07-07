@@ -1,6 +1,3 @@
->[!IMPORTANT]
->Threat protection product names in Microsoft are changing. [Read more about this and other updates](https://www.microsoft.com/security/blog/?p=91813). We'll be updating names in products and in the Learn content in the near future.
-
 This example sets up a policy called "Domain and CEO" that provides both user and domain protection from impersonation and then applies the policy to all email received by users within the domain contoso.com. The security administrator has determined that the policy must meet these business requirements:
 
 - The policy needs to provide protection for the CEO's email account and the entire domain.
@@ -22,6 +19,6 @@ The security administrator at Contoso might use values like the following in ord
 
 ## Learn more
 
-- [Set up anti phishing policies](https://docs.microsoft.com/microsoft-365/security/office-365-security/set-up-anti-phishing-policies?azure-portal=true)
-- [Configure anti phishing policies](https://docs.microsoft.com/microsoft-365/security/office-365-security/configure-atp-anti-phishing-policies?azure-portal=true)
-- [Anti-spoofing protection in EOP](https://docs.microsoft.com/microsoft-365/security/office-365-security/anti-spoofing-protection?azure-portal=true)
+- [Set up anti phishing policies](/microsoft-365/security/office-365-security/set-up-anti-phishing-policies?azure-portal=true)
+- [Configure anti phishing policies](/microsoft-365/security/office-365-security/configure-atp-anti-phishing-policies?azure-portal=true)
+- [Anti-spoofing protection in EOP](/microsoft-365/security/office-365-security/anti-spoofing-protection?azure-portal=true)

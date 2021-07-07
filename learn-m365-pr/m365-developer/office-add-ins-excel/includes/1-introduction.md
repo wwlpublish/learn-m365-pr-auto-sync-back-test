@@ -17,6 +17,6 @@ In this module, you'll learn how to build an Excel add-in that inserts (and repl
 
 ## Additional resources
 
-Refer to the following repository for additional resources associated with this module. This repository includes completed code samples from the exercise units found in this module: [Build add-ins for Microsoft Excel](https://github.com/OfficeDev/TrainingContent/tree/master/OfficeAddin/02%20Building%20Add-ins%20for%20Microsoft%20Excel).
+Refer to the following repository for extra resources associated with this module. This repository includes completed code samples from the exercise units found in this module: [Build add-ins for Microsoft Excel](https://github.com/OfficeDev/TrainingContent/tree/master/OfficeAddin/02%20Building%20Add-ins%20for%20Microsoft%20Excel).
 
 This module is also available as a screencast: [Build add-ins for Microsoft Excel](https://youtu.be/KQIxNbd0mW4).

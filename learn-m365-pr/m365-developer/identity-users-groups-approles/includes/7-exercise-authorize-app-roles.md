@@ -74,6 +74,10 @@ Save the manifest.
 
 ### Assign users to app roles
 
+Open a browser and navigate to the [Azure Active Directory admin center](https://aad.portal.azure.com). Sign in using a **Work or School Account** that has global administrator rights to the tenant.
+
+Select **Azure Active Directory** in the left-hand navigation.
+
 Select **Enterprise applications** in the left-hand navigation.
 
 ![Screenshot of the Enterprise Applications](../media/07-azure-ad-portal-entapp.png)
@@ -82,13 +86,13 @@ On the **Enterprise applications** page, locate the application registration tha
 
 On the enterprise application overview pane, select **Users and Groups**.
 
-![Screenshot of the Enterprise Applications](../media/07-azure-ad-portal-entapp-users.png)
+![Screenshot of the Users and Groups](../media/07-azure-ad-portal-entapp-users.png)
 
 Select **Add User**. On the add **Assignment** pane, select **Users and groups**. Select one or more users or groups from the list and then select the **Select** button at the bottom of the pane.
 
 On the **Add Assignment** pane, select **Role**. Select the **ProductAdministrator** role to apply to the selected users or groups, then select **Select** at the bottom of the pane.
 
-![Screenshot of the Enterprise Applications](../media/07-app-roles-add-roles-users.png)
+![Screenshot of adding an assignment to the User Group Role page](../media/07-app-roles-add-roles-users.png)
 
 Select **Assign** at the bottom of the pane. The assigned users or groups have the permissions defined by the selected role for this enterprise app.
 
@@ -220,9 +224,10 @@ Create a new file in the **Views\Products** folder named **Create.cshtml**. Add 
 
 #### Build and test the web app
 
-Execute the following command in a command prompt to compile and run the application:
+Execute the following commands in a command prompt to compile and run the application:
 
 ```console
+dotnet dev-certs https --trust
 dotnet build
 dotnet run
 ```

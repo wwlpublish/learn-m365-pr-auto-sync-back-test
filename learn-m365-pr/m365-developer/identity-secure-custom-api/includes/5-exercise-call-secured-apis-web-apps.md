@@ -43,8 +43,8 @@ Select **Add a platform**, then select **Web**.
 On the **Configure Web** panel, use the following values to configure the application:
 
 - **Redirect URIs**: https://localhost:5001/signin-oidc
-- **Logout URL**: https://localhost:5001/signout-oidc
-- **Implicit grant**: select both **Access tokens** and **ID tokens**
+- **Front-channel logout URL**: https://localhost:5001/signout-oidc
+- **Implicit grant and hybrid flows**: select **ID tokens (used for implicit and hybrid flows)**
 
 Select **Configure** when finished setting these values.
 
@@ -68,6 +68,9 @@ The **Certificate & Secrets** page will display the new secret. It's important y
 
 ## Create a single organization ASP.NET web application
 
+> [!NOTE]
+> The instructions below assume you are using .NET 5. They were last tested using v5.0.202 of the .NET 5 SDK.
+
 Open your command prompt, navigate to a directory where you want to save your work, create a new folder, and change directory into that folder.
 
 Execute the following command to create a new ASP.NET Core MVC web application:
@@ -80,8 +83,8 @@ After creating the application, run the following commands to ensure your new pr
 
 ```console
 cd ProductCatalogWeb
-dotnet add package Microsoft.Identity.Web --version 0.3.1-preview
-dotnet add package Microsoft.Identity.Web.UI --version 0.3.1-preview
+dotnet add package Microsoft.Identity.Web
+dotnet add package Microsoft.Identity.Web.UI
 ```
 
 Open the scaffolded project folder, which is named **ProductCatalogWeb** in **Visual Studio Code**
@@ -136,44 +139,19 @@ namespace Constants
 
 Locate and open the **./Startup.cs** file in the ASP.NET Core project.
 
-Add the following `using` statements after the existing `using` statements:
+Within the `ConfigureServices()` method, locate the following line:
 
 ```csharp
-using Microsoft.AspNetCore.Http;
-using Microsoft.Identity.Web;
-using Microsoft.Identity.Web.TokenCacheProviders.InMemory;
-using Microsoft.Identity.Web.UI;
+services.AddAuthentication(OpenIdConnectDefaults.AuthenticationScheme)
+    .AddMicrosoftIdentityWebApp(Configuration.GetSection("AzureAd"));
 ```
-
-Locate the method `ConfigureServices()`.
-
-Replace the body of the method with the following code. This code will configure the web app's middleware to support Azure AD for authentication and to obtain an ID token:
+Update the line to the following. This will configure the web app's middleware to add support for the Microsoft Graph:
 
 ```csharp
-services.Configure<CookiePolicyOptions>(options =>
-{
-  // This lambda determines whether user consent for non-essential cookies is needed for a given request.
-  options.CheckConsentNeeded = context => true;
-  options.MinimumSameSitePolicy = SameSiteMode.Unspecified;
-  // Handling SameSite cookie according to https://docs.microsoft.com/en-us/aspnet/core/security/samesite?view=aspnetcore-3.1
-  options.HandleSameSiteCookieCompatibility();
-});
-
-services.AddOptions();
-
-services.AddMicrosoftIdentityWebAppAuthentication(Configuration)
-  .EnableTokenAcquisitionToCallDownstreamApi(Constants.ProductCatalogAPI.SCOPES)
-  .AddInMemoryTokenCaches();
-
-services.AddControllersWithViews(options =>
-{
-  var policy = new AuthorizationPolicyBuilder()
-                .RequireAuthenticatedUser()
-                .Build();
-  options.Filters.Add(new AuthorizeFilter(policy));
-}).AddMicrosoftIdentityUI();
-
-services.AddRazorPages();
+services.AddAuthentication(OpenIdConnectDefaults.AuthenticationScheme)
+    .AddMicrosoftIdentityWebApp(Configuration.GetSection("AzureAd"))
+    .EnableTokenAcquisitionToCallDownstreamApi(Constants.ProductCatalogAPI.SCOPES)
+    .AddInMemoryTokenCaches();
 ```
 
 ### Add a Categories model, controller, and view to the web app

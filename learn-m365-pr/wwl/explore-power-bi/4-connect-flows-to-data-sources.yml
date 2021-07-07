@@ -1,0 +1,29 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.explore-power-bi.connect-flows-to-data-sources
+title: Connect Power BI to data sources
+metadata:
+  title: Connect Power BI to data sources
+  description: "Connect Power BI to data sources"
+  ms.date: 07/01/2021
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+durationInMinutes: 6
+content: |
+  [!include[](includes/4-connect-flows-to-data-sources.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "Power BI Desktop supports multiple methods for connecting to data. In which method does Power BI Desktop query the underlying data source whenever a user creates or interacts with a visualization, which ensures the data being viewed is always current?"
+    choices:
+    - content: "Import"
+      isCorrect: false
+      explanation: "That's incorrect. With this method, the selected tables and columns from the data source are imported into Power BI Desktop. Try again."
+    - content: "Live Connection"
+      isCorrect: false
+      explanation: "That's incorrect. With this method, a user connects to a dataset that's been shared/published to the Power BI service to create new reports. Try again."
+    - content: "DirectQuery"
+      isCorrect: true
+      explanation: "That's correct. No data is imported or copied into Power BI Desktop when using DirectQuery. Instead, as the user creates or interacts with a visualization, Power BI Desktop queries the underlying data source. As a result, the data being viewed is always current."

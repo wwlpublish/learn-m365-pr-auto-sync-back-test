@@ -1,10 +1,6 @@
->[!IMPORTANT]
->Threat protection product names in Microsoft are changing. [Read more about this and other updates](https://www.microsoft.com/security/blog/?p=91813). We'll be updating names in products and in the Learn content in the near future.
+![Graphic showing the different capabilities of Microsoft 365 in a pinwheel arrangement.](../media/step-5-wheel.png)
 
-
-![step-5-wheel](../media/step-5-wheel.png)
-
-![step-5-icon](../media/step-5-icon.png)
+![Graphic of a lock and memo](../media/step-5-icon.png)
 
 Let's look at new capabilities you can take advantage of with Windows 10, Microsoft 365 Apps, and cloud-based options from Enterprise Mobility + Security and beyond.
 
@@ -36,16 +32,16 @@ Along with the Microsoft Intelligent Security Graph, you have faster access to b
 
 - **Windows Defender Application Control** in Windows 10 operates from an approved allow and deny list of applications that Microsoft has checked for safety. It is managed by endpoint protection policies using Microsoft Intune.
 
-- **Windows Defender Advanced Threat Protection** is a unified platform for preventative protection, post-breach detection, automated investigation, and response. It protects endpoints from cyber threats; detects advanced attacks and data breaches, automates security incidents, and improves security posture.
+- **Microsoft Defender for Endpoint** is a unified platform for preventative protection, post-breach detection, automated investigation, and response. It protects endpoints from cyber threats; detects advanced attacks and data breaches, automates security incidents, and improves security posture.
 
 - **Exploit Guard** helps reduce the attack surface for running applications by preventing malware from getting into Windows and blocking untrusted processes from accessing protected folders.
 
 ## Microsoft Intune
 
-[Microsoft Intune](https://docs.microsoft.com/intune/introduction-intune) serves as a cloud-based management service for mobile scenarios, including iOS, Android, and Windows devices. You can configure Intune for co-management to complement and extend controls for specific workloads managed by Microsoft Endpoint Configuration Manager. You can require devices that access protected resources to enroll in device management, even non-managed, non-domain-joined, or non-Azure AD-joined devices. You can also take advantage of granular configuration and compliance policy enforcement at the operating system and application level. Finally, you can configure application policies and settings centrally and enforce them for Microsoft 365 Apps and store apps in Windows 10 using Microsoft Intune.
+[Microsoft Intune](/intune/introduction-intune) serves as a cloud-based management service for mobile scenarios, including iOS, Android, and Windows devices. You can configure Intune for co-management to complement and extend controls for specific workloads managed by Microsoft Endpoint Configuration Manager. You can require devices that access protected resources to enroll in device management, even non-managed, non-domain-joined, or non-Azure AD-joined devices. You can also take advantage of granular configuration and compliance policy enforcement at the operating system and application level. Finally, you can configure application policies and settings centrally and enforce them for Microsoft 365 Apps and store apps in Windows 10 using Microsoft Intune.
 
-![step-5-1](../media/step-5-1.png)
+![Screenshot of the profiles section in the device configuration tab of Intune.](../media/step-5-1.png)
 
 ## Learn more
-- [Advanced Threat Protection ](https://docs.microsoft.com/windows/security/threat-protection/?azure-portal=true)
-- [Identity and access management fundamentals](https://docs.microsoft.com/azure/security/fundamentals/overview#identity-and-access-management?azure-portal=true)
+- [Microsoft Defender for Endpoint ](/windows/security/threat-protection/?azure-portal=true)
+- [Identity and access management fundamentals](/azure/security/fundamentals/overview#identity-and-access-management?azure-portal=true)

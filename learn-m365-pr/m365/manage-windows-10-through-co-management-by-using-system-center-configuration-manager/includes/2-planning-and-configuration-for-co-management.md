@@ -1,6 +1,3 @@
->[!IMPORTANT]
->Threat protection product names in Microsoft are changing. [Read more about this and other updates](https://www.microsoft.com/security/blog/?p=91813). We'll be updating names in products and in the Learn content in the near future.
-
 Before switching over to co-management, you need to figure out what workloads you want to switch over. You don't have to switch all workloads at once. You can do them individually when you're ready. Configuration Manager will continue to manage all other workloads, including those workloads that you don't switch to Intune, and all other features of Configuration Manager that co-management doesn't support.
 
 Co-management supports the following workloads:
@@ -10,13 +7,13 @@ Co-management supports the following workloads:
 | **Compliance policies**| Compliance policies define the rules and settings that a device must comply with to be considered compliant by conditional access policies. Also use compliance policies to monitor and remediate compliance issues with devices independently of conditional access.|
 | **Windows Update policies**| Windows Update for Business policies let you configure deferral policies for Windows 10 feature updates or quality updates for Windows 10 devices managed directly by Windows Update for Business.|
 | **Resource access policies**| Resource access policies configure VPN, Wi-Fi, email, and certificate settings on devices.|
-| **Endpoint Protection**| The Endpoint Protection workload includes the Windows Defender suite of antimalware protection features:<ul><li>Windows Defender Antimalware</li><li>Windows Defender Application Guard</li><li>Windows Defender Firewall</li><li>Windows Defender SmartScreen</li><li>Windows Encryption</li><li>Windows Defender Exploit Guard</li><li>Windows Defender Application Control</li><li>Windows Defender Security Center</li><li>Windows Defender Advanced Threat Protection (now known as Microsoft Defender Threat Protection)</li><li>Windows Information Protection</li></ul> |
+| **Endpoint Protection**| The Endpoint Protection workload includes the Windows Defender suite of antimalware protection features:<ul><li>Windows Defender Antimalware</li><li>Windows Defender Application Guard</li><li>Windows Defender Firewall</li><li>Windows Defender SmartScreen</li><li>Windows Encryption</li><li>Windows Defender Exploit Guard</li><li>Windows Defender Application Control</li><li>Windows Defender Security Center</li><li>Microsoft Defender for Endpoint</li><li>Windows Information Protection</li></ul> |
 | **Device configuration**| Starting in Configuration Manager 1806, the device configuration workload includes settings that you manage for devices in your organization. Switching this workload also moves the Resource Access and Endpoint Protection workloads.|
 | **Office Click-to-Run apps**| This workload manages Office apps on co-managed devices.<ul><li>After moving the workload, the app shows up in the Company Portal on the device</li><li>Office updates may take around 24 hours to show up on client unless the devices are restarted</li><li>There's a new global condition, Are Microsoft 365 applications managed by Intune on the device. This condition is added by default as a requirement to new Microsoft 365 applications. When you transition this workload, co-managed clients don't meet the requirement on the application. Then they don't install Microsoft 365 deployed via Configuration Manager.</li></ul> |
 | **Client apps**| Use Intune to manage client apps and PowerShell scripts on co-managed Windows 10 devices. After you transition this workload, any available apps deployed from Intune are available in the Company Portal. Apps that you deploy from Configuration Manager are available in Software Center.|
 
 > [!NOTE]
-> The supported workloads are updated after each new release of System Center Configuration Manager, check the official documentations on [Co-management workloads](https://docs.microsoft.com/sccm/comanage/workloads) for updates.
+> The supported workloads are updated after each new release of System Center Configuration Manager, check the official documentations on [Co-management workloads](/sccm/comanage/workloads) for updates.
 
 ### Diagram for app workloads
 
@@ -37,9 +34,8 @@ There are two main paths to reach to co-management:
 
 With co-management, you can keep your well-established processes for using Configuration Manager to manage PCs in your organization. At the same time, you're investing in the cloud through use of Intune for security and modern provisioning.
 
-To set up co-management of your Windows 10 devices that are already enrolled in Configuration Manager, complete the steps outlined in [Tutorial: Enable co-management for existing Configuration Manager clients](https://docs.microsoft.com/sccm/comanage/tutorial-co-manage-clients).
+To set up co-management of your Windows 10 devices that are already enrolled in Configuration Manager, complete the steps outlined in [Tutorial: Enable co-management for existing Configuration Manager clients](/sccm/comanage/tutorial-co-manage-clients).
 
 ## Bootstrap with modern provisioning
 
-To set up co-management of Windows 10 devices in an environment where you use both Azure Active Directory (AD) and an on-premises AD but don't have a hybrid Azure Active Directory (AD), complete the steps outlined in [Tutorial: Enable co-management for new internet-based devices](https://docs.microsoft.com/sccm/comanage/tutorial-co-manage-new-devices).
-
+To set up co-management of Windows 10 devices in an environment where you use both Azure Active Directory (AD) and an on-premises AD but don't have a hybrid Azure Active Directory (AD), complete the steps outlined in [Tutorial: Enable co-management for new internet-based devices](/sccm/comanage/tutorial-co-manage-new-devices).

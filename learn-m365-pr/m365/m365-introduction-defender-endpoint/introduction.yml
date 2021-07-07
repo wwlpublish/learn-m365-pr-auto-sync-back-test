@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-m365-pr.introduction-to-microsoft-defender-for-endpoint.introduction
+title: Introduction
+metadata:
+  unitType: introduction
+  title: Introduction
+  description: Introduction
+  ms.date: 04/28/2021
+  author: iankensey
+  ms.author: v-iakens
+  ms.topic: interactive-tutorial # do we need ms.topic?
+  ms.prod: learning-m365
+durationInMinutes: 1
+content: |
+  [!include[](includes/introduction.md)]

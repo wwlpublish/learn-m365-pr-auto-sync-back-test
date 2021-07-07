@@ -1,14 +1,16 @@
-The data classification overview, content explorer and activity explorer provide information to inform your decision on what DLP policies to create. For example, you might decide to create a DLP policy for each of the sensitive information types shown in the Top sensitive info types card.
-
-Navigate to **Microsoft 365 compliance center > Data classification** to view the classification results.
-
-After you create your data loss prevention (DLP) policies, you will want to verify they are working as you intended and helping you to stay compliant. The most recent data can take up to 24 hours to appear in the reports. The DLP-specific reports available in the Microsoft 365 compliance center include:
+The DLP-specific reports available in the Microsoft 365 compliance center include:
 - DLP policy matches
 - DLP incidents
 - DLP false positives and overrides
 - Third-party DLP policy matched
 
 Navigate to **Microsoft 365 compliance center > Reports** to view the reports.
+
+The image below shows the summary cards for the reports in the Microsoft 365 compliance center. 
+
+:::image type="content" source="../media/dlp-reports.png" alt-text="A screenshot of the compliance center shows the DLP reports.":::
+
+Click **View details** to see the data in each report.
 
 ## DLP policy matches
 The DLP policy matches report shows the count of DLP policy matches over time. You can filter the report by date, location, policy, or action. You can use this report to:
@@ -17,13 +19,15 @@ The DLP policy matches report shows the count of DLP policy matches over time. Y
 - Discover business processes that violate your organization's DLP policies.
 - Understand the business impact of the DLP policies by viewing what actions are being applied to content.
 - Verify compliance with a specific DLP policy by showing any matches for that policy.
-- View a list of top users and repeat users who are contributing to incidents in your organization.
-- View a list of the top types of sensitive information in your organization.
+
+This image shows the DLP policy matches report, sorted by services. (You can also choose to sort by policies or by action.)
+
+:::image type="content" source="../media/dlp-policy-matches-report.png" alt-text="A screenshot of the DLP policy matches report.":::
 
 ## DLP incidents
-Like the policy matches report, the DLP incidents report shows policy matches over time, but in a different way.  The DLP policy matches report shows matches at a rule level. If an email matched three different rules, the DLP policy matches report shows three different line items. By contrast, the DLP incidents report shows matches at an item level. If an email matched three different rules, the incidents report shows a single line item for that item.
+Like the policy matches report, the DLP incidents report shows policy matches over time, but in a different way - at the rule level. If an email matched three different rules, the DLP policy matches report shows three different line items. By contrast, the DLP incidents report shows matches at the item level: if an email matched three different rules, the incidents report shows a single line item for that item.
 
-Because the report counts are aggregated differently, the DLP policy matches report is better for identifying matches with specific rules and fine tuning DLP policies. The DLP incidents report is better for identifying specific content causing issues with DLP policies.
+Because the report counts are aggregated differently, the DLP policy matches report is better for identifying matches with specific rules and fine-tuning DLP policies. The DLP incidents report is better for identifying specific content causing issues with DLP policies.
 
 ## DLP false positives and overrides
 The DLP false positives and overrides shows a count of policy overrides and false positive over time. You can filter the report by date, location, or policy. You can use this report to:
@@ -31,6 +35,9 @@ The DLP false positives and overrides shows a count of policy overrides and fals
 - View the justifications submitted by users when they resolve a policy tip by overriding the policy.
 - Discover where DLP policies conflict with valid business processes by incurring a high number of user overrides.
 
+This image shows the DLP false positives and overrides report. One line in the chart shows false positives and the other shows policy overrides over time. Below the line chart is a list of individual items resulting in false positives and overrides. You can click on each item to examine it further; for example, to see the justification provided for a policy override.
+
+:::image type="content" source="../media/dlp-false-positives.png" alt-text="A screenshot of the DLP false positive and overrides report.":::
+
 ## Learn more
-- [Data classification overview](https://docs.microsoft.com/microsoft-365/compliance/data-classification-overview?azure-portal=true)
-- [DLP reports](https://docs.microsoft.com/microsoft-365/compliance/data-loss-prevention-policies?view=o365-worldwide#dlp-reports?azure-portal=true)
+- [View the reports for data loss prevention | Microsoft Docs](/microsoft-365/compliance/view-the-dlp-reports)

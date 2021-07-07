@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365-pr.viva-topics-prepare.introduction
+metadata:
+  title: Introduction
+  description: Learn about the learning objectives for this module.
+  ms.date: 05/26/2021
+  author: lizap
+  ms.author: elizapo
+  ms.topic: interactive-tutorial
+  ms.prod: learning-teams
+title: Introduction
+durationInMinutes: 1
+content: |
+  [!include[](includes/introduction.md)]

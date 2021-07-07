@@ -1,4 +1,6 @@
-In this unit, you’ll learn how to get a reference to and download a user’s profile photo as well as how to get the user’s manager’s profile.
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4Oycs]
+
+In this unit, you’ll learn how to get a reference to and download a user’s profile photo and how to get the user’s manager’s profile.
 
 ## User profile photos
 
@@ -6,7 +8,7 @@ Profile photos can be set on user accounts, groups, and contacts in Office 365. 
 
 Profile photos are stored as binary data that developers can convert to different formats in different use cases, such as base-64 for use in a web environment.
 
-In order to perform user operations, you'll need one of the following permissions. The specific permission required will depend on the operation you want to perform. For example, if you are creating, editing or deleting a user, one of the *write* permissions is required. Some permissions can be granted by a user while others must be granted to the app by an administrator:
+To do user operations, you'll need one of the following permissions. The specific permission required will depend on the operation you want to do. For example, if you are creating, editing or deleting a user, one of the *write* permissions is required. Some permissions can be granted by a user while others must be granted to the app by an administrator:
 
 - Delegated Permissions (granted by users)
   - **User** resource type
@@ -82,7 +84,7 @@ One of the resources linked off the user resource is the user's manager. The `/m
 
 ```csharp
 var userId = "{ID}";
-var requestUserManager = client.Users[userId]
+var requestUserManager = graphClient.Users[userId]
                                .Manager
                                .Request();
 var resultsUserManager = requestUserManager.GetAsync().Result;

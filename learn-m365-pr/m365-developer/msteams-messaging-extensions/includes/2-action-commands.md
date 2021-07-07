@@ -1,10 +1,12 @@
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4ODaK]
+
 A messaging extension consists of a web service you host and your Microsoft Teams app manifest that defines where your web service can be invoked from in the Microsoft Teams client. They take advantage of the Bot Framework's messaging schema and secure communication protocol, so you'll also need to register your web service as a bot in the Bot Framework.
 
-In this unit, you’ll learn what messaging extensions are, what scenarios where they can be used and the different types of messaging extensions available to developers. This unit will focus on one type of messaging extension: the action command. Action commands allow you present your users with a modal popup (called a task module in Teams) to collect or display information, then process their interaction and send information back to Teams.
+In this unit, you’ll learn what messaging extensions are, what scenarios where they can be used and the different types of messaging extensions available to developers. This unit will focus on one type of messaging extension: the action command. Action commands allow you to present your users with a modal popup (called a task module in Teams) to collect or display information, then process their interaction and send information back to Teams.
 
 ## What are messaging extensions?
 
-Messaging extensions allow users to interact with your web service through buttons and forms in the Microsoft Teams client. They can search, or initiate actions, in an external system from the compose message area, the command box, or directly from a message. You can then send the results of that interaction back to the Microsoft Teams client, typically in the form of a richly formatted card.
+Messaging extensions allow users to interact with your web service through buttons and forms in the Microsoft Teams client. They can search, or start actions, in an external system from the compose message area, the command box, or directly from a message. You can then send the results of that interaction back to the Microsoft Teams client, typically in the form of a richly formatted card.
 
 ![Screenshot of invoke locations for messaging extensions](../media/02-messaging-extension-invoke-locations.png)
 
@@ -12,9 +14,9 @@ Messaging extensions allow users to interact with your web service through butto
 
 What kind of scenarios do messaging extensions enable?
 
-One example is that the user needs to perform an action in an external system and have the results added to the conversation. For instance, when two employees are chatting about a customer issue, it can be helpful if the customer's history or issue details are added to the conversation timeline from data in an external bug tracking or CRM system.
+One example is that the user needs to do an action in an external system and have the results added to the conversation. For instance, when two employees are chatting about a customer issue, it can be helpful if the customer's history or issue details are added to the conversation timeline from data in an external bug tracking or CRM system.
 
-Another example is when you need to complete a complex task or one that involves multiple steps and share the results. For instance, consider a user that wants to request approval for a business trip. This involves finding a flight, hotel, and transportation options. After finding the wanted options, they need to submit out of office and expense approval requests to their manager. A messaging extension can be used to guide the user through a wizard experience to collect information, then use that to start an approval process and display a summary in the conversation.
+Another example is when you need to complete a complex task or one that involves multiple steps and share the results. For instance, consider a user that wants to request approval for a business trip. This involves finding a flight, hotel, and transportation options. After finding the wanted options, they need to submit an out of office and expense approval requests to their manager. A messaging extension can be used to guide the user through a wizard experience to collect information, then use that to start an approval process and display a summary in the conversation.
 
 ### How messaging extensions work
 
@@ -39,7 +41,7 @@ Microsoft Teams supports two types of messaging extensions: action commands and 
 
 ## Action commands
 
-Action commands allow you present your users with a modal popup to collect or display information. When a user submits the form, your web service can respond by inserting a message direction into the conversation, or insert a message into the compose message area allowing the user to submit the message.
+Action commands allow you present your users with a modal popup to collect or display information. When a user submits the form, your web service can respond by inserting a message directly into the conversation, or insert a message into the compose message area allowing the user to submit the message.
 
 ## Developing action commands
 
@@ -51,12 +53,12 @@ The modal popup triggered by the messaging extension is implemented as a task mo
 
 - **embedded web view**: an HTML page enables developers complete control over the UI and controls in the task module
 - **Adaptive card**: an Adaptive card simplifies implementing the UI, but provides less control over the UI, formatting options and available controls
-- **static parameters**: the messaging extension in the app manifest includes a static list of parameters that will be rendered in the task module, but developers have no control over the formatting or UI.
+- **static parameters**: the messaging extension in the app manifest includes a static list of parameters that will be rendered in the task module, but developers have no control over the formatting or UI
 
 > [!NOTE]
 > The last option for implementing a task module, *static parameters*, is unique to messaging extensions.
 
-If you use either the embedded web view or Adaptive card option to implement your task module, your web service must respond to the invoice event from the user with the task module that the Microsoft Teams client will render for the user.
+If you use either the embedded web view or Adaptive card option to implement your task module, your web service must respond to the invoked event from the user with the task module that the Microsoft Teams client will render for the user.
 
 ### Registering action command messaging extensions
 
@@ -175,4 +177,4 @@ The method `handleTeamsMessagingExtensionSubmitAction()` is called by the Bot Fr
 
 In this unit, you learned what messaging extensions are, what scenarios where they can be used and the different types of messaging extensions available to developers.
 
-This unit focused on one type of messaging extension: the action command. Action commands allow you present your users with a modal popup (called a task module in Teams) to collect or display information, then process their interaction and send information back to Teams.
+This unit focused on one type of messaging extension: the action command. Action commands allow you to present your users with a modal popup (called a task module in Teams) to collect or display information, then process their interaction and send information back to Teams.

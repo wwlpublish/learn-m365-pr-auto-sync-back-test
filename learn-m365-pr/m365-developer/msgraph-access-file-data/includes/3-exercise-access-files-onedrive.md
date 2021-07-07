@@ -1,4 +1,22 @@
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4OO2J]
+
 In this exercise, you'll create a .NET Core console app that will access and download files from a user's OneDrive account using Microsoft Graph.
+
+## Prerequisites
+
+Developing Microsoft Graph apps requires a Microsoft 365 tenant.
+
+For the Microsoft 365 tenant, follow the instructions on the [Microsoft 365 Developer Program](https://developer.microsoft.com/microsoft-365/dev-program) site for obtaining a developer tenant if you don't currently have a Microsoft 365 account.
+
+You'll use the .NET SDK to create custom Microsoft Graph app in this module. The exercises in this module assume you have the following tools installed on your developer workstation.
+
+> [!IMPORTANT]
+> In most cases, installing the latest version of the following tools is the best option. The versions listed here were used when this module was published and last tested.
+
+- [.NET SDK](https://dotnet.microsoft.com/) - v5.\* (or higher)
+- [Visual Studio Code](https://code.visualstudio.com)
+
+You must have the minimum versions of these prerequisites installed on your workstation.
 
 ## Create an Azure AD application
 
@@ -8,7 +26,7 @@ Select **Azure Active Directory** in the left-hand navigation.
 
 Select **Manage > App registrations** in the left-hand navigation.
 
-  ![Screenshot of the App registrations](../media/azure-ad-portal-home-appreg-01.png)
+  ![Screenshot of the App registrations](../media/azure-ad-portal-home.png)
 
 On the **App registrations** page, select **New registration**.
 
@@ -35,11 +53,11 @@ In the **Platform configurations** section, select the **Add a platform** button
 
 In the **Redirect URIs** section of the **Configure Desktop + devices** panel, select the entry that ends with **nativeclient**, and then select the **Configure** button:
 
-![Screenshot of the Configure Desktop + devices panel](../media/azure-ad-portal-new-app-02a.png)
+![Screenshot of the Configure Desktop + devices panel](../media/azure-ad-portal-new-app-03.png)
 
-In the **Authentication** panel, scroll down to the **Default client type** section and set the toggle to **Yes**.
+In the **Authentication** panel, scroll down to the **Allow public client flows** section and set the toggle to **Yes**.
 
-![Screenshot of the Default client type section](../media/azure-ad-portal-new-app-03.png)
+![Screenshot of the Allow public client flows section](../media/azure-ad-portal-new-app-04.png)
 
 Select **Save** in the top menu to save your changes.
 
@@ -55,20 +73,22 @@ Select the **Add a permission** button.
 
 In the **Request API permissions** panel that appears, select **Microsoft Graph** from the **Microsoft APIs** tab.
 
-![Screenshot of Microsoft Graph in the Request API permissions panel](../media/azure-ad-portal-new-app-permissions-03.png)
+![Screenshot of Microsoft Graph in the Request API permissions panel](../media/azure-ad-portal-new-app-permissions-02.png)
 
 When prompted for the type of permission, select **Delegated permissions**.
 
 Enter **Files.R** in the **Select permissions** search box and select the **Files.Read** permission, followed by the **Add permission** button at the bottom of the panel.
 
-![Screenshot of the Files.Read permission in the Request API permissions panel](../media/azure-ad-portal-new-app-permissions-03-04.png)
+![Screenshot of the Files.Read permission in the Request API permissions panel](../media/03-azure-ad-portal-new-app-permissions-03.png)
 
 In the **Configured Permissions** panel, select the button **Grant admin consent for [tenant]**, and then select the **Yes** button in the consent dialog to grant all users in your organization this permission.
 
 > [!NOTE]
-> The option to **Grant admin consent** here in the Azure AD admin center is pre-consenting the permissions to the users in the tenant to simplify the exercise. This approach allows the console application to use the [resource owner password credential grant](https://docs.microsoft.com/azure/active-directory/develop/v2-oauth-ropc), so the user isn't prompted to grant consent to the application that simplifies the process of obtaining an OAuth access token. You could elect to implement alternative options such as the [device code flow](https://docs.microsoft.com/azure/active-directory/develop/v2-oauth2-device-code) to utilize dynamic consent as another option.
+> The option to **Grant admin consent** here in the Azure AD admin center is pre-consenting the permissions to the users in the tenant to simplify the exercise. This approach allows the console application to use the [resource owner password credential grant](/azure/active-directory/develop/v2-oauth-ropc), so the user isn't prompted to grant consent to the application that simplifies the process of obtaining an OAuth access token. You could elect to implement alternative options such as the [device code flow](/azure/active-directory/develop/v2-oauth2-device-code) to utilize dynamic consent as another option.
 
 ## Create .NET Core console application
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4OO2L]
 
 Open your command prompt, navigate to a directory where you have rights to create your project, and run the following command to create a new .NET Core console application:
 
@@ -330,6 +350,12 @@ foreach (var file in results)
 
 ### Build and test the application
 
+Run the following command in a command prompt to ensure the developer certificate has been trusted:
+
+```console
+dotnet dev-certs https --trust
+```
+
 Run the following command in a command prompt to compile the console application:
 
 ```console
@@ -344,9 +370,11 @@ dotnet run
 
 After entering the username and password of a user, you'll see the results of all files in the currently signed-in user's OneDrive root folder written to the console.
 
-![Screenshot of the console application showing all files in the currently signed-in user's OneDrive root folder](../media/app-run-03-01.png)
+![Screenshot of the console application showing all files in the currently signed-in user's OneDrive root folder](../media/03-app-run-01.png)
 
 ## Display a specific file
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4OO2M]
 
 Now, update the console app to show the details of a specific file.
 
@@ -376,7 +404,7 @@ dotnet run
 
 After entering the username and password of a user, you'll see the details of a specific file from the user's OneDrive written to the console.
 
-![Screenshot of the console application showing a specific file from the user's OneDrive](../media/app-run-03-02.png)
+![Screenshot of the console application showing a specific file from the user's OneDrive](../media/03-app-run-02.png)
 
 ## Download a file from the user's OneDrive
 
@@ -410,7 +438,7 @@ dotnet run
 
 After entering the username and password of a user, you'll see the console app write a message where the file was saved to your local machine.
 
-![Screenshot of the console application showing a specific file from the user's OneDrive](../media/app-run-03-03.png)
+![Screenshot of the console application showing the saved file from the user's OneDrive](../media/03-app-run-03.png)
 
 ## Summary
 

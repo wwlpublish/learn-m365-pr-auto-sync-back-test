@@ -1,4 +1,9 @@
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4OO3j]
+
 In this exercise, you'll extend the existing ASP.NET Core web API application to receive notifications from Microsoft Graph subscriptions. The notifications are sent after a subscription is successfully created, requesting Microsoft Graph to notify an endpoint when specified entities are created, updated, or deleted.
+
+> [!IMPORTANT]
+> This exercise assumes you have created the Azure AD application and .NET console application from the previous unit in this module. You'll edit the existing Azure AD application and .NET console application created in that exercise in this exercise.
 
 ## Update the ASP.NET Core web API project
 
@@ -113,6 +118,10 @@ Open the **Startup.cs** file. Locate the method `ConfigureServices()` method and
 public void ConfigureServices(IServiceCollection services)
 {
   services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_3_0);
+  services.AddSwaggerGen(c =>
+  {
+    c.SwaggerDoc("v1", new OpenApiInfo { Title = "msgraphapp", Version = "v1" });
+  });  
   var config = new MyConfig();
   Configuration.Bind("MyConfig", config);
   services.AddSingleton(config);
@@ -290,11 +299,11 @@ In Visual Studio Code, select **Run > Start debugging** to run the application. 
 
 Once you see the following in the **Debug Console** window...
 
-![Screenshot of the VS Code Debug Console](../media/05-vscode-debugapp-03.png)
+![Screenshot of the VS Code Debug Console](../media/05-vscode-debug-app-01.png)
 
 Open a browser and navigate to **http://localhost:5000/api/notifications** to subscribe to change notifications. If successful you'll see output that includes a subscription ID like the one below:
 
-![Screenshot of a successful subscription](../media/05-vscode-debugapp-04.png)
+![Screenshot of a successful subscription](../media/05-vscode-debug-app-02.png)
 
 Your application is now subscribed to receive notifications from the Microsoft Graph when an update is made on any user in the Office 365 tenant.
 
@@ -302,15 +311,15 @@ Now, test the subscription by updating a user to trigger a notification from Mic
 
 Open a browser and navigate to the [Microsoft 365 admin center (https://admin.microsoft.com/AdminPortal)](https://admin.microsoft.com/AdminPortal).
 
-If you are prompted to sign-in, sign-in using an admin account.
+If you're prompted to sign-in, sign-in using an admin account.
 
 Select **Users > Active users**.
 
-![Screenshot of the Microsoft 365 Admin Center](../media/05-vscode-debugapp-05.png)
+![Screenshot of the Microsoft 365 Admin Center](../media/05-vscode-debug-app-03.png)
 
 Select an active user and select **Edit** for their **Contact information**.
 
-![Screenshot of a user's details](../media/05-vscode-debugapp-06.png)
+![Screenshot of a user's details](../media/05-vscode-debug-app-04.png)
 
 Update the **Phone number** value with a new number and Select **Save**.
 
@@ -321,6 +330,10 @@ Received notification: 'Users/7a7fded6-0269-42c2-a0be-512d58da4463', 7a7fded6-02
 ```
 
 This indicates the application successfully received the notification from the Microsoft Graph for the user specified in the output. You can then use this information to query the Microsoft Graph for the users full details if you want to synchronize their details into your application.
+
+### Renew subscriptions
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4OATd]
 
 Subscriptions for notifications expire and need to be renewed periodically. The following steps will demonstrate how to renew notifications
 

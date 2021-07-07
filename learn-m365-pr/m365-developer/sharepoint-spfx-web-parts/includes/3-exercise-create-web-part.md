@@ -1,13 +1,13 @@
 In this exercise, you'll create a SharePoint Framework client-side web part.
 
 > [!IMPORTANT]
-> The instructions below assume you are using v1.11.0 of the SharePoint Framework Yeoman generator.
+> The instructions below assume you are using v1.12.1 of the SharePoint Framework Yeoman generator.
 
 Open a command prompt and change to the folder where you want to create the project.
 
 Run the SharePoint Yeoman generator by executing the following command:
 
-```shell
+```console
 yo @microsoft/sharepoint
 ```
 
@@ -25,15 +25,15 @@ Use the following to complete the prompt that is displayed:
 
 After provisioning the folders required for the project, the generator will install all the dependency packages using NPM.
 
-When NPM completes downloading all dependencies, install the developer certificate by executing the following command:
+When NPM completes downloading all dependencies, ensure the developer certificate is installed by executing the following command:
 
-```shell
+```console
 gulp trust-dev-cert
 ```
 
 Run the project by executing the following command:
 
-```shell
+```console
 gulp serve
 ```
 
@@ -55,15 +55,15 @@ Edit the web part's properties by selecting the pencil (edit) icon in the toolba
 
 In the property pane that opens, change the value of the **Description Field**. Notice how the web part updates as you make changes to the text:
 
-![Screenshot of editing the web part property pane](../media/03-testing-05.png)1
+![Screenshot of editing the web part property pane](../media/03-testing-05.png)
 
 ## Update the web part code
 
-Next, update the code in the `render()` method to add a button that responds to an event.
+Open the project folder in **Visual Studio Code**.
 
 If the local dev webserver isn't running, start it by running `gulp serve` on the command line from the root folder of the project, and add the **HelloWorld** web part to the SharePoint Workbench.
 
-Open the project folder in **Visual Studio Code**.
+Next, update the code in the `render()` method to add a button that responds to an event.
 
 Locate and open the file **src/webparts/helloWorld/HelloWorldWebPart.ts**.
 
@@ -133,13 +133,13 @@ The web part's icon is the name of one of the icons listed in the Office UI Fabr
 
 Start the local web server using the provided gulp **serve** task:
 
-```shell
+```console
 gulp serve
 ```
 
 The SharePoint Framework's gulp **serve** task will build the project, start a local web server, and launch a browser open to the SharePoint Workbench. This time, when you hover the mouse over the web part in the toolbox, you'll see the changes you applied to your web part:
 
-![Screenshot of editing the web part property pane](../media/03-testing-06.png)
+![Screenshot of the web part gallery](../media/03-testing-06.png)
 
 Close the browser and stop the local web server by pressing <kbd>CTRL</kbd>+<kbd>C</kbd> in the command prompt.
 

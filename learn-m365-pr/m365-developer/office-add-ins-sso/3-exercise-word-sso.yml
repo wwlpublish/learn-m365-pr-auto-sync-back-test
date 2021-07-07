@@ -1,0 +1,44 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.office-add-ins-sso.3-exercise-word-sso
+metadata:
+  title: Exercise - Create an Office Add-in for Word that implements Single Sign-On
+  description: In this exercise, you'll build a Word add-in that inserts details about the currently logged in user with Microsoft Graph. This process uses the single sign-on (SSO) authentication scheme.
+  ms.date: 04/02/2021
+  author: andrewconnell
+  ms.author: v-johnco
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Exercise - Create an Office Add-in for Word that implements Single Sign-On
+durationInMinutes: 18
+content: |
+  [!include[](includes/3-exercise-word-sso.md)]
+quiz:
+  title: Test your knowledge
+  questions:
+  - content: "The SSO process can obtain an access token for the currently signed in user that can be used to call Microsoft Graph."
+    choices:
+      - content: "False"
+        isCorrect: true
+        explanation: "Correct!"
+      - content: "True"
+        isCorrect: false
+        explanation: "The access token obtained for the currently signed in user by the SSO process only contains basic scopes in the access token and includes an ID token. This access token can be used to request an access token that can be used to call Microsoft Graph by calling the `/auth` Microsoft Graph endpoint."
+  - content: "In order for the SSO process to work with Office Add-ins, the user must already be signed into their personal account or their work and school Azure AD account."
+    choices:
+      - content: "False"
+        isCorrect: true
+        explanation: "Correct!"
+      - content: "True"
+        isCorrect: false
+        explanation: "User's don't have to be signed in for an Office Add-in to use SSO. If the user isn't already signed in, they'll be prompted to sign in with a popup dialog window."
+  - content: "What permissions can the Office client prompt the user to consent to when they sign in for the first time from the add-in?"
+    choices:
+      - content: "Office can only prompt the user to consent the OpenID permission `profile`."
+        isCorrect: true
+        explanation: "Correct!"
+      - content: "Office can prompt the user to consent to any permission defined in the Azure AD app registration."
+        isCorrect: false
+        explanation: "Office can only prompt the user to consent the `profile` scope."
+      - content: "Office can prompt the user to consent for any of the OpenID permissions, but not the Microsoft Graph permissions."
+        isCorrect: false
+        explanation: "Office can only prompt the user to consent the `profile` scope."

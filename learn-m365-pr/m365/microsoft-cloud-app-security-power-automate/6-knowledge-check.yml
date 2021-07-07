@@ -1,0 +1,68 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.mcas-power-automate.6-knowledge-check
+metadata:
+  title: Knowledge check
+  description: Knowledge check
+  ms.date: 05/14/2021
+  author: geoffallix
+  ms.author: beccarobins
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Knowledge check
+durationInMinutes: 4
+content: |
+  [!include[](includes/6-knowledge-check.md)]
+quiz:
+  title: Check your knowledge
+  questions:
+
+  - content: "What steps to you need to take to integrate Microsoft Cloud App Security with Power Automate?" 
+    choices: 
+    - content: "You must call the Power Automate API." 
+      isCorrect: false 
+      explanation: "That's incorrect. You do not need to call the Power Automate API. " 
+    - content: "You must host the Power Automate service on an on-premises server." 
+      isCorrect: false 
+      explanation: "That's incorrect. Power Automate is a cloud-based service."
+    - content: "No additional steps are necessary." 
+      isCorrect: true 
+      explanation: "That's correct. No additional steps are necessary to integrate Power Automate with Microsoft Cloud App Security."
+
+
+  - content: "What steps need to be taken for Power Automate to resolve a Microsoft Cloud App Security alert?" 
+    choices: 
+    - content: "Continually." 
+      isCorrect: true 
+      explanation: "That's correct. Microsoft Cloud App Security file policies scan files continually. " 
+    - content: "Daily." 
+      isCorrect: false 
+      explanation: "That's incorrect. Microsoft Cloud App Security file policies do not scan files daily." 
+    - content: "Weekly."
+      isCorrect: false 
+      explanation: "That's incorrect. Microsoft Cloud App Security file policies do not scan files weekly."
+
+
+  - content: "What component do you need to use in Power Automate to give a manager a choice of outcomes?" 
+    choices: 
+    - content: "A switch." 
+      isCorrect: true 
+      explanation: "That's correct. A switch can give a manager a choice of outcomes. " 
+    - content: "A fork." 
+      isCorrect: false 
+      explanation: "That's incorrect. A fork is not a Power Automate component." 
+    - content: " A branch."
+      isCorrect: false 
+      explanation: "That's incorrect. A branch can run multiple paths of a flow at the same time."
+
+
+  - content: "What does Power Automate add to the inbuilt Microsoft Cloud App Security method for handling malicious inbox user rules?" 
+    choices: 
+    - content: "The ability to alert on suspicious forwarding rules." 
+      isCorrect: false 
+      explanation: "That's incorrect. Microsoft Cloud App Security includes ability to alert on suspicious forwarding rules. " 
+    - content: "Power Automate does not alter the inbuilt Microsoft Cloud App security method." 
+      isCorrect: true 
+      explanation: "That's correct. Power Automate does not alter the inbuilt Microsoft Cloud App security method."
+    - content: "The ability to detect suspicious forwarding rules." 
+      isCorrect: false 
+      explanation: "That's incorrect. Microsoft Cloud App Security includes ability to detect suspicious forwarding rules."

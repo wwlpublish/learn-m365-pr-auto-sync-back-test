@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.configure-microsoft-cloud-app-security-initial-settings.3-import-user-groups
+metadata:
+  title: Import user groups
+  description: Learn to import user groups in Cloud App Security.
+  ms.date: 05/14/2021
+  author: geoffallix
+  ms.author: beccarobins
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Import user groups
+durationInMinutes: 5
+content: |
+  [!include[](includes/3-import-user-groups.md)]

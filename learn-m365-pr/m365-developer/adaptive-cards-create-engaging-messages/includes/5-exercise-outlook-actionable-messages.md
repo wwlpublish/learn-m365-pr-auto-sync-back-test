@@ -1,6 +1,6 @@
 In this exercise, you'll use Adaptive Cards to implement an engaging user experience with Outlook Actionable Messages.
 
-You'll create two separate projects during this exercise and register your app in two different portals in order to implement a complete solution:
+You'll create two separate projects during this exercise and register your app in two different portals to implement a complete solution:
 
 1. You'll start by first creating an Azure AD application that will be used to send an email with Microsoft Graph.
 1. Next, you'll use the Azure AD app in a .NET Core Console app that will send the email using Microsoft Graph that contains the adaptive card in the message.
@@ -24,14 +24,12 @@ Select **Manage > App registrations** in the left-hand navigation.
 
 On the **App registrations** page, select **New registration**.
 
-  ![Screenshot of App Registrations page](../media/05-azure-ad-portal-new-app-00.png)
-
 On the **Register an application** page, set the values as follows:
 
 - **Name**: Adaptive Card Mailer
 - **Supported account types**: Accounts in this organizational directory only (Contoso only - Single tenant)
 
-    ![Screenshot of the Register an application page](../media/05-azure-ad-portal-new-app-01.png)
+  ![Screenshot of App Registrations page](../media/05-azure-ad-portal-new-app-00.png)
 
     Select **Register**.
 
@@ -49,7 +47,7 @@ In the **Redirect URIs** section of the **Configure Desktop + devices** panel, s
 
 ![Screenshot of the Configure Desktop + devices panel](../media/05-azure-ad-portal-new-app-02a.png)
 
-In the **Authentication** panel, scroll down to the **Default client type** section and set the toggle to **Yes**.
+In the **Authentication** panel, scroll down to the **Advanced settings** section and set the toggle for **Allow public client flows** to **Yes**.
 
 ![Screenshot of the Default client type section](../media/05-azure-ad-portal-new-app-03.png)
 
@@ -506,7 +504,7 @@ npm init -y
 Install the required dependencies for the project by running the following command. This will install packages used to run project:
 
 ```console
-npm install adaptivecards-templating@0.1.1-alpha.1 axios base64url body-parser debug dotenv express jsonwebtoken morgan rsa-pem-from-mod-exp typescript -S
+npm install adaptivecards-templating adaptive-expressions axios base64url body-parser debug dotenv express jsonwebtoken morgan rsa-pem-from-mod-exp typescript -S
 ```
 
 Install the following packages used during development of the project by running the following command.
@@ -912,17 +910,18 @@ express.post('/api/card', (request: Express.Request, response: Express.Response,
       feedback.push(feedbackResponse);
 
       // create data structure for Adaptive Card
-      let cardData = new ACData.EvaluationContext();
-      cardData.$root = {
-        average_rating: feedback
+      let cardData: ACData.IEvaluationContext = {
+        $root : {
+          average_rating: feedback
           .map((feedbackReply) => {
             return feedbackReply.rating
           })
           .reduce((total, rating) => {
             return total + rating;
           }, 0) / feedback.length,
-        feedback: feedback,
-        total_responses: feedback.length
+          feedback: feedback,
+          total_responses: feedback.length
+        }
       };
 
       // load the template Adaptive Card response
@@ -958,16 +957,16 @@ Add the Adaptive Card template to the project by creating a new file **response-
     },
     {
       "type": "TextBlock",
-      "text": "Thank you for providing your feedback. Overall the webinar has an **average rating of {average_rating}** with a total of **{total_responses} people responding**.\n\nSome of the recently comments we've received include the following:",
+      "text": "Thank you for providing your feedback. Overall the webinar has an **average rating of ${average_rating}** with a total of **${total_responses} people responding**.\n\nSome of the recently comments we've received include the following:",
       "wrap": true
     },
     {
       "type": "FactSet",
       "facts": [
         {
-          "$data": "{feedback}",
-          "title": "{name}",
-          "value": "({rating}) {comment}"
+          "$data": "${feedback}",
+          "title": "${name}",
+          "value": "(${rating}) ${comment}"
         }
       ],
       "separator": true,
@@ -1046,7 +1045,7 @@ Open the **./.env** file and set the value of the `HOSTNAME` variable to the dyn
 
 Outlook will only render and send Adaptive Card submissions for services & users that are registered in the Actionable Email Developer Dashboard. To test the service, you need to register your service.
 
-Open a browser and navigate to the [Actionable Email Developer Dashboard https://aka.ms/publishoam)](https://aka.ms/publishoam). Sign in using a **Work or School Account**.
+Open a browser and navigate to the [Actionable Email Developer Dashboard](https://aka.ms/publishoam). Sign in using a **Work or School Account**.
 
 Select the **New Provider** link:
 

@@ -7,7 +7,7 @@ With the Microsoft Teams Platform, you can augment your services with context-sp
 Apps built on the Microsoft Teams Platform consist of three primary pieces.
 
 - **The Microsoft Teams client** provides the extensions points and UI elements your app will use to engage your users.
-- **Your Teams App Package** is the package that is installed in Microsoft Teams. It contains a small icon, a large icon, and a manifest JSON file. The manifest file contains the metadata for your app (like the name of the app, the developers name and so on), which extensibility points your app uses (like tabs and messaging extensions), and pointers to your web services that power your app (like the ID for your bot, or your tab's URL).
+- **Your Teams App Package** is the package that is installed in Microsoft Teams. It contains a small icon, a large icon, and a manifest JSON file. The manifest file contains the metadata for your app (like the name of the app, the developer's name, and so on), which extensibility points your app uses (like tabs and messaging extensions), and pointers to your web services that power your app (like the ID for your bot, or your tab's URL).
 - **Your web services** hosted by you providing the APIs and logic that power your app.
 
 It's important to keep in mind that the Microsoft Teams Platform isn't a hosting service; the web services powering your app must be hosted by you and accessible by HTTPS over the internet.
@@ -18,7 +18,7 @@ There are multiple places where the Microsoft Teams client can be extended to al
 
 ### Teams, channels, and group chats
 
-Teams, channels, and group chats allow multiple people to collaborate. Apps that extend context make themselves available to all members of the group or conversation, typically focusing on enabling additional collaborative workflows or unlocking new social interactions. Your app will have access to APIs allowing it to get information about the members in the conversation, the channels in a team, and metadata about the team or conversation.
+Teams, channels, and group chats allow multiple people to collaborate. Apps that extend context make themselves available to all members of the group or conversation, typically focusing on enabling other collaborative workflows or unlocking new social interactions. Your app will have access to APIs allowing it to get information about the members in the conversation, the channels in a team, and metadata about the team or conversation.
 
 They can be expanded with:
 
@@ -41,7 +41,7 @@ Messages are the heart of collaboration in Teams. With a **messaging extension a
 
 ### Writing messages
 
-Your app can help users craft more effect messages by enabling them to search, or take action, in an external system, and insert the results in a rich, structured format complete with actionable buttons.
+Your app can help users craft more effective messages by enabling them to search, or take action, in an external system, and insert the results in a rich, structured format complete with actionable buttons.
 
 There are three ways your app can help users create better messages:
 
@@ -63,14 +63,14 @@ Task modules allow you to create modal popup experiences in your Teams applicati
 
 ### Deep links
 
-Your app can create URL deep links to help navigate your user through your app, and the Teams client. You can create a deep link for most entities within Teams, and some (like a new meeting request) allow you to pre-populate information using query strings in the URL. For example, your conversational bot could send a message to a channel with a deep link to a task module that results in a card being sent as a one-to-one message to a user, that in turn contains a deep link to create a new meeting with a specific user at a certain date/time. Use deep links to connect across the various extension points available to your app, keeping your user in the correct context at all times.
+Your app can create URL deep links to help navigate your user through your app, and the Teams client. You can create a deep link for most entities within Teams, and some (like a new meeting request) allow you to pre-populate information using query strings in the URL. For example, your conversational bot could send a message to a channel with a deep link to a task module that results in a card being sent as a one-to-one message to a user, that in turn contains a deep link to create a new meeting with a specific user at a certain date/time. Use deep links to connect across the various extension points available to your app, keeping your user in the correct context.
 
 ### Web content pages
 
 A web content page is a webpage you host that can be embedded in a tab or a task module. To enable your webpage to be embedded in a Microsoft Teams client, it must:
 
 - Be hosted on an HTTPS.
-- Can be embedded in an `<iframe>` by the Teams client.
+- Be embeddable in an `<iframe>` by the Teams client.
 - Include the Microsoft Teams JavaScript client SDK, and invoke the SDK's `initialize()` method on page load.
 
 ## Summary

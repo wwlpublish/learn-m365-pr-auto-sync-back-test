@@ -1,13 +1,13 @@
 In this exercise, you'll create a SharePoint Framework (SPFx) field customizer extension that will display a colored bar in a column with a percentage of the bar filled depending on the value in the field.
 
 > [!IMPORTANT]
-> The instructions below assume you are using v1.11.0 of the SharePoint Framework Yeoman generator.
+> The instructions below assume you are using v1.12.1 of the SharePoint Framework Yeoman generator.
 
 Open a command prompt and change to the folder where you want to create the project.
 
 Run the SharePoint Yeoman generator by executing the following command:
 
-```shell
+```console
 yo @microsoft/sharepoint
 ```
 
@@ -98,19 +98,23 @@ if (isNaN(fieldValue) || fieldValue === 0) {
 
 In a browser, navigate to a SharePoint Online modern site collection where you want to test the field customizer.
 
-Select the **Site contents** link in the left-hand navigation and then select **New > List** in the toolbar. Set the list name to **Work Status** and select **Create**.
+Select the **Site contents** link in the left-hand navigation and then select **New > List** in the toolbar. Select the **Blank list** template.
 
-![Screenshot creating new SharePoint list](../media/field-customizer-setup-list-01.png)
+![Screenshot creating new SharePoint list - Select blank list template](../media/05-field-customizer-setup-list-01.png)
+
+Set the list name to **Work Status** and select **Create**.
+
+![Screenshot creating new SharePoint list - Dialog completing new list name](../media/05-field-customizer-setup-list-02.png)
 
 When the list loads, select the **Add column > Number** to create a new column.
 
-![Screenshot modifying existing SharePoint list](../media/field-customizer-setup-list-02.png)
+![Screenshot modifying existing SharePoint list](../media/05-field-customizer-setup-list-03.png)
 
-When prompted for the name of the column, enter **PercentComplete**.
+In the **Create a column** dialog, set Name to **PercentComplete** and select **Save**.
 
 Add a few items to the list, such as the following figure:
 
-![Screenshot of sample data in a list](../media/field-customizer-setup-list-03.png)
+![Screenshot of sample data in a list](../media/05-field-customizer-setup-list-04.png)
 
 ## Update the testing and deployment configuration
 
@@ -165,7 +169,7 @@ The JSON for the default serve configuration should look similar to the followin
 
 Run the project by executing the following command:
 
-```shell
+```console
 gulp serve
 ```
 
@@ -173,7 +177,7 @@ When prompted, select the **Load debug scripts** button.
 
 When the page loads, notice how the rendering has changed according to the code in your field customizer:
 
-![Screenshot of the field customizer](../media/field-customizer-test.png)
+![Screenshot of the field customizer](../media/05-field-customizer-test.png)
 
 Stop the local web server by pressing <kbd>CTRL</kbd>+<kbd>C</kbd> in the console/terminal window.
 

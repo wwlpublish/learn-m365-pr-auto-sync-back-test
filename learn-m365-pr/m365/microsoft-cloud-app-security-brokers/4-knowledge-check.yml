@@ -1,0 +1,42 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.mcas-casbs.4-knowledge-check
+metadata:
+  title: Knowledge check
+  description: Knowledge check
+  ms.date: 05/14/2021
+  author: geoffallix
+  ms.author: beccarobins
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Knowledge check
+durationInMinutes: 4
+content: |
+  [!include[](includes/4-knowledge-check.md)]
+quiz:
+  title: Check your knowledge
+  questions:
+
+  - content: "What type of routing does Microsoft Cloud App Security utilize?" 
+    choices: 
+    - content: "Reverse proxy." 
+      isCorrect: true 
+      explanation: "That's correct. Traffic is routed via a reverse proxy infrastructure, which minimizes user impact while maintaining the highest level of control." 
+    - content: "TCP/IP." 
+      isCorrect: false 
+      explanation: "That's incorrect. TCP/IP is a set of communication protocols. " 
+    - content: "Proxy." 
+      isCorrect: false 
+      explanation: "That's incorrect. If a proxy server was utilized, it would require all client devices to be configured to use it."
+
+
+  - content: "Using Microsoft Cloud App Security, how can you protect confidential data from being shared with external users?" 
+    choices: 
+    - content: "By encrypting all files." 
+      isCorrect: false 
+      explanation: "That's incorrect. Encrypting all files would prevent access to any files, not just confidential ones." 
+    - content: "By updating the firewall." 
+      isCorrect: false 
+      explanation: "That's incorrect. A firewall would prevent access to any files, not just confidential ones. " 
+    - content: "By creating policies." 
+      isCorrect: true 
+      explanation: "That's correct. Create a file policy to prevent users from sharing confidential information."

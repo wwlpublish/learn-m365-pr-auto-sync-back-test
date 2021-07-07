@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.msgraph-user-photo-information.2-access-user-profile-photo
+metadata:
+  title: Use Microsoft Graph in your web application to retrieve a user's profile photo
+  description: Learn how you can use Microsoft Graph to retrieve a user's profile photo or information.
+  ms.date: 03/16/2021
+  author: rabwill
+  ms.author: rwilliams
+  ms.topic: interactive-tutorial
+  ms.prod: learning-graph
+title: Use Microsoft Graph in your web application to retrieve a user's profile photo
+durationInMinutes: 5
+content: |
+  [!include[](includes/2-access-user-profile-photo.md)]

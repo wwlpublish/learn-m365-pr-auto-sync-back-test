@@ -3,7 +3,7 @@ uid: learn-m365.msgraph-access-user-data.7-exercise-modify-users
 metadata:
   title: Exercise - Modifying users
   description: In this exercise, you'll modify an existing Azure AD application registration using the Azure Active Directory admin center, a .NET Core console application, and use Microsoft Graph to create, update, and delete users in your organization.
-  ms.date: 09/10/2020
+  ms.date: 06/18/2021
   author: andrewconnell
   ms.author: v-johnco
   ms.topic: interactive-tutorial
@@ -19,7 +19,7 @@ quiz:
     choices:
     - content: "accountEnabled, mailNickname, displayName, and passwordProfile, userPrincipalName"
       isCorrect: true
-      explanation: "Correct, all these properties are required all user resources."
+      explanation: "Correct, all these properties are required for all user resources."
     - content: "accountEnabled, mailNickname, givenName, surname, and passwordProfile"
       isCorrect: false
       explanation: "The givenName and surname properties aren't required."

@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.office-add-ins-sso.4-sso-microsoft-graph
+metadata:
+  title: Use Single Sign-On (SSO) in Office Add-ins with Microsoft Graph
+  description: In this unit, you'll learn how to implement SSO in an Office Add-in to submit requests and retrieve information from Microsoft Graph.
+  ms.date: 06/17/2021
+  author: andrewconnell
+  ms.author: v-johnco
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Use Single Sign-On (SSO) in Office Add-ins with Microsoft Graph
+durationInMinutes: 8
+content: |
+  [!include[](includes/4-sso-microsoft-graph.md)]

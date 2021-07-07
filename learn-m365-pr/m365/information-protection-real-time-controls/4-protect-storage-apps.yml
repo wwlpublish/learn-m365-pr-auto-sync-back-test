@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.information-protection-real-time-controls.4-protect-storage-apps
+metadata:
+  title: Protect storage apps and implement malware detection
+  description: Learn how to protect storage apps and implement malware detection
+  ms.date: 05/13/2021
+  author: geoffallix
+  ms.author: beccarobins
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Protect storage apps and implement malware detection
+durationInMinutes: 5
+content: |
+  [!include[](includes/4-protect-storage-apps.md)]

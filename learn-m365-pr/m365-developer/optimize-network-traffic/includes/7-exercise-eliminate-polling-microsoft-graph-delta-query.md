@@ -1,14 +1,19 @@
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4OO3E]
+
 In this exercise, you'll use the Azure AD application and .NET console application you previously created and modify them to demonstrate using the delta query feature of Microsoft Graph. An application can leverage the delta query feature to avoid costly requests to poll for changes in Microsoft Graph that can trigger requests to be throttled.
+
+> [!IMPORTANT]
+> This exercise assumes you have created the Azure AD application and .NET console application from the previous unit in this module. You'll edit the existing Azure AD application and .NET console application created in that exercise in this exercise.
 
 ## Add an additional permission the Azure AD application
 
-In this exercise, you will update the application to get a list of all the users in the tenant. To perform this task, the Azure AD application needs additional permissions.
+In this exercise, you'll update the application to get a list of all the users in the tenant. To do this task, the Azure AD application needs additional permissions.
 
 Open a browser and navigate to the [Azure Active Directory admin center (https://aad.portal.azure.com)](https://aad.portal.azure.com). Sign in using a **Work or School Account**.
 
 Select **Azure Active Directory** in the left-hand navigation.
 
-  ![Screenshot of the App registrations](../media/aad-portal-home.png)
+  ![Screenshot of Azure AD Portal](../media/azure-ad-portal-home.png)
 
 Select **Manage > App registrations** in the left-hand navigation.
 
@@ -16,13 +21,13 @@ On the **App registrations** page, select the **Graph Console App**, or the name
 
 Select **API Permissions** in the left-hand navigation panel.
 
-![Screenshot of the API Permissions navigation item](../media/07-aad-portal-add-permission.png)
+![Screenshot of the API Permissions navigation item](../media/07-azure-ad-portal-add-permission.png)
 
 Select the **Add a permission** button.
 
 In the **Request API permissions** panel that appears, select **Microsoft Graph** from the **Microsoft APIs** tab.
 
-![Screenshot of Microsoft Graph in the Request API permissions panel](../media/aad-portal-newapp-permissions-03.png)
+![Screenshot of Microsoft Graph in the Request API permissions panel](../media/azure-ad-portal-new-app-permissions-02.png)
 
 When prompted for the type of permission, select **Delegated permissions** and search for the permission **User.Read.All**, select it and then select the **Add permission** button at the bottom of the panel.
 
@@ -59,7 +64,7 @@ Next, add a method to retrieve users with Microsoft Graph. This method will use 
 
 If this is the first time the request is made, indicated by the `_previousPage == null`, you'll request all users but also request a delta link using the `Delta()` method. The code will return the current page of users.
 
-Otherwise, if there are more pages of users, it will initiate a request for the next page using the delta link string that you will obtain later.
+Otherwise, if there are more pages of users, it will start a request for the next page using the delta link string that you'll obtain later.
 
 Add the following method to the `Program` class:
 
@@ -174,33 +179,31 @@ dotnet run
 
 After entering the username and password for the current user, the application will write all the users in the tenant to the console:
 
-![Screenshot of the console displaying all users](../media/app-run-07-01.png)
+![Screenshot of the console displaying all users](../media/07-app-run-01.png)
 
 If you let the app run for a few moments without doing anything, notice it will keep requesting users, but not display anyone as no users have been created in your tenant:
 
-![Screenshot of the console displaying no new users](../media/app-run-07-02.png)
+![Screenshot of the console displaying no new users](../media/07-app-run-02.png)
 
 Now, add a new user to your tenant.
 
 Open a browser and navigate to the [Azure Active Directory admin center (https://aad.portal.azure.com)](https://aad.portal.azure.com). Sign in using a **Work or School Account**.
 
-Select **Azure Active Directory** in the left-hand navigation.
+Select **Users** in the left-hand navigation.
 
-Select **Manage > Users** in the left-hand navigation.
-
-![Screenshot of the App registrations](../media/aad-portal-users.png)
+![Screenshot of the Azure AD Users screen](../media/azure-ad-portal-users.png)
 
 On the **Users - All Users** page, select **New User**.
 
 Create a new user by entering the values in the **Identity** section of the **New User** page and select **Create** at the bottom of the form.
 
-![Screenshot creating a new user](../media/app-run-07-03.png)
+![Screenshot creating a new user](../media/07-app-run-03.png)
 
 Watch the running application in the console. The next time it runs, it will display the new user that you created:
 
-![Screenshot of the console app displaying the new user](../media/app-run-07-04.png)
+![Screenshot of the console app displaying the new user](../media/07-app-run-04.png)
 
-Press <kbd>CTRL</kbd>+<kbd>C</kbd> to terminate the application.
+Press <kbd>CTRL</kbd>+<kbd>C</kbd> to stop the application.
 
 ## Summary
 

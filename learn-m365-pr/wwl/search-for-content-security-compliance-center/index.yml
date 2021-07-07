@@ -1,0 +1,46 @@
+### YamlMime:Module
+uid: learn.wwl.search-for-content-security-compliance-center
+metadata:
+  title: Search for content in the Microsoft 365 compliance center
+  description: "Search for content in the Microsoft 365 compliance center"
+  ms.date: 06/18/2021
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Search for content in the Microsoft 365 compliance center
+summary: This module examines how to search for content in the Microsoft 365 compliance center using Content Search functionality, manage the search results, and search for items from a third-party data source.
+abstract: |
+  By the end of this module, you will be able to:
+  - Describe how to use content search in the Microsoft 365 compliance center
+  - Design, create, and clone a content search
+  - Preview the search results
+  - View the search statistics
+  - Export the search results and search report
+  - Configure search permission filtering
+  - Explain how to search for items from a third-party data source
+prerequisites: ""
+iconUrl: /learn/achievements/m365-content-compliance.svg
+levels:
+- intermediate
+roles:
+- administrator
+- security-engineer
+- solution-architect
+- technology-manager
+products:
+- azure-active-directory
+- m365
+- office-365
+units:
+- learn.wwl.search-for-content-security-compliance-center.introduction
+- learn.wwl.search-for-content-security-compliance-center.explore-content-search-functionality
+- learn.wwl.search-for-content-security-compliance-center.design-create-clone-content-search
+- learn.wwl.search-for-content-security-compliance-center.view-search-results
+- learn.wwl.search-for-content-security-compliance-center.export-search-results
+- learn.wwl.search-for-content-security-compliance-center.configure-search-permissions-filtering
+- learn.wwl.search-for-content-security-compliance-center.items-from-third-party-data-source
+- learn.wwl.search-for-content-security-compliance-center.knowledge-check
+- learn.wwl.search-for-content-security-compliance-center.summary
+badge:
+  uid: learn.wwl.search-for-content-security-compliance-center.badge

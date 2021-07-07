@@ -20,9 +20,9 @@ quiz:
     - content: Conditional Access
       isCorrect: false
       explanation: "Conditional Access isn't designed to prevent the accidental sharing of sensitive information."
-    - content: Advanced Threat Protection
+    - content: Microsoft Defender for Office 365
       isCorrect: false
-      explanation: "Advanced Threat Protection monitors suspicious activity. It doesn't prevent the accidental sharing of sensitive information."
+      explanation: "Microsoft Defender for Office 365 monitors suspicious activity. It doesn't prevent the accidental sharing of sensitive information."
     - content: Data loss prevention
       isCorrect: true
       explanation: "Data loss prevention policies prevent the accidental sharing of sensitive information."      
@@ -32,9 +32,9 @@ quiz:
     - content: Microsoft 365 admin center
       isCorrect: false
       explanation: "Auditing for Teams isn't enabled using the Microsoft 365 admin center."
-    - content: Security & Compliance Center
+    - content: Microsoft 365 Defender portal
       isCorrect: true
-      explanation: "Auditing for Teams is enabled in the Security & Compliance Center."
+      explanation: "Auditing for Teams is enabled in the Microsoft 365 Defender portal."
     - content: Microsoft Teams admin center
       isCorrect: false
       explanation: "Auditing for Teams isn't enabled in the Microsoft Teams admin center."

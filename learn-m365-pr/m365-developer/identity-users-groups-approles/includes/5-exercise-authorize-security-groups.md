@@ -158,7 +158,7 @@ namespace UserGroupRole
 }
 ```
 
-The sample data will be stored as a singleton in the dependency injection container built into ASP.NET core. Open the **Startup.cs** file in the root folder of the project. Locate the statement that calls the `AddControllersWithViews()` method. Before that statement, add the following:
+The sample data will be stored as a singleton in the dependency injection container built into ASP.NET core. Open the **Startup.cs** file in the root folder of the project. Add the following line at the bottom of the `ConfigureServices()` method:
 
 ```csharp
 services.AddSingleton(SampleData.Initialize());
@@ -258,9 +258,10 @@ Replace the string `<VIEWER-GROUP-OBJECTID>` with the value copied from the All 
 
 #### Build and test the web app
 
-Execute the following command in a command prompt to compile and run the application:
+Execute the following commands in a command prompt to compile and run the application:
 
 ```console
+dotnet dev-certs https --trust
 dotnet build
 dotnet run
 ```

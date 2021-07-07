@@ -1,7 +1,4 @@
-﻿>[!IMPORTANT]
->Threat protection product names in Microsoft are changing. [Read more about this and other updates](https://www.microsoft.com/security/blog/?p=91813). We'll be updating names in products and in the Learn content in the near future.
-
-Intune lets you manage your workforce’s devices and apps and how they access your company data. To use this Mobile Device Management (MDM) system, the devices must first be enrolled in the Intune service. Several methods exist to enroll your workforce’s devices. Each method depends on the device's ownership (personal or corporate), device type (iOS, Windows, Android), and management requirements (resets, affinity, locking).
+﻿Intune lets you manage your workforce’s devices and apps and how they access your company data. To use this Mobile Device Management (MDM) system, the devices must first be enrolled in the Intune service. Several methods exist to enroll your workforce’s devices. Each method depends on the device's ownership (personal or corporate), device type (iOS, Windows, Android), and management requirements (resets, affinity, locking).
 
 By default, devices for all platforms can enroll in Intune. However, you can restrict devices by platform.
 
@@ -10,11 +7,8 @@ By default, devices for all platforms can enroll in Intune. However, you can res
 Managing mobile devices, like most IT management activities, follows a lifecycle. The mobile device management lifecycle contains four phases:
 
 - **Enroll**. In the Enroll phase, devices register with the mobile device management solution. With Intune, you can enroll both mobile devices, such as phones, and Windows PCs.
-
 - **Configure**. In the Configure phase, you help to ensure that the enrolled devices are secure and that they comply with any configuration or security policies. You can also automate common administrative tasks, such as configuring Wi-Fi.
-
 - **Protect**. In the Protect phase, the mobile device management solution provides ongoing monitoring of the settings established in the Configure phase. During this phase, you also use the mobile device management solution to help keep devices compliant through the monitoring and deployment of software updates.
-
 - **Retire**. When a device is no longer needed, when it’s lost, or when it’s stolen, you should help to protect the data on the device. You can remove data by resetting the device, performing a full wipe, or performing a selective wipe that removes only corporation-owned data from the device.
 
 ### Automatic MDM Enrollment
@@ -45,7 +39,6 @@ The following methods, that can be used to enroll in Intune are:
 Microsoft Intune includes settings and features that you can enable or disable on different devices within your organization. These settings and features are managed using profiles. Some profile examples include:
 
 - A Wi-Fi profile that gives different devices access to your corporate Wi-Fi.
-
 - A VPN profile that gives different devices access to your VPN server within your corporate network.
 
 The following profiles are available in Intune:
@@ -73,16 +66,14 @@ The following profiles are available in Intune:
 The Windows 10 operating system requires each user to have a user profile. User profiles are created during a user’s first sign-in, and they are stored in the Users folder. User profiles are created based on the content in the Default profile in the Users folder. The three different types of user profiles are:
 
 - **Local:** This type is available on a single computer only.
-
 - **Roaming:** This type can roam between computers that are domain members.
-
 - **Mandatory:** This is a special type of preconfigured user profile that does not store user changes between sign-ins.
-
 - **Temporary User Profiles:** A temporary profile is issued each time that an error condition prevents the user's profile from loading.
 
 ## Learn more
-- [Plan for device Compliance](https://docs.microsoft.com/azure/active-directory/conditional-access/plan-conditional-access?azure-portal=true)
-- [Design and create Conditional Access Policies](https://docs.microsoft.com/azure/active-directory/conditional-access/concept-conditional-access-policies?azure-portal=true)
-- [Configure device compliance policy](https://docs.microsoft.com/intune/protect/device-compliance-get-started?azure-portal=true)
-- [Manage Conditional Access Policies](https://docs.microsoft.com/intune/protect/conditional-access-intune-common-ways-use?azure-portal=true)
-- [Microsoft Intune device reports](https://docs.microsoft.com/mem/intune/fundamentals/reports?azure-portal=true)
+
+- [Plan for device Compliance](/azure/active-directory/conditional-access/plan-conditional-access?azure-portal=true)
+- [Design and create Conditional Access Policies](/azure/active-directory/conditional-access/concept-conditional-access-policies?azure-portal=true)
+- [Configure device compliance policy](/intune/protect/device-compliance-get-started?azure-portal=true)
+- [Manage Conditional Access Policies](/intune/protect/conditional-access-intune-common-ways-use?azure-portal=true)
+- [Microsoft Intune device reports](/mem/intune/fundamentals/reports?azure-portal=true)

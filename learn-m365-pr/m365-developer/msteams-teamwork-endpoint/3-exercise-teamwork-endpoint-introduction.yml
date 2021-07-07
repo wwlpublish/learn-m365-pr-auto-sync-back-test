@@ -1,0 +1,47 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.msteams-teamwork-endpoint.3-exercise-teamwork-endpoint-introduction
+metadata:
+  title: Exercise - Teamwork endpoint introduction
+  description: In this exercise, you’ll learn how to create a project and configure the custom Microsoft Teams app with single sign-on to submit requests to Microsoft Graph.
+  ms.date: 06/18/2021
+  author: andrewconnell
+  ms.author: suzanz
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Exercise - Teamwork endpoint introduction
+durationInMinutes: 23
+content: |
+  [!include[](includes/3-exercise-teamwork-endpoint-introduction.md)]
+quiz:
+  title: Test your knowledge
+  questions:
+  - content: "To convert a Microsoft 365 group to a Microsoft Teams team, the group must be set to the following values?"
+    choices:
+    - content: "A Microsoft 365 group must have the following: groupTypes=Unified, mailEnabled=true, and securityEnabled=false"
+      isCorrect: true
+      explanation: "Correct!"
+    - content: "A Microsoft 365 group must have the following: groupTypes=Unified, mailEnabled=true, and securityEnabled=true"
+      isCorrect: false
+      explanation: "To convert a Microsoft 365 group to a team, the securityEnabled property must be set to false. When set to true, this group is used a security group in Microsoft 365."
+    - content: "A Microsoft 365 group must have the following: groupTypes=Teams, mailEnabled=true, and securityEnabled=false"
+      isCorrect: false
+      explanation: "'Teams' isn't a valid `groupType`."
+  - content: "Which of the following permission(s) must the user grant consent to an app to return the teams the user has joined?"
+    choices:
+    - content: "Team.Read"
+      isCorrect: false
+      explanation: "This isn't a valid permission in Microsoft Graph."
+    - content: "Team.ReadBasic.All"
+      isCorrect: true
+      explanation: "Correct!"
+    - content: "Teams"
+      isCorrect: false
+      explanation: "This isn't a valid permission in Microsoft Graph."
+  - content: "The SSO process can obtain an access token for the currently signed in user that can be used to call Microsoft Graph."
+    choices:
+    - content: "False"
+      isCorrect: true
+      explanation: "Correct!"
+    - content: "True"
+      isCorrect: false
+      explanation: "The access token obtained for the currently signed in user by the SSO process only contains basic scopes in the access token and includes an ID token. This access token can be used to request an access token that can be used to call Microsoft Graph by calling the `/auth` Microsoft Graph endpoint."

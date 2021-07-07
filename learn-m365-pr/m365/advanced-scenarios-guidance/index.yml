@@ -1,0 +1,42 @@
+### YamlMime:Module
+uid: learn-m365.advanced-scenarios-guidance
+metadata:
+  title: Configure advanced scenarios in Microsoft Cloud App Security
+  description: Use advanced features of Microsoft Cloud App Security to protect more devices, integrate with other products, and customize security tools.
+  ms.date: 05/14/2021
+  author: alistairmatthews
+  ms.author: beccarobins
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Configure advanced scenarios in Microsoft Cloud App Security
+summary: Use advanced features of Microsoft Cloud App Security to protect more devices, integrate with other products, and customize security tools.
+abstract: | 
+  After completing this module, you’ll be able to:
+  -	Create a custom indicator of compromise in Microsoft Cloud App Security.
+  -	Observe security threats detected by Microsoft Cloud App Security in the Microsoft 365 Defender portal.
+  -	Block apps and websites on iOS devices by using Defender for Endpoint and Microsoft Cloud App Security.
+  -	Ensure that a log collector can communicate with Microsoft Cloud App Security from behind a proxy server.
+  -	Interact with Microsoft Cloud App Security by using the REST API.
+prerequisites: | 
+  - Experience working with Microsoft 365 services
+  - Experience working with Azure 
+  - Knowledge of security concepts, risks, and mitigations
+  - Microsoft Cloud App Security fundamentals or equivalent
+iconUrl: /learn/achievements/configure-advanced-scenarios-in-microsoft-cloud-app-security.svg
+levels:
+- advanced
+roles:
+- administrator
+products:
+- m365-ems-cloud-app-security
+units:
+- learn-m365.advanced-scenarios-guidance.introduction
+- learn-m365.advanced-scenarios-guidance.configure-custom-indicators-compromise
+- learn-m365.advanced-scenarios-guidance.integrate-security-center
+- learn-m365.advanced-scenarios-guidance.protect-ios-devices
+- learn-m365.advanced-scenarios-guidance.configure-log-collector-behind-proxy
+- learn-m365.advanced-scenarios-guidance.use-mcas-rest-api
+- learn-m365.advanced-scenarios-guidance.knowledge-check
+- learn-m365.advanced-scenarios-guidance.summary
+badge:
+  uid: learn-m365.advanced-scenarios-guidance.badge

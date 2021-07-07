@@ -1,0 +1,54 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.implement-mcas-cloud-discovery.7-knowledge-check
+metadata:
+  title: Knowledge check
+  description: Knowledge check
+  ms.date: 05/13/2021
+  author: geoffallix
+  ms.author: beccarobins
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Knowledge check
+durationInMinutes: 4
+content: |
+  [!include[](includes/7-knowledge-check.md)]
+quiz:
+  title: Check your knowledge
+  questions:
+
+  - content: "Which of the following Cloud App Security policy types has the category of Cloud Discovery?"
+    choices:
+    - content: "Activity policy."
+      isCorrect: false
+      explanation: " That's incorrect. An Activity policy is of category Threat detection."
+    - content: "App discovery policy."
+      isCorrect: true
+      explanation: "That's correct. This is of category Cloud Discovery."
+    - content: "File policy."
+      isCorrect: false
+      explanation: "That's incorrect. A File policy is of category DLP."
+
+  - content: "An administrator is creating an app discovery policy. The administrator wants to configure factors that determine when a policy match is triggered. Which of the following is available a policy match trigger?"
+    choices:
+    - content: "App tag."
+      isCorrect: false
+      explanation: " That's incorrect. But you can use app tags as a filter in an app discovery policy."
+    - content: "Number of devices."
+      isCorrect: true
+      explanation: "That's correct. Number of devices can be used to determine whether a policy match is triggered."
+    - content: "Risk score."
+      isCorrect: false
+      explanation: "That's incorrect. But you can use risk score as a filter in an app discovery policy."
+
+  - content: "An administrator at Contoso wants to track app usage on Windows 10 devices in your organization. Devices are connected by both WiFi and or remote users, VPN. Which of the following integrations should be selected to help track app usage on Windows 10 devices?"
+    choices:
+    - content: "Zscaler."
+      isCorrect: false
+      explanation: "That's incorrect. Zscaler is a standalone cloud proxy device which you can use to monitor your organization’s network traffic."
+    - content: "Corrata."
+      isCorrect: false
+      explanation: " That's incorrect. Corrata is a local Mobile gateway and monitors network traffic from your users’ mobile devices."
+    - content: "Defender for Endpoint."
+      isCorrect: true
+      explanation: "That's correct. Defender for Endpoint collects data about the cloud apps and services being accessed from your managed Windows 10 devices. Cloud App Security then leverages these data."
+

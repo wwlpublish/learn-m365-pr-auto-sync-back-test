@@ -49,7 +49,7 @@ Let's first explore the sending phase of actionable messages
 
 In the send phase, the pre-requisites for your service to send actionable messages are as follows:
 
-- If you're using actionable email, you'll need to enable sender verification. This does not apply to connector messages.
+- If you're using actionable email, you'll need to enable sender verification. This doesn't apply to connector messages.
 - Your service must be registered with Microsoft.
 - The Action URL must support HTTPS.
 
@@ -62,6 +62,9 @@ While DKIM and SPF are sufficient for some scenarios, that solution won't work i
 #### Implementing DKIM and SPF
 
 DKIM and SPF are industry standard ways to prove a sender's identity when sending emails over SMTP. Many companies already implement these standards to secure the emails they're already sending. To learn more about SPF/DKIM and how to implement them, see:
+
+- [DomainKeys Identified Mail (DKIM)](https://tools.ietf.org/html/rfc5585)
+- [Sender Policy Framework](https://en.wikipedia.org/wiki/Sender_Policy_Framework)
 
 #### Signed card payloads
 

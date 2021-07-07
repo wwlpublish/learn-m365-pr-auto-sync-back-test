@@ -1,0 +1,47 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.msteams-sso.3-exercise-single-sign-on
+metadata:
+  title: Exercise - Implement single sign-on (SSO) for Microsoft Teams apps
+  description: In this exercise, you'll learn how to manually register and configure the Azure AD app that can be used to implement SSO in a Microsoft Teams app to better understand all the required settings.
+  ms.date: 06/18/2021
+  author: andrewconnell
+  ms.author: suzanz
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Exercise - Implement single sign-on (SSO) for Microsoft Teams apps
+durationInMinutes: 10
+content: |
+  [!include[](includes/3-exercise-single-sign-on.md)]
+quiz:
+  title: Test your knowledge
+  questions:
+  - content: "The SSO process can obtain an access token for the currently signed in user that can be used to call Microsoft Graph."
+    choices:
+      - content: "False"
+        isCorrect: true
+        explanation: "Correct!"
+      - content: "True"
+        isCorrect: false
+        explanation: "The access token obtained for the currently signed in user by the SSO process only contains basic scopes in the access token and includes an ID token. This access token can be used to request an access token that can be used to call Microsoft Graph by exchanging it with Azure AD using the OAuth2 on behalf of flow"
+  - content: "What permissions can the Microsoft Teams client prompt the user to consent to when they sign in for the first time from the app?"
+    choices:
+      - content: "Microsoft Teams can only prompt the user to consent the OpenID permission `profile`."
+        isCorrect: true
+        explanation: "Correct!"
+      - content: "Microsoft Teams can prompt the user to consent to any permission defined in the Azure AD app registration."
+        isCorrect: false
+        explanation: "Microsoft Teams can only prompt the user to consent the `profile` scope."
+      - content: "Microsoft Teams can prompt the user to consent for any of the OpenID permissions, but not the Microsoft Graph permissions."
+        isCorrect: false
+        explanation: "Microsoft Teams can only prompt the user to consent the `profile` scope."
+  - content: "What details are listed in the `webApplicationInfo` object in Microsoft Teams app's manifest?"
+    choices:
+      - content: "The Azure AD app's URI"
+        isCorrect: false
+        explanation: "In addition to the app's URI, it also contains app's ID and the permissions the app requires."
+      - content: "The Azure AD app registered for the app, and the app's URI."
+        isCorrect: false
+        explanation: "It also contains the permissions the app requires."
+      - content: "The Azure AD app registered for the app, the permissions the app requires, and the app's URI."
+        isCorrect: true
+        explanation: "Correct!"

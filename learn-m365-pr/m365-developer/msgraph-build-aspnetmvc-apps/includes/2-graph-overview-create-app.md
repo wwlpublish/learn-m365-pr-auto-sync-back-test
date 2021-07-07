@@ -1,3 +1,5 @@
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4OO3l]
+
 In this unit, you'll learn how Microsoft Graph fits into the larger Microsoft 365 platform. You'll then learn how to use Microsoft Graph in an ASP.NET MVC application to display events from the currently signed in user's calendar.
 
 ## Microsoft 365 platform
@@ -24,7 +26,7 @@ However, this can be challenging to go to each of these individual services with
 
 ### Microsoft Graph simplifies access to Microsoft 365 data
 
-![Microsoft Graph - gateway to your data in the Microsoft cloud](../media/02-msgraph-gateway-o365.png)
+![Microsoft Graph simplifies access to Microsoft 365 data](../media/02-msgraph-gateway-o365.png)
 
 One of the benefits of Microsoft Graph is that it serves as a proxy endpoint to all of these other services. Microsoft Graph encompass things such as Office 365, Windows 10 enterprise mobility and security (EMS), and it brings all of these different services under one unified endpoint: **graph.microsoft.com**.
 
@@ -40,9 +42,9 @@ Microsoft Graph simplifies token acquisition because with all of these different
 
 Microsoft Graph proxies the different services together so we don't need to obtain individual tokens for each service. Microsoft Graph, through one endpoint, will proxy calls to each service's endpoint.
 
-This eliminates the need for traditional discovery service. Prior to Microsoft Graph, developers had to use a discovery service to ask the different endpoints with Microsoft 365 for the user-specific endpoints for each service, such as OneDrive or Outlook.
+This eliminates the need for traditional discovery service. Before Microsoft Graph, developers had to use a discovery service to ask the different endpoints with Microsoft 365 for the user-specific endpoints for each service, such as OneDrive or Outlook.
 
-One thing to keep in mind is that because it is a proxy, you may see new functionality and features show up in these downstream endpoints before they appear in Microsoft Graph. This is because Microsoft Graph is a proxy and it can't expose functionality that doesn't exist downstream in one of the services that is proxying.
+One thing to keep in mind is that because its a proxy, you may see new functionality and features show up in these downstream endpoints before they appear in Microsoft Graph. This is because Microsoft Graph is a proxy and it can't expose functionality that doesn't exist downstream in one of the services that is proxying.
 
 ### Authentication and the consent framework
 

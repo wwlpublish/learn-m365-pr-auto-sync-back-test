@@ -35,33 +35,26 @@ Now update the project to associate it with the Azure AD app you registered for 
 - **ClientId**: the ID of your Azure AD application
 - **ClientSecret**: the secret of your Azure AD application
 
-Next, configure the web app's authentication by updating the `ConfigureServices()` method in the `Startup` class for the project. Replace the body of the method with the following code. This code will configure the web app's middleware to support Azure AD for authentication and to obtain an ID token:
+Next, configure the web app's authentication by updating the `ConfigureServices()` method in the `Startup` class for the project. This code will configure the web app's middleware to support Azure AD for authentication and to obtain an ID token:
 
 ```csharp
-services.Configure<CookiePolicyOptions>(options =>
+public void ConfigureServices(IServiceCollection services)
 {
-  // This lambda determines whether user consent for non-essential cookies is needed for a given request.
-  options.CheckConsentNeeded = context => true;
-  options.MinimumSameSitePolicy = SameSiteMode.Unspecified;
-  // Handling SameSite cookie according to https://docs.microsoft.com/en-us/aspnet/core/security/samesite?view=aspnetcore-3.1
-  options.HandleSameSiteCookieCompatibility();
-});
+  services.AddAuthentication(OpenIdConnectDefaults.AuthenticationScheme)
+      .AddMicrosoftIdentityWebApp(Configuration.GetSection("AzureAd"))
+      .EnableTokenAcquisitionToCallDownstreamApi(Constants.ProductCatalogAPI.SCOPES)
+      .AddInMemoryTokenCaches();
 
-services.AddOptions();
-
-services.AddMicrosoftIdentityWebAppAuthentication(Configuration)
-  .EnableTokenAcquisitionToCallDownstreamApi(Constants.ProductCatalogAPI.SCOPES)
-  .AddInMemoryTokenCaches();
-
-services.AddControllersWithViews(options =>
-{
-  var policy = new AuthorizationPolicyBuilder()
-                .RequireAuthenticatedUser()
-                .Build();
-  options.Filters.Add(new AuthorizeFilter(policy));
-}).AddMicrosoftIdentityUI();
-
-services.AddRazorPages();
+  services.AddControllersWithViews(options =>
+  {
+    var policy = new AuthorizationPolicyBuilder()
+              .RequireAuthenticatedUser()
+              .Build();
+    options.Filters.Add(new AuthorizeFilter(policy));
+  });
+  services.AddRazorPages()
+        .AddMicrosoftIdentityUI();
+}
 ```
 
 At this point, the web app is associated with the registered Azure AD app and configured to support users signing in with their Microsoft identity account.

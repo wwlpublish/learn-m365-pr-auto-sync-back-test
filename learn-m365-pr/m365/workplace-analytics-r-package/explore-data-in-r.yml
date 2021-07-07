@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.workplace-analytics-r-package.explore-data-in-r
+title: Explore Workplace Analytics data in R
+metadata:
+  title: Explore Workplace Analytics data in R
+  description: Learn how to view your data in R. 
+  ms.date: 04/09/2021
+  author: jelathro
+  ms.author: jelathro
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 14
+content: |
+  [!include[](includes/explore-data-in-r.md)]

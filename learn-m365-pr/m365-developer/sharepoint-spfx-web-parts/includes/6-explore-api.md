@@ -19,7 +19,7 @@ Loading indicators are used when you need to initialize your web part and you wa
 
 Instead of the user seeing a blank box on the page with no feedback that something is happening, you can show a loading indicator with an animated image and the message "Loading data.." to user.
 
-![Screenshot of a loading indicator](../media/06-loading-indicator.png)
+![Screenshot of a loading indicator](../media/07-web-part-04.png)
 
 The two methods you'll use to control the indicator are `displayLoadingIndicator()` and `clearLoadingIndicator()`. Both methods are available from the `context` property on the web part.
 
@@ -43,7 +43,7 @@ Error indicators are used when you need to display errors to your users. They wo
 
 ![Screenshot of an error indicator](../media/06-error-indicator.png)
 
-To show the error indicator, call the following method and pass in there error to display:
+To show the error indicator, call the following method and pass in the error to display:
 
 ```typescript
 this.context.statusRenderer.renderError(this.domElement, error);
@@ -93,15 +93,31 @@ const pageMode: string = (this.displayMode === DisplayMode.Edit)
 ```
 
 > [!IMPORTANT]
-> In a classic server-side SharePoint page, the web page and the web part can be in different modes. For example, the web page can be in edit mode while the web part is not in edit mode. In the modern client-side SharePoint page, both the page and/or its contents are in the same mode.
+> In a classic server-side SharePoint page, the web page and the web part can be in different modes. For example, the web page can be in edit mode while the web part isn't in edit mode. In the modern client-side SharePoint page, both the page and/or its contents are in the same mode.
 
-Here you can see the difference between the different page modes when the previous code runs on a web part. In this example, the web part has been added to a classic page. Notice how the page's and web part's  display mode don't always match up. This is because a web part can be in read or edit mode when the page is also in edit mode:
+Here you can see the difference between the different page modes when the previous code runs on a web part. In this example, the web part has been added to a classic page. Notice how the page's and web part's  display mode don't always match up. This is because a web part can be in read or edit mode when the page is also in edit mode.
 
-![Figure showing different display modes in a classic page](../media/06-page-display-mode-classic.png)
+The page isn't in edit mode:
 
-While on a modern page, the display mode of the web part follows the same mode as the page:
+![Figure showing classic page that isn't in edit mode](../media/06-page-display-mode-classic-01.png)
 
-![Figure showing different display modes in a classic page](../media/06-page-display-mode-modern.png)
+The page is in edit mode but the web part isn't:
+
+![Figure showing classic page that is in edit mode but the web part isn't in edit mode](../media/06-page-display-mode-classic-02.png)
+
+Both the page and web part are in edit mode:
+
+![Figure showing classic page where both the page and the web part are in edit mode](../media/06-page-display-mode-classic-03.png)
+
+While on a modern page, the display mode of the web part follows the same mode as the page.
+
+The page isn't in edit mode:
+
+![Figure showing a modern page that isn't in edit mode](../media/06-page-display-mode-modern-01.png)
+
+The page is in edit mode:
+
+![Figure showing a modern page that is in edit mode](../media/06-page-display-mode-modern-02.png)
 
 ## Page context
 

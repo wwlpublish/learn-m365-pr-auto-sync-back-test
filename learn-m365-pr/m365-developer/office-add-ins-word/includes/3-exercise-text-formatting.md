@@ -2,7 +2,7 @@ In this exercise, you'll build a Word add-in that inserts text ranges and paragr
 
 ## Prerequisites
 
-Developing Office add-ins for Microsoft Word requires Word 2016, version 1711 (Build 8730.1000 Click-to-Run) or later. You might need to be an Office Insider to get this version. For more information, see [Be an Office Insider](https://products.office.com/office-insider?tab=tab-1).
+Developing Office Add-ins for Microsoft Word requires Word 2016, version 1711 (Build 8730.1000 Click-to-Run) or later. You might need to be an Office Insider to get this version. For more information, see [Be an Office Insider](https://products.office.com/office-insider?tab=tab-1).
 
 You'll use Node.js to create the custom Word add-in in this module. The exercises in this module assume you have the following tools installed on your developer workstation.
 
@@ -109,7 +109,7 @@ In this section, you'll programmatically test that your add-in supports the user
 
     ```javascript
     var docBody = context.document.body;
-    docBody.insertParagraph("Office has several versions, including Office 2016, Office 365 Click-to-Run, and Office on the web.",
+    docBody.insertParagraph("Office has several versions, including Office 2016, Microsoft 365 Click-to-Run, and Office on the web.",
                             "Start");
     ```
 
@@ -146,7 +146,7 @@ In this section, you'll programmatically test that your add-in supports the user
         npm run start:web
         ```
 
-        To use your add-in, open a new document in Word on the web and then sideload your add-in by following the instructions in [Sideload Office Add-ins in Office on the web](https://docs.microsoft.com/office/dev/add-ins/testing/sideload-office-add-ins-for-testing#sideload-an-office-add-in-in-office-on-the-web).
+        To use your add-in, open a new document in Word on the web and then sideload your add-in by following the instructions in [Sideload Office Add-ins in Office on the web](/office/dev/add-ins/testing/sideload-office-add-ins-for-testing#sideload-an-office-add-in-in-office-on-the-web).
 
 1. In Word, select the **Home** tab, and then select the **Show Task pane** button in the ribbon to open the add-in task pane.
 
@@ -330,7 +330,7 @@ In this section, you'll apply a built-in style to text, apply a custom style to 
         npm run start:web
         ```
 
-        To use your add-in, open a new document in Word on the web and then sideload your add-in by following the instructions in [Sideload Office Add-ins in Office on the web](https://docs.microsoft.com/office/dev/add-ins/testing/sideload-office-add-ins-for-testing#sideload-an-office-add-in-in-office-on-the-web).
+        To use your add-in, open a new document in Word on the web and then sideload your add-in by following the instructions in [Sideload Office Add-ins in Office on the web](/office/dev/add-ins/testing/sideload-office-add-ins-for-testing#sideload-an-office-add-in-in-office-on-the-web).
 
 1. If the add-in task pane isn't already open in Word, go to the **Home** tab and select **Show Task pane**.
 1. Be sure there are at least three paragraphs in the document. You can select the **Insert Paragraph** button three times. *Check carefully that there's no blank paragraph at the end of the document. If there is, delete it.*

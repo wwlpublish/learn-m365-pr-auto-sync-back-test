@@ -60,19 +60,19 @@ Add the following property and value to the `properties` object:
 
 Build the project by opening a command prompt and changing to the root folder of the project. Then execute the following command:
 
-```shell
+```console
 gulp build
 ```
 
 Next, create a production bundle of the project by running the following command on the command line from the root of the project:
 
-```shell
+```console
 gulp bundle --ship
 ```
 
 Finally, create a deployment package of the project by running the following command on the command line from the root of the project:
 
-```shell
+```console
 gulp package-solution --ship
 ```
 
@@ -95,11 +95,11 @@ Edit the page and add a value to the **Custom Setting** property in the property
 
 Now go back into the Microsoft Teams team. Refresh the page if you have Teams open in a web browser. Select the down arrow to the right of the **SPFx Teams Together** tab and select **Settings**.
 
-![Screenshot of the SPFx solution in Microsoft Teams](../media/07-update-settings-step-02.png)
+![Screenshot of the SPFx solution in Microsoft Teams - Settings context menu item](../media/07-update-settings-step-02.png)
 
 Add a value to the **Custom Setting** property in the property pane. Notice how the tab shows the property value:
 
-![Screenshot of the SPFx solution in Microsoft Teams](../media/07-update-settings-step-03.png)
+![Screenshot of the SPFx solution in Microsoft Teams - Updating custom setting for SPFx web part](../media/07-update-settings-step-03.png)
 
 ## Disable updates to teams tab configuration
 
@@ -111,7 +111,16 @@ Locate the property `configurableTabs[0].canUpdateConfiguration`.
 
 Set the value of this property to `false` and save the file.
 
-Create a Microsoft Teams app package by zipping the contents of the **./teams** folder. Make sure to zip just the contents and not the folder itself. This ZIP archive should contain three files at the root: two images and the **manifest.json**.
+Locate the **./teams** folder in the project.
+
+Delete the existing Teams app package, **TeamsSPFxApp.zip**.
+
+Recreate the Teams app package by making a new ZIP archive containing the three files in the folder: the two images and **manifest.json**. 
+
+> [!IMPORTANT]
+> ZIP the contents of the folder, not the folder itself.
+
+Name the ZIP archive **TeamsSPFxApp.zip** and save it in the **teams** folder. 
 
 ## Delete the previous Microsoft Teams tab
 
@@ -123,11 +132,11 @@ When prompted, select **Remove**.
 
 ## Update the previously installed Microsoft Teams app
 
-Within the Microsoft Teams client, select **Apps** in the lower right corner, and then select your tenant from the sidebar menu.
+Within the Microsoft Teams client, select **Apps** in the lower right corner, and then select **Built for your org** from the sidebar menu.
 
 Select the app menu, then select **Update**.
 
-![Screenshot of the SPFx solution in Microsoft Teams](../media/07-update-settings-step-04.png)
+![Screenshot of the SPFx solution in Microsoft Teams - Selecting the Update context menu item](../media/07-update-settings-step-04.png)
 
 Select the new Microsoft Teams app manifest you created a moment ago.
 
@@ -159,9 +168,9 @@ Notice how the web part's property pane opens by default. Edit the values of the
 
 ![Screenshot of the default settings on the web part](../media/07-update-settings-step-05.png)
 
-Now go back into the Microsoft Teams team. Select the down arrow to the right of the **SPFx Teams Together** tab. Notice the **Settings** option is no longer present. This is because the setting in the Microsoft Teams app manifest specified the configuration can't be updated once it is installed into Microsoft Teams.
+Now go back into the Microsoft Teams team. Select the down arrow to the right of the **SPFx Teams Together** tab. Notice the **Settings** option is no longer present. This is because the setting in the Microsoft Teams app manifest specified the configuration can't be updated once its installed into Microsoft Teams.
 
-![Screenshot of the SPFx solution in Microsoft Teams](../media/07-update-settings-step-06.png)
+![Screenshot of the SPFx solution in Microsoft Teams - Missing Settings context menu item](../media/07-update-settings-step-06.png)
 
 ## Summary
 

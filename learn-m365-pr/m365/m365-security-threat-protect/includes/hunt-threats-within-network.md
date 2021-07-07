@@ -1,14 +1,10 @@
->[!IMPORTANT]
->Threat protection product names in Microsoft are changing. [Read more about this and other updates](https://www.microsoft.com/security/blog/?p=91813). We'll be updating names in products and in the Learn content in the near future.
-
-
-Advanced hunting within Microsoft Defender ATP allows you to hunt for possible threats across your organization using a powerful search and query tool. You can proactively inspect events in your network in order to locate interesting indicators and entities. The flexible access to data aids unconstrained hunting for both known and potential threats.
+Advanced hunting within Microsoft Defender for Endpoint allows you to hunt for possible threats across your organization using a powerful search and query tool. You can proactively inspect events in your network in order to locate interesting indicators and entities. The flexible access to data aids unconstrained hunting for both known and potential threats.
 
 ### Explore how to investigate and remediate threats with Microsoft Defender for Endpoint
 
-View a [video version](https://www.microsoft.com/en-us/videoplayer/embed/RE4GfeG) of the interactive guide (captions available in more languages).
+View a [video version](https://www.microsoft.com/videoplayer/embed/RE4GfeG) of the interactive guide (captions available in more languages).
 
-<a href="https://mslearn.cloudguides.com/en-us/guides/Investigate%20and%20remediate%20threats%20with%20Microsoft%20Defender%20for%20Endpoint">![Microsoft Defender for Endpoint](../media/investigate-remediate.png)</a>  
+<a href="https://mslearn.cloudguides.com/guides/Investigate%20and%20remediate%20threats%20with%20Microsoft%20Defender%20for%20Endpoint">![Microsoft Defender for Endpoint](../media/investigate-remediate.png)</a>  
 
 Be sure to click the full-screen option in the video player. When you're done, use the **Back** arrow in your browser to come back to this page. 
 

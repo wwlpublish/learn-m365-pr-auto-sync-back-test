@@ -1,0 +1,34 @@
+### YamlMime:LearningPath
+uid: learn-m365.m365-msgraph-scenarios
+metadata:
+  title: Explore Microsoft Graph scenarios for JavaScript development
+  description: This learning path includes hands-on exercises that will show you how to perform common tasks, such as showing a user's emails, accessing calendar events, and downloading and uploading files, in a JavaScript app using Microsoft Graph APIs.
+  ms.date: 04/05/2021
+  author: rabwill
+  ms.author: rwilliams
+  ms.topic: interactive-tutorial
+  ms.prod: learning-graph
+  ms.suite: microsoft-graph
+title: Explore Microsoft Graph scenarios for JavaScript development
+summary: "This learning path includes hands-on exercises that will show you how to perform common tasks, such as showing a user's emails, accessing calendar events, and downloading and uploading files, in a JavaScript app using Microsoft Graph APIs."
+prerequisites: | 
+  - Global Administrator access to a [Microsoft 365 tenant](https://developer.microsoft.com/microsoft-365/dev-program?ocid=MSlearn&WT.mc_id=m365-16105-cxa).
+  - [Basic understanding of authentication and authorization on Microsoft 365](/learn/modules/msgraph-javascript-app/?WT.mc_id=m365-16105-cxa)
+  - Basic understanding of HTML and JavaScript
+  - [Basic understanding of Microsoft Graph](/learn/modules/msgraph-intro-overview/?WT.mc_id=m365-16105-cxa)
+  - [Node.js LTS](https://nodejs.org/en/)
+iconUrl: /learn/achievements/generic-trophy.svg
+levels: 
+- intermediate
+roles:
+- developer
+products: 
+- m365
+- ms-graph
+modules:
+- learn-m365.msgraph-show-user-emails
+- learn-m365.msgraph-access-user-events
+- learn-m365.msgraph-manage-files
+
+trophy: 
+  uid: learn-m365.msgraph-scenarios.badge

@@ -31,7 +31,7 @@ Next, ensure the redirect URI of the app points to the URL of the SPA. This URL 
 Load the MSAL.js 2.x library from the Microsoft-hosted content delivery network (CDN):
 
 ```html
-<script src="https://alcdn.msauth.net/browser/2.4.0/js/msal-browser.js"></script>
+<script src="https://alcdn.msauth.net/browser/2.11.1/js/msal-browser.js"></script>
 ```
 
 After adding the script reference to the page, add the following code to obtain an instance of the application:
@@ -52,9 +52,6 @@ var msalApplication = new msal.PublicClientApplication(msalConfig);
 ```
 
 The app ID and directory ID tokens in the code are placeholders for the values from the Azure AD app.
-
-> [!IMPORTANT]
-> The preferred experience when using MSAL when signing-in and obtaining access tokens is to use a popup window. However, some browsers have known issues with popup windows. In these cases, you can choose to use MSAL's equivalent methods that use browser redirects.
 
 ## Sign in
 
@@ -78,6 +75,9 @@ This code will open a popup that loads the Azure AD sign-in experience. If the u
 ![Screenshot of Azure AD popup sign-in experience](../media/03-test-02.png)
 
 After completing the sign-in experience, MSAL.js will close the sign-in popup and execute the success path of the `loginPopup()` method.
+
+> [!IMPORTANT]
+> The preferred experience when using MSAL when signing-in and obtaining access tokens is to use a popup window. However, some browsers have known issues with popup windows. In these cases, you can choose to use MSAL's equivalent methods that use browser redirects.
 
 ## Acquire token
 

@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.mcas-siem-integration.5-connect-siem
+metadata:
+  title: Connect a non-Microsoft SIEM solution to Microsoft Cloud App Security
+  description: Learn how to connect a non-Microsoft SIEM solution to Microsoft Cloud App Security
+  ms.date: 05/14/2021
+  author: geoffallix
+  ms.author: beccarobins
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Connect a non-Microsoft SIEM solution to Microsoft Cloud App Security
+durationInMinutes: 7
+content: |
+  [!include[](includes/5-connect-siem.md)]

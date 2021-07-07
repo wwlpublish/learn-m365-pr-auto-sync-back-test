@@ -54,7 +54,7 @@ Apply turns on encryption, which impacts Office files (Word, PowerPoint, Excel) 
    ![Assign permissions now or let users decide](../media/encryption-3.png)  
 
 ### Remove
-None means encryption will be removed on the files and email messages with this label applied.
+Remove means encryption will be removed on the files and email messages with this label applied.
 
 ## Step 3: Content marking
 Content marking adds custom headers, footers, and watermarks to email messages or documents when the label is applied. These marks are visible to the user. Content marking does not protect the document in any way. It only informs the viewer of the sensitive nature of the content. You can add one or more of the following text-only content marks:
@@ -137,8 +137,8 @@ You will be given one last opportunity to review and edit your settings before s
 ![Review your settings](../media/review-your-settings.png) 
 
 ## Learn more
-- [Restrict access to content by using sensitivity levels to apply encryption](https://docs.microsoft.com/microsoft-365/compliance/encryption-sensitivity-labels?view=o365-worldwide?azure-portal=true)
-- [When Office 365 applies content marking and encryption](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-office-apps?view=o365-worldwide#when-office-365-applies-content-marking-and-encryption?azure-portal=true)
-- [Enable sensitivity labels for Office files in SharePoint and OneDrive](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-sharepoint-onedrive-files?view=o365-worldwide?azure-portal=true)
-- [Use sensitivity labels to protect content in Microsoft Teams, Office 365 groups, and SharePoint sites (public preview)](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-teams-groups-sites?azure-portal=true)
-- [Support for sensitivity label capabilities in Office apps](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-office-apps?view=o365-worldwide#support-for-sensitivity-label-capabilities-in-apps?azure-portal=true)
+- [Restrict access to content by using sensitivity levels to apply encryption](/microsoft-365/compliance/encryption-sensitivity-labels?azure-portal=true)
+- [When Office 365 applies content marking and encryption](/microsoft-365/compliance/sensitivity-labels-office-apps?when-office-365-applies-content-marking-and-encryption?azure-portal=true)
+- [Enable sensitivity labels for Office files in SharePoint and OneDrive](/microsoft-365/compliance/sensitivity-labels-sharepoint-onedrive-files?azure-portal=true)
+- [Use sensitivity labels to protect content in Microsoft Teams, Office 365 groups, and SharePoint sites (public preview)](/microsoft-365/compliance/sensitivity-labels-teams-groups-sites?azure-portal=true)
+- [Support for sensitivity label capabilities in Office apps](/microsoft-365/compliance/sensitivity-labels-office-apps?support-for-sensitivity-label-capabilities-in-apps?azure-portal=true)

@@ -18,5 +18,4 @@ For more resources, see:
 
 - [Create a task sequence to upgrade an OS in Configuration Manager](https://docs.microsoft.com/mem/configmgr/osd/deploy-use/create-a-task-sequence-to-upgrade-an-operating-system)
 - [Manage Windows-as-a-Service using Configuration Manager](https://docs.microsoft.com/mem/configmgr/osd/deploy-use/manage-windows-as-a-service)
-- [Keep Windows PCs up-to-date with software updates in Microsoft Intune](https://docs.microsoft.com/mem/intune/fundamentals/keep-windows-pcs-up-to-date-with-software-updates-in-microsoft-intune)
 - [Upgrade Windows to the latest version with Configuration Manager](https://docs.microsoft.com/mem/configmgr/osd/deploy-use/upgrade-windows-to-the-latest-version)

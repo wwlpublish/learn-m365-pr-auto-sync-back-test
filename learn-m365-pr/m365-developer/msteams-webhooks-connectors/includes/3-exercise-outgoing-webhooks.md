@@ -1,25 +1,26 @@
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4OIzu]
+
 In this exercise, you’ll learn how to create a web service and register it as an outgoing webhook in Microsoft Teams.
 
 ## Prerequisites
 
-Developing Microsoft Teams apps requires an Office 365 tenant, Microsoft Teams configured for development, and the necessary tools installed on your workstation.
+Developing Microsoft Teams apps requires a Microsoft 365 tenant, Microsoft Teams configured for development, and the necessary tools installed on your workstation.
 
-For the Office 365 tenant, follow the instructions on [Microsoft Teams: Prepare your Office 365 tenant](https://docs.microsoft.com/microsoftteams/platform/get-started/get-started-tenant) for obtaining a developer tenant if you don't currently have an Office 365 account. Make sure you have also enabled Microsoft Teams for your organization.
+For the Microsoft 365 tenant, follow the instructions on [Microsoft Teams: Prepare your Microsoft 365 tenant](/microsoftteams/platform/get-started/get-started-tenant) for obtaining a developer tenant if you don't currently have a Microsoft 365 account. Make sure you have also enabled Microsoft Teams for your organization.
 
-Microsoft Teams must be configured to enable custom apps and allow custom apps to be uploaded to your tenant to build custom apps for Microsoft Teams. Follow the instructions on the same **Prepare your Office 365 tenant** page mentioned above.
+Microsoft Teams must be configured to enable custom apps and allow custom apps to be uploaded to your tenant to build custom apps for Microsoft Teams. Follow the instructions on the same **Prepare your Microsoft 365 tenant** page mentioned above.
 
-You'll use Node.js to create custom Microsoft Teams tabs in this module. The exercises in this module assume you have the following tools installed on your developer workstation.
+You'll use Node.js to create custom Microsoft Teams tabs in this module. The exercises in this module assume you've the following tools installed on your developer workstation.
 
 > [!IMPORTANT]
 > In most cases, installing the latest version of the following tools is the best option. The versions listed here were used when this module was published and last tested.
 
-- [Node.js](https://nodejs.org/) - v10.\* (or higher)
+- [Node.js](https://nodejs.org/) - v12.\* (or higher)
 - NPM (installed with Node.js) - v6.\* (or higher)
 - [Gulp](https://gulpjs.com/) - v4.\* (or higher)
 - [Yeoman](https://yeoman.io/) - v3.\* (or higher)
-- [Yeoman Generator for Microsoft Teams](https://github.com/OfficeDev/generator-teams) - v2.15.0 (or higher)
+- [Yeoman Generator for Microsoft Teams](https://github.com/OfficeDev/generator-teams) - v3.1.\* (or higher)
 - [Visual Studio Code](https://code.visualstudio.com)
-- [ngrok](https://ngrok.io)
 
 You must have the minimum versions of these prerequisites installed on your workstation.
 
@@ -41,13 +42,11 @@ Yeoman will launch and ask you a series of questions. Answer the questions with 
 - **Where do you want to place the files?**: Use the current folder
 - **Title of your Microsoft Teams App project?**: Teams Webhooks
 - **Your (company) name? (max 32 characters)**: Contoso
-- **Which manifest version would you like to use?**: v1.6
-- **Enter your Microsoft Partner Id, if you have one?**: (Leave blank to skip)
+- **Which manifest version would you like to use?**: (Accept the default option)
+- **Quick scaffolding**: Yes
 - **What features do you want to add to your project?**: An Outgoing Webhook
 - **The URL where you will host this solution?**: (Accept the default option)
 - **Would you like show a loading indicator when your app/tab loads?**: No
-- **Would you like to include Test framework and initial tests?**: No
-- **Would you like to use Azure Applications Insights for telemetry?**: No
 - **Name of your outgoing webhook?**: Teams Webhooks Outgoing Webhook
 
 > [!NOTE]
@@ -61,31 +60,9 @@ Our web service will need one more NPM package to simplify finding data in an ar
 npm install lodash -S
 ```
 
-### Ensure the project is using the latest version of Teams manifest & SDK
-
-Run the npm command to install the latest version of the SDK
-
-```console
-npm i @microsoft/teams-js
-```
-
-Locate and open the `manifest.json` file in the `manifest`  folder of the project. 
-- Change the `$schema` property to **https://developer.microsoft.com/en-us/json-schemas/teams/v1.7/MicrosoftTeams.schema.json**
-- Change the `manifestVersion` property to **1.7**.
-
-Open the `gulp.config.js` file in the root folder of the project. Add the following to the **SCHEMAS** property.
-
-```json
-{
-  version: "1.7",
-  schema: "https://developer.microsoft.com/en-us/json-schemas/teams/v1.7/MicrosoftTeams.schema.json"
-}
-```
-
-
 ## Code the outgoing webhook
 
-The Yeoman Generator for Microsoft Teams created a stub web service endpoint for our outgoing webhook. Locate and open the file **./src/app/teamsWebhooksOutgoingWebhook/TeamsWebhooksOutgoingWebhook.ts**. It listens for HTTPS requests at the endpoint **/api/webhook**.
+The Yeoman Generator for Microsoft Teams created a stub web service endpoint for our outgoing webhook. Locate and open the file **./src/server/teamsWebhooksOutgoingWebhook/TeamsWebhooksOutgoingWebhook.ts**. It listens for HTTPS requests at the endpoint **/api/webhook**.
 
 Find the `requestHander()` method in the `TeamsWebhooksOutgoingWebhook` class. The method first checks the HMAC value in the authorization header against the security token that you'll obtain when you add the webhook to a team.
 
@@ -97,11 +74,11 @@ message.text = `Echo ${incoming.text}`;
 
 This code simply echoes the string entered in the message back to Microsoft Teams that will be added in a reply to the message that triggered the webhook.
 
-Let's update this code to add some real functionality. When a user @mentions the bot, if they enter the name of a known planet of our solar system, it will respond with an adaptive card that displays details of the planet.
+Let's update this code to add some real functionality. When a user @mentions the webhook, if they enter the name of a known planet of our solar system, it will respond with an adaptive card that displays details of the planet.
 
 Let's start by adding two resource files to the project.
 
-Create a new file **planets.json** in the **./src/app/teamsWebhooksOutgoingWebhook** folder and add the following JSON to it. This file will contain an array of planet details:
+Create a new file **planets.json** in the **./src/server/teamsWebhooksOutgoingWebhook** folder and add the following JSON to it. This file will contain an array of planet details:
 
 ```json
 [
@@ -196,7 +173,7 @@ Create a new file **planets.json** in the **./src/app/teamsWebhooksOutgoingWebho
 ]
 ```
 
-Next, create a new file **planetDisplayCard.json** in the **./src/app/teamsWebhooksOutgoingWebhook** folder and add the following JSON to it. This file will contain a template of the adaptive card the web service will respond with:
+Next, create a new file **planetDisplayCard.json** in the **./src/server/teamsWebhooksOutgoingWebhook** folder and add the following JSON to it. This file will contain a template of the adaptive card the web service will respond with:
 
 ```json
 {
@@ -288,7 +265,7 @@ Next, create a new file **planetDisplayCard.json** in the **./src/app/teamsWebho
 }
 ```
 
-Add the following `import` statement to the **./src/app/teamsWebhooksOutgoingWebhook/TeamsWebhooksOutgoingWebhook.ts** file, just after the existing `import` statements:
+Add the following `import` statement to the **./src/server/teamsWebhooksOutgoingWebhook/TeamsWebhooksOutgoingWebhook.ts** file, just after the existing `import` statements:
 
 ```typescript
 import { find, sortBy } from "lodash";
@@ -311,9 +288,9 @@ private static getPlanetDetailCard(selectedPlanet: any): builder.Attachment {
   const cardDetails: any = find(cardBody.items, { id: "planetDetails" });
   cardDetails.columns[0].items[0].url = selectedPlanet.imageLink;
   find(cardDetails.columns[1].items[0].facts, { id: "orderFromSun" }).value = selectedPlanet.id;
-  find(cardDetails.columns[1].items[0].facts, { id: "planetNumSatellites" }).value = selectedPlanet.numSatellites;
-  find(cardDetails.columns[1].items[0].facts, { id: "solarOrbitYears" }).value = selectedPlanet.solarOrbitYears;
-  find(cardDetails.columns[1].items[0].facts, { id: "solarOrbitAvgDistanceKm" }).value = Number(selectedPlanet.solarOrbitAvgDistanceKm).toLocaleString();
+  find(cardDetails.columns[1].items[0].facts, { id: "planetNumSatellites" }).value = `${selectedPlanet.numSatellites}`;
+  find(cardDetails.columns[1].items[0].facts, { id: "solarOrbitYears" }).value = `${selectedPlanet.solarOrbitYears}`;
+  find(cardDetails.columns[1].items[0].facts, { id: "solarOrbitAvgDistanceKm" }).value = `${Number(selectedPlanet.solarOrbitAvgDistanceKm).toLocaleString()}`;
 
   // return the adaptive card
   return builder.CardFactory.adaptiveCard(adaptiveCardSource);
@@ -346,7 +323,7 @@ private static processAuthenticatedRequest(incomingText: string): Partial<builde
 }
 ```
 
-Add the following `scrubMessage()` method to the `TeamsWebhooksOutgoingWebhook` class. A user must @mention an outgoing webhook in order to send a message to it. This method will remove the `<at></at>` text and any spaces to extract the planet name:
+Add the following `scrubMessage()` method to the `TeamsWebhooksOutgoingWebhook` class. A user must @mention an outgoing webhook to send a message to it. This method will remove the `<at></at>` text and any spaces to extract the planet name:
 
 ```typescript
 private static scrubMessage(incomingText: string): string {
@@ -359,13 +336,13 @@ private static scrubMessage(incomingText: string): string {
 
 Finally, update the `requestHandler()` method:
 
-- Locate the following code and change the `message` declaration from a `const` to `let` as you will change this value.
+- Locate the following code and change the `message` declaration from a `const` to `let` as you'll change this value.
 
     ```typescript
     const message: Partial<builder.Activity> = {
       type: builder.ActivityTypes.Message
     };
-    ...
+    ```
 
 - Locate and replace the following code:
 
@@ -376,7 +353,7 @@ Finally, update the `requestHandler()` method:
   with the following code:
 
     ```typescript
-    const scrubbedText = TeamsWebhooksOutgoingWebhook.scrubMessage(incoming.text)
+    const scrubbedText = TeamsWebhooksOutgoingWebhook.scrubMessage(incoming.text);
     message = TeamsWebhooksOutgoingWebhook.processAuthenticatedRequest(scrubbedText);
     ```
 
