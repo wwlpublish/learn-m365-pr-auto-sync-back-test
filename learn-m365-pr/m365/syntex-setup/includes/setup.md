@@ -1,4 +1,4 @@
-You have decided to set up and activate SharePoint Syntex for the Human Resources department at Contoso, which has has several large libraries of documents and forms that have become harder and harder to locate. You begin setting up SharePoint Syntex for your Human Resources team by navigating to Contoso Electronics' Microsoft 365 admin center. You follow the steps listed below:
+You have decided to set up and activate SharePoint Syntex for the Human Resources department at Contoso, which has has several large libraries of documents and forms that have become harder and harder to locate. You begin setting up SharePoint Syntex by navigating to Contoso Electronics' Microsoft 365 admin center. You follow the steps listed below:
 
 - Select **Setup**.
 - Navigate to the **Files and content** section.  
@@ -39,20 +39,19 @@ For **Power Platform**, you can select:
 
 ## Create the content center
 
-In this step, the content center is created. A content center is the model creation interface. It also contains information about which document libraries have published models applied to them.
-
-A SharePoint admin can choose to create additional centers as needed. While a single content center may be fine for environments for which you want a roll-up of all model activity, you may want to have additional centers for multiple departments within your organization, which may have different needs and permission requirements for their models.
-
-If you previously created a content center from the SharePoint admin center, that information will appear here, and you can click **Next**.
+In this step, the _default_ content center is created. A content center is the model creation interface. It also contains information about which document libraries have published models applied to them.
 
 - In the **Create a content center** page, you create a SharePoint content center site where users can create and manage document understanding models.
-  - For **Site name**, type in the name of your content center _site_.
+  - For **Site name**, type in the name of your _default_ content center.
   - The **Site address** shows the URL for the site, based on what was selected for the site name.
   - To change the name, click **Edit**.
 
 ![A screenshot of the Create a content center window with the Content center name box highlighted.](../media/create-content-center.png)
 
 - Select **Next**.
+
+> [!Important]
+> A SharePoint admin can choose to create additional centers as needed. While a single content center may be fine for environments for which you want a roll-up of all model activity, you may want to have additional centers for multiple departments within your organization, which may have different needs and permission requirements for their models.
 
 ## Review and finish
 
@@ -80,4 +79,17 @@ To assign licenses, return to the Microsoft 365 admin center.
 
 - Click **Save changes**.
 
-You have successfully set up and activated your first SharePoint Syntex environment in the Human Resources libraries. When Contoso decides to rollout SharePoint Syntex to other departments, you'll return to your Microsoft 365 admin center to add more sites.
+You have successfully set up and activated your first SharePoint Syntex environment. To create a content center dedicated to the Human Resources deparment, or when Contoso decides to rollout SharePoint Syntex to other departments, you'll need return to the SharePoint admin center to add more sites:
+
+- Navigate to the **Active sites** page
+- Click **Create**
+- Select **Other options**
+- Create a new content center following the same steps as the default content center.
+
+<br>
+
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4CPSF]
+
+## Learn more
+
+- [Create a content center](/microsoft-365/contentunderstanding/create-a-content-center)
