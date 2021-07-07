@@ -1,6 +1,6 @@
 You've received the green light from your stakeholders for a phased rollout of SharePoint Syntex, starting with the struggling Sales team. Now the project team needs to nominate personnel for SharePoint Syntex roles. Each of those people will need to be brought into the larger project team as stakeholders. Along with your other stakeholders, you identify the following individuals:
 
-- Since the Knowledge admin creates content centers and manages security and access privileges, your project team identifies someone from IT to take on the role.
+- Since the knowledge admin creates content centers and manages security and access privileges, your project team identifies someone from IT to take on the role.
 - The Sales manager identifies someone in their department for the content manager/model owner role.
 - An IT admin takes on the role of Power Platform admin. This person will coordinate applying AI builder to Human Resource's libraries.
 
