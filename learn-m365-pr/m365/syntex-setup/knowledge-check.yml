@@ -15,7 +15,7 @@ content: |
 quiz:
     title: Check your knowledge
     questions:
-    - content: "Your Sales department volunteered to get started with SharePoint Syntex. Where should they go to start setting up SharePoint Syntex?"
+    - content: "Where should you go to start setting up SharePoint Syntex?"
       choices:
       - content: "Set up for SharePoint Syntex is initiated from within an existing SharePoint library."
         isCorrect: false
@@ -23,7 +23,7 @@ quiz:
       - content: "Set up for SharePoint Syntex is initiated in the Microsoft 365 admin center."
         isCorrect: true
         explanation: "Correct. Add SharePoint Syntex by logging into your Microsoft 365 admin center."
-      - content: "They can set up SharePoint Syntex by going to the Microsoft Azure Marketplace."
+      - content: "Set up SharePoint Syntex by going to the Microsoft Azure Marketplace."
         isCorrect: false
         explanation: "Incorrect. SharePoint Syntex activation, set up, and configuration are available on your Microsoft 365 admin center."
 
