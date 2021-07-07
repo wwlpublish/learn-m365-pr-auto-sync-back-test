@@ -13,7 +13,6 @@ Microsoft manages the Azure Virtual Desktop services described in the following 
 
 | **Service** | **Description** |
 | --- | --- |
-| Web Access | Azure Virtual Desktop users can use this service to access virtual desktops and remote apps through an HTMLv5-compatible web browser. |
 | Gateway | This service connects remote clients to a gateway, and then establishes a connection from a VM back to the same gateway. |
 | Connection Broker | This service provides load balancing and reconnection to virtual desktops and remote apps in existing user sessions. |
 | Diagnostics | The Diagnostics service logs events of actions on the Azure Virtual Desktop deployment as a success or failure. You can use this information to troubleshoot errors. |
