@@ -7,15 +7,13 @@ You want to build a proposal for deploying SharePoint Syntex to your company's S
 - **Knowledge manager**: Establishes best practices and use cases for using SharePoint Syntex.
 - **Model owner**: Owns, creates, and oversees document understanding and/or form processing models.
 
-It's possible that existing roles in your organization align with the responsibilities necessary to set up and administer SharePoint Syntex. 
+It's possible that existing roles in your organization align with the responsibilities necessary to set up and administer SharePoint Syntex.
 
 ## SharePoint/Knowledge admin role and responsibilities
 
 The SharePoint/Knowledge administrator establishes your organization's SharePoint Syntex instance and maintains it. They'll configure form processing in individual SharePoint document libraries and set up content centers for the document understanding models, as needed. The SharePoint admin is also responsible for assigning and controlling permissions for who can access each content center.  
 
-As you build your SharePoint Syntex proposal, you might make suggestions about which people in which departments could serve the SharePoint/Knowledge admin role. The role is a little technical, so you might want to choose an IT specialist for this role. On the other hand, you might want to choose someone with a high-level view of the company's overall content. Maybe someone whose role already deals with administrative or organizational tasks and understands what different roles within the organization need from their document libraries. For instance, a technical writer might be ideal for this role since they understand documentation. An administrative assistant may also be a good option, considering their understanding of the organization's structure.
-
-No matter who is named the SharePoint/Knowledge admin, you need buy-in from that person and from the teams they'll serve.  
+As you build your SharePoint Syntex proposal, you might make suggestions about which people in which departments could serve the SharePoint/Knowledge admin role. The role is a little technical, so you might want to choose an IT specialist for this role. On the other hand, you might want to choose someone with a high-level view of the company's overall content. Maybe someone whose role already deals with administrative or organizational tasks and understands what different roles within the organization need from their document libraries. For instance, a technical writer might be ideal for this role since they understand documentation. No matter who is named the SharePoint/Knowledge admin, you need buy-in from that person and from the teams they'll serve.  
 
 ## Power Platform admin role and responsibilities
 
