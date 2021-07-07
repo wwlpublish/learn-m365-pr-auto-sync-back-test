@@ -15,11 +15,9 @@ Now that you've finished this module, you've learned about:
 ## Resources  
 
 - [Microsoft Viva Topics buy now or free trial](https://www.microsoft.com/microsoft-viva/topics)
-- [Graph content connectors setup overview](https://docs.microsoft.com/microsoftsearch/configure-connector)
-- [Modern SharePoint guidance](https://docs.microsoft.com/sharepoint/dev/transform/modernize-guidance)  
-- [Microsoft content for all Viva Topics users](https://docs.microsoft.com/microsoft-365/knowledge/)
-- [Apply sensitivity labels](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels)  
-- [Data Loss Prevention policies](https://docs.microsoft.com/microsoft-365/compliance/data-loss-prevention-policies)
+- [Graph content connectors setup overview](/microsoftsearch/configure-connector)
+- [Modern SharePoint guidance](/sharepoint/dev/transform/modernize-guidance)  
+- [Microsoft content for all Viva Topics users](/microsoft-365/knowledge/)
+- [Apply sensitivity labels](/microsoft-365/compliance/sensitivity-labels)  
+- [Data Loss Prevention policies](/microsoft-365/compliance/data-loss-prevention-policies)
 - [Microsoft Tech Community](https://resources.techcommunity.microsoft.com/viva-topics/) is a place to interact, ask questions, share ideas or observations with peers, developers, end users for Microsoft 365 and other Microsoft technologies.
-
- 

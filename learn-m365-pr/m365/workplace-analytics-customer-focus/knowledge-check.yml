@@ -1,0 +1,69 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.workplace-analytics-customer-focus.knowledge-check
+title: Knowledge check
+metadata:
+  title: Knowledge check
+  description: Confirm what you've learned about customer focus in Workplace Analytics.
+  ms.date: 05/11/2021
+  author: jelathro
+  ms.author: jelathro
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 5
+content: |
+quiz:
+    title: Check your knowledge
+    questions:
+    - content: "What are the three analysis areas you can focus on to help improve customer focus?"
+      choices:
+      - content: "External collaboration, Coaching and onboarding, and Wellbeing"
+        isCorrect: false
+        explanation: "Sorry, that's incorrect. Wellbeing is important for customer focus, but it is not one of the main analysis areas presented in this module."
+      - content: "External collaboration, Internal collaboration, and Quota attainment"
+        isCorrect: false
+        explanation: "Sorry, that's incorrect.  Quota attainment can be used in a customer focus analysis, but it is not one of the analysis areas presented in this module."
+      - content: "Internal collaboration, Wellbeing, and Coaching and onboarding"
+        isCorrect: false
+        explanation: "Sorry, that's incorrect. Wellbeing is important for customer focus, but it is not one of the main analysis areas presented in this module."
+      - content: "External collaboration, Internal collaboration, and Coaching and onboarding"
+        isCorrect: true
+        explanation: "Correct. External collaboration, Internal collaboration, and Coaching and onboarding are the three analysis areas you can focus on to help improve customer focus."
+    - content: "How can sales organizations benefit by using Workplace Analytics?"
+      choices:
+      - content: "Increased sales performance and Increased sales cycles"
+        isCorrect: false
+        explanation: "Sorry, that's incorrect. Reduced sales cycles are a benefit of using Workplace Analytics for customer focus."
+      - content: "Increased sales performance and Increased time on internal processes"
+        isCorrect: false
+        explanation: "Sorry, that's incorrect. Reduced time on internal processes are a benefit of using Workplace Analytics for customer focus."
+      - content: "Increased sales performance and Reduced sales cycles and internal processes"
+        isCorrect: true
+        explanation: "Correct. Increase sales performance and Reduced sales cycles and internal processes are benefits of using Workplace Analytics for customer focus."
+    - content: "What themes are part of the three-tiered process that create an effective customer focus analysis?"
+      choices:
+      - content: "Project scoping, Data analysis, and Value creation"
+        isCorrect: true
+        explanation: "Correct. Project scoping, Data analysis, and Value creation are the three components of the process to create an effective customer focus analysis."
+      - content: "Project scoping, Data integration, and Data analysis"
+        isCorrect: false
+        explanation: "Sorry, that's incorrect. Data integration is not a component of the three-tiered process to create an effective customer focus analysis."
+      - content: "Data analysis, Seller success, and Value creation"
+        isCorrect: false
+        explanation: "Sorry, that's incorrect. Seller success is not a component of the three-tiered process to create an effective customer focus analysis."
+      - content: "Project scoping, Data analysis, and Customer relationships"
+        isCorrect: false
+        explanation: "Sorry, that's incorrect. Customer relationships are not a component of the three-tiered process to create an effective customer focus analysis."
+    - content: "Which of the following Workplace Analytics Plans can you use to help sellers be more successful?"
+      choices:
+      - content: "Collaboration plan"
+        isCorrect: false
+        explanation: "Sorry, that's incorrect. The Collaboration plan helps to reduce excess meeting hours, but it doesn't provide a way to measure interaction with customers."
+      - content: "Seller success plan"
+        isCorrect: true
+        explanation: "Correct. The Seller success plan helps sellers be more successful by showing time spent with accounts by revenue potential, which contacts are engaged, and the number of interactions with managers in customer or one-on-one meetings."
+      - content: "Focus hour plan"
+        isCorrect: false
+        explanation: "Sorry, that's incorrect. The Focus plan helps participants reclaim their time to do the work that matters most, but it doesn't provide a way to measure interaction with customers."
+      - content: "Wellbeing plan"
+        isCorrect: false
+        explanation: "Sorry, that's incorrect. The Wellbeing plan helps participant s protect their personal time, but it doesn't provide a way to measure interaction with customers."

@@ -107,5 +107,5 @@ Remove-PSSession $Session
 ## Learn more
 
 - [Exchange admin center](https://outlook.office365.com/ecp?azure-portal=true)
-- [Public folders in Office 365 and Exchange Online](https://docs.microsoft.com/Exchange/collaboration-exo/public-folders/public-folders?azure-portal=true) 
-- [Create public folder mailboxes](https://docs.microsoft.com/Exchange/collaboration-exo/public-folders/create-public-folder-mailbox?azure-portal=true)
+- [Public folders in Office 365 and Exchange Online](/Exchange/collaboration-exo/public-folders/public-folders?azure-portal=true) 
+- [Create public folder mailboxes](/Exchange/collaboration-exo/public-folders/create-public-folder-mailbox?azure-portal=true)

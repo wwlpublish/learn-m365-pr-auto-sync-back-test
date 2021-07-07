@@ -4,6 +4,6 @@ Without a detailed approach to deployment, your company wouldn’t be able to su
 
 ## Learn more
 
-- [Delivery Optimization for Windows 10](https://docs.microsoft.com/windows/deployment/update/waas-delivery-optimization#requirements)
-- [Microsoft Connected Cache](https://docs.microsoft.com/mem/configmgr/core/plan-design/hierarchy/microsoft-connected-cache)
-- [Tutorial: Deploy Windows 10 to pilot](https://docs.microsoft.com/mem/configmgr/desktop-analytics/tutorial-windows10)
+- [Delivery Optimization for Windows 10](/windows/deployment/update/waas-delivery-optimization#requirements)
+- [Microsoft Connected Cache](/mem/configmgr/core/plan-design/hierarchy/microsoft-connected-cache)
+- [Tutorial: Deploy Windows 10 to pilot](/mem/configmgr/desktop-analytics/tutorial-windows10)

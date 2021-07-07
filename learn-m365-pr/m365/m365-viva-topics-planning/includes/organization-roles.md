@@ -44,7 +44,7 @@ In the Manage Topics page, knowledge managers can do the following tasks:
 To manage topics, the knowledge managers must: 
 
 - Be assigned a Viva Topics license by their Microsoft 365 admin. 
-- Be allowed to have visibility to topics.   
+- Be allowed to have visibility to topics.  
 
 Topic contributors are users in your organization with topic viewer permissions and can edit an existing topic or create a new topic. They have an important role in manually “curating” the information in a topic page (both AI and manually provided) to ensure its quality. 
 
@@ -60,6 +60,6 @@ During setup, you can configure Viva Topics to:
 - Select which licensed users who can manage topics (knowledge managers). 
 - Name the Topic center. 
 
-Check out [Setup overview for Graph connectors by Microsoft](https://docs.microsoft.com/microsoftsearch/configure-connector?azure-portal=true) for more information on how to configure Graph content connectors*.  
+Check out [Setup overview for Graph connectors by Microsoft](/microsoftsearch/configure-connector?azure-portal=true) for more information on how to configure Graph content connectors*.  
 
-Knowledge managers need to be able to coordinate with all Viva Topics stakeholders in their organization to know how to configure it. For example, if a new project has sensitive information, the knowledge manager needs to inform the Knowledge admins to make sure the SharePoint site is not crawled for topics, or specific topic names need to be excluded. 
+Knowledge managers need to be able to coordinate with all Viva Topics stakeholders in their organization to know how to configure it. For example, if a new project has sensitive information, the knowledge manager needs to inform the Knowledge admins to make sure the SharePoint site is not crawled for topics, or specific topic names need to be excluded.

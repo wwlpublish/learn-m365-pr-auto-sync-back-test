@@ -41,4 +41,4 @@ Here's an overview of the capabilities of the Microsoft Teams Rooms Premium mana
 ## Learn more
 
 - [Microsoft Teams Rooms Premium](https://rooms.microsoft.com?azure-portal=true)
-- [Microsoft Teams Rooms managed service customer support](https://docs.microsoft.com/microsoftteams/rooms/microsoft-teams-rooms-premium#customer-support)
+- [Microsoft Teams Rooms managed service customer support](/microsoftteams/rooms/microsoft-teams-rooms-premium#customer-support)

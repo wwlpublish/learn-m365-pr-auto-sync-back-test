@@ -1,7 +1,9 @@
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4OFZH]
+
 In this exercise, you’ll learn how to execute a messaging extension search command from an existing message.
 
 > [!IMPORTANT]
-> This exercise assumes you have created the Microsoft Teams app project with the Yeoman generator that contains a personal tab from the previous exercise in this module. You'll update the project to add a new task module that uses an Adaptive Card.
+> This exercise assumes you have created the Microsoft Teams app project with the Yeoman generator.
 
 ## Add a new search messaging extension to the Teams app
 

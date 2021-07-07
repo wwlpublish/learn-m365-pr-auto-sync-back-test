@@ -35,7 +35,7 @@ You can also block or limit access to a specific user’s OneDrive. **Anyone** l
 Blocking access and blocking downloads may impact the user experience in some apps, including some Office apps. Microsoft recommends that the policy is enabled for some users and test the experience with the apps used in your organization.
 
 ## Learn more
-- [Control access to features in the OneDrive and SharePoint mobile apps](https://docs.microsoft.com/onedrive/control-access-to-mobile-app-features?azure-portal=true)
-- [Enable conditional access support in the OneDrive sync app for Windows](https://docs.microsoft.com/onedrive/enable-conditional-access?azure-portal=true)
-- [Control access from unmanaged devices](https://docs.microsoft.com/sharepoint/control-access-from-unmanaged-devices?azure-portal=true)
+- [Control access to features in the OneDrive and SharePoint mobile apps](/onedrive/control-access-to-mobile-app-features?azure-portal=true)
+- [Enable conditional access support in the OneDrive sync app for Windows](/onedrive/enable-conditional-access?azure-portal=true)
+- [Control access from unmanaged devices](/sharepoint/control-access-from-unmanaged-devices?azure-portal=true)
 

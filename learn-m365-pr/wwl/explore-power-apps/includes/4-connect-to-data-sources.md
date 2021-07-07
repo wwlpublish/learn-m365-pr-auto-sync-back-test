@@ -11,7 +11,7 @@ Other data sources, such as the Microsoft 365 Users Connection or Project Online
 > [!NOTE]
 > When using Excel as a data source, the data must be formatted as a table.
 
-**Additional reading.** For more information on connectors and data access, see the [connector index](https://docs.microsoft.com/connectors/index?azure-portal=true).
+**Additional reading.** For more information on connectors and data access, see the [connector index](/connectors/index).
 
 ### On-premises data sources
 
@@ -19,7 +19,7 @@ Connections to on-premises data sources, such as an on-premises SharePoint servi
 
 An on-premises data gateway enables multiple users to connect to multiple on-premises data sources. A single installation of an on-premises data gateway can also be used with all supported services.
 
-**Additional reading.** For more information, see the [On-premises data gateway architecture](https://docs.microsoft.com/data-integration/gateway/service-gateway-onprem-indepth?azure-portal=true) documentation.
+**Additional reading.** For more information, see the [On-premises data gateway architecture](/data-integration/gateway/service-gateway-onprem-indepth) documentation.
 
 ### Data source authentication
 

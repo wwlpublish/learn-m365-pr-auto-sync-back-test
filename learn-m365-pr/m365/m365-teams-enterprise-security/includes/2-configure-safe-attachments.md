@@ -22,7 +22,7 @@ Safe attachments doesn't scan all files, but uses smart heuristics and threat si
 
 To start using Safe Attachments, configure a Safe Attachment policy:
 
-1. Sign into the [Security & Compliance center](https://protection.office.com/) with global administrator, security administrator, Exchange Online organization management, or Exchange Online hygiene management permissions.
+1. Sign into the [Microsoft 365 Defender portal](https://security.microsoft.com/) with global administrator, security administrator, Exchange Online organization management, or Exchange Online hygiene management permissions.
 1. In the left navigation bar, select **Threat management** > **Policy** > **Safe Attachments**.
 
     :::image type="content" source="../media/3-atp-safe-attachments.jpg" alt-text="Microsoft Defender for Office 365 Safe Attachments":::
@@ -34,6 +34,6 @@ It is also recommended that you run the **Set-SPOTenant** cmdlet with the **Disa
 
 ## Learn more
 
-- [Microsoft Defender for Office 365 Safe Attachments](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-attachments)
-- [Microsoft Defender for Office 365 for SharePoint, OneDrive, and Microsoft Teams](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-for-spo-odb-and-teams)
-- [Turn on Microsoft Defender for Office 365 for SharePoint, OneDrive, and Microsoft Teams](https://docs.microsoft.com/microsoft-365/security/office-365-security/turn-on-atp-for-spo-odb-and-teams)
+- [Microsoft Defender for Office 365 Safe Attachments](/microsoft-365/security/office-365-security/atp-safe-attachments)
+- [Microsoft Defender for Office 365 for SharePoint, OneDrive, and Microsoft Teams](/microsoft-365/security/office-365-security/atp-for-spo-odb-and-teams)
+- [Turn on Microsoft Defender for Office 365 for SharePoint, OneDrive, and Microsoft Teams](/microsoft-365/security/office-365-security/turn-on-atp-for-spo-odb-and-teams)

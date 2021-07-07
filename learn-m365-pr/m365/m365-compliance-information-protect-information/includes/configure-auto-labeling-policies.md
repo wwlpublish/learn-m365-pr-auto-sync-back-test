@@ -79,4 +79,4 @@ The image below shows an auto-label policy named **U.S. Patriot Act** that has b
  ![Auto-labeling policy example](../media/auto-labeling-policy-example.png) 
 
 ## Learn more
-- [Apply a sensitivity label to content automatically](https://docs.microsoft.com/microsoft-365/compliance/apply-sensitivity-label-automatically?view=o365-worldwide?azure-portal=true)
+- [Apply a sensitivity label to content automatically](/microsoft-365/compliance/apply-sensitivity-label-automatically?azure-portal=true)

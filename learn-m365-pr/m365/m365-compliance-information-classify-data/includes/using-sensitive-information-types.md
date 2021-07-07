@@ -64,5 +64,5 @@ Watch this video on sensitive information types to learn more.
 
 > 
 ## Learn more
-- [What sensitive information types look for](https://docs.microsoft.com/microsoft-365/compliance/what-the-sensitive-information-types-look-for?azure-portal=true)
-- [Custom sensitive information types](https://docs.microsoft.com/microsoft-365/compliance/custom-sensitive-info-types?azure-portal=true)
+- [What sensitive information types look for](/microsoft-365/compliance/what-the-sensitive-information-types-look-for?azure-portal=true)
+- [Custom sensitive information types](/microsoft-365/compliance/custom-sensitive-info-types?azure-portal=true)

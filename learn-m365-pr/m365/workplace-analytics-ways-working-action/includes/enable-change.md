@@ -15,7 +15,7 @@ MyAnalytics generates data regarding two of the key factors in personal producti
 
 ### Access your MyAnalytics dashboard
 
-Users can access their personal MyAnalytics dashboard by visiting myanalytics.microsoft.com. The MyAnalytics dashboard shows you statistics about your work patterns over the past month. Statistics include your focus and collaboration time, how many days you were able to disconnect from work, and how effectively you're networking with your coworkers. 
+Users can access their personal MyAnalytics dashboard by visiting myanalytics.microsoft.com. The MyAnalytics dashboard shows you statistics about your work patterns over the past month. Statistics include your focus and collaboration time, how many days you were able to disconnect from work, and how effectively you're networking with your coworkers.
 
 > [!IMPORTANT]
 > Information available in the MyAnalytics dashboard is private and personal metrics are only available for individual access. Users will need the appropriate Microsoft 365 license to access this dashboard.
@@ -113,7 +113,7 @@ You can use the plans feature of Workplace Analytics to create improvement plans
 - Set up 12-week plans for the identified group.
 - Measure the progress of the plan while it’s underway.
 
-If you have the analyst, limited analyst, or program manager role, you can open Workplace Analytics and select **Plans > New Plan**. There you can learn about the types of plans that you can create. 
+If you have the analyst, limited analyst, or program manager role, you can open Workplace Analytics and select **Plans > New Plan**. There you can learn about the types of plans that you can create.
 
 ![Learn about the plan types](../media/learn-types-plans.png)
 
@@ -124,7 +124,7 @@ In addition to its standard weekly digest, the digest for plan participants incl
 ![Program checkpoint summarizes their progress in the plan](../media/program-checkpoint.png)
 
 ## What are Insights for people managers?
- 
+
 Insights for people managers provide team leaders with behavioral measures of employee experience and team effectiveness. Managers can leverage a dashboard to track progress, view suggested actions, and launch a plan for their team.
 
 > [!NOTE]
@@ -161,6 +161,6 @@ After identifying an opportunity, the manager can take action by enrolling team 
 
 ## Learn More
 
-- [More about MyAnalytics](https://docs.microsoft.com/workplace-analytics/myanalytics/use/mya-elements?azure-portal=true)
-- [MyAnalytics deployment guide](https://docs.microsoft.com/workplace-analytics/myanalytics/setup/deployment-guide?azure-portal=true)
-- [More about Plans](https://docs.microsoft.com/workplace-analytics/tutorials/solutionsv2-intro?azure-portal=true)
+- [More about MyAnalytics](/workplace-analytics/myanalytics/use/mya-elements?azure-portal=true)
+- [MyAnalytics deployment guide](/workplace-analytics/myanalytics/setup/deployment-guide?azure-portal=true)
+- [More about Plans](/workplace-analytics/tutorials/solutionsv2-intro?azure-portal=true)

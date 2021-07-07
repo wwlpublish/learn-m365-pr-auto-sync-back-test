@@ -24,5 +24,5 @@ In this module, you’ll learn to:
 ## Prerequisites
 
 - Familiarity with Workplace Analytics data sources
-- Basic knowledge of Power BI software 
+- Basic knowledge of Power BI software
 - Basic knowledge of data queries and query structure

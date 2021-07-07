@@ -3,7 +3,7 @@ uid: learn-m365.workplace-analytics-onboard
 metadata:
   title: Onboard to Microsoft Workplace Analytics
   description: Learn how to onboard to Microsoft Workplace Analytics, from the administrator perspective.  
-  ms.date: 11/30/2020
+  ms.date: 05/14/2021
   author: lizap
   ms.author: elizapo
   ms.topic: interactive-tutorial
@@ -17,7 +17,7 @@ abstract: |
   - Configure Workplace Analytics settings and privacy controls to match your organization’s policies
   -	Prepare and upload organizational data, which is required to provide context to the collaboration data
 prerequisites: None
-iconUrl: /learn/achievements/generic-badge.svg
+iconUrl: /learn/achievements/microsoft-workplace-analytics-onboarding.svg
 levels:
 - beginner
 roles:

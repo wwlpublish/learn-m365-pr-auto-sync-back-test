@@ -4,9 +4,9 @@ title: Summary and knowledge check
 metadata:
   title: Summary and knowledge check
   description: Learn how Microsoft 365 implements the principle of Zero Standing Access (ZSA) to protect production environments and customer data using Just-In-Time (JIT) and Just-Enough-Access (JEA).
-  ms.date: 05/29/2020
+  ms.date: 05/13/2021
   author: NamrahK
-  ms.author: v-nakhu
+  ms.author: beccarobins
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 durationInMinutes: 5
@@ -51,17 +51,17 @@ quiz:
         isCorrect: false
         explanation: "Customer accounts are provisioned by the customer for users in the customer’s organization."
 
-    - content: "What access control technology limits the devices used to connect to production Microsoft 365 environments?"
+    - content: "What access control tool in Microsoft requires engineers to specify the privileged role, resources, and time required to complete an administrative task as part of requesting JIT access?"
       choices:
       - content: "Role-Based Access Control"
         isCorrect: false
-        explanation: "Role-Based Access Control is used for access permissions but does not limit the types of devices used for production access."
+        explanation: "Role-Based Access Control is used for access permissions but is not a tool for submitting JIT requests."
       - content: "Multi-factor authentication"
         isCorrect: false
-        explanation: "Multi-factor authentication is required for all service team accounts but does not limit the types of devices used for production access."
+        explanation: "Multi-factor authentication is required for all service team accounts but is not a tool for submitting JIT requests."
       - content: "Secure Access Workstations"
-        isCorrect: true
-        explanation: "Correct. Engineers accessing production environments are required to use Secure Access Workstations."
-      - content: "Lockbox"
         isCorrect: false
-        explanation: "Lockbox is used to enable Just-In-Time access but does not limit the types of devices used for production access."
+        explanation: "Secure Access Workstations limit the attack surface of the devices engineers use to access production environments."
+      - content: "Lockbox"
+        isCorrect: true
+        explanation: "Correct. Engineers use Lockbox to submit Just-In-Time access requests, which must specify the privileged role, resources, and time required to complete an administrative task."

@@ -1,13 +1,13 @@
-Microsoft 365 stores all user and admin activities in its unified audit log. Need to find if a deleted a file has been shared from OneDrive? You can search the unified audit log in the Security & Compliance Center. The unified audit log includes user and admin activity for all Microsoft 365 services such as SharePoint Online, Exchange Online, Azure AD, OneDrive, and more. When audit logging is turned on, user and admin activity from your organization is recorded in the audit log and retained for 90 days to one year depending on the license assigned to users. 
+Microsoft 365 stores all user and admin activities in its unified audit log. Need to find if a deleted a file has been shared from OneDrive? You can search the unified audit log in the Microsoft 365 Defender portal. The unified audit log includes user and admin activity for all Microsoft 365 services such as SharePoint Online, Exchange Online, Azure AD, OneDrive, and more. When audit logging is turned on, user and admin activity from your organization is recorded in the audit log and retained for 90 days to one year depending on the license assigned to users. 
 
 The length of time that an audit record is retained and searchable depends on your Office 365 or Microsoft 365 enterprise subscription, and specifically the type of license that is assigned to a specific user.
 - **Office 365 E3 or Microsoft 365 E3:** Audit records are retained for 90 days.
 - **Office 365 E5 or Microsoft 365 E5 or users with a Microsoft 365 E5 Compliance add-on license:** Audit records for Azure Active Directory, Exchange, and SharePoint (OneDrive) activity are retained for one year by default
 
 ## Searching
-You search the audit log through the Security & Compliance Center UI. (Options to use PowerShell and the Office 365 Management Activity API are also available.) 
+You search the audit log through the Microsoft 365 Defender portal UI. (Options to use PowerShell and the Office 365 Management Activity API are also available.) 
 
-![You search the audit log through the Security & Compliance Center UI](../media/audit-log-search.png) 
+![You search the audit log through the Microsoft 365 Defender portal UI](../media/audit-log-search.png) 
 
 When searching the audit log, you can:
 - Select specific activities or a group of activities to search.
@@ -31,6 +31,6 @@ Activities when searching audit logs commonly involve files, folders, sharing, a
 - When a user creates an anonymous link to a resource.
 
 ## Learn more
-- [Search the audit log in the Security & Compliance Center](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance?view=o365-worldwide?azure-portal=true)
-- [Turn audit log search on or off](https://docs.microsoft.com/microsoft-365/compliance/turn-audit-log-search-on-or-off?view=o365-worldwide?azure-portal=true)
-- [Manage audit log retention policies](https://docs.microsoft.com/microsoft-365/compliance/audit-log-retention-policies?view=o365-worldwide?azure-portal=true)
+- [Search the audit log in the Microsoft 365 Defender portal](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance?azure-portal=true)
+- [Turn audit log search on or off](/microsoft-365/compliance/turn-audit-log-search-on-or-off?azure-portal=true)
+- [Manage audit log retention policies](/microsoft-365/compliance/audit-log-retention-policies?azure-portal=true)

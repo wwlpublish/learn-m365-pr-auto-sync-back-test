@@ -1,0 +1,33 @@
+### YamlMime:Module
+uid: learn-m365.edu-manage-admin
+metadata:
+  title: Manage scoped administration and delegation with Microsoft Intune and Intune for Education 
+  description: Discover how to manage scoped administration and delegation with Microsoft Intune and Intune for Education. 
+  ms.date: 06/03/2021
+  author: iankensey
+  ms.author: beccarobins
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Manage scoped administration and delegation with Microsoft Intune and Intune for Education 
+summary: Discover how to manage scoped administration and delegation with Microsoft Intune and Intune for Education. 
+abstract: |
+  Upon completion of this module, you should be able to:
+  - Discover how to Implement Role-Based Access Control with Microsoft Intune.
+prerequisites: |
+ - Introduction to modern management in Microsoft 365 module.
+iconUrl: /learn/achievements/generic-badge.svg
+levels: 
+- beginner
+roles: 
+- administrator
+products: 
+- m365
+- mem-intune
+units:
+- learn-m365.edu-manage-admin.introduction
+- learn-m365.edu-manage-admin.implement-rbac
+- learn-m365.edu-manage-admin.scope-tags
+- learn-m365.edu-manage-admin.knowledge-check
+- learn-m365.edu-manage-admin.summary
+badge:
+  uid: learn-m365.m365.manage-scoped-administration.badge

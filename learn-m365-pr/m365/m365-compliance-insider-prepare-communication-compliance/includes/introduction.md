@@ -17,7 +17,7 @@ Watch the video below to learn more about Communication Compliance in Microsoft 
 >  -	Microsoft 365 E5 Compliance 
 >  -	Microsoft 365 E5 Insider Risk Management 
 > 
-> Please review [Microsoft 365 licensing guidance for security & compliance](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance?azure-portal=true) to identify required licenses for your organization.
+> Please review [Microsoft 365 licensing guidance for security & compliance](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance?azure-portal=true) to identify required licenses for your organization.
 
 ## Scenarios for communication compliance
 Communication compliance policies can help you detect and review communications in your organization to quickly identify and remediate violations in several common scenarios, such as:
@@ -50,5 +50,5 @@ New interactive dashboards for alerts, policy matches, actions, and trends help 
 ![Communication compliance](../media/communication-compliance.png)
 
 ## Learn more
-- [Supported communication types](https://docs.microsoft.com/microsoft-365/compliance/communication-compliance-feature-reference?view=o365-worldwide#supported-communication-types?azure-portal=true)
+- [Supported communication types](/microsoft-365/compliance/communication-compliance-feature-reference?supported-communication-types?azure-portal=true)
 

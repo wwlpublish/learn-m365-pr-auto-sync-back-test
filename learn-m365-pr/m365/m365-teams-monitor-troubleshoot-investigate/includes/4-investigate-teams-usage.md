@@ -40,14 +40,14 @@ The PSTN blocked users report displays the users in your organization who are bl
 
 The PSTN minute pools report shows an overview of audio conferencing and calling activity in your organization by displaying the number of minutes consumed during the current month. You can see a breakdown of activity including the license used for calls, total minutes available, used minutes, and license usage by location.
 
-The PSTN usage report displays an overview of calling and audio-conferencing activity in your organization. You can view detailed calling activity for Calling Plans if you use Microsoft as your telephony carrier, or for Direct Routing if you use your own telephony carrier.
+The PSTN usage report displays an overview of calling and audio-conferencing activity in your organization. You can view detailed calling activity for Teams Calling Plans if you use Microsoft as your telephony carrier, or for Direct Routing if you use your own telephony carrier.
 
 More reports are being added, including the ones already in preview. See the Teams documentation for details.
 
 ## Learn more
 
-- [Monitor usage and feedback in Microsoft Teams](https://docs.microsoft.com/microsoftteams/get-started-with-teams-monitor-usage-and-feedback)
-- [Microsoft Teams analytics and reporting](https://docs.microsoft.com/microsoftteams/teams-analytics-and-reports/teams-reporting-reference)
-- [Use activity reports for Microsoft Teams](https://docs.microsoft.com/microsoftteams/teams-activity-reports)
-- [Microsoft Teams live event usage report](https://docs.microsoft.com/microsoftteams/teams-analytics-and-reports/teams-live-event-usage-report)
-- [Microsoft Teams PSTN usage report](https://docs.microsoft.com/microsoftteams/teams-analytics-and-reports/pstn-usage-report)
+- [Monitor usage and feedback in Microsoft Teams](/microsoftteams/get-started-with-teams-monitor-usage-and-feedback)
+- [Microsoft Teams analytics and reporting](/microsoftteams/teams-analytics-and-reports/teams-reporting-reference)
+- [Use activity reports for Microsoft Teams](/microsoftteams/teams-activity-reports)
+- [Microsoft Teams live event usage report](/microsoftteams/teams-analytics-and-reports/teams-live-event-usage-report)
+- [Microsoft Teams PSTN usage report](/microsoftteams/teams-analytics-and-reports/pstn-usage-report)

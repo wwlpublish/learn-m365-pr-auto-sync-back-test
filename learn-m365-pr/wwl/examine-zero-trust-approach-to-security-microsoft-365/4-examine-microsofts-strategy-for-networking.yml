@@ -1,0 +1,29 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.examine-zero-trust-approach-to-security-microsoft-365.examine-microsofts-strategy-for-networking
+title: Examine Microsoft's strategy for Zero Trust networking
+metadata:
+  title: Examine Microsoft's strategy for Zero Trust networking
+  description: "Examine Microsoft's strategy for Zero Trust networking"
+  ms.date: 07/05/2021
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+durationInMinutes: 5
+content: |
+  [!include[](includes/4-examine-microsofts-strategy-for-networking.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "As the Enterprise Administrator for Lucerne Publishing, Inc., Holly Spencer wants to implement a Zero Trust network approach. Which of the following items will help Holly control access to resources at Lucerne Publishing?"
+    choices:
+    - content: "External sharing policies"
+      isCorrect: false
+      explanation: "That's incorrect. This item isn't one of ways in which organizations can control access to resources. Try again."
+    - content: "Terms of use"
+      isCorrect: true
+      explanation: "That's correct. Access can be controlled with extra authentication challenges (for example, multi-factor authentication), Terms of Use, or access restrictions."
+    - content: "Data loss prevention policies"
+      isCorrect: false
+      explanation: "That's incorrect. This item isn't one of ways in which organizations can control access to resources. Try again."

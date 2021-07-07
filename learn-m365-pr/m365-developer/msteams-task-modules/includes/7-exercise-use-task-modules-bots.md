@@ -1,9 +1,11 @@
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4OIwK]
+
 In this exercise, you'll learn how to use task modules with bots in Microsoft Teams.
 
 The first step will be to create a bot and add it to our existing Microsoft Teams app. You'll then extend the bot to support the existing task modules to display a video and change the selected video.
 
 > [!NOTE]
-> This exercise requires a valid Azure subscription in order to create a bot using Bot Framework. However, if you don't have an Azure subscription, you can use the legacy Bot Framework Registration Portal. Refer to the following docs for more information: [Create a bot for Microsoft Teams](https://docs.microsoft.com/microsoftteams/platform/bots/how-to/create-a-bot-for-teams).
+> This exercise requires a valid Azure subscription in order to create a bot using Bot Framework. However, if you don't have an Azure subscription, you can use the legacy Bot Framework Registration Portal. Refer to the following docs for more information: [Create a bot for Microsoft Teams](/microsoftteams/platform/bots/how-to/create-a-bot-for-teams).
 
 > [!IMPORTANT]
 > This exercise assumes you have created the Microsoft Teams app project with the Yeoman generator that contains a personal tab from the previous exercise in this module. You'll update the project to add a new task module that uses an Adaptive Card.
@@ -87,7 +89,7 @@ Select **Manage** to navigate to the Azure AD app blade:
 
 ### Create a client secret for the app
 
-In order for the daemon app to run without user involvement, it will sign in to Azure AD with an application ID and either a certificate or secret. In this exercise, you'll use a secret.
+In order for your code to connect to the bot framework service, it will sign in to Azure AD with an application ID and either a certificate or secret. In this exercise, you'll use a secret.
 
 Select **Certificates & secrets** from the left-hand navigation panel.
 
@@ -273,6 +275,8 @@ Next, enter some random text. Because the bot is looking for specific text, it w
 At this point, the bot is working. Move onto the next section to add task module support.
 
 ## Add the video player task module
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4OAON]
 
 In this section, you'll add a task module to the bot. First, let's update the Hero card to add a button the user can select.
 

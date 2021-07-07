@@ -49,12 +49,9 @@ The last step is to request emails by using Microsoft Graph and show them in the
         return;
       }
     
-      var displayEmailButton = document.getElementById('displayEmail');
-      displayEmailButton.style = 'display: none';
+      document.getElementById('displayEmail').style = 'display: none';
     
       var emailsUl = document.getElementById('emails');
-      // clear existing elements
-      emailsUl.innerHTML = '';
       emails.value.forEach(email => {
         var emailLi = document.createElement('li');
         emailLi.innerText = `${email.subject} (${new Date(email.receivedDateTime).toLocaleString()})`;

@@ -38,9 +38,8 @@ You can use session controls in Cloud App Security to work with any app. These a
 - A Microsoft Cloud App Security license
 - Apps that are configured for single sign-on (SSO)
 - Apps that support one of the following authentication protocols:
-
-    - SAML 2.0
-    - OpenID Connect
+  - SAML 2.0
+  - OpenID Connect
 
 ### To deploy any app
 
@@ -54,4 +53,4 @@ To deploy any app so that it is controlled by Cloud App Security Conditional Acc
 1. Update the Azure AD policy
 
 > [!NOTE]
-> You can review more detail in the following document: [To deploy any app]( https://docs.microsoft.com/cloud-app-security/proxy-deployment-any-app#to-deploy-any-app?azure-portal=true).
+> You can review more detail in the following document: [To deploy any app]( /cloud-app-security/proxy-deployment-any-app#to-deploy-any-app?azure-portal=true).

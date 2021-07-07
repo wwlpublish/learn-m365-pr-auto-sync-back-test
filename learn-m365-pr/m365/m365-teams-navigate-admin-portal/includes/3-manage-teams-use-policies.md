@@ -159,10 +159,10 @@ A user can only have one effective policy for each policy type. When a user is a
 
 For more information about the topics covered in this unit, see:
 
-- [Teams Policies and Policy Packages for Education](https://docs.microsoft.com/microsoftteams/policy-packages-edu).
-- [Manage policy packages in Microsoft Teams](https://docs.microsoft.com/microsoftteams/manage-policy-packages).
-- [Assign policies to your users in Microsoft Teams](https://docs.microsoft.com/microsoftteams/assign-policies).
-- [Assign a policy package to a batch of users](https://docs.microsoft.com/microsoftteams/assign-policies#assign-a-policy-package-to-a-batch-of-users).
-- [Manage meeting settings and policies](https://docs.microsoft.com/microsoftteams/meeting-policies-in-teams).
+- [Teams Policies and Policy Packages for Education](/microsoftteams/policy-packages-edu).
+- [Manage policy packages in Microsoft Teams](/microsoftteams/manage-policy-packages).
+- [Assign policies to your users in Microsoft Teams](/microsoftteams/assign-policies).
+- [Assign a policy package to a batch of users](/microsoftteams/assign-policies#assign-a-policy-package-to-a-batch-of-users).
+- [Manage meeting settings and policies](/microsoftteams/meeting-policies-in-teams).
 - [Change participant settings for a Teams meeting](https://support.microsoft.com/office/change-participant-settings-for-a-teams-meeting-53261366-dbd5-45f9-aae9-a70e6354f88e).
-- [Manage messaging policies in Teams](https://docs.microsoft.com/microsoftteams/messaging-policies-in-teams).
+- [Manage messaging policies in Teams](/microsoftteams/messaging-policies-in-teams).

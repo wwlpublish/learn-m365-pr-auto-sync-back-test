@@ -18,7 +18,7 @@ Complete the following steps to create a bot:
      *  interact with your bot using the Test Canvas.
 6.  The banner changes when the bot creation process completes. You now have full functionality in the bot and can modify any User or System topic, test out your content changes, or deploy your bot.
 
-**Additional reading.** For more information on creating bots using Power BI Virtual Agents, see [Authoring key concepts](https://docs.microsoft.com/power-virtual-agents/authoring-fundamentals?azure-portal=true).
+**Additional reading.** For more information on creating bots using Power BI Virtual Agents, see [Authoring key concepts](/power-virtual-agents/authoring-fundamentals).
 
 ### Step 2 - Create a topic for a bot
 
@@ -34,7 +34,7 @@ Complete the following steps to create a topic for your bot:
 6.  In the forked conversation path, each node has automatically checked for **Seattle** in one path, and **Bellevue** in the other path to take the appropriate next step.
 7.  Select the plus sign (+) below each of the **Condition** nodes to add a **Message** node in each branch. Add a message like **Hello Seattle!** in the Seattle branch, and **Hello Bellevue!** in the Bellevue branch. Select **Save** at the top.
 
-After completing these steps, you can create a basic branching dialog tree. You can create more complex versions of this tree by incorporating [variables](https://docs.microsoft.com/power-virtual-agents/authoring-variables?azure-portal=true), [entities](https://docs.microsoft.com/power-virtual-agents/advanced-entities-slot-filling?azure-portal=true), and [Power Automate flows](https://docs.microsoft.com/power-virtual-agents/advanced-flow?azure-portal=true).
+After completing these steps, you can create a basic branching dialog tree. You can create more complex versions of this tree by incorporating [variables](/power-virtual-agents/authoring-variables), [entities](/power-virtual-agents/advanced-entities-slot-filling), and [Power Automate flows](/power-virtual-agents/advanced-flow).
 
 ### Step 3 - Test the bot
 
@@ -75,4 +75,4 @@ Complete the following step to analyze the statistics:
 2.  Select **Sessions** from the **Analytics** tab to view detailed session history and transcripts. This page enables you to download a CSV file with the full session transcript. Reviewing the transcript will be a helpful way to fine-tune the performance of your bot and change the content in your topics to improve the bot’s efficiency.
 3.  Select the **Customer Satisfaction** tab to analyze customer satisfaction information at the KPI level.
 
-**Additional reading.** For more information, see [Analytics key concepts](https://docs.microsoft.com/power-virtual-agents/analytics-overview?azure-portal=true).
+**Additional reading.** For more information, see [Analytics key concepts](/power-virtual-agents/analytics-overview).

@@ -1,15 +1,15 @@
-As a senior administrator working for Contoso, you've been asked to adopt the application delivery method and to use MSIX app attach in your Windows Virtual Desktop environment.
+As a senior administrator working for Contoso, you've been asked to adopt the application delivery method and to use MSIX app attach in your Azure Virtual Desktop environment.
 
 In this exercise, you'll add and test MSIX app attach.
 
 > [!NOTE]
-> To complete this exercise, you need to have an active Azure subscription and run a Windows Virtual Desktop environment. You can identify all the prerequisites for this exercise in the previous unit of this module, "Manage MSIX app attach."
+> To complete this exercise, you need to have an active Azure subscription and run an Azure Virtual Desktop environment. You can identify all the prerequisites for this exercise in the previous unit of this module, "Manage MSIX app attach."
 
-## Add MSIX app attach in Windows Virtual Desktop
+## Add MSIX app attach in Azure Virtual Desktop
 
-1. Open the Azure portal. In **Search resources, services and docs (G+I)**, enter and then select **Windows Virtual Desktop**.
-2. On the **Windows Virtual Desktop** page, select **Host pools** from the left menu.
-3. On the **Windows Virtual Desktop | Host pools** page, select the desired host pool.
+1. Open the Azure portal. In **Search resources, services and docs (G+I)**, enter and then select **Azure Virtual Desktop**.
+2. On the **Azure Virtual Desktop** page, select **Host pools** from the left menu.
+3. On the **Azure Virtual Desktop | Host pools** page, select the desired host pool.
 4. On the **_your host pool_** page, on the left menu, select **MSIX packages** under the **Manage** section.
 5. On the **_your host pool_ | MSIX packages** page from the toolbar, select **+ Add**.
 6. In the **Add MSIX package** window, in the **MSIX image path** field, add the UNC path of your MSIX image.
@@ -35,8 +35,8 @@ In this exercise, you'll add and test MSIX app attach.
 
 ## Publish MSIX app attach to a desktop application group
 
-1. On the **Windows Virtual Desktop** page, on the left menu, select **Application groups**.
-2. On the **Windows Virtual Desktop | Application groups** page, select the desired application group.
+1. On the **Azure Virtual Desktop** page, on the left menu, select **Application groups**.
+2. On the **Azure Virtual Desktop | Application groups** page, select the desired application group.
 3. On the application group page, on the left menu, select **Applications** under the **Manage** section.
 4. On the **_your application group_ | Applications** page from the toolbar, select **+ Add**.
 5. In the **Add application** window, provide the following information:
@@ -55,16 +55,16 @@ In this exercise, you'll add and test MSIX app attach.
 
 ## Assign users to an application group
 
-1. On the **Windows Virtual Desktop** page, on left menu, select **Application groups**.
-2. On the **Windows Virtual Desktop | Application groups** page, select the desired application group.
+1. On the **Azure Virtual Desktop** page, on left menu, select **Application groups**.
+2. On the **Azure Virtual Desktop | Application groups** page, select the desired application group.
 3. On the application group page, on the left menu, select **Assignments** under the **Manage** section.
 4. On the **_your application group_ | Assignments** page, from the toolbar, select **+ Add**.
 5. On the **Select Azure AD users or user groups** page, select your users or groups, and then choose **Select**.
 
 ## Publish MSIX app attach to a RemoteApp group
 
-1. On the **Windows Virtual Desktop** page, on the left menu, select **Application groups**.
-2. On the **Windows Virtual Desktop | Application groups** page, from the toolbar, select **+ Add**.
+1. On the **Azure Virtual Desktop** page, on the left menu, select **Application groups**.
+2. On the **Azure Virtual Desktop | Application groups** page, from the toolbar, select **+ Add**.
 3. In **Create an application group**, in **Basics**, provide the following information:
 
     |||
@@ -113,4 +113,3 @@ In this exercise, you'll add and test MSIX app attach.
    :::image type="content" source="../media/05-screenshot-of-edge-dev.png" alt-text="Screenshot of published M S I X app attach." border="true":::
 
 5. Close the Remote Desktop session.
-

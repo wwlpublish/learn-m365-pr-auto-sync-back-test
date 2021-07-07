@@ -38,4 +38,4 @@ The meeting recordings are stored in Microsoft Stream, which is Microsoft 365 an
 
 ## Learn more
 
-- [Teams cloud meeting recording](https://docs.microsoft.com/microsoftteams/cloud-recording)
+- [Teams cloud meeting recording](/microsoftteams/cloud-recording)

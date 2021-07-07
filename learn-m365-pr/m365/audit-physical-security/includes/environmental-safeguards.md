@@ -1,8 +1,8 @@
-At Microsoft, we employ a variety of safeguards to protect against environmental threats to datacenter availability. These safeguards enable us to provide the secure and available cloud platform trusted by our customers.
+At Microsoft, we employ various safeguards to protect against environmental threats to datacenter availability. These safeguards enable us to provide the secure and available cloud platform trusted by our customers.
 
 ## Site selection
 
-Protecting Microsoft datacenters from environmental hazards begins with site selection. Microsoft datacenter locations undergo stringent assessment prior to selection for datacenter construction. Our sites are strategically selected to minimize risk from a variety of factors, including floods, earthquakes, hurricanes, and other natural disasters. In addition to minimizing environmental risk, access to low-cost energy and reliable telecommunications infrastructure are among the key factors that influence datacenter site selection.
+Protecting Microsoft datacenters from environmental hazards begins with site selection. Microsoft datacenter locations undergo stringent assessment prior to selection for datacenter construction. Our sites are strategically selected to minimize risk from several factors, including floods, earthquakes, hurricanes, and other natural disasters. In addition to minimizing environmental risk, access to low-cost energy and reliable telecommunications infrastructure are among the key factors that influence datacenter site selection.
 
 ## Climate control
 

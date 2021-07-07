@@ -2,9 +2,9 @@ Microsoft Power BI (Business Intelligence) is a collection of software services,
 
 In this module, you'll examine how to build a Power BI report and dashboard that meets your exact business needs and integrates and interacts with your business data.
 
-After completing this module, you'll be able to:
+After completing this module, you'll be able to: 
 
- *  Describe what Power BI is and how it's used by organizations.
+ *  Describe what Power BI is and how it's used by organizations. 
  *  Describe how Power BI connects to data sources.
  *  Build and share a basic Power BI report and dashboard.
- *  Administer Power BI permissions, licensing, and row level security.
+ *  Administer Power BI permissions, licensing, and row level security. 

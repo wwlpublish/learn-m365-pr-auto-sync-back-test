@@ -1,0 +1,34 @@
+### YamlMime:LearningPath
+uid: learn.wwl.implement-applications-external-access-azure-ad
+metadata:
+  title: Implement applications and external access in Azure AD
+  description: Implement applications and external access in Azure AD
+  ms.date: 04/27/2021
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Implement applications and external access in Azure AD
+prerequisites: |
+  - Students should have completed a role-based administrator training collection such as Messaging, Teamwork, Security and Compliance, or Collaboration.
+  - Students should have a proficient understanding of DNS and basic functional experience with Microsoft 365 services.
+  - Students must have a proficient understanding of general IT practices.
+summary: |
+  This learning path examines how to implement applications and external access in Azure AD, including implementation of Azure AD Application Proxy, Microsoft 365 external sharing, Azure AD B2B collaboration, external access, and guess access.
+iconUrl: /learn/achievements/azure-ad-implement-applications.svg
+levels:
+- intermediate
+roles:
+- administrator
+- solution-architect
+- technology-manager
+products:
+- azure-active-directory
+- m365
+- office-365
+modules:
+- learn.wwl.implement-applications-azure-ad
+- learn.wwl.configure-azure-ad-application-proxy
+- learn.wwl.explore-solutions-for-external-access
+trophy:
+  uid: learn.wwl.implement-applications-external-access-azure-ad.trophy

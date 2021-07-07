@@ -15,11 +15,8 @@ You will need to enter information such as the App Suite Name, Description, Publ
 - **Update Channel** - Choose how Office is updated and how often:
 
   - Monthly - Provide users with the newest features of Office as soon as they're available.
-
   - Monthly (Targeted) - Provide pilot users and application compatibility testers the opportunity to test the next Monthly Channel.
-
   - Semi-Annual - Provide users with new features of Office only a few times a year.
-
   - Semi-Annual (Targeted) - Provide pilot users and application compatibility testers the opportunity to test the next Semi-Annual Channel.
 
 - **Remove MSI from end-user devices** - Choose whether you want to remove pre-existing Office .MSI apps from end-user devices. The installation won’t succeed if there are pre-existing .MSI apps on end-user devices.
@@ -31,4 +28,3 @@ You will need to enter information such as the App Suite Name, Description, Publ
 - **Languages** - Office is automatically installed in any of the supported languages that are installed with Windows on the end-user's device. Select this option if you want to install additional languages with the app suite.
 
 After you choose a channel, you can optionally select Specific to install a specific version of Office for the selected channel on end user devices.
-

@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.examine-zero-trust-approach-to-security-microsoft-365.adopt-zero-trust-approach
+title: Adopt a Zero Trust approach
+metadata:
+  title: Adopt a Zero Trust approach
+  description: "Adopt a Zero Trust approach"
+  ms.date: 07/05/2021
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+durationInMinutes: 6
+content: |
+  [!include[](includes/5-adopt-zero-trust-approach.md)]

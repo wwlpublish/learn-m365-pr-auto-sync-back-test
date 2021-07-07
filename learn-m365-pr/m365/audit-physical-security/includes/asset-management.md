@@ -1,4 +1,4 @@
-Microsoft datacenters are composed of a variety of physical and virtual components. We refer to distinct individual components as assets. The Microsoft Cloud Operations and Innovation (CO+I) engineering group follows standardized, secure processes for the acquisition, configuration, deployment, tracking, and decommissioning of our physical and virtual assets.
+Microsoft datacenters are composed of various physical and virtual components. We refer to distinct individual components as assets. The Microsoft Cloud Operations and Innovation (CO+I) engineering group follows standardized, secure processes for the acquisition, configuration, deployment, tracking, and decommissioning of our physical and virtual assets.
 
 ## Supply chain integrity
 
@@ -6,7 +6,7 @@ Securing our assets begins with securing our supply chain. Microsoft is committe
 
 ## Asset inventory
 
-Microsoft requires all datacenter assets to be accounted for and to have a designated owner. Owners are responsible for maintaining up-to-date asset information for their physical and virtual assets. When new physical assets are added to a datacenter, they are signed for, scanned, uniquely tagged, and checked-in to the inventory control systems. Automated monitoring tools assist in tracking both physical and virtual assets.
+Microsoft requires all datacenter assets to be accounted for and to have a designated owner. Owners are responsible for maintaining up-to-date asset information for their physical and virtual assets. When new physical assets are added to a datacenter, they are signed for, scanned, uniquely tagged, and checked-in to the inventory control systems. Automated monitoring tools help track both physical and virtual assets.
 
 ## Asset classification
 

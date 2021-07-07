@@ -8,12 +8,12 @@ Now that you’ve completed this module, you should be able to:
 - Manage quality, feature, and driver updates for Windows devices
 - Manage the post-deployment experience for updates
 
-## Learn more 
+## Learn more
 
 - [Update Baseline]( https://www.microsoft.com/download/details.aspx?id=101056) 
-- [Deploy Windows Server Update Services](https://docs.microsoft.com/windows-server/administration/windows-server-update-services/deploy/deploy-windows-server-update-services)
+- [Deploy Windows Server Update Services](/windows-server/administration/windows-server-update-services/deploy/deploy-windows-server-update-services)
 - [Microsoft Endpoint Manager](https://endpoint.microsoft.com/#home?azure-portal=true)
-- [Azure Monitor Workbooks](https://docs.microsoft.com/azure/azure-monitor/platform/workbooks-overview?azure-portal=true)
-- [Update Compliance](https://docs.microsoft.com/windows/deployment/update/update-compliance-get-started?azure-portal=true)
-- [Intune compliance reports for updates](https://docs.microsoft.com/mem/intune/protect/windows-update-compliance-reports?azure-portal=true)
+- [Azure Monitor Workbooks](/azure/azure-monitor/platform/workbooks-overview?azure-portal=true)
+- [Update Compliance](/windows/deployment/update/update-compliance-get-started?azure-portal=true)
+- [Intune compliance reports for updates](/mem/intune/protect/windows-update-compliance-reports?azure-portal=true)
 - [Common policy configuration mistakes for managing Windows updates - Microsoft Tech Community](https://techcommunity.microsoft.com/t5/windows-it-pro-blog/common-policy-configuration-mistakes-for-managing-windows/ba-p/2077328)

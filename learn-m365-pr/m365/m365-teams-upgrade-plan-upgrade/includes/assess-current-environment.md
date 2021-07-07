@@ -2,7 +2,7 @@ Discovery is the first step in planning your journey to Teams. Environmental dis
 
 Environmental discovery includes a network readiness assessment to ensure your network can support the upgrade. All matters related to your existing collaboration infrastructure and Microsoft 365 tenant, networking, endpoints, operations, and adoption and readiness are included as part of the environmental discovery questionnaire.
 
-The [discovery questionnaire](https://docs.microsoft.com/MicrosoftTeams/upgrade-plan-journey-evaluate-environment) covers the following information:
+The [discovery questionnaire](/MicrosoftTeams/upgrade-plan-journey-evaluate-environment) covers the following information:
 
 - Microsoft 365 tenant details
 - Existing collaboration platform summary
@@ -16,4 +16,4 @@ The [discovery questionnaire](https://docs.microsoft.com/MicrosoftTeams/upgrade-
 
 When you're done with a link, use the **Back** arrow in your browser to come back to this page.
 
-- [Evaluate your environment before upgrading to Teams](https://docs.microsoft.com/MicrosoftTeams/upgrade-plan-journey-evaluate-environment)
+- [Evaluate your environment before upgrading to Teams](/MicrosoftTeams/upgrade-plan-journey-evaluate-environment)

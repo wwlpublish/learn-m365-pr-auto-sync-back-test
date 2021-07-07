@@ -3,7 +3,7 @@ uid: learn.wwl.plan-your-hybrid-requirements-for-your-microsoft-365-deployment
 metadata:
   title: Plan your hybrid requirements for your Microsoft 365 deployment
   description: "Plan your hybrid requirements for your Microsoft 365 deployment"
-  ms.date: 03/24/2021
+  ms.date: 06/29/2021
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -16,7 +16,7 @@ abstract: |
   - Describe the key planning options when designing a hybrid SharePoint environment, along with the primary features of a hybrid deployment
   - Identify the infrastructure, topology, port, and protocol requirements that are necessary to set up a hybrid Skype for Business environment
 prerequisites: ""
-iconUrl: /learn/achievements/generic-badge.svg
+iconUrl: /learn/achievements/plan-your-hybrid-requirements-for-your-microsoft-365-deployment.svg
 levels:
 - intermediate
 roles:

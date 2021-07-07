@@ -57,4 +57,4 @@ Despite being a reliable, self-managed system, issues can pop up in Teams Rooms.
 
 ## Learn more 
 
-- [Microsoft Teams Rooms recovery tool](https://docs.microsoft.com/MicrosoftTeams/rooms/recovery-tool?azure-portal=true)
+- [Microsoft Teams Rooms recovery tool](/MicrosoftTeams/rooms/recovery-tool?azure-portal=true)

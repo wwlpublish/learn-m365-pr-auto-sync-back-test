@@ -1,3 +1,5 @@
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4OAOK]
+
 Task modules can be invoked from custom tabs in Microsoft Teams, from anywhere using a deep link and from bots. Task modules offer developers a way to collect user input with a bot and keep everyone in the channel from seeing what another user is doing with the bot.
 
 In this unit, you’ll learn how to use task modules with bots in Microsoft Teams.

@@ -42,7 +42,7 @@ If you use the old sync app in your organization, you should deploy the newer sy
 Once the new sync app is deployed, the previous sync app should be blocked through PowerShell.
 
 ## Learn more
-- [Deploy OneDrive apps using Microsoft Endpoint Configuration Manager](https://docs.microsoft.com/onedrive/deploy-on-windows?azure-portal=true)
-- [Deploy OneDrive apps by using Intune](https://docs.microsoft.com/onedrive/deploy-intune?azure-portal=true)
-- [Redirect and move Windows known folders to OneDrive](https://docs.microsoft.com/onedrive/redirect-known-folders?azure-portal=true)
-- [Use Group Policy to control OneDrive sync settings](https://docs.microsoft.com/onedrive/use-group-policy#use-onedrive-files-on-demand?azure-portal=true)
+- [Deploy OneDrive apps using Microsoft Endpoint Configuration Manager](/onedrive/deploy-on-windows?azure-portal=true)
+- [Deploy OneDrive apps by using Intune](/onedrive/deploy-intune?azure-portal=true)
+- [Redirect and move Windows known folders to OneDrive](/onedrive/redirect-known-folders?azure-portal=true)
+- [Use Group Policy to control OneDrive sync settings](/onedrive/use-group-policy#use-onedrive-files-on-demand?azure-portal=true)

@@ -4,7 +4,7 @@ Workplace Analytics taps into Microsoft 365 email and calendar metadata, includi
 
 After completing this module, you'll be able to:<br>
 
- *  Describe how Workplace Analytics can help organizations in analyzing sales productivity, manage effectiveness, and space planning.
- *  Describe how data protection is maintained in Workplace Analytics.
- *  Describe how data privacy is maintained in Workplace Analytics.
- *  Configure Workplace Analytics.
+ -  Describe how Workplace Analytics can help organizations in analyzing sales productivity, manage effectiveness, and space planning.
+ -  Describe how data protection is maintained in Workplace Analytics.
+ -  Describe how data privacy is maintained in Workplace Analytics.
+ -  Configure Workplace Analytics.

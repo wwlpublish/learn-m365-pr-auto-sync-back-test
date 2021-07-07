@@ -49,5 +49,5 @@ The Assignments page allows you to assign the app protection policy to groups of
 
 ## Learn more
 
-- [App Protection Policy]( https://docs.microsoft.com/mem/intune/apps/app-protection-policies)
-- [Intune supported applications]( https://docs.microsoft.com/mem/intune/apps/apps-supported-intune-apps)
+- [App Protection Policy]( /mem/intune/apps/app-protection-policies)
+- [Intune supported applications]( /mem/intune/apps/apps-supported-intune-apps)

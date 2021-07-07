@@ -70,7 +70,7 @@ When the .pst files are present in Azure Storage, you can create a PST import jo
 
 ## Learn more
 
-- [Ways to migrate multiple email accounts to Office 365](https://docs.microsoft.com/exchange/mailbox-migration/mailbox-migration?azure-portal=true)
-- [Use the Office 365 mail migration advisor](https://docs.microsoft.com/exchange/mail-migration-jump?azure-portal=true)
-- [Exchange Server hybrid deployments](https://docs.microsoft.com/exchange/exchange-hybrid?azure-portal=true)
+- [Ways to migrate multiple email accounts to Office 365](/exchange/mailbox-migration/mailbox-migration?azure-portal=true)
+- [Use the Office 365 mail migration advisor](/exchange/mail-migration-jump?azure-portal=true)
+- [Exchange Server hybrid deployments](/exchange/exchange-hybrid?azure-portal=true)
 - [New Exchange Online migration options](https://techcommunity.microsoft.com/t5/exchange-team-blog/new-exchange-online-migration-options/ba-p/606109?azure-portal=true)

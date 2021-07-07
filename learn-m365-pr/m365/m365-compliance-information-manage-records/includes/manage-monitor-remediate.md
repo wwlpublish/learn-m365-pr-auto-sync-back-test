@@ -14,6 +14,6 @@ The records tagging report shows the count the content tagged as a record or non
 Navigate to **Microsoft 365 compliance center > Reports** to view this report.
 
 ## Learn more
-- [Data classification overview](https://docs.microsoft.com/microsoft-365/compliance/data-classification-overview?azure-portal=true)
-- [Get started with content explorer](https://docs.microsoft.com/microsoft-365/compliance/data-classification-content-explorer?azure-portal=true)
-- [Get started with activity explorer](https://docs.microsoft.com/microsoft-365/compliance/data-classification-activity-explorer?azure-portal=true)
+- [Data classification overview](/microsoft-365/compliance/data-classification-overview?azure-portal=true)
+- [Get started with content explorer](/microsoft-365/compliance/data-classification-content-explorer?azure-portal=true)
+- [Get started with activity explorer](/microsoft-365/compliance/data-classification-activity-explorer?azure-portal=true)

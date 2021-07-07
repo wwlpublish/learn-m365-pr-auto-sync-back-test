@@ -7,7 +7,6 @@ This module will introduce you to the modern device management options for Windo
 In this module, you will learn to:
 
 - Describe the available options for device management in Microsoft 365
-
 - Explain how Intune can be used to manage device and user profiles
 
 Moving to a modern management approach can sometimes be a challenging task considering the complexity of planning and switching from existing IT systems, organizational structures, and processes. Most organizations are still using some combination of on-premises Windows Server Active Directory (AD) and System Center Configuration Manager (ConfigMgr) to manage their Windows devices.
@@ -25,11 +24,8 @@ Intune is a cloud-based service that helps enable your workforce to be productiv
 With Intune, you can:
 
 - Manage the mobile devices and PCs your workforce uses to access company data.
-
 - Manage the mobile apps your workforce uses.
-
 - Protect your company information by helping to control the way your workforce accesses and shares it.
-
 - Ensure devices and apps are compliant with company security requirements.
 
 Intune integrates closely with Azure AD for identity and access control, and Azure Information Protection for data protection. You can also integrate it with System Center Configuration Manager to extend your management capabilities.
@@ -38,10 +34,9 @@ In the following diagram, you can see how Intune interacts with other components
 
 ![Diagram of Intune components](../media/md101-3-2-1-3.png)
 
-
-
 ## Learn more
-- [Planning for Mobile Device Management](https://docs.microsoft.com/intune/fundamentals/planning-guide?azure-portal=true)
-- [Configure Mobile Device Management integration with Azure AD](https://docs.microsoft.com/windows/client-management/mdm/azure-active-directory-integration-with-mdm?azure-portal=true) 
-- [Mobile Device Management Authority](https://docs.microsoft.com/intune/fundamentals/mdm-authority-set?azure-portal=true)
-- [Device enrollment restrictions](https://docs.microsoft.com/intune/enrollment/enrollment-restrictions-set?azure-portal=true)
+
+- [Planning for Mobile Device Management](/intune/fundamentals/planning-guide?azure-portal=true)
+- [Configure Mobile Device Management integration with Azure AD](/windows/client-management/mdm/azure-active-directory-integration-with-mdm?azure-portal=true) 
+- [Mobile Device Management Authority](/intune/fundamentals/mdm-authority-set?azure-portal=true)
+- [Device enrollment restrictions](/intune/enrollment/enrollment-restrictions-set?azure-portal=true)

@@ -72,6 +72,6 @@ Choosing **Let me choose specific locations** allows you to not only select the 
 The final step in the process is to review your settings, make any needed updates, and auto-apply the policy. 
 
 ## Learn more
-- [Overview of retention labels](https://docs.microsoft.com/microsoft-365/compliance/labels?azure-portal=true)
-- [Keyword Query Language (KQL) syntax reference](https://docs.microsoft.com/sharepoint/dev/general-development/keyword-query-language-kql-syntax-reference?azure-portal=true)
-- [Getting started with trainable classifiers](https://docs.microsoft.com/microsoft-365/compliance/classifier-getting-started-with?azure-portal=true)
+- [Overview of retention labels](/microsoft-365/compliance/labels?azure-portal=true)
+- [Keyword Query Language (KQL) syntax reference](/sharepoint/dev/general-development/keyword-query-language-kql-syntax-reference?azure-portal=true)
+- [Getting started with trainable classifiers](/microsoft-365/compliance/classifier-getting-started-with?azure-portal=true)

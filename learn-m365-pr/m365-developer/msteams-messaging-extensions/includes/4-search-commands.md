@@ -1,3 +1,5 @@
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4OIvK]
+
 Messaging extension search commands allow your users to search external systems and insert the results of that search into a message in the form of a card.
 
 In this unit, you’ll learn how to execute a messaging extension search command from an existing message.
@@ -21,7 +23,7 @@ To register a search command messaging extension, add it to the `composeExtensio
 ```json
 "composeExtensions": [
   {
-    "botId": "<REPLACE_WITH_MICROSOFT_APP_ID>",
+    "botId": "{{MICROSOFT_APP_ID}}",
     "canUpdateConfiguration": false,
     "commands": [
       {
@@ -51,7 +53,7 @@ If you include the property `initialRun` to `true`, your web service will receiv
 
 ### Respond to the search command
 
-When your search action is invoked, the Bot Framework will send an `Activity` object to your web service of type `composeExtension/query` with the command id that you need to respond to with an object containing a `composeExtension` object within five seconds of receiving the request:
+When your search action is invoked, the Bot Framework will send an `Activity` object to your web service of type `composeExtension/query` with the command ID that you need to respond to with an object containing a `composeExtension` object within five seconds of receiving the request:
 
 ```typescript
 export class PlanetBot extends TeamsActivityHandler {

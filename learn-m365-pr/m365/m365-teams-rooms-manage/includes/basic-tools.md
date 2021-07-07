@@ -20,7 +20,7 @@ If your Teams Rooms is not joined to a domain, you’ll also need to run this co
 Set-item wsman:localhost\client\trustedhosts -value *
 ```
 
-The PowerShell examples shown here are from the [Microsoft Teams Rooms overview page](https://docs.microsoft.com/MicrosoftTeams/rooms?azure-portal=true). As such, only one will be shown to give you the idea of what it looks like.
+The PowerShell examples shown here are from the [Microsoft Teams Rooms overview page](/MicrosoftTeams/rooms?azure-portal=true). As such, only one will be shown to give you the idea of what it looks like.
 
 The output below was generated using the following PowerShell, where you would customize the `Device FQDN` value at the very end:
 
@@ -51,5 +51,5 @@ For making changes on a single Teams Rooms, you can manually copy the file to th
 
 ## Learn more
 
-- [SkypeSettings.xml on Docs](https://docs.microsoft.com/MicrosoftTeams/room-systems/xml-config-file#create-an-xml-configuration-file)
-- [Downloadable template to create your own background](https://docs.microsoft.com/MicrosoftTeams/downloads/ThemingTemplateMicrosoftTeamsRooms_v2.1.psd)
+- [SkypeSettings.xml on Docs](/MicrosoftTeams/room-systems/xml-config-file#create-an-xml-configuration-file)
+- [Downloadable template to create your own background](/MicrosoftTeams/downloads/ThemingTemplateMicrosoftTeamsRooms_v2.1.psd)

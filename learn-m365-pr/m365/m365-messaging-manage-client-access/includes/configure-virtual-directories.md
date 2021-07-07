@@ -12,6 +12,6 @@ To view or configure Outlook on the web virtual directory properties with PowerS
 
 ## Learn more 
  
-- [View or configure Outlook on the web virtual directories in Exchange Server](https://docs.microsoft.com/exchange/clients/outlook-on-the-web/virtual-directories?view=exchserver-2019&azure-portal=true) 
-- [PowerShell Reference Library](https://docs.microsoft.com/powershell/windows/get-started?view=win10-ps&azure-portal=true) 
+- [View or configure Outlook on the web virtual directories in Exchange Server](/exchange/clients/outlook-on-the-web/virtual-directories?azure-portal=true) 
+- [PowerShell Reference Library](/powershell/windows/get-started?azure-portal=true) 
 

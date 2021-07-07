@@ -35,3 +35,53 @@ achievements:
   title: Describe the compliance management capabilities of Microsoft 365
   summary: Describe the compliance management capabilities of Microsoft 365
   iconUrl: /learn/achievements/describe-the-compliance-management-capabilities-of-microsoft-365.svg
+- uid: learn-wwl.modernize-workplace-with-m365-and-surface-v1-1.trophy
+  type: trophy
+  title: Modernize your workplace with Microsoft 365 and Surface for Business
+  summary: Modernize your workplace with Microsoft 365 and Surface for Business
+  iconUrl: /learn/achievements/m365-sfa-learning-path.svg
+- uid: learn-wwl.discover-modern-workplace-solutions-m365-surface-business.badge
+  type: badge
+  title: Discover modern workplace solutions with Microsoft 365 and Surface for Business
+  summary: Discover modern workplace solutions with Microsoft 365 and Surface for Business
+  iconUrl: /learn/achievements/discover-modern-workplace-solutions-m365-surface-business.svg
+- uid: learn-wwl.facilitate-teamwork-with-microsoft-365.badge
+  type: badge
+  title: Facilitate teamwork to achieve more with Microsoft 365
+  summary: Facilitate teamwork to achieve more with Microsoft 365
+  iconUrl: /learn/achievements/facilitate-teamwork-with-microsoft-365.svg
+- uid: learn-wwl.modern-communications-in-microsoft-teams.badge
+  type: badge
+  title: Enable modern communication and collaboration with Microsoft Teams
+  summary: Enable modern communication and collaboration with Microsoft Teams
+  iconUrl: /learn/achievements/modern-communications-in-microsoft-teams.svg
+- uid: learn-wwl.get-more-from-microsoft-365-with-surface-for-business.badge
+  type: badge
+  title: Discover how your organization can achieve more with Surface for Business and Microsoft 365
+  summary: Discover how your organization can achieve more with Surface for Business and Microsoft 365
+  iconUrl: /learn/achievements/get-more-from-microsoft-365-with-surface-for-business.svg
+- uid: learn-wwl.deploy-and-manage-windows-10-and-office-365-proplus.badge
+  type: badge
+  title: Balance IT and user needs with Windows 10 and Microsoft 365 Apps for enterprise
+  summary: Balance IT and user needs with Windows 10 and Microsoft 365 Apps for enterprise
+  iconUrl: /learn/achievements/deploy-and-manage-windows-10-and-office-365-proplus.svg
+- uid: learn-wwl.security-with-microsoft-365.badge
+  type: badge
+  title: Secure your organization with built-in, intelligent security from Microsoft 365
+  summary: Secure your organization with built-in, intelligent security from Microsoft 365
+  iconUrl: /learn/achievements/security-with-microsoft-365.svg
+- uid: learn-wwl.compliance-with-microsoft-365.badge
+  type: badge
+  title: Meet the growing demand for transparency, privacy, and compliance with Microsoft 365
+  summary: Meet the growing demand for transparency, privacy, and compliance with Microsoft 365
+  iconUrl: /learn/achievements/compliance-with-microsoft-365.svg
+- uid: learn.wwl.deliver-the-value-of-modern-workplace-through-business-conversations.badge
+  type: badge
+  title: Deliver the value of modern workplace through business conversations
+  summary: Deliver the value of modern workplace through business conversations
+  iconUrl: /learn/achievements/deliver-value-modern-workplace-through-business-conversations.svg
+- uid: learn-wwl.get-started-with-microsoft-365-using-fasttrack.badge
+  type: badge
+  title: Accelerate deployment and improve adoption of Microsoft 365 with FastTrack
+  summary: Accelerate deployment and improve adoption of Microsoft 365 with FastTrack
+  iconUrl: /learn/achievements/get-started-with-microsoft-365-using-fasttrack.svg

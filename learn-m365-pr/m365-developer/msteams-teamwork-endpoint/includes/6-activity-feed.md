@@ -1,3 +1,5 @@
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4ODbx]
+
 The Microsoft Teams activity feed enables users to see a list of relevant items specific to them. Users can use the activity feed to address changes, notifications, and other alerts in a productive manner.
 
 In this unit, you'll learn how to use Microsoft Graph to submit notifications to the Microsoft Teams activity feed.
@@ -19,7 +21,7 @@ The notification object contains the following components, as shown in the image
 - A time stamp
 - The location of the activity
 
-The activity feed notifications are used to inform a user of something. Microsoft Teams apps can be installed for users, teams, and group chats that means there are three different contexts that your app can send a notification to a user:
+The activity feed notifications are used to inform a user of something. Microsoft Teams apps can be installed for users, teams, and group chats that mean there are three different contexts that your app can send a notification to a user:
 
 - notify a user
 - notify a user in a team
@@ -81,14 +83,14 @@ The activity registration, like the Azure AD app association, is done in the Mic
 }
 ```
 
-Each activity has a `type` property that must be unique in the app's manifest. This is how your API will send consistent notifications to your users. The `templateText` property contains the string that's used to display the alert message. You'll notice this is a parameterized string where your app can to define the parameters. Parameters are indicated with the `{` and `}` characters.
+Each activity has a `type` property that must be unique in the app's manifest. This is how your API will send consistent notifications to your users. The `templateText` property contains the string that's used to display the alert message. You'll notice this is a parameterized string where your app can define the parameters. Parameters are indicated with the `{` and `}` characters.
 
 > [!NOTE]
 > A special parameter, `{actor}`, is always inserted by Microsoft Teams. It represents the name of the caller which is either the user or app that sent the activity feed notification.
 
 ## Sending activity feed notifications
 
-Activity feed notifications are sent to users with the Microsoft Graph's `/teams/{groupId}/sendActivityNotification` beta endpoint using an HTTP POST.
+Activity feed notifications are sent to users with the Microsoft Graph's `/teams/{groupId}/sendActivityNotification`  endpoint using an HTTP POST.
 
 The body of the http request contains the details of the notification. Take the following example HTTP request payload:
 
@@ -96,7 +98,7 @@ The body of the http request contains the details of the notification. Take the 
 {
   "topic": {
     "source": "entityUrl",
-    "value": "https://graph.microsoft.com/beta/teams/{groupId}"
+    "value": "https://graph.microsoft.com/v1.0/teams/{groupId}"
   },
   "activityType": "userMention",
   "previewText": {
@@ -114,7 +116,7 @@ The body of the http request contains the details of the notification. Take the 
 }
 ```
 
-The `topic` object represents the subject of the notification - it specifies the resource being talked about in the notification. This can be either `entityUrl` or `text`. Learn more about the `topic` type: [Microsoft Graph: teamworkActivityTopic resource type](https://docs.microsoft.com/graph/api/resources/teamworkactivitytopic).
+The `topic` object represents the subject of the notification - it specifies the resource being talked about in the notification. This can be either `entityUrl` or `text`. Learn more about the `topic` type: [Microsoft Graph: teamworkActivityTopic resource type](/graph/api/resources/teamworkactivitytopic).
 
 The `activity` property must match one of the activities listed in the Microsoft Teams app's manifest file.
 

@@ -10,7 +10,7 @@ Other detection tools in Microsoft 365 include network-based and host-based intr
 
 ## Escalation and investigation
 
-When a potential incident is detected, is it escalated with a preliminary severity rating to the Microsoft 365 Security Response team, which serves as the key orchestrator of the security incident response process. The Microsoft 365 Security Response team is responsible for analyzing the detection indicators to determine whether a security incident has occurred and to adjust its severity level if needed. If at any point the team discovers that customer data has been disclosed, modified, or destroyed, the team initiates the customer security notification process.
+When a potential incident is detected, it is escalated with a preliminary severity rating to the Microsoft 365 Security Response team, which serves as the key orchestrator of the security incident response process. The Microsoft 365 Security Response team is responsible for analyzing the detection indicators to determine whether a security incident has occurred and to adjust its severity level if needed. If at any point the team discovers that customer data has been disclosed, modified, or destroyed, the team initiates the customer security notification process.
 
 At the beginning of the investigation, the Microsoft 365 Security Response team records all information relevant to the incident. The team continues to update this information throughout the incident response process. Relevant information may include:
 
@@ -23,3 +23,7 @@ At the beginning of the investigation, the Microsoft 365 Security Response team 
 - Recommended next steps and actions
 
 When a potential security incident is escalated, the corresponding investigation team includes only personnel who are critical to the investigation. Non-Microsoft full-time employees, such as subprocessors or staff augmentation, are disengaged. These personnel are only re-engaged if necessary and in a capacity with limited scope.
+
+## Learn more
+
+- [Microsoft 365 security incident management: Detection and analysis](/compliance/assurance/assurance-sim-detection-analysis?azure-portal=true)

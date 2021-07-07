@@ -3,7 +3,7 @@ In this exercise, you'll create a new SharePoint Framework project with a single
 ## Create the SharePoint Framework solution
 
 > [!IMPORTANT]
-> The instructions below assume you are using v1.11.0 of the SharePoint Framework Yeoman generator.
+> The instructions below assume you are using v1.12.1 of the SharePoint Framework Yeoman generator.
 
 Open a command prompt and change to the folder where you want to create the project. Run the SharePoint Yeoman generator by executing the following command:
 

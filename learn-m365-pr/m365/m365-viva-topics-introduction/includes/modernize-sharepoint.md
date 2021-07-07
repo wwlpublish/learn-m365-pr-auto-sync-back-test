@@ -1,6 +1,6 @@
 Viva Topics requires Modern SharePoint* to benefit from Viva Topics features. Viva Topics discovers files and pages stored in modern or classic sites. However, topic highlights will only appear on Modern SharePoint pages or where a classic site has modern pages added to feature topic highlights.  
 
-For example, an employee could be reading a news post in Modern SharePoint and comes across unfamiliar terminology. While reading about it, topic highlights provide additional insights to learn more about the content and who the experts in the organization. Then the employee opens the topic highlights to understand more and contact the experts. Making content easily and readily available when consuming content can reveal employee engagement with likes and comments at the new post's bottom. 
+For example, an employee could be reading a news post in Modern SharePoint and comes across unfamiliar terminology. While they're reading, they see topic highlights that provide additional insights about the content and identify any experts about the topic in the organization. Making content easily and readily available when consuming content can reveal employee engagement with likes and comments at the new post's bottom. 
 
 If you are the expert on the topic highlights, you can contribute and edit Viva Topics content in Modern SharePoint, a way to demonstrate value in the organization. If your organization decides to allow all users to be contributors, this will help them feel empowered; they can contribute and author their knowledge to get the most value. You can still limit certain topics for select groups even with settings enabled for everyone in an organization.   
 
@@ -29,4 +29,4 @@ Before you create a modern page, you should activate the Site Pages feature on y
    2. In site pages library, select **Files**, and then select **New Document**. 
    3. Select **Site page**. 
    4. Select the new page to navigate to the modern site page. 
-   5. Provide a name for the page, select **Save**, and then close the page. 
+   5. Provide a name for the page, select **Save**, and then close the page.

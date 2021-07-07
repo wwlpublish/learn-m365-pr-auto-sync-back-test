@@ -1,7 +1,7 @@
 In this exercise, you'll create a SharePoint Framework (SPFx) field customizer extension that will display a colored bar in a column with a percentage of the bar filled depending on the value in the field.
 
 > [!IMPORTANT]
-> The instructions below assume you are using v1.11.0 of the SharePoint Framework Yeoman generator.
+> The instructions below assume you are using v1.12.1 of the SharePoint Framework Yeoman generator.
 
 Open a command prompt and change to the folder where you want to create the project.
 
