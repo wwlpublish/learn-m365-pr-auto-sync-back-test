@@ -8,7 +8,7 @@ For first time meeting attendees, watch this video to learn how to join from Out
 
 ## Live event attendee experience
 
-Teams Live Events are designed to support larger audiences so the attendee experience is different from a standard Teams meeting. The live event attendee experience includes pause and play controls, Closed Captioning if it’s been enabled for the event, as well as a Q&A window to ask and view questions.
+Teams Live Events are designed to support larger audiences so the attendee experience is different from a standard Teams meeting. The live event attendee experience includes pause and play controls, Closed Captioning if it's been enabled for the event, as well as a Q&A window to ask and view questions.
 
 :::image type="content" source="../media/live-event-user-experience.png" alt-text="Using attendee controls in a Teams live event.":::
 
@@ -18,7 +18,7 @@ Captions can help hearing impaired attendees or people in noisy environments. To
 
 ## Attend a Teams meeting
 
-Teams meetings are for smaller audiences with full interactivity between the attendees and the speaker. Here you’ll review the settings and tools available in a Teams meeting.
+Teams meetings are for smaller audiences with full interactivity between the attendees and the speaker. Here you'll review the settings and tools available in a Teams meeting.
 
 Before you join the meeting, you'll see this screen, where you can set up your experience:
 
@@ -30,7 +30,7 @@ The tools include:
 1. A switch to mute or unmute your microphone.
 1. Device settings. Use this tool to select the right speakers, microphone, and camera.
 1. The **Join now** button joins you to the meeting.
-1. The **Audio off** option is useful when you’re joining from a room where there is already an active mic and speaker.
+1. The **Audio off** option is useful when you're joining from a room where there is already an active mic and speaker.
 1. The **Phone audio** option enables you to join the meeting audio by using a mobile device or fixed line telephone.
 1. The **Add a room** option allows you to add a conference room to the meeting audio.
 

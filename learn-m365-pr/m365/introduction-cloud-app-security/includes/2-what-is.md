@@ -31,7 +31,7 @@ Cloud App Security acts as a Cloud Access Security Broker (CASB). You use CASBs 
 - help protect against malicious hackers
 - assess the compliance of your cloud services
 
-By implementing Cloud App Security, you get a better understanding of what’s happening within your organization’s IT infrastructure; this helps you to protect your sensitive data from malicious persons. This protection is based on four key pillars:
+By implementing Cloud App Security, you get a better understanding of what's happening within your organization's IT infrastructure; this helps you to protect your sensitive data from malicious persons. This protection is based on four key pillars:
 
 - Visibility:
   - Detect connected cloud services
@@ -64,7 +64,6 @@ In the following diagram, Cloud App Security sites as an intermediary layer betw
 > You can use Cloud App Security to sanction or un-sanction apps by using the Cloud app catalog.
 
 :::image type="content" source="../media/proxy-architecture.png" alt-text="A diagram that describes the role of Cloud App Security architecture as detailed in the preceding text.":::
-
 
 ### Discovery capabilities of Cloud App Security versus Azure Active Directory
 
