@@ -51,7 +51,7 @@ There are three options to choose the type of content you want to apply this lab
 
 ## Step 3: Settings
 
-This step is only valid when the option selected in the choose conditions step is **Apply label that contains sensitive info**. You can use it to modify the conditions for the sensitive info types already selected, add new sensitive info types, and specify more advanced conditions like instance count and match accuracy thresholds. For example, content with a single instance of personal information may justify a different retention period than content with 1000 instances of PII. Conditions can also be grouped and you can use and/or logic to link them.
+This step is only valid when the option selected in the choose conditions step is **Apply label that contains sensitive info**. You can use it to modify the conditions for the sensitive info types already selected, add new sensitive info types, and specify more advanced conditions like instance count and match accuracy thresholds. For example, content with a single instance of personal information may justify a different retention period than content with 1000 instances of personal information. Conditions can also be grouped and you can use and/or logic to link them.
 
 ## Step 4: Name your policy
 
