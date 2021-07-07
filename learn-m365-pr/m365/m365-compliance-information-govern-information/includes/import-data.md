@@ -1,6 +1,6 @@
 ## PST file import
 
-Some customers have a significant amout of email stored in PST files that needs to be governed. You can use the import service to bulk-import PST files to Exchange Online mailboxes in your Office 365 organization. You can then use retention policies to control how long mailbox content is retained and delete content after the retention period expires.
+Some customers have a significant amount of email stored in PST files that needs to be governed. You can use the import service to bulk-import PST files to Exchange Online mailboxes in your Office 365 organization. You can then use retention policies to control how long mailbox content is retained and delete content after the retention period expires.
 
 There are two ways you can import PST files to Office 365: network upload and drive shipping.
 
