@@ -1,4 +1,4 @@
-The Microsoft 365 data classification solution is a great place to start understanding what sensitive information might need to be protected. 
+The Microsoft 365 data classification solution is a great place to start understanding what sensitive information might need to be protected.
 
 Content explorer identifies the email and documents in your organization that contain sensitive information. The image below shows a list of all the sensitive information content explorer identified in SharePoint, OneDrive, and Exchange. Content explorer uses the built-in sensitive info types included in Microsoft 365 compliance and any custom sensitive info types you define to identify the content. If only using built-in sensitive info types, no configuration is needed to allow you to understand the data you might want to protect. The highlighted items are the three sensitive information types that informed the creation of the U.K. Financial Data DLP policy we will be using in our examples.
 
@@ -9,5 +9,6 @@ Activity explorer, shown in the image below, includes information on activity re
 :::image type="content" source="../media/activity-explorer.png" alt-text="A screenshot shows the activity explorer window, with a bar chart that maps the activities during a set time period.":::
 
 ## Learn more
+
 - [Get started with content explorer](/microsoft-365/compliance/data-classification-content-explorer)
 - [Get started with activity explorer](/microsoft-365/compliance/data-classification-activity-explorer)
