@@ -4,7 +4,7 @@ The Azure Information Protection client, released in 2016, was the first Microso
 
 Microsoft introduced Office 365 retention labels in 2017 as part of the Advanced Data Governance offering, which focused on helping organizations find and retain information important to the organization and deleting information that was not.
 
-Based on customer feedback, the decision was made to integrate Azure Information Protection labeling capabilities more tightly into Microsoft 365 and other Microsoft services and also allow provide a way for other software vendors to incorporate Microsoft’s information protection and governance functionality into their products. The bringing together of the complementary capabilities of Azure Information Protection and the governance capabilities of Advanced Data Governance have become Microsoft’s solutions for information protection and governance.
+Based on customer feedback, the decision was made to integrate Azure Information Protection labeling capabilities more tightly into Microsoft 365 and other Microsoft services and also allow provide a way for other software vendors to incorporate Microsoft's information protection and governance functionality into their products. The bringing together of the complementary capabilities of Azure Information Protection and the governance capabilities of Advanced Data Governance have become Microsoft's solutions for information protection and governance.
 
 The following changes were needed to make that decision a reality.
 
@@ -21,7 +21,7 @@ Microsoft recommends organizations plan for the transition to the new informatio
 - **Built-in Office client**. Windows users running Microsoft 365 Apps for enterprise (formerly known as Office 365 ProPlus) version 1910 or higher on Windows may not need to install an Office Add-in. Unified labeling support is built into the client.
 - **Unified experience**. The same sensitivity labels can be used across Microsoft 365 applications and services. Sensitivity label capabilities can also be extended into other applications from Microsoft and third parties. Examples include the sensitivity label integration added to Microsoft Power BI and the work Adobe has done to support the framework in PDF documents.
 - **Innovation**. All future innovation and development will use the Microsoft Information Protection framework.
- 
+
 ## Learn more
 
 - [Microsoft Information Protection (MIP) SDK setup and configuration](/information-protection/develop/setup-configure-mip?azure-portal=true)
