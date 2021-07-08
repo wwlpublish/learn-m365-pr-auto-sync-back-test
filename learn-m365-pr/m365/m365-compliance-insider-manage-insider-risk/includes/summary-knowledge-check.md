@@ -1,4 +1,4 @@
-Insider threats and risks from illegal, inappropriate, unauthorized, or unethical behavior and actions are a major issue for all companies and can easily go undetected until it is too late. From IP theft to data leaks to many other scenarios, protecting the data within an organization from inadvertent or malicious actions is paramount for any organization. Microsoft’s insider risk management policies can help organizations minimize threats while achieving the right balance between keeping their data protected and their people productive. 
+Insider threats and risks from illegal, inappropriate, unauthorized, or unethical behavior and actions are a major issue for all companies and can easily go undetected until it is too late. From IP theft to data leaks to many other scenarios, protecting the data within an organization from inadvertent or malicious actions is paramount for any organization. Microsoft's insider risk management policies can help organizations minimize threats while achieving the right balance between keeping their data protected and their people productive.
 
 Now that you have completed this module, you should be able to:
 
