@@ -82,6 +82,6 @@ After alerts are generated, Contoso compliance specialists will be able to inves
 
 ## Learn more
 
-- [Enable permissions for communication compliance ](/microsoft-365/compliance/communication-compliance-configure?step-1-required-enable-permissions-for-communication-compliance?azure-portal=true)
-- [Turn audit log search on or off ](/microsoft-365/compliance/turn-audit-log-search-on-or-off?azure-portal=true)
-- [Configure communication compliance in Microsoft 365 ](/microsoft-365/compliance/communication-compliance-configure?azure-portal=true)
+- [Enable permissions for communication compliance](/microsoft-365/compliance/communication-compliance-configure?step-1-required-enable-permissions-for-communication-compliance?azure-portal=true)
+- [Turn audit log search on or off](/microsoft-365/compliance/turn-audit-log-search-on-or-off?azure-portal=true)
+- [Configure communication compliance in Microsoft 365](/microsoft-365/compliance/communication-compliance-configure?azure-portal=true)
