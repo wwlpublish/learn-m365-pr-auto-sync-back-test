@@ -4,8 +4,8 @@ Power Apps provides a simple user interface so that every business user or profe
 
 After completing this module, you'll be able to:
 
- *  Describe the features and functionality of Power Apps, including its business impact and primary components.
- *  Manage the Power Apps environment in the Power Apps admin center and with Windows PowerShell.
- *  Describe how Power Apps connects to data sources.
- *  Create, test, and monitor a canvas Power App.
- *  Run canvas and mobile Power Apps.
+ -  Describe the features and functionality of Power Apps, including its business impact and primary components.
+ -  Manage the Power Apps environment in the Power Apps admin center and with Windows PowerShell.
+ -  Describe how Power Apps connects to data sources.
+ -  Create, test, and monitor a canvas Power App.
+ -  Run canvas and mobile Power Apps.
