@@ -96,11 +96,11 @@ After an approval request is submitted, users can view the status of their reque
 
 When an approval request is created, members of the approver group receive an email notification similar to the one below:  
 
-   ![notification](../media/notification.png)
+   ![A notification window that says "Access request is pending your action."](../media/notification.png)
 
 Members of the approver group can either approve or deny the request in the Microsoft 365 admin center by navigating to **Settings** > **Security & Privacy** > **Privileged access** and selecting the **Manage access policies and requests** link to view the list of pending requests. Selecting a request opens the **Request details** page for that request and the approver can either select **Approve** or **Deny**.
 
-![Approve-deny](../media/approve-deny.png)
+![A dialog box with the options "Approve" or "Deny".](../media/approve-deny.png)
 
 The requestor is subsequently notified of the request approval or denial via email.  
   
