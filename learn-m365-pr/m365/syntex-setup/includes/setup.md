@@ -79,7 +79,7 @@ To assign licenses, return to the Microsoft 365 admin center.
 
 - Click **Save changes**.
 
-You have successfully set up and activated your first SharePoint Syntex environment. To create a content center dedicated to the Human Resources deparment, or when Contoso decides to rollout SharePoint Syntex to other departments, you'll need return to the SharePoint admin center to add more sites:
+You have successfully set up and activated your first SharePoint Syntex environment. To create a content center dedicated to the Human Resources department, or when Contoso decides to rollout SharePoint Syntex to other departments, you'll need return to the SharePoint admin center to add more sites:
 
 - Navigate to the **Active sites** page
 - Click **Create**
