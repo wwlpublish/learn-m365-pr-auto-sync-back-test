@@ -1,4 +1,4 @@
-The Configuration Manager connector provides details about your Configuration Mananager implementation. From the Microsoft Endpoint Manager admin center, you can review details about the Configuration Manager connector, such as the last successful synchronization time and the connection status. 
+The Configuration Manager connector provides details about your Configuration Manager implementation. From the Microsoft Endpoint Manager admin center, you can review details about the Configuration Manager connector, such as the last successful synchronization time and the connection status. 
 
 To display the Configuration Manager connector status:
 
