@@ -2,10 +2,10 @@ In this module, you learned about Exchange Online, which is part of the Microsof
 
 Exchange Online standardizes each of these features in its everyday use; they're also backed by a Microsoft service level agreement (SLA) with its customers. This module examined several of these key features, including:
 
- *  Creating and managing recipients
- *  Managing anti-malware and anti-spam policies
- *  Managing disaster recovery needs
- *  Planning migration strategies
+ -  Creating and managing recipients
+ -  Managing anti-malware and anti-spam policies
+ -  Managing disaster recovery needs
+ -  Planning migration strategies
 
 You learned that Exchange Online uses several anti-spam technologies to minimize incoming spam messages. It scans incoming messages and stores the results in the Anti-spam Message Headers that are part of every SMTP message. Additionally, it saves the spam confidence level (SCL) as part of this header; the SCL includes the likeliness that the message is spam.
 
