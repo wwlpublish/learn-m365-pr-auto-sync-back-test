@@ -12,7 +12,7 @@ NDI makes it easier to connect cameras and other devices for mixing. Instead of 
 
 :::image type="content" source="../media/network-device-interface-producer.png" alt-text="The meeting producer arranges video streams from multiple sources into a more interesting visual presentation.":::
 
-Teams supports NDI and generates several NDI video streams that you can mix on the same computer or another device over the network to create more engaging content. For example, you can mix two presenters’ videos onto a custom layout to simulate a fireside chat.
+Teams supports NDI and generates several NDI video streams that you can mix on the same computer or another device over the network to create more engaging content. For example, you can mix two presenters' videos onto a custom layout to simulate a fireside chat.
 
 ## Enable NDI in Teams
 

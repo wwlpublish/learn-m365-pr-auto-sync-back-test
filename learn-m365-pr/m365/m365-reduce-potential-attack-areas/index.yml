@@ -6,7 +6,7 @@ metadata:
   description: Learn how to reduce potential attack surfaces across your environment with Microsoft Defender for Endpoint through capabilities such as application control, network protection, hardware-based isolation, controlled folder access, and web protection.
   ms.date: 05/04/2021
   author: alistairmatthews
-  ms.author: v-alimat
+  ms.author: beccarobins
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Reduce potential attack areas with Microsoft Defender for Endpoint
