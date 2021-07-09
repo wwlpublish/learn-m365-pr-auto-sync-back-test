@@ -3,15 +3,15 @@ Organizations must ensure that access to their company data on Microsoft 365 is 
  -  changing passwords at specified intervals
  -  creating complex passwords
  -  resetting their own passwords
- -  signing in with multi-factor authentication
+ -  signing in with multifactor authentication
 
-In this module, you'll learn about these various password-related tasks.<br>
+In this module, you'll learn about these various password-related tasks.
 
 After completing this module, you'll be able to:
 
  -  Manage user passwords
  -  Describe pass-through authentication
- -  Enable multi-factor authentication
+ -  Enable multifactor authentication
  -  Describe self-service password management
  -  Implement Azure AD Smart Lockout
  -  Create and complete an access review

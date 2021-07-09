@@ -9,12 +9,12 @@ metadata:
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Explore password management in Microsoft 365
-summary: This module examines various password-related tasks for user and admin accounts including creating and configuring password policies, configuring self-service password management, and configuring multi-factor authentication.
+summary: This module examines various password-related tasks for user and admin accounts including creating and configuring password policies, configuring self-service password management, and configuring multifactor authentication.
 abstract: |
   By the end of this module, you will be able to:
   - Manage user passwords
   - Describe pass-through authentication
-  - Enable multi-factor authentication
+  - Enable multifactor authentication
   - Describe self-service password management
   - Implement Azure AD Smart Lockout
   - Create and perform an access review
