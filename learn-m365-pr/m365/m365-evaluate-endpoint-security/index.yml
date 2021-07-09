@@ -6,7 +6,7 @@ metadata:
   description: Learn about the different capabilities that you can use to evaluate endpoint security using Microsoft Defender for Endpoint, including the evaluation lab, the simulation gallery, the different types of attack simulation scenarios, and more.
   ms.date: 05/28/2021
   author: iankensey
-  ms.author: v-iakens
+  ms.author: beccarobins
   ms.topic: interactive-tutorial 
   ms.prod: learning-m365
 title: Evaluate endpoint security in Microsoft Defender for Endpoint
