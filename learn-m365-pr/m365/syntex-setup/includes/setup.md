@@ -1,9 +1,9 @@
 You have decided to set up and activate SharePoint Syntex for the Human Resources department at Contoso, which has has several large libraries of documents and forms that have become harder and harder to locate. You begin setting up SharePoint Syntex by navigating to Contoso Electronics' Microsoft 365 admin center. You follow the steps listed below:
 
-- Select **Setup**.
-- Navigate to the **Files and content** section.  
-- Select **Automate content and understanding**.
-- Click **Get started**.
+1. Select **Setup**.
+1.  Navigate to the **Files and content** section.  
+1.  Select **Automate content and understanding**.
+1.  Click **Get started**.
 
 ![A screenshot of the Automate content understanding page with Get started and the AI Builder credits highlighted for reference.](../media/automate-content-understanding.png)
 
@@ -55,12 +55,12 @@ In this step, the _default_ content center is created. A content center is the m
 
 ## Review and finish
 
-- On the **Review and finish** page, look over the selected settings.
-- Make any necessary changes.
-- Select **Activate**.
-- Click **Done** on the confirmation page.
-- The form returns to the **Automate content understanding** page.
-- Select **Manage** to make configuration changes if necessary.
+1. On the **Review and finish** page, look over the selected settings.
+1. Make any necessary changes.
+1. Select **Activate**.
+1. Click **Done** on the confirmation page.
+1. The form returns to the **Automate content understanding** page.
+1. Select **Manage** to make configuration changes if necessary.
 
 ## Assign licenses
 
@@ -68,23 +68,23 @@ Finally, you will assign licenses to everyone who will use any SharePoint Syntex
 
 To assign licenses, return to the Microsoft 365 admin center.
 
-- Under **Users**, click **Active users**.
-- Choose the users to license.
-- Select **Manage product licenses**.
-- Choose **Apps** from the drop-down menu.
-- Select **Show apps for SharePoint Syntex**.
-  - Under **Apps**, select _all three_ license types: **Common Data Service for SharePoint Syntex**, **SharePoint Syntex**, and **SharePoint Syntex - SPO type**.
+1. Under **Users**, click **Active users**.
+1. Choose the users to license.
+1. Select **Manage product licenses**.
+1. Choose **Apps** from the drop-down menu.
+1. Select **Show apps for SharePoint Syntex**.
+1. Under **Apps**, select _all three_ license types: **Common Data Service for SharePoint Syntex**, **SharePoint Syntex**, and **SharePoint Syntex - SPO type**.
 
-![A screenshot of the licensing window with all options selected.](../media/licenses.png)
+    ![A screenshot of the licensing window with all options selected.](../media/licenses.png)
 
-- Click **Save changes**.
+1. Click **Save changes**.
 
 You have successfully set up and activated your first SharePoint Syntex environment. To create a content center dedicated to the Human Resources department, or when Contoso decides to rollout SharePoint Syntex to other departments, you'll need return to the SharePoint admin center to add more sites:
 
-- Navigate to the **Active sites** page
-- Click **Create**
-- Select **Other options**
-- Create a new content center following the same steps as the default content center.
+1. Navigate to the **Active sites** page
+1. Click **Create**
+1. Select **Other options**
+1. Create a new content center following the same steps as the default content center.
 
 <br>
 
