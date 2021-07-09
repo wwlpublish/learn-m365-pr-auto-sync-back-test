@@ -1,4 +1,4 @@
-This module introduced you to Power Virtual Agents, which is a recently introduced product that forms the final product pillar of the Power Platform. Power Virtual Agents enables teams to easily create powerful chatbots using a guided, no-code graphical interface without the need for data scientists or developers.
+This module introduced you to Power Virtual Agents, which is a recently introduced product that forms the final product pillar of the Microsoft Power Platform. Power Virtual Agents enables teams to easily create powerful chatbots using a guided, no-code graphical interface without the need for data scientists or developers.
 
 Power Virtual Agents lets you create powerful chatbots. These bots can answer questions posed by your customers, other employees, or visitors to your website or service. These bots can be created easily without the need for data scientists or developers.
 
