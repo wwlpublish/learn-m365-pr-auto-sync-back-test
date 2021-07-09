@@ -14,8 +14,6 @@ abstract: |
  After completing this module, you will be able to: 
  - Check the prerequisites for setting up and using SharePoint Syntex.
  - Understand licensing, AI Builder credits, and requirements for SharePoint Syntex.
- - Contribute to activating SharePoint Syntex document understanding.
- - Offer input on enabling SharePoint Syntex form processing.
 prerequisites: | 
    - Basic understanding of SharePoint Syntex 
    - SharePoint administrative access

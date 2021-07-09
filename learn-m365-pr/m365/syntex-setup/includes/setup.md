@@ -1,9 +1,9 @@
-You have decided to set up and activate SharePoint Syntex for the Human Resources department at Contoso, which has has several large libraries of documents and forms that have become harder and harder to locate. You begin setting up SharePoint Syntex by navigating to Contoso Electronics' Microsoft 365 admin center. You follow the steps listed below:
+Contoso has decided to set up and activate SharePoint Syntex for the Human Resources department, which has several large libraries of documents and forms that have become harder and harder to locate. You begin setting up SharePoint Syntex by navigating to Contoso Electronics' Microsoft 365 admin center and following the steps listed below:
 
 1. Select **Setup**.
-1.  Navigate to the **Files and content** section.  
-1.  Select **Automate content and understanding**.
-1.  Click **Get started**.
+1. Navigate to the **Files and content** section.  
+1. Select **Automate content and understanding**.
+1. Select **Get started**.
 
 ![A screenshot of the Automate content understanding page with Get started and the AI Builder credits highlighted for reference.](../media/automate-content-understanding.png)
 
@@ -26,7 +26,7 @@ You have decided to set up and activate SharePoint Syntex for the Human Resource
 
 ### Power Platform
 
-If you have more than one Power Platform environment configured, you can pick which one you want to use for form processing. _This option does not appear if you have a single environment configured._
+If you have more than one Power Platform environment setup, you can pick which one you want to use for form processing. _This option does not appear if you have a single environment configured._
 
 For **Power Platform**, you can select:
 
@@ -35,7 +35,7 @@ For **Power Platform**, you can select:
 
 ![A screenshot of the Power Platform environment window showing the options that exist if more than one Power Platform environment exists.](../media/power-platform.png)
 
-- Click **Next**.
+- Select **Next**.
 
 ## Create the content center
 
@@ -44,7 +44,7 @@ In this step, the _default_ content center is created. A content center is the m
 - In the **Create a content center** page, you create a SharePoint content center site where users can create and manage document understanding models.
   - For **Site name**, type in the name of your _default_ content center.
   - The **Site address** shows the URL for the site, based on what was selected for the site name.
-  - To change the name, click **Edit**.
+  - To change the name, select **Edit**.
 
 ![A screenshot of the Create a content center window with the Content center name box highlighted.](../media/create-content-center.png)
 
@@ -58,7 +58,7 @@ In this step, the _default_ content center is created. A content center is the m
 1. On the **Review and finish** page, look over the selected settings.
 1. Make any necessary changes.
 1. Select **Activate**.
-1. Click **Done** on the confirmation page.
+1. Select **Done** on the confirmation page.
 1. The form returns to the **Automate content understanding** page.
 1. Select **Manage** to make configuration changes if necessary.
 
@@ -68,7 +68,7 @@ Finally, you will assign licenses to everyone who will use any SharePoint Syntex
 
 To assign licenses, return to the Microsoft 365 admin center.
 
-1. Under **Users**, click **Active users**.
+1. Under **Users**, select **Active users**.
 1. Choose the users to license.
 1. Select **Manage product licenses**.
 1. Choose **Apps** from the drop-down menu.
@@ -77,12 +77,12 @@ To assign licenses, return to the Microsoft 365 admin center.
 
     ![A screenshot of the licensing window with all options selected.](../media/licenses.png)
 
-1. Click **Save changes**.
+1. Select **Save changes**.
 
-You have successfully set up and activated your first SharePoint Syntex environment. To create a content center dedicated to the Human Resources department, or when Contoso decides to rollout SharePoint Syntex to other departments, you'll need return to the SharePoint admin center to add more sites:
+You have successfully set up and activated your first SharePoint Syntex environment. To create a content center dedicated to the Human Resources department, or when Contoso decides to roll out SharePoint Syntex to other departments, you'll need return to the SharePoint admin center to add more sites:
 
 1. Navigate to the **Active sites** page
-1. Click **Create**
+1. Select **Create**
 1. Select **Other options**
 1. Create a new content center following the same steps as the default content center.
 
