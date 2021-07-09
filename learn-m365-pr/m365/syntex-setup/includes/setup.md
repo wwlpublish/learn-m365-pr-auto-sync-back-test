@@ -88,7 +88,7 @@ You have successfully set up and activated your first SharePoint Syntex environm
 
 <br>
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4CPSF]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4CPSF]
 
 ## Learn more
 
