@@ -1,4 +1,5 @@
 In the previous module of this Learning Path, we discussed in detail the first two steps of the Azure Migrate option for migrating your VMware infrastructure to Azure. In this module, we cover the next two steps:
+
 1. Set up prerequisites and ensure both environments have the needed permissions.
 1. Set up an Azure Migrate project, including the tools for assessment and migration.
 1. Download a virtual machine appliance and deploy it in VMware environment to discover virtual machines and dependencies.
@@ -9,5 +10,3 @@ In the previous module of this Learning Path, we discussed in detail the first t
 
 >
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4sVXi]
-
-> 

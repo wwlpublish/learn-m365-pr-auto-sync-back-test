@@ -1,4 +1,4 @@
-As a member of the security team of your organization, you’re aware that some attacks don’t need to use executable files to compromise devices.  You want to find out how Microsoft Defender for Endpoint can help you to detect and mitigate these attacks.
+As a member of the security team of your organization, you're aware that some attacks don't need to use executable files to compromise devices.  You want to find out how Microsoft Defender for Endpoint can help you to detect and mitigate these attacks.
 
 Here, you'll learn how behavioral blocking and containment can block attacks both before they start and also while they execute by examining their behavior.
 
@@ -7,7 +7,7 @@ Here, you'll learn how behavioral blocking and containment can block attacks bot
 Antivirus software in your organization might not be able to pick up on some threats, such as:
 
 - **Fileless malware**. This term has a broad meaning, and includes both those attacks that don't store or use files on your filesystem at all and also those attacks that may use a file in one or more stages of the complete exploit. Fileless malware is categorized into three types:
-- 
+
   - **Type 1:** Fully fileless malware, which never needs to write a file to your disk. Malware may infect memory, firmware, or a peripheral USB device. Most antivirus products can't scan these locations.
   - **Type 2:** Indirect file activity. Malware of this type installs files on your filesystem indirectly, for example by using the command line or PowerShell.
   - **Type 3:** Files required to operate. Malware of this type has fileless persistence, but requires files to operate successfully.
@@ -21,7 +21,7 @@ You can use behavioral blocking and containment in Microsoft Defender for Endpoi
 
 ## Use client behavioral blocking
 
-You can use client behavioral blocking to detect suspicious behaviors on your devices, and ensure that suspicious artifacts are blocked, checked, and remediated automatically. You’ll find information about suspicious actions in in Microsoft Defender for Endpoint under EDR for analysis, and to help detect similar attacks on other devices. This technique allows you to take advantage of machine learning in the cloud, which can differentiate between malicious sequences of actions and legitimate operations in milliseconds. And it allows you to ensure that bad actors are blocked almost instantaneously.
+You can use client behavioral blocking to detect suspicious behaviors on your devices, and ensure that suspicious artifacts are blocked, checked, and remediated automatically. You'll find information about suspicious actions in in Microsoft Defender for Endpoint under EDR for analysis, and to help detect similar attacks on other devices. This technique allows you to take advantage of machine learning in the cloud, which can differentiate between malicious sequences of actions and legitimate operations in milliseconds. And it allows you to ensure that bad actors are blocked almost instantaneously.
 
 Use client behavioral blocking to stop attacks both before they begin in addition to after they have started. Client behavioral blocking is enabled by default.
 
