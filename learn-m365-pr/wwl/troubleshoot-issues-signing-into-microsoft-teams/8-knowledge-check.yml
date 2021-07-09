@@ -4,7 +4,7 @@ title: Knowledge check
 metadata:
   title: Knowledge check
   description: "Knowledge check"
-  ms.date: 06/29/2021
+  ms.date: 07/09/2021
   author: wwlpublish
   ms.author: cyncarey
   ms.topic: interactive-tutorial
@@ -38,14 +38,6 @@ quiz:
     - content: "Debug."
       isCorrect: true
       explanation: "That's correct. Debug logs show the following data flows: sign-in, connection requests to middle-tier services, and call/conversation details."
-  - content: "An administrator at Contoso is considering whether to enable Guest access or External access. The administrator wants to be able to control which specific users in other organizations can participate in meetings at Contoso. What type of access should they enable?"
-    choices:
-    - content: "Guest access."
-      isCorrect: true
-      explanation: "That's correct. Guest access grants access permission to an individual."
-    - content: "External access."
-      isCorrect: false
-      explanation: "That's incorrect. External access grants access permission to an entire domain."
   - content: "The Contoso administrator wants to use Guest access for Tailspin Toys users, but users from Tailspin Toys have been unable to connect to meetings at Contoso. The administrator has determined that users from Adatum are able to connect to meetings using configured External access settings. The administrator verifies that Guest access is enabled in Contoso and that policy settings are configured to allow guest participation. What else could be the problem?"
     choices:
     - content: "The administrator should verify that the domain for users in Tailspin Toys is added for External access."
