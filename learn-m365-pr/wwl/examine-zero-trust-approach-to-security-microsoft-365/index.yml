@@ -1,14 +1,14 @@
 ### YamlMime:Module
 uid: learn.wwl.examine-zero-trust-approach-to-security-microsoft-365
 metadata:
-  title: Explore the Zero Trust approach to security in Microsoft 365
-  description: "Explore the Zero Trust approach to security in Microsoft 365"
-  ms.date: 04/29/2021
+  title: Explore the Zero Trust security model
+  description: "Explore the Zero Trust security model"
+  ms.date: 07/05/2021
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-title: Explore the Zero Trust approach to security in Microsoft 365
+title: Explore the Zero Trust security model
 summary: This module examines the concepts and principles of the Zero Trust security model, as well as how Microsoft 365 supports it, and how your organization can implement it.
 abstract: |
   By the end of this module, you will be able to:

@@ -1,6 +1,6 @@
-You’ve now learned about automated investigation and remediation. But you also need to know about the tasks you’d carry out to use it properly. For example, how do you keep track and manage automated actions? And how can you find investigation results?
+You've now learned about automated investigation and remediation. But you also need to know about the tasks you'd carry out to use it properly. For example, how do you keep track and manage automated actions? And how can you find investigation results?
 
-Here, you’ll learn how to review investigation results and remediation actions in automated investigation and remediation.
+Here, you'll learn how to review investigation results and remediation actions in automated investigation and remediation.
 
 ## Review remediation actions
 
