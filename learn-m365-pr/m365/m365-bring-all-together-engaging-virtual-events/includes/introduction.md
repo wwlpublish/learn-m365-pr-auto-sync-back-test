@@ -1,4 +1,4 @@
-To ensure all attendees have the best possible experience of a meeting or presentation in Microsoft Teams, the presenters and moderators must prepare carefully and understand the tools they can use. 
+To ensure all attendees have the best possible experience of a meeting or presentation in Microsoft Teams, the presenters and moderators must prepare carefully and understand the tools they can use.
 
 You've planned and created an engaging, inclusive, and accessible virtual event. Now the day has arrived, and the only things left to consider are the presenter, moderator, and attendees experiences. You want to ensure that everyone involved understands their role and the software so that the presentations run smoothly and communicate information well.
 
