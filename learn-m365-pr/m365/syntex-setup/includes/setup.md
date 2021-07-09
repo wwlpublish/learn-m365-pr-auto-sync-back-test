@@ -33,7 +33,7 @@ For **Power Platform**, you can select:
 - **Use the default environment**.
 - **Use a custom environment** to use a custom environment.
 
-![A screenshot of the Power Platform environment window showing the options that exist if more than one Power Platform environment exists.](../media/power-platform.png)
+    ![A screenshot of the Power Platform environment window showing the options that exist if more than one Power Platform environment exists.](../media/power-platform.png)
 
 - Select **Next**.
 
@@ -46,7 +46,7 @@ In this step, the _default_ content center is created. A content center is the m
   - The **Site address** shows the URL for the site, based on what was selected for the site name.
   - To change the name, select **Edit**.
 
-![A screenshot of the Create a content center window with the Content center name box highlighted.](../media/create-content-center.png)
+    ![A screenshot of the Create a content center window with the Content center name box highlighted.](../media/create-content-center.png)
 
 - Select **Next**.
 
