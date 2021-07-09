@@ -15,13 +15,13 @@ Customers that need general purpose and full capabilities of the platform should
     
   :::column-end:::
   :::column:::
-    Per user, per app
+    **Per user, per app**
   :::column-end:::
   :::column:::
-    Per user
+    **Per user**
   :::column-end:::
   :::column:::
-    Seeded Power Apps
+    **Seeded Power Apps**
   :::column-end:::
 :::row-end:::
 :::row:::
@@ -54,4 +54,4 @@ Customers that need general purpose and full capabilities of the platform should
 :::row-end:::
 
 
-**Additional reading.** For more information on pricing and capabilities of standalone plans, see [Microsoft Power Apps and Power Automate Licensing Guide](https://go.microsoft.com/fwlink/?linkid=2085130?azure-portal=true).
+**Additional reading.** For more information on pricing and capabilities of standalone plans, see [Microsoft Power Apps and Power Automate Licensing Guide](https://go.microsoft.com/fwlink/?linkid=2085130?azure-portal=true).<br>
