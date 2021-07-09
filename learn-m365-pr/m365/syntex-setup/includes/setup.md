@@ -33,7 +33,7 @@ For **Power Platform**, you can select:
 - **Use the default environment**.
 - **Use a custom environment** to use a custom environment.
 
-![A screenshot of the Power Platform environment window showing the options that exist if more than one Power Platform environment exists.](../media/powerplatform.png)
+![A screenshot of the Power Platform environment window showing the options that exist if more than one Power Platform environment exists.](../media/power-platform.png)
 
 - Click **Next**.
 
