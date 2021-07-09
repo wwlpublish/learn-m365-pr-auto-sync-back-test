@@ -10,7 +10,7 @@ Microsoft Teams can implement a Microsoft 365 group, a SharePoint Online site (c
 
 Teams also provides a meeting experience built on the next generation, cloud-based infrastructure that's also used by Skype and Skype for Business. This design enables Teams to provide a persistent chat board where informal, real-time conversations can take place. Microsoft's technology investments in this area include Azure-based cloud services for media processing and signaling, H.264 video codec, SILK and Opus audio codec, network resiliency, telemetry, and quality diagnostics.
 
-Microsoft 365 groups use identities stored in Azure Active Directory (AD). As such, all authentication capabilities in Azure AD, such as support for multi-factor authentication (MFA), are readily available for use by Teams.
+Microsoft 365 groups use identities stored in Azure Active Directory (AD). As such, all authentication capabilities in Azure AD, such as support for multifactor authentication (MFA), are readily available for use by Teams.
 
 :::image type="content" source="../media/components-of-microsoft-teams-dd8e3a79.jpg" alt-text="image that shows Microsoft Teams icon in the middle with icons branched out from it that represent all the Microsoft 365 services that are integrated with Teams":::
 
