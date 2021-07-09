@@ -4,3 +4,4 @@ Now that you've completed this module, you should know how to:
 
 - Check the prerequisites for setting up and using SharePoint Syntex.
 - Understand licensing, AI Builder credits, and requirements for SharePoint Syntex.
+- Set up a content center to begin using SharePoint Syntex.
