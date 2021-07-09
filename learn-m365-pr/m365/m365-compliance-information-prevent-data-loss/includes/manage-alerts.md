@@ -13,8 +13,9 @@ The image below shows the body of an email produced and sent to johannal@/<tenan
 When you click **View Alert Details** in the notification, you see the DLP Alerts (preview) view in the compliance center. Select the event that prompted the alert. (You can also get to the alerts by going to **Data loss prevention** > **Alerts (preview).**)
 
 In this case, we see that the event was a file that included a high volume of U.K. financial data was copied to the cloud. While not shown in the image below, the administrator can initiate a workflow to manage each alert to resolution and/or send an email to another user informing them of the DLP policy violation.
- 
+
 :::image type="content" source="../media/alert-event-details.png" alt-text="A screenshot shows the details for an event that prompted a high severity alert.":::
 
 ## Learn more
+
 [Configure and view alerts for DLP policies (preview) | Microsoft Docs](/microsoft-365/compliance/dlp-configure-view-alerts-policies)

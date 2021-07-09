@@ -17,7 +17,7 @@ prerequisites: |
   - Access to a [Microsoft 365 tenant](https://developer.microsoft.com/microsoft-365/dev-program?ocid=MSlearn)
   - [Visual Studio Code](https://code.visualstudio.com/)
   - [Visual Studio Code Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
-iconUrl: /learn/achievements/generic-trophy.svg
+iconUrl: /learn/achievements/m365-msgraph-toolkit.svg
 levels: 
 - beginner
 roles:
