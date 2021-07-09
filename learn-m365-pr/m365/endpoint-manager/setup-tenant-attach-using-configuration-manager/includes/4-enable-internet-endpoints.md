@@ -2,14 +2,14 @@ Some Configuration Manager features rely on internet connectivity for full funct
 
 Configuration Manager uses the following Microsoft URL forwarding services throughout the product:
 
-- https://aka.ms
-- https://go.microsoft.com
-- https://*.manage.microsoft.com
-- https://dc.services.visualstudio.com
+- `https://aka.ms`
+- `https://go.microsoft.com`
+- `https://*.manage.microsoft.com`
+- `https://dc.services.visualstudio.com`
 
 The service connection point makes a long standing outgoing connection to the notification service hosted on `https://*.manage.microsoft.com`. Verify the proxy used for the service connection point doesn't time out outgoing connections too quickly. We recommend 3 minutes for outgoing connections to this internet endpoint.
 
-If your environment has proxy rules to allow only specific certificate revocation lists (CRLs) or online certificate status protocol (OCSP) verification locations, also allow the following CRL and OCSP URLs:
+If your environment has proxy rules to allow only specific certificate revocation lists (CRLs) or online certificate status protocol (OCSP) verification locations, you must also allow the following CRL and OCSP URLs:
 
 - `http://crl3.digicert.com`
 - `http://crl4.digicert.com`

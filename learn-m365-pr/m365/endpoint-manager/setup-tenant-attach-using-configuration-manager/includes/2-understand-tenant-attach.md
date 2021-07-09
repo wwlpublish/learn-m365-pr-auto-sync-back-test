@@ -5,7 +5,7 @@ There are two steps to cloud attach your on-premises devices. The first step of 
 > [!TIP]
 > **Cloud attach** consists of **tenant attach** plus **co-management**.
 
-Tenant attach is the first of two steps when implementing cloud-attach. It allows you to recognize your Configuration Manager devices and infrastructure by the Intune cloud service and take actions from Microsoft Endpoint Manager. Your tenant is where you manage your end user's devices and apps via the cloud. 
+Tenant attach allows you to recognize your Configuration Manager devices and infrastructure by the Intune cloud service and take actions from Microsoft Endpoint Manager. Your tenant is where you manage your end user's devices and apps via the cloud.
 
 > [!NOTE]
 > Your tenant is a dedicated instance of Azure Active Directory (Azure AD) where your subscription to Intune is hosted and where your on-premises devices can be linked and managed. Your organization receives this tenant at the beginning of your Azure relationship with Microsoft.
