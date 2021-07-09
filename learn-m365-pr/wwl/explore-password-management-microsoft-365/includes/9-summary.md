@@ -2,10 +2,10 @@ This module focused on configuring secure password policies, which is one of the
 
 You learned that Microsoft 365 includes various password management features that are maintained through password policies. Password policies require users to complete actions that increase password protection. These tasks can include:
 
- *  changing passwords at specified intervals
- *  creating complex passwords
- *  resetting their own passwords
- *  signing in with multi-factor authentication
+ -  changing passwords at specified intervals
+ -  creating complex passwords
+ -  resetting their own passwords
+ -  signing in with multi-factor authentication
 
 This module also examined how pass-through authentication simplifies user authentication for organizations with a hybrid Microsoft 365 deployment. Until recently, deployment and management of the locally deployed AD FS infrastructure was often too demanding and too complex for some organizations. However, Azure AD pass-through authentication helps ensure that password validation for services that rely on Azure AD is always run against an on-premises Active Directory.
 
