@@ -1,4 +1,4 @@
-Your organization must prepare the correct disaster recovery protection to avoid a datacenter failure or a regional outage. Setting the correct protection strategy depends primarily on different failure scenarios that might affect your Azure Virtual Desktop's functionality.
+Your organization must prepare the correct disaster recovery protection to limit the impact of a datacenter failure or a regional outage. Setting the correct protection strategy depends primarily on different failure scenarios that might affect your Azure Virtual Desktop's functionality.
 
 ## Objectives and metrics
 
@@ -76,7 +76,7 @@ The Azure Virtual Desktop service remains fully functional and isn't affected by
 
 ### AD DS and Azure AD DS
 
-To prepare for this type of failure, you should replicate domain controllers to another region using Azure Site Recovery. This creates a virtual network in your secondary region, preserves the primary network's settings, and doesn't require peering between networks.
+To prepare for this type of failure, you can expand a managed domain to have more than one replica set per Azure AD tenant. Replica sets can be added to any peered virtual network in any Azure region that supports Azure AD DS.
 
 If you use on-premises domain controllers, you'll need to configure connectivity to the virtual network in the new region using either a VPN, ExpressRoute, or a virtual wide area network (Virtual WAN). If you use Azure AD DS, you can create an additional replica set in another region. The virtual network in the additional region that's hosting the new replica set must be able to communicate with the network hosting the primary set of Azure AD DS. We recommend you use peering between virtual networks for intra-site replication between replica sets.
 
@@ -84,7 +84,7 @@ If you use on-premises domain controllers, you'll need to configure connectivity
 
 You can deploy an Azure Virtual Desktop host pool in the active-active and active-passive configurations:
 
-- Active-active. With active-active, a single host pool can have VMs from multiple regions. You must combine cloud cache features to actively replicate a user's FSLogix profile and MSIX app attach across regions. VMs in each region should contain the cache registry to specify the locations. Additionally, you must manually configure the VMs to give precedence to the local one. This Azure Virtual Desktop deployment provides the highest efficiency from a user perspective. This is because if there's a failure, users can continue to use the service without additional signing. However, this configuration is more costly and more complex to deploy and isn't optimized for performance.
+- Active-active. With active-active, a single host pool can have VMs from multiple regions. You must combine cloud cache features to actively replicate a user's FSLogix profile attach across regions. For MSIX app attach use another copy on an additional file share in the other region. VMs in each region should contain the cache registry to specify the locations. Additionally, you must manually configure the VMs with cloud cache registry entry that specify locations to give precedence to the local one. This Azure Virtual Desktop deployment provides the highest efficiency from a user perspective. This is because if there's a failure, users can continue to use the service without additional signing. However, this configuration is more costly and more complex to deploy and isn't optimized for performance.
 - Active-passive. For active-passive, you can use Azure Site Recovery to replicate your VMs in the secondary region  with your domain controllers. If you use Azure Site Recovery, you don't need to register the VMs manually. Instead, the Azure desktop agent in the secondary VM will automatically use the latest security token to connect to the service instance closest to it. This will ensure your session host joins the host pool automatically, and the user will only need to reconnect to access their VMs. For this configuration, you can also create a secondary host pool (known as a *hot standby*) in the failover region with all the resources turned off. You can then use a recovery plan in Azure Site Recovery to turn on host pools and create an orchestrated process. You also need to create a new application group in the failover region and assign users to them.
 
 ### Virtual Network
@@ -95,13 +95,13 @@ In an Azure Virtual Desktop that is connected with you on-premises network, you 
 
 ### FSLogix profiles and MSIX app attach
 
-You can use NetApp Files as a storage option for FSXlogix profiles and MSIX app attach because they support cross-region replication. Azure Files with Standard performance also support cross-region replication. You can configure the FSLogix agent to support multiple profile locations, which helps ensure availability if there's a failure. If the primary location fails, the FSLogix agent will be replicated as part of the VM Azure Site Recovery. The agent will automatically attempt to use the profile path that points to the secondary region. 
+You can use Azure NetApp Files as a storage option for FSXlogix profiles and MSIX app attach because they support cross-region replication. Azure Files with Standard performance also support cross-region replication. You can configure the FSLogix agent to support multiple profile locations, which helps ensure availability if there's a failure. If the primary location fails, the FSLogix agent will be replicated as part of the VM Azure Site Recovery. The agent will automatically attempt to use the profile path that points to the secondary region. 
 
-For the active-active scenario and if the RTO/RTA are less than a day, we recommend that you use FSLogix profiles to use Cloud Cache. Cloud Cache is an optional add-on and allows you to use multiple remote locations, which are all continually updated during the user session.
+For the active-active scenario and if the RTO/RTA are less than a day, we recommend that you use FSLogix profiles to use Cloud Cache. Cloud Cache is a feature of FSLogix that must be specifically enabled and configured and allows you to use multiple remote locations, which are all continually updated during the user session.
 
 ### Master images
 
-You should replicate master images clones in the secondary region after each primary desktop image modification. You can use Azure Shared Image Gallery to share custom images across regions. During a primary region failure, you can use cloned desktop images as sources for creation of the host pools.
+You should replicate master images in the secondary region after each primary desktop image modification. You can use Azure Shared Image Gallery to share custom images across regions. During a primary region failure, you can use cloned desktop images as sources for creation of the host pools.
 
 ### App dependencies
 
