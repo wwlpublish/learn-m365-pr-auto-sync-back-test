@@ -4,7 +4,7 @@ title: Knowledge check
 metadata:
   title: Knowledge check
   description: "Knowledge check"
-  ms.date: 04/23/2021
+  ms.date: 07/12/2021
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -38,14 +38,14 @@ quiz:
     - content: "Authorization Code"
       isCorrect: true
       explanation: "That's correct. The application needs to obtain an authorization code from Azure AD’s /authorize endpoint. The authorization code can then be used to acquire a new access and refresh token, which enables the user to access the application."
-  - content: "As the Enterprise Administrator for Tailspin Toys, Holly Spencer contracted with an ISV to create a multi-tenant application. Holly's goal is to make the app available to Tailspin's customers and partners. Holly updated the application registration in the Azure portal so that it supports multi-tenancy. What's the next step that must be completed so that users from Tailspin's customers and partners can access the application?"
+  - content: "As the Enterprise Administrator for Tailspin Toys, Patti Fernandez contracted with an ISV to create a multi-tenant application. Patti's goal is to make the app available to Tailspin's customers and partners. Patti updated the application registration in the Azure portal so that it supports multi-tenancy. What's the next step that must be completed so that users from Tailspin's customers and partners can access the application?"
     choices:
     - content: "A user or administrator in other organizations must grant their users the ability to sign in to this application"
       isCorrect: true
       explanation: "That's correct. Multi-tenant applications must be provisioned in each tenant where users need access. A user from another tenant must grant the application access to resources secured by the user's tenant. This experience is referred to as \"user consent.\""
-    - content: "Holly must remove the application's service principal through the Azure portal"
+    - content: "Patti must remove the application's service principal through the Azure portal"
       isCorrect: false
-      explanation: "That's incorrect. This steps removes a multi-tenant application authorized by another organization. Try again."
-    - content: "Holly must assign the App ID URL a host name that matches a verified domain of Tailspin's Azure AD tenant"
+      explanation: "That's incorrect. This step removes a multi-tenant application authorized by another organization. Try again."
+    - content: "Patti must assign the App ID URL a host name that matches a verified domain of Tailspin's Azure AD tenant"
       isCorrect: false
       explanation: "That's incorrect. This step is actually part of the provisioning process when you updated the application registration in the Azure portal so that the app supports multi-tenancy. Registering the app for multi-tenancy would have failed if the App ID URL was not configured correctly. Try again."
