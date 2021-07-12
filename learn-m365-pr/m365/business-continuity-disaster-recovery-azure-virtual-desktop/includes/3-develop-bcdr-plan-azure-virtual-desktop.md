@@ -4,7 +4,7 @@ Azure includes several features that help ensure your Azure Virtual Desktop and 
 
 *Azure regions* represent a set of datacenters deployed within a latency-defined perimeter and connected through a dedicated regional low-latency network.
 
-All Azure regions are paired with a different region. In a region pair, the regions are never updated simultaneously. Instead, they're updated sequentially. This way if something happens to one region another one becomes available.
+All Azure regions are paired with a different region. In a region pair, the regions are never updated simultaneously. Instead, they're updated sequentially. This way updates will only affect one region.
 
 These region pairs are also used for replication. Storage and many platform as a service (PaaS) are replicated and have failover pairs in the paired region. As part of your BCDR planning, it's important to use region pairing to utilize the isolation it provides. This way you'll reduce the amount of time it takes to recover from a failure and increase your availability.
 
@@ -14,7 +14,7 @@ An *Availability Set* in Azure is a logical grouping capability that you can use
 
 :::image type="content" source="../media/3-availability-sets.png" alt-text="Image depicting fault domains and update domains in an availability set." border="true":::
 
-Update domains ensure that when VM hosts in an Azure datacenter require downtime for maintenance, a subset of your application's servers remain running. When a maintenance event occurs, such as applying a performance or a critical security update, Azure sequences the update through update domains.
+Update domains ensure that when VM hosts in an Azure datacenter require downtime for maintenance, a subset of your session hosts remain running. When a maintenance event occurs, such as applying a performance or a critical security update, Azure sequences the update through update domains.
 
 Fault domains (FDs) represent physical sections of the datacenter and ensure rack diversity of servers in an availability set. FDs align to the physical separation of shared hardware in the datacenter. If the hardware supporting a server rack becomes unavailable, only that rack of servers would be affected by the outage. When you place your VMs in an Availability Set, they will automatically be spread across multiple FDs. If hardware should fail, only part of your VMs will be impacted.
 
@@ -28,7 +28,7 @@ By using Availability Zones, you can distribute VMs in the host pool across diff
 
 ## Azure Site Recovery
 
-Azure Site Recovery manages the orchestration of disaster recovery in Azure by replicating VM workloads between Azure regions. If an issue occurs at the primary site, Azure automatically invokes Site Recovery to replicate the session host VMs to another location. You can use Site Recovery as part of your BCDR strategy for Azure Virtual Desktop.
+Azure Site Recovery manages the orchestration of disaster recovery in Azure by replicating VM workloads between Azure regions. If an issue occurs at the primary site, Azure Site Recovery invokes the failover to the session hosts in the other region. You can use Site Recovery as part of your BCDR strategy for Azure Virtual Desktop.
 
 As part of your BCDR plan, you can also use Site Recovery to replicate domain controllers, session host VMs, and user and app data across regions to the secondary region. You can add pre-scripts and post-scripts to Site Recovery to fail over non-VM resources and replicate Azure Storage resources.
 
