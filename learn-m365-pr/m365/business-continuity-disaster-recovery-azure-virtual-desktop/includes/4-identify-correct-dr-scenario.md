@@ -32,7 +32,7 @@ Virtual networks are managed services and aren't affected by this type of failur
 
 ### FSLogix profiles and MSIX app attach
 
-You might resolve issues related to corruption of profile containers and MSIX app attach by restoring the corrupted VHDX files from backup. Depending on your FSLogix storage technology choice, you can configure Azure Backup for Azure Files shares and Azure NetApp Files snapshots. Alternately, you can use the backup service to protect files and folders on server VMs.
+Depending on your FSLogix storage technology choice, you can configure Azure Backup for Azure Files shares and Azure NetApp Files snapshots. Alternately, you can use the backup service to protect files and folders on server VMs.
 
 ### Master images
 
