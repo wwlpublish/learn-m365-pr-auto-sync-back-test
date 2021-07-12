@@ -33,6 +33,7 @@ roles:
 - solution-architect
 products:
 - azure
+- azure-virtual-desktop
 units:
 - learn-m365.business-continuity-disaster-recovery-azure-virtual-desktop.introduction
 - learn-m365.business-continuity-disaster-recovery-azure-virtual-desktop.identify-components-to-protect
