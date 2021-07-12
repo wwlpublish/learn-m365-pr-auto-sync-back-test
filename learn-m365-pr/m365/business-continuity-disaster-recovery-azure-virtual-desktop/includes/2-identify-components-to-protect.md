@@ -26,29 +26,21 @@ Azure Virtual Desktop core infrastructure services are fully managed by Microsof
 You can use Azure AD for identity and access management in Azure Virtual Desktop. This includes access to remote sessions, administration elements, and user provisioning. Azure Virtual Desktop uses Azure AD to authenticate any operation that interacts with services running in Azure. This includes apps and websites users use to determine available resources.
 
 ## AD DS
-Azure Virtual Desktop VMs must domain-join an AD DS service, and the AD DS must be in sync with Azure AD to associate users between the two services. You can use Azure AD Connect to integrate AD DS with Azure AD. You can deploy Azure Virtual Desktop with identities from a cloud-only organization or in an environment with hybrid identities. However, your infrastructure must meet specific requirements to support Azure Virtual Desktop.
-
-Hybrid identity environments require:
+Azure Virtual Desktop VMs must domain-join an AD DS service, and the AD DS must be in sync with Azure AD to associate users between the two services. You can use Azure AD Connect to integrate AD DS with Azure AD. You can deploy Azure Virtual Desktop with identities from a cloud-only organization or in an environment with hybrid identities. However, your infrastructure must meet specific requirements to support Azure Virtual Desktop:
 
 - An Azure AD organization.
 - A domain controller that's synced with Azure AD. You can deploy your domain controllers in your on-premises network or as VMs running in an Azure virtual network. The deployment of domain controllers in an on-premises network requires connectivity to an Azure virtual network using either Site-to-Site VPN or ExpressRoute. You can also use Azure Active Directory Domain Services (Azure AD DS), where Microsoft can manage your domain controllers instead of deploying them in Azure VMs.
 - An Azure subscription containing a virtual network that either has or is connected to AD DS or Azure AD DS.
 
-Cloud-only organizations must have:
-
-- An Azure AD organization
-- AD DS domain controllers running on a VM in Azure or Azure AD DS
-- An Azure subscription that contains a virtual network that either contains or is connected to AD DS.
-
 Maintaining Active Directory domain controller availability is critical in case there's a primary region outage. Without an accessible Active Directory domain controller, users won't be able to sign in to their Azure Virtual Desktops and RemoteApp.
 
 ## Virtual network
 
-A virtual network is a critical component in which Azure provisions both the Azure Virtual Desktop VMs and your AD DS. During an outage, it's important that network connectivity for Azure Virtual Desktop functions properly. For an Azure Virtual Desktop hybrid deployment, you must use either a virtual private network (VPN) or Azure ExpressRoute to connect the virtual network with an on-premises network. This requires careful planning for network connectivity in your secondary region and  connectivity to your on-premises network.
+A virtual network is a critical component in which Azure provisions both the Azure Virtual Desktop VMs and your AD DS. During an outage, it's important that network connectivity for Azure Virtual Desktop functions properly. For an Azure Virtual Desktop hybrid deployment, you must use either a Site-to-Site  virtual private network (VPN) or Azure ExpressRoute to connect the virtual network with an on-premises network. This requires careful planning for network connectivity in your secondary region and  connectivity to your on-premises network.
 
 ## Session hosts
 
-Azure Virtual Desktop provides access to the session hosts that run the remote desktops or remote apps. Each session host has an Azure Virtual Desktop host agent, which registers the VM as part of the Azure Virtual Desktop workspace or tenant. Session hosts must communicate with either Azure AD DS or AD DS. Hosts can become unavailable or corrupted in the normal course of operation. You have to include them in the BCDR plan for Azure Virtual Desktop.
+Azure Virtual Desktop provides access to the session hosts that run the remote desktops or remote apps. Each session host has an Azure Virtual Desktop host agent, which registers the VM as part of the Azure Virtual Desktop workspace or tenant. Session hosts must communicate with either Azure AD DS or AD DS. As VMs can become unavailable or the operating system can be damaged, you have to include them in the BCDR plan for Azure Virtual Desktop.
 
 ## Master images
 
@@ -62,7 +54,7 @@ Master images don't directly impact a user's ability to connect to a session-hos
 
 ## FSLogix
 
-FSLogix is designed to roam profiles in remote computing environments. It stores a complete user profile in a single container. At sign-in, Azure dynamically attaches this container to the computing environment using natively supported virtual hard disk (VHD) and Virtual Hard Disk v2 (VHDX).
+FSLogix is designed to roam profiles in remote computing environments. It stores a complete user profile in a single container on a SMB file share (e.g. Azure Files or Azure NetApp Files). At sign-in, Azure dynamically attaches this container to the computing environment using natively supported virtual hard disk (VHD) and Virtual Hard Disk v2 (VHDX).
 
 FSLogix profiles are critical to Azure Virtual Desktop environments. They must be available whenever a user needs to connect to and work on a desktop or a RemoteApp. Therefore, FSLogix profiles must be replicated and available in multiple regions.
 
