@@ -18,6 +18,8 @@ Update domains ensure that when VM hosts in an Azure datacenter require downtime
 
 Fault domains (FDs) represent physical sections of the datacenter and ensure rack diversity of servers in an availability set. FDs align to the physical separation of shared hardware in the datacenter. If the hardware supporting a server rack becomes unavailable, only that rack of servers would be affected by the outage. When you place your VMs in an Availability Set, they will automatically be spread across multiple FDs. If hardware should fail, only part of your VMs will be impacted.
 
+You can use Availability Set as default resiliency option for Azure Virtual Desktop host pool and if you have domain controllers in an Azure VM.
+
 ## Availability Zones
 
 *Availability Zones* are independent physical datacenter locations within a region that have their own power, cooling, and networking. By taking Availability Zones into account when deploying resources, you can protect workloads from datacenter outages while maintaining a presence in a particular region. Services such as VMs are _zonal services_, and you can deploy them to specific zones within a region. Other services are _zone-redundant services_, which will replicate across the Availability Zones in the specific Azure region. Both types of zones ensure an Azure region has no single points of failure.
