@@ -15,38 +15,38 @@ content: |
 quiz:
     title: Check your knowledge
     questions:
-    - content: "Question"
+    - content: "Which step comes first after you've created your document understanding model?"
       choices:
-      - content: "Possible answer"
+      - content: "Create your extractor"
+        isCorrect: false
+        explanation: "Incorrect. Before setting up your extractor, you need to train your model to properly identify the document type you are looking to categorize in the document library."
+      - content: "Train the model"
         isCorrect: true
-        explanation: "Text"
-      - content: "Possible answer"
+        explanation: "Correct. The first step prior to creating your model should be training the model to identify the content type you want the model to categorize."
+      - content: "Apply the model to the SharePoint library of your choice"
         isCorrect: false
-        explanation: "Text"
-      - content: "Possible answer"
-        isCorrect: false
-        explanation: "Text"
+        explanation: "Incorrect. The model should not be applied until it is fully functional, meaning it has been trained and classifiers and extractors have been created."
 
-    - content: "Question"
+    - content: "How many positive examples do you need to identify when training your document understanding model?"
       choices:
-      - content: "Possible answer"
+      - content: "5"
         isCorrect: true
-        explanation: "Text"
-      - content: "Possible answer"
+        explanation: "Correct. You need at least five positive document examples to train your model."
+      - content: "1"
         isCorrect: false
-        explanation: "Text"
-      - content: "Possible answer"
+        explanation: "One positive example is not enough to train your model."
+      - content: "3"
         isCorrect: false
-        explanation: "Text"
+        explanation: "Incorrect. Three positive examples is not quite enough to train your model."
 
-    - content: "Question"
+    - content: "What does an explanation do?"
       choices:
-      - content: "Possible answer"
+      - content: "Tells the model what elements go into making the document type"
         isCorrect: true
-        explanation: "Text"
-      - content: "Possible answer"
+        explanation: "Correct. An explanation is what tells your model what information should be labeled and extracted from the library."
+      - content: "Runs the automation that sets something as a 'Match' or 'Mismatch'"
         isCorrect: false
-        explanation: "Text"
-      - content: "Possible answer"
+        explanation: "Incorrect. You must first choose “Save and Train” in order to train the model based on the explanation you set up."
+      - content: "Triggers the document upload to your SharePoint library"
         isCorrect: false
-        explanation: "Text"
+        explanation: "Incorrect. You will need to choose the “Upload” option to add the desired documents to the SharePoint library."

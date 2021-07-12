@@ -1,1 +1,9 @@
-Enter text here.
+SharePoint Syntex allows you to intelligently automate how information is extracted and organized within your content libraries. The two primary buckets of content that SharePoint Syntex programmatically contextualizes and labels through your guidance and set up include documents and forms. Let’s look specifically at what this automation process looks like when organizing documents using document understanding models.
+
+At this point, let’s imagine the designated SharePoint admin at your company, Contoso Electronics, has successfully set up SharePoint Syntex, including creating a content center. Now, your Human Resources department at Contoso Electronics needs to learn how to begin applying SharePoint Syntex to their content libraries. Your project plan calls for starting with the creation of document understanding models.  
+
+To that end, Human Resources identifies a library called “HR Letters.” It’s a library of documents of mixed document types. Most are letters, but there are a few other document types in the library – a couple of statements of work and others. This library contains letters notifying employees about changes to their healthcare insurance. Contoso policy states that these notifications should be classified as “Confidential,” and they should be retained for seven years. At the moment, there’s nothing identifying these insurance change letters as special cases, and they have not been classified as confidential within the system.
+
+In this module, you will create and apply a document understanding model. This will include creation of the model, training the model to recognize what documents to classify as insurance change letters and which should not, creating an extractor to pull information from your documents, and applying this model to your document library.
+
+By the end of this module, you will be able to create and apply document understanding models and have a clear understanding of the context and situations applicable for applying document understanding models.
