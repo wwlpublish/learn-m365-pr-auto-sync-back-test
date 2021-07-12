@@ -54,3 +54,10 @@ You can use Microsoft OneDrive to redirect well-known folders (such as Desktop, 
 ## Virtual network
 
 As a part of your BCDR strategy for Azure Virtual Desktop, you need to set up a virtual network in your secondary region. You can create a virtual network manually and then set it up with peering with the primary network. You can also use Site Recovery to set up the virtual network in the failover region and preserve your primary network's settings.
+
+>[!Note]
+> Virtual networks created in the different regions cannot have overlapping IP address ranges and IP-Adresses will change at failover.
+
+## Domain Name System (DNS)
+
+Active Directory authentication must be available in the disaster recovery region, or connectivity to the on-premises domain must be guaranteed. To ensure that VMs locate domain controllers for authentication ensure, that virtual network in disaster recovery is set up with custom DNS server that can resolce active directory services.
