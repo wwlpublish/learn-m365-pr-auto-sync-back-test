@@ -9,77 +9,42 @@ metadata:
   author: Erikre
   ms.author: erikre
   ms.topic: interactive-tutorial
-  ms.prod: <TODO>
-durationInMinutes: 2
-###########################################################################
-###
-### General guidance (https://review.docs.microsoft.com/learn-docs/docs/id-guidance-knowledge-check)
-###  - Questions are complete sentences ending with a question mark
-###  - No true/false questions
-###  - 3 answers per question
-###  - All answers about the same length
-###  - Numeric answers listed in sorted order
-###  - No "All of the above" and/or "None of the above" as answer choices
-###  - No "Not" or "Except" in questions
-###  - No second person ("you") in the questions or answers
-###  - Provide a meaningful explanation for both correct and incorrect answers
-###
-###########################################################################
+  ms.prod: learning-endpoint-manager
+durationInMinutes: 3
 content: |
 quiz:
   questions:
-  - content: ""
+  - content: "Which best describes tenant attach?"
     choices:
-    - content: ""
+    - content: "Tenant attach is the process of attaching your Intune tenant to the cloud. It incorporates co-management for to complete your endpoint management deployment."
+      isCorrect: false
+      explanation: "Tenant attach allows you to recognize your Configuration Manager devices and infrastructure."
+    - content: "Tenant attach allows you to recognize your Configuration Manager devices and infrastructure by the Intune cloud service and take actions from Microsoft Endpoint Manager."
       isCorrect: true
-      explanation: ""
-    - content: ""
+      explanation: "Tenant attach enables all your on premises endpoints using Microsoft Endpoint Manager."
+    - content: "Tenant attach sets up synchronization between your Azure Active Directory instance and M365. When you use tenant attach, you no longer need to use Microsoft Endpoint Manager."
       isCorrect: false
-      explanation: ""
-    - content: ""
-      isCorrect: false
-      explanation: ""
-  - content: ""
+      explanation: "Tenant attach allows you to recognize your Configuration Manager devices and infrastructure."
+  - content: "When implementing tenant attach, why is enabling internet endpoints important?"
     choices:
-    - content: ""
+    - content: "Enabling specific internet endpoints will provide needed connectivity that will allow Configuration Manager features to fully function."
       isCorrect: true
-      explanation: ""
-    - content: ""
+      explanation: "If your organization restricts network communication with the internet using a firewall or proxy device, enabling endpoints will allow needed connectivity."
+    - content: "Enabling internet endpoints must be prevented when implementing tenant attach."
       isCorrect: false
-      explanation: ""
-    - content: ""
+      explanation: "Enabling internet endpoints will allow needed Configuration Manager connectivity."
+    - content: "Internet endpoints must also be secure. For this reason, they must be managed by Microsoft Endpoint Manager."
       isCorrect: false
-      explanation: ""
-  - content: ""
+      explanation: "Enabling internet endpoints will allow needed Configuration Manager connectivity."
+  - content: "Which of the following are examples of remote device actions?"
     choices:
-    - content: ""
+    - content: "Remote device actions might include deleting company data on lost or stolen devices, renaming a device, or restarting a device."
       isCorrect: true
-      explanation: ""
-    - content: ""
+      explanation: "Remote device actions give you management control of devices without interfering with personal data on those devices."
+    - content: "Remote device actions might include receiving email, checking device internet speed, or updating personal contacts."
       isCorrect: false
-      explanation: ""
-    - content: ""
+      explanation: "Remote device actions give you management control of devices without interfering with personal data on those devices."
+    - content: "Remote device actions are strictly used to manage all device data, whether the data is corporate managed or personal."
       isCorrect: false
-      explanation: ""
-  - content: ""
-    choices:
-    - content: ""
-      isCorrect: true
-      explanation: ""
-    - content: ""
-      isCorrect: false
-      explanation: ""
-    - content: ""
-      isCorrect: false
-      explanation: ""
-  - content: ""
-    choices:
-    - content: ""
-      isCorrect: true
-      explanation: ""
-    - content: ""
-      isCorrect: false
-      explanation: ""
-    - content: ""
-      isCorrect: false
-      explanation: ""
+      explanation: "Remote device actions give you management control of devices without interfering with personal data on those devices."
+  

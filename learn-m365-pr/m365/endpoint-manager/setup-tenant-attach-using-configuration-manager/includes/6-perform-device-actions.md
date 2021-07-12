@@ -1,9 +1,5 @@
 You need to ensure every device you manage is reachable, no matter where it is or when it connects. You also need to provide each user with everything they need to stay productive, while protecting devices, apps, and data. With the device actions supported by Intune, you can remotely solve these critical functions.
 
-In the following video, principal program manager Heidi Cheng and senior program manager Danny Guillory discuss and demo remote actions:
-
-> [!VIDEO https://channel9.msdn.com/Series/Endpoint-Zone/Using-Co-Management-to-Execute-Remote-Actions/player]
-
 ## Benefits of remote device actions
 
 Remote device actions give you management control of devices without interfering with personal data on those devices. These remote device actions allow you to: 
