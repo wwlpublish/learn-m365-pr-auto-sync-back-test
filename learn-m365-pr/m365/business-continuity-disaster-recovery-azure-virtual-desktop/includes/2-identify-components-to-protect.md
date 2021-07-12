@@ -60,4 +60,4 @@ FSLogix profiles are critical to Azure Virtual Desktop environments. They must b
 
 ## MSIX app attach
 
-MSIX app attach stores application files in a separate VHD from the operating system. When you open MSIX app attach, the application files are accessed from a VHD. Similar to FSLogix profiles, you should consider replicating MSIX app attach in another region.
+MSIX app attach stores application files in a separate MSIX images (VHD/VHDX/CIM) from the operating system. When you open MSIX app attach, the application files are accessed from a VHD. Similar to FSLogix profiles, you should consider replicating MSIX app attach in another region.
