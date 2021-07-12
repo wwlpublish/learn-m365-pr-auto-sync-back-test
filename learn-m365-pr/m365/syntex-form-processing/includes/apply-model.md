@@ -6,7 +6,7 @@ The Use in SharePoint panel opens on the right-hand side of the screen.
 
 Click "Continue."
 
-![A screenshot of a computer]()
+![A screenshot of a computer](../media/image055.png)
 
 Description automatically generated with medium confidence
 
@@ -16,7 +16,7 @@ Click the "+" sign beside an app if you need to sign in to apply the model.
 
 Otherwise, since SharePoint is ready to go, click "Create flow."
 
-![Graphical user interface, application]()
+![Graphical user interface, application](../media/image057.png)
 
 The Use in SharePoint pane will work for a moment, then display a green checkmark and a notice that your flow was successfully created.
 
@@ -30,13 +30,13 @@ You return to the empty Purchase Orders document library you created earlier.
 
 Note that now, the library has columns for the fields you just trained in your form processing model.
 
-![Graphical user interface, text, application, email]()
+![Graphical user interface, text, application, email](../media/image059.png)
 
 Upload the purchase orders to the new library to begin processing them with the new model.
 
 Click "Upload," then "Files" in the top left of the navigation ribbon.
 
-![Graphical user interface, application, Word]()
+![Graphical user interface, application, Word](../media/image061.png)
 
 Navigate in file manager to the folder where the purchase orders are stored.
 
@@ -46,7 +46,7 @@ Select all the files.
 
 Click "Open" to begin the upload.
 
-![Graphical user interface, application, table]()
+![Graphical user interface, application, table](../media/image063.png)
 
 Upload begins.
 
@@ -58,7 +58,7 @@ The process may take a few minutes, but as the form analyzes the documents, it w
 
 You will see a banner at the top of the library telling you the model is reading through your documents.
 
-![Graphical user interface, application]()
+![Graphical user interface, application](../media/image065.png)
 
 After a few minutes, data will begin flowing into the columns.
 
@@ -68,6 +68,6 @@ PO-number, Vendor Name, and PO-Total will begin to fill with information pulled 
 
 Depending on the number of files to be processed, this could take a few minutes or considerably longer.
 
-![Graphical user interface, application]()
+![Graphical user interface, application](../media/image067.png)
 
-Congratulations! You have successfully created a form processing model and applied it to a library.Once the model finishes extracting data into all columns, the accounting team at Contoso Electronics can sort POs by vendor name, or PO Total, or order the purchase orders by PO Number.
+Congratulations! You have successfully created a form processing model and applied it to a library. Once the model finishes extracting data into all columns, the accounting team at Contoso Electronics can sort POs by vendor name, or PO Total, or order the purchase orders by PO Number.

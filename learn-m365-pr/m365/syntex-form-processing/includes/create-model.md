@@ -16,13 +16,13 @@ Create a SharePoint document library where your purchase orders will be imported
 
 Click "Site Contents” in the left-hand pane of the accounting department’s SharePoint site.
 
-![Graphical user interface, application]()
+![Graphical user interface, application](../media/image005.png)
 
 Click "New” to create a new library dedicated to purchase orders.
 
 Select "Document Library” from the dropdown of options.
 
-![Graphical user interface, table]()
+![Graphical user interface, table](../media/image0.png)
 
 The Create document library pane opens on the right-hand side of the screen.
 
@@ -30,11 +30,11 @@ Name the site – in this case "Purchase Orders."
 
 Click "Create."
 
-![Graphical user interface, text, application]()
+![Graphical user interface, text, application](../media/image0.png)
 
 This creates a new, empty document library with no columns of useful information.
 
-![Graphical user interface, text, application]()
+![Graphical user interface, text, application](../media/image0.png)
 
 From within this empty SharePoint library, click on "Automate” in the upper right-hand navigation ribbon.
 
@@ -54,7 +54,7 @@ Also leave the box checked for default view of the library.Unchecking this box r
 
 Click "Create."
 
-![Graphical user interface, text, application, email]()
+![Graphical user interface, text, application, email](../media/image0.png)
 
 PowerApps AI Builder opens.
 
@@ -68,7 +68,7 @@ Click "Add."
 
 Select "Field."
 
-![Graphical user interface, text, application, email]()
+![Graphical user interface, text, application, email](../media/image0.png)
 
 The Field dialogue box opens, asking you to define the first field you want your AI model to extract.
 
@@ -82,7 +82,7 @@ Add another field called "Vendor Name."
 
 Add another field called "PO-Total."
 
-![Graphical user interface, text, application, email]()
+![Graphical user interface, text, application, email](../media/image0.png)
 
 Click "Next” button at the bottom of the page.
 
@@ -98,7 +98,7 @@ Click "New collection."
 
 Click the plus sign in that "Add documents” button.
 
-![Graphical user interface, application]()
+![Graphical user interface, application](../media/image0.png)
 
 The "Collection 1” pane opens in the right-hand part of the screen.
 
@@ -108,7 +108,7 @@ Note that forms need to be either .JPG, .PNG, or .PDF files.
 
 Click "Add documents."
 
-![Graphical user interface, application, Teams]()
+![Graphical user interface, application, Teams](../media/image0.png)
 
 The "Select source” window opens with a list of data sources.
 
@@ -126,7 +126,7 @@ The two negative documents will be used while training your model.
 
 Click "Add 7 documents."
 
-![Graphical user interface, table]()
+![Graphical user interface, table](../media/image0.png)
 
 The documents will take a few minutes to upload to the environment.
 
@@ -134,7 +134,7 @@ When the upload completes, click "Close."
 
 Click "Analyze” at the bottom of the screen.
 
-![Graphical user interface, application]()
+![Graphical user interface, application](../media/image0.png)
 
 The training center will begin analyzing the documents.
 
@@ -150,11 +150,11 @@ To begin tagging the document fields, click the "X” in the upper right-hand co
 
 For our purposes, click the "X” to close the window.
 
-![Graphical user interface, application]()
+![Graphical user interface, application](../media/image0.png)
 
 Highlight the PO Number.Click and drag to draw a dotted line box around the PO Number in your document.
 
-![A picture containing Graphical user interface]()
+![A picture containing Graphical user interface](../media/image0.png)
 
 When you release the mouse button, the box will solidify, and a dialogue box opens listing the three fields you defined earlier: PO-number, Vendor Name, and PO-Total.
 
@@ -162,11 +162,11 @@ Note that the PO Number you highlighted is now listed at the top of the dialogue
 
 Select the correct field.In this case, click the radio button beside "PO-number."
 
-![Graphical user interface, application]()
+![Graphical user interface, application](../media/image0.png)
 
 Once you make a selection, the dialogue closes, the box around the purchase order number turns green, and a green check mark appears in the field list on the right-hand side of the AI Builder screen.
 
-![Graphical user interface, application]()
+![Graphical user interface, application](../media/image0.png)
 
 Repeat this process for the Vendor name.
 
@@ -188,7 +188,7 @@ Click the radio button.
 
 You’ve successfully initiated training for your form processor.
 
-![Graphical user interface, application, table]()
+![Graphical user interface, application, table](../media/image0.png)
 
 Walk through each document in the same way until you reach the two .PDF files that are not purchase orders.
 
@@ -204,23 +204,23 @@ Select "Not available in document."
 
 Do this for each field in each negative document.
 
-![Graphical user interface, text, application]()
+![Graphical user interface, text, application](../media/image0.png)
 
 Select "Save and close” in the upper right-hand corner of the screen.
 
-![Graphical user interface, text, application]()
+![Graphical user interface, text, application](../media/image0.png)
 
 AI Builder saves the Purchase Order model.
 
 Click the model name to open the model for next steps.
 
-![Graphical user interface, text, application]()
+![Graphical user interface, text, application](../media/image0.png)
 
 The training page opens with the first purchase order rendered, along with the field list on the right-hand side of the screen.Your fields will have green check marks next to them. 
 
 Click "Next” at the bottom left of the screen to begin training your form processing model.
 
-![A picture containing text]()
+![A picture containing text](../media/image0.png)
 
 The Model summary page opens.
 
@@ -228,7 +228,7 @@ Review the information for your model.
 
 Click "Train."
 
-![Graphical user interface, application]()
+![Graphical user interface, application](../media/image0.png)
 
 The model begins training.
 
@@ -240,13 +240,13 @@ When training finishes, AI Builder will display a message "Training complete."
 
 Click "Go to Details page."
 
-![Graphical user interface, diagram]()
+![Graphical user interface, diagram](../media/image0.png)
 
 The Details page opens with a banner across the top saying that your model hasn’t been published and therefore, cannot be used in apps or flows.
 
 To publish your model, click "Publish” at the bottom of the Training document box.
 
-![Graphical user interface, application]()
+![Graphical user interface, application](../media/image0.png)
 
 When the model finishes publishing, the page refreshes.
 
@@ -254,4 +254,4 @@ The status beneath "Models>Purchase Order” now reads "Published.”
 
 Note that the model is published under Power Apps on the right-hand side of the screen, and you can click in to read documentation about the model.
 
-![Graphical user interface, application]()
+![Graphical user interface, application](../media/image053.png)
