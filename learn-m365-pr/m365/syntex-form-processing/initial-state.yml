@@ -1,8 +1,8 @@
 ### YamlMime:ModuleUnit
-uid: learn-m365.syntex-form-processing.introduction
-title: Introduction
+uid: learn-m365.syntex-form-processing.initial-state
+title: Investigate the initial state
 metadata:
-  title: Introduction
+  title: Investigate the initial state
   description:  Identify a scenario where a form processing model is necessary and learn how to resolve this scenario by creating a form processing model, train and test the form processing model, and apply the form processing model to the appropriate SharePoint document library.
   ms.date: 07/12/2021
   author: beccarobins
@@ -12,4 +12,4 @@ metadata:
  
 durationInMinutes: 1
 content: |
-  [!include[](includes/introduction.md)]
+  [!include[](includes/initial-state.md)]
