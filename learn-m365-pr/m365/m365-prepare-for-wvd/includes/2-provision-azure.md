@@ -1,6 +1,6 @@
 Azure Active Directory (Azure AD) is used for identity and access management in Azure Virtual Desktop. This includes access to remote sessions, administration elements, and user provisioning. Azure Virtual Desktop uses Azure AD to authenticate any operation that interacts with services running in Azure, as well as for the apps and web sites users use to see what resources are available. 
 
-Azure AD Domain Services (Azure AD DS) is used to authenticate at the AVD service layer. All VMs in Azure Virtual Desktop are domain-joined and AD DS is used to authenticate to the VMs.
+Use either Azure Active Directory Domain Services (Azure AD DS) or Active Directory Domain Services (AD DS) to authenticate at the service layer of Azure Virtual Desktop. All VMs in Azure Virtual Desktop are domain-joined. Azure AD DS or AD DS is used to authenticate users to the VMs.
 
 We’ll use Azure AD in several of the steps to prepare for Azure Virtual Desktop.
 
