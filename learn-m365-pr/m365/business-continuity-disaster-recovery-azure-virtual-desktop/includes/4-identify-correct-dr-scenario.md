@@ -10,7 +10,12 @@ The disaster-recovery process requires coordination between each of the procedur
 
 RPO and RTO may be perceived as being balanced against one another, so that a customer may decide to allow for longer recovery times to attain higher recovery points. If recovery time is an issue for a customer due to available bandwidth or risk of downtime, that customer may not be able to achieve a high RPO.
 
-## Local corruption of data, metadata, or resources
+The rest of the unit will explore three different failure scenarios and how to prepare BCDR for Azure Virtual Desktop:
+ - Scenario 1. Local corruption of data, metadata, or resources
+ - Scenario 2. Single datacenter of Availability Zone failure within an Azure region
+ - Scenario 3. Azure region outage
+
+## Scenario 1. Local corruption of data, metadata, or resources
 
 Suppose your Azure Virtual Desktop environment is affected by a session host failure or a corruption of the FSLogix profile. In such situations, the most common method of recovery is to restore the profiles from a backup or to rebuild the session host. This unit reviews how each of these methods applies to each Azure Virtual Desktop environment component.
 
@@ -38,7 +43,7 @@ Depending on your FSLogix storage technology choice, you can configure Azure Bac
 
 You might often make changes to desktop images during the normal course of Azure Virtual Desktop environment maintenance. You should maintain backups of master images so you can quickly recover them in the event of any corruption.
 
-## Single datacenter of Availability Zone failure within an Azure region
+## Scenario 2. Single datacenter of Availability Zone failure within an Azure region
 
 An Azure region is a set of datacenters deployed within a latency-defined perimeter and connected through a dedicated regional low-latency network. In case of an outage of a datacenter or zone in an Azure region, your BCDR for Azure Virtual Desktop should include the recommendations listed in the following sections. 
 
@@ -66,7 +71,7 @@ Use Azure Files with Premium Zone Redundant Storage to leverage support for Avai
 
 This kind of failure doesn't affect master images because they become available in another zone.
 
-## Azure region outage
+## Scenario 3. Azure region outage
 
 Failure of complete Azure regions is highly unlike and rare. But you should also be prepared in case such a failure occurs. Consider implementing the following recommendations to implement BCDR for Azure Virtual Desktop.
 
