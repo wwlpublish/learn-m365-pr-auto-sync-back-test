@@ -32,7 +32,7 @@ Virtual networks are managed services and aren't affected by this type of failur
 
 ### FSLogix profiles and MSIX app attach
 
-Depending on your FSLogix storage technology choice, you can configure Azure Backup for Azure Files shares and Azure NetApp Files snapshots. Alternately, you can use the backup service to protect files and folders on server VMs.
+Depending on your FSLogix storage technology choice, you can configure Azure Backup for Azure Files shares and Azure NetApp Files snapshots. Alternately, you can use the backup service to protect files and folders on server VMs. 
 
 ### Master images
 
@@ -84,7 +84,7 @@ If you use on-premises domain controllers, you'll need to configure connectivity
 
 You can deploy an Azure Virtual Desktop host pool in the active-active and active-passive configurations:
 
-- Active-active. With active-active, a single host pool can have VMs from multiple regions. You must combine cloud cache features to actively replicate a user's FSLogix profile across storage in the two regions. For MSIX app attach use another copy on an additional file share in the other region. VMs in each region should contain the Cloud cache registry to specify the locations. Additionally, you must configure the Group Policies to give precedence to the local storage location. This Azure Virtual Desktop deployment provides the highest efficiency from a user perspective. This is because if there's a failure, users in the remaining region can continue to use the service without having to sign in again. However, this configuration is more costly and more complex to deploy and isn't optimized for performance.
+- Active-active. With active-active, a single host pool can have VMs from multiple regions. You must combine cloud cache features to actively replicate a user's FSLogix profile across storage in multiple regions. For MSIX app attach use another copy on an additional file share in the other region. VMs in each region should contain the Cloud cache registry to specify the locations. Additionally, you must configure the Group Policies to give precedence to the local storage location. This Azure Virtual Desktop deployment provides the highest efficiency from a user perspective. This is because if there's a failure, users in the remaining region can continue to use the service without having to sign in again. However, this configuration is more costly and more complex to deploy and isn't optimized for performance.
 - Active-passive. For active-passive, you can use Azure Site Recovery to replicate your VMs in the secondary region  with your domain controllers. If you use Azure Site Recovery, you don't need to register the VMs manually. Instead, the Azure Virtual Desktop agent in the secondary VM will automatically use the latest security token to connect to the service instance closest to it. This will ensure your session host joins the host pool automatically, and the user will only need to reconnect to access their VMs. For this configuration, you can also create a secondary host pool (known as a *hot standby*) in the failover region with all the resources turned off. You can then use a recovery plan in Azure Site Recovery to turn on host pools and create an orchestrated process. You also need to create a new application group in the failover region and assign users to them.
 
 ### Virtual Network
