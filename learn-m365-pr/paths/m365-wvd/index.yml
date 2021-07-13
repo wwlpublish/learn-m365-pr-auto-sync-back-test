@@ -29,5 +29,6 @@ modules:
 - learn-m365.optimize-wvd
 - learn-m365.wvd-security
 - learn-m365.wvd-msix-app-attach
+- learn.protect-virtual-desktop-deployment-azure-firewall
 trophy: 
   uid: learn-m365.windows-virtual-desktop.trophy
