@@ -38,7 +38,7 @@ quiz:
       isCorrect: false
       explanation: "Availability zones protect your domain controllers from a datacenter or zone failure in single region only. They don't provide protection if the full region fails."
 
-  - content: "Which of the following services and components should you include in your BCDR plan for Azure Virtual Desktop?"
+  - content: "Which of the following services or components should you include in your BCDR plan for Azure Virtual Desktop?"
     choices:
     - content: "FSLogix"
       isCorrect: true
