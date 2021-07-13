@@ -2,7 +2,7 @@ Megan and the Human Resources department not only want to classify their documen
 
 Now we will look at how Megan can create an extractor to pull out the information they need to be displayed.  
 
-1. Notice another pattern in the Benefits change letters just before the name of the insurance provider: “We are writing to inform you of a change in our insurance network participation with your insurance provider. . .” This is a phrase you can use to train an extractor to identify the name of the insurance provider.
+1. Notice another pattern in the benefits change letters just before the name of the insurance provider: “We are writing to inform you of a change in our insurance network participation with your insurance provider. . .” This is a phrase you can use to train an extractor to identify the name of the insurance provider.
    1. Return to the main Models > Benefit change letter by clicking on “Benefit change letter” at the top of the window.
 
     ![Graphical user interface, application](../media/image037.png)
@@ -19,9 +19,9 @@ Now we will look at how Megan can create an extractor to pull out the informatio
    1. The model will also extract that name and label each letter with that name.
 1. Highlight what portion of the document is the insurance provider name.
    1. Click “Next file.”
-   1. Note that the insurance provider name you highlighted is now listed as a label for the first letter.
-   1. Work through each file until you reach the files that are not Benefits change letters.
-   1. For the two negative examples, check the box just above the letter that says “No label.” This tells the extractor that these files do not match the requirements to be Benefits change letters.
+   1. The insurance provider name you highlighted is now listed as a label for the first letter.
+   1. Work through each file until you reach the files that are not benefits change letters.
+   1. For the two negative examples, check the box just above the letter that says “No label.” This tells the extractor that these files do not match the requirements to be benefits change letters.
 
     ![Graphical user interface, text, application](../media/image041.png)
 
@@ -43,8 +43,8 @@ Now we will look at how Megan can create an extractor to pull out the informatio
     ![Graphical user interface, text, application](../media/image047.png)
 
 1. Name the Explanation. Since you’re explaining the insurance provider extractor, you can name this explanation “Provider” to match the extractor.
-   1. Because you will specify the text phrase leading up to the insurance provider name, select “Phrase List” from the drop down.
-   1. Highlight the phrase “your insurance provider” from the body of the Benefits change notice.
+   1. Because you will specify the text phrase leading up to the insurance provider name, select “Phrase List” from the drop-down.
+   1. Highlight the phrase “your insurance provider” from the body of the benefits change notice.
    1. Copy and paste that phrase into the Phrase list document.
    1. You have instructed the model that this phrase is always followed by the name of the insurance provider.
 1. Click “Save and train” in the lower left-hand corner of the screen.
@@ -57,7 +57,7 @@ Now we will look at how Megan can create an extractor to pull out the informatio
 
     ![Graphical user interface, application](../media/image051.png)
 
-1. When the evaluation completes, you will see the “Evaluation” column fill with the words “Match” or “Mismatch,” depending one how well document phrase patterns fit model definitions.
+1. When the evaluation completes, you will see the “Evaluation” column fill with the words “Match” or “Mismatch,” depending on how well document phrase patterns fit model definitions.
 
     ![Graphical user interface, application](../media/image053.png)
 
@@ -79,7 +79,7 @@ Now we will look at how Megan can create an extractor to pull out the informatio
     ![Graphical user interface, text, application, email](../media/image057.png)
 
 1. Click “Save and train” again.
-   1. The model will evalutate the training files again – this time with both explanations helping it identify  both the beginning and the ending of the target insurance provider names to be extracted.
+   1. The model will evaluate the training files again – this time with both explanations helping it identify  both the beginning and the ending of the target insurance provider names to be extracted.
    1. This time, with the extra information, the model matches each training file correctly.
 
     ![Graphical user interface, text, application, email](../media/image059.png)

@@ -23,15 +23,15 @@ You and Megan identified a group of seven documents for use in training the new 
     ![Graphical user interface, application, website](../media/image021.png)
 
 1. The Classifier training window opens with one of the training documents automatically selected and open.
-   1. You need to mark which of the example files are good examples of Benefits change letters.
-   1. In document view, click either "Yes" or "No," depending on whether the document displayed is a Benefits change letter or not.
-   1. Note that formatting has been stripped so SharePoint Syntex can focus in on the text.
+   1. You need to mark which of the example files are good examples of benefits change letters.
+   1. In document view, click either "Yes" or "No," depending on whether the document displayed is a benefits change letter or not.
+   1. Note that the formatting has been stripped so SharePoint Syntex can focus in on the text.
 
     ![Graphical user interface, text, application](../media/image023.png)
 
-1. Because this is a Benefits change letter, click "Yes."
+1. Because this is a benefits change letter, click "Yes."
    1. The trainer moves to the next file in line.
-   1. The trainer labels the first document "Positive" as a match for Benefits change letter.
+   1. The trainer labels the first document "Positive" as a match for benefits change letter.
 
     ![Graphical user interface, text, application, email](../media/image025.png)
 
@@ -40,19 +40,19 @@ You and Megan identified a group of seven documents for use in training the new 
 
     ![Graphical user interface, text, application, email](../media/image027.png)
 
-1. Once you've moved through the example files, you will notice they've been labeled as positive – meaning the documents are Benefits change letters, or negative – they are not Benefits change letters.
+1. Once you've moved through the example files, you will notice they've been labeled as positive – meaning the documents are benefits change letters, or negative – they are not benefits change letters.
 
     ![Graphical user interface, application](../media/image029.png)
 
 ## Create an Explanation
 
-Now, you must explain to the model why Benefits change letters are Benefits change letters. For that, click "Train."  
+Now, you must explain to the model why benefits change letters are benefits change letters. For that, click "Train."  
 
 ![Graphical user interface, application, website](../media/image031.png)
 
 12. The Explanations dialogue box opens in the training area.
     1. Again, the first document is automatically selected and opened.  
-    1. Explanations tell the model what elements go into making a Benefits change letter.
+    1. Explanations tell the model what elements go into making a benefits change letter.
 
     ![Graphical user interface, text, application](../media/image033.png)
 
@@ -62,14 +62,14 @@ Now, you must explain to the model why Benefits change letters are Benefits chan
    1. Name the explanation and select the Explanation type from the dropdown box.
    1. In this case, you and Megan decide to use the subject line as an explanation, so name this "Subject."
    1. In the dropdown box, you can chose from "Phrase List" and "Proximity".
-   1. Because the subject line of the Benefits change letters is a phrase, select "Phrase List."
-1. A new dialogue box opens for "Phrase list" asking you to identify words, phrases, numbers, or patterns that can be used to accurately identify a Benefits change letter.
-   1. Note that each of the Benefits change letters has the same subject line, therefore, you can use that phrase to help the model recognize Benefits change letters in the rest of the Human Resources libraries.
+   1. Because the subject line of the benefits change letters is a phrase, select "Phrase List."
+1. A new dialogue box opens for "Phrase list" asking you to identify words, phrases, numbers, or patterns that can be used to accurately identify a benefits change letter.
+   1. Note that each benefits change letter has the same subject line, therefore, you can use that phrase to help the model recognize benefits change letters in the rest of the Human Resources libraries.
    1. Copy and paste the phrase "Benefit Change Notice" into the text box on the left.
 
     ![Graphical user interface, text, application, email](../media/image035.png)
 
 1. Click "Save" at the bottom of the page.
    1. Do not click "Save and Train."
-   1. Human Resources management wants to label each of the Benefits change letters with the name of the insurance providers, as well. This requires defining an extractor before training the model.
+   1. Human Resources management wants to label each of the benefits change letters with the name of the insurance providers, as well. This requires defining an extractor before training the model.
    1. When you click "Save," the Explanation dialogue box closes, returning you to the Classifier page.

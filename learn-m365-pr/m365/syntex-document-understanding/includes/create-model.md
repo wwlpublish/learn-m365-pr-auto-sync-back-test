@@ -36,7 +36,7 @@ Human Resources would like to use SharePoint Syntex document understanding to au
 1. Each model is tied to a SharePoint content type and that must be defined as you create the model.
    1. Click "Advanced Settings."
    1. You will see two radio buttons, the first allows you to create a new content type, the second allows you to select one of the content types that already exist in your SharePoint site.
-   1. Since you are defining Benefits changes letters, which are a new content type, you need to create a new content type called "Benefits change letter."
+   1. Since you are defining benefits changes letters, which are a new content type, you need to create a new content type called "Benefits change letter."
       1. Click into the drop-down box for Retention Label and select "Confidential." This selection is based on the Human Resources manager’s knowledge of document retention requirements.
    1. This is also the place to define and assign a retention label to the documents your model identifies.
 
@@ -48,11 +48,11 @@ Human Resources would like to use SharePoint Syntex document understanding to au
     ![A screenshot of a computer](../media/image015.png)
 
 1. The page lays out the four key steps you need to take with your model.
-   1. The first step: Add files to be used for training the model to recognize Benefits Change Letters.
+   1. The first step: Add files to be used for training the model to recognize benefits change Letters.
    1. Include negative examples – a few documents that are not benefits change letters.
 1. Classify files and run training.
-   1. Teaches the model to recognize Benefits Change letters so it can analyze every document in each library it is applied to.  
-   1. It will classify documents as it identifies them as a Benefits Change letters, applying the "Confidential" label that was selected when the model was created.
+   1. Teaches the model to recognize benefits change letters so it can analyze every document in each library it is applied to.  
+   1. It will classify documents as it identifies them as a benefits change letters, applying the "Confidential" label that was selected when the model was created.
 1. Create and train your extractors. Extractors pull data from the letters. In this case, Human Resources would like to sort the letters based on the names of the insurance provider, which is buried in the body of the document.
 1. Apply your models to the libraries of your choice. Once the model is trained with a few example documents, you can apply it to the library or libraries of your choice.
 

@@ -1,6 +1,6 @@
-To help support Megan Bowen, the Human Resources admin at Contoso Electronics, you have successfully built and trained a document understanding model. The model can accurately identify and label a Benefits change letter. The model can also extract the insurance provider's name from each Benefits change letter and add that name to a column in the SharePoint library. So far, however, you have only applied this to training files.
+To help support Megan Bowen, the Human Resources admin at Contoso Electronics, you have successfully built and trained a document understanding model. The model can accurately identify and label a benefits change letter. The model can also extract the insurance provider's name from each benefits change letter and add that name to a column in the SharePoint library. So far, however, you have only applied this to training files.
 
-Now you are now ready to show Megan, who volunteered to be the model owner for Human Resources, how to apply the new Benefits change letter model to the Human Resources SharePoint libraries.
+Now you are now ready to show Megan, who volunteered to be the model owner for Human Resources, how to apply the new benefits change letter model to the Human Resources SharePoint libraries.
 
 ## Steps to apply the document understanding model  
 
@@ -14,12 +14,12 @@ Now you are now ready to show Megan, who volunteered to be the model owner for H
 
     ![Graphical user interface, application, website, Teams](../media/image061.png)
 
-1. The "Add Benefits change letter" dialogue box opens on the right-hand side of the screen with a list of SharePoint sites.
+1. The "Add benefits change letter" dialogue box opens on the right-hand side of the screen with a list of SharePoint sites.
    1. Select the SharePoint site you want to apply the model to. In this case, select Human Resources.
 
     ![Graphical user interface, application](../media/image063.png)
 
-1. Now select the library where you want the model to run. In this case, you opt to use a blank "Documents" library to apply the model to. This is the fast and easy way to run a model when you have large libraries. You will apply the model the library and then mass-import your files which will be classified and extracted by the model as the files copy into the library.
+1. Now select the library where you want the model to run. In this case, you opt to use a blank "Documents" library to apply the model to. This is the fast and easy way to run a model when you have large libraries. You will apply the model the library and then mass-import your files, which will be classified and extracted by the model as the files copy into the library.
    1. Select "Documents."
    1. Click the "Add" button at the bottom of the dialogue box.
 
@@ -44,7 +44,7 @@ Now you are now ready to show Megan, who volunteered to be the model owner for H
 
     ![Graphical user interface, application](../media/image069.png)
 
-1. Once processing is complete, all Benefits change letters should be labeled as such in the Content Type column. Provider name will be listed, and all Benefit change letters will have a Retention label of "Confidential."
+1. Once processing is complete, all benefits change letters should be labeled as such in the Content Type column. Provider name will be listed, and all Benefit change letters will have a Retention label of "Confidential."
    1. You can now sort and filter by the Content Type or Provider columns.
 
 Congratulations! You've created a document understanding model that both classifies files and extracts data. You've also applied that model to a document library and had each file analyzed.

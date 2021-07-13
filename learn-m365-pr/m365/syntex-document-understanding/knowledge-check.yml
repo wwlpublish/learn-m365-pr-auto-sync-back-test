@@ -37,7 +37,7 @@ quiz:
         explanation: "One positive example is not enough to train your model."
       - content: "3"
         isCorrect: false
-        explanation: "Incorrect. Three positive examples is not quite enough to train your model."
+        explanation: "Incorrect. Three positive examples are not enough to train your model."
 
     - content: "What does an explanation do?"
       choices:
