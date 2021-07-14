@@ -1,6 +1,7 @@
 To see how an organization might approach defining segments and policies, consider the following example.
 
 ### Contoso's departments and plan
+
 Contoso has five departments: HR, Sales, Marketing, Research, and Manufacturing. In order to remain compliant with industry regulations, some departments are not supposed to communicate with other departments, as listed in the following table:
 
 |   Segment |Can talk to   |  Cannot talk to |  
@@ -12,12 +13,14 @@ Contoso has five departments: HR, Sales, Marketing, Research, and Manufacturing.
 | Manufacturing  |  HR & Marketing |  Research & Sales |
 
 With this in mind, Contoso's plan includes three information barrier policies:
+
 - A policy designed to prevent Sales from communicating with Research (and another policy to prevent Research from communicating with Sales)
 - A policy designed to allow Manufacturing to communicate with HR and Marketing only
 
 It is not necessary to define policies for HR or Marketing.
 
 ### Contoso's defined segments
+
 Contoso will use PowerShell cmdlets and the Department attribute in Azure Active Directory to define segments, as follows:
 
 |  Department | Segment definition  |
@@ -29,7 +32,9 @@ Contoso will use PowerShell cmdlets and the Department attribute in Azure Active
 | Manufacturing  |  `New-OrganizationSegment -Name "Manufacturing" -UserGroupFilter "Department -eq 'Manufacturing'"` |
 
 With the segments defined, Contoso proceeds to define policies.
+
 ### Contoso's information barrier policies
+
 Contoso defines three polices, as described in the following table:
 
 |  Policy | Policy definition  |

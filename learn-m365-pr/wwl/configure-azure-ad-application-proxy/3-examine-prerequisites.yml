@@ -4,7 +4,7 @@ title: Examine Azure AD Application Proxy prerequisites
 metadata:
   title: Examine Azure AD Application Proxy prerequisites
   description: "Examine Azure AD Application Proxy prerequisites"
-  ms.date: 04/25/2021
+  ms.date: 07/12/2021
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -23,7 +23,7 @@ quiz:
       explanation: "That's correct. To prepare your environment for Azure AD Application Proxy, you first need to enable communication to Azure data centers. If there's a firewall in the path, make sure that it's open so that the Connector can make HTTPS (TCP) requests to the Application Proxy."
     - content: "A server running Windows Server 2012 R2 or Windows Server 2016"
       isCorrect: false
-      explanation: "That's incorrect. Azure AD Application Proxy must be installed on a server running Windows Server 2012 R2 or 2016. But to prepare your environment for Application proxy, this isn't the item to which communication must be enabled. Try again."
+      explanation: "That's incorrect. Azure AD Application Proxy must be installed on a server running Windows Server 2012 R2 or 2016. But to prepare your environment for Application proxy, this item isn't the one to which communication must be enabled. Try again."
     - content: "Inbound traffic on port 443"
       isCorrect: false
-      explanation: "That's incorrect. To prepare for Azure AD Application Proxy, you must open open 443 to outbound traffic. Try again."
+      explanation: "That's incorrect. To prepare for Azure AD Application Proxy, you must open port 443 to outbound traffic. Try again."

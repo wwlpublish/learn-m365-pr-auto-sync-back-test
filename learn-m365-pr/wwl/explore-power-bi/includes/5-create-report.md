@@ -22,8 +22,8 @@ Other visualizations can be added to the canvas. Once the file is saved, a .pbix
 
 There are several ways to share a report created in Power BI Desktop. The report creator can either:
 
- *  distribute the report’s .pbix file like any other file.
- *  upload the .pbix file to the Power BI service.
- *  publish the .pbix file directly from the Power BI Desktop to the Power BI service.
+ -  distribute the report’s .pbix file like any other file.
+ -  upload the .pbix file to the Power BI service.
+ -  publish the .pbix file directly from the Power BI Desktop to the Power BI service.
 
 The report creator must have a Power BI account to publish or upload reports to the Power BI service. When publishing a report, the user must select the destination from the list of workspaces. Once the report is published to the Power BI Service, the report creator and the users to which the report has been shared who have edit privileges can create a Dashboard based on the report’s visuals.

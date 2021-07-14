@@ -23,6 +23,7 @@ roles:
 products:
 - m365
 - azure
+- azure-virtual-desktop
 units:
 - learn-m365.prepare-for-wvd.introduction
 - learn-m365.prepare-for-wvd.wvd-provision-azure
