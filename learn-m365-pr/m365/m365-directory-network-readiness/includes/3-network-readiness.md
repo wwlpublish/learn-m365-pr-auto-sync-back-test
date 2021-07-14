@@ -20,4 +20,4 @@ If you have users that will access corporate resources remotely, you’ll want t
 
 - **Remote Access Always On VPN** - Always On VPN provides a single, cohesive solution for remote access. It supports domain-joined, non-domain-joined (workgroup), or Azure AD–joined devices, even personally owned devices.
 
-- **Remote Desktop Services** - Remote Desktop Services supports virtualized applications, secure mobile and remote desktop access, and running apps and desktops from the cloud. All of these consume bandwidth, depending on your RDS configuration. 
+- **Remote Desktop Services** - Remote Desktop Services supports virtualized applications, secure mobile and remote desktop access, and running apps and desktops from the cloud. All of these consume bandwidth, depending on your RDS configuration.

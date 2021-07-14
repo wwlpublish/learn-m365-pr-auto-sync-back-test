@@ -22,11 +22,11 @@ You can access the EAC from the Microsoft 365 admin center. By default, the admi
 
 ![Access the Exchange admin center](../media/access-exchange-admin-center.png)
 
-You could also use the direct link to the EAC in the **Learn more** section at the end of this unit. 
+You could also use the direct link to the EAC in the **Learn more** section at the end of this unit.
 
 > [!NOTE]
 > You might need to use a new private browsing window to access the EAC, as your existing browser will use your current credentials.
-> 
+>
 
 ![Exchange admin center dashboard](../media/exchange-admin-center-dashboard.png)
 
@@ -43,7 +43,7 @@ You could also use the direct link to the EAC in the **Learn more** section at t
 
    ![Enter a public folder name](../media/public-folder-name.png)
 
-This creates the primary public mailbox for Exchange Online. Repeat these steps to create more public folder mailboxes, which will all be secondary hierarchy public folder mailboxes. 
+This creates the primary public mailbox for Exchange Online. Repeat these steps to create more public folder mailboxes, which will all be secondary hierarchy public folder mailboxes.
 
 ## Create the primary public folder mailbox using PowerShell
 
@@ -88,7 +88,7 @@ New-Mailbox -PublicFolder -Name PrimaryHierarchyPublicFolder
 
 ### Create additional public folder mailboxes
 
-Repeat the above command to create additional secondary hierarchy public folder mailboxes. 
+Repeat the above command to create additional secondary hierarchy public folder mailboxes.
 
 ### Check the commands worked
 
@@ -107,5 +107,5 @@ Remove-PSSession $Session
 ## Learn more
 
 - [Exchange admin center](https://outlook.office365.com/ecp?azure-portal=true)
-- [Public folders in Office 365 and Exchange Online](/Exchange/collaboration-exo/public-folders/public-folders?azure-portal=true) 
+- [Public folders in Office 365 and Exchange Online](/Exchange/collaboration-exo/public-folders/public-folders?azure-portal=true)
 - [Create public folder mailboxes](/Exchange/collaboration-exo/public-folders/create-public-folder-mailbox?azure-portal=true)

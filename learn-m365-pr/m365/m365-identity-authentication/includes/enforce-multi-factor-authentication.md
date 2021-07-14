@@ -18,14 +18,14 @@ Conditional Access policies can be granular and specific, with the goal of empow
 The **Require multi-factor authentication** control can be resolved by:
 
 - Presence of the following claim in a token issued by the trusted federation service:
-  - https://schemas.microsoft.com/ws/2008/06/identity/claims/authenticationmethod = https://schemas.microsoft.com/claims/multipleauthn
+  - <https://schemas.microsoft.com/ws/2008/06/identity/claims/authenticationmethod> = <https://schemas.microsoft.com/claims/multipleauthn>
 - Windows Hello for Business Primary Refresh Token (PRT) with strong authentication:
   - “ACR”: 2
 - Azure MFA Service
 
 One of the optional conditions you can configure for Conditional Access policies is **Locations**. For example, you can exclude a set of IP Ranges (such as your corporate network) from the MFA Required policy. Note that when you select the Locations condition in Conditional Access, there is an MFA Trusted IPs option:
 
-[ ![Select locations for conditional access policy](../media/select-locations.png) ](../media/select-locations-magnify.png#lightbox)
+[![Select locations for conditional access policy](../media/select-locations.png)](../media/select-locations-magnify.png#lightbox)
 
 This refers to the Trusted IPs options that you can configure in the per-user MFA settings:
 

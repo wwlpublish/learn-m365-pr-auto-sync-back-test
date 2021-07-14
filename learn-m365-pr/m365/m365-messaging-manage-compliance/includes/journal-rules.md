@@ -6,18 +6,21 @@ A journal rule defines which messages to record from which addresses and where t
 > The number of journal rules you can create is determined by which Microsoft license your organization has. Check [Journal, Transport, and Inbox rule limits](/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits#journal-transport-and-inbox-rule-limits?azure-portal=true) before you implement journal rules in your production environment.
 
 ## Create a journal rule
+
 You can create a journal rule by using the Exchange admin center or by using the **New-JournalRule** Exchange Online PowerShell cmdlet. For this unit, we'll use the Exchange admin center.
 
-1.	In the EAC, go to **Compliance management > Journal rules**, and then click **Add +**.
-2.	Provide a name for the new journal rule, and then compete the following fields:
+1. In the EAC, go to **Compliance management > Journal rules**, and then click **Add +**.
+2. Provide a name for the new journal rule, and then compete the following fields:
+
    - **If the message is sent to or received from**: Specify the recipient that the rule will target. You can either select a specific recipient or apply the rule to all messages.
    - **Journal the following messages**: Specify the scope of the journal rule. You can choose only internal messages, only external messages, or all messages regardless of origin or destination.
    - **Send journal reports to**: Enter the address for the journaling mailbox that will receive all the journal reports.
-3.	Click **Save** to create the journal rule.
+3. Click **Save** to create the journal rule.
 
-You can modify a journal rule in the Exchange admin center or by using the **Set-JournalRule** cmdlet. 
+You can modify a journal rule in the Exchange admin center or by using the **Set-JournalRule** cmdlet.
 
 ## Enable or disable a journal rule
+
 You can enable or disable a journal rule.
 
 > [!IMPORTANT]
@@ -25,10 +28,11 @@ You can enable or disable a journal rule.
 
 To enable or disable a journal rule:
 
-1.	In the EAC, go to **Compliance management > Journal rules**.
+1. In the EAC, go to **Compliance management > Journal rules**.
    You'll see a list of the journal rules. 
-2.	To enable a rule, select the check box in the **On** column next to the rule's name.
+2. To enable a rule, select the check box in the **On** column next to the rule's name.
 3. To disable a rule, clear the check box.
 
 ## Learn more
+
 [Journaling in Exchange Online](/exchange/security-and-compliance/journaling/journaling?azure-portal=true)
