@@ -1,26 +1,26 @@
-Enabling the Identity Protection policy requiring multi-factor authentication registration and then targeting all users ensures they can use Azure MFA to self-remediate in the future. Configuring this policy provides users a 14-day period to register.  At the end of the 14-day period, all users are required to register.
+Enabling the Identity Protection policy requiring multifactor authentication registration and then targeting all users ensures they can use Azure MFA to self-remediate in the future. Configuring this policy provides users a 14-day period to register.  At the end of the 14-day period, all users are required to register.
 
 To enable the policy:
 
 1. Open the Azure AD Identity Protection blade in the Azure portal, and select **MFA registration policy**:
 
-    ![Azure AD Identity Protection blade in the Azure portal MFA registration policy selected](../media/mfa-registration-policy.png) 
+    ![Azure AD Identity Protection blade in the Azure portal MFA registration policy selected](../media/mfa-registration-policy.png)
 
 2. By default, the Access control to require MFA registration will be enabled. Leave this option selected.
 
-    ![Select controls to be enforced is selected](../media/access.png) 
+    ![Select controls to be enforced is selected](../media/access.png)
 
 3. Select **On** under **Enforce Policy** to require users to register for MFA.
 
-    ![Enforce policy is turned on](../media/enforce-policy.png) 
+    ![Enforce policy is turned on](../media/enforce-policy.png)
 
-At sign-in to any Azure AD-integrated application, the user gets a notification about the requirement to set up the account for multi-factor authentication. This policy is also triggered in the Windows 10 Out-of-Box Experience for new users with a new device.
+At sign-in to any Azure AD-integrated application, the user gets a notification about the requirement to set up the account for multifactor authentication. This policy is also triggered in the Windows 10 Out-of-Box Experience for new users with a new device.
 
- ![User gets a notification about the requirement to set up the account for multi-factor authentication.](../media/microsoft-azure.png) 
+ ![User gets a notification about the requirement to set up the account for multi-factor authentication.](../media/microsoft-azure.png)
 
 An administrator can configure a policy for sign-in risks in the Azure AD Identity Protection blade, which requires users to verify their identity through MFA.
   
-![Sign-in risk policy page](../media/sign-in-risk-policy.png) 
+![Sign-in risk policy page](../media/sign-in-risk-policy.png)
 
 ## The user experience
 
@@ -48,7 +48,7 @@ Both sign-in and user Azure AD Identity Protection risk policies allow the confi
 
  ![Sign-in risk screen set to High](../media/conditions.png)
 
-Now that you’ve read about creating security best practices, let’s walk through the experience of enabling a combined multi-factor authentication and self-service password reset registration for your end users.
+Now that you’ve read about creating security best practices, let’s walk through the experience of enabling a combined multifactor authentication and self-service password reset registration for your end users.
 
 ### Explore how to enable a combined MFA and SSPR registration experience in Azure AD
 
