@@ -24,7 +24,7 @@ Users can also share files and folders through Outlook, Office apps, the OneDriv
 Outlook offers an experience called modern attachments that helps guide users through a seamless sharing of OneDrive files just as if they were email attachments. This feature provides a familiar sharing experience but centralizes storage of attachments in OneDrive, providing collaborative benefits such as version control that are typically lost when users email documents back and forth. In addition, you can configure sharing permissions for files directly from within Outlook. 
  
 ## Viewing shared files
-OneDrive provides a way to find files users have both shared and been shared with them. This view is not a folder and users cannot move items and in and out of these views. In the left navigation pane, select Shared. 
+OneDrive provides a way to find files users have both shared and been shared with them. This view is not a folder and users cannot move items in and out of these views. In the left navigation pane, select Shared. 
 
 ![OneDrive provides a way to find files users have both shared and been shared with them; in the left navigation pane, select Shared](../media/shared-with-me.png)
  
