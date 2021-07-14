@@ -28,7 +28,7 @@ The Azure Virtual Desktop service remains fully functional and isn't affected by
 Active Directory domain controllers are critical components of Azure Virtual Desktop and must be always accessible. To ensure failure doesn't impact their functionality, make sure that you've created multiple domain controllers. If you have domain controllers in an Azure VM, make sure that you've configured those VMs to be in the same Availability Set. If your domain controllers are running as on-premises computers, you should design the connectivity between your on-premises network and Azure virtual network with redundancy. Use Azure ExpressRoute to manage redundant paths and connections. Back up the Active Directory system state and restore if needed. If you're using Azure AD DS, then Microsoft is responsible for maintaining redundant domain controllers and helping protect them from unplanned failures.
 
 >[!Note]
-> To learn more how to protect Azure virtual machines read the following Microsoft Learn module [Protect your virtual machines by using Azure Backup](https://docs.microsoft.com/learn/modules/protect-virtual-machines-with-azure-backup/)
+> To learn more how to protect Azure virtual machines read the following Microsoft Learn module [Protect your virtual machines by using Azure Backup](https://docs.microsoft.com/learn/modules/protect-virtual-machines-with-azure-backup/).
 
 ### Host pools
 
@@ -43,7 +43,7 @@ Virtual networks are managed services and aren't affected by this type of failur
 Depending on your FSLogix storage technology choice, you can configure Azure Backup for Azure Files shares and Azure NetApp Files snapshots. Alternately, you can use the backup service to protect files and folders on server VMs. 
 
 >[!Note]
-> To learn more about Azure Backup and how to protect different services running in Azure use the following article [Back up Azure file shares](https://docs.microsoft.com/azure/backup/backup-afs)
+> To learn more about Azure Backup and how to protect different services running in Azure use the following article [Back up Azure file shares](https://docs.microsoft.com/azure/backup/backup-afs).
 
 ### Master images
 
@@ -90,7 +90,7 @@ The Azure Virtual Desktop service remains fully functional and isn't affected by
 To prepare for this type of failure, you can expand a managed domain to have more than one replica set per Azure AD tenant. Replica sets can be added to any peered virtual network in any Azure region that supports Azure AD DS.
 
 >[!Note]
-> Review the concept and features of Replica sets for Azure Active Directory Domain services on the following link: [Replica sets concepts and features for Azure Active Directory Domain Services](https://docs.microsoft.com/azure/active-directory-domain-services/concepts-replica-sets)
+> Review the concept and features of Replica sets for Azure Active Directory Domain services on the following link: [Replica sets concepts and features for Azure Active Directory Domain Services](https://docs.microsoft.com/azure/active-directory-domain-services/concepts-replica-sets).
 
 If you use on-premises domain controllers, you'll need to configure connectivity to the virtual network in the new region using either a VPN, ExpressRoute, or a virtual wide area network (Virtual WAN). If you use Azure AD DS, you can create an additional replica set in another region. The virtual network in the additional region that's hosting the new replica set must be able to communicate with the network hosting the primary set of Azure AD DS. We recommend you use peering between virtual networks for intra-site replication between replica sets.
 
@@ -119,7 +119,7 @@ In an Azure Virtual Desktop that is connected with your on-premises network, you
 You can use Azure NetApp Files as a storage option for FSXlogix profiles and MSIX app attach because they support cross-region replication. Azure Files with Standard performance also support cross-region replication. You can configure the FSLogix agent to support multiple profile locations, which helps ensure availability if there's a failure. If the primary location fails, the FSLogix agent will be replicated as part of the VM Azure Site Recovery. The agent will automatically attempt to use the profile path that points to the secondary region. 
 
 >[!Note]
-> Learn how to setup Cross-region replication of Azure NetApp Files by reading the following article: [Cross-region replication of Azure NetApp Files volumes](https://docs.microsoft.com/azure/azure-netapp-files/cross-region-replication-introduction),
+> Learn how to setup Cross-region replication of Azure NetApp Files by reading the following article: [Cross-region replication of Azure NetApp Files volumes](https://docs.microsoft.com/azure/azure-netapp-files/cross-region-replication-introduction).
 
 For the active-active scenario and if the RTO/RTA are less than a day, we recommend that you use FSLogix profiles to use Cloud Cache. Cloud Cache is a feature of FSLogix that must be specifically enabled and configured and allows you to use multiple remote locations, which are all continually updated during the user session.
 
