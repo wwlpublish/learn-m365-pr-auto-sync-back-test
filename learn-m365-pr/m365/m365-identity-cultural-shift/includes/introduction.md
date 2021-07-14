@@ -6,7 +6,7 @@ Azure Active Directory (AD) Identity Protection is a tool that allows organizati
 - Investigate risks using data in the portal.
 - Export risk detection data to third-party utilities for further analysis.
 
-![New risky users detected screen image](../media/identity-protection.png) 
+![New risky users detected screen image](../media/identity-protection.png)
 
 Identity Protection uses what Microsoft has learned from Azure AD, Microsoft accounts, and Xbox customers to protect users. Microsoft analyzes 6.5 trillion signals per day to identify and protect customers from threats.
 

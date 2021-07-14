@@ -55,6 +55,7 @@ New-MigrationBatch -Name IMAPImport
    -CSVData ([System.IO.File]::ReadAllBytes("C:\mailboxes.csv")) 
    -AutoStart
 ```
+
 While the batch is running, you can check its progress by using this command:
 
 ``` PowerShell

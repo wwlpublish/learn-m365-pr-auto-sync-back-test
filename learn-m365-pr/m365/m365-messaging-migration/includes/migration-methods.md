@@ -65,8 +65,8 @@ There are two ways to send .pst files to Microsoft for import:
 When the .pst files are present in Azure Storage, you can create a PST import job to get the data into the correct mailboxes in Exchange Online. You must supply a comma-separated file that maps each .pst file to a mailbox that already exists in Exchange Online.
 
 > [!NOTE]
-> Any user who has a .pst file from an old email system can import that data into their inbox by using the tools in Outlook. If you need to support a small number of these users, direct them to Outlook and show them how to add the .pst file to their profile. They can then copy all the data they wish to keep into the correct folders in their mailbox. 
-> 
+> Any user who has a .pst file from an old email system can import that data into their inbox by using the tools in Outlook. If you need to support a small number of these users, direct them to Outlook and show them how to add the .pst file to their profile. They can then copy all the data they wish to keep into the correct folders in their mailbox.
+>
 
 ## Learn more
 

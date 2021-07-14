@@ -4,7 +4,6 @@ In this training, we'll use the following example: You're part of the virtual su
 
 This module walks you through the planning process – from what it takes to move an in-person event to a virtual event to collecting and analyzing feedback from attendees. This module has content for event organizers, producers, presenters, and moderators.
 
-
 :::row:::
     :::column:::
         :::image type="content" source="../../m365-introduction-deliver-virtual-events-using-microsoft-teams/media/organizer-small.png" alt-text="Icon for the Organizer role." border="false":::
