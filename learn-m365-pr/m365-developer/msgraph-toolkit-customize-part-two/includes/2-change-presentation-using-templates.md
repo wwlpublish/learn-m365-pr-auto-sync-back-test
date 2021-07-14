@@ -18,10 +18,10 @@ To add templating to Microsoft Graph Toolkit components, you can use the `<templ
 Multiple data parts are available to template for each component. You can define the part you want to template by using the `data-type` attribute on the `<template>` element. For example, if you want to template the signed-in button part in the Login component, add a `data-type` attribute with a value of `signed-in-button-content`.
 
 ```html
-<mgt-agenda>
+<mgt-login>
 	<template data-type=”signed-in-button-content”> 
 	</template>
-</mgt-agenda>
+</mgt-login>
 ```
 
 ## Select the data to bind to a template
