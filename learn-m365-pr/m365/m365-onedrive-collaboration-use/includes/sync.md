@@ -15,14 +15,17 @@ When users add, change, and delete files and folders from the OneDrive mobile ap
 If a user doesn’t want to sync all of their folders in OneDrive to their computer, they can specify the folders they’d like to sync by unchecking the folders they don’t want to sync in the **Sync your OneDrive files PC** dialog box. The sync settings are unique to each computer.
 
 ## Syncing other files
+
 Users can start syncing a SharePoint or Microsoft Teams library by using the Sync button in the toolbar:
  
 ![Users can start syncing a SharePoint or Microsoft Teams library by using the Sync button in the toolbar](../media/sync-button.png)
 
 ## Using Files On-Demand
+
 OneDrive Files On-Demand helps users access all their files in OneDrive without having to download them and consume storage space. When they turn on Files On-Demand, they’ll see all their files in File Explorer and get new information about each file. New files created online or on another device appear as online-only files, which don’t take up space on their device. They can use the files like they would on any other file on their device.
 
 With OneDrive Files On-Demand, users can:
+
 - Save space on their device by making files online only.
 - Set files and folders to be always available locally on their device.
 - View important information about files, such as whether they are shared.
@@ -35,6 +38,7 @@ With Files On-Demand, users will see new icons next to your files synced to thei
 Users can move online-only files within their OneDrive folder and restore those files through their OneDrive recycle bin. When they search for online-only files by name, OneDrive will let them search the name of those files not on their device. The files-on demand settings are unique to each device, so users should make sure to turn it on for each device where they want to use it.
 
 ## Learn more
+
 - [Sync files with OneDrive on Windows](https://support.office.com/article/sync-files-with-onedrive-in-windows-615391c4-2bd3-4aae-a42a-858262e42a49?azure-portal=true)
 - [Sync SharePoint files with the OneDrive sync app](https://support.office.com/article/sync-sharepoint-files-with-the-onedrive-sync-app-6de9ede8-5b6e-4503-80b2-6190f3354a88?azure-portal=true)
 - [OneDrive release notes](https://support.office.com/article/onedrive-release-notes-845dcf18-f921-435e-bf28-4e24b95e5fc0?ui=en-US&rs=en-US&ad=US?azure-portal=true)
