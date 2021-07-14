@@ -1,4 +1,4 @@
-Before you can deploy your first Azure Virtual Desktop virtual machines (VMs), there are some prerequisite steps to take care of in the Azure portal. You also need to connect to your existing directory service. We’ll discuss the steps you'll need to do to get your environment ready for Azure Virtual Desktop. 
+Before you can deploy your first Azure Virtual Desktop virtual machines (VMs), there are some prerequisite steps to take care of in the Azure portal. You also need to connect to your existing directory service. We’ll discuss the steps you'll need to do to get your environment ready for Azure Virtual Desktop.
 
 The following video gives you an overview of the steps involved. But note that some of the specific steps to prepare for Azure Virtual Desktop are simplified since the video was created. You no longer need to:
 

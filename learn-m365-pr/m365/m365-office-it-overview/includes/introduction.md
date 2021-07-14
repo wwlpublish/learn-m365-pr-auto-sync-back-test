@@ -8,7 +8,7 @@ Microsoft Office is available in both OMicrosoft 365 and Volume Licensing editio
 
 Microsoft 365 Apps and Office 2019 use updated deployment and management tools. The Office Deployment Tool is a lightweight setup.exe bootstrapper that can download, install, and configure Office using an XML configuration file. The new Office Customization Tool is a web-based interface used to author the XML configuration files. The functionality of both tools are built into Microsoft Endpoint Configuration Manager.  
 
-Office servicing has also changed with the move to Click-to-Run packaging. You'll learn about monthly and semi-annual channel updates and how they work for both editions. We’ll also review your options to validate updates before release. 
+Office servicing has also changed with the move to Click-to-Run packaging. You'll learn about monthly and semi-annual channel updates and how they work for both editions. We’ll also review your options to validate updates before release.
 
 In addition, we’ll explore:
 
