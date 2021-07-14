@@ -70,10 +70,6 @@ Presentations are at the heart of any event, in-person or virtual, so your slide
     :::column-end:::
 :::row-end:::
 
-
-
-
-
 If you're using colors to indicate status, pair color with different shapes. This helps people with color blindness to understand the chart.
 
 ### Alternative text

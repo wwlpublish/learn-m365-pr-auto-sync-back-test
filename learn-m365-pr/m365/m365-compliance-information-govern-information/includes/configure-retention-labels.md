@@ -53,7 +53,7 @@ Turn retention on if you want to apply retention settings to this label. Leaving
 
 ### Retain the content
 
-Selecting this option means the content will stay where it is for the time specified. For example, email will stay in mailboxes and documents will stay in SharePoint Online or OneDrive. If a user deletes t   he content, a copy will be placed in a secure location. Copies will also be made of content modified in Exchange Online. Next, you need to decide what happens after the retention period ends. Here are the options:
+Selecting this option means the content will stay where it is for the time specified. For example, email will stay in mailboxes and documents will stay in SharePoint Online or OneDrive. If a user deletes the content, a copy will be placed in a secure location. Copies will also be made of content modified in Exchange Online. Next, you need to decide what happens after the retention period ends. Here are the options:
 
 - **Delete the content automatically**. Content will be deleted without requiring additional action by users or admins.
 - **Trigger a disposition review**. A disposition review is where an individual, like a compliance officer, reviews items that have reached the end of their retention period and decides if they can be safely deleted (disposed). When items reach the end of the retention period, reviewers will receive an email notification and can go to the dispositions page to determine what happens to the item.

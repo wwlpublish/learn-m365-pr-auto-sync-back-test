@@ -2,7 +2,6 @@ As the security analyst for your organization, you understand that your organiza
 
 Here, you’ll learn how you can use Microsoft Defender for Endpoint to build custom reports that will help you to meet those needs.
 
-
 ## What are custom reports?
 
 While Microsoft Defender for Endpoint has built-in reports for visibility on critical information about the security of your endpoints, custom reports can help you to structure security information in ways that are specific your organization's analytical requirements.
