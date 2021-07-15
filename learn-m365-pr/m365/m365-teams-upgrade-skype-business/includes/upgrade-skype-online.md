@@ -30,7 +30,7 @@ If using the Microsoft Teams admin center, you can configure TeamsUpgradePolicy 
 
 1. In the Microsoft Teams admin center, select **Users**, and find and multi-select the checkbox for up to 20 users who should be upgraded.
 1. Select **Edit settings** in the upper left corner of the listview.
-1. In the **Edit settings** pane on the right, under **Teams upgrade**, change **Notify the Skype for Business user** switch to **On**.
+1. In the **Edit settings** pane on the right, under **Teams upgrade**, change the **Notify the Skype for Business user** switch to **On**.
 
    >[!NOTE]
    > If the value of coexistence mode is **Use Org-wide settings,** you won't see this switch, so you'll need to first explicitly set the Coexistence mode for these users to whatever the default value is for the org.
