@@ -54,10 +54,10 @@ Master images don't directly impact a user's ability to connect to a session-hos
 
 ## FSLogix
 
-FSLogix is designed to roam profiles in remote computing environments. It stores a complete user profile in a single container on a SMB file share (e.g. Azure Files or Azure NetApp Files). At sign-in, Azure dynamically attaches this container to the computing environment using natively supported virtual hard disk (VHD) and Virtual Hard Disk v2 (VHDX).
+FSLogix is designed to roam profiles in remote computing environments. It stores a complete user profile in a single container on an SMB file share (e.g. Azure Files or Azure NetApp Files). At sign-in, Azure dynamically attaches this container to the computing environment using natively supported virtual hard disk (VHD) and Virtual Hard Disk v2 (VHDX).
 
 FSLogix profiles are critical to Azure Virtual Desktop environments. They must be available whenever a user needs to connect to and work on a desktop or a RemoteApp. Therefore, FSLogix profiles must be replicated and available in multiple regions.
 
 ## MSIX app attach
 
-MSIX app attach stores application files in a separate MSIX images (VHD/VHDX/CIM) from the operating system. When you open MSIX app attach, the application files are accessed from a VHD. Similar to FSLogix profiles, you should consider replicating MSIX app attach in another region.
+MSIX app attach stores application files as MSIX images (VHD/VHDX/CIM) separate from the operating system. When you open MSIX app attach, the application files are accessed from a VHD. Similar to FSLogix profiles, you should consider replicating MSIX app attach in another region.
