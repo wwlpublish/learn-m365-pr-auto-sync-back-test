@@ -1,2 +1,1 @@
-In this module, you've learned about the prerequisites, considerations, and update channel options for Office. You reviewd considerations about  network optimization, language, policy, and common configurations. Finally, you reviewed the set of readiness tools provided by Microsoft to help you assess the compatibility of Office COM add-ins and VBA Macros. 
-
+In this module, you've learned about the prerequisites, considerations, and update channel options for Office. You reviewed considerations about  network optimization, language, policy, and common configurations. Finally, you reviewed the set of readiness tools provided by Microsoft to help you assess the compatibility of Office COM add-ins and VBA Macros.

@@ -17,7 +17,7 @@ If a user doesn’t want to sync all of their folders in OneDrive to their compu
 ## Syncing other files
 
 Users can start syncing a SharePoint or Microsoft Teams library by using the Sync button in the toolbar:
- 
+
 ![Users can start syncing a SharePoint or Microsoft Teams library by using the Sync button in the toolbar](../media/sync-button.png)
 
 ## Using Files On-Demand

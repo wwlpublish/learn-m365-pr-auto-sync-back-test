@@ -1,4 +1,4 @@
-After you establish your network and directory connections, you can provision the Azure services required for your Azure Virtual Desktop virtual machines (VMs). 
+After you establish your network and directory connections, you can provision the Azure services required for your Azure Virtual Desktop virtual machines (VMs).
 
 ## Create Azure resources
 
@@ -41,4 +41,4 @@ If you created your Azure Active Directory tenant or are using a Visual Studio s
 
 ## Assign licenses to Azure Virtual Desktop users
 
-The final step in managing your user accounts and access is to make sure your initial Azure Virtual Desktop users are licensed. You can assign licenses to users in the **Users** area of the Microsoft 365 admin portal, or you can script it using the Azure Active Directory PowerShell module. 
+The final step in managing your user accounts and access is to make sure your initial Azure Virtual Desktop users are licensed. You can assign licenses to users in the **Users** area of the Microsoft 365 admin portal, or you can script it using the Azure Active Directory PowerShell module.
