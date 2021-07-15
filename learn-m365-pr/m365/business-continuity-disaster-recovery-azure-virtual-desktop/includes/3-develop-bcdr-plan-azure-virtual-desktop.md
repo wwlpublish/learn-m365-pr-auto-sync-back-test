@@ -12,13 +12,13 @@ These region pairs are also used for replication. Storage and many platform as a
 
 An *Availability Set* in Azure is a logical grouping capability that you can use to help ensure that VM resources you place within it are isolated from each other when you deploy them within an Azure datacenter. Availability Sets are made up of _update domains_ and _fault domains_.
 
-:::image type="content" source="../media/3-availability-sets.png" alt-text="Image depicting fault domains and update domains in an availability set." border="true":::
+:::image type="content" source="../media/3-availability-sets.png" alt-text="Diagram depicting fault domains and update domains in an availability set." border="true":::
 
 Update domains ensure that when VM hosts in an Azure datacenter require downtime for maintenance, a subset of your session hosts remain running. When a maintenance event occurs, such as applying a performance or a critical security update, Azure sequences the update through update domains.
 
 Fault domains (FDs) represent physical sections of the datacenter and ensure rack diversity of servers in an availability set. FDs align to the physical separation of shared hardware in the datacenter. If the hardware supporting a server rack becomes unavailable, only that rack of servers would be affected by the outage. When you place your VMs in an Availability Set, they will automatically be spread across multiple FDs. If hardware should fail, only part of your VMs will be impacted.
 
-You can use Availability Set as default resiliency option for Azure Virtual Desktop host pool and if you have domain controllers in an Azure VM.
+You can use Availability Set as the default resiliency option for Azure Virtual Desktop host pool and if you have domain controllers in an Azure VM.
 
 ## Availability Zones
 
@@ -26,7 +26,7 @@ You can use Availability Set as default resiliency option for Azure Virtual Desk
 
 By using Availability Zones, you can distribute VMs in the host pool across different datacenters. VMs are still inside the same region, have higher resiliency, and have a higher formal 99.99 percent high-availability SLA.
 
-:::image type="content" source="../media/3-availability-zones.png" alt-text="Image depicting availability zones." border="true":::
+:::image type="content" source="../media/3-availability-zones.png" alt-text="Diagram depicting three different availability zones." border="true":::
 
 ## Azure Site Recovery
 
@@ -36,7 +36,7 @@ As part of your BCDR plan, you can also use Site Recovery to replicate domain co
 
 Site Recovery is also designed to replicate VM workloads from a primary site or region to a secondary site. You can use it to migrate VMs from other environments, such as on-premises infrastructure, to Azure as well.
 
-:::image type="content" source="../media/3-azure-site-recovery.png" alt-text="Image depicting Azure Site Recovery." border="true":::
+:::image type="content" source="../media/3-azure-site-recovery.png" alt-text="Diagram depicting Azure Site Recovery across two different regions." border="true":::
 
 ### Snapshots and recovery points
 
@@ -62,4 +62,4 @@ As a part of your BCDR strategy for Azure Virtual Desktop, you need to set up a 
 
 ## Domain Name System (DNS)
 
-Active Directory authentication must be available in the disaster recovery region, or connectivity to the on-premises domain must be guaranteed. To ensure that VMs locate domain controllers for authentication ensure, that virtual network in disaster recovery is set up with custom DNS server that can resolce active directory services.
+Active Directory authentication must be available in the disaster recovery region, or connectivity to the on-premises domain must be guaranteed. To ensure that VMs locate domain controllers for authentication, the virtual network in disaster recovery should be set up with a custom DNS server that can resolve active directory services.
