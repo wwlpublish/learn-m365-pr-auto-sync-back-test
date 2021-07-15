@@ -1,6 +1,6 @@
-You’re a security analyst, so you understand that vulnerabilities can manifest at any point. To effectively  address vulnerabilities, you need to effectively identify vulnerabilities across your environment.
+You're a security analyst, so you understand that vulnerabilities can manifest at any point. To effectively  address vulnerabilities, you need to effectively identify vulnerabilities across your environment.
 
-Here, you’ll learn about the software inventory, how to find common vulnerabilities, and the event timeline.
+Here, you'll learn about the software inventory, how to find common vulnerabilities, and the event timeline.
 
 ## Use the software inventory
 

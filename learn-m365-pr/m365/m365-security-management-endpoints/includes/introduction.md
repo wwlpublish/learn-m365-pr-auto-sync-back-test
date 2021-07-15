@@ -1,4 +1,4 @@
-One of the most effective ways to protect your users and data is to use the latest operating system with all security patches and newest security technologies built to address today’s threats.
+One of the most effective ways to protect your users and data is to use the latest operating system with all security patches and newest security technologies built to address today's threats.
 
 Windows 10 is the most secure operating system built by Microsoft and includes the latest security technology available today.
 

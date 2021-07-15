@@ -17,8 +17,8 @@ With Microsoft 365 Defender, security teams can:
 
 - Automatically block attacks and eliminate their persistence to keep them from starting again.
 - Prioritize incidents for investigation and response.
-- Autoheal assets. 
-- Focus unique expertise on cross-domain hunting. 
+- Autoheal assets.
+- Focus unique expertise on cross-domain hunting.
 
 Microsoft 365 Defender suite protects:
 
@@ -33,7 +33,7 @@ View a [video version](https://www.microsoft.com/videoplayer/embed/RE4GsNW) of t
 
 <a href="https://mslearn.cloudguides.com/guides/Protect%20your%20organization%20with%20Microsoft%20365%20Defender">![Protect your organization with Microsoft 365 Defender](../media/protect-organization-microsoft-defender.png)</a>  
 
-Be sure to click the full-screen option in the video player. When you're done, use the **Back** arrow in your browser to come back to this page. 
+Be sure to click the full-screen option in the video player. When you're done, use the **Back** arrow in your browser to come back to this page.
 
 To dynamically identify new threats, Windows Defender Antivirus (part of Microsoft Defender for Endpoint) works with large sets of interconnected data in the Microsoft Intelligent Security Graph and powerful artificial intelligence (AI) systems driven by advanced machine learning models.
 

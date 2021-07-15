@@ -1,6 +1,6 @@
-You’ve learned how to assess your security posture and identify vulnerabilities. Now you can look at how to use Microsoft Defender for Endpoint to improve your security posture.
+You've learned how to assess your security posture and identify vulnerabilities. Now you can look at how to use Microsoft Defender for Endpoint to improve your security posture.
 
-Here, you’ll learn how to remediate vulnerabilities, track remediations, how to handle zero-day vulnerabilities, and more.  
+Here, you'll learn how to remediate vulnerabilities, track remediations, how to handle zero-day vulnerabilities, and more.  
 
 ## Remediate vulnerabilities
 
@@ -81,7 +81,7 @@ To address zero-day vulnerabilities, you can select a recommendation from the li
 
 :::image type="content" source="../media/5-zero-day-security-recommendation.png" alt-text="Security recommendations for zero-day vulnerabilities.":::
 
-You’ll get more information and potential workarounds or mitigation options that can help:
+You'll get more information and potential workarounds or mitigation options that can help:
 
 :::image type="content" source="../media/5-recommendation-zero-day.png" alt-text="Recommendation for zero-day vulnerabilities.":::
 
