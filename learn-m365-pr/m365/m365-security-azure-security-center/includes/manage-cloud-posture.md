@@ -130,7 +130,7 @@ For example, you can configure a continuous export to a Log Analytics workspace:
 
 1. Set **Export enabled** to **On**.
 
-1. You can then select the data type you want to export. For example, **security alerts**. You can also select the specific severity levels of alerts that you want to be exported; for example **high**.
+1. You can then select the data type you want to export. For example, **security alerts**. You can also select the specific severity levels of alerts that you want to be exported; for example, **high**.
 
 1. Under the **export configuration** section, select the resource group where your configuration will be stored.
 

@@ -1,22 +1,22 @@
-After you’ve secured your project team, the next step on your upgrade journey is to ensure that your organization and users are ready for Teams — an activity that you complete in parallel with ensuring your technical readiness. To realize value from Teams, users must actually use it. Simply enabling Teams doesn’t guarantee that you achieve your goal. Users have different use cases and varying learning styles, and they adapt to new technology at different speeds.
+After you've secured your project team, the next step on your upgrade journey is to ensure that your organization and users are ready for Teams—an activity that you complete in parallel with ensuring your technical readiness. To realize value from Teams, users must actually use it. Simply enabling Teams doesn't guarantee that you achieve your goal. Users have different use cases and varying learning styles, and they adapt to new technology at different speeds.
 
-**By assessing your organization’s readiness, you can determine how receptive (or not) your users are likely to be to changing the way they work and adopting new technology.** Understanding how users react to change empowers your organization to proactively address concerns, adjust your rollout plan to get optimal buy-in, and identify users who can help you facilitate the change with their peers.
+**By assessing your organization's readiness, you can determine how receptive (or not) your users are likely to be to changing the way they work and adopting new technology.** Understanding how users react to change empowers your organization to proactively address concerns, adjust your rollout plan to get optimal buy-in, and identify users who can help you facilitate the change with their peers.
 
 ![Activity icon](../media/activity.png) **Activity**
 
-Use the following conversation starters to conduct an organizational readiness assessment and document the culture of your organization when it comes to change. This information can help inform how much awareness and training you might need to implement for your project. Don’t worry about exact numbers. This exercise represents a general understanding of your organizational culture. If you're not sure where to start, evaluate a past rollout; this can help you anticipate how users might react to change and help you proactively address the reactions you expect.
+Use the following conversation starters to conduct an organizational readiness assessment and document the culture of your organization when it comes to change. This information can help inform how much awareness and training you might need to implement for your project. Don't worry about exact numbers. This exercise represents a general understanding of your organizational culture. If you're not sure where to start, evaluate a past rollout; this can help you anticipate how users might react to change and help you proactively address the reactions you expect.
 
 - What percentage of users fall into each bucket?
 
   |Early adopters|Informed users|Laggards|
   |-|-|-|
-  |These users request the solution before it’s available.|These users accept the solution as soon as its value is demonstrated.|These users reject the solution, even when pushed into change.|
+  |These users request the solution before it's available.|These users accept the solution as soon as its value is demonstrated.|These users reject the solution, even when pushed into change.|
 
 - What percentage of users fall into each competency?
 
   |Self-motivated|Team players|Hand-holding seekers|
   |-|-|-|
-  |These learners seek out resources, learn by doing.|These users enjoy group and interactive training; they’ll go along with coworkers.|These users expect "white glove" or one-on-one assistance.|
+  |These learners seek out resources, learn by doing.|These users enjoy group and interactive training; they'll go along with coworkers.|These users expect "white glove" or one-on-one assistance.|
 - In addition to this service deployment, how many other changes are happening?
 
   |Minimal|Median|Transformational|
@@ -33,11 +33,11 @@ Organize this information by business unit and leader to categorize the segments
 
 Communication and managing expectations are key elements in a successful change project. It's important to regularly communicate your overall vision and your progress toward that goal to your stakeholders and others in your organization. *Stakeholders* are people who have an interest in and influence over your project, regardless of rank. They may not have direct accountability for anything you're working on, but they are influential in the organization, especially if they decide to put up marked resistance to the change.
 
-We recommend meeting directly with your stakeholders on a regular basis. Your goal at this point is to listen and learn additional information about their business. If you have a large adoption team, consider assigning individuals on your project team to manage key stakeholder relationships. Use the following questions to drive your stakeholder conversation:
+We recommend meeting directly with your stakeholders regularly. Your goal at this point is to listen and learn additional information about their business. If you have a large adoption team, consider assigning individuals on your project team to manage key stakeholder relationships. Use the following questions to drive your stakeholder conversation:
 
-- What are some of the organization’s challenges or pain points related to communication and collaboration?
+- What are some of the organization's challenges or pain points related to communication and collaboration?
 - What are the areas in which your organization would like to improve?
-- What are the organization’s strategic initiatives or current transformation projects that Teams can support?
+- What are the organization's strategic initiatives or current transformation projects that Teams can support?
 - What methods of communication and collaboration are typically better received by your organization than others?
 - What is the process for drafting, distributing, and sharing information?
 
@@ -47,7 +47,7 @@ This initial interview provides a baseline for further interaction. Listen for p
 |-|
 |Decide your rhythm and method for communicating with your stakeholders in alignment with your company culture. Target your communications to the various levels of engagement and interest across your organization. <br><br>Option: To create an ongoing knowledge base of information about your project, consider using news pages in your SharePoint communication site. Your news page library (site pages in the SharePoint site associated with your planning team) can be made public so they can be shared with all interested parties.|
 
-Ensure you are not only sending regular status reports via both traditional email and potentially using SharePoint News pages but leverage other methods of communications such as:
+Ensure you are not only sending regular status reports via both traditional email and potentially using SharePoint News pages but use other methods of communications such as:
 
 - Periodic, dedicated 1:1 meetings
 - Leadership meetings

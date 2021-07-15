@@ -8,7 +8,7 @@ Let's look at the journey of a file and discuss how Microsoft technologies can h
 
 #### User edits the file
 
-- The label is updated based on the user's changes and the content's sensitivity. This ensure the file has the right protection.
+- The label is updated based on the user's changes and the content's sensitivity. This ensures the file has the right protection.
 
 #### User shares the file with another user in the organization
 

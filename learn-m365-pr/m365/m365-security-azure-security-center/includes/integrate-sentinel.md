@@ -34,7 +34,6 @@ You complete the following steps to integrate Azure Sentinel with Azure Security
 
     :::image type="content" source="../media/5-enable-incidents-inline.png" lightbox="../media/5-enable-incidents-expanded.png" alt-text="Create incidents":::
 
-
 ### Explore how to modernize your security operations with Microsoft Azure Sentinel
 
 View a [video version](https://www.microsoft.com/videoplayer/embed/RE4GnLf) of the interactive guide (captions available in more languages).

@@ -4,9 +4,9 @@
 
 > As someone in \<Team\/Department Name\> I want to \<description of task or outcome\> using \<specific technology\>. I'll know this is successful when \<solution success measure\>.
 
-In the slide above this reads as follows:
+In the slide above, this reads as follows:
 
-> As someone in *Sales Management* I want to *have a single version of the sales proposal that everyone has access to rather than managing multiple versions in email. Using Microsoft Teams & a SharePoint site to centrally store and share a single version of a sales proposal that my team can edit together using co-authoring in Word and PowerPoint.* I’ll know this is successful when *my sales team creates proposals more easily, giving them more time to close deals*.
+> As someone in *Sales Management* I want to *have a single version of the sales proposal that everyone has access to rather than managing multiple versions in email. Using Microsoft Teams & a SharePoint site to centrally store and share a single version of a sales proposal that my team can edit together using co-authoring in Word and PowerPoint.* I'll know this is successful when *my sales team creates proposals more easily, giving them more time to close deals*.
 
 **The outcome of this work is to create a library of business scenarios by stakeholder area that can be prioritized by impact and difficulty.** Even as you do broad scale enablement you will want to ramp up your ability to do more complex scenarios. Work with your IT personnel and get support from Microsoft to define a plan that will create healthy service usage. Moving business processes in their entirety to Microsoft Teams keeps people from "experience fragmentation". This occurs when only a part of a process or department is in the new experience. Employees are then forced to work in the old and new ways simultaneously, which increases change fatigue. This is a high risk to your project and should be tolerated for only limited periods of time.
 

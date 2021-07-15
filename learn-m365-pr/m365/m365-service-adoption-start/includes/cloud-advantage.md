@@ -4,7 +4,7 @@ Many employees are still emailing spreadsheets, storing them on their local driv
 
 A common mistake in user adoption programs is to tout the benefits of moving to the cloud from the perspective of the organization or its IT department. These are not motivating factors for most employees. Employees are paid to drive results in a particular discipline and so we must share with them how changes like the implementation of Microsoft Teams or other collaboration and communication solutions will benefit them.
 
-First and foremost, we can reduce their interaction with IT. Properly governed Microsoft Teams and other Microsoft 365 workloads can support a self-service mode. This allows employees to create project teams on-demand and when they need them. This reduction of friction with IT and IT services is a capability that will allow you to deliver a more secure environment for your company data by reducing your employee’s reliance on consumer and shadow software.
+First and foremost, we can reduce their interaction with IT. Properly governed Microsoft Teams and other Microsoft 365 workloads can support a self-service mode. This allows employees to create project teams on-demand and when they need them. This reduction of friction with IT and IT services is a capability that will allow you to deliver a more secure environment for your company data by reducing your employee's reliance on consumer and shadow software.
 
 |![Activity icon](../media/activity.png) Activity|
 |-|
@@ -28,7 +28,7 @@ Your stakeholders and executives are employees too. They may have unique needs, 
 
 |![Activity icon](../media/activity.png) Activity|
 |-|
-|Meet with the executive assistants in your company on a regular basis in a relaxed environment. Encourage them to share with you the challenges they have in supporting their executives and the watercooler buzz about the change that is being implemented. This group of individuals are normally very influential regarding any change. Engage with them early and often!|
+|Meet with the executive assistants in your company regularly in a relaxed environment. Encourage them to share with you the challenges they have in supporting their executives and the water cooler buzz about the change that is being implemented. This group of individuals are normally influential regarding any change. Engage with them early and often!|
 
 ## Employee benefits of moving to the cloud
 
@@ -36,13 +36,13 @@ Your stakeholders and executives are employees too. They may have unique needs, 
 
 Every employee wants to know, "What's in it for me?" when you start discussing changing the way they work. Too often we make the mistake to start talking about product features and organizational benefits instead of empathizing with their day to day struggle to collaborate, communicate, and get work done. This can easily be changed by shifting the center of gravity of the change program to be the employee experience.
 
-The graphic above shows four different personas with common issues. A *persona* is a profile of a type of employee or role in your organization. It normally includes their title or role, years of service, years in role, core pain points, commonly used tools, metadata like region and year of experience, whether they work from home or not and the like. Persona mapping can be extremely detailed however for the purposes of our course, and your project, we recommend keeping it simple.
+The graphic above shows four different personas with common issues. A *persona* is a profile of a type of employee or role in your organization. It normally includes their title or role, years of service, years in role, core pain points, commonly used tools, metadata like region and year of experience, whether they work from home or not and the like. Persona mapping can be detailed however for the purposes of our course, and your project, we recommend keeping it simple.
 
 This simple mapping shows a user, their role, a common problem and how to address it with Microsoft 365. The outcome of this work is to clearly identify what is in it for the employee if they join you on the change journey.
 
 |![Activity icon](../media/activity.png) Activity|
 |-|
-|Conduct short, 15-minute interviews with employees at your work. Ask them the following questions:<br>- "What do you like about how we collaborate here?"<br>- "What tools do you use frequently to collaborate?"<br>- "What is most annoying about trying to collaborate and get work done at our company?"<br><br>For each interviewee note how long they have been at your company, what role they currently have, and how long they have been in it. Try to interview a few senior leaders, middle managers and new employees to get a quick baseline of their perspectives. It is best to do these in person if possible so that you can observe the body language and tone of the person you are interviewing. You can also conduct these via video chat or if need be by written response through a Form. <br><br> Use this information to begin to form a picture of how collaboration services are viewed in your company. Remember to thank people for their feedback!|
+|Conduct short, 15-minute interviews with employees at your work. Ask them the following questions:<br>- "What do you like about how we collaborate here?"<br>- "What tools do you use frequently to collaborate?"<br>- "What is most annoying about trying to collaborate and get work done at our company?"<br><br>For each interviewee, note how long they have been at your company, what role they currently have, and how long they have been in it. Try to interview a few senior leaders, middle managers and new employees to get a quick baseline of their perspectives. It is best to do these in person if possible so that you can observe the body language and tone of the person you are interviewing. You can also conduct these via video chat or if need be by written response through a Form. <br><br> Use this information to begin to form a picture of how collaboration services are viewed in your company. Remember to thank people for their feedback!|
 
 |![Activity icon](../media/activity.png) Example Activity for Contoso|
 |-|

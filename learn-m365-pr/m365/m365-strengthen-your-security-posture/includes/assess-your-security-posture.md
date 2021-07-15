@@ -59,6 +59,6 @@ The higher the Microsoft Secure Score, the more resilient your endpoints are to 
 
 :::image type="content" source="../media/3-secure-score-inline.png" lightbox="../media/3-secure-score-expanded.png" alt-text=" A screenshot showing the Microsoft Secure Score for devices card on the dashboard.":::
 
-Just as with exposure score, you select **Improve score** to learn how to improve your score. Here's an example showing the kind of security recommendations that you might get:
+As with exposure score, you select **Improve score** to learn how to improve your score. Here's an example showing the kind of security recommendations that you might get:
 
 :::image type="content" source="../media/3-secure-score-recommendations-inline.png" lightbox="../media/3-secure-score-recommendations-expanded.png" alt-text="A screenshot showing the Microsoft Secure Score recommended actions.":::

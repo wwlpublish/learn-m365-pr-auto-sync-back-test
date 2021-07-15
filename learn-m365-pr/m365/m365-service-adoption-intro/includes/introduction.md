@@ -19,7 +19,7 @@ Before, during, and after you complete this course, we invite you to join a comm
 
 ## What are your goals for this course?
 
-Service Adoption Specialists (SAS) come from many backgrounds. You may have a variety of goals in completing this course. We'd like to suggest the following goals, based on our knowledge of the industry and the outcomes that are required for success. Feel free to add or remove goals depending on your career stage, job title and accountabilities, and interests.
+Service Adoption Specialists (SAS) come from many backgrounds. You may have various goals in completing this course. We'd like to suggest the following goals, based on our knowledge of the industry and the outcomes that are required for success. Feel free to add or remove goals depending on your career stage, job title and accountabilities, and interests.
 
 - Learn the basic tenets of successful service adoption.
 - Supplement your existing technical or organizational change knowledge.
@@ -59,4 +59,4 @@ Although, this training is designed as a standalone experience, there are additi
 - [Coffee in the Cloud](https://www.youtube.com/channel/UCs2IXBqperxWVe2ozrr3Gdg) YouTube channel with long & short form videos for Champions and IT Pros
 - [Case Study: User adoption at Best Buy - "Best Buy Ninjas"](https://channel9.msdn.com/Events/SharePoint-Conference/2014/SPC296) (Video presentation from SharePoint Conference, 1:13 duration)
 
-Join the community of [M365 Champions and Adoption Specialists](https://aka.ms/O365Champions) to share your experience and learn from others who are driving adoption of cloud services.
+Join the community of [Microsoft 365 Champions and Adoption Specialists](https://aka.ms/O365Champions) to share your experience and learn from others who are driving adoption of cloud services.

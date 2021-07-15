@@ -7,7 +7,7 @@ There are four strategic pillars to content and container governance in Microsof
 - Protect your corporate assets
 - Ensure accountability
 
-You can achieve these strategic pillars by making governance decisions that prioritize the user experience in balance with the need for security. 
+You can achieve these strategic pillars by making governance decisions that prioritize the user experience in balance with the need for security.
 
 Make the following decisions. (At this point, these decisions apply only to Phase 2).
 

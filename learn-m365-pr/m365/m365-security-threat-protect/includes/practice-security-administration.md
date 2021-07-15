@@ -14,7 +14,7 @@ It provides the following solutions to gaps across security operations, security
 - Linked machine vulnerability and security configuration assessment data in the context of exposure discovery
 - Built-in remediation processes through Microsoft Intune and Microsoft Endpoint Manager
 
-For example, using the security recommendations present in the portal, an administrator could request that an application be updated, which would then notify the Intune team to remediate the request.
+For example, using the security recommendations present in the portal, an administrator could request an application update, which would then notify the Intune team to remediate the request.
 
 [![Security recommendations](../media/security-recommendations.png)](../media/security-recommendations-magnify.png#lightbox)
 
@@ -30,7 +30,7 @@ The attack surface reduction set of capabilities provides the first line of defe
 - **Exploit protection** applies mitigation techniques to apps your organization uses, both individually and organization-wide.
 - **Network protection** extends the malware and social engineering protection offered by Microsoft Defender SmartScreen in Microsoft Edge to cover network traffic and connectivity on your organization's devices.
 - **Controlled folder access** helps protect files in key system folders from changes made by malicious and suspicious apps, including file-encrypting ransomware malware.
-- **Attack surface reduction** reduces the attack surface of your applications with intelligent rules that stop the vectors used by Office-, script- and mail-based malware.
+- **Attack surface reduction** reduces the attack surface of your applications with intelligent rules that stop the vectors used by Office-, script-, and mail-based malware.
 - **Network firewall** uses host-based, two-way network traffic filtering that blocks unauthorized network traffic flowing into or out of the local device.
 
 The  below screenshot shows a chart of detections against an attack surface reduction rule that is protecting office applications:
@@ -54,7 +54,7 @@ The following proxy and network settings should be considered:
 - The embedded Microsoft Defender for Endpoint sensor runs in system context using the LocalSystem account. The sensor uses Microsoft Windows HTTP Services (WinHTTP) to enable communication with the Microsoft Defender for Endpoint cloud service. 
 - The WinHTTP configuration setting is independent of the Windows Internet (WinINet) internet browsing proxy settings and can only discover a proxy server by using the following auto discovery methods:
   - Transparent proxy
-  - Web Proxy Auto-discovery Protocol (WPAD)
+  - Web Proxy Autodiscovery Protocol (WPAD)
 
 ## Endpoint detection and response
 
@@ -74,7 +74,7 @@ Microsoft Defender for Endpoint offers a wide breadth of visibility on multiple 
 
  [![Automated investigations](../media/automated-investigations.png)](../media/automated-investigations-magnify.png#lightbox)
 
-The automated investigation feature uses various inspection algorithms, and processes used by analysts (such as playbooks) to examine alerts and take immediate remediation action to resolve breaches. This significantly reduces alert volume, allowing security operations experts to focus on more sophisticated threats and other high value initiatives. In the following investigation screenshot, we can see that malware was detected, as well as automatically remediated:
+The automated investigation feature uses various inspection algorithms, and processes used by analysts (such as playbooks) to examine alerts and take immediate remediation action to resolve breaches. This significantly reduces alert volume, allowing security operations experts to focus on more sophisticated threats and other high value initiatives. In the following investigation screenshot, we can see that malware was detected, and automatically remediated:
 
  [![Malware detected and remediated](../media/malware-detected-remediated.png)](../media/malware-detected-remediated-magnify.png#lightbox)
 

@@ -33,7 +33,7 @@ You'll need to complete some steps. For example, you can do the following higher
 
 Attackers frequently look for accessible machines through open management ports such as Secure Shell (SSH) or Remote Desktop Protocol (RDP). This means that all of the virtual machines in your environment could be targets for an attacker. If a virtual machine becomes compromised, it can be used to attack other resources in your environment.
 
-Of course, you want to prevent this from ever happening by perhaps closing as many ports as you can at all times. The problem is that, because your users also use these ports, you can't practically always keep them closed. Here's where just-in-time (JIT) can help you. JIT enables you to lock ports for inbound traffic on your virtual machines, but allow them to be opened temporarily when necessary.
+You want to prevent this from ever happening by closing as many ports as you can at all times. The problem is that, because your users also use these ports, you can't practically always keep them closed. Here's where just-in-time (JIT) can help you. JIT enables you to lock ports for inbound traffic on your virtual machines, but allow them to be opened temporarily when necessary.
 
 You select the ports on the virtual machine you want to block for inbound traffic. Azure Security Center creates "deny all inbound traffic" rules in the Azure Firewall rules and network security (NSG) rules for the ports you specified. When a user wants to access a virtual machine, Azure Security Center checks whether they have the correct permissions, and then updates the NSGs and Azure Firewall (if there is one). This action allows inbound traffic for that user's IP address (or range), but only for a specified duration. After this duration, Azure Security Center restores the NSGs and Azure Firewall to how they were before access was granted to the user.
 
@@ -51,7 +51,7 @@ JIT on VMs**.
 
     :::image type="content" source="../media/4-select-enable-virtual-machines.png" alt-text="Enable JIT on virtual machines":::
 
-1. You'll see a list of ports that Azure Security Center recommends to protect. These include 22 for SSH and 3389 for RDP. You select any of these ports if you want to make changes to their configuration. The **Add port configuration** pane opens up for you to make changes. When you're done, select **OK** at the bottom.
+1. You'll see a list of ports that Azure Security Center recommends protecting. These include 22 for SSH and 3389 for RDP. You select any of these ports if you want to make changes to their configuration. The **Add port configuration** pane opens up for you to make changes. When you're done, select **OK** at the bottom.
 
     :::image type="content" source="../media/4-add-port-configuration.png" alt-text="Add port configuration":::
 
@@ -60,11 +60,11 @@ JIT on VMs**.
 
 ### Adaptive application controls
 
-Adaptive application controls are a sophisticated way for you to only allow specific applications to run your machines. Your organization probably has a group of machines that usually run the same processes on a day-to-day basis. Azure Security Center uses machine learning to analyze the kind of applications that run on your machines and create an allowed list of known and safe apps that can be further customized. Through adaptive application controls, you can get security alerts if an application other than the "allowed" ones you've defined ever runs on any machine. 
+Adaptive application controls are a sophisticated way for you to only allow specific applications to run your machines. Your organization probably has a group of machines that usually run the same processes on a day-to-day basis. Azure Security Center uses machine learning to analyze the kind of applications that run on your machines and create an allowed list of known and safe apps that can be further customized. Through adaptive application controls, you can get security alerts if an application other than the "allowed" ones you've defined ever runs on any machine.
 
 Here's how you can take advantage of adaptive application controls.
 
-If Azure Security Center identifies machines in your environment that usually run a similar set of applications, you'll find the following in your Azure Security Center recommendations pane: **Adaptive application controls for defining safe applications should be enabled on your machines**. You can find the recommendations pane by selecting **Recommendations** under **Resource security hygiene** on the left pane of Azure Security Center.
+If Azure Security Center identifies machines in your environment that usually run a similar set of applications, you'll find the following recommendations in your Azure Security Center recommendations pane: **Adaptive application controls for defining safe applications should be enabled on your machines**. You can find the recommendations pane by selecting **Recommendations** under **Resource security hygiene** on the left pane of Azure Security Center.
 
 1. When you see the recommendation, you can select **Adaptive application controls** on the left pane of Azure Security Center. This opens the adaptive application controls pane.
 
@@ -82,13 +82,13 @@ If Azure Security Center identifies machines in your environment that usually ru
 
     1. **Recommended applications**: You can review the list of applications that are common to this group of machines and are recommended to be allowed to run on them.
 
-    1. **More applications**: You can also review a list of applications that either run less often on these machines, or are known for being exploitable. When you see a warning icon, it means this specific application can be used by an attacker to bypass the allow list. Be careful when you review this list.
+    1. **More applications**: You can also review a list of applications that either run less often on these machines, or are known for being exploitable. When you see a warning icon, it means this specific application can be used by an attacker to bypass the allowlist. Be careful when you review this list.
 
 1. When you're done, select **Audit** at the bottom.
 
 ### Vulnerability assessment
 
-Vulnerabilities in your machines can have a serious impact on your environment. Your machines could become vulnerable for different reasons. For example, some applications installed on your virtual machines could have vulnerabilities that might lead to an attacker breaching your virtual machine, and subsequently accessing your wider environment. Azure Security Center provides vulnerability scanning to protect your machines and the wider environment. 
+Vulnerabilities in your machines can have a serious impact on your environment. Your machines could become vulnerable for different reasons. For example, some applications installed on your virtual machines could have vulnerabilities that might lead to an attacker breaching your virtual machine, and subsequently accessing your wider environment. Azure Security Center provides vulnerability scanning to protect your machines and the wider environment.
 
 Azure Security Center tries to find out whether there's a vulnerability assessment solution installed on your machines. If a machine doesn't have one installed, Azure Security Center gives the following recommendation for that machine: **A vulnerability assessment solution should be enabled on your virtual machines**.
 

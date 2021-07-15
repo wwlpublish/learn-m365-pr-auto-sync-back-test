@@ -15,7 +15,7 @@ There are six knowledge areas required to drive adoption. They are:
 - Portfolio management
 - Leadership capability
 
-Mastering each of these areas increases in complexity depending on the size and regional distribution of your organization. 
+Mastering each of these areas increases in complexity depending on the size and regional distribution of your organization.
 
 > [!NOTE]
 > Before proceeding make sure you've read the **Read before proceeding** section in the the previous unit. We'll be using these assumptions as we discuss the practical application of the knowledge areas above.
@@ -24,11 +24,11 @@ Mastering each of these areas increases in complexity depending on the size and 
 
 >![Organizational development](../media/org-dev.png)
 
-As a Service Adoption professional, you're at the nexus of driving organizational and behavioral change for your company. At its heart, this change is about people. Centering your project, priorities, and enthusiasm around people can help sustain the energy required to lead this change. 
+As a Service Adoption professional, you're at the nexus of driving organizational and behavioral change for your company. At its heart, this change is about people. Centering your project, priorities, and enthusiasm around people can help sustain the energy required to lead this change.
 
-*Organizational change* is when an organization must change its strategies, processes, culture, or technologies. Change happens at different paces in a company. Members of the executive suite, given their experience, may adapt to change more readily, especially if they are spurred by competitive pressure. On the other hand, in many organizations, the remote employees, accustomed to solving issues for themselves, most quickly adapt to change. 
+*Organizational change* is when an organization must change its strategies, processes, culture, or technologies. Change happens at different paces in a company. Members of the executive suite, given their experience, may adapt to change more readily, especially if they are spurred by competitive pressure. On the other hand, in many organizations, the remote employees, accustomed to solving issues for themselves, most quickly adapt to change.
 
-What's common knowledge in the executive suite isn't always common to the majority of employees in their day-to-day work. This doesn't mean that individual employees don't care about company strategy or initiatives. In fact, they generally care very much. But sweeping high-level statements from execs often miss what's important to individual employees. Then middle managers, who are often ill-equipped or under too much pressure to deliver results, must bring out the nuances of communication. It's important to know the baseline knowledge of the employees you are attempting to serve. Assessing their knowledge is a fundamental step to crafting a successful adoption plan and will be discussed further in following modules.
+What's common knowledge in the executive suite isn't always common to most employees in their day-to-day work. This doesn't mean that individual employees don't care about company strategy or initiatives. In fact, they generally care very much. But sweeping high-level statements from execs often miss what's important to individual employees. Then middle managers, who are often ill-equipped or under too much pressure to deliver results, must bring out the nuances of communication. It's important to know the baseline knowledge of the employees you are attempting to serve. Assessing their knowledge is a fundamental step to crafting a successful adoption plan and will be discussed further in following modules.
 
 >![The gap between strategy and experience](../media/org-dev-1.png)
 
