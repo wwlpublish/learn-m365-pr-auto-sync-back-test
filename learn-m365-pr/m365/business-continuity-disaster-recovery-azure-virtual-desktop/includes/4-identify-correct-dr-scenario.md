@@ -16,7 +16,7 @@ The rest of the unit will explore three different failure scenarios and how to p
  - Scenario 3. Azure region outage
 
 >[!Note]
-> To learn more about detailed steps for protecting individual components of Azure Virtual Desktop follow the links in the Summary unit.
+> To learn more about detailed steps on how to protect individual components of Azure Virtual Desktop, please refer to the **Learn more** section in the **Summary** unit of this module.
 
 ## Scenario 1. Local corruption of data, metadata, or resources
 
