@@ -1,11 +1,11 @@
-Whether a user is located on-premises or in the cloud is known as the user’s Skype for Business home:
+Whether a user is located on-premises or in the cloud is known as the user's Skype for Business home:
 
 - Users who are homed on-premises interact with on-premises Skype for Business servers.
 - Users who are homed online may interact with Skype for Business Online service.
 
-Teams users inherently have a Skype for Business home whether they use Skype for Business or not. If you have on-premises Skype for Business users that are also using Teams (side by side), those users are homed on-premises. 
+Teams users inherently have a Skype for Business home whether they use Skype for Business or not. If you have on-premises Skype for Business users that are also using Teams (side by side), those users are homed on-premises.
 
-When you move a user online, you can either allow them to use Skype for Business Online (and, optionally, Teams) or you can make them Teams Only. If your organization is already using Teams, it’s strongly recommended that you move them to Teams Only mode, which will ensure that routing of all incoming chats and calls lands in their Teams client.
+When you move a user online, you can either allow them to use Skype for Business Online (and, optionally, Teams) or you can make them Teams Only. If your organization is already using Teams, it's strongly recommended that you move them to Teams Only mode, which will ensure that routing of all incoming chats and calls lands in their Teams client.
 
 ## Moving users
 
@@ -28,7 +28,7 @@ To move users between on-premises and the cloud, you must use an account with su
 
 - In the on-premises environment, the user performing the move must have the **CSServerAdminstrator** role in Skype for Business Server.
 - In Microsoft 365, the user performing the move must either be a Global Administrator or it must have both Skype for Business Administrator and User Administrator roles.
- 
+
 ## Other considerations
 
 The policies (such as to control messaging, meeting, and calling behavior) in on-premises and online environments are independent. You may want to consider configuring any policies in the environment and assigning them to the user before you move that user from on-premises to the cloud, so that they have the correct configuration as soon as they are migrated to online.
@@ -38,4 +38,3 @@ The policies (such as to control messaging, meeting, and calling behavior) in on
 - [Move users between on-premises and the cloud](/SkypeForBusiness/hybrid/move-users-between-on-premises-and-cloud?azure-portal=true)
 - [Use PowerShell for automation](/microsoftteams/upgrade-basic-powershell?azure-portal=true)
 - [Setting your coexistence and upgrade settings](/MicrosoftTeams/setting-your-coexistence-and-upgrade-settings?azure-portal=true)
-

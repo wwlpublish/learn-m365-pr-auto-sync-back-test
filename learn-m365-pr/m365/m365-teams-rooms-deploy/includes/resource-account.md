@@ -26,7 +26,7 @@ The Teams Rooms Premium license adds additional features such as a Microsoft-man
    - If that is the case, you can then move forward with configuring auto accept.
    - If there is not an existing resource, create a new Exchange resource and then configure auto accept within Exchange.
 
-2. Once the auto-accept parameters for the Exchange mailbox have been configured, you will need to set the password to never expire. *Resource accounts must have their password set to not expire*. Otherwise, the account will not be able to sign in to Teams Rooms when it’s password has expired and no one will be able to join meetings in that room until someone physically changes the password on the Teams Rooms application.
+2. Once the auto-accept parameters for the Exchange mailbox have been configured, you will need to set the password to never expire. *Resource accounts must have their password set to not expire*. Otherwise, the account will not be able to sign in to Teams Rooms when it's password has expired and no one will be able to join meetings in that room until someone physically changes the password on the Teams Rooms application.
 
 3. Will you enable this account for Skype for Business?
 

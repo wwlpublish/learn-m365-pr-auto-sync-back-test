@@ -57,7 +57,7 @@ Set-CalendarProcessing -identity mtr-stp-avanti-1@contoso.com ‐ProcessExternal
 
 There are some mailbox settings you may want to enable to add some security. For example, there may be an agenda discussing sensitive information added to a meeting invite. You want to make sure the Exchange or Teams Rooms administrators cannot sign in to Outlook and read the agenda.
 
-The following `Set-CalendarProcessing` command will remove sensitive information that is stored in the mailbox from being seen by those who shouldn’t have access to confidential information.
+The following `Set-CalendarProcessing` command will remove sensitive information that is stored in the mailbox from being seen by those who shouldn't have access to confidential information.
 
 ```powershell
 Set-CalendarProcessing -identity $MailBoxAlias

@@ -4,7 +4,7 @@ So how do you get started with Teams Rooms? How do you know what the available o
 
 ## Learning objectives
 
-In this module, you’ll learn:
+In this module, you'll learn:
 
 - Describe what makes Microsoft Teams meetings so powerful. 
 - Explain the difference between personal and shared devices.

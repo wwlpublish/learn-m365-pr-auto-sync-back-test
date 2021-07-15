@@ -22,7 +22,7 @@ You can upgrade your users to TeamsOnly mode by assigning the UpgradeToTeams ins
 
 ### Step 1: Identify groups of users for upgrade
 
-Often organizations choose to upgrade their organizations in waves of users. You'll want to identify these users first so you can easily search for them in the Microsoft Teams admin center. Alternatively, you may want to use PowerShell to more efficiently do this. 
+Often organizations choose to upgrade their organizations in waves of users. You'll want to identify these users first so you can easily search for them in the Microsoft Teams admin center. Alternatively, you may want to use PowerShell to more efficiently do this.
 
 ### Step 2: Set notification for the users in the current upgrade wave (optional)
 

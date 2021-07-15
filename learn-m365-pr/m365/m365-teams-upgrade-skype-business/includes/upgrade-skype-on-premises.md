@@ -4,7 +4,7 @@ To upgrade to Teams from Skype for Business or Microsoft Lync on-premises, you'l
 
 Setting up hybrid connectivity is the first step in moving your on-premises environment to the cloud.
 
-If you have on-premises Skype for Business users that are also using Teams (side by side), those users do not have the ability to interoperate with Skype for Business users from their Teams client, nor communicate with users in federated organizations, from their Teams client. To gain this functionality in Teams, these users must be moved from Skype for Business on-premises to the cloud, which requires configuring Skype for Business hybrid mode. In addition, for the best experience, these users should be in TeamsOnly mode, which ensures all incoming calls and chats from any user land in the user’s Teams client.
+If you have on-premises Skype for Business users that are also using Teams (side by side), those users do not have the ability to interoperate with Skype for Business users from their Teams client, nor communicate with users in federated organizations, from their Teams client. To gain this functionality in Teams, these users must be moved from Skype for Business on-premises to the cloud, which requires configuring Skype for Business hybrid mode. In addition, for the best experience, these users should be in TeamsOnly mode, which ensures all incoming calls and chats from any user land in the user's Teams client.
 
 You can learn more about hybrid connectivity in the [Understanding hybrid connectivity](/learn/modules/m365-teams-upgrade-hybrid/index) module.
 
@@ -16,7 +16,7 @@ For an organization moving to Teams, TeamsOnly mode is the final destination for
 
 Prior to users reaching TeamsOnly mode, organizations can optionally use any of the Skype for Business coexistence modes to ensure predictable communication between users who are in TeamsOnly mode and users who aren't yet. The purpose of the Skype for Business coexistence modes (SfBOnly, SfBWithTeamsCollab, SfBWithTeamsCollabAndMeetings) is to provide a predictable experience for end users as organizations transition from Skype for Business to Teams.
 
-When a user is in any of the Skype for Business modes, all incoming chats and calls are routed to the user’s Skype for Business client. To avoid end-user confusion and ensure proper routing, calling and chat functionality in the Teams client is disabled when a user is in any of the Skype for Business modes. Similarly, meeting scheduling in Teams is explicitly disabled when users are in the SfBOnly or SfBWithTeamsCollab modes, and explicitly enabled when a user is in the SfBWithTeamsCollabAndMeetings mode.
+When a user is in any of the Skype for Business modes, all incoming chats and calls are routed to the user's Skype for Business client. To avoid end-user confusion and ensure proper routing, calling and chat functionality in the Teams client is disabled when a user is in any of the Skype for Business modes. Similarly, meeting scheduling in Teams is explicitly disabled when users are in the SfBOnly or SfBWithTeamsCollab modes, and explicitly enabled when a user is in the SfBWithTeamsCollabAndMeetings mode.
 
  Depending on your requirements, you can assign the appropriate coexistence mode based on the upgrade path that your organization has chosen. For more information, see [Migration and interoperability guidance for organizations using Teams together with Skype for Business](/MicrosoftTeams/migration-interop-guidance-for-teams-with-skype) and [Setting your coexistence and upgrade settings](https://aka.ms/SkypeToTeams-SetCoexistence).
 
@@ -24,12 +24,12 @@ When a user is in any of the Skype for Business modes, all incoming chats and ca
 
 The final step is to move users to Teams. This might involve one or two steps depending on your current on-premises environment.
 
-In an on-premises deployment of Skype for Business Server that is enabled for hybrid, you can move users between the on-premises environment and the cloud (whether to Microsoft Teams or to Skype for Business Online). Whether a user is located on-premises or in the cloud is known as the user’s Skype for Business home:
+In an on-premises deployment of Skype for Business Server that is enabled for hybrid, you can move users between the on-premises environment and the cloud (whether to Microsoft Teams or to Skype for Business Online). Whether a user is located on-premises or in the cloud is known as the user's Skype for Business home:
 
 - Users who are homed on-premises interact with on-premises Skype for Business servers.
 - Users who are homed online may interact with Skype for Business Online service.
 
-Teams users inherently have a Skype for Business home, whether they use Skype for Business or not. If you have on-premises Skype for Business users that are also using Teams (side by side), those users are homed on-premises. Teams users with Skype for Business on-premises do not have the ability to interoperate with Skype for Business users from their Teams client, nor can they communicate from Teams with users in a federated organization. Such functionality is only available after the user is moved from Skype for Business on-premises to online. When you move a user to online, you can either allow them to use Skype for Business Online (and, optionally, Teams) or you can make them Teams Only. If your organization is already using Teams, it’s recommended that you move them to TeamsOnly mode, which will ensure that routing of all incoming chats and calls lands in their Teams client.
+Teams users inherently have a Skype for Business home, whether they use Skype for Business or not. If you have on-premises Skype for Business users that are also using Teams (side by side), those users are homed on-premises. Teams users with Skype for Business on-premises do not have the ability to interoperate with Skype for Business users from their Teams client, nor can they communicate from Teams with users in a federated organization. Such functionality is only available after the user is moved from Skype for Business on-premises to online. When you move a user to online, you can either allow them to use Skype for Business Online (and, optionally, Teams) or you can make them Teams Only. If your organization is already using Teams, it's recommended that you move them to TeamsOnly mode, which will ensure that routing of all incoming chats and calls lands in their Teams client.
 
 ### Prerequisites
 

@@ -44,7 +44,7 @@ By default, installation occurs automatically at a time that the Update Orchestr
 
 ### Group Policy: Configure Automatic Updates
 
-The **Configure Automatic Updates** Group Policy controls multiple stages of the update process, such as scheduling the update installation or requiring the user to download or install the update. If misconfigured, this policy can slow the update process. That’s why we recommend leaving this policy as **Not Configured**. The Group Policy path for this policy is **Computer Configuration > Administrative Templates > Windows Components > Windows Update > Configure Automatic Updates**.
+The **Configure Automatic Updates** Group Policy controls multiple stages of the update process, such as scheduling the update installation or requiring the user to download or install the update. If misconfigured, this policy can slow the update process. That's why we recommend leaving this policy as **Not Configured**. The Group Policy path for this policy is **Computer Configuration > Administrative Templates > Windows Components > Windows Update > Configure Automatic Updates**.
 
 #### Require end-user action to install updates
 
@@ -123,7 +123,7 @@ Use the  **Specify active hours range for auto restarts** policy to set the rang
 
 :::image type="content" source="../media/4-specify-active-hours-expanded.png" lightbox="../media/4-specify-active-hours-inline.png" alt-text="Specify active hours range for auto restarts.":::
 
-You can enable the policy and configure it for the number of hours you want to allow users to have as a maximum active hours range. The allowed values are between eight and 18 hours; the default is 18 hours. We recommend configuring a maximum range of 12 hours to balance the user’s usage and to ensure enough time to update outside of active hours.
+You can enable the policy and configure it for the number of hours you want to allow users to have as a maximum active hours range. The allowed values are between eight and 18 hours; the default is 18 hours. We recommend configuring a maximum range of 12 hours to balance the user's usage and to ensure enough time to update outside of active hours.
 
 **Microsoft recommendation**: do not configure this policy and allow Intelligent active hours to take effect, or allow your users to configure active hours for a better user experience.
 
@@ -136,7 +136,7 @@ Microsoft Intune does not currently provide the ability to configure the maximum
 :::image type="content" source="../media/4-set-active-hour-range-for-auto-restarts-expanded.png" lightbox="../media/4-set-active-hour-range-for-auto-restarts-inline.png" alt-text="Set active hour range for auto restarts in Microsoft Intune.":::
 
 > [!WARNING]
-> Configuring the **Turn off auto-restart for updates during active hours** Group Policy will override intelligent active hours or user-configured active hours. When configured, this will remove the active hours setting from the user’s Windows Update Settings page.
+> Configuring the **Turn off auto-restart for updates during active hours** Group Policy will override intelligent active hours or user-configured active hours. When configured, this will remove the active hours setting from the user's Windows Update Settings page.
 
 ### Group Policy: Update Power Policy for Cart Restarts
 

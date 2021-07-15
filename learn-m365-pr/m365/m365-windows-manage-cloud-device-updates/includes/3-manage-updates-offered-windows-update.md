@@ -1,6 +1,6 @@
 Windows Update offers different types of updates, including feature updates and quality updates. As the admin for your organization, you want to control how these updates are provided to your devices.
 
-In this unit, you’ll learn about how to manage which updates are offered from Windows Update.
+In this unit, you'll learn about how to manage which updates are offered from Windows Update.
 
 ## Understand feature updates
 
@@ -8,7 +8,7 @@ Every six months, Microsoft releases a new feature update. By default, a device 
 
 :::image type="content" source="../media/3-check-updates.png" alt-text="Check for updates.":::
 
-Additionally, if the feature update version the device is on is close to its end of service (EOS), the device will be offered a new feature update. Commercial customers, however, can specify which feature update they want and when they want it to be offered to the device. In fact, you have a few different ways of doing so. First let’s discuss how to use Microsoft Intune to select a feature release for deployment.
+Additionally, if the feature update version the device is on is close to its end of service (EOS), the device will be offered a new feature update. Commercial customers, however, can specify which feature update they want and when they want it to be offered to the device. In fact, you have a few different ways of doing so. First let's discuss how to use Microsoft Intune to select a feature release for deployment.
 
 ### Select a feature release version
 
@@ -24,7 +24,7 @@ Additionally, if the feature update version the device is on is close to its end
 
 ### Get access to pre-release feature updates
 
-In addition to deploying a specific feature update, you can validate upcoming feature updates by enrolling some devices for Release Preview. To do this, you must first join the [Windows Insider Program for Business](https://insider.windows.com/for-business?azure-portal=true); also see [Get started with the Windows Insider Program](/windows-insider/get-started?azure-portal=true). This will give you early access to the addressed issues and features that will be released soon. To receive the latest feature update before it’s generally available, configure the following:
+In addition to deploying a specific feature update, you can validate upcoming feature updates by enrolling some devices for Release Preview. To do this, you must first join the [Windows Insider Program for Business](https://insider.windows.com/for-business?azure-portal=true); also see [Get started with the Windows Insider Program](/windows-insider/get-started?azure-portal=true). This will give you early access to the addressed issues and features that will be released soon. To receive the latest feature update before it's generally available, configure the following:
 For Group Policy, enable the **Manage preview builds** policy and specify when to receive preview builds and feature updates.
 
 :::image type="content" source="../media/3-manage-preview-builds-expanded.png" lightbox="../media/3-manage-preview-builds-inline.png" alt-text="Figure 4. Manage preview builds.":::
@@ -34,7 +34,7 @@ For configuration service provider (CSP), use the following policies:
 - [Update/ManagePreviewBuilds](/windows/client-management/mdm/policy-csp-update#update-managepreviewbuilds?azure-portal=true)
 - [Update/BranchReadinessLevel](/windows/client-management/mdm/policy-csp-update#update-branchreadinesslevel?azure-portal=true)
 
-Validating the preview release on at least 1% of the devices in your organization will help to increase your confidence about the upcoming feature update. You can report any problems you find for free to Microsoft’s customer service representatives or the Feedback Hub so that they fixed before release.
+Validating the preview release on at least 1% of the devices in your organization will help to increase your confidence about the upcoming feature update. You can report any problems you find for free to Microsoft's customer service representatives or the Feedback Hub so that they fixed before release.
 
 ### Defer a feature update deployment
 
@@ -72,7 +72,7 @@ The number of groups you have and who is in the various groups will vary by size
 
 :::image type="content" source="../media/3-risk-tolerance.png" alt-text="Risk and tolerance":::
 
-Risk tolerance can also be based upon device type such as airplanes, ATMs, or other machines that cannot be taken offline due to the critical nature of the job they perform. Let’s take a look at an example organization with 54,000 employees running a variety of hardware, apps, etc. in various buildings.
+Risk tolerance can also be based upon device type such as airplanes, ATMs, or other machines that cannot be taken offline due to the critical nature of the job they perform. Let's take a look at an example organization with 54,000 employees running a variety of hardware, apps, etc. in various buildings.
 
 :::image type="content" source="../media/3-organization-summary-expanded.png" lightbox="../media/3-organization-summary-inline.png" alt-text="Organization summary":::
 

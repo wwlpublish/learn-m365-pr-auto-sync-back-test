@@ -1,5 +1,5 @@
 The available functionality in Teams depends on the user's coexistence mode, as set by **TeamsUpgradePolicy.** The following table summarizes the behavior:
- 
+
 |User's effective mode|Experience in Teams client|
 |-|-|
 |Any Skype for Business mode|Calling, Chat, and self-presence are disabled.|
@@ -13,8 +13,8 @@ The following screenshots illustrate the difference between TeamsOnly or Islands
 In addition, self-presence is not available in the other modes, as shown here.
 
 ![Screenshot that shows that self-presence isn't available](../media/no-self-presence.png)
- 
-From a technical perspective, a user’s mode governs several aspects of the user's experience:
+
+From a technical perspective, a user's mode governs several aspects of the user's experience:
 
 - **Incoming routing.** This governs in which client (Teams or Skype for Business) incoming chats and calls land.
 - **Presence publishing.** This governs whether the user's presence that is shown to other users based on their activity is shown.
@@ -27,4 +27,4 @@ For more details on routing and presence behavior based on mode, see **Coexisten
 
 When you're done with a link, use the **Back** arrow in your browser to come back to this page.
 
-- [Teams client experience and conformance to coexistence modes ](/MicrosoftTeams/teams-client-experience-and-conformance-to-coexistence-modes)
+- [Teams client experience and conformance to coexistence modes](/MicrosoftTeams/teams-client-experience-and-conformance-to-coexistence-modes)

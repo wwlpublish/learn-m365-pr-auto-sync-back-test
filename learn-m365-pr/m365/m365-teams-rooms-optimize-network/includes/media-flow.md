@@ -19,6 +19,6 @@ No. The media will travel to the Microsoft datacenter closest to the first perso
 
 ![map of hosting locations when tenants are globally dispersed](../media/tenant-meeting-location.png)
 
-## Learn more 
+## Learn more
 
 - [Microsoft Teams call flows](/microsoftteams/microsoft-teams-online-call-flows?azure-portal=true)

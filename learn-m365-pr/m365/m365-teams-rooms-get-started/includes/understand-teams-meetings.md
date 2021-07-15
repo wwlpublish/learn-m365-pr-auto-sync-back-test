@@ -22,9 +22,9 @@ Microsoft Teams offers easy, high-quality experiences using cloud-based technolo
 
 Audio conferencing allows meeting attendees to call in from a mobile or cell phone while they're traveling, or dial in using a traditional telephone if they have poor internet connectivity. Microsoft audio conferencing is available in 72 countries with dial-in numbers for 90 countries and 400 cities.
 
-You can also dial out to over 190 countries to bring people into a meeting via audio conferencing. The Interactive Voice Response is available in over 44 languages and dialects. 
+You can also dial out to over 190 countries to bring people into a meeting via audio conferencing. The Interactive Voice Response is available in over 44 languages and dialects.
 
-Microsoft Teams audio conferencing is an excellent solution for attendees who need to dial in to participate in a meeting. 
+Microsoft Teams audio conferencing is an excellent solution for attendees who need to dial in to participate in a meeting.
 
 ## Learn more
 

@@ -1,8 +1,8 @@
-You may be surprised to read that Microsoft operates one of the largest networks on the planet. Microsoft has datacenters across the globe and we need to get them all connected at super high speed with super-low latency. To accomplish this, Microsoft has hundreds of thousands of route miles of privately owned fiber. Microsoft’s fiber optic network could stretch to the moon and back, three times over!
+You may be surprised to read that Microsoft operates one of the largest networks on the planet. Microsoft has datacenters across the globe and we need to get them all connected at super high speed with super-low latency. To accomplish this, Microsoft has hundreds of thousands of route miles of privately owned fiber. Microsoft's fiber optic network could stretch to the moon and back, three times over!
 
 The Microsoft network is optimized for media. Optimization is done in several ways, including using fiber connections between regions, prioritizing media traffic throughout the Microsoft global network, and placing edge sites (entry points to the Microsoft network) close to users to reduce latency. Unlike the general internet, or even corporate networks, the Microsoft network knows what media to expect and acts accordingly to prioritize things like Microsoft Teams media.
 
-In the image below, you can see how you generally connect to a website such as LinkedIn or MSN. You have full control and full responsibility for your network until you route to the internet.  The internet offers limited control. You can only choose your Internet Service Provider (ISP) and maybe a DNS provider. Even though the internet can be a little wild, it works pretty well. Your users can get to LinkedIn or MSN just fine. 
+In the image below, you can see how you generally connect to a website such as LinkedIn or MSN. You have full control and full responsibility for your network until you route to the internet.  The internet offers limited control. You can only choose your Internet Service Provider (ISP) and maybe a DNS provider. Even though the internet can be a little wild, it works pretty well. Your users can get to LinkedIn or MSN just fine.
 
 ![Corporate network to internet data flow](../media/corporate-internet-data-flow.png)
 
@@ -24,12 +24,12 @@ What does this mean? If you have DNS configured so all DNS requests get forwarde
 
 The local branch needs local DNS so the Microsoft DNS servers can realize where they are located and give them the optimal DNS response.
 
-You also want to minimize your time transmitting data on the internet. The internet doesn't support Quality of Service. On the internet, there are things you can’t control:
+You also want to minimize your time transmitting data on the internet. The internet doesn't support Quality of Service. On the internet, there are things you can't control:
 
 - You can't control the routing.
 - You can't control what other network traffic is there.
-- You can’t control bandwidth.
-- You can’t control much!
+- You can't control bandwidth.
+- You can't control much!
 
 The less time you spend on the internet connecting to Microsoft 365, the better your performance will be. Similarly, the more time you spend on the Microsoft network, the better your performance will be.
  
@@ -55,9 +55,9 @@ Do you need to increase bandwidth when implementing Microsoft 365? To help you a
 
 ![Bandwidth impact](../media/bandwidth-impact.png)
 
-## Learn more 
+## Learn more
 
 - [Microsoft peering locations](https://www.peeringdb.com/asn/8075?azure-portal=true)
 - [Microsoft 365 and Office 365 URLs and IP address ranges](/microsoftteams/office-365-urls-ip-address-ranges?azure-portal=true)
 - [Microsoft 365 network connectivity principles](/microsoft-365/enterprise/microsoft-365-network-connectivity-principles?azure-portal=true)
-- [Networking up (to the cloud) — One architect’s viewpoint](/microsoft-365/solutions/networking-design-principles?azure-portal=true)
+- [Networking up (to the cloud) — One architect's viewpoint](/microsoft-365/solutions/networking-design-principles?azure-portal=true)

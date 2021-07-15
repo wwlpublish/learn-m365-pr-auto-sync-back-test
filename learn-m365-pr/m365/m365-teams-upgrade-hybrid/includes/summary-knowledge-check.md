@@ -1,4 +1,4 @@
-In this module, you learned to facilitate moving an on-premises Skype environment to the cloud by setting up hybrid connectivity, including how to configure connectivity, move users between on-premises and cloud, and disable hybrid connectivity once you’ve completed the migration.
+In this module, you learned to facilitate moving an on-premises Skype environment to the cloud by setting up hybrid connectivity, including how to configure connectivity, move users between on-premises and cloud, and disable hybrid connectivity once you've completed the migration.
 
 Now that you have completed this module, you should be able to:
   

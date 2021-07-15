@@ -13,7 +13,7 @@ Microsoft Defender for Identity provides the following benefits:
 
 Microsoft Defender for Identity monitors and analyzes user activities and information across your network, such as permissions and group membership. It then creates a behavioral baseline for each user. Microsoft Defender for Identity then identifies anomalies with adaptive built-in intelligence, giving you insights into suspicious activities and events, revealing the advanced threats, compromised users, and insider threats facing your organization. Microsoft Defender for Identity's proprietary sensors monitor organizational domain controllers, providing a comprehensive view for all user activities from every device.
 
-[ ![Overview of user activities](../media/user-activities-view.png) ](../media/user-activities-view-magnify.png#lightbox)
+[![Overview of user activities](../media/user-activities-view.png)](../media/user-activities-view-magnify.png#lightbox)
 
 ## Protect user identities and reduce the attack surface
 
@@ -22,7 +22,7 @@ Microsoft Defender for Identity provides you invaluable insights on identity con
 ![Security Report user improvement suggestions](../media/security-report-improvement-action-cropped.png)
 
 ## Identify suspicious activities and advanced attacks across the cyber-attack kill-chain
- 
+
 Typically, attacks are launched against any accessible entity, such as a low-privileged user, and then quickly move laterally until the attacker gains access to valuable assets – such as sensitive accounts, domain administrators, and highly sensitive data. Microsoft Defender for Identity has a large range of detections across the Kill-chain from **reconnaissance** through to **compromised credentials** to **lateral movements** and **domain dominance**.
 
 ![Lateral movement across the kill chain](../media/lateral-movement-across-kill-chain.png)
@@ -41,6 +41,6 @@ This is not the complete set of detections, but it shows the breadth of detectio
 
 View a [video version](https://www.microsoft.com/videoplayer/embed/RE4Gq4n) of the interactive guide (captions available in more languages).
 
-<a href="https://mslearn.cloudguides.com/guides/Detect%20suspicious%20activities%20and%20potential%20attacks%20with%20Microsoft%20Defender%20for%20Identity">![Detect suspicious activities and potential attacks with Microsoft Defender for Identity](../media/detect-suspicious-activities.png)</a> 
+<a href="https://mslearn.cloudguides.com/guides/Detect%20suspicious%20activities%20and%20potential%20attacks%20with%20Microsoft%20Defender%20for%20Identity">![Detect suspicious activities and potential attacks with Microsoft Defender for Identity](../media/detect-suspicious-activities.png)</a>
 
-Be sure to click the full-screen option in the video player. When you're done, use the **Back** arrow in your browser to come back to this page. 
+Be sure to click the full-screen option in the video player. When you're done, use the **Back** arrow in your browser to come back to this page.
