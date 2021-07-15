@@ -10,7 +10,7 @@ The disaster-recovery process requires coordination between each of the procedur
 
 RPO and RTO may be perceived as being balanced against one another, so that a customer may decide to allow for longer recovery times to attain higher recovery points. If recovery time is an issue for a customer due to available bandwidth or risk of downtime, that customer may not be able to achieve a high RPO.
 
-The rest of the unit will explore three different failure scenarios and how to prepare BCDR for Azure Virtual Desktop:
+The rest of this unit will explore three different failure scenarios and how to prepare BCDR for Azure Virtual Desktop:
  - Scenario 1. Local corruption of data, metadata, or resources
  - Scenario 2. Single datacenter of Availability Zone failure within an Azure region
  - Scenario 3. Azure region outage
