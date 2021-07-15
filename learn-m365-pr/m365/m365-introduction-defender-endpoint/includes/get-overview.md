@@ -34,15 +34,15 @@ To help understand how Microsoft Defender for Endpoint can protect your organiza
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4vnC4]
 
-Microsoft Defender for Endpoint's architecture consists of the following components:
+Microsoft Defender for Endpoint’s architecture consists of the following components:
 
 ### Sensors
 
-You install sensors on your devices to gather security-related information on each device, and send that information over to your organization's Microsoft Defender for Endpoint tenant. Sensors enable you to detect breaches, investigate events, collect information for security analytics, and more. Sensors also enable you to trigger actions on devices, such as gathering suspicious files, or isolating a device from the network.
+You install sensors on your devices to gather security-related information on each device, and send that information over to your organization’s Microsoft Defender for Endpoint tenant. Sensors enable you to detect breaches, investigate events, collect information for security analytics, and more. Sensors also enable you to trigger actions on devices, such as gathering suspicious files, or isolating a device from the network.
 
 ### Dedicated tenant
 
-During onboarding, a Microsoft Defender for Endpoint tenant provisioned for your organization. Tenants are isolated from other tenants. This means your organization's data is never shared with other tenants, and it's only accessible to your organization. Additionally, all access audited to ensure your data remains protected.  Your tenant relies on its own components including:
+During onboarding, a Microsoft Defender for Endpoint tenant provisioned for your organization. Tenants are isolated from other tenants. This means your organization’s data is never shared with other tenants, and it’s only accessible to your organization. Additionally, all access audited to ensure your data remains protected.  Your tenant relies on its own components including:
 
 - **A built-in dictionary**
   - Each tenant comes with a built-in dictionary that defines behavioral rules, anomaly detection algorithms, to detect suspicious events when gathering sensor data from your devices.

@@ -1,8 +1,8 @@
 Exchange lets your organization store and organize content in a hierarchy that's easy to browse. Public folders and their contents are included in Outlook, where users can view, browse, and search them.
 
-Because you can enable public folders to receive mail, you can also use them to archive discussions and distribution group threads. You can add a public folder's email address to any of your distribution groups, automatically archiving emails sent to the group.
+Because you can enable public folders to receive mail, you can also use them to archive discussions and distribution group threads. You can add a public folder’s email address to any of your distribution groups, automatically archiving emails sent to the group.
 
-However, there are better tools for sharing and collaborating on documents, like SharePoint or OneDrive. Unlike those tools, public folders don't provide any versioning or change control. Additionally, public folders aren't intended to function as personal email archives, as this undermines the goal of an organization's mailbox limits.
+However, there are better tools for sharing and collaborating on documents, like SharePoint or OneDrive. Unlike those tools, public folders don't provide any versioning or change control. Additionally, public folders aren’t intended to function as personal email archives, as this undermines the goal of an organization's mailbox limits.
 
 ## Understand the public folder architecture
 
@@ -18,7 +18,7 @@ Public folder mailboxes, therefore, contain both the hierarchy of the folders an
 
 ## Create the primary public folder mailbox using the Exchange admin center (EAC)
 
-You can access the EAC from the Microsoft 365 admin center. By default, the admin center's options are collapsed. To choose the EAC link, you'll first expand the menu by selecting **… Show all**, then selecting the **Exchange** link under **Admin centers**.
+You can access the EAC from the Microsoft 365 admin center. By default, the admin center’s options are collapsed. To choose the EAC link, you'll first expand the menu by selecting **… Show all**, then selecting the **Exchange** link under **Admin centers**.
 
 ![Access the Exchange admin center](../media/access-exchange-admin-center.png)
 
@@ -98,7 +98,7 @@ You can see a reference to the primary public folder mailbox by using this Power
 Get-OrganizationConfig | Format-List RootPublicFolderMailbox
 ```
 
-When you've finished managing Exchange Online, close your remote PowerShell session with:
+When you’ve finished managing Exchange Online, close your remote PowerShell session with:
 
 ```powershell
 Remove-PSSession $Session

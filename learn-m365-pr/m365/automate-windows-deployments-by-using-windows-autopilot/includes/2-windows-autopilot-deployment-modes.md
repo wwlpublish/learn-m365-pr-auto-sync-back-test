@@ -25,7 +25,7 @@ Self-deploying mode joins the device into Azure Active Directory, enrolls the de
 
 ## Reset devices using Windows Autopilot
 
-During a reset, Windows Autopilot Reset removes personal files, apps, and settings from a device and then reapplies the device's original settings. Throughout the process, the device maintains its identity connection to Azure AD and its management connection to Intune so that the device is once again ready for use. Windows Autopilot Reset takes the device back to a business-ready state, allowing the next user to sign in and get productive quickly and simply.
+During a reset, Windows Autopilot Reset removes personal files, apps, and settings from a device and then reapplies the device’s original settings. Throughout the process, the device maintains its identity connection to Azure AD and its management connection to Intune so that the device is once again ready for use. Windows Autopilot Reset takes the device back to a business-ready state, allowing the next user to sign in and get productive quickly and simply.
 
 The Windows Autopilot Reset process automatically retains information from the existing device:
 

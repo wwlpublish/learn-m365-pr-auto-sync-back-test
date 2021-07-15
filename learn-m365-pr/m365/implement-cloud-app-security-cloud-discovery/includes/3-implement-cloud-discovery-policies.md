@@ -37,7 +37,7 @@ To create a policy using a template:
 2. Locate a suitable template and select **Create policy**.
 3. Enter the required information and then select **Create**.
 
-For example, if you're working in an Activity log, with files, or investigating accounts, you can create a policy based on a working query. To create a policy from a query, use the following procedure:
+For example, if you’re working in an Activity log, with files, or investigating accounts, you can create a policy based on a working query. To create a policy from a query, use the following procedure:
 
 1. In **Activity log**, enter your query.
 2. When you have defined the query, select **New policy from search**.
@@ -80,7 +80,7 @@ As mentioned, app discovery policies enable you to set notification alerts when 
    8. In the **Alerts** section, you can enable an alert by email or text message (or both) for each matching event.
 
    > [!TIP]
-   > You'll need to define the email addresses and phone numbers in the appropriate text boxes.
+   > You’ll need to define the email addresses and phone numbers in the appropriate text boxes.
 
    9. Finally, in the Governance section, choose to tag discovered apps as:
 

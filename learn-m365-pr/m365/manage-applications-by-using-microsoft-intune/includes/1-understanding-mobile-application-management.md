@@ -2,7 +2,7 @@ Intune Mobile Application Management (MAM) refers to the suite of Intune managem
 
 If you use MAM without enrollment (MAM-WE), a work or school-related app that contains sensitive data can still be managed on almost any device, including personal devices in bring-your-own-device (BYOD) scenarios. Many productivity apps, such as the Microsoft Office apps, can be managed by Intune MAM.
 
-Your employees use mobile devices for both personal and work tasks. While making sure your employees can be productive, you want to prevent data loss, intentional and unintentional. You will also want to protect company data that is accessed from devices that are not managed by you. You can use Intune app protection policies independent of any mobile-device management (MDM) solution. This independence helps you protect your company's data with or without enrolling devices in a device management solution. By implementing app-level policies, you can restrict access to company resources and keep data within the purview of your IT department.
+Your employees use mobile devices for both personal and work tasks. While making sure your employees can be productive, you want to prevent data loss, intentional and unintentional. You will also want to protect company data that is accessed from devices that are not managed by you. You can use Intune app protection policies independent of any mobile-device management (MDM) solution. This independence helps you protect your company’s data with or without enrolling devices in a device management solution. By implementing app-level policies, you can restrict access to company resources and keep data within the purview of your IT department.
 
 Intune MAM supports two configurations:
 

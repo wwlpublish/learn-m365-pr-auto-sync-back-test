@@ -1,4 +1,4 @@
-All new files that are created through Office.com are automatically saved to a user's OneDrive. Users can store over 320+ different file types in OneDrive and upload files up to 100 GB in size. Files and folders can be uploaded directly in the browser once signed into OneDrive:
+All new files that are created through Office.com are automatically saved to a user’s OneDrive. Users can store over 320+ different file types in OneDrive and upload files up to 100 GB in size. Files and folders can be uploaded directly in the browser once signed into OneDrive:
  
 ![Files and folders can be uploaded directly in the browser](../media/upload-browser.png)
 
@@ -24,7 +24,7 @@ If a user accidentally deletes a file or folder in OneDrive, they may be able to
 
 Items are kept for 93 days from the time users delete them, unless the Recycle bin is full or they are manually deleted from the site collection Recycle Bin.
 
-If many files get deleted, overwritten, corrupted, or infected by malware, users can restore their entire OneDrive to a previous time. Files restore enables your users to undo all the actions that occurred on both files and folders within the last 30 days. **Files restore** uses version history and the recycle bin to restore, so it's subject to the same restrictions as those features. Deleted files can't be restored after they've been removed from the recycle bin. If files or folders cannot be restored, a log file will be generated. You can take control of a user's OneDrive and perform single file or full restores if it is necessary.
+If many files get deleted, overwritten, corrupted, or infected by malware, users can restore their entire OneDrive to a previous time. Files restore enables your users to undo all the actions that occurred on both files and folders within the last 30 days. **Files restore** uses version history and the recycle bin to restore, so it’s subject to the same restrictions as those features. Deleted files can’t be restored after they’ve been removed from the recycle bin. If files or folders cannot be restored, a log file will be generated. You can take control of a user’s OneDrive and perform single file or full restores if it is necessary.
 
 ## Explore how to restore a user's OneDrive files in Microsoft 365
 

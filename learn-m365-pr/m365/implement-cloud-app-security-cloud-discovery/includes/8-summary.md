@@ -1,4 +1,4 @@
-As a security administrator at Contoso, you've been involved with implementing Microsoft Cloud App Security to help Contoso meet its security goals. You have used Cloud Discovery in Microsoft Cloud App Security to learn about the apps being used in Contoso.
+As a security administrator at Contoso, you’ve been involved with implementing Microsoft Cloud App Security to help Contoso meet its security goals. You have used Cloud Discovery in Microsoft Cloud App Security to learn about the apps being used in Contoso.
 
 You now know how to configure Cloud Discovery to help discover apps being used in your organization. You also learned how to implement Cloud Discovery policies, and how to configure the Cloud App Security log collector. In addition, you learned how to integrate Cloud App Security with Microsoft Defender for Endpoint and non-Microsoft systems.
 

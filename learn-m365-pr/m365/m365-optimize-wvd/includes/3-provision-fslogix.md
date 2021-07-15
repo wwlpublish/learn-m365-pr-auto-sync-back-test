@@ -132,7 +132,7 @@ The initial sign-in will take a little longer than usual. It's a one-time delay 
 
 1. Go back to your **Storage Account** in Azure.
 1. Go to the **File Share**.
-1. You'll see the new virtual disk.
+1. You’ll see the new virtual disk.
 
    :::image type="content" source="../media/3-profile-files.png" alt-text="Screenshot that shows the user profile disk in the Azure file share..":::
 

@@ -1,4 +1,4 @@
-As a security administrator at Contoso, you've been involved with the early stages of planning for the control of critical corporate data during the transition to Microsoft 365. Having completed this module, you're now able to configure IP addresses, import groups, configure admin roles, and external administrative access to your organization's tenant.
+As a security administrator at Contoso, you’ve been involved with the early stages of planning for the control of critical corporate data during the transition to Microsoft 365. Having completed this module, you’re now able to configure IP addresses, import groups, configure admin roles, and external administrative access to your organization’s tenant.
 
 Now that you've completed this module, you should be able to:
 

@@ -16,7 +16,7 @@ Our cloud infrastructure and offerings meet a broad set of international and ind
 
 ## Regulatory compliance
 
-We understand that for our customers to fully realize the benefits of the cloud, they must be able to trust their cloud service provider. Our infrastructure and suite of cloud services are built from the ground up to address the rigorous security and privacy requirements of our customers. We help our customers comply with national, regional, and industry-specific requirements governing the collection and use of individuals' data by providing the most comprehensive set of compliance offerings of any cloud service provider.
+We understand that for our customers to fully realize the benefits of the cloud, they must be able to trust their cloud service provider. Our infrastructure and suite of cloud services are built from the ground up to address the rigorous security and privacy requirements of our customers. We help our customers comply with national, regional, and industry-specific requirements governing the collection and use of individuals’ data by providing the most comprehensive set of compliance offerings of any cloud service provider.
 
 ## Learn more
 

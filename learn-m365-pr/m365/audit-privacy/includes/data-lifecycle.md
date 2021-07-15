@@ -1,8 +1,8 @@
-Microsoft is committed to protecting the security of our customers' information. Microsoft implements a Defense-In-Depth strategy to protect customer data and support data against accidental, unauthorized, or unlawful access, disclosure, alteration, loss, or destruction. Our approach uses multiple layers of security and privacy controls to provide greater protection.
+Microsoft is committed to protecting the security of our customers’ information. Microsoft implements a Defense-In-Depth strategy to protect customer data and support data against accidental, unauthorized, or unlawful access, disclosure, alteration, loss, or destruction. Our approach uses multiple layers of security and privacy controls to provide greater protection.
 
 As an example, consider the topic of access control. Our account management systems enforce Zero Standing Access (ZSA) and facilitate Just-In-Time (JIT) access, implementing the principle of least privilege to protect our systems and customer information against unauthorized access. Additional complementary controls include only allowing connections to the production environment from authorized Secure Access Workstations, multifactor authentication to verify the identity of engineers, strong encryption to protect data-at-rest and data-in-transit, and extensive logging and monitoring to detect suspicious behavior and escalate potential incidents using our security incident response process.
 
-Microsoft's Defense-In-Depth protects data through the entire data lifecycle, beginning with data collection and ending with its destruction when data is no longer needed.
+Microsoft’s Defense-In-Depth protects data through the entire data lifecycle, beginning with data collection and ending with its destruction when data is no longer needed.
 
 ![data lifecycle workflow - starting from collection, processing, third party sharing, retention, and destruction](../media/data-lifecycle.png)
 

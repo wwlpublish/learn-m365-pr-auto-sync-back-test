@@ -1,4 +1,4 @@
-In this module, we'll explain Office activation and packaging options, Office servicing for software update management, and how to inform software update approaches based on how devices are used.
+In this module, we’ll explain Office activation and packaging options, Office servicing for software update management, and how to inform software update approaches based on how devices are used.
 
 ## Office activation and packaging options
 
@@ -6,7 +6,7 @@ Office is available as part of Microsoft 365 or, in volume licensing editions, w
 
 Microsoft 365 Apps and Office 2019 versions both use the same application packaging, called **Click-to-Run**, and share the same installation approach. You can also use Group Policy with Microsoft 365 Apps and Office 2019 volume licensing editions. 
 
-A common misperception is that all Click-to-Run packages use subscription activation, but that's not true. Office 2019 apps are only available as Click-to-Run packages and use the same volume activation methods, KMS and MAK, that they've used since Office 2007. Microsoft 365 versions of Office use Microsoft 365 user-based subscription activation.
+A common misperception is that all Click-to-Run packages use subscription activation, but that’s not true. Office 2019 apps are only available as Click-to-Run packages and use the same volume activation methods, KMS and MAK, that they’ve used since Office 2007. Microsoft 365 versions of Office use Microsoft 365 user-based subscription activation.
 
 ## Office servicing
 

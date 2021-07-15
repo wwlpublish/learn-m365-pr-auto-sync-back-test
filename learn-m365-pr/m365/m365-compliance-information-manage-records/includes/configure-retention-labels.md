@@ -29,7 +29,7 @@ This information is only visible to admins who will manage this label so enter s
 
 ### Description for users
 
-This appears to users when they hover over the label in some apps. A default label showing the label's retention settings will be displayed if left blank.
+This appears to users when they hover over the label in some apps. A default label showing the label’s retention settings will be displayed if left blank.
 
 ## Step 2: File plan descriptors
 
@@ -58,7 +58,7 @@ Turn retention on if you want to apply retention settings to this label. Leaving
 - **Trigger a disposition review**. A disposition review is where a reviewer evaluates the items that reach the end of their retention period to decide if they can be safely deleted (disposed). When items reach the end of the retention period, reviewers will receive an email notification and can go to the dispositions page to determine what happens to the item.
 - **Nothing. Leave the content as is**. If you do not want to keep the content after the retention period expires, you must delete it yourself.
 
-**Don't retain the content, just delete if it's older than**. Users will be free to permanently delete their email, documents, or other items at any time. But when content reaches the age specified, it will be deleted. For example, email messages will be deleted from users' mailboxes and documents will be deleted from SharePoint or OneDrive.
+**Don’t retain the content, just delete if it’s older than**. Users will be free to permanently delete their email, documents, or other items at any time. But when content reaches the age specified, it will be deleted. For example, email messages will be deleted from users' mailboxes and documents will be deleted from SharePoint or OneDrive.
 
 **Retain or delete the content based on**. You need to determine when you want the clock to start on the deletion or retention process. Here are your options:
 

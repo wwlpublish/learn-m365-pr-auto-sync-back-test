@@ -1,4 +1,4 @@
-It's important for Contoso IT staff to be able to manage which administrative user accounts can perform which administrative tasks in Microsoft Cloud App Security. To help with this requirement, Cloud App Security implements Role-based access control (RBAC).
+It’s important for Contoso IT staff to be able to manage which administrative user accounts can perform which administrative tasks in Microsoft Cloud App Security. To help with this requirement, Cloud App Security implements Role-based access control (RBAC).
 
 ## What is RBAC?
 

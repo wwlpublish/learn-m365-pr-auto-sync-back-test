@@ -8,7 +8,7 @@ There are several synchronization options available:
 
 - **Password Hash Sync** – usernames and hashes of passwords are synchronized to Azure AD
 - **Pass-through Authentication** – your on-premises directory service can perform simple authentication for Microsoft cloud services, requiring little on-premises configuration on your domain controllers
-- **Active Directory Federation Services** – more complex partner federation, RSA tokens, and Smartcard authentication. If you use this option, you'll need to provision additional on-premises servers and ensure they are highly available.
+- **Active Directory Federation Services** – more complex partner federation, RSA tokens, and Smartcard authentication. If you use this option, you’ll need to provision additional on-premises servers and ensure they are highly available.
  
 You can use Azure AD Connect to set up synchronization.
 

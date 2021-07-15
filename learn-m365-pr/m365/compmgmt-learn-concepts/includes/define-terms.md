@@ -30,7 +30,7 @@ To take our example one step further, the *Privacy Compliance - DLP Policies for
 
 ## Assessment templates
 
-Compliance Manager provides pre-configured templates that help you create assessments. Simply put, instantiated templates become assessments. These templates encompass industry and regional standards and regulations. You can use these templates as-is or modify them to meet your requirements. Data Protection Baseline, European Union GDPR, ISO 27001:2013, and NIST 800-53 Rev.4 assessment templates are included in selected Microsoft 365 SKUs, subject to your organization's licensing agreement. Additionally, your organization may choose to obtain one or more of the over 175 pre-built premium assessment templates. You can also create your own assessment templates using the guidance we provide.
+Compliance Manager provides pre-configured templates that help you create assessments. Simply put, instantiated templates become assessments. These templates encompass industry and regional standards and regulations. You can use these templates as-is or modify them to meet your requirements. Data Protection Baseline, European Union GDPR, ISO 27001:2013, and NIST 800-53 Rev.4 assessment templates are included in selected Microsoft 365 SKUs, subject to your organization’s licensing agreement. Additionally, your organization may choose to obtain one or more of the over 175 pre-built premium assessment templates. You can also create your own assessment templates using the guidance we provide.
 
 In our example, the Data Protection Baseline *assessment template* was used to create the Data Protection Baseline *assessment.*
   
@@ -54,7 +54,7 @@ In our example, if we use the EU GDPR assessment template to add a second assess
 
 There are a few different ways to classify improvement actions, including whether they are:
 
-- Your improvement actions or Microsoft's improvement actions
+- Your improvement actions or Microsoft’s improvement actions
 - Technical or non-technical actions
 - Mandatory or discretionary actions
 - Preventative, detective, or corrective actions

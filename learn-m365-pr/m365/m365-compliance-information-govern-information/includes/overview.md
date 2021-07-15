@@ -12,7 +12,7 @@ Label-driven policies enable users to contribute to the accuracy of your data re
 
 ## Customer scenarios
 
-Here is some common scenarios Microsoft's solution for information governance can address:
+Here is some common scenarios Microsoft’s solution for information governance can address:
 
 - Create an organization-wide retention policy to delete all Microsoft Teams communications older than seven days.
 - Review documents stored in a SharePoint document library prior to them being deleted because a retention policy expired.

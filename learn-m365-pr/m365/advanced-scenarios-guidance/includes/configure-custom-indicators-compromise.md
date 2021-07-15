@@ -2,11 +2,11 @@ Indicators of compromise provide early warnings and automatic remediation agains
 
 In Contoso, threat protection is functioning well but you have information about a new malware attack from a trusted security internet source. You have a hash that identifies an executable file, which you expect to see in emails and chat messages in the next few days. You want to use this hash to spot the file as soon as it enters your systems and prevent users from passing the file on or executing it.
 
-Here, you'll learn how to use policies in Microsoft Cloud App Security to implement a custom indicator of compromise for a new threat.
+Here, you’ll learn how to use policies in Microsoft Cloud App Security to implement a custom indicator of compromise for a new threat.
 
 ## What is an indicator of compromise?
 
-When you try to intercept attacks against your network, it's essential to spot malicious activity early. One way you can configure Cloud App Security to respond quickly to attacks is to define indicators of compromise. An indicator of compromise is an artifact that, when observed, indicates an intrusion with a high level of confidence.
+When you try to intercept attacks against your network, it’s essential to spot malicious activity early. One way you can configure Cloud App Security to respond quickly to attacks is to define indicators of compromise. An indicator of compromise is an artifact that, when observed, indicates an intrusion with a high level of confidence.
 Common indicators of compromise include:
 
 - Virus signatures.

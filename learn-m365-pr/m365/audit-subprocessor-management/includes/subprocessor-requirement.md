@@ -6,7 +6,7 @@ When Microsoft hires a supplier to provide some aspect of our online services th
 
 All data used throughout the lifecycle of a customer account to provide Microsoft Online Services or Professional Services falls within one of four separate and distinct data categories:
 
-- **Customer data** is all data, including text, sound, video or image files, and software that the customer provides to Microsoft or that is provided on a customer's behalf through use of Microsoft enterprise online services, excluding Microsoft Professional Services. It includes customer content, which is the data a customer uploads for storage or processing and apps a customer uploads for distribution through a Microsoft enterprise service.
+- **Customer data** is all data, including text, sound, video or image files, and software that the customer provides to Microsoft or that is provided on a customer’s behalf through use of Microsoft enterprise online services, excluding Microsoft Professional Services. It includes customer content, which is the data a customer uploads for storage or processing and apps a customer uploads for distribution through a Microsoft enterprise service.
 
     For example, customer content includes Exchange Online email and attachments, Power BI reports, SharePoint Online site content, or instant messaging conversations.
 
@@ -24,7 +24,7 @@ All data used throughout the lifecycle of a customer account to provide Microsof
 
 ## Microsoft Supplier Security and Privacy Assurance (SSPA) program
 
-The Microsoft Supplier Security and Privacy Assurance (SSPA) program is a corporate program designed to standardize and strengthen data handling practices by setting privacy and security requirements for Microsoft suppliers. The SSPA program requires suppliers to demonstrate compliance with Microsoft's strict privacy and security policies, legal obligations, and customer expectations. To protect customer and personal data, Microsoft requires all subprocessors to comply with the SSPA program.
+The Microsoft Supplier Security and Privacy Assurance (SSPA) program is a corporate program designed to standardize and strengthen data handling practices by setting privacy and security requirements for Microsoft suppliers. The SSPA program requires suppliers to demonstrate compliance with Microsoft’s strict privacy and security policies, legal obligations, and customer expectations. To protect customer and personal data, Microsoft requires all subprocessors to comply with the SSPA program.
 
 The SSPA program includes a set of security and privacy controls that must be implemented by subprocessors prior to processing data on behalf of Microsoft. We call these controls the Data Protection Requirements (DPR). All subprocessors enrolled in the SSPA program must review and attest to their compliance with applicable DPR controls before beginning contracted work. In addition, subprocessors must complete a self-attestation of compliance with the DPR annually.
 

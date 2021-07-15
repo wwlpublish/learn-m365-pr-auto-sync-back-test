@@ -1,4 +1,4 @@
-There are different tools that you can use to onboard your organization's devices to Microsoft Defender for Endpoint based on your architecture needs. These tools include Microsoft Endpoint Manager, Microsoft Endpoint Configuration Manager, Group Policy, and more. As the security analyst, you're aware that your organization is using Microsoft Endpoint Manager to manage all of its devices. So, you'll learn how you can onboard your pilot devices using Microsoft Endpoint Manager.
+There are different tools that you can use to onboard your organization's devices to Microsoft Defender for Endpoint based on your architecture needs. These tools include Microsoft Endpoint Manager, Microsoft Endpoint Configuration Manager, Group Policy, and more. As the security analyst, you’re aware that your organization is using Microsoft Endpoint Manager to manage all of its devices. So, you’ll learn how you can onboard your pilot devices using Microsoft Endpoint Manager.
 
 ## Set up a Microsoft Defender for Endpoint instance
 

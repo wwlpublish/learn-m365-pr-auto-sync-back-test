@@ -1,4 +1,4 @@
-You can use transport rules, also known as mail flow rules, to automatically process messages through your Exchange Online organization. These transport rules are similar to Outlook inbox rules, except they're applied to messages before they reach users' inboxes. Because transport rules run on the server, they can use more complex logic, take a wider range of actions, and handle different kinds of exceptions. 
+You can use transport rules, also known as mail flow rules, to automatically process messages through your Exchange Online organization. These transport rules are similar to Outlook inbox rules, except they’re applied to messages before they reach users’ inboxes. Because transport rules run on the server, they can use more complex logic, take a wider range of actions, and handle different kinds of exceptions. 
 
 ## Components of a mail rule 
 
@@ -23,26 +23,26 @@ Before a rule is triggered, it needs to meet  conditions that you specify. You c
 |Message properties|Rules match on the classification or importance of a message.| 
 |Message headers|You specify that the header should include a list of words, or matches an exact string, or matches a pattern of text.|
 
-Conditions are matched first. These messages are then checked against any exceptions you've specified. The resulting messages are then passed on to have actions applied to them.  
+Conditions are matched first. These messages are then checked against any exceptions you’ve specified. The resulting messages are then passed on to have actions applied to them.  
 
 ### Actions 
 
-There's a long list of actions that can be applied to the emails, as detailed in the **Learn more** section below. Some of the most used actions are: 
+There’s a long list of actions that can be applied to the emails, as detailed in the **Learn more** section below. Some of the most used actions are: 
 
 |Actions|Notes| 
 |-|-|
-|Forward emails for approval|Messages are forwarded to a specific person, or the sender's manager.|
+|Forward emails for approval|Messages are forwarded to a specific person, or the sender’s manager.|
 |Delete message without notification|The message is deleted without notifying either the sender or the recipient.|
 |Add recipients|Recipients are added to the CC, BCC, or To boxes.|
-|Append or prepend a disclaimer|Messages have your organization's pre-canned disclaimer HTML appended or prepended to the message.|
+|Append or prepend a disclaimer|Messages have your organization’s pre-canned disclaimer HTML appended or prepended to the message.|
 
  
 
 ### Properties 
 
-You can control other rule settings by adjusting their properties. For instance, you might control the order in which mail rules are applied, or for how long they're valid.  
+You can control other rule settings by adjusting their properties. For instance, you might control the order in which mail rules are applied, or for how long they’re valid.  
 
-For example, **mode** is a common property you'll use when you create a new rule. You can choose to set a rule in test mode - conditions and exceptions are checked, but no actions are taken on the messages. 
+For example, **mode** is a common property you’ll use when you create a new rule. You can choose to set a rule in test mode - conditions and exceptions are checked, but no actions are taken on the messages. 
 
 ## Create a mail flow rule 
 
@@ -121,17 +121,17 @@ Use the following steps to create a mail flow rule by using PowerShell cmdlets.
 
 ## View and modify mail flow rules 
 
-You can view the DLP policies you've created in the compliance center. The mail rules you've created are stored and managed in Active Directory. You can view these mail rules using the Exchange admin center or PowerShell commands.  
+You can view the DLP policies you’ve created in the compliance center. The mail rules you’ve created are stored and managed in Active Directory. You can view these mail rules using the Exchange admin center or PowerShell commands.  
 
 ### View or modify mail flow rules using the Exchange admin center
 
-You can view the mail flow rules in the Exchange admin center on the **mail flow** page. You'll see the list of existing mail rules. Select a rule to see its current settings. To edit an existing rule, select **edit**. You also have the option to duplicate, delete, or change the priority of the rule.  
+You can view the mail flow rules in the Exchange admin center on the **mail flow** page. You’ll see the list of existing mail rules. Select a rule to see its current settings. To edit an existing rule, select **edit**. You also have the option to duplicate, delete, or change the priority of the rule.  
 
 ![A screenshot shows the Exchange admin center with a mail rule selected. The details of the rule are displayed on the screen.](../media/2-view-mail-rules.png)
 
 ### View or modify mail flow rules using PowerShell 
 
-Just as you create a mail flow rule, you'll need to connect to Exchange online before you can run these commands. To view a list of all the existing mail rules, use this PowerShell cmdlet: 
+Just as you create a mail flow rule, you’ll need to connect to Exchange online before you can run these commands. To view a list of all the existing mail rules, use this PowerShell cmdlet: 
 
 ```powershell 
 
@@ -139,7 +139,7 @@ Get-TransportRule
 
 ``` 
 
-To see the detail of a single rule, you use the same cmdlet, and specify the exact rule you're interested in: 
+To see the detail of a single rule, you use the same cmdlet, and specify the exact rule you’re interested in: 
 
 ```powershell 
 
@@ -149,7 +149,7 @@ Get-TransportRule -Identity "Append company disclaimer" | Format-List Name, From
 
 To see the details of a particular rule, you select the properties of the `Format-List` parameter. 
 
-To amend an existing rule, you'll use this command: 
+To amend an existing rule, you’ll use this command: 
 
 ```powershell 
 
@@ -185,7 +185,7 @@ The Microsoft 365 Defender portal shows all the statistics about mail flows in y
 
 ## Import or export a mail flow rule collection 
 
-You use Exchange Online PowerShell to manually import and export the rules you've created. The rules are managed in an XML file. For example, an export of the rule you created earlier would result in this XML file: 
+You use Exchange Online PowerShell to manually import and export the rules you’ve created. The rules are managed in an XML file. For example, an export of the rule you created earlier would result in this XML file: 
 
 ```xml 
 
@@ -219,7 +219,7 @@ You use Exchange Online PowerShell to manually import and export the rules you'v
 
 ``` 
 
-To export an organization's mail flow rules, use this PowerShell command: 
+To export an organization’s mail flow rules, use this PowerShell command: 
 
 ```powershell 
 

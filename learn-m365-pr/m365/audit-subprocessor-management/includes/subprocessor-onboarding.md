@@ -17,7 +17,7 @@ In addition, business unit approval is required as a final check after all score
 Subprocessor enrollment begins with an email request to a prospective subprocessor with instructions to create a profile in the Microsoft Supplier Compliance Portal (MSCP). Subprocessors use the portal to choose the data processing activities they wish to be approved for. These data processing activities include:
 
 - Processing of personal data and/or Microsoft confidential data
-- Processing data on the supplier's network
+- Processing data on the supplier’s network
 - Data processing role (controller, processor, co-controller, etc.)
 - Payment card processing
 - Provision of Software as a Service (SaaS)

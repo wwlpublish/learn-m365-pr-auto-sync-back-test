@@ -2,16 +2,16 @@ Most of your mobile device users probably have Outlook, but others may use other
 
 ## Which mobile devices can you use with Exchange Online? 
 
-If your organization issues mobile devices to all users, you may have to support only a small range of clients. However, in most cases, you have a mix of older and newer devices. Because users often bring their own mobile phones, tablets, and other devices to work, you'll also have to support many different mobile operating systems and hardware. Microsoft 365 and Exchange Online support several different mailbox access protocols so this range of clients shouldn't cause any problems. Before you can administer the different mailbox protocols, you need to understand them. 
+If your organization issues mobile devices to all users, you may have to support only a small range of clients. However, in most cases, you have a mix of older and newer devices. Because users often bring their own mobile phones, tablets, and other devices to work, you'll also have to support many different mobile operating systems and hardware. Microsoft 365 and Exchange Online support several different mailbox access protocols so this range of clients shouldn’t cause any problems. Before you can administer the different mailbox protocols, you need to understand them. 
 
 ### Outlook for iOS and Android 
 
 For devices running an iOS or Android operating system, you can install Outlook and get email, calendar, contacts, and other functionality like the same features in Outlook on PCs. There are also some important features relevant to their administration: 
 
-- All of the user's mailbox data stays in the tenant's region and complies with data protection regulations for that region. 
-- All of the user's data is encrypted end-to-end by the Transport Layer Security (TLS) protocol. 
+- All of the user’s mailbox data stays in the tenant’s region and complies with data protection regulations for that region. 
+- All of the user’s data is encrypted end-to-end by the Transport Layer Security (TLS) protocol. 
 - Because each device connects to Microsoft 365 with a unique device ID, you can manage each device individually in the Microsoft 365 Admin console. 
-- The user's credentials are protected with Modern Authentication and Open Authorization (OAuth). 
+- The user’s credentials are protected with Modern Authentication and Open Authorization (OAuth). 
 - You can use Microsoft Enterprise Mobility + Support to access advanced management tools, such as Microsoft Intune and Azure Active Directory Premium. 
 - Outlook for iOS and Android uses the native Microsoft sync technology, which reduces delivery latency and eliminates the need for middle-tier services. 
 
@@ -45,11 +45,11 @@ This suite has the broadest set of device protection features and is the recomme
 - Wipe Exchange Online emails from a device but leave email in other, personal accounts. This feature is known as selective wipe. 
 
 >[!NOTE]
-> The Enterprise Mobility + Security suite is an additional subscription service that you can add to Microsoft 365 Apps. A range of pricing options are available, to suit different organizations' needs and there is also a free trial. 
+> The Enterprise Mobility + Security suite is an additional subscription service that you can add to Microsoft 365 Apps. A range of pricing options are available, to suit different organizations’ needs and there is also a free trial. 
 
 ### Mobile Device Management (MDM) for Microsoft 365 
 
-This feature is built into Microsoft 365 and provides mobile device management features at no extra cost. It's not as comprehensive as the Enterprise Mobility + Security Suite, but it gives you a core set of controls over mobile devices that can ensure users can access their mailboxes in a secure way.  
+This feature is built into Microsoft 365 and provides mobile device management features at no extra cost. It’s not as comprehensive as the Enterprise Mobility + Security Suite, but it gives you a core set of controls over mobile devices that can ensure users can access their mailboxes in a secure way.  
 
 With MDM for Microsoft 365 you can, for example: 
 

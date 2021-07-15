@@ -8,7 +8,7 @@ OneDrive provides users:
 - **Untethered mobility**. Users can create, view, edit, and share files on the go with the OneDrive mobile app. They can easily capture whiteboards and scan work receipts, business cards, and other paper documents for safekeeping.
 - **Security and protection for files**. Back up and protect files with. Easily recover files from accidental deletions or malicious attacks. Administrators can manage security policies to help keep information safe.
 
-OneDrive employs a sync app to manage files on your Windows PC, Mac, iOS, or Android devices.    OneDrive is included as part of your organization's subscription to Microsoft 365, Office 365, or as a standalone product. As an IT Professional, you have enhanced capabilities to provide security and compliance for those files in OneDrive. 
+OneDrive employs a sync app to manage files on your Windows PC, Mac, iOS, or Android devices.    OneDrive is included as part of your organization’s subscription to Microsoft 365, Office 365, or as a standalone product. As an IT Professional, you have enhanced capabilities to provide security and compliance for those files in OneDrive. 
 
 The core functionality of OneDrive includes:
 - Sync app for Windows and Mac

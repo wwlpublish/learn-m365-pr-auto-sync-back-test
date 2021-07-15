@@ -4,7 +4,7 @@ In the world's best-performing companies, 70 percent of employees are engaged bu
 
 One of the reasons Microsoft Teams was created was to address these issues. Chats, meetings, and calls all happen in one application, so you're not dealing with different tools to have productive meetings.
 
-Historically, meetings ran in three different silos. There's meeting-related activities that happen before, during, and after a meeting. Meeting collateral isn't always shared effectively. Sometimes the agenda is sent out and then there's a flurry of e-mails discussing and updating the agenda. But Microsoft Teams has a new approach.
+Historically, meetings ran in three different silos. There's meeting-related activities that happen before, during, and after a meeting. Meeting collateral isn't always shared effectively. Sometimes the agenda is sent out and then there’s a flurry of e-mails discussing and updating the agenda. But Microsoft Teams has a new approach.
 
 - Before the meeting, you can now chat with attendees and collaborate on a single agenda. 
 - During the meeting, you can coauthor Office 365 documents, contribute with digital ink, and follow along with live captions.  

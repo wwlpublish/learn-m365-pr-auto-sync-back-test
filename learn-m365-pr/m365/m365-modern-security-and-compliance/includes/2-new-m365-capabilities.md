@@ -6,13 +6,13 @@ Let's look at new capabilities you can take advantage of with Windows 10, Micros
 
 ## Identity and access management
 
-Azure Active Directory (Azure AD) is the identity control plane for apps, devices, and cloud services while connecting to cloud services. Conditional access lets you define different authentication requirements based on where your user is logging in from and which device they're using, as well as responses to anomalous behaviors.
+Azure Active Directory (Azure AD) is the identity control plane for apps, devices, and cloud services while connecting to cloud services. Conditional access lets you define different authentication requirements based on where your user is logging in from and which device they’re using, as well as responses to anomalous behaviors.
 
 At the device level, you can use biometrics as unique identifiers for simpler and more secure access to devices and apps, moving toward the goal of eliminating passwords. Windows Hello offers device-based, multi-factor authentication that relies on the device itself, your PIN, or a unique biometric identifier like a face or fingerprint that can be enforced via policy.
 
 ## Virtualization-based security
 
-Beyond identity, it's important to consider continuous protection against both known and unknown threats. Windows 10 uses virtualization-based security at the core, with Secure Boot to ensure boot and code integrity. You can also help protect against credential theft with **Credential Guard** by maintaining user secrets in isolation from Windows. **Application Guard** can isolate and mitigate browser-based threats by running the browser in an isolated container. All these technologies use virtualization-based security in Windows 10 and are foundational changes that cannot be replicated on a Windows 7 system. Note that these also require UEFI, 64-bit Windows, and virtualization extension support with SLAT – at the hardware level.
+Beyond identity, it’s important to consider continuous protection against both known and unknown threats. Windows 10 uses virtualization-based security at the core, with Secure Boot to ensure boot and code integrity. You can also help protect against credential theft with **Credential Guard** by maintaining user secrets in isolation from Windows. **Application Guard** can isolate and mitigate browser-based threats by running the browser in an isolated container. All these technologies use virtualization-based security in Windows 10 and are foundational changes that cannot be replicated on a Windows 7 system. Note that these also require UEFI, 64-bit Windows, and virtualization extension support with SLAT – at the hardware level.
 
 ## Security enhancements from cloud services
 

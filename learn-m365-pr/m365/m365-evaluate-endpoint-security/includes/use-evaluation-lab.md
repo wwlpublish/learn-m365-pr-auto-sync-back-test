@@ -1,6 +1,6 @@
-You've learned what the evaluation lab is. But before you can start using it, you'll also need to learn about its key components and capabilities.
+You’ve learned what the evaluation lab is. But before you can start using it, you’ll also need to learn about its key components and capabilities.
 
-Here, you'll learn where to find key information, manage devices, the different types of simulations available, the simulation gallery, and how to access tutorials.
+Here, you’ll learn where to find key information, manage devices, the different types of simulations available, the simulation gallery, and how to access tutorials.
 
 ## Review key information at a glance
 

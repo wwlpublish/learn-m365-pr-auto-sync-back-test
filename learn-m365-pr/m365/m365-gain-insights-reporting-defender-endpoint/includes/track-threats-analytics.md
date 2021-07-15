@@ -1,7 +1,7 @@
 New threats emerge constantly as attackers change their tactics frequently. To keep your endpoints protected, you need to be able to keep up with changes in the external threat environment.
 
 you can use Microsoft Defender for Endpoint to continuously assess how new threats can impact your endpoints. Additionally, you can review how resilient your endpoints are against exposure to new threats, and identify which actions to take to prevent or contain new threats.
-Here, you'll learn about threat analytics.
+Here, you’ll learn about threat analytics.
 
 ## What is threat analytics?
 

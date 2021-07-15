@@ -1,6 +1,6 @@
-As the security analyst of your organization, you were concerned that attackers could target your organization's IT environment from many different places across your devices and network. You wanted to take an active approach to defense by minimizing the attack surface of your endpoints. You've learned that you can use attack surface reduction in Microsoft Defender for Endpoint to help you to reduce the opportunities malicious users have to compromise your systems.
+As the security analyst of your organization, you were concerned that attackers could target your organization’s IT environment from many different places across your devices and network. You wanted to take an active approach to defense by minimizing the attack surface of your endpoints. You’ve learned that you can use attack surface reduction in Microsoft Defender for Endpoint to help you to reduce the opportunities malicious users have to compromise your systems.
 
-Now that you've completed this module, you should be able to:
+Now that you’ve completed this module, you should be able to:
 
 - Understand attack surface reduction in Microsoft Defender for Endpoint.
 - Understand the different surface attack reduction protections in Microsoft Defender for Endpoint.

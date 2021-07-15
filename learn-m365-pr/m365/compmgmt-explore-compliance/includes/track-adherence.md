@@ -8,7 +8,7 @@ The image below shows the **Assessments** page with the default **Data Protectio
 
 ## Assessment details page
 
-Clicking an individual assessment provides more details on that assessment in a series of four pages. Each page's title and a short description follows:
+Clicking an individual assessment provides more details on that assessment in a series of four pages. Each page’s title and a short description follows:
 
 - **Overview:** Dashboard dedicated to the assessment that includes information about your progress toward completion, key improvement actions, and status. You will also find links to where you can see more detail, and the option to generate an assessment report.
 - **Controls:** View information about each control included in the assessment, both visually and in a list, grouped by control family.

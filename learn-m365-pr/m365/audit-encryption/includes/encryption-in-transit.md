@@ -8,7 +8,7 @@ Inter-datacenter communications between Microsoft servers take place using TLS o
 
 Microsoft owns and manages its own certificate authority to manage the certificates used for TLS encryption alongside third party solutions. The public certificates are issued by Microsoft using SSLAdmin, an internal Microsoft tool to protect confidentiality of transmitted information. All certificates issued by Microsoft IT have a minimum length of 2048 bits. Any certificates that fail to meet certificate provisioning criteria must be reviewed using a standardized exception process.
 
-Customers can validate Microsoft's TLS configurations by going to Qualys SSL Labs and searching for the addresses of our public web portals.
+Customers can validate Microsoft’s TLS configurations by going to Qualys SSL Labs and searching for the addresses of our public web portals.
 
 ## Learn more
 

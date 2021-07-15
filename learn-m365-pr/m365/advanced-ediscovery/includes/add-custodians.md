@@ -19,7 +19,7 @@ When you add a custodian, the system automatically identifies and places a hold 
 
  ![Selecting additional locations ](../media/select-additional-locations.png)
 
-The final step when adding a custodian to a case is to place the custodian on hold. When you place a custodian on hold, all the content from the locations you've selected that are associated with the custodian is preserved until you remove the hold or release the custodian from the case.
+The final step when adding a custodian to a case is to place the custodian on hold. When you place a custodian on hold, all the content from the locations you’ve selected that are associated with the custodian is preserved until you remove the hold or release the custodian from the case.
 
 ## Create holds to preserve content
 
@@ -73,7 +73,7 @@ The custodian communications tool enables legal teams to configure the following
 -**Issuance notice**. A legal hold notice is issued (or initiated) by a notification from the legal department to custodians who may have relevant information about the case matter. This notice instructs the custodians to preserve any information that may be needed for discovery.
 -**Re-Issuance notice**. During a case, custodians may be required to preserve additional content (or less content) than was previously requested. For this scenario, you can update the existing hold notice and reissue it to custodians.
 -**Release notice**. Once a matter is resolved and the custodian is no longer subject to a preservation requirement, the custodian can be released from the case. Additionally, you can notify the custodian that they are no longer required to preserve content and provide instructions about how to resume their normal work activity with regard to their data.
--**Reminders and escalations**. In some instances, just issuing a notice isn't enough to satisfy legal discovery requirements. With each notification, legal teams can schedule a set of reminder and escalation workflows to automatically follow up with unresponsive custodians.
+-**Reminders and escalations**. In some instances, just issuing a notice isn’t enough to satisfy legal discovery requirements. With each notification, legal teams can schedule a set of reminder and escalation workflows to automatically follow up with unresponsive custodians.
   -**Reminders**: After a legal hold notice has been issued or reissued to a set of custodians, an organization can set up reminders to alert unresponsive custodians.
   -**Escalations**: In some cases, if a custodian remains unresponsive even after a set of reminders over a period of time, the legal team can set up an escalation workflow to notify unresponsive custodians and their manager.
 
@@ -97,7 +97,7 @@ On the **Set Notifications – Required** page, you can define if this is a new 
 
  ![Set Notifications - Required page](../media/set-notifications.png)
 
-On the **Set Notifications – Optional** page, you have the ability to create reminders and escalation notifications and add links to ensure that custodians acknowledge receiving this information. Since Advanced eDiscovery is integrated with Azure Active Directory, you can even escalate the notification to the custodian's manager to remind the custodian to take action.
+On the **Set Notifications – Optional** page, you have the ability to create reminders and escalation notifications and add links to ensure that custodians acknowledge receiving this information. Since Advanced eDiscovery is integrated with Azure Active Directory, you can even escalate the notification to the custodian’s manager to remind the custodian to take action.
 
 After selecting the custodians you want to notify, you can review your settings, then choose to select either **Send** or **Cancel**.
 

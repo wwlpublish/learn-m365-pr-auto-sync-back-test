@@ -1,4 +1,4 @@
-You've seen that connectors are needed to route emails from on-premises Exchange servers to and from Exchange Online and the internet. Let's examine how to set up those connectors. 
+You’ve seen that connectors are needed to route emails from on-premises Exchange servers to and from Exchange Online and the internet. Let’s examine how to set up those connectors. 
 
 ## Prerequisites for your on-premises email environment
 

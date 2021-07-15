@@ -1,4 +1,4 @@
-As the security analyst for your organization, you needed a solution to help you to protect your organization's endpoints. You've learned what Microsoft Defender for Endpoint is, and that you can use its capabilities like endpoint detection and response, automated investigation and remediation, and more, to protect your endpoints.
+As the security analyst for your organization, you needed a solution to help you to protect your organization’s endpoints. You’ve learned what Microsoft Defender for Endpoint is, and that you can use its capabilities like endpoint detection and response, automated investigation and remediation, and more, to protect your endpoints.
 
 Now that you've completed this module, you should be able to:
 

@@ -19,6 +19,6 @@ View a [video version](https://www.microsoft.com/videoplayer/embed/RE4ChU3) of t
 
 Be sure to click the full-screen option in the video player. When you're done, use the **Back** arrow in your browser to come back to this page. 
 
-Identity Governance helps organizations achieve a balance between productivity and security.  Just as important as how quickly can a new person access the resources they need, is how should that person's access change when they leave. Identity lifecycle management is the foundation of Identity Governance. And effective governance at scale requires modernizing the identity lifecycle management infrastructure for applications.
+Identity Governance helps organizations achieve a balance between productivity and security.  Just as important as how quickly can a new person access the resources they need, is how should that person’s access change when they leave. Identity lifecycle management is the foundation of Identity Governance. And effective governance at scale requires modernizing the identity lifecycle management infrastructure for applications.
 
 ![User access lifecycle](../media/user-access-lifecycle.png)

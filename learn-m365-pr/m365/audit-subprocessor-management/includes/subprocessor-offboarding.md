@@ -1,4 +1,4 @@
-Microsoft's subprocessor engagement lifecycle includes provisions for subprocessor offboarding to protect customer and personal data from unauthorized disclosure, modification, or loss. At the expiration or termination of in-scope subprocessor services, or upon request by Microsoft, subprocessors must either return all customer information (including copies) to Microsoft or permanently and securely destroy all customer information (including copies). Microsoft selects the appropriate option based on the nature of the data. When requested, all data must be returned to Microsoft within seven days.
+Microsoft’s subprocessor engagement lifecycle includes provisions for subprocessor offboarding to protect customer and personal data from unauthorized disclosure, modification, or loss. At the expiration or termination of in-scope subprocessor services, or upon request by Microsoft, subprocessors must either return all customer information (including copies) to Microsoft or permanently and securely destroy all customer information (including copies). Microsoft selects the appropriate option based on the nature of the data. When requested, all data must be returned to Microsoft within seven days.
 
 ## Requirements for data destruction
 
@@ -8,7 +8,7 @@ For printed materials containing customer information:
 
 - All materials must be treated as Highly Confidential.
 - All materials must be stored in secure shred bins or secure rooms prior to shredding.
-- Shredding must be witnessed and documented by an onsite member of the provider's security team.
+- Shredding must be witnessed and documented by an onsite member of the provider’s security team.
 - Shredding must use certified shred machines that adhere to the NSA standard. As part of this standard, shredders must be capable of shredding to a level that protects against industrial espionage and allows shredded material to be recycled.
 
 ## Learn more

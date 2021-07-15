@@ -1,6 +1,6 @@
-Now that you've learned about alerts and incidents, you can learn how to respond appropriately. You can use Microsoft Defender for Endpoint to take advantage of a wide range of response actions that enable you to address the threats that you've identified.
+Now that you’ve learned about alerts and incidents, you can learn how to respond appropriately. You can use Microsoft Defender for Endpoint to take advantage of a wide range of response actions that enable you to address the threats that you’ve identified.
 
-Here, you'll get an overview of those response actions, and you'll also learn about Live Response.
+Here, you’ll get an overview of those response actions, and you’ll also learn about Live Response.
 
 ## Take actions on devices
 
@@ -11,7 +11,7 @@ Respond to detected threats on your devices to protect your environment. To do t
 The response actions you can take on devices include:
 
 - **Start an Automated Investigation**
-  - Use Automated Investigation to detect and respond to threats effectively and consistently, at scale. You can use automated investigation to cover multiple devices simultaneously. That's because if a threat is identified across multiple devices, all of those devices will then be included in your automated investigation.
+  - Use Automated Investigation to detect and respond to threats effectively and consistently, at scale. You can use automated investigation to cover multiple devices simultaneously. That’s because if a threat is identified across multiple devices, all of those devices will then be included in your automated investigation.
 - **Collect an investigation package**
   - You can use an investigation package, which is a Zip file that contains information about suspicious entities and events on a device. Use Investigation packages to understand the present state of the affected device, and to also identify the techniques and tools that an attacker used.
 - **Run antivirus scan**

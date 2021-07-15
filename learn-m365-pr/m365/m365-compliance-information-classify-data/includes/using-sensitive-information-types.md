@@ -2,7 +2,7 @@ Using sensitive information types will most likely be a key component of your in
 
 ### Built-in and custom
 
-Sensitive information types can be built in, customized from built-in, or created from scratch. Approximately 100 sensitive information types are built into Microsoft 365 and ready for you to use. Some built-in sensitive information types, like credit card number, are applicable to a global audience while others, like Finland National ID and Australia Driver's License Number, are specific to  region or regulation. Built-in sensitive information types can be customized or created based on your organization's needs.
+Sensitive information types can be built in, customized from built-in, or created from scratch. Approximately 100 sensitive information types are built into Microsoft 365 and ready for you to use. Some built-in sensitive information types, like credit card number, are applicable to a global audience while others, like Finland National ID and Australia Driver’s License Number, are specific to  region or regulation. Built-in sensitive information types can be customized or created based on your organization’s needs.
 
 ### Key components
 
@@ -51,7 +51,7 @@ The confidence level, stated in percentage terms, in which Microsoft 365 has det
 
 ## Policy integration
 
-Sensitive information types can be used on their own to classify data. They can also be specified in conditions (individually or grouped into a policy template) to configure policies in Microsoft's solutions for information protection and governance. The table below shows each of the information protection and governance solutions and where in those solutions you can use sensitive information types.
+Sensitive information types can be used on their own to classify data. They can also be specified in conditions (individually or grouped into a policy template) to configure policies in Microsoft’s solutions for information protection and governance. The table below shows each of the information protection and governance solutions and where in those solutions you can use sensitive information types.
 
 | Solution | Where used   |
 |---|---|

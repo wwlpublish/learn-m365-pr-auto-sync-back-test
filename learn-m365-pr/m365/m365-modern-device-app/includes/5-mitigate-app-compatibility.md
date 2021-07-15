@@ -3,7 +3,7 @@
 
 The Upgrade Readiness tool also assesses browser-based compatibility, identifying websites and web apps that still use ActiveX controls, browser helper objects, VBScript, or other legacy technology not supported by the Microsoft Edge browser. Your users will need to use Internet Explorer 11 for these sites, and you can add them to the Enterprise Mode site list, using the Enterprise Mode Site List Manager. This functionality is available in Windows pro or enterprise editions and uses the Group Policy editor.
 
-## What's the Desktop App Assure program?
+## What’s the Desktop App Assure program?
 
 The **Desktop App Assure** program provides advisory and remediation services at no charge to support you as you migrate your applications to Windows 10. The program is available through the FastTrack Center when purchasing any of the Windows 10 or Microsoft 365 eligible services. In the event of a valid application issue during Windows 10 or Microsoft 365 Apps deployment, a FastTrack specialist will work with you to provide guidance to help remediate the application incompatibility.
 

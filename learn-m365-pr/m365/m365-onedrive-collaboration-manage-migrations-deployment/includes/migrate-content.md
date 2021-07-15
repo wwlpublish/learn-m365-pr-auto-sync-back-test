@@ -1,8 +1,8 @@
 One of the most important decisions you make is about migration. Existing files can come from many locations such as file shares, local computers, other cloud providers, and commonly, on-premises SharePoint Server MySites. 
 
-Migrate individual users' files to OneDrive. Shared repositories should be migrated to SharePoint sites. 
+Migrate individual users’ files to OneDrive. Shared repositories should be migrated to SharePoint sites. 
 
-Identify if all files are worth migrating or just some. Old content doesn't always need to be migrated and doing so adds more time. 
+Identify if all files are worth migrating or just some. Old content doesn’t always need to be migrated and doing so adds more time. 
 
 In your migration plan, there are multiple paths to consider:
 
@@ -24,8 +24,8 @@ Administrative migrations that are not self-service are run by administrators or
 - **Migration Manager**. If files are hosted in file shares, they can be migrated to OneDrive through the Migration Manager in the SharePoint admin center. Migration Manager uses agents installed on machines and runs migration tasks created by the administrators. This uses the same technology as the SPMT but allows you to control your migrations from multiple machines through the admin center. 
 
    ![Migration Manager](../media/migration-manager.png)
-- **Third-party migration solutions**. There are many Microsoft partners that specialize in migrations and offer tools to make your move to OneDrive faster. Each tool has different capabilities, so you'll want to review the options to see which one meets your needs. 
-- **Microsoft FastTrack**. FastTrack is a Microsoft service that may be included in your subscription that provides you a set of best practices, tools, resources, and experts—including OneDrive onboarding guidance, migration benefits, and adoption guidance-for helping facilitate your experience with the Microsoft Cloud. Onboarding guidance includes help with discovering what's possible, creating a plan for success, and onboarding new users and capabilities.  FastTrack is available to customers with 500 or more licenses. 
+- **Third-party migration solutions**. There are many Microsoft partners that specialize in migrations and offer tools to make your move to OneDrive faster. Each tool has different capabilities, so you’ll want to review the options to see which one meets your needs. 
+- **Microsoft FastTrack**. FastTrack is a Microsoft service that may be included in your subscription that provides you a set of best practices, tools, resources, and experts—including OneDrive onboarding guidance, migration benefits, and adoption guidance-for helping facilitate your experience with the Microsoft Cloud. Onboarding guidance includes help with discovering what’s possible, creating a plan for success, and onboarding new users and capabilities.  FastTrack is available to customers with 500 or more licenses. 
 
 ## Pilot administrative migration 
 An administrative migration should begin with a pilot to validate the process and gather data on migration performance, user communication, and user issues. The pilot should consist of three steps:
