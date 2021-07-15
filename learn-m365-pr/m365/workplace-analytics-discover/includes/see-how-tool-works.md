@@ -17,7 +17,7 @@ The graphic below shows how these outputs can be used to create executive presen
 
 ## Workplace Analytics data sources
 
-What’s under the hood? Workplace Analytics processes collaboration data from Microsoft 365. It then maps descriptive employee attributes, usually from the organization’s human resource information system (HRIS), onto the collaboration data. You can see the process illustrated in this flow path:
+What's under the hood? Workplace Analytics processes collaboration data from Microsoft 365. It then maps descriptive employee attributes, usually from the organization's human resource information system (HRIS), onto the collaboration data. You can see the process illustrated in this flow path:
 
 > [!div class="centered"]
 > ![Flow of data sources](../media/data-sources-flowpath.png)

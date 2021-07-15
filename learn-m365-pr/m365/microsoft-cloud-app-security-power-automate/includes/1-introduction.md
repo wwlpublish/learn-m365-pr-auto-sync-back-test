@@ -4,7 +4,7 @@ You're an administrator for Contoso, a large multi-national organization. Contos
 
 After completing this module, you'll be able to:
 
-- Automatically remediate Microsoft Cloud App Security infrequent country alerts using Power Automate     .
+- Automatically remediate Microsoft Cloud App Security infrequent country alerts using Power Automate.
 - Creating custom flows for Microsoft Cloud App Security alerts using Power Automate.
-- Request manager validation for Microsoft Cloud App Security alerts using Power Automate. 
+- Request manager validation for Microsoft Cloud App Security alerts using Power Automate.
 - Remove a malicious inbox forwarding rule using Power Automate.

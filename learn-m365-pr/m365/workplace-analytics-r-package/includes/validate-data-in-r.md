@@ -33,8 +33,8 @@ The resulting output gives you a summary of the data, as shown in the following 
 The following functions are helpful for initially exploring your data (the examples use the `sq_data` person query output):
 
 - `names(sq_data)` - Gets all column names.
-- `class(sq_data$Date)` - Checks object type (this example checks the type of the Date column). 
-- `summary(sq_data)` - Gets summary statistics. 
+- `class(sq_data$Date)` - Checks object type (this example checks the type of the Date column).
+- `summary(sq_data)` - Gets summary statistics.
 - `length(unique(sq_data$PersonId))` - Computes the number of unique values (this example computes the unique number of PersonIds).
 - `dplyr::glimpse(sq_data)` or `skimr::skim(sq_data)` - Get an overview of the data.
 - `View(sq_data)` - View the entire dataset (not recommended for large datasets).
@@ -90,7 +90,6 @@ The `hrvar_count()` function counts the distinct people by the specified HR attr
 
 ```R
 hrvar_count(sq_data, hrvar = "LevelDesignation")
-
 ```
 
 ![hrvar output](../media/hrvar-count.png)
@@ -101,13 +100,13 @@ To run a blanket analysis for all the organizational attributes in the dataset, 
 
 There are three common reasons for removing certain employees or weeks from the data:
 
-- A given week is likely a public holiday that impacts a significant proportion of the organization, such as Christmas or New Year’s day.
-- An employee is a non-knowledge worker who doesn’t typically collaborate with email and meetings.
+- A given week is likely a public holiday that impacts a significant proportion of the organization, such as Christmas or New Year's day.
+- An employee is a non-knowledge worker who doesn't typically collaborate with email and meetings.
 - An employee is off work for certain weeks because of annual leave, sabbaticals, and so on, which do not necessarily coincide with public holidays.
 
 You can use a function in wpa to address each of the following:
 
-- `identify_holidayweeks()` - Identifies weeks where collaboration hours are low outliers for the entire organization. 
+- `identify_holidayweeks()` - Identifies weeks where collaboration hours are low outliers for the entire organization.
 - `identify_nkw()` - Identifies employees with overall low collaboration signals, based on average collaboration hours. In addition to non-knowledge workers, this method would also capture any effective part-timers or freelancers, where their collaboration hours are significantly low.
 - `identify_inactiveweeks()` - Identifies individual weeks where collaboration hours are low outliers for the entire organization.
 

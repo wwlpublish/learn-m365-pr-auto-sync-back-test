@@ -6,4 +6,4 @@ Now that you've completed this module, you should be able to:
 
 - Determine team members for operating different components of SharePoint Syntex
 - Pinpoint key stakeholders for involvement when enabling SharePoint Syntex
-- Create alignment on your organization’s specific strategy for SharePoint Syntex
+- Create alignment on your organization's specific strategy for SharePoint Syntex

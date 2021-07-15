@@ -90,14 +90,14 @@ Azure Virtual Desktop doesn't support x86 (32-bit), Windows 10 Enterprise N, or 
 
 ## Set up process
 
-Microsoft’s Azure Virtual Desktop solution on Microsoft Azure is a fully managed desktop virtualization solution.
+Microsoft's Azure Virtual Desktop solution on Microsoft Azure is a fully managed desktop virtualization solution.
 
-As you progress through the Azure Virtual Desktop training, you’ll notice that the setup process abstracts many of the infrastructure roles you might have deployed for RDS in the past. Use the information in this learning path to **Prepare > Deploy > Optimize** your Azure Virtual Desktop environments.
+As you progress through the Azure Virtual Desktop training, you'll notice that the setup process abstracts many of the infrastructure roles you might have deployed for RDS in the past. Use the information in this learning path to **Prepare > Deploy > Optimize** your Azure Virtual Desktop environments.
 
 The following table gives you an overview of the set up process and describes what's covered in the rest of the Azure Virtual Desktop modules.
 
 |Milestone | Steps|
 |-|-|
-|Prepare <br>![Prepare icon](../media/prepare.png)|In the **Prepare** module, we’ll discuss the following steps to complete before you deploy Azure Virtual Desktop: <br>- Set up Azure Active Directory (Azure AD) <br>- Integrate with Active Directory Domain Services <br> - Create Azure resources <br>- Assign administrator roles<br>-Assign licenses to Azure Virtual Desktop users <br>-Register the DesktopVirtualization provider with your subscription |
-|Deploy <br>![Deploy icon](../media/deploy.png)|In the **Deploy** module, we’ll walk through the steps to: <br>- Create an Azure Virtual Desktop host pool and workspace <br>- Make a desktop and apps available to users by using application groups <br>- Customize the workspace <br>- Connect to the workspace by using the Azure Virtual Desktop client
-|Optimize <br>![Optimize icon](../media/optimize.png)|In the **Optimize** module, we’ll walk through the steps to:  <br>- Set up roaming and stateful user profiles by using Azure File Storage and FSLogix <br>- Configure Azure File Sync to sync on-premises files or user profile data to Azure Storage<br>- Scale session hosts by using the scaling tool built on Azure Automation and Azure Logic Apps|
+|Prepare <br>![Prepare icon](../media/prepare.png)|In the **Prepare** module, we'll discuss the following steps to complete before you deploy Azure Virtual Desktop: <br>- Set up Azure Active Directory (Azure AD) <br>- Integrate with Active Directory Domain Services <br> - Create Azure resources <br>- Assign administrator roles<br>-Assign licenses to Azure Virtual Desktop users <br>-Register the DesktopVirtualization provider with your subscription |
+|Deploy <br>![Deploy icon](../media/deploy.png)|In the **Deploy** module, we'll walk through the steps to: <br>- Create an Azure Virtual Desktop host pool and workspace <br>- Make a desktop and apps available to users by using application groups <br>- Customize the workspace <br>- Connect to the workspace by using the Azure Virtual Desktop client
+|Optimize <br>![Optimize icon](../media/optimize.png)|In the **Optimize** module, we'll walk through the steps to:  <br>- Set up roaming and stateful user profiles by using Azure File Storage and FSLogix <br>- Configure Azure File Sync to sync on-premises files or user profile data to Azure Storage<br>- Scale session hosts by using the scaling tool built on Azure Automation and Azure Logic Apps|

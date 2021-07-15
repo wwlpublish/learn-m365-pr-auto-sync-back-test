@@ -161,7 +161,7 @@ To access the Customer Focus Playbook from Workplace Analytics:
 
 ![Get customer focus playbook](../media/get-customer-focus-playbook.png)
 
-In the next unit, you’ll learn how to scope your analysis, use the business questions you’ve identified, understand the data requirements to perform each analysis, and understand how you can track and manage the results to create value.
+In the next unit, you'll learn how to scope your analysis, use the business questions you've identified, understand the data requirements to perform each analysis, and understand how you can track and manage the results to create value.
 
 ## Learn more
 

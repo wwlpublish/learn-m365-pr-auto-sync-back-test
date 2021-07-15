@@ -9,7 +9,7 @@ You want to build a proposal for deploying SharePoint Syntex to your company's S
 
 It's possible that existing roles in your organization align with the responsibilities necessary to set up and administer SharePoint Syntex.
 
-##  Role and responsibilities
+## Role and responsibilities
 
 The SharePoint administrator, or knowledge admin, establishes your organization's SharePoint Syntex instance and maintains it. They'll configure form processing in individual SharePoint document libraries and set up content centers for the document understanding models, as needed. The SharePoint admin is also responsible for assigning and controlling permissions for who can access each content center.  
 

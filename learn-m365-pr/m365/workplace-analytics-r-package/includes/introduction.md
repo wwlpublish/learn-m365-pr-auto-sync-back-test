@@ -6,7 +6,7 @@ To enable this flexibility and advanced analysis, you install R and begin to use
 
 ## Learning objectives
 
-In this module, you’ll learn to:
+In this module, you'll learn to:
 
 - Explain what the wpa R package is, and how it can be useful when analyzing Workplace Analytics data
 - Install R and set up the wpa R package
