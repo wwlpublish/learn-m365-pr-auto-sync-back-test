@@ -11,12 +11,12 @@ The specific steps you take to configure the Session Border Controller depend on
 At a high level, configuration of the SBC will generally require you to:
 
 1. Configure the SBC license.
-2. Configure LAN and WAN IP interfaces.
-3. Configure the certificate used on the device itself.
-4. Configure the ports to use for signaling and media.
-5. Configure the Session Initiation Protocol (SIP) options and secure real-time transport protocol (SRTP).
-6. Configure the codecs to be used.
-7. Configure the routing needed for routing calls from Microsoft Teams to PSTN and from PSTN to Microsoft Teams, and any other telephony components you want to connect with the SBC.
+1. Configure LAN and WAN IP interfaces.
+1. Configure the certificate used on the device itself.
+1. Configure the ports to use for signaling and media.
+1. Configure the Session Initiation Protocol (SIP) options and secure real-time transport protocol (SRTP).
+1. Configure the codecs to be used.
+1. Configure the routing needed for routing calls from Microsoft Teams to PSTN and from PSTN to Microsoft Teams, and any other telephony components you want to connect with the SBC.
 
 ## Connect the SBC
 

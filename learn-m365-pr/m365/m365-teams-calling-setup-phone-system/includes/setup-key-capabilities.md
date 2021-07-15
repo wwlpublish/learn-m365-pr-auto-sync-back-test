@@ -94,6 +94,7 @@ As the admin, you're responsible for enabling call groups. You can do this throu
 ```powershell
 Set-CsTeamsCallingPolicy -Identity Global - AllowCallGroups $true
 ```
+
 ### Block inbound calls
 
 Your organization's office branches naturally receive daily phone calls from customers. But they also receive nuisance calls and spam calls. So, you want to make sure that these types of calls are blocked going forward.
@@ -114,6 +115,7 @@ With auto attendants, you can automate incoming calls to be routed to the right 
 The steps to configure auto attendants and call queues are in the **Manage calls in Microsoft Teams by using auto attendants and call queues** module (link in the **Learn more** section).
 
 ## Learn more
+
 - [Call forwarding, call groups, and simultaneous ring in Teams](https://support.microsoft.com/office/call-forwarding-call-groups-and-simultaneous-ring-in-teams-a88da9e8-1343-4d3c-9bda-4b9615e4183e?ui=en-us&rs=en-gb&ad=gb)
 - [Control caller ID information](/learn/modules/m365-teams-secure-teams-voice-functionality/5-configure-caller-id-policies)
 - [Protect voicemail](/learn/modules/m365-teams-secure-teams-voice-functionality/3-protect-voicemail)

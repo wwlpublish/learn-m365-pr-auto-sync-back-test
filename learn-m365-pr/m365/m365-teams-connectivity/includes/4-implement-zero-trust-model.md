@@ -8,7 +8,7 @@ Let's examine a more modern set of security principles that can address these is
 
 Traditionally, IT security teams have implemented security at the edge of their network by using technologies such as firewalls and proxy servers. These systems check incoming and outgoing traffic and can filter them based on the IP properties, content, source, destination, and so on. This model is no longer satisfactory because users bring their own devices, such as phones, tablets, and computers, to work and want to use them to access your systems from within your premises and from home, customer sites, internet cafés and other locations.
 
-Another problem with the traditional security approach is that it doesn’t fit with the Microsoft 365 principles that you have learned about in the previous modules. Edge security systems are likely to cause network hairpins and prevent local egress for example. This model is likely to lower your Microsoft 365 and Teams performance.
+Another problem with the traditional security approach is that it doesn't fit with the Microsoft 365 principles that you have learned about in the previous modules. Edge security systems are likely to cause network hairpins and prevent local egress for example. This model is likely to lower your Microsoft 365 and Teams performance.
 
 To address these concerns, Microsoft has developed a new security paradigm for modern business environments called the Zero Trust model.
 
@@ -50,7 +50,7 @@ Conditional access works robustly with any application configured for access wit
 
 ## Adopting a Zero Trust security model
 
-The Zero Trust model is a significant change from the traditional approach and requires time and planning to implement correctly. You probably won’t be able to complete this implementation in a single day. Instead, you must gradually adopt Zero Trust implementation steps and apply them to key applications over time.
+The Zero Trust model is a significant change from the traditional approach and requires time and planning to implement correctly. You probably won't be able to complete this implementation in a single day. Instead, you must gradually adopt Zero Trust implementation steps and apply them to key applications over time.
 
 Start by implementing Zero Trust principles for key Microsoft 365 workloads, such as Exchange Online, SharePoint Online, and Microsoft Teams. These are well trusted, widely used, and will realize the highest return on your investment in Zero Trust. Less important applications and workloads can continue to connect through edge security systems and suffer from sub-optimal performance, until you can reconfigure them.
 

@@ -21,7 +21,7 @@ Teams management tools can be accessed in the Microsoft Teams admin center under
 ## Microsoft 365 admin center
 
 You can turn apps off or on for Teams in **Tenant-wide settings** in the Microsoft 365 admin center. You must have Microsoft 365 administrative permissions to access these settings. Under **Apps**, you can turn default apps on and off and configure settings to control external apps.
- 
+
 Default apps, such as Planner, Praise, and Weather, are provided by Teams. To turn on an app, select the check box for that app. To turn off an app, clear the check box.
 
 External apps are provided by third parties. You can configure the following settings for external apps:
@@ -46,7 +46,7 @@ These cmdlets work only on the teams for which you are an owner or a member. Glo
 
 ## Microsoft Graph API
 
-Microsoft Graph is the gateway to data and intelligence in Microsoft 365. Graph provides a unified programmability model that you can use to access the tremendous amount of data in Microsoft 365, Windows 10, and Enterprise Mobility + Security. Graph is built on a REST-based API that allows access to Teams and other Microsoft 365 services. 
+Microsoft Graph is the gateway to data and intelligence in Microsoft 365. Graph provides a unified programmability model that you can use to access the tremendous amount of data in Microsoft 365, Windows 10, and Enterprise Mobility + Security. Graph is built on a REST-based API that allows access to Teams and other Microsoft 365 services.
 
 ![Microsoft Graph API](../media/graph-api.png)
 

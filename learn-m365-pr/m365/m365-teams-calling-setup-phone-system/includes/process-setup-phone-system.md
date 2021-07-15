@@ -3,6 +3,7 @@ You understand that Phone System can enable your users to make and receive publi
 In this unit, you'll go through the process for setting up Phone System across your organization.
 
 ## The 10-step process
+
 You can set up Phone System for your organization through the following 10-step process.
 
 ### Step 1: Verify that Phone System is available for your region or country

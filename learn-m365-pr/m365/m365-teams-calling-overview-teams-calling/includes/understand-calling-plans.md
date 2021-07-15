@@ -1,9 +1,9 @@
 
-All calls made to other Teams users (and Skype for Business users) are free. However, external calls incur charges.  If you don’t wish to use Direct Routing through your on-premises telephony infrastructure, you can use Calling Plan. With Calling Plan, Microsoft provides the service to the public telephone network through Office 365, and no extra PSTN carrier is involved.
+All calls made to other Teams users (and Skype for Business users) are free. However, external calls incur charges.  If you don't wish to use Direct Routing through your on-premises telephony infrastructure, you can use Calling Plan. With Calling Plan, Microsoft provides the service to the public telephone network through Office 365, and no extra PSTN carrier is involved.
 
 ## What is a calling plan?
 
-A calling plan is a license that combines a user’s phone number with many minutes. Each phone number requires a calling plan.
+A calling plan is a license that combines a user's phone number with many minutes. Each phone number requires a calling plan.
 
 Two types of calling plan are available:
 

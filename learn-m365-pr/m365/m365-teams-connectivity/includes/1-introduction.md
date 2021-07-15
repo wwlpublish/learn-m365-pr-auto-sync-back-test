@@ -8,9 +8,9 @@ Many organizations are moving work to the cloud to become more efficient and bet
 
 Microsoft Teams is part of the Microsoft 365 experience and builds on its core cloud computing features. To optimize the network for Teams, you start by optimizing Microsoft 365, following the published guidance, and then complete some extra steps that are specific to Teams.  
 
-Suppose you work for a large multi-national company that builds bicycles. Your board of directors has approved the decision to migrate all file management, video conferencing, and chat functionality into Teams and your Microsoft 365 subscription. They’ve put you in charge of assessing your on-premises network to ensure it can handle the anticipated traffic Teams might generate.
+Suppose you work for a large multi-national company that builds bicycles. Your board of directors has approved the decision to migrate all file management, video conferencing, and chat functionality into Teams and your Microsoft 365 subscription. They've put you in charge of assessing your on-premises network to ensure it can handle the anticipated traffic Teams might generate.
 
-In this module, you’ll learn how to plan network infrastructure that supports intense Teams usage.
+In this module, you'll learn how to plan network infrastructure that supports intense Teams usage.
 
 ## Learning objectives
 
