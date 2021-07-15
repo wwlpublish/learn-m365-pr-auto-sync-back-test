@@ -2,7 +2,7 @@ Windows Update for Business is a new service introduced with Windows 10. With Wi
 
 Windows Update for Business provides three types of updates in Windows:
 
-- Feature Updates. These updates include security and quality revisions, and feature additions and changes. They’re released approximately every 4 to 8 months.
+- Feature Updates. These updates include security and quality revisions, and feature additions and changes. They're released approximately every 4 to 8 months.
 - Quality Updates. These operating system updates typically are released the second Tuesday of each month (though they can be released at any time). These include security, critical, and driver updates. Updates to other Microsoft products (such as those for Microsoft Office or Microsoft Visual Studio) are also treated as Quality Updates.
 - Non-deferrable updates. Antimalware and antispyware Definition Updates from Windows Update are mandatory and cannot be deferred.
 

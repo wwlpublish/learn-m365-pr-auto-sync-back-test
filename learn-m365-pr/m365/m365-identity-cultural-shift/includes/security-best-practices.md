@@ -44,11 +44,11 @@ Then, when a user affected by the user risk policy is informed that their accoun
 
  ![Your account security is at risk screen](../media/at-risk.png) 
 
-Both sign-in and user Azure AD Identity Protection risk policies allow the configuration of risk levels that trigger the additional verifications noted above. Risk levels in Identity Protection are based on the precision of the detection and powered by Microsoft’s machine learning. To customize what experience users are presented, administrators can include/exclude certain users/groups from the User Risk and Sign-In Risk Policies. Administrators cannot change what “triggers” result in high, medium, or low risks.
+Both sign-in and user Azure AD Identity Protection risk policies allow the configuration of risk levels that trigger the additional verifications noted above. Risk levels in Identity Protection are based on the precision of the detection and powered by Microsoft's machine learning. To customize what experience users are presented, administrators can include/exclude certain users/groups from the User Risk and Sign-In Risk Policies. Administrators cannot change what “triggers” result in high, medium, or low risks.
 
  ![Sign-in risk screen set to High](../media/conditions.png) 
 
-Now that you’ve read about creating security best practices, let’s walk through the experience of enabling a combined multi-factor authentication and self-service password reset registration for your end users.
+Now that you've read about creating security best practices, let's walk through the experience of enabling a combined multi-factor authentication and self-service password reset registration for your end users.
 
 ### Explore how to enable a combined MFA and SSPR registration experience in Azure AD
 

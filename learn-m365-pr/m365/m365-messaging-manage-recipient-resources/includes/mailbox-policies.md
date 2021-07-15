@@ -47,7 +47,7 @@ To configure and manage mailbox permissions, the account you're logged in with n
 
 In Exchange Online, Outlook on the web mailbox policies control the availability of settings and features in Outlook on the web (formerly known as Outlook Web App). You can only apply one Outlook on the web mailbox policy to a mailbox. You can create different policies for different types of users in your Exchange Online organization. 
 
-Every Exchange Online organization has a default Outlook on the web mailbox policy, named **OwaMailboxPolicy-Default**, that’s applied to all user mailboxes. You can use this policy or create additional policies as needed to meet the needs of your organization. 
+Every Exchange Online organization has a default Outlook on the web mailbox policy, named **OwaMailboxPolicy-Default**, that's applied to all user mailboxes. You can use this policy or create additional policies as needed to meet the needs of your organization. 
 
 To configure mailbox policies, the account you use will need either the Organization Management permission or the Recipient Management permission. 
 

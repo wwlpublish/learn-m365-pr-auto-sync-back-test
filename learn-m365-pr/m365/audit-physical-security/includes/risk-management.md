@@ -1,4 +1,4 @@
-Managing risk within our datacenters is a continuous process, with formal assessments occurring throughout the lifecycle of a facility. To identify and mitigate the impact of physical and environmental threats to Microsoft datacenters, a Threat, Vulnerability, and Risk Assessment (TVRA) is conducted annually for all datacenters hosting customer data. In addition to following Microsoft Enterprise Risk Management’s Framework, Microsoft leverages requirements defined in the Technology Risk Management Guidelines initially published in June 2013 by the Monetary Authority of Singapore. TVRAs reflect Microsoft’s best professional judgment based on accepted risk assessment methods and the information currently available to the company.
+Managing risk within our datacenters is a continuous process, with formal assessments occurring throughout the lifecycle of a facility. To identify and mitigate the impact of physical and environmental threats to Microsoft datacenters, a Threat, Vulnerability, and Risk Assessment (TVRA) is conducted annually for all datacenters hosting customer data. In addition to following Microsoft Enterprise Risk Management's Framework, Microsoft leverages requirements defined in the Technology Risk Management Guidelines initially published in June 2013 by the Monetary Authority of Singapore. TVRAs reflect Microsoft's best professional judgment based on accepted risk assessment methods and the information currently available to the company.
 
 Microsoft facilitates the TVRA process following these steps:
 
@@ -21,4 +21,4 @@ Microsoft is committed to continuously updating its risk assessments and methodo
 
 ## Learn more
 
-- [Monetary Authority of Singapore (MAS)’s Technology Risk Management Guidelines](https://www.mas.gov.sg/-/media/MAS/Regulations-and-Financial-Stability/Regulatory-and-Supervisory-Framework/Risk-Management/TRM-Guidelines-18-January-2021.pdf?azure-portal=true)
+- [Monetary Authority of Singapore (MAS)'s Technology Risk Management Guidelines](https://www.mas.gov.sg/-/media/MAS/Regulations-and-Financial-Stability/Regulatory-and-Supervisory-Framework/Risk-Management/TRM-Guidelines-18-January-2021.pdf?azure-portal=true)

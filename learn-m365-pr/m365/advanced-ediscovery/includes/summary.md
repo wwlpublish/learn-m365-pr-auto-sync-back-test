@@ -1,4 +1,4 @@
-Now that you’ve completed this module, you should be able to:
+Now that you've completed this module, you should be able to:
 
 - Describe the phases of the Electronic Discovery Reference Model.
 - Identify how in-place holds are applied to data.

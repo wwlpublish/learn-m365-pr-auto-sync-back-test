@@ -11,7 +11,7 @@ DLP policies can:
 - Monitor and protect sensitive information in Excel, PowerPoint, Word, and Outlook.
 - Prevent the accidental sharing of sensitive information.
 - Educate users on staying compliant without interrupting their workflow.
-- Produce DLP alerts and reports showing content that matches your organization’s DLP policies.
+- Produce DLP alerts and reports showing content that matches your organization's DLP policies.
 
 Each DLP policy contains the following:
 

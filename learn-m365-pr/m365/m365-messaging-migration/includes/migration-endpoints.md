@@ -52,7 +52,7 @@ New-MigrationEndpoint -ExchangeOutlookAnywhere
 
 ## Verify the connection by using Azure PowerShell
 
-It’s good practice to test a migration endpoint before you initiate a migration batch. The test checks to see if the remote server is available and communicative. You can perform such a test by using the **Test-MigrationServerAvailability** cmdlet in the Exchange Online PowerShell. In this example, the command tests an endpoint named endpoint.contoso.com: 
+It's good practice to test a migration endpoint before you initiate a migration batch. The test checks to see if the remote server is available and communicative. You can perform such a test by using the **Test-MigrationServerAvailability** cmdlet in the Exchange Online PowerShell. In this example, the command tests an endpoint named endpoint.contoso.com: 
 
 ```powershell
 Test-MigrationServerAvailability -Endpoint endpoint.contoso.com

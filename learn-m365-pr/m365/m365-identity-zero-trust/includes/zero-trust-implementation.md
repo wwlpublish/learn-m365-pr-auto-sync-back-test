@@ -4,11 +4,11 @@ To do this, we need to put Azure Active Directory in the path of every access re
 
 ## Connect your users, groups, and devices
 
-Maintaining a healthy pipeline of your employees’ identities as well as the necessary security artifacts (groups for authorization and devices for extra access policy controls) puts you in the best place to use consistent identities and controls, which your on-premises and in the cloud users already benefit from. We strongly prefer an authentication method that primarily uses Azure AD (to provide you the best brute force, DDoS, and password spray protection). 
+Maintaining a healthy pipeline of your employees' identities as well as the necessary security artifacts (groups for authorization and devices for extra access policy controls) puts you in the best place to use consistent identities and controls, which your on-premises and in the cloud users already benefit from. We strongly prefer an authentication method that primarily uses Azure AD (to provide you the best brute force, DDoS, and password spray protection). 
 
 ## Integrate all your applications with Azure AD
 
-SSO is not only a convenient feature for users, but it’s also a security posture, as it prevents users from leaving copies of their credentials in various apps and helps them avoid getting used to surrendering their credentials due to excessive prompting.
+SSO is not only a convenient feature for users, but it's also a security posture, as it prevents users from leaving copies of their credentials in various apps and helps them avoid getting used to surrendering their credentials due to excessive prompting.
 
 ### Explore how to provide secure remote access to on-premises applications with Azure AD Application Proxy
 
@@ -20,7 +20,7 @@ Be sure to click the full-screen option in the video player. When you're done, u
 
 ## Automate provisioning to applications
 
-Once you have your users’ identities in Azure AD, you can use Azure AD to automate provisioning those user identities into your various cloud applications.
+Once you have your users' identities in Azure AD, you can use Azure AD to automate provisioning those user identities into your various cloud applications.
 
 ## Get your logging and reporting in order
 
@@ -76,9 +76,9 @@ Within your organization, consider creating a Conditional Access policy requirin
  
     ![For Cloud apps or actions, select All cloud apps](../media/all-cloud-apps.png) 
 
-4.	Then under **Conditions > Client apps (Preview)**, select **Yes** to also target apps that don’t use Modern Authentication:
+4.	Then under **Conditions > Client apps (Preview)**, select **Yes** to also target apps that don't use Modern Authentication:
  
-    ![Select Yes to  target apps that don’t using Modern Authentication:](../media/client-apps.png)  
+    ![Select Yes to  target apps that don't using Modern Authentication:](../media/client-apps.png)  
  
 5.	Under **Access controls**, set **Grant Access to Require Multi-factor authentication**:
  

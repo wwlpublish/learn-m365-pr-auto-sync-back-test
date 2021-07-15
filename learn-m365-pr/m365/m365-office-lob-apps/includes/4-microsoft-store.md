@@ -4,7 +4,7 @@
 
 You can build store apps as Universal Windows Platform (UWP) apps or repackage existing apps for the store and add modern experiences for Windows 10. Your apps remain unchanged and continue to run in full-trust user mode.
 
-A new option for application packaging used by the Microsoft Store is MSIX, which applies the containerization technology available in Windows. Containerization means clean uninstall and removal of packages. It also means users only need standard user credentials to install applications – you don’t have to have administrator credentials to install MSIX containers. 
+A new option for application packaging used by the Microsoft Store is MSIX, which applies the containerization technology available in Windows. Containerization means clean uninstall and removal of packages. It also means users only need standard user credentials to install applications – you don't have to have administrator credentials to install MSIX containers. 
 
 Before you package your desktop app for the store, be sure to review any requirements for the application and address any of the issues that come up. In most cases, we recommend you use the [MSIX Packaging Tool](/windows/msix/packaging-tool/create-app-package-msi-vm), available from the Microsoft Store, to repackage an existing desktop app to the MSIX format. It has both an interactive UI and a command line for conversions and it gives you the ability to convert an application without having the source code.
 

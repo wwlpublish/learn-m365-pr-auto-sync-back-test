@@ -1,4 +1,4 @@
-You’ve learned about the different attack surface reduction capabilities.  But in order to use attack surface reduction capabilities effectively in Microsoft Defender for Endpoint, you need to understand attack surface reduction rules as well.
+You've learned about the different attack surface reduction capabilities.  But in order to use attack surface reduction capabilities effectively in Microsoft Defender for Endpoint, you need to understand attack surface reduction rules as well.
 
 ## What are attack surface reduction rules?
 

@@ -21,13 +21,13 @@ There will always be management requirements beyond initial deployment. But you 
     - OneDrive Files On-Demand enables users to view, search for, and interact with files stored in OneDrive from within File Explorer without downloading them all to their device. 
     - The ability to automatically turn on Files On-Demand can be set or users can turn it on or off themselves. 
 - **Known Folder Move**
-    - The two primary advantages for the users in your organization of moving or redirecting Windows known folders (Desktop, Documents, Pictures) to OneDrive are that they can continue to use the folders they’re familiar with and that files are saved automatically to the cloud. Redirecting with Known Folder Move is normally an administrator process and can be deployed through Group Policy.
+    - The two primary advantages for the users in your organization of moving or redirecting Windows known folders (Desktop, Documents, Pictures) to OneDrive are that they can continue to use the folders they're familiar with and that files are saved automatically to the cloud. Redirecting with Known Folder Move is normally an administrator process and can be deployed through Group Policy.
     - If your organization has a lot of files in their known folders, make sure to roll out slowly to minimize network impact on existing PCs. 
 
 ## Deploying the sync app as a per-machine installation
 By default, the OneDrive sync app installs per user under the %localappdata% folder. With the per-machine installation option, OneDrive installs under the “Program Files (x86)” or “Program Files” directory (depending on the OS architecture), meaning all profiles on the computer will use the same OneDrive.exe binary. 
 
-Other than where the sync app is installed, the behavior is the same. The per-machine sync app installation option is helpful especially for multi-user computers and when you don’t want exe files running from the user profile. 
+Other than where the sync app is installed, the behavior is the same. The per-machine sync app installation option is helpful especially for multi-user computers and when you don't want exe files running from the user profile. 
 
 The OneDrive sync app also supports virtual desktops.
 

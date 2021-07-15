@@ -51,7 +51,7 @@ Here are the instructions for onboarding a Windows 10 device using a local scrip
 1. On the **Device onboarding** page in the compliance center, select **Onboarding**.
 2. Select **Local script (for up to 10 machines)** under **Deployment method**.
 3. Select **Download package**, and then save the DeviceComplianceOnboardingPackage.zip file.
-4. Extract the DeviceComplianceOnboardingPackage.zip file to a location accessible from the device you want to onboard, like a network share or the local device’s Desktop. (You may need to bypass any messages or errors stating that downloading the file may harm your device and is not safe.)
+4. Extract the DeviceComplianceOnboardingPackage.zip file to a location accessible from the device you want to onboard, like a network share or the local device's Desktop. (You may need to bypass any messages or errors stating that downloading the file may harm your device and is not safe.)
 5. In the Windows Explorer or wherever you extracted the files, right-click **DeviceComplianceLocalOnboardingScript.cmd**, then select **Run as Administrator**.
 6. If a **User Account Control** window appears, select **Yes**.
 7. Follow the prompts on the screen to onboard the device.

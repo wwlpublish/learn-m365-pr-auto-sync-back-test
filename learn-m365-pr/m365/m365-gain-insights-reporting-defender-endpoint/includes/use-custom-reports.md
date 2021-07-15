@@ -1,6 +1,6 @@
 As the security analyst for your organization, you understand that your organization relies on dependable reporting to make critical decisions about security and day-to-day business activities. Your organization has reporting needs that are unique to its environment and business activities.
 
-Here, you’ll learn how you can use Microsoft Defender for Endpoint to build custom reports that will help you to meet those needs.
+Here, you'll learn how you can use Microsoft Defender for Endpoint to build custom reports that will help you to meet those needs.
 
 
 ## What are custom reports?

@@ -2,7 +2,7 @@ The European parliament published the European Union (EU) General Data Protectio
 
 For Microsoft online services, we are the data processor:
 
-- Microsoft presents the data controller’s privacy statement to their data subjects.
+- Microsoft presents the data controller's privacy statement to their data subjects.
 - Microsoft designs changes to existing service features and new features in alignment with data subject rights.
 - Microsoft provides notice if there is a data breach when the breach is likely to “result in a risk for the rights or freedom of individuals.” We commit to notify appropriate parties within 72 hours when a data breach has been declared.
 

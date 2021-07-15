@@ -1,5 +1,5 @@
 
-Governing your data is about keeping what you need and deleting what you don’t, to meet compliance requirements and reduce your overall risk landscape. Microsoft's solutions for governing your data are Information governance and Records management.
+Governing your data is about keeping what you need and deleting what you don't, to meet compliance requirements and reduce your overall risk landscape. Microsoft's solutions for governing your data are Information governance and Records management.
 
 **Information governance** manages your content lifecycle using solutions to import, store, and classify business-critical data so you can keep what you need and delete what you do not.
 

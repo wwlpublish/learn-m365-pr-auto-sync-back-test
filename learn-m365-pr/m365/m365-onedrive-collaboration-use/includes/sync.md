@@ -10,9 +10,9 @@ Once a user has signed in to their work or school account and synced your files,
  
 ![Files will appear in File Explorer in the OneDrive folder with OneDrive – CompanyName](../media/file-explorer.png)
 
-When users add, change, and delete files and folders from the OneDrive mobile app or access them from a web browser, the files and folders are automatically added, changed, or deleted on their computer and vice versa. To upload files to OneDrive, simply copy or move them to OneDrive in File Explorer or Finder. Users can also use File Explorer to organize their OneDrive by organizing, creating, moving, restoring, and renaming files and folders. OneDrive syncs all these changes automatically. Once the files are synced, they can work with them offline if necessary. Whenever they’re online, any changes that they or others make will sync automatically.
+When users add, change, and delete files and folders from the OneDrive mobile app or access them from a web browser, the files and folders are automatically added, changed, or deleted on their computer and vice versa. To upload files to OneDrive, simply copy or move them to OneDrive in File Explorer or Finder. Users can also use File Explorer to organize their OneDrive by organizing, creating, moving, restoring, and renaming files and folders. OneDrive syncs all these changes automatically. Once the files are synced, they can work with them offline if necessary. Whenever they're online, any changes that they or others make will sync automatically.
 
-If a user doesn’t want to sync all of their folders in OneDrive to their computer, they can specify the folders they’d like to sync by unchecking the folders they don’t want to sync in the **Sync your OneDrive files PC** dialog box. The sync settings are unique to each computer.
+If a user doesn't want to sync all of their folders in OneDrive to their computer, they can specify the folders they'd like to sync by unchecking the folders they don't want to sync in the **Sync your OneDrive files PC** dialog box. The sync settings are unique to each computer.
 
 ## Syncing other files
 Users can start syncing a SharePoint or Microsoft Teams library by using the Sync button in the toolbar:
@@ -20,13 +20,13 @@ Users can start syncing a SharePoint or Microsoft Teams library by using the Syn
 ![Users can start syncing a SharePoint or Microsoft Teams library by using the Sync button in the toolbar](../media/sync-button.png)
 
 ## Using Files On-Demand
-OneDrive Files On-Demand helps users access all their files in OneDrive without having to download them and consume storage space. When they turn on Files On-Demand, they’ll see all their files in File Explorer and get new information about each file. New files created online or on another device appear as online-only files, which don’t take up space on their device. They can use the files like they would on any other file on their device.
+OneDrive Files On-Demand helps users access all their files in OneDrive without having to download them and consume storage space. When they turn on Files On-Demand, they'll see all their files in File Explorer and get new information about each file. New files created online or on another device appear as online-only files, which don't take up space on their device. They can use the files like they would on any other file on their device.
 
 With OneDrive Files On-Demand, users can:
 - Save space on their device by making files online only.
 - Set files and folders to be always available locally on their device.
 - View important information about files, such as whether they are shared.
-- See thumbnails of over 300 different file types even if they don’t have the required application to open it.
+- See thumbnails of over 300 different file types even if they don't have the required application to open it.
 
 With Files On-Demand, users will see new icons next to your files synced to their device:
 

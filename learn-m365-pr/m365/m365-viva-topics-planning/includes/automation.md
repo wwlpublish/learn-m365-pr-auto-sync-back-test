@@ -13,7 +13,7 @@ Viva Topics can automate various scenarios to improve productivity and reduce co
 
 ## Scenario 1: Role onboarding & training
 
-An HR manager needs to provide information to new employees to help them quickly onboard to the company and their teams. They want to point them to the correct resources, documents, and team members they’ll need to onboard quickly and efficiently. This allows the new employee to quickly find the information they need without having to search across multiple repositories or leave the applications they’re already using.
+An HR manager needs to provide information to new employees to help them quickly onboard to the company and their teams. They want to point them to the correct resources, documents, and team members they'll need to onboard quickly and efficiently. This allows the new employee to quickly find the information they need without having to search across multiple repositories or leave the applications they're already using.
 
 For example, Jordan is taking on a new role or has been newly hired and is just starting. Jordan wants to get involved and productive as quickly as possible, but needs help finding a starting place. Before Jordan, Kim was in the role who created topic pages to help new employees and anyone else looking for that information.
 
@@ -36,9 +36,9 @@ Automate this scenario in Viva Topics to ensure:
 
 ## Scenario 3: Expanded decision making & improved time to market
 
-Microsoft’s 2020 report, "Knowledge Sharing in a Changing World" includes surveys on information access, resilience, and cost savings in hybrid work environments. This survey targeted IT, business, C-level decision-makers and knowledge-sharing tool users across various industries. Highlights of this survey include:  
+Microsoft's 2020 report, "Knowledge Sharing in a Changing World" includes surveys on information access, resilience, and cost savings in hybrid work environments. This survey targeted IT, business, C-level decision-makers and knowledge-sharing tool users across various industries. Highlights of this survey include:  
 
-- On average, employees could potentially save between 4 to 6 hours each week if they didn’t have to search for information—or spend time recreating it, gaining back 11 to 14% in daily productivity.  
+- On average, employees could potentially save between 4 to 6 hours each week if they didn't have to search for information—or spend time recreating it, gaining back 11 to 14% in daily productivity.  
 - 52% of information workers say the most appealing benefit of knowledge sharing tools is the ability to find information faster—so they can spend more time doing more meaningful work.
 - The other top benefits for knowledge workers are limiting the need to recreate information and having a single source of truth.
 - 49% of decision-makers welcome the ability to increase employee productivity to save time and money.  

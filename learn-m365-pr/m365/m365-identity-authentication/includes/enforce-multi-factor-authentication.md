@@ -1,6 +1,6 @@
 Multi-factor authentication (MFA) is a process where users are prompted during a sign-on event for additional forms of identification. This prompt could be to enter a code they receive on their cellphone or provide a fingerprint scan. Requiring a second form of authentication increases security since this additional authentication factor is far more difficult for an attacker to obtain or duplicate than a password.
 
-Traditionally, Azure MFA would be enabled “per user.” In a per user environment, users enabled for MFA are prompted each time they sign into an application (except on a trusted network). This results in a poor user experience, because it doesn’t consider any other factors – such as device type, sign-on behavior, or client application.
+Traditionally, Azure MFA would be enabled “per user.” In a per user environment, users enabled for MFA are prompted each time they sign into an application (except on a trusted network). This results in a poor user experience, because it doesn't consider any other factors – such as device type, sign-on behavior, or client application.
 
 A better way is to enable and use Azure MFA is with Conditional Access policies. Conditional Access lets you create and define policies that react to sign-on events and request additional actions before a user is granted access to an application or service. Azure MFA and Conditional Access policies give you the flexibility to enable MFA for users during specific sign-on events.
 

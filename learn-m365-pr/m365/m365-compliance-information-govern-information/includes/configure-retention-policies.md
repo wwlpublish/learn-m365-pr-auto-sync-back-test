@@ -67,7 +67,7 @@ Email messages and Teams conversations:
 
 The first option is **Apply policy only to content in Exchange email, public folders, Microsoft 365 groups, OneDrive, and SharePoint documents**. No additional options are provided if you select this option.
 
-The second option offers you more control. In addition to selecting more locations, you can also include or exclude locations based on additional parameters. For example, you can include only the Finance department’s SharePoint site in the retention policy. The following table shows the options and the additional control to refine the retention policy scope.
+The second option offers you more control. In addition to selecting more locations, you can also include or exclude locations based on additional parameters. For example, you can include only the Finance department's SharePoint site in the retention policy. The following table shows the options and the additional control to refine the retention policy scope.
 
 | Location  | Include/Exclude  |
 |---|---|

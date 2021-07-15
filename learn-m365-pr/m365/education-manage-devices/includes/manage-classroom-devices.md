@@ -19,7 +19,7 @@ You can start express configuration by doing the following:
 1. Select **Launch Express Configuration** in the dashboard.
 
    > [!NOTE]
-   > You won’t see configuration options for iOS device management until you set up your tenant to manage iOS devices. To enable iOS management, review the instructions in the *Set up iOS device management* link in the *Learn more* section.
+   > You won't see configuration options for iOS device management until you set up your tenant to manage iOS devices. To enable iOS management, review the instructions in the *Set up iOS device management* link in the *Learn more* section.
 
    :::image type="content" source="../media/2-select-get-started.png" alt-text="Select get started.":::
 

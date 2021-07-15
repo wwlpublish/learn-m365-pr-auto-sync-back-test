@@ -27,7 +27,7 @@ Activities when searching audit logs commonly involve files, folders, sharing, a
 - When a file is copied.
 - When a file is deleted.
 - When a file is downloaded.
-- When a user shares a resource in OneDrive with a user who isn’t in your organization’s directory. 
+- When a user shares a resource in OneDrive with a user who isn't in your organization's directory. 
 - When a user creates an anonymous link to a resource.
 
 ## Learn more

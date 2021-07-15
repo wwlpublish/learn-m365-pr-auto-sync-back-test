@@ -1,4 +1,4 @@
-In this unit, we’ll explain relevant network considerations, language configurations, policies and preferences, and application architectures.
+In this unit, we'll explain relevant network considerations, language configurations, policies and preferences, and application architectures.
 
 ## Network optimizations for software updates
 
@@ -19,12 +19,12 @@ One advantage of installing from the internet-based CDN instead of using Configu
 
 Microsoft 365 Apps and volume licensing editions of Office 2019 support Active Directory Group Policy management. New versions continue to use the Office 2016 ADMX templates. Additionally, you can configure install-time policy preferences with the same versions of Office by using the new Office Customization Tool or as part of the Installer process in Configuration Manager. These are policy preferences and not enforced policies - in many cases your users can change or modify the configurations post-installation.
 
-Microsoft 365 Apps has a new policy enforcement option - the Office Cloud Policy Service. When a user signs into their account, if Microsoft 365 Apps is installed on their device, the service enforces the policies you've configured. These policies work regardless of how Microsoft 365 Apps was installed and whether or not the user’s PC is domain-joined or managed using other systems. 
+Microsoft 365 Apps has a new policy enforcement option - the Office Cloud Policy Service. When a user signs into their account, if Microsoft 365 Apps is installed on their device, the service enforces the policies you've configured. These policies work regardless of how Microsoft 365 Apps was installed and whether or not the user's PC is domain-joined or managed using other systems. 
 
 To configure policies with the Office Cloud Policy Service, you add users to a group, then assign that group to configured policies. You can also get to the Office Cloud Policy Service experience from the Office Customization Tool link below under **Learn more.** To use this capability, you need to authenticate with an administrator account to set policies and assign them to groups. 
 
 > [!NOTE]
-> The policies set in the Office Cloud Policy Service are currently limited to **User Configuration** policies and don’t include **Computer Configuration** policies.
+> The policies set in the Office Cloud Policy Service are currently limited to **User Configuration** policies and don't include **Computer Configuration** policies.
 
 ## Visio and Project considerations
 
@@ -36,7 +36,7 @@ If any of your users have Visio or Project installed, there are a few additional
 
 ## Office installation architecture
 
-The installation architecture for all Office applications (including Visio and Project) must match that of any other Office application on the same device, whether that is 32-bit or 64-bit. If the Office installation process detects another architecture, the installation won’t proceed. Office COM add-ins must also match the architecture of the installed version of Office. If you want to move to 64-bit versions of Office, you must replace native 32-bit COM add-ins with the equivalent 64-bit COM add-ins. 
+The installation architecture for all Office applications (including Visio and Project) must match that of any other Office application on the same device, whether that is 32-bit or 64-bit. If the Office installation process detects another architecture, the installation won't proceed. Office COM add-ins must also match the architecture of the installed version of Office. If you want to move to 64-bit versions of Office, you must replace native 32-bit COM add-ins with the equivalent 64-bit COM add-ins. 
 
 ## Learn more
 

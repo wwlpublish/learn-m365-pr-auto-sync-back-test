@@ -7,7 +7,7 @@ There are four Viva Topics roles:
 - Knowledge managers
 - Knowledge admins
 
-Users have access to only those topics to which they’ve been granted access.  
+Users have access to only those topics to which they've been granted access.  
 
 You'll review the different scenarios in your organization to learn how Viva Topics will impact roles in your organization. Different roles will experience different views, access, interaction, and scenarios with topics.
 

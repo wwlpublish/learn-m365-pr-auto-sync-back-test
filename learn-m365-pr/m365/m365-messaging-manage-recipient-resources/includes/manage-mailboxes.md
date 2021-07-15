@@ -5,7 +5,7 @@ To complete any of the actions or procedures mentioned in this unit, you'll need
 
 ## Understand the archive mailbox type 
 
-Microsoft Exchange Online Archiving is a Microsoft 365 cloud-based, enterprise archiving solution. It’s a solution for organizations that have deployed Microsoft Exchange Server 2019, Microsoft Exchange Server 2016, Microsoft Exchange Server 2013, Microsoft Exchange Server 2010 (SP2 and later), or subscribe to certain Exchange Online or Microsoft 365 plans. Exchange Online Archiving assists with archiving, compliance, regulatory, and eDiscovery challenges while simplifying on-premises infrastructure. Exchange Online Archiving helps reduce your costs and eases IT burdens. 
+Microsoft Exchange Online Archiving is a Microsoft 365 cloud-based, enterprise archiving solution. It's a solution for organizations that have deployed Microsoft Exchange Server 2019, Microsoft Exchange Server 2016, Microsoft Exchange Server 2013, Microsoft Exchange Server 2010 (SP2 and later), or subscribe to certain Exchange Online or Microsoft 365 plans. Exchange Online Archiving assists with archiving, compliance, regulatory, and eDiscovery challenges while simplifying on-premises infrastructure. Exchange Online Archiving helps reduce your costs and eases IT burdens. 
 
 As a Microsoft online service, Exchange Online Archiving is designed to help meet the need for robust security, reliability, and user productivity. 
 
@@ -32,7 +32,7 @@ The unlimited archiving feature (called *auto-expanding archiving*) provides add
 
 ## Understand different resource mailbox types 
 
-Let’s look at two of the resource mailbox types that are available. 
+Let's look at two of the resource mailbox types that are available. 
 
 A **room mailbox** is a resource mailbox that's assigned to a physical location, such as a conference room, an auditorium, or a training room. After you create room mailboxes, users can reserve rooms by including the specific room mailbox in a meeting request. 
 
