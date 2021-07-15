@@ -23,7 +23,6 @@ Work with your key stakeholders to build and launch your adoption plan. Prepare 
 - Launch to early adopters.
 - Adjust your plan.
 
-
 ### Drive Value
 
 Successful onboarding of Team is dependent on how satisfied your users are. Proper planning through the Envision and Onboard phases plus ongoing operational excellence will aid you in this project. Objectives at this stage include:
@@ -31,4 +30,3 @@ Successful onboarding of Team is dependent on how satisfied your users are. Prop
 - Monitor Teams adoption.
 - Measure and report usage.
 - Encourage ongoing engagement.
-

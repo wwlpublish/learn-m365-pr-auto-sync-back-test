@@ -36,7 +36,7 @@ Within Microsoft Teams, the tab gallery gives you access to all Microsoft 365 or
 
 In your initial Teams, we suggest pinning the following items for easy reference in your Team channels. These assets are in addition to your OneNote notebook sections. You should consider working with our FastTrack team who will assist you in configuring these first teams.
 
-**Microsoft Teams Implementation**
+#### Microsoft Teams Implementation
 
 |      Team/Channel Name           |      Pinned Tab                                                                                            |
 |----------------------------------|------------------------------------------------------------------------------------------------------------|
@@ -49,7 +49,7 @@ In your initial Teams, we suggest pinning the following items for easy reference
 |     Strategy and   planning      |     Collaboration North   Star PowerPoint    Service Adoption Project Plan                                 |
 |     Training                     |     Custom learning,   training portal,  Teams online   training                                          |
 
-**Teamwork Champions**
+#### Teamwork Champions
 
 |      Team/Channel Name     |      Pinned Tab                                                                     |
 |----------------------------|-------------------------------------------------------------------------------------|

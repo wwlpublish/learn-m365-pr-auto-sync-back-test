@@ -11,7 +11,7 @@ The Microsoft Teams admin center allows administrators to manage devices that ar
 - Setting up devices. A new device will automatically appear in the Teams Admin Center.
 - Granular management. Admins can create and assign configuration profiles, and remotely apply settings on devices.  
 - View enrolled devices. Track device inventory using organized views. Admins can scale management operations by using custom tagging.  
-- Perform bulk actions. Manage device restarts and apply settings by using filters and search to define groups of devices. 
+- Perform bulk actions. Manage device restarts and apply settings by using filters and search to define groups of devices.
 - Device health monitoring, including network connectivity, sign-in status, and connected peripherals for Teams Rooms.  
 - Alerting capabilities, including triggering a notification to an IT admin when an issue occurs.  
 - Analyze call quality details, investigate and diagnose poor audio calls which can provide insights into additional actions.

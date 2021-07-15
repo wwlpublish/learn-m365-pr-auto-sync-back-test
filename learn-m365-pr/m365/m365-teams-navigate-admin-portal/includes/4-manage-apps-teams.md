@@ -16,6 +16,7 @@ The App permission policy allows to curate this list of apps for end-users when 
 ## Getting started with managing apps
 
 To manage apps:
+
 1. Sign into the [Microsoft Teams admin center](https://admin.teams.microsoft.com), and select **Team apps** from the left navigation bar.
 1. Select either **Manage apps**, **Permission policies**, or **Setup Policies**.
 1. From the **Manage apps** screen, you can control what apps are available to users in your organization's app store. You can then use app permission and app setup policies to configure what apps will be available for specific users.
@@ -25,6 +26,7 @@ To manage apps:
 ## App permission policies
 
 With app permission policies, you can control what apps are available to specific users. You can allow or block all apps or specific apps published by Microsoft, third-parties, and your organization. For example, you can use app permission policies to:
+
 - Gradually roll out new third-party or custom-built apps to specific users.
 - Simplify the user experience, especially when you start rolling out Teams across your organization.
 
@@ -39,6 +41,7 @@ As an admin, you can use app setup policies to do the following:
 ## Learn more
 
 For more information about the topics covered in this unit, see:
+
 - [Admin settings for apps in Microsoft Teams](/microsoftteams/admin-settings).
 - [Manage app setup policies in Microsoft Teams](/microsoftteams/teams-app-setup-policies).
 - [Manage app permission policies in Microsoft Teams](/microsoftteams/teams-app-permission-policies).
