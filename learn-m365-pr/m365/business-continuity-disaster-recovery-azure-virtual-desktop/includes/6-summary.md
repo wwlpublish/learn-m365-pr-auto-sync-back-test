@@ -8,9 +8,9 @@ In this module, you learned how to implement protection of your Azure Virtual De
 
 To learn more, review the following articles:
 
-- [Set up a business continuity and disaster recovery plan](/azure/virtual-desktop/disaster-recovery)
-- [Set up disaster recovery to a secondary Azure region for an Azure VM](/azure/site-recovery/azure-to-azure-quickstart)
-- [Planning for an Azure Files deployment](/azure/storage/files/storage-files-planning#redundancy)
-- [Availability options for Azure Virtual Machines](/azure/virtual-machines/availability)
-- [Shared Image Galleries overview](/azure/virtual-machines/shared-image-galleries)
+- [Set up a business continuity and disaster recovery plan](https://docs.microsoft.com/azure/virtual-desktop/disaster-recovery)
+- [Set up disaster recovery to a secondary Azure region for an Azure VM](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-quickstart)
+- [Planning for an Azure Files deployment](https://docs.microsoft.com/azure/storage/files/storage-files-planning#redundancy)
+- [Availability options for Azure Virtual Machines](https://docs.microsoft.com/azure/virtual-machines/availability)
+- [Shared Image Galleries overview](https://docs.microsoft.com/azure/virtual-machines/shared-image-galleries)
 - [Cloud Cache to create resiliency and availability](https://docs.microsoft.com/fslogix/cloud-cache-resiliency-availability-cncpt)
