@@ -11,11 +11,18 @@ To learn more, review the following articles:
 - [Set up a business continuity and disaster recovery plan](https://docs.microsoft.com/azure/virtual-desktop/disaster-recovery)
 - [Set up disaster recovery to a secondary Azure region for an Azure VM](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-quickstart)
 - [Planning for an Azure Files deployment](https://docs.microsoft.com/azure/storage/files/storage-files-planning#redundancy)
-- [Back up Azure file shares](https://docs.microsoft.com/azure/backup/backup-afs)
 - [Availability options for Azure Virtual Machines](https://docs.microsoft.com/azure/virtual-machines/availability)
-- [Replica sets concepts and features for Azure Active Directory Domain Services](https://docs.microsoft.com/azure/active-directory-domain-services/concepts-replica-sets)
-- [Shared Image Galleries overview](https://docs.microsoft.com/azure/virtual-machines/shared-image-galleries)
 - [Cloud Cache to create resiliency and availability](https://docs.microsoft.com/fslogix/cloud-cache-resiliency-availability-cncpt)
-- [Tutorial: Configure Cloud Cache to redirect profile containers or office container to multiple Providers](https://docs.microsoft.com/fslogix/configure-cloud-cache-tutorial)
-- [Protect your Azure infrastructure with Azure Site Recovery](https://docs.microsoft.com/learn/modules/protect-infrastructure-with-site-recovery/)
-- [Cross-region replication of Azure NetApp Files volumes](https://docs.microsoft.com/azure/azure-netapp-files/cross-region-replication-introduction)
+- [Shared Image Galleries overview](https://docs.microsoft.com/azure/virtual-machines/shared-image-galleries)
+
+[Protect your virtual machines by using Azure Backup](https://docs.microsoft.com/learn/modules/protect-virtual-machines-with-azure-backup/) teaches you more about how to protect Azure virtual machines.
+
+[Back up Azure file shares](https://docs.microsoft.com/azure/backup/backup-afs) explains how to back up Azure file shares from the Azure portal and how to protect different services running in Azure.
+
+[Replica sets concepts and features for Azure Active Directory Domain Services](https://docs.microsoft.com/azure/active-directory-domain-services/concepts-replica-sets) provides an in-depth review of the various concepts and features of Replica sets for Azure Active Directory Domain services.
+
+The tutorial [Configure Cloud Cache to redirect profile containers or office container to multiple Providers](https://docs.microsoft.com/fslogix/configure-cloud-cache-tutorial) is a good source to understand the purpose and use of Cloud Cache.
+
+[Protect your Azure infrastructure with Azure Site Recovery](https://docs.microsoft.com/learn/modules/protect-infrastructure-with-site-recovery/) explores the features that apply to a business continuity and disaster recovery (BCDR) plan.
+
+[Cross-region replication of Azure NetApp Files volumes](https://docs.microsoft.com/azure/azure-netapp-files/cross-region-replication-introduction) explains how to setup Cross-region replication of Azure NetApp Files.
