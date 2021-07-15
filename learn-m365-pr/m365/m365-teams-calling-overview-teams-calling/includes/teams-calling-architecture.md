@@ -15,7 +15,7 @@ This option supports Teams and Skype for Business users. However, not all Office
 
 ## Direct Routing
 
-Direct Routing connects Phone System through an on-premises PBX, using your on-premises telephony network and existing carrier to connect to the PSTN to place external calls. This option requires a supported Session Border Controller (SBC) for interoperability with a third  party PBX and other telephone equipment, depending on the telephony configuration you have running on-premises.
+Direct Routing connects Phone System through an on-premises PBX, using your on-premises telephony network and existing carrier to connect to the PSTN to place external calls. This option requires a supported Session Border Controller (SBC) for interoperability with a third-party PBX and other telephone equipment, depending on the telephony configuration you have running on-premises.
 
 :::image type="content" source="../media/2-direct-routing-expanded.png" lightbox="../media/2-direct-routing-inline.png" alt-text="Direct routing":::
 

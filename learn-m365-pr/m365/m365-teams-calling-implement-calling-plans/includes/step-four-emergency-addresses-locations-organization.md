@@ -9,7 +9,7 @@ You can't modify a validated address. If the address is ever changed, you must e
 
 ### Emergency address geo codes
 
-Each emergency address can have a latitude and longitude (geo code) associated with it. Geo codes are used in some countries to assist in routing emergency calls with dynamic locations.
+Each emergency address can have a latitude and longitude (geo code) associated with it. Geo codes are used in some countries to help route emergency calls with dynamic locations.
 
 A geo code is automatically associated with an emergency address when you define an emergency address by using the address map search feature in the Teams admin center. You can also associate geo codes with an address if you define the address by using PowerShell.
 Microsoft recommends that you create emergency addresses for Calling Plan by using the map search feature in Teams admin center, which will ensure that the addresses are formatted, validated, and have the appropriate geo codes.

@@ -7,7 +7,7 @@ Microsoft Teams Phone acts like a virtual PBX for your business. You can use it 
 
 Phone System is integrated with Teams and Office 365. To make a call, a user can select a name from their address book and click. Phone System users can place calls using a mobile device, a laptop or PC, or any of the IP phones that can operate with Teams.
 
-A Phone System administrator can control and manage calling options for other users. 
+A Phone System administrator can control and manage calling options for other users.
 
 Phone System supports voicemail. When you assign a Phone System license and a phone number to a user, Cloud Voicemail is automatically provisioned for that user.
 You can also configure call queuing to enable calls to be answered by one of a pool of users, such as an agent in a call center. Callers are placed on hold and listen to music or a pre-recorded message until an agent is available. It's possible to set up multiple queues in an organization.

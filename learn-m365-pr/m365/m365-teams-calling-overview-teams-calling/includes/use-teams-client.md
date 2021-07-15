@@ -23,7 +23,7 @@ You can also create a full transcription of a meeting. The text appears in the T
 
 ## Transfer a call to another client
 
-A key facet of Teams Calling is mobility. The Teams Client is available on multiple devices, and the same user can connect to Teams from any device which has authenticated access to Teams in your organization.
+A key facet of Teams Calling is mobility. The Teams Client is available on multiple devices, and the same user can connect to Teams from any device that has authenticated access to Teams in your organization.
 
 Additionally, you can transfer a call from once device to another. For example, you can start participating in a call using your desktop in the office, and then transfer the call to your mobile phone if you need to continue while on the move. Call transfer is seamless, and does not cause any interruptions to other participants.
 
