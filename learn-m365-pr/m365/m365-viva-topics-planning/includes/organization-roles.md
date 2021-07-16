@@ -7,7 +7,7 @@ There are four Viva Topics roles in your organization:
 - Knowledge manager
 - Knowledge admin
 
-Viva Topics uses the security and compliance of Microsoft 365 for content. You can apply restrictions on the scope and availability of Viva Topics' topic information for your different roles. Users have access to only those topics to which they’ve been granted access.  
+Viva Topics uses the security and compliance of Microsoft 365 for content. You can apply restrictions on the scope and availability of Viva Topics' topic information for your different roles. Users have access to only those topics to which they've been granted access.  
 
 ## Topic viewer
 
@@ -43,7 +43,7 @@ In the Manage Topics page, knowledge managers can do the following tasks:
 
 - View AI-suggested topics.
 - Review topics to confirm they're valid.
-- Remove topics you don’t want visible to your users.
+- Remove topics you don't want visible to your users.
 - Additionally, a knowledge manager can edit existing topics or create new ones.
 
 To manage topics, the knowledge managers must:

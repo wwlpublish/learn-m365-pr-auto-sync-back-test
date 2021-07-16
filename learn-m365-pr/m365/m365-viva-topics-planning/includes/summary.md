@@ -1,4 +1,4 @@
-You've learned four Viva Topics roles: Topic viewers, Topic contributors, Knowledge managers, and Knowledge admins. Users have access to only those topics to which they’ve been granted access.
+You've learned four Viva Topics roles: Topic viewers, Topic contributors, Knowledge managers, and Knowledge admins. Users have access to only those topics to which they've been granted access.
 
 You have reviewed the different scenarios in your organization to learn how Viva Topics will impact roles in your organization. Different roles will experience different views, access, interaction, and scenarios with topics.
 
