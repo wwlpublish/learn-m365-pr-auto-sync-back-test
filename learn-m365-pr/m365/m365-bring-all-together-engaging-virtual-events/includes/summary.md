@@ -2,9 +2,10 @@ In your organization, online presentations are often delivered to audiences up t
 
 Now that you've completed this module, you should be able to:
 
-- Prepare and deliver an engaging presentation in a Microsoft Teams meeting or live event.
-- Moderate a presentation in a Microsoft Teams meeting or live event.
-- Get the most out of attending a presentation in a Microsoft Teams meeting or live event.
+- Produce a meeting or live event in Teams.
+- Prepare and deliver an engaging presentation in a Teams meeting or live event.
+- Moderate a presentation in a Teams meeting or live event.
+- Get the most out of attending a presentation in a Teams meeting or live event.
 
 ## Learn more
 

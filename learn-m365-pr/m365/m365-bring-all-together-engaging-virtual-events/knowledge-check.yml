@@ -5,46 +5,46 @@ metadata:
   unitType: knowledge-check
   title: Knowledge check
   description: Check what you've learned through this module.
-  ms.date: 05/26/2021
+  ms.date: 07/15/2021
   author: lizap
   ms.author: elizapo
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-durationInMinutes: 5
+durationInMinutes: 3
 content: |
 quiz:
   title: Check your knowledge
   questions:
-  - content: "You've moderated a successful live event in Teams. Now, you want to download the roster of participants. Where can you obtain this list?"
+  - content: "After moderating a virtual event, you want to share notes and next steps with the participants. Where can you get a list of everyone who attended (not just who was invited)?"
     choices:
     - content: "In the meeting invite in Outlook."
       isCorrect: false
-      explanation: "That's not correct. The meeting invite in Outlook shows who was invited to the meeting but not who attended the meeting."
+      explanation: "Sorry, that's not correct. The meeting invite in Outlook shows who was invited to the meeting but not who attended the meeting."
     - content: "In the meeting invite in Teams, under the Live event resources."
       isCorrect: true
       explanation: "That's correct. To download the meeting roster, which shows who attended the meeting, use the download button in the Participants pane in the meeting item in Teams."
     - content: "In the meeting transcript."
       isCorrect: false
-      explanation: "That's not correct. The meeting transcript contains the automatically transcribed captions for everything that was said in the meeting."
-  - content: "You've been asked to present a segment at an online board meeting for your company. You want to ensure that you have a reliable network connection during the meeting. What should you do?"
+      explanation: "Sorry, that's not correct. The meeting transcript contains the automatically transcribed captions for everything that was said in the meeting."
+  - content: "One of the recommendations for presenters is to use two monitors. Why is this a best practice?"
     choices:
-    - content: "Use only one screen with a low resolution."
+    - content: "You use one monitor for your camera and one for your content."
       isCorrect: false
-      explanation: "That's not correct. Using a single small screen will not improve your network connection."
-    - content: "Use a mobile network dongle."
+      explanation: "Sorry, that's not correct. Using two monitors lets you share your content from one monitor and use the other for speaker notes, the Teams window, and other applications that you don't want to share with participants."
+    - content: "Teams Live Events require two monitors to display all of the content."
       isCorrect: false
-      explanation: "That's not correct. The mobile network in your area may not provide a more reliable network connection than a broadband internet connection."
-    - content: "Use an Ethernet cable to plug your computer directly into your router."
+      explanation: "Sorry, that's not correct. Using two monitors lets you share your content from one monitor and use the other for speaker notes, the Teams window, and other applications that you don't want to share with participants."
+    - content: "You use one monitor for your content and the other for the Teams meeting or to take notes and use other apps."
       isCorrect: true
-      explanation: "That's correct. Using a physical Ethernet cable is likely to give a faster, more reliable connection than your wifi network."
-  - content: "After a recent presentation, you received feedback that the sound was distorted by loud pops when you pronounced 'B' and 'P' sounds. What should you do to improve for the next presentation?"
+      explanation: "That's correct. Using two monitors lets you share your content from one monitor and use the other for speaker notes, the Teams window, and other applications that you don't want to share with participants."
+  - content: "Which of the following choices is not one of the ways moderators help ensure the success of your event?"
     choices:
-    - content: "Place the microphone closer to your mouth"
+    - content: "Triaging and aggregating questions from attendees."
       isCorrect: false
-      explanation: "That's not correct. By placing the microphone closer to your mouth, you'll reduce echoes from the room but will make plosive distortion worse."
-    - content: "Use a large-diaphragm microphone"
+      explanation: "Sorry, that's not correct. Managing questions from attendees *is* one of the moderator's tasks."
+    - content: "Muting and unmuting the audience."
       isCorrect: false
-      explanation: "That's not correct. By using a large-diaphragm microphone, you'll capture a full spectrum of sound but will make plosive distortion worse."
-    - content: "Use a pop shield"
+      explanation: "Sorry, that's not correct. Muting and unmuting the attendees *is* one of the moderator's tasks."
+    - content: "Creating the meeting invitation and lining up speakers"
       isCorrect: true
-      explanation: "That's correct. Pop shields are designed to reduce the distortion associated with plosive vocal sounds."
+      explanation: "That's correct. Creating the event itself is the responsibility of the organizer. In our training, this is generally a different role than the moderator."
