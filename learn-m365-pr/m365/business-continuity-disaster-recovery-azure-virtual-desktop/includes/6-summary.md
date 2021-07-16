@@ -12,7 +12,7 @@ In this module, you learned how to protect individual components of Azure Virtua
 
 [Back up Azure file shares](/azure/backup/backup-afs) explains how to back up Azure file shares from the Azure portal and how to protect different services running in Azure.
 
-[Replica sets concepts and features for Azure Active Directory Domain Services](/active-directory-domain-services/concepts-replica-sets) provides an in-depth review of the various concepts and features of Replica sets for Azure Active Directory Domain services.
+[Replica sets concepts and features for Azure Active Directory Domain Services](/azure/active-directory-domain-services/concepts-replica-sets) provides an in-depth review of the various concepts and features of Replica sets for Azure Active Directory Domain services.
 
 The tutorial [Configure Cloud Cache to redirect profile containers or office container to multiple Providers](/fslogix/configure-cloud-cache-tutorial) is a good source to understand the purpose and use of Cloud Cache.
 
