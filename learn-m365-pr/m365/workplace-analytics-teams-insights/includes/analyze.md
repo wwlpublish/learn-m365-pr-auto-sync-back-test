@@ -17,7 +17,7 @@ This page provides an overview for dashboard recipients who are unfamiliar with 
 ## Report: What does adoption look like so far?
 
 The *State of Adoption* report shows how Teams adoption is playing out in the organization in terms of the level of use.
- 
+
 The chart on the left shows the share of inactive, low, medium, and high users by month for the selected time frame. In the example here, the percentage of High Users in the organization went from 48% to 74% over six months. The chart on the right shows the share of inactive, low, medium, and high users by category and by group. In the example here, individuals in the Marketing team are 100% High Users.
 
 > [!NOTE]
@@ -47,7 +47,7 @@ Group email conversations might also begin to migrate to Teams channels. Teams c
 
 ## Report: How does Teams help employees network and build connections?
 
-The *Build Networks* report shows how connected employees are to other individuals and groups in the organization in terms of the level of Teams usage. 
+The *Build Networks* report shows how connected employees are to other individuals and groups in the organization in terms of the level of Teams usage.
 
 The chart on the left plots the average internal network size (x-axis) and average number of network groups (y-axis) by level of team usage (dots). In the example here, High Users have an average of 90 internal connections and connect with 18 different groups. The chart on the right shows the average number of collaboration hours invested in network connection per week. Here it takes Inactive Users nearly 60% more time to maintain one network connection (0.67 hours vs. 0.42 hours for High Users), demonstrating that Teams is the more efficient choice for this group to maintain connections.
 
@@ -82,7 +82,7 @@ Use this report to identify groups that might be struggling to adopt Teams and t
 
 The *Recommended Influencers* report uses data science to identify and group people based on their degree of influence and creates a recommended Teams adoption plan for your organization.
 
-The left side of the report shows the number of influencers in the organization and the percentage of those influencers who are active in Teams. In this example the organization has 916 influencers, 86% of whom are active in Teams. The right side of the report provides a Teams adoption plan based on each group’s number of influencers and level of Teams adoption.
+The left side of the report shows the number of influencers in the organization and the percentage of those influencers who are active in Teams. In this example the organization has 916 influencers, 86% of whom are active in Teams. The right side of the report provides a Teams adoption plan based on each group's number of influencers and level of Teams adoption.
 
 - Phase I groups have high numbers of influencers and low Teams adoption.
 - Phase II groups have high numbers of influencers and high Teams adoption.
@@ -90,7 +90,7 @@ The left side of the report shows the number of influencers in the organization 
 
 ![How can community influencers help drive the adoption of Teams report](../media/community-influencers.png)
 
-Community influencers are well-connected employees in your organization. Influencers can lead cultural change, including accelerating the adoption of Teams, by sharing benefits and best practices. A high influence score suggests that an employee’s perspective will efficiently flow through the organization.
+Community influencers are well-connected employees in your organization. Influencers can lead cultural change, including accelerating the adoption of Teams, by sharing benefits and best practices. A high influence score suggests that an employee's perspective will efficiently flow through the organization.
 
 Target Phase I groups for rapid Teams adoption. Adoption should happen quickly due to a high number of influencers in these groups. Phase II groups already have high users, so encourage them to share best practices with other groups they work with. To speed up adoption for Phase III users, connect them to groups with many influencers and high Teams usage.
 
@@ -116,7 +116,7 @@ This view gives a population-level look at three opportunity areas to get more o
 
 **Drive adoption with influencers**. Groups with high numbers of influential employees who are doing well in terms of Teams adoption can share best practices to facilitate adoption in other groups. Connect influential Teams users with low adoption groups to accelerate Teams usage.
 
-Employees might find it difficult to create boundaries between “work” and “life.” Creating team expectations around virtual collaboration norms and sharing best practices on creating boundaries might help maintain wellbeing.
+Employees might find it difficult to create boundaries between "work" and "life." Creating team expectations around virtual collaboration norms and sharing best practices on creating boundaries might help maintain wellbeing.
 
 > [!NOTE]
 > Workplace Analytics metrics in each of these areas can indicate potential opportunities but are not definitive.

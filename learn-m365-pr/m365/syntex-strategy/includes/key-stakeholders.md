@@ -4,7 +4,7 @@ Here, you'll learn which stakeholders you should approach with your proposal for
 
 ## Executive/Leadership
 
-"Buy-in" or _endorsement_ at the executive level ensure that all other stakeholders are invested in SharePoint Syntex and aligned on the greater goal or mission of implementing efficient content understanding processes. Leadership already has a clear idea the company's goals and values, enabling them to see how SharePoint Syntex aligns with these goals. And of course, much of the company looks to the executive team for direction and trusts their buy-in, making it easier to adopt and support SharePoint Syntex throughout the entire company.  
+"Buy-in" or _endorsement_ at the executive level ensure that all other stakeholders are invested in SharePoint Syntex and aligned on the greater goal or mission of implementing efficient content understanding processes. Leadership already has a clear idea the company's goals and values, enabling them to see how SharePoint Syntex aligns with these goals. Much of the company looks to the executive team for direction and trusts their buy-in, making it easier to adopt and support SharePoint Syntex throughout the entire company.  
 
 You may make your proposal to your CEO or Chief Operating Officer, or the corresponding role. depending on your organization's size. (For example, it might be the IT administrator you pitch your proposal to.) With the executive team's endorsement and support, SharePoint Syntex is one major step closer to implementation.
 

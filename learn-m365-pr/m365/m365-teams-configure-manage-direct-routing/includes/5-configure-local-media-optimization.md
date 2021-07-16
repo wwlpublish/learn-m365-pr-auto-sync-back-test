@@ -78,7 +78,6 @@ New-CsTenantNetworkSubnet -SubnetID 192.168.2.0 -MaskBits 24 -NetworkSiteID "Ind
 
 # Define the subnet for Singapore
 New-CsTenantNetworkSubnet -SubnetID 192.168.3.0 -MaskBits 24 -NetworkSiteID "Singapore"
-
 ```
 
 |Parameter|Description|

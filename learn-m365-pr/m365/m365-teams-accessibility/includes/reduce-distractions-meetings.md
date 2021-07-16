@@ -18,7 +18,6 @@ As the admin, you can enable Background blur by configuring a meeting policy set
 
 ```powershell
 Set-CsTeamsMeetingPolicy -Identity Global -VideoFiltersMode BlurAndDefaultBackgrounds
-
 ```
 
 You can set the *VideoFiltersMode* parameter to any of the following values to enable or disable background blur:

@@ -2,7 +2,7 @@
 
 Apps that are installed directly from public stores are unmanaged. Apps that are deployed by Intune are managed. For managed apps, IT has direct control over deployment, ongoing management (such as inventory or updates), and selective wipe of the apps and their associated data.
 
-An unmanaged app is any app available on Windows, Android and iOS. Intune doesn’t have any control over the distribution, management, or selective wipe of these apps. Intune MAM provides additional capabilities to protect managed apps by offering an additional layer of data protection.
+An unmanaged app is any app available on Windows, Android and iOS. Intune doesn't have any control over the distribution, management, or selective wipe of these apps. Intune MAM provides additional capabilities to protect managed apps by offering an additional layer of data protection.
 
 ## Updates for unenrolled devices
 

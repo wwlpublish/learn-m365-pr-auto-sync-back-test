@@ -30,7 +30,7 @@ Federation from Teams to another user using Skype for Business requires the Team
 
 ## The Teams client user experience when using SfB modes
 
-When a user is in any of the Skype for Business modes (`SfBOnly`, `SfBWithTeamsCollab`, `SfBWithTeamsCollabAndMeetings`), all incoming chats and calls are routed to the user’s Skype for Business client. To avoid end-user confusion and ensure proper routing, calling and chat functionality in the Teams client is automatically disabled when a user is in any Skype for Business mode. Similarly, meeting scheduling in Teams is automatically disabled when users are in the `SfBOnly` or `SfBWithTeamsCollab` modes, and automatically enabled when a user is in the `SfBWithTeamsCollabAndMeetings` mode.
+When a user is in any of the Skype for Business modes (`SfBOnly`, `SfBWithTeamsCollab`, `SfBWithTeamsCollabAndMeetings`), all incoming chats and calls are routed to the user's Skype for Business client. To avoid end-user confusion and ensure proper routing, calling and chat functionality in the Teams client is automatically disabled when a user is in any Skype for Business mode. Similarly, meeting scheduling in Teams is automatically disabled when users are in the `SfBOnly` or `SfBWithTeamsCollab` modes, and automatically enabled when a user is in the `SfBWithTeamsCollabAndMeetings` mode.
 
 ## Setting your coexistence and upgrade settings
 

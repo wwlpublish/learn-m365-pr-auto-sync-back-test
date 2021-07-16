@@ -70,13 +70,9 @@ Create the following auto attendant and set its general information.
 In the above image, you'll see that the various fields have been numbered 1 through 5. Here is an example of the values you might use:
 
 1. Give the name of the auto attendant: **Contoso – Top AA**.
-
 1. From the **operator** list, select a person in your organization, for example: **Julia Wolfe**.
-
 1. Select the **Time zone** for this auto attendant, for example: **(UTC-04:00) Eastern Daylight Time (US & Canada)**
-
 1. Choose the **Language** you want to use for prompts, greetings, etc., for example: **English (United Kingdom)**.
-
 1. Finally, decide if you want the caller to be able to verbally respond to menu prompts.
 
 Selecting **Enable voice inputs** will enable voice commands in menus. It will also enable callers to say "Operator" and get transferred directly to the operator.
