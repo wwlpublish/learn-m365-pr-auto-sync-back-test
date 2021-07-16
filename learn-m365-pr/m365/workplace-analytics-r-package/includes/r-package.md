@@ -21,7 +21,7 @@ There are multiple reasons to use R for Workplace Analytics:
 
 The `wpa` R package includes many essential and advanced functions and features. These functions and features use data science techniques to help you deliver advanced analytics and create and maintain a streamlined data science workflow without switching over to a different solution.
 
-There are over 160 different functions in the `wpa` R package. The image below summarizes the available features in the package. It includes essential features analysts find useful whatever the complexity of their analysis, and more advanced features that make use of advanced data science capabilities in R.
+There are over 160 different functions in the `wpa` package. The image below summarizes the available features in the package. It includes essential features analysts find useful whatever the complexity of their analysis, and more advanced features that make use of advanced data science capabilities in R.
 
  ![Summary of wpa functions](../media/wpa-function-summary.png)
 
