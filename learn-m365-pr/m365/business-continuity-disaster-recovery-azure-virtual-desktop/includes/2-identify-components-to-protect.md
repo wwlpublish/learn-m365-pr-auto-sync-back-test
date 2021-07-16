@@ -46,7 +46,7 @@ Azure Virtual Desktop provides access to the session hosts that run the remote d
 
 When you configure session hosts with application groups, you have your choice of images. You can choose from Gallery images, such as:
 
-- Windows 10 Enterprise for multi-session, with or without M365 Apps.
+- Windows 10 Enterprise for multi-session, with or without Microsoft 365 Apps.
 - Windows server 2019.
 - Your own custom images stored in your own Azure Storage account or the Shared Image gallery.
 
