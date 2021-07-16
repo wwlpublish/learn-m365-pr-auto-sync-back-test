@@ -119,7 +119,7 @@ In the context of this training, we assume you are implementing one change at a 
 
 ## Knowledge area - Leadership
 
->![Image of a rocket launching alongside the words 'The "X" facors'.](../media/leadership.png)
+>![Image of a rocket launching alongside the words 'The "X" factors'.](../media/leadership.png)
 
 Finally, the last knowledge area is leadership. Leadership is the ability to inspire a group of people to do things they may have never done before, to bring clarity to the chaos, and to hunt down and mediate conflicts and issues as they occur. Leadership through change is the "X" factor and may require the most personal growth from you, depending on your path to service adoption.
 
