@@ -6,14 +6,7 @@ In this module, you learned how to implement protection of your Azure Virtual De
 
 ## Learn more
 
-To learn more, review the following articles:
-
-- [Set up a business continuity and disaster recovery plan](https://docs.microsoft.com/azure/virtual-desktop/disaster-recovery)
-- [Set up disaster recovery to a secondary Azure region for an Azure VM](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-quickstart)
-- [Planning for an Azure Files deployment](https://docs.microsoft.com/azure/storage/files/storage-files-planning#redundancy)
-- [Availability options for Azure Virtual Machines](https://docs.microsoft.com/azure/virtual-machines/availability)
-- [Cloud Cache to create resiliency and availability](https://docs.microsoft.com/fslogix/cloud-cache-resiliency-availability-cncpt)
-- [Shared Image Galleries overview](https://docs.microsoft.com/azure/virtual-machines/shared-image-galleries)
+In the "Identify the correct DR scenario" unit, you learned about protecting individual components of Azure Virtual Desktop. The following resources will help you get started:
 
 [Protect your virtual machines by using Azure Backup](https://docs.microsoft.com/learn/modules/protect-virtual-machines-with-azure-backup/) teaches you more about how to protect Azure virtual machines.
 
@@ -26,3 +19,12 @@ The tutorial [Configure Cloud Cache to redirect profile containers or office con
 [Protect your Azure infrastructure with Azure Site Recovery](https://docs.microsoft.com/learn/modules/protect-infrastructure-with-site-recovery/) explores the features that apply to a business continuity and disaster recovery (BCDR) plan.
 
 [Cross-region replication of Azure NetApp Files volumes](https://docs.microsoft.com/azure/azure-netapp-files/cross-region-replication-introduction) explains how to setup Cross-region replication of Azure NetApp Files.
+
+Additional resources:
+- [Set up a business continuity and disaster recovery plan](https://docs.microsoft.com/azure/virtual-desktop/disaster-recovery)
+- [Set up disaster recovery to a secondary Azure region for an Azure VM](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-quickstart)
+- [Planning for an Azure Files deployment](https://docs.microsoft.com/azure/storage/files/storage-files-planning#redundancy)
+- [Availability options for Azure Virtual Machines](https://docs.microsoft.com/azure/virtual-machines/availability)
+- [Cloud Cache to create resiliency and availability](https://docs.microsoft.com/fslogix/cloud-cache-resiliency-availability-cncpt)
+- [Shared Image Galleries overview](https://docs.microsoft.com/azure/virtual-machines/shared-image-galleries)
+
