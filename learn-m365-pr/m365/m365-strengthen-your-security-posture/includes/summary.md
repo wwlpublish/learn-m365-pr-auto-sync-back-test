@@ -1,4 +1,4 @@
-As the security analyst of your organization, you wanted to be able to understand your organization's current stance on potential threats and vulnerabilities across your environment and strengthen it to protect your organization. You’ve looked into how you can use Microsoft Defender for Endpoint to do this.
+As the security analyst of your organization, you wanted to be able to understand your organization's current stance on potential threats and vulnerabilities across your environment and strengthen it to protect your organization. You've looked into how you can use Microsoft Defender for Endpoint to do this.
 
 Now that you've completed this module, you should be able to:
 

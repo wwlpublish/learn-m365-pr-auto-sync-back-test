@@ -94,7 +94,6 @@ You can also use the **Set-CsTeamsMeetingPolicy** cmdlet to control desktop shar
 
 You can customize Teams meeting invitations to satisfy your organization's needs. Add your organization's logo and include helpful information, such as links to your support website and legal disclaimer, and a text-only footer.
 
-
 1. Sign into the [Microsoft Teams admin center](https://admin.teams.microsoft.com/).
 1. In the left navigation, go to **Meetings** > **Meeting settings**.
 1. Under **Email invitation**, do the following:

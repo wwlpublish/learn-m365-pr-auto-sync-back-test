@@ -1,4 +1,4 @@
-After you’ve identified opportunities and defined target groups for your customer focus change initiative, you can use the following additional tools to help drive behavioral change with your analysis.
+After you've identified opportunities and defined target groups for your customer focus change initiative, you can use the following additional tools to help drive behavioral change with your analysis.
 
 ## Enable Microsoft 365 tools
 
@@ -13,7 +13,7 @@ A Seller success plan can help sellers be more successful by showing the time sp
 > [!NOTE]
 > The Seller success plan requires CRM data.
 
-The Seller success plan links to MyAnalytics and provides individual insights through email digests and in the recipient’s MyAnalytics dashboard. Sellers receive a monthly email with insights around their collaboration habits, time spent with their most important accounts, the depth of engagement with key accounts, and a snapshot of their internal network.
+The Seller success plan links to MyAnalytics and provides individual insights through email digests and in the recipient's MyAnalytics dashboard. Sellers receive a monthly email with insights around their collaboration habits, time spent with their most important accounts, the depth of engagement with key accounts, and a snapshot of their internal network.
 
 ![Seller insights](../media/seller-insights-myanalytics.png)
 
@@ -21,7 +21,7 @@ Sellers can access their MyAnalytics dashboard by visiting myanalytics.microsoft
 
 ## Design change tactics
 
-Beyond the use of Microsoft 365 tools, you can use social norms and ways of working in your organization to design change tactics for customer focus. The design process can occur in many ways that start with identifying causes of and barriers to change. Examples of barriers to customer focus can include a lack of manager time for coaching or difficulty tracking external contacts. After you’ve identified causes and barriers to customer focus, you can design custom change tactics.
+Beyond the use of Microsoft 365 tools, you can use social norms and ways of working in your organization to design change tactics for customer focus. The design process can occur in many ways that start with identifying causes of and barriers to change. Examples of barriers to customer focus can include a lack of manager time for coaching or difficulty tracking external contacts. After you've identified causes and barriers to customer focus, you can design custom change tactics.
 
 ### Create a customer focus change tactics worksheet
 
@@ -30,9 +30,9 @@ A custom change tactics worksheet is an effective tool to drive change. You can 
 To create an effective customer focus change tactics worksheet, determine the following:
 
 - **Change levers** - Add next step actions you can take to improve customer focus in your organization.
-- **Analysis category** - Identify the analysis category the change lever applies to, i.e., external collaboration, internal collaboration, or coaching and onboarding.
+- **Analysis category** - Identify the analysis category the change lever applies to, that is, external collaboration, internal collaboration, or coaching and onboarding.
 - **Level of effort** - Determine the level of effort involved in activating each change lever.
-- **Accountability metrics** - Identify the customer focus related metrics you’ll use to track and evaluate change.
+- **Accountability metrics** - Identify the customer focus related metrics you'll use to track and evaluate change.
 
 Below is an example of a change tactics worksheet created for customer focus.
 

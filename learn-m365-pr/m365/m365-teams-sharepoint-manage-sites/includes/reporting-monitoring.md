@@ -17,5 +17,4 @@ Some basic reports can be viewed from the SharePoint admin center. You can see a
 When you're done with a link, use the **Back** arrow in your browser to come back to this page.
 
 - [Activity reports in the Microsoft 365 admin center](/office365/admin/activity-reports/activity-reports?redirectSourcePath=%252farticle%252f30e5558f-d3c0-4a3b-a0d5-58fc7750c0ad%252f&)
-- [Navigate and utilize the reports in Microsoft 365 usage analytics
-](/office365/admin/usage-analytics/navigate-and-utilize-reports)
+- [Navigate and utilize the reports in Microsoft 365 usage analytics](/office365/admin/usage-analytics/navigate-and-utilize-reports)

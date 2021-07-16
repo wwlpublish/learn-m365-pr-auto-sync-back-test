@@ -1,4 +1,4 @@
-In the modern business environment, there are many personal and company-owned computers and devices that move in and out of your perimeter network. Also, Microsoft 365 and Microsoft Teams performance requires direct connections to the cloud. Traditional security systems built on firewalls and proxy servers have difficulty fully protecting such an environment and might result in loopholes that malicious users can exploit. They also often prevent direct connections and degrade performance.
+In the modern business environment, there are many personal and company-owned computers and devices that move in and out of your perimeter network. Also, Microsoft 365 and Microsoft Teams performance require direct connections to the cloud. Traditional security systems built on firewalls and proxy servers have difficulty fully protecting such an environment and might result in loopholes that malicious users can exploit. They also often prevent direct connections and degrade performance.
 
 In your bicycle manufacturing company, the security team in the IT department has traditionally used edge devices such as proxy servers and firewalls to enforce security within the company network. After several meetings with you, they have become concerned that the network design changes you want to make to support Microsoft 365 and Microsoft Teams will undermine their security infrastructure. You want to provide a new set of security principles that will protect the new cloud-based systems, and both on-premises and mobile users who may bring their own devices to work.  
 
@@ -6,9 +6,9 @@ Let's examine a more modern set of security principles that can address these is
 
 ## Zero Trust principles
 
-Traditionally, IT security teams have implemented security at the edge of their network by using technologies such as firewalls and proxy servers. These systems check incoming and outgoing traffic and can filter them based on the IP properties, content, source, destination, and so on. This model is no longer satisfactory because users bring their own devices, such as phones, tablets, and computers, to work and want to use them to access your systems from within your premises and from home, customer sites, internet cafés and other locations.
+Traditionally, IT security teams have implemented security at the edge of their network by using technologies such as firewalls and proxy servers. These systems check incoming and outgoing traffic and can filter them based on the IP properties, content, source, destination, and so on. This model is no longer satisfactory because users bring their own devices, such as phones, tablets, and computers, to work and want to use them to access your systems from within your premises and from home, customer sites, internet cafés, and other locations.
 
-Another problem with the traditional security approach is that it doesn’t fit with the Microsoft 365 principles that you have learned about in the previous modules. Edge security systems are likely to cause network hairpins and prevent local egress for example. This model is likely to lower your Microsoft 365 and Teams performance.
+Another problem with the traditional security approach is that it doesn't fit with the Microsoft 365 principles that you have learned about in the previous modules. Edge security systems are likely to cause network hairpins and prevent local egress for example. This model is likely to lower your Microsoft 365 and Teams performance.
 
 To address these concerns, Microsoft has developed a new security paradigm for modern business environments called the Zero Trust model.
 
@@ -31,7 +31,7 @@ A solution based on the Zero Trust network model, configured with the effective 
 
 Using gated access to resources with dynamic trust decisions allows you to grant access to certain assets from any device. At the same time, you can restrict access to high-value assets on other devices.
 
-If attackers compromise a single device, Zero Trust prevents them from “hopping” across the network using stolen credentials. Only the initial device is compromised.
+If attackers compromise a single device, Zero Trust prevents them from "hopping" across the network using stolen credentials. Only the initial device is compromised.
 
 ### Zero Trust Microsoft 365 and Azure
 
@@ -44,15 +44,15 @@ Microsoft Azure Active Directory conditional access combines data from several s
 - Location
 - Sign-in risk
 
-These considerations are used to decide whether to **allow access**, **deny access**, or **control access** with additional authentication challenges such as multi-factor authentication, Terms of Use, or access restrictions.
+These considerations are used to decide whether to **allow access**, **deny access**, or **control access** with additional authentication challenges such as multifactor authentication, Terms of Use, or access restrictions.
 
 Conditional access works robustly with any application configured for access with Azure Active Directory.
 
 ## Adopting a Zero Trust security model
 
-The Zero Trust model is a significant change from the traditional approach and requires time and planning to implement correctly. You probably won’t be able to complete this implementation in a single day. Instead, you must gradually adopt Zero Trust implementation steps and apply them to key applications over time.
+The Zero Trust model is a significant change from the traditional approach and requires time and planning to implement correctly. You probably won't be able to complete this implementation in a single day. Instead, you must gradually adopt Zero Trust implementation steps and apply them to key applications over time.
 
-Start by implementing Zero Trust principles for key Microsoft 365 workloads, such as Exchange Online, SharePoint Online, and Microsoft Teams. These are well trusted, widely used, and will realize the highest return on your investment in Zero Trust. Less important applications and workloads can continue to connect through edge security systems and suffer from sub-optimal performance, until you can reconfigure them.
+Start by implementing Zero Trust principles for key Microsoft 365 workloads, such as Exchange Online, SharePoint Online, and Microsoft Teams. These are well trusted, widely used, and will realize the highest return on your investment in Zero Trust. Less important applications and workloads can continue to connect through edge security systems and suffer from suboptimal performance, until you can reconfigure them.
 
 ## Learn more
 

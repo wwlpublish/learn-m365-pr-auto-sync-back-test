@@ -9,7 +9,7 @@ The Microsoft 365 Defender portal includes:
 - **Home** – Get an at-a-glance view of the overall security health of your organization.
 - **Alerts** – Greater visibility into all the alerts across your Microsoft 365 environment, including alerts from Microsoft Cloud App Security, Azure Active Directory (Azure AD), and Microsoft Defender.
 - **Reports** – Organize the data and information you need to better protect your users, devices, apps, and more.
-- **Secure score** – Improve your overall security posture with Microsoft Secure Score. This page provides an overall summary of the different security features and capabilities you’ve enabled and includes recommendations for areas to improve.
+- **Secure score** – Improve your overall security posture with Microsoft Secure Score. This page provides an overall summary of the different security features and capabilities you've enabled and includes recommendations for areas to improve.
 - **Hunting** – Proactively search for malware, suspicious files, and activities in your Microsoft 365 organization.
 - **Classification** – Help protect data loss by adding labels to classify documents, email messages, documents, sites, and more. When a label is applied (automatically or by the user), the content or site is protected based on the settings chosen. For example, you can create labels that encrypt files, add content marking, and control user access to specific sites.
 - **Policies** - Set up policies to manage devices, protect against threats, and receive alerts about various activities in your org.

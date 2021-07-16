@@ -1,6 +1,6 @@
-In the United States, 911 calls first go to a certified Emergency Routing Service Providers (ERSPs). The call taker at the ERSP will find out the location of the emergency and route the call to the proper Public Safety Answering Point (PSAP) that serves the caller’s location who can then dispatch the proper units located closest to the location of the caller.
+In the United States, 911 calls first go to a certified Emergency Routing Service Providers (ERSPs). The call taker at the ERSP will find out the location of the emergency and route the call to the proper Public Safety Answering Point (PSAP) that serves the caller's location who can then dispatch the proper units located closest to the location of the caller.
 
-The caller’s address must be attached to the caller’s phone number. How and when this association happens can vary among country and regions. For example, in the United States, you need to associate an emergency address when you assign the phone number to the user. In the United Kingdom, you need to associate an emergency address to the phone number when you're getting the phone numbers from Microsoft 365 or Office 365, or when transferring phone numbers from your current service provider.
+The caller's address must be attached to the caller's phone number. How and when this association happens can vary among country and regions. For example, in the United States, you need to associate an emergency address when you assign the phone number to the user. In the United Kingdom, you need to associate an emergency address to the phone number when you're getting the phone numbers from Microsoft 365 or Office 365, or when transferring phone numbers from your current service provider.
 
 ### Emergency address validation
 
@@ -9,7 +9,7 @@ You can't modify a validated address. If the address is ever changed, you must e
 
 ### Emergency address geo codes
 
-Each emergency address can have a latitude and longitude (geo code) associated with it. Geo codes are used in some countries to assist in routing emergency calls with dynamic locations.
+Each emergency address can have a latitude and longitude (geo code) associated with it. Geo codes are used in some countries to help route emergency calls with dynamic locations.
 
 A geo code is automatically associated with an emergency address when you define an emergency address by using the address map search feature in the Teams admin center. You can also associate geo codes with an address if you define the address by using PowerShell.
 Microsoft recommends that you create emergency addresses for Calling Plan by using the map search feature in Teams admin center, which will ensure that the addresses are formatted, validated, and have the appropriate geo codes.

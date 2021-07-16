@@ -1,6 +1,6 @@
-Using Workplace Analytics and Power BI to generate insights about your employees’ work behaviors is only one part of the behavior change equation. The other is knowing the tools and tactics to use to implement change.
+Using Workplace Analytics and Power BI to generate insights about your employees' work behaviors is only one part of the behavior change equation. The other is knowing the tools and tactics to use to implement change.
 
-Let’s suppose you have generated data through Workplace Analytics and realized that your organization spends an excessive amount of time in meetings. You now have some ideas about your organization’s culture. You’d like to take some actions to improve productivity, but you need to know what steps to take to maximize success.
+Let's suppose you have generated data through Workplace Analytics and realized that your organization spends an excessive amount of time in meetings. You now have some ideas about your organization's culture. You'd like to take some actions to improve productivity, but you need to know what steps to take to maximize success.
 
 Your first question might be: *How can Microsoft 365 technology help me drive change?*
 

@@ -1,4 +1,4 @@
-Teams Calling deployment requires careful preparation and planning. It’s important that you follow an organized approach to ensure that communications function correctly after deployment. The following sections summarize some of the more important aspects. Detailed information is available at [Plan your Teams voice solution](/microsoftteams/cloud-voice-landing-page).
+Teams Calling deployment requires careful preparation and planning. It's important that you follow an organized approach to ensure that communications function correctly after deployment. The following sections summarize some of the more important aspects. Detailed information is available at [Plan your Teams voice solution](/microsoftteams/cloud-voice-landing-page).
 
 ## Prepare and configure Teams
 
@@ -32,7 +32,7 @@ Configure the default bridge number, set up languages for conference bridge phon
 ## Configure auto attendants and call queues
 
 Determine how you are going to use these features in your organization. For example, what languages must be supported, should you allow voice inputs or only enable dialing inputs, how are calls routed during off hours and holidays, do you want to record your own messages or use the system-generated voice.
-Configure the call routing flow for auto attendants. For example, should the call be transferred directly to a specific person that can receive voice calls, should the target be a voice app, voicemail, or an external number. Alternatively, should the call be directed based on dial options such as an extension number or by spelling a person’s name.
+Configure the call routing flow for auto attendants. For example, should the call be transferred directly to a specific person that can receive voice calls, should the target be a voice app, voicemail, or an external number. Alternatively, should the call be directed based on dial options such as an extension number or by spelling a person's name.
 
 For call queues, determine how to handle call overflow (if the number of calls exceeds a preconfigured limit), and call timeouts.
 For each auto attendant and call queue, you require, a resource account, a free Phone System (Virtual User license for each resource account), and at least one Microsoft service number, direct routing number, or hybrid number for each resource account that you want to be directly dialable.

@@ -1,7 +1,7 @@
 Before you can set up users in your organization to make and receive phone calls, you must get phone numbers for them. There are three ways to get new user numbers:
 
 - **Use the Teams admin center**. For some countries/regions, you can get numbers for your users by using the Teams admin center, see Getting phone numbers for your users below.
-- **Port your existing numbers**. You can port or transfer existing numbers from your current service provider or phone carrier to Microsoft 365 or Office 365. For more information, see **Manage phone numbers for your organization** in the **Additional resources** section in the Summary..)
+- **Port your existing numbers**. You can port or transfer existing numbers from your current service provider or phone carrier to Microsoft 365 or Office 365. For more information, see **Manage phone numbers for your organization** in the **Additional resources** section in the Summary.)
 - **Use a request form for new numbers**. Sometimes (depending on your country/region) you won't be able to get your new phone numbers using the Teams admin center, or you will need specific phone numbers or area codes. If so, you will need to download a form and send it back to us. For more information, see **Manage phone numbers for your organization** in the **Additional resources** section in the Summary.
 
 ### Getting phone numbers for your users
@@ -151,7 +151,7 @@ For example, you need to submit a unique number porting request for each of the 
 Here's more information about how to submit number porting requests for each of these types of numbers:
 
 - **Phone numbers** provided by different carriers require a unique porting request for numbers with each carrier.
-- **Toll-free numbers** with area codes such as: 800, 844, 855, 866, 877 and 888 can't be included in a number porting request with other types of numbers. To port these toll-free numbers, you must manually submit a port order. You can't port these numbers in the Microsoft Teams admin center. For more information, see **Manage phone numbers for your organization** in the **Additional resources** section in the Summary..
+- **Toll-free numbers** with area codes such as: 800, 844, 855, 866, 877 and 888 can't be included in a number porting request with other types of numbers. To port these toll-free numbers, you must manually submit a port order. You can't port these numbers in the Microsoft Teams admin center. For more information, see **Manage phone numbers for your organization** in the **Additional resources** section in the Summary.
 - It's important to use the correct Letter of Authorization (LOA) for the country and type of phone numbers that you want to port. You can download the LOA that you need here.
 - **Mobile numbers** require a PIN code to authorize the transfer. Therefore, they need separate number porting request.
 - **Service number** porting requests need to be submitted by themselves. They can't be submitted with other types of numbers.
@@ -187,7 +187,7 @@ Here are the most common mistakes we see customers make when they port numbers. 
   - Account number is correct.
   - BTN is correct.
 
-- Make sure there are no advanced call control features, for example, Call Hunt, Distinctive Ring, that are enabled on these phone numbers.
+- Make sure there are no advanced call control features, for example, Call Hunt or Distinctive Ring, enabled on these phone numbers.
 - Make sure you haven't placed any new service orders or disconnects with your current service provider.
 - Make sure all numbers are from the same carrier and the same account.
 - Make sure your service is active. Freezing the account prevents the change of carriers on the account. The person authorized to make changes to the account must submit an order to the current carrier to remove the freeze. This process can take one to three weeks depending on the carrier.

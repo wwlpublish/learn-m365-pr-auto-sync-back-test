@@ -8,13 +8,12 @@ Here, you'll learn about Microsoft's recommended three tiers of protection for d
 
 Microsoft recommends three tiers for protecting data, identities, and devices. The three tiers are:
 
--	Baseline
--	Sensitive
--	Highly sensitive
+- Baseline
+- Sensitive
+- Highly sensitive
 
 Based on these three tiers, the table below shows four configurations for Microsoft Teams and their associated SharePoint sites. The baseline tier has two options: one for public teams and one for private teams.
 Use this as a guide and adjust the configurations to meet your organization's requirements. You might not need every tier.
-
 
 |Setting  |Baseline (public)  |Baseline (private) |Sensitive |Highly sensitive |
 |---------|---------|---------|--- |--- |

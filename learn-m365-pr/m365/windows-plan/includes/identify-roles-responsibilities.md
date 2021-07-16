@@ -1,8 +1,8 @@
-Your technical director wants to understand what roles in the company are needed to make the “stay current” process a success. You’ve been asked to report back on which roles should be involved in the process and what they are responsible for.
+Your technical director wants to understand what roles in the company are needed to make the "stay current" process a success. You've been asked to report back on which roles should be involved in the process and what they are responsible for.
 
 ## Who is involved in the stay current process?
 
-To stay current, you’ll need to decide who does what by assigning a number of different roles. Each role comes with specific responsibilities and skills, and active during a particular phase of the process. The roles are as follows:
+To stay current, you'll need to decide who does what by assigning a number of different roles. Each role comes with specific responsibilities and skills, and active during a particular phase of the process. The roles are as follows:
 
 |Role  |Responsibilities  |Skills  |Phases in scope  |
 |---------|---------|---------|---------|
@@ -32,4 +32,4 @@ The process manager also carries out tasks like:
 - Escalating failures
 - Determining whether the environment is ready for Pilot deployment at the end of the Prepare phase, and then Broad deployment after Pilot deployment
 
-If the process manager role can’t be assigned for some reason, for example because of resource constraints, then the role should be owned by your IT or end-user computing group.
+If the process manager role can't be assigned for some reason, for example because of resource constraints, then the role should be owned by your IT or end-user computing group.

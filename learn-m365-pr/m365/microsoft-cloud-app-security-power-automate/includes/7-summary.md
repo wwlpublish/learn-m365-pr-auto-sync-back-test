@@ -1,6 +1,6 @@
 As a security administrator at Contoso, you've been involved with the early stages of planning for the control of critical corporate data during the transition to Microsoft 365. Having completed this module, you can now ensure that protection extends to all services and all users.
 
-Now that you\'ve completed this module, you should be able to:
+Now that you've completed this module, you should be able to:
 
 - Automatically remediate Microsoft Cloud App Security infrequent country alerts using Power Automate
 - Creating custom flows for Microsoft Cloud App Security alerts using Power Automate

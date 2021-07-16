@@ -44,6 +44,7 @@ You can manage the transcription settings for your users using voicemail policie
 :::image type="content" source="../media/3-get-csonlinevoicemailpolicy.png" alt-text="Screenshot showing the results of the Get-CsOnlineVoiceMailPolicy cmdlet":::
 
 ## Turning off transcription for your organization
+
 Because the default setting for transcription is on for your organization, you may want to disable it by using **Set-CsOnlineVoicemailPolicy**. To do this, run:
 
 ```powershell
@@ -51,6 +52,7 @@ Set-CsOnlineVoicemailPolicy -EnableTranscription $false
 ```
 
 ## Turning on transcription profanity masking for your organization
+
 Transcription profanity masking is disabled by default for your organization. If there's a business requirement to enable it, you can enable transcription profanity masking by using **Set-CsOnlineVoicemailPolicy**. To do this, run:
 
 ```powershell
@@ -58,6 +60,7 @@ Set-CsOnlineVoicemailPolicy -EnableTranscriptionProfanityMasking $true
 ```
 
 ## Turning off transcription for a user
+
 User policies take precedence over the organizational default settings. For example, if voicemail transcription is enabled for all of your users, you can assign a policy to disable transcription for a specific user by using the **Grant-CsOnlineVoicemailPolicy** cmdlet.
 
 To disable transcription for a single user, run:
