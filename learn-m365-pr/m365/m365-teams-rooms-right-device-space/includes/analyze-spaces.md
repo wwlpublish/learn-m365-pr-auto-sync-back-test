@@ -37,11 +37,11 @@ Here's some  things you'll want to consider when selecting equipment for your me
 **The camera**. Cameras are an important part of the Teams Rooms environment, and there are many different options. Some cameras are housed in a console that also contains the microphone and speakers, such as the camera on the left. The camera on the right is a traditional pan/tilt/zoom camera that works well in larger meeting spaces.
 You'll need to consider the field of view and if other features like automatic speaker framing are needed.
 
-![Cameras](../media/cameras.png)
+![Photo to two types of web cameras.](../media/cameras.png)
 
 **The content camera**. There are specific certified cameras that support the content camera feature. You can see examples of two of them below.
 
-![Content cameras](../media/content-cameras.png)
+![Photo of two types of cameras that support the content camera feature.](../media/content-cameras.png)
 
 The ideal size of the capture area of an analog whiteboard is between 1.8m-2.7m/6-9 ft. wide. Whiteboards larger than 3.6m/12ft will not be picked up by the camera. Note that the whiteboard should be white and not another color. If you have a whiteboard that is the entire length of the wall, the camera will not be able to show the whole thing. The recommendation is to take colored tape and tape an outline of the camera's field of view directly on the whiteboard.
 
