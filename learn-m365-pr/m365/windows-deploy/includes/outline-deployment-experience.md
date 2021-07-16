@@ -2,7 +2,7 @@ Deployment requires downtime for users' devices and must be monitored efficientl
 
 ## Inform users in a timely manner
 
-Having the right approach to communication will help your organization ensure its users are ready for Windows feature updates, so these can be rolled out seamlessly. Updates provide continuous innovation and improvements to the product, in the same way that users' personal devices, such as smartphones, receive updates. Ideally, users should feel excited about the update and its value, while understanding the importance of keeping devices secure. You explain that there are several measures that your team can employ to achieve this. For example by:
+Having the right approach to communication will help your organization ensure its users are ready for Windows feature updates, so these can be rolled out seamlessly. Updates provide continuous innovation and improvements to the product, in the same way that users' personal devices, such as smartphones, receive updates. Ideally, users should feel excited about the update and its value, while understanding the importance of keeping devices secure. You explain that there are several measures that your team can employ to achieve this. For example, by:
 
 - Sending organization-wide overview emails about the update and how it will be deployed
 - Sending personalized emails to users with specific details about the update

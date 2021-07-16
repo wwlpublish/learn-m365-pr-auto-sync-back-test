@@ -36,7 +36,7 @@ The Microsoft Defender for Identity sensor has the following requirements:
   - Windows Server 2019 (including Windows Core but not Windows Nano Server)
 - The domain controller can be a read-only domain controller (RODC).
 - 10 GB of disk space is recommended. This includes space needed for the Microsoft Defender for Identity binaries, Microsoft Defender for Identity logs, and performance logs.
-- The Microsoft Defender for Identity sensor requires a minimum of 2 cores and 6 GB of RAM installed on the domain controller.
+- The Microsoft Defender for Identity sensor requires a minimum of two cores and 6 GB of RAM installed on the domain controller.
 - Power option of the Microsoft Defender for Identity sensor to high performance.
 - Microsoft Defender for Identity sensors can be deployed on domain controllers of various loads and sizes, depending on the amount of network traffic to and from the domain controllers, and the amount of resources installed.
 - When running as a virtual machine, dynamic memory or any other memory ballooning feature is not supported.
@@ -48,7 +48,7 @@ The Microsoft Defender for Identity sensor has the following requirements:
 
    ![Install steps: Choose Language](../media/install-choose-language.png)
 
-3. The installation wizard automatically checks if the server is a domain controller or a dedicated server. If it's a domain controller, the Microsoft Defender for Identity sensor is installed. If it's a dedicated server, the Microsoft Defender for Identity standalone sensor is installed. For example, for an Microsoft Defender for Identity sensor, the following screen is displayed to let you know that an Microsoft Defender for Identity sensor is installed on your dedicated server:
+3. The installation wizard automatically checks if the server is a domain controller or a dedicated server. If it's a domain controller, the Microsoft Defender for Identity sensor is installed. If it's a dedicated server, the Microsoft Defender for Identity standalone sensor is installed. For example, for a Microsoft Defender for Identity sensor, the following screen is displayed to let you know that a Microsoft Defender for Identity sensor is installed on your dedicated server:
 
    ![Install steps: Determine server type](../media/install-server-type.png)
 

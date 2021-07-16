@@ -20,7 +20,7 @@ You can consider some best practices with every change initiative:
    Example: Manager tips-and-tricks emails are sent out to all managers and include tips such as how to establish valuable 1:1 coaching sessions.
 
 - **Share successes**. Reinforce behaviors by sharing moments of success more broadly.
-   Example: During a town hall the department with the greatest adherence to reserved focus time is recognized.
+   Example: During a town hall, the department with the greatest adherence to reserved focus time is recognized.
 
 - **Provide access to more info**. Communicate to whom or where employees can go for more information.
    Example: A central site with FAQs and learning material is created along with an email address where individuals can direct their questions.

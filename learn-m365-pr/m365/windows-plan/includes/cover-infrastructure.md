@@ -23,7 +23,7 @@ Before you can apply the Windows 10 feature update to your environment, you'll n
 Security baselines are designed to help you ensure your devices are configured with Microsoft recommended guidance. Security risks and threats are constantly changing, and updating security baselines helps to secure your environment and ensure new security features delivered as part of the Windows 10 feature update are configured accordingly. There are different security baselines your organization will in all likelihood need to implement. Plan to review the following:
 
 - **Microsoft security baselines**: It is highly recommended that you implement security baselines from Microsoft. You can find them included with Microsoft's [Security Compliance Toolkit](https://www.microsoft.com/download/details.aspx?id=55319), which will also provide you with tools to help manage your security baselines.
-- **Industry or region-specific baselines**: Your industry or region may have its own security baselines that you need to adhere to for compliance or regulatory reasons. For example, if Woodgrove is a financial organization, it may have additional required security configuration in the region it operates than a retail organization. Check to ensure any new baselines implemented support the version of Windows 10 you are deploying.
+- **Industry or region-specific baselines**: Your industry or region may have its own security baselines that you need to adhere to for compliance or regulatory reasons. For example, if Woodgrove is a financial organization, it may have more required security configurations than a retail organization. Check to ensure any new baselines implemented support the version of Windows 10 you are deploying.
 
 #### Plan for configuration updates
 

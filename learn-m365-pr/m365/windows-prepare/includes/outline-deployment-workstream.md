@@ -10,7 +10,7 @@ Woodgrove will prepare its infrastructure for the update by implementing the cha
 
 Woodgrove's infrastructure includes many different components and tools. As the process manager responsible for the Windows 10 feature update, you need to validate that the environment won't be affected due to changes made to various parts of the infrastructure. Woodgrove will do this by:
 
-1. **Reviewing all of the infrastructure changes** that Woodgrove identified in the Plan phase:  It's important to understand the changes that need to be made and to detail how to implement them. This prevents issues later on.
+1. **Reviewing all of the infrastructure changes** that Woodgrove identified in the Plan phase: It's important to understand the changes that need to be made and to detail how to implement them. This prevents issues later on.
 1. **Validating changes**: Woodgrove will validate the changes for the infrastructure's components and tools to help understand how changes could affect its production environment.
 1. **Implementing the changes**: Once the changes have been validated, Woodgrove can implement the changes across the wider infrastructure.
 

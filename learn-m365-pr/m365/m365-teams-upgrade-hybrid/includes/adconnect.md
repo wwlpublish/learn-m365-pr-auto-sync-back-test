@@ -1,7 +1,7 @@
 Organizations that have Skype for Business Server (or Lync Server) on-premises and who are planning to use either Teams or Skype for Business Online must configure Azure AD Connect to synchronize their on-premises directory with Microsoft 365. In particular, organizations with Skype for Business on-premises must ensure that the proper msRTCSIP attributes are synchronized into Azure AD.
 
 >[!NOTE]
-> Existing Teams users who also have Skype for Business on-premises will need to have their Skype for Business on-premises account moved to the cloud in order to get full functionality-- such as the ability to interoperate with Skype for Business users, and to communicate with users in federated organizations. Even if the user will only be using Teams, this online Skype for Business account is required by the infrastructure to deliver the additional functionality. For this migration to take place, you must ensure that Azure AD Connect is properly configured so that you can enable hybrid.  
+> Existing Teams users who also have Skype for Business on-premises will need to have their Skype for Business on-premises account moved to the cloud in order to get full functionality—such as the ability to interoperate with Skype for Business users, and to communicate with users in federated organizations. Even if the user will only be using Teams, this online Skype for Business account is required by the infrastructure to deliver the additional functionality. For this migration to take place, you must ensure that Azure AD Connect is properly configured so that you can enable hybrid.  
 
 Azure AD Connect keeps your on-premises Active Directory continuously synchronized with Microsoft 365. Your on-premises directory remains the authoritative source of identity, and changes from your on-premises environment are synchronized into Azure AD. Even if you are not moving all users from on-premises to the cloud, all users that use Teams, Skype for Business on-premises, or Skype for Business Online must be synchronized from on-premises into Azure AD to ensure communication between on-premises and online users. Users in your organization will be represented in both your on-premises and online directories.
 
@@ -10,7 +10,7 @@ Azure AD Connect keeps your on-premises Active Directory continuously synchroniz
 Whether you have one on-premises Active Directory forest or multiple forests, Azure AD Connect can be used in a variety of supported topologies. From the perspective of Skype for Business Server, there are three main variations:
 
 - A single forest, which contains authoritative user identities and hosts Skype for Business Server.
-- Multiple forests, only one of which hosts Skype for Business Server, as well as one or more other forests that contain authoritative user identities (the account forests).
+- Multiple forests, only one of which hosts Skype for Business Server, and one or more other forests that contain authoritative user identities (the account forests).
 - Multiple deployments of Skype for Business Server in multiple forests. Provided certain requirements are met, organizations can consolidate these multiple deployments into a single Microsoft 365 tenant.
 
 ### Single forest

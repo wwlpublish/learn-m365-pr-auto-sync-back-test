@@ -23,7 +23,7 @@ To create a new topic:
    In the **Alternate names** section, type any other names the topic might be referred to.
 3. Type a couple of sentences that describe the topic.
    - In the **Pinned people** section, you can "pin" a person to list them as a subject matter expert on the topic. Begin by typing their name or email address in the **add a new user** box, and then select the user you want to add from the search results.  
-   - You can also "unpin" a user by selecting  **Remove from list** on the user card. You can also drag the person to change the order that the list of people appear.
+   - You can also "unpin" a user by selecting  **Remove from list** on the user card. You can also drag the person to change the order that the list of people appears.
 4. In the pinned files and pages section, add or "pin" a file or SharePoint site page associated to the topic.
 
    - To add a new file, select **Add**, select the SharePoint site from your **Frequent or Followed sites**, and then select the file from the site's document library.
@@ -44,4 +44,4 @@ To create a new topic:
 
 8. Select **Publish** to save your changes.
 
-After you publish the page, the topic name, alternate name, description, and pinned people is available to all licensed users who view the topic. Specific files, pages, and sites will only appear on the topic page if the viewer has Office 365 permissions to the item.
+After you publish the page, the topic name, alternate name, description, and pinned people are available to all licensed users who view the topic. Specific files, pages, and sites will only appear on the topic page if the viewer has Office 365 permissions to the item.

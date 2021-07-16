@@ -46,7 +46,7 @@ Knowledge managers and Knowledge admins can manage topics permissions, view topi
 
 ## Create a new topic  
 
-Topics contributors, Knowledge managers and Knowledge admins can create a new topic.  
+Topics contributors, Knowledge managers, and Knowledge admins can create a new topic.  
 
 Users can create a new topic if AI does not discover through indexing or if the AI technology did not find enough evidence to establish it as a topic. To create a new topic, they need to:
 
@@ -88,6 +88,6 @@ After you publish the page, the topic name, alternate name, description, and pin
 
 ## Edit a topic page
 
-Topics contributors, Knowledge managers and Knowledge admins can edit a topic. These users can edit an existing topic. They may need to do this to correct or add additional information to an existing topic page.
+Topics contributors, Knowledge managers, and Knowledge admins can edit a topic. These users can edit an existing topic. They may need to do this to correct or add additional information to an existing topic page.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4LA4n]

@@ -35,7 +35,7 @@ Within OneDrive and SharePoint, users can select the folders and locations they 
 
 Users don't need to change their workflow – everything looks the same before, during, and after synchronization with OneDrive. Through Group Policy you can choose whether to notify users that their documents, pictures, and desktop are protected in OneDrive, as the process happens in the background. As soon as a user signs into their OneDrive account, these files are restored to their new PC. Using OneDrive also means users can access their files securely at any time from their phones and other devices.
 
-Authentication for OneDrive is powered by Azure Active Directory, so for extra security and to limit network activity, you can enable multi-factor authentication and set policies to control the upload and download bandwidth OneDrive uses.
+Authentication for OneDrive is powered by Azure Active Directory, so for extra security and to limit network activity, you can enable multifactor authentication and set policies to control the upload and download bandwidth OneDrive uses.
 
 ### Explore how to migrate Windows known folders to OneDrive
 

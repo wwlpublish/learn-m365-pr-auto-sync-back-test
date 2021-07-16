@@ -1,4 +1,4 @@
-If your organization uses Skype for Business today and you're starting to use Teams alongside Skype for Business — or you're starting to upgrade to Teams — it's important to understand how the two applications coexist, when and how they interoperate, and how to manage users' migration all the way to their eventual upgrade from Skype for Business to Teams.
+If your organization uses Skype for Business today and you're starting to use Teams alongside Skype for Business—or you're starting to upgrade to Teams—it's important to understand how the two applications coexist, when and how they interoperate, and how to manage users' migration all the way to their eventual upgrade from Skype for Business to Teams.
 
 The purpose of the Skype for Business coexistence modes is to provide a predictable experience for end users as organizations transition from Skype for Business to Teams. Depending on how you deploy Teams, the chat, calling, and meeting capabilities in Teams may overlap with the same capabilities delivered by Skype for Business for a given user.
 

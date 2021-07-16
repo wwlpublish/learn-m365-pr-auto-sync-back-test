@@ -30,7 +30,7 @@ A custom change tactics worksheet is an effective tool to drive change. You can 
 To create an effective customer focus change tactics worksheet, determine the following:
 
 - **Change levers** - Add next step actions you can take to improve customer focus in your organization.
-- **Analysis category** - Identify the analysis category the change lever applies to, i.e., external collaboration, internal collaboration, or coaching and onboarding.
+- **Analysis category** - Identify the analysis category the change lever applies to, that is, external collaboration, internal collaboration, or coaching and onboarding.
 - **Level of effort** - Determine the level of effort involved in activating each change lever.
 - **Accountability metrics** - Identify the customer focus related metrics you'll use to track and evaluate change.
 

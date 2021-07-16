@@ -4,7 +4,7 @@ Knowledge managers must be licensed for Viva Topics. If not, admins will need to
 
 |Knowledge administrator (Tenant administrator)|Knowledge manager|Topic contributor (SME)|
 |-|-|-|
-|- Sets up Topic experiences <br>- Ensures security and compliance standards are enforced <br>- Understands licensing agreement|- Owns quality of Topics and curation <br>- Performs topic management tasks such as create, edit, delete and reject topics|- Contributes to topics, curating pinned people and resources.|
+|- Sets up Topic experiences <br>- Ensures security and compliance standards are enforced <br>- Understands licensing agreement|- Owns quality of Topics and curation <br>- Performs topic management tasks such as create, edit, delete, and reject topics|- Contributes to topics, curating pinned people and resources.|
 
 The following table outlines the tasks the knowledge manager can perform by using the **Manage Topics** feature.
 

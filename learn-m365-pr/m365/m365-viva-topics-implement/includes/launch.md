@@ -1,4 +1,4 @@
-Once you have decided on the rollout strategy for either a crowd-sourced or authoritative model, it's time to implement Viva Topics in your organization's Microsoft 365. The 5-steps to launch Viva Topics are:
+Once you have decided on the rollout strategy for either a crowd-sourced or authoritative model, it's time to implement Viva Topics in your organization's Microsoft 365. The five steps to launch Viva Topics are:
 
 1. Review admin console elements.
 2. Select sources to discover.
@@ -27,7 +27,7 @@ When you set up Topics, you can choose from the following options:
 - **Only selected sites**: Only the sites you specify. Sites created in the future will not be included as sources for topic discovery.
 - **No sites**: Do not include any SharePoint sites.
 
-If you choose either All, except selected sites or Only selected sites, you can upload a .csv file with a list of sites (in Site name,URL format). These options are useful for a pilot and you want to include a limited number of sites to start.
+If you choose either All, except selected sites or Only selected sites, you can upload a .csv file with a list of sites (in Site name, URL format). These options are useful for a pilot and you want to include a limited number of sites to start.
 
 You can change the SharePoint sites in your organization to be crawled for topics.
 
@@ -78,13 +78,13 @@ Setting up Topics does not modify any existing access controls on content in you
 
 ### Manage topic visibility
 
-You can manage the set of users who can see topic highlights, topic cards, and the topic center in the Microsoft 365 admin center. You must be a global administrator, SharePoint administrator or Knowledge administrator to perform these tasks.
+You can manage the set of users who can see topic highlights, topic cards, and the topic center in the Microsoft 365 admin center. You must be a global administrator, SharePoint administrator, or Knowledge administrator to perform these tasks.
 
 Learn more about [Knowledge management of Viva Topics](/learn/modules/m365-viva-topics-knowledge/).
 
 ### Manage topic permissions
 
-Manage topic permissions settings and topic discovery settings in the Microsoft 365 admin center as a global administrator, SharePoint administrator or Knowledge administrator.
+Manage topic permissions settings and topic discovery settings in the Microsoft 365 admin center as a global administrator, SharePoint administrator, or Knowledge administrator.
 
 ## Step 4: Monitor, administer, and use reporting  
 

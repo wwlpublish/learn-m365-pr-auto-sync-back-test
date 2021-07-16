@@ -51,7 +51,7 @@ Each wireless vendor has its own recommendations for deploying its wireless solu
 
 Microsoft Teams connects to Microsoft Online Services. For Teams to function correctly, you must open TCP ports 80 and 443 from the clients to the internet, and UDP ports 3478 through 3481 from the clients to the internet. The TCP ports are used to connect to web-based content such as SharePoint Online, Exchange Online, and the Teams Chat services. Plug-ins and connectors also connect over these TCP ports. The four UDP ports are used for media such as audio and video, to ensure they flow correctly.
 
-If your organization requires that you specify the exact IP address ranges and domains to which these ports should be opened, you can restrict the target IP ranges and domains for these ports. For a list of exact ports, protocols, and IP ranges, see Microsoft 365 URLs and IP address ranges. It's also a good practice to test whether all ports are opened by running the Skype for Business Network Assessment Tool on a regular basis.
+If your organization requires that you specify the exact IP address ranges and domains to which these ports should be opened, you can restrict the target IP ranges and domains for these ports. For a list of exact ports, protocols, and IP ranges, see Microsoft 365 URLs and IP address ranges. It's also a good practice to test whether all ports are opened by running the Skype for Business Network Assessment Tool regularly.
 
 We also recommend that you bypass any proxy servers for all Teams services. Although using a proxy might work, media will be forced to use TCP instead of UDP, which will result in a reduction in quality.
 

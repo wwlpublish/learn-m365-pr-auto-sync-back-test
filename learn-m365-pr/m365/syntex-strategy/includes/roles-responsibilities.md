@@ -41,4 +41,4 @@ In addition to these roles and responsibilities, you need to think about who wil
 
 ## Global admin
 
-The global admin manages access for SharePoint Syntex users. They control levels of access and what users have access to. The global admin is likely a security specialist with IT understanding since tenant-level settings require more backend work and an understanding of how to administer IT settings. The global administrator needs to be comfortable with both establishing tenant-level settings and updating them on a regular basis, as needed,l including when new model owners and other admins are onboarded to your organization.
+The global admin manages access for SharePoint Syntex users. They control levels of access and what users have access to. The global admin is likely a security specialist with IT understanding since tenant-level settings require more backend work and an understanding of how to administer IT settings. The global administrator needs to be comfortable with both establishing tenant-level settings and updating them regularly, as needed, including when new model owners and other admins are onboarded to your organization.

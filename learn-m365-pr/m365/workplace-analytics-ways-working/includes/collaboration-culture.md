@@ -63,7 +63,7 @@ The *Generated workload* report helps organizations understand the source of mee
 > Generated workload meeting hours are the number of meeting hours an employee created for internal attendees by organizing meetings.
 
 - The drop-down menu on the top allows you to play with the "prevalence of top X% meeting generators." In the example here, the slider is set to 20%, meaning that 20% of the employees generate 76% of the meeting workload in the organization.
-- The chart on the left shows the distribution of employees by Generated workload meeting hours, e.g., 50% of employees generate 97% of meeting hours.
+- The chart on the left shows the distribution of employees by Generated workload meeting hours, for example, 50% of employees generate 97% of meeting hours.
 - The charts on the right display the percentage of top meeting generators—as defined by the slider—by Organization and by Supervisor Indicator. In the example here, Product Management and Program Management have the highest representation of meeting generators, at 53% and 50%, respectively.
 
 ![ Who in the organization is generating the most workload report](../media/generate-most-workload.png)

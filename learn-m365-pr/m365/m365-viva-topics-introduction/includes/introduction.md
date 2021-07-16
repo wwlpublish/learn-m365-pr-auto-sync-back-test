@@ -1,6 +1,6 @@
 The average employee spends more than an hour a day searching or recreating information that already exists in their organization. To solve this, Microsoft Viva Topics is an add-on for Microsoft 365 plans for commercial customers to address a key business issue by providing information to users when they need it.
 
-Viva Topics is part of Microsoft Viva, an Employee Experience Platform (EXP) tool that helps unify and manage all aspects of employee experience in a single place—for onboarding, skill development and knowledge.  
+Viva Topics is part of Microsoft Viva, an Employee Experience Platform (EXP) tool that helps unify and manage all aspects of employee experience in a single place—for onboarding, skill development, and knowledge.  
 
 Viva Topics uses advanced AI and topic technology that help your people to learn, find knowledge, engage, and work for their wellbeing and the organization's success.  
 

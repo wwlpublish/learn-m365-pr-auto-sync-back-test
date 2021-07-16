@@ -8,7 +8,7 @@ Workplace Analytics provides insights around three key pillars of customer focus
 When beginning your customer focus analysis, it is important to know your business priorities and identify business questions to guide your analysis. The following are some examples of questions you might ask for each pillar:
 
 - **External collaboration** - Are sales employees spending the right amount of time with the right customers to effectively drive high-value activities?
-- **Internal collaboration** - Are sales employees getting sufficient support from internal teams who can help drive high-value, external activities and spending the minimum time possible in internal processes?
+- **Internal collaboration** - Are sales employees getting sufficient support from internal teams who can help drive high-value, external activities, and spending the minimum time possible in internal processes?
 - **Coaching and onboarding** - Are sales employees getting enough empowerment from the management and building the knowledge and skills that can set them up for success?
 
 These are just a few of the questions a Workplace Analytics customer focus analysis can help answer. There are multiple analyses in each category that you can perform to help boost customer focus for sales effectiveness.

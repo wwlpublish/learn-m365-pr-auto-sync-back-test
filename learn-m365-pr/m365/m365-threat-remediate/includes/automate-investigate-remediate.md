@@ -16,8 +16,8 @@ Clicking into the investigation deep link from the alert brings us into the Offi
 
 Specifically, note that:
 
-- Several emails (23) that were identified as being relevant to this investigation (based on sender, IP, domain, URL and other email attributes) and a subset of them (6) were identified as being malicious, sent from an internal user in the organization which itself is a strong indicator of a compromised user.
-- A user pivot on this investigation also identifies anomalies for 1 user (Jeff) with respect to a suspicious login and mass downloads of documents.
+- Several emails (23) that were identified as being relevant to this investigation (based on sender, IP, domain, URL, and other email attributes) and a subset of them (6) were identified as being malicious, sent from an internal user in the organization, which itself is a strong indicator of a compromised user.
+- A user pivot on this investigation also identifies anomalies for one user (Jeff) with respect to a suspicious login and mass downloads of documents.
 - With the compromised user, user anomalies and compromised device threats identified in this investigation, Microsoft Defender for Office 365 has also taken some auto remediations such as blocking the URL, deleting any emails in mailboxes related to this URL, and triggering the AAD workflows for password reset and MFA for the compromised user. The ability to take automatic action or drive remediations with manual approval, based on policy, are core elements of AIR.
 
 AIR in Microsoft Defender for Office 365 includes certain remediation actions. Whenever an automated investigation is running or has completed, you'll typically see one or more remediation actions that require approval by your security operations team to proceed. Such remediation actions include the following:

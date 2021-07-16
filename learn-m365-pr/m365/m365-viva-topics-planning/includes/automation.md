@@ -36,9 +36,9 @@ Automate this scenario in Viva Topics to ensure:
 
 ## Scenario 3: Expanded decision making & improved time to market
 
-Microsoft's 2020 report, "Knowledge Sharing in a Changing World" includes surveys on information access, resilience, and cost savings in hybrid work environments. This survey targeted IT, business, C-level decision-makers and knowledge-sharing tool users across various industries. Highlights of this survey include:  
+Microsoft's 2020 report, "Knowledge Sharing in a Changing World" includes surveys on information access, resilience, and cost savings in hybrid work environments. This survey targeted IT, business, C-level decision-makers, and knowledge-sharing tool users across various industries. Highlights of this survey include:  
 
-- On average, employees could potentially save between 4 to 6 hours each week if they didn't have to search for information—or spend time recreating it, gaining back 11 to 14% in daily productivity.  
+- On average, employees could potentially save between 4 to 6 hours each week if they didn't have to search for information—or spend time recreating it, gaining back 11% to 14% in daily productivity.  
 - 52% of information workers say the most appealing benefit of knowledge sharing tools is the ability to find information faster—so they can spend more time doing more meaningful work.
 - The other top benefits for knowledge workers are limiting the need to recreate information and having a single source of truth.
 - 49% of decision-makers welcome the ability to increase employee productivity to save time and money.  

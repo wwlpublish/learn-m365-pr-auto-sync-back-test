@@ -5,7 +5,7 @@ Whether a user is located on-premises or in the cloud is known as the user's Sky
 
 Teams users inherently have a Skype for Business home whether they use Skype for Business or not. If you have on-premises Skype for Business users that are also using Teams (side by side), those users are homed on-premises.
 
-When you move a user online, you can either allow them to use Skype for Business Online (and, optionally, Teams) or you can make them Teams Only. If your organization is already using Teams, it's strongly recommended that you move them to Teams Only mode, which will ensure that routing of all incoming chats and calls lands in their Teams client.
+When you move a user online, you can either allow them to use Skype for Business Online (and, optionally, Teams) or you can make them Teams Only. If your organization is already using Teams, it's recommended that you move them to Teams Only mode, which will ensure that routing of all incoming chats and calls lands in their Teams client.
 
 ## Moving users
 
@@ -19,7 +19,7 @@ When a user is moved from on-premises to the cloud:
 To move users between on-premises and the cloud (whether to Teams or to Skype for Business Online), use either the **Move-CsUser** cmdlet or the Skype for Business Admin Control Panel, both of which are on-premises tools. These tools support three different move paths:
 
 - From Skype for Business Server (on-premises) to Skype for Business Online.
-- From Skype for Business Server (on-premises) directly to Teams Only (which also moves them to Skype for Business Online). The option to move directly from on-premises to Teams Only is available in Skype for Business Server 2019 as well as Cumulative Update 8 for Skype for Business Server 2015. Organizations using earlier versions of Skype for Business Server can move users to Teams Only by first moving them to Skype for Business Online, and then applying the TeamsOnly mode to these users once they are online.
+- From Skype for Business Server (on-premises) directly to Teams Only (which also moves them to Skype for Business Online). The option to move directly from on-premises to Teams Only is available in Skype for Business Server 2019 and Cumulative Update 8 for Skype for Business Server 2015. Organizations using earlier versions of Skype for Business Server can move users to Teams Only by first moving them to Skype for Business Online, and then applying the TeamsOnly mode to these users once they are online.
 - From online (whether Teams Only or not), to on-premises.
 
 ## Required administrative credentials

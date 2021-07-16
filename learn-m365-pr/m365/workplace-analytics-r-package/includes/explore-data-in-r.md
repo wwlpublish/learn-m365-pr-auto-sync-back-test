@@ -4,7 +4,7 @@ After you have loaded the person query data and completed all necessary data val
 
 ## Function structure
 
-All functions in wpa follow a similar structure and include many common arguments. The following shows the basic structure of standard analysis functions:
+All functions in `wpa` follow a similar structure and include many common arguments. The following shows the basic structure of standard analysis functions:
 
 ![Function structure](../media/function-structure.png)
 
@@ -98,7 +98,7 @@ Output:
 
 ![Collaboration summary by LevelDesignation](../media/collab-summary-level.png)
 
-By default, all summary functions exclude groups with less than five individuals. This is also something that can be adjusted, using the `mingroup` argument:
+By default, all summary functions exclude groups with fewer than five individuals. This is also something that can be adjusted, using the `mingroup` argument:
 
 ```R
 sq_data %>% collaboration_summary(hrvar = "LevelDesignation", mingroup = 10)
@@ -152,7 +152,7 @@ The `create_bar()` function also accepts the `hrvar`, `return`, and `mingroup` a
 
 ## Advanced functionalities for custom plots
 
-All plots in the wpa R package are ggplot objects. This means you can customize them by adding the ggplot2 package and adding ggplot arguments and layers to the code. For example, you can use the following to change the title of a `collaboration_summary()` plot to a custom title:
+All plots in the `wpa` R package are ggplot objects. This means you can customize them by adding the ggplot2 package and adding ggplot arguments and layers to the code. For example, you can use the following to change the title of a `collaboration_summary()` plot to a custom title:
 
 ```R
 library(ggplot2)
@@ -163,21 +163,21 @@ Output:
 
 ![Customize a plot example](../media/customize-plot.png)
 
-The wpa R package has over 150 functions with different options. See the Learn more section for details about:
+The `wpa` R package has over 150 functions with different options. See the Learn more section for details about:
 
 - What each function does.
 - Required and available arguments and parameters for each function.
 - Output returned when you use each function.
 
-For a guided tour on the available visualization functions, see the following link for the wpa R package introduction.
+For a guided tour on the available visualization functions, see the following link for the `wpa` R package introduction.
 
 ## Learn more
 
-- [wpa R package introduction](https://microsoft.github.io/wpa/analyst_guide.html?azure-portal=true)
-- [wpa R package function reference](https://microsoft.github.io/wpa/reference/index.html?azure-portal=true)
-- [wpa R package summary functions](https://microsoft.github.io/wpa/analyst_guide_summary.html?azure-portal=true)
-- [Collaboration demo report](https://microsoft.github.io/wpa/report-demo/collaboration-report.html?azure-portal=true)
-- [Capacity demo report](https://microsoft.github.io/wpa/report-demo/capacity-report.html?azure-portal=true)
-- [Coaching demo report](https://microsoft.github.io/wpa/report-demo/coaching-report.html?azure-portal=true)
-- [Connectivity demo report](https://microsoft.github.io/wpa/report-demo/connectivity-report.html?azure-portal=true)
+- [`wpa` R package introduction](https://microsoft.github.io/`wpa`/analyst_guide.html?azure-portal=true)
+- [`wpa` R package function reference](https://microsoft.github.io/`wpa`/reference/index.html?azure-portal=true)
+- [`wpa` R package summary functions](https://microsoft.github.io/`wpa`/analyst_guide_summary.html?azure-portal=true)
+- [Collaboration demo report](https://microsoft.github.io/`wpa`/report-demo/collaboration-report.html?azure-portal=true)
+- [Capacity demo report](https://microsoft.github.io/`wpa`/report-demo/capacity-report.html?azure-portal=true)
+- [Coaching demo report](https://microsoft.github.io/`wpa`/report-demo/coaching-report.html?azure-portal=true)
+- [Connectivity demo report](https://microsoft.github.io/`wpa`/report-demo/connectivity-report.html?azure-portal=true)
 - [Information on the ggplot2 package](https://ggplot2.tidyverse.org/?azure-portal=true)

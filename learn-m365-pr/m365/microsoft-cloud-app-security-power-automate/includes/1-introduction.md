@@ -1,4 +1,4 @@
-You're an administrator for Contoso, a large multi-national organization. Contoso IT management are implementing a shift to Microsoft 365. As part of this process, it's important that IT can maintain control of critical corporate data. As a security administrator at Contoso, you're involved with planning for this data control. You've decided to implement Microsoft Cloud App Security and you are investigating implementing Power Automate to add automation.
+You're an administrator for Contoso, a large multi-national organization. Contoso IT management is implementing a shift to Microsoft 365. As part of this process, it's important that IT can maintain control of critical corporate data. As a security administrator at Contoso, you're involved with planning for this data control. You've decided to implement Microsoft Cloud App Security and you are investigating implementing Power Automate to add automation.
 
 ## Learning objectives
 

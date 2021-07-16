@@ -14,4 +14,4 @@ Woodgrove has made many decisions regarding the different components that make u
 |*Devices*|Select test users.|IT volunteers and support desk members selected for testing.|Yes|
 |*Operations*|- Create a schedule for communications.<br/>- Create draft content for emails.|- Communication schedule created to match deployment schedule.<br/>- Draft emails produced for company-wide distribution.|Yes|
 
-This will help you understand overall readiness. As the process manager, you'll use it to sign off on whether the environment is ready for the next phase.
+This will help you understand overall readiness. As the process manager, you'll use it to sign out on whether the environment is ready for the next phase.

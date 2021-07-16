@@ -53,5 +53,5 @@ You'll have to ensure that your team generates multiple artifacts that it can us
 |Item  |Example  |Description  |
 |---------|---------|---------|
 |Deployment considerations|Document|Recommend tools and practices that can help improve broad deployment in the next cycle|
-|Infrastructure recommendations|Document|Recommend infrastructure related tools and practices that can help improve broad deployment in the next cycle|
-|Ops and innovation recommendations|Document|Recommend operations related tools and practices that can help improve broad deployment in the next cycle|
+|Infrastructure recommendations|Document|Recommend infrastructure-related tools and practices that can help improve broad deployment in the next cycle|
+|Ops and innovation recommendations|Document|Recommend operations-related tools and practices that can help improve broad deployment in the next cycle|

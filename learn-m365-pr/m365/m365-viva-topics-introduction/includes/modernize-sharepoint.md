@@ -20,7 +20,7 @@ Before you create a modern page, you should activate the Site Pages feature on y
 1. Activate the site page feature:
    1. Open your SharePoint site.
    2. Go to site settings (by using the Gear menu).
-   3. On site settings page, select **Manage site features**.
+   3. On the site settings page, select **Manage site features**.
    4. Scroll down the site feature page and activate the **Site Pages Features**.
 
 2. Create modern site page:

@@ -39,7 +39,7 @@ You can use the Windows servicing process to help Woodgrove to stay current. The
 
 - **Prepare**: In this phase, you'll assign appropriate test approaches to your important and critical applications, and test applications that must work during Pilot deployment. You also update infrastructure and configuration defined earlier in the plan phase. Based on compatibility data and critical app testing, you put together a list of devices that you'll use for a pilot deployment.
 
-- **Deploy**: In this phase you deploy the update across your organization. There are two parts to the Deploy phase:
+- **Deploy**: In this phase, you deploy the update across your organization. There are two parts to the Deploy phase:
 
   - **Pilot**: Your organization deploys the update on targeted devices to find any problems ahead of a wider deployment. At the end of this phase, you ensure that you've tested infrastructure, settings, and applications as defined in the plan phase, and certify that the update can be pushed to Broad deployment across the organization's environment. If the update includes new capabilities, you ensure that they are all tested during this phase.
 

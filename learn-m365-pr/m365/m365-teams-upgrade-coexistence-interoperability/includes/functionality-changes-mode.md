@@ -21,8 +21,6 @@ From a technical perspective, a user's mode governs several aspects of the user'
 - **Meeting scheduling.** This governs which service is used for scheduling new meetings and ensuring that the proper add-in is present in Outlook. Note users can always join any meeting, whether it be a Skype for Business meeting or a Teams meeting.
 - **Client experience.** This governs the functionality available in Teams and/or Skype for Business to initiate calls and chats in Teams, Skype for Business or both. This also governs whether Teams & Channels experience is available.
 
-For more details on routing and presence behavior based on mode, see **Coexistence with Skype for Business.**
-
 ## Learn more
 
 When you're done with a link, use the **Back** arrow in your browser to come back to this page.

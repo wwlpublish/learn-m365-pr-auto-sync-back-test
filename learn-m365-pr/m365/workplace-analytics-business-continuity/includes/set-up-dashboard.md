@@ -45,7 +45,7 @@ To load the data into the Business Continuity Power BI template:
 
 ![Load data into the template procedure](../media/load-data-template.png)
 
-The dashboard visualizations on each page of the report populates with Workplace Analytics data, starting with the Settings page.
+The dashboard visualizations on each page of the report populate with Workplace Analytics data, starting with the Settings page.
 
 **3. Select your settings in the Business continuity dashboard**. After you have loaded the data and the report is generated in Power BI, the dashboard opens to the **Settings** page, where you have the option to adjust some settings for your analysis.
 

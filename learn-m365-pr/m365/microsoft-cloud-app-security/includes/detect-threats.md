@@ -40,7 +40,7 @@ This interactive guide walks you through the steps to configure an anomaly detec
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4FkTv]
 
-### Fine tune anomaly detection policies for suppression or surfacing alerts
+### Fine-tune anomaly detection policies for suppression or surfacing alerts
 
 Although anomaly detections only trigger when something happens outside the norm, they're still susceptible to false positives. Too many false positives can lead to alert fatigue, and you risk missing the important alerts in the noise. To help prevent this, you can fine-tune the detection logic in each policy to include different levels of suppression to address scenarios that can trigger false positive, such as VPN activities.
 
@@ -56,7 +56,7 @@ Before you fine-tune your policies, it helps to understand the options for suppr
 
  The sensitivity levels affect the suppression types differently:
 
-| Sensitivity Level | Suppression types effected |
+| Sensitivity Level | Suppression types affected |
 | --------------------- | ------------------------------ |
 | Low                   | System, Tenant, and User       |
 | Medium                | System, and User               |

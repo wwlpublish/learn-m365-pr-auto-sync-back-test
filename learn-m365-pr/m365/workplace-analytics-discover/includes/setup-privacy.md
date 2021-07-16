@@ -9,7 +9,7 @@ Setting up Workplace Analytics is a straightforward process. Here's an overview 
 
 After these steps are complete, your organization has full access to all service features (except Upload and administrative settings).
 
-Organizational data contains effective dates which map to the Microsoft 365 data. This data should be uploaded on a regular monthly schedule to reflect changes in your organization. The Microsoft 365 collaboration data updates weekly.
+Organizational data contains effective dates that map to the Microsoft 365 data. This data should be uploaded on a regular monthly schedule to reflect changes in your organization. The Microsoft 365 collaboration data updates weekly.
 
 For more information on system requirements and data processing, see the **Learn more** section below.
 

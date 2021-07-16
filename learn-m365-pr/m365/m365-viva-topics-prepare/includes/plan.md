@@ -88,4 +88,4 @@ To ensure high-quality topics are shown to your users and users have the right p
 - Which users should have permissions to create or edit topics in the topic center?
 - What name and URL address do you want to give your topic center?
 
-Be aware that security and privacy of your data are respected, as topic experiences don't grant users additional access to files, they don't have rights already.
+Security and privacy of your data are respected, as topic experiences don't grant users additional access to files, they don't have rights already.
