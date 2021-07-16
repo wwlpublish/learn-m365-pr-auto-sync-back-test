@@ -51,6 +51,7 @@ You can also use PowerShell to diagnose the status of a migration and its mailbo
 ```powershell
 $Get-MigrationBatch -Identity SalesDeptMigration
 ```
+
 ## Learn more
 
 - [Move mailboxes between on-premises and Exchange Online organizations in hybrid deployments](/Exchange/hybrid-deployment/move-mailboxes?azure-portal=true)

@@ -39,14 +39,14 @@ Once you have a better idea who is using legacy authentication in your directory
 
 2. **Update applications**. Once you have enabled modern authentication in your directory, you can start updating applications by enabling modern authentication for Office clients. Office 2016 or later clients support modern authentication by default. No extra steps are required.
 
-   For Office 2013, the following registry keys are required:
+    For Office 2013, the following registry keys are required:
 
    - HKCU\SOFTWARE\Microsoft\Office\15.0\Common\Identity\EnableADAL
      - Type REG_DWORD
-	  - Value 1
+     - Value 1
    - HKCU\SOFTWARE\Microsoft\Office\15.0\Common\Identity\Version
-	  - Type REG_DWORD
-	  - Value 1
+     - Type REG_DWORD
+     - Value 1
 
 3. **Enable Exchange Online modern authentication**. In order for Windows-based Outlook clients to use modern authentication, Exchange Online must be modern authentication-enabled as well. If modern authentication is disabled for Exchange Online, Windows-based Outlook clients that support modern authentication (Outlook 2013 or later) will use basic authentication to connect to Exchange Online mailboxes.
 

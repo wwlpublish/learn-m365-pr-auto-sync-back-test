@@ -24,10 +24,9 @@ The first step you should take to assess the impact of a rule is to check the se
 
 The second step you should take is to run the new rule in **audit mode**. In this mode, rules are triggered and store information in the event logs but the rule doesn't block the relevant actions. After running the rule in audit mode for a while, you can use logs to determine how often a rule fires, which actions is blocks, and which applications are blocked. You can use this information to determine whether the rule will block legitimate actions and impact productivity.
 
-If you have used audit mode to become confident that the rule is appropriate and will increase security without blocking legitimate actions, you can move the rule into **block mode**. 
+If you have used audit mode to become confident that the rule is appropriate and will increase security without blocking legitimate actions, you can move the rule into **block mode**.
 
 A third option is **warn mode**. If a rule is in warn mode and an action triggers it, the user sees a dialog box, which indicates that the content is blocked. The dialog box includes an option to unblock the content for 24 hours.
-
 
 ## Notifications and alerts
 
@@ -41,7 +40,7 @@ When you want to enable an attack surface reduction rule, you have a choice of t
 - Mobile Device Management
 - Microsoft Endpoint Configuration Manager
 - Group Policy
-- PowerShell 
+- PowerShell
 
 Use the link in the **Learn more** section for details on how to use any of these options to configure rules.
 
