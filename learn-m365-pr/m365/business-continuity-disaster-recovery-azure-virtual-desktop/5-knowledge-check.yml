@@ -28,9 +28,9 @@ quiz:
 
   - content: "You want to implement a disaster recovery plan for your domain controllers that are used in your Azure Virtual Desktop deployment. Currently those domain controllers are deployed in West Europe. Your design needs to provide a region failure solution. What do you need to include in the plan?"
     choices:
-    - content: "Create an Azure Site Recovery plan."
+    - content: "Implement two domain controllers in North Europe region."
       isCorrect: true
-      explanation: "Azure Site recovery plan gathers machines into recovery groups for the purpose of failover. A recovery plan helps you to define a systematic recovery process, and automate your recovery process."
+      explanation: "Implementing additional domain controllers in North Europe region can be included in BCDR for AVD in case of a region failure. This will ensure ensure availability of authentication services in a region failure scenario."
     - content: "Create Site-to-Site VPN with your on-premises network."
       isCorrect: false
       explanation: "A Site-to-Site VPN will provide a connection to the on-premises network but won't protect your domain controllers in case of a region failure."
@@ -38,7 +38,7 @@ quiz:
       isCorrect: false
       explanation: "Availability zones protect your domain controllers from a datacenter or zone failure in single region only. They don't provide protection if the full region fails."
 
-  - content: "Which of the following services should you include in your BCDR plan for Azure Virtual Desktop?"
+  - content: "Which of the following services or components should you include in your BCDR plan for Azure Virtual Desktop?"
     choices:
     - content: "FSLogix"
       isCorrect: true
