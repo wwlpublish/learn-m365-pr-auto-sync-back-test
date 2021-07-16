@@ -8,23 +8,23 @@ In this module, you learned how to implement protection of your Azure Virtual De
 
 In this module, you learned how to protect individual components of Azure Virtual Desktop. Here are some additional resources to help you get started:
 
-[Protect your virtual machines by using Azure Backup](https://docs.microsoft.com/learn/modules/protect-virtual-machines-with-azure-backup/) teaches you more about how to protect Azure virtual machines.
+[Protect your virtual machines by using Azure Backup](/learn/modules/protect-virtual-machines-with-azure-backup/) teaches you more about how to protect Azure virtual machines.
 
-[Back up Azure file shares](https://docs.microsoft.com/azure/backup/backup-afs) explains how to back up Azure file shares from the Azure portal and how to protect different services running in Azure.
+[Back up Azure file shares](/azure/backup/backup-afs) explains how to back up Azure file shares from the Azure portal and how to protect different services running in Azure.
 
-[Replica sets concepts and features for Azure Active Directory Domain Services](https://docs.microsoft.com/azure/active-directory-domain-services/concepts-replica-sets) provides an in-depth review of the various concepts and features of Replica sets for Azure Active Directory Domain services.
+[Replica sets concepts and features for Azure Active Directory Domain Services](/active-directory-domain-services/concepts-replica-sets) provides an in-depth review of the various concepts and features of Replica sets for Azure Active Directory Domain services.
 
-The tutorial [Configure Cloud Cache to redirect profile containers or office container to multiple Providers](https://docs.microsoft.com/fslogix/configure-cloud-cache-tutorial) is a good source to understand the purpose and use of Cloud Cache.
+The tutorial [Configure Cloud Cache to redirect profile containers or office container to multiple Providers](/fslogix/configure-cloud-cache-tutorial) is a good source to understand the purpose and use of Cloud Cache.
 
-[Protect your Azure infrastructure with Azure Site Recovery](https://docs.microsoft.com/learn/modules/protect-infrastructure-with-site-recovery/) explores the features that apply to a business continuity and disaster recovery (BCDR) plan.
+[Protect your Azure infrastructure with Azure Site Recovery](/learn/modules/protect-infrastructure-with-site-recovery/) explores the features that apply to a business continuity and disaster recovery (BCDR) plan.
 
-[Cross-region replication of Azure NetApp Files volumes](https://docs.microsoft.com/azure/azure-netapp-files/cross-region-replication-introduction) explains how to setup Cross-region replication of Azure NetApp Files.
+[Cross-region replication of Azure NetApp Files volumes](/azure/azure-netapp-files/cross-region-replication-introduction) explains how to setup Cross-region replication of Azure NetApp Files.
 
 ### Additional resources:
-- [Set up a business continuity and disaster recovery plan](https://docs.microsoft.com/azure/virtual-desktop/disaster-recovery)
-- [Set up disaster recovery to a secondary Azure region for an Azure VM](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-quickstart)
-- [Planning for an Azure Files deployment](https://docs.microsoft.com/azure/storage/files/storage-files-planning#redundancy)
-- [Availability options for Azure Virtual Machines](https://docs.microsoft.com/azure/virtual-machines/availability)
-- [Cloud Cache to create resiliency and availability](https://docs.microsoft.com/fslogix/cloud-cache-resiliency-availability-cncpt)
-- [Shared Image Galleries overview](https://docs.microsoft.com/azure/virtual-machines/shared-image-galleries)
+- [Set up a business continuity and disaster recovery plan](/azure/virtual-desktop/disaster-recovery)
+- [Set up disaster recovery to a secondary Azure region for an Azure VM](/azure/site-recovery/azure-to-azure-quickstart)
+- [Planning for an Azure Files deployment](/azure/storage/files/storage-files-planning#redundancy)
+- [Availability options for Azure Virtual Machines](/azure/virtual-machines/availability)
+- [Cloud Cache to create resiliency and availability](/fslogix/cloud-cache-resiliency-availability-cncpt)
+- [Shared Image Galleries overview](/azure/virtual-machines/shared-image-galleries)
 
