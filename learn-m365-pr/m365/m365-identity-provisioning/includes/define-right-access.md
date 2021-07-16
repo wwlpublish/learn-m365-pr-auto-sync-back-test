@@ -3,7 +3,7 @@ Azure Active Directory (AD) lets you collaborate internally as well as externall
 How do you:
 
 - Ensure new employees have the right access to be productive?
-- Ensure access is removed when people—especially guests—leave or change teams? 
+- Ensure access is removed when people—especially guests—leave or change teams?
 - Ensure access rights aren't excessive, which can indicate a lack of control over access and lead to audit findings?
 - Engage with resource owners to ensure they regularly review who has access to their resources?
 
@@ -35,4 +35,4 @@ Azure AD Access Reviews can be used in a variety of circumstances:
 - **To maintain a policy's exception list**. As the IT administrator, you can manage policy exceptions, avoid policy error exceptions, and provide auditors with proof that these exceptions are reviewed regularly.
 - **To confirm group owners still need guests in their groups**. Employee access might be automated with some on-premises access management, but that’s not the case for guests. If a group gives guests access to business sensitive content, then it's the group owner's responsibility to confirm the guests still have a legitimate business need for access.
 
-You can set up recurring access reviews of users at set frequencies such as weekly, monthly, quarterly, or annually, and the reviewers will be notified at the start of each review. A user-friendly interface and smart recommendations make approving or denying access easy. 
+You can set up recurring access reviews of users at set frequencies such as weekly, monthly, quarterly, or annually, and the reviewers will be notified at the start of each review. A user-friendly interface and smart recommendations make approving or denying access easy.

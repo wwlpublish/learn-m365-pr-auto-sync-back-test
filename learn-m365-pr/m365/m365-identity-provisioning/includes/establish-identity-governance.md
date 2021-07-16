@@ -20,7 +20,7 @@ To begin an access review, select the Azure AD group or application you want to 
 
    ![Step 4 Enter needed data](../media/04-enter-needed-data.png)
 
-5. Once the review is created, the access review will initialize and then start on the assigned date. 
+5. Once the review is created, the access review will initialize and then start on the assigned date.
 
    ![Step 5 Initialize and start](../media/05-initialize-start.png)
 

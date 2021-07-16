@@ -7,7 +7,7 @@ A circular diagram with arrows pointing around it to each component of the desig
 
 </div>
 
-The most valuable thing an event attendee shares with you is their time. 
+The most valuable thing an event attendee shares with you is their time.
 
 The most successful virtual events are part of a long-term audience acquisition and retention strategy.
 

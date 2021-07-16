@@ -5,7 +5,7 @@ Suppose you work as a security analyst at a medium-sized organization. Your orga
 In this module, you’ll learn about Microsoft Defender for Endpoint.
 
 By the end of this module, you should be able to:
+
 - Understand Microsoft Defender for Endpoint.
 - Understand how to access Microsoft Defender for Endpoint.
 - Understand the different components of Microsoft Defender for Endpoint.
-

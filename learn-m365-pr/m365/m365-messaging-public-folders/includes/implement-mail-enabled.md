@@ -94,6 +94,7 @@ To enable a public folder that's mail-enabled to receive emails from outside you
 ```powershell
 Add-PublicFolderClientPermission "\General" -AccessRights CreateItems -User Anonymous
 ```
+
 Running this command will return:
 
 ```powershell

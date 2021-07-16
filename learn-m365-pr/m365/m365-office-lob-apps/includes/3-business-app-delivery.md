@@ -24,6 +24,6 @@ When you sideload an app, you deploy a signed app package to a device. You maint
 
 ## Browser-based apps
 
-If you’re using browser-based apps, you’ll want to make sure that they continue to work as expected after the upgrade. As you learned in **Analyze your device and app readiness,** if you have specific websites and apps that have compatibility problems with Microsoft Edge, you can add those apps and sites to the Enterprise Mode site list in the Enterprise Mode Site List Manager. That will ensure that websites will automatically open using Internet Explorer 11. 
+If you’re using browser-based apps, you’ll want to make sure that they continue to work as expected after the upgrade. As you learned in **Analyze your device and app readiness,** if you have specific websites and apps that have compatibility problems with Microsoft Edge, you can add those apps and sites to the Enterprise Mode site list in the Enterprise Mode Site List Manager. That will ensure that websites will automatically open using Internet Explorer 11.
 
 If you know that your intranet sites aren’t going to work properly with Microsoft Edge, you can set all intranet sites to open using Internet Explorer 11 automatically, using the same functionality.
