@@ -20,7 +20,7 @@ For topic highlights and their topic pages to be visible to a topic viewer, the 
 
 ## Topic contributors
 
-Topic contributors are users in your organization that not only have topic viewer permissions, but who also can edit an existing topic or create a new topic. They have an important role in manually “curating” the information in a topic page (both AI and manually provided) to ensure its quality.
+Topic contributors are users in your organization that not only have topic viewer permissions, but who also can edit an existing topic or create a new topic. They have an important role in manually "curating" the information in a topic page (both AI and manually provided) to ensure its quality.
 
 Users who have topic contributor permissions will see an Edit button displayed on Topic pages, which allows them to make updates to and publish a topic.
 
@@ -51,7 +51,7 @@ To manage topics, the knowledge managers must:
 - Be assigned a Viva Topics license by their Microsoft 365 admin.
 - Be allowed to have visibility to topics.  
 
-Topic contributors are users in your organization with topic viewer permissions and can edit an existing topic or create a new topic. They have an important role in manually “curating” the information in a topic page (both AI and manually provided) to ensure its quality.
+Topic contributors are users in your organization with topic viewer permissions and can edit an existing topic or create a new topic. They have an important role in manually "curating" the information in a topic page (both AI and manually provided) to ensure its quality.
 
 ## Knowledge admin
 

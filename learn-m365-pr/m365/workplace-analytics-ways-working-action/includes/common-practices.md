@@ -10,7 +10,7 @@ You can consider some best practices with every change initiative:
 - **Actively involve sponsors and stakeholders**. Sponsors play a key role in driving change. You can equip your sponsors with key talking points and ways to role-model behaviors. Sponsors can also assist in helping build a coalition of support across the organization.
    Example: When leaders ask people to adopt Microsoft Teams, do they send this communication through Teams or in email?
 
-- **Communicate “What's in it for me”**. Communicate the value that the change will yield not only to the organization but to the individual employee.
+- **Communicate "What's in it for me"**. Communicate the value that the change will yield not only to the organization but to the individual employee.
    Example: A reduction in time spent in unproductive meetings could free up time for employees to work on the projects that matter to them the most.
 
 - **Empower and create psychological safety**. Employees can be reluctant to try something new due to a fear of repercussions.

@@ -2,7 +2,7 @@
 
 In Microsoft Teams, teams are groups of people, content, and tools brought together for work, projects, or common interests. A team is designed to bring together a group of people who work closely to get things done.
 
-Teams are made up of channels. Channels are where you hold meetings, have conversations, and work on files together. Each channel is built around a specific topic, like “Team Events” or a department name.
+Teams are made up of channels. Channels are where you hold meetings, have conversations, and work on files together. Each channel is built around a specific topic, like "Team Events" or a department name.
 
 The tabs at the top of each channel link to your favorite files, apps, and services. Every channel has three default tabs:
 

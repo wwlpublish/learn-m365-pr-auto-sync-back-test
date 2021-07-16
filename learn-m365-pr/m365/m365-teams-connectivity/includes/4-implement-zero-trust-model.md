@@ -31,7 +31,7 @@ A solution based on the Zero Trust network model, configured with the effective 
 
 Using gated access to resources with dynamic trust decisions allows you to grant access to certain assets from any device. At the same time, you can restrict access to high-value assets on other devices.
 
-If attackers compromise a single device, Zero Trust prevents them from “hopping” across the network using stolen credentials. Only the initial device is compromised.
+If attackers compromise a single device, Zero Trust prevents them from "hopping" across the network using stolen credentials. Only the initial device is compromised.
 
 ### Zero Trust Microsoft 365 and Azure
 

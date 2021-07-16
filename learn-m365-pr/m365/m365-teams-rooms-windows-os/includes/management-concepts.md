@@ -1,8 +1,8 @@
-Teams Rooms devices aren't “just another Windows computer.” Because Teams Rooms devices aren't used for general purpose computing, how you think about managing and securing them needs to be approached differently than how you manage and secure typical servers and workstations.
+Teams Rooms devices aren't "just another Windows computer." Because Teams Rooms devices aren't used for general purpose computing, how you think about managing and securing them needs to be approached differently than how you manage and secure typical servers and workstations.
 
 Microsoft has several tools for managing Windows on Teams Rooms devices such as Microsoft Endpoint Configuration Manager, Group Policy, and Azure Active Directory (Azure AD).
 
-While many of the common management tools you are familiar with are supported, answering the question “which tool is right for my organization” may not have an obvious answer.
+While many of the common management tools you are familiar with are supported, answering the question "which tool is right for my organization" may not have an obvious answer.
 The tool that works best for one organization may not work best for other ones. For example, your organization may have robust processes and procedures in place for managing Windows 10 using Endpoint Configuration Manager. Because Teams Rooms devices don't support many of the common configuration settings used in general computer environments, leveraging Configuration Manager as a management tool may lead to situations where Teams Rooms devices are inadvertently misconfigured.
 
 You may find it perfectly acceptable operating Teams Rooms devices without Windows 10 management.

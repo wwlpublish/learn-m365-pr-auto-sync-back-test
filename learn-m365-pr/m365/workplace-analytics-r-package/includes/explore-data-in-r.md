@@ -36,7 +36,7 @@ If you prefer output that you can copy and paste into Excel or PowerPoint as cha
 sq_data %>% keymetrics_scan(hrvar = "Organization", return = "table")
 ```
 
-Note the use of the pipe operator `%>%` in these exercises. It's roughly used for “then,” where the above action translates to taking the `sq_data` data frame, then apply the `keymetrics_scan()` function to it to return a plot, and export the output by saving the data frame.
+Note the use of the pipe operator `%>%` in these exercises. It's roughly used for "then," where the above action translates to taking the `sq_data` data frame, then apply the `keymetrics_scan()` function to it to return a plot, and export the output by saving the data frame.
 
 "Piping" a data frame to `export()` will copy the data frame to the clipboard by default. You will see a message that the data frame has been copied, and then you can paste the copied data into Excel.
 

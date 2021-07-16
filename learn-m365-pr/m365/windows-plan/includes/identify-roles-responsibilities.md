@@ -1,4 +1,4 @@
-Your technical director wants to understand what roles in the company are needed to make the “stay current” process a success. You've been asked to report back on which roles should be involved in the process and what they are responsible for.
+Your technical director wants to understand what roles in the company are needed to make the "stay current" process a success. You've been asked to report back on which roles should be involved in the process and what they are responsible for.
 
 ## Who is involved in the stay current process?
 

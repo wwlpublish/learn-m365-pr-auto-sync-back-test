@@ -67,7 +67,7 @@ Managing topics involves the following key roles:
 Choose which group of users to allow to see topics:
 
 - **Everyone in my organization**. "Everyone" does not include guests. It is all internal users in your directory.
-- **Only selected people or security groups**. This option is good while rolling out Viva Topics, so you can test a pilot with a subset of users. If you want guests to view Topics, you will need to use the “selected people or security groups” option and grant them a license. All users, even guest users, will need to have a license to view the topic experience.  
+- **Only selected people or security groups**. This option is good while rolling out Viva Topics, so you can test a pilot with a subset of users. If you want guests to view Topics, you will need to use the "selected people or security groups" option and grant them a license. All users, even guest users, will need to have a license to view the topic experience.  
 - **No one**.
 
 Which Topics are visible? You can choose to:

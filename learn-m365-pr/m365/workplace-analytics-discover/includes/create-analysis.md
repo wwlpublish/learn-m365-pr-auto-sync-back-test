@@ -53,7 +53,7 @@ There are multiple steps to run a query.
 
 After you've made these selections, do the following to further refine the data for analysis.
 
-**Step 1. Select your metrics**. Workplace Analytics metrics vary by query. You can select standard metrics from the list of options, but you can also customize some metrics by using filters. Here's an example of how you can pull meeting hours with the word “budgeting” in the subject line.
+**Step 1. Select your metrics**. Workplace Analytics metrics vary by query. You can select standard metrics from the list of options, but you can also customize some metrics by using filters. Here's an example of how you can pull meeting hours with the word "budgeting" in the subject line.
 
 ![Step 1 is select metrics](../media/step-1-select-metrics.png)
 

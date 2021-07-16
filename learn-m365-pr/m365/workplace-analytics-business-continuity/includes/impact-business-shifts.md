@@ -53,7 +53,7 @@ Part 1 of the *Work-life integration report* helps you determine the share of em
 - If you see team collaboration patterns revert to near-normal levels, employees might still be impacted due to managing work demands with family or community, technology-related blockers, or prioritizing non-collaborative work to make the most of decreased connectivity.
 - Workweek spans can change depending on how employees adapt to remote work and how they use increased flexibility to accommodate the needs of family or community. For teams accustomed to working in the same location and with the same working hours, increased flexibility might cause some friction.
 - Low workweek spans do not necessarily indicate lower productivity or less time working – rather, employees might be handling collaborative activity in fewer hours, and performing focused work outside of that window.
-- If some employees are sending messages early or late in the day, and others are sticking to their prior schedules, it might be valuable for teams to align their expectations on how “after-hours” messages should be handled, and how quickly to respond or expect a response.
+- If some employees are sending messages early or late in the day, and others are sticking to their prior schedules, it might be valuable for teams to align their expectations on how "after-hours" messages should be handled, and how quickly to respond or expect a response.
 
 ### Report: What are the impacts of work-life integration? Part 2
 
@@ -68,7 +68,7 @@ Part 2 of the *Work-life integration report* shows the share of employees whose 
 > Use the drop-down menu at the top of the pane to adjust the after-hours value comparison point to more than zero, two, or four hours per week.
 >
 
-- For employees adapting to remote work, “work” and “life” are less likely to be separated by clear time bounds. Increasing after-hours collaboration can indicate that employees are balancing work and non-work obligations. It can also signal that employees are becoming overloaded, and don't have time to complete tasks during the workday.
+- For employees adapting to remote work, "work" and "life" are less likely to be separated by clear time bounds. Increasing after-hours collaboration can indicate that employees are balancing work and non-work obligations. It can also signal that employees are becoming overloaded, and don't have time to complete tasks during the workday.
 - As more collaboration shifts to chats and emails, messages may come in at all hours. Employees on the receiving end might be compelled to respond immediately. Teams seeing a significant volume of emails and chats shifting into after hours could benefit from having a shared conversation around new norms and expectations for their workday.
 - Teams that see larger increases or decreases in after-hours activity are good candidates for investigating activities that might be driving the change. It's a good practice to validate with employees how it impacts their wellbeing and ability to work effectively.
 - For customers with MyAnalytics, Focus plans can empower employees to take better control of their working hours to reduce the workload that spills into after-hours.

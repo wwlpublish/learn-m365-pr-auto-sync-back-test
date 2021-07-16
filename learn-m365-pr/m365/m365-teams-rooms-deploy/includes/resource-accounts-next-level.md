@@ -6,7 +6,7 @@ There are some additional options you can set for your resource accounts.
 
 ## Add a MailTip
 
-Once inside the setting, you can add a *MailTip*. By adding a MailTip, when somebody enters this conference room name into Outlook, a tip pops up informing your users about this room. In this example, the MailTip is set to read: *“This room is equipped to support Teams and Skype for Business meetings.”*
+Once inside the setting, you can add a *MailTip*. By adding a MailTip, when somebody enters this conference room name into Outlook, a tip pops up informing your users about this room. In this example, the MailTip is set to read: *"This room is equipped to support Teams and Skype for Business meetings."*
 
 You can also set the MailTip using PowerShell using the `Set-Mailbox` cmdlet and the `MailTip` parameter.
 

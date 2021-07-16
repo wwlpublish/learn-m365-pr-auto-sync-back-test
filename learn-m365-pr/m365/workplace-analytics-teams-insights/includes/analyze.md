@@ -116,7 +116,7 @@ This view gives a population-level look at three opportunity areas to get more o
 
 **Drive adoption with influencers**. Groups with high numbers of influential employees who are doing well in terms of Teams adoption can share best practices to facilitate adoption in other groups. Connect influential Teams users with low adoption groups to accelerate Teams usage.
 
-Employees might find it difficult to create boundaries between “work” and “life.” Creating team expectations around virtual collaboration norms and sharing best practices on creating boundaries might help maintain wellbeing.
+Employees might find it difficult to create boundaries between "work" and "life." Creating team expectations around virtual collaboration norms and sharing best practices on creating boundaries might help maintain wellbeing.
 
 > [!NOTE]
 > Workplace Analytics metrics in each of these areas can indicate potential opportunities but are not definitive.

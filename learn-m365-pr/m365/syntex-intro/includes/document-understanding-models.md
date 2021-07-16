@@ -35,7 +35,7 @@ At your organization, you'll probably need several classifier models. You could 
 
 An extractor is _part_ of a document understanding model that pulls the information from your documents. You can create an extractor before or after you've created your document understanding model.
 
-For example, imagine you've created a document understanding model that classifies all of your sales letters. Later you realize that it would be helpful to see when a letter's date, allowing you to archive some letters and more quickly address others. You can create an extractor for _Date Sent_ so the model can analyze the documents for the “date sent” field that you identify, then placing this value into a column for each of your documents in the SharePoint document library.
+For example, imagine you've created a document understanding model that classifies all of your sales letters. Later you realize that it would be helpful to see when a letter's date, allowing you to archive some letters and more quickly address others. You can create an extractor for _Date Sent_ so the model can analyze the documents for the "date sent" field that you identify, then placing this value into a column for each of your documents in the SharePoint document library.
 
 ### What's an explanation?
 

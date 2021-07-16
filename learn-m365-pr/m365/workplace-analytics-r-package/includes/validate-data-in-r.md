@@ -76,7 +76,7 @@ In addition to the validation report, you can also run a report to validate whet
 
 ## Individual functions
 
-The wpa R package provides more data validation functions you can use prior to embarking on a new analysis. These functions make up most of the automated checks of `validation_report()`, that you can run individually to extract more detailed information. For example, the report might identify certain employees as “non-knowledge workers,” which can help you confirm if the distribution of these workers with respect to the organization make sense. The following are the key data validation functions included in this package.
+The wpa R package provides more data validation functions you can use prior to embarking on a new analysis. These functions make up most of the automated checks of `validation_report()`, that you can run individually to extract more detailed information. For example, the report might identify certain employees as "non-knowledge workers," which can help you confirm if the distribution of these workers with respect to the organization make sense. The following are the key data validation functions included in this package.
 
 ## Organizational attributes
 
@@ -86,7 +86,7 @@ The `check_query()` function checks the query (data frame) and gives you a diagn
 check_query(sq_data)
 ```
 
-The `hrvar_count()` function counts the distinct people by the specified HR attribute, and returns a bar chart. The following example shows a bar chart for “LevelDesignation”.
+The `hrvar_count()` function counts the distinct people by the specified HR attribute, and returns a bar chart. The following example shows a bar chart for "LevelDesignation".
 
 ```R
 hrvar_count(sq_data, hrvar = "LevelDesignation")

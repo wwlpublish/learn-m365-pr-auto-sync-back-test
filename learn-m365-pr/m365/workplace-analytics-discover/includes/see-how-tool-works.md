@@ -38,7 +38,7 @@ After the Workplace Analytics data sources are processed, the data is de-identif
 
 The Home page provides a high-level look at Workplace Analytics metrics for nine themed business outcomes aimed at giving leaders visibility into how work gets done.
 
-The Peer analysis feature compares base metrics between groups, allowing you to use organizational attributes to filter each population. Queries allow you to go one step further and customize base metrics—for example, measuring “recurring meeting hours” instead of the base metric of “meeting hours.”
+The Peer analysis feature compares base metrics between groups, allowing you to use organizational attributes to filter each population. Queries allow you to go one step further and customize base metrics—for example, measuring "recurring meeting hours" instead of the base metric of "meeting hours."
 
 See the **Learn more** section below for a complete list of current Workplace Analytics metrics and terms.
 
