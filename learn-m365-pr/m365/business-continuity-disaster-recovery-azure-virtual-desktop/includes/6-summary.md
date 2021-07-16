@@ -6,7 +6,7 @@ In this module, you learned how to implement protection of your Azure Virtual De
 
 ## Learn more
 
-In the "Identify the correct DR scenario" unit, you learned about protecting individual components of Azure Virtual Desktop. The following resources will help you get started:
+### In the "Identify the correct DR scenario" unit, you learned about protecting individual components of Azure Virtual Desktop. The following resources will help you get started:
 
 [Protect your virtual machines by using Azure Backup](https://docs.microsoft.com/learn/modules/protect-virtual-machines-with-azure-backup/) teaches you more about how to protect Azure virtual machines.
 
@@ -20,7 +20,7 @@ The tutorial [Configure Cloud Cache to redirect profile containers or office con
 
 [Cross-region replication of Azure NetApp Files volumes](https://docs.microsoft.com/azure/azure-netapp-files/cross-region-replication-introduction) explains how to setup Cross-region replication of Azure NetApp Files.
 
-Additional resources:
+### Additional resources:
 - [Set up a business continuity and disaster recovery plan](https://docs.microsoft.com/azure/virtual-desktop/disaster-recovery)
 - [Set up disaster recovery to a secondary Azure region for an Azure VM](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-quickstart)
 - [Planning for an Azure Files deployment](https://docs.microsoft.com/azure/storage/files/storage-files-planning#redundancy)
