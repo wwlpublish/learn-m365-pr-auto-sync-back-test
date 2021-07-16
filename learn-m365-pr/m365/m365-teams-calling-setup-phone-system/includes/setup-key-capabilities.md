@@ -27,7 +27,7 @@ The steps you carry out to configure caller ID are covered in detail in the **Co
 
 ### Set up voicemail
 
-Any voicemail might include personal, or confidential business-critical information. So you must ensure that voicemail is protected across your organization. When protected voicemail is implemented, your users can listen to their encrypted messages by calling into their voicemail boxes, or open their messages from Outlook (web or desktop client), or mobile Outlook on iOS or Android. Voicemail is also transcribed automatically,which can be disabled, and you can also enable profanity masking to meet organizational policies and protect users.
+Any voicemail might include personal, or confidential business-critical information. So you must ensure that voicemail is protected across your organization. When protected voicemail is implemented, your users can listen to their encrypted messages by calling into their voicemail boxes, or open their messages from Outlook (web or desktop client), or mobile Outlook on iOS or Android. Voicemail is also transcribed automatically, which can be disabled, and you can also enable profanity masking to meet organizational policies and protect users.
 
 For a detailed rundown on configuring protected voicemail, use the **Protect voicemail** unit in the **Secure Microsoft Teams voice functionality** module (link in the **Learn more** section).
 

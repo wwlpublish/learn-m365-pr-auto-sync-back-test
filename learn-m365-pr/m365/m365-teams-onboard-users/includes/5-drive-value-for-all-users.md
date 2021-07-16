@@ -1,10 +1,10 @@
 You can use your early adopters and champions to support a broader scale roll out of Teams through your organization. Teams admin center provides you with reports to monitor if you have met the desired business outcomes for your organization's use of Teams.
 
-Here, you'll see what reporting is available to measure the success of your Teams roll out and review the approaches you can take for the full roll out.
+Here, you'll see what reporting is available to measure the success of your Teams roll out and review the approaches you can take for the full rollout.
 
 ## Monitor Teams adoption using the Teams and Microsoft 365 admin centers
 
-The Teams and Microsoft 365 admin centers provide a number of different reports. To view any of these reports, you'll need to have global admin rights on Microsoft 365 or be a Teams service admin.
+The Teams and Microsoft 365 admin centers provide many different reports. To view any of these reports, you'll need to have global admin rights on Microsoft 365 or be a Teams service admin.
 
 ### Teams admin center reports
 

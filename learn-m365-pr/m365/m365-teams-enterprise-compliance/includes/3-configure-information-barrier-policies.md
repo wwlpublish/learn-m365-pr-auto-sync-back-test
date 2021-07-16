@@ -1,6 +1,6 @@
 In most companies, communication is actively encouraged between all employees. However, in some specialized circumstances, it's necessary to prevent one department or team from communicating with another.
 
-Suppose, in your legal firm, you have separate teams that represent plaintiffs and defendants in cases of criminal negligence. It's essential that these teams cannot exchange information so that, when lawyers from your company both prosecute and defend the same case, these is no possibility of conflicts.
+Suppose, in your legal firm, you have separate teams that represent plaintiffs and defendants in cases of criminal negligence. It's essential that these teams cannot exchange information so that, when lawyers from your company both prosecute and defend the same case, there is no possibility of conflicts.
 
 Here, you'll learn how to set up information barriers between users in Microsoft Teams.
 

@@ -19,4 +19,4 @@ After completing this module, you should be able to:
 - Describe the networking principals that create optimal performance in Microsoft 365 and Teams, when architects follow them.
 - Design your local network to ensure fast communications with Microsoft 365.
 - Describe how to optimize network security by implementing Zero Trust principals.
-- Demonstrate how to ensure that Teams meetings works well for users.
+- Demonstrate how to ensure that Teams meetings work well for users.

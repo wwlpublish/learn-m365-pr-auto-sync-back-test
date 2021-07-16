@@ -6,7 +6,7 @@ Here, you'll learn how policies can be used to impose restrictions on large numb
 
 ## What are policies in Teams?
 
-Policies are used across the Microsoft Teams service to ensure the experience end-users receive conforms to the needs of the organization. You can create policies that control calling, meetings, messaging and other aspects of Teams.
+Policies are used across the Microsoft Teams service to ensure the experience end-users receive conforms to the needs of the organization. You can create policies that control calling, meetings, messaging, and other aspects of Teams.
 
 After a policy is created or edited it can be assigned to the entire tenant, to a group of users, or to an individual user – this flexibility provides a powerful set of capabilities for customers of all sizes to tune the service as needed.
 

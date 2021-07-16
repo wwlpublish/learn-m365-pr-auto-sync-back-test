@@ -2,7 +2,7 @@ Once you've completed preparations, it's time to start reconfiguring your system
 
 Suppose that as the administrator you are ready to migrate from your existing Skype for Business server to Teams Direct Routing. You also need to take the necessary step to stage the migration, configure licensing, and verify user provisioning.
 
-Here you will see how to setup staging for the migration.
+Here you will see how to set up staging for the migration.
 
 ## Migrate from Skype for Business Server to Teams Direct Routing
 
@@ -59,7 +59,7 @@ In this example, there's a couple of key attributes to look at, starting with **
 
 The second attribute to look at is **InterpretedUserType**. Run the **Get-CsOnlineUser** command every time you provision a user to see if they're in a state of provisioning or not. The state **HybridOnpremSfBUserNeedsProvisioning** tells you that a license was assigned this user and that provisioning needs to take place. On completion of provisioning, the state changes to **HybridOnpremSfBUser**. Now you know that the user is configured as part of hybrid, meaning they're synchronized with Azure AD. **OnpremSfBUser** means that the user or account is homed on-premises in the Skype for Business environment.
 
-The next step as part of staging is to enable the user. When you assign the various licenses, many of these features will automatically be turned on for you. Ensure that Enterprise Voice and Hosted Voicemail are enabled.  To enable Hosted Voicemail use the PowerShell command:
+The next step as part of staging is to enable the user. When you assign the various licenses, many of these features will automatically be turned on for you. Ensure that Enterprise Voice and Hosted Voicemail are enabled.  To enable Hosted Voicemail, use the PowerShell command:
 
 ```powershell
 Set-CsUser -Identity TestUser01@contoso.com -HostedVoiceMail $true

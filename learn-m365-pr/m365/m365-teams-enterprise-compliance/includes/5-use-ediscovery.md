@@ -40,7 +40,7 @@ Administrators, compliance officers, or legal personnel who are assigned to case
 To create a core eDiscovery case:
 
 1. Sign into the [Microsoft 365 compliance center](https://compliance.microsoft.com) with a user account with the appropriate eDiscovery permissions, or who is part of the Organization Management role group.
-1. From the left navigation pane select **Show all** > **eDiscovery** > **Core**.
+1. From the left navigation pane, select **Show all** > **eDiscovery** > **Core**.
 1. Select **Create a case**.
 1. On the **New case** page, give the case a **name** that is unique within your organization. Optionally add a case number and description.
 1. Select **Save** to create the case.

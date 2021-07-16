@@ -104,7 +104,7 @@ These options are discussed in the **Additional considerations** section below.
 
 ## Additional considerations
 
-Depending on your requirements you might need:
+Depending on your requirements, you might need:
 
 :::image type="content" source="../media/2-additional-considerations.png " alt-text="Phone System Additional Considerations":::
 

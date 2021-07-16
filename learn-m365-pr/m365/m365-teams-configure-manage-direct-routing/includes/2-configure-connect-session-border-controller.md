@@ -6,7 +6,7 @@ Here, you'll learn how to configure SBCs.
 
 ## Configure the SBC
 
-The specific steps you take to configure the Session Border Controller depend on your SBC vendor, which  provides the specific documentation. In the **Learn more** section below, the **Configure Direct Routing** links includes information about SBC from specific manufacturers.
+The specific steps you take to configure the Session Border Controller depend on your SBC vendor, which  provides the specific documentation. In the **Learn more** section below, the **Configure Direct Routing** link includes information about SBC from specific manufacturers.
 
 At a high level, configuration of the SBC will generally require you to:
 

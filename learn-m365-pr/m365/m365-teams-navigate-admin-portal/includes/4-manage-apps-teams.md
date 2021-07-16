@@ -5,11 +5,11 @@ Here, you'll learn how to add apps to Teams and manage their use.
 
 ## What are apps in Teams?
 
-Apps provide additional functionality for Microsoft Teams. They provide collaboration and workflow functionality in tabs, messaging extensions, connectors, and bots . Apps may be provided by Microsoft, built by a third-party, or by developers in your organization.
+Apps provide additional functionality for Microsoft Teams. They provide collaboration and workflow functionality in tabs, messaging extensions, connectors, and bots. Apps may be provided by Microsoft, built by a third-party, or by developers in your organization.
 
 You manage apps for Teams in the Teams admin center. You can allow or block apps at the organization level, set policies to control which apps are available to Teams users, and customize Teams by pinning the apps that are most important to your users.
 
-Managing apps in the Teams Admin Center starts with a comprehensive catalog of all the apps available – including third party apps, those from Microsoft and apps from your organization.
+Managing apps in the Teams Admin Center starts with a comprehensive catalog of all the apps available – including third-party apps, those from Microsoft and apps from your organization.
 
 The App permission policy allows to curate this list of apps for end-users when they search for apps or view the app store.
 

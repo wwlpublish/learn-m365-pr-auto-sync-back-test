@@ -6,7 +6,7 @@ Conditional Access is a security feature of Azure Active Directory. Conditional 
 
 :::image type="content" border="false" source="../media/4-conditional-access.png" alt-text="Conditional access":::
 
-Conditional Access, like multi-factor authentication, is part of the Zero Trust security model. You use Conditional Access policies to determine how trustworthy something is. There are two types:
+Conditional Access, like multifactor authentication, is part of the Zero Trust security model. You use Conditional Access policies to determine how trustworthy something is. There are two types:
 
 - **Baseline** policies are preset. You choose if you want to use them but they're recommended for all customers.
 - **Custom** policies are created for specific security concerns.

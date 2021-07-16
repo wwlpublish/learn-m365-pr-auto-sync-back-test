@@ -1,6 +1,6 @@
 Audio Conferencing is the ability to join a Teams meeting from a regular phone and call out from a meeting to a phone number, allowing users to call in to meetings when they can't use a Teams client. Up to 250 attendees can attend a Teams audio conference.
 
-Calling in (also known as dialing in) to meetings is very useful for users who are on the road and can't attend a meeting using the Microsoft Teams app on their laptops or mobile devices. There are additional scenarios in which using a phone to attend a Microsoft Teams meeting can be a better option than using an app on a computer:
+Calling in (also known as dialing in) to meetings is useful for users who are on the road and can't attend a meeting using the Microsoft Teams app on their laptops or mobile devices. There are additional scenarios in which using a phone to attend a Microsoft Teams meeting can be a better option than using an app on a computer:
 
 - When internet connectivity is limited
 - When a meeting is audio only

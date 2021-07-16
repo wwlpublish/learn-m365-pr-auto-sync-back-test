@@ -21,7 +21,7 @@ Learn more about Teams integration with Microsoft 365 Groups in the module **Man
 
 ## How does Teams manage identities?
 
-Teams supports all identity models that are available with Microsoft 365. Teams leverages identities stored in Azure Active Directory (Azure AD), which combines core directory services, application access management, and identity protection into a single solution.
+Teams supports all identity models that are available with Microsoft 365. Teams uses identities stored in Azure Active Directory (Azure AD), which combines core directory services, application access management, and identity protection into a single solution.
 
 Teams uses three identity models:
 
