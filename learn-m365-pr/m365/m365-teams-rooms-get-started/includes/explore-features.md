@@ -6,7 +6,7 @@ Content cameras and intelligent capture give you the ability to share a traditio
 
 ![Whiteboard animated gif](../media/whiteboard-animation.gif)
 
-Teams Rooms supports the Raise Hands feature. As remote attendees raise a hand, a banner is put up on the front of room display as well as on the console. Users inside the room can raise and lower their hand directly on the console.
+Teams Rooms supports the Raise Hands feature. As remote attendees raise a hand, a banner is put up on the front of room display and on the console. Users inside the room can raise and lower their hand directly on the console.
 
 ![Raise hands feature animated gif](../media/raise-hands-feature.gif)
 

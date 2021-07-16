@@ -6,7 +6,7 @@ One of the reasons Microsoft Teams was created was to address these issues. Chat
 
 Historically, meetings ran in three different silos. There's meeting-related activities that happen before, during, and after a meeting. Meeting collateral isn't always shared effectively. Sometimes the agenda is sent out and then there's a flurry of e-mails discussing and updating the agenda. But Microsoft Teams has a new approach.
 
-- Before the meeting, you can now chat with attendees and collaborate on a single agenda. 
+- Before the meeting, you can now chat with attendees and collaborate on a single agenda.
 - During the meeting, you can coauthor Office 365 documents, contribute with digital ink, and follow along with live captions.  
 - After the meeting, you can review notes and continue to chat and collaborate on documents, Microsoft Whiteboards, and action items.
 
@@ -14,7 +14,7 @@ This is the Microsoft Teams meeting lifecycle.
 
 ![The Microsoft Teams meeting lifecycle](../media/meeting-lifecycle.png)
 
-Microsoft Teams offers easy, high-quality experiences using cloud-based technologies to maximize performance using any device type. Microsoft Teams helps remove distractions by allowing you to personalize your video with custom backgrounds and background blur. And of course, Microsoft 365 is secure and manageable, featuring compliance, security, and manageability that you can have confidence in.
+Microsoft Teams offers easy, high-quality experiences using cloud-based technologies to maximize performance using any device type. Microsoft Teams helps remove distractions by allowing you to personalize your video with custom backgrounds and background blur. And, of course, Microsoft 365 is secure and manageable, featuring compliance, security, and manageability that you can have confidence in.
 
 ## Dial into meetings with audio conferencing
 

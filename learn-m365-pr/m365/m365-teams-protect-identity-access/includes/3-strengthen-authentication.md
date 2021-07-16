@@ -1,10 +1,10 @@
 To ensure that common attacks can't compromise your user accounts, you need users to provide more credentials, such as user certificates or time-limited codes. Let's examine how to configure these methods.
 
-## Multi-factor authentication
+## Multifactor authentication
 
 Microsoft 365 plans support multifactor authentication to increase the security of user logins to services. Users have to acknowledge a phone call, text message, or an app notification on their smartphone after correctly entering their password. Only after this second authentication factor has been satisfied, can a user sign in.
 Multi-factor authentication is supported with any Microsoft 365 plan that includes Microsoft Teams.
-The next time a user signs in after enrolling for multi-factor authentication, they'll see a message asking them to set up a second authentication factor. Supported authentication methods are:
+The next time a user signs in after enrolling for multifactor authentication, they'll see a message asking them to set up a second authentication factor. Supported authentication methods are:
 
 | Tenant type | Available MFA second factor options | Notes |
 | --- | --- | --- |

@@ -20,7 +20,7 @@ As you analyze your meeting spaces, decide if Teams Rooms is the right device fo
 
 Here's some  things you'll want to consider when selecting equipment for your meeting spaces:
 
-- **The camera** is obviously important in a meeting space. You must decide how well the camera you choose can handle the lighting in the room.  Do you need pan, tilt, and zoom, or can it be a static camera? The camera's field of view is important. The wider the field of view, the less depth the camera can focus on accurately.  The narrower the field of view, the deeper into the room the camera can look.
+- **The camera** is important in a meeting space. You must decide how well the camera you choose can handle the lighting in the room.  Do you need pan, tilt, and zoom, or can it be a static camera? The camera's field of view is important. The wider the field of view, the less depth the camera can focus on accurately.  The narrower the field of view, the deeper into the room the camera can look.
 - **The microphone array** is important in picking up the voices of the attendees. You can decide if you want the microphones to be on a table or in the ceiling. One advantage of ceiling-based microphones is they don't pick up vibrations as people bump into the table.
 - **Cable management** should not be overlooked. You don't want people to move the center of table console and pull cables loose. You also need to be able to run cables discreetly in walls or through floor covers, underneath tables, and to various other locations in the room where you need to put Teams Rooms equipment.
 - **The sound profile**. The more glass and plastic in a room, the more vibrations there will be. You may need to add sound dampening to a room.
@@ -45,7 +45,7 @@ You'll need to consider the field of view and if other features like automatic s
 
 The ideal size of the capture area of an analog whiteboard is between 1.8m-2.7m/6-9 ft. wide. Whiteboards larger than 3.6m/12ft will not be picked up by the camera. Note that the whiteboard should be white and not another color. If you have a whiteboard that is the entire length of the wall, the camera will not be able to show the whole thing. The recommendation is to take colored tape and tape an outline of the camera's field of view directly on the whiteboard.
 
-This provides two advantages. First, it helps the content camera frame the whiteboard as it can detect a border. Perhaps more importantly, it will let someone who's drawing on the whiteboard know if they're about to draw outside of what the camera can see. If they were to draw outside the taped area, the camera won't show it, and they'll be encouraged to continue diagramming inside the frame.
+This provides two advantages. First, it helps the content camera frame the whiteboard as it can detect a border. More importantly, it will let someone who's drawing on the whiteboard know if they're about to draw outside of what the camera can see. If they were to draw outside the taped area, the camera won't show it, and they'll be encouraged to continue diagramming inside the frame.
 
 **Audio considerations**. Audio is crucial so everyone can hear what's going on. On the left is a sound bar that hangs below the front of room display. The sound bar includes both the speakers and the microphone. On the right is a speaker-only sound bar. There are also microphones that can be placed throughout the room.
 

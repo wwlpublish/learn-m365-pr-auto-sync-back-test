@@ -14,7 +14,7 @@ A wired network connection is also required. Microsoft doesn't support wireless 
 
 On the software side, you will need to have a Microsoft Teams license and/or Skype for Business license. If you're using on-premises Skype for Business, be sure to install the enterprise trusted root certificate onto the compute module.
 
-You will also need Exchange Online or Exchange on-premises. Note that an Exchange license is not required if the Teams Rooms account is configured as an Exchange resource account.
+You will also need Exchange Online or Exchange on-premises. An Exchange license is not required if the Teams Rooms account is configured as an Exchange resource account.
 
 ## What are the configuration requirements?
 

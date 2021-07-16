@@ -1,7 +1,7 @@
 *Microsoft Advisor for Teams* is a smart guide to deploying Microsoft Teams. It helps you to:
 
 - **Plan and implement** your Microsoft Teams rollout based on information from your environment.
-  - Select what workload you want to rollout and who will roll it out with.
+  - Select what workload you want to roll out and who will roll it out with.
   - A tenant readiness assessment is provided to quickly identify deployment friction points.
 
 - **Get organized** by creating a Deployment team in Teams and adding a channel for each workload you select.

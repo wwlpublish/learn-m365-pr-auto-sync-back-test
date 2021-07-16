@@ -28,7 +28,7 @@ If your resource account is configured with a telephone number, you can test dia
 
 1. Select the **Dial pad** button. This brings up a new screen with a dial pad. You can type in the phone number you're trying to reach and then hit the **Dial** icon.
 1. Test the audio to make sure you can reach the remote attendee and that you can hear each other clearly.  
-1. Once you've validated that the audio and the phone call works, you can hang up and move on to the next test.
+1. Once you've validated that the audio and the phone call work, you can hang up and move on to the next test.
 
    ![Place a test call](../media/place-test-call.png)
 
@@ -77,4 +77,4 @@ After you've completed those initial tests, there may be some additional things 
 - When conducting your test meetings, be sure to walk around the room and make sure you can be heard in all areas where attendees are expected to speak. Be sure that you can hear the other person well throughout the room. This will validate that speaker and microphone placements are correct.
 - For the console, make sure cables are secure and not pinched. They should be secure to avoid accidents.
 - If the console can swivel or move around the desk, make sure it can do so freely without pinching any cables.
-- Make sure the display brightness on the console and front of room displays is acceptable for the environment. No one wants to sit in a very dark room with a super bright console. Conversely, it's difficult to read a console when you're in a very bright room and the brightness is turned down too low on the console.
+- Make sure the display brightness on the console and front of room displays is acceptable for the environment. No one wants to sit in a dark room with a super bright console. Conversely, it's difficult to read a console when you're in a very bright room and the brightness is turned down too low on the console.

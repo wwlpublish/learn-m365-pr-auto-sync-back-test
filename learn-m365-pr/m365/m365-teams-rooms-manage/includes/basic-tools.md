@@ -2,7 +2,7 @@
 
 ## Use PowerShell
 
-PowerShell is a command line interface which lets you manage not just Windows, but many other Microsoft services as well. You can use Windows PowerShell to create scripts to easily automate many tasks, such as creating Teams Rooms resource accounts.
+PowerShell is a command-line interface that lets you manage not just Windows, but many other Microsoft services as well. You can use Windows PowerShell to create scripts to easily automate many tasks, such as creating Teams Rooms resource accounts.
 
 Within Teams Rooms, PowerShell features are limited as the Teams Rooms app does not provide a PowerShell interface. You can, however, use PowerShell to display attached devices,  the app status, and to gather detailed logs to help troubleshoot Teams Rooms.
 
@@ -32,7 +32,7 @@ Teams Rooms reboots at about 2:30 every morning. We can see in this example that
 
 ## Use SkypeSettings.xml
 
-To change the actual configuration of the Teams Rooms app, you can use the *SkypeSettings.xml* file. This xml file can set all the values that you see via the console as well as some that are only available via this file.
+To change the actual configuration of the Teams Rooms app, you can use the *SkypeSettings.xml* file. This xml file can set all the values that you see via the console and some that are only available via this file.
 
 Below is an example of a SkypeSettings.xml file. The example shows only a subset of the supported values. Near the bottom of the sample, you will see a `Theming` section. This lets you set a custom background on the front-of-room displays. Microsoft provides a template to help you with creating your own custom graphic. 
 

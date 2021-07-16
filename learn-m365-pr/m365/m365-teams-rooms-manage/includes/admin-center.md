@@ -24,7 +24,7 @@ You can see every call and every meeting that has happened in that room. You can
 
 [![Click on the value in the Start time column of the row marked Poor](../media/troubleshoot-call-quality-1.png)](../media/troubleshoot-call-quality-1-lightbox.png#lightbox)
 
-After you click on the date and time, you get summary information on the call as well as a list of participants. You can see which participant had poor audio quality. Clicking on the Session start time column for that call lets you see diagnostic info for that participant.
+After you click on the date and time, you get summary information on the call and a list of participants. You can see which participant had poor audio quality. Clicking on the Session start time column for that call lets you see diagnostic info for that participant.
 
 [![You can see summary information on the call and a list of participants](../media/troubleshoot-call-quality-2.png)](../media/troubleshoot-call-quality-2-lightbox.png#lightbox)
 

@@ -14,7 +14,7 @@ By default, Microsoft Teams media uses 3478/udp for all media. That is controlle
 
 ![UDP ports](../media/udp-ports.png)
 
-If you leave it off, everything stays on 3478/udp. If you turn this switch on, you'll see that Teams will use 3478/udp for media negotiation and discovery, 3479/udp for audio, 3480/udp for video, and 3481/udp for sharing.
+If you leave it off, everything stays on 3478/udp. If you turn on this switch, you'll see that Teams will use 3478/udp for media negotiation and discovery, 3479/udp for audio, 3480/udp for video, and 3481/udp for sharing.
 
 The reason you would enable this setting is Quality of Service (QoS). Now that you're using four ports (and three specifically for media) you can apply different priorities to different media. Audio is almost always chosen to be the highest priority, video the second highest, and sharing the third highest priority.
 

@@ -2,7 +2,7 @@ There are some additional options you can set for your resource accounts.
 
 1. Open the Exchange admin center in Microsoft 365.
 1. Click on **recipients** > **resources**.
-1. Select the room to edit and click the **edit** icon (or double click the room name).
+1. Select the room to edit and click the **edit** icon (or double-click the room name).
 
 ## Add a MailTip
 
@@ -70,9 +70,9 @@ Set-CalendarProcessing -identity $MailBoxAlias
 -RemoveOldMeetingMessages $true
 ```
 
-- **`ProcessExternalMeetingMessages`**: Only permit internal users to schedule a meeting. Note: This must be enabled if you intend to join third party meetings.
+- **`ProcessExternalMeetingMessages`**: Only permit internal users to schedule a meeting. Note: This must be enabled if you intend to join third-party meetings.
 - **`DeleteSubject`**: Remove the meeting subject. Now when the meeting appears on the console, it will only show the name of the organizer, not the topic of the meeting.
-- **`DeleteComments`**: Remove the body of the e-mail. Note that this must be enabled if you want to join third party meetings.
+- **`DeleteComments`**: Remove the body of the e-mail. Note that this must be enabled if you want to join third-party meetings.
 - **`RemovePrivateProperty`**: The private flag for incoming meeting requests is preserved.
 - **`DeleteNonCalendarItems`**: Any e-mails forwarded to the mailbox should be deleted.
 - **`RemoveForwardedMeetingNotifications`**: Processed forwarded meeting notifications are deleted (moved to the Deleted Items folder).
@@ -86,7 +86,7 @@ In this example, a room list has been created. If  Tampa Bay is clicked, it then
 
 ![Room Lists](../media/room-list.png)
 
-How do you create room lists? It must be done via PowerShell, but it's pretty simple. Type `New-DistributionGroup` and give it a name.  Then make sure you flag it as a special distribution group called a `RoomList`.
+How do you create room lists? It must be done via PowerShell, but it's simple. Type `New-DistributionGroup` and give it a name.  Then make sure you flag it as a special distribution group called a `RoomList`.
 
 ```powershell
 New-DistributionGroup -Name "Tampa Bay" -Roomlist
@@ -105,7 +105,7 @@ Add-DistributionGroupMember -Identity "Tampa Bay" -Member "MTR-STP-Avanti-2"
 
 Instead of just naming the location of where rooms are, you can add additional criteria, such as wheelchair accessibility, room hardware, or the floor in a given building. This feature is called *Places*.
 
-Here's an example of Places for Tampa Bay. When filtering on Tampa Bay, you can see there are three rooms that are available. Clicking **Filters** brings up a new menu. Now you can filter on rooms that have at least a 10-person capacity, that have a video camera, and are wheelchair accessible. Click the **Apply button** and you'll see one room that matches the criteria.
+Here's an example of Places for Tampa Bay. When filtering on Tampa Bay, you can see there are three rooms that are available. Clicking **Filters** brings up a new menu. Now you can filter on rooms that have at least a 10-person capacity, a video camera, and are wheelchair accessible. Click the **Apply button** and you'll see one room that matches the criteria.
 
 ![Places feature to filter on room criteria](../media/places-feature.png)
 

@@ -6,9 +6,9 @@ So how do you get started with Teams Rooms? How do you know what the available o
 
 In this module, you'll learn:
 
-- Describe what makes Microsoft Teams meetings so powerful. 
+- Describe what makes Microsoft Teams meetings so powerful.
 - Explain the difference between personal and shared devices.
-- Understand the basic features of Microsoft Teams Rooms as well as the basic requirements to deploy them.
+- Understand the basic features of Microsoft Teams Rooms and the basic requirements to deploy them.
 
 ## Prerequisites
 
