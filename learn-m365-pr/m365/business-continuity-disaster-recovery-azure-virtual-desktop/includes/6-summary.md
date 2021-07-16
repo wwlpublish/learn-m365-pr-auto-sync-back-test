@@ -6,7 +6,7 @@ In this module, you learned how to implement protection of your Azure Virtual De
 
 ## Learn more
 
-### In the "Identify the correct DR scenario" unit, you learned about protecting individual components of Azure Virtual Desktop. The following resources will help you get started:
+In the "Identify the correct DR scenario" unit, you learned about protecting individual components of Azure Virtual Desktop. The following resources will help you get started:
 
 [Protect your virtual machines by using Azure Backup](https://docs.microsoft.com/learn/modules/protect-virtual-machines-with-azure-backup/) teaches you more about how to protect Azure virtual machines.
 
