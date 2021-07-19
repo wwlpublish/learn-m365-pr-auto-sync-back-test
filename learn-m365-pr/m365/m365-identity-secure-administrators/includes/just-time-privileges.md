@@ -39,7 +39,7 @@ First, you need to set up Privileged Identity Management so that users are eligi
 
      ![Notification screen](../media/notification.png)
 
-1. Now that you’ve configured and updated the settings for a role, in the Privileged Identity Management pane, add a member to the role by selecting **Roles -> + Add Assignments**. Then, select the role to be configured and members to assign.
+1. Now that you've configured and updated the settings for a role, in the Privileged Identity Management pane, add a member to the role by selecting **Roles -> + Add Assignments**. Then, select the role to be configured and members to assign.
 
      ![Add assignments screen](../media/add-assignments.png)
 

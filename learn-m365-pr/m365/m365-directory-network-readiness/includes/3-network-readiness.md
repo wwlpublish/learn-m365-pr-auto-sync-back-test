@@ -16,7 +16,7 @@ Feature updates are typically 2 – 4GB in size, while Office semi-annual channe
 
 ## Remote access options
 
-If you have users that will access corporate resources remotely, you’ll want to consider the bandwidth required for remote access, both now and after deployment. The amount of bandwidth required varies depending on your company’s policies. Two remote access types are **Always on VPN** and **Remote Desktop Services.**
+If you have users that will access corporate resources remotely, you'll want to consider the bandwidth required for remote access, both now and after deployment. The amount of bandwidth required varies depending on your company's policies. Two remote access types are **Always on VPN** and **Remote Desktop Services.**
 
 - **Remote Access Always On VPN** - Always On VPN provides a single, cohesive solution for remote access. It supports domain-joined, non-domain-joined (workgroup), or Azure AD–joined devices, even personally owned devices.
 

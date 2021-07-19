@@ -102,7 +102,7 @@ The **File metadata** panel can be toggled on or off to display various metadata
 
 ## Query data in a review set
 
-In most cases, it’s useful to dig deeper into the data in a review set and organize that data to facilitate a more efficient review. Using queries in a review set helps you focus on a subset of documents that meet the criteria of your review.
+In most cases, it's useful to dig deeper into the data in a review set and organize that data to facilitate a more efficient review. Using queries in a review set helps you focus on a subset of documents that meet the criteria of your review.
 
 To create and run a query on the documents in a review set, click **New query** in the review set.
 

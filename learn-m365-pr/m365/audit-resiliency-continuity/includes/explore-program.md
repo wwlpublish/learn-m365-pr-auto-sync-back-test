@@ -1,6 +1,6 @@
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4yqwE]
 
-Resilience is a critical component of Microsoft service availability, but even resilient services can be impacted by unexpected events. Microsoft’s Enterprise Business Continuity Management (EBCM) Program helps to ensure our online services are prepared to recover quickly from unexpected events.
+Resilience is a critical component of Microsoft service availability, but even resilient services can be impacted by unexpected events. Microsoft's Enterprise Business Continuity Management (EBCM) Program helps to ensure our online services are prepared to recover quickly from unexpected events.
 
 ## EBCM team structure
 
@@ -23,7 +23,7 @@ The EBCM Program Office and individual service BCLs work with Microsoft Enterpri
 
 ## BCM framework
 
-In addition to facilitating cooperation on business continuity, Microsoft’s EBCM program provides a consistent BCM framework that is implemented by business units across the enterprise. This framework addresses the recovery and continuity of critical business functions, services, and data required to maintain an acceptable level of operations during an incident. Use of a common framework ensures the existence of effective, reliable, well-tested plans, systems, and processes that can be counted on to support business continuity and minimize adverse impacts during a disruptive event.
+In addition to facilitating cooperation on business continuity, Microsoft's EBCM program provides a consistent BCM framework that is implemented by business units across the enterprise. This framework addresses the recovery and continuity of critical business functions, services, and data required to maintain an acceptable level of operations during an incident. Use of a common framework ensures the existence of effective, reliable, well-tested plans, systems, and processes that can be counted on to support business continuity and minimize adverse impacts during a disruptive event.
 
 ![A graphical representation of how EBCM program work with Microsoft Business Units. EBCM program is responsible for governance, compliance, and guidance. Microsoft Business Units are responsible for following EBCM methodology and policy and collaborate with EBCM program in different aspects.](../media/program.png)
 

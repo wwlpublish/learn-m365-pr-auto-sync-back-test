@@ -1,6 +1,6 @@
-To prepare your organization for Microsoft Defender for Endpoint, you’ll need to take some considerations into account. These range from people-related processes, to deciding the order in which you want to implement Microsoft Defender for Endpoint’s different capabilities.
+To prepare your organization for Microsoft Defender for Endpoint, you'll need to take some considerations into account. These range from people-related processes, to deciding the order in which you want to implement Microsoft Defender for Endpoint's different capabilities.
 
-Here, you’ll learn how to prepare for Microsoft Defender for Endpoint by identifying key considerations.
+Here, you'll learn how to prepare for Microsoft Defender for Endpoint by identifying key considerations.
 
 ## Identify your stakeholders
 
@@ -52,7 +52,7 @@ The first and most valuable capability to adopt is EDR. This enables you to dete
 
 ### 2. Threat and vulnerability management (TVM)
 
-Once you’ve enabled EDR, you can begin to use threat and vulnerability management. Threat and vulnerability management uses a risk-based based approach that can help you to discover, prioritize, and remediate endpoint vulnerabilities and misconfigurations. It provides:
+Once you've enabled EDR, you can begin to use threat and vulnerability management. Threat and vulnerability management uses a risk-based based approach that can help you to discover, prioritize, and remediate endpoint vulnerabilities and misconfigurations. It provides:
 
 - **Real-time device inventory** - Devices onboarded to Defender for Endpoint automatically report and push vulnerability and security configuration data to the dashboard.
 - **Visibility into software and vulnerabilities** - Optics into the organization's software inventory, and software changes like installations, uninstalls, and patches. Newly discovered vulnerabilities are reported with actionable mitigation recommendations for 1st and 3rd party applications.
@@ -61,7 +61,7 @@ Once you’ve enabled EDR, you can begin to use threat and vulnerability managem
 
 ### 3. Next generation protection (NGP)
 
-You can use Microsoft Defender for Endpoint’s next generation protection to block sophisticated threats and malware. With it, you can leverage a combination of both client-based and cloud-based protection engines and machine learning. You’re able to use behavior based real-time protection, blocks file-based and fileless malware, and stop malicious activity from applications. You can take advantage of its antivirus engine that runs in a sandbox and has additional tamper protection capabilities.
+You can use Microsoft Defender for Endpoint's next generation protection to block sophisticated threats and malware. With it, you can leverage a combination of both client-based and cloud-based protection engines and machine learning. You're able to use behavior based real-time protection, blocks file-based and fileless malware, and stop malicious activity from applications. You can take advantage of its antivirus engine that runs in a sandbox and has additional tamper protection capabilities.
 
 Next-gen protection capabilities are built into Windows 10 and available across macOS, Linux server, Android, and iOS.
 
@@ -71,11 +71,11 @@ The fourth capability to you can adopt is attack surface reduction. Attack surfa
 
 ### 5. Auto investigation and remediation (AIR)
 
-AIR is a core part of Microsoft Defender for Endpoint, and therefore With automated investigation and remediation, you can   let Microsoft Defender for Endpoint automatically investigate threats, and remediate them for you at scale, based on controls that you set. Use automated investigation and remediation to help to reduce the volume of alerts for your organization’s security team.
+AIR is a core part of Microsoft Defender for Endpoint, and therefore With automated investigation and remediation, you can   let Microsoft Defender for Endpoint automatically investigate threats, and remediate them for you at scale, based on controls that you set. Use automated investigation and remediation to help to reduce the volume of alerts for your organization's security team.
 
 ### 6. Microsoft Threat Experts (MTE)
 
-Microsoft Threat Experts is a managed service to get access to security experts. You can use it to get access to insights that you can use to better understand threats and take appropriate action. This a separate service, so it’s not a direct capability of Microsoft Defender for Endpoint.
+Microsoft Threat Experts is a managed service to get access to security experts. You can use it to get access to insights that you can use to better understand threats and take appropriate action. This a separate service, so it's not a direct capability of Microsoft Defender for Endpoint.
 
 ## Learn more
 

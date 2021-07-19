@@ -1,4 +1,4 @@
-As a security administrator at Contoso, you’ve been involved with the early stages of planning for the control of critical corporate data during the transition to Microsoft 365. Having completed this module, you’re now able to use the Cloud Discovery Dashboard to learn how your organization uses cloud apps. You also learned how to use the Cloud App Catalog to review app risk scores and determine risk mitigations. Finally, you learned how to connect cloud apps to get visibility and control of those apps.
+As a security administrator at Contoso, you've been involved with the early stages of planning for the control of critical corporate data during the transition to Microsoft 365. Having completed this module, you're now able to use the Cloud Discovery Dashboard to learn how your organization uses cloud apps. You also learned how to use the Cloud App Catalog to review app risk scores and determine risk mitigations. Finally, you learned how to connect cloud apps to get visibility and control of those apps.
 
 Now that you've completed this module, you should be able to:
 

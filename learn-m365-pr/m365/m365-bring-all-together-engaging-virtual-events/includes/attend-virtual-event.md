@@ -10,7 +10,7 @@ If your expected audience includes first time meeting attendees, share this vide
 
 ## Live event attendee experience
 
-Teams Live Events are designed to support larger audiences so the attendee experience is different from a standard Teams meeting. The live event attendee experience includes pause and play controls, Closed Captioning if it’s been enabled for the event, as well as a Q&A window to ask and view questions.
+Teams Live Events are designed to support larger audiences so the attendee experience is different from a standard Teams meeting. The live event attendee experience includes pause and play controls, Closed Captioning if it's been enabled for the event, as well as a Q&A window to ask and view questions.
 
 :::image type="content" source="../media/live-event-user-experience.png" alt-text="Using attendee controls in a Teams live event.":::
 

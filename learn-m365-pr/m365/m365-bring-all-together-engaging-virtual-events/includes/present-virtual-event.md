@@ -1,7 +1,7 @@
 Next up – the presenter. Part of your role on the virtual summit event team is training your presenters. Learn about pre-event best practices and what tools can help them present with ease and optimize their digital content.
 
 ## Optimize your content for digital delivery
-Connecting with an audience and being able to present with ease are important skills to develop, especially for virtual events. Your audience is most likely at home watching you on a small screen. Virtual event sessions are much more intimate and on-demand now. Speak with energy and use your normal tone of voice, as if you’re holding a conversation with close colleagues. Remember to engage the attendees by looking into the camera when you can. Keeping your content tight, focused, and trying not to repeat yourself also helps the audience stay engaged.
+Connecting with an audience and being able to present with ease are important skills to develop, especially for virtual events. Your audience is most likely at home watching you on a small screen. Virtual event sessions are much more intimate and on-demand now. Speak with energy and use your normal tone of voice, as if you're holding a conversation with close colleagues. Remember to engage the attendees by looking into the camera when you can. Keeping your content tight, focused, and trying not to repeat yourself also helps the audience stay engaged.
 
 :::image type="content" source="../media/optimize-content.png" alt-text="Keep your content tight and focused to communicate your message well.":::
 
@@ -10,7 +10,7 @@ Also, try these techniques:
 -	Identify your central message and mention it in both the introduction and the summary.
 -	Have a clear call to action within your presentation.
 -	Use a mix of text, and images in your presentation.
--	Don’t read your slides to the audience. Use a bullet point format and add value with your expertise.
+-	Don't read your slides to the audience. Use a bullet point format and add value with your expertise.
 -	Rehearse timing to ensure you can adequately cover your content in the time provided.
 -	Place housekeeping and resource slides at the beginning of the presentation, so you don't disrupt question and answer sessions at the end of the meeting.
 -	Check how materials will be shared with participants at the end of the meeting.
@@ -89,7 +89,7 @@ Once you are on the Teams call, turn on your microphone and camera, and share yo
 If you're sharing your desktop, make sure the following items are hidden out of the way on a second monitor or minimized:
 
 -	The Teams panel.
--	The Teams meeting chat window. It’s best to have the meeting chat on another monitor so that you can keep an eye on it for any communication from moderators, producers, or switching operations during your session.
+-	The Teams meeting chat window. It's best to have the meeting chat on another monitor so that you can keep an eye on it for any communication from moderators, producers, or switching operations during your session.
 -	Meeting notes and other apps that you need to use but don't want the attendees to see.
 
 During the event, a red border indicates the presenter whose camera is enabled and shared.
@@ -105,5 +105,5 @@ In a Teams meeting, your most important tools are:
 
 In a Teams Live Event, you have some extra tools available during the meeting:
 
--	**Enable chat private.** Chat only with the event producers and moderators. Attendees don’t see these messages.
--	**Moderate the attendees’ Q&A.** Questions from attendees can be published to the entire audience, or they can be answered privately. You can also dismiss any redundant or out-of-context questions.
+-	**Enable chat private.** Chat only with the event producers and moderators. Attendees don't see these messages.
+-	**Moderate the attendees' Q&A.** Questions from attendees can be published to the entire audience, or they can be answered privately. You can also dismiss any redundant or out-of-context questions.

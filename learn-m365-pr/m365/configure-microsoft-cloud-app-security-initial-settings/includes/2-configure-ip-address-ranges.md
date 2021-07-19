@@ -2,7 +2,7 @@ Microsoft Cloud App Security uses IP address ranges to help to identify location
 
 ## How are IP address ranges used?
 
-It’s good practice to configure additional IP address ranges to suit your organizational needs. When you add IP address ranges in Cloud App Security, you:
+It's good practice to configure additional IP address ranges to suit your organizational needs. When you add IP address ranges in Cloud App Security, you:
 
 - Improve detection accuracy
 - Reduce false positives
@@ -50,12 +50,12 @@ You can select between the categories described in the following table.
 | Administrative  | The IP  address ranges associated with your administrators.  |
 | Cloud  provider | The IP  address ranges associated with your cloud provider   |
 | Corporate       | The IP  address ranges of your public IP addresses for your internal network, any  branch offices, and your Wi-Fi roaming addresses. |
-| Risky           | The IP  address ranges that you consider to be risky. These might include suspicious  addresses you’ve encountered before, or the IP ranges of your competitors’  networks. |
+| Risky           | The IP  address ranges that you consider to be risky. These might include suspicious  addresses you've encountered before, or the IP ranges of your competitors'  networks. |
 | VPN             | The IP ranges  allocated for use by remote employees that connect via VPN. |
 | Other           | For custom  use based on tagging.                            |
 
 > [!TIP]
-> When you tag an IP address as corporate, that’s reflected in the portal, and the IP addresses are excluded from triggering specific detections.
+> When you tag an IP address as corporate, that's reflected in the portal, and the IP addresses are excluded from triggering specific detections.
 
 ## Setup IP address ranges
 

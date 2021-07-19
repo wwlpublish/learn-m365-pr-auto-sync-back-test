@@ -1,4 +1,4 @@
-You can use Cloud App Security app connectors to enable better control and visibility of your organization’s cloud apps. Cloud App Security uses APIs provided by your cloud app provider to enable and manage connections to that provider’s apps. You can even connect to multiple instances of the same cloud app. For example, you might use Salesforce in two parts of your organization. Each instance is treated and managed separately by Cloud App Security.
+You can use Cloud App Security app connectors to enable better control and visibility of your organization's cloud apps. Cloud App Security uses APIs provided by your cloud app provider to enable and manage connections to that provider's apps. You can even connect to multiple instances of the same cloud app. For example, you might use Salesforce in two parts of your organization. Each instance is treated and managed separately by Cloud App Security.
 
 > [!IMPORTANT]
 > This multi-instance app support does not include Microsoft Azure or Office 365.
@@ -49,7 +49,7 @@ To add an app connector, for example, a connector to GitHub, use the following p
 9. Select **Connect in GitHub** and complete the connection process.
 
 > [!IMPORTANT]
-> Some vendors require that you add their apps’ IP addresses to allow lists to enable access from Cloud App Security.
+> Some vendors require that you add their apps' IP addresses to allow lists to enable access from Cloud App Security.
 
 ### What apps can you connect with?
 

@@ -16,7 +16,7 @@ There are three primary deployment scenarios, each with specific tools or method
     - Azure Active Directory (AAD), and mobile device management (MDM). You can automatically join a device to AAD and enroll it in your management solution with no additional user interaction.
     - Provisioning packages. Using the Windows Imaging and Configuration Designer tool, create provisioning packages, the collection of apps and settings customized for your deployment, to apply to devices.
 
-- **Traditional.** Traditional deployment methods use existing tools to deploy operating system images. You’ll employ one of these methods:
+- **Traditional.** Traditional deployment methods use existing tools to deploy operating system images. You'll employ one of these methods:
   - Bare metal - Deploy a new device or wipe an existing device and deploy with a fresh image.
   - Refresh - Also called *wipe and load*, redeploy a device by saving the user state, wiping the disk, then restoring the user state.
   - Replace - Replace an existing device with a new one by moving the user state from the old device and to the new device.

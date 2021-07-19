@@ -1,4 +1,4 @@
-If you’re changing from Windows 7, Windows 8, or Windows 8.1 x86 to Windows 10 x64, you’ll be migrating to new computers. Upgrades can’t change from a 32-bit operating system to a 64-bit operating system, because of possible complications with installed applications and drivers.
+If you're changing from Windows 7, Windows 8, or Windows 8.1 x86 to Windows 10 x64, you'll be migrating to new computers. Upgrades can't change from a 32-bit operating system to a 64-bit operating system, because of possible complications with installed applications and drivers.
 
 ## Migrate with the User State Migration Tool
 
@@ -15,7 +15,7 @@ Windows Autopilot is cloud-driven and based around Azure AD Premium and Microsof
 Using Windows Autopilot, you can: 
 
 - Join devices to Azure AD automatically. 
-- Auto-enroll your users’ devices into MDM services. 
+- Auto-enroll your users' devices into MDM services. 
 - Restrict the creation of the administrator account. 
 - Customize the OOBE content specifically to your organization.
 - Apply applications, software update configurations, and compliance policies. 

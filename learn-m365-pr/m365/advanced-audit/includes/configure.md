@@ -1,6 +1,6 @@
 ## Set audit log permissions
 
-You must be assigned the Audit Logs role in Exchange Online to turn audit logging on or off. This role is included in the Compliance Management and Organization Management role groups in the Exchange admin center. Assign the user who will enable audit logging to one of these role groups if they are not already a member. Microsoft 365 Global admins are already members of the Organization Management role group. The image below shows the Organization Management role group’s Assigned Roles, including the Audit Logs role.
+You must be assigned the Audit Logs role in Exchange Online to turn audit logging on or off. This role is included in the Compliance Management and Organization Management role groups in the Exchange admin center. Assign the user who will enable audit logging to one of these role groups if they are not already a member. Microsoft 365 Global admins are already members of the Organization Management role group. The image below shows the Organization Management role group's Assigned Roles, including the Audit Logs role.
 
  ![Exchange admin center ](../media/exchange-admin-center.png)
 

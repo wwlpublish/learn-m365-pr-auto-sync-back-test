@@ -33,9 +33,9 @@ When sharing files and folders in OneDrive, external recipients will typically b
 External sharing options include:
 
 - **Anyone**. Setting sharing to **Anyone** allows users to share files and folders with anyone who has the link without any authentication.  You can restrict Anyone links so that they expire within a specific number of days or so that they allow only View permission. When sharing is set to Anyone, this also allows users to share files or folders with more restrictive sharing options such as sharing to existing guests.
-This setting for OneDrive also enables the file request feature. With this feature, your users can choose a folder and allow people to upload files. People who upload files can’t see what's in the folder - they can only upload files to it.
+This setting for OneDrive also enables the file request feature. With this feature, your users can choose a folder and allow people to upload files. People who upload files can't see what's in the folder - they can only upload files to it.
 - **New and existing guests**. Setting sharing to **new and existing guests** allows users to send invitations to guests outside the organization.  These guests must sign in with their Office 365 or Microsoft accounts or be emailed a code to verify their identities.
-- **Existing guests**. Setting sharing to **existing guests** allows users to share only with guests who are already in their organization’s directory because they previously accepted sharing invitations or because they were manually added, such as through Azure B2B collaboration.
+- **Existing guests**. Setting sharing to **existing guests** allows users to share only with guests who are already in their organization's directory because they previously accepted sharing invitations or because they were manually added, such as through Azure B2B collaboration.
 -**Only people in your organization**. Setting sharing to **only people in your organization** turns off external sharing.
 
 When you turn external sharing off for your organization, guests typically lose access within one hour. If you later turn it back on, those guests who previously had access will regain it.

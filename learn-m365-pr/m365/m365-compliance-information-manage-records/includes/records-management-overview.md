@@ -1,4 +1,4 @@
-A record is a document or other electronic or physical entity in an organization that serves as evidence of an activity or transaction performed by the organization and requires retention for some time period. Microsoft’s solution for records management helps organizations manage their legal obligations, provides the ability to demonstrate compliance with regulations, and increases efficiency with regular disposition of items that are no longer required to be retained. It supports the full content lifecycle, from creation, through collaboration, record declaration, event-based retention, and disposition. Tailored workflows, like disposition review, coupled with deep insights, provide greater visibility into remediation. Records management in Microsoft 365 helps organizations maintain a robust records management program and document evidence related to the defensible disposition of corporate records. Many of the same principles of the solution for information governance also apply to the solution for records management, but there are some differences. Those differences include file plan, record declaration, and record versioning.
+A record is a document or other electronic or physical entity in an organization that serves as evidence of an activity or transaction performed by the organization and requires retention for some time period. Microsoft's solution for records management helps organizations manage their legal obligations, provides the ability to demonstrate compliance with regulations, and increases efficiency with regular disposition of items that are no longer required to be retained. It supports the full content lifecycle, from creation, through collaboration, record declaration, event-based retention, and disposition. Tailored workflows, like disposition review, coupled with deep insights, provide greater visibility into remediation. Records management in Microsoft 365 helps organizations maintain a robust records management program and document evidence related to the defensible disposition of corporate records. Many of the same principles of the solution for information governance also apply to the solution for records management, but there are some differences. Those differences include file plan, record declaration, and record versioning.
 
 > [!NOTE]
 > This feature is a capability included with:
@@ -23,7 +23,7 @@ Record versioning in SharePoint Online and OneDrive lets you work on a document,
 
 ## Customer scenarios
 
-Here is some common scenarios Microsoft’s solution for records management can address:
+Here is some common scenarios Microsoft's solution for records management can address:
 
 - Delete employee reviews 10 years after the employee has left the organization.
 - Declare a contract as a record to prevent it from being changed.  

@@ -12,7 +12,7 @@ The OneDrive sync app is a standalone app that updates itself automatically is s
 
 As an admin, you can decide which ring works best for your users. We recommend that you select several people in your IT department as early adopters to join the Insiders ring and receive features early. Leave everyone else in the organization on the default Production ring to ensure they receive bug fixes and new features in a timely fashion. The Deferred ring is the slowest ring to receive performance improvements, reliability fixes, and new features, but it allows you to control when you deploy updates.
 
-The OneDrive sync app checks for new updates every 24 hours when it is running.  Windows 10 has a scheduled task that updates the sync app even when it’s not running.
+The OneDrive sync app checks for new updates every 24 hours when it is running.  Windows 10 has a scheduled task that updates the sync app even when it's not running.
 
 ## Manage OneDrive sync settings using Group Policy
 
@@ -25,7 +25,7 @@ When managing OneDrive Group Policy objects, review how they work together. Some
 - Controlling sync
   - Allow or block specific tenants to sync.
   - Prevent changing of the sync location and set a default location of the synced files.
-  - Disable personal sync so users cannot sync OneDrive consumer locations on an organization’s computer.
+  - Disable personal sync so users cannot sync OneDrive consumer locations on an organization's computer.
 - Controlling network
   - Manage upload and download limits or allow automatic bandwidth percentage.
   - Control sync on metered or battery saving networks.
