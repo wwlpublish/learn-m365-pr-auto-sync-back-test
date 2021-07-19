@@ -13,7 +13,7 @@ Once you specify the sender domain, you can use this to create your search and s
 
      ![Search profile view screen](../media/search-profile-view.png)
 
-1. When the **Search profile view** page is displayed you will see several default widgets.
+1. When the Search profile view page is displayed, you will see several default widgets.
 
      ![Search profile view widgets](../media/widgets.png)
 
@@ -124,7 +124,7 @@ In addition to queries that you can save, you can use filters to quickly apply a
 
 ## Tag documents in a review set
 
-When compliance officers, attorneys, or other users review content in a review set, their opinions related to the content can be captured by using tags. For example, if the intent is to cull unnecessary content, a user can tag documents with a tag such as "Non-responsive". After content has been reviewed and tagged, a review set search can be created to exclude any content tagged as "Non-responsive" which removes this content from the next steps in the Advanced eDiscovery workflow.
+When compliance officers, attorneys, or other users review content in a review set, their opinions related to the content can be captured by using tags. For example, if the intent is to cull unnecessary content, a user can tag documents with a tag such as "Non-responsive". After content has been reviewed and tagged, a review set search can be created to exclude any content tagged as "Non-responsive", which removes this content from the next steps in the Advanced eDiscovery workflow.
 
  ![Manage tags screen in review set](../media/manage-tags.png)
 
@@ -138,7 +138,7 @@ When viewing a single document in a review set, you can display the tags that a 
 
 Advanced eDiscovery recently introduced a new smart tag for detecting attorney-client privileged communications. The smart tag capability leverages a pre-trained machine learning (ML) model that analyzes documents and lets you instantly search, identify, and tag potentially privileged documents.
 
-To take full advantage of the attorney-client privilege detection model, it is recommended that you submit a list of attorneys for your organization when you set up attorney-client privilege detection in your tenant. The model then compares the participants of the document with the attorney list to determine if a document has at least one attorney participant. The ML model also uses machine learning to determine the likelihood that the document contains content that is legal in nature. The analysis of this combination produces three properties for each document which ultimately determines whether or not privileged communications were detected:
+To take full advantage of the attorney-client privilege detection model, it is recommended that you submit a list of attorneys for your organization when you set up attorney-client privilege detection in your tenant. The model then compares the participants of the document with the attorney list to determine if a document has at least one attorney participant. The ML model also uses machine learning to determine the likelihood that the document contains content that is legal in nature. The analysis of this combination produces three properties for each document that ultimately determines whether or not privileged communications were detected:
 
 - **AttorneyClientPrivilegeScore**. The likelihood the document is legal in nature; the values for the score are between **0** and **1**.
 - **HasAttorney**. This property is set to **true** if one of the document participants is listed in the attorney list; otherwise the value is **false**. The value is also set to **false** if your organization didn't upload an attorney list.

@@ -16,7 +16,7 @@ At the beginning of the investigation, the Microsoft 365 Security Response team 
 
 - A summary of the incident
 - The incident's severity and priority based on its potential impact
-- A list of all indicators which led to detection of the incident
+- A list of all indicators that led to detection of the incident
 - A list of any related incidents
 - A list of all actions taken by the Microsoft 365 Security Response team and any associated service teams
 - Any evidence gathered during the incident response process, which will be preserved for post-mortem analysis and potential forensic investigations

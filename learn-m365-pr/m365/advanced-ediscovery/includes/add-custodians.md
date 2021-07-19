@@ -31,7 +31,7 @@ Holds enable organizations to immutably preserve mailbox items and documents for
 
 ### Place Exchange Online mailboxes on hold
 
-Exchange Online uses the Recoverable Items folder to immutably preserve mailbox content, be it edits, deletions, metadata, or folder hierarchy. The Recoverable Items folder is a hidden folder which is not visible in Outlook, Outlook on the web, or other mail clients. The folder contains several subfolders which are also hidden from users that immutably preserve data when a mailbox is placed on hold:
+Exchange Online uses the Recoverable Items folder to immutably preserve mailbox content, be it edits, deletions, metadata, or folder hierarchy. The Recoverable Items folder is a hidden folder that is not visible in Outlook, Outlook on the web, or other mail clients. The folder contains several subfolders that are also hidden from users that immutably preserve data when a mailbox is placed on hold:
 
 - **Deletions**. This subfolder contains all items that are deleted from the Deleted Items folder in the mail client.
 - **Versions**. If a hold is enabled, this subfolder contains the original and modified copies of the deleted items.
@@ -62,7 +62,7 @@ the associated SharePoint site and mailbox associated with that Microsoft Team.
 
 Alternatively, all Teams 1:1 or group chats are journaled through to the respective users' mailboxes. Files that a user shares in 1:1 or group chats are stored in the OneDrive site of the user who shares the file. Therefore, you must place the individual user mailboxes and OneDrive sites on hold to retain 1:1 chats, 1:N chats, and files shared in those chats.
 
-Every Microsoft Team or team channel contains a Wiki for note taking and collaboration. The Wiki content is automatically saved to a file with a .mht format. This file is stored in the Teams Wiki Data document library on the team's SharePoint site. You can place the content in the Wiki on hold by placing the team's SharePoint site on hold.
+Every Microsoft Team or team channel contains a Wiki for note taking and collaboration. The Wiki content is automatically saved to a file with a `.mht` format. This file is stored in the Teams Wiki Data document library on the team's SharePoint site. You can place the content in the Wiki on hold by placing the team's SharePoint site on hold.
 
 ## What is a hold notification?
 
@@ -72,7 +72,7 @@ The custodian communications tool enables legal teams to configure the following
 
 -**Issuance notice**. A legal hold notice is issued (or initiated) by a notification from the legal department to custodians who may have relevant information about the case matter. This notice instructs the custodians to preserve any information that may be needed for discovery.
 -**Re-Issuance notice**. During a case, custodians may be required to preserve additional content (or less content) than was previously requested. For this scenario, you can update the existing hold notice and reissue it to custodians.
--**Release notice**. Once a matter is resolved and the custodian is no longer subject to a preservation requirement, the custodian can be released from the case. Additionally, you can notify the custodian that they are no longer required to preserve content and provide instructions about how to resume their normal work activity with regard to their data.
+-**Release notice**. Once a matter is resolved and the custodian is no longer subject to a preservation requirement, the custodian can be released from the case. Additionally, you can notify the custodian that they are no longer required to preserve content and provide instructions about how to resume their normal work activity regarding their data.
 -**Reminders and escalations**. In some instances, just issuing a notice isn't enough to satisfy legal discovery requirements. With each notification, legal teams can schedule a set of reminder and escalation workflows to automatically follow up with unresponsive custodians.
   -**Reminders**: After a legal hold notice has been issued or reissued to a set of custodians, an organization can set up reminders to alert unresponsive custodians.
   -**Escalations**: In some cases, if a custodian remains unresponsive even after a set of reminders over a period of time, the legal team can set up an escalation workflow to notify unresponsive custodians and their manager.
@@ -93,7 +93,7 @@ After clicking **Next**, you can use the rich text editor to create the Hold Not
 
  ![Step 3 is using the rich text editor to create the Hold Notice and variables such as display name are available that can be used to create the notice.](../media/define-portal-content.png)
 
-On the **Set Notifications – Required** page, you can define if this is a new issuance, reissue or release of hold for the communication and define the content within the hold as well as utilize common variables such as display name, acknowledgment link, and more.
+On the **Set Notifications – Required** page, you can define if this is a new issuance, reissue, or release of hold for the communication and define the content within the hold as well as utilize common variables such as display name, acknowledgment link, and more.
 
  ![Set Notifications - Required page](../media/set-notifications.png)
 
@@ -114,6 +114,7 @@ To view the details, click the custodian from the list on the **Custodians** tab
  ![View details by clicking the custodian from the list.](../media/update-index.png)
 
 The flyout page also enables you to do the following:
+
 - **Edit a custodian**. As the case progresses, you may discover that there may be additional data sources relevant to a specific custodian. Alternatively, you may want to remove certain data sources that have been reviewed and deemed as not relevant. Clicking the **Edit** button next to **Data sources** lets you add or remove data sources.
 
   ![Click the Edit button to add or remove data sources.](../media/data-sources.png)  

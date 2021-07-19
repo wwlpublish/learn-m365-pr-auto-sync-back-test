@@ -19,7 +19,7 @@ Connecting to Exchange Online PowerShell V2 is required to use PowerShell to sea
 
 To connect to the Exchange Online PowerShell V2, open Windows PowerShell and follow the instructions based on your authentication method:
 
-### Accounts without multi-factor authentication
+### Accounts without multifactor authentication
 
 1. Run the following command:
 
@@ -38,7 +38,7 @@ Here you can see a successful connection to Exchange Online PowerShell V2.
 
  ![Successful connection to Exchange Online PowerShell V2.](../media/exchange-online.png)
 
-### Accounts with multi-factor authentication enabled
+### Accounts with multifactor authentication enabled
 
 1. Replace `UPN` with your account in user principal name format (meganb@contoso.com) and run the following command:
 
