@@ -22,7 +22,7 @@ Here is the flow for configuring event-driven retention:
 
 ## Step 1: Create a label with event-based retention period
 
-Refer to the Retention label configuration unit in this module for the instructions on this step. When configuring the label, select the option to base the retention on an event. From there, you can select an existing event type or create your own. Multiple retention labels can be associated with a single event type   and each label can have a different retention period. For example, you could have two labels associated with the event type of “Employment ended”. One label is applied to formal employee reviews and has a retention period of 10 years. A second label is applied to employee awards and has a 5-year retention period. Both labels can be associated with the same event type, resulting in content being retained for different lengths of time after the employee has left the organization.
+Refer to the Retention label configuration unit in this module for the instructions on this step. When configuring the label, select the option to base the retention on an event. From there, you can select an existing event type or create your own. Multiple retention labels can be associated with a single event type   and each label can have a different retention period. For example, you could have two labels associated with the event type of "Employment ended". One label is applied to formal employee reviews and has a retention period of 10 years. A second label is applied to employee awards and has a 5-year retention period. Both labels can be associated with the same event type, resulting in content being retained for different lengths of time after the employee has left the organization.
 
 ## Step 2: Publish or auto-apply the label
 

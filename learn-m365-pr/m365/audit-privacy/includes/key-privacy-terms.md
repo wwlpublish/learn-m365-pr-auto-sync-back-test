@@ -26,11 +26,11 @@ Data that is used throughout the lifecycle of a customer account to provide Micr
 
     For example, customer content includes Exchange Online email and attachments, Power BI reports, SharePoint Online site content, or instant messaging conversations.
 
-- **Service-generated data** includes all data “generated” or “derived” by Microsoft through the operation of an online service. Microsoft aggregates this data from our online services and uses it to make sure performance, security, scaling, and other services that impact the customer experience are operating at the levels our customers require.
+- **Service-generated data** includes all data "generated" or "derived" by Microsoft through the operation of an online service. Microsoft aggregates this data from our online services and uses it to make sure performance, security, scaling, and other services that impact the customer experience are operating at the levels our customers require.
 
     For example, to understand how to ramp up datacenter capacity as a customer's use of Microsoft Teams increases, we process log data of their Teams usage. We then review the logs for peak times and decide which data centers to add to meet this capacity.
 
-- **Diagnostic data** includes all data “collected” or “obtained” from software that is installed locally for use in connection with the Microsoft enterprise online service. It is used to help Microsoft ensure the client software is secure and performing properly.
+- **Diagnostic data** includes all data "collected" or "obtained" from software that is installed locally for use in connection with the Microsoft enterprise online service. It is used to help Microsoft ensure the client software is secure and performing properly.
 
     For example, Microsoft collects information about how long it takes to launch an app, whether an add-in has crashed, and how many times a sign-in has been attempted. Diagnostic data can also be referred to as telemetry data. It does not include names, email addresses, or file content.
 

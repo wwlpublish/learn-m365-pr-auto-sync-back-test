@@ -4,7 +4,7 @@ Third-party sharing is the sharing or onward disclosure of data to third parties
 
 Microsoft processes data as part of providing cloud services to our customers. We categorize the data we process to ensure it is handled with appropriate security and privacy protections. Categories of data processed by Microsoft are defined in the Microsoft Online Services Data Protection Addendum (DPA).  
 
-When Microsoft hires a supplier to provide some aspect of our online services that may require the supplier to use or process such data, the supplier is identified as a “subprocessor." All subprocessors must adhere to the Microsoft Supplier Security and Privacy (SSPA) Assurance program before being allowed to process data on behalf of Microsoft.
+When Microsoft hires a supplier to provide some aspect of our online services that may require the supplier to use or process such data, the supplier is identified as a "subprocessor." All subprocessors must adhere to the Microsoft Supplier Security and Privacy (SSPA) Assurance program before being allowed to process data on behalf of Microsoft.
 
 The Microsoft SSPA program is a corporate program designed to standardize and strengthen data handling practices by setting privacy and security requirements for Microsoft suppliers. The SSPA program requires suppliers to demonstrate compliance with Microsoft’s strict privacy and security policies, legal obligations, and customer expectations. To protect customer and personal data, Microsoft requires all subprocessors to comply with the SSPA program.
   

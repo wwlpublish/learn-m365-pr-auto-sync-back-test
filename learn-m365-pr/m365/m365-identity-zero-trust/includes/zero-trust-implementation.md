@@ -58,7 +58,7 @@ Third principle--*assume breach*--consider configuring the following tools to pr
 Within your organization, consider creating a Conditional Access policy requiring Azure Active Directory Multi-Factor Authentication for administrators for quick wins in your journey towards Zero Trust. To create a Conditional Access policy:
 
 1. Within Azure AD, create a new Conditional Access policy with Directory roles targeted.
-1. If your organization has a “break-glass” global administrator account, remember to add the account to the **Exclude** section. In the following screenshot, the global administrator role is selected. Consider also adding these roles:
+1. If your organization has a "break-glass" global administrator account, remember to add the account to the **Exclude** section. In the following screenshot, the global administrator role is selected. Consider also adding these roles:
 
     - Authentication Administrator
     - Billing administrator
@@ -103,13 +103,13 @@ To create an Intune Mobile Application Management (MAM) without enrollment polic
     For iOS devices, consider the following settings:
     - Blocking backup of org data to iTunes
     - Restricting data sharing to only policy-managed apps
-    - Preventing “save as” of org data (by restricting save as functionality to OneDrive for Business or SharePoint)
+    - Preventing "save as" of org data (by restricting save as functionality to OneDrive for Business or SharePoint)
     - Restricting cut/copy/paste to policy-managed apps with paste in.
 
     Policy-managed apps are the ones selected in the previous step.
 
      > [!NOTE]
-     > “Encrypt org data” is set to Require by default, which will prompt a user to create a PIN (and enable TouchID/FaceID) to unlock their device if they have not done so already.
+     > "Encrypt org data" is set to Require by default, which will prompt a user to create a PIN (and enable TouchID/FaceID) to unlock their device if they have not done so already.
   
      ![Policy managed apps are the ones selected in the previous step. ](../media/data-protection.png)
 

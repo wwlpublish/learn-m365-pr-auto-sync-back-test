@@ -28,7 +28,7 @@ You access the compliance center from the Microsoft 365 app launcher by selectin
    ![Create an eDiscovery case](../media/create-ediscovery-case.png)
 
 2. On the Cases pane, select **Create a case**.
-3. Enter the details of the case, for example “investigating a customer complaint,” then select **Save**.
+3. Enter the details of the case, for example "investigating a customer complaint," then select **Save**.
 
    ![A new eDiscovery case is created](../media/new-ediscovery-case.png)
 

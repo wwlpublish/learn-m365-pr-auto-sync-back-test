@@ -1,4 +1,4 @@
-When the OneDrive sync app for Windows or Mac is installed, users can work with their OneDrive files in File Explorer or Finder. Users can easily save files to OneDrive from within the programs they use. The OneDrive sync app also supports SharePoint Server 2019.  Deploying the sync app is the first step in deploying OneDrive sync in the “ideal state”. This sync state includes:
+When the OneDrive sync app for Windows or Mac is installed, users can work with their OneDrive files in File Explorer or Finder. Users can easily save files to OneDrive from within the programs they use. The OneDrive sync app also supports SharePoint Server 2019.  Deploying the sync app is the first step in deploying OneDrive sync in the "ideal state". This sync state includes:
  
 ![The sync state includes](../media/configuration-tools-deployment.png)
 
@@ -30,7 +30,7 @@ There will always be management requirements beyond initial deployment. But you 
 
 ## Deploying the sync app as a per-machine installation
 
-By default, the OneDrive sync app installs per user under the %localappdata% folder. With the per-machine installation option, OneDrive installs under the “Program Files (x86)” or “Program Files” directory (depending on the OS architecture), meaning all profiles on the computer will use the same OneDrive.exe binary.
+By default, the OneDrive sync app installs per user under the %localappdata% folder. With the per-machine installation option, OneDrive installs under the "Program Files (x86)" or "Program Files" directory (depending on the OS architecture), meaning all profiles on the computer will use the same OneDrive.exe binary.
 
 Other than where the sync app is installed, the behavior is the same. The per-machine sync app installation option is helpful especially for multi-user computers and when you don’t want exe files running from the user profile.
 

@@ -44,7 +44,7 @@ This image shows a retention label named GDPR applied to an email in Outlook.
 
  ![GDPR retention label for Outlook email](../media/retention-label-outlook-email.png)
 
-Content can have both a sensitivity label and a retention label associated with it, but not more than one of each. An example might be an Excel file with a sensitivity label of “Internal use only” and a retention label named “Employee Record”.
+Content can have both a sensitivity label and a retention label associated with it, but not more than one of each. An example might be an Excel file with a sensitivity label of "Internal use only" and a retention label named "Employee Record".
 
 ### Policies
 

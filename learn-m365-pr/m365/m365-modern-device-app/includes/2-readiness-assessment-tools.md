@@ -1,4 +1,4 @@
-![“Step 1 highlighted in deployment wheel”](../media/step1-wheel-icon.png)
+!["Step 1 highlighted in deployment wheel"](../media/step1-wheel-icon.png)
 
 ![step-1-icon](../media/step1-icon.png)
 

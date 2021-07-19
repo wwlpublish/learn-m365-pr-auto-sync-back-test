@@ -7,7 +7,7 @@ It’s best to create deployment rings in cooperation with business units and ma
 
 ## Phase 1: The IT team and early adopters 
 
-With these “insiders,” you can test communications, impacts of the change, and the effectiveness of your training. During this phase, IT runs small pilots to develop troubleshooting and automation techniques to use during broader deployment phases.
+With these "insiders," you can test communications, impacts of the change, and the effectiveness of your training. During this phase, IT runs small pilots to develop troubleshooting and automation techniques to use during broader deployment phases.
 
 It’s important to have engaged members in this initial phase to ensure they’re documenting their observations and providing feedback to the deployment team. It’s also a good idea to include champions from outside the IT team to help spread word-of-mouth communications on new capabilities - they’ll often be the first line of support when users in later phases need help. Business unit champions are great early adopters as they can help test the newest functionalities, provide feedback on communications and training, and drive adoption within their broader business units.
 

@@ -40,5 +40,5 @@ The Azure Migrate appliance is a complete, pre-configured Open Virtual Appliance
     This step is optional but recommended. Here you provide virtual machine administrator credentials for discovery of applications and for dependency analysis to ensure your migrations are successful. The credentials are saved on the appliance and encrypted.
 
     The discovery process is conducted remotely and without any agents or scripts.
-    1. Enter a friendly name for user and account credentials (ie, “VMadmin”), username, and password. Then click **Add**. There is also an option to opt-out via the checkbox displayed in this step.
+    1. Enter a friendly name for user and account credentials (ie, "VMadmin"), username, and password. Then click **Add**. There is also an option to opt-out via the checkbox displayed in this step.
     2. Click **Continue** and then **Save and start discovery**.

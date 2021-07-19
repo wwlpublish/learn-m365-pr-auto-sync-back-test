@@ -1,6 +1,6 @@
 Microsoft processes many kinds of data as part of providing cloud services to our customers. We categorize the data we process to ensure it is handled with appropriate security and privacy protections. Categories of data processed by Microsoft are defined in the Microsoft Online Services Data Protection Addendum (DPA).
 
-When Microsoft hires a supplier to provide some aspect of our online services that may require the supplier to use or process such data, the supplier is identified as a “subprocessor” (in accordance with the GDPR terminology). All subprocessors must adhere to the Microsoft Supplier Security and Privacy (SSPA) Program before being allowed to process data on behalf of Microsoft.
+When Microsoft hires a supplier to provide some aspect of our online services that may require the supplier to use or process such data, the supplier is identified as a "subprocessor" (in accordance with the GDPR terminology). All subprocessors must adhere to the Microsoft Supplier Security and Privacy (SSPA) Program before being allowed to process data on behalf of Microsoft.
 
 ## Types of data shared with Microsoft
 
@@ -10,11 +10,11 @@ All data used throughout the lifecycle of a customer account to provide Microsof
 
     For example, customer content includes Exchange Online email and attachments, Power BI reports, SharePoint Online site content, or instant messaging conversations.
 
-- **Service-generated data** includes all data “generated” or “derived” by Microsoft through the operation of an online service. Microsoft aggregates this data from our online services and uses it to make sure performance, security, scaling, and other services that impact the customer experience are operating at the levels our customers require.
+- **Service-generated data** includes all data "generated" or "derived" by Microsoft through the operation of an online service. Microsoft aggregates this data from our online services and uses it to make sure performance, security, scaling, and other services that impact the customer experience are operating at the levels our customers require.
 
     For example, to understand how to ramp up datacenter capacity as a customer's use of Microsoft Teams increases, we process log data of their Teams usage. We then review the logs for peak times and decide which data centers to add to meet this capacity.
 
-- **Diagnostic data** includes all data “collected” or “obtained” from applications that are installed locally for use in connection with the Microsoft enterprise online service. It is used to help Microsoft ensure the client software is secure and performing properly. 
+- **Diagnostic data** includes all data "collected" or "obtained" from applications that are installed locally for use in connection with the Microsoft enterprise online service. It is used to help Microsoft ensure the client software is secure and performing properly. 
 
     For example, Microsoft collects information about how long it takes to launch an app, whether an add-in has crashed, and how many times a sign-in has been attempted. Diagnostic data can also be referred to as telemetry data. It does not include names, email addresses, or file content.
 

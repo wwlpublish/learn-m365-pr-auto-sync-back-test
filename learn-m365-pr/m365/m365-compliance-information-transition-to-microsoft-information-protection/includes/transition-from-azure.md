@@ -27,11 +27,11 @@ The image below slows the successfully migrated labels in the Microsoft 365 comp
 
 ![Successfully migrated labels in the Microsoft 365 compliance center](../media/sensitivity-label-compliance-center.png)
 
-Here is an image of the service architecture **before** unified labeling activation. When the “Get policy” action is executed from the classic client, the source of the labels is the Azure Information Protection store.
+Here is an image of the service architecture **before** unified labeling activation. When the "Get policy" action is executed from the classic client, the source of the labels is the Azure Information Protection store.
 
 ![Service architecture before unified labeling activation](../media/service-architecture-before-unified-labeling-activation.png)
 
-Here is an image of the service architecture **after** unified labeling activation. When the “Get policy” action is executed from the classic client, the source of the labels is now the  Microsoft 365 compliance center unified labeling store. Note that **policies** and **conditions** are still sourced from the Azure Information Protection store for the classic client, even after migration. **Just the label source changes.**
+Here is an image of the service architecture **after** unified labeling activation. When the "Get policy" action is executed from the classic client, the source of the labels is now the  Microsoft 365 compliance center unified labeling store. Note that **policies** and **conditions** are still sourced from the Azure Information Protection store for the classic client, even after migration. **Just the label source changes.**
 
 ![Service architecture after unified labeling activation](../media/service-architecture-after-unified-labeling-activation.png)
 
@@ -45,9 +45,9 @@ Here are some considerations before electing to copy policies:
 - **Immediate publishing**. Once policies are copied, they are **immediately published* to all unified labeling supported clients. All users with applications that support unified labeling will see any sensitivity labels associated with those policies. This may be what you intend, but do not copy your policies if you do not want the sensitivity labels associated with them to be visible to users.
 - **Policies not synchronized**. Unlike labels, **policies do not synchronize* between the Microsoft 365 compliance center and the Azure Information Protection pane. Once copied, each platform's policies are independent. Classic client users will still access the Azure Information Protection store for policies. Unified labeling clients will access the Microsoft 365 compliance center store.
 
-Selecting *Azure Information Protection > Unified labeling > Copy policies (Preview)** performs a one-time copy from the Azure Information Protection policy store to the Microsoft 365 compliance center policy store. The policies copied to compliance center use the naming convention “AIP_<policyname>”.
+Selecting *Azure Information Protection > Unified labeling > Copy policies (Preview)** performs a one-time copy from the Azure Information Protection policy store to the Microsoft 365 compliance center policy store. The policies copied to compliance center use the naming convention "AIP_<policyname>".
 
-Examples of the copy policies summary in Azure Information Protection and resulting policy in the Microsoft 365 compliance center are shown below. Notice the “AIP_” prefix to indicate this policy was copied from Azure Information Protection.
+Examples of the copy policies summary in Azure Information Protection and resulting policy in the Microsoft 365 compliance center are shown below. Notice the "AIP_" prefix to indicate this policy was copied from Azure Information Protection.
 
 The image below shows Unified labeling status in Azure Information Protection.
 

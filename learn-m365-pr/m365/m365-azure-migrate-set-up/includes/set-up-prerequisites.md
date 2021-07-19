@@ -12,7 +12,7 @@ As an example, we will use an app with virtual machines spread across three tier
 
 ## Finding Azure Migrate
 
-You configure Azure Migrate in the Azure portal. You can find Azure Migration Tools at the bottom of the Azure portal home screen, or search for “migrate” in the search box.
+You configure Azure Migrate in the Azure portal. You can find Azure Migration Tools at the bottom of the Azure portal home screen, or search for "migrate" in the search box.
 
 ![Azure migration tools](../media/migrate-azure-tools.png)
 

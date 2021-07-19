@@ -16,7 +16,7 @@ Microsoft defines a security incident in its online services as a confirmed brea
 
 Whenever there is a security incident, Microsoft 365 strives to respond quickly and effectively to protect Microsoft 365 services and customer data. Microsoft’s customer notification commitments are detailed in the [Microsoft Online Services Data Protection Addendum](https://www.microsoft.com/licensing/product-licensing/products):
 
-*If Microsoft becomes aware of a breach of security leading to the accidental or unlawful destruction, loss, alteration, unauthorized disclosure of, or access to Customer Data or Personal Data while processed by Microsoft (each a “Security Incident”), Microsoft will promptly and without undue delay (1) notify Customer of the Security Incident; (2) investigate the Security Incident and provide Customer with detailed information about the Security Incident; (3) take reasonable steps to mitigate the effects and to minimize any damage resulting from the Security Incident.*
+*If Microsoft becomes aware of a breach of security leading to the accidental or unlawful destruction, loss, alteration, unauthorized disclosure of, or access to Customer Data or Personal Data while processed by Microsoft (each a "Security Incident"), Microsoft will promptly and without undue delay (1) notify Customer of the Security Incident; (2) investigate the Security Incident and provide Customer with detailed information about the Security Incident; (3) take reasonable steps to mitigate the effects and to minimize any damage resulting from the Security Incident.*
 
 ## Federated incident response at Microsoft
 

@@ -1,6 +1,6 @@
 You configure OneDrive sharing in the SharePoint admin center. There, you specify sharing options such as the default sharing type for users, who users can share with, and how long sharing links remain active. Files in OneDrive are private by default, and only shared files are accessible by other users.
 
-OneDrive sharing settings are a subset of SharePoint sharing settings so you should use the sharing page in the SharePoint admin center vs. the OneDrive admin center.  To allow external sharing in OneDrive, you must enable it for SharePoint first since each OneDrive is a site (previously called a “site collection”) within SharePoint.
+OneDrive sharing settings are a subset of SharePoint sharing settings so you should use the sharing page in the SharePoint admin center vs. the OneDrive admin center.  To allow external sharing in OneDrive, you must enable it for SharePoint first since each OneDrive is a site (previously called a "site collection") within SharePoint.
 
 Key OneDrive sharing decisions:
 

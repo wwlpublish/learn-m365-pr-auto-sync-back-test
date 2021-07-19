@@ -1,4 +1,4 @@
-Microsoft defines resilience as “the ability of a business process or service to meet customer expectations in the face of faults and challenges to normal operations.” At the scale of Microsoft 365, resilience is crucial for maintaining the availability of our online services. We build our services to be resilient because we know that:
+Microsoft defines resilience as "the ability of a business process or service to meet customer expectations in the face of faults and challenges to normal operations." At the scale of Microsoft 365, resilience is crucial for maintaining the availability of our online services. We build our services to be resilient because we know that:
 
 - **Hardware will fail.** Assume a Mean Time Before Failure (MTFB) of 100,000 hours for a hard drive. For a single hard drive, this seems like a manageable one failure every 11.5 years. But if you have 10,000,000 hard drives, that comes to one failure roughly every 30 seconds. Resilience against the failure of common hardware components is a key feature of how we design and build our online services.
 - **Humans will make mistakes.** Assume a human in a typical IT implementation performs 100 operations per day in a system of 100 servers. At 99% accuracy, that is still one mistake per day. Scaled to 250,000 servers, this is 2500 mistakes per day.
@@ -25,7 +25,7 @@ Some of the strategies we use for fault isolation are:
 
 ## Reduced blast radius
 
-Closely related to fault isolation is the concept of an incident’s “blast radius.” When an incident occurs, the blast radius refers to how broadly the incident impacts our online services. Microsoft works constantly to reduce the blast radius of potential incidents. When an incident response post-mortem uncovers a type of incident with an unacceptable blast radius, we respond by investing in service updates designed to reduce the impact of similar incidents in the future.
+Closely related to fault isolation is the concept of an incident’s "blast radius." When an incident occurs, the blast radius refers to how broadly the incident impacts our online services. Microsoft works constantly to reduce the blast radius of potential incidents. When an incident response post-mortem uncovers a type of incident with an unacceptable blast radius, we respond by investing in service updates designed to reduce the impact of similar incidents in the future.
 
 ## Continuous improvement
 

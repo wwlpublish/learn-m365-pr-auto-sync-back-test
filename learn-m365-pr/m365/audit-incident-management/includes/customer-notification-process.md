@@ -31,7 +31,7 @@ Microsoft’s customer notification commitments are detailed in two sections of 
 
 #### Incident response process
 
-*For each security breach that is a Security Incident, notification by Microsoft (as described in the “Security Incident Notification” section above) will be made without undue delay and, in any event, within 72 hours.*
+*For each security breach that is a Security Incident, notification by Microsoft (as described in the "Security Incident Notification" section above) will be made without undue delay and, in any event, within 72 hours.*
 
 ## Customer responsibility
 

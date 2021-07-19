@@ -11,7 +11,7 @@ At the highest level, a DLP policy contains locations and rules. Locations defin
 
 Rules are conditions and actions that you use to define when and how to protect content.
 
-- Conditions define the content before a rule is enforced. For example, “look for content that contains Social Security numbers and is being shared outside of the organization.”
+- Conditions define the content before a rule is enforced. For example, "look for content that contains Social Security numbers and is being shared outside of the organization."
 - Actions describe what you want the rule to do when content matching the conditions is found. For example, if someone tries to send content that contains Social Security numbers outside your organization, block access to the document. Also, you can configure the rule to notify the user by email that the email was blocked and why.to explain why this DLP rule was created.
 - User notifications/user overrides along with user override you can notify a user of a violation of a policy and point them to documentation that might allow them to override the policy.
 - Alerts and Incident reports can notify compliance officers when a rule is matched.
