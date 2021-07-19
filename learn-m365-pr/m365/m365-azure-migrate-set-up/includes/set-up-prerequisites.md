@@ -2,7 +2,7 @@ To use Azure Migrate, you’ll need an Azure subscription. There are many promot
 
 Once in your Azure tenant, make sure that you’ve set the right permissions so that your virtual machine logs can be sent to Azure. Then replicate virtual machines into Azure storage, create and access virtual networks, create virtual machines prior to test, and perform production migration.
 
-## VMWare starting environment
+## VMware starting environment
 
 Before starting, we recommend that you pilot the process with a single app and small set of virtual machines for your first end-to-end migration. Then you can apply your learnings and resource dependency mapping to scale to larger migrations. We cover discovery and assessment in depth in the next module in this Learning Path.
 

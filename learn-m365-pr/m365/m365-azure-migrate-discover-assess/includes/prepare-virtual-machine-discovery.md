@@ -15,11 +15,11 @@ The Azure Migrate appliance is a complete, pre-configured Open Virtual Appliance
 
 1. In your VMware vSphere environment, deploy the image as a virtual machine.
 
-   Click **File> Deploy OVF> Template> Browse** to the OVA file that was just downloaded, and go through the normal virtual machine provisioning process, ensuring that it is on a network that can connect to your targeted virtual machines.
+   Click **File> Deploy OVF> Template> Browse** to the OVA file that was downloaded, and go through the normal virtual machine provisioning process, ensuring that it is on a network that can connect to your targeted virtual machines.
 
    ![Deploy OVA file](../media/deploy-ovf.png)
 
-2. Log into the Azure Migrate appliance running in the ESX environment. This is a Windows image, where you setup and conduct discovery of your on-premises environment.
+2. Log into the Azure Migrate appliance running in the ESX environment. This is a Windows image, where you set up and conduct discovery of your on-premises environment.
 
    Keep in mind that this is a **read-only inspection** of your VMs and corresponding metadata including performance history. There are no agents installed on your VM. When you first launch the Azure Migrate Appliance tool, you'll be asked to go through three steps.
 
@@ -40,5 +40,5 @@ The Azure Migrate appliance is a complete, pre-configured Open Virtual Appliance
     This step is optional but recommended. Here you provide virtual machine administrator credentials for discovery of applications and for dependency analysis to ensure your migrations are successful. The credentials are saved on the appliance and encrypted.
 
     The discovery process is conducted remotely and without any agents or scripts.
-    1. Enter a friendly name for user and account credentials (ie, "VMadmin"), username, and password. Then click **Add**. There is also an option to opt-out via the checkbox displayed in this step.
+    1. Enter a friendly name for user and account credentials (that is, "VMadmin"), username, and password. Then click **Add**. There is also an option to opt out via the checkbox displayed in this step.
     2. Click **Continue** and then **Save and start discovery**.

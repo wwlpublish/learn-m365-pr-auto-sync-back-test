@@ -46,7 +46,7 @@ Microsoft acts as an independent data controller in our use of data to perform L
 - compensation (for example, calculating employee commissions)
 - internal reporting and modeling (for example, forecasting, revenue, capacity planning, product strategy)
 - combatting fraud, cybercrime, or cyber-attacks that may affect Microsoft or Microsoft Products
-- improving the core functionality of accessibility, privacy, or energy-efficiency
+- improving the core functionality of accessibility, privacy, or energy efficiency
 - financial reporting or compliance with legal obligations
 
 ## Learn more

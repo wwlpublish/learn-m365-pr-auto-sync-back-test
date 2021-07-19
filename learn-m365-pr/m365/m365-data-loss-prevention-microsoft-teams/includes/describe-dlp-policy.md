@@ -67,18 +67,18 @@ The email notification and policy tip provide the user with information about wh
 
 ## Grouping and logical operators
 
-Some DLP policies are very straightforward, for example, recognizing US Social Security Numbers. At other times, your DLP policy might need to recognize more loosely defined data. For example, if you need to identify content that is subject to the Health Insurance Portability and Accountability Act of 1996 (HIPAA), you would need to look for:
+Some DLP policies are straightforward, for example, recognizing US Social Security Numbers. At other times, your DLP policy might need to recognize more loosely defined data. For example, if you need to identify content that is subject to the Health Insurance Portability and Accountability Act of 1996 (HIPAA), you would need to look for:
 
 - Content that contains specific types of sensitive information, such as a U.S. Social Security Number or Drug Enforcement Agency (DEA) Number.
 
 AND
 
-- Content that's more difficult to identify, such as communications about a patient's care or descriptions of medical services provided. Identifying this content requires matching keywords from very large keyword lists, such as the International Classification of Diseases (ICD-9-CM or ICD-10-CM).
+- Content that's more difficult to identify, such as communications about a patient's care or descriptions of medical services provided. Identifying this content requires matching keywords from large keyword lists, such as the International Classification of Diseases (ICD-9-CM or ICD-10-CM).
 
 By using logical operators (AND, OR), you more easily identify loosely defined data. You can choose  sensitive information types within a group and between groups.
 
 :::image type="content" source="../media/2-content-contains-inline.png" lightbox="../media/2-content-contains-expanded.png" alt-text="Group conditions.":::
 
-You can select either an operator (AND, OR) between groups to choose whether the conditions in just one or all of the groups must be satisfied for the content to match the rule. In the following example content being identified comes from both personal data identifiers (at least on SSN OR DEA number) and content from the group Medical Terms (at least one ICD-9-CM keyword OR ICD-10-CM keyword).
+You can select either an operator (AND, OR) between groups to choose whether the conditions in just one or all of the groups must be satisfied for the content to match the rule. In the following example, content being identified comes from both personal data identifiers (at least on SSN OR DEA number) and content from the group Medical Terms (at least one ICD-9-CM keyword OR ICD-10-CM keyword).
 
 :::image type="content" source="../media/2-operator-between-groups-inline.png" lightbox="../media/2-operator-between-groups-expanded.png" alt-text="Operator between groups.":::

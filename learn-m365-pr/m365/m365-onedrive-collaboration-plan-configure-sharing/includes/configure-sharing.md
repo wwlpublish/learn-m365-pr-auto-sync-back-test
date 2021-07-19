@@ -26,7 +26,7 @@ Navigate to the admin center sharing page to control your organizations sharing 
 
  ![Navigate to the admin center sharing page to control your organizations sharing settings](../media/external-sharing.png)
 
-The sliders control the settings for your entire organization. Each OneDrive and SharePoint site has its own sharing setting which you can set independently, though each must be at least as restrictive as the settings for the overall organization. For example, to allow anonymous sharing in OneDrive (by setting sharing to Anyone), sharing in SharePoint must also be set to **Anyone**. If SharePoint has anonymous enabled, OneDrive could be set to be less permissive to block external sharing.
+The sliders control the settings for your entire organization. Each OneDrive and SharePoint site has its own sharing setting, which you can set independently, though each must be at least as restrictive as the settings for the overall organization. For example, to allow anonymous sharing in OneDrive (by setting sharing to Anyone), sharing in SharePoint must also be set to **Anyone**. If SharePoint has anonymous enabled, OneDrive could be set to be less permissive to block external sharing.
 
 When sharing files and folders in OneDrive, external recipients will typically be added to your directory as guests; permissions and groups work the same for these guests as they do for internal users. To ensure that all guests are added to your directory, use the SharePoint and OneDrive integration with Azure AD B2B preview. Because guests do not have licenses in your organization, they are limited to basic collaboration tasks.
 

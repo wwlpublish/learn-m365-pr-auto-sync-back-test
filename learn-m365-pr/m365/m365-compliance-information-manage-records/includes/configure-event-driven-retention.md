@@ -1,16 +1,16 @@
 Use event-based retention when you want the retention period to be based on when a specific type of event occurs, rather than when the content was created, last modified or labeled. For example, if you associate a label with the event type of ‘Employment ended’, any content with that label applied will be retained until you create an event and specify the event type ‘Employment ended’, the ID of the employee who left the company, and the date it occurred. At this point, the event will detect all items with the label applied that meet the criteria associated with it and set the expiration date for those items based on the retention period. Here are some other examples of when event-based retention is appropriate:
 
 - **Product lifetime**. Your organization might have retention requirements for product technical specifications. The event triggering the retention period could be the product release date or when it was last manufactured.
-- **Contract expiration**. Your organization may have a policy all documents related to a contract must be retained for 7 years after the contract has expired. The contract expiration triggers the 7-year retention period.
+- **Contract expiration**. Your organization may have a policy all documents related to a contract must be retained for seven years after the contract has expired. The contract expiration triggers the 7-year retention period.
 
-You can only create event-based labels if you choose to 'Retain the content' and either 'Delete the content automatically’ or 'Trigger a disposition review'. The distinction between an event and an event type is very important. The following table helps distinguish them.
+You can only create event-based labels if you choose to 'Retain the content' and either 'Delete the content automatically’ or 'Trigger a disposition review'. The distinction between an event and an event type is important. The following table helps distinguish them.
 
 | Name  | Definition  |  Example |
 |---|---|---|
 |  Event type | Description of an event to associate label with  | Employment ended  |
 |  Event | Specific occurrence of the event type  |Megan Bowen’s employment ended   |
 
-Different methods are used to identify the labeled items that trigger the event. Exchange-based content is identified through keyword searches. SharePoint and OneDrive content rely on item properties. Your SharePoint and OneDrive content must have a column containing the identifier to be used to determine when the event type occurrence applies. A column called Asset ID is created and used by default, but you can use a different column and use Keyword Query Language (KQL) to specify it. An example of an asset ID    would a column in a document library that includes the employee ID of the individual the document, like an employee evaluation, applies to.
+Different methods are used to identify the labeled items that trigger the event. Exchange-based content is identified through keyword searches. SharePoint and OneDrive content rely on item properties. Your SharePoint and OneDrive content must have a column containing the identifier to be used to determine when the event type occurrence applies. A column called Asset ID is created and used by default, but you can use a different column and use Keyword Query Language (KQL) to specify it. An example of an asset ID would a column in a document library that includes the employee ID of the individual document, like an employee evaluation, applies to.
 
 Here is the flow for configuring event-driven retention:
 
@@ -51,7 +51,7 @@ Choose the event type associated with labels applied to the items you want to st
 After you identify the items related to this event, records management will find all those items with labels associated with the event type you chose that match the criteria set in this step. It will then set the expiration date for those items based on the labels’ retention period(s).
 
 - Keywords for items in Exchange. Use keyword query syntax to identify the items in Exchange you want to retain.
-- Asset ID for SharePoint and OneDrive items. Asset IDs refers to the specific properties applied to the SharePoint and OneDrive items related to this event. SharePoint and OneDrive properties, also called columns, help group, categorize, and track information in a list or library. 
+- Asset ID for SharePoint and OneDrive items. Asset ID refers to the specific properties applied to the SharePoint and OneDrive items related to this event. SharePoint and OneDrive properties, also called columns, help group, categorize, and track information in a list or library. 
 - When did event occur? This is the date when the retention period will go into effect for any items identified using asset ID and keyword searches that have labels associated with the event type you chose.
 
 ### Use existing labels

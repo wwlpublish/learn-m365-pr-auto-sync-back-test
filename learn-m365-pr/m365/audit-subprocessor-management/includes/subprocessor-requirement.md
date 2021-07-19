@@ -28,7 +28,7 @@ The Microsoft Supplier Security and Privacy Assurance (SSPA) program is a corpor
 
 The SSPA program includes a set of security and privacy controls that must be implemented by subprocessors prior to processing data on behalf of Microsoft. We call these controls the Data Protection Requirements (DPR). All subprocessors enrolled in the SSPA program must review and attest to their compliance with applicable DPR controls before beginning contracted work. In addition, subprocessors must complete a self-attestation of compliance with the DPR annually.
 
-Subprocessor compliance with the requirements of the SSPA program are tracked in Microsoft purchasing tools. Purchasing tools do not allow engagements with subprocessors to move forward until all requirements are completed. Failure to maintain compliance with SSPA requirements results in the subprocessor being blocked from accessing or processing data on behalf of Microsoft.
+Subprocessor compliance with the requirements of the SSPA program is tracked in Microsoft purchasing tools. Purchasing tools do not allow engagements with subprocessors to move forward until all requirements are completed. Failure to maintain compliance with SSPA requirements results in the subprocessor being blocked from accessing or processing data on behalf of Microsoft.
 
 ## Learn more
 

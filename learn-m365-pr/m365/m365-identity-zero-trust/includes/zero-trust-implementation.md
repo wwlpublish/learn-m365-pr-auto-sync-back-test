@@ -98,7 +98,7 @@ To create an Intune Mobile Application Management (MAM) without enrollment polic
 
      ![After naming the policy, select from the list of available applications:](../media/apps.png)
 
-3. Under **Data protection**, select the controls you would like to implement. If the applications are already being used on mobile devices, consider limiting the amount of controls to reduce the amount of help-desk calls.
+3. Under **Data protection**, select the controls you would like to implement. If the applications are already being used on mobile devices, consider limiting the number of controls to reduce the amount of help-desk calls.
 
     For iOS devices, consider the following settings:
     - Blocking backup of org data to iTunes

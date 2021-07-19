@@ -35,7 +35,7 @@ With the segments defined, Contoso proceeds to define policies.
 
 ### Contoso's information barrier policies
 
-Contoso defines three polices, as described in the following table:
+Contoso defines three policies, as described in the following table:
 
 |  Policy | Policy definition  |
 |---|---|

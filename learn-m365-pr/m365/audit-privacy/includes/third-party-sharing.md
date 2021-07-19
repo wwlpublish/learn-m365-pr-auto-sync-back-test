@@ -10,7 +10,7 @@ The Microsoft SSPA program is a corporate program designed to standardize and st
   
 ## Third-party offerings
 
-Customers can use third-party offerings available through platforms such as the Office and SharePoint app stores as additional optional services. The IT Administrator will determine if its end users may use these additional offerings. Some of these services are operated by Microsoft Corporation and some are operated by third party app publishers. Third party apps are subject to the app publisher’s terms and conditions and privacy statements. Customers will need to evaluate the risks of using third party offerings relative to their business priorities.
+Customers can use third-party offerings available through platforms such as the Office and SharePoint app stores as additional optional services. The IT Administrator will determine if its end users may use these additional offerings. Some of these services are operated by Microsoft Corporation and some are operated by third-party app publishers. Third-party apps are subject to the app publisher’s terms and conditions and privacy statements. Customers will need to evaluate the risks of using third-party offerings relative to their business priorities.
 
 ## Law enforcement requests
 
