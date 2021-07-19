@@ -7,7 +7,7 @@ For more information, read [Enable Microsoft 365 or Office 365](/microsoftteams/
 
 ## Prepare the network and topology for Direct Routing
 
-If your organization is implementing location-based routing for Direct Routing, plan your network topology, and create the appropriate network regions, sites and subnets. A network region connects parts of your organization located in one of more geographic areas. A network site represents a physical venue for an organization, such as an office, building, or campus. Each site must belong to a network region. A network site contains one or more subnets. The network location of a client is a combination of the subnet and site for that client. This information is used to configure routing for calls.
+If your organization is implementing location-based routing for Direct Routing, plan your network topology, and create the appropriate network regions, sites and subnets. A network region connects parts of your organization located in one or more geographic areas. A network site represents a physical venue for an organization, such as an office, building, or campus. Each site must belong to a network region. A network site contains one or more subnets. The network location of a client is a combination of the subnet and site for that client. This information is used to configure routing for calls.
 
 You can define network regions, network sites, and subnets using the Teams admin center. Alternatively, you can use PowerShell. For details, read [Manage your network topology for cloud voice features in Microsoft Teams](/microsoftteams/manage-your-network-topology)
 
