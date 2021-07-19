@@ -38,7 +38,7 @@ quiz:
       - content: "Microsoft Cloud App Security (MCAS)"
         isCorrect: false
         explanation: "MCAS features alerts in the Microsoft 365 Defender portal."
-      - content: "Microsoft Defender for Endpoint"
+      - content: "Microsoft Defender for Office 365"
         isCorrect: true
         explanation: "Correct. Microsoft Defender for Office 365 is not an available solution. Microsoft Defender for Endpoint is featured in the Microsoft 365 Defender portal."
       - content: "Intune device compliance"
