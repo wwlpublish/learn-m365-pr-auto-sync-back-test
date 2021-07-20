@@ -32,7 +32,7 @@ In this unit, you will teach the accounting department how to plan for and creat
 
     ![AI Builder](../media/image013.png)
 
-1. A dialogue box opens on the right-hand side of the page asking you to name your new model.
+1. A dialog box opens on the right-hand side of the page asking you to name your new model.
    1. The name you choose will be used as the Content Type in your new SharePoint library, so select a name that makes sense in reference to how the forms will be labeled – as POs, for this example.
    1. Type in the name. For this example, we'll use "PO" as the name for the model.
    1. In Advanced Settings, you have the choice between creating a new content type or selecting from a set of predefined content types available to SharePoint Syntex. For our purposes, you can leave the default "Create new" selected.
@@ -50,7 +50,7 @@ In this unit, you will teach the accounting department how to plan for and creat
 
     ![Graphical user interface, text, application, email](../media/image017.png)
 
-1. The Field dialogue box opens, asking you to define the first field you want your AI model to extract.
+1. The Field dialog box opens, asking you to define the first field you want your AI model to extract.
    1. In this case, name the field "PO-number."
    1. Click "Done."
    1. You'll see the field added to the page.
@@ -109,24 +109,24 @@ In this unit, you will teach the accounting department how to plan for and creat
 
     ![A picture containing Graphical user interface](../media/image031.png)
 
-1. When you release the mouse button, the box will solidify, and a dialogue box opens listing the three fields you defined earlier: PO-number, Vendor Name, and PO-Total.
-   1. The PO Number you highlighted is now listed at the top of the dialogue box.
+1. When you release the mouse button, the box will solidify, and a dialog box opens listing the three fields you defined earlier: PO-number, Vendor Name, and PO-Total.
+   1. The PO Number you highlighted is now listed at the top of the dialog box.
    1. Select the correct field. In this case, click the radio button beside "PO-number."
 
     ![Graphical user interface, application](../media/image033.png)
 
-1. Once you make a selection, the dialogue closes, the box around the PO number turns green, and a green check mark appears in the field list on the right-hand side of the AI Builder screen.
+1. Once you make a selection, the dialog closes, the box around the PO number turns green, and a green check mark appears in the field list on the right-hand side of the AI Builder screen.
 
     ![Graphical user interface, application](../media/image035.png)
 
 1. Repeat this process for the Vendor name.
    1. Highlight the complete vendor name.
-   1. Notice that when the dialogue box opens, it contains only two field names.
+   1. Notice that when the dialog box opens, it contains only two field names.
    1. Make your selection, "Vendor Name," and check that box.
    1. As before, the box closes, the outline around the vendor name turns green, and the green checkmark appears beside "Vendor Name" in the list of fields on the right-hand side of the page.
 1. Scroll down in the document to "Total."
    1. Highlight the dollar amount.
-   1. When the dialogue box opens, only "PO-Total" remains as a choice.
+   1. When the dialog box opens, only "PO-Total" remains as a choice.
    1. Click the radio button.
    1. You've successfully initiated training for your form processor.
 
@@ -163,7 +163,7 @@ In this unit, you will teach the accounting department how to plan for and creat
     ![Graphical user interface, application](../media/image047.png)
 
 1. The model begins training.
-   1. A dialogue box opens telling you that the model is training and that it may take several minutes.
+   1. A dialog box opens telling you that the model is training and that it may take several minutes.
    1. It is okay to close the window and return later, if necessary. However, with the limited number of training documents you used, the model will finish training quickly.
    1. When training finishes, AI Builder will display a message "Training complete."
    1. Click "Go to Details page."
