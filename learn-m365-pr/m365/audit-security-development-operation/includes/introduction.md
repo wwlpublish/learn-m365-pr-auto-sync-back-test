@@ -17,11 +17,11 @@ In addition to the five core development phases, the SDL includes security activ
 In the units that follow, we will explore how Microsoft implements SDL requirements by:
 
 - Requiring training for security awareness and secure development practices.
-- Defining security and privacy requirements, maintaining up to date threat models, and requiring manual code review.
+- Defining security and privacy requirements, maintaining up-to-date threat models, and requiring manual code review.
 - Running SDL tools automatically to detect security issues in the code as part of the build process.
 - Enforcing and testing operational security requirements to maintain security best practices.
 - Performing security and privacy reviews prior to release.
-- Using Component Governance (CG) to manage open source software.
+- Using Component Governance (CG) to manage open-source software.
 
 ## Learn more
 

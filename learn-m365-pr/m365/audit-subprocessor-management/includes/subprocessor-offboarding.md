@@ -2,7 +2,7 @@ Microsoft's subprocessor engagement lifecycle includes provisions for subprocess
 
 ## Requirements for data destruction
 
-In the event that customer information must be destroyed, Microsoft requires subprocessors to comply with the following guidelines to ensure the data is securely destroyed to prevent unauthorized disclosure of customer information during or after information disposal. All digital media must be destroyed by incineration or shredding in compliance with acceptable IT Asset Disposition (ITAD) standards to effectively destroy the media in such a way that data cannot be extracted or replicated. Certification standards and compliance for secure destruction include NAID, OHSAS 18001:2007, e-Stewards Electronics Recycler, TAPA FSR-Class A, ISO 14001:2004, ISO 9001:2008, ISO 27001:2013, NIST, and DOD.
+When customer information must be destroyed, Microsoft requires subprocessors to comply with the following guidelines to ensure the data is securely destroyed to prevent unauthorized disclosure of customer information during or after information disposal. All digital media must be destroyed by incineration or shredding in compliance with acceptable IT Asset Disposition (ITAD) standards to effectively destroy the media in such a way that data cannot be extracted or replicated. Certification standards and compliance for secure destruction include NAID, OHSAS 18001:2007, e-Stewards Electronics Recycler, TAPA FSR-Class A, ISO 14001:2004, ISO 9001:2008, ISO 27001:2013, NIST, and DOD.
 
 For printed materials containing customer information:
 

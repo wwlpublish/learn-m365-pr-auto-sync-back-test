@@ -2,7 +2,7 @@ Now that you have Azure Active Directory (Azure AD) set up, you need to integrat
 
 ## Configure a consistent sign-in experience
 
-We recommend that you configure a consistent sign-on experience with the same usernames, passwords, or multi-factor authentication controls as you use in your on-premises Active Directory Domain Services (AD DS) environment. This lets your users use one set of credentials to access their resources in Azure Virtual Desktop and other Microsoft cloud services.
+We recommend that you configure a consistent sign-on experience with the same usernames, passwords, or multifactor authentication controls as you use in your on-premises Active Directory Domain Services (AD DS) environment. This lets your users use one set of credentials to access their resources in Azure Virtual Desktop and other Microsoft cloud services.
 
 There are several synchronization options available:
 

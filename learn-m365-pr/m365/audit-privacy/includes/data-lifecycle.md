@@ -8,8 +8,8 @@ Microsoft's Defense-In-Depth protects data through the entire data lifecycle, be
 
 - Collection – Collection begins the data lifecycle and describes the receipt of data by an organization.
 - Processing – Processing refers to any action performed on collected data, whether automated or manual.
-- Third party sharing – Third party sharing is the sharing or onward disclosure of data to third parties.
-- Retention – Retention is the persistence of data beyond initial collection. Retention covers data storage locations as well as data stored in databases.
+- Third-party sharing – Third-party sharing is the sharing or onward disclosure of data to third parties.
+- Retention – Retention is the persistence of data beyond initial collection. Retention covers data storage locations and data stored in databases.
 - Destruction – Destruction marks the end of the data lifecycle. Data destruction follows a defined process for when a customer subscription ends or when there is an active deletion of data by a user or administrator.
 
 Now that you understand the data lifecycle at a high level, we will explore each phase in more detail.
