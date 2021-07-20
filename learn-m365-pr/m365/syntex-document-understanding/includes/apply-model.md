@@ -47,4 +47,4 @@ Now you are now ready to show Megan, who volunteered to be the model owner for H
 1. Once processing is complete, all benefits change letters should be labeled as such in the Content Type column. Provider name will be listed, and all Benefit change letters will have a Retention label of "Confidential."
    1. You can now sort and filter by the Content Type or Provider columns.
 
-Congratulations! You've created a document understanding model that both classifies files and extracts data. You've also applied that model to a document library and had each file analyzed.
+Congratulations! You've created a document understanding model that classifies files and extracts data. You've also applied that model to a document library and had each file analyzed.

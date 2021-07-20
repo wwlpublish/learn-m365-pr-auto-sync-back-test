@@ -35,7 +35,7 @@ In this unit, you will teach the accounting department how to plan for and creat
 1. A dialogue box opens on the right-hand side of the page asking you to name your new model.
    1. The name you choose will be used as the Content Type in your new SharePoint library, so select a name that makes sense in reference to how the forms will be labeled – as POs, for this example.
    1. Type in the name. For this example, we'll use "PO" as the name for the model.
-   1. In Advanced Settings, you have the choice between creating a new content type or selecting from a set of predefined content types available to SharePoint Syntex.For our purposes, you can leave the default "Create new" selected.
+   1. In Advanced Settings, you have the choice between creating a new content type or selecting from a set of predefined content types available to SharePoint Syntex. For our purposes, you can leave the default "Create new" selected.
    1. Also leave the box checked for default view of the library. Unchecking this box removes the view the model creates to show the data the model is going to extract. Without this box checked, it may look as if your model failed.
    1. Click "Create."
 

@@ -14,7 +14,7 @@ Megan opens the HR Letters library, which contains many documents of varying typ
 
 ![Graphical user interface, email](../media/image005.png)
 
-Human Resources would like to use SharePoint Syntex document understanding to automatically identify which documents are benefits notification letters, and then classify them appropriately. To do this, you must first help Megan define a document understanding model and then you’ll show her how to the model following these steps.
+Human Resources would like to use SharePoint Syntex document understanding to automatically identify which documents are benefits notification letters, and then classify them appropriately. To do this, you must first help Megan define a document understanding model and then you'll show her how to the model following these steps.
 
 1. Start in the content center. This is the place for creating and training document understanding models, and then applying those models to document libraries.
 1. Select "Models."
@@ -37,7 +37,7 @@ Human Resources would like to use SharePoint Syntex document understanding to au
    1. Click "Advanced Settings."
    1. You will see two radio buttons, the first allows you to create a new content type, the second allows you to select one of the content types that already exist in your SharePoint site.
    1. Since you are defining benefits changes letters, which are a new content type, you need to create a new content type called "Benefits change letter."
-      1. Click into the drop-down box for Retention Label and select "Confidential." This selection is based on the Human Resources manager’s knowledge of document retention requirements.
+      1. Click into the drop-down box for Retention Label and select "Confidential." This selection is based on the Human Resources manager's knowledge of document retention requirements.
    1. This is also the place to define and assign a retention label to the documents your model identifies.
 
     ![Graphical user interface, text, application](../media/image013.png)
@@ -56,4 +56,4 @@ Human Resources would like to use SharePoint Syntex document understanding to au
 1. Create and train your extractors. Extractors pull data from the letters. In this case, Human Resources would like to sort the letters based on the names of the insurance provider, which is buried in the body of the document.
 1. Apply your models to the libraries of your choice. Once the model is trained with a few example documents, you can apply it to the library or libraries of your choice.
 
-We’ll walk through each of these items step-by-step following your model creation.
+We'll walk through each of these items step-by-step following your model creation.
