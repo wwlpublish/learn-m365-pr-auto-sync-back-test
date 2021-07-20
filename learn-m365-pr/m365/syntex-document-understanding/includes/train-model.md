@@ -1,13 +1,13 @@
-Before you train your model, you must identify five positive example documents. In other words, these documents need to be examples of benefits letters. It is also helpful to include a couple of negative examples – documents that are not benefits letters. Pull those documents together in one place as a set of training files.
+Before you train your model, you must identify five _positive_ example documents. In other words, these documents need to be examples of benefits letters. It is also necessary to include _negative_ examples—documents that are not benefits letters. Pull those documents together in one place as a set of training files.
 
-You and Megan identified a group of seven documents for use in training the new model.
+You and Megan identified a group of seven documents to train the new model.
 
 ![Graphical user interface, table](../media/image017.png)
 
-1. Begin in the Content Center: Models > Benefit change letter page.
-1. Click "Add files" in the Add example files column.
-1. The Select example files for your model window opens.
-1. Click "Upload" to bring the training files into the training area.
+1. Begin in the content center: Models > Benefit change letter page.
+1. Click **"Add files"** in the **Add example files column**.
+1. The **"Select example files for your model"** window opens.
+1. Click **"Upload"** to bring the training files into the training area.
    1. Select all of the files in the training files folder and click "Open."
    1. The upload begins. It may take a moment to complete.
    1. Note that the default Content type is 'Document.' This training will teach SharePoint Syntex how to change that default content type from 'Document' to 'Benefit change letter.'
