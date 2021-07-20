@@ -3,7 +3,7 @@ Governing your data is about keeping what you need and deleting what you don't, 
 
 **Information governance** manages your content lifecycle using solutions to import, store, and classify business-critical data so you can keep what you need and delete what you do not.
 
-Records management uses intelligent classification to automate and simplify the retention schedule for regulatory, legal, and business-critical records in your organization. It is for that special set of content which needs to be immutable (cannot be changed).
+Records management uses intelligent classification to automate and simplify the retention schedule for regulatory, legal, and business-critical records in your organization. It is for that special set of content that needs to be immutable (cannot be changed).
 
 **Information governance** and **Records management** are covered in more depth in other modules in this learning path, but here are some key themes of the Microsoft solutions for governing your data.
 

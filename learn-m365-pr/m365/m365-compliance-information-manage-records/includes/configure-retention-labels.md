@@ -1,4 +1,4 @@
-The information governance and records management solutions both use retention labels. You can create your own retention labels for records management or edit the labels created during the file plan import process. One additional step is added, and another is modified during the retention label configuration process in records management. The additional step provides the opportunity to add additional records management specific metadata. The modified step enables the label to be used to declare records.
+The information governance and records management solutions both use retention labels. You can create your own retention labels for records management or edit the labels created during the file plan import process. One additional step is added, and another is modified during the retention label configuration process in records management. The additional step provides the opportunity to add additional records-management specific metadata. The modified step enables the label to be used to declare records.
 
 Navigate to **Microsoft 365 compliance center > Records management > File plan** to configure retention labels for records management.
 
@@ -48,7 +48,7 @@ The file plan descriptors step is unique to records management. File plan descri
 
 ### Retention
 
-Turn retention on if you want to apply retention settings to this label. Leaving retention off results in the label behaving like a text label. Turning on the label results in additional settings pertaining to whether the content should be deleted or retained. When the label is applied to the content, the content is retained and/or deleted based on the settings you configure. If retained for a period of time, additional options are presented to configure what is to be done after the retention period has expired. You can also configure what trigger starts the retention period clock ticking.
+Turn on retention if you want to apply retention settings to this label. Leaving retention off results in the label behaving like a text label. Turning on the label results in additional settings pertaining to whether the content should be deleted or retained. When the label is applied to the content, the content is retained and/or deleted based on the settings you configure. If retained for a period of time, additional options are presented to configure what is to be done after the retention period has expired. You can also configure what trigger starts the retention period clock ticking.
 
 ### When this label is applied to content...
 
@@ -73,7 +73,7 @@ Basing the label on an event means content will be retained forever until you cr
 
 ### Label classification
 
-This configuration option is unique to the records management solution. If selected, the label will be used to classify the content as a record. Users will not be able to edit or delete the content or change or remove the label. However, they will still be able to edit the content's metadata. Classifying content as a record makes it immutable  .
+This configuration option is unique to the records management solution. If selected, the label will be used to classify the content as a record. Users will not be able to edit or delete the content or change or remove the label. However, they will still be able to edit the content's metadata. Classifying content as a record makes it immutable.
 
 ## Step 4: Review your settings
 

@@ -51,8 +51,8 @@ You can select between the categories described in the following table.
 | Cloud  provider | The IP  address ranges associated with your cloud provider   |
 | Corporate       | The IP  address ranges of your public IP addresses for your internal network, any  branch offices, and your Wi-Fi roaming addresses. |
 | Risky           | The IP  address ranges that you consider to be risky. These might include suspicious  addresses you've encountered before, or the IP ranges of your competitors'  networks. |
-| VPN             | The IP ranges  allocated for use by remote employees that connect via VPN. |
-| Other           | For custom  use based on tagging.                            |
+| VPN             | The IP ranges allocated for use by remote employees that connect via VPN. |
+| Other           | For custom use based on tagging.                            |
 
 > [!TIP]
 > When you tag an IP address as corporate, that's reflected in the portal, and the IP addresses are excluded from triggering specific detections.

@@ -69,7 +69,7 @@ With each additional condition in your filter, the number of returned apps is re
 
 ### Request or override an app score
 
-If, for whatever reason, you want to update the listed risk factor, risk score, or update the app data in the catalog, you can do so. Select the appropriate app in the catalog, and then select **Action** (the ellipsis button) for that app. You can then configure the following options:
+If you want to update the listed risk factor, risk score, or update the app data in the catalog, you can do so. Select the appropriate app in the catalog, and then select **Action** (the ellipsis button) for that app. You can then configure the following options:
 
 - **Request score update**. Choose this option to request a revised score. Available options are: Suggest new risk factor, Score update request, and App data is outdated. Choose the appropriate option, enter the reason for the reassessment or request, and then select **Submit**.
 - **Override app score**. Choose this option to override the current score. Optionally, specify **App** **notes** that explain your change. Select **Save** when done.

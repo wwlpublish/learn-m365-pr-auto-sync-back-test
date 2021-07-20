@@ -16,7 +16,7 @@ In this scenario, the following objectives apply:
 - Device is managed by WSUS.
 - Device is not configured to enable Microsoft Update.
 - Office and other software apps are on WSUS.
-- Third party drivers are on WSUS.
+- Third-party drivers are on WSUS.
 
 ![Diagram showing use of WSUS to defer Windows updates with other update content hosted on WSUS.](../media/busn-scenario1.png)
 

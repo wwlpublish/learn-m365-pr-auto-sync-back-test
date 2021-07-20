@@ -86,7 +86,7 @@ Here are the settings available to you:
 
    :::image type="content" source="../media/block-service-domains.png" alt-text="A screenshot shows the Service domains window with www.dropbox.com listed as a blocked service domain.":::
 
-   This is the notification that a user gets when they try to upload  protected content into Dropbox. Notice that the user can override the restriction because the policy was configured with the option to allow override. The policy could just as easily have been configured to prevent it from being overridden.
+   This is the notification that a user gets when they try to upload  protected content into Dropbox. Notice that the user can override the restriction because the policy was configured with the option to allow override. The policy could as easily have been configured to prevent it from being overridden.
 
    :::image type="content" source="../media/dropbox.png" alt-text="A screenshot shows a Microsoft Edge window with a notification window displayed. The notification tells the user that they can't upload the data they are trying to upload.":::
 

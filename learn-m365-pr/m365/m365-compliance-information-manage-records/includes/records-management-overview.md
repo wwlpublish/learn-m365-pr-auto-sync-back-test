@@ -15,7 +15,7 @@ Records management introduces the concept of a file plan. A file plan specifies 
 
 ## Record declaration
 
-The ability to declare an item as a record  is at the heart of records management. You can determine where, when, and how your records are retained, and attend to new and pending disposition alerts. Declaring an item as a record means it becomes immutable and cannot be modified (with the exception of the name and metadata in SharePoint Online and OneDrive) or deleted until after the retention period has passed.
+The ability to declare an item as a record  is at the heart of records management. You can determine where, when, and how your records are retained, and attend to new and pending disposition alerts. Declaring an item as a record means it becomes immutable and cannot be modified (except for the name and metadata in SharePoint Online and OneDrive) or deleted until after the retention period has passed.
 
 ## Record versioning
 

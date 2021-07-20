@@ -23,7 +23,7 @@ Enter a description of the retention policy's purpose.
 
 ## Step 2: Settings
 
-The first decision you need to make when configuring the settings for the retention policy is which path to take, basic or advanced. The basic path, along with its branches, is represented by the settings under the heading, **Do you want to retain content?** The advanced path is represented by the settings under the heading. **Need more options?** The basic branch applies to all content in the locations you choose, while the advanced path lets you set more granular application options.
+The first decision you need to make when configuring the settings for the retention policy is which path to take: basic or advanced. The basic path, along with its branches, is represented by the settings under the heading, **Do you want to retain content?** The advanced path is represented by the settings under the heading. **Need more options?** The basic branch applies to all content in the locations you choose, while the advanced path lets you set more granular application options.
 
 > [!NOTE]
 > While the advanced **Need more options?** path still exists today, a best practice is to use retention labels instead when you need to apply granular retention settings. It is not covered here for that reason.
@@ -92,7 +92,7 @@ The policy will apply to content in the group's mailbox, site, files, conversati
 
 ### Skype for Business conversations
 
-Applying a policy to all Skype for Business conversations in your organization is not supported. If you want to retain these conversations, you need to turn the location on, then manually choose the users whose conversations you want to retain.
+Applying a policy to all Skype for Business conversations in your organization is not supported. If you want to retain these conversations, you need to turn on the location, then manually choose the users whose conversations you want to retain.
 
 ### Teams chats and channel messages
 
@@ -100,7 +100,7 @@ To retain Teams content, you can only turn on one or both Teams locations. All o
 
 ## Step 4: Review your settings
 
-The final step in the process is to review your settings and make any necessary updates. Option include publishing the policy right away or saving it for later.
+The final step in the process is to review your settings and make any necessary updates. Options include publishing the policy right away or saving it for later.
 
 ### Retention policy status
 

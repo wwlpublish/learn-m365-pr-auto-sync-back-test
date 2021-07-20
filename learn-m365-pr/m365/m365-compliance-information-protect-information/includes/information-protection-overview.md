@@ -10,7 +10,7 @@ Sensitive information types help define how Microsoft 365 recognizes specific ki
 
 ## Customer scenarios
 
-Here are some common scenarios Microsoft's solution for information protection can address:
+Here are some common scenarios that Microsoft's solution for information protection can address:
 
 - Classify content to generate usage reports for your sensitive content.
 - Enforce encryption on any document labeled as confidential.

@@ -14,7 +14,7 @@ Keep in mind imported file plan labels still need to be published or auto applie
 
 ## Step 1: Download the file plan template
 
-The file plan template is a comma separated value (CSV) file. You download it from the file plan page of the records management solution. Many of your stakeholders will be familiar with using Excel for file plan management, and you may be able to use this template as you collaborate with stakeholders during file plan and retention schedule development. The template fields will not match your organization's existing file plan and retention schedule, so you will need to determine how to reconcile the differences. Here is a list of the fields in the file plan template:
+The file plan template is a comma-separated value (CSV) file. You download it from the file plan page of the records management solution. Many of your stakeholders will be familiar with using Excel for file plan management, and you may be able to use this template as you collaborate with stakeholders during file plan and retention schedule development. The template fields will not match your organization's existing file plan and retention schedule, so you will need to determine how to reconcile the differences. Here is a list of the fields in the file plan template:
 
 - LabelName
 - Comment

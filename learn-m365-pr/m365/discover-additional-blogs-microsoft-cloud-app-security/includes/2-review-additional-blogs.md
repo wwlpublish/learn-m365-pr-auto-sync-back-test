@@ -43,7 +43,7 @@ The following articles are already available for your review:
 
 Security administrators often focus on best practices for securing their organization's users, apps, services, and devices. But it's easy to forget that Security Administrators are also users. And it's at least, if not more, important to secure these administrative accounts within your organization.
 
-This blog seeks to highlight this issue, and to identify best practices to help ensure your administrative accounts are properly secured. In the article, the author discusses multi-factor authentication and default Azure Active Directory (Azure AD) roles.
+This blog seeks to highlight this issue, and to identify best practices to help ensure your administrative accounts are properly secured. In the article, the author discusses multifactor authentication and default Azure Active Directory (Azure AD) roles.
 
 You can review the content in this blog here: [Securing Administrative Access to Microsoft Cloud App Security and Defender for Identities](https://techcommunity.microsoft.com/t5/microsoft-security-and/securing-administrative-access-to-microsoft-cloud-app-security/ba-p/1754139?azure-portal=true).
 

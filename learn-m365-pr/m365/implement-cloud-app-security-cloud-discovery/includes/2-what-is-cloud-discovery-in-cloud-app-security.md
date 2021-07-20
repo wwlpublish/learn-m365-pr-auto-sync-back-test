@@ -84,7 +84,7 @@ But the dashboard displays only an at-a-glance summary of your discovered apps. 
 For example, the following screenshot displays the advanced filter options dialog box configured as follows:
 
 - Compliance risk factor: **SOC 2** equals **False**
-- Usage: **Transactions** great than **100**
+- Usage: **Transactions** greater than **100**
 - Usage: **Users** greater than **50**
 - Security risk factor: **Data-at-rest encryption** equals **Not supported**
 - **Risk score** equals **6 or lower**.

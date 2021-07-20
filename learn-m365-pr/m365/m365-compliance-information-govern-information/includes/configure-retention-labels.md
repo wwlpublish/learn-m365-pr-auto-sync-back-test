@@ -39,7 +39,7 @@ This is the name of the label users will see in the apps where the label if publ
 
 ### Description for admins
 
-This information is only be visible to admins who will manage this label so enter something helpful.
+This information is only visible to admins who will manage this label so enter something helpful.
 
 ### Description for users
 
@@ -49,7 +49,7 @@ This description will appear to users when they hover over the label in their ap
 
 ### Retention
 
-Turn retention on if you want to apply retention settings to this label. Leaving retention off results in the label behaving like a text label. Turning on the label results in additional settings pertaining to whether the content should be deleted or retained. When the label is applied to the content, the content is retained and/or deleted based on the settings you configure. If retained for a period of time, additional options are presented to configure what is to be done after the retention period has expired. You can also configure what trigger starts the retention period clock ticking.
+Turn on retention if you want to apply retention settings to this label. Leaving retention off results in the label behaving like a text label. Turning on the label results in additional settings pertaining to whether the content should be deleted or retained. When the label is applied to the content, the content is retained and/or deleted based on the settings you configure. If retained for a period of time, additional options are presented to configure what is to be done after the retention period has expired. You can also configure what trigger starts the retention period clock ticking.
 
 ### Retain the content
 
