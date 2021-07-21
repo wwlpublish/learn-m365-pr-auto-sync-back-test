@@ -1,6 +1,6 @@
-![step-8-wheel](../media/step-8-wheel.png)
+![A 8-spoke wheel with icons demonstrating the different Microsoft 365 services.](../media/step-8-wheel.png)
 
-![step-8-icon](../media/step-8-icon.png)
+![A graphic isolated from the 8-spoke wheel icon with a figure pointing to a screen indicating the communication features of Microsoft 365](../media/step-8-icon.png)
 
 If you're deploying Microsoft 365 Apps for the first time, you can communicate the positive impacts the new features will have for users. For example, you might tell them how they'll be able to more easily share files with OneDrive or SharePoint, reducing file branching and allowing for real-time co-authoring. You can provide guidance and training on new in-app capabilities, like attaching OneDrive linked files in Outlook or using the new Morph slide transitions and Designer features in PowerPoint. For Windows 10, you can show your users new capabilities like Windows Hello biometric login, personalization of the start menu, and Timeline to easily return to what they were working on.
 
