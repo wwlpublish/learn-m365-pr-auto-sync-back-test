@@ -4,7 +4,7 @@ Now we will look at how Megan can create an extractor to pull out the informatio
 
 1. Notice another pattern in the benefit change letters just before the name of the insurance provider:
 
-    > We are writing to inform you of a change in our insurance network participation with your insurance provider. . .
+    > We are writing to inform you of a change in our insurance network participation with your insurance provider...
 
     This is a phrase you can use to train an extractor to identify the _name_ of the insurance provider.
 
@@ -66,7 +66,7 @@ Now we will look at how Megan can create an extractor to pull out the informatio
 
     ![A screenshot of labeled training files with the 'Evaluation' column highlighted showing some files evaluated as 'Match' in green and 'Mismatch' in red.](../media/image053.png)
 
-In this example, you see that the second document is listed as a **"Mismatch."** This is because the insurance provider name is longer than two words.
+    In this example, you see that the second document is listed as a **"Mismatch."** This is because the insurance provider name is longer than two words.
 
 1. Click into the mismatched letter and note that the model highlights the first two words of the insurance provider name in green, and the rest of the name in blue.  
 

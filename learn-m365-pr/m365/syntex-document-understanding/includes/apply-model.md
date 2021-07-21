@@ -23,7 +23,7 @@ Now you are now ready to show Megan, who volunteered to be the model owner for H
    1. Select **"Documents."**
    1. Click the **"Add"** button at the bottom of the dialog box.
 
-    ![[A dialog box showing a list of available SharePoint available libraries within the Human Resources SharePoint site with the Documents library highlighted.](../media/image065.png)
+    ![A dialog box showing a list of available SharePoint libraries within the Human Resources SharePoint site with the Documents library highlighted.](../media/image065.png)
 
 1. If you prefer to apply the model to the existing HR Letters library, you will need to select each file, then choose **"classify and extract"** to run the model against the files one at a time.
 1. Click **"Go to the library"** at the bottom of the dialog box.
@@ -39,7 +39,7 @@ Now you are now ready to show Megan, who volunteered to be the model owner for H
    1. Navigate to _HR Letters_.
    1. Click **"Select all"** to load the files into the new library where the model has been applied. The upload may take a moment to complete.
 
-Initially, files copy into the library with only the "Content type" column filled in, but SharePoint Syntex goes to work evaluating each file against the model. As the model processes files, columns fill automatically.
+    Initially, files copy into the library with only the "Content type" column filled in, but SharePoint Syntex goes to work evaluating each file against the model. As the model processes files, columns fill automatically.
 
     ![A screenshot showing classified and labeled files.](../media/image069.png)
 

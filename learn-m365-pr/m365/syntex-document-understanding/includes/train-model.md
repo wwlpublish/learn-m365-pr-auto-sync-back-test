@@ -50,7 +50,7 @@ Now, you must explain to the model _why_ benefit change letters are benefit chan
 
 ![A screenshot of the classifier window with the 'Train' area of the top navigation menu highlighted.](../media/image031.png)
 
-12. The explanations dialog box opens in the training area.
+1. The explanations dialog box opens in the training area.
     1. Again, the first document is automatically selected and opened.  
     1. Explanations tell the model what elements go into making a benefit change letter.
 
