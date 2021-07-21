@@ -63,7 +63,7 @@ In this unit, you will teach the Accounting department how to plan for and creat
 
 ## Train and test your model
 
-13. The **"Add collections of documents"** page opens.
+1. The **"Add collections of documents"** page opens.
     1. Add the training files you identified earlier.
     1. Click **"New collection."**
     1. **"Add documents"** appears on the page with a button beneath it.
