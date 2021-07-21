@@ -11,7 +11,7 @@ People regularly send, receive, and share attachments, and it's not always easy 
 
 ## Configure and manage Safe Links
 
-Safe Links, a feature of Microsoft Defender for Endpoint, helps protect your organization from malicious links used in phishing and other attacks. If you have the necessary permissions for the Microsoft 365 Defender portal, you can set up Safe Links policies to help ensure that, when people click URLs, they’re taken to a warning page, and your organization is protected.
+Safe Links, a feature of Microsoft Defender for Endpoint, helps protect your organization from malicious links used in phishing and other attacks. If you have the necessary permissions for the Microsoft 365 Defender portal, you can set up Safe Links policies to help ensure that, when people click URLs, they're taken to a warning page, and your organization is protected.
 
 >[!NOTE]
 > The Safe Links web page contains a link to allow the user to continue to the website if they choose to ignore the warning.

@@ -1,7 +1,7 @@
 
-Your team has decided to use Microsoft Defender for Endpoint to protect your organization’s devices. But you aren’t sure about how you can best evaluate the protection of your devices in Microsoft Defender for Endpoint.
+Your team has decided to use Microsoft Defender for Endpoint to protect your organization's devices. But you aren't sure about how you can best evaluate the protection of your devices in Microsoft Defender for Endpoint.
 
-Here you’ll learn about Microsoft Defender for Endpoint's evaluation lab.
+Here you'll learn about Microsoft Defender for Endpoint's evaluation lab.
 
 ## Use the evaluation lab
 

@@ -1,4 +1,4 @@
-Exchange Online often stores sensitive information, so it’s vital to securely identify users and grant them access only to appropriate resources, such as their own mailbox.
+Exchange Online often stores sensitive information, so it's vital to securely identify users and grant them access only to appropriate resources, such as their own mailbox.
 
 ## Modern authentication for mobile devices
 
@@ -24,9 +24,9 @@ Modern authentication enables Outlook for iOS and Android to use these features:
 
 ## Basic authentication for mobile devices
 
-In basic authentication, the user’s client application sends the username and password to the server in plain text, so that the server can authenticate their identity. Basic authentication is simple and widely supported, but has the obvious disadvantage that the credentials can be intercepted and read by a malicious user as they traverse the network. You should only use basic authentication when you can't use a more secure method.
+In basic authentication, the user's client application sends the username and password to the server in plain text, so that the server can authenticate their identity. Basic authentication is simple and widely supported, but has the obvious disadvantage that the credentials can be intercepted and read by a malicious user as they traverse the network. You should only use basic authentication when you can't use a more secure method.
 
-A small number of clients (like EAS, POP3, and IMAP4 clients, which don’t support modern authentication) may need to use basic authentication. If you do use basic authentication, it's essential to protect the credentials by encrypting the communication with Transport Layer Security (TLS).  
+A small number of clients (like EAS, POP3, and IMAP4 clients, which don't support modern authentication) may need to use basic authentication. If you do use basic authentication, it's essential to protect the credentials by encrypting the communication with Transport Layer Security (TLS).  
 
 ## Learn more
 

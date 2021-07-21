@@ -1,6 +1,6 @@
 As a member of the security team for your organization, you understand that threats can emerge on any device, at any time. Your organization has many devices, which could potentially result in a lot of devices being affected by the same threat, or multiple threats.
 
-To help you address these issues, you’ll learn about the alerts queue, the incident queue, and how to investigate incidents.
+To help you address these issues, you'll learn about the alerts queue, the incident queue, and how to investigate incidents.
 
 ## What is the alerts queue?
 
@@ -18,7 +18,7 @@ You can select any alert in the list to get more detailed information. The alert
 - The users and devices impacted
 - The incident to which the alert relates
 
-Here’s what the alert details pane looks like:
+Here's what the alert details pane looks like:
 
 :::image type="content" source="../media/2-alert-details-pane-inline.png" lightbox="../media/2-alert-details-pane-expanded.png" alt-text="A screenshot showing the Alert details pane.":::
 

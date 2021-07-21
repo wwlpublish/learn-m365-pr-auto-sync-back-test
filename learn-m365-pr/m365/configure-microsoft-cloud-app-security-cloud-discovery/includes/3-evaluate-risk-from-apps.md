@@ -1,8 +1,8 @@
-It’s important that you understand how risky your organization’s apps are. You can use the Cloud App Catalog to help you make that determination.
+It's important that you understand how risky your organization's apps are. You can use the Cloud App Catalog to help you make that determination.
 
 ## Use the Cloud App Catalog
 
-To access the Cloud App Catalog, in the Cloud App Security portal, in the navigation pane, select Cloud app catalog. A list of over 16,000 apps displays, with the apps’ names, their respective scores, and Actions that have been performed against the app. The following screenshot displays this default layout.
+To access the Cloud App Catalog, in the Cloud App Security portal, in the navigation pane, select Cloud app catalog. A list of over 16,000 apps displays, with the apps' names, their respective scores, and Actions that have been performed against the app. The following screenshot displays this default layout.
 
 > [!NOTE]
 > the Cloud App Catalog is the list of all the apps Microsoft has evaluated. Discovered apps are all the apps that are mapped from the your environment.
@@ -35,7 +35,7 @@ To change these values, from the **Cloud Discovery dashboard** page, select **Se
 
 ### Filter the catalog
 
-Business units within organizations seek to use cloud apps to provide solutions to the business problems they face. As the number of apps grows, it’s increasingly difficult for IT to maintain control of those apps, and to ensure the apps are compliant and pose a low security risk.
+Business units within organizations seek to use cloud apps to provide solutions to the business problems they face. As the number of apps grows, it's increasingly difficult for IT to maintain control of those apps, and to ensure the apps are compliant and pose a low security risk.
 
 Since there are so many apps to review, you can filter the results. There are both basic and advanced filters that you can use. These are described in the following table.
 
@@ -69,7 +69,7 @@ With each additional condition in your filter, the number of returned apps is re
 
 ### Request or override an app score
 
-If, for whatever reason, you want to update the listed risk factor, risk score, or update the app data in the catalog, you can do so. Select the appropriate app in the catalog, and then select **Action** (the ellipsis button) for that app. You can then configure the following options:
+If you want to update the listed risk factor, risk score, or update the app data in the catalog, you can do so. Select the appropriate app in the catalog, and then select **Action** (the ellipsis button) for that app. You can then configure the following options:
 
 - **Request score update**. Choose this option to request a revised score. Available options are: Suggest new risk factor, Score update request, and App data is outdated. Choose the appropriate option, enter the reason for the reassessment or request, and then select **Submit**.
 - **Override app score**. Choose this option to override the current score. Optionally, specify **App** **notes** that explain your change. Select **Save** when done.
@@ -80,7 +80,7 @@ The following screenshot displays the **Actions** context menu for a selected ap
 
 ### Request an app review
 
-It’s possible that you might discover an app within your organization for which there is no score in Cloud App Security. If this happens, you can request a review of that app. To do so, use the following procedure:
+It's possible that you might discover an app within your organization for which there is no score in Cloud App Security. If this happens, you can request a review of that app. To do so, use the following procedure:
 
 1. In Cloud Discovery, select the ellipsis button in the upper right of the display.
 
@@ -88,7 +88,7 @@ It’s possible that you might discover an app within your organization for whic
 
     :::image type="content" source="../media/suggest-app.png" alt-text="A screenshot of the Cloud Discovery page in the Cloud App Security portal. The administrator has selected the ellipsis button to choose Suggest new app.":::
 
-3. Then, in the **Suggest new cloud app** dialog box, enter the app’s details, including the app name and domain, which are required. Then enter your email address if you want to be contacted about the app’s status.
+3. Then, in the **Suggest new cloud app** dialog box, enter the app's details, including the app name and domain, which are required. Then enter your email address if you want to be contacted about the app's status.
 4. Select **Submit** to complete the process.
 
 ## Use app risk scoring in Cloud App Security

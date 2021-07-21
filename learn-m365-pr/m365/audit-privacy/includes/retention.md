@@ -9,7 +9,7 @@ Microsoft has an ever-expanding network of datacenters across the globe to make 
 
 ## Data retention
 
-Regulatory compliance, internal governance requirements, or litigation risks may require organizations to preserve email and associated data in a discoverable form and prevent destruction or alteration (“immutability”). Through in-place retention and preservation policy features of archiving in Microsoft 365 and its services, Microsoft can preserve and retain many classes of incoming, internal, and outgoing data. This includes:
+Regulatory compliance, internal governance requirements, or litigation risks may require organizations to preserve email and associated data in a discoverable form and prevent destruction or alteration ("immutability"). Through in-place retention and preservation policy features of archiving in Microsoft 365 and its services, Microsoft can preserve and retain many classes of incoming, internal, and outgoing data. This includes:
 
 - Inbound and outbound email communications
 - Books and records contained in email form or in shared online documents

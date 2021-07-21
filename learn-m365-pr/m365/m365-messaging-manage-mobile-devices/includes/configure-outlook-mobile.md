@@ -1,18 +1,18 @@
-Let’s examine how you can control Outlook for iOS and Android clients by using Enterprise Mobility + Security or by using the built-in Mobile Device Management (MDM) features of Microsoft 365.
+Let's examine how you can control Outlook for iOS and Android clients by using Enterprise Mobility + Security or by using the built-in Mobile Device Management (MDM) features of Microsoft 365.
 
 ## Use Enterprise Mobility + Security to manage Outlook for iOS and Android
 
-Your Enterprise Mobility + Security subscription provides a versatile set of tools for managing your mobile clients. For example, you can selectively wipe your company’s data from a device, require data encryption, and block access from compromised or lost devices. This unit focuses on conditional access policies and app protection policies.
+Your Enterprise Mobility + Security subscription provides a versatile set of tools for managing your mobile clients. For example, you can selectively wipe your company's data from a device, require data encryption, and block access from compromised or lost devices. This unit focuses on conditional access policies and app protection policies.
 
 ### Create a conditional access policy
 
-Conditional access policies impose requirements that users and devices must satisfy before they can connect to Exchange Online. You can assign different policies to different groups in your organization. This technique is useful, because more powerful administrators’ accounts are targeted by attackers. It’s sensible to apply stricter policies to administrative users than those that apply to users with fewer permissions.  
+Conditional access policies impose requirements that users and devices must satisfy before they can connect to Exchange Online. You can assign different policies to different groups in your organization. This technique is useful, because more powerful administrators' accounts are targeted by attackers. It's sensible to apply stricter policies to administrative users than those that apply to users with fewer permissions.  
 
-To create a conditional access policy, follow these steps. In this example, the policy requires users to authenticate with multi-factor authentication:
+To create a conditional access policy, follow these steps. In this example, the policy requires users to authenticate with multifactor authentication:
 
 1. In the Azure portal, go to **Azure Active Directory > Security > Conditional Access**, and then select **New Policy**.
 2. Enter a descriptive name that will help other administrators to understand the purpose of the policy.  
-3. Select **Users and groups** under **Assignments**. Add the groups that you want the policy to apply to to the **Include** list. Add any groups that you don’t want the policy to apply to to the Exclude list. Click **Done**.  
+3. Select **Users and groups** under **Assignments**. Add the groups that you want the policy to apply to the **Include** list. Add any groups that you don't want the policy to apply to the Exclude list. Click **Done**.  
 4. Under **Cloud apps or actions > Include**, select **All cloud apps**, and then click **Done**.
 5. Under **Conditions > Client apps > Configure**, select **Yes**, and then click **Done**.
 6. Under **Access controls > Grant**, select **Grant access**, **require multi-factor authentication**, and then click **Select**.
@@ -20,7 +20,7 @@ To create a conditional access policy, follow these steps. In this example, the 
 
 ### Create an app protection policy
 
-An app protection policy ensures that your organization’s data remains secured, even when it is synchronized with a mobile device. For example, you can use app protection policies to prevent users from sharing your organization’s data with other apps on the same device. You could also prevent users from using screen capture tools to save an image of sensitive data, which could be shared with others later, either deliberately or accidentally.  
+An app protection policy ensures that your organization's data remains secured, even when it is synchronized with a mobile device. For example, you can use app protection policies to prevent users from sharing your organization's data with other apps on the same device. You could also prevent users from using screen capture tools to save an image of sensitive data, which could be shared with others later, either deliberately or accidentally.  
 
 In this example, you create a policy that prevents iOS devices from backing up your data or using copy and paste to transfer your data to another app:
 

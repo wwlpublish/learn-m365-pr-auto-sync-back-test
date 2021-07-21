@@ -44,7 +44,7 @@ This image shows a retention label named GDPR applied to an email in Outlook.
 
  ![GDPR retention label for Outlook email](../media/retention-label-outlook-email.png)
 
-Content can have both a sensitivity label and a retention label associated with it, but not more than one of each. An example might be an Excel file with a sensitivity label of “Internal use only” and a retention label named “Employee Record”.
+Content can have both a sensitivity label and a retention label associated with it, but not more than one of each. An example might be an Excel file with a sensitivity label of "Internal use only" and a retention label named "Employee Record".
 
 ### Policies
 
@@ -89,7 +89,7 @@ Azure Information Protection scanner helps discover, classify, label, and protec
 
 ## Discover and classify cloud services and SaaS apps
 
-Most organizations store some of their sensitive data outside the Microsoft ecosystem. Microsoft Cloud App Security extends protection to third party clouds and SaaS applications.  This solution includes the following capabilities:
+Most organizations store some of their sensitive data outside the Microsoft ecosystem. Microsoft Cloud App Security extends protection to third-party clouds and SaaS applications.  This solution includes the following capabilities:
 
 - Inspect files for sensitive information
 - Automatically apply labels to sensitive files identified in cloud apps

@@ -1,4 +1,4 @@
-To comply with business standards and industry regulations, it's critical that your organization protect sensitive information to prevent its inadvertent disclosure. Sensitive information can include financial data, health records, credit card numbers, social security numbers, and employee evaluations. Use data loss prevention (DLP) policies to identify, monitor, and automatically protect sensitive information across Microsoft 365. Microsoft DLP helps prevent users from accidentally, rather than intentionally sharing sensitive content. (If a user is determined enough to send sensitive data outside the organization, they will find another way to do so.)
+To comply with business standards and industry regulations, it's critical that your organization protects sensitive information to prevent its inadvertent disclosure. Sensitive information can include financial data, health records, credit card numbers, social security numbers, and employee evaluations. Use data loss prevention (DLP) policies to identify, monitor, and automatically protect sensitive information across Microsoft 365. Microsoft DLP helps prevent users from accidentally, rather than intentionally sharing sensitive content. (If a user is determined enough to send sensitive data outside the organization, they will find another way to do so.)
 
 DLP policies can:
 
@@ -11,7 +11,7 @@ DLP policies can:
 - Monitor and protect sensitive information in Excel, PowerPoint, Word, and Outlook.
 - Prevent the accidental sharing of sensitive information.
 - Educate users on staying compliant without interrupting their workflow.
-- Produce DLP alerts and reports showing content that matches your organization’s DLP policies.
+- Produce DLP alerts and reports showing content that matches your organization's DLP policies.
 
 Each DLP policy contains the following:
 
