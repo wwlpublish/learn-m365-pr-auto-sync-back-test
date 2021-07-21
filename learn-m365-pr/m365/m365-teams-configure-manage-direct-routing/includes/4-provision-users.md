@@ -92,7 +92,6 @@ The table below provides an at-a-glance example of the type of settings you migh
 |Routing behavior     | Only administrator routes evaluated, if no routes exist matching the callee number, the call drops        | <ul><li>Step 1. Routes configured by administrator evaluated.</li><li>Step 2. If no routed matching the callee number exist on Step 1, route the call via Microsoft Calling plan.</li></ul>         |
 |Assign routing     | `Grant-CsOnlineVoiceRoutingPolicy -Identity "User name" -PolicyName "US Only"` | `Grant-CsOnlineVoiceRoutingPolicy -Identity "User name" -PolicyName "US Only"` |
 
-
 ## Dial plans
 
 A dial plan consists of one or more normalization rules that define how phone numbers expressed in various formats are translated to an alternate format. The same dial string might be interpreted and translated differently in different dial plans. Depending on which dial plan is assigned to a given user, the same dialed number might be translated and routed differently. There can be a maximum of 1,000 tenant dial plans.

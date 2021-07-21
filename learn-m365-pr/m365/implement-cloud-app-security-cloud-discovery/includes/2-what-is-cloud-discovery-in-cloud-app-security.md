@@ -15,13 +15,13 @@ The following table describes these three key phases, which represent a continua
 
 | Phase                  | Description                                                  |
 | ---------------------- | ------------------------------------------------------------ |
-| Discover and  identify | Run Cloud  Discovery to identify your organization’s security posture. The first part of  this phase is to discover what apps are being used. The second part  identifies the risks levels of the discovered apps. |
-| Evaluate and  analyze  | During this  phase, you must evaluate compliance and verify whether discovered apps are  certified as compliant with your organization’s standards. You must also  determine app usage. Rarely used noncompliant apps can perhaps easily be  blocked. The third part of this phase is to consider alternatives to any  detected unsafe or noncompliant apps. |
+| Discover and  identify | Run Cloud  Discovery to identify your organization's security posture. The first part of  this phase is to discover what apps are being used. The second part  identifies the risks levels of the discovered apps. |
+| Evaluate and  analyze  | During this  phase, you must evaluate compliance and verify whether discovered apps are  certified as compliant with your organization's standards. You must also  determine app usage. Rarely used noncompliant apps can perhaps easily be  blocked. The third part of this phase is to consider alternatives to any  detected unsafe or noncompliant apps. |
 | Manage and  monitor    | In the third  phase, you must manage discovered cloud apps. This is an ongoing process  within an organization, and usually involves classifying apps according to  business status or justification for use. You typically use tags during this  process. |
 
 These three phases represent a continuous process within your organization. In addition to these three continual phases, you must also consider two additional phases. These are:
 
-- Reporting. Use Cloud App Security options to get insights into your organization’s app usage.
+- Reporting. Use Cloud App Security options to get insights into your organization's app usage.
 
    > [!TIP]
    > You can integrate Cloud Discovery logs into Azure Sentinel for further investigation and analysis.
@@ -50,7 +50,7 @@ Use this at-a-glance overview to review the overall cloud app usage in your orga
 
 ## Use the Cloud App Catalog
 
-You can use the Cloud App Catalog to help you understand how risky your organization’s apps are. The catalog contains a list of over 16,000 apps and their respective scores, and Actions that have been performed against the app. The following screenshot displays this default layout.
+You can use the Cloud App Catalog to help you understand how risky your organization's apps are. The catalog contains a list of over 16,000 apps and their respective scores, and Actions that have been performed against the app. The following screenshot displays this default layout.
 
 > [!NOTE]
 > The Cloud App Catalog is the list of all the apps Microsoft has evaluated.
@@ -79,12 +79,12 @@ The dashboard lists discovered apps in the Discovered apps section, as displayed
 
 :::image type="content" source="../media/dashboard.png" alt-text="A screenshot of the Cloud Discovery Dashboard page of the Cloud App Security portal.":::
 
-But the dashboard displays only an at-a-glance summary of your discovered apps. If you want to find out more about your organization’s app usage, you can filter the discovered apps. These filters enable you to determine which apps pose a risk, and which are widely used, among other factors.
+But the dashboard displays only an at-a-glance summary of your discovered apps. If you want to find out more about your organization's app usage, you can filter the discovered apps. These filters enable you to determine which apps pose a risk, and which are widely used, among other factors.
 
 For example, the following screenshot displays the advanced filter options dialog box configured as follows:
 
 - Compliance risk factor: **SOC 2** equals **False**
-- Usage: **Transactions** great than **100**
+- Usage: **Transactions** greater than **100**
 - Usage: **Users** greater than **50**
 - Security risk factor: **Data-at-rest encryption** equals **Not supported**
 - **Risk score** equals **6 or lower**.

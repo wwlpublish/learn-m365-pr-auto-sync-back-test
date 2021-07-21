@@ -31,7 +31,7 @@ The results show that corporate finance employees have 22 percent larger interna
 
 **Queries** give you access to row-level data and customizable metrics. You can import the row-level data into other analysis tools to create custom analyses, models, and dashboards.
 
-Under **Start custom query** in **Queries**, you’ll see a list of query options. The two most common are:
+Under **Start custom query** in **Queries**, you'll see a list of query options. The two most common are:
 
 - **Person query**. Extract person metrics for analysis of aggregated **employee** data.
 - **Meeting query**. Extract meeting-related metrics for analysis of aggregated **meeting** data.
@@ -44,24 +44,24 @@ Queries report the same underlying data, but the type of query determines the st
 
 There are multiple steps to run a query.
 
-1. Select the query you’d like to run.
+1. Select the query you'd like to run.
 1. In the **Description** field, enter the name of your query.
 1. (Optional) Adjust the granularity of the timeframe (day, week, or month) and the date range.
 1. (Optional) Select a set of rules excluding irrelevant calendar activity (meeting and attendee exclusions).
 
 ![Running a Person query](../media/person-query.png)
 
-After you’ve made these selections, do the following to further refine the data for analysis.
+After you've made these selections, do the following to further refine the data for analysis.
 
-**Step 1. Select your metrics**. Workplace Analytics metrics vary by query. You can select standard metrics from the list of options, but you can also customize some metrics by using filters. Here's an example of how you can pull meeting hours with the word “budgeting” in the subject line.
+**Step 1. Select your metrics**. Workplace Analytics metrics vary by query. You can select standard metrics from the list of options, but you can also customize some metrics by using filters. Here's an example of how you can pull meeting hours with the word "budgeting" in the subject line.
 
 ![Step 1 is select metrics](../media/step-1-select-metrics.png)
 
-**Step 2. Select filters**. With Workplace Analytics queries, you can change the scope of the data you'd like to analyze by limiting it to active employees and applying additional filters using attributes from the organizational data. In this view, we’ve applied a filter to look at the Human Resources group at Contoso. (Active employees are defined as employees who sent at least one email or Teams chat message in a given week.)
+**Step 2. Select filters**. With Workplace Analytics queries, you can change the scope of the data you'd like to analyze by limiting it to active employees and applying additional filters using attributes from the organizational data. In this view, we've applied a filter to look at the Human Resources group at Contoso. (Active employees are defined as employees who sent at least one email or Teams chat message in a given week.)
 
 ![Step 2 is select filters](../media/step-2-select-filters.png)
 
-**Step 3. Select organizational data**. You have the option to select which organizational attributes you’d like to include in your output.
+**Step 3. Select organizational data**. You have the option to select which organizational attributes you'd like to include in your output.
 
 ![Step 3 is select organizational data](../media/step-3-organizational-data.png)
 
@@ -144,7 +144,7 @@ With attendee exclusions, you can:
 
 ![Attendee exclusions](../media/attendee-exclusion.png)
 
-Use meeting or attendee exclusion rules in Workplace Analytics to exclude meetings or attendees you don’t want to include in your analysis (or include meetings excluded in the default meeting exclusion rule).
+Use meeting or attendee exclusion rules in Workplace Analytics to exclude meetings or attendees you don't want to include in your analysis (or include meetings excluded in the default meeting exclusion rule).
 
 ### Exclusions example scenario
 

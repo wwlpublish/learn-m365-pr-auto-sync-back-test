@@ -43,7 +43,7 @@ Some tips to keep in mind when running the queries:
 To load the data into the Ways of working assessment Power BI (PBI) template:
 
 1. Download the PBI template from the Ways of working assessment result.
-1. When prompted to paste the OData link directly in the PBI file, click **“OK**.
+1. When prompted to paste the OData link directly in the PBI file, click **OK**.
 1. Open the downloaded PBI template.
 1. Paste the Ways of working assessment OData link into the Ways of working assessment Query URL field.
 1. Return to your results in Workplace Analytics. In the Standard meeting query result, copy the OData link to the Standard meeting query output.

@@ -1,4 +1,4 @@
-In this module, you reviewed the Microsoft Teams user experience and learned about requirements and important considerations for deploying Teams as part of a Microsoft 365 installation. 
+In this module, you reviewed the Microsoft Teams user experience and learned about requirements and important considerations for deploying Teams as part of a Microsoft 365 installation.
 
 Now that you have completed this module, you should be able to:
   

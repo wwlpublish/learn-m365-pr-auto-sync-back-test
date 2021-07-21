@@ -11,7 +11,6 @@ Consider these recommended tasks during the planning process:
 - Review your speaker list. How diverse are they? Are there opportunities to bring in newer talent to work with seasoned presenters?
 - Plan for post-event surveys to get feedback from everyone involved.
 
-
 ### Plan for inclusive attendees
 
 One of the advantages of moving from in-person to virtual is that it broadens the pool of who can attend your event. Attendees may be participating from unique locations, they may have physical disabilities, and it's important that you consider who they are and what they're hoping to get from your event.
@@ -27,7 +26,6 @@ Start with [Simple things count](https://news.microsoft.com/stories/simplethings
 - Follow our lead.
 
 Consider the following questions about who your attendees are, what they're using, and where they're joining from to mitigate common event issues.
-
 
 |Area  |Questions  |Actions  |
 |---------|---------|---------|
@@ -68,7 +66,7 @@ Allow plenty of time for Q&A. Pre-seed questions in the chat window to get the b
 
 Rehearse, rehearse, rehearse! There's no replacement for preparation. Use your virtual team as a beta audience for your presenters.
 
-Online presentation skills are more complex when you don't have access to the non-verbal feedback from your audience. Consider making speaker training mandatory for your presenters. 
+Online presentation skills are more complex when you don't have access to the non-verbal feedback from your audience. Consider making speaker training mandatory for your presenters.
 
 Use the best hardware you can to improve video and audio. This can include external mics, video cameras, and lighting.
 

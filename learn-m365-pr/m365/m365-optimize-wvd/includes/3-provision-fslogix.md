@@ -5,8 +5,8 @@ To use FSLogix to separate user profiles from the session host virtual machines 
 1. Sign in to the [Azure portal](https://portal.azure.com?azure-portal=true).
 1. Search for **Storage accounts** by using the Azure portal search box.
 1. In **Storage accounts**, select **Add**.
-1. Select or create a resource group to contain your storage resources. 
-1. Enter a unique name for your Storage account. 
+1. Select or create a resource group to contain your storage resources.
+1. Enter a unique name for your Storage account.
 1. Accept the defaults for the rest of the values.
 
    :::image type="content" source="../media/3-create-storage-account.png" alt-text="Screenshot of the create storage account experience with resource group selected and a storage account name entered.":::
@@ -19,7 +19,7 @@ To use FSLogix to separate user profiles from the session host virtual machines 
 
 The following steps cover how to enable authentication for Azure file shares with Azure AD DS. If you're using AD DS on premises, you need to register your Azure storage account with AD DS, and then set the required domain properties on the storage account. Use the AzFilesHybrid Azure PowerShell module on a device that is domain joined to your on-premises AD DS. The `Join-AzStorageAccountForAuth` cmdlet performs the equivalent of an offline domain join on behalf of the Azure storage account. For the step-by-step instructions to enable authentication with AD DS on-premises, see the related Docs article at the end of this module.
 
-### Enable authentication for Azure file shares with Azure AD DS 
+### Enable authentication for Azure file shares with Azure AD DS
 
 1. In the storage account you created, under **Settings**, select **Configuration**.
 1. Under **Identity-based access for file shares**, enable the **Azure Active Directory Domain Services (AAD DS)** option.
@@ -65,9 +65,9 @@ Assign users a contributor role so they have permission to read and write file d
 
    :::image type="content" source="../media/3-new-file-share.png" alt-text="Screenshot that shows the new file share page with a name and quota entered.":::
 
-1. Click **Create**. 
+1. Click **Create**.
 
-This file share will use SMB 3.0 protocol with your session hosts. 
+This file share will use SMB 3.0 protocol with your session hosts.
 
 ## Get the access key and file share path
 
@@ -96,8 +96,6 @@ Any virtual machine (VM) you create by using a gallery image has the FSLogix sof
 1. Run FSLogixAppsSetup to install the FSLogix agent.
 
 ## Configure FSLogix
-
-
 
 Add a registry key to each VM registered to the host pool.  You'll need the storage account access key and the file share path.
 
@@ -132,7 +130,7 @@ The initial sign-in will take a little longer than usual. It's a one-time delay 
 
 1. Go back to your **Storage Account** in Azure.
 1. Go to the **File Share**.
-1. You’ll see the new virtual disk.
+1. You'll see the new virtual disk.
 
    :::image type="content" source="../media/3-profile-files.png" alt-text="Screenshot that shows the user profile disk in the Azure file share..":::
 

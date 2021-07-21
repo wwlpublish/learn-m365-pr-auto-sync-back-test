@@ -5,6 +5,7 @@ In your firm of legal advisors, most staff have undergone training on the approp
 Here, you'll learn how to use communication compliance features in Microsoft Teams to spot and prevent offensive communications.
 
 ## What is communication compliance?
+
 Communication compliance helps you to detect, capture, and act on inappropriate messages within your organization. Communication compliance helps identify the following types of content:
 
 - Offensive, profane, or harassing language
@@ -13,19 +14,19 @@ Communication compliance helps you to detect, capture, and act on inappropriate 
 
 Using communication compliance in Microsoft Teams can help minimize communication risks in your organization. After you've configured a communication compliance policy, you can actively manage inappropriate Microsoft Teams messages and content. Any inappropriate content will be automatically flagged in alerts.
 
-
 > [!NOTE]
 > Private Microsoft Teams channels are not supported by communication compliance. Also, chat communications sent by guest users to Teams users aren't monitored for inappropriate content.
 
 ## Communication compliance policies
+
 Teams administrators can configure communication compliance policies for:
 
 - User policies apply to an individual Teams user or may be applied to all Teams users in your organization. These policies cover messages that these users may send in 1:1 or group chats. Chat communications for the users are automatically monitored across all Microsoft Teams where the users are a member.
 - Teams policies apply to a Microsoft Team channel. These policies cover messages sent in the Teams channel only.
 
 ## Communication compliance permissions
-To manage communication policies and alerts, create one or more admin role groups. Assign users to specific role groups to manage different areas of communication compliance features or create one role group for all the communication compliance roles. The following table summarizes the roles and permissions:
 
+To manage communication policies and alerts, create one or more admin role groups. Assign users to specific role groups to manage different areas of communication compliance features or create one role group for all the communication compliance roles. The following table summarizes the roles and permissions:
 
 |Role  |Role permissions  |
 |---------|---------|
@@ -37,10 +38,11 @@ To manage communication policies and alerts, create one or more admin role group
 | | |
 
 ## Enable the audit log
+
 Communication compliance requires that the audit log is enabled. The log shows alerts and tracks remediation actions taken by reviewers. The audit logs are a summary of all activities associated with a defined organizational policy or anytime a communication compliance policy changes.
 You can use the Microsoft 365 Defender portal or PowerShell to turn on audit log search. You have to be assigned the Audit Logs role in Exchange Online to turn on audit log search.
 
-To enable the audit log follow these steps:
+To enable the audit log, follow these steps:
 
 1. Sign into the [Microsoft 365 Defender portal](https://security.microsoft.com).
 1. In the left navigation, select **Search** > **Audit log search**.
@@ -51,6 +53,7 @@ To enable the audit log follow these steps:
 After you turn on auditing, a message is displayed that says the audit log is being prepared and that you can run a search in a couple of hours after the preparation is complete. You only have to do this action once.
 
 ## Create a communication compliance policy for Microsoft Teams
+
 Once the audit log is enabled, you can start creating policy for communication compliance:
 
 1. Sign into the [Microsoft 365 compliance center](https://compliance.microsoft.com), from the left navigation, select **Show all** > **Communication compliance**.

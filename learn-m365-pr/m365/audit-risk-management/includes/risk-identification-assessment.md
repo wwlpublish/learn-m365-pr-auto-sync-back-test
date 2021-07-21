@@ -17,4 +17,4 @@ After risk scores have been calculated, the Microsoft 365 Trust team categorizes
 - _Medium_: Areas of medium risk exposure where there are moderate control deficiencies, inadequate controls in place, or controls that are not operating as intended.
 - _Low_: Areas of low risk exposure where there are minor deficiencies in implemented controls or policies.
 
-Once the Microsoft 365 Trust team has assessed and categorized all identified risks, they meet with stakeholders from each service team to ensure their assessment accurately represents Microsoft 365’s risk posture. Results of the assessment are reviewed by Microsoft 365 management.
+Once the Microsoft 365 Trust team has assessed and categorized all identified risks, they meet with stakeholders from each service team to ensure their assessment accurately represents Microsoft 365's risk posture. Results of the assessment are reviewed by Microsoft 365 management.

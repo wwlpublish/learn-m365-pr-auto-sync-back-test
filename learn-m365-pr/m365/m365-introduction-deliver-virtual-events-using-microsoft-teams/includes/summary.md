@@ -1,6 +1,6 @@
 Knowing that you needed to move your organization's summit from in person to a virtual event gave you the focus to see how Microsoft Teams and Microsoft 365 could help.
 
-In this module, you explored different kinds of virtual events, reviewed what the key roles are, and learned about the event design model for successful events. You learned how to make your events accessible and inclusive. You now know where to find the hardware, software, and licensing information for Microsoft 365 and Microsoft Teams, and how to share that information with your attendees. 
+In this module, you explored different kinds of virtual events, reviewed what the key roles are, and learned about the event design model for successful events. You learned how to make your events accessible and inclusive. You now know where to find the hardware, software, and licensing information for Microsoft 365 and Microsoft Teams, and how to share that information with your attendees.
 
 ## Next steps
 

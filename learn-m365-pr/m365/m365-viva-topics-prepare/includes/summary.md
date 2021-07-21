@@ -1,13 +1,14 @@
-To plan for a Viva Topics rollout strategy, you’ve learned you need a lot of content in scope for the AI topic discovery and insights. For the appropriate content for your users, you need the right people for crowdsourcing and resources.  
+To plan for a Viva Topics rollout strategy, you've learned you need a lot of content in scope for the AI topic discovery and insights. For the appropriate content for your users, you need the right people for crowdsourcing and resources.
 
 You have learned how to prepare for a Viva Topics rollout strategy with best practices for establishing Topics security and privacy settings. There are two recommended rollout strategies to choose from:  
 
-- **Fully crowd-sourced model** where everyone in the organization can add and edit topics. 
+- **Fully crowd-sourced model** where everyone in the organization can add and edit topics.
 - **Authoritative model** where a set group of people is responsible for adding and editing topics. They can rely on other people, but they are the ones responsible for doing it. In this model, everyone else is just a consumer where they can view Viva Topics in the term store.  
 
-Now that you've finished this module, you've learned to: 
-- Plan for Viva Topics in your organization 
-- Get your environment ready for Viva Topics 
+Now that you've finished this module, you've learned to:
+
+- Plan for Viva Topics in your organization
+- Get your environment ready for Viva Topics
 - Discover Viva Topics best practices
 
 ## Resources  

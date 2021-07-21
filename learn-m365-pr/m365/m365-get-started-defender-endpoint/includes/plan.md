@@ -1,6 +1,6 @@
-First, you’ll need to define what your organization's current security architecture is. This decision will then inform the tools you can use to onboard devices and the capabilities and features of Microsoft Defender for Endpoint that you will adopt.
+First, you'll need to define what your organization's current security architecture is. This decision will then inform the tools you can use to onboard devices and the capabilities and features of Microsoft Defender for Endpoint that you will adopt.
 
-Here you'll identify an architecture that is the closest to your current organization, review and then identify the tools that you can use. 
+Here you'll identify an architecture that is the closest to your current organization, review and then identify the tools that you can use.
 
 :::image type="content" source="../media/plan-table-contents.png" alt-text="A diagram showing the three topics covered in this unit, architecture, tools, and capabilities.":::
 
@@ -8,11 +8,11 @@ Here you'll identify an architecture that is the closest to your current organiz
 
 You can connect Microsoft Defender for Endpoint with your environment in different ways to meet your needs. The first step is to classify how your company is structured. Choose the architecture that best maps to your needs.
 
-### Cloud-native 
+### Cloud-native
 
 :::image type="content" source="../media/cloud-native.png" alt-text="Diagram explaining what a cloud native architecture looks like." border="false":::
 
-You should choose a cloud-native architecture if your organization’s devices are based in the cloud. For example, if all devices are managed by Microsoft Endpoint Manager, or if your organization would like to move to them in the future to be managed by Microsoft Endpoint Manager.
+You should choose a cloud-native architecture if your organization's devices are based in the cloud. For example, if all devices are managed by Microsoft Endpoint Manager, or if your organization would like to move to them in the future to be managed by Microsoft Endpoint Manager.
 
 ### Co-management
 
@@ -28,7 +28,7 @@ Choose an on-premises architecture if all your devices are using either Configur
 
 ## Select onboarding tools
 
-Once you've identified your organization’s architecture, you can identify the tools you'll use to onboard devices to Microsoft Defender for Endpoint. Each architecture type has a selection of tools to use for onboarding:
+Once you've identified your organization's architecture, you can identify the tools you'll use to onboard devices to Microsoft Defender for Endpoint. Each architecture type has a selection of tools to use for onboarding:
 
 |Architecture  |Tools  |
 |--------------|---------|
@@ -41,7 +41,7 @@ Once you've identified your organization’s architecture, you can identify the 
 
 ## Identify deployment rings
 
-Next, you need to define   deployment rings. Using deployment rings, you onboard a set number of devices first, look for potential issues (using exit criteria), and then address those issues before you go to the next set of devices. This is useful for your scenario, because you don’t want to onboard all your devices in one go.
+Next, you need to define   deployment rings. Using deployment rings, you onboard a set number of devices first, look for potential issues (using exit criteria), and then address those issues before you go to the next set of devices. This is useful for your scenario, because you don't want to onboard all your devices in one go.
 
 The recommended deployment ring structure to use with Microsoft Defender for Endpoint is as follows:
 
@@ -56,4 +56,5 @@ Each ring represents a group of devices. The rings work like this:
 |Full deployment|If the devices have passed the pilot ring, you can move to this final ring, where you onboard the rest of your devices in increments. Use the **Full deployment** link in the **Learn more** section to access best practice material on how to do this. |
 
 ## Learn more
+
 - [Plan your Microsoft Defender for Endpoint deployment](/microsoft-365/security/defender-endpoint/deployment-strategy?view=o365-worldwide&preserve-view=true)

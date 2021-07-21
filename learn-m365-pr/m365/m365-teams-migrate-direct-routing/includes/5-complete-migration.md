@@ -1,6 +1,6 @@
 There are some clean-up items you must consider after migrating your users onto Microsoft Teams Direct Routing for telephony. You might need to consider delegation, call forwarding, and Team calls. You will also need to plan for the possibility of new users coming into the organization in the middle of your migration.
 
-Suppose as an administrator you have finished migration. During the migration new employees were hired and you need to consolidate them into the Teams migration.  You will want disable hybrid (split domains). You want to update the DNS entries.
+Suppose as an administrator you have finished migration. During the migration, new employees were hired and you need to consolidate them into the Teams migration.  You will want disable hybrid (split domains). You want to update the DNS entries.
 
 In this module, you will learn about the steps necessary to complete the migration process.
 
@@ -8,11 +8,11 @@ In this module, you will learn about the steps necessary to complete the migrati
 
 Here are some things you should consider when migrating to Direct Routing from on-premises Skype for Business. We'll look at some additional voice components as part of the overall migration from on-premises Skype for Business to Teams, especially with Enterprise Voice.
 
-Consider delegation (Enterprise Voice), call forwarding, and Team calls. You'll need to reconfigure these items in Teams after you've made the migration to Teams-only mode. When you look at Enterprise Voice delegation, make sure that the delegator and the delegate migrate at the same time. You don't want to try to deal with a delegate that's in Teams-only mode and a delegator that's not. If you're still running a full on-premises auto attendants, you'll want to migrate them into cloud-based auto attendants. Under **Learn more** below, you'll find a link to **What are Cloud auto attendants?**.
+Consider delegation (Enterprise Voice), call forwarding, and Team calls. You'll need to reconfigure these items in Teams after you've made the migration to Teams-only mode. When you look at Enterprise Voice delegation, make sure that the delegator and the delegate migrate at the same time. You don't want to try to deal with a delegate that's in Teams-only mode and a delegator that's not. If you're still running a full on-premises auto attendant, you'll want to migrate them into cloud-based auto attendants. Under **Learn more** below, you'll find a link to **What are Cloud auto attendants?**.
 
 Next, you deal with response groups. There's no automated way to move response groups into teams call queues. You should recreate them as call queues. Under **Learn more**, you'll find a link to **Create a Cloud call queue**.
 
-The service numbers used with the call queues, and the resource accounts used with call queues, can be applied through Direct Routing. You bring the phone number in and assign it to a resource account that's used with a call queue then introduce that through Direct Routing. Note that, with on-premises Skype for Business, there's the concept of a Role Based Access Control (RBAC) role for a response group administrator. Currently, there's no equivalent in Teams.
+The service numbers used with the call queues, and the resource accounts used with call queues, can be applied through Direct Routing. You bring the phone number in and assign it to a resource account that's used with a call queue then introduce that through Direct Routing. With on-premises Skype for Business, there's the concept of a Role-Based Access Control (RBAC) role for a response group administrator. Currently, there's no equivalent in Teams.
 
 If you're using common area phones, they can be reconfigured to Teams. Under **Learn more** below, you'll find a link to **Set up the Common Area Phone license for Microsoft Teams**.
 

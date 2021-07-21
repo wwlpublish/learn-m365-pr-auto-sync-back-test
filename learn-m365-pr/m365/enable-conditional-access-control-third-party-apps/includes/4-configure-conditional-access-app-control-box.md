@@ -1,4 +1,4 @@
-Box provides Contoso’s users with cloud-based storage and collaborative tools and apps. However, you want to be sure that users are not downloading, or indeed uploading, files that might contain malicious content. You can use Cloud App Security to help manage these requirements by creating Conditional Access App Control session or access policies.
+Box provides Contoso's users with cloud-based storage and collaborative tools and apps. However, you want to be sure that users are not downloading, or indeed uploading, files that might contain malicious content. You can use Cloud App Security to help manage these requirements by creating Conditional Access App Control session or access policies.
 
 The process for configuring Conditional Access App Control with Cloud App Security for Box is broadly similar to the process we reviewed in the last unit for Workplace from Facebook.
 
@@ -58,7 +58,7 @@ The next step is to create a conditional access policy in Azure AD.
 
 ## Configure an access policy
 
-The final stage is to create the Access control or Session control policies. In this example, we’ll create an access policy. In the **Cloud App Security** portal, complete the following steps:
+The final stage is to create the Access control or Session control policies. In this example, we'll create an access policy. In the **Cloud App Security** portal, complete the following steps:
 
 1. In the navigation pane, select **Control** and then select **Policies**.
 1. In the **Policies** page, select the **Conditional access** tab.
@@ -68,4 +68,4 @@ The final stage is to create the Access control or Session control policies. In 
 1. Scroll down to **Actions**. Select **Block** if you want to enforce the access policy immediately. Otherwise, leave the value on **Test**.
 1. Select **Apply template**.
 1. Review any extra settings, and then select Create.
-1. When you’re finished, select **Create**.
+1. When you're finished, select **Create**.

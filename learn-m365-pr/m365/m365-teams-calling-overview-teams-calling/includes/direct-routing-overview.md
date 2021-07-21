@@ -21,7 +21,7 @@ Consider using Direct Routing if:
 
 ## Core deployment decisions
 
-There are a number of points that you need to address when considering how to deploy Direct Routing:
+There are many points that you need to address when considering how to deploy Direct Routing:
 
 - Which users should be able to use Direct Routing, and which services should they be able to access. For example, should all users be able to make external calls through Direct Routing, what voice routes are required, and what voice routing policies should be configured to control PSTN usage?
 - What licenses are required? Each user must have licenses assigned in Microsoft 365 or Office 365 for Phone System, Teams, and Microsoft Audio Conferencing.

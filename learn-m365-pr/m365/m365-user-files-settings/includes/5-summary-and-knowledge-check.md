@@ -1,1 +1,1 @@
-In this module you learned about the importance of giving users a like-for-like experience on their new device, and reviewed the different options for ensuring users’ files and settings have been captured and migrated.
+In this module, you learned about the importance of giving users a like-for-like experience on their new device, and reviewed the different options for ensuring users' files and settings have been captured and migrated.

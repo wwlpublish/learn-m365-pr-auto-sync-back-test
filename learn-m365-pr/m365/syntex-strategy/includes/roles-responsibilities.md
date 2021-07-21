@@ -9,7 +9,7 @@ You want to build a proposal for deploying SharePoint Syntex to your company's S
 
 It's possible that existing roles in your organization align with the responsibilities necessary to set up and administer SharePoint Syntex.
 
-##  Role and responsibilities
+## Role and responsibilities
 
 The SharePoint administrator, or knowledge admin, establishes your organization's SharePoint Syntex instance and maintains it. They'll configure form processing in individual SharePoint document libraries and set up content centers for the document understanding models, as needed. The SharePoint admin is also responsible for assigning and controlling permissions for who can access each content center.  
 
@@ -41,4 +41,4 @@ In addition to these roles and responsibilities, you need to think about who wil
 
 ## Global admin
 
-The global admin manages access for SharePoint Syntex users. They control levels of access and what users have access to. The global admin is likely a security specialist with IT understanding since tenant-level settings require more backend work and an understanding of how to administer IT settings. The global administrator needs to be comfortable with both establishing tenant-level settings and updating them on a regular basis, as needed,l including when new model owners and other admins are onboarded to your organization.
+The global admin manages access for SharePoint Syntex users. They control levels of access and what users have access to. The global admin is likely a security specialist with IT understanding since tenant-level settings require more backend work and an understanding of how to administer IT settings. The global administrator needs to be comfortable with both establishing tenant-level settings and updating them regularly, as needed, including when new model owners and other admins are onboarded to your organization.

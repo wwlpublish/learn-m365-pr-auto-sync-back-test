@@ -1,4 +1,4 @@
-In this module you learned about the Microsoft Defender for Office 365 component of Microsoft 365 Defender. 
+In this module, you learned about the Microsoft Defender for Office 365 component of Microsoft 365 Defender.
 
 Now that you have completed this module, you should be able to:
 
