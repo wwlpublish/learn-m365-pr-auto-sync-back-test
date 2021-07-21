@@ -1464,6 +1464,37 @@
       "source_path": "learn-m365-pr/wwl/deploy-microsoft-365-apps-for-enterprise/4-perform-self-service-installation-of.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/deploy-microsoft-365-apps-for-enterprise/4-complete-self-service-installation-of",
       "redirect_document_id": true
+    },
+
+    {
+      "source_path": "learn-m365-pr/m365/m365-identity-overview/index.yml",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/deploy-microsoft-365-apps-for-enterprise/4-complete-self-service-installation-of",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/m365/m365-identity-provisioning/index.yml",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/deploy-microsoft-365-apps-for-enterprise/4-complete-self-service-installation-of",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/m365/m365-identity-authentication/index.yml",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/deploy-microsoft-365-apps-for-enterprise/4-complete-self-service-installation-of",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/m365/m365-identity-secure-administrators/index.yml",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/deploy-microsoft-365-apps-for-enterprise/4-complete-self-service-installation-of",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/m365/m365-identity-cultural-shift/index.yml",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/deploy-microsoft-365-apps-for-enterprise/4-complete-self-service-installation-of",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/m365/m365-identity-zero-trust/index.yml",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/deploy-microsoft-365-apps-for-enterprise/4-complete-self-service-installation-of",
+      "redirect_document_id": true
     }
   ]
 }
