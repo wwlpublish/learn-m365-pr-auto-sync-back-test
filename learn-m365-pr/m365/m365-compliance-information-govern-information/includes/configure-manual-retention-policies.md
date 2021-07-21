@@ -24,7 +24,7 @@ You can select one or more labels you want to publish to your organization's app
 
 Retention labels can be published to Exchange Online, Office 365 groups, and OneDrive and SharePoint Online sites. You can publish to all locations at once or choose specific locations.
 
-Choosing “Let me choose specific locations” allows you to select the location (Exchange, SharePoint, etc.) add an inclusion/exclusion selection based on the characteristics of the location, as shown in the table below.
+Choosing "Let me choose specific locations" allows you to select the location (Exchange, SharePoint, etc.) add an inclusion/exclusion selection based on the characteristics of the location, as shown in the table below.
 
 | Location  | Include/Exclude  |
 |---|---|

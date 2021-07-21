@@ -19,7 +19,7 @@ Video: Modern Windows 10 Management with Enterprise Mobility + Security
 
 ## Deployment and provisioning
 
-With Windows 10, you can continue to use traditional OS deployment for small scale implementations, but you can also “manage out of the box” for a simpler experience for both users and IT. To transform new devices into fully configured, fully managed devices, you can:
+With Windows 10, you can continue to use traditional OS deployment for small scale implementations, but you can also "manage out of the box" for a simpler experience for both users and IT. To transform new devices into fully configured, fully managed devices, you can:
 
 - Avoid reimaging with cloud-based device management services such as [Microsoft Autopilot](/windows/deployment/windows-10-auto-pilot) for Windows 10 and [Microsoft Intune](/intune/understand-explore/introduction-to-microsoft-intune) for dynamic provisioning of subscriptions, applications, devices, and user profiles.
 
@@ -27,7 +27,7 @@ With Windows 10, you can continue to use traditional OS deployment for small sca
 
 - Use traditional imaging techniques such as deploying custom images using [System Center Configuration Manager](/sccm/core/understand/introduction).
 
-You have multiple options for [upgrading to Windows 10](https://technet.microsoft.com/itpro/windows/deploy/windows-10-deployment-scenarios). For existing devices running Windows 7 or Windows 8.1, it is recommended to use the robust in-place upgrade process for a fast, reliable move to Windows 10 while automatically preserving all the existing apps, data, and settings. This can mean significantly lower deployment costs, as well as improved productivity as end users can be immediately productive – everything is right where they left it. Of course, you can also use a traditional wipe-and-load approach if you prefer, using the same tools that you use today with Windows 7.
+You have multiple options for [upgrading to Windows 10](https://technet.microsoft.com/itpro/windows/deploy/windows-10-deployment-scenarios). For existing devices running Windows 7 or Windows 8.1, it is recommended to use the robust in-place upgrade process for a fast, reliable move to Windows 10 while automatically preserving all the existing apps, data, and settings. This can mean significantly lower deployment costs, and improved productivity as end users can be immediately productive – everything is right where they left it. Of course, you can also use a traditional wipe-and-load approach if you prefer, using the same tools that you use today with Windows 7.
 
 ## Updating and servicing
 
@@ -37,7 +37,7 @@ With **Windows as a Service**, your IT department no longer needs to perform com
 
 ## Identity and authentication
 
-You can use Windows 10 and services like [Azure Active Directory](https://azure.microsoft.com/documentation/articles/active-directory-whatis/) in new ways for cloud-based identity, authentication, and management. You can offer your users the ability to “bring your own device” (BYOD) or to “choose your own device” (CYOD) from a selection you make available. At the same time, you might be managing PCs and tablets that must be domain-joined because of specific applications or resources that are used on them.
+You can use Windows 10 and services like [Azure Active Directory](https://azure.microsoft.com/documentation/articles/active-directory-whatis/) in new ways for cloud-based identity, authentication, and management. You can offer your users the ability to "bring your own device" (BYOD) or to "choose your own device" (CYOD) from a selection you make available. At the same time, you might be managing PCs and tablets that must be domain-joined because of specific applications or resources that are used on them.
 
 You can envision user and device management as falling into these two categories:
 

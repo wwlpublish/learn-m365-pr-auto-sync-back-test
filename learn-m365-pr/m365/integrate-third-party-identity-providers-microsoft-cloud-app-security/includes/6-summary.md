@@ -1,4 +1,4 @@
-As a security administrator at Contoso, you’re involved the implementation of Microsoft Cloud App Security. In order to support your users’ apps, you have integrated additional identity services with Conditional Access App Control in Cloud App Security. You learned how to onboard and configure Conditional Access Control for any app using either PingOne or AD FS as the identity provider.
+As a security administrator at Contoso, you're involved the implementation of Microsoft Cloud App Security. In order to support your users' apps, you have integrated additional identity services with Conditional Access App Control in Cloud App Security. You learned how to onboard and configure Conditional Access Control for any app using either PingOne or AD FS as the identity provider.
 
 Now that you've completed this module, you should be able to:
 

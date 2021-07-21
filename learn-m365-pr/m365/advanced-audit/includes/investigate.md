@@ -19,7 +19,7 @@ Connecting to Exchange Online PowerShell V2 is required to use PowerShell to sea
 
 To connect to the Exchange Online PowerShell V2, open Windows PowerShell and follow the instructions based on your authentication method:
 
-### Accounts without multi-factor authentication
+### Accounts without multifactor authentication
 
 1. Run the following command:
 
@@ -38,7 +38,7 @@ Here you can see a successful connection to Exchange Online PowerShell V2.
 
  ![Successful connection to Exchange Online PowerShell V2.](../media/exchange-online.png)
 
-### Accounts with multi-factor authentication enabled
+### Accounts with multifactor authentication enabled
 
 1. Replace `UPN` with your account in user principal name format (meganb@contoso.com) and run the following command:
 
@@ -64,7 +64,7 @@ Here are the values used in the example:
 
 ## Check for sync activities
 
-If an attacker uses an email client to download messages in a mailbox, they can disconnect the computer from the Internet and view the messages offline. As a result, mailbox auditing wouldn't be able to audit these activities. You should assume all synced email messages were compromised if the request came from the attacker’s PC or Mac. To search for `MailItemsAccessed` records where the mail items were accessed via a sync operation, run the following command substituting the values for `EndDate`, `StartDate`, and `UserIds` values with what is appropriate for your situation.
+If an attacker uses an email client to download messages in a mailbox, they can disconnect the computer from the Internet and view the messages offline. As a result, mailbox auditing wouldn't be able to audit these activities. You should assume all synced email messages were compromised if the request came from the attacker's PC or Mac. To search for `MailItemsAccessed` records where the mail items were accessed via a sync operation, run the following command substituting the values for `EndDate`, `StartDate`, and `UserIds` values with what is appropriate for your situation.
 
 ```PowerShell
 Search-UnifiedAuditLog -StartDate 05/13/2020 -EndDate 05/14/2020 -UserIds meganb -Operations MailItemsAccessed -ResultSize 1000 | Where {$_.AuditData -like '*"MailAccessType","Value":"Sync"*'} | FL
@@ -78,7 +78,7 @@ Here are the values used in the example:
 |  EndDate |  05/14/2020 |
 | UserIds  | meganb  |
 
-Here are the results of running the `Search-UnifiedAuditLog` command. Megan Bowen’s mailbox (meganb) had one sync activity during the dates specified. The next step is to determine if the sync activity came from Megan Bowen (meganb) or the attacker.
+Here are the results of running the `Search-UnifiedAuditLog` command. Megan Bowen's mailbox (meganb) had one sync activity during the dates specified. The next step is to determine if the sync activity came from Megan Bowen (meganb) or the attacker.
 
  ![**Search-UnifiedAuditLog** command results](../media/search-unifiedauditlog.png)
 

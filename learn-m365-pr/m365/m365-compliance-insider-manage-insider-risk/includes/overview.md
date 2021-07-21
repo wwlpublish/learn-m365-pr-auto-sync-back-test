@@ -4,7 +4,7 @@ Trusting employees is key to fostering a dynamic and productive workplace. But w
 
 ![Path to insider risk](../media/path-to-insider-risk.png)
 
-The financial impact of insider threats is substantial, as companies suffer market, legal, reputational and productivity losses. According to the Ponemon Institute, the average cost of an insider incident arising from negligence is over USD307,000. If the insider is malicious, it's over USD750,000. Aside from financial loss, the impacts of insider risk can include damage to brand and reputation, competitive disadvantage, noncompliance with regulations, and loss of market share.
+The financial impact of insider threats is substantial, as companies suffer market, legal, reputational, and productivity losses. According to the Ponemon Institute, the average cost of an insider incident arising from negligence is over USD307,000. If the insider is malicious, it's over USD750,000. Aside from financial loss, the impacts of insider risk can include damage to brand and reputation, competitive disadvantage, noncompliance with regulations, and loss of market share.
 
 Traditional approaches to identifying insider risks such as user behavior analytics, monitoring user activity, and data loss prevention can suffer from limitations such as complex deployment scenarios, limited insights, and a lack of workload integration beyond SecOps.
 
@@ -74,5 +74,5 @@ Identifying and resolving internal risk activities and compliance issues with in
 ## Learn more
 
 - [Crowd Research Partners, Insider Threat Report](https://crowdresearchpartners.com/portfolio/insider-threat-report/?azure-portal=true)
-- [Carnegie Mellon CERT study: The “Big Picture” of Insider IT Sabotage Across U.S. Critical Infrastructures](https://resources.sei.cmu.edu/asset_files/TechnicalReport/2008_005_001_14981.pdf?azure-portal=true)
+- [Carnegie Mellon CERT study: The "Big Picture" of Insider IT Sabotage Across U.S. Critical Infrastructures](https://resources.sei.cmu.edu/asset_files/TechnicalReport/2008_005_001_14981.pdf?azure-portal=true)
 - [Carnegie Mellon University: Insider Threats in Healthcare](https://insights.sei.cmu.edu/insider-threat/2019/02/insider-threats-in-healthcare-part-7-of-9-insider-threats-across-industry-sectors.html?azure-portal=true)

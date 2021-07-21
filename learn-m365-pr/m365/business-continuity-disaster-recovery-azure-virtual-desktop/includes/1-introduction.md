@@ -22,4 +22,4 @@ To get the best learning experience from this module, you should have knowledge 
 - Intermediate knowledge of Azure operational concepts, such as monitoring, logging, and alerting.
 - Familiarity with Azure Virtual Desktop.
 - Familiarity with Windows virtualization technologies, including Remote Desktop Services.
-- (Optional) Access to an Azure environment that’s prepared for Azure Virtual Desktop: must have Azure Active Directory (Azure AD) configured and integrated with Active Directory Domain Services (AD DS), and an Azure Virtual Network that’s connected to your domain.
+- (Optional) Access to an Azure environment that's prepared for Azure Virtual Desktop: must have Azure Active Directory (Azure AD) configured and integrated with Active Directory Domain Services (AD DS), and an Azure Virtual Network that's connected to your domain.

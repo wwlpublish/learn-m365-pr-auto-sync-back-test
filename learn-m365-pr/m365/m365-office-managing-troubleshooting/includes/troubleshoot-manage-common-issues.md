@@ -25,7 +25,7 @@ In some cases, activation services will not set Office licensing and Office will
 - Ensure that the user is licensed for the corresponding Office subscription versions. If you're using KMS, make sure that the device can reach KMS services and that a matching KMS key has been installed on the Key Management server.
 - Check if there is a product key configured on the device – this applies to all activation types. Run **OSPP.vbs** to check licensing status using the following syntax:
 
-    ```cscript “C:\Program files\Microsoft Office\office16\ospp.vbs” /dstatus```
+    ```cscript "C:\Program files\Microsoft Office\office16\ospp.vbs" /dstatus```
 
 In some cases, you'll need to use **OLicenseCleanup.vbs** to remove user-based activation and attempt to sign in again.
 

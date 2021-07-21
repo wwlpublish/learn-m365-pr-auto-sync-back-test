@@ -39,17 +39,17 @@ This is the name of the label users will see in the apps where the label if publ
 
 ### Description for admins
 
-This information is only be visible to admins who will manage this label so enter something helpful.
+This information is only visible to admins who will manage this label so enter something helpful.
 
 ### Description for users
 
-This description will appear to users when they hover over the label in their apps. A default label showing the label’s retention settings will be displayed if left blank.
+This description will appear to users when they hover over the label in their apps. A default label showing the label's retention settings will be displayed if left blank.
 
 ## Step 2: Label settings
 
 ### Retention
 
-Turn retention on if you want to apply retention settings to this label. Leaving retention off results in the label behaving like a text label. Turning on the label results in additional settings pertaining to whether the content should be deleted or retained. When the label is applied to the content, the content is retained and/or deleted based on the settings you configure. If retained for a period of time, additional options are presented to configure what is to be done after the retention period has expired. You can also configure what trigger starts the retention period clock ticking.
+Turn on retention if you want to apply retention settings to this label. Leaving retention off results in the label behaving like a text label. Turning on the label results in additional settings pertaining to whether the content should be deleted or retained. When the label is applied to the content, the content is retained and/or deleted based on the settings you configure. If retained for a period of time, additional options are presented to configure what is to be done after the retention period has expired. You can also configure what trigger starts the retention period clock ticking.
 
 ### Retain the content
 
@@ -59,7 +59,7 @@ Selecting this option means the content will stay where it is for the time speci
 - **Trigger a disposition review**. A disposition review is where an individual, like a compliance officer, reviews items that have reached the end of their retention period and decides if they can be safely deleted (disposed). When items reach the end of the retention period, reviewers will receive an email notification and can go to the dispositions page to determine what happens to the item.
 - **Leave the content as is**. If you do not want to keep the content after the retention period expires, you must delete it yourself.
 
-### Don’t retain the content, just delete if it’s older than
+### Don't retain the content, just delete if it's older than
 
 Users will be free to permanently delete their email, documents, or other items. But when content reaches the age specified, it will be deleted. For example, email messages and calendar items will be deleted from users' mailboxes and documents will be deleted from their SharePoint or OneDrive libraries.
 

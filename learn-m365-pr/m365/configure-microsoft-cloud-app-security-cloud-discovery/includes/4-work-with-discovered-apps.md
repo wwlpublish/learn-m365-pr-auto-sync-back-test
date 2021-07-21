@@ -6,12 +6,12 @@ The dashboard lists discovered apps in the Discovered apps section, as displayed
 
 :::image type="content" source="../media/dashboard.png" alt-text="A screenshot of the Cloud Discovery Dashboard page of the Cloud App Security portal.":::
 
-The dashboard displays only an at-a-glance summary of your discovered apps. If you want to find out more about your organization’s app usage, you can filter the discovered apps. These filters enable you to determine which apps pose a risk, and which are widely used, among other factors.
+The dashboard displays only an at-a-glance summary of your discovered apps. If you want to find out more about your organization's app usage, you can filter the discovered apps. These filters enable you to determine which apps pose a risk, and which are widely used, among other factors.
 
 For example, the following screenshot displays the advanced filter options dialog box configured as follows:
 
 - Compliance risk factor: **SOC 2** equals **False**
-- Usage: **Transactions** great than **100**
+- Usage: **Transactions** greater than **100**
 - Usage: **Users** greater than **50**
 - Security risk factor: **Data-at-rest encryption** equals **Not supported**
 - **Risk score** equals **6 or lower**.
@@ -54,7 +54,7 @@ You can use Cloud Discovery to create several types of report:
 - Executive report
 - Snapshot report
 
-Both reports provide you with a great way to get a good understanding of what’s going on in Shadow IT across your organization. Both reports identify top potential risks and help you plan a workflow to mitigate and manage risks.
+Both reports provide you with a great way to get a good understanding of what's going on in Shadow IT across your organization. Both reports identify top potential risks and help you plan a workflow to mitigate and manage risks.
 
 To generate a Cloud Discovery executive report, from the Cloud Discovery dashboard, select the ellipsis button (…) on the Cloud Discovery dashboard. Then select **Generate Cloud Discovery executive report**.
 
@@ -70,11 +70,11 @@ You can enter the information for your report described in the following table.
 | Anonymize  private information | Select this  option to store and display only encrypted user names. |
 | Choose  traffic logs           | Select the  traffic logs you want to analyze.                |
 
-When you’re ready, select **Create**. It takes up to 24 hours to analyze the selected data. During this time, you can track the status of your report from the dashboard. When analysis is complete, you can review your report.
+When you're ready, select **Create**. It takes up to 24 hours to analyze the selected data. During this time, you can track the status of your report from the dashboard. When analysis is complete, you can review your report.
 
 ## Exclusions
 
-You might want to define exclusions from Cloud Discovery. For example, you may know of apps that are uninteresting for analysis; there might be apps installed on the local host that you don’t want to analyze. If you have items you want to exclude, you can use Cloud Discovery settings to define the exclusions. You can exclude analysis by defining excluded users or excluded IP addresses.
+You might want to define exclusions from Cloud Discovery. For example, you may know of apps that are uninteresting for analysis; there might be apps installed on the local host that you don't want to analyze. If you have items you want to exclude, you can use Cloud Discovery settings to define the exclusions. You can exclude analysis by defining excluded users or excluded IP addresses.
 
 Use the following procedure:
 

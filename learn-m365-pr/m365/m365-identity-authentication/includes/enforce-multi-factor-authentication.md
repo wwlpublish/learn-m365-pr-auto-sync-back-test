@@ -1,6 +1,6 @@
 Multifactor authentication (MFA) is a process where users are prompted during a sign-on event for more forms of identification. This prompt could be to enter a code they receive on their cellphone or provide a fingerprint scan. Requiring a second form of authentication increases security since this extra authentication factor is far more difficult for an attacker to obtain or duplicate than a password.
 
-Traditionally, Azure MFA would be enabled “per user.” In a per user environment, users enabled for MFA are prompted each time they sign into an application (except on a trusted network). This results in a poor user experience, because it doesn’t consider any other factors – such as device type, sign-on behavior, or client application.
+Traditionally, Azure MFA would be enabled "per user." In a per user environment, users enabled for MFA are prompted each time they sign into an application (except on a trusted network). This results in a poor user experience, because it doesn't consider any other factors – such as device type, sign-on behavior, or client application.
 
 A better way is to enable and use Azure MFA is with Conditional Access policies. Conditional Access lets you create and define policies that react to sign on events and request additional actions before a user is granted access to an application or service. Azure MFA and Conditional Access policies give you the flexibility to enable MFA for users during specific sign-on events.
 
@@ -20,7 +20,7 @@ The **Require multi-factor authentication** control can be resolved by:
 - Presence of the following claim in a token issued by the trusted federation service:
   - `https://schemas.microsoft.com/ws/2008/06/identity/claims/authenticationmethod` = `https://schemas.microsoft.com/claims/multipleauthn`
 - Windows Hello for Business Primary Refresh Token (PRT) with strong authentication:
-  - “ACR”: 2
+  - "ACR": 2
 - Azure MFA Service
 
 One of the optional conditions you can configure for Conditional Access policies is **Locations**. For example, you can exclude a set of IP Ranges (such as your corporate network) from the MFA Required policy. When you select the Locations condition in Conditional Access, there is an MFA Trusted IPs option:

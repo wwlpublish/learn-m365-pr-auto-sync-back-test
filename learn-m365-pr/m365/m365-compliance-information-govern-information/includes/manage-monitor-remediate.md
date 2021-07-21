@@ -8,7 +8,7 @@ The following cards from the overview page are relevant to information governanc
 - Top retention labels applied to content
 - Locations where retention labels are applied
 
-See the “Information protection and governance data classification” module in this learning path to learn more.
+See the "Information protection and governance data classification" module in this learning path to learn more.
 
 ## Learn more
 

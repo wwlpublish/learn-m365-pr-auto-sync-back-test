@@ -17,7 +17,7 @@ Here is the path to activate unified labeling: **Azure Information Protection > 
 
 ![Azure Information Protection unified labeling properties page after unified labeling has been activated](../media/azure-information-protection-unified-labeling-properties.png)
 
-Once labels are migrated you will see the same labels in Azure information Protection and the Microsoft 365 compliance center.
+Once labels are migrated, you will see the same labels in Azure information Protection and the Microsoft 365 compliance center.
 
 The image below shows the labels in Azure Information Protection.
 
@@ -27,27 +27,27 @@ The image below slows the successfully migrated labels in the Microsoft 365 comp
 
 ![Successfully migrated labels in the Microsoft 365 compliance center](../media/sensitivity-label-compliance-center.png)
 
-Here is an image of the service architecture **before** unified labeling activation. When the “Get policy” action is executed from the classic client, the source of the labels is the Azure Information Protection store.
+Here is an image of the service architecture **before** unified labeling activation. When the "Get policy" action is executed from the classic client, the source of the labels is the Azure Information Protection store.
 
 ![Service architecture before unified labeling activation](../media/service-architecture-before-unified-labeling-activation.png)
 
-Here is an image of the service architecture **after** unified labeling activation. When the “Get policy” action is executed from the classic client, the source of the labels is now the  Microsoft 365 compliance center unified labeling store. Note that **policies** and **conditions** are still sourced from the Azure Information Protection store for the classic client, even after migration. **Just the label source changes.**
+Here is an image of the service architecture **after** unified labeling activation. When the "Get policy" action is executed from the classic client, the source of the labels is now the  Microsoft 365 compliance center unified labeling store. Note that **policies** and **conditions** are still sourced from the Azure Information Protection store for the classic client, even after migration. **Just the label source changes.**
 
 ![Service architecture after unified labeling activation](../media/service-architecture-after-unified-labeling-activation.png)
 
-## Copy existing Azure Information Protection policies or create new polices in Microsoft 365 compliance center
+## Copy existing Azure Information Protection policies or create new policies in Microsoft 365 compliance center
 
 Once your labels have been migrated to the Microsoft 365 compliance center, determine if you want to copy your existing policies or start over with new ones.
 
 Here are some considerations before electing to copy policies:
 
-- **All or nothing**. All policies from Azure Information Protection will be copied. You cannot select which polices to copy.
+- **All or nothing**. All policies from Azure Information Protection will be copied. You cannot select which policies to copy.
 - **Immediate publishing**. Once policies are copied, they are **immediately published* to all unified labeling supported clients. All users with applications that support unified labeling will see any sensitivity labels associated with those policies. This may be what you intend, but do not copy your policies if you do not want the sensitivity labels associated with them to be visible to users.
 - **Policies not synchronized**. Unlike labels, **policies do not synchronize* between the Microsoft 365 compliance center and the Azure Information Protection pane. Once copied, each platform's policies are independent. Classic client users will still access the Azure Information Protection store for policies. Unified labeling clients will access the Microsoft 365 compliance center store.
 
-Selecting *Azure Information Protection > Unified labeling > Copy policies (Preview)** performs a one-time copy from the Azure Information Protection policy store to the Microsoft 365 compliance center policy store. The policies copied to compliance center use the naming convention “AIP_<policyname>”.
+Selecting *Azure Information Protection > Unified labeling > Copy policies (Preview)** performs a one-time copy from the Azure Information Protection policy store to the Microsoft 365 compliance center policy store. The policies copied to compliance center use the naming convention "AIP_<policyname>".
 
-Examples of the copy policies summary in Azure Information Protection and resulting policy in the Microsoft 365 compliance center are shown below. Notice the “AIP_” prefix to indicate this policy was copied from Azure Information Protection.
+Examples of the copy policies summary in Azure Information Protection and resulting policy in the Microsoft 365 compliance center are shown below. Notice the "AIP_" prefix to indicate this policy was copied from Azure Information Protection.
 
 The image below shows Unified labeling status in Azure Information Protection.
 
@@ -79,7 +79,7 @@ Organizations with Azure Information Protection clients (classic) installed shou
 
 The services are now in place for clients to use the unified sensitivity labels and label policies from the Microsoft 365 compliance center. Users still need a client with awareness of the unified sensitivity labels and policies. Windows users will either use the built-in client or install the unified labeling client following the selection guidance covered earlier in this module.
 
-There are two options for installing the Azure Information Protection unified labeling client, if required:
+There are two options for installing the Azure Information Protection unified labeling client, if necessary:
 
 Running the executable (EXE) version of the client is the recommended installation method. It can be configured to run in interactive mode or silent mode. It has the most flexibility and it is recommended because the installer checks for many of the prerequisites and can install any that are missing.
 
