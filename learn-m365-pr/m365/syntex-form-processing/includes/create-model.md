@@ -1,63 +1,63 @@
-In this unit, you will teach the accounting department how to plan for and create a form processing model to extract data from POs.Currently, their POs are stored in Microsoft OneDrive. To apply form processing to the existing POs and to every PO that is added to the file folder, you must make plans to import the forms to a dedicated SharePoint library.
+In this unit, you will teach the Accounting department how to plan for and create a form processing model to extract data from POs. Currently, their POs are stored in Microsoft OneDrive. To apply form processing to existing POs and to every PO that is added to the file folder, you must make plans to import the forms to a dedicated SharePoint library.
 
 1. Create a training set.
    1. Identify and isolate a group of files to be used to train the model you create.
    1. Five files are the recommended minimum.
-   1. Copy your files into a file folder named Training Set.
-   1. After you've brought over your PO examples, add at least two other files of the same type (PDF in this case) that are not POs.
+   1. Copy your files into a file folder named _Training Set_.
+   1. After you've brought over your PO examples, add at least two other files of the same type (PDF in this case) that are _not_ POs.
    1. For this example, Statements of Work in PDF format will suffice.
 1. Create a SharePoint document library where your POs will be imported
-   1. Click **"Site Contents"** in the left-hand pane of the accounting department's SharePoint site.
+   1. Click **"Site Contents"** in the left-hand pane of the Accounting department's SharePoint site.
 
-    ![Graphical user interface, application](../media/image005.png)
+    ![A screenshot of a SharePoint site with the Site contents button on the left-hand navigation menu highlighted.](../media/image005.png)
 
-1. Click *"New"* to create a new library dedicated to POs.
-   1. Select *"Document Library"* from the dropdown of options.
+1. Click **"New"** to create a new library dedicated to POs.
+   1. Select **"Document Library"** from the dropdown of options.
 
-    ![Graphical user interface, table](../media/image007.png)
+    ![A screenshot of the Site contents page showing avaiable document libraries.](../media/image007.png)
 
-1. The Create document library pane opens on the right-hand side of the screen.
+1. The **Create document library** pane opens on the right-hand side of the screen.
    1. Name the site – in this case _"POs."_
    1. Click **"Create."**
 
-    ![Graphical user interface, text, application](../media/image009.png)
+    ![A screenshot of the 'Create a document library' dialog box.](../media/image009.png)
 
 1. This creates a new, empty document library with no columns of useful information.
 
-    ![Graphical user interface, text, application](../media/image011.png)
+    ![A screenshot of a new, empty document library.](../media/image011.png)
 
 1. From within this empty SharePoint library, click on **"Automate"** in the upper right-hand navigation ribbon.
    1. From the dropdown, select **"AI Builder,"** which opens another option box
    1. Select **"Create a model to process forms."**
 
-    ![AI Builder](../media/image013.png)
+    ![A screenshot of the new document library with the AI Builder button, located in the Automate tab on the top navigation menu, higlighted.](../media/image013.png)
 
 1. A dialog box opens on the right-hand side of the page asking you to name your new model.
-   1. The name you choose will be used as the Content Type in your new SharePoint library, so select a name that makes sense in reference to how the forms will be labeled – as POs, for this example.
-   1. Type in the name. For this example, we'll use _"PO"_ as the name for the model.
-   1. In **Advanced Settings**, you have the choice between creating a new content type or selecting from a set of predefined content types available to SharePoint Syntex. For our purposes, you can leave the default "Create new" selected.
-   1. Also leave the box checked for default view of the library. Unchecking this box removes the view the model creates to show the data the model is going to extract. Without this box checked, it may look as if your model failed.
+   1. The name you choose will be used as the content type in your new SharePoint library, so select a name that makes sense in reference to how the forms will be labeled.
+   1. Type in the name. For this example, we'll use _"PO"_.
+   1. In **Advanced Settings**, you have the choice between creating a new content type or selecting from a set of predefined content types available to SharePoint Syntex. For our purposes, you can leave the default **"Create new"** selected.
+   1. Also, leave the box _checked_ for default view of the library. Unchecking this box removes the view the model creates to show the data the model is going to extract. Without this box checked, it may look as if your model failed.
    1. Click **"Create."**
 
-    ![Graphical user interface, text, application, email](../media/image015.png)
+    ![A screenshot of the 'Create a model to process forms' dialog box with the 'Create' button highlighted.](../media/image015.png)
 
 1. PowerApps AI Builder opens.
-   1. This transition may take a moment to complete as AI Builder creates your new model.
+   - This transition may take a moment to complete as AI Builder creates your new model.
 1. The AI Builder tool page opens on **"Choose information to extract."**
-   1. Accounting wants to see the PO number, the vendor's name, and the total PO amount in dollars.
+   - Accounting wants to see the PO number, the vendor's name, and the total PO amount in dollars.
 1. Click **"Add."**
    1. Select **"Field."**
 
-    ![Graphical user interface, text, application, email](../media/image017.png)
+    ![A screenshot of the 'Choose information to extract' dialog box with the 'Add' drop down and 'Field' selection highlighted](../media/image017.png)
 
-1. The Field dialog box opens, asking you to define the first field you want your AI model to extract.
+1. The **Field** dialog box opens, asking you to define the first field you want your AI model to extract.
    1. In this case, name the field _"PO-number."_
    1. Click **"Done.**"
    1. You'll see the field added to the page.
    1. Add another field called _"Vendor Name."_
    1. Add another field called _"PO-Total."_
 
-    ![Graphical user interface, text, application, email](../media/image019.png)
+    ![A screenshot of the 'Choose information to extract' dialog box with the fields and field types highlighted.](../media/image019.png)
 
 1. Click **"Next"** button at the bottom of the page.
 
@@ -67,7 +67,7 @@ In this unit, you will teach the accounting department how to plan for and creat
     1. Add the training files you identified earlier.
     1. Click **"New collection."**
     1. **"Add documents"** appears on the page with a button beneath it.
-    1. Click the plus sign in that "Add documents" button.
+    1. Click the plus sign in that **"Add documents"** button.
 
     ![Graphical user interface, application](../media/image021.png)
 
@@ -105,7 +105,7 @@ In this unit, you will teach the accounting department how to plan for and creat
 
     ![Graphical user interface, application](../media/image029.png)
 
-1. Highlight the PO Number.Click and drag to draw a dotted line box around the PO Number in your document.
+1. Highlight the PO Number. Click and drag to draw a dotted line box around the PO Number in your document.
 
     ![A picture containing Graphical user interface](../media/image031.png)
 
@@ -142,7 +142,7 @@ In this unit, you will teach the accounting department how to plan for and creat
 
     ![Graphical user interface, text, application](../media/image039.png)
 
-1. Select "Save and close" in the upper right-hand corner of the screen.
+1. Select **"Save and close"** in the upper right-hand corner of the screen.
 
     ![Graphical user interface, text, application](../media/image041.png)
 
@@ -156,7 +156,7 @@ In this unit, you will teach the accounting department how to plan for and creat
 
     ![A picture containing text](../media/image045.png)
 
-1. The Model summary page opens.
+1. The **Model summary** page opens.
    1. Review the information for your model.
    1. Click **"Train."**
 
@@ -171,7 +171,7 @@ In this unit, you will teach the accounting department how to plan for and creat
     ![Graphical user interface, diagram](../media/image049.png)
 
 1. The Details page opens with a banner across the top saying that your model hasn't been published and therefore, cannot be used in apps or flows.
-   1. To publish your model, click "Publish" at the bottom of the Training document box.
+   1. To publish your model, click **"Publish"** at the bottom of the Training document box.
 
     ![Graphical user interface, application](../media/image051.png)
 
