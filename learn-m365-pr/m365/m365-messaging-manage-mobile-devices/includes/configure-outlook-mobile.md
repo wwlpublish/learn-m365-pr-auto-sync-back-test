@@ -8,11 +8,11 @@ Your Enterprise Mobility + Security subscription provides a versatile set of too
 
 Conditional access policies impose requirements that users and devices must satisfy before they can connect to Exchange Online. You can assign different policies to different groups in your organization. This technique is useful, because more powerful administrators' accounts are targeted by attackers. It's sensible to apply stricter policies to administrative users than those that apply to users with fewer permissions.  
 
-To create a conditional access policy, follow these steps. In this example, the policy requires users to authenticate with multi-factor authentication:
+To create a conditional access policy, follow these steps. In this example, the policy requires users to authenticate with multifactor authentication:
 
 1. In the Azure portal, go to **Azure Active Directory > Security > Conditional Access**, and then select **New Policy**.
 2. Enter a descriptive name that will help other administrators to understand the purpose of the policy.  
-3. Select **Users and groups** under **Assignments**. Add the groups that you want the policy to apply to to the **Include** list. Add any groups that you don't want the policy to apply to to the Exclude list. Click **Done**.  
+3. Select **Users and groups** under **Assignments**. Add the groups that you want the policy to apply to the **Include** list. Add any groups that you don't want the policy to apply to the Exclude list. Click **Done**.  
 4. Under **Cloud apps or actions > Include**, select **All cloud apps**, and then click **Done**.
 5. Under **Conditions > Client apps > Configure**, select **Yes**, and then click **Done**.
 6. Under **Access controls > Grant**, select **Grant access**, **require multi-factor authentication**, and then click **Select**.

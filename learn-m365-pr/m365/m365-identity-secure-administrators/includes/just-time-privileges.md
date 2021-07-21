@@ -1,4 +1,4 @@
-Just in time (JIT) access is a model in which users receive temporary permissions to perform privileged tasks which prevents malicious or unauthorized users from gaining access after the permissions have expired. Access is granted only when users need it.
+Just in time (JIT) access is a model in which users receive temporary permissions to perform privileged tasks, which prevents malicious or unauthorized users from gaining access after the permissions have expired. Access is granted only when users need it.
 
 ![Azure AD Privileged Identity Management (PIM)](../media/pim.png)
 
@@ -31,7 +31,7 @@ First, you need to set up Privileged Identity Management so that users are eligi
 
      ![Activation screen](../media/activate.png)
 
-    When assigning a privileged identity-managed role, you can choose from those two assignment types – **eligible** and **active**. Eligible assignments require the member of the role to perform an action to use the role. Actions might include performing a multi-factor authentication (MFA) check, providing a business justification, or requesting approval from designated approvers. Active assignments don't require the member to perform any action to use the role. Members assigned as active have privileges assigned at all times. In the **roles** settings, we can configure the expiration duration for both of these assignment types.
+    When assigning a privileged identity-managed role, you can choose from those two assignment types – **eligible** and **active**. Eligible assignments require the member of the role to perform an action to use the role. Actions might include performing a multifactor authentication (MFA) check, providing a business justification, or requesting approval from designated approvers. Active assignments don't require the member to perform any action to use the role. Members assigned as active have privileges assigned at all times. In the **roles** settings, we can configure the expiration duration for both of these assignment types.
 
      ![Assignment screen](../media/assignment.png)
 

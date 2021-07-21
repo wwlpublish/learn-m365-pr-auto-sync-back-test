@@ -97,7 +97,7 @@ Now you can see the new policy.
 Use the following steps to create a mail flow rule by using PowerShell cmdlets.
 
 1. On a Windows 10 PC, sign in with a user who has administration rights. Open a new PowerShell window as an administrator.  
-2. Connect to the Microsoft 365 Exchange online account by running this cmdlets:
+2. Connect to the Microsoft 365 Exchange online account by running this cmdlet:
 
    ```powershell
    $Session = New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https://outlook.office365.com/powershell-liveid/ -Credential $UserCredential -Authentication Basic -AllowRedirection 

@@ -1,4 +1,4 @@
-To align with the new method of delivering feature and quality updates in Windows 10, Microsoft uses **servicing channels** to let you designate how frequently your individual devices are updated. For example, you can have test devices that the IT department updates with new features as soon as possible as well as specialized devices that require a longer feature update cycle to ensure continuity. 
+To align with the new method of delivering feature and quality updates in Windows 10, Microsoft uses **servicing channels** to let you designate how frequently your individual devices are updated. For example, you can have test devices that the IT department updates with new features as soon as possible as well as specialized devices that require a longer feature update cycle to ensure continuity.
 
 ## Use phased deployments for feature and security updates
 
@@ -15,10 +15,9 @@ Windows Update for Business is a free service that helps you keep Windows 10 dev
 
 ## Employ Express Updates for bandwidth management
 
-You can significantly reduce download size by using a technology like **Express Updates** in Windows. In this approach, the update engines compare the PC's current status and find only the delta needed to update it. Windows Update for Business and Windows Server Update Services have supported express updates for a long time, and Configuration Manager has been updated so that it can also use express updates. 
+You can significantly reduce download size by using a technology like **Express Updates** in Windows. In this approach, the update engines compare the PC's current status and find only the delta needed to update it. Windows Update for Business and Windows Server Update Services have supported express updates for a long time, and Configuration Manager has been updated so that it can also use express updates.
 
 ![Express Updates screen](../media/step-7-1.png)
-
 
 ### Explore how to optimize Windows 10 updates
 
@@ -26,4 +25,4 @@ View a [video version](https://www.microsoft.com/videoplayer/embed/RE44iA0) of t
 
 <a href="https://mslearn.cloudguides.com/guides/Optimize%20delivery%20of%20Windows%2010%20updates">![Optimize delivery of Windows 10 updates](../media/lab-optimize-updates.png)</a>  
 
-Be sure to click the full-screen option in the video player. When you're done, use the **Back** arrow in your browser to come back to this page. 
+Be sure to click the full-screen option in the video player. When you're done, use the **Back** arrow in your browser to come back to this page.

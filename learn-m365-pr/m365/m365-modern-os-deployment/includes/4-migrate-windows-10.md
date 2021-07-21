@@ -12,13 +12,11 @@ There are no images to deploy, no drivers to inject, and no infrastructure to ma
 
 Windows Autopilot is cloud-driven and based around Azure AD Premium and Microsoft Intune. Intune leverages the unique device IDs provided by the manufacturer or identified using PowerShell.
 
-Using Windows Autopilot, you can: 
+Using Windows Autopilot, you can:
 
-- Join devices to Azure AD automatically. 
-- Auto-enroll your users' devices into MDM services. 
-- Restrict the creation of the administrator account. 
+- Join devices to Azure AD automatically.
+- Auto-enroll your users' devices into MDM services.
+- Restrict the creation of the administrator account.
 - Customize the OOBE content specifically to your organization.
-- Apply applications, software update configurations, and compliance policies. 
+- Apply applications, software update configurations, and compliance policies.
 - Reset, repurpose, or recover devices.
- 
-

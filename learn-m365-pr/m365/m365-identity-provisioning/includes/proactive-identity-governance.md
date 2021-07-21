@@ -1,6 +1,6 @@
 ![identity governance](../media/identity-governance.png)
 
-Azure Active Directory (Azure AD) Identity Governance allows you to balance your organization's need for both security and employee productivity. Azure AD ensures the right people have the right access to the right resources. Azure AD and Enterprise Mobility + Security features allow you to mitigate access risk by protecting, monitoring, and auditing access to critical assets -- while ensuring employee and business partner productivity.
+Azure Active Directory (Azure AD) Identity Governance allows you to balance your organization's need for both security and employee productivity. Azure AD ensures the right people have the right access to the right resources. Azure AD and Enterprise Mobility + Security features allow you to mitigate access risk by protecting, monitoring, and auditing access to critical assets-while ensuring employee and business partner productivity.
 
 Access is easy to grant but much harder to keep track of. Not only do you need to track who is given access to what resources, you also need to be able to revoke access in a timely manner when it is no longer needed. Plus, access controls should apply to both internal and external users.
 

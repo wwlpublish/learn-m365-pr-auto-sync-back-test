@@ -14,7 +14,7 @@ Now that you've created public folder mailboxes for the organization, you can st
 
    ![Create a new public folder](../media/create-new-public-folder.png)
 
-   In the information pane on the right, note that Mail settings is disabled.
+   In the information pane on the right, Mail settings is disabled.
 
 5. Select the **Enable** link underneath.
 6. In the Warning dialog, select **Yes**.

@@ -8,7 +8,7 @@ Here you'll identify an architecture that is the closest to your current organiz
 
 You can connect Microsoft Defender for Endpoint with your environment in different ways to meet your needs. The first step is to classify how your company is structured. Choose the architecture that best maps to your needs.
 
-### Cloud-native 
+### Cloud-native
 
 :::image type="content" source="../media/cloud-native.png" alt-text="Diagram explaining what a cloud native architecture looks like." border="false":::
 
