@@ -1465,36 +1465,35 @@
       "redirect_url": "https://docs.microsoft.com/learn/modules/deploy-microsoft-365-apps-for-enterprise/4-complete-self-service-installation-of",
       "redirect_document_id": true
     },
-
     {
       "source_path": "learn-m365-pr/m365/m365-identity-overview/index.yml",
-      "redirect_url": "https://docs.microsoft.com/learn/modules/deploy-microsoft-365-apps-for-enterprise/4-complete-self-service-installation-of",
-      "redirect_document_id": false
+      "redirect_url": "https://docs.microsoft.com/learn/modules/manage-device-identity-ad-join/",
+      "redirect_document_id": true
     },
     {
       "source_path": "learn-m365-pr/m365/m365-identity-provisioning/index.yml",
-      "redirect_url": "https://docs.microsoft.com/learn/modules/deploy-microsoft-365-apps-for-enterprise/4-complete-self-service-installation-of",
-      "redirect_document_id": false
+      "redirect_url": "https://docs.microsoft.com/en-us/learn/modules/intro-to-azure-ad/",
+      "redirect_document_id": true
     },
     {
       "source_path": "learn-m365-pr/m365/m365-identity-authentication/index.yml",
-      "redirect_url": "https://docs.microsoft.com/learn/modules/deploy-microsoft-365-apps-for-enterprise/4-complete-self-service-installation-of",
-      "redirect_document_id": false
+      "redirect_url": "https://docs.microsoft.com/learn/modules/secure-aad-users-with-mfa/",
+      "redirect_document_id": true
     },
     {
       "source_path": "learn-m365-pr/m365/m365-identity-secure-administrators/index.yml",
-      "redirect_url": "https://docs.microsoft.com/learn/modules/deploy-microsoft-365-apps-for-enterprise/4-complete-self-service-installation-of",
-      "redirect_document_id": false
+      "redirect_url": "https://docs.microsoft.com/en-us/learn/modules/secure-app-with-oidc-and-azure-ad/",
+      "redirect_document_id": true
     },
     {
       "source_path": "learn-m365-pr/m365/m365-identity-cultural-shift/index.yml",
-      "redirect_url": "https://docs.microsoft.com/learn/modules/deploy-microsoft-365-apps-for-enterprise/4-complete-self-service-installation-of",
-      "redirect_document_id": false
+      "redirect_url": "https://docs.microsoft.com/en-us/learn/modules/protect-identities-with-aad-idp/",
+      "redirect_document_id": true
     },
     {
       "source_path": "learn-m365-pr/m365/m365-identity-zero-trust/index.yml",
-      "redirect_url": "https://docs.microsoft.com/learn/modules/deploy-microsoft-365-apps-for-enterprise/4-complete-self-service-installation-of",
-      "redirect_document_id": false
+      "redirect_url": "https://docs.microsoft.com/learn/modules/examine-zero-trust-approach-to-security-microsoft-365/",
+      "redirect_document_id": true
     }
   ]
 }
