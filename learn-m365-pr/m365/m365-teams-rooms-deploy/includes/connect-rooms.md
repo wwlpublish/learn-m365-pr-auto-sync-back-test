@@ -21,7 +21,7 @@ As you can see, this is a much more complex configuration. Because of the abilit
 
 ![complex Rooms configuration](../media/complex-configuration.png)
 
-- Your display should support HDMI Consumer Electronics Control (CEC) or PC Mode to automatically switch the screen on from standby. You may need to install CEC injectors to convert the wake signal coming from Teams Rooms to the displays.The displays can be 4K monitors but Teams Rooms only sends a 1920x1080 signal to the screens.
+- Your display should support HDMI Consumer Electronics Control (CEC) or PC Mode to automatically switch on the screen from standby. You may need to install CEC injectors to convert the wake signal coming from Teams Rooms to the displays. The displays can be 4K monitors but Teams Rooms only sends a 1920x1080 signal to the screens.
 - Only wired network connectivity is supported. Teams Rooms does not support wireless networking. Only DHCP is supported for assigning the initial IP address. However, you can sign in as admin and enable a static IP address after you complete the initial configuration.
 - Many cables can be extended for long-haul runs. Some Teams Rooms vendors have their own solutions to address this, such as display and table extensions. 
 - Always use the correct cables. Vendors design the systems with specific cables in mind. As was shown in the large meeting room, one of the connections uses category 6 cable. If the vendor wants you to use a category 6 cable, be sure you're using a category 6 cable and not a cable with a different rating. If running cables through walls, make sure those cables have the proper safety rating for in-wall cable runs.

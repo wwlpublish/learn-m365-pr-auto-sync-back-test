@@ -5,10 +5,12 @@ Suppose your legal firm needs to ensure that you keep all information that relat
 Here, you'll learn about retention policies and Data Loss Prevention (DLP) policies and how they can be used to keep or delete Teams content such as chat items or files.
 
 ## Retention policies
+
 In Microsoft Teams, retention policies allow you to keep data that's important and remove data that's no longer relevant.
 You may want to set a retention policy for regulatory, legal, business, or other reasons. You use retention policies to remove content and communications that are no longer needed or keep data for a certain period of time and then delete it.
 
 ### Create a retention policy for Microsoft Teams
+
 By default, Teams chat, channel, and files data are retained indefinitely. Use Teams retention policies for chat and channel messages and decide proactively whether to retain the data, delete it, or retain it for a specific period.
 
 To create a retention policy:
@@ -22,6 +24,7 @@ To create a retention policy:
 1. On the **Review your settings** page, check that your settings are correct, and then select **Create this policy**.
 
 ## DLP policies
+
 DLP helps you to comply with your region's data protection regulations and industry standards by identifying and protecting sensitive information. Sensitive information can include financial data or personal information such as credit card numbers, social security numbers, or health records. With a DLP policy you can identify, monitor, and automatically protect sensitive information.
 
 A DLP policy defines the locations of content to protect, including Microsoft Teams chat and channel messages, Exchange Online, SharePoint Online, and OneDrive for Business sites. It also defines how to protect the content using rules. For example, a rule might be configured to look for content containing social security numbers that have been shared with people outside your organization.

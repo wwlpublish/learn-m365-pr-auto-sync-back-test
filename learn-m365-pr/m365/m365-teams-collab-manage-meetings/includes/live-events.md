@@ -1,4 +1,4 @@
-With Teams live events, users in your organization can broadcast video and meeting content to large online audiences. You can create live events wherever your audience, team, or community resides, using Microsoft Stream, Teams, or Yammer.
+Users in your organization can use Teams live events to broadcast video and meeting content to large online audiences. You can create live events wherever your audience, team, or community resides, using Microsoft Stream, Teams, or Yammer.
 
 Live events are available in most areas. See the link below under **Learn more** for details on areas covered.
 

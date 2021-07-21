@@ -16,7 +16,8 @@ To scale up the production of a virtual event to the level of broadcasting to th
 A diagram that has five columns. The first shows complexity with simple at the top and an arrow pointing to down to complex. The second column is titled event scenario and lists Team meetings, webinars, virtual conferences, leadership townhall, and public broadcasts. The third column is production level, and lists webcams, could be custom production, and custom production only. The fourth column is attendees with the top value up to 10,000 and the bottom value up to 100,000. The last column is solution, and it lists Live event in Teams, then Live event in Yammer, and the lowest item is Live event in Stream.
 :::image-end:::
 
-The virtual event formats supported in Microsoft 365 range in complexity, based on what you need: 
+The virtual event formats supported in Microsoft 365 range in complexity, based on what you need:
+
 - **Team meetings**: Supported using a Teams meeting, with a limit of 1,000 attendees.
 - **Webinars**: Individual or series, often destination learning events, that require attendee registration. Can be pre-recorded or live presentations with two-way engagement with attendees (open or moderated).
 - **Virtual conferences**: Single or multi-day experiences with multi-track and varying content types, that funnel attendees to online communities for ongoing engagement, and moderated Q&A.

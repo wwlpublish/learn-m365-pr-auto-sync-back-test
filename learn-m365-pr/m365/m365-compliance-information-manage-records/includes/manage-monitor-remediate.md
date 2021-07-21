@@ -8,7 +8,7 @@ The following cards from the overview page are relevant to records management:
 - Top retention labels applied to content
 - Locations where retention labels are applied
 
-See the “Information protection and governance data classification” module in this learning path to learn more.
+See the "Information protection and governance data classification" module in this learning path to learn more.
 
 The records tagging report shows the count the content tagged as a record or non-record, and the percentage of content tagged as a record versus non-record.
 

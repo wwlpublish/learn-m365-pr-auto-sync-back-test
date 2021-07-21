@@ -1,4 +1,4 @@
-As the security analyst in your organization, you wanted to find a way to monitor and remediate threats to your organization's devices. You’ve learned that you can use Microsoft Defender for Endpoint's built-in features and capabilities to take advantage of intelligent detection and response measures to help you to protect your endpoints.
+As the security analyst in your organization, you wanted to find a way to monitor and remediate threats to your organization's devices. You've learned that you can use Microsoft Defender for Endpoint's built-in features and capabilities to take advantage of intelligent detection and response measures to help you to protect your endpoints.
 
 Now that you've completed this module, you should be able to:
 

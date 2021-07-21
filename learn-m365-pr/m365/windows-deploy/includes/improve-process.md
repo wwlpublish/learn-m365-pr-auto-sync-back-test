@@ -1,4 +1,4 @@
-After broad deployment, the cycle is almost complete. As the process manager, you’ll propose how your team can ensure its environment is positioned better for the next update, and that it can deploy updates more efficiently.
+After broad deployment, the cycle is almost complete. As the process manager, you'll propose how your team can ensure its environment is positioned better for the next update, and that it can deploy updates more efficiently.
 
 ## Capture learnings
 

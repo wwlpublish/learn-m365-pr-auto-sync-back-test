@@ -23,7 +23,7 @@ For example, the queue might need to be in use from 11am to 11:30pm, seven days 
 
 ### Do you want distinct initial greetings for business hours, after-hours, weekends, or holidays?
 
-For example, if the call rate outside of their business hours is very low, you can consider using special greetings.
+For example, if the call rate outside of their business hours is low, you can consider using special greetings.
 
 ### How are the agents compensated?
 
@@ -41,10 +41,10 @@ Hold music can help to reassure queuing callers but must be carefully chosen to 
 
 A cloud call queue has a limited number of options. The main decisions to make for the queue are:
 
-- Whether to assign a number directly to the queue or to have callers connect to an auto attendant first.
-- Whether to have an initial greeting as part of the call queue. Alternatively, an auto attendant can provide a greeting.
-- What hold music to use.
-- How to distribute the calls among the available agents.
+- Whether to assign a number directly to the queue or to have callers connect to an auto attendant first
+- Whether to have an initial greeting as part of the call queue. Alternatively, an auto attendant can provide a greeting
+- What hold music to use
+- How to distribute the calls among the available agents
 
 The following diagram shows an example call queue design without an attendant.
 

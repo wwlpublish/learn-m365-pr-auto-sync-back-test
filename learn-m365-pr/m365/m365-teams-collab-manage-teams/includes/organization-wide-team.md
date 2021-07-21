@@ -22,7 +22,7 @@ As your organization's directory is updated to include new active users, or if u
 
 To get the most benefit out of your org-wide team, team owners should follow these best practices:
 
-- Allow only team owners to post to the General channel, to reduce channel “noise.”
+- Allow only team owners to post to the General channel, to reduce channel "noise."
 - Turn off @team and @[team name] mentions to prevent overloading the entire organization.
 - Automatically mark important channels as favorites to ensure that everyone in your organization engages in specific conversations.
 - Set up channel moderation so that moderators can control who can start a new post in a channel, add and remove moderators, control whether team members can reply to existing channel messages, and control whether bots and connectors can submit channel messages.

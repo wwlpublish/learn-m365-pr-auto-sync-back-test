@@ -58,6 +58,6 @@ The **Locations where retention labels are applied** card shows the number of it
 
 ## Top activities detected.
 
-The **top activities detected** card summarizes the most common actions taken on items with sensitivity labels applied. This card helps you understand what users are doing with the organization’s sensitive data.
+The **top activities detected** card summarizes the most common actions taken on items with sensitivity labels applied. This card helps you understand what users are doing with the organization's sensitive data.
 
 ![Top activities detected](../media/top-activities-detected.png)

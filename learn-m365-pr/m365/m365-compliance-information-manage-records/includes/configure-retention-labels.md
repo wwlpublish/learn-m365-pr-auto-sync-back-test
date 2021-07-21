@@ -1,4 +1,4 @@
-The information governance and records management solutions both use retention labels. You can create your own retention labels for records management or edit the labels created during the file plan import process. One additional step is added, and another is modified during the retention label configuration process in records management. The additional step provides the opportunity to add additional records management specific metadata. The modified step enables the label to be used to declare records.
+The information governance and records management solutions both use retention labels. You can create your own retention labels for records management or edit the labels created during the file plan import process. One additional step is added, and another is modified during the retention label configuration process in records management. The additional step provides the opportunity to add additional records-management specific metadata. The modified step enables the label to be used to declare records.
 
 Navigate to **Microsoft 365 compliance center > Records management > File plan** to configure retention labels for records management.
 
@@ -29,7 +29,7 @@ This information is only visible to admins who will manage this label so enter s
 
 ### Description for users
 
-This appears to users when they hover over the label in some apps. A default label showing the label’s retention settings will be displayed if left blank.
+This appears to users when they hover over the label in some apps. A default label showing the label's retention settings will be displayed if left blank.
 
 ## Step 2: File plan descriptors
 
@@ -48,7 +48,7 @@ The file plan descriptors step is unique to records management. File plan descri
 
 ### Retention
 
-Turn retention on if you want to apply retention settings to this label. Leaving retention off results in the label behaving like a text label. Turning on the label results in additional settings pertaining to whether the content should be deleted or retained. When the label is applied to the content, the content is retained and/or deleted based on the settings you configure. If retained for a period of time, additional options are presented to configure what is to be done after the retention period has expired. You can also configure what trigger starts the retention period clock ticking.
+Turn on retention if you want to apply retention settings to this label. Leaving retention off results in the label behaving like a text label. Turning on the label results in additional settings pertaining to whether the content should be deleted or retained. When the label is applied to the content, the content is retained and/or deleted based on the settings you configure. If retained for a period of time, additional options are presented to configure what is to be done after the retention period has expired. You can also configure what trigger starts the retention period clock ticking.
 
 ### When this label is applied to content...
 
@@ -58,7 +58,7 @@ Turn retention on if you want to apply retention settings to this label. Leaving
 - **Trigger a disposition review**. A disposition review is where a reviewer evaluates the items that reach the end of their retention period to decide if they can be safely deleted (disposed). When items reach the end of the retention period, reviewers will receive an email notification and can go to the dispositions page to determine what happens to the item.
 - **Nothing. Leave the content as is**. If you do not want to keep the content after the retention period expires, you must delete it yourself.
 
-**Don’t retain the content, just delete if it’s older than**. Users will be free to permanently delete their email, documents, or other items at any time. But when content reaches the age specified, it will be deleted. For example, email messages will be deleted from users' mailboxes and documents will be deleted from SharePoint or OneDrive.
+**Don't retain the content, just delete if it's older than**. Users will be free to permanently delete their email, documents, or other items at any time. But when content reaches the age specified, it will be deleted. For example, email messages will be deleted from users' mailboxes and documents will be deleted from SharePoint or OneDrive.
 
 **Retain or delete the content based on**. You need to determine when you want the clock to start on the deletion or retention process. Here are your options:
 
@@ -73,7 +73,7 @@ Basing the label on an event means content will be retained forever until you cr
 
 ### Label classification
 
-This configuration option is unique to the records management solution. If selected, the label will be used to classify the content as a record. Users will not be able to edit or delete the content or change or remove the label. However, they will still be able to edit the content's metadata. Classifying content as a record makes it immutable  .
+This configuration option is unique to the records management solution. If selected, the label will be used to classify the content as a record. Users will not be able to edit or delete the content or change or remove the label. However, they will still be able to edit the content's metadata. Classifying content as a record makes it immutable.
 
 ## Step 4: Review your settings
 

@@ -1,6 +1,6 @@
-Microsoft Teams is a powerful collaboration platform that enables your organization's users to communicate more efficiently. 
+Microsoft Teams is a powerful collaboration platform that enables your organization's users to communicate more efficiently.
 
-Teams admin center is a great resource for administration, analytics, reporting and information. Most of the admin functions for managing Teams can be found here. The goal is to be able to accomplish all the admin functions inside of this single friendly UI interface.  Using the Microsoft Teams admin center, you can configure team settings and policies for a variety of workloads, manage apps and devices, manage Phone System, access to Teams reports and more, all from one central location.
+Teams admin center is a great resource for administration, analytics, reporting, and information. Most of the admin functions for managing Teams can be found here. The goal is to be able to accomplish all the admin functions inside of this single friendly UI interface.  Using the Microsoft Teams admin center, you can configure team settings and policies for a variety of workloads, manage apps and devices, manage Phone System, access to Teams reports and more, all from one central location.
 
 :::image type="content" border="false" source="../media/1-teams-admin-center-functional-overview.png" alt-text="Teams admin center functional overview":::
 

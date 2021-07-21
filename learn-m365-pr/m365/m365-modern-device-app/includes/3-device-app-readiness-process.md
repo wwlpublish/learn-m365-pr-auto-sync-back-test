@@ -1,16 +1,16 @@
 There are four steps to prepare for device and application readiness:
- 
-1. Take an inventory 
+
+1. Take an inventory
 2. Prioritize apps and hardware
 3. Test updates for compatibility
 4. Remediate issues
 
 ## 1. Take an inventory
 
-You can use **Windows Analytics Upgrade Readiness,** a powerful inventory tool, to guide you through any necessary preparation tasks, making use of application and driver compatibility information gathered through the upgrade of hundreds of millions of consumer PCs. This information gives you a detailed assessment, identifies compatibility issues that might block your upgrade, and is supported with links to suggested fixes known to Microsoft.
+You can use **Windows Analytics Upgrade Readiness,** a powerful inventory tool, to guide you through any necessary preparation tasks, making use of application and, driver compatibility information gathered through the upgrade of hundreds of millions of consumer PCs. This information gives you a detailed assessment, identifies compatibility issues that might block your upgrade, and is supported with links to suggested fixes known to Microsoft.
 
-The upgrade readiness tool workflow reports application and driver inventory, shows you which applications have known issues, which applications have no known issues, and which drivers have issues. Using this tool, you’ll:
- 
+The upgrade readiness tool workflow reports application and driver inventory, shows you which applications have known issues, which applications have no known issues, and which drivers have issues. Using this tool, you'll:
+
 - Review applications with known issues
 - Review known driver issues
 - Review low-risk apps and drivers
@@ -28,12 +28,12 @@ You'll find that most of the applications, drivers, and add-ins inventoried will
 
 As a supplement to the upgrade readiness tools, you can download information about supporting apps in Windows and optimized strategies for testing your apps in the [Windows 10 Compatibility Cookbook](https://download.microsoft.com/download/3/D/3/3D36E358-A7E4-4DA3-9FC4-6E85C850A6C6/Windows%2010%20Compatibility%20Cookbook.docx).
 
-In some instances, particularly non-critical, sparsely deployed applications and older devices, you might consider retiring or replacing apps and devices, rather than devoting time and resources to solving their complex issues.
+In some instances, particularly non-critical instances, sparsely deployed applications and older devices, you might consider retiring or replacing apps and devices, rather than devoting time and resources to solving their complex issues.
 
 ![Windows Analytics Upgrade Readiness test screen](../media/test-50.png)
 
 ## 4. Remediate issues
 
-The final phase of device and app readiness is to *remediate*. Here you’ll want to collect the required software or driver packages and use them to supersede or update older versions as part of the deployment process. As you work through the list remediating issues, you’ll see that more and more PCs become *Ready for Deployment.*  This means that both the drivers and apps on the PCs are noted as compatible with the version of Windows 10 you are targeting.
+The final phase of device and app readiness is to *remediate*. Here you'll want to collect the required software or driver packages and use them to supersede or update older versions as part of the deployment process. As you work through the list remediating issues, you'll see that more and more PCs become *Ready for Deployment.*  This means that both the drivers and apps on the PCs are noted as compatible with the version of Windows 10 you are targeting.
 
 ![Windows Analytics Upgrade Readiness remediate screen](../media/remediate-50.png)

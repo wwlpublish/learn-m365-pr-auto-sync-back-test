@@ -6,13 +6,13 @@ Let's look at new capabilities you can take advantage of with Windows 10, Micros
 
 ## Identity and access management
 
-Azure Active Directory (Azure AD) is the identity control plane for apps, devices, and cloud services while connecting to cloud services. Conditional access lets you define different authentication requirements based on where your user is logging in from and which device they’re using, as well as responses to anomalous behaviors.
+Azure Active Directory (Azure AD) is the identity control plane for apps, devices, and cloud services while connecting to cloud services. Conditional access lets you define different authentication requirements based on where your user is logging in from and which device they're using, as well as responses to anomalous behaviors.
 
-At the device level, you can use biometrics as unique identifiers for simpler and more secure access to devices and apps, moving toward the goal of eliminating passwords. Windows Hello offers device-based, multi-factor authentication that relies on the device itself, your PIN, or a unique biometric identifier like a face or fingerprint that can be enforced via policy.
+At the device level, you can use biometrics as unique identifiers for simpler and more secure access to devices and apps, moving toward the goal of eliminating passwords. Windows Hello offers device-based, multifactor authentication that relies on the device itself, your PIN, or a unique biometric identifier like a face or fingerprint that can be enforced via policy.
 
 ## Virtualization-based security
 
-Beyond identity, it’s important to consider continuous protection against both known and unknown threats. Windows 10 uses virtualization-based security at the core, with Secure Boot to ensure boot and code integrity. You can also help protect against credential theft with **Credential Guard** by maintaining user secrets in isolation from Windows. **Application Guard** can isolate and mitigate browser-based threats by running the browser in an isolated container. All these technologies use virtualization-based security in Windows 10 and are foundational changes that cannot be replicated on a Windows 7 system. Note that these also require UEFI, 64-bit Windows, and virtualization extension support with SLAT – at the hardware level.
+Beyond identity, it's important to consider continuous protection against both known and unknown threats. Windows 10 uses virtualization-based security at the core, with Secure Boot to ensure boot and code integrity. You can also help protect against credential theft with **Credential Guard** by maintaining user secrets in isolation from Windows. **Application Guard** can isolate and mitigate browser-based threats by running the browser in an isolated container. All these technologies use virtualization-based security in Windows 10 and are foundational changes that cannot be replicated on a Windows 7 system. Note that these also require UEFI, 64-bit Windows, and virtualization extension support with SLAT – at the hardware level.
 
 ## Security enhancements from cloud services
 
@@ -20,7 +20,7 @@ Cloud services provide another layer of optional protection to improve Windows a
 
 Along with the Microsoft Intelligent Security Graph, you have faster access to both information and protections from emerging threats. Here are a few examples of security enhancements you can take advantage of:
 
-- **Data Loss Prevention,** built into Microsoft 365 Apps, helps inform users of security policies when high risk content like credit card or identification numbers are detected. Policies can inform or block sending and sharing after notifying users.
+- **Data Loss Prevention,** built into Microsoft 365 Apps, helps inform users of security policies when high-risk content, like credit card or identification numbers, is detected. Policies can inform or block sending and sharing after notifying users.
 
 - **Azure Information Protection** is a complementary service that can be used with Office, allowing users to easily classify and label their Office files. It can trigger automatic action on labeled files, such as encryption or locking down sharing.
 
@@ -28,9 +28,9 @@ Along with the Microsoft Intelligent Security Graph, you have faster access to b
 
 - **Safe Attachments** in Outlook and as part of Exchange Online goes beyond email filtering to inspect attachments. If a high-risk attachment is identified, Safe Attachments will inform the user of known malicious attachments and remove them from email.
 
-- **Message Encryption (OME)** safeguards sent email and attachments, ensuring only intended recipients can view email content. OME works seamlessly with Google, Yahoo, and Microsoft consumer account authentication,and one-time passcodes allow users of other email services to securely receive email as well.
+- **Message Encryption (OME)** safeguards sent email and attachments, ensuring only intended recipients can view email content. OME works seamlessly with Google, Yahoo, and Microsoft consumer account authentication, and one-time passcodes allow users of other email services to securely receive email as well.
 
-- **Windows Defender Application Control** in Windows 10 operates from an approved allow and deny list of applications that Microsoft has checked for safety. It is managed by endpoint protection policies using Microsoft Intune.
+- **Windows Defender Application Control** in Windows 10 operates from an approved allowlist and blocklist of applications that Microsoft has checked for safety. It is managed by endpoint protection policies using Microsoft Intune.
 
 - **Microsoft Defender for Endpoint** is a unified platform for preventative protection, post-breach detection, automated investigation, and response. It protects endpoints from cyber threats; detects advanced attacks and data breaches, automates security incidents, and improves security posture.
 
@@ -43,5 +43,6 @@ Along with the Microsoft Intelligent Security Graph, you have faster access to b
 ![Screenshot of the profiles section in the device configuration tab of Intune.](../media/step-5-1.png)
 
 ## Learn more
-- [Microsoft Defender for Endpoint ](/windows/security/threat-protection/?azure-portal=true)
+
+- [Microsoft Defender for Endpoint](/windows/security/threat-protection/?azure-portal=true)
 - [Identity and access management fundamentals](/azure/security/fundamentals/overview#identity-and-access-management?azure-portal=true)

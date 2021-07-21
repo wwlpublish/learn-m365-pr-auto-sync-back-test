@@ -1,4 +1,4 @@
-You're ready to implement pilot deployment of the update. As the company’s process manager, here's the information you need.
+You're ready to implement pilot deployment of the update. As the company's process manager, here's the information you need.
 
 ## Inputs
 
@@ -14,7 +14,7 @@ You'll use these artifacts to make decisions and carry out tasks to pilot the Wi
 
 To perform pilot deployment successfully, you'll make decisions along the following lines:
 
-- **App validation**: Consider what the validation process will be for application compatibility. For example, what’s the remediation process for any potential issues?
+- **App validation**: Consider what the validation process will be for application compatibility. For example, what's the remediation process for any potential issues?
 - **Deployment**: How will your team deploy to pilot devices? How will they ensure that deployment is scoped to apply only to selected pilot devices and users? To achieve this, your administrators could use Desktop Analytics to automatically deploy to the correct pilot devices.
 - **Capability and modernization**: How will you obtain feedback on new capabilities and ensure that modernized infrastructure is actually benefiting them?
 

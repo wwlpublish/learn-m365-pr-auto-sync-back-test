@@ -39,7 +39,7 @@ To import user groups, use the following procedure:
 8. The import process can take up to an hour, depending on membership of the group. If you want to be notified on completion, select the **Notify me by email when the import is complete** check box, and then select **Import**.
 
     > [!TIP]
-    > When you’re selecting the user group to import, if you have a large number of groups, not all user groups are visible. It’s therefore important to know the user group name from your tenant when searching.
+    > When you're selecting the user group to import, if you have a large number of groups, not all user groups are visible. It's therefore important to know the user group name from your tenant when searching.
 
     :::image type="content" source="../media/import-group.png" alt-text="A screenshot displays the Import user group dialog box. The administrator has selected the Office 365 (Azure AD) app and the All Employees group.":::
 

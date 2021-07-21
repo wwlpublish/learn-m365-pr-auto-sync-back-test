@@ -2,20 +2,20 @@ Workplace from Facebook is a collaborative app that enables the users at Contoso
 
 ## Locate the Audience and ACS URLs
 
-To configure Conditional Access App Control policies for Workplace from Facebook, start with the Workplace settings. You’ll need to locate several URLs needed for subsequent configuration.  
+To configure Conditional Access App Control policies for Workplace from Facebook, start with the Workplace settings. You'll need to locate several URLs needed for subsequent configuration.  
 
 1. Sign in to Workplace using an administrative account.
 1. In the portal, select **Admin Panel**.
 1. In the navigation pane, select **Security**, and on the **Security** page, select the **Authentication** tab.
 1. In the SSO providers section, select **Add New SSO Provider**.
 1. In the **Single sign-on (SSO) setup** dialog box, scroll down and locate the **SAML configurations** section.
-1. Copy the **Audience URL** and **ACS (Assertion Consumer Service) URL** strings. You’ll need these URLs later.
+1. Copy the **Audience URL** and **ACS (Assertion Consumer Service) URL** strings. You'll need these URLs later.
 
     :::image type="content" source="../media/saml-configuration.png" alt-text="A screenshot showing the SAML configuration settings in a trial Workplace from Facebook tenant.":::
 
 ## Configure the identity provider
 
-Next, you’ll need to configure the identity provider. In this case, we’ll add the Workplace from Facebook app to Azure AD, and then provision users for the app.
+Next, you'll need to configure the identity provider. In this case, we'll add the Workplace from Facebook app to Azure AD, and then provision users for the app.
 
 1. Open the **Azure Active Directory admin center** and sign in as a global admin.
 1. In the navigation pane, select the **Enterprise applications** tab.
@@ -64,7 +64,7 @@ In the Azure Active Directory Admin Center, you must now complete the app config
 1. In Step 3, select the **Download** link next to **Certificate (Base64)**.
 1. In step 4, select the **Install the extension** button. Follow the on-screen instructions to install the extension.
 1. Switch back to the browser tab that displays the SAML-based Sign-on page. Move to step 5.
-1. Select the link to expand the Configuration URLs. Record the Login URL and Azure ID Identifier. You’ll need these values shortly.
+1. Select the link to expand the Configuration URLs. Record the Login URL and Azure ID Identifier. You'll need these values shortly.
 1. Select the **Set up Workplace from Facebook** button.
 1. A new tab opens. It displays the **Authentication** tab on the **Security** page in Workplace settings. Select the **Single sign-on (SSO)** check box.
 1. Select the **Add New SSO Provider** button.
@@ -96,14 +96,14 @@ The next stage is to create the Conditional Access App Control policy. In a new 
 
 ## Configure a session policy
 
-The final stage is to create the Access control or Session control policies. In this example, we’ll create a session policy. In the Microsoft Cloud App Security portal, complete the following steps:
+The final stage is to create the Access control or Session control policies. In this example, we'll create a session policy. In the Microsoft Cloud App Security portal, complete the following steps:
 
 1. In the navigation pane, select **Control** and then select **Policies**.
 1. In the **Policies** page, select the **Conditional access** tab.
 1. Select the **Create policy** button, and then select **Session policy**.
 1. In the Policy template list, select the type of activity. For example, select **Block sending of messages based on real-time content inspection**.
 1. Select **Apply template**. The various fields are updated with suitable values based on the template. If you want to modify any fields, you can do so.
-1. When you’re finished, select **Create**.
+1. When you're finished, select **Create**.
 
     :::image type="content" source="../media/add-session-policy.png" alt-text="A screenshot of a session policy with the Block sending of messages based on real-time content inspection template selected.":::
 

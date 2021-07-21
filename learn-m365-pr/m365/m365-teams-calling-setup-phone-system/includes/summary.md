@@ -4,7 +4,7 @@ Without Phone System for Microsoft Teams, your users wouldn't be able to place, 
 
 Now that you've completed this module, you should be able to:
 
-- Understand the 10-step set up process for Phone System.
+- Understand the 10-step setup process for Phone System.
 - Set up key Phone System capabilities.
 - Set up emergency calling.
 

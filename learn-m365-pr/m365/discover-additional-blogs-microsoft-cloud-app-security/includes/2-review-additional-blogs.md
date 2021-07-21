@@ -6,7 +6,7 @@ The CASB Ninja Blog Series contains articles that will help to arm you with the 
 
 The authors will share their knowledge and experience on real-world scenarios, and how Cloud App Security can help address issues within those scenarios. You'll dive deep into use cases, architecture design, implementation and configuration best practices, operations, and more.
 
-In the blogs, you’ll learn how you can use Cloud App Security in the following five topic areas:
+In the blogs, you'll learn how you can use Cloud App Security in the following five topic areas:
 
 - Shadow IT Discovery & Control
 - Information Protection
@@ -41,9 +41,9 @@ The following articles are already available for your review:
 
 ## Securing administrative access to Microsoft Cloud App Security and Defender for Identities
 
-Security administrators often focus on best practices for securing their organization's users, apps, services, and devices. But it's easy to forget that Security Administrators are also users. And it’s at least, if not more, important to secure these administrative accounts within your organization.
+Security administrators often focus on best practices for securing their organization's users, apps, services, and devices. But it's easy to forget that Security Administrators are also users. And it's at least, if not more, important to secure these administrative accounts within your organization.
 
-This blog seeks to highlight this issue, and to identify best practices to help ensure your administrative accounts are properly secured. In the article, the author discusses multi-factor authentication and default Azure Active Directory (Azure AD) roles.
+This blog seeks to highlight this issue, and to identify best practices to help ensure your administrative accounts are properly secured. In the article, the author discusses multifactor authentication and default Azure Active Directory (Azure AD) roles.
 
 You can review the content in this blog here: [Securing Administrative Access to Microsoft Cloud App Security and Defender for Identities](https://techcommunity.microsoft.com/t5/microsoft-security-and/securing-administrative-access-to-microsoft-cloud-app-security/ba-p/1754139?azure-portal=true).
 
@@ -53,7 +53,7 @@ In this article, the authors discuss how to restrict accesses in line with your 
 
 The article seeks to answer the question:
 
-> _We have a defined Azure RBAC policy. We have assigned Security administrators to specific groups. These groups have access across our entire security stack. But we want to follow least privilege and grant access only to specific products with the permissions inherited from the Security administrator role. Given that not all the products have a product-specific administrator role available in Azure AD, how can we limit the Security administrator role’s access in Cloud App Security without impacting existing permissions to other products?_
+> _We have a defined Azure RBAC policy. We have assigned Security administrators to specific groups. These groups have access across our entire security stack. But we want to follow least privilege and grant access only to specific products with the permissions inherited from the Security administrator role. Given that not all the products have a product-specific administrator role available in Azure AD, how can we limit the Security administrator role's access in Cloud App Security without impacting existing permissions to other products?_
 
 You can review the content in this blog here: [Security Admins, MCAS, and BLOCK]( https://techcommunity.microsoft.com/t5/microsoft-security-and/security-admins-mcas-and-block/ba-p/1777167?azure-portal=true).
 

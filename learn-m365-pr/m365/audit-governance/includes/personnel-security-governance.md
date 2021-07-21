@@ -2,7 +2,7 @@ Microsoft works to maintain a safe and secure environment to protect our employe
 
 ## Pre-employment screening
 
-Microsoft 365 screening practices align with Microsoft’s Corporate Standards and National Institute of Standards and Technology (NIST) 800-53 for personnel screening.
+Microsoft 365 screening practices align with Microsoft's Corporate Standards and National Institute of Standards and Technology (NIST) 800-53 for personnel screening.
 
 To the extent permissible by local law, pre-employment screening checks include:
 

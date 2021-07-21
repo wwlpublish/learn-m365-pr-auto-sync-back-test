@@ -45,7 +45,7 @@ Your corporate IT department can manage the entire device. With MDM, you can:
 
 - Enforce the use of a device-level PIN and specific OS versions.
 - Push device configurations, such as VPN settings, to the device.
-- Deploy specific applications to the device so that all of your line of business apps are automatically deployed.
+- Deploy specific applications to the device so that all of your line-of-business apps are automatically deployed.
 - Enforce device encryptions and, if necessary, wipe corporate data from the device.
 
 MDM is ideal for company owned devices.
@@ -63,7 +63,7 @@ WIP allows specific applications on Windows 10 to be managed by corporate IT. Th
 
 ## Conditional Access (CA)
 
-Conditional Access allows only specific services to be accessed under certain conditions. CA allows you to define how people use an application and how they authenticate. For example, you can define how specific users and groups sign in, the platform they're using based on subnets, or the state of the device. You can require access to Teams, for example, only with multi-factor authentication, only if the device is compliant, and if it's joined to Azure Active Directory. Teams will apply any SharePoint and Exchange Conditional Access policies because it's using SharePoint and Exchange in the backend. Any policies you configure for SharePoint and Exchange will apply to a user in Teams.
+Conditional Access allows only specific services to be accessed under certain conditions. CA allows you to define how people use an application and how they authenticate. For example, you can define how specific users and groups sign in, the platform they're using based on subnets, or the state of the device. You can require access to Teams, for example, only with multifactor authentication, only if the device is compliant, and if it's joined to Azure Active Directory. Teams will apply any SharePoint and Exchange Conditional Access policies because it's using SharePoint and Exchange in the backend. Any policies you configure for SharePoint and Exchange will apply to a user in Teams.
 
 > [!NOTE]
 > CA policies are independent from any MDM/MAM configurations.

@@ -1,4 +1,4 @@
-As the security analyst of your team, you want to know how to understand your environment’s present state of protection to learn about where improvements are needed. Here you’ll learn how to use dashboard insights in Microsoft Defender for Endpoint to help you to do this.
+As the security analyst of your team, you want to know how to understand your environment's present state of protection to learn about where improvements are needed. Here you'll learn how to use dashboard insights in Microsoft Defender for Endpoint to help you to do this.
 
 ## Use dashboard insights
 
@@ -20,11 +20,11 @@ Multiple things can affect your exposure score, including:
 
 To improve your exposure score, you can implement the security recommendations provided by the threat and vulnerability management component of Microsoft Defender for Endpoint. The lower your exposure score, the better.
 
-Here’s an example exposure score from the dashboard:
+Here's an example exposure score from the dashboard:
 
 :::image type="content" source="../media/3-exposure-score-inline.png" lightbox="../media/3-exposure-score-expanded.png" alt-text="A screenshot showing the exposure score card.":::
 
-From the dashboard, you can select **Improve score** to learn how to improve your exposure score. Here’s an example of the kind of security recommendations that you might see that will improve your score:
+From the dashboard, you can select **Improve score** to learn how to improve your exposure score. Here's an example of the kind of security recommendations that you might see that will improve your score:
 
 :::image type="content" source="../media/3-exposure-score-recommended-actions-inline.png" lightbox="../media/3-exposure-score-recommended-actions-expanded.png" alt-text="A screenshot showing recommended actions to improve exposure score.":::
 
@@ -59,6 +59,6 @@ The higher the Microsoft Secure Score, the more resilient your endpoints are to 
 
 :::image type="content" source="../media/3-secure-score-inline.png" lightbox="../media/3-secure-score-expanded.png" alt-text=" A screenshot showing the Microsoft Secure Score for devices card on the dashboard.":::
 
-Just as with exposure score, you select **Improve score** to learn how to improve your score. Here’s an example showing the kind of security recommendations that you might get:
+As with exposure score, you select **Improve score** to learn how to improve your score. Here's an example showing the kind of security recommendations that you might get:
 
 :::image type="content" source="../media/3-secure-score-recommendations-inline.png" lightbox="../media/3-secure-score-recommendations-expanded.png" alt-text="A screenshot showing the Microsoft Secure Score recommended actions.":::
