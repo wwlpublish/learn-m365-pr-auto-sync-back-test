@@ -2,7 +2,7 @@ In this unit, you will teach the Accounting department how to plan for and creat
 
 1. Create a training set.
    1. Identify and isolate a group of files to be used to train the model you create.
-   1. Five files are the recommended minimum.
+   1. Five files is the required minimum.
    1. Copy your files into a file folder named _Training Set_.
    1. After you've brought over your PO examples, add at least two other files of the same type (PDF in this case) that are _not_ POs.
    1. For this example, Statements of Work in PDF format will suffice.
@@ -69,14 +69,14 @@ In this unit, you will teach the Accounting department how to plan for and creat
     1. **"Add documents"** appears on the page with a button beneath it.
     1. Click the plus sign in that **"Add documents"** button.
 
-    ![Graphical user interface, application](../media/image021.png)
+    ![A screenshot of the 'Add collections of documents' pane with the 'New collection' and 'Plus' buttons highlighted.](../media/image021.png)
 
 1. The **"Collection 1"** pane opens in the right-hand part of the screen.
    1. The instructions tell you to select five or more documents with the same layout – like your collection of POs.
    1. Forms need to be either `.JPG`, `.PNG`, or `.PDF` files.
    1. Click **"Add documents."**
 
-    ![Graphical user interface, application, Teams](../media/image023.png)
+    ![A screenshot of the 'Collection 1' pane with the 'Add documents' button and the text "Add five or more documents with the same layout' highlighted.](../media/image023.png)
 
 1. The **"Select source"** window opens with a list of data sources.
    1. Select **"Upload from local storage."**
@@ -87,37 +87,37 @@ In this unit, you will teach the Accounting department how to plan for and creat
    1. The two negative documents will be used while training your model.
    1. Click **"Add 7 documents."**
 
-    ![Graphical user interface, table](../media/image025.png)
+    ![A screenshot of the 'Select source' window and seven selected documents with the 'Upload 7 documents' button highlighted.](../media/image025.png)
 
 1. The documents will take a few minutes to upload to the environment.
    1. When the upload completes, click **"Close."**
 1. Click **"Analyze"** at the bottom of the screen.
 
-    ![Graphical user interface, application](../media/image027.png)
+    ![A screenshot of the 'Add collections of documents' pane after documents have been added with the 'Analyze' button highlighted.](../media/image027.png)
 
 1. The training center will begin analyzing the documents.
-   1. This step may take a few minutes to complete.
+   - This step may take a few minutes to complete.
 1. When the analyze documents step completes, AI Builder displays a rendering of the first PO in the Tag documents page of the AI Builder.
    1. A window pops up pointing out where the documents are listed in the right-hand pane of the AI Builder screen.
    1. You can browse through the documents by clicking **"Next."**
    1. To begin tagging the document fields, click the **"X"** in the upper right-hand corner of the window.
    1. For our purposes, click the **"X"** to close the window.
 
-    ![Graphical user interface, application](../media/image029.png)
+    ![A screenshot of the first document to be analyzed in AI Builder and a panel on the right showing all documents for analysis.](../media/image029.png)
 
-1. Highlight the PO Number. Click and drag to draw a dotted line box around the PO Number in your document.
+1. Begin tagging by highlighting the PO Number. Click and drag to draw a dotted line box around the PO Number in your document.
 
-    ![A picture containing Graphical user interface](../media/image031.png)
+    ![A screenshot of the highlighted PO number on the purchase order file.](../media/image031.png)
 
-1. When you release the mouse button, the box will solidify, and a dialog box opens listing the three fields you defined earlier: PO-number, Vendor Name, and PO-Total.
+1. When you release the mouse button, the box will solidify, and a dialog box opens listing the three fields you defined earlier: _PO-number_, _Vendor Name_, and _PO-Total_.
    1. The PO Number you highlighted is now listed at the top of the dialog box.
    1. Select the correct field. In this case, click the radio button beside _"PO-number."_
 
-    ![Graphical user interface, application](../media/image033.png)
+    ![A close screenshot of the dropdown list of fields that appears after tagging in AI builder with the 'PO number' field highlighted.](../media/image033.png)
 
 1. Once you make a selection, the dialog closes, the box around the PO number turns green, and a green check mark appears in the field list on the right-hand side of the AI Builder screen.
 
-    ![Graphical user interface, application](../media/image035.png)
+    ![A close screenshot of the Fields pane in AI builder after the PO number has been tagged with the PO-number field checked.](../media/image035.png)
 
 1. Repeat this process for the vendor name.
    1. Highlight the complete vendor name.
@@ -130,53 +130,53 @@ In this unit, you will teach the Accounting department how to plan for and creat
    1. Click the radio button.
    1. You've successfully initiated training for your form processor.
 
-    ![Graphical user interface, application, table](../media/image037.png)
+    ![A close screenshot of the Fields pane in AI builder after all fields have been tagged with all fields checked.](../media/image037.png)
 
-1. Walk through each document in the same way until you reach the two .PDF files that are not POs.
-   1. As you move through the documents, AI Builder may automatically recognize some of your fields and automatically tag them for you.
+1. Walk through each document in the same way until you reach the two `.PDF` files that are not POs.
+   - As you move through the documents, AI Builder may automatically recognize some of your fields and automatically tag them for you.
 1. For the documents that are not POs, you will mark the defined fields as **"Not available in document."**
    1. Bring up one of the training documents that is not a PO.
    1. In the right-hand pane, click on the three dots to the right of each possible field name.
    1. Select **"Not available in document."**
    1. Do this for each field in each negative document.
 
-    ![Graphical user interface, text, application](../media/image039.png)
+    ![A close screenshot of the Fields pane in AI builder for a negative training example with a dropdown for the PO number field with the text 'Not available in document' selected.](../media/image039.png)
 
 1. Select **"Save and close"** in the upper right-hand corner of the screen.
 
-    ![Graphical user interface, text, application](../media/image041.png)
+    ![A screenshot of AI builder after all documents have been analyzed with the 'Save and close' button highlighted.](../media/image041.png)
 
 1. AI Builder saves the PO model.
 1. Click the model name to open the model for next steps.
 
-    ![Graphical user interface, text, application](../media/image043.png)
+    ![A screenshot of the 'My models' pan with the model name, 'Purchase Order', and model type, 'Form Processing', highlighted.](../media/image043.png)
 
 1. The training page opens with the first PO rendered, along with the field list on the right-hand side of the screen. Your fields will have green check marks next to them.
    1. Click **"Next"** at the bottom left of the screen to begin training your form processing model.
 
-    ![A picture containing text](../media/image045.png)
+    ![A screenshot of an analyzed purchase order with the 'Next' button highlighted.](../media/image045.png)
 
 1. The **Model summary** page opens.
    1. Review the information for your model.
    1. Click **"Train."**
 
-    ![Graphical user interface, application](../media/image047.png)
+    ![A screenshot of the model summary page with the 'Train' button highlighted.](../media/image047.png)
 
 1. The model begins training.
-   1. A dialog box opens telling you that the model is training and that it may take several minutes.
-   1. It is okay to close the window and return later, if necessary. However, with the limited number of training documents you used, the model will finish training quickly.
-   1. When training finishes, AI Builder will display a message **"Training complete."**
-   1. Click **"Go to Details page."**
+   - A dialog box opens telling you that the model is training and that it may take several minutes.
+   - It is okay to close the window and return later, if necessary. However, with the limited number of training documents you used, the model will finish training quickly.
+1. When training finishes, AI Builder will display a message **"Training complete."**
+1. Click **"Go to Details page."**
 
-    ![Graphical user interface, diagram](../media/image049.png)
+    ![A screenshot of the 'Training complete' dialog box with the 'Go to Details page' button highlighted.](../media/image049.png)
 
-1. The Details page opens with a banner across the top saying that your model hasn't been published and therefore, cannot be used in apps or flows.
+1. The **Details page** opens with a banner across the top saying that your model hasn't been published and therefore, cannot be used in apps or flows.
    1. To publish your model, click **"Publish"** at the bottom of the Training document box.
 
-    ![Graphical user interface, application](../media/image051.png)
+    ![A screenshot of the 'Details page' with the statement "Your model isn't published yet. Publish it to use it in apps and flows", the model status, and the 'Publish' button highlighted.](../media/image051.png)
 
 1. When the model finishes publishing, the page refreshes.
-   1. The status beneath "Models>PO" now reads **"Published."**
+   1. The status beneath the model name now reads **"Published."**
    1. The model is published under Power Apps on the right-hand side of the screen, and you can click in to read documentation about the model.
 
-![Graphical user interface, application](../media/image053.png)
+![A screenshot of the 'Details page' showing the model is published and the 'Use Model' button is highlighted.](../media/image053.png)
