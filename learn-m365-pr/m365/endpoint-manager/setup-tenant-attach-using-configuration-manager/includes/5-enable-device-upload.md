@@ -1,4 +1,4 @@
-When you don't already have co-management enabled, you can use the **Configure co-management** wizard to enable device upload. You can upload your devices without enabling automatic enrollment for co-management or switching workloads to Intune. If needed, you can limit upload to a single [device collection](/mem/configmgr/core/clients/manage/collections/create-collections.md). 
+When you don't already have co-management enabled, you can use the **Configure co-management** wizard to enable device upload. You can upload your devices without enabling automatic enrollment for co-management or switching workloads to Intune. If needed, you can limit upload to a single [device collection](/mem/configmgr/core/clients/manage/collections/introduction-to-collections.md).
 
 > [!NOTE]
 > If co-management is already enabled in your environment, you must [edit the co-management properties](/mem/configmgr/tenant-attach/device-sync-actions.md#bkmk_edit) to enable device upload.

@@ -18,6 +18,7 @@ abstract: |
     - Enable device upload
     - Perform device actions
     - Display the connector status
+    - View on-premises devices
 prerequisites: | 
   - Basic knowledge of Microsoft Endpoint Manager and endpoint management concepts, see [Microsoft Endpoint Manager fundamentals](/learn/paths/endpoint-manager-fundamentals?azure-portal=true).
   - Understand your endpoint management objectives, device inventory considerations, licensing needs, infrastructure objectives, and rollout plans, see [Determine your endpoint management implementation](/learn/modules/determine-endpoint-implementation?azure-portal=true).
@@ -38,6 +39,7 @@ units:
 - learn.setup-tenant-attach-using-configuration-manager.enable-device-upload
 - learn.setup-tenant-attach-using-configuration-manager.perform-device-actions
 - learn.setup-tenant-attach-using-configuration-manager.display-the-connector-status
+- learn.setup-tenant-attach-using-configuration-manager.view-on-premises-devices
 - learn.setup-tenant-attach-using-configuration-manager.knowledge-check
 - learn.setup-tenant-attach-using-configuration-manager.summary
 badge:
