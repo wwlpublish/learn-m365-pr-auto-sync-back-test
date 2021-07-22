@@ -16,7 +16,7 @@ To enable the policy:
 
 At sign-in to any Azure AD-integrated application, the user gets a notification about the requirement to set up the account for multifactor authentication. This policy is also triggered in the Windows 10 Out-of-Box Experience for new users with a new device.
 
- ![User gets a notification about the requirement to set up the account for multifactor authentication.](../media/microsoft-azure.png)
+ ![User gets a notification about the requirement to set up the account for multi-factor authentication.](../media/microsoft-azure.png)
 
 An administrator can configure a policy for sign-in risks in the Azure AD Identity Protection blade, which requires users to verify their identity through MFA.
   

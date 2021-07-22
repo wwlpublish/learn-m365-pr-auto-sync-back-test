@@ -84,9 +84,9 @@ Within your organization, consider creating a Conditional Access policy requirin
 
     ![Under Access controls, set Grant Access to Require Multi-factor authentication](../media/grant.png)
 
-To enable Azure AD Identity Protection User risk and Sign-in risk policies to allow access but require self-service password reset or multifactor authentication:
+To enable Azure AD Identity Protection User risk and Sign-in risk policies to allow access but require self-service password reset or multi-factor authentication:
 
- ![To enable Azure AD Identity Protection User risk and Sign-in risk policies to allow access but require self-service password reset or multifactor authentication](../media/user-risk-policy.png)
+ ![To enable Azure AD Identity Protection User risk and Sign-in risk policies to allow access but require self-service password reset or multi-factor authentication](../media/user-risk-policy.png)
 
 To create an Intune Mobile Application Management (MAM) without enrollment policy to protect organization data on mobile devices:
 
