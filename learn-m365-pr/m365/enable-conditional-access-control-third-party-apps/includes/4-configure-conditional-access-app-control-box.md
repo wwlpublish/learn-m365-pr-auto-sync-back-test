@@ -36,7 +36,7 @@ To configure Box with Conditional Access App Control, you start the process in t
     > [!TIP]
     > These will be broadly similar to the approach we took with Workplace from Facebook. For additional details, review the following document: [Tutorial: Azure Active Directory single sign-on (SSO) integration with Box](/azure/active-directory/saas-apps/box-tutorial?azure-portal=true).
 
-1.  Switch back to the **Azure Active Directory admin center**, and on the **SAML-based Sign-on** page, select **Test**. You should be able to successfully sign in to Box, assuming the currently signed in user is one of the users you assigned earlier.
+1. Switch back to the **Azure Active Directory admin center**, and on the **SAML-based Sign-on** page, select **Test**. You should be able to successfully sign in to Box, assuming the currently signed in user is one of the users you assigned earlier.
 
 > [!NOTE]
 > If you are unable to configure the SSO settings for your Box account, then send the downloaded Federation Metadata XML to Box support team. They can then configure the required SAML SSO connection.

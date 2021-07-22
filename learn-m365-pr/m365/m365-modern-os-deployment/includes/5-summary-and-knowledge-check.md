@@ -1,1 +1,1 @@
-In this module you learned about the available migration tools and methods.
+In this module, you learned about the available migration tools and methods.

@@ -31,7 +31,7 @@ Finally, *educational cards* give you work productivity and wellbeing tips. MyAn
 
 ![Educational cards with productivity suggestions](../media/productivity-insights-suggestions.png)
 
-These statistics about work patterns, productivity insights, and educational tips become the key components that make up the MyAnalytics dashboard. 
+These statistics about work patterns, productivity insights, and educational tips become the key components that make up the MyAnalytics dashboard.
 
 ### Outlook Insights add-in
 

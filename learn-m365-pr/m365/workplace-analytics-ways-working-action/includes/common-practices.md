@@ -6,7 +6,7 @@ After using Microsoft 365 technology to help drive change, organizations are oft
 ## General change practices
 
 You can consider some best practices with every change initiative:
- 
+
 - **Actively involve sponsors and stakeholders**. Sponsors play a key role in driving change. You can equip your sponsors with key talking points and ways to role-model behaviors. Sponsors can also assist in helping build a coalition of support across the organization.
    Example: When leaders ask people to adopt Microsoft Teams, do they send this communication through Teams or in email?
 

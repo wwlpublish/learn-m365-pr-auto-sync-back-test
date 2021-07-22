@@ -93,7 +93,7 @@ Use the Set up Audio Conferencing for Microsoft Teams guide (link in the Learn m
 Call queues enable you to organize and route large numbers of incoming calls to make sure they're answered appropriately. Callers are put into a queue, and will be able to hear a greeting message, and music while they're on hold. Here are the high-level steps you can perform to set up call queues:
 
 1. In the Teams admin center, go to the call queues section by selecting Voice > Call queues > Add.
-1. Specify a resource account and language. 
+1. Specify a resource account and language.
 1. Upload the greeting and music for the hold in the queue.
 1. Add users or groups as agents to route calls to.
 1. Specify call routing method.

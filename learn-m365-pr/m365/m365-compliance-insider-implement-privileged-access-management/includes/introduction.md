@@ -38,7 +38,7 @@ When you configure a privileged access policy with the [Microsoft 365 admin cent
 
 ### Step 2: Access request
 
-In the Microsoft 365 admin center or with the Exchange Online PowerShell, users can request access to elevated or privileged tasks. The privileged access feature sends the request to the Microsoft 365 substrate for processing against the configured privilege access policy and records the activity in the Microsoft 365 Defender portal logs. 
+In the Microsoft 365 admin center or with the Exchange Online PowerShell, users can request access to elevated or privileged tasks. The privileged access feature sends the request to the Microsoft 365 substrate for processing against the configured privilege access policy and records the activity in the Microsoft 365 Defender portal logs.
   
  ![Access request](../media/access-request.png)
 

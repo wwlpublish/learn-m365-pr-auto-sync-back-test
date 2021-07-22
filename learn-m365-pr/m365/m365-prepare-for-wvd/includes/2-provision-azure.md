@@ -10,6 +10,6 @@ To get started with Azure Virtual Desktop, you need access to an Azure AD tenant
 
 - **Microsoft 365** - If you're using any Microsoft 365 services, you already have a tenant you can use. Just sign in to the Azure portal using the credentials for your tenant. You can add the additional compute, storage, and networking services that you'll need for Azure Virtual Desktop. Be aware that you'll need to create an Azure subscription as these Azure services are billed separately from Microsoft 365.
 
-- **New tenant** - If you don't have a tenant or subscription that you can use to set up Azure Virtual Desktop, sign up for one at https://azure.microsoft.com.
+- **New tenant** - If you don't have a tenant or subscription that you can use to set up Azure Virtual Desktop, sign up for one at <https://azure.microsoft.com>.
 
 - **Trial environment** - For a smaller Azure Virtual Desktop test environment, you may be able to use a trial environment to save costs. Many of the services required to get Azure Virtual Desktop running aren't included with Microsoft 365 like storage accounts, and virtual machines. Create a [free Azure account](https://azure.microsoft.com/free/?azure-portal=true).

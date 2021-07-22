@@ -1,9 +1,10 @@
 
-A successful virtual event involves work from many people: 
+A successful virtual event involves work from many people:
+
 - The organizer who sets up the meeting and lines up presenters
-- The producer who manages content, presenters, and tooling 
-- The moderator who runs the event itself and coordinates questions from attendees. 
-- The attendees themselves - your audience. 
+- The producer who manages content, presenters, and tooling
+- The moderator who runs the event itself and coordinates questions from attendees
+- The attendees themselves - your audience
 
 Each of these roles experiences the event differently. If you're putting together a virtual event, one of the last tasks on your plate is preparing your producers, presenters, moderators, and attendees to help make their experiences as great as possible. 
  

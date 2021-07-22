@@ -160,18 +160,18 @@ By using policies, you can mark those granted permissions as either approved or 
 To create an OAuth app policy, use the following procedure:
 
 1. In Cloud App Security, select **Control**, select **Policies**, and then select **Create policy**.
-2. In the **Create policy** list, select **OAuth app policy**.
-3. Enter the following information:
+1. In the **Create policy** list, select **OAuth app policy**.
+1. Enter the following information:
 
-   1.   Policy name
-   2.   Policy severity (choose between **Low**, **Medium**, and **High**)
+   1. Policy name
+   1. Policy severity (choose between **Low**, **Medium**, and **High**)
 
    > [!TIP]
    > You cannot modify the severity of OAuth app anomaly detection policies.
 
-   3.    **Category** is already defined as **Threat detection**
-   4.   Optionally, enter a description
-   5.   In the **Create filters for the policy** section, select filter options. You can filter on the following properties:
+   1. **Category** is already defined as **Threat detection**
+   1. Optionally, enter a description
+   1. In the **Create filters for the policy** section, select filter options. You can filter on the following properties:
 
       - App
       - App state
@@ -181,7 +181,7 @@ To create an OAuth app policy, use the following procedure:
       - Published
       - User
 
-   6. In the **Alerts** section, optionally select the **Create an alert for each matching event with the policy's severity** check box. Then you can enable an alert by email or text message (or both) for each matching event. You'll need to define the email addresses and phone numbers in the appropriate text boxes.
-   7. Finally, in the **Governance actions** section, choose the actions you want to perform on listed apps.
+   1. In the **Alerts** section, optionally select the **Create an alert for each matching event with the policy's severity** check box. Then you can enable an alert by email or text message (or both) for each matching event. You'll need to define the email addresses and phone numbers in the appropriate text boxes.
+   1. Finally, in the **Governance actions** section, choose the actions you want to perform on listed apps.
 
-4. When all settings are configured, select **Create**.
+1. When all settings are configured, select **Create**.

@@ -26,7 +26,7 @@ The second way Office clients become aware of the new unified labeling support i
 ## User experience comparison
 
 The main difference the Azure Information Protection client (classic) user will see when using the unified labeling clients (either built-in or installed separately) is the "Sensitivity" button replaces the "Protect" button. The image below illustrates the differences between the classic client and the unified labeling client (and Office built-in labeling) on Windows. The experience is similar in iOS, macOS and on the web.
- 
+
 ![Differences between the classic client and the unified labeling client (and Office built-in labeling) on Windows](../media/classic-unified-labeling-client.png)
 
 ## Windows labeling client guidance
@@ -42,7 +42,7 @@ While the Office built-in labeling client is the preferred choice, it will not w
 ### Guidance for new customers
 
 Use the decision tree below to help you decide which Windows client to install if you have yet to deploy an information protection solution from Microsoft.
- 
+
 ![Use the decision tree below to help you decide which Windows client to install if you have yet to deploy an information protection solution from Microsoft.](../media/windows-client-decision-tree.png)
 
 ### Guidance for existing Azure Information Protection customers

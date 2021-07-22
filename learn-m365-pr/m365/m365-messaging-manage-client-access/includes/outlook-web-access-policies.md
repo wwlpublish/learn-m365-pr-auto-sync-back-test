@@ -16,7 +16,7 @@ To set up the ability to enforce attachment handling from external networks for 
 
 1. Use the **Set-OrganizationConfig** PowerShell cmdlet to enable public attachment handling for your organization. Set the *PublicComputersDetectionEnabled* parameter to $true.
 2. Enable public attachment handling on the Outlook on the web mailbox policy either by using the Exchange admin center or the **Set-OwaMailboxPolicy** cmdlet.
-3. Create claim rules in Active Directory Federation Services (ADFS). These rules detect whether the attachment is coming from an internal or external network. 
+3. Create claim rules in Active Directory Federation Services (ADFS). These rules detect whether the attachment is coming from an internal or external network.
 
 ## Outlook for iOS and Android
 

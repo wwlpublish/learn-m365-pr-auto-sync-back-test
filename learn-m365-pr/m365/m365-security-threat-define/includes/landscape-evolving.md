@@ -9,7 +9,7 @@ There's too much to handle:
 
 ![Intelligence matters](../media/intelligence-matters.png)
 
-Microsoft 365 Defender is an integrated, cross-domain threat detection and response solution. It provides organizations with the ability to prevent, detect, investigate, and remediate sophisticated cross-domain attacks within their Microsoft 365 environments. Microsoft 365 Defender leverages raw signal data from individual service domains - user identity, endpoints, applications, email, and collaboration tools, normalizing the data at the ingestion point. 
+Microsoft 365 Defender is an integrated, cross-domain threat detection and response solution. It provides organizations with the ability to prevent, detect, investigate, and remediate sophisticated cross-domain attacks within their Microsoft 365 environments. Microsoft 365 Defender leverages raw signal data from individual service domains - user identity, endpoints, applications, email, and collaboration tools, normalizing the data at the ingestion point.
 
 The data is analyzed and low-level signals that may otherwise be missed as well as individual alerts are correlated into incidents. This gives a complete view of an attack that can be responded to in its entirety. Powerful workflows and AI autoheal affected assets. Advanced hunting capabilities mean organizations can use their proprietary knowledge to uncover sophisticated breaches and customize their responses. But, Microsoft 365 Defender requires no specific expertise or customization, so defenders can immediately use the integrated console and combined incident views.
 

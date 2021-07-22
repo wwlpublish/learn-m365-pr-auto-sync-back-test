@@ -12,7 +12,7 @@ To download content from a review set, start by selecting the files you want to 
 
 ### Export documents from a review set
 
-For bigger volumes, you can use the **Export** option. Export lets you customize the content that is included in the download package. This includes exporting file metadata, native files, text files, and redacted documents that have been saved to a PDF file. After the exported data is uploaded to an Azure Storage location, you can download it to a local computer. 
+For bigger volumes, you can use the **Export** option. Export lets you customize the content that is included in the download package. This includes exporting file metadata, native files, text files, and redacted documents that have been saved to a PDF file. After the exported data is uploaded to an Azure Storage location, you can download it to a local computer.
 
 To export content from a review set, start by selecting the files you want to download then click **Export** under the **Action** menu.
 
@@ -35,7 +35,7 @@ Before you can export content, you need to install the [Azure Storage Explorer t
 To export content:
 
 1. Select the files you want to export from the review set, then click **Export** under the **Action** menu. It may take several minutes or longer before the content is ready. You can check the status on the **Jobs** page.
-1. Select your settings on the **Export options** configuration page, then click **Export**. In this example, the Microsoft-provided storage container is selected. 
+1. Select your settings on the **Export options** configuration page, then click **Export**. In this example, the Microsoft-provided storage container is selected.
 
     ![Export content, step 1.](../media/export-options.png)
 
@@ -67,11 +67,11 @@ To export content:
 
     The **Blob containers** node (under **Storage Accounts > Attached Containers**) is opened to a container with the display name from step 7. This container contains a folder for each export job that you have created. The folders are named with an ID that corresponds to the ID of the export job.
 
-    ![Export content, step 8.](../media/containers-1.png) 
+    ![Export content, step 8.](../media/containers-1.png)
 
 1. Double-click the export job folder to open it and display the list of folders and export reports.
 
-    ![Export content, step 9.](../media/containers-2.png) 
+    ![Export content, step 9.](../media/containers-2.png)
 
 1. To export all contents in the export, select the export folder, and then click **Download**.
 

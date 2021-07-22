@@ -1,4 +1,4 @@
-In this module you learned how you can optimize your Azure Virtual Desktop environment by:
+In this module, you learned how you can optimize your Azure Virtual Desktop environment by:
 
 - Setting up roaming and stateful user profiles by using Azure File Storage and FSLogix
 - Configuring Azure File Sync to sync on-premises files or user profile data to Azure Storage

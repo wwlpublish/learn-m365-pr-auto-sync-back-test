@@ -37,7 +37,7 @@ The next step is to enter the SSO details from your app into Cloud App Security.
 1. In the **Assertion consumer service URL**, enter the login URL you recorded earlier and then select **Next**. Pause at this point.
 
     > [!NOTE]
-    > If your app provides a SAML certificate, select **Use <app_name> SAML certificate** and upload the certificate file you downloaded earlier. 
+    > If your app provides a SAML certificate, select **Use <app_name> SAML certificate** and upload the certificate file you downloaded earlier.
 
 ### Create a custom app in PingOne
 

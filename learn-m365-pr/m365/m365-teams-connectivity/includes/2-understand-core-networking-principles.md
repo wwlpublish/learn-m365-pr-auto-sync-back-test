@@ -1,4 +1,4 @@
-There are several approaches to assess the way you're currently using network bandwidth and how that might change when you roll out Microsoft Teams. Let's examine some of the important questions to ask during planning, and how you might answer them before roll-out.
+There are several approaches to assess the way you're currently using network bandwidth and how that might change when you roll out Microsoft Teams. Let's examine some of the important questions to ask during planning, and how you might answer them before rollout.
 
 ## Teams network traffic
 

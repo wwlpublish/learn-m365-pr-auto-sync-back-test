@@ -5,7 +5,7 @@ There are a few steps you need to complete before you can begin using Compliance
 Only users assigned an appropriate role can access Compliance Manager, and the actions allowed by each user are restricted by the role assigned. Start by identifying users that will use Compliance Manager. They should be part of the appropriate role group in the Microsoft 365 compliance center. Identifying other users that will participate in the process can come later. Here are instructions on how to grant users access to Compliance Manager.
 
 1. Sign in to the [**Microsoft 365 compliance center**](https://compliance.microsoft.com?azure-portal=true) using a global administrator account.
-2. In the **Microsoft 365 compliance center,** in the left menu, click **Permissions.** 
+2. In the **Microsoft 365 compliance center,** in the left menu, click **Permissions.**
 3. Under **Permissions,** where you see **To view and manage roles in Office 365, please go here,** click **here** to open **Office 365 Security & Compliance.**
 4. In the **Name** column, select the role group in the table below that matches desired level of access.
 5. Edit the role group to add the appropriate user.

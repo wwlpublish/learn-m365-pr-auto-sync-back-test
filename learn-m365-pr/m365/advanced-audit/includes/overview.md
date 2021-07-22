@@ -61,11 +61,11 @@ Audit records not covered by the default audit log retention policy in Advanced 
 
 Custom audit log retention policies have priority over the default audit log retention policy. You can also set the audit log retention policy priority level so specific policies will take priority over others. A situation where this could apply is if you want to retain Exchange, SharePoint, or Azure Active Directory audit records for less than a year for some or all users in your organization. You can have a maximum of 50 custom audit log retention policies in your organization. The table below summarizes the key differences between basic audit logging and Advanced Audit retention.
 
-|  Feature | Basic audit	  |  Advanced Audit |
+| Feature | Basic audit | Advanced Audit |
 |---|---|---|
-|  Turn audit log on/off |  Yes | Yes  |
-|  Custom retention period | No  |  Yes |
-|  Maximum retention duration | 90 days  | 10 years |
+| Turn audit log on/off | Yes | Yes |
+| Custom retention period | No | Yes |
+| Maximum retention duration | 90 days | 10 years |
 
 >[!NOTE]
 > If you need to retain audit logs for 10 years, you need both the appropriate E5 license and a 10-year audit log retention add-on license.

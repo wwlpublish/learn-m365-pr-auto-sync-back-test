@@ -8,14 +8,14 @@ You have a combination of Office 365 mailboxes and on-premises email servers. To
 
 To ensure the integration is seamless for your users, you'll need two connectors to route email between Microsoft 365 and your on-premises email servers:
 
-- A connector from Microsoft 365 to your on-premises mail server 
+- A connector from Microsoft 365 to your on-premises mail server
 - A connector from your on-premises mail server to Microsoft 365
 
 Before you can connect both mail servers, it's important to check that the on-premises email servers are ready. There are seven key items to check before you create and configure the connectors:
 
 - The on-premises email server can send and receive external mail.
 - Your on-premises email server has Transport Layer Security (TLS) enabled, with a valid certification authority-signed (CA-signed) certificate. It's good practice to include the primary on-premises email server's name in the certificate subject name.
-- If you want to improve the communication security between your on-premises email server and Microsoft 365, use certificates. In that case, you'll need to update the connector used by your on-premises email server to receive email. This connector must recognize the right certificate when Microsoft 365 attempts to connect with your server. 
+- If you want to improve the communication security between your on-premises email server and Microsoft 365, use certificates. In that case, you'll need to update the connector used by your on-premises email server to receive email. This connector must recognize the right certificate when Microsoft 365 attempts to connect with your server.
 - Make a note of the name or IP address of your external-facing email server. If you're using Exchange, this value is the Fully Qualified Domain Name (FQDN) of your Edge Transport server or CAS that will receive email from Microsoft 365.
 - Open port 25 on your firewall so that Microsoft 365 can connect to your email servers.
 - Make sure that your firewall accepts connections from all Microsoft 365 IP addresses.

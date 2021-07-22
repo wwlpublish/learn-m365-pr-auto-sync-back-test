@@ -44,7 +44,7 @@ While it's possible to assign a score to this sort of questionnaire that alone w
 
 ### Identify your champions
 
-To make the roll out of Teams a true success, you'll need people in your organization who are passionate and willing to evangelize.   Your projects champions will typically share these traits:
+To make the roll out of Teams a true success, you'll need people in your organization who are passionate and willing to evangelize. Your projects champions will typically share these traits:
 
 - Interested in technology
 - Willing to be a part of change

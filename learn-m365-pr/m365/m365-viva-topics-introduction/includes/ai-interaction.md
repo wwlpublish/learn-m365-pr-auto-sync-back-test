@@ -11,8 +11,8 @@ The new employee might need to step away from what they are doing and spend valu
 The AI in Viva Topics could take two weeks or more to index and show topics throughout Microsoft 365 after the initial setup. Viva Topics include Topic cards, Topic pages, and Topic centers features:  
 
 - **Topic cards** provide a quick snapshot of the expertise and content related to a specific project or topic. Topic cards appear automatically when a topic is detected, giving you a description, experts, resources, and additional information.
-- **Hover over a topic** when Viva Topic identifies a topic to view the topic card; written by AI, it supports more curation by your experts. Topics make it easier to find people based on skills, projects, and expertise. When you search for a topic, you'll see a list of people who added the topic to their profile. 
-- **Topics is shown in people cards** across Microsoft 365, helping you identify who's working on what inside your organization – tailored by your existing access and permissions. 
+- **Hover over a topic** when Viva Topic identifies a topic to view the topic card; written by AI, it supports more curation by your experts. Topics make it easier to find people based on skills, projects, and expertise. When you search for a topic, you'll see a list of people who added the topic to their profile.
+- **Topics is shown in people cards** across Microsoft 365, helping you identify who's working on what inside your organization – tailored by your existing access and permissions.
 - **Topic pages** roll up into your Topic center for a personalized view of relevant knowledge across your organization, including trending relevant topics and open questions; users can more easily discover content, expertise, and topics related to their work or interests.
 - **Topic center** supplies more web components to integrate knowledge and training from around your organization. These custom Topic centers are built with and integrate seamlessly into your SharePoint.
 

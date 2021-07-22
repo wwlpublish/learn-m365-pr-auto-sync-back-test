@@ -19,7 +19,7 @@ Admin controls for blocking numbers are provided only using PowerShell. Number b
 
 ## Call blocking PowerShell commands
 
-You manage number patterns by using the **New, Get, Set, Remove -CsInboundBlockedNumberPattern** cmdlets. You can manage a given pattern by using these cmdlets, including the ability to toggle the activation of a given pattern. In the **Learn more** section you'll finds links for the following cmdlets: 
+You manage number patterns by using the **New, Get, Set, Remove -CsInboundBlockedNumberPattern** cmdlets. You can manage a given pattern by using these cmdlets, including the ability to toggle the activation of a given pattern. In the **Learn more** section you'll finds links for the following cmdlets:
 
 - **Get-CsInboundBlockedNumberPattern** returns a list of all blocked number patterns added to the tenant list including Name, Description, Enabled (True/False), and Pattern for each.
 - **New-CsInboundBlockedNumberPattern** adds a blocked number pattern to the tenant list.

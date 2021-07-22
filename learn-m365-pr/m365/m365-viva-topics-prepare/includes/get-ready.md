@@ -20,7 +20,7 @@ There are several tools and services to help with content migration. You can mig
 Make the most of your migration with the following tasks:
 
 - **Migrate to a modern site** – including Microsoft Teams. While indexing can happen on any SharePoint site (classic or modern), displaying topics to users through highlights and cards only happens on modern pages.
-- **Maintain usernames** – most migration tools allow you to map user identities across the migration, so properties like Created By or Modified By are maintained after the migration. This is important for topics because the authorship of files is used to identify the experts are added to a topic page or card. 
+- **Maintain usernames** – most migration tools allow you to map user identities across the migration, so properties like Created By or Modified By are maintained after the migration. This is important for topics because the authorship of files is used to identify the experts are added to a topic page or card.
 - **Make service account names descriptive** – In some cases, maintaining usernames isn't possible. For example, if you're migrating content created by someone who is no longer an employee of the organization. In this instance, most migration tools will move a file as if it was created by an admin account or a service account. If this happens frequently, the service account could be listed on topics as an expert. This is where the naming of that account becomes important. If you make it descriptive, the presence of these non-human accounts will be understandable for users consuming topics.
 
 ## Step 2: Connect information to Microsoft Graph
