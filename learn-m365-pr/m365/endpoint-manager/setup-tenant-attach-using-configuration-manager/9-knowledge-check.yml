@@ -16,7 +16,7 @@ quiz:
   questions:
   - content: "Which best describes tenant attach?"
     choices:
-    - content: "Tenant attach is the process of attaching your Intune tenant to the cloud. It incorporates co-management for to complete your endpoint management deployment."
+    - content: "Tenant attach is the process of attaching your Intune tenant to the cloud. The process incorporates co-management so that all your endpoints are successfully managed."
       isCorrect: false
       explanation: "Tenant attach allows you to recognize your Configuration Manager devices and infrastructure."
     - content: "Tenant attach allows you to recognize your Configuration Manager devices and infrastructure by the Intune cloud service and take actions from Microsoft Endpoint Manager."
@@ -33,18 +33,18 @@ quiz:
     - content: "Enabling internet endpoints must be prevented when implementing tenant attach."
       isCorrect: false
       explanation: "Enabling internet endpoints will allow needed Configuration Manager connectivity."
-    - content: "Internet endpoints must also be secure. For this reason, they must be managed by Microsoft Endpoint Manager."
+    - content: "Internet endpoints must be secure. For this reason, they must be managed by Microsoft Endpoint Manager."
       isCorrect: false
       explanation: "Enabling internet endpoints will allow needed Configuration Manager connectivity."
-  - content: "Which statement best describes the actions you can take after attaching your tenant to Confirmation Manager?"
+  - content: "Which statement best describes the actions you can take after implementing tenant attach?"
     choices:
     - content: "Tenant attach allows you to recognize your Microsoft Endpoint Manager devices and take actions from Configuration Manager."
       isCorrect: false
       explanation: "Tenant attach allows you to recognize your Configuration Manager devices and take actions from Microsoft Endpoint Manager."
     - content: "Tenant attach allows you to recognize your Configuration Manager devices and take actions from Microsoft Endpoint Manager, such as viewing client device details, viewing client device data, managing client apps, and running scripts on client devices."
       isCorrect: true
-      explanation: "Tenant attach allows you to you can view client and device details, install apps, and run PowerShell scripts from Microsoft Endpoint Manager admin center. Additionally, you can view a timeline of device events that are synced each day, as well as perform other actions."
-    - content: "Tenant attach allows you to recognize your Configuration Manager devices and take actions from Microsoft Endpoint Manager, such as viewing cloud-based tenant details, cloud-based device data, managing cloud-based apps, and running scripts on cloud-based devices."
+      explanation: "Tenant attach allows you to view client and device details, install apps, and run PowerShell scripts from Microsoft Endpoint Manager admin center. Additionally, you can view a timeline of device events that are synced each day, as well as perform other actions."
+    - content: "Tenant attach allows you to recognize your Configuration Manager devices without taking action from Microsoft Endpoint Manager. By implementing tenant attach you can view cloud-based tenant details, cloud-based device data, and cloud-based apps."
       isCorrect: false
       explanation: "Tenant attach allows you to recognize your Configuration Manager devices and take actions from Microsoft Endpoint Manager."
   
