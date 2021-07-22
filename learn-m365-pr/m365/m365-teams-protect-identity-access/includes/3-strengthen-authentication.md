@@ -16,27 +16,27 @@ The next time a user signs in after enrolling for multifactor authentication, th
 
 With a client certificate on a Windows, Android, or iOS device, certificate-based authentication enables you to be authenticated by Azure Active Directory when connecting your Exchange online account to:
 
-- Mobile applications such as Microsoft Outlook and Microsoft Word
-- Exchange ActiveSync (EAS) clients
+* Mobile applications such as Microsoft Outlook and Microsoft Word
+* Exchange ActiveSync (EAS) clients
 
 Configuring this feature means you don't need to enter a username and password combination into certain mail and Microsoft Office applications on your mobile device.
 
 This topic:
 
-- Provides the steps to configure and use certificate-based authentication for users of tenants in Microsoft 365 Enterprise, Business, Education, and US Government plans. This feature is available in preview in Microsoft 365 China, US Government Defense, and US Government Federal plans.
-- Assumes that you already have a public key infrastructure (PKI) and AD FS configured.
+* Provides the steps to configure and use certificate-based authentication for users of tenants in Microsoft 365 Enterprise, Business, Education, and US Government plans. This feature is available in preview in Microsoft 365 China, US Government Defense, and US Government Federal plans.
+* Assumes that you already have a public key infrastructure (PKI) and AD FS configured.
 
 ### Requirements
 
 To configure certificate-based authentication, the following statements must be true:
 
-- Certificate-based authentication (CBA) is only supported for federated environments for browser applications, native clients using modern authentication (ADAL), or MSAL libraries. The one exception is Exchange Active Sync (EAS) for Exchange Online (EXO), which can be used for federated and managed accounts.
-- The root certificate authority and any intermediate certificate authorities must be configured in Azure Active Directory.
-- Each certificate authority must have a certificate revocation list (CRL) that can be referenced via an internet-facing URL.
-- You must have at least one certificate authority configured in Azure Active Directory.
-- For Exchange ActiveSync clients, the client certificate must have the user's routable email address in Exchange online, in either the Principal Name or the RFC822 Name value of the Subject Alternative Name field. Azure Active Directory maps the RFC822 value to the Proxy Address attribute in the directory.
-- Your client device must have access to at least one certificate authority that issues client certificates.
-- A client certificate for client authentication must have been issued.
+* Certificate-based authentication (CBA) is only supported for federated environments for browser applications, native clients using modern authentication (ADAL), or MSAL libraries. The one exception is Exchange Active Sync (EAS) for Exchange Online (EXO), which can be used for federated and managed accounts.
+* The root certificate authority and any intermediate certificate authorities must be configured in Azure Active Directory.
+* Each certificate authority must have a certificate revocation list (CRL) that can be referenced via an internet-facing URL.
+* You must have at least one certificate authority configured in Azure Active Directory.
+* For Exchange ActiveSync clients, the client certificate must have the user's routable email address in Exchange online, in either the Principal Name or the RFC822 Name value of the Subject Alternative Name field. Azure Active Directory maps the RFC822 value to the Proxy Address attribute in the directory.
+* Your client device must have access to at least one certificate authority that issues client certificates.
+* A client certificate for client authentication must have been issued.
 
 > [!IMPORTANT]
 > The maximum size of a CRL for Azure Active Directory to successfully download and cache is 20 MB, and the time required to download it must not exceed 10 seconds. If Azure Active Directory can't download a CRL, certificate-based authentications using certificates issued by the corresponding CA will fail. To ensure CRL files are within size constraints, best practice is to keep certificate lifetimes to within reasonable limits, and to clean up expired certificates.
@@ -45,20 +45,20 @@ To configure certificate-based authentication, the following statements must be 
 
 As a first step, for the device platform you're working with, you need to review the following items:
 
-- The Office mobile applications support
-- The specific implementation requirements
+* The Office mobile applications support
+* The specific implementation requirements
 
 For information about Android and iOS devices, check out the following topics in the **Learn more** section below:
 
-- **Azure Active Directory certificate-based authentication on Android**
-- **Azure Active Directory certificate-based authentication on iOS**
+* **Azure Active Directory certificate-based authentication on Android**
+* **Azure Active Directory certificate-based authentication on iOS**
 
 ### Step 2: Configure the certificate authorities
 
 To configure your certificate authorities in Azure Active Directory, upload the following items for each one:
 
-- The public portion of the certificate in a .cer format
-- The internet-facing URLs where the CRLs reside
+* The public portion of the certificate in a .cer format
+* The internet-facing URLs where the CRLs reside
 
 This is how the schema for a certificate authority looks:
 
@@ -172,8 +172,8 @@ As a first configuration test, try to sign in to Outlook Web Access or SharePoin
 
 If the sign-in succeeds, then you know that:
 
-- The user certificate has been provisioned to your test device.
-- AD FS is configured correctly.
+* The user certificate has been provisioned to your test device.
+* AD FS is configured correctly.
 
 To test certificate-based authentication on your mobile Office application:
 
@@ -187,8 +187,8 @@ To access Exchange ActiveSync (EAS) through certificate-based authentication, an
 
 The EAS profile should contain the following information:
 
-- The user certificate to be used for authentication.
-- The EAS endpoint (for example, outlook.office365.com).
+* The user certificate to be used for authentication.
+* The EAS endpoint (for example, outlook.office365.com).
 
 An EAS profile can be configured and placed on the device using mobile device management (MDM) such as Intune or by manually placing the certificate in the EAS profile on the device.
 

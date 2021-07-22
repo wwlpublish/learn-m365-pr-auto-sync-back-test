@@ -35,8 +35,8 @@ Complete the following steps to proceed with the replication process.
 
    Here you can also define availability sets already configured in the targeted resource group. Availability sets run two or more copies of virtual machines on separate virtual machine hosts in Azure to ensure 99.95% uptime.
 
-1. In **Disks**, you can choose which disks to replicate from the VMs.
+8. In **Disks**, you can choose which disks to replicate from the VMs.
 
     ![Review and start replication](../media/review-and-start-replication.png)
 
-1. Finally, in **Review + Start replication**, click **Replicate** to begin replication. Times for replication will vary based on number and size of virtual machines along with connection speeds between your data center and Azure.
+9. Finally, in **Review + Start replication**, click **Replicate** to begin replication. Times for replication will vary based on number and size of virtual machines along with connection speeds between your data center and Azure.

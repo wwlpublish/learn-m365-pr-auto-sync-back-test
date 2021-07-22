@@ -6,7 +6,7 @@ View a [video version](https://www.microsoft.com/videoplayer/embed/RE4GfeG) of t
 
 <a href="https://mslearn.cloudguides.com/guides/Investigate%20and%20remediate%20threats%20with%20Microsoft%20Defender%20for%20Endpoint">![Microsoft Defender for Endpoint](../media/investigate-remediate.png)</a>  
 
-Be sure to click the full-screen option in the video player. When you're done, use the **Back** arrow in your browser to come back to this page.
+Be sure to click the full-screen option in the video player. When you're done, use the **Back** arrow in your browser to come back to this page. 
 
 You can use the same threat-hunting queries to build custom detection rules. These rules run automatically to check for and respond to various events and system states, including suspected breach activity and misconfigured machines.
 
@@ -27,10 +27,10 @@ Advanced hunting is based on the Kusto query language. The following operators a
 
 In the screenshot above, the following filters have been written:
 
-- Time filter to review only records from the previous seven days.
+- Time filter to review only records from the previous seven days. 
 - Filter on the FileName to contain only instances of powershell.exe.
 - Filter on the ProcessCommandLine.
-- Project only the columns you're interested in exploring and limit the results to 100.
+- Project only the columns you're interested in exploring and limit the results to 100. 
 
 ### Best practices
 

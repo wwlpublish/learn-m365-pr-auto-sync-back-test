@@ -59,7 +59,7 @@ The next step is to enter the SSO details from your app into Cloud App Security.
 To limit end-user downtime and preserve your existing known good configuration, it's a good idea to create a new Relying Party Trust and SSO configuration. However, that might not always be possible. For example, if the app you are configuring does not support creating multiple SSO configurations, then skip the following procedure.
 
 > [!NOTE]
-> The relying party is the party where the app is located. The relying party functions as the reciprocal of the AD FS authentication process.
+> The relying party is the party where the app is located. The relying party functions as the reciprocal of the AD FS authentication process. 
 
 1. Open the **AD FS** management console. 
 1. In the **Relying Party Trusts** section, review the properties of your existing relying party trust for your app, and record the settings.

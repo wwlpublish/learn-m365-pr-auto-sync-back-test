@@ -20,11 +20,11 @@ The tutorial [Configure Cloud Cache to redirect profile containers or office con
 
 [Cross-region replication of Azure NetApp Files volumes](/azure/azure-netapp-files/cross-region-replication-introduction) explains how to setup Cross-region replication of Azure NetApp Files.
 
-### Additional resources
-
+### Additional resources:
 - [Set up a business continuity and disaster recovery plan](/azure/virtual-desktop/disaster-recovery)
 - [Set up disaster recovery to a secondary Azure region for an Azure VM](/azure/site-recovery/azure-to-azure-quickstart)
 - [Planning for an Azure Files deployment](/azure/storage/files/storage-files-planning#redundancy)
 - [Availability options for Azure Virtual Machines](/azure/virtual-machines/availability)
 - [Cloud Cache to create resiliency and availability](/fslogix/cloud-cache-resiliency-availability-cncpt)
 - [Shared Image Galleries overview](/azure/virtual-machines/shared-image-galleries)
+

@@ -4,7 +4,7 @@ You're ready to begin your strategy and project plan. You need to quickly delive
 
 |Role|Description|
 |-|-|
-|Executive sponsor| Do you have a senior executive in your company that is spearheading the overall business outcomes, including the implementation of Microsoft Teams?|
+|Executive sponsor| Do you have a senior executive in your company that is spearheading the overall business outcomes, including the implementation of Microsoft Teams?| 
 |Success owner|Who is accountable for the overall success of your implementation? THis is often a business leader (like the head of product development) in partnership with an IT service owner (like the service manager who owns collaboration and communication services).|
 |Project manager|You or another person who has the day-to-day responsibility for managing the overall project, including managing risks, issues, and stakeholders.|
 |Champions|Do you have an existing network of champions who provide departmental and 1:1 support for employees during transitions? Do you have a community manager that can provide a consistent presence to these people and handle their training and support?|
@@ -27,7 +27,7 @@ What we know is that most employees aren't willing to use new technology rolled 
 Identify and empower your executive sponsor to be a consistently visible part of your change program. This supports sustained use of the new tools and overall transformation. Consistent communications are key. Here are ways your executive sponsors can communicate their support for the project:
 
 - Use Microsoft Teams Live Events to broadcast a digital town hall to employees impacted by the change. Schedule these regularly - preferably monthly or at a minimum quarterly - to reinforce why your organization is going on this change journey.
-- Have your executive sponsor use the technology themselves. When executives are present in new experiences, employee use of those experiences increases. Select a relevant executive experience to transform along with other employees. Work with the executive's support staff directly to ensure a smooth transition.
+- Have your executive sponsor use the technology themselves. When executives are present in new experiences, employee use of those experiences increases. Select a relevant executive experience to transform along with other employees. Work with the executive's support staff directly to ensure a smooth transition. 
 - Use additional forms of communication including email, intranet articles, and internal social networks to communicate to employees, and allow executives to receive feedback directly. While a more open and transparent culture may be new to your organization, your change program will benefit.
 
 If you don't have a senior executive who is willing to participate, you can drive a portion of change in a grassroots manner. Go directly to a key division or process owner and partner with them on your experimental transformation process. Meaningful business results from this experiment might be what you need to get your C-suite onboard.
@@ -62,7 +62,7 @@ Each of the following workstreams and capability areas require a leader, though 
 
 Map out the capabilities you will need to successfully deliver a Microsoft Teams implementation. You're already working with your IT service manager who is reviewing SuccessWithTeams.com content to manage the technical readiness. You meet and discuss timelines and outcomes and jointly review the workstreams shown above. You both determine that neither of you have the bandwidth to handle the Champion and Early adopter programs or to ensure quality and support readiness. You should undertake one or all of the following actions:
 
-- You have an [eligible license agreement](/microsoftteams/office-365-licensing) with over 150 seats. Reach out to the [Microsoft FastTrack team](https://www.microsoft.com/fasttrack). Your IT administrator can also request help through the **Get Help** widget in the Microsoft 365 admin center. FastTrack engineers and program managers will reach out to help answer your technical questions and create a success plan for Microsoft Teams.
+- You have an [eligible license agreement](/microsoftteams/office-365-licensing) with over 150 seats. Reach out to the [Microsoft FastTrack team](https://www.microsoft.com/fasttrack). Your IT administrator can also request help through the **Get Help** widget in the Microsoft 365 admin center. FastTrack engineers and program managers will reach out to help answer your technical questions and create a success plan for Microsoft Teams. 
 - To learn from other people who are also driving adoption of Microsoft Teams visit the [Driving Adoption](https://aka.ms/DriveAdoption) forum on the Microsoft Technical Community.
 - If you have a technology partner that's already helping you in your company, speak with them about their Microsoft Teams experience to determine if they are qualified to assist you.
 

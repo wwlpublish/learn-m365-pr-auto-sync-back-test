@@ -18,7 +18,7 @@ View 1 of the *Areas of improvement report* gives a population-level look at fiv
 
 Opportunities with high percentages of your employee population suggest high impact areas for remote work improvement. The Workplace Analytics metrics selected for each of these areas can indicate potential opportunity but are not definitive.
 
-Use surveys, focus groups, and employee discussions to identify whether the changes in collaboration behaviors are truly indicative of an underlying issue.
+Use surveys, focus groups, and employee discussions to identify whether the changes in collaboration behaviors are truly indicative of an underlying issue. 
 
 Take a look at the *Best practices recommendations* (on the right side of the report) for training videos, tips, and tool usage recommendations to improve remote work effectiveness.
 

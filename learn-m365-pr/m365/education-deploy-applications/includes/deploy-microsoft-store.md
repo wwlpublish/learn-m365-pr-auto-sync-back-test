@@ -103,7 +103,7 @@ For more information, see **Manage user accounts** in the Learn more section.
 
 ## Get apps and content
 
-You can browse and search for all products in the Store for Education catalog. There are both free and paid-for applications. Applications are added to the Store for Education so you should check back from time to time. Currently, you can pay for apps with a credit card, and some items can be paid for with an invoice.
+You can browse and search for all products in the Store for Education catalog. There are both free and paid-for applications. Applications are added to the Store for Education so you should check back from time to time. Currently, you can pay for apps with a credit card, and some items can be paid for with an invoice. 
 
 There are two applications types in the Store for Education
 

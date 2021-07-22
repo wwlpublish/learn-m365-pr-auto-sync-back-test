@@ -1,6 +1,6 @@
 ## For Viva Topics in Microsoft 365 admin center
 
-After you sign up for & set up a Viva Topics trial in this learning path, you have a Topic center to curate the topics to be shared. The Topic center is a SharePoint site where users have a personalized view of relevant knowledge across your organization and the Knowledge manager can manage topics. Topic pages are hosted here.
+After you sign up for & set up a Viva Topics trial in this learning path, you have a Topic center to curate the topics to be shared. The Topic center is a SharePoint site where users have a personalized view of relevant knowledge across your organization and the Knowledge manager can manage topics. Topic pages are hosted here. 
 
 **You must be a Global administrator, SharePoint administrator or Knowledge administrator to perform these tasks:**
 

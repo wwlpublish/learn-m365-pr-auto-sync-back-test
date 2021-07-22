@@ -50,7 +50,7 @@ There are a few other questions to consider before you begin your customer focus
 - Are you focusing on a specific segment in the organization?
 - What timeframe will you analyze?
 
-Scope your project to clarify your objectives, ensure the right people are involved, and select the appropriate population and timeframe for your analysis. Get the right support and approvals ahead of time and create a targeted plan for your analysis to ensure a smooth and successful customer focus initiative.
+Scope your project to clarify your objectives, ensure the right people are involved, and select the appropriate population and timeframe for your analysis. Get the right support and approvals ahead of time and create a targeted plan for your analysis to ensure a smooth and successful customer focus initiative. 
 
 > [!IMPORTANT]
 > To bring the most value to your customer focus analysis, you need to include sales-related attributes in the organizational data, or the data from your organization's CRM database. Workplace Analytics has an option to upload CRM data. For more detailed information on data requirements for each topic, and instructions on uploading CRM data, see the **Learn more** links at the end of this unit.

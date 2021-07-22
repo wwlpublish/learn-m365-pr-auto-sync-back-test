@@ -19,7 +19,7 @@ The insider risk Alert dashboard allows you to view and take action on alerts ge
 As alerts start showing up, you can review them and investigate each by clicking on it and analyzing the signals in the Alert details pane. Once you have analyzed an alert, you can assign it to one of the following statuses:
 
 - **Confirmed.** Creates a case to further investigate the alert.
-- **Dismissed.** Identifies it as a false positive.
+- **Dismissed.** Identifies it as a false positive. 
 - **Needs review.** The alert requires further analysis to define an action.
 - **Resolved.** The case to which this alert was assigned has been closed.
 

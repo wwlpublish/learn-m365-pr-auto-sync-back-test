@@ -11,10 +11,9 @@ The disaster-recovery process requires coordination between each of the procedur
 RPO and RTO may be perceived as being balanced against one another, so that a customer may decide to allow for longer recovery times to attain higher recovery points. If recovery time is an issue for a customer due to available bandwidth or risk of downtime, that customer may not be able to achieve a high RPO.
 
 The rest of the unit will explore three different failure scenarios and how to prepare BCDR for Azure Virtual Desktop:
-
-- Scenario 1. Local corruption of data, metadata, or resources
-- Scenario 2. Single datacenter of Availability Zone failure within an Azure region
-- Scenario 3. Azure region outage
+ - Scenario 1. Local corruption of data, metadata, or resources
+ - Scenario 2. Single datacenter of Availability Zone failure within an Azure region
+ - Scenario 3. Azure region outage
 
 >[!Note]
 > To learn more about detailed steps on how to protect individual components of Azure Virtual Desktop, please refer to the **Learn more** section in the **Summary** unit of this module.
@@ -49,7 +48,7 @@ You might often make changes to desktop images during the normal course of Azure
 
 ## Scenario 2. Single datacenter of Availability Zone failure within an Azure region
 
-An Azure region is a set of datacenters deployed within a latency-defined perimeter and connected through a dedicated regional low-latency network. In case of an outage of a datacenter or zone in an Azure region, your BCDR for Azure Virtual Desktop should include the recommendations listed in the following sections.
+An Azure region is a set of datacenters deployed within a latency-defined perimeter and connected through a dedicated regional low-latency network. In case of an outage of a datacenter or zone in an Azure region, your BCDR for Azure Virtual Desktop should include the recommendations listed in the following sections. 
 
 ### Azure Virtual Desktop service
 
@@ -105,7 +104,7 @@ In an Azure Virtual Desktop that is connected with your on-premises network, you
 
 ### FSLogix profiles and MSIX app attach
 
-You can use Azure NetApp Files as a storage option for FSXlogix profiles and MSIX app attach because they support cross-region replication. Azure Files with Standard performance also support cross-region replication. You can configure the FSLogix agent to support multiple profile locations, which helps ensure availability if there's a failure. If the primary location fails, the FSLogix agent will be replicated as part of the VM Azure Site Recovery. The agent will automatically attempt to use the profile path that points to the secondary region.
+You can use Azure NetApp Files as a storage option for FSXlogix profiles and MSIX app attach because they support cross-region replication. Azure Files with Standard performance also support cross-region replication. You can configure the FSLogix agent to support multiple profile locations, which helps ensure availability if there's a failure. If the primary location fails, the FSLogix agent will be replicated as part of the VM Azure Site Recovery. The agent will automatically attempt to use the profile path that points to the secondary region. 
 
 For the active-active scenario and if the RTO/RTA are less than a day, we recommend that you use FSLogix profiles to use Cloud Cache. Cloud Cache is a feature of FSLogix that must be specifically enabled and configured and allows you to use multiple remote locations, which are all continually updated during the user session.
 

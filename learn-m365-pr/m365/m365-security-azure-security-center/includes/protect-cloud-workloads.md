@@ -199,7 +199,7 @@ Azure Security Center will then tell you if there are any containers that don't 
 
 ### Run-time protection
 
-You can also use real-time threat protection for containerized environments, and Azure Security Center will also generate alerts for security issues.
+You can also use real-time threat protection for containerized environments, and Azure Security Center will also generate alerts for security issues. 
 
 Threat protection is provided at two levels that are configured differently:
 

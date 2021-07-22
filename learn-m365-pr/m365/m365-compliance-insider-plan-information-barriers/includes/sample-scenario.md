@@ -26,8 +26,8 @@ Contoso will use PowerShell cmdlets and the Department attribute in Azure Active
 |  Department | Segment definition  |
 |---|---|
 |  HR |  `New-OrganizationSegment -Name "HR" -UserGroupFilter "Department -eq 'HR'"` |
-| Sales  | `New-OrganizationSegment -Name "Sales" -UserGroupFilter "Department -eq 'Sales'"` |
-|  Marketing |  `New-OrganizationSegment -Name "Marketing" -UserGroupFilter "Department -eq 'Marketing'"`|
+| Sales  | `New-OrganizationSegment -Name "Sales" -UserGroupFilter "Department -eq 'Sales'" ` |
+|  Marketing |  `New-OrganizationSegment -Name "Marketing" -UserGroupFilter "Department -eq 'Marketing'" `|
 |  Research |  `New-OrganizationSegment -Name "Research" -UserGroupFilter "Department -eq 'Research'"` |
 | Manufacturing  |  `New-OrganizationSegment -Name "Manufacturing" -UserGroupFilter "Department -eq 'Manufacturing'"` |
 

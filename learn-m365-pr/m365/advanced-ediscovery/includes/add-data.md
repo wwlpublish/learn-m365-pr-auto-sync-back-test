@@ -18,7 +18,7 @@ There are various methods for adding data to a review set in an Advanced eDiscov
 
 After you are satisfied with the collection of custodial content, you can evaluate the content further by moving it into a review set in the case. You do this by selecting a search on the **Searches** tab, and then clicking **Add results to review set** on the flyout page.
 
- ![Evaluate the collection of custodial content further by moving it into a review set in the case.](../media/add-results.png)
+ ![Evaluate the collection of custodial content further by moving it into a review set in the case.](../media/add-results.png) 
 
 Adding the results of your search to a review set triggers Advanced eDiscovery to collect all the content from your search results. It then processes all that content by extracting the text and metadata and places the results in a centralized index. These results from the sources you selected can then be searched and analyzed through one interface.
 
@@ -29,7 +29,7 @@ After the review set processing is completed, you can click the Review sets tab 
 
 ## Load non-Microsoft 365 data into a review set
 
-Not all content that you need to analyze in Advanced eDiscovery is in Microsoft 365. If you want to add data from a source other than Office 365 into your search – including data from an on-premises environment - a process is provided to add that data after you complete your initial search. With the non-Microsoft 365 data import feature in Advanced eDiscovery, you can upload documents that aren't located in Microsoft 365 to a review set.
+Not all content that you need to analyze in Advanced eDiscovery is in Microsoft 365. If you want to add data from a source other than Office 365 into your search – including data from an on-premises environment - a process is provided to add that data after you complete your initial search. With the non-Microsoft 365 data import feature in Advanced eDiscovery, you can upload documents that aren't located in Microsoft 365 to a review set. 
 
 > [!NOTE]
 > Non-Microsoft 365 data must be a file type that is supported by Advanced eDiscovery. For more information, see [Supported file types in Advanced eDiscovery](/microsoft-365/compliance/supported-filetypes-ediscovery20?azure-portal=true).

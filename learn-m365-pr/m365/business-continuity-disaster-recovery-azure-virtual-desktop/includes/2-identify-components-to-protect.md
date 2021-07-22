@@ -26,7 +26,6 @@ Azure Virtual Desktop core infrastructure services are fully managed by Microsof
 You will use Azure AD for identity and access management in Azure Virtual Desktop. This includes access to remote sessions, administration elements, and user provisioning. Azure Virtual Desktop uses Azure AD to authenticate any operation that interacts with services running in Azure. This includes apps and websites users use to determine available resources.
 
 ## AD DS
-
 Azure Virtual Desktop VMs must domain-join an AD DS service, and the AD DS must be in sync with Azure AD to associate users between the two services. You can use Azure AD Connect to integrate AD DS with Azure AD. You can deploy Azure Virtual Desktop with identities from a cloud-only organization or in an environment with hybrid identities. However, your infrastructure must meet specific requirements to support Azure Virtual Desktop:
 
 - An Azure AD organization.
@@ -51,7 +50,7 @@ When you configure session hosts with application groups, you have your choice o
 - Windows server 2019.
 - Your own custom images stored in your own Azure Storage account or the Shared Image gallery.
 
-Master images don't directly impact a user's ability to connect to a session-host VM. However, they're critically important when provisioning new session host capacity. So, when creating hosts, you must back them up and ensure they're available. You need to make sure that the master image is available in the secondary region. We recommend that you configure your custom images to use the Shared Image Gallery. This will let you share your custom VM images across regions.
+Master images don't directly impact a user's ability to connect to a session-host VM. However, they're critically important when provisioning new session host capacity. So, when creating hosts, you must back them up and ensure they're available. You need to make sure that the master image is available in the secondary region. We recommend that you configure your custom images to use the Shared Image Gallery. This will let you share your custom VM images across regions. 
 
 ## FSLogix
 

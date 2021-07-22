@@ -116,8 +116,8 @@ You provide the following parameters:
 
 |Parameter  |Description  |
 |---------|---------|
-|**Identity**| The user to assign the policy to |
-|**PolicyName**| The name of the policy you want to assign |
+|**Identity**	| The user to assign the policy to |
+|**PolicyName**	| The name of the policy you want to assign |
 
 Network sites are associated with network regions, which allows you to assign the same policy across an entire site or region. You can use the **Set-CsTenantNetworkSite** cmdlet to assign your policy to a network site:
 
@@ -127,9 +127,9 @@ Set-CsTenantNetworkSite -Identity "ContosoSite1" -NetworkRegionID "RegionWashing
 
 |Parameter  |Description  |
 |---------|---------|
-|**Identity**| Identifier for your network site |
-|**NetworkRegionID**| Identifier for the network region that the network site is associated with |
-|**Description**| Description of the network site |
+|**Identity**	| Identifier for your network site |
+|**NetworkRegionID**	| Identifier for the network region that the network site is associated with |
+|**Description**	| Description of the network site |
 
 ### Create emergency call routing policies
 
@@ -176,9 +176,9 @@ The parameters here specify the following:
 
 |Parameter  |Description  |
 |---------|---------|
-|**Identity**|The name of the policy to edit|
-|**Tenant**|The appropriate tenant to use|
-|**AllowEnhancedEmergencyServices**|Set to false to disabled enhanced emergency services|
+|**Identity**	|The name of the policy to edit|
+|**Tenant**	|The appropriate tenant to use|
+|**AllowEnhancedEmergencyServices**	|Set to false to disabled enhanced emergency services|
 
 ### Assign emergency call routing policies to user and network sites
 
@@ -194,8 +194,8 @@ You provide the following parameters:
 
 |Parameter  |Description  |
 |---------|---------|
-|**Identity**| The user to assign the policy to|
-|**PolicyName**| The name of the policy you want to assign |
+|**Identity**	| The user to assign the policy to|
+|**PolicyName**	| The name of the policy you want to assign |
 
 To assign your emergency call routing policy to a network site, you use the **Set-CsTenantNetworkSite** cmdlet:
 

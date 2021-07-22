@@ -14,7 +14,7 @@ The **Policy dashboard** allows you to quickly see the policies in your organiza
 - **Active:** The status of the policy.
 
 ![Policy template](../media/policy-template.png)
-
+ 
 ## Policy templates
 
 Insider risk management templates contain pre-defined policy conditions that define the types of risk indicators monitored by a policy. Before you can create a policy, you need to assign a template to it in the policy creation wizard. Currently, you can choose from one of the following types of templates.

@@ -14,7 +14,7 @@ You can turn on Customer Lockbox controls in the Microsoft 365 admin center. Whe
 
 1. To approve or deny a Customer Lockbox request from Microsoft, someone with a work or school account who has been granted the global administrator role or has been assigned the Customer Lockbox access approver role signs in to the [Microsoft 365 admin center](https://admin.microsoft.com?azure-portal=true) and selects **Support > Customer Lockbox Requests**.
 
-   ![Customer lockbox requests](../media/customer-lockbox-requests.png)
+   ![Customer lockbox requests](../media/customer-lockbox-requests.png) 
 
 1. To display a list of Customer Lockbox requests, the customer selects **Customer Lockbox Requests** from the **Support** menu. The customer can then select the appropriate request and choose either **Approve** or **Deny**.
 
@@ -26,7 +26,7 @@ You can turn on Customer Lockbox controls in the Microsoft 365 admin center. Whe
 
 ## Auditing Customer Lockbox requests
 
-Actions related to accepting or denying a Customer Lockbox request and actions performed by Microsoft engineers (when access requests are approved) are logged in the audit log. You can access these logs by using the audit log search tool in the Microsoft 365 Defender portal.
+Actions related to accepting or denying a Customer Lockbox request and actions performed by Microsoft engineers (when access requests are approved) are logged in the audit log. You can access these logs by using the audit log search tool in the Microsoft 365 Defender portal. 
 
 ### Audit record for a Customer Lockbox access request
 
@@ -34,8 +34,8 @@ When a person in your organization approves or denies a Customer Lockbox request
 
 | Audit record property  | Description  |
 |---|---|
-|  Date |  The date and time when the Customer Lockbox request was approved or denied. |
-|  IP address | The IP address of the machine the approver used to approve or deny a request.  |
+|  Date	 |  The date and time when the Customer Lockbox request was approved or denied. |
+|  IP address | 	The IP address of the machine the approver used to approve or deny a request.  |
 |  User |  The service account BOXServiceAccount@[tenantforest].prod.outlook.com. |
 |  Activity |  **Set-AccessToCustomerDataRequest**; this is the auditing activity that is logged when you approve or deny a Customer Lockbox request. |
 |  Item |  The GUID of the Customer Lockbox request |
@@ -46,7 +46,7 @@ The actions performed by a Microsoft engineer after a Customer Lockbox request i
 
 | Audit record property  | Description  |
 |---|---|
-|  Date |  The date and time when the action was performed. Note that the time that this action was performed will be within 4 hours of when the Customer Lockbox request was approved. |
+|  Date	 |  The date and time when the action was performed. Note that the time that this action was performed will be within 4 hours of when the Customer Lockbox request was approved. |
 |  IP address | The IP Address of the machine Microsoft engineer used. |
 |  User |  Microsoft Operator; this value indicates that this record is related to a Customer Lockbox request.|
 |  Activity |  Name of the activity performed by the Microsoft engineer. |

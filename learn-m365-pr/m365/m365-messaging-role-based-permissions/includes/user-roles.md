@@ -39,7 +39,7 @@ As the company grows, your initial role assignment policy needs to change. You c
 1. Select the role assignment policy that you want to modify.
 1. In the policy properties window that opens, do one of the following steps:
 
-   - To add a role, select it.
+   - To add a role, select it. 
    - To remove a role that's already assigned, clear the selection.
 
    If you select a role that has child roles, you can choose or clear the child roles. If you clear (or "unselect") a parent role, the child roles are also cleared. If you want to have a child role but not the parent role, clear the parent role, and then select the specific child role.

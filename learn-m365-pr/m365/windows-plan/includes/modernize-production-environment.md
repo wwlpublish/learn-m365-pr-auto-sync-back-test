@@ -49,5 +49,5 @@ Create and update the following artifacts that will help you capture the details
 
 |Item  |Format  |Description  |
 |---------|---------|---------|
-|Approved capability and modernization improvements|Word document|Capture details about the improvements along with the business value added by these improvements|
+|Approved capability and modernization improvements     |Word document|Capture details about the improvements along with the business value added by these improvements|
 |Infrastructure and configuration remediation list|Spreadsheet|Capture configuration and infrastructure changes that need to be made to implement the approved improvements|

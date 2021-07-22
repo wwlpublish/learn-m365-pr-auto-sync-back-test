@@ -2,7 +2,7 @@ To successfully deploy Teams, your network should first be optimized to support 
 
 Badly configured network components can introduce delays when they route network traffic. You might also have implemented security tools that are necessary to protect most internet traffic. However, when you know traffic is to or from Microsoft 365, you can trust its veracity and optimize performance by skipping those security tools.
 
-In your multi-national bicycle manufacturer, you've had security issues in the past and, to mitigate these, you've implemented a set of proxy servers and edge-security tools. You're worried that these systems may degrade the performance of Microsoft 365 by rerouting all traffic. You want to assess your current arrangements and consider any changes you need to make to support Microsoft 365. These changes will also help to optimize your Teams deployment.
+In your multi-national bicycle manufacturer, you've had security issues in the past and, to mitigate these, you've implemented a set of proxy servers and edge-security tools. You're worried that these systems may degrade the performance of Microsoft 365 by rerouting all traffic. You want to assess your current arrangements and consider any changes you need to make to support Microsoft 365. These changes will also help to optimize your Teams deployment. 
 
 This unit covers Microsoft 365 connectivity principles and requirements.
 

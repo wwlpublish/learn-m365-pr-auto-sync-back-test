@@ -40,7 +40,7 @@ No matter where you start to review alerts or the filtering you configure, the n
 
    ![Policy message](../media/policy-message.png)
 
-1. **Decide on a remediation action**: Now that you've reviewed the details of the message for the alert, you can choose between the following remediation actions:
+3. **Decide on a remediation action**: Now that you've reviewed the details of the message for the alert, you can choose between the following remediation actions:
    - Resolve
    - False Positive
    - Tag as

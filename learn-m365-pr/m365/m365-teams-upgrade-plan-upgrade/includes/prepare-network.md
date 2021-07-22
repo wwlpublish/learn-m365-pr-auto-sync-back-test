@@ -10,7 +10,7 @@ Network performance can affect the performance of Teams and thereby user happine
 - Firewall and proxy blockers
 - Network impairments such as jitter and packet loss
 
-Bandwidth planning will help you determine whether your deployment might be affected by any of these factors and will help you move toward a resolution.
+Bandwidth planning will help you determine whether your deployment might be affected by any of these factors and will help you move toward a resolution. 
 
 ## Bandwidth planning
 

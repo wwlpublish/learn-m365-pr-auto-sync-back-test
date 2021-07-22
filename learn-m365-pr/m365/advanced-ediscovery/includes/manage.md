@@ -58,7 +58,7 @@ The person who enables Attorney-Client Privilege Detection in your tenant must b
 
 ### Permissions to set up compliance boundaries
 
-To run the compliance security filter cmdlets, you must be a member of the Organization Management role group in the Microsoft 365 Defender portal. For more information, see [Permissions in the Microsoft 365 Defender portal](/microsoft-365/security/office-365-security/permissions-in-the-security-and-compliance-center?azure-portal=true). You also must connect Windows PowerShell to both the Microsoft 365 Defender portal and to your Exchange Online organization to use the compliance security filter cmdlets. This is necessary because these cmdlets require access to mailbox properties, which is why you have to connect to Exchange Online.
+To run the compliance security filter cmdlets, you must be a member of the Organization Management role group in the Microsoft 365 Defender portal. For more information, see [Permissions in the Microsoft 365 Defender portal](/microsoft-365/security/office-365-security/permissions-in-the-security-and-compliance-center?azure-portal=true). You also must connect Windows PowerShell to both the Microsoft 365 Defender portal and to your Exchange Online organization to use the compliance security filter cmdlets. This is necessary because these cmdlets require access to mailbox properties, which is why you have to connect to Exchange Online. 
 
 ### Licensing
 
@@ -108,7 +108,7 @@ In the example illustrated below, Contoso LTD is a Microsoft 365 organization th
 - eDiscovery managers and investigators can only see eDiscovery cases in their agency.
 - eDiscovery managers and investigators can only access the cases that they are a member of.
 
- ![Compliance boundaries](../media/compliance-boundaries.png)
+ ![Compliance boundaries](../media/compliance-boundaries.png) 
 
 ### Implement compliance boundaries
 

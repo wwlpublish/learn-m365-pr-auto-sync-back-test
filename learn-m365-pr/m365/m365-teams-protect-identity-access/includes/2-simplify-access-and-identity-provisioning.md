@@ -10,11 +10,11 @@ Modern authentication is a process where users who have already entered their cr
 
 ### Windows users
 
-- If users have already signed into Windows or other Office apps with their work or school account, they're taken directly to the app when they start Teams. There's no need to enter their credentials.
-- Microsoft recommends using Windows 10 version 1903 or later for the best single sign-on (SSO) experience.
-- If users aren't signed in to their Microsoft work or school account anywhere else, and they then start Teams, they're asked to provide either single-factor or multifactor authentication, depending on what your organization decides.
-- If users are signed into a domain-joined computer when they start Teams, they might be asked to go through one more authentication step. It depends on whether your organization opted to require multifactor authentication, or if the computer already needs multifactor authentication to sign in. If the user's computer has already asked for multifactor authentication to sign in, the Teams app starts automatically when they open it.
-- On domain-joined PCs, when SSO isn't possible, Teams may prefill its login screen with the user principal name (UPN). There are times when you might not want this, especially if your organization uses different UPNs on-premises and in Azure Active Directory. If that's the case, you can use the following Windows registry key to turn off prepopulation of the UPN:
+* If users have already signed into Windows or other Office apps with their work or school account, they're taken directly to the app when they start Teams. There's no need to enter their credentials.
+* Microsoft recommends using Windows 10 version 1903 or later for the best single sign-on (SSO) experience.
+* If users aren't signed in to their Microsoft work or school account anywhere else, and they then start Teams, they're asked to provide either single-factor or multifactor authentication, depending on what your organization decides.
+* If users are signed into a domain-joined computer when they start Teams, they might be asked to go through one more authentication step. It depends on whether your organization opted to require multifactor authentication, or if the computer already needs multifactor authentication to sign in. If the user's computer has already asked for multifactor authentication to sign in, the Teams app starts automatically when they open it.
+* On domain-joined PCs, when SSO isn't possible, Teams may prefill its login screen with the user principal name (UPN). There are times when you might not want this, especially if your organization uses different UPNs on-premises and in Azure Active Directory. If that's the case, you can use the following Windows registry key to turn off prepopulation of the UPN:
 
   **Computer\HKEY_CURRENT_USER\Software\Microsoft\Office\Teams
   SkipUpnPrefill(REG_DWORD)
@@ -31,8 +31,8 @@ On macOS, Teams will prompt users to enter their username credentials and might 
 
 On sign-in, mobile users will see a list of all the Microsoft 365 accounts that are either currently signed in or were previously signed in on their device. Users can tap on any of the accounts to sign in. There are two scenarios for mobile sign-in:
 
-- If the selected account is currently signed into other Office 365 or Microsoft 365 apps, then the user will be taken straight to Teams. There's no need to enter credentials.
-- If the user isn't signed in to their Microsoft 365 account anywhere else, they'll be asked to provide single-factor or multifactor authentication, depending on what your organization has configured for mobile sign-in policies.
+* If the selected account is currently signed into other Office 365 or Microsoft 365 apps, then the user will be taken straight to Teams. There's no need to enter credentials.
+* If the user isn't signed in to their Microsoft 365 account anywhere else, they'll be asked to provide single-factor or multifactor authentication, depending on what your organization has configured for mobile sign-in policies.
 
 > [!NOTE]
 > For users to have the sign-in experience as described in this section, their devices must be running Teams for iOS version 2.0.13 (build 2020061704) or later, or Teams for Android version 1416/1.0.0.2020061702 or later.

@@ -18,7 +18,7 @@ You will also need Exchange Online or Exchange on-premises. An Exchange license 
 
 ## What are the configuration requirements?
 
-For initial configuration, Teams Rooms requires DHCP. However, once you have configured the device, you can switch from DHCP to a static IP address.
+For initial configuration, Teams Rooms requires DHCP. However, once you have configured the device, you can switch from DHCP to a static IP address. 
 When using Teams or Skype for Business, be sure that all the proper ports and protocols are enabled for access via your firewalls or proxy servers.
 
 ## What about licensing?

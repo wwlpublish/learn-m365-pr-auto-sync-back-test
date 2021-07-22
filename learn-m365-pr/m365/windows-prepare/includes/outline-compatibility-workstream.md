@@ -34,7 +34,7 @@ Woodgrove has many devices. There are several things Woodgrove will do to ensure
 
 ### Identify users
 
-Woodgrove has many users in different departments. These users have different backgrounds and workloads. Woodgrove must know which users are best suited for validating whether devices are ready for the update. Woodgrove will have to determine which users to select. You suggest that Woodgrove should consider several factors, such as:
+Woodgrove has many users in different departments. These users have different backgrounds and workloads. Woodgrove must know which users are best suited for validating whether devices are ready for the update.  Woodgrove will have to determine which users to select. You suggest that Woodgrove should consider several factors, such as:
 
 - **Location**: Woodgrove has many users in different physical locations. Can the users be supported and can they provide feedback from the region they're located in?
 - **Application knowledge**: Do the users have the right knowledge of how the application works?
@@ -69,7 +69,7 @@ Woodgrove can use Desktop Analytics to save time and reduce effort.  Desktop Ana
 
 If Woodgrove doesn't use Desktop Analytics to prepare its applications and devices, it will use resources across the business to carry out the following tasks:
 
-- **Create and maintain an application and device portfolio**: Woodgrove will create a list of the applications that are used across the company and maintain this list for each feature update. Woodgrove would also spend time understanding the device types in the estate, to help to determine the applications that need to be validated and the devices that should be used for validation.
+- **Create and maintain an application and device portfolio**: Woodgrove will create a list of the applications that are used across the company and maintain this list for each feature update. Woodgrove would also spend time understanding the device types in the estate, to help to determine the applications that need to be validated and the devices that should be used for validation. 
 - **Create and maintain a list that assigns applications to critical, important, and not important**: Woodgrove will need to create a list of all of its applications across its environment. It will go over each application based on a set of agreed criteria and assign each of them to an importance level. This list will also have to be updated as applications are added, removed, or change importance level over time.
 - **Assign owners to critical applications**: Woodgrove will have to maintain a list that maps application owners to applications across the environment.
 - **Investigate and identify compatibility issues**: Woodgrove would spend time and effort to find a way to identify compatibility issues for each application before Pilot deployment.

@@ -36,7 +36,7 @@ For a full list of all the capabilities and features of the Phone System see: [/
 | --- | --- |
 | Auto attendants | Set up menu systems to help callers to your company get to the right department or person, you can also let them transfer directly to an operator. |
 | Call queues | Create greeting messages and allow a team to support a queue of incoming calls. You can customize the hold music and queue timeouts. |
-| Voicemail | Let your users receive voicemail messages in their inbox. User will receive an email with the audio attached with transcriptions. |
+| Voicemail | Let your users receive voicemail messages in their inbox. User will receive an email with the audio attached with transcriptions. | 
 | Call forwarding | Users can control where calls go, either to one of their devices, a colleague's phone number, or voicemail. |
 | Group calls and forward to groups | Share how calls are answered with a group, and support for forwarding calls to groups of people.  |
 | Call parking | Users can place received calls on hold. The parked call is given a unique code that the same user, or someone else, can retrieve the call with. |

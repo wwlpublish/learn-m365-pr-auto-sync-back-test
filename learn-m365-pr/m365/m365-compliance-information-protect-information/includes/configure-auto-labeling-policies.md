@@ -93,7 +93,7 @@ The **Policy Simulator** assists you in validating and fine-tuning your auto-lab
 
 The image below shows an auto-label policy named **U.S. Patriot Act** that has been running in simulation mode for two days. You can click on the **Matched items** tab to see the results of your auto-labeling policy simulation, provided you have the appropriate permissions.  Selecting **Turn on policy** starts policy enforcement.
 
- ![Auto-labeling policy example](../media/auto-labeling-policy-example.png)
+ ![Auto-labeling policy example](../media/auto-labeling-policy-example.png) 
 
 ## Learn more
 
