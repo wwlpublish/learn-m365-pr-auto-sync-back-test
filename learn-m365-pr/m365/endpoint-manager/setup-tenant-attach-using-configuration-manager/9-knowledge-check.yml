@@ -36,15 +36,15 @@ quiz:
     - content: "Internet endpoints must also be secure. For this reason, they must be managed by Microsoft Endpoint Manager."
       isCorrect: false
       explanation: "Enabling internet endpoints will allow needed Configuration Manager connectivity."
-  - content: "Which of the following are examples of remote device actions?"
+  - content: "Which statement best describes the actions you can take after attaching your tenant to Confirmation Manager?"
     choices:
-    - content: "Remote device actions might include deleting company data on lost or stolen devices, renaming a device, or restarting a device."
+    - content: "Tenant attach allows you to recognize your Microsoft Endpoint Manager devices and take actions from Configuration Manager."
+      isCorrect: false
+      explanation: "Tenant attach allows you to recognize your Configuration Manager devices and take actions from Microsoft Endpoint Manager."
+    - content: "Tenant attach allows you to recognize your Configuration Manager devices and take actions from Microsoft Endpoint Manager, such as viewing client device details, viewing client device data, managing client apps, and running scripts on client devices."
       isCorrect: true
-      explanation: "Remote device actions give you management control of devices without interfering with personal data on those devices."
-    - content: "Remote device actions might include receiving email, checking device internet speed, or updating personal contacts."
+      explanation: "Tenant attach allows you to you can view client and device details, install apps, and run PowerShell scripts from Microsoft Endpoint Manager admin center. Additionally, you can view a timeline of device events that are synced each day, as well as perform other actions."
+    - content: "Tenant attach allows you to recognize your Configuration Manager devices and take actions from Microsoft Endpoint Manager, such as viewing cloud-based tenant details, cloud-based device data, managing cloud-based apps, and running scripts on cloud-based devices."
       isCorrect: false
-      explanation: "Remote device actions give you management control of devices without interfering with personal data on those devices."
-    - content: "Remote device actions are strictly used to manage all device data, whether the data is corporate managed or personal."
-      isCorrect: false
-      explanation: "Remote device actions give you management control of devices without interfering with personal data on those devices."
+      explanation: "Tenant attach allows you to recognize your Configuration Manager devices and take actions from Microsoft Endpoint Manager."
   
