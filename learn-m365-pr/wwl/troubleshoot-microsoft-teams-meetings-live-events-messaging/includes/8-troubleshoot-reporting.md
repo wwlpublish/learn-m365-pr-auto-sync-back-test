@@ -39,3 +39,9 @@ For media logs, in Teams, select **Settings**, select **General**, and select th
 
 > [!TIP]
 > Debug, Desktop, and Media logs are collected in a single folder called **MSTeams Diagnostics Log**. The folder contains subfolders for Desktop, Meeting (Media), and Debug (web) log files.
+
+## Review logs
+
+Watch the following video for a demonstration of how to review logs:
+
+[!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWH62U]
