@@ -68,3 +68,8 @@ Other causes of poor Teams client performance can arise from networking issues. 
 
 If you want to analyze the detail of communications between your Teams client and the Microsoft 365 services it connects to, consider using a network analyzer. One which can capture and display http status codes. These codes help you to identify and troubleshoot Microsoft 365 traffic. 
 
+## Provision audio conferencing for users
+
+Watch the following video for a demonstration of how to provision audio conferencing for users:
+
+[!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWGVGp]
