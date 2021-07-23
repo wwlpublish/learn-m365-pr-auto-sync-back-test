@@ -6,13 +6,13 @@ Now that you have successfully created and trained your form processing model, i
 
     ![A screenshot of  the 'Create a flow' dialog box in the 'Use in SharePoint' panel with the 'Continue' button highlighted.](../media/image055.png)
 
-1. On the next **"Create flow"** screen, Power App notes the applications you're signed into. A green checkmark beside the application means you are ready to apply the form processing model inside that app.
+1. On the next **"Create flow"** screen, Power App notes the applications you're signed into. A green check mark beside the application means you are ready to apply the form processing model inside that app.
    1. Click the **"+"** sign beside an app if you need to sign in to apply the model.
    1. Otherwise, since SharePoint is ready to go, click **"Create flow."**
 
-    ![A screenshot of  the 'Create a flow' dialog box with the SharePoint icon highlighted and checked and the statement: this flow uses the following apps. A green check menas you're ready to go.](../media/image057.png)
+    ![A screenshot of  the 'Create a flow' dialog box with the SharePoint icon highlighted and checked and the statement: this flow uses the following apps. A green check means you're ready to go.](../media/image057.png)
 
-1. The **Use in SharePoint** pane will work for a moment, then display a green checkmark and a notice that your flow was successfully created.
+1. The **Use in SharePoint** pane will work for a moment, then display a green check mark and a notice that your flow was successfully created.
    1. Click **"Go to SharePoint"** at the bottom of the pane.
       - Because you built this form processing model from within a document library, AI Builder and Power App knew to apply the model to that library.
    1. The model will now process documents as they are saved to the library.

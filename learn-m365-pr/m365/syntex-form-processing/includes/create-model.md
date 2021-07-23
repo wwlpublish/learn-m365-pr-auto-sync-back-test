@@ -123,7 +123,7 @@ In this unit, you will teach the Accounting department how to plan for and creat
    1. Highlight the complete vendor name.
    1. Notice that when the dialog box opens, it contains only two field names.
    1. Make your selection, _"Vendor Name,"_ and check that box.
-   1. As before, the box closes, the outline around the vendor name turns green, and the green checkmark appears beside _"Vendor Name"_ in the list of fields on the right-hand side of the page.
+   1. As before, the box closes, the outline around the vendor name turns green, and the green check mark appears beside _"Vendor Name"_ in the list of fields on the right-hand side of the page.
 1. Scroll down in the document to **"Total."**
    1. Highlight the dollar amount.
    1. When the dialog box opens, only _"PO-Total"_ remains as a choice.
