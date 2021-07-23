@@ -47,7 +47,11 @@ From the CQD you can see how many calls had quality issues, and on what dates.
 
 ## Call Quality Dashboard interactive
 
-In this interactive guide, you will explore one report in the Call Quality Dashboard.
+The following interactive exercise guides you though using the Call Quality Dashboard. You will examine the Audio Streams Monthly Trend. 
+
+Once you have completed this exercise you will know how to access the Call Quality Dashboard and be ready to explore the available reports.
+
+[Troubleshooting voice issues interactive walkthrough](https://edxinteractivepage.blob.core.windows.net/edxpages/M365%20Troubleshoot/Troubleshooting%20voice%20issues/index.html)
 
 ## Troubleshoot call drops
 
