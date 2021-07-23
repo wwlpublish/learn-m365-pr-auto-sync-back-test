@@ -4,13 +4,13 @@ You and Megan identified a group of seven documents to train the new model.
 
 ![A screenshot of file explorer showing a folder of training files.](../media/training-files.png)
 
-1. Begin in the content center, navigate to **Models** and then select _Benefit change letter_.
+1. Begin in the content center, navigate to **Models**, and then select _Benefit change letter_.
 1. Click **"Add files"** in the **Add example files column**.
 1. The **"Select example files for your model"** window opens.
 1. Click **"Upload"** to bring the training files into the training area.
    1. Select all of the files in the training files folder and click **"Open."**
    1. The upload will begin. It may take a moment to complete.
-   1. Note that the default content type is _'Document.'_ This training will teach SharePoint Syntex how to change that default content type from _'Document'_ to _'Benefit change letter.'_
+   1. The default content type is _'Document.'_ This training will teach SharePoint Syntex how to change that default content type from _'Document'_ to _'Benefit change letter.'_
 1. When the upload finishes, click the radio button in the top-left column to select all of the documents.
    1. Click **'Add'** in the lower right-hand corner of the window.
 
@@ -25,7 +25,7 @@ You and Megan identified a group of seven documents to train the new model.
 1. The classifier training window opens with one of the training documents automatically selected and open.
    1. You need to mark which of the example files are _positive_ examples of benefit change letters.
    1. In document view, click either **"Yes"** or **"No"** depending on whether the document displayed is a benefit change letter or not.
-       1. Note that the formatting has been stripped so SharePoint Syntex can focus in on the text.
+       1. The formatting has been stripped so SharePoint Syntex can focus in on the text.
 
     ![A screenshot of the classifier window showing a positive example training file with the UI buttons 'Yes' and 'No' highlighted.](../media/define-change-letter.png)
 
@@ -64,7 +64,7 @@ Now, you must explain to the model _why_ benefit change letters are benefit chan
    1. In the dropdown list, you can chose from **"Phrase List"** and **"Proximity"**.
    1. Because the subject line of the benefit change letters is a phrase, select **"Phrase List."**
 1. A new dialog box opens for **"Phrase list"** asking you to identify words, phrases, numbers, or patterns that can be used to accurately identify a benefit change letter.
-   1. Note that each benefit change letter has the same subject line, therefore, you can use that phrase to help the model recognize benefit change letters in the rest of the Human Resources libraries.
+   1. Each benefit change letter has the same subject line, therefore, you can use that phrase to help the model recognize benefit change letters in the rest of the Human Resources libraries.
    1. Copy and paste the phrase _"Benefit Change Notice"_ into the text box on the left.
 
     ![A screenshot of the 'Create an explanation' dialog box with the Name, Explanation type, and Phrase List as well as the phrase, 'Benefit Change Notice', within the example training file highlighted.](../media/create-an-explanation.png)

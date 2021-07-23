@@ -14,7 +14,7 @@ Megan opens the HR Letters library, which contains documents of various types. M
 
 ![Screenshot of the Contoso Electronics HR Letters library and its contents.](../media/hr-letters-library.png)
 
-Human Resources would like to use a document understanding model to automatically identify which documents are benefit notification letters, and then classify them appropriately. To do this, you must first help Megan define a document understanding model and then you'll show her how to create the model by following these steps.
+Human Resources would like to use a document understanding model to automatically identify which documents are benefit notification letters, and then classify them appropriately. First you'll help Megan define a document understanding model and then you'll show her how to create the model by following these steps.
 
 1. Start in the content center. This is the place for creating and training document understanding models, and then applying those models to document libraries.
 1. Select **"Models."**
