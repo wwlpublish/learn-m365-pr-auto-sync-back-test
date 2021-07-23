@@ -48,7 +48,7 @@ You and Megan identified a group of seven documents to train the new model.
 
 Now, you must explain to the model _why_ benefit change letters are benefit change letters. For that, click **"Train."**
 
-![A screenshot of the classifier window with the 'Train' area of the top navigation menu highlighted.](../media/train-extractor.png)
+![A screenshot of the classifier window with the 'Train' area of the top navigation menu highlighted.](../media/train-the-model.png)
 
 1. The explanations dialog box opens in the training area.
     1. Again, the first document is automatically selected and opened.  

@@ -10,7 +10,7 @@ Now we will look at how Megan can create an extractor to pull out the informatio
 
 1. Return to the main models page by selecting the model name, _Benefit change letter_, in the top navigation menu.
 
-    ![A screenshot of the classifier window with the model name highlighted.](../media/goback.png)
+    ![A screenshot of the classifier window with the model name highlighted.](../media/go-back.png)
 
 1. Select **"Create extractor."**
 1. A dialog box opens on the right side of the screen.
@@ -32,14 +32,14 @@ Now we will look at how Megan can create an extractor to pull out the informatio
 
 1. Once all files have been either labeled or listed for no label, click "Save" in the upper right-hand corner of the screen.
 
-    ![A screenshot of the classifer window showing the files with labeled extractors and a negative example file with the 'No label' box checked.](../media/image043.png)
+    ![A screenshot of the classifer window showing the files with labeled extractors and a negative example file with the 'No label' box checked.](../media/negative-example.png)
 
 ## Add an explanation
 
 1. As before, you will need to add explanations for this extractor.
    1. In the upper left-hand title bar, click **"Train."**
 
-    ![A screenshot of the classifier window with the 'Train' tab in the top navigation menu highlighted.](../media/train-the-model.png)
+    ![A screenshot of the classifier window with the 'Train' tab in the top navigation menu highlighted.](../media/train-extractor.png)
 
 1. Once again, the explanation dialog opens with your list of documents and the first document automatically selected for reading in the right-hand pane.
 1. Click **"New"** in the explanations dialog box.
