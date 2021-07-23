@@ -25,7 +25,7 @@ Human Resources would like to use a document understanding model to automaticall
    1. The **"Create a Model"** button appears.
    1. You can see a list of models that have been created previously by other model owners.  
 
-    ![A screenshot of the model wizard and a list of previously created models in the SharePoint Syntex content center.](../media/image009.png)
+    ![A screenshot of the model wizard and a list of previously created models in the SharePoint Syntex content center.](../media/hc-hr-content-center.png)
 
 1. Select **"Create a Model"** in the upper left-hand corner of the page.
 1. A **"New document understanding model"** dialog box opens on the right-hand side of the browser.  
