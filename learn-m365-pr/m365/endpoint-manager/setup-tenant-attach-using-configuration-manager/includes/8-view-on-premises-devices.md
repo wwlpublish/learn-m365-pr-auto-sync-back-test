@@ -10,11 +10,11 @@ Use the following steps to view client details for a specific device:
 
 1. In a browser, navigate to [Microsoft Endpoint Manager admin center](https://endpoint.microsoft.com).
 2. Click **Devices** > **All Devices**.<br>
-   As previously mentioned, you'll see **ConfigMgr** in the **Managed by** column for devices that have been uploaded using tenant attach.
+   You'll see **ConfigMgr** in the **Managed by** column for devices that have been uploaded using tenant attach.
 
    [ ![Microsoft Endpoint Manager - All devices](../media/set-up-tenant-attach-using-confirmation-manager-02.png) ](../media/set-up-tenant-attach-using-confirmation-manager-02.png#lightbox)
 
-3. Select a device that is synced from Configuration Manager via tenant attach. The device will have **ConfigMgr** in the **Managed by** column.
+3. Select a device that is synced from Configuration Manager via tenant attach.
 4. Click **Client details** to see additional details.
 
    Once an hour, the following fields are updated:
