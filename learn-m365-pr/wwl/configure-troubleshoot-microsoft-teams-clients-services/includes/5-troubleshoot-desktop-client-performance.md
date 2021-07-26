@@ -72,4 +72,4 @@ If you want to analyze the detail of communications between your Teams client an
 
 Watch the following video for a demonstration of how to provision audio conferencing for users:
 
-[!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWGVGp]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWGVGp]
