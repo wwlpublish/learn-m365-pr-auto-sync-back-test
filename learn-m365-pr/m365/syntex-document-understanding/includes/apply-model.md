@@ -7,23 +7,23 @@ Now you are now ready to show Megan, who volunteered to be the model owner for H
 1. Start or return to the content center.
    1. From the training page, click on _"Benefit change letter"_ in the navigation menu at the top of the page.
 
-    ![A screenshot of the classifier window with the model name highlighted.](../media/image060.png)
+    ![A screenshot of the classifier window with the model name highlighted.](../media/return-to-content-center-after-extractor.png)
 
 1. Notice that the final button **"Apply model to libraries"** is now available for selection.
    1. Click **"Apply model."**
 
-    ![A screenshot of the models view page with the 'Apply model to libraries' area highlighted.](../media/image061.png)
+    ![A screenshot of the models view page with the 'Apply model to libraries' area highlighted.](../media/apply-model.png)
 
 1. The **"Add benefit change letter"** dialog box opens on the right-hand side of the screen with a list of SharePoint sites.
    1. Select the SharePoint site you want to apply the model to. In this case, select Human Resources.
 
-    ![A dialog box showing a list of available SharePoint sites with Human Resources highlighted.](../media/image063.png)
+    ![A dialog box showing a list of available SharePoint sites with Human Resources highlighted.](../media/select-human-resources-for-model.png)
 
 1. Now select the library where you want the model to run. In this case, you opt to use a blank **"Documents"** library to apply the model to. This is the fast and easy way to run a model when you have large libraries. You will apply the model the library and then mass-import your files, which will be classified and extracted by the model as the files copy into the library.
    1. Select **"Documents."**
    1. Click the **"Add"** button at the bottom of the dialog box.
 
-    ![A dialog box showing a list of available SharePoint libraries within the Human Resources SharePoint site with the Documents library highlighted.](../media/image065.png)
+    ![A dialog box showing a list of available SharePoint libraries within the Human Resources SharePoint site with the Documents library highlighted.](../media/select-documents-library.png)
 
 1. If you prefer to apply the model to the existing HR Letters library, you will need to select each file, then choose **"classify and extract"** to run the model against the files one at a time.
 1. Click **"Go to the library"** at the bottom of the dialog box.
@@ -31,7 +31,7 @@ Now you are now ready to show Megan, who volunteered to be the model owner for H
    1. Note that this library has the model applied to it. You see this in the upper right-hand navigation pane in **"View."**
    1. Also note the column names preset in the library. These are the columns you defined when you built the model.
 
-    ![A screenshot of the Documents library in the Human Resources SharePoint site with the model, Benefit change letter, and the content columns, such as content type, provider, retention label, and so on, highlighted.](../media/image067.png)
+    ![A screenshot of the Documents library in the Human Resources SharePoint site with the model, Benefit change letter, and the content columns, such as content type, provider, retention label, and so on, highlighted.](../media/columns-added.png)
 
 1. Upload your files.
    1. Click on **"Upload"** in the upper left-hand corner.
@@ -41,7 +41,7 @@ Now you are now ready to show Megan, who volunteered to be the model owner for H
 
     Initially, files copy into the library with only the "Content type" column filled in, but SharePoint Syntex goes to work evaluating each file against the model. As the model processes files, columns fill automatically.
 
-    ![A screenshot showing classified and labeled files.](../media/image069.png)
+    ![A screenshot showing classified and labeled files.](../media/benefit-letters-classified.png)
 
 1. Once processing is complete, all benefit change letters should be labeled as such in the **Content Type** column, the provider name will be listed, and all benefit change letters will have a retention label of "Confidential."
    1. You can now sort and filter by the **Content Type** or **Provider** columns.

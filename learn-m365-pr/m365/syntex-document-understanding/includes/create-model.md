@@ -4,34 +4,34 @@ Megan Bowen, a Human Resource administrative assistant at Contoso Electronics, v
 
 Here, you'll learn how to instruct Megan and other model owners how to build document understanding models.
 
-![Screenshot of the Contoso Electronics Human Resources SharePoint page.](../media/image001.png)
+![Screenshot of the Contoso Electronics Human Resources SharePoint page.](../media/home-page.png)
 
 Megan and her managers have identified a library of letters to begin building their document understanding model.  
 
-![Screenshot of the Contoso Electronics Human Resources SharePoint page with the HR Letters library highlighted on the top navigation menu.](../media/image003.png)
+![Screenshot of the Contoso Electronics Human Resources SharePoint page with the HR Letters library highlighted on the top navigation menu.](../media/hr-letters-highlighted.png)
 
 Megan opens the HR Letters library, which contains documents of various types. Megan and her team want to identify which documents are letters notifying Contoso Electronics employees of benefit changes. Given the healthcare data contained in those letters, Contoso Electronics has an obligation to retain them for seven years. Yet, looking through the library, nothing distinguishes these sensitive notification documents from any other document. To know which letters must be retained and which are safe to delete, Megan must open each document.  
 
-![Screenshot of the Contoso Electronics HR Letters library and its contents.](../media/image005.png)
+![Screenshot of the Contoso Electronics HR Letters library and its contents.](../media/hr-letters-library.png)
 
-Human Resources would like to use a document understanding model to automatically identify which documents are benefit notification letters, and then classify them appropriately. To do this, you must first help Megan define a document understanding model and then you'll show her how to create the model by following these steps.
+Human Resources would like to use a document understanding model to automatically identify which documents are benefit notification letters, and then classify them appropriately. First you'll help Megan define a document understanding model and then you'll show her how to create the model by following these steps.
 
 1. Start in the content center. This is the place for creating and training document understanding models, and then applying those models to document libraries.
 1. Select **"Models."**
 
-    ![Screenshot of the Contoso Electronics content center with the Models tab highlighted in the top navigation menu.](../media/image007.png)
+    ![Screenshot of the Contoso Electronics content center with the Models tab highlighted in the top navigation menu.](../media/content-center-models.png)
 
 1. The **Create a Model** page opens.
    1. The **"Create a Model"** button appears.
    1. You can see a list of models that have been created previously by other model owners.  
 
-    ![A screenshot of the model wizard and a list of previously created models in the SharePoint Syntex content center.](../media/image009.png)
+    ![A screenshot of the model wizard and a list of previously created models in the SharePoint Syntex content center.](../media/hc-hr-content-center.png)
 
 1. Select **"Create a Model"** in the upper left-hand corner of the page.
 1. A **"New document understanding model"** dialog box opens on the right-hand side of the browser.  
 1. Enter a name for the model. In this case, name the model "Benefit change letter."
 
-    ![A screenshot of the 'New document understanding model' dialog box.](../media/image011.png)
+    ![A screenshot of the 'New document understanding model' dialog box.](../media/creating-benefit-change-letter-model.png)
 
 1. Each model is tied to a SharePoint content type that must be defined as you create the model.
    1. Click **"Advanced Settings."**
@@ -40,12 +40,12 @@ Human Resources would like to use a document understanding model to automaticall
       1. Click into the drop-down box for **Retention Label** and select **"Confidential."** This selection is based on the Human Resources manager's knowledge of document retention requirements.
    1. This is also where you can define and assign a retention label to the documents your model identifies.
 
-    ![A screenshot of the 'Advanced settings' dialog box where a new content type is created.](../media/image013.png)
+    ![A screenshot of the 'Advanced settings' dialog box where a new content type is created.](../media/benefit-change-content-type-retention.png)
 
 1. Click **"Create."**
 1. SharePoint Syntex brings you to the **Models page view** in the content center.  
 
-    ![A screenshot of the models view page where document understanding models are created](../media/image015.png)
+    ![A screenshot of the models view page where document understanding models are created](../media/benefits-change-model-created.png)
 
 1. The page lays out the key steps you need to take with your model.
    1. **Add example files**
