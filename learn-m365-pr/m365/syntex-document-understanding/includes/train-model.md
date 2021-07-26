@@ -2,7 +2,7 @@ Before you train your model, you must identify five _positive_ example documents
 
 You and Megan identified a group of seven documents to train the new model.
 
-![A screenshot of file explorer showing a folder of training files.](../media/training-files.png)
+:::image type="content" source="../media/training-files.png" alt-text="A screenshot of file explorer showing a folder of training files.":::
 
 1. Begin in the content center, navigate to **Models**, and then select _Benefit change letter_.
 1. Click **"Add files"** in the **Add example files column**.
@@ -14,47 +14,47 @@ You and Megan identified a group of seven documents to train the new model.
 1. When the upload finishes, click the radio button in the top-left column to select all of the documents.
    1. Click **'Add'** in the lower right-hand corner of the window.
 
-    ![A screenshot showing all training files selected in the training area with the 'Add' button highlighted.](../media/add-training-files.png)
+    :::image type="content" source="../media/add-training-files.png" alt-text="A screenshot showing all training files selected in the training area with the 'Add' button highlighted.":::
 
 1. The seven documents are now added to the training area and more key actions options become available, so you can move forward with training your model.
 1. Move to the next column in line: **Classify and run training**.
    1. Click **"Train classifier."**
 
-    ![A screenshot of the models view page with the 'Classify files and run training' area highlighted.](../media/train-classifier.png)
+    :::image type="content" source="../media/train-classifier.png" alt-text="A screenshot of the models view page with the 'Classify files and run training' area highlighted.":::
 
 1. The classifier training window opens with one of the training documents automatically selected and open.
    1. You need to mark which of the example files are _positive_ examples of benefit change letters.
    1. In document view, click either **"Yes"** or **"No"** depending on whether the document displayed is a benefit change letter or not.
        1. The formatting has been stripped so SharePoint Syntex can focus in on the text.
 
-    ![A screenshot of the classifier window showing a positive example training file with the UI buttons 'Yes' and 'No' highlighted.](../media/define-change-letter.png)
+    :::image type="content" source="../media/define-change-letter.png" alt-text="A screenshot of the classifier window showing a positive example training file with the UI buttons 'Yes' and 'No' highlighted.":::
 
 1. Because this is a benefit change letter, click **"Yes."**
    1. The trainer labels the first document **"Positive"** as a match for benefit change letter.
    1. The trainer moves to the next file in line.
 
-    ![A screenshot of the classifier window showing an example training file with the file navigation area highlighted indicating the model is training file 2 of 7.](../media/second-letter.png)
+    :::image type="content" source="../media/second-letter.png" alt-text="A screenshot of the classifier window showing an example training file with the file navigation area highlighted indicating the model is training file 2 of 7.":::
 
 1. Move through each of the example files in this same way until all of them have been identified as either _positive_ or _negative_.
    1. Select 'No' when a file opens that is NOT a benefit change letter.
 
-    ![A screenshot of the classifier window showing a negative example training file with the UI button, 'No', highlighted.](../media/negative-letter-example.png)
+    :::image type="content" source="../media/negative-letter-example.png" alt-text="A screenshot of the classifier window showing a negative example training file with the UI button, 'No', highlighted.":::
 
 1. Once you've moved through the example files, you will notice they've been labeled as _positive_–meaning the documents are benefit change letters, or _negative_–they are not benefit change letters.
 
-    ![A screenshot of all labeled example training files.](../media/labels.png)
+    :::image type="content" source="../media/labels.png" alt-text="A screenshot of all labeled example training files.":::
 
 ## Create an explanation
 
 Now, you must explain to the model _why_ benefit change letters are benefit change letters. For that, click **"Train."**
 
-![A screenshot of the classifier window with the 'Train' area of the top navigation menu highlighted.](../media/train-the-model.png)
+:::image type="content" source="../media/train-the-model.png" alt-text="A screenshot of the classifier window with the 'Train' area of the top navigation menu highlighted.":::
 
 1. The explanations dialog box opens in the training area.
     1. Again, the first document is automatically selected and opened.  
     1. Explanations tell the model what elements go into making a benefit change letter.
 
-    ![A screenshot of the classifier window with the 'Explanations' area highlighted.](../media/not-yet-trained.png)
+    :::image type="content" source="../media/not-yet-trained.png" alt-text="A screenshot of the classifier window with the 'Explanations' area highlighted.":::
 
 1. Before you can train the new model, you must add a new explanation.
    1. Click **"New"**, then **"Blank."**
@@ -67,7 +67,7 @@ Now, you must explain to the model _why_ benefit change letters are benefit chan
    1. Each benefit change letter has the same subject line, therefore, you can use that phrase to help the model recognize benefit change letters in the rest of the Human Resources libraries.
    1. Copy and paste the phrase _"Benefit Change Notice"_ into the text box on the left.
 
-    ![A screenshot of the 'Create an explanation' dialog box with the Name, Explanation type, and Phrase List as well as the phrase, 'Benefit Change Notice', within the example training file highlighted.](../media/create-an-explanation.png)
+    :::image type="content" source="../media/create-an-explanation.png" alt-text="A screenshot of the 'Create an explanation' dialog box with the Name, Explanation type, and Phrase List as well as the phrase, 'Benefit Change Notice', within the example training file highlighted.":::
 
 1. Click **"Save"** at the bottom of the page.
    1. Do _not_ click **"Save and Train."**
