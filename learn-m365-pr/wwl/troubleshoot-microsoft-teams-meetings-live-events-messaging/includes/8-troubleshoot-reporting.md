@@ -44,4 +44,4 @@ For media logs, in Teams, select **Settings**, select **General**, and select th
 
 Watch the following video for a demonstration of how to review logs:
 
-[!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWH62U]
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWH62U]
