@@ -12,8 +12,8 @@ In this module, you will:
 - Confirm tenant attach prerequisites
 - Enable internet endpoints
 - Enable device upload
-- Perform device actions
 - Display the connector status
+- Perform device actions
 - View on-premises device details
 
 ## Prerequisites

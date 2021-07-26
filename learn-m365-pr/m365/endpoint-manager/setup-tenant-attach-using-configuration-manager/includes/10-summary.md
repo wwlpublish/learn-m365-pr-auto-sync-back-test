@@ -8,8 +8,8 @@ In this module, you've learned how to attach your on-premises Configuration Mana
 - Confirm tenant attach prerequisites
 - Enable internet endpoints
 - Enable device upload
-- Perform device actions
 - Display the connector status
+- Perform device actions
 - View on-premises device details
 
 ## Next steps

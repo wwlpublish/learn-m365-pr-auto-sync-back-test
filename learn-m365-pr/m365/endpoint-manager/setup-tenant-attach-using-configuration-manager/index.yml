@@ -16,8 +16,8 @@ abstract: |
     - Confirm tenant attach prerequisites
     - Enable internet endpoints
     - Enable device upload
-    - Perform device actions
     - Display the connector status
+    - Perform device actions
     - View on-premises device details
 prerequisites: | 
   - Basic knowledge of Microsoft Endpoint Manager and endpoint management concepts, see [Microsoft Endpoint Manager fundamentals](/learn/paths/endpoint-manager-fundamentals?azure-portal=true).
