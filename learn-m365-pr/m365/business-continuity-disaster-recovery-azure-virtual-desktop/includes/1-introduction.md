@@ -1,25 +1,24 @@
-Natural or human-made disasters can affect the continuity of your organization's cloud infrastructure at any time. Organizations must plan for disaster and recovery. They must have business-continuity plans in place to ensure they can protect against data loss.
+Natural or human-made disasters can affect the continuity of your organization's cloud infrastructure at any time. Organizations must anticipate the possibility of disaster and plan for recovery. Such a plan can help ensure that they're protected against data loss.
 
-However, losing data isn't the only disaster for which IT professionals must plan. A comprehensive disaster-recovery plan also helps ensure business continuity. For example, your plan might involve redirecting requests or failing over to a secondary location when an application becomes unresponsive or a public cloud's entire region suffers an outage.
+However, data loss isn't the only disaster for which IT professionals must plan. A comprehensive disaster-recovery plan also helps ensure business continuity. For example, a plan might involve redirecting requests or failing over to a secondary location when an application becomes unresponsive or a public cloud's entire region suffers an outage.
 
-Suppose you work for a financial organization that has offices across many different geolocations. Your organization recently suffered an outage in one of these offices. You want to ensure that your Microsoft Azure infrastructure has the correct configuration to enable replication and recovery should an unplanned event occur. Your main concern is your existing Azure Virtual Desktop environment, which your employees who mostly work from home use to access company applications.
+Suppose you work for a financial organization that has offices across many different geolocations, and the organization recently experienced an outage in one of these offices. You want to ensure that your Microsoft Azure infrastructure has the correct configuration to enable replication and recovery should such an unplanned event occur. Your main concern is your existing Azure Virtual Desktop environment, which your employees, who mostly work remotely, use to access company applications.
 
-In this module, you'll  learn how to adopt a business continuity and disaster recovery (BCDR) strategy for Azure Virtual Desktop. You'll also learn how to keep your apps and workload running during planned and unplanned service or Azure outages.
+In this module, you'll learn how to adopt a business continuity and disaster recovery (BCDR) strategy for Azure Virtual Desktop. You'll also learn how to keep your apps and workloads running during planned and unplanned service or Azure outages.
 
 ## Learning objectives
 
-After completing this module, you should know more about:
+After you've completed this module, you'll know more about:
 
 - How to evaluate and identify a redundancy option for Azure Virtual Desktop.
-- How to plan an appropriate BCDR strategy to sustain both unplanned and planned failures.
+- How to plan an appropriate BCDR strategy to help protect against both unplanned and planned failures.
 
 ## Prerequisites
 
-To get the best learning experience from this module, you should have knowledge and experience as follows:
+To get the best learning experience from this module, you should already have the following knowledge and experience:
 
-- Intermediate knowledge of Azure services such as core Azure Compute, Azure Storage, and Azure Networking.
-- Intermediate knowledge of virtualization technologies.
-- Intermediate knowledge of Azure operational concepts, such as monitoring, logging, and alerting.
+- Intermediate-level knowledge of Microsoft Azure services, such as core Azure compute, storage, networking, and virtualization technologies.
+- Intermediate-level knowledge of Azure operational concepts, such as monitoring, logging, and alerting.
 - Familiarity with Azure Virtual Desktop.
 - Familiarity with Windows virtualization technologies, including Remote Desktop Services.
-- (Optional) Access to an Azure environment that's prepared for Azure Virtual Desktop: must have Azure Active Directory (Azure AD) configured and integrated with Active Directory Domain Services (AD DS), and an Azure Virtual Network that's connected to your domain.
+- (Optional) Access to an Azure environment that's prepared for Azure Virtual Desktop. You must have Azure Active Directory (Azure AD) configured and integrated with Azure Active Directory Domain Services (AD DS), and an Azure virtual network that’s connected to your domain.
