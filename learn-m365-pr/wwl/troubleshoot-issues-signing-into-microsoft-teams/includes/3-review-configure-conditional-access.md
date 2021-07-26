@@ -54,4 +54,4 @@ Open the appropriate policies, and then review the conditions and access control
 
 Watch the following video for a demonstration of how to set up a conditional access policy:
 
-[!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWHb8R]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWHb8R]
