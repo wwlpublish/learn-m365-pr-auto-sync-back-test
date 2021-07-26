@@ -37,7 +37,7 @@ Now that you have successfully created and trained your form processing model, i
    - The process may take a few minutes, but as the form analyzes the documents, it will begin extracting data and filling in the columns beside each document title.
    - You will see a banner at the top of the library telling you the model is reading through your documents.
 
-    :::image type="content" source="../media/analyzing-your-files.png" alt-text="A screenshot of the document library while the model is processing with the statement "We are analyzing your file. One or more of the columns will be updated with discovered value" highlighted.":::
+    :::image type="content" source="../media/analyzing-your-files.png" alt-text="A screenshot of the document library while the model is processing with the statement 'We are analyzing your file. One or more of the columns will be updated with discovered value' highlighted.":::
 
 1. After a few minutes, data will begin flowing into the columns.
    - Content type will change from _"Document"_ to _"PO."_

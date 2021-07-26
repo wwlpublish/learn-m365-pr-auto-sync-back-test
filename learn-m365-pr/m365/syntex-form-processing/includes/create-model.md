@@ -76,7 +76,7 @@ In this unit, you will teach the Accounting department how to plan for and creat
    1. Forms need to be either `.JPG`, `.PNG`, or `.PDF` files.
    1. Click **"Add documents."**
 
-    :::image type="content" source="../media/add-five-or-more.png" alt-text="A screenshot of the 'Collection 1' pane with the 'Add documents' button and the text "Add five or more documents with the same layout' highlighted.":::
+    :::image type="content" source="../media/add-five-or-more.png" alt-text="A screenshot of the 'Collection 1' pane with the 'Add documents' button and the text 'Add five or more documents with the same layout' highlighted.":::
 
 1. The **"Select source"** window opens with a list of data sources.
    1. Select **"Upload from local storage."**
