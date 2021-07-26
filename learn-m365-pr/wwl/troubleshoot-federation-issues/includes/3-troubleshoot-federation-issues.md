@@ -18,6 +18,12 @@ Select **Add a domain**, enter the **domain name**, and select whether it should
 
 :::image type="content" source="../media/external-access-1.png" alt-text="Enabling external access":::
 
+## Configure federation policies and domain lists 
+
+In the following interactive exercise you will step through configuring federation policies and domain lists.
+
+[Troubleshoot federation issues interactive walkthrough](https://edxinteractivepage.blob.core.windows.net/edxpages/M365%20Troubleshoot/Troubleshoot%20federation%20issues/index.html )
+
 ## Guests and external access
 
 Guests and external access are both ways of communicating with people outside of your organization or tenant. By default, Teams allows you to communicate with external people. If you are having problems:
