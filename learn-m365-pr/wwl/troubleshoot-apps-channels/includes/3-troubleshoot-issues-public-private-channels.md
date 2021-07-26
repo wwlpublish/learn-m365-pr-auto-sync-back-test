@@ -97,7 +97,7 @@ See the Microsoft Teams PowerShell documentation for a full list of cmdlets and 
 
 You can also check the status of a new user in the Microsoft admin center. From the left-hand navigation, select **Users > Active Users** to display all Active users. From the top navigation, select the three dots (…) for more options, then select **Teams setup status** from the drop-down list. You can search within the list of users to find the status for a particular user.
 
-## Check the status of a user in the M365 admin center 
+## Check the status of a user in the Microsoft 365 admin center 
 
 In the following interactive exercise you will learn how to navigate to the new user status screen and find useful troubleshooting information.
 
