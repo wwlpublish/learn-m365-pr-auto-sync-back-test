@@ -107,7 +107,7 @@ In this unit, you will teach the Accounting department how to plan for and creat
 
 1. Begin tagging by highlighting the PO Number. Click and drag to draw a dotted line box around the PO Number in your document.
 
-    ![A screenshot of the highlighted PO number on the purchase order file.](../media/image031.png)
+    ![A screenshot of the highlighted PO number on the purchase order file.](../media/po-number.png)
 
 1. When you release the mouse button, the box will solidify, and a dialog box opens listing the three fields you defined earlier: _PO-number_, _Vendor Name_, and _PO-Total_.
    1. The PO Number you highlighted is now listed at the top of the dialog box.

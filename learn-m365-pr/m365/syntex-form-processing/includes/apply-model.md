@@ -4,13 +4,11 @@ Now that you have successfully created and trained your form processing model, i
 1. The **Use in SharePoint** panel opens on the right-hand side of the screen
    1. Click **"Continue."**
 
-    ![A screenshot of  the 'Create a flow' dialog box in the 'Use in SharePoint' panel with the 'Continue' button highlighted.](../media/image055.png)
-
 1. On the next **"Create flow"** screen, Power App notes the applications you're signed into. A green check mark beside the application means you are ready to apply the form processing model inside that app.
-   1. Click the **"+"** sign beside an app if you need to sign in to apply the model.
-   1. Otherwise, since SharePoint is ready to go, click **"Create flow."**
+   1. A **"+"** sign will appear beside an app if you need to sign in to apply the model.
+   1. Otherwise, if SharePoint is ready to go, click **"Create flow."**
 
-    ![A screenshot of  the 'Create a flow' dialog box with the SharePoint icon highlighted and checked and the statement: this flow uses the following apps. A green check means you're ready to go.](../media/image057.png)
+    ![A screenshot of  the 'Create a flow' dialog box with the SharePoint icon highlighted and checked and the statement: this flow uses the following apps. A green check means you're ready to go.](../media/create-flow.png)
 
 1. The **Use in SharePoint** pane will work for a moment, then display a green check mark and a notice that your flow was successfully created.
    1. Click **"Go to SharePoint"** at the bottom of the pane.
