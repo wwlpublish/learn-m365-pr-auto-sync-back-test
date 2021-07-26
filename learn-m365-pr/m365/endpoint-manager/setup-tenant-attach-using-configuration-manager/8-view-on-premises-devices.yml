@@ -1,11 +1,11 @@
 ### YamlMime:ModuleUnit
 uid: learn.setup-tenant-attach-using-configuration-manager.view-on-premises-devices
-title: View on-premises devices
+title: View on-premises device details
 metadata:
   unitType: learning-content
-  title: View on-premises devices
-  description: View on-premises devices
-  ms.date: 7/21/2021
+  title: View on-premises device details
+  description: View on-premises device details
+  ms.date: 7/26/2021
   author: Erikre
   ms.author: erikre
   ms.topic: interactive-tutorial

@@ -10,14 +10,14 @@ In this module, you've learned how to attach your on-premises Configuration Mana
 - Enable device upload
 - Perform device actions
 - Display the connector status
-- View on-premises devices
+- View on-premises device details
 
 ## Next steps
 
 Now that you have completed attaching to your tenant, consider adding co-management. For more information, see the following resources:
 
-- [What is co-management?](/mem/configmgr/comanage/overview.md)
-- [How to enable co-management in Configuration Manager](/mem/configmgr/comanage/how-to-enable.md)
+- [What is co-management?](/mem/configmgr/comanage/overview)
+- [How to enable co-management in Configuration Manager](/mem/configmgr/comanage/how-to-enable)
 
 ## Learn more
 

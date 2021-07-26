@@ -4,7 +4,7 @@ metadata:
   moduleType: standard
   title: Set up tenant attach using Microsoft Endpoint Configuration Manager
   description: After completing this module, you will have set up tenant attach using Microsoft Endpoint Configuration Manager. 
-  ms.date: 7/06/2021
+  ms.date: 7/26/2021
   author: Erikre
   ms.author: erikre
   ms.topic: interactive-tutorial
@@ -18,7 +18,7 @@ abstract: |
     - Enable device upload
     - Perform device actions
     - Display the connector status
-    - View on-premises devices
+    - View on-premises device details
 prerequisites: | 
   - Basic knowledge of Microsoft Endpoint Manager and endpoint management concepts, see [Microsoft Endpoint Manager fundamentals](/learn/paths/endpoint-manager-fundamentals?azure-portal=true).
   - Understand your endpoint management objectives, device inventory considerations, licensing needs, infrastructure objectives, and rollout plans, see [Determine your endpoint management implementation](/learn/modules/determine-endpoint-implementation?azure-portal=true).
@@ -37,8 +37,8 @@ units:
 - learn.setup-tenant-attach-using-configuration-manager.confirm-tenant-attach-prerequisites
 - learn.setup-tenant-attach-using-configuration-manager.enable-internet-endpoints
 - learn.setup-tenant-attach-using-configuration-manager.enable-device-upload
-- learn.setup-tenant-attach-using-configuration-manager.perform-device-actions
 - learn.setup-tenant-attach-using-configuration-manager.display-the-connector-status
+- learn.setup-tenant-attach-using-configuration-manager.perform-device-actions
 - learn.setup-tenant-attach-using-configuration-manager.view-on-premises-devices
 - learn.setup-tenant-attach-using-configuration-manager.knowledge-check
 - learn.setup-tenant-attach-using-configuration-manager.summary

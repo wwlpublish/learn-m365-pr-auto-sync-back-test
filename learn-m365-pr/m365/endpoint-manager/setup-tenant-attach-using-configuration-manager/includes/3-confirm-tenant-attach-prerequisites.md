@@ -11,7 +11,7 @@ There are five main prerequisites to enable tenant attach:
 
 ### Create a Microsoft Intune tenant
 
-Microsoft Intune provides mobile device management (MDM) and mobile app management (MAM) from a secure cloud-based service that is administered using the Microsoft Endpoint Manager admin center. If you don't already have Intune set up, see [Try Microsoft Intune for free](/mem/intune/fundamentals/free-trial-sign-up.md) to quickly create an Intune tenant. When you complete the sign up process, you'll have a new tenant.
+Microsoft Intune provides mobile device management (MDM) and mobile app management (MAM) from a secure cloud-based service that is administered using the Microsoft Endpoint Manager admin center. If you don't already have Intune set up, see [Try Microsoft Intune for free](/mem/intune/fundamentals/free-trial-sign-up) to quickly create an Intune tenant. When you complete the sign up process, you'll have a new tenant.
 
 > [!TIP]
 > For complete details about setting up Microsoft Intune, such as reviewing supported configurations, adding users, and assigning licenses, see [Set up Microsoft Intune](/learn/modules/set-up-microsoft-intune).
@@ -27,7 +27,7 @@ To verify your tenant account permissions:
 1. Sign in to [Microsoft Endpoint Manager admin center](https://go.microsoft.com/fwlink/?linkid=2109431).
 2. Click **Tenant administration** > **Roles** > **My permissions**.
 
-For more information about roles, see [Azure AD roles](/azure/role-based-access-control/rbac-and-directory-admin-roles.md#azure-ad-roles).
+For more information about roles, see [Azure AD roles](/azure/role-based-access-control/rbac-and-directory-admin-roles#azure-ad-roles).
 
 ### Confirm your Azure public cloud environment
 
@@ -38,7 +38,7 @@ To set up tenant attach, you must be using a standard Azure public cloud environ
 
 ### Confirm user accounts are synced
 
-For a user account to trigger device actions, the user account must be synced to Azure Active Directory from Active Directory (hybrid identity). To discover and sync your accounts, you can use either [Azure Active Directory user discovery](/mem/configmgr/core/servers/deploy/configure/about-discovery-methods.md#azureaddisc) or [Active Directory user discovery](/mem/configmgr/core/servers/deploy/configure/about-discovery-methods.md#bkmk_aboutUser).
+For a user account to trigger device actions, the user account must be synced to Azure Active Directory from Active Directory (hybrid identity). To discover and sync your accounts, you can use either [Azure Active Directory user discovery](/mem/configmgr/core/servers/deploy/configure/about-discovery-methods#azureaddisc) or [Active Directory user discovery](/mem/configmgr/core/servers/deploy/configure/about-discovery-methods#bkmk_aboutUser).
 
 > [!NOTE]
-> If you are using Configuration Manager version 2010 or earlier, you can discover user accounts with both [Azure Active Directory user discovery](/mem/configmgr/core/servers/deploy/configure/about-discovery-methods.md#azureaddisc) and [Active Directory user discovery](/mem/configmgr/core/servers/deploy/configure/about-discovery-methods.md#bkmk_aboutUser).
+> If you are using Configuration Manager version 2010 or earlier, you can discover user accounts with both [Azure Active Directory user discovery](/mem/configmgr/core/servers/deploy/configure/about-discovery-methods#azureaddisc) and [Active Directory user discovery](/mem/configmgr/core/servers/deploy/configure/about-discovery-methods#bkmk_aboutUser).

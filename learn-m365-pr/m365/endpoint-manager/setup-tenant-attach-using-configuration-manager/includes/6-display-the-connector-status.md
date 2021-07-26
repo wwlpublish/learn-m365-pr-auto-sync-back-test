@@ -7,7 +7,7 @@ To display the Configuration Manager connector status:
    
    [ ![Display the Configuration Manager connector status](../media/set-up-tenant-attach-using-confirmation-manager-04.png) ](../media/set-up-tenant-attach-using-confirmation-manager-04.png#lightbox)
 
-> [!NOTE]
-> Some information isn't available if the hierarchy is running Configuration Manager version 2006 or earlier.
+   > [!NOTE]
+   > Some information isn't available if the hierarchy is running Configuration Manager version 2006 or earlier.
 
-Once you confirm your connection to Configuration Manager from Microsoft Endpoint Manager, you have successfully attach your tenant to Configuration Manager.
+Once you confirm your connection to Configuration Manager from Microsoft Endpoint Manager is **Healthy**, you'll have successfully attached your tenant to Configuration Manager.
