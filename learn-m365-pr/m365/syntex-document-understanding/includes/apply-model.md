@@ -12,7 +12,7 @@ Now you are now ready to show Megan, who volunteered to be the model owner for H
 1. Notice that the final button **"Apply model to libraries"** is now available for selection.
    1. Click **"Apply model."**
 
-    :::image type="content" source="../media/apply-model.png" alt-text="A screenshot of the models view page with the 'Apply model to libraries' area highlighted.":::
+    :::image type="content" source="../media/apply-model.png" alt-text="A screenshot of the models view page with the 'Apply model to libraries' area highlighted." lightbox="../media/apply-model.png":::
 
 1. The **"Add benefit change letter"** dialog box opens on the right-hand side of the screen with a list of SharePoint sites.
    1. Select the SharePoint site you want to apply the model to. In this case, select Human Resources.
@@ -31,7 +31,7 @@ Now you are now ready to show Megan, who volunteered to be the model owner for H
    1. Note that this library has the model applied to it. You see this in the upper right-hand navigation pane in **"View."**
    1. Also note the column names preset in the library. These are the columns you defined when you built the model.
 
-    :::image type="content" source="../media/columns-added.png" alt-text="A screenshot of the Documents library in the Human Resources SharePoint site with the model, Benefit change letter, and the content columns, such as content type, provider, retention label, and so on, highlighted.":::
+    :::image type="content" source="../media/columns-added.png" alt-text="A screenshot of the Documents library in the Human Resources SharePoint site with the model, Benefit change letter, and the content columns, such as content type, provider, retention label, and so on, highlighted." lightbox="../media/columns-added.png":::
 
 1. Upload your files.
    1. Click on **"Upload"** in the upper left-hand corner.
@@ -41,7 +41,7 @@ Now you are now ready to show Megan, who volunteered to be the model owner for H
 
     Initially, files copy into the library with only the "Content type" column filled in, but SharePoint Syntex goes to work evaluating each file against the model. As the model processes files, columns fill automatically.
 
-    :::image type="content" source="../media/benefit-letters-classified.png" alt-text="A screenshot showing classified and labeled files.":::
+    :::image type="content" source="../media/benefit-letters-classified.png" alt-text="A screenshot showing classified and labeled files." lightbox="../media/benefit-letters-classified.png":::
 
 1. Once processing is complete, all benefit change letters should be labeled as such in the **Content Type** column, the provider name will be listed, and all benefit change letters will have a retention label of "Confidential."
    1. You can now sort and filter by the **Content Type** or **Provider** columns.

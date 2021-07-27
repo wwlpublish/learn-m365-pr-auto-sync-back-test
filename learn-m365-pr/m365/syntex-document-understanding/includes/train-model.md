@@ -27,18 +27,18 @@ You and Megan identified a group of seven documents to train the new model.
    1. In document view, click either **"Yes"** or **"No"** depending on whether the document displayed is a benefit change letter or not.
        1. The formatting has been stripped so SharePoint Syntex can focus in on the text.
 
-    :::image type="content" source="../media/define-change-letter.png" alt-text="A screenshot of the classifier window showing a positive example training file with the UI buttons 'Yes' and 'No' highlighted.":::
+    :::image type="content" source="../media/define-change-letter.png" alt-text="A screenshot of the classifier window showing a positive example training file with the UI buttons 'Yes' and 'No' highlighted." lightbox="../media/define-change-letter.png":::
 
 1. Because this is a benefit change letter, click **"Yes."**
    1. The trainer labels the first document **"Positive"** as a match for benefit change letter.
    1. The trainer moves to the next file in line.
 
-    :::image type="content" source="../media/second-letter.png" alt-text="A screenshot of the classifier window showing an example training file with the file navigation area highlighted indicating the model is training file 2 of 7.":::
+    :::image type="content" source="../media/second-letter.png" alt-text="A screenshot of the classifier window showing an example training file with the file navigation area highlighted indicating the model is training file 2 of 7." lightbox="../media/second-letter.png":::
 
 1. Move through each of the example files in this same way until all of them have been identified as either _positive_ or _negative_.
    1. Select 'No' when a file opens that is NOT a benefit change letter.
 
-    :::image type="content" source="../media/negative-letter-example.png" alt-text="A screenshot of the classifier window showing a negative example training file with the UI button, 'No', highlighted.":::
+    :::image type="content" source="../media/negative-letter-example.png" alt-text="A screenshot of the classifier window showing a negative example training file with the UI button, 'No', highlighted." lightbox="../media/negative-letter-example.png":::
 
 1. Once you've moved through the example files, you will notice they've been labeled as _positive_–meaning the documents are benefit change letters, or _negative_–they are not benefit change letters.
 
@@ -54,7 +54,7 @@ Now, you must explain to the model _why_ benefit change letters are benefit chan
     1. Again, the first document is automatically selected and opened.  
     1. Explanations tell the model what elements go into making a benefit change letter.
 
-    :::image type="content" source="../media/not-yet-trained.png" alt-text="A screenshot of the classifier window with the 'Explanations' area highlighted.":::
+    :::image type="content" source="../media/not-yet-trained.png" alt-text="A screenshot of the classifier window with the 'Explanations' area highlighted." lightbox="../media/not-yet-trained.png":::
 
 1. Before you can train the new model, you must add a new explanation.
    1. Click **"New"**, then **"Blank."**
@@ -67,7 +67,7 @@ Now, you must explain to the model _why_ benefit change letters are benefit chan
    1. Each benefit change letter has the same subject line, therefore, you can use that phrase to help the model recognize benefit change letters in the rest of the Human Resources libraries.
    1. Copy and paste the phrase _"Benefit Change Notice"_ into the text box on the left.
 
-    :::image type="content" source="../media/create-an-explanation.png" alt-text="A screenshot of the 'Create an explanation' dialog box with the Name, Explanation type, and Phrase List as well as the phrase, 'Benefit Change Notice', within the example training file highlighted.":::
+    :::image type="content" source="../media/create-an-explanation.png" alt-text="A screenshot of the 'Create an explanation' dialog box with the Name, Explanation type, and Phrase List as well as the phrase, 'Benefit Change Notice', within the example training file highlighted." lightbox="../media/create-an-explanation.png":::
 
 1. Click **"Save"** at the bottom of the page.
    1. Do _not_ click **"Save and Train."**

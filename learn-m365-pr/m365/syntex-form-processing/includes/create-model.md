@@ -14,7 +14,7 @@ In this unit, you will teach the Accounting department how to plan for and creat
 1. Click **"New"** to create a new library dedicated to POs.
    1. Select **"Document Library"** from the dropdown of options.
 
-    :::image type="content" source="../media/new-content.png" alt-text="A screenshot of the Site contents page showing available document libraries.":::
+    :::image type="content" source="../media/new-content.png" alt-text="A screenshot of the Site contents page showing available document libraries." lightbox="../media/new-content.png":::
 
 1. The **Create document library** pane opens on the right-hand side of the screen.
    1. Name the site – in this case _"POs."_
@@ -24,13 +24,13 @@ In this unit, you will teach the Accounting department how to plan for and creat
 
 1. This creates a new, empty document library with no columns of useful information.
 
-    :::image type="content" source="../media/empty-library.png" alt-text="A screenshot of a new, empty document library.":::
+    :::image type="content" source="../media/empty-library.png" alt-text="A screenshot of a new, empty document library." lightbox="../media/empty-library.png":::
 
 1. From within this empty SharePoint library, click on **"Automate"** in the upper right-hand navigation ribbon.
    1. From the dropdown, select **"AI Builder,"** which opens another option box
    1. Select **"Create a model to process forms."**
 
-    :::image type="content" source="../media/ai-builder-entry-point.png" alt-text="A screenshot of the new document library with the AI Builder button, located in the Automate tab on the top navigation menu, higlighted.":::
+    :::image type="content" source="../media/ai-builder-entry-point.png" alt-text="A screenshot of the new document library with the AI Builder button, located in the Automate tab on the top navigation menu, higlighted." lightbox="../media/ai-builder-entry-point.png":::
 
 1. A dialog box opens on the right-hand side of the page asking you to name your new model.
    1. The name you choose will be used as the content type in your new SharePoint library, so select a name that makes sense in reference to how the forms will be labeled.
@@ -93,7 +93,7 @@ In this unit, you will teach the Accounting department how to plan for and creat
    1. When the upload completes, click **"Close."**
 1. Click **"Analyze"** at the bottom of the screen.
 
-    :::image type="content" source="../media/analyze.png" alt-text="A screenshot of the 'Add collections of documents' pane after documents have been added with the 'Analyze' button highlighted.":::
+    :::image type="content" source="../media/analyze.png" alt-text="A screenshot of the 'Add collections of documents' pane after documents have been added with the 'Analyze' button highlighted." lightbox="../media/analyze.png":::
 
 1. The training center will begin analyzing the documents.
    - This step may take a few minutes to complete.
@@ -103,7 +103,7 @@ In this unit, you will teach the Accounting department how to plan for and creat
    1. To begin tagging the document fields, click the **"X"** in the upper right-hand corner of the window.
    1. For our purposes, click the **"X"** to close the window.
 
-    :::image type="content" source="../media/x-or-next.png" alt-text="A screenshot of the first document to be analyzed in AI Builder and a panel on the right showing all documents for analysis.":::
+    :::image type="content" source="../media/x-or-next.png" alt-text="A screenshot of the first document to be analyzed in AI Builder and a panel on the right showing all documents for analysis." lightbox="../media/x-or-next.png":::
 
 1. Begin tagging by highlighting the PO Number. Click and drag to draw a dotted line box around the PO Number in your document.
 
@@ -117,7 +117,7 @@ In this unit, you will teach the Accounting department how to plan for and creat
 
 1. Once you make a selection, the dialog closes, the box around the PO number turns green, and a green check mark appears in the field list on the right-hand side of the AI Builder screen.
 
-    :::image type="content" source="../media/turns-green.png" alt-text="A close screenshot of the Fields pane in AI builder after the PO number has been tagged with the PO-number field checked.":::
+    :::image type="content" source="../media/turns-green.png" alt-text="A close screenshot of the Fields pane in AI builder after the PO number has been tagged with the PO-number field checked." lightbox="../media/turns-green.png":::
 
 1. Repeat this process for the vendor name.
    1. Highlight the complete vendor name.
@@ -130,7 +130,7 @@ In this unit, you will teach the Accounting department how to plan for and creat
    1. Click the radio button.
    1. You've successfully initiated training for your form processor.
 
-    :::image type="content" source="../media/fields-complete.png" alt-text="A close screenshot of the Fields pane in AI builder after all fields have been tagged with all fields checked.":::
+    :::image type="content" source="../media/fields-complete.png" alt-text="A close screenshot of the Fields pane in AI builder after all fields have been tagged with all fields checked." lightbox="../media/fields-complete.png":::
 
 1. Walk through each document in the same way until you reach the two `.PDF` files that are not POs.
    - As you move through the documents, AI Builder may automatically recognize some of your fields and automatically tag them for you.
@@ -149,7 +149,7 @@ In this unit, you will teach the Accounting department how to plan for and creat
 1. AI Builder saves the PO model.
 1. Click the model name to open the model for next steps.
 
-    :::image type="content" source="../media/purchase-order-model.png" alt-text="A screenshot of the 'My models' pan with the model name, 'Purchase Order', and model type, 'Form Processing', highlighted.":::
+    :::image type="content" source="../media/purchase-order-model.png" alt-text="A screenshot of the 'My models' pan with the model name, 'Purchase Order', and model type, 'Form Processing', highlighted." lightbox="../media/purchase-order-model.png":::
 
 1. The training page opens with the first PO rendered, along with the field list on the right-hand side of the screen. Your fields will have green check marks next to them.
    1. Click **"Next"** at the bottom left of the screen to begin training your form processing model.
@@ -173,10 +173,10 @@ In this unit, you will teach the Accounting department how to plan for and creat
 1. The **Details page** opens with a banner across the top saying that your model hasn't been published and therefore, cannot be used in apps or flows.
    1. To publish your model, click **"Publish"** at the bottom of the Training document box.
 
-    :::image type="content" source="../media/model-not-published.png" alt-text="A screenshot of the 'Details page' with the statement 'Your model isn't published yet. Publish it to use it in apps and flows', the model status, and the 'Publish' button highlighted.":::
+    :::image type="content" source="../media/model-not-published.png" alt-text="A screenshot of the 'Details page' with the statement 'Your model isn't published yet. Publish it to use it in apps and flows', the model status, and the 'Publish' button highlighted." lightbox="../media/model-not-published.png":::
 
 1. When the model finishes publishing, the page refreshes.
    1. The status beneath the model name now reads **"Published."**
    1. The model is published under Power Apps on the right-hand side of the screen, and you can click in to read documentation about the model.
 
-:::image type="content" source="../media/published-use-model.png" alt-text="A screenshot of the 'Details page' showing the model is published and the 'Use Model' button is highlighted.":::
+:::image type="content" source="../media/published-use-model.png" alt-text="A screenshot of the 'Details page' showing the model is published and the 'Use Model' button is highlighted." lightbox="../media/published-use-model.png":::

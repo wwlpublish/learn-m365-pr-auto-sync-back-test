@@ -4,11 +4,11 @@ Megan Bowen, a Human Resource administrative assistant at Contoso Electronics, v
 
 Here, you'll learn how to instruct Megan and other model owners how to build document understanding models.
 
-:::image type="content" source="../media/home-page.png" alt-text="Screenshot of the Contoso Electronics Human Resources SharePoint page.":::
+:::image type="content" source="../media/home-page.png" alt-text="Screenshot of the Contoso Electronics Human Resources SharePoint page." lightbox="../media/home-page.png":::
 
 Megan and her managers have identified a library of letters to begin building their document understanding model.  
 
-:::image type="content" source="../media/hr-letters-highlighted.png" alt-text="Screenshot of the Contoso Electronics Human Resources SharePoint page with the HR Letters library highlighted on the top navigation menu.":::
+:::image type="content" source="../media/hr-letters-highlighted.png" alt-text="Screenshot of the Contoso Electronics Human Resources SharePoint page with the HR Letters library highlighted on the top navigation menu." lightbox="../media/hr-letters-highlighted.png":::
 
 Megan opens the HR Letters library, which contains documents of various types. Megan and her team want to identify which documents are letters notifying Contoso Electronics employees of benefit changes. Given the healthcare data contained in those letters, Contoso Electronics has an obligation to retain them for seven years. Yet, looking through the library, nothing distinguishes these sensitive notification documents from any other document. To know which letters must be retained and which are safe to delete, Megan must open each document.  
 
@@ -19,13 +19,13 @@ Human Resources would like to use a document understanding model to automaticall
 1. Start in the content center. This is the place for creating and training document understanding models, and then applying those models to document libraries.
 1. Select **"Models."**
 
-    :::image type="content" source="../media/content-center-models.png" alt-text="Screenshot of the Contoso Electronics content center with the Models tab highlighted in the top navigation menu.":::
+    :::image type="content" source="../media/content-center-models.png" alt-text="Screenshot of the Contoso Electronics content center with the Models tab highlighted in the top navigation menu." lightbox="../media/content-center-models.png":::
 
 1. The **Create a Model** page opens.
    1. The **"Create a Model"** button appears.
    1. You can see a list of models that have been created previously by other model owners.  
 
-    :::image type="content" source="../media/hc-hr-content-center.png" alt-text="A screenshot of the model wizard and a list of previously created models in the SharePoint Syntex content center.":::
+    :::image type="content" source="../media/hc-hr-content-center.png" alt-text="A screenshot of the model wizard and a list of previously created models in the SharePoint Syntex content center." lightbox="../media/hc-hr-content-center.png":::
 
 1. Select **"Create a Model"** in the upper left-hand corner of the page.
 1. A **"New document understanding model"** dialog box opens on the right-hand side of the browser.  
@@ -45,7 +45,7 @@ Human Resources would like to use a document understanding model to automaticall
 1. Click **"Create."**
 1. SharePoint Syntex brings you to the **Models page view** in the content center.  
 
-    :::image type="content" source="../media/benefits-change-model-created.png" alt-text="A screenshot of the models view page where document understanding models are created":::
+    :::image type="content" source="../media/benefits-change-model-created.png" alt-text="A screenshot of the models view page where document understanding models are created" lightbox="../media/benefits-change-model-created.png":::
 
 1. The page lays out the key steps you need to take with your model.
    1. **Add example files**

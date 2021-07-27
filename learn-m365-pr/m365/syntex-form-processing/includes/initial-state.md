@@ -1,6 +1,6 @@
 Contoso Electronics has a library of PO forms. To find a single PO, a user must browse for and open each file to find the one they need.
 
-:::image type="content" source="../media/purchase-orders-start.png" alt-text="A screenshot of file explorer showing a folder of purchase orders":::
+:::image type="content" source="../media/purchase-orders-start.png" alt-text="A screenshot of file explorer showing a folder of purchase orders" lightbox="../media/purchase-orders-start.png":::
 
 If you open one of the files, you see that it is a structured document. Information like names and addresses all have assigned places and include boxes for dates and unique identifiers like PO number.  
 

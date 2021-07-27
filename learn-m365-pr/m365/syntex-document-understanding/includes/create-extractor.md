@@ -28,11 +28,11 @@ Now we will look at how Megan can create an extractor to pull out the informatio
    1. Work through each file until you reach the negative files, or the files that are _not_ benefit change letters.
    1. For the two negative examples, check the box just above the letter that says **"No label."** This tells the extractor that these files do not match the requirements to be benefit change letters.
 
-    :::image type="content" source="../media/provider-label.png" alt-text="A screenshot of the classifer window showing a negative example file with the 'No label' box highlighted.":::
+    :::image type="content" source="../media/provider-label.png" alt-text="A screenshot of the classifer window showing a negative example file with the 'No label' box highlighted." lightbox="../media/provider-label.png":::
 
 1. Once all files have been either labeled or listed for no label, click "Save" in the upper right-hand corner of the screen.
 
-    :::image type="content" source="../media/negative-example.png" alt-text="A screenshot of the classifer window showing the files with labeled extractors and a negative example file with the 'No label' box checked.":::
+    :::image type="content" source="../media/negative-example.png" alt-text="A screenshot of the classifer window showing the files with labeled extractors and a negative example file with the 'No label' box checked." lightbox="../media/negative-example.png":::
 
 ## Add an explanation
 
@@ -82,7 +82,7 @@ Now we will look at how Megan can create an extractor to pull out the informatio
    1. Select **"Phrase List."**
    1. Copy the phrase after the insurance provider name _"(http://"_ and paste it into the **Phrase List** text box.
 
-    :::image type="content" source="../media/second-explanation-for-extractor.png" alt-text="A screenshot of the classifier window with the create an explanation dialog box open and the explanation, 'http://', in the phrase list highlighted.":::
+    :::image type="content" source="../media/second-explanation-for-extractor.png" alt-text="A screenshot of the classifier window with the create an explanation dialog box open and the explanation, 'http://', in the phrase list highlighted." lightbox="../media/second-explanation-for-extractor.png":::
 
 1. Click **"Save and train"** again.
    - The model will evaluate the training files again – this time with both explanations helping it identify  both the beginning and the ending of the target insurance provider names to be extracted.
