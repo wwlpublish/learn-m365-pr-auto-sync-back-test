@@ -1,6 +1,6 @@
 Azure Virtual Desktop is a service that allows users to connect to a Windows desktop running in the cloud. They enjoy all the benefits of Windows desktop and Microsoft 365 apps, without the overhead of installing software on the local device.
 
-Azure Virtual Desktop is a desktop and app virtualization service. Here's what you can do:
+Azure Virtual Desktop is a desktop and app virtualization service that runs on Azure. Here's what you can do:
 
 - Set up a **multi-session Windows 10 deployment** that delivers a full Windows 10 with scalability.
 - **Virtualize Office 365 ProPlus** and optimize it to run in multi-user virtual scenarios.
@@ -26,9 +26,9 @@ Use Azure Virtual Desktop for specific needs, such as when security is important
 > -	Persistent, on-demand, and just-in-time work scenarios.
 > -	Windows 10 modern device security and manageability.
 > 
-> Find out more here: [Windows Autopilot and Surface devices](https://docs.microsoft.com/surface/windows-virtual-desktop-surface)
+> Find out more here: [Windows Autopilot and Surface devices](/surface/windows-virtual-desktop-surface)
 
-Find out more about Azure Virtual Desktop here: [What is Azure Virtual Desktop?](https://docs.microsoft.com/azure/virtual-desktop/overview)
+Find out more about Azure Virtual Desktop here: [What is Azure Virtual Desktop?](/azure/virtual-desktop/overview)
 
 Watch this video for more information about when to use Azure Virtual Desktop, and how it works:
 
