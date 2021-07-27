@@ -15,7 +15,7 @@ MyAnalytics generates data regarding two of the key factors in personal producti
 
 ### Access your MyAnalytics dashboard
 
-Users can access their personal MyAnalytics dashboard by visiting myanalytics.microsoft.com. The MyAnalytics dashboard shows you statistics about your work patterns over the past month. Statistics include your focus and collaboration time, how many days you were able to disconnect from work, and how effectively you're networking with your coworkers. 
+Users can access their personal MyAnalytics dashboard by visiting myanalytics.microsoft.com. The MyAnalytics dashboard shows you statistics about your work patterns over the past month. Statistics include your focus and collaboration time, how many days you were able to disconnect from work, and how effectively you're networking with your coworkers.
 
 > [!IMPORTANT]
 > Information available in the MyAnalytics dashboard is private and personal metrics are only available for individual access. Users will need the appropriate Microsoft 365 license to access this dashboard.
@@ -51,7 +51,7 @@ In Outlook on the web:
 
    ![Select Insights in Outlook on the web](../media/outlook-web.png)
 
-3. After you open the Insights add-in, you’ll see a number of cards in the Insights pane.
+3. After you open the Insights add-in, you'll see a number of cards in the Insights pane.
 
    ![Cards in the Insights pane](../media/insights-pane-example.png)
 
@@ -111,9 +111,9 @@ You can use the plans feature of Workplace Analytics to create improvement plans
 
 - Identify groups whose workplace effectiveness could be improved.
 - Set up 12-week plans for the identified group.
-- Measure the progress of the plan while it’s underway.
+- Measure the progress of the plan while it's underway.
 
-If you have the analyst, limited analyst, or program manager role, you can open Workplace Analytics and select **Plans > New Plan**. There you can learn about the types of plans that you can create. 
+If you have the analyst, limited analyst, or program manager role, you can open Workplace Analytics and select **Plans > New Plan**. There you can learn about the types of plans that you can create.
 
 ![Learn about the plan types](../media/learn-types-plans.png)
 
@@ -124,14 +124,14 @@ In addition to its standard weekly digest, the digest for plan participants incl
 ![Program checkpoint summarizes their progress in the plan](../media/program-checkpoint.png)
 
 ## What are Insights for people managers?
- 
+
 Insights for people managers provide team leaders with behavioral measures of employee experience and team effectiveness. Managers can leverage a dashboard to track progress, view suggested actions, and launch a plan for their team.
 
 > [!NOTE]
 > Managers cannot access data on individuals. Managers who are assigned access can only see data on their team in an aggregate view. The default group size threshold is ten, including the manager.
 >
 
-Here’s the Insights for people managers **Home** page:
+Here's the Insights for people managers **Home** page:
 
 ![Insights for people managers Home page](../media/insights-people-managers-home.png)
 

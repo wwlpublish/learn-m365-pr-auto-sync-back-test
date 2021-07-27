@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.troubleshoot-microsoft-teams-meetings-live-events-messaging.troubleshoot-meeting-creation
+title: Troubleshoot meeting creation
+metadata:
+  title: Troubleshoot meeting creation
+  description: "Troubleshoot meeting creation"
+  ms.date: 07/26/2021
+  author: wwlpublish
+  ms.author: cyncarey
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+durationInMinutes: 7
+content: |
+  [!include[](includes/2-troubleshoot-meeting-creation.md)]

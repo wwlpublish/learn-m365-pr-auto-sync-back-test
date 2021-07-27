@@ -1,4 +1,4 @@
-You’ve seen that connectors are needed to route emails from on-premises Exchange servers to and from Exchange Online and the internet. Let’s examine how to set up those connectors. 
+You've seen that connectors are needed to route emails from on-premises Exchange servers to and from Exchange Online and the internet. Let's examine how to set up those connectors.
 
 ## Prerequisites for your on-premises email environment
 
@@ -72,7 +72,6 @@ Before you set up the connector, you need to set up your Microsoft 365 environme
 
 1. Finally, validate the outbound connector. Enter an external email address, select **Validate**. When the validation is successful, select **Save**.
 
- 
 ### Redirect your mail flow from the internet to Microsoft 365 by changing your MX record
 
 Finally, modify your MX record to redirect email flow to Microsoft 365. Access the DNS records held by your domain hosting service. Add or update the MX record, so that messages sent to your domain will come to Microsoft 365.  
@@ -81,7 +80,7 @@ The MX record you'll add includes a value (the **Points to address** value) that
 
 1. To get the information for the MX record from Microsoft 365, in the Microsoft 365 admin center, go to ****Setup > Domains**, and then select your domain.  
 1. Under **Required DNS settings**, you'll see the DNS records. Copy the **Points to address** value. You'll use this value in the record you create or update on your DNS host's site.
-1. In the MX record on your DNS host's site, make sure that the fields are set to the following values: 
+1. In the MX record on your DNS host's site, make sure that the fields are set to the following values:
 
     |Property|Value|
     |-|-|
@@ -101,7 +100,7 @@ Now, you're ready to make the connection from your on-premises email server to M
 
 1. Sign in to your Microsoft 365 instance.  
 1. In the Exchange admin center, select **mail flow** and then open the **connectors** tab.
-   If you have any existing connectors, they will be listed here. If you already have a connector from Microsoft 365 to your on-premises mail server, you don't need to create another connector. 
+   If you have any existing connectors, they will be listed here. If you already have a connector from Microsoft 365 to your on-premises mail server, you don't need to create another connector.
 1. Select the plus sign (**+**).
 1. Because this connector routes mail from the on-premises email server to Microsoft 365:
 

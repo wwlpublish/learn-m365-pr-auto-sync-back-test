@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-m365-pr.bringing-all-together-engaging-virtual-events.introduction
+title: Introduction
+metadata:
+  unitType: introduction
+  title: Introduction
+  description: Present, moderate, or attend a virtual event in Microsoft Teams or Microsoft 365 and optimize your experience.
+  ms.date: 07/16/2021
+  author: lizap
+  ms.author: elizapo
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 1
+content: |
+  [!include[](includes/introduction.md)] 

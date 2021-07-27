@@ -31,9 +31,9 @@ Complete the following steps to create and configure sensitivity labels:
     
      -  If you select the **Files &amp; emails** option, you can configure settings in this wizard that apply to apps that support sensitivity labels, such as Office Word and Outlook. If you don't select this option, the wizard displays the first page of these settings. However, you can't configure them and the labels won't be available for users to select in these apps.
      -  If you select the **Groups &amp; sites** option,you can configure settings in this wizard that apply to Microsoft 365 groups, and sites for Teams and SharePoint. If you don't select this option, the wizard displays the first page of these settings. However, you can't configure them and the labels won't be available for users to select for groups and site.
-4.  Follow the prompts in the wizard for the label settings. For more information about the label settings, see [What sensitivity labels can do](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels?azure-portal=true) and use the help in the wizard for individual settings.
+4.  Follow the prompts in the wizard for the label settings. For more information about the label settings, see [What sensitivity labels can do](/microsoft-365/compliance/sensitivity-labels) and use the help in the wizard for individual settings.
 5.  Repeat these steps to create more labels. However, if you want to create a sublabel, first select the parent label and select .**.. for More actions**, and then select **Add sub label.**
-6.  Once you've created all the labels you need, review their order and if necessary, move them up or down. To change the order of a label, select **... for More actions**, and then select **Move up** or **Move down**. For more information, see [Label priority (order matters)](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels?azure-portal=true) from the overview information.
+6.  Once you've created all the labels you need, review their order and if necessary, move them up or down. To change the order of a label, select **... for More actions**, and then select **Move up** or **Move down**. For more information, see [Label priority (order matters)](/microsoft-365/compliance/sensitivity-labels) from the overview information.
 
 To edit an existing label, select it, and then select the **Edit label** button, as seen in the following image.
 
@@ -42,7 +42,7 @@ To edit an existing label, select it, and then select the **Edit label** button,
 
 This button starts the **Edit sensitivity label** wizard, which lets you change all the label settings in step 4.
 
-Don't delete a label unless you understand the impact for users. For more information, see the [Removing and deleting labels](https://docs.microsoft.com/microsoft-365/compliance/create-sensitivity-labels?azure-portal=true) section.
+Don't delete a label unless you understand the impact for users. For more information, see the [Removing and deleting labels](/microsoft-365/compliance/create-sensitivity-labels) section.
 
 > [!NOTE]
 > If you edit a label that's already published by using a label policy, no extra steps are needed when you finish the wizard. For example, you don't need to add it to a new label policy for the changes to become available to the same users. However, allow up to 24 hours for the changes to replicate to all apps and services.<br>

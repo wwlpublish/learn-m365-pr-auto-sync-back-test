@@ -3,6 +3,7 @@
 Microsoft next-gen technologies in Windows Defender Antivirus provide near-instant, automated protection against new and emerging threats. To dynamically identify new threats, these technologies work with large sets of interconnected data in the Microsoft Intelligent Security Graph and powerful artificial intelligence (AI) systems driven by advanced machine learning models.
 
 Windows Defender Antivirus includes:
+
 - Cloud-delivered protection for near-instant detection and blocking of new and emerging threats. Along with machine learning and the Intelligent Security Graph, cloud-delivered protection is part of the next-gen technologies that power Windows Defender Antivirus.
 - Always-on scanning, using advanced file and process behavior monitoring and other heuristics (also known as "real-time protection")
 - Dedicated protection updates based on machine-learning, human and automated big-data analysis, and in-depth threat resistance research
@@ -22,12 +23,9 @@ If an employee goes to an untrusted site through either Microsoft Edge or Intern
 Application Guard has been created to target several types of systems:
 
 - **Enterprise desktops** These desktops are domain-joined and managed by your organization. Configuration management is primarily done through Microsoft Endpoint Configuration Manager or Microsoft Intune. Employees typically have Standard User privileges and use a high-bandwidth, wired, corporate network.
-
 - **Enterprise mobile laptops** These laptops are domain-joined and managed by your organization. Configuration management is primarily done through Microsoft Endpoint Configuration Manager or Microsoft Intune. Employees typically have Standard User privileges and use a high-bandwidth, wireless, corporate network.
-
-- **Bring your own device (BYOD) mobile laptops** These personally-owned laptops are not domain-joined, but are managed by your organization through tools, such as Microsoft Intune. The employee is typically an admin on the device and uses a high-bandwidth wireless corporate network while at work and a comparable personal network while at home.
-
-- **Personal devices** These personally-owned desktops or mobile laptops are not domain-joined or managed by an organization. The user is an admin on the device and uses a high-bandwidth wireless personal network while at home or a comparable public network while outside.
+- **Bring your own device (BYOD) mobile laptops** These personal laptops are not domain-joined, but are managed by your organization through tools, such as Microsoft Intune. The employee is typically an admin on the device and uses a high-bandwidth wireless corporate network while at work and a comparable personal network while at home.
+- **Personal devices** These personal desktops or mobile laptops are not domain-joined or managed by an organization. The user is an admin on the device and uses a high-bandwidth wireless personal network while at home or a comparable public network while outside.
 
 ## Learn more
 

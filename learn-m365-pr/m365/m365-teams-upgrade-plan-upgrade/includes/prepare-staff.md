@@ -1,6 +1,6 @@
 Your Microsoft 365 tenant administrators, technical leads, and support desk are accountable for driving a high-quality user experience. This accountability includes ensuring that your network is ready to support Teams, configuring Teams for your users, and being able to effectively troubleshoot and resolve issues that might arise.
 
-Share the following resources (see **Learn more** below for links) with your IT staff members and confirm that they’re ready to support users before you begin your upgrade to Teams. 
+Share the following resources (see **Learn more** below for links) with your IT staff members and confirm that they're ready to support users before you begin your upgrade to Teams.
 
 - Admin training for Microsoft Teams
 - Plan for security and compliance in Microsoft Teams

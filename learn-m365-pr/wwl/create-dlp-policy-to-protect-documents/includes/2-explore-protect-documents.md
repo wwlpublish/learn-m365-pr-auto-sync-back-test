@@ -40,7 +40,7 @@ To get the content and metadata from the documents into the search index, the cr
 
 This requirement is important because Microsoft 365 DLP uses the search crawler to identify and classify sensitive information on an organization's sites. It then stores that sensitive information in a secure portion of the search index. When a user uploads a document to Microsoft 365, SharePoint automatically creates crawled properties based on the document properties. But to use an FCI or other property in a DLP policy, that crawled property must be mapped to a managed property so that content with that property is kept in the index.
 
-**Additional reading.** For more information on search and managed properties, see [Manage the search schema in SharePoint Online](https://docs.microsoft.com/sharepoint/manage-search-schema?azure-portal=true).
+**Additional reading.** For more information on search and managed properties, see [Manage the search schema in SharePoint Online](/sharepoint/manage-search-schema).
 
 ### Considerations when creating a DLP policy
 

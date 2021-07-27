@@ -9,6 +9,6 @@ metadata:
   author: iankensey
   ms.topic: interactive-tutorial
   ms.prod: learning-teams
-durationInMinutes: 12
+durationInMinutes: 18
 content: |
   [!include[](includes/protect-cloud-workloads.md)]

@@ -3,7 +3,7 @@ In this module we looked at the reporting and analytics capabilities in Microsof
 - **MyAnalytics** Lets you see how you spend your time at work and then suggests ways to work smarter.
 - **Workplace Analytics** - Identifies collaboration patterns that impact productivity, workforce effectiveness, and employee engagement.
 
-We also looked at the reports available from the Microsoft 395 admin center, and reports related to service specific admin centers.
+We also looked at the reports available from the Microsoft 365 admin center, and reports related to service specific admin centers.
 Now that you’ve reviewed this module, you should be able to:
 
 - Describe the **analytics capabilities** in Microsoft 365.

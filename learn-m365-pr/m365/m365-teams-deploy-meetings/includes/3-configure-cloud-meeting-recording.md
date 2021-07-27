@@ -8,7 +8,7 @@ Here, you'll learn how to administer Teams meeting recordings.
 
 For  Teams meetings to be recorded, Microsoft Stream must be enabled for the tenant. The following prerequisites are also required for both the meeting organizer and the person who is starting the recording:
 
-- User has Office 365 E1, E3, E5, A1, A3, A5, M365 Business Premium, M365 Business Standard, or M365 Business Basic.
+- User has Office 365 E1, E3, E5, A1, A3, A5, Microsoft 365 Business Premium, Microsoft 365 Business Standard, or Microsoft 365 Business Basic.
 - User needs to be licensed for Microsoft Stream.
 - User has Microsoft Stream upload video permissions.
 - User has consented to the company guidelines, if set up by the admin.

@@ -1,3 +1,5 @@
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4ODbx]
+
 The Microsoft Teams activity feed enables users to see a list of relevant items specific to them. Users can use the activity feed to address changes, notifications, and other alerts in a productive manner.
 
 In this unit, you'll learn how to use Microsoft Graph to submit notifications to the Microsoft Teams activity feed.
@@ -88,7 +90,7 @@ Each activity has a `type` property that must be unique in the app's manifest. T
 
 ## Sending activity feed notifications
 
-Activity feed notifications are sent to users with the Microsoft Graph's `/teams/{groupId}/sendActivityNotification` beta endpoint using an HTTP POST.
+Activity feed notifications are sent to users with the Microsoft Graph's `/teams/{groupId}/sendActivityNotification`  endpoint using an HTTP POST.
 
 The body of the http request contains the details of the notification. Take the following example HTTP request payload:
 

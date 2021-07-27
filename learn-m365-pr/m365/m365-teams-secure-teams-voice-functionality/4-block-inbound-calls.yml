@@ -3,7 +3,7 @@ uid: learn-m365.teams.secure-teams-voice-functionality.4-block-inbound-calls
 title: Control inbound calls 
 metadata:
   title: Control inbound calls 
-  description: Learn how to use Calling Plans to block inbound calls from distrusted numbers.
+  description: Learn how to use Microsoft Teams Calling Plans to block inbound calls from distrusted numbers.
   ms.date: 09/04/2020
   ms.author: elizapo
   author: lizap

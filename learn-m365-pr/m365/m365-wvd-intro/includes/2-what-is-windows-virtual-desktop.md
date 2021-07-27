@@ -1,4 +1,4 @@
-Azure Virtual Desktop on Microsoft Azure is a desktop and app virtualization service that runs on the cloud. Azure Virtual Desktop works across devices, like Windows, Mac, iOS, Android, and Linux, with apps that you can use to access remote desktops and apps. You can also use most modern browsers to access Azure Virtual Desktop-hosted experiences. 
+Azure Virtual Desktop on Microsoft Azure is a desktop and app virtualization service that runs on the cloud. Azure Virtual Desktop works across devices, like Windows, Mac, iOS, Android, and Linux, with apps that you can use to access remote desktops and apps. You can also use most modern browsers to access Azure Virtual Desktop-hosted experiences.
 
 ## Provide the best user experience
 
@@ -12,17 +12,17 @@ You can provide individual ownership through personal (persistent) desktops. For
 
 ## Enhance security
 
-Azure Virtual Desktop provides centralized security management for user's desktops with Azure Active Directory (Azure AD). You can enable multi-factor authentication to secure user sign-ins. You can also secure access to data by assigning granular role-based access controls to users.
+Azure Virtual Desktop provides centralized security management for user's desktops with Azure Active Directory (Azure AD). You can enable multifactor authentication to secure user sign-ins. You can also secure access to data by assigning granular role-based access controls to users.
 
 With Azure Virtual Desktop, the data and apps are separated from the local hardware and runs them instead on a remote server. So the risk of confidential data being left on a personal device is reduced.
 
 User sessions are isolated in both single and multi-session environments.
 
-Azure Virtual Desktop also improves security by using reverse connect technology which is a more secure connection type than the Remote Desktop Protocol. We don't open inbound ports to the session host VMs.
+Azure Virtual Desktop also improves security by using reverse connect technology, which is a more secure connection type than the Remote Desktop Protocol. We don't open inbound ports to the session host VMs.
 
 ## Simplify management
 
-Azure Virtual Desktop is an Azure service which will be familiar to Azure administrators. You use Azure Active Directory and role-based access controls to manage access to resources. Also with Azure, you get  tools to automate VM deployments, manage VM updates, and provide disaster recovery. As with other Azure services, Azure Virtual Desktop uses Azure Monitor for monitoring and alerts. This lets admins identify issues through a single interface.
+Azure Virtual Desktop is an Azure service that will be familiar to Azure administrators. You use Azure Active Directory and role-based access controls to manage access to resources. Also with Azure, you get  tools to automate VM deployments, manage VM updates, and provide disaster recovery. As with other Azure services, Azure Virtual Desktop uses Azure Monitor for monitoring and alerts. This lets admins identify issues through a single interface.
 
 ## Manage performance
 
@@ -43,4 +43,3 @@ license. Just pay for the Azure resources used by Azure Virtual Desktop.
 ## Save on compute costs
 
 Buy one-year or three-year Azure Reserved Virtual Machine Instances to save you up to 72 percent versus pay-as-you-go pricing. You can pay for a reservation up front or monthly. Reservations provide a billing discount and don't affect the runtime state of your resources.
-

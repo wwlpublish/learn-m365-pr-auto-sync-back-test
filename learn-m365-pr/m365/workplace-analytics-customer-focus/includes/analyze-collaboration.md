@@ -8,7 +8,7 @@ Workplace Analytics provides insights around three key pillars of customer focus
 When beginning your customer focus analysis, it is important to know your business priorities and identify business questions to guide your analysis. The following are some examples of questions you might ask for each pillar:
 
 - **External collaboration** - Are sales employees spending the right amount of time with the right customers to effectively drive high-value activities?
-- **Internal collaboration** - Are sales employees getting sufficient support from internal teams who can help drive high-value, external activities and spending the minimum time possible in internal processes?
+- **Internal collaboration** - Are sales employees getting sufficient support from internal teams who can help drive high-value, external activities, and spending the minimum time possible in internal processes?
 - **Coaching and onboarding** - Are sales employees getting enough empowerment from the management and building the knowledge and skills that can set them up for success?
 
 These are just a few of the questions a Workplace Analytics customer focus analysis can help answer. There are multiple analyses in each category that you can perform to help boost customer focus for sales effectiveness.
@@ -161,11 +161,11 @@ To access the Customer Focus Playbook from Workplace Analytics:
 
 ![Get customer focus playbook](../media/get-customer-focus-playbook.png)
 
-In the next unit, you’ll learn how to scope your analysis, use the business questions you’ve identified, understand the data requirements to perform each analysis, and understand how you can track and manage the results to create value.
+In the next unit, you'll learn how to scope your analysis, use the business questions you've identified, understand the data requirements to perform each analysis, and understand how you can track and manage the results to create value.
 
 ## Learn more
 
-- [Workplace Analytics glossary](https://docs.microsoft.com/workplace-analytics/use/glossary?azure-portal=true)
-- [Workplace Analytics metrics](https://docs.microsoft.com/workplace-analytics/use/metric-definitions?azure-portal=true)
-- [Learn about the Ways of working assessment](https://docs.microsoft.com/workplace-analytics/tutorials/power-bi-collab-assess?azure-portal=true)
-- [Workplace Analytics Resource playbooks](https://docs.microsoft.com/workplace-analytics/use/playbooks?azure-portal=true)
+- [Workplace Analytics glossary](/workplace-analytics/use/glossary?azure-portal=true)
+- [Workplace Analytics metrics](/workplace-analytics/use/metric-definitions?azure-portal=true)
+- [Learn about the Ways of working assessment](/workplace-analytics/tutorials/power-bi-collab-assess?azure-portal=true)
+- [Workplace Analytics Resource playbooks](/workplace-analytics/use/playbooks?azure-portal=true)

@@ -12,13 +12,13 @@ To implement emergency calling, you should understand the following concepts:
 - **Registered address** -  An emergency address assigned to a Calling Plan user. Sometimes this referred to as an address of record, or a static emergency address. This is not supported if you're using Direct Routing.
 
 > [!NOTE]
-> Depending on whether you're using Calling Plans or Direct Routing, there are some considerations you'll need to be aware of for emergency calling. Use the **Considerations for Calling Plans** and **Considerations for Direct Routing** links in the **Learn more** section for more information.
+> Depending on whether you're using Teams Calling Plans or Direct Routing, there are some considerations you'll need to be aware of for emergency calling. Use the **Considerations for Calling Plans** and **Considerations for Direct Routing** links in the **Learn more** section for more information.
 
 ### Emergency address validation
 
 Before you can assign emergency addresses to your users or network identifiers (such as subnets), you'll need to make sure that the emergency address is marked as **validated**. This way, you can make sure that the address is legitimate, and that it can't be changed after it has been assigned.
 
-You can define emergency addresses using PowerShell and the Teams admin center. However, the admin center provides an another benefit. When you define an emergency address using the address search feature in Microsoft Teams admin center, the address is automatically marked as validated. Once an address has been validated, you can't modify it. For example, if a street name or number has changed you'll need to create a new address to reflect those changes.
+You can define emergency addresses using PowerShell and the Teams admin center. However, the admin center provides another benefit. When you define an emergency address using the address search feature in Microsoft Teams admin center, the address is automatically marked as validated. Once an address has been validated, you can't modify it. For example, if a street name or number has changed you'll need to create a new address to reflect those changes.
 
 ### Emergency address geo codes
 
@@ -217,7 +217,7 @@ Dynamic calling enables you to configure and route emergency calls to notify the
 - Enable your users and sites, by assigning the calling policies to them
 - Test your emergency calling configuration
 
-Use the **Plan and Configure dynamic emergency calling** link in the **Learn more** section as a step-by-step guide on configuring dynamic emergency calling for both Calling Plans and Direct Routing.
+Use the **Plan and Configure dynamic emergency calling** link in the **Learn more** section as a step-by-step guide on configuring dynamic emergency calling for both Teams Calling Plans and Direct Routing.
 
 ## Learn more
 

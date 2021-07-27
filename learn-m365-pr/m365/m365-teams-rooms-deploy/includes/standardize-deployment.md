@@ -4,7 +4,7 @@ You'll want to try to standardize on procurement and have as many of the same co
 
 The more consistent you can be with these practices, the more efficient you'll be in supporting, implementing, and operating Teams Rooms in the future.
 
-Here’s a high-level project plan highlighting all the key milestones in a Teams Rooms deployment. 
+Here's a high-level project plan highlighting all the key milestones in a Teams Rooms deployment.
 
 ![Deployment key milestones](../media/deployment-key-milestones.png)
 
@@ -18,7 +18,7 @@ To assist in the deployment, you'll need several teams:
 ## Plan your deployment
 
 **Set standards based on room sizes**. When possible, you'll want to set standards based on the size of a room. For small rooms, you'll use certain devices while you'll use different devices sized for large rooms. Microsoft provides meeting room archetype specifications for different-sized meeting rooms. You can find these by browsing to the [Microsoft Teams devices page](https://www.microsoft.com/microsoft-365/microsoft-teams/across-devices/devices/category?devicetype=20?azure-portal=true). From here, you can scroll down on the left navigation, expand **Space**, and select the room size you need to configure.
- 
+
 **Plan for product delays**. Unexpected things can happen, like a pandemic, which puts a slowdown on shipping and delivery schedules.
 
 **Standardize room installation**. Make sure you have standards for how you're going to run and organize the cables and where you're going to mount devices. If you're going to mount compute devices behind displays, make that a standard too.

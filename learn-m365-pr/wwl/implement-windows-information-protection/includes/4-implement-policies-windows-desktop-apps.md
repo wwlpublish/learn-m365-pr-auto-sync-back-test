@@ -120,7 +120,7 @@ Unenlightened line-of-business apps that have been tested and considered safe fo
 
 The list of enlightened apps is constantly growing because of ongoing development in the development community.
 
-**Additional reading.** For more information, see the [latest list of enlightened apps](https://docs.microsoft.com/windows/security/information-protection/windows-information-protection/enlightened-microsoft-apps-and-wip?azure-portal=true).
+**Additional reading.** For more information, see the [latest list of enlightened apps](/windows/security/information-protection/windows-information-protection/enlightened-microsoft-apps-and-wip).
 
 #### Differences when saving a file
 

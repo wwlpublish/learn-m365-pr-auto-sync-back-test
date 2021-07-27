@@ -1,4 +1,4 @@
-Microsoft Teams lets you quickly pull together a team with people inside and outside your organization, chat with others to drive fast and inclusive conversations, securely share and coauthor documents, and iterate on projects. Let’s look at some of the key elements of the Teams user experience. 
+Microsoft Teams lets you quickly pull together a team with people inside and outside your organization, chat with others to drive fast and inclusive conversations, securely share and coauthor documents, and iterate on projects. Let's look at some of the key elements of the Teams user experience.
  
 ## What are teams?
 
@@ -17,13 +17,13 @@ Team channels are places where everyone on the team can openly have conversation
 ## What is chat?
 
 While channel conversations are public, *chats* are just between you and someone else (or a group of people). Think of them like instant messages in other messaging apps. Private chats are only visible to the chat participants.
- 
-You start one-on-one and group chats the same way: by selecting **New chat** at the top of Teams. Once in a chat, you’ll be able to send messages that include files, links, emojis, stickers, and gifs. There are many formatting options for chat messages, including options for highlighting, font size, lists, and more.
+
+You start one-on-one and group chats the same way: by selecting **New chat** at the top of Teams. Once in a chat, you'll be able to send messages that include files, links, emojis, stickers, and GIFs. There are many formatting options for chat messages, including options for highlighting, font size, lists, and more.
 
 ![Chat window](../media/user-exp-chat.png)
 
-Teams saves your whole chat history, all the way back to the first message you sent—this is known as *persistent* chat. If someone leaves your organization, that person’s chat responses will remain in your chat history.
- 
+Teams saves your whole chat history, all the way back to the first message you sent—this is known as *persistent* chat. If someone leaves your organization, that person's chat responses will remain in your chat history.
+
 ## Learn more
 
 When you're done with a link, use the **Back** arrow in your browser to come back to this page.

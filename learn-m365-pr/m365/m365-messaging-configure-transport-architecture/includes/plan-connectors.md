@@ -1,4 +1,4 @@
-Connectors are essential for on-premises Exchange deployments or when you have specific needs, such as security requirements. 
+Connectors are essential for on-premises Exchange deployments or when you have specific needs, such as security requirements.
 
 ## What is a connector?
 
@@ -24,7 +24,7 @@ Here are some scenarios where you'll need to create your own connectors:
 
 - You have on-premises Exchange servers that run Exchange 2007 or earlier. In some circumstances, the Hybrid Connection Wizard cannot create connectors to these servers. You might need to create a connector manually.
 - You have non-Microsoft SMTP email servers on-premises.
-- You have security requirements for email exchanged with specific business partners. For example, you might want to require encryption or to check the domain name on the encryption certificate. 
+- You have security requirements for email exchanged with specific business partners. For example, you might want to require encryption or to check the domain name on the encryption certificate.
 - You want to send and receive internet email through a service provider, such as organizations that provide antivirus or anti-spam filtering.
 - You have email-enabled devices or line-of-business applications on-premises, and you want to enable them to send email to your Exchange Online mailboxes.
 

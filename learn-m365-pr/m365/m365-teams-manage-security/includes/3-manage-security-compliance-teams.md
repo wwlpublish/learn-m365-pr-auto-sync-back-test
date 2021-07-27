@@ -15,6 +15,7 @@ Here, you'll learn about the advanced protection tools that are available in Tea
 Conditional Access uses multiple signals to determine whether a user or device is trustworthy. Conditional Access policies are made up of if-then statements that are enforced after first-factor authentication is complete. Microsoft Teams is supported separately as a cloud app in Azure Active Directory Conditional Access policies.
 
 ## Manage compliance
+
 Teams has a range of tools to help you with compliance, including information barriers, communication compliance for channels, chats, and attachments, retention policies, Data Loss Protection (DLP), and e-discovery. To manage the settings for the features covered in this topic, go to the Microsoft 365 compliance center.
 
 **Information barriers** are policies put in place by Teams administrators to prevent people or groups from communicating with one another. You set information barriers in cases where there's no business need for people to communicate, or there's a regulatory reason to prevent them from communicating. Information barriers also allow you to set policies such as lookups and e-discovery. These policies can affect users in one-to-one chats, group chats, or at a team level.
@@ -23,13 +24,12 @@ Teams has a range of tools to help you with compliance, including information ba
 
 **Retention policies** help you to manage information retention in your organization. Use retention policies to keep data that must be stored to comply with your organization's internal policies, industry regulations, or legal needs. Retention policies are also used to delete data that's considered a liability, that you're no longer required to keep, or has no legal or business value.
 
-By default, Teams chat, channel, and files data are kept indefinitely. Retention policies for Teams are created and managed in the Microsoft 365 compliance center or by using the Security & Compliance Center PowerShell cmdlets. You can apply a Teams retention policy to your entire organization or to specific users and teams. You can set up Teams retention policies for chat and channel messages, and decide whether to retain the data, delete it, or keep it for a specific period of time.
+By default, Teams chat, channel, and files data are kept indefinitely. Retention policies for Teams are created and managed in the Microsoft 365 compliance center or by using the Microsoft 365 Defender portal PowerShell cmdlets. You can apply a Teams retention policy to your entire organization or to specific users and teams. You can set up Teams retention policies for chat and channel messages, and decide whether to retain the data, delete it, or keep it for a specific period of time.
 
 **DLP capabilities** include Microsoft Teams chat and channel messages, and private channel messages. If your organization has DLP, you can define policies that prevent people from sharing sensitive information in a Microsoft Teams channel or chat session.
 
 **E-discovery** is the process of identifying, collecting, and producing electronically stored information (ESI) when needed. E-discovery allows you to respond to a legal case involving people in your organization. This process might involve finding and keeping specific information in email, documents, instant messaging conversations, and other locations. Within Teams, e-discovery includes chat, messaging, files, meeting, and call summaries.
-You can do these and other similar activities in the Security and Compliance Center.
-
+You can do these and other similar activities in the Microsoft 365 Defender portal.
 
 ## Learn more
 

@@ -12,4 +12,4 @@ When users comment on a document, presentation, or spreadsheet and use the **@**
 
 ![@ symbol notification](../media/at-symbol-notification.png)
 
-Microsoft 365 Apps provides the most up-to-date experience for users, with the latest features and updates delivered on a schedule that the administrator can control.
+Microsoft 365 Apps provides the most up-to-date experience for users with the latest features and updates delivered on a schedule that the administrator can control.

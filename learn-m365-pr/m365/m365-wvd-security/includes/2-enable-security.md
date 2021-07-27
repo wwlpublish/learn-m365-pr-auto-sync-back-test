@@ -13,7 +13,7 @@ The following diagram shows the components of a typical enterprise deployment ar
 
 :::image type="content" source="../media/2-windows-virtual-desktop-at-scale.png" alt-text="Azure Virtual Desktop deployment that consists of Azure A D D S, synchronization to Azure A D via Azure A D Connect, and a network gateway." border="true":::
 
-Azure Virtual Desktop is deployed in a hierarchical workspace. In a traditional on-premises virtual desktop infrastructure (VDI) deployment, the customer is responsible for all aspects of security. With Azure Virtual Desktop, these responsibilities are shared between the customer and Microsoft. 
+Azure Virtual Desktop is deployed in a hierarchical workspace. In a traditional on-premises virtual desktop infrastructure (VDI) deployment, the customer is responsible for all aspects of security. With Azure Virtual Desktop, these responsibilities are shared between the customer and Microsoft.
 
 Microsoft helps secure the physical datacenters, the physical network, and the physical hosts that Azure runs on. Microsoft is also responsible for securing the virtualization control plane, which includes Azure Virtual Desktop services running in Azure.
 
@@ -58,7 +58,7 @@ Security processes and components contribute to this Azure AD identity as a serv
 
 The following load-balancing methods are available in Azure Virtual Desktop. Breadth-first load balancing and depth-first load balancing permit the customization for Azure Virtual Desktop host pools to match your deployment needs.
 
-- Breadth-first is the default configuration that distributes new user sessions throughout the hosts in a host pool. This configuration gives each user full control of the VM without sharing any resources.
+- Breadth-first is the default configuration that distributes new user sessions throughout the hosts in a host pool. The breadth-first load-balancing method allows you to distribute user connections to optimize for this scenario. This method is ideal for organizations that want to provide the best experience for users connecting to their pooled virtual desktop environment.
 - Depth-first connects new user sessions to a multiple-session host until the maximum connections are reached. This configuration is typically used to reduce cost.
 
 Several Remote Desktop clients and the most popular partner OS devices include support for Azure Virtual Desktop. Windows Desktop and Microsoft Store Client are two Remote Desktop clients that include this support. You can:

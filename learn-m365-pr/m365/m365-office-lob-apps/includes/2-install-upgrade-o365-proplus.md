@@ -35,4 +35,4 @@ View a [video version](https://www.microsoft.com/videoplayer/embed/RE44vA8) of t
 > [!NOTE]
 > The video uses "Office 365 ProPlus" instead of "Microsoft 365 Apps." The video will be updated to use the current brand.
 
-Be sure to click the full-screen option in the video player. When you're done, use the **Back** arrow in your browser to come back to this page. 
+Be sure to click the full-screen option in the video player. When you're done, use the **Back** arrow in your browser to come back to this page.

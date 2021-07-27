@@ -1,41 +1,89 @@
-Outlook and other Office-related clients can use the Autodiscover process to automatically locate services in Microsoft 365. Using Autodiscover in this manner requires that you first configure the appropriate DNS records on the publicly available DNS servers on the Internet.
+Outlook and other Office-related clients can use the Autodiscover process to automatically locate services in Microsoft 365. For an organization to use Autodiscover in this manner, it must first configure the appropriate DNS records on the publicly available DNS servers on the Internet.
 
- *  In organizations where the internal DNS namespace, such as Adatum.local, is different from the Internet DNS namespace, such as Adatum.com, the internal DNS servers forward internal client queries to Internet DNS servers.
- *  In organizations that use split-brain DNS, where internal and Internet DNS namespaces are the same, such as Adatum.com, you should configure both the internal and Internet DNS servers to resolve the Autodiscover records in Microsoft 365.
+ -  In organizations where the internal DNS namespace, such as **adatum.local**, is different from the Internet DNS namespace, such as **adatum.com**, the internal DNS servers forward internal client queries to Internet DNS servers.
+ -  In organizations that use split-brain DNS, where internal and Internet DNS namespaces are the same, such as **adatum.com**, both the internal and Internet DNS servers should be configured to resolve the Autodiscover records in Microsoft 365.
 
 The following table identifies the Autodiscover records that Outlook clients need to connect to Exchange Online in Microsoft 365.
 
 :::row:::
   :::column:::
-    <p><b>DNS record</b></p>
+    
+
+**DNS record**
+
+
   :::column-end:::
   :::column:::
-    <p><b>Purpose</b></p>
+    
+
+**Purpose**
+
+
   :::column-end:::
   :::column:::
-    <p><b>Value to use</b></p>
+    
+
+**Value to use**
+
+
   :::column-end:::
 :::row-end:::
 :::row:::
   :::column:::
-    <p><b>CNAME</b><br></p>  <p><b>(Exchange Online)</b></p>
+    
+
+**CNAME**
+
+
+**(Exchange Online)**
+
+
   :::column-end:::
   :::column:::
-    <p>The Autodiscover service configures Outlook for users.</p>
+    
+
+The Autodiscover service configures Outlook for users.
+
+
   :::column-end:::
   :::column:::
-    <p><b>Alias:</b> Autodiscover<br></p>  <p><b>Target: </b>autodiscover.outlook.com</p>
+    
+
+**Alias:** Autodiscover
+
+
+**Target:** autodiscover.outlook.com
+
+
   :::column-end:::
 :::row-end:::
 :::row:::
   :::column:::
-    <p><b>CNAME</b><br></p>  <p><b>(Exchange federation)</b></p>
+    
+
+**CNAME**
+
+
+**(Exchange federation)**
+
+
   :::column-end:::
   :::column:::
-    <p>The Autodiscover service configures Outlook for users in Exchange federation scenarios. This record is optional, and it's needed when you deploy Exchange in a hybrid configuration with Microsoft 365.</p>
+    
+
+The Autodiscover service configures Outlook for users in Exchange federation scenarios. This record is optional, and it's needed when you deploy Exchange in a hybrid configuration with Microsoft 365.
+
+
   :::column-end:::
   :::column:::
-    <p><b>Alias:</b> For example, Autodiscover.service.adatum.com<br></p>  <p><b>Target:</b> autodiscover.outlook.com</p>
+    
+
+**Alias:** For example, Autodiscover.service.adatum.com
+
+
+**Target:** autodiscover.outlook.com
+
+
   :::column-end:::
 :::row-end:::
 
@@ -49,35 +97,83 @@ The following table identifies the DNS records that are needed for VOIP Services
 
 :::row:::
   :::column:::
-    <p><b>DNS record</b></p>
+    
+
+**DNS record**
+
+
   :::column-end:::
   :::column:::
-    <p><b>Purpose</b></p>
+    
+
+**Purpose**
+
+
   :::column-end:::
   :::column:::
-    <p><b>Value to use</b></p>
+    
+
+**Value to use**
+
+
   :::column-end:::
 :::row-end:::
 :::row:::
   :::column:::
-    <p><b>CNAME</b><br></p>  <p><b>(VOIP Services)</b></p>
+    
+
+**CNAME**
+
+
+**(VOIP Services)**
+
+
   :::column-end:::
   :::column:::
-    <p>Used originally by the Skype for Business clients to find the Skype for Business Online service in Microsoft 365 and sign in, it's now used by the Teams client.</p>
+    
+
+Used originally by the Skype for Business clients to find the Skype for Business Online service in Microsoft 365 and sign in, it's now used by the Teams client.
+
+
   :::column-end:::
   :::column:::
-    <p><b>Alias:</b> sip<br></p>  <p><b>Target:</b> sipdir.online.lync.com</p>
+    
+
+**Alias:** sip
+
+
+**Target:** sipdir.online.lync.com
+
+
   :::column-end:::
 :::row-end:::
 :::row:::
   :::column:::
-    <p><b>CNAME</b><br></p>  <p><b>(VOIP Services)</b></p>
+    
+
+**CNAME**
+
+
+**(VOIP Services)**
+
+
   :::column-end:::
   :::column:::
-    <p>Used originally by the Skype for Business clients to find the Skype for Business Online service in Microsoft 365 and sign in, it's now used by the Teams client.</p>
+    
+
+Used originally by the Skype for Business clients to find the Skype for Business Online service in Microsoft 365 and sign in, it's now used by the Teams client.
+
+
   :::column-end:::
   :::column:::
-    <p><b>Alias:</b> Lyncdiscover<br></p>  <p><b>Target:</b> webdir.online.lync.com</p>
+    
+
+**Alias:** Lyncdiscover
+
+
+**Target:** webdir.online.lync.com
+
+
   :::column-end:::
 :::row-end:::
 

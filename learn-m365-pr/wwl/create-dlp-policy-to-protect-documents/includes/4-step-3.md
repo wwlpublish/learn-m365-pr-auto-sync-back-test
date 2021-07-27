@@ -4,7 +4,7 @@ You can use the **New\\Set\\Get-DlpCompliancePolicy** cmdlets to work with a DLP
 
 Complete the following steps to create the DLP policy and rule for the managed property through PowerShell:
 
-1.  Connect to the [Security &amp; Compliance Center using remote PowerShell](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell?azure-portal=true).
+1.  Connect to the [Security &amp; Compliance Center using remote PowerShell](/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell).
 2.  Create the policy by using the **New-DlpCompliancePolicy** cmdlet and apply it to all locations:
     
     ```powershell

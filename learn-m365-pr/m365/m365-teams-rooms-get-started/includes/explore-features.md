@@ -6,13 +6,13 @@ Content cameras and intelligent capture give you the ability to share a traditio
 
 ![Whiteboard animated gif](../media/whiteboard-animation.gif)
 
-Teams Rooms supports the Raise Hands feature. As remote attendees raise a hand, a banner is put up on the front of room display as well as on the console. Users inside the room can raise and lower their hand directly on the console.
+Teams Rooms supports the Raise Hands feature. As remote attendees raise a hand, a banner is put up on the front of room display and on the console. Users inside the room can raise and lower their hand directly on the console.
 
 ![Raise hands feature animated gif](../media/raise-hands-feature.gif)
 
 Direct Guest Join lets Teams Rooms join meetings from other vendors, such as Cisco WebEx and Zoom. Using the WebRTC protocol, Microsoft has partnered to allow Teams Rooms to have a native meeting join experience. Not all Teams Rooms features work when joining meetings hosted by other vendors. For example, content camera only works when joining a Microsoft Teams meeting. Direct Guest Join is provided as a convenience that lets you use Teams Rooms for more than just Microsoft Teams meetings.
- 
-Call Analytics and Call Quality Dashboard are key analytics and diagnostic features of Microsoft Teams and can be used with Teams Rooms as well. 
 
-- Call Analytics is used to analyze a single attendee’s call quality and to troubleshoot poor call quality. You can see all the relevant information from networking to which device they were using.
+Call Analytics and Call Quality Dashboard are key analytics and diagnostic features of Microsoft Teams and can be used with Teams Rooms as well.
+
+- Call Analytics is used to analyze a single attendee's call quality and to troubleshoot poor call quality. You can see all the relevant information from networking to which device they were using.
 - Call Quality Dashboard aggregates Call Analytics data and gives you a high-level view of all your locations. You can filter on location, subnet, and other values to proactively discover trends and hotspots throughout your network. You can then take necessary actions like enabling proxy bypass to improve audio and video performance.

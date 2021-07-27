@@ -1,6 +1,6 @@
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4yqwL]
 
-Capability validation is an integral part of the EBCM lifecycle. It involves testing Business Continuity Plan (BCP) effectiveness in both theory and practice. Each service team tests their BCP regularly to measure the plan’s effectiveness and the service team’s readiness to execute the plan. Per EBCM Program guidelines, an annual review of BCP and capability validation must take place within 12 months of the last review and include review of supporting documentation, such as the BIA and DA.
+Capability validation is an integral part of the EBCM lifecycle. It involves testing Business Continuity Plan (BCP) effectiveness in both theory and practice. Each service team tests their BCP regularly to measure the plan's effectiveness and the service team's readiness to execute the plan. Per EBCM Program guidelines, an annual review of BCP and capability validation must take place within 12 months of the last review and include review of supporting documentation, such as the BIA and DA.
 
 ![capability validation phase: - develop scenarios, - conduct validations, - document results, - identify gaps and improvements](../media/capability-validation.png)
 
@@ -20,7 +20,7 @@ Examples of test scenarios include:
 - Cyber attacks
 - Pandemic
 
-Within the context of each test scenario, Microsoft defines eight levels of validation, from 0, which means the capability has not been tested, to 7, which means the capability was fully activated during the test. Levels 1 through 4 test features of the business continuity plan outside of production environments. Levels 5 through 7 require increasingly rigorous validation of recovery strategies within production environments, with level 7 requiring validation of the recovery plan for an entire application ecosystem, including all dependencies. The level of validation required for each service is based on the service’s criticality, with more critical services receiving more rigorous validation. We make capability validation results for select Microsoft 365 Services available to our customers through quarterly reports.
+Within the context of each test scenario, Microsoft defines eight levels of validation, from 0, which means the capability has not been tested, to 7, which means the capability was fully activated during the test. Levels 1 through 4 test features of the business continuity plan outside of production environments. Levels 5 through 7 require increasingly rigorous validation of recovery strategies within production environments, with level 7 requiring validation of the recovery plan for an entire application ecosystem, including all dependencies. The level of validation required for each service is based on the service's criticality, with more critical services receiving more rigorous validation. We make capability validation results for select Microsoft 365 Services available to our customers through quarterly reports.
 
 ## Responding to service-impacting incidents
 

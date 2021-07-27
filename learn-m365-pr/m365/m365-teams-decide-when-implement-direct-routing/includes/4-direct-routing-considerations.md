@@ -17,7 +17,7 @@ Dial-in conferencing, however, isn't supported in Direct Routing. You can only u
 
 ## Plan for dynamic emergency calling
 
-You'll also need to consider emergency calling, and how you want to configure it. Dynamic emergency calling, also named E-911 in the USA, is supported by both Direct Routing and Calling Plans. You'll require an additional Emergency Routing Service Provider and have a Session Border Controller (SBC) that supports emergency routing.
+You'll also need to consider emergency calling, and how you want to configure it. Dynamic emergency calling, also named E-911 in the USA, is supported by both Direct Routing and Teams Calling Plans. You'll require an additional Emergency Routing Service Provider and have a Session Border Controller (SBC) that supports emergency routing.
 
 ## Learn more
 

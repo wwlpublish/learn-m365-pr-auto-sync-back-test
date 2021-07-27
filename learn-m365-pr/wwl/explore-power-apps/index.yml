@@ -1,14 +1,14 @@
 ### YamlMime:Module
 uid: learn.wwl.explore-power-apps
 metadata:
-  title: Explore Power Apps
-  description: "Explore Power Apps"
-  ms.date: 04/22/2021
+  title: Create apps as a Microsoft 365 Enterprise Administrator with Power Apps
+  description: "Create apps as a Microsoft 365 Enterprise Administrator with Power Apps"
+  ms.date: 07/09/2021
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-title: Explore Power Apps
+title: Create apps as a Microsoft 365 Enterprise Administrator with Power Apps
 summary: This module examines the key features of Power Apps and provides instruction on how to manage the Power Apps environment, connect to data sources, and create, test, monitor, and run a Power App.
 abstract: |
   By the end of this module, you'll be able to:

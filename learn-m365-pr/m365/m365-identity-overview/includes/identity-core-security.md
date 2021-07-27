@@ -10,4 +10,4 @@ While the network perimeter keeps a basic security role, it can no longer guide 
 
 Organizations need to adopt different security philosophies and mindsets that are based on rigorous management of authentication and authorization, not firewall rules and exceptions.
 
-Administrators are in control and need protection. The most important identities to protect are the administrators of on-premises and cloud systems, especially identity systems like Active Directory and Azure Active Directory. These administrators have access to all the data hosted on their systems and should be protected, monitored, and restricted appropriately with their high level of responsibility.
+Administrators are in control and need protection. The most important identities to protect are the administrators of on-premises and cloud systems, especially identity systems like Active Directory and Azure AD. These administrators have access to all the data hosted on their systems and should be protected, monitored, and restricted appropriately with their high level of responsibility.

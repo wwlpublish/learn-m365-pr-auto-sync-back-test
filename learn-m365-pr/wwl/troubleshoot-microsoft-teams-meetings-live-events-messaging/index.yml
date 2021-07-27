@@ -1,0 +1,42 @@
+### YamlMime:Module
+uid: learn.wwl.troubleshoot-microsoft-teams-meetings-live-events-messaging
+metadata:
+  title: Troubleshoot Microsoft Teams meetings live events and messaging
+  description: "Learn how to troubleshoot meeting creation, attendee access, meeting recording issues, and content sharing. Learn how to optimize live events, and how to troubleshoot messaging issues."
+  ms.date: 07/26/2021
+  author: wwlpublish
+  ms.author: cyncarey
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Troubleshoot Microsoft Teams meetings live events and messaging
+summary: Learn how to troubleshoot meeting creation, attendee access, meeting recording issues, and content sharing. Learn how to optimize live events, and how to troubleshoot messaging issues.
+abstract: |
+  After completing this module, you’ll be able to:
+  - Troubleshoot Teams meetings.
+  - Troubleshoot live events.
+  - Troubleshoot messaging.
+prerequisites: |
+  - Experience configuring and administering Microsoft Teams
+  - Experience using Windows PowerShell
+  - Working experience with performance tuning and service monitoring
+iconUrl: /learn/achievements/generic-badge.svg
+levels:
+- advanced
+roles:
+- support-engineer
+products:
+- m365
+- office-teams
+units:
+- learn.wwl.troubleshoot-microsoft-teams-meetings-live-events-messaging.introduction
+- learn.wwl.troubleshoot-microsoft-teams-meetings-live-events-messaging.troubleshoot-meeting-creation
+- learn.wwl.troubleshoot-microsoft-teams-meetings-live-events-messaging.troubleshoot-recording-issues
+- learn.wwl.troubleshoot-microsoft-teams-meetings-live-events-messaging.investigate-sharing-issues
+- learn.wwl.troubleshoot-microsoft-teams-meetings-live-events-messaging.troubleshoot-meeting-attendee-access
+- learn.wwl.troubleshoot-microsoft-teams-meetings-live-events-messaging.optimize-live-events
+- learn.wwl.troubleshoot-microsoft-teams-meetings-live-events-messaging.troubleshoot-messaging-issues
+- learn.wwl.troubleshoot-microsoft-teams-meetings-live-events-messaging.troubleshoot-reporting
+- learn.wwl.troubleshoot-microsoft-teams-meetings-live-events-messaging.knowledge-check
+- learn.wwl.troubleshoot-microsoft-teams-meetings-live-events-messaging.summary
+badge:
+  uid: learn.wwl.troubleshoot-microsoft-teams-meetings-live-events-messaging.badge

@@ -3,7 +3,7 @@ uid: learn.wwl.implement-windows-information-protection
 metadata:
   title: Implement Windows Information Protection
   description: "Implement Windows Information Protection"
-  ms.date: 05/26/2021
+  ms.date: 06/18/2021
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -17,7 +17,7 @@ abstract: |
   - Implement Windows Information Protection policies in Windows desktop apps
 prerequisites: |
   None
-iconUrl: /learn/achievements/generic-badge.svg
+iconUrl: /learn/achievements/windows-information-protection.svg
 levels:
 - intermediate
 roles:

@@ -1,16 +1,16 @@
-Audio Conferencing is the ability to join a Teams meeting from a regular phone and call out from a meeting to a phone number, allowing users to call in to meetings when they can’t use a Teams client. Up to 250 attendees can attend a Teams audio conference.
+Audio Conferencing is the ability to join a Teams meeting from a regular phone and call out from a meeting to a phone number, allowing users to call in to meetings when they can't use a Teams client. Up to 250 attendees can attend a Teams audio conference.
 
-Calling in (also known as dialing in) to meetings is very useful for users who are on the road and can’t attend a meeting using the Microsoft Teams app on their laptops or mobile devices. There are additional scenarios in which using a phone to attend a Microsoft Teams meeting can be a better option than using an app on a computer:
+Calling in (also known as dialing in) to meetings is useful for users who are on the road and can't attend a meeting using the Microsoft Teams app on their laptops or mobile devices. There are additional scenarios in which using a phone to attend a Microsoft Teams meeting can be a better option than using an app on a computer:
 
 - When internet connectivity is limited
 - When a meeting is audio only
-- When there’s an inability to join from Teams
+- When there's an inability to join from Teams
 
 The advantages are:
 
 - The call quality is better when calling in.
 - People can join a meeting *hands free* using Bluetooth devices.
-- People find it’s easier and more convenient for their situation.
+- People find it's easier and more convenient for their situation.
 
 You only need to set up Audio Conferencing for people who plan to schedule or lead meetings. One Audio Conferencing license is required for each person who is going to schedule/host an audio meeting. Meeting attendees who call in don't need any licenses assigned to them or any other setup.
 
@@ -34,7 +34,7 @@ Before you can set up Audio Conferencing for Teams, consider the following quest
 
 ## Core deployment decisions for Audio Conferencing
 
-The settings most organizations want to change (if the Teams default settings don’t meet their needs) are shown in this table.
+The settings most organizations want to change (if the Teams default settings don't meet their needs) are shown in this table.
 
 | Setting | Considerations |
 |---|---|
@@ -47,7 +47,7 @@ The settings most organizations want to change (if the Teams default settings do
 
 ## Additional deployment decisions
 
-In addition to the core deployment decisions, it’s important to also consider the following when deploying Audio Conferencing.
+In addition to the core deployment decisions, it's important to also consider the following when deploying Audio Conferencing.
 
 | Setting | Considerations |
 |---|---|
@@ -56,9 +56,11 @@ In addition to the core deployment decisions, it’s important to also consider 
 | Monitor and troubleshoot meeting and call quality | Teams gives you two ways to monitor and troubleshoot call quality problems:  **Call Analytics** and **Call Quality Dashboard.** Both tools are described in the unit **Monitor call quality.**|
 
 ## Try it - configure audio conferencing
-Now that you've learned the basics for audio conferences, it's time to try configuring the settings yourself. 
+
+Now that you've learned the basics for audio conferences, it's time to try configuring the settings yourself.
 
 In this exercise, you will:
+
 - Get and configure the conferencing bridge number.
 - Assign a dial-in number for meeting leaders.
 

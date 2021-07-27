@@ -1,10 +1,10 @@
-You have learned how to determine Call Plan availability, how to set up Call Plans, and some considerations for deploying both Call Plans and Direct Routing. 
+You have learned how to determine Call Plan availability, how to set up Call Plans, and some considerations for deploying both Call Plans and Direct Routing.
 
 Now that you have completed this module, you should be able to:
 
 - Understand the steps necessary to set up calling plans
 - Understand how to transfer and port numbers
-- Understand how to configure emergency numbers for both Calling Plans and Direct Routing
+- Understand how to configure emergency numbers for both Teams Calling Plans and Direct Routing
 
 ## Additional resources
 

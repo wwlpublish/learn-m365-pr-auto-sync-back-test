@@ -3,7 +3,7 @@ uid: learn-m365.m365-security-management-center.summary-knowledge-check
 title: Summary and knowledge check
 metadata:
   title: Summary and knowledge check
-  description: Review what you learned about the Microsoft 365 security center. 
+  description: Review what you learned about the Microsoft 365 Defender portal. 
   ms.date: 10/14/2019
   author: AlexandraHrt
   ms.author: elizapo
@@ -15,7 +15,7 @@ content: |
 quiz:
     title: Check your knowledge
     questions:
-    - content: "Which Microsoft 365 security center service is designed to help optimize your organization’s overall security health by providing insights and guidance?"
+    - content: "Which Microsoft 365 Defender portal service is designed to help optimize your organization’s overall security health by providing insights and guidance?"
       choices:
       - content: "Microsoft 365 Security Assessment"
         isCorrect: false
@@ -30,22 +30,22 @@ quiz:
         isCorrect: false
         explanation: "Azure Information Protection Scanner is used to identify documents that may need sensitivity labels or classification applied."
 
-    - content: "Which of the following security monitoring services are not available in the Microsoft 365 security center?"
+    - content: "Which of the following security monitoring services are not available in the Microsoft 365 Defender portal?"
       choices:
       - content: "Azure Active Directory"
         isCorrect: false
-        explanation: "Azure AD features alerts in the Microsoft 365 security center."
+        explanation: "Azure AD features alerts in the Microsoft 365 Defender portal."
       - content: "Microsoft Cloud App Security (MCAS)"
         isCorrect: false
-        explanation: "MCAS features alerts in the Microsoft 365 security center."
-      - content: "Microsoft Defender for Endpoint"
+        explanation: "MCAS features alerts in the Microsoft 365 Defender portal."
+      - content: "Microsoft Defender for Office 365"
         isCorrect: true
-        explanation: "Correct. Microsoft Defender for Office 365 is not an available solution. Microsoft Defender for Endpoint is featured in the Microsoft 365 security center."
+        explanation: "Correct. Microsoft Defender for Office 365 is not an available solution. Microsoft Defender for Endpoint is featured in the Microsoft 365 Defender portal."
       - content: "Intune device compliance"
         isCorrect: false
-        explanation: "Device compliance features reporting and alerts in the Microsoft 365 security center."
+        explanation: "Device compliance features reporting and alerts in the Microsoft 365 Defender portal."
       
-    - content: "What is one example of the intelligent and personalized recommendations the Microsoft 365 security center provides?"
+    - content: "What is one example of the intelligent and personalized recommendations the Microsoft 365 Defender portal provides?"
       choices:
       - content: "Shared global administration accounts"
         isCorrect: false
@@ -58,5 +58,5 @@ quiz:
         explanation: "MyAnalytics gives employees insight into how they spend their time and who they spend it with."
       - content: "Role-based access control"
         isCorrect: true
-        explanation: "Correct. The Microsoft 365 security center uses role-based access control so different security or administrator roles will see different home page cards that will be more impactful to their duties."
+        explanation: "Correct. The Microsoft 365 Defender portal uses role-based access control so different security or administrator roles will see different home page cards that will be more impactful to their duties."
       
