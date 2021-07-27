@@ -15,7 +15,7 @@ This interactive guide introduces you to two ways to optimize the delivery of Wi
 
 For more information, check these additional resources:
 
-- [Delivery Optimization for Windows 10 updates](https://docs.microsoft.com/windows/deployment/update/waas-delivery-optimization).
-- [Delivery Optimization reference](https://docs.microsoft.com/windows/deployment/update/waas-delivery-optimization-reference).
-- [Configure BranchCache for Windows 10 updates](https://docs.microsoft.com/windows/deployment/update/waas-branchcache).
-- [Deploy Windows 10 updates with Intune](https://docs.microsoft.com/windows/deployment/update/deploy-updates-intune).
+- [Delivery Optimization for Windows 10 updates](/windows/deployment/update/waas-delivery-optimization).
+- [Delivery Optimization reference](/windows/deployment/update/waas-delivery-optimization-reference).
+- [Configure BranchCache for Windows 10 updates](/windows/deployment/update/waas-branchcache).
+- [Deploy Windows 10 updates with Intune](/windows/deployment/update/deploy-updates-intune).

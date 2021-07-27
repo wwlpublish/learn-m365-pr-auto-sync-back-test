@@ -16,6 +16,6 @@ Follow the interactive guide to see how to:
 
 For more resources, see:
 
-- [Create a task sequence to upgrade an OS in Configuration Manager](https://docs.microsoft.com/mem/configmgr/osd/deploy-use/create-a-task-sequence-to-upgrade-an-operating-system)
-- [Manage Windows-as-a-Service using Configuration Manager](https://docs.microsoft.com/mem/configmgr/osd/deploy-use/manage-windows-as-a-service)
-- [Upgrade Windows to the latest version with Configuration Manager](https://docs.microsoft.com/mem/configmgr/osd/deploy-use/upgrade-windows-to-the-latest-version)
+- [Create a task sequence to upgrade an OS in Configuration Manager](/mem/configmgr/osd/deploy-use/create-a-task-sequence-to-upgrade-an-operating-system)
+- [Manage Windows-as-a-Service using Configuration Manager](/mem/configmgr/osd/deploy-use/manage-windows-as-a-service)
+- [Upgrade Windows to the latest version with Configuration Manager](/mem/configmgr/osd/deploy-use/upgrade-windows-to-the-latest-version)
