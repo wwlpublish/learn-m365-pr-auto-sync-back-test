@@ -12,7 +12,7 @@ Megan and her managers have identified a library of letters to begin building th
 
 Megan opens the HR Letters library, which contains documents of various types. Megan and her team want to identify which documents are letters notifying Contoso Electronics employees of benefit changes. Given the healthcare data contained in those letters, Contoso Electronics has an obligation to retain them for seven years. Yet, looking through the library, nothing distinguishes these sensitive notification documents from any other document. To know which letters must be retained and which are safe to delete, Megan must open each document.  
 
-:::image type="content" source="../media/hr-letters-library.png" alt-text="Screenshot of the Contoso Electronics HR Letters library and its contents lightbox="hr-letters-library.png"":::
+:::image type="content" source="../media/hr-letters-library.png" alt-text="Screenshot of the Contoso Electronics HR Letters library and its contents lightbox="hr-letters-library.png":::
 
 Human Resources would like to use a document understanding model to automatically identify which documents are benefit notification letters, and then classify them appropriately. First you'll help Megan define a document understanding model and then you'll show her how to create the model by following these steps.
 
