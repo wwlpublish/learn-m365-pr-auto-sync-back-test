@@ -144,7 +144,7 @@ In this unit, you will teach the Accounting department how to plan for and creat
 
 1. Select **"Save and close"** in the upper right-hand corner of the screen.
 
-    :::image type="content" source="../media/save-and-close.png" alt-text="A screenshot of AI builder after all documents have been analyzed with the 'Save and close' button highlighted.":::
+    :::image type="content" source="../media/save-and-close.png" alt-text="A screenshot of AI builder after all documents have been analyzed with the 'Save and close' button highlighted." lightbox="../media/save-and-close.png":::
 
 1. AI Builder saves the PO model.
 1. Click the model name to open the model for next steps.

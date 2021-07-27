@@ -20,7 +20,7 @@ You and Megan identified a group of seven documents to train the new model.
 1. Move to the next column in line: **Classify and run training**.
    1. Click **"Train classifier."**
 
-    :::image type="content" source="../media/train-classifier.png" alt-text="A screenshot of the models view page with the 'Classify files and run training' area highlighted.":::
+    :::image type="content" source="../media/train-classifier.png" alt-text="A screenshot of the models view page with the 'Classify files and run training' area highlighted." lightbox="../media/train-classifier.png":::
 
 1. The classifier training window opens with one of the training documents automatically selected and open.
    1. You need to mark which of the example files are _positive_ examples of benefit change letters.
