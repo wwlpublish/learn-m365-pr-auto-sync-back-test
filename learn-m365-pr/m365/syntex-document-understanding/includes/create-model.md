@@ -19,7 +19,7 @@ Human Resources would like to use a document understanding model to automaticall
 1. Start in the content center. This is the place for creating and training document understanding models, and then applying those models to document libraries.
 1. Select **"Models."**
 
-    :::image type="content" source="../media/hr-letters-library.png" alt-text="Screenshot of the Contoso Electronics HR Letters library and its contents.":::
+    :::image type="content" source="../media/content-center-models.png" alt-text="Screenshot of the Contoso Electronics HR Letters library and its contents.":::
 
 1. The **Create a Model** page opens.
    1. The **"Create a Model"** button appears.
