@@ -173,7 +173,7 @@ In this unit, you will teach the Accounting department how to plan for and creat
 1. The **Details page** opens with a banner across the top saying that your model hasn't been published and therefore, cannot be used in apps or flows.
    1. To publish your model, click **"Publish"** at the bottom of the Training document box.
 
-    :::image type="content" source="../media/model-not-published.png" alt-text="A screenshot of the 'Details page' with the statement "Your model isn't published yet. Publish it to use it in apps and flows", the model status, and the 'Publish' button highlighted.":::
+    :::image type="content" source="../media/model-not-published.png" alt-text="A screenshot of the 'Details page' with the statement 'Your model isn't published yet. Publish it to use it in apps and flows', the model status, and the 'Publish' button highlighted.":::
 
 1. When the model finishes publishing, the page refreshes.
    1. The status beneath the model name now reads **"Published."**
