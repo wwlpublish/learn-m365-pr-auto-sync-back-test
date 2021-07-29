@@ -24,9 +24,11 @@ To complete the exercise, you'll need the Azure credentials for:
    |Resource group     | Resource group you've created for Azure Virtual Desktop resources    |
    |Host pool name     |  wvd-host-pool-1      |
    |Location    | Region needs to be same location as your virtual network        |
+   |Validation environment|No|
    |Host pool type     |  Pooled  |
-   |Max session limit    |Maximum number of users you want load-balanced to a single session host|
    |Load balancing algorithm    | Breadth-first |
+   |Max session limit    |Maximum number of users you want load-balanced to a single session host|
+
 1. Select **Next: Virtual Machines**.
 
 ### Step 2: Virtual Machines
@@ -54,7 +56,7 @@ To complete the exercise, you'll need the Azure credentials for:
    |Network security group    | Basic       |
    |Public inbound ports     | No   |
    |Specific domain or unit     |Yes    |
-   |Domain to join| Add your full Active Directory domain name to join like adds-contosoorg.onmicrosoft.com. If you're using Azure Active Directory Domain Services (Azure AD DS), use the DNS domain name from the properties page.|
+   |Domain to join| Add your full Active Directory domain name to join like `adds-contosoorg.onmicrosoft.com`. If you're using Azure Active Directory Domain Services (Azure AD DS), use the DNS domain name from the properties page.|
    |AD domain join UPN     | User name for the user account that's assigned to the Active Directory Domain administrator role      |
    |Password    | Password for the Active Directory Domain administrator's account   |
    |Confirm password    | Confirm the password      |
