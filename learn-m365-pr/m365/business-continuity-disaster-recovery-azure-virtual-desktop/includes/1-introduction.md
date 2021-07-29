@@ -1,8 +1,8 @@
-Natural or human-made disasters can affect the continuity of an organization's cloud infrastructure at any time. Organizations must anticipate the possibility of disaster and then plan for recovery. Such a plan can help ensure that it's protected against data loss.
+Natural or human-made disasters can affect the continuity of an organization's cloud infrastructure at any time. Organizations must anticipate the possibility of disaster and then plan for recovery. Such a plan can help ensure protection against data loss.
 
 However, data loss isn't the only disaster for which IT professionals must plan. A comprehensive disaster-recovery plan also helps ensure business continuity. For example, a plan might involve redirecting requests or failing over to a secondary location when an application becomes unresponsive or a public cloud's entire region suffers an outage.
 
-Suppose you work for a financial organization that has offices across many different geo-locations, and the organization recognizes the need to prepare a plan for data replication and recovery should an outage occur in one of these offices. 
+Suppose you work for a financial organization that has offices in many different geo-locations, and it recognizes the need to prepare a plan for data replication and recovery should an outage occur in one of these offices. 
 
 Your role is to ensure that your Microsoft Azure infrastructure is configured correctly in the event of such an occurrence. Your main concern is your existing Azure Virtual Desktop environment, which the organization's employees, who mostly work remotely, use to access critical applications.
 
