@@ -16,13 +16,13 @@ An *availability set* in Azure is a logical grouping capability that you can use
 
 Update domains ensure that when VM hosts in an Azure datacenter require downtime for maintenance, a subset of your session hosts remain running. When a maintenance event occurs, such as applying a performance or a critical security update, Azure sequences the update through update domains.
 
-Fault domains (FDs) represent physical sections of the datacenter and ensure rack diversity of servers in an availability set. FDs align to the physical separation of shared hardware in the datacenter. If the hardware supporting a server rack becomes unavailable, only that rack of servers would be affected by the outage. When you place your VMs in an availability set, they're' automatically spread across multiple FDs. If the hardware fails, only some of your VMs will be affected.
+Fault domains (FDs) represent physical sections of the datacenter and ensure rack diversity of servers in an availability set. FDs align to the physical separation of shared hardware in the datacenter. If the hardware supporting a server rack becomes unavailable, only that rack of servers would be affected by the outage. When you place your VMs in an availability set, they're automatically spread across multiple FDs. If the hardware fails, only some of your VMs will be affected.
 
-You can use availability set as the default resiliency option for Azure Virtual Desktop host pool if you have domain controllers in an Azure VM.
+You can use availability set as the default resiliency option for the Azure Virtual Desktop host pool if you have domain controllers in an Azure VM.
 
 ## Availability zones
 
-*Availability zones* are independent physical datacenter locations within a region that have their own power, cooling, and networking. By taking availability zones into account when you're deploying resources, you can protect workloads from datacenter outages while maintaining a presence in a particular region. Services such as VMs are _zonal services_, and you can deploy them to specific zones within a region. Other services are _zone-redundant services_, which will replicate across the availability zones in the specific Azure region. Both types of zones ensure that an Azure region has no single points of failure.
+*Availability zones* are independent physical datacenter locations within a region that have their own power, cooling, and networking. By taking availability zones into account when you're deploying resources, you can protect workloads from datacenter outages while maintaining a presence in a particular region. Services such as VMs are _zonal services_, and you can deploy them to specific zones within a region. Other services are _zone-redundant services_, which replicate across the availability zones in the specific Azure region. Both types of zones ensure that an Azure region has no single points of failure.
 
 By using availability zones, you can distribute VMs in the host pool across various datacenters. VMs are still inside the same region, have higher resiliency, and have a higher formal 99.99 percent high-availability service-level agreement (SLA).
 
@@ -42,12 +42,12 @@ Site Recovery is also designed to replicate VM workloads from a primary site or 
 
 Site Recovery has customizable replication policies that you can use to define the retention history of recovery points and the frequency of snapshots. You create a recovery point from a snapshot of a VM's disk. Two types of snapshots are available:
 
-- **Crash-consistent recovery**: Represents the data on-disk at the time the snapshot is taken. The default for capturing snapshots is every five minutes.
-- **App-consistent recovery**: Captures the same data as crash-consistent recovery, and also includes all in-memory data and in-process transactions. Including the in-memory data enables Site Recovery to restore a VM and any running apps without any data loss. The default time for capturing snapshots is every 60 minutes.
+- **Crash-consistent recovery**: Represents the data that's on disk at the time the snapshot is taken. The default for capturing snapshots is every five minutes.
+- **App-consistent recovery**: Captures the same data as crash-consistent recovery, and it includes all in-memory data and in-process transactions. Including the in-memory data enables Site Recovery to help restore a VM and any running apps without data loss. The default time for capturing snapshots is every 60 minutes.
 
 ## Azure Backup
 
-Azure Backup is a built-in Azure service that provides secure backup for all Azure-managed data assets. It uses zero-infrastructure solutions to enable self-service backups and restores, with at-scale management at a lower and predictable cost. You can use Azure Backup to maintain copies of stateful data that allow you to retrieve previous data. You can configure Azure Backup for VMs and Azure Files shares that contain your FSLogix profiles or MSIX app attach.
+Azure Backup is a built-in Azure service that provides secure backup for all Azure-managed data assets. It uses zero-infrastructure solutions to enable self-service backups and restores, with at-scale management at a lower and more predictable cost. You can use Azure Backup to maintain copies of stateful data that allow you to retrieve previous data. You can configure Azure Backup for VMs and Azure Files shares that contain your FSLogix profiles or MSIX app attach.
 
 ## User data in OneDrive
 
