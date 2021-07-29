@@ -4,9 +4,8 @@ metadata:
   moduleType: standard
   title: Introduction to delivering virtual events using Microsoft Teams and Microsoft 365
   description: | 
-    Explore the features of Microsoft Teams and Microsoft 365 that support producing accessible and inclusive virtual events. <br><br>This module is a great start for anyone involved with organizing, 
+    Explore the features of Microsoft Teams and Microsoft 365 that support producing accessible and inclusive virtual events. <br>This module is a great start for anyone involved with organizing, 
     producing, presenting in, moderating, or attending virtual events. 
-        :::image type="content" source="../media/all-rolls.png" alt-text="Icons depicting all the different roles in virtual events. Organizer, Producer, Presenter, Moderator, and Attendee." border="false":::
   ms.date: 06/30/2021
   author: lizap
   ms.author: elizapo
@@ -16,11 +15,8 @@ title: Introduction to delivering virtual events using Microsoft Teams and Micro
 summary:  | 
     Explore the features of Microsoft Teams and Microsoft 365 that support producing accessible and inclusive virtual events. 
     
-    <br><br>This module is a great start for anyone involved with organizing, producing, presenting in, moderating, or attending virtual events.
-
-
-    :::image type="content" source="media/all-roles.png" alt-text="Icons depicting all the different roles in virtual events. Organizer, Producer, Presenter, Moderator, and Attendee." border="false":::
-    
+    This module is a great start for anyone involved with organizing, producing, presenting in, moderating, or attending virtual events.
+   
 abstract: | # user input: learning objectives (https://review.docs.microsoft.com/help/learn/id-guidance-learning-objectives?branch=master)
   By the end of this module, you'll be able to:
     - Describe the different virtual events supported by Microsoft 365
