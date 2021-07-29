@@ -15,21 +15,6 @@ summary: |
   
   This module has content for organizers, producers, presenters, and moderators.
 
-    :::row:::
-      :::column:::
-        :::image type="content" source="../m365-introduction-deliver-virtual-events-using-microsoft-teams/media/organizer-small.png" alt-text="Icon for the Organizer role." border="false":::
-      :::column-end:::
-      :::column:::
-        :::image type="content" source="../m365-introduction-deliver-virtual-events-using-microsoft-teams/media/producer-small.png" alt-text="Icon for the Producer role." border="false":::        
-      :::column-end:::
-      :::column:::
-        :::image type="content" source="../m365-introduction-deliver-virtual-events-using-microsoft-teams/media/presenter-small.png" alt-text="Icon for the Presenter role." border="false":::        
-      :::column-end:::
-      :::column:::
-        :::image type="content" source="../m365-introduction-deliver-virtual-events-using-microsoft-teams/media/moderator-small.png" alt-text="Icon for the Moderator role." border="false":::        
-      :::column-end:::      
-    :::row-end:::
-
 abstract: | 
   By the end of this module, you should be able to:
 
