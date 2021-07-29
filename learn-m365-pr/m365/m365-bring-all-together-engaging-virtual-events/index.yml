@@ -14,20 +14,6 @@ summary:  |
     Learn best practices for producing, presenting, moderating, and attending a virtual event in Microsoft Teams or Microsoft 365. 
 
     This module has content for presenters, moderators, and attendees.
-    :::row:::
-      :::column:::
-        :::image type="content" source="../m365-introduction-deliver-virtual-events-using-microsoft-teams/media/producer-small.png" alt-text="Icon depicting the Producer role." border="false":::
-      :::column-end:::
-      :::column:::
-        :::image type="content" source="../m365-introduction-deliver-virtual-events-using-microsoft-teams/media/presenter-small.png" alt-text="Icon for the Presenter role." border="false":::
-      :::column-end:::
-      :::column:::
-        :::image type="content" source="../m365-introduction-deliver-virtual-events-using-microsoft-teams/media/moderator-small.png" alt-text="Icon for the Moderator role." border="false":::        
-      :::column-end:::
-      :::column:::
-        :::image type="content" source="../m365-introduction-deliver-virtual-events-using-microsoft-teams/media/attendee-small.png" alt-text="Icon for the Attendee role." border="false":::        
-      :::column-end:::
-    :::row-end:::
 abstract: |
   By the end of this module, you'll be able to:
     - Produce a meeting or live event in Teams.
