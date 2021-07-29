@@ -16,12 +16,12 @@ quiz:
  
   - content: "Your organization is preparing a BCDR strategy for an Azure Virtual Desktop environment. You want to configure your host pool to fail over to another region in case of a major outage in the region that you operate. What service should you include in the BCDR plan?"
     choices:
-    - content: "Use ExpressRoute to establish connectivity with the virtual network used by Azure Virtual Desktop."
+    - content: "Use ExpressRoute to establish connectivity with the virtual network that's used by Azure Virtual Desktop."
       isCorrect: false
       explanation: "If the region outage occurs, ExpressRoute won't fail over the host pool to another region."
     - content: "Azure Backup."
       isCorrect: false
-      explanation: "Although you should include Azure Backup in the BCDR, it's primarily to protect VMs and Azure Files shares that contain your FSLogix profiles or MSIX app. For host pools, Microsoft recommends Azure Site Recovery."
+      explanation: "Although you should include Azure Backup in the BCDR plan, it's primarily to protect VMs and Azure Files shares that contain your FSLogix profiles or MSIX app. For host pools, Microsoft recommends Azure Site Recovery."
     - content: "Azure Site Recovery."
       isCorrect: true
       explanation: "Azure Site Recovery manages VM replications to other Azure regions. If you use Azure Site Recovery, you won't need to register these VMs manually. Instead, the Azure Virtual Desktop agent in the secondary VM will automatically use the latest security token to connect to the service instance closest to it."
@@ -30,7 +30,7 @@ quiz:
     choices:
     - content: "Implement two domain controllers in the North Europe region."
       isCorrect: true
-      explanation: "Implementing additional domain controllers in North Europe region can be included in BCDR for Azure Virtual Desktop in case of a region failure. This will ensure the availability of authentication services in a region failure scenario."
+      explanation: "Implementing additional domain controllers in the North Europe region can be included in the BCDR plan for Azure Virtual Desktop in case of a region failure. This will ensure the availability of authentication services in a region failure scenario."
     - content: "Create a site-to-site VPN with your on-premises network."
       isCorrect: false
       explanation: "A site-to-site VPN will provide a connection to the on-premises network but won't protect your domain controllers in case of a region failure."
