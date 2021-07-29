@@ -1,4 +1,4 @@
-Azure Virtual Desktop deployments consist of multiple components. When you configure business continuity and disaster recovery (BCDR) for Azure Virtual Desktop, it's important to consider each component individually.
+Azure Virtual Desktop deployments consist of multiple components. As you're configuring business continuity and disaster recovery (BCDR) for Azure Virtual Desktop, it's important to consider each component individually.
 
 ## Azure Virtual Desktop services
 
@@ -20,11 +20,11 @@ Microsoft manages the Azure Virtual Desktop services that are described in the f
 | Web client | Web client lets you access your Azure Virtual Desktop resources from a web browser without the lengthy installation process. |
 | | |
 
-Azure Virtual Desktop core infrastructure services are fully managed by Microsoft. If there's a regional outage, you don't need to take any extra steps to keep this service operating. Any unplanned failure will initiate component failover to multiple locations. This helps ensure that both the tenant environment and hosts remain accessible.
+Azure Virtual Desktop core infrastructure services are fully managed by Microsoft. If there's a regional outage, you don't need to take any extra steps to keep this service operating. Any unplanned failure will initiate component failover to multiple locations. This helps ensure that both the tenant environment and the hosts remain accessible.
 
 ## Azure AD
 
-You will use Azure Active Directory (Azure AD) for identity and access management in Azure Virtual Desktop. This includes access to remote sessions, administration elements, and user setup. Azure Virtual Desktop uses Azure AD to authenticate any operation that interacts with services that are running in Azure. This includes apps and websites that users use to determine available resources.
+You'll use Azure Active Directory (Azure AD) for identity and access management in Azure Virtual Desktop. This includes access to remote sessions, administration elements, and user setup. Azure Virtual Desktop uses Azure AD to authenticate any operation that interacts with services that are running in Azure. This includes apps and websites that users use to determine available resources.
 
 ## AD DS
 Azure Virtual Desktop VMs must domain-join an Active Directory Domain Services (AD DS) service, and the service must be in sync with Azure AD to associate users between the two services. You can use Azure AD Connect to integrate AD DS with Azure AD. You can deploy Azure Virtual Desktop with identities from a cloud-only organization or in an environment with hybrid identities. 
@@ -53,7 +53,7 @@ When you configure session hosts with application groups, you have your choice o
 - Windows Server 2019.
 - Your own custom images stored in your own Azure storage account or the Shared Image Gallery.
 
-Master images don't directly affect a user's ability to connect to a session-host VM. However, they're critically important when you're setting up new session host capacity. So, when you create hosts, you must back them up and ensure that they're available. You need to make sure that the master image is available in the secondary region. We recommend that you configure your custom images to use the Shared Image Gallery. Doing so lets you share your custom VM images across regions. 
+Master images don't directly affect a user's ability to connect to a session-host VM. However, they're critically important when you're setting up new session host capacity. So, when you create hosts, you must back them up and ensure that they're available. You need to make sure that the master image is available in the secondary region. We recommend that you configure your custom images to use Shared Image Gallery. Doing so lets you share your custom VM images across regions. 
 
 ## FSLogix
 
@@ -63,4 +63,4 @@ FSLogix profiles are critical to Azure Virtual Desktop environments. They must b
 
 ## MSIX app attach
 
-MSIX app attach stores application files as MSIX images (VHD/VHDX/CIM), separate from the operating system. When you open MSIX app attach, the application files are accessed from a VHD. Just as you would handle FSLogix profiles, you should consider replicating MSIX app attach in another region.
+*MSIX app attach* stores application files as MSIX images (VHD/VHDX/CIM), separate from the operating system. When you open MSIX app attach, the application files are accessed from a VHD. Just as you would handle FSLogix profiles, you should consider replicating MSIX app attach in another region.
