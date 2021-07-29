@@ -8,7 +8,7 @@ The disaster-recovery process requires coordination between each of the procedur
 - **Recovery time objective (RTO)**: The maximum window of time allowable for a restoration process to take place, which can also be considered a measure of how much downtime the organization is willing to afford.
 - **Retention period**: The maximum allowed period of time for a backup set to be retained before it needs to be refreshed and replaced.
 
-RPO and RTO might be perceived as being balanced against one another, so that a customer might decide to allow for longer recovery times to attain higher recovery points. If recovery time is an issue for a customer because of available bandwidth or the risk of downtime, the customer might be unable to achieve a high RPO.
+RPO and RTO might be perceived as being balanced against each other, so that a customer might decide to allow for longer recovery times to attain higher recovery points. If recovery time is an issue for a customer because of available bandwidth or the risk of downtime, the customer might be unable to achieve a high RPO.
 
 The rest of the unit explores three different failure scenarios and how to prepare business continuity and disaster recovery (BCDR) for Azure Virtual Desktop:
  - Scenario 1: Local corruption of data, metadata, or resources
@@ -16,7 +16,7 @@ The rest of the unit explores three different failure scenarios and how to prepa
  - Scenario 3: Azure region outage
 
 >[!Note]
-> To learn more about how to protect individual components of Azure Virtual Desktop, see the "Learn more" section in the "Summary" unit of this module.
+> To learn more about how to protect individual components of Azure Virtual Desktop, see the "Learn more" section in this module's Summary unit.
 
 ## Scenario 1: Local corruption of data, metadata, or resources
 
