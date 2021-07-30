@@ -90,7 +90,7 @@ To bypass that step and simplify the process for your users, set up email discov
 |Property  |Value  |
 |---------|---------|
 |Host     | _msradc      |
-|Text     | https://rdweb.wvd.microsoft.com/api/arm/feeddiscovery/webfeeddiscovery.aspx    |
+|Text     | `https://rdweb.wvd.microsoft.com/api/arm/feeddiscovery/webfeeddiscovery.aspx`    |
 |TTL     | 300    |
 
 In the following units, you'll learn how to connect to a workspace by using both a web and desktop client.
