@@ -4,7 +4,7 @@ title: Introduction to setting up Azure Migrate for server migration
 metadata:
   title: Introduction to setting up Azure Migrate for server migration
   description: Learn how to check your prerequisite configurations in Azure and in your VMware vSphere environment and then perform the initial steps in Azure Migrate to choose your assessment and migration tools. 
-  ms.date: 05/24/2021
+  ms.date: 07/06/2021
   author: ericweisberg
   ms.author: beccarobins
   ms.topic: interactive-tutorial

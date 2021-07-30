@@ -3,7 +3,7 @@ uid: learn-m365.m365-messaging-migration
 metadata:
   title: Plan and implement migration to Exchange Online
   description: Plan a migration from Exchange Server on-premises and other email systems to Microsoft 365 in the cloud. 
-  ms.date: 05/13/2020
+  ms.date: 07/21/2021
   author: AlexandraHrt
   ms.author: v-aleha
   ms.topic: interactive-tutorial
