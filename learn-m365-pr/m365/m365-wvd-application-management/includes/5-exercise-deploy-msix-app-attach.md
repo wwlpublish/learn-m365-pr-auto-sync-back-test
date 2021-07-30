@@ -29,7 +29,7 @@ In this exercise, you'll add and test MSIX app attach.
     |**Registration type**|Select **On-demand**.|
     |**State**|Select **Active**.|
 
-    :::image type="content" source="../media/04-screenshot-of-add-msix-package.png" alt-text="Screenshot of selections for adding an M S I X package." border="true":::
+    :::image type="content" source="../media/04-screenshot-of-add-msix-package.png" alt-text="Screenshot of selections for adding an M S I X package to a host pool." border="true":::
 
 8. Select **Add** to add the MSIX image to the host pool.
 
@@ -39,7 +39,9 @@ In this exercise, you'll add and test MSIX app attach.
 2. On the **Azure Virtual Desktop | Application groups** page, select the desired application group.
 3. On the application group page, on the left menu, select **Applications** under the **Manage** section.
 4. On the **_your application group_ | Applications** page from the toolbar, select **+ Add**.
-5. In the **Add application** window, provide the following information:
+
+    :::image type="content" source="../media/05-add-application.png" alt-text="Screenshot of application page in a remote app application group.":::
+1. In the **Add application** window, provide the following information:
 
     |||
     | --- | --- |
@@ -110,6 +112,6 @@ In this exercise, you'll add and test MSIX app attach.
 
 4. After you remotely access the virtual machine, open the **Start** menu and notice the shortcut of the published app.
 
-   :::image type="content" source="../media/05-screenshot-of-edge-dev.png" alt-text="Screenshot of published M S I X app attach." border="true":::
+   :::image type="content" source="../media/05-screenshot-of-edge-dev.png" alt-text="Screenshot of published M S I X app attach in the virtual desktop experience." border="true":::
 
 5. Close the Remote Desktop session.
