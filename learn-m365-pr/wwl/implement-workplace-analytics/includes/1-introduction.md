@@ -1,5 +1,5 @@
 >[!Note]
->The Workplace Analytics web app is being rebranded to Viva Insights in the next few months. As mentioned in this module, Workplace Analytics refers to the web app with advanced analysis tools and accelerators available to those who are assigned the Analyst, Limited Analyst, or Admin role.
+>The Workplace Analytics web app is being rebranded to **Viva Insights** in the next few months. As mentioned in this module, Workplace Analytics refers to the web app with advanced analysis tools and accelerators available to those who are assigned the Analyst, Limited Analyst, or Admin role.
 
 This module examines Workplace Analytics, which provides powerful organizational analytics solutions. Workplace Analytics is generally available as an add-on to any Microsoft 365 enterprise plan.
 

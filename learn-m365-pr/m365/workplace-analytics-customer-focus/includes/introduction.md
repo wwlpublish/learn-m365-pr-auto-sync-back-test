@@ -1,5 +1,5 @@
 >[!Note]
->The Workplace Analytics web app is being rebranded to Viva Insights in the next few months. As mentioned in this module, Workplace Analytics refers to the web app with advanced analysis tools and accelerators available to those who are assigned the Analyst, Limited Analyst, or Admin role.
+>The Workplace Analytics web app is being rebranded to **Viva Insights** in the next few months. As mentioned in this module, Workplace Analytics refers to the web app with advanced analysis tools and accelerators available to those who are assigned the Analyst, Limited Analyst, or Admin role.
 
 The success of any business can largely be attributed to the attention it gives to customers, partners, and other external parties. In today's world, customer expectations are constantly evolving and growing. Taking the time to understand customer needs, improve products, and foster long-term relationships is more important than ever. With Workplace Analytics, you can gain insights into collaboration related to customer focus and uncover specific patterns that can lead to improved customer focus and sales success.
 

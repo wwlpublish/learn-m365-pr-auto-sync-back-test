@@ -1,5 +1,5 @@
 >[!Note]
->The Workplace Analytics web app is being rebranded to Viva Insights in the next few months. As mentioned in this module, Workplace Analytics refers to the web app with advanced analysis tools and accelerators available to those who are assigned the Analyst, Limited Analyst, or Admin role.
+>The Workplace Analytics web app is being rebranded to **Viva Insights** in the next few months. As mentioned in this module, Workplace Analytics refers to the web app with advanced analysis tools and accelerators available to those who are assigned the Analyst, Limited Analyst, or Admin role.
 
 Using Workplace Analytics and Power BI to generate insights about your employees' work behaviors is only one part of the behavior change equation. The other is knowing the tools and tactics to use to implement change.
 
