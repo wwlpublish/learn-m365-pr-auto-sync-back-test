@@ -1,6 +1,3 @@
->[!Note]
->The Workplace Analytics web app is being rebranded to Viva Insights in the next few months. As mentioned in this module, Workplace Analytics refers to the web app with advanced analysis tools and accelerators available to those who are assigned the Analyst, Limited Analyst, or Admin role.
-
 The Workplace Analytics Business continuity dashboard uses a Power Business Intelligence (BI) template that's populated with Workplace Analytics data. You use this behavioral data to get insights into how your organization and employees are being impacted by the shift to remote work. This dashboard directionally highlights where the shift to remote work might have the biggest impacts, and offers a measurable starting point for helping you understand where you might use tools and processes to support and sustain new ways of working.
 
 The dashboard lets you visualize and explore these top-level business questions:
