@@ -11,7 +11,7 @@ For this module, you'll need an application with the following settings:
 - **Name**: My app
 - **Platform**: Single Page Application (SPA)
 - **Supported account types**: Accounts in any organizational directory (Any Azure AD directory - Multitenant) and personal Microsoft accounts (e.g. Skype, Xbox)
-- **Redirect URIs**: http://localhost:3000
+- **Redirect URIs**: https://localhost:3000
 
 To create this application, follow these steps:
 
@@ -101,7 +101,7 @@ The final version of **index.html** will look like this example:
     - **macOS**: Cmd+Shift+P
 
    Run Live Server to test your app.
-1. Open your browser, and go to http://localhost:3000.
+1. Open your browser, and go to https://localhost:3000.
 1. Sign in with your Microsoft 365 developer account. Consent to the required permissions, and select **Accept**.
 1. Finally, the signed-in button's content shows the user's email address after signing in.
 

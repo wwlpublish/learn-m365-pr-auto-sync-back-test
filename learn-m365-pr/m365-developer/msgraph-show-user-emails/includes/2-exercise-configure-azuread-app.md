@@ -6,7 +6,7 @@ Setting|Value
 -------|-----
 Name|My app
 Platform|Single-page application
-Redirect URIs|`http://localhost:8080`
+Redirect URIs|`https://localhost:8080`
 Supported account types|Accounts in this organizational directory only (single tenant)
 API permissions|Microsoft Graph `User.Read` (delegated)
 

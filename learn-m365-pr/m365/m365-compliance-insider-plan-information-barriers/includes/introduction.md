@@ -2,7 +2,7 @@
 
 Information barriers in Microsoft 365 are policies that a compliance administrator or information barriers administrator can configure to prevent individuals or groups from communicating with each other. In general, they are useful when one department is handling information that should not be shared with other departments or a group needs to be prevented, or isolated, from communicating with anyone outside of that group.
 
-The primary driver for information barriers comes from the financial services industry. The Financial Industry Regulatory Authority (FINRA) reviews conflicts of interest within member firms and provides guidance as to how to manage such conflicts (FINRA 2241, [Debt Research Regulatory Notice 15-31](http://www.finra.org/sites/default/files/Regulatory-Notice-15-31_0.pdf?azure-portal=true)); for instance, to avoid insider trading between different department users in the organization.
+The primary driver for information barriers comes from the financial services industry. The Financial Industry Regulatory Authority (FINRA) reviews conflicts of interest within member firms and provides guidance as to how to manage such conflicts (FINRA 2241, [Debt Research Regulatory Notice 15-31](https://www.finra.org/sites/default/files/Regulatory-Notice-15-31_0.pdf?azure-portal=true)); for instance, to avoid insider trading between different department users in the organization.
 
 However, since introducing information barriers, many other areas have found them to be useful. Other common scenarios include:
 

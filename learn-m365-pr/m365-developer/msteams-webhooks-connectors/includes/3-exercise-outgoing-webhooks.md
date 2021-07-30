@@ -102,7 +102,7 @@ Create a new file **planets.json** in the **./src/server/teamsWebhooksOutgoingWe
     "numSatellites": 0,
     "wikiLink": "https://en.wikipedia.org/wiki/Venus",
     "imageLink": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Venus-real_color.jpg",
-    "imageAlt": "&quot;Image processing by R. Nunes&quot;, link to http://www.astrosurf.com/nunes [Public domain]"
+    "imageAlt": "&quot;Image processing by R. Nunes&quot;, link to https://www.astrosurf.com/nunes [Public domain]"
   },
   {
     "id": "3",
@@ -177,7 +177,7 @@ Next, create a new file **planetDisplayCard.json** in the **./src/server/teamsWe
 
 ```json
 {
-  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "$schema": "https://adaptivecards.io/schemas/adaptive-card.json",
   "type": "AdaptiveCard",
   "version": "1.0",
   "body": [

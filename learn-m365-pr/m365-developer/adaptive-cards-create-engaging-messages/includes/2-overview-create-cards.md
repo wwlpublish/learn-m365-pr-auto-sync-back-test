@@ -82,7 +82,7 @@ The basic structure of a card is as follows:
     },
     {
       "type": "Image",
-      "url": "http://adaptivecards.io/content/cats/1.png"
+      "url": "https://adaptivecards.io/content/cats/1.png"
     }
   ]
 }

@@ -281,7 +281,7 @@ On the **Authentication** page, select **Add a platform**. When the **Configure 
 
 ![Screenshot of the Configure platforms panel](../media/03-azure-ad-portal-new-app-details-02.png)
 
-In the **Configure single-page application** panel, add **http://localhost:3007** under **Redirect URIs**, and select **Configure**.
+In the **Configure single-page application** panel, add **https://localhost:3007** under **Redirect URIs**, and select **Configure**.
 
 ![Screenshot of the Configure Web panel](../media/03-azure-ad-portal-new-app-details-03.png)
 
@@ -293,7 +293,7 @@ Locate the `var msalConfig = {}` code in the **index.html** file. The `auth` obj
 
 - `clientId`: set to the Azure AD application's ID
 - `authority`: set to **https://login.microsoftonline.com/{{DIRECTORY_ID}}**, replacing the **{{DIRECTORY_ID}}** with the Azure AD directory ID of the Azure AD application
-- `redirectURI`: set to the Azure AD application's redirect URI: **http://localhost:3007**
+- `redirectURI`: set to the Azure AD application's redirect URI: **https://localhost:3007**
 
 ## Test the web application
 
@@ -303,7 +303,7 @@ To test the web page, first start the local web server. In the command prompt, e
 node server.js
 ```
 
-Next, open a browser and navigate to http://localhost:3007. The page initially contains a default welcome message and sign-in button.
+Next, open a browser and navigate to https://localhost:3007. The page initially contains a default welcome message and sign-in button.
 
 ![Screenshot of the default web page for an anonymous user](../media/03-test-01.png)
 

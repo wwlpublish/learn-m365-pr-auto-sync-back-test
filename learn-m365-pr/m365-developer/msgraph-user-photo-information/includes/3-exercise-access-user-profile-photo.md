@@ -92,7 +92,7 @@ Now that you've added the extra functions and code snippets to get the photo for
 Test the application by running it locally.
 
 1. In the terminal window, go to the project folder where the source code is located.
-1. Run the following script on the command line. The script will start your app locally and open [http://localhost:8080](http://localhost:8080) in the browser.
+1. Run the following script on the command line. The script will start your app locally and open [https://localhost:8080](https://localhost:8080) in the browser.
 
     ```powershell
     npm start

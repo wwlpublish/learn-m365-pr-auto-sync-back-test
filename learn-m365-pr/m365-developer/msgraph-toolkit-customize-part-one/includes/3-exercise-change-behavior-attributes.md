@@ -11,7 +11,7 @@ For this module, you'll need an application with the following settings:
 - **Name**: My app
 - **Platform**: Single Page Application (SPA)
 - **Supported account types**: Accounts in any organizational directory (Any Azure AD directory - Multitenant) and personal Microsoft accounts (e.g. Skype, Xbox)
-- **Redirect URIs**: http://localhost:3000
+- **Redirect URIs**: https://localhost:3000
 
 To create this application, follow these steps:
 
@@ -94,7 +94,7 @@ Add these attributes to the existing **mgt-agenda** component in **index.html**.
     - **macOS**: Cmd+Shift+P
 
    Run Live Server to test your app.
-1. Open your browser, and go to http://localhost:3000.
+1. Open your browser, and go to https://localhost:3000.
 1. Sign in with your Microsoft 365 developer account. Consent to the required permissions, and select **Accept**.
 1. The next three days of calendar events will be displayed and grouped by day, starting from March 9, 2021.
 

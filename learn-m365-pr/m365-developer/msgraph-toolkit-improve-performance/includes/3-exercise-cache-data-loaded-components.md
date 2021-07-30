@@ -11,7 +11,7 @@ For this module, you'll need an application with the following settings:
 - **Name:** My app
 - **Platform:** Single Page Application (SPA)
 - **Supported account types:** Accounts in any organizational directory (Any Azure AD directory - Multitenant) and personal Microsoft accounts (for example, Skype, Xbox)
-- **Redirect URIs:** `http://localhost:3000`
+- **Redirect URIs:** `https://localhost:3000`
 
 You can create this application by following these steps:
 
@@ -69,7 +69,7 @@ First, let’s look at how Microsoft Graph Toolkit components cache data by defa
     ```
 
 1. Open the command palette by pressing Ctrl+Shift+P on Windows, or Command+Shift+P on macOS. From the command palette, select **Live Server: Open with Live Server** to test your app.
-1. In the web browser, go to `http://localhost:3000`.
+1. In the web browser, go to `https://localhost:3000`.
 1. Select the **Sign in** button, and sign in with your Microsoft 365 developer account. Consent to the required permissions and select **Accept**. You should see a list of people.
 
     :::image type="content" source="../media/3-mgt-people.png" alt-text="Screenshot of the People component, showing information about people.":::

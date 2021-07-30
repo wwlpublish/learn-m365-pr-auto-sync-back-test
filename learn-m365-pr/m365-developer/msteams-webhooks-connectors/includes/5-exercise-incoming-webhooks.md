@@ -51,7 +51,7 @@ Using the free tool [Postman](https://www.postman.com/), create a new request to
     ```json
     {
       "@type": "MessageCard",
-      "@context": "http://schema.org/extensions",
+      "@context": "https://schema.org/extensions",
       "summary": "Dwarf planet Pluto details",
       "sections": [{
         "activityTitle": "Dwarf planet Pluto details",
@@ -84,7 +84,7 @@ Using the free tool [Postman](https://www.postman.com/), create a new request to
         ]
       }],
       "potentialAction": [{
-        "@context": "http://schema.org",
+        "@context": "https://schema.org",
         "@type": "ViewAction",
         "name": "Learn more on Wikipedia",
         "target": ["https://en.wikipedia.org/wiki/Pluto"]

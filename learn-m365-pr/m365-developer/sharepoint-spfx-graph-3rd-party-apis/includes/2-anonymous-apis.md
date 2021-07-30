@@ -45,7 +45,7 @@ The `get()` and `post()` methods return a JavaScript promise with the response a
 
 ```typescript
 return this.context.httpClient.get(
-  `http://[rest-endpoint]`,
+  `https://[rest-endpoint]`,
   HttpClient.configurations.v1
 )
 .then((response: HttpClientResponse) => {

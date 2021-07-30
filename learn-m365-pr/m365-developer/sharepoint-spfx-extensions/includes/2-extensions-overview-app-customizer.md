@@ -105,7 +105,7 @@ The public properties can be set on the extension enabling administrators to app
 The presence of a specific file in the project enables an extension tenant wide deployment. When the **ClientSideInstances.xml** file is detected during deployment to the tenant's App Catalog, an entry is added to a special SharePoint list. The values within the XML file are used to add an entry to the list that contains all extensions that are deployed to the tenant:
 
 ```xml
-<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+<Elements xmlns="https://schemas.microsoft.com/sharepoint/">
     <ClientSideComponentInstance
         Title="HelloAppCustomizer"
         Location="ClientSideExtension.ApplicationCustomizer"

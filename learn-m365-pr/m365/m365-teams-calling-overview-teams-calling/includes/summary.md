@@ -17,7 +17,7 @@ Now that you've completed this module, you should be able to:
 - [Telephony Solution poster](/microsoftteams/teams-architecture-solutions-posters#microsoft-telephony-solutions)
 - [What is Phone System?](/microsoftteams/what-is-phone-system-in-office-365)
 - [Phone System Features](/microsoftteams/here-s-what-you-get-with-phone-system)
-- [Direct Routing (video)](http://youtube.com/watch?v=1ASftX_Msb8&index=10&list=PLaSOUojkSiGnKuE30ckcjnDVkMNqDv0Vl)
+- [Direct Routing (video)](https://youtube.com/watch?v=1ASftX_Msb8&index=10&list=PLaSOUojkSiGnKuE30ckcjnDVkMNqDv0Vl)
 - [Direct Routing with Microsoft Teams](/microsoftteams/direct-routing-landing-page)
 - [Deploying Phone System/Calling Plans](/microsoftteams/cloud-voice-landing-page#phone-system)
 - [Teams architecture with calling](/microsoftteams/teams-for-vdi#teams-on-vdi-with-calling-and-meetings)

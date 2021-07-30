@@ -129,8 +129,8 @@ namespace Constants
 
   public static class ClaimIds
   {
-    public const string UserObjectId = "http://schemas.microsoft.com/identity/claims/objectidentifier";
-    public const string TenantId = "http://schemas.microsoft.com/identity/claims/tenantid";
+    public const string UserObjectId = "https://schemas.microsoft.com/identity/claims/objectidentifier";
+    public const string TenantId = "https://schemas.microsoft.com/identity/claims/tenantid";
   }
 }
 ```

@@ -75,7 +75,7 @@ To run and test the application, you'll need to add some calendar events into yo
 It's time to see your application run locally.
 
 1. In the terminal window, go to the project folder where the source code is located.
-1. Run the following script in the command line to start your app locally by opening [http://localhost:8080](http://localhost:8080) in the browser.
+1. Run the following script in the command line to start your app locally by opening [https://localhost:8080](https://localhost:8080) in the browser.
 
     ```powershell
     npm start

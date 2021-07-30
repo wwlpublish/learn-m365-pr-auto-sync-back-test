@@ -66,7 +66,7 @@ From the command line, go to the root folder for the project and run the followi
 gulp ngrok-serve
 ```
 
-This gulp task runs many other tasks all displayed within the command-line console. The ngrok-serve task builds your project and starts a local web server (http://localhost:3007). It then starts ngrok with a random subdomain that creates a secure URL to your local web server.
+This gulp task runs many other tasks all displayed within the command-line console. The ngrok-serve task builds your project and starts a local web server (https://localhost:3007). It then starts ngrok with a random subdomain that creates a secure URL to your local web server.
 
 > [!NOTE]
 > Microsoft Teams requires all content displayed within a tab to be loaded from an HTTPS request. In development, this can be done by using the tool [ngrok](https://www.ngrok.com) that creates a secure rotatable URL to your local HTTP web server. Ngrok is included as a dependency within the project, so there's nothing to set up or configure.

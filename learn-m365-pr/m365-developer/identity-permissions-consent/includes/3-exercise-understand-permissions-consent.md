@@ -10,7 +10,7 @@ In this exercise, you’ll learn about the different types of permissions suppor
 > [!NOTE]
 > The instructions below assume you are using v2.14.2 of the Microsoft Authentication Library for JavaScript 2.0.
 
-In this first section, you'll create a web application to host a web page that will host the single page application. To do this, you'll create a Node.js web server to serve the HTML page from a web server running on your workstation as http://localhost:3007.
+In this first section, you'll create a web application to host a web page that will host the single page application. To do this, you'll create a Node.js web server to serve the HTML page from a web server running on your workstation as https://localhost:3007.
 
 Open your command prompt, navigate to a directory where you want to save your work, create a new folder, and change directory into that folder.
 
@@ -94,7 +94,7 @@ Create a new folder **web** in the current folder and add a new file **index.htm
       auth: {
         clientId: '',
         authority: '',
-        redirectURI: 'http://localhost:3007'
+        redirectURI: 'https://localhost:3007'
       },
       cache: {
         cacheLocation: "localStorage",
@@ -287,7 +287,7 @@ On the **Authentication** page, select **Add a platform**. When the **Configure 
 
 ![Screenshot of the Configure platforms panel](../media/03-azure-ad-portal-new-app-details-02.png)
 
-In the **Configure single-page application** panel, add **http://localhost:3007** under **Redirect URIs**, and select **Configure**.
+In the **Configure single-page application** panel, add **https://localhost:3007** under **Redirect URIs**, and select **Configure**.
 
 ![Screenshot of the Configure Web panel](../media/03-azure-ad-portal-new-app-details-03.png)
 
@@ -313,7 +313,7 @@ Locate the `var msalConfig = {}` code in the **index.html** file. The `auth` obj
 
 - `clientId`: set to the Azure AD application's ID
 - `authority`: set to **https://login.microsoftonline.com/{{DIRECTORY_ID}}**, replacing the **{{DIRECTORY_ID}}** with the Azure AD directory ID of the Azure AD application
-- `redirectURI`: set to the Azure AD application's redirect URI: **http://localhost:3007**
+- `redirectURI`: set to the Azure AD application's redirect URI: **https://localhost:3007**
 
 ## Test the web application
 
@@ -323,7 +323,7 @@ To test the web page, first start the local web server. In the command prompt, e
 node server.js
 ```
 
-Next, open a browser where you are not signed-in to Office 365 and navigate to **http://localhost:3007**. The page initially contains a default welcome message and sign-in button.
+Next, open a browser where you are not signed-in to Office 365 and navigate to **https://localhost:3007**. The page initially contains a default welcome message and sign-in button.
 
 ![Screenshot of the default web page for an anonymous user](../media/03-test-01.png)
 
@@ -345,7 +345,7 @@ In this scenario, each user will need to grant the application permission before
 
 Close the browser and open a new instance so that you can sign in again.
 
-Navigate to **http://localhost:3007** again and select the **Sign In** button. This time, sign in with a user *who is assigned* the global administrator role. Notice the difference in the consent dialog:
+Navigate to **https://localhost:3007** again and select the **Sign In** button. This time, sign in with a user *who is assigned* the global administrator role. Notice the difference in the consent dialog:
 
 ![Screenshot of Azure AD popup sign-in experience for user 'admin'](../media/03-test-03.png)
 
@@ -371,7 +371,7 @@ You can also provide organization administrators a specific link that will take 
 
 In a new browser window, navigate to the following URL. Make sure you replace the `{{APPLICATION_ID}}` with the ID of the Azure AD application you created
 
-`https://login.microsoftonline.com/common/adminconsent?client_id={{APPLICATION_ID}}&state=12345&redirect_uri=http://localhost:3007`
+`https://login.microsoftonline.com/common/adminconsent?client_id={{APPLICATION_ID}}&state=12345&redirect_uri=https://localhost:3007`
 
 ![Screenshot of the admin consent dialog](../media/03-test-07.png)
 

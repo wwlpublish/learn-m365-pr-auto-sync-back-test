@@ -80,9 +80,9 @@ Now we will look at how Megan can create an extractor to pull out the informatio
    1. Select **"Blank."**
    1. Name the new explanation. In this case, you pick _"Text after"_ since this name is only for the model and your reference.
    1. Select **"Phrase List."**
-   1. Copy the phrase after the insurance provider name _"(http://"_ and paste it into the **Phrase List** text box.
+   1. Copy the phrase after the insurance provider name _"(https://"_ and paste it into the **Phrase List** text box.
 
-    :::image type="content" source="../media/second-explanation-for-extractor.png" alt-text="A screenshot of the classifier window with the create an explanation dialog box open and the explanation, 'http://', in the phrase list highlighted." lightbox="../media/second-explanation-for-extractor.png":::
+    :::image type="content" source="../media/second-explanation-for-extractor.png" alt-text="A screenshot of the classifier window with the create an explanation dialog box open and the explanation, 'https://', in the phrase list highlighted." lightbox="../media/second-explanation-for-extractor.png":::
 
 1. Click **"Save and train"** again.
    - The model will evaluate the training files again – this time with both explanations helping it identify  both the beginning and the ending of the target insurance provider names to be extracted.

@@ -84,10 +84,10 @@ Let's now look at the lifecycle of an Outlook Actionable Message.
 Action processing requires a publicly reachable endpoint that is pre-registered using the **Actionable Email Developer Dashboard** (https://aka.ms/publishoam).
 
 > [!IMPORTANT]
-> You can't use http://localhost as a URL because that is unreachable from Office 365.
+> You can't use https://localhost as a URL because that is unreachable from Office 365.
 
 > [!TIP]
-> Use the free tool ngrok (https://ngrok.io) to create a public HTTPS endpoint proxy that maps to http://localhost on your development environment.
+> Use the free tool ngrok (https://ngrok.io) to create a public HTTPS endpoint proxy that maps to https://localhost on your development environment.
 
 1. A user receives an email with an actionable message embedded in the `<script>` element.
 1. The user interacts with the message action defined in the card such as `Action.HTTP` that sends a POST request to an API.

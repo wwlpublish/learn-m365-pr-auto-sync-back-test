@@ -235,7 +235,7 @@ Using the free tool [Postman](https://www.postman.com/), create a new request to
     ```json
     {
       "@type": "MessageCard",
-      "@context": "http://schema.org/extensions",
+      "@context": "https://schema.org/extensions",
       "themeColor": "0076D7",
       "summary": "Larry Bryant created a new task",
       "sections": [
@@ -276,7 +276,7 @@ Using the free tool [Postman](https://www.postman.com/), create a new request to
             {
               "@type": "HttpPOST",
               "name": "Add comment",
-              "target": "http://..."
+              "target": "https://..."
             }
           ]
         },
@@ -294,7 +294,7 @@ Using the free tool [Postman](https://www.postman.com/), create a new request to
             {
               "@type": "HttpPOST",
               "name": "Save",
-              "target": "http://..."
+              "target": "https://..."
             }
           ]
         },
@@ -327,7 +327,7 @@ Using the free tool [Postman](https://www.postman.com/), create a new request to
             {
               "@type": "HttpPOST",
               "name": "Save",
-              "target": "http://..."
+              "target": "https://..."
             }
           ]
         }
