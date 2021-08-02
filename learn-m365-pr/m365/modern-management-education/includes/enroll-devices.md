@@ -21,17 +21,17 @@ Begin adding devices for students, staff, and faculty to your cloud environment.
 
 1. **Configure the device out-of-box experience with Autopilot deployment profiles.** We recommend starting with a single profile that can be deployed to all devices.
 
-    ![](../media/folder.png)
+    ![Graphic of two folder; one folder has an apple and a cup of pens on it.](../media/folder.png)
 
-    ![](../media/computer-settings.png)
+    ![Graphic of computer with icons flying out of it.](../media/computer-settings.png)
 
 1. **Make sure your devices get the right policies upon enrollment** using dynamic groups and group tags that map to your autopilot profiles.
 
-    ![](../media/security.png)
+    ![Graphic of a security shield linking to user profiles.](../media/security.png)
 
 1. **Configure settings and apps for all your groups.** Configure tenant-wide settings and apps under the All Devices group, and configure group-specific settings under individual groups. Settings can be managed by user identity or by device.
 1. **Distribute devices to students, teachers, and other users.** Policies and apps will automatically sync when they enroll their devices. Once deployed, monitor devices from the Autopilot Deployment report to track the enrollment status of your school’s devices.
 
-![](../media/distribute.png)
+![Graphic of a computer with user settings in a cloud above it. ](../media/distribute.png)
 
 All done setting enrolling devices? Next learn how to deploy the right apps and policies to all devices.
