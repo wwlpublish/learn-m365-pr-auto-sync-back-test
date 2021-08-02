@@ -4,8 +4,8 @@ Begin adding devices for students, staff, and faculty to your cloud environment.
 
 ![Graphic of a laptop, a mobile phone, and a cloud.](../media/cloud-devices.png)
 
-1. **Prepare your network and devices for setup.** Ensure all devices are factory reset or new and haven’t been set up, and that you’re using the latest version of the Set up School PCs app.
-1. **Create the provisioning package.** Within the Set up School PCs app you can choose the preferred settings and apps for different groups based on their needs.
+1. **Prepare your network and devices for setup.** Ensure all devices are factory reset or new and haven't been set up, and that you're using the latest version of the Set up School PCs app.
+1. **Create the provisioning package.** Within the Set up School PCs app, you can choose the preferred settings and apps for different groups based on their needs.
 
     ![Graphic of computer, tablet, and mobile phone.](../media/devices.png)
 
@@ -15,7 +15,7 @@ Begin adding devices for students, staff, and faculty to your cloud environment.
 
     ![Graphic of first step of the student setup process.](../media/student-setup.png)
 
-1. **Run the package on student devices.** Once you see the “Let’s start with region” screen, you can now insert the USB drive to enroll the device. When complete, you will see a message that the setup was successful. Now the devices are classroom ready.
+1. **Run the package on student devices.** Once you see the "Let's start with region" screen, you can now insert the USB drive to enroll the device. When complete, you will see a message that the setup was successful. Now the devices are classroom ready.
 
 ## Enroll devices via Windows Autopilot
 
@@ -30,7 +30,7 @@ Begin adding devices for students, staff, and faculty to your cloud environment.
     ![Graphic of a security shield linking to user profiles.](../media/security.png)
 
 1. **Configure settings and apps for all your groups.** Configure tenant-wide settings and apps under the All Devices group, and configure group-specific settings under individual groups. Settings can be managed by user identity or by device.
-1. **Distribute devices to students, teachers, and other users.** Policies and apps will automatically sync when they enroll their devices. Once deployed, monitor devices from the Autopilot Deployment report to track the enrollment status of your school’s devices.
+1. **Distribute devices to students, teachers, and other users.** Policies and apps will automatically sync when they enroll their devices. Once deployed, monitor devices from the Autopilot Deployment report to track the enrollment status of your school's devices.
 
 ![Graphic of a computer with user settings in a cloud above it. ](../media/distribute.png)
 

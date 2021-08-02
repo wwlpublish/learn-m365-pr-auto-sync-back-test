@@ -3,7 +3,7 @@ Ensure that your Microsoft 365 tenant is set up correctly so that users can star
 ![Screenshot of Office 365 admin center on the domains page.](../media/domains-page.png)
 
 1. **Add domains**
-    After creating the tenant, you will need to add domains for your organization. We recommend creating a small number of domains to start (e.g., one for teachers and one for students). You can add domains in the Office admin center.
+    After creating the tenant, you will need to add domains for your organization. We recommend creating a small number of domains to start (for example, one for teachers and one for students). You can add domains in the Office admin center.
 
 ![Screenshot of the set up basics box in the Office 365 admin center](../media/set-up-basics.png)
 

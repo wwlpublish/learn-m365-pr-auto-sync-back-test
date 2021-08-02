@@ -2,7 +2,7 @@ Deploy the applications and policies designed for your classroom from the cloud 
 
 ![Graphic of two folders.](../media/folders.png)
 
-1. **Choose a group to configure** using Express Configuration in Intune for Education. You’ll be able to select from all your Intune and SDS groups, but we recommend starting with All Users.
+1. **Choose a group to configure** using Express Configuration in Intune for Education. You'll be able to select from all your Intune and SDS groups, but we recommend starting with All Users.
 
     ![Graphic of four different screens showing a report, a chat, a slide deck, and a kanban board.](../media/four-screens.png)
 
