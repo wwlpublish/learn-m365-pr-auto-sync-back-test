@@ -1466,34 +1466,34 @@
       "redirect_document_id": true
     },
     {
-      "source_path": "learn-m365-pr/m365/m365-identity-overview/index.yml",
+      "source_path": "learn-m365-pr/m365/m365-identity-overview/index.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/manage-device-identity-ad-join/",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
-      "source_path": "learn-m365-pr/m365/m365-identity-provisioning/index.yml",
-      "redirect_url": "https://docs.microsoft.com/learn/modules/intro-to-azure-ad/",
-      "redirect_document_id": true
+      "source_path": "learn-m365-pr/m365/m365-identity-provisioning/index.md",
+      "redirect_url": "https://docs.microsoft.com/en-us/azure/active-directory/cloud-sync/what-is-provisioning",
+      "redirect_document_id": false
     },
     {
-      "source_path": "learn-m365-pr/m365/m365-identity-authentication/index.yml",
+      "source_path": "learn-m365-pr/m365/m365-identity-authentication/index.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/secure-aad-users-with-mfa/",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
-      "source_path": "learn-m365-pr/m365/m365-identity-secure-administrators/index.yml",
-      "redirect_url": "https://docs.microsoft.com/learn/modules/secure-app-with-oidc-and-azure-ad/",
-      "redirect_document_id": true
+      "source_path": "learn-m365-pr/m365/m365-identity-secure-administrators/index.md",
+      "redirect_url": "https://docs.microsoft.com/en-us/azure/active-directory/privileged-identity-management/pim-configure",
+      "redirect_document_id": false
     },
     {
-      "source_path": "learn-m365-pr/m365/m365-identity-cultural-shift/index.yml",
+      "source_path": "learn-m365-pr/m365/m365-identity-cultural-shift/index.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/protect-identities-with-aad-idp/",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
-      "source_path": "learn-m365-pr/m365/m365-identity-zero-trust/index.yml",
+      "source_path": "learn-m365-pr/m365/m365-identity-zero-trust/index.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/examine-zero-trust-approach-to-security-microsoft-365/",
-      "redirect_document_id": true
+      "redirect_document_id": false
     }
   ]
 }
