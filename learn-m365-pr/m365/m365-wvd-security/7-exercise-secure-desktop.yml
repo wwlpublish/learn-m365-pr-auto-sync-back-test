@@ -4,7 +4,7 @@ title: Exercise - Enable AppLocker in a Windows Server 2016 VM running in Azure
 metadata:
   title: Exercise - Enable AppLocker in a Windows Server 2016 VM running in Azure
   description: Learn how to increase the security of your Azure Virtual Desktop host.
-  ms.date:  01/15/2021
+  ms.date: 07/15/2021
   author: ndelgado
   ms.author: nedelgad
   ms.topic: interactive-tutorial

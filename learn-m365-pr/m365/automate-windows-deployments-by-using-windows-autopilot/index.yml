@@ -3,7 +3,7 @@ uid: learn-m365-pr.automate-windows-deployments-by-using-windows-autopilot
 metadata:
   title: Automate Windows deployments by using Windows Autopilot
   description: During the course of this module, you will learn about Windows Autopilot and the benefits it can provide to modern IT organizations.  From the very beginning, to the very end of a device's lifecycle; Windows Autopilot is an essential tool to reduce the burden on IT teams when registering, resetting, and recovering devices.
-  ms.date: 9/4/2019
+  ms.date: 07/19/2021
   author: dahans-msft2
   ms.author: dahans
   ms.topic: interactive-tutorial
