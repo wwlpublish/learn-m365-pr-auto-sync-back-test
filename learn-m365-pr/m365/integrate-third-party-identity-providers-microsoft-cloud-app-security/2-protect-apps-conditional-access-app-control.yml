@@ -3,7 +3,7 @@ uid: learn-m365.integrate-third-party-identity-providers-mcas.2-protect-apps-con
 metadata:
   title: Describe how to protect apps with Cloud App Security Conditional Access App Control
   description: Use Microsoft Cloud App Security to implement access and session controls with any supported identity provider
-  ms.date: 05/14/2021
+  ms.date: 07/02/2021
   author: alistairmatthews
   ms.author: beccarobins
   ms.topic: interactive-tutorial

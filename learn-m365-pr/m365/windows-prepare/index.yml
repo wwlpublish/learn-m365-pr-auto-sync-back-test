@@ -3,7 +3,7 @@ uid: learn-m365.windows-prepare
 metadata:
   title: Prepare to deploy updates for Windows 10 and Microsoft 365 Apps
   description: Some of the devices in your organization's environment are either out of support or nearing end of support. You've learned how to create a plan to help your organization bring its environment up to date. Now you'll learn how to prepare your organization's environment to stay current with Windows 10 and Microsoft 365 Apps.
-  ms.date: 06/17/2020
+  ms.date: 07/15/2021
   author: IanKensey
   ms.author: elizapo
   ms.topic: interactive-tutorial
