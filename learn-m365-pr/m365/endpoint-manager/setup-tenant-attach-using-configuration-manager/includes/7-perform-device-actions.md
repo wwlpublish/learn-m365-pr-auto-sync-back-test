@@ -5,7 +5,7 @@ You need to ensure every device you manage is reachable, no matter where it is o
 You can choose the following device actions:
    - **Sync Machine Policy** - Configuration Manager will request the client download policy for the device.
    - **Sync User Policy** - Configuration Manager will request the client download policy for the currently logged on user.
-   - **App Evaluation Cycle** - Configuration Manager will request the client to revaluate the requirement rules for all app deployments.
+   - **App Evaluation Cycle** - Configuration Manager will request the client to re-evaluate the requirement rules for all applicable app deployments.
 
 When you run a device action from Microsoft Endpoint Manager admin center, the notification request is forwarded to the Configuration Manager site, and from the site to the client device. 
 
@@ -23,4 +23,4 @@ Use the following steps to run a device action:
 
    [ ![Microsoft Endpoint Manager - Device overview](../media/set-up-tenant-attach-using-confirmation-manager-03.png) ](../media/set-up-tenant-attach-using-confirmation-manager-03.png#lightbox)
 
-   After selecting to run a device action, you'll see a status message in the **Device actions status** table. Once the device actions is finished syncing, the status message will show as **Complete**. If an error occurs, you'll see a message in the **Error** column. If a device action completes with out error, you'll have confirmed your policies are in sync and all apps are functioning correctly.
+   After selecting to run a device action, you'll see a status message in the **Device actions status** table. Once the device action is finished syncing, the status message will show as **Complete**. If an error occurs, you'll see a message in the **Error** column. If a device action completes with out error, you'll have confirmed that the device action is running correctly.

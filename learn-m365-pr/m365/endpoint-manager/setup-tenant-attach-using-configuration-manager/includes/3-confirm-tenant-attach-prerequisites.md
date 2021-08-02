@@ -8,6 +8,7 @@ There are five main prerequisites to enable tenant attach:
 - Confirm your Azure public cloud environment
 - Confirm user accounts are synced to Azure Active Directory from Active Directory
 - Verify the remote provider for your tenant
+- If you use a [central administration site](/mem/configmgr/core/plan-design/hierarchy/design-a-hierarchy-of-sites#BKMK_ChooseCAS) (CAS) for your Configuration Manager implementation and also have a remote provider, follow the instructions for the [CAS has a remote provider scenario](/mem/configmgr/core/servers/manage/cmpivot-changes#cas-has-a-remote-provider).
 
 ### Create a Microsoft Intune tenant
 
@@ -18,7 +19,7 @@ Microsoft Intune provides mobile device management (MDM) and mobile app manageme
 
 ### Verify your global administrator account
 
-Your tenant account must be signed in as *Global Administrator* to apply tenant attach. The *Global Administrator* is the person who signed up for the tenant. The *Global Administrator* has the permissions to do the following:
+Your *Global Administrator* account must be supplied during the tenant attach configuration process. The *Global Administrator* is the person who signed up for the tenant. The *Global Administrator* has the permissions to do the following:
 - Manage access to all administrative features for the tenant, as well as the related services that use Azure Active Directory.
 - Assign administrator roles to others.
 - Reset the password for any user and all other administrators.
@@ -38,7 +39,7 @@ To set up tenant attach, you must be using a standard Azure public cloud environ
 
 ### Confirm user accounts are synced
 
-For a user account to trigger device actions, the user account must be synced to Azure Active Directory from Active Directory (hybrid identity). To discover and sync your accounts, you can use either [Azure Active Directory user discovery](/mem/configmgr/core/servers/deploy/configure/about-discovery-methods#azureaddisc) or [Active Directory user discovery](/mem/configmgr/core/servers/deploy/configure/about-discovery-methods#bkmk_aboutUser).
+For a user account to trigger device actions, the user account must be synced to Azure Active Directory from Active Directory (hybrid identity). To discover and sync your accounts, you can use either [Azure Active Directory user discovery](/mem/configmgr/core/servers/deploy/configure/about-discovery-methods#azureaddisc), or you can use [Active Directory user discovery](/mem/configmgr/core/servers/deploy/configure/about-discovery-methods#bkmk_aboutUser).
 
 > [!NOTE]
-> If you are using Configuration Manager version 2010 or earlier, you can discover user accounts with both [Azure Active Directory user discovery](/mem/configmgr/core/servers/deploy/configure/about-discovery-methods#azureaddisc) and [Active Directory user discovery](/mem/configmgr/core/servers/deploy/configure/about-discovery-methods#bkmk_aboutUser).
+> If you are using Configuration Manager version 2010 or earlier, you must discover user accounts with both [Azure Active Directory user discovery](/mem/configmgr/core/servers/deploy/configure/about-discovery-methods#azureaddisc) and [Active Directory user discovery](/mem/configmgr/core/servers/deploy/configure/about-discovery-methods#bkmk_aboutUser).

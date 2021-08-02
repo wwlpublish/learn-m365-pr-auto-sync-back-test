@@ -51,7 +51,7 @@ To view device data from the resource explorer:
 1. In a browser, navigate to [Microsoft Endpoint Manager admin center](https://endpoint.microsoft.com).
 2. Click **Devices** > **All Devices**.
 3. Select a device that is synced from Configuration Manager via tenant attach.<br>
-   You can recognize devices that have been synced via tenant attach because **ConfigMgr** will be listed in the **Managed by** column for the device.
+   You can recognize devices that have been synced via tenant attach because **ConfigMgr** will be listed in the **Managed by** column for the device. Devices can also be listed as **Co-managed** when both Configuration Manager and Intune apply, or as **Intune** when only Intune management applies.
 4. Click **Resource explorer** to view hardware inventory.
 5. Search for or select a class (a device value) to retrieve information from the client.
 
@@ -80,8 +80,8 @@ Use the following steps to install an application to an on-premises device:
 1. In a browser, navigate to [Microsoft Endpoint Manager admin center](https://endpoint.microsoft.com).
 2. Click **Devices** > **All Devices**.
 3. Select a device that is synced from Configuration Manager via tenant attach.<br>
-   You can recognize devices that have been synced via tenant attach because **ConfigMgr** will be listed in the **Managed by** column for the device.
-4. Click **Applications** to view a list of available apps.
+   As noted before, you can recognize devices that have been synced via tenant attach because **ConfigMgr** will be listed in the **Managed by** column for the device. Devices can also be listed as **Co-managed** when both Configuration Manager and Intune apply, or as **Intune** when only Intune management applies.
+4. Click **Applications** to view a list of applicable apps.
 5. Select an application that hasn't been installed and click **Install**.
 
    [ ![Screenshot of application installation from Microsoft Endpoint Manager admin center](../media/set-up-tenant-attach-using-confirmation-manager-11.png) ](../media/set-up-tenant-attach-using-confirmation-manager-11.png#lightbox)
@@ -90,15 +90,15 @@ For more information about applications and tenant attach, see [Tenant attach: I
 
 ## Scripts
 
-Bring the power of the Configuration Manager on-premises Run Scripts feature to the Microsoft Endpoint Manager admin center. Allow additional personas, like Helpdesk, to run PowerShell scripts from the cloud against an individual Configuration Manager managed device in real time. This gives all the traditional benefits of PowerShell scripts that have already been defined and approved by the Configuration Manager admin to this new environment.
+You can run PowerShell scripts from the cloud against an individual Configuration Manager managed device in real time. You can also allow additional personas, like Helpdesk, to run PowerShell scripts. This gives all the traditional benefits of PowerShell scripts that have already been defined and approved by the Configuration Manager admin to this new environment.
 
 1. In a browser, navigate to [Microsoft Endpoint Manager admin center](https://endpoint.microsoft.com).
 2. Click **Devices** > **All Devices**.
 3. Select a device that is synced from Configuration Manager via tenant attach.<br>
-   You can recognize devices that have been synced via tenant attach because **ConfigMgr** will be listed in the **Managed by** column for the device.
+   As noted before, you can recognize devices that have been synced via tenant attach because **ConfigMgr** will be listed in the **Managed by** column for the device. Devices can also be listed as **Co-managed** when both Configuration Manager and Intune apply, or as **Intune** when only Intune management applies.
 4. Click **Scripts** to view a list of available scripts.
 
-   Scripts that were recently run that directly targeted the device will already be listed. The list includes scripts run from the admin center, SDK, or the Configuration Manager console. Scripts initiated from the on-premises console, against collections containing the device won't be shown, unless the scripts were also initiated specifically for the single device.
+   Scripts that were recently run that directly targeted the device will already be listed. The list includes scripts run from the admin center, SDK, or the Configuration Manager console. Scripts initiated from the Configuration Manager console against collections containing the device won't be shown, unless the scripts were also initiated specifically for the single device.
 
    [ ![Screenshot of the scripts list from Microsoft Endpoint Manager admin center](../media/set-up-tenant-attach-using-confirmation-manager-12.png) ](../media/set-up-tenant-attach-using-confirmation-manager-12.png#lightbox)
 
@@ -118,7 +118,7 @@ To view the device event timeline:
 1. In a browser, navigate to [Microsoft Endpoint Manager admin center](https://endpoint.microsoft.com).
 2. Click  **Devices** > **All Devices**.
 3. Select a device that is synced from Configuration Manager via tenant attach.<br>
-   You can recognize devices that have been synced via tenant attach because **ConfigMgr** will be listed in the **Managed by** column for the device.
+   As noted before, you can recognize devices that have been synced via tenant attach because **ConfigMgr** will be listed in the **Managed by** column for the device. Devices can also be listed as **Co-managed** when both Configuration Manager and Intune apply, or as **Intune** when only Intune management applies.
 4. Click **Timeline**. By default, you're shown events from the last 24 hours.
    - Select **Sync** to fetch the recent data generated on client. The device sends events once a day to the admin center by default.
    - Use the **Filter** button to change the **Time range**, **Event levels**, and **Provider name**.

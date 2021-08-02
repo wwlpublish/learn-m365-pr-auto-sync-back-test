@@ -14,14 +14,10 @@ When co-management isn't enabled in your environment, use the instructions below
 
    [ ![Using the Co-management Configuration Wizard for tenant attach](../media/set-up-tenant-attach-using-confirmation-manager-01.png) ](../media/set-up-tenant-attach-using-confirmation-manager-01.png#lightbox)
 
-6. Choose **Next** and then **Yes** to accept the **Create AAD Application** notification. <br>
+6. Choose **Next** and then **Yes** to accept the **Create AAD Application** registration.<br>
    This action provisions a service principal and creates an Azure AD application registration to facilitate the sync. Service principals define who can access the application and what resources the application can access.
 7. On the **Configure upload** page, select the recommended device upload setting for **All my devices managed by Microsoft Endpoint Configuration Manager**. <br>
    If needed, you can limit upload to a single device collection.
-
-    > [!NOTE]
-    > When a single collection is selected, its child collections are also uploaded.
-
 8. Check the option to **Enable Endpoint analytics for devices uploaded to Microsoft Endpoint Manager**. <br>
    Selecting this option will allow you to get insights into optimizing the end-user experience using [Endpoint Analytics](/learn/modules/compliance-endpoint-manager) later.
 9. Select **Summary** to review your selection, then choose **Next**.
