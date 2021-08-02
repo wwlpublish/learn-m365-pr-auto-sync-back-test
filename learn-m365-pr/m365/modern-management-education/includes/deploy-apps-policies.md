@@ -1,1 +1,19 @@
-Enter text here.
+Deploy the applications and policies designed for your classroom from the cloud using Intune for Education to ensure the right applications are delivered to the right devices at the right times. Once user groups are defined, ensure the right applications are delivered to the right devices with Intune for Education. To get started, follow the steps below:
+
+![](../media/folders.png)
+
+1. **Choose a group to configure** using Express Configuration in Intune for Education. You’ll be able to select from all your Intune and SDS groups, but we recommend starting with All Users.
+
+    ![](../media/four-screens.png)
+
+1. **Select the apps to assign for the group.** You can choose from Web apps, Windows 10 apps, and iOS apps.
+
+    ![](../media/user-settings.png)
+
+1. **Adjust the device and user settings for the group.** Express configuration includes recommended settings, so you can leave settings as-is or customize them if needed.
+
+    ![](../media/deploy.png)
+
+1. **Review your apps and settings selections.** Once you save your settings, Express Configuration will automatically deploy them to the selected groups.
+
+With apps and policies deployed, your devices should be ready for users. Continue on to check your knowledge

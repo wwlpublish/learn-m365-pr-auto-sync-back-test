@@ -1,8 +1,6 @@
-Migrate your student, staff and faculty identities to the cloud to ensure that every member can use Microsoft 365 right away and make it easier to manage identities between school years.
+Migrate your student, staff and faculty identities to the cloud to ensure that every member can use Microsoft 365 right away and make it easier to manage identities between school years. Migrating identities to the cloud is a key first step to ensuring everyone at your school has access to Microsoft 365 and streamlining identity management. To start migrating your identities:
 
-Migrating identities to the cloud is a key first step to ensuring everyone at your school has access to Microsoft 365 and streamlining identity management. To start migrating your identities:
-
-![Graphic of school](../media/Image-01.png)
+![Graphic of school next to screenshot of Azure AD 'ready to configure' page](../media/ready-configure.png)
 
 1. Set up Azure Active Directory Connect to easily manage secure identities in the cloud. For the easiest install, use [express settings](/azure/active-directory/hybrid/how-to-connect-install-express).
 **Express Settings** is the default option and is used for the most commonly deployed scenario. You are only a few short clicks away to extend your on-premises directory to the cloud.
@@ -12,6 +10,6 @@ School Data Sync (SDS) is a free service in Office 365 for Education that reads 
 
 You can use the [School Data Sync interactive guide](https://interactiveguides-schooldatasync.azurewebsites.net/) to tailor your install.
 
-![Graphic of presentation](../media/Image-02.png)
+![Graphic of presentation next to screenshot of Azure AD review setup page](../media/azure-review-setup.png)
 
 All done migrating identities? Next learn how to set up the Microsoft 365 tenant to fit your school’s needs.

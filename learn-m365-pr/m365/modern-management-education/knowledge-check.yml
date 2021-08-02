@@ -10,43 +10,55 @@ metadata:
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
  
-durationInMinutes: 3
+durationInMinutes: 4
 content: |
 quiz:
     title: Check your knowledge
     questions:
-    - content: "Question"
+    - content: "Migrating identities to the cloud for students, staff and faculty leverages which two tools?"
       choices:
-      - content: "Possible answer"
+      - content: "Azure Active Directory Connect and School Data Sync"
         isCorrect: true
-        explanation: "Text"
-      - content: "Possible answer"
+        explanation: "That's correct!"
+      - content: "Microsoft Power BI and Microsoft Power Automate"
         isCorrect: false
-        explanation: "Text"
-      - content: "Possible answer"
+        explanation: "That's not correct."
+      - content: "Intune for Education and Remote Assist"
         isCorrect: false
-        explanation: "Text"
+        explanation: "Not quite. Please try again."
 
-    - content: "Question"
+    - content: "Setting up your Microsoft 365 Tenant is an important step that provides your school with which functionality?"
       choices:
-      - content: "Possible answer"
+      - content: "Improved network speed"
+        isCorrect: false
+        explanation: "Not quite. Please try again."
+      - content: "Enhanced security settings for student devices"
+        isCorrect: false
+        explanation: "That's not correct."
+      - content: "Cloud utilization for storage, printing and security"
         isCorrect: true
-        explanation: "Text"
-      - content: "Possible answer"
-        isCorrect: false
-        explanation: "Text"
-      - content: "Possible answer"
-        isCorrect: false
-        explanation: "Text"
+        explanation: "That's correct!"
 
-    - content: "Question"
+    - content: "Enrolling devices is recommended via one of two options. What are the recommended methods for enrolling devices?"
       choices:
-      - content: "Possible answer"
+      - content: "Microsoft Store – Windows Apps and Google Play Store"
+        isCorrect: false
+        explanation: "That's not correct."
+      - content: "Set up School PCs app and Windows Autopilot"
         isCorrect: true
-        explanation: "Text"
-      - content: "Possible answer"
+        explanation: "That's correct!"
+      - content: "Enrollment Wizard and AutoEnroll+"
         isCorrect: false
-        explanation: "Text"
-      - content: "Possible answer"
+        explanation: "Not quite. Please try again."
+
+    - content: "What is the main application used for deploying apps and policies to devices?"
+      choices:
+      - content: "Google Play Store"
         isCorrect: false
-        explanation: "Text"
+        explanation: "Not quite. Please try again."
+      - content: "Intune for Education"
+        isCorrect: true
+        explanation: "That's correct!"
+      - content: "Windows Autopilot"
+        isCorrect: false
+        explanation: "That's not correct."
