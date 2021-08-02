@@ -1476,7 +1476,67 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "learn-m365-pr/m365/m365-identity-provisioning/introduction.md",
+      "redirect_url": "https://docs.microsoft.com/en-us/azure/active-directory/cloud-sync/what-is-provisioning",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/m365/m365-identity-provisioning/proactive-identity-governance.md",
+      "redirect_url": "https://docs.microsoft.com/en-us/azure/active-directory/cloud-sync/what-is-provisioning",
+      "redirect_document_id": false
+    },    
+    {
+      "source_path": "learn-m365-pr/m365/m365-identity-provisioning/define-right-access.md",
+      "redirect_url": "https://docs.microsoft.com/en-us/azure/active-directory/cloud-sync/what-is-provisioning",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/m365/m365-identity-provisioning/establish-identity-governance.md",
+      "redirect_url": "https://docs.microsoft.com/en-us/azure/active-directory/cloud-sync/what-is-provisioning",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/m365/m365-identity-provisioning/summary-knowledge-check.md",
+      "redirect_url": "https://docs.microsoft.com/en-us/azure/active-directory/cloud-sync/what-is-provisioning",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/m365/m365-identity-provisioning/summary.md",
+      "redirect_url": "https://docs.microsoft.com/en-us/azure/active-directory/cloud-sync/what-is-provisioning",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "learn-m365-pr/m365/m365-identity-authentication/index.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/secure-aad-users-with-mfa/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/m365/m365-identity-authentication/introduction.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/secure-aad-users-with-mfa/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/m365/m365-identity-authentication/enforce-multi-factor-authentication.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/secure-aad-users-with-mfa/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/m365/m365-identity-authentication/reduce-legacy-authentication.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/secure-aad-users-with-mfa/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/m365/m365-identity-authentication/implement-password-alternatives.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/secure-aad-users-with-mfa/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/m365/m365-identity-authentication/summary-knowledge-check.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/secure-aad-users-with-mfa/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/m365/m365-identity-authentication/summary.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/secure-aad-users-with-mfa/",
       "redirect_document_id": false
     },
@@ -1486,12 +1546,87 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "learn-m365-pr/m365/m365-identity-secure-administrators/introduction.md",
+      "redirect_url": "https://docs.microsoft.com/en-us/azure/active-directory/privileged-identity-management/pim-configure",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/m365/m365-identity-secure-administrators/isolated-identity.md",
+      "redirect_url": "https://docs.microsoft.com/en-us/azure/active-directory/privileged-identity-management/pim-configure",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/m365/m365-identity-secure-administrators/just-time-privileges.md",
+      "redirect_url": "https://docs.microsoft.com/en-us/azure/active-directory/privileged-identity-management/pim-configure",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/m365/m365-identity-secure-administrators/summary-knowledge-check.md",
+      "redirect_url": "https://docs.microsoft.com/en-us/azure/active-directory/privileged-identity-management/pim-configure",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/m365/m365-identity-secure-administrators/summary.md",
+      "redirect_url": "https://docs.microsoft.com/en-us/azure/active-directory/privileged-identity-management/pim-configure",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "learn-m365-pr/m365/m365-identity-cultural-shift/index.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/protect-identities-with-aad-idp/",
       "redirect_document_id": false
     },
     {
+      "source_path": "learn-m365-pr/m365/m365-identity-cultural-shift/introduction.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/protect-identities-with-aad-idp/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/m365/m365-identity-cultural-shift/security-best-practices.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/protect-identities-with-aad-idp/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/m365/m365-identity-cultural-shift/identity-development-approach.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/protect-identities-with-aad-idp/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/m365/m365-identity-cultural-shift/summary-knowledge-check.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/protect-identities-with-aad-idp/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/m365/m365-identity-cultural-shift/summary.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/protect-identities-with-aad-idp/",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "learn-m365-pr/m365/m365-identity-zero-trust/index.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/examine-zero-trust-approach-to-security-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/m365/m365-identity-zero-trust/introduction.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/examine-zero-trust-approach-to-security-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/m365/m365-identity-zero-trust/build-zero-trust-organization.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/examine-zero-trust-approach-to-security-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/m365/m365-identity-zero-trust/zero-trust-implementation.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/examine-zero-trust-approach-to-security-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/m365/m365-identity-zero-trust/knowledge-check.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/examine-zero-trust-approach-to-security-microsoft-365/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/m365/m365-identity-zero-trust/summary.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/examine-zero-trust-approach-to-security-microsoft-365/",
       "redirect_document_id": false
     }
