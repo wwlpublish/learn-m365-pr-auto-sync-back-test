@@ -13,33 +13,33 @@ Use the following steps to create and initialize the VHD or VHDX disk by using P
 
 1. Run the following cmdlet in PowerShell to create a VHD:
 
-  ```PowerShell
+   ```PowerShell
     New-VHD -SizeBytes <size>MB -Path c:\temp\<name>.vhd -Dynamic -Confirm:$false
-  ```
+   ```
 
 1. To mount the newly created VHD, run:
 
-  ```PowerShell
+   ```PowerShell
     $vhdObject = Mount-VHD c:\temp\<name>.vhd -Passthru
-  ```
+   ```
 
 1. To initialize the VHD, run:
 
-  ```PowerShell
+   ```PowerShell
     $disk = Initialize-Disk -Passthru -Number $vhdObject.Number
-  ```
+   ```
 
 1. To create a new partition, run:
 
-  ```PowerShell
+   ```PowerShell
     $partition = New-Partition -AssignDriveLetter -UseMaximumSize -DiskNumber $disk.Number
-  ```
+   ```
 
 1. To format the partition, run:
 
-  ```PowerShell
+   ```PowerShell
     Format-Volume -FileSystem NTFS -Confirm:$false -DriveLetter $partition.DriveLetter -Force
-  ```
+   ```
 
 1. Create a parent folder on the mounted VHD.
 
@@ -50,9 +50,9 @@ You now need to expand the MSIX package in the newly created VHD. To unpack the 
 1. Open a command prompt as an administrator and go to the folder where you downloaded and unzipped the msixmgr tool.
 1. Run the following cmdlet to unpack the MSIX package into the VHD that you created and mounted in the previous section:
 
-  ```PowerShell
+   ```PowerShell
     msixmgr.exe -Unpack -packagePath <package>.msix -destination "f:\<name of folder you created earlier>" -applyacls
-  ```
+   ```
 
 1. Go to the mounted VHD, open the app folder, and confirm that the package content is present.
 1. Unmount the VHD.
