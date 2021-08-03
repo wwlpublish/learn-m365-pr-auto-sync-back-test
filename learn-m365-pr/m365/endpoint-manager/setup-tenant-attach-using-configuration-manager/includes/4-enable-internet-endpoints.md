@@ -7,7 +7,7 @@ Configuration Manager uses the following Microsoft URL forwarding services throu
 - `https://*.manage.microsoft.com`
 - `https://dc.services.visualstudio.com`
 
-The service connection point makes a long standing outgoing connection to the notification service hosted on `https://*.manage.microsoft.com`. Verify the proxy used for the service connection point doesn't time out outgoing connections too quickly. We recommend 3 minutes for outgoing connections to this internet endpoint.
+The [service connection point](/mem/configmgr/core/servers/deploy/configure/about-the-service-connection-point) site system role makes a long standing outgoing connection to the notification service hosted on `https://*.manage.microsoft.com`. Verify the proxy used for the service connection point doesn't time out outgoing connections too quickly. We recommend 3 minutes for outgoing connections to this internet endpoint.
 
 If your environment has proxy rules to allow only specific certificate revocation lists (CRLs) or online certificate status protocol (OCSP) verification locations, you must also allow the following CRL and OCSP URLs:
 

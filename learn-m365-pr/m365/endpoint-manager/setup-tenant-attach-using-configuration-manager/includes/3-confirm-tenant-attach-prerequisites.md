@@ -4,7 +4,7 @@ Before you enable tenant attach, you must meet a set of prerequisites and enable
 
 There are five main prerequisites to enable tenant attach:
 - Create an Microsoft Intune tenant
-- Verify your *Global Administrator* account
+- Verify the *Global Administrator* account
 - Confirm your Azure public cloud environment
 - Confirm user accounts are synced to Azure Active Directory from Active Directory
 - Verify the remote provider for your tenant
@@ -17,16 +17,20 @@ Microsoft Intune provides mobile device management (MDM) and mobile app manageme
 > [!TIP]
 > For complete details about setting up Microsoft Intune, such as reviewing supported configurations, adding users, and assigning licenses, see [Set up Microsoft Intune](/learn/modules/set-up-microsoft-intune).
 
-### Verify your global administrator account
+### Verify the global administrator account
 
-Your *Global Administrator* account must be supplied during the tenant attach configuration process. The *Global Administrator* is the person who signed up for the tenant. The *Global Administrator* has the permissions to do the following:
+The *Global Administrator* account must be supplied during the tenant attach configuration process. The *Global Administrator* is the person who signed up for the tenant. The *Global Administrator* has the permissions to do the following:
 - Manage access to all administrative features for the tenant, as well as the related services that use Azure Active Directory.
 - Assign administrator roles to others.
 - Reset the password for any user and all other administrators.
 
-To verify your tenant account permissions:
-1. Sign in to [Microsoft Endpoint Manager admin center](https://go.microsoft.com/fwlink/?linkid=2109431).
-2. Click **Tenant administration** > **Roles** > **My permissions**.
+To verify your tenant account permissions or determine your global administrator:
+1. Sign in to the [Azure portal](https://portal.azure.com).
+2. Find and select **Azure Active Directory**. <br>
+   If necessary, click **More services** to located **Azure Active Directory**.
+3. Click **Roles and administrators**. <br>
+   You can verify your role.
+4. If you aren't the global administrator, find and select **Global administrator** to help determine your global administrator.
 
 For more information about roles, see [Azure AD roles](/azure/role-based-access-control/rbac-and-directory-admin-roles#azure-ad-roles).
 

@@ -8,12 +8,12 @@ There are two steps to cloud attach your on-premises devices. The first step of 
 > [!TIP]
 > **Cloud attach** consists of **tenant attach**, **co-management**, and **Desktop analytics**. Each can be added independently.
 
+Tenant attach sets up synchronization between your Configuration Manager site and your Intune tenant. This synchronization provides you with a single view for all devices that you manage from Microsoft Endpoint Manager admin center. Configuration Manager uses the *Configuration Manager connector* to enable data flow to Microsoft Endpoint Manager, which provides you with a single view for all devices. This connector requires a connection to your Intune tenant, and doesn't require turning on co-management.
+
 Tenant attach allows you to recognize your Configuration Manager uploaded devices and take actions from Microsoft Endpoint Manager. For instance, you can view device data, see a timeline of device events, install apps, and run PowerShell scripts from Microsoft Endpoint Manager admin center.
 
 > [!NOTE]
 > Your tenant is where you manage your end user's devices and apps via the cloud. It's a dedicated instance of [Azure Active Directory (Azure AD)](/azure/active-directory/users-groups-roles/directory-assign-admin-roles). Also, it's where your subscription to Intune is hosted and where your on-premises devices can be linked and managed. Your organization receives this tenant at the beginning of your Azure relationship with Microsoft.
-
-Tenant attach sets up synchronization between your Configuration Manager site and your Intune tenant. This synchronization provides you with a single view for all devices that you manage from Microsoft Endpoint Manager admin center. Configuration Manager uses the *Configuration Manager connector* to enable data flow to Microsoft Endpoint Manager, which provides you with a single view for all devices. This connector requires a connection to your Intune tenant, and doesn't require turning on co-management.
 
 When you use tenant attach, you don't do any extra device enrollment. Instead, you upload your Configuration Manager devices to be managed by Microsoft Endpoint Manager admin center, without enabling automatic enrollment for co-management or switching workloads to Intune. You can see a list of your organization's devices, and run actions on Configuration Manager managed devices. For example, you could run specific device actions, see your on-premises servers, and get OS information.
 
