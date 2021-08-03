@@ -21,3 +21,7 @@ To create a custom flow alert with Power Automate to remove sensitive file shari
 5. Create a switch that will depend upon which user option is selected in the email.
 
     :::image type="content" source="../media/3-user-options-switch.png" alt-text="User options switch.":::
+
+## SOMETHING ABOUT NEW IG
+
+[![Automate alerts management with Microsoft Power Automate and Cloud App Security](../media/power-automate-custom-flow.png)](https://aka.ms/Automate_alerts-management_with-Microsoft-Power-Automate_and-Cloud-App-Security)
