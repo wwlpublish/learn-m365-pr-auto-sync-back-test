@@ -1654,6 +1654,11 @@
       "source_path": "learn-m365-pr/m365/m365-identity-zero-trust/summary.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/examine-zero-trust-approach-to-security-microsoft-365/",
       "redirect_document_id": false
+    },
+    {
+    "source_path": "learn-m365-pr/paths/m365-identity/index.md",
+    "redirect_url": "https://docs.microsoft.com/en-us/learn/paths/manage-identity-and-access/",
+    "redirect_document_id": false
     }
   ]
 }
