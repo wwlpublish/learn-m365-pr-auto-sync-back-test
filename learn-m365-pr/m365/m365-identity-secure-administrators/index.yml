@@ -3,7 +3,7 @@ uid: learn-m365-identity.m365-identity-secure-administrators
 metadata:
   title: Secure administrator accounts in Azure Active Directory
   description: Learn about securing administrator accounts through secure devices, dedicated administrator accounts, and just-in-time privileges. 
-  ms.date: 07/08/2020
+  ms.date: 07/21/2021
   author: AlexandraHrt
   ms.author: elizapo
   ms.topic: interactive-tutorial

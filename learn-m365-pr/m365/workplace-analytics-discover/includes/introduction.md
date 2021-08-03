@@ -1,3 +1,6 @@
+>[!Note]
+>The Workplace Analytics web app is being rebranded to **Viva Insights** in the next few months. As mentioned in this module, Workplace Analytics refers to the web app with advanced analysis tools and accelerators available to those who are assigned the Analyst, Limited Analyst, or Admin role.
+
 Successful organizations track their business outcomes, but how do you measure the day-to-day actions that create those outcomes? Collaboration is a key component of knowledge worker success.
 
 > [!div class="centered"]

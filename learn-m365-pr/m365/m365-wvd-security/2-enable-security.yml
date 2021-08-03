@@ -4,7 +4,7 @@ title: Enable security services for an Azure Virtual Desktop deployment
 metadata:
   title: Enable security services for an Azure Virtual Desktop deployment
   description: After you complete this unit, you'll understand the Azure Virtual Desktop architecture and areas of responsibility for securing the deployment.
-  ms.date: 01/15/2021
+  ms.date: 07/13/2021
   author: ndelgado
   ms.author: nedelgad
   ms.topic: interactive-tutorial

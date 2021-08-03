@@ -1,3 +1,6 @@
+>[!Note]
+>The Workplace Analytics web app is being rebranded to **Viva Insights** in the next few months. As mentioned in this module, Workplace Analytics refers to the web app with advanced analysis tools and accelerators available to those who are assigned the Analyst, Limited Analyst, or Admin role.
+
 The Workplace Analytics Teams insights dashboard uses a Power Business Intelligence (BI) template that's populated with data on the use and adoption of Microsoft Teams in your organization. This dashboard highlights where groups might be struggling to move to digital collaboration. It offers a measurable starting point for helping leaders understand how they can make Teams adoption easier.
 
 The dashboard helps you answer the following top-level business questions:

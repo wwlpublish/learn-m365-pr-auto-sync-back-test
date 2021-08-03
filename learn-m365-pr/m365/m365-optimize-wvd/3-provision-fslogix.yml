@@ -4,7 +4,7 @@ title: Create FSLogix profile for Azure Virtual Desktop users
 metadata:
   title: Create FSLogix profile for Azure Virtual Desktop users
   description: Learn how to provision FSLogix profiles to separate user profiles from virtual machines.
-  ms.date: 06/29/2020
+  ms.date: 07/19/2021
   author: lizap
   ms.author: elizapo
   ms.topic: interactive-tutorial

@@ -4,7 +4,7 @@ metadata:
   moduleType: standard
   title: Design a successful virtual event using Microsoft 365
   description: Learn how to design a successful virtual event using Microsoft 365.
-  ms.date: 05/26/2021
+  ms.date: 07/19/2021
   author: lizap
   ms.author: elizapo
   ms.topic: interactive-tutorial # do we need ms.topic?
@@ -14,21 +14,6 @@ summary: |
   Learn how to create accessible presentations and review best practices to manage your event.
   
   This module has content for organizers, producers, presenters, and moderators.
-
-    :::row:::
-      :::column:::
-        :::image type="content" source="../m365-introduction-deliver-virtual-events-using-microsoft-teams/media/organizer-small.png" alt-text="Icon for the Organizer role." border="false":::
-      :::column-end:::
-      :::column:::
-        :::image type="content" source="../m365-introduction-deliver-virtual-events-using-microsoft-teams/media/producer-small.png" alt-text="Icon for the Producer role." border="false":::        
-      :::column-end:::
-      :::column:::
-        :::image type="content" source="../m365-introduction-deliver-virtual-events-using-microsoft-teams/media/presenter-small.png" alt-text="Icon for the Presenter role." border="false":::        
-      :::column-end:::
-      :::column:::
-        :::image type="content" source="../m365-introduction-deliver-virtual-events-using-microsoft-teams/media/moderator-small.png" alt-text="Icon for the Moderator role." border="false":::        
-      :::column-end:::      
-    :::row-end:::
 
 abstract: | 
   By the end of this module, you should be able to:
@@ -40,7 +25,7 @@ abstract: |
     - Understand how to gather feedback and turn them into insights
 
 prerequisites: | # user input: prerequisites (https://review.docs.microsoft.com/help/learn/id-guidance-prerequisites?branch=master)
-  - General understanding of virtual events, Microsoft Teams, an accessibility requirements
+  - General understanding of virtual events, Microsoft Teams, and accessibility requirements
 iconUrl: /learn/achievements/generic-badge.svg
 levels: # user input: add levels from level taxonomy (https://review.docs.microsoft.com/help/contribute/metadata-taxonomies?branch=master#level)
   - intermediate
