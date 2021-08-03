@@ -1471,6 +1471,31 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "learn-m365-pr/m365/m365-identity-overview/introduction.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/manage-device-identity-ad-join/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/m365/m365-identity-overview/identity-importance.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/manage-device-identity-ad-join/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/m365/m365-identity-overview/identity-core-security.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/manage-device-identity-ad-join/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/m365/m365-identity-overview/summary-knowledge-check.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/manage-device-identity-ad-join/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/m365/m365-identity-overview/summary.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/manage-device-identity-ad-join/",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "learn-m365-pr/m365/m365-identity-provisioning/index.md",
       "redirect_url": "https://docs.microsoft.com/en-us/azure/active-directory/cloud-sync/what-is-provisioning",
       "redirect_document_id": false
