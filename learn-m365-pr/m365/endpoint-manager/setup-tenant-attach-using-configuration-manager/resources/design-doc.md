@@ -1,3 +1,15 @@
+---
+metadata:
+  unitType: designdoc
+  title: Design Doc
+  description: Understand the process of setting up tenant attach.
+  ms.date: 8/03/2021
+  author: Erikre
+  ms.author: erikre
+  ms.topic: interactive-tutorial
+  ms.prod: learning-endpoint-manager
+---
+
 # Title
 
 Setup cloud-attach using Microsoft Endpoint Configuration Manager

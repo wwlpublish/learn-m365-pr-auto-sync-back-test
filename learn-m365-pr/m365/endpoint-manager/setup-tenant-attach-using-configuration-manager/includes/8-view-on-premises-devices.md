@@ -106,7 +106,7 @@ For more information about running scripts on tenant attached devices, see [Tena
 
 ## Device event timeline
 
-When Configuration Manager synchronizes a device to Microsoft Endpoint Manager through tenant attach, you can see a timeline of events. This timeline shows past activity on the device that can help you troubleshoot problems.
+When Configuration Manager synchronizes a device to Microsoft Endpoint Manager through tenant attach, you can see a timeline of events for those devices within Microsoft Endpoint Manager admin center. This timeline shows past activity on the device that can help you troubleshoot problems.
 
 Once a day Configuration Manager sends the on-premises device events to the Microsoft Endpoint Manager admin center. Only events collected after the client receives the **Enable Endpoint analytics data collection** policy are visible in the admin center. You can generate test events easily by installing an application or an update from Configuration Manager, or restart the device. Events are kept for 30 days.
 
