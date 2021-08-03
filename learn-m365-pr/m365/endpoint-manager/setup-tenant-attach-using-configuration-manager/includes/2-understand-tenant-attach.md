@@ -6,7 +6,7 @@ If you need to manage only cloud-based endpoints, such as mobile devices, you ca
 There are two steps to cloud attach your on-premises devices. The first step of attachment is called tenant attach, which is registering your Intune tenant with your Configuration Manager deployment. The second step is called co-management, which is concurrently managing Windows 10 devices with both Configuration Manager and Microsoft Intune. These are incremental steps on the journey to having full cloud attachment. You get immediate value through tenant attach and you get additional value through co-management. This module focuses on tenant attach.
 
 > [!TIP]
-> **Cloud attach** consists of **tenant attach**, **co-management**, and **Desktop analytics**. Each can be added independently.
+> **Cloud attach** consists of **tenant attach**, **co-management**, and **Endpoint analytics**. Each can be added independently.
 
 Tenant attach sets up synchronization between your Configuration Manager site and your Intune tenant. This synchronization provides you with a single view for all devices that you manage from Microsoft Endpoint Manager admin center. Configuration Manager uses the *Configuration Manager connector* to enable data flow to Microsoft Endpoint Manager, which provides you with a single view for all devices. This connector requires a connection to your Intune tenant, and doesn't require turning on co-management.
 
