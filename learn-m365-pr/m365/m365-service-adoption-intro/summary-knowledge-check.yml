@@ -141,7 +141,7 @@ quiz:
       - content: "Templates can be given to employees to use how they see fit for their groups."
         isCorrect: false
         explanation: "No, this isn't one of the omni-directional marketing tactics."        
-    - content: "Which individual item is NOT a part of the marketing communications are for Service Adoption Specialists?"
+    - content: "Which individual item is NOT a part of the marketing communications area for Service Adoption Specialists?"
       choices:
       - content: "Key messages for employee campaigns."
         isCorrect: false
