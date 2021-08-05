@@ -9,6 +9,6 @@ metadata:
   ms.author: aleha
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-durationInMinutes: 18
+durationInMinutes: 30
 content: |
   [!include[](includes/2-manual-automated-migrations.md)]
