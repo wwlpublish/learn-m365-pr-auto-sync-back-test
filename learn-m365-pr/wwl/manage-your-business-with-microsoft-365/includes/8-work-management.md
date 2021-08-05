@@ -10,8 +10,8 @@ Planner fully integrates into Teams and Outlook to ensure that all your team mem
 
 Planner provides a simple and visual way for teams to organize their work. Customers can use Planner to create plans, organize and assign tasks, share progress, and collaborate on content. Planner provides several interactive experiences, including a task board, a charts page, and a schedule view, as well as integrations throughout the Microsoft 365 suite of tools, apps, and services.
 
-[:::image type="content" source="../media/8-planner-91a3095f.png" alt-text="Microsoft Planner":::
-](../media/8-planner-7c8e52d2.png#lightbox)
+:::image type="content" source="../media/8-planner-91a3095f.png" alt-text="Screenshot of Microsoft Planner application.":::
+
 
 ### Board
 
