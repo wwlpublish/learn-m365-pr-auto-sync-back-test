@@ -23,7 +23,7 @@ public render(): JSX.Element {
   };
 
   return (
-    <DocumentCard onClickHref='https://bing.com'>
+    <DocumentCard onClickHref='http://bing.com'>
       <DocumentCardPreview { ...previewProps } />
       <DocumentCardTitle title='Revenue stream proposal fiscal year 2016 version02.pptx' />
       <DocumentCardActivity

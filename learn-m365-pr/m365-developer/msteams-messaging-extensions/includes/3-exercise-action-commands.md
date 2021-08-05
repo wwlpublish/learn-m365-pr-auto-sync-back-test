@@ -323,7 +323,7 @@ Add a new file **planets.json** to the **./src/server/planetBot** folder and add
     "numSatellites": 0,
     "wikiLink": "https://en.wikipedia.org/wiki/Venus",
     "imageLink": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Venus-real_color.jpg",
-    "imageAlt": "&quot;Image processing by R. Nunes&quot;, link to https://www.astrosurf.com/nunes [Public domain]"
+    "imageAlt": "&quot;Image processing by R. Nunes&quot;, link to http://www.astrosurf.com/nunes [Public domain]"
   },
   {
     "id": "3",
@@ -400,7 +400,7 @@ Add a new file **planetSelectorCard.json** to the **./src/server/planetBot** fol
 
 ```json
 {
-  "$schema": "https://adaptivecards.io/schemas/adaptive-card.json",
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
   "type": "AdaptiveCard",
   "version": "1.0",
   "body": [
@@ -508,7 +508,7 @@ Add a new file **planetDisplayCard.json** to the **./src/server/planetBot** fold
 
 ```json
 {
-  "$schema": "https://adaptivecards.io/schemas/adaptive-card.json",
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
   "type": "AdaptiveCard",
   "version": "1.0",
   "body": [
@@ -660,7 +660,7 @@ From the command line, navigate to the root folder for the project and execute t
 gulp ngrok-serve
 ```
 
-This gulp task will run many other tasks all displayed within the command-line console. The **ngrok-serve** task builds your project and starts a local web server (https://localhost:3007). It then starts ngrok with a random subdomain that creates a secure URL to your local webserver.
+This gulp task will run many other tasks all displayed within the command-line console. The **ngrok-serve** task builds your project and starts a local web server (http://localhost:3007). It then starts ngrok with a random subdomain that creates a secure URL to your local webserver.
 
 > [!NOTE]
 > Microsoft Teams requires all content displayed within a tab be loaded from an HTTPS request. In development, can be done using the tool [ngrok](https://www.ngrok.com) that creates a secure rotatable URL to your local HTTP webserver. Ngrok is included as a dependency within the project so there is nothing to setup or configure.

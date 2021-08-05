@@ -301,7 +301,7 @@ Once you see the following in the **Debug Console** window...
 
 ![Screenshot of the VS Code Debug Console](../media/05-vscode-debug-app-01.png)
 
-Open a browser and navigate to **https://localhost:5000/api/notifications** to subscribe to change notifications. If successful you'll see output that includes a subscription ID like the one below:
+Open a browser and navigate to **http://localhost:5000/api/notifications** to subscribe to change notifications. If successful you'll see output that includes a subscription ID like the one below:
 
 ![Screenshot of a successful subscription](../media/05-vscode-debug-app-02.png)
 
@@ -429,7 +429,7 @@ public async Task<ActionResult<string>> Get()
 
 Within Visual Studio Code, select **Run > Start debugging** to run the application.
 
-Navigate to the following url: **https://localhost:5000/api/notifications**. This will register a new subscription.
+Navigate to the following url: **http://localhost:5000/api/notifications**. This will register a new subscription.
 
 In the Visual Studio Code **Debug Console** window, approximately every 15 seconds, notice the timer checking the subscription for expiration:
 

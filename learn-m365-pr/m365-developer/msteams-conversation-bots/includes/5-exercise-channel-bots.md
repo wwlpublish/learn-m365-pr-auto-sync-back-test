@@ -135,7 +135,7 @@ Locate the existing `onMessage()` handler in the class constructor. Replace the 
 ```typescript
 const value = { cardAction: "update", count: 0 };
 const card = CardFactory.adaptiveCard({
-  $schema: "https://adaptivecards.io/schemas/adaptive-card.json",
+  $schema: "http://adaptivecards.io/schemas/adaptive-card.json",
   type: "AdaptiveCard",
   version: "1.0",
   body: [
@@ -208,7 +208,7 @@ private async updateCardActivity(context): Promise<void> {
     count: context.activity.value.count + 1
   };
   const card = CardFactory.adaptiveCard({
-    $schema: "https://adaptivecards.io/schemas/adaptive-card.json",
+    $schema: "http://adaptivecards.io/schemas/adaptive-card.json",
     type: "AdaptiveCard",
     version: "1.0",
     body: [

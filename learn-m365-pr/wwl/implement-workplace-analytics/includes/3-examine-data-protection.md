@@ -24,7 +24,7 @@ The Data Controller role determines the purpose and means of processing a user's
 The Data Processor role processes personal data on the behalf of the data controller. When your organization uses Workplace Analytics, Microsoft is the data processor. As a data processor, Microsoft will:
 
  -  Process personal data under the organization’s instructions, which are reflected in the Workplace Analytics configuration settings.
- -  Use Workplace Analytics to process all data provided to Microsoft (including personal data) according to the same [general privacy and security terms in the Online Services Terms (OST)](https://microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&amp;DocumentTypeId=46?azure-portal=true) as Microsoft 365.
+ -  Use Workplace Analytics to process all data provided to Microsoft (including personal data) according to the same [general privacy and security terms in the Online Services Terms (OST)](http://microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&amp;DocumentTypeId=46?azure-portal=true) as Microsoft 365.
  -  Implement technical and organizational security measures to protect the confidentiality of the organization’s (and employees’) data in Workplace Analytics.
  -  Provide Workplace Analytics features that help organizations meet their data-controller obligations and honor data-subject rights. These rights include the right of exclusion from processing, access, and erasure, and include the right of transparency about methods of processing.
 

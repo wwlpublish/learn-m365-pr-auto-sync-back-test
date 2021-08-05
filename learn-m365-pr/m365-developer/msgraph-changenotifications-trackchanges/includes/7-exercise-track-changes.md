@@ -116,7 +116,7 @@ The `Post` method will now call `CheckForUpdates` when a notification is receive
 
 Within Visual Studio Code, select **Run > Start debugging** to run the application.
 
-Navigate to the following url: **https://localhost:5000/api/notifications**. This will register a new subscription.
+Navigate to the following url: **http://localhost:5000/api/notifications**. This will register a new subscription.
 
 Open a browser and navigate to the [Microsoft 365 admin center (https://admin.microsoft.com/AdminPortal)](https://admin.microsoft.com/AdminPortal).
 

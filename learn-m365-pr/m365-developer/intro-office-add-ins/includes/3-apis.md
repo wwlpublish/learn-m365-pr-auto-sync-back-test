@@ -281,9 +281,9 @@ To make a module add-in, include the module extension point in your add-in's man
 ```xml
 ...
 <!-- Add Outlook module extension point. -->
-<VersionOverrides xmlns="https://schemas.microsoft.com/office/mailappversionoverrides"
+<VersionOverrides xmlns="http://schemas.microsoft.com/office/mailappversionoverrides"
                   xsi:type="VersionOverridesV1_0">
-  <VersionOverrides xmlns="https://schemas.microsoft.com/office/mailappversionoverrides/1.1"
+  <VersionOverrides xmlns="http://schemas.microsoft.com/office/mailappversionoverrides/1.1"
                     xsi:type="VersionOverridesV1_1">
 
     <!-- Begin override of existing elements. -->

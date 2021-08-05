@@ -34,7 +34,7 @@ Follow these steps to test your app in a browser:
 
 1. If it's your first time using **Microsoft 365 developer tenant**, you might not have any events in your Microsoft 365 developer tenant account's calendar. Before you start testing your app, visit https://outlook.office.com/calendar, and sign in with your **Microsoft 365 developer tenant** account. Add sample events for upcoming days in your calendar.
 
-2. In Visual Studio Code, run **Live Server** to test your app. Open your browser and go to https://localhost:3000.
+2. In Visual Studio Code, run **Live Server** to test your app. Open your browser and go to http://localhost:3000.
 
 3. Make sure to sign in with your **Microsoft 365 developer tenant** account. Consent to the required calendar permissions, and select **Accept**.
 

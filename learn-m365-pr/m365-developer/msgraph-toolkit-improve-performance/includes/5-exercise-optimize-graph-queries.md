@@ -140,7 +140,7 @@ Follow these steps to consume the Get component, to display a user's notebooks i
     - Windows: Ctrl-Shift-P
     - macOS: Cmd-Shift-P
 3. Run **Live Server** to test your app.
-4. Open your browser and go to https://localhost:3000.
+4. Open your browser and go to http://localhost:3000.
 5. Sign in with your Microsoft 365 developer account. Consent to the required permissions, and select **Accept**.
 6. A list of files will appear in your app, with information about the person who shared the file with you and the last modified time.
 

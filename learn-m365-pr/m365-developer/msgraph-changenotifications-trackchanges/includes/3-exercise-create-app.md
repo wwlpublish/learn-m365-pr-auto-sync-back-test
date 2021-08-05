@@ -37,7 +37,7 @@ On the **Register an application** page, set the values as follows:
 
 - **Name**: GraphNotificationTutorial
 - **Supported account types**: Accounts in any organizational directory and personal Microsoft accounts
-- **Redirect URI**: Web > https://localhost
+- **Redirect URI**: Web > http://localhost
 
 ![Screenshot of the Register an application page](../media/azure-ad-portal-new-app-01.png)
 
@@ -103,9 +103,9 @@ Session Status                online
 Account                       ???? ???? (Plan: Free)
 Version                       2.3.15
 Region                        United States (us)
-Web Interface                 https://127.0.0.1:4040
-Forwarding                    https://787b8292.ngrok.io -> https://localhost:5000
-Forwarding                    https://787b8292.ngrok.io -> https://localhost:5000
+Web Interface                 http://127.0.0.1:4040
+Forwarding                    http://787b8292.ngrok.io -> http://localhost:5000
+Forwarding                    https://787b8292.ngrok.io -> http://localhost:5000
 
 Connections                   ttl     opn     rt1     rt5     p50     p90
                               0       0       0.00    0.00    0.00    0.00
@@ -136,7 +136,7 @@ The application will start and display the following in the console:
 info: Microsoft.Hosting.Lifetime[0]
       Now listening on: https://localhost:5001
 info: Microsoft.Hosting.Lifetime[0]
-      Now listening on: https://localhost:5000
+      Now listening on: http://localhost:5000
 info: Microsoft.Hosting.Lifetime[0]
       Application started. Press Ctrl+C to shut down.
 info: Microsoft.Hosting.Lifetime[0]

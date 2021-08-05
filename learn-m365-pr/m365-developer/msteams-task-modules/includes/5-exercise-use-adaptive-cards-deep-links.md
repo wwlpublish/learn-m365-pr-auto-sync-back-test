@@ -34,7 +34,7 @@ From the **json** tab, replace the contents of the default card with the followi
 
 ```json
 {
-  "$schema": "https://adaptivecards.io/schemas/adaptive-card.json",
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
   "type": "AdaptiveCard",
   "version": "1.0",
   "body": [

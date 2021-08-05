@@ -93,7 +93,7 @@ You've now extended your app to show some of the user's files by using Microsoft
     npm start
     ```
 
-1. Your browser should point to `https://localhost:8080`.
+1. Your browser should point to `http://localhost:8080`.
 
 1. Select the **Sign in with Microsoft** button to sign in with your Microsoft 365 account.
 

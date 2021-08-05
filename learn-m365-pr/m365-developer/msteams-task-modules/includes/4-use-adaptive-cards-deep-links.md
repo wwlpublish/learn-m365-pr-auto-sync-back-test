@@ -18,7 +18,7 @@ The following JSON represents an Adaptive Card that contains an input box and si
 
 ```json
 {
-  "$schema": "https://adaptivecards.io/schemas/adaptive-card.json",
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
   "type": "AdaptiveCard",
   "version": "1.0",
   "body": [

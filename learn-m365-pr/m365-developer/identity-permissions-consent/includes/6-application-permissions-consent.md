@@ -31,7 +31,7 @@ There's also a dedicated admin consent endpoint you can use if you would like to
 ```http
 GET https://login.microsoftonline.com/{tenant}/v2.0/adminconsent?
   client_id=6731de76-14a6-49ae-97bc-6eba6914391e
-  &redirect_uri=https://localhost/myapp/permissions
+  &redirect_uri=http://localhost/myapp/permissions
   &scope=https://graph.microsoft.com/calendars.read%20https://graph.microsoft.com/mail.send
   &state=12345
 ```

@@ -76,7 +76,7 @@ Replace the contents of the **Card Payload Editor** with the following JSON:
 
 ```json
 {
-  "$schema": "https://adaptivecards.io/schemas/adaptive-card.json",
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
   "type": "AdaptiveCard",
   "version": "1.0",
   "body": [
@@ -192,7 +192,7 @@ Replace the existing card layout in the **Card Payload Editor** panel with the f
 
 ```json
 {
-  "$schema": "https://adaptivecards.io/schemas/adaptive-card.json",
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
   "type": "AdaptiveCard",
   "version": "1.0",
   "body": [

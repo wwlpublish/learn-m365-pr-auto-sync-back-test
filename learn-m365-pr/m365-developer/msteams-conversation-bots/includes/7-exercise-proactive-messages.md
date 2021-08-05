@@ -38,7 +38,7 @@ The card should now look like the following:
 
 ```typescript
 const card = CardFactory.adaptiveCard({
-  $schema: "https://adaptivecards.io/schemas/adaptive-card.json",
+  $schema: "http://adaptivecards.io/schemas/adaptive-card.json",
   type: "AdaptiveCard",
   version: "1.0",
   body: [

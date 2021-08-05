@@ -123,7 +123,7 @@ The final version of the **index.html** file will look like this example:
     - **macOS**: Cmd+Shift+P
 
     Run Live Server to test your app.
-1. Open your browser, and go to https://localhost:3000.
+1. Open your browser, and go to http://localhost:3000.
 1. Sign in with your Microsoft 365 developer account. Consent to the required permissions, and select **Accept**.
 1. Finally, you'll see that the components are automatically adapted to the dark theme and the signed-in button style has changed.
 

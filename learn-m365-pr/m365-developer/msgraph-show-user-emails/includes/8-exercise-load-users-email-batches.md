@@ -138,7 +138,7 @@ You've extended your app to show a user's emails by using Microsoft Graph in bat
     npm start
     ```
 
-1. Your browser should be pointing to `https://localhost:8080`.
+1. Your browser should be pointing to `http://localhost:8080`.
 1. Select the **Sign in with Microsoft** button to sign in with your Microsoft 365 account.
 1. After you sign in with your account, select the **Show email** button.
 1. You should see a list of the user's last 10 emails displayed in the app.

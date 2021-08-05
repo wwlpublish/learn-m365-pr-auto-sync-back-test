@@ -387,7 +387,7 @@ The last step is to add the two templates that contain the HTML email and the Ad
 
     ```json
     {
-      "$schema": "https://adaptivecards.io/schemas/adaptive-card.json",
+      "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
       "type": "AdaptiveCard",
       "version": "1.0",
       "body": [
@@ -821,7 +821,7 @@ require('dotenv').config();
 
 // load environment settings
 const PORT: any = process.env.port || process.env.PORT || 3007;
-const HOSTNAME: string = process.env.host || process.env.HOSTNAME || 'https://localhost';
+const HOSTNAME: string = process.env.host || process.env.HOSTNAME || 'http://localhost';
 const ALLOWED_SENDER: string = process.env.ALLOWED_SENDER || 'john.doe@contoso.com';
 const ACTION_PERFORMER_DOMAIN: string = process.env.ACTION_PERFORMER_DOMAIN || 'contoso.com';
 
@@ -945,7 +945,7 @@ Add the Adaptive Card template to the project by creating a new file **response-
 
 ```json
 {
-  "$schema": "https://adaptivecards.io/schemas/adaptive-card.json",
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
   "type": "AdaptiveCard",
   "version": "1.0",
   "body": [
@@ -1028,9 +1028,9 @@ Session Status                online
 Account                       ???? ???? (Plan: Free)
 Version                       2.3.15
 Region                        United States (us)
-Web Interface                 https://127.0.0.1:4040
-Forwarding                    https://787b8292.ngrok.io -> https://localhost:3007
-Forwarding                    https://787b8292.ngrok.io -> https://localhost:3007
+Web Interface                 http://127.0.0.1:4040
+Forwarding                    http://787b8292.ngrok.io -> http://localhost:3007
+Forwarding                    https://787b8292.ngrok.io -> http://localhost:3007
 
 Connections                   ttl     opn     rt1     rt5     p50     p90
                               0       0       0.00    0.00    0.00    0.00

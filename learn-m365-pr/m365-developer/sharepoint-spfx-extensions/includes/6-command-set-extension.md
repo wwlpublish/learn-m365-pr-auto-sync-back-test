@@ -103,7 +103,7 @@ When SharePoint receives the request with these query string parameters, it will
 The deployment of command set extensions is similar to other types of SharePoint Frameworks extensions. The existing SharePoint Feature framework is used to provision command set buttons into a SharePoint environment using the `<CustomAction>` element.
 
 ```xml
-<Elements xmlns="https://schemas.microsoft.com/sharepoint/">
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
   <CustomAction
     Title="CommandSetDemo"
     RegistrationId="100"

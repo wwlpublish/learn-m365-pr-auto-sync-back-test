@@ -22,7 +22,7 @@ In this exercise, you'll create a JavaScript app connected to Microsoft 365. You
     npm start
     ```
 
-1. Your default browser should open pointing to `https://localhost:8080`.
+1. Your default browser should open pointing to `http://localhost:8080`.
 1. Select the **Sign in with Microsoft** button to sign in with your Microsoft 365 account.
 1. After you sign in with your account and consent to the app, you should see the app showing your user name.
 1. Stop the Node.js server by selecting Ctrl+C in the terminal window.

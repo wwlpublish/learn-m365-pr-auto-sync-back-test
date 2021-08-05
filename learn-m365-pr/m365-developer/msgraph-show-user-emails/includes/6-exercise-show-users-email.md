@@ -70,7 +70,7 @@ You've extended your app to show a user's emails by using Microsoft Graph. Let's
     npm start
     ```
 
-1. Your browser should be pointing to `https://localhost:8080`.
+1. Your browser should be pointing to `http://localhost:8080`.
 1. Select the **Sign in with Microsoft** button to sign in with your Microsoft 365 account.
 1. After you sign in with your account, select the **Show email** button.
 1. If you're running the app for the first time, you'll be prompted to grant the app access to your email. To continue, consent to the request.

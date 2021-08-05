@@ -119,7 +119,7 @@ To configure an add-in to contain custom functions, the key settings in the mani
     <Host Name="Workbook"/>
   </Hosts>
    ...
-  <VersionOverrides xmlns="https://schemas.microsoft.com/office/taskpaneappversionoverrides" xsi:type="VersionOverridesV1_0">
+  <VersionOverrides xmlns="http://schemas.microsoft.com/office/taskpaneappversionoverrides" xsi:type="VersionOverridesV1_0">
     <Hosts>
       <Host xsi:type="Workbook">
         <AllFormFactors>

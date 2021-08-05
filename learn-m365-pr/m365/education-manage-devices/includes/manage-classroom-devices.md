@@ -85,7 +85,7 @@ You can then continue to set up more groups or select **All Done** to finish up:
 
 Use the following interactive guide to see how you can configure additional settings outside of express configuration for further customization of devices.
 
-[Link to interactive guide](https://mdm-intune-for-edu.immersivelearning.online/)
+[Link to interactive guide](http://mdm-intune-for-edu.immersivelearning.online/)
 
 ## What is School Data Sync?
 

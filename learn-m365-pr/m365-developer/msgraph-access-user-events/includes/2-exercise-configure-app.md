@@ -7,7 +7,7 @@ To start, register your Microsoft 365 application by creating an application reg
 | -------------- | :--------- | 
 | Name  | My app | 
 | Platform  | Single-page application  | 
-| Redirect URIs  | https://localhost  | 
+| Redirect URIs  | http://localhost  | 
 | Supported account types  | Accounts in this organizational directory only (Single tenant)  | 
 | API permissions  |Microsoft Graph User.Read (delegated)  | 
 
