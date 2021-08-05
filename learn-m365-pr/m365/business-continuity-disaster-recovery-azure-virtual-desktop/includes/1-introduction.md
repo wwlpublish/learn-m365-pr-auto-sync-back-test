@@ -1,10 +1,10 @@
-Natural or human-made disasters can affect the continuity of an organization's cloud infrastructure at any time. Organizations must anticipate the possibility of disaster and then plan for recovery. Such a plan can help ensure protection against data loss.
+Natural or human-made disasters can affect the continuity of an organization's cloud infrastructure at any time, without notice. Organizations must anticipate the possibility of disaster and then plan for recovery. Such planning is essential in helping to ensure protection against data loss.
 
-However, data loss isn't the only disaster for which IT professionals must plan. A comprehensive disaster-recovery plan also helps ensure business continuity. For example, a plan might involve redirecting requests or failing over to a secondary location when an application becomes unresponsive or a public cloud's entire region suffers an outage.
+However, data loss isn't the only disaster for which IT professionals must plan. A comprehensive disaster-recovery scheme also helps ensure business continuity across the organization. For example, a plan might involve redirecting requests or failing over to a secondary location when an application becomes unresponsive or a public cloud's entire region suffers an outage.
 
-Suppose you work for a financial organization that has offices in many different geo-locations, and it recognizes the need to prepare a plan for data replication and recovery should an outage occur in one of these offices. 
+For this module, let's suppose you work for a financial organization that has offices across many different geo-locations. The organization recognizes the need to prepare a plan for data replication and recovery should an outage occur in one or more of these offices. 
 
-Your role is to ensure that your Microsoft Azure infrastructure is configured correctly in the event of such an occurrence. Your main concern is your existing Azure Virtual Desktop environment, which the organization's employees, who mostly work remotely, use to access critical applications.
+Your specific role is to ensure that your organization's Azure infrastructure is correctly configured to address such a major challenge. Your first and main concern is protecting your existing Azure Virtual Desktop environment, which the organization's employees, who mostly work remotely, use to access critical company applications.
 
 In this module, you'll learn how to adopt a business continuity and disaster recovery (BCDR) strategy for Azure Virtual Desktop. You'll also learn how to keep your company's apps and workloads running during planned and unplanned service or Azure outages.
 
