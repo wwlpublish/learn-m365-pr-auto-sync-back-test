@@ -77,12 +77,6 @@ Downloading and installing Windows Configuration Designer is outside this unit's
 > [!NOTE]
 > If you choose to perform *Advanced provisioning* with an imported package, you will see the items already configured on the right of the screen. You can select each configuration to see the values that are configured.
 
-### Interactive guide on creating provisioning packages
-
-Watch and interact with this online guide, which will walk you through the process of creating a provisioning package.
-
-[Interactive Guide for creating a provisioning package](Place guide URL here)
-
 ## Provisioning time estimates
 
 There are no hard and fast rules on how long it will take to install a provisioning package on a device since a lot depends on how you're deploying the package. For example, via a network or directly at the device. It also considers how many apps and policies are included in the provisioning package and the number of additional configurations that need to be applied.
