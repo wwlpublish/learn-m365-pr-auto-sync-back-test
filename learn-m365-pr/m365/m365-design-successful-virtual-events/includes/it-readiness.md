@@ -19,7 +19,7 @@ Different types of events have different bandwidth needs. Let’s review the med
 
 Quality issues that impact your presenters, such as RTP traffic delays, affect all your participants. The same is true for issues with RTMP stream issues. Even if you’re hosting a live event, you need to ensure you have sufficient bandwidth for multiple people to watch from the same location.
 
-To learn more about network considerations for Microsoft Teams, check out [Prepare your organization’s network for Microsoft Teams](https://docs.microsoft.com/microsoftteams/prepare-network).
+To learn more about network considerations for Microsoft Teams, check out [Prepare your organization’s network for Microsoft Teams](/microsoftteams/prepare-network?azure-portal=true).
 
 ## Review the policy configurations for live events
 If you’re using Teams Live Events for your event, your IT team can control who can and can’t create live events and which features they can access by using policies. Before your event, it’s a good idea to have your IT admin review those policies to make sure that your event participants have the right levels of access.
@@ -31,7 +31,7 @@ Consider the following questions:
 
 Make sure that you have meeting policies that support presenters sharing their screens. Also, review your existing policy configurations to make sure they don’t limit the bandwidth for sharing.
 
-Learn more about the Teams policies at [Set up live events policies](https://docs.microsoft.com/microsoftteams/teams-live-events/set-up-for-teams-live-events#step-3-set-up-live-events-policies).
+Learn more about the Teams policies at [Set up live events policies](/microsoftteams/teams-live-events/set-up-for-teams-live-events#step-3-set-up-live-events-policies?azure-portal=true).
 
 ## Validate your live events settings
 You can use the settings in Teams to control who can access which features. 
@@ -53,7 +53,7 @@ In addition to policies and settings, there are some configurations that apply a
 - **Allow eCDN**: If you’re using an enterprise content delivery network to host content for your event, you can enable it across the tenant. 
 
 > [!NOTE] 
-> An eCDN can help address network and bandwidth issues in Live Events. Using an eCDN limits network traffic crossing the company firewall, for example. Many eCDNs also support P2P or cache proxy solutions and real-time monitoring. [Learn more about video delivery in Teams](https://docs.microsoft.com/en-us/stream/network-overview).
+> An eCDN can help address network and bandwidth issues in Live Events. Using an eCDN limits network traffic crossing the company firewall, for example. Many eCDNs also support P2P or cache proxy solutions and real-time monitoring. [Learn more about video delivery in Teams](/stream/network-overview?azure-portal=true).
 
 ## Set up support resources for your event
 When you configure **Support URL** you define the link that your event attendees see during the event and which they can use to get help if they run into technical issues. You'll also need technical staff available to provide support for your event staff. The technical staff needs to be familiar with your event content and any production tools, like encoders, that you're using.
