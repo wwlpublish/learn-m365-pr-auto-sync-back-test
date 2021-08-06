@@ -14,7 +14,7 @@ The **Policy dashboard** allows you to quickly see the policies in your organiza
 - **Active:** The status of the policy.
 
 ![Policy template](../media/policy-template.png)
- 
+
 ## Policy templates
 
 Insider risk management templates contain pre-defined policy conditions that define the types of risk indicators monitored by a policy. Before you can create a policy, you need to assign a template to it in the policy creation wizard. Currently, you can choose from one of the following types of templates.
@@ -26,10 +26,6 @@ This policy template prioritizes the risk indicators that are associated with da
 ### Data leaks
 
 Data leaks include accidental oversharing of information outside your organization or data theft with malicious intent. This policy template prioritizes detection of suspicious SharePoint Online data downloads, file and folder sharing, copying files to portable devices such as USB drives, printing files, and copying data to personal cloud messaging and storage services.
-
-### Offensive language in email
-
-This policy template uses built-in offensive language classifiers to automatically detect email message content in Exchange Online that may be considered abusive or offensive. These classifiers use a combination of artificial intelligence and keywords to identify language in email that are likely to violate anti-harassment policies.
 
 ## Policy settings
 
