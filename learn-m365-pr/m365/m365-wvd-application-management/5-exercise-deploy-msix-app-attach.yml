@@ -4,7 +4,7 @@ title: Exercise - Deploy MSIX app attach
 metadata:
   title: Exercise - Deploy MSIX app attach
   description: Exercise to prepare an Azure Virtual Desktop environment, prepare and share a host pool, publish MSIX app attach, and test MSIX app attach.
-  ms.date: 07/15/2021
+  ms.date: 08/02/2021
   author: ndelgado
   ms.author: nedelgad
   ms.topic: interactive-tutorial
