@@ -9,7 +9,7 @@ Before your virtual summit, connect with your IT admin on the following technica
 
 Different types of events have different bandwidth needs. Let’s review the media flows for a virtual event (both a Teams meeting and a Teams Live Event that uses external production tools). 
 
-(insert media flows image here)
+:::image type="content" source="../media/media-flows.png" alt-text="A diagram shows how data flows from an event - a Teams meeting or Live Event - out to a content delivery network and then to event attendees.":::
 
 - Traffic from Teams meetings and webinars uses Real Time Protocol (RTP).
    - RTP traffic is sensitive to network strength. Delays can affect interactions between presenters. Jitter and packet loss can affect audio and video quality.
@@ -56,4 +56,4 @@ In addition to policies and settings, there are some configurations that apply a
 > An eCDN can help address network and bandwidth issues in Live Events. Using an eCDN limits network traffic crossing the company firewall, for example. Many eCDNs also support P2P or cache proxy solutions and real-time monitoring. [Learn more about video delivery in Teams](/stream/network-overview?azure-portal=true).
 
 ## Set up support resources for your event
-When you configure **Support URL** you define the link that your event attendees see during the event and which they can use to get help if they run into technical issues. You'll also need technical staff available to provide support for your event staff. The technical staff needs to be familiar with your event content and any production tools, like encoders, that you're using.
+When you configure the **Support URL** setting, you define the link that your event attendees see during the event and which they can use to get help if they run into technical issues. You'll also need technical staff available to provide support for your event staff. The technical staff needs to be familiar with your event content and any production tools, like encoders, that you're using.
