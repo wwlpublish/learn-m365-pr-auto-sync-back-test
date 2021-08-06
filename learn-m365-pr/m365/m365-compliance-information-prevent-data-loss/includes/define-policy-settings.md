@@ -24,7 +24,7 @@ Two rules are defined by default when you use a policy template and follow the a
 
 Using the **U.K. Financial Data** policy template we started with earlier, the image below shows a summary of the two default rules associated with this DLP policy. One rule is for detecting a low volume of content, and a second rule is for detecting a high volume of content. Notice in the image below the Actions listed in the two rules are different. One set of actions is defined for when a low volume of content is detected, and a different set of actions is defined for when a high volume of data is detected. This allows you to respond differently based on the seriousness of the policy violation. For example, sending an email that includes one to two credit card numbers might be deemed acceptable and addressed with a simple warning to the user, while sending one with 1,000 credit card numbers may be considered a critical security breach and call for a different response entirely. It is up to your organization to decide how to respond and configure the DLP policy rules accordingly.
 
-:::image type="content" source="../media/define-policy-settings.png" alt-text="A screenshot shows the Define policy settings page of the DLP solution, with the choice to Create or customize advanced DLP rules selected.":::
+:::image type="content" source="../media/customize-content-to-protect.png" alt-text="A screenshot shows the Customize content type page of the DLP solution with two different custom settings: 'low-volume and high-volume content detected'.":::
 
 ## Review the U.K. Financial Data policy settings
 
