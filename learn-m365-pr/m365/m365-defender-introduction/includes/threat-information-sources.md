@@ -20,6 +20,7 @@ Microsoft Defender for Identity uses signals from your on-premises Active Direct
 
 Watch this three-and-a-half-minute video to understand how Microsoft Defender for Identity integrates with Microsoft 365 Defender.
 
+>
 > [!Video https://www.microsoft.com/videoplayer/embed/RE4HcEU]
 
 ## Microsoft Defender for Office 365
@@ -28,6 +29,7 @@ Microsoft Defender for Office 365 helps safeguard your organization against mali
 
 Watch this short video for an overview of Microsoft Defender for Office 365.
 
+>
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4HhT6]
 
 With the integration of Microsoft Defender for Office 365 into Microsoft 365 Defender, you get to see and respond to alerts and data from a larger attack that includes email and collaboration tools.
