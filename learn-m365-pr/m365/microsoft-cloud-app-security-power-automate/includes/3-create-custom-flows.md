@@ -22,6 +22,10 @@ To create a custom flow alert with Power Automate to remove sensitive file shari
 
     :::image type="content" source="../media/3-user-options-switch.png" alt-text="User options switch.":::
 
-## SOMETHING ABOUT NEW IG
+## Explore custom flows
+
+View a [video version](WAITING FOR VIDEO TO BE CREATED) of the interactive guide (captions available in more languages).
 
 [![Automate alerts management with Microsoft Power Automate and Cloud App Security](../media/power-automate-custom-flow.png)](https://aka.ms/Automate_alerts-management_with-Microsoft-Power-Automate_and-Cloud-App-Security)
+
+Be sure to click the full-screen option in the video player. When you're done, use the **Back** arrow in your browser to come back to this page.
