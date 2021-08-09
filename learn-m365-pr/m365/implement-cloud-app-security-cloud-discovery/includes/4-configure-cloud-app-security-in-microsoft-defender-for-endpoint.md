@@ -61,7 +61,3 @@ After you have configured integration, you can use the Cloud Discovery dashboard
 
    > [!TIP]
    > As with any other Cloud Discovery source, you can export the data from the Win10 Endpoint Users report for further investigation.
-
-## SOMETHING ABOUT NEW IG
-
-[![Detect threats and manage alerts with Microsoft Cloud App Security](../media/detect-threats.png)](https://aka.ms/DetectThreats-ManageAlerts-MCAS_InteractiveGuide)
