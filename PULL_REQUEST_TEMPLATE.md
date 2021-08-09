@@ -8,7 +8,7 @@ Before requesting or performing a merge in upstream:
        https://review.docs.microsoft.com/help/contribute/contribute-how-to-write-pull-request-quality-criteria?branch=master
 - [ ] Verify your PR has a useful title that reflects what it is for.
 
-When your changes are ready to merge, please comment with `#sign-off`. 
+When your changes are ready to merge, please comment with `#sign-off`.
 
 ## Go-Live  
 
