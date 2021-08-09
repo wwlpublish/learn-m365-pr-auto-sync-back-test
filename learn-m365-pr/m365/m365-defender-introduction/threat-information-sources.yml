@@ -1,9 +1,9 @@
 ### YamlMime:ModuleUnit
 uid: learn-m365-pr.m365-defender-introduction.threat-information-sources
-title: What are the other Defender products
+title: Threat information sources for Microsoft 365 Defender
 metadata:
   unitType: learning-content
-  title: What are the other Defender products
+  title: Threat information sources for Microsoft 365 Defender
   description: Learn about the other Microsoft Defender products and how they integrate with Microsoft 365 Defender.
   ms.date: 04/24/2021
   author: iankensey 
