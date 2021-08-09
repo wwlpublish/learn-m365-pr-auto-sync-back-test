@@ -54,10 +54,10 @@ quiz:
       choices:
       - content: "When creating a file policy, select Quarantine for admin"
         isCorrect: false
-        explanation: "That's incorrect. This option doesn’t exist. You need to select Put in admin quarantine to let administrators to review files."
+        explanation: "That's incorrect. This option doesn’t exist. You need to select Put in admin quarantine to let administrators review files."
       - content: "When creating a file policy, select Put in admin quarantine"
         isCorrect: true
-        explanation: "That's Correct! You need to select Put in admin quarantine to let administrators to review files."
+        explanation: "That's Correct! You need to select Put in admin quarantine to let administrators review files."
       - content: "When creating a file policy, select Put in review for admin"
         isCorrect: false
         explanation: "That's incorrect. This makes it possible for administrators to decide what happens with the file."
