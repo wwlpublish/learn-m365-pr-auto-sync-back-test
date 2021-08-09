@@ -22,7 +22,7 @@ As a security analyst, you might be very familiar with other security analysis p
 
 The Microsoft 365 Defender portal lets you monitor and manage security across your on-premises identities, data, devices, apps, and infrastructure. Here you can easily view your organization's security health, act to configure devices, users, and apps, and get alerts for suspicious activity. The home page shows a customizable set of cards that provide summary information for a quick assessment of ongoing security threats. The set of cards displayed depends on roles assigned to the signed-in user account.  
 
-![image of home page of the Microsoft 365 Defender portal]()
+:::image type="content" source="../media/defender-homepage.png" alt-text="Screenshot of the welcome page in the Microsoft 365 Defender portal." lightbox="../media/defender-homepage.png":::
 
 The Microsoft 365 Defender portal provides access to:
 
