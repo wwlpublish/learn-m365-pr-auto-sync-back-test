@@ -15,9 +15,9 @@ content: |
 quiz:
     title: Check your knowledge
     questions:
-    - content: "Which Microsoft 365 Defender portal service is designed to help optimize your organization’s overall security health by providing insights and guidance?"
+    - content: "Which service available in the Microsoft 365 Defender portal is designed to help optimize your organization’s overall security health by providing a summary of different security features and capabilities?"
       choices:
-      - content: "Microsoft 365 Security Assessment"
+      - content: "Microsoft 365 security assessment"
         isCorrect: false
         explanation: "A Microsoft 365 security assessment helps identify and uncover possible solution gaps but is not an automated tool."
       - content: "Microsoft Secure Score"
@@ -30,22 +30,22 @@ quiz:
         isCorrect: false
         explanation: "Azure Information Protection Scanner is used to identify documents that may need sensitivity labels or classification applied."
 
-    - content: "Which of the following security monitoring services are not available in the Microsoft 365 Defender portal?"
+    - content: "What feature is used to proactive search for malware, suspicious files, and activities?"
       choices:
-      - content: "Azure Active Directory"
+      - content: "Classification"
         isCorrect: false
-        explanation: "Azure AD features alerts in the Microsoft 365 Defender portal."
-      - content: "Microsoft Cloud App Security (MCAS)"
+        explanation: "Sorry, that's not right. Classification is used to help protect against data loss by adding labels that classify documents, email messages, and sites. The classification applies protection to the content or site based on the settings chosen for that label."
+      - content: "The Alerts tab"
         isCorrect: false
-        explanation: "MCAS features alerts in the Microsoft 365 Defender portal."
-      - content: "Microsoft Defender for Office 365"
+        explanation: "Not quite. The Alerts page provides visibility by collecting alerts across your Microsoft 365 environment, including alerts from Microsoft Cloud App Security, Azure Active Directory (Azure AD), and Microsoft Defender."
+      - content: "Hunting"
         isCorrect: true
-        explanation: "Correct. Microsoft Defender for Office 365 is not an available solution. Microsoft Defender for Endpoint is featured in the Microsoft 365 Defender portal."
-      - content: "Intune device compliance"
+        explanation: "That's right! The hunting feature allows you to defend your Microsoft 365 organization by proactively <i>hunting</i> for malware, suspicious files, and activities."
+      - content: "Permissions"
         isCorrect: false
-        explanation: "Device compliance features reporting and alerts in the Microsoft 365 Defender portal."
+        explanation: "That's not correct. Permissions manage who in your organization has access to the Microsoft 365 Defender portal to view content and perform tasks."
       
-    - content: "What is one example of the intelligent and personalized recommendations the Microsoft 365 Defender portal provides?"
+    - content: "How does the Microsoft 365 Defender provide intelligent and personalized recommendations to users?"
       choices:
       - content: "Shared global administration accounts"
         isCorrect: false
@@ -59,4 +59,3 @@ quiz:
       - content: "Role-based access control"
         isCorrect: true
         explanation: "Correct. The Microsoft 365 Defender portal uses role-based access control so different security or administrator roles will see different home page cards that will be more impactful to their duties."
-      
