@@ -21,7 +21,6 @@ roles:
 - security-engineer
 products: 
 - m365
-- Defender
 modules:
 - learn-m365-pr.m365-defender-introduction
 - learn-m365-pr.m365-defender-enable
