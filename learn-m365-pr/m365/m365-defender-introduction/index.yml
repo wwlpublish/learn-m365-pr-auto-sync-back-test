@@ -31,7 +31,7 @@ products:
 units:
 - learn-m365-pr.m365-defender-introduction.introduction
 - learn-m365-pr.m365-defender-introduction.what-microsoft-365-defender
-- learn-m365-pr.m365-defender-introduction.what-microsoft-defender-products
+- learn-m365-pr.m365-defender-introduction.threat-information-sources
 - learn-m365-pr.m365-defender-introduction.knowledge-check
 - learn-m365-pr.m365-defender-introduction.summary
 badge:

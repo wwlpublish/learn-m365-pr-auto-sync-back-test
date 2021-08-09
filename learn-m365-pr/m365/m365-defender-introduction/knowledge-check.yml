@@ -14,11 +14,11 @@ durationInMinutes: 3
 content: |
 quiz:
   questions: 
-  - content: "Which Microsoft Defender product, once integrated to Microsoft 365 Defender, allows access to email, attachments, and link detections?"
+  - content: "Which Microsoft Defender product, once integrated to Microsoft 365 Defender, provides threat information on email, attachments, and link detections?"
     choices:
     - content: "Microsoft Defender for Endpoint"
       isCorrect: false
-      explanation: "This is incorrect. Microsoft Defender for Endpoint focuses on Endpoints and not email attachments."
+      explanation: "Incorrect. Microsoft Defender for Endpoint focuses on devices and not email attachments."
     - content: "Microsoft Defender for Office 365"
       isCorrect: true
       explanation: "That is correct. Microsoft Defender for Office 365 integration lets security teams have visibility over malicious emails, harmful attachments, and questionable links"
@@ -29,7 +29,7 @@ quiz:
     choices:
     - content: "To automatically analyze threat data across applications, endpoints, identity, and data to build a complete picture of each attack."
       isCorrect: true
-      explanation: "That's Correct! Microsoft 365 Defender brings together the Microsoft 365 security portfolio to provide a single view of an attack."
+      explanation: "That's correct! Microsoft 365 Defender brings together the Microsoft 365 security portfolio to provide a single view of an attack."
     - content: "To improve your organization's security perimeter and stop cyber-attacks by minimizing your organization's attack surface."
       isCorrect: false
       explanation: "That is incorrect. Microsoft 365 Defender reduces the amount of time between the start of an attack and its remediation."
