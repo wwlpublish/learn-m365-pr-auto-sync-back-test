@@ -4,11 +4,11 @@ title: Introduction to coexistence and interoperability
 metadata:
   title: Introduction to coexistence and interoperability
   description: Learn about coexistence and interoperatiblity between Microsoft Teams and Skype for Business.
-  ms.date: 09/30/2019
+  ms.date: 07/15/2021
   author: AlexandraHrt
   ms.author: elizapo
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-durationInMinutes: 2
+durationInMinutes: 1
 content: |
   [!include[](includes/introduction.md)]

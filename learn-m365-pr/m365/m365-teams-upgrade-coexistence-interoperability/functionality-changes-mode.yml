@@ -4,11 +4,11 @@ title: How the available functionality in Teams client changes based on mode
 metadata:
   title: How the available functionality in Teams client changes based on mode
   description: Learn how different modes change the available functionality.
-  ms.date: 09/30/2019
+  ms.date: 07/16/2021
   author: AlexandraHrt
   ms.author: elizapo
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-durationInMinutes: 5
+durationInMinutes: 2
 content: |
   [!include[](includes/functionality-changes-mode.md)]

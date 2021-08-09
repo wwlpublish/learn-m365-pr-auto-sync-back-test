@@ -49,3 +49,9 @@ Open the appropriate policies, and then review the conditions and access control
 - Grants access as long as the device is marked as compliant
 
 :::image type="content" source="../media/conditional-access.png" alt-text="A screenshot displays the Teams Policy page. The Name is displayed, and a number of other settings are visible that relate to settings described in the preceding text.":::
+
+## Configure conditional access policies
+
+Watch the following video for a demonstration of how to set up a conditional access policy:
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWHb8R]

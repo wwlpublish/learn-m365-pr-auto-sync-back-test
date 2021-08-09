@@ -4,12 +4,12 @@ title: Summary and knowledge check
 metadata:
   title: Summary and knowledge check
   description: Review phase 3 of the service adoption framework.
-  ms.date: 10/01/2019
+  ms.date: 07/15/2021
   author: lizap
   ms.author: elizapo
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-durationInMinutes: 10
+durationInMinutes: 14
 content: |
   [!include[](includes/summary.md)]
 quiz:

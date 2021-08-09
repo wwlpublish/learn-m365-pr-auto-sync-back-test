@@ -117,6 +117,8 @@ See **Learn More** for links to provisioning Audio Conferencing and Communicatio
 Media bypass enables you to shorten the path of media traffic to improve performance. Media is kept between the Session Border Controller (SBC) and the client, instead of it being sent to the Microsoft Phone System. To configure media bypass, the SBC and the client must be in the same location or network.
 Without media bypass, media will flow to Microsoft data centers, and back to the SBC. With media bypass, the media is kept between the Teams user and SBC as shown in the following diagram:
 
+:::image type="content" source="../media/media-bypass-1.png" alt-text="Media bypass" lightbox="../media/media-bypass-1.png":::
+
 To troubleshoot media bypass:
 
 - Check that the Teams client has access to the public IP address of the SBC, including from the internal network. This is known as “hair-pinning”.

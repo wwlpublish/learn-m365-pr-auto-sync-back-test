@@ -23,7 +23,7 @@ There are two ways to assign users to a role: from the role or from the user.
 
 If you're granting admin permissions to more than one user, start at the role.
 
-1. In the Exchange admin center, go to **Roles**. Select **Roles** to view all of the admin roles available for your organization.
+1. In the Microsoft 365 admin center, go to **Roles**. Select **Roles** to view all of the admin roles available for your organization.
 1. Select the admin role that you want to assign to the user.
     1. Select **Assigned admins**, and then select **Add**.
     2. Enter the user's display name or username, and then select the user from the list of suggestions.
@@ -34,7 +34,7 @@ If you're granting admin permissions to more than one user, start at the role.
 
 If you're granting admin permissions to just one user, you can either use the steps above to start from the admin role or you can edit the user directly to manage their roles.
 
-1. In the Exchange admin center, go to **Users > Active users**.
+1. In the Microsoft 365 admin center, go to **Users > Active users**.
 1. Select the user whose admin role you want to change.
 1. Next to **Roles**, select **Manage roles**.
 1. Select the admin role that you want to assign to the user.

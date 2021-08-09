@@ -25,4 +25,4 @@ After an Azure AD user with an assigned Windows 10 license signs in to a Windows
 :::image type="content" source="../media/windows-settings-app-c4fa1203.jpg" alt-text="screenshot of the Windows 10 Settings app":::
 
 
-**Additional reading.** For more information, see [Deploying Windows 10 Enterprise licenses](/windows/deployment/deploy-enterprise-licenses#win-10-activated-subscription-active?azure-portal=true).
+**Additional reading.** For more information, see [Deploying Windows 10 Enterprise licenses](https://docs.microsoft.com/windows/deployment/deploy-enterprise-licenses#win-10-activated-subscription-active?azure-portal=true).

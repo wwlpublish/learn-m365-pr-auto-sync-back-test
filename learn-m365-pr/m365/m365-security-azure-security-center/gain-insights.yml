@@ -4,11 +4,11 @@ title: Gain insights about your security with the Azure Security Center dashboar
 metadata:
   title: Gain insights about your security with the Azure Security Center dashboard
   description: Learn how the Azure Security Center dashboard can give you a detailed understanding of the security of your environment.
-  ms.date: 09/08/2020
+  ms.date: 07/15/2021
   ms.author: elizapo
   author: iankensey
   ms.topic: interactive-tutorial
   ms.prod: learning-teams
-durationInMinutes: 4
+durationInMinutes: 3
 content: |
   [!include[](includes/gain-insights.md)]

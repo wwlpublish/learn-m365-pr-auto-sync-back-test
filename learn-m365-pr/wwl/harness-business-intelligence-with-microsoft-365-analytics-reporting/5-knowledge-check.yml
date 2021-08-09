@@ -4,7 +4,7 @@ title: Knowledge check
 metadata:
   title: Knowledge check
   description: "Knowledge check"
-  ms.date: 02/17/2021
+  ms.date: 08/09/2021
   author: wwlpublish
   ms.author: dahans
   ms.topic: interactive-tutorial
@@ -20,43 +20,43 @@ quiz:
     choices:
     - content: "The ability automatically sort your email"
       isCorrect: false
-      explanation: "That's incorrect. Outlook includes many intelligent ways of sorting email, but MyAnalytics does not sort your email."
+      explanation: "Incorrect. Outlook includes many intelligent ways of sorting email, but MyAnalytics does not sort your email."
     - content: "Analytics about your work patterns delivered as an email"
       isCorrect: true
-      explanation: "That's correct. MyAnalytics is a summary of your working patterns generated from your everyday work in Microsoft 365. It is delivered as a report by email once a week."
+      explanation: "Correct. MyAnalytics is a summary of your working patterns generated from your everyday work in Microsoft 365. It is delivered as a report by email once a week."
     - content: "The ability to run AI modules in Azure"
       isCorrect: false
-      explanation: "That's incorrect. MyAnalytics includes AI to generate insights and make suggestions but does not give you the ability to run AI modules in Azure."
+      explanation: "Incorrect. MyAnalytics includes AI to generate insights and make suggestions but does not give you the ability to run AI modules in Azure."
   - content: "Where can reports about SharePoint activity and usage be found?"
     choices:
     - content: "SharePoint Admin Center"
       isCorrect: true
-      explanation: "That's correct. Use the SharePoint Admin Center to view reports about how SharePoint is being used within your organization."
+      explanation: "Correct. Use the SharePoint Admin Center to view reports about how SharePoint is being used within your organization."
     - content: "Configuration Manager"
       isCorrect: false
-      explanation: "That's incorrect. You cannot add a new user to your Microsoft 365 subscription using Workspace Analytics."
+      explanation: "Incorrect. You cannot add a new user to your Microsoft 365 subscription using Workspace Analytics."
     - content: "Intune Admin Center"
       isCorrect: false
-      explanation: "That's incorrect. Use the Intune Admin Center to view reports about devices, not SharePoint usage."
+      explanation: "Incorrect. Use the Intune Admin Center to view reports about devices, not SharePoint usage."
   - content: "In which ways can the Microsoft 365 admin center home page be customized?"
     choices:
     - content: "You cannot customize the Microsoft 365 admin center home page."
       isCorrect: false
-      explanation: "That's incorrect. Microsoft 365 admin center gives you the ability to customize the home page by adding cards."
+      explanation: "Incorrect. Microsoft 365 admin center gives you the ability to customize the home page by adding cards."
     - content: "Add cards to suit your needs."
       isCorrect: true
-      explanation: "That's correct. The Microsoft 365 admin center home page has several default cards and in addition you can customize the page by adding cards to suit your needs."
+      explanation: "Correct. The Microsoft 365 admin center home page has several default cards and in addition you can customize the page by adding cards to suit your needs."
     - content: "Use the Microsoft 365 compliance center."
       isCorrect: false
-      explanation: "That's incorrect. The Microsoft 365 compliance center provides access to data and tools to manage your organization's compliance needs, but does not allow you to customize the Microsoft 365 admin center home page."
+      explanation: "Incorrect. The Microsoft 365 compliance center provides access to data and tools to manage your organization's compliance needs, but does not allow you to customize the Microsoft 365 admin center home page."
   - content: "What is the main benefit of Workplace Analytics?"
     choices:
     - content: "It helps the organization to understand how groups collaborate."
       isCorrect: true
-      explanation: "That's correct. Workplace Analytics helps you understand how your organization invests its time by giving you insight into how groups collaborate across the organization."
+      explanation: "Correct. Workplace Analytics helps you understand how your organization invests its time by giving you insight into how groups collaborate across the organization."
     - content: "It reduces costs by only charging for storage that you really need."
       isCorrect: false
-      explanation: "That's incorrect. Workplace Analytics is a tool to collaboration insights tool, and does not report on storage requirements."
+      explanation: "Incorrect. Workplace Analytics is a tool to collaboration insights tool, and does not report on storage requirements."
     - content: "It reducing the time required to write reports in Word."
       isCorrect: false
-      explanation: "That's incorrect. Workplace Analytics provides organizational insights into collaboration and provides data about how much time is spent in meetings. It does not provide assistance with writing reports in Word."
+      explanation: "Incorrect. Workplace Analytics provides organizational insights into collaboration and provides data about how much time is spent in meetings. It does not provide assistance with writing reports in Word"

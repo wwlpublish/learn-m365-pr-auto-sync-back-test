@@ -4,11 +4,11 @@ title: Customize start and taskbar layouts
 metadata:
   title: Customize start and taskbar layouts
   description: Learn about how you can customize start and taskbar layouts
-  ms.date: 06/14/2019
+  ms.date: 07/15/2021
   author: lizap
   ms.author: aleha
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-durationInMinutes: 5
+durationInMinutes: 3
 content: |
   [!include[](includes/3-customize-layouts.md)]

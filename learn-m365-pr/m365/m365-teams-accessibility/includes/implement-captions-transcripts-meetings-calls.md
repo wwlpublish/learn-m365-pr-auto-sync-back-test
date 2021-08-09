@@ -75,7 +75,7 @@ With cloud recording and transcription enabled, your users can generate automati
 
 1. Find recorded meetings under **My content** - > **Meetings**:
 
-   :::image type="content" source="../media/transcripts-meetings-01.png" alt-text="Screenshot showing the.":::
+   :::image type="content" source="../media/transcripts-meetings-01.png" alt-text="Screenshot showing the Meetings button selected in the 'My Content' menu tab.":::
 
 1. Select the video to enable captions and transcripts by selecting **Update video details** on the video in the list:
 
