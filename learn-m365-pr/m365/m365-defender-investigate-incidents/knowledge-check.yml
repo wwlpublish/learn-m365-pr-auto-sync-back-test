@@ -1,6 +1,6 @@
 ### YamlMime:ModuleUnit
 uid: learn-m365-pr.m365-defender-investigate-incidents.knowledge-check
-title: Knowledge check ### Do not edit: use "Knowledge check" as the title; also, don't add another title in the quiz element or an associated markdown page (if such a markdown page exists which is rare)
+title: Knowledge check
 metadata:
   unitType: knowledge_check
   title: Knowledge check
@@ -14,36 +14,36 @@ durationInMinutes: 3
 content: |
 quiz:
   questions:
-  - content: "Which three elements that you can use for analysis?"
+  - content: "Which three elements can you use to analyze an incident?"
     choices:
     - content: "Devices, users, and mailboxes"
       isCorrect: true
-      explanation: "An incident includes information on devices, users, and mailboxes that might have been impacted in the attack."
+      explanation: "That's right! An incident includes information on devices, users, and mailboxes that might have been impacted in the attack."
     - content: "Devices, users, and attack origin"
       isCorrect: false
-      explanation: "Attack origin is not one of the ways that you can view incidents."
+      explanation: "Please try again. Attack origin is not one of the ways that you can view incidents."
     - content: "Devices, users, and resources"
       isCorrect: false
-      explanation: "Resources are not one of the ways that you can view incidents."
+      explanation: "Not quite. Resources are not one of the ways that you can view incidents."
   - content: "Why is it important to correctly classify the incident?"
     choices:
     - content: "To track trends and sort incidents by which ones are more important."
       isCorrect: false
-      explanation: "By correctly classifying an incident, Microsoft 365 can learn what are false positives and what are genuine threats."
+      explanation: "That isn't right. By correctly classifying an incident, Microsoft 365 can learn what are false positives and what are genuine threats."
     - content: "To track trends and close the incident."
       isCorrect: false
-      explanation: "By correctly classifying an incident, Microsoft 365 can learn what are false positives and what are genuine threats"
+      explanation: "Not quite. By correctly classifying an incident, Microsoft 365 can learn what are false positives and what are genuine threats."
     - content: "To track trends and to improve incident reporting quality."
       isCorrect: true
-      explanation: "By correctly classifying an incident, Microsoft 365 can learn what are false positives and what are genuine threats."
+      explanation: "That's right! By correctly classifying an incident, Microsoft 365 can learn what are false positives and what are genuine threats and ultimately improve incident reporting quality."
   - content: "You want to enable email notifications for incidents in Microsoft 365 Defender. What security permission do you need to configure email notification settings?"
     choices:
     - content: "Manage email settings"
       isCorrect: false
-      explanation: "To enable email notifications requires changes to the security settings."
+      explanation: "Not quite. To enable email notifications requires configuring another type of settings."
     - content: "Manage security settings"
       isCorrect: true
-      explanation: "You need 'Manage security settings' permissions to configure email notification settings."
+      explanation: "That's correct! You need 'Manage security settings' permissions to configure email notification settings."
     - content: "Manage notification settings"
       isCorrect: false
-      explanation: "To enable email notifications requires changes to the security settings."
+      explanation: "Please try again. To enable email notifications requires configuring another type of settings."

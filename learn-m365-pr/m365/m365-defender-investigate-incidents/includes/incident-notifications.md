@@ -1,10 +1,10 @@
-Microsoft 365 Defender, when it detects a new incident, or if there’s an update on an existing incident, can send an email notification to you and your security team.  This email contains:
+Microsoft 365 Defender, when it creates a new incident or if there’s an update on an existing incident, can send an email notification to you or your security team. This email contains:
 
 - The incident name
 - The severity level
 - The category of incident
 
-Once you get the notification, you can go directly to the incident and start your investigation right away.
+Once you get the notification, you can go directly to the incident from the email and start your management and investigation right away.
 
 ## Permissions
 
@@ -16,7 +16,7 @@ To start receiving notifications for new or progressing incidents, you'll need t
 
 1. From the Microsoft 365 Defender service
 1. Select **Settings** then select **Microsoft 365 Defender**, and finally select **Incident email notifications**.
-1. Next, you'll need to add an item. On the Basics page, provide:
+1. Next, you'll need to add an item. On the **Name email notification rule** page, provide:
    1. The **rule name**
    1. A **description** of the rule.
 1. Next, you'll need to **configure the notification**:
@@ -29,9 +29,9 @@ To start receiving notifications for new or progressing incidents, you'll need t
    - **Include organization name in the email** - Select if you want your organization name to appear in the email notification.
    - **Include tenant-specific portal link** - Select if you want to add a link with the tenant ID in the email notification for access to a specific Microsoft 365 tenant.
 
-1. Finally, you'll need to add the email addresses that will receive the incident notifications. You can add one or more email addresses.
+1. Finally, you'll need to add one ore more email addresses that will receive the incident notifications.
 
 > [!NOTE]
 > It’s a good idea to test the notification and ensure each recipient receives it in their inboxes.
 
-Once you've reviewed the notification settings, you can create the rule to start receiving incident notifications through email based on the settings.
+Once you've reviewed the notification settings, you can create the rule to start receiving incident notifications through email.
