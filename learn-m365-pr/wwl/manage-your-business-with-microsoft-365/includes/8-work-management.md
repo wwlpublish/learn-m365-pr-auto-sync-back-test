@@ -10,14 +10,15 @@ Planner fully integrates into Teams and Outlook to ensure that all your team mem
 
 Planner provides a simple and visual way for teams to organize their work. Customers can use Planner to create plans, organize and assign tasks, share progress, and collaborate on content. Planner provides several interactive experiences, including a task board, a charts page, and a schedule view, as well as integrations throughout the Microsoft 365 suite of tools, apps, and services.
 
-[![Microsoft Planner](../media/8-planner.png)](../media/8-planner.png#lightbox)
+:::image type="content" source="../media/8-planner-91a3095f.png" alt-text="Screenshot of Microsoft Planner application.":::
+
 
 ### Board
 
 The default view is the board, which shows each bucket and the associated tasks. This is where the team member will manage the tasks they are working on. They can move tasks between buckets, update the progress, add additional information to the task, including attachments, and mark a task as completed when it is done. The board has several tools available to filters to refine the view:
 
-- Filter - Lets you narrow down what you see. Some of the options include, late, today, tomorrow, this week, next week, future, and tasks assigned to specific team members.
-- Group by - lets you re-sort your tasks by bucket, assigned to, progress, due date, and any of the assigned labels.
+ -  Filter - Lets you narrow down what you see. Some of the options include, late, today, tomorrow, this week, next week, future, and tasks assigned to specific team members.
+ -  Group by - lets you re-sort your tasks by bucket, assigned to, progress, due date, and any of the assigned labels.
 
 ### Charts
 
@@ -41,4 +42,4 @@ You don’t have to manually assign permissions to all those resources because a
 
 ### Create groups
 
-You can create Microsoft 365 Groups from various tools, including Outlook, Outlook on the web, Outlook Mobile, SharePoint, Planner, Teams, and more. Which tool you choose to start from depends a bit on what kind of group you're working with. 
+You can create Microsoft 365 Groups from various tools, including Outlook, Outlook on the web, Outlook Mobile, SharePoint, Planner, Teams, and more. Which tool you choose to start from depends a bit on what kind of group you're working with.
