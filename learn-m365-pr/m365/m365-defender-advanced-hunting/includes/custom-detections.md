@@ -30,19 +30,19 @@ To create a custom detection rule, the query *must* return the following columns
 - **Timestamp**: used to set the timestamp for generated alerts
 - **ReportId**: enables lookups for the original records
 - One of the following columns that identify specific devices, users, or mailboxes:
-  - DeviceId
-  - DeviceName
-  - RemoteDeviceName
-  - RecipientEmailAddress
-  - SenderFromAddress (envelope sender or Return-Path address)
-  - SenderMailFromAddress (sender address displayed by email client)
-  - RecipientObjectId
-  - AccountObjectId
-  - AccountSid
-  - AccountUpn
-  - InitiatingProcessAccountSid
-  - InitiatingProcessAccountUpn
-  - InitiatingProcessAccountObjectId
+  - `DeviceId`
+  - `DeviceName`
+  - `RemoteDeviceName`
+  - `RecipientEmailAddress`
+  - `SenderFromAddress` (envelope sender or Return-Path address)
+  - `SenderMailFromAddress` (sender address displayed by email client)
+  - `RecipientObjectId`
+  - `AccountObjectId`
+  - `AccountSid`
+  - `AccountUpn`
+  - `InitiatingProcessAccountSid`
+  - `InitiatingProcessAccountUpn`
+  - `InitiatingProcessAccountObjectId`
 
 Simple queries, such as those that don't use the project or summarize operator to customize or aggregate results, typically return these common columns.
 
@@ -50,7 +50,7 @@ Simple queries, such as those that don't use the project or summarize operator t
 
 Here's a sample query that counts the number of unique *DeviceId’s* with antivirus detections. It uses this count to find only the devices with more than five detections. To return the latest Timestamp and the corresponding `ReportId`, it uses the summarize function with the *arg_max()* function.
 
-```Kusto
+```PowerShell
 DeviceEvents
 | where Timestamp > ago(1d)
 | where ActionType == "AntivirusDetection"
@@ -86,7 +86,7 @@ When selecting the frequency, make sure it matches when you want to monitor dete
 
 ### Choose impact entities
 
-When you build a custom detection rule, you need to identify the columns in your query results where you expect to find the main affected or impacted entity. For example, a query might return sender *SenderFromAddress* or *SenderMailFromAddress* and recipient *RecipientEmailAddress* addresses. Identifying which of these columns represent the main impacted entity helps the service aggregate relevant alerts, correlate incidents, and target response actions.
+When you build a custom detection rule, you need to identify the columns in your query results where you expect to find the main affected or impacted entity. For example, a query might return sender `SenderFromAddress` or `SenderMailFromAddress` and recipient `RecipientEmailAddress` addresses. Identifying which of these columns represent the main impacted entity helps the service aggregate relevant alerts, correlate incidents, and target response actions.
 
 You can select only one column for each entity type (mailbox, user, or device). Columns that are not returned by your query can't be selected.
 
@@ -96,7 +96,7 @@ Your custom detection rule can automatically take actions on devices, files, or 
 
 #### Actions on devices
 
-These actions are applied to devices in the *DeviceId* column of the query results:
+These actions are applied to devices in the `DeviceId` column of the query results:
 
 - **Isolate device**: uses Microsoft Defender for Endpoint to apply full network isolation, preventing the device from connecting to any application or service.
 - **Collect investigation package**: collects device information in a ZIP file
@@ -106,11 +106,11 @@ These actions are applied to devices in the *DeviceId* column of the query resul
 
 #### Actions on files
 
-Once a file is selected, you can choose to apply the **Quarantine file action** on files in the *SHA1*, *InitiatingProcessSHA1*, *SHA256*, or *InitiatingProcessSHA256* column of the query results. This action deletes the file from its current location and places a copy in quarantine.
+Once a file is selected, you can choose to apply the **Quarantine file action** on files in the `SHA1`, `InitiatingProcessSHA1`, `SHA256`, or `InitiatingProcessSHA256` column of the query results. This action deletes the file from its current location and places a copy in quarantine.
 
 #### Actions on users
 
-When selected, the **Mark user as compromised** action is taken on users in the *AccountObjectId*, *InitiatingProcessAccountObjectId*, or *RecipientObjectId* column of the query results. This action sets the users risk level to "high" in Azure Active Directory, triggering corresponding identity protection policies.
+When selected, the **Mark user as compromised** action is taken on users in the `AccountObjectId`, `InitiatingProcessAccountObjectId`, or `RecipientObjectId` column of the query results. This action sets the users risk level to "high" in Azure Active Directory, triggering corresponding identity protection policies.
 
 ### Set the rule scope
 
