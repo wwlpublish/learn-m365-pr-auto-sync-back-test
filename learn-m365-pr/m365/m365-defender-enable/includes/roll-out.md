@@ -10,7 +10,7 @@ Next, you'll need to deploy the supported services that come with Microsoft 365 
 
 A license to a Microsoft 365 security product typically entitles you to use Microsoft 365 Defender in the Microsoft 365 Defender portal without extra licensing cost.
 
-For detailed licensing information, [read the licensing requirements](/microsoft-365/security/defender/prerequisites?view=o365-worldwide#licensing-requirements&preserve-view=true).
+For detailed licensing information, [read the licensing requirements](/microsoft-365/security/defender/prerequisites).
 
 ### Check roles and permissions
 
@@ -25,7 +25,7 @@ Accounts assigned the following Azure AD roles can access Microsoft 365 Defender
 - Security Reader
 
 > [!NOTE]
-> Role-based access control settings in Microsoft Defender for Endpoint influence access to data. For more information, read about [managing access to Microsoft 365 Defender](/microsoft-365/security/defender/m365d-permissions?view=o365-worldwide).
+> Role-based access control settings in Microsoft Defender for Endpoint influence access to data. For more information, read about [managing access to Microsoft 365 Defender](/microsoft-365/security/defender/m365d-permissions).
 
 ## Deploying supported services
 
@@ -33,7 +33,7 @@ Microsoft 365 Defender aggregates data from the various supported services that 
 
 To get the best protection and optimize Microsoft 365 Defender, you should deploy all applicable supported services on your network.
 
-For more information on deploying supported services, see the [deploy threat protection page](/microsoft-365/solutions/deploy-threat-protection?view=o365-worldwide&preserve-view=true).
+For more information on deploying supported services, see the [deploy threat protection page](/microsoft-365/solutions/deploy-threat-protection).
 
 The supported security services are:
 
@@ -77,4 +77,4 @@ Deploying each service typically requires provisioning to your tenant and some i
 |Microsoft Defender for Endpoint|[Microsoft Defender for Endpoint deployment guide](/microsoft-365/security/defender-endpoint/deployment-phases?view=o365-worldwide)|See provisioning instructions|
 |Microsoft Defender for Office 365|None, provisioned with Office 365|[Configure Microsoft Defender for Office 365 policies](/microsoft-365/security/office-365-security/defender-for-office-365?view=o365-worldwide)|
 |Microsoft Defender for Identity|[Quickstart: Create your Microsoft Defender for Identity instance](/defender-for-identity/install-step1)|See provisioning instructions|
-|Microsoft Cloud App Security|None|[Quickstart: Get started with Microsoft Cloud App Security](cloud-app-security/getting-started-with-cloud-app-security)|
+|Microsoft Cloud App Security|None|[Quickstart: Get started with Microsoft Cloud App Security](/cloud-app-security/getting-started-with-cloud-app-security)|
