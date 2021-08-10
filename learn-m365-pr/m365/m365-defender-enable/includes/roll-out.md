@@ -70,7 +70,7 @@ Regardless of which deployment path you choose and which services your organizat
 
 #### Deploy the services
 
-Deploying each service typically requires provisioning to your tenant and some initial configuration. See the following table to understand how each of these services are deployed.
+Deploying each service typically requires provisioning to your tenant and some initial configuration. See the following table to understand how each of these services is deployed.
 
 |Service|Provisioning instructions|Initial configuration|
 |-|-|-|

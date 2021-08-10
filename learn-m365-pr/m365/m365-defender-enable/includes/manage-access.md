@@ -1,6 +1,6 @@
 Microsoft 365 Defender portal is the new home for all your security products. By bringing together all Defender products, it allows for the correlation of security signals in a single unified view. You can reach the portal at <security.microsoft.com>
 
-Additionally, each of the Defender products has its own portal that lets you configure security specific settings, and to investigate and address security threats. For completeness, this table shows the respective security portals for each of the other Defender products.
+Additionally, each of the Defender products has its own portal that lets you configure security-specific settings, and to investigate and address security threats. For completeness, this table shows the respective security portals for each of the other Defender products.
 
 |Security Portal name|Link|
 |-|-|
