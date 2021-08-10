@@ -33,6 +33,6 @@ quiz:
     - content: "To improve your organization's security perimeter and stop cyber-attacks by minimizing your organization's attack surface."
       isCorrect: false
       explanation: "That is incorrect. Microsoft 365 Defender reduces the amount of time between the start of an attack and its remediation."
-    - content: "To automatically lockdown any malicious or suspicious behavior by users within your organization and to notify your security team."
+    - content: "To automatically lock down any malicious or suspicious behavior by users within your organization and to notify your security team."
       isCorrect: false
       explanation: "That is incorrect. Microsoft 365 Defender reduces the amount of time between the start of an attack and its remediation."

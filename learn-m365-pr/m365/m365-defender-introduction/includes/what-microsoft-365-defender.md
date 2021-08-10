@@ -18,7 +18,7 @@ Some of the key features are:
 
 ## The Microsoft 365 Defender portal
 
-As a security analyst, you might be very familiar with other security analysis products and their portals to know how to monitor, recognize, and remediate cyber attacks. In other words, you know how to “work the glass” for these security products and now need to see how the “glass” for Microsoft 365 Defender works.
+As a security analyst, you might be familiar with other security analysis products and their portals to know how to monitor, recognize, and remediate cyber attacks. In other words, you know how to “work the glass” for these security products and now need to see how the “glass” for Microsoft 365 Defender works.
 
 The Microsoft 365 Defender portal lets you monitor and manage security across your on-premises identities, data, devices, apps, and infrastructure. Here you can easily view your organization's security health, act to configure devices, users, and apps, and get alerts for suspicious activity. The home page shows a customizable set of cards that provide summary information for a quick assessment of ongoing security threats. The set of cards displayed depends on roles assigned to the signed-in user account.  
 
