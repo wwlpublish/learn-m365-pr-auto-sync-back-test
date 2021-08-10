@@ -1,7 +1,7 @@
 
 On any given day, you and your security team have to deal with a seemingly never-ending flow of security threats to your organization’s assets and infrastructure. Continued exposure to high volumes of incidents can sometimes lead to alert or incident fatigue, which can increases the time between identification and remediation.
 
-Microsoft 365 Defender can help reduce the volume of alerts and incidents you and your security team needs to focus on, by using automated investigation and response (AIR).
+With automated investigation and response (AIR), Microsoft 365 Defender can help reduce the number of remediation actions you need to determine and perform, reducing the demands on your security team to deal with ongoing volume of alerts and incidents.
 
 ## What is automated investigation and response
 
@@ -21,10 +21,10 @@ Automated investigation and self-healing look at an enormous number of entities,
 
 ## Action center
 
-Action center provides a comprehensive view of Microsoft 365 Defender automated investigation and response (AIR) actions. When you visit the Action center page, you'll be presented with two options:
+Action center provides a comprehensive view of Microsoft 365 Defender automated investigation and response (AIR) actions. When you visit the Action center page, you'll be presented with two lists of actions:
 
-- **Pending**: Displays a list of actions that require attention.
-- **History**: Serves as an audit log for actions that were taken.
+- **Pending**: The list of actions that require your review and approval.
+- **History**: An audit log for actions that were taken.
 
 > [!NOTE]
 > You can approve or reject actions one at a time or select multiple actions if they have the same type of action, such as Quarantine file.
@@ -33,11 +33,10 @@ Action center provides a comprehensive view of Microsoft 365 Defender automated 
 
 The Action center brings together remediation actions across Defender for Endpoint and Defender for Office 365. It defines a common language for all remediation actions and provides a unified investigation experience where you can:
 
-- Approving pending remediation actions.
-- Viewing an audit log of already approved remediation actions.
-- Reviewing completed remediation actions.
+- Approve pending remediation actions from the **Pending** tab.
+- View an audit log of already approved remediation actions.
   
-If needed, you can review historical actions via the **History** tab, where you can see the state of each of the previous actions. It also lets you see if the decision was made automatically or by you or a member of your security team.
+The **History** tab is where you can see the state of previous actions. It also lets you see if the decision was made automatically or by you or a member of your security team.
 
 ## Actions available in Action center
 

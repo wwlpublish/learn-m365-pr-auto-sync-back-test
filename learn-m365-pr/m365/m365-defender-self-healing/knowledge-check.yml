@@ -18,24 +18,24 @@ quiz:
     choices:
     - content: "Automated investigation and remediation, and advanced hunting"
       isCorrect: false
-      explanation: "Only automated investigation and remediation are valid. Automated hunting does not support self-healing. "
+      explanation: "Incorrect. Advanced hunting does not support self-healing. "
     - content: "Automated investigation and remediation, and Action center"
       isCorrect: true
-      explanation: "Both of these features can be utilized to enable self-healing across your security environment."
+      explanation: "That's right! Both of these features can be utilized to enable self-healing across your security environment."
     - content: "Automated investigation and remediation, and Autoquarantine"
       isCorrect: false
-      explanation: "Autoquarantine is not a valid feature of self-healing."
-  - content: "In the investigation details view, which tab would you use to find a visual representation of the current investigation?"
+      explanation: "That's not right. Autoquarantine is not a valid feature of self-healing."
+  - content: "In the investigation details view, which tab would you use to find the users impacted by the automated investigation?"
     choices:
     - content: "Pending actions"
       isCorrect: false
-      explanation: "This tab lists items that require approval to proceed."
+      explanation: "Incorrect. This tab lists items that require approval to proceed."
     - content: "Alerts"
       isCorrect: false
-      explanation: "This tab lists alerts associated with the investigation. Alerts can come from threat protection features on a user's device, in Office apps, Cloud App Security, and other Microsoft 365 Defender features."
+      explanation: "That's not right. This tab lists alerts associated with the investigation. Alerts can come from threat protection features on a user's device, in Office apps, Cloud App Security, and other Microsoft 365 Defender features."
     - content: "Investigation graph"
       isCorrect: true
-      explanation: "Provides a visual representation of the investigation. Depicts entities and lists threats found, along with alerts and whether any actions are awaiting approval. "
+      explanation: "That's correct! Provides a visual representation of the investigation. Depicts entities and lists threats found, along with alerts and whether any actions are awaiting approval. "
   - content: "In the Action center, which tab would you use to see a list of all the actions that require attention?"
     choices:
     - content: "Pending" 
