@@ -13,7 +13,7 @@ title: Enable Microsoft 365 Defender in your organization
 summary: Understand the steps needed to enable Microsoft 365 Defender for your organization. 
 abstract: | 
   By the end of this module, you'll be able to:
-    - Make your environment ready to deploy Microsoft 365 Defender. 
+    - Prepare to roll out Microsoft 365 Defender. 
     - Enable Microsoft 365 Defender in your organization. 
     - Manage who has access to the functions and data in Microsoft 365 Defender. 
 prerequisites: | 
@@ -31,8 +31,8 @@ products:
 - m365-threat-protection
 units:
 - learn-m365-pr.m365-defender-enable.introduction
-- learn-m365-pr.m365-defender-enable.get-started-microsoft-365-defender
-- learn-m365-pr.m365-defender-enable.manage-access-microsoft-365-defender
+- learn-m365-pr.m365-defender-enable.roll-out
+- learn-m365-pr.m365-defender-enable.manage-access
 - learn-m365-pr.m365-defender-enable.knowledge-check
 - learn-m365-pr.m365-defender-enable.summary
 badge:
