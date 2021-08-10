@@ -29,8 +29,8 @@ products:
   - m365-security-center
 units:
 - learn-m365-pr.m365-defender-self-healing.introduction
-- learn-m365-pr.m365-defender-self-healing.what-automated-self-healing
-- learn-m365-pr.m365-defender-self-healing.understand-automated-investigation-response
+- learn-m365-pr.m365-defender-self-healing.automated-self-healing
+- learn-m365-pr.m365-defender-self-healing.automated-investigation-response
 - learn-m365-pr.m365-defender-self-healing.knowledge-check
 - learn-m365-pr.m365-defender-self-healing.summary
 badge:

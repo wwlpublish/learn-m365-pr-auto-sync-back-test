@@ -1,5 +1,5 @@
 ### YamlMime:ModuleUnit
-uid: learn-m365-pr.m365-defender-self-healing.understand-automated-investigation-response
+uid: learn-m365-pr.m365-defender-self-healing.automated-investigation-response
 title: Understand automated investigation and response
 metadata:
   unitType: learning-content
@@ -12,4 +12,4 @@ metadata:
   ms.prod: learning-m365
 durationInMinutes: 5 
 content: |
-  [!include[](includes/understand-automated-investigation-response.md)]
+  [!include[](includes/automated-investigation-response.md)]
