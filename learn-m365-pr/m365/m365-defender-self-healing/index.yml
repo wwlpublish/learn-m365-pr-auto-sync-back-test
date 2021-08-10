@@ -3,18 +3,19 @@ uid: learn-m365-pr.m365-defender-self-healing
 metadata:
   moduleType: standard
   title: Automate self-healing with Microsoft 365 Defender 
-  description: Learn how Microsoft 365 Defender uses automated self-healing and automated investigation and response to automate threat detection and remediation.
+  description: Learn how Microsoft 365 Defender uses automated self-healing for incident investigation and response to automate threat detection and remediation.
   ms.date: 05/20/2021
   author: iankensey
   ms.author: beccarobins
   ms.topic: interactive-tutorial 
   ms.prod: learning-m365
 title: Automate self-healing with Microsoft 365 Defender
-summary: Learn how Microsoft 365 Defender uses automated self-healing and automated investigation and response to automate threat detection and remediation.
+summary: Learn how Microsoft 365 Defender uses automated self-healing for incident investigation and response to automate threat detection and remediation.
 abstract: | 
   By the end of this module, you'll be able to:
     - Understand automated self-healing in your security environment 
-    - Utilize automated investigation and response in addressing cyber-attacks  
+    - Utilize automated investigation and response in addressing cyber-attacks
+    - Work with Action center
 prerequisites: | 
   - None
 iconUrl: /learn/achievements/generic-badge.svg
