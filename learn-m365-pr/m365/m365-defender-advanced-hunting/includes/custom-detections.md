@@ -1,6 +1,6 @@
 Custom detections let you proactively monitor for and respond to various events and system states, including suspected breach activity and misconfigured endpoints. This is made possible by customizable detection rules that automatically trigger alerts and response actions.
 
-This where the full power of advanced hunting comes into its own, and will allow you to craft bespoke detection searches, which you can link to your existing or new remediation actions.
+This is where the full power of advanced hunting comes into its own, and will allow you to craft bespoke detection searches, which you can link to your existing or new remediation actions.
 
 You can set them to run at regular intervals, generating alerts and taking response actions whenever there are matches.
 

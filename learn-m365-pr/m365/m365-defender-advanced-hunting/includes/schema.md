@@ -51,7 +51,7 @@ The following table lists all the schemas and a short description of the data it
 
 ## How to handle hunting errors
 
-You’ve built your first Kusto query, and you execute it.  But instead of the results you were expecting, you receive an error message. Microsoft 365 Defender’s advanced hunting system displays errors to notify of syntax mistakes, or whenever the queries exceeds one of the predefined quotas or usage parameters. The table below provides a list of each error type you may encounter when building and running your queries and how to mitigate them.
+You’ve built your first Kusto query, and you execute it.  But instead of the results you were expecting, you receive an error message. Microsoft 365 Defender’s advanced hunting system displays errors to notify of syntax mistakes, or whenever the queries exceed one of the predefined quotas or usage parameters. The table below provides a list of each error type you may encounter when building and running your queries and how to mitigate them.
 
 |**Error type**|**Cause**|**Resolution**|**Error message examples**|
 |-|-|-|-|
