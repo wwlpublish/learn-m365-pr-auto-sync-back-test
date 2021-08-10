@@ -29,11 +29,12 @@ products:
   - m365-security-center
   - m365-threat-protection
 units:
-- learn-m365-pr.m365-defender-advanced-hunting.introduction-hunting-query-language
 - learn-m365-pr.m365-defender-advanced-hunting.introduction
+- learn-m365-pr.m365-defender-advanced-hunting.kusto
+- learn-m365-pr.m365-defender-advanced-hunting.schema
+- learn-m365-pr.m365-defender-advanced-hunting.custom-detections
 - learn-m365-pr.m365-defender-advanced-hunting.knowledge-check
-- learn-m365-pr.m365-defender-advanced-hunting.use-custom-detections
 - learn-m365-pr.m365-defender-advanced-hunting.summary
-- learn-m365-pr.m365-defender-advanced-hunting.understand-hunting-data-schema
+
 badge:
   uid: learn-m365-pr.m365-defender-advanced-hunting.badge
