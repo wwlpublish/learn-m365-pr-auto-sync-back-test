@@ -29,7 +29,7 @@ To start receiving notifications for new or progressing incidents, you'll need t
    - **Include organization name in the email** - Select if you want your organization name to appear in the email notification.
    - **Include tenant-specific portal link** - Select if you want to add a link with the tenant ID in the email notification for access to a specific Microsoft 365 tenant.
 
-1. Finally, you'll need to add one ore more email addresses that will receive the incident notifications.
+1. Finally, you'll need to add one or more email addresses that will receive the incident notifications.
 
 > [!NOTE]
 > It’s a good idea to test the notification and ensure each recipient receives it in their inboxes.

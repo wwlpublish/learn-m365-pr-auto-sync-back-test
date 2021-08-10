@@ -4,11 +4,11 @@ Incidents ensure elements otherwise spread across various portals and queues are
 
 Grouping related alerts and threat data into an incident helps you see:
 
-- Where the attack started.
-- What tactics were used.
-- How far the attack has gone into your tenant.
-- The scope of the attack, such as how many devices, users, and mailboxes were impacted.
-- All the data associated with the attack.
+- Where the attack started
+- What tactics were used
+- How far the attack has gone into your tenant
+- The scope of the attack, such as how many devices, users, and mailboxes were impacted
+- All the data associated with the attack
 
 ## Example cyber attack
 
@@ -84,7 +84,7 @@ You can manage incidents from the **Manage incident** pane for an incident.
 
 ### Incident name
 
-Microsoft 365 Defender automatically assigns a name based on alert attributes such as the number of endpoints affected, users affected, detection sources or categories. This allows you to quickly understand the scope of the incident. You can modify the default name, for example, to match your SOC best practices.
+Microsoft 365 Defender automatically assigns a name based on alert attributes such as the number of endpoints affected, users affected, detection sources, or categories. This allows you to quickly understand the scope of the incident. You can modify the default name, for example, to match your SOC best practices.
 
 ### Incident tags
 

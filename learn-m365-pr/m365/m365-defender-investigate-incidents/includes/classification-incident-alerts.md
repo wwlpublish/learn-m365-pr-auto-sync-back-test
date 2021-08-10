@@ -1,4 +1,4 @@
-One of the key skills for managing incidents is triaging the incident queue. This is similar to managing your email inbox to focus on the important messages first. However, triaging a busy incident queue can be daunting. Most incidents in your queue will be genuine attacks and can be thought of as true positives, which is used as an early indicator that the attack is real. Some of the incidents in your queue will be benign or were raised by mistake. These are thought of as false positives. 
+One of the key skills for managing incidents is triaging the incident queue. This is similar to managing your email inbox to focus on the important messages first. However, triaging a busy incident queue can be daunting. Most incidents in your queue will be genuine attacks and can be thought of as true positives, which are used as an early indicator that the attack is real. Some of the incidents in your queue will be benign or were raised by mistake. These are thought of as false positives. 
 
 When triaging your incident queue, you want to remove the false positives as soon as possible so you can focus on investigating and remediating the true positives.
 
@@ -67,7 +67,7 @@ Classifying incidents and alerts can help you to improve their quality, which is
 To reduce the number of _false positives_ in your incident queue, you may need to make changes to your environment. You may need to:
 
 - Change applications or scripts used within your organization.
-- Setup and configure a custom indicator allow list.
+- Setup and configure a custom indicator allowlist.
 - Create suppression rules.
 - Define policies that prevent false positives.
 
