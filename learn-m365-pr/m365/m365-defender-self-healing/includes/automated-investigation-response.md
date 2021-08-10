@@ -20,7 +20,7 @@ When an automated investigation runs, details about that investigation are avail
 
 You can get to the results of an automated investigation through the Action center. In the Action center, you can view actions that are awaiting approval and actions that were already approved or completed.
 
-The first place you’ll go to is the **incident details** page. This lets you and your team view detailed information about any incident, and to drill down to find any alerts that were triggered, and information about any affected devices, user accounts and mailboxes.
+The first place you’ll go to is the **incident details** page. This lets you and your team view detailed information about any incident, and to drill down to find any alerts that were triggered, and information about any affected devices, user accounts, and mailboxes.
 
 :::image type="content" source="../media/3-investigation-page.png" alt-text="Screenshot showing a fragment of the Microsoft 365 Defender portal incident investigation page.":::
 
