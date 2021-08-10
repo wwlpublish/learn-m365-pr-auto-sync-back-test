@@ -1,6 +1,6 @@
 You've learned how to deliver inclusive and accessible events for your summit with Microsoft 365.
 
-Preparation and practice are key to your event's success. In this module you learned how to create an inclusive event, including making sure the presentation and videos are accessible. You've learned how managing your virtual event affects its inclusivity. Finally, you learned how to use post-event feedback and reports to make your next event even better.
+Preparation and practice are key to your event's success. In this module you learned how to create an inclusive event, including making sure the presentation and videos are accessible. You've learned how managing your virtual event affects its inclusivity, and how to make sure that you're ready, from a technical perspective, to support your event content and attendees. Finally, you learned how to use post-event feedback and reports to make your next event even better.
 
 ## Learn more
 
