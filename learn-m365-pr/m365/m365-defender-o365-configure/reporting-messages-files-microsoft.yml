@@ -1,5 +1,5 @@
 ### YamlMime:ModuleUnit
-uid: learn-m365-pr.m365-defender-o365-explore.reporting-messages-files-microsoft
+uid: learn-m365-pr.m365-defender-o365-explore.reporting-messages-files
 title: Reporting messages and files to Microsoft
 metadata:
   unitType: learning-content
@@ -12,4 +12,4 @@ metadata:
   ms.prod: learning-m365
 durationInMinutes: 2
 content: |
-  [!include[](includes/reporting-messages-files-microsoft.md)]
+  [!include[](includes/reporting-messages-files.md)]

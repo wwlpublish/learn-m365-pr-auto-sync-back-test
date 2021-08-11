@@ -1,5 +1,5 @@
 ### YamlMime:ModuleUnit
-uid: learn-m365-pr.m365-defender-o365-explore.introduction-threat-protection-microsoft-defender-office-365
+uid: learn-m365-pr.m365-defender-o365-explore.protect-against-threats
 title: Introduction to Threat Protection in Microsoft Defender for Office 365
 metadata:
   unitType: learning-content
@@ -12,4 +12,4 @@ metadata:
   ms.prod: learning-m365
 durationInMinutes: 15
 content: |
-  [!include[](includes/introduction-threat-protection-microsoft-defender-office-365.md)]
+  [!include[](includes/protect-against-threats.md)]

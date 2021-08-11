@@ -29,9 +29,9 @@ products:
 - m365
 units:
 - learn-m365-pr.m365-defender-o365-explore.introduction
-- learn-m365-pr.m365-defender-o365-explore.overview-preset-security-policies-configuration-analyzer-message-overrides
-- learn-m365-pr.m365-defender-o365-explore.introduction-threat-protection-microsoft-defender-office-365
-- learn-m365-pr.m365-defender-o365-explore.reporting-messages-files-microsoft
+- learn-m365-pr.m365-defender-o365-explore.preset-policies-overrides
+- learn-m365-pr.m365-defender-o365-explore.protect-against-threats
+- learn-m365-pr.m365-defender-o365-explore.reporting-messages-files
 - learn-m365-pr.m365-defender-o365-explore.knowledge-check
 - learn-m365-pr.m365-defender-o365-explore.summary
 badge:
