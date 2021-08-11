@@ -1,0 +1,1 @@
+You've now learned the optimal path your K-12 school and district should follow when moving Windows devices from on-premises device management to cloud-based modern management with Microsoft. By following the steps in this guide, you should now have devices up and running with the correct policies and applications for students, staff, and faculty.

@@ -1,0 +1,64 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.modern-management-education.knowledge-check
+title: Knowledge check
+metadata:
+  title: Knowledge check
+  description:  Learn the optimal path for your K-12 school or district to follow when moving Windows devices from on-premises device management to cloud-based modern management with Microsoft.
+  ms.date: 08/02/2021
+  author: beccarobins
+  ms.author: beccarobins
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+ 
+durationInMinutes: 4
+content: |
+quiz:
+    title: Check your knowledge
+    questions:
+    - content: "Migrating identities to the cloud for students, staff and faculty leverages which two tools?"
+      choices:
+      - content: "Azure Active Directory Connect and School Data Sync"
+        isCorrect: true
+        explanation: "That's correct!"
+      - content: "Microsoft Power BI and Microsoft Power Automate"
+        isCorrect: false
+        explanation: "That's not correct."
+      - content: "Intune for Education and Remote Assist"
+        isCorrect: false
+        explanation: "Not quite. Please try again."
+
+    - content: "Setting up your Microsoft 365 Tenant is an important step that provides your school with which functionality?"
+      choices:
+      - content: "Improved network speed"
+        isCorrect: false
+        explanation: "Not quite. Please try again."
+      - content: "Enhanced security settings for student devices"
+        isCorrect: false
+        explanation: "That's not correct."
+      - content: "Cloud utilization for storage, printing and security"
+        isCorrect: true
+        explanation: "That's correct!"
+
+    - content: "Enrolling devices is recommended via one of two options. What are the recommended methods for enrolling devices?"
+      choices:
+      - content: "Microsoft Store – Windows Apps and Google Play Store"
+        isCorrect: false
+        explanation: "That's not correct."
+      - content: "Set up School PCs app and Windows Autopilot"
+        isCorrect: true
+        explanation: "That's correct!"
+      - content: "Enrollment Wizard and AutoEnroll+"
+        isCorrect: false
+        explanation: "Not quite. Please try again."
+
+    - content: "What is the main application used for deploying apps and policies to devices?"
+      choices:
+      - content: "Google Play Store"
+        isCorrect: false
+        explanation: "Not quite. Please try again."
+      - content: "Intune for Education"
+        isCorrect: true
+        explanation: "That's correct!"
+      - content: "Windows Autopilot"
+        isCorrect: false
+        explanation: "That's not correct."
