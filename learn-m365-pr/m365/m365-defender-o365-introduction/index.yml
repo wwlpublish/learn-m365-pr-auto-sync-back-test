@@ -1,5 +1,5 @@
 ### YamlMime:Module
-uid: learn-m365-pr.introduction-microsoft-defender-for-office-365
+uid: learn-m365-pr.o365-introduction
 metadata:
   moduleType: standard
   title: Introduction to Microsoft Defender for Office 365
@@ -28,11 +28,11 @@ roles:
 products:
 - m365
 units:
-- learn-m365-pr.introduction-microsoft-defender-for-office-365.introduction
-- learn-m365-pr.introduction-microsoft-defender-for-office-365.what-microsoft-defender-office-365
-- learn-m365-pr.introduction-microsoft-defender-for-office-365.what-microsoft-defender-365-protection-stack
-- learn-m365-pr.introduction-microsoft-defender-for-office-365.introduction-security-center
-- learn-m365-pr.introduction-microsoft-defender-for-office-365.knowledge-check
-- learn-m365-pr.introduction-microsoft-defender-for-office-365.summary
+- learn-m365-pr.o365-introduction.introduction
+- learn-m365-pr.o365-introduction.what-microsoft-defender-office-365
+- learn-m365-pr.o365-introduction.what-microsoft-defender-365-protection-stack
+- learn-m365-pr.o365-introduction.introduction-security-center
+- learn-m365-pr.o365-introduction.knowledge-check
+- learn-m365-pr.o365-introduction.summary
 badge:
   uid: learn-m365-pr.introduction-to-microsoft-365-defender.badge
