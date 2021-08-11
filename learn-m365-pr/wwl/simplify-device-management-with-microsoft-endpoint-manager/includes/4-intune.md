@@ -33,4 +33,4 @@ When devices are enrolled and managed in Intune, administrators can:
 
 The Manage devices with Microsoft Endpoint Manager interactive guide steps you through the Microsoft Endpoint Manager admin center to show you how to manage and protect mobile and desktop applications.
 
-> \[!VIDEO https://mslearn.cloudguides.com/guides/Manage%20devices%20with%20Microsoft%20Endpoint%20Manager\]
+> [!VIDEO https://mslearn.cloudguides.com/guides/Manage%20devices%20with%20Microsoft%20Endpoint%20Manager]
