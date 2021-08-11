@@ -29,9 +29,9 @@ products:
 - m365
 units:
 - learn-m365-pr.o365-introduction.introduction
-- learn-m365-pr.o365-introduction.what-microsoft-defender-office-365
-- learn-m365-pr.o365-introduction.what-microsoft-defender-365-protection-stack
-- learn-m365-pr.o365-introduction.introduction-security-center
+- learn-m365-pr.o365-introduction.office-365
+- learn-m365-pr.o365-introduction.protection-stack
+- learn-m365-pr.o365-introduction.defender-portal
 - learn-m365-pr.o365-introduction.knowledge-check
 - learn-m365-pr.o365-introduction.summary
 badge:

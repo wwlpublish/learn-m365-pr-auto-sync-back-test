@@ -1,5 +1,5 @@
 ### YamlMime:ModuleUnit
-uid: learn-m365-pr.o365-introduction.what-microsoft-defender-365-protection-stack
+uid: learn-m365-pr.o365-introduction.protection-stack
 title: What is Microsoft Defender for Office 365 protection stack
 metadata:
   unitType: learning-content 
@@ -12,4 +12,4 @@ metadata:
   ms.prod: learning-m365
 durationInMinutes: 5
 content: |
-  [!include[](includes/what-microsoft-defender-365-protection-stack.md)]
+  [!include[](includes/protection-stack.md)]

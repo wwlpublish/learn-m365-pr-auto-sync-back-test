@@ -1,5 +1,5 @@
 ### YamlMime:ModuleUnit
-uid: learn-m365-pr.o365-introduction.introduction-security-center
+uid: learn-m365-pr.o365-introduction.defender-portal
 title: Introduction to Microsoft 365 Defender portal
 metadata:
   unitType: learning-content 
@@ -12,4 +12,4 @@ metadata:
   ms.prod: learning-m365
 durationInMinutes: 2
 content: |
-  [!include[](includes/introduction-security-center.md)]
+  [!include[](includes/defender-portal.md)]
