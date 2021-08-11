@@ -9,6 +9,6 @@ metadata:
   author: iankensey
   ms.author: beccarobins
   ms.topic: interactive-tutorial
-durationInMinutes: 2
+durationInMinutes: 1
 content: |
   [!include[](includes/introduction.md)]

@@ -9,6 +9,6 @@ metadata:
   author: iankensey 
   ms.author: beccarobins
   ms.topic: interactive-tutorial
-durationInMinutes: 6
+durationInMinutes: 12
 content: |
   [!include[](includes/threat-information-sources.md)]
