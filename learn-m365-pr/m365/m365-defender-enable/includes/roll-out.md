@@ -1,6 +1,6 @@
 Before you can use Microsoft 365 Defender, you need to set up and configure your environment. Once enabled, Microsoft 365 Defender can use incident, automated investigation and remediation, and advanced hunting capabilities within the scope of the deployed products. If Defender for Endpoint, Defender for Identity, or Defender for Office 365 are not deployed, Microsoft 365 Defender will not display any data from that product and will be unable to take any action in those areas. Before you can roll out Microsoft 365 Defender, you'll need to learn about the licensing, hardware and software requirements, and other configuration settings to provision and use Microsoft 365 Defender in your organization.
 
-## Getting Started
+## Getting started
 
 Preparation is key to any successful deployment. To get started with Microsoft 365 Defender, you’ll  first need to verify that you have the right licenses and permissions to access the portal.
 
