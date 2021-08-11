@@ -1,8 +1,4 @@
-The advanced hunting schema is made up of multiple tables that provide either event information or information about devices, alerts, identities, and other entity types. To effectively build queries that span multiple tables, you need to understand the tables and the columns in the advanced hunting schema.
-
-## Understand the advanced hunting schema
-
-Microsoft 365 Defender gives you access to a broad range of pre-existing schema that you can utilize in your own queries. Each schema table provides access to different types of data.
+The advanced hunting schema is made up of multiple tables that provide either event information or information about devices, alerts, identities, and other entity types. To effectively build queries that span multiple tables, you need to understand the tables and the columns in the advanced hunting schema. Microsoft 365 Defender gives you access to a broad range of pre-existing schema that you can utilize in your own queries. Each schema table provides access to different types of data.
 
 You can find out about each of the schemas using the built-in schema reference in Microsoft 365 Defender. This lets you quickly discover and find the right schema to meet the needs of your query.  The built-in references provide you with:
 
@@ -15,7 +11,7 @@ You can find out about each of the schemas using the built-in schema reference i
 
 From within the Microsoft 365 Defender portal, you can quickly access the schema reference, by selecting the **View reference action** next to the table name in the schema representation. You can also select Schema reference to search for a table.
 
-:::image type="content" source="../media/3-schema-reference.png" alt-text="Screenshot showing how to find the schema reference.":::
+:::image type="content" source="../media/3-schema-reference.png" alt-text="Screenshot showing how to find the schema reference." lightbox="../media/3-schema-reference.png":::
 
 ## Learn about the schema tables
 
