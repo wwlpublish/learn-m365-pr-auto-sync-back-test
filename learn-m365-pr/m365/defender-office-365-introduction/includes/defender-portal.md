@@ -15,13 +15,13 @@ The Microsoft 365 Defender portal combines resources from multiple data sources 
 
 When you select an incident name, it displays a page showing an incident from multiple sources.
 
-:::image type="content" source="../media/4-incident-management-several-sources.png" alt-text="Incident Multiple Sources":::
+:::image type="content" source="../media/4-incident-management-several-sources.png" alt-text="Incident Multiple Sources" lightbox="../media/4-incident-management-several-sources.png":::
 
 ### Improved processes
 
 Common controls appear in the same place or are condensed into one feed of data, for example, unified settings.
 
-:::image type="content" source="../media/4-unified-settings.png" alt-text="Common Controls":::
+:::image type="content" source="../media/4-unified-settings.png" alt-text="Common Controls" lightbox="../media/4-unified-settings.png":::
 
 ### Threat analytics
 
