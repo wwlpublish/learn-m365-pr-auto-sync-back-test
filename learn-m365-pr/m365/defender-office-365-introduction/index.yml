@@ -15,7 +15,7 @@ abstract: |
   By the end of this module, you'll be able to:
   - Describe the Microsoft Defender for Office 365 protection stack
   - Explain how Microsoft Defender for Office 365 identifies and resolves attacks
-  - Understand the Microsoft 365 security center portal
+  - Understand the Microsoft 365 Defender portal
 prerequisites: |
   - None
 iconUrl: /learn/achievements/generic-badge.svg
@@ -29,7 +29,7 @@ products:
 - m365
 units:
 - learn-m365-pr.defender-office-365-introduction.introduction
-- learn-m365-pr.defender-office-365-introduction.office-365
+- learn-m365-pr.defender-office-365-introduction.defender-office-365
 - learn-m365-pr.defender-office-365-introduction.protection-stack
 - learn-m365-pr.defender-office-365-introduction.defender-portal
 - learn-m365-pr.defender-office-365-introduction.knowledge-check

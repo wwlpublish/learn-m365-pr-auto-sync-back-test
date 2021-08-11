@@ -12,16 +12,16 @@ Microsoft Defender for Office 365 includes:
 An important consideration for you and your team is to decide what capabilities or features you want out of Microsoft Defender for Office 365.  There are currently two plans to choose from:
 
 - Plan 1 focuses on configuration, protection, and detection capabilities.
-- Plan 2 has all of the capabilities of plan 1 but adds automation, investigation, and remediation.
+- Plan 2 has all of the capabilities of plan 1 but adds automation, investigation, and remediation.  
 
 ### Plan 1
 
 Plan 1 provides the following capabilities:
 
-- Safe attachments
-- Safe links
-- Safe attachments for SharePoint, OneDrive, and Teams
-- Anti-phishing in Defender for Office 365 protection
+- Safe Attachments
+- Safe Links
+- Safe Attachments for SharePoint, OneDrive, and Teams
+- Impersonation protection in anti-phishing policies
 - Real-time detections
 
 ### Plan 2
@@ -31,12 +31,15 @@ Plan 2 provides these additional capabilities:
 - Threat trackers
 - Threat explorer
 - Automated investigation and response
-- Attack simulator
-- Campaign views
+- Attack simulation and training
+- Campaign Views
+
+You're looking for a solution beyond simple identification and protection; you need automation, investigation, and remediation capabilities, which means you choose Plan 2.
 
 ## Explore Microsoft Defender for Office 365
 
-Microsoft Defender for Office 365 is a feature-rich service that can help to protect your users.  This interactive video walks you through Microsoft Defender for Office 365 and the security center.
+Microsoft Defender for Office 365 is a feature-rich service that can help to protect your users.  This interactive guide walks you through Microsoft Defender for Office 365 and the security center.
+
 Click on the image to get started.
 
-[![Interactive guide](../media/2-interactive-guide-place-holder.png)](https://mslearn.cloudguides.com/guides/Safeguard%20your%20organization%20with%20Microsoft%20Defender%20for%20Office%20365?azure-portal=true)
+[![Safeguard your organization with Microsoft Defender for Office 365](../media/2-interactive-guide-place-holder.png)](https://aka.ms/MSDO-IG)

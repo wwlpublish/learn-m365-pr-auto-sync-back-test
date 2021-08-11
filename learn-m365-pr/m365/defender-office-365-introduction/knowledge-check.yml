@@ -29,13 +29,13 @@ quiz:
     choices:
     - content: "Content filtering"
       isCorrect: false
-      explanation: "Content filtering takes action on messages that are in transit. Sender intelligence is the critical level in the protection stack for catching spam."
+      explanation: "Incorrect. Content filtering takes action on messages that are in transit. Sender intelligence is the critical level in the protection stack for catching spam."
     - content: "Sender intelligence"
       isCorrect: true
-      explanation: "Sender intelligence is the critical level for catching spam."
+      explanation: "That's correct! Sender intelligence is the critical level for catching spam."
     - content: "Post delivery protection"
       isCorrect: false
-      explanation: "Post delivery protection is the level where reporting and URL detonation occurs. Sender intelligence is the critical level in the protection stack for catching spam."
+      explanation: "Please try again. Post delivery protection is the level where reporting and URL detonation occurs. Sender intelligence is the critical level in the protection stack for catching spam."
   - content: "Which product provides a unified view of all your email, collaboration, identity, and device threats?"
     choices:
     - content: "Microsoft Security and Compliance portal"
