@@ -1,5 +1,5 @@
 ### YamlMime:ModuleUnit
-uid: learn-m365-pr.m365-defender-o365-evaluate.learn-how-to-evaluate-microsoft-defender-for-office-365
+uid: learn-m365-pr.m365-defender-o365-evaluate.evaluation-mode
 title: Learn how to evaluate Microsoft Defender for Office 365
 metadata:
   unitType: learning-content
@@ -12,4 +12,4 @@ metadata:
   ms.prod: learning-m365
 durationInMinutes: 23 
 content: |
-  [!include[](includes/learn-evaluate-microsoft-defender-office-365.md)]
+  [!include[](includes/evaluation-mode.md)]

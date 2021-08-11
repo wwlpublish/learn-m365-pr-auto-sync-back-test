@@ -29,7 +29,7 @@ products:
 - m365
 units:
 - learn-m365-pr.m365-defender-o365-evaluate.introduction
-- learn-m365-pr.m365-defender-o365-evaluate.learn-how-to-evaluate-microsoft-defender-for-office-365
+- learn-m365-pr.m365-defender-o365-evaluate.evaluation-mode
 - learn-m365-pr.m365-defender-o365-evaluate.understand-configuration-analyzer
 - learn-m365-pr.m365-defender-o365-evaluate.knowledge-check
 - learn-m365-pr.m365-defender-o365-evaluate.summary
