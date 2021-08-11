@@ -29,7 +29,7 @@ Action center provides a comprehensive view of Microsoft 365 Defender automated 
 > [!NOTE]
 > You can approve or reject actions one at a time or select multiple actions if they have the same type of action, such as Quarantine file.
 
-:::image type="content" source="../media/2-action-center-page.png" alt-text="Screenshot showing a fragment of the action center page.":::
+:::image type="content" source="../media/2-action-center-page.png" alt-text="Screenshot showing a fragment of the action center page." lightbox="../media/2-action-center-page.png":::
 
 The Action center brings together remediation actions across Defender for Endpoint and Defender for Office 365. It defines a common language for all remediation actions and provides a unified investigation experience where you can:
 
