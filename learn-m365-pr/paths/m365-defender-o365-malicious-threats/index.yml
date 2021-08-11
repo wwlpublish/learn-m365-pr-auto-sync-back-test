@@ -25,6 +25,6 @@ products:
 modules:
 - learn-m365-pr.m365-defender-o365-introduction
 - learn-m365-pr.m365-defender-o365-evaluate
-- learn-m365-pr.m365-defender-o365-configure
+- learn-m365-pr.m365-defender-o365-explore
 trophy: 
   uid: learn-m365.m365-defender-o365-malicious-threats.trophy

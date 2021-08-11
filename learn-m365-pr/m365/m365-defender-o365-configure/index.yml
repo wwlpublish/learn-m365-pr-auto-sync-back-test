@@ -1,5 +1,5 @@
 ### YamlMime:Module
-uid: learn-m365-pr.m365-defender-o365-configure
+uid: learn-m365-pr.m365-defender-o365-explore
 metadata:
   moduleType: standard
   title: Configure Microsoft Defender for Office 365
@@ -28,11 +28,11 @@ roles:
 products:
 - m365
 units:
-- learn-m365-pr.m365-defender-o365-configure.introduction
-- learn-m365-pr.m365-defender-o365-configure.overview-preset-security-policies-configuration-analyzer-message-overrides
-- learn-m365-pr.m365-defender-o365-configure.introduction-threat-protection-microsoft-defender-office-365
-- learn-m365-pr.m365-defender-o365-configure.reporting-messages-files-microsoft
-- learn-m365-pr.m365-defender-o365-configure.knowledge-check
-- learn-m365-pr.m365-defender-o365-configure.summary
+- learn-m365-pr.m365-defender-o365-explore.introduction
+- learn-m365-pr.m365-defender-o365-explore.overview-preset-security-policies-configuration-analyzer-message-overrides
+- learn-m365-pr.m365-defender-o365-explore.introduction-threat-protection-microsoft-defender-office-365
+- learn-m365-pr.m365-defender-o365-explore.reporting-messages-files-microsoft
+- learn-m365-pr.m365-defender-o365-explore.knowledge-check
+- learn-m365-pr.m365-defender-o365-explore.summary
 badge:
   uid: learn-m365-pr.m365-getting-started-microsoft-365-defender.badge
