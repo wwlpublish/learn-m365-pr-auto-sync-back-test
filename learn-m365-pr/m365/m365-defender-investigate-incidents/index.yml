@@ -2,14 +2,14 @@
 uid: learn-m365-pr.m365-defender-investigate-incidents
 metadata:
   moduleType: standard
-  title: Respond to incidents using Microsoft 365 Defender
+  title: Investigate incidents with Microsoft 365 Defender
   description: Learn how to use Microsoft 365 Defender to manage and respond to incidents and alerts in your Microsoft 365 tenant. Cyber threats are an ever present and on-going concern for all organizations regardless of size. Learn how to minimize the time between an incident and its management for subsequent response and resolution.
   ms.date: 05/05/2021
   author: iankensey
   ms.author: beccarobins
   ms.topic: interactive-tutorial 
   ms.prod: learning-m365
-title: Respond to incidents using Microsoft 365 Defender
+title: Investigate incidents with Microsoft 365 Defender
 summary: Learn how to use Microsoft 365 Defender to manage and respond to incidents and alerts in your Microsoft 365 tenant. Cyber threats are an ever present and on-going concern for all organizations regardless of size. Learn how to minimize the time between an incident and its management for subsequent response and resolution. 
 abstract: | 
   By the end of this module, you'll be able to:
