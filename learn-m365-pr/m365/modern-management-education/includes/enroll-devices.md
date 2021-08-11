@@ -22,9 +22,11 @@ Begin adding devices for students, staff, and faculty to your cloud environment.
     ![Graphic of two folder; one folder has an apple and a cup of pens on it.](../media/folder.png)
 
 2. **Make sure your devices get the right policies upon enrollment** using dynamic groups and group tags that map to your autopilot profiles.
+
    ![Graphic of computer with icons flying out of it.](../media/computer-settings.png)
 
 3. **Configure settings and apps for all your groups.** Configure tenant-wide settings and apps under the All Devices group, and configure group-specific settings under individual groups. Settings can be managed by user identity or by device.
+
    ![Graphic of a security shield linking to user profiles.](../media/security.png)
 
 4. **Distribute devices to students, teachers, and other users.** Policies and apps will automatically sync when they enroll their devices. Once deployed, monitor devices from the Autopilot Deployment report to track the enrollment status of your school's devices.
