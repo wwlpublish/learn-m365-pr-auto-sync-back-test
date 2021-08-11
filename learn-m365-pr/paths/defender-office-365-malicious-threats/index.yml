@@ -9,7 +9,7 @@ metadata:
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Protect against malicious threats using Microsoft Defender for Office 365
-summary: Microsoft Defender for Office 365 uses threat protection policies, reports, threat investigation, and response capabilities to safeguard your organization. In this learning path you'll be introduced to Microsoft Defender for Office 365, get started using it, and finally you'll learn how to configure it.
+summary: Microsoft Defender for Office 365 uses threat protection policies, reports, threat investigation, and response capabilities to safeguard your organization.
 prerequisites: | 
   - An understanding of basic security concepts
 iconUrl: /learn/achievements/generic-trophy.svg
