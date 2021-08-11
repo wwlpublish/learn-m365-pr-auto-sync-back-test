@@ -1,12 +1,12 @@
 ### YamlMime:Module
-uid: learn-m365-pr.introduction-microsoft-defender-for-office-365
+uid: learn-m365-pr.defender-office-365-introduction
 metadata:
   moduleType: standard
   title: Introduction to Microsoft Defender for Office 365
   description: Understand Microsoft Defender for Office 365 and how you can use it to prevent, detect, investigate, and resolve attacks across all your Office 365 products, including Exchange, Teams, and OneDrive.
   ms.date: 5/17/2021
   author: iankensey
-  ms.author: v-iakens
+  ms.author: beccarobins
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Introduction to Microsoft Defender for Office 365
@@ -28,11 +28,11 @@ roles:
 products:
 - m365
 units:
-- learn-m365-pr.introduction-microsoft-defender-for-office-365.introduction
-- learn-m365-pr.introduction-microsoft-defender-for-office-365.what-microsoft-defender-office-365
-- learn-m365-pr.introduction-microsoft-defender-for-office-365.what-microsoft-defender-365-protection-stack
-- learn-m365-pr.introduction-microsoft-defender-for-office-365.introduction-security-center
-- learn-m365-pr.introduction-microsoft-defender-for-office-365.knowledge-check
-- learn-m365-pr.introduction-microsoft-defender-for-office-365.summary
+- learn-m365-pr.defender-office-365-introduction.introduction
+- learn-m365-pr.defender-office-365-introduction.office-365
+- learn-m365-pr.defender-office-365-introduction.protection-stack
+- learn-m365-pr.defender-office-365-introduction.defender-portal
+- learn-m365-pr.defender-office-365-introduction.knowledge-check
+- learn-m365-pr.defender-office-365-introduction.summary
 badge:
-  uid: learn-m365-pr.introduction-to-microsoft-365-defender.badge
+  uid: learn-m365-pr.defender-office-365-introduction.badge

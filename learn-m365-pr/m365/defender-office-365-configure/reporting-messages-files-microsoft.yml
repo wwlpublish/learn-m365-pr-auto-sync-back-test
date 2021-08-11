@@ -1,5 +1,5 @@
 ### YamlMime:ModuleUnit
-uid: learn-m365-pr.m365-configure-microsoft-defender-for-office-365.reporting-messages-files-microsoft
+uid: learn-m365-pr.defender-office-365-explore.reporting-messages-files
 title: Reporting messages and files to Microsoft
 metadata:
   unitType: learning-content
@@ -7,9 +7,9 @@ metadata:
   description: Learn how you can submit email messages, URLs, and attachments to Microsoft for scanning. 
   ms.date: 5/17/2021 
   author: iankensey 
-  ms.author: v-iakens 
+  ms.author: beccarobins 
   ms.topic: interactive-tutorial 
   ms.prod: learning-m365
 durationInMinutes: 2
 content: |
-  [!include[](includes/reporting-messages-files-microsoft.md)]
+  [!include[](includes/reporting-messages-files.md)]

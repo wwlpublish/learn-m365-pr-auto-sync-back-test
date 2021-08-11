@@ -1,5 +1,5 @@
 ### YamlMime:ModuleUnit
-uid: learn-m365-pr.m365-configure-microsoft-defender-for-office-365.overview-preset-security-policies-configuration-analyzer-message-overrides
+uid: learn-m365-pr.defender-office-365-explore.preset-policies-overrides
 title: Overview of preset security policies and message overrides
 metadata:
   unitType: learning-content
@@ -7,9 +7,9 @@ metadata:
   description: Microsoft Office for 365 provided customizable policies that help you configure protection settings. 
   ms.date: 5/17/2021
   author: iankensey
-  ms.author: v-iakens
+  ms.author: beccarobins
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 durationInMinutes: 6
 content: |
-  [!include[](includes/overview-preset-security-policies-message-overrides.md)]
+  [!include[](includes/preset-policies-overrides.md)]

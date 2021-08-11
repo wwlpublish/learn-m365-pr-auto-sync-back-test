@@ -1,5 +1,5 @@
 ### YamlMime:ModuleUnit
-uid: learn-m365-pr.introduction-microsoft-defender-for-office-365.introduction-security-center
+uid: learn-m365-pr.defender-office-365-introduction.defender-portal
 title: Introduction to Microsoft 365 Defender portal
 metadata:
   unitType: learning-content 
@@ -7,9 +7,9 @@ metadata:
   description: Learn about Microsoft 365 Defender portal.
   ms.date: 5/17/2021 
   author: iankensey 
-  ms.author: v-iakens 
+  ms.author: beccarobins 
   ms.topic: interactive-tutorial 
   ms.prod: learning-m365
 durationInMinutes: 2
 content: |
-  [!include[](includes/introduction-security-center.md)]
+  [!include[](includes/defender-portal.md)]

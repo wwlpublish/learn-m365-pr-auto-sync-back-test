@@ -1,5 +1,5 @@
 ### YamlMime:ModuleUnit
-uid: learn-m365-pr.getting-started-with-microsoft-defender-for-office-365.understand-configuration-analyzer
+uid: learn-m365-pr.defender-office-365-evaluate.configuration-analyzer
 title: Understand the configuration analyzer in the Security and Compliance center 
 metadata:
   unitType: learning-content 
@@ -7,9 +7,9 @@ metadata:
   description: Learn how to use the configuration analyzer to find policies where settings are below the strict or standard protection profile settings.
   ms.date: 5/17/2021 
   author: iankensey 
-  ms.author: v-iakens 
+  ms.author: beccarobins 
   ms.topic: interactive-tutorial 
   ms.prod: learning-m365
 durationInMinutes: 6
 content: |
-  [!include[](includes/understand-configuration-analyzer.md)]
+  [!include[](includes/configuration-analyzer.md)]

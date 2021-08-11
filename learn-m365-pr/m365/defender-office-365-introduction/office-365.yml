@@ -1,5 +1,5 @@
 ### YamlMime:ModuleUnit
-uid: learn-m365-pr.introduction-microsoft-defender-for-office-365.what-microsoft-defender-office-365
+uid: learn-m365-pr.defender-office-365-introduction.office-365
 title: What is Microsoft Defender for Office 365
 metadata:
   unitType: learning-content
@@ -7,9 +7,9 @@ metadata:
   description: Learn what Microsoft Defender for Office 365 is.
   ms.date: 5/17/2021
   author: iankensey
-  ms.author: v-iakens
+  ms.author: beccarobins
   ms.topic: interactive-tutorial 
   ms.prod: learning-m365
 durationInMinutes: 2 
 content: |
-  [!include[](includes/what-microsoft-defender-office-365.md)]
+  [!include[](includes/office-365.md)]

@@ -1,14 +1,14 @@
 ### YamlMime:ModuleUnit
-uid: learn-m365-pr.introduction-microsoft-defender-for-office-365.summary
+uid: learn-m365-pr.defender-office-365-evaluate.summary
 title: Summary
 metadata:
   unitType: summary
   title: Summary
-  description: Summarize what you have learned in the module.
+  description: Summarize what you have learnt in the module.
   ms.date: 5/17/2021
   author: iankensey
-  ms.author: v-iakens
-  ms.topic: interactive-tutorial
+  ms.author: beccarobins
+  ms.topic: interactive-tutorial 
   ms.prod: learning-m365
 durationInMinutes: 1 
 content: |
