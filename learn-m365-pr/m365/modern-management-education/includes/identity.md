@@ -4,7 +4,7 @@ Migrate your student, staff, and faculty identities to the cloud to ensure that 
 
    **Express Settings** is the default option and is used for the most commonly deployed scenario. You are only a few short clicks away to extend your on-premises directory to the cloud.  
    
-   :::image type="content" source="../media/ready-configure.png" alt-text="Graphic of school next to screenshot of Azure AD 'ready to configure' page" lightbox="../media/ready-configure.png":::
+   :::image type="content" source="../media/ready-configure.png" alt-text="Graphic of school next to screenshot of Azure AD 'ready to configure' page":::
 
 2. Start using School Data Sync to pair school and roster data from SIS with Office 365.
 
@@ -12,7 +12,7 @@ Migrate your student, staff, and faculty identities to the cloud to ensure that 
 
    You can use the [School Data Sync interactive guide](https://interactiveguides-schooldatasync.azurewebsites.net/) to tailor your install. 
 
-   :::image type="content" source="../media/azure-review-setup.png" alt-text="Graphic of presentation next to screenshot of Azure AD review setup page" lightbox="../media/azure-review-setup.png":::
+   :::image type="content" source="../media/azure-review-setup.png" alt-text="Graphic of presentation next to screenshot of Azure AD review setup page":::
 
 
 All done migrating identities? Next learn how to set up the Microsoft 365 tenant to fit your school's needs.
