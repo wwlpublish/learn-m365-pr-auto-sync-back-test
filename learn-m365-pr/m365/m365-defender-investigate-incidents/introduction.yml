@@ -4,11 +4,11 @@ title: Introduction
 metadata:
   unitType: introduction
   title: Introduction
-  description: learn how to work with incidents, understanding how they can be used to obtain a clearer idea of the attack and its impact.
+  description: Learn how to work with incidents, understanding how they can be used to obtain a clearer idea of the attack and its impact.
   ms.date: 05/05/2021
   author: iankensey
   ms.author: beccarobins
-  ms.topic: interactive-tutorial # do we need ms.topic?
+  ms.topic: interactive-tutorial
   ms.prod: learning-m365
 durationInMinutes: 2
 content: |
