@@ -1,6 +1,6 @@
 The Microsoft Defender for Office 365 evaluation mode is a simplified instance of Microsoft Defender for Office 365 that lets you evaluate the essential capabilities, without having to go through all of the setup steps. Which lets you focus on evaluation of the essential capabilities.  The only features and functions enabled in the evaluation version are those that support email protection.
 
-You have two choices when it comes to deciding how to evaluate Microsoft Defender for Office 365. The first way is to use your existing tenant. However, you’ll need to make sure you have a suitable license.  The other is to start a 30-day evaluation trial where you’ll be able to test the capabilities of Office 365 Security and Compliance center.
+You have two choices when it comes to deciding how to evaluate Microsoft Defender for Office 365. The first way is to use your existing tenant. However, you’ll need to make sure you have a suitable license.  The other is to start a 30-day evaluation trial where you’ll be able to test the capabilities of the Microsoft 365 Defender portal.
 
 To run an evaluation from your existing tenant, you'll need any of the following licenses.
 
@@ -20,7 +20,7 @@ To obtain the 30-day trial license, you’ll need to go to the Microsoft 365 sec
 
 ## Getting Started with the evaluation
 
-To get started with the trial evaluation, launch the [Office 365 Security & Compliance portal](https://protection.office.com/homepage).  
+To get started with the trial evaluation, launch the [Microsoft 365 Defender portal](https://security.microsoft.com).  
 
 There are three ways you can find the Defender for Office 365 evaluation setup up card.
 
@@ -29,8 +29,8 @@ There are three ways you can find the Defender for Office 365 evaluation setup u
 From the navigation pane on the left-hand side, you can select either:
 
 - **Threat management** > **Dashboard**
-- **Threat management** > **Policy**
-- **Reports** > **Dashboard**
+- **Policies & rules** > **Threat policies**
+- **Reports** > **Email & collaboration reports**
 
 Once you have found the card, to get started with the evaluation, select **Evaluate**.
 
@@ -58,13 +58,14 @@ When the evaluation mode is set up, you'll have a report updated daily with up t
 
 ## Evaluation report
 
-From the report you can see how many advanced threat links, advanced threat attachments, and potential impersonations were identified. Data will be collected from both emails and collaboration workspaces.
+From the report you can see how many advanced threat links, advanced threat attachments, and potential impersonations were identified. Data will be collected from both email and collaboration workspaces.
 
 > [!NOTE]
 > At any time during the evaluation period, you can go to settings and update your routing or turn off your evaluation.
 
-## Video Guide
+## Video guide
 
-For a more in-depth introduction to Microsoft Defender for Office 365 evaluation mode and how you can get the best out of your evaluation, you should watch this 20-minute video.
+For a more in-depth introduction to Microsoft Defender for Office 365 evaluation mode and how you can get the best out of your evaluation, you should watch the following video.
 
-[![Evaluation mode video](../media/2-evaluation-mode-video.png)](https://www.microsoft.com/videoplayer/embed/RWEmVP?azure-portal=true)
+>
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWEmVP?azure-portal=true]

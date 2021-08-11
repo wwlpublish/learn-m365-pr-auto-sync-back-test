@@ -6,4 +6,4 @@ After completing this module, you'll be able to:
 
 - Understand how to evaluate Microsoft Defender for Office 365.
 - Understand how to use evaluation mode for Microsoft Defender for Office 365.
-- Understand the configuration analyzer in the Microsoft 365 security center.
+- Understand the configuration analyzer in the Microsoft 365 Defender portal.

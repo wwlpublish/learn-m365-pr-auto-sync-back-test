@@ -2,20 +2,20 @@
 uid: learn-m365-pr.defender-office-365-evaluate
 metadata:
   moduleType: standard
-  title: Getting started with Microsoft Defender for Office 365
-  description: Understand how to get started and evaluate Microsoft Defender for Office 365.
+  title: Evaluate Microsoft Defender for Office 365
+  description: Understand how to get started by evaluating Microsoft Defender for Office 365.
   ms.date: 5/17/2021
   author: iankensey
   ms.author: beccarobins
   ms.topic: interactive-tutorial 
   ms.prod: learning-m365
-title: Getting started with Microsoft Defender for Office 365
+title: Evaluate Microsoft Defender for Office 365
 summary: Understand how to get started and evaluate Microsoft Defender for Office 365.
 abstract: |
   By the end of this module, you'll be able to:
-  - Understand how to evaluate Microsoft Defender for Office 365.
-  - Understand how to use evaluation mode for Microsoft Defender for Office 365.
-  -	Understand the configuration analyzer in the Security and Compliance Center
+  - Understand how to evaluate Microsoft Defender for Office 365
+  - Understand how to use evaluation mode for Microsoft Defender for Office 365
+  -	Understand the configuration analyzer in the Microsoft 365 Defender portal
 prerequisites: |
   - None
 iconUrl: /learn/achievements/generic-badge.svg
@@ -34,4 +34,4 @@ units:
 - learn-m365-pr.defender-office-365-evaluate.knowledge-check
 - learn-m365-pr.defender-office-365-evaluate.summary
 badge:
-  uid: learn-m365-pr.getting-started-with-microsoft-365-defender.badge
+  uid: learn-m365-pr.defender-office-365-evaluate.badge
