@@ -1,5 +1,5 @@
 ### YamlMime:ModuleUnit
-uid: learn-m365-pr.plan-defender-identity.identify-considerations-defender-identity
+uid: learn-m365-pr.defender-identity-plan.considerations
 title: Identify considerations for Microsoft Defender for Identity 
 metadata:
   unitType: learning-content
@@ -12,4 +12,4 @@ metadata:
   ms.prod: learning-m365
 durationInMinutes: 4
 content: |
-  [!include[](includes/identify-considerations-defender-identity.md)]
+  [!include[](includes/considerations.md)]

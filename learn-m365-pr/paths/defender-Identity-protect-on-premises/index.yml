@@ -1,5 +1,5 @@
 ### YamlMime:LearningPath
-uid: learn-m365.m365-protect-identities-defender-identity
+uid: learn-m365.m365-defender-identity-protect-on-premises
 metadata:
   title: Protect on-premises identities with Microsoft Defender for Identity 
   description: Microsoft Defender for Identity is a cloud-based solution to protect on-premises and hybrid identities. Defender for Identity can act both proactively, to eliminate vulnerabilities, and reactively, to detect active threats. The Microsoft Defender for Identity learning path includes modules to plan, deploy, and configure Defender for Identity.
@@ -23,8 +23,8 @@ products:
 - m365
 - mdatp
 modules:
-- learn-m365-pr.introduction-defender-identity
-- learn-m365-pr.plan-defender-identity
-- learn-m365-pr.defend-against-attacks-defender-identity
+- learn-m365-pr.defender-identity-introduction
+- learn-m365-pr.defender-identity-plan
+- learn-m365-pr.defender-identity-defend-attacks
 trophy: 
-  uid: learn-m365.m365-protect-identities-defender-identity.trophy
+  uid: learn-m365.m365-defender-identity-protect-on-premises.trophy

@@ -1,5 +1,5 @@
 ### YamlMime:Module
-uid: learn-m365-pr.introduction-defender-identity
+uid: learn-m365-pr.defender-identity-introduction
 metadata:
   moduleType: introduction
   title: Introduction to Microsoft Defender for Identity
@@ -13,7 +13,6 @@ title: Introduction to Microsoft Defender for Identity
 summary: Get an introduction to Microsoft Defender for Identity, and its capabilities that help you to protect your users’ identities including the ability to monitor and profile user behavior and activities, and protecting hybrid environments.
 abstract: |
   By the end of this module, you'll be able to:
-
   -	Understand Microsoft Defender for Identity.
   -	Understand the capabilities of Microsoft Defender for Identity.
   -	Understand Microsoft Defender for Identity privacy.
@@ -27,11 +26,11 @@ roles:
 products:
   - m365-ems
 units:
-- learn-m365-pr.introduction-defender-identity.introduction
-- learn-m365-pr.introduction-defender-identity.understand-defender-identity
-- learn-m365-pr.introduction-defender-identity.get-overview-defender-identity
-- learn-m365-pr.introduction-defender-identity.understand-defender-identity-privacy
-- learn-m365-pr.introduction-defender-identity.knowledge-check
-- learn-m365-pr.introduction-defender-identity.summary
+- learn-m365-pr.defender-identity-introduction.introduction
+- learn-m365-pr.defender-identity-introduction.defender-identity
+- learn-m365-pr.defender-identity-introduction.capability-overview
+- learn-m365-pr.defender-identity-introduction.privacy
+- learn-m365-pr.defender-identity-introduction.knowledge-check
+- learn-m365-pr.defender-identity-introduction.summary
 badge:
-  uid: learn-m365-pr.introduction-defender-identity.badge
+  uid: learn-m365-pr.defender-identity-introduction.badge
