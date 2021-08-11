@@ -1,5 +1,5 @@
 ### YamlMime:LearningPath
-uid: learn-m365.m365-defender-o365-malicious-threats
+uid: learn-m365.defender-office-365-malicious-threats
 metadata:
   title: Protect against malicious threats using Microsoft Defender for Office 365
   description: Microsoft Defender for Office 365 uses threat protection policies, reports, threat investigation, and response capabilities to safeguard your organization. In this learning path you'll be introduced to Microsoft Defender for Office 365, get started using it, and finally you'll learn how to configure it.
@@ -23,8 +23,8 @@ products:
 - m365
 - mdatp
 modules:
-- learn-m365-pr.m365-defender-o365-introduction
-- learn-m365-pr.m365-defender-o365-evaluate
-- learn-m365-pr.m365-defender-o365-explore
+- learn-m365-pr.defender-office-365-introduction
+- learn-m365-pr.defender-office-365-evaluate
+- learn-m365-pr.defender-office-365-explore
 trophy: 
-  uid: learn-m365.m365-defender-o365-malicious-threats.trophy
+  uid: learn-m365.defender-office-365-malicious-threats.trophy
