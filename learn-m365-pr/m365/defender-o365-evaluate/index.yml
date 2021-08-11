@@ -1,5 +1,5 @@
 ### YamlMime:Module
-uid: learn-m365-pr.m365-defender-o365-evaluate
+uid: learn-m365-pr.defender-o365-evaluate
 metadata:
   moduleType: standard
   title: Getting started with Microsoft Defender for Office 365
@@ -28,10 +28,10 @@ roles:
 products:
 - m365
 units:
-- learn-m365-pr.m365-defender-o365-evaluate.introduction
-- learn-m365-pr.m365-defender-o365-evaluate.evaluation-mode
-- learn-m365-pr.m365-defender-o365-evaluate.configuration-analyzer
-- learn-m365-pr.m365-defender-o365-evaluate.knowledge-check
-- learn-m365-pr.m365-defender-o365-evaluate.summary
+- learn-m365-pr.defender-o365-evaluate.introduction
+- learn-m365-pr.defender-o365-evaluate.evaluation-mode
+- learn-m365-pr.defender-o365-evaluate.configuration-analyzer
+- learn-m365-pr.defender-o365-evaluate.knowledge-check
+- learn-m365-pr.defender-o365-evaluate.summary
 badge:
   uid: learn-m365-pr.getting-started-with-microsoft-365-defender.badge
