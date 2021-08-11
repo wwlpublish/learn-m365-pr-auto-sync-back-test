@@ -52,7 +52,7 @@ Lastly, you should always add a comment to document the reason for the classific
 
 Once you've assigned the correct classification, save your change to apply it.
 
-:::image type="content" source="../media/3-alerts-page.png" alt-text="Screenshot showing a typical alerts page.":::
+:::image type="content" source="../media/3-alerts-page.png" alt-text="Screenshot showing a typical alerts page." lightbox="../media/3-alerts-page.png":::
 
 Classifying an alert is similar to classifying an incident. From the Alert page, you'll select an alert to open the alert details pane. From there, you can manage the alerts classification by selecting True alert or False alert.
 
