@@ -29,7 +29,7 @@ You access the configuration analyzer through the Microsoft 365 security center.
 1. In the **Policies & rules** page, select **Threat policies**
 1. Then in the **Threat policies** page, select **Configuration analyzer**.
 
-:::image type="content" source="../media/3-select-configuration-analyzer.png" alt-text="Navigate to configuration analyzer":::
+:::image type="content" source="../media/3-select-configuration-analyzer.png" alt-text="Navigate to configuration analyzer" lightbox="../media/3-select-configuration-analyzer.png":::
 
 The configuration analyzer has two main modes of operation:
 
@@ -42,7 +42,7 @@ In this mode, you pick standard or strict and compare those settings to your exi
 
 By default, configuration analyzer opens with a view of the comparison to the Standard protection profile.
 
-:::image type="content" source="../media/3-setting-and-recommendations-tab.png" alt-text="Settings and recommendations tab in configuration analyzer":::
+:::image type="content" source="../media/3-setting-and-recommendations-tab.png" alt-text="Settings and recommendations tab in configuration analyzer" lightbox="../media/3-setting-and-recommendations-tab.png":::
 
 You can switch to the comparison of the Strict protection profile by clicking **View Strict recommendations**. To switch back, select **View Standard recommendations**.
 
@@ -62,12 +62,12 @@ If there are any recommendations for improvement, the settings that require atte
 - **Policy**: The name of the affected policy that contains the setting.
 - **Policy group/setting name**: The **name** of the setting that requires your attention. For example, in the previous screenshot, it's the Bulk email threshold in an anti-spam policy.
 - **Policy Type**: The type of policy that contains the setting:
-  - **Anti-spam**
-  - **Anti-phishing**
-  - **Anti-malware**
-  - **Safe Links**
-  - **Safe Attachments**
-  - **Current configuration**: The current value of the setting.
+  - Anti-spam
+  - Anti-phishing
+  - Anti-malware
+  - Safe Links
+  - Safe Attachments
+  - Current configuration: the current value of the setting.
 - **Last modified**: The date that the policy was last modified.
 
 > [!NOTE]
@@ -75,19 +75,19 @@ If there are any recommendations for improvement, the settings that require atte
 
 ### Configuration drift analysis and history tab in the configuration analyzer
 
-:::image type="content" source="../media/3-configuration-drift-analysis.png" alt-text="Configuration drift analysis and history tab":::
+:::image type="content" source="../media/3-configuration-drift-analysis.png" alt-text="Configuration drift analysis and history tab" lightbox="../media/3-configuration-drift-analysis.png":::
 
 This tab allows you to track the changes that you've made to your custom security policies. By default, the following information is displayed:
 
-- **Setting Name**
-- **Policy**
-- **Type**
-- **Configuration change**
-- **Configuration drift**
+- Setting Name
+- Policy
+- Type
+- Configuration change
+- Configuration drift
 
 To filter the results, select **Filter**. In the **Filters** flyout that appears, you can select from the following filters:
 
-- **Start time and End time (date)**
-- **Standard protection or Strict protection**
+- Start time and End time (date)
+- Standard protection or Strict protection
 
 To export the results to a .csv file, select **Export** and the file will be placed in your Downloads folder.
