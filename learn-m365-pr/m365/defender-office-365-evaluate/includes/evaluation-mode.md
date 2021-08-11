@@ -18,7 +18,7 @@ To obtain the 30-day trial license, you’ll need to go to the Microsoft 365 sec
 1. Now select **Threat Policies**
 1. Then choose **Additional Policies**
 
-## Getting Started with the evaluation
+## Getting started with the evaluation
 
 To get started with the trial evaluation, launch the [Microsoft 365 Defender portal](https://security.microsoft.com).  
 
