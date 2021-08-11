@@ -8,7 +8,7 @@ Your organization's data in Microsoft Defender for Identity, is kept private thr
 
 - Your organization’s data is segregated from all other customers. You can only see your data and any generic data provided by Microsoft.
 - Microsoft developers and administrators have elevated privileges, but only the required privileges to carry out their role.
-- Sensitive data has tight access control and there are multiple levels of monitoring and logging and independent detection of malicious activity. 
+- Sensitive data has tight access control and there are multiple levels of monitoring and logging and independent detection of malicious activity.
 - Access to systems is dependent on the level of background verification of the personnel concerned and formal processes are followed when customers' accounts are accessed.
-- When your Microsoft Defender for Identity instance is created, Defender for identity data is stored in the country data center closest to the geographical location of your Azure Active Directory tenant. 
+- When your Microsoft Defender for Identity instance is created, Defender for identity data is stored in the country data center closest to the geographical location of your Azure Active Directory tenant.
 - Microsoft Defender for Identity data cannot be moved if your instance is created in a different data center.

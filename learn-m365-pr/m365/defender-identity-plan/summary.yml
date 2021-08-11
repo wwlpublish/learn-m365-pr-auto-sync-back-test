@@ -1,10 +1,10 @@
 ### YamlMime:ModuleUnit
-uid: learn-m365-pr.defend-against-attacks-defender-identity.summary
+uid: learn-m365-pr.defender-identity-plan.summary
 title: Summary
 metadata:
   unitType: summary
   title: Summary
-  description: Summary of the module content.
+  description: Plan for Microsoft Defender for Identity
   ms.date: 04/26/2021
   author: GeoffAllix
   ms.author: beccarobins

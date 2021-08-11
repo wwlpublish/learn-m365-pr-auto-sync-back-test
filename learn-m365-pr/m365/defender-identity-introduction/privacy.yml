@@ -1,5 +1,5 @@
 ### YamlMime:ModuleUnit
-uid: learn-m365-pr.introduction-defender-identity.understand-defender-identity-privacy
+uid: learn-m365-pr.defender-identity-introduction.privacy
 title: Understand Microsoft Defender for Identity privacy
 metadata:
   unitType: learning-content
@@ -12,4 +12,4 @@ metadata:
   ms.prod: learning-m365
 durationInMinutes: 4
 content: |
-  [!include[](includes/understand-defender-identity-privacy.md)]
+  [!include[](includes/privacy.md)]

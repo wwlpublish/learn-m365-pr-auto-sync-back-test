@@ -1,11 +1,11 @@
 ### YamlMime:ModuleUnit
-uid: learn-m365-pr.introduction-defender-identity.introduction
+uid: learn-m365-pr.defender-identity-defend-attacks.introduction
 title: Introduction
 metadata:
   unitType: introduction
   title: Introduction
-  description: Introduction to Microsoft Defender for Identity
-  ms.date: 04/22/2021
+  description: Introduction to the module
+  ms.date: 04/26/2021
   author: GeoffAllix
   ms.author: beccarobins
   ms.topic: interactive-tutorial

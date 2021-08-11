@@ -1,5 +1,5 @@
 ### YamlMime:ModuleUnit
-uid: learn-m365-pr.introduction-defender-identity.understand-defender-identity
+uid: learn-m365-pr.defender-identity-introduction.defender-identity
 title: What is Microsoft Defender for Identity?
 metadata:
   unitType: learning-content
@@ -12,4 +12,4 @@ metadata:
   ms.prod: learning-m365
 durationInMinutes: 3
 content: |
-  [!include[](includes/understand-defender-identity.md)]
+  [!include[](includes/defender-identity.md)]

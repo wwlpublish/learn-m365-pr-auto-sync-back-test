@@ -6,7 +6,6 @@ Now that you've completed this module, you should be able to:
 - Understand the capabilities of Microsoft Defender for Identity.
 - Understand Microsoft Defender for Identity privacy.
 
-
 ## Learn more
 
 - [Microsoft 365 Defender enriches the Microsoft Defender for Identity experience](https://techcommunity.microsoft.com/t5/security-compliance-identity/microsoft-365-defender-enriches-the-microsoft-defender-for/ba-p/1808275)
