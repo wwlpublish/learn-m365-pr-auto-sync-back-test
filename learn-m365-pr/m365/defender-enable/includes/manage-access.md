@@ -26,11 +26,11 @@ To manage access to Microsoft 365 Defender, you'll need to assign permissions an
 
 1. Sign in to the Microsoft 365 Defender portal at <security.microsoft.com>.
 
-1. In the navigation pane, select Permissions & roles.
+1. In the navigation pane, select **Permissions & roles**.
 
     :::image type="content" source="../media/3-permissions-roles-m365-security.png" alt-text="Screenshot from the Microsoft 365 Defender portal, showing how to get to the permissions and roles page.":::
 
-1. On the Permissions & Roles page, select Roles.
+1. On the **Permissions & Roles** page, select Roles.
 
 From here, you can give the required roles to your users.
 
