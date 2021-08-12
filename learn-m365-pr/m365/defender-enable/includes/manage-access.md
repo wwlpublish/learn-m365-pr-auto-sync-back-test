@@ -4,9 +4,9 @@ Additionally, each of the Defender products has its own portal that lets you con
 
 |Security portal name|Link|
 |-|-|
-|Microsoft  Defender Security Center|[securitycenter.windows.com](https://securitycenter.microsoft.com/)|
-|Microsoft  Defender for Identity portal|[portal.atp.azure.com](https://portal.atp.azure.com/)|
-|Cloud App  Security portal|[portal.cloudappsecurity.com](https://portal.cloudappsecurity.com/)|
+|Microsoft Defender Security Center|[securitycenter.windows.com](https://securitycenter.microsoft.com/)|
+|Microsoft Defender for Identity portal|[portal.atp.azure.com](https://portal.atp.azure.com/)|
+|Cloud App Security portal|[portal.cloudappsecurity.com](https://portal.cloudappsecurity.com/)|
 |Office 365 Security and Compliance Center|[protection.office.com](https://protection.office.com)|
 
 ## Manage access to Microsoft 365 Defender
@@ -28,7 +28,7 @@ To manage access to Microsoft 365 Defender, you'll need to assign permissions an
 
 1. In the navigation pane, select Permissions & roles.
 
-   :::image type="content" source="../media/3-permissions-roles-m365-security.png" alt-text="Screenshot from the Microsoft 365 Defender portal, showing how to get to the permissions and roles page.":::
+    :::image type="content" source="../media/3-permissions-roles-m365-security.png" alt-text="Screenshot from the Microsoft 365 Defender portal, showing how to get to the permissions and roles page.":::
 
 1. On the Permissions & Roles page, select Roles.
 

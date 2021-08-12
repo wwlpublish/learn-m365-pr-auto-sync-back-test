@@ -12,7 +12,7 @@ AIR capabilities enable you and your security team to dramatically increase your
 
 ## The automated investigation process
 
-Depending on how you've configured your automated investigation and response capabilities, remediation actions can either be taken automatically or require manual approval by you and your security team. While an investigation is running, any related alerts that arise are added to the investigation until it's completed. This makes it easier for you and your team to focus on the attack.  If an affected entity is seen elsewhere, the automated investigation expands its scope to include that entity, and the investigation process repeats. In Microsoft 365 Defender, each automated investigation correlates signals across all deployed services: Microsoft Defender for Identity, Microsoft Defender for Endpoint, and Microsoft Defender for Office 365.  
+Depending on how you've configured your automated investigation and response capabilities, remediation actions can either be taken automatically or require manual approval by you and your security team. While an investigation is running, any related alerts that arise are added to the investigation until it's completed. This makes it easier for you and your team to focus on the attack. If an affected entity is seen elsewhere, the automated investigation expands its scope to include that entity, and the investigation process repeats. In Microsoft 365 Defender, each automated investigation correlates signals across all deployed services: Microsoft Defender for Identity, Microsoft Defender for Endpoint, and Microsoft Defender for Office 365.
 
 ## Details and results of an automated investigation
 

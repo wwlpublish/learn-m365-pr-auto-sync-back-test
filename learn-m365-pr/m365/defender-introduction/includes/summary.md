@@ -4,5 +4,5 @@ By integrating Microsoft Defender for Endpoint, Microsoft Defender for Identity,
 
 Now that you've completed this module, you should:
 
-- Understand how Microsoft 365 Defender uses the threat signals from  multiple security services to build a complete and central picture of cyber attacks in the Microsoft 365 Defender portal.
+- Understand how Microsoft 365 Defender uses the threat signals from multiple security services to build a complete and central picture of cyber attacks in the Microsoft 365 Defender portal.
 - Understand the purposes of Microsoft Defender for Endpoint, Microsoft Defender for Identity, Microsoft Defender for Office 365, and Microsoft Cloud App Security and how they integrate with Microsoft 365 Defender.

@@ -1,4 +1,4 @@
-An incident in Microsoft 365 Defender is a collection of correlated signals, alerts, and other relevant items that are combined into a single comprehensive view representing the whole attack. 
+An incident in Microsoft 365 Defender is a collection of correlated signals, alerts, and other relevant items that are combined into a single comprehensive view representing the whole attack.
 
 Incidents ensure elements otherwise spread across various portals and queues are presented in a single coherent view, which improves your security team's ability to respond to threats and attacks.
 
@@ -14,7 +14,7 @@ Grouping related alerts and threat data into an incident helps you see:
 
 :::image type="content" source="../media/2-attack-chain-overpass-the-hash-spear-phishing-lateral-movement.png" alt-text="Diagram showing the initial access through spear-phishing and lateral movement through overpass-the-hash attack":::
 
-In this example, an attacker starts with a spear-phishing email targeting a specific user. The email contains a malicious link to download a file that contains the Meterpreter payload. With the malicious code running on the target device, an attacker performs reconnaissance to understand which users have signed into the device and which other devices these users have access to.  
+In this example, an attacker starts with a spear-phishing email targeting a specific user. The email contains a malicious link to download a file that contains the Meterpreter payload. With the malicious code running on the target device, an attacker performs reconnaissance to understand which users have signed into the device and which other devices these users have access to.
 
 The attacker finds the credentials of an IT helpdesk team member. Impersonating this IT helpdesk team member using the overpass-the-hash method, the attacker moves laterally to a second device. On a new device, they steal the user's web credentials, which they use to remotely access the user's cloud apps like OneDrive or SharePoint. This allows the attacker to insert a malicious macro into an existing online Word document, which they then deploy in a lateral phishing attack by distributing links to the malicious document to other users in the organization.
 
@@ -58,7 +58,7 @@ From the default incident queue, you can select **Filters** to see a Filters pan
 
 :::image type="content" source="../media/2-incidents-ss-incidents-filters.png" alt-text="Screenshot showing the use of Filters in the incident queue" lightbox="../media/2-incidents-ss-incidents-filters.png":::
 
-There are many filters available. Some of the more useful filters are:  
+There are many filters available. Some of the more useful filters are:
 
 - **Status** – Display incidents based on their overall status such as new or in-progress. A typical filter is for all incidents with a **New** status so that they can be evaluated and assigned.
 - **Severity** – Display incidents with one or more severity ratings. A typical filter is for all incidents with high severity so they can be prioritized for investigation
