@@ -1,4 +1,4 @@
-The way people communicate and collaborate is becoming easier. But that ease comes with and increased risk of criminals looking to exploit it. Microsoft Defender for Office 365 provides a cloud-based filtering service with zero-day protection against malicious threats posed by email messages, links (URLs), attachments, and collaboration tools.
+The way people communicate and collaborate is becoming easier. But that ease comes with an increased risk of criminals looking to exploit it. Microsoft Defender for Office 365 provides a cloud-based filtering service with zero-day protection against malicious threats posed by email messages, links (URLs), attachments, and collaboration tools.
 
 Microsoft Defender for Office 365 includes:
 
@@ -11,8 +11,8 @@ Microsoft Defender for Office 365 includes:
 
 An important consideration for you and your team is to decide what capabilities or features you want out of Microsoft Defender for Office 365. There are currently two plans to choose from:
 
-- Plan 1 focuses on configuration, protection, and detection capabilities.
-- Plan 2 has all of the capabilities of plan 1 but adds automation, investigation, and remediation.
+- **Plan 1** focuses on configuration, protection, and detection capabilities.
+- **Plan 2** has all of the capabilities of plan 1 but adds automation, investigation, and remediation.
 
 ### Plan 1
 
@@ -34,12 +34,14 @@ Plan 2 provides these additional capabilities:
 - Attack simulation and training
 - Campaign Views
 
-You're looking for a solution beyond simple identification and protection; you need automation, investigation, and remediation capabilities, which means you choose Plan 2.
+In your security role, you're looking for a solution beyond simple identification and protection for your organization; you need automation, investigation, and remediation capabilities, which means you choose Plan 2.
 
 ## Explore Microsoft Defender for Office 365
 
-Microsoft Defender for Office 365 is a feature-rich service that can help to protect your users. This interactive guide walks you through Microsoft Defender for Office 365 and the security center.
+Microsoft Defender for Office 365 is a feature-rich service that can help to protect your users. This interactive guide walks you through Microsoft Defender for Office 365 and the Microsoft 365 Defender portal.
 
 Click on the image to get started.
 
 [![Safeguard your organization with Microsoft Defender for Office 365](../media/2-interactive-guide-place-holder.png)](https://aka.ms/MSDO-IG)
+
+When you're done, use the **Back** arrow in your browser to come back to this page.

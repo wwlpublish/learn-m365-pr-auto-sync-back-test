@@ -1,4 +1,4 @@
-The Microsoft Defender for Office 365 protection stack provides multiple layers of security protection to all incoming messages. The stack comprises four parts: edge protection, sender Intelligence, content filtering, and post-delivery protection, with each layer checking for a different type of threat. A message will, typically, pass through each of the layers. However, the actual route through each part depends on how you've chosen to configure Defender for Office 365.
+The Microsoft Defender for Office 365 protection stack provides multiple layers of security protection to all incoming messages. The stack comprises four parts: edge protection, sender intelligence, content filtering, and post-delivery protection, with each layer checking for a different type of threat. Typically, a message will pass through each of the layers. However, the actual route through each part depends on how you've chosen to configure Defender for Office 365.
 
 :::image type="content" source="../media/3-protection-stack-inline.png" lightbox="../media/3-protection-stack-expanded.png" alt-text="Protection Stack":::
 
@@ -18,11 +18,11 @@ Here's a brief description of each edge block:
 - **Domain reputation** will block any messages sent from a known bad domain.
 - **Directory-based edge filtering** blocks attempts to harvest an organization's directory information through SMTP.
 - **Backscatter detection** prevents an organization from being attacked through invalid non-delivery reports (NDRs).
-- **Enhanced Filtering for Connectors** (also know as skip listing) uses the true source of email messages, even when traffic passes through another device before it reaches Office 365.
+- **Enhanced Filtering for Connectors** (also known as skip listing) uses the true source of email messages, even when traffic passes through another device before it reaches Office 365.
 
 ### The sender intelligence layer
 
-The next layer in the protection stack is sender intelligence. The focus of this layer is in identifying the validity of the message sender. This layer checks each message for indicators of a compromised account, checks for spam, checks for spoofing, the email sender is authorized and authenticated, and the mailbox behaves within tolerance. You and your security team can configure each of these features to meet your organization's needs.
+The next layer in the protection stack is sender intelligence. The focus of this layer is identifying the validity of the message sender. This layer checks each message for indicators of a compromised account, for spam, for spoofing, that the email sender is authorized and authenticated, and that the mailbox behaves within tolerance. You and your security team can configure each of these features to meet your organization's needs.
 
 :::image type="content" source="../media/3-stack-sender-intelligence.png" alt-text="This image shows the sender intelligence features." lightbox="../media/3-stack-sender-intelligence.png":::
 
@@ -47,7 +47,7 @@ The next layer in the protection stack is content filtering. The primary focus o
 
 Here's a brief description of the checks that are carried out:
 
-- **Mail flow rules (also known as transport rules**) all messages that flow through your organization are evaluated based on the conditions, exceptions, and actions of enabled mail flow rules.
+- **Mail flow rules (also known as transport rules**) evaluate all messages that flow through your organization based on the conditions, exceptions, and actions of enabled mail flow rules.
 - **Microsoft Defender Antivirus** and two *third-party Antivirus engines* are used to detect all known malware in attachments.
 - **Common attachment filtering** can block all attachments of the types you specify.
 - **Attachment reputation blocking** will block known malicious files across all your Office 365 products.
