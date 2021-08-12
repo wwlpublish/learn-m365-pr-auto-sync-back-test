@@ -9,8 +9,9 @@ When the two systems coexist, a user can be assigned a coexistence mode (sometim
 
     - Teams and channels.
     - Access to files in Microsoft 365 or Office 365.
-    - Applications. Teams communications capabilities—private chat, calling, and scheduling meetings.
-    - Teams private chat, calling, and scheduling meetings are off by default in this mode.
+    - Applications. This includes Teams communications capabilities, such as private chat, calling, and scheduling meetings.
+   
+    You should note that Teams private chat, calling, and scheduling meetings are off by default in this mode.
 
 - **Skype for Business With Teams Collaboration and Meetings** This mode is also known as **Meetings First** because it accelerates the adoption of Teams meeting capability. This coexistence mode is especially useful for organizations with Skype for Business on-premises deployments with Enterprise Voice. These organizations are likely to take some time to upgrade to Teams and want to benefit from the superior Teams meetings as soon as possible.
 
