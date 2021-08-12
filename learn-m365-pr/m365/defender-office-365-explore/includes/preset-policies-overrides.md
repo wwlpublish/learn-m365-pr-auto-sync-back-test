@@ -30,7 +30,7 @@ You can apply these preset security policies by recipient, group membership, or 
 
 ### Conditions and exceptions
 
-By using rules with conditions and exceptions, you can determine whether the profiles will or won't be applied. Each policy only allows you to use a condition or exception once. However, you can specify multiple values for the condition or exception.  When using multiple values in the same condition or exception, you must use OR logic, and for different conditions or exceptions use AND logic.
+By using rules with conditions and exceptions, you can determine whether the profiles will or won't be applied. Each policy only allows you to use a condition or exception once. However, you can specify multiple values for the condition or exception. When using multiple values in the same condition or exception, you must use OR logic, and for different conditions or exceptions use AND logic.
 
 To access the preset policies, launch the Microsoft 365 Defender portal.
 
@@ -62,7 +62,7 @@ To view overrides:
 
    :::image type="content" source="../media/3-view-data-by-system-override-report.png" alt-text="System Override Report":::
 
-Here you see a graph showing the number of overrides by day and color coded by type of override. Some of the overrides are the result of an Exchange transport rule and User Safe Sender category.  
+Here you see a graph showing the number of overrides by day and color coded by type of override. Some of the overrides are the result of an Exchange transport rule and User Safe Sender category.
 You should make a habit of viewing these tables frequently to investigate the causes of overrides, which will help you and your security team determine what policy changes might need to be changed over time.
 
 ## Exchange Online Protection in Microsoft Defender for Office 365

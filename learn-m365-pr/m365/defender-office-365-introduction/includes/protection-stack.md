@@ -1,4 +1,4 @@
-The Microsoft Defender for Office 365 protection stack provides multiple layers of security protection to all incoming messages.   The stack comprises four parts: edge protection, sender Intelligence, content filtering, and post-delivery protection, with each layer checking for a different type of threat.  A message will, typically, pass through each of the layers. However, the actual route through each part depends on how you've chosen to configure Defender for Office 365.
+The Microsoft Defender for Office 365 protection stack provides multiple layers of security protection to all incoming messages. The stack comprises four parts: edge protection, sender Intelligence, content filtering, and post-delivery protection, with each layer checking for a different type of threat. A message will, typically, pass through each of the layers. However, the actual route through each part depends on how you've chosen to configure Defender for Office 365.
 
 :::image type="content" source="../media/3-protection-stack-inline.png" lightbox="../media/3-protection-stack-expanded.png" alt-text="Protection Stack":::
 
@@ -7,7 +7,7 @@ The Microsoft Defender for Office 365 protection stack provides multiple layers 
 > [!NOTE]
 > The Edge protection layer and edge blocks should not be confused with the Edge browser. They are two different entities.
 
-The edge protection layer is the first point of contact for an inbound message.  It's made up of edge blocks that run automatically.  Each edge block handles a different aspect of protection from network and IP reputation throttling through directory-based edge filtering and backscatter detection.  
+The edge protection layer is the first point of contact for an inbound message. It's made up of edge blocks that run automatically. Each edge block handles a different aspect of protection from network and IP reputation throttling through directory-based edge filtering and backscatter detection. 
 
 :::image type="content" source="../media/3-stack-edge-layer.png" alt-text="This diagram shows the features of the edge protection layer: Network throttling, ip reputation and throttling, domain reputation, directory-based edge filtering, backscatter detection, and enhanced filtering for connectors. ":::
 
@@ -22,26 +22,26 @@ Here's a brief description of each edge block:
 
 ### The sender intelligence layer
 
-The next layer in the protection stack is sender intelligence.  The focus of this layer is in identifying the validity of the message sender.  This layer checks each message for indicators of a compromised account, checks for spam, checks for spoofing, the email sender is authorized and authenticated, and the mailbox behaves within tolerance.  You and your security team can configure each of these features to meet your organization's needs.
+The next layer in the protection stack is sender intelligence. The focus of this layer is in identifying the validity of the message sender. This layer checks each message for indicators of a compromised account, checks for spam, checks for spoofing, the email sender is authorized and authenticated, and the mailbox behaves within tolerance. You and your security team can configure each of these features to meet your organization's needs.
 
 :::image type="content" source="../media/3-stack-sender-intelligence.png" alt-text="This image shows the sender intelligence features. ":::
 
 Here's a brief description of each feature in this layer:
 
-- **Account compromise detection** alerts are raised when an account has strange behavior consistent with compromise.  
-- **Email Authentication** aims at ensuring that senders are authorized, genuine mailers. To avoid spoofing, you should use SPF, DKIM, DMARC, and ARC authentication methods.  
+- **Account compromise detection** alerts are raised when an account has strange behavior consistent with compromise.
+- **Email Authentication** aims at ensuring that senders are authorized, genuine mailers. To avoid spoofing, you should use SPF, DKIM, DMARC, and ARC authentication methods.
 - **Spoof intelligence** filters those allowed to 'spoof' from malicious senders who imitate organizational or known external domains.
 - **Intra-org spoof intelligence** detects and blocks spoof attempts from a domain within the organization.
 - **Cross-domain spoof intelligence** detects and blocks spoof attempts from a domain outside of the organization.
-- **Bulk filtering** lets you configure a bulk confidence level (BCL) indicating whether the message was sent from a bulk sender that's more likely or less likely to send spam.  
-- **Mailbox intelligence** learns from standard user email behaviors. It leverages a user's communication graph (history of messages to and from) to detect when a sender only appears to be someone the user usually communicates with but is malicious.  
-- **Mailbox intelligence** for **impersonation protection** allows you to configure specific actions to take on messages if mailbox intelligence detects an impersonated user.  
-- **User impersonation** allows you to create a list of high-value targets (senders) that are likely to be impersonated.  
+- **Bulk filtering** lets you configure a bulk confidence level (BCL) indicating whether the message was sent from a bulk sender that's more likely or less likely to send spam.
+- **Mailbox intelligence** learns from standard user email behaviors. It leverages a user's communication graph (history of messages to and from) to detect when a sender only appears to be someone the user usually communicates with but is malicious.
+- **Mailbox intelligence** for **impersonation protection** allows you to configure specific actions to take on messages if mailbox intelligence detects an impersonated user.
+- **User impersonation** allows you to create a list of high-value targets (senders) that are likely to be impersonated.
 - **Domain impersonation** detects sender domains that are similar to the recipient's domain in an attempt to look like an internal domain.
 
 ### The content filtering layer
 
-The next layer in the protection stack is content filtering.  The primary focus of this layer is to check the content of the mail, looking for suspicious message structure and word frequency, hyperlinks, and attachments.  Each email is subject to several checks, from mail flow rules to heuristics and machine learning models.
+The next layer in the protection stack is content filtering. The primary focus of this layer is to check the content of the mail, looking for suspicious message structure and word frequency, hyperlinks, and attachments. Each email is subject to several checks, from mail flow rules to heuristics and machine learning models.
 
 :::image type="content" source="../media/3-stack-content-filtering.png" alt-text="This image shows the features in the content filtering layer.":::
 

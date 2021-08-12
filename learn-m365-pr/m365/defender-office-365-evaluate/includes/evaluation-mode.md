@@ -1,6 +1,6 @@
-The Microsoft Defender for Office 365 evaluation mode is a simplified instance of Microsoft Defender for Office 365 that lets you evaluate the essential capabilities, without having to go through all of the setup steps. Which lets you focus on evaluation of the essential capabilities.  The only features and functions enabled in the evaluation version are those that support email protection.
+The Microsoft Defender for Office 365 evaluation mode is a simplified instance of Microsoft Defender for Office 365 that lets you evaluate the essential capabilities, without having to go through all of the setup steps. Which lets you focus on evaluation of the essential capabilities. The only features and functions enabled in the evaluation version are those that support email protection.
 
-You have two choices when it comes to deciding how to evaluate Microsoft Defender for Office 365. The first way is to use your existing tenant. However, you'll need to make sure you have a suitable license.  The other is to start a 30-day evaluation trial where you'll be able to test the capabilities of the Microsoft 365 Defender portal.
+You have two choices when it comes to deciding how to evaluate Microsoft Defender for Office 365. The first way is to use your existing tenant. However, you'll need to make sure you have a suitable license. The other is to start a 30-day evaluation trial where you'll be able to test the capabilities of the Microsoft 365 Defender portal.
 
 To run an evaluation from your existing tenant, you'll need any of the following licenses.
 
@@ -20,7 +20,7 @@ To obtain the 30-day trial license, you'll need to go to the Microsoft 365 secur
 
 ## Getting started with the evaluation
 
-To get started with the trial evaluation, launch the [Microsoft 365 Defender portal](https://security.microsoft.com).  
+To get started with the trial evaluation, launch the [Microsoft 365 Defender portal](https://security.microsoft.com).
 
 There are three ways you can find the Defender for Office 365 evaluation setup up card.
 

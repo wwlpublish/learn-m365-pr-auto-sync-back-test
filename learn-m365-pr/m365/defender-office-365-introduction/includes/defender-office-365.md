@@ -9,10 +9,10 @@ Microsoft Defender for Office 365 includes:
 
 ## Plan types
 
-An important consideration for you and your team is to decide what capabilities or features you want out of Microsoft Defender for Office 365.  There are currently two plans to choose from:
+An important consideration for you and your team is to decide what capabilities or features you want out of Microsoft Defender for Office 365. There are currently two plans to choose from:
 
 - Plan 1 focuses on configuration, protection, and detection capabilities.
-- Plan 2 has all of the capabilities of plan 1 but adds automation, investigation, and remediation.  
+- Plan 2 has all of the capabilities of plan 1 but adds automation, investigation, and remediation.
 
 ### Plan 1
 
@@ -38,7 +38,7 @@ You're looking for a solution beyond simple identification and protection; you n
 
 ## Explore Microsoft Defender for Office 365
 
-Microsoft Defender for Office 365 is a feature-rich service that can help to protect your users.  This interactive guide walks you through Microsoft Defender for Office 365 and the security center.
+Microsoft Defender for Office 365 is a feature-rich service that can help to protect your users. This interactive guide walks you through Microsoft Defender for Office 365 and the security center.
 
 Click on the image to get started.
 

@@ -1,4 +1,4 @@
-Microsoft Defender for Office 365 comes with a number of features.  These are designed to protect your users from malware, phishing and spam, amongst many others.  Many of these features are typically associated with Exchange Online Protection (EOP). This is perfectly normal, since Microsoft Defender for Office 365 contains and builds on EOP.
+Microsoft Defender for Office 365 comes with a number of features. These are designed to protect your users from malware, phishing and spam, amongst many others. Many of these features are typically associated with Exchange Online Protection (EOP). This is perfectly normal, since Microsoft Defender for Office 365 contains and builds on EOP.
 
 The full list of threat protection features is:
 
@@ -27,7 +27,7 @@ All messages that are found to contain malware in any attachments are quarantine
 
 ## Anti-spam protection
 
-Unmonitored junk email can clog inboxes and networks, impact user satisfaction, and hamper the effectiveness of legitimate email communications. Anti-spam technologies start by containing and filtering junk email.  Microsoft Defender for Office 365 includes proprietary spam filtering technologies to identify and separate junk email from legitimate email.
+Unmonitored junk email can clog inboxes and networks, impact user satisfaction, and hamper the effectiveness of legitimate email communications. Anti-spam technologies start by containing and filtering junk email. Microsoft Defender for Office 365 includes proprietary spam filtering technologies to identify and separate junk email from legitimate email.
 
 The anti-spam settings capabilities in Microsoft Defender for Office 365 use:
 
@@ -43,7 +43,7 @@ Phishing is an email attack that tries to steal sensitive information in message
 - **Spear phishing** uses focused, customized content that's tailored to the targeted recipients, typically, after reconnaissance on the recipients by the attacker.
 - **Whaling** is directed at executives or other high value targets within an organization for maximum effect.
 - **Business email compromise** uses forged trusted senders, for example financial officers, customers, and trusted partners to trick recipients into approving payments, transferring funds, or revealing customer data. Learn more by watching this video.
-- **Ransomware** encrypts your data and demands payment to decrypt it. This  almost always starts out as a phishing messages. Anti-phishing protection can't help you decrypt encrypted files, but it can help detect the initial phishing messages that are associated with the ransomware campaign.
+- **Ransomware** encrypts your data and demands payment to decrypt it. This almost always starts out as a phishing messages. Anti-phishing protection can't help you decrypt encrypted files, but it can help detect the initial phishing messages that are associated with the ransomware campaign.
 
 Microsoft Defender for Office 365 contains additional and more advanced anti-phishing features:
 
@@ -68,7 +68,7 @@ Safe Links is a feature in Defender for Office 365 that provides URL scanning an
 
 Safe Links protection is available in the following locations:
 
-- **Email messages**: Safe Links protection for links in email messages is controlled by Safe Links policies. As there's no default Safe Links policy, you need to create one or more Safe Links policies or use the Standard or Strict preset security policies. Safe Links scans incoming email for known malicious hyperlinks. Scanned URLs are rewritten by appending a Microsoft prefix (for example `//nam01.safelinks.protection.outlook.com`). After the link is rewritten, it's analyzed for potentially malicious content.  Once rewritten, the URL persists even if the message is manually forwarded or replied to for internal and external recipients.
+- **Email messages**: Safe Links protection for links in email messages is controlled by Safe Links policies. As there's no default Safe Links policy, you need to create one or more Safe Links policies or use the Standard or Strict preset security policies. Safe Links scans incoming email for known malicious hyperlinks. Scanned URLs are rewritten by appending a Microsoft prefix (for example `//nam01.safelinks.protection.outlook.com`). After the link is rewritten, it's analyzed for potentially malicious content. Once rewritten, the URL persists even if the message is manually forwarded or replied to for internal and external recipients.
 - **Microsoft Teams**: Safe Links protection for links in Teams conversations, group chats, or from channels is also controlled by Safe Links policies. As there's no default Safe Links policy, you need to create one or more Safe Links policies.
 - **Office 365 apps**: Safe Links protection for Office 365 apps is available in supported desktop, mobile, and web apps. You configure Safe Links protection for Office 365 apps in the global setting that are outside of Safe Links policies.
 - **Safe Links protection for Office 365 apps** is applied to all users in the organization who are licensed for Defender for Office 365, regardless of whether the users are included in active Safe Links policies or not.

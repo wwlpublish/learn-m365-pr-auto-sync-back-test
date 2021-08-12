@@ -10,7 +10,7 @@ Now that you've completed this module, you should be able to:
 ## Learn more
 
 - [Recommended settings for EOP and Microsoft Defender for Office 365 security](/microsoft-365/security/office-365-security/recommended-settings-for-eop-and-office365)
-- [Use Admin Submission to submit suspected spam, phish, URLs, and files to   Microsoft](/microsoft-365/security/office-365-security/admin-submission)
+- [Use Admin Submission to submit suspected spam, phish, URLs, and files to Microsoft](/microsoft-365/security/office-365-security/admin-submission)
 - [Enable the Report Message or the Report Phishing add-ins](/microsoft-365/security/office-365-security/enable-the-report-message-add-in)
 - [Report false positives and false negatives to Outlook](/microsoft-365/security/office-365-security/report-false-positives-and-false-negatives)
 - [Manually submit messages to Microsoft for analysis](/microsoft-365/security/office-365-security/submit-spam-non-spam-and-phishing-scam-messages-to-microsoft-for-analysis)
