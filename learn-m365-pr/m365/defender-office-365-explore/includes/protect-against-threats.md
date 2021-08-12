@@ -1,4 +1,4 @@
-Microsoft Defender for Office 365 comes with a number of features. These are designed to protect your users from malware, phishing and spam, amongst many others. Many of these features are typically associated with Exchange Online Protection (EOP). This is perfectly normal, since Microsoft Defender for Office 365 contains and builds on EOP.
+Microsoft Defender for Office 365 comes with a number of features. These are designed to protect your users from malware, phishing, and spam, amongst many others. Many of these features are typically associated with Exchange Online Protection (EOP). This is perfectly normal, since Microsoft Defender for Office 365 contains and builds on EOP.
 
 The full list of threat protection features is:
 
@@ -13,7 +13,7 @@ The full list of threat protection features is:
 
 With Microsoft Defender for Office 365, email messages are automatically protected against malware. Some of the major categories of malware are:
 
-- **Viruses** that infect other programs and data which spread through your computer or network looking for programs to infect.
+- **Viruses** that infect other programs and data that spread through your computer or network looking for programs to infect.
 - **Spyware** that gathers your personal information, such as sign-in information, and sends it back to the attacker.
 - **Ransomware** that encrypts your data and demands payment to decrypt it. Anti-malware software doesn't help you decrypt encrypted files, but it can detect and remove the malware payload that's associated with the ransomware before it is deployed.
 
@@ -32,7 +32,7 @@ Unmonitored junk email can clog inboxes and networks, impact user satisfaction, 
 The anti-spam settings capabilities in Microsoft Defender for Office 365 use:
 
 - **Connection filtering**: Identifies good and bad email source servers early in the inbound email connection via the IP allowlist, IP blocklist, and the safe list (a dynamic but non-editable list of trusted senders maintained by Microsoft). You configure these settings in the connection filter policy.
-- **Spam filtering (content filtering)**: It uses the following spam filtering verdicts to classify messages: Spam, High confidence spam, Bulk email, Phishing email and High confidence phishing email.
+- **Spam filtering (content filtering)**: It uses the following spam filtering verdicts to classify messages: Spam, High confidence spam, Bulk email, Phishing email, and High confidence phishing email.
 - **Outbound spam filtering**: This will check to make sure that your users don't send spam, either in outbound message content or by exceeding outbound message limits.
 - **Spoof intelligence**: When a sender spoofs an email address, they appear to be a user in one of your organization's domains, or a user in an external domain that sends email to your organization. Anti-phishing protection
 
@@ -43,7 +43,7 @@ Phishing is an email attack that tries to steal sensitive information in message
 - **Spear phishing** uses focused, customized content that's tailored to the targeted recipients, typically, after reconnaissance on the recipients by the attacker.
 - **Whaling** is directed at executives or other high value targets within an organization for maximum effect.
 - **Business email compromise** uses forged trusted senders, for example financial officers, customers, and trusted partners to trick recipients into approving payments, transferring funds, or revealing customer data. Learn more by watching this video.
-- **Ransomware** encrypts your data and demands payment to decrypt it. This almost always starts out as a phishing messages. Anti-phishing protection can't help you decrypt encrypted files, but it can help detect the initial phishing messages that are associated with the ransomware campaign.
+- **Ransomware** encrypts your data and demands payment to decrypt it. This almost always starts out as a phishing message. Anti-phishing protection can't help you decrypt encrypted files, but it can help detect the initial phishing messages that are associated with the ransomware campaign.
 
 Microsoft Defender for Office 365 contains additional and more advanced anti-phishing features:
 

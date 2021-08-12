@@ -5,7 +5,7 @@ Microsoft Defender for Office 365 provides customizable policies that help you c
 
 ## Preset security policies
 
-A preset security policies provide the means to apply all the necessary security policies to all your users at the same time, for example phishing, malware and spam policies. These policy settings can't be changed by you or your security team as they are defined by Microsoft, based on their experience and observations. These policies aim for balance by keeping harmful content away from your users without disrupting their work. Preset security policies consist of the following:
+Preset security policies provide the means to apply all the necessary security policies to all your users at the same time, for example phishing, malware and spam policies. These policy settings can't be changed by you or your security team as they are defined by Microsoft, based on their experience and observations. These policies aim for balance by keeping harmful content away from your users without disrupting their work. Preset security policies consist of the following:
 
 - Profiles
 - Policies
