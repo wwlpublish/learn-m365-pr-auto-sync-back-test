@@ -1,4 +1,4 @@
-The Microsoft 365 Defender portal includes a configuration analyzer that you can use to find any policies that don’t meet the minimum standard and strict protection profile settings. You can use the configuration analyzer to review the following types of policies:
+The Microsoft 365 Defender portal includes a configuration analyzer that you can use to find any policies that don't meet the minimum standard and strict protection profile settings. You can use the configuration analyzer to review the following types of policies:
 
 - Exchange Online Protection (EOP) policies. This includes organizations with Exchange Online mailboxes and standalone EOP organizations without Exchange Online mailboxes:
   - Anti-spam policies.
@@ -71,7 +71,7 @@ If there are any recommendations for improvement, the settings that require atte
 - **Last modified**: The date that the policy was last modified.
 
 > [!NOTE]
-> If your subscription includes Microsoft Defender for Office 365 you’ll be able to make use of Safe Attachments and Safe Links.
+> If your subscription includes Microsoft Defender for Office 365 you'll be able to make use of Safe Attachments and Safe Links.
 
 ### Configuration drift analysis and history tab in the configuration analyzer
 

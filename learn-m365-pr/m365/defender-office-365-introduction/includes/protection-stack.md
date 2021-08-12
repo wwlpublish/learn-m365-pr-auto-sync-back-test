@@ -1,4 +1,4 @@
-The Microsoft Defender for Office 365 protection stack provides multiple layers of security protection to all incoming messages.   The stack comprises four parts: edge protection, sender Intelligence, content filtering, and post-delivery protection, with each layer checking for a different type of threat.  A message will, typically, pass through each of the layers. However, the actual route through each part depends on how you’ve chosen to configure Defender for Office 365.
+The Microsoft Defender for Office 365 protection stack provides multiple layers of security protection to all incoming messages.   The stack comprises four parts: edge protection, sender Intelligence, content filtering, and post-delivery protection, with each layer checking for a different type of threat.  A message will, typically, pass through each of the layers. However, the actual route through each part depends on how you've chosen to configure Defender for Office 365.
 
 :::image type="content" source="../media/3-protection-stack-inline.png" lightbox="../media/3-protection-stack-expanded.png" alt-text="Protection Stack":::
 
@@ -33,7 +33,7 @@ Here's a brief description of each feature in this layer:
 - **Spoof intelligence** filters those allowed to 'spoof' from malicious senders who imitate organizational or known external domains.
 - **Intra-org spoof intelligence** detects and blocks spoof attempts from a domain within the organization.
 - **Cross-domain spoof intelligence** detects and blocks spoof attempts from a domain outside of the organization.
-- **Bulk filtering** lets you configure a bulk confidence level (BCL) indicating whether the message was sent from a bulk sender that’s more likely or less likely to send spam.  
+- **Bulk filtering** lets you configure a bulk confidence level (BCL) indicating whether the message was sent from a bulk sender that's more likely or less likely to send spam.  
 - **Mailbox intelligence** learns from standard user email behaviors. It leverages a user's communication graph (history of messages to and from) to detect when a sender only appears to be someone the user usually communicates with but is malicious.  
 - **Mailbox intelligence** for **impersonation protection** allows you to configure specific actions to take on messages if mailbox intelligence detects an impersonated user.  
 - **User impersonation** allows you to create a list of high-value targets (senders) that are likely to be impersonated.  
@@ -67,7 +67,7 @@ The last layer in the protection stack is post-delivery protection. This persist
 
 To achieve this, it calls upon a number of capabilities:
 
-- **Safe Links** is Defender for Office 365's time-of-click protection. When a URL is selected, it’s checked against the latest reputation before redirecting to the target site.
+- **Safe Links** is Defender for Office 365's time-of-click protection. When a URL is selected, it's checked against the latest reputation before redirecting to the target site.
 - **Zero-hour auto-purge (ZAP) for phishing** retroactively detects and neutralizes malicious phishing messages that have already been delivered to Exchange Online mailboxes.
 - **ZAP for malware** retroactively detects and neutralizes malicious *malware* messages that have already been delivered to Exchange Online mailboxes.
 - **ZAP for spam** retroactively detects and neutralizes malicious *spam* messages that have already been delivered to Exchange Online mailboxes.

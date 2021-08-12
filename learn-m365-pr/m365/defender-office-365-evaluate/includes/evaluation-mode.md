@@ -1,6 +1,6 @@
 The Microsoft Defender for Office 365 evaluation mode is a simplified instance of Microsoft Defender for Office 365 that lets you evaluate the essential capabilities, without having to go through all of the setup steps. Which lets you focus on evaluation of the essential capabilities.  The only features and functions enabled in the evaluation version are those that support email protection.
 
-You have two choices when it comes to deciding how to evaluate Microsoft Defender for Office 365. The first way is to use your existing tenant. However, you’ll need to make sure you have a suitable license.  The other is to start a 30-day evaluation trial where you’ll be able to test the capabilities of the Microsoft 365 Defender portal.
+You have two choices when it comes to deciding how to evaluate Microsoft Defender for Office 365. The first way is to use your existing tenant. However, you'll need to make sure you have a suitable license.  The other is to start a 30-day evaluation trial where you'll be able to test the capabilities of the Microsoft 365 Defender portal.
 
 To run an evaluation from your existing tenant, you'll need any of the following licenses.
 
@@ -11,7 +11,7 @@ To run an evaluation from your existing tenant, you'll need any of the following
 
 You're concerned that running a trial using an existing license could impact your existing services. Since you're only evaluating the product, you decide to use the 30-day trial version.
 
-To obtain the 30-day trial license, you’ll need to go to the Microsoft 365 security portal.
+To obtain the 30-day trial license, you'll need to go to the Microsoft 365 security portal.
 
 1. Select **Email & Collaboration**
 1. Then select **Policies and Rules**
@@ -36,9 +36,9 @@ Once you have found the card, to get started with the evaluation, select **Evalu
 
 ## Setting up the evaluation
 
-Now that you’ve launched the evaluation setup. The wizard will guide you through what you need to do. There are a few things you’ll need to consider as you run through the setup wizard:
+Now that you've launched the evaluation setup. The wizard will guide you through what you need to do. There are a few things you'll need to consider as you run through the setup wizard:
 
-- You’ll need to make a choice on which routing option you want. This will be governed by the mail routing setup you currently have, and also on the type of evaluation you want to run.
+- You'll need to make a choice on which routing option you want. This will be governed by the mail routing setup you currently have, and also on the type of evaluation you want to run.
   - If you're using a third-party and/or on-premises service provider:
     - Select the name of the vendor from the drop-down menu.
     - Provide the other connector-related details.

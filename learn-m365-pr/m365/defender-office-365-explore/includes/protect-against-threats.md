@@ -20,7 +20,7 @@ With Microsoft Defender for Office 365, email messages are automatically protect
 Microsoft Defender for Office 365 anti-malware protection offers:
 
 - **Layered defenses against malware**: Multiple anti-malware scan engines help protect against both known and unknown threats.
-- **Real-time threat response**: During some outbreaks, Microsoft’s anti-malware team may have enough information about a virus or other form of malware to write sophisticated policy rules that detect the threat, even before a definition is available from any of the scan engines used by the service.
+- **Real-time threat response**: During some outbreaks, Microsoft's anti-malware team may have enough information about a virus or other form of malware to write sophisticated policy rules that detect the threat, even before a definition is available from any of the scan engines used by the service.
 - **Fast anti-malware definition deployment**: The Microsoft anti-malware team maintains close relationships with partners who develop anti-malware engines. As a result, the service can receive and integrate malware definitions and patches before they're publicly released.
 
 All messages that are found to contain malware in any attachments are quarantined, and can only be released from quarantine by you or a member of your security team.
