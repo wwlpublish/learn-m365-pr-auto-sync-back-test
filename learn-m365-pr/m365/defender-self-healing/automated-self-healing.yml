@@ -1,9 +1,9 @@
 ### YamlMime:ModuleUnit
 uid: learn-m365-pr.defender-self-healing.automated-self-healing
-title: What is automated self-healing
+title: What is automated self-healing?
 metadata:
   unitType: learning-content
-  title: What is automated self-healing
+  title: What is automated self-healing?
   description: Learn how to reduce the volume of alerts and incidents you and your security team needs to focus on, by using automated investigation and response (AIR). 
   ms.date: 05/20/2021
   author: iankensey
