@@ -4,11 +4,11 @@ title: Explore your cloud apps with Cloud Discovery
 metadata:
   title: Explore your cloud infrastructure with Cloud Discovery
   description: Learn how to use Cloud Discovery to gain insight into the cloud apps used in your organization.  
-  ms.date: 09/08/2020
+  ms.date: 06/14/2021
   author: lizap
-  ms.author: iankensey
+  ms.author: beccarobins
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-durationInMinutes: 5
+durationInMinutes: 2
 content: |
   [!include[](includes/cloud-discovery.md)]

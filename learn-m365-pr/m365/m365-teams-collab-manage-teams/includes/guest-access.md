@@ -17,7 +17,7 @@ You can manage Teams guest access features and capabilities through four differe
 
 Administrators can manage guest access by using the Microsoft Teams admin center, Azure AD, or the Microsoft 365 admin center.
 
-The different authorization levels provided by these tools give you flexibility in how you set up guest access for your organization. For example, if you don’t want to allow guest users in Teams but want to allow it overall in your organization, just turn off guest access in Teams.
+The different authorization levels provided by these tools give you flexibility in how you set up guest access for your organization. For example, if you don't want to allow guest users in Teams but want to allow it overall in your organization, just turn off guest access in Teams.
 
 ### Azure AD
 

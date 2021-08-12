@@ -4,12 +4,12 @@ title: Summary and knowledge check
 metadata:
   title: Summary and knowledge check
   description: Review what you learned about how to upgrade from Skype for Business on-premises to Microsoft Teams. 
-  ms.date: 10/11/2019
+  ms.date: 07/16/2021
   author: lizap
   ms.author: elizapo
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-durationInMinutes: 5
+durationInMinutes: 4
 content: |
   [!include[](includes/summary-knowledge-check.md)]
 quiz:

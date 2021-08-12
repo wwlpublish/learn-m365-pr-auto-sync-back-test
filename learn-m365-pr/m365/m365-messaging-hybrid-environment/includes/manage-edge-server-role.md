@@ -1,6 +1,6 @@
 To properly protect your network from internet attacks, you should reduce the attack surface of the network. The attack surface is the number of computers and services directly exposed to the internet.
 
-The Edge Transport server role is optional and typically deployed on a computer located in an Exchange organization's perimeter network. It’s designed to minimize the attack surface of the organization. The Edge Transport server role handles all internet-facing mail flow.
+The Edge Transport server role is optional and typically deployed on a computer located in an Exchange organization's perimeter network. It's designed to minimize the attack surface of the organization. The Edge Transport server role handles all internet-facing mail flow.
 
 ![Exchange Edge transport server role diagram](../media/exchange-edge-transport.png)
 

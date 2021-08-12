@@ -19,7 +19,7 @@ You will need to enter information such as the App Suite Name, Description, Publ
   - Semi-Annual - Provide users with new features of Office only a few times a year.
   - Semi-Annual (Targeted) - Provide pilot users and application compatibility testers the opportunity to test the next Semi-Annual Channel.
 
-- **Remove MSI from end-user devices** - Choose whether you want to remove pre-existing Office .MSI apps from end-user devices. The installation won’t succeed if there are pre-existing .MSI apps on end-user devices.
+- **Remove MSI from end-user devices** - Choose whether you want to remove pre-existing Office .MSI apps from end-user devices. The installation won't succeed if there are pre-existing .MSI apps on end-user devices.
 
 - **Automatically accept the app end user license agreement** - Select this option if you don't require end users to accept the license agreement.
 

@@ -25,7 +25,7 @@ You'll also need to identify what kinds of public folders your organization is u
 
 > [!NOTE]
 > If your version of Exchange server is older than 2010 SP3 RU8, you'll need to upgrade to at least this version before you can migrate public folders to Exchange Online.
-> 
+>
 
 ## Using PST files to migrate public folders
 

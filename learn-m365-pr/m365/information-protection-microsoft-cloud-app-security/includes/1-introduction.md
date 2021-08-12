@@ -6,6 +6,6 @@ After completing this module, you'll be able to connect apps to Microsoft Cloud 
 
 After completing this module, you'll be able to:
 
-*    Connect apps to Microsoft Cloud App Security
-*    Deploy Conditional Access App Control
-*    Configure real-time monitoring and control across cloud apps
+- Connect apps to Microsoft Cloud App Security
+- Deploy Conditional Access App Control
+- Configure real-time monitoring and control across cloud apps

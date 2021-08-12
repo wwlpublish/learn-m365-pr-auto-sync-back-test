@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.syntex-setup.introduction
+title: Introduction
+metadata:
+  title: Introduction
+  description:  Set up SharePoint Syntex for your organization's specific document understanding solution needs and requirements.
+  ms.date: 07/09/2021
+  author: beccarobins
+  ms.author: beccarobins
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+ 
+durationInMinutes: 1
+content: |
+  [!include[](includes/introduction.md)]

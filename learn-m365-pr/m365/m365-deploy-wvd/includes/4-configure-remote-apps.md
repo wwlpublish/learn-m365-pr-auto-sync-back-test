@@ -1,14 +1,14 @@
-Now we have a host pool and workspace that we can use to deploy a remote app.  Let's create a RemoteApp application group to share an application to a different user in the organization. 
+Now we have a host pool and workspace that we can use to deploy a remote app.  Let's create a RemoteApp application group to share an application to a different user in the organization.
 
 To complete the exercise, you'll need the credentials for a different non-administrative user account that's in Active Directory.
 
-## Create and assign remote applications 
+## Create and assign remote applications
 
 ### Step 1: Basics
 
 1. [Sign in](https://portal.azure.com/learn.docs.microsoft.com?azure-portal=true) to the Azure portal.
 1. Use the search box to find **Azure Virtual Desktop**.
-1. Select **Application groups** > **Add**.
+1. Select **Application groups** > **Create**.
 1. Select the subscription, resource group, host pool, and application type.
 
    :::image type="content" source="../media/4-create-application-group-basics.png" alt-text="Screenshot of the application groups basics tab filled out using values from table.":::
@@ -20,17 +20,9 @@ To complete the exercise, you'll need the credentials for a different non-admini
    |Host pool     | wvd-host-pool-1    |
    |Application group type     | RemoteApp    |
    |Application group name | RemoteApp1 |
-1. Select **Next: Assignments**.
-
-### Step 2: Assignments
-
-1. Select **Add Azure AD users or user groups**.
-
-   :::image type="content" source="../media/4-remoteapp-assignment.png" alt-text="Screenshot of the assignments tab with Add Azure AD users or user groups highlighted.":::
-1. Select single or multiple users or you can select user groups.
 1. Select **Next: Applications**.
 
-### Step 3: Applications
+### Step 2: Applications
 
 1. Select **Add applications**.
 
@@ -45,6 +37,14 @@ To complete the exercise, you'll need the credentials for a different non-admini
    |Application    | WordPad   |
    |Display name    | WordPad  |
 
+1. Select **Next: Assignments**.
+
+### Step 3: Assignments
+
+1. Select **Add Azure AD users or user groups**.
+
+   :::image type="content" source="../media/4-remoteapp-assignment.png" alt-text="Screenshot of the assignments tab with Add Azure AD users or user groups highlighted.":::
+1. Select single or multiple users or you can select user groups.
 1. Select **Next: Workspace**.
 
 ### Step 3: Workspace
@@ -59,4 +59,4 @@ To complete the exercise, you'll need the credentials for a different non-admini
 
 1. Go to the [Azure Virtual Desktop web client](https://rdweb.wvd.microsoft.com/arm/webclient/index.html).
 1. Sign in by using the user credentials for the user you assigned to the RemoteApp application group.
-1. You should see the application in the workspace. 
+1. You should see the application in the workspace.

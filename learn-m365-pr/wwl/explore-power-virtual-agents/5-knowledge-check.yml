@@ -4,7 +4,7 @@ title: Knowledge check
 metadata:
   title: Knowledge check
   description: "Knowledge check"
-  ms.date: 04/23/2021
+  ms.date: 07/09/2021
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -16,7 +16,7 @@ content: |
 quiz:
   title: "Check your knowledge"
   questions:
-  - content: "As the Enterprise Administrator for Lucerne Publishing, Patti Fernandez is interested in using Power Virtual Agents to create chatbots. Patti wants to use advanced concepts, such as entities and variables, but only have the chatbots available internally. Which version of Power Virtual Agents should Patti use?"
+  - content: "As the Enterprise Administrator for Lucerne Publishing, Allan Deyoung is interested in using Power Virtual Agents to create chatbots. Allan wants to use advanced concepts, such as entities and variables, but only have the chatbots available internally. Which version of Power Virtual Agents should Allan use?"
     choices:
     - content: "Microsoft Teams app"
       isCorrect: true
@@ -26,15 +26,15 @@ quiz:
       explanation: "That's incorrect. This app should be used when you're familiar with advanced chatbot concepts, such as entities and variables, and you want to create complex chatbots. But this version is for creating chatbots that your external customers will engage with. Try again."
     - content: "Power Premium app"
       isCorrect: false
-      explanation: "That's incorrect. This isn't a version of Power Virtual Agents. Try again."
+      explanation: "That's incorrect. This feature isn't a version of Power Virtual Agents. Try again."
   - content: "As the Enterprise Administrator for Contoso, Holly Dickson wants to use Power Virtual Agents to create a chatbot. Holly has completed the first step in the process, which is creating the bot. What must Holly do next before defining the bot responses and the overall bot conversation?"
     choices:
     - content: "Specify a custom Power Apps environment for your Power Virtual Agents"
       isCorrect: false
-      explanation: "That's incorrect. This is one of the optional things that you can do in the first step when you created the bot. Try again."
+      explanation: "That's incorrect. This action is one of the optional things that you can do in the first step when you created the bot. Try again."
     - content: "Interact with your bot using the Test Canvas"
       isCorrect: false
-      explanation: "That's incorrect. This is one of the optional things that you can do in the first step when you created the bot. Try again."
+      explanation: "That's incorrect. This action is one of the optional things that you can do in the first step when you created the bot. Try again."
     - content: "Create a topic for the bot"
       isCorrect: true
       explanation: "That's correct. Once you create the bot, you'll create the topic for that bot. A topic is the dialog tree that specifies how your bot responds to a user's question."

@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.troubleshoot-file-sharing.person-to-person-private-chat
+title: Troubleshoot file sharing in person-to-person private chat
+metadata:
+  title: Troubleshoot file sharing in person-to-person private chat
+  description: "Troubleshoot file sharing in person-to-person private chat"
+  ms.date: 07/26/2021
+  author: wwlpublish
+  ms.author: cyncarey
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+durationInMinutes: 11
+content: |
+  [!include[](includes/2-person-to-person-private-chat.md)]

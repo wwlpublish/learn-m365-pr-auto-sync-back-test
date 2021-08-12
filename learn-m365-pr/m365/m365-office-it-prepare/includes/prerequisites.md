@@ -1,12 +1,12 @@
-In this module, we’ll explain Office activation and packaging options, Office servicing for software update management, and how to inform software update approaches based on how devices are used.
+In this module, we'll explain Office activation and packaging options, Office servicing for software update management, and how to inform software update approaches based on how devices are used.
 
 ## Office activation and packaging options
 
-Office is available as part of Microsoft 365 or, in volume licensing editions, with Office 2019 Professional Plus and Office 2019 Standard. The Microsoft 365 versions are assigned to users, and activation is subscription-based. Office 2019 versions are activated based on device and use Key Management Service infrastructure (KMS) through your servers or Multiple Activation Key (MAK) through the Internet. 
+Office is available as part of Microsoft 365 or, in volume licensing editions, with Office 2019 Professional Plus and Office 2019 Standard. The Microsoft 365 versions are assigned to users, and activation is subscription-based. Office 2019 versions are activated based on device and use Key Management Service infrastructure (KMS) through your servers or Multiple Activation Key (MAK) through the Internet.
 
-Microsoft 365 Apps and Office 2019 versions both use the same application packaging, called **Click-to-Run**, and share the same installation approach. You can also use Group Policy with Microsoft 365 Apps and Office 2019 volume licensing editions. 
+Microsoft 365 Apps and Office 2019 versions both use the same application packaging, called **Click-to-Run**, and share the same installation approach. You can also use Group Policy with Microsoft 365 Apps and Office 2019 volume licensing editions.
 
-A common misperception is that all Click-to-Run packages use subscription activation, but that’s not true. Office 2019 apps are only available as Click-to-Run packages and use the same volume activation methods, KMS and MAK, that they’ve used since Office 2007. Microsoft 365 versions of Office use Microsoft 365 user-based subscription activation.
+A common misperception is that all Click-to-Run packages use subscription activation, but that's not true. Office 2019 apps are only available as Click-to-Run packages and use the same volume activation methods, KMS and MAK, that they've used since Office 2007. Microsoft 365 versions of Office use Microsoft 365 user-based subscription activation.
 
 ## Office servicing
 
@@ -36,4 +36,4 @@ Typically, Office usage falls into two categories:
 - More COM add-ins installed – often for Excel power users. If issues occur in response to an update, users may lose essential functionality.
 - Business essential devices should use semi-annual channel updates to keep features more consistent over time.
 
-You can use Microsoft Endpoint Configuration Manager (1902 and newer) to take an inventory of COM add-ins and the devices where they're installed. Configuration Manager discovers Office add-ins using a hardware inventory and reports Office client information. Another option is to use the Readiness Toolkit for Office to inventory COM add-ins. You can define systems with minimal customizations and COM add-ins as general purpose, and then set policies to update those systems automatically. 
+You can use Microsoft Endpoint Configuration Manager (1902 and newer) to take an inventory of COM add-ins and the devices where they're installed. Configuration Manager discovers Office add-ins using a hardware inventory and reports Office client information. Another option is to use the Readiness Toolkit for Office to inventory COM add-ins. You can define systems with minimal customizations and COM add-ins as general purpose, and then set policies to update those systems automatically.

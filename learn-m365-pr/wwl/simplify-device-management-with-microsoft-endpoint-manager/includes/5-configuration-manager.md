@@ -1,14 +1,11 @@
 ## Microsoft Endpoint Configuration Manager
 
-Microsoft Endpoint Configuration Manager is an on-premises product used
-to manage Windows, macOS PCs, and servers. Configuration Manager has a
-rich set of capabilities that allow you to customize the following
-areas:
+Microsoft Endpoint Configuration Manager is an on-premises product used to manage Windows, macOS PCs, and servers. Configuration Manager has a rich set of capabilities that allow you to customize the following areas:
 
-- Application management
-- OS deployment
-- Software update management
-- Device compliance
+ -  Application management
+ -  OS deployment
+ -  Software update management
+ -  Device compliance
 
 ## Co-management - cloud-connected device management with Microsoft 365
 
@@ -20,29 +17,23 @@ When a Windows 10 device has the Configuration Manager client and is enrolled to
 
 You're also able to pilot a workload with a separate collection of devices. Piloting allows you to test the Intune functionality with a subset of devices before switching a larger group.
 
-:::image type="content" source="../media/5-co-management-overview.png" alt-text="Larger Group of Devices":::
+:::image type="content" source="../media/5-co-management-overview-666c6462.png" alt-text="Larger Group of Devices":::
+
 
 ## Paths to co-management
 
 There are two main paths to reach to co-management:
 
-- Existing Configuration Manager clients: You have Windows 10 devices
-    that are already Configuration Manager clients. You set up hybrid
-    Azure AD, and enroll them into Intune.
-
-- New internet-based devices: You have new Windows 10 devices that
-    join Azure AD and automatically enroll to Intune. You install the
-    Configuration Manager client to reach a co-management state.
+ -  Existing Configuration Manager clients: You have Windows 10 devices that are already Configuration Manager clients. You set up hybrid Azure AD, and enroll them into Intune.
+ -  New internet-based devices: You have new Windows 10 devices that join Azure AD and automatically enroll to Intune. You install the Configuration Manager client to reach a co-management state.
 
 ## Benefits
 
-When you enroll existing Configuration Manager clients in co-management,
-you gain the following:
+When you enroll existing Configuration Manager clients in co-management, you gain the following:
 
-- Conditional access with device compliance
-- Intune-based remote actions, for example: restart, remote control,
-    or factory reset
-- Centralized visibility of device health
-- Link users, devices, and apps with Azure Active Directory (Azure AD)
-- Modern provisioning with Windows Autopilot
-- Remote actions
+ -  Conditional access with device compliance
+ -  Intune-based remote actions, for example: restart, remote control, or factory reset
+ -  Centralized visibility of device health
+ -  Link users, devices, and apps with Azure Active Directory (Azure AD)
+ -  Modern provisioning with Windows Autopilot
+ -  Remote actions

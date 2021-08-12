@@ -1,0 +1,52 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.syntex-document-understanding.knowledge-check
+title: Knowledge check
+metadata:
+  title: Knowledge check
+  description: Learn to create and apply a document understanding model, prepare a training set, build a classifier model, train a classifier, and apply the model to a library.
+  ms.date: 07/27/2021
+  author: beccarobins
+  ms.author: beccarobins
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+ 
+durationInMinutes: 3
+content: |
+quiz:
+    title: Check your knowledge
+    questions:
+    - content: "Which step comes first after you've created your document understanding model?"
+      choices:
+      - content: "Create your extractor"
+        isCorrect: false
+        explanation: "Incorrect. Before setting up your extractor, you need to train your model to properly identify the document type you are looking to categorize in the document library."
+      - content: "Train the model"
+        isCorrect: true
+        explanation: "Correct. The first step prior to creating your model should be training the model to identify the content type you want the model to categorize."
+      - content: "Apply the model to the SharePoint library of your choice"
+        isCorrect: false
+        explanation: "Incorrect. The model should not be applied until it is fully functional, meaning it has been trained and classifiers and extractors have been created."
+
+    - content: "How many positive examples do you need to identify when training your document understanding model?"
+      choices:
+      - content: "5"
+        isCorrect: true
+        explanation: "Correct. You need at least five positive document examples to train your model."
+      - content: "1"
+        isCorrect: false
+        explanation: "One positive example is not enough to train your model."
+      - content: "3"
+        isCorrect: false
+        explanation: "Incorrect. Three positive examples are not enough to train your model."
+
+    - content: "What does an explanation do?"
+      choices:
+      - content: "Tells the model what elements go into making the document type"
+        isCorrect: true
+        explanation: "Correct. An explanation is what tells your model what information should be labeled and extracted from the library."
+      - content: "Runs the automation that sets something as a 'Match' or 'Mismatch'"
+        isCorrect: false
+        explanation: "Incorrect. You must first choose “Save and Train” in order to train the model based on the explanation you set up."
+      - content: "Triggers the document upload to your SharePoint library"
+        isCorrect: false
+        explanation: "Incorrect. You will need to choose the “Upload” option to add the desired documents to the SharePoint library."

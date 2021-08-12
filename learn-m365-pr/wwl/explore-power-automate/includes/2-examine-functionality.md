@@ -7,7 +7,7 @@ The following graphic shows a simplified approval workflow that visualizes the p
 :::image type="content" source="../media/simplified-approval-workflow-5eb7b703.jpg" alt-text="graphic shows a simplified approval workflow using Power Automate":::
 
 
-Power Automate can talk to more than 275 data sources or any publicly available API. It can even automate tasks on your local computer, such as computing data in Excel. Workflows can be created by users from all skill levels within an organization, from typical business users to IT Pros. Users can create flows through Power Automate's no-code/low-code platform.
+Power Automate can talk to more than 275 data sources or any publicly available API. It can even automate tasks on a user's local computer, such as computing data in Excel. Workflows can be created by users from all skill levels within an organization, from typical business users to IT Pros. Users can create flows through Power Automate's no-code/low-code platform.
 
 ### Business impact
 
@@ -17,15 +17,15 @@ Power Automate drives value by automating business processes. Since Power Automa
 
 Users can create the following types of flows in Power Automate:
 
- *  **Automated flows.** These flows are triggered by a chosen event. For example, a user may create a flow to notify you when an item is created or modified in a SharePoint list.
- *  **Instant flows.** These flows are triggered manually as needed. Instant flows are also referred to as button flows.
- *  **Scheduled flows.** These flows are triggered by a schedule. The creator of the flow chooses when and how often the flow runs.
- *  **Business process flows.** These flows guide users through a multi-step process to take them to a specific outcome.
- *  **UI flows (preview).** UI flows can be used to automate repetitive tasks in Windows and Web applications. A UI flow records and plays back user interface actions (clicks, keyboard input, and so on) for applications that don not have easy-to-use or complete APIs available.
+ -  **Automated flows.** These flows are triggered by a chosen event. For example, a user may create a flow to notify you when an item is created or modified in a SharePoint list.
+ -  **Instant flows.** These flows are triggered manually as needed. Instant flows are also referred to as button flows.
+ -  **Scheduled flows.** These flows are triggered by a schedule. The creator of the flow chooses when and how often the flow runs.
+ -  **Business process flows.** These flows guide users through a multi-step process to take them to a specific outcome.
+ -  **UI flows (preview).** UI flows can be used to automate repetitive tasks in Windows and Web applications. A UI flow records and plays back user interface actions (clicks, keyboard input, and so on) for applications that don not have easy-to-use or complete APIs available.
 
 This training focuses on automated flows, instant flows, and scheduled flows, which are collectively referred to as event triggered flows.
 
-**Additional reading.** For more information, see [Getting started with Power Automate](https://docs.microsoft.com/power-automate/getting-started?azure-portal=true).
+**Additional reading.** For more information, see [Getting started with Power Automate](/power-automate/getting-started).
 
 ## Knowledge check
 

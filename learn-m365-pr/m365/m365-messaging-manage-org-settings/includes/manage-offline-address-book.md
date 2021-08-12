@@ -1,17 +1,16 @@
 An offline address book (OAB) is a downloadable address list collection that Outlook users can access while disconnected from Exchange Online. Admins can decide which address lists are made available to users who work offline.
 
 ## How users download offline address books
-1.	In Outlook, click **File > Account Settings > Offline address book procedures**.
 
-2.	On the **Offline address book** page, select the following options:
+1. In Outlook, click **File > Account Settings > Offline address book procedures**.
+1. On the **Offline address book** page, select the following options:
 
     - **Download changes since last Send/Receive**: This is the default. If you want to download the full OAB, clear this selection.
     - **Choose address book**: Choose the offline address book that you want to use. You'll only see address books that you have access to (for example, the global address list).
 
-3.	Click **OK**. 
+1. Click **OK**.
 
 The OAB is downloaded and saved on your computer.
-
 
 ## Create an offline address book
 
@@ -35,7 +34,7 @@ Set-OfflineAddressBook -Identity "Marketing OAB" -AddressLists "Address List1","
 
 ## Change the default offline address book in Exchange Online
 
-The default OAB is the Default Offline Address Book. You can set any OAB in your Exchange Online organization as the   default OAB by using the Set-OfflineAddressBook cmdlet. 
+The default OAB is the Default Offline Address Book. You can set any OAB in your Exchange Online organization as the   default OAB by using the Set-OfflineAddressBook cmdlet.
 
 This example sets the OAB named *My OAB* as the default OAB.
 
@@ -50,6 +49,7 @@ Remove-OfflineAddressBook -Identity "My OAB"
 ```
 
 ## Learn more
+
 - [Manage the offline address book](/Exchange/address-books/offline-address-books/offline-address-books?azure-portal=true)
 - [Address lists](/Exchange/address-books/address-lists/address-lists?azure-portal=true)
 - [Modify role groups](/Exchange/permissions-exo/role-groups#modify-role-groups?azure-portal=true)

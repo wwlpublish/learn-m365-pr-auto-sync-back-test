@@ -1,10 +1,11 @@
 In most companies, communication is actively encouraged between all employees. However, in some specialized circumstances, it's necessary to prevent one department or team from communicating with another.
 
-Suppose, in your legal firm, you have separate teams that represent plaintiffs and defendants in cases of criminal negligence. It's essential that these teams cannot exchange information so that, when lawyers from your company both prosecute and defend the same case, these is no possibility of conflicts.
+Suppose, in your legal firm, you have separate teams that represent plaintiffs and defendants in cases of criminal negligence. It's essential that these teams cannot exchange information so that, when lawyers from your company both prosecute and defend the same case, there is no possibility of conflicts.
 
 Here, you'll learn how to set up information barriers between users in Microsoft Teams.
 
 ## What are information barriers?
+
 Information barriers allow you to restrict communication between two groups of people within your Teams system. You may want to avoid a conflict of interest, safeguard internal information, or have another business need to restrict communication.
 
 :::image type="content" border="false" source="../media/3-info-barriers-explained.png" alt-text="Information Barriers":::
@@ -12,6 +13,7 @@ Information barriers allow you to restrict communication between two groups of p
 To create or edit information barrier policies, you will need to be familiar with PowerShell cmdlets.
 
 ## Licenses and permissions
+
 To use information barriers, you must have one of the following subscriptions:
 
 - Microsoft or Office 365 E5/A5
@@ -29,6 +31,7 @@ There are several steps to configuring information barrier policies:
 1. Apply the information barrier policy.
 
 ## Segment users
+
 When segmenting users, there are two important rules:
 
 - A user must be in only one segment.
@@ -48,6 +51,7 @@ New-OrganizationSegment -Name "HR" -UserGroupFilter "Department -eq 'HR'
 After you run each cmdlet, details about the segment are displayed, including the type, who created or last modified it, and so on.
 
 ## Define an information barrier policy
+
 You can either block communications between segments, or allow communication with one segment only.
 To block segments from communicating with each other, you need two policies: one for each direction. Each policy blocks communication one way only. Use the **New-InformationBarrierPolicy** cmdlet with the **SegmentsBlocked** parameter:
 

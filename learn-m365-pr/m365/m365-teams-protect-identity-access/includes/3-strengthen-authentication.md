@@ -1,10 +1,10 @@
 To ensure that common attacks can't compromise your user accounts, you need users to provide more credentials, such as user certificates or time-limited codes. Let's examine how to configure these methods.
 
-## Multi-factor authentication
+## Multifactor authentication
 
-Microsoft 365 plans support multi-factor authentication to increase the security of user logins to services. Users have to acknowledge a phone call, text message, or an app notification on their smartphone after correctly entering their password. Only after this second authentication factor has been satisfied, can a user sign in.
+Microsoft 365 plans support multifactor authentication to increase the security of user logins to services. Users have to acknowledge a phone call, text message, or an app notification on their smartphone after correctly entering their password. Only after this second authentication factor has been satisfied, can a user sign in.
 Multi-factor authentication is supported with any Microsoft 365 plan that includes Microsoft Teams.
-The next time a user signs in after enrolling for multi-factor authentication, they'll see a message asking them to set up a second authentication factor. Supported authentication methods are:
+The next time a user signs in after enrolling for multifactor authentication, they'll see a message asking them to set up a second authentication factor. Supported authentication methods are:
 
 | Tenant type | Available MFA second factor options | Notes |
 | --- | --- | --- |
@@ -159,7 +159,7 @@ The following steps outline the process for updating and invalidating the author
     ```
 
 1. Configure a new **StsRefreshTokensValidFrom** value for the user equal to the current timestamp:
-    
+
     ``` PowerShell
     Set-MsolUser -UserPrincipalName test@yourdomain.com -StsRefreshTokensValidFrom ("03/05/2016")
     ```
@@ -199,7 +199,7 @@ To test certificate authentication in Android:
 
 ## Learn more
 
-* [Azure Active Directory certificate-based authentication on Android](/azure/active-directory/authentication/active-directory-certificate-based-authentication-android)
-* [Azure Active Directory certificate-based authentication on iOS](/azure/active-directory/authentication/active-directory-certificate-based-authentication-ios)
-* [Additional information about certificate-based authentication on Android devices](/azure/active-directory/authentication/active-directory-certificate-based-authentication-android)
-* [Additional information about certificate-based authentication on iOS devices](/azure/active-directory/)
+- [Azure Active Directory certificate-based authentication on Android](/azure/active-directory/authentication/active-directory-certificate-based-authentication-android)
+- [Azure Active Directory certificate-based authentication on iOS](/azure/active-directory/authentication/active-directory-certificate-based-authentication-ios)
+- [Additional information about certificate-based authentication on Android devices](/azure/active-directory/authentication/active-directory-certificate-based-authentication-android)
+- [Additional information about certificate-based authentication on iOS devices](/azure/active-directory/)

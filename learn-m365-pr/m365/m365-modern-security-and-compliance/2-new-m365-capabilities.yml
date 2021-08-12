@@ -4,11 +4,11 @@ title: Review the security and compliance capabilities in Microsoft 365
 metadata:
   title: Review the security and compliance capabilities in Microsoft 365
   description: Microsoft 365 adds additional security and compliance capabilities. Learn how to better protect your data and devices.
-  ms.date: 06/12/2019
+  ms.date: 07/21/2021
   author: lizap
   ms.author: elizapo
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-durationInMinutes: 3
+durationInMinutes: 4
 content: |
   [!include[](includes/2-new-m365-capabilities.md)]

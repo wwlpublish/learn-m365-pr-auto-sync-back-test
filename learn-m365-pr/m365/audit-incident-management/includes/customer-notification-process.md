@@ -11,19 +11,19 @@ The notification timeline commitment begins when the official security incident 
 Customer notification for security incidents occurs via appropriate channels based on the nature and scope of the incident. These channels may include one or more of the following notifications:
 
 - Notification in the [Message Center of the Microsoft 365 Admin center](/microsoft-365/admin/manage/message-center?azure-portal=true)
-- Email to the customer’s tenant administrator
-- Email to the customer’s designated [Global Privacy Contact](/azure/active-directory/fundamentals/active-directory-properties-area?azure-portal=true) (if the tenant Admin has defined it in the Azure Active Directory Admin center)
-- Direct outreach by phone call to the customer’s tenant administrator by a specially trained Support team member
+- Email to the customer's tenant administrator
+- Email to the customer's designated [Global Privacy Contact](/azure/active-directory/fundamentals/active-directory-properties-area?azure-portal=true) (if the tenant Admin has defined it in the Azure Active Directory Admin center)
+- Direct outreach by phone call to the customer's tenant administrator by a specially trained Support team member
 
-Microsoft’s customer notification commitments are detailed in two sections of the [Microsoft Online Services Data Protection Addendum.](https://www.microsoft.com/licensing/product-licensing/products?azure-portal=true)
+Microsoft's customer notification commitments are detailed in two sections of the [Microsoft Online Services Data Protection Addendum.](https://www.microsoft.com/licensing/product-licensing/products?azure-portal=true)
 
 ### Security incident notification
 
-*Notification(s) of Security Incidents will be delivered to one or more of Customer’s administrators by any means Microsoft selects, including via email. It is Customer’s sole responsibility to ensure Customer’s administrators maintain accurate contact information on each applicable online services portal. Customer is solely responsible for complying with its obligations under incident notification laws applicable to Customer and fulfilling any third-party notification obligations related to any Security Incident.*
+*Notification(s) of Security Incidents will be delivered to one or more of Customer's administrators by any means Microsoft selects, including via email. It is Customer's sole responsibility to ensure Customer's administrators maintain accurate contact information on each applicable online services portal. Customer is solely responsible for complying with its obligations under incident notification laws applicable to Customer and fulfilling any third-party notification obligations related to any Security Incident.*
 
-*Microsoft shall make reasonable efforts to assist Customer in fulfilling Customer’s obligation under GDPR Article 33 or other applicable law or regulation to notify the relevant supervisory authority and data subjects about such Security Incident.*
+*Microsoft shall make reasonable efforts to assist Customer in fulfilling Customer's obligation under GDPR Article 33 or other applicable law or regulation to notify the relevant supervisory authority and data subjects about such Security Incident.*
 
-*Microsoft’s notification of or response to a Security Incident under this section is not an acknowledgment by Microsoft of any fault or liability with respect to the Security Incident.*
+*Microsoft's notification of or response to a Security Incident under this section is not an acknowledgment by Microsoft of any fault or liability with respect to the Security Incident.*
 
 *Customer must notify Microsoft promptly about any possible misuse of its accounts or authentication credentials or any security incident related to an online service.*
 
@@ -31,7 +31,7 @@ Microsoft’s customer notification commitments are detailed in two sections of 
 
 #### Incident response process
 
-*For each security breach that is a Security Incident, notification by Microsoft (as described in the “Security Incident Notification” section above) will be made without undue delay and, in any event, within 72 hours.*
+*For each security breach that is a Security Incident, notification by Microsoft (as described in the "Security Incident Notification" section above) will be made without undue delay and, in any event, within 72 hours.*
 
 ## Customer responsibility
 

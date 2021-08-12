@@ -4,11 +4,11 @@ title: Understand the deployment process
 metadata:
   title: Understand the deployment process
   description: Understand the Windows 10 and Microsoft 365 Apps deployment process
-  ms.date: 06/07/2019
+  ms.date: 07/19/2021
   author: AlexandraHrt
-  ms.author: aleha
+  ms.author: beccarobins
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-durationInMinutes: 5
+durationInMinutes: 3
 content: |
   [!include[](includes/2-deployment-process.md)]

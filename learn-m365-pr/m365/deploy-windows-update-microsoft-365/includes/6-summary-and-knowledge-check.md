@@ -1,2 +1,1 @@
 ﻿In this module, you learned about Windows update deployment models and the different ways to deploy Windows update settings to PCs as well sa about Windows Update for Business and scenarios for using that service.
-

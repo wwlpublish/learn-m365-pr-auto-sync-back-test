@@ -2,18 +2,18 @@ Microsoft Teams uses Azure Active Directory (Azure AD) features to support advan
 
 ## What is modern authentication
 
-Modern authentication is a method of identity management that offers more secure user authentication and authorization between client and server. Modern authentication brings Active Directory Authentication Library (ADAL)-based sign-in to Office client applications like Microsoft Teams. This method enables sign-in features such as multi-factor authentication, SAML-based third-party identity providers, and smart card and certificate-based authentication. Modern authentication is the default sign-in protocol for Teams.
+Modern authentication is a method of identity management that offers more secure user authentication and authorization between client and server. Modern authentication brings Active Directory Authentication Library (ADAL)-based sign-in to Office client applications like Microsoft Teams. This method enables sign-in features such as multifactor authentication, SAML-based third-party identity providers, and smart card and certificate-based authentication. Modern authentication is the default sign-in protocol for Teams.
 
 ## How modern authentication works in Teams
 
-Modern authentication is a process where users who have already entered their credentials (such as email and password) elsewhere on the computer won't need to do so again in Teams. The experience will vary depending on whether users are working in Windows or on a Mac and whether your organization has enabled single-factor authentication or multi-factor authentication. Multi-factor authentication usually involves verifying credentials via a phone, providing a unique code, entering a PIN, or presenting a thumbprint. The following is a rundown of each modern authentication scenario.
+Modern authentication is a process where users who have already entered their credentials (such as email and password) elsewhere on the computer won't need to do so again in Teams. The experience will vary depending on whether users are working in Windows or on a Mac and whether your organization has enabled single-factor authentication or multifactor authentication. Multifactor authentication usually involves verifying credentials via a phone, providing a unique code, entering a PIN, or presenting a thumbprint. The following is a rundown of each modern authentication scenario.
 
 ### Windows users
 
 * If users have already signed into Windows or other Office apps with their work or school account, they're taken directly to the app when they start Teams. There's no need to enter their credentials.
 * Microsoft recommends using Windows 10 version 1903 or later for the best single sign-on (SSO) experience.
-* If users aren't signed in to their Microsoft work or school account anywhere else, and they then start Teams, they're asked to provide either single-factor or multi-factor authentication, depending on what your organization decides.
-* If users are signed into a domain-joined computer when they start Teams, they might be asked to go through one more authentication step. It depends on whether your organization opted to require multi-factor authentication, or if the computer already needs multi-factor authentication to sign in. If the user's computer has already asked for multi-factor authentication to sign in, the Teams app starts automatically when they open it.
+* If users aren't signed in to their Microsoft work or school account anywhere else, and they then start Teams, they're asked to provide either single-factor or multifactor authentication, depending on what your organization decides.
+* If users are signed into a domain-joined computer when they start Teams, they might be asked to go through one more authentication step. It depends on whether your organization opted to require multifactor authentication, or if the computer already needs multifactor authentication to sign in. If the user's computer has already asked for multifactor authentication to sign in, the Teams app starts automatically when they open it.
 * On domain-joined PCs, when SSO isn't possible, Teams may prefill its login screen with the user principal name (UPN). There are times when you might not want this, especially if your organization uses different UPNs on-premises and in Azure Active Directory. If that's the case, you can use the following Windows registry key to turn off prepopulation of the UPN:
 
   **Computer\HKEY_CURRENT_USER\Software\Microsoft\Office\Teams
@@ -25,14 +25,14 @@ Modern authentication is a process where users who have already entered their cr
 
 ### Mac users
 
-On macOS, Teams will prompt users to enter their username credentials and might request multi-factor authentication, depending on your organization's settings. After users enter their credentials, they won't be required to provide them again. From that point, Teams automatically starts whenever they're working on the same computer.
+On macOS, Teams will prompt users to enter their username credentials and might request multifactor authentication, depending on your organization's settings. After users enter their credentials, they won't be required to provide them again. From that point, Teams automatically starts whenever they're working on the same computer.
 
 ### Teams for iOS and Android users
 
 On sign-in, mobile users will see a list of all the Microsoft 365 accounts that are either currently signed in or were previously signed in on their device. Users can tap on any of the accounts to sign in. There are two scenarios for mobile sign-in:
 
 * If the selected account is currently signed into other Office 365 or Microsoft 365 apps, then the user will be taken straight to Teams. There's no need to enter credentials.
-* If the user isn't signed in to their Microsoft 365 account anywhere else, they'll be asked to provide single-factor or multi-factor authentication, depending on what your organization has configured for mobile sign-in policies.
+* If the user isn't signed in to their Microsoft 365 account anywhere else, they'll be asked to provide single-factor or multifactor authentication, depending on what your organization has configured for mobile sign-in policies.
 
 > [!NOTE]
 > For users to have the sign-in experience as described in this section, their devices must be running Teams for iOS version 2.0.13 (build 2020061704) or later, or Teams for Android version 1416/1.0.0.2020061702 or later.
@@ -54,7 +54,7 @@ Set the following configuration parameters in the Azure Intune portal for manage
 | --- | --- | --- |
 | iOS | **IntuneMAMAllowedAccountsOnly** | **Enabled**: The only account allowed is the managed user account defined by the IntuneMAMUPN key. **Disabled**: Any account is allowed. |
 | iOS | **IntuneMAMUPN** | UPN of the account allowed to sign in to Teams. For Intune enrolled devices, the {{userprincipalname}} token may be used to represent the enrolled user account. |
-| Android  | **com.microsoft.intune.mam. AllowedAccountUPNs** | Only account(s) allowed are the managed user account(s) defined by this key. One or more semicolon delimited UPNs. For Intune enrolled devices, the {{userprincipalname}} token may be used to represent the enrolled user account. |
+| Android  | **com.microsoft.intune.mam. AllowedAccountUPNs** | Only account(s) allowed are the managed user account(s) defined by this key. One or more semicolon-delimited UPNs. For Intune enrolled devices, the {{userprincipalname}} token may be used to represent the enrolled user account. |
 | | |
 
 When the account setup configuration has been set, Teams will restrict the ability to sign in so that only allowed accounts on enrolled devices will be granted access.

@@ -10,12 +10,12 @@ Threat Explorer enables you to begin delving into granular data for your organiz
   
 You can also change the category for the graph. In this case, the malware family is shown, but you can filter the Threat Explorer graph through several options including sender email, recipient email, and even the detection technology used to stop a threat. The detection technology piece highlights the issue if an email was blocked by Microsoft Defender's sandboxing or through an EOP filter. The graph adjusts to reflect the category being examined.
 
- [ ![Threat Explorer graph](../media/threat-explorer-graph.png) ](../media/threat-explorer-graph-magnify.png#lightbox)
+ :::image type="content" source="../media/threat-explorer-graph.png" alt-text="Threat Explorer graph" lightbox="../media/threat-explorer-graph.png":::
 
-Threat Explorer allows a deeper look into a threat, beginning with a thorough description of this malware family’s behavior. Threat Explorer provides a definition of the threat, the message traces of emails delivering the threat, technical details of the threat, global details of the threat, and advanced analysis.
+Threat Explorer allows a deeper look into a threat, beginning with a thorough description of this malware family's behavior. Threat Explorer provides a definition of the threat, the message traces of emails delivering the threat, technical details of the threat, global details of the threat, and advanced analysis.
 
 On the **Users** tab, you can see each instance that a user in the organization was sent an attachment containing the Nemucod malware threat. You can not only see the specific recipients and subject, but the sender domain and the sender IP as well. The **Status** column tells you if the email was caught and blocked before it ever reached the user, or if it was delivered as spam.
 
- [ ![Malware family description](../media/malware-family-description.png) ](../media/malware-family-description-magnify.png#lightbox)
+ :::image type="content" source="../media/malware-family-description.png" alt-text="Malware family description" lightbox="../media/malware-family-description.png":::
 
 If a user had actually received and opened the email, that would also appear under **Status**, enabling you to reach out to the user and take the appropriate remediation steps, such as scanning their device.

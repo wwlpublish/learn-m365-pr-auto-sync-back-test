@@ -1,6 +1,6 @@
 You know from experience that users can become frustrated with the update process if it negatively affects their day-to-day work. You want to ensure that your users have a positive experience with all updates. You can control which options you want to give to users so they can decide when to install an update. You can choose whether you want to allow users to pause updates, specify active hours for auto restarts, download updates over metered connections, and more.
 
-In this unit, you’ll learn about how to control the user experience after a user’s device receives an update.
+In this unit, you'll learn about how to control the user experience after a user's device receives an update.
 
 ## Control the Windows Update settings page
 
@@ -15,7 +15,7 @@ The following controls are available to control update options for users:
 
 Configuring the following will affect user Group Policy controls on the Windows Update Settings page as follows:
 
-- **Specify active hours range for auto restarts**; this will remove the user’s ability to configure active hours from the Windows Update Settings page.
+- **Specify active hours range for auto restarts**; this will remove the user's ability to configure active hours from the Windows Update Settings page.
 - **Allow download automatically over a metered network** will make **Receive updates for other Microsoft products when you update Windows** unavailable.
 
 ### Group Policy: Remove access to "Pause updates" feature
@@ -32,7 +32,7 @@ Alternatively, you can use set the **Option to pause Windows updates** to **Disa
 
 ### Microsoft recommendation
 
-For the best experience, Microsoft recommends that you don't remove the user’s ability to use Windows Update Settings features.
+For the best experience, Microsoft recommends that you don't remove the user's ability to use Windows Update Settings features.
 
 ## Try it – Restrict access
 

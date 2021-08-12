@@ -8,14 +8,14 @@ Or, if your organization uses Windows Intune, Windows updates can be deployed us
 
 This interactive guide introduces you to two ways to optimize the delivery of Windows 10 updates. You will learn how to:
 
-- Reduce bandwidth consumption.
-- Speed up content distribution by enabling peer to peer sharing.
+ -  Reduce bandwidth consumption.
+ -  Speed up content distribution by enabling peer to peer sharing.
 
-> [!VIDEO https://mslearn.cloudguides.com/guides/Optimize%20delivery%20of%20Windows%2010%20updates]
+> > [!VIDEO https://mslearn.cloudguides.com/guides/Optimize%20delivery%20of%20Windows%2010%20updates]
 
 For more information, check these additional resources:
 
-- [Delivery Optimization for Windows 10 updates](https://docs.microsoft.com/windows/deployment/update/waas-delivery-optimization).
-- [Delivery Optimization reference](https://docs.microsoft.com/windows/deployment/update/waas-delivery-optimization-reference).
-- [Configure BranchCache for Windows 10 updates](https://docs.microsoft.com/windows/deployment/update/waas-branchcache).
-- [Deploy Windows 10 updates with Intune](https://docs.microsoft.com/windows/deployment/update/deploy-updates-intune).
+ -  [Delivery Optimization for Windows 10 updates](/windows/deployment/update/waas-delivery-optimization).
+ -  [Delivery Optimization reference](/windows/deployment/update/waas-delivery-optimization-reference).
+ -  [Configure BranchCache for Windows 10 updates](/windows/deployment/update/waas-branchcache).
+ -  [Deploy Windows 10 updates with Intune](/windows/deployment/update/deploy-updates-intune).

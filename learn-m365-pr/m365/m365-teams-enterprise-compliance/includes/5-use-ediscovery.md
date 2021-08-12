@@ -11,6 +11,7 @@ eDiscovery is the process of identifying, collecting, and producing electronical
 Access eDiscovery from the Microsoft 365 compliance center.
 
 ## Permissions
+
 To create searches, you must be a member of the eDiscovery Manager role group. Within the eDiscovery Manager group, there are two subgroups: **eDiscovery Managers** and **eDiscovery Administrators**.
 
 An **eDiscovery Manager** can:
@@ -29,20 +30,23 @@ An **eDiscovery Manager** can:
 - Manage any eDiscovery case after they add themselves as a member of the case.
 
 ## Licenses
+
 Users, the custodians of the data, must be assigned a Microsoft 365 E5 or Office 365 E5 license. Alternatively, you can purchase an add-on Microsoft 365 E5 Compliance or Microsoft 365 eDiscovery and Audit license for users with an Office 365 E1 or a Microsoft 365 E3 license.
 
 Administrators, compliance officers, or legal personnel who are assigned to cases as members, and use Advanced eDiscovery to collect, view, and analyze data don't need an E5 license.
 
 ## Create a Core eDiscovery case
+
 To create a core eDiscovery case:
 
 1. Sign into the [Microsoft 365 compliance center](https://compliance.microsoft.com) with a user account with the appropriate eDiscovery permissions, or who is part of the Organization Management role group.
-1. From the left navigation pane select **Show all** > **eDiscovery** > **Core**.
+1. From the left navigation pane, select **Show all** > **eDiscovery** > **Core**.
 1. Select **Create a case**.
 1. On the **New case** page, give the case a **name** that is unique within your organization. Optionally add a case number and description.
 1. Select **Save** to create the case.
 
 ## Create a hold
+
 Once you have created a Core eDiscovery case, you can add one or more holds. When you place content locations on hold, content is preserved until you either remove or delete the hold. It may take up to 24 hours for a hold to take effect. A hold may be:
 
 - **Infinite** - where all content in the specified locations is placed on hold.
@@ -60,6 +64,7 @@ To create an eDiscovery hold:
 1. On the **Content locations** page, select the content locations. You can place mailboxes, sites, and public folders on hold.
 
 ## Content Search
+
 To search for content relevant to the case:
 
 1. Sign into the [Microsoft 365 compliance center](https://compliance.microsoft.com), in left navigation pane select **Show all** > **eDiscovery** > **Core**.
@@ -70,6 +75,7 @@ To search for content relevant to the case:
 1. A **Searches** page is added to the case, which can be accessed only by case members.
 
 ## Export search results
+
 You can download data from a search, by exporting the results.
 
 1. Sign into the [Microsoft 365 compliance center](https://compliance.microsoft.com), in the left navigation pane select **Show all** > **eDiscovery** > **Core**.

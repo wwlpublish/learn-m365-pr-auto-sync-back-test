@@ -1,6 +1,6 @@
-Once you’ve optimized your networking architecture for Microsoft Teams, you should get good performance in Microsoft Teams as well. However, there are some extra optimizations, specific to Teams, that will ensure the best performance in video conferences and other advanced Teams functionality.
+Once you've optimized your networking architecture for Microsoft Teams, you should get good performance in Microsoft Teams as well. However, there are some extra optimizations, specific to Teams, that will ensure the best performance in video conferences and other advanced Teams functionality.
 
-In your bicycle manufacturer, you’ve reconfigured your network architecture to support good Microsoft 365 performance and your security team has started using the Zero Trust model to enforce good security. You now want to investigate and implement how to maximize the performance of Microsoft Teams. 
+In your bicycle manufacturer, you've reconfigured your network architecture to support good Microsoft 365 performance and your security team has started using the Zero Trust model to enforce good security. You now want to investigate and implement how to maximize the performance of Microsoft Teams.
 
 Problems with Teams meetings might include:
 

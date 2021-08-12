@@ -14,6 +14,6 @@ Microsoft recommends following three steps to define sensitivity labels within y
 
 2. **Define what each label does.** Configure the protection settings you want associated with each label.
 
-    For example, lower sensitivity content (a “General” label) might have a header or footer applied to it. Higher sensitivity content (a “Confidential” label) might have a watermark, encryption, and work-in-process (WIP) applied to help ensure that only privileged users can access it.
+    For example, lower sensitivity content (a "General" label) might have a header or footer applied to it. Higher sensitivity content (a "Confidential" label) might have a watermark and encryption applied to help ensure that only privileged users can access it.
 
-3. **Define who sees the labels.** After you define your organization’s labels, you publish them in a label policy that controls which users and groups see those labels. A single label is reusable; you define it once, and then you can include it in several label policies assigned to different users.
+3. **Define who sees the labels.** After you define your organization's labels, you publish them in a label policy that controls which users and groups see those labels. A single label is reusable; you define it once, and then you can include it in several label policies assigned to different users.

@@ -16,7 +16,7 @@ After the data is loaded the dashboard reports generate automatically, resulting
 
 ## 1. Run the Ways of working tracker query
 
-The Ways of working tracker dashboard requires output from a query in Workplace Analytics. On the Queries page, under **Start from preselected filters and metrics**, you’ll find the **Ways of working tracker** query.
+The Ways of working tracker dashboard requires output from a query in Workplace Analytics. On the Queries page, under **Start from preselected filters and metrics**, you'll find the **Ways of working tracker** query.
 
 In the upper right corner of the Ways of the Ways of working tracker query, you'll notice a Power BI icon. This indicates there's a download option for a Power BI template that you can use to generate the reports in the dashboard.
 
@@ -59,7 +59,7 @@ After you've loaded the data and the report is generated, the dashboard will ope
 
 ![Select your settings in the dashboard](../media/options-settings.png)
 
-After you’ve selected the settings for the population you’d like to analyze, you can start using the dashboard. The populated Ways of working tracker dashboard includes report pages on how KPIs have changed and evolved over time, and in the last week, differences in collaboration between groups, manager effectiveness, after hours and meeting trends, a well-being scorecard, and key opportunity areas.
+After you've selected the settings for the population you'd like to analyze, you can start using the dashboard. The populated Ways of working tracker dashboard includes report pages on how KPIs have changed and evolved over time, and in the last week, differences in collaboration between groups, manager effectiveness, after hours and meeting trends, a well-being scorecard, and key opportunity areas.
 
 ## Dashboard features
 

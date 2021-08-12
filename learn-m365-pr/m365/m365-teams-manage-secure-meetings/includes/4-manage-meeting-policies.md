@@ -20,6 +20,7 @@ Policy settings are implemented as per-organizer, per-user, or per-organizer and
 - **Per-organizer and per-user**. These policies restrict meeting participants based on both their policy *and* the organizer's policy. For example, **Allow cloud recording** is a per-organizer and per-user policy. Turn on this setting to allow the meeting organizer and participants to start and stop a recording.
 
 ## Policy settings
+
 Let's examine some of the settings that you can use in your meetings policies.
 
 ### General
@@ -44,6 +45,7 @@ Audio and video policy settings enable you to control whether meetings can be re
 | Media bit rate (Kbs)  | Per-user                   | During a meeting | Determines the media bit rate for audio, video, and video-based app sharing transmissions in calls and meetings for the user. It's applied to both the uplink and downlink media traversal for users in the call or meeting.                                      | 50000   |
 
 ### Content sharing
+
 You can use content sharing policy settings to prevent things like screen sharing or control requests.
 
 | Policy setting                                           | Type                       | When it applies  | What it does                                                                                                                                                                                                                             | Default       |

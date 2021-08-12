@@ -2,11 +2,11 @@ In this module, you examined the Azure AD Connect installation requirements, the
 
 In this module, you learned about the following requirements and prerequisites for Azure AD Connect that Enterprise admins must consider before they install and configure it in their environments:
 
- *  Microsoft 365 Tenant requirements
- *  Domain and forest requirements
- *  Operating system and supporting software requirements
- *  Permissions and accounts
- *  Database requirements
+ -  Microsoft 365 Tenant requirements
+ -  Domain and forest requirements
+ -  Operating system and supporting software requirements
+ -  Permissions and accounts
+ -  Database requirements
 
 You learned that during installation of Azure AD Connect, you can choose to install it using either Express Setup or Custom Setup. This module examined the features found in both the Express and Custom setup options and how they can benefit an organization.
 

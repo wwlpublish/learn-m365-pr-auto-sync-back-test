@@ -1,0 +1,46 @@
+### YamlMime:Module
+uid: learn-m365-pr.introduction-delivering-virtual-events-using-microsoft-teams-microsoft-365
+metadata:
+  moduleType: standard
+  title: Introduction to delivering virtual events using Microsoft Teams and Microsoft 365
+  description: | 
+    Explore the features of Microsoft Teams and Microsoft 365 that support producing accessible and inclusive virtual events. <br>This module is a great start for anyone involved with organizing, 
+    producing, presenting in, moderating, or attending virtual events. 
+  ms.date: 07/14/2021
+  author: lizap
+  ms.author: elizapo
+  ms.topic: interactive-tutorial # do we need ms.topic?
+  ms.prod: learning-m365
+title: Introduction to delivering virtual events using Microsoft Teams and Microsoft 365
+summary:  | 
+    Explore the features of Microsoft Teams and Microsoft 365 that support producing accessible and inclusive virtual events. 
+    
+    This module is a great start for anyone involved with organizing, producing, presenting in, moderating, or attending virtual events.
+   
+abstract: | # user input: learning objectives (https://review.docs.microsoft.com/help/learn/id-guidance-learning-objectives?branch=master)
+  By the end of this module, you'll be able to:
+    - Describe the different virtual events supported by Microsoft 365
+    - Build accessible presentations to support your virtual events
+    - Understand the importance of the event design model
+    - Explain the different platform requirements
+prerequisites: None
+iconUrl: /learn/achievements/generic-badge.svg
+levels: # user input: add levels from level taxonomy (https://review.docs.microsoft.com/help/contribute/metadata-taxonomies?branch=master#level)
+  - beginner
+roles: # user input: add roles from role taxonomy (https://review.docs.microsoft.com/help/contribute/metadata-taxonomies?branch=master#role)
+  - business-user
+  - administrator
+products:
+  - office-teams
+  - office-yammer
+
+units:
+- learn-m365-pr.introduction-delivering-virtual-events-using-microsoft-teams-microsoft-365.introduction
+- learn-m365-pr.introduction-delivering-virtual-events-using-microsoft-teams-microsoft-365.what-virtual-events
+- learn-m365-pr.introduction-delivering-virtual-events-using-microsoft-teams-microsoft-365.event-design-model
+- learn-m365-pr.introduction-delivering-virtual-events-using-microsoft-teams-microsoft-365.make-events-accessible-inclusive
+- learn-m365-pr.introduction-delivering-virtual-events-using-microsoft-teams-microsoft-365.what-platforms-support-attendees
+- learn-m365-pr.introduction-delivering-virtual-events-using-microsoft-teams-microsoft-365.knowledge-check
+- learn-m365-pr.introduction-delivering-virtual-events-using-microsoft-teams-microsoft-365.summary
+badge:
+  uid: learn-m365-pr.introduction-delivering-virtual-events-using-microsoft-teams-microsoft-365.badge

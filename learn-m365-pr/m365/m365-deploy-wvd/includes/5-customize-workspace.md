@@ -26,13 +26,11 @@ To complete the exercise, you'll need the credentials for the user account that 
 
 1. In **Azure Virtual Desktop**, select **Host pools**.
 1. Select the host pool you want to configure.
-1. Under **Settings**, select **Properties**.
-1. Scroll down to **RDP Properties**.
-1. Enter the RDP properties your users need. For example, you can set the screen mode so the remote session window appears full screen when a user launches the connection.
+1. Under **Settings**, select **RDP Properties**.
+1. Browse through the tabs **Session behavior**, **Device redirection**, and **Display settings**. Update the RDP properties as needed for your users.
 
    :::image type="content" source="../media/5-host-pool-settings-rdp.png" alt-text="Screenshot that shows the RDP Properties text field with some redirection properties like audiocapturemode and audiomode set.":::
 
-   For the list of supported properties, see [Supported Remote Desktop RDP file settings](/windows-server/remote/remote-desktop-services/clients/rdp-files?context=/azure/virtual-desktop/context/context).
 1. When you're done, select **Save**.
 
 ## Install the Azure Virtual Desktop Client for Windows
@@ -45,8 +43,8 @@ In the previous units, we used the browser to connect to the Azure Virtual Deskt
    :::image type="content" source="../media/5-app-get-started.png" alt-text="Screenshot of the remote desktop window with the subscribe with URL button.":::
 
 1. Select **Subscribe with an alternate URL**.
-1. Enter the URL https:\//rdweb.wvd.microsoft.com/api/arm/feeddiscovery.
- 
+1. Enter the URL `https://rdweb.wvd.microsoft.com/api/arm/feeddiscovery`.
+
     :::image type="content" source="../media/5-subscribe-workspace.png" alt-text="Screenshot of the subscribe to workspace form with the URL pasted in.":::
 1. Select Next.
 1. Use the sign-in credentials for the account that has the RemoteApp application group assigned.

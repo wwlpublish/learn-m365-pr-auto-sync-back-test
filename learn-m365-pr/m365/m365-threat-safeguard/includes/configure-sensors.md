@@ -5,7 +5,7 @@ At a high level, the following steps are required to enable Microsoft Defender f
 3. Download and install the sensor package.
 4. Install the Microsoft Defender for Identity sensor on all domain controllers.
 5. Integrate your VPN solution (optional).
-6. Exclude the sensitive accounts you’ve listed during the design process.
+6. Exclude the sensitive accounts you've listed during the design process.
 7. Configure the required permissions for the sensor to make SAM-R calls.
 8. Configure integration with Microsoft Cloud App Security.
 9. Configure integration with Microsoft 365 Defender (optional).
@@ -36,19 +36,19 @@ The Microsoft Defender for Identity sensor has the following requirements:
   - Windows Server 2019 (including Windows Core but not Windows Nano Server)
 - The domain controller can be a read-only domain controller (RODC).
 - 10 GB of disk space is recommended. This includes space needed for the Microsoft Defender for Identity binaries, Microsoft Defender for Identity logs, and performance logs.
-- The Microsoft Defender for Identity sensor requires a minimum of 2 cores and 6 GB of RAM installed on the domain controller. 
+- The Microsoft Defender for Identity sensor requires a minimum of two cores and 6 GB of RAM installed on the domain controller.
 - Power option of the Microsoft Defender for Identity sensor to high performance.
 - Microsoft Defender for Identity sensors can be deployed on domain controllers of various loads and sizes, depending on the amount of network traffic to and from the domain controllers, and the amount of resources installed.
 - When running as a virtual machine, dynamic memory or any other memory ballooning feature is not supported.
 
-### To install the Microsoft Defender for Identity sensor:
+### To install the Microsoft Defender for Identity sensor
 
 1. Download and extract the sensor file. Run **Microsoft Defender for Identity sensor setup.exe** and follow the setup wizard.
 2. On the Welcome page, select your language and click **Next**.
 
    ![Install steps: Choose Language](../media/install-choose-language.png)
 
-3. The installation wizard automatically checks if the server is a domain controller or a dedicated server. If it's a domain controller, the Microsoft Defender for Identity sensor is installed. If it's a dedicated server, the Microsoft Defender for Identity standalone sensor is installed. For example, for an Microsoft Defender for Identity sensor, the following screen is displayed to let you know that an Microsoft Defender for Identity sensor is installed on your dedicated server:
+3. The installation wizard automatically checks if the server is a domain controller or a dedicated server. If it's a domain controller, the Microsoft Defender for Identity sensor is installed. If it's a dedicated server, the Microsoft Defender for Identity standalone sensor is installed. For example, for a Microsoft Defender for Identity sensor, the following screen is displayed to let you know that a Microsoft Defender for Identity sensor is installed on your dedicated server:
 
    ![Install steps: Determine server type](../media/install-server-type.png)
 
@@ -59,14 +59,14 @@ The Microsoft Defender for Identity sensor has the following requirements:
 
     ![Install steps: Configure the sensor](../media/install-configure-sensor.png)
 
-5. Click **Install**. 
+5. Click **Install**.
 
 After the Microsoft Defender for Identity sensor is installed, do the following to configure Microsoft Defender for Identity sensor settings:
 
 1. Click **Launch** to open your browser and sign into the Microsoft Defender for Identity portal.
 2. In the Microsoft Defender for Identity portal, go to **Configuration**. Under the System section, select **Sensors**.
 
-   [ ![Install steps: Select sensors in Microsoft Defender for Office 365 portal](../media/install-select-sensors.png) ](../media/install-select-sensors-magnify.png#lightbox)
+   [![Install steps: Select sensors in Microsoft Defender for Office 365 portal](../media/install-select-sensors.png)](../media/install-select-sensors-magnify.png#lightbox)
 
 3. Click on the sensor you want to configure and enter the following information:
 
@@ -85,4 +85,3 @@ After the Microsoft Defender for Identity sensor is installed, do the following 
    ![Install steps: Enter information to configure sensor](../media/install-configure-sensor-info.png)
 
 4. Click **Save**.
-

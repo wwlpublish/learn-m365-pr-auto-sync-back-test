@@ -2,11 +2,11 @@ Indicators of compromise provide early warnings and automatic remediation agains
 
 In Contoso, threat protection is functioning well but you have information about a new malware attack from a trusted security internet source. You have a hash that identifies an executable file, which you expect to see in emails and chat messages in the next few days. You want to use this hash to spot the file as soon as it enters your systems and prevent users from passing the file on or executing it.
 
-Here, you’ll learn how to use policies in Microsoft Cloud App Security to implement a custom indicator of compromise for a new threat.
+Here, you'll learn how to use policies in Microsoft Cloud App Security to implement a custom indicator of compromise for a new threat.
 
 ## What is an indicator of compromise?
 
-When you try to intercept attacks against your network, it’s essential to spot malicious activity early. One way you can configure Cloud App Security to respond quickly to attacks is to define indicators of compromise. An indicator of compromise is an artifact that, when observed, indicates an intrusion with a high level of confidence.
+When you try to intercept attacks against your network, it's essential to spot malicious activity early. One way you can configure Cloud App Security to respond quickly to attacks is to define indicators of compromise. An indicator of compromise is an artifact that, when observed, indicates an intrusion with a high level of confidence.
 Common indicators of compromise include:
 
 - Virus signatures.
@@ -31,7 +31,7 @@ You can create a custom indicator of compromise in Microsoft Cloud App Security 
 1. In the **Create a filter for the files this policy will act on** box, select **File ID**, and then select **is** in the drop-down lists. Then enter the file hash in the third box.
 
     ![A screenshot of the Microsoft Cloud App Security portal showing how to add a file filter to a policy.](../media/02-add-file-filter.png)
- 
+
     You can add multiple file hashes with **OR** conditions to intercept several different files.
 
 1. To filter the policy to work in specific folders, use the first **Apply to** drop-down list. If you want the policy to work throughout your discovered network, select **all files**.

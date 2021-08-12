@@ -22,7 +22,7 @@ Each DLP policy that has been turned on runs in the background looking for conte
 
 :::image type="content" source="../media/3-asynchronous-dlp-policy-evaluation.png" alt-text="Asynchronous DLP policy evaluation.":::
 
-Content can be added to a document that can conflict with a DLP policy and conversely, content can be removed from a document to make it compliant with a DLP policy. For example, if a DLP policy was created to block the release of personal data, and a person’s health record was added to a document, access to that document would be blocked. If the person’s health data was removed, then the DLP policy would no longer block access.
+Content can be added to a document that can conflict with a DLP policy and conversely, content can be removed from a document to make it compliant with a DLP policy. For example, if a DLP policy was created to block the release of personal data, and a person's health record was added to a document, access to that document would be blocked. If the person's health data was removed, then the DLP policy would no longer block access.
 
 ## Policy evaluation in Microsoft Teams
 
@@ -36,4 +36,4 @@ DLP policies that include Exchange Online as a location are synced to Exchange O
 
 The ability to identify sensitive information and apply DLP policies work equally well in Excel, Word, and PowerPoint as it does in SharePoint Online and OneDrive for Business. Content in these Office programs is being continuously evaluated when the documents are opened and being worked on.
 
-Policy tips might take a few seconds to appear if a user is working on a large document or if the user’s computer is busy. DLP policy evaluation is designed to not affect program performance and should have minimal effect on productivity.
+Policy tips might take a few seconds to appear if a user is working on a large document or if the user's computer is busy. DLP policy evaluation is designed to not affect program performance and should have minimal effect on productivity.

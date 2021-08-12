@@ -18,7 +18,7 @@ To implement emergency calling, you should understand the following concepts:
 
 Before you can assign emergency addresses to your users or network identifiers (such as subnets), you'll need to make sure that the emergency address is marked as **validated**. This way, you can make sure that the address is legitimate, and that it can't be changed after it has been assigned.
 
-You can define emergency addresses using PowerShell and the Teams admin center. However, the admin center provides an another benefit. When you define an emergency address using the address search feature in Microsoft Teams admin center, the address is automatically marked as validated. Once an address has been validated, you can't modify it. For example, if a street name or number has changed you'll need to create a new address to reflect those changes.
+You can define emergency addresses using PowerShell and the Teams admin center. However, the admin center provides another benefit. When you define an emergency address using the address search feature in Microsoft Teams admin center, the address is automatically marked as validated. Once an address has been validated, you can't modify it. For example, if a street name or number has changed you'll need to create a new address to reflect those changes.
 
 ### Emergency address geo codes
 

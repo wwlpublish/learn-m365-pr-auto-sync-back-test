@@ -4,6 +4,7 @@ Each workload plan includes a tenant readiness assessment. Use the assessment to
 - An orange warning triangle means you might have to take further action. For example, a Microsoft 365 Groups expiration policy is recommended, but not required. An orange warning will be displayed to alert you to something you should check.
 
 ## Assessment tests
+
 The following tests are run for all workloads:
 
 - **Vanity domain configured**. Checks whether you've added your own domain name, such as **contoso.com**. You can use the onmicrosoft.com domain, but this test will warn if you haven't added your own valid domain name.
@@ -14,21 +15,25 @@ The following tests are run for all workloads:
 - **External access configured**. Tests whether external access is turned on. By default, it's turned on, with open federation.
 
 ## Assessment tests for chat, teams, channels, and apps
+
 In addition to the assessment tests already described, the following specific tests for chat, teams, channels, and apps are also run:
 
 - **Microsoft 365 Groups naming policy configured**. Tests whether naming standards have been configured for Microsoft 365 Groups. The Microsoft 365 Groups naming policy enables your organization to apply a consistent naming strategy to user-created teams. It applies to other Groups workloads, including Outlook, SharePoint, Planner, and Yammer.
 - **Microsoft 365 Groups expiration policy configured**. Tests whether a group expiration policy has been defined for Microsoft 365 Groups. This policy enables your organization to automatically remove inactive Teams and is off by default.
 
 ## Assessment tests for meetings and conferencing
+
 - **Audio Conferencing licenses**. Tests whether you have an active subscription with Audio Conferencing licenses. It's a prerequisite if you're deploying Audio Conferencing bridges.
 - **Stream licenses**. Tests whether you have an active subscription with Microsoft Stream licenses. This subscription is required if you want to record meetings.
 
 ## Assessment tests for Skype for Business Upgrade
+
 In addition to the assessment tests for all workloads, Skype for Business Upgrade includes assessments used in the meetings and conferencing plan.
 
 ## How to run an assessment
 
 To run the workload tests:
+
 1. Sign into the [Teams admin center](https://admin.teams.microsoft.com/).
 1. From the left navigation bar, select **Planning**, then **Teams advisor**.
 1. The **Deploy Features** screen displays the summary results of the workload tests. To get a detailed view, select **View all**.

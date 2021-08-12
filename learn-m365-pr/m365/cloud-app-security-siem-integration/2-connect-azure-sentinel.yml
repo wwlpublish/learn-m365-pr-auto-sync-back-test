@@ -3,7 +3,7 @@ uid: learn-m365.mcas-siem-integration.2-connect-azure-sentinel
 metadata:
   title: Connect Azure Sentinel to Microsoft Cloud App Security
   description: Learn how to connect Azure Sentinel to Microsoft Cloud App Security
-  ms.date: 05/14/2021
+  ms.date: 03/03/2021
   author: geoffallix
   ms.author: beccarobins
   ms.topic: interactive-tutorial

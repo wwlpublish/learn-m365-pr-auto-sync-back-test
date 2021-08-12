@@ -4,11 +4,11 @@ title: Classify and protect sensitive information
 metadata:
   title: Classify and protect sensitive information
   description: Learn how to go about finding which apps are accessing your data, how to classify which information is sensitive, how to protect it from illegal access, and how to monitor and report on the overall health of your environment.
-  ms.date: 09/08/2020
+  ms.date: 07/16/2021
   author: lizap
-  ms.author: iankensey
+  ms.author: beccarobins
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-durationInMinutes: 5
+durationInMinutes: 7
 content: |
   [!include[](includes/classify-protect-sensitive-information.md)]

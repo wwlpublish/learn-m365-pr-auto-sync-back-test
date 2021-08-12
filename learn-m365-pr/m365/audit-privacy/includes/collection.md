@@ -23,11 +23,11 @@ The personal data within diagnostic data and service-generated data is mostly in
 
 ## International data transfers
 
-Customer data and personal data that Microsoft processes on a customer’s behalf may be transferred to, and stored and processed in, the United States or any other country in which Microsoft or its subprocessors operate. If a customer wants a deeper understanding by service, it is beneficial to review the Data Protection Addendum.
+Customer data and personal data that Microsoft processes on a customer's behalf may be transferred to, and stored and processed in, the United States or any other country in which Microsoft or its subprocessors operate. If a customer wants a deeper understanding by service, it is beneficial to review the Data Protection Addendum.
 
 Microsoft complies with the below international data protection laws regarding transfers of customer data across borders.
 
-- EU Model Clauses: EU data protection law regulates the transfer of EU customer personal data to countries outside the European Economic Area (EEA). Microsoft EU Standard Contractual Clauses provide specific contractual guarantees around transfers of personal data for covered services that Europe’s privacy regulators have determined meet EU standards for international transfers of data.
+- EU Model Clauses: EU data protection law regulates the transfer of EU customer personal data to countries outside the European Economic Area (EEA). Microsoft EU Standard Contractual Clauses provide specific contractual guarantees around transfers of personal data for covered services that Europe's privacy regulators have determined meet EU standards for international transfers of data.
 - EU-U.S. Privacy Shield: Microsoft is certified to the EU-U.S. Privacy Shield Framework as set forth by the US Department of Commerce regarding the collection, use, and retention of personal information transferred from the EU to the United States. Microsoft also abides by Swiss data protection laws regarding the processing of personal data from the EEA, United Kingdom, and Switzerland.
 
 ## Learn more

@@ -6,8 +6,8 @@ Suppose you're the administrator for your organization, responsible for informat
 
 By the end of this module, you should be able to:
 
-  - Discuss the data loss prevention solution and its benefits.
-  - Describe the data loss prevention configuration process.
-  - Explain what users will experience when the solution is implemented.
+- Discuss the data loss prevention solution and its benefits.
+- Describe the data loss prevention configuration process.
+- Explain what users will experience when the solution is implemented.
 
 Before you start, make sure you're familiar with Microsoft Information Protection in Microsoft 365.

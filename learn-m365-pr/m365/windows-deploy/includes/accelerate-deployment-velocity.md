@@ -1,8 +1,8 @@
-The majority of your organization's offices are connected via slow network links. You want to ensure that updates are delivered to devices without exhausting all the available bandwidth on the network. Your organization should consider using Delivery Optimization, together with Microsoft Connected Cache, to improve bandwidth usage and deliver content to devices faster and more securely. As the process manager, you’ll explain how delivery of updates can be improved for the devices in the environment using these tools.
+The majority of your organization's offices are connected via slow network links. You want to ensure that updates are delivered to devices without exhausting all the available bandwidth on the network. Your organization should consider using Delivery Optimization, together with Microsoft Connected Cache, to improve bandwidth usage and deliver content to devices faster and more securely. As the process manager, you'll explain how delivery of updates can be improved for the devices in the environment using these tools.
 
 ## What is Delivery Optimization?
 
-Delivery Optimization is a service that will help you decrease the bandwidth that’s used up by sharing the download process across multiple machines during deployment. You can use Delivery Optimization in conjunction with Windows Update, Windows Server Update Services (WSUS), Windows Update for Business, or Microsoft Endpoint Configuration Manager (when installation of Express Updates is enabled).
+Delivery Optimization is a service that will help you decrease the bandwidth that's used up by sharing the download process across multiple machines during deployment. You can use Delivery Optimization in conjunction with Windows Update, Windows Server Update Services (WSUS), Windows Update for Business, or Microsoft Endpoint Configuration Manager (when installation of Express Updates is enabled).
 
 ### Requirements
 
@@ -39,7 +39,7 @@ You use Configuration Manager to set up Microsoft Connected Cache with the follo
 
 1. Go to the **Administration** workspace in the Configuration Manager console.
 1. Select a distribution point that is on-premises.
-1. Enable it to be used as a Microsoft Connected Cache server in the distribution point’s properties.
+1. Enable it to be used as a Microsoft Connected Cache server in the distribution point's properties.
 1. Select a local drive to use for the cache.
 1. Specify disk space to use for the cache.
 1. For client settings in Configuration Manager, in the **Delivery Optimization** group, set *Enable devices managed by Configuration Manager to use Microsoft Connected Cache servers for content download* to **Yes**.

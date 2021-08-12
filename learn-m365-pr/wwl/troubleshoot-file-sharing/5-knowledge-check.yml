@@ -1,0 +1,62 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.troubleshoot-file-sharing.knowledge-check
+title: Knowledge Check
+metadata:
+  title: Knowledge Check
+  description: "Knowledge Check"
+  ms.date: 07/26/2021
+  author: wwlpublish
+  ms.author: cyncarey
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+durationInMinutes: 5
+content: |
+  [!include[](includes/5-knowledge-check.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "A user has reported that a file has disappeared from the channel Files tab. How would you approach troubleshooting this issue?"
+    choices:
+    - content: "In the Files tab, select Open in OneDrive"
+      isCorrect: false
+      explanation: "That's incorrect. Teams files can be synchronized with OneDrive, but are stored in a SharePoint document library. The Files tab does not include an option to view files in OneDrive."
+    - content: "In the Files tab, select Sync."
+      isCorrect: false
+      explanation: "That's incorrect. Sync allows you to sync Teams shared files with a user’s OneDrive. This will not help you troubleshoot a missing file."
+    - content: "In the Files tab, select Open in SharePoint."
+      isCorrect: true
+      explanation: "That's correct. Teams stores files in a SharePoint document library. The SharePoint folder should be the same as the Teams channel. When the document library and Teams channel are connected, a message is displayed to confirm this."
+  - content: "Users in the Marketing department want to share files from DropBox in Teams but are reporting difficulty. What might be the problem?"
+    choices:
+    - content: "DropBox files have been switched off for file sharing in Teams Settings"
+      isCorrect: true
+      explanation: "That's correct. You can turn on or off file sharing for DropBox and other file types in Teams Settings in the Teams admin center."
+    - content: "DropBox files cannot be shared in Teams by design"
+      isCorrect: false
+      explanation: "That's incorrect. Files of all types can be shared in Teams, but certain file types can be turned on or off for sharing in the Teams admin center."
+    - content: "DropBox files have been defined as switched off for sharing in the Teams policy assigned to the Marketing group"
+      isCorrect: false
+      explanation: "That's incorrect. Teams policies do not include specific file types that can be shared."
+  - content: "When troubleshooting access permissions for file sharing, how can you check who has permissions?"
+    choices:
+    - content: "In Teams > File tab > More options"
+      isCorrect: false
+      explanation: "That's incorrect. File tab more options does not display who has permissions to a file."
+    - content: "In Teams > File tab > Open in SharePoint."
+      isCorrect: true
+      explanation: "That's correct. When the shared files are viewed in SharePoint, there is an option to Manage Access to each file."
+    - content: "In Teams > File tab > Manage access"
+      isCorrect: false
+      explanation: "That's incorrect. The Manage access option is available when files are viewed in the SharePoint document library. Select Open in SharePoint and then Manage Access."
+  - content: "A group of users has created a private channel and have shared several files. When they view the files in SharePoint they can see document folders for other channels, and the General channel but not their new private channel. What is the problem?"
+    choices:
+    - content: "Files cannot be shared in a private channel."
+      isCorrect: false
+      explanation: "That's incorrect. Files can be shared in both public and private channels and are stored in SharePoint document libraries in both cases."
+    - content: "From the Teams private channel select All Documents to display private channel documents"
+      isCorrect: false
+      explanation: "That's incorrect. All documents are displayed by default. Selecting All Documents does not change the view in the SharePoint document library."
+    - content: "From the Teams private channel select Open in SharePoint"
+      isCorrect: true
+      explanation: "That's correct. Files shared in a private channel are stored in SharePoint but are not visible from the parent directory. Open in SharePoint from the private channel to display the files in SharePoint."

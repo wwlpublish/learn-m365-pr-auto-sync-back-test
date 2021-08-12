@@ -4,7 +4,7 @@ title: Knowledge check
 metadata:
   title: Knowledge check
   description: "Knowledge check"
-  ms.date: 02/16/2021
+  ms.date: 08/09/2021
   author: wwlpublish
   ms.author: dahans
   ms.topic: interactive-tutorial
@@ -20,43 +20,43 @@ quiz:
     choices:
     - content: "The ability to run Windows as a virtual desktop"
       isCorrect: false
-      explanation: "That's incorrect. Windows-as-a-Service is a new model for Windows. It provides more frequent updates, for example semi-annually, instead of installing a major new release every few years."
+      explanation: "Incorrect. Windows-as-a-Service is a new model for Windows. It provides more frequent updates, for example semi-annually, instead of installing a major new release every few years."
     - content: "Windows 10 with regular feature updates"
       isCorrect: true
-      explanation: "That's correct. Windows-as-a-Service is a new model for Windows 10. Instead of a major release every three or four years, features are released more frequently, such as semi-annually."
+      explanation: "Correct. Windows-as-a-Service is a new model for Windows 10. Instead of a major release every three or four years, features are released more frequently, such as semi-annually."
     - content: "Windows 10 Mobile"
       isCorrect: false
-      explanation: "That's incorrect. Windows-as-a-Service is the new model for Windows 10. Instead of a major release every three or four years, features are released more frequently, such as semi-annually."
-  - content: "How do you  control the frequency of updates with Windows-as-a-Service?"
+      explanation: "Incorrect. Windows-as-a-Service is the new model for Windows 10. Instead of a major release every three or four years, features are released more frequently, such as semi-annually."
+  - content: "How do you control the frequency of updates with Windows-as-a-Service?"
     choices:
     - content: "Windows updates"
       isCorrect: false
-      explanation: "That's incorrect. Windows updates are used to distribute fixes and security updates, and are normally distributed once a month."
+      explanation: "Incorrect. Windows updates are used to distribute fixes and security updates, and are normally distributed once a month."
     - content: "Deployment rings"
       isCorrect: false
-      explanation: "That's incorrect. Deployment rings are used to determine who gets updates, and not the frequency."
+      explanation: "Incorrect. Deployment rings are used to determine who gets updates, and not the frequency."
     - content: "Service Channel"
       isCorrect: true
-      explanation: "That's correct. The service channel determines the frequency with which Windows 10 is updated with new features."
+      explanation: "Correct. The service channel determines the frequency with which Windows 10 is updated with new features."
   - content: "Which group of users might benefit from Azure Virtual Desktop?"
     choices:
     - content: "Users who need to run a Mac desktop"
       isCorrect: false
-      explanation: "That's incorrect. Azure Virtual Desktop can be accessed from Mac devices, but give access to the Windows 10 desktop."
+      explanation: "Incorrect. Azure Virtual Desktop can be accessed from Mac devices, but give access to the Windows 10 desktop."
     - content: "Users who work with confidential data"
       isCorrect: true
-      explanation: "That's correct. Azure Virtual Desktop can be configured to ensure that data is never stored on the local device."
+      explanation: "Correct. Azure Virtual Desktop can be configured to ensure that data is never stored on the local device."
     - content: "Users with poor internet connectivity"
       isCorrect: false
-      explanation: "That's incorrect. Azure Virtual Desktop requires a good internet connection to work well."
+      explanation: "Incorrect. Azure Virtual Desktop requires a good internet connection to work well."
   - content: "What would you use to manage Windows-as-a-Service?"
     choices:
     - content: "Configuration Manager"
       isCorrect: true
-      explanation: "That's correct. Configuration Manager allows you to configure Windows-as-a-Service including Service Channels and Deployment rings."
+      explanation: "Correct. Configuration Manager allows you to configure Windows-as-a-Service including Service Channels and Deployment rings."
     - content: "Windows updates"
       isCorrect: false
-      explanation: "That's incorrect. Windows updates are used to distribute fixes and security updates. Configuration Manager is used to configure Windows-as-a-Service."
+      explanation: "Incorrect. Windows updates are used to distribute fixes and security updates. Configuration Manager is used to configure Windows-as-a-Service."
     - content: "Azure Virtual Desktop"
       isCorrect: false
-      explanation: "That's incorrect. Azure Virtual Desktop allows you to run Windows 10 in the cloud. It does not allow you to manage Windows-as-a-Service."
+      explanation: "Incorrect. Azure Virtual Desktop allows you to run Windows 10 in the cloud. It does not allow you to manage Windows-as-a-Service."

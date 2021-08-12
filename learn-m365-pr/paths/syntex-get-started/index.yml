@@ -1,0 +1,29 @@
+### YamlMime:LearningPath
+uid: learn-m365.syntex-get-started
+metadata:
+  title: Get started with SharePoint Syntex
+  description: Learn to use SharePoint Syntex to manage content using AI. This learning path will teach how you can use document understanding and form processing models to classify documents, extract text, and label your documents for quick and easy knowledge management.
+  ms.date: 07/23/2021
+  author: beccarobins
+  ms.author: beccarobins
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Get Started with SharePoint Syntex
+summary: Learn to use SharePoint Syntex to manage content using AI. This learning path will teach how you can use document understanding and form processing models to classify documents, extract text, and label your documents for quick and easy knowledge management.
+prerequisites: None
+iconUrl: /learn/achievements/get-started-with-sharepoint-syntex.svg
+levels: 
+- beginner
+roles:
+- administrator
+- business-user
+products: 
+- m365
+modules:
+- learn-m365.syntex-intro
+- learn-m365.syntex-strategy
+- learn-m365.syntex-setup
+- learn-m365.syntex-document-understanding
+- learn-m365.syntex-form-processing
+trophy: 
+  uid: learn-m365.syntex-get-started.trophy
