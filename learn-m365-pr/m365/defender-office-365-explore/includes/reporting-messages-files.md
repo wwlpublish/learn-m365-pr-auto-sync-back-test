@@ -1,4 +1,4 @@
-It's good practice for you to specify a mailbox to receive messages that users report as malicious or not malicious. When users submit messages using the various reporting options, you can use this mailbox to intercept messages or receive copies of messages.
+It's good practice to specify a mailbox to receive messages that users report as malicious or not malicious. When users submit messages using the various reporting options, you can use this mailbox to intercept messages or receive copies of messages.
 
 The following methods can be used to report email messages and files to Microsoft:
 

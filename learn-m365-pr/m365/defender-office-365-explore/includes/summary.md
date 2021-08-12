@@ -1,11 +1,10 @@
-You've seen how Microsoft Defender for Endpoint can help you to strengthen your security posture, by protecting your organization from threats and vulnerabilities across its devices and systems. With Microsoft Defender for Endpoint, you're able to identify threats and vulnerabilities and take appropriate action to remediate them.
+Your organization has already deployed Microsoft Defender for Office 365. In your role as an email security analyst, you wanted to understand how to fine-tune the features and capabilities to better protect your users.  You have learned how to use preset security policies to roll out security policies to all of your users, and how to manage and control message overrides to prevent the delivery of suspicious or malicious emails.  You’ve explored the different detection and remediation of threats used my Microsoft Defender for Office 365, including anti-spam, anti-malware, and safe attachments. Finally, you saw how you can report questionable messages to Microsoft to help improve their policies.
 
-Now that you've completed this module, you should be able to:
+Now that you have completed this module, you can:
 
-- Describe threat and vulnerability management in Microsoft Defender for Endpoint
-- Describe how to assess security posture using Microsoft Defender for Endpoint
-- Describe how to identify vulnerabilities on devices
-- Describe how to strengthen your security posture and reduce risk
+- Understand preset security policies, configuration analyzer, and message overrides.
+- Understand threat protection features of Microsoft Defender for Office 365
+- Understand the reporting of emails and files to Microsoft.
 
 ## Learn more
 

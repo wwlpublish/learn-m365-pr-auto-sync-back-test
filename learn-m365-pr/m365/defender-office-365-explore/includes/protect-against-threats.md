@@ -1,6 +1,6 @@
 Microsoft Defender for Office 365 comes with a number of features. These are designed to protect your users from malware, phishing, and spam, amongst many others. Many of these features are typically associated with Exchange Online Protection (EOP). This is perfectly normal, since Microsoft Defender for Office 365 contains and builds on EOP.
 
-The full list of threat protection features is:
+The full list of threat protection features includes:
 
 - Anti-malware protection
 - Anti-phishing protection (spoof intelligence only in EOP; additional impersonation protection in Defender for Office 365
@@ -34,15 +34,15 @@ The anti-spam settings capabilities in Microsoft Defender for Office 365 use:
 - **Connection filtering**: Identifies good and bad email source servers early in the inbound email connection via the IP allowlist, IP blocklist, and the safe list (a dynamic but non-editable list of trusted senders maintained by Microsoft). You configure these settings in the connection filter policy.
 - **Spam filtering (content filtering)**: It uses the following spam filtering verdicts to classify messages: Spam, High confidence spam, Bulk email, Phishing email, and High confidence phishing email.
 - **Outbound spam filtering**: This will check to make sure that your users don't send spam, either in outbound message content or by exceeding outbound message limits.
-- **Spoof intelligence**: When a sender spoofs an email address, they appear to be a user in one of your organization's domains, or a user in an external domain that sends email to your organization. Anti-phishing protection
+- **Spoof intelligence**: When a sender spoofs an email address, they appear to be a user in one of your organization's domains, or a user in an external domain that sends email to your organization.
 
 ## Phishing protection
 
-Phishing is an email attack that tries to steal sensitive information in messages that may appear to be from legitimate or trusted senders. There are specific categories of phishing. For example:
+Phishing is an email attack that tries to steal sensitive information in messages that may appear to be from legitimate or trusted senders. Categories of phishing include:
 
-- **Spear phishing** uses focused, customized content that's tailored to the targeted recipients, typically, after reconnaissance on the recipients by the attacker.
+- **Spear phishing** uses focused, customized content that's tailored to the targeted recipients, typically after reconnaissance on the recipients by the attacker.
 - **Whaling** is directed at executives or other high value targets within an organization for maximum effect.
-- **Business email compromise** uses forged trusted senders, for example financial officers, customers, and trusted partners to trick recipients into approving payments, transferring funds, or revealing customer data. Learn more by watching this video.
+- **Business email compromise** uses forged trusted senders, for example, financial officers, customers, or trusted partners to trick recipients into approving payments, transferring funds, or revealing customer data.
 - **Ransomware** encrypts your data and demands payment to decrypt it. This almost always starts out as a phishing message. Anti-phishing protection can't help you decrypt encrypted files, but it can help detect the initial phishing messages that are associated with the ransomware campaign.
 
 Microsoft Defender for Office 365 contains additional and more advanced anti-phishing features:
@@ -53,11 +53,7 @@ Microsoft Defender for Office 365 contains additional and more advanced anti-phi
 
 ### Safe Attachments
 
-The Safe Attachments feature in Microsoft Defender for Office 365 provides an extra layer of protection for email attachments that have already been scanned by anti-malware protection in Exchange Online Protection.
-
-Safe Attachments uses a virtual environment to check attachments in email messages before they're delivered to recipients in a process known as detonation.
-
-Safe Attachments protection for email messages is controlled by Safe Attachments policies. As there's no default Safe Attachments policy, you need to create one or more Safe Attachments policies or use the Standard or Strict preset security policies.
+The Safe Attachments feature in Microsoft Defender for Office 365 provides an extra layer of protection for email attachments that have already been scanned by anti-malware protection in Exchange Online Protection. Safe Attachments uses a virtual environment to check attachments in email messages before they're delivered to recipients in a process known as _detonation_. Safe Attachments protection for email messages is controlled by Safe Attachments policies. As there's no default Safe Attachments policy, you need to create one or more Safe Attachments policies or use the Standard or Strict preset security policies.
 
 > [!NOTE]
 > Safe Attachments scanning takes place in the same region where your Microsoft 365 data resides.
