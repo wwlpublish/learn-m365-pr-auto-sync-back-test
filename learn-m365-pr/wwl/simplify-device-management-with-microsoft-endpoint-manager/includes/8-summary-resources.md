@@ -6,15 +6,15 @@ Windows Autopilot is a collection of technologies used to set up and pre-configu
 
 Now that you've reviewed this module, you should be able to:
 
-- Explain modern device and application management concepts.
-- Explain the value of the Microsoft Endpoint Manager (MEM), including Microsoft Intune and Configuration Manager.
-- Describe how Autopilot can help streamline new device acquisition and setup.
+ -  Explain modern device and application management concepts.
+ -  Explain the value of the Microsoft Endpoint Manager (MEM), including Microsoft Intune and Configuration Manager.
+ -  Describe how Autopilot can help streamline new device acquisition and setup.
 
 ## Learn more
 
-- [Benefits of Modern Management](https://docs.microsoft.com/learn/modules/introduction-to-modern-management-in-microsoft-365/2-benefits-modern-management)
-- [Windows Autopilot scenarios and capabilities](https://docs.microsoft.com/windows/deployment/windows-autopilot/windows-autopilot-scenarios)
-- [Microsoft Intune is an MDM and MAM provider for your devices](https://docs.microsoft.com/mem/intune/fundamentals/what-is-intune)
-- [Protect devices with Microsoft Intune](https://docs.microsoft.com/mem/intune/protect/device-protect)
-- [Windows Autopilot](https://aka.ms/windowsautopilot)
-- [Manage devices with Microsoft Endpoint Manager](https://mslearn.cloudguides.com/guides/Manage%20devices%20with%20Microsoft%20Endpoint%20Manager)
+ -  [Benefits of Modern Management](/learn/modules/introduction-to-modern-management-in-microsoft-365/2-benefits-modern-management)
+ -  [Windows Autopilot scenarios and capabilities](/windows/deployment/windows-autopilot/windows-autopilot-scenarios)
+ -  [Microsoft Intune is an MDM and MAM provider for your devices](/mem/intune/fundamentals/what-is-intune)
+ -  [Protect devices with Microsoft Intune](/mem/intune/protect/device-protect)
+ -  [Windows Autopilot](https://aka.ms/windowsautopilot)
+ -  [Manage devices with Microsoft Endpoint Manager](https://mslearn.cloudguides.com/guides/Manage%20devices%20with%20Microsoft%20Endpoint%20Manager)
