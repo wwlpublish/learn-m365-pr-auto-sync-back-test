@@ -1,4 +1,4 @@
-As security alerts are triggered, it's up to you to look into those alerts and take the necessary steps to protect your organization's assets, data, and users. Prioritizing and investigating alerts is time consuming, especially when new alerts keep coming in while an investigation is ongoing.  
+As security alerts are triggered, it's up to you to look into those alerts and take the necessary steps to protect your organization's assets, data, and users. Prioritizing and investigating alerts is time consuming, especially when new alerts keep coming in while an investigation is ongoing.
 
 AIR capabilities enable you and your security team to dramatically increase your organization's capacity to deal with security alerts and incidents. With automated investigation and response, you can reduce the cost of dealing with manual investigation and response activities. AIR capabilities help your security operations team by:
 

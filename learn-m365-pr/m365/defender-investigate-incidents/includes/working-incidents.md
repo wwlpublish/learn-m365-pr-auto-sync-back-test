@@ -14,7 +14,7 @@ Grouping related alerts and threat data into an incident helps you see:
 
 :::image type="content" source="../media/2-attack-chain-overpass-the-hash-spear-phishing-lateral-movement.png" alt-text="Diagram showing the initial access through spear-phishing and lateral movement through overpass-the-hash attack":::
 
-In the illustration, an attacker starts with a spear-phishing email targeting a specific user. The email contains a malicious link to download a file that contains the Meterpreter payload. With the malicious code running on the target device, an attacker performs reconnaissance to understand which users have signed into the device and which other devices these users have access to.  
+In this example, an attacker starts with a spear-phishing email targeting a specific user. The email contains a malicious link to download a file that contains the Meterpreter payload. With the malicious code running on the target device, an attacker performs reconnaissance to understand which users have signed into the device and which other devices these users have access to.  
 
 The attacker finds the credentials of an IT helpdesk team member. Impersonating this IT helpdesk team member using the overpass-the-hash method, the attacker moves laterally to a second device. On a new device, they steal the user's web credentials, which they use to remotely access the user's cloud apps like OneDrive or SharePoint. This allows the attacker to insert a malicious macro into an existing online Word document, which they then deploy in a lateral phishing attack by distributing links to the malicious document to other users in the organization.
 
@@ -22,7 +22,7 @@ As a security analyst for an attack like this, you need all of the alert and thr
 
 Microsoft 365 Defender can automatically collect and correlate isolated alerts and other related security events into incidents in an incident queue, reducing workloads so you have fewer, more comprehensive work items. The incident queue brings together related alerts, affected assets, and other evidence, making it easier to understand the complete attack story and take informed actions.
 
-This short 4-minute video will introduce the concept of incident management and how it can benefit your organization.
+This short video will introduce the concept of incident management and how it can benefit your organization.
 
 >
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4Bzwz?rel=0&preserve-view=true]

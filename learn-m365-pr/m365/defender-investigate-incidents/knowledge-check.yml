@@ -40,10 +40,10 @@ quiz:
     choices:
     - content: "Manage email settings"
       isCorrect: false
-      explanation: "Not quite. To enable email notifications requires configuring another type of settings."
+      explanation: "Not quite. Enabling email notifications requires configuring another type of settings."
     - content: "Manage security settings"
       isCorrect: true
       explanation: "That's correct! You need 'Manage security settings' permissions to configure email notification settings."
     - content: "Manage notification settings"
       isCorrect: false
-      explanation: "Please try again. To enable email notifications requires configuring another type of settings."
+      explanation: "Please try again. Enabling email notifications requires configuring another type of settings."

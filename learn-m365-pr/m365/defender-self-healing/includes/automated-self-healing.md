@@ -5,7 +5,7 @@ With automated investigation and response (AIR), Microsoft 365 Defender can help
 
 ## What is automated investigation and response
 
-In Microsoft 365 Defender, automated self-healing mimics the steps you and  members of your security team would take to forensically investigate and remediate organizational assets affected by attacks. This is the equivalent of increasing the size of your security team and having them working 24/7 at no extra cost.
+In Microsoft 365 Defender, automated self-healing mimics the steps you and members of your security team would take to forensically investigate and remediate organizational assets affected by attacks. This is the equivalent of increasing the size of your security team and having them working 24/7 at no extra cost.
 
 Automated self-healing helps by responding more efficiently to investigate and remediate alerts and free you and your team to focus on other tasks.
 
@@ -15,7 +15,7 @@ An automated investigation begins before any member of your security team receiv
 - Malicious
 - Clean
 
-Depending on the verdict assigned by the automated investigation, Microsoft 365 Defender will act appropriately. Which means it will take immediate action, for example, on a "malicious" process by forcefully closing it, a "malicious" URL by blocking it, or on a "suspicious" email by quarantining it.  The final step in an automated investigation is to include details on other potentially affected assets, before starting a new investigation.
+Depending on the verdict assigned by the automated investigation, Microsoft 365 Defender will act appropriately. Which means it will take immediate action, for example, on a "malicious" process by forcefully closing it, a "malicious" URL by blocking it, or on a "suspicious" email by quarantining it. The final step in an automated investigation is to include details on other potentially affected assets, before starting a new investigation.
 
 Automated investigation and self-healing look at an enormous number of entities, across all domains, which dramatically reduce the time an attacker can operate before remediation shuts them down.
 
@@ -35,7 +35,7 @@ The Action center brings together remediation actions across Defender for Endpoi
 
 - Approve pending remediation actions from the **Pending** tab.
 - View an audit log of already approved remediation actions.
-  
+
 The **History** tab is where you can see the state of previous actions. It also lets you see if the decision was made automatically or by you or a member of your security team.
 
 ## Actions available in Action center
