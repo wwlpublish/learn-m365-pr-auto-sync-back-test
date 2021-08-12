@@ -2,14 +2,14 @@ The Microsoft Defender for Office 365 protection stack provides multiple layers 
 
 :::image type="content" source="../media/3-protection-stack-inline.png" lightbox="../media/3-protection-stack-expanded.png" alt-text="Protection Stack":::
 
-### The Edge protection layer
+### The edge protection layer
 
 > [!NOTE]
 > The Edge protection layer and edge blocks should not be confused with the Edge browser. They are two different entities.
 
-The edge protection layer is the first point of contact for an inbound message. It's made up of edge blocks that run automatically. Each edge block handles a different aspect of protection from network and IP reputation throttling through directory-based edge filtering and backscatter detection. 
+The edge protection layer is the first point of contact for an inbound message. It's made up of edge blocks that run automatically. Each edge block handles a different aspect of protection from network and IP reputation throttling through directory-based edge filtering and backscatter detection.
 
-:::image type="content" source="../media/3-stack-edge-layer.png" alt-text="This diagram shows the features of the edge protection layer: Network throttling, ip reputation and throttling, domain reputation, directory-based edge filtering, backscatter detection, and enhanced filtering for connectors. ":::
+:::image type="content" source="../media/3-stack-edge-layer.png" alt-text="This diagram shows the features of the edge protection layer: Network throttling, ip reputation and throttling, domain reputation, directory-based edge filtering, backscatter detection, and enhanced filtering for connectors. " lightbox="../media/3-stack-edge-layer.png":::
 
 Here's a brief description of each edge block:
 
@@ -24,7 +24,7 @@ Here's a brief description of each edge block:
 
 The next layer in the protection stack is sender intelligence. The focus of this layer is in identifying the validity of the message sender. This layer checks each message for indicators of a compromised account, checks for spam, checks for spoofing, the email sender is authorized and authenticated, and the mailbox behaves within tolerance. You and your security team can configure each of these features to meet your organization's needs.
 
-:::image type="content" source="../media/3-stack-sender-intelligence.png" alt-text="This image shows the sender intelligence features. ":::
+:::image type="content" source="../media/3-stack-sender-intelligence.png" alt-text="This image shows the sender intelligence features." lightbox="../media/3-stack-sender-intelligence.png":::
 
 Here's a brief description of each feature in this layer:
 
@@ -43,7 +43,7 @@ Here's a brief description of each feature in this layer:
 
 The next layer in the protection stack is content filtering. The primary focus of this layer is to check the content of the mail, looking for suspicious message structure and word frequency, hyperlinks, and attachments. Each email is subject to several checks, from mail flow rules to heuristics and machine learning models.
 
-:::image type="content" source="../media/3-stack-content-filtering.png" alt-text="This image shows the features in the content filtering layer.":::
+:::image type="content" source="../media/3-stack-content-filtering.png" alt-text="This image shows the features in the content filtering layer." lightbox="../media/3-stack-content-filtering.png":::
 
 Here's a brief description of the checks that are carried out:
 
@@ -63,7 +63,7 @@ Here's a brief description of the checks that are carried out:
 
 The last layer in the protection stack is post-delivery protection. This persistent layer manages how users interact with files and links not just in their mailboxes but across other collaborative tools like Microsoft Teams.
 
-:::image type="content" source="../media/3-stack-post-delivery.png" alt-text="This image shows the features of the post-delivery protection layer. ":::
+:::image type="content" source="../media/3-stack-post-delivery.png" alt-text="This image shows the features of the post-delivery protection layer." lightbox="../media/3-stack-post-delivery.png":::
 
 To achieve this, it calls upon a number of capabilities:
 
