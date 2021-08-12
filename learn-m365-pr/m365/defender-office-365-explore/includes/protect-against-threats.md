@@ -3,11 +3,11 @@ Microsoft Defender for Office 365 comes with a number of features.  These are de
 The full list of threat protection features is:
 
 - Anti-malware protection
-- Anti-phishing protection
+- Anti-phishing protection (spoof intelligence only in EOP; additional impersonation protection in Defender for Office 365
 - Anti-spam protection
 - Protection from malicious URLs and files through Safe Links and Safe Attachments
 - Blocking and detection of files to verify Safe Attachments for SharePoint, OneDrive, and Microsoft Teams
-- Zero-hour auto purge
+- Zero-hour auto purge (ZAP) for spam, malware, and phishing
 
 ## Anti-malware protection
 
@@ -36,6 +36,8 @@ The anti-spam settings capabilities in Microsoft Defender for Office 365 use:
 - **Outbound spam filtering**: This will check to make sure that your users don't send spam, either in outbound message content or by exceeding outbound message limits.
 - **Spoof intelligence**: When a sender spoofs an email address, they appear to be a user in one of your organization's domains, or a user in an external domain that sends email to your organization. Anti-phishing protection
 
+## Phishing protection
+
 Phishing is an email attack that tries to steal sensitive information in messages that may appear to be from legitimate or trusted senders. There are specific categories of phishing. For example:
 
 - **Spear phishing** uses focused, customized content that's tailored to the targeted recipients, typically, after reconnaissance on the recipients by the attacker.
@@ -45,32 +47,28 @@ Phishing is an email attack that tries to steal sensitive information in message
 
 Microsoft Defender for Office 365 contains additional and more advanced anti-phishing features:
 
-- **Anti-phishing policies in Microsoft Defender for Office 365**: Lets you create new custom policies, configure anti-impersonation settings, mailbox intelligence settings, and adjustable advanced phishing thresholds.
+- **Anti-phishing policies in Microsoft Defender for Office 365**: Lets you configure anti-impersonation settings, mailbox intelligence settings, and adjustable advanced phishing thresholds.
 - **Campaign Views**: Uses machine learning and other heuristics to identify and analyze messages that are involved in coordinated phishing attacks against your users and your organization.
-- **Attack Simulation Training**: Lets you create fake phishing messages and send them to internal users as an education tool.
+- **Attack simulation training**: Lets you create fake phishing messages and send them to internal users as an education tool.
 
-### Safe Attachments in Microsoft Defender for Office 365
+### Safe Attachments
 
-The Safe Attachments feature in Microsoft Defender for Office 365 provide an extra layer of protection for email attachments that have already been scanned by anti-malware protection in Exchange Online Protection.
+The Safe Attachments feature in Microsoft Defender for Office 365 provides an extra layer of protection for email attachments that have already been scanned by anti-malware protection in Exchange Online Protection.
 
 Safe Attachments uses a virtual environment to check attachments in email messages before they're delivered to recipients in a process known as detonation.
 
-Safe Attachments protection for email messages is controlled by Safe Attachments policies. As there's no default Safe Attachments policy, you need to create one or more Safe Attachments policies.
+Safe Attachments protection for email messages is controlled by Safe Attachments policies. As there's no default Safe Attachments policy, you need to create one or more Safe Attachments policies or use the Standard or Strict preset security policies.
 
 > [!NOTE]
 > Safe Attachments scanning takes place in the same region where your Microsoft 365 data resides.
 
-## Safe Links in Microsoft Defender for Office 365
+## Safe Links
 
 Safe Links is a feature in Defender for Office 365 that provides URL scanning and rewriting of inbound email messages in mail flow, and time-of-click verification of URLs and links in email messages and other locations. Safe Links scanning occurs in addition to the regular anti-spam and anti-malware protection in inbound email messages in Exchange Online Protection (EOP). Safe Links scanning can help protect your organization from malicious links that are used in phishing and other attacks.
 
 Safe Links protection is available in the following locations:
 
-- **Email messages**: Safe Links protection for links in email messages is controlled by Safe Links policies. As there's no default Safe Links policy, you need to create one or more Safe Links policies.
+- **Email messages**: Safe Links protection for links in email messages is controlled by Safe Links policies. As there's no default Safe Links policy, you need to create one or more Safe Links policies or use the Standard or Strict preset security policies. Safe Links scans incoming email for known malicious hyperlinks. Scanned URLs are rewritten by appending a Microsoft prefix (for example `//nam01.safelinks.protection.outlook.com`). After the link is rewritten, it's analyzed for potentially malicious content.  Once rewritten, the URL persists even if the message is manually forwarded or replied to for internal and external recipients.
 - **Microsoft Teams**: Safe Links protection for links in Teams conversations, group chats, or from channels is also controlled by Safe Links policies. As there's no default Safe Links policy, you need to create one or more Safe Links policies.
 - **Office 365 apps**: Safe Links protection for Office 365 apps is available in supported desktop, mobile, and web apps. You configure Safe Links protection for Office 365 apps in the global setting that are outside of Safe Links policies.
 - **Safe Links protection for Office 365 apps** is applied to all users in the organization who are licensed for Defender for Office 365, regardless of whether the users are included in active Safe Links policies or not.
-
-### What is a Safe Links in an email messages
-
-Safe Links scans incoming email for known malicious hyperlinks. Scanned URLs are rewritten by appending a Microsoft prefix, for example //nam01.safelinks.protection.outlook.com. After the link is rewritten, it's analyzed for potentially malicious content. Once rewritten, the URL persists even if the message is manually forwarded or replied to either internal and external recipients.

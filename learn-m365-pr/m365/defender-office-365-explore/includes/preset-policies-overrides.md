@@ -12,7 +12,7 @@ A preset security policies provide the means to apply all the necessary security
 - Policy settings
 
 > [!NOTE]
-> The order of precedence for these policies is important if multiple preset security policies and other policies apply to the same user.
+> The order of precedence for policies is important if multiple preset security policies, custom policies, and the default policy apply to the same user.
 
 ## Profiles
 
@@ -26,13 +26,13 @@ You can apply these preset security policies by recipient, group membership, or 
 1. Strict preset policies
 1. Standard preset policies
 1. Custom policies
-1. Default settings
+1. Default policy
 
 ### Conditions and exceptions
 
 By using rules with conditions and exceptions, you can determine whether the profiles will or won't be applied. Each policy only allows you to use a condition or exception once. However, you can specify multiple values for the condition or exception.  When using multiple values in the same condition or exception, you must use OR logic, and for different conditions or exceptions use AND logic.
 
-To access the preset policies, launch the Microsoft 365 security center.
+To access the preset policies, launch the Microsoft 365 Defender portal.
 
 1. Select **Policies & rules**
 1. Then select **Threat policies**
@@ -67,4 +67,4 @@ You should make a habit of viewing these tables frequently to investigate the ca
 
 ## Exchange Online Protection in Microsoft Defender for Office 365
 
-While Exchange Online Protection will catch known or previously seen attacks. When combined with Microsoft Defender for Office 365 it provides protection against zero-day or never seen before attacks.
+While Exchange Online Protection will catch known or previously seen attacks. Safe Links and Safe Attachments in Microsoft Defender for Office 365 provides protection against zero-day or never seen before attacks.
