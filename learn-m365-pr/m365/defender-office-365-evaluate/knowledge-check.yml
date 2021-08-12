@@ -27,23 +27,12 @@ quiz:
       explanation: "This is incorrect. It can take up to 24 hours for the data to populate"
   - content: "Which of the following describes the file type generated for a configuration drift report?"
     choices:
-    - content: "XLSX"
+    - content: "`.XLSX`"
       isCorrect: false
-      explanation: "This is incorrect. A CSV file is generated."
-    - content: "CSV"
+      explanation: "This is incorrect. Another type of file is generated."
+    - content: "`.CSV`"
       isCorrect: true
-      explanation: "This is correct. A CSV file is generated."
-    - content: "XML"
+      explanation: "This is correct. A `.CSV` file is generated."
+    - content: "`.XML`"
       isCorrect: false
-      explanation: "This is incorrect. A CSV file is generated."
-  - content: "To get started with the trial evaluation Defender for Office 365, which portal will you need to sign into?"
-    choices:
-    - content: "Microsoft 365 Defender portal"
-      isCorrect: false
-      explanation: "This is incorrect. You can't start the Microsoft Defender for Office 365 trial from the Microsoft 365 Defender portal."
-    - content: "Microsoft 365 security center"
-      isCorrect: false
-      explanation: "This is incorrect. You can't start the Microsoft Defender for Office 365 trial from the Microsoft 365 security center."
-    - content: "Office 365 Security and Compliance portal"
-      isCorrect: true
-      explanation: "This is correct. To get stated with a trial evaluation of Defender for Office 365, you'll need to go to the Office 365 Security and Compliance portal."
+      explanation: "This is incorrect. Another type of file is generated."

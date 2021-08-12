@@ -3,8 +3,8 @@ uid: learn-m365-pr.defender-office-365-explore.knowledge-check
 title: Knowledge check 
 metadata:
   unitType: knowledge_check
-  title: "Knowledge check" 
-  description: Check what you've learnt in this module.  
+  title: Knowledge check
+  description: Check what you've learned in this module.  
   ms.date: 5/17/2021
   author: iankensey
   ms.author: beccarobins
@@ -29,14 +29,14 @@ quiz:
     choices:
     - content: "Safe Links"
       isCorrect: false
-      explanation: "Safe Links provide URL scanning and rewriting of inbound email messages in mail flow, and time-of-click verification of URLs and links in email messages and other locations."
-    - content: "Safe Attachments uses a virtual environment to check attachments in email messages before they're delivered to recipients (a process known as detonation)."
+      explanation: "That is incorrect. Safe Links provide URL scanning and rewriting of inbound email messages in mail flow, and time-of-click verification of URLs and links in email messages and other locations."
+    - content: "Safe Attachments"
       isCorrect: true
-      explanation: "Safe Attachments uses a virtual environment to check attachments in email messages before they're delivered to recipients (a process known as detonation)."
+      explanation: "That's correct! Safe Attachments uses a virtual environment to check attachments in email messages before they're delivered to recipients (a process known as detonation)."
     - content: "Anti-phishing policy"
       isCorrect: false
-      explanation: "The anti-phishing policy provides spoof protection and mailbox intelligence for all recipients."
-  - content: "Which of the following describe the correct order of precedence for preset policies from highest to lowest priority?"
+      explanation: "That is incorrect. The anti-phishing policy provides spoof protection and mailbox intelligence for all recipients."
+  - content: "Which of the following describes the correct order of precedence for preset policies from highest to lowest priority?"
     choices:
     - content: "Standard, Default, Strict, Custom"
       isCorrect: false
@@ -47,7 +47,7 @@ quiz:
     - content: "Strict, Standard, Custom, Default"
       isCorrect: true
       explanation: "This is the correct order of precedence."
-  - content: "Which of the following statement is true regarding the release of quarantined messages?"
+  - content: "Which of the following statements is true regarding the release of quarantined messages?"
     choices:
     - content: "End users can release quarantined spam messages"
       isCorrect: true
