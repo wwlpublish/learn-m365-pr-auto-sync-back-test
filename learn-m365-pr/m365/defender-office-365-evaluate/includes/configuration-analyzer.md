@@ -1,29 +1,27 @@
 The Microsoft 365 Defender portal includes a configuration analyzer that you can use to find any policies that don't meet the minimum standard and strict protection profile settings. You can use the configuration analyzer to review the following types of policies:
 
-- Exchange Online Protection (EOP) policies. This includes organizations with Exchange Online mailboxes and standalone EOP organizations without Exchange Online mailboxes:
+- **Exchange Online Protection (EOP) policies**. This includes organizations with Exchange Online mailboxes and standalone EOP organizations without Exchange Online mailboxes:
   - Anti-spam policies.
   - Anti-malware policies.
   - EOP Anti-phishing policies (spoof intelligence).
-- Microsoft Defender for Office 365 policies:
+- **Microsoft Defender for Office 365 policies**:
   - Anti-phishing policies:
     - The same spoof settings in EOP anti-phishing policies.
     - Impersonation settings
     - Advanced phishing thresholds
-- Safe Links policies.
-- Safe Attachments policies.
+- **Safe Links policies**.
+- **Safe Attachments policies**.
 
 ## Before you begin
 
-You'll need specific Email & collaboration permissions in the Microsoft 365 Defender portal:
+You'll need specific **Email & collaboration permissions** in the Microsoft 365 Defender portal:
 
 - To use the configuration analyzer and make updates to security policies, you need to be a member of the *Organization Management* or *Security Administrator* role groups.
 - For read-only access to the configuration analyzer, you need to be a member of the *Global Reader* or *Security Reader* role groups.
 
-Note that these are the same permissions that are available in the Security & Compliance Center.
-
 ## Using the configuration analyzer in the Microsoft 365 Defender portal
 
-You access the configuration analyzer through the Microsoft 365 security center.
+You access the configuration analyzer through the Microsoft 365 Defender portal.
 
 1. From the home page, go to the left navigation pane and select **Policies & rules**.
 1. In the **Policies & rules** page, select **Threat policies**
@@ -67,7 +65,7 @@ If there are any recommendations for improvement, the settings that require atte
   - Anti-malware
   - Safe Links
   - Safe Attachments
-  - Current configuration: the current value of the setting.
+- **Current configuration**: the current value of the setting.
 - **Last modified**: The date that the policy was last modified.
 
 > [!NOTE]
@@ -90,4 +88,4 @@ To filter the results, select **Filter**. In the **Filters** flyout that appears
 - Start time and End time (date)
 - Standard protection or Strict protection
 
-To export the results to a .csv file, select **Export** and the file will be placed in your Downloads folder.
+To export the results to a `.CSV` file, select **Export** and the file will be exported to your Downloads folder.
