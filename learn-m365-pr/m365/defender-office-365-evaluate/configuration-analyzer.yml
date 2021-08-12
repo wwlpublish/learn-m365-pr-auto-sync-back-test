@@ -1,9 +1,9 @@
 ### YamlMime:ModuleUnit
 uid: learn-m365-pr.defender-office-365-evaluate.configuration-analyzer
-title: Understand the configuration analyzer in the Microsoft 365 Defender portal
+title: The configuration analyzer
 metadata:
   unitType: learning-content 
-  title: Understand the configuration analyzer in the Microsoft 365 Defender portal
+  title: The configuration analyzer
   description: Learn how to use the configuration analyzer to find policies where settings are below the strict or standard protection profile settings.
   ms.date: 5/17/2021 
   author: iankensey 
