@@ -1,0 +1,49 @@
+### YamlMime:ModuleUnit
+uid: learn-m365-pr.defender-investigate-incidents.knowledge-check
+title: Knowledge check
+metadata:
+  unitType: knowledge_check
+  title: Knowledge check
+  description: Test your knowledge of the module content.
+  ms.date: 05/05/2021
+  author: iankensey
+  ms.author: beccarobins
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 3
+content: |
+quiz:
+  questions:
+  - content: "Which three elements can you use to analyze an incident?"
+    choices:
+    - content: "Devices, users, and mailboxes"
+      isCorrect: true
+      explanation: "That's right! An incident includes information on devices, users, and mailboxes that might have been impacted in the attack."
+    - content: "Devices, users, and attack origin"
+      isCorrect: false
+      explanation: "Please try again. Attack origin is not one of the ways that you can view incidents."
+    - content: "Devices, users, and resources"
+      isCorrect: false
+      explanation: "Not quite. Resources are not one of the ways that you can view incidents."
+  - content: "Why is it important to correctly classify the incident?"
+    choices:
+    - content: "To track trends and sort incidents by which ones are more important."
+      isCorrect: false
+      explanation: "That isn't right. By correctly classifying an incident, Microsoft 365 can learn what are false positives and what are genuine threats."
+    - content: "To track trends and close the incident."
+      isCorrect: false
+      explanation: "Not quite. By correctly classifying an incident, Microsoft 365 can learn what are false positives and what are genuine threats."
+    - content: "To track trends and to improve incident reporting quality."
+      isCorrect: true
+      explanation: "That's right! By correctly classifying an incident, Microsoft 365 can learn what are false positives and what are genuine threats and ultimately improve incident reporting quality."
+  - content: "You want to enable email notifications for incidents in Microsoft 365 Defender. What security permission do you need to configure email notification settings?"
+    choices:
+    - content: "Manage email settings"
+      isCorrect: false
+      explanation: "Not quite. Enabling email notifications requires configuring another type of settings."
+    - content: "Manage security settings"
+      isCorrect: true
+      explanation: "That's correct! You need 'Manage security settings' permissions to configure email notification settings."
+    - content: "Manage notification settings"
+      isCorrect: false
+      explanation: "Please try again. Enabling email notifications requires configuring another type of settings."

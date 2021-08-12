@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-m365-pr.defender-advanced-hunting.summary
+title: Summary
+metadata:
+  unitType: summary
+  title: Summary
+  description: Summarize what you've learned in this module.
+  ms.date: 05/13/2021
+  author: iankensey
+  ms.author: beccarobins
+  ms.topic: interactive-tutorial 
+  ms.prod: learning-m365
+durationInMinutes: 1
+content: |
+  [!include[](includes/summary.md)]
