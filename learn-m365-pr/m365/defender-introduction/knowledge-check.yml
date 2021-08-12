@@ -32,7 +32,7 @@ quiz:
       explanation: "That's correct! Microsoft 365 Defender brings together the Microsoft 365 security portfolio to provide a single view of an attack."
     - content: "To improve your organization's security perimeter and stop cyber-attacks by minimizing your organization's attack surface."
       isCorrect: false
-      explanation: "That is incorrect. Microsoft 365 Defender reduces the amount of time between the start of an attack and its remediation."
+      explanation: "That is incorrect. Microsoft 365 Defender brings together the Microsoft 365 security portfolio to provide a single view of an attack."
     - content: "To automatically lock down any malicious or suspicious behavior by users within your organization and to notify your security team."
       isCorrect: false
-      explanation: "That is incorrect. Microsoft 365 Defender reduces the amount of time between the start of an attack and its remediation."
+      explanation: "That is incorrect. Microsoft 365 Defender brings together the Microsoft 365 security portfolio to provide a single view of an attack."
