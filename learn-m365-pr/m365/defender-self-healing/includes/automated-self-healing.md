@@ -1,5 +1,5 @@
 
-On any given day, you and your security team have to deal with a seemingly never-ending flow of security threats to your organization’s assets and infrastructure. Continued exposure to high volumes of incidents can sometimes lead to alert or incident fatigue, which can increases the time between identification and remediation.
+On any given day, you and your security team have to deal with a seemingly never-ending flow of security threats to your organization's assets and infrastructure. Continued exposure to high volumes of incidents can sometimes lead to alert or incident fatigue, which can increases the time between identification and remediation.
 
 With automated investigation and response (AIR), Microsoft 365 Defender can help reduce the number of remediation actions you need to determine and perform, reducing the demands on your security team to deal with ongoing volume of alerts and incidents.
 

@@ -2,7 +2,7 @@ Before you can use Microsoft 365 Defender, you need to set up and configure your
 
 ## Getting started
 
-Preparation is key to any successful deployment. To get started with Microsoft 365 Defender, you’ll  first need to verify that you have the right licenses and permissions to access the portal.
+Preparation is key to any successful deployment. To get started with Microsoft 365 Defender, you'll  first need to verify that you have the right licenses and permissions to access the portal.
 
 Next, you'll need to deploy the supported services that come with Microsoft 365 Defender, for example, Microsoft Defender for Endpoint, Microsoft Defender for Office 365, or Microsoft Defender for Identity. These services increase your visibility of threat signals from assets across your network.
 
@@ -14,7 +14,7 @@ For detailed licensing information, [read the licensing requirements](/microsoft
 
 ### Check roles and permissions
 
-To enable Microsoft 365 Defender, you  must be a global administrator or a security administrator in your organization’s Azure Active Directory (Azure AD).
+To enable Microsoft 365 Defender, you  must be a global administrator or a security administrator in your organization's Azure Active Directory (Azure AD).
 
 Accounts assigned the following Azure AD roles can access Microsoft 365 Defender functionality and data:
 
@@ -57,11 +57,11 @@ To gain the complete benefits of Microsoft 365 Defender, your security team shou
 
 ### Limited deployment
 
-Each supported service that you deploy provides a rich set of raw signals and correlated information. While limited deployment doesn’t cause Microsoft 365 Defender functionality to turn off, its ability to provide comprehensive visibility across your endpoints, apps, data, and identities are affected. At the same time, any remediation capabilities only apply to entities that can be managed by the services you’ve deployed.
+Each supported service that you deploy provides a rich set of raw signals and correlated information. While limited deployment doesn't cause Microsoft 365 Defender functionality to turn off, its ability to provide comprehensive visibility across your endpoints, apps, data, and identities are affected. At the same time, any remediation capabilities only apply to entities that can be managed by the services you've deployed.
 
 ### Preferred Deployment Sequence
 
-Regardless of which deployment path you choose and which services your organization chooses to roll out, there is a preferred order you should configure them. This list assumes a full deployment, so you’ll need to adapt it to meet the services you need.
+Regardless of which deployment path you choose and which services your organization chooses to roll out, there is a preferred order you should configure them. This list assumes a full deployment, so you'll need to adapt it to meet the services you need.
 
 1. Microsoft Defender for Office 365
 1. Microsoft Defender for Identity

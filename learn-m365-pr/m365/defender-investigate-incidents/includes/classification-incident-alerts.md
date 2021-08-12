@@ -35,7 +35,7 @@ You should choose from the other two options:
 
 :::image type="content" source="../media/3-classification-types.png" alt-text="Screenshot showing the different classification types":::
 
-From the classification options, if you select **True alert**, you’ll be prompted with to provide a determination.
+From the classification options, if you select **True alert**, you'll be prompted with to provide a determination.
 
 :::image type="content" source="../media/3-true-positivie-determination.png" alt-text="Screenshot showing the available determination options.":::
 

@@ -1,6 +1,6 @@
 Cyber criminals are unrelenting and will exploit any vulnerability in your security perimeter. When dealing with each attack, it's important to understand the attack method so your security team can shut it down.
 
-In your role as a security analyst, you wanted to gain a clearer understanding of the role and purpose of incidents in reducing the time between attack detection and resolution. You’ve seen how the incident queue lets your security team quickly triage and manage an incident based on its severity and impact, then respond with an appropriate analysis and remediation. You understand the importance of classifying alerts and incidents and how that can reduce the number of false positives in the incident queue. Additionally, you’re able to receive email notifications for new and updated incidents.
+In your role as a security analyst, you wanted to gain a clearer understanding of the role and purpose of incidents in reducing the time between attack detection and resolution. You've seen how the incident queue lets your security team quickly triage and manage an incident based on its severity and impact, then respond with an appropriate analysis and remediation. You understand the importance of classifying alerts and incidents and how that can reduce the number of false positives in the incident queue. Additionally, you're able to receive email notifications for new and updated incidents.
 
 Now that you've completed this module, you can:
 

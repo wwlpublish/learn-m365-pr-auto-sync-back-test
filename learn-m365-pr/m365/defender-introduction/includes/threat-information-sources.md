@@ -25,7 +25,7 @@ Watch this three-and-a-half-minute video to understand how Microsoft Defender fo
 
 ## Microsoft Defender for Office 365
 
-Microsoft Defender for Office 365 helps safeguard your organization against malicious threats posed by email messages, links (URLs), and Microsoft 365 collaboration tools such as Microsoft Teams. It can help protect your organization against phishing emails and malicious email campaigns. With Microsoft Defender for Office 365, you can help protect your organization’s email and gain insights that help you mitigate attacks.  
+Microsoft Defender for Office 365 helps safeguard your organization against malicious threats posed by email messages, links (URLs), and Microsoft 365 collaboration tools such as Microsoft Teams. It can help protect your organization against phishing emails and malicious email campaigns. With Microsoft Defender for Office 365, you can help protect your organization's email and gain insights that help you mitigate attacks.  
 
 Watch this short video for an overview of Microsoft Defender for Office 365.
 

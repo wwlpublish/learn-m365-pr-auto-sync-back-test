@@ -36,8 +36,8 @@ From here, you can give the required roles to your users.
 
 ## Limit access to security data
 
-You can control access to Microsoft 365 Defender data by using the scope assigned to user groups in Microsoft Defender for Endpoint role-based access control (RBAC). As long as your access isn’t scoped to a specific set of devices in Defender for Endpoint, you have full access to data in Microsoft 365 Defender. However, once your account is scoped, you’ll only see data about the devices in your scope.
+You can control access to Microsoft 365 Defender data by using the scope assigned to user groups in Microsoft Defender for Endpoint role-based access control (RBAC). As long as your access isn't scoped to a specific set of devices in Defender for Endpoint, you have full access to data in Microsoft 365 Defender. However, once your account is scoped, you'll only see data about the devices in your scope.
 
-For example, if you belong to only one user group with a Microsoft Defender for Endpoint role and that user group has been given access to sales devices only, you’ll see only data about sales devices in Microsoft 365 Defender.
+For example, if you belong to only one user group with a Microsoft Defender for Endpoint role and that user group has been given access to sales devices only, you'll see only data about sales devices in Microsoft 365 Defender.
 
 For more information on the required roles and permissions, see the [Required roles and permissions for Microsoft 365 Defender](/microsoft-365/security/defender/custom-roles?view=o365-worldwide#required-roles-and-permissions&preserve-view=true).

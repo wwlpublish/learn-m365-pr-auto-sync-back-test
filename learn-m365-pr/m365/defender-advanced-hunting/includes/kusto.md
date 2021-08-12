@@ -26,7 +26,7 @@ A tabular expression is a statement that produces data arranged in a table-like 
 
 Tabular data flows from one tabular query to another, starting at a data source, and then flowing through a set of data transformations bound together using the pipe (`|`) delimiter. Which allows the query to process data and return results without modifying the data or metadata. Kusto queries can use the SQL language, or KQL.
 
-Here’s an example of a Kusto query that counts how many rows in the `Logs` table have a value in the `Level` column equal to the string `"Critical"`:
+Here's an example of a Kusto query that counts how many rows in the `Logs` table have a value in the `Level` column equal to the string `"Critical"`:
 
 ```PowerShell
 Logs
@@ -48,7 +48,7 @@ Not all control commands modify data or metadata. The largest class of control c
 
 ### Learn common query functions
 
-To make full use of the advanced hunting capabilities in Microsoft 365 Defender, you’ll need to build queries using KQL. The KQL offers many commands to help you delve into the raw data. Some of the more common functions and commands are listed here:
+To make full use of the advanced hunting capabilities in Microsoft 365 Defender, you'll need to build queries using KQL. The KQL offers many commands to help you delve into the raw data. Some of the more common functions and commands are listed here:
 
 | **Function** | **Description   and usage**                                  |
 | ------------ | ------------------------------------------------------------ |
@@ -87,10 +87,10 @@ The following table lists the scalar data types supported by Kusto:
 
 #### Null and mismatched data
 
-All non-string data types include a special "null" value, which represents the lack of data or a mismatch of data. For example, attempting to ingest the string `"abc"` into an `int` column results in a null value. You can’t explicitly create null items, but you can detect whether an expression evaluates to this value by using the `isnull()` function.
+All non-string data types include a special "null" value, which represents the lack of data or a mismatch of data. For example, attempting to ingest the string `"abc"` into an `int` column results in a null value. You can't explicitly create null items, but you can detect whether an expression evaluates to this value by using the `isnull()` function.
 
 > [!NOTE]
-> While KQL and SQL may look similar and share many common commands, like union, top, and join, it’s important to understand that Kusto processes all queries in a linear fashion.  Each command is separated by a pipe (`|`), and is processed from top to bottom.
+> While KQL and SQL may look similar and share many common commands, like union, top, and join, it's important to understand that Kusto processes all queries in a linear fashion.  Each command is separated by a pipe (`|`), and is processed from top to bottom.
 
 ## Decompose a Kusto query
 
@@ -120,7 +120,7 @@ As you can see, a Kusto query can get quite busy. Let's break down this query in
 
 ### Comments
 
-A short comment has been added to the beginning of the query to describe what it’s for. This comment helps if you later decide to save the query and share it with others in your organization. Comments are ignored by the Kusto processor.
+A short comment has been added to the beginning of the query to describe what it's for. This comment helps if you later decide to save the query and share it with others in your organization. Comments are ignored by the Kusto processor.
 
 ```PowerShell
 // Finds PowerShell execution events that could involve a download
@@ -178,7 +178,7 @@ Now that your query clearly identifies the data you want to locate, you can defi
 
 ### Constrain the results
 
-To maintain performance, you’ll want to constrain the number of results that are returned.  Using `top`, limits the number of results returned.
+To maintain performance, you'll want to constrain the number of results that are returned.  Using `top`, limits the number of results returned.
 
 ```PowerShell
 | top 100 by Timestamp

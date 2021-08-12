@@ -1,4 +1,4 @@
-Microsoft 365 Defender, when it creates a new incident or if there’s an update on an existing incident, can send an email notification to you or your security team. This email contains:
+Microsoft 365 Defender, when it creates a new incident or if there's an update on an existing incident, can send an email notification to you or your security team. This email contains:
 
 - The incident name
 - The severity level
@@ -32,6 +32,6 @@ To start receiving notifications for new or progressing incidents, you'll need t
 1. Finally, you'll need to add one or more email addresses that will receive the incident notifications.
 
 > [!NOTE]
-> It’s a good idea to test the notification and ensure each recipient receives it in their inboxes.
+> It's a good idea to test the notification and ensure each recipient receives it in their inboxes.
 
 Once you've reviewed the notification settings, you can create the rule to start receiving incident notifications through email.

@@ -1,4 +1,4 @@
-As security alerts are triggered, it's up to you to look into those alerts and take the necessary steps to protect your organization’s assets, data, and users. Prioritizing and investigating alerts is time consuming, especially when new alerts keep coming in while an investigation is ongoing.  
+As security alerts are triggered, it's up to you to look into those alerts and take the necessary steps to protect your organization's assets, data, and users. Prioritizing and investigating alerts is time consuming, especially when new alerts keep coming in while an investigation is ongoing.  
 
 AIR capabilities enable you and your security team to dramatically increase your organization's capacity to deal with security alerts and incidents. With automated investigation and response, you can reduce the cost of dealing with manual investigation and response activities. AIR capabilities help your security operations team by:
 
@@ -12,7 +12,7 @@ AIR capabilities enable you and your security team to dramatically increase your
 
 ## The automated investigation process
 
-Depending on how you’ve configured your automated investigation and response capabilities, remediation actions can either be taken automatically or require manual approval by you and your security team. While an investigation is running, any related alerts that arise are added to the investigation until it’s completed. This makes it easier for you and your team to focus on the attack.  If an affected entity is seen elsewhere, the automated investigation expands its scope to include that entity, and the investigation process repeats. In Microsoft 365 Defender, each automated investigation correlates signals across all deployed services: Microsoft Defender for Identity, Microsoft Defender for Endpoint, and Microsoft Defender for Office 365.  
+Depending on how you've configured your automated investigation and response capabilities, remediation actions can either be taken automatically or require manual approval by you and your security team. While an investigation is running, any related alerts that arise are added to the investigation until it's completed. This makes it easier for you and your team to focus on the attack.  If an affected entity is seen elsewhere, the automated investigation expands its scope to include that entity, and the investigation process repeats. In Microsoft 365 Defender, each automated investigation correlates signals across all deployed services: Microsoft Defender for Identity, Microsoft Defender for Endpoint, and Microsoft Defender for Office 365.  
 
 ## Details and results of an automated investigation
 
@@ -20,7 +20,7 @@ When an automated investigation runs, details about that investigation are avail
 
 You can get to the results of an automated investigation through the Action center. In the Action center, you can view actions that are awaiting approval and actions that were already approved or completed.
 
-The first place you’ll go to is the **incident details** page. This lets you and your team view detailed information about any incident, and to drill down to find any alerts that were triggered, and information about any affected devices, user accounts, and mailboxes.
+The first place you'll go to is the **incident details** page. This lets you and your team view detailed information about any incident, and to drill down to find any alerts that were triggered, and information about any affected devices, user accounts, and mailboxes.
 
 :::image type="content" source="../media/3-investigation-page.png" alt-text="Screenshot showing a fragment of the Microsoft 365 Defender portal incident investigation page.":::
 

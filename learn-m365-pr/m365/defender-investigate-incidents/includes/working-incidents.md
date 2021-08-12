@@ -1,6 +1,6 @@
 An incident in Microsoft 365 Defender is a collection of correlated signals, alerts, and other relevant items that are combined into a single comprehensive view representing the whole attack. 
 
-Incidents ensure elements otherwise spread across various portals and queues are presented in a single coherent view, which improves your security team’s ability to respond to threats and attacks.
+Incidents ensure elements otherwise spread across various portals and queues are presented in a single coherent view, which improves your security team's ability to respond to threats and attacks.
 
 Grouping related alerts and threat data into an incident helps you see:
 
@@ -16,7 +16,7 @@ Grouping related alerts and threat data into an incident helps you see:
 
 In the illustration, an attacker starts with a spear-phishing email targeting a specific user. The email contains a malicious link to download a file that contains the Meterpreter payload. With the malicious code running on the target device, an attacker performs reconnaissance to understand which users have signed into the device and which other devices these users have access to.  
 
-The attacker finds the credentials of an IT helpdesk team member. Impersonating this IT helpdesk team member using the overpass-the-hash method, the attacker moves laterally to a second device. On a new device, they steal the user’s web credentials, which they use to remotely access the user’s cloud apps like OneDrive or SharePoint. This allows the attacker to insert a malicious macro into an existing online Word document, which they then deploy in a lateral phishing attack by distributing links to the malicious document to other users in the organization.
+The attacker finds the credentials of an IT helpdesk team member. Impersonating this IT helpdesk team member using the overpass-the-hash method, the attacker moves laterally to a second device. On a new device, they steal the user's web credentials, which they use to remotely access the user's cloud apps like OneDrive or SharePoint. This allows the attacker to insert a malicious macro into an existing online Word document, which they then deploy in a lateral phishing attack by distributing links to the malicious document to other users in the organization.
 
 As a security analyst for an attack like this, you need all of the alert and threat information from multiple sources collated in the same place, such as Microsoft Defender for Office 365 for the phishing email, Microsoft Defender for Endpoint for the devices, Microsoft Defender for Identity for the compromised user accounts, and Microsoft Cloud App Security for OneDrive and SharePoint.
 
@@ -29,7 +29,7 @@ This short 4-minute video will introduce the concept of incident management and 
 
 ### Use different aspects to investigate an incident
 
-You’ll use the incident queue to sort through incidents, and to prioritize and create an informed cybersecurity response decision. Microsoft 365 Defender allows you to view the threat data of incidents from many different viewpoints:
+You'll use the incident queue to sort through incidents, and to prioritize and create an informed cybersecurity response decision. Microsoft 365 Defender allows you to view the threat data of incidents from many different viewpoints:
 
 - **Alerts**: All the alerts related to the incident and their information.
 - **Devices**: All the devices that have been identified to be part of or related to the incident.
