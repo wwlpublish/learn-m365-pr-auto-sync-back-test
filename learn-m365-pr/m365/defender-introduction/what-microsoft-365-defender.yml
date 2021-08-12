@@ -9,6 +9,7 @@ metadata:
   author: iankensey
   ms.author: beccarobins
   ms.topic: interactive-tutorial
+  ms.prod: learning-m365
 durationInMinutes: 4
 content: |
   [!include[](includes/what-microsoft-365-defender.md)]

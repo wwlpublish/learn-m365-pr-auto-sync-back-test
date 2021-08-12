@@ -9,6 +9,7 @@ metadata:
   author: iankensey 
   ms.author: beccarobins
   ms.topic: interactive-tutorial
+  ms.prod: learning-m365
 durationInMinutes: 12
 content: |
   [!include[](includes/threat-information-sources.md)]
