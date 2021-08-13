@@ -2,7 +2,7 @@ As the security analyst of your organization, you wanted to know if Microsoft De
 
 Now that you've completed this module, you should be able to:
 
-- Understand  Microsoft Defender for Endpoint's next-generation protection
+- Understand Microsoft Defender for Endpoint's next-generation protection
 - Understand behavioral blocking and containment
 
 ## Learn more
