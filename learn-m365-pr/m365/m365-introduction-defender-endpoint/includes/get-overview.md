@@ -17,7 +17,7 @@ Microsoft Defender for Endpoint takes advantage of technologies including:
 
 ### Understand the capabilities
 
-:::image type="content" source="../media/1-components.png" alt-text="Diagram showing the Microsoft Defender for Endpoint components.":::
+:::image type="content" source="../media/1-components.png" alt-text="Diagram showing the Microsoft Defender for Endpoint components." lightbox="../media/1-components.png":::
 
 Microsoft Defender for Endpoint provides protection through several different capabilities:
 
