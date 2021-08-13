@@ -4,7 +4,7 @@ Here, you'll get an overview of those response actions, and you'll also learn ab
 
 ## Take actions on devices
 
-Respond to detected threats on your devices to protect your environment. To do this, you can take response actions from the device page for a device.
+With the appropriate role assignment, you can respond to detected threats on your devices to protect your environment. To do this, you can take response actions from the device page for a device.
 
 :::image type="content" source="../media/3-device-actions-inline.png" lightbox="../media/3-device-actions-expanded.png" alt-text="The device page.":::
 
@@ -15,7 +15,7 @@ The response actions you can take on devices include:
 - **Collect an investigation package**
   - You can use an investigation package, which is a Zip file that contains information about suspicious entities and events on a device. Use Investigation packages to understand the present state of the affected device, and to also identify the techniques and tools that an attacker used.
 - **Run antivirus scan**
-  - You can also use next-gen protection to remotely start an antivirus scan for your devices, to find and address malware on any device.
+  - You can also use next-gen protection to remotely start an antivirus scan for your devices, to find, and address malware on any device.
 - **Restrict app execution**
   - You can restrict specific applications from running on a device. This is a way to prevent attackers from gaining control over your device, and prevent other devices from being compromised through the same app. Users will receive a notification if they attempt to start a restricted app.
 - **Isolate devices**

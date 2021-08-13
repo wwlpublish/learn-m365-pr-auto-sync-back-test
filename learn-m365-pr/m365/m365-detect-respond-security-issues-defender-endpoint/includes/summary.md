@@ -8,6 +8,6 @@ Now that you've completed this module, you should be able to:
 
 ## Learn more
 
-- [View and organize the Microsoft Defender for Endpoint Alerts queue](/microsoft-365/security/defender-endpoint/alerts-queue?view=o365-worldwide&preserve-view=true)
-- [View and organize the Microsoft Defender for Endpoint Incidents queue](/microsoft-365/security/defender-endpoint/view-incidents-queue?view=o365-worldwide&preserve-view=true)
-- [Investigate incidents in Microsoft Defender for Endpoint](/microsoft-365/security/defender-endpoint/investigate-incidents?view=o365-worldwide&preserve-view=true)
+- [View and organize the Microsoft Defender for Endpoint Alerts queue](/microsoft-365/security/defender-endpoint/alerts-queue)
+- [View and organize the Microsoft Defender for Endpoint Incidents queue](/microsoft-365/security/defender-endpoint/view-incidents-queue)
+- [Investigate incidents in Microsoft Defender for Endpoint](/microsoft-365/security/defender-endpoint/investigate-incidents)

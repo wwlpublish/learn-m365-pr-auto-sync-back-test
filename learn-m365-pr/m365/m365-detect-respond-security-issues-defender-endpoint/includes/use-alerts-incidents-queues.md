@@ -6,7 +6,7 @@ To help you address these issues, you'll learn about the alerts queue, the incid
 
 An alert is a notification about a potential threat has been detected on your endpoints. Alerts in Microsoft Defender for Endpoint contain detailed information about the threat and how it affects your environment.
 
-You use the alerts queue  to get a list of all of the alerts that have been raised from across your organization's devices. To access the alerts queue you select **Alerts** under **Incidents & alerts** in the navigation pane.
+You use the alerts queue to get a list of all of the alerts that have been raised from across your organization's devices. To access the alerts queue, you select **Alerts** under **Incidents & alerts** in the navigation pane.
 
 :::image type="content" source="../media/2-alerts-queue-inline.png" lightbox="../media/2-alerts-queue-expanded.png" alt-text="A screenshot showing the Alerts queue.":::
 
@@ -24,7 +24,7 @@ Here's what the alert details pane looks like:
 
 ## What is the incidents queue?
 
-An incident is a collection of alerts. You use the incident queue to view a list of all the incidents that have been flagged from the devices across your organization. You use it to prioritize your incidents and make better informed decisions on how to respond to them. To access the incidents queue, you select **Incidents** under **Incidents & alerts** in the navigation pane:
+An incident is a collection of correlated alerts and associated data that make up the story of an attack. You use the incident queue to view a list of all the incidents that have been flagged from the devices across your organization. You use it to prioritize your incidents and make better informed decisions on how to respond to them. To access the incidents queue, you select **Incidents** under **Incidents & alerts** in the navigation pane.
 
 :::image type="content" source="../media/2-incident-queue-inline.png" lightbox="../media/2-incident-queue-expanded.png" alt-text="A screenshot showing the Incident queue":::
 
@@ -78,7 +78,7 @@ You use the incident page to understand the full scope of the incident by lookin
 
 ### Alerts
 
-For example, you  can use the alerts tab to gather information for your investigation by looking into the incident's alerts, and find out how they are linked:
+For example, you can use the alerts tab to gather information for your investigation by looking into the incident's alerts, and find out how they are linked:
 
 :::image type="content" source="../media/2-alerts-tab-inline.png" lightbox="../media/2-alerts-tab-expanded.png" alt-text="A screenshot showing the Alerts tab.":::
 
