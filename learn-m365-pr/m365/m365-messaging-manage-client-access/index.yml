@@ -3,7 +3,7 @@ uid: learn-m365.m365-messaging-manage-client-access
 metadata:
   title: Plan and manage client access with Exchange Online
   description: Learn how to configure clients to access associated Exchange Online mailboxes, how to troubleshoot connectivity issues, and how to connect your clients.
-  ms.date: 07/14/2021
+  ms.date: 08/05/2021
   author: AlexandraHrt
   ms.author: elizapo
   ms.topic: interactive-tutorial

@@ -3,7 +3,7 @@ uid: learn-m365.business-continuity-disaster-recovery-azure-virtual-desktop
 metadata:
   title: Business continuity and disaster recovery for Azure Virtual Desktop
   description: Microsoft Azure Virtual Desktop is a cloud service that helps you give users a secure remote desktop that they can use anywhere. With Azure Virtual Desktop, you can plan appropriate business continuity and disaster recovery (BCDR) strategies to help protect against both unplanned and planned failures and to provide redundancy.
-  ms.date: 07/19/2021
+  ms.date: 08/05/2021
   author: ndelgado
   ms.author: nedelgad
   ms.topic: interactive-tutorial
