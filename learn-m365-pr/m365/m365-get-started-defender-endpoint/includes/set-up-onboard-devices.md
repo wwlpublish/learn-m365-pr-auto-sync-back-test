@@ -27,7 +27,7 @@ The deployment process using Microsoft Endpoint Manager consists of the followin
 
 You'll create a group for your pilot devices and users to apply configurations. You do this using the Microsoft Endpoint Manager portal:
 
-:::image type="content" source="../media/4-navigate-groups-intune.png" alt-text="Screenshot showing the Microsoft Endpoint manager, and how to go to the Groups pane.":::
+:::image type="content" source="../media/4-navigate-groups-intune.png" alt-text="Screenshot showing the Microsoft Endpoint manager, and how to go to the Groups pane." lightbox="../media/4-navigate-groups-intune.png":::
 
 ### Step 2: Configure capabilities
 
@@ -43,7 +43,7 @@ You configure the capabilities using Microsoft 365 Defender portal. You use the 
 
 For example, to configure the endpoint detection and response capability, you create a policy profile for it to apply to your devices in Microsoft Endpoint Manager using the **Endpoint detection and response** pane in the portal:
 
-:::image type="content" source="../media/4-create-endpoint-detection-response-profile.png" alt-text="Create a profile for endpoint detection and response.":::
+:::image type="content" source="../media/4-create-endpoint-detection-response-profile.png" alt-text="Create a profile for endpoint detection and response." lightbox="../media/4-create-endpoint-detection-response-profile.png":::
 
 You can use the Onboarding using Microsoft Endpoint Manager link in the **Learn more** section for detailed in-depth guidance on how create configuration policy profiles.
 
@@ -51,18 +51,18 @@ You can use the Onboarding using Microsoft Endpoint Manager link in the **Learn 
 
 Once you've created a profile, you'll confirm whether it has been applied to your pilot devices. You do this by selecting the profile you've created. For example, you can select the profile you've created for next-generation protection in the **Antivirus** pane:
 
-:::image type="content" source="../media/4-next-generation-protection-profile-created.png" alt-text="Screenshot showing the Endpoint security, and how to select your profile.":::
+:::image type="content" source="../media/4-next-generation-protection-profile-created.png" alt-text="Screenshot showing the Endpoint security, and how to select your profile." lightbox="../media/4-next-generation-protection-profile-created.png":::
 
 > [!NOTE]
 > It might take some time for your configuration policy to be applied.
 
 You'll be taken to the policy profile overview pane:
 
-:::image type="content" source="../media/4-profile-overview-pane.png" alt-text="Screenshot showing the Endpoint Manager admin center and the profile overview pane.":::
+:::image type="content" source="../media/4-profile-overview-pane.png" alt-text="Screenshot showing the Endpoint Manager admin center and the profile overview pane." lightbox="../media/4-profile-overview-pane.png":::
 
 Here, you can check whether the profile has been applied successfully at multiple levels. For example, to check which devices it has been applied to successfully, you can select **Device status**:
 
-:::image type="content" source="../media/4-profile-device-status.png" alt-text="Screenshot showing how to get to the Device status.":::
+:::image type="content" source="../media/4-profile-device-status.png" alt-text="Screenshot showing how to get to the Device status." lightbox="../media/4-profile-device-status.png":::
 
 If the **Assignment status** shows as **Succeeded**, then that device has been onboarded successfully.
 
