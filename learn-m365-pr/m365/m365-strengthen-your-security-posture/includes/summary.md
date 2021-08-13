@@ -1,4 +1,4 @@
-As the security analyst of your organization, you wanted to be able to understand your organization's current stance on potential threats and vulnerabilities across your environment and strengthen it to protect your organization. You've looked into how you can use Microsoft Defender for Endpoint to do this.
+As a security analyst for your organization, you wanted to be able to understand your organization's current stance on potential threats and vulnerabilities across your environment and strengthen it to protect your organization. You've looked into how you can use Microsoft Defender for Endpoint to do this.
 
 Now that you've completed this module, you should be able to:
 
@@ -9,6 +9,6 @@ Now that you've completed this module, you should be able to:
 
 ## Learn more
 
-- [Exposure score – threat and vulnerability management](/microsoft-365/security/defender-endpoint/tvm-exposure-score?view=o365-worldwide&preserve-view=true)
-- [Microsoft Secure Score for Devices](/microsoft-365/security/defender-endpoint/tvm-microsoft-secure-score-devices?view=o365-worldwide&preserve-view=true)
-- [Security recommendations – threat and vulnerability management](/microsoft-365/security/defender-endpoint/tvm-security-recommendation?view=o365-worldwide&preserve-view=true)
+- [Exposure score – threat and vulnerability management](/microsoft-365/security/defender-endpoint/tvm-exposure-score)
+- [Microsoft Secure Score for Devices](/microsoft-365/security/defender-endpoint/tvm-microsoft-secure-score-devices)
+- [Security recommendations – threat and vulnerability management](/microsoft-365/security/defender-endpoint/tvm-security-recommendation)
