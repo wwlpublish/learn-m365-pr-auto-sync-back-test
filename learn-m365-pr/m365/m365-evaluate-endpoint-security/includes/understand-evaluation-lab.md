@@ -9,6 +9,6 @@ Use the evaluation lab to simplify your evaluation experience. With the evaluati
 
 You can access the evaluation lab from the Microsoft 365 Defender portal by selecting **Evaluation & tutorials > Evaluation lab** in the navigation pane:
 
-:::image type="content" source="../media/1-find-evaluation-lab.png" alt-text="A screenshot showing where to find the evaluation lab on the navigation pane.":::
+:::image type="content" source="../media/1-find-evaluation-lab.png" alt-text="A screenshot showing where to find the evaluation lab on the navigation pane." lightbox="../media/1-find-evaluation-lab.png":::
 
 From here, you can manage test devices, attack simulations, and review detailed reports.
