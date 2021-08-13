@@ -24,7 +24,7 @@ quiz:
       explanation: "These protections will allow users to regulate access to applications, domains, IP address, and more."
     - content: "Microsoft Threat Experts"
       isCorrect: false
-      explanation: "This isn't the component that enables users take advantage of those specific protections."
+      explanation: "This isn't the component that enables users to take advantage of those specific protections."
   - content: "Which of the following components do you install on your device to gather information and detect suspicious events?"
     choices:
     - content: "Sensors"

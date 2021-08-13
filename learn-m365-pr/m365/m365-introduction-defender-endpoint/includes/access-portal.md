@@ -8,7 +8,7 @@ You can access Microsoft Defender for Endpoint by signing in to the Microsoft 36
 
 ### Overview of the components in the portal
 
-You access Microsoft Defender for Endpoint features and capabilities using the navigation pane on the left:
+Access Microsoft Defender for Endpoint features and capabilities using the navigation pane on the left:
 
 :::image type="content" source="../media/4-navigation-bar-inline.png" lightbox="../media/4-navigation-bar-expanded.png" alt-text="A screenshot of the navigation pane.":::
 
