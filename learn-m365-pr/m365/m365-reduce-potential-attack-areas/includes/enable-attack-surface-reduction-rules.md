@@ -1,4 +1,4 @@
-You've learned about the different attack surface reduction capabilities.  But in order to use attack surface reduction capabilities effectively in Microsoft Defender for Endpoint, you need to understand attack surface reduction rules as well.
+You've learned about the different attack surface reduction capabilities. But in order to use attack surface reduction capabilities effectively in Microsoft Defender for Endpoint, you need to understand attack surface reduction rules as well.
 
 ## What are attack surface reduction rules?
 
@@ -32,7 +32,7 @@ A third option is **warn mode**. If a rule is in warn mode and an action trigger
 
 Whenever an attack surface reduction rule is triggered, regardless of its mode, a notification is displayed to the user to explain what has happened. To make sure that users are confident in these notifications and to give them contact information, you can customize notifications with your company branding and other details.
 
-Administrators can view all the notifications and alerts generated on all endpoints by using the Microsoft 365 Defender portal. You can also use advanced hunting and Kusto queries to search through events and locate specific problems.
+Administrators can view all the notifications and alerts generated on all endpoints by using the [Microsoft 365 Defender portal](https://security.microsoft.com). You can also use advanced hunting and Kusto queries to search through events and locate specific problems.
 
 When you want to enable an attack surface reduction rule, you have a choice of tools to use:
 
@@ -41,8 +41,6 @@ When you want to enable an attack surface reduction rule, you have a choice of t
 - Microsoft Endpoint Configuration Manager
 - Group Policy
 - PowerShell
-
-Use the link in the **Learn more** section for details on how to use any of these options to configure rules.
 
 ## Learn more
 
