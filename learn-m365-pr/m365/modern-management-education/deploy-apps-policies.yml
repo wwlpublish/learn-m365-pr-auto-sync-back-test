@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.modern-management-education.deploy-apps-policies
+title: Deploy the right apps and policies to all devices
+metadata:
+  title: Deploy the right apps and policies to all devices
+  description:  Learn the optimal path for your K-12 school or district to follow when moving Windows devices from on-premises device management to cloud-based modern management with Microsoft.
+  ms.date: 08/02/2021
+  author: beccarobins
+  ms.author: beccarobins
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+ 
+durationInMinutes: 1
+content: |
+  [!include[](includes/deploy-apps-policies.md)]

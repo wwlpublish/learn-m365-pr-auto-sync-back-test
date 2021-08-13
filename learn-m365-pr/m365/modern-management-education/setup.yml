@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.modern-management-education.setup
+title: Set up your Microsoft 365 Tenant to fit the needs of your school 
+metadata:
+  title: Set up your Microsoft 365 Tenant to fit the needs of your school 
+  description:  Learn the optimal path for your K-12 school or district to follow when moving Windows devices from on-premises device management to cloud-based modern management with Microsoft.
+  ms.date: 08/02/2021
+  author: beccarobins
+  ms.author: beccarobins
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+ 
+durationInMinutes: 2
+content: |
+  [!include[](includes/setup.md)]
