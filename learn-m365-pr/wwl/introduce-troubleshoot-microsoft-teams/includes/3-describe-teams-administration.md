@@ -65,7 +65,7 @@ To install the PowerShell module, use the following procedure:
      Install-Module MicrosoftTeams
      ```
 
-3.  When prompted, enter **Y**. 
+3.  There will be multiple prompts to acknowledge.  Enter **Y** for both. 
 
  
 
@@ -74,20 +74,11 @@ After you’ve installed the module, connect to Teams in your Office 365 tenant 
 1.  At the Windows PowerShell command prompt, run the following command: 
 
      ```PowerShell
-     $msolcred = Get-Credential
+     Connect-MicrosoftTeams
      ```
 
 2.  When prompted, sign in as a global admin in your tenant.
-3.  Next, connect to Teams by running the following commands:
 
-```PowerShell
-$TeamsSession = New-CSOnlineSession -Credential $msolcred
-Import-PSSession $TeamsSession
-```
-
-This procedure is displayed in the following screenshot.
-
-:::image type="content" source="../media/powershell.png" alt-text="A screenshot displays an Administrator: Windows PowerShell command prompt. The administrator has run the commands described in the preceding steps.":::
 
 
 After you are connected, you can use Windows PowerShell cmdlets to configure and manage Teams. For example, to create a new team, run the following command: 
@@ -103,10 +94,10 @@ The following sections describe a few of the more common tasks you might underta
 PowerShell provides several cmdlets you can use to manage teams: 
 
 ```PowerShell
-new-team
-get-team
-set-team
-remove-team
+New-Team
+Get-Team
+Set-Team
+Remove-Team
 ```
 
 ### Manage Teams users
@@ -114,8 +105,8 @@ remove-team
 To manage teams users, you can use: 
 
 ```PowerShell
-add-teamuser
-remove-teamuser
+Add-TeamUser
+Remove-TeamUser
 ```
 
 ### Manage Teams channels
@@ -123,8 +114,8 @@ remove-teamuser
 To manage channels, use: 
 
 ```PowerShell
-new-teamchannel
-remove-teamchannel
+New-TeamChannel
+Remove-TeamChannel
 ```
 
 > [!NOTE]
