@@ -1,13 +1,13 @@
 ### YamlMime:Module
-uid: learn-m365-pr.introduction-to-microsoft-defender-for-endpoint 
+uid: learn-m365-pr.introduction-to-microsoft-defender-for-endpoint
 metadata:
-  moduleType: introduction        
-  title: Introduction to Microsoft Defender for Endpoint          
-  description: Learn about Microsoft Defender for Endpoint, and its key capabilities such as threat and vulnerability management, attack surface reduction, automated investigation and remediation, endpoint detection and response, and more.                # Copy your 'evaluate' Learning Objective here (see below)
+  moduleType: introduction
+  title: Introduction to Microsoft Defender for Endpoint
+  description: Learn about Microsoft Defender for Endpoint, and its key capabilities such as threat and vulnerability management, attack surface reduction, automated investigation and remediation, endpoint detection and response, and more.
   ms.date: 07/19/2021
-  author: iankensey      
-  ms.author: v-iakens           
-  ms.topic: interactive-tutorial  
+  author: iankensey
+  ms.author: beccarobins
+  ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Introduction to Microsoft Defender for Endpoint
 summary: Learn about Microsoft Defender for Endpoint, and its key capabilities such as threat and vulnerability management, attack surface reduction, automated investigation and remediation, endpoint detection and response, and more.

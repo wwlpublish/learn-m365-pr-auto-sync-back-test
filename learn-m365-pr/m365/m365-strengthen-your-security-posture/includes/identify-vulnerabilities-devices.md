@@ -1,10 +1,10 @@
-You're a security analyst, so you understand that vulnerabilities can manifest at any point. To effectively  address vulnerabilities, you need to effectively identify vulnerabilities across your environment.
+You're a security analyst, so you understand that vulnerabilities can manifest at any point. To effectively address vulnerabilities, you need to effectively identify vulnerabilities across your environment.
 
 Here, you'll learn about the software inventory, how to find common vulnerabilities, and the event timeline.
 
 ## Use the software inventory
 
-The software inventory in Microsoft Defender for Endpoint lists important details about the software installed across your organization. Use the software inventory to review information such as:
+The software inventory page in Microsoft Defender for Endpoint lists important details about the software installed across your organization. Use the software inventory to review information such as:
 
 - Threats to your software
 - The number of threats and weaknesses identified for your software
@@ -45,7 +45,7 @@ The **Weaknesses** pane shown in the image, provides you with a list of Common V
 - Affected devices
 - Whether there are any known exploits for each CVE
 
-With this information at your disposal, you can begin to address your common vulnerabilities and exposures. You can find more detailed insights about a particular CVE by selecting it from the list:  
+With this information, you can begin to address your common vulnerabilities and exposures. You can find more detailed insights about a particular CVE by selecting it from the list.
 
 :::image type="content" source="../media/4-remediate-vulnerabilities-inline.png" lightbox="../media/4-remediate-vulnerabilities-expanded.png" alt-text="Screenshot showing the Review vulnerability pane.":::
 

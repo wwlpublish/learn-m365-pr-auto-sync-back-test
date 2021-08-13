@@ -6,7 +6,7 @@ You can access the dashboard by selecting **Dashboard** under **Threat and vulne
 
 :::image type="content" source="../media/3-dashboard-inline.png" lightbox="../media/3-dashboard-expanded.png" alt-text="A screenshot showing how to access the dashboard.":::
 
-The dashboard provides a birds-eye view and access to different kinds of information. The information in the dashboard is displayed as individual cards that each represent key information such as top vulnerable software, top exposed devices, and top security recommendations. But it also includes information such as:
+The dashboard provides a status overview  and access to different kinds of information. The information in the dashboard is displayed as individual cards. Each card represents key information, such as top vulnerable software, top exposed devices, and top security recommendations. This page also includes information such as:
 
 - Exposure score
 - Microsoft Secure Score for devices
@@ -39,7 +39,7 @@ You can tag any of your devices with one of the following values:
 - **Normal value** (Default)
 - **Low value**
 
-The value you assign is taken into account for each individual device when calculating the exposure score.   Machines that you mark as High value will be weighted more during the calculation of your exposure score.
+The value you assign is taken into account for each individual device when calculating the exposure score. Devices that you mark as **High value** will be weighted more during the calculation of your exposure score.
 
 You can assign a device value tag from the device details pane of your devices:
 

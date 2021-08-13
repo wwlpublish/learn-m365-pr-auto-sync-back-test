@@ -4,8 +4,9 @@ Here, you'll learn about how Microsoft Defender for Endpoint works.
 
 ## What is Microsoft Defender for Endpoint?
 
-Microsoft Defender for Endpoint is an endpoint security solution that offers vulnerability management, endpoint protection, endpoint detection and response, mobile threat defense, and managed services in a single, unified platform.  It enables you to prevent, detect, investigate, and respond to security threats and risks across Windows, Windows Server, macOS, Linux, Android, and iOS devices.
+Microsoft Defender for Endpoint is an endpoint security solution that offers vulnerability management, endpoint protection, endpoint detection and response, mobile threat defense, and managed services in a single, unified platform. It enables you to prevent, detect, investigate, and respond to security threats and risks across Windows, Windows Server, macOS, Linux, Android, and iOS devices.
 
+>
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4wDob]
 
 Microsoft Defender for Endpoint takes advantage of technologies including:
@@ -16,22 +17,23 @@ Microsoft Defender for Endpoint takes advantage of technologies including:
 
 ### Understand the capabilities
 
-:::image type="content" source="../media/1-components.png" alt-text="Diagram showing the Microsoft Defender for Endpoint components.":::
+:::image type="content" source="../media/1-components.png" alt-text="Diagram showing the Microsoft Defender for Endpoint components." lightbox="../media/1-components.png":::
 
 Microsoft Defender for Endpoint provides protection through several different capabilities:
 
 - **Threat and vulnerability management**: Provides risk-based discovery, prioritization, and remediation of misconfigurations and vulnerabilities across your endpoints.
 - **Attack surface reduction**: Helps you to resist attacks and exploitation by applying mitigation techniques and ensuring configuration settings are set properly. It provides protections such as application control, network protection, and web protection, to regulate access to your applications, domains, IP address, and more.
 - **Next-generation protection**: Protects against emerging threats through behavior-based antivirus protection, and cloud-delivered protection.
-- **Endpoint detection and response**: Enables you to detect, investigate, and respond appropriately to even advanced threats that might have successfully succeeded in evading the attack surface reduction and threat and vulnerability components. It also allows you to take advanced hunting, through a query-based hunting tool to identify breaches proactively and use custom detections.
+- **Endpoint detection and response**: Enables you to detect, investigate, and respond appropriately to even advanced threats that might have successfully succeeded in evading the attack surface reduction and threat and vulnerability components. It also allows you to conduct advanced hunting, through a query-based hunting tool to identify breaches proactively and use custom detections.
 - **Automated investigation and remediation**: Enables you to use sophisticated automatic investigation and remediation capabilities to efficiently and consistently respond to threats at scale.
 - **Microsoft Threat Experts**: Enables you to take advantage of expert-level monitoring, analysis, and access to experts on demand for critical threats specific to your environment.
-- **Centralized management and API**:  Microsoft Defender for Endpoint supports different tools such as Group Policy, and non-Microsoft tools that can be used for device management. Microsoft Defender for Endpoint comes with built-in API that you can use to automate workflows and extend its capabilities using your custom apps. Additionally, Microsoft Defender for Endpoint integrates directly with several Microsoft solutions including Microsoft Endpoint Manager, Azure Sentinel, Azure Defender, and more.
+- **Centralized management and API**: Microsoft Defender for Endpoint supports different tools such as Group Policy, and non-Microsoft tools that can be used for device management. Microsoft Defender for Endpoint comes with built-in API that you can use to automate workflows and extend its capabilities using your custom apps. Additionally, Microsoft Defender for Endpoint integrates directly with several Microsoft solutions including Microsoft Endpoint Manager, Azure Sentinel, Azure Defender, and more.
 
 ## Understand the architecture
 
 To help understand how Microsoft Defender for Endpoint can protect your organization, it's helpful to understand the architecture of Microsoft Defender for Endpoint. Watch the video below to get an overview of Microsoft Defender for Endpoint's architecture.
 
+>
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4vnC4]
 
 Microsoft Defender for Endpoint's architecture consists of the following components:
@@ -42,7 +44,7 @@ You install sensors on your devices to gather security-related information on ea
 
 ### Dedicated tenant
 
-During onboarding, a Microsoft Defender for Endpoint tenant provisioned for your organization. Tenants are isolated from other tenants. This means your organization's data is never shared with other tenants, and it's only accessible to your organization. Additionally, all access audited to ensure your data remains protected.  Your tenant relies on its own components including:
+During onboarding, a Microsoft Defender for Endpoint tenant is provisioned for your organization. Tenants are isolated from other tenants. This means your organization's data is never shared with other tenants, and it's only accessible to your organization. Additionally, all access audited to ensure your data remains protected. Your tenant relies on its own components including:
 
 - **A built-in dictionary**
   - Each tenant comes with a built-in dictionary that defines behavioral rules, anomaly detection algorithms, to detect suspicious events when gathering sensor data from your devices.

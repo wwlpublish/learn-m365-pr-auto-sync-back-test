@@ -2,28 +2,28 @@
 uid: learn-m365-pr.m365-gain-insights-reporting-defender-endpoint
 metadata:
   moduleType: standard
-  title: Gain insights through reporting in Microsoft Defender for Endpoint 
+  title: Gain insights through reporting in Microsoft Defender for Endpoint
   description: Learn about the different reporting capabilities in Microsoft Defender for Endpoint, including the threat protection report, vulnerable devices report, device health and compliance reports, custom reports, and threat analytics.
   ms.date: 07/19/2021
   author: iankensey
   ms.author: beccarobins
-  ms.topic: interactive-tutorial 
+  ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Gain insights through reporting in Microsoft Defender for Endpoint
 summary: Learn about  the different reporting capabilities in Microsoft Defender for Endpoint, including the threat protection report, vulnerable devices report, device health and compliance reports, custom reports, and threat analytics.
-abstract: | 
+abstract: |
   By the end of this module, you'll be able to:
   - Understand threat protection reports
   - Understand health and compliance reports
-  - Understand custom reports with Power BI 
+  - Understand custom reports with Power BI
   - Understand threat analytics
-prerequisites: | 
+prerequisites: |
   - Basic familiarity with Microsoft Defender for Endpoint
   - Basic familiarity with Power BI
 iconUrl: /learn/achievements/generic-badge.svg
-levels: 
+levels:
   - beginner
-roles: 
+roles:
   - security-operations-analyst
   - security-engineer
 products:

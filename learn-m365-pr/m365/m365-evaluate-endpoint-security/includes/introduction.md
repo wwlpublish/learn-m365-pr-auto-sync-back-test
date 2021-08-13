@@ -2,7 +2,7 @@ You need to be able to evaluate the effectiveness of the protection measures for
 
 Imagine you're the security analyst for a large organization. You understand that performing a comprehensive evaluation of your endpoint security product can be a complex, and time consuming. This is because you need to have the right configurations in place across your devices, to simulate specific scenarios, and you need to monitor and review important information to gain insights.
 
-In this module, you'll learn that you can use Microsoft Defender for Endpoint's evaluation lab to evaluate the security of your endpoints, without the traditional setup and configuration difficulties.
+In this module, you'll learn that you can use Microsoft Defender for Endpoint's evaluation lab to evaluate the capabilities of the product without the traditional setup and configuration difficulties.
 
 By the end of this module, you should be able to:
 

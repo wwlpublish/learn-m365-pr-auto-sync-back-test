@@ -3,8 +3,8 @@ uid: learn-m365-pr.automated-investigation-remediation-microsoft-defender-endpoi
 title: Knowledge check
 metadata:
   unitType: knowledge_check
-  title: "Knowledge check" 
-  description: "Check your knowledge" 
+  title: Knowledge check
+  description: Check your knowledge
   ms.date: 07/19/2021
   author: iankensey
   ms.author: beccarobins
@@ -14,7 +14,7 @@ durationInMinutes: 2
 content: |
 quiz:
   questions:
-  - content: "What is the automation level you will use to ensure that approval is required before automated actions are carried out on core folders?"
+  - content: "What is the automation level you will use to ensure that approval is required before automated actions are carried out on Windows 10 core folders?"
     choices:
     - content: "Full automation"
       isCorrect: false
@@ -25,7 +25,7 @@ quiz:
     - content: "No automated response."
       isCorrect: false
       explanation: "This automation level will not allow any automation actions to be carried out at all."
-  - content: "Which section of the portal will you use to track remediation actions?"
+  - content: "Which section of the Microsoft 365 Defender portal will you use to track remediation actions?"
     choices:
     - content: "The Action center"
       isCorrect: true
