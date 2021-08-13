@@ -1,11 +1,11 @@
 New threats emerge constantly as attackers change their tactics frequently. To keep your endpoints protected, you need to be able to keep up with changes in the external threat environment.
 
-you can use Microsoft Defender for Endpoint to continuously assess how new threats can impact your endpoints. Additionally, you can review how resilient your endpoints are against exposure to new threats, and identify which actions to take to prevent or contain new threats.
+You can use Microsoft Defender for Endpoint to continuously assess how new threats can impact your endpoints. Additionally, you can review how resilient your endpoints are against exposure to new threats, and identify which actions to take to prevent or contain new threats.
 Here, you'll learn about threat analytics.
 
 ## What is threat analytics?
 
-Threat analytics in Microsoft Defender for Endpoints is a set of reports compiled by Microsoft security researchers. You can use threat analytics to get information on:
+Threat analytics in Microsoft Defender for Endpoints is a set of detailed threat analysis reports conducted by Microsoft security researchers. You can use threat analytics to get information on:
 
 - The most popular and newest attack tactics
 - The most critical vulnerabilities
@@ -13,9 +13,9 @@ Threat analytics in Microsoft Defender for Endpoints is a set of reports compile
 - Active campaigns from threat actors
 - Prevalent malware
 
-Additionally, you can get threat analytics to into data from your environment to inform you about active threats and the protections you have in place to deal with those threats.
+Additionally, threat analytics incorporates data from your network indicating whether the threat is active and if you have applicable protections in place.
 
-You access the threat analytics from the Microsoft 365 Security Center portal. You can do this by selecting **Threat analytics** from the navigation pane:
+You access the threat analytics from the Microsoft 365 Defender portal. You can do this by selecting **Threat analytics** from the navigation pane:
 
 :::image type="content" source="../media/4-select-threat-analytics.png" alt-text="A screenshot showing where to find Threat analytics.":::
 
@@ -63,7 +63,7 @@ You get a list of mitigation's categorized into:
 - **Vulnerability patching**
   - These are security updates or patches that you can use to mitigate vulnerabilities that are relevant to the threat across exposed devices
 - **Secure configuration**
-  - Actionable security configuration recommendations  that you can take to mitigate the threat on devices
+  - Actionable security configuration recommendations that you can take to mitigate the threat on devices
 
 > [!NOTE]
 > There are some considerations you should keep in mind when using threat analytics:

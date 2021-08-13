@@ -19,7 +19,7 @@ First, you get the data for your reports by creating a custom query in Power BI.
 
 :::image type="content" source="../media/3-blank-query.png" alt-text="A screenshot showing how to create a blank query in Power BI.":::
 
-This allows you to use a query editor to write your queries. You can write your queries using [Open Data Protocol (OData) API](/microsoft-365/security/defender-endpoint/exposed-apis-odata-samples?view=o365-worldwide&preserve-view=true) or [Advanced hunting API](/microsoft-365/security/defender-endpoint/run-advanced-query-api?view=o365-worldwide&preserve-view=true). For example, an OData query to find devices with a high or medium risk score might look like this:
+This allows you to use a query editor to write your queries. You can write your queries using [Open Data Protocol (OData) API](/microsoft-365/security/defender-endpoint/exposed-apis-odata-samples) or [Advanced hunting API](/microsoft-365/security/defender-endpoint/run-advanced-query-api). For example, an OData query to find devices with a high or medium risk score might look like this:
 
 :::image type="content" source="../media/3-query-inline.png" lightbox= "../media/3-query-expanded.png" alt-text="A screenshot showing an OData query in the Power BI query editor.":::
 
