@@ -17,7 +17,7 @@ Your automated investigations will automatically expand in their scope. This is 
 
 ## What are automated remediation actions?
 
-With automated investigations, you can collect evidence, and generate a verdict for each piece of evidence. Your evidence will be labelled for you with one of the following verdicts:
+With automated investigations, you can collect evidence, and generate a verdict for each piece of evidence. Your evidence will be labeled for you with one of the following verdicts:
 
 - Malicious
 - Suspicious
