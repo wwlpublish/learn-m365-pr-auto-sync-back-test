@@ -16,10 +16,10 @@ abstract: |
   - Understand the incident queue
   - Understand the alerts queue
   - Understand response actions
-prerequisites: | 
+prerequisites: |
   - Basic familiarity with Microsoft Defender for Endpoint
 iconUrl: /learn/achievements/generic-badge.svg
-levels: 
+levels:
   - beginner
 roles: 
   - security-operations-analyst

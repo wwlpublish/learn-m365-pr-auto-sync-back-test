@@ -3,13 +3,13 @@ uid: learn-m365-pr.m365-gain-insights-reporting-defender-endpoint.use-custom-rep
 title: Use custom reports with Power BI
 metadata:
   unitType: learning-content
-  title: "Use custom reports with Power BI" 
-  description: "Learn about how to use custom reports with Power BI." 
+  title: Use custom reports with Power BI
+  description: Learn about how to use custom reports with Power BI.
   ms.date: 07/19/2021
   author: iankensey
   ms.author: beccarobins
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-durationInMinutes: 4 
+durationInMinutes: 4
 content: |
   [!include[](includes/use-custom-reports.md)]

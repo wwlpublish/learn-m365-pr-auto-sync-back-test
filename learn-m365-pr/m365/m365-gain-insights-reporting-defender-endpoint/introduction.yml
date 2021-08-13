@@ -4,12 +4,12 @@ title: Introduction
 metadata:
   unitType: introduction
   title: Introduction
-  description: Introduction 
+  description: Introduction
   ms.date: 07/19/2021
   author: iankensey
   ms.author: beccarobins
-  ms.topic: interactive-tutorial 
+  ms.topic: interactive-tutorial
   ms.prod: learning-m365
-durationInMinutes: 1 
+durationInMinutes: 1
 content: |
   [!include[](includes/introduction.md)]

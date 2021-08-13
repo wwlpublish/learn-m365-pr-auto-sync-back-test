@@ -8,8 +8,8 @@ metadata:
   ms.date: 06/25/2021
   author: iankensey
   ms.author: beccarobins
-  ms.topic: interactive-tutorial 
+  ms.topic: interactive-tutorial
   ms.prod: learning-m365
-durationInMinutes: 6 
+durationInMinutes: 7
 content: |
   [!include[](includes/use-threat-protection-vulnerabilities-health-reports.md)]
