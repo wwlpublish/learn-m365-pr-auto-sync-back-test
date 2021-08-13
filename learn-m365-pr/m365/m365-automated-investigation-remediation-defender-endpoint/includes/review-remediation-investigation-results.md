@@ -6,19 +6,19 @@ Here, you'll learn how to review investigation results and remediation actions i
 
 You use the information in the Action center in the Microsoft 365 Defender portal to review your remediation actions for your automated investigations and see completed actions. You access the Action center by selecting **Action center** in the navigation pane.
 
-:::image type="content" source="../media/2-action-center.png" alt-text="Review pending actions.":::
+:::image type="content" source="../media/2-action-center.png" alt-text="Review pending actions." lightbox="../media/2-action-center.png":::
 
 To review pending actions, you select an action from the **Pending** tab. You can then review key information for the selected action. When you're done, you select **Approve** to initiate the pending action, or select **Reject** to prevent it from running.
 
 To review a completed action, select it from the *History* tab. You can then review detailed information about your chosen action.
 
-:::image type="content" source="../media/2-review-completed-actions.png" alt-text="Review completed actions.":::
+:::image type="content" source="../media/2-review-completed-actions.png" alt-text="Review completed actions." lightbox="../media/2-review-completed-actions.png":::
 
 ## Review investigation results
 
 When you select **Open investigation page** in the action details pane, you'll be taken to an investigation page for the incident, where you can view detailed information about the results of the automated investigation that relates to the action:
 
-:::image type="content" source="../media/2-review-investigation-results.png" alt-text="Investigation results.":::
+:::image type="content" source="../media/2-review-investigation-results.png" alt-text="Investigation results." lightbox="../media/2-review-investigation-results.png":::
 
 You use the investigation page to see:
 
