@@ -39,7 +39,7 @@ You also need to configure the Microsoft Defender for Endpoint capabilities your
 
 #### Create configuration policy profiles for your capabilities
 
-You configure the capabilities using Microsoft 365 Defender portal. You use the same general process when you're configuring endpoint detection and response, next-generation protection, or attack surface reduction. The configuration settings you select will be different depending on the capability you want to configure.  
+You configure the capabilities using Microsoft 365 Defender portal. You use the same general process when you're configuring endpoint detection and response, next-generation protection, or attack surface reduction. The configuration settings you select will be different depending on the capability you want to configure.
 
 For example, to configure the endpoint detection and response capability, you create a policy profile for it to apply to your devices in Microsoft Endpoint Manager using the **Endpoint detection and response** pane in the portal:
 
@@ -69,5 +69,5 @@ If the **Assignment status** shows as **Succeeded**, then that device has been o
 ## Learn more
 
 - [Configure Microsoft Defender for Endpoint in Microsoft Endpoint Manager](/mem/intune/protect/advanced-threat-protection-configure)
-- [Onboarding using Microsoft Endpoint Manager](/microsoft-365/security/defender-endpoint/onboarding-endpoint-manager?view=o365-worldwide&preserve-view=true)
+- [Onboarding using Microsoft Endpoint Manager](/microsoft-365/security/defender-endpoint/onboarding-endpoint-manager)
 - [Full deployment](/microsoft-365/security/defender-endpoint/deployment-rings?view=o365-worldwide#full-deployment&preserve-view=true)
