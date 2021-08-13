@@ -23,7 +23,8 @@ products:
 - m365
 - mdatp
 modules:
-  - learn-m365-pr.introduction-to-microsoft-defender-for-endpoint 
+  - learn-m365-pr.introduction-to-microsoft-defender-for-endpoint
+  - learn-m365-pr.m365-evaluate-endpoint-security
   - learn-m365-pr.get-started-microsoft-defender-endpoint 
   - learn-m365-pr.strengthen-your-security-posture 
   - learn-m365-pr.reduce-potential-attack-areas-with-microsoft-defender-for-endpoint
@@ -31,6 +32,6 @@ modules:
   - learn-m365-pr.detect-respond-to-security-issues-using-microsoft-defender-for-endpoint
   - learn-m365-pr.automated-investigation-remediation-microsoft-defender-endpoint
   - learn-m365-pr.m365-gain-insights-reporting-defender-endpoint
-  - learn-m365-pr.m365-evaluate-endpoint-security
+
 trophy: 
   uid: learn-m365.m365-defender-endpoint-secure-organization.trophy
