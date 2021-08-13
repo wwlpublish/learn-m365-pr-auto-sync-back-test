@@ -17,11 +17,11 @@ Additionally, threat analytics incorporates data from your network indicating wh
 
 You access the threat analytics from the Microsoft 365 Defender portal. You can do this by selecting **Threat analytics** from the navigation pane:
 
-:::image type="content" source="../media/4-select-threat-analytics.png" alt-text="A screenshot showing where to find Threat analytics.":::
+:::image type="content" source="../media/4-select-threat-analytics.png" alt-text="A screenshot showing where to find Threat analytics." lightbox="../media/4-select-threat-analytics.png":::
 
 At the top of the threat analytics dashboard, you'll see information on the latest threats, high-impact threats, and an overall summary of threats. In the lower section of the dashboard, you can see a list of threats that have been identified. You're able to select any threat in the list. This will take you to a detailed threat analytics report on your chosen threat:
 
-:::image type="content" source="../media/4-threat-analytics-report.png" alt-text="A screenshot showing a threat analytics report.":::
+:::image type="content" source="../media/4-threat-analytics-report.png" alt-text="A screenshot showing a threat analytics report." lightbox="../media/4-threat-analytics-report.png":::
 
 Each threat analytics report consists of several sections including:
 
@@ -42,7 +42,7 @@ The **Overview** section is the starting page of the report. You use the overvie
 
 You use the **Analyst report** section to access a detailed write-up on the threat, provided by Microsoft security researchers:
 
-:::image type="content" source="../media/4-analyst-report.png" alt-text="A screenshot showing the analyst report section.":::
+:::image type="content" source="../media/4-analyst-report.png" alt-text="A screenshot showing the analyst report section." lightbox="../media/4-analyst-report.png":::
 
 You'll find information such as:
 
@@ -56,7 +56,7 @@ You'll find information such as:
 
 Use the **Mitigations** section to help you to review the recommendations that you can implement to improve your organization's protection against a threat:
 
-:::image type="content" source="../media/4-mitigations-section.png" alt-text="A screenshot of the mitigations section.":::
+:::image type="content" source="../media/4-mitigations-section.png" alt-text="A screenshot of the mitigations section." lightbox="../media/4-mitigations-section.png":::
 
 You get a list of mitigation's categorized into:
 
