@@ -79,10 +79,10 @@ You can filter your security recommendations pane using the Zero-day tag to see 
 
 To address zero-day vulnerabilities, you can select a recommendation from the list.
 
-:::image type="content" source="../media/5-zero-day-security-recommendation.png" alt-text="Security recommendations for zero-day vulnerabilities.":::
+:::image type="content" source="../media/5-zero-day-security-recommendation.png" alt-text="Security recommendations for zero-day vulnerabilities." lightbox="../media/5-zero-day-security-recommendation.png":::
 
 You'll get more information and potential workarounds or mitigation options that can help:
 
-:::image type="content" source="../media/5-recommendation-zero-day.png" alt-text="Recommendation for zero-day vulnerabilities.":::
+:::image type="content" source="../media/5-recommendation-zero-day.png" alt-text="Recommendation for zero-day vulnerabilities." lightbox="../media/5-recommendation-zero-day.png":::
 
 You can use workarounds like these, until a fix becomes available. When a fix is available, the recommendation will be updated with details of the fix.
