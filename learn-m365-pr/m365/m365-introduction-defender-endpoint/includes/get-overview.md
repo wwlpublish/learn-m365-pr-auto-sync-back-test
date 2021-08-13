@@ -6,6 +6,7 @@ Here, you'll learn about how Microsoft Defender for Endpoint works.
 
 Microsoft Defender for Endpoint is an endpoint security solution that offers vulnerability management, endpoint protection, endpoint detection and response, mobile threat defense, and managed services in a single, unified platform. It enables you to prevent, detect, investigate, and respond to security threats and risks across Windows, Windows Server, macOS, Linux, Android, and iOS devices.
 
+>
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4wDob]
 
 Microsoft Defender for Endpoint takes advantage of technologies including:
@@ -32,6 +33,7 @@ Microsoft Defender for Endpoint provides protection through several different ca
 
 To help understand how Microsoft Defender for Endpoint can protect your organization, it's helpful to understand the architecture of Microsoft Defender for Endpoint. Watch the video below to get an overview of Microsoft Defender for Endpoint's architecture.
 
+>
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4vnC4]
 
 Microsoft Defender for Endpoint's architecture consists of the following components:
