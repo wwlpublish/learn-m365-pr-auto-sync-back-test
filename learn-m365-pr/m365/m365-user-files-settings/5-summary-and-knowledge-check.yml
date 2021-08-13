@@ -4,12 +4,12 @@ title: Summary and knowledge check
 metadata:
   title: Summary and knowledge check
   description: Review the basics of the different options for ensuring users’ files and settings have been captured and migrated.
-  ms.date: 04/28/2019
+  ms.date: 07/16/2021
   author: lizap
   ms.author: aleha
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-durationInMinutes: 5
+durationInMinutes: 3
 content: |
   [!include[](includes/5-summary-and-knowledge-check.md)]
 quiz:

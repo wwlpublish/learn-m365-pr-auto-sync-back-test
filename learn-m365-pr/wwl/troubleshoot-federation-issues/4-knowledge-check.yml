@@ -1,0 +1,62 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.troubleshoot-federation-issues.knowledge-check
+title: Knowledge check
+metadata:
+  title: Knowledge check
+  description: "Knowledge check"
+  ms.date: 08/12/2021
+  author: wwlpublish
+  ms.author: cyncarey
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+durationInMinutes: 5
+content: |
+  [!include[](includes/4-knowledge-check.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "Teams users have reported that they cannot with use emoticons in their chat, as they have been able to do before. Which of the following might be the problem?"
+    choices:
+    - content: "They have upgraded to Teams Only mode"
+      isCorrect: false
+      explanation: "That's incorrect. Teams only mode supports rich text formatting."
+    - content: "They are chatting with Teams users outside their organization."
+      isCorrect: false
+      explanation: "That's incorrect. Chat with other Teams clients in Teams Only mode provides rich text formatting functionality, both within the organization, or external to it."
+    - content: "They are chatting with Skype for Business users outside their organization"
+      isCorrect: true
+      explanation: "That's correct. Native interop allows one to one chat with Skype for Business users but only in plain text."
+  - content: "Users are reporting that external colleagues cannot access shared files. How should you solve this problem?"
+    choices:
+    - content: "Include external colleagues as Guests"
+      isCorrect: true
+      explanation: "That's correct. Guest users have an entry in your Azure Active Directory, can join meetings and chat, and you can share files."
+    - content: "Include external colleagues as External users"
+      isCorrect: false
+      explanation: "That's incorrect. External users cannot share files."
+    - content: "Include external colleagues as Skype for Business users"
+      isCorrect: false
+      explanation: "That's incorrect. Skype for Business does not have native file sharing functionality."
+  - content: "A user has reported that they cannot start a chat conversation using Skype for Business. How should you troubleshoot this problem?"
+    choices:
+    - content: "Check the users upgrade mode."
+      isCorrect: true
+      explanation: "That's correct. Teams Only mode does not allow a user to start a chat conversation using Skype for Business."
+    - content: "Check the interop mode."
+      isCorrect: false
+      explanation: "That's incorrect. Native interop or interop escalation will not stop a chat conversation using Skype for Business."
+    - content: "Check whether they are chatting with external (federated) users."
+      isCorrect: false
+      explanation: "That's incorrect. Federation allows chat conversations to be started using Skype for Business, providing the initiator is not in Teams Only mode."
+  - content: "Users have reported that they cannot reach users who are members of a different tenant. When troubleshooting this issue, what should you check?"
+    choices:
+    - content: "Teams client settings."
+      isCorrect: false
+      explanation: "That's incorrect. Teams client settings do not include external access settings."
+    - content: "Teams server settings"
+      isCorrect: false
+      explanation: "That's incorrect. You cannot amend Teams server settings."
+    - content: "Teams admin center settings"
+      isCorrect: true
+      explanation: "That's correct. You can set whether Teams and Skype for Business users can communicate with users outside of the organization."

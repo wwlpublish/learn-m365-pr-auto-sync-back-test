@@ -1,0 +1,38 @@
+### YamlMime:Module
+uid: learn-m365.syntex-setup
+metadata:
+  title: Set up SharePoint Syntex
+  description: Set up SharePoint Syntex for your organization's specific document understanding solution needs and requirements.
+  ms.date: 07/09/2021
+  author: beccarobins
+  ms.author: beccarobins
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Set up SharePoint Syntex
+summary: Set up SharePoint Syntex for your organization's specific document understanding solution needs and requirements.
+abstract: |
+ After completing this module, you will be able to: 
+ - Check the prerequisites for setting up and using SharePoint Syntex.
+ - Understand licensing, AI Builder credits, and requirements for SharePoint Syntex.
+prerequisites: | 
+   - Basic understanding of SharePoint Syntex 
+   - SharePoint administrative access
+   - Set up a content center to begin using SharePoint Syntex.
+iconUrl:  /learn/achievements/generic-badge.svg
+ratingEnabled: true
+levels:
+- beginner
+roles:
+- administrator
+- business-user
+products:
+- m365
+units:
+- learn-m365.syntex-setup.introduction
+- learn-m365.syntex-setup.prepare-system
+- learn-m365.syntex-setup.setup
+- learn-m365.syntex-setup.knowledge-check
+- learn-m365.syntex-setup.summary
+
+badge: 
+  uid: learn-m365.syntex-setup.badges

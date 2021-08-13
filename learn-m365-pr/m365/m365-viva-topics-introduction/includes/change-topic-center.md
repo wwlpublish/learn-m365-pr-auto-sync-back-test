@@ -1,6 +1,6 @@
 ## Change the name of the topic center in Microsoft 365 admin center
 
-After you have set up and configured the Topic center, you can change the name in the Microsoft 365 admin center. You must be a Global administrator, SharePoint administrator or Knowledge administrator to perform these tasks.
+After you have set up and configured the Topic center, you can change the name in the Microsoft 365 admin center. You must be a Global administrator, SharePoint administrator, or Knowledge administrator to perform these tasks.
 
 **To access topics management settings:**
 

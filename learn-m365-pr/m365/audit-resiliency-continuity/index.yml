@@ -3,7 +3,7 @@ uid: learn-m365.audit-resiliency-continuity
 metadata:
   title: Understand Microsoft 365 resiliency and continuity 
   description: Learn how Microsoft 365 builds resilient services to meet customer expectations in the face of faults and challenges to normal operations, maintains optimal service availability, and fulfills business continuity requirements.
-  ms.date: 05/13/2021
+  ms.date: 07/20/2021
   author: NamrahK
   ms.author: beccarobins
   ms.topic: interactive-tutorial

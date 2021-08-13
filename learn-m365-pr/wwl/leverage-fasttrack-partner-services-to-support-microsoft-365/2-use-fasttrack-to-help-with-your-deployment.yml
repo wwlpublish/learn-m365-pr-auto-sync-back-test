@@ -4,7 +4,7 @@ title: Use FastTrack to help with your Microsoft 365 deployment
 metadata:
   title: Use FastTrack to help with your Microsoft 365 deployment
   description: "Use FastTrack to help with your Microsoft 365 deployment"
-  ms.date: 04/07/2021
+  ms.date: 06/30/2021
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -23,7 +23,7 @@ quiz:
       explanation: "That's correct. FastTrack provides organizations with personalized assistance at any time, as long as its subscription is active."
     - content: "FastTrack provides personalized assistance until the customer's Microsoft 365 tenant has been deployed"
       isCorrect: false
-      explanation: "That's incorrect. This isn't the correct amount of time that FastTrack is available to a customer. Try again."
+      explanation: "That's incorrect. This item isn't the correct amount of time that FastTrack is available to a customer. Try again."
     - content: "FastTrack provides personalized assistance for up to one year after the customer has purchased its Microsoft 365 subscription"
       isCorrect: false
-      explanation: "That's incorrect. This isn't the correct amount of time that FastTrack is available to a customer. Try again."
+      explanation: "That's incorrect. This item isn't the correct amount of time that FastTrack is available to a customer. Try again."

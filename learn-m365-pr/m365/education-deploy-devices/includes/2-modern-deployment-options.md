@@ -33,11 +33,8 @@ Windows Autopilot is a cloud-based provisioning tool that lets IT administrators
 Windows Autopilot was designed with school IT departments in mind and provides:
 
 - Easy device setup: Windows Autopilot automatically configures each device from the cloud and gets them ready for the classroom when the student signs in for the first time.
-
 - Time and cost savings in large-scale deployments: Students and teachers can provision devices themselves. IT departments no longer need to set up provisioning in large warehouses and hire a fleet of technicians to set up student PCs.
-
 - Always up to date: Custom images and provisioning packages on USBs can quickly become outdated.
-
 - Easy reset: Initiate a remote Windows Autopilot Reset from Intune for Education to quickly reset student PCs that are having issues.
 
 ## Choose when to use Set up School PCs or Windows Autopilot

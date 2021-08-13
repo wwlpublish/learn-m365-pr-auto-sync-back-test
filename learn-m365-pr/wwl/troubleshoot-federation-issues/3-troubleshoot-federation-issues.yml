@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.troubleshoot-federation-issues.troubleshoot-teams
+title: Troubleshoot Teams federation issues
+metadata:
+  title: Troubleshoot Teams federation issues
+  description: "Troubleshoot Teams federation issues"
+  ms.date: 08/12/2021
+  author: wwlpublish
+  ms.author: cyncarey
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+durationInMinutes: 4
+content: |
+  [!include[](includes/3-troubleshoot-federation-issues.md)]

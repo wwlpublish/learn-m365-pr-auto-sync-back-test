@@ -1,14 +1,14 @@
 ### YamlMime:Module
 uid: learn.wwl.explore-sharepoint-online
 metadata:
-  title: Explore SharePoint Online
-  description: "Explore SharePoint Online"
-  ms.date: 04/23/2021
+  title: Explore SharePoint Online as a Microsoft 365 Enterprise Administrator
+  description: "Explore SharePoint Online as a Microsoft 365 Enterprise Administrator"
+  ms.date: 07/09/2021
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-title: Explore SharePoint Online
+title: Explore SharePoint Online as a Microsoft 365 Enterprise Administrator
 summary: This module examines the key features of SharePoint Online, including how it enables organizations to manage local sites and hub sites, recover deleted content, provide anti-malware protection, and facilitate external sharing.
 abstract: |
   By the end of this module, you will be able to:

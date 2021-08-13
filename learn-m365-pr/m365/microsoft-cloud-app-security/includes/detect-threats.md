@@ -1,6 +1,6 @@
 When you understand how to protect data from accidental exposure, the next thing to consider, and one of the elements of the Cloud App Security framework, is protecting against cyberthreats and anomalies.
 
-Microsoft Cloud App Security includes out-of-the-box anomaly detection policies that utilize user and entity behavioral analytics (UEBA) and machine learning to provide advanced threat detection across your cloud environment. It’s important to note that anomaly detections are non-deterministic by nature. These detections only trigger when there's behavior that deviates from the norm.  
+Microsoft Cloud App Security includes out-of-the-box anomaly detection policies that utilize user and entity behavioral analytics (UEBA) and machine learning to provide advanced threat detection across your cloud environment. It's important to note that anomaly detections are non-deterministic by nature. These detections only trigger when there's behavior that deviates from the norm.  
 
 Although anomaly detection policies are automatically enabled, Microsoft Cloud App Security spends the first seven days learning about your environment. It looks at the IP addresses, devices, and locations your users access, identifies which apps and services they use, and calculates the risk score of all of these activities. This process contributes to the baseline, against which your environment and any alerts are compared. The detection policies also use machine learning to profile your users. If Microsoft Cloud App Security recognizes your users and their normal sign-in patterns, it can help reduce false positive alerts.
 
@@ -15,24 +15,24 @@ Anomalies are detected by scanning user activity and evaluating it for risk. The
 - Device and user agent
 - Activity rate
 
-Microsoft Cloud App Security looks at every user session on your cloud and alerts you when something happens that’s different from the baseline of your organization, or from the user's regular activity.
+Microsoft Cloud App Security looks at every user session on your cloud and alerts you when something happens that's different from the baseline of your organization, or from the user's regular activity.
 
 ## Anomaly detection policy overview
 
-Microsoft Cloud App Security’s anomaly detection policies are configured to detect a variety of security issues. The most popular are:
+Microsoft Cloud App Security's anomaly detection policies are configured to detect a variety of security issues. The most popular are:
 
-- **Impossible travel**. Activities from the same user in different locations within a period that’s shorter than the expected travel time between the two locations.
+- **Impossible travel**. Activities from the same user in different locations within a period that's shorter than the expected travel time between the two locations.
 - **Activity from infrequent country**. Activity from a location that was not recently or never visited by the user, or by any user in the organization.
-- **Malware detection**. Scans files in your cloud apps and runs suspicious files through Microsoft’s threat intelligence engine to determine whether they’re associated with known malware.
+- **Malware detection**. Scans files in your cloud apps and runs suspicious files through Microsoft's threat intelligence engine to determine whether they're associated with known malware.
 - **Ransomware activity**. File uploads to the cloud that might be infected with ransomware.
-- **Activity from suspicious IP addresses**. Activity from an IP address that’s been identified as risky by Microsoft Threat Intelligence.
+- **Activity from suspicious IP addresses**. Activity from an IP address that's been identified as risky by Microsoft Threat Intelligence.
 - **Suspicious inbox forwarding**. Detects suspicious inbox forwarding rules set on a user's inbox.
 - **Unusual multiple file download activities**. Detects multiple file download activities in a single session with respect to the baseline learned, which could indicate an attempted breach.
 - **Unusual administrative activities**. Detects multiple administrative activities in a single session with respect to the baseline learned, which could indicate an attempted breach.
 
 ## Configure an anomaly detection policy
 
-Now that you’ve learned about the anomaly detection policies, let’s configure a discovery anomaly policy so you can see the steps to set it up and configure it for your environment. A discovery anomaly detection policy looks for unusual increases in cloud application usage. It looks at increases in downloaded data, uploaded data, transactions, and users for each cloud application. Then, each increase is compared to the baseline for the application. The most extreme increases trigger security alerts.
+Now that you've learned about the anomaly detection policies, let's configure a discovery anomaly policy so you can see the steps to set it up and configure it for your environment. A discovery anomaly detection policy looks for unusual increases in cloud application usage. It looks at increases in downloaded data, uploaded data, transactions, and users for each cloud application. Then, each increase is compared to the baseline for the application. The most extreme increases trigger security alerts.
 
 You can set filters to customize how you monitor application usage. Filters include an application filter, selected data views, and a selected start date. You can also set the sensitivity, which enables you to set how many alerts the policy should trigger.
 
@@ -40,7 +40,7 @@ This interactive guide walks you through the steps to configure an anomaly detec
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4FkTv]
 
-### Fine tune anomaly detection policies for suppression or surfacing alerts
+### Fine-tune anomaly detection policies for suppression or surfacing alerts
 
 Although anomaly detections only trigger when something happens outside the norm, they're still susceptible to false positives. Too many false positives can lead to alert fatigue, and you risk missing the important alerts in the noise. To help prevent this, you can fine-tune the detection logic in each policy to include different levels of suppression to address scenarios that can trigger false positive, such as VPN activities.
 
@@ -56,7 +56,7 @@ Before you fine-tune your policies, it helps to understand the options for suppr
 
  The sensitivity levels affect the suppression types differently:
 
-| Sensitivity Level | Suppression types effected |
+| Sensitivity Level | Suppression types affected |
 | --------------------- | ------------------------------ |
 | Low                   | System, Tenant, and User       |
 | Medium                | System, and User               |
@@ -67,10 +67,6 @@ You can also configure whether alerts for activity from infrequent country/regio
 ### Adjust the anomaly detection scope policy to users and groups
 
 Each anomaly detection policy can be independently scoped so that it applies only to the users and groups you want to include and exclude in the policy. For example, you can set the Activity from infrequent county detection to ignore a specific user who travels frequently.
-
-To scope an anomaly detection policy:
-
-Each anomaly detection policy can be independently scoped so that it applies only to the users and groups you want to include and exclude in the policy. For example, you can set activity from infrequent county detection to ignore a specific user who travels frequently.
 
 To scope an anomaly detection policy:
 

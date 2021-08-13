@@ -26,7 +26,7 @@ As you run each query, give it a descriptive name and select your date range and
 Some tips to keep in mind when running the queries:
 
 - For best results, select **Last 1 year** so that you include the time period before and after any shifts in work patterns
-- Under **Select metrics**, keep all preselected metrics (don’t delete any). The dashboard uses them to create the charts, graphs, and insights in the report pages.
+- Under **Select metrics**, keep all preselected metrics (don't delete any). The dashboard uses them to create the charts, graphs, and insights in the report pages.
 - Under **Select filters**, select **Active only** for "Which measured employees do you want to include?" Optionally, use additional filters to further refine the population for your analysis.
 - Under **Organizational data**, leave the default attributes (Organization, LevelDesignation, TimeZone) selected. Optionally, select additional attributes that you'd like to include in the reports.
 - Use these same parameters and filters in both the Business continuity and Hourly collaboration queries.
@@ -45,11 +45,11 @@ To load the data into the Business Continuity Power BI template:
 
 ![Load data into the template procedure](../media/load-data-template.png)
 
-The dashboard visualizations on each page of the report populates with Workplace Analytics data, starting with the Settings page.
+The dashboard visualizations on each page of the report populate with Workplace Analytics data, starting with the Settings page.
 
 **3. Select your settings in the Business continuity dashboard**. After you have loaded the data and the report is generated in Power BI, the dashboard opens to the **Settings** page, where you have the option to adjust some settings for your analysis.
 
-- Select time periods for comparison. These are the time periods you’ll use to compare how workplace behavior has changed. The baseline period contains the collaboration you'll compare the current time period against.
+- Select time periods for comparison. These are the time periods you'll use to compare how workplace behavior has changed. The baseline period contains the collaboration you'll compare the current time period against.
 - Select from the list of organizational attributes you chose to include in your query. Default attributes are **Organization**, **LevelDesignation** and **TimeZone**, but the list will include any organizational attributes selected when queries were run.
 - To filter the reports further, select any of the available organizational attributes and filter values for the data you would like to include.
 

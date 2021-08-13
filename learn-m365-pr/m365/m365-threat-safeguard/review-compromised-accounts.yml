@@ -4,11 +4,11 @@ title: Review compromised accounts or data
 metadata:
   title: Review compromised accounts or data
   description: Learn about the Microsoft Defender for Identity component of Microsoft 365 Defender. 
-  ms.date: 06/24/2020
+  ms.date: 07/16/2021
   author: AlexandraHrt
   ms.author: elizapo
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-durationInMinutes: 30
+durationInMinutes: 19
 content: |
   [!include[](includes/review-compromised-accounts.md)]

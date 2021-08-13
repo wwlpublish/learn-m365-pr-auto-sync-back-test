@@ -1,0 +1,43 @@
+### YamlMime:Module
+uid: learn-m365-pr.bringing-all-together-engaging-virtual-events
+metadata:
+  moduleType: standard
+  title: Bringing it all together for engaging virtual events in Microsoft 365
+  description: Learn best practices for producing, presenting, moderating, and attending a virtual event in Microsoft Teams or Microsoft 365.
+  ms.date: 07/20/2021
+  author: lizap
+  ms.author: elizapo
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Bringing it all together for engaging virtual events in Microsoft 365
+summary:  | 
+    Learn best practices for producing, presenting, moderating, and attending a virtual event in Microsoft Teams or Microsoft 365. 
+
+    This module has content for presenters, moderators, and attendees.
+abstract: |
+  By the end of this module, you'll be able to:
+    - Produce a meeting or live event in Teams.
+    - Prepare and deliver an engaging presentation in a Microsoft Teams meeting or live event.
+    - Moderate a presentation in a Microsoft Teams meeting or live event.
+    - Get the most out of attending a presentation in a Microsoft Teams meeting or live event.
+prerequisites: | 
+  - General understanding of virtual events, Microsoft Teams, and accessibility requirements
+iconUrl: /learn/achievements/generic-badge.svg
+levels: 
+  - beginner
+roles: 
+  - business-user
+  - administrator
+products:
+  - office-teams
+  - office-yammer
+units:
+- learn-m365-pr.bringing-all-together-engaging-virtual-events.introduction
+- learn-m365-pr.bringing-all-together-engaging-virtual-events.produce-virtual-event
+- learn-m365-pr.bringing-all-together-engaging-virtual-events.present-virtual-event
+- learn-m365-pr.bringing-all-together-engaging-virtual-events.moderate-virtual-event
+- learn-m365-pr.bringing-all-together-engaging-virtual-events.attend-virtual-event
+- learn-m365-pr.bringing-all-together-engaging-virtual-events.knowledge-check
+- learn-m365-pr.bringing-all-together-engaging-virtual-events.summary
+badge:
+  uid: learn-m365-pr.bringing-all-together-engaging-virtual-events.badge 

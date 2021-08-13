@@ -4,9 +4,9 @@ metadata:
   moduleType: standard
   title: Apply next-generation protection with Microsoft Defender for Endpoint
   description: Learn about next generation protection in Microsoft Defender for Endpoint, including capabilities such as cloud-delivered protection, client behavioral blocking and containment, always-on protection, feedback-loop blocking, and more.
-  ms.date: 05/12/2021
+  ms.date: 07/06/2021
   author: alistairmatthews
-  ms.author: v-alimat
+  ms.author: beccarobins
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Apply next-generation protection with Microsoft Defender for Endpoint

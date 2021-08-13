@@ -1,15 +1,15 @@
 ### YamlMime:Module
 uid: learn-m365.workplace-analytics-onboard
 metadata:
-  title: Onboard to Microsoft Workplace Analytics
-  description: Learn how to onboard to Microsoft Workplace Analytics, from the administrator perspective.  
-  ms.date: 05/14/2021
-  author: lizap
-  ms.author: elizapo
+  title: Onboard to Microsoft Viva Insights (Workplace Analytics)
+  description: Learn how to onboard to Microsoft Viva Insights (Workplace Analytics), from the administrator perspective.  
+  ms.date: 07/30/2021
+  author: madehmer
+  ms.author: v-mideh
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-title: Onboard to Microsoft Workplace Analytics
-summary: Learn how to onboard to Microsoft Workplace Analytics, from the administrator perspective.  
+title: Onboard to Microsoft Viva Insights (Workplace Analytics)
+summary: "**Note**: The Workplace Analytics web app is being rebranded to **Viva Insights** in the next few months. As mentioned in this module, Workplace Analytics refers to the web app with advanced analysis tools and accelerators available to those who are assigned the Analyst, Limited Analyst, or Admin role.<br><br>Learn how to onboard to Microsoft Viva Insights (Workplace Analytics), from the administrator perspective."  
 abstract: |
   At the end of this module, you should be able to:
   - Understand the roles and responsibilities for setting up and onboarding Workplace Analytics

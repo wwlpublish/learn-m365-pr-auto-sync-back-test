@@ -4,11 +4,11 @@ title: Plan for live events
 metadata:
   title: Plan for live events
   description: Learn how to plan and manage Microsoft Teams meetings and conferences. Discover how audio conferencing and live events work in Teams.
-  ms.date: 05/28/2021
+  ms.date: 07/16/2021
   author: AlexandraHrt
   ms.author: elizapo
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-durationInMinutes: 5
+durationInMinutes: 2
 content: |
   [!include[](includes/live-events.md)]

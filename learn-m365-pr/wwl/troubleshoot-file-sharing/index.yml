@@ -1,0 +1,38 @@
+### YamlMime:Module
+uid: learn.wwl.troubleshoot-file-sharing
+metadata:
+  title: Troubleshoot File Sharing
+  description: "You will learn how to troubleshoot file sharing problems."
+  ms.date: 07/26/2021
+  author: wwlpublish
+  ms.author: cyncarey
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Troubleshoot File Sharing
+summary: You will learn how to troubleshoot file sharing problems.
+abstract: |
+  After completing this module, you'll be able to:
+  - Troubleshoot private chat (P2P) file issues.
+  - Troubleshoot file issues for private channels.
+  - Troubleshoot file issues for public channels.
+prerequisites: |
+  - Experience configuring and administering Microsoft Teams
+  - Experience using Windows PowerShell
+  - Working experience with performance tuning and service monitoring
+iconUrl: /learn/achievements/generic-badge.svg
+levels:
+- advanced
+roles:
+- support-engineer
+products:
+- m365
+- office-teams
+units:
+- learn.wwl.troubleshoot-file-sharing.introduction
+- learn.wwl.troubleshoot-file-sharing.person-to-person-private-chat
+- learn.wwl.troubleshoot-file-sharing.issues-for-private-channels
+- learn.wwl.troubleshoot-file-sharing.issues-for-public-channels
+- learn.wwl.troubleshoot-file-sharing.knowledge-check
+- learn.wwl.troubleshoot-file-sharing.summary
+badge:
+  uid: learn.wwl.troubleshoot-file-sharing.badge

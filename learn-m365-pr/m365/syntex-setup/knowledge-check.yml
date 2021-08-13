@@ -1,0 +1,52 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.syntex-setup.knowledge-check
+title: Knowledge check
+metadata:
+  title: Knowledge check
+  description:  Set up SharePoint Syntex for your organization's specific document understanding solution needs and requirements.
+  ms.date: 07/09/2021
+  author: beccarobins
+  ms.author: beccarobins
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+ 
+durationInMinutes: 3
+content: |
+quiz:
+    title: Check your knowledge
+    questions:
+    - content: "Where should you go to start setting up SharePoint Syntex?"
+      choices:
+      - content: "Set up for SharePoint Syntex is initiated from within an existing SharePoint library."
+        isCorrect: false
+        explanation: "Incorrect. While activating SharePoint Syntex requires an existing SharePoint subscription, setting up SharePoint Syntex cannot be initiated from within a library. Go to the Microsoft 365 admin center to manage SharePoint Syntex set up."
+      - content: "Set up for SharePoint Syntex is initiated in the Microsoft 365 admin center."
+        isCorrect: true
+        explanation: "Correct. Add SharePoint Syntex by logging into your Microsoft 365 admin center."
+      - content: "Set up SharePoint Syntex by going to the Microsoft Azure Marketplace."
+        isCorrect: false
+        explanation: "Incorrect. SharePoint Syntex activation, set up, and configuration are available on your Microsoft 365 admin center."
+
+    - content: "Why might you want to create additional Content Centers?"
+      choices:
+      - content: "Separate departments within your organization may have different needs and permission requirements for their models."
+        isCorrect: true
+        explanation: "Correct. Having a Content Center for each department allows you to create specific models for the specific needs of each department."
+      - content: "It allows you to create more form processing models."
+        isCorrect: false
+        explanation: "Incorrect. Form processing models are not created from the content center and therefore are not dependent on the number of Content Centers."
+      - content: "Multiple content centers are best for environments for which you want a roll-up of all model activity."
+        isCorrect: false
+        explanation: "Incorrect. A single content center is ideal for environments that wat a roll-up of model activity."
+
+    - content: "Which of these options should you choose if you’re not ready to configure a form processing model right away?"
+      choices:
+      - content: "Libraries in all SharePoint sites"
+        isCorrect: false
+        explanation: "Incorrect. This option makes form processing available to all SharePoint libraries and would be best if you want to enable form processing models right away for multiple SharePoint libraries."
+      - content: "Libraries in selected SharePoint sites"
+        isCorrect: false
+        explanation: "Incorrect. This option allows you to select which sites you want to use to create forms processing models and accommodates up to 50 sites."
+      - content: "No SharePoint libraries"
+        isCorrect: true
+        explanation: "Correct. This option is best if you prefer not to create form processing models right away. This setting can be changed after setup is complete."

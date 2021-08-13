@@ -4,12 +4,12 @@ title: Summary and knowledge check
 metadata:
   title: Summary and knowledge check
   description: Learn about the Microsoft Defender for Identity component of Microsoft 365 Defender. 
-  ms.date: 06/24/2020
+  ms.date: 07/16/2021
   author: AlexandraHrt
   ms.author: elizapo
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-durationInMinutes: 5
+durationInMinutes: 4
 content: |
   [!include[](includes/summary-knowledge-check.md)]
 quiz:
@@ -36,7 +36,7 @@ quiz:
         isCorrect: false
         explanation: "Incorrect. Microsoft Defender for Identity detects reconnaissance, compromised credentials, lateral movements, and domain dominance threats."
       
-    - content: "Which of the following is **not** a supported integration for Microsoft Defender for Office 365?"
+    - content: "Which of the following is **not** a supported integration for Microsoft Defender for Identity?"
       choices:
       - content: "Microsoft Defender for Endpoint"
         isCorrect: false

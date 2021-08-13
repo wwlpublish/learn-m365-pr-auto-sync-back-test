@@ -4,7 +4,7 @@ title: Knowledge check
 metadata:
   title: Knowledge check
   description: "Knowledge check"
-  ms.date: 04/23/2021
+  ms.date: 07/09/2021
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -42,10 +42,10 @@ quiz:
     choices:
     - content: "Hover over a visual on the report that will be used in the dashboard to reveal the pin icon"
       isCorrect: false
-      explanation: "That's incorrect. This is part of the second step in creating a Power BI dashboard. Try again."
+      explanation: "That's incorrect. This action is part of the second step in creating a Power BI dashboard. Try again."
     - content: "Select whether the visual on the report that will be used to create the dashboard is to be pinned to a new or existing dashboard"
       isCorrect: false
-      explanation: "That's incorrect. This is the final step in creating a Power BI dashboard. Try again."
+      explanation: "That's incorrect. This action is the final step in creating a Power BI dashboard. Try again."
     - content: "Access a report Holly either owns or has been given edit privileges to"
       isCorrect: true
       explanation: "That's correct. To create a dashboard, the user must first access a report they either own or have been given edit privileges to."

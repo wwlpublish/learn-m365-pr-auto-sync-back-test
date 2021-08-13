@@ -1,8 +1,8 @@
-As the security analyst of your organization, you wanted to know if Microsoft Defender for Endpoint could help you to rapidly and intelligently address new threats. You've learned that you can use Microsoft Defender for Endpoint’s next-generation protection to take advantage of the intelligent features and capabilities that will help you to protect your organization's endpoints against the latest threats.
+As the security analyst of your organization, you wanted to know if Microsoft Defender for Endpoint could help you to rapidly and intelligently address new threats. You've learned that you can use Microsoft Defender for Endpoint's next-generation protection to take advantage of the intelligent features and capabilities that will help you to protect your organization's endpoints against the latest threats.
 
 Now that you've completed this module, you should be able to:
 
-- Understand  Microsoft Defender for Endpoint’s next-generation protection
+- Understand  Microsoft Defender for Endpoint's next-generation protection
 - Understand behavioral blocking and containment
 
 ## Learn more

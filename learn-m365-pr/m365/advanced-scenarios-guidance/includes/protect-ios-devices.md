@@ -1,14 +1,14 @@
 Many organizations have users who prefer iPhones, iPads, and other iOS devices. You might need to ensure that your security extends to iOS devices as well by installing Microsoft Defender for Endpoint on them.
 
-In Contoso, one division of the company, which originally was an independent graphic design agency, uses iOS devices predominantly. You want to ensure that these devices don’t represent a weak point in your security.
+In Contoso, one division of the company, which originally was an independent graphic design agency, uses iOS devices predominantly. You want to ensure that these devices don't represent a weak point in your security.
 
-Here, you’ll learn about Microsoft Defender for Endpoint for iOS and how to deploy it in your organization.
+Here, you'll learn about Microsoft Defender for Endpoint for iOS and how to deploy it in your organization.
 
 ## What is Microsoft Defender for Endpoint for iOS?
 
 Microsoft Defender for Endpoint is an app that you can install on many different types of devices that protects that device against common threats such as viruses and insecure websites. Defender for Endpoint for iOS is the version of that product for Apple iPhones and iPads.
 
-By deploying Defender for Endpoint to all your iOS devices, you ensure that users of those devices can’t circumvent the protection you’ve configured for mobile devices in Microsoft Cloud App Security. For example, if an iOS user downloads a file that matches one of your indicators of compromise, it will generate an alert and can delete or quarantine the file, just as it would on a Windows computer.
+By deploying Defender for Endpoint to all your iOS devices, you ensure that users of those devices can't circumvent the protection you've configured for mobile devices in Microsoft Cloud App Security. For example, if an iOS user downloads a file that matches one of your indicators of compromise, it will generate an alert and can delete or quarantine the file, just as it would on a Windows computer.
 
 > [!NOTE]
 > Microsoft Defender for Endpoint for iOS is also known as Microsoft Defender ATP for iOS
@@ -34,7 +34,7 @@ If you have Microsoft Intune in your organization, and the iOS devices are enrol
 
 ## Configure a compliance policy against jailbroken iOS devices
 
-A jailbroken iOS device has fewer restrictions on users. For example, on such a device, you can install apps that haven’t been approved for the App Store by Apple. As such, a jailbroken iOS device presents a greater risk of insecure apps and malware. Many administrators may want to prevent such devices from accessing their systems.
+A jailbroken iOS device has fewer restrictions on users. For example, on such a device, you can install apps that haven't been approved for the App Store by Apple. As such, a jailbroken iOS device presents a greater risk of insecure apps and malware. Many administrators may want to prevent such devices from accessing their systems.
 
 To deny access to jailbroken iPhones and iPads, follow these steps:
 

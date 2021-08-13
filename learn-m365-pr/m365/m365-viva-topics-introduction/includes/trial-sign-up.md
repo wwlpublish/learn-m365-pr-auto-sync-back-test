@@ -1,71 +1,80 @@
 There are seven essential steps to sign up for and set up a Viva Topics trial for admins:
 
 1. Sign up for a Viva Topics trial.
-2. Gather the information you'll need to set up Viva Topics. You can use the setup checklist to identify the information you need.
-3. Configure Viva Topics for your organization.
-4. Plan before activating Viva Topics trial. 
-5. Activate your Viva Topics trial. 
-6. Evaluate the Viva Topics features and functionality during your trial. 
-7. Convert to a production deployment of Viva Topics
+1. Gather the information you'll need to set up Viva Topics. You can use the setup checklist to identify the information you need.
+1. Configure Viva Topics for your organization.
+1. Plan before activating Viva Topics trial.
+1. Activate your Viva Topics trial.
+1. Evaluate the Viva Topics features and functionality during your trial.
+1. Convert to a production deployment of Viva Topics
 
-## Step 1: Sign up for a Viva Topics trial 
+## Step 1: Sign up for a Viva Topics trial
 
 Once you have Modern SharePoint or Modern SharePoint pages on classic SharePoint, sign up for and set up Viva Topics. You must be a Microsoft 365 Global administrator, Billing administrator or Knowledge administrator to activate a Viva Topics trial, one-time per Microsoft 365 tenant.*
 
-You can sign up for a trial from either the [Microsoft Viva Topics product page](/microsoft-viva/topics) or from the Microsoft 365 admin center.
+You can sign up for a trial from either the [Microsoft Viva Topics product page](https://www.microsoft.com/microsoft-viva/topics/overview) or from the Microsoft 365 admin center.
 
    >[!NOTE]
+   >
    >- Trial must be added to existing tenant or generated from E3 or E5 licensing.
-   >- Extended trials may be available from Microsoft partners. 
+   >- Extended trials may be available from Microsoft partners.
 
 For this training, we'll use the Microsoft 365 admin center.
 
-1. Sign into the Microsoft 365 admin center 
-2. Go to **Billing > Purchase Services**. 
+1. Sign into the Microsoft 365 admin center
+2. Go to **Billing > Purchase Services**.
 3. Scroll down to the **Add-Ons** section.
-4. On the Topic Experiences tile, select **Details**. 
-5. Select **Get free trial**. 
-6. Follow the instructions in the wizard to sign up and confirm your trial 
+4. On the Topic Experiences tile, select **Details**.
+5. Select **Get free trial**.
+6. Follow the instructions in the wizard to sign up and confirm your trial
 
 ## Step 2: Gather your configuration information
-You'll need the following items as you go through the setup wizard: 
-- List of sites to include or exclude if not including all sites for topic discovery 
-- Security group for topic viewers if not allowing all users to view topics 
-- Security group for topic contributors if not allowing all users to create and edit topics 
-- Security group for topic knowledge managers if not allowing all users to manage topics 
-- List of sensitive topics to exclude from topic discovery with sensitivity labels 
-- A name for your Topic center site 
 
-## Step 3: Configure Viva Topics for your organization 
-In your Microsoft 365 account, select **Topics Experience**. Scroll down under **Topics Experience**, and then select **View Viva Topics Setup Details** to continue configuring Viva Topics for your organization. 
+You'll need the following items as you go through the setup wizard:
+
+- List of sites to include or exclude if not including all sites for topic discovery
+- Security group for topic viewers if not allowing all users to view topics
+- Security group for topic contributors if not allowing all users to create and edit topics
+- Security group for topic knowledge managers if not allowing all users to manage topics
+- List of sensitive topics to exclude from topic discovery with sensitivity labels
+- A name for your Topic center site
+
+## Step 3: Configure Viva Topics for your organization
+
+In your Microsoft 365 account, select **Topics Experience**. Scroll down under **Topics Experience**, and then select **View Viva Topics Setup Details** to continue configuring Viva Topics for your organization.
 
 1. Select **Topics experience**.  
-2. Select **get started**. 
+2. Select **get started**.
 3. Select the users that you want to be able to see topics.  
-4. Select **permissions for Topic management**. 
+4. Select **permissions for Topic management**.
 5. Create the Topic center.  
-6. Choose how Viva Topics finds topics. 
+6. Choose how Viva Topics finds topics.
 7. Review your settings and finish.  
 
-## Step 4: Plan your Viva Topics strategies 
-Planning is essential to completing an effective trial for Viva Topics. Given the time-limited nature of a trial, this period must include discovering topics and exploring topic quality, management, and end-user experiences. 
+## Step 4: Plan your Viva Topics strategies
 
-### Discover Topics 
-There are two high-level strategies for Topic discovery during a trial: 
-1. Index all content, or most of the content, in SharePoint Online: 
-   - Large tenants may take two weeks or more to fully index. While topics will be generated incrementally through this period, a full index could consume up to half of a trial period. 
-   - There could be many topics for tenants with a significant volume of data, perhaps tens of thousands. 
-2. Identify a subset of SharePoint sites to index. 
+Planning is essential to completing an effective trial for Viva Topics. Given the time-limited nature of a trial, this period must include discovering topics and exploring topic quality, management, and end-user experiences.
 
-Choosing between these strategies is a balance of: 
+### Discover Topics
 
-- Having enough data for meaningful Topics to be generated. The AI in Topics is tuned to work on large datasets, ideally over 10,000 documents. 
-- Not generating too many topics during the trial period that evaluation is overwhelming in the available time. 
+There are two high-level strategies for Topic discovery during a trial:
+
+1. Index all content, or most of the content, in SharePoint Online:
+
+   - Large tenants may take two weeks or more to fully index. While topics will be generated incrementally through this period, a full index could consume up to half of a trial period.
+   - There could be many topics for tenants with a significant volume of data, perhaps tens of thousands.
+
+1. Identify a subset of SharePoint sites to index.
+
+Choosing between these strategies is a balance of:
+
+- Having enough data for meaningful Topics to be generated. The AI in Topics is tuned to work on large datasets, ideally over 10,000 documents.
+- Not generating too many topics during the trial period that evaluation is overwhelming in the available time.
 
 For most customers, the second strategy will give the best outcome for the following reasons:
 
-- Due to the number of documents required by the AI, it is recommended that Viva Topics trials and Proof of Concepts (PoCs) are run on a production tenant. 
-- There will be no impact on the tenant's performance during this period, and only users with a trial license will be presented with user experiences. 
+- Due to the number of documents required by the AI, it is recommended that Viva Topics trials and Proof of Concepts (PoCs) are run on a production tenant.
+- There will be no impact on the tenant's performance during this period, and only users with a trial license will be presented with user experiences.
 
 ### Evaluate user experiences
 
@@ -77,40 +86,45 @@ Here are the user experiences, by role, included in the trial:
 |Topic contributor|Content subject matter experts (SMEs) who: <br>- Evaluate the quality of AI-defined content.<br>- Curate discovered topics with more content.<br>- Create more topics, those not discovered by AI.|
 |Topic viewer|- View topics through page highlights and search.<br>- Provide feedback on the value of the topics presented to them.|
 
-### Define expected topics 
-It's useful to document your expectations of what topics will be generated by the AI, even if this is based only on assumption. This is most easily completed when indexing a defined subset of SharePoint sites where SMEs can be easily identified. 
+### Define expected topics
+
+It's useful to document your expectations of what topics will be generated by the AI, even if this is based only on assumption. This is most easily completed when indexing a defined subset of SharePoint sites where SMEs can be easily identified.
 
 Having a documented list will help you:  
 
 - Review the list of AI-generate topics, which may be larger than you anticipated.
 - Know which topics may need to be created manually or are priorities for curation.
 
-You'll always need a mixture of AI-defined and human-created topics in a successful deployment or proof of concept (PoC) of Viva Topics. 
+You'll always need a mixture of AI-defined and human-created topics in a successful deployment or proof of concept (PoC) of Viva Topics.
 
-## Step 5: Activate your Viva Topics trial 
+## Step 5: Activate your Viva Topics trial
+
 Now you're ready to activate your trial. This includes assigning licenses to the relevant users and performing additional setup of Microsoft Viva Topics.  
 
-Once the trial is activated, the topic discovery process will begin. 
+Once the trial is activated, the topic discovery process will begin.
 
-## Step 6: Evaluate your Viva Topics trial 
-For the best result, use your trial period to evaluate two components of Viva Topics: 
-- The AI suggested topics and topic content 
-- The end-user experiences, surfacing topic cards on modern SharePoint pages, and in Microsoft Search 
+## Step 6: Evaluate your Viva Topics trial
 
-Consider the following items: 
+For the best result, use your trial period to evaluate two components of Viva Topics:
 
-- For Viva Topics to deliver the most value, the topics content needs to be a combination of AI-defined content, and human curated content. 
-- All user experiences are permission-trimmed (including the Knowledge manager's view on the **Manage Topics** page). A user will only see a topic if they have permissions to view some of the resources used to generate the topic. This also means users may see different content on the same topic page 
-- You may see topics on the **Manage Topics** page with the same name. These aren't necessarily duplicated; it could be due to a single term being used in multiple contexts in the data. For example, the same project name being used by two distinct projects. 
+- The AI suggested topics and topic content
+- The end-user experiences, surfacing topic cards on modern SharePoint pages, and in Microsoft Search
 
-## Step 7: Convert to a production deployment of Viva Topics 
-You can convert your trial deployment of Viva Topics into a production deployment. To do so, purchase the required number of licenses and assign them to your users. Trial users who don't have a full license at the end of the trial period won't be able to access any Viva Topics experiences. Viva Topics is an add-on and available for select Microsoft 365 accounts. 
+Consider the following items:
 
-To convert your trial, go to your Microsoft 365 account. Select **Topics Experience**, and then scroll down to **Topics Experience**. Select **View Viva Topics Setup Details** to continue setting up and configuring Viva Topics for your organization. 
+- For Viva Topics to deliver the most value, the topics content needs to be a combination of AI-defined content, and human curated content.
+- All user experiences are permission-trimmed (including the Knowledge manager's view on the **Manage Topics** page). A user will only see a topic if they have permissions to view some of the resources used to generate the topic. This also means users may see different content on the same topic page
+- You may see topics on the **Manage Topics** page with the same name. These aren't necessarily duplicated; it could be due to a single term being used in multiple contexts in the data. For example, the same project name being used by two distinct projects.
+
+## Step 7: Convert to a production deployment of Viva Topics
+
+You can convert your trial deployment of Viva Topics into a production deployment. To do so, purchase the required number of licenses and assign them to your users. Trial users who don't have a full license at the end of the trial period won't be able to access any Viva Topics experiences. Viva Topics is an add-on and available for select Microsoft 365 accounts.
+
+To convert your trial, go to your Microsoft 365 account. Select **Topics Experience**, and then scroll down to **Topics Experience**. Select **View Viva Topics Setup Details** to continue setting up and configuring Viva Topics for your organization.
 
 Next, prepare for Viva Topics with a recommended rollout strategy to encourage user adoption and maximize success. There are two recommended rollout strategies that encourage user adoption and maximize success:  
 
-- **Fully crowd-sourced model** where everyone in the organization can add and edit topics. 
+- **Fully crowd-sourced model** where everyone in the organization can add and edit topics.
 - **Authoritative model** where a group of people are responsible for adding and editing topics. They can rely on other people, but they're the ones responsible for doing it. In this model everyone else is a consumer and can view topics in the term store.  
 
 Finally, use best practices to establish security and privacy settings to protect your organization. You can find information about these best practices in the Viva Topics technical library.

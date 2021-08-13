@@ -4,7 +4,7 @@ You'll want to try to standardize on procurement and have as many of the same co
 
 The more consistent you can be with these practices, the more efficient you'll be in supporting, implementing, and operating Teams Rooms in the future.
 
-Here’s a high-level project plan highlighting all the key milestones in a Teams Rooms deployment.
+Here's a high-level project plan highlighting all the key milestones in a Teams Rooms deployment.
 
 ![Deployment key milestones](../media/deployment-key-milestones.png)
 

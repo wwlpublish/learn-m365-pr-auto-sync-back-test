@@ -24,7 +24,7 @@ To create and start a migration batch, follow these steps in the Microsoft 365 a
 
    ![Select Remote move migration](../media/remote-move-migration.png)
 
-4. In the **Select the users** page, click **+** and then search for and add the mailbox users that you want to migrate in this batch. When you’ve configured the list of mailboxes, select **Next**.
+4. In the **Select the users** page, click **+** and then search for and add the mailbox users that you want to migrate in this batch. When you've configured the list of mailboxes, select **Next**.
 
    ![Select the mailbox users you want to move](../media/select-mailbox-users.png)
 
@@ -51,6 +51,7 @@ You can also use PowerShell to diagnose the status of a migration and its mailbo
 ```powershell
 $Get-MigrationBatch -Identity SalesDeptMigration
 ```
+
 ## Learn more
 
 - [Move mailboxes between on-premises and Exchange Online organizations in hybrid deployments](/Exchange/hybrid-deployment/move-mailboxes?azure-portal=true)

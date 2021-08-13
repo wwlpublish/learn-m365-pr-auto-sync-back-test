@@ -1,4 +1,3 @@
-
 Business to business (B2B) communication is widespread in organizations today. This brings security challenges because it is difficult to monitor or control external users, however you want to give external users access to internal content.
 
 To solve this problem Microsoft Cloud App Security can limit external users to read-only access for Microsoft web apps, third party web apps, and custom apps.

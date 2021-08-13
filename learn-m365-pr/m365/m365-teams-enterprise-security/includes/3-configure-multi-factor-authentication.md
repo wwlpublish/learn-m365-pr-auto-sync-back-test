@@ -4,9 +4,9 @@ Suppose, in your firm of legal advisors, you are concerned that more sophisticat
 
 Here, you'll learn how to require extra credentials during authentication that make it hard for attackers to break into user accounts.
 
-## Multi Factor Authentication (MFA) for Microsoft Teams
+## Multifactor authentication (MFA) for Microsoft Teams
 
-Multi-factor authentication (MFA) is the process of prompting a user for an additional form of identification during sign-in. They might be asked to enter a code on their cell phone or to provide a fingerprint scan. MFA dramatically decreases the chances of user accounts being compromised. Requiring MFA for all users will significantly improve identity security for your organization.
+Multifactor authentication (MFA) is the process of prompting a user for an additional form of identification during sign-in. They might be asked to enter a code on their cell phone or to provide a fingerprint scan. MFA dramatically decreases the chances of user accounts being compromised. Requiring MFA for all users will significantly improve identity security for your organization.
 
 MFA for Microsoft Teams is enabled by setting conditional access policies. You can define conditional access policies for the apps that provide Teams with its functionality, such as Exchange Online and SharePoint. You can also configure conditional access policies separately for Microsoft Teams.
 
@@ -30,7 +30,7 @@ To require all users to sign in with MFA:
 1. Enter a meaningful **name** for the policy and then, under **Assignments**, select **Users and groups**.
 1. Under **Include**, select **All users**. Then under **Exclude**, select **Users and groups**, and choose your organization's emergency access or break-glass accounts. Emergency access or break-glass accounts prevent tenant-wide account lockout. You can log in with the emergency-access administrative account to take steps to recover access.
 1. Select **Done** and then under **Cloud apps or actions** > **Include,** select **All cloud apps**.
-1. Under **Exclude**, select any applications that do not require multi-factor authentication.
+1. Under **Exclude**, select any applications that do not require multifactor authentication.
 1. Under **Conditions** > **Client apps (Preview)**, under **Select the client apps this policy will apply to** leave all the defaults and select **Done**.
 1. Under **Access controls** > **Grant**, select **Grant access, Require multi-factor authentication**, and select **Select**.
 1. Confirm your settings and set **Enable policy** to **On**. Then select **Create** to create your policy.

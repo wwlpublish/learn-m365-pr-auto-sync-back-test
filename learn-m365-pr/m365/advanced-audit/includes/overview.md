@@ -10,7 +10,7 @@ Auditing plays an important role in the security and compliance strategy for man
 
 Enterprise-scale audit is essential to most organizations, and Microsoft dedicates substantial resources to support your audit requirements. Microsoft audits over 1,500 unique event types spanning Microsoft 365 services and beyond, and processes approximately 15 billion records per day. In addition, Microsoft customers run 60 million user activity searches every day against Microsoft 365 services.  
 
-![Enterprise-scale audit is essential to modern organizations.](../media/enterprise-scale-audit.png)  
+:::image type="content" source="../media/enterprise-scale-audit.png" alt-text="Enterprise-scale audit is essential to modern organizations.":::
 
 ## Comprehensive and unified logs
 
@@ -61,7 +61,7 @@ Audit records not covered by the default audit log retention policy in Advanced 
 
 Custom audit log retention policies have priority over the default audit log retention policy. You can also set the audit log retention policy priority level so specific policies will take priority over others. A situation where this could apply is if you want to retain Exchange, SharePoint, or Azure Active Directory audit records for less than a year for some or all users in your organization. You can have a maximum of 50 custom audit log retention policies in your organization. The table below summarizes the key differences between basic audit logging and Advanced Audit retention.
 
-|  Feature | Basic audit	  |  Advanced Audit |
+|  Feature | Basic audit  |  Advanced Audit |
 |---|---|---|
 |  Turn audit log on/off |  Yes | Yes  |
 |  Custom retention period | No  |  Yes |
@@ -69,7 +69,7 @@ Custom audit log retention policies have priority over the default audit log ret
 
 >[!NOTE]
 > If you need to retain audit logs for 10 years, you need both the appropriate E5 license and a 10-year audit log retention add-on license.
- 
+
 ## High-bandwidth access to data
 
 Audit log generation and consumption is a bandwidth-intensive activity. The bandwidth required to consume audit events, especially via the Office 365 Management Activity API, could become a bottleneck due to a number of factors, including the sheer volume of audit log activity.

@@ -3,7 +3,7 @@ uid: learn-m365.information-protection-real-time-controls
 metadata:
   title: Protect information in real time with Microsoft Cloud App Security
   description: Learn to configure information protection in Microsoft Cloud App Security and protect data stored in all locations, including non-Microsoft services.
-  ms.date: 05/14/2021
+  ms.date: 08/02/2021
   author: geoffallix
   ms.author: beccarobins
   ms.topic: interactive-tutorial
@@ -15,7 +15,7 @@ abstract: |
   - Connect Box, Salesforce, and GitHub to Microsoft Cloud App Security.
   - Protect storage apps and implement malware detection.
   - Configure read-only mode for external users.
-  - Block unauthorized browsers form accessing corporate web apps.
+  - Block unauthorized browsers from accessing corporate web apps.
   - Use admin quarantine to investigate files.
   - Automatically apply labels to sensitive files.
   - Implement information protection policies.

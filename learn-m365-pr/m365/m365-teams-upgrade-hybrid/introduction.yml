@@ -4,11 +4,11 @@ title: Introduction to hybrid connectivity
 metadata:
   title: Introduction to hybrid connectivity
   description: Learn about hybrid connectivity, a key element for moving from Skype for Business on-premises to Teams. Learn how to assess your environment, prepare your environment and organization, and how to conduct a user pilot.
-  ms.date: 10/11/2019
+  ms.date: 07/16/2021
   author: lizap
   ms.author: elizapo
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-durationInMinutes: 2
+durationInMinutes: 1
 content: |
   [!include[](includes/introduction.md)]

@@ -3,7 +3,7 @@ In this module, you learned how to deploy Azure Virtual Desktop in your environm
 - Create an Azure Virtual Desktop host pool and workspace
 - Make a desktop and apps available to users by using application groups
 - Customize the workspace
-- Connect to the workspace by using the Azure Virtual Desktop client 
+- Connect to the workspace by using the Azure Virtual Desktop client
 
 ## Learn more
 

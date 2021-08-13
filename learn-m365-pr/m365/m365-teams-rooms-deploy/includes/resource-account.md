@@ -12,7 +12,7 @@ The Teams Rooms Premium license adds additional features such as a Microsoft-man
 > Every Teams Rooms compute module requires its own unique resource account. You cannot share a resource account across multiple rooms. If you do, only one of those accounts will be able to join a meeting and other rooms with the same account will not be able to join any meetings at the same time.
 
 - If you use Skype for Business on-premises, you'll need to assign an Enterprise Client Access license, and if you intend to use Enterprise Voice features of Skype for Business, you'll need to add a Plus Client Access license.
-- It's recommended that you create the account well in advance of hardware installation. This is because you may need to open tickets within your IT organization to have them created. You also need to test and review to make sure the accounts were set up correctly. 
+- It's recommended that you create the account well in advance of hardware installation. This is because you may need to open tickets within your IT organization to have them created. You also need to test and review to make sure the accounts were set up correctly.
 - If your environment is configured to use modern authentication, Microsoft recommends that you enable it for the resource account. You can use Intune conditional access policies to help control and limit what the resource account has access to. For example, you can limit the account to only sign in on a given subnet.  
 
 > [!IMPORTANT]
@@ -21,19 +21,19 @@ The Teams Rooms Premium license adds additional features such as a Microsoft-man
 
 ## What is the workflow for creating a resource account?
 
-1. First identify what room you are going to use with Teams Rooms. Does a resource already exist? It's very possible that a resource account for this room was created previously for other purposes.
+1. First identify what room you are going to use with Teams Rooms. Does a resource already exist? It's possible that a resource account for this room was created previously for other purposes.
 
    - If that is the case, you can then move forward with configuring auto accept.
    - If there is not an existing resource, create a new Exchange resource and then configure auto accept within Exchange.
 
-2. Once the auto-accept parameters for the Exchange mailbox have been configured, you will need to set the password to never expire. *Resource accounts must have their password set to not expire*. Otherwise, the account will not be able to sign in to Teams Rooms when it’s password has expired and no one will be able to join meetings in that room until someone physically changes the password on the Teams Rooms application.
+2. Once the auto-accept parameters for the Exchange mailbox have been configured, you will need to set the password to never expire. *Resource accounts must have their password set to not expire*. Otherwise, the account will not be able to sign in to Teams Rooms when its password has expired and no one will be able to join meetings in that room until someone physically changes the password on the Teams Rooms application.
 
 3. Will you enable this account for Skype for Business?
 
    - If yes, enable the account for Skype.
    - If not, assign a Teams license.
 
-4. If you have enabled the account for Skype, will you enable it for Teams as well as for Skype? If yes, assign a Teams license.
+4. If you have enabled the account for Skype, will you enable it for Teams and for Skype? If yes, assign a Teams license.
 
     ![Resource account workflow](../media/resource-account-flow.png)
 

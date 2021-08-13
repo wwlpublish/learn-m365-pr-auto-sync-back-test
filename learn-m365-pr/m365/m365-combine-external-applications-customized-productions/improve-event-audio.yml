@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-m365-pr.combine-external-applications-customized-productions.improve-event-audio
+title: Ensure you have high-quality audio
+metadata:
+  unitType: learning-content
+  title: Ensure you have high-quality audio
+  description: Learn how to ensure that sound in your live event is clear and professional.
+  ms.date: 07/06/2021
+  author: lizap
+  ms.author: elizapo
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 7
+content: |
+  [!include[](includes/improve-event-audio.md)] 

@@ -1,11 +1,9 @@
 Microsoft 365 provides a range of migration options that organizations must consider before moving their email data to Exchange Online. These options involve both migration and coexistence strategies. It's important to understand the difference between them.
 
- *  **Migration.** Migration is the process of moving user data from a source messaging system to Exchange Online. In a migration scenario, you want to move your existing mailboxes to Exchange Online as quickly as possible, without the need to maintain a long-term coexistence.
- *  **Coexistence.** Coexistence is another term for a fully hybrid environment. It's the process of maintaining your existing on-premises messaging system and Exchange Online at the same time, for a short or long-term period. Unlike migration, coexistence enables you to move mailboxes between your on-premises mail servers and Exchange Online, without your users noticing a difference. As such, coexistence provides the smoothest way to move mailboxes from the user perspective, but it also requires the most work for mail administrators.
-    
-    With coexistence, you sync or integrate on-premises server products to cloud enterprise services. In this state, you can either pool resources to one location or have a mixed bag of resources located on-premises and in the cloud. For example, you could integrate your on-premises Exchange environment with Exchange Online. In doing so, you may need to keep some mailboxes local to your environment for proprietary purposes; however, you may have many of the mailboxes housed in the cloud for ease of use and backup purposes.
+ -  **Migration.** Migration is the process of moving user data from a source messaging system to Exchange Online. In a migration scenario, an organization wants to move its existing mailboxes to Exchange Online as quickly as possible, without the need to maintain a long-term coexistence.
+ -  **Coexistence.** Coexistence is another term for a fully hybrid environment. It's the process of maintaining an organization's existing on-premises messaging system and Exchange Online at the same time, for a short or long-term period. Unlike migration, coexistence enables an organization to move mailboxes between its on-premises mail servers and Exchange Online, without its users noticing a difference. As such, coexistence provides the smoothest way to move mailboxes from the user perspective, but it also requires the most work for mail administrators.<br><br>With coexistence, on-premises server products are synchronized or integrated to cloud enterprise services. In this state, an organization can either pool resources to one location or have a mixed bag of resources located on-premises and in the cloud. For example, an organization could integrate its on-premises Exchange environment with Exchange Online. In doing so, it may need to keep some mailboxes local to its environment for proprietary purposes. However, it may have many of the mailboxes housed in the cloud for ease of use and backup purposes.
 
-The following table summarizes when to use migration and coexistence. Keep in mind, however, that there may be other contributing factors, depending on your business needs.
+The following table summarizes when to use migration and coexistence. Keep in mind, however, that there may be other contributing factors, depending on an organization's business needs.
 
 :::row:::
   :::column:::
@@ -68,10 +66,10 @@ Requires manual Outlook profile updates.
   :::column:::
     
 
-If you can migrate all data within an acceptable time, such as over a day or weekend).
+If an organization can migrate all data within an acceptable time, such as over a day or weekend.
 
 
-If your organization has fewer than 2000 users.
+If an organization has fewer than 2000 users.
 
 
   :::column-end:::
@@ -107,14 +105,14 @@ Automatic Outlook profile updates.
   :::column:::
     
 
-When you:
+When an organization:
 
- *  use hybrid only for migration.
- *  plan to move to Exchange Online and don't need a full hybrid configuration.
+ -  uses hybrid only for migration.
+ -  plans to move to Exchange Online and don't need a full hybrid configuration.
     
- *  must move users between your on-premises Exchange and Microsoft 365.
+ -  must move users between its on-premises Exchange Server deployment and Microsoft 365.
     
- *  need Exchange on-premises for recipient administration purposes.
+ -  needs Exchange on-premises for recipient administration purposes.
 
 
   :::column-end:::
@@ -140,7 +138,7 @@ Exchange 2010 or later
 Requires Azure AD Connect for directory synchronization.
 
 
-Full-featured Exchange federation between on-premises and Exchange Online organization.
+Full-featured Exchange federation between on-premises Exchange Server deployment and Exchange Online organization.
 
 
 Automatic Outlook profile updates.
@@ -150,11 +148,11 @@ Automatic Outlook profile updates.
   :::column:::
     
 
-If you:
+If an organization:
 
- *  require long-term coexistence between your on-premises Exchange and Microsoft 365.
+ -  requires long-term coexistence between its on-premises Exchange Server deployment and Microsoft 365.
     
- *  must move users between your on-premises Exchange and Microsoft 365.
+ -  must move users between its on-premises Exchange Server deployment and Microsoft 365.
 
 
   :::column-end:::
@@ -187,11 +185,11 @@ Needs manual Outlook profile updates.
   :::column:::
     
 
-If you:
+If an organization:
 
- *  only need to migrate your user’s emails and its folder structure.
+ -  only needs to migrate its user’s emails and its folder structure.
     
- *  are migrating from a third-party mail system providing IMAP access.
+ -  is migrating from a third-party mail system providing IMAP access.
 
 
   :::column-end:::
@@ -219,21 +217,21 @@ Migration tool to connect to PST files.
 
 PST files are transferred to Microsoft 365 using either:
 
- *  Network upload
- *  Drive shipping
+ -  Network upload
+ -  Drive shipping
 
 
   :::column-end:::
   :::column:::
     
 
-If you:
+If an organization:
 
- *  have a large amount of mailbox data that needs to be migrated to Microsoft 365.
+ -  has a large amount of mailbox data that needs to be migrated to Microsoft 365.
     
- *  run IMAP/POP3 servers and your clients can export PST files (for example, using Microsoft Outlook).
+ -  runs IMAP/POP3 servers and its clients can export PST files (for example, using Microsoft Outlook).
     
- *  don't want to overutilize your Internet connectivity during migration.
+ -  doesn't want to overutilize its Internet connectivity during migration.
 
 
   :::column-end:::
@@ -263,7 +261,7 @@ Third-party migration tool for migration.
   :::column:::
     
 
-If none of the previously mentioned options work for you and you want to migrate your user’s mailboxes to Microsoft 365.
+If none of the previously mentioned options work for an organization, and it wants to migrate its user’s mailboxes to Microsoft 365.
 
 
   :::column-end:::

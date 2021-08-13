@@ -1,7 +1,8 @@
-In this module, you'll learn about Microsoft 365 capabilities that can help you monitor and gain insight into your sensitive data landscape. 
+In this module, you'll learn about Microsoft 365 capabilities that can help you monitor and gain insight into your sensitive data landscape.
 
 The Microsoft 365 compliance center helps you understand label use across your organization. It helps you gain insight into:
-- The overall activity of sensitivity labeling during the past 30 days. 
+
+- The overall activity of sensitivity labeling during the past 30 days.
 - The distribution of labels used, such as how many "Highly Confidential" labels were applied.
 - Where labels were used, such as within Word, Excel, PowerPoint, or File Explorer.
 

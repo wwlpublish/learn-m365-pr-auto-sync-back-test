@@ -1,15 +1,15 @@
-Depending on its Microsoft 365 license, an organization’s Enterprise Administrator has various client packages to choose from. While Microsoft 365 Apps for enterprise (formerly Office 365 ProPlus) is included in several subscriptions, it's the license assigned to the user that determines what's available for download and use.
+Depending on its Microsoft 365 license, an organization has various client packages to choose from. While Microsoft 365 Apps for enterprise (formerly Office 365 ProPlus) is included in several subscriptions, it's the license assigned to the user that determines what's available for download and use.
 
 ‎Microsoft 365 Apps for enterprise is a downloadable version of Microsoft's Office productivity suite. It includes the following products:<br>
 
- *  Microsoft Word
- *  Microsoft Excel
- *  Microsoft PowerPoint
- *  Microsoft Outlook
- *  Microsoft Access
- *  Microsoft Publisher
- *  Microsoft OneNote
- *  Microsoft Teams
+ -  Microsoft Word
+ -  Microsoft Excel
+ -  Microsoft PowerPoint
+ -  Microsoft Outlook
+ -  Microsoft Access
+ -  Microsoft Publisher
+ -  Microsoft OneNote
+ -  Microsoft Teams
 
 > [!NOTE]
 > Access and Publisher aren't included in Microsoft Office for Mac installations.

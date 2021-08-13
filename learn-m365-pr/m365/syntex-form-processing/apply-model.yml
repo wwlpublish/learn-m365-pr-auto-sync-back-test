@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.syntex-form-processing.apply-model
+title: Apply a form processing to a library
+metadata:
+  title: Apply a form processing to a library
+  description:  Identify a scenario where a form processing model is necessary and learn how to resolve this scenario by creating a form processing model, train and test the form processing model, and apply the form processing model to the appropriate SharePoint document library.
+  ms.date: 07/27/2021
+  author: beccarobins
+  ms.author: beccarobins
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+ 
+durationInMinutes: 3
+content: |
+  [!include[](includes/apply-model.md)]

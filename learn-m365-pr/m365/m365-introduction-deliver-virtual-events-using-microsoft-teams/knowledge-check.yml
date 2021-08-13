@@ -1,0 +1,49 @@
+### YamlMime:ModuleUnit
+uid: learn-m365-pr.introduction-delivering-virtual-events-using-microsoft-teams-microsoft-365.knowledge-check
+title: Knowledge check ### Do not edit: use "Knowledge check" as the title; also, don't add another title in the quiz element or an associated markdown page (if such a markdown page exists which is rare)
+metadata:
+  unitType: knowledge_check
+  title: Knowledge check
+  description: Check what you've learned through this module
+  ms.date: 07/14/2021
+  author: lizap
+  ms.author: elizapo
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 3 
+content: |
+quiz:
+  questions:
+  - content: "You're bringing together your event team for this year's virtual summit. You know you need someone to watch the chat and help people mute and unmute themselves. What role is best suited to these tasks?"
+    choices:
+    - content: "Producer"
+      isCorrect: false
+      explanation: "That's incorrect. The producer is responsible for starting and stopping the events, queuing content, and managing back stage chat."
+    - content: "Moderator"
+      isCorrect: true
+      explanation: "That's correct. The moderator helps facilitate the smooth running of the event, manages the chat room and Q & A."
+    - content: "Organizer"
+      isCorrect: false
+      explanation: "That's incorrect. The organizer is the event host and create the event in Microsoft Teams. They'll curate and send out the invites."
+  - content: "You're reviewing the slides for the first day of your summit. The presenter has used large bold text with a color contrast ratio of 4.5:1. Is this OK for accessibility?"
+    choices:
+    - content: "4.5:1 is the minimum contrast ratio, so the slides are as accessible as they can be."
+      isCorrect: false
+      explanation: "That's incorrect. 4.5:1 is the minimum requirement for accessibility. The slide could be made more accessible with a different value."
+    - content: "3:1 is the preferable color contrast for large text. So, they could be more accessible if changed."
+      isCorrect: true
+      explanation: "That's correct. 3:1 is the recommended color contrast."
+    - content: "2:1 is what's required for all color contrast content, the size of the text doesn't matter."
+      isCorrect: false
+      explanation: "That's incorrect. 2:1 isn't a required contrast ration, and there are different values depending on the size of text."
+  - content: "Which of the following stages is not included in the event design model?"
+    choices:
+    - content: "Attendee data"
+      isCorrect: true
+      explanation: "That's correct. The event design model includes awareness, education, intent, conversion, engagement, and finally satisfaction."
+    - content: "Awareness"
+      isCorrect: false
+      explanation: "Sorry, that's incorrect. Awareness is one of the stages of the event design model."
+    - content: "Engagement"
+      isCorrect: false
+      explanation: "Sorry, that's incorrect. Engagement is one of the stages of the event design model."

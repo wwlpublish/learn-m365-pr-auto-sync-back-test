@@ -4,7 +4,7 @@ title: Knowledge check
 metadata:
   title: Knowledge check
   description: "Knowledge check"
-  ms.date: 04/22/2021
+  ms.date: 07/09/2021
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -16,7 +16,7 @@ content: |
 quiz:
   title: "Check your knowledge"
   questions:
-  - content: "Which of the following Power Platform products enables users to create automated workflows between applications and services?"
+  - content: "Which of the following Microsoft Power Platform products enables users to create automated workflows between applications and services?"
     choices:
     - content: "Power Automate"
       isCorrect: true
@@ -27,7 +27,7 @@ quiz:
     - content: "Power BI"
       isCorrect: false
       explanation: "That's incorrect. Power BI delivers insight for analyzing data through the business analytics service. It can share those insights through data visualizations in reports and dashboards to help users make fast, informed decisions. Try again."
-  - content: "Which of the following Power Platform components enables users to predict outcomes to help improve business performance without writing code?"
+  - content: "Which of the following Microsoft Power Platform components enables users to predict outcomes to help improve business performance without writing code?"
     choices:
     - content: "Connectors"
       isCorrect: false
@@ -38,14 +38,14 @@ quiz:
     - content: "AI Builder"
       isCorrect: true
       explanation: "That's correct. This component enables users to easily add intelligence to their workflows and apps and predict outcomes to help improve business performance without writing code."
-  - content: "Which layer of security in the Power Platform's security model provides a space to store, manage, and share your organization’s business data, apps, and flows?"
+  - content: "Which layer of security in the Microsoft Power Platform's security model provides a space for organizations to store, manage, and share their business data, apps, and flows?"
     choices:
     - content: "Data gateways"
       isCorrect: false
-      explanation: "That's incorrect. This isn't a layer of security in the Power Platform's security model. Try again."
+      explanation: "That's incorrect. This isn't a layer of security in the Microsoft Power Platform's security model. Try again."
     - content: "Common Data Service"
       isCorrect: false
-      explanation: "That's incorrect. This isn't a layer of security in the Power Platform's security model. Try again."
+      explanation: "That's incorrect. This isn't a layer of security in the Microsoft Power Platform's security model. Try again."
     - content: "Environments"
       isCorrect: true
       explanation: "That's correct. An environment is a space to store, manage, and share your organization’s business data, apps, and flows. They also serve as containers to separate apps that may have different roles, security requirements, or target audiences. How administrators choose to use environments depends on the organization and the apps users are trying to build."
