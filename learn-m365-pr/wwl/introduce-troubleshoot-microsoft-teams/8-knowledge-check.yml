@@ -4,7 +4,7 @@ title: Knowledge check
 metadata:
   title: Knowledge check
   description: "Knowledge check"
-  ms.date: 07/09/2021
+  ms.date: 08/16/2021
   author: wwlpublish
   ms.author: cyncarey
   ms.topic: interactive-tutorial
@@ -43,7 +43,7 @@ quiz:
     - content: "The helpdesk should advise the user to restart their computer."
       isCorrect: false
       explanation: "That's incorrect. This won’t achieve anything."
-    - content: "The helpdesk should advise the user to ignore the message."
+    - content: "The helpdesk should advise the user that it is ok to bypass the message as it's informational only."
       isCorrect: true
       explanation: "That's correct. This message appears, notifying the user of a firewall configuration change. It’s nothing to worry about."
     - content: "The helpdesk should advise the user to use a web browser for Teams access until the problem is resolved."
