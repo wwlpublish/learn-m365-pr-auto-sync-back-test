@@ -4,7 +4,7 @@ title: Knowledge check
 metadata:
   title: Knowledge check
   description: "Knowledge check"
-  ms.date: 08/05/2021
+  ms.date: 08/16/2021
   author: wwlpublish
   ms.author: cyncarey
   ms.topic: interactive-tutorial
@@ -38,17 +38,17 @@ quiz:
     - content: "Media logs"
       isCorrect: true
       explanation: "That's correct. The media logs contain diagnostic data about audio, video, and screen sharing in Teams meetings."
-  - content: "Your organization develops social media videos for global clients. Users are complaining of Teams video problems during internal status meetings. Which of the following will improve video quality for all users?"
+  - content: "Your organization has migrated to Teams for telephony. Users are complaining of Teams audio problems during internal calls. Which of the following will improve audio quality for users?"
     choices:
     - content: "Hair-pinning"
       isCorrect: true
       explanation: "That's correct. Hair-pinning allows internal users to discover the external IP address of the SBC and prevent unnecessary media flow through the internet."
     - content: "Ensure all users have a Teams add on license."
       isCorrect: false
-      explanation: "That's incorrect. Users require a Teams add on license for Audio Conferencing. A Teams add on license will not improve video quality during a Teams meeting."
+      explanation: "That's incorrect. Users require a Teams add on license for Audio Conferencing. A Teams add on license will not improve audio quality during a Teams meeting."
     - content: "Logging in to the Call Quality Dashboard"
       isCorrect: false
-      explanation: "That's incorrect. The Call Quality Dashboard will help you monitor video quality, and monitor improvements when changes are made, but using logging in to the Call Quality Dashboard will not improve video quality."
+      explanation: "That's incorrect. The Call Quality Dashboard will help you monitor audio quality, and monitor improvements when changes are made, but using logging in to the Call Quality Dashboard will not improve audio quality."
   - content: "As part of a Teams testing program, you have found problems with dialing 3-digit extension numbers. When troubleshooting this issue, what would you check first?"
     choices:
     - content: "That a user dial plan is assigned to every user."

@@ -52,7 +52,7 @@ A dial plan translates a shortened version of a number, such as an extension num
 > [!TIP] 
 > Before creating dial plans and normalization rules, decide on an organization-wide naming convention. This will reduce errors and improve understanding when troubleshooting problems. Names should be descriptive so that anyone can understand their purpose.
 
-There are three different types of dial plan, which are used in order. That means that if you haven’t modified any dial plan, then the service dial plan will be used. If you modify the tenant global dial plan, that will be used in combination with the user dial plan. Finally, the user dial plan is used.
+There are three different types of dial plan, which are used in order. That means that if you haven’t modified any dial plan, then the service dial plan will be used. If you modify the tenant global dial plan, that will be used in combination with the service country dial plan. Finally, the user dial plan is used.
 
 |Dial plan|Scope|Description
 |---|---|---
