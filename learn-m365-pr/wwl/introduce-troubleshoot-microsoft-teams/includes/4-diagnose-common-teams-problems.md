@@ -19,7 +19,7 @@ You can also use log files that Teams generates for additional diagnostics and t
  
 
 > [!TIP]
-> When creating a support request with Microsoft Support, the support engineer will require the debug logs. Having these logs on hand before creating the support request.
+> When creating a support request with Microsoft Support, the support engineer will require the debug logs. Have these logs on hand before creating the support request.
 
 ## General issues
 

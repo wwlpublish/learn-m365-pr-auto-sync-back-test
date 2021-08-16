@@ -1,6 +1,6 @@
 Microsoft Teams scales from small companies to international conglomerates. If you have more than a small number of users, you need a way to manage Teams settings for them, without having to configure each user individually.
 
-In your large multi-national company, you've configured settings for your Teams deployment to conform to your security and access best practices. However, you also want to ensure that users conform to these best practices when the call each other or external users, and when they exchange messages.
+In your large multi-national company, you've configured settings for your Teams deployment to conform to your security and access best practices. However, you also want to ensure that users conform to these best practices when they call each other or external users, and when they exchange messages.
 
 Here, you'll learn how policies can be used to impose restrictions on large numbers of users and devices across your Teams system.
 
