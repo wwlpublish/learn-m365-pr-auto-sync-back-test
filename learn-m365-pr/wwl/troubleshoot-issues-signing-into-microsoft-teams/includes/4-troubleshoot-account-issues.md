@@ -63,7 +63,7 @@ You should also check the Azure AD Connect health. In the Azure Active Directory
 | Sync errors                     | Enables you to review sync errors by type,  and to configure notification settings. |
 | Sync services                   | Enables you to review any alerts about the  synchronization service. You can click through to discover more about any  identified issues. |
 | AD FS services                  | Provides service alert information for AD  FS issues.        |
-| AD FS services                  | Provides service alert information for AD DS  issues.        |
+| AD DS services                  | Provides service alert information for AD DS  issues.        |
 | Settings                        | Enables you to change the update settings  for your Azure AD Connect configuration. |
 | Role based access control (IAM) | Enables you to review or configure the  role assignments for your configuration. |
 
