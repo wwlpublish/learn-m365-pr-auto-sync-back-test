@@ -60,5 +60,5 @@ You use the Microsoft 365 Defender portal to access your tenant. From here, you 
 ## Learn more
 
 - [Microsoft Defender for Endpoint](microsoft-365/security/defender-endpoint/microsoft-defender-endpoint)
-- [Supported Windows versions](/microsoft-365/security/defender-endpoint/minimum-requirements)
-- [Licensing requirements](/microsoft-365/security/defender-endpoint/minimum-requirements)
+- [Supported Windows versions](/microsoft-365/security/defender-endpoint/minimum-requirements#supported-windows-versions)
+- [Licensing requirements](/microsoft-365/security/defender-endpoint/minimum-requirements#licensing-requirements)
