@@ -34,6 +34,6 @@ quiz:
     - content: "Block at first sight"
       isCorrect: false
       explanation: "That's incorrect. The block at first sight feature protects against viruses and malware."
-    - content: "PUA protection"
+    - content: "Potentially Unwanted App (PUA) protection"
       isCorrect: true
       explanation: "That's correct. Potentially Unwanted App (PUA) protection blocks applications with poor reputations and annoying features, including desktop advertising."

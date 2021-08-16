@@ -3,27 +3,27 @@ uid: learn-m365-pr.apply-next-generation-protection-with-microsoft-defender-for-
 metadata:
   moduleType: standard
   title: Apply next-generation protection with Microsoft Defender for Endpoint
-  description: Learn about next-generation protection in Microsoft Defender for Endpoint, including behavior-based, heuristic, and real-time antivirus protection, cloud-delivered protection, dedicated protection and product updates, and more.
+  description: Learn about next-generation protection in Microsoft Defender for Endpoint including behavior-based, heuristic, and real-time antivirus protection, cloud-delivered protection, dedicated protection and product updates, and more.
   ms.date: 07/06/2021
   author: alistairmatthews
   ms.author: beccarobins
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Apply next-generation protection with Microsoft Defender for Endpoint
-summary: Learn about next-generation protection in Microsoft Defender for Endpoint, including behavior-based, heuristic, and real-time antivirus protection, cloud-delivered protection, dedicated protection and product updates, and more.
-abstract: | 
+summary: Learn about next-generation protection in Microsoft Defender for Endpoint including behavior-based, heuristic, and real-time antivirus protection, cloud-delivered protection, dedicated protection and product updates, and more.
+abstract: |
   By the end of this module, you'll be able to:
   - Understand Microsoft Defender for Endpoint's next-generation protection
   - Understand behavioral blocking and containment.
-prerequisites: | 
+prerequisites: |
   - Basic familiarity with Microsoft Defender for Endpoint.
 iconUrl: /learn/achievements/generic-badge.svg
 levels:
   - beginner
-roles: 
+roles:
   - security-operations-analyst
   - security-engineer
-products: 
+products:
   - m365
   - m365-security-center
   - mdatp
@@ -33,5 +33,5 @@ units:
 - learn-m365-pr.apply-next-generation-protection-with-microsoft-defender-for-endpoint.behavioral-blocking-containment
 - learn-m365-pr.apply-next-generation-protection-with-microsoft-defender-for-endpoint.knowledge-check
 - learn-m365-pr.apply-next-generation-protection-with-microsoft-defender-for-endpoint.summary
-badge: 
+badge:
   uid: learn-m365-pr.apply-next-generation-protection-with-microsoft-defender-for-endpoint.badge

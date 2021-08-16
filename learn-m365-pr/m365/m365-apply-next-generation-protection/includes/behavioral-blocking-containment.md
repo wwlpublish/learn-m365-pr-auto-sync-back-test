@@ -13,15 +13,15 @@ Antivirus software in your organization might not be able to pick up on some thr
   - **Type 3:** Files required to operate. Malware of this type has fileless persistence, but requires files to operate successfully.
 - **Human-operated attacks**. This term describes attacks initiated and continued by a malicious user, which may not use files at all and so cannot be scanned and intercepted by standard anti-virus software. Human-operated attacks also change depending on what vulnerabilities an attacker discovers on the target system.
 
-You can use behavioral blocking and containment in Microsoft Defender for Endpoint to identify threats by their behaviors and process trees both before an attack has started, and while it is going on. Behavioral blocking and containment consists of several components including:
+You can use behavioral blocking and containment in Microsoft Defender for Endpoint to identify threats by their behaviors and process trees both before an attack has started, and while it is going on. Behavioral blocking and containment consist of several components including:
 
 - Client behavioral blocking
 - Feedback-loop blocking
-- EDR in block mode
+- Endpoint detection and response (EDR) in block mode
 
 ## Use client behavioral blocking
 
- You can use client behavioral blocking to detect suspicious behaviors on your devices, and ensure that suspicious artifacts are blocked, checked, and remediated automatically. You'll find information about suspicious actions in in Microsoft Defender for Endpoint under EDR for analysis, and to help detect similar attacks on other devices. This allows you to take advantage of machine learning in the cloud, which can differentiate between malicious sequences of actions and legitimate operations in milliseconds. And it allows you to ensure that bad actors are blocked almost instantaneously.
+ You can use client behavioral blocking to detect suspicious behaviors on your devices, and ensure that suspicious artifacts are blocked, checked, and remediated automatically. You'll find information about suspicious actions in Microsoft Defender for Endpoint under EDR for analysis, and to help detect similar attacks on other devices. This allows you to take advantage of machine learning in the cloud, which can differentiate between malicious sequences of actions and legitimate operations in milliseconds. And it allows you to ensure that bad actors are blocked almost instantaneously.
 
 Use client behavioral blocking to stop attacks both before they begin in addition to after they have started. Client behavioral blocking is enabled by default.
 
