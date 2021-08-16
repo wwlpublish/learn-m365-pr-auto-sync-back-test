@@ -18,7 +18,7 @@ summary: Learn about the three-phase process to onboard your organization to Mic
 abstract: |
   By the end of this module, you'll be able to:
   - Plan for Microsoft Defender for Endpoint.
-  - Prepare for Microsoft Defender for Endpoint.
+  - Prepare for Microsoft Defender for Endpoint deployment.
   - Set up and onboard devices to Microsoft Defender for Endpoint.
 prerequisites: |
   - Basic familiarity with Microsoft Defender for Endpoint
