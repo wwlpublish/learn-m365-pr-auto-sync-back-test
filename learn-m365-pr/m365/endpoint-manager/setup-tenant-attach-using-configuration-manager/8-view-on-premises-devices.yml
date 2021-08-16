@@ -5,7 +5,7 @@ metadata:
   unitType: learning-content
   title: View on-premises device details
   description: Learn how to view on-premises client and device details, install apps, and run PowerShell scripts from Microsoft Endpoint Manager admin center.
-  ms.date: 8/03/2021
+  ms.date: 8/16/2021
   author: Erikre
   ms.author: erikre
   ms.topic: interactive-tutorial

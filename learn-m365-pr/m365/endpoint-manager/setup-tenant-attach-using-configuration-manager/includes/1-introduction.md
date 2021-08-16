@@ -15,8 +15,3 @@ In this module, you will:
 - Display the connector status
 - Perform device actions
 - View on-premises device details
-
-## Prerequisites
-
-- Basic knowledge of Microsoft Endpoint Manager and endpoint management concepts, see [Microsoft Endpoint Manager fundamentals](/learn/paths/endpoint-manager-fundamentals).
-- Understand your endpoint management objectives, device inventory considerations, licensing needs, infrastructure objectives, and rollout plans, see [Determine your endpoint management implementation](/learn/modules/determine-endpoint-implementation).
