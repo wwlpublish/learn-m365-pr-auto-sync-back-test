@@ -1,0 +1,50 @@
+### YamlMime:ModuleUnit
+uid: learn.setup-tenant-attach-using-configuration-manager.knowledge-check
+title: Knowledge check 
+metadata:
+  unitType: knowledge_check
+  title: Knowledge check
+  description: Knowledge check
+  ms.date: 8/16/2021
+  author: Erikre
+  ms.author: erikre
+  ms.topic: interactive-tutorial
+  ms.prod: learning-endpoint-manager
+durationInMinutes: 3
+content: |
+quiz:
+  questions:
+  - content: "Which best describes tenant attach?"
+    choices:
+    - content: "Tenant attach is the process of attaching your Intune tenant to the cloud. The process incorporates co-management so that all your endpoints are successfully managed."
+      isCorrect: false
+      explanation: "Tenant attach allows you to recognize your Configuration Manager devices and infrastructure."
+    - content: "Tenant attach allows you to recognize your Configuration Manager devices and infrastructure by the Intune cloud service and take actions from Microsoft Endpoint Manager."
+      isCorrect: true
+      explanation: "Tenant attach enables all your on-premises endpoints using Microsoft Endpoint Manager."
+    - content: "Tenant attach sets up synchronization between your Azure Active Directory instance and M365. When you use tenant attach, you no longer need to use Microsoft Endpoint Manager."
+      isCorrect: false
+      explanation: "Tenant attach allows you to recognize your Configuration Manager devices and infrastructure."
+  - content: "When implementing tenant attach, why is enabling internet endpoints important?"
+    choices:
+    - content: "Enabling specific internet endpoints will provide needed connectivity that will allow Configuration Manager features to fully function."
+      isCorrect: true
+      explanation: "If your organization restricts network communication with the internet using a firewall or proxy device, enabling endpoints will allow needed connectivity."
+    - content: "Enabling internet endpoints must be prevented when implementing tenant attach."
+      isCorrect: false
+      explanation: "Enabling internet endpoints will allow needed Configuration Manager connectivity."
+    - content: "Internet endpoints must be secure. For this reason, they must be managed by Microsoft Endpoint Manager."
+      isCorrect: false
+      explanation: "Enabling internet endpoints will allow needed Configuration Manager connectivity."
+  - content: "Which statement best describes the actions you can take after implementing tenant attach?"
+    choices:
+    - content: "Tenant attach allows you to recognize your Microsoft Endpoint Manager devices and take actions from Configuration Manager."
+      isCorrect: false
+      explanation: "Tenant attach allows you to recognize your Configuration Manager devices and take actions from Microsoft Endpoint Manager."
+    - content: "Tenant attach allows you to recognize your Configuration Manager devices and take actions from Microsoft Endpoint Manager, such as viewing client device details, viewing client device data, managing client apps, and running scripts on client devices."
+      isCorrect: true
+      explanation: "Tenant attach allows you to view client and device details, install apps, and run PowerShell scripts from Microsoft Endpoint Manager admin center. Additionally, you can view a timeline of device events that are synced each day, as well as perform other actions."
+    - content: "Tenant attach allows you to recognize your Configuration Manager devices without taking action from Microsoft Endpoint Manager. By implementing tenant attach you can view cloud-based tenant details, cloud-based device data, and cloud-based apps."
+      isCorrect: false
+      explanation: "Tenant attach allows you to recognize your Configuration Manager devices and take actions from Microsoft Endpoint Manager."
+  
