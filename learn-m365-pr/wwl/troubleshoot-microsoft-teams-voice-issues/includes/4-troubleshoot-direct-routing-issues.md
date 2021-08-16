@@ -123,4 +123,4 @@ To troubleshoot media bypass:
 
 - Check that the Teams client has access to the public IP address of the SBC, including from the internal network. This is known as “hair-pinning”.
 - If the Teams client does not have access to the public IP address of the SBC, media will be relayed by the Teams Transport Relay servers but still bypasses the Media Processors.
-- To optimize media bypass for your configuration, consider the location of your SBCs, and how close your users are to the Microsoft Transport Relay servers. Where possible, allow internal users to connect directly to the SBC, but block external users.
+- To optimize media bypass for your configuration, consider the location of your SBCs, and how close your users are to the Microsoft Transport Relay servers. Where possible, allow internal users to connect directly to the SBC, but block external users. 
