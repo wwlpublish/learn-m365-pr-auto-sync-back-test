@@ -1,4 +1,4 @@
-Microsoft Defender for Endpoint includes a range of attack surface reduction capabilities to secure your organization’s devices and systems without hindering productivity. You can use attack surface reduction capabilities to help prevent malicious attacks by closing gaps and reducing vulnerability.
+Microsoft Defender for Endpoint includes a range of attack surface reduction capabilities to secure your organization's devices and systems without hindering productivity. You can use attack surface reduction capabilities to help prevent malicious attacks by closing gaps and reducing vulnerability.
 
 Here, you'll get an explanation of what attack surface reduction is in Microsoft Defender for Endpoint, including an overview of the different controls it provides.
 
