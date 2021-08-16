@@ -18,43 +18,43 @@ quiz:
     choices:
     - content: "View data"
       isCorrect: true
-      explanation: "Use this permission to view data."
+      explanation: "That's right! Use this permission to view data."
     - content: "Global administrator"
       isCorrect: false
       explanation: "This is a role and not a permission. The Global administrator is one of the most powerful roles. Don't use this role just to view information."
     - content: "Active remediation actions"
       isCorrect: false
-      explanation: "While this permission lets you view information, it also enables users to take action. Don't use this permission just to view information. Only assign this permission to users who need to carry out actions on the portal."
+      explanation: "Not quite. While this permission lets you view information, it also enables users to take action. Don't use this permission just to view information. Only assign this permission to users who need to carry out actions on the portal."
   - content: "Which aggregate score indicates the general security configuration posture of the devices across your organization?"
     choices:
     - content: "Exposure score"
       isCorrect: false
-      explanation: "Exposure score indicates the device exposure to threats and vulnerabilities across your organization."
+      explanation: "That's not right. Exposure score indicates the device exposure to threats and vulnerabilities across your organization."
     - content: "Device tag value"
       isCorrect: false
-      explanation: "Device value indicates how assets should be prioritized."
+      explanation: "This is incorrect. The device tag value indicates how assets should be prioritized."
     - content: "Secure Score"
       isCorrect: true
-      explanation: "The higher your score, the more resilient your endpoints are to threats."
+      explanation: "That's right! The higher your Secure Score, the more resilient your endpoints are to threats."
   - content: "Where can you find common vulnerabilities and exploits?"
     choices:
     - content: "In the software inventory pane."
       isCorrect: false
-      explanation: "The software inventory pane doesn't list all the common vulnerabilities and exploits."
+      explanation: "That's incorrect. The software inventory pane doesn't list all the common vulnerabilities and exploits."
     - content: "In the event timeline."
       isCorrect: false
-      explanation: "The event timeline pane doesn't list all the common vulnerabilities and exploits."
+      explanation: "That's incorrect. The event timeline pane doesn't list all the common vulnerabilities and exploits."
     - content: "In the weaknesses pane"
       isCorrect: true
-      explanation: "Use the weaknesses pane to view all of the common vulnerabilities and exploits across your endpoints."
+      explanation: "That's right! Use the weaknesses pane to view all of the common vulnerabilities and exploits across your endpoints."
   - content: "What can you do to address a zero-day vulnerability?"
     choices:
     - content: "Use the suggested workaround until a fix is available."
       isCorrect: true
-      explanation: "Workarounds will help you deal with the vulnerability until a fix is available."
+      explanation: "That's correct! Workarounds will help you deal with the vulnerability until a fix is available."
     - content: "Use the zero-day tag to remove the vulnerability"
       isCorrect: false
-      explanation: "Tagging doesn't remove the vulnerability."
+      explanation: "That's incorrect. Tagging doesn't remove the vulnerability."
     - content: "Use the EOS tag to remove the vulnerability"
       isCorrect: false
-      explanation: "Tagging doesn't remove the vulnerability."
+      explanation: "That isn't right. Tagging doesn't remove the vulnerability."

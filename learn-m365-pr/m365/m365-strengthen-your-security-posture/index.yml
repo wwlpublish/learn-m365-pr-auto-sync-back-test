@@ -3,14 +3,14 @@ uid: learn-m365-pr.strengthen-your-security-posture
 metadata:
   moduleType: standard
   title: Strengthen your security posture with Microsoft Defender for Endpoint
-  description: Learn about Microsoft Defender for Endpoint capabilities such as threat and vulnerability management, exposure score, Microsoft Secure Score for devices, and security recommendations, so you can identify vulnerabilities across your devices, and remediate them, in order to strengthen your security posture.
+  description: Learn about Microsoft Defender for Endpoint capabilities, such as threat and vulnerability management, exposure score, Microsoft Secure Score for devices, and security recommendations, so you can identify vulnerabilities across your devices, and remediate them to strengthen your security posture.
   ms.date: 07/15/2021
   author: iankensey
   ms.author: beccarobins
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Strengthen your security posture with Microsoft Defender for Endpoint
-summary: Learn about Microsoft Defender for Endpoint capabilities such as threat and vulnerability management, exposure score, Microsoft Secure Score for devices, and security recommendations, so you can identify vulnerabilities across your devices, and remediate them, in order to strengthen your security posture.
+summary: Learn about Microsoft Defender for Endpoint capabilities, such as threat and vulnerability management, exposure score, Microsoft Secure Score for devices, and security recommendations, so you can identify vulnerabilities across your devices and remediate them to strengthen your security posture.
 abstract: |
   By the end of this module, you'll be able to:
   - Understand threat and vulnerability management in Microsoft Defender for Endpoint.
