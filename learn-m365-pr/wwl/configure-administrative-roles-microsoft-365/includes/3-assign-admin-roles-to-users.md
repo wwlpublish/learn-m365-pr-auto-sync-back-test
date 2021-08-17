@@ -1,120 +1,252 @@
-In Microsoft 365, you use administrator roles to assign specific administrative functions to users. Each admin role maps to common business functions and gives people in your organization permissions to do specific tasks in the Microsoft 365 admin center. You can manage admin roles in Microsoft 365 using the Microsoft 365 admin center or Windows PowerShell.
+In Microsoft 365, administrator roles are used to assign specific administrative functions to users. Each admin role maps to common business functions and gives people permissions to do specific tasks in the Microsoft 365 admin center. Admin roles can be managed in Microsoft 365 using the Microsoft 365 admin center or Windows PowerShell.
 
 The following table describes several of the key admin roles that are available in the Microsoft 365 admin center. The table also provides typical scenarios for when these roles should be assigned to users.
 
 :::row:::
   :::column:::
-    <p><b>Administrator role</b></p>
+    
+
+**Administrator role**
+
+
   :::column-end:::
   :::column:::
-    <p><b>Description</b></p>
+    
+
+**Description**
+
+
   :::column-end:::
   :::column:::
-    <p><b>When to use</b></p>
-  :::column-end:::
-:::row-end:::
-:::row:::
-  :::column:::
-    <p>Global Administrator</p>
-  :::column-end:::
-  :::column:::
-    <p>This role is the ultimate administrator and includes access to all administrative features in Microsoft 365. It is also the only admin role who can assign other admin roles.</p>
-  :::column-end:::
-  :::column:::
-    <p>It is recommended to only have a limited number of global administrators to reduce the risk to your business.<br></p>  <p>By default, the person who signs up to buy Microsoft 365 becomes a global admin.</p>
-  :::column-end:::
-:::row-end:::
-:::row:::
-  :::column:::
-    <p>Billing Administrator</p>
-  :::column-end:::
-  :::column:::
-    <p>Makes purchases, manages subscriptions, manages support tickets, and monitors service health.</p>
-  :::column-end:::
-  :::column:::
-    <p>Ideal for users of your purchasing department that manage Microsoft 365 licenses.</p>
+    
+
+**When to use**
+
+
   :::column-end:::
 :::row-end:::
 :::row:::
   :::column:::
-    <p>Dynamics 365 Service Administrator</p>
+    
+
+Global Administrator
+
+
   :::column-end:::
   :::column:::
-    <p>This role can manage instances in the Dynamics 365 admin center and is able to assign users to manage Dynamics 365 at the tenant level.</p>
+    
+
+This role is the ultimate administrator and includes access to all administrative features in Microsoft 365. It's also the only admin role who can assign other admin roles.
+
+
   :::column-end:::
   :::column:::
-    <p>Used if you need to configure and manage Dynamics 365.</p>
-  :::column-end:::
-:::row-end:::
-:::row:::
-  :::column:::
-    <p>Exchange Service Administrator</p>
-  :::column-end:::
-  :::column:::
-    <p>Manages mailboxes and anti-spam policies for your business, using the Exchange admin center. Can view all the activity reports in the Microsoft 365 admin center.</p>
-  :::column-end:::
-  :::column:::
-    <p>Used if you need to manage mailbox-related settings and attributes such as mailbox size or mail flow connectors.</p>
-  :::column-end:::
-:::row-end:::
-:::row:::
-  :::column:::
-    <p>Helpdesk Administrator</p>
-  :::column-end:::
-  :::column:::
-    <p>Resets passwords, manages service requests, and monitors service health. Helpdesk admins are limited to resetting passwords for users only; they cannot reset passwords for anyone with an administrator role.</p>
-  :::column-end:::
-  :::column:::
-    <p>For administrators that need to reset passwords or manage service requests.</p>
+    
+
+It's recommended to only have a limited number of global administrators to reduce the risk to your business.
+
+
+By default, the person who signs up to buy Microsoft 365 becomes a global admin.
+
+
   :::column-end:::
 :::row-end:::
 :::row:::
   :::column:::
-    <p>Power BI Administrator</p>
+    
+
+Billing Administrator
+
+
   :::column-end:::
   :::column:::
-    <p>The Power BI admin role will have access to Microsoft 365 Power BI usage metrics. They'll also be able to control your organization's usage of Power BI features.</p>
+    
+
+Makes purchases, manages subscriptions, manages support tickets, and monitors service health.
+
+
   :::column-end:::
   :::column:::
-    <p>For administrators that want to manage Power BI.</p>
-  :::column-end:::
-:::row-end:::
-:::row:::
-  :::column:::
-    <p>Service Support Administrator</p>
-  :::column-end:::
-  :::column:::
-    <p>Can open support requests with Microsoft and views the service dashboard and message center.<br></p>  <p>They have “view only” permissions except for opening support tickets and reading them.</p>
-  :::column-end:::
-  :::column:::
-    <p>This role is ideal for your first or second-level support staff that manages Microsoft 365 problems and incidents.</p>
-  :::column-end:::
-:::row-end:::
-:::row:::
-  :::column:::
-    <p>SharePoint Service Administrator</p>
-  :::column-end:::
-  :::column:::
-    <p>Manages the document storage for your business using the SharePoint admin center in SharePoint Online. They can also assign other people to be Site Collection administrators and Term Store administrators.<br></p>  <p>People in this role can also view all the activity reports in the Microsoft 365 admin center.</p>
-  :::column-end:::
-  :::column:::
-    <p>For administrators that need to manage SharePoint Online.</p>
+    
+
+Ideal for users of your purchasing department that manage Microsoft 365 licenses.
+
+
   :::column-end:::
 :::row-end:::
 :::row:::
   :::column:::
-    <p>User Management Administrator</p>
+    
+
+Dynamics 365 Service Administrator
+
+
   :::column-end:::
   :::column:::
-    <p>Resets passwords, monitors service health, adds and deletes user accounts, and manages service requests. The user management admin can’t delete a global admin, create other admin roles, or reset passwords for global, billing, Exchange, SharePoint, Compliance, and Skype for Business admins.</p>
+    
+
+This role can manage instances in the Dynamics 365 admin center and assign users to manage Dynamics 365 at the tenant level.
+
+
   :::column-end:::
   :::column:::
-    <p>Good for your user helpdesk that manages user-related issues.</p>
+    
+
+Used if you must configure and manage Dynamics 365.
+
+
+  :::column-end:::
+:::row-end:::
+:::row:::
+  :::column:::
+    
+
+Exchange Service Administrator
+
+
+  :::column-end:::
+  :::column:::
+    
+
+Manages mailboxes and anti-spam policies for your business, using the Exchange admin center. Can view all the activity reports in the Microsoft 365 admin center.
+
+
+  :::column-end:::
+  :::column:::
+    
+
+Used if you must manage mailbox-related settings and attributes such as mailbox size or mail flow connectors.
+
+
+  :::column-end:::
+:::row-end:::
+:::row:::
+  :::column:::
+    
+
+Helpdesk Administrator
+
+
+  :::column-end:::
+  :::column:::
+    
+
+Resets passwords, manages service requests, and monitors service health. Helpdesk admins are limited to resetting passwords for users only. They can't reset passwords for anyone with an administrator role.
+
+
+  :::column-end:::
+  :::column:::
+    
+
+For administrators that must reset passwords or manage service requests.
+
+
+  :::column-end:::
+:::row-end:::
+:::row:::
+  :::column:::
+    
+
+Power BI Administrator
+
+
+  :::column-end:::
+  :::column:::
+    
+
+The Power BI admin role will have access to Microsoft 365 Power BI usage metrics. People assigned this role can control the organization's usage of Power BI features.
+
+
+  :::column-end:::
+  :::column:::
+    
+
+For administrators who want to manage Power BI.
+
+
+  :::column-end:::
+:::row-end:::
+:::row:::
+  :::column:::
+    
+
+Service Support Administrator
+
+
+  :::column-end:::
+  :::column:::
+    
+
+Can open support requests with Microsoft and views the service dashboard and message center.
+
+
+They have “view only” permissions except for opening support tickets and reading them.
+
+
+  :::column-end:::
+  :::column:::
+    
+
+This role is ideal for first or second-level support staff that manages Microsoft 365 problems and incidents.
+
+
+  :::column-end:::
+:::row-end:::
+:::row:::
+  :::column:::
+    
+
+SharePoint Service Administrator
+
+
+  :::column-end:::
+  :::column:::
+    
+
+Manages the document storage for your business using the SharePoint admin center in SharePoint Online. They can also assign other people to be Site Collection administrators and Term Store administrators.
+
+
+People assigned this role can also view all the activity reports in the Microsoft 365 admin center.
+
+
+  :::column-end:::
+  :::column:::
+    
+
+For administrators who must manage SharePoint Online.
+
+
+  :::column-end:::
+:::row-end:::
+:::row:::
+  :::column:::
+    
+
+User Management Administrator
+
+
+  :::column-end:::
+  :::column:::
+    
+
+Resets passwords, monitors service health, adds and deletes user accounts, and manages service requests. The user management admin can’t delete a global admin, create other admin roles, or reset passwords for global, billing, Exchange, SharePoint, Compliance, and Skype for Business admins.
+
+
+  :::column-end:::
+  :::column:::
+    
+
+Good for user helpdesk personnel that manage user-related issues.
+
+
   :::column-end:::
 :::row-end:::
 
 
-Individual service administrators can administer their services on the highest level, while the Global admin role simply includes all these service admin roles. This relationship is depicted in the following diagram (Note - all service admin roles are included in the Global admin role, not just the four service admin roles shown here. This diagram simply illustrates the relationship between the service admin roles and the Global admin role.
+Individual service administrators can administer their services on the highest level, while the Global admin role simply includes all these service admin roles. This relationship is shown in the following diagram.
+
+> [!NOTE]
+> All service admin roles are included in the Global admin role, not just the four service admin roles shown here. This diagram simply illustrates the relationship between the service admin roles and the Global admin role.
 
 :::image type="content" source="../media/global-admin-role-relationships-e0920e52.jpg" alt-text="diagram shows how the Global admin role includes all the service admin roles":::
 
@@ -123,25 +255,30 @@ Additional admin roles such as Compliance Administrator and Company Administrato
 
 ### Assign admin roles in Microsoft 365
 
-All admin roles are not mutually exclusive, but they can be combined. You can assign one or more admin roles to a user, such as the Exchange admin, SharePoint admin, and User Management administrator roles.
+The Microsoft 365 administrator roles aren't mutually exclusive, but they can be combined. One or more admin roles can be assigned to a user, such as the Exchange admin, SharePoint admin, and User Management admin roles.
 
-Admin roles are based on groups held in Azure Active Directory (AAD). Even though you can’t see these groups through the AAD console, you can assign admin roles either in the Microsoft 365 admin center or using Windows PowerShell.
+Admin roles are based on groups held in Azure Active Directory (Azure AD). Even though these groups can't be seen through the Azure AD console, admin roles can be assigned in either the Microsoft 365 admin center or Windows PowerShell.
 
-To assign admin roles in Microsoft 365 admin center, you need to login using a Global admin account and follow these steps:
+To assign admin roles in Microsoft 365 admin center, you must sign in using a Global admin account and follow these steps:
 
-1.  In the Admin center, select **Users**, and then click **Active Users**.
+1.  In the Admin center, select **Users**, and then select **Active Users**.
 2.  On the **Active users** page, choose the user whose administrator role you want to change. The **Properties** page for the user opens.
-3.  Next to **Roles**, click **Edit**.
-4.  On the **Edit user roles** page, you can choose the following options:
+3.  Next to **Roles**, select **Edit**.
+4.  On the **Edit user roles** page, choose one of the following options:
     
-     *  User (no administrator access)
-     *  Global administrator
-     *  Customized administrator (to see a list of admin roles)
-5.  In the **Alternative email address** field, you can type an email address that is not connected to Office 365. This email address is used for important notifications, including resetting your admin password.
-6.  To close the **Edit user roles** page, click **Save**.
+     -  User (no administrator access)
+     -  Global administrator
+     -  Customized administrator (to see a list of admin roles)
+5.  In the **Alternative email address** field, you can type an email address that isn't connected to Microsoft 365. This email address is used for important notifications, including resetting your admin password.
+6.  To close the **Edit user roles** page, select **Save**.
 
-If you want to use Windows PowerShell to assign admin roles to your users, you need to use the **Get-MsolRole**cmdlet to find out what is the admin role name you want to assign, and then use the **Add-MsolRoleMember** cmdlet to assign the role to a user. For example, the following cmdlet adds the user Stella Carrillo to the Exchange administrator role:
+To use Windows PowerShell to assign admin roles to users, you must first use the **Get-MsolRole** cmdlet to find out the internal admin role name that you want to assign.
+
+You'll then use the **Add-MsolRoleMember** cmdlet to assign that role to a user. For example, the following cmdlet adds the user Holly Spencer to the Exchange administrator role for Contoso:
 
 ```
-Add-MsolRoleMember -RoleName "Exchange Service Administrator" -RoleMemberEmailAddress "StellaC@adatum.com”
+Add-MsolRoleMember -RoleName "Exchange Service Administrator" -RoleMemberEmailAddress "HollyS@contoso.com”
 ```
+
+> [!CAUTION]
+> For some roles, the internal role name is different from the role name displayed in the Microsoft 365 admin center. That's why you should first use the **Get-MsolRole** cmdlet to find out the "official", internal role name when using PowerShell to assign roles to user accounts. If you use a role name that appears in the admin center, the **Add-MsolRoleMember** command will fail if the internal role name is different.

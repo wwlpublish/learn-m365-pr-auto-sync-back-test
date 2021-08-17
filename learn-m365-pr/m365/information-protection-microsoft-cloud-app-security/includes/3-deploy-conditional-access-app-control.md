@@ -1,26 +1,19 @@
 Conditional App Access Control is a feature of Microsoft Cloud App Services that allows you to implement policies to monitor and control apps in real time. These policies can implement a number of controls, including:
 
--   Protecting downloads by either labeling and protecting downloaded files with Azure Information Protection or blocking the copying or downloading of sensitive documents to unmanaged devices.
-
--   Blocking the upload of files that are potentially malicious, or that are unlabeled.
-
--   Blocking access or activities based on risk factors.
-
--   Monitoring and logging the activity of risky users.
+- Protecting downloads by either labeling and protecting downloaded files with Azure Information Protection or blocking the copying or downloading of sensitive documents to unmanaged devices.
+- Blocking the upload of files that are potentially malicious, or that are unlabeled.
+- Blocking access or activities based on risk factors.
+- Monitoring and logging the activity of risky users.
 
 Any web app that uses Security Assertion Markup Language (SAML) 2.0 or Open ID Connect is supported for Conditional Access App Control. Any Azure AD app that uses Azure AD App Proxy is also supported for Conditional Access App Control.
 
 The process of using a web app protected by Conditional Access App Control is as follows:
 
-1.  User browses to web app.
-
-2.  User authenticates using web app's identity provider.
-
-3.  Identity provider redirects to Microsoft Cloud App Security and Microsoft Cloud App Security applies a session policy.
-
-4.  The web session is proxied by Microsoft Cloud App Security.
-
-5.  Session activity is audited and governed.
+1. User browses to web app.
+2. User authenticates using web app's identity provider.
+3. Identity provider redirects to Microsoft Cloud App Security and Microsoft Cloud App Security applies a session policy.
+4. The web session is proxied by Microsoft Cloud App Security.
+5. Session activity is audited and governed.
 
 ## Steps to add an app to Conditional Access App Control
 

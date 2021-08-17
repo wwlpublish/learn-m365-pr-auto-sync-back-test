@@ -1,4 +1,4 @@
-A typical organization’s IT support staff reckon on their users using 30 or 40 apps throughout the organization. The reality is often different, with hundreds of apps, perhaps many more, being used. It’s difficult to imagine how IT staff can easily manage apps they know nothing about. And worse, to control possible security threats posed by those unknown apps.
+A typical organization's IT support staff reckon on their users using 30 or 40 apps throughout the organization. The reality is often different, with hundreds of apps, perhaps many more, being used. It's difficult to imagine how IT staff can easily manage apps they know nothing about. And worse, to control possible security threats posed by those unknown apps.
 
 > [!NOTE]
 > Around 80% of employees in a typical organization use unsanctioned apps. These apps might not meet compliance or security standards of your organization.
@@ -15,13 +15,13 @@ The following table describes these three key phases, which represent a continua
 
 | Phase                  | Description                                                  |
 | ---------------------- | ------------------------------------------------------------ |
-| Discover and  identify | Run Cloud  Discovery to identify your organization’s security posture. The first part of  this phase is to discover what apps are being used. The second part  identifies the risks levels of the discovered apps. |
-| Evaluate and  analyze  | During this  phase, you must evaluate compliance and verify whether discovered apps are  certified as compliant with your organization’s standards. You must also  determine app usage. Rarely used noncompliant apps can perhaps easily be  blocked. The third part of this phase is to consider alternatives to any  detected unsafe or noncompliant apps. |
+| Discover and  identify | Run Cloud  Discovery to identify your organization's security posture. The first part of  this phase is to discover what apps are being used. The second part  identifies the risks levels of the discovered apps. |
+| Evaluate and  analyze  | During this  phase, you must evaluate compliance and verify whether discovered apps are  certified as compliant with your organization's standards. You must also  determine app usage. Rarely used noncompliant apps can perhaps easily be  blocked. The third part of this phase is to consider alternatives to any  detected unsafe or noncompliant apps. |
 | Manage and  monitor    | In the third  phase, you must manage discovered cloud apps. This is an ongoing process  within an organization, and usually involves classifying apps according to  business status or justification for use. You typically use tags during this  process. |
 
 These three phases represent a continuous process within your organization. In addition to these three continual phases, you must also consider two additional phases. These are:
 
-- Reporting. Use Cloud App Security options to get insights into your organization’s app usage.
+- Reporting. Use Cloud App Security options to get insights into your organization's app usage.
 
     > [!TIP]
     > You can integrate Cloud Discovery logs into Azure Sentinel for further investigation and analysis.

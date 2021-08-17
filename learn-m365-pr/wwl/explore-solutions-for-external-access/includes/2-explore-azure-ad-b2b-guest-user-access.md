@@ -2,36 +2,37 @@ Azure Active Directory (Azure AD) Business-to-Business (B2B) collaboration enabl
 
 ### Collaborate with any partner using their identities
 
-With Azure AD B2B, the external partner uses its own identity management solution. This design provides the following benefits to your organization:
+With Azure AD B2B, the external partner uses its own identity management solution. This design provides the following benefits to an organization:
 
- *  Azure AD isn't required.
- *  There's no external administrative overhead required by your organization.
+ -  Azure AD isn't required.
+ -  There's no external administrative overhead required by an organization, which no longer has to:
     
-     *  You don't have to manage external accounts or passwords.
-     *  You don't have to sync accounts or manage account lifecycles.
+     -  manage external accounts or passwords.
+     -  synchronize accounts.
+     -  manage account lifecycles.
 
 ### Invite guest users with a simple invitation and redemption process
 
-Guest users sign in to your apps and services with their own work, school, or social identities. If the guest user doesn't have a Microsoft account or an Azure AD account, one is created for them when they redeem their invitation. The process for inviting and redeeming a guest user includes:
+Guest users sign in to an organization's apps and services with their own work, school, or social identities. If the guest user doesn't have a Microsoft account or an Azure AD account, one is created for them when they redeem their invitation. The process for inviting and redeeming a guest user includes:
 
- *  Invite guest users using the email identity of their choice.
- *  Send a direct link to an app, or send an invitation to the guest user's own Access Panel.
- *  Guest users follow a few simple redemption steps to sign in.
+ -  Invite guest users using the email identity of their choice.
+ -  Send a direct link to an app, or send an invitation to the guest user's own Access Panel.
+ -  Guest users follow a few simple redemption steps to sign in.
 
 ### Use policies to securely share your apps and services
 
-You can use authorization policies to protect your corporate content. Conditional Access policies, such as multi-factor authentication, can be enforced:
+Authorization policies can be used to protect an organization's corporate content. Conditional Access policies, such as multifactor authentication, can be enforced:
 
- *  at the tenant level.
- *  at the application level.
- *  for specific guest users to protect corporate apps and data.
+ -  at the tenant level.
+ -  at the application level.
+ -  for specific guest users to protect corporate apps and data.
 
 ### Easily add guest users in the Azure AD portal
 
-As an administrator, you can easily add guest users to your organization in the Azure portal. The process to add a guest user includes:
+Administrators can easily add guest users to their organization in the Azure portal. The process to add a guest user includes:
 
- *  Create a new guest user in Azure AD, similar to how you add a new user.
- *  The guest user immediately receives a customizable invitation that lets them sign in to their Access Panel.
- *  Guest users in the directory can be assigned to apps and groups.
+ -  Create a new guest user in Azure AD, similar to how a new user is added.
+ -  The guest user immediately receives a customizable invitation that lets them sign in to their Access Panel.
+ -  Guest users in the directory can be assigned to apps and groups.
 
-**Additional reading.** For more information, see [Azure Active Directory B2B collaboration licensing guidance](https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance?azure-portal=true).
+**Additional reading.** For more information, see [Azure Active Directory B2B collaboration licensing guidance](/azure/active-directory/b2b/licensing-guidance).

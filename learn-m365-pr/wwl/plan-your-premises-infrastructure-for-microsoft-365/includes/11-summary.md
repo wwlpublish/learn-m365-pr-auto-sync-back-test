@@ -4,10 +4,10 @@ To assist you as you plan your deployment, we recommended using a pre-deployment
 
 If your company has difficulty coming up with a planning checklist, Microsoft provides a Deployment Planning Checklist for Microsoft 365 that can get you started. You can then customize this list as per your organization's business requirements. In this module, we reviewed Microsoft’s Deployment Planning Checklist for Microsoft 365, and we examined the following steps in greater detail:
 
- *  Cleaning up your Active Directory
- *  Planning your mail migration
- *  Planning your data storage
+ -  Cleaning up your Active Directory
+ -  Planning your mail migration
+ -  Planning your data storage
 
 This module also examined how you can estimate your organization's network bandwidth requirements to support Microsoft 365. It also introduced the tools that Microsoft provides to help you validate your network readiness.
 
-We finished this module by examining how to create a deployment strategy to implement Microsoft 365 services. Microsoft 365, together with Azure Active Directory (Azure AD), provides different avenues for companies to authenticate into its services. This module examined the different strategies for implementing Microsoft 365 services.<br>
+You completed this module by examining how to create a deployment strategy to implement Microsoft 365 services. Microsoft 365, together with Azure Active Directory, provides different avenues for companies to authenticate into its services. This module examined the different strategies for implementing Microsoft 365 services.

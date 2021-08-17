@@ -1,6 +1,6 @@
 Supposing that you're the administrator for a school, you'd be responsible for managing all the devices in your school's environment. You're now able to use tools like Intune for Education, School Data Sync, and Take a Test to help you manage the devices used by students and staff members. This way, you can protect your school's students and staff members, and you can facilitate learning.
 
-Without tools like Intune for Education, Microsoft’s Take a Test app, and School Data Sync, your school's environment could be vulnerable or non-compliant with standards and regulations, and learning can be negatively impacted. Instead, with the help of these tools, you're able to prevent those potential issues.
+Without tools like Intune for Education, Microsoft's Take a Test app, and School Data Sync, your school's environment could be vulnerable or non-compliant with standards and regulations, and learning can be negatively impacted. Instead, with the help of these tools, you're able to prevent those potential issues.
 
 Now that you've completed this module, you should be able to:
 

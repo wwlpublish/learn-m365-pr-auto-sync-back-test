@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.troubleshoot-file-sharing.issues-for-private-channels
+title: Troubleshoot file issues for private channels
+metadata:
+  title: Troubleshoot file issues for private channels
+  description: "Troubleshoot file issues for private channels"
+  ms.date: 07/26/2021
+  author: wwlpublish
+  ms.author: cyncarey
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/3-issues-for-private-channels.md)]

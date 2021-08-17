@@ -3,7 +3,7 @@ uid: learn.wwl.manage-device-compliance
 metadata:
   title: Manage device compliance
   description: "Manage device compliance"
-  ms.date: 06/16/2021
+  ms.date: 07/27/2021
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -18,7 +18,7 @@ abstract: |
   - Monitor enrolled devices to control their Intune activities and compliance status
 prerequisites: |
   None
-iconUrl: /learn/achievements/generic-badge.svg
+iconUrl: /learn/achievements/mobile-device-management-compliance.svg
 levels:
 - intermediate
 roles:

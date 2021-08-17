@@ -21,21 +21,27 @@ Here are the steps to connect to Security & Compliance PowerShell:
 
 1. Open **Windows PowerShell** and issue the following command:
 
-    `$UserCredential = Get-Credential`
+    ```PowerShell
+    $UserCredential = Get-Credential
+    ```
 
     Type the **username** and **password** when the Windows PowerShell credential request dialog box appears.
 
 1. Run the following command:
 
-    `$Session = New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https://ps.compliance.protection.outlook.com/powershell-liveid/ -Credential $UserCredential -Authentication Basic -AllowRedirection`
+    ```PowerShell
+    $Session = New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https://ps.compliance.protection.outlook.com/powershell-liveid/ -Credential $UserCredential -Authentication Basic -AllowRedirection
+    ```
 
-    For Microsoft 365 Germany, use the **ConnectionUri** value: https://ps.compliance.protection.outlook.de/powershell-liveid/.
+    For Microsoft 365 Germany, use the `ConnectionUri` value: <https://ps.compliance.protection.outlook.de/powershell-liveid/>.
 
-    For Microsoft 365 Government Community Cloud High (GCC High), use the ConnectionUri value: https://ps.compliance.protection.office365.us/powershell-liveid/.
+    For Microsoft 365 Government Community Cloud High (GCC High), use the ConnectionUri value: <https://ps.compliance.protection.office365.us/powershell-liveid/>.
 
 1. Run the following command:
 
-    `Import-PSSession $Session -DisableNameChecking`
+    ```PowerShell
+    Import-PSSession $Session -DisableNameChecking
+    ```
 
 Watch this demonstration of how to connect to Security & Compliance Center PowerShell.
 
@@ -49,15 +55,19 @@ You must be assigned the Organization Configuration role in the Microsoft 365 De
 1. Connect to Security & Compliance Center PowerShell using an account that already has access.
 1. Use the `Add-RoleGroupMember` cmdlet to add a user to the Organization Management role group. This example shows AlexW being added to the role group:
 
-    `Add-RoleGroupMember -Identity "Organization Management" -Member AlexW`
+    ```PowerShell
+    Add-RoleGroupMember -Identity "Organization Management" -Member AlexW
+    ```
 
 1. Confirm the user has been added to the Organization Management group in Security & Compliance Center. Here is an example:
 
-    `Get-RoleGroupMember -Identity "Organization Management"`
+    ```PowerShell
+    Get-RoleGroupMember -Identity "Organization Management"
+    ```
 
     The image below is an example of the confirmation received that AlexW user is a member of the Organization Management role group. AlexW can now create or modify audit log retention policies.
 
-    ![User confirmation screen](../media/role-group.png)
+    :::image type="content" source="../media/role-group.png" alt-text="User confirmation screen":::
 
 ## Create audit log retention policy in Microsoft 365 compliance center
 
@@ -69,7 +79,7 @@ Audit log retention policies can be created using the Microsoft 365 compliance c
 
 |  Field |  Description |
 |---|---|
-|  Name	 | The name of the audit log retention policy. This name must be unique in your organization.  |
+|  Name | The name of the audit log retention policy. This name must be unique in your organization.  |
 |  Description | Provides information about the policy, such as the record type or workload, users specified in the policy, and the duration.  |
 |  Users | Select one or more users to apply the policy to. If you leave this box blank, then the policy will apply to all users. If you leave Users blank, you must select a Record Type.  |
 |  Record Type | The audit record type the policy applies to. If you select more than one record type, you can't select activities because the policy will apply to all activities for the selected record types. Also, if you leave Record Type blank, you must select a User.  |
@@ -92,7 +102,9 @@ Audit log retention policies can be created using the Security & Compliance Cent
 1. Connect to Security & Compliance PowerShell.
 2. Run the PowerShell command which will create an audit log retention policy. The sample provided uses the settings below.
 
-    `New-UnifiedAuditLogRetentionPolicy -Name "Microsoft Teams Audit Policy" -Description "Six-month retention policy for all Microsoft Teams activities" -RecordTypes MicrosoftTeams -RetentionDuration SixMonths -Priority 10`
+    ```PowerShell
+    New-UnifiedAuditLogRetentionPolicy -Name "Microsoft Teams Audit Policy" -Description "Six-month retention policy for all Microsoft Teams activities" -RecordTypes MicrosoftTeams -RetentionDuration SixMonths -Priority 10
+    ```
 
     |  Property | Value  |
     |---|---|
@@ -110,9 +122,11 @@ Watch this demonstration of how to create an audit log retention policy in Power
 
 ## View audit log retention policies using PowerShell
 
-Custom audit log retention policies are viewed using the *Get-UnifiedAuditRetentionPolicy* cmdlet in Security & Compliance Center PowerShell. There is no way to view the default audit log retention policy. Here is a sample PowerShell command to view the settings for the audit log retention policies in your organization. This command sorts the policies from the highest to lowest priority.
+Custom audit log retention policies are viewed using the `Get-UnifiedAuditRetentionPolicy` cmdlet in Security & Compliance Center PowerShell. There is no way to view the default audit log retention policy. Here is a sample PowerShell command to view the settings for the audit log retention policies in your organization. This command sorts the policies from the highest to lowest priority.
 
-`Get-UnifiedAuditLogRetentionPolicy | Sort-Object -Property Priority -Descending | FL Priority,Name,Description,RecordTypes,Operations,UserIds,RetentionDuration `
+```PowerShell
+Get-UnifiedAuditLogRetentionPolicy | Sort-Object -Property Priority -Descending | FL Priority,Name,Description,RecordTypes,Operations,UserIds,RetentionDuration 
+```
 
 ### View audit log retention policies using PowerShell
 

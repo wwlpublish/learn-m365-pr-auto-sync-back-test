@@ -1,0 +1,52 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.syntex-form-processing.knowledge-check
+title: Knowledge check
+metadata:
+  title: Knowledge check
+  description:  Identify a scenario where a form processing model is necessary and learn how to resolve this scenario by creating a form processing model, train and test the form processing model, and apply the form processing model to the appropriate SharePoint document library.
+  ms.date: 07/27/2021
+  author: beccarobins
+  ms.author: beccarobins
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+ 
+durationInMinutes: 3
+content: |
+quiz:
+    title: Check your knowledge
+    questions:
+    - content: "When initially creating your form processing model, where should you navigate to begin set up?"
+      choices:
+      - content: "The content center"
+        isCorrect: false
+        explanation: "Incorrect. This is where Document understanding models are created and cannot be used for creating form processing Models."
+      - content: "AI Builder"
+        isCorrect: true
+        explanation: "Correct. You will navigate to the 'Automate' option in the upper right-hand navigation ribbon and select 'AI Builder' to start building your form processing model."
+      - content: "Upload drop-down"
+        isCorrect: false
+        explanation: "Incorrect. The Upload dropdown in the navigation ribbon is used to add files to your SharePoint document library and does not trigger the form processing model build."
+
+    - content: "Imagine you are part of a software company's human resources hiring team. You have received a large number of filled-out applications for a new senior engineer position. One of the primary requirements you want to make sure a candidate has before moving on for further review is at least 10 years of engineering experience. How can a form processing model be used to help automate the hiring process?"
+      choices:
+      - content: "A form processing model can extract the 'Years of Experience' field to autopopulate as a column in the SharePoint document library."
+        isCorrect: true
+        explanation: "Correct. By appropriately identifying the field you want to extract information from and training your model, you can set up your SharePoint library to display the 'Years of Experience' value in a column so it can be easily sorted and the appropriate candidates can be filtered."
+      - content: "A form processing model can eliminate an application from the document library if it hasn't met the appropriate value for 'Years of Experience.'"
+        isCorrect: false
+        explanation: "Incorrect. form processing models do not create this action as this takes the process one step further and may potentially eliminate candidates with other qualifying attributes."
+      - content: "A form processing model can send the application to the hiring manager if the 'Years of Experience' is greater than 10 years."
+        isCorrect: false
+        explanation: "Incorrect. This level of automation is not possible and will ultimately result in many potentially non-ideal candidates being sent prematurely."
+
+    - content: "What should you expect to see after you have applied your form processing model to the appropriate document library and have uploaded the documents you want to include in the library?"
+      choices:
+      - content: "The pre-determined columns will fill gradually with the appropriate information pulled from the forms and the content type will update appropriately."
+        isCorrect: true
+        explanation: "Correct. The work you have done to set up and train the model will start to trigger the columns being updated with the fields you selected and the content type will be set to what you established as the appropriate content type for the form."
+      - content: "The content type will update to 'Complete.'"
+        isCorrect: false
+        explanation: "Incorrect. The content type will be updated to the content type you designated for the type of form uploaded."
+      - content: "The columns will be unsortable for a few days."
+        isCorrect: false
+        explanation: "Incorrect. Once the columns have filled out, you can sort the columns as needed."

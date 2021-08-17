@@ -1,4 +1,4 @@
-In this module, you learned how apps, bots, and connectors increase the power of Microsoft Teams and how to manage apps, bots, and connectors as you plan your organization’s Teams rollout.
+In this module, you learned how apps, bots, and connectors increase the power of Microsoft Teams and how to manage apps, bots, and connectors as you plan your organization's Teams rollout.
 
 Now that you have completed this module, you should be able to:
   

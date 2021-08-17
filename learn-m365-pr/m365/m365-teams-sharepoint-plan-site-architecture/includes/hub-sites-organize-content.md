@@ -29,7 +29,7 @@ At the top of a hub site and any associated sites, above the site navigation, is
 
 ## Search across the hub
 
-When you search from a SharePoint hub site, content on the hub site itself along with content on any associated sites is returned in the search results. Users will only see content which they have access to.
+When you search from a SharePoint hub site, content on the hub site itself along with content on any associated sites is returned in the search results. Users will only see content that they have access to.
 
 ## Organizing content on the hub site home page
 

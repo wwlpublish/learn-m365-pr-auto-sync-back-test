@@ -2,7 +2,7 @@ Resiliency is another key design principle for Microsoft 365 architecture and se
 
 ## Service resiliency
 
-Microsoft 365’s resilience strategy prioritizes software resiliency. This means that we focus on building resiliency into the design of our services, protecting against service downtime regardless of failures in underlying hardware. Service resiliency allows our services to automatically recover from many kinds of faults and failures without impacting service availability.
+Microsoft 365's resilience strategy prioritizes software resiliency. This means that we focus on building resiliency into the design of our services, protecting against service downtime regardless of failures in underlying hardware. Service resiliency allows our services to automatically recover from many kinds of faults and failures without impacting service availability.
 
 Microsoft 365 services implement a number of resiliency principles, including:
 
@@ -36,8 +36,7 @@ Customer responsibilities for resilience vary based on the specific Microsoft 36
 - Training users to understand retention and recovery policies and to use retention features.
 - Initiating data recovery within the service retention times for relevant services.
 - Managing and maintaining any on-premises directories.
-- Reviewing and resolving Azure AD
--  sync errors.
+- Reviewing and resolving Azure AD sync errors.
 - Developing and adopting contingency policies (for example, setting up emergency admin access accounts).
 - Managing and ensuring connectivity and functionality of customer HSMs
 

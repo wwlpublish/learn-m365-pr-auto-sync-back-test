@@ -1,4 +1,4 @@
-You should now have a good idea of the various advantages of standardizing your deployment and why it’s important.
+You should now have a good idea of the various advantages of standardizing your deployment and why it's important.
 
 You also were shown what the various components are in Teams Rooms and how they connect together. The simple and complex examples were only one way that components in a room can be connected. Work with your hardware vendors for exact details on how things connect.
 

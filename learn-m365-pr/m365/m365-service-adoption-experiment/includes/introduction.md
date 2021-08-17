@@ -10,9 +10,9 @@ You'll also make six key governance decisions and configure your feedback method
 
 >![Modernizing core scenarios](../media/core-scenarios.png)
 
-**Project management** - Spreadsheets in multiple versions, random sticky notes, and your memory aren't reliable ways to manage a project. Using Microsoft Teams and Planner can provide a  way to improve project planning in your organization. 
+**Project management** - Spreadsheets in multiple versions, random sticky notes, and your memory aren't reliable ways to manage a project. Using Microsoft Teams and Planner can provide a  way to improve project planning in your organization.
 
-**Calling & meetings** - Where are those meeting notes? How can you meet with people in any location? Microsoft Teams provides a modern before-, during-, and after-meeting experience including chat that centralizes knowledge and makes it easy for people who couldn't attend the meeting to see and use the information. Combine online meetings with Planner project management to easily track progress on key projects. 
+**Calling & meetings** - Where are those meeting notes? How can you meet with people in any location? Microsoft Teams provides a modern before-, during-, and after-meeting experience including chat that centralizes knowledge and makes it easy for people who couldn't attend the meeting to see and use the information. Combine online meetings with Planner project management to easily track progress on key projects.
 
 **Personal productivity** - Microsoft Teams and OneDrive provide secure cloud storage for documents, including your OneNote files. This is an invaluable tool for finding and retaining information. With mobile applications, you can access your information wherever you are. Post documents into a Teams channel to share them with the broader team for coauthoring. **STOP E-MAILING THAT SPREADSHEET!**
 

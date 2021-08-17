@@ -26,19 +26,19 @@ By default, a user who creates a new team is granted the owner status. In additi
 
 **Team members** can leave a team, add, or delete a standard channel, and edit a standard channel name and description. They can also add a private channel, but cannot delete it. Team members can also add apps.
 
-Moderation allows you to control who can start new posts in a channel, add and remove team members as moderators, and control whether team members can reply to existing channel messages.
+Moderation allows you to control who can start new posts in a channel, add or remove team members as moderators, and control whether team members can reply to existing channel messages.
 
 **Moderators** can start new posts in a channel and control whether team members can reply to existing channel messages. They can also control whether bots and connectors can submit channel messages. Moderator capabilities are assigned at the channel level. Team owners have moderator capabilities by default. Team members have moderator capabilities turned off by default, but a team owner can give moderator capabilities for a channel to a team member. Moderators within a channel can add and remove other moderators within that channel.
 
 ## Configure Teams
 
-Use the following as a checklist, to ensure the defaults are right for your organization. If they are not, adjust them to your needs. At the end of this unit, there are links which provide more information on each topic.
+Use the following as a checklist, to ensure the defaults are right for your organization. If they are not, adjust them to your needs. At the end of this unit, there are links that provide more information on each topic.
 
 ### Messaging policies
 
-Messaging policies control which chat and channel messaging features are available to users. Messaging policies control who can edit and delete sent messages, use chat, use memes in conversations, and more. By default, users are assigned the global messaging policy and all features are On. You can use the default global policy or create one or more custom messaging policies for people in your organization. You'll learn more about messaging polices in the next unit.
+Messaging policies control which chat and channel messaging features are available to users. Messaging policies control who can edit and delete sent messages, use chat, use memes in conversations, and more. By default, users are assigned the global messaging policy and all features are On. You can use the default global policy or create one or more custom messaging policies for people in your organization. You'll learn more about messaging policies in the next unit.
 
-In this hybrid workplace environment where we communicating remotely it is important to make sure to provide the external access and guest access capabilities with the right controllers, from one hand to enable the flexibility for everyone  to join and from the other hand to secure the communication.
+In this hybrid workplace environment where we communicate remotely, it is important to make sure to provide the external access and guest access capabilities with the right controllers, from one hand to enable the flexibility for everyone  to join and from the other hand to secure the communication.
 
 ### External access
 
@@ -60,7 +60,7 @@ Guest access is an org-wide setting in Teams and is turned off by default. When 
 
 ### Teams settings
 
-Teams settings lets you set up Teams features such as email integration, cloud storage options, organization tab, meeting room device setup, and search scope. When you make changes to these settings, they apply to all the teams in your organization. These settings include:
+Teams settings let you set up Teams features such as email integration, cloud storage options, organization tab, meeting room device setup, and search scope. When you make changes to these settings, they apply to all the teams in your organization. These settings include:
 
 - **Notifications and feeds** allow you to manage how Teams handles suggested and trending feeds. You can set **Suggested feeds can appear in a user's activity feed** to on or off.
 - **Tagging** let users communicate with a subset of people on a team. Tags can be added to one or more team members. After a tag is added, it can be used in @mentions by anyone on the team in a channel post to communicate with only those people who are assigned that tag. Use these settings to control who can add tags and how tags are used across your organization.

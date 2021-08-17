@@ -4,11 +4,11 @@ title: Coexistence of Teams and Skype for Business
 metadata:
   title: Coexistence of Teams and Skype for Business
   description: Learn about coexistence modes and how to choose the right mode for your environment.
-  ms.date: 09/30/2019
+  ms.date: 07/15/2021
   author: AlexandraHrt
   ms.author: elizapo
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-durationInMinutes: 10
+durationInMinutes: 7
 content: |
   [!include[](includes/coexistence-teams-skype-business.md)]

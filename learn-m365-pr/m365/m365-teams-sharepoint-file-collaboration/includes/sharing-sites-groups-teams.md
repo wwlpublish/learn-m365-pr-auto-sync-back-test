@@ -15,7 +15,7 @@ Microsoft 365 Groups allow you to specify a privacy setting of either public or 
 
 **Public groups** can be found by searching within your organization. Anyone can join a public group without approval workflow or notification to the group owners. This means that the files and folder in the SharePoint team site are accessible and editable by anyone in the organization. Public groups are great for broad collaboration scenarios where users from around your organization want to collaborate on or monitor a project that is not confidential to a group.
 
-**Private groups** cannot be found through search. A user must be specifically invited by an existing group or team member or owner in order to get access. When an existing group member invites someone new, the request goes through a group owner for approval. Private groups are best for distinct project teams working on projects that are confidential to the organization.
+**Private groups** cannot be found through search. A user must be invited by an existing group or team member or owner in order to get access. When an existing group member invites someone new, the request goes through a group owner for approval. Private groups are best for distinct project teams working on projects that are confidential to the organization.
 
 In both public and private groups and teams, users can share individual files and folders with people outside the group without having to invite them to the group.
 

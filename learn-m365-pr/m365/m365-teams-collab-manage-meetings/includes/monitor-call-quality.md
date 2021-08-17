@@ -31,8 +31,8 @@ Like Call Analytics, employees who are not administrators, such as help desk age
 - Teams Communications Support Specialist
 - Reports Reader
 
-## Learn more:
+## Learn more
 
 When you're done with a link, use the **Back** arrow in your browser to come back to this page.
- 
+
 - [Call Analytics and Call Quality Dashboard](/microsoftteams/difference-between-call-analytics-and-call-quality-dashboard)

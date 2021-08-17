@@ -1,10 +1,10 @@
-Slack provides Contoso’s users with ways to collaborate, and work together on projects. As with both Workplace from Facebook and Box, you can use Conditional Access App Control policies in Cloud App Security to help secure Contoso’s content in this app.
+Slack provides Contoso's users with ways to collaborate, and work together on projects. As with both Workplace from Facebook and Box, you can use Conditional Access App Control policies in Cloud App Security to help secure Contoso's content in this app.
 
-Like Workplace, you start by adding the Slack app to Azure Active Directory, and then configure the required SSO settings before you’re able to create a conditional access policy, and finally the required Conditional Access App Control policies.
+Like Workplace, you start by adding the Slack app to Azure Active Directory, and then configure the required SSO settings before you're able to create a conditional access policy, and finally the required Conditional Access App Control policies.
 
 ## Add the Slack app and assign users
 
-First, you’ll need to add the Slack app to Azure AD, and then provision users for the app.
+First, you'll need to add the Slack app to Azure AD, and then provision users for the app.
 
 1. Open the **Azure Active Directory admin center** and sign in as a global admin.
 1. In the navigation pane, select the **Enterprise applications** tab.
@@ -19,7 +19,7 @@ First, you’ll need to add the Slack app to Azure AD, and then provision users 
 1. On the **Single sign-on** tab, select the **Change single sign-on modes** link.
 1. On the **Select a single sign-on method** page, select **SAML**.
 1. On the **Set up Single Sign-On with SAML** page, in the **Basic SAML configuration** section, select **Edit**.
-1. You’ll need to obtain the necessary links from Slack settings. Enter the required information and select **Save**.
+1. You'll need to obtain the necessary links from Slack settings. Enter the required information and select **Save**.
 1. On the **Set up Single Sign-On with SAML** page, in Step 3, select the **Download** link next to **Certificate (Base64)**.
 
     > [!IMPORTANT]
@@ -60,7 +60,7 @@ The next step is to create a conditional access policy in Azure AD.
 
 ## Configure an access or session policy
 
-The final stage is to create the Access control or Session control policies. You complete these steps in the **Cloud App Security** portal. As they do not differ greatly from the preceding apps, we won’t repeat them here.
+The final stage is to create the Access control or Session control policies. You complete these steps in the **Cloud App Security** portal. As they do not differ greatly from the preceding apps, we won't repeat them here.
 
 ## Block chats with sensitive data using Microsoft Cloud App Security
 

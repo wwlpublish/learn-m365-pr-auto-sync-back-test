@@ -1,4 +1,4 @@
-You're ready to deploy the update across the wider production environment. As the process manager, you’ll outline what your team needs to do to successfully deploy the update to users and their devices.
+You're ready to deploy the update across the wider production environment. As the process manager, you'll outline what your team needs to do to successfully deploy the update to users and their devices.
 
 ## Inputs
 
@@ -40,7 +40,7 @@ Different roles will complete different tasks during this part of the Deploy pha
 |Review deployment success|Informed |Consulted|Informed|Informed|Informed|Responsible
 |Obtain recommendations for improvements|Informed |Consulted|Consulted|Consulted|Consulted|Consulted
 
-With Desktop Analytics, your team can use the same deployment plan it created during pilot testing to deploy to the rest of its devices. Here’s how the process works in the Desktop Analytics portal:
+With Desktop Analytics, your team can use the same deployment plan it created during pilot testing to deploy to the rest of its devices. Here's how the process works in the Desktop Analytics portal:
 
 1. Review any apps that need to be approved for production deployment by marking them as "Ready".
 1. Each device will automatically be moved to a production collection when all of its installed applications have been marked as "Ready".
@@ -53,5 +53,5 @@ You'll have to ensure that your team generates multiple artifacts that it can us
 |Item  |Example  |Description  |
 |---------|---------|---------|
 |Deployment considerations|Document|Recommend tools and practices that can help improve broad deployment in the next cycle|
-|Infrastructure recommendations|Document|Recommend infrastructure related tools and practices that can help improve broad deployment in the next cycle|
-|Ops and innovation recommendations|Document|Recommend operations related tools and practices that can help improve broad deployment in the next cycle|
+|Infrastructure recommendations|Document|Recommend infrastructure-related tools and practices that can help improve broad deployment in the next cycle|
+|Ops and innovation recommendations|Document|Recommend operations-related tools and practices that can help improve broad deployment in the next cycle|

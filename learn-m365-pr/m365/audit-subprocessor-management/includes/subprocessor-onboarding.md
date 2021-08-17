@@ -17,13 +17,13 @@ In addition, business unit approval is required as a final check after all score
 Subprocessor enrollment begins with an email request to a prospective subprocessor with instructions to create a profile in the Microsoft Supplier Compliance Portal (MSCP). Subprocessors use the portal to choose the data processing activities they wish to be approved for. These data processing activities include:
 
 - Processing of personal data and/or Microsoft confidential data
-- Processing data on the supplier’s network
+- Processing data on the supplier's network
 - Data processing role (controller, processor, co-controller, etc.)
 - Payment card processing
 - Provision of Software as a Service (SaaS)
 - Use of subcontractors
 
-Once a subprocessor has completed their profile, subprocessors must demonstrate compliance with all applicable Data Protection Requirements (DPR), along with any other required SSPA verifications based on their profile. Data processing activities considered high risk require self-attestation of DPR compliance as well as an audit from an independent and certified authority. Once a subprocessor has passed all applicable checks, their SSPA status is subject to final review. Reviewers verify all relevant checks and decide which types of data processing should be approved. After the profile has been approved, subprocessors receive the requisite data processing approvals.
+Once a subprocessor has completed their profile, subprocessors must demonstrate compliance with all applicable Data Protection Requirements (DPR), along with any other required SSPA verifications based on their profile. Data processing activities considered high-risk require self-attestation of DPR compliance as well as an audit from an independent and certified authority. Once a subprocessor has passed all applicable checks, their SSPA status is subject to final review. Reviewers verify all relevant checks and decide which types of data processing should be approved. After the profile has been approved, subprocessors receive the requisite data processing approvals.
 
 ## Adding an existing subprocessor
 
@@ -39,7 +39,7 @@ All enrolled subprocessors must complete a self-attestation of compliance with t
 - Section D: Collection
 - Section E: Retention
 - Section F: Data Subject Rights
-- Section G: Disclosure to 3rd Parties
+- Section G: Disclosure to third Parties
 - Section H: Quality
 - Section I: Monitoring and Enforcement
 - Section J: Security

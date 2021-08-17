@@ -1,4 +1,4 @@
-As a security administrator at Contoso, you’ve been involved with implementing Microsoft Cloud App Security to help Contoso meet its security goals. As part of this process, you investigated the use of Cloud App Security to help detect and identify security threats.
+As a security administrator at Contoso, you've been involved with implementing Microsoft Cloud App Security to help Contoso meet its security goals. As part of this process, you investigated the use of Cloud App Security to help detect and identify security threats.
 
 Your users are using many non-SaaS apps, including Workplace from Facebook, Box, and Slack. As a result, you needed to know how to configure Conditional Access App Control to support these apps with Cloud App Security. You can now configure Conditional Access App Control for Workplace from Facebook, Box, and Slack.
 

@@ -1,4 +1,4 @@
-Now that you’ve learned many of the customer focus business topics Workplace Analytics can address, the next step is to take action and create an analysis project that identifies opportunities in the topics that interest you and your organization.
+Now that you've learned many of the customer focus business topics Workplace Analytics can address, the next step is to take action and create an analysis project that identifies opportunities in the topics that interest you and your organization.
 
 ## What is the best way to plan my customer focus analysis?
 
@@ -6,7 +6,7 @@ There are three actions you can take to plan your Workplace Analytics customer f
 
 1. **Project scope** - Scoping your project includes identifying hypotheses or business priorities, and scoping questions, such as stakeholder engagement, and the population and timeframe you would like to analyze.
 1. **Data analysis** - Planning your analysis includes identifying the specific business questions you would like to answer, understanding data requirements, and identifying the metrics and queries you need to run for your analysis.
-1. **Value creation** - Creating value includes analyzing to identify opportunities, creating change tactics, and figuring out the ways you’ll track and share the results of your analysis.
+1. **Value creation** - Creating value includes analyzing to identify opportunities, creating change tactics, and figuring out the ways you'll track and share the results of your analysis.
 
 This three-tiered process enables you to create a robust diagnostic plan for your customer focus analysis with Workplace Analytics.
 
@@ -53,7 +53,7 @@ There are a few other questions to consider before you begin your customer focus
 Scope your project to clarify your objectives, ensure the right people are involved, and select the appropriate population and timeframe for your analysis. Get the right support and approvals ahead of time and create a targeted plan for your analysis to ensure a smooth and successful customer focus initiative. 
 
 > [!IMPORTANT]
-> To bring the most value to your customer focus analysis, you need to include sales-related attributes in the organizational data, or the data from your organization’s CRM database. Workplace Analytics has an option to upload CRM data. For more detailed information on data requirements for each topic, and instructions on uploading CRM data, see the **Learn more** links at the end of this unit.
+> To bring the most value to your customer focus analysis, you need to include sales-related attributes in the organizational data, or the data from your organization's CRM database. Workplace Analytics has an option to upload CRM data. For more detailed information on data requirements for each topic, and instructions on uploading CRM data, see the **Learn more** links at the end of this unit.
 
 ## Data analysis
 
@@ -76,7 +76,7 @@ Understand your core business priorities and create the guiding questions that f
 
 ### Understand data requirements
 
-It is important to secure data that helps you answer customer focus business questions. For example, if you are analyzing external collaboration with customers, you’ll likely need data from your CRM database.
+It is important to secure data that helps you answer customer focus business questions. For example, if you are analyzing external collaboration with customers, you'll likely need data from your CRM database.
 Data required for a customer focus analysis can include:
 
 - CRM data
@@ -93,7 +93,7 @@ For more detailed information on the data required for your analysis, see the li
 
 ### Understand data requirements
 
-To get the data for your analysis, you will need to run one or more Workplace Analytics queries. The queries you will run for your analysis will depend on the metrics you’d like to analyze.
+To get the data for your analysis, you will need to run one or more Workplace Analytics queries. The queries you will run for your analysis will depend on the metrics you'd like to analyze.
 
 For example:
 
@@ -108,13 +108,13 @@ For detailed guidance about queries and metrics related to specific business que
 
 ## Value creation
 
-After your analysis is complete, it is important to identify what actions you’ll take, and establish how you’ll measure, track, and share the information with your organization.
+After your analysis is complete, it is important to identify what actions you'll take, and establish how you'll measure, track, and share the information with your organization.
 
 ![Create value](../media/create-value.png)
 
 ### Define next steps and create change tactics
 
-The first step is to get the most out of your customer focus analysis by defining what’s next. Begin with the results that identify opportunities and define the target groups for your customer focus initiative. Then, discuss the potential change tactics you can implement to drive change in your organization.
+The first step is to get the most out of your customer focus analysis by defining what's next. Begin with the results that identify opportunities and define the target groups for your customer focus initiative. Then, discuss the potential change tactics you can implement to drive change in your organization.
 
 To create customer focus change tactics:
 
@@ -161,7 +161,7 @@ The three-tiered process helps establish clear project guidelines for your analy
 
 For more detailed information about scoping, planning your analysis, and creating value, see the Resource playbooks link in **Learn more** and download the Customer Focus Playbook.
 
-In the next unit, you’ll learn more about the Microsoft 365 tools you can use to track, manage, and drive change to improve customer focus in your organization.
+In the next unit, you'll learn more about the Microsoft 365 tools you can use to track, manage, and drive change to improve customer focus in your organization.
 
 ## Learn more
 

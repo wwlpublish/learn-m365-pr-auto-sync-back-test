@@ -1,0 +1,37 @@
+### YamlMime:Module
+uid: learn-m365-pr.automated-investigation-remediation-microsoft-defender-endpoint
+metadata:
+  moduleType: standard
+  title: Use automated investigation and remediation in Microsoft Defender for Endpoint
+  description: Learn how automated investigation and remediation (AIR) work in Microsoft Defender for Endpoint. You'll learn about concepts, including automation levels, how automated investigations are triggered, how to review investigation findings, and how automated remediation actions work.
+  ms.date: 07/19/2021
+  author: iankensey
+  ms.author: beccarobins
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Use automated investigation and remediation in Microsoft Defender for Endpoint
+summary: Learn how automated investigation and remediation (AIR) work in Microsoft Defender for Endpoint. You'll learn about concepts, including automation levels, how automated investigations are triggered, how to review investigation findings, and how automated remediation actions work.
+abstract: |
+  - Understand automated investigation
+  - Understand how threats are remediated using automated remediation
+  - Understand automation levels
+prerequisites: |
+  - Basic familiarity with Microsoft Defender for Endpoint
+iconUrl: /learn/achievements/generic-badge.svg
+levels: 
+  - beginner
+roles: 
+  - security-operations-analyst
+  - security-engineer
+products:
+  - m365
+  - m365-ems-cloud-app-security
+  - m365-threat-protection
+units:
+- learn-m365-pr.automated-investigation-remediation-microsoft-defender-endpoint.introduction
+- learn-m365-pr.automated-investigation-remediation-microsoft-defender-endpoint.get-overview-automated-investigation-remediation
+- learn-m365-pr.automated-investigation-remediation-microsoft-defender-endpoint.review-remediation-investigation-results
+- learn-m365-pr.automated-investigation-remediation-microsoft-defender-endpoint.knowledge-check
+- learn-m365-pr.automated-investigation-remediation-microsoft-defender-endpoint.summary
+badge:
+  uid: learn-m365-pr.automated-investigation-remediation-microsoft-defender-endpoint.badge

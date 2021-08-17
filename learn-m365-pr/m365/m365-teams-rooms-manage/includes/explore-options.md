@@ -1,8 +1,8 @@
-**The unmanaged option**. The easiest way to manage Teams Rooms is to let it manage itself. When run in an unmanaged configuration, all Windows updates and Teams Rooms application updates come directly from Microsoft. Teams Rooms runs a scheduled task nightly at 2:00 in the morning to download and install any pending updates. The Teams Rooms compute module needs access to the Microsoft update servers on the Internet. You use the local administrator account to sign into the machine when necessary. 
+**The unmanaged option**. The easiest way to manage Teams Rooms is to let it manage itself. When run in an unmanaged configuration, all Windows updates and Teams Rooms application updates come directly from Microsoft. Teams Rooms runs a scheduled task nightly at 2:00 in the morning to download and install any pending updates. The Teams Rooms compute module needs access to the Microsoft update servers on the Internet. You use the local administrator account to sign into the machine when necessary.
 
 ![the unmanaged option](../media/unmanaged-option.png)
 
-**The on-premises management option**. In a strictly on-premises environment, you can use the local management tools you're already familiar with. 
+**The on-premises management option**. In a strictly on-premises environment, you can use the local management tools you're already familiar with.
 
 There are other tools you could use too such as Microsoft System Center Operations Manager to track CPU, RAM, and get alerts on specific events.
 
@@ -13,7 +13,7 @@ There are other tools you could use too such as Microsoft System Center Operatio
 ![the hybrid management option](../media/hybrid-option.png)
 
 **The Microsoft 365 management option**. In a cloud-only implementation, you'll need to use online tools such as the Exchange Online admin center. A Teams-only implementation of Teams Rooms greatly simplifies management and gives you access to a constantly evolving, modern management platform.
- 
+
 If you are in a Teams only configuration on Teams Rooms - even if you have On-Premises Active Directory - you're best served to configure Teams Rooms to be managed solely by Microsoft 365 management tools. This includes creating the Teams Rooms resource account directly in Azure AD.
 
 ![Microsoft 365 management option](../media/microsoft-365-option.png)

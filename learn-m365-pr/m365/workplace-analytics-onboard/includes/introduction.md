@@ -1,3 +1,6 @@
+>[!Note]
+>The Workplace Analytics web app is being rebranded to **Viva Insights** in the next few months. As mentioned in this module, Workplace Analytics refers to the web app with advanced analysis tools and accelerators available to those who are assigned the Analyst, Limited Analyst, or Admin role.
+
 Microsoft Workplace Analytics provides powerful insights about the way organizations collaborate and how work gets done. Setting up Workplace Analytics for the organization requires collaboration between the Microsoft 365 administrator and the Workplace Analytics administrator, who typically work under the direction of an overall program manager.
 
 This module explains how people in these roles work together to set up Workplace Analytics for their organization as they:
@@ -9,7 +12,7 @@ This module explains how people in these roles work together to set up Workplace
 After these steps are completed, the Workplace Analytics web application will be available with 13 months of historical data by default.
 
 >[!NOTE]
-> The actual amount of historical data available depends on the archiving policies that have been applied to Exchange online mailboxes.
+>The actual amount of historical data available depends on the archiving policies that have been applied to Exchange online mailboxes.
 
 ## Example scenario
 

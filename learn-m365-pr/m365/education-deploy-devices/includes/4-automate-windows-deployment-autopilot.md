@@ -54,11 +54,11 @@ Before deploying a device using Windows Autopilot, the device must be registered
 
 #### Configure your tenant for Intune for Education
 
-After your Azure tenant syncs your school’s information, the School Data Sync (SDS) will automatically create a school group and create student and teacher groups.
+After your Azure tenant syncs your school's information, the School Data Sync (SDS) will automatically create a school group and create student and teacher groups.
 
 #### Configure your school's branding
 
-Go to the Microsoft Azure portal to add your organization’s branding to your school devices.
+Go to the Microsoft Azure portal to add your organization's branding to your school devices.
 
 ### Things to consider when using Windows Autopilot
 

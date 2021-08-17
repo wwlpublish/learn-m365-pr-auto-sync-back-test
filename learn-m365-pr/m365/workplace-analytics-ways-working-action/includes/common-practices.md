@@ -1,4 +1,4 @@
-After using Microsoft 365 technology to help drive change, organizations are often interested in recommended best practices. Let’s look at:
+After using Microsoft 365 technology to help drive change, organizations are often interested in recommended best practices. Let's look at:
 
 - **General change practices**. General considerations for your change initiative
 - **Scenario specific common practices**. Tactics leveraged in common Workplace Analytics scenarios
@@ -10,7 +10,7 @@ You can consider some best practices with every change initiative:
 - **Actively involve sponsors and stakeholders**. Sponsors play a key role in driving change. You can equip your sponsors with key talking points and ways to role-model behaviors. Sponsors can also assist in helping build a coalition of support across the organization.
    Example: When leaders ask people to adopt Microsoft Teams, do they send this communication through Teams or in email?
 
-- **Communicate “What’s in it for me”**. Communicate the value that the change will yield not only to the organization but to the individual employee.
+- **Communicate "What's in it for me"**. Communicate the value that the change will yield not only to the organization but to the individual employee.
    Example: A reduction in time spent in unproductive meetings could free up time for employees to work on the projects that matter to them the most.
 
 - **Empower and create psychological safety**. Employees can be reluctant to try something new due to a fear of repercussions.
@@ -20,7 +20,7 @@ You can consider some best practices with every change initiative:
    Example: Manager tips-and-tricks emails are sent out to all managers and include tips such as how to establish valuable 1:1 coaching sessions.
 
 - **Share successes**. Reinforce behaviors by sharing moments of success more broadly.
-   Example: During a town hall the department with the greatest adherence to reserved focus time is recognized.
+   Example: During a town hall, the department with the greatest adherence to reserved focus time is recognized.
 
 - **Provide access to more info**. Communicate to whom or where employees can go for more information.
    Example: A central site with FAQs and learning material is created along with an email address where individuals can direct their questions.
@@ -71,6 +71,6 @@ The relationship between an employee and their manager can increase effectivenes
 
 - **Cross-team communities**. Create a space for people with similar interests to share ideas, knowledge, and resources
 
-- **Connect your network**. Managers can help broaden their team’s networks by reviewing key contacts and identifying connections that match the interests and skills of other team members
+- **Connect your network**. Managers can help broaden their team's networks by reviewing key contacts and identifying connections that match the interests and skills of other team members
 
 - **Add important collaborators to MyAnalytics**. Keep your Important people list up to date. Follow the steps on the MyAnalytics network page to update your list.

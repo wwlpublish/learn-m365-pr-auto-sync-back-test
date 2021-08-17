@@ -22,21 +22,17 @@ The Business continuity Dashboard is often converted into a PDF and distributed 
 The *Collaboration activity report* shows how collaboration patterns are changing in response to shifting work patterns, and which tools people are substituting for in-person interactions.
 
 - The chart on the left shows the average level of collaboration for the measured employees on a per-employee per-week level.
-
 - The chart on the right breaks out the change in collaboration between the baseline and current time periods, across your selected organizational attribute
 
- [ ![The collaboration activity report](../media/collaboration-activities-changing.png) ](../media/collaboration-activities-changing-lightbox.png#lightbox)
+ [![The collaboration activity report](../media/collaboration-activities-changing.png)](../media/collaboration-activities-changing-lightbox.png#lightbox)
 
 > [!TIP]
 > Select any bar in the column chart on the right to filter the timeline chart on the left (this filter is only applied to this report page).
 >
 
 - Increased collaboration can indicate a shift from face-to-face time to digital collaboration. An increase in meetings in particular can indicate a lengthening of work cycles as interactions that once happened informally now have to be scheduled in advance.
-
 - If collaboration is lower than before, check how the collaboration mix is changing. Is a drop in meetings offset by an increase in emails and chats? If so, it may be that activities that previously required a meeting are shifting to a mix of meetings, email, calls, and chats.
-
 - Decreased collaboration that continues to stay low across all channels can indicate challenges transitioning to virtual work. Examples of underlying causes are poor connectivity, discomfort with remote meetings, lack of familiarity with tools, and the inability to take work home.
-
 - Ensure teams are getting support to balance work and life. For teams with low virtual collaboration, check in on their remote work experience to identify specific challenges. It may be helpful to share remote work best practices with the team as part of a live discussion.
 
 ### Report: What are the impacts of work-life integration? Part 1
@@ -44,9 +40,7 @@ The *Collaboration activity report* shows how collaboration patterns are changin
 Part 1 of the *Work-life integration report* helps you determine the share of employees whose collaboration time and workweek span have increased or decreased by at least 0, 4, or 8 hours per week.
 
 - The percentages at the top of the page show the share of employees in the population with an increase or decrease in collaboration hours and workweek span at or above the selected number of hours (4+ hours a week in the example below).
-
 - The chart on the left shows the share of employees by group with the selected change in collaboration hours. In the example below, collaboration hours decreased 4+ hours for 11% of Legal and increased by 4+ hours for 42% of Legal.
-
 - The chart on the right shows the share of employees by group with the selected change in workweek span hours. In the example below, workweek span decreased by 4+ hours for 14% of Professional Services and increased by 4+ hours for 34% of Professional Services.
 
 ![The work-life-integration report Part 1](../media/work-life-integration-impacts-1.png)
@@ -57,19 +51,15 @@ Part 1 of the *Work-life integration report* helps you determine the share of em
 >
 
 - If you see team collaboration patterns revert to near-normal levels, employees might still be impacted due to managing work demands with family or community, technology-related blockers, or prioritizing non-collaborative work to make the most of decreased connectivity.
-
 - Workweek spans can change depending on how employees adapt to remote work and how they use increased flexibility to accommodate the needs of family or community. For teams accustomed to working in the same location and with the same working hours, increased flexibility might cause some friction.
-
 - Low workweek spans do not necessarily indicate lower productivity or less time working – rather, employees might be handling collaborative activity in fewer hours, and performing focused work outside of that window.
-
-- If some employees are sending messages early or late in the day, and others are sticking to their prior schedules, it might be valuable for teams to align their expectations on how “after-hours” messages should be handled, and how quickly to respond or expect a response.
+- If some employees are sending messages early or late in the day, and others are sticking to their prior schedules, it might be valuable for teams to align their expectations on how "after-hours" messages should be handled, and how quickly to respond or expect a response.
 
 ### Report: What are the impacts of work-life integration? Part 2
 
 Part 2 of the *Work-life integration report* shows the share of employees whose after-hours activity has increased or decreased by more than 0, 2, or 4 hours. You can also assess activity by time of day for each collaboration channel to understand how the workday is changing.
 
 - The chart on the left shows the share of employees by group for the selected change in after-hours. In the example below, after-hours activity decreased by more than 2 hours for 14% of Professional Services and increased by more than 2 hours for 8% of Professional Services.
-
 - The chart on the right shows how activity for each communication mode is distributed across the day, along with notes that describe the change in activity between the baseline and the current time period, both for  8am – 5pm and for after hours
 
 ![The work-life-integration report Part 2](../media/work-life-integration-impacts-2.png)
@@ -78,12 +68,9 @@ Part 2 of the *Work-life integration report* shows the share of employees whose 
 > Use the drop-down menu at the top of the pane to adjust the after-hours value comparison point to more than zero, two, or four hours per week.
 >
 
-- For employees adapting to remote work, “work” and “life” are less likely to be separated by clear time bounds. Increasing after-hours collaboration can indicate that employees are balancing work and non-work obligations. It can also signal that employees are becoming overloaded, and don’t have time to complete tasks during the workday.
-
+- For employees adapting to remote work, "work" and "life" are less likely to be separated by clear time bounds. Increasing after-hours collaboration can indicate that employees are balancing work and non-work obligations. It can also signal that employees are becoming overloaded, and don't have time to complete tasks during the workday.
 - As more collaboration shifts to chats and emails, messages may come in at all hours. Employees on the receiving end might be compelled to respond immediately. Teams seeing a significant volume of emails and chats shifting into after hours could benefit from having a shared conversation around new norms and expectations for their workday.
-
 - Teams that see larger increases or decreases in after-hours activity are good candidates for investigating activities that might be driving the change. It's a good practice to validate with employees how it impacts their wellbeing and ability to work effectively.
-
 - For customers with MyAnalytics, Focus plans can empower employees to take better control of their working hours to reduce the workload that spills into after-hours.
 
 ### Report: Are external relationships being maintained?
@@ -91,7 +78,6 @@ Part 2 of the *Work-life integration report* shows the share of employees whose 
 The *External relationships report* quantifies changes in communication with customers, partners, and others outside the organization.
 
 - The metrics on the left provide a consolidated view of email and meeting hours changes compared to the baseline time period.
-
 - The chart on the right drills down by group within the organization to see how engagement with external customers and partners has changed since the baseline time-period. In the example below, the average weekly external collaboration hours for marketing employees has increased 0.7 hours.
 
 ![The external relationships report](../media/external-relationships-maintained.png)
@@ -107,8 +93,7 @@ Teams with significant decreases in external collaboration might be struggling t
 The *Engagement and connectivity report* helps identify areas that might be struggling with employee connectivity and community by showing recent manager one-on-one and small group conversation activity.
 
 - The chart on the left shows the share of employees by group with no manager one-on-one meetings.  
-
-- The chart on the right shows the amount of time per week that employees spend in small-group conversations, where a small group consists of eight or fewer employees. 
+- The chart on the right shows the amount of time per week that employees spend in small-group conversations, where a small group consists of eight or fewer employees.
 
 ![The engagement and connectivity report](../media/employees-engaged-connected.png)
 
@@ -117,11 +102,8 @@ The *Engagement and connectivity report* helps identify areas that might be stru
 >
 
 - Manager one-on-one meetings are an indicator of support and development opportunities. In a remote work environment, it is important for managers to check in with employees on a regular basis to see how they are doing, identify barriers, and ensure that workloads are manageable. Such check-ins demonstrate compassion and empathy and establish trust.
-
 - Small group conversations in meetings, calls, and chats can reduce feelings of isolation (while email might push a workstream, it is impersonal and does not promote engaged connectivity). Employees experiencing low connectivity (< two hours per week) might be struggling to adapt to virtual work and might need more training and assistance.
-
 - The visuals in this report can be used together to form a story. For example, employees with low connectivity and limited manager one-on-one sessions are likely at the highest risk of isolation and disengagement.
-
 - Customers with MyAnalytics might benefit from Manager Nudges that help remind managers to take actions that foster a sense of community and engagement across their teams.
 
 Engage with teams that are doing well in terms of manager one-on-ones and small group conversations and share their best practices with the broader organization. Encourage managers to check on wellbeing, connectivity, and workload in one-on-ones, and encourage team members to connect in virtual meetings, calls, and chats to avoid isolation.

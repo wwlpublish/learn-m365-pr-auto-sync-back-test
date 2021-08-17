@@ -1,4 +1,4 @@
-One of the key principles of modern intranets is that each unit of work should get a separate site to optimally manage governance and growth over time. Each communication site and Microsoft 365 Group-connected team site is created as a site that can have its own permissions. A hub site should also be considered its own unit of work that brings together numerous other sites.
+One of the key principles of modern intranets is that each unit of work should get a separate site to optimally manage governance and growth over time. Each communication site and Microsoft 365 Group-connected team site is created as a site that can have its own permissions. A hub site should be considered its own unit of work that brings together numerous other sites.
 
 Every SharePoint site can be associated to a hub, creating a flat structure of sites that share navigation, branding, and other elements. SharePoint hub sites create relationships with other sites by using links, rather than hierarchy or ownership, so that you can adapt to the changes in the way you work.
 

@@ -4,11 +4,11 @@ title: Prepare your network for upgrading to Teams
 metadata:
   title: Prepare your network for upgrading to Teams
   description: Learn about the network considerations for upgrading to Microsoft Teams, including bandwidth requirements, and how to test and remediate your network.
-  ms.date: 09/27/2019
+  ms.date: 07/16/2021
   author: AlexandraHrt
   ms.author: elizapo
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-durationInMinutes: 10
+durationInMinutes: 7
 content: |
   [!include[](includes/prepare-network.md)]

@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.configure-troubleshoot-microsoft-teams-clients-services.troubleshoot-phone-system
+title: Troubleshoot phone system issues
+metadata:
+  title: Troubleshoot phone system issues
+  description: "Troubleshoot phone system issues"
+  ms.date: 08/16/2021
+  author: wwlpublish
+  ms.author: cyncarey
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+durationInMinutes: 8
+content: |
+  [!include[](includes/8-troubleshoot-phone-system.md)]

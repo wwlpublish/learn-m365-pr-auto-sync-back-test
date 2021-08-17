@@ -1,0 +1,49 @@
+### YamlMime:ModuleUnit
+uid: learn-m365-pr.detect-respond-to-security-issues-using-microsoft-defender-for-endpoint.knowledge-check
+title: Knowledge check
+metadata:
+  unitType: knowledge_check
+  title: Knowledge check
+  description: Test your knowledge of the module content
+  ms.date: 07/19/2021
+  author: iankensey
+  ms.author: beccarobins
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 3
+content: |
+quiz:
+  questions:
+  - content: "You want to run custom scripts to access and gather forensic data on one of your devices. How will you do this?"
+    choices:
+    - content: "Add an indicator to allow or block a file"
+      isCorrect: false
+      explanation: "This doesn't enable you to run custom scripts on a device."
+    - content: "Use Live Response"
+      isCorrect: true
+      explanation: "Use Live Response to expand your investigative capabilities to proactively hunt and remediate threats."
+    - content: "Start an automated investigation"
+      isCorrect: false
+      explanation: "This doesn't enable you to run custom scripts on a device."
+  - content: "How can you block specific programs from running on a device?"
+    choices:
+    - content: "Start an automated investigation"
+      isCorrect: false
+      explanation: "Automated investigations will investigate a threat for you. But this alone won't enable you to restrict specific apps from running."
+    - content: "Add an indicator to block a file"
+      isCorrect: false
+      explanation: "This won't enable you to block an application."
+    - content: "Restrict app execution"
+      isCorrect: true
+      explanation: "This is a way to prevent attackers from gaining control over your device, and prevent other devices from being compromised through the same app."
+  - content: "Which response action can you take to get a Zip file that contains information about suspicious entities and events on the device?"
+    choices:
+    - content: "Stop and quarantine a file."
+      isCorrect: false
+      explanation: "This doesn't provide you with the Zip file you need."
+    - content: "Collect an investigation package."
+      isCorrect: true
+      explanation: "Use it to help you to understand the present state of the impacted device."
+    - content: "Add an indicator to block or allow a file."
+      isCorrect: false
+      explanation: "This doesn't provide you with the Zip file you need."

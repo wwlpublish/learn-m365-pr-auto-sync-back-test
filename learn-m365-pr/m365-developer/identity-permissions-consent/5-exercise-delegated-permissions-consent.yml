@@ -3,7 +3,7 @@ uid: learn-m365.identity-permissions-consent.5-exercise-delegated-permissions-co
 metadata:
   title: Exercise - Delegated permissions and consent
   description: In this unit, you’ll learn how to request delegated permissions and enable users to grant them to applications with either static or dynamic consent.
-  ms.date: 03/06/2021
+  ms.date: 06/17/2021
   author: andrewconnell
   ms.author: v-johnco
   ms.topic: interactive-tutorial

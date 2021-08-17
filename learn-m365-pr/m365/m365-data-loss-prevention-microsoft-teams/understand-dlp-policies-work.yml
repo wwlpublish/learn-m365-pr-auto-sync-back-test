@@ -3,7 +3,7 @@ uid: learn-m365-pr.dlp-for-teams-and-microsoft-365.understand-dlp-policies-work
 metadata:
   title: Understand how DLP policies work
   description: Learn how DLP policies use deep content analysis to scan for sensitive information.
-  ms.date: 02/18/2021
+  ms.date: 07/19/2021
   author: iankensey
   ms.author: v-iakens
   ms.topic: interactive-tutorial

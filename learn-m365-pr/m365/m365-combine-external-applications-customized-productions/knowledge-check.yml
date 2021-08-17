@@ -1,0 +1,50 @@
+### YamlMime:ModuleUnit
+uid: learn-m365-pr.combine-external-applications-customized-productions.knowledge-check
+title: Knowledge check
+metadata:
+  unitType: knowledge-check
+  title: Knowledge check
+  description: Check what you've learned through this module.
+  ms.date: 07/06/2021
+  author: lizap
+  ms.author: elizapo
+  ms.topic: interactive-tutorial 
+  ms.prod: learning-m365
+durationInMinutes: 5
+content: |
+quiz:
+  title: Check your knowledge
+  questions:
+  - content: "Your attendees complain that they hear distortion when you pronounce 'P' and 'B' sounds. What should you use to solve this problem?"
+    choices:
+    - content: "A ground loop isolator"
+      isCorrect: false
+      explanation: "That's not correct. Use a ground loop isolator to reduce hum and other persistent noise."
+    - content: "A pop shield"
+      isCorrect: true
+      explanation: "That's correct. A pop shield reduces the distortion associated with plosive sounds, such as 'P' and 'B'."
+    - content: "A shock mount"
+      isCorrect: false
+      explanation: "That's not correct. Use a shock mount to reduce noise transmitted through the mic stand, such as when you know the stand with your hand."
+  - content: "You want to moderate the questions and answers during a live event. Which of these roles should the meeting organizer assign to you?"
+    choices:
+    - content: "Presenter"
+      isCorrect: true
+      explanation: "That's correct. Live event presenters can also moderate the questions and answers."
+    - content: "Producer"
+      isCorrect: false
+      explanation: "That's not correct. Live event producers can start and stop the event, share video, and select layouts but can't moderate questions and answers."
+    - content: "Attendee"
+      isCorrect: false
+      explanation: "That's not correct. Live event attendees can view the event and ask questions but can't moderate questions and answers."
+  - content: "You want to use NDI to broadcast meeting video stream to a vision mixer over the network but you can't see the Network Device Interface (NDI) setting in Teams options. What should you do?"
+    choices:
+    - content: "Check that administrators have enabled NDI in the Teams meeting policy."
+      isCorrect: true
+      explanation: "That's correct. A Teams administrator must use the Set-CsTeamsMeetingPolicy PowerShell cmdlet to enable NDI in the policy, before you see the option in Teams."
+    - content: "Start the meeting and select Broadcast over NDI in More Options."
+      isCorrect: false
+      explanation: "That's not correct. If you can't see the Network Device Interface (NDI) setting in Teams options, the Broadcast over NDI option won't appear in the meeting."
+    - content: "Sign out and start the meeting as a guest user."
+      isCorrect: false
+      explanation: "That's not correct. If the option is unavailable for authenticated users, it won't be available for guests either."

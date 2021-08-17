@@ -1,4 +1,4 @@
-You can use Cloud App Security app connectors to enable better control and visibility of your organization’s cloud apps. Cloud App Security uses APIs provided by your cloud app provider to enable and manage connections to that provider’s apps. You can even connect to multiple instances of the same cloud app. For example, you might use Salesforce in two parts of your organization. Each instance is treated and managed separately by Cloud App Security.
+You can use Cloud App Security app connectors to enable better control and visibility of your organization's cloud apps. Cloud App Security uses APIs provided by your cloud app provider to enable and manage connections to that provider's apps. You can even connect to multiple instances of the same cloud app. For example, you might use Salesforce in two parts of your organization. Each instance is treated and managed separately by Cloud App Security.
 
 > [!IMPORTANT]
 > This multi-instance app support does not include Microsoft Azure or Office 365.
@@ -8,13 +8,13 @@ You can use Cloud App Security app connectors to enable better control and visib
 The following process describes how Cloud App Security uses app connectors. Cloud App Security:
 
 1. Retrieves and save authentication permissions.
-2. Requests the user list. 
+2. Requests the user list.
 3. Periodically scans users, groups, activities, and files.
 
 > [!TIP]
 > For each app you want to connect to, we recommend that you create an admin service account for that purpose alone.
 
-The following table describes the items you can enable through your app connector. 
+The following table describes the items you can enable through your app connector.
 
 | Items                      | Description                                                  |
 | -------------------------- | ------------------------------------------------------------ |
@@ -26,21 +26,19 @@ The following table describes the items you can enable through your app connecto
 | Data  governance           | Ability to  quarantine files, including files in trash, and overwrite files |
 | App  permission governance | Ability to  remove tokens                                    |
 
- 
-
 > [!IMPORTANT]
-> Not all apps that are connected will have all the governance actions. 
+> Not all apps that are connected will have all the governance actions.
 
 ## How to connect apps
 
 To add an app connector, for example, a connector to GitHub, use the following procedure:
 
 1. Navigate to the [Cloud App Security portal](https://portal.cloudappsecurity.com?azure-portal=true).
-2. Sign in as a Global Admin. 
+2. Sign in as a Global Admin.
 3. In Cloud App Security, select **Settings** (the cog icon), and then select **App connectors**.
 4. On the **Connected apps** page, displayed in the following screenshot, select the **App connectors** tab.
-5. Then select the **+** symbol. 
-6. Choose from the list of supported app connectors. In this case, select **GitHub**. 
+5. Then select the **+** symbol.
+6. Choose from the list of supported app connectors. In this case, select **GitHub**.
 7. In the **GitHub** dialog box, enter an **Instance name**, and then select **Connect GitHub**.
 8. Enter the required details:
 
@@ -51,17 +49,15 @@ To add an app connector, for example, a connector to GitHub, use the following p
 9. Select **Connect in GitHub** and complete the connection process.
 
 > [!IMPORTANT]
-> Some vendors require that you add their apps’ IP addresses to allow lists to enable access from Cloud App Security. 
+> Some vendors require that you add their apps' IP addresses to allow lists to enable access from Cloud App Security.
 
 ### What apps can you connect with?
 
 You can use Cloud App Security app connectors to connect to the following apps:
 
-
 > [!NOTE]
 > This list is subject to change as Cloud App Security adds more apps for API connections.
 
- 
 - Microsoft Azure
 - Amazon Web Services
 - Box
@@ -76,13 +72,11 @@ You can use Cloud App Security app connectors to connect to the following apps:
 - ServiceNow
 - Workday
 
-
 > [!TIP]
 > You can select **Suggest more apps** from the drop down list to request additional app connectors.
 
-
 > [!IMPORTANT]
-> To connect Cloud App Security to Azure, you must be a Global or Security administrator in Azure AD. 
+> To connect Cloud App Security to Azure, you must be a Global or Security administrator in Azure AD.
 
 ### Connect Office 365
 
@@ -96,10 +90,10 @@ Cloud App Security supports the following Office 365 apps:
 - Power BI
 - SharePoint
 - Skype for Business
-- Teams 
+- Teams
 - Yammer
 
-When you connect to Office 365 using the procedure outlined earlier, you are prompted to select Office 365 components. These are described in the following table. 
+When you connect to Office 365 using the procedure outlined earlier, you are prompted to select Office 365 components. These are described in the following table.
 
 | Component                   | Description                                                  |
 | --------------------------- | ------------------------------------------------------------ |
@@ -110,7 +104,6 @@ When you connect to Office 365 using the procedure outlined earlier, you are pro
 | Office 365  activities      | Enables Cloud  App Security to audit all user activities across your Office 365 apps. |
 | Office 365  files           | Enables Cloud  App Security to audit all file activities across your Office 365 apps. |
 
-The following screenshot displays these components. 
+The following screenshot displays these components.
 
 :::image type="content" source="../media/office365-components.png" alt-text="A screenshot of the Connect Office 365 dialog box. The options discussed in the preceding table are displayed.":::
-

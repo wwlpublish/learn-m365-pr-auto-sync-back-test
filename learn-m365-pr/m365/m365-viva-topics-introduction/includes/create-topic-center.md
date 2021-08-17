@@ -15,9 +15,9 @@ The Viva Topics activated page will display, confirming that the system will now
 
 You'll be returned to your Connect people to knowledge page. From this page, you can select Manage to make any changes to your configuration settings.
 
-The first time topic discovery is enabled, it may take two weeks or more for all suggested topics to appear in the Manage Topics view. Topic discovery continues as new content or updates to content is made. It is normal to have fluctuations in the number of suggested topics in your organization as Viva Topics evaluates new information.
+The first-time topic discovery is enabled, it may take two weeks or more for all suggested topics to appear in the Manage Topics view. Topic discovery continues as new content or updates to content is made. It is normal to have fluctuations in the number of suggested topics in your organization as Viva Topics evaluates new information.
 
-## Setup overview for Graph connectors by Microsoft
+## Set up overview for Graph connectors by Microsoft
 
 **The basic process includes the following steps:**
 
@@ -34,7 +34,7 @@ Visit Resources at the end of this learning path on how to configure Graph conte
 
 ## Assign licenses
 
-Once you have configured topic experiences, you must assign licenses for the users who will be using Topics. Only users with a license can see information on topics including highlights, topic cards, topic pages and the topic center.
+Once you have configured topic experiences, you must assign licenses for the users who will be using Topics. Only users with a license can see information on topics including highlights, topic cards, topic pages, and the topic center.
 
 **To assign licenses:**
 

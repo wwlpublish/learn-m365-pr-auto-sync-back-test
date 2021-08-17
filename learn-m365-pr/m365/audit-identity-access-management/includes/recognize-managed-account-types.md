@@ -7,7 +7,7 @@ Microsoft 365 has identified three categories of accounts to support organizatio
 
 ![A visual representation of shared responsibility in managing accounts. Two account types: service team accounts and service accounts are managed by Microsoft. Customer accounts are managed by customers.](../media/managed-accounts.png)
 
-## Microsoft managed accounts
+## Microsoft-managed accounts
 
 Microsoft directly manages two categories of accounts: service team accounts and service accounts.
 
@@ -15,10 +15,10 @@ Microsoft directly manages two categories of accounts: service team accounts and
 
 **Service accounts** are also managed by Microsoft but are not assigned to individual Microsoft personnel. Instead, service accounts are used by Microsoft 365 services to authenticate to servers and other services within the Microsoft cloud environment. These accounts cannot be accessed by Microsoft personnel and are only used by automated processes to operate our products and services.
 
-## Customer managed accounts
+## Customer-managed accounts
 
 In cloud environments, customers and cloud service providers share the responsibility for achieving a compliant and secure computing environment. Microsoft uses [a shared responsibility model](/azure/security/fundamentals/shared-responsibility?azure-portal=true) to define security and operational accountability in Microsoft 365 services. While Microsoft 365 secures the underlying cloud infrastructure and services, customers need to be aware of their responsibilities for ensuring a secure tenant environment for their users and data. In the context of privileged access management, customers are responsible for provisioning and managing customer accounts within their Microsoft 365 tenant.
 
-Customers manage access control within their Microsoft 365 tenant using **customer accounts**. Customer accounts allow customer-defined users to access Microsoft 365 services. These accounts can be provisioned by the customer in Azure Active Directory (AAD) or federated with on-premises Active Directory (AD). Customer managed accounts provide customers with the flexibility to meet their organization’s access control requirements for their users. Customer accounts cannot be used to access data outside the customer’s tenant.
+Customers manage access control within their Microsoft 365 tenant using **customer accounts**. Customer accounts allow customer-defined users to access Microsoft 365 services. These accounts can be provisioned by the customer in Azure Active Directory (AAD) or federated with on-premises Active Directory (AD). Customer-managed accounts provide customers with the flexibility to meet their organization's access control requirements for their users. Customer accounts cannot be used to access data outside the customer's tenant.
 
-Let’s explore how Microsoft manages service team accounts to protect Microsoft 365 services and customer data.
+Let's explore how Microsoft manages service team accounts to protect Microsoft 365 services and customer data.

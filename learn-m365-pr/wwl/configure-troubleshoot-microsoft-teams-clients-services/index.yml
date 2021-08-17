@@ -1,0 +1,41 @@
+### YamlMime:Module
+uid: learn.wwl.configure-troubleshoot-microsoft-teams-clients-services
+metadata:
+  title: Configure and troubleshoot Microsoft Teams clients and services
+  description: "Learn how to deploy, configure, and maintain Teams client software, and how to troubleshoot Teams client startup and performance issues. Learn how to configure and troubleshoot Microsoft Audio Conferencing, call setup and troubleshoot phone system issues."
+  ms.date: 08/16/2021
+  author: wwlpublish
+  ms.author: cyncarey
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Configure and troubleshoot Microsoft Teams clients and services
+summary: Learn how to deploy, configure, maintain Teams client software, and how to troubleshoot Teams client startup and performance issues. Learn how to configure and troubleshoot Microsoft Audio Conferencing, call setup and troubleshoot phone system issues.
+abstract: |
+  After completing this module, you'll be able to:
+  - Configure and troubleshoot Teams clients.
+  - Configure and troubleshoot Teams services.
+prerequisites: |
+  - Experience configuring and administering Microsoft Teams
+  - Experience using Windows PowerShell
+  - Working experience with performance tuning and service monitoring
+iconUrl: /learn/achievements/generic-badge.svg
+levels:
+- advanced
+roles:
+- support-engineer
+products:
+- m365
+- office-365
+units:
+- learn.wwl.configure-troubleshoot-microsoft-teams-clients-services.introduction
+- learn.wwl.configure-troubleshoot-microsoft-teams-clients-services.install-update-teams-client-software
+- learn.wwl.configure-troubleshoot-microsoft-teams-clients-services.troubleshoot-teams-client
+- learn.wwl.configure-troubleshoot-microsoft-teams-clients-services.troubleshoot-audio-video-devices
+- learn.wwl.configure-troubleshoot-microsoft-teams-clients-services.troubleshoot-desktop-client-performance
+- learn.wwl.configure-troubleshoot-microsoft-teams-clients-services.configure-troubleshoot-audio-conferencing
+- learn.wwl.configure-troubleshoot-microsoft-teams-clients-services.troubleshoot-voice
+- learn.wwl.configure-troubleshoot-microsoft-teams-clients-services.troubleshoot-phone-system
+- learn.wwl.configure-troubleshoot-microsoft-teams-clients-services.knowledge-check
+- learn.wwl.configure-troubleshoot-microsoft-teams-clients-services.summary
+badge:
+  uid: learn.wwl.configure-troubleshoot-microsoft-teams-clients-services.badge

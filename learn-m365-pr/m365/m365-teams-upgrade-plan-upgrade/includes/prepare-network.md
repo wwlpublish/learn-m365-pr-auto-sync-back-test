@@ -22,28 +22,28 @@ Teams is always conservative on bandwidth utilization and can deliver HD video q
 
 Many networks were designed to use a hub and spoke topology. In this topology, internet traffic typically traverses the WAN to a central datacenter before it emerges (egresses) to the internet. Often, this is done to centralize network security devices with the goal of reducing overall cost.
 
-Back-hauling traffic across the WAN increases latency and has a negative impact on quality and the user experience. Because Microsoft Teams runs on Microsoft’s large global network, there’s often a network peering location close to the user. A user will most likely get better performance by egressing out of a local internet point close to their location and on to our voice-optimized network as soon as possible. For some workloads, DNS requests are used to send traffic to the nearest front-end server. In such cases, it’s important that when using a local egress point, it’s paired with local DNS resolution.
+Back-hauling traffic across the WAN increases latency and has a negative impact on quality and the user experience. Because Microsoft Teams runs on Microsoft's large global network, there's often a network peering location close to the user. A user will most likely get better performance by egressing out of a local internet point close to their location and on to our voice-optimized network as soon as possible. For some workloads, DNS requests are used to send traffic to the nearest front-end server. In such cases, it's important that when using a local egress point, it's paired with local DNS resolution.
 
-Optimizing the network path to Microsoft’s global network will improve performance and ultimately provide the best experience for users. To get an optimal experience using real-time media within Microsoft Teams, you must meet the networking requirements for Microsoft 365.
+Optimizing the network path to Microsoft's global network will improve performance and ultimately provide the best experience for users. To get an optimal experience using real-time media within Microsoft Teams, you must meet the networking requirements for Microsoft 365.
 
 Client to Microsoft Edge and Customer Edge to Microsoft Edge are the two defining network segments. Use the Network Assessment Tool to test both network segments. This tool can be deployed on both the client PC directly and on a PC connected to the Customer Network Edge.
 
 ### VPN
 
-VPNs are typically not designed or configured to support real-time media. We recommend you provide an alternate path that bypasses the VPN for Teams traffic. This is commonly known as split-tunnel VPN. Split tunneling means that traffic won’t traverse the VPN but will go directly to Teams. This change will have a positive impact on quality, but also provides the secondary benefit of reducing load from the VPN devices and the organization’s network.
+VPNs are typically not designed or configured to support real-time media. We recommend you provide an alternate path that bypasses the VPN for Teams traffic. This is commonly known as split-tunnel VPN. Split tunneling means that traffic won't traverse the VPN but will go directly to Teams. This change will have a positive impact on quality, but also provides the secondary benefit of reducing load from the VPN devices and the organization's network.
 
 To implement a split-tunnel, consult with your VPN vendor for the configuration details.
 
 ### Wi-Fi
 
-Like VPN, Wi-Fi networks aren’t necessarily designed or configured to support real-time media. Planning for, or optimizing, a Wi-Fi network to support Teams is an important consideration for a high-quality deployment.
+Like VPN, Wi-Fi networks aren't necessarily designed or configured to support real-time media. Planning for, or optimizing, a Wi-Fi network to support Teams is an important consideration for a high-quality deployment.
 
 There are several factors that come into play for optimizing a Wi-Fi network:
 
 - Implementing QoS or Wi-Fi Multimedia (WMM) to ensure that media traffic is getting prioritized accordingly over the Wi-Fi networks.
 - Planning and optimizing the Wi-Fi bands and access point placement. The 5-GHz range is better suited to real-time media due to their dense range but requires more access points to get sufficient coverage. Endpoints also need to support that range and be configured to leverage those bands accordingly.
 - If dual-band Wi-Fi networks are deployed, consider implementing band steering, which is a technique implemented by Wi-Fi vendors to influence dual-band clients to use the 5-GHz range.
-- When access points of the same channel are too close together, they can cause signal overlap and unintentionally compete, resulting in a bad experience for the user. Ensure that access points that are next to each other are on channels that don’t overlap.
+- When access points of the same channel are too close together, they can cause signal overlap and unintentionally compete, resulting in a bad experience for the user. Ensure that access points that are next to each other are on channels that don't overlap.
 
 Each wireless vendor has its own recommendations for deploying its wireless solution. We recommend that you consult your vendor for specific guidance.
 
@@ -51,9 +51,9 @@ Each wireless vendor has its own recommendations for deploying its wireless solu
 
 Microsoft Teams connects to Microsoft Online Services. For Teams to function correctly, you must open TCP ports 80 and 443 from the clients to the internet, and UDP ports 3478 through 3481 from the clients to the internet. The TCP ports are used to connect to web-based content such as SharePoint Online, Exchange Online, and the Teams Chat services. Plug-ins and connectors also connect over these TCP ports. The four UDP ports are used for media such as audio and video, to ensure they flow correctly.
 
-If your organization requires that you specify the exact IP address ranges and domains to which these ports should be opened, you can restrict the target IP ranges and domains for these ports. For a list of exact ports, protocols, and IP ranges, see Microsoft 365 URLs and IP address ranges. It’s also a good practice to test whether all ports are opened by running the Skype for Business Network Assessment Tool on a regular basis. 
+If your organization requires that you specify the exact IP address ranges and domains to which these ports should be opened, you can restrict the target IP ranges and domains for these ports. For a list of exact ports, protocols, and IP ranges, see Microsoft 365 URLs and IP address ranges. It's also a good practice to test whether all ports are opened by running the Skype for Business Network Assessment Tool regularly.
 
-We also recommend that you bypass any proxy servers for all Teams services. Although using a proxy might work, media will be forced to use TCP instead of UDP, which will result in a reduction in quality. 
+We also recommend that you bypass any proxy servers for all Teams services. Although using a proxy might work, media will be forced to use TCP instead of UDP, which will result in a reduction in quality.
 
 ## Additional network considerations
 
@@ -63,9 +63,9 @@ Ensure that all the client computers running the Teams client can resolve extern
 
 ### NAT pool size
 
-When multiple users and devices access Microsoft 365 by using Network Address Translation (NAT) or Port Address Translation (PAT), you need to ensure that the devices hidden behind each publicly routable IP address don’t exceed the supported number.
+When multiple users and devices access Microsoft 365 by using Network Address Translation (NAT) or Port Address Translation (PAT), you need to ensure that the devices hidden behind each publicly routable IP address don't exceed the supported number.
 
-To mitigate this risk, ensure adequate public IP addresses are assigned to the NAT pools to prevent port exhaustion. Port exhaustion will cause internal end users and devices to face issues when connecting to the Microsoft 365 services. 
+To mitigate this risk, ensure adequate public IP addresses are assigned to the NAT pools to prevent port exhaustion. Port exhaustion will cause internal end users and devices to face issues when connecting to the Microsoft 365 services.
 
 ### Intrusion detection and prevention guidance
 
@@ -73,7 +73,7 @@ If your environment has an intrusion detection system and/or intrusion preventio
 
 ## Test the network
 
-After you’ve completed your planning and network preparation—including upgrading bandwidth and opening ports in the firewall—you should test your network’s performance. The test results will paint a clearer picture of any network optimization or remediation required for the success of your Teams implementation.
+After you've completed your planning and network preparation—including upgrading bandwidth and opening ports in the firewall—you should test your network's performance. The test results will paint a clearer picture of any network optimization or remediation required for the success of your Teams implementation.
 
 The Skype for Business Network Assessment Tool will tell you whether your network is ready for Teams. The tool offers dual functionality: it can test whether all the correct ports have been opened, and it can test for network impairments, including latency, packet loss, and jitter.
 

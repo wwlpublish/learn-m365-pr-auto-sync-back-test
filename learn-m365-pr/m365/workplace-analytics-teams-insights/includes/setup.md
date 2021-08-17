@@ -45,13 +45,13 @@ To load the data into the Teams insights Power BI (PBI) template:
 6. Return to Power BI and paste the Influence insights query OData link into the Influence insights Query URL field.
 7. Load the data.
 
-The dashboard visualizations on each page of the report will populate with Workplace Analytics data, starting with the Settings page. 
+The dashboard visualizations on each page of the report will populate with Workplace Analytics data, starting with the Settings page.
 
 **3. Select your settings in the Teams insights dashboard**. After you've loaded the data to generate the report, you can adjust some settings on the Settings page.
 
 - Select the time period for your report.
 - Select an organizational attribute to view the report by.
-- To filter out employees, select the organizational attribute and values you’d like to filter by.
+- To filter out employees, select the organizational attribute and values you'd like to filter by.
 
 ![Select your settings](../media/options-settings.png)
 

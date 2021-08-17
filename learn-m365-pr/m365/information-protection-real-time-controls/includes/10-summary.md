@@ -19,3 +19,4 @@ Now that you've completed this module, you should be able to:
 - [Tutorial: Protect files with admin quarantine](/cloud-app-security/use-case-admin-quarantine)
 - [Tutorial: Automatically apply Azure Information Protection classification labels](/cloud-app-security/use-case-information-protection)
 - [Information protection policies](/cloud-app-security/policies-information-protection)
+- [Interactive guide: Protect and control information with Microsoft Cloud App Security](https://aka.ms/Protect_and_control_information_with_Microsoft-Cloud-App-Security)

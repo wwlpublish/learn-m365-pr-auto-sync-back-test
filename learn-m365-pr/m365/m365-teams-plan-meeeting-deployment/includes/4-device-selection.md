@@ -5,8 +5,8 @@ In our scenario, you've successfully deployed and configured Microsoft Teams to 
 Here, you'll learn about the different types of meeting devices that can be used with Microsoft Teams.
 
 ## Personal devices
-Personal devices include headsets, speakerphones, and web cameras to add to PCs and monitors. Furthermore, you can use all-in-one displays and desk phones that incorporate audio and video to be used without a PC.
 
+Personal devices include headsets, speakerphones, and web cameras to add to PCs and monitors. Furthermore, you can use all-in-one displays and desk phones that incorporate audio and video to be used without a PC.
 
 :::image type="content" border="false" source="../media/4-all-in-one.png" alt-text="All-in-one device":::
 

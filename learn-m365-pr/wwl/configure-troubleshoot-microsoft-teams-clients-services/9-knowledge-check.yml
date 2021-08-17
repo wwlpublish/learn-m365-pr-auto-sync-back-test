@@ -1,0 +1,62 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.configure-troubleshoot-microsoft-teams-clients-services.knowledge-check
+title: Knowledge check
+metadata:
+  title: Knowledge check
+  description: "Knowledge check"
+  ms.date: 08/16/2021
+  author: wwlpublish
+  ms.author: cyncarey
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+durationInMinutes: 4
+content: |
+  [!include[](includes/9-knowledge-check.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "An administrator is in the process of deploying the Windows Desktop client for Teams. The administrator must install Teams on over 500 computers. All users have a Microsoft 365 E5 license, including Enterprise Mobility + Security. Which of the following methods supports automated deployment of only the Teams desktop client, and not any additional Microsoft 365 apps?"
+    choices:
+    - content: "Using the Install Office link in the Office 365 portal."
+      isCorrect: false
+      explanation: "That's incorrect. This method downloads and installs all Microsoft 365 apps, including Teams."
+    - content: "Using a web browser to download the Microsoft Teams desktop client."
+      isCorrect: false
+      explanation: "That's incorrect. While this method does install only the Teams Desktop client, it’s not efficient for installing on 500 computers."
+    - content: "Using Microsoft Intune and creating a Microsoft 365 Apps custom deployment that only includes the Teams app."
+      isCorrect: true
+      explanation: "That's correct. You can easily deploy apps this way, including the Teams Desktop client for Windows."
+  - content: "Which update channel for Office should an administrator choose in order to install updates as soon as they’re available?"
+    choices:
+    - content: "Current channel."
+      isCorrect: true
+      explanation: "That's correct. This ensures updates are applied as soon as they’re available."
+    - content: "Monthly Enterprise channel."
+      isCorrect: false
+      explanation: "That's incorrect. This provides updates once a month."
+    - content: "Semi-Annual Enterprise Channel."
+      isCorrect: false
+      explanation: "That's incorrect. This provides updates every six months."
+  - content: "A user calls the helpdesk and explains that they cannot see the New Teams Meeting tile in Outlook. Which of the following could explain this problem?"
+    choices:
+    - content: "The user is using Outlook 2016."
+      isCorrect: false
+      explanation: "That's incorrect. The Teams Meeting add-in is supported in Outlook 2013 and newer."
+    - content: "The user is assigned a meeting policy that has the Allow the Outlook add-in option disabled."
+      isCorrect: true
+      explanation: "That's correct. This meeting policy setting prevents the use of the add-in."
+    - content: "The Teams Meeting add-in is not installed."
+      isCorrect: false
+      explanation: "That's incorrect. The add-in is automatically installed when Teams is installed, assuming a supported version of Outlook is used."
+  - content: "A user reports that they are unable to use their camera in Teams meetings. Users in the same department have experienced no such issues. The user has told the helpdesk that their camera works in other apps on their Windows 10 computer. Which of the following should the Teams administrator attempt to resolve the issue?"
+    choices:
+    - content: "Verify the assigned meeting policy has the Allow IP video option enabled."
+      isCorrect: false
+      explanation: "That's incorrect. All other users’ cameras are working in the user’s department. It seems unlikely to be a policy setting issue."
+    - content: "Tell the user to close and reopen Teams."
+      isCorrect: false
+      explanation: "That's incorrect. This is unlikely to make any difference."
+    - content: "Open Settings, and verify that Microsoft Teams is displayed in the Allow desktop apps to access your camera list."
+      isCorrect: true
+      explanation: "That's correct. Unless Teams is granted permissions, it cannot use the camera."

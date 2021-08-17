@@ -4,7 +4,7 @@ title: Separate user profiles from virtual machines with FSLogix profiles
 metadata:
   title: Separate user profiles from virtual machines with FSLogix profiles
   description: Learn about FSLogix and how FSLogix profiles are used with Azure Virtual Desktop.
-  ms.date: 06/29/2020
+  ms.date: 07/14/2021
   author: lizap
   ms.author: elizapo
   ms.topic: interactive-tutorial

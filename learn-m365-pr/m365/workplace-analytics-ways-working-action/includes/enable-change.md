@@ -51,7 +51,7 @@ In Outlook on the web:
 
    ![Select Insights in Outlook on the web](../media/outlook-web.png)
 
-3. After you open the Insights add-in, you’ll see a number of cards in the Insights pane.
+3. After you open the Insights add-in, you'll see a number of cards in the Insights pane.
 
    ![Cards in the Insights pane](../media/insights-pane-example.png)
 
@@ -111,7 +111,7 @@ You can use the plans feature of Workplace Analytics to create improvement plans
 
 - Identify groups whose workplace effectiveness could be improved.
 - Set up 12-week plans for the identified group.
-- Measure the progress of the plan while it’s underway.
+- Measure the progress of the plan while it's underway.
 
 If you have the analyst, limited analyst, or program manager role, you can open Workplace Analytics and select **Plans > New Plan**. There you can learn about the types of plans that you can create.
 
@@ -131,7 +131,7 @@ Insights for people managers provide team leaders with behavioral measures of em
 > Managers cannot access data on individuals. Managers who are assigned access can only see data on their team in an aggregate view. The default group size threshold is ten, including the manager.
 >
 
-Here’s the Insights for people managers **Home** page:
+Here's the Insights for people managers **Home** page:
 
 ![Insights for people managers Home page](../media/insights-people-managers-home.png)
 

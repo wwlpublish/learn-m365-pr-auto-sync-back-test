@@ -202,7 +202,7 @@ Provides team collaboration such as document storage, a centralized calendar, a 
   :::column:::
     
 
-Excellent for team or department collaboration when other resources such as OneNote or OneDrive are needed. Because it provides hooks into multiple Microsoft 365 services, it can be used as a tool to aid adoption and drive business value.
+Excellent for team or department collaboration when other resources such as OneNote or OneDrive are needed. Because it's integrated into multiple Microsoft 365 services, it can be used as a tool to aid adoption and drive business value.
 
 
   :::column-end:::
@@ -280,14 +280,14 @@ These folders can be used to assign access permissions to resources in Active Di
 
 ### Recipient types in a synchronized environment
 
-If your Microsoft 365 environment doesn't use directory synchronization, your environment will use cloud IDs for Exchange Online only. This design enables you to create, modify, and delete all recipient types in Microsoft 365 using the Microsoft 365 admin center, Exchange admin center, or Windows PowerShell.
+If an organization's Microsoft 365 environment doesn't use directory synchronization, its environment will use cloud IDs for Exchange Online only. This design enables the organization to create, modify, and delete all recipient types in Microsoft 365 using the Microsoft 365 admin center, Exchange admin center, or Windows PowerShell.
 
-When you implement directory synchronization to your Microsoft 365 tenant (that is, you install Azure AD Connect to synchronize your local Active Directory), you must complete all recipient management tasks locally. In doing so, you must use on-premises Exchange management tools such as the Exchange Admin Center or Exchange Management Shell to create, modify, or delete recipients.
+When directory synchronization is implemented in a Microsoft 365 tenant (that is, Azure AD Connect is installed to synchronize the local Active Directory), all recipient management tasks must be completed locally. In doing so, the on-premises Exchange management tools such as the Exchange Admin Center or Exchange Management Shell must be used to create, modify, and delete recipients.
 
 **Additional reading.** For more information, see the following resources:
 
- *  [Outlook](https://aka.ms/edx-cld222x-ol?azure-portal=true)
- *  [Outlook on the web](https://aka.ms/edx-cld222x-ol01?azure-portal=true)
+ -  [Outlook](https://aka.ms/edx-cld222x-ol?azure-portal=true)
+ -  [Outlook on the web](https://aka.ms/edx-cld222x-ol01?azure-portal=true)
 
 ## Knowledge check
 

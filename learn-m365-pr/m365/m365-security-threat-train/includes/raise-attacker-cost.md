@@ -1,6 +1,6 @@
 ![Turn the Defender's Dilemma into the Attacker's Dilemma](../media/attacker-dilemma.png)
 
-Your focus as a defender should be to undermine the attacker’s model by raising the cost of attack. This shifts the current paradigm from a **Defender’s dilemma** to an **Attacker’s dilemma**. 
+Your focus as a defender should be to undermine the attacker's model by raising the cost of attack. This shifts the current paradigm from a **Defender's dilemma** to an **Attacker's dilemma**.
 
 You must defend against the cheapest attack techniques first. Blocking the cheap attacks raises the cost to attack your environment.
 

@@ -2,11 +2,11 @@ Self-service password reset (SSPR) enables users to reset their own password wit
 
 To reset a password, users must first authenticate their identity. The following verification methods are available:
 
- *  Send email to alternate email address
- *  Call office phone
- *  Call mobile phone
- *  Text mobile phone
- *  Answer security questions
+ -  Send email to alternate email address
+ -  Call office phone
+ -  Call mobile phone
+ -  Text mobile phone
+ -  Answer security questions
 
 If users forget their passwords, they can reset them by selecting the link titled **Can’t access your account?** on the Microsoft 365 Sign-in page. To reset their passwords, users must first enter their alternate personal information. If they haven't entered this information, they'll have to contact the Enterprise Administrator to reset their password for them. Microsoft Support can't reset forgotten passwords.
 
@@ -21,9 +21,9 @@ The following graphic shows how a user can do a self-service password reset. Onc
 
 ### Password writeback
 
-Paid subscriptions for Microsoft 365 store user information in Azure AD Basic. Azure AD Basic is unable to write back a password change from Azure AD to on-premises AD DS. If you purchase Azure AD Premium, it includes the ability to write back passwords. This feature enables you to implement self-service password reset for synchronized identities and federated identities. it also enhances AD DS by providing a portal for password reset.
+Paid subscriptions for Microsoft 365 store user information in Azure AD Basic. Azure AD Basic is unable to write back a password change from Azure AD to on-premises AD DS. Azure AD Premium includes the ability to write back passwords. This feature enables organizations to implement self-service password reset for synchronized identities and federated identities. It also enhances AD DS by providing a portal for password reset.
 
-**Additional reading.** For more information about SSPR, see the following article on [resetting your work or school password](https://docs.microsoft.com/azure/active-directory/active-directory-passwords?azure-portal=true).
+**Additional reading.** For more information about SSPR, see [Resetting your work or school password](/azure/active-directory/active-directory-passwords).
 
 ## Knowledge check
 

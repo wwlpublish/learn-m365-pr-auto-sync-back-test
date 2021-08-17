@@ -3,7 +3,7 @@ uid: learn.wwl.plan-your-premises-infrastructure-for-microsoft-365
 metadata:
   title: Plan your on-premises infrastructure for Microsoft 365
   description: "Plan your on-premises infrastructure for Microsoft 365"
-  ms.date: 06/02/2021
+  ms.date: 06/30/2021
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -34,7 +34,7 @@ units:
 - learn.wwl.plan-your-premises-infrastructure-for-microsoft-365.introduction
 - learn.wwl.plan-your-premises-infrastructure-for-microsoft-365.prepare-your-organizations-enterprise
 - learn.wwl.plan-your-premises-infrastructure-for-microsoft-365.manage-your-transition-to-by-using-deployment-planning-checklist
-- learn.wwl.plan-your-premises-infrastructure-for-microsoft-365.estimate-your-organizationss-bandwidth-requirements-to-support
+- learn.wwl.plan-your-premises-infrastructure-for-microsoft-365.estimate-your-organizations-bandwidth-requirements-to-support
 - learn.wwl.plan-your-premises-infrastructure-for-microsoft-365.validate-your-network-readiness-by-using-microsoft-network-tools
 - learn.wwl.plan-your-premises-infrastructure-for-microsoft-365.integrate-your-network-to
 - learn.wwl.plan-your-premises-infrastructure-for-microsoft-365.identify-endpoints-required-to-function-properly

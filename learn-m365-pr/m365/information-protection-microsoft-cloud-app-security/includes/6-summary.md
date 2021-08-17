@@ -2,12 +2,12 @@ As a security administrator at Contoso, you've been involved with the early stag
 
 Now that you've completed this module, you should be able to:
 
--   Connect apps to Microsoft Cloud App Security
--   Deploy Conditional Access App Control
--   Configure real-time monitoring and control across cloud apps
+- Connect apps to Microsoft Cloud App Security
+- Deploy Conditional Access App Control
+- Configure real-time monitoring and control across cloud apps
 
 ## Learn more
 
--   [Deploy Cloud App Security](/cloud-app-security/getting-started-with-cloud-app-security)
--   [Protect with Microsoft Cloud App Security Conditional Access App Control](/cloud-app-security/proxy-intro-aad)
--   [Block downloads from unmanaged devices with Cloud App Security Conditional Access App Control](/cloud-app-security/use-case-proxy-block-session-aad)
+- [Deploy Cloud App Security](/cloud-app-security/getting-started-with-cloud-app-security)
+- [Protect with Microsoft Cloud App Security Conditional Access App Control](/cloud-app-security/proxy-intro-aad)
+- [Block downloads from unmanaged devices with Cloud App Security Conditional Access App Control](/cloud-app-security/use-case-proxy-block-session-aad)

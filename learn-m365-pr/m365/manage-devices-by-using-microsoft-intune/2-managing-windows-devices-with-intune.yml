@@ -4,11 +4,11 @@ title: Managing Windows devices with Intune
 metadata:
   title: Managing Windows devices with Intune
   description: Learn how to manage Windows 10 devices with Microsoft Intune
-  ms.date: 9/3/2019
+  ms.date: 07/15/2021
   author: dahans-msft2
   ms.author: dahans
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-durationInMinutes: 10
+durationInMinutes: 9
 content: |
   [!include[](includes/2-managing-windows-devices-with-intune.md)] 

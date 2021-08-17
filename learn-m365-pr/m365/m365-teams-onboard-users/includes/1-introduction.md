@@ -1,4 +1,4 @@
-Microsoft Teams can facilitate communication and collaboration for users across your organization. As you roll out Microsoft Teams to your organization, it is important to educate users in how to use Teams so that the roll out is successful.
+Microsoft Teams can facilitate communication and collaboration for users across your organization. As you roll out Microsoft Teams to your organization, it is important to educate users in how to use Teams so that the rollout is successful.
 
 Suppose you're the administrator for a large company that creates regulatory content for the airline industry. You have remote workers all over the country. You're going to roll out Microsoft Teams to all your users and your goal is to make sure that the adoption goes smoothly.
 

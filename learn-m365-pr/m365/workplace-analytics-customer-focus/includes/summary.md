@@ -1,6 +1,6 @@
 This module provides high-level guidance on the framework to drive insights in the Customer Focus use case, key considerations to run a successful project, and tools to facilitate and increase the effectiveness of the change management.
 
-As the sales analytics lead, you can now use Workplace Analytics with the integration of CRM data to drive insights on sales employees’ external collaboration, time spent with colleagues in internal processes, and coaching and onboarding activities that set them up for success.
+As the sales analytics lead, you can now use Workplace Analytics with the integration of CRM data to drive insights on sales employees' external collaboration, time spent with colleagues in internal processes, and coaching and onboarding activities that set them up for success.
 
 Based on the results, your leaders are now able to make informed decisions that help sales employees prioritize the most important accounts, construct effective teams to drive customer satisfaction and high-value deals, optimize account coverage and sales performance, streamline internal processes to leave more time for external-facing activities, and make sure managers provide sufficient support and coaching.
 

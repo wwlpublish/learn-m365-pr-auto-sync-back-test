@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-m365-pr.get-started-microsoft-defender-endpoint.summary
+title: Summary
+metadata:
+  unitType: summary
+  title: Summary
+  description: Review what you've learned.
+  ms.date: 06/25/2021
+  author: iankensey
+  ms.author: beccarobins
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 1
+content: |
+  [!include[](includes/summary.md)]

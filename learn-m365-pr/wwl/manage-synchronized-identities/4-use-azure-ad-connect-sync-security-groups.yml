@@ -4,7 +4,7 @@ title: Use Azure AD Connect Sync Security Groups to help maintain directory sync
 metadata:
   title: Use Azure AD Connect Sync Security Groups to help maintain directory synchronization
   description: "Use Azure AD Connect Sync Security Groups to help maintain directory synchronization"
-  ms.date: 04/15/2021
+  ms.date: 07/12/2021
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial

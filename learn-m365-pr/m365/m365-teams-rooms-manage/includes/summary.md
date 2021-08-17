@@ -10,4 +10,4 @@ Now that you have finished this module, you should be able to:
   
 - Differentiate between the available management options.
 - Understand which tools to use and when to use them.
-- Troubleshoot poor participant audio in a Teams Rooms meeting. 
+- Troubleshoot poor participant audio in a Teams Rooms meeting.

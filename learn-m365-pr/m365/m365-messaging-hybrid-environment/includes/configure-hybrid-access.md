@@ -6,7 +6,7 @@ To enable the shared free/busy feature between your on-premises Exchange organiz
 
 Both the on-premises and Office 365 service organizations need to have a federation trust established with the Azure AD authentication system. A federation trust is a one-to-one relationship with the Azure AD authentication system that defines parameters for your Exchange organization.
 
-A federation trust with the Azure AD authentication system is automatically configured for your Office 365 service organization when the account is created. The Hybrid Configuration wizard automatically checks to see if there is an existing federation trust with the Azure AD authentication system for the on-premises organization. If present, the existing federation trust is used to support the hybrid deployment. If it isn’t present, the wizard creates a federation trust for the on-premises organization with the Azure AD authentication system.
+A federation trust with the Azure AD authentication system is automatically configured for your Office 365 service organization when the account is created. The Hybrid Configuration wizard automatically checks to see if there is an existing federation trust with the Azure AD authentication system for the on-premises organization. If present, the existing federation trust is used to support the hybrid deployment. If it isn't present, the wizard creates a federation trust for the on-premises organization with the Azure AD authentication system.
 
 ## Organization relationships
 

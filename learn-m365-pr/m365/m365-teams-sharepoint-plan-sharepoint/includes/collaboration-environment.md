@@ -24,7 +24,7 @@ Creating a smooth user experience means avoiding barriers for users that they do
 
 ## Tools to create a safe collaboration environment
 
-Microsoft 365 provides a variety of tools that you can use in conjunction with SharePoint to create a safe collaboration environment that meets your governance needs and enables your users to work efficiently:
+Microsoft 365 provides a variety of tools that you can use with SharePoint to create a safe collaboration environment that meets your governance needs and enables your users to work efficiently:
 
 - **Control external sharing.** Use the SharePoint sharing controls to define which sites allow sharing with guests and whether guests need to authenticate to access shared files and folders.
 - **Classify and protect information.** Data loss prevention in Microsoft 365 provides a way to classify your sites and documents, and to create a series of conditions, actions, and exceptions to govern how they're used and shared.

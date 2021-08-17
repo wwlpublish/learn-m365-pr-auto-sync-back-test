@@ -4,12 +4,12 @@ title: Summary and knowledge check
 metadata:
   title: Summary and knowledge check
   description: Learn how to create teams and manage their members by determining roles, access, and messaging policies for both internal and external users. 
-  ms.date: 08/26/2019
+  ms.date: 07/16/2021
   author: AlexandraHrt
   ms.author: v-aleha
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-durationInMinutes: 5
+durationInMinutes: 4
 content: |
   [!include[](includes/summary-knowledge-check.md)]
 quiz:

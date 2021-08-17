@@ -3,7 +3,7 @@ uid: learn-m365-pr.viva-topics-implement
 metadata:
   title: Implement Viva Topics in your organization
   description: Learn how to implement Viva Topics in your organization. Learn about key usage scenarios, how to secure your Topics deployment, and how to set up a change management process.
-  ms.date: 05/26/2021
+  ms.date: 07/16/2021
   ms.author: elizapo
   author: lizap
   ms.topic: interactive-tutorial
@@ -17,7 +17,7 @@ abstract: |
   - Establish security and privacy settings.
   - Run a pilot to test your Viva Topics implementation.
 prerequisites: None
-iconUrl: /learn/achievements/generic-badge.svg
+iconUrl: /learn/achievements/implement-viva-topics.svg
 levels: 
 - beginner
 roles: 

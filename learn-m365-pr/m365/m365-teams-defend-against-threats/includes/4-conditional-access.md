@@ -1,11 +1,13 @@
 When users connect to your Teams system using their device, they may inadvertently introduce security loopholes because of the apps and configurations present on that device. One approach to prevent such loopholes is to set policies that test devices and users, then decide on their level of access based on the results. You can implement such an approach by using Conditional Access in Microsoft Teams.
 
 ## Teams and Conditional Access
+
 Conditional Access is a security feature of Azure Active Directory. Conditional Access uses multiple signals to determine whether a user or device is trustworthy.
 
 :::image type="content" border="false" source="../media/4-conditional-access.png" alt-text="Conditional access":::
 
-Conditional Access, like multi-factor authentication, is part of the Zero Trust security model. You use Conditional Access policies to determine how trustworthy something is. There are two types:
+Conditional Access, like multifactor authentication, is part of the Zero Trust security model. You use Conditional Access policies to determine how trustworthy something is. There are two types:
+
 - **Baseline** policies are preset. You choose if you want to use them but they're recommended for all customers.
 - **Custom** policies are created for specific security concerns.
 
@@ -27,5 +29,6 @@ The diagram below illustrates Teams service dependencies. Solid arrows indicate 
 Whenever possible, you should set common policies across related apps and services. Setting a common policy across Exchange Online, SharePoint Online, Microsoft Teams, and Skype for Business significantly reduces unexpected prompts that might arise from different policies being applied to downstream services.
 
 ## Learn more
+
 - [Building a Conditional Access policy](/azure/active-directory/conditional-access/concept-conditional-access-policies)
 - [What are service dependencies in Azure Active Directory Conditional Access?](/azure/active-directory/conditional-access/service-dependencies)

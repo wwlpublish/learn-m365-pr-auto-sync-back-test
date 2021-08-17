@@ -17,7 +17,7 @@ To display analytics reports:
 
 ## Teams analytics and reporting  
 
-There are several reports available from Teams Analytics. The following table gives an overview of some the reports, and the information they contain. More reports are being added, so check the Teams Analytics and reports documentation. Select the Microsoft Excel symbol to download data from each report. Select the **Downloads** tab to access downloaded reports when they are ready.
+There are several reports available from Teams Analytics. The following table gives an overview of some reports, and the information they contain. More reports are being added, so check the Teams Analytics and reports documentation. Select the Microsoft Excel symbol to download data from each report. Select the **Downloads** tab to access downloaded reports when they are ready.
 
 For more detail about each report, select on the report title:
 

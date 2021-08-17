@@ -12,7 +12,7 @@ Microsoft is committed to ensuring the privacy of organization through our contr
 - *GDPR for all customers* - We extend General Data Protection Regulation (GDPR) data protection rights to all customers worldwide, not just Europe.
 - *Listening to customers* - We actively collaborate with customers and regulators to foresee and shape compliance regulations.
 
-To the extent Microsoft processes personal data in connection with its own legitimate business operations, as described in the Online Services Terms, Microsoft is an independent controller for such processing.
+To the extent Microsoft processes personal data with its own legitimate business operations, as described in the Online Services Terms, Microsoft is an independent controller for such processing.
 
 ### Third-party access to data
 

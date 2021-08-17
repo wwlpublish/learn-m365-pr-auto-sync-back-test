@@ -40,6 +40,6 @@ In this part, you will customize the DLP policy by excluding this policy from ev
 
 1. On the **Protection actions** page, select **Next**.
 1. On the **Customize access and override setting** page, select options to restrict third-party apps using Microsoft Cloud App Security, and then select **Next**.
-1. On the **Test or turn on the policy** page, leave the **I’d like to test it out first** radio button selected and select the **Show policy tips while in test mode** check box, and then select **Next**.
+1. On the **Test or turn on the policy** page, leave the **I'd like to test it out first** radio button selected and select the **Show policy tips while in test mode** check box, and then select **Next**.
 :::image type="content" source="../media/5-test-turn-on-policy-inline.png" lightbox="../media/5-test-turn-on-policy-expanded.png" alt-text="Test or turn on the policy.":::
 1. Review the policy settings and then select **Submit**. After a few seconds, the **New policy created** page will be displayed. Select **Done**.

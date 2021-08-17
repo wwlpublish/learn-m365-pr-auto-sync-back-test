@@ -1,3 +1,1 @@
 ﻿In this module, you learned about **Windows Autopilot** and how it can help IT organizations modernize Windows 10 device management and how throughout the entire device's lifecycle, Windows Autopilot is an essential tool in helping IT organizations stay modern.
-
-

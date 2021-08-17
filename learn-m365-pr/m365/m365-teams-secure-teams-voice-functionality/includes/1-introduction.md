@@ -7,6 +7,7 @@ In this module, you'll learn about calling policies, protected voicemail, and ca
 ## Learning objectives
 
 By the end of the module, you should be able to:
+
 - Explain how to configure calling policies.
 - Describe how to protect your users' voicemails.
 - Demonstrate how to block inbound calls.

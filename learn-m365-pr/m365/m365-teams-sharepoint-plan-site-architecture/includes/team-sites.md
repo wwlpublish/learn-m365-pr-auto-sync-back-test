@@ -14,7 +14,7 @@ There may also be a section that displays links to files on the team site home p
 
 SharePoint team sites are integrated with Microsoft 365 Groups. Microsoft 365 Groups bring together conversations and calendar from Outlook, information and files from SharePoint, tasks from Planner, and a shared OneNote notebook into a single collaboration space with a SharePoint team site.
 
-When you create a new team site in SharePoint, a Microsoft 365 Group is created along with it which includes these services.
+When you create a new team site in SharePoint, a Microsoft 365 Group is created along with it that includes these services.
 
 Microsoft 365 Groups and SharePoint have separate permissions controls. If you add an owner or member to a Microsoft 365 Group, they automatically become an owner or member respectively in the associated SharePoint site. However, the reverse is not true—adding an owner or member directly to the SharePoint site does not add them to the associated group. This is important to consider when determining how you want to manage team site permissions. We recommend managing team site permissions through the associated group so that users have access to all the associated services.
 

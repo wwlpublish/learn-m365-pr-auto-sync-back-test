@@ -179,7 +179,7 @@ Network Connection Status Indicator (NCSI)
   :::column:::
     
 
-Windows must determine whether the device can access the internet. For more information, see [Network Connection Status Indicator (NCSI)](/windows/privacy/manage-windows-1709-endpoints#network-connection-status-indicator-ncsi?azure-portal=true).
+Windows must determine whether the device can access the internet. For more information, see [Network Connection Status Indicator (NCSI)](https://docs.microsoft.com/windows/privacy/manage-windows-1709-endpoints#network-connection-status-indicator-ncsi?azure-portal=true).
 
 
   :::column-end:::
@@ -293,7 +293,7 @@ The following subscriptions are also recommended, but not required:
 
 Before Windows Autopilot can be used, the following configuration tasks must be completed to support the common Autopilot scenarios:
 
- -  **Configure Azure Active Directory automatic enrollment.** For Microsoft Intune, see [Enable Windows 10 automatic enrollment](/intune/windows-enroll#enable-windows-10-automatic-enrollment?azure-portal=true) for details. If using a different MDM service, contact the vendor for the specific URLs or configuration needed for those services.
+ -  **Configure Azure Active Directory automatic enrollment.** For Microsoft Intune, see [Enable Windows 10 automatic enrollment](https://docs.microsoft.com/intune/windows-enroll#enable-windows-10-automatic-enrollment?azure-portal=true) for details. If using a different MDM service, contact the vendor for the specific URLs or configuration needed for those services.
  -  **Configure Azure Active Directory custom branding.** Organizations can display a company-specific sign-in page during the Autopilot process. To do so, Azure AD must be configured with the images and text that should be displayed. For more information, see [Quickstart: Add company branding to your sign-in page in Azure AD](/azure/active-directory/fundamentals/customize-branding). Key elements for Autopilot are the "square logo," "sign in page text," and the Azure AD tenant name (configured separately in the Azure AD tenant properties).
  -  **Enable Windows Subscription Activation.** To automatically upgrade from Windows 10 Pro to Windows 10 Enterprise, you must enable Windows Subscription Activation.
 

@@ -1,8 +1,8 @@
-It’s important to take a proactive approach to prevent security issues from happening, and to have appropriate solutions in place to handle any problems when they’re identified.
+It's important to take a proactive approach to prevent security issues from happening, and to have appropriate solutions in place to handle any problems when they're identified.
 
-To achieve this, you need to have a robust cloud security posture in place for your environment. You can then identify components and systems that don’t meet your security and compliance best practices and standards, and deal with them appropriately.
+To achieve this, you need to have a robust cloud security posture in place for your environment. You can then identify components and systems that don't meet your security and compliance best practices and standards, and deal with them appropriately.
 
-Here, you’ll learn how to improve your cloud security posture with Azure Security Center.
+Here, you'll learn how to improve your cloud security posture with Azure Security Center.
 Azure Security Center helps you manage your cloud security posture through several measures, including:
 
 ## Secure score
@@ -11,7 +11,7 @@ Azure Security Center will continually look for security issues with subscriptio
 
 :::image type="content" source="../media/3-secure-score.png" alt-text="Secure score":::
 
-You can review the secure score, and then begin to work on improving it. You’ll see the overall score, and how it’s split across your subscriptions:
+You can review the secure score, and then begin to work on improving it. You'll see the overall score, and how it's split across your subscriptions:
 
 :::image type="content" source="../media/3-secure-score-dashboard-inline.png" lightbox="../media/3-secure-score-dashboard-expanded.png" alt-text="Screenshot showing the Secure score dashboard":::
 
@@ -19,7 +19,7 @@ Select any subscription to find out how its score has been calculated:
 
 :::image type="content" source="../media/3-secure-score-calculation-inline.png" lightbox="../media/3-secure-score-calculation-expanded.png" alt-text="Secure score calculation":::
 
-You’ll see a list of controls. Each control is made up of a group of related recommendations to deal with a specific risk, along with detailed instructions about how to implement them. Your secure score is calculated using these controls. The controls are prioritized for you in the top down list, so that you’re aware of which ones to take care of first. Each control will only help you increase your secure score if you get maximum points for that specific control. You only get all those points if you implement all of its associated recommendations. For example, the **Manage access and permissions control** has several recommendations that need to be implemented to get its maximum number of points (four):
+You'll see a list of controls. Each control is made up of a group of related recommendations to deal with a specific risk, along with detailed instructions about how to implement them. Your secure score is calculated using these controls. The controls are prioritized for you in the top down list, so that you're aware of which ones to take care of first. Each control will only help you increase your secure score if you get maximum points for that specific control. You only get all those points if you implement all of its associated recommendations. For example, the **Manage access and permissions control** has several recommendations that need to be implemented to get its maximum number of points (four):
 
 :::image type="content" source="../media/3-control-breakdown-inline.png" lightbox="../media/3-control-breakdown-expanded.png" alt-text="Breakdown" :::
 
@@ -40,15 +40,15 @@ You can use **Quick Fix** to implement certain recommendations across multiple r
 
 :::image type="content" source="../media/3-secure-transfer-storage-accounts-recommendation-inline.png" lightbox="../media/3-secure-transfer-storage-accounts-recommendation-expanded.png" alt-text="Secure storage accounts recommendation":::
 
-At the top of the pane, you’ll also see a general description and details of the remediation, and information on how to remediate it manually if you wish. When you select **Remediate**, a pane appears on the right for you to review what this remediation will do, and the implications. If you’re happy to go ahead, select **Remediate resources**:
+At the top of the pane, you'll also see a general description and details of the remediation, and information on how to remediate it manually if you wish. When you select **Remediate**, a pane appears on the right for you to review what this remediation will do, and the implications. If you're happy to go ahead, select **Remediate resources**:
 
 :::image type="content" source="../media/3-select-remediate-resources-inline.png" lightbox="../media/3-select-remediate-resources-expanded.png" alt-text="Remediate resources":::
 
 ## Workflow automation with Logic Apps
 
-Using Azure Security Center’s workflow automation feature, you can configure Logic Apps to be triggered on security alerts or recommendations, so that entire workflows are automatically carried out in response. For example, you can automate a process to ensure that a certain user is notified via email to carry out an investigation whenever a specific alert is raised by Azure Security Center.
+Using Azure Security Center's workflow automation feature, you can configure Logic Apps to be triggered on security alerts or recommendations, so that entire workflows are automatically carried out in response. For example, you can automate a process to ensure that a certain user is notified via email to carry out an investigation whenever a specific alert is raised by Azure Security Center.
 
-To use workflow automation with Logic Apps, you’ll have to create a Logic App and define when it should be run. For example, to trigger an email to be sent to an admin in response to alerts, you do the following steps:
+To use workflow automation with Logic Apps, you'll have to create a Logic App and define when it should be run. For example, to trigger an email to be sent to an admin in response to alerts, you do the following steps:
 
 > [!NOTE]
 > There are specific roles and permissions that are required to complete these steps. See the link in the **Learn more** section.
@@ -72,12 +72,12 @@ To use workflow automation with Logic Apps, you’ll have to create a Logic App 
 
     1. Under **Actions**, select the **visit the Logic Apps page** link to create a new Logic App.
 
-    1. You’ll be taken to the Logic Apps pane. Select **Add**:
+    1. You'll be taken to the Logic Apps pane. Select **Add**:
     :::image type="content" source="../media/3-select-add-logic-app.png" alt-text="Add logic app":::
 
 Now you can configure your Logic App.
 
-1. In the form that appears, select your subscription and resource group. Give your Logic App a name, then select a region. When you’re done, select **Review + Create,** then select **Create**:
+1. In the form that appears, select your subscription and resource group. Give your Logic App a name, then select a region. When you're done, select **Review + Create,** then select **Create**:
 
     :::image type="content" source="../media/3-select-review-create-logic-app.png" alt-text="Select review and create logic app":::
 
@@ -95,11 +95,11 @@ created, then select **Go to resource**.
 
     :::image type="content" source="../media/3-add-outlook-connector.png" alt-text="Add Outlook connector":::
 
-1. When you’re done, select the **+** next to the **Security Center Alert** field, then select **Continue**. Now you can configure the details for the emails you want to send for alerts:
+1. When you're done, select the **+** next to the **Security Center Alert** field, then select **Continue**. Now you can configure the details for the emails you want to send for alerts:
 
     :::image type="content" source="../media/3-configure-email-details-inline.png" lightbox="../media/3-configure-email-details-expanded.png" alt-text="Configure email details":::
 
-    When you’re done, select **Save**.
+    When you're done, select **Save**.
 
 1. Return to the **Add workflow automation** tab on your browser.
     1. Make sure to select an appropriate subscription, or subscriptions, in the **Show Logic App instances from the following subscriptions** field.
@@ -130,11 +130,11 @@ For example, you can configure a continuous export to a Log Analytics workspace:
 
 1. Set **Export enabled** to **On**.
 
-1. You can then select the data type you want to export. For example, **security alerts**. You can also select the specific severity levels of alerts that you want to be exported; for example **high**.
+1. You can then select the data type you want to export. For example, **security alerts**. You can also select the specific severity levels of alerts that you want to be exported; for example, **high**.
 
 1. Under the **export configuration** section, select the resource group where your configuration will be stored.
 
-1. In the export target section, choose the relevant subscription that contains your workspace, and then select the target workspace. When you’re done, select **Save**.
+1. In the export target section, choose the relevant subscription that contains your workspace, and then select the target workspace. When you're done, select **Save**.
 
 ## Regulatory compliance
 
@@ -143,13 +143,13 @@ compliance posture. Select **Regulator compliance** on the overview pane of the 
 
 :::image type="content" source="../media/3-regulatory-compliance.png" alt-text="Regulatory compliance":::
 
-The regulatory compliance dashboard gives an overview of your environment’s compliance status, based on the assessments made against your environment for a particular standard and its associated controls. For example, you could use it to see how you’re matching up to the Azure Security Benchmark, based on its associated controls:
+The regulatory compliance dashboard gives an overview of your environment's compliance status, based on the assessments made against your environment for a particular standard and its associated controls. For example, you could use it to see how you're matching up to the Azure Security Benchmark, based on its associated controls:
 
 :::image type="content" source="../media/3-regulatory-compliance-breakdown.png" alt-text="Regulatory compliance breakdown":::
 
 To remediate compliance issues, you expand the list of controls and select the recommendations to implement them.
 
-The Azure Security Benchmark consists of a collection of high-impact security recommendations that you can use to help secure most of your services in Azure. It’s based on well-known security benchmarks, like the Center for Internet Security (CIS) Control Framework. Most customers tend to structure their security policies around these frameworks, so the benchmark will most likely help you to understand how to best secure your resources.
+The Azure Security Benchmark consists of a collection of high-impact security recommendations that you can use to help secure most of your services in Azure. It's based on well-known security benchmarks, like the Center for Internet Security (CIS) Control Framework. Most customers tend to structure their security policies around these frameworks, so the benchmark will most likely help you to understand how to best secure your resources.
 
 You can also generate reports for a standard. For example, you can download a report for the Azure Security Benchmark, by selecting **Download report**, and then selecting **Azure Security Benchmark** in the dropdown:
 
@@ -159,7 +159,7 @@ Reports give a high-level summary of your compliance status against your selecte
 
 ### Create custom policies
 
-You can create your own policies that Azure Security Center uses to assess your environment. You’ll then receive recommendations if your environment doesn’t match up to them. You can create custom policies by using the following steps:
+You can create your own policies that Azure Security Center uses to assess your environment. You'll then receive recommendations if your environment doesn't match up to them. You can create custom policies by using the following steps:
 
 1. In Azure Security Center, in the left pane, select **Security policy** under **Policy & compliance**.
 
@@ -191,7 +191,7 @@ You can create your own policies that Azure Security Center uses to assess your 
 
     1. Review the details one final time, then select **Create**.
 
-Your custom initiative will start to take effect. You’ll find it in your compliance dashboard, listed alongside the built-in initiatives.
+Your custom initiative will start to take effect. You'll find it in your compliance dashboard, listed alongside the built-in initiatives.
 
 ## Networking security
 
@@ -212,7 +212,6 @@ You can use filters at the top of the topology to specify what you want to see. 
 You select a specific resource to drill down into it, and view the recommendations. Details and recommendations for that specific resource will show in a pane that appears on the right:
 
 :::image type="content" source="../media/3-network-details-inline.png" lightbox="../media/3-network-details-expanded.png" alt-text="View network details":::
-
 
 ### Explore how to protect your hybrid cloud with Azure Security Center
 

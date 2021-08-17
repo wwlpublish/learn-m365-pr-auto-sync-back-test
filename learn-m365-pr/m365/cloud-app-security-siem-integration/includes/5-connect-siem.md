@@ -40,6 +40,7 @@ To connect a non-Microsoft security information and event management solution to
 ```java
 java -jar mcas-siemagent-0.87.20-signed.jar \[\--logsDirectory DIRNAME\] \[\--proxy ADDRESS\[:PORT\]\] \--token TOKEN
 ```
+
 > [!NOTE]
 > DIRNAME is the path to the directory you want to use for local agent debug logs.
 >

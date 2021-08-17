@@ -1,11 +1,12 @@
-You’ve completed the Knowledge management module for Viva Topics and now have the knowledge you need to effectively manage the Topics lifecycle and other tasks. 
+You've completed the Knowledge management module for Viva Topics and now have the knowledge you need to effectively manage the Topics lifecycle and other tasks.
 
-You’ve learned about Knowledge management overview and tasks:  
+You've learned about Knowledge management overview and tasks:
+
 - Knowledge management overview in Topic Center
 - Knowledge manager tasks  
 - Manage topics through lifecycle stages  
 - Review what users can see in Viva Topics  
-- Create and edit topics 
+- Create and edit topics
 
 ## Resources  
 

@@ -6,6 +6,6 @@ This module examines the key areas that organizations must plan for to create th
 
 After completing this module, you'll be able to:
 
- *  Determine which Microsoft 365 subscription offerings best suit your organization’s requirements
- *  Identify which Microsoft 365 component services satisfy your organizational needs
- *  Identify the steps to successfully create a tenant for Microsoft 365
+ -  Determine which Microsoft 365 subscription offerings best suit your organization’s requirements.
+ -  Identify which Microsoft 365 component services satisfy your organizational needs.
+ -  Identify the steps to successfully create a tenant for Microsoft 365.

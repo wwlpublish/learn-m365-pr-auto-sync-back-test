@@ -1,28 +1,28 @@
 You can use your early adopters and champions to support a broader scale roll out of Teams through your organization. Teams admin center provides you with reports to monitor if you have met the desired business outcomes for your organization's use of Teams.
 
-Here, you'll see what reporting is available to measure the success of your Teams roll out and review the approaches you can take for the full roll out.
+Here, you'll see what reporting is available to measure the success of your Teams roll out and review the approaches you can take for the full rollout.
 
 ## Monitor Teams adoption using the Teams and Microsoft 365 admin centers
 
-The Teams and Microsoft 365 admin centers provide a number of different reports. To view any of these reports, you'll need to have global admin rights on Microsoft 365 or be a Teams service admin.
+The Teams and Microsoft 365 admin centers provide many different reports. To view any of these reports, you'll need to have global admin rights on Microsoft 365 or be a Teams service admin.
 
 ### Teams admin center reports
 
 To view the reports, navigate to the [Teams admin center](https://admin.teams.microsoft.com), in the left navigation pane, select **Analytics & reports**. On the **Report** page, you can then select to view one of the following.
 
-**Teams usage report**
+#### Teams usage report
 
 :::image type="content" border="false" source="../media/5-teams-reports-teams-usage.png" alt-text="Screenshot of the Teams usage report" lightbox="../media/5-teams-reports-teams-usage.png":::
 
 The Teams usage report shows you an overview of the usage activity in Teams. It includes the number of active users and channels. You can view usage information for teams, including the number of active users and channels, guests, and messages in each team.
 
-**Teams user activity report**
+#### Teams user activity report
 
 :::image type="content" border="false" source="../media/5-teams-reports-user-activity.png" alt-text="Screenshot of the Teams user activity report" lightbox="../media/5-teams-reports-user-activity.png":::
 
 The Teams user activity report gives you an insight into the types of activities that users are doing in Teams. We share details about screen, video, and audio minutes, and chat communication statistics, such as how many users reply to and post channel messages, and how many users engage in 1:1 or group chat messages.
 
-**Teams device usage report**
+#### Teams device usage report
 
 :::image type="content" source="../media/5-teams-reports-device-usage.png" alt-text="Screenshot of the Teams device usage report" lightbox="../media/5-teams-reports-device-usage.png":::
 
@@ -32,13 +32,13 @@ The Teams device usage report shows you information about how users are connecti
 
 You can use activity reports in the Microsoft 365 admin center to see how users in your organization are using Microsoft Teams. Navigate to the [Microsoft 365 admin center](https://admin.microsoft.com/), in the navigation on the left, select **Reports > Usage**. The on the **Usage** page select the report you'd like to see.
 
-**Microsoft Teams user activity report**
+#### Microsoft Teams user activity report
 
 :::image type="content" border="false" source="../media/5-microsoft-365-teams-user-activity-report.png" alt-text="Screenshot of the Microsoft Teams user activity report" lightbox="../media/5-microsoft-365-teams-user-activity-report.png":::
 
 The Teams user activity report gives you a view of the most common activities that your users perform in Teams. This includes how many people engage in a chat in a channel, how many communicate via private chat message, and how many participate in calls or meetings. You can see this information for your whole organization, as well as for each individual user.
 
-**Microsoft Teams device usage report**
+#### Microsoft Teams device usage report
 
 :::image type="content" border="false" source="../media/5-microsoft-365-teams-device-usage-report.png" alt-text="Screenshot of the Microsoft Teams device usage report" lightbox="../media/5-microsoft-365-teams-device-usage-report.png":::
 

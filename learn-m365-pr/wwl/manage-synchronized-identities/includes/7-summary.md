@@ -4,8 +4,8 @@ In this module, you learned that all group membership must be managed in your on
 
 Finally, you learned that Azure AD Connect automatically creates Azure AD Connect Sync Security Groups to:
 
- *  delegate control in Azure AD Connect to other users
- *  assign a user temporary permission to run a manual synchronization
- *  troubleshoot directory synchronization issues using Azure AD Connect
+ -  delegate control in Azure AD Connect to other users
+ -  assign a user temporary permission to run a manual synchronization
+ -  troubleshoot directory synchronization issues using Azure AD Connect
 
 The module concluded with a discussion on troubleshooting directory synchronization. You learned that when troubleshooting directory synchronization issues, Enterprise Administrators must analyze logs for errors and remediate synchronization errors with the Azure AD Connect tool itself.

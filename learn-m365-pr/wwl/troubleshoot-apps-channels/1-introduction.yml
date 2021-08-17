@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.troubleshoot-apps-channels.introduction
+title: Introduction
+metadata:
+  title: Introduction
+  description: "Introduction"
+  ms.date: 08/16/2021
+  author: wwlpublish
+  ms.author: cyncarey
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+durationInMinutes: 2
+content: |
+  [!include[](includes/1-introduction.md)]

@@ -4,7 +4,7 @@ title: Knowledge check
 metadata:
   title: Knowledge check
   description: "Knowledge check"
-  ms.date: 06/02/2021
+  ms.date: 06/30/2021
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -24,7 +24,7 @@ quiz:
     - content: "Cloud Only"
       isCorrect: true
       explanation: "That's correct. This strategy has the least setup compared to the other identity strategies - all that is needed is a subscription and a sign-in account."
-    - content: "Azure AD Pass-through Authentication"
+    - content: "Azure AD Pass-Through Authentication"
       isCorrect: false
       explanation: "That's incorrect. This strategy has more setup requirements than the correct answer. Try again."
   - content: "As Fabrikam's Enterprise Administrator, you're planning a migration to Microsoft 365. You plan to authenticate all users in Azure Active Directory. As part of this process, the hashes of your users’ passwords must be replicated between Fabrikam's on-premises environment and Microsoft 365. Which of the following identity types should you use?"

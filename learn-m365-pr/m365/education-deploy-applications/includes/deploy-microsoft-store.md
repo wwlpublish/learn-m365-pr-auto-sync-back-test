@@ -19,7 +19,7 @@ Before you sign up for Microsoft Store for Education, you'll need an Azure Activ
 - Employees need Azure AD account when they access Store for Business content from Windows devices.
 - If you use a management tool to distribute and manage online-licensed apps, all employees will need an Azure AD account
 - For offline-licensed apps, Azure AD accounts aren't required for employees.
-Admins can add or remove user accounts in the Microsoft 365 admin center, even if you don’t have an Office 365 subscription. You can access the Office 365 admin portal directly from the Store for Business and Education.
+Admins can add or remove user accounts in the Microsoft 365 admin center, even if you don't have an Office 365 subscription. You can access the Office 365 admin portal directly from the Store for Business and Education.
 
 ### Software
 
@@ -130,7 +130,7 @@ You can use either, or both distribution methods in your organization.
 ### Distribute with Store for Education
 
 - Email link – After purchasing an app, Admins can send employees a link in an email message. Employees can select the link to install the app.
-- Curate private store for all employees – A private store can include content you’ve purchased from Microsoft Store for Business, and your line-of-business apps that you’ve submitted to Microsoft Store for Business. Apps in your private store are available to all of your employees. They can browse the private store and install apps when needed.
+- Curate private store for all employees – A private store can include content you've purchased from Microsoft Store for Business, and your line-of-business apps that you've submitted to Microsoft Store for Business. Apps in your private store are available to all of your employees. They can browse the private store and install apps when needed.
 - To use the options above users must be signed in with an Azure AD account on a Windows 10 device. Licenses are assigned as individuals install apps.
 
 ### Using a management tool

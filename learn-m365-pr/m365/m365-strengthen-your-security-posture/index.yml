@@ -1,0 +1,42 @@
+### YamlMime:Module
+uid: learn-m365-pr.strengthen-your-security-posture
+metadata:
+  moduleType: standard
+  title: Strengthen your security posture with Microsoft Defender for Endpoint
+  description: Learn about Microsoft Defender for Endpoint capabilities, such as threat and vulnerability management, exposure score, Microsoft Secure Score for devices, and security recommendations, so you can identify vulnerabilities across your devices, and remediate them to strengthen your security posture.
+  ms.date: 07/15/2021
+  author: iankensey
+  ms.author: beccarobins
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Strengthen your security posture with Microsoft Defender for Endpoint
+summary: Learn about Microsoft Defender for Endpoint capabilities, such as threat and vulnerability management, exposure score, Microsoft Secure Score for devices, and security recommendations, so you can identify vulnerabilities across your devices and remediate them to strengthen your security posture.
+abstract: |
+  By the end of this module, you'll be able to:
+  - Understand threat and vulnerability management in Microsoft Defender for Endpoint.
+  - Understand how to assess security posture using Microsoft Defender for Endpoint.
+  - Understand how to identify vulnerabilities on devices.
+  - Understand how to strengthen your security posture and reduce risk.
+prerequisites: |
+  - None
+iconUrl: /learn/achievements/generic-badge.svg
+levels:
+  - beginner
+roles:
+  - security-operations-analyst
+  - security-engineer
+  - administrator
+products:
+  - m365
+  - m365-security-center
+  - m365-threat-protection
+units:
+- learn-m365-pr.strengthen-your-security-posture.introduction
+- learn-m365-pr.strengthen-your-security-posture.get-overview-threat-management
+- learn-m365-pr.strengthen-your-security-posture.assess-your-security-posture
+- learn-m365-pr.strengthen-your-security-posture.identify-vulnerabilities-devices
+- learn-m365-pr.strengthen-your-security-posture.improve-security-posture-reduce-risk
+- learn-m365-pr.strengthen-your-security-posture.knowledge-check
+- learn-m365-pr.strengthen-your-security-posture.summary
+badge:
+  uid: learn-m365-pr.strengthen-your-security-posture.badge

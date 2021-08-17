@@ -3,7 +3,7 @@ uid: learn-m365.implement-mcas-cloud-discovery.4-configure-cloud-app-security-in
 metadata:
   title: Configure Cloud App Security in Microsoft Defender for Endpoint
   description: Microsoft Cloud App Security integrates with Microsoft Defender for Endpoint to help simplify cloud discovery
-  ms.date: 05/13/2021
+  ms.date: 07/02/2021
   author: geoffallix
   ms.author: beccarobins
   ms.topic: interactive-tutorial

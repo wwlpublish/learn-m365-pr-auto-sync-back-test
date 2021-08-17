@@ -1,0 +1,60 @@
+### YamlMime:ModuleUnit
+uid: learn-m365-pr.get-started-microsoft-defender-endpoint.knowledge-check
+title: Knowledge check
+metadata:
+  unitType: knowledge_check
+  title: Knowledge check
+  description: Knowledge check
+  ms.date: 07/21/2021
+  author: iankensey
+  ms.author: beccarobins
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 4
+content: |
+quiz:
+  questions:
+  - content: "What are the steps to take to onboard devices using Microsoft Endpoint Manager?"
+    choices:
+    - content: "Configure capabilities, create a group, then verify policies have been applied."
+      isCorrect: false
+      explanation: "This isn't the correct order of steps to take."
+    - content: "Configure capabilities, verify policies have been applied, then create a group."
+      isCorrect: false
+      explanation: "This isn't the correct order of steps to take."
+    - content: "Create a group, configure capabilities, then verify policies have been applied."
+      isCorrect: true
+      explanation: "You perform these steps in Microsoft Endpoint Manager to onboard your devices."
+  - content: "Which deployment tools can be used to onboard on-premises devices to Microsoft Defender for Endpoint?"
+    choices:
+    - content: "Configuration Manager, Group Policy"
+      isCorrect: true
+      explanation: "You use these tools to onboard your on-premises devices."
+    - content: "Microsoft Endpoint Manager, Group Policy"
+      isCorrect: false
+      explanation: "You don't use Microsoft Endpoint Manager to onboard on-premises devices."
+    - content: "Configuration Manager, Microsoft Endpoint Manager"
+      isCorrect: false
+      explanation: "You don't use Microsoft Endpoint Manager to onboard on-premises devices."
+  - content: "What is the second phase of the onboarding process?"
+    choices:
+    - content: "Onboard"
+      isCorrect: false
+      explanation: "This isn't the second phase. This is the final phase."
+    - content: "Plan"
+      isCorrect: false
+      explanation: "This isn't the second phase. This is the first phase."
+    - content: "Prepare"
+      isCorrect: true
+      explanation: "This phase occurs after the plan phase, and before the onboard phase."
+  - content: "Which deployment tool should be used to deploy Microsoft Defender for Endpoint for evaluation?"
+    choices:
+    - content: "Cloud-native"
+      isCorrect: false
+      explanation: "This isn't a deployment tool."
+    - content: "Local scripts"
+      isCorrect: true
+      explanation: "Use local scripts to evaluate Microsoft Defender for Endpoint."
+    - content: "Group Policy"
+      isCorrect: false
+      explanation: "You don't use Group Policy to do an evaluation deployment."

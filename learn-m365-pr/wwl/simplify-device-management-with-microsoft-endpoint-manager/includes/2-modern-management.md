@@ -6,68 +6,71 @@ Modern management is a novel approach of managing Windows 10 similar to how mobi
 
 The following table lists just some of the many benefits organizations may see adopting modern management methodologies:
 
-|                                       |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
-|---------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|     Easy to deploy and manage         |     Traditional operating system deployment (OSD) while powerful is   typically complex and time consuming. There is now a simpler way to provision   new Windows 10 devices. Windows Autopilot, which is deeply integrated with   Azure Active Directory (Azure AD) and Intune, simplifies and personalizes   out-of-the-box (OOBE) experience for users, joins the device to Azure AD, and   enrolls it in Intune. Users’ email, apps, files, preferences as well   organization’s security settings are also automatically applied by Intune   without needing to create custom OS images.                                                                 |
-|     Always up-to-date                 |     Keeping up with emerging security threats and increasing user   productivity requires a shift in how often Windows 10 and Microsoft 365 Apps   need to be updated. With aligned updates, powerful insights driven by cloud   intelligence, and a modern management approach with EMS, there is now a   better way to keep devices up-to-date without the complexity of maintaining   an on-premises infrastructure.                                                                                                                                                                                                                                       |
-|     Intelligent security, built in    |     Attackers are becoming more sophisticated, and Microsoft 365 was   designed with security in mind. There are many new and evolving security   features built directly in the Microsoft 365 platform, including Windows   Hello, Windows Defender Advanced Threat Protection (ATP), Windows Information   Protection, Azure AD Identity Protection, Conditional Access, and more. These   security features are powered by Microsoft Intelligent Security Graph which   uses billions of signals, constantly improving machine learning algorithms,   and human expertise to help you protect your company data and respond to   sophisticated attacks.    |
-|     Proactive insights                |     With rich telemetry and cloud intelligence, you can now proactively   discover device and app issues before they affect end users, be more   confident when applying OS updates, discover security issues, and more. The   fusion of machine intelligence with human expertise can create a unique and   powerful partnership.                                                                                                                                                                                                                                                                                                                            |
+:::row:::
+  :::column:::
+    
+  :::column-end:::
+  :::column:::
+    
+  :::column-end:::
+:::row-end:::
+:::row:::
+  :::column:::
+    Easy to deploy and manage
+  :::column-end:::
+  :::column:::
+    Traditional operating system deployment (OSD) while powerful is typically complex and time consuming. There is now a simpler way to provision new Windows 10 devices. Windows Autopilot, which is deeply integrated with Azure Active Directory (Azure AD) and Intune, simplifies and personalizes out-of-the-box (OOBE) experience for users, joins the device to Azure AD, and enrolls it in Intune. Users’ email, apps, files, preferences as well organization’s security settings are also automatically applied by Intune without needing to create custom OS images.
+  :::column-end:::
+:::row-end:::
+:::row:::
+  :::column:::
+    Always up-to-date
+  :::column-end:::
+  :::column:::
+    Keeping up with emerging security threats and increasing user productivity requires a shift in how often Windows 10 and Microsoft 365 Apps need to be updated. With aligned updates, powerful insights driven by cloud intelligence, and a modern management approach with EMS, there is now a better way to keep devices up-to-date without the complexity of maintaining an on-premises infrastructure.
+  :::column-end:::
+:::row-end:::
+:::row:::
+  :::column:::
+    Intelligent security, built in
+  :::column-end:::
+  :::column:::
+    Attackers are becoming more sophisticated, and Microsoft 365 was designed with security in mind. There are many new and evolving security features built directly in the Microsoft 365 platform, including Windows Hello, Windows Defender Advanced Threat Protection (ATP), Windows Information Protection, Azure AD Identity Protection, Conditional Access, and more. These security features are powered by Microsoft Intelligent Security Graph which uses billions of signals, constantly improving machine learning algorithms, and human expertise to help you protect your company data and respond to sophisticated attacks.
+  :::column-end:::
+:::row-end:::
+:::row:::
+  :::column:::
+    Proactive insights
+  :::column-end:::
+  :::column:::
+    With rich telemetry and cloud intelligence, you can now proactively discover device and app issues before they affect end users, be more confident when applying OS updates, discover security issues, and more. The fusion of machine intelligence with human expertise can create a unique and powerful partnership.
+  :::column-end:::
+:::row-end:::
+
 
 ## Deployment and enrollment options
 
 With Windows 10, you can continue to use traditional OS deployment for small scale implementations, but you can also “manage out of the box” for a simpler experience for both users and IT. To transform new devices into fully configured, fully managed devices, you can:
 
-- Avoid reimaging with cloud-based device management services such as
-    Microsoft Autopilot for Windows 10 and Microsoft Intune for dynamic
-    provisioning of subscriptions, applications, devices, and user
-    profiles.
-
-- Create self-contained provisioning packages built with the Windows
-    Configuration Designer.
-
-- Use traditional imaging techniques such as deploying custom images
-    using System Center Configuration Manager.
+ -  Avoid reimaging with cloud-based device management services such as Microsoft Autopilot for Windows 10 and Microsoft Intune for dynamic provisioning of subscriptions, applications, devices, and user profiles.
+ -  Create self-contained provisioning packages built with the Windows Configuration Designer.
+ -  Use traditional imaging techniques such as deploying custom images using System Center Configuration Manager.
 
 You have multiple options for upgrading to Windows 10. For existing devices running Windows 7 or Windows 8.1, it is recommended to use the robust in-place upgrade process for a fast, reliable move to Windows 10 while automatically preserving all the existing apps, data, and settings. This can mean significantly lower deployment costs, as well as improved productivity as end users can be immediately productive – everything is right where they left it. Of course, you can also use a traditional wipe-and-load approach if you prefer, using the same tools that you use today with Windows 7.
 
 ## Updates and maintenance
 
-With **Windows-as-a-Service**, your IT department no longer needs to
-perform complex imaging (wipe-and-load) processes with each new Windows
-release. Devices on Windows 10 semi-annual channel (SAC) versions
-receive the latest feature and quality updates through simple -- often
-automatic -- patching processes.
+With **Windows-as-a-Service**, your IT department no longer needs to perform complex imaging (wipe-and-load) processes with each new Windows release. Devices on Windows 10 semi-annual channel (SAC) versions receive the latest feature and quality updates through simple -- often automatic -- patching processes.
 
-**Mobile Device Management (MDM)** with Intune provide tools for
-applying Windows updates to client computers in your organization.
-Configuration Manager allows rich management and tracking capabilities
-of these updates, including maintenance windows and automatic deployment
-rules.
+**Mobile Device Management (MDM)** with Intune provide tools for applying Windows updates to client computers in your organization. Configuration Manager allows rich management and tracking capabilities of these updates, including maintenance windows and automatic deployment rules.
 
 ## Identity and authentication
 
-You can use Windows 10 and services like Azure Active Directory in new
-ways for cloud-based identity, authentication, and management. You can
-offer your users the ability to "bring your own device" (BYOD) or to
-"choose your own device" (CYOD) from a selection you make available. At
-the same time, you might be managing PCs and tablets that must be
-domain-joined because of specific applications or resources that are
-used on them.
+You can use Windows 10 and services like Azure Active Directory in new ways for cloud-based identity, authentication, and management. You can offer your users the ability to "bring your own device" (BYOD) or to "choose your own device" (CYOD) from a selection you make available. At the same time, you might be managing PCs and tablets that must be domain-joined because of specific applications or resources that are used on them.
 
-You can envision user and device management as falling into these two
-categories:
+You can envision user and device management as falling into these two categories:
 
-- Corporate (CYOD) or personal (BYOD) devices used by mobile users for
-    SaaS apps. With Windows 10, your employees can self-provision their
-    devices.
+ -  Corporate (CYOD) or personal (BYOD) devices used by mobile users for SaaS apps. With Windows 10, your employees can self-provision their devices.
+ -  Domain joined PCs and tablets used for traditional applications and access to secure resources. These may be traditional applications and resources that require authentication or accessing highly sensitive or classified resources on-premises. With Windows 10, if you have an on-premises Active Directory domain that's integrated with Azure AD when employee devices are joined, they will automatically register with Azure AD.
 
-- Domain joined PCs and tablets used for traditional applications and
-    access to secure resources. These may be traditional applications
-    and resources that require authentication or accessing highly
-    sensitive or classified resources on-premises. With Windows 10, if
-    you have an on-premises Active Directory domain that's integrated
-    with Azure AD when employee devices are joined, they will
-    automatically register with Azure AD.
-
-Domain joined PCs and tablets can continue to be managed with System
-Center Configuration Manager client or Group Policy.
+Domain joined PCs and tablets can continue to be managed with System Center Configuration Manager client or Group Policy.

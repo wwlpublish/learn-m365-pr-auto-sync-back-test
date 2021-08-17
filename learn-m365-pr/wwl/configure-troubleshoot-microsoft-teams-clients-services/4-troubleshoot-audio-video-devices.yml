@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.configure-troubleshoot-microsoft-teams-clients-services.troubleshoot-audio-video-devices
+title: Troubleshoot audio and video devices
+metadata:
+  title: Troubleshoot audio and video devices
+  description: "Troubleshoot audio and video devices"
+  ms.date: 08/16/2021
+  author: wwlpublish
+  ms.author: cyncarey
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+durationInMinutes: 5
+content: |
+  [!include[](includes/4-troubleshoot-audio-video-devices.md)]

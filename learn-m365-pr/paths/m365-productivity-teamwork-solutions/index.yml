@@ -10,7 +10,7 @@ metadata:
   ms.prod: learning-m365
 title: Demonstrate fundamental knowledge of Microsoft 365 productivity and teamwork capabilities
 prerequisites: |
-  - Basic understanding of cloud computing. If you're unfamiliar with basic cloud computing concepts, we recommend you take [Cloud Concepts - Principles of cloud computing](https://docs.microsoft.com/learn/modules/principles-cloud-computing/index)
+  - Basic understanding of cloud computing. If you're unfamiliar with basic cloud computing concepts, we recommend you take [Cloud Concepts - Principles of cloud computing](/learn/modules/principles-cloud-computing/index)
 summary: |
   Learn about the productivity and teamwork solutions in Microsoft 365 and the capabilities that help people be more productive using Microsoft 365 - The World's Productivity Cloud.
 iconUrl: /learn/achievements/microsoft-365-productivity-and-teamwork-solutions.svg

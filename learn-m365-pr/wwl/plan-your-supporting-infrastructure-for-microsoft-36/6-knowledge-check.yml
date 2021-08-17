@@ -4,7 +4,7 @@ title: Knowledge check
 metadata:
   title: Knowledge check
   description: "Knowledge check"
-  ms.date: 06/02/2021
+  ms.date: 06/30/2021
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -18,7 +18,7 @@ quiz:
   questions:
   - content: "You're the Enterprise Administrator for Tailspin Toys, Inc. You want to achieve the best experience using Microsoft Teams in your Microsoft 365 deployment. Which of the following feature sets should Tailspin Toys deploy?"
     choices:
-    - content: "Azure AD Pass-through Authentication and Multi-factor authentication"
+    - content: "Azure AD Pass-through Authentication and Multifactor authentication"
       isCorrect: false
       explanation: "That's incorrect. This feature doesn't achieve the best experience using Microsoft Teams. Try again."
     - content: "Azure AD Connect and Password Hash Synchronization"

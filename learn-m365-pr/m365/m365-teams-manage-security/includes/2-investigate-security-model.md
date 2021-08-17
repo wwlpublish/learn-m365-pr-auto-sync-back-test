@@ -13,6 +13,7 @@ Security activities include developing threat models to test each Microsoft Team
 Microsoft Teams incorporates industry-standard security technologies as part of its architecture. Data is protected by encrypting network communications in Teams by default and requiring all servers to use certificates. Teams uses OAUTH, Transport Layer Security (TLS), Secure Real-Time Transport Protocol (SRTP), and other industry-standard encryption techniques, including 256-bit Advanced Encryption Standard (AES) encryption.
 
 ## Common security threats
+
 Microsoft Teams mitigates many common security threats.
 To mitigate the risk of encryption keys being compromised, Microsoft Teams uses the public key infrastructure (PKI) features in the Windows Server operating system. Microsoft Teams encrypts data in transit using Transport Layer Security (TLS) connections. The keys used for media encryptions are exchanged over TLS connections. To keep the keys safe, Teams uses PKI features.
 
@@ -27,17 +28,18 @@ The **traversal using relays around network address translation (TURN)** protoco
 See the **Security and Microsoft Teams** link in the **Learn more** section for details of other common threats.
 
 ## Microsoft Teams security framework
+
 The Microsoft Teams security framework helps to ensure that information and identities within Teams is protected. It has three core components:
 
--	**Azure Active Directory (Azure AD)** functions as the directory service for Microsoft 365. It stores all user directory information and policy assignments.
--	**TLS** and **Mutual TLS (MTLS)** are the protocols used by Teams to create a network of trusted servers. TLS and MTLS ensure that all communication over that network is encrypted. Communications between servers occur over MTLS, and any remaining or legacy SIP communications from client to server occur over TLS.
--	**Industry-standard protocols** are used in Teams for user authentication, wherever possible.
+- **Azure Active Directory (Azure AD)** functions as the directory service for Microsoft 365. It stores all user directory information and policy assignments.
+- **TLS** and **Mutual TLS (MTLS)** are the protocols used by Teams to create a network of trusted servers. TLS and MTLS ensure that all communication over that network is encrypted. Communications between servers occur over MTLS, and any remaining or legacy SIP communications from client to server occur over TLS.
+- **Industry-standard protocols** are used in Teams for user authentication, wherever possible.
 All three components work together to make sure data and identities are protected.
 
 ## Security for Microsoft Teams meetings
+
 To make Teams meetings more secure, you control who can and can't automatically join a meeting. You also control who has access to the information you present. The first is controlled through settings for the lobby. The second is done through structured meetings.
 How the lobby works is determined by how you set meetings policies. You control who can join a meeting directly, and who has to wait in the lobby before being admitted. Amend the settings in the Microsoft Teams admin center > Meetings policies > Participants & guests > Automatically admit people. There are three choices: Everyone, Everyone in your organization, or Everyone in your organization and federated organizations:
-
 
 |Selection |Join the meeting directly  |Wait in the lobby before joining the meeting  |
 |---|---------|---------|

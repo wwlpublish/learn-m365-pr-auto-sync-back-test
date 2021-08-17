@@ -1,14 +1,302 @@
 Organizations should consider the following performance issues when determining which migration method to use.
 
-| <b>Migration method</b>                     | <b>Microsoft 365 user throttling</b> | <b>Microsoft 365 migration-service throttling</b> | <b>Microsoft 365 resource health-based throttling</b> | <b>Observed average throughput per hour and per client (if applicable)</b>                                                                                             |
-|:-------------------------------------------------- |:-------------------------------------------:|:--------------------------------------------------------:|:------------------------------------------------------------:|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| IMAP migration                              |                  No                  |                        Yes                        |                          Yes                          | 10-14 GB (20 concurrency)                                                                                                                                              |
-| Cutover migration                           |                  No                  |                        Yes                        |                          Yes                          | 10-14 GB (20 concurrency)                                                                                                                                              |
-| Staged migration                            |                  No                  |                        Yes                        |                          Yes                          | 10-14 GB (20 concurrency)                                                                                                                                              |
-| Hybrid migration                            |                  No                  |                        Yes                        |                          Yes                          | 10-14 GB per on-premises Exchange 2013 or 2010 CAS (Microsoft Exchange Mailbox Replication service (MRSProxy service)) with 20 concurrent moves; <b>see footnote 1</b> |
-| Third-party MAPI migration                  |                 Yes                  |                        No                         |                          Yes                          | 4-12 GB (20 concurrency); <b>see footnote 2</b>                                                                                                                        |
-| Third-party Exchange Web Services migration |                  No                  |                        Yes                        |                          Yes                          | 5-10 GB (20 concurrency); <b>see footnote 3</b>                                                                                                                        |
-| Client uploading (from Outlook .pst files)  |                 Yes                  |                        No                         |                          Yes                          | 0.5 GB                                                                                                                                                                 |
+:::row:::
+  :::column:::
+    
+
+**Migration method**
+
+
+  :::column-end:::
+  :::column:::
+    
+
+**Microsoft 365 user throttling**
+
+
+  :::column-end:::
+  :::column:::
+    
+
+**Microsoft 365 migration-service throttling**
+
+
+  :::column-end:::
+  :::column:::
+    
+
+**Microsoft 365 resource health-based throttling**
+
+
+  :::column-end:::
+  :::column:::
+    
+
+**Observed average throughput per hour and per client (if applicable)**
+
+
+  :::column-end:::
+:::row-end:::
+:::row:::
+  :::column:::
+    
+
+IMAP migration
+
+
+  :::column-end:::
+  :::column:::
+    
+
+No
+
+
+  :::column-end:::
+  :::column:::
+    
+
+Yes
+
+
+  :::column-end:::
+  :::column:::
+    
+
+Yes
+
+
+  :::column-end:::
+  :::column:::
+    
+
+10-14 GB (20 concurrency)
+
+
+  :::column-end:::
+:::row-end:::
+:::row:::
+  :::column:::
+    
+
+Cutover migration
+
+
+  :::column-end:::
+  :::column:::
+    
+
+No
+
+
+  :::column-end:::
+  :::column:::
+    
+
+Yes
+
+
+  :::column-end:::
+  :::column:::
+    
+
+Yes
+
+
+  :::column-end:::
+  :::column:::
+    
+
+10-14 GB (20 concurrency)
+
+
+  :::column-end:::
+:::row-end:::
+:::row:::
+  :::column:::
+    
+
+Staged migration
+
+
+  :::column-end:::
+  :::column:::
+    
+
+No
+
+
+  :::column-end:::
+  :::column:::
+    
+
+Yes
+
+
+  :::column-end:::
+  :::column:::
+    
+
+Yes
+
+
+  :::column-end:::
+  :::column:::
+    
+
+10-14 GB (20 concurrency)
+
+
+  :::column-end:::
+:::row-end:::
+:::row:::
+  :::column:::
+    
+
+Hybrid migration
+
+
+  :::column-end:::
+  :::column:::
+    
+
+No
+
+
+  :::column-end:::
+  :::column:::
+    
+
+Yes
+
+
+  :::column-end:::
+  :::column:::
+    
+
+Yes
+
+
+  :::column-end:::
+  :::column:::
+    
+
+10-14 GB per on-premises Exchange 2013 or 2010 CAS (Microsoft Exchange Mailbox Replication service (MRSProxy service)) with 20 concurrent moves; **see footnote 1**
+
+
+  :::column-end:::
+:::row-end:::
+:::row:::
+  :::column:::
+    
+
+Third-party MAPI migration
+
+
+  :::column-end:::
+  :::column:::
+    
+
+Yes
+
+
+  :::column-end:::
+  :::column:::
+    
+
+No
+
+
+  :::column-end:::
+  :::column:::
+    
+
+Yes
+
+
+  :::column-end:::
+  :::column:::
+    
+
+4-12 GB (20 concurrency); **see footnote 2**
+
+
+  :::column-end:::
+:::row-end:::
+:::row:::
+  :::column:::
+    
+
+Third-party Exchange Web Services migration
+
+
+  :::column-end:::
+  :::column:::
+    
+
+No
+
+
+  :::column-end:::
+  :::column:::
+    
+
+Yes
+
+
+  :::column-end:::
+  :::column:::
+    
+
+Yes
+
+
+  :::column-end:::
+  :::column:::
+    
+
+5-10 GB (20 concurrency); **see footnote 3**
+
+
+  :::column-end:::
+:::row-end:::
+:::row:::
+  :::column:::
+    
+
+Client uploading (from Outlook .pst files)
+
+
+  :::column-end:::
+  :::column:::
+    
+
+Yes
+
+
+  :::column-end:::
+  :::column:::
+    
+
+No
+
+
+  :::column-end:::
+  :::column:::
+    
+
+Yes
+
+
+  :::column-end:::
+  :::column:::
+    
+
+0.5 GB
+
+
+  :::column-end:::
+:::row-end:::
+
 
 #### Footnotes
 

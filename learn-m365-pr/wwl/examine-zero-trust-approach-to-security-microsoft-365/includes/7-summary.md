@@ -1,8 +1,8 @@
 In this module, you learned that today’s organizations need a new security model that effectively:
 
- *  adapts to the complexity of the modern environment.
- *  embraces the mobile workforce.
- *  protects people, devices, apps, and data wherever they're located.
+ -  adapts to the complexity of the modern environment.
+ -  embraces the mobile workforce.
+ -  protects people, devices, apps, and data wherever they're located.
 
 This module introduced you to the security model that supports this modern reality, which is called Zero Trust. This module began by showing how security isn’t getting any easier. Recent high-profile breach activity has underscored the growing sophistication of today’s threat actors. These activities have also shown how complex it is to manage business risk in an increasingly connected world. It’s a struggle for organizations of every size and for the public and private sector alike.
 

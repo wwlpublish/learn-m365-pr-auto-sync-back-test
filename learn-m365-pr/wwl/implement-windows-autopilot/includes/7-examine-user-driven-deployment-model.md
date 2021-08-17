@@ -59,7 +59,7 @@ Implementing a user-driven, hybrid Azure AD-joined deployment using Windows Auto
  -  The Intune Connector for Active Directory must be installed.
 
     > [!NOTE]
-    > The Intune Connector will complete an on-premises AD join. As a result, users don't need on-premises AD-join permission, assuming the Connector is [configured to perform this action](/intune/windows-autopilot-hybrid#increase-the-computer-account-limit-in-the-organizational-unit?azure-portal=true) on the user's behalf.
+    > The Intune Connector will complete an on-premises AD join. As a result, users don't need on-premises AD-join permission, assuming the Connector is [configured to perform this action](https://docs.microsoft.com/intune/windows-autopilot-hybrid#increase-the-computer-account-limit-in-the-organizational-unit?azure-portal=true) on the user's behalf.
 
  -  If using Proxy, the WPAD Proxy settings option must be enabled and configured.
 
@@ -76,7 +76,7 @@ Besides the core requirements for a user-driven Hybrid Azure AD Join deployment 
 
 ### Step-by-step instructions
 
-The step-by-step deployment instructions are too detailed for this training. However, for more information, see [Deploy hybrid Azure AD joined devices using Intune and Windows Autopilot](/intune/windows-autopilot-hybrid?azure-portal=true).
+The step-by-step deployment instructions are too detailed for this training. However, for more information, see [Deploy hybrid Azure AD joined devices using Intune and Windows Autopilot](/intune/windows-autopilot-hybrid).
 
 ## Knowledge check
 

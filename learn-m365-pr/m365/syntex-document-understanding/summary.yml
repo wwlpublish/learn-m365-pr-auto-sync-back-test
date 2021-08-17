@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.syntex-document-understanding.summary
+title: Summary
+metadata:
+  title: Summary
+  description:  Learn to create and apply a document understanding model, prepare a training set, build a classifier model, train a classifier, and apply the model to a library.
+  ms.date: 07/20/2021
+  author: beccarobins
+  ms.author: beccarobins
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+ 
+durationInMinutes: 1
+content: |
+  [!include[](includes/summary.md)]

@@ -2,8 +2,8 @@ There are many methods you can use to import mail, calendar, and contact informa
 
 ## Migrating from Exchange Server
 
-In complex, real-world business environments, Exchange Server provides critical communication and collaboration tools. It’s likely to impact your bottom line if email functionality goes wrong. If migrations are performed carelessly, problems often arise and can prevent users from doing their jobs. 
-Microsoft provides the mail migration advisor to help you execute trouble-free migrations from Exchange Online to Microsoft 365. This tool asks you questions about your current environment and proposes the most appropriate migration path. The migration strategies you’ll learn about in this section are all included in the migration advisor.
+In complex, real-world business environments, Exchange Server provides critical communication and collaboration tools. It's likely to impact your bottom line if email functionality goes wrong. If migrations are performed carelessly, problems often arise and can prevent users from doing their jobs. 
+Microsoft provides the mail migration advisor to help you execute trouble-free migrations from Exchange Online to Microsoft 365. This tool asks you questions about your current environment and proposes the most appropriate migration path. The migration strategies you'll learn about in this section are all included in the migration advisor.
 
 ### Migrating in a hybrid environment
 
@@ -11,20 +11,20 @@ The most flexible method for migrating to Exchange Online from an Exchange Serve
 
 The mail migration advisor might suggest one of these three hybrid environment migration strategies:
 
-- **Full hybrid migrations**. Consider a full hybrid migration if you have a large company, with thousands of mailboxes. A complete, integrated hybrid environment is set up and remains in place for a sustained period. There is a seamless experience for users during the migration. For example, there’s a single global address list and free/busy information is shared both on-premises and in the cloud. You can migrate mailboxes in small batches to Exchange Online, troubleshooting as you go, and taking your time to make the transition as smooth as possible.
-- **Minimal hybrid migrations**. Consider a minimal hybrid migration if you have several hundred to 2,000 mailboxes and want to complete your migration in a few weeks. In a minimal hybrid migration, there’s a single global address list but enhanced functionality, such as synchronized free/busy information, is not implemented. This is a good option to consider if you want to minimize the administrative effort associated with the migration, and don’t mind limiting functionality slightly during the migration project.
-- **Express hybrid migrations**. Consider an express hybrid migration if you have a small Exchange Server system, with less than 500 mailboxes, and you want to complete your move within two weeks. In this strategy, there’s a one-time synchronization of user accounts from the on-premises system to the cloud. You can then move mailboxes into Exchange Online with minimal disruption.
+- **Full hybrid migrations**. Consider a full hybrid migration if you have a large company, with thousands of mailboxes. A complete, integrated hybrid environment is set up and remains in place for a sustained period. There is a seamless experience for users during the migration. For example, there's a single global address list and free/busy information is shared both on-premises and in the cloud. You can migrate mailboxes in small batches to Exchange Online, troubleshooting as you go, and taking your time to make the transition as smooth as possible.
+- **Minimal hybrid migrations**. Consider a minimal hybrid migration if you have several hundred to 2,000 mailboxes and want to complete your migration in a few weeks. In a minimal hybrid migration, there's a single global address list but enhanced functionality, such as synchronized free/busy information, is not implemented. This is a good option to consider if you want to minimize the administrative effort associated with the migration, and don't mind limiting functionality slightly during the migration project.
+- **Express hybrid migrations**. Consider an express hybrid migration if you have a small Exchange Server system, with fewer than 500 mailboxes, and you want to complete your move within two weeks. In this strategy, there's a one-time synchronization of user accounts from the on-premises system to the cloud. You can then move mailboxes into Exchange Online with minimal disruption.
 
 All these hybrid migration strategies have the following features:
 
 - Usernames and passwords will synchronize from on-premises to the cloud.
-- Users don’t have to recreate their Outlook profile to start using the new system.
+- Users don't have to recreate their Outlook profile to start using the new system.
 - Mail flows smoothly between all users during the migration.
 - Each user experiences almost no email downtime.
 
 ### Migrating all mailboxes at once
 
-In a cutover migration, all your mailboxes are moved to Exchange Online at once, in a single operation. You don’t need to configure a hybrid environment because the two systems don’t coexist for long. Consider this type of migration when:
+In a cutover migration, all your mailboxes are moved to Exchange Online at once, in a single operation. You don't need to configure a hybrid environment because the two systems don't coexist for long. Consider this type of migration when:
 
 - Your on-premises email system is Exchange Server 2003 or later.
 - You have fewer than 150 mailboxes to migrate; cutover migration supports up to 2,000 mailboxes but such migrations take a long time and are difficult to manage.
@@ -45,11 +45,11 @@ As for cutover migrations, there is some disruption during the migration. Users 
 
 ## Migrating from other email systems
 
-If your on-premises email system is something other than Exchange, or if it’s a version of Exchange earlier that 2003, you can still import emails from clients into Exchange Online. Use IMAP or Personal Storage Table (.pst) files.
+If your on-premises email system is something other than Exchange, or if it's a version of Exchange earlier that 2003, you can still import emails from clients into Exchange Online. Use IMAP or Personal Storage Table (.pst) files.
 
 ### Migrating from IMAP-enabled email systems
 
-In the Exchange Online admin center, there’s a tool you can use to migrate email from any set of mailboxes that supports IMAP4. This protocol is widely used but bear in mind that it only supports access to emails. You can’t use this protocol to migrate calendar or contact information from systems outside Exchange Online.
+In the Exchange Online admin center, there's a tool you can use to migrate email from any set of mailboxes that supports IMAP4. This protocol is widely used but bear in mind that it only supports access to emails. You can't use this protocol to migrate calendar or contact information from systems outside Exchange Online.
 
 Consider using this migration strategy when you have Exchange Server 2000 or earlier on-premises or when you have some other email system that supports IMAP4. To complete the import process, you must first create a comma-separated text file that lists the email addresses and security credentials for each mailbox that you want to import. Exchange Online connects to all those mailboxes and copies all the emails it finds into the corresponding mailbox in Exchange Online.
 
@@ -65,8 +65,8 @@ There are two ways to send .pst files to Microsoft for import:
 When the .pst files are present in Azure Storage, you can create a PST import job to get the data into the correct mailboxes in Exchange Online. You must supply a comma-separated file that maps each .pst file to a mailbox that already exists in Exchange Online.
 
 > [!NOTE]
-> Any user who has a .pst file from an old email system can import that data into their inbox by using the tools in Outlook. If you need to support a small number of these users, direct them to Outlook and show them how to add the .pst file to their profile. They can then copy all the data they wish to keep into the correct folders in their mailbox. 
-> 
+> Any user who has a .pst file from an old email system can import that data into their inbox by using the tools in Outlook. If you need to support a small number of these users, direct them to Outlook and show them how to add the .pst file to their profile. They can then copy all the data they wish to keep into the correct folders in their mailbox.
+>
 
 ## Learn more
 

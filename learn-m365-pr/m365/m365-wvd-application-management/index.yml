@@ -3,7 +3,7 @@ uid: learn-m365.wvd-msix-app-attach
 metadata:
   title: Deploy applications by using MSIX app attach for Azure Virtual Desktop
   description: Learn how to deliver applications by using MSIX app attach. MSIX app attach is an application delivery technology that separates applications and their state from the operating system and assigns applications to users dynamically.
-  ms.date: 01/15/2021
+  ms.date: 08/02/2021
   author: ndelgado
   ms.author: nedelgad
   ms.topic: interactive-tutorial
@@ -34,6 +34,7 @@ roles:
 products:
 - m365
 - azure
+- azure-virtual-desktop
 units:
 - learn-m365.wvd-msix-app-attach.introduction
 - learn-m365.wvd-msix-app-attach.what-is-msix

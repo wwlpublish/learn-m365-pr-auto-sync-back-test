@@ -1,15 +1,15 @@
 ### YamlMime:Module
 uid: learn-m365.workplace-analytics-ways-working-action
 metadata:
-  title: Drive organizational change with Microsoft Workplace Analytics and MyAnalytics
+  title: Drive organizational change with Microsoft Viva Insights (Workplace Analytics and MyAnalytics)
   description: After using Microsoft Workplace Analytics and Power BI to generate insights about your employees’ work behaviors, you’ll learn about the Microsoft 365 features that can be tools to implement and measure the changes you’ve identified. You’ll learn how to initiate common change practices and what tools and tactics are the most useful.
-  ms.date: 10/15/2020
-  author: AlexandraHrt
-  ms.author: elizapo
+  ms.date: 07/30/2021
+  author: madehmer
+  ms.author: v-mideh
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-title: Drive organizational change with Microsoft Workplace Analytics and MyAnalytics
-summary: After using Microsoft Workplace Analytics and Power BI to generate insights about your employees’ work behaviors, you’ll learn about the Microsoft 365 features that can be tools to implement and measure the changes you’ve identified. You’ll learn how to initiate common change practices and what tools and tactics are the most useful. 
+title: Drive organizational change with Microsoft Viva Insights (Workplace Analytics and MyAnalytics)
+summary: "**Note**: The Workplace Analytics web app is being rebranded to **Viva Insights** in the next few months. As mentioned in this module, Workplace Analytics refers to the web app with advanced analysis tools and accelerators available to those who are assigned the Analyst, Limited Analyst, or Admin role.<br><br>After using Microsoft Viva Insights (Workplace Analytics) and Power BI to generate insights about your employees’ work behaviors, you’ll learn about the Microsoft 365 features that can be tools to implement and measure the changes you’ve identified. You’ll learn how to initiate common change practices and what tools and tactics are the most useful." 
 abstract: |
   At the end of this module, you should be able to:
   - Define the Microsoft 365 tools that drive behavior change.
@@ -18,7 +18,7 @@ abstract: |
   - Identify methods to measure behavior change.
 
 prerequisites: | 
- - Familiarity with Workplace Analytics data metrics
+ - Familiarity with Viva Insights (Workplace Analytics) data metrics
  - Basic knowledge of Microsoft Power BI software
 
 iconUrl: /learn/achievements/drive-organizational-change-with-microsoft-workplace-analytics.svg

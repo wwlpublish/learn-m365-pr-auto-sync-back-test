@@ -10,7 +10,7 @@ The module concludes opposite from where it began. Once you've learned how to re
 
 After completing this module, you'll be able to:
 
- *  Register an application or service within your Azure AD tenant
- *  Update an application within the Azure AD consent framework
- *  Modify the configuration of a single-tenant application to make it a multi-tenant application
- *  Remove an application's registration from your Azure AD tenant
+ -  Register an application or service within your Azure AD tenant
+ -  Update an application within the Azure AD consent framework
+ -  Modify the configuration of a single-tenant application to make it a multi-tenant application
+ -  Remove an application's registration from your Azure AD tenant

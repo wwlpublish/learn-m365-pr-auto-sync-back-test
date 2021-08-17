@@ -3,7 +3,7 @@ uid: learn-m365.information-protection-microsoft-cloud-app-security
 metadata:
   title: Implement information protection using Microsoft Cloud App Security
   description: Learn how to connect apps to Microsoft Cloud App Security and deploy Conditional App Access Control.
-  ms.date: 05/27/2021
+  ms.date: 07/02/2021
   author: geoffallix
   ms.author: beccarobins
   ms.topic: interactive-tutorial

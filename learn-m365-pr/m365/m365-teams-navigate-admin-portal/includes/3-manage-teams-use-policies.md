@@ -1,12 +1,12 @@
-Microsoft Teams scales from small companies to international conglomerates. If you have more than a small number of users, you need a way to manage Teams settings for them, without having to configure each user individually. 
+Microsoft Teams scales from small companies to international conglomerates. If you have more than a small number of users, you need a way to manage Teams settings for them, without having to configure each user individually.
 
-In your large multi-national company, you've configured settings for your Teams deployment to conform to your security and access best practices. However, you also want to ensure that users conform to these best practices when the call each other or external users, and when they exchange messages.
+In your large multi-national company, you've configured settings for your Teams deployment to conform to your security and access best practices. However, you also want to ensure that users conform to these best practices when they call each other or external users, and when they exchange messages.
 
 Here, you'll learn how policies can be used to impose restrictions on large numbers of users and devices across your Teams system.
 
 ## What are policies in Teams?
 
-Policies are used across the Microsoft Teams service to ensure the experience end-users receive conforms to the needs of the organization. You can create policies that control calling, meetings, messaging and other aspects of Teams.
+Policies are used across the Microsoft Teams service to ensure the experience end-users receive conforms to the needs of the organization. You can create policies that control calling, meetings, messaging, and other aspects of Teams.
 
 After a policy is created or edited it can be assigned to the entire tenant, to a group of users, or to an individual user – this flexibility provides a powerful set of capabilities for customers of all sizes to tune the service as needed.
 
@@ -33,7 +33,6 @@ There are three stages you should go through to successfully use policy packages
 In the Teams admin center, in the left navigation select Policy packages. You'll see a list of the provided policy packages. Select the one you'd like to view.
 
 ### Assign a policy package
-
 
 You can assign a policy package to an individual user, multiple users at the same time, or a large batch of users up to 5,000 at a time. For individuals, in the Teams admin center, navigate to an individual user and assign a policy package to them. For multiple users, navigate to the Policy package section of the admin center. Select the policy package you want, then Manage users, and select all the employees you'd like assigned to it.
 

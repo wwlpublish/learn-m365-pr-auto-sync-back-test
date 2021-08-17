@@ -33,8 +33,8 @@ The resulting output gives you a summary of the data, as shown in the following 
 The following functions are helpful for initially exploring your data (the examples use the `sq_data` person query output):
 
 - `names(sq_data)` - Gets all column names.
-- `class(sq_data$Date)` - Checks object type (this example checks the type of the Date column). 
-- `summary(sq_data)` - Gets summary statistics. 
+- `class(sq_data$Date)` - Checks object type (this example checks the type of the Date column).
+- `summary(sq_data)` - Gets summary statistics.
 - `length(unique(sq_data$PersonId))` - Computes the number of unique values (this example computes the unique number of PersonIds).
 - `dplyr::glimpse(sq_data)` or `skimr::skim(sq_data)` - Get an overview of the data.
 - `View(sq_data)` - View the entire dataset (not recommended for large datasets).
@@ -48,7 +48,7 @@ Validating the structure of the data is as important as validating the data. You
 
 ## Data Validation Report
 
-An easy way to perform data validation with the wpa package is to run the data validation report:
+An easy way to perform data validation with the `wpa` package is to run the data validation report:
 
 ```R
 validation_report(sq_data)
@@ -76,7 +76,7 @@ In addition to the validation report, you can also run a report to validate whet
 
 ## Individual functions
 
-The wpa R package provides more data validation functions you can use prior to embarking on a new analysis. These functions make up most of the automated checks of `validation_report()`, that you can run individually to extract more detailed information. For example, the report might identify certain employees as “non-knowledge workers,” which can help you confirm if the distribution of these workers with respect to the organization make sense. The following are the key data validation functions included in this package.
+The `wpa` R package provides more data validation functions you can use prior to embarking on a new analysis. These functions make up most of the automated checks of `validation_report()`, that you can run individually to extract more detailed information. For example, the report might identify certain employees as "non-knowledge workers," which can help you confirm if the distribution of these workers with respect to the organization make sense. The following are the key data validation functions included in this package.
 
 ## Organizational attributes
 
@@ -86,11 +86,10 @@ The `check_query()` function checks the query (data frame) and gives you a diagn
 check_query(sq_data)
 ```
 
-The `hrvar_count()` function counts the distinct people by the specified HR attribute, and returns a bar chart. The following example shows a bar chart for “LevelDesignation”.
+The `hrvar_count()` function counts the distinct people by the specified HR attribute, and returns a bar chart. The following example shows a bar chart for "LevelDesignation".
 
 ```R
 hrvar_count(sq_data, hrvar = "LevelDesignation")
-
 ```
 
 ![hrvar output](../media/hrvar-count.png)
@@ -101,23 +100,23 @@ To run a blanket analysis for all the organizational attributes in the dataset, 
 
 There are three common reasons for removing certain employees or weeks from the data:
 
-- A given week is likely a public holiday that impacts a significant proportion of the organization, such as Christmas or New Year’s day.
-- An employee is a non-knowledge worker who doesn’t typically collaborate with email and meetings.
+- A given week is likely a public holiday that impacts a significant proportion of the organization, such as Christmas or New Year's day.
+- An employee is a non-knowledge worker who doesn't typically collaborate with email and meetings.
 - An employee is off work for certain weeks because of annual leave, sabbaticals, and so on, which do not necessarily coincide with public holidays.
 
-You can use a function in wpa to address each of the following:
+You can use a function in `wpa` to address each of the following:
 
-- `identify_holidayweeks()` - Identifies weeks where collaboration hours are low outliers for the entire organization. 
+- `identify_holidayweeks()` - Identifies weeks where collaboration hours are low outliers for the entire organization.
 - `identify_nkw()` - Identifies employees with overall low collaboration signals, based on average collaboration hours. In addition to non-knowledge workers, this method would also capture any effective part-timers or freelancers, where their collaboration hours are significantly low.
 - `identify_inactiveweeks()` - Identifies individual weeks where collaboration hours are low outliers for the entire organization.
 
 These functions all include the option to either return the 'clean' dataset or return the original dataset with an appended flag that identifies the anomalous people or weeks.
 
-The wpa R package also includes functions that identify privacy thresholds for your analysis, track changes to HR attributes in the organizational data, and identify employee tenure. See the links in the **Learn more** section for more about functions.
+The `wpa` R package also includes functions that identify privacy thresholds for your analysis, track changes to HR attributes in the organizational data, and identify employee tenure. See the links in the **Learn more** section for more about functions.
 
 ## Learn more
 
 - [Data validation overview](https://microsoft.github.io/wpa/analyst_guide_data_validation.html?azure-portal=true)
 - [Generate a Data validation report](https://microsoft.github.io/wpa/reference/validation_report.html?azure-portal=true)
 - [Data validation report output](https://microsoft.github.io/wpa/report-demo/validation-report-demo.html?azure-portal=true)
-- [The wpa R package function reference](https://microsoft.github.io/wpa/reference/index.html?azure-portal=true)
+- [The `wpa` R package function reference](https://microsoft.github.io/wpa/reference/index.html?azure-portal=true)

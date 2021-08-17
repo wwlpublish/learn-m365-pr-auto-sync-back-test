@@ -8,7 +8,7 @@ Power BI Desktop then loads the workbook, reads its contents, and displays the a
 
 Once the user indicates which tables should be loaded, the data can be viewed in the **Fields** pane. In many cases, the data will need to be cleaned and transformed to make it more useful and user-friendly. To do so, the user can select the option to edit the data. This option opens the Power Query Editor, which enables the user model the data before loading it into the **Fields** pane.
 
-**Additional reading.** For more information, see [Query overview in Power BI Desktop](https://docs.microsoft.com/power-bi/desktop-query-overview?azure-portal=true).
+**Additional reading.** For more information, see [Query overview in Power BI Desktop](/power-bi/desktop-query-overview).
 
 ### Step 2 – Creating visualizations
 
@@ -22,8 +22,8 @@ Other visualizations can be added to the canvas. Once the file is saved, a .pbix
 
 There are several ways to share a report created in Power BI Desktop. The report creator can either:
 
- *  distribute the report’s .pbix file like any other file.
- *  upload the .pbix file to the Power BI service.
- *  publish the .pbix file directly from the Power BI Desktop to the Power BI service.
+ -  distribute the report’s .pbix file like any other file.
+ -  upload the .pbix file to the Power BI service.
+ -  publish the .pbix file directly from the Power BI Desktop to the Power BI service.
 
 The report creator must have a Power BI account to publish or upload reports to the Power BI service. When publishing a report, the user must select the destination from the list of workspaces. Once the report is published to the Power BI Service, the report creator and the users to which the report has been shared who have edit privileges can create a Dashboard based on the report’s visuals.

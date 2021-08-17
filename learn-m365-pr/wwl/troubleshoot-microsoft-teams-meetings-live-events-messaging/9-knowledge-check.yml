@@ -1,0 +1,62 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.troubleshoot-microsoft-teams-meetings-live-events-messaging.knowledge-check
+title: Knowledge check
+metadata:
+  title: Knowledge check
+  description: "Knowledge check"
+  ms.date: 07/26/2021
+  author: wwlpublish
+  ms.author: cyncarey
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/9-knowledge-check.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "An administrator must enable the capability to start unscheduled meetings in a Teams channel. Which of the following should the administrator configure?"
+    choices:
+    - content: "Allow channel meeting scheduling."
+      isCorrect: false
+      explanation: "That's incorrect. This determines if users can schedule a meeting in a Teams channel."
+    - content: "Allow scheduling private meetings."
+      isCorrect: false
+      explanation: "That's incorrect. This determines if users can schedule private meetings in Teams."
+    - content: "Allow Meet now in channels."
+      isCorrect: true
+      explanation: "That's correct. This determines if a user can start unscheduled meetings in a Teams channel."
+  - content: "A user is unable to start a recording during a meeting which was organized by a colleague? Other users were successful. An administrator is attempting to determine why. The administrator determines that only a single meeting policy exists. Which of the following is a possible reason for this inability?"
+    choices:
+    - content: "The user is a guest, or federated, or anonymous user from another organization."
+      isCorrect: true
+      explanation: "That's correct. Guest users, and federated and anonymous users, can't start recordings."
+    - content: "The meeting organizer did not have the Allow cloud recording policy setting enabled."
+      isCorrect: false
+      explanation: "That's incorrect. Since other users can start recording, the Allow cloud recording policy setting is enabled on the default policy. The default policy is assigned to all users."
+    - content: "The Allow cloud recording policy setting is disabled in the default meeting policy."
+      isCorrect: false
+      explanation: "That's incorrect. Since other users can start recording, the Allow cloud recording policy setting is enabled on the default policy."
+  - content: "There are two meeting policies in Contoso. The first is the Global (Org-wide default) policy. The other is the Contoso Custom meeting policy. The Allow cloud recording setting is turned off in the Global policy. The Allow cloud recording setting is turned on in the Contoso Custom policy. Alex has been assigned the Global policy, while Adele has been assigned the Contoso Custom policy. Which of the following statements about recording a meeting in this context is true?"
+    choices:
+    - content: "Adele can’t record meetings organized by Alex."
+      isCorrect: true
+      explanation: "That's correct. In this instance, the organizer policy takes precedence."
+    - content: "Adele can’t record any meetings."
+      isCorrect: false
+      explanation: "That's incorrect. Adele can record meetings which she organizes."
+    - content: "Alex can record meetings organized by Adele."
+      isCorrect: false
+      explanation: "That's incorrect. Alex is affected by the Global policy, which prohibits recording."
+  - content: "Which of the following statements about live events in Teams is true?"
+    choices:
+    - content: "The Global (Org-wide default) policy configures the Who can record an event setting to Never record."
+      isCorrect: false
+      explanation: "That's incorrect. The default is Always record."
+    - content: "The Global (Org-wide default) policy configures the Who can join scheduled live events setting to Everyone."
+      isCorrect: false
+      explanation: "That's incorrect. The default is Everyone in the organization."
+    - content: "Users don’t need a license to attend a live event."
+      isCorrect: true
+      explanation: "That's correct. Users don’t need a Teams license to attend a live event."

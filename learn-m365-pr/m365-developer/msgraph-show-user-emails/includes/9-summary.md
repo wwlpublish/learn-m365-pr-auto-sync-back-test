@@ -2,5 +2,5 @@ You needed to show a user's emails in your app to let them quickly see who they 
 
 ## More resources
 
-- To learn more about Microsoft Graph, see [other modules in this series](https://docs.microsoft.com/learn/browse/?products=ms-graph&roles=developer&resource_type=module?WT.mc_id=m365-16105-cxa).
+- To learn more about Microsoft Graph, see [other modules in this series](https://docs.microsoft.com/learn/browse/?products=ms-graph&roles=developer&resource_type=module&WT.mc_id=m365-16105-cxa).
 - For more information on Microsoft Graph, see the [Microsoft Graph documentation](https://docs.microsoft.com/graph/?WT.mc_id=m365-16105-cxa).

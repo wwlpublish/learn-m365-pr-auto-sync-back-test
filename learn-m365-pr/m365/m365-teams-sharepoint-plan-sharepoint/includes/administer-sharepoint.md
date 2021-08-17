@@ -1,6 +1,4 @@
-In Microsoft 365, the SharePoint administrator is responsible for managing SharePoint sites, guest sharing, overall site architecture, and monitoring user activity.
-Global administrators in Microsoft 365 have all the permissions of a SharePoint administrator and can assign others to the SharePoint administrator role. 
-SharePoint administrators who also have the Service administrator role can see important information in the Microsoft 365 admin center, such as the health of the SharePoint service, and change and release notifications.
+In Microsoft 365, the SharePoint administrator is responsible for managing SharePoint sites, guest sharing, overall site architecture, and monitoring user activity. Global administrators in Microsoft 365 have all the permissions of a SharePoint administrator and can assign others to the SharePoint administrator role. SharePoint administrators who also have the Service administrator role can see important information in the Microsoft 365 admin center, such as the health of the SharePoint service, and change and release notifications.
 
 ![SharePoint manage admin roles screen](../media/manage-admin-roles.png)
 

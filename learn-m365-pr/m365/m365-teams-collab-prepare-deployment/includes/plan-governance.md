@@ -1,4 +1,4 @@
-Microsoft Teams offers a rich set of tools to implement your organization’s governance requirements. Administrators can control messaging, meeting, calling, live-event features, and more for their organization using messaging policies. Teams is backed up by the advanced security and compliance capabilities of Microsoft 365 and supports auditing and reporting, compliance content search, e-discovery, Legal Hold, and retention policies. Different policies can be applied to all users by default or per user as required by your organization.
+Microsoft Teams offers a rich set of tools to implement your organization's governance requirements. Administrators can control messaging, meeting, calling, live-event features, and more for their organization using messaging policies. Teams is backed up by the advanced security and compliance capabilities of Microsoft 365 and supports auditing and reporting, compliance content search, e-discovery, Legal Hold, and retention policies. Different policies can be applied to all users by default or per user as required by your organization.
 
 ![Governance plan](../media/governance.png)
 
@@ -7,7 +7,7 @@ Microsoft Teams offers a rich set of tools to implement your organization’s go
 Your organization might require that you implement strict controls on how teams are named and classified, whether guests can be added as team members, and who can create teams. Consider the following decision points and steps when planning governance.
 
 ### Decision points
- 
+
 - Does your organization require a specific naming convention for teams?
 - Do team creators need the ability to assign organization-specific classifications to teams?
 - Do you need to restrict the ability to add guests to teams on a per-team basis?
@@ -15,13 +15,13 @@ Your organization might require that you implement strict controls on how teams 
 
 ### Next steps
 
-- Document your organization’s requirements for team creation, naming, classification, and guest access.
+- Document your organization's requirements for team creation, naming, classification, and guest access.
 - Plan to implement these requirements as a part of your Teams rollout.
 - Communicate and publish your policies to inform Teams users of the behavior they can expect.
 
 ## Group and team expiration, retention, and archiving
 
-Your organization might have additional requirements for setting policies for expiration, retention, and archiving teams and Teams data (channel messages and channel files). You can easily configure group expiration policies to automatically manage the lifecycle of the group, and retention policies to preserve or delete information as needed. You can also archive teams to preserve a point-in-time view of a team that’s no longer active. 
+Your organization might have additional requirements for setting policies for expiration, retention, and archiving teams and Teams data (channel messages and channel files). You can easily configure group expiration policies to automatically manage the lifecycle of the group, and retention policies to preserve or delete information as needed. You can also archive teams to preserve a point-in-time view of a team that's no longer active.
 
 ### Decision points
 
@@ -31,7 +31,7 @@ Your organization might have additional requirements for setting policies for ex
 
 ### Next steps
 
-- Document your organization’s requirements for team expiration, data retention, and archiving.
+- Document your organization's requirements for team expiration, data retention, and archiving.
 - Plan to implement these requirements as part of your Teams rollout.
 - Communicate and publish your policies to inform Teams users of the behavior they can expect.
 
@@ -46,7 +46,7 @@ Teams also gives organizations the ability to control what features your users c
 
 ### Next steps
 
-- Document your organization’s requirements for limiting Teams features at the tenant and user level.
+- Document your organization's requirements for limiting Teams features at the tenant and user level.
 - Plan to implement your specific requirements as part of your Teams rollout.
 - Communicate and publish your policies to inform Teams users of the behavior they can expect.
 

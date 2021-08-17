@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.configure-troubleshoot-microsoft-teams-clients-services.install-update-teams-client-software
+title: Install and update Teams client software
+metadata:
+  title: Install and update Teams client software
+  description: "Install and update Teams client software"
+  ms.date: 08/16/2021
+  author: wwlpublish
+  ms.author: cyncarey
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+durationInMinutes: 8
+content: |
+  [!include[](includes/2-install-update-teams-client-software.md)]

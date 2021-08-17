@@ -8,4 +8,4 @@ Now that you have finished this module, you should be able to:
   
 - Consider the right criteria when analyzing various meeting spaces.
 - Recognize the different form factors and components that comprise Microsoft Teams Rooms.
-- Understand the environmental considerations when designing Microsoft Teams Rooms. 
+- Understand the environmental considerations when designing Microsoft Teams Rooms.

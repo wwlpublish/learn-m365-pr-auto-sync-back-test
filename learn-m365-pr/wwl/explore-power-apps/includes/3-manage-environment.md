@@ -1,8 +1,8 @@
-Admins can manage environments and settings in the Power Apps admin center. There's an extra layer of administration through the Power Apps portals admin center. The Power Apps portals admin center is available only when a portal is provisioned successfully. This availability enables the admin to do advanced administrative actions on portals. For more information, see [Power Apps portals admin center](https://docs.microsoft.com/powerapps/maker/portals/admin/admin-overview?azure-portal=true).
+Admins can manage environments and settings in the Power Apps admin center. There's an extra layer of administration through the Power Apps Portals admin center. The Power Apps portals admin center is available only when a portal is provisioned successfully. This availability enables the admin to do advanced administrative actions on portals. For more information, see [Power Apps portals admin center](/powerapps/maker/portals/admin/admin-overview).
 
-Admins can also use the Portal Management app to do advanced configuration actions on a portal. The app is available after the database in the Common Data Service is successfully created and is listed under the “Your apps” section on the Power Apps home page. For more information, see [Portal Management app overview](https://docs.microsoft.com/powerapps/maker/portals/configure/configure-portal?azure-portal=true).
+Admins can also use the Portal Management app to do advanced configuration actions on a portal. The app is available after the database in the Common Data Service is successfully created and is listed under the “Your apps” section on the Power Apps home page. For more information, see [Portal Management app overview](/powerapps/maker/portals/configure/configure-portal).
 
-Many of the monitoring and management tasks that are done manually in the Power Apps Admin center or within Power Apps can now be automated with the preview launch of PowerShell cmdlets. For more information, see [PowerShell support for Power Apps (preview)](https://docs.microsoft.com/power-platform/admin/powerapps-powershell?azure-portal=true).
+Many of the monitoring and management tasks that are done manually in the Power Apps Admin center or within Power Apps can now be automated with the preview launch of PowerShell cmdlets. For more information, see [PowerShell support for Power Apps (preview)](/power-platform/admin/powerapps-powershell).
 
 ### Power Apps licensing
 
@@ -15,13 +15,13 @@ Customers that need general purpose and full capabilities of the platform should
     
   :::column-end:::
   :::column:::
-    Per user, per app
+    **Per user, per app**
   :::column-end:::
   :::column:::
-    Per user
+    **Per user**
   :::column-end:::
   :::column:::
-    Seeded Power Apps
+    **Seeded Power Apps**
   :::column-end:::
 :::row-end:::
 :::row:::
@@ -54,4 +54,4 @@ Customers that need general purpose and full capabilities of the platform should
 :::row-end:::
 
 
-**Additional reading.** For more information on pricing and capabilities of standalone plans, see [Microsoft Power Apps and Power Automate Licensing Guide](https://go.microsoft.com/fwlink/?linkid=2085130?azure-portal=true).
+**Additional reading.** For more information on pricing and capabilities of standalone plans, see [Microsoft Power Apps and Power Automate Licensing Guide](https://go.microsoft.com/fwlink/?linkid=2085130?azure-portal=true).<br>

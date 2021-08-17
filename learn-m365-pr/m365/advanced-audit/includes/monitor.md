@@ -12,7 +12,7 @@ A bind operation occurs when a user accesses an individual email message. For bi
 
 ## Audit records throttling
 
-If more than 1,000 **MailItemsAccessed** audit records are generated in less than 24 hours, Exchange Online will stop generating auditing records for **MailItemsAccessed** activity. This condition is referred to as “throttling”. **MailItemsAccessed** activity won't be logged for 24 hours after throttling is initiated. If this situation occurs, there's a chance the mailbox could be accessed during this period without an audit record being generated. The recording of **MailItemsAccessed** activity will be resumed following a 24-hour period. Here are some key considerations:
+If more than 1,000 **MailItemsAccessed** audit records are generated in less than 24 hours, Exchange Online will stop generating auditing records for **MailItemsAccessed** activity. This condition is referred to as "throttling". **MailItemsAccessed** activity won't be logged for 24 hours after throttling is initiated. If this situation occurs, there's a chance the mailbox could be accessed during this period without an audit record being generated. The recording of **MailItemsAccessed** activity will be resumed following a 24-hour period. Here are some key considerations:
 
 - Less than 1 percent of all mailboxes in Exchange Online are throttled.
 - When a mailbox is throttling, only audit records for **MailItemsAccessed** activity aren't audited. Other mailbox auditing actions aren't affected.

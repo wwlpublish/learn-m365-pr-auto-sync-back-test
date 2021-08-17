@@ -1,4 +1,4 @@
-Before you can deploy your first Azure Virtual Desktop virtual machines (VMs), there are some prerequisite steps to take care of in the Azure portal. You also need to connect to your existing directory service. We’ll discuss the steps you'll need to do to get your environment ready for Azure Virtual Desktop. 
+Before you can deploy your first Azure Virtual Desktop virtual machines (VMs), there are some prerequisite steps to take care of in the Azure portal. You also need to connect to your existing directory service. We'll discuss the steps you'll need to do to get your environment ready for Azure Virtual Desktop.
 
 The following video gives you an overview of the steps involved. But note that some of the specific steps to prepare for Azure Virtual Desktop are simplified since the video was created. You no longer need to:
 
@@ -9,9 +9,9 @@ We'll cover those changes and the key points from the video in the following uni
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3Jhf9]
 
-If you’ve ever provisioned a large-scale Remote Desktop Services (RDS) environment, you’ll be familiar with the components, complexity, and time required to get everything up and running, as well as the operational steps needed to right-size the infrastructure. With Azure Virtual Desktop, deployment is much faster and easier, since most steps go away - the RDS infrastructure roles are now managed Platform as a Service (PaaS) components that you don’t need to provision or manage. This new architecture helps simplify both initial setup and day-to-day operations. You only need to manage OS images, apps, users, and the scale of the environment, not the physical hardware.
+If you've ever provisioned a large-scale Remote Desktop Services (RDS) environment, you'll be familiar with the components, complexity, and time required to get everything up and running, as well as the operational steps needed to right-size the infrastructure. With Azure Virtual Desktop, deployment is much faster and easier, since most steps go away - the RDS infrastructure roles are now managed Platform as a Service (PaaS) components that you don't need to provision or manage. This new architecture helps simplify both initial setup and day-to-day operations. You only need to manage OS images, apps, users, and the scale of the environment, not the physical hardware.
 
-That said, there are still a few prerequisites you should be aware of – especially if you’ve historically run everything in your datacenters.
+That said, there are still a few prerequisites you should be aware of – especially if you've historically run everything in your datacenters.
 
 ## Learning objectives
 

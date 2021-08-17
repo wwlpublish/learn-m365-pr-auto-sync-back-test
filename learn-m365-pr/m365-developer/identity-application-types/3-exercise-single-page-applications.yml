@@ -3,7 +3,7 @@ uid: learn-m365.identity-application-types.3-exercise-single-page-applications
 metadata:
   title: Exercise - Single-page applications
   description: In this exercise, you’ll learn how to create, configure, and use Azure AD applications that use data returned from Microsoft Graph in single-page applications by using the OAuth 2.0 implicit grant flow.
-  ms.date: 03/06/2021
+  ms.date: 06/17/2021
   author: andrewconnell
   ms.author: v-johnco
   ms.topic: interactive-tutorial

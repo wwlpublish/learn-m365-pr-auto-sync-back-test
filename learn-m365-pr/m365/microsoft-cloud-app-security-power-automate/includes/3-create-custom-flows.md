@@ -13,7 +13,7 @@ To create a custom flow alert with Power Automate to remove sensitive file shari
 
     :::image type="content" source="../media/3-send-alerts-power-automate.png" alt-text="Send alerts to Power Automate.":::
 
-3. In Power Automate ensure that there is a step to ask the user for validation.
+3. In Power Automate, ensure that there is a step to ask the user for validation.
 
     :::image type="content" source="../media/3-ask-user-validation.png" alt-text="User validation.":::
 

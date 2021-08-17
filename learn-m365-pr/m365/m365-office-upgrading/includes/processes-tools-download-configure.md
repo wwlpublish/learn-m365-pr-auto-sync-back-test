@@ -8,15 +8,15 @@ At the foundation, Click-to-Run packages use XML files to configure install-time
 
 The setup.exe in the Office Deployment Tool allows you to:
 
-- **Download** Office installation files for Microsoft 365 and Office 2019 desktop apps for Windows. The configuration XML details what tool to use to download the files and where to save those files. Here’s the syntax:
+- **Download** Office installation files for Microsoft 365 and Office 2019 desktop apps for Windows. The configuration XML details what tool to use to download the files and where to save those files. Here's the syntax:
 
     `setup.exe /download [Path]\download.xml`
 
-- **Configure** and install Office on Windows devices using settings specified in the configuration XML, such as products, update channel, and languages. Here’s the syntax:
+- **Configure** and install Office on Windows devices using settings specified in the configuration XML, such as products, update channel, and languages. Here's the syntax:
 
     `setup.exe /configure [Path]\configuration.xml`
 
-- **Customize** an existing Office installation on a Windows device. This mode applies only the application settings you specify in the configuration XML without changing any other deployment settings. Here’s the syntax:
+- **Customize** an existing Office installation on a Windows device. This mode applies only the application settings you specify in the configuration XML without changing any other deployment settings. Here's the syntax:
 
     `setup.exe /customize [Path]\settings.xml`
 
@@ -24,7 +24,7 @@ The configuration XML lets you configure dozens of settings when downloading and
 
 ## Office Customization Tool
 
-You can use the **Office Customization Tool** to create and modify configuration XML files using a web-based interface found within the Office 365 Client Configuration Service. Use the Office Customization Tool with the setup.exe from the Office Deployment Tool to deploy Office packages to a small number of systems. You can also use it instead of Configuration Manager if your organization doesn’t use Configuration Manager.
+You can use the **Office Customization Tool** to create and modify configuration XML files using a web-based interface found within the Office 365 Client Configuration Service. Use the Office Customization Tool with the setup.exe from the Office Deployment Tool to deploy Office packages to a small number of systems. You can also use it instead of Configuration Manager if your organization doesn't use Configuration Manager.
 
 Since release 1806, Configuration Manager includes an integrated experience with the Office Customization tool that uses the same web experience as part of the **Office 365 Installer** application package creation process.
 

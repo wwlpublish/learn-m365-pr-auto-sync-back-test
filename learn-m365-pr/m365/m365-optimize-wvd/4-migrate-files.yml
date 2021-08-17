@@ -4,7 +4,7 @@ title: Migrate files from local file shares into Azure storage by using Azure Fi
 metadata:
   title: Migrate files from local file shares into Azure storage by using Azure File Sync
   description: Learn how to migrate files in Azure Virtual Desktop.
-  ms.date: 06/29/2020
+  ms.date: 07/19/2021
   author: lizap
   ms.author: elizapo
   ms.topic: interactive-tutorial

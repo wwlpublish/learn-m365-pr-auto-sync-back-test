@@ -1,0 +1,49 @@
+### YamlMime:ModuleUnit
+uid: learn-m365-pr.introduction-to-microsoft-defender-for-endpoint.knowledge-check
+title: Knowledge check
+metadata:
+  unitType: knowledge_check
+  title: Knowledge check
+  description: Test your knowledge of the module content
+  ms.date: 07/19/2021
+  author: iankensey
+  ms.author: beccarobins
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 3
+content: |
+quiz:
+  questions:
+  - content: "Which component of Microsoft Defender for Endpoint will enable users to take advantage of protections such as application control, network protection, and web protection?"
+    choices:
+    - content: "Threat and vulnerability management"
+      isCorrect: false
+      explanation: "This isn't the component that enables users take advantage of those specific protections."
+    - content: "Attack surface reduction"
+      isCorrect: true
+      explanation: "These protections will allow users to regulate access to applications, domains, IP address, and more."
+    - content: "Microsoft Threat Experts"
+      isCorrect: false
+      explanation: "This isn't the component that enables users to take advantage of those specific protections."
+  - content: "Which of the following components do you install on your device to gather information and detect suspicious events?"
+    choices:
+    - content: "Sensors"
+      isCorrect: true
+      explanation: "Sensors enable you to detect breaches, investigate events, collect information for security analytics, and more."
+    - content: "Tenant"
+      isCorrect: false
+      explanation: "You don’t install a tenant on your devices. Also, information is sent to it, it doesn’t gather information by itself."
+    - content: "The Microsoft 365 Defender portal"
+      isCorrect: false
+      explanation: "You don’t install the portal on your devices. Also, it doesn’t collect information, but you can use it to view the information that is collected from your devices."
+  - content: "How can users access Microsoft Defender for Endpoint?"
+    choices:
+    - content: "By signing in to the Azure  portal."
+      isCorrect: false
+      explanation: "Microsoft Defender for Endpoint isn't part of this portal."
+    - content: "By signing in to the Microsoft 365 Defender portal."
+      isCorrect: true
+      explanation: "That's right. Sign in to this portal with an account that has the right permissions."
+    - content: "By signing in to the Microsoft Teams admin center portal."
+      isCorrect: false
+      explanation: "Microsoft Defender for Endpoint isn't part of this portal."

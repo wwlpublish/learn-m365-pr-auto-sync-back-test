@@ -1,6 +1,6 @@
 One of the traditional approaches for deploying Windows, services, and applications configured to your school network is to build a machine, create an image of it, and apply that image to the target computer. This can be time-consuming to create and deploy.
 
-Microsoft provides provisioning packages, which can be used to configure a Windows device without reimaging.  Instead, as the IT administrator for your school, you'll specify the preferred configurations and settings. This will speed up the enrollment of new devices from hours to minutes, when applying configuration settings to the target device.
+Microsoft provides provisioning packages, which can be used to configure a Windows device without reimaging. Instead, as the IT administrator for your school, you'll specify the preferred configurations and settings. This will speed up the enrollment of new devices from hours to minutes, when applying configuration settings to the target device.
 
 Here, you'll learn about provisioning packages, share PC mode policies, creation of provisioning packages and different ways that they can be applied.
 
@@ -77,12 +77,6 @@ Downloading and installing Windows Configuration Designer is outside this unit's
 > [!NOTE]
 > If you choose to perform *Advanced provisioning* with an imported package, you will see the items already configured on the right of the screen. You can select each configuration to see the values that are configured.
 
-### Interactive guide on creating provisioning packages
-
-Watch and interact with this online guide, which will walk you through the process of creating a provisioning package.
-
-[Interactive Guide for creating a provisioning package](Place guide URL here)
-
 ## Provisioning time estimates
 
 There are no hard and fast rules on how long it will take to install a provisioning package on a device since a lot depends on how you're deploying the package. For example, via a network or directly at the device. It also considers how many apps and policies are included in the provisioning package and the number of additional configurations that need to be applied.
@@ -98,7 +92,7 @@ The following table provides some suggested estimates depending on the intended 
 
 ## Applying a provisioning package
 
-A provisioning package can be deployed either during the out-of-box first-run experience or to an existing machine. To apply a provisioning package, you'll need to have administrator privileges on the device.  The provisioning package can be installed either during the first-run experience setup or afterward.
+A provisioning package can be deployed either during the out-of-box first-run experience or to an existing machine. To apply a provisioning package, you'll need to have administrator privileges on the device. The provisioning package can be installed either during the first-run experience setup or afterward.
 
 > [!NOTE]
 > It is recommended that you only apply a provisioning package to a device with a clean image.

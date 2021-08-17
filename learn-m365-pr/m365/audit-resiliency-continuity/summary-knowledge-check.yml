@@ -4,7 +4,7 @@ title: Summary and knowledge check
 metadata:
   title: Summary and knowledge check
   description: Learn how Microsoft 365 builds resilient services to meet customer expectations in the face of faults and challenges to normal operations, maintains optimal service availability, and fulfills business continuity requirements.
-  ms.date: 05/13/2021
+  ms.date: 07/20/2021
   author: NamrahK
   ms.author: beccarobins
   ms.topic: interactive-tutorial
@@ -41,7 +41,7 @@ quiz:
       
     - content: "Which one of these statements inaccurately describes Microsoft 365’s resiliency and continuity?"
       choices:
-      - content: "Microsoft 365 Services are deployed with Active/Passive design."
+      - content: "Microsoft 365 Services are deployed with Active/Active design."
         isCorrect: true
         explanation: "Correct. Microsoft 365 Services are deployed with Active/Active design wherever possible, so they remain resilient against component failures."
       - content: "Exchange Online Database Availability Groups is one example of fault isolation."

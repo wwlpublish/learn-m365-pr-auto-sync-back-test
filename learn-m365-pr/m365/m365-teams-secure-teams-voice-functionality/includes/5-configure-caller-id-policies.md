@@ -29,6 +29,7 @@ To learn more about these settings see **How can caller ID be used in your organ
 > For all of the Caller ID settings in Skype for Business Online, you must use Windows PowerShell and you can't use the Skype for Business admin center.
 
 ### Verify and start Windows PowerShell
+
 Ensure that you're running Windows PowerShell version 3.0 or higher:
 
 1. Select **Start Menu** > **Windows PowerShell**.
@@ -56,6 +57,7 @@ If you need to know more, see Connect to all Microsoft 365 services in a single 
 If you want more information about starting Windows PowerShell, see Connect to all Microsoft 365 services in a single Windows PowerShell window or Set up your computer for Windows PowerShell.
 
 ### See all of the caller ID policy settings in your organization
+
 To view all of the caller ID policy settings in your organization, run:
 
 ```powershell
@@ -65,6 +67,7 @@ Get-CsCallingLineIdentity |fl
 For more examples and details see the link in the **Learn more** section below for **Get-CsCallingLineIdentity** .
 
 ### Create a new caller ID policy for your organization
+
 To create a new caller ID policy that sets the caller ID to anonymous, run:
 
 ```powershell
@@ -86,6 +89,7 @@ See more on the **Grant-CsCallingLineIdentity** cmdlet in the **Learn more** sec
 If you've already created a policy, you can use the **Set-CsCallingLineIdentity** cmdlet to make changes to the existing policy, and then use the **Grant-CsCallingLineIdentity** cmdlet to apply the settings to your users.
 
 ### Set it so the incoming caller ID is blocked
+
 To block the incoming caller ID, run:
 
 ```powershell
@@ -103,6 +107,7 @@ Grant-CsCallingLineIdentity -Identity "amos.marble@contoso.com" -PolicyName "Blo
 See more on the **Grant-CsCallingLineIdentity** cmdlet in the **Learn more** section below.
 
 ### Remove a caller ID policy
+
 To remove a policy from your organization, run:
 
 ```powershell
@@ -116,6 +121,7 @@ Grant-CsCallingLineIdentity -Identity "amos.marble@contoso.com" -PolicyName $nul
 ```
 
 ## Learn more
+
 - [How can caller ID be used in your organization](/microsoftteams/how-can-caller-id-be-used-in-your-organization)
 - [More about Calling Line ID and Calling Party Name](/skypeforbusiness/what-are-calling-plans-in-office-365/more-about-calling-line-ID-and-calling-party-name)
 - [Emergency calling terms and conditions](/microsoftteams/emergency-calling-terms-and-conditions)

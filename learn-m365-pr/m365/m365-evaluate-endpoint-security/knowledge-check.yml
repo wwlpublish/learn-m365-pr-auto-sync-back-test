@@ -1,0 +1,49 @@
+### YamlMime:ModuleUnit
+uid: learn-m365-pr.m365-evaluate-endpoint-security.knowledge-check
+title: Knowledge check
+metadata:
+  unitType: knowledge_check
+  title: Knowledge check
+  description: Check your knowledge
+  ms.date: 07/19/2021
+  author: iankensey
+  ms.author: beccarobins
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 3
+content: |
+quiz:
+  questions:
+  - content: "How do you run a simulation from the simulation gallery?"
+    choices:
+    - content: "Pick a simulation from the gallery, select Run, choose a device, then select Create simulation."
+      isCorrect: true
+      explanation: "This way, you can run a simulation directly from the gallery."
+    - content: "Pick a simulation from the gallery, select Update new simulation, choose a device, then select Create simulation."
+      isCorrect: false
+      explanation: "Update new simulation isn't a valid option."
+    - content: "Pick a simulation from the gallery, select Run, choose a device, then select Update new simulation."
+      isCorrect: false
+      explanation: "Update new simulation isn't a valid option."
+  - content: "What are the two types of attack simulation scenarios that you can use in the evaluation lab?"
+    choices:
+    - content: "Threat simulator scenarios, Real-threat scenarios"
+      isCorrect: false
+      explanation: "'Real-threat scenarios' isn't a valid scenario type in the evaluation lab."
+    - content: "Threat simulator scenarios, Do-It-Yourself scenarios"
+      isCorrect: true
+      explanation: "You can use either type to help you to evaluate capabilities."
+    - content: "Do-It-Yourself scenarios, Self-correcting scenarios "
+      isCorrect: false
+      explanation: "'Self-correcting scenarios' isn't a valid scenario type in the evaluation lab."
+  - content: "How will you find the simulation gallery in the portal?"
+    choices:
+    - content: "In the navigation pane, select Updated gallery > Tutorials & simulations"
+      isCorrect: false
+      explanation: "Updated gallery isn't a valid option in the navigation pane."
+    - content: "In the navigation pane, select Evaluation & tutorials > New gallery"
+      isCorrect: false
+      explanation: "New gallery isn't a valid option in the navigation pane."
+    - content: "Select Evaluation & tutorials > Tutorials & simulations"
+      isCorrect: true
+      explanation: "Use the simulation gallery to find and run simulations from Microsoft and industry-leading partners."

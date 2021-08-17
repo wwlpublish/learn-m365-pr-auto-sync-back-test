@@ -1,28 +1,34 @@
-An app protection policy is a collection of rules that govern how data, assets and resources are accessed.  Typically, an app protection policy is applied to a specific application to govern how the app will interact with your organizations data.
+An app protection policy is a collection of rules that govern how data, assets, and resources are accessed.  Typically, an app protection policy is applied to a specific application to govern how the app will interact with your organizations data.
 
 In an ideal world, an app protection policy would be applied to a device managed by your IT department that is either enrolled in Microsoft Intune, or through a third-party Mobile device management (MDM) solution.  However, there is a trend towards employees using their own devices, typically called bring your own device (BOYD) which aren't managed or enrolled with Microsoft Intune or a MDM solution.  App protection policies can be applied to managed/enrolled and BOYD devices.
 
 ### Benefits of using app protection policies
+
 Application protection policies provide a number of essential benefits:
 
 - Protecting your company data at the app level.
 - End-user productivity isn't affected and polices don't apply when using the app in a personal context.
-- App protection policies makes sure that the app-layer protections are in place.
+- App protection policies make sure that the app-layer protections are in place.
 - MDM, in addition to MAM, makes sure that the devise is protected.
 
 The app protection policy organizes data protection into three distinct levels, each building on the elements in the previous framework:
 
 #### Enterprise basic data protection (level 1)
+
 This is an entry level configuration and makes sure that all apps are protected with a PIN and all data is encrypted. It also gives selective wipe operations.
 
 #### Enterprise enhanced data protection (level 2)
+
 This configuration is the most applicable to mobile users who access work data as it introduces a minimum operating system requirement, and data leak prevention mechanisms.
 
 #### Enterprise high data protection (level 3)
+
 This level of configuration is applied for users that are accessing high risk data.  It introduces app protection policy Mobile Threat Defense, enhanced PIN config, and advanced data protection mechanisms.
 
 ### Create a mobile app protection policy
+
 To create an app protection policy for your apps, you'll need to follow a modern Intune process that'll result in a new app protection policy.
+
 1. Sign into the [Microsoft Endpoint Manager admin center](https://endpoint.microsoft.com/), the select **Intune portal**.
 1. In the **Intune portal**, choose **Apps** > **App protection policies**. This selection opens the **App protection policies details**, where you create new policies and edit existing policies.
 1. Select **Create policy** and select either **iOS/iPadOS** or **Android**. The **Create policy** pane is displayed.

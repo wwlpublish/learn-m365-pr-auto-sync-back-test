@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.syntex-strategy.strategy-alignment
+title: Align on strategy
+metadata:
+  title: Align on strategy
+  description:  Develop a plan to administer and utilize SharePoint Syntex for your specific organization's content understanding solution needs and requirements.
+  ms.date: 07/07/2021
+  author: beccarobins
+  ms.author: beccarobins
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 4
+content: |
+  [!include[](includes/strategy-alignment.md)]

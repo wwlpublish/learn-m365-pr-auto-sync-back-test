@@ -4,11 +4,11 @@ title: Manage Teams licensing
 metadata:
   title: Manage Teams licensing
   description: Learn about the Microsoft Teams user experience, requirements, and important considerations for deploying Teams as part of a Microsoft 365 installation. 
-  ms.date: 08/05/2019
+  ms.date: 06/02/2021
   author: AlexandraHrt
-  ms.author: v-aleha
+  ms.author: beccarobins
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-durationInMinutes: 4
+durationInMinutes: 2
 content: |
   [!include[](includes/manage-licensing.md)]

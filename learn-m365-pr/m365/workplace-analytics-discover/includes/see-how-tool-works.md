@@ -17,7 +17,7 @@ The graphic below shows how these outputs can be used to create executive presen
 
 ## Workplace Analytics data sources
 
-What’s under the hood? Workplace Analytics processes collaboration data from Microsoft 365. It then maps descriptive employee attributes, usually from the organization’s human resource information system (HRIS), onto the collaboration data. You can see the process illustrated in this flow path:
+What's under the hood? Workplace Analytics processes collaboration data from Microsoft 365. It then maps descriptive employee attributes, usually from the organization's human resource information system (HRIS), onto the collaboration data. You can see the process illustrated in this flow path:
 
 > [!div class="centered"]
 > ![Flow of data sources](../media/data-sources-flowpath.png)
@@ -38,7 +38,7 @@ After the Workplace Analytics data sources are processed, the data is de-identif
 
 The Home page provides a high-level look at Workplace Analytics metrics for nine themed business outcomes aimed at giving leaders visibility into how work gets done.
 
-The Peer analysis feature compares base metrics between groups, allowing you to use organizational attributes to filter each population. Queries allow you to go one step further and customize base metrics—for example, measuring “recurring meeting hours” instead of the base metric of “meeting hours.”
+The Peer analysis feature compares base metrics between groups, allowing you to use organizational attributes to filter each population. Queries allow you to go one step further and customize base metrics—for example, measuring "recurring meeting hours" instead of the base metric of "meeting hours."
 
 See the **Learn more** section below for a complete list of current Workplace Analytics metrics and terms.
 
@@ -62,7 +62,7 @@ Below is an example of query output. It includes selected human resource attribu
 
 ![Query output](../media/flexible-query-outputs.png)
 
-Query output is available as a downloadable .csv file or as an OData link which can be loaded into business intelligence tools, such as Power BI, to create impactful reports and presentations. For some queries, you can also visualize the results directly within Workplace Analytics.
+Query output is available as a downloadable .csv file or as an OData link that can be loaded into business intelligence tools, such as Power BI, to create impactful reports and presentations. For some queries, you can also visualize the results directly within Workplace Analytics.
 
 ## Learn more
 

@@ -29,7 +29,7 @@ In this exercise, you'll access a GitHub repository, add Azure Active Directory 
 
     ```html
     <div>
-      <button id="showProfilePhoto" style=”display:none” onclick="displayProfilePhoto();">Show profile picture</button> 
+      <button id="showProfilePhoto" style="display:none" onclick="displayProfilePhoto();">Show profile picture</button> 
     </div> 
     <img id="userPhoto" class="user" alt="User photo" style="display: none;" />  
     ```

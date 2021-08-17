@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-m365-pr.introduction-delivering-virtual-events-using-microsoft-teams-microsoft-365.introduction
+title: Introduction
+metadata:
+  unitType: introduction
+  title: Introduction
+  description: Explore the features of Microsoft Teams and Microsoft 365 that support producing accessible and inclusive virtual events.
+  ms.date: 07/02/2021
+  author: lizap
+  ms.author: elizapo
+  ms.topic: interactive-tutorial # do we need ms.topic?
+  ms.prod: learning-m365
+durationInMinutes: 1 # user input: the estimate time to complete the unit
+content: |
+  [!include[](includes/introduction.md)]

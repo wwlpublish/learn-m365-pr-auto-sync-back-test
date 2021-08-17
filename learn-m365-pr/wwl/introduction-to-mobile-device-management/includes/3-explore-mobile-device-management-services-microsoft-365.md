@@ -644,21 +644,21 @@ Send commands to devices over the internet. For example, remove Office data from
 
  -  Autopilot reset (Windows only)
     
- -  [BitLocker key rotation](/mem/intune/protect/encrypt-devices#rotate-bitlocker-recovery-keys?azure-portal=true) (Windows only)
+ -  [BitLocker key rotation](https://docs.microsoft.com/mem/intune/protect/encrypt-devices#rotate-bitlocker-recovery-keys?azure-portal=true) (Windows only)
     
- -  [Delete](/mem/intune/remote-actions/devices-wipe#delete-devices-from-the-intune-portal?azure-portal=true)
+ -  [Delete](https://docs.microsoft.com/mem/intune/remote-actions/devices-wipe#delete-devices-from-the-intune-portal?azure-portal=true)
     
  -  [Disable activation loc](/mem/intune/remote-actions/device-activation-lock-disable) (iOS only)
     
  -  [Fresh start](/mem/intune/remote-actions/device-fresh-start) (Windows only)
     
- -  [Full scan](/mem/intune/configuration/device-restrictions-windows-10#microsoft-defender-antivirus?azure-portal=true) (Windows 10 only)
+ -  [Full scan](https://docs.microsoft.com/mem/intune/configuration/device-restrictions-windows-10#microsoft-defender-antivirus?azure-portal=true) (Windows 10 only)
     
  -  [Locate device](/mem/intune/remote-actions/device-locate) (iOS only)
     
  -  [Lost mode](/mem/intune/remote-actions/device-lost-mode) (iOS only)
     
- -  [Quick scan](/mem/intune/configuration/device-restrictions-windows-10#microsoft-defender-antivirus?azure-portal=true) (Windows 10 only)
+ -  [Quick scan](https://docs.microsoft.com/mem/intune/configuration/device-restrictions-windows-10#microsoft-defender-antivirus?azure-portal=true) (Windows 10 only)
     
  -  [Remote control for Android](/mem/intune/remote-actions/teamviewer-support)
     
@@ -670,15 +670,15 @@ Send commands to devices over the internet. For example, remove Office data from
     
  -  [Restart](/mem/intune/remote-actions/device-restart) (Windows only)
     
- -  [Retire](/mem/intune/remote-actions/devices-wipe#retire?azure-portal=true)
+ -  [Retire](https://docs.microsoft.com/mem/intune/remote-actions/devices-wipe#retire?azure-portal=true)
     
  -  Update Windows Defender Security Intelligence (Windows only)
     
  -  Windows 10 PIN reset (Windows only)
     
- -  [Wipe](/mem/intune/remote-actions/devices-wipe#wipe?azure-portal=true)
+ -  [Wipe](https://docs.microsoft.com/mem/intune/remote-actions/devices-wipe#wipe?azure-portal=true)
     
- -  [Send custom notifications](/mem/intune/remote-actions/custom-notifications#send-a-custom-notification-to-a-single-device?azure-portal=true) (Android, iOS, iPad OS)
+ -  [Send custom notifications](https://docs.microsoft.com/mem/intune/remote-actions/custom-notifications#send-a-custom-notification-to-a-single-device?azure-portal=true) (Android, iOS, iPad OS)
     
  -  [Synchronize device](/mem/intune/remote-actions/device-sync)
     

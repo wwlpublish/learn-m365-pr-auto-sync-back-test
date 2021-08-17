@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-m365-pr.strengthen-your-security-posture.identify-vulnerabilities-devices
+title: Identify vulnerabilities on your devices
+metadata:
+  unitType: learning-content
+  title: Identify vulnerabilities on your devices
+  description: Learn about how to identify vulnerabilities on your devices.
+  ms.date: 07/15/2021
+  author: iankensey
+  ms.author: beccarobins
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 4
+content: |
+  [!include[](includes/identify-vulnerabilities-devices.md)]

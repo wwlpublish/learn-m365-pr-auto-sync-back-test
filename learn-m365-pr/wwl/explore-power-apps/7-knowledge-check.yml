@@ -4,7 +4,7 @@ title: Knowledge check
 metadata:
   title: Knowledge check
   description: "Knowledge check"
-  ms.date: 04/22/2021
+  ms.date: 07/09/2021
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -16,18 +16,18 @@ content: |
 quiz:
   title: "Check your knowledge"
   questions:
-  - content: "As Fabrikam's Enterprise Administrator, you're interested in implementing Power Apps. You've been comparing canvas apps to model-driven apps. Which of the following features is a way in which canvas apps differ from model-driven apps?"
+  - content: "Which of the following features is a way in which canvas apps differ from model-driven apps?"
     choices:
     - content: "Canvas apps offer users a more consistent look and feel from one screen to the next without much effort by the creator"
       isCorrect: false
-      explanation: "That's incorrect. This is a feature of model-driven apps. Try again. ."
+      explanation: "That's incorrect. This item is a feature of model-driven apps. Try again. ."
     - content: "The data used by canvas apps can come from various data sources, including the Common Data Service database"
       isCorrect: true
       explanation: "That's correct. The data for canvas apps can come from various data sources, including the Common Data Service database. The data for model-driven apps must come exclusively from the Common Data Service database."
     - content: "With canvas apps, the app layout, the views, and the detail screens are determined by the components and based on the data structure"
       isCorrect: false
-      explanation: "That's incorrect. This is a feature of model-driven apps. Try again."
-  - content: "As Lucerne Publishing's Enterprise Administrator, you're interested in having your users create canvas apps. Which of the following controls should they use to display records from a table of data?"
+      explanation: "That's incorrect. This item is a feature of model-driven apps. Try again."
+  - content: "As Lucerne Publishing's Enterprise Administrator, Allan Deyoung is interested in having Lucerne's users create canvas apps. Which of the following controls should they use to display records from a table of data?"
     choices:
     - content: "Gallery control"
       isCorrect: true
@@ -38,7 +38,7 @@ quiz:
     - content: "Input controls"
       isCorrect: false
       explanation: "That's incorrect. Text inputs, buttons, dropdowns, toggles, date pickers, and sliders are a few examples of the various input controls that are available. App creators can add these controls to galleries, forms, and screens to build a functional and aesthetic experience for the app. Try again."
-  - content: "As Lucerne Publishing's Enterprise Administrator, you're interested in building an app for a Test Drive solution. You've discovered that this process is similar to building an app in Power Apps, with one exception. What is that exception?"
+  - content: "As Lucerne Publishing's Enterprise Administrator, Allan Deyoung is interested in building an app for a Test Drive solution. Allan has discovered that this process is similar to building an app in Power Apps, with one exception. What is that exception?"
     choices:
     - content: "The app-maker must use imported data from the Common Data Service database"
       isCorrect: false

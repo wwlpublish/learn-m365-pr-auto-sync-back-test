@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-m365-pr.combine-external-applications-customized-productions.use-live-events
+title: Use Teams Live Events
+metadata:
+  unitType: learning-content
+  title: Use Teams Live Events
+  description: Learn how to use live events in Teams to present content to thousands of users.
+  ms.date: 07/06/2021
+  author: lizap
+  ms.author: elizapo
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 7
+content: |
+  [!include[](includes/use-live-events.md)] 

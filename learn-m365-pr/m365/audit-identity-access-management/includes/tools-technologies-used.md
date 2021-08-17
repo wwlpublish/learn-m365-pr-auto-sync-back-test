@@ -1,4 +1,4 @@
-Microsoft 365 uses a variety of tools and technologies to keep service team accounts secure. In this unit, we’ll review some of these tools to lay the foundation for discussing how Microsoft enforces Zero Standing Access (ZSA).
+Microsoft 365 uses a variety of tools and technologies to keep service team accounts secure. In this unit, we'll review some of these tools to lay the foundation for discussing how Microsoft enforces Zero Standing Access (ZSA).
 
 ## Identity Management Tool (IDM)
 
@@ -24,11 +24,11 @@ Microsoft 365 issues Secure Access Workstations (SAWs) to service team engineers
 
 SAWs at Microsoft are specially designed and manufactured laptops with extra protections against hardware and software vulnerabilities. Microsoft partners directly with trusted suppliers to build SAWs, shortening the supply chain to ensure the security of SAW hardware. Hardened operating systems with deliberately limited functionality further mitigate or eliminate common attack vectors. SAW hardening practices include disabling writing to USB drives, enforcing strict application whitelisting, removing productivity suites and email access, limiting internet browsing, forcing use of a hardened browser, routing traffic through a proxy filter, and enforcing inactivity screensaver lockouts through Group Policy.
 
-Microsoft 365 access control systems automatically check the health of an engineer’s SAW at time of access and refuse connections from non-compliant SAWs. Device health checks complement other access controls, including IP restrictions, IPsec policies, and user identify verification through multi-factor authentication. SAW usage is strictly monitored and logged to detect and prevent unauthorized use. Non-compliant devices are automatically disabled.
+Microsoft 365 access control systems automatically check the health of an engineer's SAW at time of access and refuse connections from non-compliant SAWs. Device health checks complement other access controls, including IP restrictions, IPsec policies, and user identify verification through multifactor authentication. SAW usage is strictly monitored and logged to detect and prevent unauthorized use. Non-compliant devices are automatically disabled.
 
-## Multi-factor authentication (MFA)
+## Multifactor authentication (MFA)
 
-Microsoft 365 requires multi-factor authentication (MFA) for all service team accounts. MFA increases account security by requiring multiple forms of verification, or factors, to prove an engineer’s identity when signing into the system. The types of factors that can be used for MFA fall into three categories:
+Microsoft 365 requires multifactor authentication (MFA) for all service team accounts. MFA increases account security by requiring multiple forms of verification, or factors, to prove an engineer's identity when signing into the system. The types of factors that can be used for MFA fall into three categories:
 
 - Something you know – a password, an answer to a security question, or a Personal Identification Number (PIN)
 - Something you have –a security token generator or a mobile app that receives a notification
@@ -38,4 +38,4 @@ Microsoft 365 requires at least two factors for MFA. Using MFA increases the sec
 
 ## Learn more
 
-- [Multi-factor authentication for Microsoft 365](/microsoft-365/admin/security-and-compliance/multi-factor-authentication-microsoft-365?azure-portal=true)
+- [Multifactor authentication for Microsoft 365](/microsoft-365/admin/security-and-compliance/multi-factor-authentication-microsoft-365?azure-portal=true)

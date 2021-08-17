@@ -1,4 +1,5 @@
 Compliance Manager helps you prioritize which actions to focus on to improve your overall compliance posture by calculating your compliance score. The extent to which an improvement action impacts your compliance score depends on the relative risk it represents. Points are awarded based on whether the action risk level has been identified as a combination of the following action characteristics:
+
 - Mandatory or discretionary
 - Preventative, detective, or corrective
 

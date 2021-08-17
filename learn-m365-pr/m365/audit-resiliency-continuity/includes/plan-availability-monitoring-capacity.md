@@ -8,9 +8,9 @@ In many cases, our services automatically respond to issues that threaten availa
 
 ## Capacity planning
 
-Capacity planning helps service teams allocate the resources necessary to support Microsoft 365 service availability. Regular capacity planning is required as part of Microsoft’s EBCM program. Service teams review capacity data during quarterly reviews, and during emergency situations that warrant additional capacity review.
+Capacity planning helps service teams allocate the resources necessary to support Microsoft 365 service availability. Regular capacity planning is required as part of Microsoft's EBCM program. Service teams review capacity data during quarterly reviews, and during emergency situations that warrant additional capacity review.
 
-The raw data for capacity planning is maintained by each service teams and includes metrics like system processing, memory, and hardware capacity. Scheduled reviews use a model of the system’s current capacity and test it against projected needs in emergency situations. If the model indicates gaps in capacity, proposed changes to system capacity are submitted to service team leadership for review. Approved changes are incorporated into a new model before implementation by service team engineers.
+The raw data for capacity planning is maintained by each service teams and includes metrics like system processing, memory, and hardware capacity. Scheduled reviews use a model of the system's current capacity and test it against projected needs in emergency situations. If the model indicates gaps in capacity, proposed changes to system capacity are submitted to service team leadership for review. Approved changes are incorporated into a new model before implementation by service team engineers.
 
 As part of capacity planning, each service team designates a Capacity Project Manager (PM), who is responsible for collecting performance data and maintaining accurate models of system capacity. In addition to coordinating quarterly capacity reviews, the Capacity PM serves as the primary point of contact for automated availability monitoring alerts. The Capacity PM ensures appropriate service team personnel are notified so they can respond immediately to address availability issues.
 

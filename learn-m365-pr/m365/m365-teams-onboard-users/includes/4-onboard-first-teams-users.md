@@ -4,7 +4,7 @@ Here, you will learn how to get started with your early adopters.
 
 ## Prepare your Teams environment
 
-With your project team defined, and a list of possible champions identified, you should create a number of teams and channels in Teams to support your roll out.
+With your project team defined, and a list of possible champions identified, you should create a number of teams and channels in Teams to support your rollout.
 
 ### Understand teams and channels in Microsoft Teams
 
@@ -22,7 +22,7 @@ You should also consider who can create, edit, and manage a Team. This is essent
 
 If you would like more details, view the short video **Guidance for Setting up Teams, Channels, and Tab**, the link to which is in the **Learn more** section below.
 
-### Setup Teams to support your roll out
+### Set up Teams to support your rollout
 
 To support your roll out of Teams, these are the suggested teams and channels you could create.
 
@@ -30,13 +30,13 @@ To support your roll out of Teams, these are the suggested teams and channels yo
 |--------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Get to know Teams              | General, Say hi, How do I?, Feedback, Ideas for future teams, Support                                                                                                                                    |
 | Microsoft Teams Implementation | General, Awareness and Adoption, Business Engagement, Early Adopter Program, Feedback and Insights, Security and Compliance, Strategy and Planning, Service Health and Incidents, Training, Water cooler Chat |
-| Teamwork Champions             | General, Best Practices, Training, Champions Corner, Feedback and Support, Program Leads, Social Hub                                                                                          |
+| Teamwork Champions             | General, Best Practices, Training, Champions Corner, Feedback, and Support, Program Leads, Social Hub                                                                                          |
 
 Within Microsoft Teams, the tab gallery gives you access to all Microsoft 365 or Office 365 and third-party apps that have been turned on by the administrator. For more information about the tab gallery, see **What are Microsoft Teams custom tabs?**, a link to which is in the **Learn more** section below. To get the most value from your product, we suggest pinning key resources as tabs in each of the appropriate channels.
 
 In your initial Teams, we suggest pinning the following items for easy reference in your Team channels. These assets are in addition to your OneNote notebook sections. You should consider working with our FastTrack team who will assist you in configuring these first teams.
 
-**Microsoft Teams Implementation**
+#### Microsoft Teams Implementation
 
 |      Team/Channel Name           |      Pinned Tab                                                                                            |
 |----------------------------------|------------------------------------------------------------------------------------------------------------|
@@ -45,11 +45,11 @@ In your initial Teams, we suggest pinning the following items for easy reference
 |     Business engagement          |     Wiki – Engagement   guidance    Form – Request for Teams consultation    List – Engagement requests    |
 |     Early adopters               |     Pinned feedback   community    OneNote for FAQ and common themes                                       |
 |     Feedback and   reporting     |     Pinned Microsoft 365 usage report (for Microsoft 365 admins only)        |
-|     Security and   compliance    |     Microsoft Trust   Portal, Security and compliance documentation Roadmap                           |
+|     Security and   compliance    |     Microsoft Trust   Portal, Security, and compliance documentation Roadmap                           |
 |     Strategy and   planning      |     Collaboration North   Star PowerPoint    Service Adoption Project Plan                                 |
 |     Training                     |     Custom learning,   training portal,  Teams online   training                                          |
 
-**Teamwork Champions**
+#### Teamwork Champions
 
 |      Team/Channel Name     |      Pinned Tab                                                                     |
 |----------------------------|-------------------------------------------------------------------------------------|
@@ -129,7 +129,7 @@ As with any communications and adoption campaign you will want to identify your 
 - [Microsoft Teams Customer Success Kit](https://aka.ms/TeamsCustomerSuccess)
 - [Adoption Plan Enterprise Templates](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/teams-adopt-service-adoption-plans-oct-2018.zip?raw=true)
 - [FastTrack Center Benefit for Microsoft 365]( /fasttrack/introduction)
-- [Envision, Onboard and Drive Value with Microsoft 365 Adoption Tools]( https://adoption.microsoft.com/)
+- [Envision, Onboard, and Drive Value with Microsoft 365 Adoption Tools]( https://adoption.microsoft.com/)
 
 ## Training resources
 

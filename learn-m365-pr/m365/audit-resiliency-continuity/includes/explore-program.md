@@ -1,6 +1,6 @@
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4yqwE]
 
-Resilience is a critical component of Microsoft service availability, but even resilient services can be impacted by unexpected events. Microsoft’s Enterprise Business Continuity Management (EBCM) Program helps to ensure our online services are prepared to recover quickly from unexpected events.
+Resilience is a critical component of Microsoft service availability, but even resilient services can be impacted by unexpected events. Microsoft's Enterprise Business Continuity Management (EBCM) Program helps to ensure our online services are prepared to recover quickly from unexpected events.
 
 ## EBCM team structure
 
@@ -15,15 +15,15 @@ The EBCM Program Office and individual service BCLs work with Microsoft Enterpri
 - Enterprise Governance Risk & Compliance (EGRC) – Team responsible for enterprise-level reporting on risk/compliance and finding current Information Security Standards that align with the Microsoft Security Policy, implementation procedures, and recognized industry standards. Manages overall risk for Microsoft, including risks associated with EBCM.
 - EBCM Program Office – Team responsible for managing the Microsoft EBCM program, including EBCM standards, policy, training, and metrics.
 - Business Continuity Council – Senior representatives from each business/engineering function, such as Microsoft 365, who collaborate on cross-group plans and overall policy.
-- Business Continuity Leads – Individuals from each service that lead continuity and resilience efforts within their business unit (e.g. Azure, Microsoft 365, Dynamics).
-- Business Continuity Champions – Individuals from each service team, such as Exchange Online or Microsoft Teams, who lead Business Continuity and Disaster Recovery (BCDR) efforts for their service team (e.g. Azure Blob Storage, Exchange, Power BI).
-- Workload DevOps – Engineers within service teams that are responsible for feature development, day-to-day operations, and supporting live site issues including BCDR responsibilities (e.g. incident managers, on-call engineers, DevOps teams).
+- Business Continuity Leads – Individuals from each service that lead continuity and resilience efforts within their business unit (for example, Azure, Microsoft 365, Dynamics).
+- Business Continuity Champions – Individuals from each service team, such as Exchange Online or Microsoft Teams, who lead Business Continuity and Disaster Recovery (BCDR) efforts for their service team (for example, Azure Blob Storage, Exchange, Power BI).
+- Workload DevOps – Engineers within service teams that are responsible for feature development, day-to-day operations, and supporting live site issues including BCDR responsibilities (for example, incident managers, on-call engineers, DevOps teams).
 - Microsoft 365 Incident Communication and Coordination – Microsoft 365 team that functions as a central hub for internal and external communication during an incident of Microsoft 365 Services, responsible for customer notification of service-impacting incidents via the Microsoft 365 Service Health Dashboard and other communications platforms.
 - Customer Service and Support – Team responsible for handling customer-reported issues. Serves as a first point of contact for customers in the event of a disaster.
 
 ## BCM framework
 
-In addition to facilitating cooperation on business continuity, Microsoft’s EBCM program provides a consistent BCM framework that is implemented by business units across the enterprise. This framework addresses the recovery and continuity of critical business functions, services, and data required to maintain an acceptable level of operations during an incident. Use of a common framework ensures the existence of effective, reliable, well-tested plans, systems, and processes that can be counted on to support business continuity and minimize adverse impacts during a disruptive event.
+In addition to facilitating cooperation on business continuity, Microsoft's EBCM program provides a consistent BCM framework that is implemented by business units across the enterprise. This framework addresses the recovery and continuity of critical business functions, services, and data required to maintain an acceptable level of operations during an incident. Use of a common framework ensures the existence of effective, reliable, well-tested plans, systems, and processes that can be counted on to support business continuity and minimize adverse impacts during a disruptive event.
 
 ![A graphical representation of how EBCM program work with Microsoft Business Units. EBCM program is responsible for governance, compliance, and guidance. Microsoft Business Units are responsible for following EBCM methodology and policy and collaborate with EBCM program in different aspects.](../media/program.png)
 

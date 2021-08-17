@@ -15,7 +15,7 @@ By using AD FS, your organization can manage its own user accounts, and users ca
 
 ## Overview
 
-Firstly, verify that you have a preconfigured AD FS environment. You’ll also need a Microsoft Cloud App Security license. After you verify you meet the prerequisites, you’ll need to complete the following steps:
+Firstly, verify that you have a preconfigured AD FS environment. You'll also need a Microsoft Cloud App Security license. After you verify you meet the prerequisites, you'll need to complete the following steps:
 
 1. Obtain your app's SSO settings
 1. Configure Cloud App Security with the app's SSO information
@@ -26,7 +26,7 @@ Firstly, verify that you have a preconfigured AD FS environment. You’ll also n
 1. Complete the app changes
 1. Complete the configuration in Cloud App Security
 
-Let’s look more closely at this procedure using Salesforce as an example app.
+Let's look more closely at this procedure using Salesforce as an example app.
 
 ### Obtain the app's SSO settings
 
@@ -39,7 +39,7 @@ This process might vary depending on the specific app being configured. But for 
     > [!NOTE]
     > If your app provides a SAML certificate, download it.
 
-### Configure Cloud App Security with the app’s SSO settings
+### Configure Cloud App Security with the app's SSO settings
 
 The next step is to enter the SSO details from your app into Cloud App Security. Use the following procedure:
 
@@ -56,7 +56,7 @@ The next step is to enter the SSO details from your app into Cloud App Security.
 
 ### Create a new AD FS Relying Party Trust and App Single Sign-On configuration
 
-To limit end-user downtime and preserve your existing known good configuration, it’s a good idea to create a new Relying Party Trust and SSO configuration. However, that might not always be possible. For example, if the app you are configuring does not support creating multiple SSO configurations, then skip the following procedure.
+To limit end-user downtime and preserve your existing known good configuration, it's a good idea to create a new Relying Party Trust and SSO configuration. However, that might not always be possible. For example, if the app you are configuring does not support creating multiple SSO configurations, then skip the following procedure.
 
 > [!NOTE]
 > The relying party is the party where the app is located. The relying party functions as the reciprocal of the AD FS authentication process. 
@@ -121,7 +121,7 @@ Switch back to Cloud App Security and in the **Add Salesforce with your identity
 Switch back to Salesforce. The complete the following steps:
 
 1. Select **Setup**, select **Settings**, select **Identity**, and then select **Single Sign-On Settings**.
-1. It’s recommended that you create a backup of your current settings.
+1. It's recommended that you create a backup of your current settings.
 1. Then, replace the **Identity Provider Login URL** field value with the **Cloud App Security SAML single sign-on URL** you recorded earlier.
 1. Upload the **Cloud App Security SAML** certificate you previously downloaded.
 1. Select **Save**.

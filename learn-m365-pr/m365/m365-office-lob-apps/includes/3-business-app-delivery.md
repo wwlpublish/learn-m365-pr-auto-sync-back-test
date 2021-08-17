@@ -8,11 +8,11 @@ For business apps, Windows 10 works with MSI-based packages and installs apps as
 
 ## PC imaging
 
-Another popular method of app delivery is **PC imaging** - applications are either installed with a task sequence or manually on a sample PC. Then you capture a system image with the required applications installed. The imaging approach to build and capture can save time when provisioning new PCs, but remember operating systems and apps within the image can become stale quickly. The cumulative update model in Windows 10 and Microsoft 365 Apps helps with this problem but doesn’t eliminate it completely. That’s why Microsoft recommends a thin image approach, where your applications are installed from outside the image at deployment time.
+Another popular method of app delivery is **PC imaging** - applications are either installed with a task sequence or manually on a sample PC. Then you capture a system image with the required applications installed. The imaging approach to build and capture can save time when provisioning new PCs, but remember operating systems and apps within the image can become stale quickly. The cumulative update model in Windows 10 and Microsoft 365 Apps helps with this problem but doesn't eliminate it completely. That's why Microsoft recommends a thin image approach, where your applications are installed from outside the image at deployment time.
 
 ![Task Sequence Editor](../media/step-3-office-and-lob-app-delivery-media-4.png)
 
-If you want to include Microsoft 365 Apps in your image, remember that Office employs a user-based activation and can’t be pre-activated by the system admin. Use the Office Deployment Tool to pre-install Office on the device you're imaging and skip the user login. Once the image is deployed, end users can sign in using their Microsoft 365 credentials and activate Microsoft 365 Apps.
+If you want to include Microsoft 365 Apps in your image, remember that Office employs a user-based activation and can't be pre-activated by the system admin. Use the Office Deployment Tool to pre-install Office on the device you're imaging and skip the user login. Once the image is deployed, end users can sign in using their Microsoft 365 credentials and activate Microsoft 365 Apps.
 
 ## Sideloading business apps
 
@@ -24,6 +24,6 @@ When you sideload an app, you deploy a signed app package to a device. You maint
 
 ## Browser-based apps
 
-If you’re using browser-based apps, you’ll want to make sure that they continue to work as expected after the upgrade. As you learned in **Analyze your device and app readiness,** if you have specific websites and apps that have compatibility problems with Microsoft Edge, you can add those apps and sites to the Enterprise Mode site list in the Enterprise Mode Site List Manager. That will ensure that websites will automatically open using Internet Explorer 11. 
+If you're using browser-based apps, you'll want to make sure that they continue to work as expected after the upgrade. As you learned in **Analyze your device and app readiness,** if you have specific websites and apps that have compatibility problems with Microsoft Edge, you can add those apps and sites to the Enterprise Mode site list in the Enterprise Mode Site List Manager. That will ensure that websites will automatically open using Internet Explorer 11.
 
-If you know that your intranet sites aren’t going to work properly with Microsoft Edge, you can set all intranet sites to open using Internet Explorer 11 automatically, using the same functionality.
+If you know that your intranet sites aren't going to work properly with Microsoft Edge, you can set all intranet sites to open using Internet Explorer 11 automatically, using the same functionality.

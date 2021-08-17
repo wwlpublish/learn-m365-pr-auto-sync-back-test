@@ -4,11 +4,11 @@ title: Protect your data and apps with Conditional Access App Control
 metadata:
   title: Protect your data and apps with Conditional Access App Control
   description: Learn how to protect your data and apps with Conditional Access App Control. 
-  ms.date: 09/08/2020
+  ms.date: 06/14/2021
   author: lizap
-  ms.author: iankensey
+  ms.author: beccarobins
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-durationInMinutes: 10
+durationInMinutes: 4
 content: |
   [!include[](includes/conditional-access-app-control.md)]

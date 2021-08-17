@@ -2,7 +2,7 @@ Microsoft Teams Calling Plans offer cloud-based telephony services from Microsof
 
 Direct Routing allows you to use your existing PTSN infrastructure allows you to use your existing PBX. Direct Routing is used in situations where either no calling plans are available.
 
-You'll learn how to determine Call Plan availability, how to setup Call Plans, and some considerations for deploying both Call Plans and Direct Routing.
+You'll learn how to determine Call Plan availability, how to set up Call Plans, and some considerations for deploying both Call Plans and Direct Routing.
 
 ## Learning objectives
 

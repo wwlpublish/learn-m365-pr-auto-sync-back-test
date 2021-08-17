@@ -12,7 +12,7 @@ New devices can include the Configuration Manager client and can be automaticall
 
 In this module, you'll examine how to prepare your Windows 10 devices for Co-management. You'll begin by exploring the prerequisites for using Co-management. You'll then learn how to configure Microsoft Endpoint Configuration Manager for Co-management. The module will then conclude by showing you how to enroll your Windows 10 devices to Intune.
 
-After completing this module, you'll be able to: 
+After completing this module, you'll be able to:
 
  -  Describe the prerequisites for using Co-management.
  -  Configure Microsoft Endpoint Configuration Manager for Co-management.

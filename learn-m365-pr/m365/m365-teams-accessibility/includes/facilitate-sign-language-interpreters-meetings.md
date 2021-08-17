@@ -9,7 +9,7 @@ You can invite interpreters in Microsoft Teams meetings by providing them guest 
 
 ### Guest access
 
-Guest access allows teams in your organization to collaborate with people outside your organization by granting them access to existing teams and channels in Microsoft Teams. Anyone with a business or personal email account, such as Outlook, Gmail, or others, can participate as a guest in Microsoft Teams with full access to team chats, meetings, and files. 
+Guest access allows teams in your organization to collaborate with people outside your organization by granting them access to existing teams and channels in Microsoft Teams. Anyone with a business or personal email account, such as Outlook, Gmail, or others, can participate as a guest in Microsoft Teams with full access to team chats, meetings, and files.
 
 As the Microsoft Teams admin, you'll control which features guests can (and can't) use in Microsoft Teams.
 Guest access is an organization-wide setting in Microsoft Teams and is turned off by default. Guest access is subject to Azure Active Directory and Microsoft 365 or Office 365 service limits:

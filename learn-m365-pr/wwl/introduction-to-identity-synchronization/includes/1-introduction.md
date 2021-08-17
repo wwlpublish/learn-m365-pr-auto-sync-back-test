@@ -4,6 +4,7 @@ If you have an existing on-premises directory, such as Active Directory, you can
 
 After completing this module, you'll be able to:
 
- *  Describe the Microsoft 365 authentication and provisioning options
- *  Explain directory synchronization
- *  Explain how Azure AD Connect enables coexistence between your on-premises Active Directory environment and Microsoft 365
+ -  Describe the Microsoft 365 authentication and provisioning options
+ -  Explain directory synchronization
+ -  Explain how Azure AD Connect enables coexistence between your on-premises Active Directory environment and Microsoft 365
+

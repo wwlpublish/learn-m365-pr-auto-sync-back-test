@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-m365-pr.automated-investigation-remediation-microsoft-defender-endpoint.summary
+title: Summary
+metadata:
+  unitType: summary
+  title: Summary
+  description: A summary of what you've learned in this module.
+  ms.date: 07/19/2021
+  author: iankensey
+  ms.author: beccarobins
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 1
+content: |
+  [!include[](includes/summary.md)]

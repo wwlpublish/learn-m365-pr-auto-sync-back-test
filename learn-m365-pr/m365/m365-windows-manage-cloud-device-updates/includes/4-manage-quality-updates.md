@@ -12,7 +12,7 @@ You can specify how long after a quality update is released before it is offered
 We recommend deploying quality updates at different times. To do this, group devices and then assign different deferral values to each group. For example, see the following:
 
 - IT Admin Group: zero-day deferral (gets the update the day it is released).
-- Early adopters’ group: two-day deferral (gets the update two days after it is released).
+- Early adopters' group: two-day deferral (gets the update two days after it is released).
 - Broad phase 1: seven-day deferral (gets the update a week after it is released).
 - Broad phase 2: nine-day deferral (gets the update nine days after it's released).
 

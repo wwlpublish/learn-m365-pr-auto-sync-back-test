@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-m365-pr.apply-next-generation-protection-with-microsoft-defender-for-endpoint.summary
+title: Summary
+metadata:
+  unitType: summary
+  title: Summary
+  description: Here, you'll review what you've learned about next-generation protection features in Microsoft Defender for Endpoint.
+  ms.date: 07/06/2021
+  author: alistairmatthews
+  ms.author: beccarobins
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 1
+content: |
+  [!include[](includes/summary.md)]

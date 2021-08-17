@@ -50,6 +50,9 @@ When the **Authentication** page refreshes, select **Add URI**, add **https://lo
 
 ### Create a single organization ASP.NET core web application
 
+> [!NOTE]
+> The instructions below assume you are using .NET 5. They were last tested using v5.0.202 of the .NET 5 SDK.
+
 Open your command prompt, navigate to a directory where you want to save your work, create a new folder, and change directory into that folder.
 
 Execute the following command to create a new ASP.NET Core MVC web application:
@@ -170,6 +173,9 @@ Select **Register** to create the application.
 Repeat the remaining steps to set the applications Redirect URIs, Logout URL, and Implicit grant settings to match the same values as the first Azure AD application.
 
 ### Create a multiple organization ASP.NET core web application
+
+> [!NOTE]
+> The instructions below assume you are using .NET 5. They were last tested using v5.0.202 of the .NET 5 SDK.
 
 Open your command prompt, navigate to a directory where you want to save your work, create a new folder, and change directory into that folder.
 

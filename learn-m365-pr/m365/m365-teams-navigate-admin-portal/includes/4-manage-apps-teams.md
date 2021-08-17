@@ -5,17 +5,18 @@ Here, you'll learn how to add apps to Teams and manage their use.
 
 ## What are apps in Teams?
 
-Apps provide additional functionality for Microsoft Teams. They provide collaboration and workflow functionality in tabs, messaging extensions, connectors, and bots . Apps may be provided by Microsoft, built by a third-party, or by developers in your organization.
+Apps provide additional functionality for Microsoft Teams. They provide collaboration and workflow functionality in tabs, messaging extensions, connectors, and bots. Apps may be provided by Microsoft, built by a third-party, or by developers in your organization.
 
 You manage apps for Teams in the Teams admin center. You can allow or block apps at the organization level, set policies to control which apps are available to Teams users, and customize Teams by pinning the apps that are most important to your users.
 
-Managing apps in the Teams Admin Center starts with a comprehensive catalog of all the apps available – including third party apps, those from Microsoft and apps from your organization.
+Managing apps in the Teams Admin Center starts with a comprehensive catalog of all the apps available – including third-party apps, those from Microsoft and apps from your organization.
 
 The App permission policy allows to curate this list of apps for end-users when they search for apps or view the app store.
 
 ## Getting started with managing apps
 
 To manage apps:
+
 1. Sign into the [Microsoft Teams admin center](https://admin.teams.microsoft.com), and select **Team apps** from the left navigation bar.
 1. Select either **Manage apps**, **Permission policies**, or **Setup Policies**.
 1. From the **Manage apps** screen, you can control what apps are available to users in your organization's app store. You can then use app permission and app setup policies to configure what apps will be available for specific users.
@@ -25,6 +26,7 @@ To manage apps:
 ## App permission policies
 
 With app permission policies, you can control what apps are available to specific users. You can allow or block all apps or specific apps published by Microsoft, third-parties, and your organization. For example, you can use app permission policies to:
+
 - Gradually roll out new third-party or custom-built apps to specific users.
 - Simplify the user experience, especially when you start rolling out Teams across your organization.
 
@@ -39,6 +41,7 @@ As an admin, you can use app setup policies to do the following:
 ## Learn more
 
 For more information about the topics covered in this unit, see:
+
 - [Admin settings for apps in Microsoft Teams](/microsoftteams/admin-settings).
 - [Manage app setup policies in Microsoft Teams](/microsoftteams/teams-app-setup-policies).
 - [Manage app permission policies in Microsoft Teams](/microsoftteams/teams-app-permission-policies).

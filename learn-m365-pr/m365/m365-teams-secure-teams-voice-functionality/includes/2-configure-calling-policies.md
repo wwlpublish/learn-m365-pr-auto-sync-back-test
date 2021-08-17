@@ -5,16 +5,18 @@ In your firm of financial advisors, scam calls have become a problem. Their stra
 Here, you'll learn how to use calling policies in Teams to control telephony in your company.
 
 ## Create a custom calling policy
+
 Follow these steps to create a custom calling policy:
 
 1. Sign into the [Teams admin center](https://admin.teams.microsoft.com).
-1. In the left navigation select **Voice** > **Calling policies**.
+1. In the left navigation, select **Voice** > **Calling policies**.
 1. Select **Add**.
 1. Turn on or turn off the features that you want to use in your calling policy.
 1. To control whether users can route inbound calls to voicemail, select **Enabled** or **User controlled**. To prevent routing to voicemail, select **Disabled**.
 1. Select **Save**.
 
 ## Edit a calling policy
+
 Follow these steps to edit an existing calling policy:
 
 1. In the left navigation of the Teams admin center, select **Voice** > **Calling policies**.
@@ -22,6 +24,7 @@ Follow these steps to edit an existing calling policy:
 1. Make the changes that you want, and then select **Save**.
 
 ## Assign a custom calling policy to users
+
 You can assign a policy directly to users, either individually or at scale through a batch assignment (if supported for the policy type), or to a group that the users are members of (if supported for the policy type).
 
 Using the Teams admin center, assign a policy to a user with these steps:
@@ -33,6 +36,7 @@ Using the Teams admin center, assign a policy to a user with these steps:
 To learn about the different ways that you can assign policies to users, see **Assign policies to your users in Teams** in the **Learn more** section below.
 
 ## Calling policy settings
+
 Here's the settings that you can configure for calling policies:
 
 | Setting  | Description |

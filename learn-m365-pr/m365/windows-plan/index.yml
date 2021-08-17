@@ -3,7 +3,7 @@ uid: learn-m365.windows-plan
 metadata:
   title: Plan to deploy updates for Windows 10 and Microsoft 365 Apps
   description: Some of your organization's devices are at the end of support or nearing end of support. This means your organization's environment is at risk of security threats and other issues. You'll learn how to create a plan to help bring your organization's environment up to date.
-  ms.date: 06/17/2020
+  ms.date: 07/16/2021
   author: IanKensey
   ms.author: elizapo
   ms.topic: interactive-tutorial

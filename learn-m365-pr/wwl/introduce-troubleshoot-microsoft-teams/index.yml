@@ -1,0 +1,41 @@
+### YamlMime:Module
+uid: learn.wwl.introduce-troubleshooting-microsoft-teams
+metadata:
+  title: Introduce troubleshooting Microsoft Teams
+  description: "Describe the role of the Teams administrator. Identify common Teams problems. Explain how to approach the resolution process with Microsoft Teams."
+  ms.date: 08/16/2021
+  author: wwlpublish
+  ms.author: cyncarey
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Introduce troubleshooting Microsoft Teams
+summary: Describe the role of the Teams administrator. Identify common Teams problems. Explain how to approach the resolution process with Microsoft Teams.
+abstract: |
+  After completing this module, you’ll be able to:
+  - Describe the role of the Teams administrator.
+  - Identify common Teams problems.
+  - Explain how to approach the resolution process with Microsoft Teams.
+prerequisites: |
+  - Experience configuring and administering Microsoft Teams
+  - Experience using Windows PowerShell
+  - Working experience with performance tuning and service monitoring
+iconUrl: /learn/achievements/generic-badge.svg
+levels:
+- advanced
+roles:
+- support-engineer
+products:
+- m365
+- office-teams
+units:
+- learn.wwl.introduce-troubleshooting-microsoft-teams.introduction
+- learn.wwl.introduce-troubleshooting-microsoft-teams.describe-teams
+- learn.wwl.introduce-troubleshooting-microsoft-teams.describe-teams-administration
+- learn.wwl.introduce-troubleshooting-microsoft-teams.diagnose-common-teams-problems
+- learn.wwl.introduce-troubleshooting-microsoft-teams.use-troubleshooting-methodology
+- learn.wwl.introduce-troubleshooting-microsoft-teams.perform-initial-data-collection
+- learn.wwl.introduce-troubleshooting-microsoft-teams.develop-implement-plan-of-action
+- learn.wwl.introduce-troubleshooting-microsoft-teams.knowledge-check
+- learn.wwl.introduce-troubleshooting-microsoft-teams.summary
+badge:
+  uid: learn.wwl.introduce-troubleshooting-microsoft-teams.badge

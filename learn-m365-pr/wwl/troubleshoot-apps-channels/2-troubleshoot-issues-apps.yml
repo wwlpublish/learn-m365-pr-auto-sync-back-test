@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.troubleshoot-apps-channels.troubleshoot-issues-with-apps
+title: Troubleshoot issues with apps
+metadata:
+  title: Troubleshoot issues with apps
+  description: "Troubleshoot issues with apps"
+  ms.date: 08/16/2021
+  author: wwlpublish
+  ms.author: cyncarey
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+durationInMinutes: 6
+content: |
+  [!include[](includes/2-troubleshoot-issues-apps.md)]

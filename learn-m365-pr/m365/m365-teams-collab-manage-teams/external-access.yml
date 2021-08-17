@@ -4,11 +4,11 @@ title: Manage external access
 metadata:
   title: Manage external access
   description: Learn about the Microsoft Teams user experience, requirements, and important considerations for deploying Teams as part of a Microsoft 365 installation. 
-  ms.date: 08/19/2019
+  ms.date: 07/16/2021
   author: AlexandraHrt
   ms.author: v-aleha
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-durationInMinutes: 4
+durationInMinutes: 2
 content: |
   [!include[](includes/external-access.md)]

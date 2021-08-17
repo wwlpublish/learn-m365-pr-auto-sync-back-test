@@ -4,7 +4,7 @@ This example sets up a policy called "Domain and CEO" that provides both user an
 - Messages that are determined to be impersonation attempts against the CEO's user account need to be redirected to the security administrator's email address.
 - Messages that are determined to be impersonation attempts against the domain are less urgent and should be quarantined for later review.
 
-The security administrator at Contoso might use values like the following in order to create an anti-phishing policy that meets these needs.
+The security administrator at Contoso might use the following values to create an anti-phishing policy that meets these needs.
 
 |||
 |-|-|

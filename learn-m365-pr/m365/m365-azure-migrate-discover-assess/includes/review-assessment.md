@@ -5,12 +5,13 @@ Within the assessment (pictured below), you can find an overview of Azure readin
 >![Azure readiness](../media/azure-readiness.png)
 
 From there you can explore Azure Readiness for a more detailed breakdown of:
+
 - Specs and sizing recommendations.
 - Location of CPU and memory utilization.
 - Disk metrics for size, performance, and throughput.
 - A monthly cost-estimate.
 
-Azure Migrate also discovers dependencies across virtual machines in your group. To access this view, go back to the **Azure Migrate Servers** screen and click on **Discovered servers**. 
+Azure Migrate also discovers dependencies across virtual machines in your group. To access this view, go back to the **Azure Migrate Servers** screen and click on **Discovered servers**.
 
 >![Assessment](../media/assessment-2.png)
 
@@ -23,5 +24,6 @@ You can export the assessment in a detailed Microsoft Excel spreadsheet. Using t
 After you are satisfied with your recommendations and the path forward, you can move on to the next step: replicating your virtual machines into Azure Storage, testing, and then production migration.
 
 ## Learn more
- - [How to run VMware in Azure - Demo Tutorial](https://www.microsoft.com/videoplayer/embed/RE4sOiW?azure-portal=true)
- - [Prerequisites setup guidance](/azure/migrate/tutorial-prepare-vmware#prepare-azure?azure-portal=true)
+
+- [How to run VMware in Azure - Demo Tutorial](https://www.microsoft.com/videoplayer/embed/RE4sOiW?azure-portal=true)
+- [Prerequisites setup guidance](/azure/migrate/tutorial-prepare-vmware#prepare-azure?azure-portal=true)

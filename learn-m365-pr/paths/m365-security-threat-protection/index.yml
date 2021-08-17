@@ -1,15 +1,15 @@
 ### YamlMime:LearningPath
 uid: learn-m365.m365-security-threat-protection
 metadata:
-  title: Defend against threats with Microsoft Threat Protection
-  description: Microsoft Threat Protection (MTP) is an integrated, cross-domain threat detection and response solution. It provides organizations with the ability to prevent, detect, investigate. and remediate sophisticated cross-domain attacks within their Microsoft 365 environments. The Microsoft Threat Protection learning path covers an introduction to Microsoft Threat Protection and the underlying pillars such as Microsoft Defender Advanced Threat Protection, Office 365 Advanced Threat Protection, and Azure Advanced Threat Protection concepts. 
-  ms.date: 06/24/2020
+  title: Defend against threats with Microsoft 365
+  description: Microsoft 365 includes security technologies that enterprises can use to secure email, data, devices, and identities against the risk of cyber threats. This learning path provides an introduction to Microsoft 365 Defender, Microsoft Defender for Endpoint, Microsoft Defender for Identity, and Microsoft Defender for Office 365. 
+  ms.date: 06/24/2021
   author: AlexandraHrt
   ms.author: elizapo
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-title: Defend against threats with Microsoft Threat Protection
-summary: "Microsoft Threat Protection (MTP) is an integrated, cross-domain threat detection and response solution. It provides organizations with the ability to prevent, detect, investigate. and remediate sophisticated cross-domain attacks within their Microsoft 365 environments. The Microsoft Threat Protection learning path covers an introduction to Microsoft Threat Protection and the underlying pillars such as Microsoft Defender Advanced Threat Protection, Office 365 Advanced Threat Protection, and Azure Advanced Threat Protection concepts. This learning path can help you prepare for the [Microsoft 365 Certified: Security Administrator Associate](/learn/certifications/m365-security-administrator) and [Microsoft 365 Certified: Enterprise Administration Expert](/learn/certifications/m365-enterprise-administrator) certifications. **IMPORTANT**: Threat protection product names in Microsoft are changing. [Read more about this and other updates](https://www.microsoft.com/security/blog/?p=91813). We'll be updating names in products and in the Learn content in the near future." 
+title: Defend against threats with Microsoft 365
+summary: Microsoft 365 includes security technologies that enterprises can use to secure email, data, devices, and identities against the risk of cyber threats. This learning path provides an introduction to Microsoft 365 Defender, Microsoft Defender for Endpoint, Microsoft Defender for Identity, and Microsoft Defender for Office 365. 
 prerequisites: | 
  - Intermediate understanding of Microsoft 365
 iconUrl: /learn/achievements/defend-against-threats-m365-microsoft-threat-protection.svg

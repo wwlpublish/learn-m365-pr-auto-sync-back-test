@@ -1,4 +1,4 @@
-As the administrator at a school, you want a solution that can help you manage devices, regardless of the device type or location. 
+As the administrator at a school, you want a solution that can help you manage devices, regardless of the device type or location.
 
 You've heard about solutions like Microsoft Intune and Intune for Education, and you want to know which solution is the most appropriate for your school, and how to get your hands on it.
 

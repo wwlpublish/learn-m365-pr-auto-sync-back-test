@@ -1,10 +1,10 @@
 One of the key elements of the Cloud App Security framework is protecting your sensitive information. Sensitivity is a subjective phrase, as this can vary from one organization to another.
 
-Here, you’ll understand how to find which apps are accessing your data, how to classify which information is sensitive, how to protect it from illegal access, and how to monitor and report on the overall health of your environment.
+Here, you'll understand how to find which apps are accessing your data, how to classify which information is sensitive, how to protect it from illegal access, and how to monitor and report on the overall health of your environment.
 
 ## What is Information Protection?
 
-An employee might accidentally upload a file to the wrong place. Or they could send confidential information to someone who shouldn’t have it. As a result, information could be lost or made accessible to the wrong person. Any lost or wrongfully exposed information can have serious legal, financial, or reputational consequences for your organization. Information is vital to any modern organization, and you want to ensure that it’s protected at all times.
+An employee might accidentally upload a file to the wrong place. Or they could send confidential information to someone who shouldn't have it. As a result, information could be lost or made accessible to the wrong person. Any lost or wrongfully exposed information can have serious legal, financial, or reputational consequences for your organization. Information is vital to any modern organization, and you want to ensure that it's protected at all times.
 
 To help you, Microsoft Cloud App Security natively integrates with Azure Information Protection, a cloud-based service that helps classify and protect files and emails across your organization.
 
@@ -20,14 +20,14 @@ During this phase, you make sure apps are connected to Microsoft Cloud App Secur
 
 ### Phase 2: Classify sensitive information
 
-In this phase, you’ll do the following:
+In this phase, you'll do the following:
 
 1. Decide what counts as sensitive in the context of your organization. Microsoft Cloud App Security includes more than 100 predefined sensitive information types, and default labels in Azure Information Protection. Sensitive information types and labels define how to handle, for example, passport numbers and national identity numbers. You can also use default labels in Azure Information Protection. These labels will be used by Microsoft Cloud App Security when scanning, to classify information. The labels are:
 
    - **Personal**: Data for personal, nonbusiness use only.
    - **Public**: Data that can be shared for public consumption, such as marketing posters and  blog posts.
-   - **General**: Data that can’t be shared for public consumption, but can be shared with external partners. For example, project timelines and organizational charts.
-   - **Confidential**: Data that could damage the organization if it’s shared with unauthorized people. For example, sales account data and forecasts.
+   - **General**: Data that can't be shared for public consumption, but can be shared with external partners. For example, project timelines and organizational charts.
+   - **Confidential**: Data that could damage the organization if it's shared with unauthorized people. For example, sales account data and forecasts.
    - **Highly confidential**: Very sensitive data that will cause serious damage if shared with unauthorized people. For example, customer details, passwords and source code.
 1. Enable Azure Information Protection integration in Microsoft Cloud App Security by selecting **Automatically scan new files for Azure Information Protection classification labels** in the **Settings** pane:
 
@@ -50,7 +50,7 @@ To create a file policy
 1. Select **Policies > Create policy**
 1. Select **File policy**
 
-   When the form that appears, you’ll fill in the following fields:
+   When the form that appears, you'll fill in the following fields:
 
    | Field                                                      | Description |
    | ---------------------------------------------------------- | ------------------------------------------------------------ |
@@ -59,10 +59,10 @@ To create a file policy
    | **Create a filter for the files  this policy will act on** | It  is used to decide which apps will trigger the policy. Ideally this should be  defined to be as narrow as possible to avoid false positives. |
    | **Apply to (1st)**                                         | Select which discovered apps will  trigger the policy. There are two choices:  ·      All files excluding selected folders: to apply the policy  to all files.  ·      Selected folders: to apply the policy to apps like  Box, SharePoint, OneDrive, and Dropbox. |
    | **Apply to (2nd)**                                         | Select which users and groups  should be included in this policyThere are three options:  ·      All file owners  ·      File owners from selected user groups  ·      All file owners excluding selected groups |
-   | **Content inspection method**                              | Select how you want files to be  inspected.  There are two options:  ·      Built-in DLP  ·      Data Classification Services (DCS)  Microsoft  recommends DCS as this will allow you to use a unified labeling experience  across M365, Azure Information Protection, and Microsoft Cloud App Security. |
+   | **Content inspection method**                              | Select how you want files to be  inspected.  There are two options:  ·      Built-in DLP  ·      Data Classification Services (DCS)  Microsoft  recommends DCS as this will allow you to use a unified labeling experience  across Microsoft 365, Azure Information Protection, and Microsoft Cloud App Security. |
    | **Governance**                                             | Select which governance  actions you want Microsoft Cloud App Security to perform when a match is  detected. |
 
-1. When you’re done, select **Create** to create your file policy.
+1. When you're done, select **Create** to create your file policy.
 
 ### Phase 4: Monitor and report
 

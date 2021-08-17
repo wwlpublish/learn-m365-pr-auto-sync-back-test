@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.syntex-intro.what-is-sharepoint-syntex
+title: What is SharePoint Syntex?
+metadata:
+  title: What is SharePoint Syntex?
+  description:  Learn about SharePoint Syntex, including the business problem it solves, how it works, and common scenarios for use.
+  ms.date: 06/24/2021
+  author: beccarobins
+  ms.author: beccarobins
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 2
+content: |
+  [!include[](includes/what-is-sharepoint-syntex.md)]

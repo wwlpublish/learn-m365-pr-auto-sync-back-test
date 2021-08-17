@@ -1,0 +1,49 @@
+### YamlMime:ModuleUnit
+uid: learn-m365-pr.design-successful-virtual-event-using-microsoft-365.knowledge-check
+title: Knowledge check ### Do not edit: use "Knowledge check" as the title; also, don't add another title in the quiz element or an associated markdown page (if such a markdown page exists which is rare)
+metadata:
+  unitType: knowledge_check
+  title: Knowledge check
+  description: See what you've learned in this module.
+  ms.date: 07/19/2021
+  author: lizap
+  ms.author: elizapo
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 3 # user input: the estimate time to complete the unit
+content: |
+quiz:
+  questions:
+  - content: "What's a good way to avoid confusion around how to share a screen and the flow between presenters and moderators?"
+    choices:
+    - content: "Plan time for your whole team to rehearse."
+      isCorrect: true
+      explanation: "That's correct. Practicing the event is important for everyone from the presenters, moderators, producers, and IT staff."
+    - content: "Ask your presenters to run through their content by themselves."
+      isCorrect: false
+      explanation: "That's incorrect. It is good for presenters to practice delivering their content, but what about the rest of the event team?"
+    - content: "Have your IT contact available throughout the event in case of issues."
+      isCorrect: false
+      explanation: "That's incorrect. It is useful to have to IT support throughout your event, but this won't avoid the most common issues before the event starts."
+  - content: "Where should you host a live event if you have 15,000 attendees that are inside and outside your organization?"
+    choices:
+    - content: "Teams Live Event"
+      isCorrect: false
+      explanation: "That's incorrect. Teams Live Events are limited to 10,000 participants."
+    - content: "Live event hosted in Yammer"
+      isCorrect: false
+      explanation: "That's incorrect. Yammer participants can only be internal to your organization."
+    - content: "Live event hosted in Streams"
+      isCorrect: true
+      explanation: "That's correct. Stream supports up to 20,000 internal and external participants (with a maximum of 100,000 if the Live Events Assistance Program is involved). "
+  - content: "What's one of the seven ways you can be more inclusive?"
+    choices:
+    - content: "Always offer a helping hand."
+      isCorrect: false
+      explanation: "That's incorrect. Follow peoples lead, if they would like help they will ask you."
+    - content: "Accept everyone as a human first."
+      isCorrect: true
+      explanation: "That's correct. People with disabilities aren't different, we are all human beings."
+    - content: "Tailor your behavior for your audience."
+      isCorrect: false
+      explanation: "That's incorrect. Don't act differently around people who are different, just be yourself don't overreact."

@@ -4,7 +4,7 @@ title: Enable hybrid features using the Microsoft Hybrid Agent
 metadata:
   title: Enable hybrid features using the Microsoft Hybrid Agent
   description: Your organization has migrated many workloads to Microsoft Azure, and you now intend to migrate to a hybrid Exchange environment. You need to consider the choices for a hybrid environment while keeping your infrastructure secure. You’ll plan the migration process to ensure that it’s as straightforward as possible.
-  ms.date: 05/12/2020
+  ms.date: 06/02/2021
   author: AlexandraHrt
   ms.author: v-aleha
   ms.topic: interactive-tutorial

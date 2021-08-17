@@ -13,4 +13,3 @@ The final node in Group Policy that contains Windows Updates settings is the Del
 ![Screenshot of Delivery Optimization node of Group Policy.](../media/desktop2-deliveryoptimization.png)
 
 These are the three nodes for adjusting Windows Update with Group Policy.
-

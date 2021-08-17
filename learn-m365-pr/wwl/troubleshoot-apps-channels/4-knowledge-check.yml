@@ -1,0 +1,62 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.troubleshoot-apps-channels.knowledge-check
+title: Knowledge check
+metadata:
+  title: Knowledge check
+  description: "Knowledge check"
+  ms.date: 08/16/2021
+  author: wwlpublish
+  ms.author: cyncarey
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+durationInMinutes: 5
+content: |
+  [!include[](includes/4-knowledge-check.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "After handling several problems caused by an app, you have decided to stop users installing it in Teams. How can you stop users installing this app?"
+    choices:
+    - content: "Set Allow third-party apps to Off and in the relevant permission policy set Block specific apps and allow all others"
+      isCorrect: false
+      explanation: "That's incorrect. Setting Allow third-party apps to Off will stop users from installing any third-party app."
+    - content: "Set Allow third-party apps to Off and in the relevant permission policy set Allow specific apps and block all others"
+      isCorrect: false
+      explanation: "That's incorrect. Setting Allow third-party apps to Off will stop users from installing any third-party app."
+    - content: "Set Allow third-party apps to On and in the relevant permission policy set Allow specific apps and block all others"
+      isCorrect: true
+      explanation: "That's correct. You can allow and block certain apps in the permission policy providing Set Allow third-party apps is set to On in org-wide settings."
+  - content: "Users are experiencing high volumes of posting in a channel created for a specific purpose. They want to change the channel from public to private. How is this best achieved?"
+    choices:
+    - content: "Delete the channel and recreate it as a private channel"
+      isCorrect: true
+      explanation: "That's correct. You cannot change a channel from public to private once the channel has been created."
+    - content: "In Channel settings, select Private"
+      isCorrect: false
+      explanation: "That's incorrect. Once the channel has been created you cannot change a public channel into a private channel."
+    - content: "In Team settings, select the Channel and select Private"
+      isCorrect: false
+      explanation: "That's incorrect. Once the channel has been created you cannot change a public channel into a private channel."
+  - content: "Your development group have created a marketing app. You want to encourage everyone in marketing to use the app. How should you configure Teams?"
+    choices:
+    - content: "In Teams apps > Setup policies, pin the app to the top of the navigation bar"
+      isCorrect: false
+      explanation: "That's incorrect. If users have not installed the marketing app they will not see it in the Teams navigation bar."
+    - content: "In app setup policies, add the app to be installed based on the marketing permission policy."
+      isCorrect: true
+      explanation: "That's correct. The app is relevant to users assigned to the Marketing app permission policy. Automatically installing the app will encourage its use."
+    - content: "In app setup policies, add the app to be installed based on the Global app permission policy"
+      isCorrect: false
+      explanation: "That's incorrect. The app is only relevant to users assigned to the Marketing app permission policy and should not be added to the Global app permission policy."
+  - content: "A group of users have reported that they are unable to create private channels. Which Teams setting should you check?"
+    choices:
+    - content: "Teams admin center > Teams > Update policies."
+      isCorrect: false
+      explanation: "That's incorrect. Update policies does not determine whether users can create private channels. Update policies determine how users see pre-release or preview features."
+    - content: "Teams admin center > Teams > Manage teams"
+      isCorrect: false
+      explanation: "That's incorrect. Manage teams does not determine whether users can create private channels."
+    - content: "Teams admin center > Teams > Manage policies"
+      isCorrect: true
+      explanation: "That's correct. Teams policies determine whether users can create private channels."

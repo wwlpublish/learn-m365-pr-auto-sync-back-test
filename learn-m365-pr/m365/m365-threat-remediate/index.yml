@@ -3,7 +3,7 @@ uid: learn-m365.m365-threat-remediate
 metadata:
   title: Remediate risks with Microsoft Defender for Office 365
   description: Learn about the Microsoft Defender for Office 365 component of Microsoft 365 Defender.
-  ms.date: 06/24/2020
+  ms.date: 08/05/2021
   author: AlexandraHrt
   ms.author: elizapo
   ms.topic: interactive-tutorial
@@ -12,9 +12,9 @@ title: Remediate risks with Microsoft Defender for Office 365
 summary: Learn about the Microsoft Defender for Office 365 component of Microsoft 365 Defender.
 abstract: |
   In this module, you will learn how to:
-  - Define the capabilities of Microsoft Defender for Endpoint.
+  - Define the capabilities of Microsoft Defender for Office 365.
   - Understand how to simulate attacks within your network.
-  - Explain how Microsoft Defender for Endpoint can remediate risks in your environment.
+  - Explain how Microsoft Defender for Office 365 can remediate risks in your environment.
 
 prerequisites: | 
  - Intermediate understanding of Microsoft 365

@@ -4,11 +4,11 @@ title: Assess your organization's readiness
 metadata:
   title: Assess your organization's readiness
   description: Learn how to tell how ready your organization is to move to a new service.
-  ms.date: 09/06/2019
+  ms.date: 07/15/2021
   author: lizap
   ms.author: elizapo
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-durationInMinutes: 10
+durationInMinutes: 6
 content: |
   [!include[](includes/organizational-readiness.md)]

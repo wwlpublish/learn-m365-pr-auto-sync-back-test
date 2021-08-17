@@ -1,10 +1,10 @@
 ### YamlMime:ModuleUnit
 uid: learn.wwl.explore-power-platform.implement-center-of-excellence-starter-kit
-title: Implement the Power Platform Center of Excellence starter kit
+title: Implement the Microsoft Power Platform Center of Excellence starter kit
 metadata:
-  title: Implement the Power Platform Center of Excellence starter kit
-  description: "Implement the Power Platform Center of Excellence starter kit"
-  ms.date: 04/22/2021
+  title: Implement the Microsoft Power Platform Center of Excellence starter kit
+  description: "Implement the Microsoft Power Platform Center of Excellence starter kit"
+  ms.date: 07/09/2021
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -16,14 +16,14 @@ content: |
 quiz:
   title: "Check your knowledge"
   questions:
-  - content: "As Contoso's Enterprise Administrator, you're interested in implementing the Microsoft Power Platform CoE Starter Kit. You want to use the CoE Starter Kit to help Contoso develop a strategy for adopting and supporting Microsoft Power Platform. Which of the following Power Platform components will the Starter Kit help you focus on?"
+  - content: "As Contoso's Enterprise Administrator, Holly Dickson is interested in implementing the Microsoft Power Platform CoE Starter Kit. Holly wants to use the CoE Starter Kit to help Contoso develop a strategy for adopting and supporting Microsoft Power Platform. Which of the following Microsoft Power Platform components will the Starter Kit help Holly focus on?"
     choices:
     - content: "Power Automate"
       isCorrect: true
       explanation: "That's correct. The focus of the Microsoft Power Platform CoE Starter Kit is on Power Apps and Power Automate."
     - content: "Power BI"
       isCorrect: false
-      explanation: "That's incorrect. This item isn't one of the Power Platform components the Microsoft Power Platform CoE Starter Kit focuses on. Try again."
+      explanation: "That's incorrect. This item isn't one of the Microsoft Power Platform components the Microsoft Power Platform CoE Starter Kit focuses on. Try again."
     - content: "Power Virtual Agents"
       isCorrect: false
-      explanation: "That's incorrect. This item isn't one of the Power Platform components the Microsoft Power Platform CoE Starter Kit focuses on. Try again."
+      explanation: "That's incorrect. This item isn't one of the Microsoft Power Platform components the Microsoft Power Platform CoE Starter Kit focuses on. Try again."

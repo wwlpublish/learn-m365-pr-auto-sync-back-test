@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.troubleshoot-issues-signing-into-microsoft-teams.troubleshoot-external-guest-access
+title: Troubleshoot external and guest access
+metadata:
+  title: Troubleshoot external and guest access
+  description: "Troubleshoot external and guest access"
+  ms.date: 08/16/2021
+  author: wwlpublish
+  ms.author: cyncarey
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+durationInMinutes: 10
+content: |
+  [!include[](includes/6-troubleshoot-external-guest-access.md)]

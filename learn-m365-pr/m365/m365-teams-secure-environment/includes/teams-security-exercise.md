@@ -1,7 +1,8 @@
 Now that you've learned the basics about configuring security in Microsoft Teams, it's time to try it yourself.
 
-In this exercise, you will: 
-- Configure a conditional access policy to require Multi-Factor Authentication (MFA).
+In this exercise, you will:
+
+- Configure a conditional access policy to require multifactor authentication (MFA).
 - Configure threat protection via Microsoft 365 Defender.
 - Use org-wide settings and policies to control who can access Teams.
 

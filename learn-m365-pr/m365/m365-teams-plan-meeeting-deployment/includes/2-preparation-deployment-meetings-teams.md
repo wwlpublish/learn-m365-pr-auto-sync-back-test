@@ -9,12 +9,13 @@ To get the best experience on Teams, your organization must have deployed Exchan
 To scale meetings across your organization, you should ensure that all user locations have internet access to connect to the Microsoft 365 Services.
 
 At a minimum, in addition to normal web traffic, you should make sure that the following common ports and locations are opened, for all locations, for media in Teams:
+
 - TCP ports 80 and 443 outgoing from clients that will use Teams
 - UDP ports 3478 through 3481 outgoing from clients that will use Teams
 - IP address ranges:
-    - 13.107.64.0/18
-    - 52.112.0.0/14
-    - 52.120.0.0/14
+  - 13.107.64.0/18
+  - 52.112.0.0/14
+  - 52.120.0.0/14
 
 ## Evaluate your Network and bandwidth capabilities
 

@@ -1,0 +1,39 @@
+### YamlMime:Module
+uid: learn.wwl.troubleshoot-microsoft-teams-voice-issues
+metadata:
+  title: Troubleshoot Microsoft Teams Voice Issues
+  description: "We will look at how to monitor and troubleshoot audio and video quality issues, together with emergency calling and direct routing issues."
+  ms.date: 08/16/2021
+  author: wwlpublish
+  ms.author: cyncarey
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Troubleshoot Microsoft Teams Voice Issues
+summary: We will look at how to monitor and troubleshoot audio and video quality issues, together with emergency calling and direct routing issues.
+abstract: |
+  After completing this module, you’ll be able to:
+  - Understand and troubleshoot media flow.
+  - Use the Call Quality Dashboard to investigate audio and video issues.
+  - Troubleshoot emergency calling issues.
+  - Troubleshoot direct routing issues.
+prerequisites: |
+  - Experience configuring and administering Microsoft Teams
+  - Experience using Windows PowerShell
+  - Working experience with performance tuning and service monitoring
+iconUrl: /learn/achievements/generic-badge.svg
+levels:
+- advanced
+roles:
+- support-engineer
+products:
+- m365
+- office-teams
+units:
+- learn.wwl.troubleshoot-microsoft-teams-voice-issues.introduction
+- learn.wwl.troubleshoot-microsoft-teams-voice-issues.explore-audio-video-quality-issues
+- learn.wwl.troubleshoot-microsoft-teams-voice-issues.understand-emergency-calling-issues
+- learn.wwl.troubleshoot-microsoft-teams-voice-issues.troubleshoot-direct-routing-issues
+- learn.wwl.troubleshoot-microsoft-teams-voice-issues.knowledge-check
+- learn.wwl.troubleshoot-microsoft-teams-voice-issues.summary
+badge:
+  uid: learn.wwl.troubleshoot-microsoft-teams-voice-issues.badge

@@ -1,4 +1,4 @@
-Because IMAP4 is so widely supported, it’s often an option you can use to import mailboxes from non-Exchange on-premises systems. You should also consider IMAP4 migrations if you have Exchange Server 2000 or earlier. You must prepare a list of mailboxes that you can then import from the source system by using either the Exchange admin center (EAC) or PowerShell.
+Because IMAP4 is so widely supported, it's often an option you can use to import mailboxes from non-Exchange on-premises systems. You should also consider IMAP4 migrations if you have Exchange Server 2000 or earlier. You must prepare a list of mailboxes that you can then import from the source system by using either the Exchange admin center (EAC) or PowerShell.
 
 ## Preparing for the migration
 
@@ -45,7 +45,7 @@ To create and run a migration batch that uses the IMAP protocol, follow these st
 
 ## Executing the migration in PowerShell
 
-If you prefer to use a command-line interface, or you want to include the migration in a script, you can execute a migration batch by using PowerShell. Before you start, make sure you’ve completed the tasks in the **Preparing for the migration** section above.
+If you prefer to use a command-line interface, or you want to include the migration in a script, you can execute a migration batch by using PowerShell. Before you start, make sure you've completed the tasks in the **Preparing for the migration** section above.
 
 To create and start a migration batch, use this command:
 
@@ -55,6 +55,7 @@ New-MigrationBatch -Name IMAPImport
    -CSVData ([System.IO.File]::ReadAllBytes("C:\mailboxes.csv")) 
    -AutoStart
 ```
+
 While the batch is running, you can check its progress by using this command:
 
 ``` PowerShell

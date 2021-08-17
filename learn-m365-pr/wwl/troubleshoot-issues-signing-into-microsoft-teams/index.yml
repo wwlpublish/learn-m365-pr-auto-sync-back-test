@@ -1,0 +1,41 @@
+### YamlMime:Module
+uid: learn.wwl.troubleshoot-issues-signing-into-microsoft-teams
+metadata:
+  title: Troubleshoot issues signing into Microsoft Teams
+  description: "Learn how to troubleshoot account authentication, review sign-in logs, and troubleshoot both member and guest access issues. Learn how to validate network configuration and to configure conditional access policies."
+  ms.date: 08/16/2021
+  author: wwlpublish
+  ms.author: cyncarey
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Troubleshoot issues signing into Microsoft Teams
+summary: Learn how to troubleshoot account authentication, review sign-in logs, and troubleshoot both member and guest access issues. Learn how to validate network configuration and to configure conditional access policies.
+abstract: |
+  After completing this module, you’ll be able to:
+  - Troubleshoot account and network issues.
+  - Troubleshoot member sign-in issues.
+  - Troubleshoot guest access issues.
+prerequisites: |
+  - Experience configuring and administering Microsoft Teams
+  - Experience using Windows PowerShell
+  - Working experience with performance tuning and service monitoring
+iconUrl: /learn/achievements/generic-badge.svg
+levels:
+- advanced
+roles:
+- support-engineer
+products:
+- m365
+- office-teams
+units:
+- learn.wwl.troubleshoot-issues-signing-into-microsoft-teams.introduction
+- learn.wwl.troubleshoot-issues-signing-into-microsoft-teams.validate-network-configuration
+- learn.wwl.troubleshoot-issues-signing-into-microsoft-teams.review-configure-conditional-access
+- learn.wwl.troubleshoot-issues-signing-into-microsoft-teams.troubleshoot-account-issues
+- learn.wwl.troubleshoot-issues-signing-into-microsoft-teams.review-signin-logs
+- learn.wwl.troubleshoot-issues-signing-into-microsoft-teams.troubleshoot-external-guest-access
+- learn.wwl.troubleshoot-issues-signing-into-microsoft-teams.manage-inactive-guest-users
+- learn.wwl.troubleshoot-issues-signing-into-microsoft-teams.knowledge-check
+- learn.wwl.troubleshoot-issues-signing-into-microsoft-teams.summary
+badge:
+  uid: learn.wwl.troubleshoot-issues-signing-into-microsoft-teams.badge

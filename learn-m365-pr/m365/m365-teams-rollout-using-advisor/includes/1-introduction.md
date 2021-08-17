@@ -1,4 +1,4 @@
-Microsoft Advisor for Teams    is a smart planning and onboarding tool that helps you to roll out Teams and helps you plan your Teams deployment in your organization. It brings your project team together to help you plan the best possible Teams deployment in your organization. 
+Microsoft Advisor for Teams is a smart planning and onboarding tool that helps you to roll out Teams and helps you plan your Teams deployment in your organization. It brings your project team together to help you plan the best possible Teams deployment in your organization.
 
 Advisor for Teams gives you a collaboration space and recommended plans that walk you through the deployment of your Teams workloads.
 

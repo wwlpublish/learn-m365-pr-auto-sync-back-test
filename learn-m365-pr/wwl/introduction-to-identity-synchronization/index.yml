@@ -3,15 +3,15 @@ uid: learn.wwl.introduction-to-identity-synchronization
 metadata:
   title: Explore identity synchronization
   description: "Explore identity synchronization"
-  ms.date: 04/15/2021
+  ms.date: 07/12/2021
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Explore identity synchronization
-summary: This module examines identity synchronization using Azure AD Connect and explores the authentication and provisioning options that can be used as well as the inner-workings of directory synchronization.
+summary: This module examines identity synchronization using Azure AD Connect and explores the authentication and provisioning options that can be used and the inner-workings of directory synchronization.
 abstract: |
-  By the end of this module, you will be able to:
+  By the end of this module, you'll be able to:
   - Describe the Microsoft 365 authentication and provisioning options
   - Explain directory synchronization
   - Explain how Azure AD Connect enables coexistence between your on-premises Active Directory environment and Microsoft 365

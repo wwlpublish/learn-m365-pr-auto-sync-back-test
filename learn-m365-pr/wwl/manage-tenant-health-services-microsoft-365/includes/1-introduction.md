@@ -4,8 +4,8 @@ The Microsoft 365 admin center includes a Health page that provides information 
 
 In this module, you'll examine the monitoring features and functionality in Microsoft 365. You'll also be introduced to key concepts related to monitoring Microsoft 365.
 
-After completing this module, you'll be able to: 
+After completing this module, you'll be able to:
 
- *  Monitor your organization's Microsoft 365 service health in the Microsoft 365 admin center
- *  Develop an incident response plan to deal with incidents that may occur with your Microsoft 365 service
- *  Request assistance from Microsoft to address technical, pre-sales, billing, and subscription support issues
+ -  Monitor your organization's Microsoft 365 service health in the Microsoft 365 admin center
+ -  Develop an incident response plan to deal with incidents that may occur with your Microsoft 365 service
+ -  Request assistance from Microsoft to address technical, pre-sales, billing, and subscription support issues

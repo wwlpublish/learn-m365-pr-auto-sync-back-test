@@ -1,6 +1,6 @@
-In today’s cyberthreat environment, security teams are up against a constant flood of incoming risks. But with advanced security analytics, machine learning, and their own intuition, security experts are fighting back with agile, adaptable defense systems. While security teams comb through tens of thousands of cybersecurity alerts-trying to separate legitimate risks from the noise—attacks can slip through the cracks unnoticed and do significant damage.
+In today's cyberthreat environment, security teams are up against a constant flood of incoming risks. But with advanced security analytics, machine learning, and their own intuition, security experts are fighting back with agile, adaptable defense systems. While security teams comb through tens of thousands of cybersecurity alerts-trying to separate legitimate risks from the noise—attacks can slip through the cracks unnoticed and do significant damage.
 
-There’s too much to handle:
+There's too much to handle:
 
 - The average large organization has to sift through 17,000 malware warnings each week.
 - 99 days are the median amount of time for an organization to discover a security breach.
@@ -17,13 +17,13 @@ With Microsoft 365 Defender, security teams can:
 
 - Automatically block attacks and eliminate their persistence to keep them from starting again.
 - Prioritize incidents for investigation and response.
-- Autoheal assets. 
-- Focus unique expertise on cross-domain hunting. 
+- Autoheal assets.
+- Focus unique expertise on cross-domain hunting.
 
 Microsoft 365 Defender suite protects:
 
 - Endpoints with Microsoft Defender for Endpoint - Microsoft Defender for Endpoint is a unified endpoint platform for preventative protection, post-breach detection, automated investigation, and response.
-- Email and collaboration with Microsoft Defender for Office 365 - Microsoft Defender for Office 365 safeguards your organization against malicious threats posed by email messages, links (URLs) and collaboration tools.
+- Email and collaboration with Microsoft Defender for Office 365 - Microsoft Defender for Office 365 safeguards your organization against malicious threats posed by email messages, links (URLs), and collaboration tools.
 - Identities with Microsoft Defender for Identity and Azure Active Directory (AD) Identity Protection - Microsoft Defender for Identity uses Active Directory signals to identify, detect, and investigate advanced threats, compromised identities, and malicious insider actions directed at your organization.
 - Applications with Microsoft Cloud App security - Microsoft Cloud App security is a comprehensive cross-SaaS solution bringing deep visibility, strong data controls, and enhanced threat protection to your cloud apps.
 
@@ -33,7 +33,7 @@ View a [video version](https://www.microsoft.com/videoplayer/embed/RE4GsNW) of t
 
 <a href="https://mslearn.cloudguides.com/guides/Protect%20your%20organization%20with%20Microsoft%20365%20Defender">![Protect your organization with Microsoft 365 Defender](../media/protect-organization-microsoft-defender.png)</a>  
 
-Be sure to click the full-screen option in the video player. When you're done, use the **Back** arrow in your browser to come back to this page. 
+Be sure to click the full-screen option in the video player. When you're done, use the **Back** arrow in your browser to come back to this page.
 
 To dynamically identify new threats, Windows Defender Antivirus (part of Microsoft Defender for Endpoint) works with large sets of interconnected data in the Microsoft Intelligent Security Graph and powerful artificial intelligence (AI) systems driven by advanced machine learning models.
 

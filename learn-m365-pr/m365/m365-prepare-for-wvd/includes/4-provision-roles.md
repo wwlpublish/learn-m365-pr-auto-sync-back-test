@@ -1,4 +1,4 @@
-After you establish your network and directory connections, you can provision the Azure services required for your Azure Virtual Desktop virtual machines (VMs). 
+After you establish your network and directory connections, you can provision the Azure services required for your Azure Virtual Desktop virtual machines (VMs).
 
 ## Create Azure resources
 
@@ -21,7 +21,7 @@ When you go to provision an Azure Virtual Desktop, you can create a new resource
   Consider using Azure Firewall with your virtual network to help you lock down your environment and filter outbound traffic.
 
 - **Storage account** - A storage account in Azure to store virtual disk files used with FSLogix profiles and to synchronize or provision file share services for Azure Virtual Desktop session hosts. You can also use [Azure NetApp Files](/azure/azure-netapp-files/azure-netapp-files-introduction) or [Storage Spaces Direct](/windows-server/storage/storage-spaces/storage-spaces-direct-overview).
-- **Azure accounts** - Administrator, user, and system accounts required to manage services. In large organizations, it's a good idea to assign administrator roles to different people and establish multiple people per role. If you’re just starting out or you have a small IT department, these can be the same person.  
+- **Azure accounts** - Administrator, user, and system accounts required to manage services. In large organizations, it's a good idea to assign administrator roles to different people and establish multiple people per role. If you're just starting out or you have a small IT department, these can be the same person.  
 
 To learn how to create these resources, see the learn more section at the end of this module.
 
@@ -41,4 +41,4 @@ If you created your Azure Active Directory tenant or are using a Visual Studio s
 
 ## Assign licenses to Azure Virtual Desktop users
 
-The final step in managing your user accounts and access is to make sure your initial Azure Virtual Desktop users are licensed. You can assign licenses to users in the **Users** area of the Microsoft 365 admin portal, or you can script it using the Azure Active Directory PowerShell module. 
+The final step in managing your user accounts and access is to make sure your initial Azure Virtual Desktop users are licensed. You can assign licenses to users in the **Users** area of the Microsoft 365 admin portal, or you can script it using the Azure Active Directory PowerShell module.

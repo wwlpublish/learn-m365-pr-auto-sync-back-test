@@ -1,6 +1,7 @@
-Now that you've learned the basics for creating and customizng DLP policies, it's time to configure your own. 
+Now that you've learned the basics for creating and customizng DLP policies, it's time to configure your own.
 
-In this exercise, you will 
+In this exercise, you will:
+
 - Add Microsoft Teams to an existing DLP policy.
 - Create a new policy based on a template.
 - Create a new custom policy (without using a template).

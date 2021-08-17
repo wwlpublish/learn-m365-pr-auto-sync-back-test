@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-m365-pr.strengthen-your-security-posture.improve-security-posture-reduce-risk
+title: Improve your security posture and reduce risk
+metadata:
+  unitType: learning-content
+  title: Improve your security posture and reduce risk
+  description: Learn about how to strengthen your security posture and reduce risk.
+  ms.date: 07/15/2021
+  author: iankensey
+  ms.author: beccarobins
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 6
+content: |
+  [!include[](includes/improve-security-posture-reduce-risk.md)]

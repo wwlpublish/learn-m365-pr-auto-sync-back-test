@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-m365-pr.bringing-all-together-engaging-virtual-events.attend-virtual-event
+title: Understand and optimize the attendee experience
+metadata:
+  unitType: learning-content
+  title: Understand and optimize the attendee experience
+  description: Learn how to get the most from attending a meeting or live event in Teams.
+  ms.date: 07/20/2021
+  author: lizap
+  ms.author: elizapo
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 3
+content: |
+  [!include[](includes/attend-virtual-event.md)] 

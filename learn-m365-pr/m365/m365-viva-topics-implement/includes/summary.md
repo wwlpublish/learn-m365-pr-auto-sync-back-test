@@ -1,9 +1,10 @@
-Business drivers determined how you want to use Viva Topics in your organization before you can launch Viva Topics in five steps. Consider end-user experiences for a successful adoption of Viva Topics for each role with scenarios.  
+Business drivers determined how you want to use Viva Topics in your organization before you can launch Viva Topics in five steps. Consider end-user experiences for a successful adoption of Viva Topics for each role with scenarios.
 
-You have learned about the security and privacy best practices for Knowledge administrators and Knowledge managers. You also learned what each user sees in Topics and how sensitivity labels can be used. 
+You have learned about the security and privacy best practices for Knowledge administrators and Knowledge managers. You also learned what each user sees in Topics and how sensitivity labels can be used.
 
-Now that you've finished this module, you've learned about: 
-- Launch Viva Topics in five steps 
+Now that you've finished this module, you've learned about:
+
+- Launch Viva Topics in five steps
 - Discover scenarios for Viva Topics  
 - Establish security & privacy settings  
 - Test your pilot for Viva Topics

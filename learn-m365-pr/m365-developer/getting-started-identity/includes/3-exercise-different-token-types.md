@@ -2,6 +2,9 @@ In this exercise, you'll create an Azure AD application and single page applicat
 
 ## Create a Node.js web application
 
+> [!NOTE]
+> The instructions below assume you are using v2.14.2 of the Microsoft Authentication Library for JavaScript 2.0.
+
 Open your command prompt, navigate to a directory where you want to save your work, create a new folder, and change directory into that folder.
 
 Execute the following command to create a new Node.js application:

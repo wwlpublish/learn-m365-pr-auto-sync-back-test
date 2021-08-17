@@ -13,7 +13,7 @@ There are two mandatory PowerShell modules needed to create a resource account. 
 
    In this example, you can see there are 25 Meeting Room licenses and 19 of them have been consumed (or assigned). This means there are six licenses available to assign to resource accounts.
 
-   When creating accounts via PowerShell, it is advantageous to use variables to store values. Throughout these following cmdlets, you'll re-use the same values several times. Storing these values in a variable will make these commands easier to run successfully. It also sets the stage for writing your own script if you need to create many resource accounts at once.
+   When creating accounts via PowerShell, it is advantageous to use variables to store values. Throughout these following cmdlets, you'll reuse the same values several times. Storing these values in a variable will make these commands easier to run successfully. It also sets the stage for writing your own script if you need to create many resource accounts at once.
 
 3. Create a few variables (in this case) like account UPN, mailbox name, mailbox alias, and password.
 
@@ -69,7 +69,7 @@ There are two mandatory PowerShell modules needed to create a resource account. 
 
    - After identifying the account that was created in the previous command, the `AutomateProcessing` parameter is set to `AutoAccept`. This tells the resource account to automatically process meeting invites instead of waiting for human intervention.  
    - `AddOrganizerToSubject` is set to `$false`.  That means when the meeting is shown on the center of table console, it will only show the meeting name and not *both* the organizer and meeting name. For example, it will display "Weekly Status Meeting" instead of "Sara Perez Weekly Status Meeting."
-   - The `DeleteComments` parameter is set to `$false`. This means the body of the e-mail will not be deleted. This parameter is required to be false when using 3rd party guest join (e.g., being able to join Cisco or Zoom meetings via Teams Rooms).
+   - The `DeleteComments` parameter is set to `$false`. This means the body of the e-mail will not be deleted. This parameter is required to be false when using third-party guest join (for example, being able to join Cisco or Zoom meetings via Teams Rooms).
    - You can choose to delete the Subject of the meeting invite using the `DeleteSubject` parameter. Then the meetings on Teams Rooms will be called by the name of the meeting organizer, such as "Sara Perez." This is a security feature to prevent someone from walking through a restricted area and seeing meeting subjects that might leak information, such as "Meeting About Acquisition of Tailspin Toys." If you enable deleting the subject, the meeting title would be "Sara Perez Meeting" and you would have no idea what the meeting is about.
 
 6. If the meeting is flagged as private, set `RemovePrivateProperty` to `$false`.

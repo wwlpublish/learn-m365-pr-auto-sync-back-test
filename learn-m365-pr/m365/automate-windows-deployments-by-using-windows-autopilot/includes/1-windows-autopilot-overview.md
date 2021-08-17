@@ -3,9 +3,7 @@
 In this module, you will learn to:
 
 - Describe the benefits of Windows Autopilot to IT organizations.
-
 - Define the different methods of deploying Windows 10 via Autopilot.
-
 - Explain the different administration options for device configuration.
 
 **Windows Autopilot** offers a zero-touch, self-service Windows deployment platform introduced with Windows 10, version 1703. The Windows Autopilot process runs immediately after powering on a new computer for the first time, enabling employees to configure new devices to be business-ready with just a few clicks.
@@ -23,13 +21,9 @@ Windows Autopilot is designed to simplify all parts of the lifecycle of Windows 
 Windows Autopilot enables you to:
 
 - Automatically join devices to **Azure Active Directory (Azure AD)** or **Active Directory** (via Hybrid Azure AD Join).
-
 - Auto-enroll devices into MDM services, such as **Microsoft Intune**.
-
 - Restrict the Administrator account creation.
-
 - Create and auto-assign devices to configuration groups based on a device's profile.
-
 - Customize Out-of-box-experience (OOBE) content specific to the organization.
 
 ## Benefits of Windows Autopilot

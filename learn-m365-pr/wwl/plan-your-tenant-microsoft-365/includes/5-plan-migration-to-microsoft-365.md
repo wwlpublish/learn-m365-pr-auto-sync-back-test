@@ -17,7 +17,7 @@ The overall process for creating a tenant account for Microsoft 365 includes:
 8.  **Validate functionality.** Ensure all relevant services are functional.
 9.  **Migrate users over a period of time.** You have options for a migration if you don’t want to move everybody over at once. You can periodically move groups of users to Microsoft 365 and maintain a hybrid environment until such time as all users are migrated.
 
-As mentioned in a previous topic, errors in the sign-up process commonly result from organizations selecting the wrong Microsoft 365 subscription for the size of their business. At present, you can't change to different product families, such as from the Business plan to the Enterprise plan. Therefore, it's important that organizations perform their due diligence when determining which plan best fits their business needs.
+As mentioned in a previous unit, errors in the sign-up process commonly result from organizations selecting the wrong Microsoft 365 subscription for the size of their business. Organizations currently can't change to different product families, such as from the Business plan to the Enterprise plan. Therefore, it's important that organizations perform their due diligence when determining which plan best fits their business needs.
 
 The process for provisioning Microsoft 365 Education, Government, and Nonprofit plans is different and outside the scope of this training. This training assumes that you're selecting either the Office 365 E3 or E5 subscription, but the information provided here can be used for other subscription levels.
 

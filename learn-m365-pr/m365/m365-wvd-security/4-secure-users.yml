@@ -4,7 +4,7 @@ title: Secure the user identity that accesses the Azure Virtual Desktop environm
 metadata:
   title: Secure the user identity that accesses the Azure Virtual Desktop environment
   description: Learn how to increase the security of Azure Virtual Desktop deployment with identity controls.
-  ms.date:  01/15/2021
+  ms.date: 06/18/2021
   author: ndelgado
   ms.author: nedelgad
   ms.topic: interactive-tutorial

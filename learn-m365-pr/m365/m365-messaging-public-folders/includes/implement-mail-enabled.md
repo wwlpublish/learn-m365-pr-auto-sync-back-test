@@ -1,4 +1,4 @@
-Now that you’ve created public folder mailboxes for the organization, you can start adding public folders. Public folders store shared information but become more powerful if they are mail-enabled. When a public folder has an email address, users can forward or send emails directly to it. You can also choose to allow users outside your company to send emails directly to these public folders.
+Now that you've created public folder mailboxes for the organization, you can start adding public folders. Public folders store shared information but become more powerful if they are mail-enabled. When a public folder has an email address, users can forward or send emails directly to it. You can also choose to allow users outside your company to send emails directly to these public folders.
 
 ## Mail-enable public folders using the EAC
 
@@ -14,7 +14,7 @@ Now that you’ve created public folder mailboxes for the organization, you can 
 
    ![Create a new public folder](../media/create-new-public-folder.png)
 
-   In the information pane on the right, note that Mail settings is disabled.
+   In the information pane on the right, Mail settings is disabled.
 
 5. Select the **Enable** link underneath.
 6. In the Warning dialog, select **Yes**.
@@ -58,7 +58,7 @@ For example, to change a public folder named General's email address from genera
 Set-MailPublicFolder -Identity General -PrimarySmtpAddress HelpDesk@clothingretailer.onmicrosoft.com -EmailAddressPolicyEnabled $false
 ```
 
-## Change who can send ‘on behalf’ and have emails ‘forwarded to’ for public folders using the EAC
+## Change who can send ‘on behalf' and have emails ‘forwarded to' for public folders using the EAC
 
 You control how mail is sent and received for the mail-enabled folders. The options to change these are in the same place as the settings to add new email addresses.
 
@@ -70,7 +70,7 @@ You control how mail is sent and received for the mail-enabled folders. The opti
 
 On this pane, you can add users to enable them to **Send As**, **Send on Behalf**, or choose users to have emails forwarded to.
 
-## Change who can send ‘on behalf’ and have emails ‘forwarded to’ for public folders using remote PowerShell
+## Change who can send ‘on behalf' and have emails ‘forwarded to' for public folders using remote PowerShell
 
 As described earlier, the **Set-MailPublicFolder** PowerShell command allows you to also control who can Send As and Send on Behalf.
 For example, to allow a user named User1 to send on behalf of a public folder named General, use this command:
@@ -94,6 +94,7 @@ To enable a public folder that's mail-enabled to receive emails from outside you
 ```powershell
 Add-PublicFolderClientPermission "\General" -AccessRights CreateItems -User Anonymous
 ```
+
 Running this command will return:
 
 ```powershell

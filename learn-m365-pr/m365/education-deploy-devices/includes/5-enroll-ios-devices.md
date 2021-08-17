@@ -31,7 +31,7 @@ To allow Microsoft Intune to synchronize with the Apple School Manager (ASM) por
 
 ### Download the Intune public key certificate
 
-This is required to create the token.  You'll go to the Microsoft Endpoint Manager admin center, where you'll need to select iOS.iPadOS enrollment.  Next, choose the enrollment program; you'll need to give Microsoft permission to send user and device information to Apple. 
+This is required to create the token.  You'll go to the Microsoft Endpoint Manager admin center, where you'll need to select iOS.iPadOS enrollment.  Next, choose the enrollment program; you'll need to give Microsoft permission to send user and device information to Apple.
 
 Once you give consent, you'll be able to download your public encryption key (.pem). The .pem file will be used to request a trust-relationship certificate from Apple.
 

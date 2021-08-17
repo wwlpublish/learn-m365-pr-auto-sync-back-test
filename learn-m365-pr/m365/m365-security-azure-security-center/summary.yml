@@ -4,11 +4,11 @@ title: Summary
 metadata:
   title: Review what you learned about Azure security center
   description: Summary
-  ms.date: 09/08/2020
+  ms.date: 07/15/2021
   ms.author: elizapo
   author: iankensey
   ms.topic: interactive-tutorial
   ms.prod: learning-teams
-durationInMinutes: 2
+durationInMinutes: 1
 content: |
   [!include[](includes/summary.md)]

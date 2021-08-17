@@ -70,7 +70,7 @@ As such, three possible Emergency calling plans will be used:
 
 ### Calling Plan user in the United States
 
-In the United States, the phone number needs to be associated with the caller’s emergency location. Based on this requirement, Contoso has decided to associate the location with the telephone number. Dynamic emergency calling for Teams Calling Plans provides the capability to configure and route emergency calls based on the current location of the Teams client. The ability to do automatic routing to the appropriate Public Safety Answering Point (PSAP) or to notify security desk personnel varies depending on the country of usage of the Teams user.
+In the United States, the phone number needs to be associated with the caller's emergency location. Based on this requirement, Contoso has decided to associate the location with the telephone number. Dynamic emergency calling for Teams Calling Plans provides the capability to configure and route emergency calls based on the current location of the Teams client. The ability to do automatic routing to the appropriate Public Safety Answering Point (PSAP) or to notify security desk personnel varies depending on the country of usage of the Teams user.
 
 For Calling Plan users, dynamic location for routing emergency calls is only supported in the United States as follows:
 

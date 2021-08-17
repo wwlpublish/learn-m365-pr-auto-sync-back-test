@@ -9,7 +9,7 @@ Migration endpoints store all the information that Exchange Online needs to conn
 
 Migration endpoints come in different types. Choose the type based on the source of the mailboxes:
 
-- **Exchange Remote**. Use Exchange Remote endpoints to migrate mailboxes from on-premises Exchange Servers when you have set up a hybrid environment. 
+- **Exchange Remote**. Use Exchange Remote endpoints to migrate mailboxes from on-premises Exchange Servers when you have set up a hybrid environment.
 - **Outlook Anywhere**. Use Outlook Anywhere endpoints for cutover and staged migrations, where you have no hybrid environment set up with your on-premises Exchange servers.
 - **IMAP**. Use IMAP endpoints to migrate from non-Exchange email systems that support IMAP or to import from Exchange Server 2000 or earlier.
 
@@ -52,7 +52,7 @@ New-MigrationEndpoint -ExchangeOutlookAnywhere
 
 ## Verify the connection by using Azure PowerShell
 
-It’s good practice to test a migration endpoint before you initiate a migration batch. The test checks to see if the remote server is available and communicative. You can perform such a test by using the **Test-MigrationServerAvailability** cmdlet in the Exchange Online PowerShell. In this example, the command tests an endpoint named endpoint.contoso.com: 
+It's good practice to test a migration endpoint before you initiate a migration batch. The test checks to see if the remote server is available and communicative. You can perform such a test by using the **Test-MigrationServerAvailability** cmdlet in the Exchange Online PowerShell. In this example, the command tests an endpoint named endpoint.contoso.com:
 
 ```powershell
 Test-MigrationServerAvailability -Endpoint endpoint.contoso.com

@@ -1,8 +1,8 @@
-SharePoint is a Microsoft 365 service that enables sharing and collaboration across your organization. With Microsoft 365, you can create a secure and productive collaboration environment for your users. SharePoint powers much of this, but collaboration in Microsoft 365 reaches far beyond the traditional SharePoint site. Microsoft Teams, OneDrive, and a variety of governance and security options all play a role in creating a rich environment where users can collaborate easily, and your organization's sensitive content remains secure.
+SharePoint is a Microsoft 365 service that enables sharing and collaboration across your organization. With Microsoft 365, you can create a secure and productive collaboration environment for your users. SharePoint powers much of this, but collaboration in Microsoft 365 reaches far beyond the traditional SharePoint site. Microsoft Teams, OneDrive, and various governance and security options all play a role in creating a rich environment where users can collaborate easily, and your organization's sensitive content remains secure.
 
 ## SharePoint and Microsoft 365 Groups
 
-In SharePoint, each team site is part of a Microsoft 365 Group by default. a Microsoft 365 Group is a single permissions group that is associated with a variety of Microsoft 365 services, including a SharePoint site, an instance of Planner, a mailbox, and a shared calendar. When you add owners or members to the Microsoft 365 Group, they are given access to the SharePoint site along with the other connected services.
+In SharePoint, each team site is part of a Microsoft 365 Group by default. A Microsoft 365 Group is a single permissions group associated with several Microsoft 365 services, including a SharePoint site, an instance of Planner, a mailbox, and a shared calendar. When you add owners or members to the Microsoft 365 Group, they are given access to the SharePoint site along with the other connected services.
 
 ## SharePoint and Microsoft Teams
 
@@ -18,7 +18,7 @@ Team sites are collaboration sites for each project team, department, and divisi
 
 ### Communication sites
 
-Communication sites are designed to broadcast information to other teams or to an entire organization. Much like a team site, a communication site is a SharePoint site that anyone in the organization can create from the SharePoint start page.  A variety of site template options are available, including:
+Communication sites are designed to broadcast information to other teams or to an entire organization. Much like a team site, a communication site is a SharePoint site that anyone in the organization can create from the SharePoint start page.  Many site template options are available, including:
 
 - Topic:   To share information such as news, events, and other content
 - Showcase:  Use photos or images to showcase a product, team, or event
@@ -34,14 +34,13 @@ SharePoint hub sites are used to organize families of team sites and communicati
 - Apply common navigation, branding, and site structure across associated sites.
 - Search across all associated sites.
 
-See the module **Understand your SharePoint site options** for more information about hub sites.
-
 ## Information protection
 
-Microsoft 365 services such as Data Loss Protection, Cloud App Security, and Microsoft Defender for Office 365 provide additional methods for keeping your SharePoint data safe and allowing for secure collaboration with other users in your organization and with guests.
+Microsoft 365 services such as Data Loss Protection, Cloud App Security, and Microsoft Defender for Office 365 provide more methods for keeping your SharePoint data safe and allowing for secure collaboration with other users in your organization and with guests.
 
 ## Learn more
 
 When you're done with a link, use the **Back** arrow in your browser to come back to this page.
 
 - [Introduction to SharePoint Online](/sharepoint/introduction)
+- [Understand your SharePoint site options](/learn/modules/m365-teams-sharepoint-plan-site-architecture/)

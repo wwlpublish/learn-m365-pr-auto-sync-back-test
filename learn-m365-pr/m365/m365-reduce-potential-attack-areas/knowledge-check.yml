@@ -1,0 +1,50 @@
+### YamlMime:ModuleUnit
+uid: learn-m365-pr.reduce-potential-attack-areas-with-microsoft-defender-for-endpoint.knowledge-check
+title: Knowledge check
+metadata:
+  unitType: knowledge_check
+  title: Knowledge check
+  description: Check your knowledge of attack surface reduction techniques in Microsoft Defender for Endpoint.
+  ms.date: 07/16/2021
+  author: alistairmatthews
+  ms.author: beccarobins
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 3
+content: |
+quiz:
+  title: Check your knowledge
+  questions:
+  - content: "You want your users to only be able to run applications that are trusted. What will you use?"
+    choices:
+    - content: "Application control"
+      isCorrect: true
+      explanation: "That's correct. With application control, you can ensure your users only run apps that are safe."
+    - content: "Controlled folder access"
+      isCorrect: false
+      explanation: "That's incorrect. This technology won't enable you to prevent your users from running unsafe apps."
+    - content: "Hardware-based isolation"
+      isCorrect: false
+      explanation: "That's incorrect. This technology won't enable you to prevent your users from running unsafe apps."
+  - content: "You want to ensure that users of Chrome, Microsoft Edge, and a custom app that your company uses cannot access a specific custom domain on the internet. Which attack surface reduction capability should you use?"
+    choices:
+    - content: "Network protection"
+      isCorrect: true
+      explanation: "That's correct. Network protection rules can prevent access to a network address, regardless of the client software that is used."
+    - content: "Hardware-based isolation"
+      isCorrect: false
+      explanation: "That's incorrect. Hardware-based isolation rules don't block access to a domain and can only be applied to Microsoft Edge or Microsoft Office applications."
+    - content: "Web protection"
+      isCorrect: false
+      explanation: "That's incorrect. Web protection can be applied to web browsers but not custom apps."
+  - content: "When an attack surface reduction rule triggers, you want to record the event for later analysis but permit that action to continue without prompting the user. What mode should you configure?"
+    choices:
+    - content: "Block mode"
+      isCorrect: false
+      explanation: "That's incorrect. In block mode, the action that triggered the rule is not permitted."
+    - content: "Warn mode"
+      isCorrect: false
+      explanation: "That's incorrect. In warn mode, the action is blocked although the user sees a prompt and can choose to continue with it."
+    - content: "Audit mode"
+      isCorrect: true
+      explanation: "That's correct. In audit mode, the event is logged but the action is permitted to continue."

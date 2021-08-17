@@ -1,0 +1,41 @@
+### YamlMime:Module
+uid: learn-m365.syntex-document-understanding
+metadata:
+  title: Create and apply a document understanding model
+  description: Learn to create and apply a document understanding model, prepare a training set, build a classifier model, train a classifier, and apply the model to a library.
+  ms.date: 07/27/2021
+  author: beccarobins
+  ms.author: beccarobins
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Create and apply a document understanding model
+summary: Learn to create and apply a document understanding model, prepare a training set, build a classifier model, train a classifier, and apply the model to a library.
+abstract: |
+ After completing this module, you will be able to:  
+ - Create a document understanding model. 
+ - Train a document understanding model. 
+ - Create an extractor. 
+ - Apply a document understanding model to a SharePoint library. 
+prerequisites: | 
+   - Basic understanding of SharePoint Syntex  
+   - SharePoint Syntex setup 
+iconUrl:  /learn/achievements/generic-badge.svg
+ratingEnabled: true
+levels:
+- beginner
+roles:
+- administrator
+- business-user
+products:
+- m365
+units:
+- learn-m365.syntex-document-understanding.introduction
+- learn-m365.syntex-document-understanding.create-model
+- learn-m365.syntex-document-understanding.train-model
+- learn-m365.syntex-document-understanding.create-extractor
+- learn-m365.syntex-document-understanding.apply-model
+- learn-m365.syntex-document-understanding.knowledge-check
+- learn-m365.syntex-document-understanding.summary
+
+badge: 
+  uid: learn-m365.syntex-document-understanding.badges

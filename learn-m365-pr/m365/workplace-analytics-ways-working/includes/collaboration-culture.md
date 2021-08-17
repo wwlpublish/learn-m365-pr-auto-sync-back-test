@@ -43,7 +43,7 @@ High levels of collaboration coupled with high after-hours collaboration can ind
 
 ## Report: How does the organization spend its meeting time?
 
-The *Meeting culture* report gives insight into how an organization spends time in meetings by breaking them down into categories defined by meeting size and duration. This report shows how much meeting time is consumed by large and/or long meetings as well as what proportion of the most “expensive” meetings (in terms of attendee hours) are recurring.
+The *Meeting culture* report gives insight into how an organization spends time in meetings by breaking them down into categories defined by meeting size and duration. This report shows how much meeting time is consumed by large and/or long meetings as well as what proportion of the most "expensive" meetings (in terms of attendee hours) are recurring.
 
 - The chart on the left shows the percentage of total meeting hours spent in each meeting type. Meeting types include All hands, Bloated, Lengthy and Workshop meetings, and are created using the number of attendees and duration.
 - Above and to the right of the meeting type chart, the report shows the total number of hours spent in long or large meetings annually, and for comparison, the number of equivalent full-time employees (FTEs) that would work the same number of hours.
@@ -62,8 +62,8 @@ The *Generated workload* report helps organizations understand the source of mee
 > [!NOTE]
 > Generated workload meeting hours are the number of meeting hours an employee created for internal attendees by organizing meetings.
 
-- The drop-down menu on the top allows you to play with the “prevalence of top X% meeting generators.” In the example here, the slider is set to 20%, meaning that 20% of the employees generate 76% of the meeting workload in the organization.
-- The chart on the left shows the distribution of employees by Generated workload meeting hours, e.g., 50% of employees generate 97% of meeting hours.
+- The drop-down menu on the top allows you to play with the "prevalence of top X% meeting generators." In the example here, the slider is set to 20%, meaning that 20% of the employees generate 76% of the meeting workload in the organization.
+- The chart on the left shows the distribution of employees by Generated workload meeting hours, for example, 50% of employees generate 97% of meeting hours.
 - The charts on the right display the percentage of top meeting generators—as defined by the slider—by Organization and by Supervisor Indicator. In the example here, Product Management and Program Management have the highest representation of meeting generators, at 53% and 50%, respectively.
 
 ![ Who in the organization is generating the most workload report](../media/generate-most-workload.png)
@@ -120,7 +120,7 @@ The *Manager relationship* report provides a view of managerial behaviors in ter
   - Coattending: employees who have managers who seldom meet with them one-on-one but frequently co-attend in meetings.
   - Undercoached: employees who have managers who seldom meet with them one-on-one and seldom co-attend in meetings.
 
-- In the example here, only 13% of employees throughout the organization have a “coaching” relationship with their managers. These employees have sufficient one-on-one time with their managers and are empowered to operate autonomously in most of their meetings.
+- In the example here, only 13% of employees throughout the organization have a "coaching" relationship with their managers. These employees have sufficient one-on-one time with their managers and are empowered to operate autonomously in most of their meetings.
 
 - The chart on the right shows the percentage of employees in each of these manager relationship categories by group. In the example here, Strategy has the highest proportion of employees with a coaching relationship on the team, but at 41% there is still significant room left for improvement.
 

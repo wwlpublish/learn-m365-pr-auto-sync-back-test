@@ -1,10 +1,10 @@
 In this unit you'll look at the envision phase in more detail, you'll gather your team together, and use Teams itself to begin planning Teams adoption. This approach will increase your technical familiarity with the product and help you to build the skills necessary to successfully complete later phases.
 
-At this stage in the roll out project, you need to identify the people who will make up your team and the roles they should be assigned.
+At this stage in the rollout project, you need to identify the people who will make up your team and the roles they should be assigned.
 
 ## Adoption prerequisites
 
-Before getting started an administrator should ensure that:
+Before getting started, an administrator should ensure that:
 
 - *Teams is installed* and *licenses are assigned* in your environment. At a minimum, licenses should be assigned to your core team and to the early adopters participating in this initial project phase.
 - Desktop and mobile applications are downloaded.
@@ -25,7 +25,7 @@ No matter how large or small your organization, you'll want to bring together a 
 | Communication Lead              | Oversee company-wide communications about Teams.                                                                     | Corporate Communications, IT, or other |
 | Community Manager               | Manage day-to-day Yammer network activity. Provide guidance and best practices.                                      | Multiple departments                   |
 
-It's important that you and the rest of the roll out project team commit to using Teams chat, channels, and resources to manage the roll out project. By modeling the behavior you want the rest of your company to embrace, you increase the likelihood of successful adoption by the rest of the company. Set the tone, go first, and enjoy having your project information all in one place.
+It's important that you and the rest of the rollout project team commit to using Teams chat, channels, and resources to manage the roll out project. By modeling the behavior you want the rest of your company to embrace, you increase the likelihood of successful adoption by the rest of the company. Set the tone, go first, and enjoy having your project information all in one place.
 
 ### Identify your stakeholders
 
@@ -34,7 +34,7 @@ List the core stakeholders and business leaders in your organization. This helps
 - Is this person friendly to new technology?
 - How would you rate what this person's satisfaction with your current technology is?
 - Is this person under a high degree of pressure to deliver key business results?
-- Will this person be willing to evangelize his/her experience with Teams to assist in the transition?
+- Will this person be willing to evangelize his/her experience with Teams to help the transition?
 - Does this person have a positive relationship with key members of the existing project team?
 - Does this person like to be viewed as an "agent of change" within the organization?
 
@@ -65,12 +65,12 @@ Once you've identified likely candidates, consider asking them to join Microsoft
 
 ## Define the roll-out strategy
 
-Many projects across your company would likely lend themselves to being migrated to Teams. One of these projects could be used as a Teams pilot. In addition, leaders or divisions inside of an organization might want a dedicated pilot for their own people. You'll make use of the stakeholder analysis you've done to choose appropriate teams or pilot projects for the later stages of the roll out. Consider the organizational and project models shown in the following illustration below:
+Many projects across your company would likely lend themselves to being migrated to Teams. One of these projects could be used as a Teams pilot. In addition, leaders or divisions inside of an organization might want a dedicated pilot for their own people. You'll make use of the stakeholder analysis you've done to choose appropriate teams or pilot projects for the later stages of the rollout. Consider the organizational and project models shown in the following illustration below:
 
 :::image type="content" border="false" source="../media/3-organizational-and-project-model.png" alt-text="Organizational and Project Models" lightbox="../media/3-organizational-and-project-model.png":::
 
 In an organizational team (shown on the left side of the image above), key information about the way that organization runs its business, team events, core strategies, and other operational information, such as business reviews, might be shared. For the team shown on the right, the district's information is broken down into channels that represent the categories of work that are being accomplished by that team. Members of this team may or may not report to the same person, but they are all engaged in driving the results for the district.
-Thinking in these terms, you can shape the roll out strategy to focus on a mixture of models. Which departments make a good candidate for using Teams first? Likewise, are there any ideal projects that would be able to handle a move to Teams without impacting their delivery?
+Thinking in these terms, you can shape the rollout strategy to focus on a mixture of models. Which departments make a good candidate for using Teams first? Likewise, are there any ideal projects that would be able to handle a move to Teams without impacting their delivery?
 
 You'll work more on the structure of your teams in phase 2 of your implementation.
 

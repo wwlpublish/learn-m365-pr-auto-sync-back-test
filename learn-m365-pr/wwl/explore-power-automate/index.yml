@@ -1,14 +1,14 @@
 ### YamlMime:Module
 uid: learn.wwl.explore-power-automate
 metadata:
-  title: Explore Power Automate
-  description: "Explore Power Automate"
-  ms.date: 04/23/2021
+  title: Create flows as a Microsoft 365 Enterprise Administrator with Power Automate
+  description: "Create flows as a Microsoft 365 Enterprise Administrator with Power Automate"
+  ms.date: 07/09/2021
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-title: Explore Power Automate
+title: Create flows as a Microsoft 365 Enterprise Administrator with Power Automate
 summary: This module examines the key features of Power Platform and provides instruction on how to administer Power Platform flows, connect flows to data sources, and create and run flows.
 abstract: |
   This module examines the key features of Power Platform and provides instruction on how to administer Power Platform flows, connect flows to data sources, and create and run flows.	&quot;By the end of this module, you will be able to:

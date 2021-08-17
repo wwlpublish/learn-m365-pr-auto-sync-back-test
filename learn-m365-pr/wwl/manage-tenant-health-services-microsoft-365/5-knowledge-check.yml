@@ -4,7 +4,7 @@ title: Knowledge check
 metadata:
   title: Knowledge check
   description: "Knowledge check"
-  ms.date: 05/17/2021
+  ms.date: 07/01/2021
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -34,10 +34,10 @@ quiz:
       explanation: "That's correct. This step determines whether the service group has set a specific timeframe on when they expect the service to be in a non-degraded state. If no timeline has been set for the incident, you can submit a service request to see if there's an opening on the timeline. You should have the incident number ready and added to the service request to speed up the resolution time."
     - content: "Gather and validate information related to specific service requests"
       isCorrect: false
-      explanation: "That's incorrect. This isn't related to incident response plans. This is one of Microsoft's responsibilities when a company requests technical assistance from Microsoft. Try again."
+      explanation: "That's incorrect. This step isn't related to incident response plans. This is one of Microsoft's responsibilities when a company requests technical assistance from Microsoft. Try again."
     - content: "Troubleshoot and provide technical guidance for customer issues and escalations"
       isCorrect: false
-      explanation: "That's incorrect. This isn't related to incident response plans. This is one of Microsoft's responsibilities when a company requests technical assistance from Microsoft. Try again."
+      explanation: "That's incorrect. This step isn't related to incident response plans. This item is one of Microsoft's responsibilities when a company requests technical assistance from Microsoft. Try again."
   - content: "When monitoring your service health, what status indicates a service isn't functioning, and users can't access the service?"
     choices:
     - content: "Investigating"

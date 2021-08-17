@@ -1,0 +1,57 @@
+### YamlMime:Module
+uid: learn-m365-pr.combine-external-applications-customized-productions
+metadata:
+  moduleType: standard
+  title: Combine external applications for more customized productions with Microsoft 365
+  description: | 
+    Learn how to create professional and engaging presentations for large audiences in Microsoft Teams.
+  ms.date: 07/06/2021
+  author: lizap
+  ms.author: elizapo
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Combine external applications for more customized productions with Microsoft 365
+summary:  | 
+    Learn how to create professional and engaging presentations for large audiences in Microsoft Teams.
+
+    This module includes content useful for event organizers, producers, presenters, and moderators.
+
+    :::row:::
+        :::column:::
+            :::image type="content" source="../m365-introduction-deliver-virtual-events-using-microsoft-teams/media/organizer-small.png" alt-text="Icon depicting the Organizer role." border="false":::
+        :::column-end:::
+        :::column:::
+            :::image type="content" source="../m365-introduction-deliver-virtual-events-using-microsoft-teams/media/producer-small.png" alt-text="Icon depicting the Producer role." border="false":::
+        :::column-end:::
+        :::column:::
+            :::image type="content" source="../m365-introduction-deliver-virtual-events-using-microsoft-teams/media/presenter-small.png" alt-text="Icon depicting the Presenter role." border="false":::
+        :::column-end:::
+        :::column:::
+            :::image type="content" source="../m365-introduction-deliver-virtual-events-using-microsoft-teams/media/moderator-small.png" alt-text="Icon depicting the Moderator role." border="false":::
+        :::column-end:::
+    :::row-end:::
+abstract: |
+  By the end of this module, you'll be able to:
+    - Combine video streams from Teams with other video sources using NDI.
+    - Create events with large audiences by using Teams live events.
+    - Create high quality and engaging audio content for your online events.
+prerequisites: |
+  - General understanding of virtual events, Microsoft Teams, an accessibility requirements
+iconUrl: /learn/achievements/generic-badge.svg
+levels:
+  - beginner
+roles:
+  - business-user
+  - administrator
+products:
+  - office-teams
+  - office-yammer
+units:
+- learn-m365-pr.combine-external-applications-customized-productions.introduction
+- learn-m365-pr.combine-external-applications-customized-productions.network-device-interface-custom-layouts
+- learn-m365-pr.combine-external-applications-customized-productions.use-live-events
+- learn-m365-pr.combine-external-applications-customized-productions.improve-event-audio
+- learn-m365-pr.combine-external-applications-customized-productions.knowledge-check
+- learn-m365-pr.combine-external-applications-customized-productions.summary
+badge:
+  uid: learn-m365-pr.combine-external-applications-customized-productions.badge 

@@ -1,10 +1,10 @@
 >[!VIDEO https://www.microsoft.com/videoplayer/embed/RE4xdb1]
 
-Microsoft’s Security Development Lifecycle (SDL) is a security assurance process focused on developing and operating secure software. The SDL provides detailed, measurable security requirements for developers and engineers at Microsoft to reduce the number and severity of vulnerabilities in our products and services. All Microsoft 365 Services must follow SDL requirements, and we continuously update the SDL to reflect the changing threat landscape, industry best practices, and regulatory standards for compliance.
+Microsoft's Security Development Lifecycle (SDL) is a security assurance process focused on developing and operating secure software. The SDL provides detailed, measurable security requirements for developers and engineers at Microsoft to reduce the number and severity of vulnerabilities in our products and services. All Microsoft 365 Services must follow SDL requirements, and we continuously update the SDL to reflect the changing threat landscape, industry best practices, and regulatory standards for compliance.
 
-## Phases of Microsoft’s SDL
+## Phases of Microsoft's SDL
 
-Microsoft 365 has built SDL practices into the DevOps model to ensure that security and privacy remains a core focus of our products and services. To safeguard customers and Microsoft 365’s data, all development at Microsoft takes place in development environments completely segregated from production environments without any access to customer tenants. In addition, access to production environments is limited to engineers operating the services, and these environments are segregated from the Microsoft corporate network.
+Microsoft 365 has built SDL practices into the DevOps model to ensure that security and privacy remains a core focus of our products and services. To safeguard customers and Microsoft 365's data, all development at Microsoft takes place in development environments completely segregated from production environments without any access to customer tenants. In addition, access to production environments is limited to engineers operating the services, and these environments are segregated from the Microsoft corporate network.
 
 The SDL process at Microsoft can be thought of in terms of five phases of development. It begins by defining software requirements with security in mind. To do this, we ask security-relevant questions about what the application must accomplish. Does the application need to collect sensitive data? Will the application perform sensitive or important tasks? Does the application need to accept input from untrusted sources? Once relevant security requirements have been identified, we design our software to incorporate security features that meet these requirements. Our developers implement SDL and design requirements in the code, which we verify through manual code review, automated security tooling, and penetration testing. Finally, before code can be released, it undergoes final security and privacy review to ensure all requirements are met.
 
@@ -17,11 +17,11 @@ In addition to the five core development phases, the SDL includes security activ
 In the units that follow, we will explore how Microsoft implements SDL requirements by:
 
 - Requiring training for security awareness and secure development practices.
-- Defining security and privacy requirements, maintaining up to date threat models, and requiring manual code review.
+- Defining security and privacy requirements, maintaining up-to-date threat models, and requiring manual code review.
 - Running SDL tools automatically to detect security issues in the code as part of the build process.
 - Enforcing and testing operational security requirements to maintain security best practices.
 - Performing security and privacy reviews prior to release.
-- Using Component Governance (CG) to manage open source software.
+- Using Component Governance (CG) to manage open-source software.
 
 ## Learn more
 

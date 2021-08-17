@@ -34,7 +34,7 @@ There's a PowerShell command to check on the status of move requests. You can ru
 Get-PublicFolderMoveRequest | Format-List Status
 ```
 
-The results will list the move command and show its status. When your move request has completed successfully, the status is updated to **Completed**. 
+The results will list the move command and show its status. When your move request has completed successfully, the status is updated to **Completed**.
 
 The last step you need to do is delete the move request—this allows you to make future move requests. Use this command to remove a public folder move request:
 

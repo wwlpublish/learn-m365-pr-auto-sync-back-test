@@ -1,4 +1,4 @@
-Azure Virtual Desktop provides tools and approaches to automate scaling virtual machine (VM) resources in your host pools. One of the primary benefits to hosting Remote Desktop Service in the cloud is that you can shut down compute resources to save costs during off-peak hours, and then restart them either on a schedule or dynamically, based on session host utilization. 
+Azure Virtual Desktop provides tools and approaches to automate scaling virtual machine (VM) resources in your host pools. One of the primary benefits to hosting Remote Desktop Service in the cloud is that you can shut down compute resources to save costs during off-peak hours, and then restart them either on a schedule or dynamically, based on session host utilization.
 
 ## Scale session hosts using Azure Automation
 

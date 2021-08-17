@@ -1,20 +1,20 @@
-SharePoint Online allows for its own independent, intranet site collections. An organization can have many intranet sites that are segregated or correlated depending on its needs. This design provides organizations with the total autonomy they need to create secure site collections.
+SharePoint Online enables organizations to create their own independent, intranet site collections. An organization can have many intranet sites that are segregated or correlated depending on its needs. This design provides organizations with the total autonomy they need to create secure site collections.
 
-Some of the different styles of sites include:
+Some of the different styles of sites that can be maintained in SharePoint Online include:
 
- *  Personal blogs
- *  Community
- *  Company Feed
- *  Site Feed
- *  Wikis
- *  Team sites
- *  Hub sites
+ -  Personal blogs
+ -  Community
+ -  Company Feed
+ -  Site Feed
+ -  Wikis
+ -  Team sites
+ -  Hub sites
 
 **Additional reading.** For more information, see [different styles of sites](https://technet.microsoft.com/library/207c5829-0ba9-440a-a602-1222458fb479?azure-portal=true).
 
 ### Permission levels
 
-Permission levels play a major role, not only in creating separate sites, but in segregating and restricting access to content that's considered confidential or proprietary. These levels can be granular or hierarchical, depending on the company’s needs. As an Enterprise Administrator there are a few things to consider when managing the permissions levels. The default permission levels in SharePoint Online include:
+Permission levels play a major role, not only in creating separate sites, but in segregating and restricting access to content that's considered confidential or proprietary. These levels can be granular or hierarchical, depending on the company’s needs. The following table identifies the default permission levels in SharePoint Online.
 
 :::row:::
   :::column:::
@@ -57,16 +57,16 @@ Enables users to view application pages. The View Only permission level is used 
   :::column:::
     
 
- *  View Application Pages
- *  View Items
- *  View Versions
- *  Create Alerts
- *  Use Self-Service Site Creation
- *  View Pages
- *  Browse User Information
- *  Use Remote Interfaces
- *  Use Client Integration Features
- *  Open
+ -  View Application Pages
+ -  View Items
+ -  View Versions
+ -  Create Alerts
+ -  Use Self-Service Site Creation
+ -  View Pages
+ -  Browse User Information
+ -  Use Remote Interfaces
+ -  Use Client Integration Features
+ -  Open
 
 
   :::column-end:::
@@ -89,11 +89,11 @@ Enables users to access shared resources and a specific asset. By combining Limi
   :::column:::
     
 
- *  View Application Pages
- *  Browse User Information
- *  Use Remote Interfaces
- *  Use Client Integration Features
- *  Open
+ -  View Application Pages
+ -  Browse User Information
+ -  Use Remote Interfaces
+ -  Use Client Integration Features
+ -  Open
 
 
   :::column-end:::
@@ -116,14 +116,14 @@ Enables users to view pages and list items, and to download documents.
   :::column:::
     
 
- *  Limited Access permissions, plus:
+ -  Limited Access permissions, plus:
     
-     *  View Items
-     *  Open Items
-     *  View Versions
-     *  Create Alerts
-     *  Use Self-Service Site Creation
-     *  View Pages
+     -  View Items
+     -  Open Items
+     -  View Versions
+     -  Create Alerts
+     -  Use Self-Service Site Creation
+     -  View Pages
 
 
   :::column-end:::
@@ -146,17 +146,17 @@ Enables users to manage personal views, edit items and user information, delete 
   :::column:::
     
 
- *  Read permissions, plus:
+ -  Read permissions, plus:
     
-     *  Add Items
-     *  Edit Items
-     *  Delete Items
-     *  Delete Versions
-     *  Browse Directories
-     *  Edit Personal User Information
-     *  Manage Personal Views
-     *  Add/Remove Personal Web Parts
-     *  Update Personal Web Parts
+     -  Add Items
+     -  Edit Items
+     -  Delete Items
+     -  Delete Versions
+     -  Browse Directories
+     -  Edit Personal User Information
+     -  Manage Personal Views
+     -  Add/Remove Personal Web Parts
+     -  Update Personal Web Parts
 
 
   :::column-end:::
@@ -179,9 +179,9 @@ Enables users to manage lists.
   :::column:::
     
 
- *  Contribute permissions, plus:
+ -  Contribute permissions, plus:
     
-     *  Manage Lists
+     -  Manage Lists
 
 
   :::column-end:::
@@ -204,13 +204,13 @@ Enables users to view, add, update, delete, approve, and customize items or page
   :::column:::
     
 
- *  Edit permissions, plus:
+ -  Edit permissions, plus:
     
-     *  Add and Customize Pages
-     *  Apply Themes and Borders
-     *  Apply Style Sheets
-     *  Override List Behaviors
-     *  Approve Items
+     -  Add and Customize Pages
+     -  Apply Themes and Borders
+     -  Apply Style Sheets
+     -  Override List Behaviors
+     -  Approve Items
 
 
   :::column-end:::
@@ -233,16 +233,16 @@ Enables users to have full control of the website.
   :::column:::
     
 
- *  All permissions
+ -  All permissions
 
 
   :::column-end:::
 :::row-end:::
 
 
-Each of these permissions can be set for an item, folder, library, child site, and parent site for any guest or regular user in the company. Typically, the best practice for setting permissions is using security groups to define where you want to restrict access. Setting permissions at the individual level can cause management problems when tracking individual access.
+Each of these permissions can be set for an item, folder, library, child site, and parent site for any guest or regular user in the company. When setting permissions, it's recommended that organizations use security groups to define where they want to restrict access. Setting permissions at the individual level can cause management problems when tracking individual access.
 
-Another option that'is available when defining a permission includes setting an expiration date to access any of the options listed above. This option only allows a user a particular time frame in which to access the resource. Once that time has expired, the user no longer has access.
+Another available permission level option includes setting an expiration date to access any of the options listed above. This option only allows a user a particular time frame in which to access the resource. Once that time has expired, the user no longer has access.
 
 ## Knowledge check
 

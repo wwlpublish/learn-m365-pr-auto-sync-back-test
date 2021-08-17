@@ -1,0 +1,41 @@
+### YamlMime:Module
+uid: learn-m365-pr.m365-gain-insights-reporting-defender-endpoint
+metadata:
+  moduleType: standard
+  title: Gain insights through reporting in Microsoft Defender for Endpoint
+  description: Learn about the different reporting capabilities in Microsoft Defender for Endpoint including the threat protection report, vulnerable devices report, device health and compliance reports, custom reports, and threat analytics.
+  ms.date: 07/19/2021
+  author: iankensey
+  ms.author: beccarobins
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Gain insights through reporting in Microsoft Defender for Endpoint
+summary: Learn about  the different reporting capabilities in Microsoft Defender for Endpoint including the threat protection report, vulnerable devices report, device health and compliance reports, custom reports, and threat analytics.
+abstract: |
+  By the end of this module, you'll be able to:
+  - Understand threat protection reports
+  - Understand health and compliance reports
+  - Understand custom reports with Power BI
+  - Understand threat analytics
+prerequisites: |
+  - Basic familiarity with Microsoft Defender for Endpoint
+  - Basic familiarity with Power BI
+iconUrl: /learn/achievements/generic-badge.svg
+levels:
+  - beginner
+roles:
+  - security-operations-analyst
+  - security-engineer
+products:
+  - m365
+  - m365-ems-cloud-app-security
+  - m365-threat-protection
+units:
+- learn-m365-pr.m365-gain-insights-reporting-defender-endpoint.introduction
+- learn-m365-pr.m365-gain-insights-reporting-defender-endpoint.use-threat-protection-vulnerabilities-health-reports
+- learn-m365-pr.m365-gain-insights-reporting-defender-endpoint.track-threats-analytics
+- learn-m365-pr.m365-gain-insights-reporting-defender-endpoint.use-custom-reports
+- learn-m365-pr.m365-gain-insights-reporting-defender-endpoint.knowledge-check
+- learn-m365-pr.m365-gain-insights-reporting-defender-endpoint.summary
+badge:
+  uid: learn-m365-pr.m365-gain-insights-reporting-defender-endpoint.badge

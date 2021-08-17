@@ -1,0 +1,63 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.syntex-strategy.knowledge-check
+title: Knowledge check
+metadata:
+  title: Knowledge check
+  description:  Develop a plan to administer and utilize SharePoint Syntex for your specific organization's content understanding solution needs and requirements.
+  ms.date: 07/16/2021
+  author: beccarobins
+  ms.author: beccarobins
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 4
+content: |
+quiz:
+    title: Check your knowledge
+    questions:
+    - content: "Before using SharePoint Syntex more widely in your organization, the leadership team wants to establish best practices and guidelines for use. Which SharePoint Syntex role would this responsibility fall under?"
+      choices:
+      - content: "Knowledge manager"
+        isCorrect: true
+        explanation: "Correct. The knowledge manager establishes best practices and guidelines for using SharePoint Syntex, as well as pinpointing and aggregating the specific use cases for content understanding that apply to your organization's needs and pain points."
+      - content: "SharePoint/Knowledge admin"
+        isCorrect: false
+        explanation: "Incorrect. The SharePoint/Knowledge admin is responsible for creating content centers and applying AI Builder to the appropriate document libraries, and assigning permissions."
+      - content: "Power Platform admin"
+        isCorrect: false
+        explanation: "Incorrect. The Power Platform admin is responsible for configuring the data service environment for form processing, as well as purchasing and allocating AI Builder (AIB) credits."
+
+    - content: "Which stakeholder manages the entire execution and launch of the new content understanding system?"
+      choices:
+      - content: "Power Platform admin"
+        isCorrect: false
+        explanation: "Incorrect. The Power Platform is a technical stakeholder who manages the use of Power Apps and AI Builder."
+      - content: " Knowledge admin"
+        isCorrect: false
+        explanation: "Incorrect. The knowledge admin is particularly interested in the establishment and success of content centers that they create for your document understanding models."
+      - content: "Project lead"
+        isCorrect: true
+        explanation: "Correct. Project leads manage the execution and launch of SharePoint Syntex, including ensuring that all the other stakeholders are identified, and roles and responsibilities are clearly defined."
+
+    - content: "What is the definition of a business driver?"
+      choices:
+      - content: "The key numbers that will help define how the change is measured."
+        isCorrect: false
+        explanation: "Incorrect. KPIs are the numbers that measure the change implemented."
+      - content: "The challenges that your organization is currently facing, as well as the opportunities focused on with this particular outcome."
+        isCorrect: true
+        explanation: "Correct. Business drivers are both the challenges and opportunities that motivate the change."
+      - content: "The specific measurement or result that you are trying to produce."
+        isCorrect: false
+        explanation: "Incorrect. The business outcome is the result that your change is driving towards and looking to produce."
+
+    - content: "As your company's Finance department starts to roll out SharePoint Syntex to team members, they want to first focus on a training and onboarding strategy. Which aspect of a SharePoint Syntex rollout would this be a part of?"
+      choices:
+      - content: "Fiscal outcomes"
+        isCorrect: false
+        explanation: "Incorrect. Fiscal outcomes are focused on monetary outcomes of the change, such as reduced costs and increased ROI."
+      - content: "Agility outcomes"
+        isCorrect: false
+        explanation: "Incorrect. Agility outcomes are about your organization's ability to adapt to a changing market and stay innovative."
+      - content: "Company readiness"
+        isCorrect: true
+        explanation: "Correct. Company readiness emphasizes how easily users can adopt a new technology or process, including training and onboarding, as well as resources and tools."

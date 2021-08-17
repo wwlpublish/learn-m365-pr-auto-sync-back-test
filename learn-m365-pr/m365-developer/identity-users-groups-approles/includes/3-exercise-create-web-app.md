@@ -33,7 +33,7 @@ Select **Add a platform**, then select **Web**.
 On the **Configure Web** panel, use the following values to configure the application:
 
 - **Redirect URIs**: https://localhost:5001/signin-oidc
-- **Logout URL**: https://localhost:5001/signout-oidc
+- **Front-channel logout URL**: https://localhost:5001/signout-oidc
 - **Implicit grant and hybrid flows**: select **ID tokens (used for implicit and hybrid flows)**
 
 Select **Configure** when finished setting these values.
@@ -41,6 +41,9 @@ Select **Configure** when finished setting these values.
 ![Screenshot of the application configuration](../media/03-azure-ad-portal-new-app-details-03.png)
 
 ## Create a single organization ASP.NET web application
+
+> [!NOTE]
+> The instructions below assume you are using .NET 5. They were last tested using v5.0.202 of the .NET 5 SDK.
 
 Open your command prompt, navigate to a directory where you want to save your work, create a new folder, and change directory into that folder.
 

@@ -7,5 +7,5 @@ Now that you’ve reviewed this module, you should be able to:
 
 ### Learn More
 
-- [OneDrive guide for enterprises](https://docs.microsoft.com/onedrive/plan-onedrive-enterprise)
+- [OneDrive guide for enterprises](/onedrive/plan-onedrive-enterprise)
 - [Activity: Migrate Windows known folders to OneDrive](https://mslearn.cloudguides.com/guides/Migrate%20Windows%20known%20folders%20to%20OneDrive)

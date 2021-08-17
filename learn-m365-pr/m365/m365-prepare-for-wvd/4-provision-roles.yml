@@ -4,7 +4,7 @@ title: Set up Azure resources, assign roles, and licenses
 metadata:
   title: Set up Azure resources, assign roles, and licenses
   description: Learn about the Azure resources needed for Azure Virtual Desktop and the different Azure Active Directory administrator roles required. 
-  ms.date: 06/29/2020
+  ms.date: 07/19/2021
   author: lizap
   ms.author: elizapo
   ms.topic: interactive-tutorial

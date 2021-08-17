@@ -21,7 +21,7 @@ Enrollment restrictions can include the following criteria:<br>
 :::image type="content" source="../media/configure-platforms-window-53a6ac2f.jpg" alt-text="screenshot of configuring platforms window":::
 
 
-**Additional reading.** For more information, see [Configuring device enrollment restrictions](/intune/enrollment-restrictions-set#set-device-type-restrictions?azure-portal=true).
+**Additional reading.** For more information, see [Configuring device enrollment restrictions](https://docs.microsoft.com/intune/enrollment-restrictions-set#set-device-type-restrictions?azure-portal=true).
 
 ### Enrollment options
 

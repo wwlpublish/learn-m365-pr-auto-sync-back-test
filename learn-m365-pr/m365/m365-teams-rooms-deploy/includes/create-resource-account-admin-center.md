@@ -13,7 +13,7 @@ To create a new account using the Microsoft 365 admin center:
 
    ![Focus Room configuration](../media/focus-room.png)
 
-1. After the resource account has been created, you’ll receive an acknowledgment that the Room mailbox is ready to use.
+1. After the resource account has been created, you'll receive an acknowledgment that the Room mailbox is ready to use.
 
    ![Acknowledgement of mailbox creation](../media/acknowledgement-mailbox.png)
 
@@ -35,7 +35,7 @@ To create a new account using the Microsoft 365 admin center:
 
 1. On the *next* pane that appears, type in the new password into the Password field. Be sure to leave the **Require this user to  change their password when they first sign in** option unchecked. There's no way to force a password change interactively within the Teams Rooms app. 
 
-1. Next you need to assign a license to this resource account. While still in Active users, click on the room’s display name to bring up the **Properties** pane. From there, click on **Licenses and Apps**. You can now assign the proper license, such as Microsoft Teams Rooms Standard.
+1. Next you need to assign a license to this resource account. While still in Active users, click on the room's display name to bring up the **Properties** pane. From there, click on **Licenses and Apps**. You can now assign the proper license, such as Microsoft Teams Rooms Standard.
 1. Finally, you need to set the password so that it never expires. Follow the guidance at [Set an individual user's password to never expire](/microsoft-365/admin/add-users/set-password-to-never-expire?azure-portal=true) for detailed steps.
 
    ![Assign a license](../media/assign-license.png)

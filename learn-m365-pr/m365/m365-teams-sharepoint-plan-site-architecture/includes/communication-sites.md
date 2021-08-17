@@ -18,6 +18,6 @@ When you create a page on a communication site, you can embed documents and vide
 
 ## Site access
 
-You probably don’t want a large group of people having the ability to make changes to a site that communicates information to a whole department or organization. To help you limit who has permissions to change the site, communication sites are not group-connected. This means that a communication site is not automatically connected to a group of people with edit permissions. However, you can give specific people permission to make changes to your communication sites.
+You probably don't want a large group of people having the ability to make changes to a site that communicates information to a whole department or organization. To help you limit who has permissions to change the site, communication sites are not group-connected. This means that a communication site is not automatically connected to a group of people with edit permissions. However, you can give specific people permission to make changes to your communication sites.
 
 A communication site can also be shared externally to those outside of your company using PowerShell commands.

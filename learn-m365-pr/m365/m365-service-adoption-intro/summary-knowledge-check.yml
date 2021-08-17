@@ -4,7 +4,7 @@ title: Summary and knowledge check
 metadata:
   title: Summary and knowledge check
   description: Review what you learned about the service adoption framework and Specialist role, and then check your knowledge.
-  ms.date: 09/06/2019
+  ms.date: 07/16/2021
   author: lizap
   ms.author: elizapo
   ms.topic: interactive-tutorial
@@ -141,7 +141,7 @@ quiz:
       - content: "Templates can be given to employees to use how they see fit for their groups."
         isCorrect: false
         explanation: "No, this isn't one of the omni-directional marketing tactics."        
-    - content: "Which individual item is NOT a part of the marketing communications are for Service Adoption Specialists?"
+    - content: "Which individual item is NOT a part of the marketing communications area for Service Adoption Specialists?"
       choices:
       - content: "Key messages for employee campaigns."
         isCorrect: false

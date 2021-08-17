@@ -27,4 +27,3 @@ You want the SBC near the front of the line, ready to use the telco-provided con
 ## Cut over
 
 The cut over to Teams with Direct Routing involves enabling the user for Teams and its various features like Phone System and Direct Routing. But you also need to make some configuration changes to the inbound routing of the particular phone number. This action ensures that it's no longer being passed over to the old PBX or the old Skype for Business environment, but to the new Teams environment.
-

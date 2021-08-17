@@ -4,11 +4,11 @@ title: Walk through discovery and access control with Microsoft Cloud App Securi
 metadata:
   title: Walk through discovery and access control with Microsoft Cloud App Security
   description: See how Cloud Discovery and Conditional Access App Control work in the Cloud App Security portal.  
-  ms.date: 09/08/2020
+  ms.date: 06/14/2021
   author: lizap
-  ms.author: iankensey
+  ms.author: beccarobins
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-durationInMinutes: 22
+durationInMinutes: 26
 content: |
   [!include[](includes/walkthrough.md)]

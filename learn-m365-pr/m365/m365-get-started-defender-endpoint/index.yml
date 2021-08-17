@@ -1,0 +1,43 @@
+### YamlMime:Module
+uid: learn-m365-pr.get-started-microsoft-defender-endpoint
+metadata:
+  moduleType: standard
+  title: Onboard to Microsoft Defender for Endpoint
+  description: |
+    Learn about the onboarding process for Microsoft Defender for Endpoint, which is a three-phase process that consists of:
+          -	Prepare: See the considerations you should take, such as stakeholder approvals, and adoption order of capabilities.
+          -	Set up: Learn how to set up a Microsoft Defender for Endpoint instance and how it connects with your environment.
+          -	Onboard: Learn about the supported onboarding tools, and how to configure available capabilities.
+  ms.date: 07/21/2021
+  author: iankensey
+  ms.author: beccarobins
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Onboard to Microsoft Defender for Endpoint
+summary: Learn about the three-phase process to onboard your organization to Microsoft Defender for Endpoint.
+abstract: |
+  By the end of this module, you'll be able to:
+  - Plan for Microsoft Defender for Endpoint.
+  - Prepare for Microsoft Defender for Endpoint deployment.
+  - Set up and onboard devices to Microsoft Defender for Endpoint.
+prerequisites: |
+  - Basic familiarity with Microsoft Defender for Endpoint
+iconUrl: /learn/achievements/generic-badge.svg
+levels:
+  - beginner
+roles:
+  - security-operations-analyst
+  - security-engineer
+products:
+  - m365
+  - m365-ems-cloud-app-security
+  - m365-threat-protection
+units:
+- learn-m365-pr.get-started-microsoft-defender-endpoint.introduction
+- learn-m365-pr.get-started-microsoft-defender-endpoint.plan
+- learn-m365-pr.get-started-microsoft-defender-endpoint.prepare
+- learn-m365-pr.get-started-microsoft-defender-endpoint.set-up-onboard-devices
+- learn-m365-pr.get-started-microsoft-defender-endpoint.knowledge-check
+- learn-m365-pr.get-started-microsoft-defender-endpoint.summary
+badge:
+  uid: learn-m365-pr.get-started-microsoft-defender-endpoint.badge

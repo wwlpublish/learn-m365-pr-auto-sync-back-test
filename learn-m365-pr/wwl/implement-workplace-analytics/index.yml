@@ -1,18 +1,19 @@
 ### YamlMime:Module
 uid: learn.wwl.implement-workplace-analytics
 metadata:
-  title: Implement Workplace Analytics
-  description: "Implement Workplace Analytics"
-  ms.date: 05/12/2021
-  author: wwlpublish
-  ms.author: tfrink
+  title: Implement Microsoft Viva Insights (Workplace Analytics)
+  description: "Implement Microsoft Viva Insights (Workplace Analytics)"
+  ms.date: 07/30/2021
+  author: madehmer
+  ms.author: v-mideh
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-title: Implement Workplace Analytics
-summary: This module examines Workplace Analytics, which provides powerful organizational analytics solutions that are generally available as an add-on to any Microsoft 365 enterprise plan.
+title: Implement Microsoft Viva Insights (Workplace Analytics)
+
+summary: "**Note**: The Workplace Analytics web app is being rebranded to **Viva Insights** in the next few months. As mentioned in this module, Workplace Analytics refers to the web app with advanced analysis tools and accelerators available to people who are assigned the Analyst, Limited Analyst, or Admin role.<br><br>This module examines Microsoft Viva Insights (Workplace Analytics), which provides powerful organizational analytics solutions that are generally available as an add-on to any Microsoft 365 enterprise plan."
 abstract: |
   By the end of this module, you will be able to:
-  - Describe how Workplace Analytics can help organizations analyze sales productivity and manage effectiveness and space planning
+  - Describe how Viva Insights (Workplace Analytics) can help organizations analyze sales productivity and manage effectiveness and space planning
   - Describe how data protection is maintained in Workplace Analytics
   - Describe how data privacy is maintained in Workplace Analytics
   - Configure Workplace Analytics

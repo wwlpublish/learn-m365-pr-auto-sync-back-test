@@ -1,4 +1,4 @@
-Microsoft Teams provides the capability for your organization's users to create and join meetings in real time. Participants in a Teams meeting can invite external users to join, who aren't authenticated to your tenant. Users who are employed by external partners with a secure and authenticated identity can join meetings and, if promoted to do so, can act as presenters. Extending participation to external users can introduce security risks. 
+Microsoft Teams provides the capability for your organization's users to create and join meetings in real time. Participants in a Teams meeting can invite external users to join, who aren't authenticated to your tenant. Users who are employed by external partners with a secure and authenticated identity can join meetings and, if promoted to do so, can act as presenters. Extending participation to external users can introduce security risks.
 
 Suppose you have a requirement to grant access for guests to join meetings. To meet the organizations regulatory compliance, you want to explore how you can enable external users to access the meetings, while controlling how much a guest can see and interact with in your meetings.
 

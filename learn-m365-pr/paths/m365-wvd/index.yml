@@ -21,6 +21,7 @@ roles:
 products: 
 - azure
 - m365
+- azure-virtual-desktop
 modules:
 - learn-m365.wvd-intro
 - learn-m365.prepare-for-wvd
@@ -28,5 +29,7 @@ modules:
 - learn-m365.optimize-wvd
 - learn-m365.wvd-security
 - learn-m365.wvd-msix-app-attach
+- learn.protect-virtual-desktop-deployment-azure-firewall
+- learn-m365.business-continuity-disaster-recovery-azure-virtual-desktop
 trophy: 
   uid: learn-m365.windows-virtual-desktop.trophy

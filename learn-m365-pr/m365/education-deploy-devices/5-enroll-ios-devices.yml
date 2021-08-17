@@ -3,7 +3,7 @@ uid: learn-m365.edu-deploy-devices.5-enroll-ios-devices
 metadata:
   title: Enroll iOS devices with automated device enrollment
   description: Learn about integrating Microsoft Intune with Apples automated device enrollment.
-  ms.date: 06/03/2021
+  ms.date: 07/02/2021
   author: iankensey
   ms.author: beccarobins
   ms.topic: interactive-tutorial

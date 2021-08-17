@@ -2,6 +2,9 @@ In this exercise, you’ll learn how to create and configure a single-page appli
 
 ## Create a single-page application
 
+> [!NOTE]
+> The instructions below assume you are using v2.14.2 of the Microsoft Authentication Library for JavaScript 2.0.
+
 A single-page application (SPA) is typically a dynamic web application that runs entirely client side in the browser, usually in a single web page. To do this, the SPA must be served up as a routable page with a web server. The first step is to create a small web server and then create the SPA.
 
 ### Create a Node.js web application
@@ -61,7 +64,7 @@ In the current folder, add a new file named **index.html**. Add the following co
 <head>
   <title>Getting Started with Microsoft identity</title>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/bluebird/3.7.2/bluebird.min.js"></script>
-  <script src="https://alcdn.msauth.net/browser/2.11.1/js/msal-browser.js"></script>
+  <script src="https://alcdn.msauth.net/browser/2.14.2/js/msal-browser.js"></script>
 </head>
 
 <body>

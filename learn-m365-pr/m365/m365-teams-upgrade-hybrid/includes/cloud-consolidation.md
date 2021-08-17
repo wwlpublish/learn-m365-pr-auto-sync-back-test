@@ -7,7 +7,7 @@ Historically, the guidance has been for customers in this situation to consolida
 Consolidation of all users from on-premises into the cloud in a single Microsoft 365 tenant can be achieved for any organization with multiple Skype for Business deployments, provided that the following key requirements are met:
 
 - There must be at most one Microsoft 365 tenant involved. Consolidation in scenarios with more than one Microsoft 365 tenant is not supported.
-- At any given time, only one on-premises Skype for Business forest can be in hybrid mode (Shared SIP Address Space). All other on-premises Skype for Business forests must remain on-premises (and presumably federated with each other). Note that these other on-premises organizations can sync to AAD if desired with new functionality to disable online SIP domains available as of December 2018.
+- At any given time, only one on-premises Skype for Business forest can be in hybrid mode (Shared SIP Address Space). All other on-premises Skype for Business forests must remain on-premises (and presumably federated with each other). These other on-premises organizations can sync to AAD if desired with new functionality to disable online SIP domains available as of December 2018.
 
 Customers with deployments of Skype for Business in multiple forests must fully migrate all users of a single hybrid Skype for Business forest individually into the Microsoft 365 tenant using Shared SIP Address Space functionality, and then disable hybrid with that on-premises deployment, before moving on to migrate the next on-premises Skype for Business deployment. Prior to being migrated to the cloud, on-premises users remain in a federated state with any users that are not represented in the same user's on-premises directory.
 

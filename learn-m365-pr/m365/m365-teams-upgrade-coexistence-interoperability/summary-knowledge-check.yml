@@ -4,12 +4,12 @@ title: Summary and knowledge check
 metadata:
   title: Summary and knowledge check
   description: Review what you've learned about coexistence when upgrading from Skype for Business to Microsoft Teams.
-  ms.date: 09/30/2019
+  ms.date: 07/16/2021
   author: AlexandraHrt
   ms.author: elizapo
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-durationInMinutes: 5
+durationInMinutes: 3
 content: |
   [!include[](includes/summary-knowledge-check.md)]
 quiz:

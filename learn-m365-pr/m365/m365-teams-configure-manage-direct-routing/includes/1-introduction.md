@@ -10,6 +10,6 @@ By the end of this module, you should be able to:
 
 - Explain how to configure and connect a Session Border Controller (SBC).
 - Describe the process for configuring simple and advanced voice routing.
-- Describe how to provision users, implement number translation, create and assign dial plans.
+- Describe how to provision users, implement number translation, create, and assign dial plans.
 - Demonstrate how to configure Local Media Optimization.
 - Explain how to manage Direct Routing and resolve common SBC configuration issues.

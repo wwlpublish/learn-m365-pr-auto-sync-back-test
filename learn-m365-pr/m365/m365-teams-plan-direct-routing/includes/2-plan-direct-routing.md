@@ -6,7 +6,7 @@ There are seven steps in the planning process for Direct Routing. It's important
 
 The first decision is whether to host the SBC yourself, or use a partner hosted service. This table summarizes the main issues.
 
-|  |Self deployed SBC  | Parter hosted SBC  |
+|  |Self-deployed SBC  | Parter hosted SBC  |
 |---------|---------|---------|
 |Benefits     | <ul><li>Full control over SBC</li><li>Connectivity to existing PBX</li></ul>        | <ul><li>No need for purchasing, maintaining, and hosting own SBC</li></ul>        |
 |Disadvantages     | <ul><li>Customer responsible for SBC configuration</li><li>Need to purchase, maintain, and host SBC</li></ul>         | <ul><li>No control over SBC configuration</li><li>Support model more complex</li></ul>        |
@@ -47,7 +47,7 @@ This diagram shows how the SBC connects Teams and Phone System to legacy PBX and
 
 :::image type="content" border="false" source="../media/2-session-border-controller.png" alt-text="IMAGE":::
 
-SBCs must go through a certification process which includes being validated in a third-party lab and daily testing in preproduction. This process is done jointly with SBC vendors. The SBC devices are certified by make, model, and firmware level, often with a required minimum firmware version.
+SBCs must go through a certification process that includes being validated in a third-party lab and daily testing in preproduction. This process is done jointly with SBC vendors. The SBC devices are certified by make, model, and firmware level, often with a required minimum firmware version.
 SBCs might be physical hardware devices or software deployed in the cloud, such as Azure or AWS.
 
 ## Fully qualified domain names (FQDNs)

@@ -4,11 +4,11 @@ title: Identify security issues that can derail your move to Windows 10 and Micr
 metadata:
   title: Identify security issues that can derail your move to Windows 10 and Microsoft 365 Apps
   description: Security issues can interrupt your move or upgrade - learn how to plan for and avoid these issues.
-  ms.date: 06/12/2019
+  ms.date: 07/21/2021
   author: lizap
   ms.author: elizapo
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-durationInMinutes: 1
+durationInMinutes: 10
 content: |
   [!include[](includes/1-introduction.md)]

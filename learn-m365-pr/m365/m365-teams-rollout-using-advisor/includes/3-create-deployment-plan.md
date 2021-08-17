@@ -9,6 +9,7 @@ Before making your selection, look at the assessment checks against each workloa
 A good place to start is with the **Chat, teams, channels, and apps** workload. When you've deployed that workload, you can go back to Advisor for Teams, and select **Add channel** to start the next one.
 
 ## Components of each workload
+
 For each workload, Advisor for Teams provides the following plans:
 
 - Tenant assessment

@@ -4,7 +4,7 @@ Teams offers two kinds of meetings: channel meetings and private meetings.
 
 If a team has a dedicated channel in Microsoft Teams, they can schedule a channel meeting. Channel meetings have multiple benefits:
 
-- All members can see and join a meeting. 
+- All members can see and join a meeting.
 - Any meeting-related discussions before, during, or after the meeting are part of the channel discussion.
 - Non-private meetings and discussions are visible to anyone who is a member of the team.
 - Meetings can also be started ad-hoc from the existing channel conversation.

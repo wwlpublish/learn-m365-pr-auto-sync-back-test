@@ -12,19 +12,19 @@ The most common options for configuring usage rights include the following.
 - Co-Author (View, Edit, Copy, Print, Reply, Reply All, Forward)
 - Co-Owner (All Rights)
 - Custom (Rights that can be assigned individually):
-    
-    - View Content
-    - Save File
-    - Edit Content
-    - Copy and Extract Content
-    - View Assigned Rights
-    - Change Rights
-    - Allow Macros
-    - Export Content (Save As)
-    - Print
-    - Forward
-    - Reply
-    - Reply All
-    - Full Control
+
+  - View Content
+  - Save File
+  - Edit Content
+  - Copy and Extract Content
+  - View Assigned Rights
+  - Change Rights
+  - Allow Macros
+  - Export Content (Save As)
+  - Print
+  - Forward
+  - Reply
+  - Reply All
+  - Full Control
 
 As you define your labels, ask your end users what types of protection they would like. This expedites determining your protection settings.

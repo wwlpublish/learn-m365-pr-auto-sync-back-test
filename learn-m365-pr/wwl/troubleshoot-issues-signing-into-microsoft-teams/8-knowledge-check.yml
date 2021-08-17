@@ -1,0 +1,51 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.troubleshoot-issues-signing-into-microsoft-teams.knowledge-check
+title: Knowledge check
+metadata:
+  title: Knowledge check
+  description: "Knowledge check"
+  ms.date: 08/16/2021
+  author: wwlpublish
+  ms.author: cyncarey
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+durationInMinutes: 5
+content: |
+  [!include[](includes/8-knowledge-check.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "An administrator is investigating sign-in failures for a specific user. The user cannot always access Teams, but can always access other cloud apps. The user uses a laptop computer and travels often, signing in from many different locations. No other users are affected. Which of the following should the administrator review first?"
+    choices:
+    - content: "Sign-in logs for Azure AD."
+      isCorrect: false
+      explanation: "That's incorrect. Since the user can sign-in in many circumstances, the administrator should review other issues first."
+    - content: "Conditional access policies in Azure AD."
+      isCorrect: true
+      explanation: "That's correct. It seems likely that a conditional access policy in Azure AD might have a condition of location configured. This might be the cause of the intermittent sign-in failures."
+    - content: "Azure AD Connect health"
+      isCorrect: false
+      explanation: "That's incorrect. If other users don’t experience problems, and the user can sign in to other apps, including Teams on occasion, it’s unlikely to be a sync issue."
+  - content: "An administrator wants to review logs to help isolate a sign-in problem that a user is having. In Teams, which log contains the relevant data?"
+    choices:
+    - content: "Desktop."
+      isCorrect: false
+      explanation: "That's incorrect. Desktop logs contain log data that occurs between the desktop client and the browser."
+    - content: "Media."
+      isCorrect: false
+      explanation: "That's incorrect. Media logs contain diagnostic data about audio, video, and screen sharing in Teams meetings."
+    - content: "Debug."
+      isCorrect: true
+      explanation: "That's correct. Debug logs show the following data flows: sign-in, connection requests to middle-tier services, and call/conversation details."
+  - content: "The Contoso administrator wants to use Guest access for Tailspin Toys users, but users from Tailspin Toys have been unable to connect to meetings at Contoso. The administrator has determined that users from Adatum are able to connect to meetings using configured External access settings. The administrator verifies that Guest access is enabled in Contoso and that policy settings are configured to allow guest participation. What else could be the problem?"
+    choices:
+    - content: "The administrator should verify that the domain for users in Tailspin Toys is added for External access."
+      isCorrect: false
+      explanation: "That's incorrect. The administrator wants to configure Guest access."
+    - content: "The administrator should verify that licenses are available for Tailspin Toys users."
+      isCorrect: true
+      explanation: "That's correct. Guest users use licenses in the target organization, in this case, Contoso. External users rely on their own licenses."
+    - content: "The administrator must enable the Guest account in Azure AD."
+      isCorrect: false
+      explanation: "That's incorrect. However. each invited user from Tailspin Toys requires their own guest account."

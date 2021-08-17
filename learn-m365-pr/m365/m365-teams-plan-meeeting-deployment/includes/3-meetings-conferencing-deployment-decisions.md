@@ -7,7 +7,6 @@ In our scenario, you've now rolled out meetings capabilities for all your staff.
 Meeting policies are used to control the features that are available to meeting participants for meetings that are scheduled by users in your organization. You can use the global (Org-wide default) policy that's automatically created or create and assign custom policies. You manage meeting policies in the Microsoft Teams admin center or by using PowerShell.
 You can implement policies in the following ways, which affect the meeting experience for users before a meeting starts, during a meeting, or after a meeting.
 
-
 | Implementation type        | Description                                                                                                                                                                                                                                                                                                                                                            |
 |----------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Per-organizer              | When you implement a per-organizer policy, all meeting participants inherit the policy of the organizer. For example, **Automatically admit people** is a per-organizer policy and controls whether users join the meeting directly or wait in the lobby for meetings scheduled by the user who is assigned the policy.                                                |
@@ -21,7 +20,8 @@ You can edit the settings in the global policy or create and assign one or more 
 In Microsoft Teams, users can record their Teams meetings and group calls to capture audio, video, and screen sharing activity. There is also an option for recordings to have automatic transcription, so that users can play back meeting recordings with closed captions and search for important discussion items in the transcript. The recording happens in the cloud and is saved to Microsoft Stream, so users can share it securely across their organization.
 
 For a Teams user's meetings to be recorded, Microsoft Stream must be enabled for the tenant. In addition, the following prerequisites are required for both the meeting organizer and the person who is initiating the recording:
-- User has Office 365 E1, E3, E5, A1, A3, A5, M365 Business Premium, M365 Business Standard, or M365 Business Basic.
+
+- User has Office 365 E1, E3, E5, A1, A3, A5, Microsoft 365 Business Premium, Microsoft 365 Business Standard, or Microsoft 365 Business Basic.
 - User needs to be licensed for Microsoft Stream.
 - User has Microsoft Stream upload video permissions.
 - User has consented to the company guidelines, if set up by the admin.

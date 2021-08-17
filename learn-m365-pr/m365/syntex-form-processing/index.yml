@@ -1,0 +1,39 @@
+### YamlMime:Module
+uid: learn-m365.syntex-form-processing
+metadata:
+  title: Create and apply a form processing model
+  description: Identify a scenario where a form processing model is necessary and learn how to resolve this scenario by creating a form processing model, train and test the form processing model, and apply the form processing model to the appropriate SharePoint document library.
+  ms.date: 07/27/2021
+  author: beccarobins
+  ms.author: beccarobins
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Create and apply a form processing model
+summary: Identify a scenario where a form processing model is necessary and learn how to resolve this scenario by creating a form processing model, train and test the form processing model, and apply the form processing model to the appropriate SharePoint document library.
+abstract: |
+ Once you’ve completed this module, you will be able to:  
+ - Create a form processing model using AI Builder. 
+ - Train and test a form processing model. 
+ - Apply a form processing model to a SharePoint document library. 
+prerequisites: | 
+   - Basic understanding of SharePoint Syntex  
+   - Familiarity with document understanding models  
+iconUrl:  /learn/achievements/generic-badge.svg
+ratingEnabled: true
+levels:
+- beginner
+roles:
+- administrator
+- business-user
+products:
+- m365
+units:
+- learn-m365.syntex-form-processing.introduction
+- learn-m365.syntex-form-processing.initial-state
+- learn-m365.syntex-form-processing.create-model
+- learn-m365.syntex-form-processing.apply-model
+- learn-m365.syntex-form-processing.knowledge-check
+- learn-m365.syntex-form-processing.summary
+
+badge: 
+  uid: learn-m365.syntex-form-processing.badges

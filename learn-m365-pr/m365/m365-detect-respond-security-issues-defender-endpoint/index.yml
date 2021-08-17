@@ -1,0 +1,39 @@
+### YamlMime:Module
+uid: learn-m365-pr.detect-respond-to-security-issues-using-microsoft-defender-for-endpoint
+metadata:
+  moduleType: standard
+  title: Detect and respond to security issues using Microsoft Defender for Endpoint
+  description: Learn how to detect and respond to security issues using Microsoft Defender for Endpoint with the help of features and capabilities such as the incident queue, alerts queue, response actions on devices and files, and Live Response.
+  ms.date: 07/19/2021
+  author: iankensey
+  ms.author: beccarobins
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Detect and respond to security issues using Microsoft Defender for Endpoint
+summary: Learn how to detect and respond to security issues using Microsoft Defender for Endpoint with the help of features and capabilities such as the incident queue, alerts queue, response actions on devices and files, and Live Response.
+abstract: |
+  By the end of this module, you'll be able to:
+  - Understand the incident queue
+  - Understand the alerts queue
+  - Understand response actions
+prerequisites: |
+  - Basic familiarity with Microsoft Defender for Endpoint
+iconUrl: /learn/achievements/generic-badge.svg
+levels:
+  - beginner
+roles:
+  - security-operations-analyst
+  - security-engineer
+  - administrator
+products:
+  - m365
+  - m365-security-center
+  - m365-threat-protection
+units:
+- learn-m365-pr.detect-respond-to-security-issues-using-microsoft-defender-for-endpoint.introduction
+- learn-m365-pr.detect-respond-to-security-issues-using-microsoft-defender-for-endpoint.use-alerts-incidents-queues
+- learn-m365-pr.detect-respond-to-security-issues-using-microsoft-defender-for-endpoint.take-response-actions
+- learn-m365-pr.detect-respond-to-security-issues-using-microsoft-defender-for-endpoint.knowledge-check
+- learn-m365-pr.detect-respond-to-security-issues-using-microsoft-defender-for-endpoint.summary
+badge:
+  uid: learn-m365-pr.detect-respond-to-security-issues-using-microsoft-defender-for-endpoint.badge

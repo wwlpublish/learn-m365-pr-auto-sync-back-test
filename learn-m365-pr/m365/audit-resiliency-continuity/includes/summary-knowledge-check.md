@@ -6,7 +6,7 @@ Now that you have completed this module, you should be able to:
 
 - Explain how Microsoft 365 services are engineered for resiliency, including strategies such as Active/Active service design, fault isolation, and reduced blast radius.
 - Describe the teams involved in the Microsoft Enterprise Business Continuity Management (EBCM) program.
-- Explain Microsoft’s Business Continuity Management (BCM) lifecycle, including ongoing assessment, planning, and capability validation.
+- Explain Microsoft's Business Continuity Management (BCM) lifecycle, including ongoing assessment, planning, and capability validation.
 - List how often Business Continuity Plans (BCP) must be reviewed, updated, and tested.
 - Explain the test methodology Microsoft uses for BCP Capability Validation.
 - Describe how Microsoft 365 Services monitor availability and allocate resources using capacity planning

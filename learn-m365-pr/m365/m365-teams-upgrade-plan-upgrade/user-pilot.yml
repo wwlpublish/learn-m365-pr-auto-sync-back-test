@@ -4,11 +4,11 @@ title: Conduct a user pilot
 metadata:
   title: Conduct a user pilot
   description: Learn how to conduct a user pilot as part of the process of planning your upgrade to Microsoft Teams.
-  ms.date: 09/27/2019
+  ms.date: 07/15/2021
   author: AlexandraHrt
   ms.author: elizapo
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-durationInMinutes: 10
+durationInMinutes: 5
 content: |
   [!include[](includes/user-pilot.md)]

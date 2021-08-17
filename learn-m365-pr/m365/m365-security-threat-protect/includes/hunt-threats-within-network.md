@@ -39,7 +39,7 @@ The following best practices can be followed to ensure query performance:
 - Apply filters first - Azure Kusto is highly optimized to utilize time filters.
 - Use the **has** keyword over **contains** when looking for full tokens.
 - Use **looking in specific column** rather than using full text search across all columns.
-- When joining between two tables, choose the table with less rows to be the first one (left-most).
+- When joining between two tables, choose the table with fewer rows to be the first one (left-most).
 - When joining between two tables, project only needed columns from both sides of the join.
 
 Here's an example of a Kusto query for process creation with suspicious file endings:

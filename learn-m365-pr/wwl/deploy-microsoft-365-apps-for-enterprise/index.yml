@@ -3,7 +3,7 @@ uid: learn.wwl.deploy-microsoft-365-apps-for-enterprise
 metadata:
   title: Deploy Microsoft 365 Apps for enterprise
   description: "Deploy Microsoft 365 Apps for enterprise"
-  ms.date: 04/20/2021
+  ms.date: 07/02/2021
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -15,7 +15,7 @@ abstract: |
   - Describe the Microsoft 365 Apps for enterprise functionality
   - Configure the Readiness Toolkit
   - Plan a deployment strategy for Microsoft 365 Apps for enterprise
-  - Perform a user-driven installation of Microsoft 365 Apps for enterprise
+  - Complete a user-driven installation of Microsoft 365 Apps for enterprise
   - Identify the mechanisms for managing centralized deployments of Microsoft 365 Apps for enterprise
   - Deploy Microsoft 365 Apps for enterprise with the Office Deployment Toolkit
   - Deploy Microsoft 365 Apps for enterprise using group policy
@@ -38,7 +38,7 @@ units:
 - learn.wwl.deploy-microsoft-365-apps-for-enterprise.introduction
 - learn.wwl.deploy-microsoft-365-apps-for-enterprise.explore-functionality
 - learn.wwl.deploy-microsoft-365-apps-for-enterprise.explore-your-app-readiness
-- learn.wwl.deploy-microsoft-365-apps-for-enterprise.perform-self-service-installation-of
+- learn.wwl.deploy-microsoft-365-apps-for-enterprise.complete-self-service-installation-of
 - learn.wwl.deploy-microsoft-365-apps-for-enterprise.plan-centralized-deployment-of
 - learn.wwl.deploy-microsoft-365-apps-for-enterprise.with-office-deployment-tool
 - learn.wwl.deploy-microsoft-365-apps-for-enterprise.use-group-policy

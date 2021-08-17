@@ -1,0 +1,45 @@
+### YamlMime:Module
+uid: learn-m365.business-continuity-disaster-recovery-azure-virtual-desktop
+metadata:
+  title: Business continuity and disaster recovery for Azure Virtual Desktop
+  description: Microsoft Azure Virtual Desktop is a cloud service that helps you give users a secure remote desktop that they can use anywhere. With Azure Virtual Desktop, you can plan appropriate business continuity and disaster recovery (BCDR) strategies to help protect against both unplanned and planned failures and to provide redundancy.
+  ms.date: 08/05/2021
+  author: ndelgado
+  ms.author: nedelgad
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+title: Business continuity and disaster recovery for Azure Virtual Desktop
+summary: |
+  Microsoft Azure Virtual Desktop is a cloud service that helps you give users a secure remote desktop that they can use anywhere. With Azure Virtual Desktop, you can plan appropriate business continuity and disaster recovery (BCDR) strategies to help protect against both unplanned and planned failures and to provide redundancy.
+abstract: |
+  After you've completed this module, you'll know more about:
+  - How to evaluate and identify a redundancy option for Azure Virtual Desktop. 
+  - How to plan an appropriate business continuity and disaster recovery (BCDR) strategy to help protect against both unplanned and planned failures. 
+prerequisites: |
+  - Intermediate-level knowledge of Microsoft Azure services, such as core Azure compute, storage, networking, and virtualization technologies.
+  - Intermediate-level knowledge of Azure operational concepts, such as monitoring, logging, and alerting.
+  - Familiarity with Azure Virtual Desktop.
+  - Familiarity with Windows virtualization technologies, including Remote Desktop Services.
+  - (Optional) Access to an Azure environment that's prepared for Azure Virtual Desktop. You must have Azure Active Directory (Azure AD) configured and integrated with Azure Active Directory Domain Services (AD DS), and an Azure virtual network that’s connected to your domain.
+iconUrl: /learn/achievements/business-continuity-disaster-recovery-azure-virtual-desktop.svg
+ratingEnabled: true
+levels:
+- intermediate
+roles:
+- administrator
+- developer
+- devops-engineer
+- data-engineer
+- solution-architect
+products:
+- azure
+- azure-virtual-desktop
+units:
+- learn-m365.business-continuity-disaster-recovery-azure-virtual-desktop.introduction
+- learn-m365.business-continuity-disaster-recovery-azure-virtual-desktop.identify-components-to-protect
+- learn-m365.business-continuity-disaster-recovery-azure-virtual-desktop.develop-bcdr-plan-azure-virtual-desktop
+- learn-m365.business-continuity-disaster-recovery-azure-virtual-desktop.identify-correct-dr-scenario
+- learn-m365.business-continuity-disaster-recovery-azure-virtual-desktop.knowledge-check
+- learn-m365.business-continuity-disaster-recovery-azure-virtual-desktop.summary
+badge:
+  uid: learn-m365.business-continuity-disaster-recovery-azure-virtual-desktop.badge

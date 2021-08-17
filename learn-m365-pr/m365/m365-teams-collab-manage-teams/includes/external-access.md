@@ -13,8 +13,8 @@ Consider using external access when:
 You can easily set up external access for your organization by using the Teams Admin center. There are three scenarios for setting it up:
 
 - **Scenario 1.** You can use **Open Federation**. This is the default setting, and it lets people in your organization find, call, send IM/Chats, and set up meetings with people external to your organization. When you use this setup, your users can communicate with all external domains that are running Teams or Skype for Business and are using Open Federation or have added your domain to the **Allow** list.
-- **Scenario 2.** You can add a domain or domains to the **Allow** list. It's important to know that if you do this it will **Block** all other domains.
-- **Scenario 3.** You can add a domain or domains to the **Block** list. Be aware that if you do this it will **Allow** all other domains.
+- **Scenario 2.** You can add a domain or domains to the **Allow** list. _It's important to know that if you do this it will **Block** all other domains._
+- **Scenario 3.** You can add a domain or domains to the **Block** list. _If you do this it will **Allow** all other domains._
 
 ## Learn more
 

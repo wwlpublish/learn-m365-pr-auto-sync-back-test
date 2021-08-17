@@ -87,7 +87,10 @@ On the **Identity Daemon - API Permissions** panel, select the button **Grant ad
 
 ## Create a headless application
 
-You'll use a .NET Core console application to run as a service. This app can then be configured to run on a defined schedule with no user involvement.
+> [!NOTE]
+> The instructions below assume you are using .NET 5. They were last tested using v5.0.202 of the .NET 5 SDK.
+
+You'll use a .NET 5 console application to run as a service. This app can then be configured to run on a defined schedule with no user involvement.
 
 Open your command prompt, navigate to a directory where you have rights to create your project, and run the following command to create a new .NET Core console application:
 

@@ -62,7 +62,7 @@ For more information on what each template contains and how to use it, see [Use 
 
 ## What is call analytics?
 
-Call analytics allow you to view detailed information about a specific users Teams calls. The information includes data about devices used, networks, how apps connected to the network, and the overall quality of calls and meetings. Compare this to information in the CQD, you'd use the information there to be pro-active about call quality. The information in call analytics will be used reactively after users have finished their calls.
+Call analytics allow you to view detailed information about a specific user's Teams calls. The information includes data about devices used, networks, how apps connected to the network, and the overall quality of calls and meetings. Compare this to information in the CQD, you'd use the information there to be pro-active about call quality. The information in call analytics will be used reactively after users have finished their calls.
 
 To enable call analytics, you'll need to upload the same building data that the CQD uses to provide enhanced location reports. You can reuse the same files. Begin with signing in to the [Microsoft Teams admin center](https://admin.teams.microsoft.com/reporting-labels), then select **Locations**.
 

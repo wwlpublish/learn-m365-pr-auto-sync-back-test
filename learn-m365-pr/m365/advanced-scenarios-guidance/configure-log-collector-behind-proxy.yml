@@ -3,7 +3,7 @@ uid: learn-m365.advanced-scenarios-guidance.configure-log-collector-behind-proxy
 metadata:
   title: Configure a log collector to connect to Microsoft Cloud App Security from behind a proxy
   description: Advanced scenarios and guidance with Microsoft Cloud App Security
-  ms.date: 05/14/2021
+  ms.date: 07/19/2021
   author: alistairmatthews
   ms.author: beccarobins
   ms.topic: interactive-tutorial
