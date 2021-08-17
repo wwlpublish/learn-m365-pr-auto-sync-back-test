@@ -10,6 +10,6 @@ metadata:
   ms.author: beccarobins
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-durationInMinutes: 5
+durationInMinutes: 20
 content: |
   [!include[](includes/investigate-attacks.md)]
