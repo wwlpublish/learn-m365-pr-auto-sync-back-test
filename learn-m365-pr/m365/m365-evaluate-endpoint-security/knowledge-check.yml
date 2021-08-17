@@ -1,16 +1,16 @@
 ### YamlMime:ModuleUnit
 uid: learn-m365-pr.m365-evaluate-endpoint-security.knowledge-check
-title: Knowledge check 
+title: Knowledge check
 metadata:
   unitType: knowledge_check
-  title: Knowledge check 
-  description: Check your knowledge 
+  title: Knowledge check
+  description: Check your knowledge
   ms.date: 07/19/2021
   author: iankensey
   ms.author: beccarobins
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-durationInMinutes: 3 
+durationInMinutes: 3
 content: |
 quiz:
   questions:
@@ -29,13 +29,13 @@ quiz:
     choices:
     - content: "Threat simulator scenarios, Real-threat scenarios"
       isCorrect: false
-      explanation: "Real-threat scenarios isn't a valid scenario type in the evaluation lab."
+      explanation: "'Real-threat scenarios' isn't a valid scenario type in the evaluation lab."
     - content: "Threat simulator scenarios, Do-It-Yourself scenarios"
       isCorrect: true
       explanation: "You can use either type to help you to evaluate capabilities."
     - content: "Do-It-Yourself scenarios, Self-correcting scenarios "
       isCorrect: false
-      explanation: "Self-correcting scenarios isn't a valid scenario type in the evaluation lab."
+      explanation: "'Self-correcting scenarios' isn't a valid scenario type in the evaluation lab."
   - content: "How will you find the simulation gallery in the portal?"
     choices:
     - content: "In the navigation pane, select Updated gallery > Tutorials & simulations"

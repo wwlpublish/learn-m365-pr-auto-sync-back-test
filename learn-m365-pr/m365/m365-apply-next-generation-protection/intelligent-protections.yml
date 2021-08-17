@@ -1,15 +1,15 @@
 ### YamlMime:ModuleUnit
 uid: learn-m365-pr.apply-next-generation-protection-with-microsoft-defender-for-endpoint.intelligent-protections
-title: Get intelligent protections with Microsoft Defender for Endpoint’s next-generation protection
+title: Get intelligent protection with Microsoft Defender for Endpoint's next-generation protection
 metadata:
   unitType: learning-content
-  title: Get intelligent protections with Microsoft Defender for Endpoint’s next-generation protection
+  title: Get intelligent protection with Microsoft Defender for Endpoint's next-generation protection
   description: Here, you'll learn about the next-generation malware protection features that you can use to prevent attacks in Microsoft Defender for Endpoint.
   ms.date: 07/06/2021
   author: alistairmatthews
   ms.author: beccarobins
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-durationInMinutes: 10
+durationInMinutes: 5
 content: |
-  [!include[](includes/intelligent-protections.md)]
+  [!include[](includes/intelligent-protection.md)]

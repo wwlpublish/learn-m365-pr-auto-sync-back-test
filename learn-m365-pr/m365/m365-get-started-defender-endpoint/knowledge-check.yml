@@ -41,12 +41,12 @@ quiz:
     - content: "Onboard"
       isCorrect: false
       explanation: "This isn't the second phase. This is the final phase."
-    - content: "Prepare"
+    - content: "Plan"
       isCorrect: false
       explanation: "This isn't the second phase. This is the first phase."
-    - content: "Setup"
+    - content: "Prepare"
       isCorrect: true
-      explanation: "This phase occurs after the prepare phase, and before the onboard phase."
+      explanation: "This phase occurs after the plan phase, and before the onboard phase."
   - content: "Which deployment tool should be used to deploy Microsoft Defender for Endpoint for evaluation?"
     choices:
     - content: "Cloud-native"
