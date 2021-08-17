@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.explore-teams.integration-microsoft-365
+title: Explore Microsoft Teams integration with Microsoft 365
+metadata:
+  title: Explore Microsoft Teams integration with Microsoft 365
+  description: "Explore Microsoft Teams integration with Microsoft 365"
+  ms.date: 08/17/2021
+  author: wwlpublish
+  ms.author: jennyche
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+durationInMinutes: 5
+content: |
+  [!include[](includes/3-integration-microsoft-365.md)]

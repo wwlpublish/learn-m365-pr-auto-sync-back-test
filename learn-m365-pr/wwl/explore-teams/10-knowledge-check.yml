@@ -1,0 +1,51 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.explore-teams.knowledge-check
+title: Knowledge check
+metadata:
+  title: Knowledge check
+  description: "Knowledge check"
+  ms.date: 08/17/2021
+  author: wwlpublish
+  ms.author: jennyche
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+durationInMinutes: 5
+content: |
+  [!include[](includes/10-knowledge-check.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "Which of the following groups can be upgraded to Microsoft 365 groups?"
+    choices:
+    - content: "Security groups"
+      isCorrect: false
+      explanation: "That's incorrect. Security groups can not be upgraded to Microsoft 365 groups. Try again."
+    - content: "Distribution groups"
+      isCorrect: true
+      explanation: "That's correct. You can convert distribution groups to Microsoft 365 groups."
+    - content: "Mail-enabled security groups"
+      isCorrect: false
+      explanation: "That's incorrect. Mail-enabled security groups can not be upgraded to Microsoft 365 groups. Try again."
+  - content: "You are the Teams Administrator in Contoso Ltd. A team has been created for the new series of marketing campaigns with external vendors. The team owner wants to restrict sensitive information to only a subset of the team members, including external vendors' managers. Which solution should you recommend to the team owner?"
+    choices:
+    - content: "Create a new team"
+      isCorrect: false
+      explanation: "That's incorrect. Creating a new team is not a recommended solution. Try again."
+    - content: "Create a private channel"
+      isCorrect: true
+      explanation: "That's correct. Private channels restrict access to conversations, files, and apps to a limited subset of team members. This enables private collaboration within a project or department."
+    - content: "Create a standard channel"
+      isCorrect: false
+      explanation: "That's incorrect. All the members of the team can access the content shared in standard channels. Try again."
+  - content: "What is a mandatory basis for a team creation?"
+    choices:
+    - content: "A Distribution group"
+      isCorrect: false
+      explanation: "That's incorrect. A Distribution group is not required for a team creation. Try again."
+    - content: "A Microsoft 365 group"
+      isCorrect: true
+      explanation: "That's correct. When a team is created, a Microsoft 365 group is associated to the team."
+    - content: "A yammer group"
+      isCorrect: false
+      explanation: "That's incorrect. A yammer group is not required for a team creation. Try again."
