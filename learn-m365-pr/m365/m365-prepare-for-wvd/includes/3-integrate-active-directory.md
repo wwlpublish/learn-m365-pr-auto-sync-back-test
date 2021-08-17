@@ -16,6 +16,16 @@ You can use Azure AD Connect to set up synchronization.
 
 In Azure Virtual Desktop, your remote sessions use AD DS the same way that your current virtual and physical desktop environment on premises does for session logins at the VM layer. You have the following options to connect with or provision AD DS for Azure Virtual Desktop:  
 
-- **Deploy a domain controller in a hosted Windows Server VM running in Azure.** The domain controller runs standalone in a virtual network or connects with your on-premises directory service. This is the least expensive method, but it requires you to manage the virtual machine (VM). You need to make sure the VM is highly available and connected to the same virtual network your Azure Virtual Desktop session hosts are connected to.  
+- **Deploy a domain controller in a hosted Windows Server VM running in Azure.** The domain controller runs standalone in a virtual network or connects with your on-premises directory service. This is the least expensive method, but it requires you to manage the virtual machine (VM). You need to make sure the VM is highly available and connected to the same virtual network your Azure Virtual Desktop session hosts are connected to. 
+
+   :::image type="content" source="../media/3-virtual-machine-hosted-active-directory-domain-services.svg" alt-text="Illustration of an Active Directory Domain Server hosted in an Azure virtual machine that has its virtual network peered to Azure Virtual Desktop." border="false":::
+
+:::image-end::: 
 - **Provision Azure Active Directory Domain Services (Azure AD DS).** This is AD DS as a service. You don't have to maintain any domain controller VMs. You connect Azure AD DS to the same virtual network as your Azure Virtual Desktop environment. You can use Azure AD DS with or without a local AD. If you connect it to your on-premises domain, it behaves like your current domain controllers, without the management overhead.
+
+  :::image type="content" source="../media/3-azure-active-directory-domain-services.svg" alt-text="Illustration of Azure Active Directory Domain Services that has its virtual network peered to Azure Virtual Desktop. " border="false":::
+
 - **Connect your network to Azure and establish a connection between your datacenter and Azure.** When making the connection, ensure that the domain controllers you operate are securely available to Azure Virtual Desktop VMs running in Azure. You can use a VPN connection or use Azure ExpressRoute for connectivity.  
+
+  :::image type="content" source="../media/3-hybrid-express-route.svg" alt-text="Illustration of an on-premises Active Directory connected to Azure Active Directory with Azure ExpressRoute and Azure AD Connect." border="false":::
+
