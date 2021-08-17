@@ -1,0 +1,34 @@
+### YamlMime:Module
+uid: learn-m365-pr.defender-identity-defend-attacks
+metadata:
+  moduleType: standard
+  title: Help defend against attacks with Microsoft Defender for Identity
+  description:  Learn how Microsoft Defender for Identity helps you to protect your environment against different types of threats by enabling you to detect and investigate attempts to compromise credentials, lateral movement attacks, reconnaissance activity, and more.
+  ms.date: 04/26/2021
+  author: GeoffAllix
+  ms.author: beccarobins
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Help defend against attacks with Microsoft Defender for Identity
+summary:  Learn how Microsoft Defender for Identity helps you to protect your environment against different types of threats by enabling you to detect and investigate attempts to compromise credentials, lateral movement attacks, reconnaissance activity, and more.
+abstract: |
+  By the end of this module, you'll be able to:
+  - Understand threat detection in Microsoft Defender for Identity.
+  - Understand threat investigation in Microsoft Defender for Identity.
+prerequisites: | 
+  - None
+iconUrl: /learn/achievements/generic-badge.svg
+levels: 
+  - beginner
+roles: 
+  - security-operations-analyst
+products:
+  - m365-ems
+units:
+- learn-m365-pr.defender-identity-defend-attacks.introduction
+- learn-m365-pr.defender-identity-defend-attacks.identify-attacks
+- learn-m365-pr.defender-identity-defend-attacks.investigate-attacks
+- learn-m365-pr.defender-identity-defend-attacks.knowledge-check
+- learn-m365-pr.defender-identity-defend-attacks.summary
+badge:
+  uid: learn-m365-pr.defender-identity-defend-attacks.badge

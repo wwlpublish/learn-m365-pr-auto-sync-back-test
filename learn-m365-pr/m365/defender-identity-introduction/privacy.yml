@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-m365-pr.defender-identity-introduction.privacy
+title: Understand Microsoft Defender for Identity privacy
+metadata:
+  unitType: learning-content
+  title: Understand Microsoft Defender for Identity privacy
+  description: Learn about data privacy in Microsoft Defender for Identity.
+  ms.date: 04/22/2021
+  author: GeoffAllix
+  ms.author: beccarobins
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 4
+content: |
+  [!include[](includes/privacy.md)]

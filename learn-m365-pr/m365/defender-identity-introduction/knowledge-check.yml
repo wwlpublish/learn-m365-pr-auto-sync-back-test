@@ -1,0 +1,50 @@
+### YamlMime:ModuleUnit
+uid: learn-m365-pr.defender-identity-introduction.knowledge-check
+title: Knowledge check
+metadata:
+  unitType: knowledge_check
+  title: Knowledge check
+  description: Knowledge check for Introduction to Microsoft Defender for Identity
+  ms.date: 04/22/2021
+  author: GeoffAllix
+  ms.author: beccarobins
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 5
+content: |
+quiz:
+  title: Check your knowledge
+  questions:
+  - content: "What is Advanced Hunting?"
+    choices:
+    - content: "Advanced hunting is a threat hunting tool that can search for known and potential threats across your network."
+      isCorrect: true
+      explanation: "That's correct. Advanced hunting is a threat hunting tool that can search for known and potential threats across your network."
+    - content: "Advanced hunting is a cyber-attack technique using lateral movement paths."
+      isCorrect: false
+      explanation: "That's incorrect. Advanced hunting is not a cyber-attack technique."
+    - content: "Advanced hunting aggregates data across devices and users to display each incident "
+      isCorrect: false
+      explanation: "That's incorrect. Incident correlation aggregates data across devices and users to display each incident."
+  - content: "How does Microsoft Defender for Identity protect AD FS?"
+    choices:
+    - content: "Microsoft Defender for Identity protects AD FS by detecting cloud-based attacks on AD FS to enable you to ensure that your whole hybrid environment is protected."
+      isCorrect: false
+      explanation: "That's incorrect. Microsoft Defender for Identity doesn't detect cloud-based attacks on AD FS."
+    - content: "Microsoft Defender for Identity protects AD FS by detecting on-premises attacks on AD FS to enable you to ensure that your whole hybrid environment is protected."
+      isCorrect: true
+      explanation: "That's correct. Microsoft Defender for Identity protects AD FS by detecting on-premises attacks on AD FS to enable you to ensure that your whole hybrid environment is protected."
+    - content: "Microsoft Defender for Identity protects AD FS by detecting on-premises and cloud-based attacks on AD FS to enable you to ensure that your whole hybrid environment is protected."
+      isCorrect: false
+      explanation: "That's incorrect. Microsoft Defender for Identity doesn't detect cloud-based attacks on AD FS."
+  - content: "Where is my Microsoft Defender for Identity data stored?"
+    choices:
+    - content: "Microsoft Defender for Identity data is stored in the country data center closest to the geographical location of your Azure Active Directory tenant."
+      isCorrect: true
+      explanation: "That's correct. Microsoft Defender for Identity data is stored in the country data center closest to the geographical location of your Azure Active Directory tenant."
+    - content: "The data location is specified on initial configuration of Microsoft Defender for Identity."
+      isCorrect: false
+      explanation: "That's incorrect. The location of data cannot be specified in the configuration of Microsoft Defender for Identity."
+    - content: "Microsoft Defender for Identity data is stored in one security data center for all customers globally."
+      isCorrect: false
+      explanation: "That's incorrect. Microsoft Defender for Identity data isn't stored in one security data center."

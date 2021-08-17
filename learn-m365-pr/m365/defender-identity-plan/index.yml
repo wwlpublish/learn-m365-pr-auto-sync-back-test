@@ -1,0 +1,35 @@
+### YamlMime:Module
+uid: learn-m365-pr.defender-identity-plan
+metadata:
+  moduleType: standard
+  title: Plan for Microsoft Defender for Identity 
+  description: Get an overview of the concepts and tools that will help you to implement Microsoft Defender for Identity for your organization, including components such as the sensors, and the portal, processes like capacity planning, the setup process, and more.
+  ms.date: 04/26/2021
+  author: GeoffAllix
+  ms.author: beccarobins
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Plan for Microsoft Defender for Identity
+summary: Get an overview of the concepts and tools that will help you to implement Microsoft Defender for Identity for your organization, including components such as the sensors, and the portal, processes like capacity planning, the setup process, and more.
+abstract: | 
+  By the end of this module, you'll be able to:
+  -	Understand the architecture of Microsoft Defender for Identity.
+  -	Understand capacity planning for Microsoft Defender for Identity.
+  -	Understand the setup process for Microsoft Defender for Identity.
+prerequisites: | 
+  - None
+iconUrl: /learn/achievements/generic-badge.svg
+levels: 
+  - beginner
+roles: 
+  - security-operations-analyst
+products:
+  - m365-ems
+units:
+- learn-m365-pr.defender-identity-plan.introduction
+- learn-m365-pr.defender-identity-plan.overview-architecture
+- learn-m365-pr.defender-identity-plan.considerations
+- learn-m365-pr.defender-identity-plan.knowledge-check
+- learn-m365-pr.defender-identity-plan.summary
+badge:
+  uid: learn-m365-pr.defender-identity-plan.badge
