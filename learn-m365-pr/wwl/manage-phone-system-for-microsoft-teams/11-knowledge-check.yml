@@ -1,0 +1,51 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.manage-phone-system-for-microsoft-teams.knowledge-check
+title: Knowledge check
+metadata:
+  title: Knowledge check
+  description: "Knowledge check"
+  ms.date: 08/17/2021
+  author: wwlpublish
+  ms.author: jennyche
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+durationInMinutes: 5
+content: |
+  [!include[](includes/11-knowledge-check.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "Which of the following features is a logical extension of Microsoft Teams that enables users to place, receive, and transfer calls using their mobile devices, a headset with a laptop or PC, or one of many IP phones that work with Teams?"
+    choices:
+    - content: "Phone System"
+      isCorrect: true
+      explanation: "That's correct. Phone System is the logical extension of Microsoft Teams that can work with or replace an organization's existing private branch exchange (PBX) used by its staff to make internal and external calls. With Phone System, users can use Teams to place, receive, and transfer calls using their mobile devices, a headset with a laptop or PC, or one of many IP phones that work with Teams."
+    - content: "Calling policies"
+      isCorrect: false
+      explanation: "That's incorrect. This feature doesn't provide the listed functionality. Try again."
+    - content: "Caller ID"
+      isCorrect: false
+      explanation: "That's incorrect. This feature doesn't provide the listed functionality. Try again."
+  - content: "What does Microsoft Teams require for each auto attendant and call queue?"
+    choices:
+    - content: "a service number"
+      isCorrect: false
+      explanation: "That's incorrect. Service numbers are optional for auto attendants and call queues. Try again."
+    - content: "a Teams resource account"
+      isCorrect: true
+      explanation: "That's correct. Microsoft Teams requires a resource account for each auto attendant or call queue. Teams resource accounts aren't the same as Microsoft 365 resource accounts. Microsoft 365 resource accounts are tied to an Exchange Online mailbox and enable booking of shared resources, such as rooms."
+    - content: "a Microsoft 365 resource account"
+      isCorrect: false
+      explanation: "That's incorrect. Microsoft 365 resource accounts are tied to an Exchange Online mailbox and enable booking of shared resources, such as rooms. Try again."
+  - content: "As the Teams administrator for Northwind Traders, Allan DeYoung wants to create a policy that determines whether a user can make private calls, route calls to voicemail, and send calls to call groups. Which type of policy should Allan create to provide this functionality?"
+    choices:
+    - content: "Call park policy"
+      isCorrect: false
+      explanation: "That's incorrect. A call park policy enables an organization's users to place calls on hold. Try again."
+    - content: "caller ID policy"
+      isCorrect: false
+      explanation: "That's incorrect. A caller ID policy enables an organization to change or block the caller ID, display an alternate phone number for Teams users, block the outbound phone number, and block an incoming number from being displayed. Try again."
+    - content: "Calling policy"
+      isCorrect: true
+      explanation: "That's correct. In Microsoft Teams, calling policies control which calling and call forwarding features are available to users. The features that Allan wants to implement for Northwind Traders are enabled with calling policies."
