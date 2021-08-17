@@ -10,9 +10,11 @@ Begin adding devices for students, staff, and faculty to your cloud environment.
    ![Graphic of logos and icons being 'packaged' into a folder.](../media/package.png)
 
 3. **Save the package and prepare the devices.** Use one or more USB dives to save your settings. The Set up School PCs app will guide you through the steps to prepare the devices for enrollment.
+
    ![Graphic of computer, tablet, and mobile phone.](../media/devices.png)
 
 4. **Run the package on student devices.** Once you see the "Let's start with region" screen, you can now insert the USB drive to enroll the device. When complete, you will see a message that the setup was successful. Now the devices are classroom ready.
+
    ![Graphic of first step of the student setup process.](../media/student-setup.png)
 
 ## Enroll devices via Windows Autopilot
