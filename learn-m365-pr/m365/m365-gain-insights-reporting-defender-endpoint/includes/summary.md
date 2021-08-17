@@ -1,4 +1,4 @@
-As the security analyst for your organization, you wanted to get a better understanding and insights of the threats and vulnerabilities across your endpoints. You've learned how Microsoft Defender for Endpoint's reporting capabilities can enable you to achieve your goal, by enabling you to keep on top of the security, health, and compliance of devices, and meet your organization's unique reporting requirements.
+As the security analyst for your organization, you wanted to get a better understanding and insights of the threats and vulnerabilities across your endpoints. You've learned how Microsoft Defender for Endpoint's reporting capabilities can enable you to achieve your goal by enabling you to keep on top of the security, health, and compliance of devices, and meet your organization's unique reporting requirements.
 
 Now that you've completed this module, you should be able to:
 
