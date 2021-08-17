@@ -16,3 +16,4 @@ Now that you've completed this module, you should be able to:
 - [Tutorial: Investigate a computer](/defender-for-identity/investigate-a-computer)
 - [Tutorial: Investigate lateral movement paths](/defender-for-identity/investigate-lateral-movement-path)
 - [Tutorial: Investigate entities](/defender-for-identity/investigate-entity)
+- [Interactive guide: Detect suspicious activities and potential attacks with Microsoft Defender for Identity](https://aka.ms/MSDefenderforIdentity-IG)
