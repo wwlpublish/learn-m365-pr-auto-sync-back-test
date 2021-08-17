@@ -20,7 +20,6 @@ In Azure Virtual Desktop, your remote sessions use AD DS the same way that your 
 
    :::image type="content" source="../media/3-virtual-machine-hosted-active-directory-domain-services.svg" alt-text="Illustration of an Active Directory Domain Server hosted in an Azure virtual machine that has its virtual network peered to Azure Virtual Desktop." border="false":::
 
-:::image-end::: 
 - **Provision Azure Active Directory Domain Services (Azure AD DS).** This is AD DS as a service. You don't have to maintain any domain controller VMs. You connect Azure AD DS to the same virtual network as your Azure Virtual Desktop environment. You can use Azure AD DS with or without a local AD. If you connect it to your on-premises domain, it behaves like your current domain controllers, without the management overhead.
 
   :::image type="content" source="../media/3-azure-active-directory-domain-services.svg" alt-text="Illustration of Azure Active Directory Domain Services that has its virtual network peered to Azure Virtual Desktop. " border="false":::
