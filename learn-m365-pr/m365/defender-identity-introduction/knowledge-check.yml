@@ -15,7 +15,7 @@ content: |
 quiz:
   title: Check your knowledge
   questions:
-  - content: "What is Advanced Hunting?"
+  - content: "What is advanced hunting?"
     choices:
     - content: "Advanced hunting is a threat hunting tool that can search for known and potential threats across your network."
       isCorrect: true

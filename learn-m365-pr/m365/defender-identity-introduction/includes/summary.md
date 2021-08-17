@@ -1,8 +1,7 @@
-As the security analyst for your organization, you wanted to learn whether Microsoft Defender for Identity could help you to protect your users' identities, so that you can protect your organization. You've learned that you can use Microsoft Defender for Identity, to monitor, and respond to threats vulnerabilities across your organization's user identities for on-premises, cloud, and hybrid environments.
+As the security analyst for your organization, you wanted to learn whether Microsoft Defender for Identity could help you to protect your users' identities, so that you can protect your organization. You've learned that you can use Microsoft Defender for Identity to monitor and respond to threats and vulnerabilities across your organization's user identities for on-premises, cloud, and hybrid environments.
 
 Now that you've completed this module, you should be able to:
 
-- Understand Microsoft Defender for Identity.
 - Understand the capabilities of Microsoft Defender for Identity.
 - Understand Microsoft Defender for Identity privacy.
 
