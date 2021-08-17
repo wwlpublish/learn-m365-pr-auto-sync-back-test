@@ -3,8 +3,8 @@ uid: learn-m365.modern-management-education.knowledge-check
 title: Knowledge check
 metadata:
   title: Knowledge check
-  description:  Learn the optimal path for your K-12 school or district to follow when moving Windows devices from on-premises device management to cloud-based modern management with Microsoft.
-  ms.date: 08/02/2021
+  description: Review what you've learned about moving your K-12 school or district's Windows devices to cloud-based modern management with Microsoft 365.
+  ms.date: 08/17/2021
   author: beccarobins
   ms.author: beccarobins
   ms.topic: interactive-tutorial
@@ -15,7 +15,7 @@ content: |
 quiz:
     title: Check your knowledge
     questions:
-    - content: "Migrating identities to the cloud for students, staff and faculty leverages which two tools?"
+    - content: "Migrating identities to the cloud for students, staff, and faculty uses which two tools?"
       choices:
       - content: "Azure Active Directory Connect and School Data Sync"
         isCorrect: true
@@ -35,7 +35,7 @@ quiz:
       - content: "Enhanced security settings for student devices"
         isCorrect: false
         explanation: "That's not correct."
-      - content: "Cloud utilization for storage, printing and security"
+      - content: "Cloud utilization for storage, printing, and security"
         isCorrect: true
         explanation: "That's correct!"
 
@@ -47,7 +47,7 @@ quiz:
       - content: "Set up School PCs app and Windows Autopilot"
         isCorrect: true
         explanation: "That's correct!"
-      - content: "Enrollment Wizard and AutoEnroll+"
+      - content: "Enrollment Wizard and Auto-Enroll+"
         isCorrect: false
         explanation: "Not quite. Please try again."
 
