@@ -1,8 +1,8 @@
-As the security analyst for your organization, you understand that attacks can specifically target identities across your organization’s environment. Your organization has many users and devices, and so you need to be able to monitor for these attacks.
+As the security analyst for your organization, you understand that attacks can specifically target identities across your organization's environment. Your organization has many users and devices, and so you need to be able to monitor for these attacks.
 
-Here, you’ll learn how you can use Microsoft Defender for Identity to help you to detect for threats to your organization’s identities.
+Here, you'll learn how you can use Microsoft Defender for Identity to help you to detect for threats to your organization's identities.
 
-Attackers’ attempts to obtain identity information from your organization, are often indicated by observing processes and requests that perform some or all of the following tasks:
+Attackers' attempts to obtain identity information from your organization, are often indicated by observing processes and requests that perform some or all of the following tasks:
 
 - Reconnaissance, probing the system for security and identity information.
 - Attempts to compromise the credentials of users, computers, or services.
@@ -18,13 +18,13 @@ An attacker may take an incremental approach, taking advantage of lateral moveme
 
 ## Detect malicious activity
 
-You can use Microsoft Defender for Identity to detect many of the events associated with attackers’ actions during their tasks and raise alerts that capture the data for the observed activities. An administrator in your organization can then investigate these activities in more detail.
+You can use Microsoft Defender for Identity to detect many of the events associated with attackers' actions during their tasks and raise alerts that capture the data for the observed activities. An administrator in your organization can then investigate these activities in more detail.
 
 :::image type="content" source="../media/sa-timeline.png" alt-text="A diagram that shows the alerts timeline in Microsoft Defender for Identity.":::
 
 ## Detect reconnaissance activity
 
-You can use Microsoft Defender for Identity to detect reconnaissance activities. Reconnaissance activity can take several different forms. For example, an attacker could mount an account reconnaissance process that attempts to guess your users’ user names in your domain by sending sign-in requests to see which credentials works. 
+You can use Microsoft Defender for Identity to detect reconnaissance activities. Reconnaissance activity can take several different forms. For example, an attacker could mount an account reconnaissance process that attempts to guess your users' user names in your domain by sending sign-in requests to see which credentials works. 
 
 Other types of reconnaissance activity include:
 
@@ -39,7 +39,7 @@ A common strategy used by attackers is the brute-force attack, in which your env
 
 ## Detect possible lateral movement attacks
 
-A lateral movement attack occurs when the stolen credentials obtained from a lower priority or less-well protected account (user or server) and these credentials are used to gain access to more of your organization’s sensitive accounts and services. Once an attacker has gained access to your network, the attacker could use various tools and techniques to dig deeper into the compromised environment, obtaining ever more privileges and infiltrating more of your organization's sensitive servers.
+A lateral movement attack occurs when the stolen credentials obtained from a lower priority or less-well protected account (user or server) and these credentials are used to gain access to more of your organization's sensitive accounts and services. Once an attacker has gained access to your network, the attacker could use various tools and techniques to dig deeper into the compromised environment, obtaining ever more privileges and infiltrating more of your organization's sensitive servers.
 
 This  form of attack is often possible if the two accounts share resources. For example, the hashed credentials for a sensitive user could be stored on the device of a less sensitive user. An attacker might be able to retrieve these credentials to access other resources available to the sensitive user. The link between the two accounts is called a **lateral movement path**.
 

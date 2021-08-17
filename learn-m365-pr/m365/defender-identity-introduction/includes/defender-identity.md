@@ -1,8 +1,8 @@
-Your organization has many systems and devices across multiple locations. Users in your organization use their devices 24 hours a day, seven days a week. Your users must be protected, to protect your systems, and ultimately your organization. As a member of the security team, you want to get a basic understanding of Microsoft Defender for Identity to find out if it can help you to detect for threats across your organization’s systems.
+Your organization has many systems and devices across multiple locations. Users in your organization use their devices 24 hours a day, seven days a week. Your users must be protected, to protect your systems, and ultimately your organization. As a member of the security team, you want to get a basic understanding of Microsoft Defender for Identity to find out if it can help you to detect for threats across your organization's systems.
 
-Here, you’ll learn what Microsoft Defender for Identity is.
+Here, you'll learn what Microsoft Defender for Identity is.
 
-## Use Microsoft Defender for Identity to protect your users’ identities
+## Use Microsoft Defender for Identity to protect your users' identities
 
 Microsoft Defender for Identity is a cloud-based security solution that uses your on-premises Active Directory signals to enable you to identify, detect, and investigate advanced threats, compromised identities, and malicious insider actions directed at your organization.
 

@@ -27,7 +27,7 @@ quiz:
       explanation: "That's incorrect. A lateral movement path is not a mechanism for decrypting data that doesn't require an encryption key."
   - content: "What is the exfiltration phase?"
     choices:
-    - content: "When an attacker attempts to guess your users’ user names in your domain by sending sign-in requests to see which credentials works."
+    - content: "When an attacker attempts to guess your users' user names in your domain by sending sign-in requests to see which credentials works."
       isCorrect: false
       explanation: "That's incorrect. The exploit is something that happens during the reconnaissance phase."
     - content: "When an attacker transfers account and security data to an off-site location for subsequent use."

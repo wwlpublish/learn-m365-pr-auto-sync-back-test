@@ -1,12 +1,12 @@
-You’ve learned about the architecture of Microsoft Defender for Identity. But to get decision makers onboard, you’ll need to identify the key information that must be considered in order to implement Microsoft Defender for Identity for your organization.
+You've learned about the architecture of Microsoft Defender for Identity. But to get decision makers onboard, you'll need to identify the key information that must be considered in order to implement Microsoft Defender for Identity for your organization.
 
 ## Identify the requirements
 
-To inform decision makers in your organization about how you’ll implement Microsoft Defender for Identity successfully, you’ll need to look into its requirements. These requirements cover a range of categories, including requirements for using the portal to access Microsoft Defender for Identity, requirements for sensors, and more. Details of prerequisites are out of scope for this module. But you can use the link in the **Learn more** section for the latest information on them.
+To inform decision makers in your organization about how you'll implement Microsoft Defender for Identity successfully, you'll need to look into its requirements. These requirements cover a range of categories, including requirements for using the portal to access Microsoft Defender for Identity, requirements for sensors, and more. Details of prerequisites are out of scope for this module. But you can use the link in the **Learn more** section for the latest information on them.
 
 ## Use capacity planning
 
-It’s also important to consider capacity planning. Capacity planning is when you determine the number of Microsoft Defender for Identity sensors you’ll need for your organization.
+It's also important to consider capacity planning. Capacity planning is when you determine the number of Microsoft Defender for Identity sensors you'll need for your organization.
 
 To plan for the number of sensors you need, you can use the Microsoft Defender for Identity Sizing Tool, or if using this tool is not possible, perform a domain controller traffic estimation.
 

@@ -1,4 +1,4 @@
-As the security analyst for your organization, you wanted to find out how Microsoft Defender for Identity could help you to protect your environment from attackers. You’ve learned that you can use Microsoft Defender for Identity to detect and investigate different types of suspicious activity that indicates attempts to locate and compromise information from users, computers, and services running in your environment.
+As the security analyst for your organization, you wanted to find out how Microsoft Defender for Identity could help you to protect your environment from attackers. You've learned that you can use Microsoft Defender for Identity to detect and investigate different types of suspicious activity that indicates attempts to locate and compromise information from users, computers, and services running in your environment.
 
 Now that you've completed this module, you should be able to:
 

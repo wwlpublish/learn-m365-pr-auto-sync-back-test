@@ -1,6 +1,6 @@
-You’ve learned that you can use Microsoft Defender for Identity to detect for different kinds of attacks to your organizations’ identities. But as the security analyst for your organization, you also need to be able to understand them and so that you can address them and prevent them from happening again in the future.
+You've learned that you can use Microsoft Defender for Identity to detect for different kinds of attacks to your organizations' identities. But as the security analyst for your organization, you also need to be able to understand them and so that you can address them and prevent them from happening again in the future.
 
-Here, you’ll learn how to perform investigations in response to attacks.
+Here, you'll learn how to perform investigations in response to attacks.
 
 ## Investigate malicious activity
 
@@ -45,4 +45,4 @@ To minimize the possibilities of lateral movement paths, you can consider the fo
 
 ## Investigate entities
 
-An entity is a user, computer, or device within a domain. With Microsoft Defender for Identity, you’ll get a detail page for each entity in a domain. It that contains detailed information, including the resources they have access to, and their history. The profile page uses the Microsoft Defender for Identity logical activity translator that can look at a group of activities occurring (aggregated up to a minute) and group them into a single logical activity to give you a better understanding of the actual activities of your users.
+An entity is a user, computer, or device within a domain. With Microsoft Defender for Identity, you'll get a detail page for each entity in a domain. It that contains detailed information, including the resources they have access to, and their history. The profile page uses the Microsoft Defender for Identity logical activity translator that can look at a group of activities occurring (aggregated up to a minute) and group them into a single logical activity to give you a better understanding of the actual activities of your users.

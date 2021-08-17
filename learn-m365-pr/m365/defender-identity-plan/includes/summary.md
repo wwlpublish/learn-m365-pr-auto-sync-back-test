@@ -1,4 +1,4 @@
-As the security analyst your organization, you wanted to inform your decision makers about the elements and processes that will help you to implement Microsoft Defender for Identity for your organization. In this module, you’ve learned about these key elements and processes. 
+As the security analyst your organization, you wanted to inform your decision makers about the elements and processes that will help you to implement Microsoft Defender for Identity for your organization. In this module, you've learned about these key elements and processes. 
 
 Now that you've completed this module, you should be able to:
 

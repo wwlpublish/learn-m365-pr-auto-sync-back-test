@@ -14,14 +14,14 @@ durationInMinutes: 5
 content: |
 quiz:
   questions:
-  - content: "What are the high-level tasks you’ll carry out during the setup process for Microsoft Defender for Identity?"
+  - content: "What are the high-level tasks you'll carry out during the setup process for Microsoft Defender for Identity?"
     choices:
     - content: "Remove sensors, then connect your Microsoft Defender for Identity instance to Active Directory."
       isCorrect: false
-      explanation: "You don’t remove sensors, you need to install them. Also, you connect your instance before you install any sensors."
+      explanation: "You don't remove sensors, you need to install them. Also, you connect your instance before you install any sensors."
     - content: "Download and install sensors, then create and connect your Microsoft Defender for Identity instance to your Active Directory."
       isCorrect: false
-      explanation: "Download and install the sensors only after you’ve created and connected to your instance."
+      explanation: "Download and install the sensors only after you've created and connected to your instance."
     - content: "Create and connect your Microsoft Defender for Identity instance to your Active Directory, then download and install sensors."
       isCorrect: true
       explanation: "Correct. These tasks will enable you to set up Microsoft Defender for Identity."
