@@ -12,7 +12,7 @@ Attackers' attempts to obtain identity information from your organization, are o
 
 Attackers often perform these tasks as a series of phases. For example, the *Reconnaissance phase* is often the starting point for an attacker, followed by the *Compromise* phase to gain a foothold in your system by gaining access to a weakly protected computer, service, or user account. At this point, the compromised account can be used by the attacker in the *Collection phase* to probe and infiltrate other parts of your system by gathering information about other more valuable accounts and assets in your environment.
 
-An attacker may take an incremental approach, taking advantage of lateral movement paths (described later) to gain access to accounts with increasing privileges until they gain rights over your entire domain. At this point, the attacker can modify the security structure of the domain, replace encryption keys, grant and deny rights to users, and read or write any data in the domain. This stage is known as the Domain dominance phase. Once an attacker has control, they might transfer the account and security data (keys, passwords, and so on) to an off-site location for subsequent use. This stage is the *Exfiltration* phase. At some point in the future, this information could be used to launch a  larger attack on the system, or steal data from the organization.
+An attacker may take an incremental approach, taking advantage of lateral movement paths (described later) to gain access to accounts with increasing privileges until they gain rights over your entire domain. At this point, the attacker can modify the security structure of the domain, replace encryption keys, grant and deny rights to users, and read or write any data in the domain. This stage is known as the Domain dominance phase. Once an attacker has control, they might transfer the account and security data (keys, passwords, and so on) to an off-site location for subsequent use. This stage is the *Exfiltration* phase. At some point in the future, this information could be used to launch a larger attack on the system, or steal data from the organization.
 
 :::image type="content" source="../media/attack.png" alt-text="A diagram that shows the phases of an attack.":::
 
@@ -24,23 +24,23 @@ You can use Microsoft Defender for Identity to detect many of the events associa
 
 ## Detect reconnaissance activity
 
-You can use Microsoft Defender for Identity to detect reconnaissance activities. Reconnaissance activity can take several different forms. For example, an attacker could mount an account reconnaissance process that attempts to guess your users' user names in your domain by sending sign-in requests to see which credentials works. 
+You can use Microsoft Defender for Identity to detect reconnaissance activities. Reconnaissance activity can take several different forms. For example, an attacker could mount an account reconnaissance process that attempts to guess your users' user names in your domain by sending sign-in requests to see which credentials works.
 
 Other types of reconnaissance activity include:
 
 - **Active Directory scanning.** An attacker can attempt to access your directory to gain information about your domain, such as its structure, user accounts, computers, devices, group membership, connections to other domains, and so on. An LDAP attack can also target security principals stored in the directory to identify privileged accounts and services.
-- **Network mapping.** In this type of reconnaissance, an attacker submits Domain Name Server (DNS) queries to try to establish the structure of your network and the names and address of devices on the network. 
+- **Network mapping.** In this type of reconnaissance, an attacker submits Domain Name Server (DNS) queries to try to establish the structure of your network and the names and address of devices on the network.
 
 :::image type="content" source="../media/smb-enumeration.png" alt-text="A screenshot that shows user and IP address reconnaissance in progress.":::
 
 ## Detect attempts to compromise credentials
 
-A common strategy used by attackers is the brute-force attack, in which your environment is repeatedly hit with sign-in requests until a valid user name and password combination is found. These credentials can be saved by the attacker for later use. Despite its name, an attacker can also perform a brute force attack in a subtle manner in an attempt to reduce suspicion by making their actions follow a pattern similar to actions followed by legitimate users. For example, a process attempting to guess a password can often be hidden under a large volume of real sign-in activity if your environment normally experiences a large scale of sign-ins.  With Microsoft Defender for Identity, you can monitor for these types of attacks.
+A common strategy used by attackers is the brute-force attack, in which your environment is repeatedly hit with sign-in requests until a valid user name and password combination is found. These credentials can be saved by the attacker for later use. Despite its name, an attacker can also perform a brute force attack in a subtle manner in an attempt to reduce suspicion by making their actions follow a pattern similar to actions followed by legitimate users. For example, a process attempting to guess a password can often be hidden under a large volume of real sign-in activity if your environment normally experiences a large scale of sign-ins. With Microsoft Defender for Identity, you can monitor for these types of attacks.
 
 ## Detect possible lateral movement attacks
 
 A lateral movement attack occurs when the stolen credentials obtained from a lower priority or less-well protected account (user or server) and these credentials are used to gain access to more of your organization's sensitive accounts and services. Once an attacker has gained access to your network, the attacker could use various tools and techniques to dig deeper into the compromised environment, obtaining ever more privileges and infiltrating more of your organization's sensitive servers.
-This  form of attack is often possible if the two accounts share resources. For example, the hashed credentials for a sensitive user could be stored on the device of a less sensitive user. An attacker might be able to retrieve these credentials to access other resources available to the sensitive user. The link between the two accounts is called a **lateral movement path**.
+This form of attack is often possible if the two accounts share resources. For example, the hashed credentials for a sensitive user could be stored on the device of a less sensitive user. An attacker might be able to retrieve these credentials to access other resources available to the sensitive user. The link between the two accounts is called a **lateral movement path**.
 
 ## Detect outflow of sensitive items
 

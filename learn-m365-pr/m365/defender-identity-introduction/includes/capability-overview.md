@@ -1,8 +1,8 @@
-You've learned that you can use Microsoft Defender for Identity to help you to detect for threats across your organization's user identities.  But you want to know more about how you can use it to protect your users' identities, so that you can protect your organization. Here, you'll learn about some of the key capabilities Microsoft Defender for Identity uses to protect your user identities.
+You've learned that you can use Microsoft Defender for Identity to help you to detect for threats across your organization's user identities. But you want to know more about how you can use it to protect your users' identities, so that you can protect your organization. Here, you'll learn about some of the key capabilities Microsoft Defender for Identity uses to protect your user identities.
 
 ## Monitor and profile user behavior and activities
 
-You can use Microsoft Defender for Identity to analyze user activity and information from domain controllers to build a baseline profile for each user. Through artificial intelligence, you can use Microsoft Defender for Identity to detect anomalies and reveal  suspicious activities, compromised users, and insider threats in your organization.
+You can use Microsoft Defender for Identity to analyze user activity and information from domain controllers to build a baseline profile for each user. Through artificial intelligence, you can use Microsoft Defender for Identity to detect anomalies and reveal suspicious activities, compromised users, and insider threats in your organization.
 
 ## Protect user identities and reduce the attack surface
 
