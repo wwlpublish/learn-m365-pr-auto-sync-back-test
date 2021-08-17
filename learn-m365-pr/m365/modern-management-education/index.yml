@@ -2,16 +2,16 @@
 uid: learn-m365.modern-management-education
 metadata:
   title: Move to easy cloud-based modern management for education with Microsoft 365
-  description: Learn the optimal path for your K-12 school or district to follow when moving Windows devices from on-premises device management to cloud-based modern management with Microsoft 365.
+  description: Learn about the optimal path for moving your K-12 school or district's Windows devices from on-premises device management to cloud-based modern management with Microsoft 365.
   ms.date: 08/13/2021
   author: beccarobins
   ms.author: beccarobins
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Move to easy cloud-based modern management for education with Microsoft 365
-summary: Learn the optimal path for your K-12 school or district to follow when moving Windows devices from on-premises device management to cloud-based modern management with Microsoft 365.
+summary: Learn about the optimal path for moving your K-12 school or district's Windows devices from on-premises device management to cloud-based modern management with Microsoft 365.
 abstract: |
- After completing this module you’ll be able to: 
+ After completing this module, you’ll be able to: 
  - Migrate identities to the cloud via Azure Active Directory with School Data Sync
  - Set up your Microsoft 365 tenant to fit the needs of your school
  - Enroll devices at scale with either Windows Autopilot or the Set up School PCs app
