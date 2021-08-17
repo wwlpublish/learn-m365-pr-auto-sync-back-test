@@ -3,13 +3,13 @@ uid: learn-m365-pr.m365-evaluate-endpoint-security.use-evaluation-lab
 title: Use the evaluation lab
 metadata:
   unitType: learning-content
-  title: Use the evaluation lab 
-  description: Learn about how to use the evaluation lab in Microsoft Defender for Endpoint 
+  title: Use the evaluation lab
+  description: Learn about how to use the evaluation lab in Microsoft Defender for Endpoint
   ms.date: 07/19/2021
   author: iankensey
   ms.author: beccarobins
-  ms.topic: interactive-tutorial 
+  ms.topic: interactive-tutorial
   ms.prod: learning-m365
-durationInMinutes: 4 
+durationInMinutes: 4
 content: |
   [!include[](includes/use-evaluation-lab.md)]

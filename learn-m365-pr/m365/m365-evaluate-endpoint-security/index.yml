@@ -2,27 +2,27 @@
 uid: learn-m365-pr.m365-evaluate-endpoint-security
 metadata:
   moduleType: standard
-  title: Evaluate endpoint security in Microsoft Defender for Endpoint 
-  description: Learn about the different capabilities that you can use to evaluate endpoint security using Microsoft Defender for Endpoint, including the evaluation lab, the simulation gallery, the different types of attack simulation scenarios, and more.
+  title: Evaluate endpoint security in Microsoft Defender for Endpoint
+  description: Learn about the different capabilities you can use to evaluate endpoint security using Microsoft Defender for Endpoint including the evaluation lab, the simulation gallery, different types of attack simulation scenarios, and more.
   ms.date: 07/19/2021
   author: iankensey
   ms.author: beccarobins
-  ms.topic: interactive-tutorial 
+  ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Evaluate endpoint security in Microsoft Defender for Endpoint
-summary: Learn about the different capabilities that you can use to evaluate endpoint security using Microsoft Defender for Endpoint, including the evaluation lab, the simulation gallery, the different types of attack simulation scenarios, and more.
-abstract: | 
+summary: Learn about the different capabilities you can use to evaluate endpoint security using Microsoft Defender for Endpoint including the evaluation lab, the simulation gallery, different types of attack simulation scenarios, and more.
+abstract: |
   By the end of this module, you'll be able to:
   
   - Understand the evaluation lab
   - Understand the simulation gallery
   - Understand attack simulation scenarios
-prerequisites: | 
+prerequisites: |
   - Basic familiarity with Microsoft Defender for Endpoint
 iconUrl: /learn/achievements/generic-badge.svg
-levels: 
+levels:
   - beginner
-roles: 
+roles:
   - security-operations-analyst
   - security-engineer
 products:
