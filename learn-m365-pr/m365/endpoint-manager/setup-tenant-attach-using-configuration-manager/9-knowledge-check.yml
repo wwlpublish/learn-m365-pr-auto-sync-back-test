@@ -22,7 +22,7 @@ quiz:
     - content: "Tenant attach allows you to recognize your Configuration Manager devices and infrastructure by the Intune cloud service and take actions from Microsoft Endpoint Manager."
       isCorrect: true
       explanation: "Tenant attach enables all your on-premises endpoints using Microsoft Endpoint Manager."
-    - content: "Tenant attach sets up synchronization between your Azure Active Directory instance and M365. When you use tenant attach, you no longer need to use Microsoft Endpoint Manager."
+    - content: "Tenant attach sets up synchronization between your Azure Active Directory instance and Microsoft 365. When you use tenant attach, you no longer need to use Microsoft Endpoint Manager."
       isCorrect: false
       explanation: "Tenant attach allows you to recognize your Configuration Manager devices and infrastructure."
   - content: "When implementing tenant attach, why is enabling internet endpoints important?"
