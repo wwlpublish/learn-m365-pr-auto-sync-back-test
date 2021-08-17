@@ -1,4 +1,4 @@
-As a member of the security team of your organization, you understand that you must have a healthy approach to security. This means that you want to be able to carry out the identification, assessment, and remediation of endpoint vulnerabilities and threats.
+As a member of the security team of your organization, you understand that you must have a healthy approach to security. This means that you want to carry out identification, assessment, and remediation of endpoint vulnerabilities and threats.
 
 Here, you'll learn about vulnerability management in Microsoft Defender for Endpoint.
 
@@ -7,7 +7,7 @@ Here, you'll learn about vulnerability management in Microsoft Defender for Endp
 Threat and vulnerability management is a component of Microsoft Defender for Endpoint. It provides built-in tools and features that allow you to manage threats and vulnerabilities across your environments, because you're able to:
 
 - **Discover misconfigurations and vulnerabilities in real-time**
-  - Devices onboarded to Defender for Endpoint automatically provide information about vulnerabilities and misconfigurations. You can see security issues from the dashboard along with recommendations for remediation. You can take advantage of exposure score, which indicates device exposure to threats and vulnerabilities across your organization. In addition, Microsoft Secure Score for devices aggregates a score that indicates the general security configuration state of the devices across your organization.
+  - Devices onboarded to Defender for Endpoint automatically provide information about vulnerabilities and misconfigurations. You can see security issues from the dashboard along with recommendations for remediation. You can take advantage of _exposure score_, which indicates device exposure to threats and vulnerabilities across your organization. In addition, Microsoft Secure Score for devices aggregates a score that indicates the general security configuration state of the devices across your organization.
   - Information about software across the organization, installations, patches, and uninstallation is readily available. You'll receive reports of newly discovered vulnerabilities across apps, along with details about how to remediate them.
 
 - **Intelligently prioritize vulnerabilities**

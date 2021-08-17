@@ -1,4 +1,4 @@
-As the security analyst for your organization, you wanted to find a solution that will help you to efficiently investigate and remediate security issues across your organization's devices. You've learned that Microsoft Defender for Endpoint's automated investigation and remediation (AIR) capabilities can help you to achieve your goal.
+As the security analyst for your organization, you wanted to find a solution that will help you to efficiently investigate and remediate security issues across your organization's devices. You've learned that Microsoft Defender for Endpoint's AIR capabilities can help you to achieve your goal.
 
 Now that you've completed this module, you should be able to:
 

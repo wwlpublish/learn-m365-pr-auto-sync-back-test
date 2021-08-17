@@ -8,11 +8,11 @@ The vulnerabilities discovered on your organization's endpoints are mapped again
 
 Each security recommendation includes detailed steps that you can take to remediate a security issue. Security recommendations are intelligent and can change over time based on the information that is continuously collected across your organization, together with the status of the vulnerability, and the changing threat landscape.
 
-The security recommendations pane in the portal lists all the recommendations for your organization and is accessible from the navigation pane under **Recommendations**:
+The security recommendations pane in the portal lists all the recommendations for your organization and is accessible from the navigation pane under **Recommendations**.
 
 :::image type="content" source="../media/5-recommendations-list-inline.png" lightbox="../media/5-recommendations-list-expanded.png" alt-text="Security recommendations list.":::
 
-You can select any recommendation to find more information about it and understand how to implement it:
+You can select any recommendation to find more information about it and understand how to implement it.
 
 :::image type="content" source="../media/5-select-security-recommendation-inline.png" lightbox="../media/5-select-security-recommendation-expanded.png" alt-text="Security recommendation details.":::
 
@@ -33,7 +33,7 @@ Alternatively, you might decide that a recommendation might not be relevant or y
 
 ### Track remediation
 
-You track remediation requests in the **Remediation** pane, which you can access by selecting **Remediation** in the navigation pane. The **Remediation** pane lists all of the remediation requests (referred to as activities) for your organization. You select a specific remediation activity to view more details about the activity:
+You track remediation requests in the **Remediation** pane, which you can access by selecting **Remediation** in the navigation pane. The **Remediation** pane lists all of the remediation requests (referred to as activities) for your organization. You select a specific remediation activity to view more details about the activity.
 
 :::image type="content" source="../media/5-track-remediation-inline.png" lightbox="../media/5-track-remediation-expanded.png" alt-text="Track remediation activity.":::
 
@@ -56,7 +56,7 @@ EOS-related filters are:
 - **Upcoming EOS versions**
   - Versions that will soon be at end-of-support
 
-The security recommendations are then filtered accordingly:
+The security recommendations are then filtered accordingly.
 
 :::image type="content" source="../media/5-filtered-recommendations-inline.png" lightbox="../media/5-filtered-recommendations-expanded.png" alt-text="Filtered security recommendations.":::
 
@@ -73,7 +73,7 @@ When a zero-day vulnerability has been identified on your endpoints, you will re
 - The software inventory pane
 - The security recommendations pane
 
-You can filter your security recommendations pane using the Zero-day tag to see all of the security recommendations for zero-day vulnerabilities:
+You can filter your security recommendations pane using the _Zero-day_ tag to see all of the security recommendations for zero-day vulnerabilities:
 
 :::image type="content" source="../media/5-filter-security-recommendations-zero-day-tag-inline.png" lightbox="../media/5-filter-security-recommendations-zero-day-tag-expanded.png" alt-text="Filter the security recommendations using the zero-day tag.":::
 
@@ -81,8 +81,8 @@ To address zero-day vulnerabilities, you can select a recommendation from the li
 
 :::image type="content" source="../media/5-zero-day-security-recommendation.png" alt-text="Security recommendations for zero-day vulnerabilities." lightbox="../media/5-zero-day-security-recommendation.png":::
 
-You'll get more information and potential workarounds or mitigation options that can help:
+You'll get more information and potential workarounds or mitigation options that can help.
 
 :::image type="content" source="../media/5-recommendation-zero-day.png" alt-text="Recommendation for zero-day vulnerabilities." lightbox="../media/5-recommendation-zero-day.png":::
 
-You can use workarounds like these, until a fix becomes available. When a fix is available, the recommendation will be updated with details of the fix.
+You can use workarounds like these until a fix becomes available. When a fix is available, the recommendation will be updated with details of the fix.

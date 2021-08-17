@@ -1,17 +1,16 @@
-Your team is constantly working to address new security issues relating to new threats. You want to improve the protection of your devices against the latest threats, but you need to do it in a way that will help you to reduce time and complexity for your team. Here, you'll learn about the next-generation protection features in Microsoft Defender for Endpoint that help you to achieve this task.
+Your team is constantly working to address new security issues related to new threats. You want to improve the protection of your devices against the latest threats, but you need to do it in a way that will help you to reduce time and complexity for your team. Here, you'll learn about the next-generation protection features in Microsoft Defender for Endpoint that help you to achieve this task.
 
 ## What is Microsoft Defender next-generation protection?
 
-The traditional method of protecting devices against viruses and other malware is:
+The traditional methods of protecting devices against viruses and other malware include:
 
-- The client computers and devices run antivirus software.
-- The antivirus software provider identifies new malware and provides signature files that users download to their devices.
-- All files and processes are scanned against these signatures. When a match is found, the file or program is quarantined and blocked from running any code.
+- Running antivirus software on client computers and devices.
+- Identifying new malware and providing users with signature files to download onto their devices.
+- Scanning all files and processes against these signatures. When a match is found, the file or program is quarantined and blocked from running any code.
 
-You're aware that this flow works well in most cases but relies on the antivirus provider responding rapidly with signatures for new threats. Users have to download the latest signatures often and, although downloads are often automated, protection for new threats is not instantaneous. You've also experienced users disregarding the warnings they receive from their antivirus software and run the dangerous code anyway.
-Microsoft Defender's next-generation antivirus technologies provide automatic, instantaneous protection against new and emerging threats and close the loop holes in the traditional antivirus model.
+You're aware that this flow works well in most cases but relies on the antivirus provider responding rapidly with signatures for new threats. Users have to download the latest signatures often and, although downloads are often automated, protection for new threats is not instantaneous. You've also experienced users disregarding the warnings they receive from their antivirus software and running the dangerous code anyway. Microsoft Defender's next-generation antivirus technologies provide automatic, instantaneous protection against new and emerging threats and close the loop holes in the traditional antivirus model.
 
-Let's examine some of the capabilities that you can use in Microsoft Defender for Endpoint's next-generation protection.
+Let's examine some of the capabilities of Microsoft Defender for Endpoint's next-generation protection.
 
 ### Cloud-delivered protection
 
@@ -30,9 +29,9 @@ These next-generation cloud-delivered protection services are also known as the 
 > [!NOTE]
 > Don't think of cloud-delivered protection services as protection only for files that are stored in the cloud. These services actually protect all files wherever they are stored but obtain their threat detection from cloud services.
 
-You want to monitor for, and block, potentially unwanted applications that are not considered to be viruses, malware, but might still perform actions on your users' devices, which adversely affect their security or functionality. For example, an unwanted application might be a program or software with a poor reputation. Unwanted software that you want to block includes:
+You want to monitor for and block, potentially unwanted applications that are not considered to be viruses, malware, but might still perform actions on your users' devices, which adversely affect their security or functionality. For example, an unwanted application might be a program or software with a poor reputation. Unwanted software that you want to block includes:
 
-- Advertising software that display ads on the desktop on within web pages.
+- Advertising software that display ads on the desktop or within web pages.
 - Bundling software that offers to install software that is not digitally signed by the same entity.
 - Evasion software that circumvents security products by behaving differently in their presence.
 

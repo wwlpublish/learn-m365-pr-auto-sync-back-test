@@ -18,21 +18,21 @@ quiz:
     choices:
     - content: "Full automation"
       isCorrect: false
-      explanation: "With this automation level, automated actions are carried out without the need for approval."
+      explanation: "With this automation level, automated actions are carried out _without_ the need for approval."
     - content: "Semi-automation"
       isCorrect: true
-      explanation: "Use this automation level to ensure that automated remediation actions aren't carried out on core folders without approval."
+      explanation: "That's correct! Use this automation level to ensure that automated remediation actions aren't carried out on core folders without approval."
     - content: "No automated response."
       isCorrect: false
-      explanation: "This automation level will not allow any automation actions to be carried out at all."
-  - content: "Which section of the Microsoft 365 Defender portal will you use to track remediation actions?"
+      explanation: "That's not right. This automation level will not allow any automation actions to be carried out at all."
+  - content: "Which section of the Microsoft 365 Defender portal is used to track remediation actions?"
     choices:
     - content: "The Action center"
       isCorrect: true
       explanation: "Use the Action center to track and review remediation actions"
     - content: "The Investigation center"
       isCorrect: false
-      explanation: "This section doesn't exist."
+      explanation: "That's incorrect. This section doesn't exist."
     - content: "The Health section"
       isCorrect: false
-      explanation: "You can't use this section of the portal to turn on automated investigation and remediation."
+      explanation: "That's incorrect. You can't use this section of the portal to turn on automated investigation and remediation."
