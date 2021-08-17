@@ -5,7 +5,6 @@ Now that you've completed this module, you should be able to:
 - Understand threat detection in Microsoft Defender for Identity.
 - Understand threat investigation in Microsoft Defender for Identity.
 
-
 ## Learn more
 
 - [Tutorial: Reconnaissance alerts](/defender-for-identity/reconnaissance-alerts)

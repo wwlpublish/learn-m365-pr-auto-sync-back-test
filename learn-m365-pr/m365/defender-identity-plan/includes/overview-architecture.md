@@ -1,4 +1,4 @@
-Microsoft Defender for Identity consists of several parts that work together. To explain to decision makers how Microsoft Defender for Identity fits into your organization, you need to understand these components. 
+Microsoft Defender for Identity consists of several parts that work together. To explain to decision makers how Microsoft Defender for Identity fits into your organization, you need to understand these components.
 
 Here, you'll get an overview of them.
 
