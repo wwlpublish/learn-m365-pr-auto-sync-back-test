@@ -59,7 +59,7 @@ Organizations can use the Teams admin center to view and remotely manage their T
 
 The following chart displays examples of how an organization can manage its Teams Rooms devices. Teams Rooms devices can be found in the [Microsoft Teams admin center](https://admin.teams.microsoft.com?azure-portal=true) under **Devices** > **Teams Rooms**.
 
-For details about how to manage your Teams Rooms devices, see [Manage Microsoft Teams Rooms](../rooms/rooms-manage.md).
+For details about how to manage your Teams Rooms devices, see [Manage Microsoft Teams Rooms](/microsoftteams/rooms/rooms-manage).
 
 | To do this task...                          | Complete these steps                                                                                                                                                                                                                                                                                                                                                                          |
 |----------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|

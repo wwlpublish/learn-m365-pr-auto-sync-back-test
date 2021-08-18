@@ -20,10 +20,10 @@ quiz:
     choices:
     - content: "Microsoft Online and Exchange Online"
       isCorrect: true
-      explanation: "That's correct. There are two mandatory PowerShell modules that must be installed to create a resource account in Teams Rooms. One is the MSOnline module, which is the Azure Active Directory PowerShell module. The other is the Exchange Online PowerShell module."
+      explanation: "That's correct. There are two mandatory PowerShell modules that must be installed to create a resource account in Teams Rooms. One is the Microsoft Online module, which is the Azure Active Directory PowerShell module. The other is the Exchange Online PowerShell module."
     - content: "Microsoft Online and Azure Active Directory"
       isCorrect: false
-      explanation: "That's incorrect. The MSOnline module is the Azure Active Directory PowerShell module. They are one in the same. Try again."
+      explanation: "That's incorrect. The Microsoft Online module is the Azure Active Directory PowerShell module. They are one in the same. Try again."
     - content: "Microsoft Online and Teams"
       isCorrect: false
       explanation: "That's incorrect. The Teams PowerShell module isn't required to create a Teams Rooms account. Try again."

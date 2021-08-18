@@ -25,7 +25,7 @@ Complete the following steps to create a new resource account using the Microsof
 
 1. On the **Rooms & equipment** window, select the **+Add resource** option on the menu bar to add a new resource account. 
 
-   ![In Rooms & equipment option click +Add](../media/rooms-and-equipment-view.png)
+   ![screenshot of the Rooms & equipment page with the +Add resource option on the menu bar highlighted](../media/rooms-and-equipment-view.png)
 
 1. In the **Add resource** pane that appears, update the following fields:
 
@@ -77,7 +77,7 @@ Complete the following steps to create a new resource account using the Microsof
 
 1. To complete the resource account configuration, you must assign a license to the resource account. On the **Active users** window, select the room’s display name to open the properties pane for this account.
 
-   ![In Rooms & equipment option click +Add](../media/resource-account-license-form.png)
+   ![screenshot of the Active Users window](../media/resource-account-license-form.png)
 
 1. In the properties pane that appears, note the tabs that appear across the top of the pane. The **Account** tab is displayed by default. Select the **Licenses and apps** tab. 
 1.  In the **Licenses and apps** tab, select the check box next to the appropriate license for this resource account. 
@@ -87,7 +87,7 @@ Complete the following steps to create a new resource account using the Microsof
 
 PowerShell can also be used to create resource accounts. PowerShell is the fastest way to create accounts in bulk. If you need to create multiple accounts, you can create a PowerShell script to automate the account creation. There are also some features and settings that are only available through PowerShell.
 
-There are two mandatory PowerShell modules that must be installed to create a resource account. One is the **MSOnline** module, which is the Azure Active Directory PowerShell module. The other is the **Exchange Online** PowerShell module.
+There are two mandatory PowerShell modules that must be installed to create a resource account. One is the **Microsoft Online** module, which is the Azure Active Directory PowerShell module. The other is the **Exchange Online** PowerShell module.
 
 1. To connect to Microsoft 365, run the **Connect-MsolService** and **Connect-ExchangeOnline** cmdlets. Enter your credentials when prompted.
 2. Verify that you have enough licenses by running the following PowerShell cmdlet:
