@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.modern-management-education.introduction
+title: Introduction
+metadata:
+  title: Introduction
+  description: Review the learning objectives and the example scenario as you learn about using Microsoft 365's modern management solution for your K-12 school or district's Windows devices.
+  ms.date: 08/17/2021
+  author: beccarobins
+  ms.author: beccarobins
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+ 
+durationInMinutes: 1
+content: |
+  [!include[](includes/introduction.md)]
