@@ -18,7 +18,8 @@ abstract: |
   - Explain the architecture of Microsoft Teams and dependent services.
   - Describe Teams certified solutions.
 prerequisites: |
-  - None
+  - A proficient understanding of basic functional experience with Microsoft 365 services.
+  - A proficient understanding of general IT practices, including using PowerShell.
 iconUrl: /learn/achievements/generic-badge.svg
 levels:
 - intermediate

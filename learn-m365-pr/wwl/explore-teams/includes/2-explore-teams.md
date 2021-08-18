@@ -41,7 +41,7 @@ Microsoft Teams lets you quickly pull together a team with people inside and out
 
     * **Private channels**. Private channels are similar to standard channels, but they restrict access to conversations, files, and apps to a limited subset of team members. This enables private collaboration within a project or department. 
 
-    * **Shared channels**. Shared channels enable you to share channels with any user or group with Azure Active Directory identity to your organization. (The feature is in private preview in July 2021. For the latest status, check the roadmap with the [feature ID_70766](https://www.microsoft.com/en-us/microsoft-365/roadmap?filters=&searchterms=70766&azure-portal=true).)
+    * **Shared channels**. Shared channels enable you to share channels with any user or group with Azure Active Directory identity to your organization. (The feature is in private preview in July 2021. For the latest status, check the roadmap with the [feature ID_70766](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=70766&azure-portal=true).)
 
 Teams can be dynamic for project-based work (such as running projects), and ongoing, to reflect the internal structure of your organization (such as departments and office locations). 
 
