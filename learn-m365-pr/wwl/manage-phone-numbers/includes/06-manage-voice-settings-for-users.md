@@ -25,7 +25,7 @@ Grant-CsTeamsCallingPolicy -Identity alex.wilber@contoso.com -PolicyName AllowCa
 
 A user can be enabled to use call groups by either changing their policy using the ```Set-CsTeamsCallingPolicy``` cmdlet, or granting a different policy to the user.
 
-> [!NOTE}]
+> [!NOTE]
 > Before creating a new policy, you should always verify that no policy already exists that covers your exact scenario.
  
 You can use the Microsoft Teams Client to add a call group by completing the following steps:
