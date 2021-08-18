@@ -1,5 +1,3 @@
-
-
 Managing the various aspects of Microsoft Teams can be performed using various tools. Basic tasks, such as creating and editing Teams settings, adding or removing members, and adding, removing, and configuring apps can be performed by users through one of the Teams clients. Administrative tasks must be performed with administrative roles and through the Teams Admin Center, the Teams PowerShell module, or Microsoft Graph API. 
 
  
@@ -87,7 +85,7 @@ For more information, please refer to [Use the Microsoft Graph API to work with 
 
 ## Management through Teams Clients
 
-Team owners can make changes on their owned teams by performing certain management tasks without being assigned either the Global Administrator or Teams Service Administrator roles. 
+Team owners can make changes on their owned teams by performing certain management tasks without being assigned either the Global Administrator or Teams Administrator roles. 
 
  
 
@@ -151,3 +149,8 @@ You can also control organization-wide user settings in the Microsoft Teams admi
 ## Microsoft 365 Defender portal and Microsoft 365 compliance center
 
 The Microsoft 365 Defender portal and Microsoft 365 compliance center are designed to help you manage compliance features across Microsoft 365 for your organization, including Teams. Links to existing SharePoint and Exchange compliance features bring together compliance capabilities across Microsoft 365. To use the Microsoft 365 Defender portal, you must either be assigned the global administrator role or have been assigned to one or more Microsoft 365 Defender portal role groups by a global administrator.
+
+
+## Knowledge check<br>
+
+Choose the best response for the following question. Then select “Check your answers.”

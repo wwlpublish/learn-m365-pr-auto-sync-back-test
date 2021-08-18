@@ -30,14 +30,14 @@ Here's a list of features that you can add with Teams add-on licenses. The add-o
 
 
 |**Feature** <br/> |**Description** <br/> |**Small business (<300 users)**|**Large business (>300 users)**|
-|:-----|:-----|:-----|:-----|
+|:--|:--|:--|:--|
 |**Microsoft 365 Business Voice** <br/> | [Business Voice](/microsoftteams/business-voice/whats-business-voice) is a telephony solution designed for small and medium businesses of up to 300 users that bundles Phone System, Audio Conferencing, a Domestic Calling Plan, and more. Phone System capabilities that you'll get include voicemail, caller ID, call park, call forwarding, auto attendants, and call queues. <br> To find out whether Business Voice is available in your country or region, see [Country and region availability for Business Voice](/microsoftteams/business-voice/country-region-availability). For pricing info, see [Pricing for Business Voice](https://www.microsoft.com/microsoft-teams/voice-calling?azure-portal=true). <br/> |Yes||
 |**Audio Conferencing** <br/> |Sometimes people in your organization will need to use a phone to call in to a Teams meeting instead their computer. Set up Audio Conferencing for users who schedule or lead meetings. <br/> To find out whether Audio Conferencing is available in your country or region, see [Country and region availability for Audio Conferencing and Calling Plans](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans). For pricing info, see [Pricing for Audio Conferencing](https://www.microsoft.com/microsoft-teams/audio-conferencing?azure-portal=true).  <br/> <br/>If you're a small or medium-sized business with up to 300 users and you currently don’t have Audio Conferencing licenses, you can get Audio Conferencing free for one year. Starting October 1, 2020, the free Audio Conferencing offer is available to users who have Microsoft 365 Business Basic, Business Standard, Business Premium, Enterprise E1, or Enterprise E3 licenses. |Yes|Yes|
 |**Toll free numbers** |If you want toll-free numbers for Audio Conferencing, auto attendants, or call queues, you must set up Communications Credits. <br/> |Yes|Yes|
 |**Phone System** <br/> |Phone System is a hosted telephone service that gives you call control and Private Branch Exchange (PBX) capabilities, with options for connecting to the Public Switched Telephone Network (PSTN). Phone System features include cloud voicemail, caller ID, call park, call forwarding, auto attendants, call queues, call transfer, caller ID, and more. <br>For pricing info, see [Pricing for Phone System](https://www.microsoft.com/microsoft-teams/voice-calling#Pricing?azure-portal=true).  <br/> |Yes|Yes|
 |**Calling Plans** <br/> |If you want users to be able to call phone numbers outside your organization, get a Calling Plan. There are Domestic Calling Plans and Domestic and International Calling Plans. For pricing info, see [Pricing for Calling Plans](https://www.microsoft.com/microsoft-teams/voice-calling?linkid=799761?azure-portal=true).  <br/> |Yes|Yes|
 |**Microsoft Teams Rooms** <br/>| Microsoft Teams Rooms isn't an add-on, but a feature that brings video, audio, and content sharing to conference rooms. See [Teams Meeting Room Licensing](/microsoftteams/rooms/rooms-licensing).  <br/> |Yes|Yes|
-|**Advanced Communications** <br/> |[Advanced Communications](/microsoftteams/teams-add-on-licensing/advanced-communications) includes advanced meetings customization and tools to manage your organization's communication policies. Additional features include custom branded meeting lobby to tailor your meetings, and tools to monitor, track, and analyze data on users and devices.   |Yes|Yes|
+|**Advanced Communications** <br/> |[Advanced Communications](/microsoftteams/teams-add-on-licensing/advanced-communications) includes advanced meetings customization and tools to manage your organization's communication policies. Other features include custom branded meeting lobby to tailor your meetings, and tools to monitor, track, and analyze data on users and devices.   |Yes|Yes|
 
 If you're a small or medium-sized business who has a Microsoft 365 Enterprise plan, you can still buy add-on licenses for features of Phone System and Calling Plans, however, you can also consider a [Microsoft 365 Business](https://www.microsoft.com/microsoft-365/business/compare-all-microsoft-365-business-products?=&activetab=tab:primaryr2&azure-portal=true) plan and [Business Voice](https://www.microsoft.com/microsoft-365/business/business-voice?azure-portal=true).
 
@@ -60,10 +60,7 @@ Guest access is included with all Microsoft 365 Business Standard, Microsoft 365
 
 Due to the consequent development of Microsoft 365, available services and licenses change continuously. Teams administrators should always be ready to adopt to changes of the license requirements. For the latest update on licensing, see [Microsoft Teams service description](/microsoftteams/office-365-licensing).
 
- 
 
+## Knowledge check<br>
 
-
-
-
-
+Choose the best response for the following question. Then select “Check your answers.”
