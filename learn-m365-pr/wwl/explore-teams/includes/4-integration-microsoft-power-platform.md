@@ -17,8 +17,7 @@ The followings are examples to use Power Apps in Microsoft Teams:
 
 - Use the **Power Apps app** in Teams to create canvas apps within Teams backed by Dataverse for Teams.
 
-![The graph illustrates Power Apps in Microsoft Teams](../media/powerapp-in-teams.png)
-
+![Using Power Apps in Teams client](../media/use-power-apps-in-teams.gif)
 
 ## Power Automate in Teams
 
@@ -34,9 +33,7 @@ The followings are examples to use Power Automate in Microsoft Teams:
 
 - Streamline approvals by aggregating and automating all team's approval processes in Teams.
 
-    ![The graph illustrates Power Automate template](../media/power-automate-template.png)
-
-    ![The graph illustrates Power Automate in Microsoft Teams](../media/power-automate-in-teams.png)
+![The graph illustrates Power Automate in Microsoft Teams](../media/power-automate-in-teams.png)
 
 ## Power Virtual Agents in Teams
 
@@ -50,11 +47,7 @@ The followings are examples to use Power Virtual Agents in Microsoft Teams:
 - Review and analyze the performance of the bot.
 - Have bots take actions on someone's behalf.
 
-
-    ![The graph illustrates Power Virtual Agents in Microsoft Teams](../media/power-virtual-agents-in-teams.png)
-
-
-    ![Screenshot of the Power Virtual Agents app in Teams with a list of bots in an upgrade environment, and showing a diamond icon next to the environment name.](../media/use-power-virtual-agents-in-teams.png)
+![Use Power Virtual Agents in Microsoft Teams](../media/use-power-virtual-agents-in-teams.gif)
 
 
 ## Power BI in Teams
@@ -68,8 +61,6 @@ The followings are examples to use Power BI in Microsoft Teams:
 - Embed interactive reports in Microsoft Teams channels and chats.
 
 - Get notifications in Teams about activity from Power BI.
-
-
 
 ![The graph illustrates Power BI in Microsoft Teams](../media/service-embed-report-microsoft-teams-tab-with-report.png)
 
@@ -92,7 +83,7 @@ The four types of Dataverse for Teams solutions are:
 
 * **Dashboards** - Users can explore and interact with their data in Dataverse for Teams.
 
-    ![Microsoft Dataverse for Teams in Teams client](../media/dataverse-for-teams.png)
+![Microsoft Dataverse for Teams in Teams client](../media/dataverse-for-teams.png)
 
 ## Knowledge check<br>
 
