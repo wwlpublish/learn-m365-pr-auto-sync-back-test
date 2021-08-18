@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn.setup-tenant-attach-using-configuration-manager.enable-internet-endpoints
+title: Enable internet endpoints
+metadata:
+  unitType: learning-content
+  title: Enable internet endpoints
+  description: Enable internet endpoints to fully support internet connectivity.
+  ms.date: 8/16/2021
+  author: Erikre
+  ms.author: erikre
+  ms.topic: interactive-tutorial
+  ms.prod: learning-endpoint-manager
+durationInMinutes: 2
+content: |
+  [!include[](includes/4-enable-internet-endpoints.md)]

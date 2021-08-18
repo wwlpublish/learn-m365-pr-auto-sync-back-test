@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn.setup-tenant-attach-using-configuration-manager.display-the-connector-status
+title: Display the connector status
+metadata:
+  unitType: learning-content
+  title: Display the connector status
+  description: Review details about the Configuration Manager connector.
+  ms.date: 8/16/2021
+  author: Erikre
+  ms.author: erikre
+  ms.topic: interactive-tutorial
+  ms.prod: learning-endpoint-manager
+durationInMinutes: 2
+content: |
+  [!include[](includes/6-display-the-connector-status.md)]
