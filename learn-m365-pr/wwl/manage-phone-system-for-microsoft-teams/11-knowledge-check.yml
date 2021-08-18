@@ -4,7 +4,7 @@ title: Knowledge check
 metadata:
   title: Knowledge check
   description: "Knowledge check"
-  ms.date: 08/17/2021
+  ms.date: 08/18/2021
   author: wwlpublish
   ms.author: jennyche
   ms.topic: interactive-tutorial
@@ -43,7 +43,7 @@ quiz:
     - content: "Call park policy"
       isCorrect: false
       explanation: "That's incorrect. A call park policy enables an organization's users to place calls on hold. Try again."
-    - content: "caller ID policy"
+    - content: "Caller ID policy"
       isCorrect: false
       explanation: "That's incorrect. A caller ID policy enables an organization to change or block the caller ID, display an alternate phone number for Teams users, block the outbound phone number, and block an incoming number from being displayed. Try again."
     - content: "Calling policy"

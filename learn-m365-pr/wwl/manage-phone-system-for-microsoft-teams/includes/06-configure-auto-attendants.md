@@ -62,9 +62,8 @@ This section provides settings on what the system should do when the auto attend
 
 	    - **Directory search**. When searching for users as part of the auto attendant functionality, callers can search by name or by extension.
 
-		**Dial by Name.** This feature enables the people who call your auto attendant to use voice (speech recognition) or their phone keypad (DTMF) responses to enter a full or partial name to search your company's directory, locate the person, and then have the call transferred to them.    
-		‎
-		‎**Dial by Extension.** This feature enables a caller to use voice (speech recognition) or their phone keypad (DTMF) responses to enter the phone extension of the user they're trying to reach, and then have the call transferred to them. 
+		   - **Dial by Name.** This feature enables the people who call your auto attendant to use voice (speech recognition) or their phone keypad (DTMF) responses to enter a full or partial name to search your company's directory, locate the person, and then have the call transferred to them.
+		   - **Dial by Extension.** This feature enables a caller to use voice (speech recognition) or their phone keypad (DTMF) responses to enter the phone extension of the user they're trying to reach, and then have the call transferred to them. 
 
 		![Screenshot of call flow](../media/auto-attendant-call-flow-route-call-message.png)
 
