@@ -1,0 +1,51 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.configure-manage-microsoft-teams-devices.knowledge-check
+title: Knowledge check
+metadata:
+  title: Knowledge check
+  description: "Knowledge check"
+  ms.date: 08/18/2021
+  author: wwlpublish
+  ms.author: jennyche
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+durationInMinutes: 5
+content: |
+  [!include[](includes/10-knowledge-check.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "What is the role of the Microsoft 365 resource accounts?"
+    choices:
+    - content: "It's the account that's invited to meetings on behalf of the room"
+      isCorrect: true
+      explanation: "That's correct. Microsoft 365 resource accounts are mailbox and Teams accounts that are dedicated to specific resources, such as a room, projector, and so on. These resource accounts can automatically respond to meeting invites using rules you define when they're created. For example, if you have a common resource such as a conference room, you can set up a resource account for that conference room that will automatically accept or decline meeting invites depending on its calendar availability."
+    - content: "It signs into Windows on Teams Rooms"
+      isCorrect: false
+      explanation: "That's incorrect. This item isn't the role of Microsoft 365 resource accounts. Try again."
+    - content: "It schedules the meetings that happen on Teams Rooms"
+      isCorrect: false
+      explanation: "That's incorrect. This item isn't the role of Microsoft 365 resource accounts. Try again."
+  - content: "As the Teams administrator for Tailspin Toys, Allan DeYoung wants to manage the company's devices through the Teams admin center. What must Tailspin do to enable this requirement?"
+    choices:
+    - content: "Assign a configuration profile to each device type"
+      isCorrect: false
+      explanation: "That's incorrect. This item isn't required to manage devices through the Teams admin center. Try again."
+    - content: "Add a device tag to each device type"
+      isCorrect: false
+      explanation: "That's incorrect. This item isn't required to manage devices through the Teams admin center. Try again."
+    - content: "Enroll the devices in Microsoft Teams"
+      isCorrect: true
+      explanation: "That's correct. Devices must be enrolled in Microsoft Teams before they can be managed through the Teams admin center. Organizations can use the Teams admin center to view and manage phones, collaboration bars, Teams displays, and Teams panels."
+  - content: "As the Teams administrator for Lucerne Publishing, Patti Fernandez is concerned with the poor performance of Teams Rooms. Patti has started troubleshooting this issue. When Teams Rooms experience poor performance, what has history shown is the usual cause of this situation?"
+    choices:
+    - content: "The resource account can’t sign into Microsoft Teams"
+      isCorrect: false
+      explanation: "That's incorrect. This item isn't the usual cause of poor performance with Teams Rooms. Try again."
+    - content: "Unnecessary Intune or Group Policy Objects being applied to Teams Rooms"
+      isCorrect: true
+      explanation: "That's correct. Poor performance is usually the result of unnecessary Intune or Group Policy Objects being applied to Teams Rooms."
+    - content: "The Teams Room app isn't up-to-date"
+      isCorrect: false
+      explanation: "That's incorrect. This item isn't the usual cause of poor performance with Teams Rooms. Try again."

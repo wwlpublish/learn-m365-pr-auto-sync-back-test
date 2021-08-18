@@ -1,0 +1,29 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.configure-manage-microsoft-teams-devices.device-tags
+title: Manage Microsoft Teams device tags
+metadata:
+  title: Manage Microsoft Teams device tags
+  description: "Manage Microsoft Teams device tags"
+  ms.date: 08/18/2021
+  author: wwlpublish
+  ms.author: jennyche
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+durationInMinutes: 6
+content: |
+  [!include[](includes/08-manage-microsoft-teams-device-tags.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "Fabrikam has employed a large assortment of devices across its Microsoft 365 deployment. The Teams admin earlier implemented device tags as a means of filtering all the devices of a certain type. Fabrikam has since narrowed down the types of devices they use. As such, the admin wants to remove a tag that was associated with multiple devices of a certain type that Fabrikam no longer uses. What's the first thing the admin should do to remove the tag?"
+    choices:
+    - content: "Delete the tag in the Microsoft Teams admin center"
+      isCorrect: false
+      explanation: "That's incorrect. This step isn't the first thing you should do to remove the tag. Try again."
+    - content: "Select the Teams user that's associated with each device and remove the tag from the user"
+      isCorrect: true
+      explanation: "That's correct. If you want to remove a tag from multiple devices, you must select the Teams user that's associated with the device and remove the tag from the user."
+    - content: "Remove the devices from the Teams admin center"
+      isCorrect: false
+      explanation: "That's incorrect. This step isn't the first thing you should do to remove the tag. Try again."

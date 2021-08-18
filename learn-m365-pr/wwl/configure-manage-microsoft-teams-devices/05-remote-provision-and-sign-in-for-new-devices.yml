@@ -1,0 +1,29 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.configure-manage-microsoft-teams-devices.remote-provision-sign-for-new-devices
+title: Remote provision and sign-in for new devices
+metadata:
+  title: Remote provision and sign-in for new devices
+  description: "Remote provision and sign-in for new devices"
+  ms.date: 08/18/2021
+  author: wwlpublish
+  ms.author: jennyche
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+durationInMinutes: 7
+content: |
+  [!include[](includes/05-remote-provision-and-sign-in-for-new-devices.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "Contoso's IT admin wants to provision the company's Android devices remotely from the Teams admin center. The admin has already uploaded the MAC IDs of the devices being provisioned. What's the next step the admin must complete to finish device provisioning?"
+    choices:
+    - content: "Create a configuration profile for the Android device type"
+      isCorrect: false
+      explanation: "That's incorrect. A configuration profile isn't required to provision a device. Try again."
+    - content: "Generate a verification code for each device"
+      isCorrect: true
+      explanation: "That's correct. A verification code is required for each device. The verification code is generated in bulk or at the device level and is valid for 24 hours."
+    - content: "Add one or more device tags to each device"
+      isCorrect: false
+      explanation: "That's incorrect. Device tags are optional. They're used to group or organize devices to help with device maintenance. They aren't part of the provisioning process. Try again."

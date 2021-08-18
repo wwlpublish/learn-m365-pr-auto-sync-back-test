@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.configure-manage-microsoft-teams-devices.manage-devices
+title: Manage devices in Microsoft Teams
+metadata:
+  title: Manage devices in Microsoft Teams
+  description: "Manage devices in Microsoft Teams"
+  ms.date: 08/18/2021
+  author: wwlpublish
+  ms.author: jennyche
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+durationInMinutes: 6
+content: |
+  [!include[](includes/06-manage-devices-in-microsoft-teams.md)]
