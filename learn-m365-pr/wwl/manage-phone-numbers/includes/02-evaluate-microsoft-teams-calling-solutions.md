@@ -13,7 +13,7 @@ To connect to the PSTN, an organization can choose one of the following options:
 
 Organizations can also have a combination solution that uses Phone System with Calling Plan, Phone System with Operator Connect, or Phone System with Direct Routing. 
 
-![Teams voice solutions](../media/teamspstn-solution.png)
+![Teams voice solutions](../media/teams-pstn-solution.png)
 
 
 ### Phone System with Teams Calling Plans 
@@ -35,7 +35,7 @@ Teams Calling Plans provides the following functionality:
 > [!NOTE]
 > If necessary, organizations can connect a supported Session Border Controller (SBC) through Direct Routing for interoperability with third-party PBXs, analog devices, and other third-party telephony equipment supported by the SBC.
 
-![Phone System with Calling Plan](../media/calling-plan.png)
+![Phone System with Calling Plan](../media/call-plan.png)
 
 ### Phone System with Operator Connect 
 
