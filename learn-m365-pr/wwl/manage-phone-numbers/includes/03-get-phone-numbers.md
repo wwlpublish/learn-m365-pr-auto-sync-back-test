@@ -86,7 +86,7 @@ You must be a Teams service admin to use the Teams admin center to get new phone
 	- **Country or region** - select country or region.
 	- **Number type** - select the appropriate option that determines whether the phone numbers are for users or for services, such as conference bridge, call queue, or auto attendant.  
 ‎
-	![Different phone number types](../media/get-phone-numbers-number-type.png)  
+	‎:::image type="content" source="../media/get-phone-numbers-number-type.png" alt-text="Different phone number types":::  
 ‎
 	- **Location** - choose a location for connecting the new phone numbers. If you need to create a new location, select **Add a location** and enter the required location’s data.
 	- **Area code** - select a valid area code for the country/region and location.
@@ -94,7 +94,7 @@ You must be a Teams service admin to use the Teams admin center to get new phone
 
 6. Select **Next** to continue.   
 ‎	
-	![Get phone numbers location quantity](../media/get-phone-numbers-location-quantity.png) 
+	‎:::image type="content" source="../media/get-phone-numbers-location-quantity.png" alt-text="Get phone numbers location quantity"::: 
 
 7. On the **Get numbers** page, select the phone numbers you want to apply to your tenant. 
 
@@ -120,7 +120,7 @@ If you need 999 or fewer phone numbers for your users, use the porting wizard in
 
 	The information displayed on this page is determined by the country or region and number type. Each country and region has different regulations about the information that's required to port numbers. What you see on this page may be different from the following screenshot.
 
-	![Porting Wizard – Adding account information](../media/add-account-information-inline.png)
+	‎:::image type="content" source="../media/add-account-information-inline.png" alt-text="Porting Wizard – Adding account information":::
 
 1. On the **Add numbers** page, select **Select a file**. Browse to the CSV file that contains the phone numbers that you want to transfer, select it, and then select **Next**.
 

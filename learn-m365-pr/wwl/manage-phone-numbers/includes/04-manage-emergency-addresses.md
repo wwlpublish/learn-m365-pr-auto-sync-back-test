@@ -10,7 +10,7 @@ The caller’s address must be attached to the caller’s phone number. How and 
 
 * **Registered address**. An emergency address assigned to a Calling Plan user. Sometimes this address is referred to as an address of record, or a static emergency address. Registered addresses aren't supported if you're using Direct Routing. 
 
-‎‎![Emergency addresses in Teams admin center](../media/emergency-addresses.png)  ‎ 
+‎‎‎:::image type="content" source="../media/emergency-addresses.png" alt-text="Emergency addresses in Teams admin center":::  ‎ 
 
 ## Emergency address validation
 
@@ -83,7 +83,7 @@ Complete the following steps to add an emergency address:
 6. If the address can't be found, you can turn on **Input address manually** and type the address.
 7. Select **Save**.
 ‎‎
-    ![Add an Emergency addresses](../media/add-emergency-addresses.png)  ‎ 
+    ‎:::image type="content" source="../media/add-emergency-addresses.png" alt-text="Add an Emergency addresses":::  ‎ 
 
 Once you created an emergency address, you can select **Edit** or **Delete** to change to remove emergency addresses. 
 

@@ -7,9 +7,9 @@ Complete the following steps to assign phone numbers to users:
 1. Sign into the Microsoft Teams admin center.
 2. On the left-hand navigation pane, select **Voice** and then select **Phone numbers**.
 3. On the **Phone numbers** window, select an unassigned number in the list and then select **Edit**.   
-‎![Manage phone numbers](../media/manage-phone-numbers.png)  
+‎‎:::image type="content" source="../media/manage-phone-numbers.png" alt-text="Manage phone numbers":::  
 4. To assign or change the associated emergency location, search for and then select the location under the **Emergency location** tab.  
-‎![Assign phone number](../media/assign-phone-number.png)  
+‎‎:::image type="content" source="../media/assign-phone-number.png" alt-text="Assign phone number":::  
 
 5. In the **Assigned to** section, search for the user by display name or username, and then select **Assign**. 
     > [!NOTE] 
@@ -48,4 +48,4 @@ Complete the following steps to remove a user’s phone number using the Microso
 
 In the Microsoft Teams client, users can see their phone number by selecting **Calls** in the left-hand navigation pane. The phone number is displayed above the dial pad, as seen in the following screenshot.
 
-![Teams Client Phone Number](../media/teams-client-phone-number.png) 
+‎:::image type="content" source="../media/teams-client-phone-number.png" alt-text="Teams Client Phone Number"::: 

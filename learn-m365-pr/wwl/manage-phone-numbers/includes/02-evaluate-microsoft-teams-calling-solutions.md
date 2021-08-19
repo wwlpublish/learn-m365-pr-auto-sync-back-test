@@ -13,7 +13,7 @@ To connect to the PSTN, an organization can choose one of the following options:
 
 Organizations can also have a combination solution that uses Phone System with Calling Plan, Phone System with Operator Connect, or Phone System with Direct Routing. 
 
-![Teams voice solutions](../media/teams-pstn-solution.png)
+‎:::image type="content" source="../media/teams-pstn-solution.png" alt-text="Teams voice solutions":::
 
 
 ### Phone System with Teams Calling Plans 
@@ -35,7 +35,7 @@ Teams Calling Plans provides the following functionality:
 > [!NOTE]
 > If necessary, organizations can connect a supported Session Border Controller (SBC) through Direct Routing for interoperability with third-party PBXs, analog devices, and other third-party telephony equipment supported by the SBC.
 
-![Phone System with Calling Plan](../media/call-plan.png)
+‎:::image type="content" source="../media/call-plan.png" alt-text="Phone System with Calling Plan":::
 
 ### Phone System with Operator Connect 
 
@@ -57,7 +57,7 @@ Operator Connect provides the following functionality:
 
 - **Enhanced support and reliability.** Operators provide technical support and shared service level agreements to improve support service, while direct peering powered by Azure creates a one-to-one network connection for enhanced reliability.
 
-![Phone System with Operator Connect](../media/operator-connect.png)
+‎:::image type="content" source="../media/operator-connect.png" alt-text="Phone System with Operator Connect":::
 
 ### Phone System with Direct Routing
 
@@ -90,7 +90,7 @@ Phone System with Direct Routing requires the following prerequisites:
 
 - A contract with a third-party carrier (unless it's deployed as an option to provide connection to third-party PBX, analog devices, or other telephony equipment for users who are on Phone System with Calling Plan.)
 
-![Direct Routing flow](../media/direct-routing.png)
+‎:::image type="content" source="../media/direct-routing.png" alt-text="Direct Routing flow":::
 
 
 ## Basic telephony terminology
