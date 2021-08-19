@@ -29,7 +29,7 @@ Call parking and retrieval can be enabled by first enabling a call park policy. 
 
 You can also use the ```New-CsTeamsCallParkPolicy``` PowerShell cmdlet to create a call park policy. 
 
-‎‎‎:::image type="content" source="../media/New-call-park-policy.png" alt-text="Create new call park policy":::  
+‎‎‎:::image type="content" source="../media/new-call-park-policy.png" alt-text="Create new call park policy":::  
 
 
 ## Assign the policy to a group
