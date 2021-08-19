@@ -11,7 +11,7 @@ The integration between Outlook and Teams makes it easy to collaborate no matter
 
 - **Actionable missed activity emails**: Users can set the notification for missed activity emails to stay on top of missed conversation in Teams. The missed activity emails show the latest replies from the conversation, and allow users to respond directly from within Outlook.
 
-![The integration between Outlook and Microsoft Teams](../media/outlook-and-teams.png)
+![The integration between Outlook and Microsoft Teams](../media/outlook-teams.png)
 
 ## SharePoint 
 In Microsoft Teams, users can add published SharePoint pages or lists as a tab in a Teams channel. SharePoint pages let users share ideas using images, video, links, and documents. SharePoint lists are a great way to collaborate on content and data. Team members can view pages, edit lists, and add comments in the Teams tabs. Add the SharePoint tab in Teams to quickly paste any page, news post, or list from a published SharePoint site.
