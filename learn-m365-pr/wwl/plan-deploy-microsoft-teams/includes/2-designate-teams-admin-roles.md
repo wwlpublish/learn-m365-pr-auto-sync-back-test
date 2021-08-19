@@ -53,7 +53,7 @@ To assign Teams admin roles in the Microsoft 365 admin center, you will need to 
 
 6. Select the role to assign to the user (for example, **Teams service admin**), and then select **Save changes**. 
 
-![Assign Teams Admin Roles in M365 admin center](../media/assign-teams-admin-roles-in-m365-admin-center.png)
+![Assign Teams Admin Roles in M365 admin center](../media/assign-teams-admin-roles-in-microsoft-365-admin-center.png)
 
 You can also assign admin roles in Microsoft 365 admin center by selecting **Roles** in the left navigation pane, and then select the appropriate admin role, for example **Teams communications support engineer.** On the **Teams communications support engineer** page, select **Assigned admins**, and add the users you want to assign the role.
 
