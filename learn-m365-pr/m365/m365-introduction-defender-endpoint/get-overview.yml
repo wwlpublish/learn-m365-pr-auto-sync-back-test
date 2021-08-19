@@ -7,9 +7,9 @@ metadata:
   description: Learn about what Microsoft Defender for Endpoint is, and how it works.
   ms.date: 07/19/2021
   author: iankensey
-  ms.author: v-iakens 
-  ms.topic: interactive-tutorial # do we need ms.topic?
+  ms.author: beccarobins
+  ms.topic: interactive-tutorial
   ms.prod: learning-m365
-durationInMinutes: 8
+durationInMinutes: 15
 content: |
   [!include[](includes/get-overview.md)]
