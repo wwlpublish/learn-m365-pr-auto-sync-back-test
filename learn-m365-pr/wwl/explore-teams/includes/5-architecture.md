@@ -12,7 +12,7 @@ Teams app capabilities depend on underlying communication and collaboration tech
 
 The following diagram shows the existing dependencies from Teams to the Office 365 services.
 
-![A screenshot of Teams Service Dependencies](../media/teams-service-dependencies.png)
+ ![A screenshot of Teams Service Dependencies](../media/teams-service-dependencies.png)
 
 
 Teams uses the most effective storage location for different Teams data. The following diagram shows the key data entities and location where data is stored at rest. For example, Teams meeting recordings are saved to SharePoint and OneDrive. 
@@ -20,14 +20,15 @@ Teams uses the most effective storage location for different Teams data. The fol
 > [!NOTE]
 > If a Teams meeting recording fails to successfully upload to SharePoint or OneDrive, the recording will instead be temporarily saved to Azure Media Services (AMS). Once stored in AMS, no retry attempts are made to automatically upload the recording to SharePoint or OneDrive. Meeting recordings stored in AMS are available for 21 days before being automatically deleted. Users can download the video from AMS if they need to keep a copy.
 
-![A screenshot of Teams Storage Locations](../media/teams-storage-locations.png)
+ ![A screenshot of Teams Storage Locations](../media/teams-storage-locations.png)
 
 
 ## Governance, security, and compliance for Teams
 
 The Teams architecture enables data governance, security, and compliance capabilities. You can protect Teams data with various security and compliance features in Microsoft 365. This protects against leakage and loss of business data by supporting compliant business processes when discovering sensitive business data. 
 
-![A graphic explains Teams Security Compliance](../media/teams-security-compliance.png)
+> [!div class="mx-imgBorder"]
+> ![A graphic explains Teams Security Compliance](../media/teams-security-compliance.png)
 
 ## Limits of Microsoft Teams
 

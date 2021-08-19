@@ -2,7 +2,8 @@ Teams is the platform for communications and collaboration within Microsoft 365.
 
 Additionally, Microsoft Teams delivers the advanced security and compliance capabilities that enable safe and trustworthy online collaboration.
 
-![Description of what is Teams](../media/teams-workloads.png)
+> [!div class="mx-imgBorder"]
+> ![Description of what is Teams](../media/teams-workloads.png)
 
 ## Chat
 
@@ -86,7 +87,7 @@ There are two kinds of calls in Teams.
 
     To enable users to make and receive PSTN calls, you need to connect Phone System to the PSTN. Users then can use the Dial Pad to call landlines or mobiles phones on the PSTN.
 
-    ![Make PSTN calls using the Dial Pad](../media/make-pstn-calls.png)
+     ![Make PSTN calls using the Dial Pad](../media/make-pstn-calls.png)
 
 ## Security and compliance
 
