@@ -12,7 +12,7 @@ metadata:
 azureSandbox: false
 durationInMinutes: 7
 content: |
-  [!include[](includes/09-create-and-manage-call-park-policies.md)]
+  [!include[](includes/09-create-manage-call-park-policies.md)]
 quiz:
   title: "Check your knowledge"
   questions:

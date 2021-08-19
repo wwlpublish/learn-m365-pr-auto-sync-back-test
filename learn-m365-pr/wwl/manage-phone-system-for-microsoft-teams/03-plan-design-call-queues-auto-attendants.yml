@@ -12,7 +12,7 @@ metadata:
 azureSandbox: false
 durationInMinutes: 8
 content: |
-  [!include[](includes/03-plan-and-design-call-queues-and-auto-attendants.md)]
+  [!include[](includes/03-plan-design-call-queues-auto-attendants.md)]
 quiz:
   title: "Check your knowledge"
   questions:
