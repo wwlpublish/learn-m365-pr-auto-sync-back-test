@@ -21,17 +21,14 @@ Complete the following steps to create a new resource account using the Microsof
 
 1. Navigate to the Microsoft 365 admin center (admin.microsoft.com) and sign in with an admin account. 
 1. In the left-hand navigation pane, select **Show all**, select **Resources**, and then select **Rooms & equipment**.
-
-   
+  
    :::image type="content" source="../media/resource-account-resources-tab.png" alt-text="Microsoft 365 admin center resources tab Rooms & equipment option":::
 
 1. On the **Rooms & equipment** window, select the **+Add resource** option on the menu bar to add a new resource account. 
 
-   
    :::image type="content" source="../media/rooms-equipment-view.png" alt-text="screenshot of the Rooms & equipment page with the +Add resource option on the menu bar highlighted":::
 
 1. In the **Add resource** pane that appears, update the following fields:
-
    
    :::image type="content" source="../media/add-resource-form.png" alt-text="Focus Room configuration":::
 
