@@ -84,7 +84,7 @@ Complete the following steps to use filters to return devices with a specific ta
 After you've filtered the devices in your device list, you can complete actions on them as you normally would. For example, you can select them and then assign configurations, edit their settings (if they're Teams Rooms devices), and so on. When you're done, you can remove the filter by selecting the **X**  next to the **Tag** filter entry or by selecting **Clear all** on the right side of the list.
 
 
-![Manage Teams device tags](../media/admin-2.gif)  
+:::image type="content" source="../media/admin-2.gif" alt-text="Manage Teams device tags":::  
 
 
 ## Knowledge check<br>

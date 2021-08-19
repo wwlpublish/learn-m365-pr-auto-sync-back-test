@@ -2,7 +2,7 @@ Microsoft Teams Rooms scale to different room sizes. Teams Rooms use a wide vari
 
 You can review the details on the [Microsoft Teams devices](https://www.microsoft.com/microsoft-teams/across-devices?azure-portal=true) page. 
 
-![Begin with understanding what you have and envisioning what would work best for you, then move through selecting and procuring the equipment you need, readying your sites, configuring and deploying your service, managing change and user adoption, and developing operations and maintenance procedures.](../media/teams-devices-consistent.png)
+:::image type="content" source="../media/teams-devices-consistent.png" alt-text="Begin with understanding what you have and envisioning what would work best for you, then move through selecting and procuring the equipment you need, readying your sites, configuring and deploying your service, managing change and user adoption, and developing operations and maintenance procedures.":::
 
 ## Analyze spaces for Teams Rooms
 

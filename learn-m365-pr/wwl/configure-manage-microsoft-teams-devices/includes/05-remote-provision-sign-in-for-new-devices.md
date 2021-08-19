@@ -15,7 +15,8 @@ Complete the following steps to provision a new device:
 
 1. There are two tabs on this screen - **Waiting on activation** (which is displayed by default) and **Waiting for sign in**. In the **Waiting on activation** tab, select **Add MAC addresses manually**.
 
-   ![manually add a device mac address](../media/remote-provision-6.png)
+   
+   :::image type="content" source="../media/remote-provision-6.png" alt-text="manually add a device mac address":::
 
 1. Enter the MAC addresses.
 1. Enter a location, which helps technicians identify where to install the devices.
@@ -43,15 +44,18 @@ When the device is powered on and connected to the network, the technician provi
 
 1. The technician selects **Provision device** from the **Settings**.  
 
-   ![Provision new device option from the Actions tab](../media/provision-device-1.png)
+   
+   :::image type="content" source="../media/provision-device-1.png" alt-text="Provision new device option from the Actions tab":::
   
 2. The technician enters the device-specific verification code in the provided input field.
 
-   ![Provision new device verification](../media/provision-device-verification-1.png)
+   
+   :::image type="content" source="../media/provision-device-verification-1.png" alt-text="Provision new device verification":::
 
    Once the device is provisioned successfully, the tenant name appears on the sign-in page.
 
-   ![Tenant name on sign-in page](../media/provision-code.png)
+   
+   :::image type="content" source="../media/provision-code.png" alt-text="Tenant name on sign-in page":::
 
 ## Sign in remotely
 
@@ -59,11 +63,13 @@ The provisioned device appears in the **Waiting for sign in** tab. Start the rem
 
 1. Select a device from the **Waiting for sign in** tab.
 
-   ![The window with a list of devices ready for sign in.](../media/remote-device-1.png)
+   
+   :::image type="content" source="../media/remote-device-1.png" alt-text="The window with a list of devices ready for sign in.":::
 
 2. Follow the instructions in **Sign in a user**, and then select **Close**.
 
-   ![the Sign in a user window for individual device](../media/sign-in-user.png)
+   
+   :::image type="content" source="../media/sign-in-user.png" alt-text="the Sign in a user window for individual device":::
 
 
 

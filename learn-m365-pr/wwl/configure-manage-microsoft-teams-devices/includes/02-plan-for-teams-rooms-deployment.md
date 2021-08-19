@@ -10,7 +10,7 @@ Organizations should try to standardize on procurement and have as many of the s
 
 The following diagram displays a high-level project plan highlighting all the key milestones in a Teams Rooms deployment.
 
-![Begin with understanding what you have and envisioning what would work best for you, then move through selecting and procuring the equipment you need, readying your sites, configuring and deploying your service, managing change and user adoption, and developing operations and maintenance procedures.](../media/teams-rooms.png)
+:::image type="content" source="../media/teams-rooms.png" alt-text="Begin with understanding what you have and envisioning what would work best for you, then move through selecting and procuring the equipment you need, readying your sites, configuring and deploying your service, managing change and user adoption, and developing operations and maintenance procedures.":::
 
 An organization will need several teams to help deploy Microsoft Teams Rooms:
 

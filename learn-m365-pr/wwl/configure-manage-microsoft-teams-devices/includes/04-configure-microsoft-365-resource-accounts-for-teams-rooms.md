@@ -12,7 +12,8 @@ It's recommended that organizations assign the Teams Rooms Standard or Teams Roo
 
 - **Teams Rooms Premium license**. This license includes everything in the Standard license, plus an advanced set of features. For example, it includes a Microsoft-managed service that helps with everything from planning your rooms to monitoring and troubleshooting them. 
 
-    ![Standard versus Premium licenses](../media/standard-premium-license.png)
+    
+    :::image type="content" source="../media/standard-premium-license.png" alt-text="Standard versus Premium licenses":::
 
 ## Create a resource account using Microsoft 365 admin center
 
@@ -21,15 +22,18 @@ Complete the following steps to create a new resource account using the Microsof
 1. Navigate to the Microsoft 365 admin center (admin.microsoft.com) and sign in with an admin account. 
 1. In the left-hand navigation pane, select **Show all**, select **Resources**, and then select **Rooms & equipment**.
 
-   ![Microsoft 365 admin center resources tab Rooms & equipment option](../media/resource-account-resources-tab.png)
+   
+   :::image type="content" source="../media/resource-account-resources-tab.png" alt-text="Microsoft 365 admin center resources tab Rooms & equipment option":::
 
 1. On the **Rooms & equipment** window, select the **+Add resource** option on the menu bar to add a new resource account. 
 
-   ![screenshot of the Rooms & equipment page with the +Add resource option on the menu bar highlighted](../media/rooms-equipment-view.png)
+   
+   :::image type="content" source="../media/rooms-equipment-view.png" alt-text="screenshot of the Rooms & equipment page with the +Add resource option on the menu bar highlighted":::
 
 1. In the **Add resource** pane that appears, update the following fields:
 
-   ![Focus Room configuration](../media/add-resource-form.png)
+   
+   :::image type="content" source="../media/add-resource-form.png" alt-text="Focus Room configuration":::
 
    1. Select **Room** as the **Resource type**. 
    1. Add a friendly name in the **Name** field. This value is what users will see when scheduling the room in Outlook or Microsoft Teams. 
@@ -40,7 +44,8 @@ Complete the following steps to create a new resource account using the Microsof
 
 1. After the resource account has been created, you’ll receive an acknowledgment that the Room mailbox is ready to use.
 
-   ![Acknowledgement of mailbox creation](../media/add-resource-acknowledgement.png)
+   
+   :::image type="content" source="../media/add-resource-acknowledgement.png" alt-text="Acknowledgement of mailbox creation":::
 
 
 1. Once you've created a resource account, you can edit its booking options. On the acknowledgment window that you received in the prior step, under the **Next steps** section, select **Edit booking options**.
@@ -49,7 +54,8 @@ Complete the following steps to create a new resource account using the Microsof
 
     Both methods described in this step will open the **Edit booking options** pane. 
 
-   ![Edit the booking options](../media/edit-booking-options.png)
+   
+   :::image type="content" source="../media/edit-booking-options.png" alt-text="Edit the booking options":::
 
 1. In the **Edit booking options** pane, update the following settings:
 
@@ -66,7 +72,8 @@ Complete the following steps to create a new resource account using the Microsof
 1. Now that you've created the resource account and configured its booking options, it's time to assign it a password. In the **Microsoft 365 admin center**, in the left-hand navigation pane, select **Users** and then select **Active users**.
 1. On the **Active users** window, either hover your mouse over the new resource account that you created, or select the check box to the left of the account's display name. A **Key** icon (Reset a password) will appear to the right of the display name. Select the **Key** icon to set the password.
 
-   ![Find your new resource account and click Key to reset password](../media/resource-account-with-key.png)
+   
+   :::image type="content" source="../media/resource-account-with-key.png" alt-text="Find your new resource account and click Key to reset password":::
 
 1. On the **Reset password** pane that appears, enter the following information:
     1. Unselect the **Automatically create a password** check box. 
@@ -77,7 +84,8 @@ Complete the following steps to create a new resource account using the Microsof
 
 1. To complete the resource account configuration, you must assign a license to the resource account. On the **Active users** window, select the room’s display name to open the properties pane for this account.
 
-   ![screenshot of the Active Users window](../media/resource-account-license-form.png)
+   
+   :::image type="content" source="../media/resource-account-license-form.png" alt-text="screenshot of the Active Users window":::
 
 1. In the properties pane that appears, note the tabs that appear across the top of the pane. The **Account** tab is displayed by default. Select the **Licenses and apps** tab. 
 1.  In the **Licenses and apps** tab, select the check box next to the appropriate license for this resource account. 
@@ -97,7 +105,8 @@ There are two mandatory PowerShell modules that must be installed to create a re
    Get-MsolAccountSku | where-object {$_.AccountSkuID -like "*meeting*"}
    ```
 
-   ![See your licenses](../media/see-licenses.png)
+   
+   :::image type="content" source="../media/see-licenses.png" alt-text="See your licenses":::
 
    In this example, there are 25 Meeting Room licenses and 19 of them have been consumed (or assigned). That leaves six licenses available to be assigned to resource accounts.
 

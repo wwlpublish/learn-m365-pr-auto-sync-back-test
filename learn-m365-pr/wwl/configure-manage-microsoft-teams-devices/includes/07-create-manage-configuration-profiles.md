@@ -12,7 +12,8 @@ Complete the following steps to create a configuration profile for a Teams devic
 1. Specify the settings you want for the profile, and then select **Save**.
    The newly created configuration profile will be displayed in the list of profiles.
 
-    ![Create Configuration Profiles](../media/create-configuration-profiles.png)
+    
+    :::image type="content" source="../media/create-configuration-profiles.png" alt-text="Create Configuration Profiles":::
 
 ## Assign a configuration profile
 
