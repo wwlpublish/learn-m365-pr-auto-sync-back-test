@@ -15,7 +15,7 @@ Each specialist admin center gives you more options for that specific area. The 
 
 Watch the video below about how to act on Microsoft 365 usage reports, allowing you to see how people in your organization are using Microsoft 365 services.
 
-> \[!VIDEO https://www.microsoft.com/videoplayer/embed/fb726f8e-aead-43b2-ba0f-53ba5b886bf7\]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/fb726f8e-aead-43b2-ba0f-53ba5b886bf7]
 
 Now that you’ve practiced with the click-through guide, get more details about the reports available from the Microsoft 365 admin center:
 
