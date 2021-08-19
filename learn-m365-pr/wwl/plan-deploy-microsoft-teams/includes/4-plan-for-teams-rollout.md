@@ -11,7 +11,8 @@ We recommend rolling out Teams in stages, workload by workload, as your organiza
 4. **Voice.** The last step in a rollout is the full voice integration of PSTN calling into Teams. Switching voice communication from traditional solutions to Teams requires a comprehensive transition plan.  
 
  
-![Microsoft recommended roll out path](../media/recommended-roullout-path.png)
+> [!div class="mx-imgBorder"]
+> ![Microsoft recommended roll out path](../media/recommended-roullout-path.png)
 
 
 ## Get familiar with Teams
@@ -45,7 +46,8 @@ Depending on organizational needs, it is possible to deploy them all at once. Th
 
 When rolling out Teams in an organization that already uses Skype for Business, you must consider initially implementing both systems simultaneously in a coexistent state and then eventually migrate from Skype for Business to Teams.
 
-**Note:** Skype for Business Online will be retired on July 31, 2021, after which it will no longer be accessible or supported. 
+> [!NOTE] 
+> Skype for Business Online will be retired on July 31, 2021, after which it will no longer be accessible or supported. 
 
 ## Advisor for Teams
 
@@ -61,7 +63,7 @@ Advisor for Teams is part of the [Teams admin center](https://admin.teams.micros
 2. Meetings and conferencing
 3. Skype for Business upgrade
 
-    ![Advisor for Teams in Teams admin center](../media/advisor-for-teams.gif)
+     ![Advisor for Teams in Teams admin center](../media/advisor-for-teams.gif)
 
 ## Microsoft FastTrack
 

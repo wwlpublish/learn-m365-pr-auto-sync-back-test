@@ -61,6 +61,6 @@ Guest access is included with all Microsoft 365 Business Standard, Microsoft 365
 Due to the consequent development of Microsoft 365, available services and licenses change continuously. Teams administrators should always be ready to adopt to changes of the license requirements. For the latest update on licensing, see [Microsoft Teams service description](/microsoftteams/office-365-licensing).
 
 
-## Knowledge check<br>
+## Knowledge check
 
 Choose the best response for the following question. Then select “Check your answers.”
