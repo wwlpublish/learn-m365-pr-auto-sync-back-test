@@ -68,4 +68,4 @@ For details about how to manage your Teams Rooms devices, see [Manage Microsoft 
 | View meeting activity                  | Select a device name to open device details > **Activity**. When you open the **Activity** tab, you can see all the meetings that the device has participated in. This summary view shows the meeting start time, the number of participants, its duration, and the overall call quality.                                                                                        |
 | View meeting details                   | Select a device name to open device details > **Activity** > select a meeting. When you open a meeting's details, you can see all of the participants in the meeting, how long they were in the call, the Teams session types, and their individual call quality. If you want to see technical information about a participant's call, select the participant's call start time. |
 
-![Manage Teams Rooms devices](../media/admin1.gif)  
+![Manage Teams Rooms devices](../media/admin-1.gif)  

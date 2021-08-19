@@ -25,7 +25,7 @@ Complete the following steps to create a new resource account using the Microsof
 
 1. On the **Rooms & equipment** window, select the **+Add resource** option on the menu bar to add a new resource account. 
 
-   ![screenshot of the Rooms & equipment page with the +Add resource option on the menu bar highlighted](../media/rooms-and-equipment-view.png)
+   ![screenshot of the Rooms & equipment page with the +Add resource option on the menu bar highlighted](../media/rooms-equipment-view.png)
 
 1. In the **Add resource** pane that appears, update the following fields:
 

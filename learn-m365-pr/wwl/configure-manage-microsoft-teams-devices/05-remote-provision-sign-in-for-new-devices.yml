@@ -12,7 +12,7 @@ metadata:
 azureSandbox: false
 durationInMinutes: 7
 content: |
-  [!include[](includes/05-remote-provision-and-sign-in-for-new-devices.md)]
+  [!include[](includes/05-remote-provision-sign-in-for-new-devices.md)]
 quiz:
   title: "Check your knowledge"
   questions:

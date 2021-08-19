@@ -43,11 +43,11 @@ When the device is powered on and connected to the network, the technician provi
 
 1. The technician selects **Provision device** from the **Settings**.  
 
-   ![Provision new device option from the Actions tab](../media/provision-device1.png)
+   ![Provision new device option from the Actions tab](../media/provision-device-1.png)
   
 2. The technician enters the device-specific verification code in the provided input field.
 
-   ![Provision new device verification](../media/provision-device-verification1.png)
+   ![Provision new device verification](../media/provision-device-verification-1.png)
 
    Once the device is provisioned successfully, the tenant name appears on the sign-in page.
 
@@ -59,7 +59,7 @@ The provisioned device appears in the **Waiting for sign in** tab. Start the rem
 
 1. Select a device from the **Waiting for sign in** tab.
 
-   ![The window with a list of devices ready for sign in.](../media/remote-device1.png)
+   ![The window with a list of devices ready for sign in.](../media/remote-device-1.png)
 
 2. Follow the instructions in **Sign in a user**, and then select **Close**.
 
