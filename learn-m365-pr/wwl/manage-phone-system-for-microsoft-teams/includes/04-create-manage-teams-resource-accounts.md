@@ -14,11 +14,11 @@ You can create a resource account in the Teams admin center by completing the fo
 
 3. In the **Add resource account** pane, enter the **Display name** and **Username** fields, and then select the appropriate **Resource account type** value. The resource account type can be either **Auto attendant** or **Call queue**, depending how you intend to use this resource account.
 
-	![Screenshot of add resource account user interface](../media/resource-options.png)
+	‎:::image type="content" source="../media/resource-options.png" alt-text="Screenshot of add resource account user interface":::
 
 4. Select **Save**.
 
-	![Screenshot of a list of resource accounts](../media/resource-accounts-page.png)
+	‎:::image type="content" source="../media/resource-accounts-page.png" alt-text="Screenshot of a list of resource accounts":::
 
 ## Assign a license
 
@@ -30,7 +30,7 @@ Each resource account requires a license to work with auto attendants and call q
 
 3. Select **Save changes**.
 
-	![Screenshot of assign licenses user interface in the Microsoft 365 admin center](../media/resource-account-assign-virtual-user-license.png)
+	‎:::image type="content" source="../media/resource-account-assign-virtual-user-license.png" alt-text="Screenshot of assign licenses user interface in the Microsoft 365 admin center":::
 
 ## Assign a service number
 
@@ -48,7 +48,7 @@ If you're planning to use the resource account with an auto attendant or call qu
 
 4. Select **Save**.
 
-	![Screenshot of the assign service number user interface](../media/assign-number.png)
+	‎:::image type="content" source="../media/assign-number.png" alt-text="Screenshot of the assign service number user interface":::
 
 ## Manage resource accounts 
 

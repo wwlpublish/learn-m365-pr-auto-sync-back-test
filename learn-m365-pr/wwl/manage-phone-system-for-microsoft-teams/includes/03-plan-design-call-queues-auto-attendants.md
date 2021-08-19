@@ -28,7 +28,7 @@ Cloud call queues can provide:
 
 The following image shows what an attendant would see when a caller was in a call queue:
 
-![Phone system layout](../media/answer-auto-attendant-and-call-queue-calls-image1.png)
+‎:::image type="content" source="../media/answer-auto-attendant-and-call-queue-calls-image1.png" alt-text="Phone system layout":::
 
 ## Business decisions
 
@@ -103,7 +103,7 @@ As part of the planning process, it's recommended that you design the call routi
 
 The following diagram shows an example of call routing using auto attendants and call queues.
 
-![Example auto attendant design](../media/aa-lawyeroffice-callqueues.png)
+‎:::image type="content" source="../media/aa-lawyeroffice-callqueues.png" alt-text="Example auto attendant design":::
 
 
 ## Knowledge check<br>

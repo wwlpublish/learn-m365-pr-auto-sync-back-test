@@ -2,7 +2,7 @@ Call queues provide a method of routing callers to people in an organization who
 
 To set up a call queue, in the Teams admin center, expand **Voice**, select **Call queues**, and then select **Add**. Provide a **name** of your call queue and configure the following settings with your call queue design. 
 
-![Configure call queues](../media/call-queue.png)
+‎:::image type="content" source="../media/call-queue.png" alt-text="Configure call queues":::
 
 The following sections describe each of the available settings for a call queue.
 
@@ -60,7 +60,7 @@ The following call answering settings can be configured:
 
 - **Call agent alert time (seconds)**. Agent alert time specifies how long an agent's phone will ring before the queue redirects the call to the next agent.
 
-	![Screenshot of call answering options, with numbered callouts](../media/call-answering-options.png)
+	‎:::image type="content" source="../media/call-answering-options.png" alt-text="Screenshot of call answering options, with numbered callouts":::
 
 ### Call overflow handling
 
@@ -68,14 +68,14 @@ The following call answering settings can be configured:
 
 You can choose to disconnect the call or redirect it to any of the call routing destinations. For example, you can have the caller leave a voicemail for the agents in the queue.
 
-![Screenshot of call overflow settings](../media/call-queue-overflow-handling.png)
+‎:::image type="content" source="../media/call-queue-overflow-handling.png" alt-text="Screenshot of call overflow settings":::
  
 
 ### Call timeout handling
 
 Call Timeout is the maximum time a call can be on hold in the queue before it's redirected or disconnected. You can specify a value from 0 seconds to 45 minutes. You can choose to disconnect the call or redirect it to one of the call routing destinations. For example, you can have the caller leave a voicemail for the agents in the queue. 
 
-![Screenshot of call timeout settings](../media/call-queue-timeout-handling.png)
+‎:::image type="content" source="../media/call-queue-timeout-handling.png" alt-text="Screenshot of call timeout settings":::
  
 
 

@@ -19,7 +19,7 @@ Configure the following settings when creating an auto attendant:
 
 - **Voice inputs**. Choose if you want to enable voice inputs. When enabled, the name of every menu option becomes a speech-recognition keyword. For example, callers can say "One" to select the menu option mapped to key 1, or they can say "Sales" to select the menu option named "Sales."
 
-	![Screenshot of auto attendant settings for name, operator, time zone, language, and voice inputs](../media/auto-attendant-general-info-page-new.png)
+	‎:::image type="content" source="../media/auto-attendant-general-info-page-new.png" alt-text="Screenshot of auto attendant settings for name, operator, time zone, language, and voice inputs":::
 
 ### Call flow
 
@@ -31,7 +31,7 @@ This section provides settings on what the system should do when the auto attend
 
     * **Type a greeting message**. The system will read the text that you type (up to 1000 characters) when the auto attendant answers a call.
 
-	![Screenshot of greeting message settings](../media/auto-attendant-call-flow-greeting-message.png)
+	‎:::image type="content" source="../media/auto-attendant-call-flow-greeting-message.png" alt-text="Screenshot of greeting message settings":::
 
 
 
@@ -65,7 +65,7 @@ This section provides settings on what the system should do when the auto attend
 		   - **Dial by Name.** This feature enables the people who call your auto attendant to use voice (speech recognition) or their phone keypad (DTMF) responses to enter a full or partial name to search your company's directory, locate the person, and then have the call transferred to them.
 		   - **Dial by Extension.** This feature enables a caller to use voice (speech recognition) or their phone keypad (DTMF) responses to enter the phone extension of the user they're trying to reach, and then have the call transferred to them. 
 
-		![Screenshot of call flow](../media/auto-attendant-call-flow-route-call-message.png)
+		‎:::image type="content" source="../media/auto-attendant-call-flow-route-call-message.png" alt-text="Screenshot of call flow":::
 
 
 ### Advanced settings
@@ -84,6 +84,6 @@ The Auto Attendant form provides an optional set of advanced settings that can b
 
 - **Resource account**. All auto attendants must have an associated resource account. First-level auto attendants must have at least one resource account that has an associated service number. You can optionally assign several resource accounts to an auto attendant, each with a separate service number.
 
-	![Screenshot of Advanced settings](../media/auto-attendant-advanced.png)
+	‎:::image type="content" source="../media/auto-attendant-advanced.png" alt-text="Screenshot of Advanced settings":::
 
  

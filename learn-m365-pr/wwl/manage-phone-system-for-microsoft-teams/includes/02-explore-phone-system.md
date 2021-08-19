@@ -12,7 +12,7 @@ The followings are the key features of Phone System:
 
 **Additional reading**. For more information, see [Phone System features](https://docs.microsoft.com/microsoftteams/here-s-what-you-get-with-phone-system#phone-system-features?azure-portal=true).
 
-![Phone System](../media/phone-system.png)
+‎:::image type="content" source="../media/phone-system.png" alt-text="Phone System":::
 
 
 

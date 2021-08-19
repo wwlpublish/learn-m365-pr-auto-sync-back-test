@@ -29,7 +29,7 @@ Call parking and retrieval can be enabled by first enabling a call park policy. 
 
 You can also use the ```New-CsTeamsCallParkPolicy``` PowerShell cmdlet to create a call park policy. 
 
-‎‎![Create new call park policy](../media/New-call-park-policy.png)  
+‎‎‎:::image type="content" source="../media/New-call-park-policy.png" alt-text="Create new call park policy":::  
 
 
 ## Assign the policy to a group
@@ -38,12 +38,12 @@ For a call park policy to take effect, it must be assigned to users either on a 
 
 1. Select the **Group policy assignment** tab in the **Call park policies** pane.
 
-	‎‎![Screenshot of the Group policy assignment option](../media/assigning-group-policy.png)  
+	‎‎‎:::image type="content" source="../media/assigning-group-policy.png" alt-text="Screenshot of the Group policy assignment option":::  
 
 1. Select **Add**. The **Assign policy to group** pane appears.
 1. In the **Select a group** field, look for your target group and select it.
 
-	‎‎![Screenshot showing how to assign policy to a group](../media/assign-policy-to-group.png)  
+	‎‎‎:::image type="content" source="../media/assign-policy-to-group.png" alt-text="Screenshot showing how to assign policy to a group":::  
 
 1. In the **Select rank** field, assign a rank you want to set for this group assignment compared with other assignments.
 1. In the **Select a policy** field, select your newly created policy.

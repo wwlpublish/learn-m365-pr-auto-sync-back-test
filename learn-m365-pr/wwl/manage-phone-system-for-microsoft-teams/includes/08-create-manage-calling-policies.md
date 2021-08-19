@@ -19,7 +19,7 @@ Complete the following steps to create a custom calling policy:
 1. To control whether users can route inbound calls to voicemail, select **Enabled** or **User controlled**. To prevent routing to voicemail, select **Disabled**.
 1. Select **Save**.
 
-	‎![Create new calling policy](../media/New-calling-policy.png)
+	‎‎:::image type="content" source="../media/New-calling-policy.png" alt-text="Create new calling policy":::
 
 ## Edit a calling policy
 

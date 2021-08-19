@@ -49,7 +49,7 @@ Complete the following steps to configure a dial plan using the Teams admin cent
 1. In the left-hand navigation pane of the Microsoft Teams admin center, select **Voice** > **Dial plan**.
 2. Select **Add**, and then enter a name and description for the dial plan.
 
-    ![Screenshot showing the Add page for creating a dial plan](../media/create-dial-plan.png)
+    ‎:::image type="content" source="../media/create-dial-plan.png" alt-text="Screenshot showing the Add page for creating a dial plan":::
 
 3. Under **Dial plan details** section, specify an external dialing prefix if users must dial one or more leading digits (for example, 9) to get an external line. To configure a dial plan prefix, update the following fields:
     * **External dialing prefix**. Enter an external dialing prefix. The prefix can be up to four characters (#,*, and 0-9).
@@ -69,7 +69,7 @@ Complete the following steps to configure a dial plan using the Teams admin cent
     |7digitcallingRedmond  <br/> |Translates  seven-digit numbers to Redmond local numbers.  <br/> |^(\\d{7})$  <br/> |+1425$1  <br/> |5550100 is translated to +14255550100  <br/>|
 
 
-    ![Screenshot showing the Normalization rules for creating a dial plan](../media/normalization-rules.png)
+    ‎:::image type="content" source="../media/normalization-rules.png" alt-text="Screenshot showing the Normalization rules for creating a dial plan":::
 
 5.  Select **Move up** or **Move down** to change the position of rules in the list.
 
