@@ -8,7 +8,7 @@ Additionally, Microsoft Teams delivers the advanced security and compliance capa
 
 Chat is at the center of whatever you do in Teams. From individual chats with just one other person to group chats and conversations in channels—chat has you covered. 
 
-Once in a chat, you can send messages that include files, links, emojis, stickers, and gifs. There are a few different ways to chat with people in Teams:
+Once in a chat, you can send messages that include files, links, emojis, stickers, and GIF files. There are a few different ways to chat with people in Teams:
 
 * **Private chat** 
 
