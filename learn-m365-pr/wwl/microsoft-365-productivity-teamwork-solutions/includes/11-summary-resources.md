@@ -1,6 +1,6 @@
 This module covered the Microsoft 365 solutions that can contribute to personal productivity. You learned about how the Microsoft 365 Office apps include AI features, as well as accessibility features that help everyone work effectively. You also learned about other Microsoft 365 tools that help your organization to improve employee engagement and meeting effectiveness. From email and chat, to file storage and sharing, Microsoft 365 is helping people and organizations to get more done.
 
-In this module3 you have learned about:
+In this module you have learned about:
 
  -  Describe how Microsoft 365 empowers users with tools to help improve their personal productivity.
  -  Explain the productivity and teamwork capabilities in Microsoft 365, and which products they are included in.
