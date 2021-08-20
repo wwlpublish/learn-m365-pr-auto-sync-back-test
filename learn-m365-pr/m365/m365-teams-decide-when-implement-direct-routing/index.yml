@@ -3,7 +3,7 @@ uid: learn-m365.teams.decide-when-implement-direct-routing
 metadata:
   title: Decide when to implement Direct Routing for Teams
   description: Explore how Direct Routing expands the voice capabilities of Teams, and understand when to deploy it in an organization.
-  ms.date: 09/10/2020
+  ms.date: 07/16/2021
   author: lizap
   ms.author: elizapo
   ms.topic: interactive-tutorial
