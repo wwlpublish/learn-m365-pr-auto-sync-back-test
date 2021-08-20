@@ -57,7 +57,7 @@ If you want to add users to a call group, complete the following steps:
 ‎:::image type="content" source="../media/user-voice-setting.png" alt-text="voice settings for users"::: 
 
 
-**Additional reading.** For more information, see [Call forwarding, call groups, and simultaneous ring in Teams](https://support.office.com/article/call-forwarding-call-groups-and-simultaneous-ring-in-teams-a88da9e8-1343-4d3c-9bda-4b9615e4183e?ui=en-US&rs=en-US&ad=US?azure-portal=true).
+**Additional reading.** For more information, see [Call forwarding, call groups, and simultaneous ring in Teams](https://support.office.com/article/call-forwarding-call-groups-and-simultaneous-ring-in-teams-a88da9e8-1343-4d3c-9bda-4b9615e4183e?azure-portal=true).
 
 
 

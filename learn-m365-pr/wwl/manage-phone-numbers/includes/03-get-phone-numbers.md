@@ -61,7 +61,7 @@ There are different ways for an organization to get phone numbers:
 
 The following table identifies how an organization can get phone numbers in these two scenarios:
 	
-||Use the Teams admin center|Use the Phone Number Support Center|
+|Scenarios|Use the Teams admin center|Use the Phone Number Support Center|
 |--|--|--|
 |Get new phone numbers|If using the Teams admin center is supported in your country/region|If get new phone numbers isn't listed in the Teams admin center <br/><br/>If you need specific phone numbers or area codes |
 |Port existing phone numbers|If your country or region is listed in the porting wizard <br/><br/>If you need to port 999 or fewer user numbers |If your country or region isn't listed in the porting wizard <br/><br/>If you need to port more than 999 user numbers|

@@ -13,7 +13,7 @@ To connect to the PSTN, an organization can choose one of the following options:
 
 Organizations can also have a combination solution that uses Phone System with Calling Plan, Phone System with Operator Connect, or Phone System with Direct Routing. 
 
-‎:::image type="content" source="../media/teams-pstn-solution.png" alt-text="Teams voice solutions":::
+‎:::image type="content" source="../media/teams-public-switched-telephone-network-solution.png" alt-text="Teams voice solutions":::
 
 
 ### Phone System with Teams Calling Plans 
