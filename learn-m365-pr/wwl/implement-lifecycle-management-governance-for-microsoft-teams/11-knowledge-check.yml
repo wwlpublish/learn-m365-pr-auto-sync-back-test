@@ -1,0 +1,51 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.implement-lifecycle-management-governance-for-microsoft-teams.knowledge-check
+title: Knowledge check
+metadata:
+  title: Knowledge check
+  description: "Knowledge check"
+  ms.date: 08/20/2021
+  author: wwlpublish
+  ms.author: jennyche
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+durationInMinutes: 5
+content: |
+  [!include[](includes/11-knowledge-check.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "Which of the following admin center should you use to configure the naming policy for Microsoft 365 Groups?"
+    choices:
+    - content: "Microsoft 365 admin center"
+      isCorrect: false
+      explanation: "That's incorrect. You can't configure the group naming policy from the Microsoft 365 admin center. Try again."
+    - content: "Azure AD admin center"
+      isCorrect: true
+      explanation: "That's correct. You configure the group naming policy from the Azure AD admin center."
+    - content: "Teams admin center"
+      isCorrect: false
+      explanation: "That's incorrect. You can't configure the group naming policy from the Teams admin center. Try again."
+  - content: "Billy is the Teams Administrator in Contoso Ltd. Billy wants to explore and test upcoming Teams features for the user readiness program. What should Billy do to make sure the early access to unreleased features in Teams?"
+    choices:
+    - content: "Check for updates from Teams client"
+      isCorrect: false
+      explanation: "That's incorrect. Updating Teams client is to ensure you have the latest Teams features that are generally available. This doesn't include the features that are in Public Preview. Try again."
+    - content: "Configure Teams update policies"
+      isCorrect: true
+      explanation: "That's correct. Billy can configure the Teams update policy with Show preview features enabled to access unreleased features in Teams."
+    - content: "Enroll Office Current Channel (Preview)"
+      isCorrect: false
+      explanation: "That's incorrect. Enrolled in Office Current Channel (Preview) doesn't guarantee early access to unreleased features in Teams. Try again."
+  - content: "Mike is the Teams Administrator in Contoso Retail Ltd. The business wants each store manager to own a team with a consistent channel structure for each retail store. What should Mike configure for the requirement with minimal administrative effort?"
+    choices:
+    - content: "Create teams from Teams admin center"
+      isCorrect: false
+      explanation: "That's incorrect. This approach requires more administrative effort. Try again."
+    - content: "Configure a Team template"
+      isCorrect: true
+      explanation: "That's correct. By creating a Team template, the store managers can create the team by themselves."
+    - content: "Create teams using PowerShell"
+      isCorrect: false
+      explanation: "That's incorrect. This approach requires more administrative effort. Try again."
