@@ -35,7 +35,7 @@ You can use Teams admin center or PowerShell to assign policies or policy packag
 |Policy Assigment |Assign a policy|Assign a policy package|
 |--|--|--|
 |To individual user|Use the ```Grant-``` cmdlet for a given policy type to assign the policy.<br/><br/> For example, use the ```Grant-CsTeamsMeetingPolicy``` cmdlet to assign a Teams meeting policy to users. |Use the ```Grant-CsUserPolicyPackage``` cmdlet to assign a policy package to one or less than 20 users at a time.|
-|To a batch of users|Use the ```New-CsBatchPolicyAssignmentOperation``` cmdlet to assign a policy package to a batch of users.|Use the ```New-CsBatchPolicyPackageAssignmentOperation``` cmdlet to assign a policy package to  a batch of users in a tenant.|
+|To a batch of users|Use the ```New-CsBatchPolicyAssignmentOperation``` cmdlet to assign a policy to a batch of users.|Use the ```New-CsBatchPolicyPackageAssignmentOperation``` cmdlet to assign a policy package to  a batch of users in a tenant.|
 |To a group|Use the ```New-CsGroupPolicyAssignment``` cmdlet to assign a policy to a group. |Use the ```Grant-CsGroupPolicyPackageAssignment``` cmdlet to assign a policy package to a group.|
 
 Depends on the Teams policy types, some policy assignments aren't available for all Teams policy types. 
