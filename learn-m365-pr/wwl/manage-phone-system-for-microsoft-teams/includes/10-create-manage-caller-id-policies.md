@@ -16,7 +16,7 @@ Caller ID policies can be managed in the Microsoft Teams admin center by navigat
 1. In the left-hand navigation pane of the Microsoft Teams admin center, select **Voice** > **Caller ID policies**.
 2. Select **Add**. <br>
 
-	‎‎:::image type="content" source="../media/new-callerid-policy.png" alt-text="Screenshot of new caller ID policy page in the admin center":::
+	‎‎:::image type="content" source="../media/new-caller-id-policy.png" alt-text="Screenshot of new caller ID policy page in the admin center":::
 
 3. Enter a name and description for the policy.
 4. Select the settings that you want assigned to the policy:

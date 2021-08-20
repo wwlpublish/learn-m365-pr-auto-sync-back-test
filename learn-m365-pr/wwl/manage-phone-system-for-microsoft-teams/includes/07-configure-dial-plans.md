@@ -90,6 +90,6 @@ To configure dial plans using Windows PowerShell,  use the following PowerShell 
 * To see the settings of the effective dial plan, run: ```Get-CsEffectiveTenantDialPlan```
 
 
-## Knowledge check<br>
+## Knowledge check
 
 Choose the best response for the following question. Then select “Check your answers.”

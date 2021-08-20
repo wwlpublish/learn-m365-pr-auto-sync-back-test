@@ -53,6 +53,6 @@ You can also use the  ```Grant-CsTeamsCallParkPolicy``` PowerShell cmdlet to gra
 
 
 
-## Knowledge check<br>
+## Knowledge check
 
 Choose the best response for the following question. Then select “Check your answers.”

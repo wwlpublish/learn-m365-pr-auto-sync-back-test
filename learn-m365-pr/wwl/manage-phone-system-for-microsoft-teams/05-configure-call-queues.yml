@@ -16,7 +16,7 @@ content: |
 quiz:
   title: "Check your knowledge"
   questions:
-  - content: "If you plan to use a Teams channel for your call agents, you can assign an outbound caller ID number for the agents by specifying one or more resource accounts with a phone number. What should you consider doing if you're not using a Teams channel to control agent membership?"
+  - content: "Contoso's Microsoft 365 project team is considering using a Teams channel for their call agents. In doing so, they can assign an outbound caller ID number for the agents by specifying one or more resource accounts with a phone number. What should Contoso's project team consider doing if they don't use a Teams channel to control agent membership?"
     choices:
     - content: "Implement presence-based routing"
       isCorrect: false

@@ -90,6 +90,6 @@ You can also create and set up call queues with Windows PowerShell. The followin
  
 
 
-## Knowledge check<br>
+## Knowledge check
 
 Choose the best response for the following question. Then select “Check your answers.”
