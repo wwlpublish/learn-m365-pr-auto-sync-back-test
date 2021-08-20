@@ -4,7 +4,7 @@ title: Summary and knowledge check
 metadata:
   title: Summary and knowledge check
   description: Learn how Microsoft uses Defense-In-Depth to secure our datacenters against unauthorized access, environmental hazards, and other physical threats, as well as how Microsoft implements resilient architecture, business continuity, and disaster recovery to maintain the availability of our services.
-  ms.date: 07/19/2021
+  ms.date: 06/18/2020
   author: NamrahK
   ms.author: beccarobins
   ms.topic: interactive-tutorial
