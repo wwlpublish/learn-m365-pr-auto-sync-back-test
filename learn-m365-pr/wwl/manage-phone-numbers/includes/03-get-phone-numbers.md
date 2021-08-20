@@ -12,17 +12,17 @@ Each country or region has different instructions, different types of phone numb
 
 Microsoft Teams uses different telephone number types depending on the purpose for which the phone number will be used:
 
-- **User numbers.** These numbers can be assigned to users in an organization for calling purposes. There are two kinds of user numbers: **geographic numbers** and **non-geographic numbers**.
+- **User numbers**. These numbers can be assigned to users in an organization for calling purposes. There are two kinds of user numbers: **geographic numbers** and **non-geographic numbers**.
 
-- **Service numbers.** These numbers are assigned to services such as Audio Conferencing, auto attendants, and call queues. Service phone numbers have a higher concurrent call capacity than user numbers and will vary by country/region and the type of number (whether it's a toll or toll-free service numbers).
+- **Service numbers**. These numbers are assigned to services such as Audio Conferencing, auto attendants, and call queues. Service phone numbers have a higher concurrent call capacity than user numbers and will vary by country/region and the type of number (whether it's a toll or toll-free service numbers).
 
 ## Number of phone numbers you can get
 
 When an organization is looking for phone numbers, it can get more phone numbers than it has assigned licenses. But this situation depends on the types of phone numbers and types of licenses it's purchased and assigned. 
 
-- **User numbers.** The number of phone numbers for users (subscribers) is equal to the total number of **Domestic Calling Plan** and **Domestic and International Calling Plan** licenses you've assigned multiplied by 1.1, plus 10 extra phone numbers. For example, if you have 50 users in total between a Domestic Calling Plan and a Domestic and International Calling Plan, you can acquire **65** phone numbers **(50 x 1.1 + 10)**.
+- **User numbers**. The number of phone numbers for users (subscribers) is equal to the total number of **Domestic Calling Plan** and **Domestic and International Calling Plan** licenses you've assigned multiplied by 1.1, plus 10 extra phone numbers. For example, if you have 50 users in total between a Domestic Calling Plan and a Domestic and International Calling Plan, you can acquire **65** phone numbers **(50 x 1.1 + 10)**.
 
-- **Service numbers.** The number of phone numbers is based on the total number of Phone System and Audio Conferencing licenses. For more information, see [How many phone numbers can you get?](/microsoftteams/how-many-phone-numbers-can-you-get).
+- **Service numbers**. The number of phone numbers is based on the total number of Phone System and Audio Conferencing licenses. For more information, see [How many phone numbers can you get?](/microsoftteams/how-many-phone-numbers-can-you-get).
 
 ## Sources of phone numbers
 
@@ -90,7 +90,7 @@ You must be a Teams service admin to use the Teams admin center to get new phone
 ‎
 	- **Location** - choose a location for connecting the new phone numbers. If you need to create a new location, select **Add a location** and enter the required location’s data.
 	- **Area code** - select a valid area code for the country/region and location.
-	- **Quantity -** enter the number of phone numbers that you want for your organization. 
+	- **Quantity** - enter the number of phone numbers that you want for your organization. 
 
 6. Select **Next** to continue.   
 ‎	

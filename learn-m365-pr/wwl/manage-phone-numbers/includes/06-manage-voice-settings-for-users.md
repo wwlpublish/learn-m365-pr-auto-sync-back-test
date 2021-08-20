@@ -30,7 +30,7 @@ A user can be enabled to use call groups by either changing their policy using t
  
 You can use the Microsoft Teams Client to add a call group by completing the following steps:
 
-1. In the upper right corner of the client, select **Settings** and **Calls.**
+1. In the upper right corner of the client, select **Settings** and **Calls**.
 2. Below **Call answering rules**, select **Forward my calls**, and open the dropdown menu by selecting **Voicemail**. 
 3. Select the **call group** to open a **Call group** new window. 
 4. Use the search field below **Add people** and select the  users that you want to add to the call group.
@@ -61,6 +61,6 @@ If you want to add users to a call group, complete the following steps:
 
 
 
-## Knowledge check<br>
+## Knowledge check
 
 Choose the best response for the following question. Then select “Check your answers.”

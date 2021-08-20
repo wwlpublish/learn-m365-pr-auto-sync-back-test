@@ -53,7 +53,7 @@ When a Teams Calling Plan user dials an emergency number, how the call is routed
 - Whether the emergency address is the registered address associated with the user's phone number
 - The emergency calling network of that country/region
 
-**In the United States:**
+**In the United States**, the following rules apply:
 
 - If a Teams client is located at a tenant-defined dynamic emergency location, emergency calls from that client are automatically routed to the PSAP serving that geographic location.
 - If a Teams client isn't located at a tenant-defined dynamic emergency location, emergency calls from that client are screened by a national call center to determine the location of the caller before transferring the call to the PSAP serving that geographic location.
@@ -76,7 +76,7 @@ When a Teams Calling Plan user dials an emergency number, how the call is routed
 Complete the following steps to add an emergency address:
 
 1. Sign into the **Microsoft Teams admin center**.
-2. On the left-hand navigation pane, select **Locations** > **Emergency addresses.**
+2. On the left-hand navigation pane, select **Locations** > **Emergency addresses**.
 3. On the **Emergency addresses** page, select **+ Add** to add a new location.  
 4. Type the name and description for the location.
 5. Select the country/region, and then enter the **Address**.
@@ -100,6 +100,6 @@ The following PowerShell cmdlets can also be used to manage emergency addresses:
 * To remove an emergency address, use [Remove-CsOnlineLisCivicAddress](/powershell/module/skype/remove-csonlineliscivicaddress).
 
 
-## Knowledge check<br>
+## Knowledge check
 
 Choose the best response for the following question. Then select “Check your answers.”

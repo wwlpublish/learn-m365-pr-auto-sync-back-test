@@ -49,13 +49,13 @@ An organization should consider using Operator Connect if:
 
 Operator Connect provides the following functionality: 
 
-- **Leverage existing contracts, or find a new operator.** An organization can keep its preferred operator and contracts, or choose a new one from a selection of participating operators to meet its business needs.
+- **Leverage existing contracts, or find a new operator**. An organization can keep its preferred operator and contracts, or choose a new one from a selection of participating operators to meet its business needs.
 
-- **Operator-managed infrastructure.** An organization's operator manages the PSTN calling services and Session Border Controllers (SBCs), allowing the company to save on hardware purchase and management.
+- **Operator-managed infrastructure**. An organization's operator manages the PSTN calling services and Session Border Controllers (SBCs), allowing the company to save on hardware purchase and management.
 
-- **Faster, easier deployment.** An organization can quickly connect to its operator and assign phone numbers to users -– all from the Teams Admin Center.
+- **Faster, easier deployment**. An organization can quickly connect to its operator and assign phone numbers to users -– all from the Teams Admin Center.
 
-- **Enhanced support and reliability.** Operators provide technical support and shared service level agreements to improve support service, while direct peering powered by Azure creates a one-to-one network connection for enhanced reliability.
+- **Enhanced support and reliability**. Operators provide technical support and shared service level agreements to improve support service, while direct peering powered by Azure creates a one-to-one network connection for enhanced reliability.
 
 ‎:::image type="content" source="../media/operator-connect.png" alt-text="Phone System with Operator Connect":::
 
@@ -64,6 +64,8 @@ Operator Connect provides the following functionality:
 Direct Routing enables Phone System to connect through an organization's on-premises Session Border Controller (SBC) to the PSTN using its own telephony carrier.
 
 Direct Routing enables an organization to connect its SBC to a telephony trunk using third-party hardware. It can configure interoperability between its on-premises telephony equipment, including PBX and analog devices, and Phone System.
+
+:::image type="content" source="../media/direct-routing.png" alt-text="Direct Routing flow":::
 
 An organization should consider using Direct Routing if:
 
@@ -82,7 +84,7 @@ Phone System with Direct Routing provides the following functionality:
 
 - An organization can configure interoperability between Microsoft Phone System and its telephony equipment, such as a third-party PBX and analog devices.
 
-Phone System with Direct Routing requires the following prerequisites:
+‎Phone System with Direct Routing requires the following prerequisites:
 
 - Uninterrupted connection to Microsoft 365.
 
@@ -90,7 +92,7 @@ Phone System with Direct Routing requires the following prerequisites:
 
 - A contract with a third-party carrier (unless it's deployed as an option to provide connection to third-party PBX, analog devices, or other telephony equipment for users who are on Phone System with Calling Plan.)
 
-‎:::image type="content" source="../media/direct-routing.png" alt-text="Direct Routing flow":::
+
 
 
 ## Basic telephony terminology
@@ -114,6 +116,6 @@ If you don't have a foundation in telecommunications, it's recommended that you 
 - **Session Initiation Protocol (SIP) trunks**. A SIP trunk enables an end point’s PBX phone system to send and receive calls through the Internet. SIP trunking is a service offered by communications service providers that uses the Session Initiation Protocol to provision streaming media services and Voice over IP (VoIP) connectivity between an on-premises phone system and the PSTN. SIP trunks enable Internet telephony service providers to deliver telephone services and unified communications to customers equipped with SIP-based IP PBX and unified communications facilities.
 
 
-## Knowledge check<br>
+## Knowledge check
 
 Choose the best response for the following question. Then select “Check your answers.”
