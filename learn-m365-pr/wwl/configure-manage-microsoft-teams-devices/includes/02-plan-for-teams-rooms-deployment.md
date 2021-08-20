@@ -23,20 +23,20 @@ An organization will need several teams to help deploy Microsoft Teams Rooms:
 
 Organizations should consider the following issues when planning their Microsoft Teams Rooms deployment:
 
-- **Set standards based on room sizes.** When possible, organizations should set standards based on the size of a room. The types of devices used should depend on the size of the room. Microsoft provides meeting room archetype specifications for different-sized meeting rooms. For details, see [ Microsoft Teams devices by space](https://www.microsoft.com/microsoft-teams/across-devices/spaces?azure-portal=true).
+- **Set standards based on room sizes**. When possible, organizations should set standards based on the size of a room. The types of devices used should depend on the size of the room. Microsoft provides meeting room archetype specifications for different-sized meeting rooms. For details, see [ Microsoft Teams devices by space](https://www.microsoft.com/microsoft-teams/across-devices/spaces?azure-portal=true).
 
-- **Plan for product delays.** Unexpected things can happen, like a pandemic, which puts a slowdown on shipping and delivery schedules.
+- **Plan for product delays**. Unexpected things can happen, like a pandemic, which puts a slowdown on shipping and delivery schedules.
 
-- **Standardize room installation.** An organization should develop standards for how it's going to run and organize the cables and where it's going to mount devices. If computer devices are going to be mounted behind displays, make that a standard too.
+- **Standardize room installation**. An organization should develop standards for how it's going to run and organize the cables and where it's going to mount devices. If computer devices are going to be mounted behind displays, make that a standard too.
 
-- **Understand your device setup and configuration.** Organizations must have a good understanding of the device setup instructions and any necessary configuration files.
+- **Understand your device setup and configuration**. Organizations must have a good understanding of the device setup instructions and any necessary configuration files.
 
-- **Create a cabling diagram.** Where possible, an organization should create a clear, detailed cabling diagram that it can send to its remote staff. This diagram will greatly increase the Facilities team's ability to support and troubleshoot Teams Rooms.
+- **Create a cabling diagram**. Where possible, an organization should create a clear, detailed cabling diagram that it can send to its remote staff. This diagram will greatly increase the Facilities team's ability to support and troubleshoot Teams Rooms.
 
-- **Don't forget training.** As with any software deployment, it doesn't matter how great the Teams Rooms implementation is if end users aren't familiar with how to use the system. Effective, user-based training is essential to achieving user buy-in and acceptance.
+- **Don't forget training**. As with any software deployment, it doesn't matter how great the Teams Rooms implementation is if end users aren't familiar with how to use the system. Effective, user-based training is essential to achieving user buy-in and acceptance.
 
 
 
-## Knowledge check<br>
+## Knowledge check
 
 Choose the best response for the following question. Then select “Check your answers.”

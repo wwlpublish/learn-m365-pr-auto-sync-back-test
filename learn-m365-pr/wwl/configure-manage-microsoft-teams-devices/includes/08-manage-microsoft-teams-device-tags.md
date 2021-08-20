@@ -87,6 +87,6 @@ After you've filtered the devices in your device list, you can complete actions 
 :::image type="content" source="../media/admin-2.gif" alt-text="Manage Teams device tags":::  
 
 
-## Knowledge check<br>
+## Knowledge check
 
 Choose the best response for the following question. Then select “Check your answers.”

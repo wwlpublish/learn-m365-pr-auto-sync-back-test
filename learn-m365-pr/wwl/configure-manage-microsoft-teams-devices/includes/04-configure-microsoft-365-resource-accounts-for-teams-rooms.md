@@ -183,6 +183,6 @@ There are two mandatory PowerShell modules that must be installed to create a re
    ```
 
 
-## Knowledge check<br>
+## Knowledge check
 
 Choose the best response for the following question. Then select “Check your answers.”

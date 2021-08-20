@@ -74,6 +74,6 @@ The provisioned device appears in the **Waiting for sign in** tab. Start the rem
 
 
 
-## Knowledge check<br>
+## Knowledge check
 
 Choose the best response for the following question. Then select “Check your answers.”
