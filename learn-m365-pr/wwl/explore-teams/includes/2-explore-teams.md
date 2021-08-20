@@ -2,8 +2,7 @@ Teams is the platform for communications and collaboration within Microsoft 365.
 
 Additionally, Microsoft Teams delivers the advanced security and compliance capabilities that enable safe and trustworthy online collaboration.
 
-> [!div class="mx-imgBorder"]
-> ![Description of what is Teams](../media/teams-workloads.png)
+‎:::image type="content" source="../media/teams-workloads.png" alt-text="Description of what is Teams":::
 
 ## Chat
 
@@ -42,14 +41,14 @@ Microsoft Teams lets you quickly pull together a team with people inside and out
 
     * **Private channels**. Private channels are similar to standard channels, but they restrict access to conversations, files, and apps to a limited subset of team members. This enables private collaboration within a project or department. 
 
-    * **Shared channels**. Shared channels enable you to share channels with any user or group with Azure Active Directory identity to your organization. (The feature is in private preview in July 2021. For the latest status, check the roadmap with the [feature ID_70766](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=70766&azure-portal=true).)
+    * **Shared channels**. Shared channels enable you to share channels with any user or group with Azure Active Directory identity to your organization. (The feature is in development. For the latest status, check the roadmap with the [feature ID_70766](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=70766&azure-portal=true).)
 
 Teams can be dynamic for project-based work (such as running projects), and ongoing, to reflect the internal structure of your organization (such as departments and office locations). 
 
 All data within a team, such as conversations, files, and notes across team channels are only visible to members of the team. At the top of each channel, you will find tabs, which are basically links to your favorite files, apps, and services. The following picture shows the structure of channels in Teams of an organization.  
 ‎
 
-![Example of a team created to align with organizational structure](../media/channel-structure.png)
+‎:::image type="content" source="../media/channel-structure.png" alt-text="Example of a team created to align with organizational structure":::
 
 
 ## Apps and workflows
@@ -81,13 +80,15 @@ There are two kinds of calls in Teams.
 
 * **Calls between Teams clients** : Out of the box, Teams supports the ability for users to make voice over IP (VoIP) 1:1 or group calls from Teams client to Teams client.
 
-    ![Make call between Teams client](../media/calls-teams-client.png)
+    ‎:::image type="content" source="../media/calls-teams-client.png" alt-text="Make call between Teams client":::
 
 * **Make and receive PSTN calls** : Microsoft Teams Phone allows users to make and receive Public Switched Telephone Network (PSTN) phone calls with traditional phone service. 
 
     To enable users to make and receive PSTN calls, you need to connect Phone System to the PSTN. Users then can use the Dial Pad to call landlines or mobiles phones on the PSTN.
 
-     ![Make PSTN calls using the Dial Pad](../media/make-pstn-calls.png)
+     ‎:::image type="content" source="../media/make-switched-telephone-network-calls.png" alt-text="Make PSTN calls using the Dial Pad":::
+
+
 
 ## Security and compliance
 
@@ -114,7 +115,6 @@ The compliance capabilities for Teams include:
 * eDiscovery
 * Communication compliance
 * Information Barriers
-* GDPR data subject requests
 * Compliance recording
 
  

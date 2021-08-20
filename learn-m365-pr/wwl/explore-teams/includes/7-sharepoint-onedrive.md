@@ -34,8 +34,7 @@ The following table shows the scenarios of Teams content stored in SharePoint.
 | Files sent to a channel.  <br/>For example, send emails with file attachments to the channels email address.| Files are stored in the subfolder **Email Messages** of the channel folder in the SharePoint document library. |
 |Channel meeting recordings| Channel meeting recordings are stored in a folder named **Recordings** in the channel folder that's in the document library for that team.|
 
-> [!div class="mx-imgBorder"]
-> ![A graphic explains the structure of Teams Channels in SharePoint](../media/teams-content-in-sharepoint.png)
+‎:::image type="content" source="../media/teams-content-sharepoint.png" alt-text="A graphic explains the structure of Teams Channels in SharePoint":::
 
 ## OneDrive in Microsoft Teams
 
@@ -57,8 +56,7 @@ The following table shows the scenarios of Teams content stored in OneDrive.
 | Non-channel meeting recordings| Meeting recordings are stored in a folder named **Recordings** in the OneDrive for the person who started the meeting recording.| 
 
 
-> [!div class="mx-imgBorder"]
-> ![A graphic explains the structure of Teams chat in OneDrive](../media/teams-content-in-onedrive.png)
+‎:::image type="content" source="../media/teams-content-onedrive.png" alt-text="A graphic explains the structure of Teams chat in OneDrive":::
 
 
 ## Knowledge check

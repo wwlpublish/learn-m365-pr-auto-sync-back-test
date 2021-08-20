@@ -3,7 +3,7 @@ Microsoft certification programs assure high-quality experience in Teams. There 
 ## Microsoft 365 App compliance program
 The Microsoft 365 App Compliance Program, is a three tier approach to app security and compliance. Each tier builds upon the next – offering a layered program to give users the confidence they need while using apps in the Microsoft 365 ecosystem. 
 
-![Microsoft 365 App compliance program](../media/app-program.png)
+‎:::image type="content" source="../media/app-program.png" alt-text="Microsoft 365 App compliance program":::
 
 
 * **Publisher Verification** helps admins and users understand the authenticity of app developers integrating with the Microsoft identity platform. When an app is marked as publisher verified, the publisher has verified their identity using a Microsoft Partner Network account and associated this MPN account with their application registration.

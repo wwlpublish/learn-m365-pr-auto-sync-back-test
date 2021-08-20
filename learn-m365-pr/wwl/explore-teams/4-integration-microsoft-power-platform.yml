@@ -16,14 +16,14 @@ content: |
 quiz:
   title: "Check your knowledge"
   questions:
-  - content: "You're the IT Admin for Contoso Ltd. HR department want to create an automated service to answer the frequently asked questions from employees. Which of the following tool should you recommend?"
+  - content: "Patti Fernandez is the IT Admin for Contoso Ltd. The HR department wants to create an automated service to answer the frequently asked questions from employees. Which of the following tool should Patti recommend to achieve the goal?"
     choices:
     - content: "Power Apps"
       isCorrect: false
       explanation: "That's incorrect. Using Power Apps is not a good solution here. Try again."
     - content: "Power Virtual Agents"
       isCorrect: true
-      explanation: "That's correct. You can use Power Virtual Agents to create a bot with FAQ content."
+      explanation: "That's correct. They can use Power Virtual Agents to create a bot with FAQ content."
     - content: "Power BI"
       isCorrect: false
       explanation: "That's incorrect. Power BI is used for data visualizations. Try again."

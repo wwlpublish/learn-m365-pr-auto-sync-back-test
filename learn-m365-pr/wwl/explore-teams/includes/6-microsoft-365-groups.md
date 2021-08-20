@@ -4,8 +4,7 @@ A Microsoft 365 Group can be created directly from Microsoft 365 admin center or
 
 Teams shares the same group privacy and membership roles with the associated Microsoft 365 group. 
 
-> [!div class="mx-imgBorder"]
-> ![Microsoft 365 Group features](../media/why-microsoft-365-groups.png)
+‎:::image type="content" source="../media/why-microsoft-365-groups.png" alt-text="Microsoft 365 Group features":::
 
 ## Shared resources for Microsoft 365 Groups
 Microsoft 365 Groups is the foundational membership service that drives all teamwork across Microsoft 365. With Microsoft 365 Groups, you can give a group of people access to a collection of shared resources. These resources include:

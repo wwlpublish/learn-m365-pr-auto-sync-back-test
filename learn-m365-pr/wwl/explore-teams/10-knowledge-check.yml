@@ -27,7 +27,7 @@ quiz:
     - content: "Mail-enabled security groups"
       isCorrect: false
       explanation: "That's incorrect. Mail-enabled security groups can not be upgraded to Microsoft 365 groups. Try again."
-  - content: "You are the Teams Administrator in Contoso Ltd. A team has been created for the new series of marketing campaigns with external vendors. The team owner wants to restrict sensitive information to only a subset of the team members, including external vendors' managers. Which solution should you recommend to the team owner?"
+  - content: "Allan DeYoung is the Teams Administrator in Contoso Ltd. A team has been created for the new series of marketing campaigns with external vendors. The team owner wants to restrict sensitive information to only a subset of the team members, including external vendors' managers. Which solution should Allan recommend to the team owner?"
     choices:
     - content: "Create a new team"
       isCorrect: false
