@@ -18,7 +18,7 @@ abstract: |
     - Use email notifications to be informed of new or updated incident
 prerequisites: | 
   - None
-iconUrl: /learn/achievements/generic-badge.svg
+iconUrl: /learn/achievements/m365-defender-investigate-incidents.svg
 levels: 
   - beginner
 roles: 
