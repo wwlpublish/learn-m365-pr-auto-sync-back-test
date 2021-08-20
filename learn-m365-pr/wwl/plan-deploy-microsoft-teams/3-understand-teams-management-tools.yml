@@ -6,8 +6,9 @@ metadata:
   description: "Understand Teams management tools"
   ms.date: 08/20/2021
   author: wwlpublish
+  ms.author: jennyche
   ms.topic: interactive-tutorial
-  ms.prod: learning-azure
+  ms.prod: learning-m365
 azureSandbox: false
 durationInMinutes: 6
 content: |
@@ -15,7 +16,7 @@ content: |
 quiz:
   title: "Check your knowledge"
   questions:
-  - content: "You are the team owner of the AnnualEvent team. The annual event just finished. You want to archive the AnnualEvent team now and make sure the files in the AnnualEvent team are read-only for team members. What should you do with minimal effort?"
+  - content: "Debra Berger is the team owner of the AnnualEvent team. The annual event just finished. Debra wants to archive the AnnualEvent team now and make sure the files in the AnnualEvent team are read-only for team members. What should Debra do with minimal effort?"
     choices:
     - content: "Contact Teams administrator for help"
       isCorrect: false

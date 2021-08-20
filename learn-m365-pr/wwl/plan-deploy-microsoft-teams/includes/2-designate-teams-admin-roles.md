@@ -43,7 +43,7 @@ To assign Teams admin roles in the Microsoft 365 admin center, you will need to 
 
 1. Sign-in to the **Microsoft 365 admin center** using a **Global administrator** account.
 
-2. Select **Users**, and then select **Active Users.**
+2. Select **Users**, and then select **Active Users**.
 
 3. Search for a user and then select the user getting the role assignment. 
 
@@ -53,9 +53,9 @@ To assign Teams admin roles in the Microsoft 365 admin center, you will need to 
 
 6. Select the role to assign to the user (for example, **Teams service admin**), and then select **Save changes**. 
 
-    ![Assign Teams Admin Roles in M365 admin center](../media/assign-teams-admin-roles-in-microsoft-365-admin-center.png)
+    ‎:::image type="content" source="../media/assign-teams-admin-roles-microsoft-365-admin-center.png" alt-text="Assign Teams Admin Roles in M365 admin center":::
 
-You can also assign admin roles in Microsoft 365 admin center by selecting **Roles** in the left navigation pane, and then select the appropriate admin role, for example **Teams communications support engineer.** On the **Teams communications support engineer** page, select **Assigned admins**, and add the users you want to assign the role.
+You can also assign admin roles in Microsoft 365 admin center by selecting **Roles** in the left navigation pane, and then select the appropriate admin role, for example **Teams communications support engineer**. On the **Teams communications support engineer** page, select **Assigned admins**, and add the users you want to assign the role.
 
 
 ## Assign Teams admin roles in Azure AD
@@ -64,18 +64,18 @@ To assign Teams admin roles in Azure AD, you will need to perform following step
 
 1. Sign-in to the **Azure portal** using a **Global administrator** account for the directory.
 
-2. Select **Azure Active Directory**, and then select **Users.**
+2. Select **Azure Active Directory**, and then select **Users**.
 
 3. Search for a user and then select the user getting the role assignment. 
 
-4. On the user page, select **Assigned Roles,** select **Add assignment**.
+4. On the user page, select **Assigned Roles**, select **Add assignment**.
 
 5. In the **Directory role** page, in the search box, type **Teams**.
 
 6. Select the role to assign to the user (for example, **Teams Administrator**), and then select **Add**. 
 
 7. The **Teams Administrator** role is assigned to the user and it appears on the user’s Assigned roles page.
-![Assign Teams Admin Roles in Azure AD](../media/assign-teams-admin-roles-in-azure-ad.png)
+‎:::image type="content" source="../media/assign-teams-admin-roles-azure-ad.png" alt-text="Assign Teams Admin Roles in Azure AD":::
 
 
 

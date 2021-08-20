@@ -6,8 +6,9 @@ metadata:
   description: "Plan for Teams licensing"
   ms.date: 08/20/2021
   author: wwlpublish
+  ms.author: jennyche
   ms.topic: interactive-tutorial
-  ms.prod: learning-azure
+  ms.prod: learning-m365
 azureSandbox: false
 durationInMinutes: 7
 content: |
@@ -15,7 +16,7 @@ content: |
 quiz:
   title: "Check your knowledge"
   questions:
-  - content: "You are the Teams Administrator in Contoso Ltd. You are evaluating the required licenses for Teams Room deployment. You want to include Teams Rooms Managed Services. Which of the following license should you choose?"
+  - content: "Lidia Holloway is the Teams Administrator in Contoso Ltd. Lidia is evaluating the required licenses for Teams Room deployment. Lidia wants to include Teams Rooms Managed Services. Which of the following license should Lidia choose?"
     choices:
     - content: "Microsoft Teams Rooms Standard"
       isCorrect: false

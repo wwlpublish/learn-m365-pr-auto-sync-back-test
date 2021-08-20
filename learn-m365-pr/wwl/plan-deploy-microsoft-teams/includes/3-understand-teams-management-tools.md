@@ -2,13 +2,13 @@ Managing the various aspects of Microsoft Teams can be performed using various t
 
  
 
-## Teams Admin Center
+## Teams admin center
 
 The Microsoft Teams Admin Center is available from the Microsoft 365 Admin Center or by navigating to the web address "[https://admin.teams.microsoft.com/](https://admin.teams.microsoft.com/?azure-portal=true)". The Microsoft Teams Admin Center provides a dashboard that shows the Teams usage and user activity in an organization and the full administrative capabilities required to configure all aspects of Teams in a tenant.
 
  
 
-![Microsoft Teams Admin Center](../media/teams-admin-center.png)
+‎:::image type="content" source="../media/teams-admin-center.png" alt-text="Microsoft Teams Admin Center":::
 
 
  
@@ -33,7 +33,7 @@ To access the Teams Admin Center, a user must be assigned to one of the followin
 
  
 
-## Teams PowerShell Module
+## Teams PowerShell module
 
 To use Windows PowerShell to run Teams-related commands, you must first install the Teams PowerShell module by running the following command in an elevated PowerShell session:
 
@@ -63,7 +63,7 @@ If you want to see a list of all the cmdlets that are included in the Microsoft 
 Get-Command -Module MicrosoftTeams
 ```
  
-![Screenshot of PowerShell window](../media/teams-power-shell-module.png)
+‎:::image type="content" source="../media/teams-power-shell-module.png" alt-text="Screenshot of PowerShell window":::
 
 
 
@@ -83,7 +83,7 @@ The Graph API can be used for various tasks regarding managing team settings, me
 For more information, please refer to [Use the Microsoft Graph API to work with Microsoft Teams](/graph/api/resources/teams-api-overview).
 
 
-## Management through Teams Clients
+## Management through Teams clients
 
 Team owners can make changes on their owned teams by performing certain management tasks without being assigned either the Global Administrator or Teams Administrator roles. 
 
@@ -124,7 +124,7 @@ The following list describes some of the tasks a team owner can perform themselv
  
 These management tasks are available through the Desktop client, the web client, and the mobile client.
 
-## Azure Active Directory Admin Center
+## Azure Active Directory admin center
 
 Teams uses Azure Active Directory as the directory service. You can view and manage your organization's existing groups and group members using the Azure Active Directory Admin Center. 
 

@@ -3,13 +3,13 @@ Microsoft Teams has clients available for desktop (Windows, Mac, and Linux), web
 ## Deploy Teams desktop clients 
 The Microsoft Teams desktop clients provide real-time communications support (audio, video, and content sharing) for team meetings, group calling, and private one-on-one calls.
 
-![Screenshot of Teams desktop client](../media/teams-windows-client.png)
+‎:::image type="content" source="../media/teams-windows-client.png" alt-text="Screenshot of Teams desktop client":::
 
 The desktop client is available for the following operating systems:
 
-- **Windows:** Windows (8.1 or later) and Windows Server (2012 R2 or later), 32-bit and 64-bit versions.
-- **macOS:** the three most recent versions of macOS.
-- **Linux:** .deb and.rpm formats.
+- **Windows**. Windows (8.1 or later) and Windows Server (2012 R2 or later), 32-bit and 64-bit versions.
+- **macOS**. the three most recent versions of macOS.
+- **Linux**. .deb and.rpm formats.
 
 As a Teams administrator, you can choose your preferred method to distribute the installation files to computers in your organization. For example, you can use Microsoft Endpoint Configuration Manager for Windows operating systems or Jamf Pro for macOS. There are several ways to deploy Teams desktop clients:
 
