@@ -4,8 +4,7 @@ With a low-code platform, anyone with a great idea can build a digital app. Micr
 
 Microsoft Power Platform provides many integration capabilities with Teams where you can embed **Power BI** reports in the Teams workspace, embed apps created using **Power Apps** as a tab or personal app, trigger a **Power Automate** flow from any message or use adaptive cards, and add your bot created using **Power Virtual Agents** to Teams for other members of your organization to interact with.
 
-> [!div class="mx-imgBorder"]
-> ![The graph illustrates Microsoft Teams can combine capabilities from a wide spectrum of tools to create a fully integrated experience](../media/teams-power-platform.png)
+![The graph illustrates Microsoft Teams can combine capabilities from a wide spectrum of tools to create a fully integrated experience](../media/teams-power-platform.png)
 
 ## Power Apps in Teams
 Power Apps provides a rapid low code development environment for building custom apps for business needs. It has services, connectors, and a scalable data service and app platform (Microsoft Dataverse) to allow simple integration and interaction with existing data. Combined with Microsoft Teams, Power Apps can be used to build a modern workplace through custom tabs and apps in the app bar all with little to no code. 
@@ -18,7 +17,7 @@ The followings are examples to use Power Apps in Microsoft Teams:
 
 - Use the **Power Apps app** in Teams to create canvas apps within Teams backed by Dataverse for Teams.
 
- ![Using Power Apps in Teams client](../media/use-power-apps-in-teams.gif)
+![Using Power Apps in Teams client](../media/use-power-apps-in-teams.gif)
 
 ## Power Automate in Teams
 
@@ -48,7 +47,7 @@ The followings are examples to use Power Virtual Agents in Microsoft Teams:
 - Review and analyze the performance of the bot.
 - Have bots take actions on someone's behalf.
 
- ![Use Power Virtual Agents in Microsoft Teams](../media/use-power-virtual-agents-in-teams.gif)
+![Use Power Virtual Agents in Microsoft Teams](../media/use-power-virtual-agents-in-teams.gif)
 
 
 ## Power BI in Teams
@@ -63,7 +62,7 @@ The followings are examples to use Power BI in Microsoft Teams:
 
 - Get notifications in Teams about activity from Power BI.
 
- ![The graph illustrates Power BI in Microsoft Teams](../media/service-embed-report-microsoft-teams-tab-with-report.png)
+![The graph illustrates Power BI in Microsoft Teams](../media/service-embed-report-microsoft-teams-tab-with-report.png)
 
 
 ## Microsoft Dataverse for Teams
@@ -84,7 +83,7 @@ The four types of Dataverse for Teams solutions are:
 
 * **Dashboards** - Users can explore and interact with their data in Dataverse for Teams.
 
- ![Microsoft Dataverse for Teams in Teams client](../media/dataverse-for-teams.png)
+![Microsoft Dataverse for Teams in Teams client](../media/dataverse-for-teams.png)
 
 ## Knowledge check
 
