@@ -8,7 +8,7 @@ metadata:
           -	Prepare: See the considerations you should take, such as stakeholder approvals, and adoption order of capabilities.
           -	Set up: Learn how to set up a Microsoft Defender for Endpoint instance and how it connects with your environment.
           -	Onboard: Learn about the supported onboarding tools, and how to configure available capabilities.
-  ms.date: 07/21/2021
+  ms.date: 08/16/2021
   author: iankensey
   ms.author: beccarobins
   ms.topic: interactive-tutorial
