@@ -1,0 +1,29 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.manage-phone-system-for-microsoft-teams.plan-design-call-queues-auto-attendants
+title: Plan and design call queues and auto attendants
+metadata:
+  title: Plan and design call queues and auto attendants
+  description: "Plan and design call queues and auto attendants"
+  ms.date: 08/23/2021
+  author: wwlpublish
+  ms.author: jennyche
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+durationInMinutes: 8
+content: |
+  [!include[](includes/03-plan-design-call-queues-auto-attendants.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "Contoso has an existing auto attendant and call queue infrastructure. With its recent Microsoft 365 deployment, Contoso wants to migrate its calling environment to Microsoft Teams. Because it currently uses auto attendants and call queues to connect callers to people within the company, what must Contoso do to port its existing phone numbers to Microsoft Teams Phone System?"
+    choices:
+    - content: "Set Teams-only coexistence mode for agents"
+      isCorrect: false
+      explanation: "That's incorrect. If you set agents' Teams accounts to Teams-only mode, agents who don't meet the requirements aren't included in the call routing list. This feature has nothing to do with porting existing phone numbers to Microsoft Teams Phone System. Try again."
+    - content: "Implement Conference mode"
+      isCorrect: false
+      explanation: "That's incorrect. Conference mode is call queue option that significantly reduces the amount of time it takes to connect Teams VOIP calls and PSTN calls to an agent. This feature has nothing to do with porting existing phone numbers to Microsoft Teams Phone System. Try again."
+    - content: "Create a plan to transfer its existing phone numbers to the new auto attendants and call queues in Phone System"
+      isCorrect: true
+      explanation: "That's correct. If you have an existing auto attendant and call queue infrastructure and you're migrating to Teams, you'll need a plan to transfer your existing phone numbers to the new auto attendants and call queues."
