@@ -17,7 +17,7 @@ abstract: |
   - Understand behavioral blocking and containment.
 prerequisites: |
   - Basic familiarity with Microsoft Defender for Endpoint.
-iconUrl: /learn/achievements/generic-badge.svg
+iconUrl: /learn/achievements/m365-defender-next-gen-protection-endpoint.svg
 levels:
   - beginner
 roles:
