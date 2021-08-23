@@ -4,7 +4,7 @@ title: Knowledge check
 metadata:
   title: Knowledge check
   description: "Knowledge check"
-  ms.date: 08/20/2021
+  ms.date: 08/23/2021
   author: wwlpublish
   ms.author: jennyche
   ms.topic: interactive-tutorial
@@ -20,18 +20,18 @@ quiz:
     choices:
     - content: "Microsoft Teams mobile client"
       isCorrect: false
-      explanation: "That's incorrect. Administrators cannot do a bulk deployment of the mobile client.. Try again."
+      explanation: "That's incorrect. Administrators cannot do a bulk deployment of the mobile client. Try again."
     - content: "Microsoft Teams desktop client"
       isCorrect: true
       explanation: "That's correct. Administrators can do a bulk deployment of the desktop client via MSI or Microsoft 365 Apps."
     - content: "Microsoft Teams web client"
       isCorrect: false
-      explanation: "That's incorrect. Administrators cannot do a bulk deployment of the web client.. Try again."
+      explanation: "That's incorrect. Administrators cannot do a bulk deployment of the web client. Try again."
   - content: "Which of the options below is a prerequisite for rolling out Teams?"
     choices:
     - content: "Advisor for Teams"
       isCorrect: false
-      explanation: "That's incorrect. Advisor for Teams is part of the Teams admin center and isn't a prerequisite for rolling out Teams.. Try again."
+      explanation: "That's incorrect. Advisor for Teams is part of the Teams admin center and isn't a prerequisite for rolling out Teams. Try again."
     - content: "A subscription to a minimum of Microsoft 365 Business Basic"
       isCorrect: true
       explanation: "That's correct.  To roll out Teams, you must be subscribed to Microsoft 365 Business Basic, Business Standard, or Business Premium license, or one of the Enterprise plans."
@@ -42,7 +42,7 @@ quiz:
     choices:
     - content: "Teams administrator"
       isCorrect: false
-      explanation: "That's incorrect. Users assigned to this role can manage anything in Teams. But the principle of least privilege means you should select a more restricted role.. Try again."
+      explanation: "That's incorrect. Users assigned to this role can manage anything in Teams. But the principle of least privilege means you should select a more restricted role. Try again."
     - content: "Teams communication admin"
       isCorrect: true
       explanation: "That's correct. Users assigned to this role can assign telephone numbers."

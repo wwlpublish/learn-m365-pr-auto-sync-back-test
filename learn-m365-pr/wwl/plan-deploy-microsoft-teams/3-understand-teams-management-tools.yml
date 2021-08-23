@@ -4,7 +4,7 @@ title: Understand Teams management tools
 metadata:
   title: Understand Teams management tools
   description: "Understand Teams management tools"
-  ms.date: 08/20/2021
+  ms.date: 08/23/2021
   author: wwlpublish
   ms.author: jennyche
   ms.topic: interactive-tutorial
@@ -16,7 +16,7 @@ content: |
 quiz:
   title: "Check your knowledge"
   questions:
-  - content: "Debra Berger is the team owner of the AnnualEvent team. The annual event just finished. Debra wants to archive the AnnualEvent team now and make sure the files in the AnnualEvent team are read-only for team members. What should Debra do with minimal effort?"
+  - content: "Debra is the team owner of the AnnualEvent team. The annual event just finished. Debra wants to archive the AnnualEvent team now and make sure the files in the AnnualEvent team are read-only for team members. What should Debra do with minimal effort?"
     choices:
     - content: "Contact Teams administrator for help"
       isCorrect: false
