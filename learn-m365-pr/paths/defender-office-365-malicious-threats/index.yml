@@ -12,7 +12,7 @@ title: Protect against malicious threats with Microsoft Defender for Office 
 summary: Microsoft Defender for Office 365 uses threat protection policies, reports, threat investigation, and response capabilities to safeguard your organization.
 prerequisites: | 
   - An understanding of basic security concepts
-iconUrl: /learn/achievements/generic-trophy.svg
+iconUrl: /learn/achievements/m365-defender-malicious-threats.svg
 levels: 
 - beginner
 roles:
