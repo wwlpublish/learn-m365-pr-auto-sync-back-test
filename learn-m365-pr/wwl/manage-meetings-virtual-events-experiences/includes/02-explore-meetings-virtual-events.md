@@ -54,7 +54,7 @@ Team webinars include the following features:
 * Options for in-tenant and public attendees
 * Attendee reporting for up to 1,000 attendees
 
-‎:::image type="content" source="../media/teams-webinar.gif" alt-text="GIF file showing how to create a webinar" lightbox="teams-webinar.gif"::: 
+‎:::image type="content" source="../media/teams-webinar.gif" alt-text="GIF file showing how to create a webinar" lightbox="../media/teams-webinar.gif"::: 
 
 
 ## Teams Live Events
