@@ -1,0 +1,29 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.monitor-your-microsoft-teams-environment.interpret-microsoft-productivity-score
+title: Interpret Microsoft Productivity Score
+metadata:
+  title: Interpret Microsoft Productivity Score
+  description: "Interpret Microsoft Productivity Score"
+  ms.date: 08/23/2021
+  author: wwlpublish
+  ms.author: jennyche
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+durationInMinutes: 6
+content: |
+  [!include[](includes/4-interpret-microsoft-productivity-score.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "Eric is the Teams Administrator in Contoso Ltd. Eric wants to know about the time spent by people in meetings. Which of the following reports in Microsoft Productivity Score should Eric use?"
+    choices:
+    - content: "Communication report"
+      isCorrect: false
+      explanation: "That's incorrect. The communication report provides a measure of people in your org that are using multiple modes to communicate. Try again."
+    - content: "Teamwork report"
+      isCorrect: false
+      explanation: "That's incorrect. The teamwork report provides an insight into how people share information and collaborate in shared workspaces. Try again."
+    - content: "Meetings report"
+      isCorrect: true
+      explanation: "That's correct. The meetings report provides a view of people in your organization based on their average time spent per week in meetings within the last 28 days."

@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.monitor-your-microsoft-teams-environment.monitor-microsoft-365-network-connectivity-dashboard
+title: Monitor the Microsoft 365 network connectivity dashboard
+metadata:
+  title: Monitor the Microsoft 365 network connectivity dashboard
+  description: "Monitor the Microsoft 365 network connectivity dashboard"
+  ms.date: 08/23/2021
+  author: wwlpublish
+  ms.author: jennyche
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+durationInMinutes: 6
+content: |
+  [!include[](includes/6-monitor-microsoft-365-network-connectivity-dashboard.md)]
