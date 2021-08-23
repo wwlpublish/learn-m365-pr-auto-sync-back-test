@@ -1,0 +1,29 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.manage-meetings-virtual-events-experiences.configure-audio-conferencing
+title: Configure audio conferencing
+metadata:
+  title: Configure audio conferencing
+  description: "Configure audio conferencing"
+  ms.date: 08/23/2021
+  author: wwlpublish
+  ms.author: jennyche
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+durationInMinutes: 8
+content: |
+  [!include[](includes/05-configure-audio-conferencing.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "As the Teams administrator for Fabrikam, Holly Spencer is configuring the company's audio conferencing settings. What rule controls how many Audio Conferencing licenses that Holly must obtain?"
+    choices:
+    - content: "Holly will need a license for each person who plans to schedule or lead meetings"
+      isCorrect: true
+      explanation: "That's correct. Audio Conferencing must be set up for people who plan to schedule or lead meetings. One Audio Conferencing license is required for each person who is going to schedule/host an audio meeting. Meeting attendees who call in don't need a license assigned to them or any other setup."
+    - content: "Holly will need a license for every user who attends a meeting"
+      isCorrect: false
+      explanation: "That's incorrect. This item isn't the rule that controls how many Audio Conferencing licenses Holly must obtain. Try again."
+    - content: "Holly will need a license for every Microsoft 365 user account"
+      isCorrect: false
+      explanation: "That's incorrect. This item isn't the rule that controls how many Audio Conferencing licenses Holly must obtain.  Try again."

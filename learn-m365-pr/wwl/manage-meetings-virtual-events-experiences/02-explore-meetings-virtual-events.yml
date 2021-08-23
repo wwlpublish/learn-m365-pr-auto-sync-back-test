@@ -1,0 +1,29 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.manage-meetings-virtual-events-experiences.explore-microsoft-teams
+title: Explore meetings and virtual events in Microsoft Teams
+metadata:
+  title: Explore meetings and virtual events in Microsoft Teams
+  description: "Explore meetings and virtual events in Microsoft Teams"
+  ms.date: 08/23/2021
+  author: wwlpublish
+  ms.author: jennyche
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+durationInMinutes: 6
+content: |
+  [!include[](includes/02-explore-meetings-virtual-events.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "What are the two types of meetings offered by Microsoft Teams?"
+    choices:
+    - content: "Private and Group"
+      isCorrect: false
+      explanation: "That's incorrect. These meeting types are not the two types provided by Microsoft Teams. Try again."
+    - content: "Channel and Group"
+      isCorrect: false
+      explanation: "That's incorrect. These meeting types are not the two types provided by Microsoft Teams. Try again."
+    - content: "Private and Channel"
+      isCorrect: true
+      explanation: "That's correct. Microsoft Teams offers two kinds of meetings - private meetings and channel meetings."

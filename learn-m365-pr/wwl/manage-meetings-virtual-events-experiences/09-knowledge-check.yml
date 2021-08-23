@@ -1,0 +1,51 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.manage-meetings-virtual-events-experiences.knowledge-check
+title: Knowledge check
+metadata:
+  title: Knowledge check
+  description: "Knowledge check"
+  ms.date: 08/23/2021
+  author: wwlpublish
+  ms.author: jennyche
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+durationInMinutes: 5
+content: |
+  [!include[](includes/09-knowledge-check.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "As the Project Manager for Contoso, Holly Dickson wants to create a regular meeting where the entire project team is invited. This meeting will enable the team members to coordinate tasks and keep up to date with current team activity. What type of meeting should Holly create?"
+    choices:
+    - content: "Ad-hoc meeting"
+      isCorrect: false
+      explanation: "That's incorrect. An ad-hoc meeting is a 'spur of the moment' type of meeting that addresses some pressing need. It isn't a regularly scheduled meeting with a set agenda, such as coordinating tasks and keeping up to date. Try again."
+    - content: "Channel meeting"
+      isCorrect: true
+      explanation: "That's correct. If a team has a dedicated channel in Microsoft Teams, it can schedule a channel meeting. All team members can see and join the meeting. Channel meetings typically have set agendas; they're not a spur of the moment, ad-hoc meeting. While an ad-hoc meeting can originate from a channel meeting, a channel meeting isn't the equivalent of an ad-hoc meeting."
+    - content: "Private meeting"
+      isCorrect: false
+      explanation: "That's incorrect. Private meetings involve non-team members. Try again."
+  - content: "As the Teams administrator for Tailspin Toys, Allan DeYoung wants to prevent anonymous users from joining Teams meetings. How can Allan achieve this goal?"
+    choices:
+    - content: "Configure Meetings policies"
+      isCorrect: false
+      explanation: "That's incorrect. This item isn't how Allan will achieve this goal of preventing anonymous users from joining Teams meetings. Try again."
+    - content: "Configure Live Events settings"
+      isCorrect: false
+      explanation: "That's incorrect. This item isn't how Allan will achieve this goal of preventing anonymous users from joining Teams meetings. Try again."
+    - content: "Configure Meetings settings"
+      isCorrect: true
+      explanation: "That's correct. Anonymous participants are users who can join a meeting without logging in, as long as they have the link for the meeting. Using the Meeting settings, the Teams administrator can define whether anonymous participants can join a meeting."
+  - content: "As the Teams administrator for Lucerne Publishing, Patti Fernandez has been asked by the company CEO to deliver an internal live event in which members of the senior leadership team discuss upcoming issues. The CEO wants the Live broadcast to be embedded on custom intranet pages or other hosting spots. When the event ends, the CEO wants Lucerne's employees to be able to find them there for later viewing. Which type of Live event should Patti create?"
+    choices:
+    - content: "Live event in Yammer"
+      isCorrect: false
+      explanation: "That's incorrect. This type of live event will not satisfy all of the CEO's requirements. Try again."
+    - content: "Live event in Stream"
+      isCorrect: true
+      explanation: "That's correct. Live events in Stream enable companies to deliver internal live or on-demand video for learning, training, or other specialized issues. Live broadcasts can be viewed in Stream or embedded on custom intranet pages or other hosting spots, and when the event ends employees can find them there later. These events also use other production tools to enable studio-quality broadcasts."
+    - content: "Live event in Teams"
+      isCorrect: false
+      explanation: "That's incorrect. This type of live event will not satisfy all of the CEO's requirements.  Try again."
