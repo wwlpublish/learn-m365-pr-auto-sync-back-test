@@ -18,7 +18,7 @@ abstract: |
     - Manage who has access to the functions and data in Microsoft 365 Defender. 
 prerequisites: | 
   - None
-iconUrl: /learn/achievements/generic-badge.svg
+iconUrl: /learn/achievements/m365-defender-get-started.svg
 levels: 
   - beginner
 roles: 
