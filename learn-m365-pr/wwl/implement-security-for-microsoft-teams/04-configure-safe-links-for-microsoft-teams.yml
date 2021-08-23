@@ -1,0 +1,29 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.implement-security-for-microsoft-teams.configure-safe-links
+title: Configure Safe Links for Microsoft Teams
+metadata:
+  title: Configure Safe Links for Microsoft Teams
+  description: "Configure Safe Links for Microsoft Teams"
+  ms.date: 08/23/2021
+  author: wwlpublish
+  ms.author: jennyche
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+durationInMinutes: 5
+content: |
+  [!include[](includes/04-configure-safe-links-for-microsoft-teams.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "At a high level, Safe Links protection works for URLs in Microsoft Teams when three conditions are met. First, a user must start the Teams app. Second, Microsoft 365 verifies the user's organization includes Microsoft Defender for Office 365. What's the final condition?"
+    choices:
+    - content: "Safe links is enabled in Microsoft Teams"
+      isCorrect: false
+      explanation: "That's incorrect. This item isn't the final condition required to implement Safe Links. Try again."
+    - content: "The user is included in an active Safe Links policy where protection for Microsoft Teams is enabled"
+      isCorrect: true
+      explanation: "That's correct. A Conditional Access policy is made of if-then statements of Assignments and Access controls. The assignment part of the policy controls the who, what, and where of the Conditional Access policy. The access part of the policy controls how it's enforced."
+    - content: "Safe links is enabled in the default Safe Links policy where protection for Microsoft Teams is enabled"
+      isCorrect: false
+      explanation: "That's incorrect. There is no default Safe Links policy. Try again."
