@@ -1,0 +1,29 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.manage-apps-for-microsoft-teams.manage-custom-apps-uploads
+title: Manage custom apps uploads
+metadata:
+  title: Manage custom apps uploads
+  description: "Manage custom apps uploads"
+  ms.date: 08/23/2021
+  author: wwlpublish
+  ms.author: jennyche
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+durationInMinutes: 8
+content: |
+  [!include[](includes/07-manage-custom-apps-uploads.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "Jimmy is the Teams Administrator in Contoso Ltd. Amy owns a team named ProjectStart. Amy reports that she can use but can't upload any custom apps to the Project-A team. What should Jimmy do to resolve the issue?"
+    choices:
+    - content: "Configure org-wide custom app setting"
+      isCorrect: false
+      explanation: "That's incorrect. Amy confirmed she could use custom apps, which assures the org-wide custom app setting is turned on. Try again."
+    - content: "Configure app setup policies"
+      isCorrect: true
+      explanation: "That's correct. App setup policies control whether users can upload custom apps."
+    - content: "Configure setting in the Project-A team"
+      isCorrect: false
+      explanation: "That's incorrect. The custom app setting in the Project-A team controls whether team members can upload custom apps. Try again."
