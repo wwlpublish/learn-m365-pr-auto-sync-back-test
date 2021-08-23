@@ -1,0 +1,45 @@
+### YamlMime:Module
+uid: learn.set-up-co-management
+metadata:
+  moduleType: standard
+  title: Set up co-management using Microsoft Endpoint Configuration Manager
+  description: After completing this module, you will have set up co-management using Microsoft Endpoint Configuration Manager. Set up includes reviewing supported configurations, signing up for Configuration Manager, adding users and groups, assigning and licenses to users.
+  ms.date: 7/06/2021
+  author: Erikre
+  ms.author: erikre
+  ms.topic: interactive-tutorial
+title: Set up co-management using Microsoft Endpoint Configuration Manager
+summary: Microsoft Endpoint Configuration Manager, which is a part of Microsoft Endpoint Manager, helps you protect the on-premises devices, apps, and data that the people at your organization use to be productive. After completing this module, you'll have set up Microsoft Endpoint Configuration Manager to support co-management. Set up includes enabling co-management for existing Confirmation Manager clients, as well as for new internet-based devices.
+abstract: | 
+  In this module, you will:
+    - Understand co-management
+    - Learn about co-management prerequisites
+    - Confirm the Configuration Manager connector status
+    - Learn about paths to co-management
+    - Enable co-management for existing Configuration Manager clients
+    - Enable co-management for new internet-based devices
+prerequisites: | 
+  - Basic knowledge of Microsoft Endpoint Manager and endpoint management concepts, see [Microsoft Endpoint Manager fundamentals](/learn/paths/endpoint-manager-fundamentals?azure-portal=true).
+  - Understand your endpoint management objectives, device inventory considerations, licensing needs, infrastructure objectives, and rollout plans, see [Determine your endpoint management implementation](/learn/modules/determine-endpoint-implementation?azure-portal=true).
+  - Understand and enable tenant attach, which is the first step to cloud attach your on-premises devices, see Set up tenant attach using Microsoft Endpoint Configuration Manager. <!-- [](/learn/modules/setup-tenant-attach-using-configuration-manager?azure-portal=true). -->
+iconUrl: /media/learn/module.svg
+ratingEnabled: true
+levels:
+- beginner
+roles:
+- administrator
+products:
+- m365
+- mem
+units:
+- learn.set-up-co-management.introduction
+- learn.set-up-co-management.understand-co-management
+- learn.set-up-co-management.learn-about-co-management-prerequisites
+- learn.set-up-co-management.confirm-the-configuration-manager-connector-status
+- learn.set-up-co-management.learn-about-paths-to-co-management
+- learn.set-up-co-management.enable-co-management-for-existing-configuration-manager-clients
+- learn.set-up-co-management.enable-co-management-for-new-internet-based-devices
+- learn.set-up-co-management.knowledge-check
+- learn.set-up-co-management.summary
+badge:
+  uid: learn.set-up-co-management.badge
