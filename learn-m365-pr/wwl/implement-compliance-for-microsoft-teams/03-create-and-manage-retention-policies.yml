@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.implement-compliance-for-microsoft-teams.create-manage-retention-policies
+title: Create and manage retention policies
+metadata:
+  title: Create and manage retention policies
+  description: "Create and manage retention policies"
+  ms.date: 08/23/2021
+  author: wwlpublish
+  ms.author: jennyche
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+durationInMinutes: 8
+content: |
+  [!include[](includes/03-create-and-manage-retention-policies.md)]

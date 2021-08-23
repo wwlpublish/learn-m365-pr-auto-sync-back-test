@@ -1,0 +1,51 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.implement-compliance-for-microsoft-teams.knowledge-check
+title: Knowledge check
+metadata:
+  title: Knowledge check
+  description: "Knowledge check"
+  ms.date: 08/23/2021
+  author: wwlpublish
+  ms.author: jennyche
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+durationInMinutes: 5
+content: |
+  [!include[](includes/11-knowledge-check.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "Which of the following items is a principle of retention when more than one retention policy applies to the same content?"
+    choices:
+    - content: "Implicit wins over explicit for deletions"
+      isCorrect: false
+      explanation: "That's incorrect. Explicit wins over implicit for deletions. If a retention policy includes a specific location, such as a specific user’s mailbox or OneDrive for Business account, that policy takes precedence over another retention policy that applies to all users’ mailboxes or OneDrive for Business accounts but doesn’t specifically include that user’s mailbox. Try again."
+    - content: "Retention wins over deletion"
+      isCorrect: true
+      explanation: "That's correct. Content won't be permanently deleted when it also has retention settings to retain it."
+    - content: "The longest deletion period wins"
+      isCorrect: false
+      explanation: "That's incorrect. The shortest deletion period wins. Similarly, if content is subject to multiple policies that delete content (with no retention), it will be deleted at the end of the shortest retention period. Try again."
+  - content: "What's the general guideline as to when an organization should use scoped directory searches?"
+    choices:
+    - content: "When an organization selects \"Groups and sites\" as the scope for its sensitivity labels"
+      isCorrect: false
+      explanation: "That's incorrect. The scope defined for sensitivity labels has nothing to do with scoped directory searches. Try again."
+    - content: "When an organization uses the Advanced eDiscovery tool"
+      isCorrect: false
+      explanation: "That's incorrect. The types of eDiscovery searches used by an organization have nothing to do with scoped directory searches. Try again."
+    - content: "An organization has multiple companies within its tenant that it wants to keep separate"
+      isCorrect: true
+      explanation: "That's correct. An organization should use scoped directory searches when it has multiple companies within its tenant that it wants to keep separate."
+  - content: "When a user does something that matches the conditions of an alert policy, the assigned alert action is triggered. For example, the alert action can be sending an email to all global administrators notifying them of what the user did to trigger the alert policy. Besides the user-defined alert action, another action automatically occurs when an alert action is triggered. What is this action?"
+    choices:
+    - content: "An alert entry is created in the Alert dashboard in the Microsoft 365 Compliance Center"
+      isCorrect: true
+      explanation: "That's correct. When an alert is generated, the according alert action is triggered, such as sending an email to all global administrators. An alert entry is also created in the alert dashboard in the Microsoft 365 compliance center."
+    - content: "The user who triggered the alert policy is notified via email that their action is being reviewed"
+      isCorrect: false
+      explanation: "That's incorrect. This item isn't the action that's automatically completed when an alert action is triggered. Try again."
+    - content: "The status of the user who triggered the alert policy is set to \"Under compliance review\""
+      isCorrect: false
+      explanation: "That's incorrect. This item isn't the action that's automatically completed when an alert action is triggered. Try again."
