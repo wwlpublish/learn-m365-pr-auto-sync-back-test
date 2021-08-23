@@ -48,7 +48,7 @@ Teams can be dynamic for project-based work (such as running projects), and ongo
 All data within a team, such as conversations, files, and notes across team channels are only visible to members of the team. At the top of each channel, you will find tabs, which are basically links to your favorite files, apps, and services. The following picture shows the structure of channels in Teams of an organization.  
 ‎
 
-‎:::image type="content" source="../media/channel-structure.png" alt-text="Example of a team created to align with organizational structure":::
+‎:::image type="content" source="../media/channel-structure.png" alt-text="Example of a team created to align with organizational structure" lightbox="channel-structure.png":::
 
 
 ## Apps and workflows

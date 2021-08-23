@@ -23,9 +23,9 @@ Microsoft 365 Groups is the foundational membership service that drives all team
 ## Microsoft 365 Groups privacy
 When creating a Microsoft 365 group, you must decide if you want it to be a private or public group. The group privacy also applies to the privacy of the associated team. 
 
-- **Public group.** Any user in your organization can join public groups without the need of an administrator or owner to add or approve them. Therefore, content in a public group can be seen by anybody in your organization as soon they join the group. 
+- **Public group**. Any user in your organization can join public groups without the need of an administrator or owner to add or approve them. Therefore, content in a public group can be seen by anybody in your organization as soon they join the group. 
 
-- **Private group.** Content in a private group can only be seen by the members of the group. People who want to join a private group must be approved by a group owner. 
+- **Private group**. Content in a private group can only be seen by the members of the group. People who want to join a private group must be approved by a group owner. 
 
 ## Group membership and roles
 
