@@ -1,0 +1,51 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.transition-from-skype-for-business-to-microsoft-teams.knowledge-check
+title: Knowledge check
+metadata:
+  title: Knowledge check
+  description: "Knowledge check"
+  ms.date: 08/23/2021
+  author: wwlpublish
+  ms.author: jennyche
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+durationInMinutes: 5
+content: |
+  [!include[](includes/06-knowledge-check.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "Contoso wants to upgrade from Skype for Business on-premises to Microsoft Teams. What's the first task that Contoso should complete during the upgrade process?"
+    choices:
+    - content: "Set transitional coexistence mode"
+      isCorrect: false
+      explanation: "That's incorrect. This is the second step in the upgrade process. Try again."
+    - content: "Configure hybrid connectivity"
+      isCorrect: true
+      explanation: "That's correct. This is the first step in the upgrade process. The key prerequisite for upgrading your on-premises users to Teams is to configure hybrid connectivity for your Skype for Business Server on-premises deployment."
+    - content: "Move users between Skype for Business on-premises to Teams"
+      isCorrect: false
+      explanation: "That's incorrect. This is the third step in the upgrade process. Try again."
+  - content: "In which coexistence mode does an upgraded user have access to all the capabilities in Teams, and yet keep the Skype for Business client to join meetings on Skype for Business that have been organized by non-upgraded users or external parties?"
+    choices:
+    - content: "Teams Only"
+      isCorrect: true
+      explanation: "That's correct. A Teams Only user (also called an upgraded user) has access to all the capabilities in Teams. They may keep the Skype for Business client to join meetings on Skype for Business that have been organized by non-upgraded users or external parties. An upgraded user can continue to communicate with other users in the organization who are still using Skype for Business by using the interoperability capabilities between Teams and Skype for Business (provided the Skype for Business users aren't in Islands mode). However, an upgraded user can't start a Skype for Business chat, call, or meeting."
+    - content: "Skype for Business with Teams Collaboration"
+      isCorrect: false
+      explanation: "That's incorrect. This coexistence mode is used to introduce Teams in to an organization while it continues to use its existing investment in Skype for Business. Try again."
+    - content: "Skype for Business with Teams Collaboration and Meetings"
+      isCorrect: false
+      explanation: "That's incorrect. This coexistence mode accelerates the availability of Teams meeting and collaboration capabilities in an organization. Try again."
+  - content: "As the Team administrator for Fabrikam, Holly Spencer plans to upgrade from Islands mode to Teams Only mode. Holly plans to saturate the adoption of Microsoft Teams throughout Fabrikam before beginning the upgrade process to avoid broken communication scenarios. Why does saturating Teams adoption before beginning the upgrade process from Islands mode to Teams Only mode avoid broken communication scenarios?"
+    choices:
+    - content: "Because organizations want to benefit from superior Teams meetings as soon as they can"
+      isCorrect: false
+      explanation: "That's incorrect. This item isn't the reason for saturating Teams adoption before beginning the upgrade process from Islands mode to Teams Only mode. Try again."
+    - content: "Because Islands mode doesn't provide interoperability"
+      isCorrect: true
+      explanation: "That's correct. Saturating Teams adoption before beginning the upgrade process from Islands mode to Teams Only mode avoids broken communication scenarios due to Islands mode not providing interoperability."
+    - content: "To avoid a confusing or regressed Skype for Business experience"
+      isCorrect: false
+      explanation: "That's incorrect. This item isn't the reason for saturating Teams adoption before beginning the upgrade process from Islands mode to Teams Only mode. Try again."

@@ -1,0 +1,29 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.transition-from-skype-for-business-to-microsoft-teams.configure-meeting-migration-service-mms
+title: Configure Meeting Migration Service (MMS)
+metadata:
+  title: Configure Meeting Migration Service (MMS)
+  description: "Configure Meeting Migration Service (MMS)"
+  ms.date: 08/23/2021
+  author: wwlpublish
+  ms.author: jennyche
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+durationInMinutes: 8
+content: |
+  [!include[](includes/05-configure-meeting-migration-service.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "When the Meeting Migration Service (MMS) is automatically triggered for a user, what's the first thing that occurs?"
+    choices:
+    - content: "The MMS searches the user’s mailbox for all existing future meetings organized by that usr"
+      isCorrect: false
+      explanation: "That's incorrect. This item isn't the first thing that occurs. This item is performed by the MMS after the first thing occurs. Try again."
+    - content: "The MMS updates or schedules new meetings in Teams for that user, depending on the information found in the user’s mailbox"
+      isCorrect: false
+      explanation: "That's incorrect. This item isn't the first thing that occurs. This item is performed by the MMS after the first thing occurs. Try again."
+    - content: "A migration request for the user is placed in a queue"
+      isCorrect: true
+      explanation: "That's correct. When the Meeting Migration Service has been triggered for a user, a migration request for that user is placed in a queue. The MMS then processes the request."

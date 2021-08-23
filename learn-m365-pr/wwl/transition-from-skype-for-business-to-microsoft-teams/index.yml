@@ -1,0 +1,37 @@
+### YamlMime:Module
+uid: learn.wwl.transition-from-skype-for-business-to-microsoft-teams
+metadata:
+  title: Transition from Skype for Business to Microsoft Teams
+  description: "Transition from Skype for Business to Microsoft Teams"
+  ms.date: 08/23/2021
+  author: wwlpublish
+  ms.author: jennyche
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Transition from Skype for Business to Microsoft Teams
+summary: Learn about the process to transition from Skype for Business to Microsoft Teams, including choosing appropriate coexistence modes and configuring upgrade settings.
+abstract: |
+  By the end of this module, you will be able to:
+  - Explain the upgrade process to Microsoft Teams.
+  - Choose appropriate coexistence modes.
+  - Configure coexistence and upgrade settings.
+  - Manage the migration for meetings.
+prerequisites: ""
+iconUrl: /learn/achievements/generic-badge.svg
+levels:
+- intermediate
+roles:
+- administrator
+products:
+- m365
+- office-teams
+units:
+- learn.wwl.transition-from-skype-for-business-to-microsoft-teams.introduction
+- learn.wwl.transition-from-skype-for-business-to-microsoft-teams.understand-upgrade-process
+- learn.wwl.transition-from-skype-for-business-to-microsoft-teams.choose-appropriate-coexistence-modes
+- learn.wwl.transition-from-skype-for-business-to-microsoft-teams.set-your-coexistence-upgrade-settings
+- learn.wwl.transition-from-skype-for-business-to-microsoft-teams.configure-meeting-migration-service-mms
+- learn.wwl.transition-from-skype-for-business-to-microsoft-teams.knowledge-check
+- learn.wwl.transition-from-skype-for-business-to-microsoft-teams.summary
+badge:
+  uid: learn.wwl.transition-from-skype-for-business-to-microsoft-teams.badge
