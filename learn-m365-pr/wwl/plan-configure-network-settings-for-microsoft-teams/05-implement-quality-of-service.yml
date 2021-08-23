@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.plan-configure-network-settings-for-microsoft-teams.implement-quality-of-service-qos
+title: Implement Quality of Service (QoS)
+metadata:
+  title: Implement Quality of Service (QoS)
+  description: "Implement Quality of Service (QoS)"
+  ms.date: 08/23/2021
+  author: wwlpublish
+  ms.author: jennyche
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+durationInMinutes: 7
+content: |
+  [!include[](includes/05-implement-quality-of-service.md)]

@@ -1,0 +1,29 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.plan-configure-network-settings-for-microsoft-teams.configure-tenant-data
+title: Configure tenant data for location-enhanced CQD reports
+metadata:
+  title: Configure tenant data for location-enhanced CQD reports
+  description: "Configure tenant data for location-enhanced CQD reports"
+  ms.date: 08/23/2021
+  author: wwlpublish
+  ms.author: jennyche
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+durationInMinutes: 6
+content: |
+  [!include[](includes/07-configure-tenant-data.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "As the Team administrator for Fabrikam, Holly Spencer wants to prepare data files for the Call Quality Dashboard. The format of the data files must meet which of the following criteria to pass the validation check before upload?"
+    choices:
+    - content: "The file must be either a .tsv file or a .csv file"
+      isCorrect: true
+      explanation: "That's correct. The file must be either a .tsv file or a .csv file to pass the validation check before upload."
+    - content: "The data file must include a table header row"
+      isCorrect: false
+      explanation: "That's incorrect. The data file can't include a table header row. Try again."
+    - content: "The data file must be an Endpoint data file"
+      isCorrect: false
+      explanation: "That's incorrect. The data file can either be a Building data file or an Endpoint data file. Try again."
