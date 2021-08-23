@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.explore-teams.exchange
+title: Describe Microsoft Teams with Exchange
+metadata:
+  title: Describe Microsoft Teams with Exchange
+  description: "Describe Microsoft Teams with Exchange"
+  ms.date: 08/23/2021
+  author: wwlpublish
+  ms.author: jennyche
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+durationInMinutes: 5
+content: |
+  [!include[](includes/8-exchange.md)]
