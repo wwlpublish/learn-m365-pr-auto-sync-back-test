@@ -4,7 +4,7 @@ metadata:
   moduleType: standard
   title: Use automated investigation and remediation in Microsoft Defender for Endpoint
   description: Learn how automated investigation and remediation (AIR) work in Microsoft Defender for Endpoint. You'll learn about concepts, including automation levels, how automated investigations are triggered, how to review investigation findings, and how automated remediation actions work.
-  ms.date: 07/19/2021
+  ms.date: 08/17/2021
   author: iankensey
   ms.author: beccarobins
   ms.topic: interactive-tutorial
