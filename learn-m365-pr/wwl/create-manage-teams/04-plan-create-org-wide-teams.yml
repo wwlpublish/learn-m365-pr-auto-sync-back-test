@@ -1,0 +1,29 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.create-manage-teams.plan-create-org-wide-teams
+title: Plan and create org-wide teams
+metadata:
+  title: Plan and create org-wide teams
+  description: "Plan and create org-wide teams"
+  ms.date: 08/23/2021
+  author: wwlpublish
+  ms.author: jennyche
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+durationInMinutes: 5
+content: |
+  [!include[](includes/04-plan-create-org-wide-teams.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "Which of the following roles can create organization-wide teams?"
+    choices:
+    - content: "Teams administrator"
+      isCorrect: false
+      explanation: "That's incorrect. Teams administrator can't create organization-wide teams. Try again."
+    - content: "Global administrator"
+      isCorrect: true
+      explanation: "That's correct. Only global admins can create organization-wide teams."
+    - content: "Teams communications administrator"
+      isCorrect: false
+      explanation: "That's incorrect. Teams communications administrator can't create organization-wide teams. Try again."
