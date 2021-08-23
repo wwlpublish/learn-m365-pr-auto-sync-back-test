@@ -1,0 +1,29 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.manage-collaboration-experiences-for-chat-channels.create-manage-messaging-policies
+title: Create and manage messaging policies
+metadata:
+  title: Create and manage messaging policies
+  description: "Create and manage messaging policies"
+  ms.date: 08/23/2021
+  author: wwlpublish
+  ms.author: jennyche
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+durationInMinutes: 7
+content: |
+  [!include[](includes/05-create-and-manage-messaging-policies.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "Teams administrators can configure the Teams settings at different levels, including tenant and team levels. Which of the following settings is only available at the tenant level (Org-wide)?"
+    choices:
+    - content: "Allow users to send emails to a channel email address"
+      isCorrect: true
+      explanation: "That's correct. Email integration control is a part of org-wide settings."
+    - content: "Users can delete sent messages"
+      isCorrect: false
+      explanation: "That's incorrect. Teams admin can control whether users can delete sent messages through messaging policy at the user level. Try again."
+    - content: "Allow a user to remove users from a group chat"
+      isCorrect: false
+      explanation: "That's incorrect. Teams admin can control whether users can remove users from group chats through messaging policy at the user level. Try again."

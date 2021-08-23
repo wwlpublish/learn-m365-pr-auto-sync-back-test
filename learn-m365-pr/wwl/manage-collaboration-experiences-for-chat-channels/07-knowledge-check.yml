@@ -1,0 +1,51 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.manage-collaboration-experiences-for-chat-channels.knowledge-check
+title: Knowledge check
+metadata:
+  title: Knowledge check
+  description: "Knowledge check"
+  ms.date: 08/23/2021
+  author: wwlpublish
+  ms.author: jennyche
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+durationInMinutes: 5
+content: |
+  [!include[](includes/07-knowledge-check.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "Tommy is the Teams admin for Contoso Ltd in the financial industry. The company wants to prevent users from using GIF files in Teams. Which of the following policies should Tommy configure to achieve the goal?"
+    choices:
+    - content: "Meeting policy"
+      isCorrect: false
+      explanation: "That's incorrect. Meeting policy doesn't control whether users can use GIF files in Teams. Try again."
+    - content: "Messaging policy"
+      isCorrect: true
+      explanation: "That's correct. Messaging policy controls whether users can use GIF files in Teams."
+    - content: "Teams policy"
+      isCorrect: false
+      explanation: "That's incorrect. Teams policy doesn't control whether users can use GIF files in Teams. Try again."
+  - content: "Angel is the Teams admin for Contoso Ltd. Which of the following policies should Angel use to prevent users from creating private channels in teams?"
+    choices:
+    - content: "Messaging policy"
+      isCorrect: false
+      explanation: "That's incorrect. Messaging policy doesn't control whether users can create private channels.  Try again."
+    - content: "Teams policy"
+      isCorrect: true
+      explanation: "That's correct. Teams policy controls whether users can create private channels."
+    - content: "Meeting policy"
+      isCorrect: false
+      explanation: "That's incorrect. Meeting policy doesn't control whether users can create private channels. Try again."
+  - content: "Amy is the Teams admin for Contoso Ltd. The company wants to centralize the cloud file storage to Microsoft 365 (SharePoint and OneDrive) by disabling third-party storage providers. Which of the following should Amy configure in the Teams admin center?"
+    choices:
+    - content: "Teams apps permission policy"
+      isCorrect: false
+      explanation: "That's incorrect. Teams apps permission policy doesn't control the file sharing and cloud file storage options for the Files tab. Try again."
+    - content: "Teams settings"
+      isCorrect: true
+      explanation: "That's correct. Teams settings control the file sharing and cloud file storage options for the Files tab."
+    - content: "Teams policy"
+      isCorrect: false
+      explanation: "That's incorrect. Teams policy doesn't control the file sharing and cloud file storage options for the Files tab. Try again."

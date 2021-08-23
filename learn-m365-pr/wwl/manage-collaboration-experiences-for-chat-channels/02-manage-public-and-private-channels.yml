@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.manage-collaboration-experiences-for-chat-channels.manage-public-private-channels
+title: Manage public and private channels
+metadata:
+  title: Manage public and private channels
+  description: "Manage public and private channels"
+  ms.date: 08/23/2021
+  author: wwlpublish
+  ms.author: jennyche
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+durationInMinutes: 7
+content: |
+  [!include[](includes/02-manage-public-and-private-channels.md)]
