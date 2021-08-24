@@ -4,7 +4,7 @@ You can quickly get an idea of how people are using Microsoft 365 services. For 
 
 In this module, you'll learn about different reports and dashboards to monitor your Teams environment. You use Microsoft 365 and Teams usage reports to understand users' activities in Teams. The Microsoft Productivity Score is also another insight to know how users use Teams with other collaboration tools. 
 
-After this module, you will be able to:
+After this module, you will be able to: 
 
 - Analyze usage patterns by monitoring Microsoft 365 and Teams usage reports. 
 - Monitor user access by using Azure AD access reviews.
