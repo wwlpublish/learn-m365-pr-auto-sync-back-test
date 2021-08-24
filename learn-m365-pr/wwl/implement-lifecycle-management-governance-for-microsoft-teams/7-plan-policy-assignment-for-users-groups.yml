@@ -1,0 +1,29 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.implement-lifecycle-management-governance-for-microsoft-teams.plan-policy-assignment-for-users-groups
+title: Plan policy assignment for users and groups
+metadata:
+  title: Plan policy assignment for users and groups
+  description: "Plan policy assignment for users and groups"
+  ms.date: 08/24/2021
+  author: wwlpublish
+  ms.author: jennyche
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+durationInMinutes: 6
+content: |
+  [!include[](includes/7-plan-policy-assignment-for-users-groups.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "Amy is the Teams Administrator in Contoso Ltd. Amy received a business request to prevent customer service representatives from using GIF files and sharing their screen in Teams. Which of the following PowerShell commands should Amy use with minimal administrative effort?"
+    choices:
+    - content: "New-CsGroupPolicyAssignment"
+      isCorrect: false
+      explanation: "That's incorrect. The New-CsGroupPolicyAssignment cmdlet only assigns a policy to a group. Try again."
+    - content: "Grant-CsGroupPolicyPackageAssignment"
+      isCorrect: true
+      explanation: "That's correct. Use the Grant-CsGroupPolicyPackageAssignment cmdlet to assign a policy package to a group."
+    - content: "New-CsBatchPolicyAssignmentOperation"
+      isCorrect: false
+      explanation: "That's incorrect. The New-CsBatchPolicyAssignmentOperation cmdlet only assigns a policy to a batch of users. Try again."

@@ -1,0 +1,29 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.plan-deploy-microsoft-teams.understand-teams-management-tools
+title: Understand Teams management tools
+metadata:
+  title: Understand Teams management tools
+  description: "Understand Teams management tools"
+  ms.date: 08/24/2021
+  author: wwlpublish
+  ms.author: jennyche
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+durationInMinutes: 6
+content: |
+  [!include[](includes/3-understand-teams-management-tools.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "Debra is the team owner of the AnnualEvent team. The annual event just finished. Debra wants to archive the AnnualEvent team now and make sure the files in the AnnualEvent team are read-only for team members. What should Debra do with minimal effort?"
+    choices:
+    - content: "Contact Teams administrator for help"
+      isCorrect: false
+      explanation: "That's incorrect. With minimal effort principle, team owners can archive or restore a team from Teams client. Try again."
+    - content: "Archive the team from Teams client"
+      isCorrect: true
+      explanation: "That's correct. Team owners can archive or restore a team from Teams client."
+    - content: "Contact SharePoint administrator for help"
+      isCorrect: false
+      explanation: "That's incorrect. SharePoint admin can't archive a team from the SharePoint admin center. Try again."
