@@ -24,7 +24,7 @@ These apps combine the functionality of tabs, messaging extensions, connectors, 
     
     Bots provide answers, updates, and assistance in private chats or channels. You can chat with them one-on-one or in a channel. Bots allow you to interact with cloud services such as task management, scheduling, and polling in a Teams chat.
   
-    :::image type="content" source="../media/faq-send-user.gif" alt-text="Screenshot of Bots in Teams client" lightbox="../media/faq-send-user.gif":::
+    :::image type="content" source="../media/chat-bot.gif" alt-text="Screenshot of Bots in Teams client" lightbox="../media/chat-bot.gif":::
 
 
 

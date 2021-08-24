@@ -7,7 +7,7 @@ There are three components determine whether a user can upload a custom app to a
 |Org-wide custom app setting| User custom app policy | Team custom app setting|
 |--|--|--|
 |**Teams admin center**<br/> >Teams apps<br/> > Manage apps <br/> > Org-wide app settings|**Teams admin center**<br/> >Teams apps<br/> > Setup policies|**Teams client**<br/> >Manage team<br/> >Settings <br/> >Member permissions  |
-|:::image type="content" source="../media/org-wide-custom-app-setting.png" alt-text="Screenshot showing Org-wide custom app setting" lightbox="../media/org-wide-custom-app-setting.png"::: | :::image type="content" source="../media/user-custom-app-setting.png" alt-text="Screenshot showing User custom app setting" lightbox="../media/user-custom-app-setting.png":::| :::image type="content" source="../media/teams-client-allow-custom-apps.png" alt-text="Screenshot showing Team custom app setting" lightbox="../media/teams-client-allow-custom-apps.png":::|
+|:::image type="content" source="../media/organizational-wide-custom-app-setting.png" alt-text="Screenshot showing Org-wide custom app setting" lightbox="../media/organizational-wide-custom-app-setting.png"::: | :::image type="content" source="../media/user-custom-app-setting.png" alt-text="Screenshot showing User custom app setting" lightbox="../media/user-custom-app-setting.png":::| :::image type="content" source="../media/teams-client-allow-custom-apps.png" alt-text="Screenshot showing Team custom app setting" lightbox="../media/teams-client-allow-custom-apps.png":::|
 
 
 ## Org-wide custom app setting

@@ -62,13 +62,13 @@ To grant org-wide consent to an app, follow these steps:
 
 3. Under **Org-wide permissions**, select **Review permissions and consent**.
 
-    :::image type="content" source="../media/app-perm-admin-center-org-wide.png" alt-text="Screenshot of org-wide permissions on the Permissions tab for an app":::
+    :::image type="content" source="../media/app-permission-admin-center-organization-wide.png" alt-text="Screenshot of org-wide permissions on the Permissions tab for an app":::
 
     You must be a global admin to do the consent. This option isn't available to Teams service admins.
 
 4. On the **Permissions** tab, review the permissions requested by the app.
 
-    :::image type="content" source="../media/app-perm-admin-center-org-wide-permissions.png" alt-text="Screenshot of permissions requested by an app":::
+    :::image type="content" source="../media/app-permission-admin-center-organization-wide-permissions.png" alt-text="Screenshot of permissions requested by an app":::
 
     
 5. If you agree with the permissions requested by the app, select **Accept** to grant consent. A banner temporarily appears at the top of the page to let you know that the requested permissions have been granted for the app. The app now has access to the specified resources for all users in your organization and no one else will be prompted to review the permissions.
@@ -115,7 +115,7 @@ Use org-wide app settings to control whether users can install third-party apps 
 
 1. On the **Manage apps** page, select **Org-wide app settings**. You can then configure the settings you want in the panel.
 
-    :::image type="content" source="../media/manage-apps-org-wide-app-settings.png" alt-text="Screenshot of org-wide app settings":::
+    :::image type="content" source="../media/manage-apps-organization-wide-app-settings.png" alt-text="Screenshot of org-wide app settings":::
     
 2. Under **Third-party apps**, turn off or turn on these settings to control access to third-party apps:
 

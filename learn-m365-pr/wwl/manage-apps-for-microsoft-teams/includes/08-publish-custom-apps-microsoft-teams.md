@@ -22,8 +22,7 @@ You can upload the custom app or approve the apps submitted by users(developers)
 1. Go to **Teams admin center**.
 2. On the **Manage apps** page, select **+ Upload** to upload your app package in .zip format. 
 
-    ‎:::image type="content" source="../media/upload-a-custom-app.png" alt-text="Screenshot of uploading a custom app ":::  
-
+    ‎:::image type="content" source="../media/upload-custom-app.png" alt-text="Screenshot of uploading a custom app ":::  
 
 ### Approve custom apps submitted by users
 
@@ -53,5 +52,5 @@ As a Teams admin, you can update the app on the Manage apps page in the Microsof
 
 Doing this replaces the existing app in your app catalog and all app permission policies and app setup policies remain enforced for the updated app. 
 
-‎:::image type="content" source="../media/update-an-app.png" alt-text="Update a custom app from Teams admin center":::  
+‎:::image type="content" source="../media/update-app.png" alt-text="Update a custom app from Teams admin center":::  
 
