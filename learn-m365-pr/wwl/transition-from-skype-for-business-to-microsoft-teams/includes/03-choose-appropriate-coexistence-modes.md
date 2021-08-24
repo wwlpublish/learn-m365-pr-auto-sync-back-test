@@ -17,7 +17,7 @@ However, from an experience perspective, mode can be described as defining the e
 
 Here are coexistence modes that are available when you decide to upgrades to Teams.
 
-:::image type="content" source="../media/sfb-to-teams-upgrade-paths.png" alt-text="Screenshot of upgrade building blocks from Skype for Business to Teams":::
+:::image type="content" source="../media/skype-to-teams-upgrade-paths.png" alt-text="Screenshot of upgrade building blocks from Skype for Business to Teams":::
 
 ## Skype for Business Only
 In this coexistence mode, users remain in Skype for Business—not Teams—for chat, meeting, and calling capabilities, and they don't use Teams for teams and channels. In the current implementation, teams, and channels are not automatically turned off for the user. You can use the App Setup policy to hide teams and files.
