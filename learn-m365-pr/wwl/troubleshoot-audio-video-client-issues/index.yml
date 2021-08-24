@@ -1,0 +1,42 @@
+### YamlMime:Module
+uid: learn.wwl.troubleshoot-audio-video-client-issues
+metadata:
+  title: Troubleshoot audio, video, and client issues
+  description: "Learn about the troubleshooting approaches for audio, video, and client issues in Teams, including collecting appropriate logs and identifying problems with different reports and dashboards."
+  ms.date: 08/24/2021
+  author: wwlpublish
+  ms.author: jennyche
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Troubleshoot audio, video, and client issues
+summary: Learn about the troubleshooting approaches for audio, video, and client issues in Teams, including collecting appropriate logs and identifying problems with different reports and dashboards.
+abstract: |
+  By the end of this module, you will be able to:
+  - Describe key aspects of Teams troubleshooting
+  - Identify call quality issues with call analytics
+  - Identify call quality issues with Call Quality Dashboard
+  - Identify call quality issues with the Direct Routing Health Dashboard
+prerequisites: |
+  - A proficient understanding of basic functional experience with Microsoft 365 services.
+  - A proficient understanding of general IT practices, including using PowerShell.
+iconUrl: /learn/achievements/generic-badge.svg
+levels:
+- intermediate
+roles:
+- administrator
+products:
+- m365
+- office-teams
+units:
+- learn.wwl.troubleshoot-audio-video-client-issues.introduction
+- learn.wwl.troubleshoot-audio-video-client-issues.troubleshoot-teams
+- learn.wwl.troubleshoot-audio-video-client-issues.collect-identify-logs
+- learn.wwl.troubleshoot-audio-video-client-issues.clear-microsoft-teams-client-cache
+- learn.wwl.troubleshoot-audio-video-client-issues.identify-issues-call-analytics
+- learn.wwl.troubleshoot-audio-video-client-issues.identify-issues-call-quality-dashboard
+- learn.wwl.troubleshoot-audio-video-client-issues.use-power-bi-to-analyze-call-quality-dashboard-data
+- learn.wwl.troubleshoot-audio-video-client-issues.identify-issues-direct-routing-health-dashboard
+- learn.wwl.troubleshoot-audio-video-client-issues.knowledge-check
+- learn.wwl.troubleshoot-audio-video-client-issues.summary
+badge:
+  uid: learn.wwl.troubleshot-audio-video-client-issues.badge
