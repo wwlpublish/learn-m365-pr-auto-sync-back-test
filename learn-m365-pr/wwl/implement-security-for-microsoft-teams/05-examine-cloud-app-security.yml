@@ -4,7 +4,7 @@ title: Examine the Cloud App Security
 metadata:
   title: Examine the Cloud App Security
   description: "Examine the Cloud App Security"
-  ms.date: 08/23/2021
+  ms.date: 08/24/2021
   author: wwlpublish
   ms.author: jennyche
   ms.topic: interactive-tutorial
@@ -12,4 +12,4 @@ metadata:
 azureSandbox: false
 durationInMinutes: 5
 content: |
-  [!include[](includes/05-examine-the-cloud-app-security.md)]
+  [!include[](includes/05-examine-cloud-app-security.md)]
