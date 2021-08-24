@@ -54,7 +54,11 @@ Channel moderation is managed in one of the Teams clients by team owners. To acc
 2. On **Teams** pane, within a team that you own, select the ellipsis icon for a channel, and then select **Manage channel**.
 
 3. In the **Channel settings** tab, in **Permissions**, select the **Channel moderation** drop-down menu and then select the appropriate option to turn moderation **On** or **Off**.  ‎  
-‎:::image type="content" source="../media/channel-moderation.png" alt-text="Screenshot of enable channel moderation"::: 
+‎
+    :::image type="content" source="../media/channel-moderation.png" alt-text="Screenshot of enable channel moderation"::: 
+
 4. When Channel moderation is turned **On**, more settings appear that enable you to **Manage** the moderators and configure Team member permissions.    
-‎:::image type="content" source="../media/channel-moderation-on.png" alt-text="Screenshot of channel moderation settings":::  
+
+    ‎:::image type="content" source="../media/channel-moderation-enable.png" alt-text="Screenshot of channel moderation settings":::  
+
 5. When channel moderation stays turned **Off**, a restriction can be con figured to exclude guests from being able to start new posts.

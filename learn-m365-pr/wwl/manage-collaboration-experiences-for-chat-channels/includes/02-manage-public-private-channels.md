@@ -8,7 +8,7 @@ Before you create channels, you first need to decide, which channels you need an
 
 A lock icon indicates a private channel. Only members of private channels can see and participate in private channels that they are added to.
 
-:::image type="content" source="../media/private-channels-in-teams.png" alt-text="A screenshot of private channel":::  
+:::image type="content" source="../media/private-channels-teams.png" alt-text="A screenshot of private channel":::  
 ‎
 The following decision matrix should be helpful at planning private channels:
  
