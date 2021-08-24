@@ -3,7 +3,7 @@ uid: learn.wwl.troubleshoot-file-sharing
 metadata:
   title: Troubleshoot File Sharing
   description: "You will learn how to troubleshoot file sharing problems."
-  ms.date: 07/26/2021
+  ms.date: 08/24/2021
   author: wwlpublish
   ms.author: cyncarey
   ms.topic: interactive-tutorial
@@ -19,7 +19,7 @@ prerequisites: |
   - Experience configuring and administering Microsoft Teams
   - Experience using Windows PowerShell
   - Working experience with performance tuning and service monitoring
-iconUrl: /learn/achievements/generic-badge.svg
+iconUrl: /learn/achievements/troubleshoot-file-sharing.svg
 levels:
 - advanced
 roles:
