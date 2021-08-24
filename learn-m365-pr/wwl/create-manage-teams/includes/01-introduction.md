@@ -3,7 +3,7 @@ Creating teams and managing features of a team is an important aspect of managin
 In this module, you will learn about how to create teams with different approaches and manage membership for teams.
 
  
-After this module, you will be able to:
+After this module, you will be able to: 
 
 - Create new teams
 
