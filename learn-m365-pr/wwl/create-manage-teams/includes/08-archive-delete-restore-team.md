@@ -19,10 +19,14 @@ Following are steps to archive a team in the Teams admin center:
 
 1. In Teams admin center on the left pane select **Teams**, and then select **Manage teams**.
 
-2. Select a team by clicking in front of the team name.:::image type="content" source="../media/archive-team.png" alt-text="Screenshot of archiving a team":::
+2. Select a team by clicking in front of the team name.
+    
+    :::image type="content" source="../media/archive-team.png" alt-text="Screenshot of archiving a team":::
 
 
-3. Select **Archive**. The following message will appear. :::image type="content" source="../media/teams-archive-window.png" alt-text="Screenshot of Teams archive message":::
+3. Select **Archive**. The following message will appear. 
+
+    :::image type="content" source="../media/teams-archive-window.png" alt-text="Screenshot of Teams archive message":::
 
 
 4. If you would like to make the SharePoint site for the team read-only, select the check box.
@@ -33,17 +37,21 @@ Following are steps to archive a team in the Teams admin center:
 
 To archive a team in the Teams Client, follow these steps:
 
-1. In the left pane, select the Cogwheel at the bottom.:::image type="content" source="../media/cog-wheel.png" alt-text="Place of the Cogwheel":::
+1. In the left pane, select the Cogwheel at the bottom.
+
+    :::image type="content" source="../media/cogwheel-team.png" alt-text="Place of the Cogwheel":::
 
 
 2. In the main pane, select **…** to the right of the Team you want to archive.
 
 3. In the menu, select **Archive team**.
-:::image type="content" source="../media/archive-team-menu.png" alt-text="Screenshot to archiving the team":::
+
+    :::image type="content" source="../media/archive-team-menu.png" alt-text="Screenshot to archiving the team":::
 
 
 4. The following message will appear. 
-:::image type="content" source="../media/teams-archive-window.png" alt-text="Screenshot of Teams archive message":::
+
+    :::image type="content" source="../media/teams-archive-window.png" alt-text="Screenshot of Teams archive message":::
 
 
 5. If you would like to make the SharePoint site for the team read-only, select the check box.
@@ -51,7 +59,6 @@ To archive a team in the Teams Client, follow these steps:
 6. Select **Archive** to archive the team.
 
  
-
 > [!NOTE]
 > You cannot use PowerShell to archive a team or restore it from its archived state.
 

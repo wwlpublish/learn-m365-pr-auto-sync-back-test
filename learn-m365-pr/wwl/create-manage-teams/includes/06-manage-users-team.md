@@ -39,6 +39,8 @@ If you can’t create a team with dynamic membership you will add members using 
 
 ## Manage users in a team  
 
+You can manage users in a team using Teams admin center, Teams client, and PowerShell. 
+
 ### Use Teams admin center
 
 You use the Teams admin center to manage users and user roles for a specific team. To do this follow these steps:

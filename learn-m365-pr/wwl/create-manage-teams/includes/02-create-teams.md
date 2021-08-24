@@ -26,7 +26,7 @@ You can use Teams admin center to create a team from scratch.
 
 4. Select **Apply**.
 
-	:::image type="content" source="../media/Add-a-new-team-Teams-admin-center.png" alt-text="Screenshot of creating a team":::  
+	:::image type="content" source="../media/add-new-team-admin-center.png" alt-text="Screenshot of creating a team":::  
 
 ## Create a team from Teams Client
 

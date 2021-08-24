@@ -64,7 +64,7 @@ If you want to change the team you just created to be an org-wide team, follow t
 3. In the dropdown menu, select **Edit Team**.
 
 4. Change the **Privacy** level to Org-wide.
-	:::image type="content" source="../media/edit-team-to-org-wide.png" alt-text="Screenshot of changing to a org-wide team":::
+	:::image type="content" source="../media/edit-team-organizational-wide.png" alt-text="Screenshot of changing to a org-wide team":::
 
 5. Select **Done** to apply the changes.
 
