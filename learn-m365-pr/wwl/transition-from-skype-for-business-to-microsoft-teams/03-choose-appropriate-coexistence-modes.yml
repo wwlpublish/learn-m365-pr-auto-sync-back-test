@@ -16,14 +16,14 @@ content: |
 quiz:
   title: "Check your knowledge"
   questions:
-  - content: "In which coexistence mode can users run Teams alongside Skype for Business as two separate solutions that deliver similar and overlapping capabilities?"
+  - content: "In which coexistence mode can users run Microsoft Teams alongside Skype for Business as two separate solutions that deliver similar and overlapping capabilities?"
     choices:
     - content: "Islands"
       isCorrect: true
-      explanation: "That's correct. When you create a sensitivity label, you're asked to configure the label's scope which determines two things - which label settings you can configure for that label, and where the label will be visible to users."
+      explanation: "That's correct. When you create a sensitivity label, you're asked to configure the label's scope, which determines two things - which label settings you can configure for that label, and where the label will be visible to users."
     - content: "Skype for Business with Teams Collaboration"
       isCorrect: false
       explanation: "That's incorrect. This mode introduces Teams in your environment while you continue to use your existing investment in Skype for Business. Try again."
     - content: "Skype for Business with Teams Collaboration and Meetings"
       isCorrect: false
-      explanation: "That's incorrect. This coexistence mode accelerate the availability of Teams meeting and collaboration capabilities in your organization. The coexistence mode lets your users take advantage of the superior Teams meetings experience. Try again."
+      explanation: "That's incorrect. This coexistence mode accelerates the availability of Teams meeting and collaboration capabilities in an organization. This coexistence mode lets your users take advantage of the superior Teams meetings experience. Try again."
