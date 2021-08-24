@@ -22,7 +22,7 @@ You can use the Office 365 IP address and URL web service to get change notifica
 
 ### Change notification using RSS feeds
 
-The Office 365 IP address and URL web wervice provide an RSS feed that you can subscribe to in Outlook. There are links to the RSS URLs on each of the Office 365 service instance-specific pages for the IP addresses and URLs. 
+The Office 365 IP address and URL web service provide an RSS feed that you can subscribe to in Outlook. There are links to the RSS URLs on each of the Office 365 service instance-specific pages for the IP addresses and URLs. 
 
 ### Change notification and approval review using Power Automate
 
