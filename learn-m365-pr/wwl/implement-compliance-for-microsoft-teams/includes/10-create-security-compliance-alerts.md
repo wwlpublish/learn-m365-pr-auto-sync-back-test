@@ -2,7 +2,7 @@ You can use the alert policy to monitor users' activities. Alerts are generated 
 
 Alert policies let you categorize the alerts that are triggered by a policy, apply the policy to all users in your organization, set a threshold level for when an alert is triggered, and decide whether to receive email notifications when alerts are triggered. 
 
-:::image type="content" source="../media/alert-policy.png" alt-text="A screenshot of Alert policy":::
+:::image type="content" source="../media/alert-policy.png" alt-text="A screenshot of Alert policy" lightbox="../media/alert-policy.png":::
 
 ## How alert policies work
 
@@ -70,7 +70,7 @@ To create a new alert policy in the Microsoft 365 compliance center and to check
 ‎Select **Next**.  ‎
 7. On the **Review your settings** page, you can review the alert settings and decide to turn on the policy right away or later. Select **Finish** when everything is configured as desired.
 
-    :::image type="content" source="../media/create-alert-policy.png" alt-text="A screenshot of creating Alert policy":::
+    :::image type="content" source="../media/create-alert-policy.png" alt-text="A screenshot of creating Alert policy" lightbox="../media/create-alert-policy.png":::
 
 ## View alerts
 

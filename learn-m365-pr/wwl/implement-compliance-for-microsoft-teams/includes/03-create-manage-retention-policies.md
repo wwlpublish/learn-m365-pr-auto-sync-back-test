@@ -18,7 +18,7 @@ Retention policies can be applied to the following locations:
 * Yammer community messages
 * Yammer user messages
 
-    :::image type="content" source="../media/retention-policy-locations.png" alt-text="The pictures shows the Choose locations page when creating a new retention policy. It enables Teams channel messages and Teams chats.":::
+    :::image type="content" source="../media/retention-policy-locations.png" alt-text="The pictures shows the Choose locations page when creating a new retention policy. It enables Teams channel messages and Teams chats." lightbox="../media/retention-policy-locations.png":::
 
 Although a retention policy can support multiple locations, you can't create a single retention policy that includes all the supported locations. 
 
@@ -72,7 +72,7 @@ With these two retention actions, you can configure retention settings for the f
 
 * **Delete-only**. Delete content after a specified period of time. For this configuration, choose **Only delete items when they reach a certain age**.
 
-    :::image type="content" source="../media/retention-policy-settings.png" alt-text="The pictures shows the retentions settings page when creating a new retention policy.":::
+    :::image type="content" source="../media/retention-policy-settings.png" alt-text="The pictures shows the retentions settings page when creating a new retention policy." lightbox="../media/retention-policy-settings.png":::
 
 ## The principles of retention
 You can apply more than one retention policy to the same content. Each retention policy can result in a retain action and a delete action. If you set up multiple Teams retention policies with different retention settings, the principles of retention resolve any conflicts. 

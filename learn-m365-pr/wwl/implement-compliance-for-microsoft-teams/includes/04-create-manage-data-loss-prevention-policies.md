@@ -91,7 +91,7 @@ DLP policies can be managed in the Microsoft 365 compliance center, below **Data
 
 5. On the **Choose locations to apply the policy** page, choose the locations that you want the DLP policy to protect. DLP policies can contain Teams and non-Teams locations at the same time.
 
-	:::image type="content" source="../media/data-loss-prevention-locations.png" alt-text="Location options in DLP":::
+	:::image type="content" source="../media/data-loss-prevention-locations.png" alt-text="Location options in DLP" lightbox="../media/data-loss-prevention-locations.png":::
 
 6. On the **Define policy settings page**, select one of the radio buttons and then select **Next**.
 	
@@ -111,7 +111,7 @@ DLP policies can be managed in the Microsoft 365 compliance center, below **Data
 	* Additional options
 
 
-	:::image type="content" source="../media/data-loss-prevention-action.png" alt-text="M365 Action options in DLP":::
+	:::image type="content" source="../media/data-loss-prevention-action.png" alt-text="M365 Action options in DLP" lightbox="../media/data-loss-prevention-action.png":::
  
  	After configuring the desired settings, select **Next**.
 
