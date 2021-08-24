@@ -2,16 +2,16 @@ Teams templates are pre-built definitions of a team's structure designed around 
 
 ## The types of team templates
 
-### Base template
+There are two type of team templates. 
+* **Base template**
 
-Base template types are special templates that Microsoft created for specific industries. These base templates often contain proprietary apps that aren't available in the store and team properties that are not yet supported individually in Teams templates.
+    Base template types are special templates that Microsoft created for specific industries. These base templates often contain proprietary apps that aren't available in the store and team properties that are not yet supported individually in Teams templates.
 
-Once a base template type is defined, you can extend or override these special templates with additional properties that you'd like to specify. But some base template types contain properties that can't be overridden.
+    Once a base template type is defined, you can extend or override these special templates with additional properties that you'd like to specify. But some base template types contain properties that can't be overridden. For the available base template types, see [base template types](https://docs.microsoft.com/microsoftteams/get-started-with-teams-templates?azure-portal=true#team-template-capabilities).
 
-For the available base template types, see [base template types](https://docs.microsoft.com/microsoftteams/get-started-with-teams-templates#what-are-base-template-types/?azure-portal=true).
+* **Custom template**
 
-### Custom template
-Besides the team templates created by Microsoft, you can create your own template in the Teams admin center.
+    Besides the team templates created by Microsoft, you can create your own template in the Teams admin center.
 
 ## Teams template capabilities
 

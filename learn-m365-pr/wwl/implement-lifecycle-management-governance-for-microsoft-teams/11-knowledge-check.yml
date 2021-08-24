@@ -4,7 +4,7 @@ title: Knowledge check
 metadata:
   title: Knowledge check
   description: "Knowledge check"
-  ms.date: 08/23/2021
+  ms.date: 08/24/2021
   author: wwlpublish
   ms.author: jennyche
   ms.topic: interactive-tutorial
@@ -16,22 +16,22 @@ content: |
 quiz:
   title: "Check your knowledge"
   questions:
-  - content: "Which of the following admin center should you use to configure the naming policy for Microsoft 365 Groups?"
+  - content: "Andrew is the Teams Administrator in Contoso Ltd. Which of the following admin center should Andrew use to configure the naming policy for Microsoft 365 Groups?"
     choices:
     - content: "Microsoft 365 admin center"
       isCorrect: false
-      explanation: "That's incorrect. You can't configure the group naming policy from the Microsoft 365 admin center. Try again."
+      explanation: "That's incorrect. Andrew can't configure the group naming policy from the Microsoft 365 admin center. Try again."
     - content: "Azure AD admin center"
       isCorrect: true
-      explanation: "That's correct. You configure the group naming policy from the Azure AD admin center."
+      explanation: "That's correct. Andrew configure the group naming policy from the Azure AD admin center."
     - content: "Teams admin center"
       isCorrect: false
-      explanation: "That's incorrect. You can't configure the group naming policy from the Teams admin center. Try again."
+      explanation: "That's incorrect. Andrew can't configure the group naming policy from the Teams admin center. Try again."
   - content: "Billy is the Teams Administrator in Contoso Ltd. Billy wants to explore and test upcoming Teams features for the user readiness program. What should Billy do to make sure the early access to unreleased features in Teams?"
     choices:
     - content: "Check for updates from Teams client"
       isCorrect: false
-      explanation: "That's incorrect. Updating Teams client is to ensure you have the latest Teams features that are generally available. This doesn't include the features that are in Public Preview. Try again."
+      explanation: "That's incorrect. Updating Teams client is to ensure Billy have the latest Teams features that are generally available. This doesn't include the features that are in Public Preview. Try again."
     - content: "Configure Teams update policies"
       isCorrect: true
       explanation: "That's correct. Billy can configure the Teams update policy with Show preview features enabled to access unreleased features in Teams."

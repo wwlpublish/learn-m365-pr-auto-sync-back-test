@@ -1,4 +1,4 @@
-There are many ways to create a Microsoft 365 group. Beyond the Microsoft 365 admin center, users can create Microsoft 365 groups in the following three primary communication applications in Microsoft 365:
+There are many ways to create a Microsoft 365 group. Beyond the Microsoft 365 admin center, users can create Microsoft 365 groups in the following primary communication applications in Microsoft 365:
 
 - **Outlook**. Collaboration through email with a shared group inbox and calendar.  
 
@@ -11,6 +11,7 @@ There are many ways to create a Microsoft 365 group. Beyond the Microsoft 365 ad
 While users can create a Microsoft 365 group from Outlook or other apps, as an admin, you may need to create or delete groups, add or remove members, and customize how they work. The Microsoft 365 admin center is the place to do this.
 
 ## Create a new Microsoft 365 group
+You can create a new Microsoft 365 group using Microsoft 365 admin center or PowerShell. 
 
 ### Use Microsoft 365 admin center
 
@@ -26,7 +27,7 @@ While users can create a Microsoft 365 group from Outlook or other apps, as an a
 
 6. On the **Add members** page, you can select **+ Add members** to add the members of the group or skip to the next step. 
 
-7. On the **Edit settings** page, type a unique email address for the group, choose a privacy option and whether you want to add Microsoft Teams, and then selectNext.
+7. On the **Edit settings** page, type a unique email address for the group, choose a privacy option and whether you want to add Microsoft Teams, and then select **Next**.
 
     ‎‎:::image type="content" source="../media/create-microsoft-365-group.png" alt-text="Create a Microsoft 365 Group":::
 
@@ -69,7 +70,7 @@ To upgrade a distribution list to a Microsoft 365 Group, you need to log in to t
 
 6. On the information dialog, select **Upgrade** to confirm the upgrade. The process begins immediately. Depending on the size and number of DLs, the process can take several minutes or up to some hours. 
 
-    ‎‎:::image type="content" source="../media/upgrade-dist-group.png" alt-text="The picture shows the Upgrade Distribution group dialog from Exchange admin center":::
+    ‎‎:::image type="content" source="../media/upgrade-distribution-group.png" alt-text="The picture shows the Upgrade Distribution group dialog from Exchange admin center":::
 
 
 ### Use PowerShell
@@ -130,7 +131,7 @@ After the group has been created, administrators can add members and configure o
 1. In the Microsoft 365 admin center, on the **Groups** page, select the group that you want to configure.
 
 2. On the selected group page, you can edit the settings, such as managing members and owners, changing group privacy, changing email sending permissions, or creating a team from the group.  
-‎‎:::image type="content" source="../media/managing-o365group.png" alt-text="Managing O365 group":::  
+‎‎:::image type="content" source="../media/manage-microsoft-365-group.png" alt-text="Managing O365 group":::  
 ‎
 ### Use PowerShell 
  

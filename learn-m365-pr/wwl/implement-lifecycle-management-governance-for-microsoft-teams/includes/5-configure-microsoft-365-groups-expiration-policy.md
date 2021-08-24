@@ -20,7 +20,7 @@ Groups that are actively in use are renewed automatically. Any of the following 
 
 2. On the left pane select **Groups** section, and then select **Expiration** to open the expiration settings.  
 
-	‎‎:::image type="content" source="../media/azure-ad-expiration.png" alt-text="Expiration policy in AzureAD":::  
+	‎‎:::image type="content" source="../media/azure-active-directory-expiration.png" alt-text="Expiration policy in AzureAD":::  
 
 3. Next, on the **Expiration** page, you can specify: 
 

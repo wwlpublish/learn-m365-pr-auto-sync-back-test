@@ -50,7 +50,7 @@ Depends on the assigned policy, users will need to switch to public preview from
    1. Select your profile to display the Teams menu.
    2. Select **About** → **Public preview**.
 
-      ‎:::image type="content" source="../media/public-peview-pption-in-teams-client.png" alt-text="The public prepiew option in Teams client":::
+      ‎:::image type="content" source="../media/public-peview-teams-client.png" alt-text="The public prepiew option in Teams client":::
    3. Select **Switch to Public preview**.
    
       ‎:::image type="content" source="../media/switch-to-public-preview.png" alt-text="Prompt for switching To Public Preview":::

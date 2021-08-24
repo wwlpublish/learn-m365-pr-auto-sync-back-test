@@ -40,6 +40,8 @@ Substring search is not done so that users can use some of the common words like
 
 ## Configure Microsoft 365 groups naming policy 
 
+You can configure Microsoft 365 groups naming policy using Azure AD admin center or Azure AD PowerShell. 
+
 ### Use Azure AD admin center
 
 
@@ -156,7 +158,7 @@ New-Team -DisplayName "ContosoSalesGroup" -MailNickName "ContosoSalesGroup"
 
 When users enter custom blocked words in Outlook, an error message will appear in the UI together with the blocked words. Users can then remove it, as shown on the example below:
 
-‎:::image type="content" source="../media/owa-blocked-words.png" alt-text="Blocked words warning from OWA":::
+‎:::image type="content" source="../media/outlook-web-blocked-words.png" alt-text="Blocked words warning from OWA":::
 
 
 ### Outlook Desktop experience
@@ -165,7 +167,7 @@ Groups created in Outlook desktop are compliant with naming policy, so the creat
 
 
 
-## Licensing requirements
+## License requirements
 
 Using Azure AD naming policy for Microsoft 365 Groups requires that you possess but not necessarily assign an Azure Active Directory Premium P1 license or Azure AD Basic EDU license for each unique user (including guests) that is a member of one or more Microsoft 365 groups.
 
