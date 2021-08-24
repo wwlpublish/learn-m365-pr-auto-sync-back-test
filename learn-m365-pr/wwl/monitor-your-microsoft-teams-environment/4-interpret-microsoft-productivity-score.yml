@@ -4,7 +4,7 @@ title: Interpret Microsoft Productivity Score
 metadata:
   title: Interpret Microsoft Productivity Score
   description: "Interpret Microsoft Productivity Score"
-  ms.date: 08/23/2021
+  ms.date: 08/24/2021
   author: wwlpublish
   ms.author: jennyche
   ms.topic: interactive-tutorial
@@ -20,10 +20,10 @@ quiz:
     choices:
     - content: "Communication report"
       isCorrect: false
-      explanation: "That's incorrect. The communication report provides a measure of people in your org that are using multiple modes to communicate. Try again."
+      explanation: "That's incorrect. The communication report provides a measure of people in the organization that are using multiple modes to communicate. Try again."
     - content: "Teamwork report"
       isCorrect: false
       explanation: "That's incorrect. The teamwork report provides an insight into how people share information and collaborate in shared workspaces. Try again."
     - content: "Meetings report"
       isCorrect: true
-      explanation: "That's correct. The meetings report provides a view of people in your organization based on their average time spent per week in meetings within the last 28 days."
+      explanation: "That's correct. The meetings report provides a view of people in the organization based on their average time spent per week in meetings within the last 28 days."

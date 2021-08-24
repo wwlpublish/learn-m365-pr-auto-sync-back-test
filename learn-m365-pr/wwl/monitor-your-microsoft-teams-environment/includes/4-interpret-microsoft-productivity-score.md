@@ -36,7 +36,7 @@ The Productivity Score home page shows your organization's total score and score
 
 * **Peer benchmarks** allow you to compare your organization's score with organizations like yours. The peer benchmark for the people experiences categories is calculated as the average of measures within a set of similar organizations. The set of organizations is composed of organizations in your region with a similar number of licensed users, types of licenses, industry, and tenure with Microsoft 365.
 
-    ‎:::image type="content" source="../media/prodscore-landing.png" alt-text="Productivity Score page in Reports.":::
+    ‎:::image type="content" source="../media/productivity-score-landing.png" alt-text="Productivity Score page in Reports." lightbox="../media/productivity-score-landing.png":::
 
 Your Productivity Score is based on the combined scores of your people and technology experiences categories. Each category is weighted equally, with a total of 100 points. The highest possible Productivity Score is 800. Your organization's score is updated daily and reflects user actions completed in the last 28 (including the current day).
 
@@ -69,7 +69,7 @@ The supporting metrics for the communication category:
 * **Breakdown of messages by type in Microsoft Teams**. The use of chat and channel messages.
 * **Questions and Answers in Yammer**. The use of the questions and answers feature in your organization.
     
-    ‎:::image type="content" source="../media/prodscore-Communication.png" alt-text="Communication Productivity Score page in Reports.":::
+    ‎:::image type="content" source="../media/productivity-score-communication.png" alt-text="Communication Productivity Score page in Reports." lightbox="../media/productivity-score-communication.png":::
 
 ### Meetings
 
@@ -82,7 +82,7 @@ The supporting metrics for the meetings category:
 * **Distribution of meeting length by type**. The distribution of length (in minutes) of instant and scheduled meetings that took place in your organization in the last 28 days. 
 * **Use of different meeting types**.  The types of meetings are being attended by people who are attending any online Microsoft Teams meetings. 
 
-    ‎:::image type="content" source="../media/prodscore-Meetings.png" alt-text="Meetings Productivity Score page in Reports.":::
+    ‎:::image type="content" source="../media/productivity-score-meetings.png" alt-text="Meetings Productivity Score page in Reports." lightbox="../media/productivity-score-meetings.png":::
 
 ### Teamwork
 A fundamental pillar for organizational productivity is when a group of people with a common goal work with each other and with common resources for collective success. Research indicates that when people share information and collaborate in shared workspaces, they save up to 4 hours a week. 
@@ -95,7 +95,7 @@ The supporting metrics for the teamwork category:
 
 * **Use of teams within Microsoft Teams**.  Reflects the percentage of workspaces that have a Microsoft Teams team attached to them. 
 
-    ‎:::image type="content" source="../media/prodscore-Teamwork.png" alt-text="Teamwork Productivity Score page in Reports.":::
+    ‎:::image type="content" source="../media/productivity-score-teamwork.png" alt-text="Teamwork Productivity Score page in Reports." lightbox="../media/productivity-score-teamwork.png":::
 
 ### Mobility
 A fundamental pillar of organizational productivity is how well people are able to work flexibly from wherever they are. With Microsoft 365, people can stay connected with Outlook, Microsoft Teams, and Yammer. People can also seamlessly collaborate on content by using Word, Excel, PowerPoint, and OneNote from any location, and platforms.
@@ -107,7 +107,7 @@ The supporting metrics for the mobility category:
 * **Use of Microsoft 365 Apps across platforms**. Represent the number of people who are using each of the apps considered–Word, Excel, PowerPoint, and OneNote—across single or multiple platforms.
 * **Remote work**. Daily percentage of people who only work remotely and daily percentage of people who also work onsite. Users are considered onsite if they perform at least three hours of activity in Microsoft 365 Apps in a day.
 
-    ‎:::image type="content" source="../media/prodscore-Mobility.png" alt-text="Mobility Productivity Score page in Reports.":::
+    ‎:::image type="content" source="../media/productivity-score-mobility.png" alt-text="Mobility Productivity Score page in Reports." lightbox="../media/productivity-score-mobility.png":::
 
 
 

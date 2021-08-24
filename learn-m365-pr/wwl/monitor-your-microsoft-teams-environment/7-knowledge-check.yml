@@ -4,7 +4,7 @@ title: Knowledge check
 metadata:
   title: Knowledge check
   description: "Knowledge check"
-  ms.date: 08/23/2021
+  ms.date: 08/24/2021
   author: wwlpublish
   ms.author: jennyche
   ms.topic: interactive-tutorial
@@ -16,17 +16,17 @@ content: |
 quiz:
   title: "Check your knowledge"
   questions:
-  - content: "Which of the following features allows you to efficiently manage and monitor group membership for both internal and guests?"
+  - content: "John is the IT Administrator in Contoso Ltd. Which of the following features allows John to efficiently manage and monitor group membership for both internal and guests?"
     choices:
     - content: "User activity reports"
       isCorrect: false
-      explanation: "That's incorrect. User activity reports is to see how users in your organization are using Microsoft Teams. Try again."
+      explanation: "That's incorrect. User activity reports is to see how users in the organization are using Microsoft Teams. Try again."
     - content: "Azure AD access reviews"
       isCorrect: true
       explanation: "That's correct. Azure Active Directory (Azure AD) access reviews enable organizations to efficiently manage group memberships without needing administrative oversight."
     - content: "usage report"
       isCorrect: false
-      explanation: "That's incorrect. Usage report is to see how many users across your organization are using Teams to communicate and collaborate. Try again."
+      explanation: "That's incorrect. Usage report is to see how many users across the organization are using Teams to communicate and collaborate. Try again."
   - content: "Jimmy is the IT Administrator in Contoso Ltd. Multiple users report latency experiences while using SharePoint and Teams. Jimmy wants to verify if there's a location-specific network issue. What should Jimmy use with minimal administrative effort?"
     choices:
     - content: "Network testing companion"

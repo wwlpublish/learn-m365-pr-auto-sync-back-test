@@ -1,6 +1,6 @@
 Microsoft 365 usage analytics provide you with a better view of how your organization is adopting the various services within Microsoft 365. Аt-a-glance activity widget gives you a cross-product view of how users communicate and collaborate using the other various services in Microsoft 365:
 
-‎:::image type="content" source="../media/reports-dashboard-other-information.png" alt-text="Screen shot of the Teams at-a-glance activity widget.":::
+‎:::image type="content" source="../media/reports-dashboard-other-information.png" alt-text="Screen shot of the Teams at-a-glance activity widget." lightbox="../media/reports-dashboard-other-information.png":::
 
 Microsoft 365 usage analytics content represents a dashboard that provides a cross-product view of the last 7 days, 30 days, 90 days, and 180 days. Data won't exist for all reporting periods right away. The reports become available within 48 hours.
 
@@ -28,13 +28,13 @@ There are currently two activity reports you can view:
 ### Microsoft Teams user activity report
 The Teams user activity report gives you a view of the most common activities that your users perform in Teams. This includes how many people engage in a chat in a channel, how many communicate via private chat message, and how many participate in calls or meetings. You can see this information for your whole organization, and for each individual user.
 
-‎‎:::image type="content" source="../media/teams-user-activity-report.png" alt-text="Microsoft Teams user activity report":::
+‎‎:::image type="content" source="../media/teams-user-activity-report.png" alt-text="Microsoft Teams user activity report" lightbox="../media/teams-user-activity-report.png":::
 
 ### Microsoft Teams device usage report 
 
 The Teams device usage report provides you with information about how your users connect to Teams, including mobile apps. The report helps you understand which devices are popular in your organization and how many users work on the go.
 
-‎‎:::image type="content" source="../media/teams-device-usage-report.png" alt-text="Microsoft Teams device usage report"::: 
+‎‎:::image type="content" source="../media/teams-device-usage-report.png" alt-text="Microsoft Teams device usage report" lightbox="../media/teams-device-usage-report.png"::: 
 
 
 
