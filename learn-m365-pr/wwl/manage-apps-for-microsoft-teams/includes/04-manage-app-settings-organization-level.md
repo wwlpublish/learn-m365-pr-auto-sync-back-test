@@ -6,7 +6,7 @@ You can view every app in your tenant app catalog including the following inform
 
 In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Manage apps**. To see the information that you want in the table, select **Edit Column** in the upper-right corner to add or remove columns to the table.
 
-:::image type="content" source="../media/manage-apps.png" alt-text="Screenshot of the Managed apps page":::
+:::image type="content" source="../media/manage-apps.png" alt-text="Screenshot of the Managed apps page" lightbox="../media/manage-apps.png":::
 
 
 
@@ -62,7 +62,7 @@ To grant org-wide consent to an app, follow these steps:
 
 3. Under **Org-wide permissions**, select **Review permissions and consent**.
 
-    :::image type="content" source="../media/app-permission-admin-center-organization-wide.png" alt-text="Screenshot of org-wide permissions on the Permissions tab for an app":::
+    :::image type="content" source="../media/app-permission-admin-center-organization-wide.png" alt-text="Screenshot of org-wide permissions on the Permissions tab for an app" lightbox="../media/app-permission-admin-center-organization-wide.png":::
 
     You must be a global admin to do the consent. This option isn't available to Teams service admins.
 
@@ -103,7 +103,7 @@ There are three entry points to access the customize feature from the **Manage a
 * Select the app name and then Customizable.
 * Select the app name, and then select Customize from the Actions dropdown.
 
-    :::image type="content" source="../media/customize-app.png" alt-text="Screenshot of customizing app":::
+    :::image type="content" source="../media/customize-app.png" alt-text="Screenshot of customizing app" lightbox="../media/customize-app.png":::
 
 
 
@@ -115,8 +115,6 @@ Use org-wide app settings to control whether users can install third-party apps 
 
 1. On the **Manage apps** page, select **Org-wide app settings**. You can then configure the settings you want in the panel.
 
-    :::image type="content" source="../media/manage-apps-organization-wide-app-settings.png" alt-text="Screenshot of org-wide app settings":::
-    
 2. Under **Third-party apps**, turn off or turn on these settings to control access to third-party apps:
 
     - **Allow third-party apps in Teams**: This setting controls whether users can use third-party apps. If you turn off this setting, your users won't be able to install or use any third-party apps. For apps that you allowed, the status shows as **Allowed but disabled org-wide**.              
@@ -128,7 +126,7 @@ Use org-wide app settings to control whether users can install third-party apps 
 
 4. Select **Save** for org-wide app settings to take effect.
 
-
+    :::image type="content" source="../media/manage-apps-organization-wide-app-settings.png" alt-text="Screenshot of org-wide app settings" lightbox="../media/manage-apps-organization-wide-app-settings.png":::
 
 ## Knowledge check
 
