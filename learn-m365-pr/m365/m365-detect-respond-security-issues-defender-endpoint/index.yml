@@ -18,7 +18,7 @@ abstract: |
   - Understand response actions
 prerequisites: |
   - Basic familiarity with Microsoft Defender for Endpoint
-iconUrl: /learn/achievements/generic-badge.svg
+iconUrl: /learn/achievements/m365-defender-endpoint-detect-respond.svg
 levels:
   - beginner
 roles:
