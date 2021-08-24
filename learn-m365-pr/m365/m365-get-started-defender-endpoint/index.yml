@@ -22,7 +22,7 @@ abstract: |
   - Set up and onboard devices to Microsoft Defender for Endpoint.
 prerequisites: |
   - Basic familiarity with Microsoft Defender for Endpoint
-iconUrl: /learn/achievements/generic-badge.svg
+iconUrl: /learn/achievements/m365-defender-endpoint-get-started.svg
 levels:
   - beginner
 roles:
