@@ -17,7 +17,7 @@ abstract: |
   - Understand threat investigation in Microsoft Defender for Identity.
 prerequisites: | 
   - None
-iconUrl: /learn/achievements/generic-badge.svg
+iconUrl: /learn/achievements/m365-defender-defend-attacks.svg
 levels: 
   - beginner
 roles: 
