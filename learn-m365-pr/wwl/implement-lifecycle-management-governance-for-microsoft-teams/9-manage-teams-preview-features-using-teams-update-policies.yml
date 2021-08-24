@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.implement-lifecycle-management-governance-for-microsoft-teams.manage-teams-preview-features-using-teams-update-policies
+title: Manage Teams preview features using Teams update policies
+metadata:
+  title: Manage Teams preview features using Teams update policies
+  description: "Manage Teams preview features using Teams update policies"
+  ms.date: 08/24/2021
+  author: wwlpublish
+  ms.author: jennyche
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+durationInMinutes: 6
+content: |
+  [!include[](includes/9-manage-teams-preview-features-using-teams-update-policies.md)]
