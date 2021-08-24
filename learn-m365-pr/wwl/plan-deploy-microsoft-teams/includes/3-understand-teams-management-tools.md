@@ -63,7 +63,7 @@ If you want to see a list of all the cmdlets that are included in the Microsoft 
 Get-Command -Module MicrosoftTeams
 ```
  
-‎:::image type="content" source="../media/teams-power-shell-module.png" alt-text="Screenshot of PowerShell window":::
+‎:::image type="content" source="../media/teams-powershell-module.png" alt-text="Screenshot of PowerShell window":::
 
 
 

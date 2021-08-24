@@ -54,7 +54,7 @@ Advisor for Teams walks you through your Microsoft Teams rollout. It assesses yo
 
 Advisor for Teams creates a Deployment team (in Teams), with channels for each workload you want to roll out. Each workload in the Deployment team comes with a comprehensive Planner plan that includes all the rollout tasks for each workload. Using this Planner plan, you can assign tasks to the people responsible for each phase of the rollout. Each rollout task contains all the guidance and resources you need to complete the task
 
-‎:::image type="content" source="../media/advisor-plan.png" alt-text="Recommended plans of Skype for Business upgrade":::
+‎:::image type="content" source="../media/advisor-plan.png" alt-text="Recommended plans of Skype for Business upgrade" lightbox="../media/advisor-plan.png":::
 
 Advisor for Teams is part of the [Teams admin center](https://admin.teams.microsoft.com?azure-portal=true). To begin using Advisor for Teams, go to **Planning** > **Teams Advisor**. Advisor for Teams currently provides the following plans:
 
@@ -62,7 +62,7 @@ Advisor for Teams is part of the [Teams admin center](https://admin.teams.micros
 2. Meetings and conferencing
 3. Skype for Business upgrade
 
-     ‎:::image type="content" source="../media/advisor-for-teams.gif" alt-text="Advisor for Teams in Teams admin center":::
+     ‎:::image type="content" source="../media/advisor-for-teams.gif" alt-text="Advisor for Teams in Teams admin center" lightbox="../media/advisor-for-teams.gif" :::
 
 ## Microsoft FastTrack
 
