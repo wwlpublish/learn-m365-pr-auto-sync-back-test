@@ -3,7 +3,7 @@ uid: learn.wwl.manage-access-for-external-users
 metadata:
   title: Manage access for external users
   description: "Manage access for external users"
-  ms.date: 08/23/2021
+  ms.date: 08/24/2021
   author: wwlpublish
   ms.author: jennyche
   ms.topic: interactive-tutorial
@@ -31,9 +31,9 @@ products:
 units:
 - learn.wwl.manage-access-for-external-users.introduction
 - learn.wwl.manage-access-for-external-users.understand-features-azure-active-directory
-- learn.wwl.manage-access-for-external-users.work-microsoft-teams
-- learn.wwl.manage-access-for-external-users.manage-access-for-external-users
-- learn.wwl.manage-access-for-external-users.manage-external-collaboration-azure-ad
+- learn.wwl.manage-access-for-external-users.work-external-users-microsoft-teams
+- learn.wwl.manage-access-for-external-users.manage-access-external-users
+- learn.wwl.manage-access-for-external-users.manage-external-collaboration-azure-active-directory
 - learn.wwl.manage-access-for-external-users.manage-external-collaboration-microsoft-365
 - learn.wwl.manage-access-for-external-users.manage-external-access-microsoft-teams
 - learn.wwl.manage-access-for-external-users.manage-guest-access-microsoft-teams

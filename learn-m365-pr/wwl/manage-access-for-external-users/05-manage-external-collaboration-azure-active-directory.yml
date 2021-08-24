@@ -1,10 +1,10 @@
 ### YamlMime:ModuleUnit
-uid: learn.wwl.manage-access-for-external-users.manage-external-collaboration-azure-ad
+uid: learn.wwl.manage-access-for-external-users.manage-external-collaboration-azure-active-directory
 title: Manage external collaboration in Azure AD
 metadata:
   title: Manage external collaboration in Azure AD
   description: "Manage external collaboration in Azure AD"
-  ms.date: 08/23/2021
+  ms.date: 08/24/2021
   author: wwlpublish
   ms.author: jennyche
   ms.topic: interactive-tutorial
@@ -12,7 +12,7 @@ metadata:
 azureSandbox: false
 durationInMinutes: 4
 content: |
-  [!include[](includes/05-manage-external-collaboration-in-azure-ad.md)]
+  [!include[](includes/05-manage-external-collaboration-azure-active-directory.md)]
 quiz:
   title: "Check your knowledge"
   questions:
