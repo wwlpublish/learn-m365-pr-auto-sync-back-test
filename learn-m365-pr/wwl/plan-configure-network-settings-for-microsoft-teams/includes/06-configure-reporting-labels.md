@@ -42,8 +42,8 @@ This table below is an example, which you can follow in order to create your dat
 
 1. Sign in to **Teams admin center**.
 2. Select **Locations** > **Reporting labels**.
-3. On the **Reporting labels** page, select **Upload data**.
-4. In the **Upload data** pane, select **Select a file**, and then browse to and upload your edited .csv or .tsv file.
+3. On the **Reporting labels** page, select **Upload**.
+4. In the **Upload reporting labels** pane, select **Select a file**, and then browse to and upload your edited .csv or .tsv file.
 4. Select **Upload**.
 
 Once the file is uploaded successfully, you can see the update in the locations summary pane. 
