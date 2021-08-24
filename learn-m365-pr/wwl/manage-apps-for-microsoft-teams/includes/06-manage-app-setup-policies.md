@@ -4,7 +4,7 @@ Apps are pinned to the app bar. This is the bar on the side of the Teams desktop
 
 |Teams desktop client  |Teams mobile client |
 |---------|---------|
-|:::image type="content" source="../media/app-setup-policies-mobile-app-bar.png" alt-text="Screenshot showing Teams desktop client](../media/app-setup-policies-desktop-app-bar.png)<br>  |   ![Screenshot showing Teams mobile client":::      |
+|:::image type="content" source="../media/app-setup-policies-desktop-app-bar.png" alt-text="Screenshot showing Teams desktop client" lightbox="../media/app-setup-policies-desktop-app-bar.png" :::|:::image type="content" source="../media/app-setup-policies-mobile-app-bar.png" alt-text="Screenshot showing Teams mobile client" lightbox="../media/app-setup-policies-mobile-app-bar.png":::|
 
 
 You manage app setup policies in the Microsoft Teams admin center. You can use the global (Org-wide default) policy or create custom policies and assign them to users. Users in your organization will automatically get the global policy unless you create and assign a custom policy. 

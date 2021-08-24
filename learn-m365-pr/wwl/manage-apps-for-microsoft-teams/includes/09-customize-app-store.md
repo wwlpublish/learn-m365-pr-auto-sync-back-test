@@ -2,11 +2,16 @@ Besides developing custom apps for your organization, you can customize your org
 
 The followings are available customizations that appear on different pages in Teams client.  
 
-|Teams app store page | Custom apps page |
-|--|--|
-|- Organization logomark|- Organization logo<br/>- Customize background<br/>- Text color of your organization name |
-|‎:::image type="content" source="../media/custom-app-page.png" alt-text="Teams app store page](../media/app-page.png)|‎![Custom apps page":::|
+**Teams app store page**
+* Organization logomark
+    ‎:::image type="content" source="../media/custom-app-page.png" alt-text="Teams app store page":::
 
+**Custom apps page**
+- Organization logo
+- Customize background
+- Text color of your organization name 
+
+    ‎:::image type="content" source="../media/app-page.png" alt-text="Custom apps page":::
 
 ## Customize app store
 1. Go to Teams admin center
@@ -26,9 +31,11 @@ The followings are available customizations that appear on different pages in Te
 
 Changes to branding will require 24 hours to take effect. The following screenshots are examples of a custom app store. 
 
-|Teams app store page | Custom apps page |
-|--|--|
-|‎:::image type="content" source="../media/contoso-custom-app-page.png" alt-text="Example of Teams app store page](../media/contoso-app-page.png)|‎![Example of Custom apps page":::|
+**Teams app store page**
+‎:::image type="content" source="../media/contoso-app-page.png" alt-text="Example of Custom apps page":::
+
+**Custom apps page**
+‎:::image type="content" source="../media/contoso-custom-app-page.png" alt-text="Example of Teams app store page"::: 
 
 
 

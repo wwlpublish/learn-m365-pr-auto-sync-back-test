@@ -64,6 +64,6 @@ A user will see an app in **Built by your colleagues** if the app meets one of t
 Users install Microsoft Power Platform apps in the same way they install any other Teams app. Keep in mind that users can only install  apps to the context to which they have permissions, for example, a team they own, a chat that they're a part of, or their personal scope.
 
 
-:::image type="content" source="../media/manage-power-platform-apps-apps-page.png" alt-text="Screenshots of Apps page, showing Microsoft Power Platform apps listed in Built by your colleagues":::
+:::image type="content" source="../media/manage-power-platform-apps-apps-page.png" alt-text="Screenshots of Apps page, showing Microsoft Power Platform apps listed in Built by your colleagues" lightbox="../media/manage-power-platform-apps-apps-page.png":::
 
 
