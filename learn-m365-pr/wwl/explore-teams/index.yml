@@ -1,0 +1,44 @@
+### YamlMime:Module
+uid: learn.wwl.explore-teams
+metadata:
+  title: Explore Microsoft Teams
+  description: "Learn about Microsoft Teams capabilities, including Teams core workloads and integration with other Microsoft services and platforms. Understand the Teams architecture and Teams certified solutions."
+  ms.date: 08/23/2021
+  author: wwlpublish
+  ms.author: jennyche
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Explore Microsoft Teams
+summary: Learn about Microsoft Teams capabilities, including Teams core workloads and integration with other Microsoft services and platforms. Understand the Teams architecture and Teams certified solutions.
+abstract: |
+  By the end of this module, you will be able to:
+  - Describe Microsoft Teams core workloads.
+  - Describe how Microsoft 365 integrates with Teams.
+  - Describe how Microsoft Power Platform integrates with Teams.
+  - Explain the architecture of Microsoft Teams and dependent services.
+  - Describe Teams certified solutions.
+prerequisites: |
+  - A proficient understanding of basic functional experience with Microsoft 365 services.
+  - A proficient understanding of general IT practices, including using PowerShell.
+iconUrl: /learn/achievements/generic-badge.svg
+levels:
+- intermediate
+roles:
+- administrator
+products:
+- m365
+- office-teams
+units:
+- learn.wwl.explore-teams.introduction
+- learn.wwl.explore-teams.explore-teams
+- learn.wwl.explore-teams.integration-microsoft-365
+- learn.wwl.explore-teams.integration-microsoft-power-platform
+- learn.wwl.explore-teams.architecture
+- learn.wwl.explore-teams.microsoft-365-groups
+- learn.wwl.explore-teams.sharepoint-onedrive
+- learn.wwl.explore-teams.exchange
+- learn.wwl.explore-teams.certified-solutions
+- learn.wwl.explore-teams.knowledge-check
+- learn.wwl.explore-teams.summary
+badge:
+  uid: learn.wwl.explore-teams.badge
