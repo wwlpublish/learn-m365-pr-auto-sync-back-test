@@ -27,7 +27,7 @@ After you turn on Safe Links protection for Microsoft Teams, URLs in Teams are c
 
 If the user who sent the link isn't included in a Safe Links policy where Teams protection is enabled, the user is free to click through to the original URL on their computer or device.
 
-:::image type="content" source="../media/tp-safe-links-for-teams-malicious.png" alt-text="A Safe Links for Teams page reporting a malicious link.":::
+:::image type="content" source="../media/safe-links-for-teams-malicious-message.png" alt-text="A Safe Links for Teams page reporting a malicious link.":::
 
 
 Clicking the **Go Back** button on the warning page will return the user to their original context or URL location. However, clicking on the original link again will cause Safe Links to rescan the URL, so the warning page will reappear.
@@ -62,13 +62,13 @@ The following settings in Safe Links policies apply to links in Teams:
 
 - **Do not allow users to click through to original URL**. Allows or blocks users from clicking through the warning page to the original URL. The recommend value is enabled.
 
-    :::image type="content" source="../media/safe-links-for-teams-malicious.png" alt-text="A Safe Links protection settings page.":::
+    :::image type="content" source="../media/safe-links-policy-settings.png" alt-text="A Safe Links protection settings page.":::
 
 
 The following table shows the recommended settings for two  security levels: **Standard** and **Strict**.
 
-|Protection settings|Default|Standard|Strict|
-||::|::|::|
+| Protection settings | Default | Standard | Strict |
+|:|::|::|::|
 |Wait for URL scanning to complete before delivering the message  |Not selected  |Selected  |Selected  |
 |Do not track user clicks  |Not selected  |Not selected  |Not selected  |
 |Do not let users click through to the original URL  |Not selected  |Selected  |Selected  |

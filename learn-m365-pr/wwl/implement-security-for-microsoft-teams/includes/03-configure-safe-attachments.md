@@ -13,11 +13,11 @@ Microsoft Teams allows people to share files and collaborate, and Microsoft Defe
 
 When a file in Microsoft Teams has been identified as malicious, Microsoft Defender for Office 365 locks the file by integrating with the file store. The following image shows an example of a malicious file detected in a library.
 
-:::image type="content" source="../media/atp-policies.png" alt-text="Screenshot of blocked file in SharePoint document library.":::
+:::image type="content" source="../media/advanced-threat-protection-policies.png" alt-text="Screenshot of blocked file in SharePoint document library.":::
 
 Although the blocked file is still listed in the document library and in web, mobile, or desktop applications, people can't open, copy, move, or share the file. But they can delete the blocked file. Here's an example of what a blocked file looks like on a mobile device:
 
-:::image type="content" source="../media/atp-blocked-file-mobile-device.png" alt-text="Screenshot of blocked file in mobile device":::
+:::image type="content" source="../media/blocked-file-mobile-device.png" alt-text="Screenshot of blocked file in mobile device":::
 
 ## Enable Safe Attachments for Microsoft Teams
 

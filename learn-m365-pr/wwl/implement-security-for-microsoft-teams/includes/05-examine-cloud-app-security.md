@@ -7,7 +7,7 @@ Microsoft Cloud App Security is a Cloud Access Security Broker. It's a layer bet
 
 Microsoft Cloud App Security natively integrates with leading Microsoft solutions. It provides visibility into the apps being used, control over data travel, and analytics to identify and combat cyber threats.
 
-:::image type="content" source="../media/dashboard-enhanced.png" alt-text="Cloud App Security dashboard.":::
+:::image type="content" source="../media/dashboard-enhanced.png" alt-text="Cloud App Security dashboard." lightbox="../media/dashboard-enhanced.png":::
 
 ## The Cloud App Security framework
 Cloud App Security uses a four-stage framework: 

@@ -13,7 +13,7 @@ To view the report in the Microsoft 365 Defender portal, go to **Reports** > **S
 
 
 
-## Threat Protection status report 
+## Threat protection status report 
 
 The Threat protection status report is available in both EOP and Defender for Office 365; however, the reports contain different data. For example, EOP customers can view information about malware detected in email, but not information about malicious files detected by Safe Attachments for SharePoint, OneDrive, and Microsoft Teams.
 
@@ -21,7 +21,7 @@ The report provides the count of email messages with malicious content, such as 
 
 To view the report in the Microsoft 365 Defender portal, go to **Reports** > **Email & collaboration reports**. On the **Email & collaboration reports** page, find **Threat protection status** and then select **View details**. 
 
-:::image type="content" source="../media/threat-protection-status.png" alt-text="A screenshot of Threat Protection Status report with information about detected files":::
+:::image type="content" source="../media/threat-protection-status.png" alt-text="A screenshot of Threat Protection Status report with information about detected files" lightbox="../media/threat-protection-status.png":::
 
 By default, the chart shows data for the past seven days. If you select Filter on the Threat protection status report page, you can select a 90-day date range (trial subscriptions might be limited to 30 days). The details table allows filtering for 30 days.
 
@@ -35,7 +35,7 @@ When you first open Explorer (or the real-time detections report), the default v
 To view the report in the Microsoft 365 Defender portal, go to **Explorer**. Use the **View** menu to change what information is displayed. Tooltips help you determine which view to use. Once you have selected a view, you can apply filters and set up queries to conduct further analysis. 
 
 
-:::image type="content" source="../media/explorer.png" alt-text="A screenshot of Explorer with information about detected files":::
+:::image type="content" source="../media/explorer.png" alt-text="A screenshot of Explorer with information about detected files" lightbox="../media/explorer.png":::
 
 
 ## Knowledge check

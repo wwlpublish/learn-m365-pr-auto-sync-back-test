@@ -40,7 +40,7 @@ Following are sample steps to create a Conditional Access policy for users in Sa
 
 3. On the Conditional Access - Policies page, select **New Policy.**
 
-	:::image type="content" source="../media/conditional-access-newpolicy.png" alt-text="Conditional Access New policy":::  
+	:::image type="content" source="../media/conditional-access-new-policy.png" alt-text="Conditional Access New policy":::  
 
  
 
@@ -62,7 +62,7 @@ Following are sample steps to create a Conditional Access policy for users in Sa
 
 		- Select **Grant** to choose which controls will be enforced, such as multifactor authentication.
 
-			:::image type="content" source="../media/conditional-access-multifactor-auth.png" alt-text="A screenshot of Conditional Access MFA":::
+			:::image type="content" source="../media/conditional-access-multifactor-authentication.png" alt-text="A screenshot of Conditional Access MFA":::
 
 		- Select **Session** if you need to configure limited experience within a cloud app, such as app enforced restriction. 
 
