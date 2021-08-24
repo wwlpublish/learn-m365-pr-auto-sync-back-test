@@ -53,7 +53,7 @@ If you want to add users to a call group, complete the following steps:
 2. Select the **Voice** tab and navigate to the **Group call pickup** section.
 3. Select **Add people** and then in the right-hand pane, search for the users you want to add.
 4. Select **Apply** to add the selected users to the call group.
- 
+
 ‎:::image type="content" source="../media/user-voice-setting.png" alt-text="voice settings for users"::: 
 
 
