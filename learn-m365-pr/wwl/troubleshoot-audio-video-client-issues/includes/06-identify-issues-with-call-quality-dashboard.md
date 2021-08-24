@@ -44,7 +44,7 @@ These reports are displayed on the CQD Dashboard when you first sign in to CQD. 
 |Client—Client     |Details of the streams between two client endpoints.        |
 |Voice Quality SLA     |Info about calls included in the Skype for Business voice quality SLA.        |
 
-‎:::image type="content" source="../media/call-qualitydashboard-summary-report.png" alt-text="Quality Dashboard ":::
+‎:::image type="content" source="../media/call-quality-dashboard-summary-report.png" alt-text="Quality Dashboard ":::
  
 ### **Detailed reports**
 
@@ -63,7 +63,7 @@ Use the menu at the top to select other reports. For each type of report, you ca
 |Client Version Reports     |Client Version Summary: View the Sessions and Users counts for each client app version<br><br>Client Version by User: View user names for each client app version <br><br>Pre-built filters for Product and Client Type help focus the versions to specific clients.         |
 |Endpoint Reports     |Shows call quality by machine endpoints (computer make and model). 
 
-‎:::image type="content" source="../media/call-quality-dreports.png" alt-text="Reports in CQD ":::
+‎:::image type="content" source="../media/call-quality-reports.png" alt-text="Reports in CQD ":::
 
 
 

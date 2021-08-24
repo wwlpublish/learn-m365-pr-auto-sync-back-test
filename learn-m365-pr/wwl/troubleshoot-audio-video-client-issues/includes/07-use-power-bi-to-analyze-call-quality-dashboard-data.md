@@ -21,11 +21,11 @@ To build a report and run queries, you must first complete the following steps t
 
 1.  In the **Home** tab on the **Power BI portal**, select **Get Data**.
 
-    ‎:::image type="content" source="../media/call-qualitydashboard-power-bi-connector-1.png" alt-text="Screenshot of the Power BI portal showing the Get Data option selected":::
+    ‎:::image type="content" source="../media/call-quality-dashboard-power-bi-connector-data.png" alt-text="Screenshot of the Power BI portal showing the Get Data option selected":::
 
 2.  The **Get Data** window that appears, select **Online Services**, select **Microsoft Call Quality (Beta)**, and then select **Connect**.
 
-    ‎:::image type="content" source="../media/call-qualitydashboard-power-bi-connector-2.png" alt-text="Screenshot of the Get Data window showing the Online Services tab and the Microsoft Call Quality option selected":::
+    ‎:::image type="content" source="../media/call-quality-dashboard-power-bi-connector-services.png" alt-text="Screenshot of the Get Data window showing the Online Services tab and the Microsoft Call Quality option selected":::
 
 3.  You'll then be prompted to sign in. Use the same credentials that you used to sign into the Call Quality Dashboard.
 
