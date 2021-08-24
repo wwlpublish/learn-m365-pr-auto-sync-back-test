@@ -2,7 +2,7 @@ Microsoft Teams includes apps that are provided by Microsoft or a third-party se
 
 In this module, you'll learn how to manage Microsoft Teams apps, configure app policies, and publish a custom app in Microsoft Teams.
 
-After this module, you will be able to:
+After this module, you will be able to: 
 
 - Describe apps, bots, and connectors in Microsoft Teams. 
 - Explore admin settings for Teams apps. 
