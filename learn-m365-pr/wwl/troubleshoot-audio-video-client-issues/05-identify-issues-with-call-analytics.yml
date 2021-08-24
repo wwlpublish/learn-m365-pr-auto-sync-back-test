@@ -1,0 +1,29 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.troubleshoot-audio-video-client-issues.identify-issues-call-analytics
+title: Identify issues with call analytics
+metadata:
+  title: Identify issues with call analytics
+  description: "Identify issues with call analytics"
+  ms.date: 08/24/2021
+  author: wwlpublish
+  ms.author: jennyche
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+durationInMinutes: 8
+content: |
+  [!include[](includes/05-identify-issues-with-call-analytics.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "As the Teams administrator for Lucerne Publishing, Patti Fernandez is investigating a recent call problem that occurred at the company. Upon investigation, Patti found that quality of experience data wasn't received for the audio session. What usually causes this situation?"
+    choices:
+    - content: "a device was not functioning correctly"
+      isCorrect: false
+      explanation: "That's incorrect. This item usually doesn't result in quality of experience data not being received. Try again."
+    - content: "the call was dropped"
+      isCorrect: true
+      explanation: "That's correct. Rarely is quality of experience data not received for audio sessions. When this situation does occur, it's usually the result of the call dropping and connection with the client ending."
+    - content: "the call setup failed"
+      isCorrect: false
+      explanation: "That's incorrect. This item usually doesn't result in quality of experience data not being received. Try again."

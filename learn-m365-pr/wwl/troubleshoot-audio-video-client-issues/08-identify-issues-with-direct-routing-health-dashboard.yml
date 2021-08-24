@@ -1,0 +1,29 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.troubleshoot-audio-video-client-issues.identify-issues-direct-routing-health-dashboard
+title: Identify issues with the Direct Routing Health Dashboard
+metadata:
+  title: Identify issues with the Direct Routing Health Dashboard
+  description: "Identify issues with the Direct Routing Health Dashboard"
+  ms.date: 08/24/2021
+  author: wwlpublish
+  ms.author: jennyche
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+durationInMinutes: 8
+content: |
+  [!include[](includes/08-identify-issues-with-direct-routing-health-dashboard.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "As the Teams administrator for Northwind Traders, Allan DeYoung is troubleshooting an issue the company is experiencing with dropped calls. Which of the following tools monitors the information that will enable Allan to resolve this issue?"
+    choices:
+    - content: "Direct Routing Health Dashboard"
+      isCorrect: true
+      explanation: "That's correct. The Direct Routing Health Dashboard enables an organization to monitor information about its SBC, the telephony service, and the network parameters between its SBC and the Direct Routing interface. This information can help identify issues, including the reason for dropped calls. For example, the SBC may stop sending calls if a certificate on the SBC has expired or if there are network issues."
+    - content: "SBC and private branch exchange (PBX) logs"
+      isCorrect: false
+      explanation: "That's incorrect. There's a different tool that provides information on the reason for dropped calls. Try again."
+    - content: "Public switched telephone network (PSTN) provider"
+      isCorrect: false
+      explanation: "That's incorrect. There's a different tool that provides information on the reason for dropped calls. Try again."
