@@ -23,15 +23,15 @@ As the Teams administrator for Contoso, you have created and applied a DLP polic
 
 Later, a user tried to send a social security number in a Microsoft Teams channel. The message was blocked and there is a help link **What can I do?**. This link will open a dialog box that provides options for the sender to resolve the issue.  
 
-:::image type="content" source="../media/dlp-policy-tip-teams.png" alt-text="Blocked message notification in Teams":::
+:::image type="content" source="../media/data-loss-prevention-policy-tip-teams.png" alt-text="Blocked message notification in Teams":::
 
 As an admin, you can choose to allow users to override a DLP policy in your organization. When you configure your DLP policies, you can use the default policy tips or customize policy tips. In the example below, the sender has the options to override the policy or notify an admin to review and resolve it.
 
-:::image type="content" source="../media/dlp-policy-tip-teams-actions.png" alt-text="Options to resolve blocked message":::
+:::image type="content" source="../media/data-loss-prevention-policy-tip-teams-actions.png" alt-text="Options to resolve blocked message":::
 
 The recipients are viewing different message on the screen, as shown below:
 
-:::image type="content" source="../media/dlp-policy-tip-teams-block.png" alt-text="Message blocked":::
+:::image type="content" source="../media/data-loss-prevention-policy-tip-teams-block.png" alt-text="Message blocked":::
 
 You may notice that the recipients are receiving information that the message was blocked due to sensitive content, and there is a link right next to the message: **What's this?** which will open an article about DLP policies, where the users can find an explanation why the message was blocked.
 
@@ -91,7 +91,7 @@ DLP policies can be managed in the Microsoft 365 compliance center, below **Data
 
 5. On the **Choose locations to apply the policy** page, choose the locations that you want the DLP policy to protect. DLP policies can contain Teams and non-Teams locations at the same time.
 
-	:::image type="content" source="../media/dlp-locations.png" alt-text="Location options in DLP":::
+	:::image type="content" source="../media/data-loss-prevention-locations.png" alt-text="Location options in DLP":::
 
 6. On the **Define policy settings page**, select one of the radio buttons and then select **Next**.
 	
@@ -111,7 +111,7 @@ DLP policies can be managed in the Microsoft 365 compliance center, below **Data
 	* Additional options
 
 
-	:::image type="content" source="../media/dlp-m365-action.png" alt-text="M365 Action options in DLP":::
+	:::image type="content" source="../media/data-loss-prevention-action.png" alt-text="M365 Action options in DLP":::
  
  	After configuring the desired settings, select **Next**.
 

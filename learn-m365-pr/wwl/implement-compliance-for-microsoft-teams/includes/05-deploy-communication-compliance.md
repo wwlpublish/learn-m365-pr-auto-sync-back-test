@@ -46,7 +46,7 @@ You look deeper into the issues detected as matching your communication complian
 
 After you have configured your policies and have received communication compliance alerts for Microsoft Teams messages, it's time for compliance reviewers in your organization to take action on these messages. Reviewers can help safeguard your organization by reviewing communication compliance alerts and removing flagged messages from view in Microsoft Teams. 
 
-:::image type="content" source="../media/communication-compliance-remove-teams-message.png" alt-text="Remove a message in Teams":::
+:::image type="content" source="../media/communication-compliance-remove-teams-message.png" alt-text="Remove a message in Teams" lightbox="../media/communication-compliance-remove-teams-message.png":::
 
 The actions to remediate communication compliance issues include:
 

@@ -70,8 +70,7 @@ To create a new alert policy in the Microsoft 365 compliance center and to check
 ‎Select **Next**.  ‎
 7. On the **Review your settings** page, you can review the alert settings and decide to turn on the policy right away or later. Select **Finish** when everything is configured as desired.
 
-
-:::image type="content" source="../media/create-alert-policy.png" alt-text="A screenshot of creating Alert policy":::
+    :::image type="content" source="../media/create-alert-policy.png" alt-text="A screenshot of creating Alert policy":::
 
 ## View alerts
 

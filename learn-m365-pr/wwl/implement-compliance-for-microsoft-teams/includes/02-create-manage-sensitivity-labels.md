@@ -53,7 +53,7 @@ Configure the **Privacy** and **External users access** settings.
 
 - **External user access**. Control whether the group owner can add guests to the group.
 
-    :::image type="content" source="../media/edit-sensitivity-label-site-group3.png" alt-text="Privacy and external user access settings":::
+    :::image type="content" source="../media/edit-sensitivity-label-site-group-privacy.png" alt-text="Privacy and external user access settings" lightbox="../media/edit-sensitivity-label-site-group-privacy.png":::
 
 ### Device external sharing and device access settings
 To configure the **Control external sharing from labeled SharePoint sites** and **Use Azure AD Conditional Access to protect labeled SharePoint sites** setting.
@@ -66,7 +66,7 @@ To configure the **Control external sharing from labeled SharePoint sites** and 
         
     - **Choose an existing authentication context**. Currently in preview, this option lets you enforce more stringent access conditions when users access SharePoint sites that have this label applied. These conditions are enforced when you select an existing authentication context that has been created and published for your organization's Conditional Access deployment. If users don't meet the configured conditions or if they use apps that don't support authentication contexts, they are denied access.
 
-        :::image type="content" source="../media/edit-sensitivity-label-site-group.png" alt-text="Device external sharing and device access settings":::
+        :::image type="content" source="../media/edit-sensitivity-label-site-group-sharing.png" alt-text="Device external sharing and device access settings" lightbox="../media/edit-sensitivity-label-site-group-sharing.png":::
 
 When you apply this sensitivity label to a supported container, the label automatically applies the classification and protection settings to the connected site or group. Content in these containers however, do not inherit the labels for the classification and settings such as visual markings, or encryption. 
 
@@ -128,7 +128,7 @@ The global admin can create and manage sensitivity labels from Microsoft 365 com
 
 5. Follow the prompts in the wizard for the label settings to complete the creation.
 
-    :::image type="content" source="../media/edit-sensitivity-label-site-group2.png" alt-text="The site and group settings tab":::
+    :::image type="content" source="../media/edit-sensitivity-label-site-group-define.png" alt-text="The site and group settings tab":::
 
 
    
