@@ -112,10 +112,10 @@ A segment is defined by certain directory attributes.
 To assign users to a segment, you use the cmdlet ```New-OrganizationSegment``` with the ```UserGroupFilter``` parameter:
 
 1. Open PowerShell and connect with the Security & Compliance Center PowerShell module to your tenant.  
-2. Run the following cmdlet and replace **segmentname** with a meaningful name and both **attribute** and **attributevalue** with the desired directory attribute to filter segment members for.
+2. Run the following cmdlet and replace **segment-name** with a meaningful name and both **attribute** and **attribute-value** with the desired directory attribute to filter segment members for.
 
 	```powershell
-	New-OrganizationSegment -Name "segmentname" -UserGroupFilter "attribute -eq 'attributevalue'"	
+	New-OrganizationSegment -Name "segment-name" -UserGroupFilter "attribute -eq 'attribute-value'"	
 	```  
 
 	For example, to define a segment named Sales, using the Department 	attribute, use this command:
