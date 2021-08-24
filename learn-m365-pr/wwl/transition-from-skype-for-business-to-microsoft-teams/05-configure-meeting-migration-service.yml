@@ -18,7 +18,7 @@ quiz:
   questions:
   - content: "When the Meeting Migration Service (MMS) is automatically triggered for a user, what's the first thing that occurs?"
     choices:
-    - content: "The MMS searches the user’s mailbox for all existing future meetings organized by that usr"
+    - content: "The MMS searches the user’s mailbox for all existing future meetings organized by that user"
       isCorrect: false
       explanation: "That's incorrect. This item isn't the first thing that occurs. This item is performed by the MMS after the first thing occurs. Try again."
     - content: "The MMS updates or schedules new meetings in Teams for that user, depending on the information found in the user’s mailbox"
