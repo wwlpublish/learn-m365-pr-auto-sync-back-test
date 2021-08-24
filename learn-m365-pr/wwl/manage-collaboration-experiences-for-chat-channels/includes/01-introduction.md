@@ -2,7 +2,7 @@ Microsoft Teams provides various different policies for managing collaboration b
 
 In this module, you will learn about the policies and settings to manage collaboration in teams.
 
-After this module, you will be able to:
+After this module, you will be able to: 
 
 - Manage the creation of private channels. 
 
