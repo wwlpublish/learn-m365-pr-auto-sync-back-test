@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: 'learn.wwl.implement-lifecycle-management-governance-for-microsoft-teams.plan-teams-lifecycle '
+title: Plan for lifecycle management
+metadata:
+  title: Plan for lifecycle management
+  description: "Plan for lifecycle management"
+  ms.date: 08/24/2021
+  author: wwlpublish
+  ms.author: jennyche
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+durationInMinutes: 7
+content: |
+  [!include[](includes/2-plan-teams-lifecycle.md)]
