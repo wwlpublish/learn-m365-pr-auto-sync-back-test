@@ -21,8 +21,8 @@ To create a custom persona in your network plan, do the following steps:
 
 1. Sign into **Microsoft Teams admin center.**
 2. Navigation to **Planning** > **Network Planner**.
-3. On the Network Planner page, select the **Personas** section, review the default personas, and then select **Add persona** if you’d like to add a custom persona.
-4. On the **Add persona** page, provide the persona name and description. Under the Permissions section, select from the following services: Audio, Video, Screen sharing, File sharing, Conference audio, Conference video, Conference screen sharing and PSTN.
+3. On the **Network Planner** page, select the **Personas** section, review the default personas, and then select **Add persona** if you’d like to add a custom persona.
+4. On the **Add persona** page, provide the persona name and description. Under the Permissions section, select from the following services: Audio, Video, Screen sharing, File sharing, Conference audio, Conference video, Conference screen sharing, and PSTN.
 5. Select **Apply**.
 
 :::image type="content" source="../media/network-planner-add-persona.png" alt-text="A screenshot of creating custom personas":::
@@ -37,7 +37,7 @@ To build your network plan, do the following steps:
 4. On the **Network Plan name** page, enter the name for the network plan (for example **NY Teams network plan**), a description, and select **Apply**.
 5. The newly created network plan will appear under the **Network Plans** section. Select the plan you created.
 6. On the plan page, for example **NY Teams network plan**, under **Network Sites** section, select **Add a network site.** 
-7. On the **Add a network site** page, enter the following information and then select **Save**.
+7. On the **Add a network site** page, enter the following information, and then select **Save**.
 
 	- Name of the network site
 	- Network site address
@@ -64,5 +64,5 @@ To create a report based on your network plan, do the following steps:
 
 6. Select **Generate report**.
 
-7. On the report page, review the report including Type of service, and required bandwidth for different services, such as Audio, Video, Screenshare, Office 365 server traffic and PSTN.
+7. On the **report** page, review the report including Type of service and required bandwidth for different services, such as Audio, Video, Screen share, Office 365 server traffic, and PSTN.
 :::image type="content" source="../media/network-planner-report-output.png" alt-text="A screenshot to run the report of network planner":::

@@ -8,7 +8,7 @@ The network insights in the Microsoft 365 Admin Center are based on regular in-p
 
 The network insights from the Microsoft 365 network connectivity test are run locally and one time in the tool.
 
-1. From the desired machine, browse to the Microsoft 365 network connectivity test tool [(https://connectivity.office.com)]([https://connectivity.office.com?azure-portal=true). 
+1. From the desired machine, browse to the [Microsoft 365 network connectivity test tool](https://connectivity.office.com?azure-portal=true). 
 
 2. Sign in to your Microsoft 365 tenant. 
     
