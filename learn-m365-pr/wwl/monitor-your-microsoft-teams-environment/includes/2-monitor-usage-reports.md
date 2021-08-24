@@ -57,7 +57,7 @@ Go to the Microsoft Teams admin center, in the left navigation, select **Analyti
  
 You can export the report to a CSV file for offline analysis. Select **Export to Excel**, and then on the **Downloads** tab, select **Download** to download the report when it's ready.
 
-‎:::image type="content" source="../media/microsoft-teams-usagereports-download.png" alt-text="Microsoft Teams usage reports download" lightbox="../media/microsoft-teams-usagereports-download.png":::
+‎:::image type="content" source="../media/microsoft-teams-usage-reports-download.png" alt-text="Microsoft Teams usage reports download" lightbox="../media/microsoft-teams-usage-reports-download.png":::
 
 For more information, see [Teams analytics and reporting](/microsoftteams/teams-analytics-and-reports/teams-reporting-reference).
 

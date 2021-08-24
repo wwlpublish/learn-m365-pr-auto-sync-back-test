@@ -1,6 +1,6 @@
 The Microsoft 365 network connectivity dashboard provides you a quick overview of your enterprise network perimeter health. You can instantly get a sense of the enterprise's network health and quickly drill down into a detailed report for any global office location.
 
-‎:::image type="content" source="../media/microsoft-365-mac-admin-center.png" alt-text="The network performance overview page":::
+‎:::image type="content" source="../media/microsoft-365-mac-admin-center.png" alt-text="The network performance overview page" lightbox="../media/microsoft-365-mac-admin-center.png":::
 
 ## Required roles
 
@@ -39,7 +39,7 @@ You can access the network connectivity dashboard from the **Microsoft 365 admin
 
     You can select an office location to open a location-specific summary page. The page shows the details of the network egress that has been identified from measurements for that office location. The details tab on the office location page shows the specific measurement results that were used to come up with any insights, recommendations, and the network assessment. 
 
-    ‎:::image type="content" source="../media/microsoft-365-location-network-assessments.png" alt-text="Office location network assessments":::
+    ‎:::image type="content" source="../media/microsoft-365-location-network-assessments.png" alt-text="Office location network assessments" lightbox="../media/microsoft-365-location-network-assessments.png":::
 
 Each network assessment shows a network assessment panel with details about the assessment. This panel shows a bar chart of the assessment both as a percentage and as the total points for each component workload including only workloads where measurement data was received. 
 

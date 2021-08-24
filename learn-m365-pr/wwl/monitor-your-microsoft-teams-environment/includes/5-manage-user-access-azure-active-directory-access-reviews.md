@@ -132,7 +132,7 @@ You can start the Access Review process from the notification email or by going 
 * You can approve or deny access for one or more users 'manually' by choosing the appropriate action for each user request.
 * You can accept the system recommendations.
 
-	‎:::image type="content" source="../media/perform-access-review.png" alt-text="Open access review listing the users to review":::
+	‎:::image type="content" source="../media/perform-access-review.png" alt-text="Open access review listing the users to review" lightbox="../media/perform-access-review.png":::
 
 
 
