@@ -68,7 +68,7 @@ The following settings in Safe Links policies apply to links in Teams:
 The following table shows the recommended settings for two  security levels: **Standard** and **Strict**.
 
 | Protection settings | Default | Standard | Strict |
-|:|::|::|::|
+|||||
 |Wait for URL scanning to complete before delivering the message  |Not selected  |Selected  |Selected  |
 |Do not track user clicks  |Not selected  |Not selected  |Not selected  |
 |Do not let users click through to the original URL  |Not selected  |Selected  |Selected  |
