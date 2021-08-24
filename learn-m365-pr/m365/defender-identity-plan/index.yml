@@ -18,7 +18,7 @@ abstract: |
   -	Understand the setup process for Microsoft Defender for Identity.
 prerequisites: | 
   - None
-iconUrl: /learn/achievements/generic-badge.svg
+iconUrl: /learn/achievements/m365-defender-plan-deploy-identity.svg
 levels: 
   - beginner
 roles: 
