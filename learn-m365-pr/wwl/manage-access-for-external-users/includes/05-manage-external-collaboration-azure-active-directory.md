@@ -40,7 +40,7 @@ In Azure AD, the settings for invitations control the guest experience at the di
 
 7. Under **Collaboration restrictions**, you can choose whether to allow or deny invitations to the domains you specify and enter specific domain names in the text boxes. For multiple domains, enter each domain on a new line. 
 
-	:::image type="content" source="../media/azure-ad-collaboration-settings.png" alt-text="External collaboration settings in AAD":::
+	:::image type="content" source="../media/external-collaboration-settings.png" alt-text="External collaboration settings in AAD" lightbox="../media/azure-ad-collaboration-settings.png":::
 
 
 

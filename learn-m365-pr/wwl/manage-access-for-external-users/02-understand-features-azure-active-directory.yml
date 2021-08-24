@@ -16,7 +16,7 @@ content: |
 quiz:
   title: "Check your knowledge"
   questions:
-  - content: "Which feature of Azure Active Directory manages, controls, and monitors access within your organization? This feature includes access to resources in Azure AD and Azure, and other Microsoft Online Services, like Microsoft 365 and Intune."
+  - content: "Azure Active Directory includes a feature that provides access to resources in Azure, Azure AD, and other Microsoft Online Services, like Microsoft 365 and Intune. This feature enables administrators to manage, control, and monitor access within their organizations. What is the name of this Azure Active Directory feature?"
     choices:
     - content: "Identity governance"
       isCorrect: false

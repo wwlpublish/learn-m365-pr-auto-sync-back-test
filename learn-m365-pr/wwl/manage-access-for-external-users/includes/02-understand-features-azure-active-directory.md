@@ -2,7 +2,7 @@ Azure Active Directory (Azure AD) is the cloud-based identity and access managem
 
 You can use Azure AD to control access to your apps and your app resources, based on your business requirements. For example, you can use Azure AD to require multifactor authentication when accessing important organizational resources. Additionally, you can use Azure AD to automate user provisioning between your existing Windows Server AD and your cloud apps, including Microsoft 365. Finally, Azure AD gives you powerful tools to automatically help protect user identities and credentials and to meet your access governance requirements. 
 
-:::image type="content" source="../media/aad.png" alt-text="sign in page and AAD icon":::
+:::image type="content" source="../media/azure-active-directory.png" alt-text="sign in page and AAD icon":::
 
 ## Features in Azure AD
 |Category|Description|

@@ -25,7 +25,7 @@ These capabilities include:
 > [!NOTE]
 > You can invite people outside your organization to Teams meetings without configuring external or guest access.
 
-## External Access
+## External access
 With external access, you can find, call, chat, and set up meetings with users from an entire external domain. You can also use external access to communicate with people from other organizations who are still using Skype for Business (online and on-premises) and Skype (in preview). A (External) label appears next to the name of the external (federated) user in Teams client.
 
 Use external access when:  ‎
@@ -38,10 +38,10 @@ Use external access when:  ‎
 
 * You want anyone else to find and contact you, using your email address in Teams.
 
-:::image type="content" source="../media/externa-access.png" alt-text="A type of federation that allows users to find, call, and chat with people in other organizations":::
+:::image type="content" source="../media/external-access.png" alt-text="A type of federation that allows users to find, call, and chat with people in other organizations":::
 
 
-## Guest Access
+## Guest access
 With guest access, you can chat or invite people outside your organization to teams or channels. 
 
 Guest access in Teams uses the feature of 

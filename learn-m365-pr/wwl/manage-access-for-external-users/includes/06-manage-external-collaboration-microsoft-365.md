@@ -1,10 +1,8 @@
 The Microsoft 365 admin center has organization-level settings for sharing and for Microsoft 365 Groups.
 
-
 ## External sharing settings in Microsoft 365
 
-
-**Navigation:** [Microsoft 365 admin center](https://admin.microsoft.com?azure-portal=true)> Settings > Org Settings > Security & privacy tab > Sharing
+**Navigation**: [Microsoft 365 admin center](https://admin.microsoft.com?azure-portal=true)> Settings > Org Settings > Security & privacy tab > Sharing
 
 :::image type="content" source="../media/sharepoint-security-privacy-sharing-setting.png" alt-text="Screenshot of the security and privacy guest sharing setting in the  Microsoft 365 admin center":::
 
@@ -12,11 +10,9 @@ The Microsoft 365 admin center has organization-level settings for sharing and f
 |:-----|:-----|:-----|
 |Let users add new guests to the organization|On|When set to **Yes**, Azure AD members can invite guests via Azure AD; when set to **No**, they cannot. When set to **Yes**, Microsoft 365 Group members can invite guests with owner approval; when set to **No**, Microsoft 365 Group members can invite guests with owner approval but owners must be global administrators to approve. <br><br>Note that **Members can invite** refers to members in Azure AD (as opposed to guests) and not to site or group members in  Microsoft 365. <br><br>This is identical to the **Members can invite** setting in Azure Active Directory Organizational relationships settings.|
 
-
-
 ## Microsoft 365 Groups settings
 
-**Navigation:** [Microsoft 365 admin center](https://admin.microsoft.com?azure-portal=true)> Settings > Settings > Microsoft 365 Groups
+**Navigation**: [Microsoft 365 admin center](https://admin.microsoft.com?azure-portal=true)> Settings > Settings > Microsoft 365 Groups
 
 :::image type="content" source="../media/office-365-groups-guest-settings.png" alt-text="Screenshot of Microsoft 365 Groups guest settings in  Microsoft 365 admin center":::
 
