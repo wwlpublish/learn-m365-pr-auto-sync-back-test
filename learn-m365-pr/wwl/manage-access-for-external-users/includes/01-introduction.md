@@ -1,4 +1,3 @@
-
 Microsoft Teams allows collaboration beyond the borders of your own organization and tenant. 
 
 You can chat, call, and share content with users outside of your organization and allow your users to invite guests of their choice to Teams they own.
