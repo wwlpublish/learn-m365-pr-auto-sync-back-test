@@ -2,7 +2,7 @@
 
 Network Planner is designed to assist the admin to determine and organize network requirements for connecting Microsoft Teams users across the whole organization. You can access the tool by going to **Microsoft Teams admin center** > **Planning** > **Network planner**. After providing network details and Teams usage, the Network Planner calculates the network requirements for deploying Teams and cloud voice across the organization’s physical locations.
 
-:::image type="content" source="../media/network-planner.png" alt-text="Network planner":::
+:::image type="content" source="../media/network-planner.png" alt-text="Network planner" lightbox="../media/network-planner.png":::
 
 With Network Planner you can:
 
@@ -25,7 +25,7 @@ To create a custom persona in your network plan, do the following steps:
 4. On the **Add persona** page, provide the persona name and description. Under the Permissions section, select from the following services: Audio, Video, Screen sharing, File sharing, Conference audio, Conference video, Conference screen sharing, and PSTN.
 5. Select **Apply**.
 
-:::image type="content" source="../media/network-planner-add-persona.png" alt-text="A screenshot of creating custom personas":::
+:::image type="content" source="../media/network-planner-add-persona.png" alt-text="A screenshot of creating custom personas" lightbox="../media/network-planner-add-persona.png":::
 
 ## Build your plan
 
@@ -65,4 +65,4 @@ To create a report based on your network plan, do the following steps:
 6. Select **Generate report**.
 
 7. On the **report** page, review the report including Type of service and required bandwidth for different services, such as Audio, Video, Screen share, Office 365 server traffic, and PSTN.
-:::image type="content" source="../media/network-planner-report-output.png" alt-text="A screenshot to run the report of network planner":::
+:::image type="content" source="../media/network-planner-report-output.png" alt-text="A screenshot to run the report of network planner" lightbox="../media/network-planner-report-output.png":::
