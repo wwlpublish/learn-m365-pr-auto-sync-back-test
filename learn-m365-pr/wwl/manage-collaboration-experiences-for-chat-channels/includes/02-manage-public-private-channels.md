@@ -147,7 +147,7 @@ Get-Team -DisplayName "CxO Team" | New-TeamChannel –MembershipType Private –
 
 ## Restore a deleted channel
 
-When a channel is deleted accidently or by purpose, it can be recovered within 30 days. This must be done by a team owner of the team that contained the deleted channel via the Teams client.
+When a channel is deleted accidentally or by purpose, it can be recovered within 30 days. This must be done by a team owner of the team that contained the deleted channel via the Teams client.
 
 To recover a deleted channel in the Teams client, follow these steps:
 

@@ -25,7 +25,7 @@ To create a new Teams policy, you'll do the following steps:
 
 4. Select **Save**.
 
-    :::image type="content" source="../media/teams-policy-user.png" alt-text="Screenshot of managing users of Teams policies":::
+    :::image type="content" source="../media/teams-policy-user.png" alt-text="Screenshot of managing users of Teams policies" lightbox="../media/teams-policy-user.png":::
 
 
 You can then assign the policy directly to users, either individually or at scale through a batch assignment, or to a group that the users are members of. You can also edit the global policy or any custom policies that you create.
@@ -63,7 +63,7 @@ To restrict team members from creating private channels, a team owner must open 
 
 By doing these steps, you will restrict private channel creation to team owners only.
 
-:::image type="content" source="../media/team-private-channel-creation-restriction.png" alt-text="Screenshot of managing member permissions":::
+:::image type="content" source="../media/team-private-channel-creation-restriction.png" alt-text="Screenshot of managing member permissions" lightbox="../media/team-private-channel-creation-restriction.png":::
 
 
 ## Knowledge check
