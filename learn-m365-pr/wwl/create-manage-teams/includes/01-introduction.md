@@ -5,17 +5,11 @@ In this module, you will learn about how to create teams with different approach
  
 After this module, you will be able to: 
 
-- Create new teams
-
-- Create teams from existing resources
-
-- Create an org-wide team
-
-- Manage teams
-
-- Manage users in a team
-
-- Configure dynamic membership for teams
-
-- Archive, restore from archive, delete, and restore deleted teams
+- Create new teams.
+- Create teams from existing resources.
+- Create an org-wide team.
+- Manage teams.
+- Manage users in a team.
+- Configure dynamic membership for teams.
+- Archive, restore from archive, delete, and restore deleted teams.
  

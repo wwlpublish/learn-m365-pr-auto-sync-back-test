@@ -4,7 +4,7 @@ As an admin, you may need to view or update the teams that your organization set
 
 Management tools for teams are available under the **Teams** node in the Microsoft Teams admin center. (In the admin center, select **Teams** > **Manage teams**.) Each team is backed by a Microsoft 365 Group, and this node provides a view of groups that have been Microsoft Teams-enabled in your organization.
 
-:::image type="content" source="../media/teams-overview-grid.png" alt-text="Screen shot of the Teams overview grid":::
+:::image type="content" source="../media/teams-overview-grid.png" alt-text="Screen shot of the Teams overview grid" lightbox="../media/teams-overview-grid.png":::
  
 
 The grid displays the following properties:

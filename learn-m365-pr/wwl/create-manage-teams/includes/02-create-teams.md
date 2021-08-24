@@ -10,10 +10,8 @@ By default, all users can create teams using the Teams client and invite members
 You can use Teams admin center to create a team from scratch.
 
 1. In Teams admin center on the left pane select **Teams**, and then select **Manage teams**.
-
 2. On Manage teams pane, select **Add**.  
-‎
-3. In **Add a new team** window, define the followings:
+‎3. In **Add a new team** window, define the followings:
 
 	- Team Name
 	- Description
@@ -21,7 +19,6 @@ You can use Teams admin center to create a team from scratch.
 	- Privacy
 
 		- **Public** – A team where everybody can join
-
 		- **Private** – A team where you need an invitation.
 
 4. Select **Apply**.

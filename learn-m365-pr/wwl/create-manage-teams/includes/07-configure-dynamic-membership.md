@@ -11,9 +11,7 @@ Using this feature, a given team's members update automatically based on a speci
 > [!NOTE]
 > Using dynamic groups requires Azure AD Premium P1 licenses for any users in scope. 
  
-It may take anywhere from a few minutes to up to hours to reflect dynamic membership changes once they take effect in the Microsoft 365 Group for a team.
- 
-For dynamic group membership in teams, you must consider the following:  
+It may take anywhere from a few minutes to up to hours to reflect dynamic membership changes once they take effect in the Microsoft 365 Group for a team. For dynamic group membership in teams, you must consider the following:  
 ‎
 - Rules can define who is a team member of a team, but not who is a team owner.
 - Owners won't be able to add or remove users as members of the team, since members are defined by dynamic group rules.  
