@@ -16,7 +16,7 @@ content: |
 quiz:
   title: "Check your knowledge"
   questions:
-  - content: "As the Teams administrator for Northwind Traders, Allan DeYoung wants to determine and organize network requirements for connecting Microsoft Teams users across the entire organization. Allan is especially excited about creating representations of Northwind Traders using sites and Microsoft recommended personas. Which of the following tools will assist Allan in this project."
+  - content: "As the Teams administrator for Northwind Traders, Allan DeYoung wants to determine and organize network requirements for connecting Microsoft Teams users across the entire organization. Allan is especially excited about creating representations of Northwind Traders using sites and Microsoft recommended personas. Which of the following tools will enable Allan to meet these goals?"
     choices:
     - content: "Microsoft 365 connectivity test"
       isCorrect: false

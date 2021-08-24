@@ -2,7 +2,7 @@ Call Quality Dashboard (CQD) gives you a network-wide view of call quality acros
 
 For example, you can include different building locations or endpoint-specific views such as wired or Wi-Fi connected devices. The data can be assessed to determine if the problem is isolated to a single user or affects a larger segment of users.
 
-:::image type="content" source="../media/cqd-location-enhanced-reports.png" alt-text="CQD Location Enhanced Reports":::
+:::image type="content" source="../media/location-enhanced-reports.png" alt-text="CQD Location Enhanced Reports":::
 
 To turn on building or endpoint-specific views in CQD, an admin must upload building or endpoint information on the CQD Tenant Data Upload page.
 

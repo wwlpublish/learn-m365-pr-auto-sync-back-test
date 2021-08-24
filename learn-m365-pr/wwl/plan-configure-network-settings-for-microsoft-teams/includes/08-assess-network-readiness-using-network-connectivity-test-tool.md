@@ -18,7 +18,7 @@ The network insights from the Microsoft 365 network connectivity test are run lo
 
     You can type in your location by city, state, and country or you can have it detected from the web browser. When you select the run test button, we show the running test page and identify the office location. 
 
-    :::image type="content" source="../media/m365-mac-perf-test-tool-page.png" alt-text="Connectivity test tool":::
+    :::image type="content" source="../media/network-connectivity-run-test-page.png" alt-text="Connectivity test tool":::
 
 4. Download the advanced tests client application.
 
@@ -39,7 +39,7 @@ The results are shown in the **Summary** and **Details** tabs.
 ### Summary 
 The summary tab shows a map of the detected network perimeter and a comparison of the network assessment to other Office 365 customers nearby. It also allows for sharing of the test report. Here's what the summary results view looks like:
 
-:::image type="content" source="../media/m365-mac-perf-summary-page.png" alt-text="Network connectivity test tool summary results":::
+:::image type="content" source="../media/network-connectivity-test-results-summary.png" alt-text="Network connectivity test tool summary results":::
 
 ### Detailed report 
 
@@ -68,7 +68,7 @@ For Microsoft Teams, the test results include:
 
 * **Jitter**. Shows the measured UDP jitter, which should be lower than **30ms**.
 
-    :::image type="content" source="../media/m365-mac-perf-all-details.png" alt-text="Network connectivity test tool example test results for Teams":::
+    :::image type="content" source="../media/network-connectivity-detail-view.png" alt-text="Network connectivity test tool example test results for Teams":::
 
 ## Share network connectivity test results
 
@@ -78,7 +78,7 @@ You can share with others by selecting on of the sharing options in the **Share*
 
 * **Copy link**. Sharing with anyone using a ReportID link.
 
-    :::image type="content" source="../media/m365-mac-perf-share-link.png" alt-text="Sharing a link to your test results":::
+    :::image type="content" source="../media/network-connectivity-test-results-page.png" alt-text="Sharing a link to your test results":::
 
 This sharing is enabled by default and can be disabled by administrator from **the Microsoft 365 Admin Center** > **Health** > **Network Connectivity** >  **Settings** > **Sharing and user-submitted reports**.
 

@@ -48,7 +48,7 @@ This table below is an example, which you can follow in order to create your dat
 
 Once the file is uploaded successfully, you can see the update in the locations summary pane. 
 
-:::image type="content" source="../media/config-reporting-labels.png" alt-text="Configuration of reporting labels":::
+:::image type="content" source="../media/configure-reporting-labels.png" alt-text="Configuration of reporting labels":::
 
  
 
