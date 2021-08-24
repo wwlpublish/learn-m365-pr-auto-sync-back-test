@@ -75,7 +75,7 @@ The key benefits of enabling Access Reviews are:
 
 9. Select the **Next: Settings** button at the bottom of the page.
 
-10. In the Upon completion settings,** you can specify what happens after the review completes.
+10. In the Upon completion settings, you can specify what happens after the review completes.
 
     If you want to automatically remove access for denied users, set Auto apply results to resource to Enable. If you want to manually apply the results when the review completes, set the switch to Disable.
     

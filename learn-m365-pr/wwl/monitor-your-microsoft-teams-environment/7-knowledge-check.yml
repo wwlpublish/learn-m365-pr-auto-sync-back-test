@@ -37,7 +37,7 @@ quiz:
       explanation: "That's incorrect. Microsoft 365 network connectivity test tool is an advanced client-based test tool. Try again."
     - content: "Microsoft 365 network connectivity dashboard"
       isCorrect: true
-      explanation: "That's Microsoft 365 network connectivity dashboard provides an overview of network assessments for all office locations. Explanation."
+      explanation: "That's correct. Microsoft 365 network connectivity dashboard provides an overview of network assessments for all office locations. Explanation."
   - content: "Andrew is the Teams Administrator in Contoso Ltd. Andrew wants to know if people use Microsoft Teams on more than one platform. The platforms include Teams desktop, mobile, and web clients. Which of the following reports should Andrew use?"
     choices:
     - content: "Teams device usage report"
