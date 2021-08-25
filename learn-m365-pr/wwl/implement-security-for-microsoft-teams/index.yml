@@ -1,0 +1,41 @@
+### YamlMime:Module
+uid: learn.wwl.implement-security-for-microsoft-teams
+metadata:
+  title: Implement security for Microsoft Teams
+  description: "Implement security for Microsoft Teams"
+  ms.date: 08/25/2021
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Implement security for Microsoft Teams
+summary: Learn about different security capabilities for Microsoft Teams, including conditional access, multifactor authentication, Safe Attachments, Safe Links, and Cloud App Security.
+abstract: |
+  By the end of this module, you will be able to:
+  - Configure Conditional Access and multifactor authentication for Microsoft Teams.
+  - Configure Safe Attachments for Microsoft Teams.
+  - Configure Safe Links for Microsoft Teams.
+  - Examine the Cloud App Security.
+  - Describe security reports for Microsoft Teams.
+prerequisites: |
+  - A proficient understanding of basic functional experience with Microsoft 365 services.
+  - A proficient understanding of general IT practices, including using PowerShell.
+iconUrl: /learn/achievements/generic-badge.svg
+levels:
+- intermediate
+roles:
+- administrator
+products:
+- m365
+- office-teams
+units:
+- learn.wwl.implement-security-for-microsoft-teams.introduction
+- learn.wwl.implement-security-for-microsoft-teams.configure-conditional-access-multifactor-authentication
+- learn.wwl.implement-security-for-microsoft-teams.configure-safe-attachments
+- learn.wwl.implement-security-for-microsoft-teams.configure-safe-links
+- learn.wwl.implement-security-for-microsoft-teams.examine-cloud-app-security
+- learn.wwl.implement-security-for-microsoft-teams.monitor-security-reports
+- learn.wwl.implement-security-for-microsoft-teams.knowledge-check
+- learn.wwl.implement-security-for-microsoft-teams.summary
+badge:
+  uid: learn.wwl.implement-security-for-microsoft-teams.badge
