@@ -11,7 +11,7 @@ You can use Teams admin center to create a team from scratch.
 
 1. In Teams admin center on the left pane select **Teams**, and then select **Manage teams**.
 2. On Manage teams pane, select **Add**.  
-‎3. In **Add a new team** window, define the followings:
+3. In **Add a new team** window, define the followings:
 
 	- Team Name
 	- Description

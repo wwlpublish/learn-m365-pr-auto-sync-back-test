@@ -33,7 +33,7 @@ To create a team from a Microsoft 365 group in the Microsoft 365 admin center, f
 
 5. Select **Create a team** in the **Microsoft Teams** tab.  
 
-    ‎:::image type="content" source="../media/microsoft-365-create-a-team.png" alt-text="Create a team from Group selection in M365 admin center.":::  
+    ‎:::image type="content" source="../media/microsoft-365-create-a-team.png" alt-text="Create a team from Group selection in Microsoft 365 admin center.":::  
 
 6. In the **Add Microsoft Team to this group?** prompt select **Create a team** to confirm that you want to upgrade your existing group to a team.
 
