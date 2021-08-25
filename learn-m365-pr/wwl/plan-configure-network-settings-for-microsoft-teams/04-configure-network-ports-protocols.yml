@@ -1,0 +1,29 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.plan-configure-network-settings-for-microsoft-teams.configure-network-ports-protocols
+title: Configure network ports and protocols for Microsoft Teams
+metadata:
+  title: Configure network ports and protocols for Microsoft Teams
+  description: "Configure network ports and protocols for Microsoft Teams"
+  ms.date: 08/25/2021
+  author: wwlpublish
+  ms.author: jennyche
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+durationInMinutes: 6
+content: |
+  [!include[](includes/04-configure-network-ports-protocols.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "As the Team administrator for Fabrikam, Holly Spencer wants to optimize the performance of the company's Microsoft 365 cloud-based services. Which of the following items will help Holly achieve this goal?"
+    choices:
+    - content: "Open TCP ports 80 and 443"
+      isCorrect: true
+      explanation: "That's correct. When bandwidth is insufficient, Teams prioritizes audio quality over video quality."
+    - content: "Use the Office 365 IP Address and URL Web Service to get change notification"
+      isCorrect: false
+      explanation: "That's incorrect. This item is a recommended task to improve change management, but doesn't optimize the performance of the company's Microsoft 365 cloud-based services. Try again."
+    - content: "Open UDP ports 80 through 443"
+      isCorrect: false
+      explanation: "That's incorrect. Fabrikam should open UDP ports 3478 through 3481. Try again."
