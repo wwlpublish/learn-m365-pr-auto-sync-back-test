@@ -20,7 +20,7 @@ abstract: |
 prerequisites: |
   - Basic familiarity with Microsoft Defender for Endpoint
   - Basic familiarity with Power BI
-iconUrl: /learn/achievements/generic-badge.svg
+iconUrl: /learn/achievements/m365-defender-endpoint-insights-reporting.svg
 levels:
   - beginner
 roles:
