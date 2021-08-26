@@ -2,7 +2,6 @@ Microsoft has secured cloud-based identities for more than a decade. By implemen
 
 You learned in this module that most security breaches take place when attackers gain access to an environment by stealing a user’s identity. Attackers have become increasingly effective in using third-party breaches and sophisticated phishing attacks. As soon as attackers gain access to even low privileged user accounts, it’s relatively easy for them to gain access to important company resources through lateral movement.
 
-Discovering compromised identities is no easy task. This module explored how Azure Active Directory uses adaptive machine learning algorithms and heuristics to detect anomalies and suspicious incidents that indicate potentially compromised identities. Azure Identity Protection uses this data to generate reports and alerts that enable you to evaluate the detected issues and take appropriate mitigation or remediation actions.
-
+Discovering compromised identities is no easy task. This module explored how Azure Active Directory uses adaptive machine learning algorithms and heuristics to detect anomalies and suspicious incidents that indicate potentially compromised identities. Azure Identity Protection uses this data to generate reports and alerts that enable you to evaluate the detected issues and take appropriate mitigation or remediation actions.<br>
 
 You learned in this module how to enable Azure Identity Protection and how it identifies vulnerabilities and risk events. You also learned that organizations should plan their investigation in protecting cloud-based identities and how to protect their Azure Active Directory environment from security breaches.
