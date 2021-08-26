@@ -1,0 +1,31 @@
+### YamlMime:LearningPath
+uid: learn.wwl.prepare-environment-for-microsoft-teams-deployment
+metadata:
+  title: Prepare the environment for a Microsoft Teams deployment
+  description: Prepare the environment for a Microsoft Teams deployment
+  ms.date: 08/26/2021
+  author: wwlpublish
+  ms.author: jennyche
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Prepare the environment for a Microsoft Teams deployment
+prerequisites: |
+  None
+summary: |
+  Learn about the environment for a Teams deployment, including configuring access for external users, implementing security and compliance for Teams, the transition process to Microsoft Teams, and network requirements.
+iconUrl: /learn/achievements/generic-trophy.svg
+levels:
+- intermediate
+roles:
+- administrator
+products:
+- m365
+- office-teams
+modules:
+- learn.wwl.manage-access-for-external-users
+- learn.wwl.implement-security-for-microsoft-teams
+- learn.wwl.implement-compliance-for-microsoft-teams
+- learn.wwl.transition-from-skype-for-business-to-microsoft-teams
+- learn.wwl.plan-configure-network-settings-for-microsoft-teams
+trophy:
+  uid: learn.wwl.prepare-environment-for-microsoft-teams-deployment.trophy
