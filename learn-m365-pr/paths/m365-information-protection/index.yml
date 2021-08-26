@@ -5,7 +5,7 @@ metadata:
   description: "Protecting and securing your organization's information is more challenging than ever. The **Protect enterprise information with Microsoft 365** learning path discusses how to protect your sensitive information from accidental oversharing or misuse, how to discover and classify data, how to protect it with sensitivity labels, and how to both monitor and analyze your sensitive information to protect against its loss."
   ms.date: 11/13/2019
   author: puffinanda
-  ms.author: v-jolev
+  ms.author: beccarobins
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Protect enterprise information with Microsoft 365
