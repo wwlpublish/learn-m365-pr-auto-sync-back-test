@@ -19,7 +19,7 @@ Address book policies provide only a virtual separation of users from directory 
 2. Navigate to **Org-wide settings** > **Teams settings**.
 3. Scroll down to **Search by name** and turn the slider behind **Scope directory search using an Exchange address book policy** to **On**.
 
-:::image type="content" source="../media/scoped-directory-search.png" alt-text="Scoped Directory Search":::
+    :::image type="content" source="../media/scoped-directory-search.png" alt-text="Scoped Directory Search":::
 
 This change can take a few hours to replicate. 
 

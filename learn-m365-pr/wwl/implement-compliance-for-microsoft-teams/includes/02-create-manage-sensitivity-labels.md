@@ -153,7 +153,8 @@ A team owner can change the sensitivity label and the privacy setting of the tea
 :::image type="content" source="../media/sensitivity-labels-edit-team.png" alt-text="Screenshot of Edit My Team channel page":::
 
 
-**Note**. Microsoft 365 no longer supports the old classifications for new Microsoft 365 groups and SharePoint sites after you enable sensitivity labels for containers. However, existing groups and sites that support sensitivity labels still display the old classification values until you convert them to use sensitivity labels. For more information, see [Azure Active Directory classification and sensitivity labels for Microsoft 365 groups](/microsoft-365/compliance/migrate-aad-classification-sensitivity-labels).
+> [!NOTE]
+> Microsoft 365 no longer supports the old classifications for new Microsoft 365 groups and SharePoint sites after you enable sensitivity labels for containers. However, existing groups and sites that support sensitivity labels still display the old classification values until you convert them to use sensitivity labels. For more information, see [Azure Active Directory classification and sensitivity labels for Microsoft 365 groups](/microsoft-365/compliance/migrate-aad-classification-sensitivity-labels).
 
 For more information, see
 

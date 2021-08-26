@@ -150,6 +150,6 @@ For additional information, see
 
 * [eDiscovery cases in the Microsoft 365 compliance center](/microsoft-365/compliance/ediscovery-cases)
 
-* [Office 365 Data Subject Requests for the GDPR and CCPA](/compliance/regulatory/gdpr-dsr-Office365)
+
 
  
