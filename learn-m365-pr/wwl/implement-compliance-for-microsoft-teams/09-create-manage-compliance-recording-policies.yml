@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.implement-compliance-for-microsoft-teams.create-manage-compliance-recording-policies
+title: Create and manage compliance recording policies
+metadata:
+  title: Create and manage compliance recording policies
+  description: "Create and manage compliance recording policies"
+  ms.date: 08/26/2021
+  author: wwlpublish
+  ms.author: jennyche
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+durationInMinutes: 6
+content: |
+  [!include[](includes/09-create-manage-compliance-recording-policies.md)]

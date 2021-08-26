@@ -1,0 +1,49 @@
+### YamlMime:Module
+uid: learn.wwl.implement-compliance-for-microsoft-teams
+metadata:
+  title: Implement compliance for Microsoft Teams
+  description: "Implement compliance for Microsoft Teams"
+  ms.date: 08/26/2021
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Implement compliance for Microsoft Teams
+summary: Learn about different compliance capabilities for Microsoft Teams, including sensitivity labels, retention policies, DLP policies, communication compliance, information barrier policy, and eDiscovery.
+abstract: |
+  By the end of this module, you will be able to:
+  - Describe how sensitivity labels work and how to configure them.
+  - Describe how to create retention policies.
+  - Generate Data Loss Prevention policies to protect against data leakage.
+  - Deploy communication compliance for reviewing communication.
+  - Activate the scoped directory search in Teams.
+  - Describe how information barrier policies work and how to create them.
+  - Create and manage eDiscovery cases and supervision policies.
+  - Create and manage compliance recording policies.
+  - Configure alert policies for events in Microsoft Teams.
+prerequisites: |
+  - A proficient understanding of basic functional experience with Microsoft 365 services.
+  - A proficient understanding of general IT practices, including using PowerShell.
+iconUrl: /learn/achievements/generic-badge.svg
+levels:
+- intermediate
+roles:
+- administrator
+products:
+- m365
+- office-teams
+units:
+- learn.wwl.implement-compliance-for-microsoft-teams.introduction
+- learn.wwl.implement-compliance-for-microsoft-teams.create-manage-sensitivity-labels
+- learn.wwl.implement-compliance-for-microsoft-teams.create-manage-retention-policies
+- learn.wwl.implement-compliance-for-microsoft-teams.create-manage-data-loss-prevention-policies
+- learn.wwl.implement-compliance-for-microsoft-teams.deploy-communication-compliance
+- learn.wwl.implement-compliance-for-microsoft-teams.enable-scoped-directory-search
+- learn.wwl.implement-compliance-for-microsoft-teams.create-information-barrier-policy
+- learn.wwl.implement-compliance-for-microsoft-teams.conduct-ediscovery-investigation
+- learn.wwl.implement-compliance-for-microsoft-teams.create-manage-compliance-recording-policies
+- learn.wwl.implement-compliance-for-microsoft-teams.create-security-compliance-alerts
+- learn.wwl.implement-compliance-for-microsoft-teams.knowledge-check
+- learn.wwl.implement-compliance-for-microsoft-teams.summary
+badge:
+  uid: learn.wwl.implement-compliance-for-microsoft-teams.badge
