@@ -18,7 +18,7 @@ prerequisites: |
    - Basic understanding of SharePoint Syntex 
    - SharePoint administrative access
    - Set up a content center to begin using SharePoint Syntex.
-iconUrl:  /learn/achievements/generic-badge.svg
+iconUrl:  /learn/achievements/sharepoint-syntex-setup.svg
 ratingEnabled: true
 levels:
 - beginner
