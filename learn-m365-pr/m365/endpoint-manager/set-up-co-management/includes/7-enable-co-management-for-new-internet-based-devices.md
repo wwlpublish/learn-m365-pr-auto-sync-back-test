@@ -1,4 +1,7 @@
 ## Path 2: Bootstrap with modern provisioning
+Path 2: New internet-based devices
+
+Taking this path will help your new internet-based devices become enrolled into Intune.
 
 Here's what you need to set it up:
 

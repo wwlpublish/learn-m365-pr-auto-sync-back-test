@@ -1,4 +1,9 @@
-The Configuration Manager connector provides details about your Configuration Manager implementation. From the Microsoft Endpoint Manager admin center, you can review details about the Configuration Manager connector, such as the last successful synchronization time and the connection status. 
+The Configuration Manager connector provides details about your Configuration Manager implementation. When you've successfully attached your tenant to Configuration Manager, you'll see your connection is **Healthy**.
+
+> [!NOTE]
+> Attaching your tenant to Configuration Manager is called tenant attach. This involves registering your Intune tenant with your Configuration Manager deployment.
+
+Once you confirm your tenant has been successfully attached, you can review details about the Configuration Manager connector, such as the last successful synchronization time and the connection status.
 
 To display the Configuration Manager connector status:
 
@@ -10,4 +15,4 @@ To display the Configuration Manager connector status:
    > [!NOTE]
    > Some information isn't available if the hierarchy is running Configuration Manager version 2006 or earlier.
 
-Once you confirm your connection to Configuration Manager from Microsoft Endpoint Manager is **Healthy**, you'll have successfully attached your tenant to Configuration Manager.
+3. Confirm your connection to Configuration Manager is **Healthy**.

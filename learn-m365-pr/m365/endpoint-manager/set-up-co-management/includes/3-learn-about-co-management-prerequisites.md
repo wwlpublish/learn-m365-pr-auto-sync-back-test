@@ -48,44 +48,44 @@ To check the version of Configuration Manager:
 
 ## Azure AD
 
-- Windows 10 devices must be connected to Azure AD. You can choose either of the following types:  
+Windows 10 devices must be connected to Azure AD to use co-management. You can choose either of the following types:  
 
   - [Hybrid Azure AD-joined](/azure/active-directory/devices/concept-azure-ad-join-hybrid), where the device is joined to your on-premises Active Directory and registered with your Azure Active Directory.
 
-  - [Azure AD-joined](/azure/active-directory/devices/azureadjoin-plan) only. (This type is sometimes referred to as "cloud domain-joined")<!--SCCMDocs issue 605-->  
+  - [Azure AD-joined](/azure/active-directory/devices/azureadjoin-plan) only. This type is sometimes referred to as "cloud domain-joined".  
 
 > [!TIP]
-> As we talk with our customers that are using Microsoft Endpoint Manager to deploy, manage, and secure their client devices, we often get questions regarding co-managing devices and hybrid Azure Active Directory (Azure AD) joined devices. Many customers confuse these two topics. Co-management is a management option, while Azure AD is an identity option. For more information, see [Understanding hybrid Azure AD and co-management scenarios](https://techcommunity.microsoft.com/t5/microsoft-endpoint-manager-blog/understanding-hybrid-azure-ad-join-and-co-management/ba-p/2221201). This blog post aims to clarify hybrid Azure AD join and co-management, how they work together, but aren't the same thing.
+> It's important to understand the difference between co-managed devices and hybrid Azure Active Directory (Azure AD) joined devices. Co-management is a management option, while Azure AD is an identity option. For more information about these differences and how they work together, see [Understanding hybrid Azure AD and co-management scenarios](https://techcommunity.microsoft.com/t5/microsoft-endpoint-manager-blog/understanding-hybrid-azure-ad-join-and-co-management/ba-p/2221201).
 
 ## Microsoft Intune
 
-Intune is a cloud-based service that focuses on mobile device management (MDM) and mobile application management (MAM). You control how your organization’s devices are used, including mobile phones, tablets, and laptops. You can also configure specific policies to control applications.
+Intune, which is required for co-management, is a cloud-based service that focuses on mobile device management (MDM) and mobile application management (MAM). You control how your organization’s devices are used, including mobile phones, tablets, and laptops. You can also configure specific policies to control applications.
 
 Intune is part of Microsoft's [Enterprise Mobility + Security (EMS) suite](https://www.microsoft.com/microsoft-365/enterprise-mobility-security). Intune integrates with Azure Active Directory (Azure AD) to control who has access, and what they can access. It also integrates with Azure Information Protection for data protection. It can be used with the Microsoft 365 suite of products.
 
 You can access Intune using the Microsoft Endpoint Manager admin center. If you are unable to access Intune using the step below, or don't have an Intune license, sign up now for the [Intune free trial](/mem/intune/fundamentals/free-trial-sign-up).
 
-If you are uncertain whether you have access to Microsoft Intune, you can To confirm that you have access to Microsoft Intune, use the following steps:
+If you are uncertain whether you have a Microsoft Intune license, you can confirm access using the following steps:
 
-1. Sign in to [Microsoft Endpoint Manager admin center](https://go.microsoft.com/fwlink/?linkid=2109431).
-2. Select **Tenant administration** > **Tenant status**.
-3. Under the **Tenant details** tab, confirm that the **MDM authority** is set to **Microsoft Intune**.
+1. Sign in to the [**Azure AD admin center**](https://aad.portal.azure.com).
+
+    > [!NOTE]
+    > To access and manage licenses, the admin account must be a license administrator, user administrator, or global administrator. 
+
+2. Select **Azure Active Directory** > **Licenses** > **All products** to see all licensable products that you have available for your organization.
 
 For additional information about Microsoft Intune, see [Set up Microsoft Intune](/learn/modules/set-up-microsoft-intune).
 
-- [Enable Windows 10 automatic enrollment](/intune/windows-enroll#enable-windows-10-automatic-enrollment)  
-
 ### Enable Windows 10 automatic enrollment
 
-Windows 10 automatic enrollment lets users enroll their Windows 10 devices in Intune. To enroll, users add their work account to their personally owned devices or join corporate-owned devices to Azure Active Directory. In the background, the device registers and joins Azure Active Directory. Once registered, the device is managed with Intune.
+Windows 10 automatic enrollment, which is also required for co-management, lets users enroll their Windows 10 devices in Intune. To enroll, users add their work account to their personally owned devices or join corporate-owned devices to Azure Active Directory. In the background, the device registers and joins Azure Active Directory. Once registered, the device is managed with Intune.
 
 For more information, see [Enable Windows 10 automatic enrollment](/mem/intune/enrollment/windows-enroll#enable-windows-10-automatic-enrollment).
 
 ## Windows 10
 
-Upgrade your devices to Windows 10, version 1709 or later. For more information, see [Adopting Windows as a service](/mem/configmgr/core/understand/configuration-manager-and-windows-as-service.md#key-articles-about-adopting-windows-as-a-service).
+To enable co-management, end users must upgrade their devices to Windows 10, version 1709 or later. For more information, see [Adopting Windows as a service](/mem/configmgr/core/understand/configuration-manager-and-windows-as-service.md#key-articles-about-adopting-windows-as-a-service).
 
 ## Permissions and roles
 
 To enable co-management in Configuration Manager, you must have Global Administrator rights. For more information about Configuration Manager roles, see [Fundamentals of role-based administration](/mem/configmgr/core/understand/fundamentals-of-role-based-administration).
-
