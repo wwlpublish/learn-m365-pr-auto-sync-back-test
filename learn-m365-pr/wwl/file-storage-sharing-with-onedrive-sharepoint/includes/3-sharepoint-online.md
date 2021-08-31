@@ -6,7 +6,7 @@ With SharePoint, users can:
 
  -  Build sites and pages, document libraries, and lists.
  -  Add web parts to customize their pages.
- -  Share important visuals, news, and updates with a team. or more broadly.
+ -  Share important visuals, news, and updates with a team.
  -  Search and discover sites, files, people, and news from across their organization.
  -  Manage their business processes with flows, forms, and lists.
  -  Co-author documents with other users.
