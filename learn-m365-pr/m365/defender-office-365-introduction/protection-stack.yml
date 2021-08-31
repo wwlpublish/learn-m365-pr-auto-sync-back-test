@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-m365-pr.defender-office-365-introduction.protection-stack
+title: What is the Microsoft Defender for Office 365 protection stack?
+metadata:
+  unitType: learning-content 
+  title: What is the Microsoft Defender for Office 365 protection stack?
+  description: Learn about the Microsoft Defender for Office 365 protection stack.
+  ms.date: 5/17/2021 
+  author: iankensey 
+  ms.author: beccarobins 
+  ms.topic: interactive-tutorial 
+  ms.prod: learning-m365
+durationInMinutes: 6
+content: |
+  [!include[](includes/protection-stack.md)]
