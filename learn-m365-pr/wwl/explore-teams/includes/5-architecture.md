@@ -31,7 +31,7 @@ The Teams architecture enables data governance, security, and compliance capabil
 
 ## Limits of Microsoft Teams
 
-While Microsoft Teams provides various workloads and features, the architecture is naturally bound to several limits that administrators must be aware of. Refer to the documentation in [Limits and specifications for Microsoft Teams](/microsoftteams/limits-specifications-teams).
+While Microsoft Teams provides various workloads and features, the architecture is naturally bound to several limits that administrators must be aware of. Refer to the documentation in [Limits and specifications for Microsoft Teams](/microsoftteams/limits-specifications-teams?azure-portal=true).
 
 ## Conclusion 
 
