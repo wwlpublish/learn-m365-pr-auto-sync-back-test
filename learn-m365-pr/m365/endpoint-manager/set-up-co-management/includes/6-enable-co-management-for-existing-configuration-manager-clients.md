@@ -1,5 +1,3 @@
-## Path 1: Existing Configuration Manager clients
-
 Taking this path will help your existing Configuration Manager-managed devices become auto-enrolled into Intune. The management of these devices from Configuration Manager is no different from before you enable co-management. Now you get all the cloud-based benefits. This path is transparent to your users.
 
 Here's what you need to set it up:

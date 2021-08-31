@@ -27,6 +27,6 @@ In this module, you will:
 - Understand co-management
 - Learn about co-management prerequisites
 - Confirm the Configuration Manager connector status
-- Learn about paths to co-management
-- Enable co-management for existing Configuration Manager clients
-- Enable co-management for new internet-based devices
+- Choose your path to co-management
+- Enable co-management for existing Configuration Manager clients (Path 1)
+- Enable co-management for new internet-based devices (Path 2)

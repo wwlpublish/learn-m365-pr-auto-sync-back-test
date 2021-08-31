@@ -1,9 +1,9 @@
 ### YamlMime:ModuleUnit
 uid: learn.set-up-co-management.enable-co-management-for-existing-configuration-manager-clients
-title: Enable co-management for existing Configuration Manager clients 
+title: Enable co-management for existing Configuration Manager clients (Path 1)
 metadata:
   unitType: learning-content
-  title: Enable co-management for existing configuration manager clients
+  title: Enable co-management for existing configuration manager clients (Path 1)
   description: Enable co-management for existing configuration manager clients
   ms.date: 8/24/2021 
   author: Erikre 
