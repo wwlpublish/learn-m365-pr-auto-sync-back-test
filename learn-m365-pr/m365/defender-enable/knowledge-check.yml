@@ -1,0 +1,38 @@
+### YamlMime:ModuleUnit
+uid: learn-m365-pr.defender-enable.knowledge-check
+title: Knowledge check
+metadata:
+  unitType: knowledge_check
+  title: Knowledge check
+  description: Test what you've learned in this module.
+  ms.date: 04/26/2021
+  author: iankensey
+  ms.author: beccarobins
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 2
+content: |
+quiz:
+  questions:
+  - content: "What two ways can you use to manage access to Microsoft 365 Defender functionality and data?"
+    choices:
+    - content: "Compliance administrator and Cloud discovery global admin"
+      isCorrect: false
+      explanation: "That is incorrect. Neither of these two roles will grant you access to Microsoft 365 Defender functionality or data."
+    - content: "Global Azure Active Directory roles and Custom Roles"
+      isCorrect: true
+      explanation: "That's right! Accounts assigned to the Global Azure Active Directory roles can access Microsoft 365 Defender functionality and data."
+    - content: "Endpoint security manager and Compliance administrator"
+      isCorrect: false
+      explanation: "That is incorrect. Neither of these two roles will grant you access to Microsoft 365 Defender functionality or data."
+  - content: "When turning on Microsoft 365 Defender, what key capability will allow you to identify and combat cyberthreats across all your Microsoft and third-party cloud services?"
+    choices:
+    - content: "Microsoft Cloud App Security"
+      isCorrect: true
+      explanation: "That's right! Microsoft Cloud App Security allows you to identify and combat cyberthreats across your Microsoft and third-party cloud services."
+    - content: "Microsoft Defender for Endpoint"
+      isCorrect: false
+      explanation: "That is incorrect. The Microsoft Defender for Endpoint protection suite is built around powerful behavioral sensors, cloud analytics, and threat intelligence for Windows 10 devices."
+    - content: "Microsoft Defender for Identity"
+      isCorrect: false
+      explanation: "That is incorrect. Microsoft Defender for Identity defends against advanced threats, compromised identities, and malicious insiders using correlated Azure Active Directory signals."
