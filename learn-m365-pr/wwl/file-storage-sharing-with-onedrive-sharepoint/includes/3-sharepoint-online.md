@@ -15,7 +15,7 @@ With SharePoint, users can:
 
 ### Collaboration
 
-SharePoint provides a rich collaboration environment where people inside and outside your organization can work together, coauthoring documents. Microsoft 365 provides a variety of options to help you create a secure and productive file collaboration environment that meets the needs of your organization.
+SharePoint provides a rich collaboration environment where people inside and outside your organization can work together, coauthoring document. Microsoft 365 provides a variety of options to help you create a secure and productive file collaboration environment that meets the needs of your organization.
 
 ### SharePoint - the intelligent intranet
 
@@ -27,7 +27,7 @@ Explore ways to build an intelligent and engaging intranet that connects your pe
 
 #### Align
 
-Align with your team and overcome common obstacles with stakeholder alignment by first understanding your business and stakeholder goals. Then identify the intranet scenarios that showcase the ways your people will use SharePoint and Microsoft 365 to address your goals. Lastly, determine the highest impact and easiest scenario to implement and you’ll find your your starting point.
+Align with your team and overcome common obstacles with stakeholder alignment by first understanding your business and stakeholder goals. Then identify the intranet scenarios that showcase the ways your people will use SharePoint and Microsoft 365 to address your goals. Lastly, determine the highest impact and easiest scenario to implement and you’ll find your starting point.
 
 #### Implement
 
