@@ -1,0 +1,38 @@
+### YamlMime:ModuleUnit
+uid: learn-m365-pr.defender-office-365-evaluate.knowledge-check
+title: Knowledge check 
+metadata:
+  unitType: knowledge_check
+  title: Knowledge check
+  description: Test your knowledge of the module content
+  ms.date: 5/17/2021
+  author: iankensey
+  ms.author: beccarobins
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 2
+content: |
+quiz:
+  questions:
+  - content: "Which of the following describes how long it might take for an evaluation report to be populated?"
+    choices:
+    - content: "24 hours"
+      isCorrect: true
+      explanation: "This is correct. It can take up to 24 hours for the data to populate"
+    - content: "One hour"
+      isCorrect: false
+      explanation: "This is incorrect. It can take up to 24 hours for the data to populate"
+    - content: "One week"
+      isCorrect: false
+      explanation: "This is incorrect. It can take up to 24 hours for the data to populate"
+  - content: "Which of the following describes the file type generated for a configuration drift report?"
+    choices:
+    - content: "`.XLSX`"
+      isCorrect: false
+      explanation: "This is incorrect. Another type of file is generated."
+    - content: "`.CSV`"
+      isCorrect: true
+      explanation: "This is correct. A `.CSV` file is generated."
+    - content: "`.XML`"
+      isCorrect: false
+      explanation: "This is incorrect. Another type of file is generated."
