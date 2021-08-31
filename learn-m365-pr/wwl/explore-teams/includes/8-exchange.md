@@ -24,4 +24,4 @@ These Exchange locations support the security and compliance tools provided by M
 
 Teams can be deployed with Exchange hybrid, where either some or all mailboxes are hosted on an on-premises Server(s). In a hybrid deployment, Exchange must be deployed so that it’s ready to use the supported Teams feature for storing and discovering data from on-premises Exchange locations.
 
-For more information, see [Configure an Exchange hybrid organization for use with Microsoft Teams](/microsoftteams/exchange-hybrid-organization).
+For more information, see [Configure an Exchange hybrid organization for use with Microsoft Teams](/microsoftteams/exchange-hybrid-organization?azure-portal=true).

@@ -1,0 +1,31 @@
+### YamlMime:LearningPath
+uid: learn-m365.defender-detect-respond
+metadata:
+  title: Detect and respond to cyber attacks with Microsoft 365 Defender
+  description: Microsoft 365 Defender unifies threat signals across endpoints, identities, email, and applications to provide integrated protection against sophisticated cyber attacks. Microsoft 365 Defender is the central experience to investigate and respond to incidents and proactively search for ongoing malicious cyber security activities. 
+  ms.date: 06/29/2021
+  author: alistairmatthews
+  ms.author: beccarobins
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Detect and respond to cyber attacks with Microsoft 365 Defender
+summary: Microsoft 365 Defender unifies threat signals across endpoints, identities, email, and applications to provide integrated protection against sophisticated cyber attacks. Microsoft 365 Defender is the central experience to investigate and respond to incidents and proactively search for ongoing malicious cyber security activities. 
+prerequisites: | 
+  - None
+iconUrl: /learn/achievements/m365-defender-manage-security.svg
+levels: 
+- beginner
+roles:
+- administrator
+- security-operations-analyst
+- security-engineer
+products: 
+- m365
+modules:
+- learn-m365-pr.defender-introduction
+- learn-m365-pr.defender-enable
+- learn-m365-pr.defender-investigate-incidents
+- learn-m365-pr.defender-advanced-hunting
+- learn-m365-pr.defender-self-healing
+trophy: 
+  uid: learn-m365.defender-detect-respond.trophy

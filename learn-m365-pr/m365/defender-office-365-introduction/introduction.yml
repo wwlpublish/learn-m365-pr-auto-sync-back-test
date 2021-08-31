@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-m365-pr.defender-office-365-introduction.introduction
+title: Introduction
+metadata:
+  unitType: introduction
+  title: Introduction
+  description: Understand Microsoft Defender for Office 365 and how you can use it to prevent, detect, investigate, and resolve attacks across all your Office 365 products, including Exchange, Teams, and OneDrive.
+  ms.date: 5/17/2021
+  author: iankensey
+  ms.author: beccarobins
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 1
+content: |
+  [!include[](includes/introduction.md)]

@@ -75,6 +75,6 @@ Now that you have downloaded and installed R and loaded the `wpa` R package, you
 
 - [Download and install R](http://www.r-project.org?azure-portal=true)
 - [Download and install RStudio Desktop](https://www.rstudio.com/products/rstudio/download?azure-portal=true)
-- [Download an installation file and install it locally](https://github.com/microsoft/`wpa`/releases?azure-portal=true)
+- [Download an installation file and install it locally](https://github.com/microsoft/wpa/releases?azure-portal=true)
 - [Learn more about the Tidyverse](https://www.tidyverse.org?azure-portal=true)
-- [`wpa` R package cheat sheet](https://github.com/microsoft/`wpa`/blob/main/man/figures/`wpa`%20cheatsheet.pdf?azure-portal=true)
+- [`wpa` R package cheat sheet](https://github.com/microsoft/wpa/blob/main/man/figures/wpa%20cheatsheet.pdf?azure-portal=true)

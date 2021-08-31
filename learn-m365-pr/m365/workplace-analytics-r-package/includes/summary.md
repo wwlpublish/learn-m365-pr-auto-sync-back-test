@@ -21,6 +21,6 @@ The `wpa` R package is continuously evolving and integrating more new features. 
 
 ## Learn more
 
-- [Find new `wpa` R package features](https://microsoft.github.io/`wpa`/?azure-portal=true)
-- [Submit an issue with the `wpa` R package](https://github.com/microsoft/`wpa`/issues?azure-portal=true)
-- [Create a GitHub pull request for the `wpa` R package](https://github.com/microsoft/`wpa`/?azure-portal=true)
+- [Find new `wpa` R package features](https://microsoft.github.io/wpa/?azure-portal=true)
+- [Submit an issue with the `wpa` R package](https://github.com/microsoft/wpa/issues?azure-portal=true)
+- [Create a GitHub pull request for the `wpa` R package](https://github.com/microsoft/wpa/?azure-portal=true)
