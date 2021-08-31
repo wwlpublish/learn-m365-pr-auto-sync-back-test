@@ -4,7 +4,7 @@ title: Explore the vulnerabilities and risk events detected by AIP
 metadata:
   title: Explore the vulnerabilities and risk events detected by AIP
   description: "Explore the vulnerabilities and risk events detected by AIP"
-  ms.date: 04/30/2021
+  ms.date: 08/26/2021
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -16,7 +16,7 @@ content: |
 quiz:
   title: "Check your knowledge"
   questions:
-  - content: "As Fabrikam's Enterprise Administrator, Holly Spencer is in the process of implementing Azure Identity Protection. One of Holly's biggest concern is that their IT department is often unaware of all the cloud applications being used by Fabrikam's users to do their work. Fabrikam's administrative staff has concerns that this situation leads to unauthorized access to corporate data, possible data leakage, and other security risks. What action should Holly recommend to address this situation?"
+  - content: "As Fabrikam's Enterprise Administrator, Holly Spencer is in the process of implementing Azure Identity Protection. One of Holly's biggest concerns is that their IT department is often unaware of all the cloud applications being used by Fabrikam's users to do their work. Fabrikam's administrative staff has concerns that this situation leads to unauthorized access to corporate data, possible data leakage, and other security risks. What action should Holly recommend to address this situation?"
     choices:
     - content: "Deploy Cloud App Discovery"
       isCorrect: true

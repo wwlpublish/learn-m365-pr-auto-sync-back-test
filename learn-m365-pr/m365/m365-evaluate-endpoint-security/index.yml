@@ -19,7 +19,7 @@ abstract: |
   - Understand attack simulation scenarios
 prerequisites: |
   - Basic familiarity with Microsoft Defender for Endpoint
-iconUrl: /learn/achievements/generic-badge.svg
+iconUrl: /learn/achievements/m365-defender-evaluate-endpoint-security.svg
 levels:
   - beginner
 roles:

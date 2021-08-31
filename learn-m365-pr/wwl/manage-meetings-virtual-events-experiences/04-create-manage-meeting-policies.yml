@@ -1,0 +1,29 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.manage-meetings-virtual-events-experiences.create-and-manage-meeting-policies
+title: Create and manage meeting policies
+metadata:
+  title: Create and manage meeting policies
+  description: "Create and manage meeting policies"
+  ms.date: 08/24/2021
+  author: wwlpublish
+  ms.author: jennyche
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+durationInMinutes: 8
+content: |
+  [!include[](includes/04-create-manage-meeting-policies.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "At Tailspin Toys, the members of the Sales team have different audio and video policy settings. Holly Dickson has a meeting policy that doesn't restrict video. Patti Fernandez and Allan Deyoung have user policies that restrict accessing video in meetings. When Holly organizes a meeting, how will this affect Patti and Allan in the meeting?"
+    choices:
+    - content: "Allan and Patti will have access to video in the meeting"
+      isCorrect: false
+      explanation: "That's incorrect. This scenario won't be the result of Holly, Allan, and Patti's meeting policies. Try again."
+    - content: "Allan and Patti won't have access to video in the meeting"
+      isCorrect: true
+      explanation: "That's correct. The most restrictive policy between the meeting organizer’s policy and the user’s policy applies. Since Allan and Patti's meeting policies are more restrictive than Holly's, Allan and Patti won't have access to video in the meeting that Holly organizes."
+    - content: "All attendees to the meeting, including Allan and Patti, will have access to video"
+      isCorrect: false
+      explanation: "That's incorrect. This scenario won't be the result of Holly, Allan, and Patti's meeting policies. Try again."

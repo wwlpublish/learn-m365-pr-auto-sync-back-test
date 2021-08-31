@@ -1,0 +1,29 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.implement-compliance-for-microsoft-teams.create-security-compliance-alerts
+title: Create security and compliance alerts for Microsoft Teams
+metadata:
+  title: Create security and compliance alerts for Microsoft Teams
+  description: "Create security and compliance alerts for Microsoft Teams"
+  ms.date: 08/26/2021
+  author: wwlpublish
+  ms.author: jennyche
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+durationInMinutes: 7
+content: |
+  [!include[](includes/10-create-security-compliance-alerts.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "Which of the following Microsoft 365 role groups can't view any alerts because none of the assigned roles provide permission to view alerts from any alert category?"
+    choices:
+    - content: "Records Management"
+      isCorrect: false
+      explanation: "That's incorrect. The roles in this role group can view selected alerts. Try again."
+    - content: "Compliance Administrator"
+      isCorrect: false
+      explanation: "That's incorrect. The roles in this role group can view selected alerts. Try again."
+    - content: "eDiscovery Manager"
+      isCorrect: true
+      explanation: "That's correct. Members of the eDiscovery Manager role group can't view any alerts because none of the assigned roles provide permission to view alerts from any alert category."

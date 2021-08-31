@@ -6,8 +6,8 @@ Over the years, attackers have become increasingly effective in using third-part
 
 As a result, it's imperative that enterprise administrators:
 
- *  protect all identities, regardless of their privilege level.
- *  proactively prevent compromised identities from being abused.
+ -  protect all identities, regardless of their privilege level.
+ -  proactively prevent compromised identities from being abused.
 
 Discovering compromised identities is no easy task. Azure Active Directory uses adaptive machine learning algorithms and heuristics to detect anomalies and suspicious incidents that indicate potentially compromised identities. Azure Identity Protection uses this data to generate reports and alerts that enable organizations to evaluate the detected issues and take appropriate mitigation or remediation actions.
 
@@ -24,9 +24,9 @@ Microsoft detects more than 10,000 attacker-controlled IP addresses per day. It 
 
 This information is also the basis for the following capabilities that Azure Identity Protection provides organizations:
 
- *  **Detecting vulnerabilities and risky accounts.** Azure Identity Protection uses all this data, analysis, and experience to generate user and sign-in risk scores. It can then notify an organization of the compromised users, risky logons, and configuration vulnerabilities in its environment before they can be exploited by cyber criminals.
- *  **Investigating risk events.** Azure Identity Protection helps organizations to better protect themselves by providing a combined view into risks, remediation recommendations, and in-line response options. It uses advanced machine learning to detect suspicious activities based on signals including brute force attacks, leaked credentials, sign-in from unfamiliar locations, and infected devices.
- *  **Risk-based conditional access policies.** Azure AD Identity Protection can be configured to trigger Risk-Based Conditional Access policies that automatically respond to threats by blocking sign-in attempts, issuing Azure Active Directory Multi-Factor Authentication challenges, or if the evidence is strong enough, requiring users to change their credentials. For example, if Azure Identity Protection’s machine learning system believes that a sign-in is coming from a new, anonymized, or bot-controlled network location, Conditional Access autoremediation can intercept the request with an adaptive two-factor challenge. When Azure Identity Protection’s threat intelligence or advanced machine-learning algorithms indicate that a user’s credentials are compromised, the risk-based conditional access policies can be triggered. These policies can offer either automatic remediation in the form of blocking the account or, with Multi-Factor Authentication, require a user-initiated password change.
+ -  **Detecting vulnerabilities and risky accounts.** Azure Identity Protection uses all this data, analysis, and experience to generate user and sign-in risk scores. It can then notify an organization of the compromised users, risky logons, and configuration vulnerabilities in its environment before they can be exploited by cyber criminals.
+ -  **Investigating risk events.** Azure Identity Protection helps organizations to better protect themselves by providing a combined view into risks, remediation recommendations, and in-line response options. It uses advanced machine learning to detect suspicious activities based on signals including brute force attacks, leaked credentials, sign-in from unfamiliar locations, and infected devices.
+ -  **Risk-based conditional access policies.** Azure AD Identity Protection can be configured to trigger Risk-Based Conditional Access policies that automatically respond to threats by blocking sign-in attempts, issuing Azure Active Directory Multi-Factor Authentication challenges, or if the evidence is strong enough, requiring users to change their credentials. For example, if Azure Identity Protection’s machine learning system believes that a sign-in is coming from a new, anonymized, or bot-controlled network location, Conditional Access autoremediation can intercept the request with an adaptive two-factor challenge. When Azure Identity Protection’s threat intelligence or advanced machine-learning algorithms indicate that a user’s credentials are compromised, the risk-based conditional access policies can be triggered. These policies can offer either automatic remediation in the form of blocking the account or, with Multi-Factor Authentication, require a user-initiated password change.
 
 Azure Identity Protection also helps organizations identify and remediate configuration vulnerabilities. It can then integrate with Azure AD Privileged Identity Management, Cloud App Discovery, and Multi-Factor Authentication to improve their security posture. Azure AD Identity Protection also can detect suspicious activity to include impossible sign-in attempts, such as signing on in New York and then in Sydney, Australia three hours later.
 
@@ -132,15 +132,15 @@ Azure AD uses machine learning to detect anomalies and suspicious activity, usin
 
 Azure Identity Protection detects the following types of risk:
 
- *  **Sign-in risk.** Sign-in risk reflects the probability that a given authentication request isn’t authorized by the identity owner. There are two types of sign-in risks:
+ -  **Sign-in risk.** Sign-in risk reflects the probability that a given authentication request isn’t authorized by the identity owner. There are two types of sign-in risks:
     
-     *  **Real-time.** Real-time sign-in risk is detected at the time of the given sign-in attempt (such as sign-in attempts from anonymous IP addresses).
-     *  **Total.** Total sign-in risk is the aggregate of detected real-time sign-in risks and any later non-real-time risk events associated with the user’s sign-in attempts (such as impossible travel).
- *  **User risk.** User risk reflects the overall likelihood that a bad actor has compromised a given identity. User risk contains all the risk activities for a given user, including:
+     -  **Real-time.** Real-time sign-in risk is detected at the time of the given sign-in attempt (such as sign-in attempts from anonymous IP addresses).
+     -  **Total.** Total sign-in risk is the aggregate of detected real-time sign-in risks and any later non-real-time risk events associated with the user’s sign-in attempts (such as impossible travel).
+ -  **User risk.** User risk reflects the overall likelihood that a bad actor has compromised a given identity. User risk contains all the risk activities for a given user, including:
     
-     *  Real-time sign-in risk
-     *  Later sign-in risk
-     *  Risky user detections
+     -  Real-time sign-in risk
+     -  Later sign-in risk
+     -  Risky user detections
 
 ## Knowledge check
 

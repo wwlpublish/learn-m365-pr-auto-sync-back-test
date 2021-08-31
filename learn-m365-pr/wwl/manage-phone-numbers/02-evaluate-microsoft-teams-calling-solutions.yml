@@ -1,0 +1,29 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.manage-phone-numbers.evaluate-microsoft-teams-calling-solutions
+title: Evaluate Microsoft Teams calling solutions
+metadata:
+  title: Evaluate Microsoft Teams calling solutions
+  description: "Evaluate Microsoft Teams calling solutions"
+  ms.date: 08/24/2021
+  author: wwlpublish
+  ms.author: jennyche
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+durationInMinutes: 6
+content: |
+  [!include[](includes/02-evaluate-microsoft-teams-calling-solutions.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "Which of the following items is a benefit of using Phone System with Teams Calling Plans?"
+    choices:
+    - content: "An organization can connect its own supported Session Border Controller to Microsoft Phone System without the need for other on-premises software"
+      isCorrect: false
+      explanation: "That's incorrect. This item is a benefit of using Phone System with Direct Routing. Try again."
+    - content: "An organization can keep its preferred operator and contracts"
+      isCorrect: false
+      explanation: "That's incorrect. This item is a benefit of using Phone System with Operator Connect. Try again."
+    - content: "It's the simplest option that connects Microsoft Phone System to the Public Switched Telephone Network (PSTN)"
+      isCorrect: true
+      explanation: "That's correct. Phone System with Teams Calling Plans is Microsoft's all-in-the-cloud voice solution for Teams users. This design is the simplest option that connects Microsoft Phone System to the PSTN. This configuration enables calls to landlines and mobile phones around the world."
