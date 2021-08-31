@@ -4,7 +4,7 @@ title: Knowledge check
 metadata:
   title: Knowledge check
   description: "Knowledge check"
-  ms.date: 08/10/2021
+  ms.date: 08/31/2021
   author: wwlpublish
   ms.author: dahans
   ms.topic: interactive-tutorial
@@ -60,14 +60,3 @@ quiz:
     - content: "Microsoft Graph REST API, Microsoft Graph Windows 10 SDKs"
       isCorrect: false
       explanation: "Incorrect. Developers should use the Microsoft Graph REST API, or the Native SDKs when creating their applications."
-  - content: "What is the minimum Power BI license required for users to consume content shared with them?"
-    choices:
-    - content: "Power BI Pro"
-      isCorrect: false
-      explanation: "Incorrect. While a user granted this license type could consume content shared with them, there is a cheaper alternative."
-    - content: "Power BI"
-      isCorrect: true
-      explanation: "Correct. A user with the Power BI (Free) license type, can access content My Workspace that has been shared with them"
-    - content: "Power BI Premium"
-      isCorrect: false
-      explanation: "Incorrect. Power BI Premium isn't necessary to consume shared content."
