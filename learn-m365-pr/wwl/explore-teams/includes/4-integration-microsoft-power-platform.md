@@ -17,7 +17,7 @@ The followings are examples to use Power Apps in Microsoft Teams:
 
 - Use the **Power Apps app** in Teams to create canvas apps within Teams backed by Dataverse for Teams.
 
-‎:::image type="content" source="../media/use-power-apps-teams.gif" alt-text="Using Power Apps in Teams client":::
+‎:::image type="content" source="../media/use-power-apps-teams.gif" alt-text="Using Power Apps in Teams client" lightbox="../media/use-power-apps-teams.gif":::
 
 ## Power Automate in Teams
 
@@ -47,7 +47,7 @@ The followings are examples to use Power Virtual Agents in Microsoft Teams:
 - Review and analyze the performance of the bot.
 - Have bots take actions on someone's behalf.
 
-‎:::image type="content" source="../media/use-power-virtual-agents-teams.gif" alt-text="Use Power Virtual Agents in Microsoft Teams":::
+‎:::image type="content" source="../media/use-power-virtual-agents-teams.gif" alt-text="Use Power Virtual Agents in Microsoft Teams" lightbox="../media/use-power-virtual-agents-teams.gif" :::
 
 
 ## Power BI in Teams
