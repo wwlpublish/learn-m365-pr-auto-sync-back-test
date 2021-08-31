@@ -27,7 +27,7 @@ Once in a chat, you can send messages that include files, links, emojis, sticker
 ## Collaboration
 Microsoft Teams lets you quickly pull together a team with people inside and outside your organization. You can chat with others to drive fast and inclusive conversations, securely share and coauthor documents, and iterate on projects. To achieve its goal of efficiency through a flat hierarchy, Teams only provides two user roles, which consist of - **Owners** and **Members**.
 
-* **team** : A **team** is a collection of people, content, and tools surrounding different projects and outcomes within an organization. There are tree types of teams:
+* **team** : A **team** is a collection of people, content, and tools surrounding different projects and outcomes within an organization. There are three types of teams:
 
     * **Org-wide teams** provide an automatic way for everyone in a small to medium-sized organization to be a part of a single team for collaboration and is limited to organizations with no more than 10,000 users.
 
