@@ -10,6 +10,6 @@ metadata:
   ms.author: erikre
   ms.topic: interactive-tutorial
   ms.prod: learning-endpoint-manager  
-durationInMinutes: 1
+durationInMinutes: 2
 content: |
   [!include[](includes/4-confirm-the-configuration-manager-connector-status.md)]
