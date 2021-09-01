@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.configure-manage-microsoft-teams-devices.create-manage-configuration-profiles
+title: Create and manage configuration profiles
+metadata:
+  title: Create and manage configuration profiles
+  description: "Create and manage configuration profiles"
+  ms.date: 08/23/2021
+  author: wwlpublish
+  ms.author: jennyche
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+durationInMinutes: 5
+content: |
+  [!include[](includes/07-create-manage-configuration-profiles.md)]

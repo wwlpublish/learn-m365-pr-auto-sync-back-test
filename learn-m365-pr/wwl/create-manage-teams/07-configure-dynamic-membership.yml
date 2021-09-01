@@ -1,0 +1,29 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.create-manage-teams.configure-dynamic-membership
+title: Configure dynamic membership
+metadata:
+  title: Configure dynamic membership
+  description: "Configure dynamic membership"
+  ms.date: 08/25/2021
+  author: wwlpublish
+  ms.author: jennyche
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+durationInMinutes: 7
+content: |
+  [!include[](includes/07-configure-dynamic-membership.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "Which statement most accurately defines dynamic membership in Microsoft Teams?"
+    choices:
+    - content: "Users can add or remove themselves from teams according to their needs."
+      isCorrect: false
+      explanation: "That's incorrect. In Microsoft Teams, users are added or removed only if they meet the conditions for a group. Try again."
+    - content: "Administrators create a dynamic group by using the Microsoft 365 admin center."
+      isCorrect: false
+      explanation: "That's incorrect. In Microsoft Teams, administrators create a dynamic group by using the Azure AD admin center. Try again."
+    - content: "Users are automatically added to or removed from relevant teams as user attributes change."
+      isCorrect: true
+      explanation: "That's correct. In Microsoft Teams, dynamic membership enables the membership of a team to be defined by rules that check for certain user attributes in Azure Active Directory."

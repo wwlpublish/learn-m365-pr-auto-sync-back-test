@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.monitor-your-microsoft-teams-environment.monitor-usage-reports
+title: Monitor Microsoft Teams usage reports
+metadata:
+  title: Monitor Microsoft Teams usage reports
+  description: "Monitor Microsoft Teams usage reports"
+  ms.date: 08/25/2021
+  author: wwlpublish
+  ms.author: jennyche
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+durationInMinutes: 6
+content: |
+  [!include[](includes/2-monitor-usage-reports.md)]

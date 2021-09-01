@@ -173,11 +173,11 @@ For a guided tour on the available visualization functions, see the following li
 
 ## Learn more
 
-- [`wpa` R package introduction](https://microsoft.github.io/`wpa`/analyst_guide.html?azure-portal=true)
-- [`wpa` R package function reference](https://microsoft.github.io/`wpa`/reference/index.html?azure-portal=true)
-- [`wpa` R package summary functions](https://microsoft.github.io/`wpa`/analyst_guide_summary.html?azure-portal=true)
-- [Collaboration demo report](https://microsoft.github.io/`wpa`/report-demo/collaboration-report.html?azure-portal=true)
-- [Capacity demo report](https://microsoft.github.io/`wpa`/report-demo/capacity-report.html?azure-portal=true)
-- [Coaching demo report](https://microsoft.github.io/`wpa`/report-demo/coaching-report.html?azure-portal=true)
-- [Connectivity demo report](https://microsoft.github.io/`wpa`/report-demo/connectivity-report.html?azure-portal=true)
+- [`wpa` R package introduction](https://microsoft.github.io/wpa/analyst_guide.html?azure-portal=true)
+- [`wpa` R package function reference](https://microsoft.github.io/wpa/reference/index.html?azure-portal=true)
+- [`wpa` R package summary functions](https://microsoft.github.io/wpa/analyst_guide_summary.html?azure-portal=true)
+- [Collaboration demo report](https://microsoft.github.io/wpa/report-demo/collaboration-report.html?azure-portal=true)
+- [Capacity demo report](https://microsoft.github.io/wpa/report-demo/capacity-report.html?azure-portal=true)
+- [Coaching demo report](https://microsoft.github.io/wpa/report-demo/coaching-report.html?azure-portal=true)
+- [Connectivity demo report](https://microsoft.github.io/wpa/report-demo/connectivity-report.html?azure-portal=true)
 - [Information on the ggplot2 package](https://ggplot2.tidyverse.org/?azure-portal=true)

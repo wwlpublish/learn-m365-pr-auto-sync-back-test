@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.monitor-your-microsoft-teams-environment.manage-user-access-azure-active-directory-access-reviews
+title: Manage user access with Azure Active Directory access reviews
+metadata:
+  title: Manage user access with Azure Active Directory access reviews
+  description: "Manage user access with Azure Active Directory access reviews"
+  ms.date: 08/25/2021
+  author: wwlpublish
+  ms.author: jennyche
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+durationInMinutes: 8
+content: |
+  [!include[](includes/5-manage-user-access-azure-active-directory-access-reviews.md)]

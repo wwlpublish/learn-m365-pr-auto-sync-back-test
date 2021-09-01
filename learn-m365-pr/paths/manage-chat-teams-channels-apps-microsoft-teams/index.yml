@@ -1,0 +1,30 @@
+### YamlMime:LearningPath
+uid: learn.wwl.manage-chat-teams-channels-apps-microsoft-teams
+metadata:
+  title: Manage chat, teams, channels, and apps in Microsoft Teams
+  description: Manage chat, teams, channels, and apps in Microsoft Teams
+  ms.date: 08/26/2021
+  author: wwlpublish
+  ms.author: jennyche
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Manage chat, teams, channels, and apps in Microsoft Teams
+prerequisites: |
+  - A proficient understanding of basic functional experience with Microsoft 365 services.
+  - A proficient understanding of general IT practices, including using PowerShell.
+summary: |
+  Learn the collaboration features in Microsoft Teams, including creating and managing teams, managing user experience for chat and channels, and managing apps.
+iconUrl: /learn/achievements/generic-trophy.svg
+levels:
+- intermediate
+roles:
+- administrator
+products:
+- m365
+- office-teams
+modules:
+- learn.wwl.create-manage-teams
+- learn.wwl.manage-collaboration-experiences-for-chat-channels
+- learn.wwl.manage-apps-for-microsoft-teams
+trophy:
+  uid: learn.wwl.manage-chat-teams-channels-apps-microsoft-teams.trophy
