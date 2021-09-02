@@ -1,0 +1,39 @@
+### YamlMime:Module
+uid: learn-m365-pr.defender-investigate-incidents
+metadata:
+  moduleType: standard
+  title: Investigate incidents with Microsoft 365 Defender
+  description: Learn how to use Microsoft 365 Defender to manage and respond to incidents and alerts in your Microsoft 365 tenant. Cyber threats are an ever present and on-going concern for all organizations regardless of size. Learn how to minimize the time between an incident and its management for subsequent response and resolution.
+  ms.date: 05/05/2021
+  author: iankensey
+  ms.author: beccarobins
+  ms.topic: interactive-tutorial 
+  ms.prod: learning-m365
+title: Investigate incidents with Microsoft 365 Defender
+summary: Learn how to use Microsoft 365 Defender to manage and respond to incidents and alerts in your Microsoft 365 tenant. Cyber threats are an ever present and on-going concern for all organizations regardless of size. Learn how to minimize the time between an incident and its management for subsequent response and resolution. 
+abstract: | 
+  By the end of this module, you'll be able to:
+    - Understand incident management and response in Microsoft 365 Defender
+    - Understand how to classify incidents and alerts
+    - Use email notifications to be informed of new or updated incident
+prerequisites: | 
+  - None
+iconUrl: /learn/achievements/m365-defender-investigate-incidents.svg
+levels: 
+  - beginner
+roles: 
+  - security-operations-analyst
+  - security-engineer
+products:
+- m365
+- m365-security-center
+- m365-threat-protection
+units:
+- learn-m365-pr.defender-investigate-incidents.introduction
+- learn-m365-pr.defender-investigate-incidents.working-incidents
+- learn-m365-pr.defender-investigate-incidents.classification-incident-alerts
+- learn-m365-pr.defender-investigate-incidents.incident-notifications
+- learn-m365-pr.defender-investigate-incidents.knowledge-check
+- learn-m365-pr.defender-investigate-incidents.summary
+badge:
+  uid: learn-m365-pr.defender-investigate-incidents.badge

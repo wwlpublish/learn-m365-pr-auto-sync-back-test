@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-m365-pr.defender-self-healing.summary
+title: Summary
+metadata:
+  unitType: summary
+  title: Summary 
+  description: Summary of what you've learned in this module.
+  ms.date: 05/20/2021
+  author: iankensey
+  ms.author: beccarobins
+  ms.topic: interactive-tutorial 
+  ms.prod: learning-m365
+durationInMinutes: 1 
+content: |
+  [!include[](includes/summary.md)]
