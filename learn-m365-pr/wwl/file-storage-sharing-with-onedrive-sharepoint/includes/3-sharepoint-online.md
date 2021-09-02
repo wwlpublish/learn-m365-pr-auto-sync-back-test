@@ -15,7 +15,7 @@ With SharePoint, users can:
 
 ### Collaboration
 
-SharePoint provides a rich collaboration environment where people inside and outside your organization can work together, coauthoring documents. Microsoft 365 provides a variety of options to help you create a secure and productive file collaboration environment that meets the needs of your organization.
+SharePoint provides a rich collaboration environment where people inside and outside your organization can work together, coauthoring document. Microsoft 365 provides a variety of options to help you create a secure and productive file collaboration environment that meets the needs of your organization.
 
 ### SharePoint - the intelligent intranet
 
