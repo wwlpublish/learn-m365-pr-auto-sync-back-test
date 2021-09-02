@@ -6,7 +6,7 @@ With SharePoint, users can:
 
  -  Build sites and pages, document libraries, and lists.
  -  Add web parts to customize their pages.
- -  Share important visuals, news, and updates with a team.
+ -  Share important visuals, news, and updates with a team. or more broadly.
  -  Search and discover sites, files, people, and news from across their organization.
  -  Manage their business processes with flows, forms, and lists.
  -  Co-author documents with other users.
@@ -27,7 +27,7 @@ Explore ways to build an intelligent and engaging intranet that connects your pe
 
 #### Align
 
-Align with your team and overcome common obstacles with stakeholder alignment by first understanding your business and stakeholder goals. Then identify the intranet scenarios that showcase the ways your people will use SharePoint and Microsoft 365 to address your goals. Lastly, determine the highest impact and easiest scenario to implement and you’ll find your starting point.
+Align with your team and overcome common obstacles with stakeholder alignment by first understanding your business and stakeholder goals. Then identify the intranet scenarios that showcase the ways your people will use SharePoint and Microsoft 365 to address your goals. Lastly, determine the highest impact and easiest scenario to implement and you’ll find your your starting point.
 
 #### Implement
 
