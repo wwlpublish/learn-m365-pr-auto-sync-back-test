@@ -4,37 +4,14 @@ title: Knowledge check
 metadata:
   title: Knowledge check
   description: "Knowledge check"
-  ms.date: 07/01/2021
+  ms.date: 09/03/2021
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
+sandbox: false
+labModal: false
 durationInMinutes: 4
 content: |
   [!include[](includes/6-knowledge-check.md)]
-quiz:
-  title: "Check your knowledge"
-  questions:
-  - content: "You're the Enterprise Administrator for Tailwind Traders, which up until last month was located in Paris, France. When Tailwind purchased its Microsoft 365 subscription two years ago, it set the Preferred Language setting in its Organization Profile to French. However, Tailwind recently moved its corporate headquarters to New York. Following the relocation, you changed the Preferred Language from French to English (US). In doing so, the language for all communications that are sent from Microsoft to Tailwind Traders will now be in English (US). However, what aspect of your Microsoft 365 deployment will still be in French?"
-    choices:
-    - content: "The language used by Exchange Online will still be French"
-      isCorrect: false
-      explanation: "That's incorrect. This isn't the aspect of your Microsoft 365 deployment that will still be in French. Try again."
-    - content: "The language used by Outlook will still be French"
-      isCorrect: false
-      explanation: "That's incorrect. This isn't the aspect of your Microsoft 365 deployment that will still be in French. Try again."
-    - content: "The language used by SharePoint Online will still be French"
-      isCorrect: true
-      explanation: "That's correct. If you change the Preferred language after you sign up, the language used by SharePoint Online will remain in the original language selected; it cannot be changed."
-  - content: "As the Enterprise Administrator for Contoso, you want to confirm your company's readiness to deploy Microsoft 365. You're especially interested in checking the company's DNS records and mail flow to test whether its mailing policies are working properly. Which of the following tools should you run to check Contoso's DNS records and mailing policies?"
-    choices:
-    - content: "Microsoft Message Analyzer"
-      isCorrect: false
-      explanation: "That's incorrect. This tool is used for for troubleshooting network issues. Try again."
-    - content: "Support and Recovery Assistant"
-      isCorrect: true
-      explanation: "That's correct. The SARA tool will check DNS records and mail flow to test whether your mailing policies are working properly."
-    - content: "Azure AD Connect"
-      isCorrect: false
-      explanation: "That's incorrect. This tool is used to synchronize on-premises Active Directory users and groups with Azure AD in Microsoft 365. Try again."

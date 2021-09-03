@@ -21,6 +21,19 @@ The **Organization information** group also contains the country or region for y
 > [!IMPORTANT]
 > To change your organization's country or region, you must sign up for a new account, choose the required country or region, and purchase a new subscription.
 
+## **Exercise – Interactive demonstration**
+
+Select the following link to complete an interactive demonstration titled: [Set up the organization profile](https://edxinteractivepage.blob.core.windows.net/edxpages/MS-100/M2-L1-E1-T2/index.html?azure-portal=true).
+
+This simulation guides you through the steps to set up an organization profile for the fictitious company known as Adatum Corporation.
+
 ## Knowledge check
 
 Choose the best response for the following question. Then select “Check your answers.”
+
+## Multiple Choice
+You're the Enterprise Administrator for Tailwind Traders, which up until last month was located in Paris, France. When Tailwind purchased its Microsoft 365 subscription two years ago, its Organization Profile listed the country/region in which the company is headquartered as France. However, Tailwind recently moved its corporate headquarters to New York. To change the company's headquarters for its Microsoft 365 subscription to the United States, what must you do?
+( ) Use the Microsoft 365 admin center to access Tailwind's Organization Profile and change the country/region of the company's headquarters to the United States
+( ) Contact Microsoft Support Services and have them update the country/region of your Microsoft 365 subscription to the United States
+(x) Sign up for a new account, choose the United States as the desired country/region, and purchase a new subscription
+
