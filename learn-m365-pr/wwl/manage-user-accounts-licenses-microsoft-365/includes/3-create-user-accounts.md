@@ -51,6 +51,19 @@ For example, the following cmdlet creates a user account for Patti Fernandez and
 New-MsolUser –UserPrincipalName PattiF@Adatum.onmicrosoft.com –DisplayName “Patti Fernandez” – FirstName “Patti” –LastName “Fernandez” –UsageLocation “US” –LicenseAssignment “Adatum: ENTERPRISEPREMIUM”
 ```
 
+## **Exercise – Interactive demonstration**
+
+Select the following link to complete an interactive demonstration titled: [Create a user account for Adatum's Enterprise Administrator](https://edxinteractivepage.blob.core.windows.net/edxpages/MS-100/M2-L1-E2-T1/index.html?azure-portal=true).
+
+This simulation guides you through the steps to create a Microsoft 365 user account and assign it the Global Administrator role. This demonstration is centered around the fictitious Adatum Corporation. You will create a user account for the equally fictitious Holly Dickson, who is Adatum's new Enterprise Administrator. You will then assign Holly the Microsoft 365 Global Administrator role.
+
 ## Knowledge check
 
 Choose the best response for the following question. Then select “Check your answers.”
+
+## Multiple Choice
+As the Enterprise Administrator for Contoso, you're configuring Contoso's Microsoft 365 tenant. Your plan is to provision and manage your user accounts by synchronizing Microsoft 365 with Contoso's on-premises Active Directory. What tool can you use to synchronize on-premises Active Directory objects with Azure AD in Microsoft 365?
+( ) Active Directory Federation Services
+(x) Azure AD Connect
+( ) Users and Computer's snap-in
+
