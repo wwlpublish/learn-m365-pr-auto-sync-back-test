@@ -14,18 +14,18 @@ To create a group in the Microsoft 365 admin center:
 3.  On the **Group type** page, select the appropriate group type.
 4.  On the **Set up the basics** page, provide a group name and description for the group.
 
-    > [!TIP]
-    > The **Description** field must be selected to enable the **Next** button, even if you don't add a description for the group.
+> [!TIP]
+> The **Description** field must be selected to enable the **Next** button, even if you don't add a description for the group.
 
 5.  On the **Assign owners** page, select an owner for the group. Select in the **Owners** field to display the list of all active users, or to speed up the search for a given user, enter the first name of the user to display all users with that first name.
 
-    > [!IMPORTANT]
-    > It's highly recommended that you assign at least two owners to a group so that one can help out in the other's absence.
+> [!IMPORTANT]
+> It's highly recommended that you assign at least two owners to a group so that one can help out in the other's absence.
 
 6.  On the **Edit settings** page, assign a group email address (for mail-enabled groups), identify whether the group is **Public** or **Private**, and select whether to create a Microsoft Team for the group.
 
-    > [!TIP]
-    > The **Public** group option is selected by default. Even if you want the group to be public, you must still select this option to enable the **Next** button.
+> [!TIP]
+> The **Public** group option is selected by default. Even if you want the group to be public, you must still select this option to enable the **Next** button.
 
 7.  On the **Review and finish adding group** page, review the information you entered, and if necessary, correct any information that was entered incorrectly. When all information is correct, select the **Create group** button to add the group.
 
@@ -56,6 +56,22 @@ To delete a group in the Microsoft 365 admin center:
 
 Windows PowerShell can also be used to delete security groups for Microsoft 365 by using the **Remove-MsolGroup** cmdlet.
 
+## **Exercise – Interactive demonstrations**
+
+Select the following links to complete these interactive demonstrations:
+
+ -  [Create and manage groups](https://edxinteractivepage.blob.core.windows.net/edxpages/MS-100/M2-L1-E2-T2/index.html?azure-portal=true)
+ -  [Recover groups using PowerShell](https://edxinteractivepage.blob.core.windows.net/edxpages/MS-100/M2-L1-E2-T3/index.html?azure-portal=true)
+
+The first simulation guides you through the steps to create a Microsoft 365 group and a security group for the fictitious Adatum Corporation. You will also complete the steps to delete a group. In the second simulation, you will use Windows PowerShell to recover a deleted group.
+
 ## Knowledge check
 
 Choose the best response for the following question. Then select “Check your answers.”
+
+## Multiple Choice
+You're the Enterprise Administrator for Contoso. After creating a security group in Microsoft 365 that is synchronized with your on-premises Active Directory, you now want to edit the group. Which of the following tools should you use to edit the group?
+( ) Microsoft 365 admin center
+(x) Local Active Directory management tools
+( ) Windows PowerShell
+

@@ -4,37 +4,14 @@ title: Knowledge check
 metadata:
   title: Knowledge check
   description: "Knowledge check"
-  ms.date: 06/30/2021
+  ms.date: 09/03/2021
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
+sandbox: false
+labModal: false
 durationInMinutes: 4
 content: |
   [!include[](includes/5-knowledge-check.md)]
-quiz:
-  title: "Check your knowledge"
-  questions:
-  - content: "When you create a site collection in SharePoint Online, which SharePoint Online groups are automatically created for that site collection?"
-    choices:
-    - content: "The default SharePoint Online groups that are associated with the Team Site template, which are the Team Site Visitors, Team Site Members, and Team Site Owners"
-      isCorrect: false
-      explanation: "That's incorrect. These groups aren't automatically created for a site collection when you create it in SharePoint Online. Try again."
-    - content: "The default SharePoint Online groups that are created depend on the site template that's used to create the site"
-      isCorrect: true
-      explanation: "That's correct. The SharePoint Online groups that are created depend on the site template that's used to create the site."
-    - content: "The default SharePoint Online Security group"
-      isCorrect: false
-      explanation: "That's incorrect. These groups aren't automatically created for a site collection when you create it in SharePoint Online. Try again."
-  - content: "As the Enterprise Administrator for Contoso, you're planning to set up some groups in your Microsoft 365 tenant. You want to create a dynamic distribution group. The recipients in this group will be recalculated every time you send a message that's based on filters and conditions that you define. Which of the following tools should you use to create the group?"
-    choices:
-    - content: "Microsoft 365 admin center"
-      isCorrect: false
-      explanation: "That's incorrect. You can't use this tool to create a dynamic distribution group. Try again."
-    - content: "Microsoft Outlook"
-      isCorrect: false
-      explanation: "That's incorrect. You can't use this tool to create a dynamic distribution group. Try again."
-    - content: "Exchange admin center"
-      isCorrect: true
-      explanation: "That's correct. A dynamic distribution group must be created in the Exchange admin center."

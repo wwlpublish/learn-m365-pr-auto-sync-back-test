@@ -201,3 +201,10 @@ A Microsoft 365 group consists of the following objects:
 ## Knowledge check
 
 Choose the best response for the following question. Then select “Check your answers.”
+
+## Multiple Choice
+You're the Enterprise Administrator for Contoso, and you're planning to set up some groups in your Microsoft 365 tenant. You want to create a group that enables your Manufacturing team members to collaborate with one another. The group will provide them a shared workspace for email, conversations, files, and calendar events. What type of group should you create?
+( ) Security group
+( ) Distribution group
+(x) Microsoft 365 group
+
