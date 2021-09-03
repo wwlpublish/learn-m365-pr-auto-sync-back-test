@@ -1,6 +1,6 @@
 Microsoft 365 includes encryption features that are managed by Microsoft, and encryption features that can be managed and configured by customers. Rights Management Services (RMS) is a technology related to SharePoint that encrypts customer data at rest or in-transit. This cloud-based protection service uses encryption, identity, and authorization policies to help secure an organization's files and email, and it works across multiple devices—phones, tablets, and PCs. Information can be protected both within and outside an organization because that protection remains with the data, even when it leaves an organization’s boundaries.
 
-**Additional reading.** For more information, see [Azure Rights Management](/azure/information-protection/understand-explore/what-is-azure-rms).
+**Additional reading.** For more information, see [Azure Rights Management](/azure/information-protection/understand-explore/what-is-azure-rms?azure-portal=true).
 
 ### Encryption of data at rest
 
@@ -30,3 +30,10 @@ The following graphic shows in a single picture all the areas of encryption ment
 ## Knowledge check
 
 Choose the best response for the following question. Then select “Check your answers.”
+
+## Multiple Choice
+Which of the following encryption methods provides encryption on all customer document libraries and site data that's stored in the Microsoft 365 datacenter?
+( ) Client communication with the server encryption
+( ) Per-file encryption
+(x) BitLocker encryption
+
