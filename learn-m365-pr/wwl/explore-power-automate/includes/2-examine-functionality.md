@@ -25,8 +25,15 @@ Users can create the following types of flows in Power Automate:
 
 This training focuses on automated flows, instant flows, and scheduled flows, which are collectively referred to as event triggered flows.
 
-**Additional reading.** For more information, see [Getting started with Power Automate](/power-automate/getting-started).
+**Additional reading.** For more information, see [Getting started with Power Automate](/power-automate/getting-started?azure-portal=true).
 
 ## Knowledge check
 
 Choose the best response for the following question. Then select “Check your answers.”
+
+## Multiple Choice
+As the Enterprise Administrator for Contoso, Holly Dickson was approached by one of Contoso's users who complained they could not create a specific flow in Power Automate. The flow would schedule an automated daily data upload to SharePoint. Which of the following reasons would be a possible explanation as to why the user was unable to create this flow?
+( ) The user was attempting to create a UI flow
+( ) Automated daily data uploads can only be made to Exchange
+(x) The user doesn't have permission to schedule an automated daily data upload to SharePoint
+

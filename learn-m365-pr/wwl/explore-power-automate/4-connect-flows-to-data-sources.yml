@@ -4,26 +4,14 @@ title: Connect flows to data sources
 metadata:
   title: Connect flows to data sources
   description: "Connect flows to data sources"
-  ms.date: 07/09/2021
+  ms.date: 09/03/2021
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
+sandbox: false
+labModal: false
 durationInMinutes: 5
 content: |
   [!include[](includes/4-connect-flows-to-data-sources.md)]
-quiz:
-  title: "Check your knowledge"
-  questions:
-  - content: "As the Enterprise Administrator for Northwind Traders, Patti Fernandez is implementing Power Automate flows. What must Patti do in Microsoft Power Platform to enable a Power Automate flow to call a publicly available API?"
-    choices:
-    - content: "Build a custom connector"
-      isCorrect: true
-      explanation: "That's correct. Power Platform provides the option to build custom connectors, which enable an app or flow to call a publicly available API, or a custom API hosted by a cloud provider."
-    - content: "Install an on-premises data gateway"
-      isCorrect: false
-      explanation: "That's incorrect. This action won't enable a Power Automate flow to call a publicly available API. Try again."
-    - content: "Use the Common Data Service"
-      isCorrect: false
-      explanation: "That's incorrect. This action won't enable a Power Automate flow to call a publicly available API. Try again."

@@ -4,48 +4,14 @@ title: Knowledge check
 metadata:
   title: Knowledge check
   description: "Knowledge check"
-  ms.date: 07/09/2021
+  ms.date: 09/03/2021
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
+sandbox: false
+labModal: false
 durationInMinutes: 6
 content: |
   [!include[](includes/7-knowledge-check.md)]
-quiz:
-  title: "Check your knowledge"
-  questions:
-  - content: "What do Power Automate flows require to start?"
-    choices:
-    - content: "An action"
-      isCorrect: false
-      explanation: "That's incorrect. Actions define the steps a flow will complete. They don't start a flow. Try again."
-    - content: "A trigger"
-      isCorrect: true
-      explanation: "That's correct. All flows require a trigger to start."
-    - content: "A template"
-      isCorrect: false
-      explanation: "That's incorrect. Templates are used to create flows. They don't start a flow. Try again."
-  - content: "As the Enterprise Administrator for Northwind Traders, Patti Fernandez recently created a Power Automate flow. Patti later added another user as an owner of this flow. How will this action affect the flow?"
-    choices:
-    - content: "The flow will only show up under Team flows"
-      isCorrect: true
-      explanation: "That's correct. When a user adds another user or group as an owner of a flow, that flow becomes a team flow. As such, it only shows up under Team flows."
-    - content: "The flow will become a Microsoft 365 group flow"
-      isCorrect: false
-      explanation: "That's incorrect. That's not how the flow will be affected. Try again."
-    - content: "The co-owners can create a new flow that uses the same connection as that flow"
-      isCorrect: false
-      explanation: "That's incorrect. Co-owners are limited to use the connection with that flow. They can't create a new flow and use the same connection. Try again."
-  - content: "Which type of flows are triggered manually as needed?"
-    choices:
-    - content: "Instant flows"
-      isCorrect: true
-      explanation: "That's correct. Instant flows are triggered manually as needed. Instant flows are also referred to as button flows."
-    - content: "Scheduled flows"
-      isCorrect: false
-      explanation: "That's incorrect. Scheduled flows are triggered by a schedule. The creator of the flow chooses when and how often the flow runs. Try again."
-    - content: "Automated flows"
-      isCorrect: false
-      explanation: "That's incorrect. Automated flows are triggered by a chosen event. For example, a user may create a flow to notify you when an item is created or modified in a SharePoint list. Try again."
