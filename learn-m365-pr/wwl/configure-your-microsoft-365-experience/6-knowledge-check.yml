@@ -15,3 +15,28 @@ labModal: false
 durationInMinutes: 4
 content: |
   [!include[](includes/6-knowledge-check.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "You're the Enterprise Administrator for Tailwind Traders, which up until last month was located in Paris, France. When Tailwind purchased its Microsoft 365 subscription two years ago, it set the Preferred Language setting in its Organization Profile to French. However, Tailwind recently moved its corporate headquarters to New York. Following the relocation, you changed the Preferred Language from French to English (US). In doing so, the language for all communications that are sent from Microsoft to Tailwind Traders will now be in English (US). However, what aspect of your Microsoft 365 deployment will still be in French?"
+    choices:
+    - content: "The language used by Exchange Online will still be French"
+      isCorrect: false
+      explanation: "1"
+    - content: "The language used by Outlook will still be French"
+      isCorrect: false
+      explanation: "2"
+    - content: "The language used by SharePoint Online will still be French"
+      isCorrect: true
+      explanation: "3"
+  - content: "As the Enterprise Administrator for Contoso, you want to confirm your company's readiness to deploy Microsoft 365. You're especially interested in checking the company's DNS records and mail flow to test whether its mailing policies are working properly. Which of the following tools should you run to check Contoso's DNS records and mailing policies?"
+    choices:
+    - content: "Microsoft Message Analyzer"
+      isCorrect: false
+      explanation: "1"
+    - content: "Support and Recovery Assistant"
+      isCorrect: true
+      explanation: "2"
+    - content: "Azure AD Connect"
+      isCorrect: false
+      explanation: "3"
