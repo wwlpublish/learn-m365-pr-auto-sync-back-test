@@ -15,3 +15,17 @@ labModal: false
 durationInMinutes: 3
 content: |
   [!include[](includes/4-integrate-with-customer-engagement-apps.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "You're the Enterprise Administrator for Contoso, which has a Microsoft 365 Enterprise E3 subscription. The IT team wants to use Visio. While you're happy to accommodate the IT team, you want to do so while minimizing your costs. What should you do?"
+    choices:
+    - content: "Upgrade your subscription to Microsoft 365 Enterprise E5"
+      isCorrect: false
+      explanation: "1"
+    - content: "Purchase an add-on license for Visio Online"
+      isCorrect: true
+      explanation: "2"
+    - content: "Deploy the standalone version of Office 2019"
+      isCorrect: false
+      explanation: "3"
