@@ -28,14 +28,33 @@ Microsoft Teams enables individual teams to self-organize and collaborate across
  -  **Channels.** A channel is a dedicated section within a team to keep conversations organized by specific topics, projects, or disciplines. Files that you share in a channel (on the Files tab) are stored in SharePoint.
     
      -  Channels are places where conversations happen and where the work actually gets done. Channels can be open to all team members or, if an organization needs a more select audience, they can be private. Standard channels are for conversations that everyone in a team can participate in. Private channels limit communication to a subset of people in a team.
-     -  Channels are most valuable when extended with apps that include tabs, connectors, and bots that increase their value to the members of the team. To learn more, see [Apps, bots, &amp; connectors in Teams](/microsoftteams/deploy-apps-microsoft-teams-landing-page).
+     -  Channels are most valuable when extended with apps that include tabs, connectors, and bots that increase their value to the members of the team. To learn more, see [Apps, bots, &amp; connectors in Teams](/microsoftteams/deploy-apps-microsoft-teams-landing-page?azure-portal=true).
 
 **Additional reading.** For more information on Teams, see the following articles:<br>
 
  -  To learn about standard guidelines, news, and trends directly from the team behind Microsoft Teams, see the [Microsoft Teams’ blog](https://aka.ms/teamsblog?azure-portal=true).
  -  For more information on Microsoft's vision for Intelligent Communications, see [A new vision for intelligent communications in Office 365](https://aka.ms/IntelComm?azure-portal=true).
- -  For more information on collaborating within Microsoft Teams, see [How SharePoint Online and OneDrive for Business interact with Teams](/microsoftteams/sharepoint-onedrive-interact).
+ -  For more information on collaborating within Microsoft Teams, see [How SharePoint Online and OneDrive for Business interact with Teams](/microsoftteams/sharepoint-onedrive-interact?azure-portal=true).
+
+## **Exercise – Interactive demonstrations**
+
+Select the following links to complete these interactive demonstrations:
+
+ -  [Manage global meeting policy](https://edxinteractivepage.blob.core.windows.net/edxpages/MS-100/M4-L3-E4-T1/index.html?azure-portal=true)
+ -  [Manage messaging policies](https://edxinteractivepage.blob.core.windows.net/edxpages/MS-100/M4-L3-E4-T3/index.html?azure-portal=true)
+ -  [Create a resource account](https://edxinteractivepage.blob.core.windows.net/edxpages/MS-100/M4-L3-E4-T4/index.html?azure-portal=true)
+ -  [Create a call queue](https://edxinteractivepage.blob.core.windows.net/edxpages/MS-100/M4-L3-E4-T5/index.html?azure-portal=true)
+ -  [Manage Teams settings](https://edxinteractivepage.blob.core.windows.net/edxpages/MS-100/M4-L3-E4-T9/index.html?azure-portal=true)
+
+These simulations guide you through the steps to complete a variety of management tasks in the Teams admin center for the fictitious Adatum Corporation.
 
 ## Knowledge check
 
 Choose the best response for the following question. Then select “Check your answers.”
+
+## Multiple Choice
+As the Enterprise Administrator for Contoso, Holly Dickson is planning to implement Microsoft Teams in the next phase of Contoso's Microsoft 365 deployment. After discussing this with Contoso's senior leadership team, Holly was contacted by the VP of Manufacturing, who wants to use Microsoft Teams to invite a select group of Contoso scientists to work together on a top-secret project. Holly was asked to make this happen. What can Holly create in Microsoft Teams to support this effort?
+( ) A channel
+( ) A public team
+(x) A private team
+
