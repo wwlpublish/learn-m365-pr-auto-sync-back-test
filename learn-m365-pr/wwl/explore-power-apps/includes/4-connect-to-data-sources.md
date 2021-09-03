@@ -11,7 +11,7 @@ Other data sources, such as the Microsoft 365 Users Connection or Project Online
 > [!NOTE]
 > When using Excel as a data source, the data must be formatted as a table.
 
-**Additional reading.** For more information on connectors and data access, see the [connector index](/connectors/index).
+**Additional reading.** For more information on connectors and data access, see the [connector index](/connectors/index?azure-portal=true).
 
 ### On-premises data sources
 
@@ -19,7 +19,7 @@ Connections to on-premises data sources, such as an on-premises SharePoint servi
 
 An on-premises data gateway enables multiple users to connect to multiple on-premises data sources. A single installation of an on-premises data gateway can also be used with all supported services.
 
-**Additional reading.** For more information, see the [On-premises data gateway architecture](/data-integration/gateway/service-gateway-onprem-indepth) documentation.
+**Additional reading.** For more information, see the [On-premises data gateway architecture](/data-integration/gateway/service-gateway-onprem-indepth?azure-portal=true) documentation.
 
 ### Data source authentication
 
@@ -54,6 +54,19 @@ Entities within Common Data Service can use rich server-side logic and validatio
 
 Data in Common Data Service is securely stored so that users can see it only if you grant them access. Role-based security allows an organization to control access to entities for different users.
 
+## **Exercise – Interactive demonstration**
+
+Select the following link to complete an interactive demonstration titled: [Create a Power App from a data source](https://edxinteractivepage.blob.core.windows.net/edxpages/MS-100/M4-L3-E6-T2/index.html?azure-portal=true).
+
+This simulation guides you through the steps to create a Power app from a data source for the fictitious company known as Adatum Corporation.
+
 ## Knowledge check
 
 Choose the best response for the following question. Then select “Check your answers.”
+
+## Multiple Choice
+What do connections to on-premises data sources, such as an on-premises SharePoint service, require to provide quick and secure data transfer between on-premises data and the Power Platform products?
+( ) Common Data Service
+( ) Environments
+(x) On-premises data gateway
+
