@@ -4,26 +4,14 @@ title: Explore the SharePoint Administrator role
 metadata:
   title: Explore the SharePoint Administrator role
   description: "Explore the SharePoint Administrator role"
-  ms.date: 07/01/2021
+  ms.date: 09/03/2021
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
+sandbox: false
+labModal: false
 durationInMinutes: 6
 content: |
   [!include[](includes/5-explore-sharepoint-administrator-role.md)]
-quiz:
-  title: "Check your knowledge"
-  questions:
-  - content: "Which of the following responsibilities enables the SharePoint Administrator to manage metadata information on a central location?"
-    choices:
-    - content: "Site Collections"
-      isCorrect: false
-      explanation: "That's incorrect. This responsibility enables the SharePoint Administrator to create and manage site collections. However, this responsibility does not manage metadata information on a central location. Try again."
-    - content: "Term Store"
-      isCorrect: true
-      explanation: "That's correct. This responsibility enables the SharePoint Administrator to use the Term Store to manage metadata information on a central location."
-    - content: "Records Management"
-      isCorrect: false
-      explanation: "That's incorrect. This responsibility enables the SharePoint Administrator to manage records in place, which means that you can leave a document in its current location on a site, or store records in a specific archive. However, this responsibility does not manage metadata information on a central location. Try again."

@@ -13,18 +13,21 @@ You'll then use the **Add-MsolRoleMember** cmdlet to assign that role to a user.
 
 ```
 Add-MsolRoleMember -RoleName "nameofrole" –RoleMemberEmailAddress "useremailaddress"
+
 ```
 
 For example:
 
 ```
 Add-MsolRoleMember –RoleName "Exchange Service Administrator" –RoleMemberEmailAddress "melissa@Adatum.onmicrosoft.com"
+
 ```
 
 To view a user’s assigned administrator role, at the command prompt, type the following cmdlet, and then press Enter:
 
 ```
 Get-MsolUserRole –UserPrincipalName "userprincipalname"
+
 ```
 
 To view all users who are assigned to a specific administrator role, at the command prompt, type the following cmdlets, pressing Enter after each:
@@ -33,12 +36,14 @@ To view all users who are assigned to a specific administrator role, at the comm
 $role = Get-MsolRole –RoleName "Exchange Service Administrator"
 
 Get-MsolRoleMember –RoleObjectId $role.ObjectId
+
 ```
 
 To remove an administrator role in Windows PowerShell, at the command prompt, type the following cmdlet, and then press Enter:
 
 ```
 Remove-MsolRoleMember -RoleName "nameofrole" –RoleMemberEmailAddress "useremailaddress"
+
 ```
 
 ### Delegating roles to partners

@@ -4,12 +4,14 @@ title: Explore the Teams Administrator role
 metadata:
   title: Explore the Teams Administrator role
   description: "Explore the Teams Administrator role"
-  ms.date: 07/01/2021
+  ms.date: 09/03/2021
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
+sandbox: false
+labModal: false
 durationInMinutes: 2
 content: |
   [!include[](includes/8-explore-teams-administrator-role.md)]

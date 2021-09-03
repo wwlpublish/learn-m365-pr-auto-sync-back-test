@@ -199,3 +199,10 @@ The SharePoint Administrator can configure SharePoint Online hybrid with an on-p
 ## Knowledge check
 
 Choose the best response for the following question. Then select “Check your answers.”
+
+## Multiple Choice
+Which of the following responsibilities enables the SharePoint Administrator to manage metadata information on a central location?
+( ) Site Collections
+(x) Term Store
+( ) Records Management
+
