@@ -25,3 +25,10 @@ Microsoft Power Platform empowers a new category of app creators known as citize
 ## Knowledge check
 
 Choose the best response for the following question. Then select “Check your answers.
+
+## Multiple Choice
+Which of the following Microsoft Power Platform products enables anyone to create powerful chatbots using a guided, no-code graphical interface, without the need for data scientists or developers?
+( ) Power Automate
+( ) Power Apps
+(x) Power Virtual Agents
+
