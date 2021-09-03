@@ -4,26 +4,14 @@ title: Plan migration strategies
 metadata:
   title: Plan migration strategies
   description: "Plan migration strategies"
-  ms.date: 07/09/2021
+  ms.date: 09/03/2021
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
+sandbox: false
+labModal: false
 durationInMinutes: 5
 content: |
   [!include[](includes/4-plan-migration-strategies.md)]
-quiz:
-  title: "Check your knowledge"
-  questions:
-  - content: "Contoso is planning to migrate its Exchange environment to Microsoft 365. It has an Exchange 2013 Server on-premises deployment with 1000 users. As Contoso's Enterprise Administrator, Holly Dickson wants to maintain this on-premises environment for recipient administration purposes. Which of the following migration strategies would be best for Contoso?"
-    choices:
-    - content: "Cutover migration"
-      isCorrect: false
-      explanation: "That's incorrect. This migration strategy won't be the best strategy for Contoso. Try again."
-    - content: "PST migration"
-      isCorrect: false
-      explanation: "That's incorrect. This migration strategy won't be the best strategy for Contoso. Try again."
-    - content: "Hybrid migration"
-      isCorrect: true
-      explanation: "That's correct. This migration strategy enables Contoso to move users between its on-premises Exchange environment and Microsoft 365, while maintaining the on-premises deployment for recipient administration purposes."
