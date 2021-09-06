@@ -15,7 +15,7 @@ You'll use Node.js to create the custom Outlook add-in in this module. The exerc
 - [Node.js](https://nodejs.org/) - (*the latest [LTS](https://nodejs.org/about/releases) version*)
 - NPM (installed with Node.js) - v6.x (or higher)
 - [Yeoman](https://yeoman.io/) - v3.x (or higher)
-- [Yeoman Generator for Microsoft Office](https://github.com/OfficeDev/generator-office) - v1.7.x (or higher)
+- [Yeoman Generator for Microsoft Office](https://github.com/OfficeDev/generator-office) - v1.8.x (or higher)
 - [Visual Studio Code](https://code.visualstudio.com)
 
 You must have the minimum versions of these prerequisites installed on your workstation.
@@ -172,7 +172,7 @@ const urlParams = `?startdatetime=${ startDate.toISOString() }&enddatetime=${ en
 const response = await sso.getGraphData(exchangeResponse.access_token, endpoint, urlParams);
 ```
 
-Next, locate and open the **./src/helpers/documentHelper.js** file.
+Next, locate, and open the **./src/helpers/documentHelper.js** file.
 
 Find the method `writeDataToOutlook()`. You'll replace the contents of this method to build an HTML string of the upcoming meetings returned from the Microsoft Graph request and add the list to the current email.
 
