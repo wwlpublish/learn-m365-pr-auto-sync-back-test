@@ -4,8 +4,8 @@ metadata:
   title: Exercise - Add task panes to Outlook add-ins
   description: Task panes are useful in Outlook add-ins when you want to present the user with multiple choices or implement a user interface. In this exercise, you'll add a task pane experience to your existing Outlook add-in.
   ms.date: 11/25/2020
-  author: andrewconnell
-  ms.author: v-johnco
+  author: andrewconnell-msft
+  ms.author: suzanz
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Exercise - Add task panes to Outlook add-ins
