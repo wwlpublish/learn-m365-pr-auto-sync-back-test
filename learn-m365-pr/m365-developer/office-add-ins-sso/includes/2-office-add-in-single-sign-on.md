@@ -98,7 +98,7 @@ There are three parts of this section that must be updated for your application:
 
 Finally, an add-in must implement client-side code to implement and support SSO. If you use the tools provided by Microsoft, your add-in project will include most of the boilerplate code to support SSO. This is true if you use either the [Office Developer Tools](https://www.visualstudio.com/features/office-tools-vs.aspx) for Visual Studio 2019 for an ASP.NET add-in or the [Yeoman Generator for Microsoft Office](https://github.com/OfficeDev/generator-office) for VS Code for a Node.js based add-in.
 
-The API method `[OfficeRuntime.Auth.getAccessToken()](https://docs.microsoft.com/javascript/api/office-runtime/officeruntime.auth)` is used by the add-in to request an access token from the hosting Office client.
+The API method `[OfficeRuntime.Auth.getAccessToken()](/javascript/api/office-runtime/officeruntime.auth)` is used by the add-in to request an access token from the hosting Office client.
 
 The Office client will request an access token from Azure AD using the application previously registered with Azure AD.
 
