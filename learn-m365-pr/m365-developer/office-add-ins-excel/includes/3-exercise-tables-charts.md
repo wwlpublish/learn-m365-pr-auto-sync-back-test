@@ -186,7 +186,7 @@ In this section, you'll programmatically test that your add-in supports the user
         npm run start:web
         ```
 
-        To use your add-in, open a new document in Excel on the web and then sideload your add-in by following the instructions in [Sideload Office Add-ins in Office on the web](https://docs.microsoft.com/office/dev/add-ins/testing/sideload-office-add-ins-for-testing#sideload-an-office-add-in-in-office-on-the-web).
+        To use your add-in, open a new document in Excel on the web and then sideload your add-in by following the instructions in [Sideload Office Add-ins in Office on the web](/office/dev/add-ins/testing/sideload-office-add-ins-for-testing#sideload-an-office-add-in-in-office-on-the-web).
 
 1. In Excel, select the **Home** tab, and then select the **Show Task pane** button in the ribbon to open the add-in task pane.
 
@@ -335,7 +335,7 @@ In this section, you'll filter and sort the table that you created previously.
         npm run start:web
         ```
 
-        To use your add-in, open a new document in Excel on the web and then sideload your add-in by following the instructions in [Sideload Office Add-ins in Office on the web](https://docs.microsoft.com/office/dev/add-ins/testing/sideload-office-add-ins-for-testing#sideload-an-office-add-in-in-office-on-the-web).
+        To use your add-in, open a new document in Excel on the web and then sideload your add-in by following the instructions in [Sideload Office Add-ins in Office on the web](/office/dev/add-ins/testing/sideload-office-add-ins-for-testing#sideload-an-office-add-in-in-office-on-the-web).
 
 1. If the add-in task pane isn't already open in Excel, go to the **Home** tab and select the **Show Task pane** button in the ribbon to open it.
 1. If the table you added previously in this tutorial isn't present in the open worksheet, select the **Create Table** button in the task pane.
@@ -446,7 +446,7 @@ In this section, you'll create a chart using data from the table that you create
         npm run start:web
         ```
 
-        To use your add-in, open a new document in Excel on the web and then sideload your add-in by following the instructions in [Sideload Office Add-ins in Office on the web](https://docs.microsoft.com/office/dev/add-ins/testing/sideload-office-add-ins-for-testing#sideload-an-office-add-in-in-office-on-the-web).
+        To use your add-in, open a new document in Excel on the web and then sideload your add-in by following the instructions in [Sideload Office Add-ins in Office on the web](/office/dev/add-ins/testing/sideload-office-add-ins-for-testing#sideload-an-office-add-in-in-office-on-the-web).
 
 1. If the add-in task pane isn't already open in Excel, go to the **Home** tab and select the **Show Task pane** button in the ribbon to open it.
 1. If the table you added previously in this tutorial isn't present in the open worksheet, select the **Create Table** button, and then the **Filter Table** button and the **Sort Table** button, in either order.
