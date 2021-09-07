@@ -22,7 +22,7 @@ quiz:
     - content: "Ask your presenters to run through their content by themselves."
       isCorrect: false
       explanation: "That's incorrect. It is good for presenters to practice delivering their content, but what about the rest of the event team?"
-    - content: "Have your IT contact available throughout the event in case of issues."
+    - content: "Have your IT contact available throughout the event in case there are issues."
       isCorrect: false
       explanation: "That's incorrect. It is useful to have to IT support throughout your event, but this won't avoid the most common issues before the event starts."
   - content: "Where should you host a live event if you have 15,000 attendees that are inside and outside your organization?"
@@ -47,3 +47,25 @@ quiz:
     - content: "Tailor your behavior for your audience."
       isCorrect: false
       explanation: "That's incorrect. Don't act differently around people who are different, just be yourself don't overreact."
+  - content: "Why are Teams meetings and webinars more sensitive to network delays than live events that use encoders?"
+    choices:
+    - content: "Because the content for live events produced with encoders is streamed live, which is less likely to encounter network delays."
+      isCorrect: false
+      explanation: "That's incorrect. Live stream content is *more* likely to encounter network delays, not less likely."
+    - content: "Because Teams meetings and webinars use Real-Time Protocol, which is sensitive to network delays."
+      isCorrect: true
+      explanation: "That's correct. Live events that are produced using encoders use RTMP, which is less sensitive."
+    - content: "Because live events use eCDNs, which limit traffic across your company firewall."
+      isCorrect: false
+      explanation: "That's incorrect. While using an eCDN can help, what makes live events less vulnerable to network delays is using RTMP, instead of RTP."      
+  - content: "How can you control who has access to live event features like transcriptions and recording?"
+    choices:
+    - content: "By using settings in Teams."
+      isCorrect: true
+      explanation: "That's correct. You can use the settings to control who can schedule or join live events, and even whether a live event can be recorded."
+    - content: "By using configuration settings for your Microsoft 365 tenant."
+      isCorrect: false
+      explanation: "That's incorrect. You use settings in Teams itself to control this behavior."
+    - content: "By assigning different permissions to different groups."
+      isCorrect: false
+      explanation: "That's incorrect. You use settings in Teams itself to control this behavior."      
