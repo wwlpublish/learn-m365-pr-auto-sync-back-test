@@ -4,7 +4,7 @@ metadata:
   moduleType: standard
   title: Design a successful virtual event using Microsoft 365
   description: Learn how to design a successful virtual event using Microsoft 365.
-  ms.date: 07/19/2021
+  ms.date: 08/06/2021
   author: lizap
   ms.author: elizapo
   ms.topic: interactive-tutorial
@@ -21,6 +21,7 @@ abstract: |
     - Design an inclusive virtual event
     - Create accessible presentations and videos
     - Manage virtual events to be more inclusive and engaging
+    - Ensure your environment is ready, technically, to support your event content and attendees
     - Review how your event went and identify opportunities for improvement
     - Understand how to gather feedback and turn them into insights
 
@@ -40,6 +41,7 @@ units:
 - learn-m365-pr.design-successful-virtual-event-using-microsoft-365.move-from-real-meetings-virtual-meetings
 - learn-m365-pr.design-successful-virtual-event-using-microsoft-365.manage-your-virtual-event-for-accessibility
 - learn-m365-pr.design-successful-virtual-event-using-microsoft-365.select-right-event-experience
+- learn-m365-pr.design-successful-virtual-event-using-microsoft-365.it-readiness
 - learn-m365-pr.design-successful-virtual-event-using-microsoft-365.learn-from-your-virtual-event-for-future
 - learn-m365-pr.design-successful-virtual-event-using-microsoft-365.knowledge-check
 - learn-m365-pr.design-successful-virtual-event-using-microsoft-365.summary
