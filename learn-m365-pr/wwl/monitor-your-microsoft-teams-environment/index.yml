@@ -1,0 +1,40 @@
+### YamlMime:Module
+uid: learn.wwl.monitor-your-microsoft-teams-environment
+metadata:
+  title: Monitor your Microsoft Teams environment
+  description: "Learn about different reports and dashboards to monitor your Teams environment, including Microsoft 365 and Teams usage reports, Microsoft Productivity Score, Azure AD access reviews, and Microsoft 365 network connectivity dashboard."
+  ms.date: 08/25/2021
+  author: wwlpublish
+  ms.author: jennyche
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Monitor your Microsoft Teams environment
+summary: Learn about different reports and dashboards to monitor your Teams environment, including Microsoft 365 and Teams usage reports, Microsoft Productivity Score, Azure AD access reviews, and Microsoft 365 network connectivity dashboard.
+abstract: |
+  By the end of this module, you will be able to:
+  - Analyze usage patterns by monitoring Microsoft 365 and Teams usage reports.
+  - Monitor user access by using Azure AD access reviews.
+  - Interpret Microsoft Productivity Score.
+  - Assess network readiness by using Microsoft 365 network connectivity dashboard.
+prerequisites: |
+  - A proficient understanding of basic functional experience with Microsoft 365 services.
+  - A proficient understanding of general IT practices, including using PowerShell.
+iconUrl: /learn/achievements/generic-badge.svg
+levels:
+- intermediate
+roles:
+- administrator
+products:
+- m365
+- office-teams
+units:
+- learn.wwl.monitor-your-microsoft-teams-environment.introduction
+- learn.wwl.monitor-your-microsoft-teams-environment.monitor-usage-reports
+- learn.wwl.monitor-your-microsoft-teams-environment.monitor-microsoft-365-usage-reports
+- learn.wwl.monitor-your-microsoft-teams-environment.interpret-microsoft-productivity-score
+- learn.wwl.monitor-your-microsoft-teams-environment.manage-user-access-azure-active-directory-access-reviews
+- learn.wwl.monitor-your-microsoft-teams-environment.monitor-microsoft-365-network-connectivity-dashboard
+- learn.wwl.monitor-your-microsoft-teams-environment.knowledge-check
+- learn.wwl.monitor-your-microsoft-teams-environment.summary
+badge:
+  uid: learn.wwl.monitor-your-microsoft-teams-environment.badge

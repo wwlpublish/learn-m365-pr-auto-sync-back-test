@@ -67,7 +67,7 @@ You must be assigned the Organization Configuration role in the Microsoft 365 De
 
     The image below is an example of the confirmation received that AlexW user is a member of the Organization Management role group. AlexW can now create or modify audit log retention policies.
 
-    ![User confirmation screen](../media/role-group.png)
+    :::image type="content" source="../media/role-group.png" alt-text="User confirmation screen":::
 
 ## Create audit log retention policy in Microsoft 365 compliance center
 
@@ -79,7 +79,7 @@ Audit log retention policies can be created using the Microsoft 365 compliance c
 
 |  Field |  Description |
 |---|---|
-|  Name	 | The name of the audit log retention policy. This name must be unique in your organization.  |
+|  Name | The name of the audit log retention policy. This name must be unique in your organization.  |
 |  Description | Provides information about the policy, such as the record type or workload, users specified in the policy, and the duration.  |
 |  Users | Select one or more users to apply the policy to. If you leave this box blank, then the policy will apply to all users. If you leave Users blank, you must select a Record Type.  |
 |  Record Type | The audit record type the policy applies to. If you select more than one record type, you can't select activities because the policy will apply to all activities for the selected record types. Also, if you leave Record Type blank, you must select a User.  |

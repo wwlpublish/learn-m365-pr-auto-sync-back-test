@@ -22,7 +22,7 @@ abstract: |
 prerequisites: | 
    - Familiar with Microsoft 365 apps and Microsoft Teams
 
-iconUrl: /learn/achievements/generic-badge.svg
+iconUrl: /learn/achievements/introduction-to-viva-topics.svg
 ratingEnabled: true
 levels:
 - beginner

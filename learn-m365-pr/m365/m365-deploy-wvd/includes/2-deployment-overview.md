@@ -1,24 +1,39 @@
 Before we walk through the deployment process, let's review some key terms and deployment options.
 
-## Terminology
+## Key terms
 
-- *Workspace* - A workspace is a logical grouping of application groups in Azure Virtual Desktop. When a user signs in to Azure Virtual Desktop, they see a workspace with either a desktop or applications published to the application groups assigned to them.
-- *Host pool* - A host pool is a collection of Azure virtual machines (VMs) that act as session hosts for Azure Virtual Desktop. 
-  - *Pooled* - You can configure a *pooled* host pool where several users sign in and share a VM. Typically, none of those users would be a local administrator on the pooled VM. With pooled, you can use one of the recommended images that include Windows 10 Enterprise multi-session. This OS is exclusive to Azure Virtual Desktop.
-  - *Personal* - A *personal* host pool is where each user has their own dedicated VM. Those users would typically be a local administrator for the VM. So they could install or uninstall apps without impacting other users.
-- *Application groups* - An application group is a mechanism for grouping remote resources and assigning them to users. An application group can be one of two types:
+The key components you deploy when you set up Azure Virtual Desktop are a host pool, application group, and workspace. The following video describes these components.
+
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWHDf1]
+
+### Host pool
+
+ A host pool is a collection of Azure virtual machines (VMs) that act as session hosts for Azure Virtual Desktop. There are two types of host pools:
+
+- *Pooled* - You can configure a *pooled* host pool where several users sign in and share a VM. Typically, none of those users would be a local administrator on the pooled VM. With pooled, you can use one of the recommended images that include Windows 10 Enterprise multi-session. This OS is exclusive to Azure Virtual Desktop.
+- *Personal* - A *personal* host pool is where each user has their own dedicated VM. Those users would typically be a local administrator for the VM. So they could install or uninstall apps without impacting other users.
+
+There are two load-balancing options for the host pool:
+
+- *Breadth-first* - Default configuration for new non-persistent host pools. Distributes new user sessions across all available session hosts in the host pool. When you configure breadth-first load balancing, you may set a maximum session limit per session host in the host pool.
+- *Depth-first* - Distributes new user sessions to an available session host with the highest number of connections but has not reached its maximum session limit threshold. When you configure depth-first load balancing, you must set a maximum session limit per session host in the host pool.
+  
+### Application group
+
+An application group is a way to group remote resources and assign them to users. An application group can be one of two types:
 
   - *RemoteApp*, where users access the applications you individually publish to the application group. You can create multiple RemoteApp app groups to accommodate different user scenarios. Use RemoteApp to virtualize an app that runs on a legacy OS or one that needs secured access to corporate resources.
   - *Remote Desktop*, where users access the full desktop. By default, the group **Desktop Application Group** is automatically created when you create a host pool.
   
-- Load-balancing options -
+### Workspace
 
-  - *Breadth-first* - Default configuration for new non-persistent host pools. Distributes new user sessions across all available session hosts in the host pool. When you configure breadth-first load balancing, you may set a maximum session limit per session host in the host pool.
-  - *Depth-first* - Distributes new user sessions to an available session host with the highest number of connections but has not reached its maximum session limit threshold. When you configure depth-first load balancing, you must set a maximum session limit per session host in the host pool.
+A workspace is a logical grouping of application groups in Azure Virtual Desktop. When a user signs in to Azure Virtual Desktop, they see a workspace with either a desktop or applications published to the application groups assigned to them.
 
-The following diagram shows an Azure Virtual Desktop workspace with two host pools. Host pool A has two application groups: Desktop and RemoteApp. These resources are shared (pooled) across the sales team. Host pool B has a Desktop application group with personal desktops available to an engineering team. 
+The following diagram shows an Azure Virtual Desktop workspace with two host pools. Host pool A has two application groups: Desktop and RemoteApp. These resources are shared (pooled) across the sales team. Host pool B has a Desktop application group with personal desktops available to an engineering team.
 
    :::image type="content" source="../media/2-deploy-app-groups.png" border="false" alt-text="Diagram that shows the relationship of a workspace, host pool, and application group.":::
+
+
 
 ## Configure virtual machines for host pool
 

@@ -1,7 +1,7 @@
 
 Microsoft Teams is an internal messaging and communications platform, that now integrates with Phone System to provide traditional PBX and PSTN capabilities through the Teams application.
 
-Using Phone System, you can integrate with existing PBX or PSTN to allow your users to make inbound and outbound calls using Microsoft Teams.  By selecting the correct call plan for your organization, you can leverage as much or as little of the Phone System to meet your organization's needs.
+Using Phone System, you can integrate with existing PBX or PSTN to allow your users to make inbound and outbound calls using Microsoft Teams.  By selecting the correct call plan for your organization, you can use as much or as little of the Phone System to meet your organization's needs.
 Without Phone System integration, your organization would need to operate a computer and separate phone system at each desk in your organization.
 
 Now that you've completed this module, you should be able to:

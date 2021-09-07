@@ -2,8 +2,9 @@ Moving workloads to the cloud allows you to implement a worldwide resource your 
 
 At the end of this module, you should be able to:
 
-- Describe the features of OneDrive.
-- Describe the features and functionality of SharePoint.
+ -  Describe the features of OneDrive.
+ -  Describe the features and functionality of SharePoint.
 
 ### Prerequisites
-- None
+
+ -  None 

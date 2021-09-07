@@ -1,0 +1,8 @@
+This module examined how Microsoft Teams allows collaboration beyond the borders of your own organization and tenant. You learned that you can chat, call, and share content with users outside of your organization and allow your users to invite guests of their choice to Teams they own.
+
+In this module, you examined the different ways that Teams allows you to communicate with users outside of your organization. You began by learning how to manage external access and guest access. External access enables access permission to users of an entire external domain. Conversely, guest access provides access permission to an individual. Guest access allows a user to invite people from outside your organization to join a team. 
+
+This module then explored how organizations manage external collaboration in Azure Active Directory. Azure Active Directory is the directory service used by Microsoft 365. The Azure Active Directory Organizational relationships settings directly affect sharing in Teams, Microsoft 365 Groups, SharePoint, and OneDrive.
+
+After learning how to manage external collaboration in Microsoft 365 using external access and guest access in Microsoft Teams, you learned how to manage file sharing in SharePoint. Teams content such as files, folders, and lists are all stored in SharePoint. In order for guests to have access to these items in Teams, the SharePoint organization-level sharing settings must allow for sharing with guests. This module examined the organization-level settings, which determine what settings are available for individual sites, including sites associated with teams. You also learned that site settings can't be more permissive than the organization-level settings. 
+

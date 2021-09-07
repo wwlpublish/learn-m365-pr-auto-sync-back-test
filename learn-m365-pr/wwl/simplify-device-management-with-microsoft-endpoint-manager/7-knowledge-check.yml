@@ -4,7 +4,7 @@ title: Knowledge check
 metadata:
   title: Knowledge check
   description: "Knowledge check"
-  ms.date: 02/16/2021
+  ms.date: 09/02/2021
   author: wwlpublish
   ms.author: dahans
   ms.topic: interactive-tutorial
@@ -20,43 +20,43 @@ quiz:
     choices:
     - content: "Windows Configuration Designer"
       isCorrect: true
-      explanation: "That's correct. To transform new devices into fully configured, fully managed devices, you can create self-contained provisioning packages built with the Windows Configuration Designer."
+      explanation: "Correct. To transform new devices into fully configured, fully managed devices, you can create self-contained provisioning packages built with the Windows Configuration Designer."
     - content: "Microsoft Intune"
       isCorrect: false
-      explanation: "That's incorrect. To transform new devices into fully configured, fully managed devices, you can create self-contained provisioning packages built with the Windows Configuration Designer."
+      explanation: "Incorrect. To transform new devices into fully configured, fully managed devices, you can create self-contained provisioning packages built with the Windows Configuration Designer."
     - content: "Microsoft Autopilot"
       isCorrect: false
-      explanation: "That's incorrect. To transform new devices into fully configured, fully managed devices, you can create self-contained provisioning packages built with the Windows Configuration Designer."
-  - content: "What additional security measure is suggested for users that want to access corporate applications on their own devices?"
+      explanation: "Incorrect. To transform new devices into fully configured, fully managed devices, you can create self-contained provisioning packages built with the Windows Configuration Designer."
+  - content: "What additional security measure is suggested for users that only want to use email and Teams on their own devices?"
     choices:
     - content: "Limit users to web-based apps requiring HTTPS."
       isCorrect: false
-      explanation: "That's incorrect. For personal devices, if users only want access to email or Microsoft Teams, then use app protection policies that require multi-factor authentication (MFA) to use these apps."
+      explanation: "Incorrect. For personal devices, if users only want access to email or Microsoft Teams, then use app protection policies that require multi-factor authentication (MFA) to use these apps."
     - content: "Require the implementation of a virtual private network (VPN)"
       isCorrect: false
-      explanation: "That's incorrect. For personal devices, if users only want access to email or Microsoft Teams, then use app protection policies that require multi-factor authentication (MFA) to use these apps."
+      explanation: "Incorrect. For personal devices, if users only want access to email or Microsoft Teams, then use app protection policies that require multi-factor authentication (MFA) to use these apps."
     - content: "Implement multi-factor authentication (MFA)"
       isCorrect: true
-      explanation: "That's correct. For personal devices, if users only want access to email or Microsoft Teams, then use app protection policies that require multi-factor authentication (MFA) to use these apps."
+      explanation: "Correct. For personal devices, if users only want access to email or Microsoft Teams, then use app protection policies that require multi-factor authentication (MFA) to use these apps."
   - content: "Which of the following statements is correct?"
     choices:
     - content: "Configuration Manager manages both on-premises infrastructure and cloud-based functions"
       isCorrect: false
-      explanation: "That's incorrect. Configuration Manager manages on-premises infrastructure and Intune manages cloud-based functions."
+      explanation: "Incorrect. Configuration Manager manages on-premises infrastructure and Intune manages cloud-based functions."
     - content: "Configuration Manager manages on-premises infrastructure and Intune manages cloud-based functions"
       isCorrect: true
-      explanation: "That's correct. Configuration Manager manages on-premises infrastructure and Intune manages cloud-based functions."
+      explanation: "Correct. Configuration Manager manages on-premises infrastructure and Intune manages cloud-based functions."
     - content: "Windows autopilot is the new method for infrastructure management for both on-premises and cloud-based scenarios."
       isCorrect: false
-      explanation: "That's incorrect. Configuration Manager manages on-premises infrastructure and Intune manages cloud-based functions."
+      explanation: "Incorrect. Configuration Manager manages on-premises infrastructure and Intune manages cloud-based functions."
   - content: "When using Windows Autopilot to configure a user's device, which of the following statements describe the only interaction required from the end user?"
     choices:
     - content: "Connect to a network and then start the Intune client."
       isCorrect: false
-      explanation: "That's incorrect. From the IT pro's perspective, the only interaction required from the end user is to connect to a network and to verify their credentials. Everything beyond that is automated."
+      explanation: "Incorrect. From the IT pro's perspective, the only interaction required from the end user is to connect to a network and to verify their credentials. Everything beyond that is automated."
     - content: "Connect to a network and verify their credentials."
       isCorrect: true
-      explanation: "That's correct. From the IT pro's perspective, the only interaction required from the end user is to connect to a network and to verify their credentials. Everything beyond that is automated."
+      explanation: "Correct. From the IT pro's perspective, the only interaction required from the end user is to connect to a network and to verify their credentials. Everything beyond that is automated."
     - content: "Connect to a network and then run a PowerShell script (provided by IT) to connect to the Autopilot server."
       isCorrect: false
-      explanation: "That's incorrect. From the IT pro's perspective, the only interaction required from the end user is to connect to a network and to verify their credentials. Everything beyond that is automated."
+      explanation: "Incorrect. From the IT pro's perspective, the only interaction required from the end user is to connect to a network and to verify their credentials. Everything beyond that is automated."

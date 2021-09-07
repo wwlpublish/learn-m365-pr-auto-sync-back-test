@@ -4,7 +4,7 @@ title: Knowledge check
 metadata:
   title: Knowledge check
   description: "Knowledge check"
-  ms.date: 04/16/2021
+  ms.date: 09/02/2021
   author: wwlpublish
   ms.author: dahans
   ms.topic: interactive-tutorial
@@ -20,43 +20,43 @@ quiz:
     choices:
     - content: "PowerPoint"
       isCorrect: false
-      explanation: "That's incorrect. PowerPoint allows you to create compelling presentations, but does not allow you to host online meetings."
+      explanation: "Incorrect. PowerPoint allows you to create compelling presentations, but does not allow you to host online meetings."
     - content: "Teams"
       isCorrect: true
-      explanation: "That's correct. Teams allows you to hold video or audio meetings, schedule the meetings weekly, and keep meeting notes."
+      explanation: "Correct. Teams allows you to hold video or audio meetings, schedule the meetings weekly, and keep meeting notes."
     - content: "SharePoint"
       isCorrect: false
-      explanation: "That's incorrect. SharePoint allows you to collaborate with content and files, but does not allow you to host online meetings."
+      explanation: "Incorrect. SharePoint allows you to collaborate with content and files, but does not allow you to host online meetings."
   - content: "You have recently been asked to manage a project that includes people from inside and outside your organization. You need to share files with everyone on the project. Which Microsoft product is most suitable?"
     choices:
     - content: "Email"
       isCorrect: false
-      explanation: "That's incorrect. Email is not a secure way to share files."
+      explanation: "Incorrect. Email is not a secure way to share files."
     - content: "Yammer"
       isCorrect: false
-      explanation: "That's incorrect. Yammer allows you to connect with others across your company. It is not suitable for sharing files with people outside of your organization."
+      explanation: "Incorrect. Yammer allows you to connect with others across your company. It is not suitable for sharing files with people outside of your organization."
     - content: "OneDrive"
       isCorrect: true
-      explanation: "That's correct. You can password protect files and share files with people inside and outside your organization."
+      explanation: "Correct. You can password protect files and share files with people inside and outside your organization."
   - content: "You are managing a project with people working in different locations. To improve collaboration and team work, you are encouraging more frequent and informal communication. Which Microsoft product is most suitable?"
     choices:
     - content: "Word"
       isCorrect: false
-      explanation: "That's incorrect. Word includes collaboration features for reviewing and commenting on documents, but it is not suitable for informal communication."
+      explanation: "Incorrect. Word includes collaboration features for reviewing and commenting on documents, but it is not suitable for informal communication."
     - content: "Teams"
       isCorrect: true
-      explanation: "That's correct. Teams allows people to chat one to one or in groups, or have audio or video calls. Chat is less formal than email, and you can quick switch to audio and video calls."
+      explanation: "Correct. Teams allows people to chat one to one or in groups, or have audio or video calls. Chat is less formal than email, and you can quick switch to audio and video calls."
     - content: "OneDrive"
       isCorrect: false
-      explanation: "That's incorrect. OneDrive allows you to store and share files. It is not designed to promote frequent and informal communication."
+      explanation: "Incorrect. OneDrive allows you to store and share files. It is not designed to promote frequent and informal communication."
   - content: "Your organization is launching an important new product. You want to host a major online event to announce it to your industry. You will have several people speaking plus videos. Which combination of Microsoft products should you use to host the event?"
     choices:
     - content: "PowerPoint, SharePoint, and Stream."
       isCorrect: false
-      explanation: "That's incorrect. You can use SharePoint for in-house coordination, but it cannot be used to host a major online event. Use PowerPoint to generate powerful content for your event."
+      explanation: "Incorrect. You can use SharePoint for in-house coordination, but it cannot be used to host a major online event. Use PowerPoint to generate powerful content for your event."
     - content: "Yammer, Teams, and Stream."
       isCorrect: true
-      explanation: "That's correct. Yammer, Teams, and Stream will allow you to use different types of content and host a major online event."
-    - content: "Teams, SharePoint, and Stream"
+      explanation: "Correct. Yammer, Teams, and Stream will allow you to use different types of content and host a major online event."
+    - content: "Teams, SharePoint, and Stream."
       isCorrect: false
-      explanation: "That's incorrect. You can use SharePoint for in-house coordination, but it cannot be used to host a major online event. Teams and Stream can be used as part of your online event."
+      explanation: "Incorrect. You can use SharePoint for in-house coordination, but it cannot be used to host a major online event. Teams and Stream can be used as part of your online event."

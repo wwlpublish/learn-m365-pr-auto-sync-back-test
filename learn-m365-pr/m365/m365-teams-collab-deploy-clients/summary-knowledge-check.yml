@@ -4,12 +4,12 @@ title: Summary and knowledge check
 metadata:
   title: Summary and knowledge check
   description: Learn about the various Microsoft Teams clients, including desktop, web, and mobile clients. Discover how to deploy each type of client and how the update process works. 
-  ms.date: 07/15/2021
+  ms.date: 08/15/2019
   author: AlexandraHrt
   ms.author: v-aleha
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-durationInMinutes: 5
+durationInMinutes: 3
 content: |
   [!include[](includes/summary-knowledge-check.md)]
 quiz:

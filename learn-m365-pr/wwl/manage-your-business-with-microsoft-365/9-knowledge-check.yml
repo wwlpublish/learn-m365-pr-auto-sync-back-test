@@ -4,7 +4,7 @@ title: Knowledge check
 metadata:
   title: Knowledge check
   description: "Knowledge check"
-  ms.date: 02/16/2021
+  ms.date: 08/31/2021
   author: wwlpublish
   ms.author: dahans
   ms.topic: interactive-tutorial
@@ -42,32 +42,21 @@ quiz:
     choices:
     - content: "Approval, Collect Feedback, Collect Signatures, Publishing Approval, Three-state"
       isCorrect: true
-      explanation: "That's correct. SharePoint provides all these workflows to accelerate getting started with workflows"
+      explanation: "Correct. SharePoint provides all these workflows to accelerate getting started with workflows"
     - content: "Approval, Collect Feedback, Collect Signatures, Publishing Approval, Triple-state"
       isCorrect: false
-      explanation: "That's incorrect. Triple-state is not a valid pre-build SharePoint workflow."
+      explanation: "Incorrect. Triple-state is not a valid pre-build SharePoint workflow."
     - content: "Approval, Collect Feedback, Collect Signatures, Publishing Approval, Tri-state"
       isCorrect: false
-      explanation: "That's incorrect. Tri-state is not a valid pre-build SharePoint workflow."
+      explanation: "Incorrect. Tri-state is not a valid pre-build SharePoint workflow."
   - content: "What two options are available to developers wanting to incorporate or use Microsoft Graph in their applications?"
     choices:
     - content: "Microsoft Graph SOAP API, Microsoft Graph Native SDKs"
       isCorrect: false
-      explanation: "That's incorrect. Developers should use the Microsoft Graph REST API, or the Native SDKs when creating their applications."
+      explanation: "Incorrect. Developers should use the Microsoft Graph REST API, or the Native SDKs when creating their applications."
     - content: "Microsoft Graph REST API, Microsoft Graph Native SDKs"
       isCorrect: true
-      explanation: "That's correct. Actionable insights give you recommendations for appropriate actions and guidance on how to improve your compliance"
+      explanation: "Correct. Actionable insights give you recommendations for appropriate actions and guidance on how to improve your compliance"
     - content: "Microsoft Graph REST API, Microsoft Graph Windows 10 SDKs"
       isCorrect: false
-      explanation: "That's incorrect. Developers should use the Microsoft Graph REST API, or the Native SDKs when creating their applications."
-  - content: "What is the minimum Power BI license required for users to consume content shared with them?"
-    choices:
-    - content: "Power BI Pro"
-      isCorrect: false
-      explanation: "That's incorrect. While a user granted this license type could consume content shared with them, there is a cheaper alternative."
-    - content: "Power BI"
-      isCorrect: true
-      explanation: "That's correct. A user with the Power BI (Free) license type, can access content My Workspace that has been shared with them"
-    - content: "Power BI Premium"
-      isCorrect: false
-      explanation: "That's incorrect. Power BI Premium isn't necessary to consume shared content."
+      explanation: "Incorrect. Developers should use the Microsoft Graph REST API, or the Native SDKs when creating their applications."

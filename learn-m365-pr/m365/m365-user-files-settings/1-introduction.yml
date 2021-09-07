@@ -3,12 +3,12 @@ uid: learn-m365.user-files-settings.1-introduction
 title: Introduction to migrating user files and settings
 metadata:
   title: Introduction to migrating user files and settings
-  description: Learn how Click-to-Run packaging with Microsoft 365 Apps gives you new options to configure, deliver, and keep your Office apps up-to-date. Ensure your third-party and business apps are packaged and ready for automated installation.
+  description: Learn how Click-to-Run packaging with Microsoft 365 Apps gives you new options to configure, deliver, and keep your Office apps up to date. Ensure your third-party and business apps are packaged and ready for automated installation.
   ms.date: 07/15/2021
   author: lizap
   ms.author: aleha
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-durationInMinutes: 3
+durationInMinutes: 7
 content: |
   [!include[](includes/1-introduction.md)]

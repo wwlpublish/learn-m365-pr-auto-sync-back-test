@@ -9,6 +9,6 @@ metadata:
   ms.author: elizapo
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-durationInMinutes: 5
+durationInMinutes: 2
 content: |
   [!include[](includes/prepare-service.md)]

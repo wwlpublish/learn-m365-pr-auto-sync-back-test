@@ -3,8 +3,8 @@ uid: learn-m365.business-continuity-disaster-recovery-azure-virtual-desktop.intr
 title: Introduction
 metadata:
   title: Introduction
-  description: Introduction
-  ms.date: 07/19/2021
+  description: This unit introduces you to Business Continuity and Disaster Recovery for Azure Virtual Desktop.
+  ms.date: 08/05/2021
   author: ndelgado
   ms.author: nedelgad
   ms.topic: interactive-tutorial

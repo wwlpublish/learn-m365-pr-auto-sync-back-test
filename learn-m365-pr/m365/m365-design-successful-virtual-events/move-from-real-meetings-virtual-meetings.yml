@@ -8,8 +8,8 @@ metadata:
   ms.date: 07/14/2021
   author: lizap
   ms.author: elizapo
-  ms.topic: interactive-tutorial # do we need ms.topic?
+  ms.topic: interactive-tutorial
   ms.prod: learning-m365
-durationInMinutes: 7 # user input: the estimate time to complete the unit
+durationInMinutes: 7
 content: |
   [!include[](includes/move-from-real-meetings-virtual-meetings.md)]

@@ -1,0 +1,29 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.explore-teams.integration-microsoft-power-platform
+title: Explore Microsoft Teams integration with Microsoft Power Platform
+metadata:
+  title: Explore Microsoft Teams integration with Microsoft Power Platform
+  description: "Explore Microsoft Teams integration with Microsoft Power Platform"
+  ms.date: 08/31/2021
+  author: wwlpublish
+  ms.author: jennyche
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+durationInMinutes: 5
+content: |
+  [!include[](includes/4-integration-microsoft-power-platform.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "Patti Fernandez is the IT Admin for Contoso Ltd. The HR department wants to create an automated service to answer the frequently asked questions from employees. Which of the following tool should Patti recommend to achieve the goal?"
+    choices:
+    - content: "Power Apps"
+      isCorrect: false
+      explanation: "That's incorrect. Using Power Apps is not a good solution here. Try again."
+    - content: "Power Virtual Agents"
+      isCorrect: true
+      explanation: "That's correct. They can use Power Virtual Agents to create a bot with FAQ content."
+    - content: "Power BI"
+      isCorrect: false
+      explanation: "That's incorrect. Power BI is used for data visualizations. Try again."

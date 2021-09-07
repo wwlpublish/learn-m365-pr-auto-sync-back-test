@@ -4,7 +4,7 @@ title: Knowledge check
 metadata:
   title: Knowledge check
   description: Review what you've learned about Microsoft Cloud App Security.
-  ms.date: 07/16/2021
+  ms.date: 08/05/2021
   author: lizap
   ms.author: beccarobins
   ms.topic: interactive-tutorial
@@ -54,22 +54,22 @@ quiz:
       choices:
       - content: "When creating a file policy, select Quarantine for admin"
         isCorrect: false
-        explanation: "That's incorrect. This option doesn’t exist. You need to select Put in admin quarantine to let administrators to review files."
+        explanation: "That's incorrect. This option doesn’t exist. You need to select Put in admin quarantine to let administrators review files."
       - content: "When creating a file policy, select Put in admin quarantine"
         isCorrect: true
-        explanation: "That's incorrect. This makes it possible for administrators to decide what happens with the file."
+        explanation: "That's Correct! You need to select Put in admin quarantine to let administrators review files."
       - content: "When creating a file policy, select Put in review for admin"
         isCorrect: false
-        explanation: "That's Correct! This option doesn’t exist. You need to select Put in admin quarantine to let administrators to review files."
+        explanation: "That's incorrect. This makes it possible for administrators to decide what happens with the file."
             
     - content: "Which anomaly detection policy triggers an alert if the same user credentials originate from two geographically distant locations within a short time?"
       choices:
       - content: "Impossible travel"
         isCorrect: true
-        explanation: "That's incorrect. The impossible travel policy is triggered when two user activities originate from geographically distant locations within a time period shorter than the time it would have taken the user to travel from the first location to the second."
+        explanation: "That's correct! The impossible travel policy is triggered when two user activities originate from geographically distant locations within a time period shorter than the time it would have taken the user to travel from the first location to the second."
       - content: "Impossible distance"
         isCorrect: false
         explanation: "That's incorrect. While geographical distance is a factor, the impossible distance is not a valid detection policy."
       - content: "Impossible twins"
         isCorrect: false
-        explanation: "That's Correct! While the anomaly detection policy will flag that the same user credentials are being used from two different geographical locations, this is not the correct detection policy name."
+        explanation: "That's incorrect. While the anomaly detection policy will flag that the same user credentials are being used from two different geographical locations, this is not the correct detection policy name."

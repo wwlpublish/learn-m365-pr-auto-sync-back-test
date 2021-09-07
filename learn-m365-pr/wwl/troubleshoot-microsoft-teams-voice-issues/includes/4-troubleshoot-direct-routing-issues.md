@@ -52,7 +52,7 @@ A dial plan translates a shortened version of a number, such as an extension num
 > [!TIP] 
 > Before creating dial plans and normalization rules, decide on an organization-wide naming convention. This will reduce errors and improve understanding when troubleshooting problems. Names should be descriptive so that anyone can understand their purpose.
 
-There are three different types of dial plan, which are used in order. That means that if you haven’t modified any dial plan, then the service dial plan will be used. If you modify the tenant global dial plan, that will be used in combination with the user dial plan. Finally, the user dial plan is used.
+There are three different types of dial plan, which are used in order. That means that if you haven’t modified any dial plan, then the service dial plan will be used. If you modify the tenant global dial plan, that will be used in combination with the service country dial plan. Finally, the user dial plan is used.
 
 |Dial plan|Scope|Description
 |---|---|---
@@ -117,8 +117,10 @@ See **Learn More** for links to provisioning Audio Conferencing and Communicatio
 Media bypass enables you to shorten the path of media traffic to improve performance. Media is kept between the Session Border Controller (SBC) and the client, instead of it being sent to the Microsoft Phone System. To configure media bypass, the SBC and the client must be in the same location or network.
 Without media bypass, media will flow to Microsoft data centers, and back to the SBC. With media bypass, the media is kept between the Teams user and SBC as shown in the following diagram:
 
+:::image type="content" source="../media/media-bypass-1.png" alt-text="Media bypass" lightbox="../media/media-bypass-1.png":::
+
 To troubleshoot media bypass:
 
 - Check that the Teams client has access to the public IP address of the SBC, including from the internal network. This is known as “hair-pinning”.
 - If the Teams client does not have access to the public IP address of the SBC, media will be relayed by the Teams Transport Relay servers but still bypasses the Media Processors.
-- To optimize media bypass for your configuration, consider the location of your SBCs, and how close your users are to the Microsoft Transport Relay servers. Where possible, allow internal users to connect directly to the SBC, but block external users.
+- To optimize media bypass for your configuration, consider the location of your SBCs, and how close your users are to the Microsoft Transport Relay servers. Where possible, allow internal users to connect directly to the SBC, but block external users. 

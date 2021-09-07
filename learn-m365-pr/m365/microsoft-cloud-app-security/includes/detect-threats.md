@@ -70,10 +70,6 @@ Each anomaly detection policy can be independently scoped so that it applies onl
 
 To scope an anomaly detection policy:
 
-Each anomaly detection policy can be independently scoped so that it applies only to the users and groups you want to include and exclude in the policy. For example, you can set activity from infrequent county detection to ignore a specific user who travels frequently.
-
-To scope an anomaly detection policy:
-
 1. Sign in to the Microsoft Cloud App Security Portal through your browser.
 1. Select **Control** > **Policies**, and set the **Type** filter to **Anomaly detection policy**.
 1. Select the policy you want to scope.

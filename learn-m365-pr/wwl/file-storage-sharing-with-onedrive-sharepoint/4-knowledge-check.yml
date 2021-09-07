@@ -4,7 +4,7 @@ title: Knowledge check
 metadata:
   title: Knowledge check
   description: "Knowledge check"
-  ms.date: 02/16/2021
+  ms.date: 09/02/2021
   author: wwlpublish
   ms.author: dahans
   ms.topic: interactive-tutorial
@@ -20,21 +20,21 @@ quiz:
     choices:
     - content: "Multi-Geo"
       isCorrect: true
-      explanation: "That's correct. Multi-Geo is an Office 365 feature that allows organizations so span their storage over multiple Office 365 geo locations and specify in which of those to store users' data."
+      explanation: "Correct. Multi-Geo is an Office 365 feature that allows organizations so span their storage over multiple Office 365 geo locations and specify in which of those to store users' data."
     - content: "Geo-Centric Datacenter"
       isCorrect: false
-      explanation: "That's incorrect. Multi-Geo is an Office 365 feature that allows organizations so span their storage over multiple Office 365 geo locations and specify in which of those to store users' data."
+      explanation: "Incorrect. Multi-Geo is an Office 365 feature that allows organizations so span their storage over multiple Office 365 geo locations and specify in which of those to store users' data."
     - content: "Colocation"
       isCorrect: false
-      explanation: "That's incorrect. Multi-Geo is an Office 365 feature that allows organizations so span their storage over multiple Office 365 geo locations and specify in which of those to store users' data."
+      explanation: "Incorrect. Multi-Geo is an Office 365 feature that allows organizations so span their storage over multiple Office 365 geo locations and specify in which of those to store users' data."
   - content: "Which of the following statements describes the types of sites that can be created from the SharePoint home page?"
     choices:
     - content: "Skype"
       isCorrect: false
-      explanation: "That's incorrect. From the SharePoint home screen, you can create Team sites or Communication sites."
+      explanation: "Which of the following statements describes the types of sites that can be created from the SharePoint home page?"
     - content: "Team"
       isCorrect: true
-      explanation: "That's correct. From the SharePoint home screen, you can create Team sites or Communication sites."
+      explanation: "Correct. From the SharePoint home screen, you can create Team sites or Communication sites."
     - content: "OneDrive"
       isCorrect: false
-      explanation: "That's incorrect. From the SharePoint home screen, you can create Team sites or Communication sites."
+      explanation: "Incorrect. From the SharePoint home screen, you can create Team sites or Communication sites."

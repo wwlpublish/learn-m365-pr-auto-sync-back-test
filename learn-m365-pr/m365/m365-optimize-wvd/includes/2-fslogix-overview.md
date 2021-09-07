@@ -1,5 +1,7 @@
 To provide the best experience for your Azure Virtual Desktop users, use FSLogix profiles. FSLogix is designed to roam profiles in remote computing environments, such as Azure Virtual Desktop. It stores a complete user profile in a single container. At sign-in, this container is dynamically attached to the computing environment using natively supported Virtual Hard Disk (VHD) and Hyper-V Virtual Hard disk (VHDX). The user profile is immediately available and appears in the system exactly like a native user profile.
 
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWJYhM]
+
 ## What is FSLogix?
 
 FSLogix is a set of solutions that allow you to manage non-persistent Windows computing environments. With FSLogix solutions you can:

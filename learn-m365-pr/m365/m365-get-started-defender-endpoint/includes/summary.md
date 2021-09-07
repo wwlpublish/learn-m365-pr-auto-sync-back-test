@@ -8,6 +8,6 @@ Now that you've completed this module, you can:
 
 ## Learn more
 
-- [Deployment phases](/microsoft-365/security/defender-endpoint/deployment-phases?view=o365-worldwide&preserve-view=true)
-- [Set up Microsoft Defender for Endpoint](/microsoft-365/security/defender-endpoint/production-deployment?view=o365-worldwide&preserve-view=true)
-- [Onboard to the Microsoft Defender for Endpoint service](/microsoft-365/security/defender-endpoint/onboarding?view=o365-worldwide&preserve-view=true)
+- [Deployment phases](/microsoft-365/security/defender-endpoint/deployment-phases)
+- [Set up Microsoft Defender for Endpoint](/microsoft-365/security/defender-endpoint/production-deployment)
+- [Onboard to the Microsoft Defender for Endpoint service](/microsoft-365/security/defender-endpoint/onboarding)

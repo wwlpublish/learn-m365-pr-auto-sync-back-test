@@ -4,7 +4,7 @@ title: Knowledge check
 metadata:
   title: Knowledge check
   description: Check your knowledge.
-  ms.date: 06/03/2021
+  ms.date: 07/28/2021
   author: ndelgado
   ms.author: nedelgad
   ms.topic: interactive-tutorial
@@ -16,24 +16,24 @@ quiz:
  
   - content: "Your organization is preparing a BCDR strategy for an Azure Virtual Desktop environment. You want to configure your host pool to fail over to another region in case of a major outage in the region that you operate. What service should you include in the BCDR plan?"
     choices:
-    - content: "Use ExpressRoute to establish connectivity with virtual network used by Azure Virtual Desktop."
+    - content: "Use ExpressRoute to establish connectivity with the virtual network that's used by Azure Virtual Desktop."
       isCorrect: false
       explanation: "If the region outage occurs, ExpressRoute won't fail over the host pool to another region."
     - content: "Azure Backup."
       isCorrect: false
-      explanation: "Although you should include Azure Backup in the BCDR, it's primarily to protect VMs and Azure Files shares that contain your FSLogix profiles or MSIX app. For host pools Microsoft recommends Azure Site Recovery."
+      explanation: "Although you should include Azure Backup in the BCDR plan, it's primarily to protect VMs and Azure Files shares that contain your FSLogix profiles or MSIX app. For host pools, Microsoft recommends Azure Site Recovery."
     - content: "Azure Site Recovery."
       isCorrect: true
-      explanation: "Azure Site Recovery manages VM replications to other Azure regions. If you use Azure Site Recovery, you won't need to register these VMs manually. Instead, Azure Virtual Desktop agent in the secondary VM will automatically use the latest security token to connect to the service instance closest to it."
+      explanation: "Azure Site Recovery manages VM replications to other Azure regions. If you use Azure Site Recovery, you won't need to register these VMs manually. Instead, the Azure Virtual Desktop agent in the secondary VM will automatically use the latest security token to connect to the service instance closest to it."
 
-  - content: "You want to implement a disaster recovery plan for your domain controllers that are used in your Azure Virtual Desktop deployment. Currently those domain controllers are deployed in West Europe. Your design needs to provide a region failure solution. What do you need to include in the plan?"
+  - content: "You want to implement a disaster recovery plan for your domain controllers, which are used in your Azure Virtual Desktop deployment. Currently, those domain controllers are deployed in the West Europe region. Your design needs to provide a region failure solution. What do you need to include in the plan?"
     choices:
-    - content: "Implement two domain controllers in North Europe region."
+    - content: "Implement two domain controllers in the North Europe region."
       isCorrect: true
-      explanation: "Implementing additional domain controllers in North Europe region can be included in BCDR for AVD in case of a region failure. This will ensure ensure availability of authentication services in a region failure scenario."
-    - content: "Create Site-to-Site VPN with your on-premises network."
+      explanation: "Implementing additional domain controllers in the North Europe region can be included in the BCDR plan for Azure Virtual Desktop in case of a region failure. This will ensure the availability of authentication services in a region failure scenario."
+    - content: "Create a site-to-site VPN with your on-premises network."
       isCorrect: false
-      explanation: "A Site-to-Site VPN will provide a connection to the on-premises network but won't protect your domain controllers in case of a region failure."
+      explanation: "A site-to-site VPN will provide a connection to the on-premises network but won't protect your domain controllers in case of a region failure."
     - content: "Implement two domain controllers in an availability zone."
       isCorrect: false
       explanation: "Availability zones protect your domain controllers from a datacenter or zone failure in single region only. They don't provide protection if the full region fails."
@@ -45,10 +45,10 @@ quiz:
       explanation: "FSLogix is designed to roam profiles in remote computing environments. This service is managed by the customer and should be included in your BCDR plan for Azure Virtual Desktop."
     - content: "Connection broker"
       isCorrect: false
-      explanation: "Connection broker provides load balancing and reconnection to virtual desktops and remote apps and is managed by Microsoft."
+      explanation: "Connection broker provides load balancing and reconnection to virtual desktops and remote apps, and it's managed by Microsoft."
     - content: "Gateway"
       isCorrect: false
-      explanation: "The Gateway service is part of the Azure Virtual Desktop and is managed by Microsoft."
+      explanation: "The Gateway service is part of the Azure Virtual Desktop, and it's managed by Microsoft."
 
 
 content: |

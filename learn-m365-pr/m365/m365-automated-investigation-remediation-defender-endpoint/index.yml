@@ -2,22 +2,22 @@
 uid: learn-m365-pr.automated-investigation-remediation-microsoft-defender-endpoint
 metadata:
   moduleType: standard
-  title: "Use automated investigation and remediation in Microsoft Defender for Endpoint" 
-  description: "Learn how automated investigation and remediation (AIR) work in Microsoft Defender for Endpoint. You'll learn about concepts, including automation levels, how automated investigations are triggered, how to review investigation findings, and how automated remediation actions work." # user input: a description for site search and SEO
-  ms.date: 07/19/2021
+  title: Use automated investigation and remediation in Microsoft Defender for Endpoint
+  description: Learn how automated investigation and remediation (AIR) work in Microsoft Defender for Endpoint. You'll learn about concepts, including automation levels, how automated investigations are triggered, how to review investigation findings, and how automated remediation actions work.
+  ms.date: 08/17/2021
   author: iankensey
   ms.author: beccarobins
-  ms.topic: interactive-tutorial 
+  ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Use automated investigation and remediation in Microsoft Defender for Endpoint
-summary: "Learn how automated investigation and remediation (AIR) work in Microsoft Defender for Endpoint. You'll learn about concepts, including automation levels, how automated investigations are triggered, how to review investigation findings, and how automated remediation actions work." # user input: introductory summary (https://review.docs.microsoft.com/help/learn/id-guidance-introductory-summaries?branch=master)
+summary: Learn how automated investigation and remediation (AIR) work in Microsoft Defender for Endpoint. You'll learn about concepts, including automation levels, how automated investigations are triggered, how to review investigation findings, and how automated remediation actions work.
 abstract: |
-  - Understand automated investigation 
-  - Understand how threats are remediated
+  - Understand automated investigation
+  - Understand how threats are remediated using automated remediation
   - Understand automation levels
-prerequisites: | 
+prerequisites: |
   - Basic familiarity with Microsoft Defender for Endpoint
-iconUrl: /learn/achievements/generic-badge.svg
+iconUrl: /learn/achievements/m365-defender-address-security-investigation.svg
 levels: 
   - beginner
 roles: 

@@ -4,11 +4,11 @@ title: Summary
 metadata:
   title: Summary
   description: Summary
-  ms.date: 07/15/2020
+  ms.date: 08/12/2021
   author: iankensey
   ms.author: v-iakens
   ms.topic: interactive-tutorial
   ms.prod: learning-teams
 durationInMinutes: 1
 content: |
-  [!include[](includes/Summary.md)]
+  [!include[](includes/summary.md)]
