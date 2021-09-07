@@ -48,7 +48,7 @@ After you resolve an alert, the Alerts page displays updated information. You ca
 
 ## Explore threat detection and alert management
 
-View a [video version](WAITING FOR VIDEO TO BE CREATED) of the interactive guide (captions available in more languages).
+View a [video version](https://www.microsoft.com/en-us/videoplayer/embed/RWJISe) of the interactive guide (captions available in more languages).
 
 [![Detect threats and manage alerts with Microsoft Cloud App Security](../media/detect-threats.png)](https://aka.ms/DetectThreats-ManageAlerts-MCAS_InteractiveGuide)
 

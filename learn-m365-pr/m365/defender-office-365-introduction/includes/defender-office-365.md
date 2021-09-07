@@ -40,6 +40,8 @@ In your security role, you're looking for a solution beyond simple identificatio
 
 Microsoft Defender for Office 365 is a feature-rich service that can help to protect your users. This interactive guide walks you through Microsoft Defender for Office 365 and the Microsoft 365 Defender portal.
 
+View a [video version](https://www.microsoft.com/en-us/videoplayer/embed/RWJINt) of the interactive guide (captions available in more languages).
+
 Click on the image to get started.
 
 [![Safeguard your organization with Microsoft Defender for Office 365](../media/2-interactive-guide-place-holder.png)](https://aka.ms/MSDO-IG)
