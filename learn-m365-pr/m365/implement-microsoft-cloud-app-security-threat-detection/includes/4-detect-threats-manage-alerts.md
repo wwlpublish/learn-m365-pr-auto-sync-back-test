@@ -50,7 +50,7 @@ After you resolve an alert, the Alerts page displays updated information. You ca
 
 Use the following interactive guide to see how you can detect threats and use the alert management system in Microsoft 365 Defender portal.
 
-View a [video version](https://www.microsoft.com/en-us/videoplayer/embed/RWJISe) of the interactive guide (captions available in more languages).
+View a [video version](https://www.microsoft.com/videoplayer/embed/RWJISe) of the interactive guide (captions available in more languages).
 
 Click on the image to get started.
 
