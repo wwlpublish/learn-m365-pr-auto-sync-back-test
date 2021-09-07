@@ -36,6 +36,7 @@ units:
 - learn-m365.audit-identity-access-management.prerequisites-team-account-creation
 - learn-m365.audit-identity-access-management.privileged-access
 - learn-m365.audit-identity-access-management.customer-lockbox
+- learn-m365.audit-identity-access-management.access-control-management
 - learn-m365.audit-identity-access-management.summary-knowledge-check
 badge: 
   uid: learn-m365.audit-identity-access-management.badges
