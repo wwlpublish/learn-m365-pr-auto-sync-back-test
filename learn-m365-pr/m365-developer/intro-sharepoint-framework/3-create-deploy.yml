@@ -4,7 +4,7 @@ metadata:
   title: Create and deploy SharePoint Framework solutions
   description: In this unit, you’ll learn what developers will need and how to create custom SharePoint Framework solutions. Once you’ve created the custom solution, you’ll then learn how to deploy your components into different environments and various hosting options for your components.
   ms.date: 03/05/2021
-  author: andrewconnell
+  author: andrewconnell-msft
   ms.author: v-johnco
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
