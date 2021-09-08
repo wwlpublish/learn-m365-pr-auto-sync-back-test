@@ -13,13 +13,16 @@ A Microsoft Intune license is created for you when you sign up for the Intune fr
 
 You need at least one Intune license for you as the administrator to access the Microsoft Endpoint Manager admin center. If you are unable to access this portal using the step below, or don't have an Intune license, sign up now for the [Intune free trial](/mem/intune/fundamentals/free-trial-sign-up).
 
-To check on your Microsoft Intune license or trial, use the following steps:
+To confirm your Microsoft Intune license or trial, use the following steps:
 
 1. Sign in to [Microsoft Endpoint Manager admin center](https://go.microsoft.com/fwlink/?linkid=2109431).
 2. Select **Tenant administration** > **Tenant status**.<br>
    Under the **Tenant details** tab, you will see the **MDM authority**, the **Total licenses users**, and the **Total Intune licenses**.
 3. Select **Tenant administration** > **Roles** > **My permissions**. 
 4. Confirm you are an **administrator** with **full** permissions to **all** Intune resources.
+
+> [!Tip]
+> If you are not using Microsoft Intune, you can quickly sign up for the [Intune free trial](/mem/intune/fundamentals/free-trial-sign-up). Or for a complete overview of Intune, see [Set up Microsoft Intune](/learn/modules/set-up-microsoft-intune?azure-portal=true).
 
 To check on your Azure AD Premium license, use the following steps:
 
