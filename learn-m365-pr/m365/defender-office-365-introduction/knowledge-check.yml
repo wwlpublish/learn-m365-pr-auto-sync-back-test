@@ -1,0 +1,38 @@
+### YamlMime:ModuleUnit
+uid: learn-m365-pr.defender-office-365-introduction.knowledge-check
+title: Knowledge check 
+metadata:
+  unitType: knowledge_check
+  title: Knowledge check
+  description: Test your knowledge of the module content
+  ms.date: 5/17/2021
+  author: iankensey
+  ms.author: beccarobins
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 2
+content: |
+quiz:
+  questions:
+  - content: "You want to implement automated investigation and response (AIR). Which of the following describes the proper level you need to acquire to get this option?"
+    choices:
+    - content: "Plan 2"
+      isCorrect: true
+      explanation: "This is correct. AIR is a feature of Plan 2"
+    - content: "Plan 1"
+      isCorrect: false
+      explanation: "This is incorrect. AIR isn't a feature of Plan 1"
+    - content: "EOP"
+      isCorrect: false
+      explanation: "This is incorrect. AIR isn't a feature of EOP"
+  - content: "Which of the following protection stack levels provides critical features to catch spam?"
+    choices:
+    - content: "Content filtering"
+      isCorrect: false
+      explanation: "Incorrect. Content filtering takes action on messages that are in transit. Sender intelligence is the critical level in the protection stack for catching spam."
+    - content: "Sender intelligence"
+      isCorrect: true
+      explanation: "That's correct! Sender intelligence is the critical level for catching spam."
+    - content: "Post delivery protection"
+      isCorrect: false
+      explanation: "Please try again. Post delivery protection is the level where reporting and URL detonation occurs. Sender intelligence is the critical level in the protection stack for catching spam."

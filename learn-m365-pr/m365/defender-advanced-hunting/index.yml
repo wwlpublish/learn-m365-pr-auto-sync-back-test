@@ -1,0 +1,40 @@
+### YamlMime:Module
+uid: learn-m365-pr.defender-advanced-hunting
+metadata:
+  moduleType: standard
+  title: Locate threats using advanced hunting with Microsoft 365 Defender 
+  description: Gain an understanding of the advanced hunting query language, Kusto, and how to create queries to find threats. You'll gain an awareness of the data schemas provided by Microsoft 365 and how they can enrich query results. Finally, you'll explore custom detections and how they can be used to automate detection and remediation of threats.
+  ms.date: 05/13/2021
+  author: iankensey
+  ms.author: beccarobins
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Locate threats using advanced hunting with Microsoft 365 Defender
+summary: Gain an understanding of the advanced hunting query language, Kusto, and how to create queries to find threats. You'll gain an awareness of the data schemas provided by Microsoft 365 and how they can enrich query results. Finally, you'll explore custom detections and how they can be used to automate detection and remediation of threats.
+abstract: | 
+  By the end of this module, you'll be able to:
+    - Use the advanced hunting query language, Kusto.
+    - Use the advanced hunting query schemas to enrich your queries.
+    - Create custom detection queries to facilitate automated threat identification and resolution.
+prerequisites: |
+  - None
+iconUrl: /learn/achievements/m365-defender-locate-threats.svg
+levels: 
+  - beginner
+roles: 
+  - security-engineer
+  - security-operations-analyst
+products:
+  - m365
+  - m365-security-center
+  - m365-threat-protection
+units:
+- learn-m365-pr.defender-advanced-hunting.introduction
+- learn-m365-pr.defender-advanced-hunting.kusto
+- learn-m365-pr.defender-advanced-hunting.schema
+- learn-m365-pr.defender-advanced-hunting.custom-detections
+- learn-m365-pr.defender-advanced-hunting.knowledge-check
+- learn-m365-pr.defender-advanced-hunting.summary
+
+badge:
+  uid: learn-m365-pr.defender-advanced-hunting.badge
