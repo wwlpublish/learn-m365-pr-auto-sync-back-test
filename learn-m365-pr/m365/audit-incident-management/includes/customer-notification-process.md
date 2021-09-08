@@ -1,6 +1,6 @@
 The following diagram illustrates customer notification process after a confirmed security incident occurs.
 
-   ![A visual flow incident response to customer notification 1) Event Start 2) Event Detected 3) OCE Engaged 4) Security Response Team Engaged 5) Security Incident Confirmed 6) Customer Impact Determined 7) Affected Customers Determined 8) Affected Customers Notified](../media/customer-notification-process.png)
+   ![A visual flow incident response to customer notification 1) Event Start 2) Event Detected 3) OCE Engaged 4) Security Response Team Engaged 5) Security Incident Confirmed 6) Customer Impact Determined 7) Affected Customers Determined 8) Affected Customers Notified](../media/customer-notification-process-security-incident.png)
 
 ## Microsoft responsibility
 
