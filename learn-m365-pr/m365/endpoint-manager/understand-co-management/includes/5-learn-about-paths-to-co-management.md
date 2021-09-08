@@ -3,10 +3,12 @@ Once you decide to move to Configuration Manager or extend your existing Configu
 - **[Enable co-management for existing Windows 10 Configuration Manager clients](#enable-co-management-for-existing-configuration-manager-clients)**
 - **[Enable co-management for new internet-based Windows 10 devices](#enable-co-management-for-new-internet-based-windows-10-devices)**
 
-Each path requires some combination of Azure Active Directory (Azure AD), Configuration Manager, Microsoft Intune, and Windows 10.
+Each path requires some combination of Azure Active Directory (Azure AD), Configuration Manager, Microsoft Intune, and Windows 10. 
 
 > [!NOTE]
 > A Configuration Manager client is a Windows 10 device that has the Configuration Manager client software and client application installed on the devices. The Configuration Manager client application is designed for your help desk rather than for the end user.
+
+Based on the following paths to enable co-management, choose which path is right for you and your organization.
 
 ## Enable co-management for existing Configuration Manager clients
 

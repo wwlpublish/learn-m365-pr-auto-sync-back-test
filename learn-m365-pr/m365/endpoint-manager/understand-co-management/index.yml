@@ -9,13 +9,13 @@ metadata:
   ms.author: erikre
   ms.topic: interactive-tutorial
 title: Understand co-management using Microsoft Endpoint Configuration Manager
-summary: Microsoft Endpoint Configuration Manager, which is a part of Microsoft Endpoint Manager, helps you protect the on-premises devices, apps, and data that the people at your organization use to be productive. After completing this module, you will better understand co-management when using Microsoft Endpoint Configuration Manager. In addition, you will be prepared to enable co-management based on the path that best suites your organization. 
+summary: Microsoft Endpoint Configuration Manager, which is a part of Microsoft Endpoint Manager, helps you protect the on-premises devices, apps, and data that the people at your organization use to be productive. After completing this module, you will better understand co-management when using Microsoft Endpoint Configuration Manager. In addition, you will be prepared to enable co-management based on the implementation path that best suites your organization. 
 abstract: | 
   In this module, you will:
-    - Learn about co-management
-    - Understand about co-management prerequisites
+    - Learn about the benefits of co-management
+    - Understand the co-management prerequisites
     - Confirm the Configuration Manager connector status
-    - Learn about paths to co-management
+    - Learn about paths to implement co-management
 prerequisites: | 
   - Basic knowledge of Microsoft Endpoint Manager and endpoint management concepts, see [Microsoft Endpoint Manager fundamentals](/learn/paths/endpoint-manager-fundamentals?azure-portal=true).
   - Understand your endpoint management objectives, device inventory considerations, licensing needs, infrastructure objectives, and rollout plans, see [Determine your endpoint management implementation](/learn/modules/determine-endpoint-implementation?azure-portal=true).

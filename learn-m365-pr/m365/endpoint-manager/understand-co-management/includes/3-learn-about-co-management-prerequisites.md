@@ -49,9 +49,9 @@ To check the version of Configuration Manager:
    This dialog displays the site and console versions. For more information, see [Updates and servicing for Configuration Manager](/mem/configmgr/core/servers/manage/updates).
 3. Confirm the version of Configuration Manager is version 1710 or later.
 
-## Azure AD
+## Azure Active Directory (Azure AD)
 
-Windows 10 devices must be connected to Azure AD to use co-management. You can choose either of the following types:  
+[Azure AD](/azure/active-directory/fundamentals/active-directory-whatis) is Microsoft’s cloud-based identity and access management service, which helps the people at your organization sign in and access resources. Your on-premises Windows 10 devices must be connected to Azure AD to use co-management. You can choose either of the following types:  
 
   - [Hybrid Azure AD-joined](/azure/active-directory/devices/concept-azure-ad-join-hybrid), where the device is joined to your on-premises Active Directory and registered with your Azure Active Directory.
 
