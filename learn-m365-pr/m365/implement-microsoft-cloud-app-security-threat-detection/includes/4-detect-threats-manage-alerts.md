@@ -45,3 +45,15 @@ To adjust the policy, select **Adjust policy** from the **Actions** list. The po
 After you resolve an alert, the Alerts page displays updated information. You can use the STATUS option to review alerts that are OPEN or CLOSED, or both. When reviewing CLOSED alerts, the Resolution type is updated with the reason you gave for the closure. You can also choose to filter Alerts using the Resolution type. For example, the following screenshot displays the available options for Resolution type.
 
 :::image type="content" source="../media/resolution.png" alt-text="A screenshot of the Alerts page. The administrator has entered an advanced query for Resolution type. ":::
+
+## Explore threat detection and alert management
+
+Use the following interactive guide to see how you can detect threats and use the alert management system in Microsoft 365 Defender portal.
+
+View a [video version](https://www.microsoft.com/videoplayer/embed/RWJISe) of the interactive guide (captions available in more languages).
+
+Click on the image to get started.
+
+[![Detect threats and manage alerts with Microsoft Cloud App Security](../media/detect-threats.png)](https://aka.ms/DetectThreats-ManageAlerts-MCAS_InteractiveGuide)
+
+Be sure to click the full-screen option in the video player. When you're done, use the **Back** arrow in your browser to come back to this page.
