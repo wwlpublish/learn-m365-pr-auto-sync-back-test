@@ -4,7 +4,7 @@ metadata:
   title: Understand testing, debugging, and deployment options for Office Add-ins
   description: In this unit, you'll explore testing, debugging, and deployment options for Office Add-ins. By the end of this unit, you should know how to sideload your add-in to test it, how to use Visual Studio, Visual Studio Code, or the browser developer tools to debug your add-in, and the different options available for deployment.
   ms.date: 06/17/2021
-  author: andrewconnell
+  author: andrewconnell-msft
   ms.author: v-johnco
   ms.topic: interactive-tutorial
   ms.prod: learning-m365

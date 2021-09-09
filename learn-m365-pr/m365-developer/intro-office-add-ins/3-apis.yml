@@ -4,7 +4,7 @@ metadata:
   title: Understand Office JavaScript APIs
   description: In this unit, you'll explore the Office Add-ins programming model, developer tools, and the capabilities of the Office JavaScript APIs for Excel, Outlook, and Word.
   ms.date: 06/17/2021
-  author: andrewconnell
+  author: andrewconnell-msft
   ms.author: v-johnco
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
