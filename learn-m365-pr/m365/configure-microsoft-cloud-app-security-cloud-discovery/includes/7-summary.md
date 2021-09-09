@@ -14,4 +14,4 @@ Now that you've completed this module, you should be able to:
 - [Working with discovered apps](/cloud-app-security/discovered-apps?azure-portal=true).
 - [Working with App risk scores](/cloud-app-security/risk-score?azure-portal=true).  
 - [Connect apps](/cloud-app-security/enable-instant-visibility-protection-and-governance-actions-for-your-apps?azure-portal=true).  
-- [Interactive guide: Discover and manage cloud app usage with Microsoft Cloud App Security][https://aka.ms/Discover_and_manage_cloud_app-usage-with-Microsoft-Cloud_App-Security]
+- [Interactive guide: Discover and manage cloud app usage with Microsoft Cloud App Security](https://aka.ms/Discover_and_manage_cloud_app-usage-with-Microsoft-Cloud_App-Security)
