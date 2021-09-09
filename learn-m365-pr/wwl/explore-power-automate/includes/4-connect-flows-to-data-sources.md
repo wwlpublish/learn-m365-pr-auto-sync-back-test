@@ -38,10 +38,3 @@ When an app or flow creates a connection to a data source, the connector typical
 ## Knowledge check
 
 Choose the best response for the following question. Then select “Check your answers.”
-
-## Multiple Choice
-As the Enterprise Administrator for Northwind Traders, Patti Fernandez is implementing Power Automate flows. What must Patti do in Microsoft Power Platform to enable a Power Automate flow to call a publicly available API?
-(x) Build a custom connector
-( ) Install an on-premises data gateway
-( ) Use the Common Data Service
-
