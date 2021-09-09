@@ -63,10 +63,3 @@ This simulation guides you through the steps to create a Power app from a data s
 ## Knowledge check
 
 Choose the best response for the following question. Then select “Check your answers.”
-
-## Multiple Choice
-What do connections to on-premises data sources, such as an on-premises SharePoint service, require to provide quick and secure data transfer between on-premises data and the Power Platform products?
-( ) Common Data Service
-( ) Environments
-(x) On-premises data gateway
-

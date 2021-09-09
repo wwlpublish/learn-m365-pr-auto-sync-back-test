@@ -6,7 +6,7 @@ App creators and users who have the app shared with them can run a canvas app on
 
 To run a canvas app on a mobile device:
 
-1.  Download and install Power Apps from the [App Store](https://itunes.apple.com/app/powerapps/id1047318566?mt=8?azure-portal=true) or [Google Play](https://play.google.com/store/apps/details?id=com.microsoft.msapps?azure-portal=true) onto an iPhone, iPad, or Android device running a [supported operating system](/powerapps/maker/canvas-apps/limits-and-config?azure-portal=true).
+1.  Download and install Power Apps from the [App Store](https://itunes.apple.com/app/powerapps/id1047318566?mt=8?azure-portal=true) or Google Play onto an iPhone, iPad, or Android device running a [supported operating system](/powerapps/maker/canvas-apps/limits-and-config?azure-portal=true).
 2.  Once the user is signed-in, PowerApps makes it easy to find an app:
     
      -  Select the down arrow key to use any of the available filters.

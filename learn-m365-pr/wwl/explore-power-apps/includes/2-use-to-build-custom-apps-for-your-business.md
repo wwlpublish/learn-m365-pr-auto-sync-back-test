@@ -21,10 +21,3 @@ Power Apps applications on Android and iOS devices are now integrated with Intun
 ## Knowledge check
 
 Choose the best response for the following question. Then select “Check your answers.”
-
-## Multiple Choice
-As Contoso's Enterprise Administrator, Holly Dickson is interested in implementing Power Apps. However, Holly wants Contoso's users to create apps where the app layout and the views and detail screens are determined by the components and based on the data structure. Which type of Power App should Holly use?
-( ) Canvas app
-(x) Model-driven app
-( ) Portal
-
