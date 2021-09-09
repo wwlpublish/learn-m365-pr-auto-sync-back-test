@@ -299,15 +299,8 @@ Select the following links to complete these interactive demonstrations:
  -  [Configure a group naming policy](https://edxinteractivepage.blob.core.windows.net/edxpages/MS-100/M4-L3-E1-T4/index.html?azure-portal=true)
  -  [Manage resources](https://edxinteractivepage.blob.core.windows.net/edxpages/MS-100/M4-L3-E1-T5/index.html?azure-portal=true)
 
-These simulations guide you through the steps to complete a variety of recipient management tasks in Exchange Online. You will use the Exchange admin center to manage recipients, create and manage Microsoft 365 groups, upgrade distribution lists, configure a group naming policy, and create a resource mailbox.
+These simulations guide you through the steps to complete various recipient management tasks in Exchange Online. You will use the Exchange admin center to manage recipients, create and manage Microsoft 365 groups, upgrade distribution lists, configure a group naming policy, and create a resource mailbox.
 
 ## Knowledge check
 
 Choose the best response for the following question. Then select “Check your answers.”
-
-## Multiple Choice
-As the Enterprise Admin for Contoso, Holly Dickson is trying to understand the difference between a Dynamic Distribution Group and a Distribution Group. What is the difference between these two types of groups?
-( ) A Dynamic Distribution Group is the most common form of a globally available distribution list for sending out one-to-many e-mail messages. A Distribution Group is commonly used to create a global company distribution list using attributes in the company address book, such as region, office, department, or roles.
-( ) A Dynamic Distribution Group is excellent for team and department collaboration when other resources such as OneNote or OneDrive are needed. A Distribution Group provides hooks into multiple Microsoft 365 services, it can be used as a tool to aid adoption and drive business value.
-(x) A Dynamic Distribution Group creates a set of users based on an LDAP query in Active Directory to distribute messages. A Distribution Group distributes messages to the list of assigned users to the group
-

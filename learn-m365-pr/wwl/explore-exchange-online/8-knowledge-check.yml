@@ -4,7 +4,7 @@ title: Knowledge check
 metadata:
   title: Knowledge check
   description: "Knowledge check"
-  ms.date: 09/03/2021
+  ms.date: 09/09/2021
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -15,3 +15,39 @@ labModal: false
 durationInMinutes: 6
 content: |
   [!include[](includes/8-knowledge-check.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "Which of the following filters is the main component against malware or other harmful email attachments that want to grab a user's personal information from the user's computer?"
+    choices:
+    - content: "Malware filtering"
+      isCorrect: false
+      explanation: "That's incorrect. Malware filters protect user mailboxes against infected messages. EOP uses multiple industry-leading malware detection engines to scan incoming and outgoing mail, with these engines being updated as new virus definitions appear. Try again."
+    - content: "Spam filtering"
+      isCorrect: true
+      explanation: "That's correct. Spam filters are the main component against malware or other harmful email attachments that want to grab your personal information from your computer. Spam filters provide a range of basic and advanced filtering options, automatically add spam processing headers, and assign a spam confidence level to the messages before delivery to user mailboxes."
+    - content: "Connection filtering"
+      isCorrect: false
+      explanation: "That's incorrect. Connection filters enable you to configure filtering based on IP addresses. Try again."
+  - content: "Fabrikam is trying to determine which migration option to use. It's planning to migrate its Exchange environment to Microsoft 365. However, because Fabrikam doesn't want to keep its on-premises Exchange servers, it doesn't want to maintain a long-term coexistence with Microsoft 365. Based on this requirement, which of the following items should be the final deciding factor used by Fabrikam to determine its migration option?"
+    choices:
+    - content: "The number of user mailboxes to migrate"
+      isCorrect: true
+      explanation: "That's correct. If an organization has Exchange but doesn't want long-term coexistence, then number of users becomes the final deciding factor in which migration option to select. If there are fewer than 2000 users, the recommendation is an Exchange cutover migration. However, if there are 2000 or more mailboxes to migrate, then you need to review the version of Exchange Server again. If the organization uses Exchange 2010 or later, consider implementing a minimal or Express hybrid configuration to migrate your mailboxes."
+    - content: "Whether it's currently running a third-party mail system"
+      isCorrect: false
+      explanation: "That's incorrect. This item isn't the final deciding factor that Fabrikam should consider to determine its migration option. Try again."
+    - content: "Whether its email system provides a POP3 protocol"
+      isCorrect: false
+      explanation: "That's incorrect. This item isn't the final deciding factor that Fabrikam should consider to determine its migration option. Try again."
+  - content: "Contoso is planning to migrate its Exchange environment to Microsoft 365. It has an Exchange 2016 Server on-premises deployment with about 1500 users. As Contoso's Enterprise Administrator, Holly Dickson wants to migrate all of Contoso's data over a weekend. Which of the following migration strategies would be best for Contoso?"
+    choices:
+    - content: "Cutover migration"
+      isCorrect: true
+      explanation: "That's correct. This migration strategy will enable Contoso to migrate all data within an acceptable time, such as over a day or weekend. It's also the preferred migration strategy for organizations with less than 2000 users."
+    - content: "PST migration"
+      isCorrect: false
+      explanation: "That's incorrect. This migration strategy won't be the best strategy for Contoso. Try again."
+    - content: "IMAP migration"
+      isCorrect: false
+      explanation: "That's incorrect. This migration strategy won't be the best strategy for Contoso. Try again."

@@ -271,10 +271,3 @@ If none of the previously mentioned options work for an organization, and it wan
 ## Knowledge check
 
 Choose the best response for the following question. Then select “Check your answers.”
-
-## Multiple Choice
-Contoso is planning to migrate its Exchange environment to Microsoft 365. It has an Exchange 2013 Server on-premises deployment with 1000 users. As Contoso's Enterprise Administrator, Holly Dickson wants to maintain this on-premises environment for recipient administration purposes. Which of the following migration strategies would be best for Contoso?
-( ) Cutover migration
-( ) PST migration
-(x) Hybrid migration
-

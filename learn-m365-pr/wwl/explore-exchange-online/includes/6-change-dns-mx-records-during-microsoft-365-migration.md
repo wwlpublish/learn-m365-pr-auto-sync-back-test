@@ -14,10 +14,3 @@ The following graphic shows a simplified version of how MX records enable extern
 ## Knowledge check
 
 Choose the best response for the following question. Then select “Check your answers.”
-
-## Multiple Choice
-During which of the following migration types is it important to change the DNS MX record before an organization completes its final synchronization run?
-( ) Full or Minimal Hybrid migration
-(x) Cutover migration
-( ) IMAP migration
-

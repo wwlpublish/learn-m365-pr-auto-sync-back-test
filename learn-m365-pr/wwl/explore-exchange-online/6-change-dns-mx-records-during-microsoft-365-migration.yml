@@ -4,7 +4,7 @@ title: Change the DNS MX records during a  Microsoft 365 migration
 metadata:
   title: Change the DNS MX records during a  Microsoft 365 migration
   description: "Change the DNS MX records during a  Microsoft 365 migration"
-  ms.date: 09/03/2021
+  ms.date: 09/09/2021
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -15,3 +15,17 @@ labModal: false
 durationInMinutes: 4
 content: |
   [!include[](includes/6-change-dns-mx-records-during-microsoft-365-migration.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "During which of the following migration types is it important to change the DNS MX record before an organization completes its final synchronization run?"
+    choices:
+    - content: "Full or Minimal Hybrid migration"
+      isCorrect: false
+      explanation: "That's incorrect. In a hybrid migration, the Hybrid Configuration Wizard configures the mail flow between Exchange on-premises and Exchange Online. As such, it's common to switch the DNS MX record to Microsoft 365 once most of the mailboxes have been migrated. Try again."
+    - content: "Cutover migration"
+      isCorrect: true
+      explanation: "That's correct. When doing a cutover migration, it's important to change the DNS MX record before your final synchronization run. Doing so ensures that no mail will be routed to your on-premises Exchange server after you've completed the mailbox migration."
+    - content: "IMAP migration"
+      isCorrect: false
+      explanation: "That's incorrect. When doing an IMAP migration, you pre-stage your mailboxes in Microsoft 365 and synchronize mail between the two systems. Once your mail is synchronized and you want to make the switch, change the DNS MX records to point towards Microsoft 365. Try again."
