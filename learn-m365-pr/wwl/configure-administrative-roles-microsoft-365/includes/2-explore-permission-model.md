@@ -22,10 +22,3 @@ A Microsoft 365 Enterprise Administrator typically assigns these roles to users 
 ## Knowledge check
 
 Choose the best response for the following question. Then select “Check your answers.”
-
-## Multiple Choice
-The administrator roles in Microsoft 365 are based upon what permission model?
-( ) Microsoft 365 Rules-based Assessment Control
-(x) Azure Role-Based Access Control
-( ) Windows Role-based permissions model
-

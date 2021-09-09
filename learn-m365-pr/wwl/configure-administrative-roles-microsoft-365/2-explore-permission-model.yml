@@ -4,7 +4,7 @@ title: Explore the Microsoft 365 permission model
 metadata:
   title: Explore the Microsoft 365 permission model
   description: "Explore the Microsoft 365 permission model"
-  ms.date: 09/03/2021
+  ms.date: 09/09/2021
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -15,3 +15,17 @@ labModal: false
 durationInMinutes: 3
 content: |
   [!include[](includes/2-explore-permission-model.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "The administrator roles in Microsoft 365 are based upon what permission model?"
+    choices:
+    - content: "Microsoft 365 Rules-based Assessment Control"
+      isCorrect: false
+      explanation: "That's incorrect. This item isn't the permission model that administrator roles in Microsoft 365 are based upon. Try again."
+    - content: "Azure Role-Based Access Control"
+      isCorrect: true
+      explanation: "That's correct. The permission model on which administrator roles are based upon in Microsoft 365 is referred to as Azure Role-Based Access Control, or Azure RBAC."
+    - content: "Windows Role-based permissions model"
+      isCorrect: false
+      explanation: "That's incorrect. This item isn't the permission model that administrator roles in Microsoft 365 are based upon. Try again."

@@ -124,10 +124,3 @@ The following graphic shows that the Security Administrator and Compliance Admin
 ## Knowledge check
 
 Choose the best response for the following question. Then select “Check your answers.”
-
-## Multiple Choice
-The Exchange Administrator for Northwind Traders wants to run an eDiscovery for missing mail. What must happen before the Exchange Administrator can run the eDiscovery?
-( ) The Modern Desktop Administrator must set special permissions for the Exchange Administrator inside the Microsoft 365 admin center
-( ) The User Management Administrator must assign compliance permissions to the Exchange Administrator inside the Compliance Center
-(x) The Security or Compliance Administrator must grant this access to the Exchange Administrator role
-

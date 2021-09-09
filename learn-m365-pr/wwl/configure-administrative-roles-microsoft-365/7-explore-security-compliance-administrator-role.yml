@@ -4,7 +4,7 @@ title: Explore the Security and Compliance Administrator roles
 metadata:
   title: Explore the Security and Compliance Administrator roles
   description: "Explore the Security and Compliance Administrator roles"
-  ms.date: 09/03/2021
+  ms.date: 09/09/2021
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -15,3 +15,17 @@ labModal: false
 durationInMinutes: 6
 content: |
   [!include[](includes/7-explore-security-compliance-administrator-role.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "The Exchange Administrator for Northwind Traders wants to run an eDiscovery for missing mail. What must happen before the Exchange Administrator can run the eDiscovery?"
+    choices:
+    - content: "The Modern Desktop Administrator must set special permissions for the Exchange Administrator inside the Microsoft 365 admin center"
+      isCorrect: false
+      explanation: "That's incorrect. This step isn't the action that must be taken before the Exchange Administrator can run the eDiscovery. Try again."
+    - content: "The User Management Administrator must assign compliance permissions to the Exchange Administrator inside the Compliance Center"
+      isCorrect: false
+      explanation: "That's incorrect. This step isn't the action that must be taken before the Exchange Administrator can run the eDiscovery. Try again."
+    - content: "The Security or Compliance Administrator must grant this access to the Exchange Administrator role"
+      isCorrect: true
+      explanation: "That's correct. Inherently, the Exchange Administrator wouldn't have access to this action unless the Security Administrator or Compliance Administrator grants this access to the Exchange Administrator role."

@@ -42,10 +42,3 @@ Role activation is also customizable. In the Privileged Identity Management sett
 ## Knowledge check
 
 Choose the best response for the following question. Then select “Check your answers.”
-
-## Multiple Choice
-Which of the following items describes the eligible admin process?
-( ) The Global Admin must assign an eligible user standing admin access to become an active admin
-( ) An eligible user must sign up to become an active admin for a specific date
-(x) A user with an inactive role must complete an activation process to activate the role for a predetermined amount of time
-

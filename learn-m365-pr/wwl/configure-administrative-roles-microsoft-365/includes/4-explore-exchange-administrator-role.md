@@ -139,10 +139,3 @@ The following list displays some of the key tasks users can do when they're assi
 ## Knowledge check
 
 Choose the best response for the following question. Then select “Check your answers.”
-
-## Multiple Choice
-As the Enterprise Administrator for Lucerne Publishing, Inc., you're investigating the responsibilities of each Microsoft 365 administrator role. You're initial focus is the Exchange Administrator role. Which type of security function is this role responsible for managing?
-(x) Anti-spam and malware policies
-( ) eDiscovery
-( ) Custom routing of outbound mail
-
