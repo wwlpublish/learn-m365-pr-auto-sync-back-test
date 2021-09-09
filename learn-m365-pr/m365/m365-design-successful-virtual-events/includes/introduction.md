@@ -24,5 +24,6 @@ By the end of this module, you should be able to:
 - Design an inclusive virtual event
 - Create accessible presentations and videos
 - Manage virtual events to be more inclusive and engaging
+- Ensure your environment is ready, technically, to support your event content and attendees
 - Review your event and identify opportunities for improvement
 - Understand how to gather feedback and turn them into insights
