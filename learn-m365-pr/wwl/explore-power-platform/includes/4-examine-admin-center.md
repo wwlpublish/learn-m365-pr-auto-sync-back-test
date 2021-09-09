@@ -13,4 +13,4 @@ The Microsoft Power Platform admin center provides the following capabilities:
 
 Select the following link to complete an interactive demonstration titled: [Explore the Power BI Admin portal](https://edxinteractivepage.blob.core.windows.net/edxpages/MS-100/M4-L3-E10-T4/index.html?azure-portal=true).
 
-This simulation guides you through the Power BI Admin portal for the fictitious company known as Adatum Corporation. You will create a test workspace and grant member access to a fictitous user, Patti Fernandez. You will also review and update some organizational settings.
+This simulation guides you through the Power BI Admin portal for the fictitious company known as Adatum Corporation. You will create a test workspace and grant member access to a fictitious user, Patti Fernandez. You will also review and update some organizational settings.
