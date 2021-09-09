@@ -5,7 +5,7 @@ Depending on an organization's needs, it can use the following methods to provis
  -  **Windows PowerShell.** This cmdlet-based and script-based interface can be used to create and manage single and multiple users.
  -  **Directory synchronization.** This option requires an organization to provision and manage users by synchronizing Microsoft 365 with an on-premises directory service such as Active Directory. The Azure AD Connect tool can be used to synchronize on-premises Active Directory objects with Azure AD in Microsoft 365.
 
-The most common and easiest way to create user accounts in non-directory synchronized environments is to use the Microsoft 365 admin center or the Microsoft 365 admin app. More advanced methods such as importing multiple users or Windows PowerShell are normally used for mass-imports, or if an automated script was run for user creation. In environments where directory synchronization is implement, an organization can't use the Microsoft 365 admin center or Windows PowerShell for user creation. It must instead use the local tools available in its Active Directory.
+The most common and easiest way to create user accounts in non-directory synchronized environments is to use the Microsoft 365 admin center or the Microsoft 365 admin app. More advanced methods such as importing multiple users or Windows PowerShell are normally used for mass-imports, or if an automated script was run for user creation. In environments where directory synchronization is implemented, an organization can't use the Microsoft 365 admin center or Windows PowerShell for user creation. It must instead use the local tools available in its Active Directory.
 
 ### Creating users with the Microsoft 365 admin center
 
@@ -60,10 +60,3 @@ This simulation guides you through the steps to create a Microsoft 365 user acco
 ## Knowledge check
 
 Choose the best response for the following question. Then select “Check your answers.”
-
-## Multiple Choice
-As the Enterprise Administrator for Contoso, you're configuring Contoso's Microsoft 365 tenant. Your plan is to provision and manage your user accounts by synchronizing Microsoft 365 with Contoso's on-premises Active Directory. What tool can you use to synchronize on-premises Active Directory objects with Azure AD in Microsoft 365?
-( ) Active Directory Federation Services
-(x) Azure AD Connect
-( ) Users and Computer's snap-in
-

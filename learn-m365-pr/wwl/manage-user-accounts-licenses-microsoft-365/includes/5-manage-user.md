@@ -45,10 +45,3 @@ Using Windows PowerShell, you can use the **Get-MsolAccountSku** cmdlet to view 
 ## Knowledge check
 
 Choose the best response for the following question. Then select “Check your answers.”
-
-## Multiple Choice
-You're the Enterprise Administrator for Tailspin Toys. When a member of the Sales team recently left the company, you removed the Office 365 E3 license from the user's Microsoft 365 account. What will happen to any service data associated with that user?
-(x) Any service data associated with that user is soft-deleted, but you have a 30-day grace period in which you can recover the data before it gets permanently deleted
-( ) Any service data associated with that user is soft-deleted, but you can recover the data anytime after the data is deleted
-( ) Any service data associated with that user is permanently deleted and cannot be recovered
-
