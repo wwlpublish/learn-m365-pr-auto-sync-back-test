@@ -68,10 +68,3 @@ The first simulation guides you through the steps to create a Microsoft 365 grou
 ## Knowledge check
 
 Choose the best response for the following question. Then select “Check your answers.”
-
-## Multiple Choice
-You're the Enterprise Administrator for Contoso. After creating a security group in Microsoft 365 that is synchronized with your on-premises Active Directory, you now want to edit the group. Which of the following tools should you use to edit the group?
-( ) Microsoft 365 admin center
-(x) Local Active Directory management tools
-( ) Windows PowerShell
-
