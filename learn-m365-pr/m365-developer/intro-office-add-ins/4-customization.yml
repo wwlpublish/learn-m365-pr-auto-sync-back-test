@@ -4,7 +4,7 @@ metadata:
   title: Understand how to customize Office Add-ins
   description: The Office Add-ins platform enables you to customize your add-in. In this unit, you'll explore how to customize your add-in by persisting state, and using Fluent UI and Microsoft Graph. By the end of this unit, you should know how to customize Office Add-ins using persisted state, Fluent UI, and Microsoft Graph.
   ms.date: 06/17/2021
-  author: andrewconnell
+  author: andrewconnell-msft
   ms.author: v-johnco
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
