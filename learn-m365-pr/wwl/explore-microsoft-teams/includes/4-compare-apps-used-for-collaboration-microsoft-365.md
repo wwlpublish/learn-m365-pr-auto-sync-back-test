@@ -147,10 +147,3 @@ Complete the following steps to update the **org-wide app settings**:
 ## Knowledge check
 
 Choose the best response for the following question. Then select “Check your answers.”
-
-## Multiple Choice
-Which Microsoft 365 service implements business process automation on document libraries and lists of information by integrating Microsoft Flow and PowerApps?
-( ) Yammer
-(x) SharePoint
-( ) Teams
-

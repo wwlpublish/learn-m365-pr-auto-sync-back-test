@@ -4,7 +4,7 @@ title: Knowledge check
 metadata:
   title: Knowledge check
   description: "Knowledge check"
-  ms.date: 09/03/2021
+  ms.date: 09/09/2021
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -15,3 +15,39 @@ labModal: false
 durationInMinutes: 6
 content: |
   [!include[](includes/9-knowledge-check.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "Which of the following statements describes the life cycle of a team in Microsoft Teams?"
+    choices:
+    - content: "A team is deleted with a \"soft delete\" that IT can reverse for up to 30 days"
+      isCorrect: false
+      explanation: "That's incorrect. IT can reverse a soft deleted team for up to 21 days. Try again."
+    - content: "Deleting a team removes any chats or content that was kept under compliance policies"
+      isCorrect: false
+      explanation: "That's incorrect. Deleting a team doesn't affect any chats or content that was kept under compliance policies. Try again."
+    - content: "Deleting a channel won't delete the folder or its contents from the SharePoint document library"
+      isCorrect: true
+      explanation: "That's correct. Channels also have a \"soft delete\" and can be reversed for up to 21 days after deletion. Deleting a channel won't delete the folder or its contents from the SharePoint document library."
+  - content: "Which identity model supported by Microsoft Teams requires a synchronized identity where the user password is verified by the on-premises identity provider?"
+    choices:
+    - content: "Federated identity"
+      isCorrect: true
+      explanation: "That's correct. This model requires a synchronized identity where the user password is verified by the on-premises identity provider. With this model, the password hash isn't synchronized to Azure AD because Active Directory Federation Services (ADFS) or a third-party identity provider is used to authenticate users against the on-premises Active Directory."
+    - content: "Cloud identity"
+      isCorrect: false
+      explanation: "That's incorrect. In this model, a user is created and managed in Microsoft 365. The user account is stored in Azure Active Directory (AD) and only exists there. Try again."
+    - content: "Synchronized identity"
+      isCorrect: false
+      explanation: "That's incorrect. In this model, the user identity is managed in an on-premises server, and the account and its password hash are synchronized to the cloud. Try again."
+  - content: "As the Enterprise Admin for Northwind Traders, Allan Deyoung is implementing Microsoft Teams in Northwind's Microsoft 365 deployment. What must Allan do to enable Microsoft Teams for all of Northwind's users?"
+    choices:
+    - content: "Turn on all Microsoft Teams features at the individual user-level through the Teams admin center"
+      isCorrect: false
+      explanation: "That's incorrect. Specific Microsoft Teams’ features can't be turned on or off at an individual user level. Try again."
+    - content: "Set the tenant-wide Microsoft Teams option in Org-wide settings"
+      isCorrect: false
+      explanation: "That's incorrect. There is no Microsoft Teams option in the org-wide settings. Try again."
+    - content: "Assign an Office 365 Enterprise E3 or E5 license to each user"
+      isCorrect: true
+      explanation: "That's correct. When a license SKU such as Office 365 Enterprise E3 or E5 is assigned to a user, a Microsoft Teams license is automatically assigned to the user. This license enables the user to use Microsoft Teams."

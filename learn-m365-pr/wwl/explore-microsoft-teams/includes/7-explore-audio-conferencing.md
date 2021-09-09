@@ -123,10 +123,3 @@ Set-CsOnlineDialInConferencingUser -Identity "Amos Marble" -ConferenceId 8271964
 ## Knowledge check
 
 Choose the best response for the following question. Then select “Check your answers.”
-
-## Multiple Choice
-Contoso is planning to implement audio conferencing. As Contoso's Enterprise Administrator, Patti Fernandez doesn't want Contoso's users to have to remember a specific conference ID that's assigned to them when they create meeting requests. What type of conference ID should Patti assign to Contoso's users to satisfy this requirement?
-(x) A dynamic conference ID
-( ) A static conference ID
-( ) A PSTN conference ID
-

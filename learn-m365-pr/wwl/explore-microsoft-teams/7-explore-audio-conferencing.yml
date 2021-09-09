@@ -4,7 +4,7 @@ title: Explore audio conferencing
 metadata:
   title: Explore audio conferencing
   description: "Explore audio conferencing"
-  ms.date: 09/03/2021
+  ms.date: 09/09/2021
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -15,3 +15,17 @@ labModal: false
 durationInMinutes: 6
 content: |
   [!include[](includes/7-explore-audio-conferencing.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "Contoso is planning to implement audio conferencing. As Contoso's Enterprise Administrator, Patti Fernandez doesn't want Contoso's users to have to remember a specific conference ID that's assigned to them when they create meeting requests. What type of conference ID should Patti assign to Contoso's users to satisfy this requirement?"
+    choices:
+    - content: "A dynamic conference ID"
+      isCorrect: true
+      explanation: "That's correct. When dynamic conference IDs are used, each meeting that a user schedules will get assigned a unique conference ID. The user will have have to remember a specific ID to assign to the meeting request."
+    - content: "A static conference ID"
+      isCorrect: false
+      explanation: "That's incorrect. You wouldn't assign this ID type to your users when you don't want them to have to remember a specific ID. Try again."
+    - content: "A PSTN conference ID"
+      isCorrect: false
+      explanation: "That's incorrect. This item isn't a valid conference ID type. Try again."

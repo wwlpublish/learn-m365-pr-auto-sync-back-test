@@ -4,7 +4,7 @@ title: Analyze the Teams infrastructure
 metadata:
   title: Analyze the Teams infrastructure
   description: "Analyze the Teams infrastructure"
-  ms.date: 09/03/2021
+  ms.date: 09/09/2021
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -15,3 +15,17 @@ labModal: false
 durationInMinutes: 5
 content: |
   [!include[](includes/2-analyze-teams-infrastructure.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "As the Enterprise Administrator for Contoso, Holly Dickson is planning to implement Microsoft Teams in the next phase of Contoso's Microsoft 365 deployment. After discussing this with Contoso's senior leadership team, Holly was contacted by the VP of Manufacturing, who wants to use Microsoft Teams to invite a select group of Contoso scientists to work together on a top-secret project. Holly was asked to make this happen. What can Holly create in Microsoft Teams to support this effort?"
+    choices:
+    - content: "A channel"
+      isCorrect: false
+      explanation: "That's incorrect. This item isn't what you would create in Teams to invite a select group of users to work together. Try again."
+    - content: "A public team"
+      isCorrect: false
+      explanation: "That's incorrect. This item isn't what you would create in Teams to invite a select group of users to work together. Try again."
+    - content: "A private team"
+      isCorrect: true
+      explanation: "That's correct. A private team is closed to only invited users. This item is what you would create in Teams to invite a select group of users to work together."

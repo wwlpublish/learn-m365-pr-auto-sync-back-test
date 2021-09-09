@@ -46,15 +46,8 @@ Select the following links to complete these interactive demonstrations:
  -  [Create a call queue](https://edxinteractivepage.blob.core.windows.net/edxpages/MS-100/M4-L3-E4-T5/index.html?azure-portal=true)
  -  [Manage Teams settings](https://edxinteractivepage.blob.core.windows.net/edxpages/MS-100/M4-L3-E4-T9/index.html?azure-portal=true)
 
-These simulations guide you through the steps to complete a variety of management tasks in the Teams admin center for the fictitious Adatum Corporation.
+These simulations guide you through the steps to complete various management tasks in the Teams admin center for the fictitious Adatum Corporation.
 
 ## Knowledge check
 
 Choose the best response for the following question. Then select “Check your answers.”
-
-## Multiple Choice
-As the Enterprise Administrator for Contoso, Holly Dickson is planning to implement Microsoft Teams in the next phase of Contoso's Microsoft 365 deployment. After discussing this with Contoso's senior leadership team, Holly was contacted by the VP of Manufacturing, who wants to use Microsoft Teams to invite a select group of Contoso scientists to work together on a top-secret project. Holly was asked to make this happen. What can Holly create in Microsoft Teams to support this effort?
-( ) A channel
-( ) A public team
-(x) A private team
-

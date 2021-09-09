@@ -16,7 +16,7 @@ Depending on which Microsoft 365 identity model an organization decides to use, 
 Ensuring the correct users are accessing an organization's system resources is critical to securing data. Access to Microsoft Teams is enabled or disabled on a per-user basis by assigning or removing the Microsoft Teams product license to a user account. Specific Microsoft Teams’ features can't be turned on or off at an individual user level.<br>
 
 > [!TIP]
-> It's recommended that Microsoft Teams be enabled for all users in an organization. This design allows teams to be formed organically for projects and other dynamic initiatives. Even if you're deciding to pilot a feature set of Teams, it may still be helpful to keep Microsoft Teams enabled for all users, but only target communications to the pilot group of users.
+> It's recommended that organizations enable Microsoft Teams for all their users. This design enables teams to be formed organically for projects and other dynamic initiatives. Even if you're deciding to pilot a feature set of Teams, it may still be helpful to keep Microsoft Teams enabled for all users, but only target communications to the pilot group of users.
 
 User-level licenses for Microsoft Teams are managed directly through the user management interfaces in the Microsoft 365 admin center. An administrator can assign licenses to new users when new user accounts are created, or to users with existing accounts. The administrator must have Microsoft 365 Global Administrator or User Management Administrator privileges to manage Microsoft Teams licenses.
 
