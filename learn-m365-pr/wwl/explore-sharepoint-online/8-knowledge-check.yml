@@ -16,7 +16,7 @@ durationInMinutes: 6
 content: |
   [!include[](includes/8-knowledge-check.md)]
 quiz:
-  title: "Check your knowledgeChoose the best response for each of the questions below. Then select **Check your answers**."
+  title: "Check your knowledge"
   questions:
   - content: "As the Enterprise Administrator for Contoso, Patti Fernandez wants to connect and organize Contoso's SharePoint sites so that its users can search across all associated sites and apply common navigation, branding, and site structure across associated sites. Which type of SharePoint site should Patti create?"
     choices:
