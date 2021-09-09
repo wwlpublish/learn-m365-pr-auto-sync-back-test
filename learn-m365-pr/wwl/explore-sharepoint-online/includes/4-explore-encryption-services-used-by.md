@@ -30,10 +30,3 @@ The following graphic shows in a single picture all the areas of encryption ment
 ## Knowledge check
 
 Choose the best response for the following question. Then select “Check your answers.”
-
-## Multiple Choice
-Which of the following encryption methods provides encryption on all customer document libraries and site data that's stored in the Microsoft 365 datacenter?
-( ) Client communication with the server encryption
-( ) Per-file encryption
-(x) BitLocker encryption
-

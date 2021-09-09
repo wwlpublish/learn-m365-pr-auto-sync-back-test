@@ -253,10 +253,3 @@ This simulation guides you through the steps to configure, view, and manage perm
 ## Knowledge check
 
 Choose the best response for the following question. Then select “Check your answers.”
-
-## Multiple Choice
-Which of the following default permission levels in SharePoint Online enables users to access shared resources and a specific asset?
-(x) Limited Access
-( ) Contribute
-( ) Edit
-

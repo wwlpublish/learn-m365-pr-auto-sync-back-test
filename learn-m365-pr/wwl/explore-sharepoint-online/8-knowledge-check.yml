@@ -4,7 +4,7 @@ title: Knowledge check
 metadata:
   title: Knowledge check
   description: "Knowledge check"
-  ms.date: 09/03/2021
+  ms.date: 09/09/2021
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -15,3 +15,39 @@ labModal: false
 durationInMinutes: 6
 content: |
   [!include[](includes/8-knowledge-check.md)]
+quiz:
+  title: "Check your knowledgeChoose the best response for each of the questions below. Then select **Check your answers**."
+  questions:
+  - content: "As the Enterprise Administrator for Contoso, Patti Fernandez wants to connect and organize Contoso's SharePoint sites so that its users can search across all associated sites and apply common navigation, branding, and site structure across associated sites. Which type of SharePoint site should Patti create?"
+    choices:
+    - content: "Team site"
+      isCorrect: false
+      explanation: "That's incorrect. This type of SharePoint site doesn't allow you to connect and organization your SharePoint sites to provide the specified features. Try again."
+    - content: "Hub site"
+      isCorrect: true
+      explanation: "That's correct. SharePoint hub sites connect and organize sites based on organizational attributes such as project, department, division, or region. By connecting and organizing sites in this manner, SharePoint hub sites make it easier for users to search across all associated sites and apply common navigation, branding, and site structure across associated sites."
+    - content: "Site collection"
+      isCorrect: false
+      explanation: "That's incorrect. This type of SharePoint site doesn't allow you to connect and organization your SharePoint sites to provide the specified features. Try again."
+  - content: "In SharePoint Online, when is an item automatically purged from the Site Collection Recycle Bin?"
+    choices:
+    - content: "60 days after the item was placed in the Site Collection Recycle Bin"
+      isCorrect: false
+      explanation: "That's incorrect. This is the incorrect number of days and the incorrect recycle bin. Try again."
+    - content: "45 days after the item was placed in the Second-stage Recycle Bin"
+      isCorrect: false
+      explanation: "That's incorrect. This is the incorrect number of days and the incorrect recycle bin. Try again."
+    - content: "93 days after the item was placed in the Local Recycle Bin"
+      isCorrect: true
+      explanation: "That's correct. Items are automatically purged from the Site Collection Recycle Bin after 93 days. The time at which 93 days begin is from the time an item is placed in the Local Recycle Bin."
+  - content: "As the Enterprise Administrator for Tailspin Toys, Allan Deyoung created a team site in SharePoint Online. What happened when Allan created this site?"
+    choices:
+    - content: "A SharePoint hub site was automatically created"
+      isCorrect: false
+      explanation: "That's incorrect. This isn't what happened when you created this team site. Try again."
+    - content: "A Microsoft 365 group was automatically created"
+      isCorrect: true
+      explanation: "That's correct. When admins and users create team sites in SharePoint, which a Microsoft 365 group is automatically created."
+    - content: "The external sharing setting for this site was automatically set to \"Only people in your organization\""
+      isCorrect: false
+      explanation: "That's incorrect. This isn't what happened when you created this team site. Try again."
