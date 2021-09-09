@@ -105,4 +105,4 @@ AppSource validation policy 4.12 discusses the expected client and platform supp
 
 ## Summary
 
-In this unit, you explored testing, debugging, and deployment options for Office Add-ins. You should now know how to sideload your add-in to test it, how to use Visual Studio, Visual Studio Code, or the browser developer tools to debug your add-in, and the different options available for deployment.
+In this unit, you explored testing, debugging, and deployment options for Office Add-ins. You also know how to sideload your add-in to test it, how to use Visual Studio, Visual Studio Code, or the browser developer tools to debug your add-in, and the different options available for deployment.
