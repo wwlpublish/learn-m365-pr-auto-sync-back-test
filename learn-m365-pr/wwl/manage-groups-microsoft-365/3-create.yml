@@ -28,4 +28,4 @@ quiz:
       explanation: "That's correct. Security groups that are synchronized with your on-premises Active Directory can only be modified using the local Active Directory management tools."
     - content: "Windows PowerShell"
       isCorrect: false
-      explanation: "That's incorrect. Security groups that are synchronized with your on-premises Active Directory can't be modified using using Windows PowerShell. Try again."
+      explanation: "That's incorrect. Security groups that are synchronized with your on-premises Active Directory can't be modified using Windows PowerShell. Try again."
