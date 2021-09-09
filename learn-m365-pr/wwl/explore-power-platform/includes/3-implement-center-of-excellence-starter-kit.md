@@ -23,10 +23,3 @@ The dashboard provides analytics and data for the following areas:
 ## Knowledge check
 
 Choose the best response for the following question. Then select “Check your answers.”
-
-## Multiple Choice
-As Contoso's Enterprise Administrator, Holly Dickson is interested in implementing the Microsoft Power Platform CoE Starter Kit. Holly wants to use the CoE Starter Kit to help Contoso develop a strategy for adopting and supporting Microsoft Power Platform. Which of the following Microsoft Power Platform components will the Starter Kit help Holly focus on?
-(x) Power Automate
-( ) Power BI
-( ) Power Virtual Agents
-
