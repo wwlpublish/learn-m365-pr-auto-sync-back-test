@@ -18,4 +18,4 @@ To configure Windows Update settings on a local computer, open Settings. Click *
 
 |||
 | :--- | :--- |
-| ![Icon indicating play video](../media/video-icon.png)| Watch this video to learn more about how to manage updates on a Windows 10 device:<br/>[How to Manage Updates in Windows 10](https://www.youtube.com/watch?v=ZsPRcG16cok)|
+| :::image type="content" source="../media/video-icon.png" alt-text="Icon indicating play video" border="false":::| Watch this video to learn more about how to manage updates on a Windows 10 device:<br/>[How to Manage Updates in Windows 10](https://www.youtube.com/watch?v=ZsPRcG16cok)|
