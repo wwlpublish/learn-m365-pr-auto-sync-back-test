@@ -1,6 +1,6 @@
 Microsoft Power Platform is a family of products that delivers innovative business solutions across one seamlessly integrated platform. It provides a graphical user interface that employs drag-and-drop components and model-driven logic (as opposed to traditional computer programming). This design enables everyday users to quickly create apps with little to no coding required (also known as a low-code interface). At the same time, it also provides professional developers with a robust set of tools for creating advanced custom apps.
 
-The business applications and process automations enabled by Microsoft Power Platform can quickly become part of an organization’s application environment. For this reason, it's important that enterprise administrators understand Microsoft Power Platform's feature set and how this functionality enables users to connect to the services and data that are part of the managed enterprise environment.
+The business applications and process automations enabled by Microsoft Power Platform can quickly become part of an organization’s application environment. For this reason, it's important that enterprise administrators understand Microsoft Power Platform's feature set and how this functionality enables users to connect to the services and data that is part of the managed enterprise environment.
 
 Microsoft Power Platform is composed of the following four key products:<br>
 
