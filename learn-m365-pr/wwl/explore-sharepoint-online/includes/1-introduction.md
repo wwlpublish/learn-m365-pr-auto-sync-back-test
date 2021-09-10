@@ -7,7 +7,7 @@ SharePoint Online is used for many different purposes and can be managed from ei
  -  Data Loss Prevention
  -  Anti- Malware Protection
 
-**Additional reading.** SharePoint Patterns and Practices (PnP) contains a library of PowerShell commands (PnP PowerShell) that enables you to do complex provisioning and artifact management actions towards SharePoint. While this PowerShell information is outside the scope of this training, see the [PnP PowerShell Overview](/powershell/sharepoint/sharepoint-pnp/sharepoint-pnp-cmdlets) site if you're interested in learning about these cmdlets.
+**Additional reading.** SharePoint Patterns and Practices (PnP) contains a library of PowerShell commands (PnP PowerShell) that enables you to do complex provisioning and artifact management actions towards SharePoint. While this PowerShell information is outside the scope of this training, see the [PnP PowerShell Overview](/powershell/sharepoint/sharepoint-pnp/sharepoint-pnp-cmdlets?azure-portal=true) site if you're interested in learning about these cmdlets.
 
 After completing this module, you'll be able to:
 
