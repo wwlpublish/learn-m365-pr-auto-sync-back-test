@@ -4,12 +4,14 @@ title: Assess network readiness using Microsoft 365 network connectivity test to
 metadata:
   title: Assess network readiness using Microsoft 365 network connectivity test tool
   description: "Assess network readiness using Microsoft 365 network connectivity test tool"
-  ms.date: 08/25/2021
+  ms.date: 09/10/2021
   author: wwlpublish
   ms.author: jennyche
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
+sandbox: false
+labModal: false
 durationInMinutes: 6
 content: |
   [!include[](includes/08-assess-network-readiness-using-network-connectivity-test-tool.md)]

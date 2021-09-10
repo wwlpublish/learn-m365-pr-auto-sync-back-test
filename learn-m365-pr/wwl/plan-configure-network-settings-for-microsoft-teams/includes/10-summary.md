@@ -4,7 +4,7 @@ In this module, you learned how to make a detailed review of the current infrast
 
 This module explored the tools available in Microsoft 365 for testing network bandwidth and performance. You began by reviewing Network Planner, which helps determine and organize network requirements for connecting Microsoft Teams users across the whole organization. After providing network details and Teams usage, the Network Planner calculates the network requirements for deploying Teams and cloud voice across the organization’s physical locations.
 
-You then examined how Quality of Service in Microsoft Teams allows real-time network traffic that's sensitive to network delays (for example, voice or video streams) to "cut in line" in front of traffic that's less sensitive (like downloading a new app, where an extra second to download isn't a large deal). QoS provides a way to more effectively manage the resources you have instead of adding bandwidth. 
+You then examined how Quality of Service in Microsoft Teams allows real-time network traffic that's sensitive to network delays (for example, voice or video streams) to "cut in line" in front of traffic that's less sensitive (like downloading a new app, where an extra second to download isn't a large deal). QoS provides a way to more effectively manage the resources you have instead of adding bandwidth.
 
 This module then examined Call analytics, which shows call and meeting quality for individual users in Teams. Location-enhanced Call Analytics reports contain the location names instead of just an IP subnet, making the reports easier to understand and use for remediating any potential issues.
 
