@@ -2,9 +2,10 @@ Public Preview for Microsoft Teams provides early access to unreleased features 
 
 Public preview is enabled on a per-user basis, and the option to turn on public preview is controlled in an admin policy. Update policies are used to manage Teams and Office preview users who will see pre-release or preview features in the Teams app. 
 
-You can use the Global (Org-wide default) policy and customize it, or create one or more custom policies for your users. The steps below is to enable public preview features for users. 
+You can use the Global (Org-wide default) policy and customize it, or create one or more custom policies for your users. The following steps are to enable public preview features for users. 
 
 ## Create a custom Update policy
+
 1. Sign in to the Teams admin center.
 2. Select **Teams**>**Update policies**.
 3. Select **Add**.
@@ -21,6 +22,7 @@ You can use the Global (Org-wide default) policy and customize it, or create one
 You can also set the policy using PowerShell using the ```Set-CsTeamsUpdateManagementPolicy``` cmdlet with the ```-AllowPreview``` boolean parameter.
 
 ## Assign the custom Update policy to users
+
 Once you created the custom policy, you need to assign the policy to specific users because it doesn't over-write the global policy.
 
 1. Go to **Teams admin center**>**Teams**>**Update policies**.
@@ -31,7 +33,7 @@ Once you created the custom policy, you need to assign the policy to specific us
 
    ‎:::image type="content" source="../media/assign-update-policies.png" alt-text="Assign Update policy to users":::
 
-You can also set the policy using PowerShell using the `Set-CsTeamsUpdateManagementPolicy` cmdlet.
+You can also set the policy with PowerShell using the `Set-CsTeamsUpdateManagementPolicy` cmdlet.
 
 ## Enable public preview in Teams clients
 
@@ -51,9 +53,10 @@ Depends on the assigned policy, users will need to switch to public preview from
    2. Select **About** → **Public preview**.
 
       ‎:::image type="content" source="../media/public-peview-teams-client.png" alt-text="The public prepiew option in Teams client":::
+
    3. Select **Switch to Public preview**.
    
       ‎:::image type="content" source="../media/switch-to-public-preview.png" alt-text="Prompt for switching To Public Preview":::
 
 
-For a list of what's available in the Teams public preview, see [Release Notes for Office Current Channel (Preview)](/officeupdates/current-channel-preview).
+For a list of what's available in the Teams public preview, see [Release Notes for Office Current Channel (Preview)](/officeupdates/current-channel-preview?azure-portal=true).

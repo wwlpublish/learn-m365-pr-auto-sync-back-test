@@ -4,12 +4,14 @@ title: Manage Teams preview features using Teams update policies
 metadata:
   title: Manage Teams preview features using Teams update policies
   description: "Manage Teams preview features using Teams update policies"
-  ms.date: 08/24/2021
+  ms.date: 09/10/2021
   author: wwlpublish
   ms.author: jennyche
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
+sandbox: false
+labModal: false
 durationInMinutes: 6
 content: |
   [!include[](includes/9-manage-teams-preview-features-using-teams-update-policies.md)]

@@ -55,9 +55,9 @@ Assign the policy package to users. Remember that policies in a policy package a
 2. On the user's page, select **Policies**, and then next to **Policy package**, select **Edit**.
 3. In the **Assign policy package** pane, select the package you want to assign, and then select **Save**.
 
-You can also use ```Grant-CsUserPolicyPackage``` PowerShell cmdlet to assign a policy package to fewer than 20 users at a time.
+You can also use the ```Grant-CsUserPolicyPackage``` PowerShell cmdlet to assign a policy package to fewer than 20 users at a time.
 
-The example below assigns the Education_PrimaryStudent policy package to two users in the tenant. You can specify users by their object ID or Session Initiation Protocol (SIP) address.
+The following example assigns the Education_PrimaryStudent policy package to two users in the tenant. You can specify users by their object ID or Session Initiation Protocol (SIP) address.
 
 ```PowerShell
 Grant-CsUserPolicyPackage -Identity 1bc0b35f-095a-4a37-a24c-c4b6049816ab,johndoe@example.com -PackageName Education_PrimaryStudent
@@ -71,9 +71,9 @@ With batch policy package assignment, you can assign a policy package to large s
 3. In the **Manage users** pane, search for the user by display name or by user name, select the name, and then select **Add**. Repeat this step for each user that you want to add.
 4. When you're finished adding users, select **Save**.
 
-You can also use ```New-CsBatchPolicyAssignmentOperation``` PowerShell cmdlet to assign a policy package to multiple users. A batch may contain up to 5,000 users.
+You can also use the ```New-CsBatchPolicyAssignmentOperation``` PowerShell cmdlet to assign a policy package to multiple users. A batch may contain up to 5,000 users.
 
-The example below assigns the Education_PrimaryStudent policy package to a batch of users. You can specify users by their object ID or Session Initiation Protocol (SIP) address.
+The following example assigns the Education_PrimaryStudent policy package to a batch of users. You can specify users by their object ID or Session Initiation Protocol (SIP) address.
 
 ```PowerShell
 New-CsBatchPolicyPackageAssignmentOperation -Identity 1bc0b35f-095a-4a37-a24c-c4b6049816ab,user1@econtoso.com,user2@contoso.com -PackageName Education_PrimaryStudent
@@ -96,11 +96,11 @@ Policy package assignment to groups lets you assign multiple policies to a group
     d. Select **Apply**.
 
 5. To manage ranking for a specific policy type, navigate to the specific policy page.
-6. To reassign a policy package to a group, first remove the group policy assignment. Then, follow the steps above to assign the policy package to a group.
+6. To reassign a policy package to a group, first remove the group policy assignment. Then, follow steps 1-5 to assign the policy package to a group.
 
-You can also use ```Grant-CsGroupPolicyPackageAssignment``` PowerShell cmdlet to assign a policy package to a group. You can specify a group by using the object ID, SIP address, or email address.
+You can also use the ```Grant-CsGroupPolicyPackageAssignment``` PowerShell cmdlet to assign a policy package to a group. You can specify a group by using the object ID, SIP address, or email address.
 
-The example below assigns the Education_Teacher policy package to a group with an assignment ranking of 1 for TeamsAppSetupPolicy and TeamsMeetingBroadcastPolicy and a ranking of 2 for TeamsMeetingPolicy.
+The following example assigns the Education_Teacher policy package to a group with an assignment ranking of 1 for TeamsAppSetupPolicy and TeamsMeetingBroadcastPolicy and a ranking of 2 for TeamsMeetingPolicy.
 
 ```PowerShell
 Grant-CsGroupPolicyPackageAssignment -GroupId "dae90bb4-120f-4a3e-a15d-30f142e79f69" -PackageName "Education_Teacher" -PolicyRankings "TeamsAppSetupPolicy, 1", "TeamsMeetingBroadcastPolicy, 1", "TeamsMeetingPolicy, 2"

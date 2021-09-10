@@ -3,6 +3,7 @@ Teams templates are pre-built definitions of a team's structure designed around 
 ## The types of team templates
 
 There are two type of team templates. 
+
 * **Base template**
 
     Base template types are special templates that Microsoft created for specific industries. These base templates often contain proprietary apps that aren't available in the store and team properties that are not yet supported individually in Teams templates.
@@ -24,15 +25,16 @@ Most properties in a team are included and supported by templates. The following
 | Team description | Channel settings |
 | Team visibility (public or private) | Connectors |
 | Team settings (for example, member, guest, @ mentions) | Files and content |
-| Autofavorite channel | |
-| Installed app | |
-| Pinned tabs | |
+| Autofavorite channel | - |
+| Installed app | - |
+| Pinned tabs | - |
 
 > [!NOTE]
 > Teams templates currently don't support creating private channels. Private channel creation isn't included in template definitions.
 
 
 ## Create a custom template
+
 You can create a template from scratch, an existing team or team template that can be saved and modified to meet your particular organizational needs.
 
 1. Log in to the Teams admin center.
