@@ -2,8 +2,8 @@ Organizations can use meeting policies to control the set of features that are a
 
 Meeting policies control the features available to meeting participants. Microsoft Teams comes with a Global meeting policy that provides organization-wide, default settings. All users in an organization are automatically assigned this policy. The Teams admin can customize meeting policies in two ways:
 
-- Change the settings in the Global policy. 
-- Create custom policies and assign them to specific users or all users. 
+* Change the settings in the Global policy. 
+* Create custom policies and assign them to specific users or all users. 
 
 Meeting policies can be configured in the Microsoft Teams admin center or through Windows PowerShell.
 
@@ -11,9 +11,9 @@ Meeting policies can be configured in the Microsoft Teams admin center or throug
 
 Policy settings are implemented in the following methods:
 
-1. **Per organizer.** Per-organizer policy settings apply to the meeting organizer and all participants. Meeting participants inherit the policy settings of the meeting organizer.
+1. **Per organizer** - Per-organizer policy settings apply to the meeting organizer and all participants. Meeting participants inherit the policy settings of the meeting organizer.
 
-2. **Per user.** Per-user policies apply the restriction to the organizer and meeting participants.
+2. **Per user** - Per-user policies apply the restriction to the organizer and meeting participants.
 
 	For example, **Allow PowerPoint sharing** is a per-user policy. At Contoso, Linda has the policy setting enabled, while Debbie has the policy setting disabled. 
 
@@ -21,7 +21,7 @@ Policy settings are implemented in the following methods:
 	* Debbie can't share PowerPoint slide decks in meetings even if she's the meeting organizer. Debbie can view the PowerPoint slide decks shared by others in the meeting, even though she can't share PowerPoint slide decks.
 
 
-3. **Per organizer and per user.** Certain features are restricted for meeting participants based on their policy AND the organizer's policy.
+3. **Per organizer and per user** - Certain features are restricted for meeting participants based on their policy AND the organizer's policy.
 
 	For example, **Allow cloud recording** is a per-organizer and per-user policy. At Contoso, Linda has the policy setting enabled, while Debbie has the policy setting disabled. 
 	
@@ -31,7 +31,7 @@ Policy settings are implemented in the following methods:
 
 	The following table shows the different conditions of meeting policy precedence for per-organizer and per-user meeting policies:
 	
-	:::image type="content" source="../media/meeting-policy-precedence.png" alt-text="meeting policy precedence":::
+	:::image type="content" source="../media/meeting-policy-precedence.png" alt-text="Meeting policy precedence":::
 
 
 
@@ -56,7 +56,7 @@ You can then assign the policy directly to users. It can be assigned to individu
 
 ### Use the Teams PowerShell module
 
-The Teams PowerShell module can also be used to manage meeting policies. Meeting policies can be managed by using the Get, New, Set, Remove, and Grant -CsTeamsMeetingPolicy PowerShell cmdlets. For example:
+The Teams PowerShell module can also be used to manage meeting policies. Meeting policies can be managed by using the *Get*, *New*, *Set*, *Remove*, and *Grant* ```-CsTeamsMeetingPolicy``` PowerShell cmdlets. For example:
 
 * To create a meeting policy, use the ```New-CsTeamsMeetingPolicy``` cmdlet.
 * To configure a meeting policy, use the ```Set-CsTeamsMeetingPolicy``` cmdlet.
@@ -107,7 +107,7 @@ Policies can be configured for the following categories:
 |Mode for IP audio|Per-user|During a meeting| Controls whether audio can be turned on in meetings and group calls. When disabled, user can still schedule and organize meetings but they have to dial in through the Public Switched Telephone Network (PSTN) or have the meeting call and join them by phone. 
 |Mode for IP video|Per-user|During a meeting| Controls whether video can be turned on in meetings and group calls. When disabled, user can't turn on video or view videos shared by other meeting participants. 
 | Allow IP video        | Per-organizer and per-user | During a meeting | Controls whether video can be turned on in meetings hosted by a user, one-to-one calls, and group calls. When enabled, meetings organized by a user can use video in the meeting, providing the meeting participants also have the policy enabled.                | 
-| Allow NDI streaming   | Per-user                   | During a meeting | Allows the audio and video streams to be broadcast from a Teams meeting to your local network.                                                                                                                                                                   | 
+| Allow NDI streaming   | Per-user                   | During a meeting | Allows the audio and video streams to be broadcast from a Teams meeting to your local network.                                                                                                                                                                 | 
 | Media bit rate (Kbs)  | Per-user                   | During a meeting | Determines the media bit rate for audio, video, and video-based app sharing transmissions in calls and meetings for the user. It's applied to both the uplink and downlink media traversal for users in the call or meeting.                                      | 
 
 

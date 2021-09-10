@@ -6,17 +6,17 @@ Settings for the Live events that are held within an organization can be configu
 You can manage Live events settings in the Microsoft Teams admin center.
 
 1. Sign into the **Microsoft Teams admin center** with your admin account.
-2. Select **Meetings** and then choose **Live events settings.**
-3. On the **Live events settings** page, in the **Support URL** section, you can define the URL that will be shown to your attendees who will participate at the Live event.   
+2. Select **Meetings** and then choose **Live events settings**.
+3. On the **Live events settings** page, in the **Support URL** section, you can define the URL that will be shown to your attendees who will participate at the Live event.
 ‎:::image type="content" source="../media/live-event-settings.png" alt-text="Live event settings":::  
 
 
 4. If your company purchased a Software Defined Network (SDN) solution or enterprise Content Delivery Network (eCDN) solution through a Microsoft video delivery partner, you can configure the provider by completing the following steps:
 
-	- **Use a third-party distribution provider.** Turn this option On to enable the third-party video distribution provider.
-	- **SDN provider name.** Enter the provider who's being used.
-	- **Provider license key.** Enter the license ID, which you received from your provider contact.
-	- **SDN API template URL.** Enter the API template URL, which you received from your provider contact.
+	- **Use a third-party distribution provider**. Turn this option On to enable the third-party video distribution provider.
+	- **SDN provider name**. Enter the provider who's being used.
+	- **Provider license key**. Enter the license ID, which you received from your provider contact.
+	- **SDN API template URL**. Enter the API template URL, which you received from your provider contact.
 
 5. Select the **Save** button.
  
@@ -37,7 +37,7 @@ Set-CsTeamsMeetingBroadcastConfiguration -AllowSdnProviderForBroadcastMeeting $T
 ```
 
 > [!WARNING]
-> If you want to create Live events using an external app or device, you must first [configure your eCDN provider with Microsoft Stream](/stream/network-caching).
+> If you want to create Live events using an external app or device, you must first [configure your eCDN provider with Microsoft Stream](/stream/network-caching?azure-portal=true).
 
  
 
