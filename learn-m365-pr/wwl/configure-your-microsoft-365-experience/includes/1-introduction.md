@@ -13,4 +13,3 @@ After completing this module, you'll be able to:
  -  Maintain minimum subscription requirements for your company
  -  Manage your services and add-ins by assigning more licenses, purchasing more storage, and so on
  -  Create a checklist that enables you to confirm your Microsoft 365 tenant meets your business needs
-
