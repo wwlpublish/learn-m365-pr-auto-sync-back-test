@@ -1,4 +1,4 @@
-This module examines the Microsoft Teams cloud voice capabilities that are delivered in Microsoft 365. These capabilities provide Private Branch Exchange (PBX) functionality and options for connecting to the Public Switched Telephone Network (PSTN). Microsoft’s technology that enables call control and PBX capabilities is titled Phone System. 
+This module examines the Microsoft Teams cloud voice capabilities that are delivered in Microsoft 365. These capabilities provide Private Branch Exchange (PBX) functionality and options for connecting to the Public Switched Telephone Network (PSTN). The Microsoft technology that enables call control and PBX capabilities is titled Phone System. 
 
 This module also examines Microsoft Teams Calling Plans, which offer cloud-based telephony services from Microsoft. There are no on-premises infrastructure requirements. With Calling Plans, PTSN connectivity is provided by Microsoft. Calling Plans are available in specific countries.
 

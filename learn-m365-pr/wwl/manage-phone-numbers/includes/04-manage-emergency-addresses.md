@@ -2,21 +2,21 @@ In the United States, 911 calls first go to a certified Emergency Routing Servic
 
 The caller’s address must be attached to the caller’s phone number. How and when this association happens can vary among country and regions. To implement emergency calling, you should understand the following concepts:
 
-* **Emergency address**. The physical address of a place of business for the organization. For example, 123 South Corner Street, Redmond, WA, 98052.
+* **Emergency address** - The physical address of a place of business for the organization. For example, 123 South Corner Street, Redmond, WA, 98052.
 
-* **Place**. Refers to a building, floor, or wing. This location is associated with the emergency address to provide a more precise location within a building.
+* **Place** - Refers to a building, floor, or wing. This location is associated with the emergency address to provide a more precise location within a building.
 
-* **Emergency location**. A civic address, along with an optional place. If your organization has more than one physical location, you'll probably require more than one emergency location. For each emergency address you create, a unique location ID is automatically generated for it.
+* **Emergency location** - A civic address, along with an optional place. If your organization has more than one physical location, you'll probably require more than one emergency location. For each emergency address you create, a unique location ID is automatically generated for it.
 
-* **Registered address**. An emergency address assigned to a Calling Plan user. Sometimes this address is referred to as an address of record, or a static emergency address. Registered addresses aren't supported if you're using Direct Routing. 
+* **Registered address** - An emergency address assigned to a Calling Plan user. Sometimes this address is referred to as an address of record, or a static emergency address. Registered addresses aren't supported if you're using Direct Routing.
 
-‎‎‎:::image type="content" source="../media/emergency-addresses.png" alt-text="Emergency addresses in Teams admin center":::  ‎ 
+‎‎‎:::image type="content" source="../media/emergency-addresses.png" alt-text="Emergency addresses in Teams admin center":::
 
 ## Emergency address validation
 
 Address validation ensures an address is legitimate. When an emergency address is assigned to a user or to a network identifier, you must ensure the emergency address is marked as "validated." An emergency address can be defined by using the address map search feature in the Teams admin center. When using this feature, the address is automatically marked as validated.
 
-A validated address can't be modified. If the address is ever changed, the new address must be entered and revalidate.
+A validated address can't be modified. If the address is ever changed, the new address must be entered and revalidated.
 
 ## Emergency address geo codes
 
@@ -30,8 +30,9 @@ It's recommended that you create emergency addresses for Calling Plan by using t
 
 Each Calling Plan user is automatically enabled for emergency calling. They're also required to have a registered emergency address associated with their assigned telephone number. Associating an emergency address with a telephone number depends on the country/region:
 
-- In the United States and Canada, an emergency location is required when a number is assigned to a user.
-- For other countries/regions, such as in Europe, the Middle East, and Africa (EMEA), an emergency location is required when you get the phone number from Microsoft 365, or when it's transferred from another service provider or carrier.
+* In the United States and Canada, an emergency location is required when a number is assigned to a user.
+
+* For other countries/regions, such as in Europe, the Middle East, and Africa (EMEA), an emergency location is required when you get the phone number from Microsoft 365, or when it's transferred from another service provider or carrier.
 
 ## Dynamic emergency calling for Calling Plans
 
@@ -39,25 +40,29 @@ Dynamic emergency calling for Microsoft Calling Plans provides the capability to
 
 For Calling Plan users, dynamic location for routing emergency calls is only supported in the United States as follows:
 
-- If a Teams client for a United States Calling Plan user dynamically acquires an emergency address within the United States, that address is used for emergency routing instead of the registered address. The call will be automatically routed to the PSAP in the serving area of the address.
+* If a Teams client for a United States Calling Plan user dynamically acquires an emergency address within the United States, that address is used for emergency routing instead of the registered address. The call will be automatically routed to the PSAP in the serving area of the address.
 
-- If a Teams client for a United States Calling Plan user doesn't dynamically acquire an emergency address within the United States, the registered emergency address is used to help screen and route the call. However, the call will be screened to determine if an updated address is required before connecting the caller to the appropriate PSAP.
+* If a Teams client for a United States Calling Plan user doesn't dynamically acquire an emergency address within the United States, the registered emergency address is used to help screen and route the call. However, the call will be screened to determine if an updated address is required before connecting the caller to the appropriate PSAP.
 
-In the United States, the civic address must be configured that's part of the emergency locations that are assigned to network identifiers and include the associated geo codes. 
+In the United States, the civic address must be configured that's part of the emergency locations that are assigned to network identifiers and include the associated geo codes.
 
 ## Emergency call routing for Calling Plans
 
 When a Teams Calling Plan user dials an emergency number, how the call is routed to the PSAP depends on the following conditions:
 
-- Whether the emergency address is dynamically determined by the Teams client
-- Whether the emergency address is the registered address associated with the user's phone number
-- The emergency calling network of that country/region
+* Whether the emergency address is dynamically determined by the Teams client
+
+* Whether the emergency address is the registered address associated with the user's phone number
+
+* The emergency calling network of that country/region
 
 **In the United States**, the following rules apply:
 
-- If a Teams client is located at a tenant-defined dynamic emergency location, emergency calls from that client are automatically routed to the PSAP serving that geographic location.
-- If a Teams client isn't located at a tenant-defined dynamic emergency location, emergency calls from that client are screened by a national call center to determine the location of the caller before transferring the call to the PSAP serving that geographic location.
-- If an emergency caller is unable to update their emergency location to the screening center, the call will be transferred to the PSAP serving the caller's registered address.
+* If a Teams client is located at a tenant-defined dynamic emergency location, emergency calls from that client are automatically routed to the PSAP serving that geographic location.
+
+* If a Teams client isn't located at a tenant-defined dynamic emergency location, emergency calls from that client are screened by a national call center to determine the location of the caller before transferring the call to the PSAP serving that geographic location.
+
+* If an emergency caller is unable to update their emergency location to the screening center, the call will be transferred to the PSAP serving the caller's registered address.
 
 **In Canada, Ireland, and the United Kingdom**, emergency calls are first screened to determine the current location of the user before connecting the call to the appropriate dispatch center.
 
@@ -83,9 +88,9 @@ Complete the following steps to add an emergency address:
 6. If the address can't be found, you can turn on **Input address manually** and type the address.
 7. Select **Save**.
 ‎‎
-    ‎:::image type="content" source="../media/add-emergency-addresses.png" alt-text="Add an Emergency addresses":::  ‎ 
+    ‎:::image type="content" source="../media/add-emergency-addresses.png" alt-text="Add an Emergency addresses":::
 
-Once you created an emergency address, you can select **Edit** or **Delete** to change to remove emergency addresses. 
+Once you created an emergency address, you can select **Edit** or **Delete** to change to remove emergency addresses.
 
 > [!IMPORTANT]
 > You can only change the address information for a location when the address isn't validated. If the address was previously validated, you must delete the location and then create a new location with the correct address.
@@ -94,11 +99,10 @@ Once you created an emergency address, you can select **Edit** or **Delete** to 
 
 The following PowerShell cmdlets can also be used to manage emergency addresses:
 
-* To add an emergency address, use [New-CsOnlineLisCivicAddress](/powershell/module/skype/new-csonlineliscivicaddress).
-* To update an emergency address, use [Set-CsOnlineLisCivicAddress](/powershell/module/skype/set-csonlineliscivicaddress).
+* To add an emergency address, use [New-CsOnlineLisCivicAddress](/powershell/module/skype/new-csonlineliscivicaddress?view=skype-ps?azure-portal=true).
+* To update an emergency address, use [Set-CsOnlineLisCivicAddress](/powershell/module/skype/set-csonlineliscivicaddress?view=skype-ps?azure-portal=true).
 
-* To remove an emergency address, use [Remove-CsOnlineLisCivicAddress](/powershell/module/skype/remove-csonlineliscivicaddress).
-
+* To remove an emergency address, use [Remove-CsOnlineLisCivicAddress](/powershell/module/skype/remove-csonlineliscivicaddress?view=skype-ps?azure-portal=true).
 
 ## Knowledge check
 
