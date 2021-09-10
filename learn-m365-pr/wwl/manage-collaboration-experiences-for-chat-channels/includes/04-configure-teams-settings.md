@@ -19,7 +19,7 @@ Tags let users communicate with a subset of people on a team. Tags can be added 
 
 Use the following settings to control who can add tags and how tags are used across your organization. 
 
-- **Tags are managed by** : By default, team owners can add custom tags. You can change this setting to allow team owners and team members to create, edit, delete, and manage tags or you can turn off tags for your organization.
+- **Tags are managed by**: By default, team owners can add custom tags. You can change this setting to allow team owners and team members to create, edit, delete, and manage tags or you can turn off tags for your organization.
 
 - **Let team owners override who can manage tags**: When you turn on the setting, team owners can set whether team members can create and manage tags within a team and the value of the **Tags are managed by** setting is the default value for each team. If you turn off the setting, the **Tags are managed by** setting can't be changed per team.
 
@@ -31,9 +31,9 @@ Use the following settings to control who can add tags and how tags are used acr
 
 Email integration lets people send an email to a Teams channel, and have the contents of the email displayed in the conversations for all team members to view.
 
-* **Allow users to send emails to a channel email address** : Turn on this feature so users can send email to a channel in Teams, using the channel email address. Users can do this for any channel belonging to a team they own. Users can also send emails to any channel in a team that has adding connectors turned on for team members.
+* **Allow users to send emails to a channel email address**: Turn on this feature so users can send email to a channel in Teams, using the channel email address. Users can do this for any channel belonging to a team they own. Users can also send emails to any channel in a team that has adding connectors turned on for team members.
 
-* **Accept channel email from these SMTP domains** : This setting controls users from which SMTP domains can send messages to channels. This can help to avoid spamming or unauthorized senders.
+* **Accept channel email from these SMTP domains**: This setting controls users from which SMTP domains can send messages to channels. This can help to avoid spamming or unauthorized senders.
 
 ## Files
 

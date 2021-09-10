@@ -8,24 +8,24 @@ The channel moderation feature is independent from the owner and member roles of
 
 What channel moderators restrict in channels:
 
-- **Starting new posts in a channel**. When moderation is turned on for a channel, only moderators can start new posts in that channel.
+- **Starting new posts in a channel** - When moderation is turned on for a channel, only moderators can start new posts in that channel.
 
-- **Reply to existing channel messages**. With moderation the overall ability of channel members to reply to posts can be restricted.
+- **Reply to existing channel messages** - With moderation the overall ability of channel members to reply to posts can be restricted.
 
-- **Channel messages submitted by bots**. Bots can be restricted from sending channel messages.
+- **Channel messages submitted by bots** - Bots can be restricted from sending channel messages.
 
-- **Channel messages submitted by connectors**. Just like bots, connectors can also be restricted from sending channel messages.
+- **Channel messages submitted by connectors** - Just like bots, connectors can also be restricted from sending channel messages.
 
  
 Channel moderation is available for **standard** channels. It's not available for the **General** channels or **private** channels. 
 
 While there's no **Channel moderation** setting for **General** channels, you can configure the following settings to moderate **General** channels:
 
-- **Anyone can post messages**. No restrictions, moderation turned off.
+- **Anyone can post messages** - No restrictions, moderation turned off.
 
-- **Anyone can post; show alert that posting will notify everyone**. No restrictions but includes user notification to avoid spamming.
+- **Anyone can post; show alert that posting will notify everyone** - No restrictions but includes user notification to avoid spamming.
 
-- **Only owners can post messages**. Strict moderation, where only team owners can post messages.
+- **Only owners can post messages** - Strict moderation, where only team owners can post messages.
 
  
 
@@ -49,7 +49,7 @@ Channel moderation is managed in one of the Teams clients by team owners. To acc
 
  
 
-1. Open the Teams client and then select **Teams** on navigation bar.
+1. Open the Teams client and then select **Teams** on the navigation bar.
 
 2. On **Teams** pane, within a team that you own, select the ellipsis icon for a channel, and then select **Manage channel**.
 
@@ -61,4 +61,4 @@ Channel moderation is managed in one of the Teams clients by team owners. To acc
 
     ‎:::image type="content" source="../media/channel-moderation-enable.png" alt-text="Screenshot of channel moderation settings":::  
 
-5. When channel moderation stays turned **Off**, a restriction can be con figured to exclude guests from being able to start new posts.
+5. When channel moderation stays turned **Off**, a restriction can be configured to exclude guests from being able to start new posts.

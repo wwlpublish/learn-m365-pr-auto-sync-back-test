@@ -9,15 +9,15 @@ A user can only be assigned to one team policy at a time. If users are not assig
 
 ### Use Teams admin center
 
-For the scenario that only allow a limited group of users to create private channels, you'll do the following steps:
+For the scenario that only allows a limited group of users to create private channels, use the following steps:
 
-1. Create a custom Teams policy with creating private channels tuned on.
+1. Create a custom Teams policy with creating private channels turned on.
 2. Assign the custom policy to that group of users.
 3. Turn off the private channel creation in the Global (org-wide default) policy. 
 
-To create a new Teams policy, you'll do the following steps:
+To create a new Teams policy, use the following steps:
 
-1. Go to **Teams admin center**, select **Teams**> **Teams Policies**.
+1. Go to **Teams admin center**, select **Teams** > **Teams Policies**.
 
 2. Select **+ Add** from the top pane.
 
@@ -35,11 +35,11 @@ You can then assign the policy directly to users, either individually or at scal
 
 You can also use PowerShell to manage Teams policies.
 
-- New-CsTeamsChannelsPolicy
-- Set-CsTeamsChannelsPolicy
-- Get-CsTeamsChannelsPolicy
-- Grant-CsTeamsChannelsPolicy
-- Remove-CsTeamsChannelsPolicy 
+- ```New-CsTeamsChannelsPolicy```
+- ```Set-CsTeamsChannelsPolicy```
+- ```Get-CsTeamsChannelsPolicy```
+- ```Grant-CsTeamsChannelsPolicy```
+- ```Remove-CsTeamsChannelsPolicy``` 
 
 For example, the following command creates a new Teams policy that restricts the creation of private channels in Teams:
 
@@ -53,7 +53,7 @@ One way to restrict the creation of private channels is to let an administrator 
 
 To restrict team members from creating private channels, a team owner must open the team from one of the Microsoft Team clients and manage the team. A team owner should perform the following steps to restrict his or her team members from creating private channels:
 
-1. Log in to one of the Microsoft Teams clients.
+1. Sign in to one of the Microsoft Teams clients.
 
 2. Select the ellipsis icon (the three dots) to the right of the team and select **Manage team**.
 
