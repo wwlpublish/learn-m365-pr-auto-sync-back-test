@@ -5,7 +5,7 @@ Depending on an organization's needs, it can use the following methods to provis
  -  **Windows PowerShell.** This cmdlet-based and script-based interface can be used to create and manage single and multiple users.
  -  **Directory synchronization.** This option requires an organization to provision and manage users by synchronizing Microsoft 365 with an on-premises directory service such as Active Directory. The Azure AD Connect tool can be used to synchronize on-premises Active Directory objects with Azure AD in Microsoft 365.
 
-The most common and easiest way to create user accounts in non-directory synchronized environments is to use the Microsoft 365 admin center or the Microsoft 365 admin app. More advanced methods such as importing multiple users or Windows PowerShell are normally used for mass-imports, or if an automated script was run for user creation. In environments where directory synchronization is implement, an organization can't use the Microsoft 365 admin center or Windows PowerShell for user creation. It must instead use the local tools available in its Active Directory.
+The most common and easiest way to create user accounts in non-directory synchronized environments is to use the Microsoft 365 admin center or the Microsoft 365 admin app. More advanced methods such as importing multiple users or Windows PowerShell are normally used for mass-imports, or if an automated script was run for user creation. In environments where directory synchronization is implemented, an organization can't use the Microsoft 365 admin center or Windows PowerShell for user creation. It must instead use the local tools available in its Active Directory.
 
 ### Creating users with the Microsoft 365 admin center
 
@@ -50,6 +50,12 @@ For example, the following cmdlet creates a user account for Patti Fernandez and
 ```
 New-MsolUser –UserPrincipalName PattiF@Adatum.onmicrosoft.com –DisplayName “Patti Fernandez” – FirstName “Patti” –LastName “Fernandez” –UsageLocation “US” –LicenseAssignment “Adatum: ENTERPRISEPREMIUM”
 ```
+
+## **Exercise – Interactive demonstration**
+
+Select the following link to complete an interactive demonstration titled: [Create a user account for Adatum's Enterprise Administrator](https://edxinteractivepage.blob.core.windows.net/edxpages/MS-100/M2-L1-E2-T1/index.html?azure-portal=true).
+
+This simulation guides you through the steps to create a Microsoft 365 user account and assign it the Global Administrator role. This demonstration is centered around the fictitious Adatum Corporation. You will create a user account for the equally fictitious Holly Dickson, who is Adatum's new Enterprise Administrator. You will then assign Holly the Microsoft 365 Global Administrator role.
 
 ## Knowledge check
 
