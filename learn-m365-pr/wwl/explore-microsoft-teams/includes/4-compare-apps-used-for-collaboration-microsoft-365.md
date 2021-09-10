@@ -142,7 +142,7 @@ Complete the following steps to update the **org-wide app settings**:
 3.  Under **Blocked apps**, add the apps you want to block across your organization. For any third-party app you want to allow in your organization, remove the app from this blocked apps list. When you block an app org-wide, the app is automatically blocked for all your users, even if it's allowed in any app permission policies.
 4.  Select **Save** for the updated org-wide app settings to take effect.
 
-**Additional Reading:** For more information related to managing app collaboration, see [**Managing apps for Teams**](/microsoftteams/manage-apps)**.**
+**Additional Reading:** For more information related to managing app collaboration, see [Managing apps for Teams](/microsoftteams/manage-apps?azure-portal=true)**.**
 
 ## Knowledge check
 

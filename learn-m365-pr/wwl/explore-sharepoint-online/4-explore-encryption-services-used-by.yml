@@ -4,12 +4,14 @@ title: Explore the encryption services used by SharePoint Online
 metadata:
   title: Explore the encryption services used by SharePoint Online
   description: "Explore the encryption services used by SharePoint Online"
-  ms.date: 07/09/2021
+  ms.date: 09/10/2021
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
+sandbox: false
+labModal: false
 durationInMinutes: 4
 content: |
   [!include[](includes/4-explore-encryption-services-used-by.md)]
