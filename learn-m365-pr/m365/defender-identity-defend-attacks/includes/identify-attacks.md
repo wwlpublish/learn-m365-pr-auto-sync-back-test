@@ -38,6 +38,7 @@ A common strategy used by attackers is the brute force attack, where your enviro
 ## Detect possible lateral movement attacks
 
 A lateral movement attack occurs when the stolen credentials obtained from a lower priority or less-well protected account (user or server) and these credentials are used to gain access to more of your organization's sensitive accounts and services. Once an attacker has gained access to your network, the attacker could use various tools and techniques to dig deeper into the compromised environment, obtaining ever more privileges and infiltrating more of your organization's sensitive servers.
+
 This form of attack is often possible if the two accounts share resources. For example, the hashed credentials for a sensitive user could be stored on the device of a less sensitive user. An attacker might be able to retrieve these credentials to access other resources available to the sensitive user. The link between the two accounts is called a _lateral movement path_.
 
 ## Detect outflow of sensitive items
