@@ -9,7 +9,7 @@ Microsoft Power Platform provides many integration capabilities with Teams where
 ## Power Apps in Teams
 Power Apps provides a rapid low code development environment for building custom apps for business needs. It has services, connectors, and a scalable data service and app platform (Microsoft Dataverse) to allow simple integration and interaction with existing data. Combined with Microsoft Teams, Power Apps can be used to build a modern workplace through custom tabs and apps in the app bar all with little to no code. 
 
-The followings are examples to use Power Apps in Microsoft Teams:
+The following are examples to use Power Apps in Microsoft Teams:
 
 - Use the **Power Apps tab** for Teams to embed a canvas or model-driven app as a tab app in Teams channels.
 
@@ -23,9 +23,9 @@ The followings are examples to use Power Apps in Microsoft Teams:
 
 Power Automate lets users create automated workflows between applications and services. It helps automate repetitive business processes such as communication, data collections, and decision approvals. Not only for the individual user, Power Automate allows for the creation of enterprise-grade process automation. The integration of Power Automate and Teams streamlines processes to make the work in Teams even more efficient. Users can use prebuilt templates to easily automate common business processes. 
 
-The followings are examples to use Power Automate in Microsoft Teams:
+The following are examples to use Power Automate in Microsoft Teams:
 
-- Create and manage flows automations directly from Teams.
+- Create and manage flows automation directly from Teams.
 
 - Trigger flows from Teams messages.
 
@@ -41,9 +41,9 @@ Power Virtual Agents enables anyone to create powerful chatbots using a guided, 
 
 It minimizes the IT effort required to deploy and maintain a custom solution by empowering subject matter experts to build and maintain their own conversational solutions. For example, a human resources (HR) employee creates a bot that can answer questions about vacation balance, time off, and benefits.
 
-The followings are examples to use Power Virtual Agents in Microsoft Teams:
+The following are examples to use Power Virtual Agents in Microsoft Teams:
 
-- create, author, test, and publish chatbots directly from Teams.
+- Create, author, test, and publish chatbots directly from Teams.
 - Review and analyze the performance of the bot.
 - Have bots take actions on someone's behalf.
 
@@ -54,7 +54,7 @@ The followings are examples to use Power Virtual Agents in Microsoft Teams:
 
 Power BI enables users to connect and transform data into accessible visualizations seamlessly. Measuring and tracking results is essential for teams to achieve their objectives. Users can visualize insights with Power BI in Teams and discuss data effortlessly to enable data-driven decisions. 
 
-The followings are examples to use Power BI in Microsoft Teams:
+The following are examples to use Power BI in Microsoft Teams:
 
 - Create Power BI tab in Teams to make data-driven decisions quickly.
 
