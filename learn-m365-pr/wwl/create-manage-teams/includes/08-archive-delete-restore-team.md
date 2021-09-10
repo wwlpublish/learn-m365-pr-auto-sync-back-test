@@ -8,7 +8,7 @@ At some point when managing Teams, it will become necessary to retain or delete 
 
 If you archive a team, you are putting it in read-only mode. The team will still show up in search according to its visibility settings and members can still access the existing content. The Teams client will show an icon next to the team name to show the teams status as archived. Archiving a team might be beneficial if the team contains information that could still be useful later without the necessity of updating or changing content in that team.
 
-:::image type="content" source="../media/archive-team-icon.png" alt-text="Icon of a archive team":::
+:::image type="content" source="../media/archive-team-icon.png" alt-text="Icon of a archived team":::
 
  
 
@@ -39,14 +39,14 @@ To archive a team in the Teams Client, follow these steps:
 
 1. In the left pane, select the Cogwheel at the bottom.
 
-    :::image type="content" source="../media/cogwheel-team.png" alt-text="Place of the Cogwheel":::
+    :::image type="content" source="../media/cogwheel-team.png" alt-text="Cogwheel location":::
 
 
 2. In the main pane, select **…** to the right of the Team you want to archive.
 
 3. In the menu, select **Archive team**.
 
-    :::image type="content" source="../media/archive-team-menu.png" alt-text="Screenshot to archiving the team":::
+    :::image type="content" source="../media/archive-team-menu.png" alt-text="Screenshot of archiving the team":::
 
 
 4. The following message will appear. 
@@ -81,7 +81,7 @@ Follow these steps to make an archived team active again.
 
 To restore an archived team using the **Teams client**, follow these steps:
 
-1. In the left pane, select the Cogwheel at the bottom.
+1. In the left pane, select the Cogwheel at the lower portion.
 
 2. In the main pane, expand **Archived**.
 
@@ -116,13 +116,13 @@ Get-Team -DisplayName "CxO Team" | Remove-Team
  
 
 > [!NOTE]
-> The cmdlet Remove-Team does not accept the DisplayName of an existing team, but only the GroupID. You can pipe the output of Get-Team to Remove-Team, or you can write down the GroupID from the output of Get-Team and use it with Remove-Team.
+> The cmdlet ```Remove-Team``` does not accept the DisplayName of an existing team, but only the GroupID. You can pipe the output of Get-Team to Remove-Team, or you can write down the GroupID from the output of Get-Team and use it with Remove-Team.
 
  
 
 ## Restore a deleted team
 
-You may want to restore a deleted team if you deleted it accidentally. 
+You may want to restore a deleted team if you delete it accidentally. 
 
  
 
@@ -161,7 +161,7 @@ Get-AzureADMSDeletedGroup
 ```
  
 
-Write down the object ID of the group you want to hard-delete and insert it to the following cmdlet:
+Write down the object ID of the group you want to hard-delete and insert it in the following cmdlet:
 
  
 
