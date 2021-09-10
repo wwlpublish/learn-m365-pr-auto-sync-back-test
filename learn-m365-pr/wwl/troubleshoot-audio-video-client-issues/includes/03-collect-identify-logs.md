@@ -11,7 +11,6 @@ The following table outlines the various clients and their associated logs. Log 
 | iOS| -| -| - |
 | Android| -| -| - |
 
-
 ## Debug logs
 
 Debug log records are produced by the Windows and Mac desktop clients and browser-based clients. The logs are text files and can be read using any text-based editor. Logs are read from the bottom up and new log records are created when logging into the client. Debug logs display the following data flows:
@@ -23,20 +22,18 @@ Debug log records are produced by the Windows and Mac desktop clients and browse
 The debug logs are produced and downloaded using the following OS-specific methods:
 
 | Teams Client| Keyboard shortcut| Log file folder |
-| - |-| -| 
+| - |-| -|
 | Windows| Ctrl + Alt + Shift + 1| %userprofile%\Downloads |
 | Mac OSX| Option + Command + Shift + 1| Downloads |
 | Linux|  Ctrl + Alt + Shift + 1| ~/Downloads |
 | Browser| Ctrl + Alt + Shift + 1| You'll be prompted to save the debug log to the default save location |
 
-
 ## Media logs
 
 Media logs contain diagnostic data about audio, video, and screen sharing. These logs are required for support cases only when requested. They can only be inspected by Microsoft.
 
-Media logging is turned off by default. To log diagnostic data for Teams meetings, users must turn on the option in the Teams client. In the Teams admin center, navigate to **Settings** > **General**, select the **Enable logging for meeting diagnostics (requires restarting Teams**) check box, restart Teams, and reproduce the issue. 
+Media logging is turned off by default. To log diagnostic data for Teams meetings, users must turn on the option in the Teams client. In the Teams admin center, navigate to **Settings** > **General**, select the **Enable logging for meeting diagnostics (requires restarting Teams**) check box, restart Teams, and reproduce the issue.
 
 ## Desktop logs
 
 Desktop logs, also known as bootstrapper logs, contain log data about events that occur between the desktop client and the browser. Like media logs, these logs are only needed if requested by Microsoft. The logs are text-based and can be read using any text-based editor in a top down format.
-
