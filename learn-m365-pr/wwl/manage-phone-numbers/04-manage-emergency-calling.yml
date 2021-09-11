@@ -1,10 +1,10 @@
 ### YamlMime:ModuleUnit
-uid: learn.wwl.manage-phone-numbers.manage-emergency-addresses
-title: Manage emergency addresses
+uid: learn.wwl.manage-phone-numbers.manage-emergency-calling
+title: Manage emergency calling
 metadata:
-  title: Manage emergency addresses
-  description: "Manage emergency addresses"
-  ms.date: 09/10/2021
+  title: Manage emergency calling
+  description: "Manage emergency calling"
+  ms.date: 09/11/2021
   author: wwlpublish
   ms.author: jennyche
   ms.topic: interactive-tutorial
@@ -14,7 +14,7 @@ sandbox: false
 labModal: false
 durationInMinutes: 7
 content: |
-  [!include[](includes/04-manage-emergency-addresses.md)]
+  [!include[](includes/04-manage-emergency-calling.md)]
 quiz:
   title: "Check your knowledge"
   questions:

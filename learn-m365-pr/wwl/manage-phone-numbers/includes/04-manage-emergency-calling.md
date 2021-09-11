@@ -74,7 +74,7 @@ When a Teams Calling Plan user dials an emergency number, how the call is routed
 
 **In Japan**, emergency calling isn't supported.
 
-## Manage emergency addresses
+## Create emergency addresses
 
 ### Use the Teams admin center
 
@@ -103,6 +103,44 @@ The following PowerShell cmdlets can also be used to manage emergency addresses:
 * To update an emergency address, use [Set-CsOnlineLisCivicAddress](/powershell/module/skype/set-csonlineliscivicaddress?view=skype-ps?azure-portal=true).
 
 * To remove an emergency address, use [Remove-CsOnlineLisCivicAddress](/powershell/module/skype/remove-csonlineliscivicaddress?view=skype-ps?azure-portal=true).
+
+
+## Manage emergency calling policies
+
+You can use emergency calling policies to define what happens when a Teams user in your organization makes an emergency call. 
+
+### Use the Teams admin center
+
+1. In the left navigation of the Microsoft Teams admin center, go to **Voice** > **Emergency policies**, and then click the **Calling policies** tab.
+2. Click **Add**.
+3. Enter a name and description for the policy.
+4. Set how you want to notify people in your organization, typically the security desk, when an emergency call is made. To do this, under **Notification mode**, select one of the following:
+    - **Send notification only**: A Teams chat message is sent to the users and groups that you specify.
+    - **Conferenced in muted and unable to unmute**: A Teams chat message is sent to the users and groups that you specify and they can listen (but not participate) in the conversation between the caller and the PSAP operator.
+    - **Conferenced in muted but are able to unmute**: A Teams chat message is sent to the users and groups that you specify and they can unmute to listen and participate in the conversation between the caller and the PSAP operator.
+5.  If you selected either of the **Conference in muted** notification modes, in the **Numbers to dial for emergency calls notifications** box, you can enter a PSTN phone number of a user or group to call and join the emergency call. For example, enter the number of your organization's security desk, who will receive a call when an emergency call is made and can then listen in on the call. The PSTN phone cannot be unmuted even when the mode is set to **Conferenced in muted but are able to unmute**.
+6. Search for and select one or more users or groups, such as your organization's security desk, to notify when an emergency call is made.  The notification can be sent to email addresses of users, distribution groups, and security groups. A maximum of 50 users can be notified.
+7. Click **Apply**.
+
+    ‎:::image type="content" source="../media/emergency-calling-policy.png" alt-text="Add an emergency calling policy":::
+
+### Use PowerShell
+
+The following PowerShell cmdlets can also be used to manage emergency calling policy:
+
+* To add an emergency calling policy, use [New-CsTeamsEmergencyCallingPolicy](/powershell/module/skype/new-csteamsemergencycallingpolicy?azure-portal=true&view=skype-ps).
+
+* To update an emergency calling policy, use [Set-CsTeamsEmergencyCallingPolicy](/powershell/module/skype/set-csteamsemergencycallingpolicy?azure-portal=true&view=skype-ps).
+
+* To Assign an emergency calling policy to users, use [Grant-CsTeamsEmergencyCallingPolicy](/powershell/module/skype/grant-csteamsemergencycallingpolicy?azure-portal=true&view=skype-ps).
+
+* To Assign an emergency calling policy to a network site, use [Set-CsTenantNetworkSite](/powershell/module/skype/set-cstenantnetworksite?azure-portal=true&view=skype-ps).
+
+    The following example shows how to assign a policy called Contoso Emergency Calling Policy 1 to the Site1 site.
+
+    ```powershell
+    Set-CsTenantNetworkSite -identity "site1" -EmergencyCallingPolicy "Contoso Emergency Calling Policy 1"
+    ```
 
 ## Knowledge check
 
