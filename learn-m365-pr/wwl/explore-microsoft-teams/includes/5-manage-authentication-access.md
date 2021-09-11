@@ -9,15 +9,14 @@ Each of these models is represented in the following graphic:
 :::image type="content" source="../media/m365-identity-models-cd023cf8.png" alt-text="graphic showing cloud identity, synchronized identity, and federated identity models and the main features in each as previously described":::
 
 
-Depending on which Microsoft 365 identity model an organization decides to use, the implementation requirements may vary. That being said, the configuration steps for implementing these models are outside the scope of this training. Refer to the following documents if you need more information:<br>
+Depending on which Microsoft 365 identity model an organization decides to use, the implementation requirements may vary. That being said, the configuration steps for implementing these models are outside the scope of this training.
 
- -  [Choosing a sign-in model for Office 365](https://blogs.office.com/2014/05/13/choosing-a-sign-in-model-for-office-365/?azure-portal=true)
- -  [Understanding Office 365 identity and Azure Active Directory](https://support.office.com/article/understanding-office-365-identity-and-azure-active-directory-06a189e7-5ec6-4af2-94bf-a22ea225a7a9?azure-portal=true)
+**Additional reading.** For more information, see [Microsoft 365 identity models and Azure Active Directory](/microsoft-365/enterprise/about-microsoft-365-identity?azure-portal=true).
 
 Ensuring the correct users are accessing an organization's system resources is critical to securing data. Access to Microsoft Teams is enabled or disabled on a per-user basis by assigning or removing the Microsoft Teams product license to a user account. Specific Microsoft Teams’ features can't be turned on or off at an individual user level.<br>
 
 > [!TIP]
-> It's recommended that Microsoft Teams be enabled for all users in an organization. This design allows teams to be formed organically for projects and other dynamic initiatives. Even if you're deciding to pilot a feature set of Teams, it may still be helpful to keep Microsoft Teams enabled for all users, but only target communications to the pilot group of users.
+> It's recommended that organizations enable Microsoft Teams for all their users. This design enables teams to be formed organically for projects and other dynamic initiatives. Even if you're deciding to pilot a feature set of Teams, it may still be helpful to keep Microsoft Teams enabled for all users, but only target communications to the pilot group of users.
 
 User-level licenses for Microsoft Teams are managed directly through the user management interfaces in the Microsoft 365 admin center. An administrator can assign licenses to new users when new user accounts are created, or to users with existing accounts. The administrator must have Microsoft 365 Global Administrator or User Management Administrator privileges to manage Microsoft Teams licenses.
 
@@ -32,7 +31,7 @@ Besides using the Microsoft 365 admin center, Microsoft 365 administrators can a
 The following PowerShell command can assign a license to a user:
 
 ```powershell
-Set-MsolUserLicense -UserPrincipalName "\&lt;Account\&gt;" -AddLicenses "\&lt;AccountSkuId\&gt;"
+Set-MsolUserLicense -UserPrincipalName "\<Account\>" -AddLicenses "\<AccountSkuId\>"
 ```
 
 The following example assigns a license to an unlicensed user in the fictitious company known as Litware, Inc.

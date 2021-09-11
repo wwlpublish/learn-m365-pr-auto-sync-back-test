@@ -278,7 +278,14 @@ You'll then use the **Add-MsolRoleMember** cmdlet to assign that role to a user.
 
 ```
 Add-MsolRoleMember -RoleName "Exchange Service Administrator" -RoleMemberEmailAddress "HollyS@contoso.com”
+
 ```
 
 > [!CAUTION]
 > For some roles, the internal role name is different from the role name displayed in the Microsoft 365 admin center. That's why you should first use the **Get-MsolRole** cmdlet to find out the "official", internal role name when using PowerShell to assign roles to user accounts. If you use a role name that appears in the admin center, the **Add-MsolRoleMember** command will fail if the internal role name is different.
+
+## **Exercise – Interactive demonstration**
+
+Select the following link to complete an interactive demonstration titled: [Assign delegated administrators with Windows PowerShell](https://edxinteractivepage.blob.core.windows.net/edxpages/MS-100/M3-L2-E1-T2/index.html?azure-portal=true).
+
+This simulation guides you through using Windows PowerShell to assign roles in Microsoft 365 and to show which users are assigned to specific roles.

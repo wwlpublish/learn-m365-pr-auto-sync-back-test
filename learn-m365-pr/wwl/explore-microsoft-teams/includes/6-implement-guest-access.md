@@ -7,3 +7,13 @@ Organizations using Teams can maintain complete control over their own corporate
 The following graphic shows that for guest access to work, users in each tenant must have access to Teams (licenses). Guest users must also use their own Azure AD user accounts from their originating tenant to access the remote Teams resources in another tenant. The picture also shows that “Guest access” (the dotted user) simply refers to shadow users in other users’ tenants that always refer to their original Azure AD user object.
 
 :::image type="content" source="../media/user-access-to-microsoft-teams-b9a598ba.jpg" alt-text="graphic shows that users in each tenant need access to Teams (licenses), and that guest users use their own Azure AD user accounts from their originating tenant to access the remote Teams resources in another tenant":::
+
+
+## **Exercise – Interactive demonstrations**
+
+Select the following links to complete these interactive demonstrations:
+
+ -  [Manage external access](https://edxinteractivepage.blob.core.windows.net/edxpages/MS-100/M4-L3-E4-T7/index.html?azure-portal=true)
+ -  [Manage guest access](https://edxinteractivepage.blob.core.windows.net/edxpages/MS-100/M4-L3-E4-T8/index.html?azure-portal=true)
+
+These simulations guide you through the steps to manage both external and guest access in the Teams admin center for the fictitious Adatum Corporation.

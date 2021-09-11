@@ -4,12 +4,14 @@ title: Manage local site permission levels
 metadata:
   title: Manage local site permission levels
   description: "Manage local site permission levels"
-  ms.date: 07/09/2021
+  ms.date: 09/10/2021
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
+sandbox: false
+labModal: false
 durationInMinutes: 5
 content: |
   [!include[](includes/2-manage-local-site-permission-levels.md)]
