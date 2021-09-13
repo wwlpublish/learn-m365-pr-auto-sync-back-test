@@ -3,9 +3,9 @@ uid: learn-m365.msteams-conversation-bots.2-conversation-bots
 metadata:
   title: Overview of bots with Microsoft Teams
   description: In this unit, you’ll learn the basics of bots, the Microsoft Bot Framework, and the steps required to register a bot in a Microsoft Teams app to interact with it from the Microsoft Teams client.
-  ms.date: 06/18/2021
-  author: andrewconnell
-  ms.author: v-johnco
+  ms.date: 09/13/2021
+  author: andrewconnell-msft
+  ms.author: suzanz
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Overview of bots with Microsoft Teams

@@ -3,9 +3,9 @@ uid: learn-m365.msteams-conversation-bots.6-proactive-messages
 metadata:
   title: Proactive messages from bots
   description: In this unit, you’ll learn how to send proactive messages from your bot.
-  ms.date: 06/18/2021
-  author: andrewconnell
-  ms.author: v-johnco
+  ms.date: 09/13/2021
+  author: andrewconnell-msft
+  ms.author: suzanz
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Proactive messages from bots

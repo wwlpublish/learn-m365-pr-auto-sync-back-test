@@ -22,7 +22,7 @@ You'll use Node.js to create a custom Microsoft Teams app in this module. The ex
 - NPM (installed with Node.js) - v6.\* (or higher)
 - [Gulp](https://gulpjs.com/) - v4.\* (or higher)
 - [Yeoman](https://yeoman.io/) - v3.\* (or higher)
-- [Yeoman Generator for Microsoft Teams](https://github.com/OfficeDev/generator-teams) - v3.0.3 (or higher)
+- [Yeoman Generator for Microsoft Teams](https://github.com/OfficeDev/generator-teams) - v3.2.0 (or higher)
 - [Visual Studio Code](https://code.visualstudio.com)
 
 You must have the minimum versions of these prerequisites installed on your workstation.
@@ -58,23 +58,18 @@ From the resource group, select the **Add** or **Create resources** button.
 
 ![Screenshot of creating a new resource](../media/03-azure-bot-registration-01.png)
 
-Enter **bot** in the **Search the marketplace** input box, and select **Bot Channels Registration** from the list of resources returned. Then select **Create** on the next page to start the process of registering a new bot resource:
+Enter **bot** in the **Search the marketplace** input box, and select **Azure Bot** from the list of resources returned. Then select **Create** on the next page to start the process of registering a new bot resource:
 
 ![Screenshot of searching for the bot registration resource](../media/03-azure-bot-registration-02.png)
 
-In the **Bot Channels Registration** blade, enter the following values and then select **Create**:
+In the **Create an Azure Bot** blade, enter the following values and then select **Review + create**:
 
 - **Bot handle**: _Enter a globally unique name for the bot_
 - **Subscription**: _Select the subscription you selected previously when creating the resource group_
 - **Resource group**: _Select the resource group you created previously_
-- **Location**: _Select your preferred Azure region_
 - **Pricing tier**: _Select a preferred pricing tier; the F0 tier is free_
-- **Messaging endpoint**: https://REPLACE_THIS.ngrok.io/api/messages
 
-  > The bot registration needs to know the endpoint of the web service where the bot is implemented. This will change each time you start the ngrok utility used in previous exercises.
-
-- **Application Insights**: Off
-- **Microsoft App ID and password**: Auto create App ID and password
+Select **Create**.
 
 Azure will start to provision the new resource. This will take a moment or two. Once it's finished, navigate to the bot resource in the resource group.
 
@@ -94,7 +89,13 @@ Once this process is complete, you should see both the **Web Chat** and **Micros
 
 ![Screenshot of the enabled bot channels](../media/03-azure-bot-registration-05.png)
 
-### Retrieve the bot app ID and password
+### Set Messaging Endpoint and retrieve the bot app ID and password
+
+Select **Configuration** from the left-hand navigation.
+
+On the **Configuration** pane, enter the **Messaging endpoint**: https://REPLACE_THIS.ngrok.io/api/messages
+
+Select **Apply**.
 
 When Azure created the bot, it also registered a new Azure AD app for the bot. Generate this new bot app a secret and copy the app's credentials.
 
@@ -142,7 +143,7 @@ Yeoman will launch and ask you a series of questions. Answer the questions with 
 - **Where do you want to place the files?**: Use the current folder
 - **Title of your Microsoft Teams App project?**: Conversational Bot
 - **Your (company) name? (max 32 characters)**: Contoso
-- **Which manifest version would you like to use?**: v1.8
+- **Which manifest version would you like to use?**: v1.9
 - **Quick scaffolding**: Yes
 - **What features do you want to add to your project?**: A bot
 - **The URL where you will host this solution?**: (Accept the default option)
@@ -362,6 +363,12 @@ Using the app bar navigation menu, select the **More added apps** button. Then s
 ![Screenshot of More added apps dialog in Microsoft Teams](../media/03-test-02.png)
 
 In the file dialog that appears, select the Microsoft Teams package in your project. This app package is a ZIP file that can be found in the project's **./package** folder.
+
+> [!NOTE]
+> If the **./package** folder is not present, this means you are affected by a bug in the yoteams-deploy package. To resolve the issue:
+> - Stop the local web server by pressing <kbd>CTRL</kbd>+<kbd>C</kbd> in the console.
+> - Install the preview version of the **yoteams-deploy** package using the command `npm install yoteams-deploy@preview`
+> - Restart the server process: `gulp ngrok-serve`
 
 Once the package is uploaded, Microsoft Teams will display a summary of the app. Here you can see some "todo" items to address. _None of these "todo" items are important to this exercise, so you'll leave them as is._
 
