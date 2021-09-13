@@ -3,9 +3,9 @@ uid: learn-m365.sharepoint-associate
 metadata:
   title: Extend Microsoft SharePoint – Associate
   description: Microsoft SharePoint is a customizable platform that developers can extend with custom components. The SharePoint Framework is the recommended development model to extend the modern SharePoint experience. In this learning path, you'll learn how to customize and extend SharePoint using the SharePoint Framework using web parts and extensions.
-  ms.date: 3/10/2020
-  author: andrewconnell
-  ms.author: v-johnco
+  ms.date: 09/13/2021
+  author: andrewconnell-msft
+  ms.author: suzanz
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Extend Microsoft SharePoint – Associate
