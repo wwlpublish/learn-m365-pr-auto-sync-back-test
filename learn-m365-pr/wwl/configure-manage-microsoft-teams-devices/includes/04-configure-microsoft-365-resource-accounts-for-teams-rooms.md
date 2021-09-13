@@ -11,6 +11,7 @@ It's recommended that organizations assign the Teams Rooms Standard or Teams Roo
 - **Teams Rooms Standard license** - This license is a cost-effective license that includes all the core components needed for Teams Rooms.
 
 - **Teams Rooms Premium license** - This license includes everything in the Standard license, plus an advanced set of features. For example, it includes a Microsoft-managed service that helps with everything from planning your rooms to monitoring and troubleshooting them.
+
     :::image type="content" source="../media/standard-premium-license.png" alt-text="Standard versus Premium licenses":::
 
 ## Create a resource account using Microsoft 365 admin center
@@ -27,6 +28,7 @@ Complete the following steps to create a new resource account using the Microsof
    :::image type="content" source="../media/rooms-equipment-view.png" alt-text="Screenshot of the Rooms & equipment page with the +Add resource option on the menu bar highlighted":::
 
 4. In the **Add resource** pane that appears, update the following fields:
+
    :::image type="content" source="../media/add-resource-form.png" alt-text="Focus Room configuration":::
 
    1. Select **Room** as the **Resource type**.
@@ -37,6 +39,7 @@ Complete the following steps to create a new resource account using the Microsof
 5. Select **Save**.
 
 6. After the resource account has been created, you’ll receive an acknowledgment that the Room mailbox is ready to use.
+
    :::image type="content" source="../media/add-resource-acknowledgement.png" alt-text="Acknowledgement of mailbox creation":::
 
 7. Once you've created a resource account, you can edit its booking options. On the acknowledgment window that you received in the prior step, under the **Next steps** section, select **Edit booking options**.
@@ -44,6 +47,7 @@ Complete the following steps to create a new resource account using the Microsof
     If you closed the acknowledgment window before selecting **Edit booking options**, then select the resource account on the **Rooms & equipment** window. In the detail pane that appears for the account, select **Edit** under the **Booking options** section.  
 
     Both methods described in this step will open the **Edit booking options** pane.
+
    :::image type="content" source="../media/edit-booking-options.png" alt-text="Edit the booking options":::
 
 8. In the **Edit booking options** pane, update the following settings:
@@ -60,6 +64,7 @@ Complete the following steps to create a new resource account using the Microsof
 
 10. Now that you've created the resource account and configured its booking options, it's time to assign it a password. In the **Microsoft 365 admin center**, in the left-hand navigation pane, select **Users** and then select **Active users**.
 11. On the **Active users** window, either hover your mouse over the new resource account that you created, or select the check box to the left of the account's display name. A **Key** icon (Reset a password) will appear to the right of the display name. Select the **Key** icon to set the password.
+
    :::image type="content" source="../media/resource-account-with-key.png" alt-text="Find your new resource account and click Key to reset password":::
 
 12. On the **Reset password** pane that appears, enter the following information:
