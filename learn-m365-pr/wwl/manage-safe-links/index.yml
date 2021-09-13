@@ -3,7 +3,7 @@ uid: learn.wwl.manage-safe-links
 metadata:
   title: Manage Safe Links
   description: "Manage Safe Links"
-  ms.date: 05/10/2021
+  ms.date: 09/13/2021
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -33,7 +33,7 @@ products:
 - office-365
 units:
 - learn.wwl.manage-safe-links.introduction
-- learn.wwl.manage-safe-links.create-policies-scc
+- learn.wwl.manage-safe-links.create-policies-using-defender
 - learn.wwl.manage-safe-links.create-policies-using-powershell
 - learn.wwl.manage-safe-links.modify-existing-policy
 - learn.wwl.manage-safe-links.create-transport-rule-to-bypass-policy
