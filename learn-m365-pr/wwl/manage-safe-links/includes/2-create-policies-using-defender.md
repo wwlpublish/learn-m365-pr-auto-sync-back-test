@@ -1,4 +1,6 @@
-Safe Links is a feature in Microsoft Defender for Office 365 that provides URL scanning of inbound email messages in mail flow, and time of selection verification of URLs and links in email messages and in other locations. There's no built-in or default Safe Links policy. To get Safe Links scanning of URLs, you must create one or more Safe Links policies. You can configure Safe Links policies in Microsoft 365 Defender or in Windows PowerShell.
+Safe Links is a feature in Microsoft Defender for Office 365 that provides URL scanning of inbound email messages in mail flow, and time of selection verification of URLs and links in email messages and in other locations. There's no built-in or default Safe Links policy. To get Safe Links scanning of URLs, you must create one or more Safe Links policies.
+
+You can configure Safe Links policies in the Microsoft 365 Defender portal or in PowerShell (Exchange Online PowerShell for eligible Microsoft 365 organizations with mailboxes in Exchange Online; standalone EOP PowerShell for organizations without Exchange Online mailboxes, but with Microsoft Defender for Office 365 add-on subscriptions).
 
 The basic elements of a Safe Links policy are:
 
@@ -13,6 +15,8 @@ The difference between these two elements isn't obvious when you manage Safe Lin
 
 > [!NOTE]
 > In Exchange Online PowerShell or standalone EOP PowerShell, you manage the policy and the rule separately. This feature is discussed in the next unit.
+
+To create, modify, and delete Safe Links policies, you must be a member of the Organization Management or Security Administrator role groups in the Microsoft 365 Defender portal and a member of the Organization Management role group in Exchange Online.
 
 ### Creating a custom Safe Links policy in Microsoft 365 Defender
 
