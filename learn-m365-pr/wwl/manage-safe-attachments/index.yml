@@ -3,7 +3,7 @@ uid: learn.wwl.manage-safe-attachments
 metadata:
   title: Manage Safe Attachments
   description: "Manage Safe Attachments"
-  ms.date: 05/12/2021
+  ms.date: 09/13/2021
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -33,7 +33,7 @@ products:
 - office-365
 units:
 - learn.wwl.manage-safe-attachments.introduction
-- learn.wwl.manage-safe-attachments.create-safe-attachment-policies-scc
+- learn.wwl.manage-safe-attachments.create-policies-using-defender
 - learn.wwl.manage-safe-attachments.create-policies-using-powershell
 - learn.wwl.manage-safe-attachments.modify-existing-policy
 - learn.wwl.manage-safe-attachments.create-transport-rule-to-bypass-policy
