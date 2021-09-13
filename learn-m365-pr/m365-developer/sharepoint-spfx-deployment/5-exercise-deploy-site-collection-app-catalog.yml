@@ -3,9 +3,9 @@ uid: learn-m365.sharepoint-spfx-deployment.5-exercise-deploy-site-collection-app
 metadata:
   title: Exercise - Deploy SharePoint Framework solutions to a site collection App Catalog
   description: In this exercise, you'll learn how to enable a site collection-scoped App Catalog and deploy an app to it.
-  ms.date: 06/17/2021
-  author: andrewconnell
-  ms.author: v-johnco
+  ms.date: 09/13/2021
+  author: andrewconnell-msft
+  ms.author: suzanz
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Exercise - Deploy SharePoint Framework solutions to a site collection App Catalog

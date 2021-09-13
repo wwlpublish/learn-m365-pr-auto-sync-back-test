@@ -98,8 +98,6 @@ Select the web part icon button to open the list of available web parts:
 
 ![Screenshot of adding the web part to the page](../media/03-deploy-step-05.png)
 
-Select the expand icon, a diagonal line with two arrows in the top-right corner, to expand the web part toolbox.
-
 Scroll to the bottom and notice the new web part isn't listed. This is because web parts are added to the web part gallery by activating a feature.
 
 > [!NOTE]
