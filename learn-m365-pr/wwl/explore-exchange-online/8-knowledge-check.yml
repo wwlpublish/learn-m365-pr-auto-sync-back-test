@@ -4,12 +4,14 @@ title: Knowledge check
 metadata:
   title: Knowledge check
   description: "Knowledge check"
-  ms.date: 07/09/2021
+  ms.date: 09/10/2021
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
+sandbox: false
+labModal: false
 durationInMinutes: 6
 content: |
   [!include[](includes/8-knowledge-check.md)]
@@ -20,7 +22,7 @@ quiz:
     choices:
     - content: "Malware filtering"
       isCorrect: false
-      explanation: "That's incorrect. Malware filters protect user mailboxes against infected messages. EOP uses multiple industry-leading malware detection engines to scan incoming and outgoing mail, with these engines being updated as new virus definitions appear.  Try again."
+      explanation: "That's incorrect. Malware filters protect user mailboxes against infected messages. EOP uses multiple industry-leading malware detection engines to scan incoming and outgoing mail, with these engines being updated as new virus definitions appear. Try again."
     - content: "Spam filtering"
       isCorrect: true
       explanation: "That's correct. Spam filters are the main component against malware or other harmful email attachments that want to grab your personal information from your computer. Spam filters provide a range of basic and advanced filtering options, automatically add spam processing headers, and assign a spam confidence level to the messages before delivery to user mailboxes."

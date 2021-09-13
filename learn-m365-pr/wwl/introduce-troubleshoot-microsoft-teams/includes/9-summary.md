@@ -9,5 +9,5 @@ Now that you've completed this module, you can:
 ## Learn more
 
 - [Teams troubleshooting](/MicrosoftTeams/troubleshoot/teams-welcome).
-- [Microsoft 365 and Office 365 URLs and IP address ranges](/microsoftteams/office-365-urls-ip-address-ranges).
-- [Use log files to monitor and troubleshoot Microsoft Teams](/microsoftteams/log-files).
+- [Microsoft 365 and Office 365 URLs and IP address ranges](/microsoftteams/office-365-urls-ip-address-ranges?azure-portal=true).
+- [Use log files to monitor and troubleshoot Microsoft Teams](/microsoftteams/log-files?azure-portal=true).
