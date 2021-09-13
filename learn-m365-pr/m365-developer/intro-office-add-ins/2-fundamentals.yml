@@ -3,9 +3,9 @@ uid: learn-m365.intro-office-add-ins.2-fundamentals
 metadata:
   title: Understand Office Add-ins fundamentals
   description: The Office Add-ins platform enables you to extend the functionality of Office applications. In this unit, you'll explore various ways you can use add-ins to extend and interact with Office applications. You'll also learn about configuring your add-in using the add-in's manifest file.
-  ms.date: 06/17/2021
+  ms.date: 09/13/2021
   author: andrewconnell-msft
-  ms.author: v-johnco
+  ms.author: suzanz
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Understand Office Add-ins fundamentals
