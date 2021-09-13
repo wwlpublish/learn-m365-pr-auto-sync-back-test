@@ -294,9 +294,9 @@ In a browser, navigate to a SharePoint Online site.
 
 In the Office 365 gear, select **Add an App**.
 
-In site navigation, select **From your Organization**.
+In site navigation, select **From my organization**.
 
-Select `ms-graph-sp-fx-client-side-solution` to add your web part.
+Select the **Add** button in the **ms-graph-sp-fx-client-side-solution** tile to add your web part.
 
 ### Test the web part on a SharePoint Online modern page
 
