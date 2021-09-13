@@ -3,9 +3,9 @@ uid: learn-m365.msteams-task-modules.4-use-adaptive-cards-deep-links
 metadata:
   title: Using adaptive cards and deep links in task modules
   description: In this exercise, you’ll learn how to use Adaptive Cards in a custom task module in a custom Microsoft Teams app. You’ll also learn how to invoke task modules from anywhere within Microsoft Teams using deep links.
-  ms.date: 06/18/2021
-  author: andrewconnell
-  ms.author: v-johnco
+  ms.date: 09/13/2021
+  author: andrewconnell-msft
+  ms.author: suzanz
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Using adaptive cards and deep links in task modules

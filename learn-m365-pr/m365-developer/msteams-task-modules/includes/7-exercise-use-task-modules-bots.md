@@ -41,23 +41,19 @@ From the resource group, select the **Add** or **Create resources** button.
 
 ![Screenshot of creating a new resource - create a resource group](../media/07-azure-bot-registration-01.png)
 
-Enter **bot** in the **Search the marketplace** input box, and select **Bot Channels Registration** from the list of resources returned. Then select **Create** on the next page to start the process of registering a new bot resource:
+Enter **bot** in the **Search the marketplace** input box, and select **Azure Bot** from the list of resources returned. Then select **Create** on the next page to start the process of registering a new bot resource:
 
 ![Screenshot of searching for the bot registration resource - search for a bot resource](../media/07-azure-bot-registration-02.png)
 
-In the **Bot Channels Registration** blade, enter the following values and then select **Create**:
+In the **Create an Azure Bot** blade, enter the following values and then select **Review + create**:
 
 - **Bot handle**: *Enter a globally unique name for the bot*
 - **Subscription**: *Select the subscription you selected previously when creating the resource group*
 - **Resource group**: *Select the resource group you created previously*
-- **Location**: *Select your preferred Azure region*
 - **Pricing tier**: *Select a preferred pricing tier; the F0 tier is free*
-- **Messaging endpoint**: https://REPLACE_THIS.ngrok.io/api/messages
+- **Microsoft App ID**: Create new Microsoft App ID
 
-    > The bot registration needs to know the endpoint of the web service where the bot is implemented. This will change each time you start the ngrok utility used in previous exercises.
-
-- **Application Insights**: Off
-- **Microsoft App ID and password**: Auto create App ID and password
+Select **Create**.
 
 Azure will start to provision the new resource. This will take a moment or two. Once it's finished, navigate to the bot resource in the resource group.
 
@@ -77,7 +73,13 @@ Once this process is complete, you should see both the **Web Chat** and **Micros
 
 ![Screenshot of the enabled bot channels](../media/07-azure-bot-registration-05.png)
 
-### Retrieve the bot app ID and password
+### Set Messaging Endpoint and retrieve the bot app ID and password
+
+Select **Configuration** from the left-hand navigation.
+
+On the **Configuration** pane, enter the **Messaging endpoint**: https://REPLACE_THIS.ngrok.io/api/messages
+
+Select **Apply**.
 
 When Azure created the bot, it also registered a new Azure AD app for the bot. You need to generate this new bot app a secret and copy the app's credentials.
 
@@ -317,7 +319,7 @@ protected handleTeamsTaskModuleFetch(context: TurnContext, request: TaskModuleRe
             type: "continue",
             value: {
               title: "YouTube Player",
-              url: `https://${process.env.HOSTNAME}/youTubePlayer1Tab/player.html?vid=${request.data.videoId}`,
+              url: `https://${process.env.PUBLIC_HOSTNAME}/youTubePlayer1Tab/player.html?vid=${request.data.videoId}`,
               width: 1000,
               height: 700
             } as TaskModuleTaskInfo
@@ -330,7 +332,7 @@ protected handleTeamsTaskModuleFetch(context: TurnContext, request: TaskModuleRe
             type: "continue",
             value: {
               title: "YouTube Player",
-              url: `https://${process.env.HOSTNAME}/youTubePlayer1Tab/player.html?vid=X8krAMdGvCQ&default=1`,
+              url: `https://${process.env.PUBLIC_HOSTNAME}/youTubePlayer1Tab/player.html?vid=X8krAMdGvCQ&default=1`,
               width: 1000,
               height: 700
             } as TaskModuleTaskInfo
@@ -462,7 +464,7 @@ protected handleTeamsTaskModuleSubmit(context: TurnContext, request: TaskModuleR
       type: "continue",
       value: {
         title: "YouTube Player",
-        url: `https://${process.env.HOSTNAME}/youTubePlayer1Tab/player.html?vid=${request.data.youTubeVideoId}`,
+        url: `https://${process.env.PUBLIC_HOSTNAME}/youTubePlayer1Tab/player.html?vid=${request.data.youTubeVideoId}`,
         width: 1000,
         height: 700
       } as TaskModuleTaskInfo
