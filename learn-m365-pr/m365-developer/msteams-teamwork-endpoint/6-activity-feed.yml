@@ -3,8 +3,8 @@ uid: learn-m365.msteams-teamwork-endpoint.6-activity-feed
 metadata:
   title: Use Microsoft Graph to post to the activity feed
   description: The Microsoft Teams activity feed enables users to see a list of relevant items specific to them. Users can use the activity feed to address changes, notifications, and other alerts in a productive manner. In this unit, you'll learn how to use Microsoft Graph to submit notifications to the Microsoft Teams activity feed.
-  ms.date: 06/18/2021
-  author: andrewconnell
+  ms.date: 09/13/2021
+  author: andrewconnell-msft
   ms.author: suzanz
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
