@@ -1,6 +1,6 @@
 Safe Attachments is a feature in Microsoft Defender for Office 365. It uses a virtual environment to check attachments in inbound email messages after they've been scanned by anti-malware protection in Exchange Online Protection (EOP), but before delivery to recipients.
 
-There's no built-in or default Safe Attachments policy. To get Safe Attachments scanning of email message attachments, you must create one or more Safe Attachments policies. You can configure Safe Attachments policies in Microsoft 365 Defender or in Windows PowerShell.
+There's no built-in or default Safe Attachments policy. To get Safe Attachments scanning of email message attachments, you must create one or more Safe Attachments policies. You can configure Safe Attachments policies in the Microsoft 365 Defender portal or in PowerShell (Exchange Online PowerShell for eligible Microsoft 365 organizations with mailboxes in Exchange Online; standalone EOP PowerShell for organizations without Exchange Online mailboxes, but with Defender for Office 365 add-on subscriptions).
 
 The basic elements of a Safe Attachments policy are:
 
@@ -14,6 +14,8 @@ The difference between these two elements isn't obvious when you manage Safe Att
  -  When you remove a Safe Attachments policy, the safe attachment rule and the associated safe attachment policy are removed.
 
 In Exchange Online PowerShell or standalone EOP PowerShell, you manage the policy and the rule separately. This feature is discussed in the next unit.
+
+To create, modify, and delete Safe Attachments policies, you must be a member of the Organization Management or Security Administrator role groups in the Microsoft 365 Defender portal and a member of the Organization Management role group in Exchange Online.
 
 ### Creating a custom Safe Attachments policy in Microsoft 365 Defender
 
