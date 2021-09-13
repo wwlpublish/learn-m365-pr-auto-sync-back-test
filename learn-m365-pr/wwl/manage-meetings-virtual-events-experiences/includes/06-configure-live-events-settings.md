@@ -8,8 +8,8 @@ You can manage Live events settings in the Microsoft Teams admin center.
 1. Sign into the **Microsoft Teams admin center** with your admin account.
 2. Select **Meetings** and then choose **Live events settings**.
 3. On the **Live events settings** page, in the **Support URL** section, you can define the URL that will be shown to your attendees who will participate at the Live event.
-‎:::image type="content" source="../media/live-event-settings.png" alt-text="Live event settings":::  
 
+	‎:::image type="content" source="../media/live-event-settings.png" alt-text="Live event settings":::  
 
 4. If your company purchased a Software Defined Network (SDN) solution or enterprise Content Delivery Network (eCDN) solution through a Microsoft video delivery partner, you can configure the provider by completing the following steps:
 

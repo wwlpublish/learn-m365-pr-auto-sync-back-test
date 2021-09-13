@@ -90,25 +90,26 @@ Policies can be configured for the following categories:
 | Allow the Outlook add-in             | Per-user | Before a meeting | Controls whether Teams meetings can be scheduled from within Outlook (Windows, Mac, web, and mobile). When disabled, users can't schedule Teams meetings in Outlook. In Outlook on Windows, the **New Teams Meeting** isn't visible.                                           | 
 | Allow channel meeting scheduling     | Per-user | Before a meeting | Controls whether users can schedule a meeting in a Teams channel. When disabled, the **Schedule a meeting** option isn't displayed, and the **Add channel** option is disabled.             <br/><br/> :::image type="content" source="../media/select-channel-to-meet.png" alt-text="Screenshot showing the Select a channel to meet in option":::                                                                                   | 
 | Allow scheduling private meetings | Per-user | Before a meeting | Allows users to schedule private meetings in Teams. A meeting is private when it's not published to a channel in a team. When both this option and **Allow channel meeting scheduling** are disabled, the **Add required attendees** and **Add channel** options are disabled. |
-|Meeting attendance report|Per-user|After a meeting| Controls whether meeting organizers can download the meeting attendance report. <br/><br/> Use the ```AllowEngagementReport``` parameter to configure the value to **Enabled** or **Disabled**.|
+|Allow engagement report|Per-user|After a meeting| Controls whether meeting organizers can download the meeting attendance report. <br/><br/> Use the ```AllowEngagementReport``` parameter to configure the value to **Enabled** or **Disabled**.|
+|Allow meeting registration| Per-user| Before a meeting| Controls whether users in your organization can set up webinars. <br/><br/> Use the ```AllowMeetingRegistration``` parameter to configure the value to **Enabled** or **Disabled**.|
+|Who can register| Per-user| Before a meeting| Controls which users can register and attend webinars. <br/><br/> - Set to **Everyone** if you want to allow everyone, including anonymous users, to register and attend webinars that users in your organization set up.<br/>- Set to **Everyone in the organization** if you want to allow only the users in your organization to register and attend webinars.|
 |Meeting provider for Islands mode| Per-user| Before a meeting | Controls which Outlook meeting add-in is used for users who are in Islands mode. You can specify whether users can only use the Teams Meeting add-in or both the Teams Meeting and Skype for Business Meeting add-ins to schedule meetings in Outlook. <br/><br/> Use the  ```PreferredMeetingProviderForIslandsMode``` parameter to configure the value to **Teams** or **TeamsAndSfB**.|
 
 ### Audio and video
 
-**Audio and video** policy settings enable an organization to control whether meetings can be recorded or transcribed, the bandwidth they consume, and so on.
+**Audio and video** policy settings enable an organization to control whether audio or video can be turned on in meetings and group calls, the bandwidth they consume, and so on.
 
-:::image type="content" source="../media/meeting-policy-aidop.png" alt-text="Audio and video settings in meeting policy":::
+:::image type="content" source="../media/meeting-policy-audio.png" alt-text="Audio and video settings in meeting policy":::
 
 
 | Policy setting        | Type                       | When it applies  | What it does                                                                                                                                                                                                                                                      |
 |--|-||-|
-| Allow transcription   | Per-organizer and per-user | After a meeting  | Controls whether captions and transcription features are available during playback of meeting recordings. When disabled, the Search and CC options won't be available during playback of a meeting recording. When enabled, only English is supported.            |
-| Allow cloud recording | Per-organizer and per-user | During a meeting | Controls whether this user's meetings can be recorded. When enabled, the recording is started by the meeting organizer or by another meeting participant, providing the policy setting is enabled for the participant, and if they're from the same organization. <br/><br/>:::image type="content" source="../media/allow-cloud-recording.png" alt-text="Screenshot showing recording options":::| 
 |Mode for IP audio|Per-user|During a meeting| Controls whether audio can be turned on in meetings and group calls. When disabled, user can still schedule and organize meetings but they have to dial in through the Public Switched Telephone Network (PSTN) or have the meeting call and join them by phone. 
 |Mode for IP video|Per-user|During a meeting| Controls whether video can be turned on in meetings and group calls. When disabled, user can't turn on video or view videos shared by other meeting participants. 
 | Allow IP video        | Per-organizer and per-user | During a meeting | Controls whether video can be turned on in meetings hosted by a user, one-to-one calls, and group calls. When enabled, meetings organized by a user can use video in the meeting, providing the meeting participants also have the policy enabled.                | 
 | Allow NDI streaming   | Per-user                   | During a meeting | Allows the audio and video streams to be broadcast from a Teams meeting to your local network.                                                                                                                                                                 | 
 | Media bit rate (Kbs)  | Per-user                   | During a meeting | Determines the media bit rate for audio, video, and video-based app sharing transmissions in calls and meetings for the user. It's applied to both the uplink and downlink media traversal for users in the call or meeting.                                      | 
+|Video filters mode |Per-user|During a meeting| Controls whether users can customize their video background in a meeting.<br/><br/> Use the  ```VideoFiltersMode``` parameter to configure the value. <br/><br/> - **NoFilters**: User can't customize their video background.<br/>- **BlurOnly**: User has the option to blur their video background.<br/>- **BlurandDefaultBackgrounds**: User has the option to blur their video background or choose from the default set of images to use as their background.<br/>- **AllFilters**: Use has the option to blur their video background, choose from the default set of images, or upload custom images to use as their background.<br/>|
 
 
 The most restrictive policy between the meeting organizer’s policy and the user’s policy applies. For example, consider the scenario where an organizer has a meeting policy that restricts video, while several attendees have a user policy that doesn't restrict video. Because the meeting organizer has the most restrictive policy, all meeting participants inherit the policy of the meeting organizer. As a result, none of the attendees will have access to video in the meeting, which means they can join the meeting with audio only.
@@ -118,6 +119,20 @@ Conversely, assume the meeting organizer's policy doesn't restrict video, but se
 For IP video policy setting, the most restrictive policy setting for video takes precedence.
 
 :::image type="content" source="../media/video-meeting-policy-precedence.png" alt-text="Video meeting policy precedence":::
+
+### Recording and transcription
+
+**Recording and transcription** policy settings enable an organization to control whether meetings can be recorded or transcribed, the bandwidth they consume, and so on.
+
+:::image type="content" source="../media/meeting-policy-record.png" alt-text="Audio and video settings in meeting policy":::
+
+
+| Policy setting        | Type                       | When it applies  | What it does                                                                                                                                                                                                                                                      |
+|--|-|||
+| Allow transcription   | Per-organizer and per-user | After a meeting  | Controls whether captions and transcription features are available during playback of meeting recordings. When disabled, the Search and CC options won't be available during playback of a meeting recording. When enabled, only English is supported.            |
+| Allow cloud recording | Per-organizer and per-user | During a meeting | Controls whether this user's meetings can be recorded. When enabled, the recording is started by the meeting organizer or by another meeting participant, providing the policy setting is enabled for the participant, and if they're from the same organization. <br/><br/>:::image type="content" source="../media/allow-cloud-recording.png" alt-text="Screenshot showing recording options":::| 
+|Store recordings outside of your country or region|- |After a meeting|Controls whether meeting records can be permanently stored in another country or region. If it's enabled, the recordings can't be migrated. |
+
 
 ### Content sharing
 

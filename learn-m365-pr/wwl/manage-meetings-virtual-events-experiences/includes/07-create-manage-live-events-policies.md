@@ -19,7 +19,6 @@ In **Microsoft Teams admin center**, under the **Meetings** group in the left-ha
 ‎
 	:::image type="content" source="../media/live-event-policies.png" alt-text="Screenshot of the Create a Live events policy window":::
  
-
 The Teams administrator should complete the following steps to create a Live events policy:
 
 1. In the **Microsoft Teams admin center**, in the left-hand navigation pane, select **Meetings** and then select **Live events policies**.
