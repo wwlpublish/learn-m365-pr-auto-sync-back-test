@@ -28,7 +28,7 @@ You can view the Health Dashboard in the Microsoft Teams admin center by navigat
 
 The Health Dashboard provides the following information related to overall health of the connected SBCs:
 
-‎:::image type="content" source="../media/direct-routing-dashboard-stats-1.png" alt-text="Shows Health Dashboard statistics":::
+‎:::image type="content" source="../media/direct-routing-dashboard-stats-1.png" alt-text="Shows Health Dashboard statistics" lightbox="../media/direct-routing-dashboard-stats-1.png":::
 
 * **Direct Routing summary**: Shows the total number of SBCs registered in the system. Registration means that the tenant administrator added an SBC by using the ```New-CsOnlinePSTNGateway``` command. If the SBC was added in PowerShell but never connected, the Health Dashboard shows it in an unhealthy status.
 
@@ -72,7 +72,7 @@ The Health Dashboard provides the following information related to overall healt
 
 You can also view the detailed information for a specific SBC as shown in the following screenshot:
 
-‎:::image type="content" source="../media/direct-routing-dashboard-session-border-controller-detail.png" alt-text="Health dashboard SBC details":::
+‎:::image type="content" source="../media/direct-routing-dashboard-session-border-controller-detail.png" alt-text="Health dashboard SBC details" lightbox="../media/direct-routing-dashboard-session-border-controller-detail.png":::
 
 The detailed view shows the following parameters:
 

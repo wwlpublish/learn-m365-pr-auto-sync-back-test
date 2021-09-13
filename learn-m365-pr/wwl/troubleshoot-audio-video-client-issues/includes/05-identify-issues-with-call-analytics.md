@@ -32,7 +32,7 @@ Complete the following steps to view the call analytics for a user:
 
     Call analytics displays all calls and meetings for that user for the past 30 days.
 
-    ‎‎:::image type="content" source="../media/user-call-history.png" alt-text="User Call history":::  
+    ‎‎:::image type="content" source="../media/user-call-history.png" alt-text="User Call history" lightbox="../media/user-call-history.png":::  
 ‎
 By selecting a session, you can view other information about a given session, including detailed media and networking statistics.
 
