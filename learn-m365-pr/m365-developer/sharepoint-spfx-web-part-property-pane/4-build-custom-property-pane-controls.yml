@@ -3,9 +3,9 @@ uid: learn-m365.sharepoint-spfx-web-part-property-pane.4-build-custom-property-p
 metadata:
   title: Build custom property pane field controls
   description: In this unit, you'll learn about custom property pane controls for client-side web parts.
-  ms.date: 03/06/2021
-  author: andrewconnell
-  ms.author: v-johnco
+  ms.date: 09/13/2021
+  author: andrewconnell-msft
+  ms.author: suzanz
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Build custom property pane field controls
