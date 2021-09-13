@@ -3,9 +3,9 @@ uid: learn-m365.intro-sharepoint-framework.4-ui-components-apis-surface-areas
 metadata:
   title: Extend custom solutions with UI components, APIs, and additional surface areas
   description: Custom SharePoint Framework solutions can incorporate data from external resources by calling APIs including the SharePoint REST API, Microsoft Graph, and third-party APIs that are open to anonymous requests or secured with Azure AD. In this unit, you’ll learn how the SharePoint Framework enables developers to incorporate data from external systems, surface customizations in other experiences like Microsoft Teams, and incorporate UI components with the Office UI Fabric.
-  ms.date: 03/05/2021
+  ms.date: 09/13/2021
   author: andrewconnell-msft
-  ms.author: v-johnco
+  ms.author: suzanz
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Extend custom solutions with UI components, APIs, and additional surface areas
