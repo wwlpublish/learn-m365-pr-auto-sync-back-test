@@ -34,7 +34,7 @@ When you first open Explorer (or the real-time detections report), the default v
 
 To view the report in the Microsoft 365 Defender portal, go to **Explorer**. Use the **View** menu to change what information is displayed. Tooltips help you determine which view to use. Once you have selected a view, you can apply filters and set up queries to conduct further analysis.
 
-:::image type="content" source="../media/explorer.png" alt-text="Screenshot of Explorer with information about detected files" lightbox="../media/explorer.png":::image type="content" source="{source}" alt-text="{alt-text}":::
+:::image type="content" source="../media/explorer.png" alt-text="Screenshot of Explorer with information about detected files" lightbox="../media/explorer.png" :::
 
 ## Knowledge check
 
