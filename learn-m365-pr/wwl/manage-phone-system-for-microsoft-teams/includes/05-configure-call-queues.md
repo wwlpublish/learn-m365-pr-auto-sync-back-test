@@ -76,7 +76,7 @@ You can choose to disconnect the call or redirect it to any of the call routing 
 Call Timeout is the maximum time a call can be on hold in the queue before it's redirected or disconnected. You can specify a value from 0 seconds to 45 minutes. You can choose to disconnect the call or redirect it to one of the call routing destinations. For example, you can have the caller leave a voicemail for the agents in the queue.
 
 ‎:::image type="content" source="../media/call-queue-timeout-handling.png" alt-text="Screenshot of call timeout settings":::
- 
+
 ## Call queue PowerShell cmdlets
 
 You can also create and set up call queues with Windows PowerShell. The following cmdlets can be used to manage a call queue:
