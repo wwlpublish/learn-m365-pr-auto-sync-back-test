@@ -130,7 +130,7 @@ Use org-wide app settings to control whether users can install third-party apps 
 
 4. Select **Save** for org-wide app settings to take effect.
 
-    :::image type="content" source="../media/manage-apps-organization-wide-app-settings.png" alt-text="Screenshot of org-wide app settings" lightbox="../media/manage-apps-organization-wide-app-settings.png":::
+    :::image type="content" source="../media/manage-apps-organization-wide-app-settings.png" alt-text="Screenshot of org-wide app settings" :::
 
 ## Knowledge check
 
