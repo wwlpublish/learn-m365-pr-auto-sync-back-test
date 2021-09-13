@@ -25,7 +25,7 @@ Users can create the following types of flows in Power Automate:
 
 This training focuses on automated flows, instant flows, and scheduled flows, which are collectively referred to as event triggered flows.
 
-**Additional reading.** For more information, see [Getting started with Power Automate](/power-automate/getting-started).
+**Additional reading.** For more information, see [Getting started with Power Automate](/power-automate/getting-started?azure-portal=true).
 
 ## Knowledge check
 

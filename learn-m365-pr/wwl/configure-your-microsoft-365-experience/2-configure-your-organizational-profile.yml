@@ -4,12 +4,14 @@ title: Configure your organizational profile in Microsoft 365
 metadata:
   title: Configure your organizational profile in Microsoft 365
   description: "Configure your organizational profile in Microsoft 365"
-  ms.date: 07/01/2021
+  ms.date: 09/10/2021
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
+sandbox: false
+labModal: false
 durationInMinutes: 4
 content: |
   [!include[](includes/2-configure-your-organizational-profile.md)]

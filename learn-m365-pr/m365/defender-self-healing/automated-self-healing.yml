@@ -5,7 +5,7 @@ metadata:
   unitType: learning-content
   title: What is automated self-healing?
   description: Learn how to reduce the volume of alerts and incidents you and your security team needs to focus on, by using automated investigation and response (AIR). 
-  ms.date: 05/20/2021
+  ms.date: 08/12/2021
   author: iankensey
   ms.author: beccarobins
   ms.topic: interactive-tutorial 

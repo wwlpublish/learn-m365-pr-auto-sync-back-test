@@ -5,7 +5,7 @@ metadata:
   description: Microsoft 365 helps you create a secure, always-up-to-date environment by using Windows 10 devices that run Microsoft 365 ProPlus and are managed by Microsoft Enterprise Mobility + Security. Learn the recommended steps to upgrade your organization to Windows 10 and Microsoft 365 ProPl, including how to leverage your existing tools and processes while adopting modern management technology and approaches along the way.
   ms.date: 06/06/2019
   author: lizap
-  ms.author: elizapo
+  ms.author: teleary
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Microsoft 365 - Modernize your enterprise deployment with Windows 10 and Microsoft 365 Apps
