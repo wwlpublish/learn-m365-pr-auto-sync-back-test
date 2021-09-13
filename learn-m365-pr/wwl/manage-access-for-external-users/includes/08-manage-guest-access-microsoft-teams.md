@@ -39,7 +39,7 @@ Guests in Teams are covered by the same compliance and auditing protection as th
 |User stickers in conversations|On|When **On**, guests can use stickers in conversations; when **Off**, they can't.|
 |Allow immersive reader for viewing messages|On|When **On**, guests can view messages in Immersive Reader; when **Off**, they can't.|
 
-:::image type="content" source="../media/teams-guest-access-setting.png" alt-text="Guest permissions settings in Teams" lightbox="../media/teams-guest-access-setting.png":::
+:::image type="content" source="../media/teams-guest-access-setting.png" alt-text="Guest permissions settings in Teams" :::
 
 ## Configure guest access 
 

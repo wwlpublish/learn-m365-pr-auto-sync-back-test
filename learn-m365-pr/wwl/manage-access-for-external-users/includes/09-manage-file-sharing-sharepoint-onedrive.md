@@ -6,7 +6,7 @@ If you want to allow file and folder sharing with unauthenticated people, choose
 
 You can go to **SharePoint admin center** > **Sharing** to configure the file sharing experience.
 
-:::image type="content" source="../media/manage-sharing-sharepoint.png" alt-text="Screenshot of external sharing setting in SharePoint admin center" lightbox="../media/manage-sharing-sharepoint.png":::
+:::image type="content" source="../media/manage-sharing-sharepoint.png" alt-text="Screenshot of external sharing setting in SharePoint admin center" :::
 
 ## External sharing settings
 

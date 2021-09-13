@@ -2,11 +2,11 @@ Microsoft Teams allows users to work with people both inside and outside your or
 
 In the following image, User A is a member user in your organization, external users can be anyone:
 
-* User B: With a business account (an Azure AD account)
+* User B: A user with a business account (an Azure AD account)
 
-* User C: With a consumer email account (with Outlook.com, Gmail.com, or others)
+* User C: A user with a consumer email account (with Outlook.com, Gmail.com, or others)
 
-* User D: an anonymous user that hasn't been authenticated against your Active Directory. For example, anonymous users can join Teams meetings via a link without logging in with their Microsoft or organization’s account.
+* User D: An anonymous user that hasn't been authenticated against your Active Directory. For example, anonymous users can join Teams meetings via a link without logging in with their Microsoft or organization’s account.
 
 :::image type="content" source="../media/external-users.png" alt-text="External users can be accounts with their own work, school, or social identities":::
 
