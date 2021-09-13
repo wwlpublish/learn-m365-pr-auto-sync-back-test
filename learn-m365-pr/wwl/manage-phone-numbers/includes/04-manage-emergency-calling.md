@@ -122,7 +122,7 @@ You can use emergency calling policies to define what happens when a Teams user 
 6. Search for and select one or more users or groups, such as your organization's security desk, to notify when an emergency call is made.  The notification can be sent to email addresses of users, distribution groups, and security groups. A maximum of 50 users can be notified.
 7. Select **Apply**.
 
-    ‎:::image type="content" source="../media/emergency-calling-policy.png" alt-text="Add an emergency calling policy":::
+    ‎:::image type="content" source="../media/emergency-calling-policy.png" alt-text="Add an emergency calling policy" :::
 
 ### Use PowerShell
 
