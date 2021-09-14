@@ -38,7 +38,7 @@ Organizations can manage device enrollment by configuring the following enrollme
      -  Restrict the number of devices that each user can enroll.
  -  **Enable Apple device enrollment**. Organizations can control whether Apple devices can be enrolled. They can only be enrolled if the organization added an APNS certificate to MDM.
  -  **Corporate identifiers**. Organizations can list international mobile equipment identifier (IMEI) numbers and serial numbers to identify company-owned devices. Intune can complete other management tasks and collect additional information. This data may include the full phone number and an inventory of apps from company-owned devices. Organizations can also prevent enrollment of devices that aren't company-owned.
- -  **Multi-factor authentication**. Organizations can require an extra verification method when users enroll a device. Verification can be by phone, PIN, or biometric data.
+ -  **Multifactor authentication**. Organizations can require an extra verification method when users enroll a device. Verification can be by phone, PIN, or biometric data.
  -  **Device enrollment manager**. The device enrollment manager (DEM) can enroll large numbers of devices. A restriction on the number of devices that a user can enroll doesn't apply to a DEM. A DEM can enroll up to 1,000 devices.
 
 ## Knowledge check
