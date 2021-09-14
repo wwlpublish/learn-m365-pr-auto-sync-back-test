@@ -3,7 +3,7 @@ uid: learn.wwl.manage-safe-links
 metadata:
   title: Manage Safe Links
   description: "Manage Safe Links"
-  ms.date: 09/13/2021
+  ms.date: 09/14/2021
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -12,8 +12,8 @@ title: Manage Safe Links
 summary: This module examines how to manage Safe Links in your tenant by creating and configuring policies and using transport rules to disable a policy from taking effect in certain scenarios.
 abstract: |
   By the end of this module, you will be able to:
-  - Create and modify a Safe Links policy in the Security &amp; Compliance Center
-  - Create a Safe Links policy by using Windows PowerShell
+  - Create and modify a Safe Links policy using Microsoft 365 Defender
+  - Create a Safe Links policy using PowerShell
   - Configure a Safe Links policy
   - Describe how a transport rule can disable a Safe Links policy
   - Describe the end-user experience when Safe Links identifies a link to a malicious website embedded in email, and a link to a malicious file hosted on a website

@@ -10,15 +10,15 @@ You can create a transport rule to bypass Safe Links just like you could to bypa
 8.  In the **new rule** window, enter a name for your new rule.
 9.  In the **Apply this rule if…** list, choose an option, such as **The sender is located… > Inside the organization**, and then choose **OK**.
 
-> [!NOTE]
-> You can choose from several options, such as **The sender is a member of...** or **The sender address includes....** You can also set other criteria, including specifying senders, recipients, distribution group members, and attachment types.
+    > [!NOTE]
+    > You can choose from several options, such as **The sender is a member of...** or **The sender address includes....** You can also set other criteria, including specifying senders, recipients, distribution group members, and attachment types.
 
 10. Choose **More options....**
 11. In the **\*Do the following…** list, select **Modify the message properties… > set a message header**.
 12. In the **Set the message header** phrase, select the first **\*Enter text...** phrase, enter **X-MS-Exchange-Organization-SkipSafeLinksProcessing** as the header name, then select **OK**.
 13. In the **Set the message header** phrase, select the remaining **\*Enter text...**, and then type something, such as a space, and then select **OK**.
 
-> [!NOTE]
-> This value isn't used by the system, even though something is required for the rule to work.
+    > [!NOTE]
+    > This value isn't used by the system, even though something is required for the rule to work.
 
 14. To save your settings, select **Save**.
