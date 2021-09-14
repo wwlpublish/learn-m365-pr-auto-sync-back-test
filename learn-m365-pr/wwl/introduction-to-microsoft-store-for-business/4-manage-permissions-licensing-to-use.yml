@@ -4,12 +4,14 @@ title: Manage permissions and licensing to use the Microsoft Store for Business
 metadata:
   title: Manage permissions and licensing to use the Microsoft Store for Business
   description: "Manage permissions and licensing to use the Microsoft Store for Business"
-  ms.date: 06/24/2021
+  ms.date: 09/14/2021
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
+sandbox: false
+labModal: false
 durationInMinutes: 8
 content: |
   [!include[](includes/4-manage-permissions-licensing-to-use.md)]

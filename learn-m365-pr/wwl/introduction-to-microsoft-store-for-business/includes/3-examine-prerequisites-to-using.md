@@ -21,4 +21,4 @@ Using a management tool can make sense for larger organizations that already use
  -  Integrate it with Windows 10 management framework and Azure AD.
  -  Sync it with the Microsoft Store for Business inventory to distribute apps.
 
-**Additional reading.** For more information, see [How to sign up for Microsoft Store for Business](/microsoft-store/sign-up-microsoft-store-for-business).
+**Additional reading.** For more information, see [How to sign up for Microsoft Store for Business](/microsoft-store/sign-up-microsoft-store-for-business?azure-portal=true).
