@@ -19,7 +19,7 @@ Some of the more commonly used actions include:
  -  Check in a file.
  -  Check out a file.
 
-**Additional reading.** For more information on connectors, see the [connector index](/connectors/index).
+**Additional reading.** For more information on connectors, see the [connector index](/connectors/index?azure-portal=true).
 
 ### Sharing flows with connectors
 

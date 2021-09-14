@@ -5,7 +5,7 @@ metadata:
   description: Learn how to effectively roll out updates to Windows 10 and Microsoft 365 Apps. You can deploy updates faster and support your remote workforce by following a three-phase process, Plan > Prepare > Deploy, that leverages tools like Microsoft Endpoint Configuration Manager to manage devices.
   ms.date: 06/17/2020
   author: lizap
-  ms.author: elizapo
+  ms.author: teleary
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Stay current with Windows 10 and Microsoft 365 Apps
