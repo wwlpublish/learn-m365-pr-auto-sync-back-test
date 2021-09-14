@@ -26,7 +26,7 @@ The following table identifies the tasks that each role can perform, and the too
 
 | Role  | Can do these tasks | Can access the following tools   |
 |-----|-------|-----------------|
-| Teams Administrator          | Manage the Teams service, and manage and create Microsoft 365 Groups.        | Everything in the Microsoft Teams admin center and associated PowerShell controls, including:<br/><br/>-  Manage meetings, including meeting policies, configurations, and conference bridges.<br/><br/>- Manage voice, including calling policies and phone number inventory and assignment.<br/><br/>- Manage messaging, including messaging policies.<br/><br/>- Manage all org-wide settings, including federation, teams upgrade, and teams client settings.<br/><br/>- Manage the teams in the organization and their associated settings, including membership (group management supported via PowerShell, team management in the Teams admin center).<br/><br/>- Manage Teams-certified devices and set up and assign configuration policies.<br/><br/>- View user profile page and troubleshoot user call quality problems using advanced troubleshooting toolset. <br/><br/>- Access all reports in the Microsoft Teams admin center<br/><br/>-  Access, monitor, and troubleshoot tenant's call quality and reliability using data exposed in Call Quality Dashboard (CQD) down to the users impacted by poor call quality. Create new call quality reports, update, and remove call quality reports as needed. Upload and update CQD building data.<br/><br/>-  Publish apps to the tenant app catalog in the Microsoft Teams admin center |
+| Teams Administrator          | Manage the Teams service, and manage and create Microsoft 365 Groups.        | Everything in the Microsoft Teams admin center and associated PowerShell controls, including:<br/><br/>-  Manage meetings, including meeting policies, configurations, and conference bridges.<br/><br/>- Manage voice, including calling policies and phone number inventory and assignment.<br/><br/>- Manage messaging, including messaging policies.<br/><br/>- Manage all org-wide settings, including federation, teams upgrade, and teams client settings.<br/><br/>- Manage the teams in the organization and their associated settings, including membership (group management supported via PowerShell, team management in the Teams admin center).<br/><br/>- Manage Teams-certified devices and set up and assign configuration policies.<br/><br/>- View user profile page and troubleshoot user call quality problems using advanced troubleshooting toolset. <br/><br/>- Access all reports in the Microsoft Teams admin center<br/><br/>- Access, monitor, and troubleshoot tenant's call quality and reliability using data exposed in Call Quality Dashboard (CQD) down to the users impacted by poor call quality. Create new call quality reports, update, and remove call quality reports as needed. Upload and update CQD building data.<br/><br/>- Publish apps to the tenant app catalog in the Microsoft Teams admin center |
 | Teams Device Administrator              | Manage devices configured for use with the Teams service.                    | Manage device configuration and updates, review device health and status of connected peripherals, set up and apply configuration profiles, and restart devices.<p>The Teams Device Administrator role doesn't provide access to call quality data or call analytics. To view call quality data or call analytics, you need to be assigned the Teams Communications Administrator role. |
 | Teams Communications Administrator      | Manage calling and meetings features within the Teams service.               | Manage meetings, including meeting policies, configurations, and conference bridges.<br><br> Manage voice, including calling policies and phone number inventory and assignment.<br><br> View user profile page and troubleshoot user call quality problems using the advanced troubleshooting toolset.<br><br>Access the Teams PSTN blocked users report, PSTN minute pools report, and PSTN usage report in the Microsoft Teams admin center. <br><br> Access, monitor, and troubleshoot tenant's call quality and reliability using data exposed in Call Quality Dashboard (CQD) down to the users who are impacted by poor call quality. Create new call quality reports, update, and remove call quality reports as needed. Upload and update CQD building data.|
 | Teams Communications Support Engineer   | Troubleshoot communications issues within Teams by using **advanced** tools. | View user profile page and troubleshoot user call quality problems using advanced troubleshooting toolset.<br><br> Access, monitor, and troubleshoot tenant's call quality and reliability using data exposed in Call Quality Dashboard (CQD) down to the users who are impacted by poor call quality. |
@@ -60,7 +60,7 @@ You can also assign admin roles in Microsoft 365 admin center by selecting **Rol
 
 ## Assign Teams admin roles in Azure AD
 
-To assign Teams admin roles in Azure AD, you will need to perform following steps:
+To assign Teams admin roles in Azure AD, you will need to perform the following steps:
 
 1. Sign-in to the **Azure portal** using a **Global administrator** account for the directory.
 
@@ -93,9 +93,9 @@ Add-AzureADDirectoryRoleMember -ObjectId $role.ObjectId -RefObjectId (Get-AzureA
 
 For additional information, see 
 
-* [Use Microsoft Teams administrator roles to manage Teams](/microsoftteams/using-admin-roles)
+* [Use Microsoft Teams administrator roles to manage Teams](/microsoftteams/using-admin-roles?azure-portal=true)
 
-* [Assign roles to Microsoft 365 user accounts with PowerShell](/microsoft-365/enterprise/assign-roles-to-user-accounts-with-microsoft-365-powershell)
+* [Assign roles to Microsoft 365 user accounts with PowerShell](/microsoft-365/enterprise/assign-roles-to-user-accounts-with-microsoft-365-powershell?azure-portal=true)
 
 
 
