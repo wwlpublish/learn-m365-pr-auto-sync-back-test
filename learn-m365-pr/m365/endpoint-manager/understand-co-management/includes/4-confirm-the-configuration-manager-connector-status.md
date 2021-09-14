@@ -5,7 +5,7 @@ Implementing tenant attach isn't required to enable co-management, however attac
 To display the Configuration Manager connector status:
 
 1. Sign in to [Microsoft Endpoint Manager admin center](https://go.microsoft.com/fwlink/?linkid=2109431).
-2. Select **Tenant administration** > **Connectors and tokens** > **Microsoft Endpoint Configuration Manager**. Select a Configuration Manager hierarchy running version 2006, or later to display additional information about it.
+2. Select **Tenant administration** > **Connectors and tokens** > **Microsoft Endpoint Configuration Manager**. Select a Configuration Manager hierarchy running version 2006, or Windows 10 or later to display additional information about it.
    
    [ ![Display the Configuration Manager connector status](../media/set-up-co-management-02.png) ](../media/set-up-co-management-02.png#lightbox)
 

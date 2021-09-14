@@ -18,32 +18,32 @@ quiz:
     choices:
     - content: "Co-management is the process of attaching your Intune tenant to the cloud. The process incorporates tenant-attach so that all your endpoints are successfully managed."
       isCorrect: false
-      explanation: "Co-management is where you concurrently manage Windows 10 devices with both Configuration Manager and Microsoft Intune. Tenant attach can be applied separately from co-management."
+      explanation: "Co-management is where you concurrently manage Windows 10 or later devices with both Configuration Manager and Microsoft Intune. Tenant attach can be applied separately from co-management."
     - content: "Co-management allows you to recognize your Configuration Manager devices and infrastructure by the Intune cloud service and take actions by using Active Directory."
       isCorrect: false
-      explanation: "Co-management is where you concurrently manage Windows 10 devices with both Configuration Manager and Microsoft Intune."
-    - content: "Co-management is where you concurrently manage Windows 10 devices with both Configuration Manager and Microsoft Intune."
+      explanation: "Co-management is where you concurrently manage Windows 10 or later devices with both Configuration Manager and Microsoft Intune."
+    - content: "Co-management is where you concurrently manage Windows 10 or later devices with both Configuration Manager and Microsoft Intune."
       isCorrect: true
       explanation: "Co-management combines your existing on-premises Configuration Manager and Active Directory investment with the cloud by using Intune, Azure AD, and other Microsoft 365 cloud services."
   - content: "Which is not a benefit of implementing co-management?"
     choices:
     - content: "Intune-based remote actions"
       isCorrect: false
-      explanation: "Using co-management, you can perform remote device actions, such as deleting company data on lost or stolen devices, renaming a device, restarting a device, reviewing device inventory, remotely controlling a device, wiping out pre-installed OEM apps with a Fresh Start reboot, or doing a factory reset on any Windows 10 device."
+      explanation: "Using co-management, you can perform remote device actions, such as deleting company data on lost or stolen devices, renaming a device, restarting a device, reviewing device inventory, remotely controlling a device, wiping out pre-installed OEM apps with a Fresh Start reboot, or doing a factory reset on any Windows 10 or later device."
     - content: "Link users, devices, and apps with Azure Active Directory (Azure AD)"
       isCorrect: false
       explanation: "Using co-management, you can using Azure AD. Azure AD is an identity service that provides single sign-on and multi-factor authentication to help protect your users."
     - content: "On-premises data access only"
       isCorrect: true
-      explanation: "When you implement co-management, you concurrently manage Windows 10 devices on-premises using Configuration Manager and via the cloud using Microsoft Intune. "
+      explanation: "When you implement co-management, you concurrently manage Windows 10 or later devices on-premises using Configuration Manager and via the cloud using Microsoft Intune. "
     - content: "Centralized visibility of device health"
       isCorrect: false
       explanation: "Using co-management, you can use Microsoft Endpoint Manager admin center which provides a single location to view all your organization's devices, whether those devices are connected via the cloud using Intune or are on-premises and connect via the Configuration Manager connector."
   - content: "Which of the following is not involved in co-management?"
     choices:
-    - content: "Windows 10 devices"
+    - content: "Windows 10 or later devices"
       isCorrect: false
-      explanation: "To enable co-management, end users must upgrade their devices to Windows 10, version 1709 or later. "
+      explanation: "To enable co-management, end users must upgrade their devices to Windows 10 (version 1709 or later) or Window 11."
     - content: "Microsoft Endpoint Configuration Manager"
       isCorrect: false
       explanation: "Co-management requires Configuration Manager version 1710 or later."
@@ -52,7 +52,7 @@ quiz:
       explanation: "Microsoft Office is not required to implement co-management."      
     - content: "Azure Active Directory"
       isCorrect: false
-      explanation: "Windows 10 devices must be connected to Azure AD to use co-management."
+      explanation: "Windows 10 or later devices must be connected to Azure AD to use co-management."
     - content: "Microsoft Intune"
       isCorrect: false
       explanation: "Intune, which is required for co-management, is a cloud-based service that focuses on mobile device management (MDM) and mobile application management (MAM)."
