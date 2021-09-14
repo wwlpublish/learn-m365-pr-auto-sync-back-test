@@ -36,7 +36,7 @@ The following controls are available to app creators:
 
 App creators can also use formulas to configure controls in their canvas apps. In Power Apps, formulas can calculate values and do other tasks (as they do in Excel) and respond to user input. For example, you can build a formula that determines how the app responds when users select a button or provide other input. These formulas might display a different screen, update a data source that is external to the app, or create a table that contains a subset of the data in an existing table.
 
-**Additional reading.** For more information, see [Add and configure a canvas-app control in Power Apps](/powerapps/maker/canvas-apps/add-configure-controls) and browse the [control reference](/powerapps/maker/canvas-apps/reference-properties) for the complete list of controls and their associated properties. See [formula reference for Power Apps](/powerapps/maker/canvas-apps/formula-reference) for the complete list of functions, operators, and other building blocks you can use.
+**Additional reading.** For more information, see [Add and configure a canvas-app control in Power Apps](/powerapps/maker/canvas-apps/add-configure-controls?azure-portal=true) and browse the [control reference](/powerapps/maker/canvas-apps/reference-properties?azure-portal=true) for the complete list of controls and their associated properties. See [formula reference for Power Apps](/powerapps/maker/canvas-apps/formula-reference?azure-portal=true) for the complete list of functions, operators, and other building blocks you can use.
 
 ### Testing and monitoring an app
 
@@ -51,8 +51,14 @@ Saving changes to a canvas app automatically publishes them only for the app cre
 
 Once the app is published, the app creator can specify which users in the organization can run the app and which users can modify and even reshare the app. The app creator can apply these permissions by specifying each user by name or by specifying a security group in Azure Active Directory.
 
-**Additional reading.** For more information on creating canvas apps, see [Create your first app](/powerapps/maker/canvas-apps/get-started-test-drive). This article includes links to creating a canvas app from a template, creating an app using data, and much more.
+**Additional reading.** For more information on creating canvas apps, see [Create your first app](/powerapps/maker/canvas-apps/get-started-test-drive?azure-portal=true). This article includes links to creating a canvas app from a template, creating an app using data, and much more.
 
-For information on creating a model-driven app, see [Build your first model-driven app from scratch](/powerapps/maker/model-driven-apps/build-first-model-driven-app).
+For information on creating a model-driven app, see [Build your first model-driven app from scratch](/powerapps/maker/model-driven-apps/build-first-model-driven-app?azure-portal=true).
 
-For information on creating a starter portal, see [Create a Common Data Service starter portal](/powerapps/maker/portals/create-portal).
+For information on creating a starter portal, see [Create a Common Data Service starter portal](/powerapps/maker/portals/create-portal?azure-portal=true).
+
+## **Exercise – Interactive demonstration**
+
+Select the following link to complete an interactive demonstration titled: [Customize the Power App](https://edxinteractivepage.blob.core.windows.net/edxpages/MS-100/M4-L3-E6-T4/index.html?azure-portal=true)
+
+This simulation guides you through the steps to use Power Apps studio to customize a Power App for the fictitious Adatum Corporation.

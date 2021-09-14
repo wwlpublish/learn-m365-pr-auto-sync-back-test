@@ -4,8 +4,8 @@ metadata:
   title: Set up Microsoft Teams meetings for your organization
   description: Online audio and video conferencing is growing in popularity as organizations embrace home working, mobile working, and international work forces. Microsoft Teams has a rich set of features that your organization can use for conferences that involve users in disparate locations. **Set up Microsoft Teams meetings for your organization** shows you how to plan and deploy a Teams system that optimizes the performance of meetings and maximizes call quality. You will also learn how to design and run a Teams system that is resilient against attacks, accidental data loss, and human error, which can all compromise security.
   ms.date: 09/03/2020
-  ms.author: elizapo
   author: lizap
+  ms.author: teleary
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Set up Microsoft Teams meetings for your organization

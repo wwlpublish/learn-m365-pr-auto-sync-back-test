@@ -5,7 +5,7 @@ metadata:
   unitType: learning-content 
   title: The configuration analyzer
   description: Learn how to use the configuration analyzer to find policies where settings are below the strict or standard protection profile settings.
-  ms.date: 5/17/2021 
+  ms.date: 08/12/2021
   author: iankensey 
   ms.author: beccarobins 
   ms.topic: interactive-tutorial 

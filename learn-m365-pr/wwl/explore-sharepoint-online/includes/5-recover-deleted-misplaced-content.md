@@ -11,8 +11,8 @@ Recycle bins provide a common way to recover deleted content. There are two type
  -  **Local recycle bin.** This bin is located on the left-hand side of the site on the Quick Launch bar. This bin is used to recover recently deleted items that are local to this site.
  -  **Site collection recycle bin.** Items in this bin have been removed from the local recycle bin. This bin is a repository of all deleted items from the child and parent site that belongs to the site collection.
 
-    > [!NOTE]
-    > Items are automatically purged from the Site Collection Recycle Bin after 93 days. The time at which 93 days begin is from the time an item is placed in the Local Recycle Bin.
+> [!NOTE]
+> Items are automatically purged from the Site Collection Recycle Bin after 93 days. The time at which 93 days begin is from the time an item is placed in the Local Recycle Bin.
 
 :::image type="content" source="../media/deleted-data-in-recycle-bins-9b90632c.jpg" alt-text="graphic showing how deleted data flows from the local recycle bin to the site collection recycle bin and is then permanently deleted":::
 

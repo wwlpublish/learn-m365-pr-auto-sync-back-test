@@ -56,6 +56,15 @@ To delete a group in the Microsoft 365 admin center:
 
 Windows PowerShell can also be used to delete security groups for Microsoft 365 by using the **Remove-MsolGroup** cmdlet.
 
+## **Exercise – Interactive demonstrations**
+
+Select the following links to complete these interactive demonstrations:
+
+ -  [Create and manage groups](https://edxinteractivepage.blob.core.windows.net/edxpages/MS-100/M2-L1-E2-T2/index.html?azure-portal=true)
+ -  [Recover groups using PowerShell](https://edxinteractivepage.blob.core.windows.net/edxpages/MS-100/M2-L1-E2-T3/index.html?azure-portal=true)
+
+The first simulation guides you through the steps to create a Microsoft 365 group and a security group for the fictitious Adatum Corporation. You will also complete the steps to delete a group. In the second simulation, you will use Windows PowerShell to recover a deleted group.
+
 ## Knowledge check
 
 Choose the best response for the following question. Then select “Check your answers.”
