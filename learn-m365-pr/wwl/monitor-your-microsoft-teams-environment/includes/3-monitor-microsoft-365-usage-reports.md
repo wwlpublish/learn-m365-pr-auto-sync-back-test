@@ -9,7 +9,7 @@ Microsoft 365 usage analytics content represents a dashboard that provides a cro
 
 You can use activity reports in the Microsoft 365 admin center to see how users in your organization are using Microsoft Teams. 
 
-For example, if someone don't use Microsoft Teams yet, they might not know how to get started or understand how they can use Teams to be more productive and collaborative. Your organization can use the activity reports to decide where to prioritize training and communication efforts.
+For example, if someone doesn't use Microsoft Teams yet, they might not know how to get started or understand how they can use Teams to be more productive and collaborative. Your organization can use the activity reports to decide where to prioritize training and communication efforts.
 
 To view the activity reports, you will need one of the following permissions:
 
@@ -26,6 +26,7 @@ The following are steps to see the Microsoft Teams reports in Microsoft 365 admi
 There are currently two activity reports you can view:
 
 ### Microsoft Teams user activity report
+
 The Teams user activity report gives you a view of the most common activities that your users perform in Teams. This includes how many people engage in a chat in a channel, how many communicate via private chat message, and how many participate in calls or meetings. You can see this information for your whole organization, and for each individual user.
 
 ‎‎:::image type="content" source="../media/teams-user-activity-report.png" alt-text="Microsoft Teams user activity report" lightbox="../media/teams-user-activity-report.png":::
@@ -50,8 +51,8 @@ There are circumstances where new users show up as **unknown**. This is due to o
 
 Whenever you close a user's account, Microsoft will delete that user's usage data within 30 days. That user will still be included in the Activity chart totals for the periods the user was active in, but will not appear in the User Details table.
 
-However, when you select a particular day, up to 28 days from the current date, the report show the user's usage for that day in the User Details table.
+However, when you select a particular day, up to 28 days from the current date, the report shows the user's usage for that day in the User Details table.
 
-For more information, see [Microsoft 365 usage reports](/office365/admin/activity-reports/activity-reports).
+For more information, see [Microsoft 365 usage reports](/office365/admin/activity-reports/activity-reports?azure-portal=true).
 
 

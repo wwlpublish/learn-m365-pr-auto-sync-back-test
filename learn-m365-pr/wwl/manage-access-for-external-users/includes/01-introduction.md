@@ -3,7 +3,6 @@ Microsoft Teams allows collaboration beyond the borders of your own organization
 You can chat, call, and share content with users outside of your organization and allow your users to invite guests of their choice to Teams they own.
 
 In this module, you will learn about the different ways that Teams allows you to communicate with users outside of your organization.
- 
 
 After completing this module, you'll be able to:
 
@@ -20,5 +19,3 @@ After completing this module, you'll be able to:
 - Manage guest access in Microsoft Teams.
 
 - Manage file sharing in SharePoint
-
- 

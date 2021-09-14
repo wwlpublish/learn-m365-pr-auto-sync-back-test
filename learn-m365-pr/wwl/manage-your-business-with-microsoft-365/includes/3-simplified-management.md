@@ -6,8 +6,9 @@ Endpoint Manager combines services you may know and already be using, including 
 
 Endpoint Manager includes the following services:
 
- -  **Microsoft Intune**: Intune is a 100% cloud-based mobile device management (MDM) and mobile application management (MAM) provider for your apps and devices. It lets you control features and settings on Android, Android Enterprise, iOS/iPadOS, macOS, and Windows 10 devices. Configuration Manager: Configuration Manager is an on-premises management solution to manage desktops, servers, and laptops that are on your network or internet-based. You can cloud-enable it to integrate with Intune, Azure Active Directory (AD), Microsoft Defender ATP, and other cloud services. Configuration Manager has a rich set of capabilities that allow you to customize the following areas:
-    
+ -  **Microsoft Intune**: Intune is a 100% cloud-based mobile device management (MDM) and mobile application management (MAM) provider for your apps and devices. It lets you control features and settings on Android, Android Enterprise, iOS/iPadOS, macOS, and Windows 10 devices. 
+ - **Configuration Manager**: Configuration Manager is an on-premises management solution to manage desktops, servers, and laptops that are on your network or internet-based. You can cloud-enable it to integrate with Intune, Azure Active Directory (AD), Microsoft Defender ATP, and other cloud services. Configuration Manager has a rich set of capabilities that allow you to customize the following areas:
+
      -  Application management
      -  OS deployment
      -  Software update management

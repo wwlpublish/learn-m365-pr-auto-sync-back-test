@@ -4,18 +4,17 @@ Compliance recording solution in Teams enables organizations to automatically re
 
 ## Compliance recording solution  
 
-The core component of the compliance recording solution is the recorder. When a communication interaction takes place, the recorders are automatically invited to participate in conversations based on the policies. 
+The core component of the compliance recording solution is the recorder. When a communication interaction takes place, the recorders are automatically invited to participate in conversations based on the policies.
 
-Users under this policy are aware that their digital interactions with Teams are being recorded. Users can't disable the recording and don't have access to the recording once the interaction is complete. 
+Users under this policy are aware that their digital interactions with Teams are being recorded. Users can't disable the recording and don't have access to the recording once the interaction is complete.
 
 The recording becomes part of the organizational archive. The recording is available to compliance and legal personnel for eDiscovery, legal hold, and other corporate retention uses.
 
- The exact implementation of the recorder service will vary by partner. Compliance recording solutions are integrated with Teams as shown in the following diagram.
+The exact implementation of the recorder service will vary by partner. Compliance recording solutions are integrated with Teams as shown in the following diagram.
 
-:::image type="content" source="../media/compliance-recording-teams-calling-meetings.jpg" alt-text="The images shows the flow when a Teams meeting or call is sent and received.":::
+:::image type="content" source="../media/compliance-recording-teams-calling-meetings.jpg" alt-text="Images show the flow when a Teams meeting or call is sent and received":::
 
-
-## Configure compliance recording policy 
+## Configure compliance recording policy
 
 IT Administrators configure compliance recording policies to determine the users to be recorded and the recorder to be used for each user.
 
@@ -55,7 +54,6 @@ Admins can apply the compliance recording policies at the tenant, per-user, and 
    PS C:\> Set-CsTeamsComplianceRecordingPolicy -Identity TestComplianceRecordingPolicy `
    -ComplianceRecordingApplications @(New-CsTeamsComplianceRecordingApplication -Id 5069aae5-c451-4983-9e57-9455ced220b7 -Parent TestComplianceRecordingPolicy)
    ```
-
 
 3. Use ```Grant-CsTeamsComplianceRecordingPolicy``` cmdlet to assign the Compliance Recording policy to a user.
 

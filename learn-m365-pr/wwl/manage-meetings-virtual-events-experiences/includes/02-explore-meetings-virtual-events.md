@@ -2,15 +2,15 @@ Microsoft Teams supports all communication needs across the spectrum in the hybr
 
 There are three types of meetings that can be created in Microsoft Teams, depending on the nature of the meeting:
 
-* **Teams meetings**. Microsoft Teams meetings include audio, video, and screen sharing. A Teams meeting is one of the key ways to collaborate in Teams.
+* **Teams meetings** - Microsoft Teams meetings include audio, video, and screen sharing. A Teams meeting is one of the key ways to collaborate in Teams.
 
-* **Teams webinars**. Microsoft Teams webinars provide the tools to schedule a webinar, register attendees, run an interactive presentation, and analyze attendee data for effective follow-up. 
+* **Teams webinars** - Microsoft Teams webinars provide the tools to schedule a webinar, register attendees, run an interactive presentation, and analyze attendee data for effective follow-up. 
 
-* **Teams Live Events**. Microsoft Teams Live Events enable users to broadcast video and meeting content to a large online audience, such as a company town hall meeting. 
+* **Teams Live Events** - Microsoft Teams Live Events enable users to broadcast video and meeting content to a large online audience, such as a company town hall meeting. 
 
 A Microsoft Teams admin controls meeting types through policies and settings. These configurations are based on organizational regulations, such as video or screen sharing. Each of these meeting types is examined in greater detail in the following sections. 
 
-‎:::image type="content" source="../media/teams-meeting-types.png" alt-text="diagram showing the three types of meetings supported by Microsoft Teams"::: 
+‎:::image type="content" source="../media/teams-meeting-types.png" alt-text="Diagram showing the three types of meetings supported by Microsoft Teams"::: 
 
 ## Teams meetings
 
@@ -22,7 +22,7 @@ If a team has a dedicated channel in Microsoft Teams, it can schedule a channel 
 
 * All members can see and join a meeting.
 * Any meeting-related discussion that is held before, during, or after a meeting is part of the channel discussion.
-* Non-private meetings and discussions are visible to anyone who's a member of the team.
+* Non-private meetings and discussions are visible to any member of the team.
 * Meetings can also be started ad-hoc from the existing channel conversation.
 
 ### Private meetings
@@ -38,10 +38,10 @@ When meetings involve non-team members, users can schedule a private meeting. Pr
 
 Teams webinars provide the following management features that enable the Teams admin to manage participation and follow up with webinar attendees:
 
-- custom registration pages and attendee emails
-- rich presentation options
-- host controls, such as the ability to disable attendee chat and video
-- post-event reporting
+* Custom registration pages and attendee emails
+* Rich presentation options
+* Host controls, such as the ability to disable attendee chat and video
+* Post-event reporting
 
 Team webinars include the following features:
 
@@ -61,37 +61,37 @@ Team webinars include the following features:
 
 Live Events are meant for one-to-many communications where:
 
-- the host of the event leads the interactions.
-- audience participation is primarily to view the content shared by host. 
+* The host of the event leads the interactions.
+* Audience participation is primarily to view the content shared by host. 
 
 The attendees can watch the live or recorded event in Yammer, Teams, or Stream. They can also interact with the presenters using moderated Q&A or a Yammer conversation. 
 
 Teams Live Events include the following features:
 
-* **Event group roles**. Teams Live Events use the following roles to successfully broadcast and participate in an event. To learn more, see [Event group roles](https://support.office.com/article/get-started-with-microsoft-teams-live-events-d077fec2-a058-483e-9ab5-1494afda578a?ui=en-US&rs=en-US&ad=US#bkmk_roles?azure-portal=true).
+* **Event group roles** - Teams Live Events use the following roles to successfully broadcast and participate in an event. To learn more, see [Event group roles](https://support.office.com/article/get-started-with-microsoft-teams-live-events-d077fec2-a058-483e-9ab5-1494afda578a?ui=en-US&rs=en-US&ad=US#bkmk_roles?azure-portal=true).
 
-    - **Organizer**. Schedules a Live event and ensures the event is set up with the right permissions for both attendees and the event group, who will manage the event.
-    - **Producer**. As a host, ensures attendees have a great viewing experience by controlling the Live event stream.
-    - **Presenter**. Presents audio, video, or a screen to the Live event. The presenter often moderates a Q&A session at the end of the event.
-    - **Attendee**. A viewer who watches the event live or on-demand, using DVR controls, either anonymously or authenticated. Attendees can participate in Q&A events.
+    * **Organizer** - Schedules a Live event and ensures the event is set up with the right permissions for both attendees and the event group, who will manage the event.
+    * **Producer** - As a host, ensures attendees have a great viewing experience by controlling the Live event stream.
+    * **Presenter** - Presents audio, video, or a screen to the Live event. The presenter often moderates a Q&A session at the end of the event.
+    * **Attendee** - A viewer who watches the event live or on-demand, using DVR controls, either anonymously or authenticated. Attendees can participate in Q&A events.
 
-* **Production options**. Teams Live Events can be produced either in Teams using a webcam, or in an external app or device. 
+* **Production options** - Teams Live Events can be produced either in Teams using a webcam, or in an external app or device. 
 
-    * **Teams**. Users can produce their Live Events in Teams using either their webcam or an A/V input from Teams room systems. This option enables users to easily use their webcams and share their screens as input in the event.
+    * **Teams** - Users can produce their Live Events in Teams using either their webcam or an A/V input from Teams room systems. This option enables users to easily use their webcams and share their screens as input in the event.
 
-    * **External app or device**. External encoders enable users to produce their Live events directly from an external hardware device or a software-based encoder using Stream. An example of a software-based encoder includes studio-quality media mixers that support streaming to a Real-time Messaging Protocol (RTMP) service. 
+    * **External app or device** - External encoders enable users to produce their Live events directly from an external hardware device or a software-based encoder using Stream. An example of a software-based encoder includes studio-quality media mixers that support streaming to a Real-time Messaging Protocol (RTMP) service. 
 
-* **Streaming platform**. The Live Event streaming platform consists of:
+* **Streaming platform** - The Live Event streaming platform consists of:
 
-    * **Azure Media Services**. Azure Media Services enhances accessibility, distribution, and scalability. It also makes it easy and cost-effective to stream content to your local or worldwide audiences while protecting your content.
+    * **Azure Media Services** - Azure Media Services enhances accessibility, distribution, and scalability. It also makes it easy and cost-effective to stream content to your local or worldwide audiences while protecting your content.
 
-    * **Azure Content Delivery Network (CDN)**. Once your stream goes live, it's delivered through the Azure Content Delivery Network (CDN), which provides integrated CDN for streaming endpoints. This feature enables streams to be viewed worldwide with no buffering.
+    * **Azure Content Delivery Network (CDN)** - Once your stream goes live, it's delivered through the Azure Content Delivery Network (CDN), which provides integrated CDN for streaming endpoints. This feature enables streams to be viewed worldwide with no buffering.
 
-* **Enterprise Content Delivery Network (eCDN)**. The goal of eCDN is to take the video content from the internet and distribute the content throughout an organization without impacting network performance. The following diagram identifies the certified, third-party eCDN partners that an organization can use to optimize its network for Live events.
+* **Enterprise Content Delivery Network (eCDN)** - The goal of eCDN is to take the video content from the internet and distribute the content throughout an organization without impacting network performance. The following diagram identifies the certified, third-party eCDN partners that an organization can use to optimize its network for Live events.
 
 The following diagram also displays the high-level components involved in Teams Live Events and how they're connected.
 
-‎:::image type="content" source="../media/live-event-flow-diagram.png" alt-text="diagram showing the key components of Live events"::: 
+‎:::image type="content" source="../media/live-event-flow-diagram.png" alt-text="Diagram showing the key components of Live events"::: 
 
 ## Comparison of Teams meeting types
 

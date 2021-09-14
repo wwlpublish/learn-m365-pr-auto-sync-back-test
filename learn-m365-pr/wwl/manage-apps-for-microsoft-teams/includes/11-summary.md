@@ -1,4 +1,4 @@
-In this module, you learned different settings and policies to manage Teams apps. You've learned to allow or disallow apps at both users and tenant levels. You learned to pin apps to users' app bar. Besides, you also learned how to customize the app store and control custom apps uploads. 
+In this module, you learned different settings and policies to manage Teams apps. You've learned to allow or disallow apps at both users and tenant levels. You learned to pin apps to users' app bar. Plus, you learned how to customize the app store and control custom apps uploads. 
 
 Now that you have completed this module, you should be able to:
 

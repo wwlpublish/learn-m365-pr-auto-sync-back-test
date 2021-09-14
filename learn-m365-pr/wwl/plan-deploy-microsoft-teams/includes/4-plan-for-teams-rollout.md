@@ -2,13 +2,13 @@ When deploying Microsoft Teams, you should create a rollout path that describes 
 
 We recommend rolling out Teams in stages, workload by workload, as your organization is ready. You don't have to wait until you've completed one step before you move to the next. Some organizations may want to roll out all Teams features at once, while others may prefer a phased approach. Here are the Teams workloads, in the order we recommend rolling them out:
  
-1. **Get started**. The starting point for any Teams deployment begins with familiarizing stakeholders with their new collaboration and communication client. 
+1. **Get started** - The starting point for any Teams deployment begins with familiarizing stakeholders with their new collaboration and communication client. 
 
-2. **Chat, teams, channels, &amp; apps**. To help drive user adoption of Teams, you should look for a quick win in the deployment process. Most organizations already use chat applications and services. The quickest win typically involves integrating these persistent chat capabilities and apps into Teams. The integration lets users continue using the legacy solutions they’re comfortable with, avoiding disruption to their daily activities.
+2. **Chat, teams, channels, &amp; apps** - To help drive user adoption of Teams, you should look for a quick win in the deployment process. Most organizations already use chat applications and services. The quickest win typically involves integrating these persistent chat capabilities and apps into Teams. The integration lets users continue using the legacy solutions they’re comfortable with, avoiding disruption to their daily activities.
 
-3. **Meetings &amp; Conferencing**. Implementing meetings and conferencing in a Teams deployment is typically done later in the rollout process. The success of adopting meetings and conferencing in Teams makes it easier to deploy the next capability-voice.
+3. **Meetings &amp; Conferencing** - Implementing meetings and conferencing in a Teams deployment is typically done later in the rollout process. The success of adopting meetings and conferencing in Teams makes it easier to deploy the next capability voice.
 
-4. **Voice**. The last step in a rollout is the full voice integration of PSTN calling into Teams. Switching voice communication from traditional solutions to Teams requires a comprehensive transition plan.  
+4. **Voice** - The last step in a rollout is the full voice integration of PSTN calling into Teams. Switching voice communication from traditional solutions to Teams requires a comprehensive transition plan.  
 
  
 ‎:::image type="content" source="../media/recommended-roullout-path.png" alt-text="Microsoft recommended roll out path":::
@@ -52,7 +52,7 @@ When rolling out Teams in an organization that already uses Skype for Business, 
 
 Advisor for Teams walks you through your Microsoft Teams rollout. It assesses your Microsoft 365 organization environment and identifies the most common configurations that you may need to update or modify before you can successfully roll out Teams. 
 
-Advisor for Teams creates a Deployment team (in Teams), with channels for each workload you want to roll out. Each workload in the Deployment team comes with a comprehensive Planner plan that includes all the rollout tasks for each workload. Using this Planner plan, you can assign tasks to the people responsible for each phase of the rollout. Each rollout task contains all the guidance and resources you need to complete the task
+Advisor for Teams creates a Deployment team (in Teams), with channels for each workload you want to roll out. Each workload in the Deployment team comes with a comprehensive Planner plan that includes all the rollout tasks for each workload. Using this Planner plan, you can assign tasks to the people responsible for each phase of the rollout. Each rollout task contains all the guidance and resources you need to complete the task.
 
 ‎:::image type="content" source="../media/advisor-plan.png" alt-text="Recommended plans of Skype for Business upgrade" lightbox="../media/advisor-plan.png":::
 
@@ -72,4 +72,4 @@ For more information, see:
 
 * [FastTrack for Microsoft 365](https://www.microsoft.com/microsoft-365/partners/fasttrack?azure-portal=true)
 
-* [Advisor for Teams](/MicrosoftTeams/use-advisor-teams-roll-out)
+* [Advisor for Teams](/MicrosoftTeams/use-advisor-teams-roll-out?azure-portal=true)

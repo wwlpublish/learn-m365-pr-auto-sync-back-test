@@ -11,4 +11,4 @@ This module focused on the Phone System feature in Microsoft Teams. Phone System
 
 Phone System enables users to use a different range of devices to establish calls. These devices include mobile devices, headset connected to a computer, and an IP phone. 
 
-In this module, you also learned about the different ways to manage the phone system for Microsoft Teams. You learned how to create and manage resource accounts, call queues, and auto attendants. You also learned how to configure call park policies and policies to manage calling capabilities. 
+In this module, you also learned about the different ways to manage the phone system for Microsoft Teams. You learned how to create and manage resource accounts, call queues, and auto attendants. You also learned how to configure call park policies and policies to manage calling capabilities.
