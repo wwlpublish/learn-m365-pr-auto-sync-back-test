@@ -3,9 +3,9 @@ uid: learn-m365.optimize-network-traffic.7-exercise-eliminate-polling-microsoft-
 metadata:
   title: Exercise - Eliminate polling Microsoft Graph with delta query
   description: In this exercise, you'll use the Azure AD application and .NET console application you previously created and modify them to demonstrate using the delta query feature of Microsoft Graph. An application can leverage the delta query feature to avoid costly requests to poll for changes in Microsoft Graph that can trigger requests to be throttled.
-  ms.date: 06/18/2021
-  author: andrewconnell
-  ms.author: v-johnco
+  ms.date: 09/13/2021
+  author: andrewconnell-msft
+  ms.author: suzanz
   ms.topic: interactive-tutorial
   ms.prod: learning-graph
 title: Exercise - Eliminate polling Microsoft Graph with delta query

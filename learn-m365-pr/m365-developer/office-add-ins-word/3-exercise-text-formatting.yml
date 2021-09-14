@@ -3,9 +3,9 @@ uid: learn-m365.office-add-ins-word.3-exercise-text-formatting
 metadata:
   title: Exercise - Insert and format a range of text
   description: In this exercise, you'll build a Word add-in that inserts text ranges and paragraphs and format this text.
-  ms.date: 06/17/2021
-  author: andrewconnell
-  ms.author: v-johnco
+  ms.date: 09/06/2021
+  author: andrewconnell-msft
+  ms.author: suzanz
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Exercise - Insert and format a range of text

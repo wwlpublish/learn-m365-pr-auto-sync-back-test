@@ -3,9 +3,9 @@ uid: learn-m365.optimize-data-usage.5-exercise-expand-related-entities-search-co
 metadata:
   title: Exercise - Expand related entities & search content in Microsoft Graph
   description: In this exercise, you'll use the Azure AD application and .NET console application you previously created to find related entities and search for users by using the $expand and $search query parameters.
-  ms.date: 06/18/2021
-  author: andrewconnell
-  ms.author: v-johnco
+  ms.date: 09/13/2021
+  author: andrewconnell-msft
+  ms.author: suzanz
   ms.topic: interactive-tutorial
   ms.prod: learning-graph
 title: Exercise - Expand related entities & search content in Microsoft Graph
