@@ -13,16 +13,16 @@ To create a transport rule that bypasses scanning, complete the following steps:
 7.  In the **new rule** window, enter a name for your new rule.
 8.  In the **Apply this rule if…** drop-down menu, select an option, such as **The sender is located… > Inside the organization**, and then select **OK**.
 
-> [!NOTE]
-> You can choose from several options, such as **The sender is a member of...** or **The sender address includes....** You can also set other criteria, including specifying senders, recipients, distribution group members, and attachment types.
+    > [!NOTE]
+    > You can choose from several options, such as **The sender is a member of...** or **The sender address includes....** You can also set other criteria, including specifying senders, recipients, distribution group members, and attachment types.
 
 9.  Choose **More options....**
 10. In the **Do the following…** list, select **Modify the message properties… > set a message header**.
 11. In the **Set the message header to this value** phrase, select the first instance of **\*Enter text...**, enter **X-MS-Exchange-Organization-SkipSafeAttachmentProcessing** as the header name, and then select **OK**.
 12. In the **Set the message header to this value** phrase, select the remaining **\*Enter text...,** and then type something, such as a space, and then choose **OK**.
 
-> [!NOTE]
-> This value isn't used by the system, even though something is required for the rule to work.
+    > [!NOTE]
+    > This value isn't used by the system, even though something is required for the rule to work.
 
 13. To save your settings, select **Save**.
 

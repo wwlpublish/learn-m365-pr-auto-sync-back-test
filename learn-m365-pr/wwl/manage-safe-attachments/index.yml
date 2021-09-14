@@ -3,7 +3,7 @@ uid: learn.wwl.manage-safe-attachments
 metadata:
   title: Manage Safe Attachments
   description: "Manage Safe Attachments"
-  ms.date: 09/13/2021
+  ms.date: 09/14/2021
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -12,8 +12,8 @@ title: Manage Safe Attachments
 summary: This module examines how to manage Safe Attachments in your Microsoft 365 tenant by creating and configuring policies and using transport rules to disable a policy from taking effect in certain scenarios.
 abstract: |
   By the end of this module, you will be able to:
-  - Create and modify a Safe Attachments policy in the Security &amp; Compliance Center
-  - Create a Safe Attachments policy by using Windows PowerShell
+  - Create and modify a Safe Attachments policy using Microsoft 365 Defender
+  - Create a Safe Attachments policy by using PowerShell
   - Configure a Safe Attachments policy
   - Describe how a transport rule can disable a Safe Attachments policy
   - Describe the end-user experience when an email attachment is scanned and found to be malicious
