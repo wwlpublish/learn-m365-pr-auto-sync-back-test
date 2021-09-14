@@ -23,26 +23,25 @@ Complete the following steps to clear the Teams cache for the Teams client:
 4. Restart the Teams client.
 
 > [!TIP]
-> If you prefer to use Windows PowerShell to clean your Microsoft Teams client cache, free third-party PowerShell scripts are available and can be downloaded from the Internet. 
-
+> If you prefer to use Windows PowerShell to clean your Microsoft Teams client cache, free third-party PowerShell scripts are available and can be downloaded from the internet.
 
 ## Clear the Microsoft Teams client cache for iOS
 
 Complete the following steps to clear the Teams client cache for iOS devices:
 
 1. Close your Teams app (if running).
-2. Open the **Settings** app on the iPhone, iPad, or iPod touch. 
+2. Open the **Settings** app on the iPhone, iPad, or iPod touch.
 3. At the primary **Settings app** screen, tap and pull down on the settings screen to reveal the "Search" box at the top of the **Settings** screen.
 4. Type **Teams** in the search box, and then select **Clear app data**.
 5. In the **Teams** screen, scroll down and select **Clear app data**.  
 
-	:::image type="content" source="../media/teams-ios-clear-app-data.png" alt-text="Teams iOD clear app data":::
+	:::image type="content" source="../media/teams-ios-clear-app-data.png" alt-text="Teams iOS clear app data":::
 ‎‎
 6. Restart the Teams app. Verify the Teams logo appears when starting the app; otherwise, you incorrectly closed the Teams app earlier.
 
 ## Clear the Microsoft Teams client cache for Android
 
-Complete the following steps to clear the Teams client cache for android devices with android pie (version 9):
+Complete the following steps to clear the Teams client cache for Android devices with Android pie (version 9):
 
 1. Close your Teams app (if running).
 2. Open the device **Settings** with the cogwheel.
