@@ -4,12 +4,14 @@ title: Work with the Microsoft Defender for Identity portal
 metadata:
   title: Work with the Microsoft Defender for Identity portal
   description: "Work with the Microsoft Defender for Identity portal"
-  ms.date: 06/10/2021
+  ms.date: 09/14/2021
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
+sandbox: false
+labModal: false
 durationInMinutes: 6
 content: |
   [!include[](includes/4-work-with-portal.md)]
