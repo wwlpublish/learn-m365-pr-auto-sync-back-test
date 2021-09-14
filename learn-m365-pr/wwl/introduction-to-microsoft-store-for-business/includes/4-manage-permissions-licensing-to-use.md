@@ -15,11 +15,11 @@ The following table identifies the tasks that each role can complete.
 |: |::|:--:|:-:|:--:|
 | Assign roles                         |     X     |                         |                     |                         |
 | Manage store settings                |     X     |                         |                     |                         |
-| <p>Acquire online licensed apps</p>  |     X     |            X            |          X          |                         |
-| <p>Acquire offline licensed apps</p> |     X     |            X            |                     |                         |
+| Acquire online licensed apps         |     X     |            X            |          X          |                         |
+| Acquire offline licensed apps        |     X     |            X            |                     |                         |
 | Add apps to the private store        |     X     |                         |                     |                         |
-| <p>Distribute apps</p>               |     X     |            X            |          X          |                         |
-| <p>Sign policies and catalogs</p>    |     X     |                         |                     |            X            |
+| Distribute apps                      |     X     |            X            |          X          |                         |
+| Sign policies and catalogs           |     X     |                         |                     |            X            |
 
 When you sign up for the Microsoft Store for Business, the following apps are automatically added to the organization's private store if they haven't already been added:
 
