@@ -16,4 +16,3 @@ After completing this module, you'll be able to:
  -  Explain how users can enroll their personal devices.
  -  Explain the permissions assigned to the Device Enrollment Manager role.
  -  Explain why MFA helps secure the sign-in to Microsoft 365 or Intune for mobile device enrollment.
-

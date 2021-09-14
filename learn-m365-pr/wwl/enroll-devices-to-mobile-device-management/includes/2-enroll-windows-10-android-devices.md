@@ -10,7 +10,13 @@ Automatic enrollment to MDM only works for Windows 10 devices, because only Wind
 
 The Company Portal app isn't included on Android and iOS devices by default. It's available as a free app in the Google Play store and the Apple app store. If you want to enroll iOS devices, you must ensure that MDM is configured with a valid Apple Push Notification Service (APNS) certificate. iPhones, iPad, and macOS devices require an APNS certificate for secure communication with MDM, even if MDM is Intune, MDM for Microsoft 365, or a third-party MDM product.
 
-**Additional reading.** For more information, see [Enrolling Android devices to Intune](/intune-user-help/enroll-your-device-in-intune-android). Enrolling iOS devices is covered in the next unit.
+**Additional reading.** For more information, see [Enrolling Android devices to Intune](/intune-user-help/enroll-your-device-in-intune-android?azure-portal=true). Enrolling iOS devices is covered in the next unit.
+
+## **Exercise – Interactive demonstration**
+
+Select the following link to complete an interactive demonstration titled: [Enroll a Windows 10 device](https://edxinteractivepage.blob.core.windows.net/edxpages/MS-101/M11-L10-E4-T2%263/index.html?azure-portal=true).
+
+This simulation guides you through the steps to enroll a Windows 10 device to Intune for the fictitious company known as Adatum Corporation.
 
 ## Knowledge check
 

@@ -27,13 +27,13 @@ Organizations can configure automatic enrollment to MDM for Windows 10 devices o
  -  If a Windows 10 device is already joined to an on-premises AD DS that is synced to Azure AD, the **Enable automatic MDM enrollment using default Azure AD credentials** Group Policy setting can be configured to enroll devices to MDM.
  -  If Azure AD is integrated with MDM, then any Windows 10 devices that users join to Azure AD are automatically enrolled to MDM.
 
-    > [!NOTE]
-    > Azure AD users can enroll devices to Azure AD by default. However, they must have an Intune license to use this feature.
+> [!NOTE]
+> Azure AD users can enroll devices to Azure AD by default. However, they must have an Intune license to use this feature.
 
 **Additional reading.** For more information, see the following resources:
 
- -  [Enrolling Windows 10 devices by using Group Policy](/windows/client-management/mdm/enroll-a-windows-10-device-automatically-using-group-policy).
- -  [Integrating Azure AD with MDM](/windows/client-management/mdm/azure-ad-and-microsoft-intune-automatic-mdm-enrollment-in-the-new-portal).
+ -  [Enrolling Windows 10 devices by using Group Policy](/windows/client-management/mdm/enroll-a-windows-10-device-automatically-using-group-policy?azure-portal=true).
+ -  [Integrating Azure AD with MDM](/windows/client-management/mdm/azure-ad-and-microsoft-intune-automatic-mdm-enrollment-in-the-new-portal?azure-portal=true).
 
 ### Manual enrollment of Windows 10 devices
 
@@ -50,6 +50,6 @@ Organizations can enroll Android and iOS devices by using the Company Portal app
 :::image type="content" source="../media/company-portal-sign-in-page-041d875a.jpg" alt-text="screenshot of the company portal sign-in page":::
 
 
-**Additional reading.** For more information, see [Enrolling Android and iOS devices to MDM](/intune-user-help/enroll-your-device-in-intune-all).
+**Additional reading.** For more information, see [Enrolling Android and iOS devices to MDM](/intune-user-help/enroll-your-device-in-intune-all?azure-portal=true).
 
 ### 

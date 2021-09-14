@@ -18,5 +18,5 @@ MFA helps secure the sign-in to Microsoft 365 or Intune for mobile device enroll
 
 **Additional reading.** For more information, see the following resources:
 
- -  [Setting up MFA in the Azure portal](/azure/active-directory/authentication/howto-mfa-mfasettings)
+ -  [Setting up MFA in the Azure portal](/azure/active-directory/authentication/howto-mfa-mfasettings?azure-portal=true)
  -  [Setting up MFA for Office 365 users](https://support.office.com/article/set-up-multi-factor-authentication-for-office-365-users-8f0454b2-f51a-4d9c-bcde-2c48e41621c6?azure-portal=true)
