@@ -9,7 +9,7 @@ After a device is enrolled to Intune, a built-in device MDM agent automatically 
 
 Organizations can view device information in the Microsoft Endpoint Manager admin center or when generating reports. They can also use synchronized device attributes when specifying membership rules for dynamic groups. Groups can be used in Intune for deploying profiles, policies, and apps.
 
-**Additional reading.** For more information, see [Device data that is available in Intune](/intune/device-inventory).
+**Additional reading.** For more information, see [Device data that is available in Intune](/intune/device-inventory?azure-portal=true).
 
 ### Group membership
 
@@ -25,7 +25,7 @@ A group membership rule automatically populates a group with users or devices. T
 
 For example, the following group membership rule includes all devices that were manufactured by Microsoft:
 
-**`device.deviceManufacturer -eq "Microsoft"`**
+`device.deviceManufacturer -eq "Microsoft"`
 
 The following table identifies the attributes that can be used when creating a dynamic device group.
 
@@ -397,3 +397,10 @@ a valid Azure AD object ID
 
   :::column-end:::
 :::row-end:::
+
+
+## **Exercise – Interactive demonstration**
+
+Select the following link to complete an interactive demonstration titled: [Create device categories](https://edxinteractivepage.blob.core.windows.net/edxpages/MS-101/M11-L10-E5-T1/index.html?azure-portal=true).
+
+This simulation guides you through the steps to create device categories for the fictitious company known as Adatum Corporation. Adatum wants to implement device categories that will enable it to automatically add devices to groups based on defined categories.
