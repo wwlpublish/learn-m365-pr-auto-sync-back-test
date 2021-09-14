@@ -1,7 +1,7 @@
 Once you decide to move to Configuration Manager or extend your existing Configuration Manager solution, there are two main paths to reach co-management of your Windows 10 or later devices:
 
 - **[Enable co-management for existing Windows 10 or later Configuration Manager clients](#enable-co-management-for-existing-configuration-manager-clients)**
-- **[Enable co-management for new internet-based Windows 10 or later devices](#enable-co-management-for-new-internet-based-windows-10-devices)**
+- **[Enable co-management for new internet-based Windows 10 or later devices](#enable-co-management-for-new-internet-based-windows-10-or-later-devices)**
 
 Each path requires some combination of Azure Active Directory (Azure AD), Configuration Manager, Microsoft Intune, and Windows 10 or later. 
 
@@ -22,7 +22,7 @@ With co-management, you can keep your well-established processes for using Confi
 In this co-management path, you already have Windows 10 or later devices that are Configuration Manager clients. In addition, you have an on-premises Active Directory that you can connect to Azure Active Directory (Azure AD) in a hybrid Azure AD configuration. 
 
 > [!IMPORTANT]
-> If you can't deploy a hybrid Azure Active Directory (AD) that joins your on-premises AD with Azure AD, we recommend you [Enable co-management for new internet-based Windows 10 or later devices](#enable-co-management-for-new-internet-based-windows-10-devices).
+> If you can't deploy a hybrid Azure Active Directory (AD) that joins your on-premises AD with Azure AD, we recommend you [Enable co-management for new internet-based Windows 10 or later devices](#enable-co-management-for-new-internet-based-windows-10-or-later-devices).
 
 To enable this co-management path, see [Tutorial: Enable co-management for existing Configuration Manager clients](/mem/configmgr/comanage/tutorial-co-manage-clients).
 
