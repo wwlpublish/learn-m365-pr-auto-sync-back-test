@@ -21,7 +21,3 @@ After completing this module, you'll be able to:
 - Create and manage compliance recording policies.
 
 - Configure alert policies for events in Microsoft Teams.
-
- 
-
- 

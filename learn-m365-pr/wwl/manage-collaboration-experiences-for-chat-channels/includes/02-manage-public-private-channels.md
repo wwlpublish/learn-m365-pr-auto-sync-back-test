@@ -137,7 +137,7 @@ Get-Team -DisplayName "CxO Team" | New-TeamChannel -DisplayName "Billing" -Descr
 ```
 
 > [!NOTE]
-> Using the -MembershipType parameter requires Teams PowerShell version 1.0.18 or newer. 
+> Using the *-MembershipType* parameter requires Teams PowerShell version 1.0.18 or newer. 
 
 To create a private channel on behalf of a user, without granting permissions to an administrator use the following cmdlet:
 

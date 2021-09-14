@@ -10,7 +10,7 @@ The Microsoft 365 App Compliance Program, is a three tier approach to app securi
 
 * **Publisher Attestation** is where developers share general, data handling, and security and compliance information about their app service. This reduces the need for IT admins to work directly with app publishers. All the information needed to make an informed decision can be found for all apps that have completed the publisher attestation in one place and in a consistent format. 
 
-* The **Microsoft 365 Certification** offers assurance and confidence to organizations that data and privacy are adequately secured and protected when using Microsoft Teams apps. Certification confirms that an app solution is compatible with Microsoft technologies, compliant with cloud app security best practices, and supported by Microsoft. 
+* **Microsoft 365 Certification** offers assurance and confidence to organizations that data and privacy are adequately secured and protected when using Microsoft Teams apps. Certification confirms that an app solution is compatible with Microsoft technologies, compliant with cloud app security best practices, and supported by Microsoft. 
 
 ## Microsoft Teams certified devices
 
@@ -24,7 +24,7 @@ For Teams certified devices, see [Microsoft Teams devices](https://www.microsoft
 
 For organizations that want solutions with business tools and workflows to drive the customer journey, contact center integration for Microsoft Teams allows Contact Center as a Service (CCaaS) solution providers to integrate their solutions into Teams.
 
-The Connected contact center for Microsoft Teams certification program verifies each participating provider's solution's quality, compatibility, and reliability. 
+The Connected contact center for Microsoft Teams certification program verifies each participating provider's solutions quality, compatibility, and reliability. 
 
 For a list of certified solution providers, and see [Connected Contact Center solutions](https://docs.microsoft.com/microsoftteams/teams-contact-center?tabs=connect#connected-contact-center-solutions?azure-portal=true).
 

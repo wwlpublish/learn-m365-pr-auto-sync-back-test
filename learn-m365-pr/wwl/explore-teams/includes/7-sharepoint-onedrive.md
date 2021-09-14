@@ -22,7 +22,7 @@ Each channel in a team gets a **folder** within the default **Shared Documents**
     
     Each private channel has a **folder** in Shared Document library of its own **SharePoint team site** that's separate from the parent team site. This ensures access to private channel files is restricted to only members of the private channel.
 
-    A private channel SharePoint site is created in the same geographic region as the SharePoint site of the parent team. Site membership is sync with the membership of the private channel within Teams. 
+    A private channel SharePoint site is created in the same geographic region as the SharePoint site of the parent team. Site membership is synced with the membership of the private channel within Teams. 
 
 Additionally, the recordings for channel meetings are stored in the channel folder that's in the document library for that team. The person who started the recording has edit permissions. Permissions for all other channel members are inherited from the Teams channel permissions. If a user can access the channel in Teams, they can access the meeting recording just like any other file saved in the channel.
 
@@ -52,7 +52,7 @@ The following table shows the scenarios of Teams content stored in OneDrive.
 
 | **Scenario**| **Storage location** |
 | - |-|
-| Files shared in private chats(1:1 or 1:many chats.)| Files are stored in the sender's OneDrive folder **Microsoft Teams Chat Files**.  |
+| Files shared in private chats(1:1 or 1:many chats)| Files are stored in the sender's OneDrive folder **Microsoft Teams Chat Files**.  |
 | Non-channel meeting recordings| Meeting recordings are stored in a folder named **Recordings** in the OneDrive for the person who started the meeting recording.| 
 
 

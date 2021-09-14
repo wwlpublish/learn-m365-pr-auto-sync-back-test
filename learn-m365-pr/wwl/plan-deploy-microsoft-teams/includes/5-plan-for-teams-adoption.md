@@ -1,4 +1,4 @@
-User adoption is vital to the success of any Microsoft Teams deployment. Teams combines a wide range of different workloads, such as messaging, file, and voice communication. Organizations may experience significant change to business processes to efficiently collaborate and communicate with Microsoft Teams. And as business processes change, end-users often find that their daily routines or processes change as well. It is this change that users must positively embrace to successfully implement Teams. Without buy-in from the end users who implement Teams as their primary collaboration hub, a Teams deployment will fail, even if rolled out perfectly.
+User adoption is vital to the success of any Microsoft Teams deployment. Teams combines a wide range of different workloads, such as messaging, file, and voice communication. Organizations may experience significant change to business processes to efficiently collaborate and communicate with Microsoft Teams. Just as business processes change, end-users often find that their daily routines or processes change as well. It is this change that users must positively embrace to successfully implement Teams. Without buy-in from the end-users who implement Teams as their primary collaboration hub, a Teams deployment will fail, even if rolled out perfectly.
 
 The list below is high-level steps that organizations should pursue to implement Teams and drive positive user adoption. These steps, which can be altered depending on the size of the organization, will help ensure a sustained level of communication with stakeholders, champions, IT administrators, and users to land a successful deployment for Microsoft Teams.
 
@@ -26,21 +26,21 @@ The list below is high-level steps that organizations should pursue to implement
 
 8. Adjust messaging and methods based on feedback, and then repeat.
 
-‎:::image type="content" source="../media/adoption-plan.png" alt-text="Overvie of adoption plan":::
+‎:::image type="content" source="../media/adoption-plan.png" alt-text="Overview of adoption plan":::
 
 ## Identify key stakeholders, champions, and user profiles
 
-The first rule of a successful adoption is to create a dynamic team comprised of key stakeholders and the right people who can drive and effect change in others. The team should consist of committed individuals representing a cross-section of the organization. Key stakeholder roles include an Executive Sponsors, Service Owners, IT Professionals, and Champions.
+The first rule of a successful adoption is to create a dynamic team comprised of key stakeholders and the right people who can drive and effect change in others. The team should consist of committed individuals representing a cross-section of the organization. Key stakeholder roles include Executive Sponsors, Service Owners, IT Professionals, and Champions.
 
-- **Executive Sponsors**. These individuals are key leaders within the organization, and their participation is essential in driving employee adoption. They have the greatest influence on company culture and can actively communicate the value and benefits of new technology and business processes.
+- **Executive Sponsors** - These individuals are key leaders within the organization, and their participation is essential in driving employee adoption. They have the greatest influence on company culture and can actively communicate the value and benefits of new technology and business processes.
 
-- **Service Owners**. These individuals are responsible for ensuring people use the service and get value from it. Defining Service Owners within your organization is important to ensure the business goals set for Office 365 are realized.
+- **Service Owners** - These individuals are responsible for ensuring people use the service and get value from it. Defining Service Owners within your organization is important to ensure the business goals set for Office 365 are realized.
 
-- **IT Professionals and Champions**. Gaining buy-in from every user across an organization is a challenge. IT Professionals and Champions can help alleviate this challenge and play an important role in the adoption of Office 365. They are knowledgeable, committed to furthering their expertise and are willing to provide peer coaching and assistance. They help translate Office 365 into the reality of their department or team.
+- **IT Professionals and Champions** - Gaining buy-in from every user across an organization is a challenge. IT Professionals and Champions can help alleviate this challenge and play an important role in the adoption of Office 365. They are knowledgeable, committed to furthering their expertise, and are willing to provide peer coaching and assistance. They help translate Office 365 into the reality of their department or team.
 
 Organizations should plan regular meetings of these stakeholders to keep them up to date on the progress of the projects. Initiating a "collaboration council" to allow for feedback and discussion can be a useful tool depending on corporate culture.
 
-**Best Practice**. Ironically, the people who may be the biggest obstacles to change can also become your most important allies in a deployment of this kind. You should engage with these members of organizations early and often to hear their concerns and issues. Often, they have valuable feedback that will make the Teams deployment project more successful. Once you receive their buy-in on the project, other end users who may be skeptical of the change often follow their lead and embrace the new system as well.
+**Best Practice** - Ironically, the people who may be the biggest obstacles to change can also become your most important allies in a deployment of this kind. You should engage with these members of organizations early and often to hear their concerns and issues. Often, they have valuable feedback that will make the Teams deployment project more successful. Once you receive their buy-in on the project, other end users who may be skeptical of the change often follow their lead and embrace the new system as well.
 
 ## User profiles
 
@@ -77,6 +77,6 @@ Champions will help to:
 For a successful Champions program, individuals from all types of user profiles are required to maximize the range and efficiency of their benefits for a Teams deployment.
 
 **Additional information**. Microsoft provides different guides and toolkits to support companies in rolling out Teams. 
-- [Microsoft Teams tools and workshops](/MicrosoftTeams/planning-workshop-practical-guide).
+- [Microsoft Teams tools and workshops](/MicrosoftTeams/planning-workshop-practical-guide?azure-portal=true).
 
 - [Microsoft 365 adoption tools](https://adoption.microsoft.com/?azure-portal=true)

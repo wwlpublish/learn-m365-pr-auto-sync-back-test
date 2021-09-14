@@ -70,7 +70,7 @@ Get-Command -Module MicrosoftTeams
 > [!NOTE]
 > The Microsoft Teams PowerShell module with version **1.1.6** or above is integrated with Skype for Business Online Connector, providing a single module for Teams PowerShell management. 
 
-For more information, please refer to [Teams PowerShell Overview](/MicrosoftTeams/teams-powershell-overview).
+For more information, please refer to [Teams PowerShell Overview](/MicrosoftTeams/teams-powershell-overview?azure-portal=true).
 
  
 
@@ -80,7 +80,7 @@ Microsoft Teams also provides management capabilities through Microsoft Graph, w
 
 The Graph API can be used for various tasks regarding managing team settings, members, and resources. The primary use of Graph API is its automation capabilities because Graph API calls can be embedded into tab pages and easily called from other sources.
 
-For more information, please refer to [Use the Microsoft Graph API to work with Microsoft Teams](/graph/api/resources/teams-api-overview).
+For more information, please refer to [Use the Microsoft Graph API to work with Microsoft Teams](/graph/api/resources/teams-api-overview?azure-portal=true).
 
 
 ## Management through Teams clients

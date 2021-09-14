@@ -6,7 +6,7 @@ In this module, you'll learn about the most common Teams troubleshooting areas, 
 
 After completing this module, you'll be able to:
 
-- Describe key aspects of Teams troubleshooting 
+- Describe key aspects of Teams troubleshooting
 
 - Identify call quality issues with call analytics
 

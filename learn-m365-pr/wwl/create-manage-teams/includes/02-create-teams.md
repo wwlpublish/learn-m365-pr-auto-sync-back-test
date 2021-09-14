@@ -11,7 +11,7 @@ You can use Teams admin center to create a team from scratch.
 
 1. In Teams admin center on the left pane select **Teams**, and then select **Manage teams**.
 2. On Manage teams pane, select **Add**.  
-3. In **Add a new team** window, define the followings:
+3. In **Add a new team** window, define the following:
 
 	- Team Name
 	- Description
@@ -41,7 +41,7 @@ When you use Teams Client, you can create a team:
 
 To create a team from the Teams Client, follow these steps:
 
-1. In the Teams Client in the left panel select **Teams**, and then select **Join or create a team** on the bottom of the left panel.
+1. In the Teams Client in the left panel select **Teams**, and then select **Join or create a team** on the lower section of the left panel.
 
 2. Select **Create a team** in the main pane.
 
@@ -62,7 +62,7 @@ To create a team from the Teams Client, follow these steps:
 
 	- **Org-Wide** – A team where everyone in your organization is a member.
 
-	:::image type="content" source="../media/team-types.png" alt-text="Screenshot of different teams type":::
+	:::image type="content" source="../media/team-types.png" alt-text="Screenshot of different team types":::
 
 5. Define the following information:
 
@@ -91,12 +91,12 @@ You can also create a team with the pre-defined template by using ```-Template``
 New-Team -DisplayName "CompSci 101" -Description "Official team for the CompSci 101 Class." -Template EDU_Class
 ```
 
-Using PowerShell to create a team allows you to configure permissions for adding and deleting channels, messages and users, modifying channels, blocking access to GIF files, and posting memes instead of having to go back and changing these settings later.
+Using PowerShell to create a team allows you to configure permissions for adding and deleting channels, messages and users, modifying channels, blocking access to GIF files, and posting memes instead of having to go back and change these settings later.
 
 
 > [!NOTE]
-> If you don’t specify an owner the account running the PowerShell cmdlet, the user who creates the team will be added as both a member and an owner. For more information about other parameters, please refer to [New-Team](/powershell/module/teams/new-team). 
+> If you don’t specify an owner then the account running the PowerShell cmdlet, the user who creates the team will be added as both a member and an owner. For more information about other parameters, please refer to [New-Team](/powershell/module/teams/new-team?azure-portal=true). 
 
 ## Create a team from Microsoft Graph
-You can use the Microsoft Teams API in Microsoft Graph to create teams in multiple ways. You can use Microsoft Graph to create a new team from scratch or add a team to an existing group. For more information, see [Use the Microsoft Graph API to work with Microsoft Teams](/graph/api/resources/teams-api-overview).
+You can use the Microsoft Teams API in Microsoft Graph to create teams in multiple ways. You can use Microsoft Graph to create a new team from scratch or add a team to an existing group. For more information, see [Use the Microsoft Graph API to work with Microsoft Teams](/graph/api/resources/teams-api-overview?azure-portal=true).
  

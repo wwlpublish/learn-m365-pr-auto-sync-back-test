@@ -10,9 +10,9 @@ It provides:
 
 The metrics, insights, and recommendations cover two areas: 
 
-- **People experiences**. Quantifies how the organization works using Microsoft 365 categories like content collaboration, mobility, communication, meetings, and teamwork.  
+- **People experiences** - Quantifies how the organization works using Microsoft 365 categories like content collaboration, mobility, communication, meetings, and teamwork.  
 
-- **Technology experiences**. Your organization depends on reliable and well-performing technology, and the efficient use of Microsoft 365. 
+- **Technology experiences** - Your organization depends on reliable and well-performing technology, and the efficient use of Microsoft 365. 
 
 ## Prerequisites 
 
@@ -20,7 +20,7 @@ The metrics, insights, and recommendations cover two areas:
 * For endpoint analytics data for your tenant, you need to add Microsoft Intune to your subscription. 
 * Required roles to access the Productivity Score
     * Global admin
-    * Exchange admins
+    * Exchange admin
     * SharePoint admin
     * Skype for Business admin
     * Teams admin
@@ -64,10 +64,10 @@ People have different communication needs. Microsoft 365 enables flexibility in 
 
 The supporting metrics for the communication category: 
 
-* **Breakdown of communication by modes**. The use for each mode, including emails, Teams, and Yammer.
-* **@mentions in emails**.  The response rate for new email threads based on whether they had @mentions or not.
-* **Breakdown of messages by type in Microsoft Teams**. The use of chat and channel messages.
-* **Questions and Answers in Yammer**. The use of the questions and answers feature in your organization.
+* **Breakdown of communication by modes** - The use for each mode, including emails, Teams, and Yammer.
+* **@mentions in emails** -  The response rate for new email threads based on whether they had @mentions or not.
+* **Breakdown of messages by type in Microsoft Teams** - The use of chat and channel messages.
+* **Questions and Answers in Yammer** - The use of the questions and answers feature in your organization.
     
     ‎:::image type="content" source="../media/productivity-score-communication.png" alt-text="Communication Productivity Score page in Reports." lightbox="../media/productivity-score-communication.png":::
 
@@ -77,35 +77,36 @@ Meetings, where people explore ideas, plan, solve problems, and make decisions, 
 
 The supporting metrics for the meetings category: 
 
-* **Breakdown of how many meetings follow best practices**. Represent the extent to which online Microsoft Teams meetings are following each of the following best practices.
-* **Distribution of time spent by people in meetings**. Provides a view of people in your organization based on their average time spent per week in meetings within the last 28 days. 
-* **Distribution of meeting length by type**. The distribution of length (in minutes) of instant and scheduled meetings that took place in your organization in the last 28 days. 
-* **Use of different meeting types**.  The types of meetings are being attended by people who are attending any online Microsoft Teams meetings. 
+* **Breakdown of how many meetings follow best practices** - Represent the extent to which online Microsoft Teams meetings are following each of the following best practices.
+* **Distribution of time spent by people in meetings** - Provides a view of people in your organization based on their average time spent per week in meetings within the last 28 days. 
+* **Distribution of meeting length by type** - The distribution of length (in minutes) of instant and scheduled meetings that took place in your organization in the last 28 days. 
+* **Use of different meeting types** - The types of meetings are being attended by people who are attending any online Microsoft Teams meetings. 
 
     ‎:::image type="content" source="../media/productivity-score-meetings.png" alt-text="Meetings Productivity Score page in Reports." lightbox="../media/productivity-score-meetings.png":::
 
 ### Teamwork
+
 A fundamental pillar for organizational productivity is when a group of people with a common goal work with each other and with common resources for collective success. Research indicates that when people share information and collaborate in shared workspaces, they save up to 4 hours a week. 
 
 The supporting metrics for the teamwork category: 
 
-* **Breakdown of how people engage in shared workspaces**. The extent to which people who are communicating or interacting with content are doing so in shared workspaces.
-* **Breakdown of workspace engagement by size and age**. The engagement breakdown is shown in the form of a heat-map across two dimensions.
-* **Breakdown of workspaces by level of engagement**. Provides a view of the workspaces in your organization based on the intensity of engagement per week, including distributions for different activity types measured within teamwork.
-
-* **Use of teams within Microsoft Teams**.  Reflects the percentage of workspaces that have a Microsoft Teams team attached to them. 
+* **Breakdown of how people engage in shared workspaces** - The extent to which people who are communicating or interacting with content are doing so in shared workspaces.
+* **Breakdown of workspace engagement by size and age** - The engagement breakdown is shown in the form of a heat-map across two dimensions.
+* **Breakdown of workspaces by level of engagement** - Provides a view of the workspaces in your organization based on the intensity of engagement per week, including distributions for different activity types measured within teamwork.
+* **Use of teams within Microsoft Teams** -  Reflects the percentage of workspaces that have a Microsoft Teams team attached to them. 
 
     ‎:::image type="content" source="../media/productivity-score-teamwork.png" alt-text="Teamwork Productivity Score page in Reports." lightbox="../media/productivity-score-teamwork.png":::
 
 ### Mobility
+
 A fundamental pillar of organizational productivity is how well people are able to work flexibly from wherever they are. With Microsoft 365, people can stay connected with Outlook, Microsoft Teams, and Yammer. People can also seamlessly collaborate on content by using Word, Excel, PowerPoint, and OneNote from any location, and platforms.
 
 The supporting metrics for the mobility category: 
 
-* **Use of Outlook across platforms**.The percentage of people who are active on Outlook and are using either one or more than one platform
-* **Use of Teams across platforms**. The percentage of people active on Microsoft Teams who are using it on either a single platform, or multiple ones.
-* **Use of Microsoft 365 Apps across platforms**. Represent the number of people who are using each of the apps considered–Word, Excel, PowerPoint, and OneNote—across single or multiple platforms.
-* **Remote work**. Daily percentage of people who only work remotely and daily percentage of people who also work onsite. Users are considered onsite if they perform at least three hours of activity in Microsoft 365 Apps in a day.
+* **Use of Outlook across platforms** - The percentage of people who are active on Outlook and are using either one or more than one platform.
+* **Use of Teams across platforms** - The percentage of people active on Microsoft Teams who are using it on either a single platform, or multiple ones.
+* **Use of Microsoft 365 Apps across platforms** - Represent the number of people who are using each of the apps considered–Word, Excel, PowerPoint, and OneNote—across single or multiple platforms.
+* **Remote work** - Daily percentage of people who only work remotely and daily percentage of people who also work onsite. Users are considered onsite if they perform at least three hours of activity in Microsoft 365 Apps in a day.
 
     ‎:::image type="content" source="../media/productivity-score-mobility.png" alt-text="Mobility Productivity Score page in Reports." lightbox="../media/productivity-score-mobility.png":::
 

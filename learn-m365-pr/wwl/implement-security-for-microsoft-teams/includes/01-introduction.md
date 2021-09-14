@@ -8,14 +8,8 @@ After completing this module, you'll be able to:
 
 - Configure Safe Attachments for Microsoft Teams.
 
-- Configure Safe Links for Microsoft Teams. 
+- Configure Safe Links for Microsoft Teams.
 
-- Examine the Cloud App Security. 
+- Examine the Cloud App Security.
 
 - Describe security reports for Microsoft Teams.
-
- 
-
- 
-
- 
