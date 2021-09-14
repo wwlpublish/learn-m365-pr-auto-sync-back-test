@@ -3,9 +3,9 @@ uid: learn-m365.optimize-data-usage.4-expand-related-entities-search-content-mic
 metadata:
   title: Expand related entities & search content in Microsoft Graph
   description: In this unit, we'll explore how you can use two query parameters to search and include related data in Microsoft Graph requests.
-  ms.date: 06/18/2021
-  author: andrewconnell
-  ms.author: v-johnco
+  ms.date: 09/13/2021
+  author: andrewconnell-msft
+  ms.author: suzanz
   ms.topic: interactive-tutorial
   ms.prod: learning-graph
 title: Expand related entities & search content in Microsoft Graph
