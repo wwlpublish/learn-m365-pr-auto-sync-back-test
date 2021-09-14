@@ -1,10 +1,10 @@
-Within Microsoft Teams there are two user roles: **owner** and **member**. By default, a user who creates a new team is granted the owner status and owners can promote other members to become another owners. Independently from a user’s role, owners and members can both have moderator capabilities for a channel (if moderation has been set up). If a team is created from an existing Microsoft 365 Group, permissions are inherited.
+Within Microsoft Teams there are two user roles: **owner** and **member**. By default, a user who creates a new team is granted the owner status and owners can promote other members to become another owner. Independently from a user’s role, owners and members can both have moderator capabilities for a channel (if moderation has been set up). If a team is created from an existing Microsoft 365 Group, permissions are inherited.
 
 Owners can add members to their teams. If a team is public, then members are also allowed to add members to the team. In a private Team, members can request other new members to the Team. The owners will be informed of the request and react accordingly.
 
 As an owner you can restrict the creation of tabs, bots, connectors, and channels to the owner role. The table below lists the privileges available to owners and members of a team:
 
-|                                   | Team Owner | Team Member |
+| Privileges                                  | Team Owner | Team Member |
 |-----------------------------------|------------|-------------|
 |          **Create team**          |    Yes<sup>1</sup>     |     No      |
 |          **Leave team**           |    Yes     |     Yes     |
@@ -29,11 +29,12 @@ As an owner you can restrict the creation of tabs, bots, connectors, and channel
 Owners can make other members as owners in the **View teams** option. A team can have up to 100 owners. It’s recommended, that you have at least a few owners to help manage the team; this will also prevent orphaned groups if a sole owner leaves your organization. For the supported number of members in a team, see [Limits and specifications for Microsoft Teams](https://docs.microsoft.com/microsoftteams/limits-specifications-teams?azure-portal=true#teams-and-channels).
 
 ## Manage membership
+
 It is recommended to let the owners of teams manage team-specific settings and membership. They are the people working with the team and know how they want to apply the capabilities that are provided for them. 
 
-Team owners can add **security groups**, **mail-enabled security groups**, or **distribution groups** to a team from Teams client. However, if you later add more members to the security group, those members are not automatically added to the team. You'll have to add the new members separately or readd the security group to the team. (If you readd the security group, deduplication makes sure members are added only once.)  
+Team owners can add **security groups**, **mail-enabled security groups**, or **distribution groups** to a team from Teams client. However, if you later add more members to the security group, those members are not automatically added to the team. You'll have to add the new members separately or readd the security group to the team. (If you read the security group, deduplication makes sure members are added only once.)  
 
-There are still reasons for you to add members to a team. Perhaps you need to add an owner to an orphaned team, or you decided to create department-specific teams and restrict users to creating non-business critical teams only via company policy. Usually you would create department teams as a team with dynamic membership. 
+There are still reasons for you to add members to a team. Perhaps you need to add an owner to an orphaned team, or you decide to create department-specific teams and restrict users to creating non-business critical teams only via company policy. Usually you would create department teams as a team with dynamic membership. 
 
 If you can’t create a team with dynamic membership you will add members using the Teams admin center, the Microsoft Teams PowerShell module, or the Teams client.
 
@@ -87,4 +88,4 @@ In order to manage users in teams, you have the following cmdlets available in t
 - ```Remove-TeamUser```
 
 
-For more information, see [Assign team owners and members in Microsoft Teams](/microsoftteams/assign-roles-permissions). 
+For more information, see [Assign team owners and members in Microsoft Teams](/microsoftteams/assign-roles-permissions?azure-portal=true). 
