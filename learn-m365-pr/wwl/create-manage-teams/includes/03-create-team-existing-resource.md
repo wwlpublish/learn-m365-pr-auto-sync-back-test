@@ -1,6 +1,6 @@
 There are several options to create a team from an existing resource. You can upgrade a SharePoint team site or a Microsoft 365 group to a team directly. If you upgrade a Microsoft 365 group to a team, the new team will use the DisplayName, Description, Privacy Settings and membership of the upgraded group. The team will be created with a single channel named "General". 
 
-You also can [convert a distribution list (or distribution group) to a Microsoft 365 group](/microsoft-365/admin/manage/upgrade-distribution-lists), then you can convert it to a team with this intermediate step. 
+You also can [convert a distribution list (or distribution group) to a Microsoft 365 group](/microsoft-365/admin/manage/upgrade-distribution-lists?azure-portal=true), then you can convert it to a team with this intermediate step. 
 To summarize, you have the following upgrade paths to create teams from an existing resource:
 
 - Distribution list -> Microsoft 365 group -> Team
@@ -25,7 +25,7 @@ To create a team from a Microsoft 365 group in the Microsoft 365 admin center, f
 
 1. Open the Microsoft 365 admin center as an administrator.
 
-2. On the navigation pane, select **Groups > Active groups**.
+2. On the navigation pane, select **Groups** > **Active groups**.
 
 3. In the main pane, select the Microsoft 365 group you want to upgrade to a team.
 
@@ -33,14 +33,14 @@ To create a team from a Microsoft 365 group in the Microsoft 365 admin center, f
 
 5. Select **Create a team** in the **Microsoft Teams** tab.  
 
-    ‎:::image type="content" source="../media/microsoft-365-create-a-team.png" alt-text="Create a team from Group selection in Microsoft 365 admin center.":::  
+    ‎:::image type="content" source="../media/microsoft-365-create-a-team.png" alt-text="Create a team from Group selection in Microsoft 365 admin center":::  
 
 6. In the **Add Microsoft Team to this group?** prompt select **Create a team** to confirm that you want to upgrade your existing group to a team.
 
 ### Use Teams client 
 To create a team in the Teams client, follow these steps:
 
-1. In the Teams client in the left panel select **Teams**, and then select **Join or create a team** on the bottom of the left panel.
+1. In the Teams client in the left panel select **Teams**, and then select **Join or create a team** on the lower end of the left panel.
 
 2. Select **Create team** in the main pane.
 
@@ -79,7 +79,7 @@ You can also upgrade your existing SharePoint team sites to a team. If a SharePo
 ‎
 Once the SharePoint team site is converted to a team, you will also see the Teams option on the navigation pane when you open your Team site that will lead you directly to open your site in Teams client:
 
-:::image type="content" source="../media/sharepoint-team-site-teams-option.png" alt-text="Sharepoint Navigation pane that shows Teams option.":::  
+:::image type="content" source="../media/sharepoint-team-site-teams-option.png" alt-text="SharePoint Navigation pane that shows Teams option":::  
 ‎
  
 

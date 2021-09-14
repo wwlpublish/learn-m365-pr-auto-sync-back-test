@@ -19,7 +19,7 @@ In Microsoft Teams, users can add published SharePoint pages or lists as a tab i
 ‎:::image type="content" source="../media/sharepoint-teams.png" alt-text="The graph illustrates SharePoint in Microsoft Teams":::
 
 ## Yammer
-Users are able to add a Yammer page to a channel in Teams or install then pin the Yammer app (named *"Communities"*) to the app bar. This allows team members follow and share conversations in Yammer without having to leave Teams. The team members can participate in the Yammer conversation right from Teams, or discuss a Yammer conversation in Teams before posting a reply to the wider Yammer group. When a Teams member goes to the Yammer tab, they are authenticated again by Yammer, so that they only see Yammer content that they have access to.
+Users are able to add a Yammer page to a channel in Teams or install then pin the Yammer app (named *"Communities"*) to the app bar. This allows team members to follow and share conversations in Yammer without having to leave Teams. The team members can participate in the Yammer conversation right from Teams, or discuss a Yammer conversation in Teams before posting a reply to the wider Yammer group. When a Teams member goes to the Yammer tab, they are authenticated again by Yammer, so they only see Yammer content that they have access to.
 
 ‎:::image type="content" source="../media/yammer-teams.png" alt-text="The graph illustrates Yammer in Microsoft Teams":::
 

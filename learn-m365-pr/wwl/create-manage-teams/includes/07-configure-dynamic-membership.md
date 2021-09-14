@@ -18,6 +18,7 @@ It may take anywhere from a few minutes to up to hours to reflect dynamic member
 - Members won't be able to leave teams backed by dynamic groups.
 
 ## Enable dynamic membership
+
 To enable dynamic membership in a Team, you must modify the underlying Microsoft 365 group membership rule using the **Azure AD portal** or **PowerShell**. The references to the group won't be changed if you modify the membership. If the group is used for access every member added by the dynamic membership rule will have access to the resources of the group.
 
 There currently isn't a way to create a team with dynamic membership directly. You can either create a team then change the membership rule of the associated Microsoft 365 group or create a Microsoft 365 group with dynamic user membership type then create a team from the existing Microsoft 365 Group. 
@@ -27,7 +28,7 @@ There currently isn't a way to create a team with dynamic membership directly. Y
  
 ## Azure AD Portal
 
-Do the following steps to change the group membership of an existing Team to a rule based dynamic membership.
+Do the following steps to change the group membership of an existing team to a rule based dynamic membership.
 
 1. Sign into the Azure AD admin center with an account that is a global administrator or a user administrator in your tenant.
 2. Select the search bar from the top of the page, type **Azure Active Directory** and select it.
@@ -40,7 +41,7 @@ Do the following steps to change the group membership of an existing Team to a r
 7. Select **Add dynamic query**, and then provide the rule.
 :::image type="content" source="../media/add-dynamic-query.png" alt-text="Adding dynamic query in AAD":::
 
-8. After creating the rule, select **Add query** at the bottom of the page.
+8. After creating the rule, select **Add query** at the lower end of the page.
 9. Select **Save** on the **Properties** page for the group to save your changes. The **Membership type** of the group is immediately updated in the group list.
 
  
@@ -131,7 +132,7 @@ When specifying a value within an expression, it's important to use the correct 
 
  
 
-For more information, see [Dynamic membership rules for groups in Azure Active Directory](/azure/active-directory/users-groups-roles/groups-dynamic-membership). 
+For more information, see [Dynamic membership rules for groups in Azure Active Directory](/azure/active-directory/users-groups-roles/groups-dynamic-membership?azure-portal=true). 
 
 ## Knowledge check
 

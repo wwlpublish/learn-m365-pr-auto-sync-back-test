@@ -6,7 +6,7 @@ Only global admins can create org-wide teams and currently an org-wide team is l
   
 ‎:::image type="content" source="../media/create-org-wide-team.png" alt-text="Create an org-wide team":::  
 ‎
-When an org-wide team is created, all global admins and Teams service administrators are added as team owners and all active users are added as team members. Unlicensed users are also added to the team. The first time an unlicensed user signs in to Teams, the user is assigned a Microsoft Teams Exploratory license. To learn more about the Exploratory license, check out [Manage the Microsoft Teams Exploratory license](/MicrosoftTeams/teams-exploratory).
+When an org-wide team is created, all global admins and Teams service administrators are added as team owners and all active users are added as team members. Unlicensed users are also added to the team. The first time an unlicensed user signs in to Teams, the user is assigned a Microsoft Teams Exploratory license. To learn more about the Exploratory license, check out [Manage the Microsoft Teams Exploratory license](/MicrosoftTeams/teams-exploratory?azure-portal=true).
 
  
 These types of accounts won't be added to your org-wide team:
@@ -33,9 +33,10 @@ When creating an org-wide team, consider the following things:
 - All actions by the system to add or remove members are posted in the General channel. The channel will also be marked as having new activity in the Teams client.
 
 ## Create an Org-Wide team from scratch
+
 If you want to create an Org-Wide team from scratch, follow these steps:
 
-1. In the Teams Client in the left panel select **Teams**, and then select **Join or create a team** on the bottom of the left panel.
+1. In the Teams Client in the left panel select **Teams**, and then select **Join or create a team** on the lower end of the left panel.
 
 2. Select **Create team** in the main pane.
 
@@ -63,7 +64,7 @@ If you want to change the team you just created to be an org-wide team, follow t
 
 3. In the dropdown menu, select **Edit Team**.
 
-4. Change the **Privacy** level to Org-wide.
+4. Change the **Privacy** level to **Org-wide**.
 	:::image type="content" source="../media/edit-team-organizational-wide.png" alt-text="Screenshot of changing to a org-wide team":::
 
 5. Select **Done** to apply the changes.
@@ -73,7 +74,7 @@ If you want to change the team you just created to be an org-wide team, follow t
 To get the most out of org-wide teams, you should consider the best practices from the following table:
  
 
-| **Best practice** | **Description**    |
+| **Best practice** | **Description** |
 ||--|
 | Allow only team owners to post to the General channel | Reduce channel noise by having only team owners post to the General channel. In the Teams Client go to the team and select **˙˙˙ More options** \> **Manage Team**. On the **Settings** tab, click **Member permissions** \> select **Only owners can post messages**. |
 | Turn off \@team and \@[team name] mentions            | Reduce \@mentions to keep them from overloading the entire organization. In the Teams Client go to the team and select **˙˙˙ More options** \> **Manage Team**. On the **Settings** tab, click **\@mentions** \> turn off **Show members the option to \@team or \@[team name]**.              |

@@ -42,6 +42,7 @@ In the left navigation of the Microsoft Teams admin center, go to **Teams apps**
 The **Manage apps** page is where you manage individual apps at the org level. It shows every available app and its current org-level app status. 
 
 ### Allow and block apps
+
 To allow or block an app, select it, and then select **Allow** or **Block**. When you block an app, all interactions with that app are disabled and the app doesn't appear in Teams for any users in your organization.
 
 When you block or allow an app on the **Manage apps** page, that app is blocked or allowed for all users in your organization.  When you block or allow an app in a Teams app permission policy, it's blocked or allowed for users who are assigned that policy. For a user to be able to install and interact with any app, you must allow the app at the org level on the **Manage apps** page and in the app permission policy that's assigned to the user.
@@ -78,6 +79,7 @@ After you accept the permissions, you'll see a message under **Org-wide permissi
 
 
 ### Add an app to a team
+
 You use the **Add to team** button to install an app to a team. Keep in mind that you can only install apps that can be installed in a team scope. The **Add to team** button isn't available for apps that can only be installed in the personal scope.
 
 :::image type="content" source="../media/manage-apps-add-app-team.png" alt-text="Screenshot of Add to team button":::
@@ -87,6 +89,7 @@ You use the **Add to team** button to install an app to a team. Keep in mind tha
 3. In the **Add to team** pane, search for the team you want to add the app to, select the team, and then select **Apply**.
 
 ### Customize apps
+
 You can customize an app to include a specific look and feel according to your organization needs. 
 
 * Short name
@@ -99,9 +102,9 @@ You can customize an app to include a specific look and feel according to your o
 
 There are three entry points to access the customize feature from the **Manage apps** page: 
 
-* Select next to the app that you want to customize, and then select Customize.
-* Select the app name and then Customizable.
-* Select the app name, and then select Customize from the Actions dropdown.
+* Select next to the app that you want to customize, and then select **Customize**.
+* Select the app name and then **Customizable**.
+* Select the app name, and then select **Customize** from the **Actions** drop-down menu.
 
     :::image type="content" source="../media/customize-app.png" alt-text="Screenshot of customizing app" lightbox="../media/customize-app.png":::
 
@@ -119,14 +122,15 @@ Use org-wide app settings to control whether users can install third-party apps 
 
     - **Allow third-party apps in Teams**: This setting controls whether users can use third-party apps. If you turn off this setting, your users won't be able to install or use any third-party apps. For apps that you allowed, the status shows as **Allowed but disabled org-wide**.              
 
-        When **Allow third-party apps in Teams** is off, [outgoing webhooks](/microsoftteams/platform/webhooks-and-connectors/what-are-webhooks-and-connectors)are disabled, which means that users can't create them. When this setting is on, outgoing webhooks are enabled for all users regardless of whether the setting is on or off in the users' app permission policy.
+        When **Allow third-party apps in Teams** is off, [outgoing webhooks](/microsoftteams/platform/webhooks-and-connectors/what-are-webhooks-and-connectors?azure-portal=true) are disabled, which means that users can't create them. When this setting is on, outgoing webhooks are enabled for all users regardless of whether the setting is on or off in the users' app permission policy.
+
     - **Allow any new third-party apps published to the store by default**: This setting controls whether new third-party apps that are published to the Teams app store become automatically available in Teams. You can only set this option if you allow third-party apps.
 
 3. Under **Custom apps**, turn off or turn on **Allow interaction with custom apps**. This setting controls whether users can interact with custom apps. 
 
 4. Select **Save** for org-wide app settings to take effect.
 
-    :::image type="content" source="../media/manage-apps-organization-wide-app-settings.png" alt-text="Screenshot of org-wide app settings" lightbox="../media/manage-apps-organization-wide-app-settings.png":::
+    :::image type="content" source="../media/manage-apps-organization-wide-app-settings.png" alt-text="Screenshot of org-wide app settings" :::
 
 ## Knowledge check
 
