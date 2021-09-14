@@ -11,15 +11,15 @@ The following roles can be assigned to users to manage access to apps and comple
 
 The following table identifies the tasks that each role can complete.
 
-| <p><b>Task</b></p>                   | <p><b>Admin</b></p> | <p><b>Purchaser</b></p> | <p><b>Basic purchaser</b></p> | <p><b>Device Guard signer</b></p> |
-|: |:-:|:--:|:--:|::|
-| <p>Assign roles</p>                  |      <p>X</p>       |        <p> </p>         |           <p> </p>            |             <p> </p>              |
-| <p>Manage store settings</p>         |      <p>X</p>       |        <p> </p>         |           <p> </p>            |             <p> </p>              |
-| <p>Acquire online licensed apps</p>  |      <p>X</p>       |        <p>X</p>         |           <p>X</p>            |             <p> </p>              |
-| <p>Acquire offline licensed apps</p> |      <p>X</p>       |        <p>X</p>         |           <p> </p>            |             <p> </p>              |
-| <p>Add apps to the private store</p> |      <p>X</p>       |        <p> </p>         |           <p> </p>            |             <p> </p>              |
-| <p>Distribute apps</p>               |      <p>X</p>       |        <p>X</p>         |           <p>X</p>            |             <p> </p>              |
-| <p>Sign policies and catalogs</p>    |      <p>X</p>       |        <p> </p>         |           <p> </p>            |             <p>X</p>              |
+| **Task**                             | **Admin** | **Purchaser**  <p> </p> | **Basic purchaser** | **Device Guard signer** |
+|: |::|:--:|:-:|:--:|
+| Assign roles                         |     X     |                         |                     |                         |
+| Manage store settings                |     X     |                         |                     |                         |
+| <p>Acquire online licensed apps</p>  |     X     |            X            |          X          |                         |
+| <p>Acquire offline licensed apps</p> |     X     |            X            |                     |                         |
+| Add apps to the private store        |     X     |                         |                     |                         |
+| <p>Distribute apps</p>               |     X     |            X            |          X          |                         |
+| <p>Sign policies and catalogs</p>    |     X     |                         |                     |            X            |
 
 When you sign up for the Microsoft Store for Business, the following apps are automatically added to the organization's private store if they haven't already been added:
 
@@ -70,7 +70,7 @@ For each app in your inventory, you can view and manage license details. This me
 
 Complete the following steps to view license details:
 
-1.  Sign in to the [Microsoft Store for Business](https://businessstore.microsoft.com/store/private-store?azure-portal=true).<br>
+1.  Sign in to the [Microsoft Store for Business](https://businessstore.microsoft.com/store/private-store?azure-portal=true)<br>
 2.  Select **Manage** and then choose **Products & services**.<br>
 3.  Select an app that you want to manage.<br>
 4.  On the **app details** page, you'll see the names of people in your organization who have installed the app and are using one of the licenses. From here, you can complete any of the following actions:<br>
