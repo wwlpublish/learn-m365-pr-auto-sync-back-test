@@ -13,7 +13,7 @@ The desktop client is available for the following operating systems:
 
 As a Teams administrator, you can choose your preferred method to distribute the installation files to computers in your organization. For example, you can use Microsoft Endpoint Configuration Manager for Windows operating systems or Jamf Pro for macOS. There are several ways to deploy Teams desktop clients:
 
-- As a part of the [Microsoft 365 Apps for enterprise](/deployoffice/teams-install) installer.
+- As a part of the [Microsoft 365 Apps for enterprise](/deployoffice/teams-install?azure-portal=true) installer.
 - MSI files (both 32-bit and 64-bit) for IT bulk deployment. Such as through Microsoft Endpoint Configuration Manager, Group Policy, or any third-party distribution mechanism for broad deployment.
 - A standalone (.exe) installer for user installation.
 
@@ -37,7 +37,7 @@ The Windows client requires .NET Framework 4.5 or later. The Teams installer wil
 
 ### Mac Operating Systems
 
-Mac users can install Teams by using a PKG installation file for macOS computers. Administrative access is required to install the Mac client. The macOS client is installed to the /Applications folder. To install Teams by using the PKG file, do the following steps:
+Mac users can install Teams by using a PKG installation file for macOS computers. Administrative access is required to install the Mac client. The macOS client is installed to the /Applications folder. To install Teams by using the PKG file, use the following steps:
 
 1. From the Teams download page, under **Mac**, select **Download**.
 2. Double select the PKG file.
@@ -56,7 +56,7 @@ The signing key to enable auto-updating using the system's package manager is in
 
 Microsoft Teams ships monthly. If the repository was installed correctly, the system package manager should handle auto-updating in the same way as other packages on the system. 
 
-To install Teams by using DEB or RPM package, do the following steps:
+To install Teams by using DEB or RPM package, use the following steps:
 
 1. Download the package from [Download Microsoft Teams](https://www.microsoft.com/microsoft-teams/download-app?azure-portal=true).
 2. Install using one of the options below:
@@ -74,7 +74,7 @@ To install Teams by using DEB or RPM package, do the following steps:
 
 Virtual Desktop Infrastructure (VDI) is virtualization technology that hosts a desktop operating system and applications on a centralized server in a data center. By using VDI, the users can enjoy a fully personalized desktop experience with a fully secured and compliant centralized source.
 
-You can deploy the Teams desktop app for VDI using a **per-machine** installation or **per-user** installation using the MSI package. Deciding on which approach to use depends on whether you use a persistent or non-persistent setup and the associated functionality needs of your organization. To deploy the Teams desktop app to the VM, perform the following steps:
+You can deploy the Teams desktop app for VDI using a **per-machine** installation or **per-user** installation using the MSI package. Deciding which approach to use depends on whether you use a persistent or non-persistent setup and the associated functionality needs of your organization. To deploy the Teams desktop app to the VM, perform the following steps:
 
 
 1. Download the Teams MSI package that matches your VDI VM operating system using one of the following links:
@@ -114,9 +114,9 @@ msiexec /passive /x <path_to_msi> /l*v <uninstall_logfile_name>
 
 The Microsoft Teams mobile apps are available for Android and iOS, and are geared for on-the-go users participating in chat-based conversations and allow peer-to-peer audio calls. For mobile apps, go to the relevant mobile stores Google Play and the Apple App Store.
 
-- **Android**. Support is limited to the last four major versions of Android. When a new major version of Android is released, the new version and the previous three versions are officially supported.
+- **Android** - Support is limited to the last four major versions of Android. When a new major version of Android is released, the new version and the previous three versions are officially supported.
 
-- **iOS**. Support is limited to the two most recent major versions of iOS. When a new major version of iOS is released, the new version of iOS and the previous version are officially supported.
+- **iOS** - Support is limited to the two most recent major versions of iOS. When a new major version of iOS is released, the new version of iOS and the previous version are officially supported.
  
 Mobile apps are distributed and updated through the respective mobile platform’s app store only. Distribution of the mobile apps via MDM or side-loading is not supported by Microsoft. Once the mobile app has been installed on a supported mobile platform, the Teams Mobile App itself will be supported provided the version is within three months of the current release.
  
@@ -133,7 +133,7 @@ The Teams web client is available for various different browsers, including Edge
 
 Most Teams clients are updated automatically by the Microsoft Teams service. No IT administrator intervention is required. If an update is available, the client will automatically download the update. When the app has idled for some time, the update process will begin.
 
-Users can also manually download updates by selecting **Check for updates** on the **Profile** drop-down menu on the top right of the app. If an update is available, it will be downloaded and silently installed when the computer is idle.
+Users can also manually download updates by selecting **Check for updates** on the **Profile** drop-down menu on the upper right of the app. If an update is available, it will be downloaded and silently installed when the computer is idle.
 
 Teams clients on Virtual Desktop Infrastructure (VDI) aren't automatically updated the way that non-VDI Teams clients are.
 
