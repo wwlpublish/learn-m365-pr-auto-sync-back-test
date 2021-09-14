@@ -74,7 +74,7 @@ When a table is long enough that a user must scroll to see some rows, the header
         npm run start:web
         ```
 
-        To use your add-in, open a new document in Excel on the web and then sideload your add-in by following the instructions in [Sideload Office Add-ins in Office on the web](https://docs.microsoft.com/office/dev/add-ins/testing/sideload-office-add-ins-for-testing#sideload-an-office-add-in-in-office-on-the-web).
+        To use your add-in, open a new document in Excel on the web and then sideload your add-in by following the instructions in [Sideload Office Add-ins in Office on the web](/office/dev/add-ins/testing/sideload-office-add-ins-for-testing#sideload-an-office-add-in-in-office-on-the-web).
 
 1. If the add-in task pane isn't already open, on the **Home** tab, select **Show Task pane**.
 1. If the table you added previously in this tutorial is present in the worksheet, delete it.
@@ -328,7 +328,7 @@ These steps must be completed whenever your code needs to *read* information fro
         npm run start:web
         ```
 
-        To use your add-in, open a new document in Excel on the web and then sideload your add-in by following the instructions in [Sideload Office Add-ins in Office on the web](https://docs.microsoft.com/office/dev/add-ins/testing/sideload-office-add-ins-for-testing#sideload-an-office-add-in-in-office-on-the-web).
+        To use your add-in, open a new document in Excel on the web and then sideload your add-in by following the instructions in [Sideload Office Add-ins in Office on the web](/office/dev/add-ins/testing/sideload-office-add-ins-for-testing#sideload-an-office-add-in-in-office-on-the-web).
 
 1. On the **Home** tab in Excel, select the **Toggle Worksheet Protection** button. Most of the controls on the ribbon are disabled (and visually grayed-out) as seen in the following screenshot.
 

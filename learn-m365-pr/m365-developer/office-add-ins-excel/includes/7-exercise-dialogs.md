@@ -254,7 +254,7 @@ Open the file **webpack.config.js** in the root directory of the project and com
         npm run start:web
         ```
 
-        To use your add-in, open a new document in Excel on the web and then sideload your add-in by following the instructions in [Sideload Office Add-ins in Office on the web](https://docs.microsoft.com/office/dev/add-ins/testing/sideload-office-add-ins-for-testing#sideload-an-office-add-in-in-office-on-the-web).
+        To use your add-in, open a new document in Excel on the web and then sideload your add-in by following the instructions in [Sideload Office Add-ins in Office on the web](/office/dev/add-ins/testing/sideload-office-add-ins-for-testing#sideload-an-office-add-in-in-office-on-the-web).
 
 1. To open the add-in task pane, on the **Home** tab, select **Show Task pane**.
 1. Choose **Open Dialog**.
