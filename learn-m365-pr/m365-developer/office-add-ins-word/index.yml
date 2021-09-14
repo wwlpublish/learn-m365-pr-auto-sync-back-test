@@ -4,7 +4,7 @@ metadata:
   title: Build Office Add-ins for Word
   description: This module walks through development of Office Add-ins for Microsoft Word.
   ms.date: 06/17/2021
-  author: andrewconnell
+  author: andrewconnell-msft
   ms.author: suzanz
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
