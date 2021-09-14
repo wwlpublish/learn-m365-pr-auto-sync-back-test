@@ -1,15 +1,15 @@
 Microsoft Teams Rooms scale to different room sizes. Teams Rooms use a wide variety of certified audio and video peripherals based on the size and use of the room. By selecting the right core device and console, combined with microphones, speakers, cameras, and displays appropriate for the space, an organization can deploy Microsoft Teams Rooms into spaces of any size - from small huddle spaces up through large conference spaces and boardrooms. 
 
-You can review the details on the [Microsoft Teams devices](https://www.microsoft.com/microsoft-teams/across-devices?azure-portal=true) page. 
+You can review the details on the [Microsoft Teams devices](https://www.microsoft.com/microsoft-teams/across-devices?azure-portal=true) page.
 
-:::image type="content" source="../media/teams-devices-consistent.png" alt-text="Begin with understanding what you have and envisioning what would work best for you, then move through selecting and procuring the equipment you need, readying your sites, configuring and deploying your service, managing change and user adoption, and developing operations and maintenance procedures.":::
+:::image type="content" source="../media/teams-devices-consistent.png" alt-text="Screenshot of consistent Teams devices":::
 
 ## Analyze spaces for Teams Rooms
 
 The Teams administrator must collaborate with the IT Project team and the AV team to analyze spaces for Teams Rooms. This collaboration should determine:
 
-- which Microsoft Teams Rooms solution is the most suitable for each room based on the future plans for the room. 
-- which AV peripheral devices are the best fit, depending on room size and layout.  
+- Which Microsoft Teams Rooms solution is the most suitable for each room based on the future plans for the room.
+- Which AV peripheral devices are the best fit, depending on room size and layout.  
 
 Questions that should be asked when designing meeting spaces for Teams Rooms include:
 
@@ -20,7 +20,6 @@ Questions that should be asked when designing meeting spaces for Teams Rooms inc
 * How large is the room?
 * What kind of field of view should the camera have?
 * How are you going to run cables to the table microphones, cameras, and displays?
-
 
 ## Document your meeting spaces
 

@@ -9,7 +9,3 @@ This module also examined the Microsoft 365 security features known as Safe Atta
 You also learned about Microsoft Cloud App Security. It's a layer between cloud applications and cloud application users. Microsoft Cloud App Security is designed for security professionals who need to monitor activity centrally and enforce security policies.
 
 The module concluded by examining the reports provided by the Microsoft 365 Defender portal. The Microsoft 365 Defender portal provides reports that allow you to monitor potential security threats in your organization. Even though threat security reports may not be directly related to Microsoft Teams, they can alert you to suspicious activity that's threatening the security of your organization.
-
-
-
- 

@@ -23,9 +23,9 @@ Microsoft 365 Groups is the foundational membership service that drives all team
 ## Microsoft 365 Groups privacy
 When creating a Microsoft 365 group, you must decide if you want it to be a private or public group. The group privacy also applies to the privacy of the associated team. 
 
-- **Public group**. Any user in your organization can join public groups without the need of an administrator or owner to add or approve them. Therefore, content in a public group can be seen by anybody in your organization as soon they join the group. 
+- **Public group** - Any user in your organization can join public groups without the need of an administrator or owner to add or approve them. Therefore, content in a public group can be seen by anybody in your organization as soon they join the group. 
 
-- **Private group**. Content in a private group can only be seen by the members of the group. People who want to join a private group must be approved by a group owner. 
+- **Private group** - Content in a private group can only be seen by the members of the group. People who want to join a private group must be approved by a group owner. 
 
 ## Group membership and roles
 
@@ -50,8 +50,8 @@ The following table identifies the differences between Microsoft 365 Groups and 
 |------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------|
 | Microsoft 365 Groups            | Used for collaboration between users, both inside and outside your company                                                                                                | a collaborative workspace for a group of users is required, such as a department or users working on a common project. |
 | Distribution groups          | Used for sending notifications to a group of people                                                                                                                       | sending email communication to a defined group of users, such as "People in Building A" or "Everyone at Contoso."      |
-| Security groups              |Used for granting access to resources and for managing devices.                                                                                     | Used for granting access to resources such as SharePoint sites. |
-| Mail-enabled security groups | Same as security groups but includes email distribution to members.<br/><br/>Mail-enabled security group membership cannot be dynamic and cannot contain devices. |  Used for granting access to resources such as SharePoint, and emailing notifications to those users.                          |
+| Security groups              | Used for granting access to resources and for managing devices.                                                                                     | granting access to resources such as SharePoint sites. |
+| Mail-enabled security groups | Same as security groups but includes email distribution to members.<br/><br/>Mail-enabled security group membership cannot be dynamic and cannot contain devices. | granting access to resources such as SharePoint, and emailing notifications to those users.                          |
 
 
 

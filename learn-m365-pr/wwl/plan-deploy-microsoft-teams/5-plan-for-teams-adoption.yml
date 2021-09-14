@@ -4,12 +4,14 @@ title: Plan for Teams adoption
 metadata:
   title: Plan for Teams adoption
   description: "Plan for Teams adoption"
-  ms.date: 08/24/2021
+  ms.date: 09/14/2021
   author: wwlpublish
   ms.author: jennyche
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
+sandbox: false
+labModal: false
 durationInMinutes: 5
 content: |
   [!include[](includes/5-plan-for-teams-adoption.md)]

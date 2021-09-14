@@ -4,7 +4,7 @@ metadata:
   title: Build Office add-ins for Excel
   description: This module walks through development of Office add-ins for Microsoft Excel.
   ms.date: 11/25/2020
-  author: andrewconnell
+  author: andrewconnell-msft
   ms.author: suzanz
   ms.topic: interactive-tutorial
   ms.prod: learning-m365

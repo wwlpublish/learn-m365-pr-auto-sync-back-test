@@ -5,12 +5,12 @@ With guest access, you can provide access to teams, documents in channels, resou
 
 A guest is someone who isn't an employee, student, or member of your organization. They don't have a school or work account with your organization. For example, guests may include partners, vendors, suppliers, or consultants. Anyone who isn't part of your organization can be added as guest in Teams. This means that anyone with a business account (that is, an Azure Active Directory account) or consumer email account (with Outlook.com, Gmail.com or others) can participate as a guest in Teams, with access to teams and channel experiences.
 
-Guests in Teams are covered by the same compliance and auditing protection as the rest of Microsoft 365. Guest access is subject to Azure AD and Microsoft 365 service limits. As a Teams administrator, you have full control over which features and services a guest can or can't have access to. 
+Guests in Teams are covered by the same compliance and auditing protection as the rest of Microsoft 365. Guest access is subject to Azure AD and Microsoft 365 service limits. As a Teams administrator, you have full control over which features and services a guest can or can't have access to.
 
 > [!IMPORTANT]
-> Even if you activate Guest access in Teams, you must also ensure that Guest access is enabled in Azure AD. 
+> Even if you activate Guest access in Teams, you must also ensure that Guest access is enabled in Azure AD.
 
-## Guest access settings 
+## Guest access settings
 
 ### Guest calling
 
@@ -39,8 +39,7 @@ Guests in Teams are covered by the same compliance and auditing protection as th
 |User stickers in conversations|On|When **On**, guests can use stickers in conversations; when **Off**, they can't.|
 |Allow immersive reader for viewing messages|On|When **On**, guests can view messages in Immersive Reader; when **Off**, they can't.|
 
-:::image type="content" source="../media/teams-guest-access-setting.png" alt-text="Guest permissions settings in Teams" lightbox="../media/teams-guest-access-setting.png":::
-
+:::image type="content" source="../media/teams-guest-access-setting.png" alt-text="Guest permissions settings in Teams" :::
 
 ## Configure guest access 
 
@@ -55,7 +54,6 @@ Guests in Teams are covered by the same compliance and auditing protection as th
 4. Under **Calling**, **Meeting**, and **Messaging**, select **On** or **Off** for each capability, depending on what you want to allow for guest users.
 
 5. Select **Save**.
-
 
 ### Use PowerShell
 
@@ -72,7 +70,6 @@ Set-CsTeamsGuestCallingConfiguration
 Set-CsTeamsGuestMeetingConfiguration
 Set-CsTeamsGuestMessagingConfiguration
 ```
-
 
 ## Knowledge check
 

@@ -1,4 +1,4 @@
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4OIAD]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4OIAB]
 
 In this exercise, you'll use the Azure AD application and .NET console application you previously created and modify them to demonstrate two strategies to account for throttling in your application.
 
@@ -20,29 +20,28 @@ It's easier to work with strongly typed objects instead of untyped JSON response
 Create a new file, **Messages.cs** in the root of the project, and add the following code to it:
 
 ```csharp
-using Newtonsoft.Json;
-using System;
+using System.Text.Json.Serialization;
 
 namespace graphconsoleapp
 {
   public class Messages {
-    [JsonProperty(PropertyName = "@odata.context")]
+    [JsonPropertyName("@odata.context")]
     public string ODataContext {get; set;}
-    [JsonProperty(PropertyName = "@odata.nextLink")]
+    [JsonPropertyName("@odata.nextLink")]
     public string ODataNextLink {get; set;}
 
-    [JsonProperty(PropertyName = "value")]
+    [JsonPropertyName("value")]
     public Message[] Items {get; set;}
   }
 
   public class Message {
-    [JsonProperty(PropertyName = "@odata.etag")]
+    [JsonPropertyName("@odata.etag")]
     public string ETag {get; set;}
 
-    [JsonProperty(PropertyName = "id")]
+    [JsonPropertyName("id")]
     public string Id {get; set;}
 
-    [JsonProperty(PropertyName = "subject")]
+    [JsonPropertyName("subject")]
     public string Subject {get; set;}
   }
 }
@@ -85,7 +84,7 @@ If there's a successful response, return the deserialized response back to the c
 Add the following lines to the top of the **Program.cs** file to update the `using` statements:
 
 ```csharp
-using Newtonsoft.Json;
+using System.Text.Json;
 ```
 
 Add the following code before the `// add code here` comment:
@@ -96,7 +95,7 @@ Console.WriteLine("...Response status code: {0}  ", clientResponse.StatusCode);
 // IF request successful (not throttled), set message to retrieved message
 if (clientResponse.StatusCode == HttpStatusCode.OK)
 {
-  messageDetail = JsonConvert.DeserializeObject<Message>(httpResponseTask.Result);
+  messageDetail = JsonSerializer.Deserialize<Message>(httpResponseTask.Result);
 }
 ```
 
@@ -154,7 +153,7 @@ private static Message GetMessageDetail(HttpClient client, string messageId, int
   // IF request successful (not throttled), set message to retrieved message
   if (clientResponse.StatusCode == HttpStatusCode.OK)
   {
-    messageDetail = JsonConvert.DeserializeObject<Message>(httpResponseTask.Result);
+    messageDetail = JsonSerializer.Deserialize<Message>(httpResponseTask.Result);
   }
   // ELSE IF request was throttled (429, aka: TooManyRequests)...
   else if (clientResponse.StatusCode == HttpStatusCode.TooManyRequests)
@@ -201,7 +200,7 @@ var clientResponse = client.GetAsync("https://graph.microsoft.com/v1.0/me/messag
 // enumerate through the list of messages
 var httpResponseTask = clientResponse.Content.ReadAsStringAsync();
 httpResponseTask.Wait();
-var graphMessages = JsonConvert.DeserializeObject<Messages>(httpResponseTask.Result);
+var graphMessages = JsonSerializer.Deserialize<Messages>(httpResponseTask.Result);
 ```
 
 Add the following code to create individual requests for each message. These tasks are created as asynchronous tasks that will be executed in parallel:
@@ -272,7 +271,7 @@ The important point is that the application completed successfully, retrieving a
 
 ## Implement Microsoft Graph SDK for throttling retry strategy
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4OIAB]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4OIAD]
 
 In the last section, you modified the application to implement a strategy to determine if a request is throttled. In the case the request was throttled, as indicated by the response to the REST endpoint request, you implemented a retry strategy using the `HttpClient`.
 
