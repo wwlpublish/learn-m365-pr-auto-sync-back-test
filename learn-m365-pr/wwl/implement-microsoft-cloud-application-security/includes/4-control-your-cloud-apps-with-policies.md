@@ -8,7 +8,7 @@ Complete the following steps to control risk with policies:
 2.  On the **Policies** page, select the policy you want to maintain and fine-tune the policy to achieve expected results.
 3.  Add automated actions to respond and remediate risks automatically.
 
-**Additional reading.** For more information, see [How to control cloud apps with policies](/cloud-app-security/control-cloud-apps-with-policies).
+**Additional reading.** For more information, see [How to control cloud apps with policies](/cloud-app-security/control-cloud-apps-with-policies?azure-portal=true).
 
 The rest of this unit examines the types of policy apps that are available, and how you can identify risks within a policy.
 
