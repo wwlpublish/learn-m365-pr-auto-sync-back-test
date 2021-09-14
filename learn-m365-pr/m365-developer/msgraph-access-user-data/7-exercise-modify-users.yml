@@ -3,9 +3,9 @@ uid: learn-m365.msgraph-access-user-data.7-exercise-modify-users
 metadata:
   title: Exercise - Modifying users
   description: In this exercise, you'll modify an existing Azure AD application registration using the Azure Active Directory admin center, a .NET Core console application, and use Microsoft Graph to create, update, and delete users in your organization.
-  ms.date: 06/18/2021
-  author: andrewconnell
-  ms.author: v-johnco
+  ms.date: 09/13/2021
+  author: andrewconnell-msft
+  ms.author: suzanz
   ms.topic: interactive-tutorial
   ms.prod: learning-graph
 title: Exercise - Modifying users
