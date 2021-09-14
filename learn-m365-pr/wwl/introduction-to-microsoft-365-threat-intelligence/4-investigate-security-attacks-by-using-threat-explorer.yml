@@ -4,12 +4,14 @@ title: Investigate security attacks by using Threat Explorer
 metadata:
   title: Investigate security attacks by using Threat Explorer
   description: "Investigate security attacks by using Threat Explorer"
-  ms.date: 06/11/2021
+  ms.date: 09/14/2021
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
+sandbox: false
+labModal: false
 durationInMinutes: 2
 content: |
   [!include[](includes/4-investigate-security-attacks-by-using-threat-explorer.md)]
