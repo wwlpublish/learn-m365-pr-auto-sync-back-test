@@ -124,7 +124,7 @@ For IP video policy setting, the most restrictive policy setting for video takes
 
 **Recording and transcription** policy settings enable an organization to control whether meetings can be recorded or transcribed, the bandwidth they consume, and so on.
 
-:::image type="content" source="../media/meeting-policy-record.png" alt-text="Audio and video settings in meeting policy":::
+:::image type="content" source="../media/meeting-policy-record.png" alt-text="Recording and transcription settings in meeting policy":::
 
 
 | Policy setting        | Type                       | When it applies  | What it does                                                                                                                                                                                                                                                      |
