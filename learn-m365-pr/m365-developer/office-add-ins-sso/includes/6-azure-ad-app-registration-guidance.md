@@ -88,7 +88,7 @@ This can include the scenario when your user hasn't consented to Microsoft Graph
 
 Repeating the previous section, remember what you learned in a previous lesson. When Office requests the initial bootstrap token, it can include the `{ forGraphAccess: true }` authorization option when calling `getAccessToken()` in the Office.js SDK.
 
-When Azure AD receives this, it does an another check to see if the user has already consented to the requested Microsoft Graph permissions. If they haven't, Azure AD responds with a specific error code that your add-in can handle in the fallback authorization system to prompt the user to consent to the Microsoft Graph permissions.
+When Azure AD receives this, it does another check to see if the user has already consented to the requested Microsoft Graph permissions. If they haven't, Azure AD responds with a specific error code that your add-in can handle in the fallback authorization system to prompt the user to consent to the Microsoft Graph permissions.
 
 ### Preauthorize all Office clients with your add-in
 
