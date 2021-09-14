@@ -11,7 +11,7 @@ The following roles can be assigned to users to manage access to apps and comple
 
 The following table identifies the tasks that each role can complete.
 
-| **Task**                             | **Admin** | **Purchaser**  <p> </p> | **Basic purchaser** | **Device Guard signer** |
+| **Task**                             | **Admin** | **Purchaser**           | **Basic purchaser** | **Device Guard signer** |
 |: |::|:--:|:-:|:--:|
 | Assign roles                         |     X     |                         |                     |                         |
 | Manage store settings                |     X     |                         |                     |                         |
@@ -102,7 +102,7 @@ The Microsoft Store for Business updates the list of assigned licenses.
 
 Select the following link to complete an interactive demonstration titled: [Set up the organization profile](https://edxinteractivepage.blob.core.windows.net/edxpages/MS-100/M2-L1-E1-T2/index.html?azure-portal=true).
 
-This simulation guides you through the steps to configure and manage apps in the Microsoft Store for Business for the fictitious company known as Adatum Corporation. You'll begin by selecting three apps that Adatum wants distibuted throughout the organization. You'll then create a new collection in Adatum's private store.
+This simulation guides you through the steps to configure and manage apps in the Microsoft Store for Business for the fictitious company known as Adatum Corporation. You'll begin by selecting three apps that Adatum wants distributed throughout the organization. You'll then create a new collection in Adatum's private store.
 
 ## Knowledge check
 
