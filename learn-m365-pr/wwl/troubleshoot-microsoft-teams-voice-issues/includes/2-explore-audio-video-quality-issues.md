@@ -22,7 +22,6 @@ By using the signaling connection, which all devices can establish, the STUN and
 
 - Use Local Internet Breakouts to ensure internet access is as close to the user as possible.
 - Open UDP Ports 3478 – 3481 to allow communication with the Transport Relays.
-- In the Teams admin portal, in Meeting settings, select Quality of Service. This will open the ports between the client and its allocated Transport Relay.
 - Have Teams’ traffic bypass HTTP Proxy Servers.
 - Avoid Teams traffic across a VPN. Consider implementing VPN split tunneling - see the Learn more section for more information.
 - In the meetings policy, set the maximum bandwidth for users. This is an average limit, not a peak limit, and stops high usage clients using too much bandwidth and reducing quality for others.  

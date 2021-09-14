@@ -5,7 +5,7 @@ metadata:
   description: Multifactor authentication helps secure your environment and resources by requiring that your users confirm their identity by using multiple authentication methods, like a phone call, text message, mobile app notification, or one-time password. You can use multifactor authentication both on-premises and in the cloud to add security for accessing Microsoft online services, remote access applications, and more. <br><br>This learning path provides an overview of how to use multifactor authentication as part of a cybersecurity solution.<br><br>The deadline for agencies to adopt multifactor authentication and encryption at rest and in transit to the maximum extent (and report on progress every 60 days), per Section 3 of the Executive Order on Improving the Nation's Cybersecurity, is **November 8, 2021**.
   ms.date: 06/20/2021
   author: lizap
-  ms.author: elizapo
+  ms.author: beccarobins
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Learn how Microsoft supports using multifactor authentication as part of a cybersecurity solution

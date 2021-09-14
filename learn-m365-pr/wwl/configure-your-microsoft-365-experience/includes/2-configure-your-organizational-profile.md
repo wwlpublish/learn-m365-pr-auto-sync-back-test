@@ -21,6 +21,12 @@ The **Organization information** group also contains the country or region for y
 > [!IMPORTANT]
 > To change your organization's country or region, you must sign up for a new account, choose the required country or region, and purchase a new subscription.
 
+## **Exercise – Interactive demonstration**
+
+Select the following link to complete an interactive demonstration titled: [Set up the organization profile](https://edxinteractivepage.blob.core.windows.net/edxpages/MS-100/M2-L1-E1-T2/index.html?azure-portal=true).
+
+This simulation guides you through the steps to set up an organization profile for the fictitious company known as Adatum Corporation.
+
 ## Knowledge check
 
 Choose the best response for the following question. Then select “Check your answers.”

@@ -37,15 +37,15 @@ The following table identifies the features of each building block.
     
   :::column-end:::
   :::column:::
-    **Team site**
+    Team site
 
   :::column-end:::
   :::column:::
-    **Communication site**
+    Communication site
 
   :::column-end:::
   :::column:::
-    **Hub site**
+    Hub site
 
   :::column-end:::
 :::row-end:::
@@ -252,3 +252,9 @@ Consider the following items when creating hub sites:<br>
  -  The hub site navigation that is shown on all associated sites is based on the top navigation bar of the hub site. An organization should use the REST API, CSOM API, or PnP PowerShell to make programmatic changes to hub site navigation.
  -  Sites associated with a SharePoint hub site don't inherit the permissions of the hub site or any other sites associated with it. Each site, including the hub site, keep their current permission settings.
  -  PowerShell cmdlets or the SharePoint REST API can be used to automate tasks such as creating, removing, or controlling permissions for hub sites.
+
+## **Exercise – Interactive demonstration**
+
+Select the following link to complete an interactive demonstration titled: [Site management](https://edxinteractivepage.blob.core.windows.net/edxpages/MS-100/M4-L3-E2-T1/index.html?azure-portal=true).
+
+This simulation guides you through the steps to manage sites using SharePoint Online for the fictitious Adatum Corporation.

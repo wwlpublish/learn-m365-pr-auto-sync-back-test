@@ -1,4 +1,4 @@
-Microsoft Teams provides a rich set of tools for implementing collaboration inside your company's environment. As an Enterprise Administrator, it's important to know how to manage these tools. Managing the toolset with Microsoft Teams involves building and executing a project to maximize the longevity of each tool being used in the work environment. The life cycle of most projects consist of a beginning, middle, and end. The life cycle of a team is no different. Having a plan for the life cycle management of your teams will help you track your organization's teams as they go through these stages.
+Microsoft Teams provides a rich set of tools for implementing collaboration inside your company's environment. As an Enterprise Administrator, it's important to know how to manage these tools. Managing the toolset with Microsoft Teams involves building and executing a project to maximize the longevity of each tool being used in the work environment. The life cycle of most projects consists of a beginning, middle, and end. The life cycle of a team is no different. Having a plan for the life-cycle management of your teams will help you track your organization's teams as they go through these stages.
 
 ### The life cycle of a team
 
@@ -17,7 +17,7 @@ The following guidelines can assist users in creating successful, meaningful tea
  -  **Define the team’s origins**. Teams can originate from various methods. For example, you can create a team from scratch, or you can involve an existing group or SharePoint site. You may also use an API to programmatically create a team based on Global address book attributes such as country/region or department.
  -  **Set up channels**. Any team owner or member with the right permissions can create channels in a team. It's important to consider the goal of each channel. Goals can include collaboration around projects, discussions of topics, or areas of common interest.
 
-**Additional reading:** For more information on organizing your teams, see [Best practices for organizing teams in Teams.](/microsoftteams/best-practices-organizing)
+**Additional reading:** For more information on organizing your teams, see [Best practices for organizing teams in Teams.](/microsoftteams/best-practices-organizing?azure-portal=true)
 
 #### Stage 2 - Middle
 

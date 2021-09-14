@@ -2,11 +2,11 @@ The process of running a Power App varies depending on the app type. This unit e
 
 ### Running canvas apps
 
-App creators and users who have the app shared with them can run a canvas app on Windows, iOS, and Android devices, or in a web browser, provided the app is running on a [supported device platform and browser](/powerapps/maker/canvas-apps/limits-and-config).
+App creators and users who have the app shared with them can run a canvas app on Windows, iOS, and Android devices, or in a web browser, provided the app is running on a [supported device platform and browser](/powerapps/maker/canvas-apps/limits-and-config?azure-portal=true).
 
 To run a canvas app on a mobile device:
 
-1.  Download and install Power Apps from the [App Store](https://itunes.apple.com/app/powerapps/id1047318566?mt=8?azure-portal=true) or Google Play onto an iPhone, iPad, or Android device running a [supported operating system](/powerapps/maker/canvas-apps/limits-and-config).
+1.  Download and install Power Apps from the [App Store](https://itunes.apple.com/app/powerapps/id1047318566?mt=8?azure-portal=true) or Google Play onto an iPhone, iPad, or Android device running a [supported operating system](/powerapps/maker/canvas-apps/limits-and-config?azure-portal=true).
 2.  Once the user is signed-in, PowerApps makes it easy to find an app:
     
      -  Select the down arrow key to use any of the available filters.
@@ -28,4 +28,4 @@ The process of building an app for a Test Drive solution is similar to building 
 
 Model-driven apps run on a mobile device using the Dynamics 365 mobile app (the Power Apps mobile app cannot be used to run a model driven app). If a user doesn't have the Dynamics 365 app for phones and tablets installed, the app can be run on a web browser on a tablet, as long as the device has a sufficiently high screen resolution. For full functionality and optimized experience, it's recommended that you use the Dynamics 365 for phones and tablets mobile app.
 
-**Additional reading.** For more information regarding the functionality that is supported on model-driven apps, see [What's supported](/dynamics365/mobile-app/support-phones-tablets).
+**Additional reading.** For more information regarding the functionality that is supported on model-driven apps, see [What's supported](/dynamics365/mobile-app/support-phones-tablets?azure-portal=true).

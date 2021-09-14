@@ -4,7 +4,7 @@ metadata:
   moduleType: standard
   title: Plan for Microsoft Defender for Identity 
   description: Get an overview of the concepts and tools that will help you implement Microsoft Defender for Identity in your organization including components, such as the sensors, the portal, capacity planning, the setup process, and more.
-  ms.date: 04/26/2021
+  ms.date: 08/17/2021
   author: GeoffAllix
   ms.author: beccarobins
   ms.topic: interactive-tutorial
