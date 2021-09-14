@@ -1,4 +1,4 @@
-Implement lifecycle management and governance for Microsoft Teams is essential for consistent and effective communication and collaboration. There is a rich set of tools to implement governance capabilities, including teams creation, naming convention, expiration management, and other areas. 
+Implement lifecycle management and governance for Microsoft Teams is essential for consistent and effective communication and collaboration. Microsoft 365 Groups and Microsoft Teams work with multiple connected services.  Microsoft 365 Groups has a rich set of tools to implement the governance capabilities organizations require, including teams creation, naming convention, expiration management, and other areas. 
 
 In this module, you will learn the features for Teams lifecycle management and governance, such as different features to govern Microsoft 365 Groups, ways to assign Teams policies, and Teams preview features controls. 
 
