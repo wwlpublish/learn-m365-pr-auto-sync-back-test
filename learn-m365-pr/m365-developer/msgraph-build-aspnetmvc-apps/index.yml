@@ -3,8 +3,8 @@ uid: learn-m365.msgraph-build-aspnetmvc-apps
 metadata:
   title: Build ASP.NET MVC web applications with the Microsoft Graph .NET SDK
   description: Learn how to use the Microsoft Graph .NET SDK in an ASP.NET MVC web application.
-  ms.date: 09/10/2020
-  author: andrewconnell
+  ms.date: 09/13/2021
+  author: andrewconnell-msft
   ms.author: suzanz
   ms.topic: interactive-tutorial
   ms.prod: learning-graph

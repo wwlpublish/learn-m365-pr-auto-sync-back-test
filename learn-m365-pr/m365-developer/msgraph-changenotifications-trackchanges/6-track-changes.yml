@@ -3,9 +3,9 @@ uid: learn-m365.msgraph-changenotifications-trackchanges.6-track-changes
 metadata:
   title: Microsoft Graph track changes (delta query)
   description: In this unit, you'll learn how you can track changes to entities in a collection over time without writing code to detect which items have changed. This capability is provided as part of the *delta query* feature in Microsoft Graph.
-  ms.date: 06/18/2021
-  author: andrewconnell
-  ms.author: v-johnco
+  ms.date: 09/13/2021
+  author: andrewconnell-msft
+  ms.author: suzanz
   ms.topic: interactive-tutorial
   ms.prod: learning-graph
 title: Microsoft Graph track changes (delta query)

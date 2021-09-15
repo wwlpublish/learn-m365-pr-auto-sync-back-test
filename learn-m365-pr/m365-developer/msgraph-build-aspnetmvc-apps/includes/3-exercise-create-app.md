@@ -52,8 +52,8 @@ Update-Package bootstrap -Version 4.6.0
 Install-Package Microsoft.Owin.Host.SystemWeb
 Install-Package Microsoft.Owin.Security.OpenIdConnect
 Install-Package Microsoft.Owin.Security.Cookies
-Install-Package Microsoft.Identity.Client -Version 4.31.0
-Install-Package Microsoft.Graph -Version 3.32.0
+Install-Package Microsoft.Identity.Client -Version 4.35.1
+Install-Package Microsoft.Graph -Version 4.3.0
 ```
 
 ## Design the app
@@ -292,9 +292,9 @@ Select **Register**. On the **ASP.NET Graph Tutorial** page, copy the value of t
 
 Select **Authentication** under **Manage**. Locate the **Implicit grant and hybrid flows** section and enable **ID tokens (used for implicit and hybrid flows)**.
 
-Select **Save** in the top menu to save your changes.
-
 ![A screenshot of the Implicit grant section](../media/azure-ad-portal-implicit-grant.png)
+
+Select **Save** in the top menu to save your changes.
 
 Select **Certificates & secrets** under **Manage**. Select the **New client secret** button. Enter a value in **Description** and select one of the options for **Expires** and select **Add**.
 

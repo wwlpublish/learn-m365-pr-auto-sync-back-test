@@ -4,8 +4,8 @@ metadata:
   title: Exercise - Add task panes to Outlook add-ins
   description: Task panes are useful in Outlook add-ins when you want to present the user with multiple choices or implement a user interface. In this exercise, you'll add a task pane experience to your existing Outlook add-in.
   ms.date: 11/25/2020
-  author: andrewconnell
-  ms.author: v-johnco
+  author: andrewconnell-msft
+  ms.author: suzanz
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Exercise - Add task panes to Outlook add-ins
@@ -17,13 +17,13 @@ quiz:
   questions:
   - content: "Which of the following is the correct way to display a task pane from an Outlook add-in?"
     choices:
-    - content: "In the add-in's manifest file, register a control in the ribbon with an `<Action xsi:type:\"ShowTaskpane\" />` element. The `<Action />` element must contain a `<SourceLocation>{URL_ID}<SourceLocation/> element that specifies the URL of the page to load in the task pane."
+    - content: "In the add-in's manifest file, register a control in the ribbon with an `Action xsi:type:\"ShowTaskpane\"` element. The `Action` element must contain a `SourceLocation`{URL_ID}`SourceLocation` element that specifies the URL of the page to load in the task pane."
       isCorrect: false
-      explanation: "The `<SourceLocation>` element references the ID of the URL resource defined in the manifest. It doesn't contain the actual URL of the page to load."
-    - content: "In the add-in's manifest file, register a control in the ribbon with an `<Action xsi:type:\"ShowTaskpane\" />` element. The `<Action />` element must contain a `<TaskpaneUrl>{URL}</TaskpaneUrl> element that specifies the URL of the page to load in the task pane."
+      explanation: "The `SourceLocation` element references the ID of the URL resource defined in the manifest. It doesn't contain the actual URL of the page to load."
+    - content: "In the add-in's manifest file, register a control in the ribbon with an `Action xsi:type:\"ShowTaskpane\"` element. The `Action` element must contain a `TaskpaneUrl`{URL}`TaskpaneUrl` element that specifies the URL of the page to load in the task pane."
       isCorrect: false
-      explanation: "The `<TaskpaneUrl>` element isn't a valid option."
-    - content: "In the add-in's manifest file, register a control in the ribbon with an `<Action xsi:type:\"ShowTaskpane\" />` element. The `<Action />` element must contain a `<SourceLocation resid=\"{URL_ID}\" /> element that specifies the unique ID of the URL resource defined in the manifest file's `<Resources />` section."
+      explanation: "The `TaskpaneUrl` element isn't a valid option."
+    - content: "In the add-in's manifest file, register a control in the ribbon with an `Action xsi:type:\"ShowTaskpane\"` element. The `Action` element must contain a `SourceLocation resid=\"{URL_ID}\"` element that specifies the unique ID of the URL resource defined in the manifest file's `Resources` section."
       isCorrect: true
       explanation: "Correct!"
   - content: "Which of the following API options will write an HTML string to the body of the current email message?"
