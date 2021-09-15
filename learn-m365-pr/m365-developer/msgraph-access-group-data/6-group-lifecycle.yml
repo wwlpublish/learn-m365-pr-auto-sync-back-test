@@ -3,9 +3,9 @@ uid: learn-m365.msgraph-access-group-data.6-group-lifecycle
 metadata:
   title: Manage group lifecycle
   description: In this unit, you’ll learn how to manage the lifecycle of groups including how to provision a Microsoft Teams team from an existing group.
-  ms.date: 06/18/2021
-  author: andrewconnell
-  ms.author: v-johnco
+  ms.date: 09/13/2021
+  author: andrewconnell-msft
+  ms.author: suzanz
   ms.topic: interactive-tutorial
   ms.prod: learning-graph
 title: Manage group lifecycle

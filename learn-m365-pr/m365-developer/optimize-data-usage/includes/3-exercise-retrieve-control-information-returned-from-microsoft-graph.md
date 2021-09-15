@@ -53,10 +53,11 @@ Select **New client secret**.
 
 In the **Add a client secret** panel that appears, enter a value in **Description**, select one of the options for **Expires** and select **Add**.
 
-  > [!IMPORTANT]
-  > This client secret is never shown again, so make sure you copy it now.
-
 ![Screenshot of the newly added client secret](../media/azure-ad-portal-new-app-secret-02.png)
+
+The **Certificate & secrets** page will display the new secret. It's important you copy this value as it's only shown this one time; if you leave the page and come back, it will only show as a masked value.
+
+![Screenshot showing the new secret](../media/azure-ad-portal-new-app-secret-03.png)
 
 ### Grant Azure AD application permissions to Microsoft Graph
 

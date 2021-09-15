@@ -4,8 +4,8 @@ metadata:
   title: Exercise - Work with worksheets and add-in commands
   description: In this exercise, you'll learn how to freeze the header row of the table that you previously created, so that it remains visible even as the user scrolls down the worksheet. You'll also learn how to toggle worksheet protection on and off.
   ms.date: 03/05/2021
-  author: andrewconnell
-  ms.author: v-johnco
+  author: andrewconnell-msft
+  ms.author: suzanz
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Exercise - Work with worksheets and add-in commands

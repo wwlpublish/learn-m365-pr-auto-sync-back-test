@@ -3,9 +3,9 @@ uid: learn-m365.msgraph-access-file-data.2-access-files-onedrive
 metadata:
   title: Access and download files from OneDrive
   description: In this unit, you’ll learn how to get lists and individual files from OneDrive with Microsoft Graph. Microsoft Graph can be used to get a list of files, or download an individual file using its unique ID or with a relative path to the file in a SharePoint site.
-  ms.date: 06/18/2021
-  author: andrewconnell
-  ms.author: v-johnco
+  ms.date: 09/13/2021
+  author: andrewconnell-msft
+  ms.author: suzanz
   ms.topic: interactive-tutorial
   ms.prod: learning-graph
 title: Access and download files from OneDrive

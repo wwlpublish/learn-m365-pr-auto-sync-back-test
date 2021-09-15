@@ -3,9 +3,9 @@ uid: learn-m365.msgraph-access-file-data.6-files-insights
 metadata:
   title: Work with file relationships and trends in OneDrive
   description: In this unit, you’ll learn how to get a list of files trending around a user and how to get recently modified and accessed files by the current user.
-  ms.date: 06/18/2021
-  author: andrewconnell
-  ms.author: v-johnco
+  ms.date: 09/13/2021
+  author: andrewconnell-msft
+  ms.author: suzanz
   ms.topic: interactive-tutorial
   ms.prod: learning-graph
 title: Work with file relationships and trends in OneDrive
