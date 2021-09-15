@@ -3,9 +3,9 @@ uid: learn-m365.optimize-data-usage.2-microsoft-graph-query-parameters
 metadata:
   title: Microsoft Graph of Query Parameters
   description: Look at the endpoint characteristics of Microsoft Graph and how you can use query parameters to manipulate requests.
-  ms.date: 06/18/2021
-  author: andrewconnell
-  ms.author: v-johnco
+  ms.date: 09/13/2021
+  author: andrewconnell-msft
+  ms.author: suzanz
   ms.topic: interactive-tutorial
   ms.prod: learning-graph
 title: Microsoft Graph of Query Parameters
