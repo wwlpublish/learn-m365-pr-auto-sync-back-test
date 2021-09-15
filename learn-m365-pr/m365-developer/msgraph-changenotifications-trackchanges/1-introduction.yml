@@ -3,9 +3,9 @@ uid: learn-m365.msgraph-changenotifications-trackchanges.1-introduction
 metadata:
   title: Introduction
   description: In this unit, you'll learn how to work with change notifications (webhooks) & track changes (delta query) in the Microsoft Graph.
-  ms.date: 06/18/2021
-  author: andrewconnell
-  ms.author: v-johnco
+  ms.date: 09/13/2021
+  author: andrewconnell-msft
+  ms.author: suzanz
   ms.topic: interactive-tutorial
   ms.prod: learning-graph
 title: Introduction

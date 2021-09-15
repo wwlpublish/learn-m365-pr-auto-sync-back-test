@@ -105,11 +105,11 @@ The previous code references labels, tooltips, and URLs that you must define bef
 
 Since you previously installed the add-in from a file, you must reinstall it in order for the manifest changes to take effect.
 
-1. Follow the instructions in [Sideload Outlook add-ins for testing](https://docs.microsoft.com/office/dev/add-ins/outlook/sideload-outlook-add-ins-for-testing) to locate the **Custom add-ins** section at the bottom of the **My add-ins** dialog box.
+1. Follow the instructions in [Sideload Outlook add-ins for testing](/office/dev/add-ins/outlook/sideload-outlook-add-ins-for-testing) to locate the **Custom add-ins** section at the bottom of the **My add-ins** dialog box.
 1. Select the **...** button next to the **Git the gist** entry and then choose **Remove**.
 1. Close the **My add-ins** window.
 1. The custom button should disappear from the ribbon momentarily.
-1. Follow the instructions in [Sideload Outlook add-ins for testing](https://docs.microsoft.com/office/dev/add-ins/outlook/sideload-outlook-add-ins-for-testing) to reinstall the add-in using the updated **manifest.xml** file.
+1. Follow the instructions in [Sideload Outlook add-ins for testing](/office/dev/add-ins/outlook/sideload-outlook-add-ins-for-testing) to reinstall the add-in using the updated **manifest.xml** file.
 
 After you've reinstalled the add-in, you can verify that it installed successfully by checking for the commands **Insert gist** and **Insert default gist** in a compose message window. Nothing will happen if you select either of these items, because you haven't yet finished building this add-in.
 
@@ -654,7 +654,7 @@ g.insertDefaultGist = insertDefaultGist;
 
 ### Create a file to manage configuration settings
 
-The HTML function file references a file named **addin-config.js**, which doesn't yet exist. Create a file named **addin-config.js** in the **./src/helpers** folder and add the following code. This code uses the [RoamingSettings object](https://docs.microsoft.com/javascript/api/outlook/office.RoamingSettings) to get and set configuration values.
+The HTML function file references a file named **addin-config.js**, which doesn't yet exist. Create a file named **addin-config.js** in the **./src/helpers** folder and add the following code. This code uses the [RoamingSettings object](/javascript/api/outlook/office.RoamingSettings) to get and set configuration values.
 
 ```javascript
 function getConfig() {
