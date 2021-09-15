@@ -40,6 +40,24 @@ It's recommended that organizations consider the following guidelines when confi
  -  Create custom device collections when policies can't be aligned across platforms. The Configuration Manager console shows enrolled devices by device type. Use the Agent Edition attribute to create custom device collections and then target policy baselines to each collection.<br>
  -  To enforce compliance settings on the device, enable Remediate noncompliant settings in both CIs and configuration baselines. Otherwise, reports will reflect the current compliance state of enrolled devices but they won't enforce compliance rules/settings on those devices.<br>
 
+## **Exercise – Interactive demonstrations**
+
+Select the following links to complete these interactive demonstrations:
+
+ -  [Create a noncompliant email message template](https://edxinteractivepage.blob.core.windows.net/edxpages/MS-101/M11-L10-E3-T1/index.html?azure-portal=true)
+ -  [Create and apply a compliance policy](https://edxinteractivepage.blob.core.windows.net/edxpages/MS-101/M11-L10-E3-T2/index.html?azure-portal=true)
+ -  [Manually create an EFS DRA certificate](https://edxinteractivepage.blob.core.windows.net/edxpages/MS-101/M11-L10-E3-T3/index.html?azure-portal=true)
+ -  [Create an app protection policy](https://edxinteractivepage.blob.core.windows.net/edxpages/MS-101/M11-L10-E3-T4/index.html?azure-portal=true)
+ -  [Create a packaged app rule for store apps](https://edxinteractivepage.blob.core.windows.net/edxpages/MS-101/M11-L10-E3-T5/index.html?azure-portal=true)
+ -  [Import a list of protected apps using Endpoint Manager](https://edxinteractivepage.blob.core.windows.net/edxpages/MS-101/M11-L10-E3-T6/index.html?azure-portal=true)
+ -  [Recover data using the EFS DRA certificate](https://edxinteractivepage.blob.core.windows.net/edxpages/MS-101/M11-L10-E3-T7/index.html?azure-portal=true)
+ -  [Configure enrollment restrictions](https://edxinteractivepage.blob.core.windows.net/edxpages/MS-101/M11-L10-E3-T8/index.html?azure-portal=true)
+ -  [Review device configuration profiles](https://edxinteractivepage.blob.core.windows.net/edxpages/MS-101/M11-L10-E3-T9/index.html?azure-portal=true)
+
+Many mobile device management (MDM) solutions help protect organizational data by requiring users and devices to meet certain requirements. These requirements are referred to as compliance policies. They define the rules and settings that users and devices must meet to be compliant. When combined with Conditional Access requirements, administrators can block users and devices that do not meet the rules.
+
+These simulations guide you through the steps to configure and manage a variety of compliance policies within Intune, Windows Information Protection (WIP), and Endpoint Manager for the fictitious Adatum Corporation.
+
 ## Knowledge check
 
 Choose the best response for the following question. Then select “Check your answers.”
