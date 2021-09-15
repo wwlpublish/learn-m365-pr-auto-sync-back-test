@@ -16,7 +16,7 @@ abstract: |
   - Manage quality, feature, and driver updates for Windows devices
   - Manage the post-deployment experience for updates
 prerequisites: Familiarity with the Windows update lifecycle.
-iconUrl: /learn/achievements/generic-badge.svg
+iconUrl: /learn/achievements/manage-windows-updates-in-the-cloud.svg
 levels:
 - intermediate
 roles:
