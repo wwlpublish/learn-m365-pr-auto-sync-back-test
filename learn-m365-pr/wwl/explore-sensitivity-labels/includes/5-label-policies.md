@@ -7,8 +7,8 @@ When an organization configures a label policy, it can:
  -  **Choose which users and groups see the labels.** Labels can be published to any specific user or email-enabled security group, distribution group, or Microsoft 365 group (which can have dynamic membership) in Azure AD.
  -  **Apply a default label to documents and emails.** A default label can be applied to all new documents and unlabeled emails created by the users and groups included in the label policy. The same or different default label can be applied to containers if you've enabled sensitivity labels for Microsoft Teams, Microsoft 365 groups, and SharePoint sites. With this setting, the Azure Information Protection unified labeling client also applies the default label to existing documents that are unlabeled. Users can always change the default label if it's not the right label for their document or email.
     
-    An organization should consider using a default label to set a base level of protection settings for its content. However, without user training and other controls, this setting can also result in inaccurate labeling. It's not a good idea to select a label that applies encryption as a default label to documents. For example, many organizations need to send and share documents with external users who may not have apps that support the encryption. Or, they may not use an account that can be authorized. For more information about this scenario, see [Sharing encrypted documents with external users](/microsoft-365/compliance/sensitivity-labels-office-apps).
- -  **Require a justification for changing a label.** If a user tries to remove a label or replace it with a label that has a lower-order number, you can require the user provides a justification to complete this action. For example, a user opens a document labeled Confidential (order number 3) and replaces that label with one named Public (order number 1). Administrators can read the justification reason along with the label change in [activity explorer](/microsoft-365/compliance/data-classification-activity-explorer).
+    An organization should consider using a default label to set a base level of protection settings for its content. However, without user training and other controls, this setting can also result in inaccurate labeling. It's not a good idea to select a label that applies encryption as a default label to documents. For example, many organizations need to send and share documents with external users who may not have apps that support the encryption. Or, they may not use an account that can be authorized. For more information about this scenario, see [Sharing encrypted documents with external users](/microsoft-365/compliance/sensitivity-labels-office-apps?azure-portal=true).
+ -  **Require a justification for changing a label.** If a user tries to remove a label or replace it with a label that has a lower-order number, you can require the user provides a justification to complete this action. For example, a user opens a document labeled Confidential (order number 3) and replaces that label with one named Public (order number 1). Administrators can read the justification reason along with the label change in [activity explorer](/microsoft-365/compliance/data-classification-activity-explorer?azure-portal=true).
     
     :::image type="content" source="../media/sensitivity-label-justification-required-9506ae33.png" alt-text="screenshot of sensitivity label window showing justification required option":::
     
@@ -30,7 +30,7 @@ When an organization configures a label policy, it can:
     Organizations should consider using this option to help increase their labeling coverage. However, without user training, these settings can result in inaccurate labeling and frustrated users. For example, unless you also set a corresponding default label, mandatory labeling can frustrate your users with the frequent prompts.
 
     > [!NOTE]
-    > Mandatory labeling for documents and emails isn't available for all apps or all platforms. For more information, see [Require users to apply a label to their email and documents](/microsoft-365/compliance/sensitivity-labels-office-apps).
+    > Mandatory labeling for documents and emails isn't available for all apps or all platforms. For more information, see [Require users to apply a label to their email and documents](/microsoft-365/compliance/sensitivity-labels-office-apps?azure-portal=true).
 
  -  **Provide help link to a custom help page.** If your users aren't sure what your sensitivity labels mean or how they should be used, you can provide a **Learn More** URL. This URL will appear at the bottom of the Sensitivity label menu in the Office apps.
     
@@ -64,3 +64,9 @@ A user can be included in multiple label policies, and the user will get all the
 
 > [!NOTE]
 > When there's a conflict of settings for a user who has multiple policies assigned, the setting from the policy with the highest priority (lowest position) is applied.
+
+## **Exercise – Interactive demonstration**
+
+Select the following link to complete an interactive demonstration titled: [Create a sensitivity label](https://edxinteractivepage.blob.core.windows.net/edxpages/MS-101/M7-L7-E1-T2/index.html?azure-portal=true).
+
+This simulation guides you through the steps to create a sensitivity label and a sensitivity label policy for the fictitious company known as Adatum Corporation.

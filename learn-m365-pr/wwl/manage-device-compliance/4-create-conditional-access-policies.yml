@@ -4,12 +4,14 @@ title: Create Conditional Access policies
 metadata:
   title: Create Conditional Access policies
   description: "Create Conditional Access policies"
-  ms.date: 07/27/2021
+  ms.date: 09/15/2021
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
+sandbox: false
+labModal: false
 durationInMinutes: 6
 content: |
   [!include[](includes/4-create-conditional-access-policies.md)]
