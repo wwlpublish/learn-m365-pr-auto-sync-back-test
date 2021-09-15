@@ -13,7 +13,7 @@ The group naming policy consists of the following features:
 
 Prefixes and suffixes can either be fixed strings or user attributes.
 
-- **Fixed Strings**: When using fixed strings, it is recommended that you use short strings that will help differentiate groups in the Global Address List(GAL). Some of the frequently used prefixes and suffixes are keywords as: 'Grp_Name', '#Name', '_Name'
+- **Fixed Strings**: When using fixed strings, it is recommended that you use short strings that will help differentiate groups in the Global Address List(GAL). Some of the frequently used prefixes and suffixes are keywords as: 'Grp_Name', '#Name', '_Name'.
 
 - **Attributes**: you can use attributes that can help in identification of which user has created the group like [Department] and where it was created from like [Country].
 
@@ -21,7 +21,7 @@ For example, a naming policy = "GRP [GroupName] [Department]" will result in the
 
 "GRP My Group Engineering"
 
-Supported Azure Active Directory (Azure AD) attributes are [Department], [Company], [Office], [StateOrProvince], [CountryOrRegion], [Title]. Unsupported user attributes are considered as fixed strings. For example,  "[postalCode]". Also, extension attributes and custom attributes aren't supported. It's recommended that you use attributes that have values filled in for all users in your organization and don't use attributes that have longer values.
+Supported Azure Active Directory (Azure AD) attributes are [Department], [Company], [Office], [StateOrProvince], [CountryOrRegion], and [Title]. Unsupported user attributes are considered as fixed strings. For example,  "[postalCode]". Also, extension attributes and custom attributes aren't supported. It's recommended that you use attributes that have values filled in for all users in your organization and don't use attributes that have longer values.
 
 **There are things you need to be aware of**: 
 
@@ -79,7 +79,7 @@ In the output, check the following values:
 - **PrefixSuffixNamingRequirement**.
 
  
-To configure Microsoft 365 groups naming policy 
+To configure Microsoft 365 groups naming policy, perform the following steps: 
 
 1. Get the existing directory settings from your Azure AD:
 
@@ -156,7 +156,7 @@ New-Team -DisplayName "ContosoSalesGroup" -MailNickName "ContosoSalesGroup"
 
 ### Outlook web client experience
 
-When users enter custom blocked words in Outlook, an error message will appear in the UI together with the blocked words. Users can then remove it, as shown on the example below:
+When users enter custom blocked words in Outlook, an error message will appear in the UI together with the blocked words. Users can then remove it, as shown on the following example:
 
 ‎:::image type="content" source="../media/outlook-web-blocked-words.png" alt-text="Blocked words warning from OWA":::
 
@@ -172,4 +172,4 @@ Groups created in Outlook desktop are compliant with naming policy, so the creat
 Using Azure AD naming policy for Microsoft 365 Groups requires that you possess but not necessarily assign an Azure Active Directory Premium P1 license or Azure AD Basic EDU license for each unique user (including guests) that is a member of one or more Microsoft 365 groups.
 
  
-For more information, see [Groups naming policies](/office365/admin/create-groups/groups-naming-policy).
+For more information, see [Groups naming policies](/office365/admin/create-groups/groups-naming-policy?azure-portal=true).

@@ -76,7 +76,7 @@ Another important aspect of governance and lifecycle management for Teams is the
 
 Teams is built on the advanced security and compliance capabilities of Microsoft 365 and Office 365 and supports auditing and reporting, compliance content search, e-discovery, Legal Hold, and retention policies.
 
-For more information, see [Plan for governance in Microsoft 365 Groups](/office365/admin/create-groups/plan-for-groups-governance).
+For more information, see [Plan for governance in Microsoft 365 Groups](/office365/admin/create-groups/plan-for-groups-governance?azure-portal=true).
 
  
 

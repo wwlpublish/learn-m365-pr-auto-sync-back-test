@@ -45,7 +45,7 @@ View your Safe Links policy settings.
   :::column:::
     
 
-[Get-SafeLinksPolicy](https://docs.microsoft.com/powershell/module/exchange/get-safelinkspolicy?azure-portal=true)
+[Get-SafeLinksPolicy](/powershell/module/exchange/get-safelinkspolicy?azure-portal=true)
 
 
   :::column-end:::
@@ -61,7 +61,7 @@ Edit an existing Safe Links policy.
   :::column:::
     
 
-[Set-SafeLinksPolicy](https://docs.microsoft.com/powershell/module/exchange/set-safelinkspolicy?azure-portal=true)
+[Set-SafeLinksPolicy](/powershell/module/exchange/set-safelinkspolicy?azure-portal=true)
 
 
   :::column-end:::
@@ -77,7 +77,7 @@ Create a new custom Safe Links policy.
   :::column:::
     
 
-[New-SafeLinksPolicy](https://docs.microsoft.com/powershell/module/exchange/new-safelinkspolicy?azure-portal=true)
+[New-SafeLinksPolicy](/powershell/module/exchange/new-safelinkspolicy?azure-portal=true)
 
 
   :::column-end:::
@@ -93,7 +93,7 @@ Remove a custom Safe Links policy.
   :::column:::
     
 
-[Remove-SafeLinksPolicy](https://docs.microsoft.com/powershell/module/exchange/remove-safelinkspolicy?azure-portal=true)
+[Remove-SafeLinksPolicy](/powershell/module/exchange/remove-safelinkspolicy?azure-portal=true)
 
 
   :::column-end:::
@@ -109,7 +109,7 @@ View your Safe Links rule settings.
   :::column:::
     
 
-[Get-SafeLinksRule](https://docs.microsoft.com/powershell/module/exchange/get-safelinksrule?azure-portal=true)
+[Get-SafeLinksRule](/powershell/module/exchange/get-safelinksrule?azure-portal=true)
 
 
   :::column-end:::
@@ -125,7 +125,7 @@ Edit an existing Safe Links rule.
   :::column:::
     
 
-[Set-SafeLinksRule](https://docs.microsoft.com/powershell/module/exchange/set-safelinksrule?azure-portal=true)
+[Set-SafeLinksRule](/powershell/module/exchange/set-safelinksrule?azure-portal=true)
 
 
   :::column-end:::
@@ -141,7 +141,7 @@ Create a new custom Safe Links rule.
   :::column:::
     
 
-[New-SafeLinksRule](https://docs.microsoft.com/powershell/module/exchange/new-safelinksrule?azure-portal=true)
+[New-SafeLinksRule](/powershell/module/exchange/new-safelinksrule?azure-portal=true)
 
 
   :::column-end:::
@@ -157,7 +157,7 @@ Remove a custom Safe Links rule.
   :::column:::
     
 
-[Remove-SafeLinksRule](https://docs.microsoft.com/powershell/module/exchange/remove-safelinksrule?azure-portal=true)
+[Remove-SafeLinksRule](/powershell/module/exchange/remove-safelinksrule?azure-portal=true)
 
 
   :::column-end:::
@@ -171,19 +171,19 @@ Creating a Safe Links policy in PowerShell is a two-step process:
 
 You can create a new safe links rule and assign an existing, unassociated safe links policy to it. A safe links rule can't be associated with more than one safe links policy.
 
-You can configure the following settings on new safe links policies in PowerShell that aren't available in the Security &amp; Compliance Center until after you create the policy:
+You can configure the following settings on new safe links policies in PowerShell that aren't available in Microsoft 365 Defender until after you create the policy:
 
  -  Create the new policy as disabled (**Enabled $false** on the **New-SafeLinksRule** cmdlet).
  -  Set the priority of the policy during creation (**Priority** &lt;Number&gt;) on the **New-SafeLinksRule** cmdlet).
 
-A new safe links policy that you create in PowerShell isn't visible in the Security &amp; Compliance Center until you assign the policy to a safe links rule.
+A new safe links policy that you create in PowerShell isn't visible in Microsoft 365 Defender until you assign the policy to a safe links rule.
 
 ### Step 1 - Create a safe links policy using PowerShell<br>
 
 The following PowerShell syntax should be used to create a safe links policy:
 
 ```powershell
-New-SafeLinksPolicy -Name "&lt;PolicyName&gt;" [-AdminDisplayName "&lt;Comments&gt;"] [-IsEnabled &lt;$true | $false&gt;] [-EnableSafeLinksForTeams &lt;$true | $false&gt;] [-ScanUrls &lt;$true | $false&gt;] [-DeliverMessageAfterScan &lt;$true | $false&gt;] [-EnableForInternalSenders &lt;$true | $false&gt;] [-DoNotAllowClickThrough &lt;$true | $false&gt;] [-DoNotTrackUserClicks &lt;$true | $false&gt;] [-DoNotRewriteUrls "Entry1","Entry2",..."EntryN"]
+New-SafeLinksPolicy -Name "<PolicyName>" [-AdminDisplayName "<Comments>"] [-IsEnabled <$true | $false>] [-EnableSafeLinksForTeams <$true | $false>] [-ScanUrls <$true | $false>] [-DeliverMessageAfterScan <$true | $false>] [-EnableForInternalSenders <$true | $false>] [-DoNotAllowClickThrough <$true | $false>] [-DoNotTrackUserClicks <$true | $false>] [-DoNotRewriteUrls "Entry1","Entry2",..."EntryN"]
 ```
 
 The following example creates a safe links policy named **Contoso All** with the following values:<br>
@@ -205,7 +205,7 @@ New-SafeLinksPolicy -Name "Contoso All" -IsEnabled $true -EnableSafeLinksForTeam
 The following PowerShell syntax should be used to create a safe links rule:
 
 ```powershell
-New-SafeLinksRule -Name "&lt;RuleName&gt;" -SafeLinksPolicy "&lt;PolicyName&gt;" &lt;Recipient filters&gt; [&lt;Recipient filter exceptions&gt;] [-Comments "&lt;OptionalComments&gt;"] [-Enabled &lt;$true | $false&gt;]
+New-SafeLinksRule -Name "<RuleName>" -SafeLinksPolicy "<PolicyName>" <Recipient filters> [<Recipient filter exceptions>] [-Comments "<OptionalComments>"] [-Enabled <$true | $false>]
 ```
 
 The following example creates a safe links rule named **Contoso All** with the following conditions:
@@ -226,7 +226,7 @@ The highest priority value you can set on a rule is 0. The lowest value you can 
 To set the priority of a safe links rule in PowerShell, use the following syntax:
 
 ```powershell
-Set-SafeLinksRule -Identity "&lt;RuleName&gt;" -Priority &lt;Number&gt;
+Set-SafeLinksRule -Identity "<RuleName>" -Priority <Number>
 ```
 
 The following example sets the priority of the rule named Marketing Department to 2. All existing rules that have a priority less than or equal to 2 are decreased by 1 (their priority numbers are increased by 1).<br>

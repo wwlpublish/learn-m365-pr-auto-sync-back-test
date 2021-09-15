@@ -1,4 +1,4 @@
-In this module, you learned about Teams lifecycle management and governance. You learned different features to govern Microsoft 365 Groups, ways to assign Teams policies, Teams preview features controls. 
+In this module, you learned about Teams lifecycle management and governance. You learned different features to govern Microsoft 365 Groups, ways to assign Teams policies, and Teams preview features controls. 
 
 Now that you have completed this module, you should be able to:
 
