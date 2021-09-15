@@ -5,8 +5,8 @@ metadata:
   title: Train a document understanding model
   description:  Learn to create and apply a document understanding model, prepare a training set, build a classifier model, train a classifier, and apply the model to a library.
   ms.date: 07/27/2021
-  author: beccarobins
-  ms.author: beccarobins
+  author: teleary
+  ms.author: teleary
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
  
