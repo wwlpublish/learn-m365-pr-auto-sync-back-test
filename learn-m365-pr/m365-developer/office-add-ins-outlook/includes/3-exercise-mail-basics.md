@@ -12,7 +12,7 @@ You'll use Node.js to create the custom Outlook add-in in this module. The exerc
 - [Node.js](https://nodejs.org/) - (*the latest [LTS](https://nodejs.org/about/releases) version*)
 - NPM (installed with Node.js) - v6.x (or higher)
 - [Yeoman](https://yeoman.io/) - v3.x (or higher)
-- [Yeoman Generator for Microsoft Office](https://github.com/OfficeDev/generator-office) - v1.7.x (or higher)
+- [Yeoman Generator for Microsoft Office](https://github.com/OfficeDev/generator-office) - v1.8.x (or higher)
 - [Visual Studio Code](https://code.visualstudio.com)
 
 You must have the minimum versions of these prerequisites installed on your workstation.
@@ -141,7 +141,7 @@ Before going any further, let's test the basic add-in that the generator created
     npm run dev-server
     ```
 
-1. Follow the instructions in [Sideload Outlook add-ins for testing](https://docs.microsoft.com/office/dev/add-ins/outlook/sideload-outlook-add-ins-for-testing) to sideload the **manifest.xml** file that's located in the root directory of the project.
+1. Follow the instructions in [Sideload Outlook add-ins for testing](/office/dev/add-ins/outlook/sideload-outlook-add-ins-for-testing) to sideload the **manifest.xml** file that's located in the root directory of the project.
 
 1. In Outlook, open an existing message, and select the **Show Taskpane** button. If set up correctly, the task pane will open and render the add-in's welcome page.
 

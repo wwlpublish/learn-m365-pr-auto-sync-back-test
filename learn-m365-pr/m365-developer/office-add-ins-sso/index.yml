@@ -4,7 +4,7 @@ metadata:
   title: Using Single Sign-On (SSO) with Office Add-ins
   description: This module explains how to use single sign-on in Office Add-ins.
   ms.date: 03/05/2021
-  author: andrewconnell
+  author: andrewconnell-msft
   ms.author: suzanz
   ms.topic: interactive-tutorial
   ms.prod: learning-m365

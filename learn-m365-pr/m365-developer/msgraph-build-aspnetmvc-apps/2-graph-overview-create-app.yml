@@ -3,9 +3,9 @@ uid: learn-m365.msgraph-build-aspnetmvc-apps.2-graph-overview-create-app
 metadata:
   title: Microsoft Graph overview ASP.NET MVC web applications
   description: In this unit, you'll learn how Microsoft Graph fits into the larger Microsoft 365 platform. You'll then learn how to use Microsoft Graph in an ASP.NET MVC application to display events from the currently signed in user's calendar.
-  ms.date: 06/18/2021
-  author: andrewconnell
-  ms.author: v-johnco
+  ms.date: 09/13/2021
+  author: andrewconnell-msft
+  ms.author: suzanz
   ms.topic: interactive-tutorial
   ms.prod: learning-graph
 title: Microsoft Graph overview ASP.NET MVC web applications

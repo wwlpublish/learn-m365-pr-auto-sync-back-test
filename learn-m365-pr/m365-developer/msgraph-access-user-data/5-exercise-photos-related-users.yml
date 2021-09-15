@@ -3,9 +3,9 @@ uid: learn-m365.msgraph-access-user-data.5-exercise-photos-related-users
 metadata:
   title: Exercise - Working with profile photos and related users
   description: In this exercise, you'll update the existing Azure AD application registration using the Azure Active Directory admin center and a .NET Core console application to query Microsoft Graph for user profile photos and get the user’s manager’s profile.
-  ms.date: 06/18/2021
-  author: andrewconnell
-  ms.author: v-johnco
+  ms.date: 09/13/2021
+  author: andrewconnell-msft
+  ms.author: suzanz
   ms.topic: interactive-tutorial
   ms.prod: learning-graph
 title: Exercise - Working with profile photos and related users

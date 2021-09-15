@@ -3,9 +3,9 @@ uid: learn-m365.msgraph-access-file-data.5-exercise-upload-files-onedrive
 metadata:
   title: Exercise - Upload files to OneDrive
   description: In this exercise, you’ll learn how to upload files to OneDrive using Microsoft Graph, including both small and large files.
-  ms.date: 06/18/2021
-  author: andrewconnell
-  ms.author: v-johnco
+  ms.date: 09/13/2021
+  author: andrewconnell-msft
+  ms.author: suzanz
   ms.topic: interactive-tutorial
   ms.prod: learning-graph
 title: Exercise - Upload files to OneDrive
