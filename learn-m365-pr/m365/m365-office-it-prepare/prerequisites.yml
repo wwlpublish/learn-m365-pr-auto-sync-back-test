@@ -6,7 +6,7 @@ metadata:
   description: Understand the new prerequisites, considerations, and update options for upgrading Office at scale in a Windows environment. 
   ms.date: 07/19/2021
   author: lizap 
-  ms.author: teleary
+  ms.author: elizapo
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 durationInMinutes: 4

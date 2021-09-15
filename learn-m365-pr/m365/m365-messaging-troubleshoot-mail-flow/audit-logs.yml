@@ -6,7 +6,7 @@ metadata:
   description: Learn how to use audit logs to troubleshoot issues with mail flow in Exchange Online.
   ms.date: 07/14/2021
   author: AlexandraHrt
-  ms.author: teleary
+  ms.author: elizapo
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 durationInMinutes: 3

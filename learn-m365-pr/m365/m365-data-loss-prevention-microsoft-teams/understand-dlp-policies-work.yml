@@ -5,7 +5,7 @@ metadata:
   description: Learn how DLP policies use deep content analysis to scan for sensitive information.
   ms.date: 07/19/2021
   author: iankensey
-  ms.author: beccarobins
+  ms.author: v-iakens
   ms.topic: interactive-tutorial
   ms.prod: learning-teams
 title: Understand how DLP policies work

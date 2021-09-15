@@ -6,7 +6,7 @@ metadata:
   description: Today’s security threat landscape is filled with aggressive and tenacious threats, including holding devices and data hostage until the owner pays a demanded ransom. Modern attacks are increasingly focusing on intellectual property theft and targeted system degradation. In recognition of this landscape, Windows 10 includes multiple security features designed to make it difficult on attackers to find and exploit any vulnerabilities.
   ms.date: 07/15/2021
   author: AlexandraHrt
-  ms.author: beccarobins
+  ms.author: elizapo
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 durationInMinutes: 5

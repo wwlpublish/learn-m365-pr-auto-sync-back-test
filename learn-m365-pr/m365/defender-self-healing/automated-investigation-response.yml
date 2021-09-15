@@ -7,7 +7,7 @@ metadata:
   description: Understand how automated investigation and response works, and how you can use it to automate the investigation process. 
   ms.date: 08/12/2021
   author: iankensey 
-  ms.author: beccarobins
+  ms.author: beccarobins 
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 durationInMinutes: 3
