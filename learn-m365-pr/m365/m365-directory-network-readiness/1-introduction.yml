@@ -6,7 +6,7 @@ metadata:
   description: Cloud connected services in Microsoft 365 Apps and new deployment options like Windows Autopilot require Azure Active Directory. Your network and connectivity are also important areas to plan when moving Windows images, apps, drivers, and related files to your PCs. Learn how new tools and deployment options reduce and streamline network traffic.
   msdate: 04/28/2019
   author: lizap
-  ms.author: elizapo
+  ms.author: teleary
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 durationInMinutes: 11

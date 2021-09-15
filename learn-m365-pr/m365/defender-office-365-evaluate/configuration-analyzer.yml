@@ -7,7 +7,7 @@ metadata:
   description: Learn how to use the configuration analyzer to find policies where settings are below the strict or standard protection profile settings.
   ms.date: 08/12/2021
   author: iankensey 
-  ms.author: beccarobins 
+  ms.author: beccarobins
   ms.topic: interactive-tutorial 
   ms.prod: learning-m365
 durationInMinutes: 4
