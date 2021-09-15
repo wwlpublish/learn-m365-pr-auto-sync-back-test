@@ -4,12 +4,14 @@ title: Create and manage policy packages
 metadata:
   title: Create and manage policy packages
   description: "Create and manage policy packages"
-  ms.date: 08/24/2021
+  ms.date: 09/15/2021
   author: wwlpublish
   ms.author: jennyche
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
+sandbox: false
+labModal: false
 durationInMinutes: 7
 content: |
   [!include[](includes/8-create-manage-policy-packages.md)]

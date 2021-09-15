@@ -9,21 +9,21 @@ The following concepts and definitions all affect the decisions you make for lif
 ‎:::image type="content" source="../media/teams-lifecycles-concepts.png" alt-text="Lifecycle concepts":::
 
 
-* **Teams**. A *team* is a collection of people, content, and tools that facilitate collaboration. A team defines who its members are, and the permissions and policies that apply to those members. Teams are built on Microsoft 365 Groups, and changes to Microsoft 365 group membership sync to the team. Like other Microsoft 365 Groups, Teams come auto-provisioned with an Exchange mailbox, a SharePoint site, a OneNote notebook, and other assets within Microsoft 365 or Office 365. There are tree types of teams:
+* **Teams** - A *team* is a collection of people, content, and tools that facilitate collaboration. A team defines who its members are, and the permissions and policies that apply to those members. Teams are built on Microsoft 365 Groups, and changes to Microsoft 365 group membership sync to the team. Like other Microsoft 365 Groups, Teams come auto-provisioned with an Exchange mailbox, a SharePoint site, a OneNote notebook, and other assets within Microsoft 365 or Office 365. There are tree types of teams:
 
     * **Org-wide teams** provide an automatic way for everyone in a small to medium-sized organization to be a part of a single team for collaboration.
     * **Public teams** are open and anyone within the organization can join. 
     * **Private teams** consist only of invited users. 
 
-* **Channels**. Channels are the collaboration spaces within a team where the actual work is done. For each channel, a folder is automatically created on the SharePoint site to store all files shared to that channel. Channels can also be extended with apps that are relevant to the particular workstream—for example, you can add a Power BI dashboard to a channel to track the success of one aspect of your project.
+* **Channels** - Channels are the collaboration spaces within a team where the actual work is done. For each channel, a folder is automatically created on the SharePoint site to store all files shared to that channel. Channels can also be extended with apps that are relevant to the particular workstream—for example, you can add a Power BI dashboard to a channel to track the success of one aspect of your project.
 
-    * **Standard channels**. Standard channels are visible to all team members. 
+    * **Standard channels** - Standard channels are visible to all team members. 
 
-    * **Private channels**. Private channels are similar to standard channels, but they restrict access to conversations, files, and apps to a limited subset of team members. 
+    * **Private channels** - Private channels are similar to standard channels, but they restrict access to conversations, files, and apps to a limited subset of team members. 
 
-    * **Shared channels**. Shared channels enable you to share channels with any user or group with Azure Active Directory identity to your organization. (The feature is in development. For the latest status, check the roadmap with the [feature ID_70766](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=70766&azure-portal=true).)
+    * **Shared channels** - Shared channels enable you to share channels with any user or group with Azure Active Directory identity to your organization. (The feature is in development. For the latest status, check the roadmap with the [feature ID_70766](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=70766&azure-portal=true).)
 
-* **Team user types and admin roles**. Team user types determine how much control a team member has:
+* **Team user types and admin roles** - Team user types determine how much control a team member has:
 
     * **Team creator** has permissions to create a group or team in the directory. 
     
@@ -69,19 +69,19 @@ Teams are deleted with a "soft delete" that IT can reverse for up to 30 days. De
 
 When a group or team is deleted, most of the information in the connected services is also deleted. Understand the impacts when a team is deleted to avoid any potential data loss.
 
-* **Guests**. When a team is deleted, guests aren't removed from Azure Active Directory. 
+* **Guests** - When a team is deleted, guests aren't removed from Azure Active Directory. 
 
-* **SharePoint**. All files in team channels are stored in the SharePoint site of the associated group. In some cases, content other than documents may exist in SharePoint, such as lists or pages. Deleting a channel will not delete the folder or its contents from the SharePoint document library. 
+* **SharePoint** - All files in team channels are stored in the SharePoint site of the associated group. In some cases, content other than documents may exist in SharePoint, such as lists or pages. Deleting a channel will not delete the folder or its contents from the SharePoint document library. 
 
-* **Planner**. The deletion of the group will also result in the deletion of any associated plans. To keep the data, you can **export the plan to a spreadsheet**, **copy and move tasks to another Plan**, or **Copy entire plan** before deleting the team.
+* **Planner** - The deletion of the group will also result in the deletion of any associated plans. To keep the data, you can **export the plan to a spreadsheet**, **copy and move tasks to another Plan**, or **copy entire plan** before deleting the team.
 
-* **Forms**. The deletion of the group will also result in the deletion of any associated forms. When a team is deleted, you can **duplicate the form**, **export results to a spreadsheet**, or just **delete the form**.
+* **Forms** - The deletion of the group will also result in the deletion of any associated forms. When a team is deleted, you can **duplicate the form**, **export results to a spreadsheet**, or just **delete the form**.
 
-* **Power Automate**. Flows created in Power Automate and associated with a group or team don't belong to the group. They are owned by the creator and merely shared with other users and groups. As such they aren't affected if a group or team is deleted.
+* **Power Automate** - Flows created in Power Automate and associated with a group or team don't belong to the group. They are owned by the creator and merely shared with other users and groups. As such they aren't affected if a group or team is deleted.
 
-* **Power BI**. Power BI data and workspaces can operate independently from groups and teams. If you need the report once the group or team is deleted, it can be copied from the existing workspace to another workspace within Power BI.
+* **Power BI** - Power BI data and workspaces can operate independently from groups and teams. If you need the report once the group or team is deleted, it can be copied from the existing workspace to another workspace within Power BI.
 
-* **Dataverse for Teams**. If the team is deleted, the Dataverse for Teams environment that was created will also be deleted. The Dataverse for Teams environment itself can be deleted from within the team by the team owner. To keep the data, you can upgrade a Dataverse for Teams environment to a Dataverse database environment. The upgraded environment's lifecycle will no longer be tied to the lifecycle of that team. If the team is deleted, the upgraded environment remains.
+* **Dataverse for Teams** - If the team is deleted, the Dataverse for Teams environment that was created will also be deleted. The Dataverse for Teams environment itself can be deleted from within the team by the team owner. To keep the data, you can upgrade a Dataverse for Teams environment to a Dataverse database environment. The upgraded environment's lifecycle will no longer be tied to the lifecycle of that team. If the team is deleted, the upgraded environment remains.
 
 Important decision points related to the end stage include:
 
@@ -94,7 +94,7 @@ Important decision points related to the end stage include:
 
 You can configure and manage the Teams lifecycle through the Teams Admin Center, the Microsoft 365 Admin Center, and the Azure AD Admin Center. Should you wish to automate specific management tasks throughout the team lifecycle, you can do so using PowerShell and Graph API automation tools.
 
-For more information, see [End of lifecycle options for groups, teams, and Yammer](/microsoft-365/solutions/end-life-cycle-groups-teams-sites-yammer).
+For more information, see [End of lifecycle options for groups, teams, and Yammer](/microsoft-365/solutions/end-life-cycle-groups-teams-sites-yammer?azure-portal=true).
  
 
 
