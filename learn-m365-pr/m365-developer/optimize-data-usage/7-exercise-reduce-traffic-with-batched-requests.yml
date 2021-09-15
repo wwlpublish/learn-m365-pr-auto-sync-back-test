@@ -3,9 +3,9 @@ uid: learn-m365.optimize-data-usage.7-exercise-reduce-traffic-with-batched-reque
 metadata:
   title: Exercise - Reduce traffic with batched requests
   description: In this exercise, you'll use the Graph Explorer to create and issue a single request that contains multiple child requests. This batching of requests enables developers to submit multiple requests in a single round-trip request to Microsoft Graph, creating more optimized queries.
-  ms.date: 06/18/2021
-  author: andrewconnell
-  ms.author: v-johnco
+  ms.date: 09/13/2021
+  author: andrewconnell-msft
+  ms.author: suzanz
   ms.topic: interactive-tutorial
   ms.prod: learning-graph
 title: Exercise - Reduce traffic with batched requests

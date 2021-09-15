@@ -3,9 +3,9 @@ uid: learn-m365.office-add-ins-sso.3-exercise-word-sso
 metadata:
   title: Exercise - Create an Office Add-in for Word that implements Single Sign-On
   description: In this exercise, you'll build a Word add-in that inserts details about the currently logged in user with Microsoft Graph. This process uses the single sign-on (SSO) authentication scheme.
-  ms.date: 04/02/2021
-  author: andrewconnell
-  ms.author: v-johnco
+  ms.date: 09/06/2021
+  author: andrewconnell-msft
+  ms.author: suzanz
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Exercise - Create an Office Add-in for Word that implements Single Sign-On

@@ -6,12 +6,12 @@ In this unit, you'll learn how authentication works with Office Add-ins and how 
 
 Web applications and Office Add-ins allow anonymous access by default, but you can require users to authenticate with a login. For example, you can require that your users be logged in with a Microsoft account, a Microsoft 365 Education or work account, or other common account. This task is called user authentication because it enables the add-in to know who the user is.
 
-Your add-in can also get the user's consent to access their Microsoft Graph data (such as their Microsoft 365 profile, OneDrive files, and SharePoint data) or to data in other external sources such as Google, Facebook, LinkedIn, SalesForce, and GitHub. This task is called add-in (or app) authorization, because its the add-in that is being authorized, not the user.
+Your add-in can also get the user's consent to access their Microsoft Graph data (such as their Microsoft 365 profile, OneDrive files, and SharePoint data) or to data in other external sources such as Google, Facebook, LinkedIn, SalesForce, and GitHub. This task is called add-in (or app) authorization, because it's the add-in that is being authorized, not the user.
 
 You have a choice of two ways to accomplish authentication and authorization.
 
 - **Office Single Sign-on (SSO):** A system that enables the user's login to Office to also function as a login to the add-in. Optionally, the add-in can also use the user's Office credentials to authorize the add-in to Microsoft Graph.
-- **Web Application Authentication and Authorization with Azure Active Directory (Azure AD):** This is the way Office Add-ins (and other web apps) authenticated users and authorized apps before there was an Office SSO system, and its still used in scenarios where Office SSO can't be. Also, there are scenarios in which you want to have your users log in to your add-in separately even when SSO is available; for example, if you want them to have the option of logging in to the add-in with a different ID from the one with which they're currently logged in to Office.
+- **Web Application Authentication and Authorization with Azure Active Directory (Azure AD):** This is the way Office Add-ins (and other web apps) authenticated users and authorized apps before there was an Office SSO system, and it's still used in scenarios where Office SSO can't be. Also, there are scenarios in which you want to have your users log in to your add-in separately even when SSO is available; for example, if you want them to have the option of logging in to the add-in with a different ID from the one with which they're currently logged in to Office.
 
 ## Office Add-ins and Single Sign-on
 
@@ -98,7 +98,7 @@ There are three parts of this section that must be updated for your application:
 
 Finally, an add-in must implement client-side code to implement and support SSO. If you use the tools provided by Microsoft, your add-in project will include most of the boilerplate code to support SSO. This is true if you use either the [Office Developer Tools](https://www.visualstudio.com/features/office-tools-vs.aspx) for Visual Studio 2019 for an ASP.NET add-in or the [Yeoman Generator for Microsoft Office](https://github.com/OfficeDev/generator-office) for VS Code for a Node.js based add-in.
 
-The API method `[OfficeRuntime.Auth.getAccessToken()](https://docs.microsoft.com/javascript/api/office-runtime/officeruntime.auth)` is used by the add-in to request an access token from the hosting Office client.
+The API method `[OfficeRuntime.Auth.getAccessToken()](/javascript/api/office-runtime/officeruntime.auth)` is used by the add-in to request an access token from the hosting Office client.
 
 The Office client will request an access token from Azure AD using the application previously registered with Azure AD.
 
@@ -106,7 +106,7 @@ The token returned by Azure AD can be used to identify the user, but can also be
 
 #### Use the access token to identify the user
 
-Your add-in may need to simply identify the user. In this case, your add-in typically provides this token to your own backend system that uses the token to store user preferences or other information specific to the currently signed in user.
+Your add-in may need to identify the user. In this case, your add-in typically provides this token to your own backend system that uses the token to store user preferences or other information specific to the currently signed in user.
 
 In this scenario, the token returned includes a few properties that can be useful to your application:
 

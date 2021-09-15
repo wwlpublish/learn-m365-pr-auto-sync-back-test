@@ -4,8 +4,8 @@ metadata:
   title: Add-in commands and dialogs
   description: In this unit, you'll learn how to create add-in commands and work with dialogs to display information, or prompt the user for input.
   ms.date: 06/17/2021
-  author: andrewconnell
-  ms.author: v-johnco
+  author: andrewconnell-msft
+  ms.author: suzanz
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Add-in commands and dialogs

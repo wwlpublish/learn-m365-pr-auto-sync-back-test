@@ -93,7 +93,7 @@ public async Task<ActionResult<string>> Post([FromQuery]string validationToken =
 
     Console.WriteLine(content);
 
-    var notifications = JsonConvert.DeserializeObject<Notifications>(content);
+    var notifications = JsonSerializer.Deserialize<Notifications>(content);
 
     foreach (var notification in notifications.Items)
     {
