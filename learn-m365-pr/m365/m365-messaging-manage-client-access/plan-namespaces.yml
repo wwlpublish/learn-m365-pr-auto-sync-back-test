@@ -6,7 +6,7 @@ metadata:
   description: Learn how to configure clients to access associated Exchange Online mailboxes, how to troubleshoot connectivity issues, and how to connect your clients. 
   ms.date: 08/05/2021
   author: AlexandraHrt
-  ms.author: teleary
+  ms.author: elizapo
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 durationInMinutes: 3

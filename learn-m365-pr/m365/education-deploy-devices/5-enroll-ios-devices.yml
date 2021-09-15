@@ -5,7 +5,7 @@ metadata:
   description: Learn about integrating Microsoft Intune with Apples automated device enrollment.
   ms.date: 07/02/2021
   author: iankensey
-  ms.author: teleary
+  ms.author: beccarobins
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Enroll iOS devices with automated device enrollment 

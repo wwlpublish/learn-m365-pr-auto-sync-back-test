@@ -5,7 +5,7 @@ metadata:
   description: Learn about provisioning packages, share PC mode policies, creation of provisioning packages and different ways that they can be applied.
   ms.date: 08/06/2021
   author: iankensey
-  ms.author: teleary
+  ms.author: beccarobins
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Configure and enroll devices with provisioning packages
