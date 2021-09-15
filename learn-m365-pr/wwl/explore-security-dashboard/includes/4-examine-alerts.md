@@ -110,7 +110,7 @@ While there are many roles in the Security and Compliance Center, only certain r
 > You can also view the roles assigned to a role group in the SCC. Go to the **Permissions** page and select a role group. The assigned roles are listed on the flyout page.
 
 | <p><b>Role</b></p>                         | <p><b>Data governance</b></p> | <p><b>Data loss prevention</b></p> | <p><b>Mail flow</b></p> | <p><b>Permissions</b></p> | <p><b>Threat Management</b></p> | <p><b>Others</b></p> |
-|: |:--:|:-:|:--:|:-:|:-:|:--:|
+|:------------------------------------------ |:-----------------------------:|:----------------------------------:|:-----------------------:|:-------------------------:|:-------------------------------:|:--------------------:|
 | <p>Compliance Administrator</p>            |           <p>X</p>            |              <p>X</p>              |        <p> </p>         |         <p>X</p>          |            <p> </p>             |       <p>X</p>       |
 | <p>DLP Compliance Management</p>           |           <p> </p>            |              <p>X</p>              |        <p> </p>         |         <p> </p>          |            <p> </p>             |       <p> </p>       |
 | <p>Manage Alerts</p>                       |           <p> </p>            |              <p> </p>              |        <p> </p>         |         <p> </p>          |            <p> </p>             |       <p>X</p>       |
