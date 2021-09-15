@@ -16,7 +16,7 @@ The Dialog API can display any HTTPS web page, but it must be launched to an app
 
 ## Open dialogs
 
-Open a dialog using the `diaplayDialogAsync()` method from an Office add-in:
+Open a dialog using the `displayDialogAsync()` method from an Office add-in:
 
 ```javascript
 Office.context.ui.displayDialogAsync("<URL />", options, optionalCallback);

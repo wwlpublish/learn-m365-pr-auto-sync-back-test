@@ -3,9 +3,9 @@ uid: learn-m365.office-add-ins-excel.3-exercise-tables-charts
 metadata:
   title: Exercise - Work with tables and charts in Excel add-ins
   description: In this exercise, you'll learn how to work with tables and charts using the Office.js Excel JavaScript API. After creating a table, you'll learn how you can apply sorting and filtering actions on the data within the table. You'll also learn how to create and edit charts in the workbook using from your custom Excel add-in.
-  ms.date: 06/17/2021
-  author: andrewconnell
-  ms.author: v-johnco
+  ms.date: 09/06/2021
+  author: andrewconnell-msft
+  ms.author: suzanz
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Exercise - Work with tables and charts in Excel add-ins

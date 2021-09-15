@@ -28,14 +28,14 @@ Right-click the **Models** folder and add three new files:
 Replace the contents of **Notification.cs** with the following code:
 
 ```csharp
-using Newtonsoft.Json;
 using System;
+using System.Text.Json.Serialization;
 
 namespace msgraphapp.Models
 {
   public class Notifications
   {
-    [JsonProperty(PropertyName = "value")]
+    [JsonPropertyName("value")]
     public Notification[] Items { get; set; }
   }
 
@@ -43,27 +43,27 @@ namespace msgraphapp.Models
   public class Notification
   {
     // The type of change.
-    [JsonProperty(PropertyName = "changeType")]
+    [JsonPropertyName("changeType")]
     public string ChangeType { get; set; }
 
     // The client state used to verify that the notification is from Microsoft Graph. Compare the value received with the notification to the value you sent with the subscription request.
-    [JsonProperty(PropertyName = "clientState")]
+    [JsonPropertyName("clientState")]
     public string ClientState { get; set; }
 
     // The endpoint of the resource that changed. For example, a message uses the format ../Users/{user-id}/Messages/{message-id}
-    [JsonProperty(PropertyName = "resource")]
+    [JsonPropertyName("resource")]
     public string Resource { get; set; }
 
     // The UTC date and time when the webhooks subscription expires.
-    [JsonProperty(PropertyName = "subscriptionExpirationDateTime")]
+    [JsonPropertyName("subscriptionExpirationDateTime")]
     public DateTimeOffset SubscriptionExpirationDateTime { get; set; }
 
     // The unique identifier for the webhooks subscription.
-    [JsonProperty(PropertyName = "subscriptionId")]
+    [JsonPropertyName("subscriptionId")]
     public string SubscriptionId { get; set; }
 
     // Properties of the changed resource.
-    [JsonProperty(PropertyName = "resourceData")]
+    [JsonPropertyName("resourceData")]
     public ResourceData ResourceData { get; set; }
   }
 }
@@ -72,26 +72,26 @@ namespace msgraphapp.Models
 Replace the contents of **ResourceData.cs** with the following:
 
 ```csharp
-using Newtonsoft.Json;
+using System.Text.Json.Serialization;
 
 namespace msgraphapp.Models
 {
   public class ResourceData
   {
     // The ID of the resource.
-    [JsonProperty(PropertyName = "id")]
+    [JsonPropertyName("id")]
     public string Id { get; set; }
 
     // The OData etag property.
-    [JsonProperty(PropertyName = "@odata.etag")]
+    [JsonPropertyName("@odata.etag")]
     public string ODataEtag { get; set; }
 
     // The OData ID of the resource. This is the same value as the resource property.
-    [JsonProperty(PropertyName = "@odata.id")]
+    [JsonPropertyName("@odata.id")]
     public string ODataId { get; set; }
 
     // The OData type of the resource: "#Microsoft.Graph.Message", "#Microsoft.Graph.Event", or "#Microsoft.Graph.Contact".
-    [JsonProperty(PropertyName = "@odata.type")]
+    [JsonPropertyName("@odata.type")]
     public string ODataType { get; set; }
   }
 }
@@ -170,7 +170,7 @@ using System.Net.Http;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using msgraphapp.Models;
-using Newtonsoft.Json;
+using System.Text.Json;
 using System.Net;
 using System.Threading;
 using Microsoft.Graph;
@@ -226,7 +226,7 @@ namespace msgraphapp.Controllers
 
         Console.WriteLine(content);
 
-        var notifications = JsonConvert.DeserializeObject<Notifications>(content);
+        var notifications = JsonSerializer.Deserialize<Notifications>(content);
 
         foreach(var notification in notifications.Items)
         {
