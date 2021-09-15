@@ -4,12 +4,14 @@ title: Modify an existing Safe Links policy
 metadata:
   title: Modify an existing Safe Links policy
   description: "Modify an existing Safe Links policy"
-  ms.date: 05/10/2021
+  ms.date: 09/15/2021
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
+sandbox: false
+labModal: false
 durationInMinutes: 2
 content: |
   [!include[](includes/4-modify-existing-policy.md)]
