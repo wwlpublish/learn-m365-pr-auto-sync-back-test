@@ -5,3 +5,5 @@ The module examined how the Microsoft Store for Business includes basic distribu
 In this module, you examined the features of the Microsoft Store for Business. You also learned about the prerequisites to using it, and the benefits that it provides to organizations. You also learned about the permissions and licensing required to access the store.
 
 The module concluded by exploring how and why organizations can set up a private store within the Microsoft Store for Business. Private stores are only available to company employees. You learned how the private store can include publicly available, business-related apps that were purchased from the Microsoft Store for Business. It can also include modern Windows apps that were developed for the organization and are only available to company employees.
+
+
