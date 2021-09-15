@@ -12,7 +12,7 @@ The following roles can be assigned to users to manage access to apps and comple
 The following table identifies the tasks that each role can complete.
 
 | **Task**                             | **Admin** | **Purchaser**           | **Basic purchaser** | **Device Guard signer** |
-|:--- |:---:|:---:|:---:|:---:|
+|:------------------------------------ |:---------:|:-----------------------:|:-------------------:|:-----------------------:|
 | Assign roles                         |     X     |                         |                     |                         |
 | Manage store settings                |     X     |                         |                     |                         |
 | Acquire online licensed apps         |     X     |            X            |          X          |                         |
@@ -52,7 +52,7 @@ A licensing model specifies and controls how apps can be obtained from the Micro
 Each app in the Microsoft Store for Business has an online or offline license. The following table identifies the different actions that can be taken depending on the app license type.
 
 | **Action**                | **Online-licensed app** | **Offline-licensed app** |
-|:--- |:---:|:---:|
+|:------------------------- |:-----------------------:|:------------------------:|
 | Assign to employees       |            X            |                          |
 | Add to private store      |            X            |                          |
 | Remove from private store |            X            |                          |
