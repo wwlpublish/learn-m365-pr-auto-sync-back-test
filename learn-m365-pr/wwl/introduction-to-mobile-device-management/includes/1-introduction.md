@@ -10,4 +10,3 @@ After completing this module, you'll be able to:
  -  Compare the basic features in Microsoft Intune and Basic Mobility and Security.
  -  Describe the policy settings for mobile devices in Microsoft Intune and Basic Mobility and Security.
  -  Explain how email and document access are controlled on devices managed by MDM.
-

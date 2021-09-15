@@ -1,18 +1,20 @@
 ### YamlMime:ModuleUnit
 uid: learn.wwl.manage-safe-links.create-policies-scc
-title: Create Safe Links policies in the Security and Compliance Center
+title: Create Safe Links policies using Microsoft 365 Defender
 metadata:
-  title: Create Safe Links policies in the Security and Compliance Center
-  description: "Create Safe Links policies in the Security and Compliance Center"
-  ms.date: 05/10/2021
+  title: Create Safe Links policies using Microsoft 365 Defender
+  description: "Create Safe Links policies using Microsoft 365 Defender"
+  ms.date: 09/15/2021
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
+sandbox: false
+labModal: false
 durationInMinutes: 6
 content: |
-  [!include[](includes/2-create-policies-security-compliance-center.md)]
+  [!include[](includes/2-create-policies-using-defender.md)]
 quiz:
   title: "Check your knowledge"
   questions:

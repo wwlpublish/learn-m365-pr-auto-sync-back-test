@@ -46,7 +46,7 @@ Device compliance policies can be used in the following manner:
 
 When organizations use compliance policies independently, the targeted devices are evaluated and reported with their compliance status. For example, you can get a report on how many devices aren't encrypted, or which devices are jail-broken or rooted. Devices can report their compliance status whether they have primary user or they were enrolled by a device enrollment manager.
 
-**Additional reading.** For more information, see [Device compliance policies in Intune](/intune/device-compliance-get-started).
+**Additional reading.** For more information, see [Device compliance policies in Intune](/intune/device-compliance-get-started?azure-portal=true).
 
 ## Knowledge check
 

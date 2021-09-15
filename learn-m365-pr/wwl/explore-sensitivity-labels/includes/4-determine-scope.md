@@ -8,10 +8,10 @@ This scope configuration lets you have sensitivity labels that are just for docu
 :::image type="content" source="../media/sensitivity-labels-scopes-75ffb444.png" alt-text="screenshot showing Azure Purview assets option to define a label scope":::
 
 
-By default, the **Files &amp; emails** scope is always selected. The other scopes are selected by default when the features are enabled for your tenant:<br>
+By default, the **Files & emails** scope is always selected. The other scopes are selected by default when the features are enabled for your tenant:<br>
 
- -  **Groups &amp; sites.** [Enable sensitivity labels for containers and synchronize labels](/microsoft-365/compliance/sensitivity-labels-teams-groups-sites).<br>
- -  **Azure Purview assets (preview).** [Automatically label your content in Azure Purview](/azure/purview/create-sensitivity-label).<br>
+ -  **Groups & sites.** [Enable sensitivity labels for containers and synchronize labels](/microsoft-365/compliance/sensitivity-labels-teams-groups-sites?azure-portal=true).<br>
+ -  **Azure Purview assets (preview).** [Automatically label your content in Azure Purview](/azure/purview/create-sensitivity-label?azure-portal=true).<br>
 
 If you change the defaults so not all scopes are selected, you see the first page of the configuration settings for scopes you haven't selected. However, you can't configure the settings. For example, if the scope for files and emails isn't selected, you can't select the options on the next page.
 
@@ -26,9 +26,9 @@ When an organization creates sensitivity labels in its admin center, they appear
 
 Only one sensitivity label can be applied to an item, such as a document, email, or container. If you set an option that requires your users to provide a justification for changing a label to a lower classification, the lower classifications are identified by the order of the labels in this list. However, this option does not apply to sublabels.
 
-The ordering of sublabels is used with [automatic labeling](/microsoft-365/compliance/apply-sensitivity-label-automatically), though. When you configure labels to be applied automatically or as a recommendation, multiple matches can result for more than one label. To determine the label to apply or recommend, the label ordering is used: The last sensitive label is selected, and then if applicable, the last sublabel.
+The ordering of sublabels is used with [automatic labeling](/microsoft-365/compliance/apply-sensitivity-label-automatically?azure-portal=true), though. When you configure labels to be applied automatically or as a recommendation, multiple matches can result for more than one label. To determine the label to apply or recommend, the label ordering is used: The last sensitive label is selected, and then if applicable, the last sublabel.
 
-:::image type="content" source="../media/sensitivity-label-sublabel-options-a6621794.png" alt-text="screenshot of Labels window showing the list of sublabels in order":::
+:::image type="content" source="../media/sensitivity-label-sublabel-options-a6621794.png" alt-text="screenshot of Labels window showing the options to move labels up or down in order of priority":::
 
 
 ### Sublabels (grouping labels)
