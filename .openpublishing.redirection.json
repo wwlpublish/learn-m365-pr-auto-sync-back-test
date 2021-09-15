@@ -1659,6 +1659,16 @@
     "source_path": "learn-m365-pr/paths/m365-identity/index.md",
     "redirect_url": "https://docs.microsoft.com/learn/paths/manage-identity-and-access/",
     "redirect_document_id": false
+    },
+    {
+    "source_path": "learn-m365-pr/wwl/manage-safe-links/2-create-policies-security-compliance-center.md",
+    "redirect_url": "https://docs.microsoft.com/learn/modules/manage-safe-links/2-create-policies-using-defender",
+    "redirect_document_id": true
+    },
+    {
+    "source_path": "learn-m365-pr/wwl/manage-safe-attachments/2-create-safe-attachment-policies-security-compliance-center.md",
+    "redirect_url": "https://docs.microsoft.com/learn/modules/manage-safe-attachments/2-create-policies-using-defender",
+    "redirect_document_id": true
     }
   ]
 }
