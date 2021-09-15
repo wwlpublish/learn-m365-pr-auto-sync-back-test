@@ -4,12 +4,14 @@ title: Create Safe Links policies using PowerShell
 metadata:
   title: Create Safe Links policies using PowerShell
   description: "Create Safe Links policies using PowerShell"
-  ms.date: 05/10/2021
+  ms.date: 09/15/2021
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
+sandbox: false
+labModal: false
 durationInMinutes: 9
 content: |
   [!include[](includes/3-create-policies-using-powershell.md)]
@@ -23,7 +25,7 @@ quiz:
       explanation: "That's incorrect. You don't create separate safe links rules in the SCC. Try again."
     - content: "Holly didn't assign the policy to a safe links rule in PowerShell"
       isCorrect: true
-      explanation: "That's correct. A new safe links policy that you create in PowerShell isn't visible in the Security & Compliance Center until you assign the policy to a safe links rule in PowerShell."
+      explanation: "That's correct. A new safe links policy that you create in PowerShell isn't visible in the Security &amp; Compliance Center until you assign the policy to a safe links rule in PowerShell."
     - content: "Holly should have created a Safe Links rule before creating the Safe Links policy in PowerShell"
       isCorrect: false
       explanation: "That's incorrect. In PowerShell, you must create a Safe Links policy first and then create a Safe Links rule and assign it to the policy. Try again."

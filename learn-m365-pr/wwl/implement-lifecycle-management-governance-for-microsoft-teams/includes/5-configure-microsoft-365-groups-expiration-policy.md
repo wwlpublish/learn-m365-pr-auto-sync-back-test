@@ -28,7 +28,7 @@ Groups that are actively in use are renewed automatically. Any of the following 
 
 	- **Email contact for groups with no owners** - Specify an email address where the renewal and expiration notifications should be sent when a group has no owner. If the group does not have an owner, the expiration emails will go to a specified administrator.
 
-	- **Enable expiration for these Microsoft 365 Group (All, Selected, None)** – Select the Microsoft 365 Group that you would like to configure this expiration policy for. By your preferences: you can set the policy for all of the groups within your company, only selected groups, or you can also turn it off entirely – and that is done by selecting None.
+	- **Enable expiration for these Microsoft 365 Groups (All, Selected, None)** – Select the Microsoft 365 Group that you would like to configure this expiration policy for. By your preferences: you can set the policy for all of the groups within your company, only selected groups, or you can also turn it off entirely – and that is done by selecting **None**.
 
 4. To finish the configuration, select **Save** button.  
 ‎
@@ -46,7 +46,7 @@ There are two types of roles within a company that have different privileges whe
 | **Role**| **What they can do** |
 | - |- |
 | Office 365 global admin, User administrator| Create, read, update, or delete the Microsoft 365 Groups expiration policy settings. |
-| User| Renew or restore a Microsoft 365 Group that they own |
+| User| Renew or restore a Microsoft 365 group that they own |
 
 
  
@@ -60,7 +60,7 @@ If you have set up a retention policy for groups in the Security and Compliance 
 
 Group owners will only be notified via email. If the group was created via Planner, SharePoint, or any other app, the expiration notifications will always come via email. If the group was created via Teams, the group owner will receive a notification to renew through the activity section. 
 
-30 days before the group expire, the group owners (or the email addresses that you specified for groups that don't have an owner) will receive an email allowing them to easily renew the group. If they don't renew it, they'll receive another renewal email 15 days before expiration. If they still haven't renewed it, they will receive one more email notification the day before expiration.
+At 30 days before the group expires, the group owners (or the email addresses that you specified for groups that don't have an owner) will receive an email allowing them to easily renew the group. If they don't renew it, they'll receive another renewal email 15 days before expiration. If they still haven't renewed it, they will receive one more email notification the day before expiration.
 
 If for some reason none of the owners or admins renew the group before it expires, the admin can still restore the group for up to 30 days after expiration.
 
@@ -78,6 +78,6 @@ The permissions required to restore a group can be any of the following roles:
 
 For more information, see:
 
-* [Configure the expiration policy for Microsoft 365 Groups](/azure/active-directory/users-groups-roles/groups-lifecycle)
+* [Configure the expiration policy for Microsoft 365 Groups](/azure/active-directory/users-groups-roles/groups-lifecycle?azure-portal=true)
 
-* [Restore a deleted Microsoft 365 Group in Azure Active Directory](/azure/active-directory/users-groups-roles/groups-restore-deleted)
+* [Restore a deleted Microsoft 365 Group in Azure Active Directory](/azure/active-directory/users-groups-roles/groups-restore-deleted?azure-portal=true)

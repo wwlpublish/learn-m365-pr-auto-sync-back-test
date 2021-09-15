@@ -4,12 +4,14 @@ title: Create a transport rule to bypass a Safe Links policy
 metadata:
   title: Create a transport rule to bypass a Safe Links policy
   description: "Create a transport rule to bypass a Safe Links policy"
-  ms.date: 05/10/2021
+  ms.date: 09/15/2021
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
+sandbox: false
+labModal: false
 durationInMinutes: 2
 content: |
   [!include[](includes/5-create-transport-rule-to-bypass-policy.md)]
