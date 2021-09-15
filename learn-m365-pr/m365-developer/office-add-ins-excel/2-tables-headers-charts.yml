@@ -3,9 +3,9 @@ uid: learn-m365.office-add-ins-excel.2-tables-headers-charts
 metadata:
   title: Work with tables and charts in Excel workbooks
   description: The Excel JavaScript API makes programmatic control over text, tables, and charts in Excel workbooks. In this unit, you'll learn how to work with tables including formatting options, how to filter data, and sort the data within the table. You'll also learn how to add and customize charts to your worksheets.
-  ms.date: 03/05/2021
-  author: andrewconnell
-  ms.author: v-johnco
+  ms.date: 09/06/2021
+  author: andrewconnell-msft
+  ms.author: suzanz
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Work with tables and charts in Excel workbooks

@@ -25,7 +25,7 @@ MDM authority, such as Intune, provides the following capabilities:<br>
 
 Devices can be managed by MDM even if they aren't members of a domain. If a Windows 10 device is a domain member, it can be managed by Group Policy and MDM at the same time. In Windows 10 version 1803 and newer, you can control whether a Group Policy setting or an MDM policy setting will win if there's a conflict between them.
 
-Organizations can manage all important aspects of Windows 10 by using MDM. Each new Windows 10 version includes support for more MDM settings, and since version 1703 you can use many ADMX-backed policies to MDM. For more information, see [Understanding ADMS-backed policies](/windows/client-management/mdm/understanding-admx-backed-policies).
+Organizations can manage all important aspects of Windows 10 by using MDM. Each new Windows 10 version includes support for more MDM settings, and since version 1703 you can use many ADMX-backed policies to MDM. For more information, see [Understanding ADMS-backed policies](/windows/client-management/mdm/understanding-admx-backed-policies?azure-portal=true).
 
 By using MDM, organizations can manage configurations for the following Windows 10 configuration areas:
 
@@ -45,6 +45,15 @@ The following diagram shows what happens when a user with a new device signs in 
 
 :::image type="content" source="../media/basic-mobility-security-access-control-flow-0f850383.jpg" alt-text="diagram showing what happens when a user with a new device signs in to an application that supports access control with MDM for Microsoft 365":::
 
+
+## **Exercise – Interactive demonstrations**
+
+Select the following links to complete these interactive demonstrations:
+
+ -  [Configure Azure AD join](https://edxinteractivepage.blob.core.windows.net/edxpages/MS-101/M11-L10-E2-T2/index.html?azure-portal=true)
+ -  [Create a dynamic Azure AD device group](https://edxinteractivepage.blob.core.windows.net/edxpages/MS-101/M11-L10-E2-T3/index.html?azure-portal=true)
+
+The first simulation guides you through the steps to configure the Azure Active Directory device settings for the fictitious Adatum Corporation. In the second simulation, you'll create a new Security group for enrolled devices within Adatum. This group will support dynamic membership when a device's management type is set to MDM.
 
 ## Knowledge check
 
