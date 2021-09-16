@@ -4,12 +4,14 @@ title: Control your cloud apps with policies
 metadata:
   title: Control your cloud apps with policies
   description: "Control your cloud apps with policies"
-  ms.date: 06/09/2021
+  ms.date: 09/16/2021
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
+sandbox: false
+labModal: false
 durationInMinutes: 8
 content: |
   [!include[](includes/4-control-your-cloud-apps-with-policies.md)]

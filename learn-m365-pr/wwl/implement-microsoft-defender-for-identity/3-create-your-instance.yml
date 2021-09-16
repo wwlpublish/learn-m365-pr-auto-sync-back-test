@@ -4,12 +4,14 @@ title: Create your Microsoft Defender for Identity instance
 metadata:
   title: Create your Microsoft Defender for Identity instance
   description: "Create your Microsoft Defender for Identity instance"
-  ms.date: 06/10/2021
+  ms.date: 09/16/2021
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
+sandbox: false
+labModal: false
 durationInMinutes: 7
 content: |
   [!include[](includes/3-create-your-instance.md)]

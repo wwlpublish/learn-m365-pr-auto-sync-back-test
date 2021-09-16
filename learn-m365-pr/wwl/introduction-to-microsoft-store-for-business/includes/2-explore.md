@@ -35,7 +35,7 @@ The Microsoft Store for Business is available for free. It provides organization
 > [!NOTE]
 > The Microsoft Store for Business is localized based on the user’s location.
 
-**Additional reading.** For more information, see [Microsoft Store for Business and Education](/microsoft-store/).
+**Additional reading.** For more information, see [Microsoft Store for Business and Education](/microsoft-store/?azure-portal=true).
 
 ## Knowledge check
 

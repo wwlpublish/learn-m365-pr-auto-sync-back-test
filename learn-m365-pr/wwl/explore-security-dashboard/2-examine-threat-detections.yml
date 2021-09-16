@@ -4,12 +4,14 @@ title: Examine threat detections in the Security Dashboard
 metadata:
   title: Examine threat detections in the Security Dashboard
   description: "Examine threat detections in the Security Dashboard"
-  ms.date: 06/09/2021
+  ms.date: 09/16/2021
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
+sandbox: false
+labModal: false
 durationInMinutes: 6
 content: |
   [!include[](includes/2-examine-threat-detections.md)]
