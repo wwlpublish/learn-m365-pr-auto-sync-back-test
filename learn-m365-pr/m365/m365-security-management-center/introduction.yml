@@ -6,7 +6,7 @@ metadata:
   description: Get an overview of the Microsoft 365 Defender portal, a set of tools to monitor and manage security.
   ms.date: 06/23/2021
   author: AlexandraHrt
-  ms.author: elizapo
+  ms.author: beccarobins
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 durationInMinutes: 2

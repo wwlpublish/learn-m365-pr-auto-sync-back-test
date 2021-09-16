@@ -6,7 +6,7 @@ metadata:
   description: Review the Microsoft readiness tools that help you discover and assess the compatibility of Office COM add-ins and VBA Macros. 
   ms.date: 07/19/2021
   author: AlexandraHrt 
-  ms.author: v-aleha
+  ms.author: teleary
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 durationInMinutes: 7

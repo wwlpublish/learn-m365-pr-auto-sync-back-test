@@ -4,9 +4,9 @@ title: Implement the device and app readiness process
 metadata:
   title: Device and app readiness process
   description: Learn about ...
-  msdate: 04/28/2019
+  ms.date: 04/28/2019
   author: lizap
-  ms.author: elizapo
+  ms.author: teleary
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 durationInMinutes: 5
