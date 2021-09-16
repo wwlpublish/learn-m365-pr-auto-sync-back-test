@@ -7,7 +7,7 @@ By default, a user must authenticate with a username and password when they want
 :::image type="content" source="../media/different-forms-of-authentication-6c7f95b4.png" alt-text="graphic showing different forms of authentication":::
 
 
-For Microsoft 365, Azure Multifactor Authentication (MFA) helps safeguard access to data and applications. Because MFA is turned off by default, organizations must enable it as an optional step. MFA can be enabled in the Azure portal or in the Microsoft 365 admin portal. It's recommended that organizations turn on MFA for all privileged users. In fact, it's not uncommon for MFA to be turned on for all users.
+For Microsoft 365, Azure Active Directory Multi-Factor Authentication (MFA) helps safeguard access to data and applications. Because MFA is turned off by default, organizations must enable it as an optional step. MFA can be enabled in the Azure portal or in the Microsoft 365 admin portal. It's recommended that organizations turn on MFA for all privileged users. In fact, it's not uncommon for MFA to be turned on for all users.
 
 MFA provides organizations with extra security. It also requires that the user has their trusted device when signing in. Many other settings can be configured for MFA. For example:
 
