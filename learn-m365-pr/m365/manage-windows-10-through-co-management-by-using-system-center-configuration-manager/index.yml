@@ -5,7 +5,7 @@ metadata:
   description: Co-management is one of the primary ways to attach your existing Configuration Manager deployment to the Microsoft 365 cloud. It helps you unlock additional cloud-powered capabilities like conditional access.
   ms.date: 07/16/2021
   author: dahans-msft2
-  ms.author: dahans
+  ms.author: teleary
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Manage Windows 10 through co-management by using System Center Configuration Manager

@@ -5,7 +5,7 @@ metadata:
   description: Learn how to install and load the wpa R package. Validate and explore Microsoft Workplace Analytics data, and learn how you can use wpa R package functions to create your own analysis.  
   ms.date: 08/31/2021
   author: jelathro
-  ms.author: jelathro
+  ms.author: teleary
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Analyze Microsoft Workplace Analytics data using the wpa R package
