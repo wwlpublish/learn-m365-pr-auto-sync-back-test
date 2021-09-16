@@ -1,4 +1,12 @@
-Before you can set up co-management, you must have the correct licensing for Azure Active Directory Premium and Microsoft Intune. Also, you must be using a current version of Configuration Manager, upgraded your devices to Windows 10 or later, have Azure AD for your Window 10 or later devices, have enable Windows 10 (or later) automatic enrollment with Intune, and set up proper permissions and roles. Each of these requirements are presented in the following sections.
+Before you can set up co-management, you must have the correct licensing for Azure Active Directory Premium and Microsoft Intune. Additionally, you must have or be using the following items: 
+
+- A current version of Configuration Manager
+- Windows client devices that are running Windows 10 or later
+- Azure AD for your Windows client devices
+- Windows 10 (or later) automatic enrollment with Intune
+- Proper permissions and roles
+
+Each of these requirements are presented in the following sections.
 
 ## Licensing
 
@@ -6,12 +14,9 @@ You will need licenses for the following products:
 - Microsoft Intune
 - Azure AD Premium
 
-A Microsoft Intune license is created for you when you sign up for the Intune free trial. As part of this trial, you'll also have a trial Enterprise Mobility + Security (EMS) subscription. 
+A Microsoft Intune license is created for you when you sign up for the Intune free trial. As part of this trial, you'll also have a trial Enterprise Mobility + Security (EMS) subscription. An Enterprise Mobility + Security (EMS) subscription includes both Azure Active Directory Premium and Microsoft Intune.
 
-  > [!Note]  
-  > An Enterprise Mobility + Security (EMS) subscription includes both Azure Active Directory Premium and Microsoft Intune.
-
-You need at least one Intune license for you as the administrator to access the Microsoft Endpoint Manager admin center. If you are unable to access this portal using the step below, or don't have an Intune license, sign up now for the [Intune free trial](/mem/intune/fundamentals/free-trial-sign-up).
+You need at least one Intune license for you as the administrator to access the Microsoft Endpoint Manager admin center. If you are unable to access this portal using the step below, or if you don't have an Intune license, you can sign up now for the [Intune free trial](/mem/intune/fundamentals/free-trial-sign-up).
 
 To confirm your Microsoft Intune license or trial, use the following steps:
 
@@ -21,8 +26,8 @@ To confirm your Microsoft Intune license or trial, use the following steps:
 3. Select **Tenant administration** > **Roles** > **My permissions**. 
 4. Confirm you are an **administrator** with **full** permissions to **all** Intune resources.
 
-> [!Tip]
-> If you are not using Microsoft Intune, you can quickly sign up for the [Intune free trial](/mem/intune/fundamentals/free-trial-sign-up). Or for a complete overview of Intune, see [Set up Microsoft Intune](/learn/modules/set-up-microsoft-intune?azure-portal=true).
+> [!NOTE]
+> For more in-depth information about Microsoft Intune, see the learning module: [Set up Microsoft Intune](/learn/modules/set-up-microsoft-intune?azure-portal=true).
 
 To check on your Azure AD Premium license, use the following steps:
 
@@ -63,7 +68,7 @@ Intune, which is required for co-management, is a cloud-based service that focus
 
 Intune is part of Microsoft's [Enterprise Mobility + Security (EMS) suite](https://www.microsoft.com/microsoft-365/enterprise-mobility-security). Intune integrates with Azure Active Directory (Azure AD) to control who has access, and what they can access. It also integrates with Azure Information Protection for data protection. It can be used with the Microsoft 365 suite of products.
 
-You can access Intune using the Microsoft Endpoint Manager admin center. If you are unable to access Intune using the step below, or don't have an Intune license, sign up now for the [Intune free trial](/mem/intune/fundamentals/free-trial-sign-up).
+You can access Intune using the Microsoft Endpoint Manager admin center. If you are unable to access Intune using the step below, confirm that you have an Intune license (see above).
 
 If you are uncertain whether you have a Microsoft Intune license, you can confirm access using the following steps:
 
@@ -88,4 +93,4 @@ To enable co-management, end users must upgrade their devices to a supported ver
 
 ## Permissions and roles
 
-To enable co-management in Configuration Manager, you must have Full Administrator rights. For more information about Configuration Manager roles, see [Fundamentals of role-based administration](/mem/configmgr/core/understand/fundamentals-of-role-based-administration).
+To enable co-management in Configuration Manager, must be assigned the Full Administrator role. For more information about Configuration Manager roles, see [Fundamentals of role-based administration](/mem/configmgr/core/understand/fundamentals-of-role-based-administration).

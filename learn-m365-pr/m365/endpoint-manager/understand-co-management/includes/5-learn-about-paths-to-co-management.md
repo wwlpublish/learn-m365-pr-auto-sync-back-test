@@ -6,7 +6,7 @@ Once you decide to move to Configuration Manager or extend your existing Configu
 Each path requires some combination of Azure Active Directory (Azure AD), Configuration Manager, Microsoft Intune, and Windows 10 or later. 
 
 > [!NOTE]
-> A Configuration Manager client is a Windows 10 or later device that has the Configuration Manager client software and client application installed on the devices. The Configuration Manager client application is designed for your help desk rather than for the end user.
+> A Configuration Manager client is a Windows 10 or later device that has the Configuration Manager client application installed on it.
 
 Based on the following paths to enable co-management, choose which path is right for you and your organization.
 
@@ -37,7 +37,7 @@ Just as mentioned above, co-management allows you to keep your well-established 
 - Enable co-management in Configuration Manager
 - Configure Intune to install the [Configuration Manager client](/mem/configmgr/core/understand/fundamentals-of-client-management-tasks#configuration-manager-client-application)
 
-This path to co-management involves having Windows 10 or later devices that must join Azure AD and be automatically enrolled into Intune. Also, you must install Configuration Manager client to reach a co-management state. When you do this you set up co-management of Windows 10 devices in an environment where you use both Azure Active Directory (AD) and an on-premises AD but don't have a hybrid Azure Active Directory (AD). The Configuration Manager environment includes a single primary site with all site system roles located on the same server, the site server. 
+This path to co-management involves having Windows 10 or later devices that must join Azure AD and be automatically enrolled into Intune. Also, you must install the Configuration Manager client to reach a co-management state. When you do this you set up co-management of Windows 10 devices in an environment where you use both Azure Active Directory (AD) and an on-premises AD but don't have a hybrid Azure Active Directory (AD). The Configuration Manager environment includes a single primary site with all site system roles located on the same server, the site server. 
 
 This path to co-management begins with the premise that your Windows 10 or later devices are already enrolled with Intune. If you are not using Microsoft Intune, you can quickly sign up for the [Intune free trial](/mem/intune/fundamentals/free-trial-sign-up). Or for a complete overview of Intune, see [Set up Microsoft Intune](/learn/modules/set-up-microsoft-intune?azure-portal=true).
 
