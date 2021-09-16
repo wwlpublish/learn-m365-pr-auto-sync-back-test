@@ -5,7 +5,7 @@ metadata:
   description: Learn about how to manage updates for your devices.
   ms.date: 07/15/2021
   author: iankensey
-  ms.author: v-iakens
+  ms.author: elizapo
   ms.topic: interactive-tutorial
   ms.prod: learning-windows
 title: Manage Windows updates in the cloud
@@ -16,7 +16,7 @@ abstract: |
   - Manage quality, feature, and driver updates for Windows devices
   - Manage the post-deployment experience for updates
 prerequisites: Familiarity with the Windows update lifecycle.
-iconUrl: /learn/achievements/generic-badge.svg
+iconUrl: /learn/achievements/manage-windows-updates-in-the-cloud.svg
 levels:
 - intermediate
 roles:
