@@ -4,12 +4,14 @@ title: Explore Cloud App Security
 metadata:
   title: Explore Cloud App Security
   description: "Explore Cloud App Security"
-  ms.date: 06/09/2021
+  ms.date: 09/16/2021
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
+sandbox: false
+labModal: false
 durationInMinutes: 9
 content: |
   [!include[](includes/2-explore-cloud-app-security.md)]

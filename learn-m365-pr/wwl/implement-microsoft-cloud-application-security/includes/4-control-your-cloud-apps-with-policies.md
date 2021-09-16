@@ -8,7 +8,7 @@ Complete the following steps to control risk with policies:
 2.  On the **Policies** page, select the policy you want to maintain and fine-tune the policy to achieve expected results.
 3.  Add automated actions to respond and remediate risks automatically.
 
-**Additional reading.** For more information, see [How to control cloud apps with policies](/cloud-app-security/control-cloud-apps-with-policies).
+**Additional reading.** For more information, see [How to control cloud apps with policies](/cloud-app-security/control-cloud-apps-with-policies?azure-portal=true).
 
 The rest of this unit examines the types of policy apps that are available, and how you can identify risks within a policy.
 
@@ -226,7 +226,7 @@ Cloud App Security also helps you mitigate different risks in the cloud. You can
   :::column:::
     
 
-Continuously monitor behavior and detect anomalous activities, including high-risk insider and external attacks, and apply a policy to alert, block, or require identity verification for any app or specific action within an app. Enables on-premises and mobile access control policies based on user, device, and geography with coarse blocking and granular view, edit, and block. Detect suspicious login events, including multi-factor authentication failures, disabled account login failures, and impersonation events.
+Continuously monitor behavior and detect anomalous activities, including high-risk insider and external attacks, and apply a policy to alert, block, or require identity verification for any app or specific action within an app. Enables on-premises and mobile access control policies based on user, device, and geography with coarse blocking and granular view, edit, and block. Detect suspicious login events, including multifactor authentication failures, disabled account login failures, and impersonation events.
 
 
   :::column-end:::

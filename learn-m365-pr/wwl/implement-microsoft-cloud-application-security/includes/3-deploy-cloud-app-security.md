@@ -12,7 +12,7 @@ To deploy Cloud App Security, you must complete the following steps to set up an
  -  Step 4 - Personalize your experience
  -  Step 5 - Organize the data according to your needs
 
-**Additional reading.** For more information, see [Getting started with Cloud App Security](/cloud-app-security/getting-started-with-cloud-app-security).
+**Additional reading.** For more information, see [Getting started with Cloud App Security](/cloud-app-security/getting-started-with-cloud-app-security?azure-portal=true).
 
 ### Step 1 - Set up Cloud Discovery
 
