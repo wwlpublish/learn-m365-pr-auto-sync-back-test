@@ -5,7 +5,7 @@ metadata:
   description: This module will introduce you to the modern device management options for Windows 10 from Microsoft 365, including co-management and Microsoft Intune.
   ms.date: 07/15/2021
   author: dahans-msft2
-  ms.author: dahans
+  ms.author: teleary
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Manage devices by using Microsoft Intune
