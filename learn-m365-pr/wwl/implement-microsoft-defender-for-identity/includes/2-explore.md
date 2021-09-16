@@ -68,14 +68,14 @@ It's recommended that organizations deploy Defender for Identity in three phases
 
  -  **Phase 1:**
     
-    1.  [Install Defender for Identity](/defender-for-identity/install-step1) to protect your primary environments. Defender for Identity's fast deployment model enables organizations to start protecting their environments immediately.
-    2.  Set [sensitive accounts](/defender-for-identity/manage-sensitive-honeytoken-accounts) and [honey token accounts](/defender-for-identity/configure-detection-exclusions).
-    3.  Review reports and [lateral movement paths](/defender-for-identity/use-case-lateral-movement-path).
+    1.  [Install Defender for Identity](/defender-for-identity/install-step1?azure-portal=true) to protect your primary environments. Defender for Identity's fast deployment model enables organizations to start protecting their environments immediately.
+    2.  Set [sensitive accounts](/defender-for-identity/manage-sensitive-honeytoken-accounts?azure-portal=true) and [honey token accounts](/defender-for-identity/configure-detection-exclusions?azure-portal=true).
+    3.  Review reports and [lateral movement paths](/defender-for-identity/use-case-lateral-movement-path?azure-portal=true).
  -  **Phase 2:**
     
     1.  Protect all the domain controllers and forests in the organization.
     2.  Monitor all alerts. Investigate lateral movement and domain dominance alerts.
-    3.  Work with the [Security Alert guide](/defender-for-identity/suspicious-activity-guide) to understand threats and triage potential attacks.
+    3.  Work with the [Security Alert guide](/defender-for-identity/suspicious-activity-guide?azure-portal=true) to understand threats and triage potential attacks.
  -  **Phase 3:**
     
     1.  Integrate Defender for Identity alerts into your security operation's workflows.
