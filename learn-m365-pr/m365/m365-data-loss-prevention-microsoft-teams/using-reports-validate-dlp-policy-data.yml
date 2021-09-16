@@ -5,7 +5,7 @@ metadata:
   description: Learn how you can use reports to verify that DLP policies are working properly.
   ms.date: 02/19/2021
   author: iankensey
-  ms.author: v-iakens
+  ms.author: beccarobins
   ms.topic: interactive-tutorial
   ms.prod: learning-teams
 title: Use reports validate DLP policy data

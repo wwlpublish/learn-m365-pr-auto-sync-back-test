@@ -5,7 +5,7 @@ metadata:
   description: Learn how to install applications from the Microsoft Store for Eduction using Intune for Education.
   ms.date: 05/07/2021
   author: iankensey
-  ms.author: beccarobins
+  ms.author: teleary
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Deploy Win32 applications 
