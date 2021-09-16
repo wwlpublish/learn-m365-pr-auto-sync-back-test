@@ -6,7 +6,7 @@ metadata:
   description: Learn how Click-to-Run packaging with Microsoft 365 Apps gives you new options to configure, deliver, and keep your Office apps up to date. Ensure your third-party and business apps are packaged and ready for automated installation.
   ms.date: 07/15/2021
   author: lizap
-  ms.author: aleha
+  ms.author: teleary
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 durationInMinutes: 7
