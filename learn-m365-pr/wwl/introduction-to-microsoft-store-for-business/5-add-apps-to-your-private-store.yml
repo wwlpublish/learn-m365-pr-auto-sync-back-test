@@ -4,12 +4,14 @@ title: Add apps to your private store
 metadata:
   title: Add apps to your private store
   description: "Add apps to your private store"
-  ms.date: 06/24/2021
+  ms.date: 09/16/2021
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
+sandbox: false
+labModal: false
 durationInMinutes: 4
 content: |
   [!include[](includes/5-add-apps-to-your-private-store.md)]

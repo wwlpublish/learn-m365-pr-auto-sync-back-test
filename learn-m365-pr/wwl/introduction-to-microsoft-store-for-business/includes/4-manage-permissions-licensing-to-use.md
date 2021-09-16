@@ -11,15 +11,15 @@ The following roles can be assigned to users to manage access to apps and comple
 
 The following table identifies the tasks that each role can complete.
 
-| <p><b>Task</b></p>                   | <p><b>Admin</b></p> | <p><b>Purchaser</b></p> | <p><b>Basic purchaser</b></p> | <p><b>Device Guard signer</b></p> |
-|:-:|:-:|:-:|:-:|:-:|
-| <p>Assign roles</p>                  |      <p>X</p>       |        <p> </p>         |           <p> </p>            |             <p> </p>              |
-| <p>Manage store settings</p>         |      <p>X</p>       |        <p> </p>         |           <p> </p>            |             <p> </p>              |
-| <p>Acquire online licensed apps</p>  |      <p>X</p>       |        <p>X</p>         |           <p>X</p>            |             <p> </p>              |
-| <p>Acquire offline licensed apps</p> |      <p>X</p>       |        <p>X</p>         |           <p> </p>            |             <p> </p>              |
-| <p>Add apps to the private store</p> |      <p>X</p>       |        <p> </p>         |           <p> </p>            |             <p> </p>              |
-| <p>Distribute apps</p>               |      <p>X</p>       |        <p>X</p>         |           <p>X</p>            |             <p> </p>              |
-| <p>Sign policies and catalogs</p>    |      <p>X</p>       |        <p> </p>         |           <p> </p>            |             <p>X</p>              |
+| **Task**                             | **Admin** | **Purchaser**           | **Basic purchaser** | **Device Guard signer** |
+|:------------------------------------ |:---------:|:-----------------------:|:-------------------:|:-----------------------:|
+| Assign roles                         |     X     |                         |                     |                         |
+| Manage store settings                |     X     |                         |                     |                         |
+| Acquire online licensed apps         |     X     |            X            |          X          |                         |
+| Acquire offline licensed apps        |     X     |            X            |                     |                         |
+| Add apps to the private store        |     X     |                         |                     |                         |
+| Distribute apps                      |     X     |            X            |          X          |                         |
+| Sign policies and catalogs           |     X     |                         |                     |            X            |
 
 When you sign up for the Microsoft Store for Business, the following apps are automatically added to the organization's private store if they haven't already been added:
 
@@ -51,16 +51,16 @@ A licensing model specifies and controls how apps can be obtained from the Micro
 
 Each app in the Microsoft Store for Business has an online or offline license. The following table identifies the different actions that can be taken depending on the app license type.
 
-| Action                    | Online-licensed app | Offline-licensed app |
-|:- |:-:|:--:|
-| Assign to employees       |          X          |                      |
-| Add to private store      |          X          |                      |
-| Remove from private store |          X          |                      |
-| View license details      |          X          |                      |
-| View product details      |          X          |          X           |
-| Download for offline use  |                     |          X           |
+| **Action**                | **Online-licensed app** | **Offline-licensed app** |
+|:------------------------- |:-----------------------:|:------------------------:|
+| Assign to employees       |            X            |                          |
+| Add to private store      |            X            |                          |
+| Remove from private store |            X            |                          |
+| View license details      |            X            |                          |
+| View product details      |            X            |            X             |
+| Download for offline use  |                         |            X             |
 
-**Additional reading.** For more information, see the following article on [Microsoft Store for Business licensing modes](/microsoft-store/apps-in-microsoft-store-for-business).
+**Additional reading.** For more information, see the following article on [Microsoft Store for Business licensing modes](/microsoft-store/apps-in-microsoft-store-for-business?azure-portal=true).
 
 ### Manage app licenses
 
@@ -70,8 +70,8 @@ For each app in your inventory, you can view and manage license details. This me
 
 Complete the following steps to view license details:
 
-1.  Sign in to the [Microsoft Store for Business](https://businessstore.microsoft.com/store/private-store?azure-portal=true).<br>
-2.  Select **Manage** and then choose **Products &amp; services**.<br>
+1.  Sign in to the [Microsoft Store for Business](https://businessstore.microsoft.com/store/private-store?azure-portal=true)<br>
+2.  Select **Manage** and then choose **Products & services**.<br>
 3.  Select an app that you want to manage.<br>
 4.  On the **app details** page, you'll see the names of people in your organization who have installed the app and are using one of the licenses. From here, you can complete any of the following actions:<br>
     
@@ -97,6 +97,12 @@ Complete the following steps to reclaim an app license from a user:
 2.  Select the ellipses icon, and then select **Reclaim licenses** from the drop-down menu.
 
 The Microsoft Store for Business updates the list of assigned licenses.
+
+## **Exercise – Interactive demonstration**
+
+Select the following link to complete an interactive demonstration titled: [Set up the organization profile](https://edxinteractivepage.blob.core.windows.net/edxpages/MS-100/M2-L1-E1-T2/index.html?azure-portal=true).
+
+This simulation guides you through the steps to configure and manage apps in the Microsoft Store for Business for the fictitious company known as Adatum Corporation. You'll begin by selecting three apps that Adatum wants distributed throughout the organization. You'll then create a new collection in Adatum's private store.
 
 ## Knowledge check
 
