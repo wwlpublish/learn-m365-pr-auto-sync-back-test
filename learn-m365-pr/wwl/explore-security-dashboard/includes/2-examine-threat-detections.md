@@ -1,6 +1,6 @@
 The Microsoft 365 Security and Compliance Center enables your organization to manage data protection and compliance. A key tool within the Security and Compliance Center is the Security Dashboard. The dashboard enables you to review your organization's Threat Protection Status and view and act on security alerts.
 
-To launch the Security Dashboard, go to the Microsoft 365 Security and Compliance Center, and then in the left navigation pane, go to **Threat management &gt; Dashboard**.
+To launch the Security Dashboard, go to the Microsoft 365 Security and Compliance Center, and then in the left navigation pane, go to **Threat management > Dashboard**.
 
 The Security Dashboard includes tiles you can select to provide summarized and detailed information on your organization's threat protection status. These tiles provide a quick view into the top malware families targeting your tenant and how Microsoft 365 is protecting your tenant.
 
@@ -78,7 +78,7 @@ The details that are displayed depend on whether your Microsoft 365 subscription
   :::column:::
     Malicious email that was detected and blocked by EOP.
 
-See [Threat Protection Status report (EOP)](/microsoft-365/security/office-365-security/view-email-security-reports).
+See [Threat Protection Status report (EOP)](/microsoft-365/security/office-365-security/view-email-security-reports?azure-portal=true).
 
 
   :::column-end:::
@@ -92,7 +92,7 @@ See [Threat Protection Status report (EOP)](/microsoft-365/security/office-365-s
 
 Aggregated count of unique email messages with malicious content blocked by the anti-malware engine, zero-hour auto purge, and Defender for Office 365 features (including Safe Links, Safe Attachments, and Anti-phishing in Defender for Office 365).
 
-See [Threat protection status report](/microsoft-365/security/office-365-security/view-reports-for-mdo).
+See [Threat protection status report](/microsoft-365/security/office-365-security/view-reports-for-mdo?azure-portal=true).
 
 
   :::column-end:::
@@ -166,13 +166,13 @@ The Insights tile identifies key issues you should review and recommendations an
 :::image type="content" source="../media/smart-insights-db219224.png" alt-text="screenshot of the Insights tile":::
 
 
-For example, you may see that phishing email messages are being delivered because some users have disabled their junk mail options. To learn more about how insights work, see [Reports and insights in the Security &amp; Compliance Center](/microsoft-365/security/office-365-security/reports-and-insights-in-security-and-compliance).
+For example, you may see that phishing email messages are being delivered because some users have disabled their junk mail options. To learn more about how insights work, see [Reports and insights in the Security &amp; Compliance Center](/microsoft-365/security/office-365-security/reports-and-insights-in-security-and-compliance?azure-portal=true).
 
 ### Threat investigation and response
 
-If your organization's subscription includes Microsoft Defender for Office 365 Plan 2, your Security Dashboard has a section that includes advanced threat investigation and response tools. These tools include [automated investigation and response capabilities](/microsoft-365/security/office-365-security/automated-investigation-response-office). Automated investigation and response can be helpful in scenarios such as [addressing compromised user accounts quickly](/microsoft-365/security/office-365-security/address-compromised-users-quickly).
+If your organization's subscription includes Microsoft Defender for Office 365 Plan 2, your Security Dashboard has a section that includes advanced threat investigation and response tools. These tools include [automated investigation and response capabilities](/microsoft-365/security/office-365-security/automated-investigation-response-office?azure-portal=true). Automated investigation and response can be helpful in scenarios such as [addressing compromised user accounts quickly](/microsoft-365/security/office-365-security/address-compromised-users-quickly?azure-portal=true).
 
-To learn more, see [Get started using Automated investigation and response (AIR) in Office 365](/microsoft-365/security/office-365-security/office-365-air).
+To learn more, see [Get started using Automated investigation and response (AIR) in Office 365](/microsoft-365/security/office-365-security/office-365-air?azure-portal=true).
 
 ### Trends
 
