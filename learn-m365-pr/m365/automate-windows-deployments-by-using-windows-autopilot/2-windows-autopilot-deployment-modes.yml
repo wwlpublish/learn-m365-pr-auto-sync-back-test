@@ -6,7 +6,7 @@ metadata:
   description: Learn about the available deployment modes in Windows Autopilot
   ms.date: 07/19/2021
   author: dahans-msft2
-  ms.author: dahans
+  ms.author: teleary
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 durationInMinutes: 10
