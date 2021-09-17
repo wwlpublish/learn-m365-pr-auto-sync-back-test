@@ -18,4 +18,4 @@ But if the company provides employees with iOS devices that are part of the Devi
 6.  Agree to the **Terms and Conditions** and decide whether you want to send diagnostic information to Apple.
 7.  Once you complete your enrollment, your device may prompt you to take more actions. Some of these steps may include entering your password for email access or setting up a passcode.
 
-**Additional reading.** For more information, see [Enrolling iOS devices to Intune](/intune-user-help/enroll-your-device-in-intune-ios).
+**Additional reading.** For more information, see [Enrolling iOS devices to Intune](/intune-user-help/enroll-your-device-in-intune-ios?azure-portal=true).

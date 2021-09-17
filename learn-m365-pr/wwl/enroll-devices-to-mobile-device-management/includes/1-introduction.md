@@ -6,7 +6,7 @@ You can't require that users enroll their devices to MDM, but you can require th
 
 In this module, you'll also learn how to manage the enrollment of devices. While users can enroll up to five devices to MDM by themselves, some companies want to provide employees with devices that are already enrolled. Intune addresses this need by employing device enrollment managers (DEM). This module introduces you to device enrollment managers, who can each enroll up to 1000 devices.
 
-Finally, if your environment requires stronger security, you can configure Azure AD to require multi-factor authentication (MFA) for users who are enrolling devices to MDM. This module examines how to implement MFA so that users have to prove their identity with another authentication factor before they can enroll their devices.
+Finally, if your environment requires stronger security, you can configure Azure AD to require multifactor authentication (MFA) for users who are enrolling devices to MDM. This module examines how to implement MFA so that users have to prove their identity with another authentication factor before they can enroll their devices.
 
 After completing this module, you'll be able to:
 
@@ -16,4 +16,3 @@ After completing this module, you'll be able to:
  -  Explain how users can enroll their personal devices.
  -  Explain the permissions assigned to the Device Enrollment Manager role.
  -  Explain why MFA helps secure the sign-in to Microsoft 365 or Intune for mobile device enrollment.
-
