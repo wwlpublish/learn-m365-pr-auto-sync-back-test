@@ -3,7 +3,7 @@ uid: learn.wwl.manage-apps-for-microsoft-teams
 metadata:
   title: Manage apps for Microsoft Teams
   description: "Manage apps for Microsoft Teams"
-  ms.date: 09/14/2021
+  ms.date: 09/18/2021
   author: wwlpublish
   ms.author: jennyche
   ms.topic: interactive-tutorial
@@ -21,7 +21,7 @@ abstract: |
 prerequisites: |
   - A proficient understanding of basic functional experience with Microsoft 365 services.
   - A proficient understanding of general IT practices, including using PowerShell.
-iconUrl: /learn/achievements/generic-badge.svg
+iconUrl: /learn/achievements/manage-apps-for-microsoft-teams.svg
 levels:
 - intermediate
 roles:

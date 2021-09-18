@@ -77,7 +77,7 @@ The following table summarizes the custom app policy and settings, how they work
  
  
 | **Org-wide custom app setting** | **User custom app setting** | **Team custom app setting** | **Effect**                                                                                                                                                                                                  |
-||--|--|-|
+|---------------------------------|-----------------------------|-----------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Off                             | Off                         | Off                         | Interaction with all custom apps is blocked for your organization. Custom apps cannot be uploaded by anyone. You can use PowerShell to remove the custom app.                                               |
 | Off                             | On                         | Off                          | Interaction with all custom apps is blocked for your organization. Custom apps cannot be uploaded by anyone. You can use PowerShell to remove the custom app.                                               |
 | Off                             | Off                          | On                         | Interaction with all custom apps is blocked for your organization. Custom apps cannot be uploaded by anyone. You can use PowerShell to remove the custom app.                                               |
