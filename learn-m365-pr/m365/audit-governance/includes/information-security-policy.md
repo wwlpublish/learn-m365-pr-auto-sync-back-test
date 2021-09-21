@@ -43,7 +43,7 @@ The Control Framework consists of 18 objectives in the following key domain area
 
 Each service team within Microsoft 365 designates individuals responsible for driving compliance with the Microsoft 365 Information Security Policy, implementing relevant security controls, and verifying that controls have been implemented properly. The table below briefly summarizes roles with important responsibilities for driving alignment with the Microsoft 365 Information Security Policy.
 
-| Role | Description of responsibilites |
+| Role | Description of responsibilities |
 |-|-|
 | Information System Security Officer | Individual responsible for maintaining the operational security posture of the information system. |
 | GRC Compliance Officer | Individual responsible for defining minimum security requirements and verifying these requirements are met by Microsoft 365. |

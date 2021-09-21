@@ -15,5 +15,4 @@ Technology controls enable Microsoft to implement the principle of Zero Standing
 ## Learn more
 
 - [Microsoft 365 Isolation Controls](/microsoft-365/enterprise/microsoft-365-isolation-controls?azure-portal=true)
-- [Microsoft 365 Technology Controls](/compliance/assurance/assurance-technology-controls?azure-portal=true)
 - [Human resources overview](/office365/Enterprise/office-365-personnel-controls?azure-portal=true)
