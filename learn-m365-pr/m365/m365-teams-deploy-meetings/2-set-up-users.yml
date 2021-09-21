@@ -5,7 +5,7 @@ metadata:
   title: Set up users
   description: Learn how to set users up on Teams meetings by using the Microsoft 365 admin center, PowerShell, or Teams meetings policies. 
   ms.date: 07/15/2021
-  ms.author: elizapo
+  ms.author: teleary
   author: lizap
   ms.topic: interactive-tutorial
   ms.prod: learning-teams

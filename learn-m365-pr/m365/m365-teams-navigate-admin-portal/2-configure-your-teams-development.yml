@@ -5,7 +5,7 @@ metadata:
   title: Configure your Teams deployment
   description: Learn about the core decisions you need to take as you deploy and configure Teams.
   ms.date: 07/16/2021
-  ms.author: elizapo
+  ms.author: teleary
   author: lizap
   ms.topic: interactive-tutorial
   ms.prod: learning-teams
