@@ -5,7 +5,7 @@ metadata:
   title: Implement Conditional Access in Teams
   description: Learn how to to set policies that test devices and users, then decide on their level of access based on the results with Conditional Access.
   ms.date: 07/16/2021
-  ms.author: elizapo
+  ms.author: teleary
   author: lizap
   ms.topic: interactive-tutorial
   ms.prod: learning-teams

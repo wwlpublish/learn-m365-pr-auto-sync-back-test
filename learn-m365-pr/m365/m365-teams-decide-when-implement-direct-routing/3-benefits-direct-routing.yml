@@ -6,7 +6,7 @@ metadata:
   description: In this unit you'll learn about the advantages of Direct Routing over a third-party private branch exchange (PBX).
   ms.date: 09/10/2020
   author: lizap
-  ms.author: elizapo
+  ms.author: teleary
   ms.topic: interactive-tutorial
   ms.prod: learning-teams
 durationInMinutes: 4

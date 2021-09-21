@@ -4,8 +4,8 @@ metadata:
   title: Plan your Teams meeting deployment
   description: Microsoft Teams brings teams together to work more efficiently.  Meetings are an essential part of any project or organizations daily operation.  Teams supports meetings not only within your organization, but also with third-parties.   In this module, you'll understand how plan the deployment of Teams to facilitate meetings in your business.
   ms.date: 07/16/2021
-  ms.author: elizapo
   author: lizap
+  ms.author: teleary
   ms.topic: interactive-tutorial
   ms.prod: learning-teams
 title: Plan your Teams meeting deployment

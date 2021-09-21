@@ -5,7 +5,7 @@ metadata:
   title: Understand core networking principals for Microsoft 365 and Teams
   description: Learn about the requirements Teams and Microsoft 365 have on the connection between your premises and the Microsoft data centers.
   ms.date: 07/15/2021
-  ms.author: elizapo
+  ms.author: teleary
   author: iankensey
   ms.topic: interactive-tutorial
   ms.prod: learning-teams

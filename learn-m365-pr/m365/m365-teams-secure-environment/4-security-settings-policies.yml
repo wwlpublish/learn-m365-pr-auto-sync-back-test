@@ -5,7 +5,7 @@ metadata:
   title: Enforce security using settings and policies  
   description: Learn how you can use Conditional Access policies and Microsoft Intune policies to enforce security.
   ms.date: 06/02/2021
-  ms.author: elizapo
+  ms.author: teleary
   author: lizap
   ms.topic: interactive-tutorial
   ms.prod: learning-teams

@@ -5,7 +5,7 @@ metadata:
   title: Configure data loss prevention
   description: Learn how a data loss prevention (DLP) policy can help you identify, monitor, and automatically protect sensitive information in Teams.
   ms.date: 06/23/2021
-  ms.author: elizapo
+  ms.author: teleary
   author: lizap
   ms.topic: interactive-tutorial
   ms.prod: learning-teams
