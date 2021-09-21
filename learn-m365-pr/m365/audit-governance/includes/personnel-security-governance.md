@@ -20,6 +20,10 @@ Employment with Microsoft is subject to specific conditions and obligations as f
 
 We use a Learning Management System platform that delivers training materials and tracks training requirements completion for each employee. These trainings include business ethics, employee safety, privacy, anti-harassment, and zero tolerance for non-ethical behavior. At the end of the course, employees must attest that they will abide by the Microsoft code of business conduct, which is tracked at the organization level.
 
+## Transfer
+
+Established procedures and automated workflows handle all aspects of employee transfers, ensuring the proper paperwork is completed and unnecessary access for their new role is removed. Employee transfers are initiated through a transfer transaction request submitted to HR by the employee’s manager. Global Talent acquisition is then engaged, providing the employee with an offer letter for their new role. Once the offer is accepted, HR approves the request in the HR Information System, triggering access control systems to automatically set an expiration date on all access the employee had in their previous role. Any access that is required for their new position must be requested by the employee and approved by their new manager.
+
 ## Termination
 
 Microsoft uses clearly defined policies and procedures to promptly revoke physical and logical access to Microsoft systems and resources when an employee is terminated. Our termination process ensures that former Microsoft employees cannot access data or systems after their employment ends. Our HR systems interface with our identity management tools to automatically revoke access for service team accounts.

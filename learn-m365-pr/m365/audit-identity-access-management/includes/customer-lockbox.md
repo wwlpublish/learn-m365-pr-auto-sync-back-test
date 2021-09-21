@@ -4,7 +4,7 @@ Customer Lockbox ensures that Microsoft cannot access an organization's tenant t
 
 The following diagram illustrates the Customer Lockbox workflow when a customer experiences an issue in Microsoft 365 that requires a service team engineer to access the customer's tenant.
 
-![Customer Lockbox workflow diagram, explanation to follow](../media/lockbox-workflow-customer.png)
+![Customer Lockbox workflow diagram, explanation to follow](../media/customer-lockbox-diagram.png)
 
 1. When a customer troubleshoots an issue but is unable to fix it, the customer can open a support request with Microsoft Support.
 
