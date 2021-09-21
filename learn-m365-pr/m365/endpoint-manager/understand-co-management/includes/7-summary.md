@@ -1,6 +1,6 @@
 Microsoft Endpoint Manager helps you by providing a single, modern, integrated management platform for managing, protecting, and monitoring all of your organization's endpoints. These endpoints may also include the on-premises computers and devices used by your organization. Co-management is concurrently managing Windows 10 or later devices with both Configuration Manager and Microsoft Intune. 
 
-In this module, you've learned about co-management so that you are prepared to enable co-management based on the path that best suites your organization. The goals of this module included the following:
+In this module, you've learned about co-management so that you are prepared to enable co-management based on the path that best suits your organization. The goals of this module included the following:
 
 - Learn about the benefits of co-management
 - Understand the co-management prerequisites

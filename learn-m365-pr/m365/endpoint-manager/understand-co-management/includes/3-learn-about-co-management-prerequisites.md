@@ -1,5 +1,6 @@
-Before you can set up co-management, you must have the correct licensing for Azure Active Directory Premium and Microsoft Intune. Additionally, you must have or be using the following items: 
+Before you can set up co-management, you must set up or already have the following prerequisites:
 
+- The correct licensing for Microsoft Intune and Azure Active Directory Premium
 - A current version of Configuration Manager
 - Windows client devices that are running Windows 10 or later
 - Azure AD for your Windows client devices
@@ -23,7 +24,7 @@ To confirm your Microsoft Intune license or trial, use the following steps:
 1. Sign in to [Microsoft Endpoint Manager admin center](https://go.microsoft.com/fwlink/?linkid=2109431).
 2. Select **Tenant administration** > **Tenant status**.<br>
    Under the **Tenant details** tab, you will see the **MDM authority**, the **Total licenses users**, and the **Total Intune licenses**.
-3. Select **Tenant administration** > **Roles** > **My permissions**. 
+3. Select **Tenant administration** > **Roles** > **My permissions**.
 4. Confirm you are an **administrator** with **full** permissions to **all** Intune resources.
 
 > [!NOTE]
@@ -55,8 +56,7 @@ To check the version of Configuration Manager:
 
 [Azure AD](/azure/active-directory/fundamentals/active-directory-whatis) is Microsoft’s cloud-based identity and access management service, which helps the people at your organization sign in and access resources. Your on-premises Windows 10 or later devices must be connected to Azure AD to use co-management. You can choose either of the following types:  
 
-  - [Hybrid Azure AD-joined](/azure/active-directory/devices/concept-azure-ad-join-hybrid), where the device is joined to your on-premises Active Directory and registered with your Azure Active Directory.
-
+  - [Hybrid Azure AD-joined](/azure/active-directory/devices/concept-azure-ad-join-hybrid), where the device is joined to your on-premises Active Directory and registered with your cloud-based Azure Active Directory.
   - [Azure AD-joined](/azure/active-directory/devices/azureadjoin-plan) only. This type is sometimes referred to as "cloud domain-joined".  
 
 > [!TIP]
@@ -66,7 +66,7 @@ To check the version of Configuration Manager:
 
 Intune, which is required for co-management, is a cloud-based service that focuses on mobile device management (MDM) and mobile application management (MAM). You control how your organization’s devices are used, including mobile phones, tablets, and laptops. You can also configure specific policies to control applications.
 
-Intune is part of Microsoft's [Enterprise Mobility + Security (EMS) suite](https://www.microsoft.com/microsoft-365/enterprise-mobility-security). Intune integrates with Azure Active Directory (Azure AD) to control who has access, and what they can access. It also integrates with Azure Information Protection for data protection. It can be used with the Microsoft 365 suite of products.
+As mentioned above, Intune is part of Microsoft's [Enterprise Mobility + Security (EMS) suite](https://www.microsoft.com/microsoft-365/enterprise-mobility-security). Intune integrates with Azure Active Directory (Azure AD) to control who has access, and what they can access. It also integrates with Azure Information Protection for data protection. In addition, Intune can be used with the Microsoft 365 suite of products.
 
 You can access Intune using the Microsoft Endpoint Manager admin center. If you are unable to access Intune using the step below, confirm that you have an Intune license (see above).
 
