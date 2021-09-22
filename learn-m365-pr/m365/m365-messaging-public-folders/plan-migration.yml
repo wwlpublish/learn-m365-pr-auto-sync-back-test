@@ -6,7 +6,7 @@ metadata:
   description: Learn how you can continue to use public folders while your company implements a hybrid environment with Microsoft 365. In a hybrid environment, you need to make choices about where these folders should reside.
   ms.date: 07/14/2021
   author: AlexandraHrt
-  ms.author: v-aleha
+  ms.author: teleary
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 durationInMinutes: 4
