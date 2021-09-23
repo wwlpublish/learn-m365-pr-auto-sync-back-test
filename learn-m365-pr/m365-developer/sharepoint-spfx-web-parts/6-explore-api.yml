@@ -3,9 +3,9 @@ uid: learn-m365.sharepoint-spfx-web-parts.6-explore-api
 metadata:
   title: Explore the SharePoint Framework API
   description: In this unit, you'll learn about some of the features included in the SharePoint Framework API.
-  ms.date: 11/30/2020
-  author: andrewconnell
-  ms.author: v-johnco
+  ms.date: 09/13/2021
+  author: andrewconnell-msft
+  ms.author: suzanz
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Explore the SharePoint Framework API

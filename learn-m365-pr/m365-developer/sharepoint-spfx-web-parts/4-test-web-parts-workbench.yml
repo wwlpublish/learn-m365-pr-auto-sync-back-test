@@ -3,9 +3,9 @@ uid: learn-m365.sharepoint-spfx-web-parts.4-test-web-parts-workbench
 metadata:
   title: Test web parts in the local and hosted workbench
   description: In this unit, you'll learn how to test custom web parts using both local and Office 365 hosted workbench.
-  ms.date: 11/30/2020
-  author: andrewconnell
-  ms.author: v-johnco
+  ms.date: 09/13/2021
+  author: andrewconnell-msft
+  ms.author: suzanz
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Test web parts in the local and hosted workbench
