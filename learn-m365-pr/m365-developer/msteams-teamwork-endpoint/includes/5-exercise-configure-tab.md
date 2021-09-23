@@ -36,7 +36,7 @@ With the permission added to the Azure AD app, you now need to update the list o
 Locate and open the **./.env**. At the end of the file, locate the environment variable that contains the space-delimited permissions and add the following permission you just added so it now looks like the following:
 
 ```txt
-MSGRAPHTEAMWORK_APP_SCOPES=https://graph.microsoft.com/User.Read https://graph.microsoft.com/Team.ReadBasic.All https://graph.microsoft.com/TeamsTab.ReadWriteForTeam email openid profile offline_access
+TAB_APP_SCOPES=https://graph.microsoft.com/User.Read https://graph.microsoft.com/Team.ReadBasic.All https://graph.microsoft.com/TeamsTab.ReadWriteForTeam email openid profile offline_access
 ```
 
 ## Add documents to the channel
@@ -47,7 +47,7 @@ In the browser, navigate back the channel where you installed the team in the pr
 
 ![Screenshot adding Office files to the library](../media/05-add-office-files.png)
 
-Keep track of the names of these files. For the purposes of this exercise, we'll assume they're called **document.docx** and **workbook.docx**.
+Keep track of the names of these files. For the purposes of this exercise, we'll assume they're called **document.docx** and **workbook.xlsx**.
 
 ### Get document IDs and URLs
 
@@ -123,10 +123,10 @@ const handleWordOnClick = useCallback(async() => {
 
   const endpoint = `https://graph.microsoft.com/v1.0/teams/${context.groupId}/channels/${context.channelId}/tabs`;
   const requestObject = {
-    method: 'POST',
+    method: "POST",
     headers: {
       authorization: `bearer ${msGraphOboToken}`,
-      "content-type": 'application/json'
+      "content-type": "application/json"
     },
     body: JSON.stringify({
       displayName: "Word",
@@ -148,10 +148,10 @@ const handleExcelOnClick = useCallback(async() => {
 
   const endpoint = `https://graph.microsoft.com/v1.0/teams/${context.groupId}/channels/${context.channelId}/tabs`;
   const requestObject = {
-    method: 'POST',
+    method: "POST",
     headers: {
       authorization: `bearer ${msGraphOboToken}`,
-      "content-type": 'application/json'
+      "content-type": "application/json"
     },
     body: JSON.stringify({
       displayName: "Excel",
