@@ -3,9 +3,9 @@ uid: learn-m365.sharepoint-spfx-teams-dev.6-tab-configuration
 metadata:
   title: Client-side Web part settings in Microsoft Teams tabs
   description: In this unit, you'll learn how to configure your SharePoint Framework client-side web part's settings when its used as a tab in Microsoft Teams.
-  ms.date: 03/10/2020
-  author: andrewconnell
-  ms.author: v-johnco
+  ms.date: 09/13/2021
+  author: andrewconnell-msft
+  ms.author: suzanz
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Client-side Web part settings in Microsoft Teams tabs
