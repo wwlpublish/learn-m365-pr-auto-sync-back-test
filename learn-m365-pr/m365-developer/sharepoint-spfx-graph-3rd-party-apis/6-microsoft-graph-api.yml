@@ -3,9 +3,9 @@ uid: learn-m365.sharepoint-spfx-graph-3rd-party-apis.6-microsoft-graph-api
 metadata:
   title: Call Microsoft Graph in SharePoint Framework solutions
   description: In this unit, you'll learn how to incorporate Microsoft Graph into your custom SharePoint Framework solutions.
-  ms.date: 11/30/2020
-  author: andrewconnell
-  ms.author: v-johnco
+  ms.date: 09/13/2021
+  author: andrewconnell-msft
+  ms.author: suzanz
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Call Microsoft Graph in SharePoint Framework solutions
