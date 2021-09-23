@@ -3,9 +3,9 @@ uid: learn-m365.adaptive-cards-create-engaging-messages.2-overview-create-cards
 metadata:
   title: Overview of Adaptive Cards
   description: Developers can use Adaptive Cards to create engaging messages that are rendered into a native UI that adapts to the hosted app experience. In this unit, you’ll learn about Adaptive Cards, where they can be used and how to create Adaptive Cards with the online designer.
-  ms.date: 03/06/2021
-  author: andrewconnell
-  ms.author: v-johnco
+  ms.date: 09/13/2021
+  author: andrewconnell-msft
+  ms.author: suzanz
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Overview of Adaptive Cards

@@ -19,7 +19,7 @@ You'll use Node.js to create custom Microsoft Teams tabs in this module. The exe
 - NPM (installed with Node.js) - v6.\* (or higher)
 - [Visual Studio Code](https://code.visualstudio.com)
 - [Yeoman](https://yeoman.io/) - v3.\* (or higher)
-- [Yeoman Generator for Microsoft Teams](https://github.com/OfficeDev/generator-teams) - v3.0.3 (or higher)
+- [Yeoman Generator for Microsoft Teams](https://github.com/OfficeDev/generator-teams) - v3.2.0 (or higher)
 
 You must have the minimum versions of these prerequisites installed on your workstation.
 
@@ -134,7 +134,7 @@ Yeoman will launch and ask you a series of questions. Answer the questions with 
 - **Where do you want to place the files?**: Use the current folder
 - **Title of your Microsoft Teams App project?**: MSGraph Playground
 - **Your (company) name? (max 32 characters)**: Contoso
-- **Which manifest version would you like to use?**: v1.8
+- **Which manifest version would you like to use?**: v1.9
 - **Quick scaffolding**: Yes
 - **What features do you want to add to your project?**: A Tab
 - **The URL where you will host this solution?**: `https://REPLACE.ngrok.io`
@@ -145,6 +145,7 @@ Yeoman will launch and ask you a series of questions. Answer the questions with 
 - **Do you require Azure AD Single-Sign-On support for the tab?** Yes
 - **What is the Application ID to associate with the SSO Tab?**: *Enter the **Application (Client) ID** for the Azure AD application you registered above*
 - **What is the Application ID URI to associate with the SSO Tab?**: *Enter the **Application ID URI** for the Azure AD application you registered above*
+- **Do you want this tab to be available in SharePoint Online?**: No
 
 > [!NOTE]
 > Most of the answers to these questions can be changed after creating the project. For example, the URL where the project will be hosted and Application ID URI must be changed when you start debugging your project using the ngrok utility.
@@ -193,6 +194,12 @@ On the next screen, select the **Upload a custom app** link in the lower right c
 
 Locate and select the Microsoft Teams app package, found in the **./package** folder in your Visual Studio Code project to upload the app.
 
+> [!NOTE]
+> If the **./package** folder is not present, this means you are affected by a bug in the yoteams-deploy package. To resolve the issue:
+> - Stop the local web server by pressing <kbd>CTRL</kbd>+<kbd>C</kbd> in the console.
+> - Install the preview version of the **yoteams-deploy** package using the command `npm install yoteams-deploy@preview`
+> - Restart the server process: `gulp ngrok-serve`
+
 Microsoft Teams will display the details of the app in a dialog. Select the **Add** button to install the app into the current team:
 
 ![Screenshot installing a new tab, step 2](../media/03-add-tab-03.png)
@@ -226,7 +233,7 @@ useEffect(() => {
         microsoftTeams.appInitialization.notifySuccess();
       },
       failureCallback: (message: string) => { /* ... */ },
-      resources: [process.env.MSGRAPHTEAMWORK_APP_URI as string]
+      resources: [process.env.TAB_APP_URI as string]
     });
   } else {
     setEntityId("Not in Microsoft Teams");
@@ -269,56 +276,19 @@ When submitting requests to Microsoft Graph, you must include an OAuth access to
 
 This is done by implementing the [OAuth2 On-Behalf-Of (OBO) flow](/azure/active-directory/develop/v2-oauth2-on-behalf-of-flow), but this can't be done client-side, rather it must be done server-side.
 
-### Update the Azure AD app credentials and permissions
-
-Before implementing the server-side logic, we need to make a few changes to the Azure AD application previously registered.
-
-Open a browser and navigate to the [Azure Active Directory admin center (https://aad.portal.azure.com)](https://aad.portal.azure.com). Sign in using a **Work or School Account** that has global administrator rights to the tenancy.
-
-#### Create a client secret
-
-For an app to authenticate with Azure AD, it needs both the client ID and a client secret.
-
-Select **Manage > Certificates & secrets** from the left-hand navigation.
-
-In the **Client Secrets** section, select **New client secret**. Add a description and select an expiration duration, then select **Add**.
-
-When the secret is created, it will be shown one time so make sure you make a copy of it. If you don't copy this value, you'll have to create a new secret as you can't ever view a previously created secret.
-
-#### Configure API permissions
-
-Now configure the API permissions the app will need. Select **Manage > API permissions** from the left-hand navigation.
-
-By default, the app has the **User.Read** permission. When Microsoft Teams requests an access token from Azure AD for the currently signed in user, it can only get basic permissions that identify who the user is. To enable this, you'll need to add the basic OpenID permissions.
-
-- Select **Add a permission > Microsoft Graph > Delegated permissions**.
-- Find and select the following permissions and then select **Add permissions** to add them to the app:
-  - email
-  - offline_access
-  - openid
-  - profile
-
-![Screenshot configuring permissions to the app](../media/03-azure-ad-api-permissions-01.png)
-
-Once you've added the permissions, select the **Grant admin consent for ...** to consent these permissions for all users in the tenant.
-
-![Screenshot of the consented permissions](../media/03-azure-ad-api-permissions.png)
-
 ### Update project to obtain access tokens for Microsoft Graph via the OAuth2 OBO flow
-
-Now that the Azure AD application is updated, let's apply those changes to the app project.
 
 In your Microsoft Teams app project, locate and open the **./.env** file. At the end of the file, there are two environment variables that were set by the Yeoman generator when you created the project. Their names are based on the name of the project:
 
 ```text
-MSGRAPHTEAMWORK_APP_ID=...
-MSGRAPHTEAMWORK_APP_URI=...
+TAB_APP_ID=...
+TAB_APP_URI=...
 ```
 Add the following two properties after these two existing properties. Set the first to the Azure AD app's client secret you created, and the second to the permissions defined by the app, separated by spaces:
 
 ```text
-MSGRAPHTEAMWORK_APP_SECRET=1ZAI.Qm-g3_bQCSh31WO~81bX-z1_4gK~K
-MSGRAPHTEAMWORK_APP_SCOPES=https://graph.microsoft.com/User.Read email openid profile offline_access
+TAB_APP_SECRET={{CLIENT_SECRET_CREATED_ABOVE}}
+TAB_APP_SCOPES=https://graph.microsoft.com/User.Read email openid profile offline_access
 ```
 
 The next step is to update the server-side API to add support for using the ID token, obtained by Microsoft Teams, for an OBO access token that can be used to submit requests to Microsoft Graph.
@@ -353,8 +323,8 @@ Add the following code before the lines you just found that set the listening po
 express.get("/exchangeSsoTokenForOboToken", async (req, res) => {
   log("getting access token for Microsoft Graph...");
 
-  const clientId = process.env.MSGRAPHTEAMWORK_APP_ID as string;
-  const clientSecret = process.env.MSGRAPHTEAMWORK_APP_SECRET as string;
+  const clientId = process.env.TAB_APP_ID as string;
+  const clientSecret = process.env.TAB_APP_SECRET as string;
   const ssoToken = req.query.ssoToken as string;
 
   // build Azure AD OAuth2 token endpoint
@@ -367,7 +337,7 @@ express.get("/exchangeSsoTokenForOboToken", async (req, res) => {
     client_secret: clientSecret,
     assertion: ssoToken,
     requested_token_use: "on_behalf_of",
-    scope: process.env.MSGRAPHTEAMWORK_APP_SCOPES
+    scope: process.env.TAB_APP_SCOPES
   };
 
   // convert params to URL encoded form body payload
@@ -505,7 +475,7 @@ This code will set the profile photo, once received from the request to Microsof
 ```typescript
 useEffect(() => {
   getProfilePhoto();
-}, [msGraphOboToken]);
+}, [getProfilePhoto, msGraphOboToken]);
 ```
 
 Now that our component has the photo, the last step is to display it! Within the component's `return` statement, locate the following code that displays the current user's name:
@@ -572,7 +542,7 @@ With the permission added to the Azure AD app, you now need to update the list o
 Locate and open the **./.env**. At the end of the file, locate the environment variable that contains the space-delimited permissions and add the following permission you just added so it now looks like the following:
 
 ```txt
-MSGRAPHTEAMWORK_APP_SCOPES=https://graph.microsoft.com/User.Read https://graph.microsoft.com/Team.ReadBasic.All email openid profile offline_access
+TAB_APP_SCOPES=https://graph.microsoft.com/User.Read https://graph.microsoft.com/Team.ReadBasic.All email openid profile offline_access
 ```
 
 In order for this to get picked up and included in the environment variables, you'll need to stop the **gulp ngrok-serve** task by pressing <kbd>CTRL</kbd>+<kbd>C</kbd> and restart it.
@@ -627,7 +597,7 @@ Locate the existing `useEffect()` hook:
 ```typescript
 useEffect(() => {
   getProfilePhoto();
-}, [msGraphOboToken]);
+}, [getProfilePhoto, msGraphOboToken]);
 ```
 
 Update this code to include another call to the `getJoinTeams` you just added to the component:
@@ -636,7 +606,7 @@ Update this code to include another call to the `getJoinTeams` you just added to
 useEffect(() => {
   getJoinedTeams();
   getProfilePhoto();
-}, [msGraphOboToken]);
+}, [getProfilePhoto, msGraphOboToken]);
 ```
 
 The last step is to update the rendering in the component's `return` statement to include the list of teams if they've been set. Locate the code you added to display the profile photo and add the following code immediately after it:

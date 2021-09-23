@@ -3,8 +3,8 @@ uid: learn-m365.msteams-teamwork-endpoint
 metadata:
   title: Microsoft Teams – Use the teamwork Microsoft Graph endpoint
   description: Learn how to use Microsoft Graph to interact with Microsoft Teams
-  ms.date: 05/11/2021
-  author: andrewconnell
+  ms.date: 09/13/2021
+  author: andrewconnell-msft
   ms.author: suzanz
   ms.topic: interactive-tutorial
   ms.prod: learning-m365

@@ -198,6 +198,12 @@ Select the **Apps** tab and then the **More apps** button:
 
 From the **Browse available apps and services**, select the **Upload a custom app > Upload for my org** at the bottom of the **Apps** panel of categories. Select the Microsoft Teams app package, the **MyFirstTeamsConnector.zip** file in the **./package** folder of your project.
 
+> [!NOTE]
+> If the **./package** folder is not present, this means you are affected by a bug in the yoteams-deploy package. To resolve the issue:
+> - Stop the local web server by pressing <kbd>CTRL</kbd>+<kbd>C</kbd> in the console.
+> - Install the preview version of the **yoteams-deploy** package using the command `npm install yoteams-deploy@preview`
+> - Restart the server process: `gulp ngrok-serve`
+
 After uploading the app, Microsoft Teams will display it on the list of apps installed under the **Build for [tenant]** category page:
 
 ![Screenshot of the installed app](../media/07-test-setup-app-03.png)
@@ -206,15 +212,11 @@ Once installed, you can now add the Connector to a team. You can do this from th
 
 ![Screenshot of the app details](../media/07-test-setup-app-04.png)
 
-... or you can add it directly to a team. Let's use this first option. Select the **Add to a team** button and select a team to add the Connector to:
+... or you can add it directly to a team. Let's use this first option. Select the **Add to a team** button and select a team to add the Connector to. Then select **Set up a connector**.
 
 ![Screenshot of the Add to a team dialog](../media/07-test-setup-app-05.png)
 
-On the **Connectors for... channel in ... team** page, select the **Others** category and scroll to the bottom. You'll see your Connector under the **Sideloaded** section:
-
-![Screenshot listing all Connectors available to a team](../media/07-test-setup-app-06.png)
-
-Select the **Configure** button for the Connector. This will display the configuration page from our project:
+This will display the configuration page from our project:
 
 ![Screenshot of the Connector configuration page](../media/07-test-setup-app-07.png)
 

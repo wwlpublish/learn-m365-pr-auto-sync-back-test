@@ -3,9 +3,9 @@ uid: learn-m365.adaptive-cards-create-engaging-messages.6-cards-microsoft-teams
 metadata:
   title: Use Adaptive Cards in Microsoft Teams apps and conversations
   description: Microsoft Teams enables developers to create custom apps that include capabilities including bots, task modules, and messaging extensions. In this unit, you’ll learn how to use Adaptive Cards in task modules, bots, and messaging extensions in custom Microsoft Teams apps.
-  ms.date: 12/09/2020
-  author: andrewconnell
-  ms.author: v-johnco
+  ms.date: 09/13/2021
+  author: andrewconnell-msft
+  ms.author: suzanz
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Use Adaptive Cards in Microsoft Teams apps and conversations

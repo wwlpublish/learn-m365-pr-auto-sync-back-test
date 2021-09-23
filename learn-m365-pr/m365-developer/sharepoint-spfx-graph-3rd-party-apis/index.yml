@@ -3,8 +3,8 @@ uid: learn-m365.sharepoint-spfx-graph-3rd-party-apis
 metadata:
   title: Leverage Microsoft Graph & third-party APIs
   description: Learn how to call third-party APIs including Microsoft Graph, Azure AD protected APIs, and anonymous APIs.
-  ms.date: 11/30/2020
-  author: andrewconnell
+  ms.date: 09/13/2021
+  author: andrewconnell-msft
   ms.author: suzanz
   ms.topic: interactive-tutorial
   ms.prod: learning-m365

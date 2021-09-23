@@ -3,9 +3,9 @@ uid: learn-m365.msteams-conversation-bots.7-exercise-proactive-messages
 metadata:
   title: Exercise - Proactive messages from bots
   description: In this exercise, you’ll update the existing Teams app to send a proactive message from your bot.
-  ms.date: 06/18/2021
-  author: andrewconnell
-  ms.author: v-johnco
+  ms.date: 09/13/2021
+  author: andrewconnell-msft
+  ms.author: suzanz
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Exercise - Proactive messages from bots

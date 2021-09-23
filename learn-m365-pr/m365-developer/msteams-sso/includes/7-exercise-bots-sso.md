@@ -25,7 +25,7 @@ You'll use Node.js to create a custom Microsoft Teams app in this module. The ex
 - NPM (installed with Node.js) - v6.\* (or higher)
 - [Gulp](https://gulpjs.com/) - v4.\* (or higher)
 - [Yeoman](https://yeoman.io/) - v3.\* (or higher)
-- [Yeoman Generator for Microsoft Teams](https://github.com/OfficeDev/generator-teams) - v3.0.\* (or higher)
+- [Yeoman Generator for Microsoft Teams](https://github.com/OfficeDev/generator-teams) - v3.2.0 (or higher)
 - [Visual Studio Code](https://code.visualstudio.com)
 
 You must have the minimum versions of these prerequisites installed on your workstation.
@@ -99,36 +99,19 @@ From the resource group, select the **Add** or **Create resources** button.
 
 ![Screenshot of creating a new resource](../media/07-azure-bot-registration-01.png)
 
-Enter **bot** in the **Search the marketplace** input box, and select **Bot Channels Registration** from the list of resources returned. Then select **Create** on the next page to start the process of registering a new bot resource:
+Enter **bot** in the **Search the marketplace** input box, and select **Azure Bot** from the list of resources returned. Then select **Create** on the next page to start the process of registering a new bot resource:
 
 ![Screenshot of searching for the bot registration resource](../media/07-azure-bot-registration-02.png)
 
-In the **Bot Channels Registration** screen, enter the following values, but don't select **Create**:
+In the **Create an Azure Bot** blade, enter the following values and then select **Review + create**:
 
 - **Bot handle**: *Enter a globally unique name for the bot*
 - **Subscription**: *Select the subscription you selected previously when creating the resource group*
 - **Resource group**: *Select the resource group you created previously*
-- **Location**: *Select your preferred Azure region*
 - **Pricing tier**: *Select a preferred pricing tier; the F0 tier is free*
-- **Messaging endpoint**: `https://REPLACE.ngrok.io/api/messages`
+- **Microsoft App ID**: Create new Microsoft App ID
 
-  > The bot registration needs to know the endpoint of the web service where the bot is implemented. This will change each time you start the ngrok utility used in previous exercises.
-
-- **Application Insights**: Off
-
-![Screenshot of the created bot channels registration resource form](../media/07-azure-bot-registration-03.png)
-
-Select the **Microsoft App ID and password** option to change it from its default setting. By default, the registration process will register a new Azure AD app. We want to use the Azure AD app created in a previous exercise and updated in this exercise.
-
-- On the **Create Microsoft App ID** page, select **Create New**.
-- When prompted, enter the Azure AD app's credentials from the previous exercise in this module:
-  - **Microsoft App ID**: this is the application ID, or client ID
-  - **Password**: this is the client secret
-- Select **OK**.
-
-Select **Create** to start the bot provisioning process.
-
-![Screenshot of the created bot channels registration resource after updating the Azure AD app](../media/07-azure-bot-registration-04.png)
+Select **Create**.
 
 Azure will start to provision the new resource. This will take a moment or two. Once it's finished, navigate to the bot resource in the resource group.
 
@@ -189,7 +172,7 @@ Yeoman will launch and ask you a series of questions. Answer the questions with 
 - **Where do you want to place the files?**: Use the current folder
 - **Title of your Microsoft Teams App project?**: SSO Teams Bot
 - **Your (company) name? (max 32 characters)**: Contoso
-- **Which manifest version would you like to use?**: v1.8
+- **Which manifest version would you like to use?**: v1.9
 - **Quick scaffolding**: Yes
 - **What features do you want to add to your project?**: A bot
 - **The URL where you will host this solution?**:  (Accept the default option)
@@ -308,7 +291,6 @@ import {
 } from "botbuilder";
 
 export class SsoOAuthHelper {
-  constructor(public oAuthConnectionName: string, public storage: ConversationState) { }
 
   public async shouldProcessTokenExchange(turnContext: TurnContext): Promise<boolean> {
     if (turnContext.activity.name !== tokenExchangeOperationName) {
@@ -324,7 +306,7 @@ export class SsoOAuthHelper {
   }
 
   public async exchangeToken(turnContext: TurnContext): Promise<boolean> {
-    let tokenExchangeResponse: TokenResponse | undefined = undefined;
+    let tokenExchangeResponse: TokenResponse;
     const tokenExchangeRequest = turnContext.activity.value;
 
     try {
@@ -348,7 +330,7 @@ export class SsoOAuthHelper {
           body: {
             id: tokenExchangeRequest.id,
             connectionName: tokenExchangeRequest.connectionName,
-            failureDetail: 'The bot is unable to exchange token. Proceed with regular login.'
+            failureDetail: "The bot is unable to exchange token. Proceed with regular login."
           }
         }
       });
@@ -373,7 +355,7 @@ Next, add the helper for obtaining data from Microsoft Graph. Add a new file **M
 
 ```typescript
 import { Client } from "@microsoft/microsoft-graph-client";
-import * as MicrosoftGraph from '@microsoft/microsoft-graph-types';
+import * as MicrosoftGraph from "@microsoft/microsoft-graph-types";
 
 export class MsGraphHelper {
   private msGraphClient: Client;
@@ -395,7 +377,7 @@ export class MsGraphHelper {
       .select("receivedDateTime,subject")
       .orderby("receivedDateTime desc")
       .top(1)
-      .get()
+      .get();
 
     return response.value[0] as MicrosoftGraph.Message;
   }
@@ -448,20 +430,18 @@ export class LogoutDialog extends ComponentDialog {
 
   public async interrupt(innerDialogContext: DialogContext): Promise<DialogTurnResult | void> {
     if (innerDialogContext.context.activity.type === ActivityTypes.Message) {
-      const text = innerDialogContext.context.activity.text.toLowerCase().replace(/\r?\n|\r/g, '');
+      const text = innerDialogContext.context.activity.text.toLowerCase().replace(/\r?\n|\r/g, "");
 
-      if (text === 'logout') {
+      if (text === "logout") {
         // sign out
         const botAdapter = innerDialogContext.context.adapter as BotFrameworkAdapter;
         await botAdapter.signOutUser(innerDialogContext.context, this.ssoConnectionName);
 
         // notify user
-        await innerDialogContext.context.sendActivity('You have been signed out.');
+        await innerDialogContext.context.sendActivity("You have been signed out.");
 
         // cancel dialog stack
         return await innerDialogContext.cancelAllDialogs();
-      } else {
-        return;
       }
     }
   }
@@ -488,16 +468,16 @@ import {
   DialogTurnResult,
   DialogTurnStatus,
   WaterfallDialog,
-  WaterfallStepContext,
+  WaterfallStepContext
 } from "botbuilder-dialogs";
-import { LogoutDialog } from './logoutDialog';
-import { SsoOauthPrompt } from './ssoOauthPrompt';
+import { LogoutDialog } from "./logoutDialog";
+import { SsoOauthPrompt } from "./ssoOauthPrompt";
 import "isomorphic-fetch";
 import { MsGraphHelper } from "../helpers/MsGraphHelper";
 
-const MAIN_DIALOG_ID = 'MainDialog';
-const MAIN_WATERFALL_DIALOG_ID = 'MainWaterfallDialog';
-const OAUTH_PROMPT_ID = 'OAuthPrompt';
+const MAIN_DIALOG_ID = "MainDialog";
+const MAIN_WATERFALL_DIALOG_ID = "MainWaterfallDialog";
+const OAUTH_PROMPT_ID = "OAuthPrompt";
 
 export class MainDialog extends LogoutDialog {
   constructor() {
@@ -550,7 +530,7 @@ export class MainDialog extends LogoutDialog {
 
       const user = await msGraphClient.getCurrentUser();
       await stepContext.context.sendActivity(`Thank you for signing in ${user.displayName as string} (${user.userPrincipalName as string})!`);
-      await stepContext.context.sendActivity(`I can retrieve your details from Microsoft Graph using my support for SSO! For example...`);
+      await stepContext.context.sendActivity("I can retrieve your details from Microsoft Graph using my support for SSO! For example...");
 
       const email = await msGraphClient.getMostRecentEmail();
       await stepContext.context.sendActivity(`Your most recent email about "${email.subject as string}" was received at ${new Date(email.receivedDateTime as string).toLocaleString()}.`);
@@ -580,12 +560,11 @@ import {
 import {
   DialogContext,
   DialogTurnResult,
-  OAuthPrompt,
+  OAuthPrompt
 } from "botbuilder-dialogs";
 import jwtDecode from "jwt-decode";
 
 export class TokenExchangeInvokeResponse {
-  constructor(public id: string, public connectionName: string, public failureDetail: string) { }
 }
 
 export class SsoOauthPrompt extends OAuthPrompt {
@@ -598,7 +577,7 @@ export class SsoOauthPrompt extends OAuthPrompt {
     if (cachedTokenResponse) {
       const tokenExchangeRequest = dialogContext.context.turnState.get("tokenExchangeInvokeRequest");
       if (!tokenExchangeRequest) {
-        throw new Error('TokenResponse is present in TurnState, but TokenExchangeInvokeRequest is missing.');
+        throw new Error("TokenResponse is present in TurnState, but TokenExchangeInvokeRequest is missing.");
       }
 
       // TokenExchangeInvokeResponse
@@ -651,7 +630,7 @@ export class DialogBot extends TeamsActivityHandler {
     this.conversationState = conversationState;
     this.userState = userState;
     this.dialog = dialog;
-    this.dialogState = this.conversationState.createProperty('DialogState');
+    this.dialogState = this.conversationState.createProperty("DialogState");
 
     this.onMessage(async (context, next) => {
       // Run the Dialog with the new message Activity.
@@ -693,14 +672,14 @@ export class SsoBot extends DialogBot {
 
   constructor(conversationState: ConversationState, userState: UserState) {
     super(conversationState, userState, new MainDialog());
-    this._ssoOAuthHelper = new SsoOAuthHelper(process.env.SSO_CONNECTION_NAME as string, conversationState);
+    this._ssoOAuthHelper = new SsoOAuthHelper();
 
     this.onMembersAdded(async (context, next) => {
       const membersAdded = context.activity.membersAdded;
       if (membersAdded && membersAdded.length > 0) {
         for (let cnt = 0; cnt < membersAdded.length; cnt++) {
           if (membersAdded[cnt].id !== context.activity.recipient.id) {
-            await context.sendActivity('Welcome to TeamsBot. Type anything to get logged in. Type \'logout\' to sign-out.');
+            await context.sendActivity("Welcome to TeamsBot. Type anything to get logged in. Type 'logout' to sign-out.");
           }
         }
       }
@@ -713,9 +692,7 @@ export class SsoBot extends DialogBot {
   }
 
   public async handleTeamsSigninTokenExchange(context: TurnContext, query: SigninStateVerificationQuery): Promise<void> {
-    if (await this._ssoOAuthHelper.shouldProcessTokenExchange(context)) {
-      return;
-    } else {
+    if (!await this._ssoOAuthHelper.shouldProcessTokenExchange(context)) {
       await this.dialog.run(context, this.dialogState);
     }
   }
@@ -740,15 +717,7 @@ The last step is to add the bot to the web server when it starts.
 
 Locate and open the **./src/server/server.ts** file.
 
-Within the **server.ts** file, find the following line:
-
-```typescript
-express.use(MsTeamsApiRouter(allComponents));
-```
-
-This code loads all components listed in the **./src/server/TeamsAppsComponents.ts** file within the web server. Instead of relying on this, we'll manually add the bot to the web server.
-
-Add the following code immediately following the second line you commented out:
+Add the following two `import` statements after the existing `import` statements:
 
 ```typescript
 import {
@@ -760,7 +729,19 @@ import {
 } from "botbuilder";
 
 import { SsoBot } from "./SsoBot/SsoBot";
+```
 
+Within the **server.ts** file, find the following line:
+
+```typescript
+express.use(MsTeamsApiRouter(allComponents));
+```
+
+This code loads all components listed in the **./src/server/TeamsAppsComponents.ts** file within the web server. Instead of relying on this, we'll manually add the bot to the web server.
+
+Add the following code immediately following the line above:
+
+```typescript
 const adapter = new BotFrameworkAdapter({
   appId: process.env.MICROSOFT_APP_ID,
   appPassword: process.env.MICROSOFT_APP_PASSWORD
@@ -829,6 +810,12 @@ Using the app bar navigation menu, select the **More added apps** button. Then s
 ![Screenshot of More added apps dialog in Microsoft Teams](../media/07-test-02.png)
 
 In the file dialog that appears, select the Microsoft Teams package in your project. This app package is a ZIP file that can be found in the project's **./package** folder.
+
+> [!NOTE]
+> If the **./package** folder is not present, this means you are affected by a bug in the yoteams-deploy package. To resolve the issue:
+> - Stop the local web server by pressing <kbd>CTRL</kbd>+<kbd>C</kbd> in the console.
+> - Install the preview version of the **yoteams-deploy** package using the command `npm install yoteams-deploy@preview`
+> - Restart the server process: `gulp ngrok-serve`
 
 Once the package is uploaded, Microsoft Teams will display a summary of the app. Here you can see some "todo" items to address. _None of these "todo" items are important to this exercise, so you'll leave them as is._
 

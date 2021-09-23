@@ -3,9 +3,9 @@ uid: learn-m365.sharepoint-spfx-teams-dev.2-overview
 metadata:
   title: Microsoft Teams and SharePoint Framework development overview
   description: In this unit, you'll learn how you can take your existing SharePoint Framework development skills and use them for creating custom Microsoft Teams apps.
-  ms.date: 06/17/2021
-  author: andrewconnell
-  ms.author: v-johnco
+  ms.date: 09/13/2021
+  author: andrewconnell-msft
+  ms.author: suzanz
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Microsoft Teams and SharePoint Framework development overview

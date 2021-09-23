@@ -3,9 +3,9 @@ uid: learn-m365.sharepoint-spfx-teams-dev.7-exercise-update-configuration-settin
 metadata:
   title: Exercise - Update configuration settings
   description: In this exercise, you'll update the configuration settings for the SharePoint Framework application and the configuration details of the Microsoft Teams application.
-  ms.date: 06/17/2021
-  author: andrewconnell
-  ms.author: v-johnco
+  ms.date: 09/13/2021
+  author: andrewconnell-msft
+  ms.author: suzanz
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Exercise - Update configuration settings

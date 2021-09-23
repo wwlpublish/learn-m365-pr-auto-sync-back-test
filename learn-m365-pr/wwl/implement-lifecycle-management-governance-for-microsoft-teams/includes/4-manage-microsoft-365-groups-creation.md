@@ -107,7 +107,7 @@ There are two ways in which you can upgrade all the eligible DLs.
 A distribution list will not be eligible for an upgrade if it fulfills any of the following criteria:
 
 |**Property**|**Eligible?**|
-|:--|:--|
+|:-----|:-----|
 |On-premises managed distribution list.  <br/> |No  <br/> |
 |Nested distribution lists. Distribution list either has child groups or is a member of another group.  <br/> |No  <br/> |
 |Distribution lists with member **RecipientTypeDetails** other than **UserMailbox**, **SharedMailbox**, **TeamMailbox**, **MailUser**.  <br/> |No  <br/> |

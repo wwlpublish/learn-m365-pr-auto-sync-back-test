@@ -3,9 +3,9 @@ uid: learn-m365.sharepoint-spfx-deployment.6-project-component-versions
 metadata:
   title: Update SharePoint Framework solutions
   description: In this unit, you'll learn how versioning works in SharePoint Framework solutions and how to upgrade existing components.
-  ms.date: 11/30/2020
-  author: andrewconnell
-  ms.author: v-johnco
+  ms.date: 09/13/2021
+  author: andrewconnell-msft
+  ms.author: suzanz
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Update SharePoint Framework solutions

@@ -116,7 +116,7 @@ Start by installing the SPFx version of the Office UI Fabric Core CSS files by e
 npm install @microsoft/sp-office-ui-fabric-core --save
 ```
 
-Create a new file **HelloAppCustomizerApplicationCustomizer.module.scss** to the **./src/helloAppCustomizer** folder and add the following SCSS code:
+Create a new file **HelloAppCustomizerApplicationCustomizer.module.scss** to the **./src/extensions/helloAppCustomizer** folder and add the following SCSS code:
 
 ```scss
 @import '~@microsoft/sp-office-ui-fabric-core/dist/sass/SPFabricCore.scss';
