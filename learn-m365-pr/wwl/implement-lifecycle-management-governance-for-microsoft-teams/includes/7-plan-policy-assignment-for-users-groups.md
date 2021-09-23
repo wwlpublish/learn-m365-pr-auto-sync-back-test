@@ -8,7 +8,7 @@ A Global (Org-wide default) policy is created by default for each policy type. G
 The following policies can be managed with Microsoft Teams.
 
 Policy type | Description | Policies |
-|||
+------------|------------|---|
 Policy packages| A policy package is a collection of predefined policies and settings you can assign to users who have similar roles in your organization.| - Policy package
 Meeting policies | A meeting policy is used to control the features that are available to meeting participants for meetings scheduled by users in your organization. | - Meeting policy<br> - Live events policy| 
 Voice and calling policies| Voice and calling policies manage these settings through teams such as emergency calling, call routing, and caller ID.|- Call park policy<br> - Calling policy<br> - Caller ID policy<br> - Emergency calling policy<br> - Emergency call routing policy<br> - Dial plan<br> - Voice routing policy|
