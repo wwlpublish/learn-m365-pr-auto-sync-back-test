@@ -19,7 +19,7 @@ You'll use Node.js to create custom Microsoft Teams tabs in this module. The exe
 - NPM (installed with Node.js) - v6.\* (or higher)
 - [Gulp](https://gulpjs.com/) - v4.\* (or higher)
 - [Yeoman](https://yeoman.io/) - v3.\* (or higher)
-- [Yeoman Generator for Microsoft Teams](https://github.com/OfficeDev/generator-teams) - v3.0.\* (or higher)
+- [Yeoman Generator for Microsoft Teams](https://github.com/OfficeDev/generator-teams) - v3.2.0 (or higher)
 - [Visual Studio Code](https://code.visualstudio.com)
 
 *You must have the minimum versions of these prerequisites installed on your workstation.
@@ -177,7 +177,7 @@ return (
       <List selectable>
         {
           messages.map((message, i) => (
-            <List.Item media={<EmailIcon></EmailIcon>}
+            <List.Item key={i} media={<EmailIcon></EmailIcon>}
               header={message.receivedDateTime}
               content={message.subject} index={i}>
             </List.Item>
@@ -194,7 +194,7 @@ Add the `onclick` event handler for the button to the `LearnAuthTab` class.
 ```typescript
 const handleGetMyMessagesOnClick = async (event): Promise<void> => {
   await getMessages();
-}
+};
 ```
 
 ## Implement the authentication and Microsoft Graph request logic
@@ -227,7 +227,7 @@ const getMessages = async (promptConsent: boolean = false): Promise<void> => {
         console.error("graph error", error);
       }
     });
-}
+};
 ```
 
 The `getMessages()` method first acquires an access token. It then submits the request to Microsoft Graph for the top 15 email messages.
@@ -249,7 +249,7 @@ const getAccessToken = async (promptConsent: boolean = false): Promise < string 
       }
     });
   });
-}
+};
 ```
 
 Create the new file **./src/public/auth-start.html** in the project, and add the following code to it. This file uses the Microsoft Teams JavaScript SDK and Azure Active Directory Authentication Library JavaScript (ADAL.js) libraries to configure ADAL for the Azure AD application created previously in this exercise. It then redirects the user to the Azure AD sign-in page and instructs the page to redirect the user back to **auth-end.html** on our site.
@@ -386,6 +386,12 @@ Using the app bar on the left, select the **More added apps** button. Then selec
 On the **Browse available apps and services** page, select **Upload a custom app** > **Upload for me or my teams**.
 
 In the file dialog box that appears, select the Microsoft Teams package in your project. This app package is a zip file that can be found in the project's **./package** folder.
+
+> [!NOTE]
+> If the **./package** folder is not present, this means you are affected by a bug in the yoteams-deploy package. To resolve the issue:
+> - Stop the local web server by pressing <kbd>CTRL</kbd>+<kbd>C</kbd> in the console.
+> - Install the preview version of the **yoteams-deploy** package using the command `npm install yoteams-deploy@preview`
+> - Restart the server process: `gulp ngrok-serve`
 
 After the package is uploaded, Microsoft Teams displays a summary of the app. Select the **Add to a team** button to install the app. Select a team to add the channel to, and select **Save** on the configuration page.
 
