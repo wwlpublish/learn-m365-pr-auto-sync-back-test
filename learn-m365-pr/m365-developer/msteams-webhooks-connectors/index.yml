@@ -3,8 +3,8 @@ uid: learn-m365.msteams-webhooks-connectors
 metadata:
   title: Connect web services to Microsoft Teams with webhooks and Office 365 Connectors
   description: Learn how to connect your custom web services to Microsoft Teams using webhooks and Office 365 Connectors
-  ms.date: 09/10/2020
-  author: andrewconnell
+  ms.date: 09/13/2021
+  author: andrewconnell-msft
   ms.author: suzanz
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
