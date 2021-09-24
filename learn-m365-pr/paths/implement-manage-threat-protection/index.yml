@@ -1,0 +1,40 @@
+### YamlMime:LearningPath
+uid: learn.wwl.implement-manage-threat-protection
+metadata:
+  title: MS-500 part 2 - Implement and manage threat protection
+  description: MS-500 part 2 - Implement and manage threat protection
+  ms.date: 09/24/2021
+  author: wwlpublish
+  ms.author: hrasheed
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+title: MS-500 part 2 - Implement and manage threat protection
+prerequisites: |
+  None.
+summary: |
+  Learn how to plan, implement, and manage threat protection technologies in Microsoft 365. This learning path prepares you for the second set of skills evaluated on the MS-500 Microsoft 365 Security Administrator certification exam.
+iconUrl: /learn/achievements/generic-trophy.svg
+levels:
+- intermediate
+roles:
+- administrator
+- security-engineer
+- technology-manager
+products:
+- defender-identity
+- defender-office365
+modules:
+- learn.wwl.implement-microsoft-defender-for-identity
+- learn-m365.m365-security-threat-protect
+- learn-m365-pr.detect-respond-to-security-issues-using-microsoft-defender-for-endpoint
+- learn.wwl.deploy-microsoft-defender-for-endpoints-environment
+- learn.wwl.protect-against-malicious-attacks-unauthorized-access-with-microsoft-edge
+- learn-m365-pr.reduce-potential-attack-areas-with-microsoft-defender-for-endpoint
+- learn-m365.audit-encryption
+- learn.app-management-using-microsoft-endpoint-manager
+- learn.wwl.manage-device-compliance
+- learn-m365.m365-threat-remediate
+- azure.query-data-sentinel
+- learn.wwl.implement-microsoft-cloud-application-security
+trophy:
+  uid: learn.wwl.implement-manage-threat-protection.trophy
