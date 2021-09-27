@@ -4,12 +4,13 @@ title: Explain Microsoft 365 Apps update and servicing methods
 metadata:
   title: Explain Microsoft 365 Apps update and servicing methods
   description: "Explain Microsoft 365 Apps update and servicing methods"
-  ms.date: 08/12/2020
+  ms.date: 09/27/2021
   author: wwlpublish
   ms.author: dahans
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
+labModal: false
 durationInMinutes: 8
 content: |
   [!include[](includes/4-updates-service.md)]
