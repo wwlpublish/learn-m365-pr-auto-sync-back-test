@@ -1,6 +1,6 @@
 You want to work when and where suits you. Microsoft 365 gives you the apps you are familiar with, plus all the benefits of the cloud. That means you can work from anywhere and be productive.
 
-:::image type="content" source="../media/7-office-tools-8b5eaf2a.png" alt-text="Diagram showing the four Office tools: Outlook, Word, Excel, and PowerPoint.":::
+:::image type="content" source="../media/7-office-tools-8b5eaf2a.png":::
 
 
 Microsoft 365 has the tools you need to work anytime, anywhere, on any device. It has the same Microsoft Office apps you've used for years, plus all the benefits of the cloud.

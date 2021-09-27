@@ -4,12 +4,13 @@ title: Host online meetings with Microsoft Teams
 metadata:
   title: Host online meetings with Microsoft Teams
   description: "Host online meetings with Microsoft Teams"
-  ms.date: 09/02/2021
+  ms.date: 09/27/2021
   author: wwlpublish
   ms.author: dahans
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
+labModal: false
 durationInMinutes: 4
 content: |
   [!include[](includes/5-online-meetings.md)]
