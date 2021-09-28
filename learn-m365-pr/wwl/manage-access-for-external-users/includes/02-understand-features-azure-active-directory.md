@@ -7,7 +7,7 @@ You can use Azure AD to control access to your apps and your app resources, base
 ## Features in Azure AD
 
 |Category|Description|
-|-|--|
+|-------|-----------|
 |Application management|Manage your cloud and on-premises apps using Application Proxy, single sign-on, the My Apps portal (also known as the Access panel), and Software as a Service (SaaS) apps. |
 |Authentication|Manage Azure Active Directory self-service password reset, multifactor authentication, custom banned password list, and smart lockout. |
 |Azure Active Directory for developers|Build apps that sign in all Microsoft identities, get tokens to call Microsoft Graph, other Microsoft APIs, or custom APIs. |
