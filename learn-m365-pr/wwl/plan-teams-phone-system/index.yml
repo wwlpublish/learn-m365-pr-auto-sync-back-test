@@ -12,10 +12,12 @@ title: Plan Teams Phone System
 summary: Understanding of what is included in Microsoft Phone System, what is needed to make and receive phone calls, how to plan for phone system devices, phone system features, and planning for cloud voicemail.
 abstract: |
   At the end of this module, you will be able to:
-  - Gain an understanding of how to plan for a basic phone system
-  - Gain an understanding of how to plan for additional Teams calling features.
+  - Gain an understanding of how to plan for a basic phone system.
+  - Gain an understanding of how to plan for additional Teams calling options.
 prerequisites: |
-  - None
+  - An understanding of Microsoft Teams Client
+  - An understanding of Microsoft Teams Phone
+  - Awareness of Microsoft Direct Routing
 iconUrl: /learn/achievements/generic-badge.svg
 levels:
 - advanced
