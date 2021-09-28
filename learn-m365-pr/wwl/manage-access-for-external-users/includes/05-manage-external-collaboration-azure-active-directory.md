@@ -5,7 +5,7 @@ In Azure AD, the settings for invitations control the guest experience at the di
 ## External collaboration settings in Azure AD
 
 | Setting | Default | Description |
-|:--|:--|:--|
+|:-----|:-----|:-----|
 |Guest user access|Guests have limited access to properties and memberships of directory objects|Determines the [permissions that guests have in Azure Active Directory](/azure/active-directory/fundamentals/users-default-permissions?azure-portal=true).|
 |Guest invite settings|Anyone in the organization can invite guests including guests and non-admins|Determines whether guests, members, and admins can invite guests to the organization.<br><br> This setting affects Microsoft 365 sharing experiences such as Teams and SharePoint.|
 |Enable guest self-service sign up via user flows|No|Determines if you can create user flows that allow someone to sign up for an app that you created and create a new guest account.|

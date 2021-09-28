@@ -15,13 +15,13 @@ Guests in Teams are covered by the same compliance and auditing protection as th
 ### Guest calling
 
 | Setting | Default | Description |
-|:--|:--|:--|
+|:-----|:-----|:-----|
 |Make private calls|On|When **On**, guests can make peer-to-peer calls in Teams; when **Off**, they can't.|
 
 ### Guest meeting
 
 | Setting | Default | Description |
-|:--|:--|:--|
+|:-----|:-----|:-----|
 |Allow IP video|On|When **On**, guests can use video in their calls and meetings; when **Off**, they can't.|
 |Screen sharing mode|Entire screen|When **Disabled**, guests can't share their screens in Teams. <br/>When set to **Single application**, guests can only share a single application on their screen. <br/>When set to **Entire screen**, guests can choose to share an application or their entire screen.|
 |Allow Meet Now|On|When **On**, guests can use the Meet Now feature in Teams; when **Off**, they can't.|
@@ -29,7 +29,7 @@ Guests in Teams are covered by the same compliance and auditing protection as th
 ### Guest messaging
 
 | Setting | Default | Description |
-|:--|:--|:--|
+|:-----|:-----|:-----|
 |Edit sent messages|On|When **On**, guests can edit messages they previously sent; when **Off**, they can't.|
 |Delete sent messages|On|When **On**, guests can delete messages they previously sent; when **Off**, they can't.|
 |Chat|On|When **On**, guests can use chat in Teams; when **Off**, they can't.|
