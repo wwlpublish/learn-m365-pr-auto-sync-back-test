@@ -1,0 +1,50 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.migrate-voice-services-from-skype-for-business-server-to-teams.knowledge-check
+title: Knowledge check
+metadata:
+  title: Knowledge check
+  description: "Knowledge check"
+  ms.date: 09/28/2021
+  author: wwlpublish
+  ms.topic: interactive-tutorial
+azureSandbox: false
+labModal: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/8-knowledge-check.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "Configuration of a shared SIP domain allows the following functionality within a Hybrid environment:"
+    choices:
+    - content: "Chat and Calling between Skype for Business Server and Microsoft Teams Users"
+      isCorrect: true
+      explanation: "The shared SIP domain functionality allows users within two different environments, on-premises and online, to communicate using supporting Federation features."
+    - content: "Skype for Business users to join Microsoft Teams meetings"
+      isCorrect: false
+      explanation: "Skype for Business users can join Microsoft Teams meetings without any specific prerequisites for Hybrid in-place, using a web-browser, desktop or mobile client."
+    - content: "PSTN calling functionality using shared SIP connectivity for Teams Only users"
+      isCorrect: false
+      explanation: "Skype for Business Server doesn't support routing of calls to Teams users via a shared SIP domain."
+  - content: "Which types of meeting room device support Microsoft Teams?"
+    choices:
+    - content: "Skype Room System v2 devices"
+      isCorrect: true
+      explanation: "Skype Room System (SRS) v2 devices are native Microsoft Teams Room devices when the latest updates are applied."
+    - content: "Skype Room System v1 and v2 devices"
+      isCorrect: false
+      explanation: "Skype Room System (SRS) v2 devices are not Microsoft Teams compatible and support ended for these devices in October 2018. SRS v2 devices can be upgraded natively to support Microsoft Teams."
+    - content: "All Skype for Business Certified room devices"
+      isCorrect: false
+      explanation: "Certification for meeting room devices for Skype for Business server does not apply to Microsoft Teams as modern native communication protocols are used in Microsoft Teams. Validate each certified room device model separately for compatbilty."
+  - content: "Which steps must be performed when migrating an Enterprise Voice user?"
+    choices:
+    - content: "<ol><li>Configure Hybrid functionality for your organization.</li><li>Assign Teams and Skype for Business licensing to a user.</li><li>Using credentials for on-premises and Microsoft Teams, use Move-CsUser to migrate a user.</li><li>Use Hybrid functionality for call routing.</li><li>Configure Teams Voice System functionality or Direct Routing</li></ol>"
+      isCorrect: false
+      explanation: "You cannot use the Hybrid environment to route Enterprise Voice calls to and from Microsoft Teams. Instead, ensure Teams Phone System or Direct Routing capabilities are configured prior to migrating users, then enable Calling Plans or Direct Routing for individual users after each migration."
+    - content: "<ol><li>Configure Hybrid functionality for your organization.</li><li>Configure Teams Voice System functionality or Direct Routing</li><li>Assign Teams and Skype for Business licensing to a user</li><li>Using credentials for on-premises and Microsoft Teams, use Move-CsUser to migrate a user</li><li>Enable Calling Plan or Direct Routing functionality to enable Voice Services.</li></ol>"
+      isCorrect: true
+      explanation: "Before migrating a user, you need to configure Hybrid, set up your organization to use Teams Voice services, and apply the appropriate licensing. After migration of the user, enable Calling Plan or Direct Routing for an individual user."
+    - content: "<ol><li>Configure Hybrid functionality for your organization.</li><li>Using credentials for on-premises and Microsoft Teams, use Move-CsUser to migrate a user.</li><li>Assign Teams and Skype for Business licensing to a user.</li><li>Configure and Enable Calling Plan functionality or Direct Routing.</li></ol>"
+      isCorrect: false
+      explanation: "To avoid loss of PSTN calling functionality, configure and test Teams Phone System or Direct Routing functionality prior to migration of users."

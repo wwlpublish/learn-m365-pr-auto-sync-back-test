@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.migrate-voice-services-from-skype-for-business-server-to-teams.migrate-ip-phones
+title: Migrate Skype for Business IP phones
+metadata:
+  title: Migrate Skype for Business IP phones
+  description: "Migrate Skype for Business IP phones"
+  ms.date: 09/28/2021
+  author: wwlpublish
+  ms.topic: interactive-tutorial
+azureSandbox: false
+labModal: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/6-migrate-ip-phones.md)]
