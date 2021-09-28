@@ -1,0 +1,38 @@
+### YamlMime:Module
+uid: learn.wwl.extend-teams-phone-system-additional-services
+metadata:
+  title: Extend Teams Phone System with additional services
+  description: "Teams Phone leverages other Microsoft services and can be extended with third party solutions for policy-based compliance recording and contact center. The recording and contact center solutions leverage bots to interact with Azure, and in the last unit of this module, we look at the design options for these bots and how you can register a custom developed bot."
+  ms.date: 09/28/2021
+  author: wwlpublish
+  ms.author: dahans
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Extend Teams Phone System with additional services
+summary: Teams Phone leverages other Microsoft services and can be extended with third-party solutions for policy-based compliance recording, contact center integration, and custom developed bots.
+abstract: |
+  At the end of this module, you will be able to:
+  - Describe how Teams Phone interacts with additional Microsoft services
+  - Configure and integrate Third Party policy-based compliance recording
+  - Configure and integrate third party contact center solutions
+  - Design and register Voice Bots for custom solutions
+prerequisites: |
+  - None
+iconUrl: /learn/achievements/generic-badge.svg
+levels:
+- advanced
+roles:
+- administrator
+products:
+- m365
+- office-teams
+units:
+- learn.wwl.extend-teams-phone-system-additional-services.introduction
+- learn.wwl.extend-teams-phone-system-additional-services.understand-how-teams-interacts
+- learn.wwl.extend-teams-phone-system-additional-services.configure-compliance-recording
+- learn.wwl.extend-teams-phone-system-additional-services.configure-integrate-certified-contact-center
+- learn.wwl.extend-teams-phone-system-additional-services.design-deploy-voice-bots
+- learn.wwl.extend-teams-phone-system-additional-services.knowledge-check
+- learn.wwl.extend-teams-phone-system-additional-services.summary-resources
+badge:
+  uid: learn.wwl.extend-teams-phone-system-additional-services.badge
