@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.msgraph-dotnetcore-show-user-emails.4-exercise-connect-app
+metadata:
+  title: Exercise - Connect an ASP.NET Core app to Microsoft 365
+  description: In this unit, you'll learn how to connect an ASP.NET Core app to Microsoft 365.
+  ms.date: 08/29/2021
+  author: DanWahlin 
+  ms.author: dwahlin
+  ms.topic: interactive-tutorial
+  ms.prod: learning-graph
+title: Exercise - Connect an ASP.NET Core app to Microsoft 365
+durationInMinutes: 5
+content: |
+  [!include[](includes/4-exercise-connect-app.md)]

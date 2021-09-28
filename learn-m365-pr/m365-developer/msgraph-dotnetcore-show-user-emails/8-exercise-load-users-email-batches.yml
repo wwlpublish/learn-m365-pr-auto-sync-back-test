@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.msgraph-dotnetcore-show-user-emails.8-exercise-load-users-email-batches
+metadata:
+  title: Exercise - Load a user's emails in batches
+  description: In this exercise, you'll learn how to load a large collection of data exposed through Microsoft Graph in batches.
+  ms.date: 08/29/2021
+  author: DanWahlin 
+  ms.author: dwahlin
+  ms.topic: interactive-tutorial
+  ms.prod: learning-graph
+title: Exercise - Load a user's emails in batches
+durationInMinutes: 8
+content: |
+  [!include[](includes/8-exercise-load-users-email-batches.md)]
