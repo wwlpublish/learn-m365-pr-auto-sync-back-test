@@ -11,7 +11,7 @@ Teams administrators and Teams communication administrators have full access to 
 The following table identifies the per-user information that's available for each communications support role.
 
 |Activity|Information|What the communications<br>support *specialist* sees|What the communications<br>support *engineer* sees|
-|||||
+|---|---|---|---|
 |**Calls**|Caller name|Only the name of the user the agent searched for.|User name.|
 ||Recipient name|Shows as Internal User or External User.|Recipient name.|
 ||Caller phone number|Entire phone number except last three digits are obfuscated with asterisk symbols. For example, 15552823\*\*\*.|The entire phone number except the last three digits are obfuscated with asterisk symbols. For example, 15552823\*\*\*.|
@@ -71,7 +71,7 @@ Rarely is quality of experience data not received for audio sessions. When this 
 For audio sessions that do have quality of experience (QoE) data, the following table describes major issues that qualify a session as **poor**.
 
 | Issue                              | Area    | Description                                                                                                                                                            |
-||||
+|------------------------------------|---------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Call setup                         | Session | The error code Ms-diag 20-29 indicates the call setup failed. The user couldn't join the call or meeting.                                                             |
 | Audio network classified poor call | Session | Network quality issues (such as packet loss, jitter, NMOS degradation, RTT, or concealed ratio) occurred.                                                      |
 | Device not functioning             | Device  | A device isn't functioning correctly. Device not functioning ratios are: <br/> - DeviceRenderNotFunctioningEventRatio \>= 0.005 <br/> - DeviceCaptureNotFunctioningEventRatio \>= 0.005     |
