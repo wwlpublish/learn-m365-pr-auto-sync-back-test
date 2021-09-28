@@ -3,13 +3,13 @@ To deploy a Call Queue to a Microsoft Teams Channel while creating the Call Queu
 ![Screenshot showing the options for adding a Channel based Call Queue](../media/call-queue-channel.png)
 
 
-1. **Name of search -** Type the name of the Team
+1. **Name of search** - Type the name of the Team
 
-1. **Selected Team -** Select the name of the Team in which the channel is located.
+1. **Selected Team** - Select the name of the Team in which the channel is located.
 
-1. **Select the channel -** Select the name of the channels, which are located under the selected Team. The channel will then be used to assign the agents as members of the channel.  Private teams can be used; however, private channels may not.
+1. **Select the channel** - Select the name of the channels, which are located under the selected Team. The channel will then be used to assign the agents as members of the channel.  Private teams can be used; however, private channels may not.
 
-### Teams channel
+### Teams channel
 
 You can add up to 200 agents via a Teams channel.
 

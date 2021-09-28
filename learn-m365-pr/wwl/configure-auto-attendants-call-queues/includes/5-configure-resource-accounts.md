@@ -6,11 +6,9 @@ Resource accounts are disabled objects in Azure Active Directory that are requir
 
 ![Screenshot of searching for a resource account to add to a call queue.](../media/call-queue-account.png)
 
-
 1. Select **+Add Resource Account** if account is not found.
 
 ![Screenshot of adding a new resource account.](../media/call-queue-resource-account.png)
-
 
 1. **Display name -** Input the display name.
 
@@ -20,13 +18,11 @@ Resource accounts are disabled objects in Azure Active Directory that are requir
 
 ![Screenshot of adding a resource account to a Call Queue.](../media/call-queue-account-new.png)
 
-
 ## Assign a license
 
 For each resource account, you must assign a *Microsoft 365 Phone System - Virtual User* license or *Phone System* license.
 
 ![Screenshot of assign licenses user interface in the Microsoft 365 admin center](../media/assign-virtual-user-license.png)
-
 
 1. In the Microsoft 365 admin center, select the resource account to which you want to assign a license.
 

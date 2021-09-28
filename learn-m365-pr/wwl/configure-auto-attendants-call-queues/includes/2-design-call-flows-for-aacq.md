@@ -8,7 +8,7 @@ Here you'll plan, design, and create auto attendants that are tailored to specif
 
 ## Assess the business need
 
-The first stage of auto attendant planning is to assess the business requirements. Complete the following steps:
+The first stage of auto attendant planning is to assess the business requirements. Take a moment to answer these questions about your situation:
 
 - Who are the people in the business?
 
@@ -122,7 +122,7 @@ Have some discussions with people in each of the job functions in the office abo
 
 ### What language requirements do the customers have?
 
-The countries where you do business are likely to influence the languages spoken by your customers.
+The countries/regions where you do business are likely to influence the languages spoken by your customers.
 
 Suppose we discover that there were only two callers in the whole week who spoke what seemed like English as a second language. They spoke good enough English to make their inquiries, and they didn't seem to speak the same native language. If you confirm this with the business partners, you might decide that menus can be implemented in English only, but bear in mind that you may lose customers who don't speak English well.
 
@@ -237,5 +237,5 @@ Things to avoid
 
 **Rehearse and validation**
 
-Before you record the auto attendants and greetings, be sure to read it and rehearse it several times. Ensure that your pronunciation and annunciation are finely tuned. Once the recordings are applied, check the recording for any errors and make sure the solution works as attended. ****
+Before you record the auto attendants and greetings, be sure to read it and rehearse it several times. Ensure that your pronunciation and annunciation are finely tuned. Once the recordings are applied, check the recording for any errors and make sure the solution works as attended.
 

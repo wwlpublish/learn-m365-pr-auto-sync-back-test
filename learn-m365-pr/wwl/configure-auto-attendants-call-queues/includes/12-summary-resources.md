@@ -18,7 +18,7 @@ Use these resources to discover more background details of the described topics 
 
 - [Manage calls in Microsoft Teams by using auto attendants and call queues - Learn | Microsoft Docs](/learn/modules/m365-teams-manage-calls-using-auto-attendants/)
 
-- [Set up an auto attendant - small business tutorial](•%09https:/docs.microsoft.com/en-us/microsoftteams/business-voice/create-a-phone-system-auto-attendant-smb?tabs=phone-number)
+- [Set up an auto attendant - small business tutorial](https:/docs.microsoft.com/microsoftteams/business-voice/create-a-phone-system-auto-attendant-smb?tabs=phone-number)
 
 - [Manage resource accounts in Microsoft Teams](/microsoftteams/manage-resource-accounts)
 

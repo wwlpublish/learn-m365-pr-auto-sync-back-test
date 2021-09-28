@@ -102,9 +102,7 @@ When transferring calls to an external phone number, the resource account perfor
 - An online voice routing policy (phone number assignment is optional when using Direct Routing)
 
 > [!NOTE]
-> Notes for Auto Attendants:>
 >    - Direct Routing service numbers for auto attendant and call queues are supported for Microsoft Teams users and call agents only.
 >    - Transfers between Calling Plan trunks and Direct Routing trunks aren't supported.
 >    - In a Hybrid scenario, the resource account must be created on-premises.
->
 

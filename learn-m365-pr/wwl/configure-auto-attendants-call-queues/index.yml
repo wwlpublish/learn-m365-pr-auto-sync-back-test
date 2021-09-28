@@ -12,14 +12,15 @@ title: Configure Auto Attendants and Call Queues
 summary: Understand how auto attendants and call queues in Microsoft Teams can interact with callers to ensure they're connected your agents as quickly as possible. You'll also learn how to setup auto attendants and call queues.
 abstract: |
   At the end of this module, you will be able to:
-  - Describe the differences between auto attendants and call queues
-  - Design an auto attendant to gather information from callers
-  - Explain how to set up auto attendants to implement your plan
-  - Demonstrate how to plan call queues to manage many callers
-  - Describe how to configure call queues to alert agents and route calls
-  - Explain how to plan licensing for auto attendants and call queues
+  - Describe the differences between auto attendants and call queues.
+  - Design an auto attendant to gather information from callers.
+  - Explain how to set up auto attendants to implement your plan.
+  - Demonstrate how to plan call queues to manage many callers.
+  - Describe how to configure call queues to alert agents and route calls.
+  - Explain how to plan licensing for auto attendants and call queues.
 prerequisites: |
-  - None
+  - Familiarity with administrating Microsoft Teams
+  - Awareness of Microsoft 365 Phone System
 iconUrl: /learn/achievements/generic-badge.svg
 levels:
 - advanced

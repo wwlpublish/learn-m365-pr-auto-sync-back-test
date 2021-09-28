@@ -7,11 +7,11 @@ Likewise, if a Call time out handling, if the call isn't answered within wait ti
 ![Screenshot showing the options for routing calls to voicemail.](../media/assign-voice-mail.png)
 
 
-- **1 - Call overflow handling/What call times out -** Use this to set the call handling to either disconnect or redirect the call.
+- **Call overflow handling/What call times out** - Use this to set the call handling to either disconnect or redirect the call.
 
-- **2 - Redirect this call to -** This can be to a Person in the organization, Voice App such as a resource account (auto attendant or call queue), External phone number, or a voicemail. The voicemail can be configured to go to an Office 365 Group, the group is searched for and selected.
+- **Redirect this call to** - This can be to a Person in the organization, Voice App such as a resource account (auto attendant or call queue), External phone number, or a voicemail. The voicemail can be configured to go to an Office 365 Group, the group is searched for and selected.
 
-- **3 - Transcription -** Transcription of the voicemail can be configured for on or off.
+- **Transcription** - Transcription of the voicemail can be configured for on or off.
 
-- **4 - Announcement -** When the voicemail message is played it can be an audio file, either an MP3, WAV, or WMA. File must be less than 5 MB, or a drafted greeting message can be played. If you choose this option, enter text you want the system to read (up to 1000 characters). For example, "Sorry that we can't take your call at this time. Please leave your name, phone number, and reason for your call after the beep."
+- **Announcement** - When the voicemail message is played it can be an audio file, either an MP3, WAV, or WMA. File must be less than 5 MB, or a drafted greeting message can be played. If you choose this option, enter text you want the system to read (up to 1000 characters). For example, "Sorry that we can't take your call at this time. Please leave your name, phone number, and reason for your call after the beep."
 
