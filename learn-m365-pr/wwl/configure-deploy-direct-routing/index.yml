@@ -12,12 +12,13 @@ title: Configure and deploy Direct Routing
 summary: In this module, you'll learn how administrators configure Direct Routing to meet user needs for telephony through a PSTN.
 abstract: |
   At the end of this module, you will be able to:
-  - Configure and connect a Session Border Controller (SBC)
-  - Describe the process for configuring simple and advanced voice routing
-  - Describe how to provision users, implement number translation, create and assign dial plans
-  - Explain how to manage Direct Routing and resolve common Survivable Branch Appliance (SBA) configuration issues
+  - Explain how to configure and connect a Session Border Controller (SBC).
+  - Describe the process for configuring simple and advanced voice routing.
+  - Describe how to provision users, implement number translation, create, and assign dial plans.
+  - Explain how to configure and connect a Survivable Branch Appliance (SBA).
 prerequisites: |
-  - None
+  - Knowledge of PBX telephony systems and terminology
+  - Knowledge equivalent to the Plan for Direct Routing module
 iconUrl: /learn/achievements/generic-badge.svg
 levels:
 - advanced

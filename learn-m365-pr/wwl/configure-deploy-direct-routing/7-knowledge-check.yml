@@ -42,7 +42,7 @@ quiz:
     - content: "Use the PowerShell command New-CsOnlinePSTNGateway"
       isCorrect: false
       explanation: "That is not correct. This is how you would configure a Session Border Controller."
-    - content: "Use the PowerShell command New-CSTeamsSurvivable BranchAppliance"
+    - content: "Use the PowerShell command New-CSTeamsSurvivableBranchAppliance"
       isCorrect: true
       explanation: "This is correct. The only way is to use the New-CSTeamsSurvivableBranchAppliance PowerShell command."
     - content: "Configure Direct Routing through the Teams Admin Center"

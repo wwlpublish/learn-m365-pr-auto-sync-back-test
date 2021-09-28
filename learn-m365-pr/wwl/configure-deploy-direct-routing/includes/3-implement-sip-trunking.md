@@ -1,7 +1,7 @@
 There are multiple ways of implementing a Direct Route. One is to obtain a SIP Trunk directly from a SIP Trunk provider and they host the SBC on your behalf.  The other method also outlined in this module is to implement an SBC or SBA and then interface to the SIP trunk. Organizations will use a SIP trunk from an organization should they want to simplify the installation and have no requirement for a Session Border Controller. SIP Trunk providers will supply the SBC as part of the service and is a simplified way of doing things. The reason why you would choose an SBC is to provide more granularity and control, to provide linkage to third-party applications such as contact center and compliance recording, or if you want to manage the migration seamlessly from one solution to another while keeping the SBC upstream from Teams and the existing telephone system.
 
 > [!NOTE]
-> Note: SIP trunk provider's tenant is used when doing direct route to the SIP trunk providers SBC.  The SIP trunk provider's domain must be added to the domain for it to function properly. 
+> SIP trunk provider's tenant is used when doing direct route to the SIP trunk providers SBC.  The SIP trunk provider's domain must be added to the domain for it to function properly. 
 
 ## Add a domain
 
@@ -45,17 +45,17 @@ For example: [test@sbc1.customers.adatum.biz](mailto:test@sbc1.customers.adatum.
 The user’s created for each domain would need a single E3 / E5 license assigned to activate the domain. Once the domain is activated then the license can be removed from each respective user.
 
 > [!IMPORTANT]
-> Important: Do not delete these accounts for the duration of your Teams direct routing service.
+> Do not delete these accounts for the duration of your Teams direct routing service.
 
 ## Office 365 Voice Routing
 
 Office 365 voice routing is comprised of three configuration items: voice routing policy, PSTN usage, and voice route.
 
-- **Voice Routing Policy:** This item is granted to users (via the Grant-CsOnlineVoiceRoutingPolicy cmdlet) and dictates what calls the user can make.
+- **Voice Routing Policy**: This item is granted to users (via the Grant-CsOnlineVoiceRoutingPolicy cmdlet) and dictates what calls the user can make.
 
-- **PSTN Usage:** Global configuration item to map a voice routing policy to a voice route.  It serves no other purpose.
+- **PSTN Usage**: Global configuration item to map a voice routing policy to a voice route.  It serves no other purpose.
 
-- **Voice Route:** Voice routes, based on a number pattern to match (using regular expressions), route calls to a specified gateway (in the OnlinePstnGatewayList array).  There are also priority options to control which routes should be higher priority than others; this is useful for failover configuration.
+- **Voice Route**: Voice routes, based on a number pattern to match (using regular expressions), route calls to a specified gateway (in the OnlinePstnGatewayList array).  There are also priority options to control which routes should be higher priority than others; this is useful for failover configuration.
 
 ## Customer tenant SBC pairing
 
@@ -69,9 +69,9 @@ Online PSTN usages are string values that are used for call authorization. An on
 
 You create a new usage by using the **Set-CsOnlinePstnUsage** command in PowerShell, with the following parameters:
 
-- **Identity -** The scope where these settings should be applied. It's always set to global.
+- **Identity** - The scope where these settings should be applied. It's always set to global.
 
-- **Usage -** The name of the usage. For example, @{Add= "UnrestrictedPSTNUsage"} means that you want to add a usage named "UnrestrictedPSTNUsage".
+- **Usage** - The name of the usage. For example, @{Add= "UnrestrictedPSTNUsage"} means that you want to add a usage named "UnrestrictedPSTNUsage".
 
 You configure a single usage to cover all locations call routing by running the following command from the Microsoft Teams PowerShell module or through the GUI as in the Design Direct Routing call flows section:
 
@@ -88,11 +88,11 @@ You then create multiple voice routes and associate them with all local and inte
 
 After you've created a usage, you associate it with a voice route. You create a voice route using the **New-CsOnlineVoiceRoute** command from the Microsoft Teams PowerShell module, with the following parameters:
 
-- **Identity -** The name of the route. This can be the same name as the usage
+- **Identity** - The name of the route. This can be the same name as the usage
 
-- **NumberPattern -** Number patterns to match. You can use “.*” to match all number patterns.
+- **NumberPattern** - Number patterns to match. You can use “.*” to match all number patterns.
 
-- **OnlinePstnGatewayList -** The name of your SBC.
+- **OnlinePstnGatewayList** - The name of your SBC.
 
 - **Priority** - The priority position of this route should have.
 

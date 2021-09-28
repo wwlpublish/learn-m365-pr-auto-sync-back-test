@@ -69,7 +69,7 @@ To connect your SBC to Microsoft Phone System, follow these steps:
 1. Enter a valid FQDN for the SBC.
 
     > [!NOTE]
-    > Note: Make sure the domain name portion of the FQDN matches a domain that's registered in your tenant and keep in mind that the “*.onmicrosoft.com” domain name isn't supported for the SBC FQDN domain name. For example, if you have two domain names, “contoso.com” and “contoso.onmicrosoft.com,” use “sbc.contoso.com” as the SBC name. If using a subdomain, make sure this subdomain is also registered in your tenant. For example, if you want to use “sbc.service.contoso.com,” then “service.contoso.com” needs to be registered.
+    > Make sure the domain name portion of the FQDN matches a domain that's registered in your tenant and keep in mind that the “*.onmicrosoft.com” domain name isn't supported for the SBC FQDN domain name. For example, if you have two domain names, “contoso.com” and “contoso.onmicrosoft.com,” use “sbc.contoso.com” as the SBC name. If using a subdomain, make sure this subdomain is also registered in your tenant. For example, if you want to use “sbc.service.contoso.com,” then “service.contoso.com” needs to be registered.
 
 1. Configure the following settings for the SBC, based on your organization's needs:
 
@@ -99,13 +99,13 @@ The configuration of SBCs can be done through the graphical user interface (GUI)
 
 When you are ready to enable users for Direct Routing, follow these steps:
 
-- Create a user in Microsoft 365 or Office 365 and assign a Phone System license.
+1. Create a user in Microsoft 365 or Office 365 and assign a Phone System license.
 
-- Ensure that the user is homed in Skype for Business Online.
+1. Ensure that the user is homed in Skype for Business Online.
 
-- Configure the phone number and enable enterprise voice and voicemail.
+1. Configure the phone number and enable enterprise voice and voicemail.
 
-- Assign Teams Only mode to users.
+1. Assign Teams Only mode to users.
 
 ### Create a user and assign the license
 
@@ -127,13 +127,15 @@ The user you assigned the voice routing policy to also needs to have a phone num
 
 This step is applicable to Skype for Business Server Enterprise Voice enabled users being migrated to Teams Direct Routing.
 Direct Routing requires the user to be homed online. You can check by looking at the RegistrarPool parameter, which needs to have a value in the infra.lync.com domain. It's also recommended, but not required, to change management of the LineURI from on-premises to online when migrating users to Teams Direct Routing.
-Connect a Skype for Business Online PowerShell session.
 
-Issue the command:
+Connect a Skype for Business Online PowerShell session by issuing the following command:
 
+```PowerShell
 Get-CsOnlineUser -Identity "<User name>" | fl RegistrarPool,OnPremLineUriManuallySet,OnPremLineUri,LineUri
 
-Further information can be obtained in the resources section below for enabling users via PowerShell - See Enable users for Direct Routing - Microsoft Teams | Microsoft Docs
+```
+
+Further information can be obtained in the resources section below for enabling users via PowerShell - See Enable users for Direct Routing - Microsoft Teams | Microsoft Docs.
 
 ## Create a custom voice routing policy
 
@@ -146,7 +148,6 @@ Further information can be obtained in the resources section below for enabling 
 1. Select **Add** to create a new entry.
 
     ![Screenshot of the Add voice routing policy page in the Microsoft Teams admin center ](../media/voice-routing-policy.png)
-
 
 1. Enter a meaningful name and description for the policy.
 

@@ -67,7 +67,6 @@ New-CsOnlineVoiceRoutingPolicy "US and Canada only" -OnlinePstnUsages "US and Ca
 
 ### Other considerations
 
-Location-based routing
 Location-Based Routing is a feature that lets you restrict toll bypass based on policy and the user's geographic location at the time of an inbound or outbound PSTN call. Location-Based Routing is intended to provide a mechanism to prevent toll bypass. It shouldn't be used as a mechanism to dynamically route PSTN calls based on the location of the user or unintended consequences may result.
 
 When a Teams user is enabled for Location-Based Routing, the following applies:
@@ -91,6 +90,7 @@ Location-Based Routing uses the same network region, site, and subnet definition
 Further information can be found in the resources section.
 
 ### Media bypass
+
 Media bypass enables you to shorten the path of media traffic and reduce the number of hops in transit for better performance. With media bypass, media is kept between the Session Border Controller (SBC) and the client instead of sending it via the Microsoft Phone System. To configure media bypass, the SBC and the client must be in the same location or network.
 
 You can control media bypass for each SBC by using the `Set-CSOnlinePSTNGateway` command with the `-MediaBypass` parameter set to true or false. If you enable media bypass, this does not mean that all media traffic will stay within the corporate network. This article describes the call flow in different scenarios.

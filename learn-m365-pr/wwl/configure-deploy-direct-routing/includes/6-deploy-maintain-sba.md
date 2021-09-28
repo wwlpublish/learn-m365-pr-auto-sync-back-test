@@ -38,7 +38,7 @@ When the Microsoft Teams client is in offline mode, the following calling-relate
 
 For the SBA feature to work, the Teams client needs to know which SBAs are available in each branch site, and which SBAs are assigned to the users in that site.
 
- To connect your SBA to Microsoft Phone System, follow these steps
+To connect your SBA to Microsoft Phone System, follow these steps
 
 1. Create the SBAs.
 
@@ -87,9 +87,7 @@ New-CsTeamsSurvivableBranchAppliancePolicy -Identity CPH -BranchApplianceFqdns "
 
 ```
 
-You can add or remove SBAs from a policy by using the Set-CsTeamsSurvivableBranchAppliancePolicy cmdlet.
-
-For example:
+You can add or remove SBAs from a policy by using the Set-CsTeamsSurvivableBranchAppliancePolicy cmdlet. For example:
 
 ```powershell
 Set-CsTeamsSurvivableBranchAppliancePolicy -Identity CPH -BranchApplianceFqdns @{remove="sba1.contoso.com"}
