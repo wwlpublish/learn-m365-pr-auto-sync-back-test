@@ -1,5 +1,5 @@
 ### YamlMime:ModuleUnit
-uid: learn-m365.msgraph-dotnetcore-show-user-emails.6-exercise-show-users-email
+uid: learn-m365.msgraph-dotnet-core-show-user-emails.6-exercise-show-users-email
 metadata:
   title: Exercise - Show a user's emails
   description: In this unit, you'll learn how to load a user's 10 last emails from Microsoft 365 by using Microsoft Graph.

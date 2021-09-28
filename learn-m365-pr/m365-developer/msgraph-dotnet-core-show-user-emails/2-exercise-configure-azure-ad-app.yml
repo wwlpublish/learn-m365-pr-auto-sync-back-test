@@ -1,5 +1,5 @@
 ### YamlMime:ModuleUnit
-uid: learn-m365.msgraph-dotnetcore-show-user-emails.2-exercise-configure-azuread-app
+uid: learn-m365.msgraph-dotnet-core-show-user-emails.2-exercise-configure-azure-ad-app
 metadata:
   title: Exercise - Configure an Azure AD app to connect to Microsoft 365
   description: In this unit, you'll create a new Azure Active Directory application registration that's necessary to complete exercises in this module.
@@ -11,4 +11,4 @@ metadata:
 title: Exercise - Configure an Azure AD app to connect to Microsoft 365
 durationInMinutes: 5
 content: |
-  [!include[](includes/2-exercise-configure-azuread-app.md)]
+  [!include[](includes/2-exercise-configure-azure-ad-app.md)]

@@ -11,5 +11,5 @@ To start, you need to register your Microsoft 365 application. You can do that b
 | Supported account types  | Accounts in any organizational directory (Any Azure AD directory - Multitenant) | 
 | API permissions  | Microsoft Graph `User.Read` (delegated)  | 
 
-[!INCLUDE [Register Azure AD application](../../../includes/exercise-register-m365-dotnetcore-aad-application.md)]
+[!INCLUDE [Register Azure AD application](../../../includes/exercise-register-m365-dotnet-core-azure-ad-application.md)]
 
