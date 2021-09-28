@@ -22,11 +22,11 @@ Use these resources to discover more background details of the described topics 
 
 - [Getting phone numbers for your users - Microsoft Teams | Microsoft Docs](/microsoftteams/getting-phone-numbers-for-your-users)
 
-- [What numbers can be ported? - Microsoft Teams | Microsoft Docs](/en-US/microsoftteams/phone-number-calling-plans/port-order-overview)
+- [What numbers can be ported? - Microsoft Teams | Microsoft Docs](/microsoftteams/phone-number-calling-plans/port-order-overview)
 
 - [Find your Microsoft 365 tenant ID - OneDrive | Microsoft Docs](/onedrive/find-your-office-365-tenant-id)
 
-- [What are dial plans? - Microsoft Teams | Microsoft Docs](/en-US/microsoftteams/what-are-dial-plans)
+- [What are dial plans? - Microsoft Teams | Microsoft Docs](/microsoftteams/what-are-dial-plans)
 
 - [Plan and manage emergency calling - Microsoft Teams | Microsoft Docs](/microsoftteams/what-are-emergency-locations-addresses-and-call-routing)
 
@@ -38,7 +38,7 @@ Use these resources to discover more background details of the described topics 
 
 - [Manage phone numbers for your organization - Microsoft Teams | Microsoft Docs](/microsoftteams/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization)
 
-- [Call Park and retrieve in Microsoft Teams - Microsoft Teams | Microsoft Docs](/en-US/microsoftteams/call-park-and-retrieve?WT.mc_id=TeamsAdminCenterCSH)
+- [Call Park and retrieve in Microsoft Teams - Microsoft Teams | Microsoft Docs](/microsoftteams/call-park-and-retrieve?WT.mc_id=TeamsAdminCenterCSH)
 
 - [Block inbound calls in Microsoft Teams - Microsoft Teams | Microsoft Docs](/microsoftteams/block-inbound-calls)
 
@@ -48,7 +48,7 @@ Use these resources to discover more background details of the described topics 
 
 - [Configure Audio Conferencing settings - Microsoft Teams | Microsoft Docs](/microsoftteams/deploy-audio-conferencing-teams-landing-page)
 
-- [Set the Caller ID for a user - Microsoft Teams | Microsoft Docs](/en-US/microsoftteams/set-the-caller-id-for-a-user)
+- [Set the Caller ID for a user - Microsoft Teams | Microsoft Docs](/microsoftteams/set-the-caller-id-for-a-user)
 
 - [Block inbound calls in Microsoft Teams - Microsoft Teams | Microsoft Docs](/microsoftteams/block-inbound-calls)
 

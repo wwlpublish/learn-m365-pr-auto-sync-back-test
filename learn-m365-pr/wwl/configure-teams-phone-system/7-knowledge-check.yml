@@ -19,32 +19,32 @@ quiz:
     choices:
     - content: "An IP Address from which we allow Teams clients to sign in"
       isCorrect: false
-      explanation: "That is not correct. Trusted IPs are not used to limit from where a teams user can sign in."
+      explanation: "That option is not correct. Trusted IP Addresses are not used to limit from where a teams user can sign in."
     - content: "Organizational Network Subnets used to verify the Location Information Service should be queried"
       isCorrect: false
-      explanation: "That is not correct. Trusted IPs are public IP addresses that tell the Location Information Service the teams client network subnet should be checked to see if it maps to a specific configured location."
+      explanation: "That option is not correct. Trusted IP Addresses are public IP addresses that tell the Location Information Service the teams client network subnet should be checked to see if it maps to a specific configured location."
     - content: "Organization Public IP Addresses used to verify the Location Information Service should be queried"
       isCorrect: true
-      explanation: "That is correct. Trusted IPs are public IP addresses that tell the Location Information Service the teams client network subnet should be checked to see if it maps to a specific configured location."
+      explanation: "That option is correct. Trusted IP Addresses are public IP addresses that tell the Location Information Service the teams client network subnet should be checked to see if it maps to a specific configured location."
   - content: "What can be configured with Call Park Policies?"
     choices:
     - content: "Setting the number ranges used for Call Park"
       isCorrect: false
-      explanation: "That is not correct. You cannot define the number range used for Call Park."
+      explanation: "That option is not correct. You cannot define the number range used for Call Park."
     - content: "Enabling and Disabling Call Park"
       isCorrect: true
-      explanation: "That is correct. Call Park Policies can enable or disable the feature for some or all users."
+      explanation: "That option is correct. Call Park Policies can enable or disable the feature for some or all users."
     - content: "Setting which phones can pick up parked calls"
       isCorrect: false
-      explanation: "That is not correct. Call pack pickups can be limited to a select group of users, but not to specific physical devices such as phones."
+      explanation: "That option is not correct. Call pack pickups can be limited to a select group of users, but not to specific physical devices such as phones."
   - content: "What is needed before you can acquire phone numbers via Microsoft Calling Plan?"
     choices:
     - content: "ExpressRoute connection to Microsoft"
       isCorrect: false
-      explanation: "That is not correct. You do not a dedicated ExpressRoute connection to Microsoft to use Microsoft Calling plans."
+      explanation: "That option is not correct. You do not a dedicated ExpressRoute connection to Microsoft to use Microsoft Calling plans."
     - content: "Configuring Direct Routing"
       isCorrect: false
-      explanation: "That is not correct. You do not need to configure Direct Routing to use Microsoft Calling Plans."
+      explanation: "That option is not correct. You do not need to configure Direct Routing to use Microsoft Calling Plans."
     - content: "Correct Licenses"
       isCorrect: true
-      explanation: "That is correct. Microsoft will only issue phone numbers if your tenant has phone system and calling plan licenses."
+      explanation: "That option is correct. Microsoft will only issue phone numbers if your tenant has phone system and calling plan licenses."

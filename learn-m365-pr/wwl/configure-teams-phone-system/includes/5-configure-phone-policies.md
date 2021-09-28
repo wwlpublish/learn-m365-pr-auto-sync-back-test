@@ -30,17 +30,17 @@ When set to Unanswered, the user's unanswered settings will take effect, such as
 
 You can use and modify the Global (Org-wide default) policy and or create custom policies for sets of users. You can create policies by following these steps:
 
-- Navigate to the Microsoft Teams admin center at [https://admin.teams.microsoft.com](https://admin.teams.microsoft.com/).
+1. Navigate to the Microsoft Teams admin center at [https://admin.teams.microsoft.com](https://admin.teams.microsoft.com/).
 
-- Select **Voice** and **Calling policies**.
+1. Select **Voice** and **Calling policies**.
 
-- Select a Policy to edit or select **add** to add a new policy
+1. Select a Policy to edit or select **add** to add a new policy
 
-- Define an appropriate **name** and **friendly description**
+1. Define an appropriate **name** and **friendly description**
 
-- Define the settings for the policy
+1. Define the settings for the policy
 
-- Select **Save**
+1. Select **Save**
 
 After performing the described steps, you have created a new calling Policy.
 
@@ -63,42 +63,48 @@ In Teams, there are two types of dial plans: service-country and tenant. Tenant-
 
 | Dial plan scope| About|
 | :--- | :--- |
-| Service-country| -A service-scoped dial plan is defined for every country or region where Phone System is available-Each user is automatically assigned the service country dial plan that matches the usage location assigned to the user. -You can't change the service country dial plan|
+| Service-country| -A service-scoped dial plan is defined for every country/region where Phone System is available-Each user is automatically assigned the service-country dial plan that matches the usage location assigned to the user. You can't change the service-country dial plan|
 | Tenant-global| Applies to all users in your tenant/organization|
 | Tenant-user| Can be applied to select users|
 
-Each user is automatically assigned the service country dial plan that matches the usage location assigned to the user. So, for most users you may not need any custom dial plan.
+Each user is automatically assigned the service-country dial plan that matches the usage location assigned to the user. So, for most users you may not need any custom dial plan.
 
-If you want to apply additional dial plan rules, a user’s effective dial plan will be a combination of their Service-country dial plan and any tenant global or tenant user dial plans that are assigned to them.
+If you want to apply additional dial plan rules, a user’s effective dial plan will be a combination of their service-country dial plan and any tenant global or tenant user dial plans that are assigned to them.
 
 The following are the possible effective dial plans:
 
-- If no tenant scoped dial plan is defined and no tenant user scoped dial plan is assigned to the provisioned user, the user will receive an effective dial plan mapped to the **service country** associated with their usage location.
+- If no tenant scoped dial plan is defined and no tenant user scoped dial plan is assigned to the provisioned user, the user will receive an effective dial plan mapped to the **service-country** associated with their usage location.
 
-- If a **tenant global dial plan** is defined, the user will receive an effective dial plan consisting of a merged tenant global dial plan and the service country dial plan associated with their usage location. The tenant global dial plan is not assigned to any user
+- If a **tenant global dial plan** is defined, the user will receive an effective dial plan consisting of a merged tenant global dial plan and the service-country dial plan associated with their usage location. The tenant global dial plan is not assigned to any user
 
-- If a **tenant user dial plan** is defined and assigned to a user, the provisioned user will receive an effective dial plan consisting of the merged tenant user dial plan and the service country dial plan associated with their usage location. A tenant global dial plan, if defined, will not apply to a user with a tenant user dial plan assigned.
+- If a **tenant user dial plan** is defined and assigned to a user, the provisioned user will receive an effective dial plan consisting of the merged tenant user dial plan and the service-country dial plan associated with their usage location. A tenant global dial plan, if defined, will not apply to a user with a tenant user dial plan assigned.
 
-Teams traverses the list of normalization rules from the top down and uses the first rule that matches the dialed number. Tenant global and tenant user rules will be higher than service country rules.
+Teams traverses the list of normalization rules from the top down and uses the first rule that matches the dialed number. Tenant global and tenant user rules will be higher than service-country rules.
 
 ## Create a Dial Plan
 
 To create a tenant global or tenant user dial plan, complete the following steps:
-- Navigate to the Microsoft Teams admin center at [https://admin.teams.microsoft.com](https://admin.teams.microsoft.com/).
+1. Navigate to the Microsoft Teams admin center at [https://admin.teams.microsoft.com](https://admin.teams.microsoft.com/).
 
-- Select **Voice** and **Dial Plan**.
+1. Select **Voice** and **Dial Plan**.
 
-- Select Add, and then enter a name and description for the dial plan.
+1. Select Add, and then enter a name and description for the dial plan.
 
-- Optionally, specify an external dialing prefix if users need to dial one or more additional leading digits (for example, 9) to get an external line. If you want to do this:
+1. Optionally, specify an external dialing prefix if users need to dial one or more additional leading digits (for example, 9) to get an external line. If you want to do this:
 
-In the External dialing prefix box, enter an external dialing prefix. The prefix can be up to four characters (#,*, and 0-9).
-Turn on Optimized device dialing. If you specify an external dialing prefix, you must also turn on this setting to apply the prefix so calls can be made outside your organization.
-Under Normalization rules, configure and associate one or more normalization rules for the dial plan. Each dial plan must have at least one normalization rule associated with it. 
-To create a new normalization rule and associate it with the dial plan, select **Add**, and then define the rule using .NET Framework regular expressions. There are some good samples on Microsoft Docs.
-Arrange the normalization rules in the order that you want. Select **Move up** or **Move down** to change the position of rules in the list.
-Select **Save**
-If you want to test the dial plan, under **Test dial plan**, enter a phone number, and then select **Test**.
+    - In the External dialing prefix box, enter an external dialing prefix. The prefix can be up to four characters (#,*, and 0-9).
+    - Turn on Optimized device dialing. If you specify an external dialing prefix, you must also turn on this setting to apply the prefix so calls can be made outside your organization.
+
+1. Under Normalization rules, configure and associate one or more normalization rules for the dial plan. Each dial plan must have at least one normalization rule associated with it. 
+
+    - To create a new normalization rule and associate it with the dial plan, select **Add**, and then define the rule using .NET Framework regular expressions. There are some good samples on Microsoft Docs.
+
+1. Arrange the normalization rules in the order that you want. Select **Move up** or **Move down** to change the position of rules in the list.
+
+1. Select **Save**
+
+1. If you want to test the dial plan, under **Test dial plan**, enter a phone number, and then select **Test**.
+
 A good overview of dial plans is available on Microsoft docs in resources.
 
 ## Configure Call Park policies
@@ -108,24 +114,24 @@ Call Park and retrieve lets users put calls on hold and enables the same user or
 This is often used in retail environments, where someone may say over a public address system “There is a call for the electronics department on 22" and someone in the electronics department can then retrieve that call by dialing 22.
 
 > [!NOTE]
-> Note: Only Teams Phone licensed users can park and retrieve calls.
+> Only Teams Phone licensed users can park and retrieve calls.
 
 Call park is disabled by default. It can be enabled in the global policy, or a custom policy can be created. The global policy will allow any user to pick up a parked call. Custom policies can be used to assign the policy to a subset of users, when you apply the same policy to a set of users, they can park and retrieve calls among themselves.
 
 To enable call park:
 
-- Navigate to the Microsoft Teams admin center at [https://admin.teams.microsoft.com](https://admin.teams.microsoft.com/).
+1. Navigate to the Microsoft Teams admin center at [https://admin.teams.microsoft.com](https://admin.teams.microsoft.com/).
 
-- Select **Voice** and **Call park policies**.
+1. Select **Voice** and **Call park policies**.
 
-- Select Add, and then enter a **name** and friendly **description**
+1. Select Add, and then enter a **name** and friendly **description**
 
-- Switch **Allow call park** to **On**.
+1. Switch **Allow call park** to **On**.
 
-- Select **Save**
+1. Select **Save**
 
 > [!TIP]
-> TIP: The call pickup range is from 10 to 99 and cannot be customized. In daily use, this limit is not normally reached; so, it is generally not something to worry about unless you have a very large number of users using call park simultaneously. 
+> The call pickup range is from 10 to 99 and cannot be customized. In daily use, this limit is not normally reached; so, it is generally not something to worry about unless you have a very large number of users using call park simultaneously. 
 
 After performing the described steps, you have defined a call park policy you can now assign to a group of users.
 
@@ -149,31 +155,31 @@ You can use the Global (Org-wide default) policy and customize it or create a cu
 
 To create a caller ID policy:
 
-- Navigate to the Microsoft Teams admin center at [https://admin.teams.microsoft.com](https://admin.teams.microsoft.com/).
+1. Navigate to the Microsoft Teams admin center at [https://admin.teams.microsoft.com](https://admin.teams.microsoft.com/).
 
-- Select **Voice** and **Caller ID policies.**
+1. Select **Voice** and **Caller ID policies.**
 
-- Select **Add**
+1. Select **Add**
 
-- Enter a name and description for the policy.
+1. Enter a name and description for the policy.
 
-- Choose the settings you want
+1. Choose the settings you want
 
-- Block incoming caller ID
+    - Block incoming caller ID
 
-- Override the caller ID policy
+    - Override the caller ID policy
 
-- Replace the caller ID with:
+    - Replace the caller ID with:
 
-- User's number: Displays the user's number.
+        - User's number: Displays the user's number.
 
-- Service number: Lets you set a service phone number to display as the caller ID.
+        - Service number: Lets you set a service phone number to display as the caller ID.
 
-- Anonymous: Displays the caller ID as Anonymous.
+        - Anonymous: Displays the caller ID as Anonymous.
 
-- Replace the caller ID with this service number: Choose a service number to replace the caller ID of users.
+    - Replace the caller ID with this service number: Choose a service number to replace the caller ID of users.
 
-- Select **Save**
+1. Select **Save**
 
 ## Configure Inbound call blocking
 
@@ -195,26 +201,26 @@ To configure a call block rule, perform the following steps:
 
 In following example, we will block all calls coming from the number 1 (412) 555-1111:
 
-- Connect to Microsoft Teams with PowerShell as an administrator
+1. Connect to Microsoft Teams with PowerShell as an administrator
 
-- Run the following
+1. Run the following
 
 ```powershell
-Test-CsInboundBlockedNumberPattern -PhoneNumber "14125551111"
+Test-CsInboundBlockedNumberPattern -PhoneNumber "14125551111"
 
 ```
 
-- Verify the pattern is working
+1. Verify the pattern is working
 
 ```powershell
-New-CsInboundBlockedNumberPattern -Name "BlockNusance1" -Enabled $True -Description "Block Fabrikam" -Pattern "^\+?14125551111$"
+New-CsInboundBlockedNumberPattern -Name "BlockNusance1" -Enabled $True -Description "Block Fabrikam" -Pattern "^\+?14125551111$"
 
 ```
 
-- The Test will confirm the number is being blocked.
+1. The Test will confirm the number is being blocked.
 
 After performing the described steps, you have configured and verified blocking calls from 1 (412) 555-1111.
 
 > [!TIP]
-> Tip: Blocked callers may experience slightly different behaviors depending on how their carrier handles the notification that the call isn't allowed to be successfully completed. Examples may include a carrier message stating the call can't be completed as dialed or simply dropping the call.
+> Blocked callers may experience slightly different behaviors depending on how their carrier handles the notification that the call isn't allowed to be successfully completed. Examples may include a carrier message stating the call can't be completed as dialed or simply dropping the call.
 

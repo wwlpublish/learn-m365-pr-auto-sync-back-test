@@ -27,23 +27,23 @@ Any scenarios that are charged per minute are managed through “communications 
 
 Perform the following steps to set up Community Credits:
 
-- Navigate to the Microsoft 365 admin center at [https://admin.microsoft.com](https://admin.microsoft.com/)
+1. Navigate to the Microsoft 365 admin center at [https://admin.microsoft.com](https://admin.microsoft.com/)
 
-- Select **Billing** and **Purchase Services**.
+1. Select **Billing** and **Purchase Services**.
 
-- Select **Add-ons** and **Communications Credits**.
+1. Select **Add-ons** and **Communications Credits**.
 
-- On the Communications Credits subscription page, fill in your information.
+1. On the Communications Credits subscription page, fill in your information.
 
-- Here you add funds via **credit card** and if it will **auto-recharge** (keep adding credit when it runs out) and how much the **trigger amount** should be to auto recharge and the **recharge amount**.
+    - Here you add funds via **credit card** and if it will **auto-recharge** (keep adding credit when it runs out) and how much the **trigger amount** should be to auto recharge and the **recharge amount**.
 
-- Enter your **payment information** and Select **Place order**.
+1. Enter your **payment information** and Select **Place order**.
 
 After performing the described steps, you have enabled communications credits on your tenant.
 
 > [!TIP]
-> TIP: Any funds not used within 12 months of the purchase date will expire and be forfeited. So be sure not to add more money than you will use within the next 12 months.
-> TIP: If you are a volume licensing customer, you may choose your enterprise agreement number for payment rather than using a credit card.
+> Any funds not used within 12 months of the purchase date will expire and be forfeited. So be sure not to add more money than you will use within the next 12 months.
+> If you are a volume licensing customer, you may choose your enterprise agreement number for payment rather than using a credit card.
 
 ### Assign Communications Credits license to users
 
@@ -51,17 +51,17 @@ Control of which users can incur communication credits costs is managed by assig
 
 Perform the following steps to assign this license to users:
 
-- Navigate to the Microsoft 365 admin center at [https://admin.microsoft.com](https://admin.microsoft.com/)
+1. Navigate to the Microsoft 365 admin center at [https://admin.microsoft.com](https://admin.microsoft.com/)
 
-- Select **Users** and **Active users.**
+1. Select **Users** and **Active users.**
 
-- Select a user from the list.
+1. Select a user from the list.
 
-- Select **Licenses** and **Apps**.
+1. Select **Licenses** and **Apps**.
 
-- Toggle **Communications Credits** to on to assign this license.
+1. Toggle **Communications Credits** to on to assign this license.
 
-- Select **Sav**e
+1. Select **Sav**e
 
 After performing the described steps, you have assigned the communications credits license to a user.
 
@@ -73,15 +73,15 @@ Some organizations may want to add conference numbers because they have customer
 
 To do this, you must acquire a new service number from Microsoft. You can then assign it to the Conference Bridge Service by following these steps:
 
-- Navigate to the Microsoft Teams admin center at [https://admin.microsoft.com](https://admin.microsoft.com/)
+1. Navigate to the Microsoft Teams admin center at [https://admin.microsoft.com](https://admin.microsoft.com/)
 
-- Select **Meetings** and **Conference bridges**.
+1. Select **Meetings** and **Conference bridges**.
 
-- Select Add to create a new entry.
+1. Select Add to create a new entry.
 
-- Select either **Toll** or **Toll free** number.
+1. Select either **Toll** or **Toll free** number.
 
-- Select the number and **Apply**.
+1. Select the number and **Apply**.
 
 After performing the described steps, you have assigned a service number as a Dedicated conference number for your tenant.
 
@@ -92,15 +92,15 @@ The above picture shows the ability to define the default language for a confere
 
 Since this is a dedicated number for your tenant, you can optionally choose the default and alternate languages used for the audio prompts when dialing into it. This can be useful if you want to present a number to customers and have the default prompts be in their local language. To do this, do the following:
 
-- Navigate to the Microsoft Teams admin center at [https://admin.microsoft.com](https://admin.microsoft.com/)
+1. Navigate to the Microsoft Teams admin center at [https://admin.microsoft.com](https://admin.microsoft.com/)
 
-- Select **Meetings** and **Conference bridges**.
+1. Select **Meetings** and **Conference bridges**.
 
-- Select the number from the list and select **Edit**,
+1. Select the number from the list and select **Edit**,
 
-- You can now select the default and alternate languages.
+1. You can now select the default and alternate languages.
 
-- Select **Apply**
+1. Select **Apply**
 
 After performing the described steps, you defined the default language for your dedicated conference number.
 
@@ -111,19 +111,19 @@ Teams does not come with any Toll-free Conference numbers by default. If you cho
 You must first have Communications Credits configured to acquire and use a toll-free conferencing number.
 
 > [!TIP]
-> TIP: Toll free numbers only operate within each country/region. For example, your users won't be able to call an Australian toll-free number outside of Australia.
+> Toll free numbers only operate within each country/region. For example, your users won't be able to call an Australian toll-free number outside of Australia.
 
 Firstly, you must acquire a new toll-free service number from Microsoft.
 
 You can then assign it to the Conference Bridge Service by performing the following steps:
 
-- Navigate to the Microsoft Teams admin center at [https://admin.microsoft.com](https://admin.microsoft.com/).
+1. Navigate to the Microsoft Teams admin center at [https://admin.microsoft.com](https://admin.microsoft.com/).
 
-- Select **Meetings** and **Conference bridges**.
+1. Select **Meetings** and **Conference bridges**.
 
-- Select **Add** and select **Toll free number**.
+1. Select **Add** and select **Toll free number**.
 
-- Select the configured phone number and select **Apply**.
+1. Select the configured phone number and select **Apply**.
 
 As with the toll number, you can optionally define the default and alternate languages.
 

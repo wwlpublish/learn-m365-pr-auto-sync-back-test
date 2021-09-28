@@ -18,7 +18,8 @@ abstract: |
   - Understand phone system policies and the features you need to configure them
   - Configure Audio Conferencing and Communication Credits
 prerequisites: |
-  - None
+  - General knowledge of Teams Phone System and the Teams Admin Center
+  - A general understanding of Office 365
 iconUrl: /learn/achievements/generic-badge.svg
 levels:
 - advanced

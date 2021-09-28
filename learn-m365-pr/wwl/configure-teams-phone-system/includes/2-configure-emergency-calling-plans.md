@@ -1,36 +1,36 @@
-Several countries around the world have specific regulations and policies that require phone numbers are aligned to the physical address of the user(s) so that emergency calls are routed to the correct Public Safety Answering Point (PSAP), and they are aware of the users' address to dispatch any emergency services.
+Several countries/regions around the world have specific regulations and policies that require phone numbers are aligned to the physical address of the user(s) so that emergency calls are routed to the correct Public Safety Answering Point (PSAP), and they are aware of the users' address to dispatch any emergency services.
 
 A Public Safety Answering Point (PSAP) is a call center where emergency calls are routed. They will talk to the caller and displace the appropriate services, like police, fire brigade or ambulance.
 
 Microsoft Teams supports "emergency calling," which ties a specific static address to a phone number, and "dynamic emergency calling," which provides the capability to provide the current location of the user based on the network they are currently connected to.
 
-We are looking at configuring Emergency Calling addresses first in this module as a phone number must be aligned to an emergency calling address. How this is configured varies by country and region. In the United States, you need to associate an emergency location when you assign the phone number to the user. In Europe, you need to associate an emergency location to the phone number when you acquire the phone numbers from Microsoft or your Operator Connect provider.
+We are looking at configuring Emergency Calling addresses first in this module as a phone number must be aligned to an emergency calling address. How this is configured varies by country/region. In the United States, you need to associate an emergency location when you assign the phone number to the user. In Europe, you need to associate an emergency location to the phone number when you acquire the phone numbers from Microsoft or your Operator Connect provider.
 
 ## Define Emergency Calling Addresses
 
-To add phone numbers to Teams, the first step is to configure emergency addresses. To Assign Calling plan numbers successfully in many European countries such as Belgium, France, Germany, Ireland, Netherlands, and Spain, the emergency address must match the area code of the phone number area code of the number ordered from Microsoft.
+To add phone numbers to Teams, the first step is to configure emergency addresses. To Assign Calling plan numbers successfully in many European countries/regions such as Belgium, France, Germany, Ireland, Netherlands, and Spain, the emergency address must match the area code of the phone number area code of the number ordered from Microsoft.
 
 You do this by following these steps:
 
-- Navigate to the Microsoft Teams admin center at [https://admin.teams.microsoft.com](https://admin.teams.microsoft.com/).
+1. Navigate to the Microsoft Teams admin center at [https://admin.teams.microsoft.com](https://admin.teams.microsoft.com/).
 
-- Select **Locations** and **Emergency addresses**.
+1. Select **Locations** and **Emergency addresses**.
 
-- Select **Add** to create a new entry.
+1. Select **Add** to create a new entry.
 
-- Enter the following information for the new address:
+1. Enter the following information for the new address:
 
-- **Country or region** – The region of the new emergency address
+    1. **Country or region** – The region of the new emergency address
+    
+    1. **Input address manually** – Off, to look up the address automatically
+    
+    1. **Address** – The address of office/site
+    
+    1. **Organization name** – Organization name is your organization name. It will be prepopulated with the tenant organization name
+    
+    1. **ELIN** 1. Session Border Controllers (SBCs) can include Emergency Location Identification Number (ELIN) records. These are only relevant to Direct Routing and do not apply to Calling Plans or Operator Connect. This field can be left blank.
 
-- **Input address manually** – Off, to look up the address automatically
-
-- **Address** – The address of office/site
-
-- **Organization name** – Organization name is your organization name. It will be prepopulated with the tenant organization name
-
-- **ELIN** - Session Border Controllers (SBCs) can include Emergency Location Identification Number (ELIN) records. These are only relevant to Direct Routing and do not apply to Calling Plans or Operator Connect. This field can be left blank.
-
-- Select **Save** to finish creation.
+1. Select **Save** to finish creation.
 
 By default, Microsoft will attempt to look up the address, when you entered it as shown in the following picture.
 
@@ -39,38 +39,38 @@ By default, Microsoft will attempt to look up the address, when you entered it a
 
 If it can't be found, you can also toggle to input addresses manually by following these steps:
 
-- Navigate to the Microsoft Teams admin center at [https://admin.teams.microsoft.com](https://admin.teams.microsoft.com/).
+1. Navigate to the Microsoft Teams admin center at [https://admin.teams.microsoft.com](https://admin.teams.microsoft.com/).
 
-- Select **Locations** and **Emergency addresses**.
+1. Select **Locations** and **Emergency addresses**.
 
-- Select **Add** to create a new entry.
+1. Select **Add** to create a new entry.
 
-- Enter the following information for the new address:
+1. Enter the following information for the new address:
 
-- **Country or region** – The region of the new emergency address
+    1. **Country or region** – The region of the new emergency address
+    
+    1. **Input address manually** – On, to look up insert the address manually
+    
+    1. **House number/name** 1. The address of office/site
+    
+    1. **Street name** – The address of office/site
+    
+    1. **City/town** 1. The address of office/site
+    
+    1. **Postal code** 1. The address of office/site
+    
+    1. **Latitude** – latitude coordinates
+    
+    1. **Longitude** 1. longitude coordinates
+    
+    1. **Organization name** – Organization name is your organization name. It will be prepopulated with the tenant organization name
+    
+    1. **ELIN** - Session Border Controllers (SBCs) can include Emergency Location Identification Number (ELIN) records. These are only relevant to Direct Routing and do not apply to Calling Plans or Operator Connect. This field can be left blank.
 
-- **Input address manually** – On, to look up insert the address manually
-
-- **House number/name** - The address of office/site
-
-- **Street name** – The address of office/site
-
-- **City/town** - The address of office/site
-
-- **Postal code** - The address of office/site
-
-- **Latitude** – latitude coordinates
-
-- **Longitude** - longitude coordinates
-
-- **Organization name** – Organization name is your organization name. It will be prepopulated with the tenant organization name
-
-- **ELIN** - Session Border Controllers (SBCs) can include Emergency Location Identification Number (ELIN) records. These are only relevant to Direct Routing and do not apply to Calling Plans or Operator Connect. This field can be left blank.
-
-- Select **Save** to finish creation.
+1. Select **Save** to finish creation.
 
 > [!TIP]
-> Tip: When inputting an address manually, you should include Latitude and Longitude, if you do not know these, input the address into Bing maps, and when the location comes up on the map, right select the location to see the Latitude and Longitude.
+> When inputting an address manually, you should include Latitude and Longitude, if you do not know these, input the address into Bing maps, and when the location comes up on the map, right select the location to see the Latitude and Longitude.
 
 After performing the described steps, you have added an emergency calling address. Once added, the address it will show in the list. Usually addresses will show as Validated straight away, but sometimes Microsoft may need to manually validate the address. Once Validated, addresses can be used.
 
@@ -86,27 +86,27 @@ For example, an emergency calling policy might be assigned to the "London site" 
 
 Emergency calling Policies configured by following these steps:
 
-- Navigate to the Microsoft Teams admin center at [https://admin.teams.microsoft.com](https://admin.teams.microsoft.com/).
+1. Navigate to the Microsoft Teams admin center at [https://admin.teams.microsoft.com](https://admin.teams.microsoft.com/).
 
-- Select **Voice** and **Emergency polices**.
+1. Select **Voice** and **Emergency polices**.
 
-- Select **Add** to add an Emergency Policy.
+1. Select **Add** to add an Emergency Policy.
 
-- Enter a meaningful **Name** and **Description**.
+1. Enter a meaningful **Name** and **Description**.
 
-- Select Notification mode, the options are:
+1. Select Notification mode, the options are:
 
-- **Send notification only**: A Teams chat message is sent to the users and groups that you specify.
+    1. **Send notification only**: A Teams chat message is sent to the users and groups that you specify.
+    
+    1. **Conferenced in muted and unable to unmute:** A Teams chat message is sent to the users and groups that you specify, and they can listen (but not participate) in the conversation between the caller and the PSAP operator.
+    
+    1. **Conferenced in muted but can unmute**: A Teams chat message is sent to the users and groups that you specify, and they can unmute to listen and participate in the conversation between the caller and the PSAP operator.
 
-- **Conferenced in muted and unable to unmute:** A Teams chat message is sent to the users and groups that you specify, and they can listen (but not participate) in the conversation between the caller and the PSAP operator.
+1. Define the **Numbers to dial for emergency calls notifications**. If you select one of the conference modes, you can put in a E.164 PSTN phone number or a security group or you can put in both.
 
-- **Conferenced in muted but can unmute**: A Teams chat message is sent to the users and groups that you specify, and they can unmute to listen and participate in the conversation between the caller and the PSAP operator.
+1. In **Users and groups for emergency calls notifications**, you can define one or more users and groups that will be notified for emergency calls via email. You can send notifications to the email addresses for users, distribution, and security groups.
 
-- Define the **Numbers to dial for emergency calls notifications**. If you select one of the conference modes, you can put in a E.164 PSTN phone number or a security group or you can put in both.
-
-- In **Users and groups for emergency calls notifications**, you can define one or more users and groups that will be notified for emergency calls via email. You can send notifications to the email addresses for users, distribution, and security groups.
-
-- Select **Apply**
+1. Select **Apply**
 
 After performing the described steps, you have configured your emergency calling policy.
 
@@ -137,7 +137,7 @@ Trusted IP addresses are the enterprises public external IP addresses that a Tea
 Once the network topology of Region, Site, and subnet is complete, you can now map specific network locations to physical Emergency Addresses. This is populating the Location Information Service (LIS) database.
 
 > [!TIP]
-> TIP: This configuration refers to Emergency Locations, but when you are defining them Teams Admin Center calls them Emergency Addresses. They are the same thing.
+> This configuration refers to Emergency Locations, but when you are defining them Teams Admin Center calls them Emergency Addresses. They are the same thing.
 
 You can map emergency location\addresses to:
 
@@ -151,21 +151,21 @@ You can map emergency location\addresses to:
 
 This is configured by following these steps:
 
-- Navigate to the Microsoft Teams admin center at [https://admin.teams.microsoft.com](https://admin.teams.microsoft.com/).
+1. Navigate to the Microsoft Teams admin center at [https://admin.teams.microsoft.com](https://admin.teams.microsoft.com/).
 
-- Select **Locations** and **Networks & locations**.
+1. Select **Locations** and **Networks & locations**.
 
-- Select the tab that represents the network identifier that you want to add, **Subnets, Wi-Fi access points, Switches, or Ports.** Select **Subnets** for this example.
+1. Select the tab that represents the network identifier that you want to add, **Subnets, Wi-Fi access points, Switches, or Ports.** Select **Subnets** for this example.
 
-- Select **Add** to add a subnet and Emergency Location.
+1. Select **Add** to add a subnet and Emergency Location.
 
-- Select and IP version, IPv4 or IPv6, as appropriate for the network you wish to map.
+1. Select and IP version, IPv4 or IPv6, as appropriate for the network you wish to map.
 
-- For **Subnet**, enter the Network ID of the subnet to add.
+1. For **Subnet**, enter the Network ID of the subnet to add.
 
-- Enter a meaningful **Description**.
+1. Enter a meaningful **Description**.
 
-- Search for and select an **Emergency Location** from one of the Emergency addresses you have already defined. Or, if you have not yet defined the emergency location you need, Select **Add an emergency location**.
+1. Search for and select an **Emergency Location** from one of the Emergency addresses you have already defined. Or, if you have not yet defined the emergency location you need, Select **Add an emergency location**.
 
 After performing the described steps, you have mapped a network to an emergency address location.
 

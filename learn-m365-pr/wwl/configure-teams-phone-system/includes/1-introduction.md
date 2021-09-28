@@ -2,7 +2,7 @@ Teams Phone includes the functionality to use Teams for calling to and from the 
 
 Microsoft Calling plans or Operator Connect for your PSTN must be configured before phone numbers can be assigned to users. Direct Routing configuration is covered in a following module.
 
-Emergency calling locations are required to meet legal requirements in many countries and must also be configured before users can be assigned phone numbers.
+Emergency calling locations are required to meet legal requirements in many countries/regions and must also be configured before users can be assigned phone numbers.
 
 You will then review key Phone System Policy configuration with calling policies, dial plans, call park, caller ID, and inbound call blocking.
 

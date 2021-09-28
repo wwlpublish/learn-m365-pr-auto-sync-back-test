@@ -6,32 +6,33 @@ The billing and commercial agreement is between you and the third-party operator
 
 There is no technical setup, SBC setup, or anything equipment related, as Operator Connect carriers are already directly network connected with Microsoft. This makes it much simpler to engage with carriers and order/assign numbers.
 
-Operator connect allows you to maintain existing telco operator relationships as well as make new ones easily for specific countries you require phone numbers in.
+Operator connect allows you to maintain existing telco operator relationships as well as make new ones easily for specific countries/regions you require phone numbers in.
 
 > [!NOTE]
-> Note, you can have more than one operator concurrently for different users or countries, or even the same country. There is no limit to the number of operators you can have.
+> Note, you can have more than one operator concurrently for different users or countries/regions, or even the same country/region. There is no limit to the number of operators you can have.
 
 ## Connector to an Operator
 
 The first step on your operator connect journey is to select your operator. The Teams Admin Center makes this easy. Under Voice, on the left menu, there is an Operators tab that shows all currently available operators (the list will continue to expand as new operators are added).
 
-You may want to pick an operator you already know and use, or, if you wish to find out which operators can serve the country or countries you need, you can use Teams Admin Center to filter the All Operators tab by country and capability. The following picture shows several available Operators for different regions:
+You may want to pick an operator you already know and use, or, if you wish to find out which operators can serve the countries/regions you need, you can use Teams Admin Center to filter the All Operators tab by country/region and capability. The following picture shows several available Operators for different regions:
 
 ![Operator Connect in the Teams Admin Center](../media/operator-connect-setting.png)
 
 
-To configure an Operator Connect operator, firstly select an operator.
-- Navigate to the Microsoft Teams admin center at [https://admin.teams.microsoft.com](https://admin.teams.microsoft.com/).
+To configure an Operator Connect operator, firstly select an operator:
 
-- Select **Voice** and **Operators.**
+1. Navigate to the Microsoft Teams admin center at [https://admin.teams.microsoft.com](https://admin.teams.microsoft.com/).
 
-- You will see a list of operators to choose from. For each operator, there is an "Offer Details" link that links to their site. Operators define their commercial models and packages, and other add-on services, so it is worth checking out the different options.
+1. Select **Voice** and **Operators.**
 
-- Select the **operator** you wish to enable.
+1. You will see a list of operators to choose from. For each operator, there is an "Offer Details" link that links to their site. Operators define their commercial models and packages, and other add-on services, so it is worth checking out the different options.
 
-- Select the **regions** you are interested in procuring numbers.
+1. Select the **operator** you wish to enable.
 
-- Tick the boxes to agree that the **operator can contact me** and that you **accept the data transfer notice**, which allows Microsoft to share select information with the carrier for the provisioning, use, and technical troubleshooting of the service.
+1. Select the **regions** you are interested in procuring numbers.
+
+1. Tick the boxes to agree that the **operator can contact me** and that you **accept the data transfer notice**, which allows Microsoft to share select information with the carrier for the provisioning, use, and technical troubleshooting of the service.
 
 After performing the described steps, you have indicated you wish to sign up with an operator.
 
@@ -40,7 +41,7 @@ From here the operator will email you to provide details of the service and how 
 When you sign up the operator, they will appear in the Voice > Operators > My Operators Tab.
 
 > [!TIP]
-> TIP: The operators will have access to see all emergency addresses in your tenant in the countries that you selected services for, but they cannot create them. Be sure to configure Emergency address locations for all countries and locations you want numbers for.
+> The operators will have access to see all emergency addresses in your tenant in the countries/regions that you selected services for, but they cannot create them. Be sure to configure Emergency address locations for all countries/regions you want numbers for.
 
 ## Manage Operator Connect phone numbers
 
@@ -48,11 +49,11 @@ You cannot order phone numbers from within the Teams Admin Center, like you can 
 
 The numbers they provision to your account will be available in the Teams Admin Center:
 
-- Navigate to the Microsoft Teams admin center at [https://admin.teams.microsoft.com](https://admin.teams.microsoft.com/).
+1. Navigate to the Microsoft Teams admin center at [https://admin.teams.microsoft.com](https://admin.teams.microsoft.com/).
 
-- Select **Voice** and **Phone numbers**.
+1. Select **Voice** and **Phone numbers**.
 
-- The numbers will be listed with the appropriate operator as the **Number provider.**
+1. The numbers will be listed with the appropriate operator as the **Number provider.**
 
 After performing the described steps, you will be able to review and manage your operator connect number inventory on your tenant.
 
