@@ -41,10 +41,10 @@ quiz:
     choices:
     - content: "Direct Routing only"
       isCorrect: false
-      explanation: "That is not correct. API based solutions can leverage Calling plan number and Direct Routing numbers, and Direct Routing integrated solutions can leverage phone numbers direct from the contact center."
+      explanation: "That is not correct. API-based solutions can leverage Calling plan number and Direct Routing numbers, and Direct Routing integrated solutions can leverage phone numbers direct from the contact center."
     - content: "Direct Routing and Calling Plan only"
       isCorrect: false
-      explanation: "That is not correct. API based solutions can leverage Calling plan number and Direct Routing numbers, but Direct Routing integrated solutions can also leverage phone numbers direct from the contact center."
+      explanation: "That is not correct. API-based solutions can leverage Calling plan number and Direct Routing numbers, but Direct Routing integrated solutions can also leverage phone numbers direct from the contact center."
     - content: "Direct Routing, Calling plan and  from the Contact Center Provider"
       isCorrect: true
-      explanation: "That is correct. API based solutions can leverage Calling plan number and Direct Routing numbers, and Direct Routing integrated solutions can leverage phone numbers direct from the contact center."
+      explanation: "That is correct. API-based solutions can leverage Calling plan number and Direct Routing numbers, and Direct Routing integrated solutions can leverage phone numbers direct from the contact center."

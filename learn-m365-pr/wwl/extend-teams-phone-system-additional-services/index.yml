@@ -9,15 +9,16 @@ metadata:
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Extend Teams Phone System with additional services
-summary: Teams Phone leverages other Microsoft services and can be extended with third-party solutions for policy-based compliance recording, contact center integration, and custom developed bots.
+summary: Teams Phone leverages other Microsoft services and can be extended with third-party solutions for policy-based compliance recording, contact center integration, and custom bots.
 abstract: |
   At the end of this module, you will be able to:
-  - Describe how Teams Phone interacts with additional Microsoft services
-  - Configure and integrate Third Party policy-based compliance recording
-  - Configure and integrate third party contact center solutions
-  - Design and register Voice Bots for custom solutions
+  - Describe how Teams Phone interacts with additional Microsoft services.
+  - Configure and integrate Third-party policy-based compliance recording.
+  - Configure and integrate third-party contact center solutions.
+  - Design and register Voice Bots for custom developed solutions.
 prerequisites: |
-  - None
+  - A general understanding of Office 365
+  - An understanding of the fundamentals of Microsoft Teams and Teams Phone
 iconUrl: /learn/achievements/generic-badge.svg
 levels:
 - advanced

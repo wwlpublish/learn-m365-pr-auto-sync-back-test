@@ -12,7 +12,7 @@ However, if you are developing your own solution involving voice bots or need to
 
 ## Design voice bot
 
-When using voice bots, you need to decide which type of bot you need. There are two types of bots that can deal with real time media:
+When using voice bots, you need to decide which type of bot you need. There are two types of bots that can deal with real-time media:
 
 - Service-hosted media bots you can hand off the audio and video processing to Microsoft services.
 
@@ -20,9 +20,9 @@ When using voice bots, you need to decide which type of bot you need. There are 
 
 ### Service-hosted media bots
 
-Service-hosted media bots are focused on application workflows like call routing. You can play audio files, record audio clips, and receive dual tone multiple frequency (DTMF) tones from the user, i.e., listen for the tone when they are asked to “Press 1 for sales.”
+Service-hosted media bots are focused on application workflows like call routing. You can play audio files, record audio clips, and receive dual-tone multiple frequency (DTMF) tones from the user, that is, listen for the tone when they are asked to “Press 1 for sales.”
 
-Dealing with real time media streams is very complex. The service hosted media bots allow you to create workflows and engage with users on a call or meeting without having to directly deal with the media steam. This is great for building basic interactive voice response (IVR) scenarios, such as a main number welcome message and menu of departments to select from.
+Dealing with real-time media streams is very complex. The service hosted media bots allow you to create workflows and engage with users on a call or meeting without having to directly deal with the media steam. This is great for building basic interactive voice response (IVR) scenarios, such as a main number welcome message and menu of departments to select from.
 
 ### Application-hosted media bots
 
@@ -44,10 +44,10 @@ Once the development team have created the bot and deployed it in Azure, you nee
 1. Select **Create**
 1. Enter the required values.
     - Bot Handle is a unique identifier for your bot. You can choose a different Display Name for your bot in the Settings blade after bot creation.
-    - Choose an Azure subception and resource group
+    - Choose an Azure subscription and resource group
     - Choose to crate a new Microsoft App ID
 1. Select **Review + create**.
 1. If the validation passes, select **Create**.
 1. Select **Go to resource group**. You should see the bot and the related **Azure Key Vault** resources listed in the resource group you selected.
 
-From here, the development team can upload the app to Microsoft Teams as a custom app to side load or publish to the organisation or the wider Teams app store.
+From here, the development team can upload the app to Microsoft Teams as a custom app to side load or publish to the organization or the wider Teams app store.

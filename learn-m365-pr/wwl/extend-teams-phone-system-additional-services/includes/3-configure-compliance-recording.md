@@ -1,7 +1,7 @@
 An important requirement for many organizations is having calls and meetings recorded for regulatory or compliance reasons. While Teams has recording built in, it is user controlled and is designed for the convenience of the user to choose to record select calls or meetings for their own use.
 
 > [!NOTE]
-> While several countries and industries require compliance recording features, other countries have data protection regulations which forbid recording without direct confirmation of all attendees. Know your local users’ legal requirements as well as your business requirements before enabling compliance recording features at all.
+> While several countries/regions and industries require compliance recording features, other countries/regions have data protection regulations which forbid recording without direct confirmation of all attendees. Know your local users’ legal requirements as well as your business requirements before enabling compliance recording features at all.
 
 Policy-based compliance recording is different; it allows Microsoft certified partner solutions to connect to Microsoft Teams and be configured to automatically record every call, meeting, or specific calls or meetings. Unlike the built-in convenience recording, the end user cannot turn this off and usually will not have direct access to the recordings.
 
@@ -26,6 +26,7 @@ It is important to understand the differences between the in-the-box convenience
 
 All certified policy recording solutions use Microsoft bots deployed in Azure who “follow the recorded user” and silently join their calls and meetings to collect the meeting audio and video.
 The following picture shows how the recording process works:
+
 ![Diagram showing how the compliance recording process works](../media/policy-based-compliance-recording.png)
 
 
@@ -34,6 +35,7 @@ Once configured, this is how the system works:
 1. A user makes a call or joins a meeting. 
 
 1. There is a Teams policy check to see if the user has compliance Recording policy set to enabled.
+
     - If compliance recording is enabled, a bot is silently invited/added to the call or meeting. They will not show in the meeting roster. 
 
 1. Once the bot has joined, the call or meeting proceeds normally and the bot will stream the call media to the recorder, which will be stored in the third-party solution.

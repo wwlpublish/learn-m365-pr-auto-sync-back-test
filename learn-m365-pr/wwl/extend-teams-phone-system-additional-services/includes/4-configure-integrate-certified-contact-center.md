@@ -63,7 +63,7 @@ The vendor will provide a URL for you to select and grant this access to their a
 | Calls.JoinGroupCallAsGuest.All| Application| Join group calls and meetings as a guest|
 | Presence.Read.All Delegated| Delegated| Read presence information of all users in your organization|
 
-The URL will be in the format: https://login.microsoftonline.com/common/adminconsent?client_id=<VENDOR GUID>
+The URL will be in the format: <https://login.microsoftonline.com/common/adminconsent?client_id=<VENDOR GUID>
 
 And permissions approval will look like the following:
 
@@ -90,35 +90,35 @@ The vendor will provide a URL for you to select and grant this access to their a
 
 Once you have granted access to the application, you will need to assign users or groups of users to roles with the contact center solution.
 
-- Navigate to the Azure AD portal at [https://aad.portal.azure.com](https://aad.portal.azure.com/)
+1. Navigate to the Azure AD portal at [https://aad.portal.azure.com](https://aad.portal.azure.com/)
 
-- Sign in with an account owning the Global Administrator role.
+1. Sign in with an account owning the Global Administrator role.
 
-- Select the search box on top, enter and select **Azure Active Directory**.
+1. Select the search box on top, enter and select **Azure Active Directory**.
 
-- Select **Enterprise Applications** from the left-hand navigation pane.
+1. Select **Enterprise Applications** from the left-hand navigation pane.
 
-- Search for the vendors application, , “**Vendor X Contact Center**”
+1. Search for the vendors application, , “**Vendor X Contact Center**”
 
-- Open vendors Web Applications.
+1. Open vendors Web Applications.
 
-- Under Getting started select **1. Assign users and groups**
+1. Under Getting started select **1. Assign users and groups**
 
-- Select Add User
+1. Select Add User
 
-- Select **Users and Groups**
+1. Select **Users and Groups**
 
-- Select the users or groups that will have access to the admin portal or other feature group.
+1. Select the users or groups that will have access to the admin portal or other feature group.
 
-- Select **Select**
+1. Select **Select**
 
-- Select **Select Role**
+1. Select **Select Role**
 
-- Select **Administrator**
+1. Select **Administrator**
 
-- Select **Select**
+1. Select **Select**
 
-- Select **Assign**
+1. Select **Assign**
 
 After completing these steps, you have configured users to have roles in the vendors contact center solution.
 
@@ -129,6 +129,7 @@ Each dialable endpoint will require a resource account to be created. Resource a
 Steps to create an application instance:
 
 Connect to the Microsoft Teams PowerShell module to your tenant.
+
 - Create an application instance in your tenant. This creates an application instance and resource account in Azure Active Directory. You define your UPN and display name. The ApplicationId is the Bot AppID that will be given to you by your vendor solution.
 
 ```powershell
@@ -168,39 +169,39 @@ To route a PSTN number to the application endpoint, it will need to be assigned 
 
 Steps to assign Virtual User-license in the Office 365 admin portal.
 
-- Navigate to Microsoft 365 admin center at [https://admin.microsoft.com](https://admin.microsoft.com/).
+1. Navigate to Microsoft 365 admin center at [https://admin.microsoft.com](https://admin.microsoft.com/).
 
-- Select **Users** and **Active Users.**
+1. Select **Users** and **Active Users.**
 
-- Find and select the relevant resource account.
+1. Find and select the relevant resource account.
 
-- Select the **Licenses and apps** tab.
+1. Select the **Licenses and apps** tab.
 
-- Select and assign the **Microsoft 365 Phone System - Virtual User** license.
+1. Select and assign the **Microsoft 365 Phone System - Virtual User** license.
 
-- Select **Save changes.**
+1. Select **Save changes.**
 
 After performing the described steps, you have assigned the virtual user license to the resource account.
 
 > [!TIP]
 > Your organization is allotted Teams Phone – Virtual User licenses depending on its overall size. Any organization that has at least one license including Phone System or has Phone System added has 25 Virtual User licenses available at no cost. When you add 10 Phone System user licenses in your organization, one more Microsoft 365 Phone System – Virtual User license becomes available.
-> TIP: No virtual user license is needed for resource accounts that won’t be aligned to a PSTN number.
+> No virtual user license is needed for resource accounts that won’t be aligned to a PSTN number.
 
 Assign a Calling Plan PSTN number to the resource account:
 
-- Navigate to the Microsoft Teams admin center at [https://admin.teams.microsoft.com](https://admin.teams.microsoft.com/)
+1. Navigate to the Microsoft Teams admin center at [https://admin.teams.microsoft.com](https://admin.teams.microsoft.com/)
 
-- Select **Org-wide settings** and **Resource accounts**.
+1. Select **Org-wide settings** and **Resource accounts**.
 
-- Find and select the relevant resource account.
+1. Find and select the relevant resource account.
 
-- Select the **Assign/unassign** button.
+1. Select the **Assign/unassign** button.
 
-- Select **phone number type** Online.
+1. Select **phone number type** Online.
 
-- Add the appropriate phone number.
+1. Add the appropriate phone number.
 
-- Select **Save**
+1. Select **Save**
 
 To assign a Direct Routing PSTN number to the resource account run the following PowerShell. Replace Identity with your resource account name.
 
