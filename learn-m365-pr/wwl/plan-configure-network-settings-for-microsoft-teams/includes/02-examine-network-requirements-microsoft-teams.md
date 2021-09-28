@@ -17,7 +17,7 @@ To evaluate if the existing network meets the network requirements of Microsoft 
 - **Connectivity to Microsoft 365**: Connectivity of a client in the company network to the Microsoft 365 services. No Firewall and proxy blockers. All required DNS names must be resolved correctly, and IP-addresses must be reachable. Ensure the internet access and configure required ports and protocols for Microsoft Teams. If you need to federate with Skype for Business on-premises, you will need to configure an extra DNS record.
 
     |DNS record  |Service  |Protocol  |Priority  |Weight  |Port  |Target  |
-    ||||||||
+    |---------|---------|---------|---------|---------|---------|---------|
     |SRV     |sipfederationtls     |TCP     |100     |1     |5061     |sipfed.online.lync.com     |
 
 - **Domain name**: Have at least one verified domain name added to your Microsoft 365 tenant.
