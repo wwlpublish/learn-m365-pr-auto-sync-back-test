@@ -5,7 +5,7 @@ Different Office 365 clients and devices connect to Office 365 services through 
 For Teams, you must open TCP ports **80** and **443** and UDP ports **3478 through 3481** from the clients to the internet. The TCP ports are used to connect to web-based content such as SharePoint, Exchange Online, and the Teams Chat services. Plug-ins and connectors also connect over these TCP ports. The four UDP ports are used for media such as audio and video, to ensure they flow correctly.
 
 | Scenario            | Source IP/Port            | Destination IP/Port         |
-|-|-|-|
+|-------|-------------|----------------|
 | Non-real-time traffic   | Client IP / High ports        | Office 365 / 80, 443 TCP         |
 | Real-time media traffic | Client IP / 50,000-50,059 UDP | Transport Relays / 3478-3481 UDP |
 
