@@ -29,14 +29,14 @@ Among the other test, the tool detected your location, or you can specify your l
 
 To run the test, perform the following steps:
 
-- Navigate to the Microsoft 365 network connectivity test at [https://connectivity.office.com/](https://connectivity.office.com/)
+1. Navigate to the Microsoft 365 network connectivity test at [https://connectivity.office.com/](https://connectivity.office.com/)
 
-- Sign in with your Office 365 account for the best test experience.
+1. Sign in with your Office 365 account for the best test experience.
 
-- Either automatically detect location or add your location manually.
+1. Either automatically detect location or add your location manually.
 
 > [!TIP]
-> TIP: If you let the tool automatically detect your connection, make sure it is correct on the map to make the test valid.
+> If you let the tool automatically detect your connection, make sure it is correct on the map to make the test valid.
 
 - Once the test is complete, you will see the results.
 
@@ -81,7 +81,7 @@ In a split tunnel configuration, only a subset of traffic is routed over the VPN
 If your organization generally prefers to route internet traffic onto the organizations network and through the organizations proxies and firewalls before going onto the internet, you may just want to exclude the specific Office 365 addresses from the VPN route. Microsoft supplies a list of all Office 365 IP addresses (see the resources in this module for a link) that you should exclude from your VPN.
 
 > [!NOTE]
-> Note: The services and IP address are constantly evolving; so, if choosing to explicitly exclude the Office 365 services from your VPN, you will need to check and update this configuration regularly.
+> The services and IP address are constantly evolving; so, if choosing to explicitly exclude the Office 365 services from your VPN, you will need to check and update this configuration regularly.
 
 In this picture, we see a split tunnel VPN. Traffic for Office 365 is specifically excluded from the VPN tunnel directly from the user to the service over their local internet connection. All other traffic is sent over the VPN to the organizations network.
 
@@ -91,7 +91,7 @@ In this picture, we see a split tunnel VPN. Traffic for Office 365 is specifical
 How you configure your VPN will depend on which VPN client software you or your organization requires you to use, but split-tunneling is a functionality all common 3rd party vendors are providing.
 
 > [!IMPORTANT]
-> Important: Some organizations have policies that require every user to send all incoming and outgoing traffic over firewall appliances, and a split-tunneling can possibly violate these policies. Check what your organizations policies are and ensure you have policy approval for this configuration.
+> Some organizations have policies that require every user to send all incoming and outgoing traffic over firewall appliances, and a split-tunneling can possibly violate these policies. Check what your organizations policies are and ensure you have policy approval for this configuration.
 
 ## Validate VPN Split tunneling
 
@@ -145,20 +145,20 @@ In this test, the remote client Internet service provider is called “Zen.” W
 
 If you see this traceroute routing to the VPN, which you can recognize by seeing your VPN FQDN and IP addresses, you have not configured the VPN correctly for split tunneling.
 
-Note: It is normal for you to see “Request timed out” on the later hops. The destination’s firewall or other security device is blocking the traceroute request. Even if a firewall is preventing the final hops at the destination from showing up in traceroute output, the destination is likely still reachable, it has just been configured not to reply to a traceroute.
+It is normal for you to see “Request timed out” on the later hops. The destination’s firewall or other security device is blocking the traceroute request. Even if a firewall is preventing the final hops at the destination from showing up in traceroute output, the destination is likely still reachable, it has just been configured not to reply to a traceroute.
 
 Another option is to run the Microsoft 365 connectivity test that will run connectivity tests for you including trace routes as above. This can be a more friendly way for a remote user to run the test who is not familiar with command-line tools.
 
 To run the Microsoft 365 connectivity test, perform the following steps:
 
-- On the remote client machine, navigate to the Microsoft 365 network connectivity test at [https://connectivity.office.com/](https://connectivity.office.com/)
+1. On the remote client machine, navigate to the Microsoft 365 network connectivity test at [https://connectivity.office.com/](https://connectivity.office.com/)
 
-- Sign in with your Office 365 account for the best test experience.
+1. Sign in with your Office 365 account for the best test experience.
 
-- Either **automatically detect location** or add your **location manually**.
+1. Either **automatically detect location** or add your **location manually**.
 
 > [!TIP]
-> TIP: If you let the tool automatically detect your connection, make sure it is correct on the map to make the test valid.
+> If you let the tool automatically detect your connection, make sure it is correct on the map to make the test valid.
 
 Once the test is complete select **Details** for the detailed results. Scroll down to **Network Path** and expand and look for **Traceroute to worldaz.tr.teams.microsoft.com.**
 
@@ -172,7 +172,7 @@ If you see this traceroute routing to the VPN, which you can recognize by seeing
 Note, it is normal for you to see “Request timed out” on the later hops. The destination’s firewall or other security device is blocking the traceroute request. Even if a firewall is preventing the final hops at the destination from showing up in traceroute output, the destination is likely still reachable; it has just been configured not to reply to a traceroute.
 
 > [!NOTE]
-> TIP: In certain scenarios, often unrelated to Teams client configuration, media traffic still traverses the VPN tunnel even with the correct client routes in place. If you encounter this scenario, you can configure firewall rule to block the Teams IP subnets or ports from using the VPN route
+> In certain scenarios, often unrelated to Teams client configuration, media traffic still traverses the VPN tunnel even with the correct client routes in place. If you encounter this scenario, you can configure firewall rule to block the Teams IP subnets or ports from using the VPN route
 
 ## Managing bandwidth by configuring Media Bit Rate (MBR)
 
@@ -180,11 +180,11 @@ Microsoft Teams will dynamically optimize for the best experience it can give ba
 
 Microsoft Teams does have an option to limit the average bit rate of calls and meetings, this is called the Media bit rate (MBR). Perform the following steps to configure a meeting policy:
 
-- Navigate to the Microsoft Teams admin center at [https://admin.teams.microsoft.com](https://admin.teams.microsoft.com/).
+1. Navigate to the Microsoft Teams admin center at [https://admin.teams.microsoft.com](https://admin.teams.microsoft.com/).
 
-- Select **Meetings** and select **Meeting policies**.
+1. Select **Meetings** and select **Meeting policies**.
 
-- Navigate to **Media bit rate (Kbs)** and change it according to your needs.
+1. Navigate to **Media bit rate (Kbs)** and change it according to your needs.
 
 ![Meeting Policies configuration in Teams Admin Center](../media/media-bit-rate-setting.png)
 
@@ -192,12 +192,13 @@ Microsoft Teams does have an option to limit the average bit rate of calls and m
 This setting determines the average combined media bit rate for audio, video, and video-based app sharing in both meetings and peer to peer calls. The Media Bit Rate applies to both the client and the Teams service, so it is enforced in both directions. So, this limit is for both inbound and outbound traffic from the Teams client.
 
 > [!NOTE]
-> Note: This is a maximum. If the client experiences network issues, it will still lower video and audio quality to try to give the best experience within the bandwidth available.
+> This is a maximum. If the client experiences network issues, it will still lower video and audio quality to try to give the best experience within the bandwidth available.
 
 The default is 50,000 Kbps, which is essentially unlimited, as it's way more than an individual Teams client can possibly use. For meetings that need the highest quality video experience, Microsoft recommends you set the bandwidth to 10,000 Kbps or 10 megabits per second. The minimum value you can go down to is 30 Kbps, but this will heavily restrict the user experience to basic audio for calls and meetings.
 
 The following table describes the minimum bandwidth per user required for using Teams in different calling situations. Consider which experience level you want users to have. Based on the table below, the minimum you can set to have all Teams experiences at a minimum excluding Together Mode is 250 kbps.
 
+<br>
 
 | Modality| Minimum Up| Minimum Down| Recommended Up| Recommended Down| Best Performance Up| Best Performance Down|
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -215,16 +216,24 @@ The following table describes the minimum bandwidth per user required for using 
 ### Optimize WiFi
 
 By default, WiFi networks are not designed or configured to optimally support real-time media. Each vendor has its own recommendations for deploying its wireless solution, and you should consult your vendors documentation for more detail. There are some general recommendations:
-Implement QoS or WiFi Multimedia (WMM) to prioritize real-time media traffic.
-The 5-GHz range is better suited to real-time media than 2.4Ghz due to its dense range and lower interference. If you're using dual-band WiFi networks, consider implementing band steering to push clients to use the 5-GHz range.
-When access points of the same channel are too close together, they can cause signal overlap and unintentionally compete, resulting in a bad experience for the user. Ensure that access points that are next to each other are on channels that don't overlap.
+
+- Implement QoS or WiFi Multimedia (WMM) to prioritize real-time media traffic.
+
+- The 5-GHz range is better suited to real-time media than 2.4Ghz due to its dense range and lower interference. If you're using dual-band WiFi networks, consider implementing band steering to push clients to use the 5-GHz range.
+
+- When access points of the same channel are too close together, they can cause signal overlap and unintentionally compete, resulting in a bad experience for the user. Ensure that access points that are next to each other are on channels that don't overlap.
+
 ## Performance optimization for China users
 
 Connectivity and performance for users in China can be complicated by factors unique to China Telco's Internet architecture. China ISPs have regulated offshore connections to the global public Internet that go through perimeter devices that are prone to high-levels of cross-border network congestion. This congestion creates packet loss and latency for all Internet traffic going into and out of China.
+
 This section provides guidance for scenarios in which users located in China connect to a global Microsoft 365 tenant outside of China.
+
 There is also an option to have an Office 365 tenant in China operated by 21Vianet, in which case, you are not crossing the perimeter devices and this advice does not apply.
+
 The following is recommended for optimize traffic for China users:
-- Leverage your existing private network to carry Microsoft 365 network traffic between China office networks and offshore locations that egress on the public Internet outside China. Almost any location outside China will provide a clear benefit. Egressing in areas with low-latency interconnect with the Microsoft global network such as Hong Kong, Singapore, Japan, and South Korea is optimal.
+
+- Leverage your existing private network to carry Microsoft 365 network traffic between China office networks and offshore locations that egress on the public Internet outside China. Almost any location outside China will provide a clear benefit. Egressing in areas with low-latency interconnect with the Microsoft global network such as Singapore, Japan, and South Korea is optimal.
 
 - Configure your network to route all Microsoft 365 traffic across your private offshore link.
 

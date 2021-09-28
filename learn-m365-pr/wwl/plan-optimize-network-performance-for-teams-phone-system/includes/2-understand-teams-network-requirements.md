@@ -98,50 +98,50 @@ The Network Planner tool is available in the Teams admin center. It helps you de
 
 
 > [!NOTE]
-> Note: The tool does not configure anything, change any settings or test anything, it will simply generate reports and calculate bandwidth requirements for Teams usage based on typical usage personas and number of users on each site.
+> The tool does not configure anything, change any settings or test anything, it will simply generate reports and calculate bandwidth requirements for Teams usage based on typical usage personas and number of users on each site.
 
 > [!TIP]
-> Tip: The recommended user bandwidth personas were developed by Microsoft based on data from Teams best use scenarios and typical usage patterns. However, you can create up to three custom personas in addition to the three recommended personas if you require. This is done in Microsoft Teams admin center > Planning > Network planner > Personas 
+> The recommended user bandwidth personas were developed by Microsoft based on data from Teams best use scenarios and typical usage patterns. However, you can create up to three custom personas in addition to the three recommended personas if you require. This is done in Microsoft Teams admin center > Planning > Network planner > Personas 
 
 To create a new network plan in Network planner, perform the following steps:
 
-- Navigate to the Microsoft Teams admin center at [https://admin.teams.microsoft.com](https://admin.teams.microsoft.com/).
+1. Navigate to the Microsoft Teams admin center at [https://admin.teams.microsoft.com](https://admin.teams.microsoft.com/).
 
-- Sign in with an account member in the role Teams Administrator.
+1. Sign in with an account member in the role Teams Administrator.
 
-- Navigate to **Planning** and select **Network planner.**
+1. Navigate to **Planning** and select **Network planner.**
 
-- To start, select **Add** and input a name for your plan and a description and select **Apply.**
+1. To start, select **Add** and input a name for your plan and a description and select **Apply.**
 
-- Once created, select your plan, and select **add a network site** for each site.
+1. Once created, select your plan, and select **add a network site** for each site.
 
-- For each site you need to add:
+1. For each site you need to add:
 
-- The number of users, called "network users"
+    - The number of users, called "network users"
+    
+    - Network subnets, these are just for reference in the report
+    
+    - If the site is directly connected to the internet, set the internet capacity in Mbps. If there is no local internet connectivity, set it to 0.
+    
+    - If the site is connected to other sites via a WAN, tick this box at set the WAN capacity, and the queue size for audio and video in Mbps if you are using QoS queues.
+    
+    - PSTN egress
+    
+    - If no local PSTN, select "**VoIP only**." If there is PSTN breakout, select **local.**
+    
+    - If the site is connected directly to Office 365 via ExpressRoute, tick this box.
 
-- Network subnets, these are just for reference in the report
+1. Once you have added your network sites and details, go to the **Report** tab and select **Start a report.**
 
-- If the site is directly connected to the internet, set the internet capacity in Mbps. If there is no local internet connectivity, set it to 0.
+1. Enter a report name and select **Generate report**.
 
-- If the site is connected to other sites via a WAN, tick this box at set the WAN capacity, and the queue size for audio and video in Mbps if you are using QoS queues.
+1. You are moved to the **Report** tab automatically to review the results.
 
-- PSTN egress
+1. You will need to choose to divide your network site users between the bandwidth personas. Think about the ratios of each type of user you will have on that site.
 
-- If no local PSTN, select "**VoIP only**." If there is PSTN breakout, select **local.**
+1. By default, the tool will assume 30% of a link is reserved for real-time communications. You can change this Allowed bandwidth percentage in the report page.
 
-- If the site is connected directly to Office 365 via ExpressRoute, tick this box.
-
-- Once you have added your network sites and details, go to the **Report** tab and select **Start a report.**
-
-- Enter a report name and select **Generate report**.
-
-- You are moved to the **Report** tab automatically to review the results.
-
-- You will need to choose to divide your network site users between the bandwidth personas. Think about the ratios of each type of user you will have on that site.
-
-- By default, the tool will assume 30% of a link is reserved for real-time communications. You can change this Allowed bandwidth percentage in the report page.
-
-- You will then get a report of the network impact in terms of bandwidth usage for each site and that sites links.
+1. You will then get a report of the network impact in terms of bandwidth usage for each site and that sites links.
 
 ![Network planner result showing that Kirkland does not have enough bandwidth](../media/network-planner-results.png)
 
@@ -168,11 +168,11 @@ It can also output a verbose HTTP stack infrastructure test. This would only be 
 
 To install The Teams Network Assessment Tool, follow these steps:
 
-- Download The Teams Network Assessment Tool Installer from the Microsoft download center.
+1. Download The Teams Network Assessment Tool Installer from the Microsoft download center.
 
-- Run the Installer.
+1. Run the Installer.
 
-- The tool will be installed to the following path by default: %ProgramFiles(x86)%\Microsoft Teams Network Assessment Tool\
+1. The tool will be installed to the following path by default: %ProgramFiles(x86)%\Microsoft Teams Network Assessment Tool\
 
 The folder contains multiple items, such as the actual executable to start the tool, which is “NetworkAssessmentTool.exe” and a Word document with the name “Usage.docx,” which includes the instructions how to use the tool. There is no Windows user interface; it is a command-line tool only. You can run it whether from the command prompt or PowerShell.
 
@@ -191,7 +191,7 @@ Firstly, the tool will check if it has connectivity to the Teams media relay. Th
 The checker also checks whether the load-balancer relay is QoS (Quality of Service) enabled, which means the load-balancer redirects packets to relay instance ports 3479-3481 (instead of 3478) depending on modality (audio = 3479, video = 3480, screenshare/data = 3481)
 
 > [!TIP]
-> TIP: By default, a default relay load-balancer relay FQDN for Worldwide Office 365 Endpoints is used. If you are working with a U.S. Government DoD tenant or U.S. Government GCC High tenant, you can edit the configuration file to test those endpoints
+> By default, a default relay load-balancer relay FQDN for Worldwide Office 365 Endpoints is used. If you are working with a U.S. Government DoD tenant or U.S. Government GCC High tenant, you can edit the configuration file to test those endpoints
 
 ```console
 Microsoft Teams - Network Assessment Tool
@@ -276,14 +276,14 @@ Network Quality Check
 The network quality check (performance test) is run with the NetworkAssessmentTool.exe /qualitycheck switch. This will test sending real packets across the network.
 
 > [!NOTE]
-> Note: You can only run a single instance of the tool on a PC. This tool is not intended for load/stress testing by running concurrent instances all performing tests.
+> You can only run a single instance of the tool on a PC. This tool is not intended for load/stress testing by running concurrent instances all performing tests.
 
 ```console
 C:\Program Files (x86)\Microsoft Teams Network Assessment Tool>NetworkAssessmentTool.exe /qualitycheck
 
 ```
 
-The tool will initially output which relay VIP it is testing and how long the test is setup for. By default, it will test every 5 seconds for 300 seconds. To change the length of time the quality checker will run, you can change the MediaDuration setting in the config file- NetworkAssessmentTool.exe.config.
+The tool will initially output which relay VIP it is testing and how long the test is setup for. By default, it will test every 5 seconds for 300 seconds. To change the length of time the quality checker will run, you can change the MediaDuration setting in the config file - NetworkAssessmentTool.exe.config.
 
 A test that is 300 seconds, or 5 minutes, is not a very long test. Setting this to 1800 or 30 minutes includes a set of results covering a longer window of time. It is best practice to gather results over a longer period of time and at different times of the day and week. You may discover whether Teams would still perform well during peak times when a high number of users are working or high-performance workloads stress the network. The following picture shows the value to modify:
 
@@ -339,7 +339,7 @@ Quality check source port range: 50000 - 50019
 Then it will output the results of each test.
 
 > [!TIP]
-> Tip: Press Ctrl+C in the middle of a test to end it early.
+> Press Ctrl+C in the middle of a test to end it early.
 
 As soon as the test has finished, an output file with the results in CSV are crated in the following folder on your test: %appdata%\..\Local\Microsoft Teams Network Assessment Tool
 
@@ -378,5 +378,5 @@ The following picture shows the example results of a network test. You can see t
 In this test we see only five results, but your test will show many more results. You may want to use excel to look at minimums, maximums, and averages to understand your overall results.
 
 > [!TIP]
-> TIP: You should assess and gather data for all your networks over a long period of time. It’s recommended for you to perform your testing of network performance for a minimum of a week, so that you can see usage patterns for all business days and hours. This will show you peak times.
+> You should assess and gather data for all your networks over a long period of time. It’s recommended for you to perform your testing of network performance for a minimum of a week, so that you can see usage patterns for all business days and hours. This will show you peak times.
 

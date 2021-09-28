@@ -20,7 +20,9 @@ abstract: |
   - Limit Teams Bandwidth Use with Media Bit Rate configuration
   - Optimize media flow over the LAN and WAN with QoS
 prerequisites: |
-  - None
+  - General understanding of Microsoft Teams and Teams Phone
+  - Basic understanding of networks, switching, routing, IP addressing, and DNS
+  - A general understanding of Office 365
 iconUrl: /learn/achievements/generic-badge.svg
 levels:
 - advanced

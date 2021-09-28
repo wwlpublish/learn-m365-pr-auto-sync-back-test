@@ -26,11 +26,11 @@ Microsoft recommends the following settings for QoS on the organizations network
 
 These are configured by performing the following steps:
 
-- Navigate to the Microsoft Teams admin center at [https://admin.teams.microsoft.com](https://admin.teams.microsoft.com/)
+1. Navigate to the Microsoft Teams admin center at [https://admin.teams.microsoft.com](https://admin.teams.microsoft.com/)
 
-- Select **Meetings** and **Meeting settings.**
+1. Select **Meetings** and **Meeting settings.**
 
-- Turn on "**Insert Quality of Service (QoS) markers for real-time media traffic**"
+1. Turn on "**Insert Quality of Service (QoS) markers for real-time media traffic**"
 
 By default, teams will use UDP 3478 for Audio, Video, and Sharing, but when you turn on the "Insert Quality of Service (QoS) markers for real-time media traffic" the client UDP ports will be broken out to UDP 3479 for Audio, 3480 for Video and 3481 for Sharing.
 
@@ -49,7 +49,7 @@ All clients, including mobile clients and Teams devices, will use these port ran
 You should configure Windows and your network equipment to mark packets in line with the defined client port ranges. Configuring these settings in Teams does not actually mark the packets. Just setting these settings will not mean your packets are marked or optimized. DSCP tagging on the network is typically done via Source Ports and UDP traffic routing to Teams Transport Relay with destination port of 3478.
 
 > [!TIP]
-> TIP: If your company requires tagging on destination ports, please contact support to enable communication to the Transport Relay with UDP ports 3479 (Audio), 3480 (Video), and 3481 (Sharing).
+> If your company requires tagging on destination ports, please contact support to enable communication to the Transport Relay with UDP ports 3479 (Audio), 3480 (Video), and 3481 (Sharing).
 
 If you do not configure, your network and clients to mark the traffic and only rely on Windows client marking using group policy, only a subset of your traffic will be marked and prioritized.
 
@@ -59,29 +59,29 @@ As well as marking packets at the network layer based on port range, Windows can
 
 To create a QoS audio policy for domain-joined Windows 10 computers, first sign in to a computer on which Group Policy Management has been installed. Open Group Policy Management (select Start, point to Administrative Tools, and then select Group Policy Management), and then complete the following steps:
 
-- Open the **Group Policy Management** snap-is on one of your AD DS domain controllers.
+1. Open the **Group Policy Management** snap-is on one of your AD DS domain controllers.
 
-- In **Group Policy Management**, locate the container where the new policy should be created. For example, if all your client computers are located in an OU named 'Clients', the new policy should be created in the Clients OU.
+1. In **Group Policy Management**, locate the container where the new policy should be created. For example, if all your client computers are located in an OU named 'Clients', the new policy should be created in the Clients OU.
 
-- Right-click the appropriate container, and then select Create a GPO in this domain, and link it here.
+1. Right-click the appropriate container, and then select Create a GPO in this domain, and link it here.
 
-- In the New GPO dialog box, type a name for the new Group Policy object in the Name box, and then select OK.
+1. In the New GPO dialog box, type a name for the new Group Policy object in the Name box, and then select OK.
 
-- Right-click the newly created policy, and then select Edit.
+1. Right-click the newly created policy, and then select Edit.
 
-- In the Group Policy Management Editor, expand Computer Configuration, expand Windows Settings, right-click Policy-based QoS, and then select Create new policy.
+1. In the Group Policy Management Editor, expand Computer Configuration, expand Windows Settings, right-click Policy-based QoS, and then select Create new policy.
 
-- In the Policy-based QoS dialog box, on the opening page, type a name for the new policy in the Name box. Select Specify DSCP Value and set the value to 46. Leave Specify Outbound Throttle Rate unselected, and then select Next.
+1. In the Policy-based QoS dialog box, on the opening page, type a name for the new policy in the Name box. Select Specify DSCP Value and set the value to 46. Leave Specify Outbound Throttle Rate unselected, and then select Next.
 
-- On the next page, select Only applications with this executable name and enter the name Teams.exe, and then select Next. This setting instructs the policy to only prioritize matching traffic from the Teams client.
+1. On the next page, select Only applications with this executable name and enter the name Teams.exe, and then select Next. This setting instructs the policy to only prioritize matching traffic from the Teams client.
 
-- On the third page, make sure that both Any source IP address and Any destination IP address are selected, and then select Next. These two settings ensure that packets will be managed regardless of which computer (IP address) sent the packets and which computer (IP address) will receive the packets.
+1. On the third page, make sure that both Any source IP address and Any destination IP address are selected, and then select Next. These two settings ensure that packets will be managed regardless of which computer (IP address) sent the packets and which computer (IP address) will receive the packets.
 
-- On page four, select TCP and UDP from the Select the protocol this QoS policy applies to drop-down list. TCP (Transmission Control Protocol) and UDP (User Datagram Protocol) are the two networking protocols most commonly used.
+1. On page four, select TCP and UDP from the Select the protocol this QoS policy applies to drop-down list. TCP (Transmission Control Protocol) and UDP (User Datagram Protocol) are the two networking protocols most commonly used.
 
-- Under the heading Specify the source port number, select From this source port or range. In the accompanying text box, type the port range reserved for audio transmissions. For example, if you reserved ports 50000 through ports 50019 for audio traffic, enter the port range using this format: 50000:50019. Select Finish.
+1. Under the heading Specify the source port number, select From this source port or range. In the accompanying text box, type the port range reserved for audio transmissions. For example, if you reserved ports 50000 through ports 50019 for audio traffic, enter the port range using this format: 50000:50019. Select Finish.
 
-- Repeat steps 5-10 to create policies for Video and Application/Desktop Sharing, substituting the appropriate values in steps 6 and 10.
+1. Repeat steps 5-10 to create policies for Video and Application/Desktop Sharing, substituting the appropriate values in steps 6 and 10.
 
 The new policies you've created won't take effect until Group Policy has been refreshed on your client computers. Although Group Policy periodically refreshes on its own, you can force an immediate refresh on each computer for which you want to refresh Group Policy or open a Command Prompt as administrator (Run as administrator).
 
@@ -100,21 +100,21 @@ Once your port ranges are set and QoS policies applied, you can validate your ma
 
 You can do this by either capturing traffic on the network with a port mirror or tap or perform a network capture on a PC with a tool like Wireshark. Microsoft no longer maintains a client network capture tool.
 
-- Download **Wireshark** onto the client machine and install, be sure to leave Npcap ticked at install. This will require you to reboot the client machine.
+1. Download **Wireshark** onto the client machine and install, be sure to leave Npcap ticked at install. This will require you to reboot the client machine.
 
-- Run **Wireshark** as an administrator.
+1. Run **Wireshark** as an administrator.
 
-- Select the network connection you are using. This will be the relevant LAN or Wi-Fi connection.
+1. Select the network connection you are using. This will be the relevant LAN or Wi-Fi connection.
 
-- Start a network capture but pressing the top-right shark fin “start capturing packets.”
+1. Start a network capture but pressing the top-right shark fin “start capturing packets.”
 
-- You will see a running list of packets being captured.
+1. You will see a running list of packets being captured.
 
-- From the client machine, join a Teams meeting from the Teams Desktop client, use audio and video, stay joined for around a minute then disconnect from the meeting.
+1. From the client machine, join a Teams meeting from the Teams Desktop client, use audio and video, stay joined for around a minute then disconnect from the meeting.
 
-- In Wireshark, stop the capture (red stop button top right).
+1. In Wireshark, stop the capture (red stop button top right).
 
-- In Wireshark use the filter to filter by destination port 3478. When Teams first talks to the transport relay, it will be going to port 3478.
+1. In Wireshark use the filter to filter by destination port 3478. When Teams first talks to the transport relay, it will be going to port 3478.
 
 ```console
 Wireshark filter
@@ -123,7 +123,7 @@ udp.dstport==3478
 
 ```
 
-- Pick a STUN protocol packet and expand the Internet Protocol Version 4 header information if DSCP markings are being applied.
+9. Pick a STUN protocol packet and expand the Internet Protocol Version 4 header information if DSCP markings are being applied.
 
 In this picture, we can see DSCP Expedited Forwarding 46 is being applied for audio traffic.
 
@@ -137,5 +137,6 @@ In this picture, we can see DSCP Assured Forwarding 34 is being applied for vide
 
 If you are not seeing marking in Wireshark, revisit your configuration and ensure it is correct.
 
-Note: To fully validate that marking aren’t stripped or replaced somewhere in the managed enterprise network, it is good practice to take a network trace at both the client and the managed network edge to see that the DSCP markings are not removed between the network edge and the client.
+> [!NOTE]
+> To fully validate that marking aren’t stripped or replaced somewhere in the managed enterprise network, it is good practice to take a network trace at both the client and the managed network edge to see that the DSCP markings are not removed between the network edge and the client.
 

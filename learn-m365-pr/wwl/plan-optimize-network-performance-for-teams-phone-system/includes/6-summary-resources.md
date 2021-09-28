@@ -28,7 +28,7 @@ Use these resources to discover more background details of the described topics 
 
 - [Use the Network planner for Microsoft Teams - Microsoft Teams | Microsoft Docs](/microsoftteams/network-planner)
 
-- [Download Microsoft Teams Network Assessment Tool from Official Microsoft Download Center](https://www.microsoft.com/en-us/download/details.aspx?id=103017)
+- [Download Microsoft Teams Network Assessment Tool from Official Microsoft Download Center](https://www.microsoft.com/download/details.aspx?id=103017)
 
 - [Assessing Microsoft 365 network connectivity - Microsoft 365 Enterprise | Microsoft Docs](/microsoft-365/enterprise/assessing-network-connectivity?view=o365-worldwide)
 
