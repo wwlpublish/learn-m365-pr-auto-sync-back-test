@@ -18,7 +18,9 @@ abstract: |
   - Configure Skype for Business Server Hybrid
   - Migrate users and devices to Teams
 prerequisites: |
-  - None
+  - Administrative experience of Skype for Business Server
+  - Knowledge of how to implement Microsoft Teams Phone System or Direct Routing
+  - An understanding of the desired end-state for users after the migration to Microsoft Teams
 iconUrl: /learn/achievements/generic-badge.svg
 levels:
 - advanced

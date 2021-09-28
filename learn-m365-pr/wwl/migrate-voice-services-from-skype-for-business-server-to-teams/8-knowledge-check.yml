@@ -22,7 +22,7 @@ quiz:
       explanation: "The shared SIP domain functionality allows users within two different environments, on-premises and online, to communicate using supporting Federation features."
     - content: "Skype for Business users to join Microsoft Teams meetings"
       isCorrect: false
-      explanation: "Skype for Business users can join Microsoft Teams meetings without any specific prerequisites for Hybrid in-place, using a web-browser, desktop or mobile client."
+      explanation: "Skype for Business users can join Microsoft Teams meetings without any specific prerequisites for Hybrid in-place, using a web-browser, desktop, or mobile client."
     - content: "PSTN calling functionality using shared SIP connectivity for Teams Only users"
       isCorrect: false
       explanation: "Skype for Business Server doesn't support routing of calls to Teams users via a shared SIP domain."
@@ -36,7 +36,7 @@ quiz:
       explanation: "Skype Room System (SRS) v2 devices are not Microsoft Teams compatible and support ended for these devices in October 2018. SRS v2 devices can be upgraded natively to support Microsoft Teams."
     - content: "All Skype for Business Certified room devices"
       isCorrect: false
-      explanation: "Certification for meeting room devices for Skype for Business server does not apply to Microsoft Teams as modern native communication protocols are used in Microsoft Teams. Validate each certified room device model separately for compatbilty."
+      explanation: "Certification for meeting room devices for Skype for Business server does not apply to Microsoft Teams as modern native communication protocols are used in Microsoft Teams. Validate each certified room device model separately for compatibility."
   - content: "Which steps must be performed when migrating an Enterprise Voice user?"
     choices:
     - content: "<ol><li>Configure Hybrid functionality for your organization.</li><li>Assign Teams and Skype for Business licensing to a user.</li><li>Using credentials for on-premises and Microsoft Teams, use Move-CsUser to migrate a user.</li><li>Use Hybrid functionality for call routing.</li><li>Configure Teams Voice System functionality or Direct Routing</li></ol>"

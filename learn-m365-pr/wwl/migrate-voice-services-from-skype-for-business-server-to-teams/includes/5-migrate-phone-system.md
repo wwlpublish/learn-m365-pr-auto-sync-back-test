@@ -70,9 +70,9 @@ You can update a user’s telephony provider to use a Microsoft Calling Plan or 
 
 Move-CsUser is available from an on-premises Skype for Business Server Management Shell PowerShell window or from a Lync Server Management Shell PowerShell window. To move a user to TeamsOnly mode using Move-CsUser:
 
-    - Specify the user to move using the Identity parameter.
+- Specify the user to move using the Identity parameter.
 
-    - Specify the -Target parameter with the value “sipfed.online.lync.com”.
+- Specify the -Target parameter with the value “sipfed.online.lync.com”.
 
 If you do not have one account with sufficient permissions in both on-premises and the cloud service (Microsoft 365), use the -credential parameter to supply an account with sufficient permissions in Microsoft 365.
 
@@ -90,23 +90,23 @@ Move-CsUser -Identity username@contoso.com -Target sipfed.online.lync.com -Crede
 ```
 
 > [!NOTE]
-> Note: It is no longer required to specify the -MoveToTeams switch in Move-CsUser to move users directly from on-premises to TeamsOnly. Previously, if this switch was not specified, users transitioned from being homed in Skype for Business Server on-premises to Skype for Business Online, and their mode remained unchanged. Now, when moving a user from on-premises to the cloud with Move-CsUser, users are automatically assigned TeamsOnly mode, and their meetings from on-premises are automatically converted to Teams meetings, just as if the -MoveToTeams switch had been specified, regardless of whether the switch was actually specified.
+> It is no longer required to specify the -MoveToTeams switch in Move-CsUser to move users directly from on-premises to TeamsOnly. Previously, if this switch was not specified, users transitioned from being homed in Skype for Business Server on-premises to Skype for Business Online, and their mode remained unchanged. Now, when moving a user from on-premises to the cloud with Move-CsUser, users are automatically assigned TeamsOnly mode, and their meetings from on-premises are automatically converted to Teams meetings, just as if the -MoveToTeams switch had been specified, regardless of whether the switch was actually specified.
 
 ### Move to Teams using Skype for Business Server Control Panel
 
-- Open the Skype for Business Server Control Panel app, then in the left navigation, choose **Users**.
+1. Open the Skype for Business Server Control Panel app, then in the left navigation, choose **Users**.
 
-- Use **Find** to locate the user(s) you would like to move to Teams.
+1. Use **Find** to locate the user(s) you would like to move to Teams.
 
-- Select the user(s), and then, from the **Action** dropdown above the list, choose **Move selected users to Teams** or **Move selected users to Skype for Business Online**.
+1. Select the user(s), and then, from the **Action** dropdown above the list, choose **Move selected users to Teams** or **Move selected users to Skype for Business Online**.
 
-- Either option now moves users directly to TeamsOnly.
+1. Either option now moves users directly to TeamsOnly.
 
-- In the wizard, click **Next**.
+1. In the wizard, click **Next**.
 
-- If prompted, sign in to Microsoft 365 with an account that ends in .onmicrosoft.com and has sufficient permissions.
+1. If prompted, sign in to Microsoft 365 with an account that ends in .onmicrosoft.com and has sufficient permissions.
 
-- Click **Next**, and then **Next** one more time to move the user.
+1. Click **Next**, and then **Next** one more time to move the user.
 
 > [!NOTE]
 > Note that status messages regarding success or failure are provided at the top of the main Control Panel app, not in the wizard.

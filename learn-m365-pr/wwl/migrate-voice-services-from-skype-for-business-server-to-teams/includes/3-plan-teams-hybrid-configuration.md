@@ -38,7 +38,7 @@ One of the following topology scenarios:
 If hybrid voice is required in any topology, both the edge server that's selected as the Federation Edge and the pool associated with SIP federation must run Skype for Business 2015 or later. Users can remain on a Lync 2013 Pool if one exists.
 
 > [!NOTE]
-> Note: Topologies that include Lync Server 2010 aren't supported for hybrid voice of Teams.
+> Topologies that include Lync Server 2010 aren't supported for hybrid voice of Teams.
 
 Microsoft supports the following multi-forest hybrid scenarios:
 

@@ -15,7 +15,7 @@ Initially, when you implement Teams with your on-premises Skype for Business Ser
 
 For example, if you have significant Skype for Business Server on-premises assets with a complex Enterprise Voice deployment but want your users to enjoy modern meetings as quickly as possible, you might want to evaluate Meetings First as an alternative path.
 
-Based on the coexistence mode you have configured, users will have the following capabilities enabled in Teams in Hybrid, prior to migration from Skype for Business Server:
+Based on the coexistence mode you have configured, users will have the following capabilities enabled in Teams in Hybrid, prior to migration from Skype for Business Server:<br>
 
 | **User's effective mode**| **Experience in Teams client**|
 | :--- | :--- |
