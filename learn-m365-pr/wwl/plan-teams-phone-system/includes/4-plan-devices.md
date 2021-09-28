@@ -5,6 +5,7 @@ To manage phones, you need to be a Global admin, Teams Service admin, or Teams D
 ## Features supported by Teams phones
 
 Teams-certified phones have a broad array of features to help your users do their jobs, and help you manage their use. Here's a summary of the features available in Teams-certified phones:
+
 - **Authentication**: Phones use Modern Authentication to simplify signing in and to improve security. Users can sign in by entering their username and password on the phone or by signing in from another device like a PC/smartphone.
 
 - **Speed dial and call history**: Users have quick access to their contacts, call history, and voicemail. They can easily manage their contacts and speed dial entries directly from their phone.

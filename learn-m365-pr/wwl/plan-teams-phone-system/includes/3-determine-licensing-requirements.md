@@ -2,7 +2,9 @@ Microsoft Teams Phone system is configured as an additional add-on License.  Ult
 ## What features can I get with add-on licenses?
 
 Here's a list of features that you can add with Teams add-on licenses. The add-on licensing options available to you depend on the Microsoft 365 or Office 365 plan you have.
-| **Feature**| **Description**| **Small business (<300 users)**| **Large business (>300 users)**|
+
+
+| **Feature**| **Description**| **Small business (under 300 users)**| **Large business (over 300 users)**|
 | :--- | :--- | :--- | :--- |
 | Microsoft 365 Business Voice| Business Voice is a telephony solution designed for small and medium businesses of up to 300 users that bundles Phone System, Audio Conferencing, a Domestic Calling Plan, and more. Phone System capabilities that you'll get include voicemail, caller ID, call park, call forwarding, auto attendants, and call queues.| ✓||
 | Audio Conferencing| Sometimes people in your organization will need to use a phone to call into a Teams meeting instead of their computer. Set up Audio Conferencing for users who schedule or lead meetings.| ✓| ✓|
@@ -10,8 +12,9 @@ Here's a list of features that you can add with Teams add-on licenses. The add-o
 | Phone System| Phone System is a hosted telephone service that gives you call control and Private Branch Exchange (PBX) capabilities, with options for connecting to the Public Switched Telephone Network (PSTN). Phone System features include cloud voicemail, caller ID, call park, call forwarding, auto attendants, call queues, call transfer, caller ID, and more.| ✓| ✓|
 | Calling Plans| If you want users to be able to call phone numbers outside your organization, get a Calling Plan. There are Domestic Calling Plans, Domestic, and International Calling Plans.| ✓| ✓|
 
+
 > [!NOTE]
-> Note: Phone System licenses provide the eligibility to use the Microsoft Teams voice features only! To perform calls into the PSTN, a calling plan or Direct Routing is always required in addition.
+> Phone System licenses provide the eligibility to use the Microsoft Teams voice features only! To perform calls into the PSTN, a calling plan or Direct Routing is always required in addition.
 
 ### Small Business
 
@@ -56,5 +59,6 @@ Enterprise business (>300 people)
 | Microsoft 365 Enterprise E1/E3<br >Office 365 Enterprise E1/E3<br >Microsoft 365 F3<br >Office 365 F3<br >Microsoft 365 F1| Audio Conferencing<br >Phone System<br >Domestic Calling Plan<br >Domestic and International Calling Plan (optional)<br >Communication Credits|
 | Microsoft 365 Enterprise E5<br >Office 365 Enterprise E5| Domestic Calling Plan<br >Domestic and International Calling Plan (optional)<br >Communication Credits|
 
+> [!NOTE]
 > If you need to use a third-party telephone service, Direct Routing is deployed in your organization, or if Calling Plans aren't available in your country or region, you need to use Direct Routing for voice features.
 

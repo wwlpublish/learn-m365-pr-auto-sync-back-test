@@ -61,7 +61,7 @@ With Direct Routing:
 > [!NOTE]
 > This option requires an uninterrupted connection to Microsoft 365.
 
-## Deploying and maintaining a supported SBC
+## Deploy and maintain a supported SBC
 
 A contract with a third-party carrier. Unless deployed as an option to provide connection to third-party PBX, analog devices, or other telephony equipment for users who are on Phone System with Calling Plan.
 
