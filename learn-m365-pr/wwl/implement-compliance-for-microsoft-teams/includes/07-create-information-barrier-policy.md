@@ -47,7 +47,7 @@ When admins create or update information barrier policies, the service automatic
 There are several steps to configuring information barrier policies for Microsoft Teams. When a team is created, a SharePoint site is provisioned and associated with Microsoft Teams for the files experience. Information barrier policies aren't honored on this SharePoint site and files by default. To enable information barriers in SharePoint and OneDrive, see [Use information barriers with SharePoint](https://docs.microsoft.com/sharepoint/information-barriers?azure-portal=true#prerequisites).
 
 | Phase | What's involved |
-|--||
+|--------|------------------|
 | [Make sure prerequisites are met](https://docs.microsoft.com/microsoft-365/compliance/information-barriers-policies?azure-portal=true#prerequisites) | - Verify that you have the [required licenses and permissions](https://docs.microsoft.com/microsoft-365/compliance/information-barriers?azure-portal=true#required-licenses-and-permissions)<br/>- Verify that your directory includes data for segmenting users<br/>- Enable scoped directory search for Microsoft Teams<br/>- Make sure audit logging is turned on<br/>- Make sure no Exchange address book policies are in place<br/>- Use PowerShell <br/>- Provide admin consent for Microsoft Teams |
 | Part 1: Segment users in your organization | - Determine what policies are needed<br/>- Make a list of segments to define<br/>- Identify which attributes to use<br/>- Define segments in terms of policy filters |
 | Part 2: Define information barrier policies | - Define your policies (do not apply yet)<br/>- Choose from two kinds (block or allow) |
