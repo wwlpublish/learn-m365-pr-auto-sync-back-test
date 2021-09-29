@@ -8,7 +8,7 @@ Upon completion of this module, you should be able to:
 
 - Gain an understanding of how to plan for a basic phone system.
 
-- Gain an understanding of how to plan for additional Teams calling options.
+- Gain an understanding of how to plan for advanced Teams calling options.
 
 ## Prerequisites
 

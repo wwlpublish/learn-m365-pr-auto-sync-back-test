@@ -3,7 +3,7 @@ uid: learn.wwl.plan-teams-phone-system
 metadata:
   title: Plan Teams Phone System
   description: "Understanding of what is included in Microsoft Phone System, what is needed to make and receive phone calls, how to plan for phone system devices, phone system features, and planning for cloud voicemail."
-  ms.date: 09/28/2021
+  ms.date: 09/29/2021
   author: wwlpublish
   ms.author: dahans
   ms.topic: interactive-tutorial
@@ -13,7 +13,7 @@ summary: Understanding of what is included in Microsoft Phone System, what is ne
 abstract: |
   At the end of this module, you will be able to:
   - Gain an understanding of how to plan for a basic phone system.
-  - Gain an understanding of how to plan for additional Teams calling options.
+  - Gain an understanding of how to plan for advanced Teams calling options.
 prerequisites: |
   - An understanding of Microsoft Teams Client
   - An understanding of Microsoft Teams Phone

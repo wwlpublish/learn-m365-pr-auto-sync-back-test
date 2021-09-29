@@ -1,4 +1,5 @@
 Microsoft Teams Phone system is configured as an additional add-on License.  Ultimately, the add-on’s give you the flexibility to add features only for users in your organization who need them. To add a feature, buy one add-on license for each user who will use it.
+
 ## What features can I get with add-on licenses?
 
 Here's a list of features that you can add with Teams add-on licenses. The add-on licensing options available to you depend on the Microsoft 365 or Office 365 plan you have.
