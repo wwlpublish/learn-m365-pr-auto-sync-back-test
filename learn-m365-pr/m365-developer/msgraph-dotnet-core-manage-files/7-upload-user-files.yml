@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.msgraph-dotnet-core-manage-files.7-upload-user-files
+title: Upload user files
+metadata:
+  unitType: learning-content  
+  title: Exercise – Connect an ASP.NET Core app to Microsoft 365
+  description: In this unit, you'll add support for uploading files to Microsoft 365 in an ASP.NET Core app.
+  author: DanWahlin
+  ms.author: dwahlin
+  ms.date: 09/04/2021
+  ms.topic: interactive-tutorial
+  ms.prod: learning-graph
+durationInMinutes: 3
+content: |
+  [!include[](includes/7-upload-user-files.md)]
