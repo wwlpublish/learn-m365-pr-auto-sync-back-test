@@ -13,7 +13,9 @@ There are two relevant calling scenarios when moving a Skype for Business Server
 1.  A user in Skype for Business Server with Enterprise Voice, who will be moving to online and keeping on-premises PSTN connectivity. Migrating this user to Teams requires moving the user’s on-premises Skype for Business account to the cloud and coordinating that move with migration of the user to Direct Routing.
 
 1.  A user in Skype for Business Server with Enterprise Voice, who will be moving to online and using a Microsoft Calling plan. Migrating this user to Teams requires moving the user’s on-premises Skype for Business account to the cloud and coordinating that move with either:
+
     1. The port of that user’s phone number to a Microsoft Calling Plan
+
     1.  Assigning a new subscriber number from available regions.
 
 ## Moving users and common area phones
@@ -109,7 +111,7 @@ Move-CsUser -Identity username@contoso.com -Target sipfed.online.lync.com -Crede
 1. Click **Next**, and then **Next** one more time to move the user.
 
 > [!NOTE]
-> Note that status messages regarding success or failure are provided at the top of the main Control Panel app, not in the wizard.
+> Status messages regarding success or failure are provided at the top of the main Control Panel app, not in the wizard.
 
 ## Other considerations
 
