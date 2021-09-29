@@ -63,7 +63,7 @@ The vendor will provide a URL for you to select and grant this access to their a
 | Calls.JoinGroupCallAsGuest.All| Application| Join group calls and meetings as a guest|
 | Presence.Read.All Delegated| Delegated| Read presence information of all users in your organization|
 
-The URL will be in the format: <https://login.microsoftonline.com/common/adminconsent?client_id=<VENDOR GUID>
+The URL will be in the format: https://login.microsoftonline.com/common/adminconsent?client_id=\<VENDOR GUID>
 
 And permissions approval will look like the following:
 
