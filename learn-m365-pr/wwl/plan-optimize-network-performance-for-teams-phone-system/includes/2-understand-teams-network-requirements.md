@@ -287,9 +287,7 @@ The tool will initially output which relay VIP it is testing and how long the te
 
 A test that is 300 seconds, or 5 minutes, is not a very long test. Setting this to 1800 or 30 minutes includes a set of results covering a longer window of time. It is best practice to gather results over a longer period of time and at different times of the day and week. You may discover whether Teams would still perform well during peak times when a high number of users are working or high-performance workloads stress the network. The following picture shows the value to modify:
 
-![Graphical user interface, text, application
-
-Description automatically generated](../media/network-assessment-tool-settings.png)
+![Screenshot of the Teams Network Assessment Tool settings](../media/network-assessment-tool-settings.png)
 
 
 ```console
