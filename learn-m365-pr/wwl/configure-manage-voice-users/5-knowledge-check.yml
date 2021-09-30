@@ -1,0 +1,52 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.configure-manage-voice-users.knowledge-check
+title: Knowledge check
+metadata:
+  title: Knowledge check
+  description: "Knowledge check"
+  ms.date: 09/30/2021
+  author: wwlpublish
+  ms.author: dahans
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 6
+content: |
+  [!include[](includes/5-knowledge-check.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "Which PowerShell cmdlet should be used to enable a licensed user for Teams Phone using Calling Plans?"
+    choices:
+    - content: "Set-CsUser"
+      isCorrect: false
+      explanation: "Instead, use the Set-CsOnlineVoiceUser cmdlet to the telephone user and location ID for emergency calling."
+    - content: "Set-CsOnlineVoiceUser"
+      isCorrect: true
+      explanation: "Use the Set-CsOnlineVoiceUser cmdlet to the telephone user and location ID for emergency calling."
+    - content: "Enable-CsOnlineVoiceUser"
+      isCorrect: false
+      explanation: "This isn't a valid cmdlet. Use the Set-CsOnlineVoiceUser cmdlet to the telephone user and location ID for emergency calling."
+  - content: "Which licenses need to be applied to a user before enabling a user to use Direct Routing?"
+    choices:
+    - content: "Microsoft Teams, Teams Phone, and Calling Plan licenses"
+      isCorrect: false
+      explanation: "Calling Plan licenses are not required to use Direct Routing. Additionally, to enable Enterprise Voice functionality, a Skype for Business Plan 2 license must be assigned."
+    - content: "Microsoft Teams, Teams Phone, Skype for Business Plan 2 and Audio Conferencing licenses"
+      isCorrect: false
+      explanation: "Audio Conferencing is not required to enable Direct Routing, but can optionally be added on to allow a user to schedule meetings with a dial-in conferencing bridge number."
+    - content: "Microsoft Teams, Teams Phone, and Skype for Business Plan 2 licenses"
+      isCorrect: true
+      explanation: "A Microsoft 365 E5 or Office 365 E5 SKU including Teams Teams Phone licenses, or individual add-on licenses provide can be used to apply the above licenses. Calling Plan functionality is not required to use Direct Routing."
+  - content: "When should an organization consider assigning a custom dial plan to a user?"
+    choices:
+    - content: "To assign a plan that grants the ability for the Dial Pad to be shown in the Teams Client."
+      isCorrect: false
+      explanation: "Enabling Teams Voice services for a user enables the Dial Pad functionality in the client. The Dial Plan translates dialed numbers, via normalization, into a format that is recognized by Teams and matches call authorization and voice routing rules."
+    - content: "To ensure a user follows a specified format when dialing numbers, so that incorrectly formatted numbers cannot be dialed."
+      isCorrect: false
+      explanation: "A dial plan allows a user to enter numbers in format they are most familiar with using local conventions rather than enforce a particular format (such as E.164). The dial plan normalizes and translates the number dialed into a format that matches call authorization and voice routing rules."
+    - content: "To enable a user to dial out using local format they are familiar with and translate the number into an alternate format."
+      isCorrect: true
+      explanation: "A dial plan is a named set of normalization rules that translate dialed phone numbers by an individual user into an alternate format (typically E.164) for purposes of call authorization and voice routing. They describe how phone numbers expressed in various formats are translated to an alternate format."
