@@ -84,7 +84,7 @@ The new numbers will appear in the list of phone numbers as soon as they become 
 
 After performing the described steps, you ordered PSTN Phone numbers from Microsoft and assigned them to your tenant, ready to be assigned to users or services.
 
-## Create Microsoft Port Request for User and Service numbers
+## Create Microsoft port request for user and service numbers
 
 You may have existing phone numbers with another carrier/operator that you want to move to Microsoft calling plans; this move is called a "Port." Once numbers are ported, the new service provider, Microsoft in this case, manages them and you can disconnect the service from the old service provider (subject to any contractual requirements you have with them).
 
@@ -98,7 +98,7 @@ After you've completed the port order request, it takes between 7-14 days to be 
 
 Each port must be for numbers with a single provider. You also must submit separate port orders for each type of number, for example user, toll service number(s), toll free service number(s).
 
-### Information needed for a Port
+### Information needed for a port request
 
 As part of your port request, you need to fill out and upload a Letter of Authorization ‎(‎LOA)‎. The person authorized on the account must sign it, scan it (or take a good photo with one of those "scanning apps"), and sent it to Microsoft.
 
@@ -159,7 +159,7 @@ To manually submit a new port order, you must do the following steps in order:
 1. Send it to the Microsoft PSTN service desk.
 
 > [!NOTE]
-> Note, there's a tick box to specify if you're porting user vs. service numbers. Each port must only be for one number type.
+> There's a tick box to specify if you're porting user vs. service numbers. Each port must only be for one number type.
 
 To contact the PSTN service desk, perform the following steps:
 
@@ -185,7 +185,7 @@ To contact the PSTN service desk, perform the following steps:
 
 After performing the described steps, you have performed a manual number port from another operator to Microsoft.
 
-## Create request to convert Service number to User number or User number to service number
+## Create request to convert service number to user number or user number to service number
 
 Sometimes you may need to covert user numbers to service numbers or service numbers to user numbers. You can do this by contacting the Microsoft PSTN Service Desk.
 

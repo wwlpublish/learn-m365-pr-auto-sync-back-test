@@ -4,12 +4,14 @@ title: Knowledge check
 metadata:
   title: Knowledge check
   description: "Knowledge check"
-  ms.date: 09/29/2021
+  ms.date: 09/30/2021
   author: wwlpublish
+  ms.author: dahans
   ms.topic: interactive-tutorial
+  ms.prod: learning-m365
 azureSandbox: false
 labModal: false
-durationInMinutes: 3
+durationInMinutes: 6
 content: |
   [!include[](includes/7-knowledge-check.md)]
 quiz:
@@ -37,7 +39,7 @@ quiz:
     - content: "Setting which phones can pick up parked calls"
       isCorrect: false
       explanation: "That option is not correct. Call pack pickups can be limited to a select group of users, but not to specific physical devices such as phones."
-  - content: "What is needed before you can acquire phone numbers via Microsoft Calling Plan?"
+  - content: "What is needed before acquiring phone numbers via Microsoft Calling Plan?"
     choices:
     - content: "ExpressRoute connection to Microsoft"
       isCorrect: false

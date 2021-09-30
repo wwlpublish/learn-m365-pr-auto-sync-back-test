@@ -1,10 +1,11 @@
 There are several policies you may need to configure for specific features of Teams Phone. This unit covers configuration of these policies
 
-## Configure Calling policies
+## Configure calling policies
 
 Calling policies control which calling and call forwarding features are available to users.
 
 Calling policies can enable or disable the following:
+
 
 | Function| Description| Recommendation|
 | :--- | :--- | :--- |
@@ -17,16 +18,14 @@ Calling policies can enable or disable the following:
 | Delegation for inbound and outbound calls| Enables inbound calls to be routed to delegates; allows delegates to make outbound calls on behalf of the users for whom they have delegated permissions.| Set to on. Useful for users|
 | Prevent toll bypass and send calls through the PSTN| Setting this to on will send calls through PSTN and incur charges rather than going through the network and bypassing the tolls.This setting only works with Direct Routing that is configured to handle location-based routing restrictions.| Set to off unless you have a particular regulatory reason to turn this on.Do not set this parameter to True for Calling Plan users as it will prevent successful call routing|
 | Music on hold for PSTN callers| Allows you to turn on or turn off the music on hold when a PSTN caller is placed on hold.
-
 This setting does not apply to call park and SLA boss delegate features.| Se this to On. Silence while on hold is confusing to users.|
 | Busy on busy when in a call - when you are on a call a second incoming call will not alert you, it will be routed as an unanswered call for that user, typically to voicemail| Configures how incoming calls are handled when a user is already in a call or conference or has a call placed on hold.
-
 When enabled, new or incoming calls will be rejected with a busy signal.
-
 When set to Unanswered, the user's unanswered settings will take effect, such as routing to voicemail or forwarding to another user.| Set this to off. Most users want a notification of a second incoming call when on a call.|
 | Web PSTN calling - specifically block PSTN calling from the web client| Allows PSTN calling from the Team web client.| Set to on. There is normally no reason to disable PSTN calling from the browser.|
 | Real-time captions in Teams calls| Determines whether real-time captions are available for the user in Teams calls| Set this to on.|
 | Automatically answer incoming meeting invites| Allows you to enable or disable auto answer for incoming meeting invites| Set to off. Most users don’t want meeting invites to automatically answer.|
+
 
 You can use and modify the Global (Org-wide default) policy and or create custom policies for sets of users. You can create policies by following these steps:
 
@@ -53,7 +52,7 @@ Set-CSTeamsCallingPolicy -Identity HROPolicy -LiveCaptionsEnabledTypeForCalling 
 
 After performing the PowerShell, Live Captions have been disabled on the existing HROPolicy.
 
-## Understanding Dial Plans
+## Understanding dial plans
 
 A dial plan allows you to transform the number dialed by the user into another number, for example from a local dialing format to the international E.164 format, or to allow users to dial short extension numbers for users.
 
@@ -81,7 +80,7 @@ The following are the possible effective dial plans:
 
 Teams traverses the list of normalization rules from the top down and uses the first rule that matches the dialed number. Tenant global and tenant user rules will be higher than service-country rules.
 
-## Create a Dial Plan
+## Create a dial plan
 
 To create a tenant global or tenant user dial plan, complete the following steps:
 1. Navigate to the Microsoft Teams admin center at [https://admin.teams.microsoft.com](https://admin.teams.microsoft.com/).
@@ -107,7 +106,7 @@ To create a tenant global or tenant user dial plan, complete the following steps
 
 A good overview of dial plans is available on Microsoft docs in resources.
 
-## Configure Call Park policies
+## Configure call park policies
 
 Call Park and retrieve lets users put calls on hold and enables the same user or someone else to retrieve and continue the call.
 
@@ -135,7 +134,7 @@ To enable call park:
 
 After performing the described steps, you have defined a call park policy you can now assign to a group of users.
 
-## Configure Caller ID policies
+## Configure caller ID policies
 
 Caller ID policies are used to change or block the Caller ID or phone number presented when making or receiving PSTN calls.
 
@@ -181,7 +180,7 @@ To create a caller ID policy:
 
 1. Select **Save**
 
-## Configure Inbound call blocking
+## Configure inbound call blocking
 
 In some scenarios, you may want to block specific inbound calls at the tenant level. For example, if a specific phone number is constantly spam calling.
 
@@ -204,18 +203,16 @@ In following example, we will block all calls coming from the number 1 (412) 555
 1. Connect to Microsoft Teams with PowerShell as an administrator
 
 1. Run the following
-
-```powershell
-Test-CsInboundBlockedNumberPattern -PhoneNumber "14125551111"
-
-```
+    ```powershell
+    Test-CsInboundBlockedNumberPattern -PhoneNumber "14125551111"
+    
+    ```
 
 1. Verify the pattern is working
-
-```powershell
-New-CsInboundBlockedNumberPattern -Name "BlockNusance1" -Enabled $True -Description "Block Fabrikam" -Pattern "^\+?14125551111$"
-
-```
+    ```powershell
+    New-CsInboundBlockedNumberPattern -Name "BlockNusance1" -Enabled $True -Description "Block Fabrikam" -Pattern "^\+?14125551111$"
+    
+    ```
 
 1. The Test will confirm the number is being blocked.
 

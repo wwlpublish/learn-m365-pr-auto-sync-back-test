@@ -6,7 +6,7 @@ Microsoft Teams supports "emergency calling," which ties a specific static addre
 
 We are looking at configuring Emergency Calling addresses first in this module as a phone number must be aligned to an emergency calling address. How this is configured varies by country/region. In the United States, you need to associate an emergency location when you assign the phone number to the user. In Europe, you need to associate an emergency location to the phone number when you acquire the phone numbers from Microsoft or your Operator Connect provider.
 
-## Define Emergency Calling Addresses
+## Define emergency calling addresses
 
 To add phone numbers to Teams, the first step is to configure emergency addresses. To Assign Calling plan numbers successfully in many European countries/regions such as Belgium, France, Germany, Ireland, Netherlands, and Spain, the emergency address must match the area code of the phone number area code of the number ordered from Microsoft.
 
@@ -34,6 +34,7 @@ You do this by following these steps:
 
 By default, Microsoft will attempt to look up the address, when you entered it as shown in the following picture.
 
+[!div class="mx-imgBorder"]
 ![Adding a new emergency address in the Teams Admin Center](../media/emergency-address-setting.png)
 
 
@@ -74,7 +75,7 @@ If it can't be found, you can also toggle to input addresses manually by followi
 
 After performing the described steps, you have added an emergency calling address. Once added, the address it will show in the list. Usually addresses will show as Validated straight away, but sometimes Microsoft may need to manually validate the address. Once Validated, addresses can be used.
 
-## Configure Emergency Calling Policies
+## Configure emergency calling policies
 
 Emergency calling policies define what happens when a user in your organization makes an emergency call. For Calling Plans, only Emergency calling policy applies. Emergency call routing policy is only for Direct Routing and will be explained in another module.
 
@@ -122,13 +123,13 @@ During startup and periodically afterward, the Teams client sends a location req
 
 To configure dynamic emergency calling, firstly we need to map the relevant Network Regions, Network sites, network subnets, and Trusted IP addresses. This is done under Locations > Network topology in the Teams Admin Center.
 
-### Adding a Network site to Network Topology
+### Adding a network site to Network Topology
 
 Select Add to add a Network Site. Network Site is the level where you can align an Emergency Calling policy (as well as Location based routing and Emergency call routing policy for Direct Routing). Multiple network Subnets can be associated with a single network site.
 
 Network Region is a collection of Network Sites; you can configure your network region by selecting or adding one when adding a network site.
 
-### Adding a Trusted IP to Network Topology
+### Adding a trusted IP to Network Topology
 
 Trusted IP addresses are the enterprises public external IP addresses that a Teams user will show as routing from on the public internet. These are important as they validate that the user is on an enterprise network, and the system should check if they are on a mapped subnet. If the public IP of the user does not match a Trusted IP address, the location map will not be checked. This prevents subnets on different networks, but with the same internal subnet numbering, being accidentally mapped to the wrong emergency address. You do not need to map Trusted IPs to specific networks.
 

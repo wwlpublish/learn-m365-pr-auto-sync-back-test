@@ -9,16 +9,16 @@ There is no technical setup, SBC setup, or anything equipment related, as Operat
 Operator connect allows you to maintain existing telco operator relationships as well as make new ones easily for specific countries/regions you require phone numbers in.
 
 > [!NOTE]
-> Note, you can have more than one operator concurrently for different users or countries/regions, or even the same country/region. There is no limit to the number of operators you can have.
+> You can have more than one operator concurrently for different users or countries/regions, or even the same country/region. There is no limit to the number of operators you can have.
 
-## Connector to an Operator
+## Connector to an operator
 
 The first step on your operator connect journey is to select your operator. The Teams Admin Center makes this easy. Under Voice, on the left menu, there is an Operators tab that shows all currently available operators (the list will continue to expand as new operators are added).
 
 You may want to pick an operator you already know and use, or, if you wish to find out which operators can serve the countries/regions you need, you can use Teams Admin Center to filter the All Operators tab by country/region and capability. The following picture shows several available Operators for different regions:
 
+[!div class="mx-imgBorder"]
 ![Operator Connect in the Teams Admin Center](../media/operator-connect-setting.png)
-
 
 To configure an Operator Connect operator, firstly select an operator:
 
