@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.msgraph-dotnet-core-manage-files.1-introduction
+title: Introduction
+metadata:
+  title: Introduction
+  unitType: introduction 
+  description: This unit introduces you to the module and explains what you'll learn.
+  ms.date: 09/04/2021
+  author: DanWahlin
+  ms.author: dwahlin
+  ms.topic: interactive-tutorial
+  ms.prod: learning-graph
+durationInMinutes: 1
+content: |
+  [!include[](includes/1-introduction.md)]
