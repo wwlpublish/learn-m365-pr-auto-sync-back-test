@@ -4,9 +4,8 @@ To coexist and allow the migration of users to Microsoft Teams, you must create 
 
 The diagram below illustrates how Microsoft Teams and Skype for Business interact.
 
-[!div class="mx-imgBorder"]
-
-![A diagram showing Office 365 and an On-Premises environment, linked by Azure Active Directory and Azure AD Connect, with an on-premises Skype for Business Server and Microsoft Teams. Two users (A and B) are homes in Microsoft Teams and two users (C and D) are homed on-premises.](../media/teams-skype-business-interaction.png)
+> [!div class="mx-imgBorder"]
+> ![A diagram showing Office 365 and an On-Premises environment, linked by Azure Active Directory and Azure AD Connect, with an on-premises Skype for Business Server and Microsoft Teams. Two users (A and B) are homes in Microsoft Teams and two users (C and D) are homed on-premises.](../media/teams-skype-business-interaction.png)
 
 
 In addition to configuring a Hybrid relationship between Skype for Business and Microsoft Teams, you must also enable Voice Services in Microsoft Teams.
