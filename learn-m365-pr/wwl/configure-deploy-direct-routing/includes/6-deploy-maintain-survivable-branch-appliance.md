@@ -136,7 +136,7 @@ For the SBA application, keep the following in mind:
 
 - Supported account types = Account in this organizational directory only.
 
-- The Web Redirect Uri = [https://login.microsoftonline.com/common/oauth2/nativeclient](https://login.microsoftonline.com/common/oauth2/nativeclient).
+- The Web Redirect Uri is https://login.microsoftonline.com/common/oauth2/nativeclient.
 
 - Implicit grant tokens = Access tokens and ID tokens.
 

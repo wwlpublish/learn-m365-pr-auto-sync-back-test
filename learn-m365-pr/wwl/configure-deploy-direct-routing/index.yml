@@ -33,7 +33,7 @@ units:
 - learn.wwl.configure-deploy-direct-routing.implement-sip-trunking
 - learn.wwl.configure-deploy-direct-routing.configure-emergency-calling-for
 - learn.wwl.configure-deploy-direct-routing.extend-teams-dr-infrastructure
-- learn.wwl.configure-deploy-direct-routing.deploy-maintain-sba
+- learn.wwl.configure-deploy-direct-routing.deploy-maintain-survivable-branch-appliance
 - learn.wwl.configure-deploy-direct-routing.knowledge-check
 - learn.wwl.configure-deploy-direct-routing.summary-resources
 badge:

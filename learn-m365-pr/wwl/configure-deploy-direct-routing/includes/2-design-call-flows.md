@@ -147,7 +147,8 @@ Further information can be obtained in the resources section below for enabling 
 
 1. Select **Add** to create a new entry.
 
-    ![Screenshot of the Add voice routing policy page in the Microsoft Teams admin center ](../media/voice-routing-policy.png)
+    > [!div class="mx-imgBorder"]
+    > ![Screenshot of the Add voice routing policy page in the Microsoft Teams admin center ](../media/voice-routing-policy.png)
 
 1. Enter a meaningful name and description for the policy.
 

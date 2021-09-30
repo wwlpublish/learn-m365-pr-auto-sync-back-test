@@ -17,7 +17,7 @@ content: |
 quiz:
   title: "Check your knowledge"
   questions:
-  - content: "How can you configure voice routing for a Teams user?"
+  - content: "How is voice routing configured for a Teams user?"
     choices:
     - content: "Create a usage, a voice route, and a voice routing policy."
       isCorrect: true
@@ -39,7 +39,7 @@ quiz:
     - content: "E.164"
       isCorrect: true
       explanation: "This is correct. The E.164 is an international standard used by Microsoft Teams and Phone System."
-  - content: "How can you add a Survivable Branch Appliance to Microsoft Teams?"
+  - content: "How is a Survivable Branch Appliance added to Microsoft Teams?"
     choices:
     - content: "Use the PowerShell command New-CsOnlinePSTNGateway"
       isCorrect: false

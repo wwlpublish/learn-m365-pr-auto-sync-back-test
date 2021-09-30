@@ -1,9 +1,9 @@
 ### YamlMime:ModuleUnit
 uid: learn.wwl.configure-deploy-direct-routing.extend-teams-dr-infrastructure
-title: Extend Teams DR Infrastructure
+title: Extend Teams Direct Routing infrastructure
 metadata:
-  title: Extend Teams DR Infrastructure
-  description: "Extend Teams DR Infrastructure"
+  title: Extend Teams Direct Routing infrastructure
+  description: "Extend Teams Direct Routing infrastructure"
   ms.date: 09/30/2021
   author: wwlpublish
   ms.author: dahans
@@ -13,4 +13,4 @@ azureSandbox: false
 labModal: false
 durationInMinutes: 7
 content: |
-  [!include[](includes/5-extend-teams-dr-infrastructure.md)]
+  [!include[](includes/5-extend-teams-direct-routing-infrastructure.md)]
