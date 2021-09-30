@@ -13,7 +13,7 @@ The following table provides an overview of available messaging policy settings.
  
 
 | **Setting**  | **Description**                                              |
-|--|-|
+|-----------|----------------|
 | Owners can delete sent messages                                 | Use this setting to let owners delete messages that users sent in chat.                                      |
 | Delete sent messages  | Use this setting to let users delete messages that they sent in chat.|
 | Edit sent messages   | Use this setting to let users edit the messages that they sent in chat.|
