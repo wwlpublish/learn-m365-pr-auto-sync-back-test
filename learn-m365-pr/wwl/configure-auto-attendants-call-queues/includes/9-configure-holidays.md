@@ -28,8 +28,8 @@ To create a holiday, follow these steps in the Teams admin center:
 
 1. Select **Save**.
 
-![Screenshot showing the configuration of holidays.](../media/holidays-timer.png)
-
+> [!div class="mx-imgBorder"]
+> ![Screenshot showing the configuration of holidays.](../media/holidays-timer.png)
 
 ## Change a holiday
 

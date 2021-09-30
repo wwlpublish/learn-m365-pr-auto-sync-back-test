@@ -1,5 +1,5 @@
-![Screenshot of conference mode and routing method settings](../media/cq-routing-method.png)
-
+> [!div class="mx-imgBorder"]
+>![Screenshot of conference mode and routing method settings](../media/call-queue-routing-method.png)
 
 **Conference mode** significantly reduces the amount of time it takes for a caller to be connected to an agent, after the agent accepts the call. Conference mode control how calls are connected to agents. When the administrator turns this off, a call is connected to a call agent using a traditional transfer. If you select Conference Mode On, a call is connected to a call agent much faster than if it uses a traditional transfer by spinning up a conference and bringing in relevant agents and hosted number.  For conference mode to work, agents in the call queue must use one of the following clients:
 

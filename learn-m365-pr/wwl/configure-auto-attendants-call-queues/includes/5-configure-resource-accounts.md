@@ -4,25 +4,29 @@ Resource accounts are disabled objects in Azure Active Directory that are requir
 
 1. Search for the resource account that you want to use with this call queue, select **Add**, and then select **Add** again.
 
-![Screenshot of searching for a resource account to add to a call queue.](../media/call-queue-account.png)
+    > [!div class="mx-imgBorder"]
+    > ![Screenshot of searching for a resource account to add to a call queue.](../media/call-queue-account.png)
 
 1. Select **+Add Resource Account** if account is not found.
 
-![Screenshot of adding a new resource account.](../media/call-queue-resource-account.png)
+    > [!div class="mx-imgBorder"]
+    > ![Screenshot of adding a new resource account.](../media/call-queue-resource-account.png)
 
-1. **Display name -** Input the display name.
+    1. **Display name -** Input the display name.
 
-1. **Username and domain -** Input the username and the domain from the drop-down menu
+    1. **Username and domain -** Input the username and the domain from the drop-down menu
 
-1. **Resource type -** Select the Resource account type, either a call queue or auto attendant
+    1. **Resource type -** Select the Resource account type, either a call queue or auto attendant
 
-![Screenshot of adding a resource account to a Call Queue.](../media/call-queue-account-new.png)
+    > [!div class="mx-imgBorder"]
+    > ![Screenshot of adding a resource account to a Call Queue.](../media/call-queue-account-new.png)
 
 ## Assign a license
 
 For each resource account, you must assign a *Microsoft 365 Phone System - Virtual User* license or *Phone System* license.
 
-![Screenshot of assign licenses user interface in the Microsoft 365 admin center](../media/assign-virtual-user-license.png)
+> [!div class="mx-imgBorder"]
+> ![Screenshot of assign licenses user interface in the Microsoft 365 admin center](../media/assign-virtual-user-license.png)
 
 1. In the Microsoft 365 admin center, select the resource account to which you want to assign a license.
 
@@ -32,7 +36,8 @@ For each resource account, you must assign a *Microsoft 365 Phone System - Virtu
 
 ### Assign calling ID
 
-![Screenshot assigning a calling ID to the Call Queue.](../media/assign-calling-id.png)
+> [!div class="mx-imgBorder"]
+> ![Screenshot assigning a calling ID to the Call Queue.](../media/assign-calling-id.png)
 
 
 If you plan to use a Teams channel for your call agents, you can assign an outbound caller ID number for the agents by specifying one or more resource accounts with a phone number.

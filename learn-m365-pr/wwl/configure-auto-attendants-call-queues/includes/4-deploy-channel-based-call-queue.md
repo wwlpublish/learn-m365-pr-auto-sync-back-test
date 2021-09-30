@@ -1,6 +1,7 @@
 To deploy a Call Queue to a Microsoft Teams Channel while creating the Call Queue select the **Choose a team** option.
 
-![Screenshot showing the options for adding a Channel based Call Queue](../media/call-queue-channel.png)
+> [!div class="mx-imgBorder"]
+> ![Screenshot showing the options for adding a Channel based Call Queue](../media/call-queue-channel.png)
 
 
 1. **Name of search** - Type the name of the Team

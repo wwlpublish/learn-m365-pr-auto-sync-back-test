@@ -17,7 +17,7 @@ content: |
 quiz:
   title: "Check your knowledge"
   questions:
-  - content: "You've been asked to create a call queue; the logic needs to be set up so that the first person in the queue rings all agents at the same time. How would you achieve this?"
+  - content: "An organization needs to create a call queue; the logic needs to be set up so that the first person in the queue rings all agents at the same time. How would they achieve this?"
     choices:
     - content: "Round Robin routing"
       isCorrect: false
@@ -39,7 +39,7 @@ quiz:
     - content: "Enable Voice Inputs"
       isCorrect: true
       explanation: "This option is correct. Setting this will enable voice commands in following menus. It will also enable callers to say 'operator' and get transferred directly to the operator."
-  - content: "You've been asked to add call handlers to a call queue and set up the order in which certain call handlers receive calls. How would you achieve this?"
+  - content: "An organization needs to add call handlers to a call queue and set up the order in which certain call handlers receive calls. How would they achieve this?"
     choices:
     - content: "Setup Longest Idle routing"
       isCorrect: false

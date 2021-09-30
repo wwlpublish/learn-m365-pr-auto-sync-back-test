@@ -1,10 +1,11 @@
-A voice mail can be sent to an Office 365 Group.  The creation of Office 365 groups is not included in this training; however, the assignment of an Office 365 Group to a Microsoft Teams Voicemail is present.
+A voicemail can be sent to an Office 365 Group.  The creation of Office 365 groups is not included in this training; however, the assignment of an Office 365 Group to a Microsoft Teams Voicemail is present.
 
 Voicemail can be used if the number of maximum calls is reached the call can be either **Disconnected** or **Redirect this call** to a voicemail and the voicemail will be attributed to an Office 365 Group.
 
 Likewise, if a Call time out handling, if the call isn't answered within wait time, it will be **Disconnected** or **Redirect this call** to option depending on what you select.
 
-![Screenshot showing the options for routing calls to voicemail.](../media/assign-voice-mail.png)
+> [!div class="mx-imgBorder"]
+> ![Screenshot showing the options for routing calls to voicemail.](../media/assign-voice-mail.png)
 
 
 - **Call overflow handling/What call times out** - Use this to set the call handling to either disconnect or redirect the call.

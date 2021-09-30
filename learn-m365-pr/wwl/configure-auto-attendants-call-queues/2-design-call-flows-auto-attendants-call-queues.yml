@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.configure-auto-attendants-call-queues.design-call-flows-auto-attendants-call-queues
+title: Design call flows for auto attendants and call queues
+metadata:
+  title: Design call flows for auto attendants and call queues
+  description: "Design call flows for auto attendants and call queues"
+  ms.date: 09/30/2021
+  author: wwlpublish
+  ms.author: dahans
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 12
+content: |
+  [!include[](includes/2-design-call-flows-auto-attendants-call-queues.md)]

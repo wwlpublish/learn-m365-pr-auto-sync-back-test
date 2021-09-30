@@ -1,4 +1,4 @@
-## Auto Attendant
+## Auto attendants
 
 Organizations often want to automate the direction of incoming calls to the right team or call queue. They may also want to complete an interaction by gathering information from a caller's keypad. You can use auto attendants for these tasks.
 
@@ -148,7 +148,8 @@ To complete the initial design, you'll need a flexible and easy way to work out 
 
 1. If you have an option that leads to a call queue, create a note using a third color and place it below and to the right of the attendant that connects to the call queue.
 
-![Example auto attendant design](../media/call-queue-workflow-design.png)
+> [!div class="mx-imgBorder"]
+> ![Example auto attendant design](../media/call-queue-workflow-design.png)
 
 
 ## Call Queues
@@ -164,9 +165,7 @@ The first stage in planning a call queue is to understand the business needs. Th
 | **Business need**| **Considerations**|
 | :--- | :--- |
 | How many call agents will you assign to the queue?| Imagine that your company has 25 call agents in their existing call center. There are typically 12-20 agents active at one time. Often organizations have a 50 percent available to total number of agents; however, this can change drastically depending upon the organization.  There is no set number of agents to available and this can be catered to though call queues and hold times.|
-| How is the existing system setup, and what changes do you want to make?| Suppose there's an auto attendant system for the company office and there's an option in that system that routes to retail ordering, but it only connects one or two calls a day. You have a 1-800 number for placing orders for delivery and advertise it heavily. The legacy call queue service provides a single auto attendant node in front of the call queue to provide a different caller experience during business hours and outside business hours.
-
-You must decide whether to implement this arrangement in Teams or to replace it with a more efficient configuration.|
+| How is the existing system setup, and what changes do you want to make?| Suppose there's an auto attendant system for the company office and there's an option in that system that routes to retail ordering, but it only connects one or two calls a day. You have a 1-800 number for placing orders for delivery and advertise it heavily. The legacy call queue service provides a single auto attendant node in front of the call queue to provide a different caller experience during business hours and outside business hours.<br>You must decide whether to implement this arrangement in Teams or to replace it with a more efficient configuration.|
 | Will the call center be active 24 hours a day, or only during business hours?| For example, the queue might need to be in use from 11am to 11:30pm, seven days a week.|
 | Do you want distinct initial greetings for business hours, after-hours, weekends, or holidays?| For example, if the call rate outside of their business hours is low, you can consider using special greetings.|
 | How are the agents compensated?| Suppose the agents that receive call are paid on an hourly basis plus a performance bonus, and their performance is tracked in the ordering system. There was a perception that one agent was getting favored by the queue's distribution of calls. Ensure your agents know that calls are distributed fairly.|
@@ -187,12 +186,14 @@ A cloud call queue has a limited number of options. The main decisions to make f
 
 The following diagram shows an example call queue design without an attendant:
 
-![Design Call Queues](../media/call-queue-attendantless.png)
+> [!div class="mx-imgBorder"]
+> ![Design Call Queues](../media/call-queue-attendantless.png)
 
 
 The following diagram shows an example call queue design with an attendant.
 
-![Design Call Queues with auto attendant](../media/call-queue-attendant.png)
+> [!div class="mx-imgBorder"]
+> ![Design Call Queues with auto attendant](../media/call-queue-attendant.png)
 
 
 ## Write the scripts

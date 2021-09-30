@@ -31,15 +31,15 @@ products:
 - office-teams
 units:
 - learn.wwl.configure-auto-attendants-call-queues.introduction
-- learn.wwl.configure-auto-attendants-call-queues.design-call-flows-for-aacq
-- learn.wwl.configure-auto-attendants-call-queues.configure-aacq
-- learn.wwl.configure-auto-attendants-call-queues.deploy-channel-based-cq
+- learn.wwl.configure-auto-attendants-call-queues.design-call-flows-auto-attendants-call-queues
+- learn.wwl.configure-auto-attendants-call-queues.configure-auto-attendants-call-queues
+- learn.wwl.configure-auto-attendants-call-queues.deploy-channel-based-call-queue
 - learn.wwl.configure-auto-attendants-call-queues.configure-resource-accounts
-- learn.wwl.configure-auto-attendants-call-queues.configure-o365-groups-for-vm
-- learn.wwl.configure-auto-attendants-call-queues.interpret-cq-conference-mode
-- learn.wwl.configure-auto-attendants-call-queues.interpret-cq-routing-methods
-- learn.wwl.configure-auto-attendants-call-queues.configure-holidays-for-aacq
-- learn.wwl.configure-auto-attendants-call-queues.configure-custom-music-hold-for-cqaavm
+- learn.wwl.configure-auto-attendants-call-queues.configure-office-365-groups-voicemail
+- learn.wwl.configure-auto-attendants-call-queues.interpret-call-queue-conference-mode
+- learn.wwl.configure-auto-attendants-call-queues.interpret-call-queue-routing-methods
+- learn.wwl.configure-auto-attendants-call-queues.configure-holidays
+- learn.wwl.configure-auto-attendants-call-queues.configure-custom-music-hold
 - learn.wwl.configure-auto-attendants-call-queues.knowledge-check
 - learn.wwl.configure-auto-attendants-call-queues.summary-resources
 badge:

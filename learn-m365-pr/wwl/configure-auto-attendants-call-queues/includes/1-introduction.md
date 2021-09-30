@@ -72,7 +72,8 @@ Call queues organize calls into queues whilst alerting a group of users with a c
 
 The following image shows what an attendant would see when a caller was in a call queue:
 
-![Phone system layout](../media/caller-call-queue.png)
+> [!div class="mx-imgBorder"]
+> ![Phone system layout](../media/caller-call-queue.png)
 
 
 ## Prerequisites
