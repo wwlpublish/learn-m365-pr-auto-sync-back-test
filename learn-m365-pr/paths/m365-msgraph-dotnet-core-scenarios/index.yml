@@ -1,0 +1,35 @@
+### YamlMime:LearningPath
+uid: learn-m365.msgraph-dotnet-core-scenarios
+metadata:
+  title: Explore Microsoft Graph scenarios for ASP.NET Core development
+  description: This learning path includes hands-on exercises that will show you how to perform common tasks, such as showing a user's emails, accessing calendar events, and downloading and uploading files, in an ASP.NET Core app using Microsoft Graph APIs.
+  ms.date: 08/30/2021
+  author: DanWahlin
+  ms.author: dwahlin
+  ms.topic: interactive-tutorial
+  ms.prod: learning-graph
+  ms.suite: microsoft-graph
+title: Explore Microsoft Graph scenarios for ASP.NET Core development
+summary: "This learning path includes hands-on exercises that will show you how to perform common tasks, such as showing a user's emails, accessing calendar events, and downloading and uploading files, in an ASP.NET Core app using Microsoft Graph APIs."
+prerequisites: | 
+  - [Microsoft 365 developer tenant](https://developer.microsoft.com/office/dev-program?ocid=MSlearn&WT.mc_id=m365-30352-cxa)  
+  - Basic understanding of [authentication and authorization](/learn/modules/getting-started-identity/?WT.mc_id=m365-30352-cxa) on Microsoft 365
+  - Basic understanding of HTML, C#, and [ASP.NET Core](/aspnet/core/razor-pages/?WT.mc_id=m365-30352-cxa) 
+  - Basic understanding of [Microsoft Graph](/learn/modules/msgraph-intro-overview/?WT.mc_id=m365-30352-cxa) 
+  - [.NET Core 5 (or higher) SDK installed](https://dot.net?WT.mc_id=m365-30352-cxa)
+iconUrl: /learn/achievements/generic-trophy.svg
+levels: 
+- intermediate
+roles:
+- developer
+products: 
+- m365
+- ms-graph
+- dotnet-core
+modules:
+- learn-m365.msgraph-dotnet-core-show-user-emails
+- learn-m365.msgraph-dotnet-core-access-user-events
+- learn-m365.msgraph-dotnet-core-manage-files
+
+trophy: 
+  uid: learn-m365.msgraph-dotnet-core-scenarios.badge
