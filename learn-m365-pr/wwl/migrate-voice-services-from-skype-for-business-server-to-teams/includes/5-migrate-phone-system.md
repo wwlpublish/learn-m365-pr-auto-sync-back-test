@@ -42,7 +42,8 @@ When users launch the Skype for Business client after migration, they will be in
 
 The following image shows the user experience in the Skype for Business client post-migration:
 
- ![The message shown in the Skype for Business client after moving to Teams, redirecting a user to Microsoft Teams.](../media/teams-welcome-message.png) 
+
+![The message shown in the Skype for Business client after moving to Teams, redirecting a user to Microsoft Teams.](../media/teams-welcome-message.png) 
 
 ## Prerequisites required to migrate users and common area phones
 
