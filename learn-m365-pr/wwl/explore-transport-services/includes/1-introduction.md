@@ -5,6 +5,17 @@ Mail flow and message transport describe the actual way in which mail is deliver
 
 In this module, you'll learn about the different transport components of Exchange, how message routing works, and how to configure the message flow for your organization.
 
+### Prerequisites
+
+This module is designed for persons who are aspiring to the Microsoft 365 Messaging Administrator role. The prerequisites for this module include:
+
+ -  Ability to navigate the Microsoft 365 admin center portal
+ -  Ability to create Domain Name System (DNS) records at a beginner level
+ -  Familiarity with Active Directory concepts such as centralized domain management, sites, and directory-based identity-related services
+ -  Ability to write PowerShell commands at a beginner level
+
+### Learning Objectives
+
 After completing this module, you'll be able to:
 
  -  Describe the transport components of Exchange.
