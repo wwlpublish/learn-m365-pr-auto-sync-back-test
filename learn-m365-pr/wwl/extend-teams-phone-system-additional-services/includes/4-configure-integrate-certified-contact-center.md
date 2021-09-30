@@ -67,8 +67,8 @@ The URL will be in the format: https://login.microsoftonline.com/common/admincon
 
 And permissions approval will look like the following:
 
-![Approving Application Permissions for a Contact Center Solution](../media/aad-approval-permissions.png)
-
+> [!div class="mx-imgBorder"]
+> ![Approving Application Permissions for a Contact Center Solution](../media/aad-approval-permissions.png)
 
 It is important to review the permissions you are granting the application and ensure you understand the level of access you are granting the application/vendor. Ensure you only approve access to applications and vendors you trust. Never grant permissions to any application or service you do not recognize or understand.
 

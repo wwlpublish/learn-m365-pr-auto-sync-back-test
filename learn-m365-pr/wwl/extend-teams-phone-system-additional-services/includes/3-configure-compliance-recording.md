@@ -27,8 +27,8 @@ It is important to understand the differences between the in-the-box convenience
 All certified policy recording solutions use Microsoft bots deployed in Azure who “follow the recorded user” and silently join their calls and meetings to collect the meeting audio and video.
 The following picture shows how the recording process works:
 
-![Diagram showing how the compliance recording process works](../media/policy-based-compliance-recording.png)
-
+> [!div class="mx-imgBorder"]
+> ![Diagram showing how the compliance recording process works](../media/policy-based-compliance-recording.png)
 
 Once configured, this is how the system works:
 

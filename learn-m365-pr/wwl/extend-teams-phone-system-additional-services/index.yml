@@ -2,7 +2,7 @@
 uid: learn.wwl.extend-teams-phone-system-additional-services
 metadata:
   title: Extend Teams Phone with additional services
-  description: "Teams Phone leverages other Microsoft services and can be extended with third party solutions for policy-based compliance recording and contact center. The recording and contact center solutions leverage bots to interact with Azure, and in the last unit of this module, we look at the design options for these bots and how you can register a custom developed bot."
+  description: "Teams Phone leverages other Microsoft services and can be extended with third-party solutions for policy-based compliance recording, contact center integration, and custom bots."
   ms.date: 09/30/2021
   author: wwlpublish
   ms.author: dahans
@@ -12,8 +12,8 @@ title: Extend Teams Phone with additional services
 summary: Teams Phone leverages other Microsoft services and can be extended with third-party solutions for policy-based compliance recording, contact center integration, and custom bots.
 abstract: |
   At the end of this module, you will be able to:
-  - Describe how Teams Phone interacts with additional Microsoft services.
-  - Configure and integrate Third-party policy-based compliance recording.
+  - Describe how Teams Phone interacts with other Microsoft services.
+  - Configure and integrate third-party policy-based compliance recording.
   - Configure and integrate third-party contact center solutions.
   - Design and register Voice Bots for custom developed solutions.
 prerequisites: |
