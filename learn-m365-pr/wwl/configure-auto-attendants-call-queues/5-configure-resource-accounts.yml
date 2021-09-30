@@ -4,9 +4,11 @@ title: Configure Resource Accounts
 metadata:
   title: Configure Resource Accounts
   description: "Configure Resource Accounts"
-  ms.date: 09/29/2021
+  ms.date: 09/30/2021
   author: wwlpublish
+  ms.author: dahans
   ms.topic: interactive-tutorial
+  ms.prod: learning-m365
 azureSandbox: false
 labModal: false
 durationInMinutes: 3

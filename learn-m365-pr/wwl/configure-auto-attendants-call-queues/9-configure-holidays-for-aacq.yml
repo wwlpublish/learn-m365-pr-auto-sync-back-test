@@ -4,9 +4,11 @@ title: Configure Holidays for AA/CQ
 metadata:
   title: Configure Holidays for AA/CQ
   description: "Configure Holidays for AA/CQ"
-  ms.date: 09/29/2021
+  ms.date: 09/30/2021
   author: wwlpublish
+  ms.author: dahans
   ms.topic: interactive-tutorial
+  ms.prod: learning-m365
 azureSandbox: false
 labModal: false
 durationInMinutes: 3
