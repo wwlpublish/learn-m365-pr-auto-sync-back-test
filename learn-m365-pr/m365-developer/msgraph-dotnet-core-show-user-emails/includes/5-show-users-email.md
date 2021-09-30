@@ -102,8 +102,8 @@ When retrieving data from Microsoft Graph, you should always retrieve only the d
 
 You can limit the amount of data retrieved from Microsoft 365 in two ways: 
 
-  1.	Select how many items you want to get.
-  2.	Select the specific information that should be included.
+*	Select how many items you want to get.
+*	Select the specific information that should be included.
 
 To specify which properties you want to retrieve, extend the Microsoft Graph request with a `Select` method and create an object that defines the properties to return. For example, to get a list of emails with only their subject and the date/time they were received, use the following code:
 
