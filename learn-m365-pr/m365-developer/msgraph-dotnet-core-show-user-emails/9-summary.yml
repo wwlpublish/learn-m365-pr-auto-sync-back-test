@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.msgraph-dotnet-core-show-user-emails.9-summary
+metadata:
+  title: Summary
+  description: This unit summarizes what you learned in this module.
+  ms.date: 08/29/2021
+  author: DanWahlin 
+  ms.author: dwahlin
+  ms.topic: interactive-tutorial
+  ms.prod: learning-graph
+title: Summary
+durationInMinutes: 1
+content: |
+  [!include[](includes/9-summary.md)]
