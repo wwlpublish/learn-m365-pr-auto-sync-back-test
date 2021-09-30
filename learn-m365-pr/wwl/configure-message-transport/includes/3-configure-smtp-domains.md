@@ -1,3 +1,5 @@
+The transport services in an Exchange deployment use Simple Mail Transport Protocol (SMTP) to send and receive messages. SMTP is an internet standard for email supported by most email processing servers. The SMTP send component in one transport service delivers messages to the SMTP receive component in another transport service. Communication between transport services by using SMTP can occur within the same server or between Mailbox servers.
+
 Exchange supports two types of SMTP domains: accepted domains and remote domains. This unit examines each of these SMTP domain types.
 
 ### Accepted domains
