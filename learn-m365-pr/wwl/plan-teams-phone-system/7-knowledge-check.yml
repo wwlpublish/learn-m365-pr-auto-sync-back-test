@@ -4,18 +4,20 @@ title: Knowledge check
 metadata:
   title: Knowledge check
   description: "Knowledge check"
-  ms.date: 09/29/2021
+  ms.date: 09/30/2021
   author: wwlpublish
+  ms.author: dahans
   ms.topic: interactive-tutorial
+  ms.prod: learning-m365
 azureSandbox: false
 labModal: false
-durationInMinutes: 3
+durationInMinutes: 4
 content: |
   [!include[](includes/7-knowledge-check.md)]
 quiz:
   title: "Check your knowledge"
   questions:
-  - content: "You want to migrate to Teams calling. One requirement you have is that you need to use your existing Session Border Controller. Which of the following technologies would you use?"
+  - content: "An organization wants to migrate to Teams calling. One requirement is to use their existing Session Border Controller. Which of the following technologies would they use?"
     choices:
     - content: "Phone System"
       isCorrect: false
