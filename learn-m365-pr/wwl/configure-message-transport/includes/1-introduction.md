@@ -6,10 +6,10 @@ This module examines the tasks that messaging administrators must complete to co
 
 This module is designed for persons who are aspiring to the Microsoft 365 Messaging Administrator role. The prerequisites for this module include:
 
- -  Ability to navigate the Microsoft 365 admin center portal
- -  Ability to create Domain Name System (DNS) records at a beginner level
+ -  Ability to navigate the Microsoft 365 admin center, the Exchange admin center, and the Microsoft 365 Defender portal
+ -  Ability to create Domain Name System (DNS) records at an intermediate level
  -  Familiarity with Active Directory concepts such as centralized domain management, sites, and directory-based identity-related services
- -  Ability to write PowerShell commands at a beginner level
+ -  Ability to write PowerShell commands at an intermediate level
 
 ### Learning Objectives
 
