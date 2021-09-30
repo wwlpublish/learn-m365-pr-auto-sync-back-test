@@ -24,9 +24,9 @@ Use these resources to discover more background details of the described topics 
 
 - [Requirements and considerations for application-hosted media bots - Teams | Microsoft Docs](/microsoftteams/platform/bots/calls-and-meetings/requirements-considerations-application-hosted-media-bots)
 
-- [Create a bot with the Bot Framework SDK in C#, Java, JavaScript, Python - Bot Service | Microsoft Docs](/azure/bot-service/bot-service-quickstart-create-bot?view=azure-bot-service-4.0&tabs=csharp%2Cvs)
+- [Create a bot with the Bot Framework SDK in C#, Java, JavaScript, Python - Bot Service | Microsoft Docs](/azure/bot-service/bot-service-quickstart-create-bot)
 
-- [Deploy your bot - Bot Service | Microsoft Docs](/azure/bot-service/bot-builder-deploy-az-cli?view=azure-bot-service-4.0&tabs=csharp)
+- [Deploy your bot - Bot Service | Microsoft Docs](/azure/bot-service/bot-builder-deploy-az-cli)
 
-- [Register a bot with Azure Bot Service - Bot Service | Microsoft Docs](/azure/bot-service/bot-service-quickstart-registration?view=azure-bot-service-4.0&tabs=csharp)
+- [Register a bot with Azure Bot Service - Bot Service | Microsoft Docs](/azure/bot-service/bot-service-quickstart-registration)
 

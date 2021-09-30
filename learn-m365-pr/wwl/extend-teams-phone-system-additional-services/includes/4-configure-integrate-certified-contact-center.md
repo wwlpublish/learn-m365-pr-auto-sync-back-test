@@ -29,7 +29,7 @@ There are two integration models for these solutions:
 
 In both models, the solutions will have their own configuration and administration experience, usually via an online portal. How this is configured will vary from vendor to vendor, and you should refer to their documentation. This unit will take you through how the two integrations are configured.
 
-## Configure Third-party Certified Contact Center with Direct Routing
+## Configure third-party certified contact center with Direct Routing
 
 The Direct Routing model allows the third-party contact center to answer calls, manage, and route them as appropriate and then send them to an agent using Teams via a Direct Routing Teams Phone Call from the Contact Center Platform to Teams. Phone numbers will generally be provided by the contact center vendor.
 
@@ -42,13 +42,13 @@ All configuration of the contact center elements will be done on the third-party
 > [!NOTE]
 > In this model, all contact center agents must have a Teams Phone license as they need to be Phone enabled to receive Direct Routing calls.
 
-## Configure Third-party Certified Contact Center with Microsoft API
+## Configure third-party certified contact center with Microsoft API
 
 With the Microsoft API integration model, the contact center solution is more tightly integrated into Microsoft Teams. In this model, customers can bring their own Direct Routing or Microsoft Calling plan PSTN numbers into the contact center. Since agents are not receiving a PSTN/Phone call from the contact center solution, they do not need a Teams Phone license to receive these calls.
 
 How you configure the contact center solution will vary by vendor via their online admin portal, but the setup of the integration will involve admin consent to approve tenant access, configure users, and create one or more endpoints and resource accounts.
 
-### Contract Center Bot application permissions
+### Contract center bot application permissions
 
 Bots will typically require the following Microsoft Graph rights. Check with vendor documentation to confirm the exact rights needed for your chosen solution.
 
@@ -63,12 +63,12 @@ The vendor will provide a URL for you to select and grant this access to their a
 | Calls.JoinGroupCallAsGuest.All| Application| Join group calls and meetings as a guest|
 | Presence.Read.All Delegated| Delegated| Read presence information of all users in your organization|
 
-The URL will be in the format: https://login.microsoftonline.com/common/adminconsent?client_id=\<VENDOR GUID>
+The URL will be in the format: https://login.microsoftonline.com/common/adminconsent?client_id=\<VENDOR GUID\>
 
 And permissions approval will look like the following:
 
 > [!div class="mx-imgBorder"]
-> ![Approving Application Permissions for a Contact Center Solution](../media/aad-approval-permissions.png)
+> ![Approving Application Permissions for a Contact Center Solution](../media/azure-approval-permissions.png)
 
 It is important to review the permissions you are granting the application and ensure you understand the level of access you are granting the application/vendor. Ensure you only approve access to applications and vendors you trust. Never grant permissions to any application or service you do not recognize or understand.
 
@@ -122,7 +122,7 @@ Once you have granted access to the application, you will need to assign users o
 
 After completing these steps, you have configured users to have roles in the vendors contact center solution.
 
-### Create an Application Instance
+### Create an application instance
 
 Each dialable endpoint will require a resource account to be created. Resource accounts are non-enabled user accounts that are used to represent system resources. In Teams, you can create resource accounts, and then assign them to voice features such as call queues and auto attendant or third-party solutions like policy recording and contact centers.
 
@@ -163,7 +163,7 @@ Sync-CsOnlineApplicationInstance -ObjectId df3745ee-0657-11ec-9a03-0242ac130003
 
 ```
 
-### Assign a PSTN Phone number
+### Assign a PSTN phone number
 
 To route a PSTN number to the application endpoint, it will need to be assigned a Teams Phone Virtual User-license. Virtual User license is a free license.
 
