@@ -1,0 +1,30 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.configure-message-transport.options
+title: Configure message transport options
+metadata:
+  title: Configure message transport options
+  description: "Configure message transport options"
+  ms.date: 09/30/2021
+  author: wwlpublish
+  ms.author: 'tfrink '
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 6
+content: |
+  [!include[](includes/2-options.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "Tailspin Toys runs Exchange Server 2019. As the company's Messaging administrator, Alan Deyoung increased the maximum Sent message size for the organization from 10MB to 20MB. However, Alan later learned that some users' messages were being blocked because they were too large. The blocked messages were all around 15MB in size. Why were they blocked?"
+    choices:
+    - content: "Alan didn't update the Shadow redundancy setting"
+      isCorrect: false
+      explanation: "That's incorrect. Shadow redundancy settings have nothing to do with blocked messages related to message size. Try again."
+    - content: "Alan didn't change the maximum message size on Tailspin Toys' Send connector to 20MB"
+      isCorrect: true
+      explanation: "That's correct. Even if you configure organization level settings, you may still need to configure individual services or Exchange objects. For example, if you change the maximum message size for your organization, you must also change the maximum message sizes on your receive and send connectors. Failure to do so will still block your users' messages if they’re too large."
+    - content: "Alan didn't adjust the message throttling setting on the Send connector"
+      isCorrect: false
+      explanation: "That's incorrect. The message throttling setting has nothing to do with blocked messages related to message size. Try again."
