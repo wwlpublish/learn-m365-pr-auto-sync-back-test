@@ -1,9 +1,9 @@
 ### YamlMime:ModuleUnit
-uid: learn.wwl.plan-teams-phone-system.plan-voice-mail
-title: Plan for voice mail
+uid: learn.wwl.plan-teams-phone-system.plan-voicemail
+title: Plan for voicemail
 metadata:
-  title: Plan for voice mail
-  description: "Plan for voice mail"
+  title: Plan for voicemail
+  description: "Plan for voicemail"
   ms.date: 09/30/2021
   author: wwlpublish
   ms.author: dahans
@@ -13,4 +13,4 @@ azureSandbox: false
 labModal: false
 durationInMinutes: 4
 content: |
-  [!include[](includes/6-plan-voice-mail.md)]
+  [!include[](includes/6-plan-voicemail.md)]

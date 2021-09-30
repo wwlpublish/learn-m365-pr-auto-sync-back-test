@@ -12,8 +12,8 @@ To connect the Phone System to the PSTN, you can choose one of the following opt
 
 Teams Phone with Calling Plans is Microsoft's all-in-the-cloud solution that provides Private Branch Exchange (PBX) functionality and calls to the Public Switched Telephone Network (PSTN), as shown in the following diagram. With this solution, Microsoft is your PSTN carrier.
 
-![Phone System with Calling plan.](../media/phone-system-calling-plan.png)
-
+> [!div class="mx-imgBorder"]
+> ![Phone System with Calling plan.](../media/phone-system-calling-plan.png)
 
 Microsoft 365 Phone System with Calling Plan might be the right solution for you if you can answer yes to the following questions:
 
@@ -37,7 +37,8 @@ This option requires an uninterrupted connection to Microsoft 365.
 
 It is possible that your system is more complex, and you cannot answer yes to the three questions above for Phone System with Calling Plan. For example, you might have offices in locations where Calling Plan isn't available. Or you might need a combination solution that supports a complex, multi-national deployment, with different requirements for different geographic locations. You might need to connect the Phone System to your telephony network using Direct Routing, as outlined in the following diagram.
 
-![Phone System using Direct Routing.](../media/phone-system-direct-routing.png)
+> [!div class="mx-imgBorder"]
+> ![Phone System using Direct Routing.](../media/phone-system-direct-routing.png)
 
 
 If you answer yes to the following questions, then Phone System with Direct Routing is the right solution for you:

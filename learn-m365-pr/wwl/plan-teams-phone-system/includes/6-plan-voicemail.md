@@ -30,7 +30,7 @@ To set up protected voicemail, do the following:
 
 1. Select **+** **Add**, and then select **Apply Office 365 Message Encryption and rights protection to messages**.
 
-1. Provide a name for the new mail flow rule and then under **Apply this rule if**, select **The message properties** > **Include the message type** > **Voice mail**. Select **OK**.
+1. Provide a name for the new mail flow rule and then under **Apply this rule if**, select **The message properties** > **Include the message type** > **Voicemail**. Select **OK**.
 
 1. Under **Do the following**, select **Apply Office 365 Message Encryption and rights protection to the message with,** and then select **Select one**. Under the **RMS template**, select **Do not forward**. Select **OK** and then **Save**.
 
