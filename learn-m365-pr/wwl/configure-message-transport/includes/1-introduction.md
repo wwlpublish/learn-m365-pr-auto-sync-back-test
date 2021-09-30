@@ -6,5 +6,5 @@ After completing this module, you'll be able to:
 
  -  Configure the different transport options.
  -  Plan and set up domains for your organizations.
- -  Understand how receive and send connectors work.
+ -  Understand how the receive and send connectors work.
  -  Describe how message moderation works for different recipients.

@@ -5,7 +5,7 @@ metadata:
   description: "Configure message transport"
   ms.date: 09/30/2021
   author: wwlpublish
-  ms.author: 'tfrink '
+  ms.author: tfrink
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Configure message transport
@@ -14,7 +14,7 @@ abstract: |
   By the end of this module, you'll be able to:
   - Configure the different transport options.
   - Plan and set up domains for your organization.
-  - Understand how receive and send connectors work.
+  - Understand how the receive and send connectors work.
   - Describe how message moderation for different recipients work.
 prerequisites: ""
 iconUrl: /learn/achievements/generic-badge.svg
