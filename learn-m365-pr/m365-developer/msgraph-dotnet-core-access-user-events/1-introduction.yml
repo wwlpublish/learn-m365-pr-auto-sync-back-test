@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.msgraph-dotnet-core-access-user-events.1-introduction
+title: Introduction  
+metadata:
+  unitType: introduction  
+  title: Introduction
+  description: This unit introduces you to the module and explains what you'll learn.
+  ms.date: 08/28/2021  
+  author: DanWahlin  
+  ms.author: dwahlin  
+  ms.topic: interactive-tutorial
+  ms.prod: learning-graph
+durationInMinutes: 2
+content: |
+  [!include[](includes/1-introduction.md)]
