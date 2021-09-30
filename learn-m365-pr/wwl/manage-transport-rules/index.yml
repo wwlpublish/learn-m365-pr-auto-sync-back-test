@@ -1,0 +1,36 @@
+### YamlMime:Module
+uid: learn.wwl.manage-transport-rules
+metadata:
+  title: Manage transport rules
+  description: "Manage transport rules"
+  ms.date: 09/30/2021
+  author: wwlpublish
+  ms.author: 'tfrink '
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Manage transport rules
+summary: Introduces transport rules in Exchange, examines how transport rules work, and provides instruction on how to configure transport rules to control messaging in an Exchange deployment.
+abstract: |
+  By the end of this module, you'll be able to:
+  - Understand what transport rules are.
+  - Describe how transport rules work.
+  - Configure custom transport rules.
+  - Describe how transport rules can be used for data loss prevention.
+prerequisites: ""
+iconUrl: /learn/achievements/generic-badge.svg
+levels:
+- intermediate
+roles:
+- administrator
+products:
+- azure-active-directory
+- m365
+units:
+- learn.wwl.manage-transport-rules.introduction
+- learn.wwl.manage-transport-rules.explore
+- learn.wwl.manage-transport-rules.examine-how-work
+- learn.wwl.manage-transport-rules.configure
+- learn.wwl.manage-transport-rules.knowledge-check
+- learn.wwl.manage-transport-rules.summary
+badge:
+  uid: learn.wwl.manage-transport-rules.badge

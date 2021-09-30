@@ -1,0 +1,30 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.manage-transport-rules.examine-how-work
+title: Examine how transport rules work
+metadata:
+  title: Examine how transport rules work
+  description: "Examine how transport rules work"
+  ms.date: 09/30/2021
+  author: wwlpublish
+  ms.author: 'tfrink '
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 7
+content: |
+  [!include[](includes/3-examine-how-work.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "Which transport rule component identifies the messages that the actions shouldn't apply to?"
+    choices:
+    - content: "Exceptions"
+      isCorrect: true
+      explanation: "That's correct. Exceptions are an optional component, since they identify the messages that the actions shouldn't apply to. The same message identifiers that are available in conditions are also available in exceptions. Exceptions override conditions and prevent the rule actions from being applied to a message, even if the message matches all the configured conditions."
+    - content: "Conditions"
+      isCorrect: false
+      explanation: "That's incorrect. Conditions identify the messages to which you want to apply the actions that are defined in the rule. Try again."
+    - content: "Properties"
+      isCorrect: false
+      explanation: "That's incorrect. Properties specify other rules settings that aren't conditions, exceptions, or actions. Try again."
