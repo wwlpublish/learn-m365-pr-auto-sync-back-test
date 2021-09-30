@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.configure-deploy-manage-teams-devices.remote-provisioning-sign-teams-phones
+title: Remote provisioning and sign in for Teams Phones
+metadata:
+  title: Remote provisioning and sign in for Teams Phones
+  description: "Remote provisioning and sign in for Teams Phones"
+  ms.date: 09/30/2021
+  author: wwlpublish
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+azureSandbox: false
+labModal: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/5-remote-provisioning-sign-teams-phones.md)]
