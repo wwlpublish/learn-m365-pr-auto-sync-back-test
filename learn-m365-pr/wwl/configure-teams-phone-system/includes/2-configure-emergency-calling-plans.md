@@ -35,6 +35,7 @@ You do this by following these steps:
 By default, Microsoft will attempt to look up the address, when you entered it as shown in the following picture.
 
 [!div class="mx-imgBorder"]
+
 ![Adding a new emergency address in the Teams Admin Center](../media/emergency-address-setting.png)
 
 

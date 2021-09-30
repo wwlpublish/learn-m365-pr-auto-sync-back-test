@@ -18,6 +18,7 @@ The first step on your operator connect journey is to select your operator. The 
 You may want to pick an operator you already know and use, or, if you wish to find out which operators can serve the countries/regions you need, you can use Teams Admin Center to filter the All Operators tab by country/region and capability. The following picture shows several available Operators for different regions:
 
 [!div class="mx-imgBorder"]
+
 ![Operator Connect in the Teams Admin Center](../media/operator-connect-setting.png)
 
 To configure an Operator Connect operator, firstly select an operator:
