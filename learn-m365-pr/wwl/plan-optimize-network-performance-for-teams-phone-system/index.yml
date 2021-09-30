@@ -1,14 +1,14 @@
 ### YamlMime:Module
 uid: learn.wwl.plan-optimize-network-performance-for-teams-phone-system
 metadata:
-  title: Plan and optimize network performance for Teams Phone System
+  title: Plan and optimize network performance for Teams Phone
   description: "Microsoft Teams relies on network connectivity, and for real-time voice, video, and sharing, good network performance is key to a good user experience. In this module, we go over what the Teams real-time network requirements are, how you can plan and test your network, and how you can design and configure your network to optimize the Teams real-time media performance."
-  ms.date: 09/29/2021
+  ms.date: 09/30/2021
   author: wwlpublish
   ms.author: dahans
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-title: Plan and optimize network performance for Teams Phone System
+title: Plan and optimize network performance for Teams Phone
 summary: For real-time media in Microsoft Teams, network performance is key to a good user experience. In this module, we cover Teams real-time network requirements and how to optimize your network for Teams real-time media.
 abstract: |
   At the end of this module, you will be able to:

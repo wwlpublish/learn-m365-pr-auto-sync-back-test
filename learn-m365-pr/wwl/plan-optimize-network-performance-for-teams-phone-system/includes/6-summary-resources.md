@@ -18,9 +18,9 @@ Now that you have reviewed this module, you should be able to:
 
 Use these resources to discover more background details of the described topics from this module:
 
-- [Office 365 URLs and IP address ranges - Microsoft 365 Enterprise | Microsoft Docs](/microsoft-365/enterprise/urls-and-ip-address-ranges?view=o365-worldwide)
+- [Office 365 URLs and IP address ranges - Microsoft 365 Enterprise | Microsoft Docs](/microsoft-365/enterprise/urls-and-ip-address-ranges)
 
-- [Microsoft 365 network connectivity principles - Microsoft 365 Enterprise | Microsoft Docs](/microsoft-365/enterprise/microsoft-365-network-connectivity-principles?view=o365-worldwide)
+- [Microsoft 365 network connectivity principles - Microsoft 365 Enterprise | Microsoft Docs](/microsoft-365/enterprise/microsoft-365-network-connectivity-principles)
 
 - [Prepare your organization's network for Teams - Microsoft Teams | Microsoft Docs](/microsoftteams/prepare-network)
 
@@ -30,23 +30,23 @@ Use these resources to discover more background details of the described topics 
 
 - [Download Microsoft Teams Network Assessment Tool from Official Microsoft Download Center](https://www.microsoft.com/download/details.aspx?id=103017)
 
-- [Assessing Microsoft 365 network connectivity - Microsoft 365 Enterprise | Microsoft Docs](/microsoft-365/enterprise/assessing-network-connectivity?view=o365-worldwide)
+- [Assessing Microsoft 365 network connectivity - Microsoft 365 Enterprise | Microsoft Docs](/microsoft-365/enterprise/assessing-network-connectivity)
 
 - [Optimizing Office 365 traffic for remote workers with the native Windows 10 VPN client - Microsoft 365 Security | Microsoft Docs](/windows/security/identity-protection/vpn/vpn-office-365-optimization)
 
-- [Implementing VPN split tunneling for Office 365 - Microsoft 365 Enterprise | Microsoft Docs](/microsoft-365/enterprise/microsoft-365-vpn-implement-split-tunnel?view=o365-worldwide)
+- [Implementing VPN split tunneling for Office 365 - Microsoft 365 Enterprise | Microsoft Docs](/microsoft-365/enterprise/microsoft-365-vpn-implement-split-tunnel)
 
 - [How to quickly optimize Office 365 traffic for remote staff & reduce the load on your infrastructure - Microsoft Tech Community](https://techcommunity.microsoft.com/t5/office-365-blog/how-to-quickly-optimize-office-365-traffic-for-remote-staff-amp/ba-p/1214571)
 
-- [Implementing VPN split tunneling for Office 365 - Microsoft 365 Enterprise | Microsoft Docs](/microsoft-365/enterprise/microsoft-365-vpn-implement-split-tunnel?view=o365-worldwide)
+- [Implementing VPN split tunneling for Office 365 - Microsoft 365 Enterprise | Microsoft Docs](/microsoft-365/enterprise/microsoft-365-vpn-implement-split-tunnel)
 
-- [Microsoft 365 global tenant performance optimization for China users - Microsoft 365 Enterprise | Microsoft Docs](/microsoft-365/enterprise/microsoft-365-networking-china?view=o365-worldwide)
+- [Microsoft 365 global tenant performance optimization for China users - Microsoft 365 Enterprise | Microsoft Docs](/microsoft-365/enterprise/microsoft-365-networking-china)
 
 - [Implement Quality of Service (QoS) in Microsoft Teams clients - Microsoft Teams | Microsoft Docs](/microsoftteams/qos-in-teams-clients)
 
-- [Microsoft 365 network connectivity principles - Microsoft 365 Enterprise | Microsoft Docs](/microsoft-365/enterprise/microsoft-365-network-connectivity-principles?view=o365-worldwide)
+- [Microsoft 365 network connectivity principles - Microsoft 365 Enterprise | Microsoft Docs](/microsoft-365/enterprise/microsoft-365-network-connectivity-principles)
 
-- [Media in Teams - Media Flow – Microsoft Coffee in the Cloud YouTube](https://www.youtube.com/watch?v=p8ml3jYt9KI) Channel
+- [Media in Teams - Media Flow – Microsoft Coffee in the Cloud YouTube](https://www.youtube.com/watch?v=p8ml3jYt9KI)
 
 - [Wireshark Download](https://www.wireshark.org/)
 

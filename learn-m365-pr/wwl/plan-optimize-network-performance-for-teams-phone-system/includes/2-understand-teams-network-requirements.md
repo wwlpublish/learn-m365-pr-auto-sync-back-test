@@ -55,7 +55,7 @@ Microsoft gives two sets of network performance targets to meet for optimal perf
 
 This separation into two target requirements allows you to separately test, analyze, and optimize the organizational network edge first and then any issues with your network before the network edge.
 
-### Network performance requirements from your network Edge to Microsoft network Edge
+### Network performance requirements from your network edge to Microsoft network edge
 
 The following table shows the metrics exclude any LAN/WAN or Wi-Fi and just measure from your corporate network edge to Microsoft via your ISP:
 
@@ -70,7 +70,7 @@ The following table shows the metrics exclude any LAN/WAN or Wi-Fi and just meas
 
 You can use the Microsoft Teams Network Assessment Tool on a machine or VM on the edge of your network to test if your internet connectivity meets these requirements.
 
-### Network Performance requirements from a client to Microsoft network Edge
+### Network performance requirements from a client to Microsoft network edge
 
 The following table is the complete path from the client to Microsoft, including any Wi-Fi and LAN/WAN and internet connection:
 
@@ -87,9 +87,10 @@ From these tables, you have learned the network performance requirements for Mic
 
 You can use the Microsoft Teams Network Assessment Tool or Microsoft 365 network connectivity test on client machines both on the organizational network and outside the organizational network. You can analyze if the connection from the client machine meets these requirements.
 
-## Evaluate Network Specifications
+## Evaluate network specifications
 
 After learning the raw values required to operate Teams in your organizations network, you must analyze the existing infrastructure with the provided tools.
+
 ### Determine network requirements using the Teams Network Planner
 
 The Network Planner tool is available in the Teams admin center. It helps you determine the network requirements for Teams in your organization.

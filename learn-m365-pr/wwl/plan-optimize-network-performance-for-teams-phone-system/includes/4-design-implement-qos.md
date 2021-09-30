@@ -2,7 +2,7 @@ Quality of Service (QoS) is a network technology that allows network traffic tha
 
 This unit explains how to design and configure QoS for Microsoft Teams
 
-## Design organization Quality of Service (QoS) requirements and policies
+## Design organization quality of service (QoS) requirements and policies
 
 Quality of Service is a technology to prioritize certain traffic when a link is congested. QoS works by network packets being marked for prioritization, called DSCP (Differentiated Services Code Point) marking. This packet marking can either be done by network equipment based on the port range of the packets or by the endpoint, the operating system, or Teams device (in the case of IP phones for example). Endpoint marking in windows is managed by Group Policy.
 
@@ -36,14 +36,14 @@ By default, teams will use UDP 3478 for Audio, Video, and Sharing, but when you 
 
 The following picture shows the port settings with "**Insert Quality of Service (QoS) markers for real-time media traffic**" turned off and then turned on:
 
-![The port settings with "Insert Quality of Service (QoS) markers for real-time media traffic" turned off, and then turned on.](../media/qos-markers-ports.png)
+![The port settings with "Insert Quality of Service (QoS) markers for real-time media traffic" turned off, and then turned on.](../media/quality-markers-ports.png)
 
 
 Next, you should specify your port ranges. The port ranges you assign can't overlap and should be adjacent to each other. It is recommended to use the ranges in the table above.
 
 All clients, including mobile clients and Teams devices, will use these port ranges. The only clients that will continue to use dynamic ports are the browser-based clients. You cannot configure the ports these clients use.
 
-![Turning on QoS markers in Teams Admin Center](../media/qos-meeting-settings.png)
+![Turning on QoS markers in Teams Admin Center](../media/quality-meeting-settings.png)
 
 
 You should configure Windows and your network equipment to mark packets in line with the defined client port ranges. Configuring these settings in Teams does not actually mark the packets. Just setting these settings will not mean your packets are marked or optimized. DSCP tagging on the network is typically done via Source Ports and UDP traffic routing to Teams Transport Relay with destination port of 3478.
@@ -53,7 +53,7 @@ You should configure Windows and your network equipment to mark packets in line 
 
 If you do not configure, your network and clients to mark the traffic and only rely on Windows client marking using group policy, only a subset of your traffic will be marked and prioritized.
 
-## Apply QoS for Windows Teams clients using Group Policy
+## Apply QoS for Windows Teams clients using group policy
 
 As well as marking packets at the network layer based on port range, Windows can mark the packets of Teams clients directly. This is configured by pushing a group policy to Windows machines.
 
@@ -127,12 +127,12 @@ udp.dstport==3478
 
 In this picture, we can see DSCP Expedited Forwarding 46 is being applied for audio traffic.
 
-![In this picture we can see DSCP Expedited Forwarding 46 is being applied for audio traffic](../media/wireshark-dscp-audio-traffic.png)
+![In this picture we can see DSCP Expedited Forwarding 46 is being applied for audio traffic](../media/wireshark-audio-traffic.png)
 
 
 In this picture, we can see DSCP Assured Forwarding 34 is being applied for video traffic.
 
-![In this picture we can see DSCP Assured Forwarding 34 is being applied for video traffic](../media/wireshark-dscp-video-traffic.png)
+![In this picture we can see DSCP Assured Forwarding 34 is being applied for video traffic](../media/wireshark-video-traffic.png)
 
 
 If you are not seeing marking in Wireshark, revisit your configuration and ensure it is correct.

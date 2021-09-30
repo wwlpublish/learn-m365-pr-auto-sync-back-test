@@ -174,7 +174,7 @@ Note, it is normal for you to see “Request timed out” on the later hops. The
 > [!NOTE]
 > In certain scenarios, often unrelated to Teams client configuration, media traffic still traverses the VPN tunnel even with the correct client routes in place. If you encounter this scenario, you can configure firewall rule to block the Teams IP subnets or ports from using the VPN route
 
-## Managing bandwidth by configuring Media Bit Rate (MBR)
+## Managing bandwidth by configuring media bit rate (MBR)
 
 Microsoft Teams will dynamically optimize for the best experience it can give based on the bandwidth available. If the Teams client detects packet loss or other network issues, it will ramp down audio and video quality. If the network is uncontested, it will optimize for quality and use more bandwidth.
 
@@ -223,7 +223,7 @@ By default, WiFi networks are not designed or configured to optimally support re
 
 - When access points of the same channel are too close together, they can cause signal overlap and unintentionally compete, resulting in a bad experience for the user. Ensure that access points that are next to each other are on channels that don't overlap.
 
-## Performance optimization for China users
+## Performance optimization for organizations in China
 
 Connectivity and performance for users in China can be complicated by factors unique to China Telco's Internet architecture. China ISPs have regulated offshore connections to the global public Internet that go through perimeter devices that are prone to high-levels of cross-border network congestion. This congestion creates packet loss and latency for all Internet traffic going into and out of China.
 
