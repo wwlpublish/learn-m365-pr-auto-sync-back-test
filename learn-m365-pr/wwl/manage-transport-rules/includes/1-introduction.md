@@ -2,6 +2,17 @@ Transport rules are a powerful configuration tool that enables organizations to 
 
 This module explores transport rules, examines how they work, and provides instruction on how they should be configured.
 
+### Prerequisites
+
+This module is designed for persons who are aspiring to the Microsoft 365 Messaging Administrator role. The prerequisites for this module include:
+
+ -  Ability to navigate the Microsoft 365 admin center portal
+ -  Ability to create Domain Name System (DNS) records at a beginner level
+ -  Familiarity with Active Directory concepts such as centralized domain management, sites, and directory-based identity-related services
+ -  Ability to write PowerShell commands at a beginner level
+
+### Learning Objectives
+
 After completing this module, you'll be able to:
 
  -  Understand what transport rules are.
