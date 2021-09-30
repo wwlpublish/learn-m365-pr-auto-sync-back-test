@@ -1,4 +1,3 @@
-Explain Direct Routing in the user enablement context, explain, and demonstrate the process for enablement and non-Teams supporting tasks.
 
 Before you can enable Direct Routing for users, you'll need to have configured it at the organization level. This will include configuring an on-premises Session Border Controller (SBC) or using settings provided by a telephony provider offering a Direct Routing service, and then configuring voice routing, emergency calling, and if required, high-availability functionality. These configuration tasks were covered in the earlier module **Configure and deploy Direct Routing**.
 
@@ -55,7 +54,7 @@ Set-CsUser -Identity "<User name>" -EnterpriseVoiceEnabled $true -HostedVoiceMai
 
 ```
 
-It's recommended, but not required, that the phone number used is configured as a full E.164 phone number with country code.
+It's recommended, but not required, that the phone number used is configured as a full E.164 phone number with country/region code.
 
 It is supported to configure phone numbers with extensions, which will be used to look up users when the lookup against the base number returns more than one result. This allows companies to configure phone numbers with the same base number and unique extensions.
 

@@ -38,7 +38,7 @@ quiz:
       explanation: "Audio Conferencing is not required to enable Direct Routing, but can optionally be added on to allow a user to schedule meetings with a dial-in conferencing bridge number."
     - content: "Microsoft Teams, Teams Phone, and Skype for Business Plan 2 licenses"
       isCorrect: true
-      explanation: "A Microsoft 365 E5 or Office 365 E5 SKU including Teams Teams Phone licenses, or individual add-on licenses provide can be used to apply the above licenses. Calling Plan functionality is not required to use Direct Routing."
+      explanation: "A Microsoft 365 E5 or Office 365 E5 SKU including Teams Phone licenses, or individual add-on licenses provide can be used to apply the above licenses. Calling Plan functionality is not required to use Direct Routing."
   - content: "When should an organization consider assigning a custom dial plan to a user?"
     choices:
     - content: "To assign a plan that grants the ability for the Dial Pad to be shown in the Teams Client."

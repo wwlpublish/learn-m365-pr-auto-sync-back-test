@@ -30,11 +30,11 @@ To use Teams Phone System, you'll first need to assign the following licenses to
 
 You will also need to assign a Calling Plan license. Plans are available with inclusive minutes:
 
-- Domestic Calling Plan (3000 minutes per user/month for US/PR/CA, 1200 minutes per user/month for EU countries)
+- Domestic Calling Plan (3000 minutes per user/month for US/PR/CA, 1200 minutes per user/month for EU countries/regions)
 
-- Domestic Calling Plan (120 minutes per user/month for each country - this plan isn't available in the United States)
+- Domestic Calling Plan (120 minutes per user/month for each country/region - this plan isn't available in the United States)
 
-- Domestic Calling Plan (240 minutes per user/month for each country - this plan isn't available in the United States)
+- Domestic Calling Plan (240 minutes per user/month for each country/region - this plan isn't available in the United States)
 
 Instead of a Calling Plan license, you can instead use Communications Credits, allowing users to consume calling minutes as needed. This must be configured before assigning it to users, following the procedures shown in the module **Configure Teams Phone System**. When you use Communication Credits, you'll need to assign the following licenses:
 
@@ -63,7 +63,7 @@ You can use the Microsoft 365 admin center or PowerShell to assign licenses to u
 
 After assigning licenses to users for Teams Phone System, you'll then need to assign phone numbers and emergency locations.
 
-In European countries, the emergency location is associated with the phone number when you get it from Microsoft 365 or Office 365 or when you transfer a phone number over to Microsoft 365 or Office 365. In the United States, the emergency location is associated with the phone number when it's assigned to the user. The emergency address can be changed if the user that it's assigned to moves to a new location.
+In European countries/regions, the emergency location is associated with the phone number when you get it from Microsoft 365 or Office 365 or when you transfer a phone number over to Microsoft 365 or Office 365. In the United States, the emergency location is associated with the phone number when it's assigned to the user. The emergency address can be changed if the user that it's assigned to moves to a new location.
 
 Complete the following steps to assign phone numbers to users:
 

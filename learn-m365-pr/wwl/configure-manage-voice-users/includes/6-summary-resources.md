@@ -1,4 +1,4 @@
-In this module, you've learnt how to enable voice services for users so that they can make and receive calls. You have learnt how to enable voice services when using Teams Phone System with Calling plans and how to enable voice services for users when Direct Routing is configured.
+In this module, you've learned how to enable voice services for users so that they can make and receive calls. You have learned how to enable voice services when using Teams Phone System with Calling plans and how to enable voice services for users when Direct Routing is configured.
 
 Now you've completed the module, you should be able to:
 
