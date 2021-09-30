@@ -36,15 +36,17 @@ By default, teams will use UDP 3478 for Audio, Video, and Sharing, but when you 
 
 The following picture shows the port settings with "**Insert Quality of Service (QoS) markers for real-time media traffic**" turned off and then turned on:
 
-![The port settings with "Insert Quality of Service (QoS) markers for real-time media traffic" turned off, and then turned on.](../media/quality-markers-ports.png)
+[!div class="mx-imgBorder"]
 
+[ ![The port settings with "Insert Quality of Service (QoS) markers for real-time media traffic" turned off, and then turned on.](../media/quality-markers-ports.png) ](../media/quality-markers-ports.png#lightbox)
 
 Next, you should specify your port ranges. The port ranges you assign can't overlap and should be adjacent to each other. It is recommended to use the ranges in the table above.
 
 All clients, including mobile clients and Teams devices, will use these port ranges. The only clients that will continue to use dynamic ports are the browser-based clients. You cannot configure the ports these clients use.
 
-![Turning on QoS markers in Teams Admin Center](../media/quality-meeting-settings.png)
+[!div class="mx-imgBorder"]
 
+[ ![Turning on QoS markers in Teams Admin Center](../media/quality-meeting-settings.png) ](../media/quality-meeting-settings.png#lightbox)
 
 You should configure Windows and your network equipment to mark packets in line with the defined client port ranges. Configuring these settings in Teams does not actually mark the packets. Just setting these settings will not mean your packets are marked or optimized. DSCP tagging on the network is typically done via Source Ports and UDP traffic routing to Teams Transport Relay with destination port of 3478.
 
@@ -127,13 +129,15 @@ udp.dstport==3478
 
 In this picture, we can see DSCP Expedited Forwarding 46 is being applied for audio traffic.
 
-![In this picture we can see DSCP Expedited Forwarding 46 is being applied for audio traffic](../media/wireshark-audio-traffic.png)
+[!div class="mx-imgBorder"]
 
+[ ![In this picture we can see DSCP Expedited Forwarding 46 is being applied for audio traffic](../media/wireshark-audio-traffic.png) ](../media/wireshark-audio-traffic.png#lightbox)
 
 In this picture, we can see DSCP Assured Forwarding 34 is being applied for video traffic.
 
-![In this picture we can see DSCP Assured Forwarding 34 is being applied for video traffic](../media/wireshark-video-traffic.png)
+[!div class="mx-imgBorder"]
 
+[ ![In this picture we can see DSCP Assured Forwarding 34 is being applied for video traffic](../media/wireshark-video-traffic.png) ](../media/wireshark-video-traffic.png#lightbox)
 
 If you are not seeing marking in Wireshark, revisit your configuration and ensure it is correct.
 

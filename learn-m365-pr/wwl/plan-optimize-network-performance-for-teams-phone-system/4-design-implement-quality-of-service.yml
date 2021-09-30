@@ -1,5 +1,5 @@
 ### YamlMime:ModuleUnit
-uid: learn.wwl.plan-optimize-network-performance-for-teams-phone-system.design-implement-qos
+uid: learn.wwl.plan-optimize-network-performance-for-teams-phone-system.design-implement-quality-of-service
 title: Design and implement QoS
 metadata:
   title: Design and implement QoS
@@ -13,4 +13,4 @@ azureSandbox: false
 labModal: false
 durationInMinutes: 12
 content: |
-  [!include[](includes/4-design-implement-qos.md)]
+  [!include[](includes/4-design-implement-quality-of-service.md)]

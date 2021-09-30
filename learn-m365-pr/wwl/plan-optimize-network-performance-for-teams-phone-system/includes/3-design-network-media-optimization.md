@@ -12,7 +12,9 @@ Microsoft has local ingress points to its network all over the world:  a so call
 
 The best option for Office 365 traffic is to allow local internet breakout from each site. This is also called local egress direct internet network architecture.
 
-![Local egress network architecture](../media/local-egress-direct-internet.png)
+[!div class="mx-imgBorder"]
+
+[ ![Local egress network architecture](../media/local-egress-direct-internet.png) ](../media/local-egress-direct-internet.png#lightbox)
 
 
 In this picture, you can see each site is allowed to connect directly to the internet without going over a WAN or in the case of the remote users any VPN.
@@ -40,7 +42,9 @@ To run the test, perform the following steps:
 
 - Once the test is complete, you will see the results.
 
-![Results of Network connectivity Test](../media/network-connectivity-test-results.png)
+[!div class="mx-imgBorder"]
+
+[ ![Results of Network connectivity Test](../media/network-connectivity-test-results.png) ](../media/network-connectivity-test-results.png#lightbox)
 
 This picture shows the results of a network connectivity test. You can see the Azure front door in use is near to the site location, which is good.
 
@@ -48,13 +52,15 @@ This picture shows the results of a network connectivity test. You can see the A
 
 The following picture of the detailed results shows that the Exchange and SharePoint front door locations in use are one of the best front door locations, which is good:
 
-![Results of network connectivity test confirming Exchange and SharePoint front door locations are optimal.](../media/network-test-front-door-location.png)
+[!div class="mx-imgBorder"]
 
+[ ![Results of network connectivity test confirming Exchange and SharePoint front door locations are optimal.](../media/network-test-front-door-location.png) ](../media/network-test-front-door-location.png#lightbox)
 
 The Microsoft 365 connectivity test tool will also perform some basic Teams network performance tests. You can see in the picture below this site passed for connectivity, packet loss, latency, and jitter tests.
 
-![Graphical user interface, text, application, email Description automatically generated](../media/network-test-teams-results.png)
+[!div class="mx-imgBorder"]
 
+[ ![Screenshot of the Network Connectivity Test that shows the site passed for connectivity, packet loss, latency, and jitter tests](../media/network-test-teams-results.png) ](../media/network-test-teams-results.png#lightbox)
 
 After performing the described steps, you have learned how to test if you are connecting to Office 365 optionally. It is recommended to perform this test on every enterprise site and after any network changes to ensure your network and ISP are routing traffic optimally.
 
@@ -85,8 +91,9 @@ If your organization generally prefers to route internet traffic onto the organi
 
 In this picture, we see a split tunnel VPN. Traffic for Office 365 is specifically excluded from the VPN tunnel directly from the user to the service over their local internet connection. All other traffic is sent over the VPN to the organizations network.
 
-![A client's VPN connection with split tunnelling enabled](../media/split-tunnel-vpn.png)
+[!div class="mx-imgBorder"]
 
+[ ![A client's VPN connection with split tunnelling enabled](../media/split-tunnel-vpn.png) ](../media/split-tunnel-vpn.png#lightbox)
 
 How you configure your VPN will depend on which VPN client software you or your organization requires you to use, but split-tunneling is a functionality all common 3rd party vendors are providing.
 
@@ -162,8 +169,9 @@ To run the Microsoft 365 connectivity test, perform the following steps:
 
 Once the test is complete select **Details** for the detailed results. Scroll down to **Network Path** and expand and look for **Traceroute to worldaz.tr.teams.microsoft.com.**
 
-![Trace route from network connectivity test](../media/connectivity-test-trace-route.png)
+[!div class="mx-imgBorder"]
 
+[ ![Trace route from network connectivity test](../media/connectivity-test-trace-route.png) ](../media/connectivity-test-trace-route.png#lightbox)
 
 The same logic applies to interpreting the results in the above picture. The remote client Internet service provider is called “Zen.” We can see we hop addresses on the zen.net.uk network directly to Microsoft without going via a VPN. You will need to look for names that relate to the relevant client ISP
 
@@ -186,8 +194,9 @@ Microsoft Teams does have an option to limit the average bit rate of calls and m
 
 1. Navigate to **Media bit rate (Kbs)** and change it according to your needs.
 
-![Meeting Policies configuration in Teams Admin Center](../media/media-bit-rate-setting.png)
+[!div class="mx-imgBorder"]
 
+[ ![Meeting Policies configuration in Teams Admin Center](../media/media-bit-rate-setting.png) ](../media/media-bit-rate-setting.png#lightbox)
 
 This setting determines the average combined media bit rate for audio, video, and video-based app sharing in both meetings and peer to peer calls. The Media Bit Rate applies to both the client and the Teams service, so it is enforced in both directions. So, this limit is for both inbound and outbound traffic from the Teams client.
 

@@ -95,7 +95,9 @@ After learning the raw values required to operate Teams in your organizations ne
 
 The Network Planner tool is available in the Teams admin center. It helps you determine the network requirements for Teams in your organization.
 
-![Image shows the report results of Microsoft Teams Network planner](../media/network-planner.png)
+[!div class="mx-imgBorder"]
+
+[ ![Image shows the report results of Microsoft Teams Network planner](../media/network-planner.png) ](../media/network-planner.png#lightbox)
 
 
 > [!NOTE]
@@ -144,8 +146,9 @@ To create a new network plan in Network planner, perform the following steps:
 
 1. You will then get a report of the network impact in terms of bandwidth usage for each site and that sites links.
 
-![Network planner result showing that Kirkland does not have enough bandwidth](../media/network-planner-results.png)
+[!div class="mx-imgBorder"]
 
+[ ![Network planner result showing that Kirkland does not have enough bandwidth](../media/network-planner-results.png) ](../media/network-planner-results.png#lightbox)
 
 The above image shows an example of a network planner report with a link that does not have enough bandwidth, highlighted in red. Any figured highlighted in red indicate areas that need more bandwidth. You can access the reports at any time in the future by going back Network planner in the Microsoft Teams admin center. ****
 
@@ -288,8 +291,9 @@ The tool will initially output which relay VIP it is testing and how long the te
 
 A test that is 300 seconds, or 5 minutes, is not a very long test. Setting this to 1800 or 30 minutes includes a set of results covering a longer window of time. It is best practice to gather results over a longer period of time and at different times of the day and week. You may discover whether Teams would still perform well during peak times when a high number of users are working or high-performance workloads stress the network. The following picture shows the value to modify:
 
-![Screenshot of the Teams Network Assessment Tool settings](../media/network-assessment-tool-settings.png)
+[!div class="mx-imgBorder"]
 
+[ ![Screenshot of the Teams Network Assessment Tool settings](../media/network-assessment-tool-settings.png) ](../media/network-assessment-tool-settings.png#lightbox)
 
 ```console
 Microsoft Teams - Network Assessment Tool
@@ -371,8 +375,9 @@ Call Quality Check result has been written to: C:\Users\<alias>\AppData\Local\Mi
 
 The following picture shows the example results of a network test. You can see the metrics for each test as well as the protocols and IP addresses.
 
-![Example results of a network test. You can see the metrics for each test as well as the protocols and IPO addresses. ](../media/network-test-output.png)
+[!div class="mx-imgBorder"]
 
+[ ![Example results of a network test. You can see the metrics for each test as well as the protocols and IPO addresses.](../media/network-test-output.png) ](../media/network-test-output.png#lightbox)
 
 In this test we see only five results, but your test will show many more results. You may want to use excel to look at minimums, maximums, and averages to understand your overall results.
 
