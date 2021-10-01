@@ -19,7 +19,9 @@ abstract: |
   - Diagnose and Troubleshoot Direct Routing Issues.
   - Troubleshoot and Monitor Teams devices.
 prerequisites: |
-  - None
+  - General knowledge of Teams Phone System
+  - A general understanding of Office 365
+  - A general understanding of Direct Routing
 iconUrl: /learn/achievements/generic-badge.svg
 levels:
 - advanced

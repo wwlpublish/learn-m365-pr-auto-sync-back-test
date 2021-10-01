@@ -108,7 +108,7 @@ To do this, follow these steps:
 
 - Type the following text as the query, and then select **OK**.
 
-- msRTCSIP-PrimaryUserAddress=sip:joe@contoso.com
+    - msRTCSIP-PrimaryUserAddress=sip:joe@contoso.com
 
 > [!NOTE]
 > Replace joe@contoso.com with the value of the duplicate email address.
