@@ -1,0 +1,30 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.manage-transport-rules.explore
+title: Explore transport rules
+metadata:
+  title: Explore transport rules
+  description: "Explore transport rules"
+  ms.date: 09/30/2021
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 5
+content: |
+  [!include[](includes/2-explore.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "Fabrikam has multiple mailbox servers. As the Messaging administrator for Fabrikam, Holly Spencer wants to configure a message transport rule that can identify and act on messages that flow through the transport pipeline in Fabrikam's Exchange organization. What must Holly do to make this new rule accessible to all of Fabrikam's mailbox servers?"
+    choices:
+    - content: "Configure the rule on each of Fabrikam's mailbox servers"
+      isCorrect: false
+      explanation: "That's incorrect. Holly doesn't have to configure the rule on each mailbox server. Try again."
+    - content: "Configure the rule on one of Fabrikam's mailbox servers"
+      isCorrect: true
+      explanation: "That's correct. Transport rules are configured at the mailbox server level. Transport rules configured on one Mailbox server automatically apply to all other Mailbox servers in the organization. Exchange Server stores the transport rules in the Configuration container in Active Directory and replicates them throughout the Active Directory forest. This process makes the rules accessible to all other Mailbox servers. By doing so, Exchange Server applies the same transport rules to all email messages that users send or receive in the organization."
+    - content: "Configure the rule in the Configuration container in Active Directory"
+      isCorrect: false
+      explanation: "That's incorrect. While transport rules are stored in the Configuration container in Active Directory, you don't configure them there. Exchange Server stores the transport rules there for you once you configure them. Try again."
