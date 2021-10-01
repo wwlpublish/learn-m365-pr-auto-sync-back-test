@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.monitor-troubleshoot-teams-phone-system.diagnose-troubleshoot-call-failures-quality-issues
+title: Diagnose and Troubleshoot call failure and call quality issues
+metadata:
+  title: Diagnose and Troubleshoot call failure and call quality issues
+  description: "Diagnose and Troubleshoot call failure and call quality issues"
+  ms.date: 10/01/2021
+  author: wwlpublish
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+azureSandbox: false
+labModal: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/4-diagnose-troubleshoot-call-failures-quality-issues.md)]

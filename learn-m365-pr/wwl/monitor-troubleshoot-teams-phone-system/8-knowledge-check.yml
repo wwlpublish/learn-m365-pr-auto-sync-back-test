@@ -1,0 +1,51 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.monitor-troubleshoot-teams-phone-system.knowledge-check
+title: Knowledge check
+metadata:
+  title: Knowledge check
+  description: "Knowledge check"
+  ms.date: 10/01/2021
+  author: wwlpublish
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+azureSandbox: false
+labModal: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/8-knowledge-check.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "Teams IP Phone Device logs can be collected from which of the following?"
+    choices:
+    - content: "The Teams Admin Center"
+      isCorrect: true
+      explanation: "That is correct. This is where logs are gathered and downloaded"
+    - content: "The Teams IP Phone"
+      isCorrect: false
+      explanation: "That is not correct. You cannot collect the logs from the phone itself"
+    - content: "Teams Admin Center or the Teams IP Phone"
+      isCorrect: false
+      explanation: "That is not correct. You cannot collect the logs from the phone itself"
+  - content: "Which log file requires enabling in settings in the teams client?"
+    choices:
+    - content: "Debug logs"
+      isCorrect: false
+      explanation: "That is not correct. Debug logs are generated and collected by default"
+    - content: "Desktop logs"
+      isCorrect: false
+      explanation: "That is not correct. Desktop logs are generated and collected by default"
+    - content: "Media logs"
+      isCorrect: true
+      explanation: "That is correct. Media logging is turned off by default. To enable Media logging, users must turn on the option in the Teams client. Go to Settings > General, and select Enable logging for meeting diagnostics."
+  - content: "Which of these tools can perform a network test?"
+    choices:
+    - content: "Microsoft 365 Connectivity Tool"
+      isCorrect: true
+      explanation: "That is correct. This tool will perform a basic network test"
+    - content: "Call Analytics"
+      isCorrect: false
+      explanation: "That is not correct. This is a call reporting tool but can't perform network tests."
+    - content: "Call Quality Dashboard"
+      isCorrect: false
+      explanation: "That is not correct. This is a call reporting tool but can't perform network tests."
