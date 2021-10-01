@@ -4,7 +4,7 @@ title: Knowledge check
 metadata:
   title: Knowledge check
   description: "Knowledge check"
-  ms.date: 09/30/2021
+  ms.date: 10/01/2021
   author: wwlpublish
   ms.topic: interactive-tutorial
 azureSandbox: false
@@ -23,7 +23,7 @@ quiz:
     - content: "Domestic or International Calling Plan"
       isCorrect: false
       explanation: "A Domestic or International Calling Plan license is not required if Direct Routing is used with Microsoft Teams."
-    - content: "Microsoft Teams Rooms Standard (Correct)"
+    - content: "Microsoft Teams Rooms Standard"
       isCorrect: true
       explanation: "A Microsoft Teams Rooms Standard license includes the Phone System license required to use the device with Calling Plans or Direct Routing."
   - content: "Which method is used to revert Microsoft Teams Android-based device firmware?"
@@ -31,7 +31,7 @@ quiz:
     - content: "Select a previous firmware version using Manual Updates in the Teams Admin Center"
       isCorrect: false
       explanation: "Only the current version of the firmware and applicable updates are shown within the Teams Admin Center."
-    - content: "A factory reset of the device (Correct)"
+    - content: "A factory reset of the device"
       isCorrect: true
       explanation: "The firmware cannot be reverted using the Teams Admin Center and a factory reset of the device will revert the firmware to the version that the device was shipped with, or updated to using the vendor's own update procedures."
     - content: "Upload a previous firmware version and apply using Manual Updates in the Teams Admin Center"
@@ -45,6 +45,6 @@ quiz:
     - content: "Only after remote provisioning has been performed successfully"
       isCorrect: false
       explanation: "Remote provisioning includes the user sign-in process and device registration, which therefore will require pre-requisites for Intune licensing."
-    - content: "When an Intune license is applied to the user (Correct)"
+    - content: "When an Intune license is applied to the user"
       isCorrect: true
       explanation: "When using Conditional Access to allow Teams Phone sign-in, an Intune license and Intune configuration to support Android Device Administrator profiles must be applied."
