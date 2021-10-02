@@ -7,7 +7,7 @@ Policy-based compliance recording is different; it allows Microsoft certified pa
 
 Compliance recording can be configured to capture audio, video, screen share, and chat. This is only possible with certified third-party solutions. Choose compliance recording solutions when you have an industry or legal requirement to capture calls and meetings for some or all the organization’s users.
 
-## Comparing built in Teams convenience recording and third-party policy-based recording
+## Compare built in Teams convenience recording and third-party policy-based recording
 
 It is important to understand the differences between the in-the-box convenience recording and policy-based recording that requires a certified third-party partner solution. The following table provides a comparison when to use the integrated features and when it is required to use a third-party solution to fulfill special business needs:
 
@@ -60,82 +60,82 @@ Complete the following steps to configure compliance recording:
 
 1. Create an application instance in your tenant and sync the application instance from Azure Active Directory into Agent Provisioning Service.
 
-This creates an application instance and resource account in Azure Active Directory. You define your UPN and display name. The ApplicationId is the Bot AppID that will be given to you by your compliance recording provider.
-
-```PowerShell
-New-CsOnlineApplicationInstance -UserPrincipalName teamsrecorder@tenantname.onmicrosoft.com -DisplayName "Recording Assistant" -ApplicationId d2c1b87d-35e3-49a2-aab8-8c158f74c2e5
-
-```
-
-The output will give the ObjectId for the new Application Instance and confirm the Tenant ID, User Principal Name, Application ID, display name, and Phone number if you set one.
-
-```PowerShell
-RunspaceId        : c6df03f9-8be5-400a-9f63-d89b0a9cacbb
-
-ObjectId          : 4876b469-67ff-4bad-861f-62f0879af039
-
-TenantId          : 0a8642c4-070e-4854-a2ab-44d845945bac
-
-UserPrincipalName : teamsrecorder@tenantname.onmicrosoft.com
-
-ApplicationId     : d2c1b87d-35e3-49a2-aab8-8c158f74c2e5
-
-DisplayName       : Recording Assistant
-
-PhoneNumber       :
-
-```
-
+    This creates an application instance and resource account in Azure Active Directory. You define your UPN and display name. The ApplicationId is the Bot AppID that will be given to you by your compliance recording provider.
+    
+    ```PowerShell
+    New-CsOnlineApplicationInstance -UserPrincipalName teamsrecorder@tenantname.onmicrosoft.com -DisplayName "Recording Assistant" -ApplicationId d2c1b87d-35e3-49a2-aab8-8c158f74c2e5
+    
+    ```
+    
+    The output will give the ObjectId for the new Application Instance and confirm the Tenant ID, User Principal Name, Application ID, display name, and Phone number if you set one.
+    
+    ```PowerShell
+    RunspaceId        : c6df03f9-8be5-400a-9f63-d89b0a9cacbb
+    
+    ObjectId          : 4876b469-67ff-4bad-861f-62f0879af039
+    
+    TenantId          : 0a8642c4-070e-4854-a2ab-44d845945bac
+    
+    UserPrincipalName : teamsrecorder@tenantname.onmicrosoft.com
+    
+    ApplicationId     : d2c1b87d-35e3-49a2-aab8-8c158f74c2e5
+    
+    DisplayName       : Recording Assistant
+    
+    PhoneNumber       :
+    
+    ```
+    
 3. Sync the application instance
 
-For Sync-CsOnlineApplicationInstance, use the ObjectId of the newly created application instance
-
-```PowerShell
-Sync-CsOnlineApplicationInstance -ObjectId 4876b469-67ff-4bad-861f-62f0879af039
-
-```
+    For Sync-CsOnlineApplicationInstance, use the ObjectId of the newly created application instance
+    
+    ```PowerShell
+    Sync-CsOnlineApplicationInstance -ObjectId 4876b469-67ff-4bad-861f-62f0879af039
+    
+    ```
 
 4. Create a Compliance Recording policy.
 
-```PowerShell
-New-CsTeamsComplianceRecordingPolicy -Tenant 0a8642c4-070e-4854-a2ab-44d845945bac -Enabled $true -Description "Teams Compliance Recording” -Identity Comprecpolicy
-
-```
-
-The output confirms the identity, description that it is enabled. WarnUserOnRemoval is a parameter reserved for future use, so it can be ignored.
-
-```PowerShell
-WARNING: Length of the Compliance Recording Application list should be non zero.
-
-Identity                                            : Tag:Comprecpolicy
-
-ComplianceRecordingApplications                     : {}
-
-Enabled                                             : True
-
-WarnUserOnRemoval                                   : True
-
-DisableComplianceRecordingAudioNotificationForCalls : False
-
-Description                                         : Teams Compliance Recording
-
-```
+    ```PowerShell
+    New-CsTeamsComplianceRecordingPolicy -Tenant 0a8642c4-070e-4854-a2ab-44d845945bac -Enabled $true -Description "Teams Compliance Recording” -Identity Comprecpolicy
+    
+    ```
+    
+    The output confirms the identity, description that it is enabled. WarnUserOnRemoval is a parameter reserved for future use, so it can be ignored.
+    
+    ```PowerShell
+    WARNING: Length of the Compliance Recording Application list should be non zero.
+    
+    Identity                                            : Tag:Comprecpolicy
+    
+    ComplianceRecordingApplications                     : {}
+    
+    Enabled                                             : True
+    
+    WarnUserOnRemoval                                   : True
+    
+    DisableComplianceRecordingAudioNotificationForCalls : False
+    
+    Description                                         : Teams Compliance Recording
+    
+    ```
 
 5. Add the synchronized application to the policy. Users with this policy will be recorded by the applications included in their assigned policy.
 
-```PowerShell
-Set-CsTeamsComplianceRecordingPolicy -Tenant 0a8642c4-070e-4854-a2ab-33d845945bac -Identity Comprecpolicy -ComplianceRecordingApplications ` @(New-CsTeamsComplianceRecordingApplication -Tenant 0a8642c4-070e-4854-a2ab-44d845945bac -Parent Comprecpolicy -Id 4876b469-67ff-4bad-861f-62f0879af039)
-
-```
+    ```PowerShell
+    Set-CsTeamsComplianceRecordingPolicy -Tenant 0a8642c4-070e-4854-a2ab-33d845945bac -Identity Comprecpolicy -ComplianceRecordingApplications ` @(New-CsTeamsComplianceRecordingApplication -Tenant 0a8642c4-070e-4854-a2ab-44d845945bac -Parent Comprecpolicy -Id 4876b469-67ff-4bad-861f-62f0879af039)
+    
+    ```
 
 6. Assign the Compliance Recording policy to a user by using the following cmdlet:
 
-```PowerShell
-Grant-CsTeamsComplianceRecordingPolicy -Identity user@domain.com -PolicyName CompRecPolicy
-
-```
-
-Setting and changing these policies may take hours to take effect on the user's calls & meetings due to the time it takes for policies to replicate across Office 365.
+    ```PowerShell
+    Grant-CsTeamsComplianceRecordingPolicy -Identity user@domain.com -PolicyName CompRecPolicy
+    
+    ```
+    
+Setting and changing these policies may take hours to take effect on the user's calls and meetings due to the time it takes for policies to replicate across Office 365.
 > [!TIP]
 > Compliance recording providers can configure their solution to be completely transparent to the user with no audible notifications or banners telling the user that the call is being recorded.
 
