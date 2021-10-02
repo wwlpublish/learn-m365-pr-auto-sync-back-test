@@ -1,0 +1,30 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.configure-message-transport.configure-connectors
+title: Configure connectors
+metadata:
+  title: Configure connectors
+  description: "Configure connectors"
+  ms.date: 09/30/2021
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 9
+content: |
+  [!include[](includes/4-configure-connectors.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "As the Messaging administrator for Contoso, Holly Dickson wants to create a new receive connector that will be used for communication with external applications, users, and mail servers outside of Contoso's Exchange organization. Which of the following roles should Holly assign to this connector?"
+    choices:
+    - content: "Frontend Transport"
+      isCorrect: true
+      explanation: "That's correct. This role is typically used for communication with external applications, users, and mail servers outside of the Exchange organization."
+    - content: "Hub Transport"
+      isCorrect: false
+      explanation: "That's incorrect. This role is the backend transport role that's used for communication between servers. Try again."
+    - content: "POP Transport"
+      isCorrect: false
+      explanation: "That's incorrect. POP transport isn't a valid role that can be assigned to a receive connector. Try again."
