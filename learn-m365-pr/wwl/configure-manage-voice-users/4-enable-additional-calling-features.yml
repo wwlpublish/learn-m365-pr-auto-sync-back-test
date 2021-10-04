@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.configure-manage-voice-users.enable-additional-calling-features
+title: Enable additional calling features for Teams Phone System
+metadata:
+  title: Enable additional calling features for Teams Phone System
+  description: "Enable additional calling features for Teams Phone System"
+  ms.date: 10/04/2021
+  author: wwlpublish
+  ms.author: dahans
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 9
+content: |
+  [!include[](includes/4-enable-additional-calling-features.md)]

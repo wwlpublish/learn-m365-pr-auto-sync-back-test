@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.configure-manage-voice-users.enable-users-teams-phone
+title: Enable users for Teams Phone
+metadata:
+  title: Enable users for Teams Phone
+  description: "Enable users for Teams Phone"
+  ms.date: 10/04/2021
+  author: wwlpublish
+  ms.author: dahans
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 9
+content: |
+  [!include[](includes/2-enable-users-teams-phone.md)]
