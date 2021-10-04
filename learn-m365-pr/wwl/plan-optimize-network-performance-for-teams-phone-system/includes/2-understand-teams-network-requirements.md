@@ -98,7 +98,6 @@ The Network Planner tool is available in the Teams admin center. It helps you de
 > [!div class="mx-imgBorder"]
 > [ ![Image shows the report results of Microsoft Teams Network planner](../media/network-planner.png) ](../media/network-planner.png#lightbox)
 
-
 > [!NOTE]
 > The tool does not configure anything, change any settings or test anything, it will simply generate reports and calculate bandwidth requirements for Teams usage based on typical usage personas and number of users on each site.
 
