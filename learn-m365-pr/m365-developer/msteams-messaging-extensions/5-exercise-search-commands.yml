@@ -3,9 +3,9 @@ uid: learn-m365.msteams-messaging-extensions.5-exercise-search-commands
 metadata:
   title: Exercise - Create search command messaging extensions
   description: In this exercise, you’ll learn how to execute a messaging extension search command from an existing message.
-  ms.date: 06/18/2021
-  author: andrewconnell
-  ms.author: v-johnco
+  ms.date: 09/13/2021
+  author: andrewconnell-msft
+  ms.author: suzanz
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Exercise - Create search command messaging extensions

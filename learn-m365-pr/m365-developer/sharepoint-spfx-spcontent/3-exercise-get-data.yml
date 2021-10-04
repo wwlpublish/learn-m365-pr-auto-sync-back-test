@@ -3,9 +3,9 @@ uid: learn-m365.sharepoint-spfx-spcontent.3-exercise-get-data
 metadata:
   title: Exercise - Retrieve and display list data with the SharePoint REST API
   description: In this exercise, you'll create a SharePoint Framework (SPFx) web part that will get and display data from a SharePoint list using the SharePoint REST API.
-  ms.date: 06/17/2021
-  author: andrewconnell
-  ms.author: v-johnco
+  ms.date: 09/13/2021
+  author: andrewconnell-msft
+  ms.author: suzanz
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Exercise - Retrieve and display list data with the SharePoint REST API

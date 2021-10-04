@@ -3,8 +3,8 @@ uid: learn-m365.msteams-sso
 metadata:
   title: Microsoft Teams – Authentication and Single Sign-on
   description: In this module, you'll learn about the different authentication flows supported by Microsoft Teams that you can use in your custom apps.
-  ms.date: 05/11/2021
-  author: andrewconnell
+  ms.date: 09/13/2021
+  author: andrewconnell-msft
   ms.author: suzanz
   ms.topic: interactive-tutorial
   ms.prod: learning-m365

@@ -3,9 +3,9 @@ uid: learn-m365.sharepoint-spfx-web-part-property-pane.6-pnp-controls
 metadata:
   title: Leverage the PnP reusable property pane controls
   description: In this unit, you'll learn how you can use third-party controls from the popular PnP SPFx reusable property pane controls project.
-  ms.date: 11/30/2020
-  author: andrewconnell
-  ms.author: v-johnco
+  ms.date: 09/13/2021
+  author: andrewconnell-msft
+  ms.author: suzanz
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Leverage the PnP reusable property pane controls

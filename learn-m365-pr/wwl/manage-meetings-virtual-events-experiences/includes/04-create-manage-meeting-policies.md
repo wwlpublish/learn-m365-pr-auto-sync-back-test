@@ -85,7 +85,7 @@ Policies can be configured for the following categories:
 :::image type="content" source="../media/meeting-policy-general.png" alt-text="General settings in meeting policy":::
 
 | Policy setting                       | Type     | When it applies  | What it does   | 
-||-|||
+|------|----------|------|------|
 | Allow Meet now in channels           | Per-user | Before a meeting | Controls whether a user can start an unplanned meeting in a Teams channel. Allows users to post a message and select **Meet now** under the compose box to start an unplanned meeting.   <br/><br/> :::image type="content" source="../media/allow-meet-now-option.png" alt-text="Screenshot showing the Meet now icon in the channel message":::   |
 | Allow the Outlook add-in             | Per-user | Before a meeting | Controls whether Teams meetings can be scheduled from within Outlook (Windows, Mac, web, and mobile). When disabled, users can't schedule Teams meetings in Outlook. In Outlook on Windows, the **New Teams Meeting** isn't visible.                                           | 
 | Allow channel meeting scheduling     | Per-user | Before a meeting | Controls whether users can schedule a meeting in a Teams channel. When disabled, the **Schedule a meeting** option isn't displayed, and the **Add channel** option is disabled.             <br/><br/> :::image type="content" source="../media/select-channel-to-meet.png" alt-text="Screenshot showing the Select a channel to meet in option":::                                                                                   | 
@@ -103,7 +103,7 @@ Policies can be configured for the following categories:
 
 
 | Policy setting        | Type                       | When it applies  | What it does                                                                                                                                                                                                                                                      |
-|--|-||-|
+|-----------------------|----------------------------|------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |Mode for IP audio|Per-user|During a meeting| Controls whether audio can be turned on in meetings and group calls. When disabled, user can still schedule and organize meetings but they have to dial in through the Public Switched Telephone Network (PSTN) or have the meeting call and join them by phone. 
 |Mode for IP video|Per-user|During a meeting| Controls whether video can be turned on in meetings and group calls. When disabled, user can't turn on video or view videos shared by other meeting participants. 
 | Allow IP video        | Per-organizer and per-user | During a meeting | Controls whether video can be turned on in meetings hosted by a user, one-to-one calls, and group calls. When enabled, meetings organized by a user can use video in the meeting, providing the meeting participants also have the policy enabled.                | 
@@ -128,7 +128,7 @@ For IP video policy setting, the most restrictive policy setting for video takes
 
 
 | Policy setting        | Type                       | When it applies  | What it does                                                                                                                                                                                                                                                      |
-|--|-|||
+|-----------------------|----------------------------|------------------|---------------------------------|
 | Allow transcription   | Per-organizer and per-user | After a meeting  | Controls whether captions and transcription features are available during playback of meeting recordings. When disabled, the Search and CC options won't be available during playback of a meeting recording. When enabled, only English is supported.            |
 | Allow cloud recording | Per-organizer and per-user | During a meeting | Controls whether this user's meetings can be recorded. When enabled, the recording is started by the meeting organizer or by another meeting participant, providing the policy setting is enabled for the participant, and if they're from the same organization. <br/><br/>:::image type="content" source="../media/allow-cloud-recording.png" alt-text="Screenshot showing recording options":::| 
 |Store recordings outside of your country or region|- |After a meeting|Controls whether meeting records can be permanently stored in another country or region. If it's enabled, the recordings can't be migrated. |
@@ -142,7 +142,7 @@ For IP video policy setting, the most restrictive policy setting for video takes
 
 
 | Policy setting  | Type   | When it applies  | What it does        | 
-||--|-|--|
+|------------|-----|----|--------|
 | Screen sharing mode                                      | Per-organizer and per-user | During a meeting | Controls whether desktop and window sharing are allowed in the user's meeting. Participants who don't have policies assigned inherit from the meeting organizer. Options are **Entire screen**, **Single application**, or **Disabled**. |
 | Allow a participant to give or request control           | Per-user                   | During a meeting | Controls whether the user can give control of the shared desktop or window to other meeting participants.            <br/><br/>:::image type="content" source="../media/give-control.png" alt-text="Screenshot showing the Give Control option":::    | 
 | Allow an external participant to give or request control | Per-user                   | During a meeting | Controls whether external participants can be given control or request control of the sharer's screen, depending on what the sharer has set within their organization's meeting policies.                                                | 
@@ -162,7 +162,7 @@ For IP video policy setting, the most restrictive policy setting for video takes
 
 
 | Policy setting                          | Type          | When it applies  | What it does                                                                                                                                                              | 
-|--||||
+|-----------------------------------------|---------------|------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Let anonymous people start a meeting    | Per-organizer | Before a meeting | Allows leaderless dial-in conferencing meetings.                                                                                                                          | 
 |Roles that have presenter rights in meetings| Per-user|During a meeting| Change the default value of the **Who can present?** setting in **Meeting options** in the Teams client. Keep in mind that after you set the default value, meeting organizers can still change this setting in Teams and choose who can present in the meetings that they schedule. Options are **Everyone, but user can override**, **Everyone in the organization, but user can override**, or **Organizer, but user can override**|
 | Automatically admit people              | Per-organizer | Before a meeting | Controls whether people join a meeting directly or wait in the lobby until they're admitted by an authenticated user.  Meeting organizers can select **Meeting Options** in the meeting invitation to change this setting for each meeting they schedule.                                                   | 

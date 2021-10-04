@@ -3,9 +3,9 @@ uid: learn-m365.sharepoint-spfx-deployment.4-app-catalog-alm-apis
 metadata:
   title: App Catalogs and ALM APIs
   description: In this unit, you'll learn about the different App Catalogs in SharePoint and how you can programmatically deploy SharePoint apps with the Application Lifecycle Management APIs.
-  ms.date: 11/30/2020
-  author: andrewconnell
-  ms.author: v-johnco
+  ms.date: 09/13/2021
+  author: andrewconnell-msft
+  ms.author: suzanz
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: App Catalogs and ALM APIs

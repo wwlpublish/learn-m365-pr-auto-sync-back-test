@@ -27,7 +27,7 @@ You'll use Node.js to create custom Microsoft Teams tabs in this module. The exe
 - NPM (installed with Node.js) - v6.\* (or higher)
 - [Gulp](https://gulpjs.com/) - v4.\* (or higher)
 - [Yeoman](https://yeoman.io/) - v3.\* (or higher)
-- [Yeoman Generator for Microsoft Teams](https://github.com/OfficeDev/generator-teams) - v3.0.3 (or higher)
+- [Yeoman Generator for Microsoft Teams](https://github.com/OfficeDev/generator-teams) - v3.2.0 (or higher)
 - [Visual Studio Code](https://code.visualstudio.com)
 
 You must have the minimum versions of these prerequisites installed on your workstation.
@@ -50,7 +50,7 @@ Yeoman will launch and ask you a series of questions. Answer the questions with 
 - **Where do you want to place the files?**: Use the current folder
 - **Title of your Microsoft Teams App project?**: YouTube Player
 - **Your (company) name? (max 32 characters)**: Contoso
-- **Which manifest version would you like to use?**: v1.8
+- **Which manifest version would you like to use?**: v1.9
 - **Quick scaffolding**: Yes
 - **What features do you want to add to your project?**: A Tab
 - **The URL where you will host this solution?**: (Accept the default option)
@@ -102,6 +102,12 @@ Using the app bar navigation menu, select the **More added apps** button. Then s
 ![Screenshot of More added apps dialog in Microsoft Teams](../media/03-yo-teams-05.png)
 
 On the **Browse available apps and services** page, select **Upload a custom app** > **Upload for me or my teams**.
+
+> [!NOTE]
+> If the **./package** folder is not present, this means you are affected by a bug in the yoteams-deploy package. To resolve the issue:
+> - Stop the local web server by pressing <kbd>CTRL</kbd>+<kbd>C</kbd> in the console.
+> - Install the preview version of the **yoteams-deploy** package using the command `npm install yoteams-deploy@preview`
+> - Restart the server process: `gulp ngrok-serve`
 
 In the file dialog that appears, select the Microsoft Teams package in your project. This app package is a ZIP file that can be found in the project's **./package** folder.
 

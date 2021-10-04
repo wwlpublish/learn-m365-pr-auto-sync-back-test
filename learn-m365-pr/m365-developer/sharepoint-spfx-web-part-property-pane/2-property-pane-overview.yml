@@ -3,9 +3,9 @@ uid: learn-m365.sharepoint-spfx-web-part-property-pane.2-property-pane-overview
 metadata:
   title: Introducing the client-side web part property pane
   description: In this unit, you'll learn how to use the property pane in your SharePoint Framework client-side web part components.
-  ms.date: 03/06/2021
-  author: andrewconnell
-  ms.author: v-johnco
+  ms.date: 09/13/2021
+  author: andrewconnell-msft
+  ms.author: suzanz
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Introducing the client-side web part property pane

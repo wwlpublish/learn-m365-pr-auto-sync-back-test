@@ -3,9 +3,9 @@ uid: learn-m365.sharepoint-spfx-teams-dev.4-context
 metadata:
   title: Create web parts for SharePoint Online and Microsoft Teams
   description: In this unit, you'll learn how to conditionally display information depending if the SharePoint Framework client-side web part is running in a SharePoint or Microsoft Teams environment.
-  ms.date: 03/06/2021
-  author: andrewconnell
-  ms.author: v-johnco
+  ms.date: 09/13/2021
+  author: andrewconnell-msft
+  ms.author: suzanz
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Create web parts for SharePoint Online and Microsoft Teams

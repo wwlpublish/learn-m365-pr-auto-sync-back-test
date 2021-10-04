@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.configure-deploy-direct-routing.deploy-maintain-survivable-branch-appliance
+title: Deploy and maintain a survivable branch appliance
+metadata:
+  title: Deploy and maintain a survivable branch appliance
+  description: "Deploy and maintain a survivable branch appliance"
+  ms.date: 09/30/2021
+  author: wwlpublish
+  ms.author: dahans
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 6
+content: |
+  [!include[](includes/6-deploy-maintain-survivable-branch-appliance.md)]

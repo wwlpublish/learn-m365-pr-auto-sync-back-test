@@ -3,9 +3,9 @@ uid: learn-m365.sharepoint-spfx-extensions.4-field-customizer-extension
 metadata:
   title: Field customizer extensions
   description: "In this unit, you'll learn about another type of SharePoint Framework extension that enables customization of columns in SharePoint lists: field customizers."
-  ms.date: 11/30/2020
-  author: andrewconnell
-  ms.author: v-johnco
+  ms.date: 09/13/2021
+  author: andrewconnell-msft
+  ms.author: suzanz
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Field customizer extensions

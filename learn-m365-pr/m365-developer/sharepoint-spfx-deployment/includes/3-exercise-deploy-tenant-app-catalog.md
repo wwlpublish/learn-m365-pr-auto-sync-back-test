@@ -67,13 +67,11 @@ From the **New** menu, select **App**.
 
 ![Screenshot selecting to create a new app](../media/03-deploy-step-02.png)
 
-Locate the solution you previously deployed and select it.
+In the filters, select **From my organization**.
+
+Select the **Add** button in the **deployment-demo-client-side-solution** tile to add your web part.
 
 ![Screenshot creating a new app](../media/03-deploy-step-03.png)
-
-SharePoint will start to install the application. At first it will be grayed out, but after a few moments you should see it listed as in the following screen capture:
-
-![Screenshot of created application](../media/03-deploy-step-04.png)
 
 ## Add the web part to a page
 

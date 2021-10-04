@@ -58,8 +58,8 @@ Create a new file **manifest.json** in the **teams** folder and add the followin
 
 ```json
 {
-  "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.2/MicrosoftTeams.schema.json",
-  "manifestVersion": "1.2",
+  "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.10/MicrosoftTeams.schema.json",
+  "manifestVersion": "1.10",
   "packageName": "{{SPFX_COMPONENT_ALIAS}}",
   "id": "{{SPFX_COMPONENT_ID}}",
   "version": "0.1",
