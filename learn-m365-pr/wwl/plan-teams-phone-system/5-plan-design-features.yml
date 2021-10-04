@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.plan-teams-phone-system.plan-design-features
+title: Plan and design Teams Phone features
+metadata:
+  title: Plan and design Teams Phone features
+  description: "Plan and design Teams Phone features"
+  ms.date: 09/30/2021
+  author: wwlpublish
+  ms.author: dahans
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 8
+content: |
+  [!include[](includes/5-plan-design-features.md)]
