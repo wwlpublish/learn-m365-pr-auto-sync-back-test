@@ -21,7 +21,7 @@ There is often some latency between assigning a user a Teams Phone license and t
 The following picture shows the required licenses for a calling plan user to be able to make calls. Microsoft E5 includes both the phone system license and the Domestic and International Calling Plan.
 
 > [!div class="mx-imgBorder"]
-> ![Paul Smith has E5 licence which includes the phone system license and the Domestic and International Calling Plan and communication credits licence.](../media/user-licenses-assignment.png)
+> [ ![Paul Smith has E5 licence which includes the phone system license and the Domestic and International Calling Plan and communication credits licence.](../media/user-licenses-assignment.png) ](../media/user-licenses-assignment.png#lightbox)
 
 ## Cannot edit or assign phone numbers for any user
 

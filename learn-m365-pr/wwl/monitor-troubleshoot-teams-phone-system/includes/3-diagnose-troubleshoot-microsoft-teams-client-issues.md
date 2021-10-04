@@ -124,9 +124,9 @@ You can use  the Teams client diagnostic logs for Dynamic address validation and
 
 1. Get the client logs from a Teams client by pressing CTRL+ALT+Shift+1 simultaneously on the Windows Desktop client.
 
-1. Windows file location: “%userprofile%\Downloads\MSTeams Diagnostics Log <timestamp>.txt”
+1. Windows file location: “%userprofile%\Downloads\MSTeams Diagnostics Log \<timestamp\>.txt”
 
-1. Open the MsTeams Diagnostics Log <timestamp>.txt file in notepad or another text editor.
+1. Open the MsTeams Diagnostics Log \<timestamp\>.txt file in notepad or another text editor.
 
 1. Search in the text log for "ipaddr," this is the public IP address the client is reporting
 

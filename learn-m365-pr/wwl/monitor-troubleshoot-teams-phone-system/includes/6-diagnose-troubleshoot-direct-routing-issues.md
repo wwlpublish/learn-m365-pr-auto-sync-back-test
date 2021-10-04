@@ -45,7 +45,7 @@ If you are seeing connectivity issues between your SBC and the Teams service, yo
 1. Under Usage look at Network parameters, you have options to select 7 days or 30 days.
 
 > [!div class="mx-imgBorder"]
-> ![Graphical user interface, text, application, email](../media/network-parameters.png)
+> [ ![Graphical user interface, text, application, email](../media/network-parameters.png) ](../media/network-parameters.png#lightbox)
 
 Here you can see the average latency, jitter, packet loss, and any peaks.
 

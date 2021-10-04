@@ -15,7 +15,7 @@ All Analytics are found by first looking up the user in the Users Tab of the Tea
 Call Analytics records give details of network performance, devices, and endpoints in the call and highlight any issues.
 
 > [!div class="mx-imgBorder"]
-> ![Graphical user interface, application, Teams](../media/call-analytics-statistics.png)
+> [ ![Graphical user interface, application, Teams](../media/call-analytics-statistics.png) ](../media/call-analytics-statistics.png#lightbox)
 
 ## Troubleshoot calls using advanced Call Analytics and perform root cause analysis
 
@@ -30,12 +30,11 @@ Yellow meaning warning or outside of normal range, red is a significant problem.
 When looking over the sessions for a specific user, the Audio quality column highlights any calls or meetings with poor audio quality. A meeting will be broken down into sessions.
 
 > [!div class="mx-imgBorder"]
-> ![Graphical user interface, application](../media/call-analytics-analysis.png)
-
+> [ ![Screenshot showing the Call Analytics analysis page](../media/call-analytics-analysis.png) ](../media/call-analytics-analysis.png#lightbox)
 Going into Advanced will highlight the metric(s) that has caused the poor call conditions. In this case, Average round-trip time as seen on the following picture:
 
 > [!div class="mx-imgBorder"]
-> ![Graphical user interface, application](../media/call-analytics-analysis-metrics.png)
+> [ ![Screenshot showing the Call Analysis metrics](../media/call-analytics-analysis-metrics.png) ](../media/call-analytics-analysis-metrics.png#lightbox)
 
 Common issues that Call Analytics will report on include:
 
@@ -52,7 +51,7 @@ You can export the report by selecting the top right "Export Report" button, whi
 A great way for users to understand call quality issues is to use call health in the Teams client during the call. Under the ellipse (three dots) select Call Health as shown in the picture below:
 
 > [!div class="mx-imgBorder"]
-> ![Call health option in the teams client](../media/call-health-client.png)
+> [ ![Call health option in the teams client](../media/call-health-client.png) ](../media/call-health-client.png#lightbox)
 
 This will give snapshots of network performance every 15 seconds for overall network as well as audio, video, and screen sharing if they are being used.
 
@@ -64,7 +63,7 @@ This will give snapshots of network performance every 15 seconds for overall net
 The Microsoft 365 connectivity tool can perform some basic Teams network performance tests, such as Media connectivity, Packet loss, Latency, and Jitter.
 
 > [!div class="mx-imgBorder"]
-> ![Microsoft Teams network performance results from the Microsoft 365 connectivity tool.](../media/m365-connectivity-tool.png)
+> [ ![Microsoft Teams network performance results from the Microsoft 365 connectivity tool.](../media/microsoft-365-connectivity-tool.png) ](../media/microsoft-365-connectivity-tool.png#lightbox)
 
 To run the test, perform the following steps:
 
@@ -109,7 +108,7 @@ To run these diagnostics tests:
 1. The form will ask " Tell us about the problem so we can help you solve it." Here you can input the Diagnostic Shortcut command in the above table to jump straight to the diagnostic test.
 
     > [!div class="mx-imgBorder"]
-    > ![Microsoft 365 support request interface](../media/m365-support-diagnostic.png)
+    > [ ![Microsoft 365 support request interface](../media/microsoft-365-support-diagnostic.png) ](../media/microsoft-365-support-diagnostic.png#lightbox)
 
 1. Follow the steps to complete the test as appropriate.
 

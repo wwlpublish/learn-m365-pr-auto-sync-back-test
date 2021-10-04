@@ -55,7 +55,7 @@ A device offline notification can include the following information:
 The following picture shows an example of an alert:
 
 > [!div class="mx-imgBorder"]
-> ![Example of an alert for a Microsoft Teams Room issue](../media/device-alert.png)
+> [ ![Example of an alert for a Microsoft Teams Room issue](../media/device-alert.png) ](../media/device-alert.png#lightbox)
 
 ### Configure device state monitoring rule
 
@@ -66,7 +66,7 @@ To configure a device state monitoring rule for a tenant, perform the following 
 1. In the Rules Page, select Device state rule.
 
     > [!div class="mx-imgBorder"]
-    > ![Creating a device state rule in the Teams Admin Center](../media/device-state-rule.png)
+    > [ ![Creating a device state rule in the Teams Admin Center](../media/device-state-rule.png) ](../media/device-state-rule.png#lightbox)
 
 1. Under Device users, Select the device(s) by user account to configure the state rule for enabling alerts.
 
@@ -95,7 +95,7 @@ For all Android based Teams devices, in the device settings you can remotely col
 1. Select **Download device logs**.
 
     > [!div class="mx-imgBorder"]
-    > ![Downloading device logs from the Teams Admin Center](../media/device-logs.png)
+    > [ ![Downloading device logs from the Teams Admin Center](../media/device-logs.png) ](../media/device-logs.png#lightbox)
 
 Open the file and use the following keywords to search for in the device text log:
 
