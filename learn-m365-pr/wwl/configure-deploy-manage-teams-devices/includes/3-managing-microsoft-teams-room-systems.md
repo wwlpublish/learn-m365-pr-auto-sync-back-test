@@ -4,7 +4,7 @@ Microsoft Teams Rooms scale to different room sizes. Teams Rooms use a wide vari
 In the following picture, you can see the key benefits of deploying Microsoft Teams Rooms. These include the ability to transform existing meeting rooms by adding Teams, fit into different spaces from huddle rooms, personal offices to large event and board rooms, simple management with integration into the Teams Admin Center, and the ability to connect with third-party hardware and software solutions that are certified for use.
 
 > [!div class="mx-imgBorder"]
-> ![Key benefits of Microsoft Teams Rooms are shown in this image. Transform your meeting room with Teams, showing a room console. Make any space a Teams meeting place, showing an executive chair. Easy to deploy, simple to manage, showing a spanner and a cog. Connect with hardware and software, showing a connected mesh to signify a rich ecosystem.](../media/managing-teams-room-systems.png)
+> [ ![Key benefits of Microsoft Teams Rooms are shown in this image. Transform your meeting room with Teams, showing a room console. Make any space a Teams meeting place, showing an executive chair. Easy to deploy, simple to manage, showing a spanner and a cog. Connect with hardware and software, showing a connected mesh to signify a rich ecosystem.](../media/managing-teams-room-systems.png) ](../media/managing-teams-room-systems.png#lightbox)
 
 Microsoft Teams devices are designed to help people maximize the power of Teams and bridge the gap between remote and shared workspaces. Through a combination of Teams meetings features, people-centric room experiences, and industry-leading hardware, users benefit from low-friction, inclusive, and interactive meetings, whether they join remotely or in the meeting room.
 
@@ -34,7 +34,7 @@ There are two core options for managing Microsoft Teams Rooms - unmanaged and ma
 An unmanaged option allows the flexibility as an IT administrator to manage devices without Microsoft or partner assistance. Managed options include Microsoft Teams Room Premium, Microsoft Endpoint Manager, and Azure Monitor. All options include capabilities to manage device settings, collect statistics, and collect logs using the Teams Admin Center.
 
 > [!div class="mx-imgBorder"]
-> ![A screenshot of the Teams Admin Center displaying the Teams Rooms page of the user interface, with a devices summary showing 4 devices, then four devices shown in a list. Three devices are showing Offline and one device is showing Online.](../media/teams-rooms-management-options.png)
+> [ ![A screenshot of the Teams Admin Center displaying the Teams Rooms page of the user interface, with a devices summary showing 4 devices, then four devices shown in a list. Three devices are showing Offline and one device is showing Online.](../media/teams-rooms-management-options.png) ](../media/teams-rooms-management-options.png#lightbox)
 
 The easiest way to manage Teams Rooms is to let it manage itself. When run in an unmanaged configuration, all Windows updates and Teams Rooms application updates come directly from Microsoft. Teams Rooms runs a scheduled task nightly at 2:00 in the morning to download and install any pending updates. The Teams Rooms compute module needs access to the Microsoft update servers on the Internet. You use the local administrator account to sign into the machine when necessary.
 
@@ -43,7 +43,7 @@ By using Microsoft Endpoint Manager Configuration Manager, you can deploy operat
 Azure Monitor allows you to leverage cloud-based integrated end-to-end management of Microsoft Teams Rooms devices, using Log Analytics within Azure Monitor to provide basic telemetry and alerts. This allows configuration of a dashboard view of device heartbeat status, hardware status, operating system details, deployed Microsoft Teams Room application software versions, application errors, and other information including device restarts.
 
 > [!div class="mx-imgBorder"]
-> ![A screenshot of the Microsoft Azure portal, showing the Azure Monitor user interface. It shows connected Microsoft Teams Room systems data for 3 active devices, and shows data such as the inactive devices, devices that have experienced a hardware error and deployed operating system versions.](../media/azure-monitor-dashboard.png)
+> [ ![A screenshot of the Microsoft Azure portal, showing the Azure Monitor user interface. It shows connected Microsoft Teams Room systems data for 3 active devices, and shows data such as the inactive devices, devices that have experienced a hardware error and deployed operating system versions.](../media/azure-monitor-dashboard.png) ](../media/azure-monitor-dashboard.png#lightbox)
 
 Microsoft Teams Rooms Premium consists of several features such as inventory management, update management, troubleshooting and remediation, and many more. These features and services make up the Microsoft Teams Rooms managed service. In addition to the managed services, Teams Rooms Premium includes the Teams Rooms standard license.
 
@@ -111,7 +111,7 @@ Get-CsMeetingRoom -Identity "MicrosoftTeamsRoom@contoso.com" | Format-List Enter
 
 After enabling voice services for a device account the Microsoft Teams Room will display a dial-pad. This will allow the user to dial in to a third-party PSTN conference bridge from the Microsoft Teams Room or perform direct calls to individual subscribers.
 
-## Microsoft Teams Room Policy Options
+## Microsoft Teams Room policy options
 
 If you have Microsoft Teams Rooms-certified devices in your organization, you have flexible management options. You can manage the devices yourself in the same central location where you manage all your Teams solutions. Microsoft Teams Admin Center or you can transfer management responsibility to dedicated experts using Microsoft Teams Rooms Managed Services. You can also delegate management access to a partner of your choice for either of the options.
 

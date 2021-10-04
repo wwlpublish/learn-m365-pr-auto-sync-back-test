@@ -39,7 +39,7 @@ To remotely provision a new device, perform the following steps in written order
 On the following picture, you can see the Microsoft Teams admin center portal on the **Provision new devices window** with the **Add MAC IDs** section highlighted.
 
 > [!div class="mx-imgBorder"]
-> ![A screenshot of the Teams Admin Center showing how to provision new Teams Phone devices remotely. The Add MAC IDs manually button is highlighted.](../media/remote-provisioning-setting.png)
+> [ ![A screenshot of the Teams Admin Center showing how to provision new Teams Phone devices remotely. The Add MAC IDs manually button is highlighted.](../media/remote-provisioning-setting.png) ](../media/remote-provisioning-setting.png#lightbox)
 
 - Enter the MAC ID, enter a location, which helps technicians identify where to install the devices and select **Apply** when finished.
 
@@ -64,22 +64,22 @@ Select **Provision device** from the **Settings** screen as shown in the picture
 Then enter the device-specific verification code in the provided input field.
 
 > [!div class="mx-imgBorder"]
-> ![The Teams Phone provision new device verification page](../media/device-provisioning-verification.png)
+> [ ![The Teams Phone provision new device verification page](../media/device-provisioning-verification.png) ](../media/device-provisioning-verification.png#lightbox)
 
 Once the device is provisioned successfully, the tenant’s name appears on the sign-in page. On the following picture, you can see how the page looks like and how you or an onsite technician is guided to finish the setup procedure.
 
 > [!div class="mx-imgBorder"]
-> ![Tenant name on sign-in page](../media/device-provisioning-success.png)
+> [ ![Tenant name on sign-in page](../media/device-provisioning-success.png) ](../media/device-provisioning-success.png#lightbox)
 
 Back in the Microsoft Teams admin center, the provisioned device appears in the **Awaiting sign in** tab. Start the remote sign-in process by selecting the individual device. Select a device from the **Awaiting sign in** tab.
 
 > [!div class="mx-imgBorder"]
-> ![The window with a list of devices ready for sign in.](../media/device-provisioning-awaiting.png)
+> [ ![The window with a list of devices ready for sign in.](../media/device-provisioning-awaiting.png) ](../media/device-provisioning-awaiting.png)
 
 Follow the instructions in **Sign in a user**, and then select **Close**.
 
 > [!div class="mx-imgBorder"]
-> ![the Sign in a user window for individual device](../media/device-provisioning-signin.png)
+> [ ![the Sign in a user window for individual device](../media/device-provisioning-signin.png) ](../media/device-provisioning-signin.png#lightbox)
 
 You have successfully completed provisioning of a device, and the use is now ready for working with it.
 

@@ -16,11 +16,11 @@ Using the device tag management panel, you can perform the following management 
 
 To manage device tags, sign-in to the Teams Admin Center and navigate to **Devices** and then choose any device pane, such as **Phones**.
 
-/Select **Actions** in the upper-right corner of the page and select **All device tags**.
+- Select **Actions** in the upper-right corner of the page and select **All device tags**.
 
-/To create a device tag, select **+ Add**, provide a value for the device tag, and select the **Save** icon.
+- To create a device tag, select **+ Add**, provide a value for the device tag, and select the **Save** icon.
 
-/To remove a device tag, select the ellipsis **...** next to the device tag you want to remove, and select **Delete**.
+- To remove a device tag, select the ellipsis **...** next to the device tag you want to remove, and select **Delete**.
 
 ## Finding tagged devices
 
