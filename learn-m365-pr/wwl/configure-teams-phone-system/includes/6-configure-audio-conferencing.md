@@ -86,8 +86,7 @@ To do this, you must acquire a new service number from Microsoft. You can then a
 After performing the described steps, you have assigned a service number as a Dedicated conference number for your tenant.
 
 > [!div class="mx-imgBorder"]
-> ![Conference bridge configuration in the Teams Admin Center](../media/conference-bridges-settings.png)
-
+> [ ![Conference bridge configuration in the Teams Admin Center](../media/conference-bridges-settings.png) ](../media/conference-bridges-settings.png#lightbox)
 
 The above picture shows the ability to define the default language for a conference bridge number.
 

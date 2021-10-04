@@ -16,7 +16,7 @@ Calling policies can enable or disable the following:
 | Voicemail is available for routing inbound calls| Enables inbound calls to be routed to voicemail.| Select user controlled so the user can define their setting.|
 | Inbound calls can be routed to call groups| Inbound calls can be routed to call groups| Set to on, this is a useful option for users who need to forward their number to a team|
 | Delegation for inbound and outbound calls| Enables inbound calls to be routed to delegates; allows delegates to make outbound calls on behalf of the users for whom they have delegated permissions.| Set to on. Useful for users|
-| Prevent toll bypass and send calls through the PSTN| Setting this to on will send calls through PSTN and incur charges rather than going through the network and bypassing the tolls.This setting only works with Direct Routing that is configured to handle location-based routing restrictions.| Set to off unless you have a particular regulatory reason to turn this on.Do not set this parameter to True for Calling Plan users as it will prevent successful call routing|
+| Prevent toll bypass and send calls through the PSTN| Setting this to on will send calls through PSTN and incur charges rather than going through the network and bypassing the tolls. This setting only works with Direct Routing that is configured to handle location-based routing restrictions.| Set to off unless you have a particular regulatory reason to turn this on.Do not set this parameter to True for Calling Plan users as it will prevent successful call routing|
 | Music on hold for PSTN callers| Allows you to turn on or turn off the music on hold when a PSTN caller is placed on hold.<br>This setting does not apply to call park and SLA boss delegate features.| Se this to On. Silence while on hold is confusing to users.|
 | Busy on busy when in a call - when you are on a call a second incoming call will not alert you, it will be routed as an unanswered call for that user, typically to voicemail| Configures how incoming calls are handled when a user is already in a call or conference or has a call placed on hold.<br>When enabled, new or incoming calls will be rejected with a busy signal.<br>When set to Unanswered, the user's unanswered settings will take effect, such as routing to voicemail or forwarding to another user.| Set this to off. Most users want a notification of a second incoming call when on a call.|
 | Web PSTN calling - specifically block PSTN calling from the web client| Allows PSTN calling from the Team web client.| Set to on. There is normally no reason to disable PSTN calling from the browser.|
@@ -59,7 +59,7 @@ In Teams, there are two types of dial plans: service-country and tenant. Tenant-
 
 | Dial plan scope| About|
 | :--- | :--- |
-| Service-country| -A service-scoped dial plan is defined for every country/region where Phone System is available-Each user is automatically assigned the service-country dial plan that matches the usage location assigned to the user. You can't change the service-country dial plan|
+| Service-country| A service-scoped dial plan is defined for every country/region where Phone System is available. Each user is automatically assigned the service-country dial plan that matches the usage location assigned to the user. You can't change the service-country dial plan|
 | Tenant-global| Applies to all users in your tenant/organization|
 | Tenant-user| Can be applied to select users|
 
@@ -145,7 +145,7 @@ Some organizations may wish to not present any number, so callers don’t know i
 | Replace the caller ID with Service number| Allows you to assign any service number. The number must be on your tenant and actively assigned to a service. Useful to have call backs route to a call queue or auto attendant.|
 | Block incoming caller ID| Allows you to block the Caller ID of incoming PSTN calls. This is not normally required.|
 | Replace the caller ID with User's number| Sets caller ID back to the default of presenting the user’s actual number.|
-| Override the caller ID policy| Let’s end users control if their caller ID is displayed or not for outbound calls. They can set this in their Teams client settings if this option is enabled. This is useful to allow users to make their own decision.If this is on, End users can set their caller ID to Anonymous by going to Settings > Calls in the Teams client, and then under Caller ID, select Hide my phone number and profile information for all calls.|
+| Override the caller ID policy| Let’s end users control if their caller ID is displayed or not for outbound calls. They can set this in their Teams client settings if this option is enabled. This is useful to allow users to make their own decision. If this is on, End users can set their caller ID to Anonymous by going to Settings > Calls in the Teams client, and then under Caller ID, select Hide my phone number and profile information for all calls.|
 
 You can use the Global (Org-wide default) policy and customize it or create a custom policy for a subset of users.
 
