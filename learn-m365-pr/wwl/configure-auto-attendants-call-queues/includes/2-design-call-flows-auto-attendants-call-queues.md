@@ -189,12 +189,10 @@ The following diagram shows an example call queue design without an attendant:
 > [!div class="mx-imgBorder"]
 > ![Design Call Queues](../media/call-queue-attendantless.png)
 
-
 The following diagram shows an example call queue design with an attendant.
 
 > [!div class="mx-imgBorder"]
 > ![Design Call Queues with auto attendant](../media/call-queue-attendant.png)
-
 
 ## Write the scripts
 
