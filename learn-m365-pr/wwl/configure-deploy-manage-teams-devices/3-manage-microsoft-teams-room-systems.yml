@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.configure-deploy-manage-teams-devices.manage-microsoft-teams-room-systems
+title: Manage Microsoft Teams Room Systems
+metadata:
+  title: Manage Microsoft Teams Room Systems
+  description: "Manage Microsoft Teams Room Systems"
+  ms.date: 10/05/2021
+  author: wwlpublish
+  ms.author: dahans
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 17
+content: |
+  [!include[](includes/3-manage-microsoft-teams-room-systems.md)]
