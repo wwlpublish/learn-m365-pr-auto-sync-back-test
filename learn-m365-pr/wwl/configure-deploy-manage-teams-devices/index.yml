@@ -1,0 +1,42 @@
+### YamlMime:Module
+uid: learn.wwl.configure-deploy-manage-teams-devices
+metadata:
+  title: Configure, deploy, and manage Teams devices
+  description: "Teams devices provide a familiar experience and are essential for a hybrid workspace. Learn how to provision and manage devices, and associated device accounts."
+  ms.date: 10/05/2021
+  author: wwlpublish
+  ms.author: dahans
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Configure, deploy, and manage Teams devices
+summary: Teams devices provide a familiar experience and are essential for a hybrid workspace. Learn how to provision and manage devices, and associated device accounts.
+abstract: |
+  At the end of this module, you will be able to:
+  - Understand scenarios for using Teams Phones, Teams Displays, and Microsoft Teams Rooms with voice services.
+  - Differentiate between the different options for deployment and management of devices.
+  - Deploy Teams Phones and Teams Displays.
+  - Configure voice services for Microsoft Teams Rooms.
+  - Manage Teams Devices in the Teams Admin Center.
+prerequisites: |
+  - Familiarity with Microsoft Teams voice services
+  - Understanding of the Teams Admin Center and PowerShell
+iconUrl: /learn/achievements/generic-badge.svg
+levels:
+- advanced
+roles:
+- administrator
+products:
+- m365
+- office-teams
+units:
+- learn.wwl.configure-deploy-manage-teams-devices.introduction
+- learn.wwl.configure-deploy-manage-teams-devices.manage-microsoft-teams-phones
+- learn.wwl.configure-deploy-manage-teams-devices.manage-microsoft-teams-room-systems
+- learn.wwl.configure-deploy-manage-teams-devices.manage-microsoft-teams-displays
+- learn.wwl.configure-deploy-manage-teams-devices.remote-provisioning-sign-teams-phones
+- learn.wwl.configure-deploy-manage-teams-devices.update-microsoft-remotely
+- learn.wwl.configure-deploy-manage-teams-devices.manage-microsoft-teams-device-tags
+- learn.wwl.configure-deploy-manage-teams-devices.knowledge-check
+- learn.wwl.configure-deploy-manage-teams-devices.summary-&amp;-resources
+badge:
+  uid: learn.wwl.configure-deploy-manage-teams-devices.badge
