@@ -16,21 +16,21 @@ Device firmware updates are applied automatically. You can decide whether to app
 
 To choose the automatic update behavior for your devices, do the following:
 
-- Navigate to the **Teams admin center** at [https://admin.teams.microsoft.com](https://admin.teams.microsoft.com/)
+1. Navigate to the **Teams admin center** at [https://admin.teams.microsoft.com](https://admin.teams.microsoft.com/)
 
-- Navigate to **Devices** and select **IP phones / Collaboration bars / Teams panels**.
+1. Navigate to **Devices** and select **IP phones / Collaboration bars / Teams panels**.
 
-- Select one or more devices and then select **Update**.
+1. Select one or more devices and then select **Update**.
 
-- Under Firmware auto-update, select one of the following:
+1. Under Firmware auto-update, select one of the following:
 
-  - As soon as available Second-newest device firmware update is applied on the first weekend after the latest update is released
+    1. As soon as available Second-newest device firmware update is applied on the first weekend after the latest update is released
 
-  - Defer 30 days Second-newest device firmware update is applied 30 days after the latest update is released.
+    1. Defer 30 days Second-newest device firmware update is applied 30 days after the latest update is released.
 
-  - Defer 90 days Second-newest device firmware update is applied 90 days after the latest update is released.
+    1. Defer 90 days Second-newest device firmware update is applied 90 days after the latest update is released.
 
-- Select **Update**
+1. Select **Update**
 
 You should use Automatic Updates where you can. As automatic updates are not applied immediately upon release and allow for deferral, you have time to examine release notes and check for changes, such as additional functionality that you might wish to provide user guidance for.
 
@@ -42,13 +42,13 @@ When you update one or more devices using the admin center, you can decide wheth
 
 To manually update remote devices, do the following:
 
-- Sign in to **Microsoft Teams admin center** by visiting [https://admin.teams.microsoft.com](https://admin.teams.microsoft.com/).
+1. Sign in to **Microsoft Teams admin center** by visiting [https://admin.teams.microsoft.com](https://admin.teams.microsoft.com/).
 
-- Navigate to **Devices** and select one of the device categories, such as **IP phones** or **Collaboration bars**.
+1. Navigate to **Devices** and select one of the device categories, such as **IP phones** or **Collaboration bars**.
 
-- Select one or more devices and then select **Update**.
+1. Select one or more devices and then select **Update**.
 
-- Under **Manual updates**, select **Schedule** if you want to schedule the update for a future date and time. The updates are applied at the date and time in the timezone selected in **Timezone**.
+1. Under **Manual updates**, select **Schedule** if you want to schedule the update for a future date and time. The updates are applied at the date and time in the timezone selected in **Timezone**.
 
 When you select multiple devices, you can choose which update types to apply to each selected device. Select the update types you want to apply and select Update.
 

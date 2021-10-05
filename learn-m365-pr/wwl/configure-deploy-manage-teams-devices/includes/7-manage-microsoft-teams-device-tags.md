@@ -26,23 +26,23 @@ To manage device tags, sign-in to the Teams Admin Center and navigate to **Devic
 
 If you've added device tags to your devices, you can use them to filter the device list to return only the devices that have had a specified tag added to them. This can be helpful if you just want to view all the devices in a specific room, all the devices of a certain type, or any other criteria you used when adding your tags. If you need to perform bulk actions against all phones in a contact center, ensuring they have a tag set, will allow you to do this easily and ensure you don’t apply those changes to executives or receptionists. You can also perform bulk actions on returned devices, such as applying updates in waves, or setting different configuration policies depending on the groups of devices identified using device tags.
 
-- Navigate to the Microsoft Teams admin center at [https://admin.teams.microsoft.com](https://admin.teams.microsoft.com/)
+1. Navigate to the Microsoft Teams admin center at [https://admin.teams.microsoft.com](https://admin.teams.microsoft.com/)
 
-- Sign in with an account that is member of one of the required privileged roles.
+1. Sign in with an account that is member of one of the required privileged roles.
 
-- Navigate to **Devices** and then choose the device pane that contains the devices you want to filter.
+1. Navigate to **Devices** and then choose the device pane that contains the devices you want to filter.
 
-- Select the **Filter** icon.
+1. Select the **Filter** icon.
 
-    - If you only want to specify a single tag, or if you want to find devices that have all the tags you specify, select **Match all of these conditions**.
+    1. If you only want to specify a single tag, or if you want to find devices that have all the tags you specify, select **Match all of these conditions**.
 
-    - If you want to find devices that match one or more device tags, select **Match any one of these conditions**.
+    1. If you want to find devices that match one or more device tags, select **Match any one of these conditions**.
 
-- Select the **Tag** field and then specify a device tag name in the **Enter a value** field.
+1. Select the **Tag** field and then specify a device tag name in the **Enter a value** field.
 
-    - If you want to add more device tags, select **Add more** and repeat step 6 for each tag you want to add.
+    1. If you want to add more device tags, select **Add more** and repeat step 6 for each tag you want to add.
 
-- Select **Apply**.
+1. Select **Apply**.
 
 After you've filtered the devices in your device list, you can perform actions on them as you normally would. For example, you can select them and then assign configurations, edit their settings (if they're Teams Rooms devices), and so on. When you're done, you can remove the filter by selecting the **X** next to the **Tag** filter entry or by selecting **Clear all** on the right side of the list.
 

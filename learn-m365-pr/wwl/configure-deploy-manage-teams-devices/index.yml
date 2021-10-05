@@ -1,14 +1,14 @@
 ### YamlMime:Module
 uid: learn.wwl.configure-deploy-manage-teams-devices
 metadata:
-  title: Configure deploy and manage Teams devices
+  title: Configure, deploy, and manage Teams devices
   description: "Teams devices provide a familiar experience and are essential for a hybrid workspace. Learn how to provision and manage devices, and associated device accounts."
-  ms.date: 10/04/2021
+  ms.date: 10/05/2021
   author: wwlpublish
   ms.author: dahans
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-title: Configure deploy and manage Teams devices
+title: Configure, deploy, and manage Teams devices
 summary: Teams devices provide a familiar experience and are essential for a hybrid workspace. Learn how to provision and manage devices, and associated device accounts.
 abstract: |
   At the end of this module, you will be able to:
@@ -30,9 +30,9 @@ products:
 - office-teams
 units:
 - learn.wwl.configure-deploy-manage-teams-devices.introduction
-- learn.wwl.configure-deploy-manage-teams-devices.managing-microsoft-teams-phones
-- learn.wwl.configure-deploy-manage-teams-devices.managing-microsoft-teams-room-systems
-- learn.wwl.configure-deploy-manage-teams-devices.managing-microsoft-teams-displays
+- learn.wwl.configure-deploy-manage-teams-devices.manage-microsoft-teams-phones
+- learn.wwl.configure-deploy-manage-teams-devices.manage-microsoft-teams-room-systems
+- learn.wwl.configure-deploy-manage-teams-devices.manage-microsoft-teams-displays
 - learn.wwl.configure-deploy-manage-teams-devices.remote-provisioning-sign-teams-phones
 - learn.wwl.configure-deploy-manage-teams-devices.update-microsoft-remotely
 - learn.wwl.configure-deploy-manage-teams-devices.manage-microsoft-teams-device-tags
