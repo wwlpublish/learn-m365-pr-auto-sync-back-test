@@ -3,6 +3,7 @@ Information barriers (IBs) are policies that an admin can configure to prevent i
 IB policies also prevent lookups and discovery. If you attempt to communicate with someone you shouldn't be communicating with, you won't find that user in the people picker. The information barriers can be used in some of the following cases:
 
 - When a team must be prevented from communicating or sharing data with a specific other team.
+
 - When a team must not communicate or share data with anyone outside of that team.
 
 Here's an example. Alex belongs to the Banking segment and Bill belongs to the Financial advisor segment. Alex and Bill can't communicate with each other because the organization's IB policy blocks communication and collaboration between these two segments. However, Alex and Bill can communicate with Lee in HR.
@@ -13,39 +14,40 @@ Here's an example. Alex belongs to the Banking segment and Bill belongs to the F
 
 Information barriers are supported in Microsoft Teams, SharePoint, and OneDrive. In Microsoft Teams, IB policies are triggered when the following Teams events take place:
 
-- **Members are added to a team**. Whenever you add a user to a team, the user's policy must be evaluated against the IB policies of other team members. If the user's policy blocks them from being added to the team, the user won't show up in search.
+- **Members are added to a team**: Whenever you add a user to a team, the user's policy must be evaluated against the IB policies of other team members. If the user's policy blocks them from being added to the team, the user won't show up in search.
 
     :::image type="content" source="../media/information-barriers-add-members.png" alt-text="Screenshot of searching for a new member to add to a team and finding no matches":::
 
-- **A new chat is requested**. Each time that a user requests a new chat with one or more other users, the chat is evaluated to make sure that it isn't violating any IB policies. If the conversation violates an IB policy, then the conversation isn't started. Here's an example of a 1:1 chat.
+- **A new chat is requested**: Each time that a user requests a new chat with one or more other users, the chat is evaluated to make sure that it isn't violating any IB policies. If the conversation violates an IB policy, then the conversation isn't started. Here's an example of a 1:1 chat.
 
 	:::image type="content" source="../media/information-barriers-one-one-chat.png" alt-text="Screenshot showing blocked communication in 1:1 chat":::
 
-- **A user is invited to join a meeting**. When a user is invited to join a meeting, the IB policy that applies to the user is evaluated against the IB policies that apply to the other team members. If there's a violation, the user won't be allowed to join the meeting.
+- **A user is invited to join a meeting**: When a user is invited to join a meeting, the IB policy that applies to the user is evaluated against the IB policies that apply to the other team members. If there's a violation, the user won't be allowed to join the meeting.
 
     :::image type="content" source="../media/information-barriers-meeting.png" alt-text="Screenshot showing user blocked from meeting":::
 
-- **A screen is shared between two or more users**. When a user shares a screen with other users, the sharing must be evaluated to make sure that it doesn't violate the IB policies of other users. If an IB policy is violated, the screen share won't be allowed. Here's an example of screen share after the policy is applied. The screen share and call icons aren't visible.
+- **A screen is shared between two or more users**: When a user shares a screen with other users, the sharing must be evaluated to make sure that it doesn't violate the IB policies of other users. If an IB policy is violated, the screen share won't be allowed. Here's an example of screen share after the policy is applied. The screen share and call icons aren't visible.
 
-	:::image type="content" source="../media/information-barriers-after-screen-share-policy.png" alt-text="Screenshot showing user char with blocked settings" lightbox="../media/information-barriers-after-screen-share-policy.png":::
+	:::image type="content" source="../media/information-barriers-after-screen-share-policy.png" alt-text="Screenshot showing user share with blocked settings" lightbox="../media/information-barriers-after-screen-share-policy.png":::
 
-- **A user places a phone call in Teams**. Whenever a user starts a voice call (via VOIP) to another user or group of users, the call is evaluated to make sure that it doesn't violate the IB policies of other team members. If there's any violation, the voice call is blocked.
+- **A user places a phone call in Teams**: Whenever a user starts a voice call (via VOIP) to another user or group of users, the call is evaluated to make sure that it doesn't violate the IB policies of other team members. If there's any violation, the voice call is blocked.
 
-- **Guests in Teams**. IB policies apply to guests in Teams, too. You can define IB policies once guests are discoverable in your organization's global address list.
+- **Guests in Teams**: IB policies apply to guests in Teams, too. You can define IB policies once guests are discoverable in your organization's global address list.
 
 When admins create or update information barrier policies, the service automatically searches the members to ensure that the Team members are not violating any policies. If there are any new violations, the following actions are taken:  
-‎
-* **1:1 chat**. If a chat between two participants violates a policy, the chat is set to read-only and no new messages can be sent.
 
-* **Group chat**. If participants in a group chat violate a changed or new policy, the affected participants are removed from the chat and they can see the conversation history in read-only.
+- **1:1 chat**: If a chat between two participants violates a policy, the chat is set to read-only and no new messages can be sent.
 
-* **Team**. Any users who have been removed from the group are removed from the team and won't be able to see or participate in existing or new conversations.
+- **Group chat**: If participants in a group chat violate a changed or new policy, the affected participants are removed from the chat and they can see the conversation history in read-only.
+
+- **Team**: Any users who have been removed from the group are removed from the team and won't be able to see or participate in existing or new conversations.
 
 ## Workflow
-There are several steps to configuring information barrier policies for Microsoft Teams. When a team is created, a SharePoint site is provisioned and associated with Microsoft Teams for the files experience. Information barrier policies aren't honored on this SharePoint site and files by default. To enable information barriers in SharePoint and OneDrive, see [Use information barriers with SharePoint](https://docs.microsoft.com/sharepoint/information-barriers?azure-portal=true#prerequisites)
+
+There are several steps to configuring information barrier policies for Microsoft Teams. When a team is created, a SharePoint site is provisioned and associated with Microsoft Teams for the files experience. Information barrier policies aren't honored on this SharePoint site and files by default. To enable information barriers in SharePoint and OneDrive, see [Use information barriers with SharePoint](https://docs.microsoft.com/sharepoint/information-barriers?azure-portal=true#prerequisites).
 
 | Phase | What's involved |
-|--||
+|--------|------------------|
 | [Make sure prerequisites are met](https://docs.microsoft.com/microsoft-365/compliance/information-barriers-policies?azure-portal=true#prerequisites) | - Verify that you have the [required licenses and permissions](https://docs.microsoft.com/microsoft-365/compliance/information-barriers?azure-portal=true#required-licenses-and-permissions)<br/>- Verify that your directory includes data for segmenting users<br/>- Enable scoped directory search for Microsoft Teams<br/>- Make sure audit logging is turned on<br/>- Make sure no Exchange address book policies are in place<br/>- Use PowerShell <br/>- Provide admin consent for Microsoft Teams |
 | Part 1: Segment users in your organization | - Determine what policies are needed<br/>- Make a list of segments to define<br/>- Identify which attributes to use<br/>- Define segments in terms of policy filters |
 | Part 2: Define information barrier policies | - Define your policies (do not apply yet)<br/>- Choose from two kinds (block or allow) |
@@ -55,35 +57,41 @@ There are several steps to configuring information barrier policies for Microsof
 
 The following prerequisites must be in place to implement information barriers:
 
-* **Required licenses for information barriers**. Information barriers is an advanced compliance feature and requires according licenses. The feature is available for users with one of the following licenses:
+- **Required licenses for information barriers**: Information barriers is an advanced compliance feature and requires according licenses. The feature is available for users with one of the following licenses:
 
-	* Microsoft 365 E5/A5
-	* Office 365 E5/A5
-	* Office 365 Advanced Compliance
-	* Microsoft 365 Compliance E5/A5
-	* Microsoft 365 Insider Risk Management
+	- Microsoft 365 E5/A5
+
+	- Office 365 E5/A5
+
+	- Office 365 Advanced Compliance
+
+	- Microsoft 365 Compliance E5/A5
+
+	- Microsoft 365 Insider Risk Management
+
+- **Permissions for information barrier policies**: To define or edit information barrier policies, administrators must be assigned to one of the following roles:
+
+	- Microsoft 365 global administrator
+
+	- Office 365 global administrator
+
+	- Compliance administrator
+
+	- IB Compliance Management
 
 
-* **Permissions for information barrier policies**. To define or edit information barrier policies, administrators must be assigned to one of the following roles:
+- **Directory data**: Make sure that your organization's structure is reflected in directory data.
 
-	* Microsoft 365 global administrator
-	* Office 365 global administrator
-	* Compliance administrator
-	* IB Compliance Management
+- **Scoped directory search**: This setting must be turned on.
 
+- **Audit logging**: To look up the status of a policy application, audit logging must be turned on.
 
-* **Directory data**. Make sure that your organization's structure is reflected in directory data. 
+- **No address book policies**: Make sure no Exchange address book policies are in place.
 
-* **Scoped directory search**. This setting must be turned on.
+- **PowerShell with the Security &amp; Compliance Center module**: Information barriers can be configured using PowerShell and connecting the Security and Compliance center module to your Microsoft 365 tenant.
 
-* **Audit logging**. To look up the status of a policy application, audit logging must be turned on. 
+- **Admin consent for information barriers in Microsoft Teams**: Use the following procedure to enable information barrier policies to work as expected in Microsoft Teams.
 
-* **No address book policies**. Make sure no Exchange address book policies are in place.
-
-* **PowerShell with the Security &amp; Compliance Center module**. Information barriers can be configured using PowerShell and connecting the Security and Compliance center module to your Microsoft 365 tenant.
-
-* **Admin consent for information barriers in Microsoft Teams**. Use the following procedure to enable information barrier policies to work as expected in Microsoft Teams.
- 
 	1. Run the following PowerShell cmdlets:
 
 		```powershell
@@ -99,42 +107,47 @@ The following prerequisites must be in place to implement information barriers:
 		Start-Process https://login.microsoftonline.com/common/adminconsent?client_id=$appId 
 		```
 
-	2. When prompted, sign in using your work or school account for Office 365. 
+	2. When prompted, sign in using your work or school account for Office 365.
 
 	3. In the **Permissions requested** dialog box, review the information, and then select **Accept**.
- 
+
 ### Part 1: Segment users in your organization
+
 During this phase, you determine what information barrier policies are needed, make a list of segments to define, and then define your segments. When segmenting users, there are two important rules:
-* A user must be in only one segment.
-* Each segment must have only one information barrier. 
+
+- A user must be in only one segment.
+
+- Each segment must have only one information barrier.
 
 A segment is defined by certain directory attributes.
 To assign users to a segment, you use the cmdlet ```New-OrganizationSegment``` with the ```UserGroupFilter``` parameter:
 
 1. Open PowerShell and connect with the Security & Compliance Center PowerShell module to your tenant.  
+
 2. Run the following cmdlet and replace **segment-name** with a meaningful name and both **attribute** and **attribute-value** with the desired directory attribute to filter segment members for.
 
 	```powershell
 	New-OrganizationSegment -Name "segment-name" -UserGroupFilter "attribute -eq 'attribute-value'"	
 	```  
 
-	For example, to define a segment named Sales, using the Department 	attribute, use this command:
+	For example, to define a segment named Sales, using the Department attribute, use this command:
 
 	```powershell
 	New-OrganizationSegment -Name "Sales" -UserGroupFilter "Department -eq 'Sales'
 	```
 
 3. Repeat this process for each segment you want to define.
-
  
 ### Part 2: Define information barrier policies
 
 After creating segments, you can create the policies that restrict the segments from communication. There are two types of policies:
 
-* **Block** policies prevent one group from communicating with another group.
+- **Block** policies prevent one group from communicating with another group.
+
 - **Allow** policies allow a group to communicate with only certain other, specific groups.
 
 #### **Scenario 1:** Block communications between segments
+
 To block segments from communicating with each other, you need two policies: one for each direction. Each policy blocks communication one way only. Use the ```New-InformationBarrierPolicy``` cmdlet with the ```SegmentsBlocked``` parameter:
 
 ```powershell
@@ -151,8 +164,8 @@ New-InformationBarrierPolicy -Name "Sales-Research" -AssignedSegment "Sales" -Se
 New-InformationBarrierPolicy -Name "Research-Sales" -AssignedSegment "Research" -SegmentsBlocked "Sales" -State Inactive
 ```
 
-
 #### **Scenario 2:** Allow a segment to communicate with other segment
+
 To allow one segment to communicate with other segment, use the ```New-InformationBarrierPolicy``` cmdlet with the ```SegmentsAllowed``` parameter:
 
 ```powershell
@@ -185,13 +198,11 @@ After you run ```Start-InformationBarrierPoliciesApplication```, allow 30 minute
 
 For more information, see:
 
-- [Information barriers in Microsoft Teams](/MicrosoftTeams/information-barriers-in-teams)
+- [Information barriers in Microsoft Teams](/MicrosoftTeams/information-barriers-in-teams?azure-portal=true)
 
-- [Define policies for information barriers](/microsoft-365/compliance/information-barriers-policies)
+- [Define policies for information barriers](/microsoft-365/compliance/information-barriers-policies?azure-portal=true)
 
-- [Attributes for information barrier policies](/microsoft-365/compliance/information-barriers-attributes)
-
-
+- [Attributes for information barrier policies](/microsoft-365/compliance/information-barriers-attributes?azure-portal=true)
 
 ## Knowledge check
 

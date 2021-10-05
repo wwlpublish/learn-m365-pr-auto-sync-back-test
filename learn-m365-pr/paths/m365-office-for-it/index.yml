@@ -5,7 +5,7 @@ metadata:
   description: Learn how to move from a previous version of Microsoft Office to a newer version in your enterprise environment. Use Microsoft Endpoint Configuration Manager to roll out the upgrade at scale, saving you time and effort upgrading individual systems.
   ms.date: 11/14/2019
   author: AlexandraHrt
-  ms.author: v-aleha
+  ms.author: teleary
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Upgrade Microsoft Office for IT at scale

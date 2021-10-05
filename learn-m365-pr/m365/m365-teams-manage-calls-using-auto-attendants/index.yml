@@ -4,8 +4,8 @@ metadata:
   title: Manage calls in Microsoft Teams by using auto attendants and call queues 
   description: Learn how to use Microsoft Teams Phone's features to provide auto attendants and call queue services with Microsoft Teams.
   ms.date: 07/16/2021
-  ms.author: elizapo
   author: lizap
+  ms.author: teleary
   ms.topic: interactive-tutorial
   ms.prod: learning-teams
 title: Manage calls in Microsoft Teams by using auto attendants and call queues

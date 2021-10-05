@@ -20,13 +20,13 @@ Azure Active Directory (Azure AD) access reviews enable organizations to efficie
 
 The key benefits of enabling Access Reviews are:
 
-* **Control collaboration**. Access Reviews allows organizations to manage access to all the resources its users' need. When their users share and collaborate, organizations can be assured that the information is among authorized users only.
+* **Control collaboration** - Access Reviews allow organizations to manage access to all the resources its users' need. When their users share and collaborate, organizations can be assured that the information is among authorized users only.
 
-* **Manage risk**. Access Reviews provide organizations a way to review access to data and applications, lowering the risk of data leakage and data spill. This includes capabilities to regularly review external partner’s access to corporate resources. 
+* **Manage risk** - Access Reviews provide organizations a way to review access to data and applications, lowering the risk of data leakage and data spill. This includes capabilities to regularly review external partner’s access to corporate resources. 
 
-* **Address compliance and governance**. With Access Reviews, you can govern and recertify the access lifecycle to groups, apps, and sites. You can control track reviews for compliance or risk-sensitive applications specific to your organization. 
+* **Address compliance and governance** - With Access Reviews, you can govern and recertify the access lifecycle to groups, apps, and sites. You can control track reviews for compliance or risk-sensitive applications specific to your organization. 
 
-* **Reduce cost**. Access Reviews are built in the cloud,  and natively work with cloud resources such as groups, applications, and Access Packages. Using Access Reviews is less costly than building your own tools or otherwise upgrading your on-premises toolset.
+* **Reduce cost** - Access Reviews are built in the cloud, and natively work with cloud resources such as groups, applications, and Access Packages. Using Access Reviews is less costly than building your own tools or otherwise upgrading your on-premises toolset.
 
 ## Create Access Reviews for group members
 
@@ -46,19 +46,19 @@ The key benefits of enabling Access Reviews are:
 
 4. In **Step 2: Select which Teams + Groups** section, select one of the two options: 
 
-   - **All Microsoft 365 groups with guest users**. Select this option if you would like to create recurring reviews on all your guests across all your Microsoft Teams and Microsoft 365 groups in your organization. You can choose to exclude certain groups by selecting on ‘Select group(s) to exclude’.
+   - **All Microsoft 365 groups with guest users** - Select this option if you would like to create recurring reviews on all your guests across all your Microsoft Teams and Microsoft 365 groups in your organization. You can choose to exclude certain groups by selecting ‘Select group(s) to exclude’.
 
-   - **Select teams + groups**. Select this option if you would like to specify a finite set of teams and/or groups to review. After selecting on this option, you will see a list of groups to the right to pick from.
+   - **Select teams + groups** - Select this option if you would like to specify a finite set of teams and/or groups to review. After selecting this option, you will see a list of groups to the right to choose from.
 
 5. Next, in Step 3 you can select a scope for the review. Your options are
-   - **Guest users only**. Selecting this option limits the access review to just the Azure AD B2B guests in your directory.
-   - **Everyone**. Selecting this option scopes the access review to all user objects associated with the resource.
+   - **Guest users only** - Selecting this option limits the access review to just the Azure AD B2B guests in your directory.
+   - **Everyone** - Selecting this option scopes the access review to all user objects associated with the resource.
 
 	If you selected All Microsoft 365 groups with guests in Step 2, then your only option is to review guests in Step 3.
 
 	‎:::image type="content" source="../media/teams-groups.png" alt-text="Teams and groups":::
 
-6. Select on **Next: Reviews**.
+6. Select **Next: Reviews**.
 
 7. In the **Select reviewers** section, select either one or more people to perform the access reviews. You can choose from:
 
@@ -70,16 +70,16 @@ The key benefits of enabling Access Reviews are:
 
 8. In the **Specify recurrence of review** section, you can specify a frequency such as **Weekly, Monthly, Quarterly, Semi-annually, Annually**. You then specify a **Duration**, which defines how long a review will be open for input from reviewers. For example, the maximum duration that you can set for a monthly review is 27 days, to avoid overlapping reviews. You might want to shorten the duration to ensure that your reviewers input is applied earlier. Next, you can select a **Start date**, and **End date**.
 
-	‎:::image type="content" source="../media/new-access-review.png" alt-text="new access review":::
+	‎:::image type="content" source="../media/new-access-review.png" alt-text="New access review":::
 
 
-9. Select the **Next: Settings** button at the bottom of the page.
+9. Select the **Next: Settings** button at the lower end of the page.
 
 10. In the Upon completion settings, you can specify what happens after the review completes.
 
-    If you want to automatically remove access for denied users, set Auto apply results to resource to Enable. If you want to manually apply the results when the review completes, set the switch to Disable.
+    If you want to automatically remove access for denied users, set **Auto apply results to resource** to Enable. If you want to manually apply the results when the review completes, set the switch to **Disable**.
     
-    Use the If reviewers don't respond list to specify what happens for users that are not reviewed by the reviewer within the review period. This setting does not impact users who have been reviewed by the reviewers manually. If the final reviewer's decision is Deny, then the user's access will be removed.
+    Use the **If reviewers don't respond** list to specify what happens for users that are not reviewed by the reviewer within the review period. This setting does not impact users who have been reviewed by the reviewers manually. If the final reviewer's decision is **Deny**, then the user's access will be removed.
 
     - **No change** - Leave user's access unchanged
     - **Remove access** - Remove user's access
@@ -87,23 +87,23 @@ The key benefits of enabling Access Reviews are:
     - **Take recommendations** - Take the system's recommendation on denying or approving the user's continued access
 
     Use the Action to apply on denied **guest** users to specify what happens to guests if they are denied.
-    - Remove user’s membership from the resource will remove denied user’s access to the group or application being reviewed, they will still be able to sign in to the tenant.
+    - **Remove user’s membership from the resource** will remove denied user’s access to the group or application being reviewed, they will still be able to sign in to the tenant.
     - Block user from signing-in for 30 days, then remove user from the tenant will block the denied users from signing in to the tenant, regardless if they have access to other resources. If there was a mistake or if an admin decides to re-enable one’s access, they can do so within 30 days after the user has been disabled. If there is no action taken on the disabled users, they will be deleted from the tenant.
 
-11. You can send notifications to other users or groups (Preview) to receive review completion updates. This feature allows for stakeholders other than the review creator to be updated on the progress of the review. To use this feature, select **Select User(s) or Group(s)** and add an extra user or group upon you want to receive the status of completion.
+11. You can send notifications to other users or groups (Preview) to receive review completion updates. This feature allows for stakeholders other than the review creator to be updated on the progress of the review. To use this feature, select **Select User(s) or Group(s)** and add an extra user or group that you want to receive the status of completion.
 
 12. In the **Enable review decision helpers**, choose whether you would like your reviewer to receive recommendations during the review process.
 
-13. In the Advanced settings section, you can choose the following
+13. In the Advanced settings section, you can choose the following:
     - Set **Justification required** to **Enable** to require the reviewer to supply a reason for approval.
     - Set **email notifications** to **Enable** to have Azure AD send email notifications to reviewers when an access review starts, and to administrators when a review completes.
-    - Set **Reminders** to **Enable** to have Azure AD send reminders of access reviews in progress to reviewers who have not completed their review. These reminders will be self half-way through the duration of the review.
-    - The content of the email sent to reviewers is autogenerated based on the review details, such as review name, resource name, due date, etc. If you need a way to communicate other information such as other instructions or contact information, you can specify these details in the **Additional content for reviewer email** section. The information that you enter is included in the invitation and reminder emails sent to assigned reviewers. The section highlighted in the image below shows where this information is displayed.
+    - Set **Reminders** to **Enable** to have Azure AD send reminders of access reviews in progress to reviewers who have not completed their review. These reminders will be sent half-way through the duration of the review.
+    - The content of the email sent to reviewers is autogenerated based on the review details, such as review name, resource name, due date, and other details. If you need a way to communicate other information such as other instructions or contact information, you can specify these details in the **Additional content for reviewer email** section. The information that you enter is included in the invitation and reminder emails sent to assigned reviewers. The section highlighted in the following image shows where this information is displayed.
 
 	‎:::image type="content" source="../media/upon-completion-settings-new.png" alt-text="Upon completion settings options":::
 
 
-14. Select on **Next: Review + Create** to move to the next page
+14. Select **Next: Review + Create** to move to the next page.
 
 15. Name the access review. Optionally, give the review a description. The name and description are shown to the reviewers.
 
@@ -116,9 +116,9 @@ Prerequisite role: Global or User Administrator
 
 1. Sign in to the Azure portal and open the [Identity Governance page](https://portal.azure.com/#blade/Microsoft_AAD_ERM/DashboardBlade/?azure-portal=true).
 
-1. In the left menu, under **Access reviews**, **settings**.
+2. In the left menu, under **Access reviews**, **settings**.
 
-1. On the Delegate who can create and manage access reviews page, set the **(Preview) Group owners can create and manage for access reviews of groups they own** setting to **Yes**.
+3. On the Delegate who can create and manage access reviews page, set the **(Preview) Group owners can create and manage for access reviews of groups they own** setting to **Yes**.
    
 
 ## Review access to groups 

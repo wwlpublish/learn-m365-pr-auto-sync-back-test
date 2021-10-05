@@ -2,7 +2,7 @@ In this unit, you'll learn the basics of an Outlook mail add-in.
 
 ## Office developer platform overview
 
-The Microsoft 365 developer platform platform, which includes Office, offers many canvases for developers to embed customizations and Office add-ins are one of three canvases: documents, conversations  and pages.
+The Microsoft 365 developer platform, which includes Office, offers many canvases for developers to embed customizations and Office add-ins are one of three canvases: documents, conversations  and pages.
 
 Microsoft Teams makes conversations between users and enables developers to extend the experience using messaging extensions, conversational bots, and other customization options.
 

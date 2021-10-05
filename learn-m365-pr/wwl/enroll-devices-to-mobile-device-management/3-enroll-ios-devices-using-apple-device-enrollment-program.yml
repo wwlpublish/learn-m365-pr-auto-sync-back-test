@@ -4,12 +4,14 @@ title: Enroll iOS devices using Apple's Device Enrollment Program
 metadata:
   title: Enroll iOS devices using Apple's Device Enrollment Program
   description: "Enroll iOS devices using Apple's Device Enrollment Program"
-  ms.date: 07/27/2021
+  ms.date: 09/17/2021
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
+sandbox: false
+labModal: false
 durationInMinutes: 2
 content: |
   [!include[](includes/3-enroll-ios-devices-using-apple-device-enrollment-program.md)]

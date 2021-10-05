@@ -5,7 +5,7 @@ metadata:
   title: Prepare for deployment of meetings in Teams
   description: Learn about the process and steps needed to extend your Microsoft Teams service to include meetings. This includes considerations around network and bandwidth, exchange dependencies and licensing costs.
   ms.date: 07/15/2021
-  ms.author: elizapo
+  ms.author: teleary
   author: lizap
   ms.topic: interactive-tutorial
   ms.prod: learning-teams

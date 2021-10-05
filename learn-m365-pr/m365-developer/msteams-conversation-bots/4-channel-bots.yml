@@ -3,9 +3,9 @@ uid: learn-m365.msteams-conversation-bots.4-channel-bots
 metadata:
   title: Bots in Microsoft Teams channels and group chats
   description: In this unit, you’ll learn how to expand on your existing bot to subscribe to channel or group chat events, listen for and act on Microsoft Teams specific events and even update their own messages.
-  ms.date: 06/18/2021
-  author: andrewconnell
-  ms.author: v-johnco
+  ms.date: 09/13/2021
+  author: andrewconnell-msft
+  ms.author: suzanz
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Bots in Microsoft Teams channels and group chats

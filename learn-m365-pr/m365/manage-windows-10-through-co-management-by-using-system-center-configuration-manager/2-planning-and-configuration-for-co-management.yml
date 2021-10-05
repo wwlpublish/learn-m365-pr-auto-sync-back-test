@@ -6,7 +6,7 @@ metadata:
   description: Describe the available workloads supported by co-management and how to plan your deployment
   ms.date: 06/18/2021
   author: dahans-msft2
-  ms.author: dahans
+  ms.author: teleary
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 durationInMinutes: 5

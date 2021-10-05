@@ -10,7 +10,7 @@ To assign these services, you can either:
 
  -  Select the **Assign to** option once the license has been claimed and add it to the user’s account.
 
-**Additional reading.** For more information, see the following article on [Add-ons and services](/dynamics365/customer-engagement/admin/add-office-365-online-services).
+**Additional reading.** For more information, see the following article on [Add-ons and services](/dynamics365/customer-engagement/admin/add-office-365-online-services?azure-portal=true).
 
 ## Knowledge check
 

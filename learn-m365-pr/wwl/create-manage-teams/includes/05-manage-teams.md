@@ -4,7 +4,7 @@ As an admin, you may need to view or update the teams that your organization set
 
 Management tools for teams are available under the **Teams** node in the Microsoft Teams admin center. (In the admin center, select **Teams** > **Manage teams**.) Each team is backed by a Microsoft 365 Group, and this node provides a view of groups that have been Microsoft Teams-enabled in your organization.
 
-:::image type="content" source="../media/teams-overview-grid.png" alt-text="Screen shot of the Teams overview grid" lightbox="../media/teams-overview-grid.png":::
+:::image type="content" source="../media/teams-overview-grid.png" alt-text="Screenshot of the Teams overview grid" lightbox="../media/teams-overview-grid.png":::
  
 
 The grid displays the following properties:
@@ -34,8 +34,8 @@ You can use the Teams Admin Center to do the following operations with teams:
 
 | Operations | Details                                                                                                                                                                                       |
 |------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Add        | To add a new team, click Add. In the Add a new team pane, give the team a name and description, set whether you want to make it a private or public team.         |
-| Edit       | To edit group and team-specific settings, select the team by clicking to the left of the team name, and then select Edit.                                                                     |
+| Add        | To add a new team, click **Add**. In the **Add a new team** pane, give the team a name and description, set whether you want to make it a private or public team.         |
+| Edit       | To edit group and team-specific settings, select the team by clicking to the left of the team name, and then select **Edit**.                                                                     |
 | Archive    | You can archive a team. Archiving a team puts the team into read-only mode within Teams. As an admin, you can archive and unarchive teams on behalf of your organization in the admin center. |
 | Delete     | Deleting a team is a soft delete of the team and corresponding Microsoft 365 Group.                 |
 | Search     | Search currently supports the string "Begins with" and searches the Team name field.                                                                                                          |

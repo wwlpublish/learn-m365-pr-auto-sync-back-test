@@ -1,12 +1,12 @@
 There are many ways to create a Microsoft 365 group. Beyond the Microsoft 365 admin center, users can create Microsoft 365 groups in the following primary communication applications in Microsoft 365:
 
-- **Outlook**. Collaboration through email with a shared group inbox and calendar.  
+- **Outlook** - Collaboration through email with a shared group inbox and calendar.  
 
-- **Microsoft Teams**. A persistent chat-based workspace where you can have informal, real-time, conversations around various topics, organized by specific subgroups.  
+- **Microsoft Teams** - A persistent chat-based workspace where you can have informal, real-time, conversations around various topics, organized by specific subgroups.  
 
-- **SharePoint**. A central repository for information, links and content relating to your group.
+- **SharePoint** - A central repository for information, links and content relating to your group.
 
-- **Yammer**. Enterprise social experience for collaboration.
+- **Yammer** - Enterprise social experience for collaboration.
 
 While users can create a Microsoft 365 group from Outlook or other apps, as an admin, you may need to create or delete groups, add or remove members, and customize how they work. The Microsoft 365 admin center is the place to do this.
 
@@ -19,9 +19,9 @@ You can create a new Microsoft 365 group using Microsoft 365 admin center or Pow
 
 2. On the **Groups** page, select **Add a group**.
 
-3. On the **Choose a group type** page, select **Microsoft 365**, and select Next.
+3. On the **Choose a group type** page, select **Microsoft 365**, and select **Next**.
 
-4. On the **Set up the basics** page, type a name for the group, and, optionally, a description. Select Next.
+4. On the **Set up the basics** page, type a name for the group, and, optionally, a description. Select **Next**.
 
 5. On the **Assign owners** page, select **+ Assign owners** and add the name of one or more people who will be designated to manage the group.
 
@@ -29,7 +29,7 @@ You can create a new Microsoft 365 group using Microsoft 365 admin center or Pow
 
 7. On the **Edit settings** page, type a unique email address for the group, choose a privacy option and whether you want to add Microsoft Teams, and then select **Next**.
 
-    ‎‎:::image type="content" source="../media/create-microsoft-365-group.png" alt-text="Create a Microsoft 365 Group":::
+    ‎‎:::image type="content" source="../media/create-microsoft-365-group.png" alt-text="Create a Microsoft 365 group":::
 
 8. In the **Group email address** field, type an email address for the group, for example SalesDepartment@contoso.com and optionally enter a description in the **Description** field.
 
@@ -41,7 +41,7 @@ Once the group is created, it will appear in Outlook with members assigned to it
 
 ### Use PowerShell
 
-To create Microsoft 365 Group with PowerShell, use the ```New-UnifiedGroup``` cmdlet when connected to Exchange Online. For example, to create a new Microsoft 365 group with name **"Sales Department"** and alias **Salesdepartment**, run the following cmdlet:
+To create a Microsoft 365 group with PowerShell, use the ```New-UnifiedGroup``` cmdlet when connected to Exchange Online. For example, to create a new Microsoft 365 group with the name **"Sales Department"** and alias **Salesdepartment**, run the following cmdlet:
 
 ```powershell
 New-UnifiedGroup -DisplayName "Sales Department" -Alias Salesdepartment
@@ -49,26 +49,26 @@ New-UnifiedGroup -DisplayName "Sales Department" -Alias Salesdepartment
 
 ## Upgrade a distribution list to a Microsoft 365 group
 
-**Distribution lists** have a long history in messaging for organizing people into groups to facilitate communication and collaboration. But distribution lists are limited to email messages, and available in SharePoint for distribution only. Turning a Distribution List into a Microsoft 365 Group adds more collaboration capabilities for users. It also has the benefit of keeping permissions and membership intact instead of creating a new group that you must add to your Access Control.
+**Distribution lists** have a long history in messaging for organizing people into groups to facilitate communication and collaboration. But distribution lists are limited to email messages, and available in SharePoint for distribution only. Turning a Distribution List into a Microsoft 365 group adds more collaboration capabilities for users. It also has the benefit of keeping permissions and membership intact instead of creating a new group that you must add to your Access Control.
 
 > [!NOTE]
-> If you upgrade distribution lists to a Microsoft 365 Group, existing users will not receive a welcome mail when joining this group.
+> If you upgrade distribution lists to a Microsoft 365 group, existing users will not receive a welcome mail when joining this group.
 
 ### Use Exchange admin center
 
-To upgrade a distribution list to a Microsoft 365 Group, you need to log in to the Exchange admin center as an administrator such as Microsoft 365 global admin or Exchange admin and follow these steps:
+To upgrade a distribution list to a Microsoft 365 group, you need to sign in to the Exchange admin center as an administrator such as Microsoft 365 global admin or Exchange admin and follow these steps:
 
 1. Go to the Exchange admin center.
 
 2. In the Exchange admin center, go to **Recipients** > **Groups**.
 
-3. On the **Groups** page, select **Distribution list** tab. ‎You'll see a distribution lists (also called **distribution groups** ) that are eligible to be upgraded to Microsoft 365 groups.  
+3. On the **Groups** page, select the **Distribution list** tab. ‎You'll see a distribution lists (also called **distribution groups** ) that are eligible to be upgraded to Microsoft 365 groups.  
 
 4. Select a distribution group list (also called a **distribution group**) that you want to upgrade to a Microsoft 365 group. 
 
-5. Select **Upgrade distribution group** option from the top menu.
+5. Select the **Upgrade distribution group** option from the top menu.
 
-6. On the information dialog, select **Upgrade** to confirm the upgrade. The process begins immediately. Depending on the size and number of DLs, the process can take several minutes or up to some hours. 
+6. On the information dialog, select **Upgrade** to confirm the upgrade. The process begins immediately. Depending on the size and number of DLs, the process can take several minutes or up to hours. 
 
     ‎‎:::image type="content" source="../media/upgrade-distribution-group.png" alt-text="The picture shows the Upgrade Distribution group dialog from Exchange admin center":::
 
@@ -78,7 +78,7 @@ To upgrade a distribution list to a Microsoft 365 Group, you need to log in to t
 You can also use PowerShell to upgrade distribution lists. For this, you must connect your PowerShell to Exchange Online or install the Exchange Online module. 
 
 * To upgrade one or more distribution lists, run the ```Upgrade-DistributionGroup``` cmdlet. 
-* As an alternative, you can also run ```New-UnifiedGroup``` cmdlet to convert a single distribution group. 
+* Alternatively, you can also run the ```New-UnifiedGroup``` cmdlet to convert a single distribution group. 
 
 You can also pass multiple DLs as a batch and upgrade them together. For example, if you want to upgrade two distribution lists with SMTP address marketing-dl@contoso.com and finance-dl@contoso.com, run the following command:
 
@@ -107,18 +107,18 @@ There are two ways in which you can upgrade all the eligible DLs.
 A distribution list will not be eligible for an upgrade if it fulfills any of the following criteria:
 
 |**Property**|**Eligible?**|
-|:--|:--|
+|:-----|:-----|
 |On-premises managed distribution list.  <br/> |No  <br/> |
 |Nested distribution lists. Distribution list either has child groups or is a member of another group.  <br/> |No  <br/> |
-|Distribution lists with member **RecipientTypeDetails** other than **UserMailbox**, **SharedMailbox**, **TeamMailbox**, **MailUser**  <br/> |No  <br/> |
-|Distribution list that has more than 100 owners  <br/> |No  <br/> |
-|Distribution list that only has members but no owner  <br/> |No  <br/> |
-|Distribution list that has alias containing special characters  <br/> |No  <br/> |
-|If the distribution list is configured to be a forwarding address for Shared Mailbox  <br/> |No  <br/> |
+|Distribution lists with member **RecipientTypeDetails** other than **UserMailbox**, **SharedMailbox**, **TeamMailbox**, **MailUser**.  <br/> |No  <br/> |
+|Distribution list that has more than 100 owners.  <br/> |No  <br/> |
+|Distribution list that only has members but no owner.  <br/> |No  <br/> |
+|Distribution list that has alias containing special characters.  <br/> |No  <br/> |
+|If the distribution list is configured to be a forwarding address for Shared Mailbox.  <br/> |No  <br/> |
 |If the DL is part of **Sender Restriction** in another DL.  <br/> |No  <br/> |
-|Security groups  <br/> |No  <br/> |
-|Dynamic Distribution lists  <br/> |No  <br/> |
-|Distribution lists that were converted to **RoomLists**  <br/> |No  <br/> |
+|Security groups.  <br/> |No  <br/> |
+|Dynamic Distribution lists.  <br/> |No  <br/> |
+|Distribution lists that were converted to **RoomLists**.  <br/> |No  <br/> |
 
    
 
@@ -158,19 +158,19 @@ You can restrict Microsoft 365 Group creation, for example, to the members of a 
 
 To restrict the creation of new teams, you need to modify the Microsoft 365 Groups creation permissions since all teams are based on Microsoft 365 Groups. 
 
-If you want to restrict the creation of new Teams to a subset of users, you need to create a security group and use the AzureAD PowerShell module to modify the AzureAD Directory Settings on a tenant basis. If you run the following script in your environment, you will stop users from creating new Microsoft 365 Groups unless they are a member of the security group you specified in the first line of the script.
+If you want to restrict the creation of new Teams to a subset of users, you need to create a security group and use the AzureAD PowerShell module to modify the AzureAD Directory Settings on a tenant basis. If you run the following script in your environment, you will stop users from creating new Microsoft 365 groups unless they are a member of the security group you specified in the first line of the script.
 
 
 The script will perform the following actions:
 
 
-1. Run ```Connect-AzureAD``` to connect to the AzureAD PowerShell
+1. Run ```Connect-AzureAD``` to connect to the AzureAD PowerShell.
 
-2. Get the ObjectID of the Directory Setting for Microsoft 365 Groups (unified groups) using ```Get-AzureADDirectorySetting```
+2. Get the ObjectID of the Directory Setting for Microsoft 365 Groups (unified groups) using ```Get-AzureADDirectorySetting```.
 
-3. Use ```New-AzureADDirectorySetting``` to create the setting from a template if it does not exist
+3. Use ```New-AzureADDirectorySetting``` to create the setting from a template if it does not exist.
 
-4. Use ```Set-AzureADDirectorySetting``` to set the ```EnableGroupCreation``` setting to false and block the creation of Microsoft 365 Groups.
+4. Use ```Set-AzureADDirectorySetting``` to set the ```EnableGroupCreation``` setting to false and block the creation of Microsoft 365 groups.
 
 5. Allow a specific Security group to override the group creation restriction by modifying the Setting before applying it.
 
@@ -215,7 +215,7 @@ Set-AzureADDirectorySetting -Id $settingsObjectID -DirectorySetting $settingsCop
 
  
 
-For more information, see [Manage who can create Microsoft 365 Groups](/office365/admin/create-groups/manage-creation-of-groups). 
+For more information, see [Manage who can create Microsoft 365 groups](/office365/admin/create-groups/manage-creation-of-groups?azure-portal=true). 
 
 
 ## Knowledge check

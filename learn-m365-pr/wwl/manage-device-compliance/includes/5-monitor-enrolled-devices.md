@@ -9,7 +9,7 @@ Microsoft's two MDM solutions, Intune and Basic Mobility and Security, enable or
 
 Organizations can monitor devices in Microsoft Endpoint Manager. The Overview pane displays a quick view of the number of enrolled devices, their type, compliance status, and number of errors. Administrators can drill down to list all the enrolled devices and their inventory. They can also export the list, but for advanced reporting it's recommended to use Power BI and the Intune data warehouse to provide insight into your enterprise mobile environment.
 
-**Additional reading.** For more information, see [Using the Intune data warehouse](/intune/reports-nav-create-intune-reports).
+**Additional reading.** For more information, see [Using the Intune data warehouse](/intune/reports-nav-create-intune-reports?azure-portal=true).
 
 Intune stores audit logs of all activities that generated changes in Microsoft Intune. Audit logs include activities such as create, update, delete, and assign. Organizations can review audit logs for most Intune workloads. Auditing is enabled by default, and it can't be disabled. Because it's common to have many audit events, they can be filtered based on several criteria. Graph API can also be used to retrieve up to one year of audit events.
 
@@ -28,7 +28,7 @@ In the Intune view, organizations can also trigger a device action and view hist
  -  Remote control for Android
  -  Synchronize device
 
-**Additional reading.** For more information, see [Remote actions that can be performed in Intune](/intune/device-management).
+**Additional reading.** For more information, see [Remote actions that can be performed in Intune](/intune/device-management?azure-portal=true).
 
 The Basic Mobility and Security service monitors enrolled devices and completes device management tasks. It supports a subset of functionality that's provided by Intune. The following device management tasks can be done in Basic Mobility and Security:
 

@@ -21,7 +21,7 @@ yo teams
 Yeoman starts and asks you a series of questions. Answer the questions with the following values:
 
 - **You are running the generator on an already existing project... are you sure you want to continue?**: Yes
-- **Do you want to change the current manifest version (1.8)?**: No
+- **Do you want to change the current manifest version (1.9)?**: No
 - **Quick scaffolding**: Yes
 - **What features do you want to add to your project?**: A Tab
 - **Default tab name (max 16 characters)**: ConfigMathTab
@@ -29,6 +29,8 @@ Yeoman starts and asks you a series of questions. Answer the questions with the 
 - **What scopes do you intend to use for your tab?**: In a Team
 - **Do you require Azure AD Single-Sign-On support for the tab?** No
 - **Do you want this tab to be available in SharePoint Online?**: No
+
+If prompted to overwrite files, select **Y**.
 
 After you answer the generator's questions, the generator adds the additional files for a new component. Then it runs `npm install` to ensure that any new dependencies are downloaded for the project.
 
@@ -224,7 +226,7 @@ const handleOnChangedOperandA = (data?: InputProps): void => {
       operandA: data.value
     } as IConfigMathTabState));
   }
-}
+};
 
 const handleOnChangedOperandB = (data?: InputProps): void => {
   if (data && !isNaN(Number(data.value))) {
@@ -233,7 +235,7 @@ const handleOnChangedOperandB = (data?: InputProps): void => {
       operandB: data.value
     } as IConfigMathTabState));
   }
-}
+};
 
 const handleOperandChange = (): void => {
   let stringResult: string = "n/a";
@@ -263,7 +265,7 @@ const handleOperandChange = (): void => {
     ...state,
     result: stringResult
   } as IConfigMathTabState));
-}
+};
 ```
 
 ### Implement the channel page user interface

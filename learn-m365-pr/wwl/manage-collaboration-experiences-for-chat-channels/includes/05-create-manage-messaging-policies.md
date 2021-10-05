@@ -1,6 +1,6 @@
 Messaging policies are used to control chat and channel messaging features for users. They can provide and deny messaging actions for users, such as the possibility to delete sent messages, access to Memes, Stickers, GIF files, or the ability of users to remove other users from a group chat.
 
-All users are assigned to the Global (Org-wide default) policy by default. Other custom policies can be created and assigned to individual users, but any user can only be assigned to one messing policy at a time.
+All users are assigned to the Global (Org-wide default) policy by default. Other custom policies can be created and assigned to individual users, but any user can only be assigned to one messaging policy at a time.
 
 :::image type="content" source="../media/messaging-policy.png" alt-text="Screenshot of messaging policies":::
 
@@ -13,7 +13,7 @@ The following table provides an overview of available messaging policy settings.
  
 
 | **Setting**  | **Description**                                              |
-|--|-|
+|-----------|----------------|
 | Owners can delete sent messages                                 | Use this setting to let owners delete messages that users sent in chat.                                      |
 | Delete sent messages  | Use this setting to let users delete messages that they sent in chat.|
 | Edit sent messages   | Use this setting to let users edit the messages that they sent in chat.|
@@ -35,7 +35,7 @@ The following table provides an overview of available messaging policy settings.
 
 
 > [!NOTE]
-> Some of these settings, such using GIF files, can also be configured at the team level by team owners and at the private channel level by private channel owners.
+> Some of these settings, such as using GIF files, can also be configured at the team level by team owners and at the private channel level by private channel owners.
  
 
 ## Create new messaging policies
@@ -50,11 +50,11 @@ To create a new messaging policy in the Teams admin center and assign it to a us
 
 3. In the add a **Messaging policies / Add** window, enter the following:
 
-	- **New messaging policy -** A name for the policy
+	- **New messaging policy** - A name for the policy.
 
-	- **Description** - A description for the policy
+	- **Description** - A description for the policy.
 
-	- All settings desired in the box
+	- All settings desired in the box.
 
 4. Select **Save** to create the new messaging policy.
 
@@ -91,7 +91,7 @@ To modify policies or delete them, you should perform the following steps:
  
 
 > [!NOTE]
-> It is not possible to delete a messaging policy that still has any users assigned to it. You will receive an error message if you attempt to delete an assigned messaging policy.
+> It is not possible to delete a messaging policy that still has users assigned to it. You will receive an error message if you attempt to delete an assigned messaging policy.
 
 
 ## Manage messaging policies using PowerShell
@@ -99,15 +99,15 @@ To modify policies or delete them, you should perform the following steps:
 You can use PowerShell to manage messaging policies. These cmdlets include:
 
 
-- Get-CsTeamsMessagingPolicy
+- ```Get-CsTeamsMessagingPolicy```
 
-- New-CsTeamsMessagingPolicy
+- ```New-CsTeamsMessagingPolicy```
 
-- Set-CsTeamsMessagingPolicy
+- ```Set-CsTeamsMessagingPolicy```
 
-- Grant-CsTeamsMessagingPolicy
+- ```Grant-CsTeamsMessagingPolicy```
 
-- Remove-CsTeamsMessagingPolicy
+- ```Remove-CsTeamsMessagingPolicy```
  
 
 For example, to show the currently configured settings from the Global (Org-wide default) messaging policy, you can use the following cmdlet:

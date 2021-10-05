@@ -3,9 +3,9 @@ uid: learn-m365.msteams-webhooks-connectors.6-o365-connectors
 metadata:
   title: Use Office 365 Connectors in Microsoft Teams
   description: In this unit, you’ll learn how to create an Office 365 connector and add it to Microsoft Teams.
-  ms.date: 06/18/2021
-  author: andrewconnell
-  ms.author: v-johnco
+  ms.date: 09/13/2021
+  author: andrewconnell-msft
+  ms.author: suzanz
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Use Office 365 Connectors in Microsoft Teams

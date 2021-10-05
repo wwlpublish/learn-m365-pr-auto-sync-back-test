@@ -4,8 +4,8 @@ metadata:
   title: Secure Microsoft Teams voice functionality   
   description: Learn about calling policies, protected voicemail, and caller ID policies in Microsoft Teams and how you can use them to protect your users.
   ms.date: 07/16/2021
-  ms.author: elizapo
   author: lizap
+  ms.author: teleary
   ms.topic: interactive-tutorial
   ms.prod: learning-teams
 title: Secure Microsoft Teams voice functionality  

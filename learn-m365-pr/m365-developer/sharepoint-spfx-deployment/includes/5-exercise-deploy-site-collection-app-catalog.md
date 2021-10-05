@@ -20,7 +20,7 @@ PS> Connect-SPOService -Url https://contoso-admin.sharepoint.com
 PS> Add-SPOSiteCollectionAppCatalog -Site https://contoso.sharepoint.com/sites/dev01
 ```
 
-Instead, you can use the [CLI for Microsoft 365](https://pnp.github.io/office365-cli/). This is a good option when your development environment isn't Windows.
+You can also use the [CLI for Microsoft 365](https://pnp.github.io/cli-microsoft365). This is a good option when your development environment isn't Windows.
 
 ```console
 # login as a tenant admin to the SharePoint Online tenant admin site

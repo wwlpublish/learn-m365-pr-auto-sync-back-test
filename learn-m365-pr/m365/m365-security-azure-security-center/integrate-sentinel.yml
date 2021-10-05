@@ -5,7 +5,7 @@ metadata:
   title: Integrate Azure Security Center with Azure Sentinel
   description: Learn how to connect Azure Sentinel with Azure Security Center.
   ms.date: 07/15/2021
-  ms.author: elizapo
+  ms.author: beccarobins
   author: iankensey
   ms.topic: interactive-tutorial
   ms.prod: learning-teams

@@ -3,9 +3,9 @@ uid: learn-m365.msteams-webhooks-connectors.5-exercise-incoming-webhooks
 metadata:
   title: Exercise - Create incoming webhooks
   description: In this exercise, you’ll learn how to register an incoming webhook in a Microsoft Teams channel and post a message to it.
-  ms.date: 06/18/2021
-  author: andrewconnell
-  ms.author: v-johnco
+  ms.date: 09/13/2021
+  author: andrewconnell-msft
+  ms.author: suzanz
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Exercise - Create incoming webhooks

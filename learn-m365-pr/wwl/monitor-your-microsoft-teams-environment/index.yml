@@ -3,7 +3,7 @@ uid: learn.wwl.monitor-your-microsoft-teams-environment
 metadata:
   title: Monitor your Microsoft Teams environment
   description: "Learn about different reports and dashboards to monitor your Teams environment, including Microsoft 365 and Teams usage reports, Microsoft Productivity Score, Azure AD access reviews, and Microsoft 365 network connectivity dashboard."
-  ms.date: 08/25/2021
+  ms.date: 09/23/2021
   author: wwlpublish
   ms.author: jennyche
   ms.topic: interactive-tutorial
@@ -16,10 +16,11 @@ abstract: |
   - Monitor user access by using Azure AD access reviews.
   - Interpret Microsoft Productivity Score.
   - Assess network readiness by using Microsoft 365 network connectivity dashboard.
+  - Manage Teams notifications and alerts.
 prerequisites: |
   - A proficient understanding of basic functional experience with Microsoft 365 services.
   - A proficient understanding of general IT practices, including using PowerShell.
-iconUrl: /learn/achievements/generic-badge.svg
+iconUrl: /learn/achievements/teams-monitor-environment.svg
 levels:
 - intermediate
 roles:
@@ -34,6 +35,7 @@ units:
 - learn.wwl.monitor-your-microsoft-teams-environment.interpret-microsoft-productivity-score
 - learn.wwl.monitor-your-microsoft-teams-environment.manage-user-access-azure-active-directory-access-reviews
 - learn.wwl.monitor-your-microsoft-teams-environment.monitor-microsoft-365-network-connectivity-dashboard
+- learn.wwl.monitor-your-microsoft-teams-environment.manage-teams-notifications-alerts
 - learn.wwl.monitor-your-microsoft-teams-environment.knowledge-check
 - learn.wwl.monitor-your-microsoft-teams-environment.summary
 badge:

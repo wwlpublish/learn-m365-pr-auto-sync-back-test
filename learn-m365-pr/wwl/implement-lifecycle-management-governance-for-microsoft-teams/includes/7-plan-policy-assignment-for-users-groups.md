@@ -7,12 +7,12 @@ A Global (Org-wide default) policy is created by default for each policy type. G
 
 The following policies can be managed with Microsoft Teams.
 
-Policy type | Description | Policies
-||
+Policy type | Description | Policies |
+------------|------------|---|
 Policy packages| A policy package is a collection of predefined policies and settings you can assign to users who have similar roles in your organization.| - Policy package
 Meeting policies | A meeting policy is used to control the features that are available to meeting participants for meetings scheduled by users in your organization. | - Meeting policy<br> - Live events policy| 
 Voice and calling policies| Voice and calling policies manage these settings through teams such as emergency calling, call routing, and caller ID.|- Call park policy<br> - Calling policy<br> - Caller ID policy<br> - Emergency calling policy<br> - Emergency call routing policy<br> - Dial plan<br> - Voice routing policy|
-App policies| App policies are used to control applications in Microsoft Teams. such as allowing or blocking which apps users can install.|- App permission policy<br> - App setup policy|
+App policies| App policies are used to control applications in Microsoft Teams, such as allowing or blocking which apps users can install.|- App permission policy<br> - App setup policy|
 Chat, teams, and channel policies| Chat, teams, and channel policies control teams and collaboration feature availability.|- Messaging policy<br> - Templates policy<br> - Teams policy|
 Teams feature policy |Update policies are used to manage Teams and Office preview users that will see pre-release or preview features in the Teams app. |- Update policy|
 
@@ -30,9 +30,9 @@ You can also use policy packages to assign a preset collection of policies to us
 - Assign a policy package to a batch of users.
 - Assign a policy package to a group. 
 
-You can use Teams admin center or PowerShell to assign policies or policy packages. The table below shows a summary of the PowerShell commands. 
+You can use Teams admin center or PowerShell to assign policies or policy packages. The following table shows a summary of the PowerShell commands. 
 
-|Policy Assigment |Assign a policy|Assign a policy package|
+|Policy Assignment |Assign a policy|Assign a policy package|
 |--|--|--|
 |To individual user|Use the ```Grant-``` cmdlet for a given policy type to assign the policy.<br/><br/> For example, use the ```Grant-CsTeamsMeetingPolicy``` cmdlet to assign a Teams meeting policy to users. |Use the ```Grant-CsUserPolicyPackage``` cmdlet to assign a policy package to one or less than 20 users at a time.|
 |To a batch of users|Use the ```New-CsBatchPolicyAssignmentOperation``` cmdlet to assign a policy to a batch of users.|Use the ```New-CsBatchPolicyPackageAssignmentOperation``` cmdlet to assign a policy package to  a batch of users in a tenant.|
@@ -40,12 +40,13 @@ You can use Teams admin center or PowerShell to assign policies or policy packag
 
 Depends on the Teams policy types, some policy assignments aren't available for all Teams policy types. 
 
-* For policy assignment to groups, see [New-CsGroupPolicyAssignment](/powershell/module/teams/new-csgrouppolicyassignment) for the list of supported policy types.
+* For policy assignment to groups, see [New-CsGroupPolicyAssignment](/powershell/module/teams/new-csgrouppolicyassignment?azure-portal=true) for the list of supported policy types.
 
-* For batch policy assignment, see [New-CsBatchPolicyAssignmentOperation](/powershell/module/teams/new-csbatchpolicyassignmentoperation) for the list of supported policy types.
+* For batch policy assignment, see [New-CsBatchPolicyAssignmentOperation](/powershell/module/teams/new-csbatchpolicyassignmentoperation?azure-portal=true) for the list of supported policy types.
 
 
 ## Policy precedence
+
 A user has one effective policy for each policy type. A user's effective policy is determined according to rules of precedence, as the following order.
 
 1. **User**: If a user is directly assigned a policy (either individually or through a batch assignment), that policy takes precedence.

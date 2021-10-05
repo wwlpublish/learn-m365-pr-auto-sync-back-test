@@ -37,7 +37,7 @@ Contoso's billing address is in Austria. The company wants to use Phone System w
 
 Fabrikam, Inc. is a company based out of Hong Kong SAR, with some users in the United States. Their billing address is in Hong Kong SAR. Although Microsoft can provide a phone number for Audio Conferencing in Hong Kong SAR, Audio Conferencing isn’t available for purchase in that region. Unfortunately, this situation means that Fabrikam can't acquire Calling Plans for their US-based users.
 
-**Action**: Review [Country and region availability for Audio Conferencing and Calling Plans](/SkypeForBusiness/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans) for the following information:
+**Action**: Review [Country and region availability for Audio Conferencing and Calling Plans](/SkypeForBusiness/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans?azure-portal=true) for the following information:
 
  -  For the country or region where your billing address is located, check whether Audio Conferencing is available for purchase. You can buy Calling Plans if Audio Conferencing is available for purchase.
  -  For every country or region where you want users to use Calling Plans, check the “Is Phone System available for purchase?” option to learn whether Calling Plans are available in that country or region.
@@ -58,12 +58,12 @@ As you might expect, a Domestic Calling Plan costs less than the International a
 Communications Credits can be set up so that users can make calls even after they’ve used up their minutes. They can do so without having to wait until the next month’s billing cycle. As soon as a user's allocation is exhausted, the user can pay based on their consumption. Communications Credits can also be used to let users who have been assigned to a Domestic Calling Plan make international calls, which are then charged by using a “pay-per-minute” model.
 
 > [!TIP]
-> Review the Calling Plans section in [Country and region availability for Audio Conferencing and Calling Plans](/SkypeForBusiness/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans) to understand the calling minutes allocation for each Calling Plan add-in type.
+> Review the Calling Plans section in [Country and region availability for Audio Conferencing and Calling Plans](/SkypeForBusiness/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans?azure-portal=true) to understand the calling minutes allocation for each Calling Plan add-in type.
 
 **Additional reading.** For more information on phone system licensing, see:
 
- -  [What are Calling Plans in Office 365?](/SkypeForBusiness/what-are-calling-plans-in-office-365/what-are-calling-plans-in-office-365)<br>
- -  [What are Communications Credits?](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits)
+ -  [What are Calling Plans in Office 365?](/SkypeForBusiness/what-are-calling-plans-in-office-365/what-are-calling-plans-in-office-365?azure-portal=true)<br>
+ -  [What are Communications Credits?](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits?azure-portal=true)
 
 ### Phone numbers and emergency locations
 
@@ -78,11 +78,11 @@ To give emergency responders more exact information about the location of an org
 
 **Additional reading.** For more information on phone numbers and emergency locations, see:
 
- -  [Different kinds of phone numbers used for Calling Plans](/SkypeForBusiness/what-are-calling-plans-in-office-365/different-kinds-of-phone-numbers-used-for-calling-plans).
- -  [Manage phone numbers for your organization.](/SkypeForBusiness/what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization)
- -  [Transfer phone numbers to Office 365](/SkypeForBusiness/what-are-calling-plans-in-office-365/transfer-phone-numbers-to-office-365).
- -  [What are emergency locations, addresses and call routing?](/SkypeForBusiness/what-are-calling-plans-in-office-365/what-are-emergency-locations-addresses-and-call-routing)
- -  [Emergency calling terms and conditions](/SkypeForBusiness/legal-and-regulatory/emergency-calling-terms-and-conditions).
+ -  [Different kinds of phone numbers used for Calling Plans](/SkypeForBusiness/what-are-calling-plans-in-office-365/different-kinds-of-phone-numbers-used-for-calling-plans?azure-portal=true).
+ -  [Manage phone numbers for your organization.](/SkypeForBusiness/what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization?azure-portal=true)
+ -  [Transfer phone numbers to Office 365](/SkypeForBusiness/what-are-calling-plans-in-office-365/transfer-phone-numbers-to-office-365?azure-portal=true).
+ -  [What are emergency locations, addresses and call routing?](/SkypeForBusiness/what-are-calling-plans-in-office-365/what-are-emergency-locations-addresses-and-call-routing?azure-portal=true)
+ -  [Emergency calling terms and conditions](/SkypeForBusiness/legal-and-regulatory/emergency-calling-terms-and-conditions?azure-portal=true).
 
 ### Voicemail
 
@@ -107,7 +107,7 @@ Contoso is using Phone System with Calling Plans for their users. However, their
 
 Other calling identity options include the ability to block (anonymize) Caller ID presentation altogether, and to give users the choice of using their caller ID or calling out anonymously. Caller ID can also be blocked for incoming calls.
 
-**Additional information.** For more information, see [How can caller ID be used in your organization](/SkypeForBusiness/what-are-calling-plans-in-office-365/how-can-caller-id-be-used-in-your-organization).
+**Additional information.** For more information, see [How can caller ID be used in your organization](/SkypeForBusiness/what-are-calling-plans-in-office-365/how-can-caller-id-be-used-in-your-organization?azure-portal=true).
 
 ### Optional: Dial Plans
 

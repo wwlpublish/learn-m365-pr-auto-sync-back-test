@@ -36,7 +36,7 @@ With the permission added to the Azure AD app, you now need to update the list o
 Locate and open the **./.env**. At the end of the file, locate the environment variable that contains the space-delimited permissions and add the following permission you just added so it now looks like the following:
 
 ```txt
-MSGRAPHTEAMWORK_APP_SCOPES=https://graph.microsoft.com/User.Read https://graph.microsoft.com/Team.ReadBasic.All https://graph.microsoft.com/TeamsTab.ReadWriteForTeam https://graph.microsoft.com/TeamsActivity.Send email openid profile offline_access
+TAB_APP_SCOPES=https://graph.microsoft.com/User.Read https://graph.microsoft.com/Team.ReadBasic.All https://graph.microsoft.com/TeamsTab.ReadWriteForTeam https://graph.microsoft.com/TeamsActivity.Send email openid profile offline_access
 ```
 
 ## Add a user to the team
@@ -57,7 +57,7 @@ Copy the user's **Object ID** value as you'll need this when you update the tab'
 
 Now, let's update the app's manifest to register support for an activity.
 
-Locate and open the **./appPackage/manifest.json** file.
+Locate and open the **./manifest/manifest.json** file.
 
 At the end of this file, find the `webApplicationInfo` element. Immediately after the `webApplicationInfo` element, add the following JSON. This adds a new activity type `userMention` to the app's registration with Microsoft Teams:
 
@@ -81,7 +81,7 @@ The last step is to add code to call Microsoft Graph.
 
 Locate and open the **./src/client/MsGraphTeamworkTab/MsGraphTeamworkTab.tsx** file that contains our tab.
 
-Locate the `return` statement and add the following code immediately before it:
+Add the following code before the `handleWordOnClick` method:
 
 ```typescript
 const sendActivityMessage = useCallback(async() => {
@@ -89,10 +89,10 @@ const sendActivityMessage = useCallback(async() => {
 
   const endpoint = `https://graph.microsoft.com/v1.0/teams/${context.groupId}/sendActivityNotification`;
   const requestObject = {
-    method: 'POST',
+    method: "POST",
     headers: {
       authorization: `bearer ${msGraphOboToken}`,
-      'content-type': 'application/json',
+      "content-type": "application/json",
     },
     body: JSON.stringify({
       topic: {

@@ -4,12 +4,13 @@ title: Implement Quality of Service
 metadata:
   title: Implement Quality of Service
   description: "Implement Quality of Service"
-  ms.date: 08/25/2021
+  ms.date: 09/28/2021
   author: wwlpublish
   ms.author: jennyche
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
+labModal: false
 durationInMinutes: 7
 content: |
   [!include[](includes/05-implement-quality-service.md)]

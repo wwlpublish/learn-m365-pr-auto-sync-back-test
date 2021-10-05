@@ -3,9 +3,9 @@ uid: learn-m365.msgraph-access-group-data.4-users-groups
 metadata:
   title: Users and their groups
   description: In this unit, you’ll learn how to display information about the groups a user is involved with as a member or as an owner.
-  ms.date: 06/18/2021
-  author: andrewconnell
-  ms.author: v-johnco
+  ms.date: 09/13/2021
+  author: andrewconnell-msft
+  ms.author: suzanz
   ms.topic: interactive-tutorial
   ms.prod: learning-graph
 title: Users and their groups

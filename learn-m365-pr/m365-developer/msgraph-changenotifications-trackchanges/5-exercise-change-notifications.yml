@@ -3,9 +3,9 @@ uid: learn-m365.msgraph-changenotifications-trackchanges.5-exercise-change-notif
 metadata:
   title: Exercise - Microsoft Graph change notifications
   description: In this exercise, you'll extend the existing ASP.NET console application to receive notifications from Microsoft Graph subscriptions. The notifications are sent after a subscription is successfully created, requesting Microsoft Graph to notify an endpoint when specified entities are created, updated, or deleted.
-  ms.date: 06/18/2021
-  author: andrewconnell
-  ms.author: v-johnco
+  ms.date: 09/13/2021
+  author: andrewconnell-msft
+  ms.author: suzanz
   ms.topic: interactive-tutorial
   ms.prod: learning-graph
 title: Exercise - Microsoft Graph change notifications

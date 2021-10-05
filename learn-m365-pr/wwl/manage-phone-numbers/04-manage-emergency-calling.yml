@@ -1,0 +1,31 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.manage-phone-numbers.manage-emergency-calling
+title: Manage emergency calling
+metadata:
+  title: Manage emergency calling
+  description: "Manage emergency calling"
+  ms.date: 09/14/2021
+  author: wwlpublish
+  ms.author: jennyche
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+sandbox: false
+labModal: false
+durationInMinutes: 7
+content: |
+  [!include[](includes/04-manage-emergency-calling.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "As the Teams administrator for Contoso, Holly Dickson wants to use the address map search feature in the Teams admin center to define an emergency address. When Holly completes this task, which of the following items will be automatically associated with Contoso's emergency address?"
+    choices:
+    - content: "The Public Safety Answering Point (PSAP) that serves the emergency address"
+      isCorrect: false
+      explanation: "That's incorrect. This item isn't automatically associated with an emergency address when you use the address map search feature in the Teams admin center to define an emergency address. Try again."
+    - content: "The geo code of the emergency address"
+      isCorrect: true
+      explanation: "That's correct. Each emergency address can have a latitude and longitude (geo code) associated with it. Geo codes are used in some countries/regions to help routing of emergency calls with dynamic locations. A geo code is automatically associated with an emergency address when you use the address map search feature in the Teams admin center to define an emergency address."
+    - content: "The Private Branch Exchange (PBX) that serves the emergency address"
+      isCorrect: false
+      explanation: "That's incorrect. This item isn't automatically associated with an emergency address when you use the address map search feature in the Teams admin center to define an emergency address. Try again."

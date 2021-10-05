@@ -3,9 +3,9 @@ uid: learn-m365.sharepoint-spfx-extensions.7-exercise-command-set-customizer
 metadata:
   title: Exercise - Customize lists with command set extensions
   description: In this exercise, you'll create a SharePoint Framework (SPFx) command set extension that will display custom buttons in a SharePoint list.
-  ms.date: 06/17/2021
-  author: andrewconnell
-  ms.author: v-johnco
+  ms.date: 09/13/2021
+  author: andrewconnell-msft
+  ms.author: suzanz
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Exercise - Customize lists with command set extensions

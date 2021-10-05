@@ -14,7 +14,7 @@ You can use the same threat-hunting queries to build custom detection rules. The
 
 It's recommended that you complete several steps to quickly get started with advanced hunting in Microsoft 365 Defender:
 
-1.  **Learn the language.** Advanced hunting is based on [Kusto query language](/azure/data-explorer/kusto/query), supporting the same syntax and operators. Start learning the query language by running your first query.
+1.  **Learn the language.** Advanced hunting is based on [Kusto query language](/azure/data-explorer/kusto/query?azure-portal=true), supporting the same syntax and operators. Start learning the query language by running your first query.
 2.  **Learn how to use the query results.** Learn about charts and various ways you can view or export your results. Explore how you can quickly tweak queries, drill down to get richer information, and take response actions.
 3.  **Understand the schema.** Get a good, high-level understanding of the tables in the schema and their columns. Learn where to look for data when constructing your queries.
 4.  **Get expert tips and examples.** Train for free with guides from Microsoft experts. Explore collections of predefined queries covering different threat hunting scenarios.
@@ -31,9 +31,9 @@ Advanced hunting data can be categorized into two distinct types, each consolida
 Advanced hunting is based on the Kusto query language. A Kusto query is a read-only request to process data and return results. The request is stated in plain text, using a data-flow model designed to make the syntax easy to read, author, and automate. The query uses schema entities that are organized in a hierarchy similar to SQL Server's schema design: databases, tables, and columns.
 
 > [!IMPORTANT]
-> The purpose of this section on the Kusto query language is to introduce you to this feature. This is by no means an in-depth discussion of the language specifics. Since advanced hunting in Microsoft 365 Defender relies on Kusto queries, it's important that you have a basic understanding of the general concepts behind the language. For more information, see Tutorial: Use Kusto queries in Azure Data Explorer and Azure Monitor.
+> The purpose of this section on the Kusto query language is to introduce you to this feature. This is by no means an in-depth discussion of the language specifics. Since advanced hunting in Microsoft 365 Defender relies on Kusto queries, it's important that you have a basic understanding of the general concepts behind the language. For more information, see [Tutorial: Use Kusto queries in Azure Data Explorer and Azure Monitor](/azure/data-explorer/kusto/query/tutorial?azure-portal=true).
 
-A Kusto query consists of a sequence of query statements, delimited by a semicolon. At least one statement must be a tabular expression statement, which is a statement that produces data arranged in a table-like mesh of columns and rows. The query's tabular expression statements produce the results of the query.
+A Kusto query consists of a sequence of query statements, delimited by a semicolon. At least one statement must be a [tabular expression statement](/azure/data-explorer/kusto/query/tabularexpressionstatements?azure-portal=true), which is a statement that produces data arranged in a table-like mesh of columns and rows. The query's tabular expression statements produce the results of the query.
 
 The syntax of the tabular expression statement has tabular data flow from one tabular query operator to another, starting with data source (for example, a table in a database, or an operator that produces data) and then flowing through a set of data transformation operators that are bound together by using the pipe (\|) delimiter.
 

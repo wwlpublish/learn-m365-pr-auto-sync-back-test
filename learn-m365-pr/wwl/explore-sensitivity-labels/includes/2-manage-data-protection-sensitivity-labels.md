@@ -20,7 +20,7 @@ The following image shows available sensitivity labels in Excel, from the Home t
 :::image type="content" source="../media/sensitivity-label-in-excel-254e8a24.png" alt-text="screenshot shows available sensitivity labels in Excel, from the Home tab on the ribbon":::
 
 
-For more information about these and other scenarios that are supported by sensitivity labels, see [Common scenarios for sensitivity labels](/microsoft-365/compliance/get-started-with-sensitivity-labels). New features are being developed all the time that support sensitivity labels, so you might also find it useful to reference the [Microsoft 365 roadmap](https://www.microsoft.com/microsoft-365/roadmap?azure-portal=true).
+For more information about these and other scenarios that are supported by sensitivity labels, see [Common scenarios for sensitivity labels](/microsoft-365/compliance/get-started-with-sensitivity-labels?azure-portal=true). New features are being developed all the time that support sensitivity labels, so you might also find it useful to reference the [Microsoft 365 roadmap](https://www.microsoft.com/microsoft-365/roadmap?azure-portal=true).
 
 ### What a sensitivity label is
 

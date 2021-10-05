@@ -3,8 +3,8 @@ uid: learn-m365.msteams-teamwork-endpoint.4-manage-configurable-tabs
 metadata:
   title: Configure a built-in tab with Microsoft Graph
   description: Built-in Microsoft Teams tabs for websites, Office documents, SharePoint document libraries, and other tabs can be configured using Microsoft Graph. In this unit, you'll learn how to configure an existing built-in tab with Microsoft Graph.
-  ms.date: 06/18/2021
-  author: andrewconnell
+  ms.date: 09/13/2021
+  author: andrewconnell-msft
   ms.author: suzanz
   ms.topic: interactive-tutorial
   ms.prod: learning-m365

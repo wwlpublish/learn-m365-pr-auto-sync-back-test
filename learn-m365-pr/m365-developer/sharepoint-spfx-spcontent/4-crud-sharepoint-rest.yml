@@ -3,9 +3,9 @@ uid: learn-m365.sharepoint-spfx-spcontent.4-crud-sharepoint-rest
 metadata:
   title: Create, update, and delete list and library data with the SharePoint REST API
   description: In this unit, you'll extend what you learned in a previous unit from just reading SharePoint list data to writing data using the SharePoint REST API. You'll learn how to create, update, and delete data in SharePoint lists and libraries in SharePoint Framework components with the SharePoint REST API.
-  ms.date: 11/30/2020
-  author: andrewconnell
-  ms.author: v-johnco
+  ms.date: 09/13/2021
+  author: andrewconnell-msft
+  ms.author: suzanz
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Create, update, and delete list and library data with the SharePoint REST API

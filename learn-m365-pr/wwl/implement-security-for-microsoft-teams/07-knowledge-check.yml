@@ -4,19 +4,20 @@ title: Knowledge check
 metadata:
   title: Knowledge check
   description: "Knowledge check"
-  ms.date: 08/25/2021
+  ms.date: 09/28/2021
   author: wwlpublish
   ms.author: jennyche
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
+labModal: false
 durationInMinutes: 5
 content: |
   [!include[](includes/07-knowledge-check.md)]
 quiz:
   title: "Check your knowledge"
   questions:
-  - content: "When Safe Attachments identifies a file as malicious, Microsoft Defender for Office 365 locks the file. The blocked file is still listed in the document library; however, people are limited to what they can do with it. Which of the following actions can be applied to a file that's been blocked by Safe Attachments?"
+  - content: "When Safe Attachments identifies a file as malicious, Microsoft Defender for Office 365 locks the file. The blocked file is still listed in the document library. However, people are limited to what they can do with it. Which of the following actions can be applied to a file that's been blocked by Safe Attachments?"
     choices:
     - content: "Open"
       isCorrect: false

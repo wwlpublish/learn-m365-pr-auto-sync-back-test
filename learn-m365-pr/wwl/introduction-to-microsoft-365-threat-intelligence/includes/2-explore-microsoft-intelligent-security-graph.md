@@ -14,4 +14,4 @@ The signals that are obtained from the Intelligent Security Graph, plus other th
 
 As a result, any threat seen in Windows is automatically and quickly added to the set of threats that Microsoft 365 views. This design provides deep insight into the evolving cyber threat landscape.
 
-:::image type="content" source="../media/microsoft-intelligent-security-graph-0ed4d5c7.png" alt-text="graphic of statistics involving the Microsoft Intelligent Security Graph":::
+:::image type="content" source="../media/microsoft-intelligent-security-graph-0ed4d5c7.png" alt-text="Graphic of statistics involving the Microsoft Intelligent Security Graph":::
