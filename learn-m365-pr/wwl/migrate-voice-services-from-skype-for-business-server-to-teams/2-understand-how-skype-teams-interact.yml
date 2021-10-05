@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.migrate-voice-services-from-skype-for-business-server-to-teams.understand-how-skype-teams-interact
+title: Understand how Skype and Teams interact
+metadata:
+  title: Understand how Skype and Teams interact
+  description: "Understand how Skype and Teams interact"
+  ms.date: 10/02/2021
+  author: wwlpublish
+  ms.author: dahans
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/2-understand-how-skype-teams-interact.md)]
