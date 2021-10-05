@@ -1,17 +1,17 @@
 ### YamlMime:Module
 uid: learn-m365.windows-prepare
 metadata:
-  title: Prepare to deploy updates for Windows 10 and Microsoft 365 Apps
+  title: Prepare to deploy updates for Windows clients and Microsoft 365 apps
   description: Some of the devices in your organization's environment are either out of support or nearing end of support. You've learned how to create a plan to help your organization bring its environment up to date. Now you'll learn how to prepare your organization's environment to stay current with Windows 10 and Microsoft 365 Apps.
-  ms.date: 07/16/2021
+  ms.date: 10/05/2021
   author: IanKensey
   ms.author: teleary
   ms.topic: interactive-tutorial
   ms.prod: m365
-title: Prepare to deploy updates for Windows 10 and Microsoft 365 Apps
-summary: Learn how to prepare your organization for the latest updates to Windows 10 and Microsoft 365 Apps.
+title: Prepare to deploy updates for Windows client and Microsoft 365 apps
+summary: Learn how to prepare your organization for the latest updates to Windows clients and Microsoft 365 apps.
 abstract: | 
-  In this module, you will use the servicing process to prepare your organization to stay current.
+  In this module, you'll use the servicing process to prepare your plan to stay current.
 prerequisites: | 
   - None
 iconUrl: /learn/achievements/prepare-to-deploy-updates-for-windows-10.svg

@@ -6,7 +6,7 @@ metadata:
   description: Learn what you as an administrator need to know before and during your OneDrive rollout to handle migrations and the deployment of the OneDrive sync app. The ability to administer OneDrive is granted through the SharePoint admin role in Microsoft 365. Learn the different options for migration and how you can ensure you chose the best route for your organization. The OneDrive sync app is essential to be deployed as part of your OneDrive rollout. Learn what technologies can be used to manage deployment across your organization’s devices and how to change the sync app configuration based on things like Group Policy.
   ms.date: 07/14/2021
   author: ericweisberg
-  ms.author: v-erwe
+  ms.author: teleary
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 
