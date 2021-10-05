@@ -1,14 +1,14 @@
 ### YamlMime:Module
 uid: learn.wwl.monitor-troubleshoot-teams-phone-system
 metadata:
-  title: Monitor and Troubleshoot Teams Phone System
+  title: Monitor and troubleshoot Teams Phone
   description: "Troubleshooting is an important task that includes troubleshooting of phone number assignment, call failure and quality issues, client issues, and device issues. Call Analytics and Call Quality Dashboard are also covered for reporting and troubleshooting."
-  ms.date: 10/04/2021
+  ms.date: 10/05/2021
   author: wwlpublish
   ms.author: dahans
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-title: Monitor and Troubleshoot Teams Phone System
+title: Monitor and troubleshoot Teams Phone
 summary: Troubleshooting is an important task that includes troubleshooting of phone number assignment, call failure and quality issues, client issues, and device issues. Call Analytics and Call Quality Dashboard are also covered for reporting and troubleshooting.
 abstract: |
   At the end of this module, you will be able to:
