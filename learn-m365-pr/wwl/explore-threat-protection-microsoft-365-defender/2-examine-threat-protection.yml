@@ -1,0 +1,30 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.explore-threat-protection-microsoft-365-defender.examine-threat-protection
+title: Examine threat protection in Microsoft 365 Defender
+metadata:
+  title: Examine threat protection in Microsoft 365 Defender
+  description: "Examine threat protection in Microsoft 365 Defender"
+  ms.date: 10/06/2021
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 5
+content: |
+  [!include[](includes/2-examine-threat-protection.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "Which Microsoft Defender for Office 365 tool identifies and blocks malicious files in online libraries?"
+    choices:
+    - content: "Safe Attachments"
+      isCorrect: false
+      explanation: "That's incorrect. This tool scans email attachments for malware. Try again."
+    - content: "Anti-malware"
+      isCorrect: false
+      explanation: "That's incorrect. This tool protects your organization's email from malware, including what actions to take and who to notify if malware is detected. Try again."
+    - content: "Advanced threat protection for SharePoint, OneDrive, and Microsoft Team"
+      isCorrect: true
+      explanation: "That's correct. These tools identify and block malicious files in online libraries."
