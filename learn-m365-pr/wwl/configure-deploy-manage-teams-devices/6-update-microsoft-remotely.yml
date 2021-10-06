@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.configure-deploy-manage-teams-devices.update-microsoft-remotely
+title: Update Microsoft Teams devices remotely
+metadata:
+  title: Update Microsoft Teams devices remotely
+  description: "Update Microsoft Teams devices remotely"
+  ms.date: 10/05/2021
+  author: wwlpublish
+  ms.author: dahans
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 6
+content: |
+  [!include[](includes/6-update-microsoft-remotely.md)]

@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.configure-deploy-manage-teams-devices.manage-microsoft-teams-displays
+title: Manage Microsoft Teams displays
+metadata:
+  title: Manage Microsoft Teams displays
+  description: "Manage Microsoft Teams displays"
+  ms.date: 10/05/2021
+  author: wwlpublish
+  ms.author: dahans
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/4-manage-microsoft-teams-displays.md)]
