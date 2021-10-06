@@ -156,7 +156,7 @@ Compares a selected URL against a list of blocked or malicious URLs.
 
 URL detonation combines elements of Safe Links and Safe Attachments into a single feature, whose purpose is to protect users in the event a link points to a malicious file on a web server. When a user selects a link to a file on a web server, the file is downloaded into the Safe Attachments sandbox environment and detonated. As the content is being analyzed, a web page is presented to the user explaining that a scan is in process. If the file is ultimately determined to be malicious, the user is redirected to a warning page advising the user the site is malicious.
 
-:::image type="content" source="../media/safe-links-warning-8a245198.png":::
+:::image type="content" source="../media/safe-links-warning-8a245198.png" alt-text="screenshot of warning message indicating the website is classified as malicious":::
 
 
 > [!TIP]

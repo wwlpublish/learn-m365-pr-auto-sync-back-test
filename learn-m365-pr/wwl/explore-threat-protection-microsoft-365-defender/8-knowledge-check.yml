@@ -24,21 +24,21 @@ quiz:
       explanation: "That's incorrect. Spoofing intelligence isn't a Safe Links feature. Try again."
     - content: "Dynamic delivery"
       isCorrect: false
-      explanation: "That's incorrect. This is a Safe Attachments feature in which messages are delivered immediately, but attachments are replaced with placeholders until Safe Attachments scanning is complete. Try again."
+      explanation: "That's incorrect. This item is a Safe Attachments feature in which messages are delivered immediately, but attachments are replaced with placeholders until Safe Attachments scanning is complete. Try again."
     - content: "URL detonation"
       isCorrect: true
       explanation: "That's correct. URL detonation combines elements of Safe Links and Safe Attachments into a single feature, whose purpose is to protect users in the event a link points to a malicious file on a web server. When a user selects a link to a file on a web server, the file is downloaded into the Safe Attachments sandbox environment and detonated."
-  - content: "As the Message administrator for Fabrikam, Holly Spencer is considering whether to implement Safe Links. Which of the following is a prerequisite task that Holly should complete before deploying Safe Links at Fabrikam?"
+  - content: "As the Message administrator for Fabrikam, Holly Spencer is considering whether to implement Safe Links. Which of the following tasks should Holly complete before deploying Safe Links at Fabrikam?"
     choices:
     - content: "Verify Fabrikam has Microsoft Defender for Office 365 licensed"
       isCorrect: true
-      explanation: "That's correct. Before implementing Safe Links, you should verify that your organization has Microsoft Defender for Office 365 licensed."
+      explanation: "That's correct. Before implementing Safe Links, Holly should verify that Fabrikam has Microsoft Defender for Office 365 licensed."
     - content: "Verify that a default policy is in place that applies to selected domains"
       isCorrect: false
-      explanation: "That's incorrect. You should verify that a default policy is in place that applies to everyone. Try again."
+      explanation: "That's incorrect. A default policy should be in place that applies to everyone. Try again."
     - content: "Review the order of the policies in the Exchange admin center"
       isCorrect: false
-      explanation: "That's incorrect. You should review the order of the policies in the Microsoft 365 Defender portal. Try again."
+      explanation: "That's incorrect. The order of the policies should be reviewed in the Microsoft 365 Defender portal. Try again."
   - content: "Which advanced anti-phishing feature in Microsoft Defender for Office 365 uses machine learning and other heuristics to identify and analyze messages that are involved in coordinated phishing attacks against the entire service and your organization?"
     choices:
     - content: "Anti-phishing policies"

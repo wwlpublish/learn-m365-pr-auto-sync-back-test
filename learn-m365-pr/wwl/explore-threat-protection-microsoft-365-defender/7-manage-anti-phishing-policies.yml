@@ -21,7 +21,7 @@ quiz:
     choices:
     - content: "Spoof intelligence"
       isCorrect: false
-      explanation: "That's incorrect. This feature reviews spoofed messages from senders in internal and external domains, and allow or block those senders.. Try again."
+      explanation: "That's incorrect. This feature reviews spoofed messages from senders in internal and external domains. It also allows or blocks those senders. Try again."
     - content: "Anti-phishing policies"
       isCorrect: true
       explanation: "That's correct. These policies turn spoof intelligence on or off, turn unauthenticated sender identification in Outlook on or off, and specify the action for blocked spoofed senders (move to Junk Email folder or quarantine)."
