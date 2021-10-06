@@ -15,7 +15,7 @@ All Analytics are found by first looking up the user in the Users Tab of the Tea
 Call Analytics records give details of network performance, devices, and endpoints in the call and highlight any issues.
 
 > [!div class="mx-imgBorder"]
-> [ ![Graphical user interface, application, Teams](../media/call-analytics-statistics.png) ](../media/call-analytics-statistics.png#lightbox)
+> [ ![Graphical user interface, application, Teams](../media/call-analytics-statistics-inline.png) ](../media/call-analytics-statistics-expanded.png#lightbox)
 
 ## Troubleshoot calls using advanced Call Analytics and perform root cause analysis
 
@@ -31,6 +31,7 @@ When looking over the sessions for a specific user, the Audio quality column hig
 
 > [!div class="mx-imgBorder"]
 > [ ![Screenshot showing the Call Analytics analysis page](../media/call-analytics-analysis.png) ](../media/call-analytics-analysis.png#lightbox)
+
 Going into Advanced will highlight the metric(s) that has caused the poor call conditions. In this case, Average round-trip time as seen on the following picture:
 
 > [!div class="mx-imgBorder"]
