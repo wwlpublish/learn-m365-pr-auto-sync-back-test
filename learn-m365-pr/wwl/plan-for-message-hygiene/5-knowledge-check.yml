@@ -1,0 +1,52 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.plan-for-message-hygiene.knowledge-check
+title: Knowledge check
+metadata:
+  title: Knowledge check
+  description: "Knowledge check"
+  ms.date: 10/06/2021
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 6
+content: |
+  [!include[](includes/5-knowledge-check.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "What Microsoft 365 feature enables messaging administrators to follow email messages as they pass through Exchange Online Protection?"
+    choices:
+    - content: "REST/OData Tenant Reporting web service"
+      isCorrect: false
+      explanation: "That's incorrect. The REST/OData Tenant Reporting web service is used in an Exchange Online or hybrid deployment to programmatically collect summary and detailed reports about messaging data. Try again."
+    - content: "Message trace"
+      isCorrect: true
+      explanation: "That's correct. The Microsoft 365 message trace feature enables messaging administrators to follow email messages as they pass through Exchange Online Protection. This feature can help you determine whether a targeted email message was received, rejected, deferred, or delivered by the service. It also shows what actions occurred to the message before it reached its final status."
+    - content: "Microsoft Remote Connectivity Analyzer"
+      isCorrect: false
+      explanation: "That's incorrect. Microsoft RCA is a web-based tool that's designed to help IT administrators troubleshoot connectivity issues with their server deployments. Try again."
+  - content: "Contoso has implemented an Exchange Online deployment. What extra configuration must Contoso complete to enable Exchange Online Protection?"
+    choices:
+    - content: "Run the Hybrid Configuration Wizard"
+      isCorrect: false
+      explanation: "That incorrect. The HCW is only required when implementing a hybrid Exchange deployment. Contoso has an Exchange Online deployment. Try again."
+    - content: "Create connectors"
+      isCorrect: false
+      explanation: "That's incorrect. Connectors are not required in an Exchange Online deployment. Try again."
+    - content: "No extra configuration is needed"
+      isCorrect: true
+      explanation: "That's correct. When you register for Exchange Online or Microsoft 365, EOP is automatically applied to any message that is received or sent from your online tenant. No extra configuration is needed."
+  - content: "Fabrikam has an on-premises Exchange Server 2019 deployment. As the Messaging administrator for Fabrikam, Holly Spencer plans to create the connectors that connect Fabrikam's on-premises Exchange environment to EOP. Which connector should Holly create that acts as a Send connector for sending all outgoing mail to EOP?"
+    choices:
+    - content: "On-premises connector"
+      isCorrect: true
+      explanation: "That's correct. This connector is a Send connector that sends all outgoing mail to EOP."
+    - content: "EOP outbound connector"
+      isCorrect: false
+      explanation: "That's incorrect. The EOP outbound connector delivers emails to Fabrikam's on-premises mail servers. Try again."
+    - content: "EOP inbound connector"
+      isCorrect: false
+      explanation: "That's incorrect. The EOP inbound connector accepts emails from Fabrikam's on-premises mail servers. Try again."

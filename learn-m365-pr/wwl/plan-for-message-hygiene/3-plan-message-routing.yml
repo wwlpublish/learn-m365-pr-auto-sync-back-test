@@ -1,0 +1,30 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.plan-for-message-hygiene.plan-message-routing
+title: Plan message routing for Exchange Online Protection
+metadata:
+  title: Plan message routing for Exchange Online Protection
+  description: "Plan message routing for Exchange Online Protection"
+  ms.date: 10/06/2021
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 6
+content: |
+  [!include[](includes/3-plan-message-routing.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "Fabrikam has an on-premises Exchange Server 2019 deployment. As the Messaging administrator for Fabrikam, Holly Spencer wants to run EOP Standalone on Fabrikam's on-premises email servers. What must Holly do to enable mail flow between EOP and Fabrikam's Exchange environment?"
+    choices:
+    - content: "Create connectors"
+      isCorrect: true
+      explanation: "That's correct. For EOP standalone, you must create the connectors yourself."
+    - content: "Open port 80 in Fabrikam's firewall"
+      isCorrect: false
+      explanation: "That's incorrect. Port 25 must be open in the firewall. Try again"
+    - content: "Create connectors using the Hybrid Configuration Wizard"
+      isCorrect: false
+      explanation: "That's incorrect. The HCW is used to create connectors in a hybrid deployment only. Fabrikam isn't running a hybrid deployment. Try again."
