@@ -6,7 +6,7 @@ metadata:
   description: Learn how to delegate certain tasks to users by using RBAC permissions and groups.  
   ms.date: 07/14/2021
   author: AlexandraHrt
-  ms.author: v-aleha
+  ms.author: teleary
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 durationInMinutes: 5
