@@ -6,7 +6,7 @@ metadata:
   description: Learn how to create and share a desktop with users by using Azure Virtual Desktop.
   ms.date: 07/29/2021
   author: lizap
-  ms.author: elizapo
+  ms.author: nedelgad
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 durationInMinutes: 10

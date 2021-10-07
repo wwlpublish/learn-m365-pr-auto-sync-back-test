@@ -5,7 +5,7 @@ metadata:
   description: Learn the steps to optimize Azure Virtual Desktop, including how to take advantage of new storage, file management, and automated scaling options.  
   ms.date: 07/19/2021
   author: lizap
-  ms.author: elizapo
+  ms.author: nedelgad
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Optimize Azure Virtual Desktop
