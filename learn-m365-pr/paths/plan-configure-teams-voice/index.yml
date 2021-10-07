@@ -3,7 +3,7 @@ uid: learn.wwl.plan-configure-teams-voice
 metadata:
   title: Plan and configure Teams Phone
   description: Plan and configure Teams Phone
-  ms.date: 10/05/2021
+  ms.date: 10/07/2021
   author: wwlpublish
   ms.author: dahans
   ms.topic: interactive-tutorial
@@ -30,5 +30,6 @@ modules:
 - learn.wwl.configure-teams-phone-system
 - learn.wwl.configure-auto-attendants-call-queues
 - learn.wwl.configure-deploy-direct-routing
+- learn.wwl.extend-teams-phone-system-additional-services
 trophy:
   uid: learn.wwl.plan-configure-teams-voice.trophy
