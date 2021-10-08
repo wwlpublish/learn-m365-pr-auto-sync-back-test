@@ -1,0 +1,33 @@
+### YamlMime:Module
+uid: learn-m365.viva-connections-get-started
+metadata:
+  title: Get started with Microsoft Viva Connections
+  description: Learn what Microsoft Viva Connections is, how your organization will benefit from using it, and how to enable it in your Microsoft 365 tenant.
+  ms.date: 10/8/2021
+  author: waldekmastykarz
+  ms.author: wmastyka
+  ms.topic: interactive-tutorial
+title: Get started with Microsoft Viva Connections
+summary: Learn what Microsoft Viva Connections is, how your organization will benefit from using it, and how to enable it in your Microsoft 365 tenant.
+abstract: |
+  By the end of this module, you'll be able to:
+    - Understand what Microsoft Viva Connections is and the experiences it offers on desktop and mobile devices
+    - Enable Microsoft Viva Connections desktop and mobile in a Microsoft 365 tenant
+prerequisites: |
+  - SharePoint and Teams Administrator access to a Microsoft 365 tenant
+  - Mobile device with Microsoft Teams installed
+iconUrl: /learn/achievements/generic-badge.svg
+levels:
+  - beginner
+roles:
+  - developer
+products:
+  - m365
+units:
+- learn-m365.viva-connections-get-started.introduction
+- learn-m365.viva-connections-get-started.what-is-microsoft-viva-connections
+- learn-m365.viva-connections-get-started.exercise-enable-microsoft-viva-connections
+- learn-m365.viva-connections-get-started.understand-viva-connections-extensibility-capabilities
+- learn-m365.viva-connections-get-started.summary
+badge:
+  uid: learn-m365.viva-connections-get-started.badge

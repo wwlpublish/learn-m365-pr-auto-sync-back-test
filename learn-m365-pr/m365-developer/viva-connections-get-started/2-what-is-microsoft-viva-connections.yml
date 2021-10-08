@@ -1,0 +1,13 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.viva-connections-get-started.what-is-microsoft-viva-connections
+title: What is Microsoft Viva Connections?
+metadata:
+  title: What is Microsoft Viva Connections?
+  description: In this unit, you'll learn what Viva Connections is and how it helps organizations to engage their employees.
+  ms.date: 10/8/2021
+  author: waldekmastykarz
+  ms.author: wmastyka
+  ms.topic: interactive-tutorial
+durationInMinutes: 1
+content: |
+  [!include[](includes/2-what-is-microsoft-viva-connections.md)]
