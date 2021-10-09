@@ -1,6 +1,6 @@
 Once you decide to move to Configuration Manager or extend your existing Configuration Manager solution, there are two main paths to reach co-management of your Windows 10 or later devices:
 
-- **[Enable co-management for existing Windows 10 or later Configuration Manager clients](#enable-co-management-for-existing-window-10-or-later-configuration-manager-clients)**
+- **[Enable co-management for existing Windows 10 or later Configuration Manager clients](#enable-co-management-for-existing-windows-10-or-later-configuration-manager-clients)**
 - **[Enable co-management for new internet-based Windows 10 or later devices](#enable-co-management-for-new-internet-based-windows-10-or-later-devices)**
 
 Each path requires some combination of Azure Active Directory (Azure AD), Configuration Manager, Microsoft Intune, and Windows 10 or later. The Windows 10 or later is the operating system of the users device, which is the Configuration Manager client. These paths to co-management do not apply to Windows Server or macOS.
@@ -42,6 +42,6 @@ This path to co-management involves having Windows 10 or later devices that must
 This path to co-management begins with the premise that your Windows 10 or later devices are already enrolled with Intune. If you are not using Microsoft Intune, you can quickly sign up for the [Intune free trial](/mem/intune/fundamentals/free-trial-sign-up). Or for a complete overview of Intune, see [Set up Microsoft Intune](/learn/modules/set-up-microsoft-intune?azure-portal=true).
 
 > [!IMPORTANT]
-> If you have a hybrid Azure AD that joins your on-premises AD with Azure AD, we recommend you [enable co-management for existing Windows 10 or later Configuration Manager clients](#enable-co-management-for-existing-window-10-or-later-configuration-manager-clients).
+> If you have a hybrid Azure AD that joins your on-premises AD with Azure AD, we recommend you [enable co-management for existing Windows 10 or later Configuration Manager clients](#enable-co-management-for-existing-windows-10-or-later-configuration-manager-clients).
 
 To enable this co-management path, see [Tutorial: Enable co-management for new internet-based devices](/mem/configmgr/comanage/tutorial-co-manage-new-devices).
