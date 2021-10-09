@@ -14,7 +14,6 @@ abstract: |
   In this module, you will:
     - Learn about the benefits of co-management
     - Understand the co-management prerequisites
-    - Confirm the Configuration Manager connector status
     - Learn about paths to implement co-management
 prerequisites: | 
   - Basic knowledge of Microsoft Endpoint Manager and endpoint management concepts, see [Microsoft Endpoint Manager fundamentals](/learn/paths/endpoint-manager-fundamentals?azure-portal=true).
@@ -33,7 +32,6 @@ units:
 - learn.set-up-co-management.introduction
 - learn.set-up-co-management.understand-co-management
 - learn.set-up-co-management.learn-about-co-management-prerequisites
-- learn.set-up-co-management.confirm-the-configuration-manager-connector-status
 - learn.set-up-co-management.learn-about-paths-to-co-management
 - learn.set-up-co-management.knowledge-check
 - learn.set-up-co-management.summary

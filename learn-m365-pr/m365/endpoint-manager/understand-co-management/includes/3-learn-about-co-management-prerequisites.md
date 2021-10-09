@@ -17,7 +17,8 @@ You will need licenses for the following products:
 
 A Microsoft Intune license is created for you when you sign up for the Intune free trial. As part of this trial, you'll also have a trial Enterprise Mobility + Security (EMS) subscription. An Enterprise Mobility + Security (EMS) subscription includes both Azure Active Directory Premium and Microsoft Intune.
 
-You need at least one Intune license for you as the administrator to access the Microsoft Endpoint Manager admin center. If you are unable to access this portal using the step below, or if you don't have an Intune license, you can sign up now for the [Intune free trial](/mem/intune/fundamentals/free-trial-sign-up).
+> [!NOTE]
+> If you are unable to access this portal using the step below, or if you don't have an Intune license, you can sign up now for the [Intune free trial](/mem/intune/fundamentals/free-trial-sign-up). When setting up Intune, you can give an administrators access to Microsoft Endpoint Manager [without them requiring an Intune license](/mem/intune/fundamentals/unlicensed-admins).
 
 To confirm your Microsoft Intune license or trial, use the following steps:
 
@@ -83,7 +84,7 @@ For additional information about Microsoft Intune, see [Set up Microsoft Intune]
 
 ### Enable Windows 10 or Windows 11 automatic enrollment
 
-Windows 10 automatic enrollment, which is also required for co-management, lets users enroll their Windows 10 devices in Intune. To enroll, users add their work account to their personally owned devices or join corporate-owned devices to Azure Active Directory. In the background, the device registers and joins Azure Active Directory. Once registered, the device is managed with Intune.
+Windows 10/11 automatic enrollment, which is also required for co-management, lets users enroll their Windows 10/11 devices in Intune. To enroll, users add their work account to their personally owned devices or join corporate-owned devices to Azure Active Directory. In the background, the device registers and joins Azure Active Directory. Once registered, the device is managed with Intune.
 
 For more information, see [Enable Windows 10 automatic enrollment](/mem/intune/enrollment/windows-enroll#enable-windows-10-automatic-enrollment).
 
@@ -93,4 +94,4 @@ To enable co-management, end users must upgrade their devices to a supported ver
 
 ## Permissions and roles
 
-To enable co-management in Configuration Manager, must be assigned the Full Administrator role. For more information about Configuration Manager roles, see [Fundamentals of role-based administration](/mem/configmgr/core/understand/fundamentals-of-role-based-administration).
+To enable co-management in Configuration Manager, the administrator must be assigned the Full Administrator role. For more information about Configuration Manager roles, see [Fundamentals of role-based administration](/mem/configmgr/core/understand/fundamentals-of-role-based-administration).

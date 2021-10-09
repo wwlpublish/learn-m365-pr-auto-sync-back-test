@@ -1,8 +1,11 @@
 Microsoft Endpoint Manager helps you by providing a single, modern, integrated management platform for managing, protecting, and monitoring all of your organization's endpoints. Endpoints include tablets, smartphones, desktops, laptops computers, and apps that an organization uses whether they connect over the internet (cloud-based) or are on-premises. Microsoft Endpoint Manager is the overall management platform you can use to manage your organization's endpoints. Both Microsoft Intune and Microsoft Endpoint Configuration Manager are part of Microsoft Endpoint Manager and are also involved in co-management.
 
-If you need to manage only cloud-based endpoints, you can use Microsoft Intune. If you need to manage only on-premises endpoints, such as the computers your organization has attached to your internal network, you can use Microsoft Endpoint Configuration Manager. However, if you need to manage a combination of both cloud and on-premises endpoints, you can use co-management to leverage both Intune and Configuration Manager from the Microsoft Endpoint Manager admin center.
+If you need to utilize services that are primarily cloud-based and you manage cloud-based endpoints, you should consider using Microsoft Intune. If you need to utilize functionality that is primarily on-premises and you manage on-premises endpoints, such as the computers your organization has attached to your internal network, you should consider using Microsoft Endpoint Configuration Manager. However, if you need to manage a combination of both cloud and on-premises services, capabilities, and endpoints, you should consider using co-management to leverage both Intune and Configuration Manager from the Microsoft Endpoint Manager admin center.
 
 Co-management is one way to cloud attach your on-premises devices. Co-management allows you to concurrently manage Windows 10 or Windows 11 devices with both Configuration Manager and Microsoft Intune. The other way of attachment is called tenant attach, which is registering your Intune tenant with your Configuration Manager deployment. It is important to note that each of these methods (tenant attach and co-management) can be added independently. Once you implement both, you have full cloud attachment. You get immediate value through tenant attach and you get additional value through co-management. Attaching your tenant using tenant attach is relatively quick. Co-managing your devices involves more planning and choices.
+
+> [!NOTE]
+> Co-management is not for remote management of off-premises/cloud devices. The Configuration Manager client agent requires periodic connectivity with the Configuration Manager site using either a cloud management gateway (CMG) or a virtual private network (VPN).
 
 When you enable co-management, Configuration Manager is still the management authority for all functional areas known as workloads. So, you continue to manage your devices the same way. If you don't switch any workloads to Intune, all of the Configuration Manager settings and apps continue to work the same as before you enabled co-management. Additionally, enabling co-management is completely transparent to the end user. There's no reboot, no agent installation, no interruption, and no user notification.
 
@@ -16,7 +19,6 @@ In this module, you will:
 
 - Learn about the benefits of co-management
 - Understand the co-management prerequisites
-- Confirm the Configuration Manager connector status
 - Learn about paths to implement co-management
 
 > [!NOTE]
