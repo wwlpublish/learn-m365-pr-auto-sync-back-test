@@ -6,7 +6,7 @@ metadata:
   description: Learn about the various Microsoft Teams clients, including desktop, web, and mobile clients. Discover how to deploy each type of client and how the update process works. 
   ms.date: 08/15/2019
   author: AlexandraHrt
-  ms.author: v-aleha
+  ms.author: teleary
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 durationInMinutes: 3

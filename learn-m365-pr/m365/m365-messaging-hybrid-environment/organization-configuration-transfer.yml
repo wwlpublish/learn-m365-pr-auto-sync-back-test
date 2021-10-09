@@ -6,7 +6,7 @@ metadata:
   description: Learn how to plan and implement hybrid messaging environments, the role of an Edge server, and the use of the Exchange Hybrid Agent. 
   ms.date: 06/02/2021
   author: AlexandraHrt
-  ms.author: v-aleha
+  ms.author: teleary
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 durationInMinutes: 4
