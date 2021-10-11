@@ -8,9 +8,9 @@ To complete the exercise, you'll need the credentials for a different non-admini
 
 1. [Sign in](https://portal.azure.com/learn.docs.microsoft.com?azure-portal=true) to the Azure portal.
  
-1. Use the search box to find **Azure Virtual Desktop**. The Azure Virtual Desktp page appears.
+1. Use the search box to find **Azure Virtual Desktop**. The Azure Virtual Desktop page appears.
 
-1. From the resource menu under **Manage** category, select **Application groups**. The **Azure Virtual Desktop** *Appliction groups* pane appears.
+1. From the resource menu under **Manage** category, select **Application groups**. The **Azure Virtual Desktop** *Application groups* pane appears.
 
 1. In the command bar, select **Create**. The **Create an application group** pane appears.
 
@@ -43,7 +43,7 @@ To complete the exercise, you'll need the credentials for a different non-admini
    |Application | WordPad |
    |Display name  | WordPad  |
 
-:::image type="content" source="../media/4-remoteapp-add-application.png" alt-text="Screenshot that shows WordPad selected.":::
+   :::image type="content" source="../media/4-remoteapp-add-application.png" alt-text="Screenshot that shows WordPad selected.":::
 
 1. Select **Next: Assignments**. The **Create an application group** Assignments tab appears. 
 
@@ -54,7 +54,7 @@ To complete the exercise, you'll need the credentials for a different non-admini
  
 1. Select single or multiple users, or you can select user groups.
 
-  :::image type="content" source="../media/4-remoteapp-assignment.png" alt-text="Screenshot of the assignments tab with Add Azure AD users or user groups highlighted.":::
+   :::image type="content" source="../media/4-remoteapp-assignment.png" alt-text="Screenshot of the assignments tab with Add Azure AD users or user groups highlighted.":::
   
 3. Select **Next: Workspace**.
 
