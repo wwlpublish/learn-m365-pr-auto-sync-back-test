@@ -6,7 +6,7 @@ metadata:
   description: Learn how Teams enforces team and organization-wide two-factor authentication, single sign-on through Active Directory, and encryption of data in transit and at rest.
   ms.date: 07/16/2021
   ms.author: teleary
-  author: lizap
+  author: temanteleary
   ms.topic: interactive-tutorial
   ms.prod: learning-teams
 durationInMinutes: 2
