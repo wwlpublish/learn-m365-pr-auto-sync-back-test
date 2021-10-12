@@ -4,7 +4,7 @@ metadata:
   title: Integrate Cloud App Security with non-Microsoft systems
   description: You must integrate Cloud App Security with third-party proxies and firewalls to help ensure that you can properly implement Cloud Discovery throughout your organization
   ms.date: 07/02/2021
-  author: geoffallix
+  author: beccarobins
   ms.author: beccarobins
   ms.topic: interactive-tutorial
   ms.prod: learning-m365

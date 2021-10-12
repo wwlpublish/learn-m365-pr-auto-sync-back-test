@@ -5,7 +5,7 @@ metadata:
   title: Summary and knowledge check
   description: Discover how Azure Migrate helps you realize the benefits of moving your on-premises VMware or Hyper-V server workloads to Azure infrastructure as a service (IaaS). Learn the process for migrating your workload agent-less, all within the hub.  
   ms.date: 04/10/2020
-  author: ericweisberg
+  author: beccarobins
   ms.author: beccarobins
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
