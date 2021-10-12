@@ -6,7 +6,7 @@ metadata:
   description: Learn about how Cloud App Security can protect your users from downloading threats contained in apps from app stores and other locations that you can't control directly.
   ms.date: 07/15/2021
   ms.author: teleary
-  author: lizap
+  author: temanteleary
   ms.topic: interactive-tutorial
   ms.prod: learning-teams
 durationInMinutes: 4

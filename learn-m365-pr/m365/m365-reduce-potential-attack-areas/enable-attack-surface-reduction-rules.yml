@@ -6,7 +6,7 @@ metadata:
   title: Enable attack surface reduction rules
   description: Here, you'll learn how to configure various attack surface reduction rules in Microsoft Defender for Endpoint.
   ms.date: 08/13/2021
-  author: alistairmatthews
+  author: beccarobins
   ms.author: beccarobins
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
