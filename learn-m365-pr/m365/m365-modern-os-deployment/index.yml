@@ -4,7 +4,7 @@ metadata:
   title: Deploy, upgrade, and migrate to Windows 10
   description: Learn about task sequence automation and the option of Windows Autopilot to help automate large scale phased deployments.
   ms.date: 07/21/2021
-  author: AlexandraHrt
+  author: temanteleary
   ms.author: teleary
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
