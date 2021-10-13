@@ -6,7 +6,7 @@ metadata:
   description: Describe how WSUS can be used to manage Windows updates.
   ms.date: 07/19/2021
   author: beccarobins
-  ms.author: beccarobins
+  ms.author: bneeb
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 durationInMinutes: 5
