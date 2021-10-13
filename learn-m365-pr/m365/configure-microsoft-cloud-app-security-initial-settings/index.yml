@@ -4,7 +4,7 @@ metadata:
   title: Configure Microsoft Cloud App Security initial settings
   description: Learn to configure the initial Microsoft Cloud App Security settings, such as IP addresses, user groups, admin roles, and Managed Security Service Provider access.
   ms.date: 07/20/2021
-  author: geoffallix
+  author: beccarobins
   ms.author: beccarobins
   ms.topic: interactive-tutorial
   ms.prod: learning-m365

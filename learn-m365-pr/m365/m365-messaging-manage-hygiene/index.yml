@@ -4,7 +4,7 @@ metadata:
   title: Manage message hygiene using Exchange Online and Microsoft Defender for Endpoint
   description: Learn how to plan, implement, and configure policies to protect your organization from malware, spam, and phishing. 
   ms.date: 07/19/2021
-  author: AlexandraHrt
+  author: temanteleary
   ms.author: teleary
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
