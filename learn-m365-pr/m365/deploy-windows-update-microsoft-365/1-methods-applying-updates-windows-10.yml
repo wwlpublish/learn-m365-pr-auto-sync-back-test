@@ -6,7 +6,7 @@ metadata:
   description: Describe the available methods for deploying updates to Windows 10 devices.
   ms.date: 07/19/2021
   author: beccarobins
-  ms.author: bneeb
+  ms.author: beccarobins
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 durationInMinutes: 4

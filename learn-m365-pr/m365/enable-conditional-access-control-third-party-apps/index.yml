@@ -4,7 +4,7 @@ metadata:
   title: Enable Conditional Access App Control for third-party apps
   description: Learn how to configure Conditional Access App Control in Microsoft Cloud App Security for Workplace from Facebook, Box, and Slack.
   ms.date: 07/19/2021
-  author: alistairmatthews
+  author: beccarobins
   ms.author: beccarobins
   ms.topic: interactive-tutorial
   ms.prod: learning-m365

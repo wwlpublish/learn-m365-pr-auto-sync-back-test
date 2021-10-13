@@ -6,7 +6,7 @@ metadata:
   description: Describe how updates are deployed and how to configure individual Windows 10 devices.
   ms.date: 09/09/2021
   author: beccarobins
-  ms.author: bneeb
+  ms.author: beccarobins
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 durationInMinutes: 4

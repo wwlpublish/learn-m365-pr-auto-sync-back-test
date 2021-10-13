@@ -4,7 +4,7 @@ metadata:
   title: Discover and assess your on-premises servers with Azure Migrate
   description: Explore the Azure Migrate tools for discovering and assessing your virtual machine servers. Learn how to install and configure a virtual machine appliance in your virtualization host infrastructure. 
   ms.date: 07/19/2021
-  author: ndelgado
+  author: beccarobins
   ms.author: nellydelgado
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
