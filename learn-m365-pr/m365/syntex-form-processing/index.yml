@@ -18,7 +18,7 @@ abstract: |
 prerequisites: | 
    - Basic understanding of SharePoint Syntex  
    - Familiarity with document understanding models  
-iconUrl:  /learn/achievements/generic-badge.svg
+iconUrl:  /learn/achievements/create-and-apply-a-form-processing-model.svg
 ratingEnabled: true
 levels:
 - beginner
