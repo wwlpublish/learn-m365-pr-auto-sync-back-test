@@ -4,7 +4,7 @@ metadata:
   title: Deploy Windows Update in Microsoft 365
   description: In this module, you will learn about the methods for deploying Windows updates to Windows 10 devices. We will discuss use of Windows Server Update Services, Group Policy, and Windows Update for Business.
   ms.date: 09/09/2021
-  author: beccarobins
+  author: bneeb
   ms.author: bneeb
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
