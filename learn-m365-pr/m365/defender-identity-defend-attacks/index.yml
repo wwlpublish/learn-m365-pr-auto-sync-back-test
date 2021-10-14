@@ -5,7 +5,7 @@ metadata:
   title: Defend against attacks with Microsoft Defender for Identity
   description:  Learn how Microsoft Defender for Identity helps you to protect your environment against different types of threats by enabling you to detect and investigate attempts to compromise credentials, lateral movement attacks, reconnaissance activity, and more.
   ms.date: 09/09/2021
-  author: GeoffAllix
+  author: beccarobins
   ms.author: beccarobins
   ms.topic: interactive-tutorial
   ms.prod: learning-m365

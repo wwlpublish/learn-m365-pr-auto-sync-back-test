@@ -5,8 +5,8 @@ metadata:
   title: Understanding Windows Update for Business
   description: Describe scenarios for using Windows Update for Business.
   ms.date: 09/09/2021
-  author: beccarobins
-  ms.author: beccarobins
+  author: bneeb
+  ms.author: bneeb
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 durationInMinutes: 9
