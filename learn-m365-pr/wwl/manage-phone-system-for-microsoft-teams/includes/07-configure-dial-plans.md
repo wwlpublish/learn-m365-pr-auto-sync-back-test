@@ -60,7 +60,7 @@ Complete the following steps to configure a dial plan using the Teams admin cent
     The following table shows sample normalization rules that are written as .NET Framework regular expressions. For more examples, see [Sample normalization rules](https://docs.microsoft.com/microsoftteams/what-are-dial-plans#sample-normalization-rules?azure-portal=true).
 
     | Rule name | Description | Number pattern | Translation | Example |
-    |:--|:--|:--|:--|:--|
+    |:-----|:-----|:-----|:-----|:-----|
     |4digitExtension   |Translates four-digit extensions.   |^(\\d{4})$   |+1425555$1   |0100 is translated to +14255550100   |
     |5digitExtension   |Translates five-digit extensions.   |^5(\\d{4})$   |+1425555$1   |50100 is translated to +14255550100   |
     |7digitcallingRedmond   |Translates  seven-digit numbers to Redmond local numbers.   |^(\\d{7})$   |+1425$1   |5550100 is translated to +14255550100  |
