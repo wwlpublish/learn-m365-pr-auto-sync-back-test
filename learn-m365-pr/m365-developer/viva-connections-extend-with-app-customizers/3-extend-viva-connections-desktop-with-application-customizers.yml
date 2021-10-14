@@ -1,0 +1,13 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.viva-connections-extend-with-app-customizers.extend-viva-connections-desktop-with-application-customizers
+title: Extend Viva Connections desktop with application customizers
+metadata:
+  title: Extend Viva Connections desktop with application customizers
+  description: In this unit, you'll learn what application customizers are and what you should consider when using them to extend Viva Connections desktop.
+  ms.date: 10/14/2021
+  author: rabwill
+  ms.author: rwilliams
+  ms.topic: interactive-tutorial
+durationInMinutes: 5
+content: |
+  [!include[](includes/3-extend-viva-connections-desktop-with-application-customizers.md)]
