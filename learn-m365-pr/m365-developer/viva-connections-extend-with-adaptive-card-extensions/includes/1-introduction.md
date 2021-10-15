@@ -7,7 +7,7 @@ After deploying Viva Connections, your organization wants to extend it with info
 ## Prerequisites
 
 - SharePoint Administrator access to a [Microsoft 365 tenant](https://developer.microsoft.com/microsoft-365/dev-program?ocid=MSlearn&WT.mc_id=m365-41957-cxa)
-- [Viva Connections enabled in the Microsoft 365 tenant](../viva-connections-get-started)
+- [Viva Connections enabled in the Microsoft 365 tenant](/learn/modules/viva-connections-get-started)
 - Ability to develop JavaScript applications using modern web technologies
 - Basic knowledge of TypeScript
 - Code editor or IDE
