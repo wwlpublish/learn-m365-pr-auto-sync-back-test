@@ -12,7 +12,7 @@ Expedited security updates also have the following characteristics:
 - The update downloads and installs as quickly as possible.
 - The update process overrides configured device policy settings, such as days until the device is forced to restart. After the expedited update is installed, the device returns to the current policy settings.
 
-[!NOTE]
+> [!NOTE]
 > While you can use an expedited update to achieve compliance targets against a specific security update, it isn’t designed to be used every month. Instead, for those cases, consider using [compliance deadlines for updates](/windows/deployment/update/wufb-compliancedeadlines).
 
 ## Deploy an expedited update
