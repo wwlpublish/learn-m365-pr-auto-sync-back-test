@@ -5,8 +5,8 @@ metadata:
   title: Summary and knowledge check
   description: Discover how sharing files and folders works in SharePoint. Learn how to share files externally. 
   ms.date: 09/12/2019
-  author: temanteleary
-  ms.author: teleary
+  author: AlexandraHrt
+  ms.author: v-aleha
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 durationInMinutes: 5
@@ -15,39 +15,39 @@ content: |
 quiz:
     title: Check your knowledge
     questions:
-    - content: "What happens when a user shares a file with someone?"
+    - content: "What happens when a user shares a link to a file in SharePoint with someone?"
       choices:
-      - content: "That person is given permissions to the file."
+      - content: "That person is given direct access to the file."
         isCorrect: false
-        explanation: "A sharable link is created which has permissions to the file. The person can then use that link to access the file."
-      - content: "A sharable link is created which has permissions to the file."
+        explanation: "That's incorrect. Direct access is never given to files."
+      - content: "A sharable link is created which has permission to access the file."
         isCorrect: true
-        explanation: " A sharable link is created which has permissions to the file. The person can then use that link to access the file."
-      - content: "The file is automatically emailed to the person."
+        explanation: "That's correct. A sharable link is created which has permissions to access the file. The person can then follow that link to access the file."
+      - content: "The file is automatically emailed as an attachment to the person."
         isCorrect: false
-        explanation: " A sharable link is created which has permissions to the file. The person can then use that link to access the file."
+        explanation: "That's incorrect. It is possible to add a SharePoint file as an attachment, but this doesn't happen automatically."
 
     - content: "Which of the following statements is true?"
       choices:
       - content: "**Specific people** links can be used to provide guest access to files and folders."
         isCorrect: true
-        explanation: "**Specific people** links work for those inside and outside your organization provided guest sharing has been enabled."
+        explanation: "That's correct. **Specific people** links work for those inside and outside your organization provided guest sharing has been enabled."
       - content: "**Anyone** links require people to sign in if they are outside the organization."
         isCorrect: false
-        explanation: "People using an **Anyone** link do not have to authenticate, and their access cannot be audited."
+        explanation: "That's incorrect. People using an **Anyone** link do not have to authenticate, and their access cannot be audited."
       - content: "**People in your organization** links can be used to share sites with anyone in the organization."
         isCorrect: false
-        explanation: "**People in your organization** links allow users to share files and folders (but not the site) with people who aren't part of a team or members of a site."
+        explanation: "That's incorrect. **People in your organization** links allow users to share files and folders (but not the site) with people who aren't part of a team or members of a site."
       
     - content: "What do you need to configure if you want new site members to be approved by the site owner?"
       choices:
       - content: "Configure site sharing settings to prevent guest users from being invited."
         isCorrect: false
-        explanation: "SharePoint site access requests are used to require new users to be approved by a site owner before they can access the site."
+        explanation: "That's incorrect. SharePoint site access requests are used to require new users to be approved by a site owner before they can access the site."
       - content: "Configure the Microsoft 365 Group to be private instead of public."
         isCorrect: false
-        explanation: "SharePoint site access requests are used to require new users to be approved by a site owner before they can access the site."
+        explanation: "That's incorrect. SharePoint site access requests are used to require new users to be approved by a site owner before they can access the site."
       - content: "Configure site access requests for that site."
         isCorrect: true
-        explanation: "SharePoint site access requests are used to require new users to be approved by a site owner before they can access the site."
+        explanation: "That's correct. SharePoint site access requests are used to require new users to be approved by a site owner before they can access the site."
       
