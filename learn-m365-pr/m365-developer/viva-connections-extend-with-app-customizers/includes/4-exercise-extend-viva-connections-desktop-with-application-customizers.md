@@ -132,6 +132,13 @@ After you created the project, the next step is to extend the application custom
 To build and preview our important announcement application customizer:
 
 1. In a terminal, run the `gulp serve --nobrowser` command. It starts a local webserver on `https://localhost:4321`.
+   > [!WARNING]
+   > If you see in the terminal the following warning:
+   > :::image type="content" source="../media/4-terminal-serve-warning.png" alt-text="Screenshot of a terminal window showing a warning after running the gulp serve command":::
+   >
+   > _Warning - [spfx-serve] When serving in HTTPS mode, a PFX cert path or a cert path and a key path must be provided, or a dev certificate must be generated and trusted. If a SSL certificate isn't provided, a default, self-signed certificate will be used. Expect browser security warnings._
+   >
+   > it means that the local web server couldn't load your development certificate. To fix this issue, stop the web server by pressing `CTRL+C` and execute the `gulp trust-dev-cert` command.
 1. In the code editor, open the **src/extensions/importantCompanyAnnouncements/ImportantCompanyAnnouncementsApplicationCustomizer.manifest.json** file and copy the **id** which you'll need to create the page debug URL to test the local version of the application customizer.
 1. In a web browser, go to the page debug URL at `<Home site URL>/SitePages/home.aspx?debugManifestsFile=https://localhost:4321/temp/manifests.js&loadSPFX=true&customActions={"<id>":{"location":"ClientSideExtension.ApplicationCustomizer","properties":{ }}}`. Replace the `id` with the value you copied from the application customizer's manifest.
    > [!TIP]
