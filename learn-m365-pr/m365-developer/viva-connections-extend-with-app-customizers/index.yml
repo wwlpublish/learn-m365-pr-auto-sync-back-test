@@ -7,6 +7,7 @@ metadata:
   author: rabwill
   ms.author: rwilliams
   ms.topic: interactive-tutorial
+  ms.prod: learning-m365
 title: Extend Microsoft Viva Connections with application customizers
 summary: Learn how to extend Viva Connections with custom application customizers using nothing but your existing web development skills. You'll learn about the scenarios where they're most suitable and how to build them.
 abstract: |

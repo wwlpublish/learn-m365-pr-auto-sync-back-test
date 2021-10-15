@@ -8,6 +8,7 @@ metadata:
   author: rabwill
   ms.author: rwilliams
   ms.topic: interactive-tutorial
+  ms.prod: learning-m365
 durationInMinutes: 1
 content: |
   [!include[](includes/5-summary.md)]
