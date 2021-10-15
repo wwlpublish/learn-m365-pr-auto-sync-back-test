@@ -1,0 +1,39 @@
+### YamlMime:ModuleUnit
+uid: learn-m365-pr.manage-windows-updates-cloud-devices.get-started
+title: Get started with the Microsoft Graph PowerShell SDK
+metadata:
+  unitType: learning-content
+  title: Get started with the Microsoft Graph PowerShell SDK
+  description: Learn how to get your hands on the Microsoft Graph PowerShell SDK.
+  ms.date: 10/04/2021
+  author: adnancore
+  ms.author: lizap
+  ms.topic: interactive-tutorial
+durationInMinutes: 4
+content: |
+  [!include[](includes/get-started.md)]
+quiz:
+  title: Check your knowledge
+  questions:
+  - content: Which PowerShell command should be used to install the Microsoft Graph PowerShell SDK?
+    choices:
+    - content: Install-Microsoft.Graph.SDK
+      isCorrect: false
+      explanation: This isn’t a valid command to install the Microsoft Graph PowerShell SDK.
+    - content: Install-Microsoft.Graph-PowerShell
+      isCorrect: false
+      explanation: This isn’t a valid command to install the Microsoft Graph PowerShell SDK.
+    - content: Install-Module Microsoft.Graph
+      isCorrect: true
+      explanation: Use this command to install the Microsoft Graph PowerShell SDK.
+  - content: Which PowerShell command should be used to switch to the appropriate contract endpoint of Microsoft Graph?
+    choices:
+    - content: Switch-Profile -Name 
+      isCorrect: false
+      explanation: This isn’t a valid command to switch the profile.
+    - content: Select-MgProfile -Name "beta"
+      isCorrect: true
+      explanation: Use this command to switch to the profile.
+    - content: Switch-MgProfile -Name "preview"
+      isCorrect: false
+      explanation: This isn’t a valid command to switch the  profile.

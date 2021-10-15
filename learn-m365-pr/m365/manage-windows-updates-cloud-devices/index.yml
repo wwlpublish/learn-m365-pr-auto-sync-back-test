@@ -1,0 +1,43 @@
+### YamlMime:Module
+uid: learn-m365-pr.manage-windows-updates-cloud-devices
+metadata:
+  title: Manage Windows updates for cloud-connected devices by using the Microsoft Graph PowerShell SDK
+  description: In this module, you'll learn how to use the Microsoft Graph PowerShell SDK to interact with the Windows Update for Business deployment service, so you can offer, schedule, and expedite updates for your cloud-connected Windows 10 or later devices.
+  ms.date: 10/04/2021
+  author: adnancore
+  ms.author: lizap
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Manage Windows updates for cloud-connected devices by using the Microsoft Graph PowerShell SDK
+summary: Use this module to learn how to manage updates for your cloud-connected Windows devices using the Microsoft Graph PowerShell SDK and the Windows Update for Business deployment service. You'll learn how to enroll and unenroll devices, discover updates, deploy updates, schedule updates, and expedite updates when necessary.
+abstract: | 
+  In this module, you'll learn how to:
+  - Enroll and unenroll devices in the service. 
+  - Discover Windows updates. 
+  - Deploy Windows feature updates. 
+  - Schedule Windows feature updates. 
+  - Expedite Windows security updates 
+prerequisites: 
+  - Familiarity with PowerShell
+  - Familiarity with Windows
+iconUrl: /learn/achievements/manage-windows-updates-cloud-devices.svg
+levels:
+- beginner
+roles:
+- administrator
+- student
+products:
+- Windows
+- m365
+units:
+- learn.manage-windows-updates-cloud-devices.introduction
+- learn.manage-windows-updates-cloud-devices.use-deployment-service
+- learn.manage-windows-updates-cloud-devices.get-started
+- learn.manage-windows-updates-cloud-devices.enroll-unenroll-devices
+- learn.manage-windows-updates-cloud-devices.discover-updates
+- learn.manage-windows-updates-cloud-devices.deploy-feature-updates
+- learn.manage-windows-updates-cloud-devices.schedule-feature-updates
+- learn.manage-windows-updates-cloud-devices.expedite-security-updates
+- learn.manage-windows-updates-cloud-devices.summary
+badge:
+  uid: learn.manage-windows-updates-cloud-devices.badge

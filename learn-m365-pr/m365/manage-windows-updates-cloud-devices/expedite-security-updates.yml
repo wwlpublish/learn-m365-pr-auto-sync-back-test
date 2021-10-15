@@ -1,0 +1,39 @@
+### YamlMime:ModuleUnit
+uid: learn-m365-pr.manage-windows-updates-cloud-devices.expedite-security-updates
+title: Expedite Windows security updates
+metadata:
+  unitType: learning-content
+  title: Expedite Windows security updates
+  description: Learn how to expedite Windows security updates using the Microsoft Graph PowerShell SDK.
+  ms.date: 10/04/2021
+  author: adnancore
+  ms.author: lizap
+  ms.topic: interactive-tutorial
+durationInMinutes: 4
+content: |
+  [!include[](includes/expedite-security-updates.md)]
+quiz:
+  title: Check your knowledge
+  questions:
+  - content: Which command should be used to find updates that can be expedited?
+    choices:
+    - content: Get-MgWindowsUpdatesCatalogEntry
+      isCorrect: true
+      explanation: Use this command with a filter to retrieve a list of updates that can be expedited.
+    - content: Get-MgWindowsUpdatesExpeditedEntry
+      isCorrect: false
+      explanation: This isn’t a valid command to retrieve updates that can be expedited.
+    - content: Get-MgWindowsUpdatesExpeditedUpdate
+      isCorrect: false
+      explanation: This isn’t a valid command to retrieve updates that can be expedited.
+  - content: What happens if a device already has a security update that is newer than the expedited update that has been deployed?
+    choices:
+    - content: The device doesn't receive the update.
+      isCorrect: true
+      explanation: If the device already has the specified update or a newer update, it won't receive an expedited update.
+    - content: The expedited update overrides the existing newer security update.
+      isCorrect: false
+      explanation: The expedited update doesn't override the existing newer security update.
+    - content: Both updates are applied side by side.
+      isCorrect: false
+      explanation: The updates aren't applied on the device alongside one another.
