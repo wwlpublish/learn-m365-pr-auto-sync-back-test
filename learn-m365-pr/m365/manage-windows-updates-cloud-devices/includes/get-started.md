@@ -11,7 +11,7 @@ To use the Microsoft Graph PowerShell SDK, make sure you have access to:
 - A tenant that meets the [subscription requirements](/graph/windowsupdates-concept-overview).
 - One or more target devices that meet the [device requirements](/graph/windowsupdates-concept-overview).
 - A Microsoft Azure or Microsoft Intune account that meets the [user role requirements](/azure/active-directory/roles/manage-roles-portal).
-- A supported version of PowerShell. If you don’t already have PowerShell, see [install PowerShell](/powershell/scripting/install/installing-powershell?view=powershell-7.1) for your operating system.
+- A supported version of PowerShell. If you don’t already have PowerShell, see [install PowerShell](/powershell/scripting/install/installing-powershell?view=powershell-7.1&preserve-view=true) for your operating system.
 
 ## Get the SDK
 
@@ -41,4 +41,4 @@ You’ll be prompted to sign in. You’ll sign in using a Microsoft Azure or Mic
 When you’ve signed in successfully, you’re ready to start using the Microsoft Graph PowerShell SDK.
 
 > [!NOTE]
->If you need to author an automated script instead of using the PowerShell console, you can use the [**PSCredential Class**](/dotnet/api/system.management.automation.pscredential?view=powershellsdk-7.0.0) to automate usernames, passwords, and credentials.
+>If you need to author an automated script instead of using the PowerShell console, you can use the [**PSCredential Class**](/dotnet/api/system.management.automation.pscredential?view=powershellsdk-7.0.0&preserve-view=true) to automate usernames, passwords, and credentials.

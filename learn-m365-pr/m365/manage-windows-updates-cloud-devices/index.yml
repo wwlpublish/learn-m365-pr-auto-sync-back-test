@@ -5,7 +5,7 @@ metadata:
   description: In this module, you'll learn how to use the Microsoft Graph PowerShell SDK to interact with the Windows Update for Business deployment service, so you can offer, schedule, and expedite updates for your cloud-connected Windows 10 or later devices.
   ms.date: 10/04/2021
   author: adnancore
-  ms.author: lizap
+  ms.author: beccarobins
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Manage Windows updates for cloud-connected devices by using the Microsoft Graph PowerShell SDK
@@ -17,7 +17,7 @@ abstract: |
   - Deploy Windows feature updates. 
   - Schedule Windows feature updates. 
   - Expedite Windows security updates 
-prerequisites: 
+prerequisites: |
   - Familiarity with PowerShell
   - Familiarity with Windows
 iconUrl: /learn/achievements/manage-windows-updates-cloud-devices.svg
@@ -27,17 +27,16 @@ roles:
 - administrator
 - student
 products:
-- Windows
 - m365
 units:
-- learn.manage-windows-updates-cloud-devices.introduction
-- learn.manage-windows-updates-cloud-devices.use-deployment-service
-- learn.manage-windows-updates-cloud-devices.get-started
-- learn.manage-windows-updates-cloud-devices.enroll-unenroll-devices
-- learn.manage-windows-updates-cloud-devices.discover-updates
-- learn.manage-windows-updates-cloud-devices.deploy-feature-updates
-- learn.manage-windows-updates-cloud-devices.schedule-feature-updates
-- learn.manage-windows-updates-cloud-devices.expedite-security-updates
-- learn.manage-windows-updates-cloud-devices.summary
+- learn-m365-pr.manage-windows-updates-cloud-devices.introduction
+- learn-m365-pr.manage-windows-updates-cloud-devices.use-deployment-service
+- learn-m365-pr.manage-windows-updates-cloud-devices.get-started
+- learn-m365-pr.manage-windows-updates-cloud-devices.enroll-unenroll-devices
+- learn-m365-pr.manage-windows-updates-cloud-devices.discover-updates
+- learn-m365-pr.manage-windows-updates-cloud-devices.deploy-feature-updates
+- learn-m365-pr.manage-windows-updates-cloud-devices.schedule-feature-updates
+- learn-m365-pr.manage-windows-updates-cloud-devices.expedite-security-updates
+- learn-m365-pr.manage-windows-updates-cloud-devices.summary
 badge:
-  uid: learn.manage-windows-updates-cloud-devices.badge
+  uid: learn-m365-pr.manage-windows-updates-cloud-devices.badge
