@@ -8,6 +8,7 @@ metadata:
   author: waldekmastykarz
   ms.author: wmastyka
   ms.topic: interactive-tutorial
+  ms.prod: learning-m365
 durationInMinutes: 1
 content: |
   [!include[](includes/1-introduction.md)]

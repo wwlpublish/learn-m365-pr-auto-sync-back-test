@@ -155,9 +155,9 @@ To build and preview the Company announcements web part:
 1. To add the newly created web part to the canvas, select the **+** button to launch the toolbox.
    :::image type="content" source="../media/4-open-toolbox.png" alt-text="Arrow pointing to the + button to open the toolbox in the SharePoint workbench":::
 1. In the search bar, type `Company announcements` and select the web part.
-   :::image type="content" source="../media/4-toolbox-company-announcements-webpart.png" alt-text="Arrow pointing to the Company announcements web part in the web part toolbox":::
+   :::image type="content" source="../media/4-toolbox-company-announcements-web-part.png" alt-text="Arrow pointing to the Company announcements web part in the web part toolbox":::
    If you followed all steps successfully, you'll see your announcements from the Announcements list displayed in the workbench.
-   :::image type="content" source="../media/4-company-announcements-webpart.png" alt-text="Company announcements web part showing announcements in the SharePoint workbench":::
+   :::image type="content" source="../media/4-company-announcements-web-part.png" alt-text="Company announcements web part showing announcements in the SharePoint workbench":::
    The titles of announcements selected as important are shown in red.
 1. To stop the dev web server, go back to the terminal and press `CTRL+C`.
 
@@ -236,4 +236,4 @@ The **Company announcements** web part is now on the home page of your Home site
 
 1. Open the **Microsoft Teams** desktop client or in a web browser navigate to [https://teams.microsoft.com](https://teams.microsoft.com).
 1. Open the Viva connection app and you'll see the Home site's home page where the **Company announcements** web part displays all announcements.
-   :::image type="content" source="../media/4-company-announcements-webpart-viva-connections-desktop.png" alt-text="Company announcements web part showing announcements in Viva Connections desktop":::
+   :::image type="content" source="../media/4-company-announcements-web-part-viva-connections-desktop.png" alt-text="Company announcements web part showing announcements in Viva Connections desktop":::

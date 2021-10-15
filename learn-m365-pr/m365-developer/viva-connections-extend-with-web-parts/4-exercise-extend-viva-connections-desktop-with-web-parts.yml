@@ -8,6 +8,7 @@ metadata:
   author: waldekmastykarz
   ms.author: wmastyka
   ms.topic: interactive-tutorial
+  ms.prod: learning-m365
 durationInMinutes: 13
 content: |
   [!include[](includes/4-exercise-extend-viva-connections-desktop-with-web-parts.md)]
