@@ -48,10 +48,13 @@ Viva Connections automatically adjusts the rendering to the desktop and mobile e
 To build the card view, you can choose from three templates:
 
 - Basic
+
   :::image type="content" source="../media/3-card-view-basic.png" alt-text="Sample Adaptive Card Extension using the basic card view.":::
 - Image
+
   :::image type="content" source="../media/3-card-view-image.png" alt-text="Sample Adaptive Card Extension using the image card view.":::
 - Primary text
+
   :::image type="content" source="../media/3-card-view-primary-text.png" alt-text="Sample Adaptive Card Extension using the primary text card view.":::
 
 > [!IMPORTANT]
