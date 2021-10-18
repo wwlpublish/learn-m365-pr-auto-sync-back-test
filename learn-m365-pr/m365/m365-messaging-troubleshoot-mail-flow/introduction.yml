@@ -5,7 +5,7 @@ metadata:
   title: Introduction to troubleshooting mail flow
   description: Troubleshoot mail flow issues in Exchange Online using reports, transport logs, and validation. 
   ms.date: 07/14/2021
-  author: AlexandraHrt
+  author: temanteleary
   ms.author: teleary
   ms.topic: interactive-tutorial
   ms.prod: learning-m365

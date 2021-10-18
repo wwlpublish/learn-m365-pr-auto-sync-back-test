@@ -3,8 +3,8 @@ uid: learn-m365.modern-management-education
 metadata:
   title: Move to cloud management for education with Microsoft 365
   description: Learn about the optimal path for moving your K-12 school or district's Windows devices from on-premises device management to cloud management with Microsoft 365.
-  ms.date: 08/13/2021
-  author: beccarobins
+  ms.date: 10/05/2021
+  author: lizap
   ms.author: elizapo
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
@@ -19,7 +19,7 @@ abstract: |
 
 prerequisites: | 
    - Familiarity with Windows 10 and Microsoft 365 Apps
-iconUrl:  /learn/achievements/generic-badge.svg
+iconUrl:  /learn/achievements/education-modern-management.svg
 ratingEnabled: true
 levels:
 - beginner

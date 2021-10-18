@@ -5,7 +5,7 @@ metadata:
   title: Summary and knowledge check
   description: Manage the mail flow in Exchange Online by using domains, hybrid mail flow, and transport rules.
   ms.date: 07/19/2021
-  author: AlexandraHrt
+  author: temanteleary
   ms.author: teleary
   ms.topic: interactive-tutorial
   ms.prod: learning-m365

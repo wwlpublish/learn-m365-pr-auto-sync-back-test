@@ -5,7 +5,7 @@ metadata:
   title: Optimize media for Direct Routing
   description: Learn about media bypass, where media flow is optimized for users who are in the same building and on the same network as the SBC.
   ms.date: 06/02/2021
-  author: lizap
+  author: temanteleary
   ms.author: teleary
   ms.topic: interactive-tutorial
   ms.prod: learning-teams

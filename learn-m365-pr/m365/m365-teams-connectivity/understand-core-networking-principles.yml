@@ -6,7 +6,7 @@ metadata:
   description: Learn about the requirements Teams and Microsoft 365 have on the connection between your premises and the Microsoft data centers.
   ms.date: 07/15/2021
   ms.author: teleary
-  author: iankensey
+  author: temanteleary
   ms.topic: interactive-tutorial
   ms.prod: learning-teams
 durationInMinutes: 3

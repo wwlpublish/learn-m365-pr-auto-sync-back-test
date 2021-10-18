@@ -5,7 +5,7 @@ metadata:
   title: Strengthen your security posture with Microsoft Defender for Endpoint
   description: Learn about Microsoft Defender for Endpoint capabilities, such as threat and vulnerability management, exposure score, Microsoft Secure Score for devices, and security recommendations, so you can identify vulnerabilities across your devices, and remediate them to strengthen your security posture.
   ms.date: 08/16/2021
-  author: iankensey
+  author: beccarobins
   ms.author: beccarobins
   ms.topic: interactive-tutorial
   ms.prod: learning-m365

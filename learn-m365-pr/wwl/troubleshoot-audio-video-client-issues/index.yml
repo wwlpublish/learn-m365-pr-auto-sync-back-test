@@ -3,7 +3,7 @@ uid: learn.wwl.troubleshoot-audio-video-client-issues
 metadata:
   title: Troubleshoot audio, video, and client issues
   description: "Learn about the troubleshooting approaches for audio, video, and client issues in Teams, including collecting appropriate logs and identifying problems with different reports and dashboards."
-  ms.date: 09/28/2021
+  ms.date: 10/09/2021
   author: wwlpublish
   ms.author: jennyche
   ms.topic: interactive-tutorial

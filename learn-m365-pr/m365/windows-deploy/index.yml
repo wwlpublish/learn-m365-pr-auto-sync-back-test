@@ -3,8 +3,8 @@ uid: learn-m365.windows-deploy
 metadata:
   title: Deploy updates for Windows client and Microsoft 365 apps
   description: You've learned how to create a plan for your organization and how to prepare your organization, to bring its environment up to date. Now you'll learn how to help your organization to deploy an update.
-  ms.date: 10/05/2021
-  author: IanKensey
+  ms.date: 07/16/2021
+  author: temanteleary
   ms.author: teleary
   ms.topic: interactive-tutorial
   ms.prod: m365
