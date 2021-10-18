@@ -20,4 +20,4 @@ If your organization already uses Configuration Manager, we recommend upgrading 
 
 In this interactive guide, you will explore three methods for deploying Office 365 to your organization. The techniques remain the same for Microsoft 365 Apps:
 
-> \[!VIDEO https://mslearn.cloudguides.com/guides/Deploy%20Office%20365%20ProPlus%20in%20your%20organization\]
+> [!VIDEO https://mslearn.cloudguides.com/guides/Deploy%20Office%20365%20ProPlus%20in%20your%20organization]
