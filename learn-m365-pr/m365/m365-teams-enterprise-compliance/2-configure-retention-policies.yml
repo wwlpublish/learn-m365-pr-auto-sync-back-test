@@ -6,7 +6,7 @@ metadata:
   description: Learn about retention policies and Data Loss Prevention (DLP) policies and how they can be used to retain or remove Teams content such as chat items or files.
   ms.date: 07/15/2021
   ms.author: teleary
-  author: lizap
+  author: temanteleary
   ms.topic: interactive-tutorial
   ms.prod: learning-teams
 durationInMinutes: 4

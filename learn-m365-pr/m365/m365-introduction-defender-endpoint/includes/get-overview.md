@@ -1,4 +1,8 @@
-Unprotected or misconfigured devices can pose a risk to your organization. Attackers can take advantage and do damage to your organization. Many organizations have suffered reputational and financial loss at the hands of attackers. To protect your organization, you need to protect your devices. You're going to look into how Microsoft Defender for Endpoint can help you to achieve your goal.
+Unprotected or misconfigured devices can pose a risk to your organization. Attackers can take advantage and do damage to your devices or data. Many organizations have suffered reputational and financial loss at the hands of attackers. To protect your organization, you need to protect your devices. 
+
+In your medium-sized organization, you're concerned that your security posture may not be as secure as it needs to be, given the attacks that are regularly attempted from malicious actors. You want to know if Microsoft Defender for Endpoint can help to reduce weaknesses in your computers.
+
+Here, you're going to look into how Microsoft Defender for Endpoint can help you to achieve your goal.
 
 ## What is Microsoft Defender for Endpoint?
 
@@ -15,7 +19,7 @@ Microsoft Defender for Endpoint takes advantage of technologies including:
 
 ### Understand the capabilities
 
-:::image type="content" source="../media/1-components.png" alt-text="Diagram showing the Microsoft Defender for Endpoint components." lightbox="../media/1-components.png":::
+:::image type="content" source="../media/1-components.png" alt-text="Diagram showing the Microsoft Defender for Endpoint components." lightbox="../media/1-components.png" border="false":::
 
 Microsoft Defender for Endpoint provides protection through several different capabilities:
 

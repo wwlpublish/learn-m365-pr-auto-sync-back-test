@@ -4,7 +4,7 @@ metadata:
   title: Deploy Conditional Access App Control with AD FS as the identity provider
   description: Configure session controls in Cloud App Security using AD FS
   ms.date: 07/02/2021
-  author: alistairmatthews
+  author: beccarobins
   ms.author: beccarobins
   ms.topic: interactive-tutorial
   ms.prod: learning-m365

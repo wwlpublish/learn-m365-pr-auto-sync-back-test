@@ -4,7 +4,7 @@ metadata:
   title: Prepare for a Teams deployment with Microsoft 365 
   description: This module reviews the Microsoft Teams user experience and summarizes requirements and important considerations for deploying Teams as part of a Microsoft 365 installation. You’ll also learn about governance policies, such as expiration, retention, and archiving.
   ms.date: 07/16/2021
-  author: AlexandraHrt
+  author: temanteleary
   ms.author: teleary
   ms.topic: interactive-tutorial
   ms.prod: learning-m365

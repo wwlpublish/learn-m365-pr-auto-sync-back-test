@@ -6,7 +6,7 @@ metadata:
   description: Examine a modern set of security principals that defend your cloud-based systems, while allowing users to bring their own devices to work.
   ms.date: 07/16/2021
   ms.author: teleary
-  author: iankensey
+  author: temanteleary
   ms.topic: interactive-tutorial
   ms.prod: learning-teams
 durationInMinutes: 5

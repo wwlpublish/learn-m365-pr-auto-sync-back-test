@@ -5,7 +5,7 @@ metadata:
   title: Manage transport rules
   description: Learn about transport rules - how to create, manage, and modify the rules that automatically process messages in your Exchange Online organization.  
   ms.date: 07/21/2021
-  author: AlexandraHrt
+  author: temanteleary
   ms.author: teleary
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
