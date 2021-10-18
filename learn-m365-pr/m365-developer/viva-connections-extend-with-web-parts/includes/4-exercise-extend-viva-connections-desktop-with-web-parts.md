@@ -65,13 +65,13 @@ After you created the project, the next step is to extend the web part so that i
 1. After retrieving announcements from the list, the next step is to display them in the web part. In the last `then` clause, replace the `// todo: display results` comment with the following block:
 
    ```typescript
-   const announcementsHtml = announcements.value.map   (announcement =>
+   const announcementsHtml = announcements.value.map(announcement =>
      `<dt${announcement.Important ?
-       ` class="${styles.important}"` : ''}>${announcement.   Title}</dt>
+       ` class="${styles.important}"` : ''}>${announcement.Title}</dt>
      <dd>${announcement.Description}</dd>`);
    
    this.domElement.innerHTML = `
-   <div class="${styles.companyAnnouncements} ${this.   _hasTeamsContext ? styles.teams : ''}">
+   <div class="${styles.companyAnnouncements} ${this._hasTeamsContext ? styles.teams : ''}">
      <div class="${styles.container}">
        <div class="${styles.title}">Announcements</div>
        <dl>
