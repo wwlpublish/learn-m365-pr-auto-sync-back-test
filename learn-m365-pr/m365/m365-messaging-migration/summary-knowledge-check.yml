@@ -5,8 +5,8 @@ metadata:
   title: Summary and knowledge check
   description: Plan a migration from Exchange Server on-premises and other email systems to Microsoft 365 in the cloud.
   ms.date: 05/13/2020
-  author: AlexandraHrt
-  ms.author: v-aleha
+  author: temanteleary
+  ms.author: teleary
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 durationInMinutes: 5

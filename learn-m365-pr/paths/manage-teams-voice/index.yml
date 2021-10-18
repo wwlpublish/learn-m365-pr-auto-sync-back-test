@@ -1,0 +1,31 @@
+### YamlMime:LearningPath
+uid: learn.wwl.manage-teams-voice
+metadata:
+  title: Manage Teams Phone
+  description: Manage Teams Phone
+  ms.date: 10/06/2021
+  author: wwlpublish
+  ms.author: dahans
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Manage Teams Phone
+prerequisites: |
+  - Learners should be familiar with telecommunication technologies and have experience in Microsoft Teams, Microsoft 365, and PowerShell.
+  - Learners should have completed the
+  [Microsoft 365 Certified: Teams Administrator Associate](/learn/certifications/m365-teams-administrator-associate/) or have equivalent experience.
+summary: |
+  Discover how to manage Teams Voice after implementation. You’ll learn how to manage Teams Voice Users, Teams Devices, and perform common troubleshooting tasks.
+iconUrl: /learn/achievements/generic-trophy.svg
+levels:
+- advanced
+roles:
+- administrator
+products:
+- m365
+- office-teams
+modules:
+- learn.wwl.configure-manage-voice-users
+- learn.wwl.configure-deploy-manage-teams-devices
+- learn.wwl.monitor-troubleshoot-teams-phone-system
+trophy:
+  uid: learn.wwl.manage-teams-voice.trophy

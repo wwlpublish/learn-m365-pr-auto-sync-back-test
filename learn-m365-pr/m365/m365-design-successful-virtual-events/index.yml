@@ -27,7 +27,7 @@ abstract: |
 
 prerequisites: | # user input: prerequisites (https://review.docs.microsoft.com/help/learn/id-guidance-prerequisites?branch=master)
   - General understanding of virtual events, Microsoft Teams, and accessibility requirements
-iconUrl: /learn/achievements/generic-badge.svg
+iconUrl: /learn/achievements/design-a-successful-virtual-event.svg
 levels: # user input: add levels from level taxonomy (https://review.docs.microsoft.com/help/contribute/metadata-taxonomies?branch=master#level)
   - intermediate
 roles: # user input: add roles from role taxonomy (https://review.docs.microsoft.com/help/contribute/metadata-taxonomies?branch=master#role)

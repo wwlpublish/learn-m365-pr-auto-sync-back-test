@@ -51,7 +51,7 @@ You have flexibility in how you create and configure your DLP policies. You can 
 2. **Choose where you want to monitor**: You pick one or more locations that you want DLP to monitor for sensitive information. You can monitor:
 
 	Location | Include/exclude by|
-	|||
+	|---------|---------|
 	|Exchange email| distribution groups|
 	|SharePoint sites |sites |
 	|OneDrive accounts |accounts or distribution groups |

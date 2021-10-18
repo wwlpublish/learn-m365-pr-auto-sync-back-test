@@ -75,7 +75,7 @@ To get the most out of org-wide teams, you should consider the best practices fr
  
 
 | **Best practice** | **Description** |
-||--|
+|------|--------|
 | Allow only team owners to post to the General channel | Reduce channel noise by having only team owners post to the General channel. In the Teams Client go to the team and select **˙˙˙ More options** \> **Manage Team**. On the **Settings** tab, click **Member permissions** \> select **Only owners can post messages**. |
 | Turn off \@team and \@[team name] mentions            | Reduce \@mentions to keep them from overloading the entire organization. In the Teams Client go to the team and select **˙˙˙ More options** \> **Manage Team**. On the **Settings** tab, click **\@mentions** \> turn off **Show members the option to \@team or \@[team name]**.              |
 | Automatically favorite important channels             | Favorite important channels to ensure everyone in your organization engages in specific conversations.      |

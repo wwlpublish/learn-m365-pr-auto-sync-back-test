@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.configure-deploy-direct-routing.design-call-flows
+title: Design Direct Routing call flows
+metadata:
+  title: Design Direct Routing call flows
+  description: "Design Direct Routing call flows"
+  ms.date: 09/30/2021
+  author: wwlpublish
+  ms.author: dahans
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 14
+content: |
+  [!include[](includes/2-design-call-flows.md)]

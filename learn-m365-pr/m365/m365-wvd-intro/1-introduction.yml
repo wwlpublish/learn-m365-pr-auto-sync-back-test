@@ -6,7 +6,7 @@ metadata:
   description: Learn about Azure Virtual Desktop, a cloud-based desktop virtualization solution that works across devices – including Windows, Mac, iOS, and Android – with full-featured apps to access remote desktops and apps.
   ms.date: 07/12/2021
   author: lizap
-  ms.author: elizapo
+  ms.author: nedelgad
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 durationInMinutes: 10

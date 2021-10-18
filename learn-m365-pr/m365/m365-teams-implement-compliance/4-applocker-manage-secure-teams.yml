@@ -6,7 +6,7 @@ metadata:
   description: See how to ensure that Teams is allowed by AppLocker.
   ms.date: 06/02/2021
   ms.author: teleary
-  author: lizap
+  author: temanteleary
   ms.topic: interactive-tutorial
   ms.prod: learning-teams
 durationInMinutes: 2

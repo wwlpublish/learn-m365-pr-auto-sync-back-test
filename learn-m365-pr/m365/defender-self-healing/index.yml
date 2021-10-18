@@ -5,7 +5,7 @@ metadata:
   title: Automate self-healing with Microsoft 365 Defender 
   description: Learn how Microsoft 365 Defender uses automated self-healing for incident investigation and response to automate threat detection and remediation.
   ms.date: 08/12/2021
-  author: iankensey
+  author: beccarobins
   ms.author: beccarobins
   ms.topic: interactive-tutorial 
   ms.prod: learning-m365

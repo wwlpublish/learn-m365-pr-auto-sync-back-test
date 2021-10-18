@@ -5,8 +5,8 @@ metadata:
   title: Choose a Classic or Modern hybrid topology
   description: Your organization has migrated many workloads to Microsoft Azure, and you now intend to migrate to a hybrid Exchange environment. You need to consider the choices for a hybrid environment while keeping your infrastructure secure. You’ll plan the migration process to ensure that it’s as straightforward as possible.
   ms.date: 06/02/2021
-  author: AlexandraHrt
-  ms.author: v-aleha
+  author: temanteleary
+  ms.author: teleary
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 durationInMinutes: 4
