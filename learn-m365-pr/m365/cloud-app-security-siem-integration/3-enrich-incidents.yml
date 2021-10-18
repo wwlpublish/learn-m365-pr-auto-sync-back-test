@@ -4,7 +4,7 @@ metadata:
   title: Enrich incidents in Azure Sentinel with playbooks
   description: Learn how to enrich incidents in Azure Sentinel with playbooks
   ms.date: 02/10/2021
-  author: geoffallix
+  author: beccarobins
   ms.author: beccarobins
   ms.topic: interactive-tutorial
   ms.prod: learning-m365

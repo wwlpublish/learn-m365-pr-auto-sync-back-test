@@ -5,7 +5,7 @@ metadata:
   title: Understand your migration options
   description: Discover how Azure Migrate helps you realize the benefits of moving your on-premises VMware or Hyper-V server workloads to Azure infrastructure as a service (IaaS). Learn the process for migrating your workload agent-less, all within the hub. 
   ms.date: 07/06/2021
-  author: ericweisberg
+  author: beccarobins
   ms.author: beccarobins
   ms.topic: interactive-tutorial
   ms.prod: learning-m365

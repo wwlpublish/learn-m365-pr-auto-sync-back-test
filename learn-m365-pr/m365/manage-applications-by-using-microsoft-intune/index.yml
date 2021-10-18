@@ -4,7 +4,7 @@ metadata:
   title: Manage applications by using Microsoft Intune
   description: In this module, we will learn about considerations for implementing Mobile Application Management (MAM) and manage MAM policies in Intune.
   ms.date: 07/16/2021
-  author: bneeb
+  author: temanteleary
   ms.author: teleary
   ms.topic: interactive-tutorial
   ms.prod: learning-m365

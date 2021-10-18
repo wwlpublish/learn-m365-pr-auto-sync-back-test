@@ -5,7 +5,7 @@ metadata:
   title: Create an extractor
   description:  Learn to create and apply a document understanding model, prepare a training set, build a classifier model, train a classifier, and apply the model to a library.
   ms.date: 07/27/2021
-  author: beccarobins
+  author: temanteleary
   ms.author: teleary
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
