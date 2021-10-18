@@ -4,7 +4,7 @@ metadata:
   title: Create threat protection policies in Cloud App Security
   description: Microsoft Cloud App Security provides policy-driven mechanisms to help manage your users' behavior in the cloud
   ms.date: 07/06/2021
-  author: geoffallix
+  author: beccarobins
   ms.author: beccarobins
   ms.topic: interactive-tutorial
   ms.prod: learning-m365

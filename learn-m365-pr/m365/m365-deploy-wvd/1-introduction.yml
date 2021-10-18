@@ -6,7 +6,7 @@ metadata:
   description: Introduction to deploy Azure Virtual Desktop in Microsoft Azure.
   ms.date: 05/21/2021
   author: lizap
-  ms.author: elizapo
+  ms.author: nedelgad
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 durationInMinutes: 3

@@ -6,7 +6,7 @@ metadata:
   description: Learn about the terms used with Azure Virtual Desktop and options you can specify when you provision a host pool.
   ms.date: 08/02/2021
   author: lizap
-  ms.author: elizapo
+  ms.author: nedelgad
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 durationInMinutes: 5

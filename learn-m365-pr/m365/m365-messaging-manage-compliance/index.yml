@@ -4,8 +4,8 @@ metadata:
   title: Manage compliance in Microsoft 365 and Exchange Online
   description: Learn how compliance works in Exchange Online. Learn how to use retention and data loss prevention policies to keep the data and communications you're required to maintain, how to find that data and communications, and how to ensure you're ready for an audit.  
   ms.date: 07/14/2021
-  author: AlexandraHrt
-  ms.author: v-aleha
+  author: temanteleary
+  ms.author: teleary
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Manage compliance in Microsoft 365 and Exchange Online

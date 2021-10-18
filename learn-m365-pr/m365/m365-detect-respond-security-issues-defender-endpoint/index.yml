@@ -5,7 +5,7 @@ metadata:
   title: Detect and respond to security issues using Microsoft Defender for Endpoint
   description: Learn how to detect and respond to security issues using Microsoft Defender for Endpoint with the help of features and capabilities such as the incident queue, alerts queue, response actions on devices and files, and Live Response.
   ms.date: 08/17/2021
-  author: iankensey
+  author: beccarobins
   ms.author: beccarobins
   ms.topic: interactive-tutorial
   ms.prod: learning-m365

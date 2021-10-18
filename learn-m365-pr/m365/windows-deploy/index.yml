@@ -1,17 +1,17 @@
 ### YamlMime:Module
 uid: learn-m365.windows-deploy
 metadata:
-  title: Deploy updates for Windows 10 and Microsoft 365 Apps
-  description: You've learned how to create a plan for your organization, and how to prepare your organization, to bring its environment up to date. Now you'll learn how to help your organization to deploy an update.
+  title: Deploy updates for Windows client and Microsoft 365 apps
+  description: You've learned how to create a plan for your organization and how to prepare your organization, to bring its environment up to date. Now you'll learn how to help your organization to deploy an update.
   ms.date: 07/16/2021
-  author: IanKensey
+  author: temanteleary
   ms.author: teleary
   ms.topic: interactive-tutorial
   ms.prod: m365
-title: Deploy updates for Windows 10 and Microsoft 365 Apps
-summary: Learn how to deploy the latest updates to Windows 10 and Microsoft 365 Apps.
+title: Deploy updates for Windows client and Microsoft 365 apps
+summary: Learn how to deploy the latest updates to Windows clients and Microsoft 365 apps.
 abstract: | 
-  In this module, you will use the servicing process to help your organization deploy an update.
+  In this module, you will use the servicing process to deploy updates to the clients and apps in your organization.
 prerequisites: | 
   - None
 iconUrl: /learn/achievements/deploy-updates-in-windows-10.svg

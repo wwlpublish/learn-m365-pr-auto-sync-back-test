@@ -4,16 +4,15 @@ To use FSLogix to separate user profiles from the session host virtual machines 
 
 1. Sign in to the [Azure portal](https://portal.azure.com?azure-portal=true).
 1. Search for **Storage accounts** by using the Azure portal search box.
-1. In **Storage accounts**, select **Add**.
-1. Select or create a resource group to contain your storage resources.
-1. Enter a unique name for your Storage account.
-1. Accept the defaults for the rest of the values.
+1. In **Storage accounts** command bar, select **Create**. The **Create a storage account** page appears.
+1. Under *Project Details* select the **Subscription**, and then select or create a **Resource group** to contain your storage resources.
+1. Under *Instance details*, enter a unique name for your Storage account, and accept the defaults for the rest of the values.
 
    :::image type="content" source="../media/3-create-storage-account.png" alt-text="Screenshot of the create storage account experience with resource group selected and a storage account name entered.":::
 
-1. Select **Review + create** and then select **Create**.
+1. Select **Review + create** to validate your inputs, and then select **Create**.
 1. Wait for the deployment to complete. This may take a minute.
-1. Select **Go to resource**.
+1. Select **Go to resource**. The **Storage account** page displays details about your storage account.
 
 ## Enable Azure Active Directory authentication
 
@@ -21,7 +20,7 @@ The following steps cover how to enable authentication for Azure file shares wit
 
 ### Enable authentication for Azure file shares with Azure AD DS
 
-1. In the storage account you created, under **Settings**, select **Configuration**.
+1. In the Storage account menu, scroll to **Settings**, and then select **Configuration**.
 1. Under **Identity-based access for file shares**, enable the **Azure Active Directory Domain Services (AAD DS)** option.
 
     :::image type="content" source="../media/3-enable-storage-account-aadds.png" alt-text="Screenshot that shows the storage account configuration page with the Azure Active Directory Domain Services (AAD DS) option enabled.":::

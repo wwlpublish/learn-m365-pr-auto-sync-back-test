@@ -5,8 +5,8 @@ metadata:
   title: Summary and knowledge check
   description: Review what you've learned about the different mailbox types, distribution and security groups, and mailbox policies and permissions.
   ms.date: 07/14/2021
-  author: AlexandraHrt
-  ms.author: v-aleha
+  author: temanteleary
+  ms.author: teleary
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 durationInMinutes: 5

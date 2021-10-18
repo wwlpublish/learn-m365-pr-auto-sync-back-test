@@ -6,7 +6,7 @@ metadata:
   description: Learn how to change the name of the Azure Virtual Desktop workspace and desktop.
   ms.date: 07/29/2021
   author: lizap
-  ms.author: elizapo
+  ms.author: nedelgad
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 durationInMinutes: 5

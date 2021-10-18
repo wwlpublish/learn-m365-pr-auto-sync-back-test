@@ -5,8 +5,8 @@ metadata:
   title: Plan to deploy Teams mobile clients
   description: Learn about the various Microsoft Teams clients, including desktop, web, and mobile clients. Discover how to deploy each type of client and how the update process works.
   ms.date: 07/15/2021
-  author: AlexandraHrt
-  ms.author: v-aleha
+  author: temanteleary
+  ms.author: teleary
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 durationInMinutes: 1
