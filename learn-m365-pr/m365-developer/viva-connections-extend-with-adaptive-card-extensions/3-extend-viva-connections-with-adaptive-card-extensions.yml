@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.viva-connections-extend-with-adaptive-card-extensions.extend-viva-connections-with-adaptive-card-extensions
+title: Extend Microsoft Viva Connections with Adaptive Card Extensions
+metadata:
+  title: Extend Microsoft Viva Connections with Adaptive Card Extensions
+  description: In this unit, you'll learn what Adaptive Card Extensions are and what you should consider when using them to extend Viva Connections.
+  ms.date: 10/15/2021
+  author: waldekmastykarz
+  ms.author: wmastyka
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 6
+content: |
+  [!include[](includes/3-extend-viva-connections-with-adaptive-card-extensions.md)]
