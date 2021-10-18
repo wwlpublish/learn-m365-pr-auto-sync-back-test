@@ -1,25 +1,24 @@
-Microsoft Viva Connections is an employee experience solution that offers two distinct experiences for desktop and mobile devices. The following sections provide a high-level overview of the different ways in which you can extend Viva Connections. For more information about these extensions, see the links to the dedicated Viva Connections extensibility learn modules in the summary of this learn module.
+In this module, you get a high-level overview of the ways in which you can extend Viva Connections. For more information about these extensions, see the links to the dedicated Viva Connections extensibility Learn modules in the summary unit.
 
 ## Web parts
 
-The Viva Connections desktop experience is implemented using modern SharePoint pages in SharePoint Online. You can extend these pages with HTML widgets, named “web parts”. Editors can place web parts in the content area of pages.
+The Viva Connections desktop experience is implemented through modern SharePoint pages in SharePoint Online. You can extend these pages with HTML widgets named *web parts*. Editors can place web parts in the content area of pages.
 
-:::image type="content" source="../media/4-web-parts.png" alt-text="Modern SharePoint page in edit mode showing different sections and web parts":::
+:::image type="content" source="../media/4-web-parts.png" alt-text="Screenshot of a modern SharePoint page in edit mode, showing different sections and web parts.":::
 
-What's special about web parts, is that editors can place them on pages and configure them to their needs. You use web parts to extend the Viva Connections desktop experience.
+What's special about web parts is that editors can place them on pages and configure them to their needs. You use web parts to extend the Viva Connections desktop experience.
 
 ## Application customizers
 
-Another way to extend the Viva Connections desktop experience is by using application customizers. Application customizers allow you to inject HTML and JavaScript into known locations on a SharePoint page, such as a header or footer. Application customizers are useful for running background code such as analytics tracking. They can also be used to show information in one of the predefined content placeholders on a page. Application customizers are enabled by administrators while web parts can be added by users. You use application customizers to extend the Viva Connections desktop experience.
+Another way to extend the Viva Connections desktop experience is by using application customizers. Application customizers allow you to inject HTML and JavaScript into known locations on a SharePoint page, such as a header or footer. 
 
-:::image type="content" source="../media/4-application-customizer-footer.png" alt-text="Site footer built using an application customizer":::
+Application customizers are useful for running background code such as analytics tracking. They can also be used to show information in one of the predefined content placeholders on a page. Application customizers are enabled by administrators while web parts can be added by users. 
+
+:::image type="content" source="../media/4-application-customizer-footer.png" alt-text="Screenshot of a site footer built through an application customizer.":::
 
 ## Adaptive Card Extensions
 
-Adaptive Card Extensions (ACEs) are similar to web parts but use Adaptive Cards to implement the UI. Adaptive Cards are JSON structures that can be rendered on desktop and mobile clients.
-
-> [!TIP]
-> For more information about Adaptive Cards, see [https://adaptivecards.io](https://adaptivecards.io).
+Adaptive Card Extensions (ACEs) are similar to web parts but use [Adaptive Cards](https://adaptivecards.io) to implement the UI. Adaptive Cards are JSON structures that can be rendered on desktop and mobile clients.
 
 The advantage of ACEs is that they work on both the mobile and the desktop experience of Viva Connections through a special dashboard that users in your organization configure. In the desktop experience, the dashboard is embedded through a special web part that editors can put on a page. In the mobile experience, the Viva Connections mobile app automatically detects and loads the dashboard configured in the home site in your Microsoft 365 tenant.
 
