@@ -1,0 +1,36 @@
+### YamlMime:Module
+uid: learn.wwl.troubleshoot-transport-issues
+metadata:
+  title: Troubleshoot transport issues
+  description: "Troubleshoot transport issues"
+  ms.date: 10/18/2021
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Troubleshoot transport issues
+summary: Examines common troubleshooting scenarios involving transport components, including connectors, transport agents, architectural issues, and coexistence.
+abstract: |
+  By the end of this module, you'll be able to:
+  - Troubleshoot network-based issues.
+  - Plan troubleshooting procedures for connector and agent issues.
+  - Plan troubleshooting procedures for architectural issues.
+  - Describe how to troubleshoot transport issues with coexistence.
+prerequisites: ""
+iconUrl: /learn/achievements/generic-badge.svg
+levels:
+- intermediate
+roles:
+- administrator
+products:
+- azure-active-directory
+- m365
+units:
+- learn.wwl.troubleshoot-transport-issues.introduction
+- learn.wwl.troubleshoot-transport-issues.troubleshoot-network-based-issues
+- learn.wwl.troubleshoot-transport-issues.connectors-agents
+- learn.wwl.troubleshoot-transport-issues.coexistence
+- learn.wwl.troubleshoot-transport-issues.knowledge-check
+- learn.wwl.troubleshoot-transport-issues.summary
+badge:
+  uid: learn.wwl.troubleshoot-transport-issues.badge
