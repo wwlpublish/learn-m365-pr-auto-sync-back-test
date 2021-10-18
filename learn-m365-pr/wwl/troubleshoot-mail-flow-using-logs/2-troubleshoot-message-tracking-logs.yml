@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.troubleshoot-mail-flow-using-logs.troubleshoot-message-tracking-logs
+title: Troubleshoot with message tracking logs
+metadata:
+  title: Troubleshoot with message tracking logs
+  description: "Troubleshoot with message tracking logs"
+  ms.date: 10/18/2021
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 8
+content: |
+  [!include[](includes/2-troubleshoot-message-tracking-logs.md)]
