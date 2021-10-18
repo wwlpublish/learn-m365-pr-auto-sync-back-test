@@ -1,0 +1,52 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.manage-mail-flow.knowledge-check
+title: Knowledge check
+metadata:
+  title: Knowledge check
+  description: "Knowledge check"
+  ms.date: 10/18/2021
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 6
+content: |
+  [!include[](includes/6-knowledge-check.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "Contoso's Exchange Server deployment has multiple routing paths, but they all have the same cost. When determining mail flow, what's the next option that Exchange uses to determine which routing path to use?"
+    choices:
+    - content: "The path whose Active Directory site has the lowest alphanumeric name"
+      isCorrect: false
+      explanation: "That's incorrect. This is the third option used to determine the routing path. Try again."
+    - content: "The path with the lowest number of hops"
+      isCorrect: true
+      explanation: "That's correct. In cases where there are multiple routing paths with the same cost, the path with the lowest number of hops is preferred."
+    - content: "The path whose Active Directory site has the largest maximum message size"
+      isCorrect: false
+      explanation: "That's incorrect. This item is not an option that Exchange uses to determine the routing path. Try again."
+  - content: "Fabrikam has an Exchange Server deployment. As the Messaging administrator for Fabrikam, Holly Spencer is analyzing the tools that are available to help manage mail flow in Exchange. What tool provides the most detailed information about message delivery so that Holly can determine whether Fabrikam's mail flow is using the correct Exchange servers and connectors?"
+    choices:
+    - content: "Queue viewer"
+      isCorrect: false
+      explanation: "That's incorrect. Queue Viewer is a graphical tool that you can use to see message queues and their contents on a specific server. Try again."
+    - content: "Delivery reports"
+      isCorrect: false
+      explanation: "That's incorrect. There's another tool that provides more detailed information about message delivery than Delivery reports. Try again."
+    - content: "The Get-MessageTrackingLog cmdlet"
+      isCorrect: true
+      explanation: "That's correct. You can use message tracking to make sure the mail flow is using the correct Exchange servers and connectors. There's no graphical tool for viewing the message tracking logs. While delivery reports provide this information, Message tracking logs provide much more detailed information about message delivery than delivery reports. To view this information in message tracking logs, you use the Get-MessageTrackingLog cmdlet with filtering to identify the log events you wish to review."
+  - content: "Tailspin Toys is planning to implement a hybrid Exchange deployment. As the Messaging administrator for Tailspin Toys, Alan Deyoung is planning the company's email flow between Exchange Online and the company's on-premises Exchange Servers. What other email flow component must Alan organize?"
+    choices:
+    - content: "The Transport Layer Security (TLS) that encrypts messages"
+      isCorrect: false
+      explanation: "That's incorrect. The SMTP send and receive connectors enforce the requirement that messages be encrypted by using the Transport Layer Security (TLS) protocol. However, this requirement applies when configuring email flow between Exchange Online and the company's on-premises Exchange Servers, which Alan has already done. Try again."
+    - content: "The SMTP send and receive connectors used by the Hybrid Configuration Wizard"
+      isCorrect: false
+      explanation: "That's incorrect. These connectors are part of the email flow between Exchange Online and the company's on-premises Exchange Servers, which Alan has already configured. Try again."
+    - content: "Email flow to and from the Internet"
+      isCorrect: true
+      explanation: "That's correct. A hybrid deployment is typically configured to share a common SMTP email namespace. This design requires routing messages between an organization's on-premises Exchange servers and Exchange Online. For this reason, you must consider how to organize the email flow to and from the Internet, and between Exchange Online and the Exchange Server on-premises."

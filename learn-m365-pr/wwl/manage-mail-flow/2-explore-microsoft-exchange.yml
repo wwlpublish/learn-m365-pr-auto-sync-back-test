@@ -1,0 +1,30 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.manage-mail-flow.explore-microsoft-exchange
+title: Explore mail flow in Microsoft Exchange
+metadata:
+  title: Explore mail flow in Microsoft Exchange
+  description: "Explore mail flow in Microsoft Exchange"
+  ms.date: 10/18/2021
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 4
+content: |
+  [!include[](includes/2-explore-microsoft-exchange.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "As the Messaging administrator for Lucerne Publishing, Patti Fernandez is analyzing the company's mail flow configuration in its Exchange Server deployment. Which feature of Lucerne's Exchange deployment are the first to accept external messages and scan them for spam and malware?"
+    choices:
+    - content: "perimeter servers"
+      isCorrect: true
+      explanation: "That's correct. The servers configured in your MX record are your perimeter servers that are the first to accept external messages and often scan them for spam and malware."
+    - content: "External mail servers"
+      isCorrect: false
+      explanation: "That's incorrect. External mail servers are outside your Exchange deployment. They use your company's MS record to determine where to transport external messages for your organization. Try again."
+    - content: "Mailbox servers"
+      isCorrect: false
+      explanation: "That's incorrect. Mailbox servers host the user mailbox or recipient. They are the final servers to receive external email messages. Try again."

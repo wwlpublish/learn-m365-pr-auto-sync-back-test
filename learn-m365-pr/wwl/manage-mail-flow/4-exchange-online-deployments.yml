@@ -1,0 +1,30 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.manage-mail-flow.exchange-online-deployments
+title: Manage mail flow in Exchange Online deployments
+metadata:
+  title: Manage mail flow in Exchange Online deployments
+  description: "Manage mail flow in Exchange Online deployments"
+  ms.date: 10/18/2021
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 6
+content: |
+  [!include[](includes/4-exchange-online-deployments.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "As the Messaging Administrator for Contoso, Holly Dickson is configuring the company's Exchange Online deployment. Holly has configured Internet SMTP email to be sent out directly from Exchange Online Protection to the recipient’s mail server. What other configuration must Holly complete in Contoso's Exchange Online deployment?"
+    choices:
+    - content: "Configure Exchange Online internal routing to route any messages from Contoso's Exchange organization to an Internet domain to the Internet"
+      isCorrect: false
+      explanation: "That's incorrect. This is an Exchange Online connector setting in which the default settings are sufficient, and the Connector is not required."
+    - content: "Subscribe to Exchange Online Protection for email protection services for on-premises mailboxes"
+      isCorrect: false
+      explanation: "That's incorrect. You don't have on-premises mailboxes in an Exchange Online deployment. Try again."
+    - content: "Configure Contoso's DNS MX record to point inbound to Exchange Online"
+      isCorrect: true
+      explanation: "That's correct. The only other requirement in an Exchange Online deployment is to configure the organization's DNS MX record to point inbound to Exchange Online."
