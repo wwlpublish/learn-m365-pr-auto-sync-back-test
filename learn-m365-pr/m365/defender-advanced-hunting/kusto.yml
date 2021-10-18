@@ -6,7 +6,7 @@ metadata:
   title: Introduction to Kusto Query Language
   description: Learn all about the advanced hunting query language and how you can use it to refine your investigations.
   ms.date: 08/12/2021
-  author: iankensey
+  author: beccarobins
   ms.author: beccarobins
   ms.topic: interactive-tutorial 
   ms.prod: learning-m365

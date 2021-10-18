@@ -4,7 +4,7 @@ metadata:
   title: Configure Cloud App Security in Microsoft Defender for Endpoint
   description: Microsoft Cloud App Security integrates with Microsoft Defender for Endpoint to help simplify cloud discovery
   ms.date: 07/02/2021
-  author: geoffallix
+  author: beccarobins
   ms.author: beccarobins
   ms.topic: interactive-tutorial
   ms.prod: learning-m365

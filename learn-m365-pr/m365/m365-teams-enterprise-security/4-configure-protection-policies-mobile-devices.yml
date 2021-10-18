@@ -6,7 +6,7 @@ metadata:
   description: Learn how an app protection policy is a collection of rules that govern how data, assets, and resources are accessed.
   ms.date: 07/16/2021
   ms.author: teleary
-  author: lizap
+  author: temanteleary
   ms.topic: interactive-tutorial
   ms.prod: learning-teams
 durationInMinutes: 4

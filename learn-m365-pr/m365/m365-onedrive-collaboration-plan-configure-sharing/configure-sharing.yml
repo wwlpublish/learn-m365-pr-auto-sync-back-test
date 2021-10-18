@@ -5,8 +5,8 @@ metadata:
   title: Configure sharing for OneDrive
   description: Learn what you as an administrator need to know for planning and configuring external sharing in OneDrive. External sharing is a core collaboration feature of OneDrive and has multiple configuration scenarios available are available to every organization. Learn what different sharing options exist and how they relate to the users sharing experience across applications and devices. 
   ms.date: 07/19/2021
-  author: ericweisberg
-  ms.author: v-erwe
+  author: temanteleary
+  ms.author: teleary
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 

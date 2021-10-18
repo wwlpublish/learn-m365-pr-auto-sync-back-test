@@ -1,0 +1,44 @@
+### YamlMime:Module
+uid: learn.wwl.monitor-troubleshoot-teams-phone-system
+metadata:
+  title: Monitor and troubleshoot Teams Phone
+  description: "Troubleshooting is an important task that includes troubleshooting of phone number assignment, call failure and quality issues, client issues, and device issues. Call Analytics and Call Quality Dashboard are also covered for reporting and troubleshooting."
+  ms.date: 10/06/2021
+  author: wwlpublish
+  ms.author: dahans
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Monitor and troubleshoot Teams Phone
+summary: Troubleshooting is an important task that includes troubleshooting of phone number assignment, call failure and quality issues, client issues, and device issues. Call Analytics and Call Quality Dashboard are also covered for reporting and troubleshooting.
+abstract: |
+  At the end of this module, you will be able to:
+  - Diagnose and troubleshoot phone number assignment.
+  - Diagnose and Troubleshoot Microsoft Teams Client Issues.
+  - Diagnose and troubleshoot call failures and quality issues.
+  - Report on and Troubleshoot Teams Calls with Call Quality Dashboard (CQD).
+  - Diagnose and Troubleshoot Direct Routing Issues.
+  - Troubleshoot and Monitor Teams devices.
+prerequisites: |
+  - General knowledge of Teams Phone System
+  - A general understanding of Office 365
+  - A general understanding of Direct Routing
+iconUrl: /learn/achievements/generic-badge.svg
+levels:
+- advanced
+roles:
+- administrator
+products:
+- m365
+- office-teams
+units:
+- learn.wwl.monitor-troubleshoot-teams-phone-system.introduction
+- learn.wwl.monitor-troubleshoot-teams-phone-system.diagnose-troubleshoot-phone-number-assignment
+- learn.wwl.monitor-troubleshoot-teams-phone-system.diagnose-troubleshoot-microsoft-teams-client-issues
+- learn.wwl.monitor-troubleshoot-teams-phone-system.diagnose-troubleshoot-call-failures-quality-issues
+- learn.wwl.monitor-troubleshoot-teams-phone-system.report-on-troubleshoot-teams-calls-with-call-quality-dashboard
+- learn.wwl.monitor-troubleshoot-teams-phone-system.diagnose-troubleshoot-direct-routing-issues
+- learn.wwl.monitor-troubleshoot-teams-phone-system.troubleshoot-monitor-teams-devices
+- learn.wwl.monitor-troubleshoot-teams-phone-system.knowledge-check
+- learn.wwl.monitor-troubleshoot-teams-phone-system.summary-resources
+badge:
+  uid: learn.wwl.monitor-troubleshoot-teams-phone-system.badge

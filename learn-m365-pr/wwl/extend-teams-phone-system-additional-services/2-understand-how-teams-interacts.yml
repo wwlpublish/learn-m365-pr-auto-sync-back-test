@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.extend-teams-phone-system-additional-services.understand-how-teams-interacts
+title: Understand how Teams interacts with additional services
+metadata:
+  title: Understand how Teams interacts with additional services
+  description: "Understand how Teams interacts with additional services"
+  ms.date: 10/02/2021
+  author: wwlpublish
+  ms.author: dahans
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 4
+content: |
+  [!include[](includes/2-understand-how-teams-interacts.md)]

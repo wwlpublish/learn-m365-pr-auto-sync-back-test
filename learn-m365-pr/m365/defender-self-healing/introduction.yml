@@ -6,7 +6,7 @@ metadata:
   title: Introduction
   description: Learn about automated self-healing tools available in Microsoft 365 Defender. Understand how automated investigation and response can be used to improve your security team’s analysis and remediation of threats.
   ms.date: 08/12/2021
-  author: iankensey
+  author: beccarobins
   ms.author: beccarobins
   ms.topic: interactive-tutorial 
   ms.prod: learning-m365

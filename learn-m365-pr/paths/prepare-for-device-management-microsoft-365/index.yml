@@ -3,7 +3,7 @@ uid: learn.wwl.prepare-for-device-management-microsoft-365
 metadata:
   title: Prepare for device management in Microsoft 365
   description: Prepare for device management in Microsoft 365
-  ms.date: 06/25/2021
+  ms.date: 10/05/2021
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -14,7 +14,7 @@ prerequisites: |
   - Students should have a proficient understanding of DNS and basic functional experience with Microsoft 365 services.
   - Students must have a proficient understanding of general IT practices.
 summary: |
-  This learning path examines how to prepare for device management in Microsoft 365, including planning your co-management strategy for Windows 10 devices, transitioning from Configuration Manager to Intune, and planning for Mobile Application Management.
+  This learning path examines how to prepare for device management in Microsoft 365, including planning your co-management strategy for Windows devices, transitioning from Configuration Manager to Intune, and planning for Mobile Application Management.
 iconUrl: /learn/achievements/device-management.svg
 levels:
 - intermediate

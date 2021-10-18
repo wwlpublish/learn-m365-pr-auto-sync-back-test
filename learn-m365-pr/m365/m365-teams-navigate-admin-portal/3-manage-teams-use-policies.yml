@@ -6,7 +6,7 @@ metadata:
   description: Learn how policies can be used to impose restrictions on large numbers of users and devices across your Teams system.
   ms.date: 08/16/2021
   ms.author: teleary
-  author: lizap
+  author: temanteleary
   ms.topic: interactive-tutorial
   ms.prod: learning-teams
 durationInMinutes: 8

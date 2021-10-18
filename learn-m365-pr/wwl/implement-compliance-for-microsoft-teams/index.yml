@@ -3,7 +3,7 @@ uid: learn.wwl.implement-compliance-for-microsoft-teams
 metadata:
   title: Implement compliance for Microsoft Teams
   description: "Implement compliance for Microsoft Teams"
-  ms.date: 09/14/2021
+  ms.date: 10/09/2021
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -24,7 +24,7 @@ abstract: |
 prerequisites: |
   - A proficient understanding of basic functional experience with Microsoft 365 services.
   - A proficient understanding of general IT practices, including using PowerShell.
-iconUrl: /learn/achievements/generic-badge.svg
+iconUrl: /learn/achievements/teams-implement-compliance.svg
 levels:
 - intermediate
 roles:

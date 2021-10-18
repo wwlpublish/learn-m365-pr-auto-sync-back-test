@@ -5,7 +5,7 @@ metadata:
   title: Recognize Microsoft managed account types
   description: Learn how Microsoft 365 implements the principle of Zero Standing Access (ZSA) to protect production environments and customer data using Just-In-Time (JIT) and Just-Enough-Access (JEA).
   ms.date: 09/07/2021
-  author: NamrahK
+  author: beccarobins
   ms.author: beccarobins
   ms.topic: interactive-tutorial
   ms.prod: learning-m365

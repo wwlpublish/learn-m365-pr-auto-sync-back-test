@@ -5,7 +5,7 @@ metadata:
   title: Example - anti-phishing policy to protect a user and a domain
   description: Review a case study where a security administrator uses Microsoft Defender for Office 365 policies to protect their users and domain.
   ms.date: 07/15/2021
-  author: AlexandraHrt
+  author: beccarobins
   ms.author: beccarobins
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
