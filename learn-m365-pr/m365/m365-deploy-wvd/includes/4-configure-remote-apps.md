@@ -7,45 +7,56 @@ To complete the exercise, you'll need the credentials for a different non-admini
 ### Step 1: Basics
 
 1. [Sign in](https://portal.azure.com/learn.docs.microsoft.com?azure-portal=true) to the Azure portal.
-1. Use the search box to find **Azure Virtual Desktop**.
-1. Select **Application groups** > **Create**.
-1. Select the subscription, resource group, host pool, and application type.
+ 
+1. Use the search box to find **Azure Virtual Desktop**. The Azure Virtual Desktop page appears.
 
-   :::image type="content" source="../media/4-create-application-group-basics.png" alt-text="Screenshot of the application groups basics tab filled out using values from table.":::
+1. From the resource menu under **Manage** category, select **Application groups**. The **Azure Virtual Desktop** *Application groups* pane appears.
+
+1. In the command bar, select **Create**. The **Create an application group** pane appears.
+
+1. On the Basics tab, enter the following values.
 
    |Field  |Description  |
    |---------|---------|
-   |Subscription     |  Subscription where you want the app group to run       |
-   |Resource group     | Resource group you've created for Azure Virtual Desktop resources      |
-   |Host pool     | wvd-host-pool-1    |
-   |Application group type     | RemoteApp    |
+   |Subscription | Subscription where you want the app group to run |
+   |Resource group | Resource group you've created for Azure Virtual Desktop resources |
+   |Host pool | wvd-host-pool-1 |
+   |Application group type | RemoteApp |
    |Application group name | RemoteApp1 |
-1. Select **Next: Applications**.
+   
+   
+   :::image type="content" source="../media/4-create-application-group-basics.png" alt-text="Screenshot of the application groups basics tab filled out using values from table.":::
+   
+1. Select **Next: Applications**. The **Create an applications group** pane appears.
 
 ### Step 2: Applications
 
-1. Select **Add applications**.
+1. The application list is empty. Let's add a few applications. Select **Add applications**. The **Add Applications** tab appears.
 
    :::image type="content" source="../media/4-remoteapp-applications.png" alt-text="Screenshot of the applications tab with add applications highlighted.":::
-1. Use the information in the following table to help you add an application. Accept the rest of the default values where not listed in the table.
-
-   :::image type="content" source="../media/4-remoteapp-add-application.png" alt-text="Screenshot that shows WordPad selected.":::
+   
+1. Enter the following values. Accept default values for fields that are not listed in the table.
 
    |Field  |Value  |
    |---------|---------|
-   |Application source    |  Start menu |
-   |Application    | WordPad   |
-   |Display name    | WordPad  |
+   |Application source |  Start menu |
+   |Application | WordPad |
+   |Display name  | WordPad  |
 
-1. Select **Next: Assignments**.
+   :::image type="content" source="../media/4-remoteapp-add-application.png" alt-text="Screenshot that shows WordPad selected.":::
+
+1. Select **Next: Assignments**. The **Create an application group** Assignments tab appears. 
+
 
 ### Step 3: Assignments
 
-1. Select **Add Azure AD users or user groups**.
+1. Select **Add Azure AD users or user groups**. The **Select Azure AD users or user groups** pane appears.
+ 
+1. Select single or multiple users, or you can select user groups.
 
    :::image type="content" source="../media/4-remoteapp-assignment.png" alt-text="Screenshot of the assignments tab with Add Azure AD users or user groups highlighted.":::
-1. Select single or multiple users or you can select user groups.
-1. Select **Next: Workspace**.
+  
+3. Select **Next: Workspace**.
 
 ### Step 3: Workspace
 
@@ -58,5 +69,7 @@ To complete the exercise, you'll need the credentials for a different non-admini
 ## Verify access to application
 
 1. Go to the [Azure Virtual Desktop web client](https://rdweb.wvd.microsoft.com/arm/webclient/index.html).
-1. Sign in by using the user credentials for the user you assigned to the RemoteApp application group.
+
+1. Sign in by using the credentials for the user you assigned to the RemoteApp application group.
+
 1. You should see the application in the workspace.

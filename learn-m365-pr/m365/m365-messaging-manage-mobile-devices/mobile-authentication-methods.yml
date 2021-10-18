@@ -5,8 +5,8 @@ metadata:
   title: Authenticate mobile users securely in Exchange Online
   description: Learn how about your authentication options for mobile devices in Exchange Online. 
   ms.date: 07/19/2021
-  author: AlexandraHrt
-  ms.author: v-aleha
+  author: temanteleary
+  ms.author: teleary
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 durationInMinutes: 5

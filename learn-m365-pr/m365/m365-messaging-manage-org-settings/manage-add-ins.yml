@@ -5,8 +5,8 @@ metadata:
   title: Manage your add-ins
   description: Plan and manage organizational settings such as global address lists, offline address books, address policies, organizational sharing, and add-ins in Exchange Online. 
   ms.date: 07/14/2021
-  author: AlexandraHrt
-  ms.author: v-aleha
+  author: temanteleary
+  ms.author: teleary
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 durationInMinutes: 6

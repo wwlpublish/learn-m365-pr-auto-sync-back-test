@@ -4,7 +4,7 @@ metadata:
   title: Configure the Cloud App Security log collector
   description: You can use Cloud App Security log collector to help automate log upload from your corporate network
   ms.date: 07/02/2021
-  author: geoffallix
+  author: beccarobins
   ms.author: beccarobins
   ms.topic: interactive-tutorial
   ms.prod: learning-m365

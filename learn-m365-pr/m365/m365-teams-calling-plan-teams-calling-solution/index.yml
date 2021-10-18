@@ -4,8 +4,8 @@ metadata:
   title: Plan your teams calling solution
   description: This module will introduce you to the decisions you need to make when deploying Phone System for Microsoft Teams. You will learn about how you can plan Phone System with Microsoft Teams for your organization, and configure what are the key Phone System capabilities that will enable you to get the best out of Phone System. 
   ms.date: 07/16/2021
-  author: iankensey
-  ms.author: v-iakens
+  author: temanteleary
+  ms.author: teleary
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Plan your teams calling solution

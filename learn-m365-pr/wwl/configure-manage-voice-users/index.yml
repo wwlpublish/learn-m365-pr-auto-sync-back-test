@@ -1,0 +1,37 @@
+### YamlMime:Module
+uid: learn.wwl.configure-manage-voice-users
+metadata:
+  title: Configure and manage voice users
+  description: "Ongoing management is required as new employees start, or if their needs change. Learn how to manage voice user configuration, including enabling voice services and adjusting voice configuration."
+  ms.date: 10/04/2021
+  author: wwlpublish
+  ms.author: dahans
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Configure and manage voice users
+summary: Ongoing management is required as new employees start, or if their needs change. Learn how to manage voice user configuration, including enabling voice services and adjusting voice configuration.
+abstract: |
+  After completing this module, you will be able to:
+  - Enable users for Teams Phone and using Calling Plans (or Operator Connect if it’s configured for your tenant).
+  - Enable users for Direct Routing.
+  - Manage per-user options for Teams Phone.
+prerequisites: |
+  - Knowledge of how to configure Teams Phone tenant settings for your organization, either using Calling Plans or Direct Routing.
+  - Understanding of the requirements for voice users, including dial plans, voice routing and numbering.
+iconUrl: /learn/achievements/generic-badge.svg
+levels:
+- advanced
+roles:
+- administrator
+products:
+- m365
+- office-teams
+units:
+- learn.wwl.configure-manage-voice-users.introduction
+- learn.wwl.configure-manage-voice-users.enable-users-teams-phone
+- learn.wwl.configure-manage-voice-users.enable-users-direct-routing-teams-phone
+- learn.wwl.configure-manage-voice-users.enable-additional-calling-features
+- learn.wwl.configure-manage-voice-users.knowledge-check
+- learn.wwl.configure-manage-voice-users.summary-&amp;-resources
+badge:
+  uid: learn.wwl.configure-manage-voice-users.badge

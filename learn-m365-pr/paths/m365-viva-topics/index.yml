@@ -2,16 +2,16 @@
 uid: learn-m365-pr.viva-topics
 metadata:
   title: Get started with Microsoft Viva Topics
-  description: Viva Topics is an add-on service in Microsoft Viva, an employee experience platform (EXP) for a unified knowledge and content experience across Microsoft 365 and Microsoft Search. Viva Topics can help your people learn by presenting the information they need in the flow of their Microsoft 365 apps (instead of having to manually mine disparate applications or repositories). This learning path teaches you how to plan and implement your Viva Topics deployment.
+  description: Viva Topics is an add-on service in Microsoft Viva, an employee experience platform (EXP) for a unified knowledge and content experience across Microsoft 365 and Microsoft Search. Viva Topics can help your people learn by presenting the information they need in the flow of their Microsoft 365 Apps (instead of having to manually mine disparate applications or repositories). This learning path teaches you how to plan and implement your Viva Topics deployment.
   ms.date: 05/20/2021
   author: lizap
   ms.author: teleary
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Get started with Microsoft Viva Topics
-summary: Viva Topics is an add-on service in Microsoft Viva, an employee experience platform (EXP) for a unified knowledge and content experience across Microsoft 365 and Microsoft Search. Viva Topics can help your people learn by presenting the information they need in the flow of their Microsoft 365 apps (instead of having to manually mine disparate applications or repositories). This learning path teaches you how to plan and implement your Viva Topics deployment.
+summary: Viva Topics is an add-on service in Microsoft Viva, an employee experience platform (EXP) for a unified knowledge and content experience across Microsoft 365 and Microsoft Search. Viva Topics can help your people learn by presenting the information they need in the flow of their Microsoft 365 Apps (instead of having to manually mine disparate applications or repositories). This learning path teaches you how to plan and implement your Viva Topics deployment.
 prerequisites: |
-  - Familiarity with Microsoft 365 apps and Microsoft Teams
+  - Familiarity with Microsoft 365 Apps and Microsoft Teams
   - Familiarity with permissions and access settings in Microsoft 365 and the Microsoft 365 admin center
 iconUrl: /learn/achievements/get-started-viva-topics.svg
 levels: 
