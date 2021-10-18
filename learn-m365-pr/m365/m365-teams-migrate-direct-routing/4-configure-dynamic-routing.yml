@@ -5,7 +5,7 @@ metadata:
   title: Configure dynamic routing
   description: See what dynamic routing looks like, how to configure an LDAP connection, and see an example of how to configure a specific SBC.
   ms.date: 09/15/2020
-  author: lizap
+  author: temanteleary
   ms.author: teleary
   ms.topic: interactive-tutorial
   ms.prod: learning-teams

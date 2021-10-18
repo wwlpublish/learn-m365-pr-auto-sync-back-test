@@ -5,7 +5,7 @@ metadata:
   title: Introduction to managing mail flow
   description: Manage the mail flow in Exchange Online by using domains, hybrid mail flow, and transport rules. 
   ms.date: 07/14/2021
-  author: AlexandraHrt
+  author: temanteleary
   ms.author: teleary
   ms.topic: interactive-tutorial
   ms.prod: learning-m365

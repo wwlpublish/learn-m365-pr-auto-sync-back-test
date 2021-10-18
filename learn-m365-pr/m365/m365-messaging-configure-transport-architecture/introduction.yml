@@ -5,7 +5,7 @@ metadata:
   title: Introduction to using connectors in Exchange Online
   description: Use connectors in Exchange Online to route email to on-premises email systems and to secure email to partner organizations. 
   ms.date: 06/15/2021
-  author: AlexandraHrt
+  author: temanteleary
   ms.author: teleary
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
