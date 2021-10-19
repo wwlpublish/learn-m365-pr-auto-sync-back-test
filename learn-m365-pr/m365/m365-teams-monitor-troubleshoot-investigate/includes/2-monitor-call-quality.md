@@ -1,4 +1,8 @@
-Microsoft Teams has three tools you can use to troubleshoot and improve call quality: Call analytics, Call Quality Dashboard, and Quality of Service.
+Microsoft Teams has three tools you can use to troubleshoot and improve call quality:
+
+- Call Analytics
+- Call Quality Dashboard
+- Quality of Service
 
 Suppose you're the Teams administrator for your company, and you've been asked to investigate a problem with call quality in Teams. You'd like to be able to research how Teams is performing in your organization.
 
@@ -14,15 +18,14 @@ Follow these steps to view a user's call analytics:
 
 1. Sign into [Microsoft Teams admin center](https://admin.teams.microsoft.com/).
 1. From the left navigation, select **Users**, and then select a user.
-1. On the **User** page, select **Call History**.
+1. On the **User** page, select **Voice** or **Meetings & Calls**.  Information on all calls and meeting for that user over the past 30 days will be displayed.
+1. Select a session to open another window to view more details.
 
-Call analytics displays all calls and meetings for that user for the past 30 days.
+:::image type="content" source="../media/call-analytics.png" alt-text="Screenshot of the Teams call analytics page.":::
 
-:::image type="content" source="../media/2-call-analytics.png" alt-text="Teams call analytics":::
+1. Further information can be found by selecting **Participant Details** and then clicking on the start time to view detailed information about the call or meeting including device usage, connectivity, inbound and outbound network performance.
 
-To get additional information about a given session, including detailed media and networking statistics, select a session to view details.
-
-:::image type="content" source="../media/2-call-analytics-detail.png" alt-text="Teams call analytics detail":::
+:::image type="content" source="../media/call-analytics-detail.png" alt-text="Screenshot showing the detail available when you drill down into call analytics":::
 
 When you set up call analytics, consider:
 
@@ -33,29 +36,24 @@ When you set up call analytics, consider:
 
 The Call Quality Dashboard (CQD) shows call and meeting quality at an organization level. CQD has a near-time data feed providing data within 30 minutes of the end of a call. Use CQD to help optimize your network, to investigate call quality for a specific user, and in conjunction with per-user call analytics. As with call analytics, you can also upload location data.
 
-:::image type="content" source="../media/2-call-quality-dashboard.png" alt-text="Call Quality Dashboard":::
+To open Call Quality Dashboard
 
-From the Teams admin center, select Call Quality Dashboard from the left menu bar. You can upload your buildings data, and select to view data for Microsoft Teams, Skype for Business, or both.
-With CQD, overall patterns might become apparent, so network engineers can make informed assessments of call quality. CQD provides reports of call quality metrics that give you insight into overall call quality, server-client streams, client-client streams, and voice quality service level agreements (SLAs). Data is presented visually, with additional filters available, depending on your selection.
+1. From the Microsoft Teams Admin Center, select **Call Quality Dashboard** from the left menu bar.
+
+:::image type="content" source="../media/call-quality-dashboard.png" alt-text="Screenshot of the Call Quality Dashboard showing various graphs of the different trends.":::
+
+You can upload your buildings data and using the information within the CQD, overall patterns might become apparent, so network engineers can make informed assessments of call quality. CQD provides reports of call quality metrics that give you insight into overall call quality, server-client streams, client-client streams, and voice quality service level agreements (SLAs). Data is presented visually, with additional filters available, depending on your selection.
 
 ## Quality of Service
 
-Quality of Service (QoS) in Microsoft Teams enables real-time network traffic that's sensitive to network delays to have higher priority than less sensitive traffic. QoS allows you to prioritize voice or video stream traffic, over downloading a new app, for example, which is less time-critical.
+As users start using  Teams, they may experience problems such as
 
-QoS identifies and marks all packets in real-time streams. It uses Windows Group Policy Objects and a routing feature called Port-based Access Control Lists, to give voice, video, and screen-share streams a dedicated portion of the network bandwidth.
+- Voices breaking up in calls.
+- Videos freezing.
+- Videos becoming pixelated.
 
-Without QoS, you might see quality issues in voice and video, such as:
+A QoS controls the priority of Teams voice and video traffic over non sensitive user traffic, such as YouTube videos.  When you decide to implement QoS there are important considerations to be addressed such as
 
-- Jitter. Media packets arriving at different rates, which can result in missing words or syllables in calls.
-- Packet loss. Packets dropped, which can also result in lower voice quality and speech that's hard to understand.
-- Delayed Round Trip Time (RTT). Media packets taking a long time to reach their destinations, which result in noticeable delays causing people to talk over each other.
-
-For QoS to be effective, you must apply consistent QoS settings throughout your organization. Any part of the path that fails to support your QoS priorities can degrade the quality of calls, video, and screen sharing. This includes applying settings to all user PCs or devices, network switches, routers to the internet, and the Teams service.
-
-## Learn more
-
-- [Use call analytics to troubleshoot poor call quality](/microsoftteams/use-call-analytics-to-troubleshoot-poor-call-quality)
-- [Set up call analytics for Microsoft Teams](/microsoftteams/set-up-call-analytics)
-- [Monitor and improve call quality for Microsoft Teams](/microsoftteams/monitor-call-quality-qos)
-- [What is Call Quality Dashboard (CQD)?](/microsoftteams/cqd-what-is-call-quality-dashboard)
-- [Upload tenant and building data in Call Quality Dashboard (CQD)](/microsoftteams/cqd-upload-tenant-building-data)
+- Ensuring the adequacy of the bandwidth.
+- Assigning the correct ports.
+- Selecting the most appropriate QoS implementation method.
