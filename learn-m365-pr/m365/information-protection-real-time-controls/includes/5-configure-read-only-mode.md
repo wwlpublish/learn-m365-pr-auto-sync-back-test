@@ -4,7 +4,7 @@ To solve this problem Microsoft Cloud App Security can limit external users to r
 
 To apply read-only mode, you must create a policy to block downloads and another policy to block cutting, copying, or printing.
 
-Before creating the policies, you must create a conditional access policy in Azure AD to route traffic to Cloud App Security.
+Before creating the policies, you must create a Conditional Access policy in Azure AD to route traffic to Cloud App Security.
 
 ## Create a policy to block downloads
 

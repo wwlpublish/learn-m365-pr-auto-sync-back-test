@@ -16,8 +16,8 @@ As part of Endpoint Manager, use Intune to create and check for compliance, and 
  -  **Co-management**: Co-management combines your existing on-premises Configuration Manager investment with the cloud using Intune and other Microsoft 365 cloud services. You choose whether Configuration Manager or Intune is the management authority for the seven different workload groups.
  -  **Desktop Analytics**: Desktop Analytics is a cloud-based service that integrates with Configuration Manager. It provides insight and intelligence for you to make more informed decisions about the update readiness of your Windows clients. The service combines data from your organization with data aggregated from millions of devices connected to the Microsoft cloud. It provides information on security updates, apps, and devices in your organization, and identifies compatibility issues with apps and drivers. Create a pilot for devices most likely to provide the best insights for assets across your organization.
  -  **Windows Autopilot**: Windows Autopilot sets up and pre-configures new devices, getting them ready for use. It's designed to simplify the lifecycle of Windows devices, for both IT and end users, from initial deployment through end of life. As part of Endpoint Manager, use Autopilot to preconfigure devices, and automatically enroll devices in Intune. You can also integrate Autopilot with Configuration Manager and co-management for more complex device configurations (in preview).
- -  **Azure Active Directory (AD)**: Azure AD is used by Endpoint Manager for identity of devices, users, groups, and multi-factor authentication (MFA). **Azure AD Premium**, which may be an additional cost, has additional features to help protect devices, apps, and data, including dynamic groups, auto-enrollment, and conditional access.
- -  **Endpoint Manager admin center**: The admin center is a one-stop web site to create policies and manage your devices. It plugs-in other key device management services, including groups, security, conditional access, and reporting. This admin center also shows devices managed by Configuration Manager and Intune (in preview).
+ -  **Azure Active Directory (AD)**: Azure AD is used by Endpoint Manager for identity of devices, users, groups, and multi-factor authentication (MFA). **Azure AD Premium**, which may be an additional cost, has additional features to help protect devices, apps, and data, including dynamic groups, auto-enrollment, and Conditional Access.
+ -  **Endpoint Manager admin center**: The admin center is a one-stop web site to create policies and manage your devices. It plugs-in other key device management services, including groups, security, Conditional Access, and reporting. This admin center also shows devices managed by Configuration Manager and Intune (in preview).
 
 :::image type="content" source="../media/3-endpoint-manager-admin-center-0f0d6fa5.png" alt-text="Endpoint Manager Admin Console":::
 
@@ -30,7 +30,7 @@ For example:
 
  -  If you constantly provision new devices, then start with Windows Autopilot.
  -  If you add rules and control settings for your users, apps, and devices, then start with Intune.
- -  If you currently use Configuration Manager to deploy apps, and want to use conditional access based on security requirements, then start with co-management.
+ -  If you currently use Configuration Manager to deploy apps, and want to use Conditional Access based on security requirements, then start with co-management.
  -  If you currently use Configuration Manager and are responsible for keeping Windows 10 devices up-to-date, then start with Desktop Analytics.
  -  If you're getting started with MDM and MAM, or use ADMX templates to control Office, Microsoft Edge, and Windows settings, then start with Intune.
 

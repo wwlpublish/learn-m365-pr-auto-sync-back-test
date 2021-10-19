@@ -1,4 +1,4 @@
-This module examined how Co-management enables organizations to use modern management features with their current devices. These features include conditional access and strong authentication by using Multi-factor Authentication (MFA).
+This module examined how Co-management enables organizations to use modern management features with their current devices. These features include Conditional Access and strong authentication by using Multi-factor Authentication (MFA).
 
 In this module, you learned that there are two ways to prepare your existing environment for Co-management:
 

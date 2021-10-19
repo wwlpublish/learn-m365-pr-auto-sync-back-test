@@ -28,7 +28,7 @@ In the Teams admin center, you can view and manage phones, collaboration bars, T
 
 ## Enrollment of Microsoft Teams Phones into Intune
 
-Phones, collaboration bars, Teams displays, and Teams panels are automatically enrolled in Microsoft Intune if it is part of your Microsoft 365 subscription, as part of the user sign-in process. After a device is enrolled, device compliance is confirmed, and conditional access policies are applied to the device.
+Phones, collaboration bars, Teams displays, and Teams panels are automatically enrolled in Microsoft Intune if it is part of your Microsoft 365 subscription, as part of the user sign-in process. After a device is enrolled, device compliance is confirmed, and Conditional Access policies are applied to the device.
 
 Conditional Access is an Azure Active Directory (Azure AD) feature that helps you to ensure devices accessing your Microsoft 365 resources are properly managed and are secure.
 

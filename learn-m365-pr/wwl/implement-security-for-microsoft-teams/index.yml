@@ -9,7 +9,7 @@ metadata:
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Implement security for Microsoft Teams
-summary: Learn about different security capabilities for Microsoft Teams, including conditional access, multifactor authentication, Safe Attachments, Safe Links, and Cloud App Security.
+summary: Learn about different security capabilities for Microsoft Teams, including Conditional Access, multifactor authentication, Safe Attachments, Safe Links, and Cloud App Security.
 abstract: |
   By the end of this module, you will be able to:
   - Configure Conditional Access and multifactor authentication for Microsoft Teams.
