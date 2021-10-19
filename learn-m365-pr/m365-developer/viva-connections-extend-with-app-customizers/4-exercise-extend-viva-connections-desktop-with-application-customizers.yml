@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.viva-connections-extend-with-app-customizers.exercise-extend-viva-connections-desktop-with-application-customizers
+title: Exercise - Extend Viva Connections desktop with application customizers
+metadata:
+  title: Exercise - Extend Viva Connections desktop with application customizers
+  description: In this exercise, you'll build a SharePoint Framework application customizer that retrieves data from a SharePoint list and shows it in the Viva Connections desktop experience.
+  ms.date: 10/14/2021 
+  author: rabwill
+  ms.author: rwilliams
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 11
+content: |
+  [!include[](includes/4-exercise-extend-viva-connections-desktop-with-application-customizers.md)]
