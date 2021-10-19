@@ -82,7 +82,7 @@ An organization can [test the password writeback functionality](https://password
 
 #### Device writeback
 
-Device writeback enables conditional access based on either devices to AD FS protected applications, or on relying party trusts. This feature provides extra security and assurance that access to applications is granted only to trusted devices.
+Device writeback enables Conditional Access based on either devices to AD FS protected applications, or on relying party trusts. This feature provides extra security and assurance that access to applications is granted only to trusted devices.
 
 Device writeback requires the following prerequisites:
 

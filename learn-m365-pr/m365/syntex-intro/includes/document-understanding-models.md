@@ -50,7 +50,7 @@ Explanations types include:
 
 ### What's a sensitivity label?
 
-Sensitivity labels let you apply encryption, sharing, and conditional access policies to the documents that your models identify. For example, you want your model to not only identify financial documents that contain bank account numbers or credit card numbers that are uploaded to your document library, but also to apply an _Encryption_ sensitivity label to them to restrict who can access that content. SharePoint Syntex models honor the label order rules and do not overwrite an existing label that was manually applied by a user to the file.
+Sensitivity labels let you apply encryption, sharing, and Conditional Access policies to the documents that your models identify. For example, you want your model to not only identify financial documents that contain bank account numbers or credit card numbers that are uploaded to your document library, but also to apply an _Encryption_ sensitivity label to them to restrict who can access that content. SharePoint Syntex models honor the label order rules and do not overwrite an existing label that was manually applied by a user to the file.
 
 > [!NOTE]
 > At this time, sensitivity labels are available only for document understanding models. Support for sensitivity labels for form processing will be available shortly.
@@ -69,5 +69,5 @@ When creating a document understanding model, it helps to understand how each of
 - **Classifier** – This is the document understanding model type you'll create within a content center.
 - **Extractor** – Creating an extractor is not mandatory. It can be created before or after you build your document understanding model. If you already know the information that you want to extract, create the extractor beforehand, or, if you don't, wait until you have a better understanding of your model.
 - **Explanation** – Explanations are part of your classifier model and must be included so that the model knows exactly what it's looking for and how it's classifying the documents.
-- **Sensitivity label** - Sensitivity labels can be used to apply encryption, sharing, and conditional access policies to documents.
+- **Sensitivity label** - Sensitivity labels can be used to apply encryption, sharing, and Conditional Access policies to documents.
 - **Retention label** – This is optional but can be applied to any document understanding model. It can even be added to a document library that has already had the document understanding model applied.

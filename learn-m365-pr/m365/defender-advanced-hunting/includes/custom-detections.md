@@ -101,7 +101,7 @@ Once a file is selected, you can choose to apply the **Quarantine file action** 
 
 #### Actions on users
 
-When selected, the **Mark user as compromised** action is taken on users in the `AccountObjectId`, `InitiatingProcessAccountObjectId`, or `RecipientObjectId` column of the query results. This action sets the users risk level to "high" in Azure Active Directory, triggering corresponding identity protection policies.
+When selected, the **Mark user as compromised** action is taken on users in the `AccountObjectId`, `InitiatingProcessAccountObjectId`, or `RecipientObjectId` column of the query results. This action sets the users risk level to "high" in Azure Active Directory, triggering corresponding Identity Protection policies.
 
 ### Set the rule scope
 

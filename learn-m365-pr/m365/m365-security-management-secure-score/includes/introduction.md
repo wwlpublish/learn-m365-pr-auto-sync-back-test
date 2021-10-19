@@ -8,7 +8,7 @@ Reporting in the Microsoft 365 Defender portal is split up into four categories:
 In the **Identities** category of Reports, you can track:
 
 - Users with the most detected anomalies
-- How many users are reported at risk by conditional access policies
+- How many users are reported at risk by Conditional Access policies
 - The number of global admins in your org
 
 ![Identities reports](../media/identities.png)

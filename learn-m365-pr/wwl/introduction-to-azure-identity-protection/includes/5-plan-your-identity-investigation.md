@@ -1,4 +1,4 @@
-Your journey through identity protection typically starts with the Azure Identity Protection dashboard. The dashboard provides access to:
+Your journey through identity protection typically starts with the Azure AD Identity Protection dashboard. The dashboard provides access to:
 
  -  Reports such as **Users flagged for risk**, **Risk events,** and **Vulnerabilities.**
  -  Settings such as the configuration of your **Security Policies**, **Notifications,** and **Multi-Factor Authentication registration.**
@@ -11,7 +11,7 @@ A sign-in risk level is an indication (High, Medium, or Low) of the likelihood t
 
 A mitigation is an action to limit the ability of an attacker to exploit a compromised identity or device without restoring the identity or device to a safe state. A mitigation doesn't resolve previous sign-in risk events associated with the identity or device.
 
-To mitigate risky sign-in attempts automatically, you can configure sign-in risk security policies. Using these policies, you consider the risk level of the user or the sign-in to block risky sign-in attempts or require the user to do multi-factor authentication. These actions may prevent an attacker from exploiting a stolen identity to cause damage. They may also give you some time to secure the identity.
+To mitigate risky sign-in attempts automatically, you can configure sign-in risk security policies. Using these policies, you consider the risk level of the user or the sign-in to block risky sign-in attempts or require the user to do multifactor authentication. These actions may prevent an attacker from exploiting a stolen identity to cause damage. They may also give you some time to secure the identity.
 
 #### Mitigation best practices
 
@@ -19,7 +19,7 @@ Choosing a **High** threshold reduces the number of times a policy is triggered 
 
 Best practices to follow when setting a policy include:
 
- -  Exclude users who do not/cannot have multi-factor authentication.
+ -  Exclude users who do not/cannot have multifactor authentication.
  -  Exclude users in locales where enabling the policy isn't practical, such as locales with no access to a helpdesk.
  -  Exclude users who are likely to generate numerous false-positives, such as developers and security analysts.
  -  Use a **High** threshold during initial policy rollout, or if you must minimize challenges seen by end users.
@@ -48,7 +48,7 @@ The user risk level is calculated using the following inputs:
  -  Risk level of these events.
  -  Remediation actions have been taken.
 
-You can use the user risk levels to create conditional access policies that block risky users from signing in or force them to securely change their password.
+You can use the user risk levels to create Conditional Access policies that block risky users from signing in or force them to securely change their password.
 
 ### Closing risk events manually
 
@@ -87,6 +87,6 @@ In response to a detected account at risk, AIP generates an email alert with **U
 
 ### Azure Active Directory Identity Protection playbook
 
-The playbook helps you understand how Azure Identity Protection works and simulates risk events and vulnerabilities. You can also set up risk-based conditional access policies and test the impact of these policies.
+The playbook helps you understand how Azure Identity Protection works and simulates risk events and vulnerabilities. You can also set up risk-based Conditional Access policies and test the impact of these policies.
 
 **Additional reading.** For more information, see [Azure Active Directory Identity Protection playbook](/azure/active-directory/active-directory-identityprotection-playbook).

@@ -8,7 +8,7 @@ To configure Box with Conditional Access App Control, you start the process in t
 
 1. In the navigation pane, select **Enterprise applications**.
 1. On the **All applications** page, select **Box**.
-1. On the **Overview** page, there are links for assigning users and groups, set up for SSO, provisioning user accounts, conditional access, and self-service.
+1. On the **Overview** page, there are links for assigning users and groups, set up for SSO, provisioning user accounts, Conditional Access, and self-service.
 
 ## Add users and groups
 
@@ -41,9 +41,9 @@ To configure Box with Conditional Access App Control, you start the process in t
 > [!NOTE]
 > If you are unable to configure the SSO settings for your Box account, then send the downloaded Federation Metadata XML to Box support team. They can then configure the required SAML SSO connection.
 
-## Create a conditional access policy for Box
+## Create a Conditional Access policy for Box
 
-The next step is to create a conditional access policy in Azure AD.
+The next step is to create a Conditional Access policy in Azure AD.
 
 1. In the **Azure Active Directory admin center**, select Enterprise apps in the navigation pane, and then select **Box**.
 1. In the **Box** page, in the navigation pane, select **Conditional Access**.
