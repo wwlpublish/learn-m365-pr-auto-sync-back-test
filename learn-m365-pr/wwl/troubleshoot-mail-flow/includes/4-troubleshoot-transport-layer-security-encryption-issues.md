@@ -30,11 +30,11 @@ To secure a connector to a partner organization, you must complete the following
 
 Troubleshooting steps for Domain Security configuration with TLS include:
 
- -  Verify whether the name of the servers is correctly configured in Domain Security settings to match the common name in the certificate used for TLS.
- -  Verify whether the certificate issued to the Mailbox servers in the Domain Security configuration is trusted. It’s recommended to use a commercial CA for Domain Security, where the commercial CA is selected from the list of Microsoft Unified Communications certificate partners.
- -  Verify whether the firewall at your partner organization doesn’t block connections from your organization mailbox servers.
- -  Verify whether your partner company is using supported versions of Exchange and TLS.
- -  Review send and receive protocol logs for STARTTLS events that are marked successful.
+1.  Verify whether the name of the servers is correctly configured in Domain Security settings to match the common name in the certificate used for TLS.
+2.  Verify whether the certificate issued to the Mailbox servers in the Domain Security configuration is trusted. It’s recommended to use a commercial CA for Domain Security, where the commercial CA is selected from the list of Microsoft Unified Communications certificate partners.
+3.  Verify whether the firewall at your partner organization doesn’t block connections from your organization mailbox servers.
+4.  Verify whether your partner company is using supported versions of Exchange and TLS.
+5.  Review send and receive protocol logs for STARTTLS events that are marked successful.
 
 ## Knowledge check
 
