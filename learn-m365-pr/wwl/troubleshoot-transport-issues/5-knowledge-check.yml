@@ -4,7 +4,7 @@ title: Knowledge check
 metadata:
   title: Knowledge check
   description: "Knowledge check"
-  ms.date: 10/18/2021
+  ms.date: 10/19/2021
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -17,25 +17,25 @@ content: |
 quiz:
   title: "Check your knowledge"
   questions:
-  - content: "Contoso is experiencing a slow down in mail delivery. Which of the following issues can be causing this problem?"
+  - content: "Contoso is experiencing a slowdown in mail delivery. Which of the following issues can be causing this problem?"
     choices:
-    - content: "Contoso installed a transport agent created by a third-party"
+    - content: "Contoso installed a transport agent created by a third party"
       isCorrect: false
-      explanation: "That's incorrect. You can create your own transport agents or install agents created by third-parties. Installing a transport agent created by a third-party is not, in and of itself, a problem, as long as the agent is configured properly. Try again."
+      explanation: "That's incorrect. You can create your own transport agents or install agents created by third-parties. Installing a transport agent created by a third party is not, in and of itself, a problem, as long as the agent is configured properly. Try again."
     - content: "There are multiple sites with the same routing cost"
       isCorrect: false
-      explanation: "That's incorrect. This item wouldn't cause a slow down in mail delivery. Try again."
+      explanation: "That's incorrect. This item wouldn't cause a slowdown in mail delivery. Try again."
     - content: "Large numbers of DLP policies are deployed"
       isCorrect: true
       explanation: "That's correct. Large numbers of DLP policies can slow down mail delivery. As such, you should only deploy the policies that your organization requires. You should also verify they're properly configured."
-  - content: "Holly Spencer is Fabrikam's Messaging administrator. Fabrikam is experiencing issues in its Exchange Server deployment. SMTP mail flow is being inhibitied, and messages have been getting stuck in the transport pipeline. Messages are also being rejected for exceeding the maximum message size. What should Holly troubleshoot that may be causing these issues?"
+  - content: "Holly Spencer is Fabrikam's Messaging administrator. Fabrikam is experiencing issues in its Exchange Server deployment. SMTP mail flow is being inhibited, and messages have been getting stuck in the transport pipeline. Messages are also being rejected for exceeding the maximum message size. What should Holly troubleshoot that may be causing these issues?"
     choices:
     - content: "Verify proper configuration of Fabrikam's send and receive connectors"
       isCorrect: true
       explanation: "That's correct. Receive and send connectors that are configured improperly can inhibit mail flow and cause messages to become stuck in the transport pipeline. Send and receive connectors can also be responsible for messages that are rejected for exceeding the maximum message size."
     - content: "Verify that port 110/TCP isn't restricted"
       isCorrect: false
-      explanation: "That's incorrect. Port 110/TCP provides mailbox access using the POP3 protocol. This troubleshooting step doesn't address Fabrikam's issue.Try again."
+      explanation: "That's incorrect. Port 110/TCP provides mailbox access using the POP3 protocol. This troubleshooting step doesn't address Fabrikam's issue. Try again."
     - content: "Consider disabling the built-in malware agent in Exchange Server if Fabrikam has other software that conducts malware scanning on email"
       isCorrect: false
       explanation: "That's incorrect. Exchange Server 2013 first introduced the Malware agent, which is enabled by default on Exchange Mailbox servers. This agent scans messages for viruses and other malware as the messages pass through the transport pipeline. If you have other software that conducts malware scanning on email, you should consider disabling the built-in malware agent to improve performance. This troubleshooting step doesn't address Fabrikam's issue. Try again."
