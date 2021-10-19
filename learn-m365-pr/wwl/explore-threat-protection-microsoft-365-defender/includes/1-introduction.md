@@ -1,15 +1,15 @@
 Exchange Online Protection (EOP) uses a multi-layered approach to protect users from different kinds of threats, such as:
 
- -  phishing
- -  spoofing
- -  spam
- -  bulk email
- -  malware
+ -  Phishing
+ -  Spoofing
+ -  Spam
+ -  Bulk email
+ -  Malware
 
 Microsoft Defender for Office 365 extends the protection provided by EOP by filtering targeted attacks that could pass through EOP’s line of defenses. These attacks include advanced threats such as:
 
- -  zero-day attacks in email attachments and Office documents.
- -  time-of-click protection against malicious URLs.
+ -  Zero-day attacks in email attachments and Office documents.
+ -  Time-of-click protection against malicious URLs.
 
 When integrated together, EOP and Microsoft Defender for Office 365 provide the most efficient level of protection against commodity and advanced targeted threats.
 

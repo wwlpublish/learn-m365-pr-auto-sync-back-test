@@ -1,8 +1,8 @@
 Safe Links is a feature in Microsoft Defender for Office 365 that protects users from malicious URLs that are commonly used in phishing attacks. Phishing attacks are typically designed to:
 
- -  extract sensitive information from a user.
- -  deliver malicious code to end-user machines.
- -  trick users into actions that cause financial damages.
+ -  Extract sensitive information from a user.
+ -  Deliver malicious code to end-user machines.
+ -  Trick users into actions that cause financial damages.
 
 The Safe Links feature works by replacing embedded URLs from incoming messages and testing the URLs before a user can use them.
 

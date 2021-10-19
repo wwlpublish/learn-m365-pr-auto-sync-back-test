@@ -2,17 +2,17 @@ People regularly send, receive, and share attachments, such as documents, presen
 
 Safe Attachments is a feature in Microsoft Defender for Office 365. It's designed to protect organizations by detecting malicious attachments even before anti-virus signatures are made available. That makes it an ideal solution to protect against unknown attack vectors and to react fast on new threats, such as modified harmful PDF documents or Word files that can conduct ransomware attacks. Safe Attachments analyzes attachments that are common targets for malicious content, such as:
 
- -  different versions of Office files such as Word, PowerPoint, and Excel
+ -  Different versions of Office files such as Word, PowerPoint, and Excel
  -  PDFs
- -  executable file types
+ -  Executable file types
  -  Flash files
 
 ### The Safe Attachments process
 
 To implement Safe Attachments, you must first define one or more Safe Attachments policies. These policies control how Safe Attachments protection is employed at the organization. A Safe Attachments policy determines:
 
- -  which emails undergo Safe Attachments testing.
- -  what actions are taken on attachments that are determined to be malicious.
+ -  Which emails undergo Safe Attachments testing.
+ -  What actions are taken on attachments that are determined to be malicious.
 
 The Safe Attachments process involves the following steps:<br>
 
