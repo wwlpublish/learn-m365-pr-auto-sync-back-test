@@ -131,11 +131,11 @@ The following table identifies the key ports used by Exchange:
 :::row-end:::
 
 
-### DNS
+### Required Domain Name System (DNS) records
 
 The ability to resolve hostnames is critical for Exchange transport components to route mail between each other and to/from external mail relay hosts.
 
-When dealing with external mail relay hosts, the following DNS records are required to help validate your server’s identity to other SMTP hosts; in doing so, remote hosts can understand where to route messages for the domain names that an organization uses to send and receive email:
+When dealing with external mail relay hosts, DNS records help validate your server’s identity to other SMTP hosts. In doing so, remote hosts can understand where to route messages for the domain names that an organization uses to send and receive email. The following DNS records are required to help validate your server’s identity to other SMTP hosts:
 
  -  **Mail Exchanger (MX) record**. A mail exchanger (MX) record should be published in your organization’s external DNS that points to the internet facing SMTP server that receives mail.
  -  **Host (A) record and Reverse lookup (PTR) record**. The internet-facing server that an organization uses to relay messages to other organizations should also have a host (A) record and reverse lookup (PTR) record published which correspond to the hostname that is used during SMTP conversations with other hosts.
