@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.viva-connections-extend-with-adaptive-card-extensions.introduction
+title: Introduction
+metadata:
+  title: Introduction
+  description: This unit introduces you to the module and explains what you'll learn.
+  ms.date: 10/15/2021
+  author: waldekmastykarz
+  ms.author: wmastyka
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 1
+content: |
+  [!include[](includes/1-introduction.md)]
