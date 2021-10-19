@@ -20,11 +20,15 @@ Only global and SharePoint admins can change sharing permissions. There are also
 
 Administrators determine sharing settings for their users and thus determine the end-user sharing experience as seen through the sharing dialog.
 
- ![Administrators determine sharing settings for their users and thus determine the end-user sharing experience as seen through the sharing dialog](../media/link-settings.png)
+:::image type="content" source="../media/link-settings.png" alt-text="Screen shot showing the options for sharing dialog box.":::
 
 Navigate to the admin center sharing page to control your organizations sharing settings.
 
- ![Navigate to the admin center sharing page to control your organizations sharing settings](../media/external-sharing.png)
+1. Select **Admin Center**.
+1. Scroll down and select the **SharePoint Admin Center**.
+1. Select **Policies > Sharing**.
+
+:::image type="content" source="../media/external-sharing.png" alt-text="Screen shot showing the admin center sharing options.":::
 
 The sliders control the settings for your entire organization. Each OneDrive and SharePoint site has its own sharing setting, which you can set independently, though each must be at least as restrictive as the settings for the overall organization. For example, to allow anonymous sharing in OneDrive (by setting sharing to Anyone), sharing in SharePoint must also be set to **Anyone**. If SharePoint has anonymous enabled, OneDrive could be set to be less permissive to block external sharing.
 
@@ -54,4 +58,4 @@ Be sure to click the full-screen option in the video player.
 - [Microsoft 365 guest sharing settings reference](/microsoft-365/solutions/microsoft-365-guest-settings?azure-portal=true)
 - [Manage sharing settings](/sharepoint/turn-external-sharing-on-or-off?azure-portal=true)
 - [Best practices for sharing files and folders with unauthenticated users](/microsoft-365/solutions/best-practices-anonymous-sharing?azure-portal=true)
-- [Manage sharing in OneDrive and SharePoint](/onedrive/manage-sharing?azure-portal=true)
+- [Manage sharing in OneDrive](/onedrive/manage-sharing?azure-portal=true)
