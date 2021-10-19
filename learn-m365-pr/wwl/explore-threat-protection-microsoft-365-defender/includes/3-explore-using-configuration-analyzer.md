@@ -22,7 +22,7 @@ The Configuration Analyzer reviews the following policies for an organization:
 
 The following screenshot shows the expanded view of the Configuration Analyzer in the Microsoft 365 Defender portal.<br>
 
-:::image type="content" source="../media/configuration-analyzer-7ef36ed5.png" alt-text="screenshot showing the expanded view of the Configuration analyzer in the Microsoft 365 Defender portal":::
+:::image type="content" source="../media/configuration-analyzer-7ef36ed5.png" alt-text="screenshot showing the expanded view of the Configuration analyzer in the Microsoft 365 Defender portal" lightbox="../media/configuration-analyzer-7ef36ed5.png":::
 
 
 ### Preset security policies
@@ -50,7 +50,7 @@ Before accessing the Configuration Analyzer, the messaging administrator must co
 
  **Additional reading**. For more information, see [Permissions in the Microsoft 365 Defender portal](/microsoft-365/security/office-365-security/permissions-microsoft-365-security-center?azure-portal=true).
 
-### Reviewing Standard and Strict recommendations
+### Standard and Strict recommendations in the Configuration Analyzer
 
 The Configuration Analyzer displays the **Standard recommendations** tab by default. You can switch to the **Strict recommendations** tab. The settings, layout, and actions are the same on both tabs.
 
@@ -76,4 +76,4 @@ The rest of the tab is the table of settings that must be brought up to the leve
 
 The following screenshot displays the Strict recommendations tab for an organization in the Configuration Analyzer tool. In this example, all policy group settings follow the Strict recommendations. The screenshot indicates that no policies require adjustment to meet the miminum Strict recommendation requirements.
 
-:::image type="content" source="../media/configuration-analyzer2-70d60d2a.png" alt-text="The following screenshot displays the Standard recommendations for an organization in the Configuration analyzer tool. In this example, all policy group settings follow the Strict recommendations.":::
+:::image type="content" source="../media/configuration-analyzer2-70d60d2a.png" alt-text="The following screenshot displays the Standard recommendations for an organization in the Configuration analyzer tool. In this example, all policy group settings follow the Strict recommendations." lightbox="../media/configuration-analyzer2-70d60d2a.png":::

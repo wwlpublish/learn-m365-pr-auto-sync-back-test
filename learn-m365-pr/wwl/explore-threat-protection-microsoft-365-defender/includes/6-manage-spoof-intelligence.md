@@ -22,7 +22,7 @@ External domains frequently send spoofed email, and many of these reasons are le
 
 You need a way to ensure the mail sent by senders who are legitimately spoofing your system doesn't get caught up in spam filters in Microsoft 365 or external email systems. Normally, Microsoft 365 treats these email messages as spam. As a Microsoft 365 admin, you can prevent this situation by setting up spoof filters in the Microsoft 365 Defender portal. If you own the domain, you can configure SPF, DKIM, and DMARC to allow for these senders.
 
-### Managing spoof intelligence
+### Manage spoof intelligence
 
 The spoof intelligence policy you set up is always enforced by Microsoft 365. You can't disable it, but you can choose how much you want to actively manage it.
 
