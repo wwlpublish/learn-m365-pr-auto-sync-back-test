@@ -19,7 +19,7 @@ Teams is built on Microsoft Azure as a collection of microservices. Azure hosts 
 
 Azure Active Directory (AAD) is Microsoft’s multi-tenant cloud-based directory and identity management service. This provides the sign-in authorization and authentication for Microsoft Teams. 
 
-Azure Active Directory (Azure AD) business-to-business (B2B) collaboration lets you invite guest users to collaborate with you with Microsoft Teams. With Azure AD B2B collaboration, organizations can enforce conditional access and multifactor authentication (MFA) policies for B2B users.
+Azure Active Directory (Azure AD) business-to-business (B2B) collaboration lets you invite guest users to collaborate with you with Microsoft Teams. With Azure AD B2B collaboration, organizations can enforce Conditional Access and multifactor authentication (MFA) policies for B2B users.
 
 Azure Active Directory is also the registration and access control point for Applications and Bots when configuring features like policy-based compliance recording or contact center integration when using Azure Active Directory. Connecting other services tied to Azure AD identities enables a unified user experience across the many different tools that business users consume during their workday.
 

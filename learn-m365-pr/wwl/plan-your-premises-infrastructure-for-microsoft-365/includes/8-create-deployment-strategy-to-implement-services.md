@@ -414,28 +414,28 @@ Sign-in hours
   :::column:::
     
 
-What are the conditional access options?
+What are the Conditional Access options?
 
 
   :::column-end:::
   :::column:::
     
 
-[Azure AD conditional access](/azure/active-directory/active-directory-conditional-access-azure-portal)
+[Azure AD Conditional Access](/azure/active-directory/active-directory-conditional-access-azure-portal)
 
 
   :::column-end:::
   :::column:::
     
 
-[Azure AD conditional access](/azure/active-directory/active-directory-conditional-access-azure-portal)
+[Azure AD Conditional Access](/azure/active-directory/active-directory-conditional-access-azure-portal)
 
 
   :::column-end:::
   :::column:::
     
 
-[Azure AD conditional access](/azure/active-directory/active-directory-conditional-access-azure-portal)
+[Azure AD Conditional Access](/azure/active-directory/active-directory-conditional-access-azure-portal)
 
 
 [AD FS claim rules](https://adfshelp.microsoft.com/AadTrustClaims/ClaimsGenerator?azure-portal=true)

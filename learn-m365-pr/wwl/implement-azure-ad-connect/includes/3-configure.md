@@ -351,14 +351,14 @@ Device writeback
   :::column:::
     
 
-With this feature, device objects in Azure AD are written back to your on-premises Active Directory for conditional access scenarios.
+With this feature, device objects in Azure AD are written back to your on-premises Active Directory for Conditional Access scenarios.
 
 
   :::column-end:::
   :::column:::
     
 
-The organization plans to implement conditional access for its mobile devices.
+The organization plans to implement Conditional Access for its mobile devices.
 
 
   :::column-end:::

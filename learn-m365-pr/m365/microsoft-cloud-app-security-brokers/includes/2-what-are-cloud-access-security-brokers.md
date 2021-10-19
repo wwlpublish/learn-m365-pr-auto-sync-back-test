@@ -25,7 +25,7 @@ Cloud-based services such as Microsoft Office 365 provide excellent productivity
 
 A CASB enables you to identify files that contain sensitive information. These files can then be encrypted or blocked from sharing externally, external collaborators can be blocked, links can have time limits, messages containing sensitive data can be blocked in real time, and the device state of devices that a user connects to can be detected to prevent the download of sensitive data to unmanaged devices.
 
-Microsoft Cloud App Security can even use Azure Active Directory conditional access polies to determine a user's risk level at sign-in. This risk level can then define the actions that a user can perform and prevent the download, copying, or printing of unauthorized data in real time.
+Microsoft Cloud App Security can even use Azure Active Directory Conditional Access polies to determine a user's risk level at sign-in. This risk level can then define the actions that a user can perform and prevent the download, copying, or printing of unauthorized data in real time.
 
 ### Detect and protect against cyberthreats
 

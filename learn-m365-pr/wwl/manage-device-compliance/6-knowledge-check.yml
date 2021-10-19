@@ -29,7 +29,7 @@ quiz:
     - content: "In the Microsoft Endpoint Manager admin center"
       isCorrect: true
       explanation: "That's correct. Organizations can view device information in the Microsoft Endpoint Manager admin center."
-  - content: "A conditional access policy can be created that includes many settings. Which of the following items is an Access Control setting that can be included in a conditional access policy?"
+  - content: "A Conditional Access policy can be created that includes many settings. Which of the following items is an Access Control setting that can be included in a Conditional Access policy?"
     choices:
     - content: "Users and groups"
       isCorrect: false

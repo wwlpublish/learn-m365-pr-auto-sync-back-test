@@ -1,4 +1,4 @@
-In this module you learned about protecting identities by using secure authentication, conditional access, and software like Azure Active Directory and Windows Hello. You learned how Microsoft 365 helps you protect against threats to your users, devices, and infrastructure, and how to classify and protect information throughout the data lifecycle. Finally, you learned about the many security capabilities available in the Microsoft 365 security center, including Secure Score.
+In this module you learned about protecting identities by using secure authentication, Conditional Access, and software like Azure Active Directory and Windows Hello. You learned how Microsoft 365 helps you protect against threats to your users, devices, and infrastructure, and how to classify and protect information throughout the data lifecycle. Finally, you learned about the many security capabilities available in the Microsoft 365 security center, including Secure Score.
 
 ## Learn more
 

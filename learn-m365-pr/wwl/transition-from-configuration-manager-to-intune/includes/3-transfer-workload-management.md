@@ -2,7 +2,7 @@ After enabling co-management, you can control which workloads will continue to b
 
 As you become more comfortable with Intune, you can determine which workloads make sense to move from traditional, Configuration Manager-based management to modern, Intune-based management. With co-management, you can control the following four workloads:
 
- -  **Compliance policies.** Compliance policies specify the rules and settings that Windows devices must meet to be considered compliant. You can use these policies with conditional access to allow or block access to company resources. You can also get device reports and take actions for non-compliance.
+ -  **Compliance policies.** Compliance policies specify the rules and settings that Windows devices must meet to be considered compliant. You can use these policies with Conditional Access to allow or block access to company resources. You can also get device reports and take actions for non-compliance.
  -  **Resource access policies.** Resource access policies configure devices with access to company resources. They can be used to configure email, VPN and certificate settings, and other device configuration.
  -  **Windows Update policies.** Windows Update policies control how Windows devices will be updated. They can be used to control the Windows as a Service (WaaS) approach. For example, you can configure Windows 10 update rings or delay installation of feature update for Windows devices.
  -  **Endpoint Protection.** The Endpoint Protection profile lets you control security features on Windows 10 devices, such as BitLocker and Windows Defender. You can configure the Endpoint Protection workload in co-management only with Configuration Manager 1802 and newer.
