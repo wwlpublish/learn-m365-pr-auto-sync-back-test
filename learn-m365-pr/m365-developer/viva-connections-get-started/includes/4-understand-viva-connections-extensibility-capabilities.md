@@ -1,12 +1,10 @@
-In this module, you get a high-level overview of the ways in which you can extend Viva Connections. For more information about these extensions, see the links to the dedicated Lean modules about Viva Connections extensibility in the summary unit.
+In this unit, you get a high-level overview of the ways in which you can extend Viva Connections. For more information about these extensions, see the links to the dedicated Lean modules about Viva Connections extensibility in the summary unit.
 
 ## Web parts
 
-The Viva Connections desktop experience is implemented through modern SharePoint pages in SharePoint Online. You can extend these pages with HTML widgets named *web parts*. Editors can place web parts in the content area of pages.
+The Viva Connections desktop experience is implemented through modern SharePoint pages in SharePoint Online. You can extend these pages with HTML widgets named *web parts*. Editors can place web parts in the content area of pages and configure them to their needs.
 
 :::image type="content" source="../media/4-web-parts.png" alt-text="Screenshot of a modern SharePoint page in edit mode, showing different sections and web parts.":::
-
-What's special about web parts is that editors can place them on pages and configure them to their needs. You use web parts to extend the Viva Connections desktop experience.
 
 ## Application customizers
 
@@ -20,7 +18,7 @@ Application customizers are useful for running background code such as analytics
 
 Adaptive Card Extensions (ACEs) are similar to web parts but use [Adaptive Cards](https://adaptivecards.io) to implement the UI. Adaptive Cards are JSON structures that can be rendered on desktop and mobile clients.
 
-The advantage of ACEs is that they work on both the mobile and the desktop experience of Viva Connections through a special dashboard that users in your organization configure. In the desktop experience, the dashboard is embedded through a special web part that editors can put on a page. In the mobile experience, the Viva Connections mobile app automatically detects and loads the dashboard configured on the home site in your Microsoft 365 tenant.
+The advantage of ACEs is that they work on both the mobile and the desktop experience of Viva Connections through a special dashboard that users in your organization configure. In the desktop experience, the dashboard is embedded through a special web part that editors can put on a page. In the mobile experience, the Viva Connections mobile app automatically detects and loads the dashboard that's configured on the home site in your Microsoft 365 tenant.
 
 :::image type="content" source="../media/4-adaptive-card-extensions.png" alt-text="Screenshot that shows sample Adaptive Card Extensions.":::
 

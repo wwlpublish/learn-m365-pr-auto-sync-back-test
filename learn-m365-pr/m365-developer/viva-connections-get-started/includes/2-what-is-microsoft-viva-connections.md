@@ -2,7 +2,7 @@ Microsoft Viva Connections, which is one of the four Microsoft Viva modules, is 
 
 :::image type="content" source="../media/1-viva-connections-desktop.png" alt-text="Screenshot of the Microsoft Viva Connections desktop experience.":::
 
-Microsoft Viva Connections is available on desktop and mobile devices. It offers two distinct experiences optimized for each type of device.
+Viva Connections is available on desktop and mobile devices. It offers two distinct experiences optimized for each type of device.
 
 The Viva Connections desktop experience combines the power of your SharePoint intranet with chat and collaboration tools in Microsoft Teams. It enables users to discover and search relevant content, sites, and news from across the organization, right from the Teams app bar. It also allows you to incorporate your organization's brand and identity directly in Teams.
 
@@ -12,6 +12,4 @@ For mobile devices, Viva Connections allows you to publish a curated dashboard t
 
 To offer employees a consistent experience across desktop and mobile devices, organizations can expose the dashboard in the desktop experience by using the dashboard web part.
 
-You can extend Microsoft Viva Connections with custom components that are built using modern web technologies. You can connect these components to data and insights from Microsoft 365 and your line-of-business applications.
-
-In the following unit, you'll configure Microsoft Viva Connections desktop and mobile in your Microsoft 365 tenant.
+You can extend Viva Connections with custom components that are built using modern web technologies. You can connect these components to data and insights from Microsoft 365 and your line-of-business applications.

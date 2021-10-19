@@ -12,7 +12,7 @@ To start, go to the SharePoint admin center and create a new communication site.
 To go to the SharePoint admin center in your tenant:
 
 1. In a web browser, go to the [Microsoft 365 admin center of your Microsoft 365 tenant](https://admin.microsoft.com) and sign in as an administrator.
-1. From the side menu, select the **Show all** option.
+1. From the side menu, select **Show all**.
 1. From the list of admin centers, select **SharePoint**.
 
 To create a new communication site:
@@ -34,7 +34,7 @@ The next step is to configure the newly created communication site as the home s
 
 1. In the SharePoint admin center, from the menu, select **Settings**.
 1. In the list of settings, select **Home site**.
-1. In the **URL of site you want to use** box, paste the URL of the newly created communication site URL that you previously copied.
+1. In the **URL of site you want to use** box, paste the URL of the newly created communication site that you previously copied.
 1. To confirm the changes, select **Save**.
 
 ## Enable global navigation
@@ -100,31 +100,30 @@ By default, the dashboard is visible only in the Viva Connections mobile experie
 
 After you create and configure the home site in your Microsoft 365 tenant, you can enable Viva Connections. The following steps show you how to enable the Viva Connections desktop and mobile experience for all users in your tenant. Enabling the app for all users is a convenient way for you and your team to test your Viva Connections extensions in a shared Microsoft 365 tenant.
 
-To enable the Viva Connections app in your tenant, go to the Microsoft Teams admin center:
+Go to the Microsoft Teams admin center:
 
 1. In a web browser, go to the [Microsoft 365 admin center](https://admin.microsoft.com).
-1. From the side menu, select the **Show all** option.
+1. From the side menu, select **Show all**.
 1. From the list of admin centers, select **Teams**.
 
 Before you enable the Viva Connections app in your Microsoft 365 tenant, you can change its name and branding to match your organization's requirements. To customize the Viva Connection app:
 
 1. From the side menu, expand the **Teams apps** section and select **Manage apps**.
-1. In the list of apps, search for **Viva Connections**.
+1. In the list of apps, search for **Viva Connections** and select it.
 
-   :::image type="content" source="../media/3-teams-manage-apps.png" alt-text="Screenshot of the the Viva Connections app on the Teams Admin center screen for managing apps.":::
+   :::image type="content" source="../media/3-teams-manage-apps.png" alt-text="Screenshot of the Viva Connections app on the Teams Admin center screen for managing apps.":::
 
-1. Select the **Viva Connections** app.
 1. Next to the information about the app, select **Actions** > **Customize**.
 1. Customize the app's information:
-   1. **Short name:** Enter **Contoso**.
-   1. **Short description:** Enter **Stay engaged with Contoso**.
+   1. **Short name**: Enter **Contoso**.
+   1. **Short description**: Enter **Stay engaged with Contoso**.
 
    > [!NOTE]
    > Although you've just changed the display name of the Viva Connections app to *Contoso* to match your organization's branding, in this module we'll keep referring to the app as *Viva Connections*.
 
 1. To confirm the changes, select **Apply**.
 1. To confirm that you want to publish the changes to the app, select **Publish**.
-1. Verify that the app status is set to **Allowed**. If it's not, select the **Allow** button.
+1. Verify that the app status is set to **Allowed**. If it's not, turn on the toggle.
 
    :::image type="content" source="../media/3-viva-connections-app-status.png" alt-text="Screenshot of the Viva Connections app summary in the Microsoft Teams admin center.":::
 
@@ -134,10 +133,11 @@ The easiest way to enable Viva Connections in your Microsoft 365 tenant is to in
 1. From the list of policies, select **Global (Org-wide default)**.
 1. In the **Installed apps** section, select **Add apps**.
 1. On the **Add installed apps** pane, search for **Contoso**.
-1. To select **Viva Connections**, select **Add**.
-1. To confirm the installation, select **Add** at the bottom of the pane.
 
    :::image type="content" source="../media/3-installed-apps.png" alt-text="Screenshot that shows the Viva Connections app listed in the overview of installed Microsoft Teams apps.":::
+
+1. To select **Viva Connections**, select **Add**.
+1. To confirm the installation, select **Add** at the bottom of the pane.
 
 Users can install many different apps in Microsoft Teams. To help them quickly access Viva Connections, you can add it to the list of pinned apps so it will appear on the menu bar in Microsoft Teams:
 
@@ -151,7 +151,7 @@ Users can install many different apps in Microsoft Teams. To help them quickly a
 
 1. To confirm your changes, select **Save**.
 
-Let's verify that Viva Connections desktop is correctly configured:
+Verify that Viva Connections desktop is correctly configured:
 
 1. In a web browser, open [Microsoft Teams](https://teams.microsoft.com).
 1. On the left rail, you should see the **Contoso** app pinned on top.
@@ -162,7 +162,7 @@ Let's verify that Viva Connections desktop is correctly configured:
    > [!TIP]
    > If you don't see the Contoso app pinned, it's likely because the changes that you just applied are still being propagated. You can try to refresh the changes by signing out from Microsoft Teams and signing in again. If you still don't see the Contoso app, wait a few hours for the changes to be applied.
 
-To complete the configuration, let's verify that Viva Connections mobile is working correctly:
+To complete the configuration, verify that Viva Connections mobile is working correctly:
 
 1. On your mobile device, open Microsoft Teams and sign in as a user in your Microsoft 365 tenant.
 1. On the bottom, from the list of apps, select **Contoso**. You should see the Viva Connections dashboard that you configured previously.

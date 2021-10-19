@@ -1,6 +1,6 @@
-Microsoft Viva Connections is an employee experience solution that's available as part of Microsoft 365. Viva Connections has two distinct experiences for desktop and mobile devices optimized for the different use cases. Through these experiences, your organization can deliver relevant and personalized content to their employees.
+Microsoft Viva Connections is an employee experience solution that's available as part of Microsoft 365. Viva Connections has two distinct experiences for desktop and mobile devices, optimized for the different use cases. Through these experiences, your organization can deliver relevant and personalized content to its employees.
 
-In this module, you learned about the capabilities of Microsoft Viva Connections and saw how to enable Viva Connections desktop and mobile in your Microsoft 365 tenant.
+In this module, you learned about the capabilities of Microsoft Viva Connections. You also learned how to enable Viva Connections desktop and mobile in your Microsoft 365 tenant.
 
 ## Additional resources
 
