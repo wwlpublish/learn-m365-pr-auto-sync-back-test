@@ -4,12 +4,13 @@ title: Describe accessibility investments in Microsoft 365
 metadata:
   title: Describe accessibility investments in Microsoft 365
   description: "Describe accessibility investments in Microsoft 365"
-  ms.date: 09/02/2021
+  ms.date: 10/19/2021
   author: wwlpublish
   ms.author: dahans
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
+labModal: false
 durationInMinutes: 4
 content: |
   [!include[](includes/9-accessibility.md)]

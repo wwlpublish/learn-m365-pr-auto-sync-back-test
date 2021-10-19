@@ -4,7 +4,7 @@ Co-management enables companies to take advantage of new features and capabiliti
  -  selective wipe
  -  provisioning new Windows 10 devices from the cloud with Windows AutoPilot
 
-Co-management enables companies to use Mobile Device Management (MDM) features, such as conditional access policies, while still using Configuration Manager to complete more complex software deployments.
+Co-management enables companies to use Mobile Device Management (MDM) features, such as Conditional Access policies, while still using Configuration Manager to complete more complex software deployments.
 
 ### **Scenarios to enable co-management**
 

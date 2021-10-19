@@ -54,7 +54,7 @@ Intune enhances this capability by adding mobile device compliance and mobile ap
 
 This relationship is shown in the following diagram.
 
-:::image type="content" source="../media/conditional-access-flow-0a5547a5.png" alt-text="diagram of how Intune uses conditional access policies":::
+:::image type="content" source="../media/conditional-access-flow-0a5547a5.png" alt-text="diagram of how Intune uses Conditional Access policies":::
 
 
 Conditional Access also extends its capabilities to Microsoft 365 services. Conditional Access policies enable organizations to control access to company apps and resources, such as Exchange Online or OneDrive for Business - but only if certain conditions are met. Organizations can define conditions such as:

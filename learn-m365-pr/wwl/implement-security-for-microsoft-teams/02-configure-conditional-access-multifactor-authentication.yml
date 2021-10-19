@@ -1,9 +1,9 @@
 ### YamlMime:ModuleUnit
 uid: learn.wwl.implement-security-for-microsoft-teams.configure-conditional-access-multifactor-authentication
-title: Configure conditional access and multifactor authentication for Microsoft Teams
+title: Configure Conditional Access and multifactor authentication for Microsoft Teams
 metadata:
-  title: Configure conditional access and multifactor authentication for Microsoft Teams
-  description: "Configure conditional access and multifactor authentication for Microsoft Teams"
+  title: Configure Conditional Access and multifactor authentication for Microsoft Teams
+  description: "Configure Conditional Access and multifactor authentication for Microsoft Teams"
   ms.date: 10/09/2021
   author: wwlpublish
   ms.author: jennyche
