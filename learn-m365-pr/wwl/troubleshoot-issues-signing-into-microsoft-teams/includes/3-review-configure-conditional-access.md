@@ -2,7 +2,7 @@ Conditional Access is a feature of Azure AD that provides an additional layer of
 
 ## How Conditional Access policies work
 
-A Conditional Access policy brings signals together, to make decisions, and enforce organizational rules. A conditional access policy might state that:
+A Conditional Access policy brings signals together, to make decisions, and enforce organizational rules. A Conditional Access policy might state that:
 
 - **IF** a user belongs to a certain group 
 - **THEN** they are required to provide multifactor authentication (MFA) to sign in to an application
@@ -24,7 +24,7 @@ Sign in risk represents the probability that a given authentication request is *
 
 ### Access controls
 
-Once the conditional access policy has been applied, an informed decision is reached whether to grant access, block access, or require additional verification. Common decisions are:
+Once the Conditional Access policy has been applied, an informed decision is reached whether to grant access, block access, or require additional verification. Common decisions are:
 
 - Grant access
 - Require one or more of the following options before granting access:
@@ -37,9 +37,9 @@ Once the conditional access policy has been applied, an informed decision is rea
 
 - Block access
 
-## Verify conditional access policy settings
+## Verify Conditional Access policy settings
 
-Your Azure AD administrator might have created a conditional access policy to control access to Teams, or all Microsoft 365 apps. To verify these settings, you must sign in to the Azure Active Directory admin center, and then access **Azure AD Conditional Access** from **All services**. All policies will be listed. You’ll only be interested in policies that display a State of **On**. 
+Your Azure AD administrator might have created a Conditional Access policy to control access to Teams, or all Microsoft 365 apps. To verify these settings, you must sign in to the Azure Active Directory admin center, and then access **Azure AD Conditional Access** from **All services**. All policies will be listed. You’ll only be interested in policies that display a State of **On**. 
 
 Open the appropriate policies, and then review the conditions and access controls. In the screenshot below, the Teams Policy is:
 
@@ -50,8 +50,8 @@ Open the appropriate policies, and then review the conditions and access control
 
 :::image type="content" source="../media/conditional-access.png" alt-text="A screenshot displays the Teams Policy page. The Name is displayed, and a number of other settings are visible that relate to settings described in the preceding text.":::
 
-## Configure conditional access policies
+## Configure Conditional Access policies
 
-Watch the following video for a demonstration of how to set up a conditional access policy:
+Watch the following video for a demonstration of how to set up a Conditional Access policy:
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWHb8R]

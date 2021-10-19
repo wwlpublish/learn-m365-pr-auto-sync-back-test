@@ -8,7 +8,7 @@ Conditional Access policies are if-then statements that allow security professio
 
 A Conditional Access policy is made of if-then statements of **Assignments** and **Access controls**. The assignment part of the policy controls the who, what, and where of the Conditional Access policy. The access part of the policy controls how it's enforced. Based on the assignments, it may **grant access**, **block access**, or grant access provided one or more **additional conditions** is met.
 
-:::image type="content" source="../media/conditional-access.png" alt-text="Screenshot of conditional access":::
+:::image type="content" source="../media/conditional-access.png" alt-text="Screenshot of Conditional Access":::
 
 ## Multifactor authentication
 

@@ -4,7 +4,7 @@ Co-management supports the following workloads:
 
 | **Policy**| **Description**|
 | :--- | :--- |
-| **Compliance policies**| Compliance policies define the rules and settings that a device must comply with to be considered compliant by conditional access policies. Also use compliance policies to monitor and remediate compliance issues with devices independently of conditional access.|
+| **Compliance policies**| Compliance policies define the rules and settings that a device must comply with to be considered compliant by Conditional Access policies. Also use compliance policies to monitor and remediate compliance issues with devices independently of Conditional Access.|
 | **Windows Update policies**| Windows Update for Business policies let you configure deferral policies for Windows 10 feature updates or quality updates for Windows 10 devices managed directly by Windows Update for Business.|
 | **Resource access policies**| Resource access policies configure VPN, Wi-Fi, email, and certificate settings on devices.|
 | **Endpoint Protection**| The Endpoint Protection workload includes the Windows Defender suite of antimalware protection features:<ul><li>Windows Defender Antimalware</li><li>Windows Defender Application Guard</li><li>Windows Defender Firewall</li><li>Windows Defender SmartScreen</li><li>Windows Encryption</li><li>Windows Defender Exploit Guard</li><li>Windows Defender Application Control</li><li>Windows Defender Security Center</li><li>Microsoft Defender for Endpoint</li><li>Windows Information Protection</li></ul> |
