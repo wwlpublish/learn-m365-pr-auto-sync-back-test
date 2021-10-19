@@ -3,7 +3,7 @@ uid: learn.wwl.implement-manage-identity-access
 metadata:
   title: MS-500 part 1 - Implement and manage identity and access
   description: MS-500 part 1 - Implement and manage identity and access
-  ms.date: 09/24/2021
+  ms.date: 10/19/2021
   author: wwlpublish
   ms.author: hrasheed
   ms.topic: interactive-tutorial
@@ -13,7 +13,7 @@ prerequisites: |
   None.
 summary: |
   Learn how to plan, implement, and manage the identity and access technologies in Microsoft 365. This learning path prepares you for skills evaluated on the MS-500 Microsoft 365 Security Administrator certification exam.
-iconUrl: /learn/achievements/generic-trophy.svg
+iconUrl: /learn/achievements/identity-access-implement.svg
 levels:
 - intermediate
 roles:

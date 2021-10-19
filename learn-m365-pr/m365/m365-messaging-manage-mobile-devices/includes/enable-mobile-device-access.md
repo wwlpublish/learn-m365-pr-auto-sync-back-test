@@ -40,7 +40,7 @@ If you have a large number of mobile device users, you need a way to impose a se
 
 This suite has the broadest set of device protection features and is the recommended way to manage mobile devices. The suite includes Microsoft Intune, Azure Information Protection, and Azure AD Premium features. With these tools, you can:
 
-- Set conditional access requirements. Devices must meet these requirements before they can access their email in Exchange Online.
+- Set Conditional Access requirements. Devices must meet these requirements before they can access their email in Exchange Online.
 - Require that users use a PIN or fingerprint authentication on their mobile device before they access Exchange mailboxes.
 - Wipe Exchange Online emails from a device but leave email in other, personal accounts. This feature is known as selective wipe.
 

@@ -2,7 +2,7 @@ You work for an enterprise-level organization. Users in your organization collab
 
 Since moving to Microsoft 365, your users have been increasingly relaying on Teams for collaboration and communications. It’s important to troubleshoot problems relating to member sign-in, account authentication, and network access issues. In addition, because Teams is used to collaborate with external users, you must be able to configure and troubleshoot guest access. 
 
-After completing this module, you’ll know how to troubleshoot account authentication, review sign-in logs and troubleshoot member and guest access issues. You’ll also know how to validate network configuration and configure conditional access policies.
+After completing this module, you’ll know how to troubleshoot account authentication, review sign-in logs and troubleshoot member and guest access issues. You’ll also know how to validate network configuration and configure Conditional Access policies.
 
 ## Learning objectives
 

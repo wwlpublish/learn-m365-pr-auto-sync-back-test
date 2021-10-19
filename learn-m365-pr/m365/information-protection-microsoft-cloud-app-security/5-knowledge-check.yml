@@ -35,7 +35,7 @@ quiz:
     choices:
     - content: "A policy."
       isCorrect: true
-      explanation: "That's correct. You control user access based on a conditional access policy."
+      explanation: "That's correct. You control user access based on a Conditional Access policy."
     - content: "A rule."
       isCorrect: false
       explanation: "That's incorrect. A rule is not a Conditional Access App Control component. "
