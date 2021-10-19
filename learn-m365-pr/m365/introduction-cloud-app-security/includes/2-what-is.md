@@ -18,7 +18,7 @@ Cloud App Security has several deployment modes, which are described in the foll
 | --------------- | ------------------------------------------------------------ |
 | Log  collection | Enables you  to gather data logging data from various sources for analysis. |
 | API  connectors | Enables you  to connect Cloud App Security to both Microsoft and third-party software as a  service (SaaS) platforms. |
-| Reverse proxy   | Enables you  to implement conditional access app control over your data |
+| Reverse proxy   | Enables you  to implement Conditional Access app control over your data |
 
 ### What does Cloud App Security do?
 
