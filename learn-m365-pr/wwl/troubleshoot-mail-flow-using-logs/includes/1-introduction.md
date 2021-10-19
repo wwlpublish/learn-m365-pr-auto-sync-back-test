@@ -14,7 +14,7 @@ This module is designed for persons who are aspiring to the Microsoft 365 Messag
  -  Familiarity with Active Directory concepts such as centralized domain management, sites, and directory-based identity-related services
  -  Ability to write PowerShell commands at an intermediate level
 
-### Learning Objectives
+### Learning objectives
 
 After completing this module, you'll be able to:
 
