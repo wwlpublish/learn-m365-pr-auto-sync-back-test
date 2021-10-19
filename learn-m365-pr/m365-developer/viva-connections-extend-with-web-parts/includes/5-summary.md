@@ -1,4 +1,6 @@
-Microsoft Viva Connections is an employee experience solution that's available as part of Microsoft 365. Viva Connections has two distinct experiences for desktop and mobile devices optimized for the different use cases. Through these experiences, your organization can deliver relevant and personalized content to their employees. Using web parts, you can extend the Viva Connections desktop experience. Web parts allow you to provide editors with reusable widgets they can place on pages that support Viva Connections desktop.
+Microsoft Viva Connections is an employee experience solution that's available as part of Microsoft 365. Viva Connections has two distinct experiences for desktop and mobile devices, optimized for the different use cases. Through these experiences, your organization can deliver relevant and personalized content to its employees. 
+
+By using web parts, you can extend the Viva Connections desktop experience. Web parts allow you to provide editors with reusable widgets that they can place on pages that support Viva Connections desktop.
 
 In this module, you learned to:
 
@@ -8,7 +10,7 @@ In this module, you learned to:
 
 ## Additional resources
 
-To learn more about Microsoft Viva, Microsoft Viva Connections and Microsoft Viva Connections extensibility, see the following resources:
+To learn more about Microsoft Viva, Microsoft Viva Connections, and Microsoft Viva Connections extensibility, see the following resources:
 
 - [Extend Microsoft Viva Connections with application customizers](/learn/modules/viva-connections-extend-with-app-customizers)
 - [Extend Microsoft Viva Connections with Adaptive Card Extensions](/learn/modules/viva-connections-extend-with-adaptive-card-extensions)
