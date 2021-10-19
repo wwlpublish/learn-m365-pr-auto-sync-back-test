@@ -1,4 +1,4 @@
-Your journey through identity protection typically starts with the Azure Identity Protection dashboard. The dashboard provides access to:
+Your journey through identity protection typically starts with the Azure AD Identity Protection dashboard. The dashboard provides access to:
 
  -  Reports such as **Users flagged for risk**, **Risk events,** and **Vulnerabilities.**
  -  Settings such as the configuration of your **Security Policies**, **Notifications,** and **Multi-Factor Authentication registration.**

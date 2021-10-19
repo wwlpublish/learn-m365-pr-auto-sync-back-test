@@ -1,6 +1,6 @@
 Azure Active Directory Identity Protection, which is also known as Azure Identity Protection, is a cloud-based solution that helps an organization monitor and report compromised or abused identities within its environment. Monitoring and reporting in Azure Identity Protection can be done automatically by administrators. They can define rules and conditions, manually by users, or a combination where users are given recommendations.
 
-Azure Identity Protection offers identity protection to organizations by detecting attacks in near real time. It informs them of risks and applies controls to keep their enterprises safe. Most security breaches occur when attackers gain access to an environment by stealing a user’s identity.
+Azure AD Identity Protection offers protection to organizations by detecting attacks in near real time. It informs them of risks and applies controls to keep their enterprises safe. Most security breaches occur when attackers gain access to an environment by stealing a user’s identity.
 
 Over the years, attackers have become increasingly effective in using third-party breaches and sophisticated phishing attacks. As soon as attackers gain access to even low privileged user accounts, it’s relatively easy for them to gain access to important company resources through lateral movement.
 
