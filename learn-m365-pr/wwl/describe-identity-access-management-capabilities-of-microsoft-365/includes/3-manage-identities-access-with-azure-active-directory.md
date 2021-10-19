@@ -2,7 +2,7 @@ The modern security perimeter now extends beyond an organization's network to in
 
 Conditional Access is at the heart of the new identity-driven control plane. It spans Microsoft 365 services, including Intune, Microsoft 365, and Windows 10. It provides granular access to keep your corporate data secure while allowing users to do their best work from any device and from any location. Conditional Access helps protect sensitive data by evaluating users, devices, apps, location, and assessing the risk before granting access. This helps ensure that only approved users and devices can access critical company resources.
 
-:::image type="content" source="../media/3-conditional-access-overview-how-it-works.png" alt-text="Diagram showing the conditional access model":::
+:::image type="content" source="../media/3-conditional-access-overview-how-it-works.png" alt-text="Diagram showing the Conditional Access model":::
 
 Conditional Access policies at their simplest are if-then statements. If a user wants to access a resource, then they must complete an action, for example, a payroll manager wants to access the payroll application and is required to perform multi-factor authentication to access it.
 
@@ -57,7 +57,7 @@ Here are some of the key features from each tier:
 - Free – includes single sign-on, self-service password change, multi-factor authentication, basic security/usage reports, and business-to business collaboration
 - Microsoft 365 Apps – includes all the free features plus identity, self-service password reset, and device write-back (two-way synchronization between on-premises directories and Azure)
 - Premium P1 – includes free, Office 365, and premium features including Conditional access based on group, location, and device status, Microsoft Cloud App Discovery, Advanced security and usage reports, advanced group access management, and hybrid identities
-- Premium P2 – includes all the above plus Azure Identity protection, which includes risk based conditional access policies, risky accounts detection, risk event investigations and Identity governance capabilities, including Privileged Identity Management (PIM)
+- Premium P2 – includes all the above plus Azure Identity protection, which includes risk based Conditional Access policies, risky accounts detection, risk event investigations and Identity governance capabilities, including Privileged Identity Management (PIM)
 
 Azure Active Directory is a feature rich service offering that scales to meet your needs. You can see the complete feature list by visiting the [Active Directory Pricing Guide](https://azure.microsoft.com/pricing/details/active-directory/) page. The table below shows a summarized version of the content, with only the identity and access management features for each tier.
 

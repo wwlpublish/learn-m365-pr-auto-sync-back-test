@@ -1,6 +1,6 @@
 Today, employees access their organization’s resources from anywhere using various devices and apps. Access control policies that focus only on who can access a resource aren't sufficient. To master the balance between security and productivity, security admins must also factor in how a resource is being accessed.
 
-Microsoft has a story and strategy around Zero Trust networking. Azure Active Directory conditional access is the foundational building block of how customers can implement a Zero Trust network approach. Conditional access and Azure Active Directory Identity Protection make dynamic access control decisions based on user, device, location, and session risk for every resource request. They combine:
+Microsoft has a story and strategy around Zero Trust networking. Azure Active Directory Conditional Access is the foundational building block of how customers can implement a Zero Trust network approach. Conditional access and Azure Active Directory Identity Protection make dynamic access control decisions based on user, device, location, and session risk for every resource request. They combine:
 
  -  Confirmed runtime signals about the security state of a Windows device.
  -  The trustworthiness of the user session and identity to arrive at the strongest possible security posture.
