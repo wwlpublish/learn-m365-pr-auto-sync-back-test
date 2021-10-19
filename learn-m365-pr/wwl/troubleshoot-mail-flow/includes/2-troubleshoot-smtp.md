@@ -53,7 +53,7 @@ The following options are available for the protocol logs of all Send connectors
      -  Mailbox Transport Delivery service on Mailbox servers (Receive connectors): %ExchangeInstallPath%TransportRoles\\Logs\\Mailbox\\ProtocolLog\\SmtpReceive\\Delivery
      -  Mailbox Transport Submission service on Mailbox servers (Send connectors): %ExchangeInstallPath%TransportRoles\\Logs\\Mailbox\\ProtocolLog\\SmtpSend\\Submission
         
-        Note: Protocol logging for side effect messages that are submitted after messages are delivered to mailboxes occurs in %ExchangeInstallPath%TransportRoles\\Logs\\Mailbox\\ProtocolLog\\SmtpSend\\Delivery. For example, a message that's delivered to a mailbox triggers an Inbox rule that redirects the message to another recipient.
+        Protocol logging for side effect messages that are submitted after messages are delivered to mailboxes occurs in %ExchangeInstallPath%TransportRoles\\Logs\\Mailbox\\ProtocolLog\\SmtpSend\\Delivery. For example, a message that's delivered to a mailbox triggers an Inbox rule that redirects the message to another recipient.
      -  Transport service on Edge Transport servers:
      -  Receive connectors: %ExchangeInstallPath%TransportRoles\\Logs\\Edge\\ProtocolLog\\SmtpReceive
      -  Send connectors: %ExchangeInstallPath%TransportRoles\\Logs\\Edge\\ProtocolLog\\SmtpSend
