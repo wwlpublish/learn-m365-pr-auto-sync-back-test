@@ -4,7 +4,7 @@ title: Knowledge check
 metadata:
   title: Knowledge check
   description: "Knowledge check"
-  ms.date: 10/18/2021
+  ms.date: 10/19/2021
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -33,7 +33,7 @@ quiz:
     - content: "MSExchangeTransportLogSearch"
       isCorrect: true
       explanation: "That's correct. This source includes information about Active Directory access, insufficient permissions, message tracking log corrupted, and the Transport Log Search service failing to start."
-    - content: "MS Exchange Messaging Policies"
+    - content: "MSExchange Messaging Policies"
       isCorrect: false
       explanation: "That's incorrect. This source includes information about messaging policies features, such as encryption, federation, and certificate validation. Try again."
     - content: "MSExchange Store Driver Delivery"
