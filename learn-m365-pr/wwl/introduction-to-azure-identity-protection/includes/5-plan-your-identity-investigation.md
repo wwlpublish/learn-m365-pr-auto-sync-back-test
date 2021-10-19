@@ -48,7 +48,7 @@ The user risk level is calculated using the following inputs:
  -  Risk level of these events.
  -  Remediation actions have been taken.
 
-You can use the user risk levels to create conditional access policies that block risky users from signing in or force them to securely change their password.
+You can use the user risk levels to create Conditional Access policies that block risky users from signing in or force them to securely change their password.
 
 ### Closing risk events manually
 
@@ -87,6 +87,6 @@ In response to a detected account at risk, AIP generates an email alert with **U
 
 ### Azure Active Directory Identity Protection playbook
 
-The playbook helps you understand how Azure Identity Protection works and simulates risk events and vulnerabilities. You can also set up risk-based conditional access policies and test the impact of these policies.
+The playbook helps you understand how Azure Identity Protection works and simulates risk events and vulnerabilities. You can also set up risk-based Conditional Access policies and test the impact of these policies.
 
 **Additional reading.** For more information, see [Azure Active Directory Identity Protection playbook](/azure/active-directory/active-directory-identityprotection-playbook).
