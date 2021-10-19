@@ -36,7 +36,7 @@ Devices must be enrolled in Microsoft Teams before they can be managed through t
 - Last seen
 - History
 
-If an organization is signed up for Microsoft Intune, then all phones, collaboration bars, Teams displays, and Teams panels are automatically enrolled in Intune. After a device is enrolled, device compliance is confirmed and conditional access policies are applied to the device.
+If an organization is signed up for Microsoft Intune, then all phones, collaboration bars, Teams displays, and Teams panels are automatically enrolled in Intune. After a device is enrolled, device compliance is confirmed and Conditional Access policies are applied to the device.
 
 The following chart displays examples of how an organization can manage phones, collaboration bars, Teams displays, and Teams panels.  
 

@@ -52,7 +52,7 @@ Once the ADE token has been installed, you'll need to create a device enrollment
 
 From the Microsoft Endpoint Manager admin center, you'll use the Enroll Program Tokens page to create an iOS/iPadOS profile. Each profile should have a unique name and can be applied to multiple devices. You would use this to create profiles for different groups, for example, teachers, school years, etc.
 
-Each profile will require specific Device Management Settings.  One of the first things you'll need to decide is whether the profile can enroll with an assigned user or not. Here, you can decide if you want to apply conditional access, whether the device should be supervised (which gives you more management options). Additionally, you can decide if you want to allow local management of the profile.
+Each profile will require specific Device Management Settings.  One of the first things you'll need to decide is whether the profile can enroll with an assigned user or not. Here, you can decide if you want to apply Conditional Access, whether the device should be supervised (which gives you more management options). Additionally, you can decide if you want to allow local management of the profile.
 
 Next, you can decide what the Setup Assistant will show to the user during the initial setup.  This is presented as a show or hide list.  If you select hide, the user won't see the option during the initial installation but can access it via the settings.
 

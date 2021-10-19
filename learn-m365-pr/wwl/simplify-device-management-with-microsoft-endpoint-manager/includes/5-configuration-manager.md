@@ -11,7 +11,7 @@ Microsoft Endpoint Configuration Manager is an on-premises product used to manag
 
 If you have an existing on-premises Configuration Manager infrastructure, you can connect it with your cloud-based Intune management system using the “co-management” function from Configuration Manager. This cloud-connected scenario lets you manage Windows 10 devices using Configuration Manager and Microsoft Intune concurrently. It brings Intune functionality into your device management ecosystem
 
-Co-management is one of the primary ways to attach your existing Configuration Manager deployment to the Microsoft 365 cloud. It enables you to concurrently manage Windows 10 devices by using both Configuration Manager and Microsoft Intune. Co-management lets you cloud-attach your existing investment in Configuration Manager by adding new functionality like conditional access
+Co-management is one of the primary ways to attach your existing Configuration Manager deployment to the Microsoft 365 cloud. It enables you to concurrently manage Windows 10 devices by using both Configuration Manager and Microsoft Intune. Co-management lets you cloud-attach your existing investment in Configuration Manager by adding new functionality like Conditional Access
 
 When a Windows 10 device has the Configuration Manager client and is enrolled to Intune, you get the benefits of both services. You control which workloads, if any, you switch the authority from Configuration Manager to Intune. Configuration Manager continues to manage all other workloads, including those workloads that you don't switch to Intune, and all other features of Configuration Manager that co-management doesn't support.
 

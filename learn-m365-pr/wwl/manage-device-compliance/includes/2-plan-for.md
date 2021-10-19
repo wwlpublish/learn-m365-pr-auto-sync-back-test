@@ -2,7 +2,7 @@ If an organization's devices are managed by Intune, it can use device compliance
 
 A compliance policy must be enrolled to Intune before it can be applied to a device. Once a device is enrolled, it can be automatically added to a device group. If a compliance policy is assigned to that group, the policy will be evaluated on the device, and its compliance status will be automatically reported to Intune and displayed in the portal.
 
-Intune can manage several device types, such as Android, iOS, and Windows 10. A compliance policy is platform-specific, but organizations can create compliance policies for all supported device types. Some settings, such as Minimum and Maximum OS version, can be used with all device types. Other settings, such as BitLocker or Google Play Protect, are platform-specific. Organizations can use device compliance information for monitoring and reporting, and for providing conditional access to company resources.
+Intune can manage several device types, such as Android, iOS, and Windows 10. A compliance policy is platform-specific, but organizations can create compliance policies for all supported device types. Some settings, such as Minimum and Maximum OS version, can be used with all device types. Other settings, such as BitLocker or Google Play Protect, are platform-specific. Organizations can use device compliance information for monitoring and reporting, and for providing Conditional Access to company resources.
 
 Some of the more commonly used device compliance settings include:
 
@@ -41,8 +41,8 @@ There are two types of noncompliant actions:
 
 Device compliance policies can be used in the following manner:
 
- -  **With conditional access.** For devices that follow policy rules, organizations can allow those devices to access email and other company resources. If the devices don't follow policy rules, then they don't get access to company resources.
- -  **Without conditional access**. Organizations can also use device compliance policies without any conditional access. When compliance policies are used without conditional access, there's no access restrictions to company resources.
+ -  **With Conditional Access.** For devices that follow policy rules, organizations can allow those devices to access email and other company resources. If the devices don't follow policy rules, then they don't get access to company resources.
+ -  **Without Conditional Access**. Organizations can also use device compliance policies without any Conditional Access. When compliance policies are used without Conditional Access, there's no access restrictions to company resources.
 
 When organizations use compliance policies independently, the targeted devices are evaluated and reported with their compliance status. For example, you can get a report on how many devices aren't encrypted, or which devices are jail-broken or rooted. Devices can report their compliance status whether they have primary user or they were enrolled by a device enrollment manager.
 

@@ -61,7 +61,7 @@ Azure AD includes the following premium editions:
   :::column:::
     
 
-This service enables organizations to detect potential vulnerabilities affecting its identities. In turn, they can respond to those vulnerabilities by configuring automated responses through conditional access policies to low, medium, and high sign-in risk and user risk.
+This service enables organizations to detect potential vulnerabilities affecting its identities. In turn, they can respond to those vulnerabilities by configuring automated responses through Conditional Access policies to low, medium, and high sign-in risk and user risk.
 
 
   :::column-end:::
