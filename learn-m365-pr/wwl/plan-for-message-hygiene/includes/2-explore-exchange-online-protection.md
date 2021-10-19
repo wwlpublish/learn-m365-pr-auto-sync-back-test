@@ -15,16 +15,16 @@ Exchange Online Protection includes the following functionality:
  -  Customizable filters help you follow corporate policies and government regulations.
  -  Directory-Based Edge Blocking (DBEB) is used to reject messages sent to invalid recipients.
  -  Anti-spoofing protection by supporting Sender Policy Framework (SPF), DomainKeys Identified Mail (DKIM), and Domain-based Message Authentication, Reporting, and Conformance (DMARC).
- -  In combination with Azure AD Connect and Exchange on-premises, safe lists and block lists are automatically synchronized and used in EOP.
+ -  In combination with Azure AD Connect and Exchange on-premises, allowlists and blocklists are automatically synchronized and used in EOP.
 
-**Additional reading**. For more information, see [Manage mail users in EOP](/office365/SecurityCompliance/eop/manage-mail-users-in-eop?azure-portal=true).
+**Additional reading**. For more information, see [Microsoft Exchange Online Protection](https://products.office.com/exchange/exchange-email-security-spam-protection?azure-portal=true).
 
-When you register for Exchange Online or Microsoft 365, EOP is automatically applied to any message that is received or sent from your online tenant. No extra configuration is needed. If you configure a hybrid deployment using the Hybrid Configuration Wizard, any mail that's sent between on-premises Exchange and Exchange Online is subject to inspection by EOP.
+When you register for Exchange Online or Microsoft 365, EOP is automatically applied to any message that is received or sent from your online tenant. No extra configuration is needed. If you configure a hybrid deployment using the Hybrid Configuration Wizard, any mail that's sent between on-premises Exchange and Exchange Online is subject to inspection by EOP.<br>
 
 :::image type="content" source="../media/inoutbound-filtering-exchange-online-protection-393dfc27.png" alt-text="diagram showing inbound and outbound email filtered through EOP":::
 
 
-**Additional reading**. For more information, see [Exchange Online Protection Service Description](/office365/servicedescriptions/exchange-online-protection-service-description/exchange-online-protection-service-description).
+**Additional reading**. For more information, see [Manage mail users in EOP](/office365/SecurityCompliance/eop/manage-mail-users-in-eop?azure-portal=true) and [Exchange Online Protection Service Description](/office365/servicedescriptions/exchange-online-protection-service-description/exchange-online-protection-service-description?azure-portal=true).
 
 ### Microsoft Defender for Office 365
 
@@ -34,7 +34,7 @@ EOP functionality can optionally be extended by using another service called Mic
  -  **Real time, time-of-click protection against malicious URLs.** EOP scans each message in transit in Microsoft 365 and provides time-of-delivery protection to block any malicious hyperlinks in a message. Sometimes attackers try to hide malicious URLs with seemingly safe links that are redirected to unsafe sites by a forwarding service after the message has been received. The Safe Links feature of Microsoft Defender for Office 365 proactively protects your users if they select such a link. That protection remains every time they select the link. Malicious links are dynamically blocked while good links can be accessed.
  -  **Rich reporting and URL trace capabilities.** Microsoft Defender for Office 365 also offers rich reporting and tracking capabilities so that you can gain critical insights into who is getting targeted in your organization and the category of attacks you're facing. Reporting and message tracing enable messaging administrators to investigate messages that have been blocked because of an unknown virus or malware. The URL trace capability enables administrators to track individual malicious links in the messages that have been opened.
 
-**Additional reading**. For more information, see [Exchange Online Protection overview](/office365/securitycompliance/eop/exchange-online-protection-overview).<br>
+**Additional reading**. For more information, see [Exchange Online Protection overview](/office365/securitycompliance/eop/exchange-online-protection-overview?azure-portal=true).<br>
 
 ## Knowledge check
 
