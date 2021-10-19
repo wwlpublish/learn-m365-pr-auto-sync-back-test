@@ -15,9 +15,9 @@ quiz:
     questions:
     - content: "Which of the following are best practices for managing Teams Rooms?"
       choices:
-      - content: "Block inheritance of group policies but not Intune conditional access policies."
+      - content: "Block inheritance of group policies but not Intune Conditional Access policies."
         isCorrect: false
-        explanation: "Incorrect. You should also block inheritance of conditional access policies as they most likely have policy settings that conflict with Teams Rooms."
+        explanation: "Incorrect. You should also block inheritance of Conditional Access policies as they most likely have policy settings that conflict with Teams Rooms."
       - content: "Enable multi-factor authentication and use dynamic groups."
         isCorrect: false
         explanation: "Incorrect. Multi factor authentication is not supported on Teams Rooms."

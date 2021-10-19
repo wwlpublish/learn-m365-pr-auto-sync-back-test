@@ -1,4 +1,4 @@
-As a Teams administrator, you’ve been involved in configuring and troubleshooting Microsoft Teams. Having completed this module, you should now be able to troubleshoot account authentication, review sign-in logs, and troubleshoot both member and guest access issues. You should also be able to validate network configuration and know how to configure conditional access policies.
+As a Teams administrator, you’ve been involved in configuring and troubleshooting Microsoft Teams. Having completed this module, you should now be able to troubleshoot account authentication, review sign-in logs, and troubleshoot both member and guest access issues. You should also be able to validate network configuration and know how to configure Conditional Access policies.
 
 Now that you've completed this module, you should be able to:
 

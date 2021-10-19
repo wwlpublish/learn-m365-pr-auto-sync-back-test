@@ -29,9 +29,9 @@ Next, you'll need to configure the identity provider. In this case, we'll add th
 
     :::image type="content" source="../media/users-groups.png" alt-text="A screenshot displaying the Users and groups page in the Azure AD portal. The administrator is adding users to the Workplace from Facebook app.":::
 
-## Create a conditional access policy for the app
+## Create a Conditional Access policy for the app
 
-The next step is to create a conditional access policy in Azure AD.
+The next step is to create a Conditional Access policy in Azure AD.
 
 1. In the **Workplace from Facebook** page, in the navigation pane, select **Conditional Access**.
 1. On the **Conditional Access** page, select **New Policy**.
@@ -49,7 +49,7 @@ The next step is to create a conditional access policy in Azure AD.
     > [!NOTE]
     > You can configure additional conditions, such as device state.
 
-    :::image type="content" source="../media/session.png" alt-text="A screenshot displaying the Session page of a new conditional access policy in the Azure Active Directory admin center.":::
+    :::image type="content" source="../media/session.png" alt-text="A screenshot displaying the Session page of a new Conditional Access policy in the Azure Active Directory admin center.":::
 
 ## Configure Workplace from Facebook SSO settings
 

@@ -44,7 +44,7 @@ quiz:
       - content: "Ensure your network perimeter is secured against attack."
         isCorrect: false
         explanation: "Securing your network perimeter provides insufficient security for a cloud-first, mobile-first environment that contains many different devices."
-      - content: "Microsoft Azure Active Directory conditional access."
+      - content: "Microsoft Azure Active Directory Conditional Access."
         isCorrect: true
         explanation: "By combining data about, for example, users, devices and locations, you determine whether the request should be granted, denied, or controlled with more information, such as two-factor authentication."
       - content: "User passwords that require changing every three months."

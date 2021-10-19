@@ -57,7 +57,7 @@ You must strike a balance in the organization's interest in security with your w
 
 These capabilities tip the security side of the scale:
 
-- Enforce conditional access to sensitive data.
+- Enforce Conditional Access to sensitive data.
 - Data loss prevention (DLP) actions to block sharing.
 - File and email encryption based on sensitivity label.
 - Prevent data leakage through DLP policies.
