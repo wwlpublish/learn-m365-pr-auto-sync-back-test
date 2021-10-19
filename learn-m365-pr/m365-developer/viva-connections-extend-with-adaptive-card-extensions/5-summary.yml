@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.viva-connections-extend-with-adaptive-card-extensions.summary
+title: Summary
+metadata:
+  unitType: summary
+  title: Summary
+  description: This unit summarizes what you learned in this module.
+  ms.date: 10/15/2021
+  author: waldekmastykarz
+  ms.author: wmastyka
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 1
+content: |
+  [!include[](includes/5-summary.md)]
