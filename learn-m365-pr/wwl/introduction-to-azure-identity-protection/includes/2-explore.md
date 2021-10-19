@@ -11,7 +11,7 @@ As a result, it's imperative that enterprise administrators:
 
 Discovering compromised identities is no easy task. Azure Active Directory uses adaptive machine learning algorithms and heuristics to detect anomalies and suspicious incidents that indicate potentially compromised identities. Azure Identity Protection uses this data to generate reports and alerts that enable organizations to evaluate the detected issues and take appropriate mitigation or remediation actions.
 
-Azure Identity Protection is more than a monitoring and reporting tool. It can enable organizations to protect their identities by configuring risk-based policies that automatically respond to detected issues when a specified risk level has been reached. These policies, along with other conditional access controls provided by Azure Active Directory and Enterprise Mobility + Security (EMS), can either automatically block or start adaptive remediation actions, including password resets and multi-factor authentication enforcement.
+Azure Identity Protection is more than a monitoring and reporting tool. It can enable organizations to protect their identities by configuring risk-based policies that automatically respond to detected issues when a specified risk level has been reached. These policies, along with other conditional access controls provided by Azure Active Directory and Enterprise Mobility + Security (EMS), can either automatically block or start adaptive remediation actions, including password resets and multifactor authentication enforcement.
 
 The following graphic shows that Azure Identity Protection is a technology inside Azure Active Directory that recognizes malicious activity and calculates risks based on the user activity.
 
