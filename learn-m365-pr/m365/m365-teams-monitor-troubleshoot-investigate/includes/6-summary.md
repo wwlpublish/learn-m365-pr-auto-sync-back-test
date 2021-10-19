@@ -16,7 +16,7 @@ Now you've completed this module, you should be able to:
 - [Use call analytics to troubleshoot poor call quality](/microsoftteams/use-call-analytics-to-troubleshoot-poor-call-quality?azure-portal=true)
 - [Monitor and improve call quality for Microsoft Teams](/microsoftteams/monitor-call-quality-qos?azure-portal=true)
 - [What is Call Quality Dashboard (CQD)?](/microsoftteams/cqd-what-is-call-quality-dashboard?azure-portal=true)
-- [Implementing Quality of Service (QoS) in Teams?](microsoftteams/qos-in-teams?azure-portal=true)
+- [Implementing Quality of Service (QoS) in Teams?](/microsoftteams/qos-in-teams?azure-portal=true)
 - [Upload tenant and building data in Call Quality Dashboard (CQD)](/microsoftteams/cqd-upload-tenant-building-data?azure-portal=true)
 - [Office 365 URLs and IP address ranges](/microsoft-365/enterprise/urls-and-ip-address-ranges?azure-portal=true)
 - [Prepare your organization's network for Microsoft Teams](/microsoftteams/prepare-network?azure-portal=true)
