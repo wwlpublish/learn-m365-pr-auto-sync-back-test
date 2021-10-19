@@ -80,15 +80,15 @@ Get-MessageTrackingLog –Server LON-EX1 ‘
 
 You can also use the EAC to view information about messages sent or received by a specific mailbox for up to 14 days after the email has been sent or received. However, for most detailed analysis and troubleshooting, you should use EMS’s **Get-MessageTrackingLog** cmdlet.
 
-### Message tracking logs in Exchange Online
-
 The **Get-MessageTrackingLog** cmdlet isn't available when connected to Exchange Online. Instead of **Get-MessageTrackingLog**, you must use **Get-MessageTrace** and **Get-MessageTraceDetails** to view results for message tracking.
+
+### Message tracing
 
 The message trace functionality in Exchange Online enables you to view a message’s progress through the Exchange Online servers and identify whether the message was delivered. If the message wasn't delivered, you can investigate based on the error messages in the message trace.
 
-#### Message trace in Exchange admin center
+#### Message tracing in the Exchange admin center
 
-The Exchange Admin Center enables Messaging administrators to run message traces. The message trace interface is accessed in the EAC by selecting **mail flow**, and then selecting **message trace** on the toolbar. When you run a message trace, you can specify the following search criteria:
+The Exchange admin center enables Messaging administrators to run message traces. The message trace interface is accessed in the EAC by selecting **mail flow**, and then selecting **message trace** on the toolbar. When you run a message trace, you can specify the following search criteria:
 
  -  Date range
  -  Delivery status
@@ -99,7 +99,7 @@ The Exchange Admin Center enables Messaging administrators to run message traces
 > [!NOTE]
 > When you add a sender or recipient, it may appear that you're unable to add email addresses that aren't part of your organization. However, you can add any email address by typing it in the box next to the **Check names** button.
 
-#### Message trace in Windows PowerShell
+#### Message tracing in Windows PowerShell
 
 You can use the Windows PowerShell **Get-MessageTrace** cmdlet to search for messages that have been sent or received. You then can use the **Get-MessageTraceDetail** cmdlet to view the same details that are available in the EAC.
 
