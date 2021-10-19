@@ -112,8 +112,8 @@ achievements:
   iconUrl: /learn/achievements/use-microsoft-365-to-secure-administrator-access.svg
 - uid: learn-m365-identity.m365-identity-cultural-shift
   type: badge
-  title: Enable identity protection in Azure Active Directory
-  summary: Enable identity protection in Azure Active Directory
+  title: Enable Identity Protection in Azure Active Directory
+  summary: Enable Identity Protection in Azure Active Directory
   iconUrl: /learn/achievements/use-microsoft-365-to-enable-a-cultural-shift-toward-secured-identities.svg
 - uid: learn-m365-identity.m365-identity-zero-trust
   type: badge
