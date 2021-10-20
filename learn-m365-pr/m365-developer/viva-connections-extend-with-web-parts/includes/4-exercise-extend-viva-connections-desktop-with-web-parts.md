@@ -233,7 +233,7 @@ After the app is successfully deployed in the app catalog, you need to install i
 1. In the search box on the **My Apps** page, type **Company** and find the **spfx-company-announcements-webpart-client-side-solution** app.
 1. To install the app, select the **Add** button.
 
-You can now add the `Company announcements` web part onto any SharePoint page on the site. To add the web part on the home page of the home site:
+You can now add the **Company announcements** web part onto any SharePoint page on the site. To add the web part on the home page of the home site:
 
 1. In a web browser, go to the home site.
 1. To ensure that you're on the home page, select **Home** from the top menu.
