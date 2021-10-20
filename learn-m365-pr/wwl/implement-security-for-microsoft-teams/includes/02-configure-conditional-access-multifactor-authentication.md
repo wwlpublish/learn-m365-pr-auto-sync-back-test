@@ -34,7 +34,7 @@ Following are sample steps to create a Conditional Access policy for users in Sa
 
 1. Sign in to Azure Active Directory admin center as a Global Administrator.
 
-2. On the left pane, select **All services** and search for **Conditional access**, and then select **Azure AD Conditional Access**.
+2. On the left pane, select **All services** and search for **Conditional Access**, and then select **Azure AD Conditional Access**.
 
 3. On the **Conditional Access - Policies** page, select **New Policy.**
 
