@@ -23,11 +23,11 @@ After you have set the organization level sharing options, you can also further 
 1. In the pop up panel on the left, select **OneDrive**.
 1. Select **Manage external sharing**.
 
-:::image type="content" source="../media/onedrive-external-sharinga.png" alt-text="Screen shot showing how to limit sharing access for an individual OneDrive.":::
+:::image type="content" source="../media/onedrive-external-sharinga.png" alt-text="Screen shot showing how to limit sharing access.":::
 
 - Select the required option
 
-:::image type="content" source="../media/onedrive-external-sharing.png" alt-text="Screen shot showing how to limit sharing access for an individual OneDrive.":::
+:::image type="content" source="../media/onedrive-external-sharing.png" alt-text="Screen shot showing how to limit sharing access in OneDrive.":::
 
 ## Allow only users in specific security groups to share externally
 
@@ -40,7 +40,7 @@ People in the security group can be given the ability to share with unauthentica
 1. Select **Allow only users in specific security groups to share externally**.
 1. The **Manage security groups** button appears.
 
-    :::image type="content" source="../media/security-groups.png" alt-text="Screen shot showing how to add a security group.":::
+    :::image type="content" source="../media/security-groups.png" alt-text="Screen shot showing where security groups can be amended.":::
 
 1. Select the options to amend.
 
@@ -65,4 +65,4 @@ If external sharing is enabled in your organization, these notifications are ena
 ## Learn more
 
 - [Restrict sharing of SharePoint and OneDrive content by domain](/sharepoint/restricted-domains-sharing?azure-portal=true)
-- [Manage guest access in Microsoft 365 groups](/microsoft-365/admin/create-groups/manage-guest-access-in-groups?view=o365-worldwide?azure-portal=true)
+- [Manage guest access in Microsoft 365 groups](/microsoft-365/admin/create-groups/manage-guest-access-in-groups?azure-portal=true)

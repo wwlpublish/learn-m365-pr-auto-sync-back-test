@@ -16,7 +16,7 @@ Now that you have completed this module, you should be able to:
 - [Best practices for sharing files and folders with unauthenticated users](/microsoft-365/solutions/best-practices-anonymous-sharing?azure-portal=true)
 - [Manage sharing in OneDrive and SharePoint](/onedrive/manage-sharing?azure-portal=true)
 - [Restrict sharing of SharePoint and OneDrive content by domain](/sharepoint/restricted-domains-sharing?azure-portal=true)
-- [Manage guest access in Microsoft 365 groups](/microsoft-365/admin/create-groups/manage-guest-access-in-groups?view=o365-worldwide?azure-portal=true)
+- [Manage guest access in Microsoft 365 groups](/microsoft-365/admin/create-groups/manage-guest-access-in-groups?azure-portal=true)
 - [Change the default link type for a site](/sharepoint/change-default-sharing-link?azure-portal=true)
 - [Manage sharing settings](/sharepoint/turn-external-sharing-on-or-off?azure-portal=true)
 - [Turn on external sharing notifications for OneDrive](/onedrive/turn-on-external-sharing-notifications?azure-portal=true)
