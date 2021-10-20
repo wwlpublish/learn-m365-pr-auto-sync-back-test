@@ -21,11 +21,11 @@ quiz:
         isCorrect: false
         explanation: "That's incorrect. Sensitivity labels are enforced in all Office apps."
       - content: "If the file was created in an Office app."
-        isCorrect: false
-        explanation: "That's incorrect. Sensitivity labels are enforced in all Office apps."
-      - content: "Whichever application was used to create the file."
         isCorrect: true
-        explanation: "Correct. You can use sensitivity labels in Office apps to enforce information protection, regardless of the application that was originally used to create the file."
+        explanation: "Correct. Sensitivity labels are enforced in all Office apps."
+      - content: "If the file was created anywhere"
+        isCorrect: false
+        explanation: "That's incorrect. Sensitivity labels aren't universally enforced in non-Office apps."
 
     - content: "Which of the following Microsoft solutions enforces data protection when the file is opened on a mobile device?"
       choices:
