@@ -1,0 +1,52 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.explore-threat-protection-microsoft-365-defender.knowledge-check
+title: Knowledge check
+metadata:
+  title: Knowledge check
+  description: "Knowledge check"
+  ms.date: 10/19/2021
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 6
+content: |
+  [!include[](includes/8-knowledge-check.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "Which Safe Links feature combines elements of Safe Links and Safe Attachments into a single feature, whose purpose is to protect users in the event a link points to a malicious file on a web server?"
+    choices:
+    - content: "Spoofing intelligence"
+      isCorrect: false
+      explanation: "That's incorrect. Spoofing intelligence isn't a Safe Links feature. Try again."
+    - content: "Dynamic delivery"
+      isCorrect: false
+      explanation: "That's incorrect. This item is a Safe Attachments feature in which messages are delivered immediately, but attachments are replaced with placeholders until Safe Attachments scanning is complete. Try again."
+    - content: "URL detonation"
+      isCorrect: true
+      explanation: "That's correct. URL detonation combines elements of Safe Links and Safe Attachments into a single feature, whose purpose is to protect users in the event a link points to a malicious file on a web server. When a user selects a link to a file on a web server, the file is downloaded into the Safe Attachments sandbox environment and detonated."
+  - content: "As the Message administrator for Fabrikam, Holly Spencer is considering whether to implement Safe Links. Which of the following tasks should Holly complete before deploying Safe Links at Fabrikam?"
+    choices:
+    - content: "Verify Fabrikam has Microsoft Defender for Office 365 licensed"
+      isCorrect: true
+      explanation: "That's correct. Before implementing Safe Links, Holly should verify that Fabrikam has Microsoft Defender for Office 365 licensed."
+    - content: "Verify that a default policy is in place that applies to selected domains"
+      isCorrect: false
+      explanation: "That's incorrect. A default policy should be in place that applies to everyone. Try again."
+    - content: "Review the order of the policies in the Exchange admin center"
+      isCorrect: false
+      explanation: "That's incorrect. The order of the policies should be reviewed in the Microsoft 365 Defender portal. Try again."
+  - content: "Which advanced anti-phishing feature in Microsoft Defender for Office 365 uses machine learning and other heuristics to identify and analyze messages that are involved in coordinated phishing attacks against the entire service and your organization?"
+    choices:
+    - content: "Anti-phishing policies"
+      isCorrect: false
+      explanation: "That's incorrect. These custom policies enable administrators to configure anti-impersonation settings (protect users and domains from impersonation), mailbox intelligence settings, and adjustable advanced phishing thresholds. Try again."
+    - content: "Campaign Views"
+      isCorrect: true
+      explanation: "That's correct. Campaign Views use machine learning and other heuristics to identify and analyze messages that are involved in coordinated phishing attacks against the entire service and your organization."
+    - content: "Attack simulator"
+      isCorrect: false
+      explanation: "That's incorrect. This feature enables admins to create fake phishing messages and send them to internal users as an education tool. Try again."
