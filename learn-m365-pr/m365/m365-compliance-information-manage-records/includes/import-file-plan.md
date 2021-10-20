@@ -2,7 +2,7 @@ Microsoft has developed a tool to import your file plan into Microsoft 365.
 
 Go to **Microsoft 365 compliance center > Records management > File plan > Import** to import your file plan.
 
-:::image type="content" source="../media/import-file-plan.png" alt-text="Screenshot of the Microsoft 365 compliance center showing the import file plan option.":::
+:::image type="content" source="../media/import-file-plan.png" alt-text="Screenshot of the Microsoft 365 compliance center showing the import file plan option." lightbox="../media/import-file-plan.png":::
 
 The process consists of the following steps:
 
