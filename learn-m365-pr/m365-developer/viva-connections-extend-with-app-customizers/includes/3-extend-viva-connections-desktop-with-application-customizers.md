@@ -9,7 +9,7 @@ The following sections explain the most important characteristics of application
 
 ## Application customizers don't need to have a UI
 
-Application customizers can, but don't need to, have a UI. You can use Application customizers to add custom code to every page in the site. Or instead of manually modifying each page, you can build and enable a custom application customizer on the site that will add custom code to all pages at once. When you need to update your code or even disable it, you can do it from a central location, which saves you time.
+Application customizers can, but don't need to, have a UI. You can use Application customizers to add custom code to every page in the site. Or instead of manually modifying each page, you can build and enable an application customizer on the site that will add custom code to all pages at once. When you need to update your code or even disable it, you can do it from a central location, which saves you time.
 
 Because application customizers don't need to have a UI, they're the preferred solution if you need to add analytics scripts to the page or prefetch some data from APIs. Unless you choose to render a UI, an application customizer won't take up any space on the screen.
 

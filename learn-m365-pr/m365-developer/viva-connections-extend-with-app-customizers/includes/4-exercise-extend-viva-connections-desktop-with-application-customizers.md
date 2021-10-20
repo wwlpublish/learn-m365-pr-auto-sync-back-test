@@ -160,7 +160,7 @@ To build and preview the application customizer for important announcements:
 
    :::image type="content" source="../media/4-allow-debug-scripts-prompt.png" alt-text="Screenshot that shows a SharePoint prompt to confirm loading debug scripts.":::
    
-   Important announcement now appear on top of the page.
+   Important announcements now appear on top of the page.
 
    :::image type="content" source="../media/4-application-customizer-sharepoint-page.png" alt-text="Screenshot of a custom application customizer that displays company announcements on a SharePoint page.":::
 
