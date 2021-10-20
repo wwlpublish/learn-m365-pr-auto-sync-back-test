@@ -2,7 +2,7 @@ Microsoft Viva Connections is an employee experience solution that's available a
 
 By using web parts, you can extend the Viva Connections desktop experience. Web parts allow you to provide editors with reusable widgets that they can place on pages that support Viva Connections desktop.
 
-In this module, you learned to:
+In this module, you learned how to:
 
 - Install development tools for building Microsoft Viva Connections extensions.
 - Extend Microsoft Viva Connections with web parts.
