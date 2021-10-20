@@ -1,7 +1,7 @@
 Of course, all organizations use information slightly differently. However, the general pathway by which you create, manage update, and destroy files is usually similar. 
 
 In your legal company, you're concerned that your compliance with regulations might not be as good as it should be. You're investigating file lifecycles to analyze this problem further.
-
+Of course, all organizations use information slightly differently. However, the general pathway by which files are created, managed, updated, and destroyed is often broadly similar. In your legal company, you're concerned that your compliance with regulations might not be as good as it should be. You're investigating file lifecycles to analyze this problem further.
 Here, you'll learn about the typical lifecycle of the files in your organization.
 
 ## Lifecycle summary
