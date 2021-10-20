@@ -1,0 +1,19 @@
+An organization’s mail flow basically describes the manner in which inbound and outbound emails are processed. These processes vary depending on whether an organization has an Exchange Server, Exchange Online, or hybrid Exchange deployment.
+
+ -  **Exchange Server deployments.** In Exchange Server, mail flow occurs through the transport pipeline. The transport pipeline is a collection of services, connections, components, and queues that work together to route all messages to the categorizer in the Transport service and on an Exchange Mailbox server inside the organization.
+ -  **Exchange Online deployments.** For organizations using Microsoft 365, Microsoft hosts their mailboxes and takes care of mail flow. It's the simplest configuration for an organization because Microsoft 365 manages all mailboxes and filtering. However, some organizations require more complex mail flow setups to ensure they follow specific regulatory or business needs. For these organizations, they must modify their Exchange Online mail flow process to accommodate their unique requirements.
+ -  **Hybrid Exchange deployments.** A hybrid deployment gives organizations the ability to extend to the cloud the feature-rich experience and administrative control they have with their existing on-premises Microsoft Exchange organization. With hybrid transport, messages sent between recipients in either the cloud or on-premises environments are authenticated, encrypted, and transferred using Transport Layer Security (TLS), and they appear as "internal" to Exchange components such as transport rules, journaling, and anti-spam policies. The Hybrid Configuration Wizard in Exchange Server is used to configure hybrid transport.
+
+In general, the transport services on a server are part of the entire mail flow process. However, transport is often meant for describing the message delivery processes inside a server, while mail flow is more focused on the delivery between servers and message routing.
+
+Messaging administrators must consider the following issues to successfully manage their mail flow:
+
+ -  **How are your MX records configured?** External mail servers determine where to transport messages for your organization by the MX record of your public DNS domain. The servers configured in your MX record are your perimeter servers that are the first to accept external messages and often scan them for spam and malware.
+ -  **How are messages routed from your perimeter to your user mailboxes?** After a message was received on the perimeter network, it needs to be routed to the correct Mailbox server hosting the user mailbox or recipient.
+ -  **How many protecting barriers are between your Mailbox Servers and the outside world?** A minimum of one email gateway must be used to scan for spam and malware, but you can have multiple gateways in your perimeter network to scan your incoming and outgoing mail flow. These gateways can include external providers such as Exchange Online Protection and Edge servers.
+ -  **How many different rules are applied to your mail flow?** A transport or mail flow rule can modify, copy, or redirect messages flowing to your mail servers and anti-spam gateways. Transport rules can also apply different rules on messages to add anti-spam header fields and possibly redirect messages. The more organizations apply rules to their mail flow, the greater the complexity when troubleshooting their mail flow.
+ -  **Do you use a mandatory TLS encryption with a partner organization?** Sometimes you must establish TLS encrypted connections to partner organizations or, for example, with Exchange Online.
+
+## Knowledge check
+
+Choose the best response for the following question. Then select **Check your answers**.
