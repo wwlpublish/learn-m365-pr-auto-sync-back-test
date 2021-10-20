@@ -221,7 +221,7 @@ Deploy your application to the catalog:
 1. In a web browser, go to the SharePoint app catalog.
 1. From the side menu in the catalog, select **Apps for SharePoint**.
 1. Drag the *spfx-company-announcements-webpart.sppkg* file into the list.
-1. SharePoint asks you to confirm and deploy the package. Select **Deploy** to make the package available to install in SharePoint sites.
+1. SharePoint asks you to confirm and deploy the package. Select **Deploy** to make the package available to install on SharePoint sites.
 
    :::image type="content" source="../media/4-sharepoint-app-catalog-prompt.png" alt-text="Screenshot of the SharePoint app catalog prompt to confirm deploying the uploaded solution package.":::
 
@@ -231,7 +231,7 @@ After the app is successfully deployed in the app catalog, you need to install i
 1. From the top menu, select the **Settings** (gear) icon.
 1. From the **SharePoint** section, select the **Add an app** link. 
 1. In the search box on the **My Apps** page, type **Company** and find the **spfx-company-announcements-webpart-client-side-solution** app.
-1. To install the app, select the **Add** button.
+1. Select the **Add** button.
 
 You can now add the **Company announcements** web part onto any SharePoint page on the site. To add the web part on the home page of the home site:
 
