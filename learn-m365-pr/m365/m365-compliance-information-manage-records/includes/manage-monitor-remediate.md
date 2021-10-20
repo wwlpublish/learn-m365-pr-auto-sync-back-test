@@ -2,7 +2,7 @@ The **Overview, Content explorer** and **Activity explorer** in **Data classific
 
 Go to [Microsoft 365 compliance center](https://compliance.microsoft.com) and select **Data classification** to view the classification results.
 
-:::image type="content" source="../media/data-classification.png" alt-text="Screenshot of the Microsoft 365 compliance center - showing the Data classification information.":::
+:::image type="content" source="../media/data-classification.png" alt-text="Screenshot of the Microsoft 365 compliance center - showing the Data classification information." lightbox="../media/data-classification.png":::
 
 The following cards from the overview page are relevant to records management:
 
@@ -16,4 +16,10 @@ The records tagging report shows the count of the content tagged as a record or 
 
 Go to **Microsoft 365 compliance center > Reports** to view this report.
 
-:::image type="content" source="../media/record-tagging.png" alt-text="Screenshot of the Reports section of the Microsoft 365 compliance center.":::
+:::image type="content" source="../media/record-tagging.png" alt-text="Screenshot of the Reports section of the Microsoft 365 compliance center." lightbox="../media/record-tagging.png":::
+
+## Learn more
+
+- [Data classification overview](/microsoft-365/compliance/data-classification-overview)
+- [Get started with content explorer](/microsoft-365/compliance/data-classification-content-explorer)
+- [Get started with activity explorer](/microsoft-365/compliance/data-classification-activity-explorer)

@@ -81,4 +81,11 @@ This configuration option is unique to the records management solution. If selec
 
 ## Step 4: Review your settings
 
-The final step is to review your settings, make any needed updates, and create the label.
+The final step in the process is to review your settings, make any needed updates, and create the label.
+
+## Learn more
+
+- [Overview of retention labels](/microsoft-365/compliance/labels)
+- [Retention policy precedence](/microsoft-365/compliance/labels#the-principles-of-retention-or-what-takes-precedence)
+- [Overview of disposition reviews](/microsoft-365/compliance/disposition-reviews)
+- [How a retention policy works with content in place](/microsoft-365/compliance/retention-policies#how-a-retention-policy-works-with-content-in-place)

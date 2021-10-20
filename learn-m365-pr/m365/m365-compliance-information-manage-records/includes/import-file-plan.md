@@ -50,3 +50,7 @@ Next, you complete the file plan template. Because your goal should be to import
 
 You upload the completed plan to Microsoft 365. After you've checked that everything looks as expected, you publish, or auto-apply, the labels to activate them. Refer to the *Information governance* module in this learning path for instructions on how to publish or auto-apply a label policy.
 
+## Learn more
+
+- [Import retention labels into your file plan](/microsoft-365/compliance/file-plan-manager?import-retention-labels-into-your-file-plan?azure-portal=true)
+- [Retention label file plan descriptors columns](/microsoft-365/compliance/file-plan-manager?retention-label-file-plan-descriptors-columns?azure-portal=true)
