@@ -4,7 +4,7 @@ When users connect to your Teams system using their device, they may inadvertent
 
 Conditional Access is a security feature of Azure Active Directory. Conditional Access uses multiple signals to determine whether a user or device is trustworthy.
 
-:::image type="content" border="false" source="../media/4-conditional-access.png" alt-text="Conditional access":::
+:::image type="content" border="false" source="../media/4-conditional-access.png" alt-text="Conditional Access":::
 
 Conditional Access, like multifactor authentication, is part of the Zero Trust security model. You use Conditional Access policies to determine how trustworthy something is. There are two types:
 
@@ -14,7 +14,7 @@ Conditional Access, like multifactor authentication, is part of the Zero Trust s
 Conditional Access policies are if-then statements that allow security professionals to provide defense-in-depth and are enforced after the first-factor authentication has been completed. Microsoft Teams is supported separately as a cloud app in Azure Active Directory Conditional Access policies.
 A Conditional Access policy is made of if-then statements of **Assignments** and **Access controls**. The assignment part of the policy controls the who, what, and where of the Conditional Access policy. The access part of the policy controls how it's enforced. Based on the assignments, it may **grant access**, **block access**, or grant access provided one or more **additional conditions** is met. See the screenshot below for the details required:
 
-:::image type="content" source="../media/4-conditional-access-policy.png" alt-text="Conditional access policy":::
+:::image type="content" source="../media/4-conditional-access-policy.png" alt-text="Conditional Access policy":::
 
 Conditional Access policies can be set for Teams. However, Teams is integrated with other Microsoft apps to implement features such as meetings, calendars, interop chats, and file sharing. Conditional Access policies can also be set for these apps. When a user signs in to Microsoft Teams, on any client, the Conditional Access policies that are set for both Teams, and any of the integrated cloud apps, are applied. It's important to note that even though Conditional Access policies may be set up for Teams, without the correct policies on other apps like Exchange Online and SharePoint, users might still be able to access resources directly.
 If you have a service dependency configured, the policy might be applied using early-bound or late-bound enforcement:

@@ -2,7 +2,7 @@ Microsoft's two MDM solutions, the Basic Mobility and Security service and Intun
 
  -  Device configuration profiles
  -  Device compliance policies
- -  Conditional access policies
+ -  Conditional Access policies
 
 Device security policies include:
 

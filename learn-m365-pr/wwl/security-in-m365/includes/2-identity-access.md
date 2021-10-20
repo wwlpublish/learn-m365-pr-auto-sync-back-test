@@ -23,13 +23,13 @@ You can use the Microsoft Authenticator app in multiple ways, including:
 - **Two-factor verification**. The standard verification method, where one of the factors is your password. After you sign in to a device, app, or site using your username and password, you can use Microsoft Authenticator to approve a notification or enter a provided verification code.
 - **Phone sign-in**. A version of two-factor verification that lets you sign in without requiring a password, using your username and your mobile device with your fingerprint, face, or PIN.
 
-## Conditional access
-Conditional access provides granular access to keep your corporate data secure, while letting users do their best work from any device and from any location. Conditional access helps protect sensitive data by evaluating users, devices, apps, location, and risk before granting access to corporate data. This helps ensure that only approved users and devices can access critical company resources. 
+## Conditional Access
+Conditional Access provides granular access to keep your corporate data secure, while letting users do their best work from any device and from any location. Conditional Access helps protect sensitive data by evaluating users, devices, apps, location, and risk before granting access to corporate data. This helps ensure that only approved users and devices can access critical company resources. 
 
-Conditional access spans Microsoft 365 services including Intune, Microsoft 365, and Windows 10. 
+Conditional Access spans Microsoft 365 services including Intune, Microsoft 365, and Windows 10. 
 
-![Conditional access](../media/3-conditional-access.png)
-*Conditional access evaluates each access request on a number of different criteria and then using policies you define, decides if it should be allowed, if stricter controls are needed or if the access attempt should be blocked altogether*
+![Conditional Access](../media/3-conditional-access.png)
+*Conditional Access evaluates each access request on a number of different criteria and then using policies you define, decides if it should be allowed, if stricter controls are needed or if the access attempt should be blocked altogether*
 
 ## Identity protection
 Most security breaches are a result of attackers stealing a user’s identity. Over the years, attackers have become increasingly effective in using third-party breaches and using sophisticated phishing attacks. As soon as an attacker gains access to even low privileged user accounts, it's relatively easy for them to gain access to important company resources. 

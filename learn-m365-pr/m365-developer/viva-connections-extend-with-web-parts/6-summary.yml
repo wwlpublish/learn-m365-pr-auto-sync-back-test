@@ -1,14 +1,14 @@
 ### YamlMime:ModuleUnit
-uid: learn-m365.viva-connections-get-started.summary
+uid: learn-m365.viva-connections-extend-with-web-parts.summary
 title: Summary
 metadata:
   title: Summary
   description: This unit summarizes what you learned in this module.
-  ms.date: 10/8/2021
+  ms.date: 10/14/2021
   author: waldekmastykarz
   ms.author: wmastyka
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 durationInMinutes: 1
 content: |
-  [!include[](includes/5-summary.md)]
+  [!include[](includes/6-summary.md)]

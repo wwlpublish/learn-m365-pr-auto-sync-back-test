@@ -1,0 +1,7 @@
+This module examined the various issues that Messaging administrators must consider to successfully manage the transport services that guide their mail flow. Besides troubleshooting issues with mail flow, Messaging administrators must also be proficient in troubleshooting transport components. These components include transport agents, connectors, and general architecture issues.
+
+The transport services on a server are part of the entire mail flow process. Transport is often meant for describing the message delivery processes inside a server, while mail flow is more focused on the delivery between servers and message routing.
+
+To aid messaging administrators, this module introduced you to various tools and approaches that are available for managing transport components within on-premises Exchange Server deployments. You learned how to modify the default internal message flow used by Exchange servers to communicate with each other. You also explored how to use connectors to send and receive email, and how to use tools to manage and verify mail flow.
+
+This module concluded by examining common troubleshooting scenarios involving message transport coexistence. Coexistence is automatically achieved when an organization's Exchange deployment includes multiple Exchange Servers. Coexistence occurs because a server automatically fails over to another server if it fails. You were introduced to various considerations when troubleshooting mail routing during coexistence.
