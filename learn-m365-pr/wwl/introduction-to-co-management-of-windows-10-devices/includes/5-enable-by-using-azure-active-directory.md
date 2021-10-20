@@ -30,7 +30,7 @@ Azure AD is intended for:
      -  Multi-factor authentication (MFA)
      -  Self-service password reset
      -  Device registration
-     -  Conditional access
+     -  Conditional Access
  -  **App developers.** App developers can use Azure AD as a standards-based approach for adding single sign-on (SSO) to their apps, allowing them to work with a user's pre-existing credentials. Azure AD also provides APIs that can help you build personalized app experiences using existing organizational data.
  -  **Microsoft 365, Azure, or Dynamics CRM Online subscribers.** Subscribers are already using Azure AD. Each Microsoft 365, Azure, and Dynamics CRM Online tenant is actually an Azure AD tenant. This design enables organizations to immediately begin managing employee-access to their integrated cloud apps.
 

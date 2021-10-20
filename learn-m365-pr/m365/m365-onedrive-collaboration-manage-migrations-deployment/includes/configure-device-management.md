@@ -16,11 +16,11 @@ The built-in **Mobile Device Management (MDM)** for Microsoft 365 helps you secu
 
 The ability to manage mobile applications with policies regardless of the device is **Mobile Application Management (MAM)**. MAM policies allow a work or school-related app to be managed on almost any device, including personal devices in bring-your-own-device (BYOD) scenarios. Many productivity apps, such as OneDrive, SharePoint, and the Office apps, can be managed through Intune MAM policies.
 
-## Conditional access for OneDrive
+## Conditional Access for OneDrive
 
-Controlling access to OneDrive is not just about devices but also where and how you are connecting to OneDrive. Conditional access control capabilities in Azure Active Directory offer simple ways for you to secure resources in the cloud. The OneDrive sync app works with the Conditional Access control policies to ensure syncing is only done with compliant devices. For example, you might require sync to be available only on domain-joined devices or devices that meet compliance requirements as defined by the Mobile Device Management system (like Intune).
+Controlling access to OneDrive is not just about devices but also where and how you are connecting to OneDrive. Conditional Access control capabilities in Azure Active Directory offer simple ways for you to secure resources in the cloud. The OneDrive sync app works with the Conditional Access control policies to ensure syncing is only done with compliant devices. For example, you might require sync to be available only on domain-joined devices or devices that meet compliance requirements as defined by the Mobile Device Management system (like Intune).
 
-Conditional access controls access to SharePoint, OneDrive, and their admin centers. The built-in Conditional Access policies in the OneDrive and SharePoint admin center included in the access control page are:
+Conditional Access controls access to SharePoint, OneDrive, and their admin centers. The built-in Conditional Access policies in the OneDrive and SharePoint admin center included in the access control page are:
 
 - Control access based on network location. You can control access to SharePoint and OneDrive resources based on defined network locations that you trust. This is also known as location-based policy.
 

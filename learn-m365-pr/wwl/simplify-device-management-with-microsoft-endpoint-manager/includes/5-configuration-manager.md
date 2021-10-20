@@ -31,7 +31,7 @@ There are two main paths to reach to co-management:
 
 When you enroll existing Configuration Manager clients in co-management, you gain the following:
 
- -  Conditional access with device compliance
+ -  Conditional Access with device compliance
  -  Intune-based remote actions, for example: restart, remote control, or factory reset
  -  Centralized visibility of device health
  -  Link users, devices, and apps with Azure Active Directory (Azure AD)

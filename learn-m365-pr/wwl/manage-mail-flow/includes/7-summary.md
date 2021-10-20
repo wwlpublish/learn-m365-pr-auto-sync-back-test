@@ -1,0 +1,7 @@
+Mail flow is the essential component of every messaging system such as Exchange. For this reason, understanding the details of mail flow and how to manage your organization's mail flow is a crucial task for every messaging administrator. This module examined the differences between managing mail flow in Exchange Server, Exchange Online, and Exchange Hybrid deployments.
+
+In Exchange Server, mail flow occurs through the transport pipeline. This module examined how to modify the default internal message flow of Exchange servers. It also reviewed the tools that are available to manage mail flow in an on-premises Exchange Server deployment. You also learned how to manage mail flow to and from your Exchange organization using Send Connectors and Receive Connectors.
+
+For organizations using Microsoft 365, Microsoft hosts their mailboxes and takes care of mail flow. You learned that Exchange Online is the simplest configuration for an organization because Microsoft 365 manages all mailboxes and filtering.
+
+For Exchange hybrid deployments, organizations can extend to the cloud the feature-rich experience and administrative control they have with their existing on-premises Microsoft Exchange organization. This module analyzed mail flow in hybrid environments. You learned how to organize the email flow to and from the Internet, and between Exchange Online and the Exchange Server on-premises.

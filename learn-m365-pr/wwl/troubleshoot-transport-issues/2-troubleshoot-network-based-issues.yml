@@ -1,0 +1,30 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.troubleshoot-transport-issues.troubleshoot-network-based-issues
+title: Troubleshoot network-based issues
+metadata:
+  title: Troubleshoot network-based issues
+  description: "Troubleshoot network-based issues"
+  ms.date: 10/19/2021
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 5
+content: |
+  [!include[](includes/2-troubleshoot-network-based-issues.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "Which port used by Exchange is the most import port used for client access?"
+    choices:
+    - content: "25/TCP"
+      isCorrect: false
+      explanation: "That's incorrect. This port is the default port for any SMTP mail transmission. However, it isn't the most important port used for client access. Try again."
+    - content: "80/TCP"
+      isCorrect: false
+      explanation: "That's incorrect. This port uses unencrypted HTTP, which is required as the Autodiscover fallback method, for Internet calendar publishing, and to access Certificate Revocation Lists. However, it isn't the most important port used for client access. Try again."
+    - content: "443/TCP"
+      isCorrect: true
+      explanation: "That's correct. Most client access is tunneled over HTTPS. This port is the most important port for client access."

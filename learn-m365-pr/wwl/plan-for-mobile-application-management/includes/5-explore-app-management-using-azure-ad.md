@@ -42,7 +42,7 @@ Azure AD provides several SSO options. Some of the most popular are SAML-based S
 
 ### Manage risk with Conditional Access policies
 
-Coupling Azure AD single sign-on (SSO) with [Conditional access](/azure/active-directory/conditional-access/concept-conditional-access-cloud-apps) provides high levels of security for accessing applications. Conditional access policies provide granular control to apps based on conditions you set. Azure AD Conditional Access can also be used to set access policies for specific users or groups. Conditional access policies enable organizations to implement automated access control for accessing their cloud apps. Automated access control is based on conditions. For example, Conditional Access policies can specify whether:
+Coupling Azure AD single sign-on (SSO) with [Conditional Access](/azure/active-directory/conditional-access/concept-conditional-access-cloud-apps) provides high levels of security for accessing applications. Conditional Access policies provide granular control to apps based on conditions you set. Azure AD Conditional Access can also be used to set access policies for specific users or groups. Conditional Access policies enable organizations to implement automated access control for accessing their cloud apps. Automated access control is based on conditions. For example, Conditional Access policies can specify whether:
 
  -  application access is permitted outside the company network.
  -  access is allowed only from devices that are compliant.

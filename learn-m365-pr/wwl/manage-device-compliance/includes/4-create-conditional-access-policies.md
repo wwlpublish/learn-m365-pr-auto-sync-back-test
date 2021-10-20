@@ -1,9 +1,9 @@
-Conditional access policies enable organizations to implement automated access control decisions. Based on the conditions in these policies, the decisions they generate determine who can access an organization's cloud apps. There are two types of Conditional Access with Intune:
+Conditional Access policies enable organizations to implement automated access control decisions. Based on the conditions in these policies, the decisions they generate determine who can access an organization's cloud apps. There are two types of Conditional Access with Intune:
 
  -  Device-based Conditional Access
  -  App-based Conditional Access
 
-Organizations must configure the related compliance policies to drive Conditional Access compliance. Conditional access is commonly used to do things like:
+Organizations must configure the related compliance policies to drive Conditional Access compliance. Conditional Access is commonly used to do things like:
 
  -  allow or block access to Exchange on-premises.
  -  control access to the network.
@@ -61,7 +61,7 @@ This diagram displays the following steps:
 **Additional reading.** For more information, see the following resources:
 
  -  [Common Conditional Access policies](/azure/active-directory/conditional-access/concept-conditional-access-policy-common?azure-portal=true)
- -  [Conditional access with Intune](/intune/conditional-access?azure-portal=true)
+ -  [Conditional Access with Intune](/intune/conditional-access?azure-portal=true)
 
 ## **Exercise – Interactive demonstrations**
 
