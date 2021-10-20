@@ -1,4 +1,4 @@
-Teams has two types of roles:  users and administrators.
+Teams has two types of roles: users and administrators.
 
 Users can be either owners or members of a team.
 
@@ -7,9 +7,9 @@ A team owner is the person who creates the team:
 - Team owners can make any member of their team a co-owner when they invite them to the team or at any point after they've joined the team. Having multiple team owners lets you share the responsibilities of managing settings and membership, including invitations.
 - Team members are the people who the owners invite to join their team.
 
-The table shows the differences in permissions between an owner and a member. (Certain restrictions apply in some cases.)
+The table shows the differences in permissions between an owner and a member. Certain restrictions apply in some cases.
 
-![Owner-member permission differences](../media/owner-member-permissions.png)
+:::image type="content" source="../media/owner-member-permissions.png" alt-text="Screenshot showing the differences between Owner and Member permissions within Microsoft Teams.":::
 
 If a team is created from an existing group, permissions are inherited from that group.
 
@@ -20,7 +20,7 @@ If a team is created from an existing group, permissions are inherited from that
 
 Teams administrator roles determine what capabilities each administrative role holder has. Four administrative roles are available in Teams:
 
-- **Teams Service Administrator.** Manages the Teams service; creates and manages Microsoft 365 Groups.
+- **Teams Service Administrator.** Manages the Teams service. Creates and manages Microsoft 365 Groups.
 - **Teams Communications Administrator.** Manages calling and meetings features within the Microsoft Teams service.
 - **Teams Communications Specialist.** Troubleshoots communications issues within Teams by using basic tools.
 - **Teams Communications Support Engineer.** Troubleshoots communications issues within Teams by using advanced tools.

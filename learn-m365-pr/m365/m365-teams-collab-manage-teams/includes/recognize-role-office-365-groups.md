@@ -1,8 +1,11 @@
-When you create a team in Microsoft Teams, on the back end, you're creating a Microsoft 365 Group and the associated SharePoint document library and OneNote notebook, along with ties into other Microsoft 365 cloud applications.
+When you create a team in Microsoft Teams, on the back end, you're creating a Microsoft 365 Group, the associated SharePoint document library, and a OneNote notebook, along with ties into other Microsoft 365 cloud applications.
 
-If the creator of a team is an owner of an existing public or private group, they can add Teams functionality to the group if it has fewer than 5,000 people and has never been added to Teams. This creates one default General channel in which chat messages, documents, OneNote, and other objects reside.
+If the creator of a team is an owner of an existing public or private group, they can add Teams functionality to the group if it has fewer than 10,000 people and has never been added to Teams. This creates one default General channel in which chat messages, documents, OneNote, and other objects reside.
 
-![Interconnections of Teams and Microsoft 365 Groups](../media/office-365-groups-new-group.png)
+:::image type="content" source="../media/office-365-groups-new-group.png" alt-text="Screenshot showing how Teams, Azure Active Directory and Microsoft 365 Groups all interconnect.":::
+
+> [!NOTE]
+> Teams in Government GCC deployments can accomodate up to 25,000 members, and are not subject to the usual 10,000 user limit. However, you can't use @ channel mentions with GCC groups larger than 10,000 members.
 
 Members of Microsoft 365 Groups fall into three roles:
 
@@ -10,9 +13,12 @@ Members of Microsoft 365 Groups fall into three roles:
 - **Members** are regular users who collaborate within a group.
 - **Guests** are participants from outside your organization who've been granted access to the group by an administrator.
 
+> [!NOTE]
+> Guest users have access to the inviting organization's teams or team resources, but users granted external access do not have access to the inviting organization's teams or team resources.
+
 You can add or remove team members and perform other team-management tasks within the Teams client itself, or outside Teams by using the Microsoft 365 admin center, Microsoft Azure Active Directory (Azure AD), or the Microsoft Teams PowerShell module.
 
-![Manage Teams administrator view](../media/office-365-groups-manage-admin.png)
+:::image type="content" source="../media/office-365-groups-manage-admin.png" alt-text="Screenshot showing the Manage Teams Administrator area within the Admin Center.":::
 
 ## Learn more
 

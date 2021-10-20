@@ -21,10 +21,10 @@ You could then assign the policy to the users.
 
 You can change the global messaging policy or create a new custom policy. For example, you can change settings to edit and delete sent messages or allow users to remove other users from a group chat.
 
-![Messaging policy settings](../media/messaging-policy-settings.png)
+:::image type="content" source="../media/messaging-policy-settings.png" alt-text="Screenshot showing where the message policy settings can be amended.":::
 
 ## Learn more
 
-- [Manage messaging policies in Teams](/MicrosoftTeams/messaging-policies-in-teams?azure-portal=true)
-- [Manage Teams policies](/microsoftteams/teams-policies?azure-portal=true)
-- [Manage private channel creation policies](/microsoftteams/private-channels?azure-portal=true)
+- [Manage messaging policies in Teams](/MicrosoftTeams/messaging-policies-in-teams)
+- [Manage channel policies in Microsoft Teams](/microsoftteams/teams-policies)
+- [Private channels in Microsoft Teams](/microsoftteams/private-channels)

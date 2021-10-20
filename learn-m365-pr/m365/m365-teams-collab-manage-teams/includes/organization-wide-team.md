@@ -2,7 +2,10 @@ Organization-wide teams provide an automatic way for everyone in a small to medi
 
 With org-wide teams, global administrators can easily create a public team that pulls in every user in the organization and keeps the membership up-to-date with Active Directory as users join and leave the organization. Only global administrators can create org-wide teams and currently an org-wide team is limited to organizations with no more than 10,000 users. There's also a limit of five org-wide teams per tenant.
 
-![Select org-wide-team](../media/org-wide-team.png)
+:::image type="content" source="../media/org-wide-team.png" alt-text="Screenshot showing the 3 different teams options of Private, Public and Org-wide.":::
+
+> [!NOTE]
+> If your organization is new to Teams, and is smaller that 5,000 users, an org-wide team will be created for you automatically with a name taken from the tenant name. Organizations larger than 5,000 users and smaller than 10,000 users can create their org-wide teams manually.
 
 ## Create an organization-wide team
 
@@ -30,10 +33,9 @@ To get the most benefit out of your org-wide team, team owners should follow the
 
 ## Learn more
 
-- [Create an org-wide team in Microsoft Teams](/MicrosoftTeams/create-an-org-wide-team)
-- [Use PowerShell to create a team](/MicrosoftTeams/teams-powershell-overview?azure-portal=true)
-- [Using Microsoft Graph to create a team](/graph/api/team-put-teams?tabs=http?azure-portal=true)
-- [Create a team from an existing Distribution Group](/office365/admin/manage/upgrade-distribution-lists?azure-portal=true)
-- [Create a Team from an existing Office 365 Group](https://support.office.com/article/Create-a-team-from-an-existing-group-24ec428e-40d7-4a1a-ab87-29be7d145865?azure-portal=true)
-- [Manage privacy levels for a team](https://support.office.com/article/Make-a-public-team-private-in-Teams-6f324fbc-6599-4612-8daa-ff5d35a746bf?azure-portal=true)
+- [Create an organization-wide team in Microsoft Teams](/MicrosoftTeams/create-an-org-wide-team)
+- [Microsoft Teams PowerShell Overview](/MicrosoftTeams/teams-powershell-overview)
+- [Upgrade distribution lists to Microsoft 365 Groups in Outlook](/office365/admin/manage/upgrade-distribution-lists)
+- [Create a Team from an existing group](https://support.office.com/article/Create-a-team-from-an-existing-group-24ec428e-40d7-4a1a-ab87-29be7d145865?azure-portal=true)
+- [Make a public team private in Teams](https://support.office.com/article/Make-a-public-team-private-in-Teams-6f324fbc-6599-4612-8daa-ff5d35a746bf?azure-portal=true)
 - [Manage discovery of private teams](/microsoftteams/manage-discovery-of-private-teams?azure-portal=true)
