@@ -1,4 +1,4 @@
-In this unit, you get a high-level overview of the ways in which you can extend Viva Connections. For more information about these extensions, see the links to the dedicated Lean modules about Viva Connections extensibility in the summary unit.
+In this unit, you get a high-level overview of the ways in which you can extend Viva Connections. For more information about these extensions, see the links to the dedicated Learn modules about Viva Connections extensibility in the summary unit.
 
 ## Web parts
 
