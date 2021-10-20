@@ -99,7 +99,7 @@ The next stage is to create the Conditional Access App Control policy. In a new 
 The final stage is to create the Access control or Session control policies. In this example, we'll create a session policy. In the Microsoft Cloud App Security portal, complete the following steps:
 
 1. In the navigation pane, select **Control** and then select **Policies**.
-1. In the **Policies** page, select the **Conditional access** tab.
+1. In the **Policies** page, select the **Conditional Access** tab.
 1. Select the **Create policy** button, and then select **Session policy**.
 1. In the Policy template list, select the type of activity. For example, select **Block sending of messages based on real-time content inspection**.
 1. Select **Apply template**. The various fields are updated with suitable values based on the template. If you want to modify any fields, you can do so.

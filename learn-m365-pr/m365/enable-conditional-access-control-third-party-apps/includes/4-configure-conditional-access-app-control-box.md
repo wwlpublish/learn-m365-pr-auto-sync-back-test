@@ -61,7 +61,7 @@ The next step is to create a Conditional Access policy in Azure AD.
 The final stage is to create the Access control or Session control policies. In this example, we'll create an access policy. In the **Cloud App Security** portal, complete the following steps:
 
 1. In the navigation pane, select **Control** and then select **Policies**.
-1. In the **Policies** page, select the **Conditional access** tab.
+1. In the **Policies** page, select the **Conditional Access** tab.
 1. Select the **Create policy** button, and then select **Access policy**.
 1. Enter a policy name in the **Policy name** text box.
 1. In the query section, select the **Select apps** list, and then select **Box**.

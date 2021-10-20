@@ -17,7 +17,7 @@ There are different ways you can define Conditional Access policies:
 
 Microsoft Teams desktop clients for Windows and Mac support modern authentication.
 
-:::image type="content" border="false" source="../media/4-conditional-access.png" alt-text="Conditional access and MFA":::
+:::image type="content" border="false" source="../media/4-conditional-access.png" alt-text="Conditional Access and MFA":::
 
 When a user signs into Microsoft Teams, whatever Conditional Access policies are set will be applied. Be aware, however, that if a Conditional Access policy is set for Teams, but not Exchange Online or SharePoint Online, users will still be able to access those resources directly.
 

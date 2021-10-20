@@ -6,7 +6,7 @@ Your Enterprise Mobility + Security subscription provides a versatile set of too
 
 ### Create a Conditional Access policy
 
-Conditional access policies impose requirements that users and devices must satisfy before they can connect to Exchange Online. You can assign different policies to different groups in your organization. This technique is useful, because more powerful administrators' accounts are targeted by attackers. It's sensible to apply stricter policies to administrative users than those that apply to users with fewer permissions.  
+Conditional Access policies impose requirements that users and devices must satisfy before they can connect to Exchange Online. You can assign different policies to different groups in your organization. This technique is useful, because more powerful administrators' accounts are targeted by attackers. It's sensible to apply stricter policies to administrative users than those that apply to users with fewer permissions.  
 
 To create a Conditional Access policy, follow these steps. In this example, the policy requires users to authenticate with multifactor authentication:
 

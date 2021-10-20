@@ -46,7 +46,7 @@ Microsoft Azure Active Directory Conditional Access combines data from several s
 
 These considerations are used to decide whether to **allow access**, **deny access**, or **control access** with additional authentication challenges such as multifactor authentication, Terms of Use, or access restrictions.
 
-Conditional access works robustly with any application configured for access with Azure Active Directory.
+Conditional Access works robustly with any application configured for access with Azure Active Directory.
 
 ## Adopting a Zero Trust security model
 
