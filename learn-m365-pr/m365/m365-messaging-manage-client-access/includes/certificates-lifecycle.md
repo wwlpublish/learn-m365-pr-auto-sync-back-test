@@ -14,10 +14,10 @@ There are a number of prerequisites before you configure certificates:
 These are the steps to implement certificates:
 
 1. Configure the certificate authorities in Active Directory or Azure Active Directory.
-2. Configure the revocation list to let you deny access to a device if it is lost or stolen.
+1. Configure the revocation list to let you deny access to a device if it is lost or stolen.
 
 Test your configuration using every device type that you need to support.
 
 ## Learn more
 
-[Certificate-Based Authentication (CBA) for Exchange Online](/azure/active-directory/authentication/active-directory-certificate-based-authentication-get-started)
+[Get started with certificate-based authentication in Azure Active Directory](/azure/active-directory/authentication/active-directory-certificate-based-authentication-get-started)
