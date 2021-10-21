@@ -186,7 +186,7 @@ Package the web part into an app by using Gulp:
 Next, you'll deploy the app package into the SharePoint app catalog. If you don't have an app catalog in your tenant, create it now:
 
 1. In a web browser, go to the [Microsoft 365 admin center](https://admin.microsoft.com).
-1. From the side menu, select the **Show all** option.
+1. From the side menu, select **Show all**.
 1. From the **Admin centers** list, select **SharePoint**.
 1. In the SharePoint admin center, from the side menu, select **More features**.
 1. From the **Apps** section, select the **Open** button to go to the **Apps** admin page.
@@ -206,7 +206,7 @@ Deploy your application to the app catalog:
 
    :::image type="content" source="../media/4-deploy-package-prompt.png" alt-text="Screenshot of the SharePoint app catalog prompt to confirm deploying the uploaded solution package.":::
 
-After the app is successfully deployed in the app catalog, you need to install it on your Home site.
+After the app is successfully deployed in the app catalog, you need to install it on your Home site:
 
 1. In a web browser, go to the home site.
 1. From the top menu, select the **Settings** (gear) icon.

@@ -1,8 +1,6 @@
 ## Scenario
 
-After deploying Viva Connections, your organization wants to extend it with information from internal data sources to keep employees informed. The leadership wants to share company announcements with employees. 
-
-You've been asked to build an extension that will remind employees of important company announcements in the Viva Connections desktop experience. The reminder should be always visible when employees are browsing through the pages of Viva Connections desktop.
+After deploying Microsoft Viva Connections, your organization wants to extend it with information from internal data sources to keep employees informed. The leadership wants to share company announcements with employees. You've been asked to build an extension that will remind employees of important company announcements in the Viva Connections desktop experience. The reminder should be always visible when employees are browsing through the pages of Viva Connections desktop.
 
 :::image type="content" source="../media/4-application-customizer-viva-connections.png" alt-text="Screenshot that shows a custom banner with a company announcement built from an application customizer.":::
 

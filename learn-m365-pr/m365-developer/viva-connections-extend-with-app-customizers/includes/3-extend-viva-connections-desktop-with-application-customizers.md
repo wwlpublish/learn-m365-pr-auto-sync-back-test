@@ -34,7 +34,7 @@ When you build the UI for application customizers, you own the CSS and HTML. Con
 
 ## Developers define the position of an app customizer
 
-As a developer, you decide whether the application customizer that you're building should have a UI or not. If the application customizer should have a UI, you as a developer decide to which placeholder it's attached.
+As a developer, you decide whether the application customizer that you're building should have a UI or not. If the application customizer should have a UI, you decide to which placeholder it's attached.
 
 By default, content editors have no control over application customizers. Site administrators can choose to enable or disable an application customizer, but they can't control where on the page it's placed.
 
@@ -53,4 +53,4 @@ Configuration properties for application customizers allow you to parameterize y
 
 Consider building an application customizer if you want to add code to all pages in the Viva Connections desktop experience. If the solution doesn't need a UI, or if the UI is suited to be displayed in one of the available placeholders, build an application customizer.
 
-In the next exercise, you'll build an application customizer that retrieves information from a SharePoint list and shows it on the page in the top placeholder. You'll also test the solution and deploy it to Viva Connections.
+In the next exercise, you'll build an application customizer that gets information from a SharePoint list and shows it on the page in the top placeholder. You'll also test the solution and deploy it to Viva Connections.
