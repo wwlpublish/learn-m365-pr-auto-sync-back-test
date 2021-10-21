@@ -99,7 +99,7 @@ After you create the project, the next step is to extend the web part so that it
    > [!TIP]
    > When possible, you should always use semantic HTML rather than the generic `div` and `span` elements. Using semantic HTML, like a heading (`h1`-`h6`) or a definition list (`dl`), helps people who use screen readers and other accessibility tools to follow the page's contents more easily.
 
-1. To save your changes, select **File** > **Save** or select CTRL+S on the keyboard (CMD+S on macOS).
+1. To save your changes, select **File** > **Save** or select Ctrl+S on the keyboard (CMD+S on macOS).
 
 ## Style the web part's contents
 
@@ -146,7 +146,7 @@ To show announcements in the web part, you used the standard `dl`, `dt`, and `dd
    
    Like you did for the web part's title, you refer to Fluent UI styles to ensure consistency. To highlight important announcements, you define an extra class named `important`, which uses red text as defined in Fluent UI.
 
-1. To save your changes, select **File** > **Save** or select CTRL+S on the keyboard (CMD+S on macOS).
+1. To save your changes, select **File** > **Save** or select Ctrl+S on the keyboard (CMD+S on macOS).
 
 ## Test the web part
 
@@ -163,7 +163,7 @@ To build and preview the web part for company announcements:
    >
    > _Warning - [spfx-serve] When serving in HTTPS mode, a PFX cert path or a cert path and a key path must be provided, or a dev certificate must be generated and trusted. If a SSL certificate isn't provided, a default, self-signed certificate will be used. Expect browser security warnings._
    >
-   > To fix this problem, stop the web server by selecting CTRL+C and run the `gulp trust-dev-cert` command.
+   > To fix this problem, stop the web server by selecting Ctrl+C and run the `gulp trust-dev-cert` command.
 1. In a web browser, go to the workbench at `<Home site url>/_layouts/workbench.aspx`. The home site URL is where you created the **Announcements** list in the previous exercise.
    
    > [!WARNING]
@@ -173,7 +173,7 @@ To build and preview the web part for company announcements:
    >
    > _Your web part will not appear in the toolbox. Please make sure “gulp serve” is running in a web part project. Please refresh the page once “gulp serve” is running._
    >
-   > To fix this problem, stop the web server by selecting CTRL+C and run the `gulp trust-dev-cert` command.
+   > To fix this problem, stop the web server by selecting Ctrl+C and run the `gulp trust-dev-cert` command.
 1. To add the newly created web part to the canvas, select the **+** (plus) button to open the toolbox.
 
    :::image type="content" source="../media/4-open-toolbox.png" alt-text="Screenshot of the plus button to open the toolbox in the SharePoint workbench.":::
@@ -188,7 +188,7 @@ To build and preview the web part for company announcements:
    
    The titles of announcements selected as important appear in red.
 
-1. To stop the development web server, go back to the terminal and select CTRL+C.
+1. To stop the development web server, go back to the terminal and select Ctrl+C.
 
 ## Deploy the web part to Viva Connections
 
