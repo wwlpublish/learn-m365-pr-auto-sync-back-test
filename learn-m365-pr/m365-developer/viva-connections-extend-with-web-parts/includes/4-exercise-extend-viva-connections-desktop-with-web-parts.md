@@ -71,7 +71,7 @@ After you created the project, the next step is to extend the web part so that i
      <dd>${announcement.Description}</dd>`);
    
    this.domElement.innerHTML = `
-   <div class="${styles.companyAnnouncements} ${this._hasTeamsContext ? styles.teams : ''}">
+   <div class="${styles.companyAnnouncements}">
      <div class="${styles.container}">
        <div class="${styles.title}">Announcements</div>
        <dl>
@@ -98,10 +98,6 @@ To show announcements in the web part, you used the standard `dl`, `dt`, and `dd
    @import '~@microsoft/sp-office-ui-fabric-core/dist/sass/SPFabricCore.scss';
    
    .companyAnnouncements {
-     &.teams {
-       font-family: $ms-font-family-fallbacks;
-     }
-   
      .container {
        @include ms-Grid;
        color: var(--primaryText, #323130);
