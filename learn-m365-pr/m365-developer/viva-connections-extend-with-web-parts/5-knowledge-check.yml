@@ -14,7 +14,7 @@ content: |
 quiz:
   title: Check your knowledge
   questions:
-  - content: "In which Viva Connections experiences web parts work?"
+  - content: "Viva Connections web parts work in which of the following experiences?"
     choices:
     - content: "Desktop"
       isCorrect: true
