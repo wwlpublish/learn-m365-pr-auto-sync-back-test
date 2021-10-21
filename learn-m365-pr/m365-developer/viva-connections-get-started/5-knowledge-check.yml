@@ -1,0 +1,52 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.viva-connections-get-started.knowledge-check
+metadata:
+  title: Knowledge check
+  description: Check your knowledge.
+  ms.date: 10/20/2021
+  author: waldekmastykarz
+  ms.author: wmastyka
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Knowledge check
+durationInMinutes: 3
+content: |
+quiz:
+  title: Check your knowledge
+  questions:
+  - content: "What does Viva Connection help employees with?"
+    choices:
+    - content: "Stay engaged and informed"
+      isCorrect: true
+      explanation: "Viva Connections helps employees stay engaged and informed."
+    - content: "Understand how they spend their time"
+      isCorrect: false
+      explanation: "Viva Insights helps employees understand how they spend their time."
+    - content: "Learn new skills"
+      isCorrect: false
+      explanation: "Viva Learn helps employees learn new skills."
+    - content: "Organize content and expertise"
+      isCorrect: false
+      explanation: "Viva Topics helps employees organize content and expertise."
+  - content: "On which types of devices does Viva Connections work?"
+    choices:
+    - content: "Only on desktop devices"
+      isCorrect: false
+      explanation: "Viva Connections works on desktop and mobile devices."
+    - content: "Only on mobile devices"
+      isCorrect: false
+      explanation: "Viva Connections works on mobile devices."
+    - content: "Viva Connections works on desktop and mobile devices."
+      isCorrect: true
+      explanation: "Viva Connections works on desktop and mobile devices."
+  - content: "What are the types of extensions that you can build to extend Viva Connections?"
+    choices:
+    - content: "Web parts, application customizers and tabs"
+      isCorrect: false
+      explanation: "You can extend Viva Connections with web parts and application customizers. While you can link to tabs, you can't extend Viva Connections with tabs."
+    - content: "Application customizers, tabs and bots"
+      isCorrect: false
+      explanation: "You can extend Viva Connections with application customizers. While you can link to tabs and bots, you can't use them to extend Viva Connections."
+    - content: "Web parts, application customizers and Adaptive Card Extensions"
+      isCorrect: true
+      explanation: "Web parts, application customizers and Adaptive Card Extensions are the three types of extensions that you can build for Viva Connections."

@@ -56,7 +56,7 @@ Here are some of the key features from each tier:
 
 - Free – includes single sign-on, self-service password change, multi-factor authentication, basic security/usage reports, and business-to business collaboration
 - Microsoft 365 Apps – includes all the free features plus identity, self-service password reset, and device write-back (two-way synchronization between on-premises directories and Azure)
-- Premium P1 – includes free, Office 365, and premium features including Conditional access based on group, location, and device status, Microsoft Cloud App Discovery, Advanced security and usage reports, advanced group access management, and hybrid identities
+- Premium P1 – includes free, Office 365, and premium features including Conditional Access based on group, location, and device status, Microsoft Cloud App Discovery, Advanced security and usage reports, advanced group access management, and hybrid identities
 - Premium P2 – includes all the above plus Azure Identity protection, which includes risk based Conditional Access policies, risky accounts detection, risk event investigations and Identity governance capabilities, including Privileged Identity Management (PIM)
 
 Azure Active Directory is a feature rich service offering that scales to meet your needs. You can see the complete feature list by visiting the [Active Directory Pricing Guide](https://azure.microsoft.com/pricing/details/active-directory/) page. The table below shows a summarized version of the content, with only the identity and access management features for each tier.

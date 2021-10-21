@@ -11,7 +11,7 @@ By using Intune, you can:
 - Help ensure that devices and apps that do connect to corporate data comply with security policies.
 
 For example, when a user attempts to access data through a line of business app (LOB app) on their phone, Microsoft 365 checks with Azure AD to authenticate the user and verify whether that user can access the data from that app on that device. The results depend on: 
-- Conditional access policies defined within Azure AD. 
+- Conditional Access policies defined within Azure AD. 
 - Whether Intune tells Azure AD that the device is compliant with device configuration and data protection policies.
 - Whether the app on that device complies with app configuration and data protection policies. 
 

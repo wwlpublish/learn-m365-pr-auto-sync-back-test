@@ -1,0 +1,30 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.explore-threat-protection-microsoft-365-defender.examine-how-safe-attachments-protects-against-malicious-attachments
+title: Examine how Safe Attachments protects against malicious attachments
+metadata:
+  title: Examine how Safe Attachments protects against malicious attachments
+  description: "Examine how Safe Attachments protects against malicious attachments"
+  ms.date: 10/19/2021
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 8
+content: |
+  [!include[](includes/4-examine-how-safe-attachments-protects-against-malicious-attachments.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "Which Safe Attachments option removes detected malware attachments and notifies recipients that attachments have been removed?"
+    choices:
+    - content: "Block"
+      isCorrect: false
+      explanation: "That's incorrect. This option prevents messages with detected malware attachments from being delivered. Try again."
+    - content: "Dynamic Delivery"
+      isCorrect: false
+      explanation: "That's incorrect. This option eliminates email delays by sending the body of an email message through to the recipient with a placeholder for each email attachment. Try again."
+    - content: "Replace"
+      isCorrect: true
+      explanation: "That's correct. This option removes detected malware attachments and notifies recipients that attachments have been removed. Messages that contain malicious attachments are quarantined."

@@ -554,7 +554,7 @@ Available
   :::column:::
     
 
-Conditional access based on device compliance
+Conditional Access based on device compliance
 
 
   :::column-end:::
