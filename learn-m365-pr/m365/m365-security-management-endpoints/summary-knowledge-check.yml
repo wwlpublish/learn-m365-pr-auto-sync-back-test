@@ -20,7 +20,7 @@ quiz:
       - content: "Roll out Microsoft Defender for Endpoint"
         isCorrect: false
         explanation: "That's incorrect. Microsoft Defender for Endpoint contains many protection features, including what should be used here, but simply having Microsoft Defender for Endpoint would not prevent this behavior."
-      - content: "Switch in Windows Defender Firewall"
+      - content: "Enable Windows Defender Firewall"
         isCorrect: false
         explanation: "That's incorrect. Windows Defender Firewall blocks unauthorized network traffic flowing into or out of the local device. It can't prevent this behavior."
       - content: "Implement attack surface reduction rules"
