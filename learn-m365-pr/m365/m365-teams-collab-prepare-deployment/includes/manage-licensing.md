@@ -9,7 +9,7 @@ In terms of Teams core functionalities, there are no differences between the sub
 
 Microsoft Teams licensing is designed to give you maximum flexibility. After using basic Teams features, you can buy add-on licenses for more features such as audio conferencing, phone system, calling plans, and Microsoft Teams rooms.
 
-For audio conferencing, your organization will need to buy and assign an audio-conferencing license to each user who will set up dial-in meetings. For calling plans, each user will need a phone system plus a domestic or domestic and international calling plan.
+If you want audio conferencing, your organization will need to buy and assign an audio-conferencing license to each user who will set up dial-in meetings. For calling plans, each user will need a phone system plus a domestic or domestic and international calling plan.
 
 Use messaging policies, managed from the Teams admin center, to control what chat and channel messaging features are available to users in Teams. You can use the default policy or create one or more custom messaging policies for people in your organization.
 
