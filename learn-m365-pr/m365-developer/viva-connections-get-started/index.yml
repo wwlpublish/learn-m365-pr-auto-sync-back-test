@@ -12,10 +12,10 @@ title: Get started with Microsoft Viva Connections
 summary: Learn what Microsoft Viva Connections is, how your organization will benefit from using it, and how to enable it in your Microsoft 365 tenant.
 abstract: |
   By the end of this module, you'll be able to:
-    - Understand what Microsoft Viva Connections is and the experiences it offers on desktop and mobile devices
+    - Understand what Microsoft Viva Connections is and the experiences that it offers on desktop and mobile devices
     - Enable Microsoft Viva Connections desktop and mobile in a Microsoft 365 tenant
 prerequisites: |
-  - SharePoint and Teams Administrator access to a Microsoft 365 tenant
+  - SharePoint and Teams administrator access to a Microsoft 365 tenant
   - Mobile device with Microsoft Teams installed
 iconUrl: /learn/achievements/generic-badge.svg
 levels:
