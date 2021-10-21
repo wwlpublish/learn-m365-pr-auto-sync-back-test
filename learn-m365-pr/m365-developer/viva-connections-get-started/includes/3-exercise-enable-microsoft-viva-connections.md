@@ -83,6 +83,8 @@ By default, the dashboard is visible only in the Viva Connections mobile experie
 1. In the toolbox, to filter the list of available web parts, search for `dashboard`
 1. From the list of web parts, select **Dashboard for Viva Connections**
    :::image type="content" source="../media/3-dashboard-web-part.png" alt-text="The Dashboard for Viva Connections web part highlighted in the web part toolbox":::
+   > [!TIP]
+   > Tip: After creating the dashboard, it can take a few minutes before it will show in the dashboard web part. After the setup completes, you'll see all changes instantly.
 1. To save the changes, from the page toolbar choose **Republish**
    :::image type="content" source="../media/3-republish-home-page.png" alt-text="The Republish button highlighted in the page toolbar":::
 
