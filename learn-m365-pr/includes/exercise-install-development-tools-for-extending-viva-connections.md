@@ -12,7 +12,7 @@ To build applications by using the SharePoint Framework, you need to install the
 >
 > To verify the installed version, run `npm list --global --depth=0` in a terminal and check the version of the **@microsoft/generator-sharepoint** package. If it's lower than 1.13, uninstall it by running `npm uninstall --global @microsoft/generator-sharepoint`.
 
-If you don't have the SharePoint Framework Yeoman Generator installed, or if you uninstalled it, follow these steps to set it up on your computer:
+If you don't have the SharePoint Framework Yeoman generator installed, or if you uninstalled it, follow these steps to set it up on your computer:
 
 1. Open a terminal.
 1. Run the `node -v` command to verify that you have Node.js v14 installed. If you have a different version installed, uninstall it, and then install v14.
