@@ -22,9 +22,9 @@ Guests in Teams are covered by the same compliance and auditing protection as th
 
 | Setting | Default | Description |
 |:-----|:-----|:-----|
-|Allow IP video|On|When **On**, guests can use video in their calls and meetings; when **Off**, they can't.|
+|IP video|On|When **On**, guests can use video in their calls and meetings; when **Off**, they can't.|
 |Screen sharing mode|Entire screen|When **Disabled**, guests can't share their screens in Teams. <br/>When set to **Single application**, guests can only share a single application on their screen. <br/>When set to **Entire screen**, guests can choose to share an application or their entire screen.|
-|Allow Meet Now|On|When **On**, guests can use the Meet Now feature in Teams; when **Off**, they can't.|
+|Meet Now|On|When **On**, guests can use the Meet Now feature in Teams; when **Off**, they can't.|
 
 ### Guest messaging
 
@@ -33,11 +33,12 @@ Guests in Teams are covered by the same compliance and auditing protection as th
 |Edit sent messages|On|When **On**, guests can edit messages they previously sent; when **Off**, they can't.|
 |Delete sent messages|On|When **On**, guests can delete messages they previously sent; when **Off**, they can't.|
 |Chat|On|When **On**, guests can use chat in Teams; when **Off**, they can't.|
-|Use Giphy in conversations|On|When **On**, guests can use Giphys in conversations; when **Off**, they can't.|
+|Giphy in conversations|On|When **On**, guests can use Giphys in conversations; when **Off**, they can't.|
 |Giphy content rating|Moderate|When set to **Allow all content**, guests will be able to insert all Giphys in chats, regardless of the content rating. <br/>When set to **Moderate** guests can insert Giphys in chats, but will be moderately restricted from adult content. <br/>When set to **Strict** guests can insert Giphys in chats, but will be restricted from inserting adult content.|
-|Use Memes in conversations|On|When **On**, guests can use memes in conversations; when **Off**, they can't.|
-|User stickers in conversations|On|When **On**, guests can use stickers in conversations; when **Off**, they can't.|
-|Allow immersive reader for viewing messages|On|When **On**, guests can view messages in Immersive Reader; when **Off**, they can't.|
+|Memes in conversations|On|When **On**, guests can use memes in conversations; when **Off**, they can't.|
+|Stickers in conversations|On|When **On**, guests can use stickers in conversations; when **Off**, they can't.|
+|Immersive reader for messages|On|When **On**, guests can view messages in Immersive Reader; when **Off**, they can't.|
+
 
 :::image type="content" source="../media/teams-guest-access-setting.png" alt-text="Guest permissions settings in Teams" :::
 
@@ -47,9 +48,9 @@ Guests in Teams are covered by the same compliance and auditing protection as th
 
 1. Sign in to the [Microsoft Teams admin center](https://admin.teams.microsoft.com/?azure-portal=true).
 
-2. Select **Org-wide settings** > **Guest access**.
+2. Select **Users** > **Guest access**.
 
-3. Set **Allow guest access in Microsoft Teams** to **On**.
+3. Set **Allow guest access in Teams** to **On**.
 
 4. Under **Calling**, **Meeting**, and **Messaging**, select **On** or **Off** for each capability, depending on what you want to allow for guest users.
 
