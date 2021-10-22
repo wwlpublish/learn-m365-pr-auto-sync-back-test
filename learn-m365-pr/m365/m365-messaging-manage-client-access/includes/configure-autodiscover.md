@@ -8,4 +8,4 @@ You need to update the SCP object to point to the Exchange server. This is neces
 
 ## Learn more
 
-[PowerShell Reference Library](/powershell/windows/get-started?azure-portal=true)
+[Windows PowerShell Reference Library](/powershell/windows/get-started?azure-portal=true)
