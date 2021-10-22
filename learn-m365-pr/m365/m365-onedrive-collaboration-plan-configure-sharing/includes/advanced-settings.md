@@ -23,11 +23,11 @@ After you have set the organization level sharing options, you can also further 
 1. In the pop up panel on the left, select **OneDrive**.
 1. Select **Manage external sharing**.
 
-:::image type="content" source="../media/onedrive-external-sharinga.png" alt-text="Screen shot showing how to limit sharing access.":::
+:::image type="content" source="../media/onedrive-external-sharinga.png" alt-text="Screen shot showing how to limit sharing access." lightbox="../media/onedrive-external-sharinga.png":::
 
 - Select the required option
 
-:::image type="content" source="../media/onedrive-external-sharing.png" alt-text="Screen shot showing how to limit sharing access in OneDrive.":::
+:::image type="content" source="../media/onedrive-external-sharing.png" alt-text="Screen shot showing how to limit sharing access for an individual OneDrive.":::
 
 ## Allow only users in specific security groups to share externally
 
