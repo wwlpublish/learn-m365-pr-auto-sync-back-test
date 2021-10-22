@@ -27,7 +27,6 @@ products:
 - m365
 modules:
 - learn.wwl.plan-for-message-hygiene
-- learn.wwl.manage-anti-malware-anti-spam-policies-2
 - learn.wwl.explore-threat-protection-microsoft-365-defender
 trophy:
   uid: learn.wwl.manage-message-hygiene-microsoft-365.trophy
