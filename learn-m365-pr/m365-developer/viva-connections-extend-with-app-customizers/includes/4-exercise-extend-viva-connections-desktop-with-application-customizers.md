@@ -148,7 +148,7 @@ To build and preview the application customizer for important announcements:
    >
    > _Warning - [spfx-serve] When serving in HTTPS mode, a PFX cert path or a cert path and a key path must be provided, or a dev certificate must be generated and trusted. If a SSL certificate isn't provided, a default, self-signed certificate will be used. Expect browser security warnings._
    >
-   > To fix this problem, stop the web server by selecting CTRL+C and run the `gulp trust-dev-cert` command.
+   > To fix this problem, stop the web server by selecting Ctrl+C and run the `gulp trust-dev-cert` command.
 
 1. In the code editor, open the *src/extensions/importantCompanyAnnouncements/ImportantCompanyAnnouncementsApplicationCustomizer.manifest.json* file and copy the `id` value. You'll need this value to create the page debug URL to test the local version of the application customizer.
 1. In a web browser, go to the page debug URL at `<Home site URL>/SitePages/home.aspx?debugManifestsFile=https://localhost:4321/temp/manifests.js&loadSPFX=true&customActions={"<id>":{"location":"ClientSideExtension.ApplicationCustomizer","properties":{ }}}`. Replace `<id>` with the value that you copied from the application customizer's manifest.
@@ -171,7 +171,7 @@ To stop testing:
   > [!IMPORTANT]
   > If you don't disable the debug mode and only stop the local web server, the next time you go to the home site, you'll see an error stating that the page can't load manifests from the local web server. To fix that problem, add `?reset=true` to the page URL, which will disable the debug mode.
 
-- To stop the development web server, go back to the terminal and select CTRL+C.
+- To stop the development web server, go back to the terminal and select Ctrl+C.
 
 ## Deploy the application customizer to Viva Connections
 
