@@ -15,13 +15,17 @@ By default, Teams chat, channel, and files data are retained indefinitely. Use T
 
 To create a retention policy:
 
-1. Sign into the [Microsoft 365 compliance center](https://compliance.microsoft.com), from the left navigation, select **Show all** > **Information governance**.
-1. On the **Information governance page**, select the **Retention** tab.
-1. Select **+** to create a new retention policy.
+1. Sign into the [Microsoft 365 compliance center](https://compliance.microsoft.com), from the left navigation, select **Information governance** under **Solutions**..
+1. On the **Information governance** page, select the **Retention policies** tab.
+1. Select **+ New retention policy** to create a new retention policy.
+
+    :::image type="content" source="../media/create-new-retention-policies.png" alt-text="Screenshot of the Microsoft 365 compliance center, showing the information governance page, highlighting the retention policies tab, with the + New retention button highlighted.":::
+
 1. On the **Name your policy** page, enter a **name** and optionally a **description**. Then select **Next**.
-1. On the **Decide if you want to retain content, delete it, or both** page, specify how long you want to retain data, whether it should be deleted after that time, or whether you want to delete content after a certain period. Select **Use advanced retention settings** to specify content that contains specific words or phrases, or sensitive data. Then select Next.
-1. On the **Choose locations** page, make your selections, and then select **Next**.
-1. On the **Review your settings** page, check that your settings are correct, and then select **Create this policy**.
+1. On the **Choose the type of retention policy to create​** page, specify the kind of policy, either **Adaptive** or **Static**, then select **Next**.
+1. On the **Choose locations to apply the policy** page, make your selections, and then select **Next**.
+1. On the **Decide if you want to retain content, delete it, or both** page, select your retention period, and then select **Next**.
+1. On the **Review and finish** page, check that your settings are correct, and then select **Submit**.
 
 ## DLP policies
 
@@ -33,14 +37,17 @@ In Microsoft Teams, you can define policies to prevent people from sharing sensi
 
 To create a new DLP policy using a template:
 
-1. Sign into the [Microsoft 365 compliance center](https://compliance.microsoft.com), from the left navigation, select **Show all** > **Data loss prevention**.
+1. Sign into the [Microsoft 365 compliance center](https://compliance.microsoft.com), from the left navigation, select **Data loss prevention** under **Solutions**.
 1. On the **Data loss prevention** page, select the **Policies** tab.
-1. Select **+** to create a policy.
+1. Select **+ Create policy** to create a policy.
+
+    :::image type="content" source="../media/create-new-data-loss-prevention-policies.png" alt-text="Screenshot of the Microsoft 365 compliance center, showing the data loss prevention page, highlighting the policies tab, with the + create policy button highlighted.":::
+
 1. On the **Start with a template or create custom policy** page, select either a **country or region** to display the available **Categories** and **Templates**. Or select *Search for specific templates*. Then select **Next**.
 1. The DLP wizard steps through the settings on each page, allowing you to make your selections. Select **Next** to move to the next page.
-1. On the **Decide if you want to retain content, delete it, or both** page, specify how long you want to retain data, whether it should be deleted after that time, or whether you want to delete content after a certain period. Select **Use advanced retention settings** to specify content that contains specific words or phrases, or sensitive data. Then select **Next**.
-1. On the **Choose locations** page, make your selections, and then select **Next**.
-1. On the **Review your settings** page, check that your settings are correct, and then select **Create**.
+1. On the **Choose locations to apply the policy** page, make your selections, and then select **Next**.
+1. On the **Test or turn on the policy** page, select either **Test it out first**, **Turn it on right away**, or **Keep it off**.
+1. On the **Review your policy and create it** page, check that your settings are correct, and then select **Submit**.
 
 ## Learn more
 
