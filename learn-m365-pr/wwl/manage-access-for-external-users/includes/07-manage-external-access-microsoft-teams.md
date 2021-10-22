@@ -40,4 +40,4 @@ Make sure the admin in the other Teams organization completes these same steps. 
 
 After the configuration, you can chat with external users using their email address and adding them as a contact. You can verify if federation is working by sending a chat message to an external user via Teams chat and getting a response.
 
-:::image type="content" source="../media/enable-external-access.png" alt-text="Screenshot of external access switch turned On" lightbox="../media/enable-external-access.png":::
+:::image type="content" source="../media/enable-external-access.png" alt-text="Screenshot of external access switch turned On" :::
