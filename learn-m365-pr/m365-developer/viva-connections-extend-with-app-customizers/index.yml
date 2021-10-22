@@ -2,23 +2,23 @@
 uid: learn-m365.viva-connections-extend-with-app-customizers
 metadata:
   title: Extend Microsoft Viva Connections with application customizers
-  description: Learn how to extend Viva Connections with custom application customizers using nothing but your existing web development skills. You'll learn about the scenarios where they're most suitable and how to build them.
+  description: Learn how to extend Viva Connections with custom application customizers by using your existing web development skills. You'll learn about the scenarios where they're most suitable and how to build them.
   ms.date: 10/14/2021
   author: rabwill
   ms.author: rwilliams
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Extend Microsoft Viva Connections with application customizers
-summary: Learn how to extend Viva Connections with custom application customizers using nothing but your existing web development skills. You'll learn about the scenarios where they're most suitable and how to build them.
+summary: Learn how to extend Viva Connections with custom application customizers by using your existing web development skills. You'll learn about the scenarios where they're most suitable and how to build them.
 abstract: |
   By the end of this module, you'll be able to:
-    - Install development tools for building Microsoft Viva Connections extensions.
-    - Extend Microsoft Viva Connections desktop with application customizers.
-    - Deploy and test custom application customizers in Microsoft Viva Connections desktop.
+    - Install development tools for building Viva Connections extensions.
+    - Extend Viva Connections desktop with application customizers.
+    - Deploy and test custom application customizers in Viva Connections desktop.
 prerequisites: |
-  - SharePoint Administrator access to a Microsoft 365 tenant
+  - SharePoint administrator access to a Microsoft 365 tenant
   - Viva Connections enabled in the Microsoft 365 tenant
-  - Ability to develop JavaScript applications using modern web technologies 
+  - Ability to develop JavaScript applications by using modern web technologies 
   - Basic knowledge of TypeScript
   - Code editor or IDE
   - Node.js v14

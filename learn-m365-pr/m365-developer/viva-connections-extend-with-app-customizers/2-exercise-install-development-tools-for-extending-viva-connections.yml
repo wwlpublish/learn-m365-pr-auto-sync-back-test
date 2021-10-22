@@ -3,7 +3,7 @@ uid: learn-m365.viva-connections-extend-with-app-customizers.exercise-install-de
 title: Exercise - Install development tools for extending Viva Connections
 metadata:
   title: Exercise - Install development tools for extending Viva Connections
-  description: In this exercise, you'll install the necessary tools to build Viva Connections extensions. Additionally, you’ll create a SharePoint list with sample data that will be used in other exercises in this module.
+  description: In this exercise, you'll install the necessary tools to build Viva Connections extensions. You'll also create a SharePoint list with sample data that will be used in other exercises in this module.
   ms.date: 10/14/2021
   author: rabwill
   ms.author: rwilliams
