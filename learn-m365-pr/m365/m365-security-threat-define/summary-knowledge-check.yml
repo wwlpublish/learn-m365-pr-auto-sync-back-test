@@ -20,7 +20,7 @@ quiz:
       - content: "A threat is a possible action that exploits a system vulnerability."
         isCorrect: true
         explanation: "Correct! Threats are potential actions by attackers that exploit system vulnerabilities."
-      - content: "A vulnerability is a possible action that uses a system threat."
+      - content: "A vulnerability is a potential weakness that attackers can use to infiltrate your organization."
         isCorrect: false
         explanation: "Incorrect. A vulnerability is a weak point in system security that an attacker can exploit."
       - content: "Threats and vulnerabilities are both tools used by attackers to gain access to systems."
