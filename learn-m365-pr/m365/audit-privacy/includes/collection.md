@@ -25,11 +25,7 @@ The personal data within diagnostic data and service-generated data is mostly in
 
 Customer data and personal data that Microsoft processes on a customer's behalf may be transferred to, and stored and processed in, the United States or any other country in which Microsoft or its subprocessors operate. If a customer wants a deeper understanding by service, it is beneficial to review the Data Protection Addendum.
 
-Microsoft complies with the international data protection laws regarding transfers of customer data across borders.
-
-For example, the EU Model Clauses regulate the transfer of EU customer personal data to countries outside the European Economic Area (EEA). Microsoft EU Standard Contractual Clauses provide specific contractual guarantees around transfers of personal data for covered services that Europe's privacy regulators have determined to meet EU standards for international transfers of data.
-
-The EU Model Clauses also provide a valid mechanism for the transfer of personal data from Switzerland and the United Kingdom.
+Microsoft complies with international data protection laws regarding transfers of customer data across borders. For example, the EU Model Clauses regulate the transfer of EU customer personal data to countries outside the European Economic Area (EEA). Microsoft EU Standard Contractual Clauses provide specific contractual guarantees around transfers of personal data for covered services that Europe's privacy regulators have determined to meet EU standards for international transfers of data. The EU Model Clauses also provide a valid mechanism for the transfer of personal data from Switzerland and the United Kingdom.
 
 
 ## Learn more
