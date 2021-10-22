@@ -61,9 +61,12 @@ The first step is to create a new dashboard. This dashboard will be used by the 
 1. In the **Set up Viva Connections** panel, choose the **Create Dashboard** button
 1. On the dashboard page, choose **Add a card**
 1. From the list of available cards, choose **Web link**
+
    :::image type="content" source="../media/3-add-card.png" alt-text="The Web link button highlighted in web part toolbox":::
+
    For now, let's leave the web link card as-is. You'll use it to confirm that the Viva Connections dashboard is properly working on desktop and mobile.
 1. To save your changes and publish the dashboard, from the toolbar choose **Publish**
+
    :::image type="content" source="../media/3-publish-dashboard.png" alt-text="The Publish button highlighted in the Page menu in SharePoint":::
 
 **Show the dashboard in Viva Connections desktop**
@@ -72,20 +75,31 @@ By default, the dashboard is visible only in the Viva Connections mobile experie
 
 1. In a web browser, navigate to the Home site that you've configured previously
 1. To ensure that you're on the home page of the site, in the top navigation choose **Home**
+
    :::image type="content" source="../media/3-site-menu-home.png" alt-text="The Home link highlighted in the SharePoint site navigation":::
+
 1. From the page toolbar, choose **Edit**
+
    :::image type="content" source="../media/3-page-edit.png" alt-text="The Edit button highlighted in page toolbar":::
+
 1. In edit mode, choose the first **Add a new section button** and from the list of sections, select **Vertical section**
+
    :::image type="content" source="../media/3-add-section.png" alt-text="The Add vertical section button highlighted in the section layout option":::
+
    > [!TIP]
    > Tip: If you don't see the section, expand your browser window. SharePoint pages use responsive layout and if the browser window is too narrow, some elements on the page will be displayed differently.
+
 1. To add the dashboard to the page, open the web part toolbox using the **+** (plus) icon
 1. In the toolbox, to filter the list of available web parts, search for `dashboard`
 1. From the list of web parts, select **Dashboard for Viva Connections**
+
    :::image type="content" source="../media/3-dashboard-web-part.png" alt-text="The Dashboard for Viva Connections web part highlighted in the web part toolbox":::
+
    > [!TIP]
    > Tip: After creating the dashboard, it can take a few minutes before it will show in the dashboard web part. After the setup completes, you'll see all changes instantly.
+
 1. To save the changes, from the page toolbar choose **Republish**
+
    :::image type="content" source="../media/3-republish-home-page.png" alt-text="The Republish button highlighted in the page toolbar":::
 
 ## Install the Viva Connections Teams app
@@ -108,17 +122,22 @@ Before you enable the Viva Connections app in your Microsoft 365 tenant, you can
 
 1. From the side navigation, expand the **Teams apps** section, and select **Manage apps**
 1. In the list of apps, search for `Viva Connections`
+
    :::image type="content" source="../media/3-teams-manage-apps.png" alt-text="Screenshot of the Teams Admin center manage apps screen with the Viva Connections app highlighted":::
+
 1. Select the **Viva Connections** app
 1. Next to the information about the app, select **Actions > Customize**
 1. Customize the app's information:
    1. **Short name:** Contoso
    1. **Short description:** Stay engaged with Contoso
+
    > [!NOTE]
    > While you've just changed the display name of the Viva Connections app to *Contoso* to match your organization's branding, in this module we'll keep referring to the app as *Viva Connections*.
+
 1. To confirm the changes, choose **Apply**
 1. To confirm that you want to publish the changes to the app, choose **Publish**
 1. Verify that the app status is set to **Allowed**. If it's not, select the **Allow** button
+
    :::image type="content" source="../media/3-viva-connections-app-status.png" alt-text="Screenshot of the Viva Connections app summary in Microsoft Teams admin center":::
 
 **Install Viva Connections for all users**
@@ -131,6 +150,7 @@ The easiest way to enable Viva Connections in your Microsoft 365 tenant is to in
 1. In the **Add installed apps** pane, search for `Contoso`
 1. To select **Viva Connections**, choose **Add**
 1. To confirm the installation, choose **Add** at the bottom of the pane
+
    :::image type="content" source="../media/3-installed-apps.png" alt-text="The Viva Connections app listed in the overview of installed Microsoft Teams apps":::
 
 **Pin Viva Connections**
@@ -142,7 +162,9 @@ Users can install many different apps in Microsoft Teams. To help them quickly a
 1. To select the app, choose **Add**
 1. To confirm pinning the app, choose **Add** at the bottom of the pane
 1. In the list of pinned apps, select **Viva Connections**, and from the toolbar choose **Move up** to move the app to the top of the list
+
    :::image type="content" source="../media/3-pinned-apps.png" alt-text="The Viva Connections apps listed under pinned Microsoft Teams apps":::
+
 1. To confirm your changes, choose **Save**
 
 **Preview Viva Connections desktop**
@@ -152,7 +174,9 @@ Let's verify that Viva Connections desktop is correctly configured.
 1. In a web browser, to open Microsoft Teams navigate to [https://teams.microsoft.com](https://teams.microsoft.com)
 1. In the left rail, you should see the **Contoso** app pinned on top
 1. Open the **Contoso** app. You should see the Home site open in Microsoft Teams
+
    :::image type="content" source="../media/3-viva-connections-pinned.png" alt-text="Viva Connections app pinned in Microsoft Teams":::
+
    > [!TIP]
    > If you don't see the Contoso app pinned, it's likely because the changes you've just applied are still being propagated. You can try to refresh the changes by signing out from Microsoft Teams and signing in again. If you still won't see the Contoso app, wait a few hours for the changes to be applied.
 
@@ -162,4 +186,5 @@ To complete the configuration, let's verify that Viva Connections mobile is work
 
 1. On your mobile device, open Microsoft Teams and sign in as a user in your Microsoft 365 tenant
 1. On the bottom, from the list of apps, choose **Contoso**. You should see the Viva Connections dashboard that you've configured previously.
+
    :::image type="content" source="../media/3-viva-connections-mobile.png" alt-text="Viva Connections dashboard displayed on a mobile device":::
