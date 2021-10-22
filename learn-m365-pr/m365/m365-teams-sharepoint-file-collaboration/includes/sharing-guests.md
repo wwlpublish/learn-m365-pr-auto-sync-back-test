@@ -1,6 +1,4 @@
-In a collaborative environment, users often need to share documents and data with people outside your company, such as customers and partners.
-
-Suppose you want to ensure that, when required, your users can share information externally, to promote close collaboration with partners and communication with clients.
+In a collaborative environment, users often need to share documents and data with people outside your company, such as customers and partners. Suppose you want to ensure that, when required, your users can share information externally, to promote close collaboration with partners and communication with clients.
 
 Here, you'll learn how SharePoint's external sharing features work.
 
