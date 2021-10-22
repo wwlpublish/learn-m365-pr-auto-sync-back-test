@@ -12,5 +12,6 @@ The recommended approach is to use the unbounded model, deploying a single Excha
 
 ## Learn more
 
+- [Namespace Planning in Exchange 2016](https://techcommunity.microsoft.com/t5/exchange-team-blog/namespace-planning-in-exchange-2016/ba-p/604072)
 - [Exchange Management Shell namespaces](/exchange/client-developer/management/exchange-management-shell-namespaces)
 - [Switchovers and failovers](/Exchange/high-availability/manage-ha/switchovers-and-failovers)
