@@ -124,7 +124,6 @@ After you created the project, the next step is to extend the application custom
 
    ```typescript
    import styles from './ImportantCompanyAnnouncementsApplicationCustomizer.module.scss';
-   import * as strings from 'ImportantCompanyAnnouncementsApplicationCustomizerStrings';
    ```
 
 ## Test the application customizer on a page
@@ -140,7 +139,7 @@ To build and preview our important announcement application customizer:
    >
    > it means that the local web server couldn't load your development certificate. To fix this issue, stop the web server by pressing `CTRL+C` and execute the `gulp trust-dev-cert` command.
 1. In the code editor, open the **src/extensions/importantCompanyAnnouncements/ImportantCompanyAnnouncementsApplicationCustomizer.manifest.json** file and copy the **id** which you'll need to create the page debug URL to test the local version of the application customizer.
-1. In a web browser, go to the page debug URL at `<Home site URL>/SitePages/home.aspx?debugManifestsFile=https://localhost:4321/temp/manifests.js&loadSPFX=true&customActions={"<id>":{"location":"ClientSideExtension.ApplicationCustomizer","properties":{ }}}`. Replace the `id` with the value you copied from the application customizer's manifest.
+1. In a web browser, go to the page debug URL at `<Home site URL>/SitePages/home.aspx?debugManifestsFile=https://localhost:4321/temp/manifests.js&loadSPFX=true&customActions={"id":{"location":"ClientSideExtension.ApplicationCustomizer","properties":{ }}}`. Replace the `id` with the value you copied from the application customizer's manifest.
    > [!TIP]
    > The Home site URL is the URL of the SharePoint site where you have created the **Announcements** list in the previous exercise.
 1. When prompted, select the **Load debug scripts** button to continue loading the application customizer.
