@@ -1,6 +1,4 @@
-SharePoint team sites are often used to store sensitive data, such as personal information about your customers, or business critical data. For many sites, you need to control who can access the information carefully.
-
-Suppose you're setting up a collaboration environment using SharePoint. You want to understand how you will control access to each team, so that authorized personnel can do their jobs, but data is secured.
+SharePoint team sites are often used to store sensitive data, such as personal information about your customers, or business critical data. For many sites, you need to control who can access the information carefully. Suppose you're setting up a collaboration environment using SharePoint. You want to understand how you will control access to each team, so that authorized personnel can do their jobs, but data is secured.
 
 Here, you see how to use groups to help assign access.
 
