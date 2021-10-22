@@ -1,6 +1,6 @@
 A virtual directory is used to allow access to a web application such as Exchange ActiveSync, Outlook on the web, or the Autodiscover service.
 
-You can configure virtual directories using the Exchange admin center or the Exchange Management Shell. If you use the Shell to view the properties of an Outlook on the web virtual directory, be aware that the information returned is a subset of the information that's available.
+You can configure virtual directories using the Exchange admin center or the Exchange Management Shell. If you use the Exchange Management Shell to view the properties of an Outlook on the web virtual directory, be aware that the information returned is a subset of the information that's available.
 
 To view or configure Outlook on the web virtual directory properties with the Exchange admin center, click **Servers**, and then click **Virtual Directories**. Some settings, such as the **Internal URL** for the website, can be configured, but some settings, such as Outlook Web App version, are read-only and are for information only.
 
@@ -13,4 +13,4 @@ To view or configure Outlook on the web virtual directory properties with PowerS
 ## Learn more
 
 - [View or configure Outlook on the web virtual directories in Exchange Server](/exchange/clients/outlook-on-the-web/virtual-directories?azure-portal=true)
-- [PowerShell Reference Library](/powershell/windows/get-started?azure-portal=true)
+- [Windows PowerShell Reference Library](/powershell/windows/get-started?azure-portal=true)
