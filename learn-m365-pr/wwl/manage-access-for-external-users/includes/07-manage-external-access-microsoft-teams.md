@@ -4,11 +4,11 @@ Configuring external access for organizations includes:
 
 - **Allow all external domains**: This is the default setting in Teams, and it lets people in your organization find, call, chat, and set up meetings with people external to your organization in any domain.
 
-    In this scenario, your users can communicate with all external domains that are running Teams or Skype for Business or are allowing all external domains or have added your domain to their allow list.
+    In this scenario, your users can communicate with all external domains that are running Teams or Skype for Business or are allowing all external domains or have added your domain to their allow domains list.
 
-- **Allow only specific external domains**: By adding domains to an **Allow** list, you limit external access to only the allowed domains. Once you set up a list of allowed domains, all other domains will be blocked. 
+- **Allow only specific external domains**: By adding domains to an **Allow domains** list, you limit external access to only the allowed domains. Once you set up a list of allowed domains, all other domains will be blocked. 
 
-- **Block specific domains** - By adding domains to a **Block** list, you can communicate with all external domains *except* the ones you've blocked. 
+- **Block specific domains** - By adding domains to a **Block domains** list, you can communicate with all external domains *except* the ones you've blocked. 
 
 - **Block all external domains** - Prevents people in your organization from finding, calling, chatting, and setting up meetings with people external to your organization in any domain.
 
