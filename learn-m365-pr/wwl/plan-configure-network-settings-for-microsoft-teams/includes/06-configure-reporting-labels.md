@@ -39,7 +39,7 @@ This following table is an example, which you can follow in order to create your
 
 1. Sign in to **Teams admin center**.
 
-2. Select **Locations** > **Reporting labels**.
+2. Select **Analytics & reports** > **Reporting labels**.
 
 3. On the **Reporting labels** page, select **Upload**.
 
