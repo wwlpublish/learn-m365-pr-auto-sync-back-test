@@ -4,7 +4,7 @@ The organization-level settings determine what settings are available for indivi
 
 If you want to allow file and folder sharing with unauthenticated people, choose **Anyone**. If you want to ensure that all guests have to authenticate, choose **New and existing guests**. Choose the most permissive setting that will be needed by any site in your organization.
 
-You can go to **SharePoint admin center** > **Sharing** to configure the file sharing experience.
+You can go to **SharePoint admin center** > **Policies** > **Sharing** to configure the file sharing experience.
 
 :::image type="content" source="../media/manage-sharing-sharepoint.png" alt-text="Screenshot of external sharing setting in SharePoint admin center" :::
 

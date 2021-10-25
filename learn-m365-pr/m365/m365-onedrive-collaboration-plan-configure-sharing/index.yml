@@ -30,6 +30,7 @@ products:
 - m365
 - office-365
 units:
+- learn-m365.m365-onedrive-collaboration-plan-configure-sharing.introduction
 - learn-m365.m365-onedrive-collaboration-plan-configure-sharing.configure-sharing
 - learn-m365.m365-onedrive-collaboration-plan-configure-sharing.advanced-settings
 - learn-m365.m365-onedrive-collaboration-plan-configure-sharing.file-folder-links

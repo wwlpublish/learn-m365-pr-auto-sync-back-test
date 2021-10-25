@@ -21,7 +21,7 @@ The following are steps to see the Microsoft Teams reports in Microsoft 365 admi
 
 1. In the Microsoft 365 admin center, select **Reports** > **Usage**.
 
-2. On the **Usage** page, choose **Select a report**, and then under **Microsoft Teams** in the list of reports, choose the report you want to view.  
+2. From the dashboard homepage, select the **View more** button on the Microsoft Teams activity card.
 
 There are currently two activity reports you can view:
 

@@ -1,8 +1,8 @@
 ## Display to owners the names of people who viewed their files
 
-This setting lets you control whether the owner of a shared file can see on the file card the people who have viewed (and don't edit) the file. The info includes the total number of views of the file, the number of people who viewed it, and the list of people who viewed it.
+This setting lets you control whether the owner of a shared file can see on the file card the people who have viewed the file. The information includes the total number of views of the file, the number of people who viewed it, and the list of people who viewed it.
 
- ![This setting lets you control whether the owner of a shared file can see on the file card the people who have viewed and don't edit the file](../media/other-settings.png)
+:::image type="content" source="../media/other-settings.png" alt-text="Screen shot showing the options owners can choose to see about people viewing their files.":::
 
 ## Learn more
 
