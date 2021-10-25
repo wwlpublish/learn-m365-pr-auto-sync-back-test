@@ -15,20 +15,23 @@ content: |
 quiz:
     title: Check your knowledge
     questions:
-    - content: "The Microsoft Defender for Endpoint agent should be deployed to all Windows 10 devices in your organization."
+    - content: "What is required to deploy Microsoft Defender for Endpoint to Windows 10 devices in your organization?"
       choices:
-      - content: "True"
-        isCorrect: false
-        explanation: "Incorrect. Microsoft Defender for Endpoint behavioral sensors are embedded in Windows 10."
-      - content: "False"
+      - content: "Subscription to the Microsoft Defender for Endpoint online service."
         isCorrect: true
-        explanation: "Correct! Microsoft Defender for Office 365 behavioral sensors are embedded in Windows 10."
+        explanation: "Correct! To deploy Microsoft Defender for Endpoint you require a subscription to the Microsoft Defender for Endpoint online service."
+      - content: "No action is required. Microsoft Defender for Endpoint is included in the Windows 10 operating system."
+        isCorrect: false
+        explanation: "Incorrect. To deploy Microsoft Defender for Endpoint you require a subscription to the service, as well as configuring the service."
+      - content: "License for Microsoft Intune."
+        isCorrect: false
+        explanation: "Incorrect. Microsoft Defender for Endpoint can be deployed using Microsoft Intune, but a license for Microsoft Intune is not a sufficient for using Microsoft Defender for Endpoint."
   
     - content: "Which of the following choices describes threat hunting using Microsoft Defender for Endpoint?"
       choices:
       - content: "You can proactively inspect events in your network using a powerful search and query tool."
         isCorrect: true
-        explanation: "Correct! Microsoft Defender for Endpoint advanced threat hunting is built on top of a query language that gives you flexibility."
+        explanation: "Correct! Microsoft Defender for Endpoint event inspection is built on top of a query language that gives you flexibility."
       - content: "Detecting and blocking apps that are considered unsafe but may not be detected as malware."
         isCorrect: false
         explanation: "Incorrect. This is an explanation of advanced protection provided by Windows Defender Antivirus."
