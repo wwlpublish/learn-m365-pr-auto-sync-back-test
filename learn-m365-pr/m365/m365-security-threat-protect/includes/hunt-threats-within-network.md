@@ -16,7 +16,7 @@ In the code above, the following filters have been applied:
 
 Advanced hunting is based on the Kusto query language. The following operators are allowed:
 
-- **where**. Filter a table to the subset of rows that satisfy a predicate.
+- `where`. Filter a table to the subset of rows that satisfy a predicate.
 - **summarize**. Produce a table that aggregates the content of the input table.
 - **join** Merge the rows of two tables to form a new table by matching values of the specified column(s) from each table.
 - **count**. Return the number of records in the input record set.
