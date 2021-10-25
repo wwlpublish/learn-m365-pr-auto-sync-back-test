@@ -49,4 +49,4 @@ This following table is an example, which you can follow in order to create your
 
 Once the file is uploaded successfully, you can see the update in the locations summary pane.
 
-:::image type="content" source="../media/configure-reporting-labels.png" alt-text="Configuration of reporting labels" lightbox="../media/configure-reporting-labels.png":::
+:::image type="content" source="../media/configure-reporting-labels.png" alt-text="Configuration of reporting labels" :::
