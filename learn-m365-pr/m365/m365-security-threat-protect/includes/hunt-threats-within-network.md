@@ -24,7 +24,7 @@ Advanced hunting is based on the Kusto query language. The following operators a
 - **limit**. Return up to the specified number of rows.
 - **project**. Select the columns to include, rename or drop, and insert new computed columns.
 - **extend**. Create calculated columns and append them to the result set.
-- **makeset()**. Return a dynamic (JSON) array of the set of distinct values that Expr takes in the group.
+- `makeset()`. Return a dynamic (JSON) array of the set of distinct values that Expr takes in the group.
 - **find**. Find rows that match a predicate across a set of tables.
 
 
