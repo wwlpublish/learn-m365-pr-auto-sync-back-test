@@ -25,7 +25,7 @@ quiz:
         explanation: "That's correct. A sharable link is created which has permissions to access the file. The person can then follow that link to access the file."
       - content: "The file is automatically emailed as an attachment to the person."
         isCorrect: false
-        explanation: "That's incorrect. It is possible to add a SharePoint file as an attachment, but this doesn't happen automatically."
+        explanation: "That's incorrect. It is possible to add a SharePoint file as an attachment or send the shareable link in an email, but this doesn't happen automatically."
 
     - content: "Which of the following statements is true?"
       choices:
