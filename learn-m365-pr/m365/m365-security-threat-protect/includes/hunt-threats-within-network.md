@@ -4,7 +4,7 @@ Advanced hunting within Microsoft Defender for Endpoint allows you to hunt for p
 
 You can use threat-hunting queries to build custom detection rules. These rules run automatically to check for and respond to various events and system states, including suspected breach activity and misconfigured machines.
 
-To perform a sample threat-hunting query, in the [Microsoft 365 Defender portal](https://security.microsoft.com), select **Hunting** and select **Advanced Hunting**. In the query field, type the following example and select Run query:
+To perform a sample threat-hunting query, in the [Microsoft 365 Defender portal](https://security.microsoft.com), select **Hunting** and then select **Advanced Hunting**. In the query field, type the following example and select Run query:
 
 ![Use threat hunting queries](../media/threat-hunting-query.png)
 
