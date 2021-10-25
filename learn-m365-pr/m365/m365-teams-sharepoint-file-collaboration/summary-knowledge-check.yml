@@ -19,7 +19,7 @@ quiz:
       choices:
       - content: "That person is given direct access to the file."
         isCorrect: false
-        explanation: "That's incorrect. Direct access is never given to files."
+        explanation: "That's incorrect. Direct access is never given to files. The shareable link _permits_ access to files."
       - content: "A sharable link is created which has permission to access the file."
         isCorrect: true
         explanation: "That's correct. A sharable link is created which has permissions to access the file. The person can then follow that link to access the file."
