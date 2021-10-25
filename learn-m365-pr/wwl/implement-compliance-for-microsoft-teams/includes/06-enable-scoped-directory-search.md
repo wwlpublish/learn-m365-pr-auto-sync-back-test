@@ -18,7 +18,7 @@ Address book policies provide only a virtual separation of users from directory 
 
 1. Sign in to the Teams Admin center.
 
-2. Navigate to **Org-wide settings** > **Teams settings**.
+2. Navigate to **Teams** > **Teams settings**.
 
 3. Scroll down to **Search by name** and turn the slider behind **Scope directory search using an Exchange address book policy** to **On**.
 

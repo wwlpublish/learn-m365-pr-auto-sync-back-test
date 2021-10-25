@@ -26,8 +26,8 @@ The Teams administrator should complete the following steps to create a Live eve
 3. In the **Live event policies \ Add** window, enter a name for your policy and optionally enter a description.
 4. Customize the following settings according to your preferences for this new policy:
 
-	- **Allow scheduling** - Select the toggle to turn this option **On** or **Off**.
-	- **Allow transcription for attendees** - Select the toggle to turn this option **On** or **Off**.
+	- **Live events scheduling** - Select the toggle to turn this option **On** or **Off**.
+	- **Transcription for attendees** - Select the toggle to turn this option **On** or **Off**.
 	- **Who can join scheduled Live events** - Choose from **Everyone**, **Everyone in the organization**, and **Specific users or groups**.
 	- **Who can record an event** - Choose from **Always record**, **Never record,** and **Organizer can record**.
 
@@ -37,8 +37,8 @@ The Teams administrator should complete the following steps to create a Live eve
 
 Once a custom Live events policy is created, it must be assigned to users in order for the policy to become active. Complete the following steps in the Microsoft Teams admin center to assign the policy:
 
-1. In the **Microsoft Teams admin center**, in the left-hand navigation pane, select **Users**.
-2. In the **Users** window, select the user(s) who will be assigned the policy (select the check mark to the left of each user's Display name; don't select on the Display name itself).
+1. In the **Microsoft Teams admin center**, in the left-hand navigation pane, select **Users** > **Manage users**.
+2. In the **Manage users** window, select the user(s) who will be assigned the policy (select the check mark to the left of each user's Display name; don't select on the Display name itself).
 3. After selecting all the required users, select **Edit settings** on the menu bar.
 4. In the **Edit settings** pane that appears, select the drop-down arrow for the **Live events policy** field. In the menu that appears, select the policy that will be applied to the selected users.
 5. Select **Apply**.

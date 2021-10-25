@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.m365-onedrive-collaboration-plan-configure-sharing.introduction
+title: Introduction
+metadata:
+  title: Introduction
+  description: Learn what you as an administrator need to know for planning and configuring external sharing in OneDrive.
+  ms.date: 07/14/2021
+  author: temanteleary
+  ms.author: teleary
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 1
+content: |
+  [!include[](includes/introduction.md)]
