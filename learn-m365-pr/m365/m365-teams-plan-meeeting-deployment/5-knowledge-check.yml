@@ -36,7 +36,7 @@ quiz:
       isCorrect: false
       explanation: "That's incorrect. Meetings are saved in the cloud, depending on what kind of call is recorded."
     - content: Microsoft OneDrive for Business
-      isCorrect: false
+      isCorrect: true
       explanation: "That's correct. If 1:1 calls have been enabled OneDrive for Business is used to store recordings."
   
   - content: "Which type of PC can you add Microsoft Teams Rooms peripherals to?"
