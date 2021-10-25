@@ -30,14 +30,14 @@ quiz:
     - content: "What is the maximum number of users who can attend a Microsoft Teams audio conference?"
       choices:
       - content: "250"
-        isCorrect: true
-        explanation: "The maximum number of users who can attend an audio conference is 250."
-      - content: "1,000"
         isCorrect: false
-        explanation: "The maximum number of users who can attend an audio conference is 250. Microsoft Teams live events can accommodate thousands of users."
+        explanation: "The maximum number of users who can attend an audio conference is 1000."
+      - content: "1,000"
+        isCorrect: true
+        explanation: "The maximum number of users who can attend an audio conference is 1000. Microsoft Teams live events can accommodate thousands of users."
       - content: "Unlimited"
         isCorrect: false
-        explanation: "The maximum number of users who can attend an audio conference is 250."
+        explanation: "The maximum number of users who can attend an audio conference is 1000."
       
     - content: "The two tools available to monitor call quality are:"
       choices:

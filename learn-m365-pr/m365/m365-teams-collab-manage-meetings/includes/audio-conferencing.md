@@ -1,6 +1,6 @@
-Audio Conferencing is the ability to join a Teams meeting from a regular phone and call out from a meeting to a phone number, allowing users to call in to meetings when they can't use a Teams client. Up to 250 attendees can attend a Teams audio conference.
+Audio Conferencing is the ability to join a Teams meeting from a regular phone and call out from a meeting to a phone number, allowing users to call in to meetings when they can't use a Teams client. Up to 1000 attendees can attend a Teams audio conference.
 
-Calling in (also known as dialing in) to meetings is useful for users who are on the road and can't attend a meeting using the Microsoft Teams app on their laptops or mobile devices. There are additional scenarios in which using a phone to attend a Microsoft Teams meeting can be a better option than using an app on a computer:
+Calling in (also known as dialing in) to meetings is very useful for users who are on the road and can't attend a meeting using the Microsoft Teams app on their laptops or mobile devices. There are additional scenarios in which using a phone to attend a Microsoft Teams meeting can be a better option than using an app on a computer:
 
 - When internet connectivity is limited
 - When a meeting is audio only
@@ -70,6 +70,6 @@ Click [Configure Audio Conferencing for Teams](https://aka.ms/AudioConferencingI
 
 When you're done with a link, use the **Back** arrow in your browser to come back to this page.
 
-- [Audio Conferencing in Microsoft Teams](/MicrosoftTeams/deploy-audio-conferencing-teams-landing-page)
+- [Learn how to deploy audio conferencing in Microsoft Teams](/MicrosoftTeams/deploy-audio-conferencing-teams-landing-page)
 - [Audio Conferencing common questions](/MicrosoftTeams/audio-conferencing-common-questions)
 - [Country and region availability for Audio Conferencing and Calling Plans](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)
