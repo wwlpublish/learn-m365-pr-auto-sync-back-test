@@ -31,7 +31,7 @@ quiz:
       choices:
       - content: "You can proactively inspect events in your network using a powerful search and query tool."
         isCorrect: true
-        explanation: "Correct! Microsoft Defender for Endpoint event inspection is built on top of a query language that gives you flexibility."
+        explanation: "Correct! Microsoft Defender for Endpoint advanced threat hunting is a powerful search and query tool built on top of a query language that gives you flexibility."
       - content: "Detecting and blocking apps that are considered unsafe but may not be detected as malware."
         isCorrect: false
         explanation: "Incorrect. This is an explanation of advanced protection provided by Windows Defender Antivirus."
