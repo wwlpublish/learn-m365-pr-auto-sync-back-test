@@ -29,4 +29,6 @@ Because guests do not have a license in your organization, they are limited to b
 If your authenticated guests need greater capability such as OneDrive storage or creating a Microsoft Flow, you must assign them an appropriate license.
 ## Learn more
 
+When you're done with a link, use the **Back** arrow in your browser to come back to this page.
+
 - [External sharing overview](/sharepoint/external-sharing-overview)
