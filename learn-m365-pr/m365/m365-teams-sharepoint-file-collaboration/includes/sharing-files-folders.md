@@ -37,3 +37,6 @@ A **Specific people** link is a non-transferable, revocable secret key. Unlike *
 - You can restrict **Anyone** links to *read-only.* 
 - You can set an expiration time limit, after which the link will stop working.
 - You can configure a different link type to be displayed to the user by default. This can help minimize the chances of inappropriate sharing. For example, if you want to allow **Anyone** links but are concerned that they only be used for specific purposes, you can set the default link type to **Specific people** or **People in your organization** links instead of **Anyone** links. Users would then have to explicitly select **Anyone** links when they share a file or folder.
+## Learn more
+
+- [File collaboration in SharePoint with Microsoft 365](/sharepoint/deploy-file-collaboration)

@@ -33,5 +33,6 @@ When users share files or folders, guests will be asked to enter a verification 
 ## Stopping sharing
 
 You can stop sharing with guests by removing their permissions from the shared item, or by removing them as a guest in your directory. You can stop sharing with people who have an **Anyone** link by going to the file or folder that you shared and deleting the link.
+## Learn more
 
-
+- [External sharing overview](/sharepoint/external-sharing-overview)
