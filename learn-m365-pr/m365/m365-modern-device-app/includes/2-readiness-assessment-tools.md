@@ -8,7 +8,7 @@ Microsoft provides several readiness assessment tools that will streamline your 
 
 **Desktop Analytics** is a powerful inventory tool that uses an agent-less process to inventory the computers, applications, and Office add-ins across your desktop estate. It's our recommended tool for assessing your organization's readiness.
 
-:::image type="content" source="../media/desktop-analytics-portal-home.png" alt-text="Screenshot of the Microsoft Endpoint Manager admin center, showing Desktop Analytics.":::
+:::image type="content" source="../media/desktop-analytics-portal-home.png" alt-text="Screenshot of the Microsoft Endpoint Manager admin center, showing Desktop Analytics." lightbox="../media/desktop-analytics-portal-home.png":::
 
 Once Upgrade Readiness is running, you can then enroll any Internet-connected Windows 7 SP1 or newer device via Group Policy settings to start collecting diagnostic data. The tool's visual workflow guides you from pilot to production deployment. If you wish, you can export data to software deployment tools such as Configuration Manager to target PCs directly and build device collections as they become ready for deployment.
 
