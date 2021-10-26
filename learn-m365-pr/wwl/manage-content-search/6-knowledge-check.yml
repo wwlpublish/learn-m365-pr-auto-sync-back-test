@@ -28,7 +28,7 @@ quiz:
     - content: "Clone their content searches into multiple, smaller searches"
       isCorrect: true
       explanation: "That's correct. Although enhanced by scalability and performance improvements, searching a large number of mailboxes or SharePoint sites when using Content Search may still take a while to complete. Cloning a Content Search can be used to break up a large, single search into multiple, smaller searches that run more quickly."
-  - content: "As the Messaging administrator for Tailspin Toys, Alan Deyoung wants to use Content Search to find and remove high-risk email that contain sensitive data. Alan has created and refined a Content Search that returns these messages. What's the next step that Alan must complete?"
+  - content: "As the Messaging administrator for Tailspin Toys, Alan Deyoung wants to use Content Search to find and remove high-risk email that contains sensitive data. Alan has created and refined a Content Search that returns these messages. What's the next step that Alan must complete?"
     choices:
     - content: "Delete the returned messages using the Microsoft 365 Defender portal"
       isCorrect: false

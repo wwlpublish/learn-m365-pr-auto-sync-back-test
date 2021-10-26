@@ -21,10 +21,10 @@ quiz:
     choices:
     - content: "Compliance Data Administrator"
       isCorrect: false
-      explanation: "That's incorrect. This role group doesn't provides permissions to run searches and to preview and export search results in the Content Search page. Try again."
+      explanation: "That's incorrect. This role group doesn't provide permissions to run searches and to preview and export search results in the Content Search page. Try again."
     - content: "Compliance Administrator"
       isCorrect: false
-      explanation: "That's incorrect. This role group doesn't provides permissions to run searches and to preview and export search results in the Content Search page. Try again."
+      explanation: "That's incorrect. This role group doesn't provide permissions to run searches and to preview and export search results in the Content Search page. Try again."
     - content: "eDiscovery Manager"
       isCorrect: true
       explanation: "That's correct. You must be a member of the eDiscovery Manager role group in the Microsoft 365 Defender portal to run searches and to preview and export search results in the Content Search page. You don't have to assign other search permissions in Exchange Online."

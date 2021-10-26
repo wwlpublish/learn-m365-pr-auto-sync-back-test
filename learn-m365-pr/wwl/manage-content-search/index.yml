@@ -9,7 +9,7 @@ metadata:
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Manage Content Search
-summary: Examines how Microsoft 365 uses in-place eDiscovery to perform various compliance searches across an organization, including content searches, eDiscovery cases, and advanced eDiscovery.
+summary: Examines how Microsoft 365 uses in-place eDiscovery to run various types of compliance searches across an organization, including content searches, eDiscovery cases, and advanced eDiscovery.
 abstract: |
   By the end of this module, you'll be able to:
   - Design content searches to search for messages in your organization.
