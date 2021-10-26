@@ -9,7 +9,7 @@ metadata:
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Manage Exchange Online archiving and auditing
-summary: Examines how archiving is performed within Exchange, how archive storage is provided to users, how messages are automatically processed and archived, and how audit logging provides information about user actions in Exchange mailboxes.
+summary: Examines how archiving is maintained within Exchange, how archive storage is provided to users, how messages are automatically processed and archived, and how audit logging provides information about user actions in Exchange mailboxes.
 abstract: |
   By the end of this module, you'll be able to:
   - Describe what in-place archiving is and how it works.
