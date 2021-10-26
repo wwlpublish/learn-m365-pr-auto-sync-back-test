@@ -17,15 +17,15 @@ In the code above, the following filters have been applied:
 Advanced hunting is based on the Kusto query language. The following operators are allowed:
 
 - `where`. Filter a table to the subset of rows that satisfy a predicate.
-- **summarize**. Produce a table that aggregates the content of the input table.
-- **join** Merge the rows of two tables to form a new table by matching values of the specified column(s) from each table.
-- **count**. Return the number of records in the input record set.
-- **top**. Return the first N records sorted by the specified columns.
-- **limit**. Return up to the specified number of rows.
-- **project**. Select the columns to include, rename or drop, and insert new computed columns.
-- **extend**. Create calculated columns and append them to the result set.
+- `summarize`. Produce a table that aggregates the content of the input table.
+- `join` Merge the rows of two tables to form a new table by matching values of the specified column(s) from each table.
+- `count`. Return the number of records in the input record set.
+- `top`. Return the first N records sorted by the specified columns.
+- `limit`. Return up to the specified number of rows.
+- `project`. Select the columns to include, rename or drop, and insert new computed columns.
+- `extend`. Create calculated columns and append them to the result set.
 - `makeset()`. Return a dynamic (JSON) array of the set of distinct values that Expr takes in the group.
-- **find**. Find rows that match a predicate across a set of tables.
+- `find`. Find rows that match a predicate across a set of tables.
 
 
 ### Best practices
