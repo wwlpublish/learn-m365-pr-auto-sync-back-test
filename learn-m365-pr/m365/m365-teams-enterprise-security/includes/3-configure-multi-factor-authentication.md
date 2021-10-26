@@ -8,24 +8,24 @@ Here, you'll learn how to require extra credentials during authentication that m
 
 Multifactor authentication (MFA) is the process of prompting a user for an additional form of identification during sign-in. They might be asked to enter a code on their cell phone or to provide a fingerprint scan. MFA dramatically decreases the chances of user accounts being compromised. Requiring MFA for all users will significantly improve identity security for your organization.
 
-MFA for Microsoft Teams is enabled by setting conditional access policies. You can define conditional access policies for the apps that provide Teams with its functionality, such as Exchange Online and SharePoint. You can also configure conditional access policies separately for Microsoft Teams.
+MFA for Microsoft Teams is enabled by setting Conditional Access policies. You can define Conditional Access policies for the apps that provide Teams with its functionality, such as Exchange Online and SharePoint. You can also configure Conditional Access policies separately for Microsoft Teams.
 
-There are different ways you can define conditional access policies:
+There are different ways you can define Conditional Access policies:
 
 - Always require MFA.
 - Allow regular sign-in events when the user is on the corporate network or a registered device, but prompt for additional verification factors when remote or on a personal device.
 
 Microsoft Teams desktop clients for Windows and Mac support modern authentication.
 
-:::image type="content" border="false" source="../media/4-conditional-access.png" alt-text="Conditional access and MFA":::
+:::image type="content" border="false" source="../media/4-conditional-access.png" alt-text="Conditional Access and MFA":::
 
-When a user signs into Microsoft Teams, whatever conditional access policies are set will be applied. Be aware, however, that if a conditional access policy is set for Teams, but not Exchange Online or SharePoint Online, users will still be able to access those resources directly.
+When a user signs into Microsoft Teams, whatever Conditional Access policies are set will be applied. Be aware, however, that if a Conditional Access policy is set for Teams, but not Exchange Online or SharePoint Online, users will still be able to access those resources directly.
 
 ## Configure MFA
 
 To require all users to sign in with MFA:
 
-1. Sign into the **Azure portal** with global administrator, security administrator, or conditional access administrator permissions.
+1. Sign into the **Azure portal** with global administrator, security administrator, or Conditional Access administrator permissions.
 1. Select **Azure Active Directory** > **Security** > **Conditional Access** and then select **New policy**.
 1. Enter a meaningful **name** for the policy and then, under **Assignments**, select **Users and groups**.
 1. Under **Include**, select **All users**. Then under **Exclude**, select **Users and groups**, and choose your organization's emergency access or break-glass accounts. Emergency access or break-glass accounts prevent tenant-wide account lockout. You can log in with the emergency-access administrative account to take steps to recover access.
@@ -37,13 +37,13 @@ To require all users to sign in with MFA:
 
 ## Test MFA
 
-The Conditional Access What If Tool allows you to test that MFA is working correctly. Use the What If tool in conditional access to understand why a policy was or was not applied to a user in a specific circumstance or known state.
+The Conditional Access What If Tool allows you to test that MFA is working correctly. Use the What If tool in Conditional Access to understand why a policy was or was not applied to a user in a specific circumstance or known state.
 
 The What If tool is located in the **Azure portal** > **Azure Active Directory** > **Security** > **Conditional Access** > **What If**.
 
 The **What If** tool requires only **User** privileges to work, but you can narrow the scope with additional information. For example by **IP address**, **Country/Region**, or **Device platform**.
 
-Input the criteria and select **What If** to generate a list of results. The tool will show which conditional access policies would apply for the given criteria. It will also show the conditional access policies that would not apply for the given criteria.
+Input the criteria and select **What If** to generate a list of results. The tool will show which Conditional Access policies would apply for the given criteria. It will also show the Conditional Access policies that would not apply for the given criteria.
 
 ## Learn more
 

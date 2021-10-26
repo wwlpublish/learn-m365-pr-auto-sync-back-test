@@ -1,6 +1,6 @@
 Slack provides Contoso's users with ways to collaborate, and work together on projects. As with both Workplace from Facebook and Box, you can use Conditional Access App Control policies in Cloud App Security to help secure Contoso's content in this app.
 
-Like Workplace, you start by adding the Slack app to Azure Active Directory, and then configure the required SSO settings before you're able to create a conditional access policy, and finally the required Conditional Access App Control policies.
+Like Workplace, you start by adding the Slack app to Azure Active Directory, and then configure the required SSO settings before you're able to create a Conditional Access policy, and finally the required Conditional Access App Control policies.
 
 ## Add the Slack app and assign users
 
@@ -43,9 +43,9 @@ First, you'll need to add the Slack app to Azure AD, and then provision users fo
 
 1. Switch back to the **Azure Active Directory admin center**, and on the **SAML-based Sign-on** page, select **Test**. You should be able to successfully sign in to Slack, assuming the currently signed in user is one of the users you assigned earlier.
 
-## Create a conditional access policy for Slack
+## Create a Conditional Access policy for Slack
 
-The next step is to create a conditional access policy in Azure AD.
+The next step is to create a Conditional Access policy in Azure AD.
 
 1. In the **Azure Active Directory admin center**, select Enterprise apps in the navigation pane, and then select **Slack**.
 1. In the **Slack** page, in the navigation pane, select **Conditional Access**.

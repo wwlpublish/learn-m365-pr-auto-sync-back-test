@@ -11,15 +11,15 @@ Conditional Access also provides you with a centralized place to see the health 
 
 |||
 | :--- | :--- |
-| ![Icon indicating play video](../media/video-icon.png)| Watch this video to learn more about the security benefits of conditional access and why you should implement conditional access policies in your organization.|
+| ![Icon indicating play video](../media/video-icon.png)| Watch this video to learn more about the security benefits of Conditional Access and why you should implement Conditional Access policies in your organization.|
 
 >[!VIDEO https://www.youtube.com/embed/5NLBNtEhGB8]
 
 ## Learn more
 
-- [Implement conditional access policies](/intune/protect/create-conditional-access-intune?azure-portal=true)
-- [Manage conditional access policies](/intune/apps/app-management?azure-portal=true)
-- [Plan conditional access policies](/intune/protect/conditional-access-intune-common-ways-use?azure-portal=true)
+- [Implement Conditional Access policies](/intune/protect/create-conditional-access-intune?azure-portal=true)
+- [Manage Conditional Access policies](/intune/apps/app-management?azure-portal=true)
+- [Plan Conditional Access policies](/intune/protect/conditional-access-intune-common-ways-use?azure-portal=true)
 - [Implement device compliance policies](/intune/protect/create-compliance-policy?azure-portal=true)
 - [Manage device compliance policies](/intune/protect/compliance-policy-monitor?azure-portal=true)
 - [Plan device compliance policies](/intune/protect/device-compliance-get-started?azure-portal=true)

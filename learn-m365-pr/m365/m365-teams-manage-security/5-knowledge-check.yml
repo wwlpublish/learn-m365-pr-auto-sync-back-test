@@ -53,9 +53,9 @@ quiz:
 
   - content: "What are two ways of making Teams meetings more secure?"
     choices:
-    - content: "Controlling who must wait in the lobby and implementing conditional access."
+    - content: "Controlling who must wait in the lobby and implementing Conditional Access."
       isCorrect: false
-      explanation: "That's incorrect. Conditional access isn't a feature that makes Microsoft Teams meetings more secure."
+      explanation: "That's incorrect. Conditional Access isn't a feature that makes Microsoft Teams meetings more secure."
     - content: "Structured meetings and safe attachments."
       isCorrect: false
       explanation: "That's incorrect. Safe attachments isn't a feature that makes Microsoft Teams meetings more secure."

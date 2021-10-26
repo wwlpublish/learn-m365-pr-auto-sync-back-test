@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.viva-connections-get-started.exercise-enable-microsoft-viva-connections
+title: Exercise – Enable Viva Connections in your Microsoft 365 tenant
+metadata:
+  title: Exercise – Enable Viva Connections in your Microsoft 365 tenant
+  description: In this unit, you'll enable Microsoft Viva Connections in your Microsoft 365 tenant.
+  ms.date: 10/8/2021
+  author: waldekmastykarz
+  ms.author: wmastyka
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 8
+content: |
+  [!include[](includes/3-exercise-enable-microsoft-viva-connections.md)]

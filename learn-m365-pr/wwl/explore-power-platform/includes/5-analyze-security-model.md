@@ -2,7 +2,7 @@ Because Microsoft Power Platform is governed and authenticated through Azure Act
 
 Microsoft Power Platform’s security model consists of the following layers of security:
 
- -  **Authentication.** Users are authenticated by Azure Active Directory (Azure AD), and use can be restricted using conditional access policies.
+ -  **Authentication.** Users are authenticated by Azure Active Directory (Azure AD), and use can be restricted using Conditional Access policies.
  -  **Licensing.** Licensing is the first control-gate to allowing access to Power Apps components.
  -  **Security roles.** Security roles provide permissions that control the ability to create applications, portals, and workflows.
  -  **Sharing.** A user’s ability to see and use Microsoft Power Platform resources is controlled by sharing the application with the user.

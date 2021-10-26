@@ -56,5 +56,5 @@ Use Intune to manage apps and mobile devices by “enrolling” devices. When yo
 - Self-service password reset
 - Write-back from Azure AD to on-premises Active Directory Domain Services (meaning your cloud and on-premises data is linked)
 - Microsoft Azure Multi-Factor Authentication (MFA) for cloud and on-premises apps
-- Conditional access based on group, location, and device state
-- Conditional access based on sign-in or user risk (P2 plan only)
+- Conditional Access based on group, location, and device state
+- Conditional Access based on sign-in or user risk (P2 plan only)

@@ -1,0 +1,30 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.troubleshoot-mail-flow-using-logs.troubleshoot-protocol-logs
+title: Troubleshoot with protocol logs
+metadata:
+  title: Troubleshoot with protocol logs
+  description: "Troubleshoot with protocol logs"
+  ms.date: 10/19/2021
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 6
+content: |
+  [!include[](includes/3-troubleshoot-protocol-logs.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "Holly Dickson is the Messaging administrator for Contoso. Holly suspects that a user can't send email to different users where email is sent over multiple connectors. What tool should Holly use to troubleshoot this issue?"
+    choices:
+    - content: "Protocol logs"
+      isCorrect: false
+      explanation: "That's incorrect. Protocol logs are used to analyze and troubleshoot issues that are related to a specific connector. Try again."
+    - content: "Message tracking logs"
+      isCorrect: true
+      explanation: "That's correct. Message tracking logs are used to analyze all message activity as mail flows through the transport pipeline on an Exchange server. If you suspect that a user can't send email to different users where email is sent over multiple connectors, then message tracking logs should be analyzed to troubleshoot the issue."
+    - content: "Event logs"
+      isCorrect: false
+      explanation: "That's incorrect. Event logs are used to troubleshoot transport issues related to specific events. Try again."

@@ -7,3 +7,4 @@ Now that you have completed this module, you should be able to:
 - Explain the different advanced configuration options for external sharing.
 - Explain how file and folder links work.
 - List other sharing settings and describe how they work.
+

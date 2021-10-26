@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.viva-connections-extend-with-app-customizers.summary
+title: Summary
+metadata:
+  title: Summary
+  description: This unit summarizes what you learned in this module.
+  ms.date: 10/14/2021
+  author: rabwill
+  ms.author: rwilliams
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 1
+content: |
+  [!include[](includes/6-summary.md)]

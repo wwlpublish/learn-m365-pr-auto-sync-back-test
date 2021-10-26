@@ -1,8 +1,8 @@
 The Microsoft Remote Connectivity Analyzer helps you set up connectivity for your Exchange servers correctly. It can also help you find and fix problems. You can run tests on the Remote Connectivity Analyzer website to check for Microsoft Exchange ActiveSync, Exchange Web Services, Microsoft Outlook, and Internet email connectivity.
 
-For Exchange ActiveSync, you can simulate the steps that a mobile device uses to connect to an Exchange server using Exchange ActiveSync and the steps an Exchange ActiveSync device uses to obtain settings from the Autodiscover service.  
+For Exchange ActiveSync, you can simulate the steps that a mobile device uses to connect to an Exchange server using Exchange ActiveSync and the steps an Exchange ActiveSync device uses to obtain settings from the Autodiscover service.
 
-Exchange Web Services tests check many basic Exchange Web Services tasks to confirm that they're working. They also verify a service account's ability to access a specified mailbox, create and delete items in it, and access it via Exchange impersonation.  
+Exchange Web Services tests check many basic Exchange Web Services tasks to confirm that they're working. They also verify a service account's ability to access a specified mailbox, create and delete items in it, and access it via Exchange impersonation.
 
 Office Outlook Connectivity tests check the steps Outlook uses to connect via Outlook Anywhere (RPC over HTTP) and the steps Outlook uses to obtain settings from the Autodiscover service.
 

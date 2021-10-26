@@ -6,7 +6,7 @@ Let's look at new capabilities you can take advantage of with Windows 10, Micros
 
 ## Identity and access management
 
-Azure Active Directory (Azure AD) is the identity control plane for apps, devices, and cloud services while connecting to cloud services. Conditional access lets you define different authentication requirements based on where your user is logging in from and which device they're using, as well as responses to anomalous behaviors.
+Azure Active Directory (Azure AD) is the identity control plane for apps, devices, and cloud services while connecting to cloud services. Conditional Access lets you define different authentication requirements based on where your user is logging in from and which device they're using, as well as responses to anomalous behaviors.
 
 At the device level, you can use biometrics as unique identifiers for simpler and more secure access to devices and apps, moving toward the goal of eliminating passwords. Windows Hello offers device-based, multifactor authentication that relies on the device itself, your PIN, or a unique biometric identifier like a face or fingerprint that can be enforced via policy.
 

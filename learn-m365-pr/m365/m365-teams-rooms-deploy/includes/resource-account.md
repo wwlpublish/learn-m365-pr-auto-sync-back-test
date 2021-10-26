@@ -13,7 +13,7 @@ The Teams Rooms Premium license adds additional features such as a Microsoft-man
 
 - If you use Skype for Business on-premises, you'll need to assign an Enterprise Client Access license, and if you intend to use Enterprise Voice features of Skype for Business, you'll need to add a Plus Client Access license.
 - It's recommended that you create the account well in advance of hardware installation. This is because you may need to open tickets within your IT organization to have them created. You also need to test and review to make sure the accounts were set up correctly.
-- If your environment is configured to use modern authentication, Microsoft recommends that you enable it for the resource account. You can use Intune conditional access policies to help control and limit what the resource account has access to. For example, you can limit the account to only sign in on a given subnet.  
+- If your environment is configured to use modern authentication, Microsoft recommends that you enable it for the resource account. You can use Intune Conditional Access policies to help control and limit what the resource account has access to. For example, you can limit the account to only sign in on a given subnet.  
 
 > [!IMPORTANT]
 > All credentials are secured on the device through a physical TPM chip and are stored in the Windows Vault. Physical TPM chips are required on all compute modules used by Teams Rooms.
