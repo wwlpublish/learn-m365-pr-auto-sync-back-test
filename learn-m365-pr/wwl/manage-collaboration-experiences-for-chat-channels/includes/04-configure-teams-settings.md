@@ -1,6 +1,6 @@
 
 
-Managing Teams settings includes several options to control basic features of Microsoft Teams, including notifications and feeds, tagging, email integration, cloud storage options, and devices. These settings are organizational-wide settings and apply to all users and teams in an organization. You can go to the Teams admin center, select **Org-wide settings** > **Teams settings** for the settings page.  
+Managing Teams settings includes several options to control basic features of Microsoft Teams, including notifications and feeds, tagging, email integration, cloud storage options, and devices. These settings are organizational-wide settings and apply to all users and teams in an organization. You can go to the Teams admin center, select **Teams** > **Teams settings** for the settings page.  
 
 :::image type="content" source="../media/teams-settings.png" alt-text="Screenshot of Microsoft Teams admin center: Teams settings"::: 
 
