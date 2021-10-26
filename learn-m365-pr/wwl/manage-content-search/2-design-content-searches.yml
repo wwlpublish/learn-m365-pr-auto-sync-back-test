@@ -1,0 +1,30 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.manage-content-search.design-content-searches
+title: Design content searches
+metadata:
+  title: Design content searches
+  description: "Design content searches"
+  ms.date: 10/26/2021
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 6
+content: |
+  [!include[](includes/2-design-content-searches.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "Mary is one of Contoso's regional Sales managers. Mary has asked Holly Dickson, the company's Messaging administrator, for permission to run searches and to preview and export search results in the Content Search page. What role group must Holly assign to Mary to provide this functionality?"
+    choices:
+    - content: "Compliance Data Administrator"
+      isCorrect: false
+      explanation: "That's incorrect. This role group doesn't provides permissions to run searches and to preview and export search results in the Content Search page. Try again."
+    - content: "Compliance Administrator"
+      isCorrect: false
+      explanation: "That's incorrect. This role group doesn't provides permissions to run searches and to preview and export search results in the Content Search page. Try again."
+    - content: "eDiscovery Manager"
+      isCorrect: true
+      explanation: "That's correct. You must be a member of the eDiscovery Manager role group in the Microsoft 365 Defender portal to run searches and to preview and export search results in the Content Search page. You don't have to assign other search permissions in Exchange Online."
