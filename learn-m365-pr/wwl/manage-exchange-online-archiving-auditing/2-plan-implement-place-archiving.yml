@@ -27,4 +27,4 @@ quiz:
       explanation: "That's correct. You must create a mailbox move request to move a user's archive mailbox to another mailbox database on the same Mailbox server or to another server, independent of the primary mailbox."
     - content: "Create a migration endpoint for a local mailbox move"
       isCorrect: false
-      explanation: "That's incorrect. Migration endpoints are used for cros-forest mamilbox moves, but not for local mailbox moves. Try again."
+      explanation: "That's incorrect. Migration endpoints are used for cross-forest mailbox moves, but not for local mailbox moves. Try again."
