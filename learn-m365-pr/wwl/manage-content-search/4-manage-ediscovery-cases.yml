@@ -17,7 +17,7 @@ content: |
 quiz:
   title: "Check your knowledge"
   questions:
-  - content: "Which Microsoft 365 feature provides the ability to search across all Microsoft 365 services in a single, unified search operation?"
+  - content: "Which Microsoft 365 feature can search across all Microsoft 365 services in a single, unified search operation?"
     choices:
     - content: "eDiscovery hold"
       isCorrect: false
