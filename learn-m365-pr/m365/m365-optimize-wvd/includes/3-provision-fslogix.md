@@ -36,12 +36,16 @@ Give the administrators the ability to modify NTFS permissions by assigning an e
 
 1. In the storage account you created, select **Access control (IAM)**.
 1. Select **Add** > **Add role assignment**.
-1. For **Role**, select **Storage File Data SMB Share Elevated Contributor**.
+1. For **Role**, search for and select **Storage File Data SMB Share Elevated Contributor**.
+1. Select **Next**.
+1. On the **Members** tab, accept the default **Assign access to** option: User, group, or service principal.
+
+    :::image type="content" source="../media/3-add-role-assignment.png" alt-text="Screenshot that shows member tab with selected role and the default assigned to field selected.":::
+
+1. Select **+ Select members**.
 1. Select **AAD DC Administrators**.
-
-    :::image type="content" source="../media/3-add-role-file-data-elevated.png" alt-text="Screenshot that shows the role and AAD DC Administrators selected.":::
-
-1. Select **Save**.
+1. Select **Review + assign**.
+1. To complete the role assignment,select **Review + assign**.
 
 ### Assign role to non-administrator Azure Virtual Desktop users
 
@@ -49,11 +53,12 @@ Assign users a contributor role so they have permission to read and write file d
 
 1. Select **Add** > **Add role assignment**.
 1. For **Role**, select **Storage File Data SMB Share Contributor**.
+1. Select **Next**.
+1. On the **Members** tab, accept the default **Assign access to** option: User, group, or service principal.
+1. Select **+ Select members**.
 1. Select each Azure Virtual Desktop user.
-
-    :::image type="content" source="../media/3-add-role-file-data-contributor.png" alt-text="Screenshot that shows the role and Azure Virtual Desktop user selected.":::
-
-1. Select **Save**.
+1. Select **Review + assign**.
+1. To complete the role assignment,select **Review + assign**.
 
 ## Create a file share to store the user profile virtual disks
 
