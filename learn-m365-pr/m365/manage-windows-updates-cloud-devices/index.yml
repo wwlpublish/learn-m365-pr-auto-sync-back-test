@@ -20,7 +20,7 @@ abstract: |
 prerequisites: |
   - Familiarity with PowerShell
   - Familiarity with Windows
-iconUrl: /learn/achievements/manage-windows-updates-cloud-devices.svg
+iconUrl: /learn/achievements/generic-badge.svg
 levels:
 - beginner
 roles:

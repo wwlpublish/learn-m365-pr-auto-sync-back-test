@@ -9,7 +9,7 @@ The [Microsoft Update Catalog](https://www.catalog.update.microsoft.com/) lists 
 Recall that updates for Windows are classified in two high-level categories: feature updates and quality updates. Quality updates include driver updates, security updates, and more. Feature updates can contain small or even significant features additions or changes to Windows.
 
 The deployment service [catalog](/graph/api/resources/windowsupdates-catalog?view=graph-rest-beta&preserve-view=true) also categorizes updates as either quality or feature updates. [Quality update catalog entries](/graph/api/resources/windowsupdates-qualityupdatecatalogentry?view=graph-rest-beta&preserve-view=true) in the deployment service catalog represent security and non-security updates.
-Note that quality updates are [defined differently](/graph/windowsupdates-software-updates) from how they are defined in the Microsoft Update Catalog. The deployment service currently only supports the deployment of feature updates and *security* quality updates based on the definitions in the deployment service catalog. To learn more about updates for Windows and servicing, see [Quick guide to Windows as a service](/windows/deployment/update/waas-quick-start).
+Quality updates are [defined differently](/graph/windowsupdates-software-updates) from how they are defined in the Microsoft Update Catalog. The deployment service currently only supports the deployment of feature updates and *security* quality updates based on the definitions in the deployment service catalog. To learn more about updates for Windows and servicing, see [Quick guide to Windows as a service](/windows/deployment/update/waas-quick-start).
 
 ## Get updates from the service catalog
 

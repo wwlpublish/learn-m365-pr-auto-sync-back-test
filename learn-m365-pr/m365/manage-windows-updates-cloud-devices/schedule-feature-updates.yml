@@ -9,6 +9,7 @@ metadata:
   author: adnancore
   ms.author: beccarobins
   ms.topic: interactive-tutorial
+  ms.prod: learning-m365
 durationInMinutes: 6
 content: |
   [!include[](includes/schedule-feature-updates.md)]
