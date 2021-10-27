@@ -17,7 +17,7 @@ Using the device tag management panel, you can:
 Complete the following steps to create and maintain device tags:
 
 1. Sign in to [Microsoft Teams admin center](https://admin.teams.microsoft.com?azure-portal=true).
-2. In the left-hand navigation pane, select **Devices**, and then select the specific Teams device type that you want to configure (for example, IP phones, Collaboration bars, Teams displays, or Teams panels).
+2. In the left-hand navigation pane, select **Devices**, and then select the specific Teams device type that you want to configure (for example, Phones, Displays, or Panels).
 3. In the window that appears for the device type you selected, select **Actions** in the upper-right corner of the page and then select **All device tags**.
 4. In the **Manage tags** pane that appears, you can complete any of the following tasks:
 
@@ -33,7 +33,7 @@ When you add tags to a device, you can either select an existing tag or create a
 
 1. Sign in to [Microsoft Teams admin center](https://admin.teams.microsoft.com?azure-portal=true).
 
-2. In the left-hand navigation pane, select **Devices**, and then select the specific Teams device type that you want to configure (for example, IP phones, Collaboration bars, Teams displays, or Teams panels).
+2. In the left-hand navigation pane, select **Devices**, and then select the specific Teams device type that you want to configure (for example, Phones, Displays, or Panels).
 3. In the window that appears for the device type you selected, select the device you want to add or remove tags on (do NOT select the device name; instead, select the check mark that appears to the left of the device), and then select **Manage tags**.
 
     * If you want to add a tag to the selected device:
@@ -50,7 +50,7 @@ When you add tags to a device, you can either select an existing tag or create a
 When you add tags to a device, you can either select an existing tag or create a new one.  If you want to remove a tag from multiple devices, you must select the Teams user that's associated with the device and remove the tag from the user.
 
 1. Sign in to [Microsoft Teams admin center](https://admin.teams.microsoft.com?azure-portal=true).
-2. In the left-hand navigation pane, select **Devices**, and then select the specific Teams device type that you want to configure (for example, IP phones, Collaboration bars, Teams displays, or Teams panels).
+2. In the left-hand navigation pane, select **Devices**, and then select the specific Teams device type that you want to configure (for example, Phones, Displays, or Panels).
 3. In the window that appears for the device type you selected, select the devices you want to add or remove tags on (do NOT select the device name; instead, select the check mark that appears to the left of the device), and then select **Manage tags**.
     * If you want to add a tag to the selected devices:
         1. Start typing the tag name you want to add in **Manage tags for all devices of Teams users**.
@@ -72,7 +72,7 @@ When you open a device pane in the Teams admin center, only the devices of that 
 Complete the following steps to use filters to return devices with a specific tag:
 
 1. Sign in to [Microsoft Teams admin center](https://admin.teams.microsoft.com?azure-portal=true).
-2. In the left-hand navigation pane, select **Devices**, and then select the specific Teams device type that you want to configure (for example, IP phones, Collaboration bars, Teams displays, or Teams panels).
+2. In the left-hand navigation pane, select **Devices**, and then select the specific Teams device type that you want to configure (for example, Phones, Displays, or Panels).
 3. In the window that appears for the device type you selected, select the **Filter** icon.
     * If you only want to specify a single tag, or if you want to find devices that have all the tags you specify, select **Match all of these conditions**.
     

@@ -1,6 +1,6 @@
 If "Anyone" (anonymous) links are enabled, there are more controls that can be applied to those links. These controls exist because Anyone links have the potential to be distributed to someone that should not have access to that file. The sharing of files like this is comparable to files within email that will work to whomever it is forwarded to, but unlike email, when using Anyone links the permissions can be revoked at any time.
 
- ![If "Anyone" (anonymous) links are enabled, there are more controls that can be applied to those links](../media/expiration-permissions-settings.png)
+:::image type="content" source="../media/expiration-permissions-settings.png" alt-text="Screen shot showing expiration and permission options for Anyone links.":::
 
 ## Link expiration
 

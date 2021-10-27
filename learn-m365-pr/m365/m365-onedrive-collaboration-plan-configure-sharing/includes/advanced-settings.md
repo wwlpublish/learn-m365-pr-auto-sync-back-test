@@ -3,11 +3,31 @@
 
 You can specify a list of allowed or blocked domains for external sharing. When specified, sharing invitations can only be sent to allowed domains. Denied domains cannot be sent sharing invitations.
 
- ![Limit external sharing by domain](../media/external-sharing-settings.png)
+1. Navigate to SharePoint Admin Center.
+1. Select **Policies > Sharing**.
+1. Expand **More external sharing settings**.
+1. Select or deselect the **Limit external sharing by domain** checkbox.
+1. Select **Add domains**.
+1. Add the domains that you want your company users to be able to access.
 
-You can also limit domains for an individual OneDrive.
+:::image type="content" source="../media/external-sharing-settings.png" alt-text="Screen shot showing the external sharing settings.":::
 
- ![Limit domains for an individual OneDrive](../media/add-domains.png)
+:::image type="content" source="../media/add-domains.png" alt-text="Screen shot showing where domains can be added.":::
+
+## Limit the sharing options for a user
+
+After you have set the organization level sharing options, you can also further limit sharing options for an individual OneDrive user.
+
+1. In the Admin Center, select **Users > Active Users**.
+1. Select the user from the list.
+1. In the pop up panel on the left, select **OneDrive**.
+1. Select **Manage external sharing**.
+
+:::image type="content" source="../media/onedrive-external-sharinga.png" alt-text="Screen shot showing how to limit sharing access." lightbox="../media/onedrive-external-sharinga.png":::
+
+- Select the required option
+
+:::image type="content" source="../media/onedrive-external-sharing.png" alt-text="Screen shot showing how to limit sharing access for an individual OneDrive.":::
 
 ## Allow only users in specific security groups to share externally
 
@@ -15,7 +35,16 @@ To limit who can share with guests in SharePoint and OneDrive, you can limit sha
 
 People in the security group can be given the ability to share with unauthenticated users only or with both unauthenticated and authenticated users.
 
- ![People in a security group can be given the ability to share with unauthenticated users only or with both unauthenticated and authenticated users](../media/manage-security-zones.png)
+1. In the SharePoint Admin Center, select **Policies > Sharing**.
+1. Expand **More external sharing settings**.
+1. Select **Allow only users in specific security groups to share externally**.
+1. The **Manage security groups** button appears.
+
+    :::image type="content" source="../media/security-groups.png" alt-text="Screen shot showing where security groups can be amended.":::
+
+1. Select the options to amend.
+
+    :::image type="content" source="../media/manage-security-zones.png" alt-text="Screen shot showing how to add a security group.":::
 
 ## Allow guests to share items they don't own
 
@@ -36,4 +65,4 @@ If external sharing is enabled in your organization, these notifications are ena
 ## Learn more
 
 - [Restrict sharing of SharePoint and OneDrive content by domain](/sharepoint/restricted-domains-sharing?azure-portal=true)
-- [Allow/Block guest access to Microsoft 365 groups](/exchange/recipients-in-exchange-online/manage-group-access-to-office-365-groups?azure-portal=true)
+- [Manage guest access in Microsoft 365 groups](/microsoft-365/admin/create-groups/manage-guest-access-in-groups?azure-portal=true)

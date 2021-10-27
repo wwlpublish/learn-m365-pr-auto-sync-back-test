@@ -20,9 +20,9 @@ quiz:
       - content: "You can move users to Teams all at once only if you're upgrading from Skype for Business Online and not from Skype for Business on-premises."
         isCorrect: false
         explanation: "You can move users to Teams all at once if you're upgrading from either Skype for Business Online or Skype for Business on-premises."
-      - content: "You can move users to Teams all at once if you're upgrading from either Skype for Business Online or Skype for Business on-premises."
+      - content: "You can move users to Teams all at once if you're upgrading from Skype for Business Online and Skype for Business on-premises."
         isCorrect: true
-        explanation: "True. You can move users all at once if you're upgrading from either Skype for Business Online or Skype for Business on-premises."
+        explanation: "You can move users all at once if you're upgrading from Skype for Business Online and Skype for Business on-premises, if on-premises Skype for Business users are moved to the cloud, which requires configuring Skype for Business hybrid mode."
       - content: "You can move users to Teams in stages only if you're upgrading from Skype for Business on-premises."
         isCorrect: false
         explanation: "You can move users to Teams all at once if you're upgrading from either Skype for Business Online or Skype for Business on-premises."
