@@ -10,7 +10,7 @@ To perform a sample threat-hunting query, in the [Microsoft 365 Defender portal]
 
 In the code above, the following filters have been applied:
 *    The first `where` returns records from the previous seven days only
-*    Filter on the `FileName` to search for process file names representing the PowerShell application
+*    The second `where` filters on `FileName` to search for process file names representing the PowerShell application
 *    Filter on strings in command lines that are typically used to download files using PowerShell
 *    Define what the results look like. project returns specific columns, and top limits the number of results to 100
 
