@@ -15,9 +15,9 @@ You can create a new Microsoft 365 group using Microsoft 365 admin center or Pow
 
 ### Use Microsoft 365 admin center
 
-1. In the Microsoft 365 admin center, on the left navigation pane, select **Groups** > **Active groups**.
+1. In the Microsoft 365 admin center, on the left navigation pane, select **Teams & groups** > **Active teams & groups**.
 
-2. On the **Groups** page, select **Add a group**.
+2. On the **Active teams and groups** page, select **Add a group**.
 
 3. On the **Choose a group type** page, select **Microsoft 365**, and select **Next**.
 
