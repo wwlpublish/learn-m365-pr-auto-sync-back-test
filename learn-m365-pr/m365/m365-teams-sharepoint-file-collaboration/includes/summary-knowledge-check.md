@@ -7,8 +7,3 @@ Now that you have completed this module, you should be able to:
 - Explain how file collaboration works in SharePoint.
 - Describe how to share folders and files.
 - Explain how external sharing works.
-
-## Learn more
-
-- [File collaboration in SharePoint with Microsoft 365](/sharepoint/deploy-file-collaboration)
-- [External sharing overview](/sharepoint/external-sharing-overview)
