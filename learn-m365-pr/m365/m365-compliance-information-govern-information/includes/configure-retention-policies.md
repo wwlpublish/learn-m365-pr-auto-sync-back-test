@@ -9,7 +9,7 @@ Creating a retention policy consists of these steps.
 1. Choose locations
 1. Review your settings
 
-![Retention policy configuration](../media/retention-policy-configuration.png)
+:::image type="content" source="../media/retention-policy-configuration.png" alt-text="Diagram showing Steps of Retention policy configuration.":::
 
 ## Step 1: Name your policy
 
@@ -30,7 +30,7 @@ The first decision you need to make when configuring the settings for the retent
 
 ### Do you want to retain content?
 
-You will have to provide additional information based on if the answer to this question is yes or no. 
+You will have to provide additional information based on if the answer to this question is yes or no.
 
 **Yes, I want to retain it**. Selecting this option means the content will stay where it is for the time period specified. For example, email and Teams conversations will stay in mailboxes and documents will stay in SharePoint or OneDrive. If users delete the content, a copy will be placed in a secure location so you can access it, if needed.
 
@@ -50,7 +50,7 @@ Next, select if you want to delete the content after the retention period has ex
 - **Yes**. After this time, content is deleted from where it is stored and from the secure location where copies are kept.
 - **No**. Content will be left in place. If you do not want to keep the content, you must delete it yourself.
 
-**No, just delete content older than**. Users will be free to permanently delete their content any time prior to expiration. When the content reaches the age selected, it will be deleted without the user having to do anything. For example, email messages and calendar items will be deleted from users' mailboxes and documents will be deleted from their SharePoint or OneDrive libraries. 
+**No, just delete content older than**. Users will be free to permanently delete their content any time prior to expiration. When the content reaches the age selected, it will be deleted without the user having to do anything. For example, email messages and calendar items will be deleted from users' mailboxes and documents will be deleted from their SharePoint or OneDrive libraries.
 
 In addition to specifying the amount of time that must pass before content is deleted you must determine when you want the timer to start. The options are **when it was created** and **when it was last modified**. The settings behave differently for content in certain locations.
 
@@ -88,7 +88,7 @@ Your retention policy can retain content in SharePoint communication sites, team
 
 ### Microsoft 365 groups
 
-The policy will apply to content in the group's mailbox, site, files, conversations, and OneNote. 
+The policy will apply to content in the group's mailbox, site, files, conversations, and OneNote.
 
 ### Skype for Business conversations
 
@@ -112,12 +112,12 @@ Retention policy status is available by selecting the policy on the retention ta
 |  On (Pending) | The policy is still being deployed to the locations you chose. It can take up to 24 hours to be fully deployed.  |
 |  On (Errors) | The policy is active but not being enforced on content in one or more locations due to an error.   |
 | Off (Success)  | The policy is not active or being applied to content. However, the policy's settings are saved in case you need to enable it.  |
-| Off (Pending)  | 	The process of turning off the policy has started. It can take up to 24 hours to turn it off entirely. Until this time, it might still be applied to content in some locations.  |
+| Off (Pending)  | The process of turning off the policy has started. It can take up to 24 hours to turn it off entirely. Until this time, it might still be applied to content in some locations.  |
 |  Off (Errors) | The policy is turned off but might still be applied to content in one or more locations.   |
 
 The image below shows the retention policy **Teams Chats Retention Policy** with a status of **On (Pending)**. The **(On Pending)** status means the policy is still being deployed and not being enforced on content yet.
 
- ![Teams chat retention policy](../media/teams-chat-retention-policy.png)
+:::image type="content" source="../media/teams-chat-retention-policy.png" alt-text="Screenshot showing the Teams chat retention policy. The status button reads pending and is turned on.":::
 
 ## Learn more
 

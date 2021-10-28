@@ -26,7 +26,7 @@ Creating an auto-apply retention label policy consists of these steps:
 1. Locations
 1. Review your settings
 
-![Auto-apply retention label policy configuration](../media/auto-apply-retention-label-policy-configuration.png)
+:::image type="content" source="../media/auto-apply-retention-label-policy-configuration.png" alt-text="Diagram showing Steps of Auto-apply retention label policy configuration.":::
 
 ## Step 1: Choose label to auto-apply
 
