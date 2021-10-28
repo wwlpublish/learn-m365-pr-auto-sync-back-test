@@ -1,12 +1,12 @@
 There are seven steps in the planning process for Direct Routing. It's important to carefully consider your decisions at each step to ensure that users have a good experience when you migrate. Let's examine the first five steps:
 
-:::image type="content" border="false" source="../media/1-direct-routing-planning-steps.png" alt-text="Direct Routing planning steps":::
+:::image type="content" border="false" source="../media/1-direct-routing-planning-steps.png" alt-text="Diagram shows seven steps for Direct Routing planning. These are, Self-deployed vs. hosting, Licensing and endpoints, Session border controllers (SBC), Fully qualified domain names and certificates, IP ranges and ports (firewall), Voice routing, Optimize Media.":::
 
 ## Self-deployed or hosted Session Border Controller (SBC)
 
 The first decision is whether to host the SBC yourself, or use a partner hosted service. This table summarizes the main issues.
 
-|  |Self-deployed SBC  | Parter hosted SBC  |
+|  |Self-deployed SBC  | Partner hosted SBC  |
 |---------|---------|---------|
 |Benefits     | <ul><li>Full control over SBC</li><li>Connectivity to existing PBX</li></ul>        | <ul><li>No need for purchasing, maintaining, and hosting own SBC</li></ul>        |
 |Disadvantages     | <ul><li>Customer responsible for SBC configuration</li><li>Need to purchase, maintain, and host SBC</li></ul>         | <ul><li>No control over SBC configuration</li><li>Support model more complex</li></ul>        |
@@ -45,7 +45,7 @@ A SBC is the interface between Microsoft Teams Phone and Teams, and third-party 
 
 This diagram shows how the SBC connects Teams and Phone System to legacy PBX and PSTN systems.
 
-:::image type="content" border="false" source="../media/2-session-border-controller.png" alt-text="IMAGE":::
+:::image type="content" border="false" source="../media/2-session-border-controller.png" alt-text="Diagram shows how the Session border controllers connect Teams and Phone System to legacy PBX and PSTN systems.":::
 
 SBCs must go through a certification process that includes being validated in a third-party lab and daily testing in preproduction. This process is done jointly with SBC vendors. The SBC devices are certified by make, model, and firmware level, often with a required minimum firmware version.
 SBCs might be physical hardware devices or software deployed in the cloud, such as Azure or AWS.
@@ -58,7 +58,7 @@ The SBC must have a fully qualified domain name, and there are some requirements
 - You must add at least one domain name to your Microsoft tenant, such as **contoso.com**. This allows you to assign a valid name to the SBC, such as **sbc1.contoso.com** or **europe.contoso.com**.
 - A sub-domain name, such as **sbc1.europe.contoso.com** isn't a valid name unless you register **europe.contoso.com** as a domain name.
 
-:::image type="content" border="false" source="../media/2-sbc-fqdn.png" alt-text="SBC must have a fully qualified domain name":::
+:::image type="content" border="false" source="../media/2-sbc-fqdn.png" alt-text="Diagram shows that the Session border controller must have a fully qualified domain name.":::
 
 ## Certificates
 
@@ -72,7 +72,7 @@ IP ranges and ports must be set correctly so that the SBC can communicate with t
 
 This table summarizes the IP range and port number requirements for Microsoft 365 Commercial and GCC Moderate or Standard plans.
 
-:::image type="content" border="false" source="../media/2-sbc-ports.png" alt-text="Assigning port numbers" lightbox="../media/2-sbc-ports.png":::
+:::image type="content" border="false" source="../media/2-sbc-ports.png" alt-text="Table summarizes the IP range and port number requirements for Microsoft 365 Commercial and GCC Moderate or Standard plans." lightbox="../media/2-sbc-ports.png":::
 
 ## Device routing components
 

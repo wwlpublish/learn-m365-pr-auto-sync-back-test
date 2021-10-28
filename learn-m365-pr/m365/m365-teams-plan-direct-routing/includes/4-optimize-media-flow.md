@@ -1,12 +1,12 @@
 Direct Routing handles two types of traffic: media and signaling. In this unit, let's examine media bypass, where media flow is optimized for users who are in the same building and on the same network as the SBC.
 
-:::image type="content" border="false" source="../media/1-direct-routing-planning-steps.png" alt-text="Direct Routing planning steps":::
+:::image type="content" border="false" source="../media/1-direct-routing-planning-steps.png" alt-text="Diagram shows seven steps for Direct Routing planning. These are, Self-deployed vs. hosting, Licensing and endpoints, Session border controllers (SBC), Fully qualified domain names and certificates, IP ranges and ports (firewall), Voice routing, Optimize Media.":::
 
 ## Media bypass
 
 The following diagrams show two scenarios. The diagram on the left shows call flow without media bypass, using Phone Service and the internet. The diagram on the right shows call flow with media bypass, where media flows directly to the SBC.
 
-:::image type="content" border="false" source="../media/4-media-bypass.png" alt-text="Media Bypass Overview" lightbox="../media/4-media-bypass.png":::
+:::image type="content" border="false" source="../media/4-media-bypass.png" alt-text="The following diagrams show two scenarios. Diagram on the left shows call flow without media bypass, using Phone Service and the internet. The diagram on the right shows call flow with media bypass, where media flows directly to the Session Border Controllers." lightbox="../media/4-media-bypass.png":::
 
 For media bypass to work, it must be enabled on the SBC; there's an on/off toggle. Also, the Teams user must have access to the public IP address of the SBC, whether or not they're on the same network, unless you're using Local Media Optimization.
 
@@ -26,7 +26,7 @@ Finally, with media bypass, SBCs need to communicate with transport relays, so t
 
 This diagram summarizes the requirements for IP address ranges and ports for media bypass.
 
-:::image type="content" border="false" source="../media/4-media-bypass-ips.png" alt-text="IP ranges and ports with media bypass":::
+:::image type="content" border="false" source="../media/4-media-bypass-ips.png" alt-text="Diagram summarizes the requirements for IP address ranges and ports for media bypass.":::
 
 ## Local Media Optimization
 
@@ -34,7 +34,7 @@ Local Media Optimization controls how media traffic flows between the Teams clie
 
 When Local Media Optimization is configured, the internal IP address of the SBC is used, rather than the external IP address. This means that SBCs can be behind a firewall, and not necessarily seen by Teams.
 
-:::image type="content"  source="../media/4-local-media-optimization.png" alt-text="Local Media Optimization":::
+:::image type="content"  source="../media/4-local-media-optimization.png" alt-text="Diagram explains that when Local Media Optimization is configured, the internal IP address of the SBC is used, rather than the external IP address. This means that Session Border Controllers can be behind a firewall, and not necessarily seen by Teams.":::
 
 To configure Local Media Optimization, you need to create a **proxy SBC**, with a public IP address, to communicate with Phone Service. It's deployed and configured in the same way as any other SBC for direct routing. This proxy SBC is the target for online voice routes.
 
