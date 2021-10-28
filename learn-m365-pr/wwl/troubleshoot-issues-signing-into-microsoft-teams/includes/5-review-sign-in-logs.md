@@ -52,7 +52,7 @@ After Windows start, Teams Rooms signs in using a local account called **Skype**
 If you experience problems with connecting to Teams from Teams Rooms, consider:
 
 - Verifying your modern authentication configuration
-- Reviewing conditional access policies in Azure AD
+- Reviewing Conditional Access policies in Azure AD
 - Collect and review logs on the Teams Room device
 
 ### Analyze log data from Teams Room devices

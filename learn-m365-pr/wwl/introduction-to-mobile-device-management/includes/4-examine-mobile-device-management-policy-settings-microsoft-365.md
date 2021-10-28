@@ -21,7 +21,7 @@ Organizations can manage the same settings in Microsoft Intune as in Basic Mobil
  -  Device enrollment and restrictions.
  -  Device compliance policies.
  -  Device configuration policies.
- -  Conditional access.
+ -  Conditional Access.
  -  Software updates, which include Windows 10 update rings and update policies for iOS.
  -  Apps deployment, app configuration policies, and app protection policies.
 

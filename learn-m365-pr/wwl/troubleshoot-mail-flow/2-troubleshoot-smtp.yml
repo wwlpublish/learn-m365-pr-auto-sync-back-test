@@ -1,0 +1,30 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.troubleshoot-mail-flow.troubleshoot-smtp
+title: Troubleshoot SMTP mail flow
+metadata:
+  title: Troubleshoot SMTP mail flow
+  description: "Troubleshoot SMTP mail flow"
+  ms.date: 10/21/2021
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 9
+content: |
+  [!include[](includes/2-troubleshoot-smtp.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "As the Messaging administrator for Fabrikam, Holly Spencer is using the Queue Viewer tool to troubleshoot some recent SMTP mail flow issues. Holly has noticed that there's many messages in the Mailbox Delivery queue. What's the most common cause for this situation?"
+    choices:
+    - content: "A dismounted mailbox database"
+      isCorrect: true
+      explanation: "That's correct. There's a delivery queue for each mailbox database to which messages are destined. On a busy server, you may see a few messages in each queue. If there are many messages in a queue, the most common cause is a dismounted mailbox database."
+    - content: "The categorizer is having problems processing the messages"
+      isCorrect: false
+      explanation: "That's incorrect. When this issue occurs, it indicates that messages aren't moving out of the Submission queue. Try again."
+    - content: "Messages can' be routed to their destination"
+      isCorrect: false
+      explanation: "That's incorrect. Messages that can't be routed to their destination appear in the Unreachable queue. Try again."

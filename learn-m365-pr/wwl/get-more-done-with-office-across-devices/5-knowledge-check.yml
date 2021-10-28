@@ -4,12 +4,13 @@ title: Knowledge check
 metadata:
   title: Knowledge check
   description: "Knowledge check"
-  ms.date: 08/12/2020
+  ms.date: 10/18/2021
   author: wwlpublish
   ms.author: dahans
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
+labModal: false
 durationInMinutes: 2
 content: |
   [!include[](includes/5-knowledge-check.md)]
@@ -20,32 +21,32 @@ quiz:
     choices:
     - content: "Never"
       isCorrect: false
-      explanation: "That's incorrect. You'll need to connect at least once every 30 days to ensure your license is still active."
+      explanation: "Incorrect. You'll need to connect at least once every 30 days to ensure your license is still active."
     - content: "Once, every 30 days"
       isCorrect: true
-      explanation: "That's correct. You'll need to connect at least once every 30 days to ensure your license is still active."
+      explanation: "Correct. You'll need to connect at least once every 30 days to ensure your license is still active."
     - content: "Always"
       isCorrect: false
-      explanation: "That's incorrect. You'll need to connect at least once every 30 days to ensure your license is still active."
+      explanation: "Incorrect. You'll need to connect at least once every 30 days to ensure your license is still active."
   - content: "When deploying Microsoft 365, to users without Internet access, which deployment method should you use?"
     choices:
     - content: "Deploy Microsoft 365 Apps from a local source"
       isCorrect: true
-      explanation: "That's correct. Deploy Microsoft 365 Apps from a local source does not require users to have an Internet connection."
+      explanation: "Correct. Deploy Microsoft 365 Apps from a local source does not require users to have an Internet connection."
     - content: "Deploy Microsoft 365 Apps from the cloud"
       isCorrect: false
-      explanation: "That's incorrect. Deploy Microsoft 365 Apps from the cloud requires Internet access."
+      explanation: "Incorrect. Deploy Microsoft 365 Apps from the cloud requires Internet access."
     - content: "Deploy with Configuration Manager (current branch)"
       isCorrect: false
-      explanation: "That's incorrect. Deploy with Configuration Manager (current branch) requires an Internet connection."
+      explanation: "Incorrect. Deploy with Configuration Manager (current branch) requires an Internet connection."
   - content: "If you require frequent feature updates at a predictable channel, which update channel is best?"
     choices:
     - content: "Current Channel"
       isCorrect: false
-      explanation: "That's incorrect. Current Channel receives feature updates approximately every month, but not on a specific day."
+      explanation: "Incorrect. Current Channel receives feature updates approximately every month, but not on a specific day."
     - content: "Monthly Enterprise Channel"
       isCorrect: true
-      explanation: "That's correct. Monthly Enterprise Channel receives feature updates once a month, on the second Tuesday of the month."
+      explanation: "Correct. Monthly Enterprise Channel receives feature updates once a month, on the second Tuesday of the month."
     - content: "Semi-Annual Channel (Preview)"
       isCorrect: false
-      explanation: "That's incorrect. Semi-Annual Channel (Preview) receives feature updates in March and September."
+      explanation: "Incorrect. Semi-Annual Channel (Preview) receives feature updates in March and September."

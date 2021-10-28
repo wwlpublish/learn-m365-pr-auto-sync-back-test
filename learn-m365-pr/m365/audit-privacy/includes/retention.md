@@ -2,7 +2,7 @@ For most customers, the volume and complexity of their data is increasing—emai
 
 ## Storage location
 
-Microsoft has an ever-expanding network of datacenters across the globe to make sure data stays close to customers whenever possible, and we document this in our contracts. See the **Learn more** section of this module for links to online service data residency details.
+Microsoft has an ever-expanding network of datacenters across the globe to make sure data stays close to customers whenever possible, and is documented in our contracts. See the **Learn more** section of this module for links to online service data residency details.
 
 - We do not control or limit the locations from which a customer or users may access, copy, or move customer data. Customers and their end users may move, copy, or access their customer data from any location globally.
 - Microsoft complies with international data protection laws for transfers of customer data across borders.
@@ -30,6 +30,6 @@ In addition, Microsoft has developed add-on features to allow archiving of data 
 
 ## Learn more
 
-- [Additional data location resources](https://www.microsoft.com/trust-center/privacy/data-location#coreui-collapsibledrawer-j9z4i5q?azure-portal=true)
+- [More data location resources](https://www.microsoft.com/trust-center/privacy/data-location#coreui-collapsibledrawer-j9z4i5q?azure-portal=true)
 - [Data Retention, Deletion, and Destruction in Microsoft 365](/office365/Enterprise/office-365-data-retention-deletion-and-destruction-overview?azure-portal=true)
 - [Immutability in Microsoft 365](/office365/Enterprise/office-365-data-immutability?azure-portal=true)

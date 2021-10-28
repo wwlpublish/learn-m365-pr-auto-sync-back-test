@@ -5,9 +5,8 @@ IT admins can remotely provision and sign in to a Teams Android device. To provi
 Complete the following steps to provision a new device:
 
 1. Sign in to the Teams admin center.
-2. In the left-hand navigation pane, select **Devices**, and then select **IP Phones**.
-3. On the **IP Phones** window, select the **Actions** drop-down arrow that appears in the upper-right side of the screen. In the drop-down menu that appears, select **Provision devices**.
-
+2. In the left-hand navigation pane, select **Devices**, and then select the desired device.
+3. On the device window, select the **Actions** drop-down arrow that appears in the upper-right side of the screen. In the drop-down menu that appears, select **Provision devices**.
 4. In the **Provision devices** window, you can either add the MAC address manually or upload a file. The following sections cover each approach.
 
 ### Manually add a device MAC address

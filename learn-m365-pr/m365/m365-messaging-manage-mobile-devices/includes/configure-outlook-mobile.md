@@ -2,13 +2,13 @@ Let's examine how you can control Outlook for iOS and Android clients by using E
 
 ## Use Enterprise Mobility + Security to manage Outlook for iOS and Android
 
-Your Enterprise Mobility + Security subscription provides a versatile set of tools for managing your mobile clients. For example, you can selectively wipe your company's data from a device, require data encryption, and block access from compromised or lost devices. This unit focuses on conditional access policies and app protection policies.
+Your Enterprise Mobility + Security subscription provides a versatile set of tools for managing your mobile clients. For example, you can selectively wipe your company's data from a device, require data encryption, and block access from compromised or lost devices. This unit focuses on Conditional Access policies and app protection policies.
 
-### Create a conditional access policy
+### Create a Conditional Access policy
 
-Conditional access policies impose requirements that users and devices must satisfy before they can connect to Exchange Online. You can assign different policies to different groups in your organization. This technique is useful, because more powerful administrators' accounts are targeted by attackers. It's sensible to apply stricter policies to administrative users than those that apply to users with fewer permissions.  
+Conditional Access policies impose requirements that users and devices must satisfy before they can connect to Exchange Online. You can assign different policies to different groups in your organization. This technique is useful, because more powerful administrators' accounts are targeted by attackers. It's sensible to apply stricter policies to administrative users than those that apply to users with fewer permissions.  
 
-To create a conditional access policy, follow these steps. In this example, the policy requires users to authenticate with multifactor authentication:
+To create a Conditional Access policy, follow these steps. In this example, the policy requires users to authenticate with multifactor authentication:
 
 1. In the Azure portal, go to **Azure Active Directory > Security > Conditional Access**, and then select **New Policy**.
 2. Enter a descriptive name that will help other administrators to understand the purpose of the policy.  

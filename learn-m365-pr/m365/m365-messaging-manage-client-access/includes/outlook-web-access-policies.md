@@ -15,8 +15,8 @@ For Outlook on the web users, attachments can present particular security risks.
 To set up the ability to enforce attachment handling from external networks for an entire organization, use these steps:
 
 1. Use the **Set-OrganizationConfig** PowerShell cmdlet to enable public attachment handling for your organization. Set the *PublicComputersDetectionEnabled* parameter to $true.
-2. Enable public attachment handling on the Outlook on the web mailbox policy either by using the Exchange admin center or the **Set-OwaMailboxPolicy** cmdlet.
-3. Create claim rules in Active Directory Federation Services (ADFS). These rules detect whether the attachment is coming from an internal or external network. 
+1. Enable public attachment handling on the Outlook on the web mailbox policy either by using the Exchange admin center or the **Set-OwaMailboxPolicy** cmdlet.
+1. Create claim rules in Active Directory Federation Services (ADFS). These rules detect whether the attachment is coming from an internal or external network.
 
 ## Outlook for iOS and Android
 
@@ -30,10 +30,10 @@ Inbox rules in Outlook on the web and Outlook are limited to 256 KB total for al
 
 >[!NOTE]
 > The valid range for the Inbox rules quota is 32 KB to 256 KB.
->There isn't a maximum number of rules that users can create.
->The quota for Inbox rules applies only to enabled rules. There's no restriction on the number of disabled rules that a mailbox can have. However, the total size of rules that are enabled or active in the mailbox can't exceed the quota value.
+> There isn't a maximum number of rules that users can create.
+> The quota for Inbox rules applies only to enabled rules. There's no restriction on the number of disabled rules that a mailbox can have. However, the total size of rules that are enabled or active in the mailbox can't exceed the quota value.
 
-## Learn more  
+## Learn more
 
 - [Public attachment handling in Exchange Online](/clients-and-mobile-in-exchange-online/outlook-on-the-web/public-attachment-handling)
-- [PowerShell Reference Library](/powershell/windows/get-started?azure-portal=true)
+- [Windows PowerShell Reference Library](/powershell/windows/get-started?azure-portal=true)

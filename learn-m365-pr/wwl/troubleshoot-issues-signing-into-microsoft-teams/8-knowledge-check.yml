@@ -21,9 +21,9 @@ quiz:
     - content: "Sign-in logs for Azure AD."
       isCorrect: false
       explanation: "That's incorrect. Since the user can sign-in in many circumstances, the administrator should review other issues first."
-    - content: "Conditional access policies in Azure AD."
+    - content: "Conditional Access policies in Azure AD."
       isCorrect: true
-      explanation: "That's correct. It seems likely that a conditional access policy in Azure AD might have a condition of location configured. This might be the cause of the intermittent sign-in failures."
+      explanation: "That's correct. It seems likely that a Conditional Access policy in Azure AD might have a condition of location configured. This might be the cause of the intermittent sign-in failures."
     - content: "Azure AD Connect health"
       isCorrect: false
       explanation: "That's incorrect. If other users don’t experience problems, and the user can sign in to other apps, including Teams on occasion, it’s unlikely to be a sync issue."

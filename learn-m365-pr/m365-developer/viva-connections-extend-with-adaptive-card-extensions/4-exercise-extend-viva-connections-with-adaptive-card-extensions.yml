@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.viva-connections-extend-with-adaptive-card-extensions.exercise-extend-viva-connections-with-adaptive-card-extensions
+title: Exercise - Extend Microsoft Viva Connections with Adaptive Card Extensions
+metadata:
+  title: Exercise - Extend Microsoft Viva Connections with Adaptive Card Extensions
+  description: In this exercise, you'll build an Adaptive Card Extension (ACE) to display the latest important company announcement. You'll add the ACE to the dashboard so that it's displayed in the Viva Connections desktop and mobile experience.
+  ms.date: 10/15/2021
+  author: waldekmastykarz
+  ms.author: wmastyka
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 12
+content: |
+  [!include[](includes/4-exercise-extend-viva-connections-with-adaptive-card-extensions.md)]
