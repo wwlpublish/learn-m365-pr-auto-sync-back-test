@@ -98,7 +98,7 @@ Target Phase I groups for rapid Teams adoption. Adoption should happen quickly d
 
 The *Protect Employee Wellbeing* report shows what Teams collaboration looks like across the day and by group, giving users the ability to target groups that might need to take steps to improve work-life balance and encourage wellbeing.
 
-The chart on the left shows how activity for Teams instant messages and calls is distributed across the average day for both the 8 am – 5 pm change in activity and the change in activity after-hours (before and after working hours). The chart on the right drills down to organizations that are spending the most time collaborating in Teams after-hours. In the example here, the sales group spends an average of 0.8 hours a week in after-hours unscheduled calls, 0.3 hours a week in scheduled calls, and 0.2 hours in after-hours instant messages.
+The chart on the left shows how activity for Teams instant messages and calls is distributed across the average day for both the 8 am – 5 pm change in activity and the change in activity after-hours (before and after working hours). The chart on the right drills down to organizations that are spending the most time collaborating in Teams after-hours. In the example here, people in the sales group spend an average of 0.8 hours a week in after-hours scheduled calls, 0.3 hours a week in unscheduled calls, and 0.2 hours in after-hours instant messages.
 
 ![Are employees working after-hours in Teams report](../media/after-hours-teams.png)
 
