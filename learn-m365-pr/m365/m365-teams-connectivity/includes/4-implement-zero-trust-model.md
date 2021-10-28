@@ -35,7 +35,7 @@ If attackers compromise a single device, Zero Trust prevents them from "hopping"
 
 ### Zero Trust Microsoft 365 and Azure
 
-Microsoft Azure Active Directory conditional access combines data from several sources to evaluate the risk to security, including:
+Microsoft Azure Active Directory Conditional Access combines data from several sources to evaluate the risk to security, including:
 
 - User role
 - Group membership
@@ -46,7 +46,7 @@ Microsoft Azure Active Directory conditional access combines data from several s
 
 These considerations are used to decide whether to **allow access**, **deny access**, or **control access** with additional authentication challenges such as multifactor authentication, Terms of Use, or access restrictions.
 
-Conditional access works robustly with any application configured for access with Azure Active Directory.
+Conditional Access works robustly with any application configured for access with Azure Active Directory.
 
 ## Adopting a Zero Trust security model
 

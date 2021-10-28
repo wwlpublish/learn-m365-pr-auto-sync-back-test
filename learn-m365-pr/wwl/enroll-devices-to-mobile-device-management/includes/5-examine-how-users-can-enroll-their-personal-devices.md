@@ -7,9 +7,9 @@ As a result, most companies have resorted to making enrollment of personal devic
 
  -  Users can only access company resources from enrolled devices that follow company policy.
  -  Compliance policies are used to define how devices should be configured.
- -  Conditional access policies are used for controlling access to company resources.
+ -  Conditional Access policies are used for controlling access to company resources.
 
-To control access to company resources, organizations can configure either a Security policy in Microsoft 365 or a Conditional access policy in Intune. These policies can be configured to only allow access to company resources from enrolled devices.
+To control access to company resources, organizations can configure either a Security policy in Microsoft 365 or a Conditional Access policy in Intune. These policies can be configured to only allow access to company resources from enrolled devices.
 
 For example, if such a policy is in place and a user tries to access company resources, such as their Exchange Online mailbox, the user will be denied access and redirected to enroll their device first. After the user enrolls the device, they can access their mailbox.<br>
 

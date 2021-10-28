@@ -18,14 +18,14 @@ content: |
 quiz:
   title: "Check your knowledge"
   questions:
-  - content: "Which of the following items is a mandatory condition in a conditional access policy?"
+  - content: "Which of the following items is a mandatory condition in a Conditional Access policy?"
     choices:
     - content: "the type of device used to do the access attempt"
       isCorrect: false
-      explanation: "That's incorrect. This item is an optional condition that can be included in a conditional access policy. Try again."
+      explanation: "That's incorrect. This item is an optional condition that can be included in a Conditional Access policy. Try again."
     - content: "the targets of the access attempt"
       isCorrect: true
-      explanation: "That's correct. The users doing the access attempt (Who) and the targets of the access attempt (What) are mandatory in a conditional access policy."
+      explanation: "That's correct. The users doing the access attempt (Who) and the targets of the access attempt (What) are mandatory in a Conditional Access policy."
     - content: "the location from outside the network where the attempted access was made"
       isCorrect: false
-      explanation: "That's incorrect. This item is an optional condition that can be included in a conditional access policy. Try again."
+      explanation: "That's incorrect. This item is an optional condition that can be included in a Conditional Access policy. Try again."

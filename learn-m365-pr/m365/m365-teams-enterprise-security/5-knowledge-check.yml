@@ -53,7 +53,7 @@ quiz:
 
   - content: "How can you test multi-factor authentication for Teams?"
     choices:
-    - content: Conditional access in Azure
+    - content: Conditional Access in Azure
       isCorrect: false
       explanation: "That's incorrect. You can configure Conditional Access in Azure but not test it."
     - content: Conditional Access Users and Groups

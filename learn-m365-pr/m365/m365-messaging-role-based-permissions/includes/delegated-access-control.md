@@ -45,7 +45,7 @@ Delegating app administration, instead of granting users the Global Administrato
 
 The most-privileged application administrator roles are:
 
-- **Application Administrator** grants the ability to manage all applications in the directory, including registrations, single sign-on settings, user and group assignments, licensing Application Proxy settings, and consent. It doesn't grant the ability to manage conditional access.
+- **Application Administrator** grants the ability to manage all applications in the directory, including registrations, single sign-on settings, user and group assignments, licensing Application Proxy settings, and consent. It doesn't grant the ability to manage Conditional Access.
 - **Cloud Application Administrator** grants all the abilities of the Application Administrator, except it doesn't grant access to Application Proxy settings (because it has no on-premises permission).
 
 ## Delegate app registration
@@ -67,5 +67,5 @@ When an Application Developer creates a new application registration, they are a
 
 For even finer-grained app access delegation, you can assign ownership to individual enterprise applications. In this scenario, owners can manage only the enterprise applications they own. There are two app owner roles:
 
-- **Enterprise Application Owner** grants the ability to manage the enterprise applications that the user owns, including single sign-on settings, user and group assignments, and adding additional owners. It doesn't grant the ability to manage Application Proxy settings or conditional access.
+- **Enterprise Application Owner** grants the ability to manage the enterprise applications that the user owns, including single sign-on settings, user and group assignments, and adding additional owners. It doesn't grant the ability to manage Application Proxy settings or Conditional Access.
 - **Application Registration Owner** grants the ability to manage application registrations for an app that the user owns, including the application manifest and adding additional owners.

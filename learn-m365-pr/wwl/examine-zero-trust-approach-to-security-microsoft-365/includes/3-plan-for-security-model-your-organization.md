@@ -29,7 +29,7 @@ To determine the overall risk of each session, a robust Zero Trust strategy must
 
 A Zero Trust model then applies holistic policies that define when to allow, block, or restrict access. These policies control access by requiring extra authentication challenges such as MFA, limiting functionality such as downloads, or applying compliance controls such as terms of use. This way, a hacker trying to gain access using stolen credentials on an unknown device will be blocked, as will a verified user running a healthy device trying to access data they don't have permission to see. This strategy not only protects against external threats, but it also helps create guardrails so well-meaning employees can use organizational resources responsibly.
 
-### Zero Trust using Azure AD conditional access
+### Zero Trust using Azure AD Conditional Access
 
 Azure Active Directory (Azure AD) provides the strong, adaptive, standards-based identity verification required in a Zero Trust framework. While Azure AD provides intrinsically strong authentication (including automatic adaptive protection against many attacks), it also allows admins to express their access requirements in simple terms. Virtually every aspect of each sign-in (including associated user or session risk) is available to define the conditions under which access policies are applied. A framework of controls such as extra authentication factors, terms of use, limited access, and other session semantics regulates access. These controls guarantee that organizations are “secure at access” in their Zero Trust approach.
 

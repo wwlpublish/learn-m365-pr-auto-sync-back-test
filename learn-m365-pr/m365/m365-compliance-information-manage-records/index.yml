@@ -3,7 +3,7 @@ uid: learn-m365.m365-compliance-information-manage-records
 metadata:
   title: Manage records in Microsoft 365
   description:  Learn how to use intelligent classification to automate and simplify the retention schedule for regulatory, legal, and business-critical records in your organization.  
-  ms.date: 07/20/2021
+  ms.date: 10/20/2021
   author: beccarobins
   ms.author: beccarobins
   ms.topic: interactive-tutorial
@@ -32,6 +32,7 @@ products:
 - m365
 - office-365
 units:
+- learn-m365.m365-compliance-information-manage-records.introduction
 - learn-m365.m365-compliance-information-manage-records.records-management-overview
 - learn-m365.m365-compliance-information-manage-records.import-file-plan
 - learn-m365.m365-compliance-information-manage-records.configure-retention-labels

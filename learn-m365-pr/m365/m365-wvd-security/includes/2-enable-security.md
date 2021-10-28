@@ -67,4 +67,4 @@ Several Remote Desktop clients and the most popular partner OS devices include s
 - Access only the application from a preconfigured application group in a host pool. Use Azure AD and role-based access controls to provide fine-grained authorization.
 
 >[!NOTE]
->Azure Virtual Desktop requires Active Directory Domain Services (AD DS). An AD DS domain-joined session host takes advantage of Azure AD security features. These features include conditional access, multifactor authentication, and Intelligent Security Graph.
+>Azure Virtual Desktop requires Active Directory Domain Services (AD DS). An AD DS domain-joined session host takes advantage of Azure AD security features. These features include Conditional Access, multifactor authentication, and Intelligent Security Graph.

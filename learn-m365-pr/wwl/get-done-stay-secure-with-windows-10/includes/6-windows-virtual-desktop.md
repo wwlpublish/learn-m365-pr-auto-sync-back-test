@@ -23,7 +23,11 @@ Use Azure Virtual Desktop for specific needs, such as when security is important
 > [!NOTE]
 > Azure Virtual Desktop on Surface lets you run Virtual Desktop Infrastructure (VDI) on a Surface device. Azure Virtual Desktop on Surface blurs the lines between the local desktop experience and the virtual desktop where touch, pen, ink, and biometric authentication span both physical and virtual environments. Enjoy support for:
 
-&gt; - Flexible form factors like 2-in-1 devices. &gt; - Persistent, on-demand, and just-in-time work scenarios. &gt; - Windows 10 modern device security and manageability. &gt; &gt; Find out more here: \[Windows Autopilot and Surface devices\](/surface/windows-virtual-desktop-surface)
+ -  Flexible form factors like 2-in-1 devices.
+ -  Persistent, on-demand, and just-in-time work scenarios.
+ -  Windows 10 modern device security and manageability.
+
+Find out more here: [Windows Autopilot and Surface devices](/surface/windows-virtual-desktop-surface)
 
 Find out more about Azure Virtual Desktop here: [What is Azure Virtual Desktop?](/azure/virtual-desktop/overview)
 

@@ -19,10 +19,10 @@ quiz:
       choices:
       - content: "Unbound"
         isCorrect: false
-        explanation: "No, an unbound namespace model doesn't specify the database."
+        explanation: "No, an unbound namespace model doesn't specify the database and users can connect to either datacenter."
       - content: "Bound"
         isCorrect: true
-        explanation: "Yes, a bound namespace model lets you specify which databases your users connect to."
+        explanation: "Yes, a bound namespace model lets you specify which databases your users connect to and the second datacenter is only used if the first one fails."
       - content: "Hybrid"
         isCorrect: false
         explanation: "No, there is no hybrid namespace model."
@@ -71,7 +71,7 @@ quiz:
       - content: "From the Exchange Online service"
         isCorrect: false
         explanation: "No, you run the analyzer on the Microsoft Remote Connectivity website."
-    - content: "How are users authenticated with Exchange Online?"
+    - content: "How are users authenticated with Exchange Online if certificate-based authentication has been configured for your organization?"
       choices:
       - content: "Using a client certificate"
         isCorrect: true

@@ -114,7 +114,7 @@ Organizations can also use PowerShell to update these settings by using the ```S
 
 After an organization has created an Audio Conferencing bridge, it must complete the following steps to set the toll and toll-free numbers for all users who lead or schedule meetings:
 
-1. From the Teams admin center, select **Users**, select the user from the list, and select **Edit**.
+1. From the Teams admin center, select **Users** > **Manage users**, select the user from the list.
 2. Select **Edit** next to **Audio Conferencing**, and then in the Audio Conferencing pane, choose a number in the Toll number and Toll-free number lists.
 3. Select **Apply**.
 

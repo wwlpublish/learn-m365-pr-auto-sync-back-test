@@ -16,7 +16,7 @@ Azure AD Application Proxy provides a simple, secure, and cost-effective remote 
      -  Users get a consistent authentication experience. They can use the **My Apps** portal to get single sign-on to both SaaS apps in the cloud and your apps on-premises.
  -  Secure
     
-     -  When apps are published using Azure AD Application Proxy, organizations can take advantage of the rich authorization controls and security analytics in Azure. They receive cloud-scale security and Azure security features like conditional access and two-step verification.
+     -  When apps are published using Azure AD Application Proxy, organizations can take advantage of the rich authorization controls and security analytics in Azure. They receive cloud-scale security and Azure security features like Conditional Access and two-step verification.
      -  An organization's firewall doesn't require opening of inbound connections to give its users remote access.
  -  Cost-effective
     
@@ -36,7 +36,7 @@ With Azure AD Application Proxy, different types of internal applications can be
 
 Once an app is published with Application Proxy, it can be managed it like other enterprise applications in the Azure portal. An organization can:
 
- -  use Azure Active Directory security features like conditional access and two-step verification.
+ -  use Azure Active Directory security features like Conditional Access and two-step verification.
  -  control user permissions.
  -  customize the branding for the app.
 

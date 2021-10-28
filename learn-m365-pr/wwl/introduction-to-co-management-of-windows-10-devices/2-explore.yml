@@ -16,14 +16,14 @@ content: |
 quiz:
   title: "Check your knowledge"
   questions:
-  - content: "As the Enterprise Administrator for Contoso, Holly Dickson wants to set the conditional access policies for Microsoft 365 across Windows, iOS, Android, and Mac devices. Which enterprise mobility management solution should Holly use to accomplish this task?"
+  - content: "As the Enterprise Administrator for Contoso, Holly Dickson wants to set the Conditional Access policies for Microsoft 365 across Windows, iOS, Android, and Mac devices. Which enterprise mobility management solution should Holly use to accomplish this task?"
     choices:
     - content: "Azure Active Directory"
       isCorrect: false
-      explanation: "That's incorrect. This item won't set conditional access policies for Microsoft 365 across Windows, iOS, Android, and Mac devices. Try again."
+      explanation: "That's incorrect. This item won't set Conditional Access policies for Microsoft 365 across Windows, iOS, Android, and Mac devices. Try again."
     - content: "Intune"
       isCorrect: true
-      explanation: "That's correct. Intune is the only enterprise mobility management (EMM) solution that can set the conditional access policies for Microsoft 365 across Windows, iOS, Android, and Mac devices."
+      explanation: "That's correct. Intune is the only enterprise mobility management (EMM) solution that can set the Conditional Access policies for Microsoft 365 across Windows, iOS, Android, and Mac devices."
     - content: "Configuration Manager"
       isCorrect: false
-      explanation: "That's incorrect. This item won't set conditional access policies for Microsoft 365 across Windows, iOS, Android, and Mac devices. Try again."
+      explanation: "That's incorrect. This item won't set Conditional Access policies for Microsoft 365 across Windows, iOS, Android, and Mac devices. Try again."

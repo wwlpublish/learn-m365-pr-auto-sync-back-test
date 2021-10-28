@@ -13,9 +13,9 @@ You can manage Live events settings in the Microsoft Teams admin center.
 
 4. If your company purchased a Software Defined Network (SDN) solution or enterprise Content Delivery Network (eCDN) solution through a Microsoft video delivery partner, you can configure the provider by completing the following steps:
 
-	- **Use a third-party distribution provider**. Turn this option On to enable the third-party video distribution provider.
+	- **Third-party distribution provider**. Turn this option On to enable the third-party video distribution provider.
 	- **SDN provider name**. Enter the provider who's being used.
-	- **Provider license key**. Enter the license ID, which you received from your provider contact.
+	- **SDN provider API token**. Enter the API token, which you received from your provider contact.
 	- **SDN API template URL**. Enter the API template URL, which you received from your provider contact.
 
 5. Select the **Save** button.

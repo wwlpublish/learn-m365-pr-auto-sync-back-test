@@ -8,7 +8,7 @@ Conditional Access policies are if-then statements that allow security professio
 
 A Conditional Access policy is made of if-then statements of **Assignments** and **Access controls**. The assignment part of the policy controls the who, what, and where of the Conditional Access policy. The access part of the policy controls how it's enforced. Based on the assignments, it may **grant access**, **block access**, or grant access provided one or more **additional conditions** is met.
 
-:::image type="content" source="../media/conditional-access.png" alt-text="Screenshot of conditional access":::
+:::image type="content" source="../media/conditional-access.png" alt-text="Screenshot of Conditional Access":::
 
 ## Multifactor authentication
 
@@ -34,7 +34,7 @@ Following are sample steps to create a Conditional Access policy for users in Sa
 
 1. Sign in to Azure Active Directory admin center as a Global Administrator.
 
-2. On the left pane, select **All services** and search for **Conditional access**, and then select **Azure AD Conditional Access**.
+2. On the left pane, select **All services** and search for **Conditional Access**, and then select **Azure AD Conditional Access**.
 
 3. On the **Conditional Access - Policies** page, select **New Policy.**
 

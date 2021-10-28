@@ -1,5 +1,7 @@
 Teams templates are pre-built definitions of a team's structure designed around a business need or project. You can use Teams templates to quickly create rich collaboration spaces with channels for different topics and preinstall apps to pull in mission-critical content and services. Teams templates provide a predefined team structure that can help you easily create consistent teams across your organization.
 
+‎:::image type="content" source="../media/team-templates-new.png" alt-text="An image of the Team templates dialog with Add highlighted.":::
+
 ## The types of team templates
 
 There are two type of team templates. 
@@ -43,9 +45,6 @@ You can create a template from scratch, an existing team or team template that c
 
 3. Select **+ Add**.
 
-    ‎:::image type="content" source="../media/team-templates-new.png" alt-text="An image of the Team templates dialog with Add highlighted.":::
-
-‎
 4. In the **Team templates** section, select a way to create the template.
 
 - Create a brand new template
