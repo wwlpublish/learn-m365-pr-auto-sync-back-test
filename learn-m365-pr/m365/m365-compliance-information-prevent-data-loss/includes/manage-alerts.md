@@ -4,17 +4,17 @@ You have flexibility in defining when alerts are sent. One option is to send an 
 
 The image below shows the portion of the DLP policy rule configuration process where you specify incident reports. The configuration below sends an email to johannal@/<tenant/>.onmicrosoft.com and adds an alert to the DLP Alerts (preview) dashboard. Anyone with the rights to view DLP alerts will see the alert on the dashboard. Only the user(s) listed under Send and alert to admins when a rule match occurs will receive the email.
 
-:::image type="content" source="../media/incident-reports.png" alt-text="A screenshot shows the Incident reports screen. The severity level is set to High and Send an alert is turned on.":::
+:::image type="content" source="../media/incident-reports.png" alt-text="Screenshot shows the Incident reports screen. The severity level is set to High and Send an alert is turned on.":::
 
 The image below shows the body of an email produced and sent to johannal@/<tenant/>.onmicrosoft.com when the high-severity alert has been triggered based on the configuration above. In this case, the activity that triggered the high-severity alert was a DLP policy that included a rule with an endpoint DLP setting to trigger enforcement when content containing sensitive data was uploaded to the cloud.
 
-:::image type="content" source="../media/high-severity.png" alt-text="A screenshot shows a high severity alert.":::
+:::image type="content" source="../media/high-severity.png" alt-text="Screenshot shows a high severity alert.":::
 
 When you click **View Alert Details** in the notification, you see the DLP Alerts (preview) view in the compliance center. Select the event that prompted the alert. (You can also get to the alerts by going to **Data loss prevention** > **Alerts (preview).**)
 
 In this case, we see that the event was a file that included a high volume of U.K. financial data was copied to the cloud. While not shown in the image below, the administrator can initiate a workflow to manage each alert to resolution and/or send an email to another user informing them of the DLP policy violation.
 
-:::image type="content" source="../media/alert-event-details.png" alt-text="A screenshot shows the details for an event that prompted a high severity alert.":::
+:::image type="content" source="../media/alert-event-details.png" alt-text="Screenshot shows the details for an event that prompted a high severity alert.":::
 
 ## Learn more
 
