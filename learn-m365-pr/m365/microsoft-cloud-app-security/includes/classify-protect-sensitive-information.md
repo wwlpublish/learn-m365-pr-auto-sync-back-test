@@ -31,7 +31,7 @@ In this phase, you'll do the following:
    - **Highly confidential**: Very sensitive data that will cause serious damage if shared with unauthorized people. For example, customer details, passwords and source code.
 1. Enable Azure Information Protection integration in Microsoft Cloud App Security by selecting **Automatically scan new files for Azure Information Protection classification labels** in the **Settings** pane:
 
-:::image type="content" source="../media/phase-2-classify-sensitive-information.png" alt-text="Screenshot showing how to configure Azure information protection":::
+:::image type="content" source="../media/phase-2-classify-sensitive-information.png" alt-text="Screenshot showing how to configure Azure information protection.":::
 
 ### Phase 3: Protect data
 
@@ -58,7 +58,7 @@ To create a file policy
    | **Category**                                               | This is  an informative label that you assign to the policy to help locate it later.  By default, for File policies is DLP. |
    | **Create a filter for the files  this policy will act on** | It  is used to decide which apps will trigger the policy. Ideally this should be  defined to be as narrow as possible to avoid false positives. |
    | **Apply to (1st)**                                         | Select which discovered apps will  trigger the policy. There are two choices:  ·      All files excluding selected folders: to apply the policy  to all files.  ·      Selected folders: to apply the policy to apps like  Box, SharePoint, OneDrive, and Dropbox. |
-   | **Apply to (2nd)**                                         | Select which users and groups  should be included in this policyThere are three options:  ·      All file owners  ·      File owners from selected user groups  ·      All file owners excluding selected groups |
+   | **Apply to (2nd)**                                         | Select which users and groups  should be included in this policy. There are three options:  ·      All file owners  ·      File owners from selected user groups  ·      All file owners excluding selected groups |
    | **Content inspection method**                              | Select how you want files to be  inspected.  There are two options:  ·      Built-in DLP  ·      Data Classification Services (DCS)  Microsoft  recommends DCS as this will allow you to use a unified labeling experience  across Microsoft 365, Azure Information Protection, and Microsoft Cloud App Security. |
    | **Governance**                                             | Select which governance  actions you want Microsoft Cloud App Security to perform when a match is  detected. |
 
@@ -68,6 +68,6 @@ To create a file policy
 
 Check your dashboard to monitor for alerts and the overall health of your environment. For example, to review file-related alerts, go to the **Alerts** pane, and select **DLP** in the **Category** field.
 
-:::image type="content" source="../media/phase-4-alerts.png" alt-text="Screenshot showing how to monitor for alerts":::
+:::image type="content" source="../media/phase-4-alerts.png" alt-text="Screenshot showing how to monitor for alerts.":::
 
 You can investigate a file-related alert to better understand what caused it to be triggered. Or you can dismiss an alert that you determine could be ignored. You can also export your alerts to a CSV file for further analysis.
