@@ -4,7 +4,7 @@ Think of DLP as also meaning Data Lifecycle Protection. It's an opportunity to c
 
 There are four key areas for preventing data loss and managing the data lifecycle.
 
-**Detect/Discover.** Identify the data you want to protect. To detect sensitive data, you can use a content scan, such as Azure Information Protection Scanner, and define data through data classification.
+**Detect/Discover.** Identify the data you want to protect. To detect sensitive data, you can use a content scan, such as Azure Information Protection (AIP) unified labeling scanner, and define data through data classification.
 
 **Protection.** Consider the range of DLP enforcement actions you can apply to documents and emails containing sensitive information, such as block sending, block sharing, warning end-users or auditing activity.
 
@@ -19,7 +19,7 @@ There are four key areas for preventing data loss and managing the data lifecycl
 - Minimize data exposure time
 - Provide context to help ensure that the data classification is correct
 
-Most of your organization's data might not be RMS-protected but still require some level of DLP short of RMS encryption. AIP classification at document creation can be the start of the data protection process. An end user who applies AIP classification at document creation can assist identifying and protecting sensitive data that isn't easily detected through content inspection or other means.
+Most of your organization's data might not be protected by the rights management service (RMS) but still require some level of DLP short of RMS encryption. AIP classification at document creation can be the start of the data protection process. An end user who applies AIP classification at document creation can assist identifying and protecting sensitive data that isn't easily detected through content inspection or other means.
 
 ## Learn more
 
