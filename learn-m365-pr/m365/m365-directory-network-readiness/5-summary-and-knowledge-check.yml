@@ -15,15 +15,18 @@ content: |
 quiz:
     title: Check your knowledge
     questions:
-    - content: "If your organization uses Exchange or SharePoint, you’re already using Azure AD."
+    - content: "If your organization uses Exchange or SharePoint, which statement is correct?"
       choices:
-      - content: "True"
+      - content: "Your organization **must** be using Azure Active Directory."
         isCorrect: false
-        explanation: "If your organization uses services like Exchange Online or SharePoint Online, you’re already using Azure AD. If you’re not currently using Azure AD but have on-premises directories, you can use the Azure AD Connect tool to integrate Azure AD with your on-premises directories."
-      - content: "False"
+        explanation: "That's incorrect. If you’re using on-premises directories and installations of Exchange and SharePoint, you might not be using Azure AD."
+      - content: "Your organization **could be** using Azure Active Directory."
         isCorrect: true
-        explanation: "If your organization uses services like Exchange Online or SharePoint Online, you’re already using Azure AD. If you’re not currently using Azure AD but have on-premises directories, you can use the Azure AD Connect tool to integrate Azure AD with your on-premises directories."
-      
+        explanation: "Correct. If your organization uses services like Exchange Online or SharePoint Online, you’re already using Azure AD. If you’re not currently using Azure AD but have on-premises directories, you can use the Azure AD Connect tool to integrate Azure AD with your on-premises directories."
+      - content: "Your organization **is not** using Azure Active Directory."
+        isCorrect: false
+        explanation: "That's incorrect. If you’re not currently using Azure AD but have on-premises directories, you can use the Azure AD Connect tool to integrate Azure AD with your on-premises directories."
+       
     - content: "How much bandwidth does the initial migration of a user's profile in Window consume?"
       choices:
       - content: "More than 20 GB"
