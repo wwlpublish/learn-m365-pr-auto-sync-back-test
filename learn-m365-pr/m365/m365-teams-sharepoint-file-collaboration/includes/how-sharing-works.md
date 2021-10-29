@@ -24,7 +24,7 @@ When users share files or folders, guests will be asked to enter a verification 
 - A work or school account in Azure AD from another organization.
 - An email address that isn't a Microsoft account or a work or school account in Azure AD.
 
-:::image type="content" source="../media/verification-code.png" alt-text="Screenshot of the verifcation code for recipients of a link." border="false":::
+:::image type="content" source="../media/verification-code.png" alt-text="Screenshot of the verification code for recipients of a link." border="false":::
 
 - If the guest has a work or school account, they only need to enter the code the first time. Then they will be added as a guest and can sign in with their organization's username and password.
 - If the guest doesn't have a work or school account, they need to use a code each time they access the file or folder, and they are not added to your directory.
