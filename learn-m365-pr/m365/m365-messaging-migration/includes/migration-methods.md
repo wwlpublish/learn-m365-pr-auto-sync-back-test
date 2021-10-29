@@ -3,7 +3,7 @@ There are many methods you can use to import mail, calendar, and contact informa
 ## Migrating from Exchange Server
 
 In complex, real-world business environments, Exchange Server provides critical communication and collaboration tools. It's likely to impact your bottom line if email functionality goes wrong. If migrations are performed carelessly, problems often arise and can prevent users from doing their jobs. 
-Microsoft provides the mail migration advisor to help you execute trouble-free migrations from your current mail system to Exchange Online in Microsoft 365. This tool asks you questions about your current environment and proposes the most appropriate migration path. The migration strategies you'll learn about in this section are all included in the migration advisor.
+Microsoft provides the mail migration advisor to help you execute trouble-free migrations from your current mail system to Exchange Server in Microsoft 365. This tool asks you questions about your current environment and proposes the most appropriate migration path. The migration strategies you'll learn about in this section are all included in the migration advisor.
 
 ### Migrating in a hybrid environment
 
