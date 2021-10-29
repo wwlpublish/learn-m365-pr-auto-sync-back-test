@@ -77,6 +77,6 @@ To scope an anomaly detection policy:
 1. Select **Include** to specify the users and groups for whom this policy will apply. Any user or group not selected here won't be considered a threat or generate an alert.
 1. Select **Exclude** to specify users for whom this policy won't apply. Any user selected here won't be considered a threat or generate an alert, even if they're members of groups selected under **Include**.
 
-   :::image type="content" source="../media/anomaly-detection-policy.png" alt-text="Screenshot showing how to edit an Anomaly detection policy":::
+:::image type="content" source="../media/anomaly-detection-policy.png" alt-text="Screenshot showing how to edit an Anomaly detection policy." lightbox="../media/anomaly-detection-policy.png":::
 
 1. When you've completed the changes to the scope, select **Update** to commit the change.
