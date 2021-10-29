@@ -16,7 +16,7 @@ Now, let's examine these lifecycle stages in more detail.
 
 1. **File is created**
 
-    Your legal department creates a slide deck to share with clients in PowerPoint. It's a generic deck that should be tailored for each client. The file isn't given any sensitivity labeling. Sensitivity labels can be automatically added to any documents created in an Office app. 
+    Your legal department creates a slide deck to share with clients in PowerPoint. It's a generic deck that should be tailored for each client. The file isn't _immediately_ given any sensitivity labeling. Sensitivity labels enforce information protection based on labels added to any documents created in an Office app, so sensitivity labels will be added to each customized deck based on different client needs. 
 
 1. **User edits the file**
 
