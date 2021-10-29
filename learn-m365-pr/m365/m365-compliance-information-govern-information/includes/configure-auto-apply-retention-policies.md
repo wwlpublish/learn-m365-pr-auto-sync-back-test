@@ -19,14 +19,14 @@ Navigate to **Microsoft 365 compliance center > Information Governance > Label p
 
 Creating an auto-apply retention label policy consists of these steps:
 
-1. Choose label to publish
+1. Choose label to auto-apply
 1. Choose conditions
 1. Settings (only valid for sensitive info condition)
 1. Name your policy
 1. Locations
 1. Review your settings
 
-![Auto-apply retention label policy configuration](../media/auto-apply-retention-label-policy-configuration.png)
+:::image type="content" source="../media/auto-apply-retention-label-policy-configuration.png" alt-text="Diagram showing Steps of Auto-apply retention label policy configuration.":::
 
 ## Step 1: Choose label to auto-apply
 

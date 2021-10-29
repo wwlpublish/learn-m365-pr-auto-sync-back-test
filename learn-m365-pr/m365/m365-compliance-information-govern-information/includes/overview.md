@@ -22,7 +22,7 @@ Here is some common scenarios Microsoft's solution for information governance ca
 
 Situations may arise where content has several retention policies apply (or a combination of retention policies and a single retention label policy). These policies might have different actions (retain, delete, or both) and different retention periods. The following retention principles explain what takes precedence. The principles are applied from top to bottom. If the rules applied by all policies are the same at one level, the flow moves down to the next level to determine which rule is applied.
 
-![Principles of retention](../media/principles-of-retention.png)
+:::image type="content" source="../media/principles-of-retention.png" alt-text="Flowchart displaying the levels of Principles of retention.":::
 
 ### Retention wins over deletion
 
@@ -48,11 +48,11 @@ If content is subject to multiple policies that delete content (with no retentio
 
 **Microsoft Compliance Score** maps these compliance regulations, like the US Health Insurance Portability and Accountability Act (HIPAA), to actions recommended to achieve compliance. Many of these actions can be addressed using the **Information governance** solution. The image below shows the improvement actions in the **Information governance** solution the organization can take to improve its compliance posture relative to HIPAA.
   
-![Microsoft compliance score](../media/compliance-score.png)
+:::image type="content" source="../media/compliance-score.png" alt-text="Screenshot showing Microsoft compliance score.":::
 
 One of the first steps in creating a retention label is to tell Microsoft 365 if you want to apply retention settings. You may want to consider keeping this setting **Off** when creating and publishing (or auto-applying) a new label. You can then modify the retention label settings to add a retention period once you are satisfied it is working correctly. The image below shows the step during the retention label creation process where you specify if you want the label to apply retention. It may take as long as seven days for new retention labels to take effect after you publish or auto-apply them, so plan accordingly.
 
-![Retention label settings](../media/label-settings.png)
+:::image type="content" source="../media/label-settings.png" alt-text="Screenshot shows Retention label settings. The retention button is turned off.":::
 
 The instructions in the rest of this module assume you have added **Information governance** to the **Microsoft 365 compliance center** menu. This is also recommended if you are going to be working with the solution frequently. Here are the steps:
 
@@ -65,5 +65,5 @@ The instructions in the rest of this module assume you have added **Information 
 
 - [Manage information governance](/microsoft-365/compliance/manage-information-governance?azure-portal=true)
 - [Microsoft 365 security & compliance licensing guidance](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance?azure-portal=true)
-- [Information governance licensing guidance](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance%23information-governance?azure-portal=true)
+- [Information governance licensing guidance](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#information-governance)
 - [Applying a retention label automatically](/microsoft-365/compliance/labels?applying-a-retention-label-automatically-based-on-conditions?azure-portal=true)
