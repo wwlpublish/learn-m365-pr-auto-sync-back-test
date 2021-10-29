@@ -68,6 +68,6 @@ To create a file policy
 
 Check your dashboard to monitor for alerts and the overall health of your environment. For example, to review file-related alerts, go to the **Alerts** pane, and select **DLP** in the **Category** field.
 
-:::image type="content" source="../media/phase-4-alerts.png" alt-text="Screenshot showing how to monitor for alerts.":::
+:::image type="content" source="../media/phase-4-alerts.png" alt-text="Screenshot showing how to monitor for alerts." lightbox="../media/phase-4-alerts.png":::
 
 You can investigate a file-related alert to better understand what caused it to be triggered. Or you can dismiss an alert that you determine could be ignored. You can also export your alerts to a CSV file for further analysis.
