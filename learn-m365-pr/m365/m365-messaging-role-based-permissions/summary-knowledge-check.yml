@@ -15,17 +15,17 @@ content: |
 quiz:
     title: Check your knowledge
     questions:
-    - content: "Which user role lets a user edit their address information in the global address list (GAL)?"
+    - content: "Which Default Role Assignment policy lets a user edit their address information in the global address list (GAL)?"
       choices:
       - content: "MyContactInformation"
         isCorrect: true
-        explanation: "Yes, the MyContactInformation role lets a user edit their address information."
-      - content: "MyAddressInformation"
+        explanation: "Yes, the MyContactInformation Role Assignment policy lets a user edit their address information."
+      - content: "MyMobileInformation"
         isCorrect: false
-        explanation: "No, this isn't a role in Exchange Online. The MyContactInformation role lets a user edit their address information."
+        explanation: "No, MyMobileInformation does not allow a user to edit their address information in Exchange Online. The MyContactInformation role lets a user edit their address information."
       - content: "MyPersonalInformation"
         isCorrect: false
-        explanation: "No, this isn't a role in Exchange Online. The MyContactInformation role lets a user edit their address information."
+        explanation: "No, MyPersonalInformation does not allow a user to edit their address information in Exchange Online. The MyContactInformation role lets a user edit their address information."
 
     - content: "Which of the following cmdlets lets you view your current role groups?"
       choices:
@@ -39,7 +39,7 @@ quiz:
         isCorrect: false
         explanation: "No, the GetRoleGroup cmdlet displays the role groups."
       
-    - content: "What is the name of the eDiscovery-related role in the Microsoft 365 Defender portal?"
+    - content: "What is the name of the eDiscovery-related role group name in the Microsoft 365 Defender portal?"
       choices:
       - content: "eDiscoveryManagement"
         isCorrect: false

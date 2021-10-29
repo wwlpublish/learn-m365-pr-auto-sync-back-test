@@ -78,4 +78,3 @@ Set-OwaMailboxPolicy -Identity Executives -CalendarEnabled $true
 - [Manage mailbox permissions](/Exchange/recipients-in-exchange-online/manage-permissions-for-recipients)
 - [Configure mailbox policies](/exchange/clients-and-mobile-in-exchange-online/outlook-on-the-web/outlook-web-app-mailbox-policies)
 - [Mailbox policy properties](/exchange/clients-and-mobile-in-exchange-online/outlook-on-the-web/configure-outlook-web-app-mailbox-policy-properties)
-- [PowerShell Reference Library](/powershell/windows/get-started?azure-portal=true)
