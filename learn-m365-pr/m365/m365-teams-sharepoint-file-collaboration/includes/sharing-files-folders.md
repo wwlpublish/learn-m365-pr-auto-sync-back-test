@@ -16,7 +16,7 @@ An **Anyone** link is a transferrable, revocable secret key. It's transferrable 
 
 **People in your organization** links work only for people inside your organization. They do not work for guests in the directory, only members.
 
-:::image type="content" source="../media/people-org-link.png" alt-text="A digram showing that people in your organization links can only be accessed by users in your organization." border="false":::
+:::image type="content" source="../media/people-org-link.png" alt-text="A diagram showing that people in your organization links can only be accessed by users in your organization." border="false":::
 
 Like an *Anyone* link, a **People in my organization** link is a transferrable, revocable secret key. Unlike an **Anyone** link, these links only work for people inside your organization. When somebody opens a **People in my organization** link, they need to be authenticated as a member in your directory. If they're not currently signed in, they'll be prompted to do so.
 
