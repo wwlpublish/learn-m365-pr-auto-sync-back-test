@@ -31,7 +31,7 @@ In this phase, you'll do the following:
    - **Highly confidential**: Very sensitive data that will cause serious damage if shared with unauthorized people. For example, customer details, passwords and source code.
 1. Enable Azure Information Protection integration in Microsoft Cloud App Security by selecting **Automatically scan new files for Azure Information Protection classification labels** in the **Settings** pane:
 
-:::image type="content" source="../media/phase-2-classify-sensitive-information.png" alt-text="Screenshot showing how to configure Azure information protection.":::
+:::image type="content" source="../media/phase-2-classify-sensitive-information.png" alt-text="Screenshot showing how to configure Azure information protection." lightbox="../media/phase-2-classify-sensitive-information.png":::
 
 ### Phase 3: Protect data
 
