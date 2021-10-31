@@ -41,7 +41,7 @@ quiz:
       choices:
       - content: "A security policy in Mobile Device Management (MDM)"
         isCorrect: false
-        explanation: "No, security policies don't block a user from copying and pasting data outseif of Exchange Online."
+        explanation: "No, security policies don't block a user from copying and pasting data outside of Exchange Online."
       - content: "A Conditional Access policy"
         isCorrect: false
         explanation: "No, in Enterprise Mobility + Security, Conditional Access policies control which devices can connect to Exchange Online, not what users can do with the data they find there."
