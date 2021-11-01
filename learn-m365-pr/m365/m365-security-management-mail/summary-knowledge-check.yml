@@ -31,18 +31,18 @@ quiz:
         explanation: "Correct. Malicious attachments and hyperlinks are two of the most common phishing attacks. Microsoft Defender for Office 365 protects against both with Safe Links and Safe Attachments."
     - content: "The Contoso organization has Office 365 Enterprise E5 for all users. The security administrator has defined specific anti-phishing policies for the finance department but hasn't applied those policies elsewhere. Which of the following is true?"
       choices:
-      - content: "Microsoft Defender for Office 365 anti-phishing protection is in place for all of Contoso"
+      - content: "Microsoft Defender for Office 365 anti-phishing protection policies for finance are automatically applied to all Contoso users."
         isCorrect: false
-        explanation: "Although the feature is available, at least one Microsoft Defender for Office 365 policy must be defined for the Microsoft Defender for Office 365 machine learning models to work."
-      - content: "Microsoft Defender for Office 365 advanced anti-phishing protection is in place for finance, while all other Contoso users receive baseline anti-phishing protection."
-        isCorrect: false
-        explanation: "There is no baseline and advanced layer of Microsoft Defender for Office 365 anti-phishing protection."
+        explanation: "The finance anti-phishing protection policies for finance must be applied to finance users. The policies will not be automatically applied to other users."
+      - content: "Microsoft Defender for Office 365 advanced anti-phishing protection is in place for finance, while all other Contoso users are protected by the default anti-phishing protection."
+        isCorrect: true
+        explanation: "Correct. All users have default anti-phishing protection, and finance have an additional layer of Microsoft Defender for Office 365 anti-phishing protection."
       - content: "Microsoft Defender for Office 365 anti-phishing protection is in place for finance and all newly created users, but not for the rest of Contoso."
         isCorrect: false
-        explanation: "Although the feature is available, at least one Microsoft Defender for Office 365 policy must be defined for the Microsoft Defender for Office 365 machine learning models to work. New users would only receive the policy if placed in the finance department."
+        explanation: "New users are protected with the default policy, and by the finance policy if they work in the finance department."
       - content: "Microsoft Defender for Office 365 anti-phishing protection is in place for only the finance department."
-        isCorrect: true
-        explanation: "Correct. Since the Microsoft Defender for Office 365 anti-phishing policies were only applied to the finance department, the rest of Contoso won't receive that protection until the policies are applied to the organization."
+        isCorrect: false
+        explanation: "Microsoft Defender for Office 365 anti-phishing policies for the finance department provide specific protection, all other users in Contoso are protected by default anti-phishing protection."
       
     - content: "What anti-phishing policy option should be used to ensure an outside attacker can’t impersonate the CEO of your organization?"
       choices:
