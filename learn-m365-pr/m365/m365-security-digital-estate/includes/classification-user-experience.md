@@ -29,4 +29,4 @@ When a user creates or views a document with information protection enabled, the
   - Users can manually classify the document.
   - User classification determines which labels and protections automatically apply.
 
-  :::image type="content" source="./media/user-set-classification.png" alt-text="Screenshot of a document that has user-set classification.":::
+  :::image type="content" source="../media/user-set-classification.png" alt-text="Screenshot of a document that has user-set classification.":::
