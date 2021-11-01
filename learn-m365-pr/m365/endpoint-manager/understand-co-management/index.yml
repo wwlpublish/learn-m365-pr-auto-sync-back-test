@@ -1,0 +1,39 @@
+### YamlMime:Module
+uid: learn.set-up-co-management
+metadata:
+  moduleType: standard
+  title: Understand co-management using Microsoft Endpoint Configuration Manager
+  description: After completing this module, you will better understand co-management when using Microsoft Endpoint Configuration Manager. 
+  ms.date: 11/01/2021
+  author: Erikre
+  ms.author: erikre
+  ms.topic: interactive-tutorial
+title: Understand co-management using Microsoft Endpoint Configuration Manager
+summary: Microsoft Endpoint Configuration Manager, which is a part of Microsoft Endpoint Manager, helps you protect the on-premises devices, apps, and data that the people at your organization use to be productive. After completing this module, you will better understand co-management when using Microsoft Endpoint Configuration Manager. In addition, you will be prepared to enable co-management based on the implementation path that best suites your organization. 
+abstract: | 
+  In this module, you will:
+    - Learn about the benefits of co-management
+    - Understand the co-management prerequisites
+    - Learn about paths to implement co-management
+prerequisites: | 
+  - Basic knowledge of Microsoft Endpoint Manager and endpoint management concepts, see [Microsoft Endpoint Manager fundamentals](/learn/paths/endpoint-manager-fundamentals?azure-portal=true).
+  - Understand your endpoint management objectives, device inventory considerations, licensing needs, infrastructure objectives, and rollout plans, see [Determine your endpoint management implementation](/learn/modules/determine-endpoint-implementation?azure-portal=true).
+  - Understand tenant attach, see [Set up tenant attach using Microsoft Endpoint Configuration Manager](/learn/modules/endpoint-manager/setup-tenant-attach-using-configuration-manager?azure-portal=true).
+iconUrl: /learn/achievements/generic-badge.svg
+ratingEnabled: true
+levels:
+- beginner
+roles:
+- administrator
+products:
+- m365
+- mem
+units:
+- learn.set-up-co-management.introduction
+- learn.set-up-co-management.understand-co-management
+- learn.set-up-co-management.learn-about-co-management-prerequisites
+- learn.set-up-co-management.learn-about-paths-to-co-management
+- learn.set-up-co-management.knowledge-check
+- learn.set-up-co-management.summary
+badge:
+  uid: learn.set-up-co-management.badge
