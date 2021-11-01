@@ -19,9 +19,9 @@ quiz:
   questions:
   - content: "As the Messaging admin for Contoso, Holly Dickson plans to do a Remote Wipe on a device that supports a strong encryption of all device data. What should Holly be aware of in this situation?"
     choices:
-    - content: "After completing the remote wipe, Holly may still be able to retrieve data using special forensic inestigation tools"
+    - content: "After completing the remote wipe, Holly may still be able to retrieve data using special forensic investigation tools"
       isCorrect: false
-      explanation: "That's incorrect. Data recovery using sophisticated forensic investigation tools is only possible is the device isn't encrypted. Try again."
+      explanation: "That's incorrect. Data recovery using sophisticated forensic investigation tools is only possible if the device isn't encrypted. Try again."
     - content: "The remote wipe will destroy all data on the device except for photos"
       isCorrect: false
       explanation: "That's incorrect. By default, Remote Wipe destroys all data on the device, including personal photos and data. Try again."
