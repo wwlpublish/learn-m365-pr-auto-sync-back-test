@@ -1,0 +1,30 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.configure-organizational-settings.configure-workload-policies-throttling
+title: Configure workload policies and throttling
+metadata:
+  title: Configure workload policies and throttling
+  description: "Configure workload policies and throttling"
+  ms.date: 11/01/2021
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 8
+content: |
+  [!include[](includes/2-configure-workload-policies-throttling.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "Contoso's Exchange Server environment is running workloads that have each type of available workload classification assigned. Because the resources used by each Exchange Server workload are highly used, Exchange Server has begun to progressively slow down the workloads. Which workloads will Exchange Server slow down first?"
+    choices:
+    - content: "Workloads with an Internal Maintenance classification"
+      isCorrect: false
+      explanation: "That's incorrect. Workloads with an Internal Maintenance classification aren't the first to be slowed down. Try again."
+    - content: "Workloads with a Discretionary classification"
+      isCorrect: true
+      explanation: "That's correct. If server resources are highly used, Exchange Server progressively slows down the lowest priority workloads. Priorities are defined by the classification assigned to each workload: Urgent, Customer Expectation, Internal Maintenance, and Discretionary. Urgent classification has the highest priority and Discretionary classification has the lowest priority. Because Contoso has resources running workloads with each type of classification, the Discretionary workloads are slowed down first."
+    - content: "Workloads with a Customer Expectation classification"
+      isCorrect: false
+      explanation: "That's incorrect. Workloads with a Customer Expectation classification aren't the first to be slowed down. Try again."
