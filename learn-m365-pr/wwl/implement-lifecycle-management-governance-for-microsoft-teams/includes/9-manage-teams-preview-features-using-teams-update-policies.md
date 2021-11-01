@@ -7,7 +7,7 @@ You can use the Global (Org-wide default) policy and customize it, or create one
 ## Create a custom Update policy
 
 1. Sign in to the Teams admin center.
-2. Select **Teams**>**Update policies**.
+2. Select **Teams** > **Teams update policies**.
 3. Select **Add**.
 4. Name the update policy, add a description, and select one of the following options:
 
@@ -25,7 +25,7 @@ You can also set the policy using PowerShell using the ```Set-CsTeamsUpdateManag
 
 Once you created the custom policy, you need to assign the policy to specific users because it doesn't over-write the global policy.
 
-1. Go to **Teams admin center**>**Teams**>**Update policies**.
+1. Go to **Teams admin center** > **Teams** > **Teams update policies**.
 2. Select the custom Update policy. 
 3. Select **Manage Users**.
 4. Search and select **Add** next to the users.

@@ -4,7 +4,7 @@ If you support legacy clients that use Exchange ActiveSync (EAS) to connect to E
 
 Some users may prefer to use their device's built-in mail app to access their email, or you may have legacy devices that don't support Outlook for iOS and Android. If you want to enable these clients to synchronize calendar and contact information, as well as emails, you might have to use Exchange ActiveSync (EAS). In this case, you can take control of EAS clients by using mobile device mailbox policies.
 
->[!NOTE]
+> [!NOTE]
 > Mobile device mailbox policies were formally known as Exchange ActiveSync policies and were specifically designed to manage EAS clients. These are separate objects from security policies in Mobile Device Management (MDM).
 
 ## Find out about mobile device mailbox policies

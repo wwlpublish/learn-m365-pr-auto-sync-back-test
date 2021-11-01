@@ -4,4 +4,4 @@ At the end of this module, you should be able to:
 
  -  Explain modern device and application management concepts.
  -  Explain the value of the Microsoft Endpoint Manager (MEM), including Microsoft Intune and Configuration Manager.
- -  Describe how Autopilot can help streamline new device acquisition and setup.  
+ -  Describe how Autopilot can help streamline new device acquisition and setup.

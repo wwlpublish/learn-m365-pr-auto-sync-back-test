@@ -1,56 +1,67 @@
-Let's examine how you can control Outlook for iOS and Android clients by using Enterprise Mobility + Security or by using the built-in Mobile Device Management (MDM) features of Microsoft 365.
+Let's examine how you can control Outlook for iOS and Android clients by using Enterprise Mobility + Security, or the built-in Microsoft Endpoint Manager (MEM) features of Microsoft 365.
 
 ## Use Enterprise Mobility + Security to manage Outlook for iOS and Android
 
-Your Enterprise Mobility + Security subscription provides a versatile set of tools for managing your mobile clients. For example, you can selectively wipe your company's data from a device, require data encryption, and block access from compromised or lost devices. This unit focuses on Conditional Access policies and app protection policies.
+Your Enterprise Mobility + Security subscription provides a versatile set of tools for managing mobile clients. For example, you can selectively wipe your company's data from a device, require data encryption, and block access from compromised or lost devices. This unit focuses on conditional access and app protection policies.
 
-### Create a Conditional Access policy
+### Create a conditional access policy
 
-Conditional Access policies impose requirements that users and devices must satisfy before they can connect to Exchange Online. You can assign different policies to different groups in your organization. This technique is useful, because more powerful administrators' accounts are targeted by attackers. It's sensible to apply stricter policies to administrative users than those that apply to users with fewer permissions.  
+Conditional access policies impose requirements that users and devices must satisfy before they connect to Exchange Online. You can assign different policies to different groups in your organization. This technique is useful, because more powerful administrators' accounts are targeted by attackers. It's sensible to apply stricter policies to administrative users than those for users with fewer permissions.  
 
-To create a Conditional Access policy, follow these steps. In this example, the policy requires users to authenticate with multifactor authentication:
+To create a conditional access policy, follow these steps. In this example, the policy requires users to complete multifactor authentication:
 
 1. In the Azure portal, go to **Azure Active Directory > Security > Conditional Access**, and then select **New Policy**.
-2. Enter a descriptive name that will help other administrators to understand the purpose of the policy.  
-3. Select **Users and groups** under **Assignments**. Add the groups that you want the policy to apply to the **Include** list. Add any groups that you don't want the policy to apply to the Exclude list. Click **Done**.  
-4. Under **Cloud apps or actions > Include**, select **All cloud apps**, and then click **Done**.
-5. Under **Conditions > Client apps > Configure**, select **Yes**, and then click **Done**.
-6. Under **Access controls > Grant**, select **Grant access**, **require multi-factor authentication**, and then click **Select**.
-7. To enable the new policy, under **Enable policy**, select **On**, and then click **Create**.
+
+    :::image type="content" source="../media/new-policy-conditional-access.png" alt-text="Screenshot of the Azure Active Directory showing the New Policy button.":::
+
+1. Enter a descriptive name that will help other administrators to understand the purpose of the policy.  
+1. Select **Users and groups** under **Assignments**. Add the groups to the **Include** list that you want the policy to apply to. In the **Exclude** list, add any groups that you don't want the policy to apply to. Click **Done**.  
+1. Under **Cloud apps or actions > Include**, select **All cloud apps**, and then click **Done**.
+1. Under **Conditions > Client apps > Configure**, select **Yes**, and then click **Done**.
+1. Under **Access controls > Grant**, select **Grant access**, **require multi-factor authentication**, and then click **Select**.
+1. To enable the new policy, under **Enable policy**, select **On**, and then click **Create**.
 
 ### Create an app protection policy
 
-An app protection policy ensures that your organization's data remains secured, even when it is synchronized with a mobile device. For example, you can use app protection policies to prevent users from sharing your organization's data with other apps on the same device. You could also prevent users from using screen capture tools to save an image of sensitive data, which could be shared with others later, either deliberately or accidentally.  
+An app protection policy ensures that your organization's data remains secured, even when it's synchronized with a mobile device. For example, you can use app protection policies to prevent people from sharing your organization's data with other apps on the same device. You could also prevent anyone using screen capture tools to save an image of sensitive data. This could be shared with others, either deliberately or accidentally.  
 
-In this example, you create a policy that prevents iOS devices from backing up your data or using copy and paste to transfer your data to another app:
+In this example, you create a policy that prevents iOS devices from backing up your data or using copy and paste to transfer it to another app:
 
-1. In Microsoft Intune, go to **Apps > App protection policies**, click **Create policy**, and then select **iOS/iPadOS**.
-2. On the **Basics** page of the **Create Policy** wizard, enter a name and description for the policy. Use these values to make the purpose of the policy clear to other administrators. Select **Next**.
-   ![The Create policy wizard is displayed. The Next button is highlighted.](../media/create-policy-wizard.png)
-3. On the **Apps** page, select **Yes** next to **Target to apps on all devices**.
-4. On the **Data protection** page, select **Block** next to **Backup Org data to iTunes and iCloud backup**.
-5. Select **Blocked** next to **Restrict cut, copy, and paste between other apps**, and then select **Next**.
-6. Select **Next** on the **Access requirements** page and the **Conditional launch** page.
-7. On the Assignments page, select **Next: Review + create**.
-8. Click **Create**.
+1. In **Microsoft Endpoint Manager admin center**, go to **Apps > App protection policies**, click **Create policy**, and then select **iOS/iPadOS**.
 
-## Use Mobile Device Management (MDM) to manage Outlook Mobile
+    :::image type="content" source="../media/create-app-protection-policy.png" alt-text="Screenshot of the App protection policies with the create policy button highlighted.":::
 
-Mobile Device Management (MDM) is a Microsoft 365 feature that you can use to manage mobile devices at no extra cost.  
+1. On the **Basics** page of the **Create Policy** wizard, enter a name and description for the policy. Use these values to make the purpose of the policy clear to other administrators. Select **Next**.
 
-Before you can use MDM to secure any devices, you have to activate Mobile Device Management for Microsoft 365. Then you can create a device policy by following these steps:
+    :::image type="content" source="../media/create-policy-wizard.png" alt-text="Screenshot displaying the Create policy wizard. The Next button is highlighted." border="false":::
+1. On the **Apps** page, select **Yes** next to **Target to apps on all devices**.
+1. Select **All Apps** next to **Target policy to**.
+1. On the **Data protection** page, select **Block** next to **Backup Org data to iTunes and iCloud backup**.
+1. Select **Blocked** next to **Restrict cut, copy, and paste between other apps**, and then select **Next**.
+1. Select **Next** on the **Access requirements** page and the **Conditional launch** page.
+1. On the **Assignments** page, select **Next: Review + create**.
+1. Click **Create**.
 
-1. In the Microsoft 365 admin center, search for "Mobile device management," and then select it in the search results.
-2. Click **Device security policies** under **Device Management**, and then click **Create a policy**.
-   ![The Device security policies screen is shown with a cursor pointing to **Create a policy**.](../media/create-policy-button.png)
+## Use Microsoft Endpoint Manager to manage Outlook Mobile
 
-3. Specify your security requirements on the **Policy Settings** page.
-4. Select the groups that you want to apply this policy to, and then click **Create this policy**.  
+Microsoft Endpoint Manager (MEM) is a Microsoft 365 feature that you can use to manage mobile devices at no extra cost.  
 
->[!NOTE]
-> The settings that you can apply depend on the mobile operating system you are managing. For example, you can require a password for both iOS and Android devices, but you can only prevent simple passwords on iOS devices.
+Before you can use MEM to secure any devices, you have to activate it for Microsoft 365. Then you can create a device policy by following these steps:
 
-Once the policy has been created, its settings are pushed to the devices the next time they connect to Microsoft 365. If the device is connecting to Microsoft 365 for the first time, the user will receive a notification that explains how to enroll their device.  
+1. In **Microsoft Endpoint Manager admin center**, go to **Devices > Compliance policies**.
+
+    :::image type="content" source="../media/device-compliance-policies.png" alt-text="Screenshot of the Microsoft Endpoint Manager admin center, showing the Compliance policies.":::
+
+1. Select **Create a policy**, then select the platform. For example, **iOS/iPadOS**.
+1. Select **Create**.
+1. Specify your security requirements on the **iOS compliance policy** page.
+
+    :::image type="content" source="../media/create-device-protection-policy.png" alt-text="Screenshot of the Create device policy options.":::
+
+> [!NOTE]
+> The settings that you apply depend on the mobile operating system you are managing. For example, you can require a password for both iOS and Android devices, but only prevent simple passwords on iOS devices.
+
+When the policy has been created, its settings are pushed to the devices the next time they connect to Microsoft 365. If the device connects to Microsoft 365 for the first time, the user will receive a notification that explains how to enroll it.  
 
 ## Learn more
 
