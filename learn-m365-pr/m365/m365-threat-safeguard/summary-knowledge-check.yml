@@ -24,7 +24,7 @@ quiz:
         isCorrect: false
         explanation: "Incorrect. Microsoft Defender for Identity is a cloud-based security solution that requires an on-premises Active Directory."
 
-    - content: "Which of the following describes advanced threats Microsoft Defender for Identity detects along the cyber-attack kill-chain?"
+    - content: "Which of the following describes advanced threats detected by Microsoft Defender for Identity?"
       choices:
       - content: "Reconnaissance "
         isCorrect: true
