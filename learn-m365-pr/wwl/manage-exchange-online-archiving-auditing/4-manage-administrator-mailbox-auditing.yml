@@ -1,0 +1,30 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.manage-exchange-online-archiving-auditing.manage-administrator-mailbox-auditing
+title: Manage administrator and mailbox auditing
+metadata:
+  title: Manage administrator and mailbox auditing
+  description: "Manage administrator and mailbox auditing"
+  ms.date: 11/01/2021
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 7
+content: |
+  [!include[](includes/4-manage-administrator-mailbox-auditing.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "Fabrikam has an on-premises Exchange Server deployment. As the Messaging administrator for Fabrikam, Holly Spencer wants to implement mailbox audit logging to help determine who has accessed a specific mailbox and what they've done. What must Holly do to implement mailbox audit logging?"
+    choices:
+    - content: "Holly doesn't have to do anything, since mailbox audit logging is activated by default in Exchange Server"
+      isCorrect: false
+      explanation: "That's incorrect. Mailbox audit logging is activated by default in Exchange Online but not Exchange Server. Try again."
+    - content: "Activate audit logging for all mailboxes using the Exchange admin center"
+      isCorrect: false
+      explanation: "That's incorrect. You can't use the Exchange admin center to enable or disable mailbox audit logging. In addition, audit logging is enabled per mailbox and not all mailboxes at one time. Try again."
+    - content: "Activate audit logging for the specific mailbox using the Exchange Management Shell"
+      isCorrect: true
+      explanation: "That's correct. Mailbox audit logging must be activated manually per mailbox in Exchange Server. You can't use the Exchange admin center (EAC) to enable or disable mailbox audit logging. Instead, you must use the Exchange Management Shell to enable mailbox audit logging."
