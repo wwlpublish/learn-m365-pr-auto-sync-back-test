@@ -30,11 +30,11 @@ quiz:
         isCorrect: false
         explanation: "Reclassification allows the end user to reclassify the data or remove the label."
 
-    - content: "Which of the following is the optimal end-user classification experience for highly regulated and sensitive financial documents that must be classified as confidential?"
+    - content: "Which classification experience allows the end user to provide a justification for reclassifying the data or removing the label?"
       choices:
       - content: "Automatic"
-        isCorrect: true
-        explanation: "Correct. With automatic, the documents are automatically classified, labeled, and protected without allowing the end user to reclassify."
+        isCorrect: false
+        explanation: "With automatic, the documents are automatically classified, labeled, and protected without allowing the end user to reclassify."
       - content: "User-set"
         isCorrect: false
         explanation: "User-set would allow the end user to classify the document manually to a level other than classified."
@@ -42,8 +42,8 @@ quiz:
         isCorrect: false
         explanation: "With recommended, the end user could change the document to a level other than classified."
       - content: "Reclassification"
-        isCorrect: false
-        explanation: "Reclassification would allow the end user to reclassify the data, or worse remove the label."
+        isCorrect: true
+        explanation: "Correct. Reclassification would allow the end user to provide a justification for reclassifying the data or removing the label."
       
     - content: "Which department should you first work with to identify data protection standards, regulations, and requirements?"
       choices:
