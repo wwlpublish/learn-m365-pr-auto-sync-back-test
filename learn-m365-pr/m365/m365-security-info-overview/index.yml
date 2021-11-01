@@ -14,7 +14,6 @@ abstract: |
   At the end of this module, you should be able to:
   - Describe the standard journey of a file and the importance of information protection
   - Describe Microsoft 365 technologies that help protect sensitive data
-
 prerequisites: | 
  - Basic understanding of Microsoft 365. If you are unfamiliar with this, we recommend you take [Microsoft 365 Fundamentals](/learn/paths/m365-fundamentals/)
 iconUrl: /learn/achievements/info-protection-overview.svg
