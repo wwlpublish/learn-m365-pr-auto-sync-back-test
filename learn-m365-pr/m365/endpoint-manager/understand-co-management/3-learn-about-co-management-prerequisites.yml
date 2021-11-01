@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn.set-up-co-management.learn-about-co-management-prerequisites
+title: Learn about co-management prerequisites
+metadata:
+  unitType: learning-content
+  title: Understand co-management prerequisites
+  description: Understand co-management prerequisites
+  ms.date: 11/01/2021
+  author: Erikre
+  ms.author: erikre
+  ms.topic: interactive-tutorial
+  ms.prod: learning-endpoint-manager  
+durationInMinutes: 6
+content: |
+  [!include[](includes/3-learn-about-co-management-prerequisites.md)]
