@@ -1,0 +1,30 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.manage-mobile-device-access.protect-company-data-using-remote-wipe
+title: Protect company data on lost or stolen devices by using Remote Wipe
+metadata:
+  title: Protect company data on lost or stolen devices by using Remote Wipe
+  description: "Protect company data on lost or stolen devices by using Remote Wipe"
+  ms.date: 11/01/2021
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 8
+content: |
+  [!include[](includes/4-protect-company-data-using-remote-wipe.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "As the Messaging admin for Contoso, Holly Dickson plans to do a Remote Wipe on a device that supports a strong encryption of all device data. What should Holly be aware of in this situation?"
+    choices:
+    - content: "After completing the remote wipe, Holly may still be able to retrieve data using special forensic inestigation tools"
+      isCorrect: false
+      explanation: "That's incorrect. Data recovery using sophisticated forensic investigation tools is only possible is the device isn't encrypted. Try again."
+    - content: "The remote wipe will destroy all data on the device except for photos"
+      isCorrect: false
+      explanation: "That's incorrect. By default, Remote Wipe destroys all data on the device, including personal photos and data. Try again."
+    - content: "Data recovery on the device will be difficult, if not impossible"
+      isCorrect: true
+      explanation: "That's correct. After a remote device wipe, data recovery is difficult, if not impossible. This situation is especially true when the device supports a strong encryption of all device data."

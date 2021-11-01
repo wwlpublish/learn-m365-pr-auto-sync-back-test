@@ -1,0 +1,52 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.manage-mobile-device-access.knowledge-check
+title: Knowledge check
+metadata:
+  title: Knowledge check
+  description: "Knowledge check"
+  ms.date: 11/01/2021
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 6
+content: |
+  [!include[](includes/7-knowledge-check.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "As the Messaging administrator for Tailspin Toys, Alan Deyoung wants to configure the company's infrastructure to support mobile devices. What DNS record should Alan configure in Tailspin's internal and public DNS servers to provide automatic email account configuration for mobile devices?"
+    choices:
+    - content: "a Mail Exchanger (MX) record"
+      isCorrect: false
+      explanation: "That's incorrect. A DNS Mail Exchanger (MX) record directs email to a mail server. Try again."
+    - content: "the Autodiscover (CNAME) record"
+      isCorrect: true
+      explanation: "That's correct. The Autodiscover (CNAME) record should be configured in both your internal and public DNS servers. This design provides automatic email account configuration for mobile devices."
+    - content: "the Address Mapping (A) record"
+      isCorrect: false
+      explanation: "That's incorrect. A DNS Address Mapping (A) record maps a domain name to the IP address (Version 4) of the computer hosting the domain. Try again."
+  - content: "As the Messaging administrator for Lucerne Publishing, Patti Fernandez wants to configure the company's infrastructure for mobile devices. What port must Patti ensure is open on the firewalls that connect mobile devices with the Exchange Mailbox Server role?"
+    choices:
+    - content: "80"
+      isCorrect: false
+      explanation: "That's incorrect. Port 80 is used by Hypertext Transfer Protocol (HTTP) used in the World Wide Web. It doesn't connect mobile devices with Exchange. Try again."
+    - content: "143"
+      isCorrect: false
+      explanation: "That's incorrect. Port 143 is used by Internet Message Access Protocol (IMAP) Management of Digital Mail. It doesn't connect mobile devices with Exchange. Try again."
+    - content: "443"
+      isCorrect: true
+      explanation: "That's correct. Mobile devices in Exchange use the HTTPS protocol to connect to client access services on the mailbox server. Because port 443 is used by the HTTPS protocol, you must ensure this port is open on the firewalls that connect mobile devices with the Exchange Mailbox Server role."
+  - content: "Fabrikam has an Intune subscription. As the Messaging administrator for Fabrikam, Holly Spencer wants to set up Mobile Application Management (MAM) policies by using the Azure portal. However, none of Fabrikam's devices are enrolled yet in Intune. What should Holly do in order to create the MAM policies?"
+    choices:
+    - content: "Enroll Fabrikam's devices in Intune and then create the MAM policies"
+      isCorrect: false
+      explanation: "That's incorrect. This action isn't what Holly should do to create the MAM policies. Try again."
+    - content: "Create the MAM policies"
+      isCorrect: true
+      explanation: "That's correct. An Intune subscription allows you to set up MAM policies by using the Azure portal, even if user's devices aren't enrolled in Intune."
+    - content: "Enroll the devices in MDM for Microsoft 365, install Intune, and then create the MAM policies"
+      isCorrect: false
+      explanation: "That's incorrect. This action isn't what Holly should do to create the MAM policies. Try again."
