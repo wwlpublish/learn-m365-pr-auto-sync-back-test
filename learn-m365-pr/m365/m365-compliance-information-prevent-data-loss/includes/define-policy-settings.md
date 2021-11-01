@@ -16,7 +16,7 @@ The advanced workflow uses a rule editor to extend the options offered in the si
 
 The image below shows the two workflow branches. Notice in the simple branch, listed first, the three sensitive information types that were inherited from the selection of the **U.K. Financial Data** policy template in the **Choose information to protect** step. We're going to use the advanced option in our examples, so the image shows Create or customize advanced DLP rules has been selected.
 
-:::image type="content" source="../media/define-policy-settings.png" alt-text="Screenshot shows the Define policy settings page of the DLP solution, with the choice to Create or customize advanced DLP rules selected.":::
+:::image type="content" source="../media/define-policy-settings.png" alt-text="Screenshot shows the Define policy settings page of the DLP solution, with the choice to Create or customize advanced DLP rules selected." lightbox="../media/define-policy-settings.png":::
 
 ## Customize advanced DLP rules
 
