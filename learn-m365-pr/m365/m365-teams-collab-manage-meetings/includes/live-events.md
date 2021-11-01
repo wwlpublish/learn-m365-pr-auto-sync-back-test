@@ -23,7 +23,7 @@ To schedule a live event, users must have:
 - A Microsoft Teams license.
 - A Microsoft Stream license.
 
-![New live event screen](../media/new-live-event.png)
+:::image type="content" source="../media/new-live-event.png" alt-text="Screenshot showing the new live event screen.":::
 
 A license is required to participate in a live event as an authenticated user, but this requirement depends on the production method used:
 
@@ -44,5 +44,5 @@ Depending on whether the event is public or private, attendees in live events ma
 
 - [What are Microsoft Teams live events?](/MicrosoftTeams/teams-live-events/what-are-teams-live-events?azure-portal=true)
 - [Plan for live events in Microsoft Teams](/MicrosoftTeams/teams-live-events/plan-for-teams-live-events?azure-portal=true)
-- [Configure settings for live events](/microsoftteams/teams-live-events/configure-teams-live-events?azure-portal=true)
-- [Create and manage policies for live events](/microsoftteams/teams-live-events/set-up-for-teams-live-events#step-3-set-up-live-events-policies?azure-portal=true)
+- [Configure live event settings in Microsoft Teams](/microsoftteams/teams-live-events/configure-teams-live-events?azure-portal=true)
+- [Manage meeting policies in Microsoft Teams](/microsoftteams/meeting-policies-overview)

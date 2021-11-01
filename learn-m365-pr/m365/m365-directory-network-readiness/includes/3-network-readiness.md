@@ -1,10 +1,10 @@
-When it comes to preparing your network for a deployment, you need to take into consideration any and all components that have an impact on bandwidth. The most important considerations are:
+When it comes to preparing your network for a deployment, you need to take into consideration all the components that have an impact on bandwidth. The most important considerations are:
 
 - PC imaging and app installations
 - Software updates
 - User personalization
 
-**PC imaging and app installations.** For Windows images with no customization plan for 3 GB per PC; customized images with apps need 6 GB or more. You may also need to consider driver packages - these can range from a few hundred megabytes per PC up to 1 GB.
+**PC imaging and app installations.** For Windows images with no customization, plan for 4 GB per PC; customized images with apps need 6 GB or more. You may also need to consider driver packages - these can range from a few hundred megabytes per PC up to 1 GB.
 
 Other components can also impact your network bandwidth, including the initial installation of Office apps and any language support for deployments (of Office or Windows) that use multiple languages.  
 
