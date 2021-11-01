@@ -22,11 +22,11 @@ To create and start a migration batch, follow these steps in the Microsoft 365 a
 2. Select **+**, and then click **Migrate to Exchange Online**.
 3. On the **Select a migration type** page, select **Remote move migration**, and then click **Next**.
 
-   ![Select Remote move migration](../media/remote-move-migration.png)
+ :::image type="content" source="../media/remote-move-migration.png" alt-text="Screenshot showing Select a migration type page and the option of Remote move migration is selected.":::
 
 4. In the **Select the users** page, click **+** and then search for and add the mailbox users that you want to migrate in this batch. When you've configured the list of mailboxes, select **Next**.
 
-   ![Select the mailbox users you want to move](../media/select-mailbox-users.png)
+:::image type="content" source="../media/select-mailbox-users.png" alt-text="Screenshot showing select the users page and the option of selecting the mailbox users you want to move is highlighted.":::
 
 5. In the Enter the Windows user account credential page, enter the username and password for an account with administrative permissions in the on-premises system, and then click Next.
 6. In the **Confirm the migration endpoint** page, check that the server name is correct, and then click **Next**.
@@ -49,7 +49,7 @@ Migration operations can take a long time, depending on the size of the mailboxe
 You can also use PowerShell to diagnose the status of a migration and its mailboxes. For example, this command displays the status of a batch named **SalesDeptMigration**:
 
 ```powershell
-$Get-MigrationBatch -Identity SalesDeptMigration
+Get-MigrationBatch -Identity SalesDeptMigration
 ```
 
 ## Learn more
