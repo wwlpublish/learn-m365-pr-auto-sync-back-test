@@ -27,7 +27,7 @@ quiz:
         isCorrect: false
         explanation: "That's incorrect. If you’re not currently using Azure AD but have on-premises directories, you can use the Azure AD Connect tool to integrate Azure AD with your on-premises directories."
        
-    - content: "How much bandwidth does the initial migration of a user's profile in Window consume?"
+    - content: "How much bandwidth does the initial migration of a user's profile in Windows consume?"
       choices:
       - content: "More than 20 GB"
         isCorrect: true
