@@ -1,0 +1,30 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.manage-authentication-for-messaging.implement-multifactor-exchange
+title: Implement multifactor authentication for Exchange
+metadata:
+  title: Implement multifactor authentication for Exchange
+  description: "Implement multifactor authentication for Exchange"
+  ms.date: 11/01/2021
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 8
+content: |
+  [!include[](includes/4-implement-multifactor-exchange.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "As the Messaging administrator for Contoso, Holly Dickson wants to enable MFA for individual user accounts. Holly navigated to the Microsoft 365 admin center and to the Active users page, but the Multifactor Authentication option was disabled on the menu bar. What could be the likely cause of this situation?"
+    choices:
+    - content: "Conditional Access policies weren't enabled"
+      isCorrect: false
+      explanation: "That's incorrect. This item wouldn't be the cause of the MFA option being disabled. Try again."
+    - content: "Security defaults weren't enabled"
+      isCorrect: false
+      explanation: "That's incorrect. This item wouldn't be the cause of the MFA option being disabled. Try again."
+    - content: "Holly was not a Global admin"
+      isCorrect: true
+      explanation: "That's correct. To configure multifactor authentication in Microsoft 365, you must be a Microsoft 365 Global administrator."
