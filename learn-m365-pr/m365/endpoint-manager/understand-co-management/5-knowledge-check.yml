@@ -32,7 +32,7 @@ quiz:
       explanation: "Using co-management, you can perform remote device actions, such as deleting company data on lost or stolen devices, renaming a device, restarting a device, reviewing device inventory, remotely controlling a device, wiping out pre-installed OEM apps with a Fresh Start reboot, or doing a factory reset on any Windows 10 or later device."
     - content: "Link users, devices, and apps with Azure Active Directory (Azure AD)"
       isCorrect: false
-      explanation: "Using co-management, you can using Azure AD. Azure AD is an identity service that provides single sign-on and multi-factor authentication to help protect your users."
+      explanation: "Using co-management, you can using Azure AD. Azure AD is an identity service that provides single sign-on and multifactor authentication to help protect your users."
     - content: "On-premises data access only"
       isCorrect: true
       explanation: "When you implement co-management, you concurrently manage Windows 10 or later devices on-premises using Configuration Manager and via the cloud using Microsoft Intune. "
