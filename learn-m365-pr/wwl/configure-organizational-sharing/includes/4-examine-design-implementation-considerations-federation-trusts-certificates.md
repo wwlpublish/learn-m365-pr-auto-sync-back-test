@@ -4,7 +4,7 @@ However, before you configure federation between the two Exchange Server organiz
 
 If a federation trust to the Azure AD authentication system already exists for both Exchange organizations, you don’t need to change the federation trust. Instead, you just have to configure an organization relationship or sharing policy.
 
-To verify the federation trust, you must run the following PowerShell command to determine the value of **<uri:federation:MicrosoftOnline>** for the **TokenIssuerURIs** parameter:
+To verify the federation trust, you must run the following PowerShell command to determine the value of **uri:federation:MicrosoftOnline** for the **TokenIssuerURIs** parameter:
 
 ```powershell
 Get-FederationInformation -DomainName <hosted Exchange domain namespace>

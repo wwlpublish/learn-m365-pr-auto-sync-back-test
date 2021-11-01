@@ -24,7 +24,7 @@ quiz:
       explanation: "That's correct. The Azure AD authentication system is an Azure-based service, which is a free Microsoft offering that acts as a trust broker between two federated Exchange Server organizations. Instead of establishing a direct trust as with forest trusts in Active Directory Domain Services (AD DS), you establish a trust between your Exchange server environment and the Azure AD authentication system."
     - content: "A Security Assertion Markup Language (SAML) delegation token"
       isCorrect: false
-      explanation: "That's incorrect. A SAML token is isssued to each user that the on-premises Active Directory domain controllers authenticate. This token enables the authenticated user to access shared resources within federated Exchange Server organizations. Try again."
+      explanation: "That's incorrect. A SAML token is issued to each user that the on-premises Active Directory domain controllers authenticate. This token enables the authenticated user to access shared resources within federated Exchange Server organizations. Try again."
     - content: "The Federated Trust wizard"
       isCorrect: false
       explanation: "That's incorrect. The Federated Trust wizard creates a self-signed certificate for federation. Try again."
