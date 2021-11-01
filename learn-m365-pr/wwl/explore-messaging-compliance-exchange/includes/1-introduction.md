@@ -25,4 +25,3 @@ After completing this module, you'll be able to:
  -  Plan retention and deletion with Message Records Management (MRM).
  -  Protect your mail flow with data loss prevention policies in Exchange Server.
  -  Analyze your Exchange organization's message tracking log.
-
