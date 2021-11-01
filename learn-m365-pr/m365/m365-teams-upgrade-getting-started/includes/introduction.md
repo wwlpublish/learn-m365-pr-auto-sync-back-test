@@ -8,5 +8,5 @@ When you're done with a link, use the **Back** arrow in your browser to come bac
 
 - [Welcome to Microsoft Teams](/MicrosoftTeams/teams-overview)
 - [Getting started with your Microsoft Teams upgrade](/MicrosoftTeams/upgrade-start-here)
-- [Upgrade from Skype for Business to Teams—for IT administrators](/MicrosoftTeams/upgrade-to-teams-execute-skypeforbusinesshybridonprem)
+- [Upgrade from Skype for Business to Teams](/MicrosoftTeams/upgrade-to-teams-execute-skypeforbusinesshybridonprem)
 - [Teams upgrade planning workshops](/MicrosoftTeams/upgrade-workshops-landing-page)
