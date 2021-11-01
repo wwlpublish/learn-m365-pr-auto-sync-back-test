@@ -67,7 +67,7 @@ To work with eDiscovery hold in your organization, you must first understand its
 
  -  eDiscovery hold is available for all Exchange deployments, whether you're using Exchange Standard or Enterprise, Registered Education Savings Plans, Exchange Online Plan 1 licenses, or Exchange Online Plan 2 licenses.
  -  If you need to use eDiscovery hold searches to search for content and to place content on-hold, you must license the In-place hold feature. In-place hold is an Enterprise feature in Exchange Server. For Exchange Online, it requires an Exchange Online Plan 2 license.
- -  In Exchange Server, the resources that In-Place eDiscovery uses are controlled with throttling policies. In the following list you can see some of the relevant default settings:
+ -  In Exchange Server, the resources that In-Place eDiscovery uses are controlled with throttling policies. Some of the relevant default settings are identified in the following chart:
 
 :::row:::
   :::column:::
@@ -115,7 +115,8 @@ To work with eDiscovery hold in your organization, you must first understand its
 100
 
 
-**Note**: After you run an eDiscovery search estimate, you can view keyword statistics. These statistics show details about the number of items returned for each keyword used in the search query. If more than 100 source mailboxes are included in the search, an error is returned if you try to view keyword statistics.
+> [!NOTE]
+> After you run an eDiscovery search estimate, you can view keyword statistics. These statistics show details about the number of items returned for each keyword used in the search query. If more than 100 source mailboxes are included in the search, an error is returned if you try to view keyword statistics.
 
 
   :::column-end:::
