@@ -5,11 +5,11 @@ metadata:
   unitType: knowledge_check
   title: Knowledge check
   description: Knowledge check
-  ms.date: 9/20/2021
+  ms.date: 11/01/2021
   author: Erikre
   ms.author: erikre
   ms.topic: interactive-tutorial
-  ms.prod: <TODO>
+  ms.prod: learning-endpoint-manager
 durationInMinutes: 3
 content: |
 quiz:
