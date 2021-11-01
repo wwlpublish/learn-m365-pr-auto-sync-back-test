@@ -23,7 +23,7 @@ quiz:
       - content: "Until a user shares a document with a colleague via a USB drive."
         isCorrect: false
         explanation: "The label and classification remain with the file regardless of how it’s shared."
-      - content: "Sensivity labels persist for the life of the file or document. "
+      - content: "Sensitivity labels persist for the life of the file or document. "
         isCorrect: true
         explanation: "Correct. Once applied, a sensitivity label persists in the metadata of that email or document wherever it may roam."
       - content: "Until a user moves a file from OneDrive to a third-party storage provider."
@@ -47,14 +47,14 @@ quiz:
       choices:
       - content: "Personal, Public, General, Secret, Highly Confidential"
         isCorrect: false
-        explanation: "Microsoft makes suggestions which you can use to create your own sensitivity labels. “Secret” would be included in a custom sensitivity label."
+        explanation: "Microsoft makes suggestions that you can use to create your own sensitivity labels. “Secret” would be included in a custom sensitivity label."
       - content: "Public, General, Confidential, Highly Confidential"
         isCorrect: false
-        explanation: "Microsoft makes suggestions which you can use to create your own sensitivity labels. "
+        explanation: "Microsoft makes suggestions that you can use to create your own sensitivity labels. "
       - content: "Personal, Public, Business, Confidential, Highly Confidential"
         isCorrect: false
-        explanation: "Microsoft makes suggestions which you can use to create your own sensitivity labels. “Business” is a custom sensitivity label."
+        explanation: "Microsoft makes suggestions that you can use to create your own sensitivity labels. “Business” is a custom sensitivity label."
       - content: "Microsoft does not provide default sensitivity labels"
         isCorrect: true
-        explanation: "Correct. Microsoft makes suggestions which you can use to create your own sensitivity labels."
+        explanation: "Correct. Microsoft makes suggestions that you can use to create your own sensitivity labels."
       
