@@ -25,6 +25,6 @@ After this completing module, you'll be able to:
 
  -  Configure password policy options.
  -  Configure self-service password management.
- -  Implement multi-factor authentication.
+ -  Implement multifactor authentication.
  -  Plan password policies.
 
