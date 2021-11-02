@@ -1,4 +1,4 @@
-The default settings in Exchange allow any mobile device to connect to the company's network if it adheres to the company’s required security policy. Exchange Server lets messaging administrators create allow lists, block lists, and quarantine lists that specify which mobile devices can access their Exchange mailboxes.
+The default settings in Exchange allow any mobile device to connect to the company's network if it adheres to the company’s required security policy. Exchange Server lets messaging administrators create allowlists, blocklists, and quarantine lists that specify which mobile devices can access their Exchange mailboxes.
 
 This design enables messaging administrators to identify the devices that can connect to Exchange. For example, devices may only be allowed to connect to Exchange if they're running a specific operating system or they're company-owned.
 
