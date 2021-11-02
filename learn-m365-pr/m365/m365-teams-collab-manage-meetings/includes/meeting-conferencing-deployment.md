@@ -30,7 +30,7 @@ You may want to consider the following additional deployment decisions, based on
 | Bandwidth planning | Bandwidth planning lets organizations estimate the bandwidth required to support meetings across their wide area networks and internet links. |
 | Meeting recording and archiving | Users can record their meetings and group calls to capture audio, video, screen sharing activity, and automatic transcription. |
 | Live events policies | Teams live events policies are used to manage event settings for groups of users. |
-|Conference room systems rollout| Organizations with many conference rooms may want to consider a structured approach to inventorying their rooms, identifying the appropriate devices, and then rolling them out. |
+|Conference room systems rollout| Organizations with many conference rooms may want to consider a structured approach to creating an inventory of their rooms, identifying the appropriate devices, and then rolling them out. |
 |Cloud video interop  |Cloud video interop makes it possible for third-party meeting room devices to join Teams meetings without expensive meeting room system and device upgrades. |
 |Personal device rollout  |When planning a larger rollout of personal devices to support meetings or voice deployments, consider using a repeatable site-by-site rollout process that delivers repeatable quality.  |
 | Troubleshoot meeting and call quality |Teams gives you two ways to monitor and troubleshoot call quality problems: **Call Analytics** shows detailed information about the devices, networks, and connectivity related to the specific calls and meetings for each user, and is designed to help administrators and help desk agents troubleshoot call quality problems with specific calls. **Call Quality Dashboard** helps administrators and network engineers optimize a network by shifting focus from specific users and instead looks at aggregate information for an entire Teams organization. |
@@ -48,5 +48,5 @@ Use activity reports to see how users in your organization are using Teams so yo
 
 When you're done with a link, use the **Back** arrow in your browser to come back to this page.
 
-- [Meetings & conferencing in Microsoft Teams](/microsoftteams/deploy-meetings-microsoft-teams-landing-page)
+- [Meetings and conferencing in Microsoft Teams](/microsoftteams/deploy-meetings-microsoft-teams-landing-page)
 - [Tutorial: Meetings in Teams](/microsoftteams/tutorial-meetings-in-teams?tutorial-step=1)

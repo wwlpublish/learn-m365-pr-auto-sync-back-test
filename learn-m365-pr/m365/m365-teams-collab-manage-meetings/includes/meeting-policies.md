@@ -1,4 +1,4 @@
-Meeting policies control the features available to meeting participants. The meeting policy called Global is the org-wide default. All users in your organization are automatically assigned this policy. You can make changes or create custom policies and assign them to users. You manage meeting policies in the Microsoft Teams admin center or by using PowerShell.
+Meeting policies control the features available to meeting participants. The meeting policy called **Global** is the organization-wide default. All users in your organization are automatically assigned this policy. You can make changes or create custom policies and assign them to users. You manage meeting policies in the Microsoft Teams admin center or by using PowerShell.
 
 ## Configure meeting policies
 
@@ -27,7 +27,7 @@ Meeting policies affect the meeting experience for users before, during, or afte
 
 You can configure policies for the following categories. As an example, if you wanted to limit the amount of bandwidth available to a meeting, you could create a new custom policy named *Limited bandwidth.* You could then disable cloud recording and IP video under **Audio & video** and assign that policy to users.
 
-![Create meeting policies settings](../media/global-create-meeting-policy.png)
+:::image type="content" source="../media/global-create-meeting-policy.png" alt-text="Screenshot showing settings in a meeting policy.":::
 
 When you select an existing policy on the **Meeting policies** page or select **New policy** to add a new policy, you can configure settings for the following.
 

@@ -12,7 +12,7 @@ Background effects can help people focus on the speaker rather than on the speak
 
 Background blur helps provide improved visibility and focus when in meetings or calls. For some users, background blur allows users to blur their own background in meetings and calls but keep themselves in focus.
 
-:::image type="content" source="../media/enable-background-blur.png" alt-text="Screenshot showing background blur.":::
+:::image type="content" source="../media/enable-background-blur.png" alt-text="Screenshot showing background blur applied to a video call.":::
 
 As the admin, you can enable Background blur by configuring a meeting policy setting in PowerShell.  For example, to enable Background blur for all users along with the ability to use default backgrounds, you can update the global policy by using the **Set-CsTeamsMeetingPolicy** cmdlet, and set the *VideoFiltersMode* parameter to **BlurandDefaultBackgrounds**:
 
@@ -38,7 +38,6 @@ The blur effect is then available in the list of background effects that appear:
 :::image type="content" source="../media/teams-select-blur-effect-background.png" alt-text="Screenshot showing the Teams menu with the blur background selected.":::
 
 > [!NOTE]
->
 > In the **Learn more** section of this unit, you can find an article about empathy and innovation that also explains how background blur was initially developed by a Microsoft engineer who is deaf and uses lip reading!
 
 ## Allow users to turn off incoming video
@@ -51,9 +50,14 @@ When a user chooses to turn off incoming video, other users will still be able t
 
 ## Enable noise suppression
 
-Background noise can happen for many reasons, whether it's ambient noise from a user's environment, loud typing in an office space, or noises from the outside like construction work. Background noise can be distracting and make it difficult for some users to focus on and understand others.  Your users can enable noise suppression for recorded meetings in Microsoft Stream.
+Background noise can happen for many reasons, whether it's ambient noise from a user's environment, loud typing in an office space, or noises from the outside like construction work. Background noise can be distracting and make it difficult for some users to focus on and understand others.  Your users can enable noise suppression in their Teams Settings.
 
-To enable noise suppression for a video, your users can go to the video's **Update videos details** page, and set **Noise suppression** to **On**.
+To enable noise suppression for all calls, in Teams Settings select **Devices** and then choose a suppression level from the **Noise suppression** drop-down list:
+
+- **Auto** Teams changes the amount of suppression it applies depending on the amount of noise it detects. This is the default setting.
+- **High** Teams removes all noise other than speech. This setting requires intensive use of processing power and a processor that support Advanced Vector Extensions 2. You can't use this setting if the meeting is being recorded or if live captions are switched on.
+- **Low** Teams surpresses low levels of persistent background noise.
+- **None** Teams doesn't surpress any noise.
 
 :::image type="content" source="../media/teams-settings-noise-suppression.png" alt-text="Screenshot showing the noise suppression setting in Teams.":::
 
