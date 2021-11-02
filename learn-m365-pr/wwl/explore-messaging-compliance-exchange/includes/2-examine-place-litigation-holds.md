@@ -6,9 +6,9 @@ When a reasonable expectation of litigation exists, organizations are required t
 
 Failure to preserve email can expose an organization to legal and financial risks such as scrutiny of the organization's records retention and discovery processes, adverse legal judgments, sanctions, or fines.
 
-### Differences between in-place and litigation hold
+### Differences between In-Place and Litigation hold
 
-There are two types of holds available in Exchange Server: Litigation Hold and In-Place Hold. When Litigation Hold is enabled, all mailbox items are placed on hold. In contrast, you can use an In-Place Hold to preserve only those items that meet the criteria of a search query that you define by using the In-Place eDiscovery tool. You can place multiple In-Place Holds on a mailbox, but Litigation Hold is either enabled or disabled for a mailbox.
+There are two types of holds available in Exchange Server: Litigation hold and In-Place hold. When Litigation hold is enabled, all mailbox items are placed on hold. In contrast, you can use an In-Place hold to preserve only those items that meet the criteria of a search query that you define by using the In-Place eDiscovery tool. You can place multiple In-Place holds on a mailbox, but Litigation hold is either enabled or disabled for a mailbox.
 
 Messaging administrators should be aware of the following facts concerning In-place and Litigation holds:
 
@@ -22,7 +22,7 @@ Messaging administrators should be aware of the following facts concerning In-pl
 
 ### Hold goals and features
 
-You can use Litigation Hold and In-Place Hold to accomplish the following goals:
+You can use Litigation hold and In-Place hold to accomplish the following goals:
 
  -  Place user mailboxes on hold and preserve mailbox items.
  -  Preserve items indefinitely or for a specific duration.
