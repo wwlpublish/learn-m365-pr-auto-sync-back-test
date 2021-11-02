@@ -62,11 +62,11 @@ When the signaling indicated that the response came from (or through) the intero
 
 To prevent these false positives, the presence service is now informing the Skype for Business client when the other party is a TeamsOnly actual user. This allows Skype for Business to be aware that it needs to create an interoperability conversation ahead of it having been created, and the conversation window is specific to interoperability.
 
-![Skype for Business creates an interoperability conversation](../media/interop-create-conversation.png)
+:::image type="content" source="../media/interop-create-conversation.png" alt-text="Screen shot showing a message that the user is not longer using Skype for Business and some features may not work.":::
 
 If the Skype for Business user wanted to share their desktop, they would be informed that a meeting will start and guided through the steps.
 
-![A Skype for Business users starts a meeting](../media/start-meeting-with-teams-user.png)
+:::image type="content" source="../media/start-meeting-with-teams-user.png" alt-text="Screen shot showing the messages that screen sharing will start with Teams users.":::
 
 Meanwhile, the Teams user receives an incoming chat message with the link to the meeting and is guided to join.
 
@@ -82,10 +82,14 @@ In interoperability threads, and in federation interoperability threads, the Tea
 
 If the users were in a call, the menu also warns them that their current call between Teams and Skype for Business will be terminated as they are put into a Teams meeting. If they so choose, they can warn the Skype for Business user prior to accepting.
 
-![Warning the Skype for Business user](../media/meeting-with-skype-user.png)
+:::image type="content" source="../media/meeting-with-skype-user.png" alt-text="Screen shot of Teams warning message cancelling call and joining user to a Teams call.":::
 
 Upon acceptance, they are put in the Teams meeting; they must start sharing from the sharing tray in the meeting.
 
 Meanwhile, the Skype for Business user receives an incoming chat message with the link to the meeting and is guided to join.
 
-This escalation to a Teams meeting is available for both in-tenant interoperability and cross-tenant federated calls and chats. It is on by default and there is no setting the administrator has to provision. However, it is turned off for the user if the administrator sets `-AllowPrivateMeetNow` in `CsTeamsMeetingPolicy` to `$false`.
+This escalation to a Teams meeting is available for both in-tenant interoperability and cross-tenant federated calls and chats. It is on by default and there is no setting the administrator has to provision. However, an administrator can switch this functionality off by using PowerShell.
+
+   ```PowerShell
+   Set-CsTeamsMeetingPolicy -Identity HrMeetingPolicy -AllowMeetNow $False
+   ```
