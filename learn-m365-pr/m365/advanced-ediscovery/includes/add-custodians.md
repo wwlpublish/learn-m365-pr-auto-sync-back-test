@@ -118,7 +118,7 @@ After you add custodians to a case, details about each custodian are automatical
 
 To view the details, click the custodian from the list on the **Custodians** tab. A flyout page like the one below is displayed which contains details about the custodian and the types of data on hold.
 
-:::image type="content" source="../media/update-index.png" alt-text="View details by clicking the custodian from the list.":::
+:::image type="content" source="../media/update-index.png" alt-text="View details by clicking the custodian from the list." lightbox="../media/update-index.png":::
 
 The flyout page also enables you to do the following:
 
