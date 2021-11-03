@@ -1,6 +1,6 @@
 Your team is constantly working to address new security issues related to new threats. You want to improve the protection of your devices against the latest threats, but you need to do it in a way that will help you to reduce time and complexity for your team. Here, you'll learn about the next-generation protection features in Microsoft Defender for Endpoint that help you to achieve this task.
 
-## What is Microsoft Defender next-generation protection?
+## What is Microsoft Defender for Cloud next-generation protection?
 
 The traditional methods of protecting devices against viruses and other malware include:
 
@@ -8,7 +8,7 @@ The traditional methods of protecting devices against viruses and other malware 
 - Identifying new malware and providing users with signature files to download onto their devices.
 - Scanning all files and processes against these signatures. When a match is found, the file or program is quarantined and blocked from running any code.
 
-You're aware that this flow works well in most cases but relies on the antivirus provider responding rapidly with signatures for new threats. Users have to download the latest signatures often and, although downloads are often automated, protection for new threats is not instantaneous. You've also experienced users disregarding the warnings they receive from their antivirus software and running the dangerous code anyway. Microsoft Defender's next-generation antivirus technologies provide automatic, instantaneous protection against new and emerging threats and close the loop holes in the traditional antivirus model.
+You're aware that this flow works well in most cases but relies on the antivirus provider responding rapidly with signatures for new threats. Users have to download the latest signatures often and, although downloads are often automated, protection for new threats is not instantaneous. You've also experienced users disregarding the warnings they receive from their antivirus software and running the dangerous code anyway. Microsoft Defender for Cloud's next-generation antivirus technologies provide automatic, instantaneous protection against new and emerging threats and close the loop holes in the traditional antivirus model.
 
 Let's examine some of the capabilities of Microsoft Defender for Endpoint's next-generation protection.
 

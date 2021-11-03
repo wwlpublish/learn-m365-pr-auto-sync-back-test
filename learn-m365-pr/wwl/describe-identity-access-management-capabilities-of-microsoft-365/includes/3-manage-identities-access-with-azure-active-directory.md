@@ -17,7 +17,7 @@ When an access request is received, Conditional Access uses signal information f
 | Device                                   | When  enforcing Conditional Access policies, users with devices of specific  platforms or marked with a specific state can be used |
 | Application                              | Users attempting to access  specific applications can trigger different Conditional Access policies. |
 | Real-time  and calculated risk detection | Signals integration with Azure  AD Identity Protection allows Conditional Access policies to identify risky  sign-in behavior. Policies can then force users to perform password changes  or multi-factor authentication to reduce their risk level or be blocked from  access until an administrator takes manual action. |
-| Microsoft  Cloud App Security (MCAS)     | Enables user application  access and sessions to be monitored and controlled in real-time, increasing  visibility and control over access to and activities performed within your  cloud environment. |
+| Microsoft  Defender for Cloud Apps     | Enables user application  access and sessions to be monitored and controlled in real-time, increasing  visibility and control over access to and activities performed within your  cloud environment. |
 
 ### Conditional Access decision
 

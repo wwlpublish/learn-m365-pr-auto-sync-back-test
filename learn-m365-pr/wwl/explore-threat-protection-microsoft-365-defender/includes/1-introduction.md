@@ -32,5 +32,4 @@ After completing this module, you'll be able to:
  -  Understand how the Configuration analyzer reviews threat protection policies and provides suggestions for improvement.
  -  Describe the protection provided by Safe Attachment and Safe Links policies.
  -  Understand the spoof intelligence features provided by Exchange Online Protection.
- -  Describe how Microsoft Defender anti-phishing policies work.
-
+ -  Describe how Microsoft Defender for Cloud anti-phishing policies work.

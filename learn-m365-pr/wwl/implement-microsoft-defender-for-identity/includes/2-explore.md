@@ -35,7 +35,7 @@ Using profiling, deterministic detection, machine learning, and behavioral algor
      -  **AD FS servers**. The sensor directly monitors network traffic and authentication events.
  -  **Defender for Identity cloud service.** Defender for Identity cloud service runs on Azure infrastructure. It's currently deployed in the US, Europe, and Asia. Defender for Identity cloud service is connected to Microsoft's intelligent security graph.
 
-:::image type="content" source="../media/defender-for-identity-architecture-e38d0780.png" alt-text="diagram showing the defender for identity architecture":::
+:::image type="content" source="../media/defender-for-identity-architecture-e38d0780.png" alt-text="diagram showing the Defender for identity architecture":::
 
 
 By default, Defender for Identity supports up to 200 sensors. If you want to install more sensors, contact Defender for Identity support at Microsoft.

@@ -45,7 +45,7 @@ Now, let's look at the specific settings for the policy template we're using.
 The image below shows the conditions set in the **High volume of content detected U.K. Financial** rule. Each condition is currently using the default settings from the policy template:
 
 - The *Content contains* condition is relevant to all locations. By default, it looks for any of the three sensitive info types listed that exceed an instance count of 10. You can add extra sensitive info types and modify the lower and upper threshold for the instance count.
-- The *Content is shared from Microsoft 365* condition only applies to content shared from Exchange, SharePoint, OneDrive, and Microsoft Teams. It doesn't apply to the Windows 10 devices or Cloud App Security locations. We'll add the Windows 10 devices in the next step.
+- The *Content is shared from Microsoft 365* condition only applies to content shared from Exchange, SharePoint, OneDrive, and Microsoft Teams. It doesn't apply to the Windows 10 devices or Defender for Cloud Apps locations. We'll add the Windows 10 devices in the next step.
 
 :::image type="content" source="../media/uk-policy-conditions.png" alt-text="A screenshot shows the Conditions section of the DLP solution, showing the default conditions for the UK Financial Data policy template.":::
 

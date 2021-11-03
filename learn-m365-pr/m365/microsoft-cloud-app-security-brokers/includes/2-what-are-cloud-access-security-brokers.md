@@ -2,7 +2,7 @@ By moving to the cloud, an organization can gain many benefits including flexibi
 
 A Cloud Access Security Broker provides this protection for an organization by discovering and monitoring IT use by users, and limiting access to sensitive resources.
 
-Microsoft Cloud App Security is a sophisticated Cloud Access Security Broker that provides centralized management for both Microsoft and non-Microsoft solutions. Traffic is routed via a reverse proxy infrastructure, which minimizes user impact while maintaining the highest level of control.
+Microsoft Defender for Cloud Apps is a sophisticated Cloud Access Security Broker that provides centralized management for both Microsoft and non-Microsoft solutions. Traffic is routed via a reverse proxy infrastructure, which minimizes user impact while maintaining the highest level of control.
 
 ## Cloud Access Security Brokers use cases
 
@@ -25,7 +25,7 @@ Cloud-based services such as Microsoft Office 365 provide excellent productivity
 
 A CASB enables you to identify files that contain sensitive information. These files can then be encrypted or blocked from sharing externally, external collaborators can be blocked, links can have time limits, messages containing sensitive data can be blocked in real time, and the device state of devices that a user connects to can be detected to prevent the download of sensitive data to unmanaged devices.
 
-Microsoft Cloud App Security can even use Azure Active Directory Conditional Access polies to determine a user's risk level at sign-in. This risk level can then define the actions that a user can perform and prevent the download, copying, or printing of unauthorized data in real time.
+Microsoft Defender for Cloud Apps can even use Azure Active Directory Conditional Access polies to determine a user's risk level at sign-in. This risk level can then define the actions that a user can perform and prevent the download, copying, or printing of unauthorized data in real time.
 
 ### Detect and protect against cyberthreats
 
@@ -44,4 +44,4 @@ Infrastructure as a Service (IaaS) can bring huge business benefits, but it can 
 
 A CASB provides many methods to protect your IaaS environment. The IaaS environment can be audited to ensure that it is correctly, and securely, configured. User activity can be monitored in real time to ensure that if compromised accounts, users inside your organization, or privileged accounts have anomalous usage, an alert can be issued so that remedial action can be performed.
 
-Organizations often have many custom apps that access IaaS resources. Microsoft Cloud App Security not only monitors the actions of these custom apps, but also integrates with Azure Active Directory to provide equal levels of visibility across custom apps, cloud apps, and on-premise apps.
+Organizations often have many custom apps that access IaaS resources. Microsoft Defender for Cloud Apps not only monitors the actions of these custom apps, but also integrates with Azure Active Directory to provide equal levels of visibility across custom apps, cloud apps, and on-premise apps.

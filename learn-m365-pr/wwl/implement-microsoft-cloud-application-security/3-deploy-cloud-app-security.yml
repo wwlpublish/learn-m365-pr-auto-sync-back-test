@@ -1,9 +1,9 @@
 ### YamlMime:ModuleUnit
 uid: learn.wwl.implement-microsoft-cloud-application-security.deploy-cloud-app-security
-title: Deploy Cloud App Security
+title: Deploy Defender for Cloud Apps
 metadata:
-  title: Deploy Cloud App Security
-  description: "Deploy Cloud App Security"
+  title: Deploy Defender for Cloud Apps
+  description: "Deploy Defender for Cloud Apps"
   ms.date: 09/16/2021
   author: wwlpublish
   ms.author: tfrink

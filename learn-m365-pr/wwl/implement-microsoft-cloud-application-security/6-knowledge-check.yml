@@ -29,9 +29,9 @@ quiz:
     - content: "Anomaly detection policy"
       isCorrect: false
       explanation: "That's incorrect. Anomaly detection policies enable you to look for unusual activities on your cloud based on the risk factors you set to alert you when something happens that is different from either the baseline of your organization or from the user's regular activity. Try again."
-  - content: "As the Enterprise Administrator for Fabrikam, Holly Spencer is troubleshooting a Microsoft Cloud App Security policy. What should Holly do when troubleshooting a policy?"
+  - content: "As the Enterprise Administrator for Fabrikam, Holly Spencer is troubleshooting a Microsoft Defender for Cloud Apps policy. What should Holly do when troubleshooting a policy?"
     choices:
-    - content: "Check the current Microsoft Cloud App Security service status"
+    - content: "Check the current Microsoft Defender for Cloud Apps service status"
       isCorrect: false
       explanation: "That's incorrect. This item isn't what Holly should do when troubleshooting a policy. Try again."
     - content: "Consider the Content inspection status and take appropriate action"
@@ -39,15 +39,15 @@ quiz:
       explanation: "That's incorrect. This item isn't what Holly should do when troubleshooting a policy. Try again."
     - content: "Consider the error code and find an appropriate resolution"
       isCorrect: true
-      explanation: "That's correct. To troubleshoot Microsoft Cloud App Security policies, you must consider the error code and find an appropriate resolution."
-  - content: "As the Enterprise Administrator for Lucerne Publishing, Allan Deyoung wants to deploy Cloud App Security. What's the first thing that Allan should do?"
+      explanation: "That's correct. To troubleshoot Microsoft Defender for Cloud Apps policies, you must consider the error code and find an appropriate resolution."
+  - content: "As the Enterprise Administrator for Lucerne Publishing, Allan Deyoung wants to deploy Defender for Cloud Apps. What's the first thing that Allan should do?"
     choices:
     - content: "Set up Cloud Discovery"
       isCorrect: true
-      explanation: "That's correct. The first step in deploying Cloud App Security is to set up Cloud Discovery."
+      explanation: "That's correct. The first step in deploying Defender for Cloud Apps is to set up Cloud Discovery."
     - content: "Set instant visibility, protection, and governance actions for the company's apps"
       isCorrect: false
-      explanation: "That's incorrect. This item is the second step in deploying Cloud App Security. Try again."
+      explanation: "That's incorrect. This item is the second step in deploying Defender for Cloud Apps. Try again."
     - content: "Control the company's cloud apps with policies"
       isCorrect: false
-      explanation: "That's incorrect. This item is the third step in deploying Cloud App Security. Try again."
+      explanation: "That's incorrect. This item is the third step in deploying Defender for Cloud Apps. Try again."

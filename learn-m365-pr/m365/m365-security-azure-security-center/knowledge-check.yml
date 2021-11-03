@@ -15,7 +15,7 @@ quiz:
   title: Check your knowledge
   questions:
   #Question 1
-  - content: Which feature do you use to let Azure Security Center automatically remediate security issues for you?
+  - content: Which feature do you use to let Microsoft Defender for Cloud automatically remediate security issues for you?
     choices:
     - content: Use Auto Fix
       isCorrect: false
@@ -25,7 +25,7 @@ quiz:
       explanation: Intelligent Fix isn’t a valid feature. You need to use Quick Fix.
     - content: Use Quick Fix
       isCorrect: true
-      explanation: When you use Quick Fix on an issue, Azure Security Center can automatically remediate the issue for you.
+      explanation: When you use Quick Fix on an issue, Microsoft Defender for Cloud can automatically remediate the issue for you.
  # Question 2 
   - content: Where can you export data continuously?
     choices:
@@ -39,7 +39,7 @@ quiz:
       isCorrect: false
       explanation: This isn’t a valid destination for continuous export.
  # Question 3
-  - content: How can you ensure that Azure Security Center will alert you if an unapproved app runs on one of your machines that don’t normally run that kind of app?
+  - content: How can you ensure that Microsoft Defender for Cloud will alert you if an unapproved app runs on one of your machines that don’t normally run that kind of app?
     choices:
     - content: Just-in-time access
       isCorrect: false
@@ -51,14 +51,14 @@ quiz:
       isCorrect: false
       explanation: This isn’t a valid feature. Use adaptive application controls.
  # Question 4
-  - content: How can you integrate Azure Sentinel with Azure Security Center?
+  - content: How can you integrate Microsoft Sentinel with Microsoft Defender for Cloud?
     choices:
-    - content: By selecting the Azure Security Center data connector for Azure Sentinel.
+    - content: By selecting the Microsoft Defender for Cloud data connector for Microsoft Sentinel.
       isCorrect: true
       explanation: After integration, you can have a detailed end-to-end visibility of the security of your estate. This is because you can link together all of the information available on threats from multiple sources.
-    - content: By running the Azure Sentinel integrator in Azure Security Center.
+    - content: By running the Microsoft Sentinel integrator in Microsoft Defender for Cloud.
       isCorrect: false
-      explanation: This isn’t a valid option. You should select the Azure Security Center data connector for Azure Sentinel.
-    - content: By updating Azure Sentinel with the Azure Security Center update.
+      explanation: This isn’t a valid option. You should select the Microsoft Defender for Cloud data connector for Microsoft Sentinel.
+    - content: By updating Microsoft Sentinel with the Microsoft Defender for Cloud update.
       isCorrect: false
-      explanation: This isn’t a valid option. You should select the Azure Security Center data connector for Azure Sentinel.
+      explanation: This isn’t a valid option. You should select the Microsoft Defender for Cloud data connector for Microsoft Sentinel.

@@ -1,9 +1,9 @@
 ### YamlMime:ModuleUnit
 uid: learn.wwl.implement-security-for-microsoft-teams.examine-cloud-app-security
-title: Examine the Cloud App Security
+title: Examine the Defender for Cloud Apps
 metadata:
-  title: Examine the Cloud App Security
-  description: "Examine the Cloud App Security"
+  title: Examine the Defender for Cloud Apps
+  description: "Examine the Defender for Cloud Apps"
   ms.date: 10/09/2021
   author: wwlpublish
   ms.author: jennyche

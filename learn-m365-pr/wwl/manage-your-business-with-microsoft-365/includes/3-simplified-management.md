@@ -2,7 +2,7 @@ In today’s workplace, IT departments support different devices configured in d
 
 Microsoft provides the tools and services to enable you to simplify the management of all these devices. Microsoft Endpoint Manager (MEM) helps you solve the challenge of device management in today’s mobile and remote work environment. MEM is a secure and intelligent management solution that improves productivity and collaboration with the familiar experiences users expect and gives IT the flexibility to support diverse scenarios for both bring your own device (BYOD) and corporate-owned devices.
 
-Endpoint Manager combines services you may know and already be using, including Microsoft Intune, Configuration Manager, Desktop Analytics, co-management, Microsoft Defender, and Windows Autopilot. These services are part of the Microsoft 365 stack to help secure access, protect data, and respond and manage risk.
+Endpoint Manager combines services you may know and already be using, including Microsoft Intune, Configuration Manager, Desktop Analytics, co-management, Microsoft Defender for Cloud, and Windows Autopilot. These services are part of the Microsoft 365 stack to help secure access, protect data, and respond and manage risk.
 
 Endpoint Manager includes the following services:
 

@@ -1,4 +1,4 @@
-Microsoft Secure Score is a measurement of an organization's security posture. The higher the score, the more improvement actions have been taken. Organizations that implement the Security Score recommendations can protect themselves from threats. From a centralized dashboard in the Microsoft 365 Security Center, organizations can monitor and work on the security of their Microsoft 365 identities, data, apps, devices, and infrastructure.
+Microsoft Secure Score is a measurement of an organization's security posture. The higher the score, the more improvement actions have been taken. Organizations that implement the Security Score recommendations can protect themselves from threats. From a centralized dashboard in the Microsoft 365 Defender portal, organizations can monitor and work on the security of their Microsoft 365 identities, data, apps, devices, and infrastructure.
 
 Microsoft Secure Score helps organizations:
 
@@ -30,7 +30,7 @@ Most improvements are scored in a binary fashion. If you implement the improveme
 
 #### Products included in Secure Score.
 
-Secure Score currently includes recommendations for Microsoft 365 (including SharePoint Online, Exchange Online, OneDrive for Business, Microsoft Information Protection, and more), Azure AD, and Cloud App Security. Recommendations for other security products, such as Microsoft Defender for Identity (formerly Azure ATP) and Microsoft Defender for Endpoint (formerly Microsoft Defender ATP), are coming soon. The recommendations won't cover all the attack surfaces associated with each product, but they're a good baseline. You can also mark the improvement actions as covered by a third party.
+Secure Score currently includes recommendations for Microsoft 365 (including SharePoint Online, Exchange Online, OneDrive for Business, Microsoft Information Protection, and more), Azure AD, and Defender for Cloud Apps. Recommendations for other security products, such as Microsoft Defender for Identity (formerly Azure ATP) and Microsoft Defender for Endpoint (formerly Microsoft Defender ATP), are coming soon. The recommendations won't cover all the attack surfaces associated with each product, but they're a good baseline. You can also mark the improvement actions as covered by a third party.
 
 ## Knowledge check
 

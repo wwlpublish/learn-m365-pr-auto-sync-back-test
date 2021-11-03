@@ -16,7 +16,7 @@ Conditional Access can use the following signals when deciding whether to grant 
 - **Device**. Users with devices of specific platforms or marked with a specific state can be used/
 - **Application**. Users attempting to access specific applications can trigger different Conditional Access policies.
 - **Real-time sign in risk detection**. Signals integration with Azure AD Identity Protection allows Conditional Access policies to identify risky sign in behavior. Policies can then force users to perform password changes or multifactor authentication. This reduces their risk level and may prevent them from being blocked from access until an administrator takes manual action.
-- **Microsoft Cloud App Security**. Enables user application access and sessions to be monitored and controlled in real-time, increasing visibility and control over access to and activities performed within your cloud environment.
+- **Microsoft Defender for Cloud Apps**. Enables user application access and sessions to be monitored and controlled in real-time, increasing visibility and control over access to and activities performed within your cloud environment.
 
 This means that Conditional Access policies can be created to allow or block specific users or groups access to certain applications. You can create trusted IP address ranges and block other countries/regions or IP address ranges. You might prevent a legacy device being used to access sensitive data. 
 

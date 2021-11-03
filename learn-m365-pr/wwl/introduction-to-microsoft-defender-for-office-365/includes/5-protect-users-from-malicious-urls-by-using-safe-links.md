@@ -14,7 +14,7 @@ Safe Links is selective enough to remove only malicious links. Even within a sin
 
 Like Safe Attachments, Safe Links protects your organization according to policies that are created by your security administrators. You can create and configure policies and apply them to specific people, groups, or domains.
 
-The following graphic shows how malicious links are rewritten while in transport by Microsoft Defender for Office 365. If a recipient opens a dangerous link, they connect to Defender and aren't redirected to the original target.
+The following graphic shows how malicious links are rewritten while in transport by Microsoft Defender for Office 365. If a recipient opens a dangerous link, they connect to Defender for Cloud and aren't redirected to the original target.
 
 :::image type="content" source="../media/rewrite-malicious-links-31eef935.jpg" alt-text="graphic depicts the fact that malicious links are rewritten while in transport, and if a recipient opens a dangerous link, they connect to Defender for Office 365 and are not redirected to the original target":::
 

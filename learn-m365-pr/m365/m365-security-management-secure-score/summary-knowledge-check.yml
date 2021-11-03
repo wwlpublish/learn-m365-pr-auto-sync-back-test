@@ -3,7 +3,7 @@ uid: learn-m365.m365-security-management-secure-score.summary-knowledge-check
 title: Summary and knowledge check
 metadata:
   title: Summary and knowledge check
-  description: Review what you learned about security center reporting and Microsoft Secure Score.
+  description: Review what you learned about Defender for Cloud reporting and Microsoft Secure Score.
   ms.date: 07/19/2021
   author: beccarobins
   ms.author: beccarobins
@@ -31,9 +31,9 @@ quiz:
         explanation: "Correct. The four categories found in the Microsoft 365 Defender portal are around identities, data, devices, and apps."
     - content: "As a security administrator you are tasked with identifying how many DLP matches happened in your third-party cloud services. What reporting insights category would you leverage to find the information?"
       choices:
-      - content: "Microsoft Cloud App Security"
+      - content: "Microsoft Defender for Cloud Apps"
         isCorrect: false
-        explanation: "While the protection comes from MCAS, this is not the correct report to identify the matches."
+        explanation: "While the protection comes from Defender for Cloud Apps, this is not the correct report to identify the matches."
       - content: "End points"
         isCorrect: false
         explanation: "This is not one of the four categories of reporting."
@@ -49,13 +49,13 @@ quiz:
       - content: "Azure Active Directory"
         isCorrect: false
         explanation: "Microsoft Secure Score includes recommendations from Azure AD."
-      - content: "Office Security Center"
+      - content: "Office Defender for Cloud"
         isCorrect: true
-        explanation: "Correct. Office Security Center does not exist, the Microsoft 365 Defender portal is the centralized location for security administrators and security operations teams."
+        explanation: "Correct. Office Defender for Cloud does not exist, the Microsoft 365 Defender portal is the centralized location for security administrators and security operations teams."
       - content: "Microsoft Defender for Endpoint"
         isCorrect: false
         explanation: "Microsoft Secure Score includes recommendations from Microsoft Defender for Endpoint."
-      - content: "Azure Security Center"
+      - content: "Microsoft Defender for Cloud"
         isCorrect: false
-        explanation: "Microsoft Secure Score includes recommendations from Azure Security Center."
+        explanation: "Microsoft Secure Score includes recommendations from Microsoft Defender for Cloud."
       

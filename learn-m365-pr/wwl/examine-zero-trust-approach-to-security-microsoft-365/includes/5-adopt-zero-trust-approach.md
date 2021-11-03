@@ -19,11 +19,11 @@ This commitment begins with integrated solutions that let organizations focus on
 Microsoft provides the following features to simplify the experience for defenders with modern and integrated capabilities:
 
  -  Microsoft Defender for Endpoint and Defender for Office 365 customers can investigate and remediate threats from the Microsoft 365 Defender portal. It provides unified alerts, user and investigation pages for deep, automated analysis and simple visualization. It also provides a new Learning Hub where customers can use instructional resources with best practices and how-tos.
- -  Incidents, schema, and user experiences are now common between Microsoft 365 Defender and Azure Sentinel. Microsoft continues to expand connectors for Azure Sentinel and work to simplify data ingestion and automation.
+ -  Incidents, schema, and user experiences are now common between Microsoft 365 Defender and Microsoft Sentinel. Microsoft continues to expand connectors for Microsoft Sentinel and work to simplify data ingestion and automation.
  -  Threat Analytics provides a set of reports from expert Microsoft security researchers that help you understand, prevent, and mitigate active threats, like the Solorigate attacks, directly within Microsoft 365 Defender.
  -  Microsoft has brought Secured-core to Windows Server and edge devices to help minimize risk from firmware vulnerabilities and advanced malware in IoT and hybrid cloud environments.
 
-Microsoft continues and strengthens its commitment to deliver state-of-the-art protection, detection, and response for all clouds and all platforms. One such solution it provides is Defender for Endpoint, which is available for Android, iOS, macOS, Linux, and Windows. Microsoft also provides Azure Sentinel, which looks across your multi-cloud environments, including AWS, Google Cloud Platform, Salesforce service cloud, VMware, and Cisco Umbrella.<br>
+Microsoft continues and strengthens its commitment to deliver state-of-the-art protection, detection, and response for all clouds and all platforms. One such solution it provides is Defender for Endpoint, which is available for Android, iOS, macOS, Linux, and Windows. Microsoft also provides Microsoft Sentinel, which looks across your multi-cloud environments, including AWS, Google Cloud Platform, Salesforce service cloud, VMware, and Cisco Umbrella.<br>
 
 ### 3. Compliance: Protection from the inside out.
 

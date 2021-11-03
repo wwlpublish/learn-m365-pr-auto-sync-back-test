@@ -32,7 +32,7 @@ quiz:
     - content: "Azure Cosmos DB"
       isCorrect: false
       explanation: "Incorrect. Azure Monitor Log Analytics is a feature of Azure Monitor that collects and organizes log data from a variety of sources."
-    - content: "Azure Sentinel"
+    - content: "Microsoft Sentinel"
       isCorrect: false
       explanation: "Incorrect. Azure Monitor Log Analytics is a feature of Azure Monitor that collects and organizes log data from a variety of sources."
     - content: "Azure Monitor Log Analytics"

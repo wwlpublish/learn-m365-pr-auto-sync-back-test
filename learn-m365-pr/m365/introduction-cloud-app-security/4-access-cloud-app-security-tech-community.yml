@@ -1,14 +1,14 @@
 ### YamlMime:ModuleUnit
 uid: learn-m365.introduction-to-microsoft-cloud-app-security.4-access-cloud-app-security-tech-community
 metadata:
-  title: Access the Cloud App Security tech community
-  description: Learn how to access the Cloud App Security tech community
+  title: Access the Defender for Cloud Apps tech community
+  description: Learn how to access the Defender for Cloud Apps tech community
   ms.date: 07/06/2021
   author: beccarobins
   ms.author: beccarobins
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-title: Access the Cloud App Security tech community
+title: Access the Defender for Cloud Apps tech community
 durationInMinutes: 2
 content: |
   [!include[](includes/4-access-cloud-app-security-tech-community.md)]

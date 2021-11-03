@@ -1,4 +1,4 @@
-The Microsoft 365 Security Administrator and Compliance Administrator roles contain permissions for managing all aspects of the Security and Compliance product. In collaboration with the Microsoft 365 Enterprise Administrator, the Security Administrator and Compliance Administrator roles manage several different services in the Security center and Compliance Center, respectively, and by remote access using PowerShell.
+The Microsoft 365 Security Administrator and Compliance Administrator roles contain permissions for managing all aspects of the Security and Compliance product. In collaboration with the Microsoft 365 Enterprise Administrator, the Security Administrator and Compliance Administrator roles manage several different services in the Defender for Cloud and Compliance Center, respectively, and by remote access using PowerShell.
 
 Some of the key responsibilities assigned to the Microsoft 365 Security Administrator and Compliance Administrator roles are identified in the following table.
 

@@ -65,7 +65,7 @@ Microsoft 365 Apps for enterprise (formerly Office 365 Pro Plus) includes online
 
 #### Enterprise Mobility and Security
 
-The Enterprise Mobility and Security suite is an add-on service that can be added to the Office 365 E3 and E5 subscriptions. This service provides organizations with other options to protect against unknown device intrusions, malware threats, and other identity protection. When an Enterprise Mobility and Security suite is added to a Microsoft 365 E5 subscription, Cloud App Security and Azure Advanced Threat Protection (ATP) are also included. The Enterprise Mobility and Security suite components are examined in greater detail in the next unit.
+The Enterprise Mobility and Security suite is an add-on service that can be added to the Office 365 E3 and E5 subscriptions. This service provides organizations with other options to protect against unknown device intrusions, malware threats, and other identity protection. When an Enterprise Mobility and Security suite is added to a Microsoft 365 E5 subscription, Defender for Cloud Apps and Azure Advanced Threat Protection (ATP) are also included. The Enterprise Mobility and Security suite components are examined in greater detail in the next unit.
 
 **Additional reading.** For more information, see the following article on [Enterprise Mobility + Security Pricing Options](https://aka.ms/office-365/1298https://aka.ms/office-365/1298https://aka.ms/office-365/1298?azure-portal=true).
 

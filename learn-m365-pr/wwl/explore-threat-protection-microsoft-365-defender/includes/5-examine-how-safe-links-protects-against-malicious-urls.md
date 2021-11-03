@@ -14,7 +14,7 @@ The Safe Links feature works by replacing embedded URLs from incoming messages a
 It’s important that you complete the following prerequisite tasks before deploying Safe Links in your environment:
 
  -  Verify that your organization has Microsoft Defender for Office 365 licensed.
- -  Verify that you have the necessary permissions to define or edit Microsoft Defender's advanced threat protection policies. This action requires you to be a member of the Company administrators or Security admins role group.
+ -  Verify that you have the necessary permissions to define or edit Microsoft Defender for Cloud's advanced threat protection policies. This action requires you to be a member of the Company administrators or Security admins role group.
  -  Review your policies to ensure they’re defined in the proper sequence. Policies are enforced in the order they're listed in the Microsoft 365 Defender portal.
  -  Verify that Office clients are configured to use Modern Authentication (this consideration is for Safe Links protection in Office documents).
  -  Allow up to 30 minutes for your new or updated policies to be propagated to all Microsoft 365 datacenters.

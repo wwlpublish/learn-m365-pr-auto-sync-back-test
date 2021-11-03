@@ -6,7 +6,7 @@ Organizations can use sensitivity labels to:
 
 * Protect content in Office apps across different platforms and devices.
 
-* Protect content in third-party apps and services by using Microsoft Cloud App Security.
+* Protect content in third-party apps and services by using Microsoft Defender for Cloud Apps.
 
 * Protect containers that include Teams, Microsoft 365 Groups, and SharePoint sites.
 

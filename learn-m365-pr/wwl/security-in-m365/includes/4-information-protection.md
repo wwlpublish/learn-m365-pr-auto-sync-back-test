@@ -50,7 +50,7 @@ What counts as “sensitive data” for your organization is  determined by thin
 - You can start by using **Content Search** to search for in-place items such as email, documents, and instant messaging conversations.
 - Microsoft has many built-in **sensitive information types** (part of Data Loss Prevention) that can be used to detect common sensitive information types, like financial, healthcare-related, or personal information. 
 - If you need more granular control beyond the built-in sensitive information types, you create your own **custom sensitive information types**, or add your own unique dictionary of terms to detect against. 
-- Beyond detecting sensitive information in documents and emails, you can also use **Microsoft Cloud App Security** to detect content in cloud storage services, based on policy. You can discover sensitive data across third-party SaaS apps. You can also apply labels and protection to sensitive files with Microsoft Information Protection.
+- Beyond detecting sensitive information in documents and emails, you can also use **Microsoft Defender for Cloud Apps** to detect content in cloud storage services, based on policy. You can discover sensitive data across third-party SaaS apps. You can also apply labels and protection to sensitive files with Microsoft Information Protection.
 - The **Azure Information Protection Scanner** enables you to discover, classify, and protect files on on-premises servers, network shares, and on-premises SharePoint Server sites.
 
 ### Classify content with sensitivity labels

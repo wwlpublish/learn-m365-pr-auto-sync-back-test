@@ -10,7 +10,7 @@ The Microsoft 365 App Compliance Program, is a three tier approach to app securi
 
 * **Publisher Attestation** is where developers share general, data handling, and security and compliance information about their app service. This reduces the need for IT admins to work directly with app publishers. All the information needed to make an informed decision can be found for all apps that have completed the publisher attestation in one place and in a consistent format. 
 
-* **Microsoft 365 Certification** offers assurance and confidence to organizations that data and privacy are adequately secured and protected when using Microsoft Teams apps. Certification confirms that an app solution is compatible with Microsoft technologies, compliant with cloud app security best practices, and supported by Microsoft. 
+* **Microsoft 365 Certification** offers assurance and confidence to organizations that data and privacy are adequately secured and protected when using Microsoft Teams apps. Certification confirms that an app solution is compatible with Microsoft technologies, compliant with Defender for Cloud Apps best practices, and supported by Microsoft. 
 
 ## Microsoft Teams certified devices
 
@@ -55,4 +55,3 @@ With Microsoft Teams, you get rich online content collaboration in meetings that
 
 
 For the list of certified Cloud Video Interop (CVI) partners, see [Partners Certified for Microsoft Teams](https://docs.microsoft.com/microsoftteams/cloud-video-interop#partners-certified-for-microsoft-teams?azure-portal=true).
-

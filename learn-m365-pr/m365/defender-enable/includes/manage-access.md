@@ -1,12 +1,12 @@
-Microsoft 365 Defender portal is the new home for all your security products. By bringing together all Defender products, it allows for the correlation of security signals in a single unified view. You can reach the portal at <security.microsoft.com>
+Microsoft 365 Defender portal is the new home for all your security products. By bringing together all Defender for Cloud products, it allows for the correlation of security signals in a single unified view. You can reach the portal at <security.microsoft.com>
 
-Additionally, each of the Defender products has its own portal that lets you configure security-specific settings, and to investigate and address security threats. For completeness, this table shows the respective security portals for each of the other Defender products.
+Additionally, each of the Defender for Cloud products has its own portal that lets you configure security-specific settings, and to investigate and address security threats. For completeness, this table shows the respective security portals for each of the other Defender for Cloud products.
 
 |Security portal name|Link|
 |-|-|
 |Microsoft Defender Security Center|[securitycenter.windows.com](https://securitycenter.microsoft.com/)|
 |Microsoft Defender for Identity portal|[portal.atp.azure.com](https://portal.atp.azure.com/)|
-|Cloud App Security portal|[portal.cloudappsecurity.com](https://portal.cloudappsecurity.com/)|
+|Defender for Cloud Apps portal|[portal.cloudappsecurity.com](https://portal.cloudappsecurity.com/)|
 |Office 365 Security and Compliance Center|[protection.office.com](https://protection.office.com)|
 
 ## Manage access to Microsoft 365 Defender

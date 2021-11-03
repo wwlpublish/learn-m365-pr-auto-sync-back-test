@@ -19,22 +19,22 @@ To create a Microsoft Defender for Identity instance in the Defender for identit
 
 1.  Go to [the Defender for Identity portal](https://portal.atp.azure.com/?azure-portal=true).
 2.  Sign in with your Microsoft 365 administrator user account.
-3.  On the **Welcome** page, select **Create**.<br><br>:::image type="content" source="../media/defender-for-identity-wizard-create-step-b2f70fc6.png" alt-text="screenshot of Welcome page with the Create button in the defender for identity wizard":::
+3.  On the **Welcome** page, select **Create**.<br><br>:::image type="content" source="../media/defender-for-identity-wizard-create-step-b2f70fc6.png" alt-text="screenshot of Welcome page with the Create button in the Defender for identity wizard":::
     
 4.  The Defender for Identity instance that's created is automatically named after the Azure AD initial domain name. The Defender for Identity instance is created in the data center located closest to Azure AD.<br>
-5.  Select the **Configuration** (gear) icon in the left-hand navigation pane, and then select **Manage role groups**. Use the [Azure AD Admin Center](/azure/active-directory/active-directory-assign-admin-roles-azure-portal?azure-portal=true) link to manage the role groups.<br><br>:::image type="content" source="../media/defender-for-identity-wizard-manage-role-group-step-90063700.png" alt-text="screenshot of the Manage Role Group step in the defender for identity wizard":::
+5.  Select the **Configuration** (gear) icon in the left-hand navigation pane, and then select **Manage role groups**. Use the [Azure AD Admin Center](/azure/active-directory/active-directory-assign-admin-roles-azure-portal?azure-portal=true) link to manage the role groups.<br><br>:::image type="content" source="../media/defender-for-identity-wizard-manage-role-group-step-90063700.png" alt-text="screenshot of the Manage Role Group step in the Defender for identity wizard":::
     
 
     > [!NOTE]
     > Previously deleted Defender for Identity instances don't appear in the Defender for Identity portal. For more information on Defender for Identity data retention, see [Defender for Identity data security and privacy](/defender-for-identity/privacy-compliance?azure-portal=true).
 
-6.  Add your gMSA credentials to connect the Active Directory forest to the Microsoft Defender for identity portal. :::image type="content" source="../media/defender-for-identity-wizard-gmsa-credentials-step-358fa9bc.png" alt-text="screenshot of GMSA credentials step in the defender for identity wizard":::
+6.  Add your gMSA credentials to connect the Active Directory forest to the Microsoft Defender for identity portal. :::image type="content" source="../media/defender-for-identity-wizard-gmsa-credentials-step-358fa9bc.png" alt-text="screenshot of GMSA credentials step in the Defender for identity wizard":::
     
 
     > [!NOTE]
     > It's recommended to create a new gMSA account and security group containing all domain controllers with sensors with permissions to retrieve the gMSA account's password.
 
-7.  In the left-hand column, select **Sensors**, and then select the **Download** button and save the package locally.<br>:::image type="content" source="../media/defender-for-identity-wizard-select-sensor-step-d1b33789.png" alt-text="screenshot of the Select Sensor step in the defender for identity wizard":::
+7.  In the left-hand column, select **Sensors**, and then select the **Download** button and save the package locally.<br>:::image type="content" source="../media/defender-for-identity-wizard-select-sensor-step-d1b33789.png" alt-text="screenshot of the Select Sensor step in the Defender for identity wizard":::
     
 8.  On the **Sensors** page (see prior screenshot image), select the **copy file** icon that appears to the right of the **Access** **key** field. The access key is required for the Defender for Identity sensor to connect to your Defender for Identity instance. The access key is a one-time-password for sensor deployment, after which all communication is performed using certificates for authentication and TLS encryption.
 

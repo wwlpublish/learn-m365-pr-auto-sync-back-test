@@ -12,7 +12,7 @@ To view the report in the Microsoft 365 Defender portal, go to **Reports** > **S
 
 - **Devices**: This category of reports provides data from Microsoft Intune on devices at risk, device threat analytics, device compliance, malware on devices and users with malware detection. Reports are related to Microsoft Teams because of large numbers of mobile devices where Teams is installed.  
 
-- **Apps**: This category of reports provides data from Cloud App Security on threats from different apps, such as privileged OAuth apps, suspicious admin activity, impersonations, and cloud activity geographical locations. Reports are related to Microsoft Teams because of different apps that are integrated with Teams.
+- **Apps**: This category of reports provides data from Defender for Cloud Apps on threats from different apps, such as privileged OAuth apps, suspicious admin activity, impersonations, and cloud activity geographical locations. Reports are related to Microsoft Teams because of different apps that are integrated with Teams.
 
 ## Threat protection status report
 

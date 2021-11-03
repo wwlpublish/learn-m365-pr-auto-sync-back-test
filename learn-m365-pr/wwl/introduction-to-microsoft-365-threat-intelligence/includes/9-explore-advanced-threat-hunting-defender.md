@@ -4,7 +4,7 @@ Advanced hunting enables you to proactively hunt for threats across:<br>
 
  -  Devices managed by Microsoft Defender for Endpoint.
  -  Emails processed by Microsoft 365.
- -  Cloud app activities, authentication events, and domain controller activities tracked by Microsoft Cloud App Security and Microsoft Defender for Identity.
+ -  Cloud app activities, authentication events, and domain controller activities tracked by Microsoft Defender for Cloud Apps and Microsoft Defender for Identity.
 
 With this level of visibility, you can quickly hunt for threats that traverse sections of your network. These threats include sophisticated intrusions that arrive on email or the web, elevate local privileges, acquire privileged domain credentials, and move laterally across your devices.
 

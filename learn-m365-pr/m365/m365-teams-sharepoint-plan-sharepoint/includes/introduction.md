@@ -36,7 +36,7 @@ SharePoint hub sites are used to organize families of team sites and communicati
 
 ## Information protection
 
-Microsoft 365 services such as Data Loss Protection, Cloud App Security, and Microsoft Defender for Office 365 provide more methods for keeping your SharePoint data safe and allowing for secure collaboration with other users in your organization and with guests.
+Microsoft 365 services such as Data Loss Protection, Defender for Cloud Apps, and Microsoft Defender for Office 365 provide more methods for keeping your SharePoint data safe and allowing for secure collaboration with other users in your organization and with guests.
 
 ## Learn more
 

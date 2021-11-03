@@ -4,7 +4,7 @@ Multiple types of policies correlate to the different types of information you c
 
 Complete the following steps to control risk with policies:
 
-1.  In the **Cloud App Security** dashboard, hover your mouse over the **Control** icon on the left-hand bar and then select **Policies.**
+1.  In the **Defender for Cloud Apps** dashboard, hover your mouse over the **Control** icon on the left-hand bar and then select **Policies.**
 2.  On the **Policies** page, select the policy you want to maintain and fine-tune the policy to achieve expected results.
 3.  Add automated actions to respond and remediate risks automatically.
 
@@ -197,7 +197,7 @@ For example, you can decide that from unmanaged devices, or for sessions coming 
 
 ### Identifying risk
 
-Cloud App Security also helps you mitigate different risks in the cloud. You can configure any policy and alert to be associated with one of the risks in the following table.
+Defender for Cloud Apps also helps you mitigate different risks in the cloud. You can configure any policy and alert to be associated with one of the risks in the following table.
 
 :::row:::
   :::column:::
@@ -338,7 +338,7 @@ Inspect the content of files and content in the cloud and enforce internal and e
   :::column:::
     
 
-Receive real-time notifications for any policy violation or activity threshold via text message or email. When applying machine learning algorithms, Cloud App Security enables you to detect behavior that could indicate that a user is misusing data.
+Receive real-time notifications for any policy violation or activity threshold via text message or email. When applying machine learning algorithms, Defender for Cloud Apps enables you to detect behavior that could indicate that a user is misusing data.
 
 
   :::column-end:::

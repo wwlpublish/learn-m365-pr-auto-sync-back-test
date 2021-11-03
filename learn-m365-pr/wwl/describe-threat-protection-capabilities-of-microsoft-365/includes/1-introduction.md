@@ -7,4 +7,4 @@ At the end of this module, you'll have:
 * Identified common security threats.
 * Discovered how enterprises can prevent, detect, and respond to threats.
 * Discovered your security posture with Microsoft Security Center and Secure Score.
-* Discovered the value that Microsoft's Intelligent Security Graph and Azure Sentinel provides to secure organizations.
+* Discovered the value that Microsoft's Intelligent Security Graph and Microsoft Sentinel provides to secure organizations.

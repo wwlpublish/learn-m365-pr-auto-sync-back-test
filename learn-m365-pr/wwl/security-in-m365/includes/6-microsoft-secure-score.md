@@ -1,6 +1,6 @@
 Managing your security posture to protect against a continually evolving threat landscape offers many challenges. From having too many security solutions with various places to configure lots of controls, a lack of knowledge around which controls are the most effective, and being unable to benchmark yourself against other organizations, it can be difficult for security teams to find the right balance of security and productivity.
 
-With Microsoft Secure Score in the Microsoft 365 security center, you can have increased visibility and control over your organization’s security posture. From a centralized dashboard you can monitor and improve the security for your Microsoft 365 identities, data, apps, devices, and infrastructure. 
+With Microsoft Secure Score in the Microsoft 365 Defender portal, you can have increased visibility and control over your organization’s security posture. From a centralized dashboard you can monitor and improve the security for your Microsoft 365 identities, data, apps, devices, and infrastructure. 
 
 ![Microsoft Secure Score](../media/o365-securescore.png)
 

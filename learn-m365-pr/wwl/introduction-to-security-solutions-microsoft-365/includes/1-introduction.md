@@ -16,7 +16,7 @@ After completing this module, you'll be able to:
  *  Explain how Microsoft Defender for Identity identifies, detects, and investigates advanced threats, compromised identities, and malicious insider actions directed at your organization.
  *  Explain how Microsoft Defender for Endpoint helps enterprise networks prevent, detect, investigate, and respond to advanced threats.
  *  Describe how Microsoft 365 Threat Intelligence can be beneficial to your organization’s security officers and administrators.
- *  Describe how Microsoft Cloud App Security enhances visibility and control over your Microsoft 365 tenant.
+ *  Describe how Microsoft Defender for Cloud Apps enhances visibility and control over your Microsoft 365 tenant.
 
 > [!NOTE]
 > Microsoft Defender for Office 365, Threat Intelligence, Advanced Security Management, and most of the Alert capabilities require a Microsoft 365 E5 subscription for your organization. If you don't have that plan and want to try these features, you can [sign up for a trial of Microsoft 365 Enterprise E5](https://go.microsoft.com/fwlink/?linkid=858586).

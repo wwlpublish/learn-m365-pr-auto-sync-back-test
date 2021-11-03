@@ -24,7 +24,7 @@ From the home page, you can review the following information:
 The **Add cards** feature enables organizations to add custom cards. Examples of custom cards include:
 
  -  Showing your organization's cloud app compliance.
- -  Showing data about users with shared files. This type of card can include links to Cloud App Security or other tools where you can investigate data.
+ -  Showing data about users with shared files. This type of card can include links to Defender for Cloud Apps or other tools where you can investigate data.
 
 ### Compliance Manager
 

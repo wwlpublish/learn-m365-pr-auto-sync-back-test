@@ -57,7 +57,7 @@ You have flexibility in how you create and configure your DLP policies. You can 
 	|OneDrive accounts |accounts or distribution groups |
 	|Teams chat and channel messages |accounts |
 	|Windows 10 devices |user or group |
-	|Microsoft Cloud App Security |instance |
+	|Microsoft Defender for Cloud Apps |instance |
 	|On-premises repositories| repository file path|
 
 3. **Choose the conditions that must be matched for a policy to be applied to an item**: You can accept pre-configured conditions or define custom conditions. Some examples are:

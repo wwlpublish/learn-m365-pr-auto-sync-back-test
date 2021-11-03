@@ -6,7 +6,7 @@ This module examined how Exchange Online Protection (EOP) uses a multi-layered a
  -  Bulk email
  -  Malware
 
-You then learned that Microsoft Defender for Office 365 extends the protection provided by EOP. In fact, when EOP and Microsoft Defender for Office 365 are integrated together, they provide the most efficient level of protection against commodity and advanced targeted threats. Defender filters targeted attacks that can pass through EOP’s line of defenses. These attacks include advanced threats such as:
+You then learned that Microsoft Defender for Office 365 extends the protection provided by EOP. In fact, when EOP and Microsoft Defender for Office 365 are integrated together, they provide the most efficient level of protection against commodity and advanced targeted threats. Defender for Cloud filters targeted attacks that can pass through EOP’s line of defenses. These attacks include advanced threats such as:
 
  -  Zero-day attacks in email attachments and Office documents.
  -  Time-of-click protection against malicious URLs.

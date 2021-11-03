@@ -1,9 +1,9 @@
 ### YamlMime:ModuleUnit
 uid: learn.wwl.describe-threat-protection-capabilities-of-microsoft-365.describe-value-that-intelligent-security-graph-provides-securing-organizations-f
-title: Describe Microsoft's Intelligent Security Graph and Azure Sentinel
+title: Describe Microsoft's Intelligent Security Graph and Microsoft Sentinel
 metadata:
-  title: Describe Microsoft's Intelligent Security Graph and Azure Sentinel
-  description: "Describe Microsoft's Intelligent Security Graph and Azure Sentinel"
+  title: Describe Microsoft's Intelligent Security Graph and Microsoft Sentinel
+  description: "Describe Microsoft's Intelligent Security Graph and Microsoft Sentinel"
   ms.date: 02/17/2021
   author: wwlpublish
   ms.author: ceperezb

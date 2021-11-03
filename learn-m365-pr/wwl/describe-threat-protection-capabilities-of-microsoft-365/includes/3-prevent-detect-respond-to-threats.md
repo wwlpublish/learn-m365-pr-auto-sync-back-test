@@ -9,7 +9,7 @@ The Microsoft 365 Defender suite protects:
 
 * Identities with Microsoft Defender for Identity (MSDI) - MSDI uses Active Directory signals to identify, detect, and investigate advanced threats, compromised identities, and malicious insider actions directed at your organization.
 * Endpoints with Microsoft Defender for Endpoint (MSDE) - MSDE is a unified endpoint platform for preventative protection, post-breach detection, automated investigation, and response.
-* Applications with Microsoft Cloud App security (MCAS) - MCAS is a comprehensive cross-SaaS solution bringing deep visibility, strong data controls, and enhanced threat protection to your cloud apps.
+* Applications with Microsoft Defender for Cloud Apps - Defender for Cloud Apps is a comprehensive cross-SaaS solution bringing deep visibility, strong data controls, and enhanced threat protection to your cloud apps.
 * Email and collaboration with Microsoft Defender for Office 365 (MSDO) - MSDO safeguards your organization against malicious threats by detecting, investigating, and responding to attacks across email and other collaboration vectors like Microsoft Teams, SharePoint Online, and OneDrive for Business and Office clients.
 
 :::image type="content" source="../media/3-threat-protection-v3.png" alt-text="Integrate Microsoft Threat Protection experience":::
@@ -58,18 +58,18 @@ In this video, you'll learn more about Microsoft Defender for Endpoint:
 
 For more information, read [Microsoft Defender for Endpoint](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection)
 
-## Microsoft Cloud App Security
+## Microsoft Defender for Cloud Apps
 
-Microsoft Cloud App Security (MCAS) is a Cloud Access security broker (CASB).  It operates as an intermediary between a cloud user and the cloud provider, to provide rich visibility to your cloud services, control over data travel, and sophisticated analytics to identify and combat cyberthreats across all your cloud services.
+Microsoft Defender for Cloud Apps is a Cloud Access security broker (CASB).  It operates as an intermediary between a cloud user and the cloud provider, to provide rich visibility to your cloud services, control over data travel, and sophisticated analytics to identify and combat cyberthreats across all your cloud services.
 
-MCAS is built on a framework that provides the following capability:
+Defender for Cloud Apps is built on a framework that provides the following capability:
 
 * Discover and control the use of Shadow IT: Identify the cloud apps, IaaS, and PaaS services used by your organization.  Investigate usage patterns, assess the risk levels and business readiness of more than 16,000 SaaS apps against more than 80 risks.
 * Protect your sensitive information anywhere in the cloud: Understand, classify, and protect the exposure of sensitive information at rest. Leverage out-of-the-box policies and automated processes to apply controls in real time across all your cloud apps.
 * Protect against cyberthreats and anomalies: Detect unusual behavior across cloud apps to identify ransomware, compromised users or rogue applications, analyze high-risk usage, and remediate automatically to limit the risk to your organization.
 * Assess the compliance of your cloud apps: Assess if your cloud apps meet relevant compliance requirements, including regulatory compliance and industry standards. Prevent data leaks to non-compliant apps and limit access to regulated data.
 
-For more information, read [Microsoft Cloud App Security overview](https://docs.microsoft.com/cloud-app-security/what-is-cloud-app-security).
+For more information, read [Microsoft Defender for Cloud Apps overview](https://docs.microsoft.com/cloud-app-security/what-is-cloud-app-security).
 
 ## Microsoft Defender for Office 365
 

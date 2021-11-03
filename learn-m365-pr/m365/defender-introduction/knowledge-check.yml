@@ -14,7 +14,7 @@ durationInMinutes: 2
 content: |
 quiz:
   questions: 
-  - content: "Which Microsoft Defender product, once integrated to Microsoft 365 Defender, provides threat information on email, attachments, and link detections?"
+  - content: "Which Microsoft Defender for Cloud product, once integrated to Microsoft 365 Defender, provides threat information on email, attachments, and link detections?"
     choices:
     - content: "Microsoft Defender for Endpoint"
       isCorrect: false

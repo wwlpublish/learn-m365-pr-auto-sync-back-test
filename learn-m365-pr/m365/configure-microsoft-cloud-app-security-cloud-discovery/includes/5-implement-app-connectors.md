@@ -1,11 +1,11 @@
-You can use Cloud App Security app connectors to enable better control and visibility of your organization's cloud apps. Cloud App Security uses APIs provided by your cloud app provider to enable and manage connections to that provider's apps. You can even connect to multiple instances of the same cloud app. For example, you might use Salesforce in two parts of your organization. Each instance is treated and managed separately by Cloud App Security.
+You can use Defender for Cloud Apps app connectors to enable better control and visibility of your organization's cloud apps. Defender for Cloud Apps uses APIs provided by your cloud app provider to enable and manage connections to that provider's apps. You can even connect to multiple instances of the same cloud app. For example, you might use Salesforce in two parts of your organization. Each instance is treated and managed separately by Defender for Cloud Apps.
 
 > [!IMPORTANT]
 > This multi-instance app support does not include Microsoft Azure or Office 365.
 
 ## Overview
 
-The following process describes how Cloud App Security uses app connectors. Cloud App Security:
+The following process describes how Defender for Cloud Apps uses app connectors. Defender for Cloud Apps:
 
 1. Retrieves and save authentication permissions.
 2. Requests the user list.
@@ -33,9 +33,9 @@ The following table describes the items you can enable through your app connecto
 
 To add an app connector, for example, a connector to GitHub, use the following procedure:
 
-1. Navigate to the [Cloud App Security portal](https://portal.cloudappsecurity.com?azure-portal=true).
+1. Navigate to the [Defender for Cloud Apps portal](https://portal.cloudappsecurity.com?azure-portal=true).
 2. Sign in as a Global Admin.
-3. In Cloud App Security, select **Settings** (the cog icon), and then select **App connectors**.
+3. In Defender for Cloud Apps, select **Settings** (the cog icon), and then select **App connectors**.
 4. On the **Connected apps** page, displayed in the following screenshot, select the **App connectors** tab.
 5. Then select the **+** symbol.
 6. Choose from the list of supported app connectors. In this case, select **GitHub**.
@@ -49,14 +49,14 @@ To add an app connector, for example, a connector to GitHub, use the following p
 9. Select **Connect in GitHub** and complete the connection process.
 
 > [!IMPORTANT]
-> Some vendors require that you add their apps' IP addresses to allow lists to enable access from Cloud App Security.
+> Some vendors require that you add their apps' IP addresses to allow lists to enable access from Defender for Cloud Apps.
 
 ### What apps can you connect with?
 
-You can use Cloud App Security app connectors to connect to the following apps:
+You can use Defender for Cloud Apps app connectors to connect to the following apps:
 
 > [!NOTE]
-> This list is subject to change as Cloud App Security adds more apps for API connections.
+> This list is subject to change as Defender for Cloud Apps adds more apps for API connections.
 
 - Microsoft Azure
 - Amazon Web Services
@@ -76,11 +76,11 @@ You can use Cloud App Security app connectors to connect to the following apps:
 > You can select **Suggest more apps** from the drop down list to request additional app connectors.
 
 > [!IMPORTANT]
-> To connect Cloud App Security to Azure, you must be a Global or Security administrator in Azure AD.
+> To connect Defender for Cloud Apps to Azure, you must be a Global or Security administrator in Azure AD.
 
 ### Connect Office 365
 
-Cloud App Security supports the following Office 365 apps:
+Defender for Cloud Apps supports the following Office 365 apps:
 
 - Dynamics 365 CRM
 - Exchange

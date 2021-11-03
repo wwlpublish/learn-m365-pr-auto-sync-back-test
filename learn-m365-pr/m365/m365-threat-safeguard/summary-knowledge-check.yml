@@ -40,10 +40,10 @@ quiz:
       choices:
       - content: "Microsoft Defender for Endpoint"
         isCorrect: false
-        explanation: "Incorrect. Microsoft Defender for Identity supports integration with Microsoft Defender for Endpoint and Microsoft Cloud App Security."
-      - content: "Microsoft Cloud App Security"
+        explanation: "Incorrect. Microsoft Defender for Identity supports integration with Microsoft Defender for Endpoint and Microsoft Defender for Cloud Apps."
+      - content: "Microsoft Defender for Cloud Apps"
         isCorrect: false
-        explanation: "Incorrect. Microsoft Defender for Identity supports integration with Microsoft Defender for Endpoint and Microsoft Cloud App Security."
+        explanation: "Incorrect. Microsoft Defender for Identity supports integration with Microsoft Defender for Endpoint and Microsoft Defender for Cloud Apps."
       - content: "Intune"
         isCorrect: true
         explanation: "Correct! Currently, there is no supported integration with Microsoft Defender for Identity and Microsoft Intune."

@@ -2,6 +2,6 @@ As enterprises move more of their workloads to the cloud, it has never been more
 
 In this module, you will:
 
-- Explore the Cloud App Security Framework.
-- Discover the capabilities of Microsoft Cloud Application Security (MCAS).
-- Explore how Microsoft Cloud App Security integrates with Microsoft security and threat protection capabilities.
+- Explore the Defender for Cloud Apps Framework.
+- Discover the capabilities of Microsoft Cloud Application Security (Defender for Cloud Apps).
+- Explore how Microsoft Defender for Cloud Apps integrates with Microsoft security and threat protection capabilities.

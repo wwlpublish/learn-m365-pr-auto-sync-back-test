@@ -1,4 +1,4 @@
-When troubleshooting Microsoft Cloud App Security, it's essential to consider the troubleshooting areas identified in the following table.
+When troubleshooting Microsoft Defender for Cloud Apps, it's essential to consider the troubleshooting areas identified in the following table.
 
 :::row:::
   :::column:::
@@ -27,7 +27,7 @@ Service status
   :::column:::
     
 
-You can check the current Microsoft Cloud App Security service status by going to the [Microsoft Cloud App Security site](https://status.cloudappsecurity.com/?azure-portal=true) or directly from within your Cloud App Security portal by selecting **Help > System status**.
+You can check the current Microsoft Defender for Cloud Apps service status by going to the [Microsoft Defender for Cloud Apps site](https://status.cloudappsecurity.com/?azure-portal=true) or directly from within your Defender for Cloud Apps portal by selecting **Help > System status**.
 
 
   :::column-end:::
@@ -103,9 +103,9 @@ Security Information Event and Management (SIEM) integration
   :::column:::
     
 
-You can integrate Microsoft Cloud App Security with your generic SIEM server to enable centralized monitoring of alerts and activities from connected apps. The Microsoft Cloud App Security SIEM agent runs on your server and pulls alerts and activities from Microsoft Cloud App Security and streams them into the SIEM server.
+You can integrate Microsoft Defender for Cloud Apps with your generic SIEM server to enable centralized monitoring of alerts and activities from connected apps. The Microsoft Defender for Cloud Apps SIEM agent runs on your server and pulls alerts and activities from Microsoft Defender for Cloud Apps and streams them into the SIEM server.
 
-Verify the status of the SIEM agent in the Microsoft Cloud App Security portal isn't **Connection error** or **Disconnected.** Also ensure there are no agent notifications. The status will display **Connection error** if the connection is down for more than two hours. It will display as **Disconnected** if the connection is down for over 12 hours.
+Verify the status of the SIEM agent in the Microsoft Defender for Cloud Apps portal isn't **Connection error** or **Disconnected.** Also ensure there are no agent notifications. The status will display **Connection error** if the connection is down for more than two hours. It will display as **Disconnected** if the connection is down for over 12 hours.
 
 
 For more information, see [Troubleshooting the SIEM Agent](/cloud-app-security/troubleshooting-siem?azure-portal=true).
@@ -124,7 +124,7 @@ Policies
   :::column:::
     
 
-To troubleshoot Microsoft Cloud App Security policies, you must consider the error code and find an appropriate resolution. All relevant error codes and resolutions are available in the following article on [Troubleshooting Microsoft Cloud App Security policies](/cloud-app-security/troubleshoot-policies?azure-portal=true).
+To troubleshoot Microsoft Defender for Cloud Apps policies, you must consider the error code and find an appropriate resolution. All relevant error codes and resolutions are available in the following article on [Troubleshooting Microsoft Defender for Cloud Apps policies](/cloud-app-security/troubleshoot-policies?azure-portal=true).
 
 
   :::column-end:::

@@ -1,9 +1,9 @@
 ### YamlMime:ModuleUnit
 uid: learn.wwl.implement-microsoft-cloud-application-security.explore-cloud-app-security
-title: Explore Cloud App Security
+title: Explore Defender for Cloud Apps
 metadata:
-  title: Explore Cloud App Security
-  description: "Explore Cloud App Security"
+  title: Explore Defender for Cloud Apps
+  description: "Explore Defender for Cloud Apps"
   ms.date: 09/16/2021
   author: wwlpublish
   ms.author: tfrink
@@ -18,14 +18,14 @@ content: |
 quiz:
   title: "Check your knowledge"
   questions:
-  - content: "Which of the following Cloud App Security tools uses your traffic logs to dynamically discover and analyze the cloud apps that your organization uses?"
+  - content: "Which of the following Defender for Cloud Apps tools uses your traffic logs to dynamically discover and analyze the cloud apps that your organization uses?"
     choices:
     - content: "Cloud Discovery"
       isCorrect: true
-      explanation: "That's correct. Cloud Discovery uses your traffic logs to dynamically discover and analyze the cloud apps that your organization uses. To create a snapshot report of your organization's cloud use, you can manually upload log files from your firewalls or proxies for analysis. To set up continuous reports, use Cloud App Security log collectors to periodically forward your logs."
+      explanation: "That's correct. Cloud Discovery uses your traffic logs to dynamically discover and analyze the cloud apps that your organization uses. To create a snapshot report of your organization's cloud use, you can manually upload log files from your firewalls or proxies for analysis. To set up continuous reports, use Defender for Cloud Apps log collectors to periodically forward your logs."
     - content: "App connectors"
       isCorrect: false
-      explanation: "That's incorrect. App connectors use APIs from cloud app providers to integrate the Cloud App Security cloud with other cloud apps. Try again."
+      explanation: "That's incorrect. App connectors use APIs from cloud app providers to integrate the Defender for Cloud Apps cloud with other cloud apps. Try again."
     - content: "Conditional Access App Control"
       isCorrect: false
       explanation: "That's incorrect. The Conditional Access App Control feature uses reverse proxy architecture to give you the tools needed to have real-time visibility and control over access to and activities completed within your cloud environment. Try again."

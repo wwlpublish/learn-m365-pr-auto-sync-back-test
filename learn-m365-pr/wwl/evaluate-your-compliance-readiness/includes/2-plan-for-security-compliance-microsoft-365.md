@@ -136,12 +136,12 @@ Use these recommended configurations as a starting point for enterprise scale or
 
 For businesses to make sure they’re safe when it comes to security and compliance, Microsoft had an excellent solution known as the Microsoft 365 Security and Compliance center (SCC). It has since been replaced by two separate software solutions:
 
- -  Microsoft 365 Security Center
+ -  Microsoft 365 Defender portal
  -  Microsoft 365 Compliance Center
 
-However, while the SCC is in the process of being replaced by these two separate solutions, that replacement is still on-going. As a result, the SCC remains a viable tool for organizations to use. In fact, if you select **Security** in the navigation pane on the Microsoft 365 admin center, you'll be redirected to the Security and Compliance Center. And several of the features (such as retention policies) in the new Security Center redirect you to the SCC as well.
+However, while the SCC is in the process of being replaced by these two separate solutions, that replacement is still on-going. As a result, the SCC remains a viable tool for organizations to use. In fact, if you select **Security** in the navigation pane on the Microsoft 365 admin center, you'll be redirected to the Security and Compliance Center. And several of the features (such as retention policies) in the new Defender for Cloud redirect you to the SCC as well.
 
-So throughout this training, you'll often see references to the SCC, even though it's in the process of being replaced. And that's because the feature being discussed is still in the SCC and has yet to be fully transitioned to either the new Security Center or Compliance Center. Once the planned transitions are completed, the SCC will be retired. But for now, it's still a significant part of the Microsoft 365 security story.
+So throughout this training, you'll often see references to the SCC, even though it's in the process of being replaced. And that's because the feature being discussed is still in the SCC and has yet to be fully transitioned to either the new Defender for Cloud or Compliance Center. Once the planned transitions are completed, the SCC will be retired. But for now, it's still a significant part of the Microsoft 365 security story.
 
 ## Knowledge check
 

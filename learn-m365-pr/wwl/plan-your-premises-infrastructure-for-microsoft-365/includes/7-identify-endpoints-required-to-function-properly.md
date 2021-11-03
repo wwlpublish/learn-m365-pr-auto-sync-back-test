@@ -139,7 +139,7 @@ TCP 443
   :::column:::
     
 
-**Required:** Microsoft 365 portal and shared infrastructure (including [Cloud App Security](https://www.microsoft.com/microsoft-365/blog/2016/02/25/new-security-management-and-transparency-capabilities-coming-to-office-365/?azure-portal=true) and Delve)
+**Required:** Microsoft 365 portal and shared infrastructure (including [Defender for Cloud Apps](https://www.microsoft.com/microsoft-365/blog/2016/02/25/new-security-management-and-transparency-capabilities-coming-to-office-365/?azure-portal=true) and Delve)
 
 
 **Destination:**

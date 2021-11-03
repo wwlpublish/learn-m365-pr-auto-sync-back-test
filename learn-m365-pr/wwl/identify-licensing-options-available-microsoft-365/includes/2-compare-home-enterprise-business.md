@@ -58,7 +58,7 @@ Microsoft 365 for enterprise has three subscription tiers with different feature
 | **Device and app management** | Includes Windows Enterprise, Microsoft 365 Admin Center, Microsoft Intune, Windows Autopilot, Windows Analytics Device Health, and Microsoft Endpoint Configuration Manager.| 
 | **Identity and access management** | Includes Windows Hello, Credential Guard, and Direct Access, and Azure Active Directory Premium plan 1. Microsoft 365 E5 also includes Azure Active Directory Premium plan 2.| 
 | **Threat protection** | Includes Microsoft Advanced Threat Analytics and Windows Defender Antivirus and Device Guard. Microsoft 365 E5 also includes Microsoft Defender Advanced Threat Protection, Microsoft 365 Advanced Threat Protection, and Azure Advanced Threat Protection.| 
-| **Information protection** | Includes Windows Information Protection and BitLocker and Azure Information Protection P1. Microsoft 365 E5 and E3 subscriptions also include Microsoft 365 data loss prevention. Microsoft 365 E5 further includes Azure Information Protection P2 and Cloud App Security.| 
+| **Information protection** | Includes Windows Information Protection and BitLocker and Azure Information Protection P1. Microsoft 365 E5 and E3 subscriptions also include Microsoft 365 data loss prevention. Microsoft 365 E5 further includes Azure Information Protection P2 and Defender for Cloud Apps.| 
 | **Security management** | Includes Microsoft Secure Score and Microsoft Security and Compliance Center. | 
 | **Advanced compliance** | Microsoft 365 E5 includes Advanced eDiscovery, Customer Lockbox, Advanced Data Governance, Service Encryption with Customer Key, and Privileged Access Management.| 
 

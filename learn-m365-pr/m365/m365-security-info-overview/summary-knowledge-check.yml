@@ -44,12 +44,12 @@ quiz:
       
     - content: "Microsoft Information Protection allows for document sharing and protection to third-party cloud services by using which of the following?"
       choices:
-      - content: "Microsoft Cloud App Security"
+      - content: "Microsoft Defender for Cloud Apps"
         isCorrect: true
-        explanation: "Correct. Microsoft Cloud App Security (MCAS) applies policies based on the data’s labels in third-party cloud applications."
+        explanation: "Correct. Microsoft Defender for Cloud Apps applies policies based on the data’s labels in third-party cloud applications."
       - content: "Azure Third-Party Information Protection"
         isCorrect: false
-        explanation: "That's incorrect. Azure Third-Party Information Protection does not exist within the Microsoft information protection stack; MCAS is used instead."
+        explanation: "That's incorrect. Azure Third-Party Information Protection does not exist within the Microsoft information protection stack; Defender for Cloud Apps is used instead."
       - content: "Privileged Identity Management"
         isCorrect: false
         explanation: "That's incorrect. PIM is an identity and access management solution for controlling elevated user access."

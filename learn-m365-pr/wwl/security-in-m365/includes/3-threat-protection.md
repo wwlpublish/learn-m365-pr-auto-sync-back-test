@@ -26,13 +26,13 @@ Azure Advanced Threat Protection (ATP) is a cloud-based security solution that i
 
 Through security reports and user profile analytics, Azure ATP helps reduce your attack surface, making it harder to compromise user credentials and advance an attack.
 
-## Azure Security Center
+## Microsoft Defender for Cloud
 
-Azure Security Center provides unified security management and advanced threat protection across hybrid cloud workloads. Get a unified view of security across your on-premises and cloud workloads, automatically discover and onboard new Azure resources, and apply security policies to ensure compliance with security standards. You can collect, search, and analyze security data from a variety of sources, including firewalls and partner solutions.
+Microsoft Defender for Cloud provides unified security management and advanced threat protection across hybrid cloud workloads. Get a unified view of security across your on-premises and cloud workloads, automatically discover and onboard new Azure resources, and apply security policies to ensure compliance with security standards. You can collect, search, and analyze security data from a variety of sources, including firewalls and partner solutions.
 
-## Microsoft Cloud App Security
+## Microsoft Defender for Cloud Apps
 
-Microsoft Cloud App Security gives you visibility into your cloud apps and services, provides analytics to identify and combat cyberthreats, and enables you to control how your data travels. The cloud app security framework helps you:
+Microsoft Defender for Cloud Apps gives you visibility into your cloud apps and services, provides analytics to identify and combat cyberthreats, and enables you to control how your data travels. The Defender for Cloud Apps framework helps you:
 - Discover and control the use of Shadow IT
 - Protect your sensitive information anywhere in the cloud
 - Protect against cyberthreats and anomalies
@@ -62,7 +62,7 @@ Be sure to click the full-screen option in the video player, to make it easier t
 
 ## Office 365 Threat Intelligence
 
-Office 365 Threat Intelligence is a collection of insights and information available in the Microsoft 365 security center. Office 365 Threat Intelligence monitors signals and gathers data from multiple sources, such as user activity, authentication, email, compromised PCs, and security incidents. You can use this information to understand and respond to threats against users and intellectual property.
+Office 365 Threat Intelligence is a collection of insights and information available in the Microsoft 365 Defender portal. Office 365 Threat Intelligence monitors signals and gathers data from multiple sources, such as user activity, authentication, email, compromised PCs, and security incidents. You can use this information to understand and respond to threats against users and intellectual property.
 
 ## Windows Defender Advanced Threat Protection (ATP)
 

@@ -43,7 +43,7 @@ quiz:
     - content: "Microsoft 365 Subscription Center"
       isCorrect: false
       explanation: "That's incorrect. You modify the payment method and frequency of your Microsoft 365 subscription in the Microsoft 365 admin center."
-    - content: "Microsoft 365 Security Center"
+    - content: "Microsoft 365 Defender portal"
       isCorrect: false
       explanation: "That's incorrect. You modify the payment method and frequency of your Microsoft 365 subscription in the Microsoft 365 admin center."
     - content: "Microsoft 365 admin center"

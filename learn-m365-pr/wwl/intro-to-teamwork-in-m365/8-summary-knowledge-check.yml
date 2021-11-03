@@ -24,7 +24,7 @@ quiz:
     - content: "Word, Excel, Delve, Yammer"
       isCorrect: false
       explanation: "Incorrect. While some of these are productivity tools, they don't all contribute to better personal productivity."
-    - content: "Workplace Analytics, Microsoft Endpoint Manager, Security Center"
+    - content: "Workplace Analytics, Microsoft Endpoint Manager, Defender for Cloud"
       isCorrect: false
       explanation: "Yammer is one of the products that comprise the Teamwork toolkit."
   - content: "Co-authoring allows multiple authors to collaborate on the same document in real-time through Word, Excel, and what other application?"

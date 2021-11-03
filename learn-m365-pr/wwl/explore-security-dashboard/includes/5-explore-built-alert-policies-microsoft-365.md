@@ -29,7 +29,7 @@ A potentially malicious URL selection was detected
   :::column:::
     
 
-Generates an alert when a user who is protected by the Safe Links feature in Microsoft Defender for Office 365 selects a malicious link. This event is triggered when URL verdict changes are identified by Microsoft Defender or when users override the Safe Links pages (based on your organization's Safe Links policy). This alert policy has a **High** severity setting.
+Generates an alert when a user who is protected by the Safe Links feature in Microsoft Defender for Office 365 selects a malicious link. This event is triggered when URL verdict changes are identified by Microsoft Defender for Cloud or when users override the Safe Links pages (based on your organization's Safe Links policy). This alert policy has a **High** severity setting.
 
 
   :::column-end:::

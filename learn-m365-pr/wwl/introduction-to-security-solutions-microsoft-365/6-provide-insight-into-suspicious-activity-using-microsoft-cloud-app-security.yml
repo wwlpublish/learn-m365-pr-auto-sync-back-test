@@ -1,9 +1,9 @@
 ### YamlMime:ModuleUnit
 uid: learn.wwl.introduction-to-security-solutions-microsoft-365.provide-insight-into-suspicious-activity-using-microsoft-cloud-app-security
-title: Provide insight into suspicious activity using Microsoft Cloud App Security
+title: Provide insight into suspicious activity using Microsoft Defender for Cloud Apps
 metadata:
-  title: Provide insight into suspicious activity using Microsoft Cloud App Security
-  description: "Provide insight into suspicious activity using Microsoft Cloud App Security"
+  title: Provide insight into suspicious activity using Microsoft Defender for Cloud Apps
+  description: "Provide insight into suspicious activity using Microsoft Defender for Cloud Apps"
   ms.date: 04/28/2021
   author: wwlpublish
   ms.author: tfrink
@@ -16,14 +16,14 @@ content: |
 quiz:
   title: "Check your knowledge"
   questions:
-  - content: "What does Cloud App Security use to map and identify your cloud environment and the cloud apps your organization is using?"
+  - content: "What does Defender for Cloud Apps use to map and identify your cloud environment and the cloud apps your organization is using?"
     choices:
     - content: "Cloud Discovery"
       isCorrect: true
-      explanation: "That's correct. Cloud App Security integrates visibility with your cloud by using Cloud Discovery to map and identify your cloud environment and the cloud apps your organization is using."
+      explanation: "That's correct. Defender for Cloud Apps integrates visibility with your cloud by using Cloud Discovery to map and identify your cloud environment and the cloud apps your organization is using."
     - content: "Conditional Access App Control"
       isCorrect: false
-      explanation: "That's incorrect. This feature isn't what Cloud App Security uses to map and identify your cloud environment and the cloud apps your organization is using. Try again."
+      explanation: "That's incorrect. This feature isn't what Defender for Cloud Apps uses to map and identify your cloud environment and the cloud apps your organization is using. Try again."
     - content: "App Connectors"
       isCorrect: false
-      explanation: "That's incorrect. This feature isn't what Cloud App Security uses to map and identify your cloud environment and the cloud apps your organization is using. Try again."
+      explanation: "That's incorrect. This feature isn't what Defender for Cloud Apps uses to map and identify your cloud environment and the cloud apps your organization is using. Try again."

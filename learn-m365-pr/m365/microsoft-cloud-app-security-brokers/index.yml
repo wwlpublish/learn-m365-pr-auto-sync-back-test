@@ -12,8 +12,8 @@ title: Implement app security best practices with Cloud Access Security Brokers
 summary: Learn about Cloud Access Security Brokers, including use cases and best practices.
 abstract: | 
   In this module, you will:
-  - Describe Cloud App Security Broker use cases
-  - Describe Microsoft Cloud App Security best practices
+  - Describe Defender for Cloud Apps Broker use cases
+  - Describe Microsoft Defender for Cloud Apps best practices
 
 prerequisites: | 
   - Knowledge of security fundamentals

@@ -23,7 +23,7 @@ The Secure Score tool provides organizations with an action roadmap. This roadma
  *  **Identity.** Displays Azure AD accounts and roles.
  *  **Data**. Displays Microsoft Information Protection.
  *  **Device.** Doesn't currently display improvement actions.
- *  **App**. Displays email and cloud apps, including Microsoft 365 and Microsoft Cloud App Security.
+ *  **App**. Displays email and cloud apps, including Microsoft 365 and Microsoft Defender for Cloud Apps.
  *  **Infrastructure.** Doesn't currently display improvement actions.
 
 In the Microsoft Secure Score Overview tab, you can see how points are split between these groups and what points are available. The Overview tab is also the place to get an all-up view of the organization's total Secure Score. This tab also displays the historical trend of an organization's Secure Score with benchmark comparisons, and improvement actions that can be taken to improve its score. The actions are ranked by priority.

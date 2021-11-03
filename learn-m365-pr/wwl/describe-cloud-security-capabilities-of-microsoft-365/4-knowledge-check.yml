@@ -27,14 +27,14 @@ quiz:
     - content: "Network, Storage, Applications, and Administration"
       isCorrect: false
       explanation: "That's incorrect. CASBs are broken down into four key capability areas including Shadow IT Discovery, Information Protection, Threat Protection and Compliance."
-  - content: "Which service integrates with MCAS to discover cloud app usage beyond the corporate network?"
+  - content: "Which service integrates with Defender for Cloud Apps to discover cloud app usage beyond the corporate network?"
     choices:
     - content: "Microsoft Defender for Endpoint"
       isCorrect: true
       explanation: "That's correct. Microsoft Defender for Endpoint is used to discover cloud app usage beyond the corporate network."
     - content: "Power Automate"
       isCorrect: false
-      explanation: "That's incorrect. Microsoft Defender Endpoint is used to discover cloud app usage beyond the corporate network."
+      explanation: "That's incorrect. Microsoft Defender for Cloud for Endpoint is used to discover cloud app usage beyond the corporate network."
     - content: "Azure AD and Azure Information Protection"
       isCorrect: false
-      explanation: "That's incorrect. Microsoft Defender Endpoint is used to discover cloud app usage beyond the corporate network."
+      explanation: "That's incorrect. Microsoft Defender for Cloud for Endpoint is used to discover cloud app usage beyond the corporate network."

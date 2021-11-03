@@ -30,9 +30,9 @@ quiz:
       explanation: "Incorrect. Secure Score is a measurement of an organization's security posture."
   - content: "Endpoint Manager includes which services?"
     choices:
-    - content: "Microsoft Intune, Configuration Manager, Desktop Analytics, Security Center, Windows Autopilot, Azure Active Directory, Endpoint Manager admin center"
+    - content: "Microsoft Intune, Configuration Manager, Desktop Analytics, Defender for Cloud, Windows Autopilot, Azure Active Directory, Endpoint Manager admin center"
       isCorrect: false
-      explanation: "Incorrect. Security Center is not part of the Endpoint manager services."
+      explanation: "Incorrect. Defender for Cloud is not part of the Endpoint manager services."
     - content: "Microsoft Intune, Configuration Manager, Co-management, Desktop Analytics, Endpoint protection, Windows Autopilot, Endpoint Manager admin center"
       isCorrect: false
       explanation: "Incorrect. Endpoint protection is not part of the Endpoint manager services."

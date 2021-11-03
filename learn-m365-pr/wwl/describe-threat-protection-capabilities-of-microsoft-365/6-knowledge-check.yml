@@ -24,9 +24,9 @@ quiz:
     - content: "Microsoft Defender for Identity (MSDI)"
       isCorrect: true
       explanation: "That's correct. Microsoft Defender for Identity (MSDI) is a cloud-based security solution that identifies, detects, and helps you investigate advanced threats, compromised identities, and malicious insider actions directed at your organization."
-    - content: "Microsoft Cloud App Security"
+    - content: "Microsoft Defender for Cloud Apps"
       isCorrect: false
-      explanation: "That's incorrect. Microsoft Cloud App Security is a Cloud Access Security Broker that supports various deployment modes including log collection, API connectors, and reverse proxy."
+      explanation: "That's incorrect. Microsoft Defender for Cloud Apps is a Cloud Access Security Broker that supports various deployment modes including log collection, API connectors, and reverse proxy."
   - content: "What categories are included in the Secure Score breakdown?"
     choices:
     - content: "Identity, data, device, apps, and infrastructure"
@@ -46,9 +46,9 @@ quiz:
     - content: "Microsoft Defender for Identity (MSDI)"
       isCorrect: false
       explanation: "That's incorrect. Microsoft Defender for Identity (MSDI) is a cloud-based security solution that identifies, detects, and helps you investigate advanced threats, compromised identities, and malicious insider actions directed at your organization."
-    - content: "Microsoft Cloud App Security"
+    - content: "Microsoft Defender for Cloud Apps"
       isCorrect: false
-      explanation: "That's incorrect. Microsoft Cloud App Security is a Cloud Access Security Broker that supports various deployment modes including log collection, API connectors, and reverse proxy."
+      explanation: "That's incorrect. Microsoft Defender for Cloud Apps is a Cloud Access Security Broker that supports various deployment modes including log collection, API connectors, and reverse proxy."
   - content: "Which of the following is a Cloud Access Security Broker that supports various deployment modes including log collection, API connectors, and reverse proxy?"
     choices:
     - content: "Microsoft Defender for Office 365 (MSDO)"
@@ -57,6 +57,6 @@ quiz:
     - content: "Microsoft Defender for Identity (MSDI)"
       isCorrect: false
       explanation: "That's incorrect. Microsoft Defender for Identity (MSDI) is a cloud-based security solution that identifies, detects, and helps you investigate advanced threats, compromised identities, and malicious insider actions directed at your organization."
-    - content: "Microsoft Cloud App Security"
+    - content: "Microsoft Defender for Cloud Apps"
       isCorrect: true
-      explanation: "That's correct. Microsoft Cloud App Security is a Cloud Access Security Broker that supports various deployment modes including log collection, API connectors, and reverse proxy."
+      explanation: "That's correct. Microsoft Defender for Cloud Apps is a Cloud Access Security Broker that supports various deployment modes including log collection, API connectors, and reverse proxy."

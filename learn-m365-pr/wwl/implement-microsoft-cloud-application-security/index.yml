@@ -9,13 +9,13 @@ metadata:
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Implement Microsoft Cloud Application Security
-summary: This module examines how to implement Microsoft Cloud App Security, which provides a dashboard to discover, investigate, and control what cloud applications are being used in your organization.
+summary: This module examines how to implement Microsoft Defender for Cloud Apps, which provides a dashboard to discover, investigate, and control what cloud applications are being used in your organization.
 abstract: |
   By the end of this module, you will be able to:
-  - Describe how Cloud App Security provides improved visibility into network cloud activity and increases the protection of critical data across cloud applications
-  - Explain how to deploy Cloud App Security
+  - Describe how Defender for Cloud Apps provides improved visibility into network cloud activity and increases the protection of critical data across cloud applications
+  - Explain how to deploy Defender for Cloud Apps
   - Control your cloud apps with policies
-  - Troubleshoot Cloud App Security
+  - Troubleshoot Defender for Cloud Apps
 prerequisites: |
   None
 iconUrl: /learn/achievements/cloud-security-implement.svg

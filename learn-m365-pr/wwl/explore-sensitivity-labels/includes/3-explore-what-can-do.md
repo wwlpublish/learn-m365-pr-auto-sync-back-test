@@ -81,6 +81,6 @@ Scenarios that include applying a sensitivity label outside Office apps include:
  -  The scanner, File Explorer, and PowerShell from the Azure Information Protection unified labeling client.<br>
  -  Autolabeling policies for SharePoint and OneDrive.<br>
  -  Exported labeled and encrypted data from Power BI.<br>
- -  Microsoft Cloud App Security.<br>
+ -  Microsoft Defender for Cloud Apps.<br>
 
 For these scenarios, using their Office apps, a user with built-in labeling can apply the label's content markings by temporarily removing or replacing the current label and then reapplying the original label.

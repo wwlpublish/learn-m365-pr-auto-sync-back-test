@@ -10,7 +10,7 @@ Some of the key features are:
 
 - **Unified Cross-product view** - Central view of all information for detections, impacted assets, automated actions taken, and related evidence in a single queue and a single portal.
 - **Combined incidents queue** - A central list of incidents helps your security team focus on critical items by ensuring the full attack scope, impacted assets, and automated remediation actions are grouped together and surfaced promptly.
-- **Self-healing for compromised devices, user identities, and mailboxes** - Automatic remediation capabilities of the full Defender product suite ensures that impacted assets related to an incident are automatically remediated where possible.
+- **Self-healing for compromised devices, user identities, and mailboxes** - Automatic remediation capabilities of the full Defender for Cloud product suite ensures that impacted assets related to an incident are automatically remediated where possible.
 - **Cross-product threat hunting** - Security teams can use their unique organizational knowledge to hunt for signs of compromise by creating custom queries against the raw data collected by the Defender security products.
 - **Threat Analytics** – Microsoft security research articles describe the latest cyber security threats and how these campaigns might affect your organization.
 

@@ -1,10 +1,10 @@
-You can use the Cloud Discovery dashboard page in the Cloud App Security portal to work with discovered apps in your organization. You can then use filters to locate apps based on specific criteria. You can also discover resources and custom apps being used within your organization.
+You can use the Cloud Discovery dashboard page in the Defender for Cloud Apps portal to work with discovered apps in your organization. You can then use filters to locate apps based on specific criteria. You can also discover resources and custom apps being used within your organization.
 
 ## Filter discovered apps
 
 The dashboard lists discovered apps in the Discovered apps section, as displayed in the following screenshot.
 
-:::image type="content" source="../media/dashboard.png" alt-text="A screenshot of the Cloud Discovery Dashboard page of the Cloud App Security portal.":::
+:::image type="content" source="../media/dashboard.png" alt-text="A screenshot of the Cloud Discovery Dashboard page of the Defender for Cloud Apps portal.":::
 
 The dashboard displays only an at-a-glance summary of your discovered apps. If you want to find out more about your organization's app usage, you can filter the discovered apps. These filters enable you to determine which apps pose a risk, and which are widely used, among other factors.
 
@@ -29,11 +29,11 @@ You can use Cloud discovery to closely scrutinize your organization's cloud usag
 
 ## Discover resources and custom apps
 
-You can also use Cloud App Security Cloud Discovery to learn more about the apps in your Infrastructure as a Service (IaaS) and Platform as a Service (PaaS) resources. You can also discover apps across multiple resource-hosting platforms where used by your organization.
+You can also use Defender for Cloud Apps Cloud Discovery to learn more about the apps in your Infrastructure as a Service (IaaS) and Platform as a Service (PaaS) resources. You can also discover apps across multiple resource-hosting platforms where used by your organization.
 
 To review discovered resources and custom apps, use the following procedure:
 
-1. Navigate to the [Cloud App Security portal](https://portal.cloudappsecurity.com?azure-portal=true).
+1. Navigate to the [Defender for Cloud Apps portal](https://portal.cloudappsecurity.com?azure-portal=true).
 2. Sign in as a Global Admin.
 3. In the navigation pane, select **Discover** and then select **Discovered resources**.
 4. On the **Discovered resources** page, displayed in the following screenshot, you can review each resource to determine factors such as:
@@ -102,9 +102,9 @@ To delete discovery data, use the following procedure:
 > [!CAUTION]
 > This action cannot be undone.
 
-### Data retention in Cloud App Security
+### Data retention in Defender for Cloud Apps
 
-Cloud App Security retains data as follows:
+Defender for Cloud Apps retains data as follows:
 
 - Activity log: 180 days
 - Discovery data: 90 days

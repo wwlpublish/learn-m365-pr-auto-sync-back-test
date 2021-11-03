@@ -40,9 +40,9 @@ quiz:
       explanation: "That's incorrect. Microsoft Defender for Office 365 safeguards your organization against malicious threats posed by email messages, links, and collaboration tools. Try again."
   - content: "As the Enterprise Administrator for Fabrikam, Holly Spencer has been researching a Microsoft product that will provide Fabrikam's security analysts with reports and graphical views of the threat landscape in Fabrikam's tenant. This product provides actionable insights and recommendations on policy and enforcement. What is the product that will provide these features for Fabrikam?"
     choices:
-    - content: "Microsoft Cloud App Security"
+    - content: "Microsoft Defender for Cloud Apps"
       isCorrect: false
-      explanation: "That's incorrect. Microsoft Cloud App Security provides insight into suspicious activity in Microsoft 365. This information gives organizations enhanced visibility and control over your Microsoft 365 tenant. Try again."
+      explanation: "That's incorrect. Microsoft Defender for Cloud Apps provides insight into suspicious activity in Microsoft 365. This information gives organizations enhanced visibility and control over your Microsoft 365 tenant. Try again."
     - content: "Microsoft Defender for Endpoint"
       isCorrect: false
       explanation: "That's incorrect. Microsoft Defender for Endpoint is a cloud delivered endpoint security solution that includes risk-based vulnerability management and assessment, attack surface reduction, behavioral based and cloud-powered next generation protection, endpoint detection and response, automatic investigation and remediation, managed hunting services, rich APIs, and unified security management. Try again."

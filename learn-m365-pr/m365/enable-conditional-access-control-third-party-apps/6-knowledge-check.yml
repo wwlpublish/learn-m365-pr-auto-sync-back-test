@@ -16,7 +16,7 @@ quiz:
   title: Check your knowledge
   questions:
 
-  - content: "An administrator is attempting to create Conditional Access App Control policies for a cloud app in Microsoft Cloud App Security. The identity provider is not Azure AD. To which standard from the following list should the identity provider conform in order to enable the administrator to continue with the plan to create the required policies?"
+  - content: "An administrator is attempting to create Conditional Access App Control policies for a cloud app in Microsoft Defender for Cloud Apps. The identity provider is not Azure AD. To which standard from the following list should the identity provider conform in order to enable the administrator to continue with the plan to create the required policies?"
     choices:
     - content: "NTLM."
       isCorrect: false
@@ -30,9 +30,9 @@ quiz:
 
   - content: "An administrator is planning to create a session policy to control access to a Workplace from Facebook. In which of the following portals should the administrator perform the step of creating a Conditional Access policy?"
     choices:
-    - content: "Cloud App Security."
+    - content: "Defender for Cloud Apps."
       isCorrect: false
-      explanation: " That's incorrect. You use the Cloud App Security portal to create the Conditional Access App Control policy."
+      explanation: " That's incorrect. You use the Defender for Cloud Apps portal to create the Conditional Access App Control policy."
     - content: " Azure Active Directory admin center."
       isCorrect: true
       explanation: "That's correct. You use this portal to create the Conditional Access policy, and to configure most other settings that relate to configuring Conditional Access App Control policies."

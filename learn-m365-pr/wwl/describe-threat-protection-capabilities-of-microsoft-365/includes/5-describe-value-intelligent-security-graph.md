@@ -12,19 +12,19 @@ The security API is part of the Microsoft Graph, a unified REST API for integrat
 
 For more information, read the [Microsoft Graph Security API overview](https://docs.microsoft.com/graph/security-concept-overview).
 
-## Azure Sentinel
+## Microsoft Sentinel
 
 > [!IMPORTANT]
 > Microsoft 365 Defender is the new name for Microsoft Threat Protection.
 
-Microsoft 365 Defender solutions integrate with Azure Sentinel.  Microsoft Azure Sentinel is a scalable, cloud-native, **security information event management (SIEM)** and **security orchestration automated response (SOAR)** solution.  Azure Sentinel delivers intelligent security analytics and threat intelligence across the enterprise, providing alert detection, threat visibility, proactive hunting, and threat response.
+Microsoft 365 Defender solutions integrate with Microsoft Sentinel.  Microsoft Sentinel is a scalable, cloud-native, **security information event management (SIEM)** and **security orchestration automated response (SOAR)** solution.  Microsoft Sentinel delivers intelligent security analytics and threat intelligence across the enterprise, providing alert detection, threat visibility, proactive hunting, and threat response.
 
 * Collect data at cloud scale across all users, devices, applications, and infrastructure, both on-premises and in multiple clouds.
 * Detect previously undetected threats, and minimize false positives using Microsoft's analytics and unparalleled threat intelligence. 
 * Investigate threats with artificial intelligence, and hunt for suspicious activities at scale, tapping into years of cyber security work at Microsoft. 
 * Respond to incidents rapidly with built-in orchestration and automation of common tasks.
 
-:::image type="content" source="../media/5-azuzre-sentinel-capabilities.png" alt-text="Azure Sentinel capabilities":::
+:::image type="content" source="../media/5-azuzre-sentinel-capabilities.png" alt-text="Microsoft Sentinel capabilities":::
 
-Azure Sentinel is your birds-eye view across the enterprise alleviating the stress of increasingly sophisticated attacks, increasing volumes of alerts, and long resolution timeframes.
-Visit [What is Azure Sentinel](https://docs.microsoft.com/azure/sentinel/overview) to learn more.
+Microsoft Sentinel is your birds-eye view across the enterprise alleviating the stress of increasingly sophisticated attacks, increasing volumes of alerts, and long resolution timeframes.
+Visit [What is Microsoft Sentinel](https://docs.microsoft.com/azure/sentinel/overview) to learn more.

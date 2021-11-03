@@ -104,7 +104,7 @@ Teams enforces two-factor authentication, single sign-on through Active Director
 * Multi-Geo Support
 * End-to-end encryption
 * Meeting safety controls
-* Cloud App Security
+* Defender for Cloud Apps
  
 ### Compliance
 The compliance capabilities for Teams include:
@@ -130,4 +130,3 @@ The compliance capabilities for Teams include:
 
 
  
-

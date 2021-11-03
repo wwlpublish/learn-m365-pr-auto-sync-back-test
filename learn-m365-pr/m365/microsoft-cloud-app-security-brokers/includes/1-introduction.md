@@ -5,4 +5,4 @@ You're an administrator for Contoso, a large multi-national organization. Contos
 After completing this module, you'll be able to:
 
 - Describe Cloud Access Security Brokers
-- List the Microsoft Cloud App Security best practices
+- List the Microsoft Defender for Cloud Apps best practices

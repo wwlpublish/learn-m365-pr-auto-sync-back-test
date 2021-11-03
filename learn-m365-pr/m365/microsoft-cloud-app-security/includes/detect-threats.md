@@ -1,8 +1,8 @@
-When you understand how to protect data from accidental exposure, the next thing to consider, and one of the elements of the Cloud App Security framework, is protecting against cyberthreats and anomalies.
+When you understand how to protect data from accidental exposure, the next thing to consider, and one of the elements of the Defender for Cloud Apps framework, is protecting against cyberthreats and anomalies.
 
-Microsoft Cloud App Security includes out-of-the-box anomaly detection policies that utilize user and entity behavioral analytics (UEBA) and machine learning to provide advanced threat detection across your cloud environment. It's important to note that anomaly detections are non-deterministic by nature. These detections only trigger when there's behavior that deviates from the norm.  
+Microsoft Defender for Cloud Apps includes out-of-the-box anomaly detection policies that utilize user and entity behavioral analytics (UEBA) and machine learning to provide advanced threat detection across your cloud environment. It's important to note that anomaly detections are non-deterministic by nature. These detections only trigger when there's behavior that deviates from the norm.  
 
-Although anomaly detection policies are automatically enabled, Microsoft Cloud App Security spends the first seven days learning about your environment. It looks at the IP addresses, devices, and locations your users access, identifies which apps and services they use, and calculates the risk score of all of these activities. This process contributes to the baseline, against which your environment and any alerts are compared. The detection policies also use machine learning to profile your users. If Microsoft Cloud App Security recognizes your users and their normal sign-in patterns, it can help reduce false positive alerts.
+Although anomaly detection policies are automatically enabled, Microsoft Defender for Cloud Apps spends the first seven days learning about your environment. It looks at the IP addresses, devices, and locations your users access, identifies which apps and services they use, and calculates the risk score of all of these activities. This process contributes to the baseline, against which your environment and any alerts are compared. The detection policies also use machine learning to profile your users. If Microsoft Defender for Cloud Apps recognizes your users and their normal sign-in patterns, it can help reduce false positive alerts.
 
 Anomalies are detected by scanning user activity and evaluating it for risk. The risk is evaluated by looking at more than 30 different indicators, grouped into the following risk factors:
 
@@ -15,11 +15,11 @@ Anomalies are detected by scanning user activity and evaluating it for risk. The
 - Device and user agent
 - Activity rate
 
-Microsoft Cloud App Security looks at every user session on your cloud and alerts you when something happens that's different from the baseline of your organization, or from the user's regular activity.
+Microsoft Defender for Cloud Apps looks at every user session on your cloud and alerts you when something happens that's different from the baseline of your organization, or from the user's regular activity.
 
 ## Anomaly detection policy overview
 
-Microsoft Cloud App Security's anomaly detection policies are configured to detect a variety of security issues. The most popular are:
+The Microsoft Defender for Cloud Apps anomaly detection policies are configured to detect a variety of security issues. The most popular are:
 
 - **Impossible travel**. Activities from the same user in different locations within a period that's shorter than the expected travel time between the two locations.
 - **Activity from infrequent country**. Activity from a location that was not recently or never visited by the user, or by any user in the organization.
@@ -70,7 +70,7 @@ Each anomaly detection policy can be independently scoped so that it applies onl
 
 To scope an anomaly detection policy:
 
-1. Sign in to the Microsoft Cloud App Security Portal through your browser.
+1. Sign in to the Microsoft Defender for Cloud Apps Portal through your browser.
 1. Select **Control** > **Policies**, and set the **Type** filter to **Anomaly detection policy**.
 1. Select the policy you want to scope.
 1. Under **Scope**, change the dropdown from the default setting of **All users and groups**, to **Specific users and groups**.
