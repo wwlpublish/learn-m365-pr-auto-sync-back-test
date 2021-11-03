@@ -2,7 +2,7 @@ This section describes how Advanced eDiscovery supports the first two phases of 
 
 > [!div class="centered"]
 
-:::image type="content" source="../media/edrm-model.png" alt-text="A diagram showing the first two phases of the EDRM model – Identification and Preservation." border="false":::
+> :::image type="content" source="../media/edrm-model.png" alt-text="A diagram showing the first two phases of the EDRM model – Identification and Preservation." border="false":::
 
 </div>
 
