@@ -12,7 +12,7 @@ Once the custodians have been identified, they are added to an Advanced eDiscove
 
 Once the case has been created, you can begin adding the persons of interest by navigating to the **Data sources** tab, select **Add data source**, and then and select **Add new custodians**.
 
-:::image type="content" source="../media/add-custodians.png" alt-text="Screenshot of the Data sources tab in Advanced eDiscovery home page in the Microsoft 365 compliance center. Showing the Add new custodians menu selected.":::
+:::image type="content" source="../media/add-custodians.png" alt-text="Screenshot of the Data sources tab in Advanced eDiscovery home page in the Microsoft 365 compliance center. Showing the Add new custodians menu selected." lightbox="../media/add-custodians.png":::
 
 > [!TIP]
 > You need to be a member of the **eDiscovery Manager** group to add custodians and see these options.
