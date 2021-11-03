@@ -8,7 +8,7 @@ The first phase in the EDRM model is *Identification*. This phase involves ident
 
 Once the custodians have been identified, they are added to an Advanced eDiscovery case. Creating a case is accomplished by navigating to the **Advanced eDiscovery** home page in the Microsoft 365 compliance center, navigating to the **Cases** tab, then clicking **Create a case**.
 
-:::image type="content" source="../media/advanced-ediscovery.png" alt-text="Advanced eDiscovery home page in the Microsoft 365 compliance center.":::
+:::image type="content" source="../media/advanced-ediscovery.png" alt-text="Advanced eDiscovery home page in the Microsoft 365 compliance center." lightbox="../media/advanced-ediscovery.png":::
 
 Once the case has been created, you can begin adding the persons of interest by navigating to the **Data sources** tab, select **Add data source**, and then and select **Add new custodians**.
 
