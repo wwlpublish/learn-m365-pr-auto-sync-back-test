@@ -90,7 +90,7 @@ Using the Communications tool, legal teams can systematically send, collect, and
 
 The first step to create a hold notification is to open the case in question and navigate to the **Communications** tab, then click **New communication**.
 
-:::image type="content" source="../media/new-communication.png" alt-text="Step 1 to create a hold notification is to open the case in question and navigate to the Communications tab, then click New communication.":::
+:::image type="content" source="../media/new-communication.png" alt-text="Step 1 to create a hold notification is to open the case in question and navigate to the Communications tab, then click New communication." lightbox="../media/new-communication.png":::
 
 The next step is to enter a descriptive name and select the Issuing Officer on the **Name communication** page.
 
