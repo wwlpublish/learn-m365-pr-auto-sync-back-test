@@ -102,7 +102,7 @@ After clicking **Next**, you can use the rich text editor to create the Hold Not
 
 On the **Set Notifications – Required** page, you can define if this is a new issuance, reissue, or release of hold for the communication and define the content within the hold as well as utilize common variables such as display name, acknowledgment link, and more.
 
-:::image type="content" source="../media/set-notifications.png" alt-text="Set Notifications - Required page.":::
+:::image type="content" source="../media/set-notifications.png" alt-text="Set Notifications - Required page." lightbox="../media/set-notifications.png":::
 
 On the **Set Notifications – Optional** page, you have the ability to create reminders and escalation notifications and add links to ensure that custodians acknowledge receiving this information. Since Advanced eDiscovery is integrated with Azure Active Directory, you can even escalate the notification to the custodian's manager to remind the custodian to take action.
 
