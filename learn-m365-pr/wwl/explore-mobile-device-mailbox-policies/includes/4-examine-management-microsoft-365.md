@@ -21,51 +21,51 @@ Administrators should consider the following items when deploying MDM for Micros
 
 To configure MDM for Microsoft 365, you should complete the following steps:
 
-1.  **Configure domains for MDM**. First, you must add two publicly accessible DNS CNAME records in your custom public DNS zone that point to Mobile Device Management for Microsoft 365. These records, which are used by clients to access and enroll in MDM, are called **EnterpriseEnrollment** and **EnterpriseRegistration**. The following table displays the DNS records needed for MDM in Microsoft 365.
-
-:::row:::
-  :::column:::
-    **Host name**
-  :::column-end:::
-  :::column:::
-    **Record type**
-  :::column-end:::
-  :::column:::
-    **Address**
-  :::column-end:::
-  :::column:::
-    **TTL**
-  :::column-end:::
-:::row-end:::
-:::row:::
-  :::column:::
-    EnterpriseEnrollment
-  :::column-end:::
-  :::column:::
-    CNAME
-  :::column-end:::
-  :::column:::
-    EnterpriseEnrollment.manage.microsoft.com
-  :::column-end:::
-  :::column:::
-    3600
-  :::column-end:::
-:::row-end:::
-:::row:::
-  :::column:::
-    EnterpriseRegistration
-  :::column-end:::
-  :::column:::
-    CNAME
-  :::column-end:::
-  :::column:::
-    EnterpriseRegistration.windows.net
-  :::column-end:::
-  :::column:::
-    3600
-  :::column-end:::
-:::row-end:::
-
+1.  **Configure domains for MDM**. First, you must add two publicly accessible DNS CNAME records in your custom public DNS zone that point to Mobile Device Management for Microsoft 365. These records, which are used by clients to access and enroll in MDM, are called **EnterpriseEnrollment** and **EnterpriseRegistration**. The following table displays the DNS records needed for MDM in Microsoft 365.<br>
+    
+    :::row:::
+      :::column:::
+        **Host name**
+      :::column-end:::
+      :::column:::
+        **Record type**
+      :::column-end:::
+      :::column:::
+        **Address**
+      :::column-end:::
+      :::column:::
+        **TTL**
+      :::column-end:::
+    :::row-end:::
+    :::row:::
+      :::column:::
+        EnterpriseEnrollment
+      :::column-end:::
+      :::column:::
+        CNAME
+      :::column-end:::
+      :::column:::
+        EnterpriseEnrollment.manage.microsoft.com
+      :::column-end:::
+      :::column:::
+        3600
+      :::column-end:::
+    :::row-end:::
+    :::row:::
+      :::column:::
+        EnterpriseRegistration
+      :::column-end:::
+      :::column:::
+        CNAME
+      :::column-end:::
+      :::column:::
+        EnterpriseRegistration.windows.net
+      :::column-end:::
+      :::column:::
+        3600
+      :::column-end:::
+    :::row-end:::
+    
 
 2.  **Configure an APNS Certificate for iOS devices**. iOS devices such as iPads and iPhones can be managed in Mobile Device Management for Microsoft 365. To do so, you must complete the following steps to create an APNS certificate or token in the Azure portal:<br>
     
