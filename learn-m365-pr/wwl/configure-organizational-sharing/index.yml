@@ -3,7 +3,7 @@ uid: learn.wwl.configure-organizational-sharing
 metadata:
   title: Configure organizational sharing
   description: "Configure organizational sharing"
-  ms.date: 11/02/2021
+  ms.date: 11/03/2021
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -30,7 +30,7 @@ units:
 - learn.wwl.configure-organizational-sharing.introduction
 - learn.wwl.configure-organizational-sharing.examine-exchange-federated-delegation-features
 - learn.wwl.configure-organizational-sharing.examine-exchange-federation-sharing-components
-- learn.wwl.configure-organizational-sharing.examine-design-implementation-considerations-federation-trusts-certificates
+- learn.wwl.configure-organizational-sharing.plan-federation-trusts-certificates
 - learn.wwl.configure-organizational-sharing.implement-organization-relationships
 - learn.wwl.configure-organizational-sharing.implement-sharing-policies
 - learn.wwl.configure-organizational-sharing.knowledge-check
