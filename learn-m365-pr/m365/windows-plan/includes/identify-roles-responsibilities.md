@@ -6,7 +6,7 @@ To stay current, you'll need to decide who does what by assigning a number of di
 
 |Role  |Responsibilities  |Skills  |Phases in scope  |
 |---------|---------|---------|---------|
-|*Process manager*|- Manage the end-to-end process.<br/>- Ensure inputs and outputs are captured properly.<br/>- Ensure activities progress.|IT service management.|Plan, Prepare, Deploy.
+|*Process manager*|- Manage the end-to-end process.<br/>- Ensure inputs and outputs are captured properly.<br/>- Ensure activities progress.|IT Service Management.|Plan, Prepare, Deploy.
 |*Application owner*|- Define application test plan.<br/>- Assign user acceptance testers to test application based on the test plan.<br/>- Certify that the application can be used.|Knowledge of critical and important applications.|Plan, Prepare, Deploy (Pilot)
 |*Application developer*|Ensure apps are developed to be compatible with the latest versions of Windows.|-Application development.<br/>-Application remediation.|Plan, Prepare.
 |*End-user computing*|This is a group, and can include multiple roles like infrastructure engineer, or deployment engineer. <br>An infrastructure engineer would, for example, ensure upgrade tools are compatible with the new version of Windows. |-Bare metal deployment.<br/>- Infrastructure management<br/>- Application delivery.<br/>- Patch management.|Plan, Prepare, Deploy.

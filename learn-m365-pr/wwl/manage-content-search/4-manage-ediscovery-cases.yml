@@ -1,0 +1,30 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.manage-content-search.manage-ediscovery-cases
+title: Manage eDiscovery cases
+metadata:
+  title: Manage eDiscovery cases
+  description: "Manage eDiscovery cases"
+  ms.date: 11/02/2021
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 7
+content: |
+  [!include[](includes/4-manage-ediscovery-cases.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "Which Microsoft 365 feature can search across all Microsoft 365 services in a single, unified search operation?"
+    choices:
+    - content: "eDiscovery hold"
+      isCorrect: false
+      explanation: "That's incorrect. This feature is available in Microsoft 365 Compliance center and through the Exchange Management Shell. It’s used to search for certain messaging objects, put them on In-place hold, and process them for further use by exporting them. Try again."
+    - content: "eDiscovery case"
+      isCorrect: true
+      explanation: "That's correct. This feature is available in the Microsoft 365 Compliance center and serves the same purpose as eDiscovery hold, but with a different web interface. It also provides the ability to search across all Microsoft 365 services in a single, unified search operation."
+    - content: "Litigation hold"
+      isCorrect: false
+      explanation: "That's incorrect. A Microsoft 365 litigation hold suspends any retention policy or automatic deletion for a given mailbox so that no mailbox content can be removed from the mailbox. Try again."
