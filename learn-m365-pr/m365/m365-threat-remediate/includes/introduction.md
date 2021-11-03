@@ -2,7 +2,7 @@
 
 **Microsoft Defender for Office 365** is a cloud-based email filtering service that helps protect your organization against unknown malware and viruses by providing robust zero-day protection. It includes features to safeguard your organization from harmful links in real time. Microsoft Defender for Office 365 has rich reporting and URL trace capabilities that give administrators insight into the kind of attacks happening in your organization.
 
-:::image type="content" source="../media/defender-office-365.png" alt-text="Microsoft Defender for Office 365" lightbox="../media/ms-defender-office-365.png" border="false":::
+:::image type="content" source="../media/defender-office-365.png" alt-text="Microsoft Defender for Office 365" lightbox="../media/defender-office-365.png" border="false":::
 
 Microsoft Defender for Office 365 provides the following benefits:
 
