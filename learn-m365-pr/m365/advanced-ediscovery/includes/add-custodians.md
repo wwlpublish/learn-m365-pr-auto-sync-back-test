@@ -53,7 +53,6 @@ Holds are applied at the site level. When you place a site on hold, a Preservati
 > [!div class="centered"]
 > :::image type="content" source="../media/sharepoint-holds-1.png" alt-text="A flow diagram showing the process for placing SharePoint Online sites on hold." border="false":::
   
-</div>
 
 ### Place a hold on Microsoft Teams
 
