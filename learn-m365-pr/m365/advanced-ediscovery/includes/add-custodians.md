@@ -142,7 +142,7 @@ The last step is to select a date and time range to display the events that occu
 
 The results of an audit log search are displayed under **Results** on the **Custodian activities** page as illustrated below:
 
-:::image type="content" source="../media/custodian-activities.png" alt-text="Custodian activities search page."::: 
+:::image type="content" source="../media/custodian-activities.png" alt-text="Custodian activities search page." lightbox="../media/custodian-activities.png":::
 
 The results contain the following information about each event returned by the search.
 
