@@ -33,12 +33,12 @@ quiz:
       - content: "You cannot assign higher levels of confidence for your custom sensitive information type."
         isCorrect: false
         explanation: "The more supporting evidence you have, the higher the likelihood that a match contains the sensitive information you're looking for. You can assign higher levels of confidence for matches that are detected by using more evidence."
-      - content: "-	You can use Exact Data Match (EDM)-based classification."
+      - content: "You can use Exact Data Match (EDM)-based classification."
         isCorrect: true
         explanation: "You can set up custom sensitive information types using Exact Data Match (EDM)-based classification."
-      - content: "-	You can only use the features that are customized from built-in."
+      - content: "You can only use the features that are customized."
         isCorrect: false
-        explanation: "Sensitive information types can be built in, customized from built-in, or created from scratch."
+        explanation: "Sensitive information types can be built in, customized, or created from scratch."
       
     - content: "Which of the following can be completed from the data classification overview page? "
       choices:

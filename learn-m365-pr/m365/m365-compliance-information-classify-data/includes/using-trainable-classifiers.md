@@ -40,7 +40,7 @@ Each step is explained in more detail below.
 
 A one-time scan must be completed before creating any custom trainable classifiers. This is needed so Microsoft 365 can learn more about the content in your organization. This process takes 7 to 14 days. The image below shows the message you will receive when attempting to create a custom trainable classifier for the first time.
 
-:::image type="content" source="../media/one-time-setup.png" alt-text="Screenshot showing One time setup alert.":::
+:::image type="content" source="../media/one-time-setup.png" alt-text="Screenshot showing One time setup alert." lightbox="../media/one-time-setup.png":::
 
 ### Seed
 
@@ -48,11 +48,11 @@ A one-time scan must be completed before creating any custom trainable classifie
 
 **Step 2: Create trainable classifier.** Create the classifier by navigating to **Microsoft 365 compliance center > Data classification > Trainable classifiers > Create trainable classifier**. You will give the classifier a name, a description, and provide the location of the seed content. The image below shows the **Provide seed content from SharePoint** page in the **Create new classifier** wizard.
 
- :::image type="content" source="../media/provide-seed-content.png" alt-text="Screenshot shows Provide seed content from SharePoint screen.":::  
+ :::image type="content" source="../media/provide-seed-content.png" alt-text="Screenshot shows Provide seed content from SharePoint screen." lightbox="../media/provide-seed-content.png":::  
 
 It can take as long as 24 hours for the prediction model to be built once you complete the **Finish** step in the **Create trainable classifier** wizard. The image below shows the **EU Training** trainable classifier with a status of **Need test items**. That means the seed content has been processed and the predictive model is ready for testing.
 
-:::image type="content" source="../media/need-test-items.png" alt-text="Screenshot shows EU training trainable classifier preview.":::
+:::image type="content" source="../media/need-test-items.png" alt-text="Screenshot shows EU training trainable classifier preview." lightbox="../media/need-test-items.png":::
 
 ### Test
 
@@ -74,7 +74,7 @@ Choose the **Tested items to review** tab to review and evaluate items. You will
 
 Once you have reviewed enough items and accuracy reaches at least 70%, you can publish the trainable classifier or continue to improve the accuracy of the model by conducting additional testing and evaluation.
 
-:::image type="content" source="../media/ready-to-use.png" alt-text="Screenshot shows Publish trainable classifier with status Ready to use.":::
+:::image type="content" source="../media/ready-to-use.png" alt-text="Screenshot shows Publish trainable classifier with status Ready to use." lightbox="../media/ready-to-use.png":::
 
 ### Publish
 
