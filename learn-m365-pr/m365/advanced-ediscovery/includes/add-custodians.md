@@ -98,7 +98,7 @@ The next step is to enter a descriptive name and select the Issuing Officer on t
 
 After clicking **Next**, you can use the rich text editor to create the Hold Notice and variables such as display name are available that can be used to create the notice.
 
-:::image type="content" source="../media/define-portal-content.png" alt-text="Step 3 is using the rich text editor to create the Hold Notice and variables such as display name are available that can be used to create the notice.":::
+:::image type="content" source="../media/define-portal-content.png" alt-text="Step 3 is using the rich text editor to create the Hold Notice and variables such as display name are available that can be used to create the notice." lightbox="../media/define-portal-content.png":::
 
 On the **Set Notifications – Required** page, you can define if this is a new issuance, reissue, or release of hold for the communication and define the content within the hold as well as utilize common variables such as display name, acknowledgment link, and more.
 
