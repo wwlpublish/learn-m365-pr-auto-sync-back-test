@@ -1,7 +1,6 @@
 This section describes how Advanced eDiscovery supports the first two phases of the EDRM model – Identification and Preservation.
 
 > [!div class="centered"]
-
 > :::image type="content" source="../media/edrm-model.png" alt-text="A diagram showing the first two phases of the EDRM model – Identification and Preservation." border="false":::
 
 The first phase in the EDRM model is *Identification*. This phase involves identifying the people in the organization who are in possession of documents and communications relevant to the investigation. These individuals are the custodians of data, or just custodians, and are defined as "persons having control of a document or electronic file". For example, the custodian of an email message could be the owner of the mailbox that contains the relevant message.
