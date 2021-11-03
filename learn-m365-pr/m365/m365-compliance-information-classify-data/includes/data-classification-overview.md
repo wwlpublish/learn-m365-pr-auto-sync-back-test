@@ -14,4 +14,4 @@ The data classification solution helps you classify data and report on the resul
 
 No configuration is needed to start identifying and classifying content containing any of the approximately 100 sensitive information type definitions included in Microsoft 365. It happens in the background without administrator intervention. The **Top sensitive info types** card will automatically display a summary of the sensitive information discovered in SharePoint Online, OneDrive, and Exchange. Visit **Microsoft 365 compliance center > Data Classification > Overview** and look for the **Top sensitive info types** card. The image below shows the **Data classification > Overview** page prior to any configuration, with **Top sensitive info types** displaying information about what it has already discovered. The other cards are blank because no retention labels or sensitivity labels have been configured yet.
 
-  ![Data classification preview](../media/data-classification-preview.png)
+:::image type="content" source="../media/data-classification-preview.png" alt-text="Screenshot shows Data classification preview." lightbox="../media/data-classification-preview.png":::
