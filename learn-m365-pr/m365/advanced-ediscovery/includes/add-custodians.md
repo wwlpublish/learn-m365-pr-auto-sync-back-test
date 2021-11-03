@@ -62,7 +62,7 @@ Channel conversations that are part of a Microsoft Teams channel are stored in t
 
 When you click **Choose teams** (then click **Choose teams** again on the flyout page) a list of Microsoft Teams that the custodian is currently a member of will be displayed.
 
-:::image type="content" source="../media/flyout-page.png" alt-text="Choose teams flyout page.":::
+:::image type="content" source="../media/flyout-page.png" alt-text="Choose teams flyout page." lightbox="../media/flyout-page.png":::
 
 When you select the Team (or Teams) associated with the custodian, the system will automatically identify and select
 the associated SharePoint site and mailbox associated with that Microsoft Team.
