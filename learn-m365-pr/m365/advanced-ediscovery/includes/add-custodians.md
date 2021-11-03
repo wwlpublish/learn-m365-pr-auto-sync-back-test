@@ -136,7 +136,7 @@ The **Custodian activities** page is displayed when you click **View activity**.
 
 After a custodian is selected you can click the **Activities** drop-down list to display the activities that you can search for. After you run the search, only the audit records for the selected activities are displayed.
 
-:::image type="content" source="../media/activities.png" alt-text="Activities drop down list.":::
+:::image type="content" source="../media/activities.png" alt-text="Activities drop down list." lightbox="../media/activities.png":::
 
 The last step is to select a date and time range to display the events that occurred within that period. Note, the last seven days are selected by default and the maximum date range that you can specify is one year.
 
