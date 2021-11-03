@@ -22,7 +22,7 @@ When you add a custodian, the system automatically identifies and places a hold 
 > [!NOTE]
 > All Yammer networks are required to be in [Native Mode](/yammer/configure-your-yammer-network/overview-native-mode?azure-portal=true) for Yammer content to be discovered in eDiscovery.
 
-:::image type="content" source="../media/select-additional-locations.png" alt-text="Screenshot of the New custodian dialog, allowing you to select additional locations for a custodian.":::
+:::image type="content" source="../media/select-additional-locations.png" alt-text="Screenshot of the New custodian dialog, allowing you to select additional locations for a custodian." lightbox="../media/select-additional-locations.png":::
 
 The final step when adding a custodian to a case is to place the custodian on hold. When you place a custodian on hold, all the content from the locations you've selected that are associated with the custodian is preserved until you remove the hold or release the custodian from the case.
 
