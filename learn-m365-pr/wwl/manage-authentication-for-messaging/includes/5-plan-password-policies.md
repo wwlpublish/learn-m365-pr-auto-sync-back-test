@@ -1,0 +1,15 @@
+Detailed planning of your organization’s password policy is essential to maximizing the security of your users’ credentials. Poorly planned password policies can lead to successful password attacks. However, policies that are too restrictive can also lead to risk, since the users will find it hard to follow the complexity, and they’ll try different ways to store passwords, such as writing them down.
+
+Password management should be guided by the following best practices:
+
+ -  **Educate users where to enter passwords.** Includes trusted devices that have been approved by the organization, or web sites that are validated and trusted. For example, users should avoid signing into organizational email through a public kiosk computer or the computer of any non-trusted person.
+ -  **Educate users on best practices about secure password structure.** Instruct users about best practices for password length, complexity, and uniqueness. Also provide instruction on avoiding use of a common combination of letters that can be guessed. For example, Alex1234 is a poor choice for a password since it contains the name of the user, and a number combination can be easily seen typed on the keyboard by another user.
+ -  **Educate users about social networking.** This guideline is critical because this type of attack is difficult to detect. For example, a phone call to an administrator that claims that general manager needs password reset.
+ -  **Enforce password diversity.** Users should create passwords that are different and hard to guess.
+ -  **Enforce at least an eight character minimum length requirement.** Keep in mind, however, that passwords longer than eight characters can often force users to repeat patterns that are easier to guess.
+ -  **Periodic password resets shouldn't occur on short intervals.** This practice results in users writing down passwords or creating predictable passwords that can easily be guessed.
+ -  **Educate users to not reuse their organization passwords for non-work-related purposes.** This practice can make user passwords vulnerable to attack by sophisticated hackers who gain access to personal passwords.
+ -  **Enforce registration for multi-factor authentication.** MFA requires the use of more than one verification method. MFA adds a second layer of security to user sign-in and transactions.
+ -  **Educate users not to use passwords that are easy to guess by someone who knows a lot about them.** While using family member names and birthdays as passwords is a common user practice, it makes users especially vulnerable to attackers who know them.
+
+**Additional reading.** For more information on configuring a custom password complexity policy for your organization, see [Configure complexity requirements for passwords in Azure Active Directory B2C](https://github.com/MicrosoftDocs/azure-docs/blob/master/articles/active-directory-b2c/password-complexity.md#:~:text=%20Configure%20complexity%20requirements%20for%20passwords%20in%20Azure,Allows%20you%20to%20accept%20digits%20only...%20More%20?azure-portal=true).
