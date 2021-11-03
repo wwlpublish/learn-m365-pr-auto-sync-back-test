@@ -58,7 +58,7 @@ Holds are applied at the site level. When you place a site on hold, a Preservati
 
 Channel conversations that are part of a Microsoft Teams channel are stored in the mailbox that is associated with the Team. On the other hand, files that team members share in a channel are stored on the SharePoint site associated with the Microsoft Team. Therefore, if you need to retain conversations and files in a channel you must place the Microsoft Team mailbox and SharePoint site on hold by adding Teams content to the custodial hold. Consider the following example:
 
-:::image type="content" source="../media/choose-teams.png" alt-text="Example of placing a hold on Microsoft Teams.":::
+:::image type="content" source="../media/choose-teams.png" alt-text="Example of placing a hold on Microsoft Teams." lightbox="../media/choose-teams.png":::```
 
 When you click **Choose teams** (then click **Choose teams** again on the flyout page) a list of Microsoft Teams that the custodian is currently a member of will be displayed.
 
