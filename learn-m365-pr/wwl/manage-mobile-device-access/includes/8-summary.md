@@ -1,0 +1,5 @@
+This module explored how to manage mobile device access. Mobile phones, tablets, and other devices can store sensitive corporate data and provide access to many corporate resources. One of the key responsibilities of the messaging administrator is to configure infrastructure requirements so that mobile devices can connect to Exchange from both the internal corporate network and the Internet.
+
+However, messaging administrators must also protect and secure mobile devices, even devices personally owned by users but used for work-related activities. Mobile device protection enables users to access corporate data and resources, but at the same time be protected from malware, unauthorized access, and theft.
+
+To support this effort, this module examined how to manage and troubleshoot mobile device access. You learned how to configure both access and infrastructure for mobile devices, and the implications of mobile device remote wipe. You also learned about alternative methods for mobile device management.
