@@ -30,7 +30,7 @@ The final step when adding a custodian to a case is to place the custodian on ho
 
 When custodians are placed on hold, the users and their selected data sources are automatically added to a custodian hold policy. Hold policies can be viewed and modified by navigating to the **Holds** tab in the case.
 
-:::image type="content" source="../media/create-holds.png" alt-text="Hold policies can be viewed and modified by navigating to the Holds tab in the case.":::
+:::image type="content" source="../media/create-holds.png" alt-text="Hold policies can be viewed and modified by navigating to the Holds tab in the case." lightbox="../media/create-holds.png":::
 
 Holds enable organizations to immutably preserve mailbox items and documents for discovery and other compliance needs by keeping those items within the infrastructures of Exchange and SharePoint. Data is preserved in a way that is tamper-proof and discoverable.
 
