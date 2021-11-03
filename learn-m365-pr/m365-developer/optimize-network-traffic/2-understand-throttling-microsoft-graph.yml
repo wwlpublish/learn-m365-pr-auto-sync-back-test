@@ -3,7 +3,7 @@ uid: learn-m365.optimize-network-traffic.2-understand-throttling-microsoft-graph
 metadata:
   title: Understand throttling in Microsoft Graph
   description: In this unit, you'll learn how Microsoft Graph determines when request should be throttled and how to make the requester aware of it.
-  ms.date: 09/13/2021
+  ms.date: 11/02/2021
   author: andrewconnell-msft
   ms.author: suzanz
   ms.topic: interactive-tutorial
