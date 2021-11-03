@@ -12,7 +12,7 @@ Both the Exchange admin center (EAC) and the Exchange Management Shell can be us
 
 Complete the following steps to set storage quotas for a database or mailbox by using the Exchange Admin Center in your on-premises Exchange Server:
 
-1.  In the EAC, navigate to **Servers** &amp;gt; **Databases** for database configuration or **Recipients** &amp;gt; **Mailboxes** for user mailbox configuration.
+1.  In the EAC, navigate to **Servers** &gt; **Databases** for database configuration or **Recipients** &gt; **Mailboxes** for user mailbox configuration.
 2.  In the list of databases or user mailboxes, select the database or mailbox that you want to change the storage quotas for, and then select **Edit**.
     
      -  If you navigated to **Databases**, then in the selected database window, select **limits** in the left-hand pane.

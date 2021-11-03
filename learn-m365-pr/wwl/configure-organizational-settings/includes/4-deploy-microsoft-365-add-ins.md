@@ -23,13 +23,13 @@ To deploy Microsoft 365 integrated apps, you should complete the following steps
      -  Deploy a custom **App**. Select the **Upload custom apps** button.
 5.  If you selected the option to **Get App** from the **AppSource**, you can now make your App selection on the **AppSource** page. Notice that you can view the available Apps through categories of **Suggested for you**, **Rating**, or **Name**.
 
-    > [!NOTE]
-    > With the **AppSource** option, updates and enhancements to the App will automatically be made available to users without your intervention.
+> [!NOTE]
+> With the **AppSource** option, updates and enhancements to the App will automatically be made available to users without your intervention.
 
 6.  On the **Select,** the **Apps** page, select **Get it now** for the App you want to deploy.
 7.  On the **License terms and Privacy policy** page, Enter the **required information**, then select **Continue**.
 8.  On the **Deploy New App** page, select either **Entire organization** or **Specific Users/Groups** or **Just me**. Also, select the method that you want to use to deploy the App.
-9.  On the **Permissions** section, select the **Next** button**.**
+9.  On the **Permissions** section, select the **Next** button.
 10. When finished, select **Deploy**, review the App settings, and then select **Done**. You should now see your integrated app along with other apps on the **Integrated apps** page.
 11. Repeat these steps for each integrated app you want to deploy.
 
