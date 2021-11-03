@@ -44,7 +44,7 @@ The following options can be configured as part of the Safe Links policy:
 - For **Select the action for unknown potentially malicious URLs in messages**, selecting **On** will allow URLs to be rewritten and checked.
 - **Use Safe Attachments to scan downloadable content** will enable URL detection to scan files hosted on web sites. For example, if an email contains a link such as `https://contoso.com/maliciousfile.pdf`, the .pdf file is opened in a separate hypervisor environment and, if the file is found to be malicious, users will see a warning page if they click the link.  
 - **Apply safe links to messages sent within the organization** will provide the same level of protection when links are sent by email within the organization.
-- **Do not track user clicks** will block tracking and monitoring when users click links that are determined to be malicious.
+- **Do not track when users click safe links** enables or disables storing Safe Links click data for clicked URLs. Microsoft recommends leaving this setting unselected, which enables tracking for clicked URLs. 
 - **Do not allow users to click through to the original URL** will prevent users from proceeding to the target web site if it is found to be malicious.  
 - If users frequently receive links from web sites that are known to be safe, you can enter those URLs under **Do not rewrite the following URL**. For example, you might add the URL to a partner's website if users frequently receive emails from the partner that include URLs to the external organization's website.
 
