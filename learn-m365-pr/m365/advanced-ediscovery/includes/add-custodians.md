@@ -50,7 +50,7 @@ When you place a SharePoint Online site on hold, the content in that site remain
 Holds are applied at the site level. When you place a site on hold, a Preservation Hold library is created, if one does not already exist. Most users cannot view the Preservation Hold library because it is only visible to site collection owners. If a person attempts to change or delete content in a site that is on hold, the hold policy first checks whether the content has been changed since the hold was applied. If this is the first change since the hold was applied, the hold policy copies the content to the Preservation Hold library and then allows the person to change or delete the original content.
 
 > [!div class="centered"]
-> :::image type="content" source="../media/sharepoint-holds-1.png" alt-text="A flow diagram showing the process for placing SharePoint Online sites on hold." border="false":::
+> :::image type="content" source="../media/sharepoint-holds-1.png" alt-text="A flow diagram showing the process for placing SharePoint Online sites on hold." lightbox="../media/sharepoint-holds-1.png" border="false":::
   
 
 ### Place a hold on Microsoft Teams
