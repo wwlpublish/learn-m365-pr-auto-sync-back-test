@@ -68,7 +68,7 @@ The image below shows the policy template selection screen from the retention la
 - EU Debit Card Number
 - SWIFT Code
 
-  ![Policy template selection screen](../media/select-template.png)
+:::image type="content" source="../media/select-template.png" alt-text="Screenshot shows Policy template selection screen.":::
 
 ## Sensitive information types
 
