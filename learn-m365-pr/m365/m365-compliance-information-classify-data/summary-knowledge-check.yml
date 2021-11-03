@@ -28,17 +28,17 @@ quiz:
         isCorrect: false
         explanation: "Sensitive info types are where you manage the built-in and custom sensitive information types available to classify data.  "
 
-    - content: "You can create custom sensitive information types for data specific to your organization. Which of the following statements is true regarding new custom sensitive information types?"
+    - content: "You can create custom sensitive information types for data specific to your organization. Which of the following statements is true regarding creating new custom sensitive information types?"
       choices:
       - content: "You cannot assign higher levels of confidence for your custom sensitive information type."
         isCorrect: false
         explanation: "The more supporting evidence you have, the higher the likelihood that a match contains the sensitive information you're looking for. You can assign higher levels of confidence for matches that are detected by using more evidence."
-      - content: "You can use exact data match (EDM) for your custom sensitive information type that utilizes pattern matching."
-        isCorrect: false
-        explanation: "Exact Data Match (EDM) enhances custom sensitive information types to help accurately target detection of exact data values, instead of pattern matching."
-      - content: "You need to create a new sensitive information type for custom data because you cannot directly modify the default rules. "
+      - content: "You can use Exact Data Match (EDM)-based classification."
         isCorrect: true
-        explanation: "You cannot directly modify the default rules."
+        explanation: "You can set up custom sensitive information types using Exact Data Match (EDM)-based classification."
+      - content: "You can only use the features that are customized."
+        isCorrect: false
+        explanation: "Sensitive information types can be built in, customized, or created from scratch."
       
     - content: "Which of the following can be completed from the data classification overview page? "
       choices:
