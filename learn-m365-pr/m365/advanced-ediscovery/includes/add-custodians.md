@@ -94,7 +94,7 @@ The first step to create a hold notification is to open the case in question and
 
 The next step is to enter a descriptive name and select the Issuing Officer on the **Name communication** page.
 
-:::image type="content" source="../media/name-communication.png" alt-text="Step 2 is to enter a descriptive name and select the Issuing Officer on the Name communication page.":::
+:::image type="content" source="../media/name-communication.png" alt-text="Step 2 is to enter a descriptive name and select the Issuing Officer on the Name communication page." lightbox="../media/name-communication.png":::
 
 After clicking **Next**, you can use the rich text editor to create the Hold Notice and variables such as display name are available that can be used to create the notice.
 
