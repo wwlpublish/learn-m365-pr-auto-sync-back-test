@@ -13,7 +13,7 @@ The **Policy dashboard** allows you to quickly see the policies in your organiza
 - **Policy effectiveness:** The percentage determined by total confirmed alerts divided by total actions taken on alerts (which is the sum of alerts that were confirmed or dismissed over the past year).
 - **Active:** The status of the policy.
 
-:::image type="content" source="../media/policy-template.png" alt-text="Policy template" lightbox="../media/policy-template.png":::
+:::image type="content" source="../media/policy-template.png" alt-text="List of policies in Insider Risk Management" lightbox="../media/policy-template.png":::
 
 ## Policy templates
 
