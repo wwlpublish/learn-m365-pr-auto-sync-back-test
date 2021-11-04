@@ -19,7 +19,7 @@ When a user creates or views a document with information protection enabled, the
   - Policies automatically classify and label documents according to the data they contain.
   - User receives notification and can change the label.
 
-    :::image type="content" source="../media/recommended.png" alt-text="Screenshot of document that has recommended classification" lightbox=../media/recommended.png":::
+    :::image type="content" source="../media/recommended.png" alt-text="Screenshot of document that has recommended classification" lightbox="../media/recommended.png":::
 
 - **Reclassification**
 
