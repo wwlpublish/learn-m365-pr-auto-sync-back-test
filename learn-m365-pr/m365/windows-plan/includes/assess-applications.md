@@ -43,6 +43,6 @@ For Microsoft 365 Apps, you can use the following servicing channels:
 
 |Servicing channel  |Description  |
 |---------|---------|
-|Semi-Annual Enterprise Channel     |Released in January and July. This channel is selected by default for commercial customers. Users will have to wait a longer time to consume new feature updates.|
-|Current Channel     |Released in March and September. Use this channel to have users receive feature updates quicker than the Semi-Annual enterprise channel.|
-|Monthly Enterprise Channel|If your environment doesn't have critical line-of-business applications, add-ins, or macros that need to be tested to determine if they work with an updated version of Microsoft 365 Apps, the Monthly Channel is the best way to provide new features to users in the quickest way. Rapid adopters of Windows are encouraged to use this servicing channel.|
+|Semi-Annual Enterprise Channel     |Released in January and July. Use this channel if your environment have critical line-of-business applications, add-ins, or macros that need to be tested to determine if they work with an updated version of Microsoft 365 Apps. Users will have to wait a longer time to consume new feature updates.|
+|Current Channel     |Use this channel to have users receive new feature updates as soon as they are ready, but not on a set schedule.|
+|Monthly Enterprise Channel|Released once a month, the Monthly Channel is the best way to provide new features to users in the quickest way and on a predictable schedule. |

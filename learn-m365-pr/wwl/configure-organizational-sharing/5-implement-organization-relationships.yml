@@ -1,0 +1,30 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.configure-organizational-sharing.implement-organization-relationships
+title: Implement organization relationships
+metadata:
+  title: Implement organization relationships
+  description: "Implement organization relationships"
+  ms.date: 11/04/2021
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 6
+content: |
+  [!include[](includes/5-implement-organization-relationships.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "Contoso and Fabrikam are both Exchange Server organizations. As the Messaging administrator for Contoso, Holly Dickson wants to create an organization relationship with Fabrikam. What's the first thing that Holly must do to accomplish this task?"
+    choices:
+    - content: "Create the organization relationship in the Exchange admin center"
+      isCorrect: false
+      explanation: "That's incorrect. This item isn't the first task that Holly must complete to create the organization relationship. Try again."
+    - content: "Use Autodiscover to obtain the uniform resource locator (URL) for Fabrikam's Availability Web Service"
+      isCorrect: false
+      explanation: "That's incorrect. This item isn't the first task that Holly must complete to create the organization relationship. Try again."
+    - content: "Create a TXT record in Contoso's public DNS that validates the Contoso domain that will be used to configure the federated trust"
+      isCorrect: true
+      explanation: "That's correct. When you configure the organization relationship in the Exchange admin center, the Azure AD authentication system checks your DNS zone and searches for the appropriate TXT resource record. This record must have the content for validating the domain that will be used to configure the OrgID for the federation trust. Holly must create this TXT record before creating the organization relationship."

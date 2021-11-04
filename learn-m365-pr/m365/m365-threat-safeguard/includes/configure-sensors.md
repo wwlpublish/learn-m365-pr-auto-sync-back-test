@@ -12,7 +12,7 @@ At a high level, the following steps are required to enable Microsoft Defender f
 
 The following diagram shows the Microsoft Defender for Identity architecture. In this unit, we will discuss how to configure the Microsoft Defender for Identity Sensor.
 
-![Microsoft Defender for Identity architecture](../media/azure-architecture.png)
+![Microsoft Defender for Identity architecture](../media/defender-identity-architecture-topology.png)
 
 Installed directly on your domain controllers, the Microsoft Defender for Identity sensor accesses the event logs it requires directly from the domain controller. After the logs and network traffic are parsed by the sensor, Microsoft Defender for Identity sends only the parsed information to the Microsoft Defender for Identity cloud service (only a percentage of the logs are sent).
 

@@ -32,9 +32,9 @@ quiz:
       - content: "You’ve configured direct routing for Teams."
         isCorrect: false
         explanation: "Direct routing isn’t a network preparation but a Teams-specific preparation for upgrading to Teams."
-      - content: "TCP ports 3478 through 3481 and outgoing UDP ports 80 and 443 are open from clients that will use Teams."
+      - content: "Ensure that UDP ports 80 and 443 outgoing are open from clients that will use Teams."
         isCorrect: false
-        explanation: "Preparing your network to upgrade to Teams includes ensuring that TCP ports 80 and 443 and that outgoing UDP ports 3478 through 3481 are open from clients that will use Teams."
+        explanation: "Preparing your network to upgrade to Teams includes ensuring that TCP ports 80 and 443 are open from clients that will use Teams, not UDP ports 80 and 443."
       - content: "TCP ports 80 and 443 and outgoing UDP ports 3478 through 3481 are open from clients that will use Teams."
         isCorrect: true
         explanation: "Preparing your network to upgrade to Teams includes ensuring that TCP ports 80 and 443 and outgoing UDP ports 3478 through 3481 are open from clients that will use Teams."

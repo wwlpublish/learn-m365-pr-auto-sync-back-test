@@ -1,0 +1,30 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.explore-mobile-device-mailbox-policies.examine-how-exchange-activesync-works
+title: Examine how Exchange ActiveSync works
+metadata:
+  title: Examine how Exchange ActiveSync works
+  description: "Examine how Exchange ActiveSync works"
+  ms.date: 11/04/2021
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 7
+content: |
+  [!include[](includes/2-examine-how-exchange-activesync-works.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "As the Messaging administrator for Contoso, Holly Dickson wants to implement Exchange ActiveSync so that users with mobile devices can connect to Exchange to get email. What must Holly do to implement ActiveSync?"
+    choices:
+    - content: "Enable Exchange ActiveSync in the Exchange admin center for Exchange Online"
+      isCorrect: false
+      explanation: "That's incorrect. Holly doesn't need to do this task. Try again."
+    - content: "Enable Exchange ActiveSync in the Exchange admin center for Exchange Server"
+      isCorrect: false
+      explanation: "That's incorrect. Holly doesn't need to do this task. Try again."
+    - content: "Nothing. Exchange ActiveSync is enabled by default"
+      isCorrect: true
+      explanation: "That's correct. Exchange ActiveSync is enabled by default."
