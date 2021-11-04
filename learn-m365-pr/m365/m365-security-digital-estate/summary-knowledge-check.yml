@@ -34,7 +34,7 @@ quiz:
       choices:
       - content: "Automatic"
         isCorrect: false
-        explanation: "Incorrect.  With automatic, the documents are automatically classified, labeled, and protected without allowing the end user to reclassify."
+        explanation: "Correct.  With automatic, the documents are automatically classified, labeled, and protected without allowing the end user to reclassify."
       - content: "User-set"
         isCorrect: false
         explanation: "Incorrect. User-set would allow the end user to classify the document manually to a level other than classified."
@@ -44,8 +44,7 @@ quiz:
       - content: "Reclassification"
         isCorrect: false
         explanation: "Incorrect. Reclassification would allow the end user to reclassify the data, or worse remove the label."
-        isCorrect: true
-        explanation: "Correct. Reclassification would allow the end user to provide a justification for reclassifying the data or removing the label."
+        
       
     - content: "Which department should you first work with to identify data protection standards, regulations, and requirements?"
       choices:
