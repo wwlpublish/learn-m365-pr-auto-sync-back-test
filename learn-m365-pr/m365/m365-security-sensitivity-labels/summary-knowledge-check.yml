@@ -30,7 +30,7 @@ quiz:
         isCorrect: false
         explanation: "The label and classification remain with the file even if it’s stored with a third-party storage provider."
 
-    - content: "2.	What three steps does Microsoft recommend when defining sensitivity labels?"
+    - content: "What three steps does Microsoft recommend when defining sensitivity labels?"
       choices:
       - content: "Define what each labels does – Identify who will see each label – Define the naming convention."
         isCorrect: false
@@ -43,7 +43,7 @@ quiz:
         explanation: "Correct. Microsoft recommends you should define your naming convention, then define what each label does, and who will see each label."
       
       
-    - content: "3.	Which of the following are Microsoft default sensitivity labels?"
+    - content: "Which of the following are Microsoft default sensitivity labels?"
       choices:
       - content: "Personal, Public, General, Secret, Highly Confidential"
         isCorrect: false
