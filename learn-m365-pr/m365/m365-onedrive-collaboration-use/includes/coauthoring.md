@@ -11,25 +11,25 @@ Coauthoring is available for files stored in OneDrive and SharePoint. To coautho
 
 The easiest way to initiate a coauthoring session is to share a file with others as described earlier. When multiple users have the same file open at the same time, they are now coauthoring. When coauthoring a document, all users can see who else is coauthoring:
 
-![When coauthoring a document, all users can see who else is coauthoring](../media/coauthors.png)
+:::image type="content" source="../media/coauthors.png" alt-text="When coauthoring a document, all users can see who else is coauthoring":::
 
 Users will also be able to see where the other users in the file are:
 
-![Users will also be able to see where the other users in the file are](../media/others-file.png)
+:::image type="content" source="../media/others-file.png" alt-text="Users will also be able to see where the other users in the file are":::
 
 Users can add comments and @mention other users, who will then receive an email with a link to the comment. They can click the link to open the document and the conversation or reply to the comment directly in email.
 
-![Users can add comments and @mention other users](../media/reply.png)
+:::image type="content" source="../media/reply.png" alt-text="Users can add comments and @mention other users":::
 
 When a user reopens a Word file, they can view tracked changes by others. When a user reopens a changed PowerPoint, the changed slides are highlighted in the thumbnail pane.
 
-![When a user reopens a changed PowerPoint, the changed slides are highlighted in the thumbnail pane](../media/changed-slides.png)
+:::image type="content" source="../media/changed-slides.png" alt-text="When a user reopens a changed PowerPoint, the changed slides are highlighted in the thumbnail pane":::
 
 Coauthoring requires users to be online. Some areas of an Office file are locked to avoid collisions.
 
 If a user makes changes when offline, OneDrive will attempt to merge them when they go back online and then notify other users who have also been in the document. Users will also be notified of any conflicts and presented with a process of resolving them.
 
-![Users will also be notified of any conflicts and presented with a process of resolving them](../media/conflicts.png)
+:::image type="content" source="../media/conflicts.png" alt-text="Users will also be notified of any conflicts and presented with a process of resolving them":::
 
 ## Learn more
 
