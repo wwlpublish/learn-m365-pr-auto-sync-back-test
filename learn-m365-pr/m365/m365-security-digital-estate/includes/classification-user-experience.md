@@ -1,6 +1,10 @@
 When a user creates or views a document with information protection enabled, they see four data classification options.
 
-![Four user classification experiences](../media/classification-user-experiences.png)
+<div class="centered">
+  
+:::image type="content" source="../media/classification-user-experiences.png" alt-text="Diagram shows Four user classification experiences - Automatic, Recommended, Reclassification, and User set.":::
+
+</div>
 
 - **Automatic**
 
@@ -8,7 +12,7 @@ When a user creates or views a document with information protection enabled, the
   - The policies automatically apply protection.
   - User receives notification of the automatic labeling.
 
-     :::image type="content" source="../media/automatic-classification.png" alt-text="Screenshot of document that has automatic classification policies" lightbox="../media/automatic-classification.png":::
+    :::image type="content" source="../media/automatic-classification.png" alt-text="Screenshot of document that has automatic classification policies" lightbox="../media/automatic-classification.png":::
 
 - **Recommended**
 
