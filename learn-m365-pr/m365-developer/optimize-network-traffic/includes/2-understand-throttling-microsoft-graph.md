@@ -1,4 +1,4 @@
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWKmWP]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4OO3C]
 
 ## Understand throttling in Microsoft Graph
 
