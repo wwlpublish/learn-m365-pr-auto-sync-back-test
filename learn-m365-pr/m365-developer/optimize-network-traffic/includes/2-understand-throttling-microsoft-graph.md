@@ -1,4 +1,4 @@
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWKmWP]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4OO3C]
 
 ## Understand throttling in Microsoft Graph
 
@@ -39,7 +39,7 @@ For example, successful status codes are in the range of 200-299. Common success
 - 200: used when requesting a resource or
 - 201 and 204: used on write operations for creating, updating, or deleting resources
 
-Error status codes are in the ranges of 400-499 & 500s. Common failed status codes include:
+Error status codes are in the ranges of 400-499 & 500-599. Common failed status codes include:
 
 - 400: bad request
 - 401 and 403: usually a permission or auth issue

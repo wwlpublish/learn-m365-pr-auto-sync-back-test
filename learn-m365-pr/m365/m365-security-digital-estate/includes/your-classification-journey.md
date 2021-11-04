@@ -1,6 +1,7 @@
 Start the classification journey with your most critical and sensitive data and work your way to the least sensitive data.
 
-![Classify data from least to most sensitive](../media/classify-data.png)
+> [!div class="centered"]
+> :::image type="content" source="../media/classify-data.png" alt-text="Diagram shows Classify data from the least to the most sensitive.":::
 
 If you're unsure of your organization's data classification policies, contact your legal department. Usually they know the data classifications, visual markings, and rules for copying and sharing.
 

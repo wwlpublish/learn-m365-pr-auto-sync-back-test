@@ -1,0 +1,63 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.explore-messaging-compliance-microsoft-365.knowledge-check
+title: Knowledge check
+metadata:
+  title: Knowledge check
+  description: "Knowledge check"
+  ms.date: 11/04/2021
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 8
+content: |
+  [!include[](includes/7-knowledge-check.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "The principles of retention define the order in which multiple retention policies are applied to content. What's the first principle of retention?"
+    choices:
+    - content: "Retention wins over deletion"
+      isCorrect: true
+      explanation: "That's correct. The first principle of inclusion that's applied to content is Retention wins over deletion. At the highest level, content being retained by one policy can't be permanently deleted by another policy."
+    - content: "Longest retention period wins"
+      isCorrect: false
+      explanation: "That's incorrect. This item is the second principle of retention. Try again."
+    - content: "Explicit inclusion wins over implicit inclusion"
+      isCorrect: false
+      explanation: "That's incorrect. This item is the third principle of retention. Try again."
+  - content: "As the Messaging administrator for Tailspin Toys, Alan Deyoung wants to protect sensitive data from being accidentally or intentionally shared with unauthorized users? Which of the following security features should Alan implement to provide this functionality?"
+    choices:
+    - content: "Messaging Records Management (MRM)"
+      isCorrect: false
+      explanation: "That's incorrect. MRM doesn't provide this functionality. Try again."
+    - content: "Office 365 Message Encryption"
+      isCorrect: false
+      explanation: "That's incorrect. Office 365 Message Encryption doesn't provide this functionality. Try again."
+    - content: "Data loss prevention (DLP)"
+      isCorrect: true
+      explanation: "That's correct. A DLP policy can help protect sensitive information from being accidentally or intentionally shared with unauthorized users. DLP policies are designed to protect your enterprise data before it leaves your company and area of influence, while not hindering the productivity of your workers."
+  - content: "As the Messaging administrator for Lucerne Publishing, Patti Fernandez wants to eliminate the potential for data theft or exposure because of lost, stolen, or inappropriately decommissioned computers and disks. Which of the following encryption technologies should Patti implement to provide this functionality?"
+    choices:
+    - content: "Distributed Key Manager (DKIM)"
+      isCorrect: false
+      explanation: "That's incorrect. DKM is a client-side functionality that uses a set of secret keys to encrypt and decrypt information. Only members of a specific security group in Active Directory Domain Services can access those keys to decrypt the data that is encrypted by DKM. Try again."
+    - content: "BitLocker"
+      isCorrect: true
+      explanation: "That's correct. Microsoft 365 servers use BitLocker to encrypt the disk drives containing customer data at rest at the volume-level. BitLocker eliminates the potential for data theft or exposure because of lost, stolen, or inappropriately decommissioned computers and disks."
+    - content: "Office 365 Message Encryption"
+      isCorrect: false
+      explanation: "That's incorrect. Office 365 Message Encryption allows email users to send encrypted email messages to anyone in- and outside your organization. Try again."
+  - content: "Which role group enables members to conduct searches and place holds on mailboxes, SharePoint Online sites, and OneDrive for Business locations?"
+    choices:
+    - content: "eDiscovery Manager"
+      isCorrect: true
+      explanation: "That's correct. The eDiscovery Manager role group enables members to conduct searches and place holds on mailboxes, SharePoint Online sites, and OneDrive for Business locations."
+    - content: "Compliance Administrator"
+      isCorrect: false
+      explanation: "That's incorrect. Members of this role group can manage settings for device management, data loss prevention, reports, and preservation. Try again."
+    - content: "Compliance Data Administrator"
+      isCorrect: false
+      explanation: "That's incorrect. Members of this role group can keep track of their organization's data across Microsoft 365, make sure it's protected, and get insights into any issues to help mitigate risks. Try again."
