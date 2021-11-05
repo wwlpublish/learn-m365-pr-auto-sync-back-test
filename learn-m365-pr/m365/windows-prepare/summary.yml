@@ -64,7 +64,7 @@ quiz:
     - content: Windows Update for Business
       isCorrect: False
       explanation: Windows Update for Business doesn’t support approval of updates.
-    - content: Microsoft Server Update Services
+    - content: Windows Server Update Services
       isCorrect: True
       explanation: This tool enables you to incorporate approval of updates before they’re applied.
     - content: Windows Update (standalone)
