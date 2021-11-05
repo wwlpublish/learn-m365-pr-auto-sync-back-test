@@ -5,7 +5,7 @@ metadata:
   unitType: learning-content
   title: Enroll and unenroll devices
   description: Learn how to enroll and unenroll devices from the Windows Update for Business deployment service using the Microsoft Graph PowerShell SDK.
-  ms.date: 10/04/2021
+  ms.date: 10/15/2021
   author: adnancore
   ms.author: beccarobins
   ms.topic: interactive-tutorial
