@@ -17,14 +17,14 @@ content: |
 quiz:
   title: "Check your knowledge"
   questions:
-  - content: "As the Messaging administrator for Contoso, Holly Dickson wants to assign multiple end-user roles to Susie, who's an end-user in the Sales department. What's the easiest way for Holly to assign multiple end-user roles to Susie?"
+  - content: "As the Messaging administrator for Contoso, Holly Dickson wants to assign multiple end-user roles to Susie, who's an end-user in the Sales department. What's the easiest way for Holly to assign multiple end user roles to Susie?"
     choices:
     - content: "Assign a role group that includes multiple roles"
       isCorrect: false
-      explanation: "That's incorrect. Role groups are only used with administrative roles and not end-user roles. Try again."
+      explanation: "That's incorrect. Role groups are only used with administrative roles and not end user roles. Try again."
     - content: "Through a role assignment policy"
       isCorrect: false
       explanation: "That's incorrect. Role assignment policies aren't used for assigning roles to users. Try again."
     - content: "By assigning each individual end-user role to Susie"
       isCorrect: true
-      explanation: "That's correct. Holly can't assign a role group to Susie, because role groups are only used with administrative roles and not end-user roles. Holly must assign each individual end-user role to Susie."
+      explanation: "That's correct. Holly can't assign a role group to Susie, because role groups are only used with administrative roles and not end user roles. Holly must assign each individual end user role to Susie."
