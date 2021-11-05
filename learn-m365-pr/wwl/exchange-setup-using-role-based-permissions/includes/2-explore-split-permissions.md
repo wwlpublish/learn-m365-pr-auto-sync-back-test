@@ -9,7 +9,7 @@ This separation is important for many organizations because the Active Directory
 
 At the same time, the infrastructure for an Exchange Server environment, including servers and recipients, can also be complex and require specialized knowledge. Exchange Server stores confidential information about the business of the organization. Exchange administrators can potentially access this information. By limiting the number of Exchange administrators, the organization limits who can make changes to Exchange configuration and who can access sensitive information.
 
-Split permissions typically make a distinction between the creation of security principals in Active Directory and the configuration of those object. Security principals in AD include users and security groups. This distinction between creating and configuring the security principals helps reduce the chance of unauthorized access to the network. It does so by controlling who can create objects and who can maintain them.
+Split permissions typically make a distinction between the creation of security principals in Active Directory and the configuration of those objects. Security principals in AD include users and security groups. This distinction between creating and configuring the security principals helps reduce the chance of unauthorized access to the network. It does so by controlling who can create objects and who can maintain them.
 
 Active Directory administrators are typically the only users who can create security principals. Other administrators, such as Exchange or Messaging administrators, can manage specific attributes on existing Active Directory objects.
 

@@ -21,10 +21,10 @@ quiz:
     choices:
     - content: "A Resource forest"
       isCorrect: false
-      explanation: "That's incorrect. This items isn't the correct type of Exchange forest in which RBAC applies permissions to all Exchange objects. Try again."
+      explanation: "That's incorrect. This item isn't the correct type of Exchange forest in which RBAC applies permissions to all Exchange objects. Try again."
     - content: "All forests in the same forest topology type"
       isCorrect: false
-      explanation: "That's incorrect. This items isn't the correct type of Exchange forest in which RBAC applies permissions to all Exchange objects. Try again."
+      explanation: "That's incorrect. This item isn't the correct type of Exchange forest in which RBAC applies permissions to all Exchange objects. Try again."
     - content: "A single forest"
       isCorrect: true
       explanation: "That's correct. RBAC applies permissions to all Exchange objects within a single forest. The RBAC configuration in each forest is configured independently of all other forests."
