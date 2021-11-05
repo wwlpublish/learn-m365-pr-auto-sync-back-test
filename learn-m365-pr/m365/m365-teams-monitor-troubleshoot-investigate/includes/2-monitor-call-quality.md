@@ -21,11 +21,11 @@ Follow these steps to view a user's call analytics:
 1. On the **User** page, select **Voice** or **Meetings & Calls**.  Information on all calls and meeting for that user over the past 30 days will be displayed.
 1. Select a session to open another window to view more details.
 
-:::image type="content" source="../media/call-analytics.png" alt-text="Screenshot of the Teams call analytics page.":::
-
+    :::image type="content" source="../media/call-analytics.png" alt-text="Screenshot of the Teams call analytics page.":::
+    
 1. Further information can be found by selecting **Participant Details** and then clicking on the start time to view detailed information about the call or meeting including device usage, connectivity, inbound and outbound network performance.
 
-:::image type="content" source="../media/call-analytics-detail.png" alt-text="Screenshot showing the detail available when you drill down into call analytics":::
+    :::image type="content" source="../media/call-analytics-detail.png" alt-text="Screenshot showing the detail available when you drill down into call analytics":::
 
 When you set up call analytics, consider:
 
@@ -40,7 +40,7 @@ To open Call Quality Dashboard
 
 1. From the Microsoft Teams Admin Center, select **Call Quality Dashboard** from the left menu bar.
 
-:::image type="content" source="../media/call-quality-dashboard.png" alt-text="Screenshot of the Call Quality Dashboard showing various graphs of the different trends.":::
+    :::image type="content" source="../media/call-quality-dashboard.png" alt-text="Screenshot of the Call Quality Dashboard showing various graphs of the different trends.":::
 
 You can upload your buildings data and using the information within the CQD, overall patterns might become apparent, so network engineers can make informed assessments of call quality. CQD provides reports of call quality metrics that give you insight into overall call quality, server-client streams, client-client streams, and voice quality service level agreements (SLAs). Data is presented visually, with additional filters available, depending on your selection.
 

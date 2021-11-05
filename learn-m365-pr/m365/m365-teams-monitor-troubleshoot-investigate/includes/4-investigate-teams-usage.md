@@ -36,7 +36,11 @@ The reports available from the Teams admin center are:
 
 The **Apps usage report** shows app usage over 7, 30 or 90 days.  This allows trends to be identified to see what apps users are using to identify trends in order that more effective business decisions can be made.
 
-:::image type="content" source="../media/live-events.png" alt-text="Screenshot showing the app usage report":::
+<div class="centered">
+
+:::image type="content" source="../media/live-events-small.png" alt-text="Screenshot showing the app usage report" lightbox="../media/live-events.png":::
+
+</div>
 
 The **PSTN blocked users report** displays the users in your organization who are blocked from making PSTN calls in Teams. You can view more information about each blocked user, including their assigned phone number and the reason they were blocked from making calls.
 
