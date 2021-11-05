@@ -5,7 +5,7 @@ metadata:
   unitType: learning-content
   title: Deploy Windows feature updates
   description: Learn how to deploy Windows feature updates using the Microsoft Graph PowerShell SDK.
-  ms.date: 10/04/2021
+  ms.date: 10/15/2021
   author: adnancore
   ms.author: beccarobins
   ms.topic: interactive-tutorial

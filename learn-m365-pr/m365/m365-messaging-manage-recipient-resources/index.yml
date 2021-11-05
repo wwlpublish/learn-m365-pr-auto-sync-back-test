@@ -3,7 +3,7 @@ uid: learn-m365.m365-messaging-manage-recipient-resources
 metadata:
   title: Manage recipient resources in Exchange Online
   description: Learn how to manage different mailbox types, configure mailbox policies and permissions, and understand licensing options.
-  ms.date: 07/21/2021
+  ms.date: 10/21/2021
   author: temanteleary
   ms.author: teleary
   ms.topic: interactive-tutorial
