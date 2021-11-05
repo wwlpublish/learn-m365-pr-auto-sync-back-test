@@ -14,7 +14,7 @@ When you click **View Alert Details** in the notification, you see the DLP Alert
 
 In this case, we see that the event was a file that included a high volume of U.K. financial data was copied to the cloud. While not shown in the image below, the administrator can initiate a workflow to manage each alert to resolution and/or send an email to another user informing them of the DLP policy violation.
 
-:::image type="content" source="../media/alert-event-details.png" alt-text="Screenshot shows the details for an event that prompted a high severity alert.":::
+:::image type="content" source="../media/alert-event-details.png" alt-text="Screenshot shows the details for an event that prompted a high severity alert." lightbox="../media/alert-event-details.png":::
 
 ## Learn more
 

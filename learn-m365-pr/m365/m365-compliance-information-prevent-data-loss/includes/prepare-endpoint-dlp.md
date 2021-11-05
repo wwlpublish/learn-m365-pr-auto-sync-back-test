@@ -14,7 +14,7 @@ Windows 10 devices you plan on monitoring with Endpoint DLP must meet the system
 
 Before you can include Windows 10 devices in DLP policies, you need to *onboard* them, or enable data collection.
 
-To enable data collection from a device, the account must belong to one of these roles:
+To enable data collection from a device, the account onboarding the device must be a member of any of these roles:
 
 - Global admin
 - Security admin
