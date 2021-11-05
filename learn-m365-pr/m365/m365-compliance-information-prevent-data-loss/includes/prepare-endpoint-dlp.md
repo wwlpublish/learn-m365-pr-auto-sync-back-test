@@ -40,7 +40,7 @@ Onboarding and offboarding are handled via scripts you download from the **Devic
 
 In the Microsoft 365 compliance center, select **Settings**, then select **Device Onboarding** to view a list of monitored devices and download the packages used to onboard or offboard devices using your preferred deployment method.
 
-:::image type="content" source="../media/device-onboarding.png" alt-text="Screenshot shows the Device Onboarding page with the Local script selected as the deployment method.":::
+:::image type="content" source="../media/device-onboarding.png" alt-text="Screenshot shows the Device Onboarding page with the Local script selected as the deployment method." lightbox="../media/device-onboarding.png":::
 
 ### Onboarding using local script
 
@@ -66,7 +66,7 @@ Here are the settings available to you:
 
 - **File path exclusions**: Exclude specific paths from DLP monitoring, alerting, and policy enforcement. Use the setting for file paths that are too active or that don't contain files you want to protect. You can use wildcards, system variables, and other options to refine which file paths you include or exclude. You can see in the following image an exclusion for the C:\Temp folder and all subfolders. All other folders on the device will be monitored.
 
-   :::image type="content" source="../media/file-path-exclusions.png" alt-text="Screenshot shows the File Path exclusions part of the Endpoint DLP settings page.":::
+   :::image type="content" source="../media/file-path-exclusions.png" alt-text="Screenshot shows the File Path exclusions part of the Endpoint DLP settings page." lightbox="../media/file-path-exclusions.png":::
   
 - **Unallowed apps**: Prevent specific applications from accessing files protected by your policies. You can use the **Access by unallowed apps** setting to define what happens when one of your users tries to access protected data by using one of the specified apps. You can choose to allow the activity, allow but audit, block, or block the activity but let the user override the restriction. In this example, we've blocked Microsoft WordPad from opening any file that is protected by DLP policy. Other apps, like Microsoft Word, can open the same file.
 

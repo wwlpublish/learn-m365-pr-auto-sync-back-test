@@ -25,7 +25,7 @@ The DLP policy matches report shows the count of DLP policy matches over time. Y
 
 This image shows the DLP policy matches report, sorted by services. (You can also choose to sort by policies or by action.)
 
-:::image type="content" source="../media/dlp-policy-matches-report.png" alt-text="Screenshot of the DLP policy matches report." lightbox="-../media/dlp-policy-matches-report.png":::
+:::image type="content" source="../media/dlp-policy-matches-report.png" alt-text="Screenshot of the DLP policy matches report." lightbox="../media/dlp-policy-matches-report.png":::
 
 ## DLP incidents
 
