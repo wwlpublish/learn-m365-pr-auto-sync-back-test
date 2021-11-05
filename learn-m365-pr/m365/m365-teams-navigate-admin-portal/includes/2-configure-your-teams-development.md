@@ -8,7 +8,7 @@ Here, let's examine the core decisions you need to take as you deploy and config
 
 You can assign various Teams administrator roles to people with different jobs. You can decide to assign administrator roles to people who will handle any Teams issue or assign administrator roles for specific areas, such as call quality or device management. For security purposes, consider assigning the least privilege necessary for an administrator to do their job.
 
-The administrator roles and associated permissions are:
+The administrator roles and associated tasks are:
 
 - **Teams Service Administrator** - manages the Teams service, and manages and creates Microsoft 365 Groups.
 - **Teams communications administrator** - manages calling and meetings features within the Teams service.
