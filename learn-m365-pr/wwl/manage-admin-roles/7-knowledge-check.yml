@@ -1,0 +1,52 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.manage-admin-roles.knowledge-check
+title: Knowledge check
+metadata:
+  title: Knowledge check
+  description: "Knowledge check"
+  ms.date: 11/05/2021
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 6
+content: |
+  [!include[](includes/7-knowledge-check.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "As the Messaging administrator for Fabrikam, Holly Spencer wants to add and remove permissions to sets of users without having to configure individual mailboxes. What feature of the Exchange permission model will enable Holly to accomplish this goal?"
+    choices:
+    - content: "Assigning multiple role assignment policies to each user mailbox"
+      isCorrect: false
+      explanation: "That's incorrect. Each mailbox can only be associated with one role assignment policy at a time. Try again."
+    - content: "Assigning an end-user role to a role assignment policy"
+      isCorrect: true
+      explanation: "That's correct. When an end-user role is assigned to a role assignment policy, all the mailboxes associated with that role assignment policy receive the permissions granted by the role. This design enables you to add or remove permissions to sets of users without having to configure individual mailboxes."
+    - content: "Specifying a predefined relative scope on a management role assignment"
+      isCorrect: false
+      explanation: "That's incorrect. This action won't enable Holly to add and remove permissions to sets of users without having to configure individual mailboxes. Try again."
+  - content: "As the Messaging administrator for Contoso, Holly Dickson want to define the level of impact or influence of a management role when a management role assignment is created. What feature of the RBAC permission model will enable Holly to accomplish this task?"
+    choices:
+    - content: "Management role group"
+      isCorrect: false
+      explanation: "That's incorrect. A management role group is a special universal security group (USG). It contains mailboxes, users, other USGs, and other role groups. The management role group is where you add and remove members, and it's also what management roles are assigned to. Try again."
+    - content: "Role assignment policy"
+      isCorrect: false
+      explanation: "That's incorrect. Role assignment policies provide different levels of permissions for different types of users. Try again."
+    - content: "Management role scopes"
+      isCorrect: true
+      explanation: "That's correct. Management role scopes enable you to define the specific scope of impact or influence of a management role when a management role assignment is created. When you apply a scope, the role assignee assigned to the role can only modify the objects contained within that scope. A role assignee can be a management role group, management role, management role assignment policy, user, or universal security group (USG)."
+  - content: "Which of the following role group components links a role to a role group?"
+    choices:
+    - content: "Management role assignment"
+      isCorrect: true
+      explanation: "That's correct. A management role assignment links a role and a role group. Assigning a role to a role group grants members of the role group the ability to use the cmdlets and parameters defined in the role. Role assignments can use management scopes to control where the assignment can be used."
+    - content: "Management role scope"
+      isCorrect: false
+      explanation: "That's incorrect. A management role scope is the scope of influence or impact on a role assignment. When a role is assigned with a scope to a role group, the management scope targets specifically what objects that assignment can manage. Try again."
+    - content: "Role assignment policy"
+      isCorrect: false
+      explanation: "That's incorrect. A role assignment policy provides permissions to user mailboxes by using end-user roles. Try again."
