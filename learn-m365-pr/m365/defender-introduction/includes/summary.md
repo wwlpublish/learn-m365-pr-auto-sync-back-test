@@ -1,4 +1,4 @@
-As a security analyst, you were tasked with exploring the capabilities of Microsoft 365 Defender and understanding how each of the other Microsoft Defender for Cloud products integrates and shares its data.
+As a security analyst, you were tasked with exploring the capabilities of Microsoft 365 Defender and understanding how the other Microsoft Defender products integrate and share data.
 
 By integrating Microsoft Defender for Endpoint, Microsoft Defender for Identity, Microsoft Defender for Office 365, and Microsoft Defender for Cloud Apps into Microsoft 365 Defender, the broad scope of available data lets your security team see the complete story of an attack from start to finish, allowing them to investigate and remediate incidents more quickly.
 

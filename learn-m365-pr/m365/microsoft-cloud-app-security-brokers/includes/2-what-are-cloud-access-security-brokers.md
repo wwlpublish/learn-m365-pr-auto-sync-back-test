@@ -1,10 +1,10 @@
 By moving to the cloud, an organization can gain many benefits including flexibility for users, performance, and cost saving. To improve flexibility to users, cloud resources become globally available to the users, but critical data is still protected.
 
-A Cloud Access Security Broker provides this protection for an organization by discovering and monitoring IT use by users, and limiting access to sensitive resources.
+A cloud access security broker provides this protection for an organization by discovering and monitoring IT use by users, and limiting access to sensitive resources.
 
-Microsoft Defender for Cloud Apps is a sophisticated Cloud Access Security Broker that provides centralized management for both Microsoft and non-Microsoft solutions. Traffic is routed via a reverse proxy infrastructure, which minimizes user impact while maintaining the highest level of control.
+Microsoft Defender for Cloud Apps is a sophisticated cloud access security broker that provides centralized management for both Microsoft and non-Microsoft solutions. Traffic is routed via a reverse proxy infrastructure, which minimizes user impact while maintaining the highest level of control.
 
-## Cloud Access Security Brokers use cases
+## Cloud access security brokers use cases
 
 ### Addressing Shadow IT in your organization
 

@@ -5,7 +5,7 @@ Potential benefits of collecting Secure Score data through Microsoft Graph inclu
  *  Monitor and report on your Secure Score in downstream reporting tools.
  *  Track your security configuration baseline.
  *  Integrate the data into compliance or cybersecurity insurance applications.
- *  Integrate Secure Score data into your Security Incident and Event Management (SIEM) or Cloud Access Security Broker (CASB) solutions to drive a hybrid or multi-cloud framework for security analytics.
+ *  Integrate Secure Score data into your Security Incident and Event Management (SIEM) or cloud access security broker (CASB) solutions to drive a hybrid or multi-cloud framework for security analytics.
 
 Once the Secure Score API has been set up, PowerShell scripts are used to retrieve the necessary data from Secure Score. The `Get-SecureScoreAPI` PowerShell cmdlet, along with scripts that can be written using this cmdlet, enable you to:
 

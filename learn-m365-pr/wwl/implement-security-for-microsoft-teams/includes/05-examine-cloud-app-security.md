@@ -4,7 +4,7 @@ In the modern business environment, users often want to use their own devices to
 
 ## What is Defender for Cloud Apps?
 
-Microsoft Defender for Cloud Apps is a Cloud Access Security Broker. It's a layer between cloud applications and cloud application users. Microsoft Defender for Cloud Apps is designed for security professionals who need to monitor activity centrally and enforce security policies.
+Microsoft Defender for Cloud Apps is a cloud access security broker. It's a layer between cloud applications and cloud application users. Microsoft Defender for Cloud Apps is designed for security professionals who need to monitor activity centrally and enforce security policies.
 
 Microsoft Defender for Cloud Apps natively integrates with leading Microsoft solutions. It provides visibility into the apps being used, control over data travel, and analytics to identify and combat cyber threats.
 

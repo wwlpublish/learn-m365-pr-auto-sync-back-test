@@ -14,7 +14,7 @@ summary: Understand what Microsoft 365 Defender is and how it can help to improv
 abstract: | 
   By the end of this module, you'll be able to:
     - Understand Microsoft 365 Defender
-    - Understand Microsoft 365 Defender integration with other Defender for Cloud products
+    - Understand Microsoft 365 Defender integration with other Defender products
 prerequisites: | 
   - None
 iconUrl: /learn/achievements/m365-defender-introduction.svg

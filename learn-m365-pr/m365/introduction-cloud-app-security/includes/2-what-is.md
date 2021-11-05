@@ -22,7 +22,7 @@ Defender for Cloud Apps has several deployment modes, which are described in the
 
 ### What does Defender for Cloud Apps do?
 
-Defender for Cloud Apps acts as a Cloud Access Security Broker (CASB). You use CASBs as a gatekeeper to your organizational data. You use a CASB to provide the following capabilities:
+Defender for Cloud Apps acts as a cloud access security broker (CASB). You use CASBs as a gatekeeper to your organizational data. You use a CASB to provide the following capabilities:
 
 - discover how users use organizational apps
 - monitor user activities for suspicious or unusual behavior

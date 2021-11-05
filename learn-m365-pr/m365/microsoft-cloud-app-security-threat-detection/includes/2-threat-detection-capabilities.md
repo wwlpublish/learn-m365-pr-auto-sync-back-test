@@ -1,4 +1,4 @@
-Many attacks are now cloud-only and many sensitive resources are stored in the cloud. For this reason, it is important to understand the types of threats and the capabilities of Cloud Access Security Brokers (CASBs).
+Many attacks are now cloud-only and many sensitive resources are stored in the cloud. For this reason, it is important to understand the types of threats and the capabilities of cloud access security brokers (CASBs).
 
 ## Threats to cloud apps
 

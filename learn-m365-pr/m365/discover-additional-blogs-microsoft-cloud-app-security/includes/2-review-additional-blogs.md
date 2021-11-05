@@ -1,8 +1,8 @@
 It's important for any security administrator to be able to keep up to date with the technologies they work with. If you're using Microsoft Defender for Cloud Apps, you'll want to learn more about new and existing features. Microsoft and the Defender for Cloud Apps team have curated content relating to cloud app technologies, and presented this material in a series of blogs and websites.
 
-## Defender for Cloud Apps Broker (CASB) ninja blog series
+## Cloud access security broker (CASB) ninja blog series
 
-The CASB Ninja Blog Series contains articles that will help to arm you with the skills and knowledge you need to be successful with a Cloud Access Security Broker (CASB). Ultimately, perhaps, giving you the skills to be a CASB ninja within your organization.
+The CASB Ninja Blog Series contains articles that will help to arm you with the skills and knowledge you need to be successful with a cloud access security broker (CASB). Ultimately, perhaps, giving you the skills to be a CASB ninja within your organization.
 
 The authors will share their knowledge and experience on real-world scenarios, and how Defender for Cloud Apps can help address issues within those scenarios. You'll dive deep into use cases, architecture design, implementation and configuration best practices, operations, and more.
 

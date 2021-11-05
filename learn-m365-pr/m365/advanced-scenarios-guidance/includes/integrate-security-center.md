@@ -14,7 +14,7 @@ For example, a threatening malware executable might have multiple potential rout
 - In uploads to Azure Storage accounts.
 - Attached to messages in a mobile social media app.
 
-These incursions might be detected and mitigated by Microsoft Defender for Cloud Apps, Microsoft Defender for Cloud on Windows or mobile operating systems, or Azure Advanced Threat Protection. To observe and investigate these events, it's necessary to log into several different portals and it's difficult to integrate that information into a single report.
+These incursions might be detected and mitigated by Microsoft Defender for Cloud Apps, Microsoft 365 Defender on Windows or mobile operating systems, or Azure Advanced Threat Protection. To observe and investigate these events, it's necessary to log into several different portals and it's difficult to integrate that information into a single report.
 
 The Microsoft 365 Defender portal integrates with many different Microsoft Security products and provides a single location where events can be investigated and diagnosed. In the Microsoft 365 Defender portal, you can view and analyze security events from across your organization's identities, data, devices, apps, and infrastructure.
 
@@ -37,11 +37,11 @@ You must have a valid license to access the Defender for Cloud. If you have any 
 - Microsoft Defender for Cloud Apps
 - Defender for Office 365 (Plan 2)
 
-Trail licenses for Office 365 don't include access to the Defender for Cloud.
+Trial licenses for Office 365 don't include access to the Microsoft 365 Defender portal.
 
 To check your licenses, go to the Microsoft 365 admin center and then select **Billing > Licenses**.
 
-You'll also need administrative permission to access Microsoft 365 Defender information, including the data displayed in the Defender for Cloud. Accounts assign to the following Azure Active Directory roles have access:
+You'll also need administrative permission to access Microsoft 365 Defender information, including the data displayed in the Microsoft 365 Defender portal. Accounts assign to the following Azure Active Directory roles have access:
 
 - Global administrator
 - Security administrator

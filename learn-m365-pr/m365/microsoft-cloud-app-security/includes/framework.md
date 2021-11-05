@@ -1,4 +1,4 @@
-Defender for Cloud Apps Brokers (CASBs) are defined by Gartner as security policy enforcement points, placed between cloud service consumers and cloud service providers to combine and interject enterprise security policies as cloud-based resources are accessed. CASBs consolidate multiple types of security policy enforcement.
+Cloud access security broker (CASBs) are defined by Gartner as security policy enforcement points, placed between cloud service consumers and cloud service providers to combine and interject enterprise security policies as cloud-based resources are accessed. CASBs consolidate multiple types of security policy enforcement.
 
 In other words, CASBs are the intermediaries between your users and all of the cloud services they access. CASBs help you to apply monitoring and security controls over your users and data. CASBs for cloud services are like firewalls to corporate networks.
 

@@ -3,4 +3,4 @@ You work as a security analyst and want to explore the capabilities of Microsoft
 By the end of this module, you should be able to:
 
 - Understand Microsoft 365 Defender key features and scenarios.
-- Understand how the other Defender for Cloud products: Microsoft Defender for Endpoint, Microsoft Defender for Identity, Microsoft Defender for Office 365, and Microsoft Defender for Cloud Apps, integrate with Microsoft 365 Defender.
+- Understand how Microsoft 365 Defender integrates with the other Defender products: Microsoft Defender for Endpoint, Microsoft Defender for Identity, Microsoft Defender for Office 365, and Microsoft Defender for Cloud Apps, integrate with Microsoft 365 Defender.

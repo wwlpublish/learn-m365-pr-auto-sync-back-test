@@ -60,7 +60,7 @@ For more information, read [Microsoft Defender for Endpoint](https://docs.micros
 
 ## Microsoft Defender for Cloud Apps
 
-Microsoft Defender for Cloud Apps is a Cloud Access security broker (CASB).  It operates as an intermediary between a cloud user and the cloud provider, to provide rich visibility to your cloud services, control over data travel, and sophisticated analytics to identify and combat cyberthreats across all your cloud services.
+Microsoft Defender for Cloud Apps is a cloud access security broker (CASB).  It operates as an intermediary between a cloud user and the cloud provider, to provide rich visibility to your cloud services, control over data travel, and sophisticated analytics to identify and combat cyberthreats across all your cloud services.
 
 Defender for Cloud Apps is built on a framework that provides the following capability:
 
