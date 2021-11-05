@@ -29,7 +29,6 @@ quiz:
       - content: "Identities, data, devices, apps"
         isCorrect: true
         explanation: "Correct. The four categories found in the default Security report are identities, data, devices, and apps."
-    - content: "
 
     - content: "As a security administrator you are tasked with identifying how many DLP matches happened in your third-party cloud services. What section in the Security reporting would you use to find the information?"
       choices:
