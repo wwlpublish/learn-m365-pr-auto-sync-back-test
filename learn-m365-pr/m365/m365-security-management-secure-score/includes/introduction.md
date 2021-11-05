@@ -20,7 +20,7 @@ The **Data** category helps track user activity that could lead to unauthorized 
 - How many DLP policies overrides or false positives are reported
 - How many DLP policy matches happened in 3rd-party cloud services via Microsoft Cloud App Security
 
-:::image type="content" source="../media/data.png" alt-text="Screenshots showing data reports in the Microsoft 365 Defender portal.":::
+:::image type="content" source="../media/data.png" alt-text="Screenshots showing data reports in the Microsoft 365 Defender portal." lightbox="../media/data.png":::```
 
 The **Device** category ensures devices are secure, up-to-date, and that you can spot potential threats. You can see:
 
