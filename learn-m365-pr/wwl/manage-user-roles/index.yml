@@ -9,10 +9,10 @@ metadata:
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Manage user roles
-summary: Examines how to manage user roles using built-in role assignment policies and management role assignment policies, as well as how to create new roles, role assignments, and scopes.
+summary: Examines how to manage user roles using built-in role assignment policies and management role assignment policies, and how to create new roles, role assignments, and scopes.
 abstract: |
   By the end of this module, you'll be able to:
-  - Describe the built-in end-user roles.
+  - Describe the built-in end user roles.
   - Configure role assignment policies.
   - Create new custom roles and role assignment policies.
 prerequisites: ""

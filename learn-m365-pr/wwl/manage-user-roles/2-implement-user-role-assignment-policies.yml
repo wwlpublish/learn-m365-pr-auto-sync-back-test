@@ -17,14 +17,14 @@ content: |
 quiz:
   title: "Check your knowledge"
   questions:
-  - content: "Which of the following built-in user roles allows an end-user to view and modify basic configuration and access settings for Outlook on the web?"
+  - content: "Which of the following built-in user roles allows an end user to view and modify basic configuration and access settings for Outlook on the web?"
     choices:
     - content: "MyDiagnostics"
       isCorrect: false
-      explanation: "That's incorrect. This built-in role enables end-users to complete basic diagnostics on their mailbox. Try again."
+      explanation: "That's incorrect. This built-in role enables end users to complete basic diagnostics on their mailbox. Try again."
     - content: "MyBaseOptions"
       isCorrect: true
-      explanation: "That's correct. This built-in role enables end-users to view and modify basic configuration and access settings for Outlook on the web."
+      explanation: "That's correct. This built-in role enables end users to view and modify basic configuration and access settings for Outlook on the web."
     - content: "MyProfileInformation"
       isCorrect: false
-      explanation: "That's incorrect. This built-in role enables end-users to change their name and display name. Try again."
+      explanation: "That's incorrect. This built-in role enables end users to change their name and display name. Try again."
