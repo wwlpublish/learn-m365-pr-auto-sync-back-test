@@ -17,7 +17,7 @@ content: |
 quiz:
   title: "Check your knowledge"
   questions:
-  - content: "Patti Fernandez is the new Messaging administrator for Lucerne Publishing. After several managers changed jobs, Patti investigated Lucerne's permission management model. Patti discovered that the previous administrator had assigned roles directly to users. As a result, Patti had to manually reassign those manager's roles to their replacements. Patti soon realized how inefficient and complex this process was. To avoid this situation in the future, what should Patti do to make it easier to manage role assignments and reduce the complexity of Lucerne's permission model?"
+  - content: "Patti Fernandez is the new Messaging administrator for Lucerne Publishing. After several managers changed jobs, Patti investigated Lucerne's permission management model. Patti discovered that the previous administrator had assigned roles directly to users. As a result, Patti had to manually reassign those managers' roles to their replacements. Patti soon realized how inefficient and complex this process was. To avoid this situation in the future, what should Patti do to make it easier to manage role assignments and reduce the complexity of Lucerne's permission model?"
     choices:
     - content: "Create new roles directly from scratch for each manager"
       isCorrect: false
