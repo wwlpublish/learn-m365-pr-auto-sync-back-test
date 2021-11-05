@@ -11,7 +11,7 @@ In the **Identities** category of Reports, you can track:
 - How many users are reported at risk by Conditional Access policies
 - The number of global admins in your org
 
-:::image type="content" source="../media/identities.png" alt-text="Screenshot showing identities reports in the Microsoft 365 Defender portal.":::
+:::image type="content" source="../media/identities.png" alt-text="Screenshot showing identities reports in the Microsoft 365 Defender portal." lightbox="../media/identities.png":::
 
 The **Data** category helps track user activity that could lead to unauthorized data disclosure. You can see:
 
