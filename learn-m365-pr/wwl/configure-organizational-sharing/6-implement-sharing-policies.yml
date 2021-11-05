@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.configure-organizational-sharing.implement-sharing-policies
+title: Implement sharing policies
+metadata:
+  title: Implement sharing policies
+  description: "Implement sharing policies"
+  ms.date: 11/04/2021
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 4
+content: |
+  [!include[](includes/6-implement-sharing-policies.md)]

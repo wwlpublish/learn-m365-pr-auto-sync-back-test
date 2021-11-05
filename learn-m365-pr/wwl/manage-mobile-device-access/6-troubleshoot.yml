@@ -1,0 +1,30 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.manage-mobile-device-access.troubleshoot
+title: Troubleshoot mobile device access
+metadata:
+  title: Troubleshoot mobile device access
+  description: "Troubleshoot mobile device access"
+  ms.date: 11/03/2021
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 5
+content: |
+  [!include[](includes/6-troubleshoot.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "As the Messaging administrator for Tailspin Toys, Alan Deyoung wants to troubleshoot some recent problems with ActiveSync. Alan wants to mimic a smartphone to run through ActiveSync testing. Which of the following tools should Alan use to complete this troubleshooting task?"
+    choices:
+    - content: "Remote Connectivity Analyzer"
+      isCorrect: true
+      explanation: "That's correct. The Remote Connectivity Analyzer mimics a smartphone to run through ActiveSync testing. This tool provides detailed troubleshooting information. Instead of just finding out that the connection failed, you receive support information that enables you to find out where in the connection it failed, and often why it failed."
+    - content: "Smartphone"
+      isCorrect: false
+      explanation: "That's incorrect. By testing with a smartphone, you can determine whether the issue you're troubleshooting is limited to only one device or device type (such as all Apple iPhones). Try again."
+    - content: "PowerShell"
+      isCorrect: false
+      explanation: "That's incorrect. You can use PowerShell to quickly run through some basic ActiveSync tasks to determine if there are issues. Try again."

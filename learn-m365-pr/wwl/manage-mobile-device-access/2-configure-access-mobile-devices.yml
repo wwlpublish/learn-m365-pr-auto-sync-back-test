@@ -1,0 +1,30 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.manage-mobile-device-access.configure-access-mobile-devices
+title: Configure access for mobile devices
+metadata:
+  title: Configure access for mobile devices
+  description: "Configure access for mobile devices"
+  ms.date: 11/03/2021
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 8
+content: |
+  [!include[](includes/2-configure-access-mobile-devices.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "Which of the following actions applies to a quarantined device?"
+    choices:
+    - content: "A quarantined device can't connect to Exchange"
+      isCorrect: false
+      explanation: "That's incorrect. A quarantined device can connect to Exchange. Try again."
+    - content: "Exchange will allow a quarantined device to add content to the user's calendar and contacts"
+      isCorrect: true
+      explanation: "That's correct. When a mobile device is in a quarantined state, it can connect to Exchange, but with limited access to data. The user can add content to their calendar, contacts, tasks, and notes folders, but Exchange won't allow the device to retrieve any content from the user's mailbox."
+    - content: "Exchange will allow a quarantined device to retrieve content from the user's mailbox"
+      isCorrect: false
+      explanation: "That's incorrect. Exchange won't allow a quarantined device to retrieve any content from the user's mailbox. Try again."

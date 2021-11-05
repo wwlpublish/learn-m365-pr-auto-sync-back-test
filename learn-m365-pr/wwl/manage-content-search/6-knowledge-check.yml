@@ -1,0 +1,52 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.manage-content-search.knowledge-check
+title: Knowledge check
+metadata:
+  title: Knowledge check
+  description: "Knowledge check"
+  ms.date: 11/02/2021
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 6
+content: |
+  [!include[](includes/6-knowledge-check.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "Fabrikam's Sales team has been running content searches on a large number of mailboxes and SharePoint sites. As the Messaging administrator for Fabrikam, Holly Spencer is getting frustrated with the performance of these searches. What can Holly recommend to the Sales team to help them improve the performance of their content searches?"
+    choices:
+    - content: "Buy more powerful computers"
+      isCorrect: false
+      explanation: "That's incorrect. A less expensive solution is available. Try again."
+    - content: "Run their searches using PowerShell rather than the Microsoft 365 Compliance center"
+      isCorrect: false
+      explanation: "That's incorrect. The source of the search isn't the issue. Try again."
+    - content: "Clone their content searches into multiple, smaller searches"
+      isCorrect: true
+      explanation: "That's correct. Although enhanced by scalability and performance improvements, searching a large number of mailboxes or SharePoint sites when using Content Search may still take a while to complete. Cloning a Content Search can be used to break up a large, single search into multiple, smaller searches that run more quickly."
+  - content: "As the Messaging administrator for Tailspin Toys, Alan Deyoung wants to use Content Search to find and remove high-risk email that contains sensitive data. Alan has created and refined a Content Search that returns these messages. What's the next step that Alan must complete?"
+    choices:
+    - content: "Delete the returned messages using the Microsoft 365 Defender portal"
+      isCorrect: false
+      explanation: "That's incorrect. This action isn't the next step that Alan should complete. Try again."
+    - content: "Delete the returned messages using the Microsoft 365 Compliance center"
+      isCorrect: false
+      explanation: "That's incorrect. This action isn't the next step that Alan should complete. Try again."
+    - content: "Connect to the Microsoft 365 Security &amp; Compliance Center PowerShell and run the New-ComplianceSearchAction cmdlet"
+      isCorrect: true
+      explanation: "That's correct. After you've created and refined a Content Search to return the messages that you want to remove, the final step is to connect to the Microsoft 365 Security &amp; Compliance Center PowerShell and then run the New-ComplianceSearchAction cmdlet to delete the messages. Deleted messages are moved to a user's Recoverable Items folder."
+  - content: "When preparing search results for Advanced eDiscovery, what functionality automatically extracts text from images and includes it with the search results that are loaded into Advanced eDiscovery for analysis?"
+    choices:
+    - content: "Optical character recognition"
+      isCorrect: true
+      explanation: "That's correct. When you prepare search results for Advanced eDiscovery, OCR functionality automatically extracts text from images and includes it with the search results that are loaded into Advanced eDiscovery for analysis. OCR is supported for loose files, email attachments, and embedded images. This design allows you to apply the text analytic capabilities of Advanced eDiscovery (near-duplicates, email threading, themes, and predictive coding) to the text content in image files."
+    - content: "Image segmentation"
+      isCorrect: false
+      explanation: "That's incorrect. Image segmentation doesn't provide this functionality. Try again."
+    - content: "Microscopy image analysis"
+      isCorrect: false
+      explanation: "That's incorrect. Microscopy image analysis doesn't provide this functionality. Try again."

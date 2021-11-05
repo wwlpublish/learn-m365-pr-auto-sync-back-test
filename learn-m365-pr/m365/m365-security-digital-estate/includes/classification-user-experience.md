@@ -1,6 +1,8 @@
 When a user creates or views a document with information protection enabled, they see four data classification options.
 
-![Four user classification experiences](../media/classification-user-experiences.png)
+> [!div class="centered"]
+> :::image type="content" source="../media/classification-user-experiences.png" alt-text="Diagram shows Four user classification experiences - Automatic, Recommended, Reclassification, and User set.":::
+
 
 - **Automatic**
 
@@ -8,25 +10,25 @@ When a user creates or views a document with information protection enabled, the
   - The policies automatically apply protection.
   - User receives notification of the automatic labeling.
 
-    ![Screenshot of document that has automatic classification policies](../media/automatic-classification.png)
+    :::image type="content" source="../media/automatic-classification.png" alt-text="Screenshot of document that has automatic classification policies" lightbox="../media/automatic-classification.png":::
 
 - **Recommended**
 
   - Policies automatically classify and label documents according to the data they contain.
   - User receives notification and can change the label.
 
-    ![Screenshot of document that has recommended classification](../media/recommended.png)
+    :::image type="content" source="../media/recommended.png" alt-text="Screenshot of document that has recommended classification" lightbox="../media/recommended.png":::
 
 - **Reclassification**
 
   - Users can reclassify the data or remove the label.
   - Policy can optionally require users to provide a justification; it is audited.
 
-    ![Screenshot of document that allows user reclassification](../media/reclassification.png)
+    :::image type="content" source="../media/reclassification.png" alt-text="Screenshot of document that allows user reclassification" lightbox="../media/reclassification.png":::
 
 - **User-set**
 
   - Users can manually classify the document.
   - User classification determines which labels and protections automatically apply.
 
-    ![Screenshot of document that has user-set classification](../media/user-set-classification.png)
+    :::image type="content" source="../media/user-set-classification.png" alt-text="Screenshot of document that has user-set classification" lightbox="../media/user-set-classification.png":::

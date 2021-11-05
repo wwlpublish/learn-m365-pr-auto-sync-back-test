@@ -15,48 +15,46 @@ content: |
 quiz:
     title: Check your knowledge
     questions:
-    - content: "The persistency of data classification and sensitivity labels ends when:"
+    - content: "How long are sensitivity labels valid?"
       choices:
-      - content: "A user sends an email with a file attachment to an external recipient."
+      - content: "Until a user sends an email with a file attachment to an external recipient."
         isCorrect: false
         explanation: "The label and classification remain with the file even when it leaves the organization."
-      - content: "A user shares a document with a colleague via a USB drive."
+      - content: "Until a user shares a document with a colleague via a USB drive."
         isCorrect: false
         explanation: "The label and classification remain with the file regardless of how it’s shared."
-      - content: "Persistency does not end."
+      - content: "Sensitivity labels persist for the life of the file or document. "
         isCorrect: true
         explanation: "Correct. Once applied, a sensitivity label persists in the metadata of that email or document wherever it may roam."
-      - content: "A user moves a file from OneDrive to a third-party storage provider."
+      - content: "Until a user moves a file from OneDrive to a third-party storage provider."
         isCorrect: false
         explanation: "The label and classification remain with the file even if it’s stored with a third-party storage provider."
 
-    - content: "Which of the following is NOT an option for configuring usage rights within a file or document?"
+    - content: "What three steps does Microsoft recommend when defining sensitivity labels?"
       choices:
-      - content: "Co-Author (View, Edit, Copy, Print, Reply, Reply All, Forward)"
+      - content: "Define what each labels does – Identify who will see each label – Define the naming convention."
         isCorrect: false
-        explanation: "This is one of the most common usage right options for end users."
-      - content: "Reviewer (View, Edit, Reply, Reply All, Forward)"
+        explanation: "Microsoft recommends that you first define your naming convention for labels."
+      - content: "Identify who will see each label – Define the naming convention – Define what each label does."
         isCorrect: false
-        explanation: "This is one of the most common usage right options for end users."
-      - content: "Co-Owner (View, Edit, Print, Reply, Reply All, Forward)"
+        explanation: "Microsoft recommends that you first define your naming convention for labels."
+      - content: "Define the naming convention – Define what each label does - Identify who will see each label."
         isCorrect: true
-        explanation: "Correct. Co-Owners have all usage rights, not just the ones listed."
-      - content: "Custom (Allow Macros, Edit, Reply, Reply All, Forward)"
-        isCorrect: false
-        explanation: "These are custom usage rights that you can combine with the standard usage rights."
+        explanation: "Correct. Microsoft recommends you should define your naming convention, then define what each label does, and who will see each label."
       
-    - content: "Microsoft provides which of the following default sensitivity labels?"
+      
+    - content: "Which of the following are Microsoft default sensitivity labels?"
       choices:
       - content: "Personal, Public, General, Secret, Highly Confidential"
         isCorrect: false
-        explanation: "“Secret” would be a custom sensitivity label."
+        explanation: "Microsoft makes suggestions that you can use to create your own sensitivity labels. “Secret” would be included in a custom sensitivity label."
       - content: "Public, General, Confidential, Highly Confidential"
         isCorrect: false
-        explanation: "“Personal” is the fifth default sensitivity label targeted for non-business end-user documents."
+        explanation: "Microsoft makes suggestions that you can use to create your own sensitivity labels. "
       - content: "Personal, Public, Business, Confidential, Highly Confidential"
         isCorrect: false
-        explanation: "“Business” is a custom sensitivity label."
-      - content: "Personal, Public, General, Confidential, Highly Confidential"
+        explanation: "Microsoft makes suggestions that you can use to create your own sensitivity labels. “Business” is a custom sensitivity label."
+      - content: "Microsoft does not provide default sensitivity labels"
         isCorrect: true
-        explanation: "Correct. These are the five default sensitivity labels; administrators can create custom ones as well."
+        explanation: "Correct. Microsoft makes suggestions that you can use to create your own sensitivity labels."
       

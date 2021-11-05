@@ -1,0 +1,30 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.explore-messaging-compliance-microsoft-365.run-message-trace
+title: Run a message trace
+metadata:
+  title: Run a message trace
+  description: "Run a message trace"
+  ms.date: 11/04/2021
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 8
+content: |
+  [!include[](includes/6-run-message-trace.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "As the Messaging administrator for Fabrikam, Holly Spencer wants to run a message trace on message data that was created over a month ago. Where can Holly view this data?"
+    choices:
+    - content: "In the Exchange admin center"
+      isCorrect: false
+      explanation: "That's incorrect. This location isn't where Holly can view the message trace results. Try again."
+    - content: "In the Microsoft 365 Defencer portal"
+      isCorrect: false
+      explanation: "That's incorrect. This location isn't where Holly can view the message trace results. Try again."
+    - content: "In a downloadable .CSV file"
+      isCorrect: true
+      explanation: "That's correct. Trace data is available for the past 90 days. If a message is older than seven days, you can only view the results in a downloadable .CSV file. Since the message data that Holly is investigating is over a month old, Holly must download the .CSV file that's generated from the message trace to view the results."
