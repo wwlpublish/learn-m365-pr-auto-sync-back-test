@@ -15,6 +15,6 @@ This module is designed for persons who are aspiring to the Microsoft 365 Messag
 
 After this completing module, you'll be able to:
 
- -  Describe the built-in end user roles.
+ -  Describe the built-in end-user roles.
  -  Configure role assignment policies.
  -  Create new custom roles and role assignment policies.

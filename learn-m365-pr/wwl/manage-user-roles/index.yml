@@ -12,9 +12,9 @@ title: Manage user roles
 summary: Examines how to manage user roles using built-in role assignment policies and management role assignment policies, and how to create new roles, role assignments, and scopes.
 abstract: |
   By the end of this module, you'll be able to:
-  - Describe the built-in end user roles.
-  - Configure role assignment policies.
-  - Create new custom roles and role assignment policies.
+  *   Describe the built-in end-user roles.
+  *   Configure role assignment policies.
+  *   Create new custom roles and role assignment policies.
 prerequisites: ""
 iconUrl: /learn/achievements/generic-badge.svg
 levels:
