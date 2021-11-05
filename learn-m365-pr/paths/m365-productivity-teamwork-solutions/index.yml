@@ -1,14 +1,14 @@
 ### YamlMime:LearningPath
 uid: learn.wwl.m365-productivity-teamwork-solutions
 metadata:
-  title: Demonstrate fundamental knowledge of Microsoft 365 productivity and teamwork solutions
-  description: Learn more about Microsoft 365 productivity and team work solutions.
-  ms.date: 09/05/2020
+  title: 'Microsoft 365 Fundamentals: Demonstrate knowledge of Microsoft 365 productivity and teamwork capabilities'
+  description: 'Microsoft 365 Fundamentals: Demonstrate knowledge of Microsoft 365 productivity and teamwork capabilities'
+  ms.date: 11/05/2021
   author: wwlpublish
   ms.author: dahans
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-title: Demonstrate fundamental knowledge of Microsoft 365 productivity and teamwork capabilities
+title: 'Microsoft 365 Fundamentals: Demonstrate knowledge of Microsoft 365 productivity and teamwork capabilities'
 prerequisites: |
   - Basic understanding of cloud computing. If you're unfamiliar with basic cloud computing concepts, we recommend you take [Cloud Concepts - Principles of cloud computing](/learn/modules/principles-cloud-computing/index)
 summary: |
@@ -19,6 +19,7 @@ levels:
 roles:
 - business-owner
 - business-user
+- student
 products:
 - m365
 - office-365
