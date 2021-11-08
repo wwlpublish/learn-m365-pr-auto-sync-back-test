@@ -4,7 +4,7 @@ metadata:
   title: Create and monitor analytics the Microsoft Call Quality Dashboard and Power BI reports
   description: You'll review what data you can access from the CQD and call analytics to keep Calling for Microsoft Teams running smoothly for your company. Then you'll access this data via Power BI report templates. With this data to hand, you'll see how you can troubleshoot poor call quality.
   ms.date: 07/15/2021
-  author: lizap
+  author: temanteleary
   ms.author: teleary
   ms.topic: interactive-tutorial
   ms.prod: learning-teams
