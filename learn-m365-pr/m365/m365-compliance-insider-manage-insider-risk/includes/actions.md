@@ -69,7 +69,8 @@ The **Search** control can be used to search alert names for specific text while
 ### User activity
 
 The **User activity** tab is one of the most powerful tools for internal risk analysis and investigation for cases in the insider risk management solution. This tab is structured to enable quick review of a case, including a historical timeline of all alerts, alerts details, the current risk score for the user in the case, and controls to take effective action to contain the risks in the case.
- :::image type="content" source="../media/user-activity.png" alt-text="User activity" lightbox="../../Uploads/m365-compliance-insider-manage-insider-risk/media/user-activity.png":::
+
+:::image type="content" source="../media/user-activity.png" alt-text="User activity" lightbox="../media/user-activity.png":::
 
 - **Date and window time filters:** By default, the last six months of alerts confirmed in the case are displayed in the User activity chart. You can filter the chart view with either the slider controls at both ends of the chart window, or by defining specific start and end dates in the chart filter control.
 - **Risk alert activity and details:** Risk activities are displayed as colored bubbles in the User activity chart. Bubbles are created for different categories of risk and the bubble size is proportional to the number of risk activities for the category. Selecting a bubble displays the following details for each risk activity:
@@ -85,7 +86,7 @@ The **User activity** tab is one of the most powerful tools for internal risk an
 
 The **Content explorer** tab allows risk analysts and investigators to review copies of all individual files and email messages associated with risk alerts. For example, if an alert is created when an employee downloads hundreds of files from SharePoint Online to a USB device and the activity triggers a policy alert, all the downloaded files for the alert are captured and copied to the insider risk management case from original storage sources.
 
-  :::image type="content" source="../media/content-explorer.png" alt-text="Content explorer" lightbox="../../Uploads/m365-compliance-insider-manage-insider-risk/media/content-explorer.png":::
+:::image type="content" source="../media/content-explorer.png" alt-text="Content explorer" lightbox="../media/content-explorer.png":::
 
 **Content explorer** is a powerful tool with basic and advanced search and filtering features. To learn more about using the content explorer, see [Insider risk management content explorer](/microsoft-365/compliance/insider-risk-management-content-explorer?azure-portal=true).
 
@@ -130,7 +131,7 @@ After risk analysts and investigators have completed their review and investigat
 
 The **Notices templates dashboard** displays a list of configured notice templates and allows you to create new notice templates. The notice templates are listed in reverse date order with the most recent notice template listed first.
 
-:::image type="content" source="../media/notice-templates.png" alt-text="Notice templates" lightbox="../../Uploads/m365-compliance-insider-manage-insider-risk/media/notice-templates.png":::
+:::image type="content" source="../media/notice-templates.png" alt-text="Notice templates" lightbox="../media/notice-templates.png":::
 
 If you'd like to create more than a simple text-based email message for notifications, you can create a more detailed message by [using the HTML in the message body field](/microsoft-365/compliance/insider-risk-management-notices?html-for-notices?azure-portal=true) of a notice template.
 
