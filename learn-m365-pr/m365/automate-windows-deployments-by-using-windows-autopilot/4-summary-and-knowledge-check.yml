@@ -5,7 +5,7 @@ metadata:
   title: Summary and knowledge check
   description: Summary and knowledge check
   ms.date: 06/30/2021
-  author: temanteleary
+  author: dahans-msft2
   ms.author: teleary
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
@@ -17,57 +17,51 @@ quiz:
     questions:
     - content: "Which of the following describes what Windows Autopilot can be used to do?"
       choices:
-      - content: "Reset, repurpose, and recover devices."
+      - content: "Deploy, reset, and recover devices."
         isCorrect: true
-        explanation: "Correct!"
+        explanation: "That's correct."
       - content: "Secure, reset, and recover devices."
         isCorrect: false
-        explanation: "Incorrect."
+        explanation: "That's incorrect. Windows Autopilot doesn't let you secure devices directly."
       - content: "Reset, recover, and lock devices."
         isCorrect: false
-        explanation: "Incorrect."
-      - content: "Deploy, repurpose, and connect devices."
-        isCorrect: false
-        explanation: "Incorrect."
+        explanation: "That's incorrect. Windows Autopilot doesn't let you lock devices."
     - content: "Windows Autopilot self-deploy mode is for which of the following purposes?"
       choices:
       - content: "Resetting devices by removing personal files, apps and settings."
         isCorrect: false
-        explanation: "Incorrect."
+        explanation: "That's incorrect."
       - content: "Deploying shared devices such as kiosks with little or no user interaction."
         isCorrect: true
-        explanation: "Correct!"
+        explanation: "That's correct."
       - content: "For devices that don't require Microsoft Intune."
         isCorrect: false
-        explanation: "Incorrect."
+        explanation: "That's incorrect."
       - content: "For end-user device deployment where networks are not accessible."
         isCorrect: false
-        explanation: "Incorrect."
-    - content: "White glove deployments using Windows Autopilot are for which of the following scenarios?"
+        explanation: "That's incorrect."
+    - content: "What happens to a device when it goes through a white glove deployment using Windows Autopilot?"
       choices:
-      - content: "Devices that will be fully set up by the IT department by the Original Equipment Manufacturer (OEM) before the end-user takes ownership. "
+      - content: "Devices are pre-provisioned by the IT department or the Original Equipment Manufacturer (OEM), before being sent directly to the end-user."
         isCorrect: true
-        explanation: "Correct."
-      - content: "A Windows Autopilot deployment where a white glove is involved."
+        explanation: "That's correct. Devices can be updated by IT departments or OEMs, and then are sent directly to end-users."
+      - content: "Devices are cleaned and refurbished by the IT department, then sent on to the end-user."
         isCorrect: false
-        explanation: "Incorrect."
-      - content: "Devices that must be cleaned after being received by the deploying IT group."
+        explanation: "That's incorrect. White glove deployments are for brand new devices, not refurbished ones."
+      - content: "Devices are hand delivered to end-users, and the IT department can install additional software if requested."
         isCorrect: false
-        explanation: "Incorrect.  This scenario is not relevant for Windows Autopilot."
-      - content: "Customized, one-off deployments requiring special handling."
-        isCorrect: false
-        explanation: "Incorrect."
+        explanation: "That's incorrect. White glove deployments don't involve hand delivery."
     - content: "Before deploying a device using Windows Autopilot, which of the following must be done?"
       choices:
       - content: "The device must be registered with the Windows Autopilot deployment service."
         isCorrect: true
-        explanation: "Correct!"
+        explanation: "That's correct."
       - content: "The device must be reset to factory specifications."
         isCorrect: false
-        explanation: "Incorrect.  This step is not necessary."
+        explanation: "That's incorrect. This step is not necessary."
       - content: "A valid active directory user must login to the device."
         isCorrect: false
-        explanation: "Incorrect.  This step is not necessary."
+        explanation: "That's incorrect. This step is not necessary."
       - content: "The device's hardware ID must be captured by the manufacturer."
         isCorrect: false
-        explanation: "Incorrect.  This step is not necessary."
+        explanation: "That's incorrect. This step is not necessary."
