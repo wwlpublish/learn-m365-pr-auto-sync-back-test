@@ -23,7 +23,7 @@ quiz:
       - content: "All legacy apps typically work without modification. No testing is required."
         isCorrect: false
         explanation: "False. Any COM add-ins and VBA macros your organization used on previous versions of Office (back to Office 2010) typically continue to work on the latest versions of Office without modification but some testing and validation is still required."
-       content: "Legacy apps typically work not work on Windows 10 without some modification."
+      - content: "Legacy apps typically work not work on Windows 10 without some modification."
         isCorrect: false
         explanation: "False. Any COM add-ins and VBA macros your organization used on previous versions of Office (back to Office 2010) typically continue to work on the latest versions of Office without modification."
       
