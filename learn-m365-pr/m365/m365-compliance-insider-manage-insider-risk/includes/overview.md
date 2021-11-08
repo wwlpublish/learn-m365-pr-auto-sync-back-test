@@ -59,7 +59,7 @@ Using policy templates with pre-defined conditions and comprehensive activity si
 
 Identifying and resolving internal risk activities and compliance issues with insider risk management in Microsoft 365 uses the following workflow:
 
-:::image type="content" source="../media/insider-risk-management-workflow.png" alt-text="Insider risk management workflow":::
+:::image type="content" source="../media/insider-risk-management-workflow.png" alt-text="Insider risk management workflow" lightbox="../../Uploads/m365-compliance-insider-manage-insider-risk/media/insider-risk-management-workflow.png":::
 
 **1. Policies.** Insider risk management policies determine which employees are in-scope and which types of risk indicators are configured for alerts.
 
