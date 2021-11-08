@@ -58,8 +58,8 @@ You choose the image type Azure uses to create the virtual machine, either Galle
 - *Storage blob* - Allows you to use your own image built through Hyper-V or on an Azure VM. You might use this option when you have an image you're using on-premises and just want to upload it and start using it in Azure immediately. When you select this option, there are some additional fields you need to complete.
   - *Image URI* - Enter the URL to the generalized VHD from your Azure Storage account. 
   - *Storage account* - You select the Azure storage account that contains your image.
-> [!NOTE]
-> We advise you to register these images within Azure using the Azure Image Creation tool to unlock better performance and management capabilities.
+[!NOTE]
+We advise you to register these images within Azure using the Azure Image Creation tool to unlock better performance and management capabilities.
 
 ## Select virtual network
 
