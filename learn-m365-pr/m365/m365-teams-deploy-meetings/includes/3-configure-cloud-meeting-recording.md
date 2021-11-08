@@ -12,7 +12,7 @@ For  Teams meetings to be recorded, OneDrive for Business and SharePoint Online 
 - User has sufficient storage in OneDrive for Business for non-channel meeting recordings to be saved.
 - User has consented to the company guidelines, if set up by the admin.
 - The Teams' channel has sufficient storage in SharePoint Online for channel meeting recordings to be saved.
-- User has CsTeamsCallingPolicy -AllowCloudRecordingForCalls setting set to true in order to record 1:1 calls.
+- User has the setting CsTeamsCallingPolicy -AllowCloudRecordingForCalls set to true to record 1:1 calls.
 - User isn't an anonymous, guest, or federated user in the meeting.
 - To enable transcription for a user's meeting, the Teams meeting policy they're assigned to must have the **-AllowTranscription** set to true.
 - To enable channel meeting recordings to be saved so channel members can't edit or download the recordings the CSTeamsMeetingPolicy -ChannelRecordingDownload setting must be set to Block.
@@ -29,7 +29,7 @@ Using PowerShell, you configure the **AllowCloudRecording** setting in **TeamsMe
 
 ## Compliance and e-discovery for meeting recordings
 
-Audio recordins are not currently eDiscoverable in Teams. Meeting and call metadata, is eDiscoverable, however, and includes the following:
+Audio recordings are not currently eDiscoverable in Teams. Meeting and call metadata, is eDiscoverable, however, and includes the following:
 
 - Meeting start and end time, and duration
 - Meeting join and leave events for each participant
