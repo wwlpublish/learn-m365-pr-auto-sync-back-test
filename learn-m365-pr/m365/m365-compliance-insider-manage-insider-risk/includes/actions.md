@@ -26,7 +26,7 @@ The case queue lists all active and closed cases for your organization, in addit
 - **Last updated:** The time that has passed since there has been an added case note or change in the case state.
 - **Last updated by:** The name of the insider risk management analyst or investigator that last updated the case.
 
- :::image type="content" source="../media/active-cases.png" alt-text="Active cases":::
+:::image type="content" source="../media/active-cases.png" alt-text="Active cases" lightbox="../media/active-cases.png":::
 
 The Search control is used to search case names for specific text and use the case filter to sort cases by the following attributes:
 
