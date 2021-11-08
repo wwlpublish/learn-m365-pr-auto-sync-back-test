@@ -148,7 +148,10 @@ To modify a GAL, run the following command:
 Set-GlobalAddressList -Identity <GALIdentity>] [-Name <Name>] [<Precanned recipient filter | Custom recipient filter>]
 ```
 
-When you modify the precanned Conditional parameter values, you can use the following syntax to add or remove values without affecting other existing values: @{Add="<Value1>","<Value2>"...; Remove="<Value1>","<Value2>"...}.
+When you modify the precanned Conditional parameter values, you can use the following syntax to add or remove values without affecting other existing values: 
+```PowerShell
+@{Add="<Value1>","<Value2>"...; Remove="<Value1>","<Value2>"...}
+```
 
 ## Create a global address list in Exchange Online
 
