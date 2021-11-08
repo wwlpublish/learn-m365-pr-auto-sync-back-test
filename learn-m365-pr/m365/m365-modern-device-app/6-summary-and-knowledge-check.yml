@@ -5,7 +5,7 @@ metadata:
   title: Summary and knowledge check
   description: Review the four-step deployment process and readiness assessment tools
   ms.date: 04/15/2020
-  author: temanteleary
+  author: lizap
   ms.author: teleary
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
@@ -15,14 +15,18 @@ content: |
 quiz:
     title: Check your knowledge
     questions:
-    - content: "Any COM add-ins and VBA macros your organization used on previous versions of Office (back to Office 2010) will continue to work on the latest versions of Office without modification."
+    - content: "Your enterprise is upgrading to Windows 10 and some users are concerned about whether their existing apps will still work.  Which of the following is true?"
       choices:
-      - content: "True"
+      - content: "All legacy apps typically work without modification, however consider performing some testing and validation before rollout."
         isCorrect: true
-        explanation: "True. Any COM add-ins and VBA macros your organization used on previous versions of Office (back to Office 2010) will continue to work on the latest versions of Office without modification."
-      - content: "False"
+        explanation: "True. Any COM add-ins and VBA macros your organization used on previous versions of Office (back to Office 2010) will typically continue to work on the latest versions of Office without modification but some testing and validation should be done."
+      - content: "All legacy apps typically work without modification. No testing is required."
         isCorrect: false
-        explanation: "False. Any COM add-ins and VBA macros your organization used on previous versions of Office (back to Office 2010) will continue to work on the latest versions of Office without modification."
+        explanation: "False. Any COM add-ins and VBA macros your organization used on previous versions of Office (back to Office 2010) typically continue to work on the latest versions of Office without modification but some testing and validation is still required."
+       content: "Legacy apps typically work not work on Windows 10 without some modification."
+        isCorrect: false
+        explanation: "False. Any COM add-ins and VBA macros your organization used on previous versions of Office (back to Office 2010) typically continue to work on the latest versions of Office without modification."
+      
       
     - content: "In the first step of the readiness process, which tools are used to create an inventory?"
       choices:
