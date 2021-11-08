@@ -3,7 +3,7 @@ uid: learn.wwl.configure-auto-attendants-call-queues
 metadata:
   title: Configure auto attendants and call queues
   description: "Understand how auto attendants and call queues in Microsoft Teams can interact with callers to ensure they're connected your agents as quickly as possible. You'll also learn how to setup auto attendants and call queues."
-  ms.date: 11/05/2021
+  ms.date: 11/08/2021
   author: wwlpublish
   ms.author: dahans
   ms.topic: interactive-tutorial
