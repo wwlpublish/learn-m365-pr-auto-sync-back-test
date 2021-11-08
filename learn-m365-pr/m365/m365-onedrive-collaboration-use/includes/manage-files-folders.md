@@ -16,7 +16,7 @@ When users want to change the ownership of files, they move or copy them between
 
 :::image type="content" source="../media/copy-move.png" alt-text="Users can copy and move files via File Explorer or Finder on Mac if they are synced to their computer":::
 
-They can move or copy up to 500 MB of files and folders at a time using a browser. When they copy a document, only the latest version is copied. To keep earlier versions, they need to move the file, or copy each version.
+They can move or copy up to 500 MB of files and folders at a time using a browser. When they copy a document, _only_ the latest version is copied. To keep earlier versions, they need to move the file, or copy each version.
 
 ## Restoring deleted files, folders, or previous versions of a file in OneDrive
 
