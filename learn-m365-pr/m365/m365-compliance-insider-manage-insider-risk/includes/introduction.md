@@ -38,7 +38,7 @@ Protecting the privacy of users that have policy matches is important and can he
 - **Show anonymized versions of usernames:** Usernames are anonymized to prevent admins, data investigators, and reviewers from seeing who is associated with policy alerts. For example, a user 'Grace Taylor' would appear with a randomized pseudonym such as 'AnonIS8-988' in all areas of the insider risk management experience. Choosing this setting anonymizes all users with current and past policy matches and applies to all policies. If you choose to turn off this setting, usernames and user profile information will be displayed for all users that have current or past policy matches.
 - **Do not show anonymized versions of usernames:** Usernames and user profile information such as name, title, alias, and organization or department is displayed for the user for all insider risk management alerts and cases.
 
-:::image type="content" source="../media/privacy-setting.png" alt-text="Privacy setting" lightbox=""../media/privacy-setting.png":::
+:::image type="content" source="../media/privacy-setting.png" alt-text="Privacy setting" lightbox="../media/privacy-setting.png":::
 
 ### Indicators
 
