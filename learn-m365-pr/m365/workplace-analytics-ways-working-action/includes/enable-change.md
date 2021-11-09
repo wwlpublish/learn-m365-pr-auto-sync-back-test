@@ -153,7 +153,7 @@ After identifying an opportunity, the manager can take action by enrolling team 
 
 **Enable Plans**: Workplace Analytics analysts, limited analysts, and program managers can create a plan by visiting the **Plans** section of Workplace Analytics.
 
-:::image type="content" source="../media/create-a-plan.png" alt-text="Enable Plans" lightbox="content" source="../media/create-a-plan.png":::
+:::image type="content" source="../media/create-a-plan.png" alt-text="Enable Plans" lightbox="../media/create-a-plan.png":::
 
 **Enable Insights for People Managers**: Workplace Analytics admins can assign manager roles on the Settings page.
 
