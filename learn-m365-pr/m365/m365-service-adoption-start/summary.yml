@@ -19,7 +19,7 @@ quiz:
       choices:
       - content: "Being the chief cheerleader for the new technology."
         isCorrect: false
-        explanation: "No, your main goal wis not to be the cheerleader for the project."
+        explanation: "No, your main goal is not to be the cheerleader for the project."
       - content: "Finding and nurturing a community of people who provide peer guidance and training on the new experience."
         isCorrect: true
         explanation: "Yes, your main goal with the Champions program is to create a community of people to help with the service rollout."
