@@ -25,7 +25,7 @@ Direct Routing may be right for your organization if:
 
 ## What other options are available?
 
-:::image type="content" source="../media/2-teams-direct-routing.png" alt-text="Direct Routing and Teams":::
+:::image type="content" source="../media/2-teams-direct-routing.png" alt-text="Direct Routing and Teams" lightbox="../media/2-teams-direct-routing.png":::
 
 Teams Calling Plans is an alternative to Direct Routing. It's available in many, but not all countries. If Teams Calling Plans isn't available in your country, Direct Routing is the alternative.
 
@@ -33,7 +33,7 @@ Teams Calling Plans is an alternative to Direct Routing. It's available in many,
 
 To implement Direct Routing, you must have a certified Session Border Controller (SBC). The SBC connects your PSTN infrastructure to the Microsoft Teams Phone System.
 
-:::image type="content" source="../media/2-teams-direct-routing-architecture.png" alt-text="Direct Routing Architecture":::
+:::image type="content" source="../media/2-teams-direct-routing-architecture.png" alt-text="Direct Routing Architecture" lightbox="../media/2-teams-direct-routing-architecture.png":::
 
 As you can see from the diagram, the SBC can also be used to link to other services, such as a third-party PBX. The SBC might be a piece of software, or virtual controller, hosted in Azure.
 
