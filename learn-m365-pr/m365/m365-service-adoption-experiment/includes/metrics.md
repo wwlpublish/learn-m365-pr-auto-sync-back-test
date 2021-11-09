@@ -6,7 +6,7 @@ Success should always include measures that include the health of the service. P
 
 As you move toward continuous improvement, ever deepening the extent of usage in your organization, you'll continue to add and refine your success measures. Discuss these with your stakeholders to ensure everyone understands what you are measuring and why. Include results from employee surveys (employee sentiment), the number of help desk tickets created, and attendance at virtual or in person training programs as some examples.
 
-|![Activity icon](../media/activity.png) Example activity for Contoso|
+|:::image type="content" source="../media/activity.png" alt-text="Activity icon"::: Example activity for Contoso|
 |-|
 |It's time to document some of your success measure for your end-user pain points. What does success look like for your end users? In the case of Microsoft Teams, a success metric might be a drop in the number of help desk requests to have documents restored from local devices. User surveys might reveal satisfaction with the experience and an increased ability to find and act on information. Use the template Business Outcomes scorecard to document your outcomes according to the four pillars.|
 
