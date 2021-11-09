@@ -4,7 +4,7 @@ In addition to the in-product metrics found through features such as Workplace A
 
 The Ways of working tracker dashboard uses a prebuilt Power BI template populated by output (OData) from a Workplace Analytics query.
 
-:::image type="content" source="../media/collaboration-tracker-query.png" alt-text="Prepare the dashboard":::
+:::image type="content" source="../media/collaboration-tracker-query.png" alt-text="Prepare the dashboard" lightbox="../media/collaboration-tracker-query.png":::
 
 To set up the Ways of working tracker dashboard:
 
@@ -37,7 +37,7 @@ Select this query to open it. Give the query a descriptive name and select your 
 
 After the query has finished running, you can access the Ways of working tracker Power BI template and data via OData URL by clicking the **Results** tab on the Queries page.
 
-:::image type="content" source="../media/load-data-template.png" alt-text="Load the query output":::
+:::image type="content" source="../media/load-data-template.png" alt-text="Load the query output" lightbox="../media/load-data-template.png":::
 
 To load the data into the Ways of working tracker Power BI template:
 
@@ -57,7 +57,7 @@ After you've loaded the data and the report is generated, the dashboard will ope
 - Select from the list of organizational attributes you chose to include in your query. Default attributes are Organization and LevelDesignation, but the list will also include any other organizational attributes selected when you ran the queries.
 - To filter the reports further, select any of the available organizational attributes filter values for the data you'd like to include.
 
-:::image type="content" source="../media/options-settings.png" alt-text="Select your settings in the dashboard":::
+:::image type="content" source="../media/options-settings.png" alt-text="Select your settings in the dashboard" lightbox="../media/options-settings.png":::
 
 After you've selected the settings for the population you'd like to analyze, you can start using the dashboard. The populated Ways of working tracker dashboard includes report pages on how KPIs have changed and evolved over time, and in the last week, differences in collaboration between groups, manager effectiveness, after hours and meeting trends, a well-being scorecard, and key opportunity areas.
 
