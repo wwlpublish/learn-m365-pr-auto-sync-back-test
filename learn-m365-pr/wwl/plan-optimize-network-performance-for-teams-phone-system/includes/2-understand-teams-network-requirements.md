@@ -147,7 +147,7 @@ To create a new network plan in Network planner, perform the following steps:
     > [!div class="mx-imgBorder"]
     > [ ![Network planner result showing that Kirkland does not have enough bandwidth](../media/network-planner-results.png) ](../media/network-planner-results.png#lightbox)
 
-The above image shows an example of a network planner report with a link that does not have enough bandwidth, highlighted in red. Any figured highlighted in red indicate areas that need more bandwidth. You can access the reports at any time in the future by going back Network planner in the Microsoft Teams admin center. ****
+The above image shows an example of a network planner report with a link that does not have enough bandwidth, highlighted in red. Any figured highlighted in red indicate areas that need more bandwidth. You can access the reports at any time in the future by going back Network planner in the Microsoft Teams admin center.
 
 After performing the described steps, you have mapped out your network and can plan for any sites or links that may require additional bandwidth.
 

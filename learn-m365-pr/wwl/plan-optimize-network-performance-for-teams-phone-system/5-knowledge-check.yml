@@ -4,7 +4,7 @@ title: Knowledge check
 metadata:
   title: Knowledge check
   description: "Knowledge check"
-  ms.date: 10/04/2021
+  ms.date: 11/08/2021
   author: wwlpublish
   ms.author: dahans
   ms.topic: interactive-tutorial
@@ -43,10 +43,10 @@ quiz:
     choices:
     - content: "Service Connectivity and Network Performance"
       isCorrect: true
-      explanation: "That option is correct. Explanation: The tool tests network connectivity and network performance."
+      explanation: "That option is correct. The tool tests network connectivity and network performance."
     - content: "Only Network Performance"
       isCorrect: false
       explanation: "That option is not correct. The tool tests network connectivity and network performance."
     - content: "Only Network Connectivity"
       isCorrect: false
-      explanation: "That option is not correct. Explanation. The tool tests network connectivity and network performance."
+      explanation: "That option is not correct. The tool tests network connectivity and network performance."

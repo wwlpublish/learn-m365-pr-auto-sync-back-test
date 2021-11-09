@@ -12,7 +12,7 @@ With attack surface reduction rules you can target certain actions that users or
 
 Because Microsoft Defender for Endpoint records events that trigger these rules, you can also use rules to gain more insight into the attacks that you are experiencing, which will help you to stop them.
 
-:::image type="content" source="../media/security-recommendations.png" alt-text="Screenshot of the security recommendations page, showing attack surface reduction rules recommendations." lightbox="../media/security-recommendations.png":::
+:::image type="content" source="../media/security-recommendations.png" alt-text="Screenshot of the security recommendations page, showing attack surface reduction rules recommendations." lightbox="../media/security-recommendations-large.png":::
 
 ## Assess the impact of rules before you deploy them
 
@@ -20,7 +20,7 @@ When you deploy an attack surface reduction rule, your intention is to prevent a
 
 The first step you should take to assess the impact of a rule is to check the security recommendation for that rule in Microsoft Defender for Endpoint, threat and vulnerability management. Each rule has a page describing how it works, the risks it addresses and the potential impact on users.
 
-:::image type="content" source="../media/security-recommendations.png" alt-text="Screenshot of the security recommendations page, showing the impact of attack surface reduction rules." lightbox="../media/security-recommendations.png":::
+:::image type="content" source="../media/security-recommendations.png" alt-text="Screenshot of the security recommendations page, showing the impact of attack surface reduction rules." lightbox="../media/security-recommendations-large.png":::
 
 The second step you should take is to run the new rule in **audit mode**. In this mode, rules are triggered and store information in the event logs but the rule doesn't block the relevant actions. After running the rule in audit mode for a while, you can use logs to determine how often a rule fires, which actions is blocks, and which applications are blocked. You can use this information to determine whether the rule will block legitimate actions and impact productivity.
 
