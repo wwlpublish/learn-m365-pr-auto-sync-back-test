@@ -10,11 +10,11 @@ You can assign various Teams administrator roles to people with different jobs. 
 
 The administrator roles and associated tasks are:
 
-- **Teams Service Administrator** - manages the Teams service, and manages and creates Microsoft 365 Groups.
-- **Teams communications administrator** - manages calling and meetings features within the Teams service.
-- **Teams communications support specialist** - troubleshoots communications issues within Teams by using advanced tools.
-- **Teams communications support engineer** - troubleshoots communications issues within Teams by using basic tools.
-- **Teams device management** - manages the device management capabilities in the Teams Admin Center.
+- **Teams Administrator** - manages the Teams service, and manages and creates Microsoft 365 Groups.
+- **Teams Communications Administrator** - manage calling and meetings features within the Teams service.
+- **Teams Communications Support Engineer** - troubleshoot communications issues within Teams by using advanced tools.
+- **Teams Communications Support Specialist** - troubleshoot communications issues within Teams by using basic tools.
+- **Teams Device Management** - manage devices configured for use with the Teams service.
 
 ## Teams owners and members
 
