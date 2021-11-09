@@ -4,7 +4,7 @@ In addition to the in-product metrics found through features such as Workplace A
 
 The Ways of working tracker dashboard uses a prebuilt Power BI template populated by output (OData) from a Workplace Analytics query.
 
-![Prepare the dashboard](../media/collaboration-tracker-query.png)
+:::image type="content" source="../media/collaboration-tracker-query.png" alt-text="Prepare the dashboard" lightbox="../media/collaboration-tracker-query.png":::
 
 To set up the Ways of working tracker dashboard:
 
@@ -20,7 +20,7 @@ The Ways of working tracker dashboard requires output from a query in Workplace 
 
 In the upper right corner of the Ways of the Ways of working tracker query, you'll notice a Power BI icon. This indicates there's a download option for a Power BI template that you can use to generate the reports in the dashboard.
 
-![The Ways of working tracker query](../media/query-pane.png)
+:::image type="content" source="../media/query-pane.png" alt-text="The Ways of working tracker query":::
 
 > [!IMPORTANT]
 > Be sure to download and install the most recent version of Power BI to avoid issues setting up and loading data into the dashboard.
@@ -37,7 +37,7 @@ Select this query to open it. Give the query a descriptive name and select your 
 
 After the query has finished running, you can access the Ways of working tracker Power BI template and data via OData URL by clicking the **Results** tab on the Queries page.
 
-![Load the query output](../media/load-data-template.png)
+:::image type="content" source="../media/load-data-template.png" alt-text="Load the query output" lightbox="../media/load-data-template.png":::
 
 To load the data into the Ways of working tracker Power BI template:
 
@@ -57,7 +57,7 @@ After you've loaded the data and the report is generated, the dashboard will ope
 - Select from the list of organizational attributes you chose to include in your query. Default attributes are Organization and LevelDesignation, but the list will also include any other organizational attributes selected when you ran the queries.
 - To filter the reports further, select any of the available organizational attributes filter values for the data you'd like to include.
 
-![Select your settings in the dashboard](../media/options-settings.png)
+:::image type="content" source="../media/options-settings.png" alt-text="Select your settings in the dashboard" lightbox="../media/options-settings.png":::
 
 After you've selected the settings for the population you'd like to analyze, you can start using the dashboard. The populated Ways of working tracker dashboard includes report pages on how KPIs have changed and evolved over time, and in the last week, differences in collaboration between groups, manager effectiveness, after hours and meeting trends, a well-being scorecard, and key opportunity areas.
 
@@ -71,7 +71,7 @@ The Ways of working tracker contains key components that you can replicate when 
 
 These outputs can be used to create executive presentations and business-intelligence tools to further drive transformation.
 
-![Opportunity-Action-Impact graph](../media/opportunity-action-impact.png)
+:::image type="content" source="../media/opportunity-action-impact.png" alt-text="Opportunity-Action-Impact graph":::
 
 It's important to note that driving change is often a journey that consists of using Workplace Analytics to identify the opportunity, designing tactics to take action, and measuring impact. These steps allow you to continuously make progress on realizing your key business outcomes.
 
