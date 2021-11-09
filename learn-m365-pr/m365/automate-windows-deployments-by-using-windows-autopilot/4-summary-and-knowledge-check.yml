@@ -47,10 +47,10 @@ quiz:
         explanation: "That's correct. Devices can be updated by IT departments or OEMs, and then are sent directly to end-users."
       - content: "Devices are cleaned and refurbished by the IT department, then sent on to the end-user."
         isCorrect: false
-        explanation: "That's incorrect. White glove deployments are for brand new devices, not refurbished ones."
+        explanation: "That's incorrect. Pre-provisioned deployments are for brand new devices, not refurbished ones."
       - content: "Devices are hand delivered to end-users, and the IT department can install additional software if requested."
         isCorrect: false
-        explanation: "That's incorrect. White glove deployments don't involve hand delivery."
+        explanation: "That's incorrect. Pre-provisioned deployments don't involve hand delivery."
     - content: "Before deploying a device using Windows Autopilot, which of the following must be done?"
       choices:
       - content: "The device must be registered with the Windows Autopilot deployment service."
