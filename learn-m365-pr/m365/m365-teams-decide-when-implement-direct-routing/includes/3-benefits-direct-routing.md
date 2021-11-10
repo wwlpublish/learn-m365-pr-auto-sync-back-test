@@ -15,7 +15,7 @@ Telephone contracts normally run for several years. If you have an existing cont
 
 ## Single DIDs
 
-If users in your organization have their own direct inward dial numbers (DIDs), and this is a feature you want to keep, Direct Routing allows you to do this. Everyone keeps their existing phone number.
+If users in your organization have their own direct inward dial numbers (DIDs), and this is a feature you want to keep, Direct Routing allows you to replace this functionality. Everyone keeps their existing phone number.
 
 ## Reduced hardware footprint
 

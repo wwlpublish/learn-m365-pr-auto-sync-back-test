@@ -4,4 +4,4 @@ By the end of this module, you'll be able to:
 
 - Understand attack surface reduction in Microsoft Defender for Endpoint.
 - Understand the different kinds of surface attack reduction protection in Microsoft Defender for Endpoint.
-- Understand attack surface reduction rules
+- Understand attack surface reduction rules.

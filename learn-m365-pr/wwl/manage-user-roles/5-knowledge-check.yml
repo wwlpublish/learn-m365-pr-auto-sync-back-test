@@ -1,0 +1,52 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.manage-user-roles.knowledge-check
+title: Knowledge check
+metadata:
+  title: Knowledge check
+  description: "Knowledge check"
+  ms.date: 11/08/2021
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 6
+content: |
+  [!include[](includes/5-knowledge-check.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "As the Messaging admin for Lucerne Publishing, Patti Fernandez wants to create explicit assignment policies. How should Patti create these policies?"
+    choices:
+    - content: "Using the Microsoft 365 Defender portal"
+      isCorrect: false
+      explanation: "That's incorrect. The Microsoft 365 Defender portal isn't used to create explicit assignment policies. Try again."
+    - content: "Using the Exchange admin center (EAC)"
+      isCorrect: true
+      explanation: "That's correct. You can only create explicit assignment policies using the EAC. If you want to create a new default assignment policy, you must use the Exchange Management Shell."
+    - content: "Using the Exchange Management Shell (EMS)"
+      isCorrect: false
+      explanation: "That's incorrect. The EMS must be used to create a new default assignment policy. Try again."
+  - content: "As the Messaging admin for Tailspin Toys, Alan Deyoung is planning the company's role assignment policies. In doing so, Alan has realized that the default role assignment policy isn't enough to fulfill all of Tailspin's business requirements. When this situation occurs, an organization has three options that it can choose from to address the issue. Which of the following items is one of those options?"
+    choices:
+    - content: "Create a new role assignment policy from the built-in roles and assign it to role groups"
+      isCorrect: false
+      explanation: "That's incorrect. One of the options is to Create a new role assignment policy from the built-in roles and assign it to individual users - not to role groups. Try again."
+    - content: "Create new end-user roles and add them to role groups"
+      isCorrect: false
+      explanation: "That's incorrect. One of the options is to create new end-user roles and add them to a role assignment policy - not to role groups. Try again."
+    - content: "Add or remove user roles from the default role assignment policy"
+      isCorrect: true
+      explanation: "That's correct. This item is one of the options that an organization can choose from. The other two options are: Create a new role assignment policy from the built-in roles and assign it to individual users, and Create new end-user roles and add them to a role assignment policy."
+  - content: "As a best practice, what should the default role assignment policy contain?"
+    choices:
+    - content: "The permissions that apply to the organization's broadest set of users"
+      isCorrect: true
+      explanation: "That's correct. As a best practice, the default role assignment policy that an organization uses should contain the permissions that apply to its broadest set of users."
+    - content: "The Organization Management role group"
+      isCorrect: false
+      explanation: "That's incorrect. The default role assignment policy shouldn't contain the Organization Management role group. Try again."
+    - content: "The organization's default universal security group (USG)"
+      isCorrect: false
+      explanation: "That's incorrect. There's no such object as a default universal security group. Try again."

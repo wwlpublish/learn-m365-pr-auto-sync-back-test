@@ -1,0 +1,9 @@
+In this module, you examined how to manage user roles using built-in role assignment policies and management role assignment policies. You also learned how to create new roles, role assignments, and scopes.
+
+RBAC is primarily designed for delegating and managing administrative permissions. But in Exchange it's also used to assign self-service permissions to end users. You learned that by allowing users to manage some of their own user attributes and even run basic diagnostics on their own mailbox, you can reduce the work of your HelpDesk.
+
+This module explored how Exchange environments include built-in management role groups. They also include default role assignment policies and built-in user roles for managing end-user activities within Exchange. You learned about the built-in user roles that are available in RBAC to support an organization's Exchange environment.
+
+The module recommended that an organization's default role assignment policy should contain the permissions that apply to its broadest set of users. However, because the default role assignment policy isn't always enough to fulfill all the business requirements for a company, organizations must sometimes create role assignment policies for each of its specialized user groups. These policies should be tailored to grant more or less restrictive permissions to them based on the company's business requirements.
+
+The module concluded by examining how to create role assignment policies for specialized user groups. These policies should be tailored to grant more or less restrictive permissions to them based on the company's business requirements. You learned that organizations can only create explicit assignment policies using the Exchange Administration Center (EAC). If they want to create a new default assignment policy, they must use the Exchange Management Shell.

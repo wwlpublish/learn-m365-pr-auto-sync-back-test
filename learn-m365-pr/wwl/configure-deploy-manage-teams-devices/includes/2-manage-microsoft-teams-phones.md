@@ -75,4 +75,3 @@ After creating a configuration profile for a Teams device type, assign it to one
 The devices in scope of a configuration profile will be automatically configured with the setting defined. This may take several hours to take effect.
 
 To validate the configuration has applied, select the device within the Endpoint Manager admin center, then choose **Device Configuration** to and examine the **State**.
-

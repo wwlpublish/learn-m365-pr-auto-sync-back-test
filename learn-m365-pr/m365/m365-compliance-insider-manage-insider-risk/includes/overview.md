@@ -2,7 +2,7 @@ In March of 2019, a large auto manufacturer with state-of-the-art, proprietary o
 
 Trusting employees is key to fostering a dynamic and productive workplace. But with trust also comes risk. Companies need to be able to quickly identify and manage risk from insiders (employees or contractors with corporate access) to minimize the negative impact to their business. Insider threats and risks from illegal, inappropriate, unauthorized, or unethical behavior and actions are a major issue for all companies and can easily go undetected until it is too late. A survey by Crowd Research Partners in 2018 indicated that 90% of organizations feel vulnerable to insider risks and 53% confirmed insider risks against their organization in the previous 12 months. According to a Carnegie Mellon CERT study, 92% of insider threat cases were preceded by a negative work event, such as a termination, demotion, or dispute with a supervisor. And in 2016, Deloitte reported that 59% of employees who leave an organization voluntarily or involuntarily say they take sensitive data with them and that 51% of employees involved in an insider threat incident had a history of violating IT security policies leading up to the incident.
 
-![Path to insider risk](../media/path-to-insider-risk.png)
+:::image type="content" source="../media/path-to-insider-risk.png" alt-text="Path to insider risk":::
 
 The financial impact of insider threats is substantial, as companies suffer market, legal, reputational, and productivity losses. According to the Ponemon Institute, the average cost of an insider incident arising from negligence is over USD307,000. If the insider is malicious, it's over USD750,000. Aside from financial loss, the impacts of insider risk can include damage to brand and reputation, competitive disadvantage, noncompliance with regulations, and loss of market share.
 
@@ -27,7 +27,7 @@ Watch the video below to learn how insider risk management can help your organiz
 
 Managing and minimizing risk in your organization starts with understanding the types of risks found in the modern workplace. Some risks are driven by external factors such as bad actors who try to steal employee credentials through brute force or phishing attacks. Other risks are driven by internal events and employee activities that can be eliminated and avoided. Some examples of internal risks from employees include:
 
-![Broad range of risks](../media/broad-range-of-risks.png)
+:::image type="content" source="../media/broad-range-of-risks.png" alt-text="Broad range of risks":::
 
 - Intellectual property (IP) theft
 - Espionage
@@ -43,7 +43,7 @@ Insider risks vary by industry. In healthcare, internal fraud is the most freque
 
 The path leading to a malicious insider risk varies. It may be an employee who has a history of violating IT security policies, a negative work event such as termination or a dispute with a supervisor, or employees who take sensitive data before leaving the company voluntarily or involuntarily.
 
-![Examples of common insider risks](../media/examples-common-insider-risks.png)
+:::image type="content" source="../media/examples-common-insider-risks.png" alt-text="Examples of common insider risks":::
 
 ## Common insider risk scenarios
 
@@ -59,7 +59,7 @@ Using policy templates with pre-defined conditions and comprehensive activity si
 
 Identifying and resolving internal risk activities and compliance issues with insider risk management in Microsoft 365 uses the following workflow:
 
-![Insider risk management workflow](../media/insider-risk-management-workflow.png)
+:::image type="content" source="../media/insider-risk-management-workflow.png" alt-text="Insider risk management workflow" lightbox="../media/insider-risk-management-workflow.png":::
 
 **1. Policies.** Insider risk management policies determine which employees are in-scope and which types of risk indicators are configured for alerts.
 
