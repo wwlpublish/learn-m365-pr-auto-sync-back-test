@@ -11,7 +11,7 @@ Data in Teams resides in the geographic region associated with your Microsoft 36
 
 Your Teams data is stored differently depending on the content type.
 
-:::image type="content" source="../media/3-data-at-rest.png" alt-text="Location of Teams data at rest":::
+:::image type="content" source="../media/3-data-at-rest.png" alt-text="Location of Teams data at rest" border="false":::
 
 ## Learn more
 
