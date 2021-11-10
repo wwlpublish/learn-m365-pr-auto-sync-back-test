@@ -18,7 +18,7 @@ Office applications are delivered and managed via the **Office Deployment Tool**
 
 If you use Configuration Manager, you can use it for broad deployment of Microsoft 365 Apps. Configuration Manager has native support for the updated Office Customization Tool, package customization for Click-to-Run at install time, and native support for software update management after installation. 
 
-:::image type="content" source="../media/step-3-office-and-lob-app-delivery-media-6-50.png" alt-text="Screenshot of the Configuration Manager Deployment Settings":::
+:::image type="content" source="../media/step-3-office-and-lob-app-delivery-media-6-50.png" alt-text="Screenshot of the Configuration Manager Deployment Settings" lightbox="../media/step-3-office-and-lob-app-delivery-media-6-50.png":::
 
 ## Deploy Office using Intune
 
