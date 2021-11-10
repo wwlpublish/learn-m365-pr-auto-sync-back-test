@@ -4,9 +4,9 @@ Having completed this module, you're now able to describe Microsoft Cloud App Se
 
 Now that you've completed this module, you should be able to:
 
-- Describe MCAS
-- Select an appropriate licensing option
-- Access the MCAS tech community
+- Describe MCAS.
+- Select an appropriate licensing option.
+- Access the MCAS tech community.
 
 ## Learn more
 
