@@ -84,7 +84,7 @@ Assign the desktop application group to a non-administrative user account that's
 1. Select the desktop application group.
 1. Select **Access control (IAM)** > **Add** > **Add role assignment**.
 1. For **Role**, select **Desktop Virtualization User** and select **Next**.
-1. Next to Members, select **+ Select Members**. Find and select the name of a non-administrative user account that's in Active Directory and select **Select**.
+1. Beside Members, select **+ Select Members**. Find and select the name of a non-administrative user account that's in Active Directory and select **Select**.
 1. Select **Next**.
 1. Select **Review + Assign**.
 
