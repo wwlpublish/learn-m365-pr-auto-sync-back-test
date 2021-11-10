@@ -13,14 +13,14 @@ You can customize any of these DLP templates or use them as-is. DLP policy templ
 
 1. In the EAC, go to **Compliance management > Data loss prevention**, and then click **Add**.
 
-2. Enter a name and description for the new policy.
-3. Choose the template you want to use for this policy.
-4. Select the mode or state. The new policy is not fully enabled until you specify that it should be. The default mode for a policy is **test without notifications**.
-5. Click **Save** to finish creating the policy.
+1. Enter a name and description for the new policy.
+1. Choose the template you want to use for this policy.
+1. Select the mode or state. The new policy is not fully enabled until you specify that it should be. The default mode for a policy is **test without notifications**.
+1. Click **Save** to finish creating the policy.
 
-In addition to the rules including in a specific template, your organization may have additional expectations or company policies that apply to regulated data in your messaging environment. You can modify the basic templates to add actions so that your Exchange messaging environment complies with your own requirements.
+In addition to the rules included in a specific template, your organization may have additional expectations or company policies that apply to regulated data in your messaging environment. You can modify the basic templates to add actions so that your Exchange messaging environment complies with your own requirements.
 
-After you save this new rule, you can edit the rules within the rule. For example, you might make specific people exempt from a policy. Another example is sending a notice and blocking delivery for any messages with sensitive content.
+After you save this new policy, you can edit the rules within the policy. For example, you might make specific people exempt from a policy. Another example is sending a notice and blocking delivery for any messages with sensitive content.
 
 Some policies allow the addition of rules that invoke RMS for messages. You must have RMS configured on the Exchange server before adding the actions to make use of these types of rules.
 For any of the DLP policies, you can change the rules, actions, exceptions, enforcement time period or whether other rules within the policy are enforced, and you can add your own custom conditions for each.
@@ -53,7 +53,7 @@ Policy Tips are informative notices that are displayed to email senders while th
 
 To show Policy Tips to your email senders, add the **Notify the sender with a Policy Tip** action to your DLP policy rules. You can add this in the rules editor from the Exchange admin center.
 
-You can add different types of Policy Tips - notify-only, block-message, or block-unless-override. 
+You can add different types of Policy Tips - notify-only, block-message, or block-unless-override.
 
 ### Create a notify-only Policy Tip to alert a user about sensitive information
 
