@@ -15,45 +15,48 @@ content: |
 quiz:
     title: Check your knowledge
     questions:
-    - content: "Microsoft 365 Apps is available in both 32-bit and 64-bit versions - it doesn't matter which version you install."
+    - content: "Microsoft 365 Apps is available in both 32-bit and 64-bit versions. Which version should you install?"
       choices:
-      - content: "True"
+      - content: "You should always install the 32-bit version."
         isCorrect: false
-        explanation: "No. Microsoft 365 Apps *is* available in both 32-bit and 64-bit versions, but we recommend using the 64-bit version unless you have 32-bit dependencies."
-      - content: "False"
+        explanation: "That's incorrect. 32-bit isn't always the best version to install."
+      - content: "You should always install the 64-bit version."
+        isCorrect: false
+        explanation: "That's incorrect. 64-bit isn't always the best version to install."
+      - content: "Install the 64-bit version unless you have 32-bit dependencies."
         isCorrect: true
-        explanation: "Correct. Microsoft 365 Apps *is* available in both 32-bit and 64-bit versions, but we recommend using the 64-bit version unless you have 32-bit dependencies."
+        explanation: "That's correct. Microsoft 365 Apps *is* available in both 32-bit and 64-bit versions, but we recommend using the 64-bit version unless you have 32-bit dependencies."
     - content: "Microsoft 365 Apps and Office 2019 clients use which installation technology?"
       choices:
       - content: "UWP"
         isCorrect: false
-        explanation: "No, Microsoft 365 Apps and Office 2019 clients use Click-to-Run installation technology."
+        explanation: "That's incorrect, Microsoft 365 Apps and Office 2019 clients use Click-to-Run installation technology."
       - content: "Click-to-Run"
         isCorrect: true
-        explanation: "Correct, Microsoft 365 Apps and Office 2019 clients use Click-to-Run installation technology."
+        explanation: "That's correct, Microsoft 365 Apps and Office 2019 clients use Click-to-Run installation technology."
       - content: "MSIX"
         isCorrect: false
-        explanation: "No, Microsoft 365 Apps and Office 2019 clients use Click-to-Run installation technology."
-    - content: "Which of the following tools does NOT work with MSI-based packages?"
+        explanation: "That's incorrect, Microsoft 365 Apps and Office 2019 clients use Click-to-Run installation technology."
+    - content: "Which of the following distribution tools does **NOT** work with MSI-based packages?"
       choices:
       - content: "System Center Configuration Manager"
         isCorrect: false
-        explanation: "No. Configuration Manager is one of the most common tools used to deliver MSI-based applications."
+        explanation: "That's incorrect. Configuration Manager is one of the most common tools used to deliver MSI-based applications."
       - content: "Desktop App Assure"
         isCorrect: false
-        explanation: "No. Desktop App Assure is a program that fixes incompatible business apps at no cost to you - it's not a distribution tool."
+        explanation: "That's incorrect. Desktop App Assure is a program that fixes incompatible business apps at no cost to you - it's not a distribution tool."
       - content: "Office Deployment Tool"
         isCorrect: true
-        explanation: "Correct. The Office Deployment Tool doesn't work with MSI-based packages to deliver your business apps. It's used to install Click-to-Run packages of Office."
+        explanation: "That's correct. The Office Deployment Tool doesn't work with MSI-based packages to deliver your business apps. It's used to install Click-to-Run packages of Office."
     - content: "Which approach would you use to deliver business apps?"
       choices:
       - content: "Application deployment in Configuration Manager"
         isCorrect: true
-        explanation: "Yes. Use Configuration Manager to deploy your business apps."
+        explanation: "That's correct. Use Configuration Manager to deploy your business apps."
       - content: "Click-to-Run"
         isCorrect: false
-        explanation: "No. Use Click-to-Run to package and install Office, not your business apps."
+        explanation: "That's incorrect. Use Click-to-Run to package and install Office, not your business apps."
       - content: "Offline package injection"
         isCorrect: false
-        explanation: "No. Use Configuration Manager, Microsoft Intune, and other software distribution tools to deploy business apps. You can use package injection into offline images to keep drivers, features, and a limited number of application runtimes up to date, but not apps themselves."
+        explanation: "That's incorrect. Use Configuration Manager, Microsoft Intune, and other software distribution tools to deploy business apps. You can use package injection into offline images to keep drivers, features, and a limited number of application runtimes up to date, but not apps themselves."
       
