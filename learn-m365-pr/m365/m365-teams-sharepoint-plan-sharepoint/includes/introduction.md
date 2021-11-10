@@ -14,7 +14,7 @@ SharePoint sites consist of three different site types:
 
 ### Team sites
 
-Team sites are collaboration sites for each project team, department, and division in your organization. Team sites provide document storage and sharing, and support for custom lists, workflow integration with Microsoft Flow, file libraries, and direct integration with Microsoft Teams.
+Team sites are collaboration sites for each project team, department, and division in your organization. Team sites provide document storage and sharing, and support for custom lists, workflow integration with Power Automate, file libraries, and direct integration with Microsoft Teams.
 
 ### Communication sites
 

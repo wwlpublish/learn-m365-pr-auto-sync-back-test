@@ -19,35 +19,35 @@ quiz:
       choices:
       - content: "Managing sites and permissions"
         isCorrect: true
-        explanation: "Managing sites and permissions are the primary activities of a SharePoint administrator."
+        explanation: "That's correct. Managing sites and permissions are the primary activities of a SharePoint administrator."
       - content: "Managing guest access in Teams"
         isCorrect: false
-        explanation: "Managing sites and permissions are the primary activities of a SharePoint administrator."
+        explanation: "That's incorrect. Managing sites and permissions are the primary activities of a SharePoint administrator."
       - content: "Managing Microsoft 365 Groups governance features"
         isCorrect: false
-        explanation: "Managing sites and permissions are the primary activities of a SharePoint administrator."
+        explanation: "That's incorrect. Managing sites and permissions are the primary activities of a SharePoint administrator."
 
     - content: "Which type of SharePoint site is integrated with a Microsoft 365 Group by default?"
       choices:
       - content: "Communication sites"
         isCorrect: false
-        explanation: "Team sites are integrated with Microsoft 365 Groups by default. Team site permissions can be managed by adding users to or removing them from the group."
+        explanation: "That's incorrect. Team sites are integrated with Microsoft 365 Groups by default. Team site permissions can be managed by adding users to or removing them from the group."
       - content: "Team sites"
         isCorrect: true
-        explanation: "Team sites are integrated with Microsoft 365 Groups by default. Team site permissions can be managed by adding users to or removing them from the group."
+        explanation: "That's correct. Team sites are integrated with Microsoft 365 Groups by default. Team site permissions can be managed by adding users to or removing them from the group."
       - content: "Hub sites"
         isCorrect: false
-        explanation: "Team sites are integrated with Microsoft 365 Groups by default. Team site permissions can be managed by adding users to or removing them from the group."
+        explanation: "That's incorrect. Team sites are integrated with Microsoft 365 Groups by default. Team site permissions can be managed by adding users to or removing them from the group."
       
     - content: "Which of the following statements is true?"
       choices:
       - content: "SharePoint team sites require careful management of inheritance and permission levels."
         isCorrect: false
-        explanation: "Microsoft Teams provides a hub for collaboration by bringing together all the Microsoft 365 group-related services, including a SharePoint team site, an instance of Planner, a mailbox, and a shared calendar. While you can manage permission levels and inheritance in SharePoint, it's not required. We recommend managing team site permissions through the associated Microsoft 365 Group."
+        explanation: "That's incorrect. Microsoft Teams provides a hub for collaboration by bringing together all the Microsoft 365 group-related services, including a SharePoint team site, an instance of Planner, a mailbox, and a shared calendar. While you can manage permission levels and inheritance in SharePoint, it's not required. We recommend managing team site permissions through the associated Microsoft 365 Group."
       - content: "Tight integration between communication sites and Teams provides a safe collaboration environment for Microsoft 365 users."
         isCorrect: false
-        explanation: "Microsoft Teams provides a hub for collaboration by bringing together all the Microsoft 365 group-related services, including a SharePoint team site, an instance of Planner, a mailbox, and a shared calendar."
+        explanation: "That's incorrect. Microsoft Teams provides a hub for collaboration by bringing together all the Microsoft 365 group-related services, including a SharePoint team site, an instance of Planner, a mailbox, and a shared calendar."
       - content: "Microsoft Teams provides a hub for collaboration that includes a SharePoint team site and other Microsoft 365 services all connected through a Microsoft 365 Group."
         isCorrect: true
-        explanation: "Microsoft Teams provides a hub for collaboration by bringing together all the Microsoft 365 group-related services, including a SharePoint team site, an instance of Planner, a mailbox, and a shared calendar."
+        explanation: "That's correct. Microsoft Teams provides a hub for collaboration by bringing together all the Microsoft 365 group-related services, including a SharePoint team site, an instance of Planner, a mailbox, and a shared calendar."
       
