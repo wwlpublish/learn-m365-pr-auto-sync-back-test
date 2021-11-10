@@ -40,7 +40,7 @@ quiz:
       - content: "For end-user device deployment where networks are not accessible."
         isCorrect: false
         explanation: "That's incorrect."
-    - content: "What happens to a device when it goes through  Pre-provisioned deployment using Windows Autopilot?"
+    - content: "What happens to a device when it goes through  pre-provisioned deployment using Windows Autopilot?"
       choices:
       - content: "Devices are pre-provisioned by the IT department or the Original Equipment Manufacturer (OEM), before being sent directly to the end-user."
         isCorrect: true
