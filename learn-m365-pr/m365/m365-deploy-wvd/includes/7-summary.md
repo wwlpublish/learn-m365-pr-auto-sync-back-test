@@ -1,4 +1,4 @@
-In this module, you learned how to deploy Azure Virtual Desktop in your environment. We reviewed the options to provision an Azure Virtual Desktop host pool and how to use app groups to share apps with your users. Specifically you learned how to:
+In this module, you learned how to deploy Azure Virtual Desktop in your environment. We reviewed the options to provision an Azure Virtual Desktop host pool and how to use app groups to share apps with your users. Specifically, you learned how to:
 
 - Create an Azure Virtual Desktop host pool and workspace
 - Make a desktop and apps available to users by using application groups
