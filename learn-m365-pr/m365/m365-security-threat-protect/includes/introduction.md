@@ -8,7 +8,7 @@ The following capabilities are enabled with Microsoft Defender for Endpoint:
 - Attack surface reduction eliminates risky or unnecessary surface areas and restricts dangerous code from running.
 - Advanced protection uses machine learning and deep analysis to protect against file-based malware.
 - Endpoint detection and response monitors behaviors and attacker techniques to detect and respond to advanced attacks.
-- leverage artificial intelligence to automatically investigate alerts and remediate complex threats in minutes.
+- Leverage artificial intelligence to automatically investigate alerts and remediate complex threats in minutes.
 - Microsoft threat experts bring deep knowledge and proactive threat hunting to your security operations Center.
 
 Microsoft Defender for Endpoint uses the following combination of technologies built into Windows 10 and Microsoft's robust cloud service:

@@ -1,6 +1,6 @@
 The files and folders stored in OneDrive are private until the owner decides to share them. The sharing UI in OneDrive is the same across all Microsoft 365 services, including SharePoint, File Explorer, Mac Finder, Outlook, etc. The module, *Plan & configure external sharing in OneDrive*, describes how you as an admin can configure what users see in the sharing experience.
 
-![File sharing UI](../media/link-settings.png)
+:::image type="content" source="../media/link-settings.png" alt-text="File sharing UI":::
 
 Users share files in OneDrive by sharing links. Links are automatically created whenever a user shares a file or folder. The type of link the user chooses determines who the link will work for. Sharing also manages the direct permission of the files. When users share a file or folder, the user sharing retains management of the links that are created. The users who are shared to, cannot manage the created sharing links.
 
@@ -21,7 +21,7 @@ Once the user determines who they want to share with, they can select different 
 
 Users can also share files and folders through Outlook, Office apps, the OneDrive mobile app in iOS and Android, SharePoint, and even File Explorer or Mac Finder for files synced to their computer. All offer the same user experience.
 
-![Users can share files and folders through Outlook, Office apps, the OneDrive mobile app in iOS and Android, SharePoint, File Explorer or Mac Finder for files synced to their computer](../media/change-permissions.png)
+:::image type="content" source="../media/change-permissions.png" alt-text="Users can share files and folders through Outlook, Office apps, the OneDrive mobile app in iOS and Android, SharePoint, File Explorer or Mac Finder for files synced to their computer":::
 
 Outlook offers an experience called modern attachments that helps guide users through a seamless sharing of OneDrive files just as if they were email attachments. This feature provides a familiar sharing experience but centralizes storage of attachments in OneDrive, providing collaborative benefits such as version control that are typically lost when users email documents back and forth. In addition, you can configure sharing permissions for files directly from within Outlook.
 
@@ -29,7 +29,7 @@ Outlook offers an experience called modern attachments that helps guide users th
 
 OneDrive provides a way to find files users have both shared and been shared with them. This view is not a folder and users cannot move items in and out of these views. In the left navigation pane, select Shared.
 
-![OneDrive provides a way to find files users have both shared and been shared with them; in the left navigation pane, select Shared](../media/shared-with-me.png)
+:::image type="content" source="../media/shared-with-me.png" alt-text="OneDrive provides a way to find files users have both shared and been shared with them; in the left navigation pane, select Shared":::
 
 If the owner of the original file revokes access or deletes the original file, it will disappear from the Shared view of anyone they shared it with.
 
@@ -39,16 +39,16 @@ The file owner can stop or change the sharing permissions at any time.
 
 Once they select a file or folder they want to change sharing settings for, they click on the details pane and select Manage access:
 
-![File owners can stop or change the sharing permissions at any time by clicking on the details pane and select Manage access](../media/manage-access.png)
+:::image type="content" source="../media/manage-access.png" alt-text="File owners can stop or change the sharing permissions at any time by clicking on the details pane and select Manage access":::
 
 The manage access panel opens and they have a collection of options for either **Links Giving Access** or **Direct Access**.
 
 - **Links Giving Access** shows the links that have permissions to the file or folder. Click the ellipsis (…) to see users who the link has been shared with.
 
-   ![Click the ellipsis (…) to see users who the link has been shared with](../media/shared-with.png)
+   :::image type="content" source="../media/shared-with.png" alt-text="Click the ellipsis (…) to see users who the link has been shared with":::
 - The **Direct Access** section shows people and groups who have been granted access directly to the file or folder. (This includes groups that have access to the site where the file or folder resides.)
 
-   ![People and groups who have been granted access directly to the file or folder](../media/stop-sharing.png)
+   :::image type="content" source="../media/stop-sharing.png" alt-text="People and groups who have been granted access directly to the file or folder":::
 
 Owners can change permissions between view and edit.
 

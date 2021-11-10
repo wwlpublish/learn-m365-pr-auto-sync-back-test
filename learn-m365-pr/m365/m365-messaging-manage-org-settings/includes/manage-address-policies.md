@@ -1,6 +1,6 @@
 Address book policies (ABPs) let you segment users into specific groups to provide customized views of the organization's global address list (GAL). ABPs provide a simpler mechanism for GAL segmentation (also known as GAL segregation) in orgs that need multiple GALs.
 
-APBs take effect when a user connects to their Exchange Online Mailbox. If you change an ABP, the updated APB takes effect when a user restarts or reconnects their email client app.
+ABPs take effect when a user connects to their Exchange Online Mailbox. If you change an ABP, the updated ABP takes effect when a user restarts or reconnects their email client app.
 
 >[!NOTE]
 > In Exchange Online you have to use PowerShell cmdlets to modify address book policies.
@@ -148,7 +148,10 @@ To modify a GAL, run the following command:
 Set-GlobalAddressList -Identity <GALIdentity>] [-Name <Name>] [<Precanned recipient filter | Custom recipient filter>]
 ```
 
-When you modify the precanned Conditional parameter values, you can use the following syntax to add or remove values without affecting other existing values: @{Add="<Value1>","<Value2>"...; Remove="<Value1>","<Value2>"...}.
+When you modify the precanned Conditional parameter values, you can use the following syntax to add or remove values without affecting other existing values: 
+```PowerShell
+@{Add="<Value1>","<Value2>"...; Remove="<Value1>","<Value2>"...}
+```
 
 ## Create a global address list in Exchange Online
 

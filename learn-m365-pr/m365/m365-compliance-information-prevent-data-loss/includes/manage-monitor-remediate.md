@@ -9,7 +9,7 @@ Navigate to **Microsoft 365 compliance center > Reports** to view the reports.
 
 The image below shows the summary cards for the reports in the Microsoft 365 compliance center.
 
-:::image type="content" source="../media/dlp-reports.png" alt-text="A screenshot of the compliance center shows the DLP reports.":::
+:::image type="content" source="../media/dlp-reports.png" alt-text="Screenshot of the compliance center shows the DLP reports." lightbox="../media/dlp-reports.png":::
 
 Click **View details** to see the data in each report.
 
@@ -25,7 +25,7 @@ The DLP policy matches report shows the count of DLP policy matches over time. Y
 
 This image shows the DLP policy matches report, sorted by services. (You can also choose to sort by policies or by action.)
 
-:::image type="content" source="../media/dlp-policy-matches-report.png" alt-text="A screenshot of the DLP policy matches report.":::
+:::image type="content" source="../media/dlp-policy-matches-report.png" alt-text="Screenshot of the DLP policy matches report." lightbox="../media/dlp-policy-matches-report.png":::
 
 ## DLP incidents
 
@@ -43,7 +43,7 @@ The DLP false positives and overrides shows a count of policy overrides and fals
 
 This image shows the DLP false positives and overrides report. One line in the chart shows false positives and the other shows policy overrides over time. Below the line chart is a list of individual items resulting in false positives and overrides. You can click on each item to examine it further; for example, to see the justification provided for a policy override.
 
-:::image type="content" source="../media/dlp-false-positives.png" alt-text="A screenshot of the DLP false positive and overrides report.":::
+:::image type="content" source="../media/dlp-false-positives.png" alt-text="Screenshot of the DLP false positive and overrides report." lightbox="../media/dlp-false-positives.png":::
 
 ## Learn more
 
