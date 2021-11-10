@@ -19,7 +19,7 @@ The Content Search tool is available in the Microsoft 365 Defender portal. Use t
 1. Go to the Microsoft 365 Defender portal at <https://security.microsoft.com/>, and sign in using your Microsoft 365 credentials.
 1. Click **Search > Content search**.
 1. On the **Search** page, click the arrow next to **+ New search**.
-   ![A screenshot shows the New search dropdown list in the Microsoft 365 Defender portal.](../media/create-new-search.png)
+   :::image type="content" source="../media/create-new-search.png" alt-text="Screenshot shows the New search dropdown list in the Microsoft 365 Defender portal." lightbox="../media/create-new-search.png":::
 1. Choose which kind of search you want to run:
    - **Guided search** - a wizard guides you through your search.
    - **New search** - create a search without the help of the search wizard. This is the default.
@@ -29,7 +29,7 @@ The Content Search tool is available in the Microsoft 365 Defender portal. Use t
 1. Enter the terms you want to search for in **Keywords**. You can use keywords, message properties (like the date a message was sent or received), or document properties (like file name). You can use Boolean operators AND, OR, NOT, and NEAR to create complex queries. If you don't enter any keywords, all content found in the search location is included in the search results.
 1. Add search conditions to narrow your search. Any condition you specify here is connected to the keywords you're searching for. That means that an item has to satisfy both the keyword query **and** the search condition to be included in the results.
 1. Set where to perform the search. You can choose to search all locations or just a subset of locations. If you choose **Specific locations**, you'll be prompted to choose which locations from a list of available locations.
-   ![A screenshot of the content search criteria user interface](../media/content-search-parameters.png)
+   :::image type="content" source="../media/content-search-parameters.png" alt-text="Screenshot of the content search criteria user interface." lightbox="../media/content-search-parameters.png":::
 1. After you've set up your search query, click **Save & run**.
 1. Enter a name and optional description for the search. The name of the search has to be unique in your organization.
 1. Click **Save** to start the search.
