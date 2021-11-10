@@ -31,7 +31,7 @@ If your organization uses Microsoft Intune, you can assign Microsoft 365 Apps ap
 
 View a [video version](https://www.microsoft.com/videoplayer/embed/RE44vA8) of the interactive guide (captions available in more languages).
 
-<a href="https://mslearn.cloudguides.com/guides/Deploy%20Office%20365%20ProPlus%20in%20your%20organization">:::image type="content" source="../media/lab-deploy-office.png" alt-text="A link to play the Deploy Microsoft 365 Apps in your organization video":::</a>
+ [ ![A link to play the Deploy Microsoft 365 Apps in your organization video.](../media/lab-deploy-office.png)](https://mslearn.cloudguides.com/guides/Deploy%20Office%20365%20ProPlus%20in%20your%20organization) ]
 
 > [!NOTE]
 > The video uses "Office 365 ProPlus" instead of "Microsoft 365 Apps." The video will be updated to use the current brand.
