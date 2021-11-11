@@ -4,7 +4,7 @@ Co-management supports the following workloads:
 
 | **Policy**| **Description**|
 | :--- | :--- |
-| **Compliance policies**| Compliance policies define the rules and settings that a device must comply with to be considered compliant by Conditional Access policies. Also use compliance policies to monitor and remediate compliance issues with devices independently of Conditional Access.|
+| **Compliance policies**| Compliance policies define the rules and settings that a device must comply with to be considered compliant by conditional access policies. Also use compliance policies to monitor and remediate compliance issues with devices independently of conditional access.|
 | **Windows Update policies**| Windows Update for Business policies let you configure deferral policies for Windows 10 feature updates or quality updates for Windows 10 devices managed directly by Windows Update for Business.|
 | **Resource access policies**| Resource access policies configure VPN, Wi-Fi, email, and certificate settings on devices.|
 | **Endpoint Protection**| The Endpoint Protection workload includes the Windows Defender suite of antimalware protection features:<ul><li>Windows Defender Antimalware</li><li>Windows Defender Application Guard</li><li>Windows Defender Firewall</li><li>Windows Defender SmartScreen</li><li>Windows Encryption</li><li>Windows Defender Exploit Guard</li><li>Windows Defender Application Control</li><li>Windows Defender Security Center</li><li>Microsoft Defender for Endpoint</li><li>Windows Information Protection</li></ul> |
@@ -13,11 +13,11 @@ Co-management supports the following workloads:
 | **Client apps**| Use Intune to manage client apps and PowerShell scripts on co-managed Windows 10 devices. After you transition this workload, any available apps deployed from Intune are available in the Company Portal. Apps that you deploy from Configuration Manager are available in Software Center.|
 
 > [!NOTE]
-> The supported workloads are updated after each new release of System Center Configuration Manager, check the official documentations on [Co-management workloads](/sccm/comanage/workloads) for updates.
+> The supported workloads are updated after each new release of Microsoft Endpoint Configuration Manager, check the official documentations on [Co-management workloads](/sccm/comanage/workloads) for updates.
 
-### Diagram for app workloads
+This diagram illustrates how the **Office Click-to-Run apps** and **Client apps** workloads interact:
 
-![Diagram for app workloads](../media/co-management-apps.png)
+:::image type="content" source="../media/co-management-apps.png" alt-text="Diagram showing interactions between Office Click-to-Run apps and client apps workloads.":::
 
 ## Paths to co-management
 
