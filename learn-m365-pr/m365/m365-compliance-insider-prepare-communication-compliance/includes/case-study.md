@@ -18,20 +18,20 @@ By default, global administrators do not have access to communication compliance
 1. After selecting **Create**, they give the new role group a friendly name of *Communication compliance* and select **Next**.
 1. They select **Choose roles** and then select **Add**. They add the required roles by selecting the checkbox for **Supervisory Review Administrator**, **Case Management**, **Compliance Administrator**, and **Review**, then they select **Add**, **Done**, and **Next**.
 
-:::image type="content" source="../media/choose-roles.png" alt-text="Screenshot shows Choose roles page. It displays a list of required roles to be added.":::
+:::image type="content" source="../media/choose-roles.png" alt-text="Screenshot shows Choose roles page. It displays a list of required roles to be added." lightbox="../media/choose-roles.png":::
 
 1. Next, the IT administrators select **Choose members** then select **Add**. They select the checkbox for all the users and groups that they want to create policies and manage messages with policy matches. They add the IT administrators, compliance specialists, and other colleagues in Human Resources and Legal departments that they identified in the initial planning, then select **Add**, **Done**, and **Next**.
 
 1. To finalize the permissions, the IT administrators select **Create role group** to finish. It will take about 30 minutes for the roles to be effective in Contoso's Microsoft 365 service.
 
-:::image type="content" source="../media/review-your-settings.png" alt-text="Screenshot shows Review your settings page. The option of Create role group is selected.":::
+:::image type="content" source="../media/review-your-settings.png" alt-text="Screenshot shows Review your settings page. The option of Create role group is selected." lightbox="../media/review-your-settings.png":::
 
 ## Step 2 - Accessing communication compliance in Microsoft 365
 
 After configuring the permissions for communication compliance, Contoso IT administrators and compliance specialists defined in the new role group can access the communication compliance solution in Microsoft 365.
 An easy way for Contoso IT administrators and compliance specialists to access the communication compliance solution is to sign in directly to the [**Microsoft 365 compliance center**](https://compliance.microsoft.com?azure-portal=true). After signing in, users simply need to select the **Show all** control to display all the compliance solutions and then select the **Communication compliance** solution to get started.
 
-:::image type="content" source="../media/communication-compliance-M365.png" alt-text="Screenshot shows Communication compliance in Microsoft365.":::
+:::image type="content" source="../media/communication-compliance-M365.png" alt-text="Screenshot shows Communication compliance in Microsoft365." lightbox="../media/communication-compliance-M365.png":::
 
 ## Step 3 - Configuring prerequisites and creating a communication compliance policy
 
@@ -52,11 +52,11 @@ They need to create a new group to include all Contoso employees, so they take t
 1. Contoso IT administrators sign in to the [**Microsoft 365 admin center**](https://admin.microsoft.com?azure-portal=true) and navigate to **Microsoft 365 admin center> Groups> Groups**.
 1. They select **Add a group** and complete the wizard to create a new *Microsoft 365 group or Distribution group*.
 
-:::image type="content" source="../media/add-group.png" alt-text="Screenshot shows Groups page. After selecting Add a group option. It displays a wizard to create a new Microsoft 365 group or Distribution group.":::
+:::image type="content" source="../media/add-group.png" alt-text="Screenshot shows Groups page. After selecting Add a group option. It displays a wizard to create a new Microsoft 365 group or Distribution group." lightbox="../media/add-group.png":::
 
 1. After the new group is created, they need to add all Contoso users to the new group. They open the [**Exchange admin center**](https://outlook.office365.com/ecp?azure-portal=true) and navigate to **Exchange admin center> recipients> groups**. The Contoso IT administrators select the Membership area and the new *All Employees* group they created and select the **Edit** control to add all Contoso employees to the new group in the wizard.
 
-:::image type="content" source="../media/add-recipients.png" alt-text="Screenshot displays Exchange admin center page. The option of Recipients and then Groups is selected. In the membership area, All Employees group is selected.":::
+:::image type="content" source="../media/add-recipients.png" alt-text="Screenshot displays Exchange admin center page. The option of Recipients and then Groups is selected. In the membership area, All Employees group is selected." lightbox="../media/add-recipients.png":::
  
 ### Creating the policy to monitor for offensive language
 
@@ -64,13 +64,13 @@ With all the prerequisites completed, the IT administrators and the compliance s
 
 1. The Contoso IT administrators and compliance specialists sign into the **Microsoft 365 compliance center** and select **Communication compliance** from the left navigation pane. This action opens the **Overview** dashboard that has quick links for communication compliance policy templates. They choose the **Monitor for offensive language** template by selecting **Get started** for the template.
 
-:::image type="content" source="../media/policy-template-wizard.png" alt-text="Screenshot displays Policy template wizard. The Monitor for offensive language template is selected.":::
+:::image type="content" source="../media/policy-template-wizard.png" alt-text="Screenshot displays Policy template wizard. The Monitor for offensive language template is selected." lightbox="../media/policy-template-wizard.png":::
 
 1. On the policy template wizard, the Contoso IT administrators and compliance specialists work together to complete the three required fields: **Policy name**, **Users or groups to supervise**, and **Reviewers**.
 
 1. Since the policy wizard has already suggested a name for the policy, the IT administrators and compliance specialists decide to keep the suggested name and focus on the remaining fields. They select the All employees group for the **Users or groups to supervise** field and select the compliance specialists that should investigate and remediate policy alerts for the **Reviewers** field. The last step to configure the policy and start gathering alert information is to select Create policy.
 
- :::image type="content" source="../media/create-policy.png" alt-text="Screenshot displays Create policy wizard. All employees group is selected under the Users or groups to supervise field and compliance specialists is selected under the Reviewers field.":::
+ :::image type="content" source="../media/create-policy.png" alt-text="Screenshot displays Create policy wizard. All employees group is selected under the Users or groups to supervise field and compliance specialists is selected under the Reviewers field." lightbox="../media/create-policy.png":::
 
    For more information about getting started with communication compliance policies, see [Configure communication compliance in Microsoft 365](/microsoft-365/compliance/communication-compliance-configure?azure-portal=true).
 
