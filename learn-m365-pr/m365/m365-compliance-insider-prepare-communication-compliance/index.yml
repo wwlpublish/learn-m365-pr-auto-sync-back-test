@@ -2,14 +2,14 @@
 uid: learn-m365.m365-compliance-insider-prepare-communication-compliance
 metadata:
   title: Prepare communication compliance in Microsoft 365
-  description: Communication compliance in Microsoft 365 is a solution that helps organizations address code-of-conduct policy violations in company communications, while also assisting organizations in regulated industries meet specific supervisory compliance requirements. Communication Compliance applies machine learning to intelligently detect violations across different communication channels such as Microsoft Teams, Exchange Online, or Yammer messages.
-  ms.date: 10/22/2021
+  description: Communication compliance in Microsoft 365 is a solution that helps organizations address code-of-conduct policy violations in company communications, while also assisting organizations in regulated industries meet specific supervisory compliance requirements. Communication Compliance uses machine learning to intelligently detect violations across different communication channels such as Microsoft Teams, Exchange Online, or Yammer messages.
+  ms.date: 07/19/2021
   author: beccarobins
   ms.author: beccarobins
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Prepare communication compliance in Microsoft 365
-summary: Communication compliance in Microsoft 365 is a solution that helps organizations address code-of-conduct policy violations in company communications, while also assisting organizations in regulated industries meet specific supervisory compliance requirements. Communication Compliance applies machine learning to intelligently detect violations across different communication channels such as Microsoft Teams, Exchange Online, or Yammer messages.
+summary: Communication compliance in Microsoft 365 is a solution that helps organizations address code-of-conduct policy violations in company communications, while also assisting organizations in regulated industries meet specific supervisory compliance requirements. Communication Compliance uses machine learning to intelligently detect violations across different communication channels such as Microsoft Teams, Exchange Online, or Yammer messages.
 abstract: |
   Upon completion of this module, you should be able to: 
   - List the enhancements in communication compliance over Office 365 Supervision policies, which it will replace.
