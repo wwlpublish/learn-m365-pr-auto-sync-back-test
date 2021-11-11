@@ -54,7 +54,7 @@ New interactive dashboards for alerts, policy matches, actions, and trends help 
 - **Interactive dashboards**: New dashboards display policy matches, pending and resolved actions, and trends by users and policy.
 - **Auditing support**: A full log of policy and review activities can be easily exported from the Microsoft 365 compliance center to help support audit review requests.
 
-:::image type="content" source="../media/communication-compliance.png" alt-text="Screenshot shows Communication compliance page.":::
+:::image type="content" source="../media/communication-compliance.png" alt-text="Screenshot shows Communication compliance page." lightbox="../media/communication-compliance.png":::
 
 ## Learn more
 
