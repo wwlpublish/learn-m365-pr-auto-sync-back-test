@@ -17,18 +17,18 @@ You can edit the settings in the global policy or create and assign one or more 
 
 ## Explore cloud meeting recordings in Microsoft Teams
 
-In Microsoft Teams, users can record their Teams meetings and group calls to capture audio, video, and screen sharing activity. There is also an option for recordings to have automatic transcription, so that users can play back meeting recordings with closed captions and search for important discussion items in the transcript. The recording happens in the cloud and is saved to Microsoft Stream, so users can share it securely across their organization.
+In Microsoft Teams, users can record their Teams meetings and group calls to capture audio, video, and screen sharing activity. There is also an option for recordings to have automatic transcription, so that users can play back meeting recordings with closed captions and search for important discussion items in the transcript. The recording happens in the cloud and is saved to OneDrive for Business or SharePoint Online, so users can share it securely across their organization.
 
-For a Teams user's meetings to be recorded, Microsoft Stream must be enabled for the tenant. In addition, the following prerequisites are required for both the meeting organizer and the person who is initiating the recording:
+For a Teams user's meetings to be recorded, the following prerequisites are required for both the meeting organizer and the person who is initiating the recording:
 
 - User has Office 365 E1, E3, E5, A1, A3, A5, Microsoft 365 Business Premium, Microsoft 365 Business Standard, or Microsoft 365 Business Basic.
-- User needs to be licensed for Microsoft Stream.
-- User has Microsoft Stream upload video permissions.
+- User has sufficient storage in OneDrive for Business for non-channel meeting recordings to be saved.
+- The Teams' channel has sufficient storage in SharePoint Online for channel meeting recordings to be saved.
 - User has consented to the company guidelines, if set up by the admin.
-- User has sufficient storage in Microsoft Stream for recordings to be saved.
-- User has **TeamsMeetingPolicy-AllowCloudRecording** set to true.
+- User has `CsTeamsMeetingPolicy -AllowCloudRecording` set to `true` in order to record meetings and group calls.
+- User has `CsTeamsCallingPolicy -AllowCloudRecordingForCalls`  set to `true` in order to record 1:1 calls.
 - User is not an anonymous, guest, or federated user in the meeting.
-- To enable transcription for a user's meeting, the Teams meeting policy they're assigned to must have the **-AllowTranscription** setting set to true.
+- To enable transcription for a user's meeting, the Teams meeting policy they're assigned to must have the `-AllowTranscription` setting set to `true`.
 
 ## Learn more
 

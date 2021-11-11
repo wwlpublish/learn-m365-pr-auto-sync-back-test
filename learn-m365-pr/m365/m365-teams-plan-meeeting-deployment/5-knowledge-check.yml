@@ -27,17 +27,17 @@ quiz:
       isCorrect: false
       explanation: "That's incorrect. It is true that TCP ports 80 and 443 outgoing are needed, but these aren't the UDP ports."
   
-  - content: "Where are Teams meetings recordings stored?"
+  - content: "Where are Teams 1:1 call recordings stored?"
     choices:
     - content: Microsoft SharePoint Online
       isCorrect: false
-      explanation: "That's incorrect. SharePoint Online can't be used to store recordings."
-    - content: Microsoft Stream
-      isCorrect: true
-      explanation: "That's correct. Microsoft Streams recordings are stored in Microsoft Stream."
-    - content: Microsoft OneDrive
+      explanation: "That's incorrect. SharePoint Online is used for channel meeting recordings."
+    - content: Locally on the users machine
       isCorrect: false
-      explanation: "That's incorrect. OneDrive can't be used to store recordings."
+      explanation: "That's incorrect. Meetings are saved in the cloud, depending on what kind of call is recorded."
+    - content: Microsoft OneDrive for Business
+      isCorrect: true
+      explanation: "That's correct. If 1:1 calls are enabled, OneDrive for Business is used to store recordings."
   
   - content: "Which type of PC can you add Microsoft Teams Rooms peripherals to?"
     choices:
