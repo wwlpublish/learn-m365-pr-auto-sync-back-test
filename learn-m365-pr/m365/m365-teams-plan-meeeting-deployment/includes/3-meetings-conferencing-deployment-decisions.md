@@ -28,7 +28,7 @@ For a Teams user's meetings to be recorded, the following prerequisites are requ
 - User has `CsTeamsMeetingPolicy -AllowCloudRecording` set to `true` in order to record meetings and group calls.
 - User has `CsTeamsCallingPolicy -AllowCloudRecordingForCalls`  set to true in order to record 1:1 calls.
 - User is not an anonymous, guest, or federated user in the meeting.
-- To enable transcription for a user's meeting, the Teams meeting policy they're assigned to must have the **-AllowTranscription** setting set to true.
+- To enable transcription for a user's meeting, the Teams meeting policy they're assigned to must have the `-AllowTranscription` setting set to `true`.
 
 ## Learn more
 
