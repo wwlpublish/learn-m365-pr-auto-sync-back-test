@@ -66,7 +66,7 @@ You can also configure whether alerts for activity from infrequent country/regio
 
 ### Adjust the anomaly detection scope policy to users and groups
 
-Each anomaly detection policy can be independently scoped so that it applies only to the users and groups you want to include and exclude in the policy. For example, you can set the Activity from infrequent county detection to ignore a specific user who travels frequently.
+Each anomaly detection policy can be independently scoped so that it applies only to the users and groups you want to include and exclude in the policy. For example, you can set the Activity from infrequent country detection to ignore a specific user who travels frequently.
 
 To scope an anomaly detection policy:
 
