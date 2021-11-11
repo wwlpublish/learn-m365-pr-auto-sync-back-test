@@ -80,7 +80,7 @@ Now that the communication compliance policy to monitor for offensive language i
 
 After alerts are generated, Contoso compliance specialists will be able to investigate and remediate offensive language issues.
 
-[!NOTE]
+> [!NOTE]
 > You can also create a dynamic group in Azure Active Directory.
 >
 > Please review [Create or update a dynamic group in Azure Active Directory](azure/active-directory/enterprise-users/groups-create-rule) to set up a rule for a dynamic group in the Azure portal.
