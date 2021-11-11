@@ -4,7 +4,7 @@ metadata:
   moduleType: standard
   title: Reduce potential attack areas with Microsoft Defender for Endpoint
   description: Learn how to reduce potential attack surfaces across your environment with Microsoft Defender for Endpoint. Capabilities include application control, network protection, hardware-based isolation, controlled folder access, and web protection. 
-  ms.date: 08/16/2021
+  ms.date: 11/08/2021
   author: beccarobins
   ms.author: beccarobins
   ms.topic: interactive-tutorial
