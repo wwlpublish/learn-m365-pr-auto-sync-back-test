@@ -37,16 +37,17 @@ Information barriers apply to Microsoft Teams chats and channels. In Microsoft T
 
 If the people involved are included in an information barrier policy to prevent the activity, they will not be able to proceed. In addition, potentially, everyone included in an information barrier policy can be blocked from communicating with others in Microsoft Teams. When people affected by information barrier policies are part of the same team or group chat, they might be removed from those chat sessions and further communication with the group might not be allowed.
 
-> [!IMPORTANT]
-> Information barriers only supports two-way restrictions. One-way restrictions, such as allowing your marketing personnel to communicate with day traders but restricting day traders from communicating with marketing personnel, is not supported.
-
 ## Concepts of information barrier policies
 
 With information barriers, you define policies that are designed to prevent certain segments of users from communicating with each other or allow specific segments to communicate only with certain other segments.
 
 For example, Sergio belongs to the Banking segment and Pradeep belongs to the Financial advisor segment. Sergio and Pradeep can't communicate with each other because the organization's Information Barrier policy blocks communication and collaboration between these two segments. However, Sergio and Pradeep can communicate with Lee in HR.
 
-![Concepts of information barrier policies](../media/concepts-information-barrier-policies.png)
+<div class="centered">
+
+:::image type="content" source="../media/concepts-information-barrier-policies.png" alt-text="Diagram showing how barriers can be created to prevent different segments of a company from sharing information. HR can communicate with both the financial advisors and investment bankers, but investment bankers and financial advisors can't share with each other." border="false" lightbox="../media/concepts-information-barrier-policies.png":::
+
+</div>
 
 When you define policies for information barriers, you will work with user account attributes, segments, "block" and/or "allow" policies, and policy application.
 

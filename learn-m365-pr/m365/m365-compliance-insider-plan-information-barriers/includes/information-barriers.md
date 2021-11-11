@@ -27,7 +27,7 @@ For more information, see [Prerequisites](/microsoft-365/compliance/information-
 
 ## Segmenting users
 
-Once prerequisites have been met you can move on to the next phase which is to segment users in your organization. To segment users, it is recommended that you: 
+Once prerequisites have been met you can move on to the next phase, which is to segment users in your organization. To segment users, it is recommended that you: 
 
 - Determine what policies are needed.
 - Make a list of segments to define.
