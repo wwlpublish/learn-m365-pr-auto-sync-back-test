@@ -7,7 +7,7 @@ In order to gain the benefits of Cloud App Security, your organization must obta
 
 Cloud App Security is a user-based subscription, which means for each user, you require a license. There is a monthly charged attached to each licensed user.
 
-You can choose to license Cloud App Security as a standalone product, or you can license it as part of a licensing plans, which include other products.
+You can choose to license Cloud App Security as a standalone product, or you can license it as part of a licensing plan, which include other products.
 
 ### Common licensing options
 
@@ -15,14 +15,14 @@ The following table describes the most common licensing options.
 
 | Option                                                       | Description                                                  |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| Microsoft 365 E5                                             | Allows you to integrate Microsoft Cloud  App Security and Microsoft Defender Advanced Threat Protection to enable  machine-based Discovery both within and outside your corporate network. |
-| Microsoft 365 E5 Security                                    | Includes Office 365 ATP Plan 2, Microsoft  Cloud App Security, Azure Advanced Threat Protection (Azure ATP), Azure AD  Premium 2 (P2) and Microsoft Defender Advanced Threat Protection. |
-| Microsoft 365 E5 Compliance                                  | Includes Information Protection &  Governance, Insider Risk Management and eDiscovery & Audit solutions.  Customers also get the complete Microsoft Cloud App Security offering,  including Office 365 Cloud App Security and Cloud App Discovery. |
+| Microsoft 365 E5                                             | Allows you to integrate Microsoft Cloud App Security and Microsoft Defender Advanced Threat Protection to enable machine-based Discovery both within and outside your corporate network. |
+| Microsoft 365 E5 Security                                    | Includes Office 365 ATP Plan 2, Microsoft Cloud App Security, Azure Advanced Threat Protection (Azure ATP), Azure AD  Premium 2 (P2) and Microsoft Defender Advanced Threat Protection. |
+| Microsoft 365 E5 Compliance                                  | Includes Information Protection & Governance, Insider Risk Management and eDiscovery & Audit solutions.  Customers also get the complete Microsoft Cloud App Security offering,  including Office 365 Cloud App Security and Cloud App Discovery. |
 | Enterprise Mobility & Security E5                            | Includes the complete Microsoft Cloud App  Security offering, including Office 365 Cloud App Security and Cloud App  Discovery. |
-| Microsoft Cloud App Security + Enterprise  Mobility & Security E3 | Extends the capabilities of Microsoft  Cloud App Security to include Conditional Access App Control (Reverse proxy  capabilities) for real-time session controls, and automatic data  classification and labeling. |
-| Microsoft Cloud App Security (standalone  license)           | A per-user license that includes an  unlimited number of apps to be connected and protected for each licensed  user.   Customers get the complete Microsoft Cloud  App Security offering, including Office 365 Cloud App Security and Cloud App  Discovery. |
-| Microsoft 365 Education A3                                   | Available to educational institutions and  includes Microsoft Cloud App Security. |
-| Microsoft 365 Education A5                                   | Available to educational institutions and  includes Microsoft Cloud App Security. |
+| Microsoft Cloud App Security + Enterprise  Mobility & Security E3 | Extends the capabilities of Microsoft Cloud App Security to include Conditional Access App Control (Reverse proxy  capabilities) for real-time session controls, and automatic data  classification and labeling. |
+| Microsoft Cloud App Security (standalone  license)           | A per-user license that includes an  unlimited number of apps to be connected and protected for each licensed  user. Customers get the complete Microsoft Cloud App Security offering, including Office 365 Cloud App Security and Cloud App Discovery. |
+| Microsoft 365 Education A3                                   | Available to educational institutions and includes Microsoft Cloud App Security. |
+| Microsoft 365 Education A5                                   | Available to educational institutions and includes Microsoft Cloud App Security. |
 
 Alternatively, you can opt to use the following licensing plans:
 
@@ -30,17 +30,17 @@ Alternatively, you can opt to use the following licensing plans:
 - Azure AD Premium P1 or P2. Includes the Microsoft Cloud App Security Discovery and Risk Assessment capabilities only.
 
 > [!IMPORTANT]
-> Doesn't include the reverse proxy/session control aspects of Conditional Access.
+> Azure AD Premium P1 or P2 don't include the reverse proxy/session control aspects of Conditional Access.
 
 ### US government licensing
 
-Microsoft provides three US Government licensing plans. These are described in the following table.
+Microsoft provides three US Government licensing plans. These are described in the following table:
 
 | Plan                                          | Description                                                  |
 | --------------------------------------------- | ------------------------------------------------------------ |
 | Government Community Cloud (GCC)              | These licensing plans are offered in the  Azure Commercial environment and are covered by Azure Commercial's FedRAMP  High Authorization to Operate (ATO), but may not meet other GCC compliance  attributes, such as CJIS background screening, (IRS 1075, CJIS) and access to  customer content being restricted to US government screened personnel. |
-| Government Community Cloud – High (GCC  High) | The Microsoft Cloud App Security offering  for GCC High is built on Microsoft Azure Government cloud and designed to  inter-operate with the Office 365 GCC High environment. |
-| Department of Defense (DoD)                   | As of July 2020, there is no availability  for Microsoft Cloud App Security in DoD environments. |
+| Government Community Cloud – High (GCC  High) | The Microsoft Cloud App Security offering for GCC High is built on Microsoft Azure Government cloud and designed to  inter-operate with the Office 365 GCC High environment. |
+| Department of Defense (DoD)                   | As of July 2020, there is no availability for Microsoft Cloud App Security in DoD environments. |
 
 The following video describes licensing for Microsoft Cloud App Security:
 
