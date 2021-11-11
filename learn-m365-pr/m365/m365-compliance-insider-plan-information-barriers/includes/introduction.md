@@ -44,7 +44,7 @@ With information barriers, you define policies that are designed to prevent cert
 For example, Sergio belongs to the Banking segment and Pradeep belongs to the Financial advisor segment. Sergio and Pradeep can't communicate with each other because the organization's Information Barrier policy blocks communication and collaboration between these two segments. However, Sergio and Pradeep can communicate with Lee in HR.
 
 > [!div class="centered"]
-> :::image type="content" source="../media/concepts-information-barrier-policies.png" alt-text="Diagram showing how barriers can be created to prevent different segments of a company from sharing information. HR can communicate with both the financial advisors and investment bankers, but investment bankers and financial advisors can't share with each other." border="false" lightbox="../media/concepts-information-barrier-policies.png":::
+> :::image type="content" source="../media/concepts-information-barrier-policies.png" alt-text="Diagram showing how barriers can be created to prevent different segments of a company from sharing information. HR can communicate with both the financial advisors and investment bankers, but investment bankers and financial advisors can't share with each other." border="false":::
 
 When you define policies for information barriers, you will work with user account attributes, segments, "block" and/or "allow" policies, and policy application.
 
