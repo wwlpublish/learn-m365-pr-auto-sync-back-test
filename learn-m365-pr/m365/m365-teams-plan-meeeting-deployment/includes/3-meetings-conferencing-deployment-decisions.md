@@ -26,7 +26,7 @@ For a Teams user's meetings to be recorded, the following prerequisites are requ
 - The Teams' channel has sufficient storage in SharePoint Online for channel meeting recordings to be saved.
 - User has consented to the company guidelines, if set up by the admin.
 - User has `CsTeamsMeetingPolicy -AllowCloudRecording` set to `true` in order to record meetings and group calls.
-- User has `CsTeamsCallingPolicy -AllowCloudRecordingForCalls`  set to true in order to record 1:1 calls.
+- User has `CsTeamsCallingPolicy -AllowCloudRecordingForCalls`  set to `true` in order to record 1:1 calls.
 - User is not an anonymous, guest, or federated user in the meeting.
 - To enable transcription for a user's meeting, the Teams meeting policy they're assigned to must have the `-AllowTranscription` setting set to `true`.
 
