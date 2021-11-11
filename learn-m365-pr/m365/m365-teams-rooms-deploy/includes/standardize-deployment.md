@@ -6,7 +6,7 @@ The more consistent you can be with these practices, the more efficient you'll b
 
 Here's a high-level project plan highlighting all the key milestones in a Teams Rooms deployment.
 
-![Deployment key milestones](../media/deployment-key-milestones.png)
+:::image type="content" source="../media/deployment-key-milestones.png" alt-text="Diagram displays Deployment key milestones: Envision, Onboard, and Drive value." lightbox=".../media/deployment-key-milestones.png":::
 
 To assist in the deployment, you'll need several teams:
 
