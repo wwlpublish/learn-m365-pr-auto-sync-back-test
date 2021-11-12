@@ -24,6 +24,9 @@ In many cases, you'll just be expanding the work you did for Start and Experimen
 
 As each segment of your organization onboards to the new experience, you will want to ensure their awareness of local champions and training opportunities.  
 
-|<div style="display: flex; align-items: center; padding:1em">:::image type="icon" source="../media/activity.png" border="false":::<span style="padding-left: 2em">Example activity for Contoso</span></div>|
-|-|  
-|Review details about [service enablement strategies](/microsoftteams/teams-adoption-define-outcomes#select-a-service-enablement-strategy) for Microsoft Teams and discuss them with your IT partners and key stakeholders.|  
+<div class="centered">
+
+  :::image type="icon" source="../media/activity.png" border="false":::
+</div>
+  
+Review details about [service enablement strategies](/microsoftteams/teams-adoption-define-outcomes#select-a-service-enablement-strategy) for Microsoft Teams and discuss them with your IT partners and key stakeholders.|  
