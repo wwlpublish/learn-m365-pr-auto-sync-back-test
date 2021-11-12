@@ -1,6 +1,7 @@
 You can configure Microsoft Teams to allow users to record Teams meetings and group calls. Users record audio, video, and screen sharing activity. If a meeting has been recorded, you can also create an automatic transcript. This action allows users to play back meeting recordings with captions and search for important items in the text.
 
 Suppose you are concerned about the storage of recorded meetings in your organization. Because you often discuss company-confidential design and code information during meetings, you want to find out where recordings are kept and how long they are stored for. You'll use this information to decide whether to allow recordings.
+
 Here, you'll learn how to control who can make meeting recordings, how recordings are stored, and to control the recordings features.
 
 ## Prerequisites for recording meetings
@@ -8,10 +9,9 @@ Here, you'll learn how to control who can make meeting recordings, how recording
 To record Microsoft Teams meetings, there's a few things you'll need:
 
 - The meeting organizer and person who starts the recording must have a **Microsoft 365** license.
-- To store meeting recordings, you need **Microsoft Stream** enabled for the tenant. Users require upload video permissions, and there must be enough space for recordings to be saved. To make meeting recordings without storing them, you don't need a license for Microsoft Stream.
+- To store meeting recordings, you need to have sufficient storage in OneDrive for Business. The Teams' channel also needs to have sufficient storage in SharePoint Online for channel meetings.
 - The person who starts the recording must work for the organization. They can't join the meeting as an anonymous user, a guest, or a federated user.
 - To enable a meeting transcript, the assigned meeting policy must have **Allow Transcription** set to true.
-- If there's a Microsoft Stream **company guideline policy** in place that requires a user to accept, it must be done before content can be saved.
 
 ## Meetings policy - Allow cloud recording
 
@@ -24,9 +24,10 @@ Use a combination of the global meetings policy and a custom meetings policy for
 
 ## Where recordings are stored
 
-Meeting recordings are stored in Microsoft Stream cloud storage. After you record a meeting, Microsoft Stream keeps it indefinitely or until the owner deletes it.
-For users without a license for Microsoft Stream, the recording is stored in **Azure Media Services** for 20 days and then it's automatically deleted.
-If data residency for Microsoft Stream isn't available in your country, the meeting recording feature can't be enabled.
+Meeting recordings are stored in Microsoft OneDrive for Business and Microsoft SharePoint Online. After you record a meeting, it's made available to all the attendees of that meeting. A link is also added to the chat for the meeting making it easy to watch and share from there.
+
+> [!TIP]
+> If you want users to only record and download the recordings without using OneDrive for Business or SharePoint Online, they can be stored in temporary Teams storage with a 21-day limit. It's not something that an admin can control, manage, or delete at this time with policies.
 
 ## PowerShell
 
@@ -42,5 +43,4 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowCloudRecording $false
 
 - [Teams cloud meeting recording](/MicrosoftTeams/cloud-recording)
 - [Allow cloud recording](/MicrosoftTeams/meeting-policies-in-teams#allow-cloud-recording)
-- [Add usage guidelines and require consent before uploading Microsoft Stream videos](/stream/company-policy-and-consent)
 - [Manage meeting policies in Teams](/MicrosoftTeams/meeting-policies-in-teams)
