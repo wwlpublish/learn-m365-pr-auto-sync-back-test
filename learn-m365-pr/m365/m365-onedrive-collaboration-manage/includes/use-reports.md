@@ -2,7 +2,7 @@ Microsoft 365 includes built in reports to see who is using OneDrive and how. Re
 
 The Microsoft 365 Reports dashboard shows the activity overview across products and allows you to drill down into the OneDrive reports.  
 
-![The Microsoft 365 Reports dashboard shows the activity overview across products and allows you to drill down into the OneDrive reports](../media/reports.png)  
+:::image type="content" source="../media/reports.png" alt-text="Screenshot displays The Microsoft 365 Reports dashboard shows the activity overview across products and allows you to drill down into the OneDrive reports" lightbox="../media/reports.png":::  
 
 ## OneDrive activity reports
 
@@ -10,7 +10,7 @@ The OneDrive activity reports allow you to understand the activity of every lice
 
 You get a view into OneDrive activity by looking at the Files and Users views.
 
-![View OneDrive activity by looking at the Files and Users views](../media/activity-reports.png)  
+:::image type="content" source="../media/activity-reports.png" alt-text="Screenshot displaying the View into OneDrive activity of the Files and Users views" lightbox="../media/activity-reports.png":::
 
 The **Files** view helps you understand the unique number of licensed users that performed file interactions against any OneDrive account.
 
@@ -22,7 +22,7 @@ You can also export the report data into an Excel .csv file. This enables you to
 
 The OneDrive usage reports give you a high-level view of the value you are getting from OneDrive in terms of the total number of files and storage used across your organization. You can then investigate further to better understand the trends of active OneDrive accounts, how many files users are interacting with, as well as the amount of storage used. You can also view details for each user's OneDrive.
 
-![View details for each user's OneDrive](../media/usage-reports.png)  
+:::image type="content" source="../media/usage-reports.png" alt-text="Screenshot displaying the details for each user's OneDrive" lightbox="../media/usage-reports.png":::
 
 The following views are available:
 
