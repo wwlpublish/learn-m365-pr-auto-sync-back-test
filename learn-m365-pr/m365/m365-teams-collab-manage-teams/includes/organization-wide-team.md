@@ -2,7 +2,7 @@ Organization-wide teams provide an automatic way for everyone in a small to medi
 
 With org-wide teams, global administrators can easily create a public team that pulls in every user in the organization and keeps the membership up-to-date with Active Directory as users join and leave the organization. Only global administrators can create org-wide teams and currently an org-wide team is limited to organizations with no more than 10,000 users. There's also a limit of five org-wide teams per tenant.
 
-:::image type="content" source="../media/org-wide-team.png" alt-text="Screenshot showing the 3 different teams options of Private, Public and Org-wide.":::
+:::image type="content" source="../media/org-wide-team.png" alt-text="Screenshot showing the 3 different teams options of Private, Public and Org-wide." lightbox="../media/org-wide-team.png":::
 
 > [!NOTE]
 > If your organization is new to Teams, and is smaller that 5,000 users, an org-wide team will be created for you automatically with a name taken from the tenant name. Organizations larger than 5,000 users and smaller than 10,000 users can create their org-wide teams manually.
