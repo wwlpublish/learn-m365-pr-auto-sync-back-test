@@ -17,29 +17,29 @@ quiz:
     questions:
     - content: "'Service adoption' refers to the ability to do which of the following?"
       choices:
-      - content: "Deploy new technology"
+      - content: "Successfully deploy new services across your entire organization."
         isCorrect: false
-        explanation: "No, 'service adoption' refers to driving the use of business and technical capabilities by employees."
-      - content: "Deliver training programs"
+        explanation: "No, 'service adoption' doesn't refer to deploying new technology. Try again."
+      - content: "Deliver detailed training programs to support the adoption of new technology."
         isCorrect: false
-        explanation: "No, 'service adoption' refers to driving the use of business and technical capabilities by employees."
-      - content: "Have executives fund projects"
-        isCorrect: false
-        explanation: "No, 'service adoption' refers to driving the use of business and technical capabilities by employees."
-      - content: "Drive healthy usage by employees of business and technical capabilities."
+        explanation: "No, 'service adoption' doesn't refer to delivering training programs. Try again."
+      - content: "Drive the healthy usage of the business and technical capabilities of a service by employees."
         isCorrect: true
         explanation: "Yes, this is a definition for 'service adoption.'"
+      - content: "Gain executive support to fund projects to deploy new capabilities in your organization."
+        isCorrect: false
+        explanation: "No, 'service adoption' doesn't refer to executives funding projects. Try again."
     - content: "For a successful project, a Service Adoption Specialist must keep in balance which of the following?"
       choices:
       - content: "Healthy usage of technology"
         isCorrect: false
-        explanation: "No, these are all elements you'll have to balance as a Service Adoption Specialist."
+        explanation: "No, it's not just about enabling a healthy usage of technology. Try again."
       - content: "Relevant business process improvements"
         isCorrect: false
-        explanation: "No, these are all elements you'll have to balance as a Service Adoption Specialist."
-      - content: "Feedback from employees"
+        explanation: "No, it's not just implementing relevant business process improvements. Try again."
+      - content: "Listen to feedback from employees"
         isCorrect: false
-        explanation: "No, these are all elements you'll have to balance as a Service Adoption Specialist."
+        explanation: "No, it's not just listening to feedback from employees. Try again."
       - content: "All of the above."
         isCorrect: true
         explanation: "Yes, these are all elements you'll have to balance as a Service Adoption Specialist."
@@ -50,52 +50,52 @@ quiz:
         explanation: "Yes, this is the definition of 'healthy service usage.'"
       - content: "Employees correctly using technology based on your training."
         isCorrect: false
-        explanation: "No, 'healthy service usage' is an employee's ability to use a service to deliver a business outcome."
+        explanation: "No, 'healthy service usage' isn't about successful training. Try again."
       - content: "Employees having secure technology available."
         isCorrect: false
-        explanation: "No, 'healthy service usage' is an employee's ability to use a service to deliver a business outcome."
-      - content: "Employees not sharing data in consumer."
+        explanation: "No, 'healthy service usage' isn't about secure technology. Try again."
+      - content: "Employees not sharing data about consumers."
         isCorrect: false
-        explanation: "No, 'healthy service usage' is an employee's ability to use a service to deliver a business outcome."
+        explanation: "No, 'healthy service usage' isn't about sharing data. Try again."
     - content: "The process that an organization has to go through to change its strategies, processes, culture, or technology is referred to as what?"
       choices:
       - content: "Business management."
         isCorrect: false
-        explanation: "No, this process is 'organizational change.'"
+        explanation: "No, this isn't what business management refers to. Try again."
       - content: "Organizational strategy."
         isCorrect: false
-        explanation: "No, this process is 'organizational change.'"
+        explanation: "No, this isn't what organizational strategy refers to. Try again."
       - content: "Process improvement."
         isCorrect: false
-        explanation: "No, this process is 'organizational change.'"
+        explanation: "No, this isn't what process improvement refers to. Try again."
       - content: "Organizational change."
         isCorrect: true
-        explanation: "Yes, this process is 'organizational change.'"        
+        explanation: "Yes, this process is referred to as 'organizational change.'"        
     - content: "What is one stated positive outcome of improving the culture of a company?"
       choices:
       - content: "Fewer layoffs."
         isCorrect: false
-        explanation: "No, improving your company culture will help improve your products and services."
+        explanation: "No, but this could be a side effect not stated as an outcome. Try again."
       - content: "Product and service improvement."
         isCorrect: true
         explanation: "Yes, improving your company culture will help improve your products and services."
       - content: "Better financial performance."
         isCorrect: false
-        explanation: "No, improving your company culture will help improve your products and services."
+        explanation: "No, but this could be a side effect not stated as an outcome. Try again."
       - content: "Less executive turnover."
         isCorrect: false
-        explanation: "No, improving your company culture will help improve your products and services."        
+        explanation: "No, but this could be a side effect not stated as an outcome. Try again."        
     - content: "A successful commercial organization places whose needs at the top of the priority list?"
       choices:
       - content: "Industry thought leaders."
         isCorrect: false
-        explanation: "No, your customers' needs should be your top priority."
+        explanation: "No, but you should consider their input. Try again."
       - content: "Executives."
         isCorrect: false
-        explanation: "No, your customers' needs should be your top priority."
+        explanation: "No, but it is important to consider their needs. Try again."
       - content: "Employees."
         isCorrect: false
-        explanation: "No, your customers' needs should be your top priority."
+        explanation: "No, but it is important to consider their needs. Try again."
       - content: "Customers."
         isCorrect: true
         explanation: "Yes, your customers' needs should be your top priority."        
@@ -103,27 +103,27 @@ quiz:
       choices:
       - content: "Technical acumen."
         isCorrect: false
-        explanation: "No, this is technical competence."
+        explanation: "No, this isn't what technical acumen refers to. Try again."
       - content: "Technical competence."
         isCorrect: true
         explanation: "Yes, this is technical competence."
       - content: "IT management."
         isCorrect: false
-        explanation: "No, this is technical competence."
+        explanation: "No, this isn't what IT management refers to. Try again."
       - content: "Technology capabilities."
         isCorrect: false
-        explanation: "No, this is technical competence."        
+        explanation: "No, this isn't what technology capabilities refers to. Try again."        
     - content: "To be a successful Service Adoption Specialist, you should have a college degree in what area?"
       choices:
       - content: "Computer science."
         isCorrect: false
-        explanation: "No, there's no one specific college degree you need to succeed as a Service Adoption Specialist."
+        explanation: "No, you don't need a Computer science college degree to succeed as a Service Adoption Specialist. Try again."
       - content: "Organizational psychology."
         isCorrect: false
-        explanation: "No, there's no one specific college degree you need to succeed as a Service Adoption Specialist."
+        explanation: "No, you don't need an Organizational psychology college degree to succeed as a Service Adoption Specialist. Try again."
       - content: "Business administration."
         isCorrect: false
-        explanation: "No, there's no one specific college degree you need to succeed as a Service Adoption Specialist."
+        explanation: "No, you don't need a Business administration college degree to succeed as a Service Adoption Specialist. Try again."
       - content: "None of the above."
         isCorrect: true
         explanation: "Correct, there's no one specific college degree you need to succeed as a Service Adoption Specialist."        
@@ -134,49 +134,49 @@ quiz:
         explanation: "Yes, this is one of the omni-directional marketing tactics."
       - content: "Communications must cross regions or offices."
         isCorrect: false
-        explanation: "No, this isn't one of the omni-directional marketing tactics."
+        explanation: "No, this isn't one of the omni-directional marketing tactics. Try again."
       - content: "Email announcement should come from multiple leaders simultaneously."
         isCorrect: false
-        explanation: "No, this isn't one of the omni-directional marketing tactics."
+        explanation: "No, this isn't one of the omni-directional marketing tactics. Try again."
       - content: "Templates can be given to employees to use how they see fit for their groups."
         isCorrect: false
-        explanation: "No, this isn't one of the omni-directional marketing tactics."        
+        explanation: "No, this isn't one of the omni-directional marketing tactics. Try again."        
     - content: "Which individual item is NOT a part of the marketing communications area for Service Adoption Specialists?"
       choices:
       - content: "Key messages for employee campaigns."
         isCorrect: false
-        explanation: "No, this is part of your marketing communications."
+        explanation: "No, this is part of your marketing communications. Try again."
       - content: "Resolving help desk issues."
         isCorrect: true
         explanation: "Correct, this is NOT part of your marketing communications."
       - content: "Editing or creating digital posters."
         isCorrect: false
-        explanation: "No, this is part of your marketing communications."
+        explanation: "No, this is part of your marketing communications. Try again."
       - content: "Setting office hour schedules."
         isCorrect: false
-        explanation: "No, this is part of your marketing communications."        
+        explanation: "No, this is part of your marketing communications. Try again."        
     - content: "Breaking down the service adoption Framework into three phases achieves which outcome?"
       choices:
       - content: "Makes it easier to understand for IT and change managers."
         isCorrect: false
-        explanation: "No, breaking the framework into phases lets different units adopt it at different rates."
+        explanation: "No, although it might make it easier to understand, three phases allows for a specific outcome. Try again."
       - content: "Allows for different business units or regions to adopt services at different rates."
         isCorrect: true
         explanation: "Yes, breaking the framework into phases lets different units adopt it at different rates."
       - content: "Provides a structure for teaching the framework to others."
         isCorrect: false
-        explanation: "No, breaking the framework into phases lets different units adopt it at different paces."
+        explanation: "No, although it does provide a structure for teaching, three phases allows for a specific outcome. Try again."
     - content: "Which of the following items is NOT emphasized in the service adoption framework process?"
       choices:
       - content: "Light business process mapping"
         isCorrect: false
-        explanation: "Incorrect, light business process mapping is emphasized in the service adoption framework process." 
+        explanation: "Incorrect, light business process mapping is emphasized in the service adoption framework process. Try again." 
       - content: "Frequent feedback loops"
         isCorrect: false
-        explanation: "Incorrect, frequent feedback loops are emphasized in the service adoption framework process." 
+        explanation: "Incorrect, frequent feedback loops are emphasized in the service adoption framework process. Try again." 
       - content: "Identified success measures"
         isCorrect: false
-        explanation: "Incorrect, identified success measures are emphasized in the service adoption framework process." 
+        explanation: "Incorrect, identified success measures are emphasized in the service adoption framework process. Try again." 
       - content: "Workforce talent reviews"
         isCorrect: true
-        explanation: "Correct, workforce talent reviews is NOT emphasized in the service adoption framework process."   
+        explanation: "Correct, workforce talent reviews are NOT emphasized in the service adoption framework process."   

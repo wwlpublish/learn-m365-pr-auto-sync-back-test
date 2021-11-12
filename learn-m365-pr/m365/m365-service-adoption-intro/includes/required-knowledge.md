@@ -1,4 +1,4 @@
->![Key skills and knowledge areas to drive adoption](../media/knowledge-areas.png)
+:::image type="content" source="../media/knowledge-areas.png" alt-text="Key skills and knowledge areas to drive adoption; Organizational development, Business acumen, Technical competence, Marketing and Communications, Portfolio management, and Leadership capability." border="false":::
 
 *Service adoption* refers to the ability of an organization to drive healthy usage of the business and technical capabilities of a service. *Healthy usage* refers to employees using the service to deliver business outcomes in their organization. Your employees' experience and digital literacy with tools and processes are essential to healthy usage.
 
@@ -22,7 +22,7 @@ Mastering each of these areas increases in complexity depending on the size and 
 
 ## Knowledge area - Organizational development
 
->![Organizational development](../media/org-dev.png)
+:::image type="content" source="../media/org-dev.png" alt-text="Slide showing organizational development is about people. It has text that reads: The successful adoption of any service represents a change in behavior. It is more than a set of products-it is a fundamentally different way of working." lightbox="../media/org-dev.png":::
 
 As a Service Adoption professional, you're at the nexus of driving organizational and behavioral change for your company. At its heart, this change is about people. Centering your project, priorities, and enthusiasm around people can help sustain the energy required to lead this change.
 
@@ -30,7 +30,7 @@ As a Service Adoption professional, you're at the nexus of driving organizationa
 
 What's common knowledge in the executive suite isn't always common to most employees in their day-to-day work. This doesn't mean that individual employees don't care about company strategy or initiatives. In fact, they generally care very much. But sweeping high-level statements from execs often miss what's important to individual employees. Then middle managers, who are often ill-equipped or under too much pressure to deliver results, must bring out the nuances of communication. It's important to know the baseline knowledge of the employees you are attempting to serve. Assessing their knowledge is a fundamental step to crafting a successful adoption plan and will be discussed further in following modules.
 
->![The gap between strategy and experience](../media/org-dev-1.png)
+:::image type="content" source="../media/org-dev-1.png" alt-text="Diagram showing the gap between strategy and experience. It has text that reads: Service Adoption Specialists and their teams must mind the gap between the executive vision and the employee experience." border="false" lightbox="../media/org-dev-1.png":::
 
 As in any relationship listening is the most important skill, you'll develop in this role. There's no replacement for empathy when your goal is a superior employee experience. Without listening systems, employee surveys, and conversations over lunch and at the water cooler, you won't have the relevant information to carry out your duties. In your new role you must:
 
@@ -42,7 +42,7 @@ As in any relationship listening is the most important skill, you'll develop in 
 
 ## Knowledge area - Business acumen
 
->![Business acumen knowledge area](../media/business-acumen.png)
+:::image type="content" source="../media/business-acumen.png" alt-text="Slide showing the areas of business acumen. It has a circular diagram with topics cycling from Influencing Strategy & Culture, Product Improvement Methods, Impriving Service, Controlling Costs, and Increasing Revenue." lightbox="../media/business-acumen.png:::
 
 Many Service Adoption Specialists come from the marketing or communication sides of an organization. This is often because they've had success driving change in other areas in the past and are now tasked with a larger initiative. Although this initiative might not be directly related to technology, they may be tasked with product or service improvements and therefore need better technology to deliver on this goal. Those who come from IT backgrounds also have detailed knowledge of the state of the organization and its ability to respond to market changes and customer demands. Whatever your background you need a deep understanding of the strategic, competitive, cultural, and financial needs of your business.
 
@@ -68,15 +68,15 @@ Successful organizations put the customer's needs at the top of the priority lis
 
 Your ability to execute an adoption program must be steeped in the language, challenges, objectives, and outcomes of your business. There's no substitute for homework in this knowledge area. Your knowledge must be directly applicable to the organization, business unit, or employee role you are attempting to help.
 
-|![Activity icon](../media/activity.png) Activity||
-|--|--|
-|Find a person in your organization who led a project that was not viewed as "successful." After validating with them their perspective, ask them what they learned. Make it clear you are there to learn, not to judge their experience. Often you'll find people keen to share their learnings with an interested party. After your conversation, ask yourself these questions:<li> How can this lesson help others? <li> What would I do differently?<li> Could better technology or communication have changed the outcome?<li> Could better technology or communication have changed *the perception* of the outcome?||
+|<div style="display: flex; align-items: center; padding:1em">:::image type="icon" source="../media/activity.png" border="false":::<span style="padding-left: 2em">Activity</span></div>|
+|--|
+|Find a person in your organization who led a project that was not viewed as "successful." After validating with them their perspective, ask them what they learned. Make it clear you are there to learn, not to judge their experience. Often you'll find people keen to share their learnings with an interested party. After your conversation, ask yourself these questions:<ul><li> How can this lesson help others?</li><li> What would I do differently?</li><li> Could better technology or communication have changed the outcome?</li><li> Could better technology or communication have changed *the perception* of the outcome?</li></ul>|
 
 ## Knowledge area - Technical competence
 
->![Technical competence](../media/technical-competence.png)
+:::image type="content" source="../media/technical-competence.png" alt-text="A slide showing the elements of Technical Competence. It lists them from the left as: Current State, Service Capabilities, Technical Limitations, Cost of Change and Health Measures." lightbox="../media/technical-competence.png":::
 
-Technical competence is the depth of knowledge required to apply specific technology to a business problem to achieve a desired outcome. Without understanding what you can do, how you can do it, and how much it costs, you can't judiciously use technology in your organization. It's critical that you not focus on new features simply because they exist, but instead focus on how you can make your employees' lives easier with the right technology.
+Technical competence is the depth of knowledge required to apply specific technology to a business problem to achieve a desired outcome. Without understanding what you can do, how you can do it, and how much it costs, you can't judiciously use technology in your organization. It's critical that you don't focus on new features simply because they exist, but instead focus on how you can make your employees' lives easier with the right technology.
 
 This requires study. Don't be daunted by this knowledge pillar if you don't have an IT background; you don't need a computer science degree to achieve the appropriate level of knowledge. What's relevant in this area is hands-on knowledge applicable to the business scenario you are trying to improve. You can also use the partnership of a willing IT professional to help with another important element: the cost of change.
 
@@ -88,7 +88,8 @@ Technology changes can be expensive far beyond the cost of the hardware or softw
 
 ## Knowledge area - Marketing and communications
 
->![Marketing and communications](../media/market-comms.png)
+:::image type="complex" source="../media/market-comms.png" alt-text="Marketing and communications"::: Slide showing three areas; Create awareness, Engage employees, and Enable self-service. These are above Measure our effectiveness.
+:::image-end:::
 
 Since service adoption is a human-centered activity, a critical knowledge area focuses on marketing and communications. If you can't communicate why a change is beneficial, you can't convince employees to participate. Not many IT departments have marketing communication specialists. Often a communication specialist is confused with training specialists, but these are two very different skills. In the context of service adoption, you need to be able to communicate why, when, where, and how the change will occur in a creative and appealing way. Your goal is to get participants in the change and increase the pace of adoption throughout the organization. Often employees resist change because no one's explained the change in terms that are meaningful to their experience. You can change that!
 
@@ -107,7 +108,9 @@ Superior communication can overcome the most difficult of technical and organiza
 
 ## Knowledge area - Portfolio management
 
->![Portfolio management](../media/portfolio-mgmt.png)
+:::image type="complex" source="../media/portfolio-mgmt.png" alt-text="Connected Employee Experience." border="false":::
+A slide showing an example roadmap. It has six sections in the header; Finding, Meeting & Voice, Collaborating, Communicating, Supporting, and Employee Engagement.
+:::image-end:::
 
 Portfolio management is the ability to design and manage an individual improvement project or a portfolio of improvements into a cohesive employee experience roadmap for your organization. It requires all the skills listed above. A roadmap that delivers improvements to the employee experience must balance the needs of customers, measurable business outcomes, technical capabilities, and culture to deliver change in the right-sized bites for your organization.
 
@@ -119,7 +122,7 @@ In the context of this training, we assume you are implementing one change at a 
 
 ## Knowledge area - Leadership
 
->![Image of a rocket launching alongside the words 'The "X" factors'.](../media/leadership.png)
+:::image type="content" source="../media/leadership.png" alt-text="Shuttle launching with booster rockets and the text The 'X' Factor." border="false":::
 
 Finally, the last knowledge area is leadership. Leadership is the ability to inspire a group of people to do things they may have never done before, to bring clarity to the chaos, and to hunt down and mediate conflicts and issues as they occur. Leadership through change is the "X" factor and may require the most personal growth from you, depending on your path to service adoption.
 
