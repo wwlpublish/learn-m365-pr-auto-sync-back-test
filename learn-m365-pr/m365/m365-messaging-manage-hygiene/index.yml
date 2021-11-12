@@ -1,23 +1,23 @@
 ### YamlMime:Module
 uid: learn-m365.m365-messaging-manage-hygiene
 metadata:
-  title: Manage message hygiene using Exchange Online and Microsoft Defender for Endpoint
+  title: Manage message hygiene using Exchange Online and Microsoft Defender for Office 365
   description: Learn how to plan, implement, and configure policies to protect your organization from malware, spam, and phishing. 
   ms.date: 07/19/2021
   author: temanteleary
   ms.author: teleary
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-title: Manage message hygiene using Exchange Online and Microsoft Defender for Endpoint
+title: Manage message hygiene using Exchange Online and Microsoft Defender for Office 365
 summary: Learn how to plan, implement, and configure policies to protect your organization from malware, spam, and phishing.  
 abstract: |
   At the end of this module, you should be able to:
-  - List Microsoft 365 threat protection features
+  - List Microsoft Defender for Office 365 threat protection features
   - Explain filters
   - Explain quarantined items
   - Describe phishing protection
   - Explain spam confidence levels
-  - Explain Microsoft Defender for Endpoint 
+  - Explain Microsoft Defender for Office 365 
 prerequisites: |
  - None
 iconUrl: /learn/achievements/manage-message-hygiene.svg

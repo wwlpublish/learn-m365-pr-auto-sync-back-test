@@ -1,4 +1,4 @@
-In Microsoft 365 Exchange Online Protection (EOP) provides tools to help keep your organization's e-mail clean, often referred to as *message hygiene*. Microsoft 365 threat protection features help you keep unwanted mail out of your users' inboxes — and your network free of spam and viruses.
+In Microsoft 365 Exchange Online Protection (EOP) provides tools to help keep your organization's e-mail clean, often referred to as *message hygiene*. Microsoft Defender for Office 365 threat protection features help you keep unwanted mail out of your users' inboxes — and your network free of spam and viruses.
 
 Message hygiene includes all forms of protection:
 
@@ -7,7 +7,7 @@ Message hygiene includes all forms of protection:
 - Filtering messages to protect against phishing attacks
 - Filtering attachments and links contained in email messages
 
-## Microsoft 365 threat protection features
+## Microsoft Defender for Office 365 threat protection features
 
 Different Microsoft 365 subscriptions include different threat protection types. The following table lists the protection features covered in this module as well as the corresponding subscription requirements.
 
