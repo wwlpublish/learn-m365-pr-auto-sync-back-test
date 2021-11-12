@@ -21,7 +21,7 @@ You could then assign the policy to the users.
 
 You can change the global messaging policy or create a new custom policy. For example, you can change settings to edit and delete sent messages or allow users to remove other users from a group chat.
 
-:::image type="content" source="../media/messaging-policy-settings.png" alt-text="Screenshot showing where the message policy settings can be amended.":::
+:::image type="content" source="../media/messaging-policy-settings.png" alt-text="Screenshot showing where the message policy settings can be amended." lightbox="../media/messaging-policy-settings.png":::
 
 ## Learn more
 
