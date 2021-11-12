@@ -9,7 +9,7 @@ Message hygiene includes all forms of protection:
 
 ## Microsoft Defender for Office 365 threat protection features
 
-Different Microsoft 365 subscriptions include different threat protection types. The following table lists the protection features covered in this module as well as the corresponding subscription requirements.
+Different Microsoft 365 subscriptions include different threat protection types. The following table lists the protection features covered in this module and the corresponding subscription requirements.
 
 |Protection type|Subscription requirement|
 |-|-|
