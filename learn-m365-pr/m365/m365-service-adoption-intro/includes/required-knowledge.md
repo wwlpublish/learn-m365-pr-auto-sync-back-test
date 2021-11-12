@@ -42,7 +42,7 @@ As in any relationship listening is the most important skill, you'll develop in 
 
 ## Knowledge area - Business acumen
 
-:::image type="content" source="../media/business-acumen.png" alt-text="Slide showing the areas of business acumen. It has a circular diagram with topics cycling from Influencing Strategy & Culture, Product Improvement Methods, Impriving Service, Controlling Costs, and Increasing Revenue." lightbox="../media/business-acumen.png:::
+:::image type="content" source="../media/business-acumen.png" alt-text="Slide showing the areas of business acumen. It has a circular diagram with topics cycling from Influencing Strategy & Culture, Product Improvement Methods, Impriving Service, Controlling Costs, and Increasing Revenue." lightbox="../media/business-acumen.png":::
 
 Many Service Adoption Specialists come from the marketing or communication sides of an organization. This is often because they've had success driving change in other areas in the past and are now tasked with a larger initiative. Although this initiative might not be directly related to technology, they may be tasked with product or service improvements and therefore need better technology to deliver on this goal. Those who come from IT backgrounds also have detailed knowledge of the state of the organization and its ability to respond to market changes and customer demands. Whatever your background you need a deep understanding of the strategic, competitive, cultural, and financial needs of your business.
 
@@ -68,8 +68,12 @@ Successful organizations put the customer's needs at the top of the priority lis
 
 Your ability to execute an adoption program must be steeped in the language, challenges, objectives, and outcomes of your business. There's no substitute for homework in this knowledge area. Your knowledge must be directly applicable to the organization, business unit, or employee role you are attempting to help.
 
-|<div style="display: flex; align-items: center; padding:1em">:::image type="icon" source="../media/activity.png" border="false":::<span style="padding-left: 2em">Activity</span></div>|
-|--|
+<div class="centered">
+
+ :::image type="icon" source="../media/activity.png" border="false":::
+
+</div>|
+
 |Find a person in your organization who led a project that was not viewed as "successful." After validating with them their perspective, ask them what they learned. Make it clear you are there to learn, not to judge their experience. Often you'll find people keen to share their learnings with an interested party. After your conversation, ask yourself these questions:<ul><li> How can this lesson help others?</li><li> What would I do differently?</li><li> Could better technology or communication have changed the outcome?</li><li> Could better technology or communication have changed *the perception* of the outcome?</li></ul>|
 
 ## Knowledge area - Technical competence
@@ -88,8 +92,8 @@ Technology changes can be expensive far beyond the cost of the hardware or softw
 
 ## Knowledge area - Marketing and communications
 
-:::image type="complex" source="../media/market-comms.png" alt-text="Marketing and communications"::: Slide showing three areas; Create awareness, Engage employees, and Enable self-service. These are above Measure our effectiveness.
-:::image-end:::
+:::image type="complex" source="../media/market-comms.png" alt-text="Marketing and communications":::image-end::: description: Slide showing three areas; Create awareness, Engage employees, and Enable self-service. These are above Measure our effectiveness.
+
 
 Since service adoption is a human-centered activity, a critical knowledge area focuses on marketing and communications. If you can't communicate why a change is beneficial, you can't convince employees to participate. Not many IT departments have marketing communication specialists. Often a communication specialist is confused with training specialists, but these are two very different skills. In the context of service adoption, you need to be able to communicate why, when, where, and how the change will occur in a creative and appealing way. Your goal is to get participants in the change and increase the pace of adoption throughout the organization. Often employees resist change because no one's explained the change in terms that are meaningful to their experience. You can change that!
 
