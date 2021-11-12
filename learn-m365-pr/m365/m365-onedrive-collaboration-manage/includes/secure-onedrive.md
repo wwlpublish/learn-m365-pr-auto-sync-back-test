@@ -4,7 +4,7 @@ To comply with business standards and industry regulations, organizations must p
 
 DLP policies are configured in the Microsoft 365 Compliance Center. When configured and applied correctly, DLP helps prevent the inadvertent sharing of sensitive items with people who shouldn't have access to them, both inside and outside of your org.  They cover locations such as Exchange, SharePoint, OneDrive, and Microsoft Teams. For example, you can set the DLP policy to identify any documents containing a credit card number that are stored in a OneDrive site or monitor the OneDrive sites of specific users to prevent the accidental sharing of sensitive items by automatically blocking the sharing of those files with people outside your organization. When a user tries to share a sensitive item, the DLP policy can both send them an email and display a policy tip that might allow them to override the policy if they have a business justification.
   
-:::image type="content" source="../media/policy-tip.png" alt-text="Screenshot displays When a user tries to share a sensitive item, the DLP policy can both send them an email and display a policy tip" lightbox="../media/policy-tip.png:::
+:::image type="content" source="../media/policy-tip.png" alt-text="Screenshot displays When a user tries to share a sensitive item, the DLP policy can both send them an email and display a policy tip" lightbox="../media/policy-tip.png":::
 
 ## How DLP policies work
 
