@@ -4,12 +4,12 @@ As a messaging administrator, you need to protect your organization from malicio
 
 By the end of this module, you'll be able to do the following:
 
-- List Microsoft 365 threat protection features
+- List Microsoft Defender for Office 365 threat protection features
 - Explain filters
 - Explain quarantined items
 - Describe phishing protection
 - Explain spam confidence levels (SCL)
-- Explain Microsoft Defender for Endpoint
+- Explain Microsoft Defender for Office 365
 
 ## Prerequisites
 

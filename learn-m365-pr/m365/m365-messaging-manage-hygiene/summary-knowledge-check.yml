@@ -55,9 +55,9 @@ quiz:
       - content: "Exchange Online Protection"
         isCorrect: false
         explanation: "No, Exchange Online Protection can't create fake phishing messages."
-      - content: "Microsoft Defender for Endpoint"
+      - content: "Microsoft Defender for Office 365"
         isCorrect: true
-        explanation: "Yes, you can use the Attack simulator in Microsoft Defender for Endpoint to create and send fake phishing mails."
+        explanation: "Yes, you can use the Attack simulator in Microsoft Defender for Office 365 to create and send fake phishing mails."
       - content: "Microsoft 365"
         isCorrect: false
         explanation: "No, Microsoft 365 can't create and send fake phishing emails without using additional tools."      
