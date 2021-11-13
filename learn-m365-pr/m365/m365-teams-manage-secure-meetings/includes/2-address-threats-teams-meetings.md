@@ -11,14 +11,13 @@ An anonymous user is one that isn't authenticated in your organization's tenant.
 - Participant roles determine meeting control privileges.
 - Participant types allow you to limit access to specific meetings.
 - Scheduling meetings is restricted to users who have an Azure Active Directory account and a Teams license.
-- Anonymous, that is, unauthenticated, users who want to join a dial-in conference must dial one of the conference access numbers. If the **Always allow callers to bypass the lobby** setting is turned **On**, then they also need to wait until a presenter or authenticated user joins the meeting.
+- Anonymous, and therefore unauthenticated, users who want to join a dial-in conference must dial one of the conference access numbers. If the **Always allow callers to bypass the lobby** setting is turned **On**, they still need to wait until the presenter or an authenticated user joins the meeting.
 
 ## Use lobby settings to control anonymous access to Teams meetings
 
 In Teams, anonymous users are transferred to a waiting area called the lobby. Presenters can then either **admit** these users into the meeting or **reject** them. When these users are transferred to the lobby, the presenter and attendees are notified, and the anonymous users must then wait until they're either accepted or rejected, or their connection times out. Meeting organizers control whether participants join a meeting without waiting in the lobby.
 
 Anonymous users can't create or join a meeting as a presenter, but they can be promoted to presenter after they join.
-
 Each meeting can be set up to enable access using any one of the following methods:
 
 The defaults are:
@@ -30,6 +29,8 @@ The defaults are:
 ## Use structured meetings to control guest participation in a Teams Meeting
 
 The other approach to mitigating the risk of allowing external users to join Teams meetings is to use **structured meetings**. The approach grants the Presenter of the meeting with enough control to manage what the attendees do.
+
+In a structured meeting the presenter can grant access to these actions for presenters and attendees. 
 
 | Actions                                                   | Presenters | Attendees |
 | :-------------------------------------------------------- | :--------- | :-------- |

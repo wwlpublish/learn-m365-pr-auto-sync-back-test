@@ -26,14 +26,14 @@ quiz:
       - content: "The cumulative nature of monthly updates means the update decreases in size each month."
         isCorrect: false
         explanation: "Incorrect. The cumulative nature of monthly updates means the update increases in size each month."
-    - content: "Microsoft offers an option, Express Updates, to significantly reduce Windows download size."
+    - content: "Microsoft offers an option, Express Updates, to significantly reduce Windows Updates download size."
       choices:
       - content: "True"
         isCorrect: true
-        explanation: "Correct. Express Updates reduces download size."
+        explanation: "Correct. Express Updates reduces Windows Updates download size by downloading only the changes between the current month's Windows cumulative quality update and the previous month's update."
       - content: "False"
         isCorrect: false
-        explanation: "Incorrect. Express Updates reduces download size."
+        explanation: "Incorrect. Express Updates reduces Windows Updates download size."
     - content: "For Office applications, Microsoft offers a fully-supported quarterly channel option where updates, available on the first day of every quarter (January, April, July, and October), contain both new features and quality updates."
       choices:
       - content: "True"

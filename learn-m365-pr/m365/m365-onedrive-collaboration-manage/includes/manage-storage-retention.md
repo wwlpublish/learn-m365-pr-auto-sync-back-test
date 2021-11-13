@@ -2,23 +2,27 @@ OneDrive storage is provisioned on a per user basis and is designed to serve the
 
 ## Default storage for OneDrive users
 
-The default storage for most subscriptions for each user is 1 TB. The default storage space is set in the OneDrive admin center. To change storage from the default setting for specific user's OneDrive, you need to use PowerShell. The default storage space setting applies to all new and existing users who are licensed for a qualifying plan and for whom you haven't set specific storage limits. To see how much storage users across your organization are using, use the OneDrive usage reports in the Microsoft 365 admin center.
+The default storage for most subscriptions for each user is 1 TB. The default storage space is set in the SharePoint admin center.
 
-If you decrease a user's storage limit to the point that that user is over their new limit, their OneDrive will become read-only.
+:::image type="content" source="../media/storage.png" alt-text="Screenshot of the SharePoint admin center OneDrive default storage limit settings." lightbox="../media/storage.png":::
 
-You can configure the default storage limit for all users in the OneDrive admin center. However, you must use PowerShell to set it for an individual user's OneDrive.
+The default storage space setting applies to all new and existing users who are licensed for a qualifying plan and for whom you haven't set specific storage limits. To see how much storage users across your organization are using, use the OneDrive usage reports in the Microsoft 365 admin center.
 
-![Use these settings to specify storage limits for all users and retention for deleted users](../media/storage.png)
+:::image type="content" source="../media/onedrive-usage-report.png" alt-text="Screenshot of the OneDrive usage report from the Microsoft 365 admin center." lightbox="../media/onedrive-usage-report.png":::
+
+If you decrease a user's storage limit to the point that that user is over their new limit, their OneDrive will become read-only. You can manage individual users storage in the Microsoft 365 admin center in the active users section, or with PowerShell commands.
+
+:::image type="content" source="../media/onedrive-individual-storage.png" alt-text="Screenshot of the edit storage limit options in Microsoft 365 admin center." lightbox="../media/onedrive-individual-storage.png":::
 
 ## OneDrive retention and deletion
 
 When a user is deleted, their OneDrive files are preserved for 30 days by default or for a period that you specify. At the end of the retention period, the files are moved to the recycle bin for 93 days before being permanently deleted. By default, when a user is deleted, their manager is automatically given access to the contents of their OneDrive. If access delegation is disabled or a manager or secondary owner hasn't been specified for that user, no one will have automatic access or be warned the OneDrive content will be deleted when that user is deleted.
 
-![OneDrive retention and deletion process](../media/retention-deletion.png)
+:::image type="content" source="../media/retention-deletion.png" alt-text="Slide showing the flow of OneDrive file retention and deletion." border="false" lightbox="../media/retention-deletion.png":::
 
 You can set the retention time for OneDrive accounts in the OneDrive admin center. The minimum value is 30 days and the maximum value is 3650 days (10 years).
 
- ![You can set the retention time for OneDrive accounts in the OneDrive admin center](../media/retention-time.png)
+:::image type="content" source="../media/retention-time.png" alt-text="Screenshot of the SharePoint admin center options for OneDrive retention." lightbox="../media/retention-time.png":::
 
 ## Microsoft 365 retention and OneDrive
 
@@ -28,7 +32,7 @@ Retention policies allow you to proactively just retain, just delete, or retain 
 
 To add retention settings to specific files in OneDrive vs the entire OneDrive site, you use retention labels rather than retention policies. Retention labels allow you to classify data in OneDrive for governance and enforce retention rules based on that classification. Retention labels can be applied by users manually in OneDrive or applied automatically if files match specific conditions.
 
- ![Retention labels can be applied by users manually in OneDrive or applied automatically if files match specific conditions](../media/retention-labels.png)
+:::image type="content" source="../media/retention-labels.png" alt-text="Retention labels can be applied by users manually in OneDrive or applied automatically if files match specific conditions." border="false" lightbox="../media/retention-labels.png":::
 
 If a user leaves your organization, any files subject to a retention policy or containing retention labels will remain for the duration of the policy or label. During that period, all sharing access continues to work. When the retention period expires, files move into the site collection recycle bin.
 
