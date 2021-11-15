@@ -39,15 +39,15 @@ quiz:
         isCorrect: true
         explanation: "Interoperability is the ability for Teams and Skype for Business users in the same organization to communicate across both Teams and Skype for Business"
       
-    - content: "Which of the following statements about TeamsUpgradePolicy is true? "
+    - content: "Which of the following statements about `TeamsUpgradePolicy` is true? "
       choices:
-      - content: "TeamsUpgradePolicy is the setting where you change coexistence mode."
+      - content: "`TeamsUpgradePolicy` is the setting where you change coexistence mode."
         isCorrect: false
-        explanation: "TeamsUpgradePolicy is the setting where you both change coexistence mode and whether to notify Skype for Business users of the change."
-      - content: "TeamsUpgradePolicy is the setting where you change coexistence mode and whether to notify Skype for Business users of the change."
+        explanation: "`TeamsUpgradePolicy` is the setting where you both change coexistence mode and whether to notify Skype for Business users of the change."
+      - content: "`TeamsUpgradePolicy` is the setting where you change coexistence mode and whether to notify Skype for Business users of the change."
         isCorrect: true
-        explanation: "TeamsUpgradePolicy is the setting where you change coexistence mode and whether to notify Skype for Business users of the change."
-      - content: "TeamsUpgradePolicy is the setting where you notify Skype for Business users of the change."
+        explanation: "`TeamsUpgradePolicy` is the setting where you change coexistence mode and whether to notify Skype for Business users of the change."
+      - content: "`TeamsUpgradePolicy` is the setting where you notify Skype for Business users of the change."
         isCorrect: false
-        explanation: "TeamsUpgradePolicy is the setting where you both change coexistence mode and whether to notify Skype for Business users of the change."
+        explanation: "`TeamsUpgradePolicy` is the setting where you both change coexistence mode and whether to notify Skype for Business users of the change."
       
