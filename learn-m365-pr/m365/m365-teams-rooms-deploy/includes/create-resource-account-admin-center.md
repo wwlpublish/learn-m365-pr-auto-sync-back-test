@@ -15,7 +15,7 @@ To create a new account using the Microsoft 365 admin center:
 
 1. After the resource account has been created, you'll receive an acknowledgment that the Room mailbox is ready to use.
 
-    :::image type="content" source="../media/acknowledgment-mailbox.png" alt-text="Screenshot displays Acknowledgment of mailbox creation." lightbox="../media/acknowledgement-mailbox.png":::
+    :::image type="content" source="../media/acknowledgment-mailbox.png" alt-text="Screenshot displays Acknowledgment of mailbox creation." lightbox="../media/acknowledgment-mailbox.png":::
 
 1. **Edit your account default values and options**. If you click on **Edit booking options**, you'll see the default values that are assigned to this account.
 
