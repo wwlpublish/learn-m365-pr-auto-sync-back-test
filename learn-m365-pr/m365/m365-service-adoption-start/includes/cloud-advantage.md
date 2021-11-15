@@ -32,7 +32,7 @@ Your stakeholders and executives are employees too. They may have unique needs, 
 
 ## Employee benefits of moving to the cloud
 
->:::image type="content" source="../media/employee-benefits.png" alt-text="Employee benefits":::
+:::image type="content" source="../media/employee-benefits.png" alt-text="Employee benefits":::
 
 Every employee wants to know, "What's in it for me?" when you start discussing changing the way they work. Too often we make the mistake to start talking about product features and organizational benefits instead of empathizing with their day to day struggle to collaborate, communicate, and get work done. This can easily be changed by shifting the center of gravity of the change program to be the employee experience.
 
