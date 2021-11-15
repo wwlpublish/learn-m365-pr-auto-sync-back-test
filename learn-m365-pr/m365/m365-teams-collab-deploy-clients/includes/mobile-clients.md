@@ -2,7 +2,7 @@ The Microsoft Teams mobile apps are available for Android (4.4 or later) and iOS
 
 <div class="centered">
 
-:::image type="content" source="../media/teams-mobile-client.png" alt-text="Screenshot of Teams mobile client":::
+> :::image type="content" source="../media/teams-mobile-client.png" alt-text="Screenshot of Teams mobile client":::
 
 Mobile apps can be installed from the Google Play or Apple App Store. The mobile client is available through Mobile Device Management (MDM) if it is acquired by a user with an administrator account. For example, you can use the Apple Volume Purchase Plan to get the Teams Mobile App and then deploy it to eligible users or devices by using Microsoft Intune.
 
