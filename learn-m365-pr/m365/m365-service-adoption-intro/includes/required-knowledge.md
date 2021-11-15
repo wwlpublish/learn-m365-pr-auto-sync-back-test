@@ -70,11 +70,10 @@ Your ability to execute an adoption program must be steeped in the language, cha
 
 <div class="centered">
 
- :::image type="icon" source="../media/activity.png" border="false":::
+:::image type="icon" source="../media/activity.png" border="false":::
+</div>
 
-</div>|
-
-|Find a person in your organization who led a project that was not viewed as "successful." After validating with them their perspective, ask them what they learned. Make it clear you are there to learn, not to judge their experience. Often you'll find people keen to share their learnings with an interested party. After your conversation, ask yourself these questions:<ul><li> How can this lesson help others?</li><li> What would I do differently?</li><li> Could better technology or communication have changed the outcome?</li><li> Could better technology or communication have changed *the perception* of the outcome?</li></ul>|
+Find a person in your organization who led a project that was not viewed as "successful." After validating with them their perspective, ask them what they learned. Make it clear you are there to learn, not to judge their experience. Often you'll find people keen to share their learnings with an interested party. After your conversation, ask yourself these questions:<ul><li> How can this lesson help others?</li><li> What would I do differently?</li><li> Could better technology or communication have changed the outcome?</li><li> Could better technology or communication have changed *the perception* of the outcome?</li></ul>
 
 ## Knowledge area - Technical competence
 
