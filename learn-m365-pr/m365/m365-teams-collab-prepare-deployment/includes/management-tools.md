@@ -48,11 +48,8 @@ These cmdlets work only on the teams for which you are an owner or a member. Glo
 
 Microsoft Graph is the gateway to data and intelligence in Microsoft 365. Graph provides a unified programmability model that you can use to access the tremendous amount of data in Microsoft 365, Windows 10, and Enterprise Mobility + Security. Graph is built on a REST-based API that allows access to Teams and other Microsoft 365 services.
 
-<div class="centered">
-
-:::image type="content" source="../media/graph-api.png" alt-text="A diagram showing how Teams, Tasks, Insights and other services are all connected by the Microsoft Graph." border="false":::
-
-</div>
+> [!div class="centered"]
+> :::image type="content" source="../media/graph-api.png" alt-text="A diagram showing how Teams, Tasks, Insights and other services are all connected by the Microsoft Graph." border="false":::
 
 In Graph, Teams is represented by a group resource, since Teams and Microsoft 365 Groups both work together to facilitate group collaboration. Most of the same group-based features apply to Microsoft Teams and Microsoft 365 groups, the main difference being the way members communicate with each other. Team members communicate by persistent chat in the context of a specific team. Microsoft 365 Group members communicate by group conversations, which are email conversations that occur in the context of a group in Outlook. Microsoft Graph is a powerful tool for managing actual teams.
 
