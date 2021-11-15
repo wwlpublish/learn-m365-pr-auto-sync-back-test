@@ -41,7 +41,7 @@ When you create an Azure Virtual Desktop host pool, you can choose to create new
 
 ### Number of VMs
 
-You can create up to 159 VMs when you first create your host pool. Each deployment creates four objects per VM, that can be seen in your resource group plus some additional Azure Resource Manager objects. So you can quickly reach the 800 Azure resources per deployment limit. You can add more VMs to the host pool after you finish creating your host pool. Check the Azure VM and API limits for your resource group and subscription.
+You can create up to 159 VMs when you first create your host pool. Each deployment creates four objects per VM, which you can see in your resource group, along with Azure Resource Manager objects. As a result, you can reach the 800 Azure resources per deployment limit very quickly. You can add more VMs to the host pool after you finish creating your host pool. Check the Azure VM and API limits for your resource group and subscription.
 
 ### VM sizing
 
