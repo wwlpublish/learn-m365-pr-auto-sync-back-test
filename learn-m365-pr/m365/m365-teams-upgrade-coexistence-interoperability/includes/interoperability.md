@@ -82,7 +82,7 @@ In interoperability threads, and in federation interoperability threads, the Tea
 
 If the users were in a call, the menu also warns them that their current call between Teams and Skype for Business will be terminated as they are put into a Teams meeting. If they so choose, they can warn the Skype for Business user prior to accepting.
 
-:::image type="content" source="../media/meeting-with-skype-user.png" alt-text="Screen shot of Teams warning message cancelling call and joining user to a Teams call.":::
+:::image type="content" source="../media/meeting-with-skype-user.png" alt-text="Screen shot of Teams warning message cancelling call and joining user to a Teams call." lightbox="../media/meeting-with-skype-user.png":::
 
 Upon acceptance, they are put in the Teams meeting; they must start sharing from the sharing tray in the meeting.
 
