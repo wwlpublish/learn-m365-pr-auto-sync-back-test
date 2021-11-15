@@ -26,7 +26,7 @@ At the same time, you may be charged with solidifying for your stakeholders what
 
 Your stakeholders and executives are employees too. They may have unique needs, but they too are emailing those spreadsheets around. Pay special attention to helping them transform to gain more vocal decision makers that will support your change program.
 
-|:::image type="content" source="../media/activity.png" alt-text="Activity icon"::: Activity|
+|:::image type="content" source="../media/activity.png" alt-text="Activity icon" border="false"::: Activity|
 |-|
 |Meet with the executive assistants in your company regularly in a relaxed environment. Encourage them to share with you the challenges they have in supporting their executives and the water cooler buzz about the change that is being implemented. This group of individuals are normally influential regarding any change. Engage with them early and often!|
 
