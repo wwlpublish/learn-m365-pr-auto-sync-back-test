@@ -66,7 +66,7 @@ To prevent these false positives, the presence service is now informing the Skyp
 
 If the Skype for Business user wanted to share their desktop, they would be informed that a meeting will start and guided through the steps.
 
-:::image type="content" source="../media/start-meeting-with-teams-user.png" alt-text="Screen shot showing the messages that screen sharing will start with Teams users.":::
+:::image type="content" source="../media/start-meeting-with-teams-user.png" alt-text="Screen shot showing the messages that screen sharing will start with Teams users." lightbox="../media/start-meeting-with-teams-user.png":::
 
 Meanwhile, the Teams user receives an incoming chat message with the link to the meeting and is guided to join.
 
