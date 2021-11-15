@@ -40,7 +40,7 @@ The graphic above shows four different personas with common issues. A *persona* 
 
 This simple mapping shows a user, their role, a common problem and how to address it with Microsoft 365. The outcome of this work is to clearly identify what is in it for the employee if they join you on the change journey.
 
-|:::image type="content" source="../media/activity.png" alt-text="Activity icon"::: Activity|
+|:::image type="content" source="../media/activity.png" alt-text="Activity icon" border="false"::: Activity|
 |-|
 |Conduct short, 15-minute interviews with employees at your work. Ask them the following questions:<br>- "What do you like about how we collaborate here?"<br>- "What tools do you use frequently to collaborate?"<br>- "What is most annoying about trying to collaborate and get work done at our company?"<br><br>For each interviewee, note how long they have been at your company, what role they currently have, and how long they have been in it. Try to interview a few senior leaders, middle managers and new employees to get a quick baseline of their perspectives. It is best to do these in person if possible so that you can observe the body language and tone of the person you are interviewing. You can also conduct these via video chat or if need be by written response through a Form. <br><br> Use this information to begin to form a picture of how collaboration services are viewed in your company. Remember to thank people for their feedback!|
 
