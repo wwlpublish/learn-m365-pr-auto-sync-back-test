@@ -73,7 +73,7 @@ Through FastTrack, community forums, and your other business relationships you c
 
 ## Understanding the change curve
 
->:::image type="content" source="../media/change-curve.png" alt-text="The change curve":::
+:::image type="content" source="../media/change-curve.png" alt-text="The change curve":::
 
 In any change program, it's important to understand the basic change curve that applies to all people. Whether personal or professional this structure applies. This training is focused on professional examples, but think about how change has happened in your own life and how you've responded to it. This helps you have empathy and compassion for those who are more resistant to change than may make you comfortable.
 
