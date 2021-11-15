@@ -14,7 +14,7 @@ You're ready to begin your strategy and project plan. You need to quickly delive
 > [!NOTE]
 > With the advent of Microsoft Teams, IT professionals who formerly ran only collaboration or communications/telephony services now need to work together to deliver an integrated experience. In small organizations this may be one individual in larger organization, it's often two or more people.
 
-|:::image type="content" source="../media/activity.png" alt-text="Activity icon"::: Activity|
+|:::image type="content" source="../media/activity.png" alt-text="Activity icon" border="false"::: Activity|
 |-|
 |Read [Microsoft Teams Phase One](/microsoftteams/teams-adoption-phase1) for more information on roles and pre-requisites for this phase of your planning.<br><br>Watch and use introduction videos like [What is Microsoft Teams?](https://support.office.com/article/video-what-is-microsoft-teams-422bf3aa-9ae8-46f1-83a2-e65720e1a34d) to ensure people begin to understand what this new experience can do. Note that this video doesn't focus on a long list of features but on the outcomes for employees.|
 
