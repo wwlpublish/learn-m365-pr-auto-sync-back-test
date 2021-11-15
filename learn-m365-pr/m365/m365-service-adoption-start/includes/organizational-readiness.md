@@ -2,7 +2,7 @@ After you've secured your project team, the next step on your upgrade journey is
 
 **By assessing your organization's readiness, you can determine how receptive (or not) your users are likely to be to changing the way they work and adopting new technology.** Understanding how users react to change empowers your organization to proactively address concerns, adjust your rollout plan to get optimal buy-in, and identify users who can help you facilitate the change with their peers.
 
-:::image type="content" source="../media/activity.png" alt-text="Activity icon"::: **Activity**
+:::image type="content" source="../media/activity.png" alt-text="Activity icon" border="false"::: **Activity**
 
 Use the following conversation starters to conduct an organizational readiness assessment and document the culture of your organization when it comes to change. This information can help inform how much awareness and training you might need to implement for your project. Don't worry about exact numbers. This exercise represents a general understanding of your organizational culture. If you're not sure where to start, evaluate a past rollout; this can help you anticipate how users might react to change and help you proactively address the reactions you expect.
 
