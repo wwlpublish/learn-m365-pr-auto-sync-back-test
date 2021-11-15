@@ -53,7 +53,7 @@ For multi-session VM sizing recommendations, see [Virtual machine sizing guideli
 
 You choose the image type Azure uses to create the virtual machine, either Gallery or Storage blob.
 
-- *Gallery* -  With this image type, you can select one of the recommended images from the drop-down menu like Windows 10 Enterprise multi-session + Office 365. If you don't see the image you want, select See all images and disks. This lets you select an image in your gallery or another image provided by Microsoft and other publishers.  
+- *Gallery* -  With this image type, you can select one of the recommended images from the drop-down menu like Windows 10 Enterprise multi-session + Office 365. If you don't see the image you want, select **See all images and disks**. This lets you select an image in your gallery or another image provided by Microsoft and other publishers.  
 
 - *Storage blob* - Allows you to use your own image built through Hyper-V or on an Azure VM. You might use this option when you have an image you're using on-premises and just want to upload it and start using it in Azure immediately. When you select this option, there are some additional fields you need to complete.
   - *Image URI* - Enter the URL to the generalized VHD from your Azure Storage account. 
