@@ -53,7 +53,7 @@ quiz:
         explanation: "Incorrect. Group policy allows you to change settings."
       - content: "Microsoft Intune"
         isCorrect: false
-        explanation: "Incorrect. Microsoft Intune does not allow you to create self-containied provisioning packages."
+        explanation: "Incorrect. Microsoft Intune does not allow you to create self-contained provisioning packages."
       - content: "Microsoft Autopilot"
         isCorrect: false
         explanation: "Incorrect. Windows autopilot allows you to set up and pre-configure new devices but does not create self-contained provisioning packages."
