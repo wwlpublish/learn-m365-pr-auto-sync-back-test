@@ -6,7 +6,7 @@ A common mistake in user adoption programs is to tout the benefits of moving to 
 
 First and foremost, we can reduce their interaction with IT. Properly governed Microsoft Teams and other Microsoft 365 workloads can support a self-service mode. This allows employees to create project teams on-demand and when they need them. This reduction of friction with IT and IT services is a capability that will allow you to deliver a more secure environment for your company data by reducing your employee's reliance on consumer and shadow software.
 
-|:::image type="content" source="../media/activity.png" alt-text="Activity icon"::: Activity|
+|:::image type="content" source="../media/activity.png" alt-text="Activity icon" border="false"::: Activity|
 |-|
 | Take stock of the usage of consumer or unapproved software in your environment by scanning your network for *.exe files or conducting a short survey.|
 
