@@ -1,4 +1,4 @@
->:::image type="content" source="../media/phase-1.png" alt-text="The Start phase":::
+:::image type="content" source="../media/phase-1.png" alt-text="The Start phase" lightbox="../media/phase-1.png":::
 
 You're ready to begin your strategy and project plan. You need to quickly deliver some meaningful results as the overall project budget is not yet set. Realizing that talent is your most important asset first assess the internal resources available to help you accomplish your goals. The following skills and roles are essential to a successful project:
 
