@@ -34,6 +34,7 @@ We recommend having each of these roles fulfilled throughout your rollout, altho
 |----|--------------|----------|
 |Executive sponsor|Communicate high-level vision and values to the company|Executive leadership|
 |Project lead|Oversee the entire launch execution and rollout process|Project management|
+|Success owner|Creates the success plan and defines how success will be measured|Any department|
 |Knowledge administrators|Set up and configure Viva Topics|IT department|
 |Knowledge managers|Manage topics and oversee the category of Topics|Any department|
 |Subject matter experts and topic contributors|Generate or review topics and descriptions|Any department|
