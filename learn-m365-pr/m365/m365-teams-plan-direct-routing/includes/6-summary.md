@@ -14,7 +14,7 @@ Finally, you saw how to optimize media flow using media bypass and local media o
 
 The following diagram provides a high-level summary of Direct Routing.
 
-:::image type="content" source="../media/6-direct-routing-basics.png" alt-text="The following diagram provides a high-level summary of Direct Routing.":::
+:::image type="content" source="../media/6-direct-routing-basics.png" alt-text="The following diagram provides a high-level summary of Direct Routing." lightbox="../media/6-direct-routing-basics.png":::
 
 Having completed this module, you should now be able to:
 
