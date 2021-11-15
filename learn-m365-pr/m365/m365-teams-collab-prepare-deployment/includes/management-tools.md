@@ -22,7 +22,7 @@ Teams management tools can be accessed in the [Microsoft Teams admin center](htt
 
 You can turn apps off or on for Teams in the **Manage apps** section of the **Microsoft Teams admin center**. You must have Microsoft 365 administrative permissions to access these settings. You can turn default apps on and off and configure settings to control external apps.
 
-:::image type="content" source="../media/management-tools-manage-apps.png" alt-text="Screenshot showing the Org-wide app settings expanded in the manage apps section of the Microsoft Teams admin center.":::
+:::image type="content" source="../media/management-tools-manage-apps.png" alt-text="Screenshot showing the Org-wide app settings expanded in the manage apps section of the Microsoft Teams admin center." lightbox="../media/management-tools-manage-apps.png":::
 
 Default apps, such as Planner, Praise, and Weather, are provided by Teams. To turn on an app, select the check box for that app. To turn off an app, clear the check box.
 
