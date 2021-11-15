@@ -45,7 +45,7 @@ A SBC is the interface between Microsoft Teams Phone and Teams, and third-party 
 
 This diagram shows how the SBC connects Teams and Phone System to legacy PBX and PSTN systems.
 
-:::image type="content" border="false" source="../media/2-session-border-controller.png" alt-text="Diagram shows how the Session border controllers connect Teams and Phone System to legacy PBX and PSTN systems.":::
+:::image type="content" source="../media/2-session-border-controller.png" alt-text="Diagram shows how the Session border controllers connect Teams and Phone System to legacy PBX and PSTN systems." lightbox="../media/2-session-border-controller.png":::
 
 SBCs must go through a certification process that includes being validated in a third-party lab and daily testing in preproduction. This process is done jointly with SBC vendors. The SBC devices are certified by make, model, and firmware level, often with a required minimum firmware version.
 SBCs might be physical hardware devices or software deployed in the cloud, such as Azure or AWS.
