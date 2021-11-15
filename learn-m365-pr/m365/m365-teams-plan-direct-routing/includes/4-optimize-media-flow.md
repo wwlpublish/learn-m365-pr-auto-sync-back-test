@@ -34,7 +34,7 @@ Local Media Optimization controls how media traffic flows between the Teams clie
 
 When Local Media Optimization is configured, the internal IP address of the SBC is used, rather than the external IP address. This means that SBCs can be behind a firewall, and not necessarily seen by Teams.
 
-:::image type="content"  source="../media/4-local-media-optimization.png" alt-text="Diagram explains that when Local Media Optimization is configured, the internal IP address of the SBC is used, rather than the external IP address. This means that Session Border Controllers can be behind a firewall, and not necessarily seen by Teams.":::
+:::image type="content" source="../media/4-local-media-optimization.png" alt-text="Diagram explains that when Local Media Optimization is configured, the internal IP address of the SBC is used, rather than the external IP address. This means that Session Border Controllers can be behind a firewall, and not necessarily seen by Teams." lightbox="../media/4-local-media-optimization.png":::
 
 To configure Local Media Optimization, you need to create a **proxy SBC**, with a public IP address, to communicate with Phone Service. It's deployed and configured in the same way as any other SBC for direct routing. This proxy SBC is the target for online voice routes.
 
