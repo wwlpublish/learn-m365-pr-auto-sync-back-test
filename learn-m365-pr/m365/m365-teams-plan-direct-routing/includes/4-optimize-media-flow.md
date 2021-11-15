@@ -26,7 +26,7 @@ Finally, with media bypass, SBCs need to communicate with transport relays, so t
 
 This diagram summarizes the requirements for IP address ranges and ports for media bypass.
 
-:::image type="content" border="false" source="../media/4-media-bypass-ips.png" alt-text="Diagram summarizes the requirements for IP address ranges and ports for media bypass.":::
+:::image type="content" source="../media/4-media-bypass-ips.png" alt-text="Diagram summarizes the requirements for IP address ranges and ports for media bypass." lightbox="../media/4-media-bypass-ips.png":::
 
 ## Local Media Optimization
 
