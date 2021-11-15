@@ -20,7 +20,7 @@ Part of your core message can be to acknowledge that your employees are fundamen
 
 ## Organizational benefits of moving the cloud
 
->:::image type="content" source="../media/org-benefits.png" alt-text="Organizational benefits":::
+:::image type="content" source="../media/org-benefits.png" alt-text="Organizational benefits" lightbox="../media/org-benefits.png":::
 
 At the same time, you may be charged with solidifying for your stakeholders what this transition to a modern cloud experience will gain for them. Your stakeholders may also be in denial or resistance to this change. However, most stakeholders and executives realize the need for greater technical agility and innovation. They too need secure, anytime/anywhere access to corporate data and want to control costs in IT by transforming its ability to be a competitive advantage rather than a cost center.
 
