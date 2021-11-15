@@ -36,7 +36,7 @@ If you don't have a senior executive who is willing to participate, you can driv
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3Fq2b]
 
-|:::image type="content" source="../media/activity.png" alt-text="Activity icon"::: Activity|
+|:::image type="content" source="../media/activity.png" alt-text="Activity icon" border="false"::: Activity|
 |-|
 |Map out your team structures and workstream assignments for your own organization. Take this opportunity to identify talent in your organization or any gaps that need to be filled. It's important to identify missing talent areas early in your planning process so you can get the correct kind of help. Download our Workstream Assignment handout to aid you in this process. |
 
