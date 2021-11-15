@@ -1,6 +1,9 @@
 Exchange includes a large set of predefined permissions based on the Role-Based Access Control (RBAC) permissions model. This design enables organizations to get up and running quickly by easily granting permissions to their administrators and users.
 
-RBAC is the permission model that’s used in most of the Microsoft services, such as Exchange Server, Exchange Online, Microsoft 365 admin center, and the Microsoft 365 Defender portal. That being said, it’s important to note that role groups for one service don't necessarily grant permissions for other services.
+RBAC is the permission model that’s used in most of the Microsoft services, such as Exchange Server, Exchange Online, Microsoft 365 admin center, and the Microsoft 365 Defender portal.
+
+> [!NOTE]
+> While RBAC is used in multiple Microsoft services, role groups for one service don't necessarily grant permissions for other services.
 
 RBAC enables you to control what administrators and end users can do at both broad and granular levels. RBAC also enables you to closely align the roles you assign users and administrators to the actual roles they hold within your organization.
 
