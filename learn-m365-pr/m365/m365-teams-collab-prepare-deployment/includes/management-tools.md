@@ -12,25 +12,25 @@ Command-line and automation tools include:
 - PowerShell, for configuration and limited lifecycle management
 - Graph API, for lifecycle management
 
-## Microsoft Teams admin center
+## Manage teams
 
-Teams management tools can be accessed in the Microsoft Teams admin center under **Teams > Manage teams**. Each team is backed by a Microsoft 365 group, and this node provides a view of groups that have been enabled for Microsoft Teams in your organization. Administrators can edit group and team-specific settings here.
+Teams management tools can be accessed in the [Microsoft Teams admin center](https://admin.teams.microsoft.com) under **Teams > Manage teams**. Each team is backed by a Microsoft 365 group, and this node provides a view of groups that have been enabled for Microsoft Teams in your organization. Administrators can edit group and team-specific settings here.
 
-![Microsoft Teams admin center](../media/management-teams-admin-center.png)
+:::image type="content" source="../media/management-teams-admin-center.png" alt-text="Screenshot of the Microsoft Teams admin center showing the manage teams section." lightbox="../media/management-teams-admin-center.png":::
 
-## Microsoft 365 admin center
+## Manage apps
 
-You can turn apps off or on for Teams in **Tenant-wide settings** in the Microsoft 365 admin center. You must have Microsoft 365 administrative permissions to access these settings. Under **Apps**, you can turn default apps on and off and configure settings to control external apps.
+You can turn apps off or on for Teams in the **Manage apps** section of the **Microsoft Teams admin center**. You must have Microsoft 365 administrative permissions to access these settings. You can turn default apps on and off and configure settings to control external apps.
+
+:::image type="content" source="../media/management-tools-manage-apps.png" alt-text="Screenshot showing the Org-wide app settings expanded in the manage apps section of the Microsoft Teams admin center." lightbox="../media/management-tools-manage-apps.png":::
 
 Default apps, such as Planner, Praise, and Weather, are provided by Teams. To turn on an app, select the check box for that app. To turn off an app, clear the check box.
 
 External apps are provided by third parties. You can configure the following settings for external apps:
 
-- Allow external apps in Microsoft Teams
-- Allow sideloading of external apps
-- Enable new external apps by default
-
-You can also control organization-wide user settings in the Microsoft Teams admin center under **Org-wide settings**.
+- Allow third-party apps
+- Allow any new third-party apps published to the store by default
+- Allow interaction with custom apps
 
 ## Microsoft 365 Defender portal and Microsoft 365 compliance center
 
@@ -40,7 +40,7 @@ The Microsoft 365 Defender portal and Microsoft 365 compliance center are design
 
 PowerShell is a shell and scripting language that helps system administrators and power users rapidly automate management tasks from a command line. Administrators can use PowerShell to manage settings, configuration, and policy in Teams.
 
-The PowerShell controls for managing Teams are found in two different PowerShell modules: the Microsoft Teams PowerShell module, and the Skype for Business PowerShell module. The Teams PowerShell module contains all the cmdlets you need to create and manage teams. The Skype for Business PowerShell module contains the cmdlets to manage policies, configurations, and other Teams tools.
+The Teams PowerShell module contains all the cmdlets you need to create and manage teams. The module contains the cmdlets to manage policies, configurations, and other Teams tools.
 
 These cmdlets work only on the teams for which you are an owner or a member. Global Administrators or Teams Service Administrators can act on all teams in your organization.
 
@@ -48,7 +48,8 @@ These cmdlets work only on the teams for which you are an owner or a member. Glo
 
 Microsoft Graph is the gateway to data and intelligence in Microsoft 365. Graph provides a unified programmability model that you can use to access the tremendous amount of data in Microsoft 365, Windows 10, and Enterprise Mobility + Security. Graph is built on a REST-based API that allows access to Teams and other Microsoft 365 services.
 
-![Microsoft Graph API](../media/graph-api.png)
+> [!div class="centered"]
+> :::image type="content" source="../media/graph-api.png" alt-text="A diagram showing how Teams, Tasks, Insights and other services are all connected by the Microsoft Graph." border="false":::
 
 In Graph, Teams is represented by a group resource, since Teams and Microsoft 365 Groups both work together to facilitate group collaboration. Most of the same group-based features apply to Microsoft Teams and Microsoft 365 groups, the main difference being the way members communicate with each other. Team members communicate by persistent chat in the context of a specific team. Microsoft 365 Group members communicate by group conversations, which are email conversations that occur in the context of a group in Outlook. Microsoft Graph is a powerful tool for managing actual teams.
 
