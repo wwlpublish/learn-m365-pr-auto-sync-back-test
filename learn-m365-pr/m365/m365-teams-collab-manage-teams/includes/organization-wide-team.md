@@ -5,7 +5,7 @@ With org-wide teams, global administrators can easily create a public team that 
 :::image type="content" source="../media/org-wide-team.png" alt-text="Screenshot showing the 3 different teams options of Private, Public and Org-wide." lightbox="../media/org-wide-team.png":::
 
 > [!NOTE]
-> If your organization is new to Teams, and is smaller that 5,000 users, an org-wide team will be created for you automatically with a name taken from the tenant name. Organizations larger than 5,000 users and smaller than 10,000 users can create their org-wide teams manually.
+> If your organization is new to Teams and is smaller than 5,000 users, an org-wide team will be created for you automatically with a name taken from the tenant name. Organizations larger than 5,000 users and smaller than 10,000 users can create their org-wide teams manually.
 
 ## Create an organization-wide team
 
