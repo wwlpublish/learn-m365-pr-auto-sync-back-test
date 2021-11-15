@@ -10,7 +10,7 @@ The key components you deploy when you set up Azure Virtual Desktop are a host p
 
  A host pool is a collection of identical Azure virtual machines (VMs) that act as session hosts for Azure Virtual Desktop, letting your users access desktops or remote applications. There are two types of host pools:
 
-- *Pooled* - A *pooled* host pool lets several users sign in and share a VM. This option is generally more efficient and less expensive, because several users share virtual machine resources. The Pooled option provides a consistent experience for users who don't need to install apps or configure their virtual machines. Typically, none of those users would be a local administrator on the pooled VM. With pooled, you can use one of the recommended images that include Windows 10 Enterprise multi-session. This OS is exclusive to Azure Virtual Desktop.
+- *Pooled* - A *pooled* host pool lets several users sign in and share a VM. This option is generally more efficient and less expensive, because several users share virtual machine resources. The pooled option provides a consistent experience for users who don't need to install apps or configure their virtual machines. Typically, none of those users would be a local administrator on the pooled VM. With pooled host pools, you can use one of the recommended images that include Windows 10 Enterprise multi-session. This OS is exclusive to Azure Virtual Desktop.
 - *Personal* - A *personal* host pool is where each user has their own dedicated VM. Those users would typically be a local administrator for the VM. So they could install or uninstall apps without impacting other users.
 
 There are two load-balancing options for the host pool:
