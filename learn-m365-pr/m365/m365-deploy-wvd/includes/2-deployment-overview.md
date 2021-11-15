@@ -59,7 +59,7 @@ You choose the image type Azure uses to create the virtual machine, either Galle
   - *Image URI* - Enter the URL to the generalized VHD from your Azure Storage account. 
   - *Storage account* - You select the Azure storage account that contains your image.
 [!NOTE]
-We advise you to register these images within Azure using the Azure Image Creation tool to unlock better performance and management capabilities.
+>We recommend registering these images within Azure using the Azure Image Creation tool to unlock better performance and management capabilities.
 
 ## Select virtual network
 
