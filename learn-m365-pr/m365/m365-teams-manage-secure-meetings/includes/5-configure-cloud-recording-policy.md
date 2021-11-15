@@ -9,7 +9,7 @@ Here, you'll learn how to control who can make meeting recordings, how recording
 To record Microsoft Teams meetings, there's a few things you'll need:
 
 - The meeting organizer and person who starts the recording must have a **Microsoft 365** license.
-- To store meeting recordings, you need to have sufficient storage in OneDrive for Business. The Teams' channel also needs to have sufficient storage in SharePoint Online for channel meetings.
+- To store meeting recordings, you need to have sufficient storage in OneDrive for Business. The Teams channel also needs to have sufficient storage in SharePoint Online for channel meetings.
 - The person who starts the recording must work for the organization. They can't join the meeting as an anonymous user, a guest, or a federated user.
 - To enable a meeting transcript, the assigned meeting policy must have **Allow Transcription** set to true.
 
