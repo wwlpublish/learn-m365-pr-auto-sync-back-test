@@ -1,6 +1,6 @@
 The Microsoft Teams mobile apps are available for Android (4.4 or later) and iOS (10.0 or later). They are geared to on-the-go users participating in chat-based conversations, allowing peer-to-peer audio calls.
 
-<div class="centered">
+> [!div class="centered"]
 
 > :::image type="content" source="../media/teams-mobile-client.png" alt-text="Screenshot of Teams mobile client":::
 
