@@ -58,7 +58,7 @@ The SBC must have a fully qualified domain name, and there are some requirements
 - You must add at least one domain name to your Microsoft tenant, such as **contoso.com**. This allows you to assign a valid name to the SBC, such as **sbc1.contoso.com** or **europe.contoso.com**.
 - A sub-domain name, such as **sbc1.europe.contoso.com** isn't a valid name unless you register **europe.contoso.com** as a domain name.
 
-:::image type="content" border="false" source="../media/2-sbc-fqdn.png" alt-text="Diagram shows that the Session border controller must have a fully qualified domain name.":::
+:::image type="content" source="../media/2-sbc-fqdn.png" alt-text="Diagram shows that the Session border controller must have a fully qualified domain name." lightbox="../media/2-sbc-fqdn.png":::
 
 ## Certificates
 
