@@ -9,7 +9,7 @@ The length of time that an audit record is retained and searchable depends on yo
 
 You search the audit log through the Microsoft 365 Defender portal UI. (Options to use PowerShell and the Office 365 Management Activity API are also available.)
 
-![You search the audit log through the Microsoft 365 Defender portal UI](../media/audit-log-search.png) 
+:::image type="content" source="../media/audit-log-search.png" alt-text="Screenshot audit log through the Microsoft 365 Defender portal UI." lightbox="../media/audit-log-search.png":::
 
 When searching the audit log, you can:
 
@@ -20,7 +20,7 @@ When searching the audit log, you can:
 
 Search results are loaded in increments of 150 events and if more than 5,000 events meet the search criteria, the most recent 5,000 events are displayed.
 
-![Search results are loaded in increments of 150 events up to 5,000 events](../media/results.png)  
+:::image type="content" source="../media/results.png" alt-text="Screenshot displays Search results are loaded in increments of 150 events up to 5,000 events." lightbox="../media/results.png":::
 
 To see all results, take them offline, or filter them, you can export them to a comma-separated value (CSV) file on your local computer. 50,000 entries total can be downloaded.
 
@@ -32,7 +32,7 @@ Activities when searching audit logs commonly involve files, folders, sharing, a
 - When a file is copied.
 - When a file is deleted.
 - When a file is downloaded.
-- When a user shares a resource in OneDrive with a user who isn't in your organization's directory. 
+- When a user shares a resource in OneDrive with a user who isn't in your organization's directory.
 - When a user creates an anonymous link to a resource.
 
 ## Learn more

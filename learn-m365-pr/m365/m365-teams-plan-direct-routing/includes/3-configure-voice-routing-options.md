@@ -1,6 +1,6 @@
 In the previous unit, we identified the voice configuration objects that interact with each other to allow users to place calls. In this unit, let's consider how to configure these voice routing objects.  The objects include **PSTN usage records**, a **Voice Routing Policy**, the **Voice Route**, **Dial Plan**, and **Gateway**.
 
-:::image type="content" border="false"  source="../media/1-direct-routing-planning-steps.png" alt-text="Direct Routing planning steps":::
+:::image type="content" border="false"  source="../media/1-direct-routing-planning-steps.png" alt-text="Diagram shows seven steps for Direct Routing planning. These are, Self-deployed vs. hosting, Licensing and endpoints, Session border controllers (SBC), Fully qualified domain names and certificates, IP ranges and ports (firewall), Voice routing, Optimize Media.":::
 
 ## Voice routing objects
 
@@ -16,7 +16,7 @@ A **PSTN usage record** specifies a class of call, such as internal, local, or i
 - The voice routing policy is assigned to users.
 - The PSTN usage record is assigned to a voice route that specifies the gateway and the SBC to be used.
 
-:::image type="content" border="false" source="../media/3-pstn-usage-associations.png" alt-text="PSTN usage record associations":::
+:::image type="content" border="false" source="../media/3-pstn-usage-associations.png" alt-text="Diagram shows PSTN usage record associations.":::
 
 > [!NOTE]
 > Ensure the hierarchy of PSTN usage records is correct. If a number matches the first record, the rest are ignored. If the number doesn't match, it then looks at the next record, and so on. PSTN usage records in the wrong order could result in calls being assigned to a gateway you didn't intend.
@@ -39,7 +39,7 @@ The benefit of a dial plan is that you can migrate to Teams without changing use
 
 :::image type="content" border="false" source="../media/3-legacy-teams.png" alt-text="Legacy habits" lightbox="../media/3-legacy-teams.png":::
 
-You're limited to a maximum of 1,000 dial plans per tenant and 500 normalization rules per dial plan. There are three types of dial plan:
+You're limited to a maximum of 1,000 dial plans per tenant and 50 normalization rules per dial plan. There are three types of dial plan:
 
 ### Service dial plan
 
@@ -61,7 +61,7 @@ There is a **Dial Plan Hierarchy**:
 
 This diagram helps you to plan whether or not you need to create dial plans for your organization, and if so, what type.
 
-:::image type="content" border="false" source="../media/3-dial-plans-planning.png" alt-text="Dial plans planning steps" lightbox="../media/3-dial-plans-planning.png":::
+:::image type="content" border="false" source="../media/3-dial-plans-planning.png" alt-text="This diagram helps you to plan whether or not you need to create dial plans for your organization, and if so, what type." lightbox="../media/3-dial-plans-planning.png":::
 
 ## Gateway
 

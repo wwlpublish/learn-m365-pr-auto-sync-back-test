@@ -46,13 +46,3 @@ Desktop logs, also known as bootstrapper logs, contain log data about events tha
 ## Common problems
 
 Common problems are documented in the Teams Troubleshooting section of the Microsoft Teams documentation. If there's a problem, refer to this documentation for details of symptoms, causes, and how it can be resolved.
-
-## Learn more
-
-For more information about the topics covered in this unit, see:
-
-- [Office 365 URLs and IP address ranges](/microsoft-365/enterprise/urls-and-ip-address-ranges)
-- [Prepare your organization's network for Microsoft Teams](/microsoftteams/prepare-network)
-- [Teams troubleshooting](/MicrosoftTeams/troubleshoot/teams-welcome)
-- [Troubleshoot connectivity issues with the Microsoft Teams client](/microsoftteams/connectivity-issues)
-- [Use log files in troubleshooting Microsoft Teams](/microsoftteams/log-files)

@@ -10,7 +10,8 @@ In Teams, each individual team has its own lifecycle with the following sequence
 
 Broadly speaking, the lifecycle of a Teams team encompasses both configuration—*static* settings and policies—and management, which is dynamic per team during the lifecycle.
 
-![Teams lifecycle sequence](../media/lifecycle.png)
+> [!div class="centered"]
+> :::image type="content" source="../media/lifecycle.png" alt-text="Teams lifecycle sequence" lightbox="../media/lifecycle.png":::
 
 The Teams lifecycle is configured by the team owner. Lifecycle configuration differs from Teams configuration because the latter is concerned with global settings and user-specific configurations that rarely change once they've been defined.
 

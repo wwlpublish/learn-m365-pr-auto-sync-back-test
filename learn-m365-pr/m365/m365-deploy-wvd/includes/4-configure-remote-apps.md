@@ -45,18 +45,18 @@ To complete the exercise, you'll need the credentials for a different non-admini
 
    :::image type="content" source="../media/4-remoteapp-add-application.png" alt-text="Screenshot that shows WordPad selected.":::
 
-1. Select **Next: Assignments**. The **Create an application group** Assignments tab appears. 
+1. Select **Save**.
+1. Select **Next: Assignments**.
 
 
 ### Step 3: Assignments
 
-1. Select **Add Azure AD users or user groups**. The **Select Azure AD users or user groups** pane appears.
- 
-1. Select single or multiple users, or you can select user groups.
+1. Select **Add Azure AD users or user groups**.
 
    :::image type="content" source="../media/4-remoteapp-assignment.png" alt-text="Screenshot of the assignments tab with Add Azure AD users or user groups highlighted.":::
-  
-3. Select **Next: Workspace**.
+
+1. Select single or multiple users, or you can select user groups. 
+1. Select **Next: Workspace**.
 
 ### Step 3: Workspace
 

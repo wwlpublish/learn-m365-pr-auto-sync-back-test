@@ -47,27 +47,27 @@ quiz:
       choices:
       - content: "Windows Configuration Designer"
         isCorrect: true
-        explanation: "Correct!"
+        explanation: "Correct! Windows Configuration Designer allows you to create a provisioning package that contains customization settings."
       - content: "Group Policy"
         isCorrect: false
-        explanation: "Incorrect."
+        explanation: "Incorrect. Group policy allows you to change settings."
       - content: "Microsoft Intune"
         isCorrect: false
-        explanation: "Incorrect."
+        explanation: "Incorrect. Microsoft Intune does not allow you to create self-contained provisioning packages."
       - content: "Microsoft Autopilot"
         isCorrect: false
-        explanation: "Incorrect."
+        explanation: "Incorrect. Windows autopilot allows you to set up and pre-configure new devices but does not create self-contained provisioning packages."
     - content: "Which of the following enables you to avoid reimaging with cloud-based device management services?"
       choices:
       - content: "Microsoft Intune"
         isCorrect: false
-        explanation: "Incorrect."
+        explanation: "Incorrect. Microsoft Intune provides no imaging capabilities."
       - content: "Windows Configuration Designer"
         isCorrect: false
         explanation: "Incorrect."
       - content: "Microsoft Autopilot"
         isCorrect: true
-        explanation: "Correct!"
+        explanation: "Correct! Microsoft Autopilot uses dynamic provisioning and avoids reimaging."
       - content: "System Center Configuration Manager"
         isCorrect: false
         explanation: "Incorrect."
