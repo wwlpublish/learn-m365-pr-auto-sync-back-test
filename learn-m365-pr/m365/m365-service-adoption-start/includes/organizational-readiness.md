@@ -43,7 +43,7 @@ We recommend meeting directly with your stakeholders regularly. Your goal at thi
 
 This initial interview provides a baseline for further interaction. Listen for pain points and perceptions so that you can craft successful communications and manage their expectations of what change can deliver and what impact that change will have on their day to day operations.
 
-|:::image type="content" source="../media/activity.png" alt-text="Activity icon"::: Activity|
+|:::image type="content" source="../media/activity.png" alt-text="Activity icon" border="false"::: Activity|
 |-|
 |Decide your rhythm and method for communicating with your stakeholders in alignment with your company culture. Target your communications to the various levels of engagement and interest across your organization. <br><br>Option: To create an ongoing knowledge base of information about your project, consider using news pages in your SharePoint communication site. Your news page library (site pages in the SharePoint site associated with your planning team) can be made public so they can be shared with all interested parties.|
 
