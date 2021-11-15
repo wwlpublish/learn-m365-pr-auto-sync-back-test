@@ -16,7 +16,7 @@ Command-line and automation tools include:
 
 Teams management tools can be accessed in the [Microsoft Teams admin center](https://admin.teams.microsoft.com) under **Teams > Manage teams**. Each team is backed by a Microsoft 365 group, and this node provides a view of groups that have been enabled for Microsoft Teams in your organization. Administrators can edit group and team-specific settings here.
 
-:::image type="content" source="../media/management-teams-admin-center.png" alt-text="Screenshot of the Microsoft Teams admin center showing the manage teams section.":::
+:::image type="content" source="../media/management-teams-admin-center.png" alt-text="Screenshot of the Microsoft Teams admin center showing the manage teams section." lightbox="../media/management-teams-admin-center.png":::
 
 ## Manage apps
 
