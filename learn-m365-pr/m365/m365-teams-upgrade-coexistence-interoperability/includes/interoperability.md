@@ -62,7 +62,7 @@ When the signaling indicated that the response came from (or through) the intero
 
 To prevent these false positives, the presence service is now informing the Skype for Business client when the other party is a TeamsOnly actual user. This allows Skype for Business to be aware that it needs to create an interoperability conversation ahead of it having been created, and the conversation window is specific to interoperability.
 
-:::image type="content" source="../media/interop-create-conversation.png" alt-text="Screen shot showing a message that the user is not longer using Skype for Business and some features may not work.":::
+:::image type="content" source="../media/interop-create-conversation.png" alt-text="Screen shot showing a message that the user is not longer using Skype for Business and some features may not work." lightbox="../media/interop-create-conversation.png":::
 
 If the Skype for Business user wanted to share their desktop, they would be informed that a meeting will start and guided through the steps.
 
