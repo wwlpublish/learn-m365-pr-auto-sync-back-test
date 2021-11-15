@@ -15,7 +15,7 @@ The key components you deploy when you set up Azure Virtual Desktop are a host p
 
 There are two load-balancing options for the host pool:
 
-- *Breadth-first* - This option is the default configuration for new non-persistent host pools. Distributes new user sessions across all available session hosts in the host pool. When you configure breadth-first load balancing, you may set a maximum session limit per session host in the host pool.
+- *Breadth-first* - This option is the default configuration for new non-persistent host pools. Breadth-first load balancing distributes new user sessions across all available session hosts in the host pool. When you configure breadth-first load balancing, you may set a maximum session limit per session host in the host pool.
 - *Depth-first* - Distributes new user sessions to an available session host with the highest number of connections but has not reached its maximum session limit threshold. When you configure depth-first load balancing, you must set a maximum session limit per session host in the host pool.
   
 ### Application group
