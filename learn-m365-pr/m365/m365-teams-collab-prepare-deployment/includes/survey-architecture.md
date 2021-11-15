@@ -11,7 +11,7 @@ Teams app capabilities depend on underlying communication and collaboration tech
 
 When you create a team from an existing Microsoft 365 Group, that group's membership, site, mailbox, and notebook are surfaced in Teams. To customize and extend Teams, you can add other apps such as Planner and Power BI through apps, bots, and connectors using custom tabs.  
 
-:::image type="content" source="../media/logical-architecture.png" alt-text="A diagram showing the Teams logical architecture. It includes where files, Teams, Chats, Meetings, and calls are stored.":::
+:::image type="content" source="../media/logical-architecture.png" alt-text="A diagram showing the Teams logical architecture. It includes where files, Teams, Chats, Meetings, and calls are stored." lightbox="../media/logical-architecture.png":::
 
 ## Teams integration with Microsoft 365 Groups
 
