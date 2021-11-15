@@ -41,7 +41,7 @@ To create a new DLP policy using a template:
 1. On the **Data loss prevention** page, select the **Policies** tab.
 1. Select **+ Create policy** to create a policy.
 
-    :::image type="content" source="../media/create-new-data-loss-prevention-policies.png" alt-text="Screenshot of the Microsoft 365 compliance center, showing the data loss prevention page, highlighting the policies tab, with the + create policy button highlighted.":::
+    :::image type="content" source="../media/create-new-data-loss-prevention-policies.png" alt-text="Screenshot of the Microsoft 365 compliance center, showing the data loss prevention page, highlighting the policies tab, with the + create policy button highlighted." lightbox="../media/create-new-data-loss-prevention-policies.png":::
 
 1. On the **Start with a template or create custom policy** page, select either a **country or region** to display the available **Categories** and **Templates**. Or select *Search for specific templates*. Then select **Next**.
 1. The DLP wizard steps through the settings on each page, allowing you to make your selections. Select **Next** to move to the next page.
