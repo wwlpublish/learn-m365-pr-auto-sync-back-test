@@ -39,7 +39,7 @@ Key data types are stored in various locations when the data is not in active us
 
 For the full Teams experience, every user should be enabled for Exchange Online, SharePoint Online, OneDrive for Business, and Microsoft 365 Group creation. Administrators should consider whether they'll be able to deploy the Teams features that their organization requires with its current Exchange and SharePoint deployments.
 
-:::image type="content" source="../media/service-dependencies.png" alt-text="A diagram showing Teams service dependencies." border="false":::
+:::image type="content" source="../media/service-dependencies.png" alt-text="A diagram showing Teams service dependencies." lightbox="../media/service-dependencies.png":::
 
 > [!IMPORTANT]
 > SharePoint Online is a prerequisite for using OneDrive for Business. Without SharePoint Online and/or OneDrive for Business, you can't store and share files in channels, perform private file sharing, or access the team SharePoint site.
