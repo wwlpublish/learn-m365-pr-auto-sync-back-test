@@ -14,7 +14,7 @@ Other benefits like anytime/anywhere access can often sound to an employee like,
 
 Part of your core message can be to acknowledge that your employees are fundamentally trying to do a great job. They want to collaborate more seamlessly and deliver a great experience to your customers. **It is the job of IT, change, and business leaders to design systems that will melt into the background of this primary goal.** But first, we must weave appreciation for our employees into the change dialog.
 
-|:::image type="content" source="../media/activity.png" alt-text="Activity icon"::: Activity|
+|:::image type="content" source="../media/activity.png" alt-text="Activity icon" border="false"::: Activity|
 |-|
 |Consider creating an employee spotlight for people who use the new experience to improve the experience of your customers and fellow employees. Have your executive sponsor participate in acknowledging these employees. This has a positive impact on your culture and the engagement of your employees.|
 
