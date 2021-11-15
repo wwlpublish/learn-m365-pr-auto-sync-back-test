@@ -8,7 +8,7 @@ You can create a bot that integrates into your business applications, using the 
 
 Here's an example of some options when you create or configure a bot:
 
-![Options to set up a bot](../media/bot-options.png)
+:::image type="content" source="../media/bot-options.png" alt-text="Screenshot displays Options to set up a bot." lightbox="../media/bot-options.png":::
 
 ## Learn more
 

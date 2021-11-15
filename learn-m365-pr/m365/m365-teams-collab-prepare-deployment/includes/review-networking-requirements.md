@@ -26,7 +26,7 @@ Other factors that can potentially influence media quality in Teams are acoustic
 
 In just a few steps, the Network Planner can help you determine and organize network requirements for connecting Teams users across your organization. When you provide your network details and Teams usage, the Network Planner calculates your network requirements for deploying Teams and cloud voice across your organization's physical locations.
 
-![Network Planner](../media/network-planner.png)
+:::image type="content" source="../media/network-planner.png" alt-text="Network Planner" lightbox="../media/network-planner.png":::
 
 Network Planner allows you to:
 

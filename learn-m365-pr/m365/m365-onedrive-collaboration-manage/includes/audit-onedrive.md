@@ -20,7 +20,7 @@ When searching the audit log, you can:
 
 Search results are loaded in increments of 150 events and if more than 5,000 events meet the search criteria, the most recent 5,000 events are displayed.
 
-:::image type="content" source="../media/results.png" alt-text="Screenshot displays Search results are loaded in increments of 150 events up to 5,000 events" lightbox="../media/results.png":::
+:::image type="content" source="../media/results.png" alt-text="Screenshot displays Search results are loaded in increments of 150 events up to 5,000 events." lightbox="../media/results.png":::
 
 To see all results, take them offline, or filter them, you can export them to a comma-separated value (CSV) file on your local computer. 50,000 entries total can be downloaded.
 

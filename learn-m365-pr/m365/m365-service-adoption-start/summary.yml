@@ -19,27 +19,27 @@ quiz:
       choices:
       - content: "Being the chief cheerleader for the new technology."
         isCorrect: false
-        explanation: "No, your main goal with the Champions program is to create a community of people to help with the service rollout."
+        explanation: "No, your main goal is not to be the cheerleader for the project."
       - content: "Finding and nurturing a community of people who provide peer guidance and training on the new experience."
         isCorrect: true
         explanation: "Yes, your main goal with the Champions program is to create a community of people to help with the service rollout."
       - content: "Making sure each department has the right training staff."
         isCorrect: false
-        explanation: "No, your main goal with the Champions program is to create a community of people to help with the service rollout."
+        explanation: "No, in this specific role you are not responsible for departmental staffing."
       - content: "Creating training documentation."
         isCorrect: false
-        explanation: "No, your main goal with the Champions program is to create a community of people to help with the service rollout."
-    - content: "When should your helpdesk support team should start using the new experience?"
+        explanation: "No, in this specific role you are not responsible for documentation."
+    - content: "When should your helpdesk support team start using the new experience?"
       choices:
       - content: "At the same time as your employees"
         isCorrect: false
-        explanation: "No, you should onboard the helpdesk team to the new experience as soon as possible."
+        explanation: "No, the helpdesk team should not be onboarded at the same time as other employees."
       - content: "As soon as possible to gain hands-on experience"
         isCorrect: true
         explanation: "Yes, you should onboard the helpdesk team to the new experience as soon as possible."
       - content: "After you are sure it won't disrupt operations"
         isCorrect: false
-        explanation: "No, you should onboard the helpdesk team to the new experience as soon as possible."
+        explanation: "No, you should not delay onboarding until you are sure it won't disrupt operations."
     - content: "True or false: Your helpdesk support leaders should be involved in your regular program management meetings."
       choices:
       - content: "True"
@@ -52,13 +52,13 @@ quiz:
       choices:
       - content: "Issue executive orders that people must use the new tools"
         isCorrect: false
-        explanation: "No, the best thing your executive sponsor can do is be a consistently visible part of the change program."
+        explanation: "No, the executive sponsor should not issue executive orders that people must use the new tools."
       - content: "Show up to your project kickoff and then disengage"
         isCorrect: false
-        explanation: "No, the best thing your executive sponsor can do is be a consistently visible part of the change program."
+        explanation: "No, the executive sponsor should not disengage from the program."
       - content: "Keep using the old process until they have to change"
         isCorrect: false
-        explanation: "No, the best thing your executive sponsor can do is be a consistently visible part of the change program."
+        explanation: "No, the executive sponsor should not keep using the old process."
       - content: "Be a consistently visible part of your change program"
         isCorrect: true
         explanation: "Yes, the best thing your executive sponsor can do is be a consistently visible part of the change program."
@@ -66,13 +66,13 @@ quiz:
       choices:
       - content: "Enthusiasm, Resistance, Planning, Implementation"
         isCorrect: false
-        explanation: "No, the four phases are Denial, Resistance, Exploration, Commitment."
+        explanation: "No, the four phases are not Enthusiasm, Resistance, Planning, Implementation."
       - content: "Anger, Denial, Exploration, Execution"
         isCorrect: false
-        explanation: "No, the four phases are Denial, Resistance, Exploration, Commitment."
+        explanation: "No, the four phases are not Anger, Denial, Exploration, Execution."
       - content: "Planning, Bargaining, Implementation, Success"
         isCorrect: false
-        explanation: "No, the four phases are Denial, Resistance, Exploration, Commitment."
+        explanation: "No, the four phases are not Planning, Bargaining, Implementation, Success."
       - content: "Denial, Resistance, Exploration, Commitment"
         isCorrect: true
         explanation: "Yes, the four phases are Denial, Resistance, Exploration, Commitment."
@@ -80,10 +80,10 @@ quiz:
       choices:
       - content: "Executive sponsor"
         isCorrect: false
-        explanation: "No, write the key messages from the end-user employees' perspective."
+        explanation: "No, you should not write the key messages from the executive sponsor's perspective."
       - content: "Process owners"
         isCorrect: false
-        explanation: "No, write the key messages from the end-user employees' perspective."
+        explanation: "No, you should not write the key messages from the process owner's perspective."
       - content: "End-user employees"
         isCorrect: true
         explanation: "Yes, write the key messages from the end-user employees' perspective."
@@ -113,16 +113,16 @@ quiz:
       choices:
       - content: "Your direct management change"
         isCorrect: false
-        explanation: "No, your stakeholders are anyone with interest in or influence over your project."
+        explanation: "No, your stakeholders are not your direct management change."
       - content: "Anyone in the c-suite in your company"
         isCorrect: false
-        explanation: "No, your stakeholders are anyone with interest in or influence over your project."
+        explanation: "No, your stakeholders are not anyone in the c-suite in your company."
       - content: "Anyone with interest in or influence over your project, regardless of rank"
         isCorrect: true
         explanation: "Yes, your stakeholders are anyone with interest in or influence over your project."
       - content: "Business process owners who are willing to participate in proof of concept projects"
         isCorrect: false
-        explanation: "No, your stakeholders are anyone with interest in or influence over your project."
+        explanation: "No, your stakeholders are not business process owners who are willing to participate in proof of concept projects."
     - content: "Which of the following is NOT a benefit for employees moving to cloud-based services?"
       choices:
       - content: "Anytime, anywhere access"
