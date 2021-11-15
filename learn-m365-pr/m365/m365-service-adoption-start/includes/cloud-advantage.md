@@ -1,4 +1,4 @@
->:::image type="content" source="../media/cloud-advantage.png" alt-text="The employee benefits of moving to the cloud":::
+:::image type="content" source="../media/cloud-advantage.png" alt-text="The employee benefits of moving to the cloud" lightbox="../media/cloud-advantage.png":::
 
 Many employees are still emailing spreadsheets, storing them on their local drives or on a network share and wasting precious time looking for the "right" version of that customer presentation. This is the reality of the employee experience in every industry around the world. Collectively as change and IT professionals we have failed our employees by not imbuing them with desire for digital literacy. Now that we have accepted this fact, we can move to rectify the situation.
 
