@@ -42,5 +42,5 @@ You change coexistence and upgrade settings in the Teams admin center or by usin
 
 When you're done with a link, use the **Back** arrow in your browser to come back to this page.
 
-- [Migration and interoperability guidance for organizations using Teams together with Skype for Business](/MicrosoftTeams/migration-interop-guidance-for-teams-with-skype)
+- [Coexistence modes - Reference](/MicrosoftTeams/migration-interop-guidance-for-teams-with-skype)
 - [Setting your coexistence and upgrade settings](https://aka.ms/SkypeToTeams-SetCoexistence)

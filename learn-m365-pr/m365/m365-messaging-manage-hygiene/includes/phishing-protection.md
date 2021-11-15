@@ -1,4 +1,4 @@
-*Phishing* is an email attack that tries to steal sensitive information in messages that appear to be from legitimate or trusted senders. With the growing complexity of attacks, it's even more difficult for trained users to identify sophisticated phishing messages. Fortunately, EOP and the additional features in Microsoft 365 Defender can help.
+*Phishing* is an email attack that tries to steal sensitive information in messages that appear to be from legitimate or trusted senders. With the growing complexity of attacks, it's even more difficult for trained users to identify sophisticated phishing messages. Fortunately, EOP and the additional features in Microsoft Defender for Office 365 can help.
 
 ## Anti-phishing protection in EOP
 

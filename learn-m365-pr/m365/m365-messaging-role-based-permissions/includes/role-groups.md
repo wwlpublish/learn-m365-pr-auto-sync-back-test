@@ -2,13 +2,13 @@ In this unit, you'll take a closer look at role groups in Exchange Online, what 
 
 ## What is a role group
 
-Permissions granted to users and administrators are based on management roles. Roles define what tasks or activities a user or administrator can carry out. A role group in Exchange Online is combines multiple roles and assigns them to users. A role group is a *special universal security group* (USG) - it can contain roles, other role groups, USGs, or Active Directory users. When you assign a role to a role group, all the permissions granted by that role are passed on to all members in the role group. You can assign as many roles as needed to a role group. However, because of their scope, you should only use role groups with administrative roles.
+Permissions granted to users and administrators are based on management roles. Roles define what tasks or activities a user or administrator can carry out. A role group in Exchange Online combines multiple roles and assigns them to users. A role group is a *special universal security group* (USG) - it can contain roles, other role groups, USGs, or Active Directory users. When you assign a role to a role group, all the permissions granted by that role are passed on to all members in the role group. You can assign as many roles as needed to a role group. However, because of their scope, you should only use role groups with administrative roles.
 
 :::image type="content" source="../media/role-group.png" alt-text="A diagram shows a role group made up of two people. The group is surrounded by other users and groups with arrows toward the group in the middle." border="true":::
 
 Role groups are typically granted to users with broad management areas, for example, recipient management. An administrator that is a member of multiple role groups has all the permissions from all the role groups they are a member of.
 
-Exchange Online includes a dozen default role groups with specific permission to manage different areas of Exchange Online. Before you create a new rule group, make sure none of the existing role groups provide the permissions that you need.
+Exchange Online includes a dozen default role groups with specific permission to manage different areas of Exchange Online. Before you create a new role group, make sure none of the existing role groups provide the permissions that you need.
 
 ## Create role groups
 
@@ -21,12 +21,12 @@ To create a new custom management role group:
 1. Sign in to the Exchange admin center (EAC) with your credentials.
     >[!NOTE]
     > You can get to the Exchange admin center from the Microsoft 365 admin center. In that case, you might not have to sign in again.
-1. Go to **Permissions**, then select **Admin Roles**.
-1. Select **Add**.
-1. Enter a name for the new rule group.
-1. Select the roles that you want to assign to the role group, and select the members you want to be added to the role group. (You can also create the role group now and add members and permissions later.)
-1. Select the write scope that you want to apply to the new role group. The write scope determines what resources a user or group can modify. For example, a configuration write scope means that any user in this role group can modify organizational, database, and server objects in Active Directory.
-1. Select **Save** to create the role group.
+2. Go to **Permissions**, then select **Admin Roles**.
+3. Select **Add**.
+4. Enter a name for the new role group.
+5. Select the roles that you want to assign to the role group, and select the members you want to be added to the role group. (You can also create the role group now and add members and permissions later.)
+6. Select the write scope that you want to apply to the new role group. The write scope determines what resources a user or group can modify. For example, a configuration write scope means that any user in this role group can modify organizational, database, and server objects in Active Directory.
+7. Select **Save** to create the role group.
 
 ### Create a role group using PowerShell
 

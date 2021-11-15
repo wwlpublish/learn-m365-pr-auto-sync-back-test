@@ -1,4 +1,4 @@
->![The Start phase](../media/phase-1.png)
+:::image type="content" source="../media/phase-1.png" alt-text="The Start phase" lightbox="../media/phase-1.png" border="false":::
 
 You're ready to begin your strategy and project plan. You need to quickly deliver some meaningful results as the overall project budget is not yet set. Realizing that talent is your most important asset first assess the internal resources available to help you accomplish your goals. The following skills and roles are essential to a successful project:
 
@@ -14,13 +14,13 @@ You're ready to begin your strategy and project plan. You need to quickly delive
 > [!NOTE]
 > With the advent of Microsoft Teams, IT professionals who formerly ran only collaboration or communications/telephony services now need to work together to deliver an integrated experience. In small organizations this may be one individual in larger organization, it's often two or more people.
 
-|![Activity icon](../media/activity.png) Activity|
+|:::image type="content" source="../media/activity.png" alt-text="Activity icon" border="false"::: Activity|
 |-|
 |Read [Microsoft Teams Phase One](/microsoftteams/teams-adoption-phase1) for more information on roles and pre-requisites for this phase of your planning.<br><br>Watch and use introduction videos like [What is Microsoft Teams?](https://support.office.com/article/video-what-is-microsoft-teams-422bf3aa-9ae8-46f1-83a2-e65720e1a34d) to ensure people begin to understand what this new experience can do. Note that this video doesn't focus on a long list of features but on the outcomes for employees.|
 
 ## Key role - the executive sponsor
 
->![Executive sponsor](../media/exec-sponsors.png)
+:::image type="content" source="../media/exec-sponsors.png" alt-text="Executive sponsor" lightbox="../media/exec-sponsors.png" border="false":::
 
 What we know is that most employees aren't willing to use new technology rolled out by their organization. Having an executive sponsor can help. In transformation projects where the CEO was either fairly or very visible, the project was either very successful or extremely successful. A well-defined set of financial and operational targets lead to an "extremely successful" transformation (as shown in various third-party and Microsoft-based research).
 
@@ -36,7 +36,7 @@ If you don't have a senior executive who is willing to participate, you can driv
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3Fq2b]
 
-|![Activity icon](../media/activity.png) Activity|
+|:::image type="content" source="../media/activity.png" alt-text="Activity icon" border="false"::: Activity|
 |-|
 |Map out your team structures and workstream assignments for your own organization. Take this opportunity to identify talent in your organization or any gaps that need to be filled. It's important to identify missing talent areas early in your planning process so you can get the correct kind of help. Download our Workstream Assignment handout to aid you in this process. |
 
@@ -73,7 +73,7 @@ Through FastTrack, community forums, and your other business relationships you c
 
 ## Understanding the change curve
 
->![The change curve](../media/change-curve.png)
+:::image type="content" source="../media/change-curve.png" alt-text="The change curve":::
 
 In any change program, it's important to understand the basic change curve that applies to all people. Whether personal or professional this structure applies. This training is focused on professional examples, but think about how change has happened in your own life and how you've responded to it. This helps you have empathy and compassion for those who are more resistant to change than may make you comfortable.
 

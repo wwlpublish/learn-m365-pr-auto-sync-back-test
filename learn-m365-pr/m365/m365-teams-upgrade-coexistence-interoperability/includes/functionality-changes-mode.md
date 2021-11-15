@@ -8,11 +8,11 @@ The available functionality in Teams depends on the user's coexistence mode, as 
 
 The following screenshots illustrate the difference between TeamsOnly or Islands mode and all other modes. Note that the chat and calling icons are available by default with TeamsOnly or Islands mode (left screenshot), but not with the other modes (right screenshot):
 
- ![Side-by-side screenshots showing Teams Only and Islands modes](../media/teams-mode-comparison.png)
+:::image type="content" source="../media/teams-mode-comparison.png" alt-text="Screen shot showing the different Teams windows of Teams only/Islands and other modes.":::
 
 In addition, self-presence is not available in the other modes, as shown here.
 
-![Screenshot that shows that self-presence isn't available](../media/no-self-presence.png)
+:::image type="content" source="../media/no-self-presence.png" alt-text="Screenshot of avatar area with no presence indicator":::
 
 From a technical perspective, a user's mode governs several aspects of the user's experience:
 

@@ -1,4 +1,4 @@
-﻿Throughout this module, you will learn about the key concepts and benefits of modern management with **Microsoft 365**.  We will explore the four key pillars to modern management, and how they can help your organization manage all their devices in a modern way that is easy to deploy, up-to-date, secure, and intelligent.
+﻿Throughout this module, you will learn about the key concepts and benefits of modern management with **Microsoft 365**.  We will explore the four key pillars to modern management, and how they can help your organization to manage all their devices in a modern way that is easy to deploy, up-to-date, secure, and intelligent.
 
 In this module, you will:
 
