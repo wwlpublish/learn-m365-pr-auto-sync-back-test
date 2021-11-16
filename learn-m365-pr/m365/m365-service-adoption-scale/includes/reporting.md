@@ -15,10 +15,7 @@ You can also explore the data collected with a Power BI by installing the **Micr
 
 **Usage data allows you to adjust your awareness and training campaigns to help people understand the capabilities that they have available to them.** This is helpful when combined with the "what's in it for me" or WIIFM approach to messaging that helps employees understand how using Microsoft 365 services will empower them to be more productive and agile in their work styles.
 
-<div class="centered">
-
 :::image type="icon" source="../media/activity.png" border="false":::
- </div>
 
 Work with your IT partners to ensure the content pack is installed and that you have access to the reporting.
 
