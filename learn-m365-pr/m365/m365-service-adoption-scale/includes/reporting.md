@@ -22,9 +22,6 @@ You can also explore the data collected with a Power BI by installing the **Micr
 
 Work with your IT partners to ensure the content pack is installed and that you have access to the reporting.
 
-<div class="centered">
-
 :::image type="icon" source="../media/activity.png" border="false":::
-</div>
 
 In reviewing the reports, you can see that all of your users are licensed (enabled) for OneDrive but usage is low. If a similar trend exists for SharePoint, then you know people are EMAILING THAT SPREADSHEET! Ugh! It's time to pop into action and run a quick campaign highlighting the coauthoring and collaboration benefits for people by role or region.
