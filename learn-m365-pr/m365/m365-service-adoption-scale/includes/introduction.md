@@ -1,4 +1,4 @@
-:::image type="complex" source="../media/adoption-phases.png" alt-text="A slide showing the keys to adoption success.":::
+:::image type="complex" source="../media/adoption-phases.png" alt-text="A slide showing the keys to adoption success." border="false":::
 
 The slide has 4 points:
 
