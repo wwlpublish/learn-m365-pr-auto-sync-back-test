@@ -1,4 +1,4 @@
-:::image type="content" source="../media/business-mapping.png" alt-text="A slide titled: Simplified scenario mapping. The text below describes the sections." border="false":::
+:::image type="content" source="../media/business-mapping.png" alt-text="A slide titled: Simplified scenario mapping. The text below describes the sections." lightbox="../media/business-mapping.png":::
 
 **Business scenario mapping at its most simple form is defining a successful process journey for an employee.** While business process mapping can be an extremely detailed and expensive task what we are suggesting here is simplified. The slide above shows a basic format for capturing these scenarios, which can then be charted by impact and difficulty to inform your scale service adoption plan. In your work with stakeholders, end users and champions you will need to answer the following questions for each scenario:
 
@@ -12,7 +12,7 @@ In the slide above, this reads as follows:
 
 ## Prioritize business scenarios
 
-:::image type="content" source="../media/prioritize-scenarios.png" alt-text="Prioritize business scenarios" border="false":::
+:::image type="content" source="../media/prioritize-scenarios.png" alt-text="Prioritize business scenarios" lightbox="../media/prioritize-scenarios.png":::
 
 :::image type="icon" source="../media/activity.png" border="false":::
   
