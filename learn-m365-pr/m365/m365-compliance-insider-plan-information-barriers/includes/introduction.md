@@ -6,9 +6,9 @@ The primary driver for information barriers comes from the financial services in
 
 However, since introducing information barriers, many other areas have found them to be useful. Other common scenarios include:
 
-- Education: Students in one school aren't able to look up contact details for students of other schools.
-- Legal: Maintaining confidentiality of data obtained by the lawyer of one client from being accessed by a lawyer for the same firm representing a different client.
-- Government: Information access and control is limited across departments and groups.
+- **Education**: Students in one school aren't able to look up contact details for students of other schools.
+- **Legal**: Maintaining confidentiality of data obtained by the lawyer of one client from being accessed by a lawyer for the same firm representing a different client.
+- **Government**: Information access and control is limited across departments and groups.
 
 For all these example scenarios (and more), information barrier policies can be defined to prevent or allow communications in Microsoft Teams. Such policies can prevent people from calling or chatting with those they should not or enable people to communicate only with specific groups in Microsoft Teams. With information barrier policies in effect, whenever users who are covered by those policies attempt to communicate with others in Microsoft Teams, checks are done to prevent or allow communication as defined by the policies).
 
