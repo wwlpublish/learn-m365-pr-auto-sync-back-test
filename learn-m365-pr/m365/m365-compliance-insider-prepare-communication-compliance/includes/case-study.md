@@ -52,7 +52,7 @@ They need to create a new group to include all Contoso employees, so they take t
 1. Contoso IT administrators sign in to the [**Microsoft 365 admin center**](https://admin.microsoft.com?azure-portal=true) and navigate to **Microsoft 365 admin center> Groups> Groups**.
 1. They select **Add a group** and complete the wizard to create a new *Microsoft 365 group or Distribution group*.
 
-:::image type="content" source="../media/add-group.png" alt-text="Screenshot shows Groups page. After selecting Add a group option. It displays a wizard to create a new Microsoft 365 group or Distribution group." lightbox="../media/add-group.png":::
+   :::image type="content" source="../media/add-group.png" alt-text="Screenshot shows Groups page. After selecting Add a group option. It displays a wizard to create a new Microsoft 365 group or Distribution group." lightbox="../media/add-group.png":::
 
 1. After the new group is created, they need to add all Contoso users to the new group. They open the [**Exchange admin center**](https://outlook.office365.com/ecp?azure-portal=true) and navigate to **Exchange admin center> recipients> groups**. The Contoso IT administrators select the Membership area and the new *All Employees* group they created and select the **Edit** control to add all Contoso employees to the new group in the wizard.
 
