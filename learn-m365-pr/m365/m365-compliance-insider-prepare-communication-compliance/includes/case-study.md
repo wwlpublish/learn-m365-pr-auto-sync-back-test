@@ -64,7 +64,7 @@ With all the prerequisites completed, the IT administrators and the compliance s
 
 1. The Contoso IT administrators and compliance specialists sign into the **Microsoft 365 compliance center** and select **Communication compliance** from the left navigation pane. This action opens the **Overview** dashboard that has quick links for communication compliance policy templates. They choose the **Monitor for offensive language** template by selecting **Get started** for the template.
 
-:::image type="content" source="../media/policy-template-wizard.png" alt-text="Screenshot displays Policy template wizard. The Monitor for offensive language template is selected." lightbox="../media/policy-template-wizard.png":::
+   :::image type="content" source="../media/policy-template-wizard.png" alt-text="Screenshot displays Policy template wizard. The Monitor for offensive language template is selected." lightbox="../media/policy-template-wizard.png":::
 
 1. On the policy template wizard, the Contoso IT administrators and compliance specialists work together to complete the three required fields: **Policy name**, **Users or groups to supervise**, and **Reviewers**.
 
