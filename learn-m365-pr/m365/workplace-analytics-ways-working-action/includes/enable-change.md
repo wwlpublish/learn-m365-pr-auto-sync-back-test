@@ -21,17 +21,17 @@ Users can access their personal MyAnalytics dashboard by visiting myanalytics.mi
 > Information available in the MyAnalytics dashboard is private and personal metrics are only available for individual access. Users will need the appropriate Microsoft 365 license to access this dashboard.
 >
 
-:::image type="content" source="../media/myanalytics-dashboard.png" alt-text="The MyAnalytics dashboard" lightbox="../media/myanalytics-dashboard.png":::
+:::image type="content" source="../media/myanalytics-dashboard.png" alt-text="Screenshot showing the MyAnalytics dashboard." lightbox="../media/myanalytics-dashboard.png":::
 
 Along with metrics, the MyAnalytics dashboard contains *productivity insights* that show trends from recent work habits.
 
-:::image type="content" source="../media/productivity-insights.png" alt-text="Productivity insights" lightbox="../media/productivity-insights.png":::
+:::image type="content" source="../media/productivity-insights.png" alt-text="Screenshot showing the key productivity insights." lightbox="../media/productivity-insights.png":::
 
 Finally, *educational cards* give you work productivity and wellbeing tips. MyAnalytics refreshes these cards periodically to reflect your most recent work patterns.
 
-:::image type="content" source="../media/productivity-insights-suggestions.png" alt-text="Educational cards with productivity suggestions" lightbox="../media/productivity-insights-suggestions.png":::
+:::image type="content" source="../media/productivity-insights-suggestions.png" alt-text="Screenshot showing educational cards with sample productivity suggestions." lightbox="../media/productivity-insights-suggestions.png":::
 
-These statistics about work patterns, productivity insights, and educational tips become the key components that make up the MyAnalytics dashboard. 
+These statistics about work patterns, productivity insights, and educational tips become the key components that make up the MyAnalytics dashboard.
 
 ### Outlook Insights add-in
 
@@ -42,18 +42,18 @@ On the Windows Outlook desktop:
 1. Open the **Home** ribbon of Microsoft Outlook.
 2. Select **Insights**.
 
-   :::image type="content" source="../media/insights.png" alt-text="Select Insights from the Home ribbon":::
+   :::image type="content" source="../media/insights.png" alt-text="Screenshot showing the Insights button from the Home ribbon.":::
 
 In Outlook on the web:
 
 1. Open an email message.
 2. Select the **ellipsis (…)** in the top-right corner of your email message, and then select **Insights**.
 
-   :::image type="content" source="../media/outlook-web.png" alt-text="Select Insights in Outlook on the web":::
+   :::image type="content" source="../media/outlook-web.png" alt-text="Screenshot showing the ellipsis and menu options for Insights in Outlook on the web.":::
 
 3. After you open the Insights add-in, you'll see a number of cards in the Insights pane.
 
-   :::image type="content" source="../media/insights-pane-example.png" alt-text="Cards in the Insights pane":::
+   :::image type="content" source="../media/insights-pane-example.png" alt-text="Screenshot showing some typical cards in the Insights pane":::
 
    These cards cover the following topics:
 
@@ -82,11 +82,11 @@ MyAnalytics participants receive a weekly digest email with suggestions to help 
 
 Here's an example of a digest about focus time:
 
-:::image type="content" source="../media/digest-about-focus-time.png" alt-text="Example of a focus time digest":::
+:::image type="content" source="../media/digest-about-focus-time.png" alt-text="Screenshot showing a typical focus time page.":::
 
 Here's an example of an insight included in a digest:
 
-:::image type="content" source="../media/digest-insight-example.png" alt-text="Example of an insight in a digest":::
+:::image type="content" source="../media/digest-insight-example.png" alt-text="Screenshot showing a sample insight in the digest.":::
 
 ### Inline suggestions in Outlook
 
@@ -96,7 +96,7 @@ Broadly available inline suggestions include the following:
 
 - Delay email delivery. Here's an example:
 
-  :::image type="content" source="../media/delay-email-delivery.png" alt-text="Example of an inline suggestion in Outlook" lightbox="../media/delay-email-delivery.png":::
+  :::image type="content" source="../media/delay-email-delivery.png" alt-text="Screenshot of an inline suggestion in Outlook" lightbox="../media/delay-email-delivery.png":::
 
 - Suggested outstanding tasks
 - Get more time to focus
@@ -115,13 +115,13 @@ You can use the plans feature of Workplace Analytics to create improvement plans
 
 If you have the analyst, limited analyst, or program manager role, you can open Workplace Analytics and select **Plans > New Plan**. There you can learn about the types of plans that you can create.
 
-:::image type="content" source="../media/learn-types-plans.png" alt-text="Learn about the plan types" lightbox="../media/learn-types-plans.png":::
+:::image type="content" source="../media/learn-types-plans.png" alt-text="Screenshot of the different plan types." lightbox="../media/learn-types-plans.png":::
 
 You can then either select a known group of employees to enroll in the plan or use analysis to find a group of employees to enroll. After enrolling participants in a plan, you can track their progress on key metrics over time.
 
 In addition to its standard weekly digest, the digest for plan participants includes a section that summarizes their progress in the plan. They can visit their MyAnalytics dashboard to see a page dedicated to their enrolled plan.
 
-:::image type="content" source="../media/program-checkpoint.png" alt-text="Program checkpoint summarizes their progress in the plan":::
+:::image type="content" source="../media/program-checkpoint.png" alt-text="Screenshot of the program checkpoint where data is summarized to show individual progress in the plan.":::
 
 ## What are Insights for people managers?
 
@@ -133,31 +133,31 @@ Insights for people managers provide managers with behavioral measures of employ
 
 Here's the Insights for people managers **Home** page:
 
-:::image type="content" source="../media/insights-people-managers-home.png" alt-text="Insights for people managers Home page" lightbox="../media/insights-people-managers-home.png":::
+:::image type="content" source="../media/insights-people-managers-home.png" alt-text="Screenshot showing the Insights for people managers Home page" lightbox="../media/insights-people-managers-home.png":::
 
 Here's some examples of how you can track progress:
 
-:::image type="content" source="../media/team-time-manager.png" alt-text="Are you getting enough time with your manager?" lightbox="../media/team-time-manager.png":::
+:::image type="content" source="../media/team-time-manager.png" alt-text="Screenshot showing how much time managers are spending with their team." lightbox="../media/team-time-manager.png":::
 
-:::image type="content" source="../media/team-time-focus.png" alt-text="Are you getting enough time to focus?" lightbox ="../media/team-time-focus.png":::
+:::image type="content" source="../media/team-time-focus.png" alt-text="Screenshot showing how much focus time their team have." lightbox ="../media/team-time-focus.png":::
 
 After identifying an opportunity, the manager can take action by enrolling team members into a plan.
 
-:::image type="content" source="../media/enroll-new-plan.png" alt-text="Managers can enroll team members into a plan" lightbox="../media/enroll-new-plan.png":::
+:::image type="content" source="../media/enroll-new-plan.png" alt-text="Screenshot of where managers can enroll users into a plan." lightbox="../media/enroll-new-plan.png":::
 
 ## How do you enable these features?
 
 **Enable MyAnalytics**: You as the Microsoft 365 admin can sign into the admin center, select MyAnalytics on the **Settings > Org settings > Service** tab, and then enable the elements of MyAnalytics.
 
-:::image type="content" source="../media/myanalytics-admin-enable.png" alt-text="Enable MyAnalytics" lightbox="../media/myanalytics-admin-enable.png":::
+:::image type="content" source="../media/myanalytics-admin-enable.png" alt-text="Screenshot of the MyAnalytics screen where options can be set." lightbox="../media/myanalytics-admin-enable.png":::
 
 **Enable Plans**: Workplace Analytics analysts, limited analysts, and program managers can create a plan by visiting the **Plans** section of Workplace Analytics.
 
-:::image type="content" source="../media/create-a-plan.png" alt-text="Enable Plans" lightbox="../media/create-a-plan.png":::
+:::image type="content" source="../media/create-a-plan.png" alt-text="Screenshot showing where plans can be enabled." lightbox="../media/create-a-plan.png":::
 
 **Enable Insights for People Managers**: Workplace Analytics admins can assign manager roles on the Settings page.
 
-:::image type="content" source="../media/assign-manager-roles.png" alt-text="Enable Insights for people managers and assign manager roles" lightbox="../media/assign-manager-roles.png":::
+:::image type="content" source="../media/assign-manager-roles.png" alt-text="Screenshot of the page where Manager Settings can be adjusted." lightbox="../media/assign-manager-roles.png":::
 
 ## Learn More
 
