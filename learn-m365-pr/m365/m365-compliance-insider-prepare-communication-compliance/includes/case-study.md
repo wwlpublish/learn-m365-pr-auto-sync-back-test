@@ -18,7 +18,7 @@ By default, global administrators do not have access to communication compliance
 1. After selecting **Create**, they give the new role group a friendly name of *Communication compliance* and select **Next**.
 1. They select **Choose roles** and then select **Add**. They add the required roles by selecting the checkbox for **Supervisory Review Administrator**, **Case Management**, **Compliance Administrator**, and **Review**, then they select **Add**, **Done**, and **Next**.
 
-:::image type="content" source="../media/choose-roles.png" alt-text="Screenshot shows Choose roles page. It displays a list of required roles to be added." lightbox="../media/choose-roles.png":::
+   :::image type="content" source="../media/choose-roles.png" alt-text="Screenshot shows Choose roles page. It displays a list of required roles to be added." lightbox="../media/choose-roles.png":::
 
 1. Next, the IT administrators select **Choose members** then select **Add**. They select the checkbox for all the users and groups that they want to create policies and manage messages with policy matches. They add the IT administrators, compliance specialists, and other colleagues in Human Resources and Legal departments that they identified in the initial planning, then select **Add**, **Done**, and **Next**.
 
