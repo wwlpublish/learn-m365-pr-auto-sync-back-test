@@ -26,4 +26,4 @@ As each segment of your organization onboards to the new experience, you will wa
 
 :::image type="icon" source="../media/activity.png" border="false":::
   
-Review details about [service enablement strategies](/microsoftteams/teams-adoption-define-outcomes#select-a-service-enablement-strategy) for Microsoft Teams and discuss them with your IT partners and key stakeholders.|  
+Review details about [service enablement strategies](/microsoftteams/teams-adoption-define-outcomes#select-a-service-enablement-strategy) for Microsoft Teams and discuss them with your IT partners and key stakeholders.
