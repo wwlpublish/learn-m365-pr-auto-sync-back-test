@@ -1,0 +1,30 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.exchange-setup-using-role-based-permissions.explore-differences-permissions
+title: Explore the differences in permissions
+metadata:
+  title: Explore the differences in permissions
+  description: "Explore the differences in permissions"
+  ms.date: 11/16/2021
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 9
+content: |
+  [!include[](includes/4-explore-differences-permissions.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "What's the first task you must complete to configure RBAC split permissions?"
+    choices:
+    - content: "Create a role group, which will contain the Active Directory administrators that can create security principals"
+      isCorrect: false
+      explanation: "That's incorrect. This item is one of the tasks that must be completed, but it's not the first task. Try again."
+    - content: "Disable Active Directory split permissions if it's enabled"
+      isCorrect: true
+      explanation: "That's correct. The first task that an organization must complete to configure RBAC split permissions is to disable Active Directory split permissions if it's enabled."
+    - content: "Create regular and delegating role assignments between the Mail Recipient Creation role and the Recipient Management role group"
+      isCorrect: false
+      explanation: "That's incorrect. This item isn't one of the tasks that must be completed. Try again."
