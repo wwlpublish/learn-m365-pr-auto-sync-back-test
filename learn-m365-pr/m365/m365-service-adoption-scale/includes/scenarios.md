@@ -14,10 +14,7 @@ In the slide above, this reads as follows:
 
 :::image type="content" source="../media/prioritize-scenarios.png" alt-text="Prioritize business scenarios" border="false":::
 
-<div class="centered">
-  
 :::image type="icon" source="../media/activity.png" border="false":::
-<\div>
   
 Download the [scenario-mapping template](/microsoftteams/teams-adoption-define-usage-scenarios) and write out some simple scenarios using your simplified persona information.
 
