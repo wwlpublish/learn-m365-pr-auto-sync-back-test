@@ -33,7 +33,7 @@ quiz:
     - content: "Live event hosted in Yammer"
       isCorrect: false
       explanation: "That's incorrect. Yammer Live Events are limited to 20,000 participants."
-    - content: "Live event hosted in Streams"
+    - content: "Live event hosted in Stream"
       isCorrect: true
       explanation: "That's correct. Live events for up to 100,000 attendees are supported in Stream when planned through the Live Events Assistance Program. "
   - content: "What's one of the seven ways you can be more inclusive?"
