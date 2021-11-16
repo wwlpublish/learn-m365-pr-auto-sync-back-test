@@ -11,7 +11,7 @@ You can view a summary of this information in the **Microsoft 365 admin center**
 
 You can also explore the data collected with a Power BI by installing the **Microsoft 365 usage analytics** app.
 
-:::image type="content" source="../media/microsoft-365-usage-executive-summary.png" alt-text="Screenshot showing the usage executive summary report.":::
+:::image type="content" source="../media/microsoft-365-usage-executive-summary.png" alt-text="Screenshot showing the usage executive summary report." lightbox="../media/microsoft-365-usage-executive-summary.png":::
 
 **Usage data allows you to adjust your awareness and training campaigns to help people understand the capabilities that they have available to them.** This is helpful when combined with the "what's in it for me" or WIIFM approach to messaging that helps employees understand how using Microsoft 365 services will empower them to be more productive and agile in their work styles.
 
