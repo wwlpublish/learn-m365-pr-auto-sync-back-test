@@ -25,17 +25,17 @@ quiz:
     - content: "Have your IT contact available throughout the event in case there are issues."
       isCorrect: false
       explanation: "That's incorrect. It is useful to have to IT support throughout your event, but this won't avoid the most common issues before the event starts."
-  - content: "Where should you host a live event if you have 15,000 attendees that are inside and outside your organization?"
+  - content: "Where should you host a live event if you have 25,000 attendees within your organization?"
     choices:
     - content: "Teams Live Event"
       isCorrect: false
-      explanation: "That's incorrect. Teams Live Events are limited to 10,000 participants."
+      explanation: "That's incorrect. Teams Live Events are limited to 20,000 participants."
     - content: "Live event hosted in Yammer"
       isCorrect: false
-      explanation: "That's incorrect. Yammer participants can only be internal to your organization."
+      explanation: "That's incorrect. Yammer Live Events are limited to 20,000 participants."
     - content: "Live event hosted in Streams"
       isCorrect: true
-      explanation: "That's correct. Stream supports up to 20,000 internal and external participants (with a maximum of 100,000 if the Live Events Assistance Program is involved). "
+      explanation: "That's correct. Live events for up to 100,000 attendees are supported in Stream when planned through the Live Events Assistance Program. "
   - content: "What's one of the seven ways you can be more inclusive?"
     choices:
     - content: "Always offer a helping hand."
