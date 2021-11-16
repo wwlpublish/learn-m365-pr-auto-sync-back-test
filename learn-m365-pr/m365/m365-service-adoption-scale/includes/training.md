@@ -1,4 +1,4 @@
-:::image type="content" source="../media/awareness.png" alt-text="A slide showing the components of awareness and training. Awareness, Engagement, Measurement, and Management. These are described below.":::
+:::image type="content" source="../media/awareness.png" alt-text="A slide showing the components of awareness and training. Awareness, Engagement, Measurement, and Management. These are described below." border="false":::
 
 Marketing and communications capabilities will enable your employees to be aware of the new services you are delivering and know how to get assistance with using them to their best benefit. Using the methods of omni-directional marketing you will land these core messages in places your employees already are. This includes email announcements, intranet articles, staff meetings, executive events, and other communications methods.
 
