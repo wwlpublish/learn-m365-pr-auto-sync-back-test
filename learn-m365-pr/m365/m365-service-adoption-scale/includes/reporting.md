@@ -7,7 +7,7 @@ Microsoft 365 services collect data about the usage patterns of your users. This
 
 You can view a summary of this information in the **Microsoft 365 admin center**, in the **Reports** section, in the **Usage** report.
 
-:::image type="content" source="../media/microsoft-365-admin-center-usage-report.png" alt-text="Screenshot showing admin center usage report.":::
+:::image type="content" source="../media/microsoft-365-admin-center-usage-report.png" alt-text="Screenshot showing admin center usage report." lightbox="../media/microsoft-365-admin-center-usage-report.png":::
 
 You can also explore the data collected with a Power BI by installing the **Microsoft 365 usage analytics** app.
 
