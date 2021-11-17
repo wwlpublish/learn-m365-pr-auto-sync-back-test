@@ -78,9 +78,7 @@ Once you have reviewed enough items and accuracy reaches at least 70%, you can p
 
 ### Publish
 
-Publish the trainable classifier when you are satisfied with the results from the predictive model. Once published, your custom trainable classifier will be available in selected compliance solutions.
-
-The image below shows a published trainable classifier. Notice the status is **Ready to use**.
+Publish the trainable classifier when you are satisfied with the results from the predictive model. Once published, your custom trainable classifier will be available in selected compliance solutions. The status for a published trainable classifier is **Ready to use**.
 
 ## Trainable Classifiers
 
@@ -92,4 +90,3 @@ Watch this video on trainable classifiers.
 
 - [Get started with trainable classifiers](/microsoft-365/compliance/classifier-getting-started-with?azure-portal=true)
 - [Using a built-in classifier](/microsoft-365/compliance/classifier-using-a-ready-to-use-classifier?azure-portal=true)
-- [Creating a trainable classifier](/microsoft-365/compliance/classifier-creating-a-trainable-classifier?azure-portal=true)
