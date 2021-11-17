@@ -33,14 +33,14 @@ quiz:
     - content: "Which classification experience allows the end user to provide a justification for reclassifying the data or removing the label?"
       choices:
       - content: "Automatic"
-        isCorrect: true
-        explanation: "Correct.  With automatic, the documents are automatically classified, labeled, and protected without allowing the end user to reclassify."
+        isCorrect: false
+        explanation: "Incorrect. With automatic, the documents are automatically classified, labeled, and protected **without** allowing the end user to reclassify."
       - content: "User-set"
         isCorrect: false
         explanation: "Incorrect. User-set would allow the end user to classify the document manually to a level other than classified."
       - content: "Recommended"
-        isCorrect: false
-        explanation: "Incorrect. With recommended, the end user could change the document to a level other than classified."
+        isCorrect: true
+        explanation: "Correct. Recommended allows the end user to change the document to a level other than classified or remove the label."
       - content: "Reclassification"
         isCorrect: false
         explanation: "Incorrect. Reclassification would allow the end user to reclassify the data, or worse remove the label."

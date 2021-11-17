@@ -46,7 +46,7 @@ This card shows the number of items with a sensitivity label applied grouped by 
 
 ## Top retention labels applied
 
-The **Top retention labels applied** to content card## shows the most frequently applied retention labels, grouped by retention label. At least one item must have a retention label applied for this card to be populated.
+The **Top retention labels applied** to content card shows the most frequently applied retention labels, grouped by retention label. At least one item must have a retention label applied for this card to be populated.
 
    :::image type="content" source="../media/top-retention-labels.png" alt-text="Screenshot showing Top retention labels applied.":::
 
@@ -56,7 +56,7 @@ The **Locations where retention labels are applied** card shows the number of it
 
    :::image type="content" source="../media/locations-where-retention-labels-are-applied.png" alt-text="Screenshot showing Locations where retention labels are applied.":::
 
-## Top activities detected.
+## Top activities detected
 
 The **top activities detected** card summarizes the most common actions taken on items with sensitivity labels applied. This card helps you understand what users are doing with the organization's sensitive data.
 
