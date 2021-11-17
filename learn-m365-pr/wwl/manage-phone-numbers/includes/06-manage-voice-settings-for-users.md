@@ -43,13 +43,13 @@ When an admin turns off group calling for a user after the user has already set 
  
 To clean up or modify the call group for a user, sign into the Teams Admin Center and complete the following steps:
 
-1. In the left-hand navigation pane in the **Teams Admin Center**, select **Users** and then select the name of the user you want to edit.
+1. In the left-hand navigation pane in the **Teams Admin Center**, select **Users** > **Manage users** and then select the name of the user you want to edit.
 2. Select the **Voice** tab and navigate to the **Group call pickup** section.
 3. In the list of users, select the users you want to remove from the Call group and select **Remove**.
 
 If you want to add users to a call group, complete the following steps:
 
-1. In the left-hand navigation pane in the **Teams Admin Center**, select **Users** and then select the name of the user who owns the call group you want to modify.
+1. In the left-hand navigation pane in the **Teams Admin Center**, select **Users** > **Manage users** and then select the name of the user who owns the call group you want to modify.
 2. Select the **Voice** tab and navigate to the **Group call pickup** section.
 3. Select **Add people** and then in the right-hand pane, search for the users you want to add.
 4. Select **Apply** to add the selected users to the call group.

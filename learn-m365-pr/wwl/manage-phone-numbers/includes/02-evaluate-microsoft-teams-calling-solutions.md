@@ -6,11 +6,10 @@ To enable the Dial Pad tab in Teams and allow its users to make and receive PSTN
 
 To connect to the PSTN, an organization can choose one of the following options:
 
-* Phone System with **Microsoft Teams Calling Plans**
-* Phone System with **Operator Connect** (public preview)
-* Phone System with **Direct Routing**
-
-Organizations can also have a combination solution that uses Phone System with Calling Plan, Phone System with Operator Connect, or Phone System with Direct Routing.
+* Phone System with **Calling Plans**
+* Phone System with your own PSTN carrier with **Operator Connect**
+* Phone System with your own PSTN carrier with **Direct Routing**
+* A **combination solution** that uses Phone System with Calling Plan, Phone System with Operator Connect, and/or Phone System with Direct Routing
 
 ‎:::image type="content" source="../media/teams-public-switched-telephone-network-solution.png" alt-text="Teams voice solutions":::
 
