@@ -10,7 +10,7 @@ Some of the common scenarios for using call parking include:
 
 A Teams administrator can enable call parking and retrieve for users. A call park policy can also be created for user groups.
 
-* Call park and retrieve is only available in **Teams Only** deployment mode. To set the deployment mode to **Teams only**, navigate to **Org-wide settings** > **Teams upgrade** in the Microsoft Teams admin center, and then set the **Coexistence** mode to **Teams only**.
+* Call park and retrieve is only available in **Teams Only** deployment mode. To set the deployment mode to **Teams only**, navigate to **Teams** > **Teams upgrade settings** in the Microsoft Teams admin center, and then set the **Coexistence** mode to **Teams only**.
 
 * To park and retrieve calls, a user must be an Enterprise Voice user and included in a call park policy.
 
