@@ -16,16 +16,16 @@ To manage devices in Microsoft Teams, you must be assigned one of the following 
 
 You can manage any device that's certified for, and enrolled in, Teams. Admins can manage the following types of certified devices:
 
-* Collaboration bars
-* Conference phones
-* Desk phones
-* Microsoft Teams Rooms
-* Teams displays
-* Teams panels
+* Teams Rooms on Windows
+* Teams Rooms on Android
+* Panels
+* Phones
+* Displays
 
-## Manage phones, collaboration bars, Teams displays, and Teams panels
 
-Devices must be enrolled in Microsoft Teams before they can be managed through the Teams admin center. Organizations can use the Teams admin center to view and manage phones, collaboration bars, Teams displays, and Teams panels. The following information can be maintained and displayed for each device:
+## Manage devices
+
+Devices must be enrolled in Microsoft Teams before they can be managed through the Teams admin center. Organizations can use the Teams admin center to view and manage devices. The following information can be maintained and displayed for each device:
 
 - Device name
 - Manufacturer
@@ -36,9 +36,9 @@ Devices must be enrolled in Microsoft Teams before they can be managed through t
 - Last seen
 - History
 
-If an organization is signed up for Microsoft Intune, then all phones, collaboration bars, Teams displays, and Teams panels are automatically enrolled in Intune. After a device is enrolled, device compliance is confirmed and conditional access policies are applied to the device.
+If an organization is signed up for Microsoft Intune, then all devices are automatically enrolled in Intune. After a device is enrolled, device compliance is confirmed and conditional access policies are applied to the device.
 
-The following chart displays examples of how an organization can manage phones, collaboration bars, Teams displays, and Teams panels.  
+The following chart displays examples of how an organization can manage devices.  
 
 | To do this task...                           | Complete these steps                                                                                                                                                                                                                                                                                                      |
 |--------------------|---------------------------------------------------------|
@@ -51,7 +51,7 @@ The following chart displays examples of how an organization can manage phones, 
 | Filter devices using device tags        | Select the filter icon, select the **Tag** field, specify a device tag to filter on, and select **Apply**.  |
 | View device history and diagnostics     | Under the **History** column, select the **View** link for a device to view its update history and diagnostic details. |
 
-:::image type="content" source="../media/manage-phones.png" alt-text="Manage phones, collaboration bars, Teams displays, and Teams panels" lightbox="../media/manage-phones.png":::
+:::image type="content" source="../media/manage-phones.png" alt-text="Manage phones" lightbox="../media/manage-phones.png":::
 
 ## Manage Teams Rooms devices
 
