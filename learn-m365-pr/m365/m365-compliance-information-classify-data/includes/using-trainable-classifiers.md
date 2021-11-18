@@ -30,15 +30,15 @@ You can create and train your own classifiers to look for data unique to your or
 
 Once the one-time setup process is complete, you can begin configuring trainable classifiers. The trainable classifier configuration process can be broken down as follows:
 
-1. Seed. Prepare your sample data and create the trainable classifier.
-1. Test. Prepare test data, test the predictive model, and evaluate the results.
-1. Publish. Make the trainable classifier available for use in your compliance solutions.
+1. **Seed**. Prepare your sample data and create the trainable classifier.
+1. **Test**. Prepare test data, test the predictive model, and evaluate the results.
+1. **Publish**. Make the trainable classifier available for use in your compliance solutions.
 
 Each step is explained in more detail below.
 
 ### One-time setup
 
-A one-time scan must be completed before creating any custom trainable classifiers. This is needed so Microsoft 365 can learn more about the content in your organization. This process takes 7 to 14 days. The image below shows the message you will receive when attempting to create a custom trainable classifier for the first time.
+A one-time scan must be completed before creating any custom trainable classifiers. This is needed so Microsoft 365 can learn more about the content in your organization. _This process takes 7 to 14 days._ The image below shows the message you will receive when attempting to create a custom trainable classifier for the first time.
 
 :::image type="content" source="../media/one-time-setup.png" alt-text="Screenshot showing One time setup alert." lightbox="../media/one-time-setup.png":::
 
@@ -56,7 +56,7 @@ It can take as long as 24 hours for the prediction model to be built once you co
 
 ### Test
 
-**Step 1: Prepare test data**. Start testing the predictive model once seeding is complete. You need at least 200 and as many as 10,000 positive and negative examples of the content you are training the classifier to detect. The content used to build the model should not be used to test the model. Create a second SharePoint document library or folder for the test content, move your content there, and wait for the folder to be indexed.
+**Step 1: Prepare test data**. Start testing the predictive model once seeding is complete. You need at least 200 and as many as 10,000 positive and negative examples of the content you are training the classifier to detect. _The content used to build the model should **not** be used to test the model._ Create a second SharePoint document library or folder for the test content, move your content there, and wait for the folder to be indexed.
 
 **Step 2: Test predictive model**. You start the test wizard by clicking on **Add items to test** on the trainable classifier information page. Point to the SharePoint site holding the test items and choose **Done** to start the test. The image below shows the **Training process** card on the trainable classifier information page before you start the testing process. Notice the status is **Ready to test**. Once you begin the test, Microsoft 365 attempts to predict whether each item you provided for testing is **Relevant** or **Not Relevant**.
 
