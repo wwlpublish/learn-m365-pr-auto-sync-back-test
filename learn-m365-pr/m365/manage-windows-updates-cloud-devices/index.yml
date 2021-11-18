@@ -3,7 +3,7 @@ uid: learn-m365-pr.manage-windows-updates-cloud-devices
 metadata:
   title: Manage Windows updates for cloud-connected devices by using the Microsoft Graph PowerShell SDK
   description: In this module, you'll learn how to use the Microsoft Graph PowerShell SDK to interact with the Windows Update for Business deployment service, so you can offer, schedule, and expedite updates for your cloud-connected Windows 10 or later devices.
-  ms.date: 10/04/2021
+  ms.date: 10/26/2021
   author: beccarobins
   ms.author: beccarobins
   ms.topic: interactive-tutorial
