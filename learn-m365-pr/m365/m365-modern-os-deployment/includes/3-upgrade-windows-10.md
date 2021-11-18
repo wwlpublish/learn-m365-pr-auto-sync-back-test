@@ -32,7 +32,8 @@ Regardless of the deployment type you choose, automation provides predictability
 
 ## Learn more
 
-- [Windows 10 Upgrade paths](https://docs.microsoft.com/windows/deployment/upgrade/windows-10-upgrade-paths)
+- [Windows 10 Upgrade paths](
+https://docs.microsoft.com/windows/deployment/upgrade/windows-10-upgrade-paths)
 - [Windows Autopilot for existing devices](/windows/deployment/windows-autopilot/existing-devices?azure-portal=true)
 - [Configure a Desktop Analytics environment](/configmgr/desktop-analytics/set-up?azure-portal=true)
 - [Assess which computers can be upgraded to Windows 10](/configmgr/desktop-analytics/about-deployment-plans?azure-portal=true)
