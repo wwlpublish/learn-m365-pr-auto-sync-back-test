@@ -13,7 +13,7 @@ When deploying linked mailboxes, messaging administrators must carefully plan se
 
 The following diagram illustrates the relationship between the linked user account used to access the linked mailbox (located in the account forest) and the disabled user account in the Exchange resource forest that's associated with the linked mailbox.
 
-:::image type="content" source="../media/linked-mailboxes-architecture-b9236a70.png":::
+:::image type="content" source="../media/linked-mailboxes-architecture-b9236a70.png" alt-text="Diagram showing two forests with a trust relationship, where sign-in’s from the resource forest are restricted to specific hosts in the production forest.":::
 
 
 > [!NOTE]
