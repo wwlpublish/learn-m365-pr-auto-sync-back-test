@@ -26,20 +26,17 @@ quiz:
     - content: Creating an application and device inventory
       isCorrect: True
       explanation: Desktop analytics will create an application and device inventory.
-    
-
- - content: Microsoft Desktop Analytics is a cloud-based service that integrates with which on-premises server solution?
-  choices:
+  - content: Microsoft Desktop Analytics is a cloud-based service that integrates with which on-premises server solution?
+    choices:
     - content: Configuration Manager
-    isCorrect: True
-    explanation: Desktop Analytics integrates with Configuration Manager to provide insights and intelligence about the update readiness of your Windows clients.
+      isCorrect: True
+      explanation: Desktop Analytics integrates with Configuration Manager to provide insights and intelligence about the update readiness of your Windows clients.
     - content: Windows Server 2019
-    isCorrect: False
-    explanation: Windows Server 2019 is a server operating system. It does not directly integrate with Desktop Analytics.
+      isCorrect: False
+      explanation: Windows Server 2019 is a server operating system. It does not directly integrate with Desktop Analytics.
     - content: Windows Admin Center
-    isCorrect: False
-    explanation: Windows Admin Center allows you to manage server tasks and does not directly integrate with Desktop Analytics.
-
+      isCorrect: False
+      explanation: Windows Admin Center allows you to manage server tasks and does not directly integrate with Desktop Analytics.
   - content: Which of the following is a prerequisite to using Desktop Analytics?
     choices:
     - content: Installing Visual Studio Code.
