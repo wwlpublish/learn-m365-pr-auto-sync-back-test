@@ -3,7 +3,7 @@ uid: learn-m365.m365-compliance-insider-plan-information-barriers
 metadata:
   title: Plan information barriers
   description: Information barriers enable administrators to define policies to allow or prevent communications between groups of users in Microsoft Teams chats and channels. When information barrier policies are in place, people who should not communicate with other specific users won't be able to find, select, chat, or call those users. With information barriers, checks are in place to prevent unauthorized communication. 
-  ms.date: 07/19/2021
+  ms.date: 11/16/2021
   author: beccarobins
   ms.author: beccarobins
   ms.topic: interactive-tutorial
