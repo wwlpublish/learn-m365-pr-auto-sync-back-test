@@ -44,10 +44,10 @@ Automapping is an Exchange feature that allows Outlook clients to automatically 
 
 Sometimes it’s necessary to disable automapping. For example, a user may have Full Access permissions to so many mailboxes that it causes performance issues when starting Outlook.
 
-You can disable automapping by using PowerShell. For example, if you want to grant the user Ed Jones Full Access permission to Kim Chastain’s mailbox and disable the automapping feature, you would run the following command:
+You can disable automapping by using PowerShell. For example, if you want to grant the user Ed Jones Full Access permission to Holly Dickson's mailbox and disable the automapping feature, you would run the following command:
 
 ```powershell
-Add-MailboxPermission -Identity KimC -User ‘Ed Jones’ -AccessRight FullAccess -InheritanceType All -Automapping $false
+Add-MailboxPermission -Identity HollyD -User ‘Ed Jones’ -AccessRight FullAccess -InheritanceType All -Automapping $false
 ```
 
 ## Knowledge check

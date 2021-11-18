@@ -6,7 +6,7 @@ You can also create and manage shared mailboxes with PowerShell by using the **N
 New-Mailbox -Shared -Name "HR Department" -DisplayName "HR Department" -Alias HR@contoso.com | Set-Mailbox -GrantSendOnBehalfTo HRSG | Add-MailboxPermission -User HRSG -AccessRights FullAccess -InheritanceType All
 ```
 
-### Manage shared mailboxes
+### Manage shared mailbox permissions
 
 When a user is granted Full Access permission to a shared mailbox, the delegated user can access the mailbox and view and manage all messages in the mailbox.
 

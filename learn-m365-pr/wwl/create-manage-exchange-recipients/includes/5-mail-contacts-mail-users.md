@@ -1,6 +1,6 @@
 Contacts are Exchange recipients that have a name, an alias, and an external email address. There are two types of contacts available in Exchange: mail contacts and mail users.
 
-### Mail Contacts
+### Mail contacts
 
 Mail contacts don't have a user account in Active Directory (AD) or Microsoft 365. As such, they can't sign-in to a mailbox using, for example, Outlook.
 
@@ -8,7 +8,7 @@ However, mail contacts do appear throughout the organization in the global addre
 
 You can also use contacts within your own hierarchy and assign them a manager. This approach is useful if your organization engages outside contractors or associates. After you create a contact, you can add some optional fields, such as contact information, phone numbers, notes, title, department, company, manager, and direct reports. Finally, you can configure a MailTip that appears when someone sends a message to that person.
 
-### Mail Users
+### Mail users
 
 A mail user combines some of the attributes of a full mailbox user along with the characteristics of a contact. Mail users enable administrators to provide sign-in facilities to Microsoft 365 while continuing to provide an external email address.
 
@@ -20,7 +20,7 @@ The characteristics of a mail user include:
  -  They have an email address that is external to Microsoft 365, registered against the **ExternalEmailAddress.**
  -  They can have a secondary email address for the default &lt;tenantname&gt;.onmicrosoft.com domain.
 
-### Create and manage Contacts
+### Create and manage contacts
 
 You can create or manage a contact after deciding what type of contact you need. Contacts can be added and maintained through either the Exchange Admin Center (EAC) or Windows PowerShell.
 
@@ -144,7 +144,7 @@ New-MailUser -Name \&lt;name\&gt; -WindowsLiveID \&lt;Microsoft ID\&gt; -Passwor
 
 Deleting a contact is as simple as selecting the contact and then selecting the Delete icon in the EAC or using the **Delete-MailUser** or **Delete-MailContact** cmdlets.
 
-### Bulk-import Contacts
+### Bulk-import contacts
 
 Adding contacts individually can be a lengthy and boring process, so if you have several contacts to import, it's best to do this in bulk by using Windows PowerShell. Here, the **Import-CSV** cmdlet comes in handy.
 
@@ -171,7 +171,7 @@ If you want to create mail users, you must exchange the **New-MailContact** cmdl
 
 **Additional reading.** For detailed instructions on how to bulk import contacts and to view a sample CSV file that you can use to import contacts, see [Bulk import external contacts to Exchange](/microsoft-365/compliance/bulk-import-external-contacts?azure-portal=true).
 
-### Hide Contacts
+### Hide contacts
 
 Since contacts appear in the Global Address List (GAL), there may be situations when you want to hide contacts from your users. For example, if you want to use contacts for e-mail forwarding only, your users shouldn't add them to any distribution list or group.
 

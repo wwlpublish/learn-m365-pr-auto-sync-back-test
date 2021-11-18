@@ -60,7 +60,7 @@ When managing a resource mailbox through the EAC, you can configure the followin
     Contact information
   :::column-end:::
   :::column:::
-    Add street, Zip/post code, city and so on if required.
+    Add street, Zip/post code, city, and so on if necessary.
   :::column-end:::
 :::row-end:::
 :::row:::
@@ -68,7 +68,7 @@ When managing a resource mailbox through the EAC, you can configure the followin
     Email address
   :::column-end:::
   :::column:::
-    Add further email addresses if required.
+    Add further email addresses if necessary.
   :::column-end:::
 :::row-end:::
 :::row:::
@@ -89,7 +89,7 @@ When managing a resource mailbox through the EAC, you can configure the followin
 :::row-end:::
 
 
-You can also configure several additional settings that control how the resource mailbox will respond to meeting requests. These settings can be configured in Exchange PowerShell by using the **Set-CalendarProcessing** cmdlet. Some of the available options include:
+You can also configure several other settings that control how the resource mailbox will respond to meeting requests. These settings can be configured in Exchange PowerShell by using the **Set-CalendarProcessing** cmdlet. Some of the available options include:
 
 :::row:::
   :::column:::
@@ -141,4 +141,4 @@ Messaging administrators should consider the following factors when designing ho
 
  -  **Restricting who can schedule a resource mailbox**. You might accept the default settings for most resources in the organization but consider restricting who can book heavily used or important resources. For example, if you use a resource room mailbox to manage the schedule for a large conference room, you may want to restrict who can book meetings in the conference room.
  -  **Restricting resource mailbox scheduling and usage**. You may want to set restrictions on the time of day when meetings can be booked with a resource, or restrict the meeting length or meeting recurrence.
- -  **How to configure the automatic acceptance policy for the resource mailbox**. By default, all resource mailboxes are configured to accept all new appointment requests and to block conflicting requests. You can change this so that all meeting requests are accepted as tentative, or to allow users to book the meeting resource for the same time.
+ -  **How to configure the automatic acceptance policy for the resource mailbox**. By default, all resource mailboxes are configured to accept all new appointment requests and to block conflicting requests. You can change setting this so that all meeting requests are accepted as tentative, or to allow users to book the meeting resource for the same time.

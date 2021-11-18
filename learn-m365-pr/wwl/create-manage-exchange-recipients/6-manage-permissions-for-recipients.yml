@@ -17,7 +17,7 @@ content: |
 quiz:
   title: "Check your knowledge"
   questions:
-  - content: "When Microsoft Exchange Server was deployed at Contoso, all Contoso administrators were given full acess to all the company's user mailboxes. As the number of Contoso employees has increased over time, the administrators have begun experiencing performance issues when starting Outlook. What should Contoso do to efficiently address this situation?"
+  - content: "When Microsoft Exchange Server was deployed at Contoso, all Contoso administrators were given Full Access permissions to all the company's user mailboxes. As the number of Contoso employees has increased over time, the administrators have begun experiencing performance issues when starting Outlook. What should Contoso do to efficiently address this situation?"
     choices:
     - content: "Remove Full Access permissions to all user mailboxes for each administrator"
       isCorrect: false
