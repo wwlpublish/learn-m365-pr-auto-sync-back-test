@@ -18,7 +18,7 @@ quiz:
   - content: Which of the following is NOT a feature of Desktop Analytics?
     choices:
     - content: Automatically creating a list of application owners
-      isCorrect: True
+      isCorrect: False
       explanation: You can assign an owner to each application, but Desktop Analytics does not automatically create a list of application owners.
     - content: Maintain one or more deployment plans 
       isCorrect: False
