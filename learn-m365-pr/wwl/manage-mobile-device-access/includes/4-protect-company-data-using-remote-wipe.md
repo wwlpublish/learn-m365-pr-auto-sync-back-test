@@ -56,7 +56,7 @@ Clear-MobileDevice -Identity WM_TonySmith -AccountOnly -NotificationEmailAddress
 
 By completing the following steps, your users can wipe their own phones using Outlook on the web:
 
-1.  In Outlook on the web, select **Settings > Phone > Mobile devices**.
+1.  In Outlook on the web, select **Settings &gt; Phone &gt; Mobile devices**.
 2.  Select the mobile phone.
 3.  Select or tap the **Wipe Device** icon.
 
