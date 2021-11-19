@@ -16,7 +16,7 @@ quiz:
     title: Check your knowledge
     questions:
     - content: "Your organization uses Configuration Manager and Active Directory. You want to transition to Intune and Azure AD. Which solution should you use?""
-          choices:
+      choices:
       - content: "Azure"
         isCorrect: false
         explanation: "That's incorrect. Azure doesn't directly have this feature."
