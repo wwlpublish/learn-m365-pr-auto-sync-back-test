@@ -1,0 +1,52 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.exchange-recipients.knowledge-check
+title: Knowledge check
+metadata:
+  title: Knowledge check
+  description: "Knowledge check"
+  ms.date: 11/19/2021
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 6
+content: |
+  [!include[](includes/7-knowledge-check.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "Fabrikam has Exchange Server deployed in a resource forest. As the Messaging administrator for Fabrikam, Holly Spencer wants to employ linked mailboxes for users whose primary accounts are in a separate, trusted forest. For each linked mailbox that Holly creates, what is created in the domain where Exchange is deployed and associated with the linked mailbox?"
+    choices:
+    - content: "A shared mailbox"
+      isCorrect: false
+      explanation: "That's incorrect. A shared mailbox isn't created and associated with the linked mailbox. Try again."
+    - content: "A disabled user account"
+      isCorrect: true
+      explanation: "That's correct. When configuring a linked mailbox, the user account that accesses the linked mailbox doesn't exist in the forest where Exchange is deployed. When you create the linked mailbox, a disabled user account is created in the domain where Exchange is deployed and associated with the linked mailbox. The user account from the account forest is granted full control of the mailbox."
+    - content: "A one-way trust between the domain where Exchange is deployed and the domain where the user account exists"
+      isCorrect: false
+      explanation: "That's incorrect. The one-way trust is not created when you create a linked mailbox. Instead, to implement linked mailboxes, you must first configure a one-way trust in which the domain where Exchange is deployed trusts the domain where the user account exists. Try again."
+  - content: "Contoso has a Customer Support team that provides a helpdesk for responding to customer and employee questions. Customers and employees must call into the helpdesk with their questions. As the Messaging administrator for Contoso, Holly Dickson wants to update their helpdesk so that it can also receive email messages. What recipient type should Holly create to help the Customer Support team respond to email messages from both employees and customers?"
+    choices:
+    - content: "A shared mailbox"
+      isCorrect: true
+      explanation: "That's correct. Shared mailboxes provide a way for teams or departments that provide centralized services, such as helpdesks or support, to respond to requests from employees or customers."
+    - content: "A linked mailbox"
+      isCorrect: false
+      explanation: "That's incorrect. A linked mailbox isn't the recipient type that Holly should create. Try again."
+    - content: "A Microsoft 365 group"
+      isCorrect: false
+      explanation: "That's incorrect. A Microsoft 365 group isn't the recipient type that Holly should create. Try again."
+  - content: "In an Exchange Online deployment, what must each user mailbox be associated with?"
+    choices:
+    - content: "A user account that's created in Microsoft 365"
+      isCorrect: true
+      explanation: "That's correct. In Exchange Online, each user mailbox is associated with a user account that's created in Microsoft 365."
+    - content: "An Active Directory user account"
+      isCorrect: false
+      explanation: "That's incorrect. Each user mailbox is associated with an Active Directory user account in Exchange Server. Try again."
+    - content: "An Offline Address Book"
+      isCorrect: false
+      explanation: "That's incorrect. User mailboxes don't have to be associated with an OAB. Try again."
