@@ -15,7 +15,7 @@ content: |
 quiz:
     title: Check your knowledge
     questions:
-    - content: "Your organization uses Configuration Manager and Active Directory. You want to transition to Intune and Azure AD. Which solution should you use?""
+    - content: "Your organization uses Configuration Manager and Active Directory. You want to transition to Intune and Azure AD. Which solution should you use?"
       choices:
       - content: "Azure"
         isCorrect: false
