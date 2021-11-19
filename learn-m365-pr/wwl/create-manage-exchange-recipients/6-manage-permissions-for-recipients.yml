@@ -1,0 +1,30 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.create-manage-exchange-recipients.manage-permissions-for-recipients
+title: Manage permissions for recipients
+metadata:
+  title: Manage permissions for recipients
+  description: "Manage permissions for recipients"
+  ms.date: 11/19/2021
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 6
+content: |
+  [!include[](includes/6-manage-permissions-for-recipients.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "When Microsoft Exchange Server was deployed at Contoso, all Contoso administrators were given Full Access permissions to all the company's user mailboxes. As the number of Contoso employees has increased over time, the administrators have begun experiencing performance issues when starting Outlook. What should Contoso do to efficiently address this situation?"
+    choices:
+    - content: "Remove Full Access permissions to all user mailboxes for each administrator"
+      isCorrect: false
+      explanation: "That's incorrect. This action isn't what Contoso should do to address this situation. Try again."
+    - content: "Change each administrator's permissions for all user mailboxes from Full Access to Send As"
+      isCorrect: false
+      explanation: "That's incorrect. This action isn't what Contoso should do to address this situation. Try again."
+    - content: "Disable Automapping"
+      isCorrect: true
+      explanation: "That's correct. Automapping is an Exchange feature that allows an Outlook client to automatically map to any mailbox to which the user has Full Access permissions. If a user has Full Access permissions to so many mailboxes that it causes performance issues when starting Outlook, then you may need to disable automapping."

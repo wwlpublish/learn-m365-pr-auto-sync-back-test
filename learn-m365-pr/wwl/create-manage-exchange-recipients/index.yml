@@ -1,0 +1,41 @@
+### YamlMime:Module
+uid: learn.wwl.create-manage-exchange-recipients
+metadata:
+  title: Create and manage Exchange recipients
+  description: "Create and manage Exchange recipients"
+  ms.date: 11/19/2021
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Create and manage Exchange recipients
+summary: Examines how messaging administrators create and manage Exchange recipients, including mailbox settings, resource mailboxes, shared mailboxes, mail contacts, mail users, recipient permissions, and groups.
+abstract: |
+  By the end of this module, you'll be able to:
+  - Manage mailbox settings.
+  - Manage resource mailboxes and shared mailboxes.
+  - Create and manage mail contacts and mail users.
+  - Manage permissions for recipients.
+  - Create and manage groups.
+prerequisites: |
+  None
+iconUrl: /learn/achievements/generic-badge.svg
+levels:
+- intermediate
+roles:
+- administrator
+products:
+- azure-active-directory
+- m365
+units:
+- learn.wwl.create-manage-exchange-recipients.introduction
+- learn.wwl.create-manage-exchange-recipients.manage-mailbox-settings
+- learn.wwl.create-manage-exchange-recipients.manage-resource-mailboxes
+- learn.wwl.create-manage-exchange-recipients.manage-shared-mailboxes
+- learn.wwl.create-manage-exchange-recipients.mail-contacts-mail-users
+- learn.wwl.create-manage-exchange-recipients.manage-permissions-for-recipients
+- learn.wwl.create-manage-exchange-recipients.groups
+- learn.wwl.create-manage-exchange-recipients.knowledge-check
+- learn.wwl.create-manage-exchange-recipients.summary
+badge:
+  uid: learn.wwl.create-manage-exchange-recipients.badge

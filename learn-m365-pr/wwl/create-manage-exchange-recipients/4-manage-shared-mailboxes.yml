@@ -1,0 +1,30 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.create-manage-exchange-recipients.manage-shared-mailboxes
+title: Manage shared mailboxes
+metadata:
+  title: Manage shared mailboxes
+  description: "Manage shared mailboxes"
+  ms.date: 11/19/2021
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 5
+content: |
+  [!include[](includes/4-manage-shared-mailboxes.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "As the Messaging administrator for Tailspin Toys, Alan Deyoung wants to grant Send of Behalf of permissions to a shared mailbox. How must Alan configure this permission?"
+    choices:
+    - content: "Through the Exchange admin center"
+      isCorrect: false
+      explanation: "That's incorrect. This method isn't how Alan can configure this permission. Try again."
+    - content: "Through Exchange PowerShell"
+      isCorrect: true
+      explanation: "That's correct. The Send on Behalf of permission is only configurable through PowerShell."
+    - content: "Through either the Exchange admin center or Exchange PowerShell"
+      isCorrect: false
+      explanation: "That's incorrect. This method isn't how Alan can configure this permission. Try again."
