@@ -4,7 +4,7 @@ You must understand the state of your sensitive data and how to remediate potent
 
 The Microsoft 365 Defender portal features capabilities for monitoring and managing security across your Microsoft identities, data, devices, apps, and infrastructure. Here you can view the security health of your organization, act to configure devices, users, and apps, and view alerts for suspicious activity. The Microsoft 365 Defender portal helps enable security admins and security operations teams to manage and protect their organization efficiently and effectively.
 
-![Screenshot of the Microsoft 365 Defender portal dashboard](../media/security-center-dashboard.png)
+![Screenshot of the Microsoft 365 Defender portal dashboard](../media/defender-dashboard.png)
 
 Microsoft 365 Defender portal includes the following data protection features.
 
