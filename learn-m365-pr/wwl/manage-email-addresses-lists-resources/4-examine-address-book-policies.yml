@@ -1,0 +1,30 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.manage-email-addresses,-lists,-resources.examine-address-book-policies
+title: Examine address book policies
+metadata:
+  title: Examine address book policies
+  description: "Examine address book policies"
+  ms.date: 11/19/2021
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 6
+content: |
+  [!include[](includes/4-examine-address-book-policies.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "As the Messaging administrator for Contoso, Holly Dickson wants to create an address-book policy (ABP) to limit the size of the offline address book for users. Holly has used the Exchange Management Shell in Exchange Server to turn on ABP routing and create an Address Book Policy. What's the next step that Holly must complete to finish configuring the ABP?"
+    choices:
+    - content: "Customize the ABP settings"
+      isCorrect: false
+      explanation: "That's incorrect. While you can optionally modify ABP settings once the ABP is configured, this isn't a required step. Try again."
+    - content: "Assign address lists to the ABP"
+      isCorrect: false
+      explanation: "That's incorrect. This step actually occurs when you create the ABP. Since Holly has already created the ABP using the Exchange Management Shell, this step has already been completed. Try again."
+    - content: "Assign the ABP to a mailbox user"
+      isCorrect: true
+      explanation: "That's correct. After turning on ABP routing and creating an ABP, the next step in the configuration process is to assign the ABP to a mailbox user (or to multiple mailbox users)."
