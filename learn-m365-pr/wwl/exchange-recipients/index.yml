@@ -16,7 +16,8 @@ abstract: |
   - Examine how organizations use resource mailboxes.
   - Compare shared mailboxes to linked mailboxes.
   - Describe how recipients can be grouped together to improve collaboration.
-prerequisites: ""
+prerequisites: |
+  None
 iconUrl: /learn/achievements/generic-badge.svg
 levels:
 - intermediate
