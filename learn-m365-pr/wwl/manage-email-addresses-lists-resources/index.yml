@@ -17,7 +17,8 @@ abstract: |
   - Describe address book policies.
   - Configure offline address books.
   - Describe email address policies.
-prerequisites: ""
+prerequisites: |
+  None
 iconUrl: /learn/achievements/generic-badge.svg
 levels:
 - intermediate
