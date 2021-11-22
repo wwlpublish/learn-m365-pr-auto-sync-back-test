@@ -17,7 +17,7 @@ Complete the following steps to configure password expiration in Microsoft 365:
 
 1.  Go to the Microsoft 365 admin center.
 2.  In the **Microsoft 365 admin center**, select **Show all** in the left-hand navigation pane, select **Settings,** and then **Org settings**.
-3.  On the **Org settings** page, select the **Security &amp; privacy** tab and then select **Password expiration policy**.
+3.  On the **Org settings** page, select the **Security > privacy** tab and then select **Password expiration policy**.
 4.  In the **Password expiration policy** pane that appears, you must update the **Set user passwords to expire after a number of days** check box depending on whether you want to force users to change their passwords.
     
      -  If you don't want user passwords to expire, then leave this check box blank and close the window.
