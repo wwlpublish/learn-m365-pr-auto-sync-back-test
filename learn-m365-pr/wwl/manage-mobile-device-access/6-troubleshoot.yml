@@ -4,12 +4,13 @@ title: Troubleshoot mobile device access
 metadata:
   title: Troubleshoot mobile device access
   description: "Troubleshoot mobile device access"
-  ms.date: 11/19/2021
+  ms.date: 11/22/2021
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
+sandbox: false
 labModal: false
 durationInMinutes: 5
 content: |
