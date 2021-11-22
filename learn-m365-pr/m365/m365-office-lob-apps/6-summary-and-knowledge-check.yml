@@ -23,7 +23,7 @@ quiz:
       - content: "32-bit"
         isCorrect: false
         explanation: "Microsoft 365 Apps is available in both 32-bit and 64-bit versions, but you should install the 64-bit version on new hardware to take advantage of better performance."
-    - content: "32-bit or 64-bit - it doesn't matter"
+      - content: "32-bit or 64-bit - it doesn't matter"
         isCorrect: false
         explanation: "Microsoft 365 Apps is available in both 32-bit and 64-bit versions, but you should only install the 32-bit version if your hardware has 32-bit dependencies. New hardware will be 64-bit, so you should install the 64-bit version."  
     - content: "Microsoft 365 Apps and Office 2019 clients use which installation technology?"
