@@ -43,20 +43,6 @@ quiz:
       - content: "New-DefaultOAB"
         isCorrect: false
         explanation: "No, the Set-OfflineAddressBook cmdlet lets you specify which address book to use as the default."
-    - content: "Which of the following describes how a change to an address book policy takes effect for the user?"
-      choices:
-      - content: "Use the Set-AddressBookPolicy cmdlet to force an update."
-        isCorrect: false
-        explanation: "No, the user has to connect again for the policy change to take effect."
-      - content: "The change in the address policy takes effect the next time the user connects to their mailbox."
-        isCorrect: true
-        explanation: "This is correct. Users won't see any changes until they reconnect."
-      - content: "Use the Set-Address cmdlet for an update."
-        isCorrect: false
-        explanation: "No, the user has to connect again for the policy change to take effect."
-      - content: "Turn on AddressBookPolicy routing in the Exchange Admin Center."
-        isCorrect: false
-        explanation: "No, the user has to connect again for the policy change to take effect."
     - content: "Which of the following can you change in the default email address policy?"
       choices:
       - content: "The name of the policy"
