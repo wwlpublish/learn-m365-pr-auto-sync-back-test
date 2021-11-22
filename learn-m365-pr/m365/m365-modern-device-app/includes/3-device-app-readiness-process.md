@@ -24,7 +24,7 @@ With inventory taken, you can prioritize the most common apps and hardware used 
 
 You'll find that most of the applications, drivers, and add-ins inventoried will work as-is. Both Upgrade Readiness and the Readiness Toolkit help assess items in your org that might have compatibility issues. They also provide you with known information about compatibility, including where to find version updates to resolve them. You'll want to test these updates before you roll them out.
 
-As a supplement to the upgrade readiness tools, you can get information about supporting apps in Windows and optimized strategies for testing your apps in the [Windows  Compatibility Cookbook](https://docs.microsoft.com/windows/compatibility/).
+As a supplement to the upgrade readiness tools, you can get information about supporting apps in Windows and optimized strategies for testing your apps in the [Windows  Compatibility Cookbook](/windows/compatibility/).
 
 In some instances, particularly non-critical, sparsely deployed applications and older devices, you might consider retiring or replacing apps and devices, rather than devoting time and resources to solving their complex issues.
 
