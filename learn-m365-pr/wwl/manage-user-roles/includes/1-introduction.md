@@ -13,7 +13,7 @@ This module is designed for persons who are aspiring to the Microsoft 365 Messag
 
 ### Learning objectives
 
-After this completing module, you'll be able to:
+After completing this module, you'll be able to:
 
  -  Describe the built-in end-user roles.
  -  Configure role assignment policies.
