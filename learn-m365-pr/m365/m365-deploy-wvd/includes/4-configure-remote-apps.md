@@ -58,7 +58,7 @@ To complete the exercise, you'll need the credentials for a different non-admini
 1. Select single or multiple users, or you can select user groups. 
 1. Select **Next: Workspace**.
 
-### Step 3: Workspace
+### Step 4: Workspace
 
 1. For **Register application group**, select **Yes**.
 
