@@ -31,4 +31,3 @@ After completing this module, you'll be able to:
  -  Create and manage mail contacts and mail users.
  -  Manage permissions for recipients.
  -  Create and manage groups.
-

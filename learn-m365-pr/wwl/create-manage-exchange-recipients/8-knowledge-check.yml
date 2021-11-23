@@ -21,32 +21,32 @@ quiz:
     choices:
     - content: "Distribution groups"
       isCorrect: true
-      explanation: "That's correct. Microsoft 365 offers the ability to migrate a distribution list to a Microsoft 365 group. Only distribution groups can be converted. You can't migrate security groups or dynamic distribution groups to Microsoft 365 groups. You can migrate distribution groups even if they contain mailboxes, shared mailboxes, site mailboxes, or mail users."
+      explanation: "This answer is correct. Microsoft 365 offers the ability to migrate a distribution list to a Microsoft 365 group. Only distribution groups can be converted. You can't migrate security groups or dynamic distribution groups to Microsoft 365 groups. You can migrate distribution groups even if they contain mailboxes, shared mailboxes, site mailboxes, or mail users."
     - content: "Security groups"
       isCorrect: false
-      explanation: "That's incorrect. You can't migrate security groups to Microsoft 365 groups. Try again."
+      explanation: "This answer is incorrect. You can't migrate security groups to Microsoft 365 groups. Try again."
     - content: "Dynamic distribution groups"
       isCorrect: false
-      explanation: "That's incorrect. You can't migrate dynamic distribution groups to Microsoft 365 groups. Try again."
+      explanation: "This answer is incorrect. You can't migrate dynamic distribution groups to Microsoft 365 groups. Try again."
   - content: "As the Messaging administrator for Fabrikam, Holly Spencer wants to create a recipient type that provides team collaboration such as document storage, a centralized calendar, a OneNote notebook, and project plans. This type can also be used to distribute emails to the team in one space. What recipient type should Holly create?"
     choices:
     - content: "Distribution groups"
       isCorrect: false
-      explanation: "That's incorrect. Distribution groups distribute messages to a set of users or contacts. Try again."
+      explanation: "This answer is incorrect. Distribution groups distribute messages to a set of users or contacts. Try again."
     - content: "Security groups"
       isCorrect: false
-      explanation: "That's incorrect. Security groups distribute messages and provide access to resources to a set of users. They're used when you need to apply permissions to resources such as a shared mailbox or Public Folder. Try again."
+      explanation: "This answer is incorrect. Security groups distribute messages and provide access to resources to a set of users. They're used when you need to apply permissions to resources such as a shared mailbox or Public Folder. Try again."
     - content: "Microsoft 365 groups"
       isCorrect: true
-      explanation: "That's correct. These groups are available only in Microsoft 365 and provide team collaboration such as document storage, a centralized calendar, a OneNote notebook, working collaborative on project plans, and team email distribution in one space. Microsoft 365 groups are excellent for team or department collaboration that uses other resources such as a OneNote or OneDrive. Because Microsoft 365 groups provide hooks into multiple Microsoft 365 services, they can be used as a tool to aid adoption and drive business value."
+      explanation: "This answer is correct. These groups are available only in Microsoft 365 and provide team collaboration such as document storage, a centralized calendar, a OneNote notebook, working collaborative on project plans, and team email distribution in one space. Microsoft 365 groups are excellent for team or department collaboration that uses other resources such as a OneNote or OneDrive. Because Microsoft 365 groups provide hooks into multiple Microsoft 365 services, they can be used as a tool to aid adoption and drive business value."
   - content: "As the Messaging administrator for Tailspin Toys, Alan Deyoung wants to create Exchange recipient types that contain information about people or organizations that exist outside the Tailspin Toys' Exchange organization. These recipient types will also have an external email address. What recipient type should Alan create?"
     choices:
     - content: "Mail contacts"
       isCorrect: true
-      explanation: "That's correct. Mail contacts contain information about people or organizations that exist outside an Exchange organization and that have an external email address. They show external contacts in Global Address List so that your users can add them to their distribution lists. Exchange routes all messages sent to the mail contact to this external email address."
+      explanation: "This answer is correct. Mail contacts contain information about people or organizations that exist outside an Exchange organization and that have an external email address. They show external contacts in Global Address List so that your users can add them to their distribution lists. Exchange routes all messages sent to the mail contact to this external email address."
     - content: "Linked mailboxes"
       isCorrect: false
-      explanation: "That's incorrect. Linked mailboxes are User mailboxes that are associated with specific users in a separate, trusted forest. Try again."
+      explanation: "This answer is incorrect. Linked mailboxes are User mailboxes that are associated with specific users in a separate, trusted forest. Try again."
     - content: "Remote mailboxes"
       isCorrect: false
-      explanation: "That's incorrect. Remote mailboxes are mailboxes that are located in the Exchange Online environment in a hybrid Exchange Server deployment. Try again."
+      explanation: "This answer is incorrect. Remote mailboxes are mailboxes that are located in the Exchange Online environment in a hybrid Exchange Server deployment. Try again."
