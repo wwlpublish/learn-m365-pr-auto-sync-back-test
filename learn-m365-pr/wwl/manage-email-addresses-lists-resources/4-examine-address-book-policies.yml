@@ -21,10 +21,10 @@ quiz:
     choices:
     - content: "Customize the ABP settings"
       isCorrect: false
-      explanation: "That's incorrect. While you can optionally modify ABP settings once the ABP is configured, this isn't a required step. Try again."
+      explanation: "This answer is incorrect. While you can optionally modify ABP settings once the ABP is configured, this isn't a required step. Try again."
     - content: "Assign address lists to the ABP"
       isCorrect: false
-      explanation: "That's incorrect. This step actually occurs when you create the ABP. Since Holly has already created the ABP using the Exchange Management Shell, this step has already been completed. Try again."
+      explanation: "This answer is incorrect. This step actually occurs when you create the ABP. Since Holly has already created the ABP using the Exchange Management Shell, this step has already been completed. Try again."
     - content: "Assign the ABP to a mailbox user"
       isCorrect: true
-      explanation: "That's correct. After turning on ABP routing and creating an ABP, the next step in the configuration process is to assign the ABP to a mailbox user (or to multiple mailbox users)."
+      explanation: "This answer is correct. After turning on ABP routing and creating an ABP, the next step in the configuration process is to assign the ABP to a mailbox user (or to multiple mailbox users)."

@@ -21,10 +21,10 @@ quiz:
     choices:
     - content: "It assigns the first name and the first letter of the last name as the local part of the second user's email address"
       isCorrect: false
-      explanation: "That's incorrect. This action isn't what Exchange Server does when two users have the same first and last names. Try again."
+      explanation: "This answer is incorrect. This action isn't what Exchange Server does when two users have the same first and last names. Try again."
     - content: "It assigns the first letter of the first name followed by the last name as the local part of the email address"
       isCorrect: false
-      explanation: "That's incorrect. This action isn't what Exchange Server does when two users have the same first and last names. Try again."
+      explanation: "This answer is incorrect. This action isn't what Exchange Server does when two users have the same first and last names. Try again."
     - content: "It appends a number to the local part of the second user’s email address"
       isCorrect: true
-      explanation: "That's correct. If two users have the same first name and last name, Exchange Server appends a number to the local part of the second user’s email address when the email address policy assigns an email address to the mailbox and the email address is based on the user’s first name and last name."
+      explanation: "This answer is correct. If two users have the same first name and last name, Exchange Server appends a number to the local part of the second user’s email address when the email address policy assigns an email address to the mailbox and the email address is based on the user’s first name and last name."
