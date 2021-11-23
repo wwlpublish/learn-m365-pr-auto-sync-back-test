@@ -10,7 +10,6 @@ metadata:
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
-sandbox: false
 labModal: false
 durationInMinutes: 4
 content: |
@@ -22,10 +21,10 @@ quiz:
     choices:
     - content: "Shared mailboxes can provide a generic email address to field customer inquiries"
       isCorrect: true
-      explanation: "That's correct. Shared mailboxes provide a generic email address, such as marketing@contoso.com or sales@contoso.com, to field customer inquiries."
+      explanation: "This answer is correct. Shared mailboxes provide a generic email address, such as marketing@contoso.com or sales@contoso.com, to field customer inquiries."
     - content: "A shared mailbox can have its own username and password"
       isCorrect: false
-      explanation: "That's incorrect. A shared mailbox doesn't have its own username and password like a User mailbox does. You can't use Outlook, Outlook Web App, Exchange ActiveSync, Exchange Web Services (EWS), or any other Exchange protocol to sign into a shared mailbox. Instead, you must be granted permission to the shared mailbox, at which point you can access it by using Outlook or Outlook Web App. Try again."
+      explanation: "This answer is incorrect. A shared mailbox doesn't have its own username and password like a User mailbox does. You can't use Outlook, Outlook Web App, Exchange ActiveSync, Exchange Web Services (EWS), or any other Exchange protocol to sign into a shared mailbox. Instead, you must be granted permission to the shared mailbox, at which point you can access it by using Outlook or Outlook Web App. Try again."
     - content: "Shared mailboxes are supported on mobile devices"
       isCorrect: false
-      explanation: "That's incorrect. Shared mailboxes aren't supported on mobile devices. To access a shared mailbox from a mobile device, you must use Outlook on the Web. Once a user is granted permission to the shared mailbox, it will automatically be added to the user’s Outlook profile and opened alongside the user’s primary mailbox. Try again."
+      explanation: "This answer is incorrect. Shared mailboxes aren't supported on mobile devices. To access a shared mailbox from a mobile device, you must use Outlook on the Web. Once a user is granted permission to the shared mailbox, it will automatically be added to the user’s Outlook profile and opened alongside the user’s primary mailbox. Try again."
