@@ -15,7 +15,7 @@ This module is designed for persons who are aspiring to the Microsoft 365 Messag
 
 ### Learning objectives
 
-After this completing module, you'll be able to:
+After completing this module, you'll be able to:
 
  -  Configure access for mobile devices.
  -  Identify components of mobile device infrastructure.
