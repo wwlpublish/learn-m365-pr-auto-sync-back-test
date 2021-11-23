@@ -21,3 +21,4 @@ After completing this module, you'll be able to:
  -  Examine how organizations use resource mailboxes.
  -  Compare shared mailboxes to linked mailboxes.
  -  Describe how recipients can be grouped together to improve collaboration.
+
