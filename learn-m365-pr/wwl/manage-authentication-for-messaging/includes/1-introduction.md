@@ -21,10 +21,9 @@ This module is designed for persons who are aspiring to the Microsoft 365 Messag
 
 ### Learning objectives
 
-After this completing module, you'll be able to:
+After completing this module, you'll be able to:
 
  -  Configure password policy options.
  -  Configure self-service password management.
  -  Implement multifactor authentication.
  -  Plan password policies.
-
