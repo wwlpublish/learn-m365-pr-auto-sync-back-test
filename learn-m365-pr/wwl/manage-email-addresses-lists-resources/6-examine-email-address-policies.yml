@@ -1,10 +1,10 @@
 ### YamlMime:ModuleUnit
-uid: learn.wwl.manage-email-addresses,-lists,-resources.examine-email-address-policies
+uid: learn.wwl.manage-email-addresses-lists-resources.examine-email-address-policies
 title: Examine email address policies
 metadata:
   title: Examine email address policies
   description: "Examine email address policies"
-  ms.date: 11/19/2021
+  ms.date: 11/23/2021
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial

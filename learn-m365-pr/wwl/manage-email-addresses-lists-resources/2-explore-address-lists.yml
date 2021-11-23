@@ -1,10 +1,10 @@
 ### YamlMime:ModuleUnit
-uid: learn.wwl.manage-email-addresses,-lists,-resources.explore-address-lists
+uid: learn.wwl.manage-email-addresses-lists-resources.explore-address-lists
 title: Explore address lists
 metadata:
   title: Explore address lists
   description: "Explore address lists"
-  ms.date: 11/19/2021
+  ms.date: 11/23/2021
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
