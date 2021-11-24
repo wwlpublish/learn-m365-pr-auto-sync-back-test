@@ -1,0 +1,52 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.create-manage-public-folders.knowledge-check
+title: Knowledge check
+metadata:
+  title: Knowledge check
+  description: "Knowledge check"
+  ms.date: 11/24/2021
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 6
+content: |
+  [!include[](includes/7-knowledge-check.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "As the Messaging administrator for Contoso, Holly Dickson created a public folder hierarchy consisting of multiple parent public folders and subfolders. When Holly created the public folders, what default permissions were assigned to new root folders for anonymous users?"
+    choices:
+    - content: "Author"
+      isCorrect: false
+      explanation: "This answer is incorrect. This item isn't the permission assigned to new root folders for anonymous users. Try again."
+    - content: "Authenticated"
+      isCorrect: false
+      explanation: "This answer is incorrect. This item isn't the permission assigned to new root folders for anonymous users. Try again."
+    - content: "None"
+      isCorrect: true
+      explanation: "This answer is correct. The default permissions assigned to new root folders are Author for authenticated users and None for anonymous users."
+  - content: "What's stored in secondary hierarchy mailboxes?"
+    choices:
+    - content: "A writeable copy of the public folder hierarchy"
+      isCorrect: false
+      explanation: "This answer is incorrect. This item isn't stored in secondary hierarchy mailboxes. Try again."
+    - content: "Pubic folder content"
+      isCorrect: true
+      explanation: "This answer is correct. Secondary hierarchy mailboxes contain public folder content and a read-only copy of the public folder hierarchy."
+    - content: "The root public folder"
+      isCorrect: false
+      explanation: "This answer is incorrect. This item isn't stored in secondary hierarchy mailboxes. Try again."
+  - content: "Starting with Exchange Server 2013, where are public folders stored?"
+    choices:
+    - content: "A separate public folder database"
+      isCorrect: false
+      explanation: "This answer is incorrect. In Exchange Server 2010 and earlier, public folders are stored in a separate public folder database. Try again."
+    - content: "A regular mailbox"
+      isCorrect: false
+      explanation: "This answer is incorrect. This item isn't where public folders are stored. Try again."
+    - content: "A public folder mailbox"
+      isCorrect: true
+      explanation: "This answer is correct. In Exchange Server 2013 and later, public folders are stored in a special type of mailbox called a public folder mailbox. The public folder mailboxes are stored in regular mailbox databases."

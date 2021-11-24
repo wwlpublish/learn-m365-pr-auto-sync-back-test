@@ -1,0 +1,30 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.create-manage-public-folders.create-manage-mail-enabled-public-folders
+title: Create and manage mail-enabled public folders
+metadata:
+  title: Create and manage mail-enabled public folders
+  description: "Create and manage mail-enabled public folders"
+  ms.date: 11/24/2021
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 7
+content: |
+  [!include[](includes/6-create-manage-mail-enabled-public-folders.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "As the Messaging administrator for Contoso, Holly Dickson created a mail-enabled public folder for Contoso's Manufacturing department. Holly updated additional settings on the folder, such as mail quotas. Holly also used several of the custom attribute fields and defined message delivery restrictions for the folder. Holly also hid the folder from address lists. However, when Holly went to the Exchange admin center to set permissions on the Anonymous account, she was unable to do so. Why was Holly unable to set permissions on the Anonymous account?"
+    choices:
+    - content: "Holly set message delivery restrictions on the the public folder"
+      isCorrect: false
+      explanation: "This answer is incorrect. This item isn't the reason why Holly couldn't set permissions on the Anonymous account. Try again."
+    - content: "Holly had set the public folder to be hidden from address lists"
+      isCorrect: false
+      explanation: "This answer is incorrect. This item isn't the reason why Holly couldn't set permissions on the Anonymous account. Try again."
+    - content: "You can't use the EAC to set permissions on the Anonymous account"
+      isCorrect: true
+      explanation: "This answer is correct. You can use either Outlook or the Exchange Management Shell to set permissions on a public folder's Anonymous account. You can't use the EAC to set permissions on the Anonymous account."
