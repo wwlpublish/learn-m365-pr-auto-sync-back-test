@@ -1,15 +1,16 @@
 ### YamlMime:ModuleUnit
-uid: learn.wwl.manage-email-addresses-lists-resources.configure-offline-address-books
+uid: learn.wwl.manage-email-addresses,-lists,-resources.configure-offline-address-books
 title: Configure offline address books
 metadata:
   title: Configure offline address books
   description: "Configure offline address books"
-  ms.date: 11/23/2021
+  ms.date: 11/24/2021
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
+sandbox: false
 labModal: false
 durationInMinutes: 6
 content: |

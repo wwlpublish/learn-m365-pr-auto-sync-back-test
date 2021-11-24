@@ -1,15 +1,16 @@
 ### YamlMime:ModuleUnit
-uid: learn.wwl.manage-email-addresses-lists-resources.create-manage-address-lists
+uid: learn.wwl.manage-email-addresses,-lists,-resources.create-manage-address-lists
 title: Create and manage address lists
 metadata:
   title: Create and manage address lists
   description: "Create and manage address lists"
-  ms.date: 11/23/2021
+  ms.date: 11/24/2021
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
+sandbox: false
 labModal: false
 durationInMinutes: 5
 content: |
