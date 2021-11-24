@@ -1,8 +1,8 @@
-Many organizations have Already implemented an event management (SIEM) solution and they are unlikely to want to replace this solution purely for Microsoft Cloud App Security connectivity. Fortunately, when connecting Microsoft Cloud App Security to a SIEM solution you are not obliged to use Azure Sentinel and can connect to other, 3^rd^ party, SIEM solutions as long as they use Common Event Format (CEF).
+Many organizations have Already implemented an event management (SIEM) solution and they are unlikely to want to replace this solution purely for Microsoft Cloud App Security connectivity. Fortunately, when connecting Microsoft Cloud App Security to a SIEM solution you are not obliged to use Azure Sentinel and can connect to other, 3<sup>rd</sup> party, SIEM solutions as long as they use Common Event Format (CEF).
 
 ## Prerequisites
 
-The following prerequisites are required to connect a 3^rd^ party SIEM solution to Microsoft Cloud App Security:
+The following prerequisites are required to connect a 3<sup>rd</sup> party SIEM solution to Microsoft Cloud App Security:
 
 - A SIEM solution that can receive Syslog CEF messages.
 - A syslog server with the following specifications:
@@ -23,7 +23,7 @@ To connect a non-Microsoft security information and event management solution to
 
 1. In Microsoft Cloud App Security, select **Settings**, and select **Security extensions**.
 
-    :::image type="content" source="../media/5-security-extensions.png" alt-text="Security extensions":::
+    :::image type="content" source="../media/../media/2-security-extensions.png" alt-text="Security extensions":::
 
 2. Select **SIEM agents** and select **Add agent**.
 

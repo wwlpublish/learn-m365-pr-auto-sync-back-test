@@ -12,7 +12,7 @@ To connect Azure Sentinel to Microsoft Cloud App Security, perform the following
 
 1. In the Microsoft Cloud App Security portal, select **Settings** and select **Security extensions**.
 
-    :::image type="content" source="../media/2-security-extensions.png" alt-text="Security extensions":::
+    :::image type="content" source="../media/2-security-extensions.png" alt-text="Screenshot of the Security extensions menu option." lightbox="../media/2-security-extensions.png":::
 
 2. Select **SIEM agents**, select **+**, and select **Azure Sentinel**.
 3. Select **Next** if you want to send all data to **Azure Sentinel**, or select appropriate filters and then select **Next**.
@@ -33,7 +33,7 @@ To connect Azure Sentinel to Microsoft Cloud App Security, perform the following
 
 10. In the search box, type **Microsoft Cloud App Security**, select **Microsoft Cloud App Security**.
 
-    :::image type="content" source="../media/2-mcas-data-connector.png" alt-text="Microsoft Cloud App Security data connector":::
+    :::image type="content" source="../media/2-defender-for-cloud-apps-data-connector.png" alt-text="Microsoft Cloud App Security data connector":::
 
 11. select **Open connector page**.
 12. Select **Alerts** and **Cloud Discovery Logs**.
