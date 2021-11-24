@@ -48,7 +48,7 @@ In the following screenshot of the Cloud Discovery Dashboard, you can review the
 
 - App Headquarter location map
 
-:::image type="content" source="../media/dashboard.png" alt-text="A screenshot of the Cloud Discovery Dashboard page of the Cloud App Security portal.":::
+:::image type="content" source="../media/dashboard.png" alt-text="A screenshot of the Cloud Discovery Dashboard page of the Microsoft Defender for Cloud Apps portal." lightbox="../media/dashboard.png":::
 
 Use this at-a-glance overview to review the overall cloud app usage in your organization. Then you can:
 

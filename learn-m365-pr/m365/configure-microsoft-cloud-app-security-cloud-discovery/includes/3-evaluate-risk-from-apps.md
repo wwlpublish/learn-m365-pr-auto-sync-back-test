@@ -7,7 +7,7 @@ To access the Cloud App Catalog, in the Cloud App Security portal, in the naviga
 > [!NOTE]
 > the Cloud App Catalog is the list of all the apps Microsoft has evaluated. Discovered apps are all the apps that are mapped from the your environment.
 
-:::image type="content" source="../media/cloud-app-catalog.png" alt-text="A screenshot of the Cloud App Catalog page of the Cloud App Security portal. The administrator has selected the Microsoft 365 admin center.":::
+:::image type="content" source="../media/cloud-app-catalog.png" alt-text="A screenshot of the Cloud App Catalog page of the Cloud App Security portal. The administrator has selected the Microsoft 365 admin center." lightbox="../media/cloud-app-catalog.png":::
 
 The Cloud app catalog uses the following factors to rate risk for your cloud apps:
 
@@ -65,7 +65,7 @@ You could use the following procedure:
 
 With each additional condition in your filter, the number of returned apps is reduced. You can then investigate the remaining apps – that is, those that meet your security and compliance criteria.
 
-:::image type="content" source="../media/crm-filter.png" alt-text="A screenshot of an advanced filter for CRM apps based on the query in the preceding text.":::
+:::image type="content" source="../media/crm-filter.png" alt-text="A screenshot of an advanced filter for CRM apps based on the query in the preceding text." lightbox="../media/crm-filter.png":::
 
 ### Request or override an app score
 
@@ -76,7 +76,7 @@ If you want to update the listed risk factor, risk score, or update the app data
 
 The following screenshot displays the **Actions** context menu for a selected app.
 
-:::image type="content" source="../media/app-actions.png" alt-text="A screenshot of the Cloud app catalog page. The administrator has select the Actions button for the Microsoft Tech Community app.":::
+:::image type="content" source="../media/app-actions.png" alt-text="A screenshot of the Cloud app catalog page. The administrator has select the Actions button for the Microsoft Tech Community app." lightbox="../media/app-actions.png":::
 
 ### Request an app review
 
