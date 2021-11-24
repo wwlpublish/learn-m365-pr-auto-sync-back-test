@@ -1,0 +1,30 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.design-your-public-folder-hierarchy.evaluate-alternatives-public-folders
+title: Evaluate alternatives to public folders
+metadata:
+  title: Evaluate alternatives to public folders
+  description: "Evaluate alternatives to public folders"
+  ms.date: 11/24/2021
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 7
+content: |
+  [!include[](includes/6-evaluate-alternatives-public-folders.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "Contoso's Sales department currently uses mail-enabled public folders to store project-related discussions and to broadcast information to a set of users. Which of the following Microsoft 365 features provides an improvement to using public folders for these tasks?"
+    choices:
+    - content: "SharePoint Server"
+      isCorrect: false
+      explanation: "This answer is incorrect. SharePoint Server provides an improvement over public folders for document collaboration purposes. It isn't the best alternative for storing project-related discussions and broadcasting information to a set of users. Try again."
+    - content: "Microsoft 365 Groups"
+      isCorrect: true
+      explanation: "This answer is correct. In Outlook, there's a dedicated Conversations space in Microsoft 365 Groups that stores all the emails and lets users collaborate over them. The group can even be set up to receive messages from people outside the group or from outside the organization. For example, if you're currently using mail-enabled public folders to store project-related discussions, or purchase orders that must be viewed by a team of people, using groups would be an improvement. Groups are also better than public folders when you simply want to broadcast information to a set of users."
+    - content: "Shared mailboxes"
+      isCorrect: false
+      explanation: "This answer is incorrect. A shared mailbox is a mailbox that selected users can access to read and send email messages and to share a common calendar. Shared mailboxes aren't the best alternative for storing project-related discussions and broadcasting information to a set of users. Try again."

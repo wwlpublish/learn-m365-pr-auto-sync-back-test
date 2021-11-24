@@ -1,0 +1,30 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.design-your-public-folder-hierarchy.explore-public-folders-exchange
+title: Explore public folders in Exchange
+metadata:
+  title: Explore public folders in Exchange
+  description: "Explore public folders in Exchange"
+  ms.date: 11/24/2021
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 6
+content: |
+  [!include[](includes/2-explore-public-folders-exchange.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "Which of the following items represent an efficient use of public folders?"
+    choices:
+    - content: "To store publically available information for all employees"
+      isCorrect: true
+      explanation: "This answer is correct. You can use public folders to store information such as human resources (HR) information for all employees. The information is easily available, and users can access the information from Outlook on the web. For small organizations that don't have or use SharePoint Server, public folders are often a compelling option instead of SharePoint. This choice is based on the ease in which public folders can be deployed and the positive user experience they generate."
+    - content: "To archive data"
+      isCorrect: false
+      explanation: "This answer is incorrect. Public folders aren't designed for data archiving. Archiving data in public folders impacts your mailbox database limits and settings, along with your backups. Organizations should archive data using in-place archiving in Exchange, just as they would with email data. Try again."
+    - content: "For document collaboration"
+      isCorrect: false
+      explanation: "This answer is incorrect. Organizations shouldn't use public folders to collaborate on documents because public folders don't support document versioning. When using public folders, you can't determine when someone else is modifying a document. You also can't provide any mechanism for workflow or rollback to an earlier version. Because of these limitations, it's recommended that organizations use SharePoint Server for document collaboration. Try again."
