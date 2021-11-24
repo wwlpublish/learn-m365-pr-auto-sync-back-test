@@ -19,16 +19,16 @@ quiz:
   questions:
   - content: "As the Messaging administrator for Contoso, Holly Dickson is planning and setting public folder quotas. Which of the following statements about public folders should Holly follow during this planning process?"
     choices:
-    - content: "Public folder mailbox quotas limit how large or for how long the contebt related to public folder mailboxes can grow"
+    - content: "Public folder mailbox quotas limit how large or for how long the content related to public folder mailboxes can grow"
       isCorrect: false
-      explanation: "This answer is incorrect. Mailbox database level quotas limit how large or for how long the contebt related to public folder mailboxes can grow. Try again."
+      explanation: "This answer is incorrect. Mailbox database level quotas limit how large or for how long the content related to public folder mailboxes can grow. Try again."
     - content: "A specific public folder limit can never exceed the limits applied to a public folder mailbox that contains it"
       isCorrect: true
       explanation: "This answer is correct. A specific public folder limit can never exceed the limits applied to a public folder mailbox that contains it. This rule applies whether the public folder is defined by the organization or the quota is a non-inherited, explicitly defined custom value. For example, you should never set a public folder limit of 30 GB if the underlying public folder mailbox has a quota of 15 GB."
-    - content: "A public folder mailbox will use the values set forth by the DAG on which it resides"
+    - content: "A public folder mailbox will use the values configured for the DAG on which it's stored"
       isCorrect: false
-      explanation: "This answer is incorrect. A public folder mailbox will use the values set forth by the mailbox database on which it resides. Try again."
-  - content: "As the Messaging administrator for Lucerne Publishing, Patti Fernandez is designing the company's publich folder hierarchy. Patti wants to deploy pubilc folders in multiple geographic locations. What should Patti do to improve performance and efficiency?"
+      explanation: "This answer is incorrect. A public folder mailbox will use the values configured for the mailbox database on which it's stored. Try again."
+  - content: "As the Messaging administrator for Lucerne Publishing, Patti Fernandez is designing the company's public folder hierarchy. Patti wants to deploy public folders in multiple geographic locations. What should Patti do to improve performance and efficiency?"
     choices:
     - content: "Ensure the company's users get their public folder hierarchy over a WAN link"
       isCorrect: false
@@ -36,9 +36,9 @@ quiz:
     - content: "Update the DefaultPublicFolderMailbox property on users' mailboxes to ensure that users get the hierarchy from their closest ‎public folder mailbox"
       isCorrect: true
       explanation: "This answer is correct. ‎If you opt to deploy public folders in multiple geographic locations, you can improve performance by updating the DefaultPublicFolderMailbox property on users' mailboxes to ensure that users get the hierarchy from their closest ‎public folder mailbox. If you don't use this property, users may get the hierarchy over a WAN link, which degrades efficiency and performance."
-    - content: "Select a heavily-used public folder to provide the public folder hierarchy"
+    - content: "Select a heavily used public folder to provide the public folder hierarchy"
       isCorrect: false
-      explanation: "This answer is incorrect. A heavily-used public folder should be excluded from providing the public folder hierarchy to minimize the possibility of poor performance. Try again."
+      explanation: "This answer is incorrect. A heavily used public folder should be excluded from providing the public folder hierarchy to minimize the possibility of poor performance. Try again."
   - content: "Where is the public folder hierarchy stored?"
     choices:
     - content: "In a public folder"

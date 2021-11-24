@@ -5,7 +5,7 @@ Public folders are best suited for sharing access to data among a group of users
 
 In the following diagram, every public folder is associated with a Public folder mailbox. The diagram includes two Public Folder mailboxes. The Sales department’s public folder is in Public Folder mailbox 1. The Human Resources (HR) department’s public folder is in Public folder Mailbox 2.
 
-:::image type="content" source="../media/public-folders-752c2436.jpg":::
+:::image type="content" source="../media/public-folders-752c2436.jpg" alt-text="The diagram shows two Public Folder mailboxes in which the Sales department public folder is in Public Folder mailbox 1 and the Human Resources (HR) departments public folder is located in Public folder Mailbox 2.":::
 
 
 > [!CAUTION]

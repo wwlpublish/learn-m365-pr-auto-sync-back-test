@@ -17,14 +17,14 @@ content: |
 quiz:
   title: "Check your knowledge"
   questions:
-  - content: "As the Messaging administrator for Fabrikam, Holly Spencer has implemented public folders and public folder mailboxes. Fabrikam has over 2,400 concurrent user sign-ins and two public folder mailboxes. One of its public folder mailboxes is over 75 GB in size. Fabrikam doesn't use a WAN to work with its public folders. Numerous users have recently complained to Holly about poor performance. Which of the following items could be a cause of their performance degredation issues?"
+  - content: "As the Messaging administrator for Fabrikam, Holly Spencer has implemented public folders and public folder mailboxes. Fabrikam has over 2,400 concurrent user sign-ins and two public folder mailboxes. One of its public folder mailboxes is over 75 GB in size. Fabrikam doesn't use a WAN to work with its public folders. Numerous users have recently complained to Holly about poor performance. Which of the following items could be a cause of their performance degradation issues?"
     choices:
     - content: "Fabrikam doesn't use a WAN to work with their public folders"
       isCorrect: false
       explanation: "This answer is incorrect. Using a WAN to work with public folders can degrade the user experience. For sites with heavy public folder users, you should have a public folder mailbox and database at the site. Try again."
-    - content: "Fabrikam should have more than two public folder mailboxes given its number of concurrent user sign ins"
+    - content: "Fabrikam should have more than two public folder mailboxes given its number of concurrent user sign-ins"
       isCorrect: false
       explanation: "This answer is incorrect. When an organization has more than 2,000 concurrent sign-ins, it needs more than one public folder mailbox. Since Fabrikam has 2,400 concurrent sign-ins and two public folder mailboxes, this isn't an issue that should be degrading user performance. Try again."
     - content: "One of Fabrikam's public folder mailboxes is over 75 GB in size"
       isCorrect: true
-      explanation: "This answer is correct. It's recommended that public folder mailboxes be split when they reach or exceed 60 GB, which is 60 percent of the maximum mailbox size of 100 GB. This best practice improves performance and minimizes the chance of users reporting poor performance. Since one of Fabrikam's public folder mailboxes exceeds 60 GB, this could be a cause of its performance degredation issues."
+      explanation: "This answer is correct. It's recommended that public folder mailboxes be split when they reach or exceed 60 GB, which is 60 percent of the maximum mailbox size of 100 GB. This best practice improves performance and minimizes the chance of users reporting poor performance. Since one of Fabrikam's public folder mailboxes exceeds 60 GB, this could be a cause of its performance degradation issues."
