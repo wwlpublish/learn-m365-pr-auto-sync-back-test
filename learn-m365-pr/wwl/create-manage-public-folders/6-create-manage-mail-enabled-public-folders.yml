@@ -10,6 +10,7 @@ metadata:
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
+sandbox: false
 labModal: false
 durationInMinutes: 7
 content: |
@@ -19,7 +20,7 @@ quiz:
   questions:
   - content: "As the Messaging administrator for Contoso, Holly Dickson created a mail-enabled public folder for Contoso's Manufacturing department. Holly updated additional settings on the folder, such as mail quotas. Holly also used several of the custom attribute fields and defined message delivery restrictions for the folder. Holly also hid the folder from address lists. However, when Holly went to the Exchange admin center to set permissions on the Anonymous account, she was unable to do so. Why was Holly unable to set permissions on the Anonymous account?"
     choices:
-    - content: "Holly set message delivery restrictions on the the public folder"
+    - content: "Holly set message delivery restrictions on the public folder"
       isCorrect: false
       explanation: "This answer is incorrect. This item isn't the reason why Holly couldn't set permissions on the Anonymous account. Try again."
     - content: "Holly had set the public folder to be hidden from address lists"
