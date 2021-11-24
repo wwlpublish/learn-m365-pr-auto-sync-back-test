@@ -1,0 +1,53 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.troubleshoot-public-folders.knowledge-check
+title: Knowledge check
+metadata:
+  title: Knowledge check
+  description: "Knowledge check"
+  ms.date: 11/24/2021
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+sandbox: false
+labModal: false
+durationInMinutes: 6
+content: |
+  [!include[](includes/5-knowledge-check.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "As the Messaging administrator for Fabrikam, Holly Spencer wants to monitor the company's public folders. Holly wants to identify the largest public folders and monitor their growth rate. By doing so, Holly can determine if any large public folders should be moved to their own public folder mailbox before storage quotas are exceeded. Which of the following cmdlets will provide this information?"
+    choices:
+    - content: "Get-PublicFolderStatistics"
+      isCorrect: true
+      explanation: "This answer is correct. This cmdlet displays statistical information about all public folders, such as folder size and last sign-in time. This information will identify the largest public folders and allow Holly to monitor their growth rate. By doing so, Holly can determine if any large public folders should be moved to their own public folder mailbox before storage quotas are exceeded."
+    - content: "Get-PublicFolderMailboxDiagnostics"
+      isCorrect: false
+      explanation: "This answer is incorrect. This cmdlet displays event-level information about a public folder mailbox. This information can be used to troubleshoot public folder hierarchy synchronization or item access issues such as whether an item in a public folder isn't shown to every user. Try again."
+    - content: "Get-PublicFolderItemStatistics"
+      isCorrect: false
+      explanation: "This answer is incorrect. This cmdlet displays event-level information information about items within a specified public folder. The information includes the subject, last modification time, last access time, creation time, attachments, message size, and type of item. This information allows you to identify large public folder items. Try again."
+  - content: "As the Messaging administrator for Lucerne Publishing, Patti Fernandez has been monitoring the company's public folders in its Exchange Server 2019 deployment. Patti has discovered that the content of a public folder mailbox exceeds its mailbox quotas. Which of the following tasks should Patti complete to correct this situation?"
+    choices:
+    - content: "Run a PowerShell command using the Update-PublicFolderMailbox cmdlet"
+      isCorrect: false
+      explanation: "This answer is incorrect. This task is done when A public folder isn't available for one user (the folder isn't shown in the public folder hierarchy). Try again."
+    - content: "Move public folders to a different public folder mailbox"
+      isCorrect: true
+      explanation: "This answer is correct. If the content of a public folder mailbox exceeds your mailbox quotas, you may need to move public folders to a different public folder mailbox."
+    - content: "Run a repair on the public folder mailbox"
+      isCorrect: false
+      explanation: "This answer is incorrect. This task is done when a public folder item is available in the folder, but it can't be opened for all users. The public folder item may be corrupt in the public folder mailbox. Try again."
+  - content: "As the Messaging administrator for Contoso, Holly Dickson is troubleshooting a public folder issue. The Sales department manager reported to Holly that a public folder item isn't available and can't be seen in the public folder. How should Holly troubleshoot this issue?"
+    choices:
+    - content: "Try to use the Recover Deleted Items option in Outlook to recover the item to the public folder"
+      isCorrect: true
+      explanation: "This answer is correct. When a public folder item isn't available and can't be seen in the public folder, the item may have been deleted. To troubleshoot this issue, Holly should try to use the Recover Deleted Items option in Outlook to recover the item to the public folder."
+    - content: "Try to run a repair on the public folder mailbox"
+      isCorrect: false
+      explanation: "This answer is incorrect. This troubleshooting action is used when a public folder item is available in the folder, but it can't be opened for all users. This issue indicates the public folder item may be corrupt in the public folder mailbox. Running a repair on the public folder mailbox will trigger either a removal of the corrupt item or repair it and make it available. Try again."
+    - content: "Check the permissions of the public folder to verify the Sales department users can see the folder"
+      isCorrect: false
+      explanation: "This answer is incorrect. This troubleshooting action is used when a public folder isn't available for one user (the folder isn't shown in the public folder hierarchy). This issue indicates the user may not have appropriate permissions to view the public folder, or the public folder hierarchy of the user isn't in-sync. Try again."

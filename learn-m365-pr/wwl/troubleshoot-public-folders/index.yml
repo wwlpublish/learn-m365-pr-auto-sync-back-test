@@ -1,0 +1,35 @@
+### YamlMime:Module
+uid: learn.wwl.troubleshoot-public-folders
+metadata:
+  title: Troubleshoot public folders
+  description: "Troubleshoot public folders"
+  ms.date: 11/24/2021
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Troubleshoot public folders
+summary: Examines how to monitor public folders using Windows PowerShell, and how to troubleshoot public folder-related issues and public folder access.
+abstract: |
+  By the end of this module, you'll be able to:
+  - Monitor public folders using Windows PowerShell.
+  - Troubleshoot public folders.
+  - Troubleshoot public folder access.
+prerequisites: ""
+iconUrl: /learn/achievements/generic-badge.svg
+levels:
+- intermediate
+roles:
+- administrator
+products:
+- azure-active-directory
+- m365
+units:
+- learn.wwl.troubleshoot-public-folders.introduction
+- learn.wwl.troubleshoot-public-folders.monitor-public-folders
+- learn.wwl.troubleshoot-public-folders.troubleshoot-public-folders
+- learn.wwl.troubleshoot-public-folders.troubleshoot-public-folder-access
+- learn.wwl.troubleshoot-public-folders.knowledge-check
+- learn.wwl.troubleshoot-public-folders.summary
+badge:
+  uid: learn.wwl.troubleshoot-public-folders.badge
