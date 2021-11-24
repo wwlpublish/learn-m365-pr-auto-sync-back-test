@@ -14,7 +14,7 @@ abstract: |
   By the end of this module, you'll be able to:
   - Describe considerations for implementing Public Folders.
   - Deploy public folder mailboxes.
-  - Know how to create additional public folders.
+  - Create public folders.
   - Manage public folder permissions.
   - Create and manage mail-enabled public folders.
 prerequisites: ""

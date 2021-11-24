@@ -19,7 +19,7 @@ quiz:
   questions:
   - content: "As the Messaging administrator for Tailspin Toys, Alan Deyoung plans to deploy public folder mailboxes. Which of the following issues should Alan consider to ensure the mailboxes are protected and readily available to the Tailspin clients?"
     choices:
-    - content: "Public folders should be hosteded within the primary public folder mailbox"
+    - content: "Public folders should be hosted within the primary public folder mailbox"
       isCorrect: false
       explanation: "This answer is incorrect. There should be no public folders hosted within the primary public folder mailbox. This way the primary public folder mailbox can focus on its job of replicating hierarchy changes to other public folder mailboxes. Try again."
     - content: "Include the primary public folder mailbox in the serving hierarchy to clients"

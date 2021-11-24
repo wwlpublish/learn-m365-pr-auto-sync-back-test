@@ -33,7 +33,7 @@ quiz:
     - content: "A writeable copy of the public folder hierarchy"
       isCorrect: false
       explanation: "This answer is incorrect. This item isn't stored in secondary hierarchy mailboxes. Try again."
-    - content: "Pubic folder content"
+    - content: "Public folder content"
       isCorrect: true
       explanation: "This answer is correct. Secondary hierarchy mailboxes contain public folder content and a read-only copy of the public folder hierarchy."
     - content: "The root public folder"
