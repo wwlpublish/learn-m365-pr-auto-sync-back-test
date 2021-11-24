@@ -2,7 +2,7 @@ In Microsoft 365 Exchange Online Protection (EOP) provides tools to help keep yo
 
 Message hygiene includes all forms of protection:
 
-- Filtering messages to protect against malware.
+- Filtering messages to protect against malware
 - Filtering messages to protect against spam
 - Filtering messages to protect against phishing attacks
 - Filtering attachments and links contained in email messages
@@ -16,7 +16,7 @@ Different Microsoft 365 subscriptions include different threat protection types.
 |Anti-malware protection|EOP|
 |Protection from malicious URLs and files in email and Office documents|Microsoft Defender for Office 365|
 |Anti-phishing protection (spoof intelligence)|EOP|
-|Advanced anti-phishing protection|	Microsoft Defender for Office 365|
+|Advanced anti-phishing protection|Microsoft Defender for Office 365|
 |Anti-spam protection|EOP|
 |Zero-hour auto purge (ZAP) for email|EOP|
 |Audit logging (this is used for reporting purposes)|Exchange Online|
