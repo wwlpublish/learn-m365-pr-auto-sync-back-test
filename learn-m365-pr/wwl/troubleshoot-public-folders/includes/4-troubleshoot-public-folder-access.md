@@ -6,9 +6,13 @@ Depending on the information you’re looking to gather, there are several types
 
 ### Autodiscover logs
 
-The Autodiscover service is responsible for informing Outlook clients where and how to connect to a public folder mailbox. This design enables Outlook to display the public folder hierarchy tree, or to make a public sign-in connection to access content within a public folder mailbox. As such, the Autodiscover logs can be useful to administrators in determining which public folder mailboxes are being returned by the Autodiscover service. This information can be very helpful in large multi-site environments when trying to identify possible improvements in public folder mailbox or public folder locations.
+The Autodiscover service is responsible for informing Outlook clients where and how to connect to a public folder mailbox. This design enables Outlook to display the public folder hierarchy tree, or to make a public sign-in connection to access content within a public folder mailbox.
 
-To understand this better, consider the following common scenario. An administrator must determine which public folder mailboxes are being returned to the end users when they connect from different sites using Outlook. This can be a challenging task if there are many sites and users resulting in a huge data set. Rather than try to analyze the data manually, there needs to be an automated way which can get the desired outcome. This is where the Log Parser Studio (LPS) queries can be used to parse the Autodiscover logs on mailbox servers to get us the required data for further investigation and actions.
+As such, the Autodiscover logs can be useful to administrators in determining which public folder mailboxes are being returned by the Autodiscover service. This information can be helpful in large, multi-site environments when trying to identify possible improvements in public folder mailbox or public folder locations.
+
+To better understand this situation, consider the following common scenario: An administrator must determine which public folder mailboxes are being returned to the end users when they connect from different sites using Outlook.
+
+This situation can be a challenging task if there are many sites and users, which can result in a huge data set. Rather than try to analyze the data manually, there needs to be an automated solution that can get the desired outcome. The Log Parser Studio (LPS) queries can be used in this situation to parse the Autodiscover logs on mailbox servers to get the required data for further investigation and actions.
 
 There are many different logs in Exchange Server showing similar information. Depending on the protocol used by your organization, you may make decisions on the log type to parse. Autodiscover logs provide a combined view of what public folder mailboxes users are at least trying to access one time.<br>
 
@@ -33,20 +37,20 @@ All logging data for Outlook on the Web (OWA) including public folder access wil
 
 These logs identify which public folder mailboxes on a specific mailbox server the users are connecting to using RPC/HTTP and MAPI/HTTP protocols. These logs can be used with Microsoft Exchange 2013.
 
-While AutoDiscover logs can provide information about public folder mailboxes Outlook is learning about and may potentially connect to, the RPC Client Access (RPC/HTTP) &amp; MAPI Client Access (MAPI/HTTP) logs provide information about actual public folder mailbox connections established by users. Both log types can be combined in LPS in single query and parsed to get some useful information on Public folder mailboxes being accessed. The default location of these logs include:
+While AutoDiscover logs can provide information about public folder mailboxes Outlook is learning about and may potentially connect to, the RPC Client Access (RPC/HTTP) &amp; MAPI Client Access (MAPI/HTTP) logs provide information about actual public folder mailbox connections established by users. Both log types can be combined in LPS in single query and parsed to get some useful information on Public folder mailboxes being accessed. The default location of these logs includes:
 
  -  MAPI Client Access: C:\\Program Files\\Microsoft\\Exchange Server\\V15\\Logging\\MAPI Client Access
  -  RPC Client Access: C:\\Program Files\\Microsoft\\Exchange Server\\V15\\Logging\\RPC Client Access
 
-### MAPI/HTTP logs in Microsoft Exchange 2016 and 2019 Servers
+### MAPI/HTTP logs in Microsoft Exchange Server 2016 and later
 
-These logs identify which public folder mailboxes your MAPI/HTTP clients are connecting to. Organizations should only use these logs with Microsoft Exchange 2016 and later.
+These logs identify which public folder mailboxes your MAPI/HTTP clients are connecting to. Organizations should only use these logs with Microsoft Exchange Server 2016 and later.
 
-Microsoft Exchange 2016 and 2019 include one additional folder created just to log **MAPI/HTTP** protocol traffic. Exchange 2016 and 2019 no longer include MAPI/HTTP traffic in the MAPI Client Access log. If not all of your Outlook for Windows clients are connecting to Exchange 2016 or 2019 through MAPI/HTTP, you may need to analyze both logs to get a full picture of your public folder mailbox connections until such time that all Outlook for Windows clients are using MAPI/HTTP. All MAPI/HTTP logging is now logged in to the **MapiHttp** folder. The logs reside in the following default path:
+Microsoft Exchange Server includes one extra folder that was created just to log **MAPI/HTTP** protocol traffic. Exchange Server no longer includes MAPI/HTTP traffic in the MAPI Client Access log. If all your Outlook for Windows clients aren't connecting to Exchange Server through MAPI/HTTP, you may need to analyze both logs to get a full picture of your public folder mailbox connections until such time that all Outlook for Windows clients are using MAPI/HTTP. All MAPI/HTTP logging is now logged in to the **MapiHttp** folder. The logs are stored in the following default path:
 
  -  C:\\Program Files\\Microsoft\\Exchange Server\\V15\\Logging\\MapiHttp\\Mailbox
 
-Exchange Server 2016 an 2019 use slightly different field names for MAPI/HTTP logging. As such, a query used previously with Exchange Server 2013 for parsing the MAPI/HTTP traffic in the older MAPI Client access logs will no longer work with Exchange Server 2016 or 2019.
+Exchange Server 2016 and later uses slightly different field names for MAPI/HTTP logging. As such, a query that was previously used with Exchange Server 2013 for parsing the MAPI/HTTP traffic in the older MAPI Client access logs will no longer work with Exchange Server 2016 or 2019.
 
 **Additional reading.** For more information, see [Modern public folders logging and when to use it](https://techcommunity.microsoft.com/t5/exchange-team-blog/modern-public-folders-logging-and-when-to-use-it/ba-p/607122?azure-portal=true).<br>
 

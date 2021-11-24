@@ -21,7 +21,7 @@ quiz:
     choices:
     - content: "Get-PublicFolderItemStatistics"
       isCorrect: false
-      explanation: "This answer is incorrect. This cmdlet displays information about items within a specified public folder. The information includes the subject, last modification time, last access time, creation time, attachments, message size, and type of item. This cmdlet alows you to identify large public folder items. Try again."
+      explanation: "This answer is incorrect. This cmdlet displays information about items within a specified public folder. The information includes the subject, last modification time, last access time, creation time, attachments, message size, and type of item. This cmdlet enables you to identify large public folder items. Try again."
     - content: "Get-PublicFolderStatistics"
       isCorrect: false
       explanation: "This answer is incorrect. This cmdlet displays statistical information about all public folders, such as folder size and last sign-in time. This information enables you to identify the largest public folders and monitor their growth rate. Try again."
