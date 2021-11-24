@@ -20,3 +20,4 @@ After completing this module, you'll be able to:
  -  Monitor public folders using Windows PowerShell.
  -  Troubleshoot public folders.
  -  Troubleshoot public folder access.
+
