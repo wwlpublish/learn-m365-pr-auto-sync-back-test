@@ -26,7 +26,6 @@ quiz:
       - content: "MyPersonalInformation"
         isCorrect: false
         explanation: "No, MyPersonalInformation does not allow a user to edit their address information in Exchange Online. The MyContactInformation role lets a user edit their address information."
-
     - content: "Which of the following cmdlets lets you view your current role groups?"
       choices:
       - content: "Get-RoleGroup"
@@ -38,7 +37,6 @@ quiz:
       - content: "Display-RoleGroup"
         isCorrect: false
         explanation: "No, the GetRoleGroup cmdlet displays the role groups."
-      
     - content: "What is the name of the eDiscovery-related role group name in the Microsoft 365 Defender portal?"
       choices:
       - content: "eDiscoveryManagement"
