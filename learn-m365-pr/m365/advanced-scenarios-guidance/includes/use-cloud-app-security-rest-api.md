@@ -73,7 +73,7 @@ To generate this token, use these steps:
 1. Select **+**, and then select **Generate new token**.
 1. Enter a **Token name**, reenter your password, and then select **Generate**.
 
-    ![A screenshot of the Generate new token page in the Microsoft Cloud App Security portal.](../media/06-generate-auth-token.png)
+   :::image type="content" source="../media/06-generate-auth-token.png" alt-text="A screenshot of the Generate new token page in the Microsoft Cloud App Security portal.":::
 
 1. Copy and save the generated token for later use in your code or `curl` commands.
 

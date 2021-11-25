@@ -84,8 +84,8 @@ Before the new certificate can be used, you must update the log collector's conf
     collector_config <apiToken> ${CONSOLE} ${COLLECTOR}
     ```
 
-    ![A screenshot of the output from the collector_config command.](../media/05-reconfigure-collector.png)
+    :::image type="content" source="../media/05-reconfigure-collector.png" alt-text="A screenshot of the output from the collector_config command.":::
 
 1. In the Cloud App Security portal, the log collector's status should change from **Healthy** to **Connected**.
 
-    ![A screenshot of the log collectors display in the Cloud App Security portal, showing that the log collector is connected.](../media/05-log-collector-healthy.png)
+    :::image type="content" source="../media/05-log-collector-healthy.png" alt-text="A screenshot of the log collectors display in the Cloud App Security portal, showing that the log collector is connected.":::
