@@ -1,0 +1,52 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.design-your-public-folder-hierarchy.knowledge-check
+title: Knowledge check
+metadata:
+  title: Knowledge check
+  description: "Knowledge check"
+  ms.date: 11/25/2021
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 6
+content: |
+  [!include[](includes/7-knowledge-check.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "As the Messaging administrator for Contoso, Holly Dickson is planning and setting public folder quotas. Which of the following statements about public folders should Holly follow during this planning process?"
+    choices:
+    - content: "Public folder mailbox quotas limit how large or for how long the content related to public folder mailboxes can grow"
+      isCorrect: false
+      explanation: "This answer is incorrect. Mailbox database level quotas limit how large or for how long the content related to public folder mailboxes can grow. Try again."
+    - content: "A specific public folder limit can never exceed the limits applied to a public folder mailbox that contains it"
+      isCorrect: true
+      explanation: "This answer is correct. A specific public folder limit can never exceed the limits applied to a public folder mailbox that contains it. This rule applies whether the public folder is defined by the organization or the quota is a non-inherited, explicitly defined custom value. For example, you should never set a public folder limit of 30 GB if the underlying public folder mailbox has a quota of 15 GB."
+    - content: "A public folder mailbox will use the values configured for the DAG on which it's stored"
+      isCorrect: false
+      explanation: "This answer is incorrect. A public folder mailbox will use the values configured for the mailbox database on which it's stored. Try again."
+  - content: "As the Messaging administrator for Lucerne Publishing, Patti Fernandez is designing the company's public folder hierarchy. Patti wants to deploy public folders in multiple geographic locations. What should Patti do to improve performance and efficiency?"
+    choices:
+    - content: "Ensure the company's users get their public folder hierarchy over a WAN link"
+      isCorrect: false
+      explanation: "This answer is incorrect. Providing the public folder hierarchy over WAN link degrades efficiency and performance. Try again."
+    - content: "Update the DefaultPublicFolderMailbox property on users' mailboxes to ensure that users get the hierarchy from their closest ‎public folder mailbox"
+      isCorrect: true
+      explanation: "This answer is correct. ‎If you opt to deploy public folders in multiple geographic locations, you can improve performance by updating the DefaultPublicFolderMailbox property on users' mailboxes to ensure that users get the hierarchy from their closest ‎public folder mailbox. If you don't use this property, users may get the hierarchy over a WAN link, which degrades efficiency and performance."
+    - content: "Select a heavily used public folder to provide the public folder hierarchy"
+      isCorrect: false
+      explanation: "This answer is incorrect. A heavily used public folder should be excluded from providing the public folder hierarchy to minimize the possibility of poor performance. Try again."
+  - content: "Where is the public folder hierarchy stored?"
+    choices:
+    - content: "In a public folder"
+      isCorrect: false
+      explanation: "This answer is incorrect. The public folder hierarchy isn't stored in a public folder. Try again."
+    - content: "In a database availability group (DAG)"
+      isCorrect: false
+      explanation: "This answer is incorrect. The public folder hierarchy isn't stored in a DAG. Try again."
+    - content: "In a public folder mailbox"
+      isCorrect: true
+      explanation: "This answer is correct. The public folder hierarchy is stored in a public folder mailbox. The public folder that holds the hierarchy information is known as the primary hierarchy mailbox, and it's the first public folder mailbox that you create. It's also the only copy that can be modified and written to. Other hierarchy mailboxes are secondary hierarchy mailboxes. While these mailboxes have public folder content, they only have a read-only copy of the hierarchy."
