@@ -4,10 +4,10 @@ People regularly send, receive, and share attachments, and it's not always easy 
 
 1. Go to <https://security.microsoft.com> and sign in with your work or school account.
 2. In the Microsoft 365 Defender portal, in the left navigation pane, under **Threat management**, choose **Policy > ATP safe attachments**.
-1. If you see **Turn on ATP for SharePoint, OneDrive, and Microsoft Teams**, select this option. This will enable Microsoft Defender for SharePoint, OneDrive, and Microsoft Teams for your Microsoft 365 environment.
+3. If you see **Turn on ATP for SharePoint, OneDrive, and Microsoft Teams**, select this option. This will enable Microsoft Defender for SharePoint, OneDrive, and Microsoft Teams for your Microsoft 365 environment.
    ![A screenshot of the safe attachments reports page](../media/attachment-report.png)
-3. Select **New +** to start creating your policy.
-4. Specify the name, description, and settings for the policy, and then select **Save**.
+4. Select **New +** to start creating your policy.
+5. Specify the name, description, and settings for the policy, and then select **Save**.
 
 ## Configure and manage Safe Links
 
