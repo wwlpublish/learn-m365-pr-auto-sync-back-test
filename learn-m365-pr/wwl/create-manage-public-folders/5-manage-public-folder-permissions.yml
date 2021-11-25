@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.create-manage-public-folders.manage-public-folder-permissions
+title: Manage public folder permissions
+metadata:
+  title: Manage public folder permissions
+  description: "Manage public folder permissions"
+  ms.date: 11/25/2021
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 4
+content: |
+  [!include[](includes/5-manage-public-folder-permissions.md)]
