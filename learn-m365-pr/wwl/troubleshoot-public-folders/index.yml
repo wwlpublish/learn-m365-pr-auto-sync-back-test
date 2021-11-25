@@ -15,7 +15,8 @@ abstract: |
   - Monitor public folders using Windows PowerShell.
   - Troubleshoot public folders.
   - Troubleshoot public folder access.
-prerequisites: ""
+prerequisites: |
+  None
 iconUrl: /learn/achievements/generic-badge.svg
 levels:
 - intermediate
