@@ -4,13 +4,12 @@ title: Create and manage mail-enabled public folders
 metadata:
   title: Create and manage mail-enabled public folders
   description: "Create and manage mail-enabled public folders"
-  ms.date: 11/24/2021
+  ms.date: 11/25/2021
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
-sandbox: false
 labModal: false
 durationInMinutes: 7
 content: |
