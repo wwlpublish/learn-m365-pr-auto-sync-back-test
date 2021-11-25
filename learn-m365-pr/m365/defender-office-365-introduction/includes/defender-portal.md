@@ -9,17 +9,17 @@ The [Microsoft 365 Defender portal](https://security.microsoft.com) is a unified
 
 The Microsoft 365 Defender portal combines resources from multiple data sources to provide a complete view of security in your organization.
 
-:::image type="content" source="../media/4-incident-management-inline.png" lightbox="../media/4-incident-management-expanded.png" alt-text="Incident Management":::
+:::image type="content" source="../media/4-defender-365-incidents.png" lightbox="../media/4-defender-365-incidents.png" alt-text="Incident Management":::
 
 When you select an incident name, it displays a page showing an incident from multiple sources.
 
-:::image type="content" source="../media/4-incident-management-several-sources.png" alt-text="Incident Multiple Sources" lightbox="../media/4-incident-management-several-sources.png":::
+:::image type="content" source="../media/4-defender-365-incident-detail.png" alt-text="Incident Multiple Sources" lightbox="../media/4-defender-365-incident-detail.png":::
 
 ### Improved processes
 
 Common controls appear in the same place or are condensed into one feed of data, for example, unified settings.
 
-:::image type="content" source="../media/4-unified-settings.png" alt-text="Common Controls" lightbox="../media/4-unified-settings.png":::
+:::image type="content" source="../media/4-defender-365-settings.png" alt-text="Common Controls" lightbox="../media/4-unified-settings.png":::
 
 ### Threat analytics
 
