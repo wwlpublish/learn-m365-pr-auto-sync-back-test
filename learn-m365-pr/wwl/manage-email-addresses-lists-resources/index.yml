@@ -3,7 +3,7 @@ uid: learn.wwl.manage-email-addresses,-lists,-resources
 metadata:
   title: Manage email addresses, lists, and resources
   description: "Manage email addresses, lists, and resources"
-  ms.date: 11/25/2021
+  ms.date: 11/26/2021
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -37,4 +37,4 @@ units:
 - learn.wwl.manage-email-addresses,-lists,-resources.knowledge-check
 - learn.wwl.manage-email-addresses,-lists,-resources.summary
 badge:
-  uid: learn.wwl.manage-email-addresses-lists-resources.badge
+  uid: learn.wwl.manage-email-addresses,-lists,-resources.badge
