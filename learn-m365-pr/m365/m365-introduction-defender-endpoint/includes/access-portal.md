@@ -8,7 +8,7 @@ Here, you'll learn about the Microsoft 365 Defender portal.
 
 Access Microsoft Defender for Endpoint by signing into the Microsoft 365 Defender portal using an account with appropriate permissions. Once you've signed in successfully, you'll see the Microsoft 365 Defender home page:
 
-:::image type="content" source="../media/4-security-center-portal-inline.png" lightbox="../media/4-security-center-portal-expand.png" alt-text="A screenshot showing the Security Center home page.":::
+:::image type="content" source="../media/4-security-center-portal-inline.png" lightbox="../media/4-security-center-portal-expand.png" alt-text="A screenshot showing the Defender for Cloud home page.":::
 
 ### Overview of the components in the portal
 
