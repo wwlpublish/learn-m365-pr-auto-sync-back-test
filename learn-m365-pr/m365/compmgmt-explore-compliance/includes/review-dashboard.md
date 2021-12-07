@@ -37,7 +37,7 @@ The **Categories** view shows the portion of your overall compliance score appli
 
 The image below shows the compliance score results for **Categories** with only Microsoft-managed actions implemented. Your deployment may look similar when you get started. Notice only the **Manage compliance** category has any score associated with it – 89%. This is because it is the only category that includes improvement actions Microsoft implements on your behalf. All the other categories are composed entirely of actions you manage. The values of 0% in each of the other categories indicates none of your actions have been completed.
 
-[:::image type="content" source="../media/compliance-score-breakdown.png" alt-text="Compliance score breakdown--Categories view":::](../media/compliance-score-breakdown.png#lightbox)
+  :::image type="content" source="../media/compliance-score-breakdown.png" alt-text="Compliance score breakdown--Categories view":::
 
 The **Assessments** shows the portion of your overall compliance score applicable to the assessments you have chosen to track for your organization. The image below shows the default **Assessments** view of the **Compliance score breakdown.** Notice only Data Protection Baseline assessment is displayed. This is because no additional assessments have been added. The 75% shown in the image is the compliance score specifically related to the Data Protection Baseline assessment.
 
