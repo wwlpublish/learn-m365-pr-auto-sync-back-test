@@ -1,6 +1,6 @@
 The following diagram illustrates customer notification process after a confirmed security incident occurs.
 
-   :::image type="content" source="../media/customer-notification-process-security-incident.png" alt-text="A visual flow incident response to customer notification 1) Event Start 2) Event Detected 3) OCE Engaged 4) Security Response Team Engaged 5) Security Incident Confirmed 6) Customer Impact Determined 7) Affected Customers Determined 8) Affected Customers Notified" lightbox="../media/customer-notification-process-security-incident.png":::
+   :::image type="content" source="../media/customer-notification-process-security-incident.png" alt-text="A visual flow incident response to customer notification 1) Event Start 2) Event Detected 3) OCE Engaged 4) Security Response Team Engaged 5) Security Incident Confirmed 6) Customer Impact Determined 7) Affected Customers Determined 8) Affected Customers Notified":::
 
 ## Microsoft responsibility
 
@@ -40,7 +40,7 @@ To ensure notifications are received promptly by the correct customer contacts, 
 - Customers should ensure their contact information is up to date in the [Microsoft 365 Admin center](/microsoft-365/admin/admin-overview/about-the-admin-center?azure-portal=true).
 - Customer administrators should [configure the options](/microsoft-365/admin/manage/message-center?azure-portal=true) for how Data Privacy messages are displayed in the Message Center to ensure relevant customer administrators are made aware of incident notifications.
 
-   ![Screenshot of Microsoft 365 admin center](../media/defender-365-admin-roles.png)
+   :::image type="content" source="../media/defender-365-admin-roles.png" alt-text="Screenshot of Microsoft 365 admin center" lightbox="../media/defender-365-admin-roles.png":::
 
 - If necessary, Global Admins can configure additional roles with access to Message Center content to avoid granting unnecessary administrative rights to non-administrators who require access to incident notifications.
 
