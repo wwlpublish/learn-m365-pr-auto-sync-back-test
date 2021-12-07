@@ -1,4 +1,4 @@
-Endpoint data loss prevention (Endpoint DLP) extends the activity monitoring and protection capabilities of DLP to sensitive items on Windows 10 devices. Once devices are onboarded into the Microsoft 365 compliance center, the information about what activities (like copying to USB devices or printing) users perform on sensitive items is visible to those who have access to activity explorer in the Microsoft 365 compliance center. You can also take the extra step of auditing or restricting those activities via data loss prevention policies.
+Endpoint data loss prevention (Endpoint DLP) extends the activity monitoring and protection capabilities of DLP to sensitive items on Windows devices. Once devices are onboarded into the Microsoft 365 compliance center, the information about what activities (like copying to USB devices or printing) users perform on sensitive items is visible to those who have access to activity explorer in the Microsoft 365 compliance center. You can also take the extra step of auditing or restricting those activities via data loss prevention policies.
 
 This unit walks you through the additional steps required to use Endpoint DLP:
 
@@ -8,11 +8,11 @@ This unit walks you through the additional steps required to use Endpoint DLP:
 
 ## Confirm devices meet requirements
 
-Windows 10 devices you plan on monitoring with Endpoint DLP must meet the system requirements. Review the [requirements](/microsoft-365/compliance/endpoint-dlp-getting-started#prepare-your-endpoints) before you onboard devices.
+Windows devices that you plan on monitoring with Endpoint DLP must meet the system requirements. Review the [requirements](/microsoft-365/compliance/endpoint-dlp-getting-started#prepare-your-endpoints) before you onboard devices.
 
 ## Onboard devices
 
-Before you can include Windows 10 devices in DLP policies, you need to *onboard* them, or enable data collection.
+Before you can include Windows devices in DLP policies, you need to *onboard* them, or enable data collection.
 
 To enable data collection from a device, the account onboarding the device must be a member of any of these roles:
 
@@ -44,9 +44,9 @@ In the Microsoft 365 compliance center, select **Settings**, then select **Devic
 
 ### Onboarding using local script
 
-We'll use the "Local script (for up to 10 machines)" script to onboard devices. The local script is meant for testing purposes - you can see how Endpoint DLP will affect your devices and environments before you roll it out in your production environment.
+We'll use the *Local script (for up to 10 machines)* script to onboard devices. The local script is meant for testing purposes - you can see how Endpoint DLP will affect your devices and environments before you roll it out in your production environment.
 
-Here are the instructions for onboarding a Windows 10 device using a local script.
+Here are the instructions for onboarding a Windows device using a local script.
 
 1. On the **Device onboarding** page in the compliance center, select **Onboarding**.
 2. Select **Local script (for up to 10 machines)** under **Deployment method**.
@@ -64,7 +64,7 @@ In the Microsoft 365 compliance center left menu, go to **Data loss prevention**
 
 Here are the settings available to you:
 
-- **File path exclusions**: Exclude specific paths from DLP monitoring, alerting, and policy enforcement. Use the setting for file paths that are too active or that don't contain files you want to protect. You can use wildcards, system variables, and other options to refine which file paths you include or exclude. You can see in the following image an exclusion for the C:\Temp folder and all subfolders. All other folders on the device will be monitored.
+- **File path exclusions**: Exclude specific paths from DLP monitoring, alerting, and policy enforcement. Use the setting for file paths that are too active or that don't contain files you want to protect. You can use wildcards, system variables, and other options to refine which file paths you include or exclude. You can see in the following image an exclusion for the `C:\Temp` folder and all subfolders. All other folders on the device will be monitored.
 
    :::image type="content" source="../media/file-path-exclusions.png" alt-text="Screenshot shows the File Path exclusions part of the Endpoint DLP settings page." lightbox="../media/file-path-exclusions.png":::
   
