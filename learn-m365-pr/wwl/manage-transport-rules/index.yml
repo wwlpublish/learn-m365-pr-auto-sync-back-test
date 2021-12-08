@@ -3,7 +3,7 @@ uid: learn.wwl.manage-transport-rules
 metadata:
   title: Manage transport rules
   description: "Manage transport rules"
-  ms.date: 09/30/2021
+  ms.date: 12/08/2021
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -17,7 +17,7 @@ abstract: |
   - Configure custom transport rules.
   - Describe how transport rules can be used for data loss prevention.
 prerequisites: ""
-iconUrl: /learn/achievements/generic-badge.svg
+iconUrl: /learn/achievements/3-manage-transport-rules.svg
 levels:
 - intermediate
 roles:
