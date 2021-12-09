@@ -126,7 +126,7 @@ quiz:
         explanation: "No, you don't need a Business administration college degree to succeed as a Service Adoption Specialist. Try again."
       - content: "None of the above."
         isCorrect: true
-        explanation: "Correct, there's no one specific college degree you need to succeed as a Service Adoption Specialist."        
+        explanation: "Correct, there's no one specific degree you need to succeed as a Service Adoption Specialist."        
     - content: "Which of the following best defines a tactic of omni-directional marketing?"
       choices:
       - content: "Multiple methods must be simultaneously used to communicate to employees at regular intervals."
