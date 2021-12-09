@@ -81,9 +81,10 @@ This requires study. Don't be daunted by this knowledge pillar if you don't have
 
 Technology changes can be expensive far beyond the cost of the hardware or software. Employee training, technical training, configuration and deployment time, updating customer and executive expectations, and ensuring service health and reliability are all components of the cost of change. Take the necessary time  to understand the new technology and, whenever possible, bring the voice the employee to the table. You also need to balance initial vs long-term change costs. For example, building the digital literacy of your employee base using out of the box tools will reduce change costs in the future. Incorporating process changes as you teach the new tools will minimize the disruption of small but frequent incremental changes.
 
-> ### Optional activity
+### Optional activity
 
-> Buy yourself a subscription to Microsoft 365. You'll have access to all the administrative tools and workloads that you might use in your work environment. The monthly subscription cost is a small investment in your career and gives you a safe environment to learn in. Alternatively, ask your IT department if they have a "test" or "development" tenant where you can be a user with administrative rights so that you can learn on your own. For many of us there is no alternative to hands-on learning. You can also use other online Microsoft learning experiences that have labs attached so you can build out your own solutions.
+:::image type="icon" source="../media/activity.png" border="false":::
+Buy yourself a subscription to Microsoft 365. You'll have access to all the administrative tools and workloads that you might use in your work environment. The monthly subscription cost is a small investment in your career and gives you a safe environment to learn in. Alternatively, ask your IT department if they have a "test" or "development" tenant where you can be a user with administrative rights so that you can learn on your own. For many of us there is no alternative to hands-on learning. You can also use other online Microsoft learning experiences that have labs attached so you can build out your own solutions.
 
 ## Knowledge area - Marketing and communications
 
