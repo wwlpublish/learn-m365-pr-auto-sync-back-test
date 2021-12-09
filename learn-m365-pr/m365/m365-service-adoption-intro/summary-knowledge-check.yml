@@ -123,7 +123,7 @@ quiz:
         explanation: "No, you don't need an Organizational psychology college degree to succeed as a Service Adoption Specialist. Try again."
       - content: "Business administration."
         isCorrect: false
-        explanation: "No, you don't need a Business administration college degree to succeed as a Service Adoption Specialist. Try again."
+        explanation: "No, you don't need a Business Administration degree to succeed as a Service Adoption Specialist. Try again."
       - content: "None of the above."
         isCorrect: true
         explanation: "Correct, there's no one specific degree you need to succeed as a Service Adoption Specialist."        
