@@ -113,7 +113,7 @@ quiz:
       - content: "Technology capabilities."
         isCorrect: false
         explanation: "No, this isn't what technology capabilities refers to. Try again."        
-    - content: "To be a successful Service Adoption Specialist, you should have a college degree in what area?"
+    - content: "To be a successful Service Adoption Specialist, you should have a degree in what area?"
       choices:
       - content: "Computer science."
         isCorrect: false
