@@ -5,8 +5,8 @@ metadata:
   title: Prepare to migrate to Direct Routing
   description: Learn where to place the Session Border Controller and prepare for the cut over.
   ms.date: 07/15/2021
-  author: lizap
-  ms.author: elizapo
+  author: temanteleary
+  ms.author: teleary
   ms.topic: interactive-tutorial
   ms.prod: learning-teams
 durationInMinutes: 4

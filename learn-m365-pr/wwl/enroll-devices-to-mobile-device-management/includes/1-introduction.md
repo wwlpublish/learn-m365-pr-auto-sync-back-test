@@ -2,11 +2,11 @@ Many devices being used today, such as Android, iOS, and Windows 10 S, can't be 
 
 In this module, you'll examine the benefits of enrolling devices to MDM, how to enroll Windows 10, Android, and iOS devices, and how to create enrollment rules. And since Apple devices have their own enrollment mechanism, you'll be introduced to enrolling Apple devices using the Apple Device Enrollment Program (DEP).
 
-You can't require that users enroll their devices to MDM, but you can require that users only access company resources from enrolled devices. Because users access company resources, they must first enroll their devices to access those resources. This module shows you how to configure a security policy with such a requirement, while using a conditional access policy in Intune to achieve the same goal and more.
+You can't require that users enroll their devices to MDM, but you can require that users only access company resources from enrolled devices. Because users access company resources, they must first enroll their devices to access those resources. This module shows you how to configure a security policy with such a requirement, while using a Conditional Access policy in Intune to achieve the same goal and more.
 
 In this module, you'll also learn how to manage the enrollment of devices. While users can enroll up to five devices to MDM by themselves, some companies want to provide employees with devices that are already enrolled. Intune addresses this need by employing device enrollment managers (DEM). This module introduces you to device enrollment managers, who can each enroll up to 1000 devices.
 
-Finally, if your environment requires stronger security, you can configure Azure AD to require multi-factor authentication (MFA) for users who are enrolling devices to MDM. This module examines how to implement MFA so that users have to prove their identity with another authentication factor before they can enroll their devices.
+Finally, if your environment requires stronger security, you can configure Azure AD to require multifactor authentication (MFA) for users who are enrolling devices to MDM. This module examines how to implement MFA so that users have to prove their identity with another authentication factor before they can enroll their devices.
 
 After completing this module, you'll be able to:
 
@@ -16,4 +16,3 @@ After completing this module, you'll be able to:
  -  Explain how users can enroll their personal devices.
  -  Explain the permissions assigned to the Device Enrollment Manager role.
  -  Explain why MFA helps secure the sign-in to Microsoft 365 or Intune for mobile device enrollment.
-

@@ -1,6 +1,6 @@
 Transitioning from traditional to modern device management doesn't happen overnight. In most environments, it's a lengthy process. Management must be moved to the cloud from on-premises, agent-based management. It must also use standards-based MDM.
 
-Co-management is often the first step of this transition. It's a practical way of gradually migrating to the cloud, which minimizes risk of the migration. It also enables organizations to experience the benefits of modern management without leaving traditional management. Co-management enables organizations to manage their devices the same they always have, but it also provides cloud-based features, such as conditional access, MFA, and Windows AutoPilot. This design simplifies and smooths the transition.
+Co-management is often the first step of this transition. It's a practical way of gradually migrating to the cloud, which minimizes risk of the migration. It also enables organizations to experience the benefits of modern management without leaving traditional management. Co-management enables organizations to manage their devices the same they always have, but it also provides cloud-based features, such as Conditional Access, MFA, and Windows AutoPilot. This design simplifies and smooths the transition.
 
 Co-management isn't static. When organizations enable co-management, they can start using it on just a few pilot devices. After they get familiar and more confident with its benefits, they can expand membership in their pilots and move more workloads to Intune.
 

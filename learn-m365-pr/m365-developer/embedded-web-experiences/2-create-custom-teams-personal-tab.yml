@@ -3,9 +3,9 @@ uid: learn-m365.embedded-web-experiences.2-create-custom-teams-personal-tab
 metadata:
   title: Create a custom Microsoft Teams personal tab
   description: In this unit, you'll learn how to create tabs in Microsoft Teams apps.
-  ms.date: 06/09/2021
-  author: andrewconnell
-  ms.author: v-johnco
+  ms.date: 09/13/2021
+  author: andrewconnell-msft
+  ms.author: suzanz
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Create a custom Microsoft Teams personal tab

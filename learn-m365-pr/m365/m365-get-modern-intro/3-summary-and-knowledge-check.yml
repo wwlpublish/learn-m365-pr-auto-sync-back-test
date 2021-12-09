@@ -4,9 +4,9 @@ title: Summary and knowledge check
 metadata:
   title: Summary and knowledge check
   description: Review the eight deployment steps
-  ms.date: 07/19/2021
-  author: AlexandraHrt
-  ms.author: beccarobins
+  ms.date: 06/29/2021
+  author: temanteleary
+  ms.author: teleary
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 durationInMinutes: 3
@@ -45,17 +45,17 @@ quiz:
         isCorrect: false
         explanation: "No. In analyzing your directory and network readiness, you do not prepare your network to move social media profiles."
 
-    - content: "The desktop deployment wheel that guides you through how many recommended steps for your shift to Windows 10 and Microsoft 365 Apps?"
+    - content: "What is the final step on the Desktop Deployment Wheel?"
       choices:
-      - content: "7"
+      - content: "Analyze your device and app readiness."
         isCorrect: false
-        explanation: "No. That is not the number of recommended steps the desktop deployment wheel guides you through for your shift to Windows 10 and Microsoft 365 Apps."
-      - content: "8"
+        explanation: "No. This is the first step in the Desktop Deployment Wheel."
+      - content: "Deploy, upgrade, and migrate your OS."
+        isCorrect: false
+        explanation: "No. This may be a phased deployment or to an early adopter group. This is not the final step on the Desktop Deployment Wheel."
+      - content: "Train users on new features."
         isCorrect: true
-        explanation: "Yes. The desktop deployment wheel guides you through 8 recommended steps for your shift to Windows 10 and Microsoft 365 Apps."
-      - content: "9"
+        explanation: "Yes. Training users is a critical part of the deployment process and is the last step on the Desktop Deployment Wheel."
+      - content: "Learn about servicing models."
         isCorrect: false
-        explanation: "No. That is not the number of recommended steps the desktop deployment wheel guides you through for your shift to Windows 10 and Microsoft 365 Apps."
-      - content: "10"
-        isCorrect: false
-        explanation: "No. That is not the number of recommended steps the desktop deployment wheel guides you through for your shift to Windows 10 and Microsoft 365 Apps."
+        explanation: "No. This is the penultimate step on the Desktop Deployment Wheel. There is one more step."

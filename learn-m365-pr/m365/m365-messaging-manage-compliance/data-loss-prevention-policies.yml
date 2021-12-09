@@ -4,9 +4,9 @@ title: Configure data loss prevention policies
 metadata:
   title: Configure data loss prevention policies
   description: Learn how to manage compliance in an Exchange Online environment. 
-  ms.date: 07/14/2021
-  author: AlexandraHrt
-  ms.author: v-aleha
+  ms.date: 11/10/2021
+  author: temanteleary
+  ms.author: teleary
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 durationInMinutes: 10

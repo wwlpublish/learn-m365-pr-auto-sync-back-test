@@ -3,9 +3,9 @@ uid: learn-m365.msteams-messaging-extensions.4-search-commands
 metadata:
   title: Search command message extensions
   description: In this unit, you’ll learn how to execute a messaging extension search command from an existing message.
-  ms.date: 06/18/2021
-  author: andrewconnell
-  ms.author: v-johnco
+  ms.date: 09/13/2021
+  author: andrewconnell-msft
+  ms.author: suzanz
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Search command message extensions

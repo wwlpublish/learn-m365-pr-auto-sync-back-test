@@ -4,12 +4,12 @@ title: Summary
 metadata:
   unitType: summary
   title: Summary
-  description: Here, you'll review what you've learnt about next-generation protection features in Microsoft Defender for Endpoint.
-  ms.date: 07/06/2021
-  author: alistairmatthews
+  description: Here, you'll review what you've learned about next-generation protection features in Microsoft Defender for Endpoint.
+  ms.date: 08/13/2021
+  author: beccarobins
   ms.author: beccarobins
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-durationInMinutes: 5
+durationInMinutes: 1
 content: |
   [!include[](includes/summary.md)]

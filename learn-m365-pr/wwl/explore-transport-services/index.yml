@@ -1,0 +1,37 @@
+### YamlMime:Module
+uid: learn.wwl.explore-transport-services
+metadata:
+  title: Explore transport services
+  description: "Explore transport services"
+  ms.date: 12/08/2021
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Explore transport services
+summary: Examines the different transport components used by Microsoft Exchange, explores how message routing works in an Exchange deployment, and provides instruction on how to configure the message flow for your organization.
+abstract: |
+  By the end of this module, you'll be able to:
+  - Describe the transport components of Exchange.
+  - Plan an effective message routing for your organization.
+  - Modify message flow for your organization.
+  - Describe which transport agents exist and what they do.
+prerequisites: ""
+iconUrl: /learn/achievements/1-explore-transport-services.svg
+levels:
+- intermediate
+roles:
+- administrator
+products:
+- azure-active-directory
+- m365
+units:
+- learn.wwl.explore-transport-services.introduction
+- learn.wwl.explore-transport-services.examine-message-transport-components
+- learn.wwl.explore-transport-services.examine-message-routing
+- learn.wwl.explore-transport-services.configure-message-transport
+- learn.wwl.explore-transport-services.examine-transport-agents
+- learn.wwl.explore-transport-services.knowledge-check
+- learn.wwl.explore-transport-services.summary
+badge:
+  uid: learn.wwl.explore-transport-services.badge

@@ -5,11 +5,11 @@ metadata:
   unitType: learning-content
   title: Track emerging threats with threat analytics
   description: Learn about how to track emerging threats with threat analytics
-  ms.date: 07/19/2021
-  author: iankensey
+  ms.date: 08/17/2021
+  author: beccarobins
   ms.author: beccarobins
-  ms.topic: interactive-tutorial 
+  ms.topic: interactive-tutorial
   ms.prod: learning-m365
-durationInMinutes: 5 
+durationInMinutes: 5
 content: |
   [!include[](includes/track-threats-analytics.md)]

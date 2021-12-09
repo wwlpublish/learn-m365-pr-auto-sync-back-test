@@ -5,7 +5,7 @@ metadata:
   title: Manage Customer Lockbox requests
   description: Customer Lockbox supports requests to access data in Exchange Online, SharePoint Online, and OneDrive when Microsoft engineers need to access customer content to determine root cause and fix an issue. Customer Lockbox requires the engineer to request access from the customer as a final step in the approval workflow. This gives organizations the option to approve or deny these requests and provide direct-access control to the customer.
   ms.date: 07/08/2021
-  author: ericweisberg
+  author: beccarobins
   ms.author: beccarobins
   ms.topic: interactive-tutorial
   ms.prod: learning-m365

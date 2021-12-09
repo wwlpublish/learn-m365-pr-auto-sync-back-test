@@ -3,8 +3,8 @@ uid: learn-m365.cloud-app-security
 metadata:
   title: Secure your cloud apps and services with Microsoft Cloud App Security
   description: Microsoft Cloud App Security is a Cloud Access Security Broker (CASB) that operates on multiple clouds. It provides rich visibility, control over data travel, and sophisticated analytics to identify and combat cyberthreats across all your cloud services. Learn how to use Cloud App Security in your organization.  
-  ms.date: 07/16/2021
-  author: lizap
+  ms.date: 11/11/2021
+  author: beccarobins
   ms.author: beccarobins
   ms.topic: interactive-tutorial
   ms.prod: learning-m365

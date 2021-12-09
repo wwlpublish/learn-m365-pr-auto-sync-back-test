@@ -4,9 +4,9 @@ title: Windows Autopilot deployment modes
 metadata:
   title: Windows Autopilot deployment modes
   description: Learn about the available deployment modes in Windows Autopilot
-  ms.date: 07/19/2021
-  author: dahans-msft2
-  ms.author: dahans
+  ms.date: 11/10/2021
+  author: temanteleary
+  ms.author: teleary
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 durationInMinutes: 10

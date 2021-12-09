@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.plan-deploy-microsoft-teams.designate-teams-admin-roles
+title: Designate Teams admin roles
+metadata:
+  title: Designate Teams admin roles
+  description: "Designate Teams admin roles"
+  ms.date: 10/25/2021
+  author: wwlpublish
+  ms.author: jennyche
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 6
+content: |
+  [!include[](includes/2-designate-teams-admin-roles.md)]

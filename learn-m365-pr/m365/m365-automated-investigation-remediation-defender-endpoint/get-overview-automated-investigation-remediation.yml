@@ -3,13 +3,13 @@ uid: learn-m365-pr.automated-investigation-remediation-microsoft-defender-endpoi
 title: Investigate and remediate threats through automated investigation and remediation
 metadata:
   unitType: learning-content
-  title: Get an overview of automated investigation and remediation 
-  description: "Learn how automated investigation and remediation works in Microsoft Defender for Endpoint." 
-  ms.date: 07/06/2021
-  author: iankensey
+  title: Get an overview of automated investigation and remediation
+  description: Learn how automated investigation and remediation works in Microsoft Defender for Endpoint.
+  ms.date: 08/17/2021
+  author: beccarobins
   ms.author: beccarobins
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-durationInMinutes: 5
+durationInMinutes: 4
 content: |
   [!include[](includes/get-overview-automated-investigation-remediation.md)]

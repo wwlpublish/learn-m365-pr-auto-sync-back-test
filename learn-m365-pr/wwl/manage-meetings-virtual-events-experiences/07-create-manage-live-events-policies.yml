@@ -1,0 +1,30 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.manage-meetings-virtual-events-experiences.create-and-manage-live-events-policies
+title: Create and manage live events policies
+metadata:
+  title: Create and manage live events policies
+  description: "Create and manage live events policies"
+  ms.date: 10/25/2021
+  author: wwlpublish
+  ms.author: jennyche
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 6
+content: |
+  [!include[](includes/07-create-manage-live-events-policies.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "As the Teams administrator for Fabrikam, Holly Spencer is configuring the company's Live events. Once Holly creates a Live events policy, what must she do for the policy to become active?"
+    choices:
+    - content: "Set the policy's status to Enabled"
+      isCorrect: false
+      explanation: "That's incorrect. This item isn't what Holly must do to make the policy active. Try again."
+    - content: "Assign the policy to one or more users"
+      isCorrect: true
+      explanation: "That's correct. Once a custom Live events policy is created, it must be assigned to users in order for the policy to become active."
+    - content: "Holly doesn't have to do anything; the Live events policy will be active as soon as Holly creates it"
+      isCorrect: false
+      explanation: "That's incorrect. This item isn't what Holly must do to make the policy active.  Try again."

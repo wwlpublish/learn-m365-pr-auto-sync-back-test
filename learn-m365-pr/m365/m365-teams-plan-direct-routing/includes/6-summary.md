@@ -1,6 +1,6 @@
 In this module, we've considered the issues you should be aware of when planning Direct Routing. We took each of the seven planning steps in turn.
 
-:::image type="content" border="false" source="../media/1-direct-routing-planning-steps.png" alt-text="Direct Routing Planning Steps":::
+:::image type="content" border="false" source="../media/1-direct-routing-planning-steps.png" alt-text="The diagram shows seven steps for Direct Routing planning. These are, Self-deployed vs. hosting, Licensing and endpoints, Session border controllers (SBC), Fully qualified domain names and certificates, IP ranges and ports (firewall), Voice routing, Optimize Media":::
 
 You learned about the advantages and disadvantages of self-hosted SBC compared to a hosted service. For those organizations with the relevant skills, that already own an SBC, or understand the terminology when configuring them, an in-house solution might be right. For organizations that don't have the in-house skills or don't want to maintain the necessary equipment, a hosted solution might be better.
 
@@ -14,7 +14,7 @@ Finally, you saw how to optimize media flow using media bypass and local media o
 
 The following diagram provides a high-level summary of Direct Routing.
 
-:::image type="content" source="../media/6-direct-routing-basics.png" alt-text="Direct Routing basics":::
+:::image type="content" source="../media/6-direct-routing-basics.png" alt-text="The following diagram provides a high-level summary of Direct Routing." lightbox="../media/6-direct-routing-basics.png":::
 
 Having completed this module, you should now be able to:
 

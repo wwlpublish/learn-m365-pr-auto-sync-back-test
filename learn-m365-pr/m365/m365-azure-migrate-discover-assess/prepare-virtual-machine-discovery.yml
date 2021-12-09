@@ -5,8 +5,8 @@ metadata:
   title: Prepare for virtual machine-discovery
   description: Explore the Azure Migrate tools for discovering and assessing your virtual machine servers. Learn how to install and configure a virtual machine appliance in your virtualization host infrastructure. 
   ms.date: 07/19/2021
-  author: ericweisberg
-  ms.author: beccarobins
+  author: ndelgado
+  ms.author: nedelgad
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 durationInMinutes: 5

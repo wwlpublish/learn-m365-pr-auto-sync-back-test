@@ -4,7 +4,7 @@ title: Knowledge check
 metadata:
   title: Knowledge check
   description: "Knowledge check"
-  ms.date: 04/30/2021
+  ms.date: 08/26/2021
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -18,9 +18,9 @@ quiz:
   questions:
   - content: "What happens when Azure Identity Protection’s threat intelligence or advanced machine-learning algorithms indicate that a user’s credentials are compromised?"
     choices:
-    - content: "Risk-based conditional access policies can be triggered"
+    - content: "Risk-based Conditional Access policies can be triggered"
       isCorrect: true
-      explanation: "That's correct. When Azure Identity Protection’s threat intelligence or advanced machine-learning algorithms indicate that a user’s credentials are compromised, the risk-based conditional access policies can be triggered. These policies can offer either automatic remediation in the form of blocking the account or, with Multi-Factor Authentication, require a user-initiated password change."
+      explanation: "That's correct. When Azure Identity Protection’s threat intelligence or advanced machine-learning algorithms indicate that a user’s credentials are compromised, the risk-based Conditional Access policies can be triggered. These policies can offer either automatic remediation in the form of blocking the account or, with Multi-Factor Authentication, require a user-initiated password change."
     - content: "Azure AD Multi-Factor Authentication is enabled for the user"
       isCorrect: false
       explanation: "That's incorrect. This item isn't the task that occurs when Azure Identity Protection’s threat intelligence or advanced machine-learning algorithms indicate that a user’s credentials are compromised. Try again."

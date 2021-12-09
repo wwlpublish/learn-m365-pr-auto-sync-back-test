@@ -5,8 +5,8 @@ metadata:
   title: Secure guest access
   description: Learn about how to control guest access to your Teams information.
   ms.date: 06/02/2021
-  ms.author: elizapo
-  author: lizap
+  ms.author: teleary
+  author: temanteleary
   ms.topic: interactive-tutorial
   ms.prod: learning-teams
 durationInMinutes: 5

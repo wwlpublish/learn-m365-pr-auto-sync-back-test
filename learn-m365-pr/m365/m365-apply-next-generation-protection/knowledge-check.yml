@@ -1,32 +1,32 @@
 ### YamlMime:ModuleUnit
 uid: learn-m365-pr.apply-next-generation-protection-with-microsoft-defender-for-endpoint.knowledge-check
-title: Knowledge check 
+title: Knowledge check
 metadata:
   unitType: knowledge_check
   title: Knowledge check
   description: Check your knowledge of next-generation protection features in Microsoft Defender for Endpoint.
   ms.date: 07/06/2021
-  author: alistairmatthews
+  author: beccarobins
   ms.author: beccarobins
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-durationInMinutes: 5
+durationInMinutes: 2
 content: |
 quiz:
   title: Check your knowledge
   questions:
   - content: "Microsoft Defender for Endpoint has detected and blocked an attack that attempted to infect the BIOS of a computer in its firmware. In which category would you place this fileless attack?"
     choices:
-    - content: "Type 1"
+    - content: "Type 1: Fully fileless malware"
       isCorrect: true
       explanation: "That's correct. Attacks that don't use the file system at all are categorized as type one fileless attacks."
-    - content: "Type 2"
+    - content: "Type 2: Indirect file activity"
       isCorrect: false
       explanation: "That's incorrect. Type two fileless attacks make some indirect filesystem activity."
-    - content: "Type 3"
+    - content: "Type 3: Files required to operate"
       isCorrect: false
       explanation: "That's incorrect. Type three fileless attacks require a file on your filesystem to succeed."
-  - content: "Your users complain about a piece of software that displays unrequested advertisements on their desktop. Which of the following features of Microsoft Defender for Endpoint can block this software?"
+  - content: "Your users complain about unrequested advertisements appearing on their desktop after some software was installed. Which of the following features of Microsoft Defender for Endpoint can block this software?"
     choices:
     - content: "Always-on protection"
       isCorrect: false
@@ -34,6 +34,6 @@ quiz:
     - content: "Block at first sight"
       isCorrect: false
       explanation: "That's incorrect. The block at first sight feature protects against viruses and malware."
-    - content: "PUA protection"
+    - content: "Potentially Unwanted App (PUA) protection"
       isCorrect: true
       explanation: "That's correct. Potentially Unwanted App (PUA) protection blocks applications with poor reputations and annoying features, including desktop advertising."

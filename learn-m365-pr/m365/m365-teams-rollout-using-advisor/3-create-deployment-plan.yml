@@ -5,8 +5,8 @@ metadata:
   title: Create and manage a deployment plan
   description: Learn how to manage your deployment plan.
   ms.date: 07/15/2021
-  ms.author: elizapo
-  author: lizap
+  ms.author: teleary
+  author: temanteleary
   ms.topic: interactive-tutorial
   ms.prod: learning-teams
 durationInMinutes: 1

@@ -5,8 +5,8 @@ metadata:
   title: Configure Azure AD Connect for hybrid environments
   description: Learn how to set up Azure AD Connect.
   ms.date: 07/16/2021
-  author: lizap
-  ms.author: elizapo
+  author: temanteleary
+  ms.author: teleary
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 durationInMinutes: 5

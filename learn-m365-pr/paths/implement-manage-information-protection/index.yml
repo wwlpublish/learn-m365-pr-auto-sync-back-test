@@ -1,0 +1,34 @@
+### YamlMime:LearningPath
+uid: learn.wwl.implement-manage-information-protection
+metadata:
+  title: MS-500 part 3 - Implement and manage information protection
+  description: MS-500 part 3 - Implement and manage information protection
+  ms.date: 10/19/2021
+  author: wwlpublish
+  ms.author: hrasheed
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+title: MS-500 part 3 - Implement and manage information protection
+prerequisites: |
+  None.
+summary: |
+  Learn how to plan, implement, and manage information protection technologies in Microsoft 365. This learning path prepares you for the third set of skills evaluated on the MS-500 Microsoft 365 Security Administrator certification exam.
+iconUrl: /learn/achievements/protection-information.svg
+levels:
+- intermediate
+roles:
+- administrator
+- security-engineer
+- technology-manager
+products:
+- office-365
+modules:
+- learn.wwl.create-manage-sensitive-information-types
+- learn.wwl.apply-manage-sensitivity-labels
+- learn-m365.m365-compliance-information-prevent-data-loss
+- learn.wwl.manage-data-loss-prevention-polices
+- learn-m365.m365-compliance-information-govern-information
+- learn.wwl.manage-data-retention-microsoft-365
+- learn-m365.m365-compliance-information-manage-records
+trophy:
+  uid: learn.wwl.implement-manage-information-protection.trophy

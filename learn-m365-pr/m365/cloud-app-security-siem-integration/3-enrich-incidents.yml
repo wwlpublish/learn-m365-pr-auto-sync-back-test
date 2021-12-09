@@ -3,8 +3,8 @@ uid: learn-m365.mcas-siem-integration.3-enrich-incidents
 metadata:
   title: Enrich incidents in Azure Sentinel with playbooks
   description: Learn how to enrich incidents in Azure Sentinel with playbooks
-  ms.date: 02/10/2021
-  author: geoffallix
+  ms.date: 10/19/2021
+  author: beccarobins
   ms.author: beccarobins
   ms.topic: interactive-tutorial
   ms.prod: learning-m365

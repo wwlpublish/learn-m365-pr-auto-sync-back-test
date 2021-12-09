@@ -5,8 +5,8 @@ metadata:
   title: Manage the update experience for devices
   description: Learn about how to manage the device experience after you've successfully deployed an update.
   ms.date: 07/15/2021
-  author: iankensey
-  ms.author: v-iakens
+  author: lizap
+  ms.author: elizapo
   ms.topic: interactive-tutorial
   ms.prod: learning-windows
 durationInMinutes: 10

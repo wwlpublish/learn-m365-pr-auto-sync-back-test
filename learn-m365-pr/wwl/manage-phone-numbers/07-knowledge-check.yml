@@ -1,0 +1,52 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.manage-phone-numbers.knowledge-check
+title: Knowledge check
+metadata:
+  title: Knowledge check
+  description: "Knowledge check"
+  ms.date: 11/18/2021
+  author: wwlpublish
+  ms.author: jennyche
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 5
+content: |
+  [!include[](includes/07-knowledge-check.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "Microsoft Teams uses different telephone number types depending on the purpose for which the phone number will be used. Which type of telephone numbers are assigned to Audio Conferencing, auto attendants, and call queues?"
+    choices:
+    - content: "Service numbers"
+      isCorrect: true
+      explanation: "That's correct. These numbers are assigned to services such as Audio Conferencing, auto attendants, and call queues. Service phone numbers have a higher concurrent call capacity than user numbers and will vary by country/region and the type of number (whether it's a toll or toll-free service numbers)."
+    - content: "User numbers"
+      isCorrect: false
+      explanation: "That's incorrect. These numbers can be assigned to users in an organization for calling purposes. Try again."
+    - content: "Geographic numbers"
+      isCorrect: false
+      explanation: "That's incorrect. Geographic numbers are a form of user phone numbers. Try again."
+  - content: "Contoso currently has a phone service provider and already has phone numbers for its users and services. It has less than 1,000 phone numbers. As the Teams administrator for Contoso, Allan DeYoung wants to port the company's phone numbers over to Microsoft Teams using the Teams admin center. Allan also wants to establish Microsoft as Contoso's service provider. At that point, Contoso can disconnect its service with its old service provider. What must Allan do to move Contoso's phone numbers over to Microsoft Teams?"
+    choices:
+    - content: "Create a port order to transfer Contoso's phone numbers to Microsoft Teams"
+      isCorrect: true
+      explanation: "That's correct. If an organization currently has a phone service provider or carrier and already has phone numbers for its users or services, it must create a port order to transfer those phone numbers to Microsoft Teams. After it ports its phone numbers over to Teams, Microsoft becomes its service provider. At that point, the organization can disconnect its service with its old service provider or carrier."
+    - content: "Use PowerShell to bulk import Contoso's phone numbers into Microsoft Teams"
+      isCorrect: false
+      explanation: "That's incorrect. This item isn't a valid way to move phone numbers from a service provider over to Microsoft Teams. Try again."
+    - content: "Submit a request to the Phone Number Support Center"
+      isCorrect: false
+      explanation: "That's incorrect. The Phone Number Support Center is required when an organization can't get or port phone numbers using the Microsoft Teams admin center. This situation doesn't apply in Contoso's scenario. Try again."
+  - content: "As the Teams administrator for Fabrikam, Holly Spencer wants all calls between users at Fabrikam to be handled internally. Holly doesn't want the calls to ever go to the Public Switched Telephone Network (PSTN). Holly also wants this design to apply to calls between Fabrikam users located in different geographical areas, which will remove long-distance costs on these internal calls. Which of the following technologies will enable Fabrikam to achieve these business goals?"
+    choices:
+    - content: "Private Branch Exchange (PBX)"
+      isCorrect: false
+      explanation: "That's incorrect. A PBX is a telephone exchange or switching system that serves a private organization. Try again."
+    - content: "Session Initiation Protocol (SIP) trunks"
+      isCorrect: false
+      explanation: "That's incorrect. A SIP trunk enables an end point’s PBX phone system to send and receive calls through the Internet. Try again."
+    - content: "Microsoft Phone System"
+      isCorrect: true
+      explanation: "That's correct. Phone System is Microsoft's technology for enabling call control and PBX capabilities in the Microsoft 365 or Office 365 cloud with Microsoft Teams. Calls between users in an organization are handled internally within Phone System. They never go to the PSTN. This design applies to calls between users in an organization located in different geographical areas, removing long-distance costs on these internal calls."

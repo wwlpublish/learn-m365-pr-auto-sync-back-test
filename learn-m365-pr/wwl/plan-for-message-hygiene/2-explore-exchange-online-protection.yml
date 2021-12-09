@@ -1,0 +1,30 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.plan-for-message-hygiene.explore-exchange-online-protection
+title: Explore Exchange Online Protection
+metadata:
+  title: Explore Exchange Online Protection
+  description: "Explore Exchange Online Protection"
+  ms.date: 12/09/2021
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 6
+content: |
+  [!include[](includes/2-explore-exchange-online-protection.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "As the Messaging administrator for Contoso, Holly Dickson wants to configure Exchange Online Protection for Contoso's Exchange Server deployment. What must Holly do to configure EOP?"
+    choices:
+    - content: "Configure Contoso's DNS MX record to point to Microsoft 365"
+      isCorrect: false
+      explanation: "That's incorrect. This task must be completed in an Exchange Online deployment to enable EOP. Try again."
+    - content: "Install an EOP Send connector in the on-premises Exchange Server environment"
+      isCorrect: true
+      explanation: "That's correct. EOP requires only an EOP Send connector in an on-premises Exchange Server environment so that messages are sent to the EOP domain for scanning."
+    - content: "Configure Contoso's DNS PTR records"
+      isCorrect: false
+      explanation: "That's incorrect. DNS PTR records are used in reverse DNS lookups. They aren't used by EOP. Try again."

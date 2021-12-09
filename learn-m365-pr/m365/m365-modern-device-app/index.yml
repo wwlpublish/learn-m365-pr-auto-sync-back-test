@@ -1,15 +1,15 @@
 ### YamlMime:Module
 uid: learn-m365.modern-device-app
 metadata:
-  title: Analyze your device and app readiness for Windows 10
-  description: Learn about the four-step process for analyzing device and application readiness and the tools provided by Microsoft to help you get ready, from the Windows Analytics Upgrade Readiness tool to the Readiness Toolkit for Office.
-  ms.date: 07/21/2021
-  author: AlexandraHrt
-  ms.author: aleha
+  title: Analyze your device and app readiness for Windows
+  description: Learn about the four-step process for analyzing device and application readiness and the tools provided by Microsoft to help you get ready, from the Desktop Analytics with Configuration Manager to the Readiness Toolkit for Office.
+  ms.date: 10/26/2021
+  author: temanteleary
+  ms.author: teleary
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-title: Analyze your device and app readiness for Windows 10
-summary: "Learn about the four-step process for analyzing device and application readiness and the tools provided by Microsoft to help you get ready, from the Windows Analytics Upgrade Readiness tool to the Readiness Toolkit for Office."
+title: Analyze your device and app readiness for Windows
+summary: "Learn about the four-step process for analyzing device and application readiness and the tools provided by Microsoft to help you get ready, from the Desktop Analytics with Configuration Manager to the Readiness Toolkit for Office."
 abstract: |
   At the end of this module, you should be able to:
   - List the Microsoft readiness assessment tools and explain how to use them

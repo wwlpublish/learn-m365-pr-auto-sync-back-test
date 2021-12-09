@@ -45,7 +45,7 @@ View your Safe Attachments policy settings.
   :::column:::
     
 
-[Get-SafeAttachmentPolicy](https://docs.microsoft.com/powershell/module/exchange/get-safeattachmentpolicy?azure-portal=true)
+[Get-SafeAttachmentPolicy](/powershell/module/exchange/get-safeattachmentpolicy?azure-portal=true)
 
 
   :::column-end:::
@@ -61,7 +61,7 @@ Edit an existing Safe Attachments policy.
   :::column:::
     
 
-[Set-SafeAttachmentPolicy](https://docs.microsoft.com/powershell/module/exchange/set-safeattachmentpolicy?azure-portal=true)
+[Set-SafeAttachmentPolicy](/powershell/module/exchange/set-safeattachmentpolicy?azure-portal=true)
 
 
   :::column-end:::
@@ -77,7 +77,7 @@ Create a new custom Safe Attachments policy.
   :::column:::
     
 
-[New-SafeAttachmentPolicy](https://docs.microsoft.com/powershell/module/exchange/new-safeattachmentpolicy?azure-portal=true)
+[New-SafeAttachmentPolicy](/powershell/module/exchange/new-safeattachmentpolicy?azure-portal=true)
 
 
   :::column-end:::
@@ -93,7 +93,7 @@ Delete a custom Safe Attachments policy.
   :::column:::
     
 
-[Remove-SafeAttachmentPolicy](https://docs.microsoft.com/powershell/module/exchange/remove-safeattachmentpolicy?azure-portal=true)
+[Remove-SafeAttachmentPolicy](/powershell/module/exchange/remove-safeattachmentpolicy?azure-portal=true)
 
 
   :::column-end:::
@@ -109,7 +109,7 @@ View your Safe Attachments rule settings.
   :::column:::
     
 
-[Get-SafeAttachmentRule](https://docs.microsoft.com/powershell/module/exchange/get-safeattachmentrule?azure-portal=true)
+[Get-SafeAttachmentRule](/powershell/module/exchange/get-safeattachmentrule?azure-portal=true)
 
 
   :::column-end:::
@@ -125,7 +125,7 @@ Edit an existing attachments link rule.
   :::column:::
     
 
-[Set-SafeAttachmentRule](https://docs.microsoft.com/powershell/module/exchange/set-safeattachmentrule?azure-portal=true)
+[Set-SafeAttachmentRule](/powershell/module/exchange/set-safeattachmentrule?azure-portal=true)
 
 
   :::column-end:::
@@ -141,7 +141,7 @@ Create a new custom Safe Attachments rule.
   :::column:::
     
 
-[New-SafeAttachmentRule](https://docs.microsoft.com/powershell/module/exchange/new-safeattachmentrule?azure-portal=true)
+[New-SafeAttachmentRule](/powershell/module/exchange/new-safeattachmentrule?azure-portal=true)
 
 
   :::column-end:::
@@ -157,7 +157,7 @@ Delete a custom Safe Attachments rule.
   :::column:::
     
 
-[Remove-SafeAttachmentRule](https://docs.microsoft.com/powershell/module/exchange/remove-safeattachmentrule?azure-portal=true)
+[Remove-SafeAttachmentRule](/powershell/module/exchange/remove-safeattachmentrule?azure-portal=true)
 
 
   :::column-end:::
@@ -171,20 +171,20 @@ Creating a Safe Attachments policy in PowerShell is a two-step process:
 
 You can create a new safe attachment rule and assign an existing, unassociated safe attachment policy to it. A safe attachment rule can't be associated with more than one safe attachment policy.
 
-You can configure the following settings on new safe attachment policies in PowerShell that aren't available in the Security &amp; Compliance Center until after you create the policy:
+You can configure the following settings on new safe attachment policies in PowerShell that aren't available in Microsoft 365 Defender until after you create the policy:
 
  -  Create the new policy as disabled (**Enabled $false** on the **New-SafeAttachmentRule** cmdlet).
  -  Set the priority of the policy during creation (**Priority** &lt;Number&gt;) on the **New-SafeAttachmentRule** cmdlet).
 
 > [!CAUTION]
-> A new safe attachment policy that you create in PowerShell isn't visible in the Security &amp; Compliance Center until you assign the policy to a safe attachment rule.
+> A new safe attachment policy that you create in PowerShell isn't visible in Microsoft 365 Defender until you assign the policy to a safe attachment rule.
 
 ### Step 1 - Create a safe attachment policy using PowerShell<br>
 
 The following PowerShell syntax should be used to create a safe attachment policy:
 
 ```powershell
-New-SafeAttachmentPolicy -Name "&lt;PolicyName&gt;" [-AdminDisplayName "&lt;Comments&gt;"] [-Action &lt;Allow | Block | Replace | DynamicDelivery&gt;] [-Redirect &lt;$true | $false&gt;] [-RedirectAddress &lt;SMTPEmailAddress&gt;] [-ActionOnError &lt;$true | $false&gt;]
+New-SafeAttachmentPolicy -Name "<PolicyName>" [-AdminDisplayName "<Comments>"] [-Action <Allow | Block | Replace | DynamicDelivery>] [-Redirect <$true | $false>] [-RedirectAddress <SMTPEmailAddress>] [-ActionOnError <$true | $false>]
 ```
 
 The following example creates a safe attachment policy named **Contoso All** with the following values:<br>
@@ -202,7 +202,7 @@ New-SafeAttachmentPolicy -Name "Contoso All" -Redirect $true -RedirectAddress se
 The following PowerShell syntax should be used to create a safe attachment rule:
 
 ```powershell
-New-SafeAttachmentRule -Name "&lt;RuleName&gt;" -SafeAttachmentPolicy "&lt;PolicyName&gt;" &lt;Recipient filters&gt; [&lt;Recipient filter exceptions&gt;] [-Comments "&lt;OptionalComments&gt;"] [-Enabled &lt;$true | $false&gt;]
+New-SafeAttachmentRule -Name "<RuleName>" -SafeAttachmentPolicy "<PolicyName>" <Recipient filters> [<Recipient filter exceptions>] [-Comments "<OptionalComments>"] [-Enabled <$true | $false>]
 ```
 
 The following example creates a safe attachment rule named **Contoso All** with the following conditions:<br>
@@ -223,7 +223,7 @@ The highest priority value you can set on a rule is 0. The lowest value you can 
 To set the priority of a safe attachment rule in PowerShell, use the following syntax:
 
 ```powershell
-Set-SafeAttachmentRule -Identity "&lt;RuleName&gt;" -Priority &lt;Number&gt;
+Set-SafeAttachmentRule -Identity "<RuleName>" -Priority <Number>
 ```
 
 The following example sets the priority of the rule named Marketing Department to 2. All existing rules that have a priority less than or equal to 2 are decreased by 1 (their priority numbers are increased by 1).<br>

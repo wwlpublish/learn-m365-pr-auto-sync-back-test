@@ -1,0 +1,49 @@
+### YamlMime:ModuleUnit
+uid: learn-m365-pr.defender-identity-plan.knowledge-check
+title: Knowledge check
+metadata:
+  unitType: knowledge_check
+  title: Knowledge check
+  description: Knowledge check for Plan Microsoft Defender for Identity installation
+  ms.date: 04/22/2021
+  author: beccarobins
+  ms.author: beccarobins
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 3
+content: |
+quiz:
+  questions:
+  - content: "What are the high-level tasks you'll carry out during the setup process for Microsoft Defender for Identity?"
+    choices:
+    - content: "Remove sensors, then connect your Microsoft Defender for Identity instance to Active Directory."
+      isCorrect: false
+      explanation: "That's incorrect. You don't remove sensors, you need to install them. Also, you connect your instance before you install any sensors."
+    - content: "Download and install sensors, then create and connect your Microsoft Defender for Identity instance to your Active Directory."
+      isCorrect: false
+      explanation: "That's incorrect. Download and install the sensors only after you've created and connected to your instance."
+    - content: "Create and connect your Microsoft Defender for Identity instance to your Active Directory, then download and install sensors."
+      isCorrect: true
+      explanation: "Correct. These tasks will enable you to set up Microsoft Defender for Identity."
+  - content: "Where can you install your Microsoft Defender for Identity sensors "
+    choices:
+    - content: "Domain controllers and on AD FS servers"
+      isCorrect: true
+      explanation: "That's right! Sensors monitor traffic and events on domain controllers and monitor network traffic and authentication events at AD FS servers."
+    - content: "Domain controllers and on standalone DNS servers"
+      isCorrect: false
+      explanation: "That's incorrect. Sensors cannot be installed on standalone DNS servers."
+    - content: "Domain controllers and DHCP servers"
+      isCorrect: false
+      explanation: "That's incorrect. Sensors cannot be installed on DHCP servers."
+  - content: "What is the recommended, and simplest, way to determine capacity for your Microsoft Defender for Identity deployment?"
+    choices:
+    - content: "Perform a domain controller traffic estimation."
+      isCorrect: false
+      explanation: "That's incorrect. Only perform a domain controller traffic estimation if there is no other method available."
+    - content: "Run Task Manager."
+      isCorrect: false
+      explanation: "That's incorrect. Task Manager will not provide capacity information."
+    - content: "Use the Microsoft Defender for Identity Sizing Tool."
+      isCorrect: true
+      explanation: "That's right! Use the Microsoft Defender for Identity Sizing Tool."

@@ -1,0 +1,52 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.configure-deploy-manage-teams-devices.knowledge-check
+title: Knowledge check
+metadata:
+  title: Knowledge check
+  description: "Knowledge check"
+  ms.date: 11/09/2021
+  author: wwlpublish
+  ms.author: dahans
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 6
+content: |
+  [!include[](includes/8-knowledge-check.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "Which type of license is always required to enable voice services with Microsoft Teams Rooms?"
+    choices:
+    - content: "Microsoft Teams Rooms Premium"
+      isCorrect: false
+      explanation: "A Microsoft Teams Rooms Premium license does not add voice-specific capabilities in addition to the Microsoft Teams Rooms Standard license."
+    - content: "Domestic or International Calling Plan"
+      isCorrect: false
+      explanation: "A Domestic or International Calling Plan license is not required if Direct Routing is used with Microsoft Teams."
+    - content: "Microsoft Teams Rooms Standard"
+      isCorrect: true
+      explanation: "A Microsoft Teams Rooms Standard license includes the Phone System license required to use the device with Calling Plans or Direct Routing."
+  - content: "Which method is used to revert Microsoft Teams Android-based device firmware?"
+    choices:
+    - content: "Select a previous firmware version using Manual Updates in the Teams Admin Center"
+      isCorrect: false
+      explanation: "Only the current version of the firmware and applicable updates are shown within the Teams Admin Center."
+    - content: "A factory reset of the device"
+      isCorrect: true
+      explanation: "The firmware cannot be reverted using the Teams Admin Center and a factory reset of the device will revert the firmware to the version that the device was shipped with, or updated to using the vendor's own update procedures."
+    - content: "Upload a previous firmware version and apply using Manual Updates in the Teams Admin Center"
+      isCorrect: false
+      explanation: "Only the current version of the firmware and applicable updates are shown within the Teams Admin Center. Firmware cannot be uploaded and deployed using the Teams Admin Center."
+  - content: "In which scenario will Azure Active Directory Conditional Access policies allow a user to sign into a Teams Phone?"
+    choices:
+    - content: "When a Conditional Access policy allows a device enrollment exception for Teams Phones"
+      isCorrect: false
+      explanation: "A policy that matches a user signing into a Teams Phone cannot have a specific exception for Teams Phones, therefore an Intune license must be applied and the Teams Phone must register and assert compliance with the policy."
+    - content: "Only after remote provisioning has been performed successfully"
+      isCorrect: false
+      explanation: "Remote provisioning includes the user sign-in process and device registration, which therefore will require pre-requisites for Intune licensing."
+    - content: "When an Intune license is applied to the user"
+      isCorrect: true
+      explanation: "When using Conditional Access to allow Teams Phone sign-in, an Intune license and Intune configuration to support Android Device Administrator profiles must be applied."

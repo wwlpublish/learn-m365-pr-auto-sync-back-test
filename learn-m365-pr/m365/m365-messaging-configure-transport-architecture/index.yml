@@ -4,8 +4,8 @@ metadata:
   title: Deliver mail to mailboxes outside Microsoft 365 by using connectors
   description: Learn how to use connectors in Exchange Online to route email to on-premises email systems and to secure email to partner organizations. 
   ms.date: 07/19/2021
-  author: AlexandraHrt
-  ms.author: elizapo
+  author: temanteleary
+  ms.author: teleary
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Deliver mail to mailboxes outside Microsoft 365 by using connectors

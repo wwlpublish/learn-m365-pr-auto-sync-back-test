@@ -3,9 +3,9 @@ uid: learn-m365.msteams-webhooks-connectors.2-outgoing-webhooks
 metadata:
   title: Connect web services to Microsoft Teams with webhooks
   description: In this unit, you’ll learn how to create a web service and register it as an outgoing webhook in the Microsoft Teams client.
-  ms.date: 06/18/2021
-  author: andrewconnell
-  ms.author: v-johnco
+  ms.date: 09/13/2021
+  author: andrewconnell-msft
+  ms.author: suzanz
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Connect web services to Microsoft Teams with webhooks

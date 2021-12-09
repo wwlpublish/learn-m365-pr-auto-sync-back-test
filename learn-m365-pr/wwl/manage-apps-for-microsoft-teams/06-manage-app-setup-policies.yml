@@ -1,0 +1,17 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.manage-apps-for-microsoft-teams.create-manage-app-setup-policies
+title: Create and manage app setup policies
+metadata:
+  title: Create and manage app setup policies
+  description: "Create and manage app setup policies"
+  ms.date: 09/18/2021
+  author: wwlpublish
+  ms.author: jennyche
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+sandbox: false
+labModal: false
+durationInMinutes: 7
+content: |
+  [!include[](includes/06-manage-app-setup-policies.md)]

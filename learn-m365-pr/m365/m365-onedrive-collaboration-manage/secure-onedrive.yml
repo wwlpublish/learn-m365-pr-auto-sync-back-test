@@ -4,9 +4,9 @@ title: Secure OneDrive
 metadata:
   title: Secure OneDrive
   description: The management of OneDrive is ongoing after your rollout. Learn how to view reports of usage and activity within OneDrive to better understand what is happening in your organization and how to audit activities that occur. Learn what you can do to further protect files in OneDrive and also ensure they are retained and available after a user leaves the organization. 
-  ms.date: 07/19/2021
-  author: ericweisberg
-  ms.author: v-erwe
+  ms.date: 11/15/2021
+  author: temanteleary
+  ms.author: teleary
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 

@@ -6,10 +6,10 @@ metadata:
   title: What platforms are supported for you and your attendees?
   description: Learn what platforms are supported by Teams and Live Events.
   ms.date: 07/14/2021
-  author: lizap 
-  ms.author: elizapo 
-  ms.topic: interactive-tutorial # do we need ms.topic?
+  author: lizap
+  ms.author: elizapo
+  ms.topic: interactive-tutorial
   ms.prod: learning-m365
-durationInMinutes: 1 # user input: the estimate time to complete the unit
+durationInMinutes: 1
 content: |
   [!include[](includes/what-platforms-support-attendees.md)]

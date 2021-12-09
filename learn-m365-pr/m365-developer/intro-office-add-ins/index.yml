@@ -3,8 +3,8 @@ uid: learn-m365.intro-office-add-ins
 metadata:
   title: Introduction to Office client customization with add-ins
   description: Learn how to customize and extend Office applications including Word, Excel, and Outlook with Office Add-ins
-  ms.date: 06/17/2021
-  author: andrewconnell
+  ms.date: 09/13/2021
+  author: andrewconnell-msft
   ms.author: suzanz
   ms.topic: interactive-tutorial
   ms.prod: learning-m365

@@ -5,8 +5,8 @@ metadata:
   title: Move users between on-premises and the cloud
   description: Learn how to move your users from the on-premises environment to the cloud.
   ms.date: 07/16/2021
-  author: lizap
-  ms.author: elizapo
+  author: temanteleary
+  ms.author: teleary
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 durationInMinutes: 3

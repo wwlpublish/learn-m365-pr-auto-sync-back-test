@@ -4,9 +4,9 @@ title: Configure retention policies and data loss prevention (DLP) policies
 metadata:
   title: Configure retention policies and data loss prevention (DLP) policies
   description: Learn about retention policies and Data Loss Prevention (DLP) policies and how they can be used to retain or remove Teams content such as chat items or files.
-  ms.date: 07/15/2021
-  ms.author: elizapo
-  author: lizap
+  ms.date: 11/15/2021
+  ms.author: teleary
+  author: temanteleary
   ms.topic: interactive-tutorial
   ms.prod: learning-teams
 durationInMinutes: 4

@@ -1,0 +1,40 @@
+### YamlMime:ModuleUnit
+uid: learn-m365-pr.manage-windows-updates-cloud-devices.deploy-feature-updates
+title: Deploy Windows feature updates
+metadata:
+  unitType: learning-content
+  title: Deploy Windows feature updates
+  description: Learn how to deploy Windows feature updates using the Microsoft Graph PowerShell SDK.
+  ms.date: 10/15/2021
+  author: beccarobins
+  ms.author: beccarobins
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 7
+content: |
+  [!include[](includes/deploy-feature-updates.md)]
+quiz:
+  title: Check your knowledge
+  questions:
+  - content: Which Microsoft Graph PowerShell command should be used to deploy an update?
+    choices:
+    - content: Add-MgWindowsUpdatesDeployment 
+      isCorrect: false
+      explanation: This isn’t a valid command to deploy an update.
+    - content: New-MgWindowsUpdatesDeployment
+      isCorrect: true 
+      explanation: Use this command to deploy updates.
+    - content: New-Create-WindowsUpdatesDeployment
+      isCorrect: false
+      explanation: This isn’t a valid command to deploy an update
+  - content: Which parameter should be used to add target devices to a deployment audience?
+    choices:
+    - content: Add-Members
+      isCorrect: true
+      explanation: Use this parameter to specify one or more devices to add devices to a deployment audience.
+    - content: Add-Target-Devices
+      isCorrect: false
+      explanation: This isn’t a valid parameter for adding devices to a deployment audience.
+    - content: New-devices
+      isCorrect: false
+      explanation: This isn’t a valid parameter for adding devices to a deployment audience.

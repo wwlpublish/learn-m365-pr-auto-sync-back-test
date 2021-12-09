@@ -49,7 +49,7 @@ Follow these steps to enable guest access in your Teams environment:
 1. Select **Org-wide settings** > **Guest access**.
 1. Set **Allow guest access in Microsoft Teams** to **On**.
 
-    :::image type="content" source="../media/2-set-up-guests-image1.png" alt-text="Screenshot showing how to turn on the allow guest access in  Teams":::
+    :::image type="content" source="../media/3-set-up-guests-image1.png" alt-text="Screenshot showing how to turn on the allow guest access in  Teams" lightbox="../media/3-set-up-guests-image1.png":::
 
 1. Under **Calling**, **Meeting**, and **Messaging**, select **On** or **Off** for each capability, depending on what you want to allow for guest users.
 
@@ -109,5 +109,5 @@ New-CsBatchPolicyAssignmentOperation -PolicyType TeamsMeetingPolicy -PolicyName 
 
 ### Learn more
 
-- [Grant-CSTeamsMeetingPolicy](/powershell/module/skype/grant-csteamsmeetingpolicy)
-- [New-CsBatchPolicyAssignmentOperation](/powershell/module/teams/new-csbatchpolicyassignmentoperation?)
+- [Grant-CsTeamsMeetingPolicy](/powershell/module/skype/grant-csteamsmeetingpolicy)
+- [New-CsBatchPolicyAssignmentOperation](/powershell/module/teams/new-csbatchpolicyassignmentoperation)

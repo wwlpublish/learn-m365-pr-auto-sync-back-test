@@ -3,9 +3,9 @@ uid: learn-m365.sharepoint-spfx-get-started.4-spfx-development-environment
 metadata:
   title: SharePoint Framework development environment
   description: In this unit, you'll learn what you need to install on your development environment to start creating SharePoint Framework components.
-  ms.date: 11/30/2020
-  author: andrewconnell
-  ms.author: v-johnco
+  ms.date: 09/13/2021
+  author: andrewconnell-msft
+  ms.author: suzanz
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: SharePoint Framework development environment

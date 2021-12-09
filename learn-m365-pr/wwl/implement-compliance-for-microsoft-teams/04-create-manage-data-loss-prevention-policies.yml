@@ -1,0 +1,30 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.implement-compliance-for-microsoft-teams.create-manage-data-loss-prevention-policies
+title: Create and manage Data Loss Prevention policies
+metadata:
+  title: Create and manage Data Loss Prevention policies
+  description: "Create and manage Data Loss Prevention policies"
+  ms.date: 10/25/2021
+  author: wwlpublish
+  ms.author: jennyche
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 8
+content: |
+  [!include[](includes/04-create-manage-data-loss-prevention-policies.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "Data Loss Prevention for Microsoft Teams blocks sensitive content that's shared with which Microsoft Teams users?"
+    choices:
+    - content: "Users who can access SharePoint sites from unmanaged devices"
+      isCorrect: false
+      explanation: "That's incorrect. This item doesn't define the types of users who are blocked from receiving sensitive content that's shared with them. Try again."
+    - content: "Users with external access"
+      isCorrect: true
+      explanation: "That's correct. DLP for Microsoft Teams blocks sensitive content when shared with Microsoft Teams users who have guest access or external access."
+    - content: "Users who are assigned a sensitivity label"
+      isCorrect: false
+      explanation: "That's incorrect. This item doesn't define the types of users who are blocked from receiving sensitive content that's shared with them. Try again."

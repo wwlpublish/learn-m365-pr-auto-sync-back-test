@@ -4,12 +4,13 @@ title: Extensibility
 metadata:
   title: Extensibility
   description: "Extensibility"
-  ms.date: 08/10/2021
+  ms.date: 10/18/2021
   author: wwlpublish
   ms.author: dahans
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
+labModal: false
 durationInMinutes: 6
 content: |
   [!include[](includes/5-extensibility.md)]

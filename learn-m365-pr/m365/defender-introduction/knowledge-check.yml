@@ -1,0 +1,38 @@
+### YamlMime:ModuleUnit
+uid: learn-m365-pr.defender-introduction.knowledge-check
+title: Knowledge check
+metadata:
+  unitType: knowledge_check
+  title: Knowledge check
+  description: Test your knowledge of the module content
+  ms.date: 04/24/2021
+  author: beccarobins
+  ms.author: beccarobins
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 2
+content: |
+quiz:
+  questions: 
+  - content: "Which Microsoft Defender product, once integrated to Microsoft 365 Defender, provides threat information on email, attachments, and link detections?"
+    choices:
+    - content: "Microsoft Defender for Endpoint"
+      isCorrect: false
+      explanation: "Incorrect. Microsoft Defender for Endpoint focuses on devices and not email attachments."
+    - content: "Microsoft Defender for Office 365"
+      isCorrect: true
+      explanation: "That is correct. Microsoft Defender for Office 365 integration lets security teams have visibility over malicious emails, harmful attachments, and questionable links"
+    - content: "Microsoft Defender for Identity"
+      isCorrect: false
+      explanation: "That is incorrect. Microsoft Defender for Identity provides data on compromised identities and malicious insider actions"
+  - content: "What is one of the key reasons for adopting and using Microsoft 365 Defender?"
+    choices:
+    - content: "To automatically analyze threat data across applications, endpoints, identity, and data to build a complete picture of each attack."
+      isCorrect: true
+      explanation: "That's correct! Microsoft 365 Defender brings together the Microsoft 365 security portfolio to provide a single view of an attack."
+    - content: "To improve your organization's security perimeter and stop cyber-attacks by minimizing your organization's attack surface."
+      isCorrect: false
+      explanation: "That is incorrect. Microsoft 365 Defender brings together the Microsoft 365 security portfolio to provide a single view of an attack."
+    - content: "To automatically lock down any malicious or suspicious behavior by users within your organization and to notify your security team."
+      isCorrect: false
+      explanation: "That is incorrect. Microsoft 365 Defender brings together the Microsoft 365 security portfolio to provide a single view of an attack."

@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.explore-messaging-compliance-exchange.analyze-message-tracking
+title: Analyze message tracking
+metadata:
+  title: Analyze message tracking
+  description: "Analyze message tracking"
+  ms.date: 11/02/2021
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 4
+content: |
+  [!include[](includes/5-analyze-message-tracking.md)]

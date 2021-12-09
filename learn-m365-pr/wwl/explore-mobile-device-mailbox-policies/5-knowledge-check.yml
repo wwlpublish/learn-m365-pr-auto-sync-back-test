@@ -1,0 +1,52 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.explore-mobile-device-mailbox-policies.knowledge-check
+title: Knowledge check
+metadata:
+  title: Knowledge check
+  description: "Knowledge check"
+  ms.date: 11/22/2021
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 6
+content: |
+  [!include[](includes/5-knowledge-check.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "As the Messaging admin for Contoso, Holly Dickson wants to configure Mobile Device Management (MDM) for Microsoft 365 not only on its Windows devices, but also on its users' iOS devices such as iPads and iPhones. What must Holly do to manage Contoso's iOS devices in MDM for Microsoft 365?"
+    choices:
+    - content: "Add two publicly accessible DNS CNAME records in Contoso's custom public DNS zone that point to MDM for Microsoft 365"
+      isCorrect: false
+      explanation: "That's incorrect. This must be done to configure MDM for Microsoft 365, but it isn't what Holly must do to configure iOS devices in MDM for Microsoft 365. Try again."
+    - content: "Configure an APNS certificate in the Azure portal"
+      isCorrect: true
+      explanation: "That's correct. iOS devices such as iPads and iPhones can be managed in Mobile Device Management for Microsoft 365. To do so, you must create an APNS certificate or token in the Azure portal."
+    - content: "Enroll the iOS devices in Microsoft Intune"
+      isCorrect: false
+      explanation: "That's incorrect. This action isn't what Holly must do to manage Contoso's iOS devices in MDM for Microsoft 365. Try again."
+  - content: "Lucerne Publishing has recently enrolled its users' mobile devices in Mobile Device Management (MDM) for Microsoft 365. What was the impact of this action on these mobile devices?"
+    choices:
+    - content: "Both the Exchange ActiveSync and MDM mailbox policies and access rules are applied to each enrolled device"
+      isCorrect: false
+      explanation: "That's incorrect. This action isn't what happens as a result of enrolling mobile devices on MDM for Microsoft 365. Try again."
+    - content: "Multifactor authentication is automatically configured for the enrolled devices"
+      isCorrect: false
+      explanation: "That's incorrect. Devices enrolled into MDM for Microsoft 365 aren't automatically configured for MFA. Try again."
+    - content: "Any Exchange ActiveSync mobile device mailbox policies or device access rules applied to the enrolled devices will be ignored"
+      isCorrect: true
+      explanation: "That's correct. Policies and access rules created in MDM for Microsoft 365 override both Exchange ActiveSync mobile device mailbox policies and device access rules created in the Exchange Admin Center. After a device is enrolled in MDM for Microsoft 365, any Exchange ActiveSync mobile device mailbox policy or device access rule applied to the device will be ignored."
+  - content: "Fabrikam recently installed Exchange Server 2019. Which of the following items occurred as a result of this installation?"
+    choices:
+    - content: "A default mobile device mailbox policy was created"
+      isCorrect: true
+      explanation: "That's correct. When you install Exchange Server or provision Exchange Online, a default mobile device mailbox policy is created. Users are then automatically assigned this policy."
+    - content: "Exchange ran Direct Push to sync new content to each mobile device"
+      isCorrect: false
+      explanation: "That's incorrect. Exchange doesn't automatically run Direct Push. Try again."
+    - content: "All mobile devices are automatically synchronized with Exchange Server"
+      isCorrect: false
+      explanation: "That's incorrect. Users must manually synchronize their mobile devices with Exchange Server. Try again."

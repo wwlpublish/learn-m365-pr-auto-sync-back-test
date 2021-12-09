@@ -10,7 +10,7 @@ Sensitive information types are based on patterns, supporting evidence, characte
 
 The built-in sensitive information types are described using these characteristics:
 
-### Format
+#### Format
 
 General description of sensitive information type. Here are three examples:
 
@@ -18,7 +18,7 @@ General description of sensitive information type. Here are three examples:
 - Nine digits with optional forward slash (old format) 10 digits with optional forward slash (new format)
 - One letter (in English) followed by nine digits
 
-### Pattern
+#### Pattern
 
 Adds more detail to **Format**. An example of a pattern is one letter (in English) followed by nine digits:
 
@@ -26,11 +26,11 @@ Adds more detail to **Format**. An example of a pattern is one letter (in Englis
 - The digit "1" or "2"
 - Eight digits
 
-### Checksum
+#### Checksum
 
 Some sensitive information types use checksums for error detection, while others don't.
 
-### Keywords
+#### Keywords
 
 **Text-based** words or phrases that typically act as supporting evidence to confirm a pattern match. Here are some examples:
 
@@ -38,7 +38,7 @@ Some sensitive information types use checksums for error detection, while others
 - License number
 - Patient number
 
-### Definition
+#### Definition
 
 The confidence level, stated in percentage terms, in which Microsoft 365 has detected a sensitive information type based on a set of conditions being met within a specific character proximity. A sensitive information type can have more than one definition, each with a different confidence level. Conditions are based on:
 
@@ -68,7 +68,7 @@ The image below shows the policy template selection screen from the retention la
 - EU Debit Card Number
 - SWIFT Code
 
-  ![Policy template selection screen](../media/select-template.png)
+:::image type="content" source="../media/select-template.png" alt-text="Screenshot shows Policy template selection screen." lightbox="../media/select-template.png":::
 
 ## Sensitive information types
 

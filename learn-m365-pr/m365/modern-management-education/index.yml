@@ -1,0 +1,40 @@
+### YamlMime:Module
+uid: learn-m365.modern-management-education
+metadata:
+  title: Move to cloud management for education with Microsoft 365
+  description: Learn about the optimal path for moving your K-12 school or district's Windows devices from on-premises device management to cloud management with Microsoft 365.
+  ms.date: 10/05/2021
+  author: lizap
+  ms.author: elizapo
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Move to easy cloud-based modern management for education with Microsoft 365
+summary: Learn about the optimal path for moving your K-12 school or district's Windows devices from on-premises device management to cloud-based modern management with Microsoft 365.
+abstract: |
+ After completing this module, you’ll be able to: 
+ - Migrate identities to the cloud via Azure Active Directory with School Data Sync
+ - Set up your Microsoft 365 tenant to fit the needs of your school
+ - Enroll devices at scale with either Windows Autopilot or the Set up School PCs app
+ - Deploy the right apps and policies to all devices 
+
+prerequisites: | 
+   - Familiarity with Windows 10 and Microsoft 365 Apps
+iconUrl:  /learn/achievements/education-modern-management.svg
+ratingEnabled: true
+levels:
+- beginner
+roles:
+- administrator
+products:
+- m365
+units:
+- learn-m365.modern-management-education.introduction
+- learn-m365.modern-management-education.identity
+- learn-m365.modern-management-education.setup
+- learn-m365.modern-management-education.enroll-devices
+- learn-m365.modern-management-education.deploy-apps-policies
+- learn-m365.modern-management-education.knowledge-check
+- learn-m365.modern-management-education.summary
+
+badge: 
+  uid: learn-m365.modern-management-education.badges

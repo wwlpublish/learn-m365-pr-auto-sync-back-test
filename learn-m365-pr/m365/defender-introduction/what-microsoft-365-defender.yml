@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-m365-pr.defender-introduction.what-microsoft-365-defender
+title: What is Microsoft 365 Defender?
+metadata:
+  unitType: learning-content
+  title: What is Microsoft 365 Defender?
+  description: Learn about Microsoft 365 Defender and how it works.
+  ms.date: 08/12/2021
+  author: beccarobins
+  ms.author: beccarobins
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 4
+content: |
+  [!include[](includes/what-microsoft-365-defender.md)]

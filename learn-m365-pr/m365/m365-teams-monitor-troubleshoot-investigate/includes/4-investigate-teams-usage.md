@@ -26,28 +26,34 @@ The reports available from the Teams admin center are:
 
 - Apps usage
 - PSTN blocked users
+- PSTN minute and SMS (preview)
 - PSTN and SMS (preview)
 - Teams device usage
 - Teams live event usage
 - Teams usage
 - Teams user activity
+- Information protection license
 
-The Teams live event usage report includes event status, start time, views, and production type for each event. You'll gain insight into usage trends and see who in your organization schedules, presents, and produces live events.
+The **Apps usage report** shows app usage over 7, 30 or 90 days.  This allows trends to be identified to see what apps users are using to identify trends in order that more effective business decisions can be made.
 
-:::image type="content" source="../media/4-user-activity.png" alt-text="Teams user activity":::
+<div class="centered">
 
-The PSTN blocked users report displays the users in your organization who are blocked from making PSTN calls in Teams. You can view more information about each blocked user, including their assigned phone number and the reason they were blocked from making calls.
+:::image type="content" source="../media/live-events-small.png" alt-text="Screenshot showing the app usage report" lightbox="../media/live-events.png":::
 
-The PSTN minute pools report shows an overview of audio conferencing and calling activity in your organization by displaying the number of minutes consumed during the current month. You can see a breakdown of activity including the license used for calls, total minutes available, used minutes, and license usage by location.
+</div>
 
-The PSTN usage report displays an overview of calling and audio-conferencing activity in your organization. You can view detailed calling activity for Teams Calling Plans if you use Microsoft as your telephony carrier, or for Direct Routing if you use your own telephony carrier.
+The **PSTN blocked users report** displays the users in your organization who are blocked from making PSTN calls in Teams. You can view more information about each blocked user, including their assigned phone number and the reason they were blocked from making calls.
 
-More reports are being added, including the ones already in preview. See the Teams documentation for details.
+The **PSTN minute pools report** shows an overview of audio conferencing and calling activity in your organization by displaying the number of minutes consumed during the current month.
 
-## Learn more
+The **PSTN & SMS report** displays an overview of calling and audio-conferencing activity in your organization. You can view detailed calling activity for Teams Calling Plans if you use Microsoft as your telephony carrier, or for Direct Routing if you use your own telephony carrier.
 
-- [Monitor usage and feedback in Microsoft Teams](/microsoftteams/get-started-with-teams-monitor-usage-and-feedback)
-- [Microsoft Teams analytics and reporting](/microsoftteams/teams-analytics-and-reports/teams-reporting-reference)
-- [Use activity reports for Microsoft Teams](/microsoftteams/teams-activity-reports)
-- [Microsoft Teams live event usage report](/microsoftteams/teams-analytics-and-reports/teams-live-event-usage-report)
-- [Microsoft Teams PSTN usage report](/microsoftteams/teams-analytics-and-reports/pstn-usage-report)
+The **Teams device report** shows how users have accessed teams by device type.
+
+The **Teams live event usage report** includes event status, start time, views, and production type for each event. You'll gain insight into usage trends and see who in your organization schedules, presents, and produces live events.
+
+The **Teams usage report** gives a breakdown of usage by team showing information such as the active number of users, active channels and channel messages.
+
+The **Teams user activity report** gives an insight to how users spend time in teams, for example, the number or one to one meetings, groups calls, screen, audio, and video meeting.
+
+The **Information protection license report** lists apps that are subscribed to change notifications and shows the number of notifications triggered by user.

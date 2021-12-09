@@ -5,8 +5,8 @@ metadata:
   title: Configure communication compliance for monitoring
   description: Learn how to use communication compliance features in Microsoft Teams to spot and prevent offensive communications.
   ms.date: 07/16/2021
-  ms.author: elizapo
-  author: lizap
+  ms.author: teleary
+  author: temanteleary
   ms.topic: interactive-tutorial
   ms.prod: learning-teams
 durationInMinutes: 5

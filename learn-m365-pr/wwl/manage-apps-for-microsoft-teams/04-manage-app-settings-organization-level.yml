@@ -1,0 +1,31 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.manage-apps-for-microsoft-teams.manage-app-settings-organization-level
+title: Manage app settings at the organization level
+metadata:
+  title: Manage app settings at the organization level
+  description: "Manage app settings at the organization level"
+  ms.date: 09/18/2021
+  author: wwlpublish
+  ms.author: jennyche
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+sandbox: false
+labModal: false
+durationInMinutes: 7
+content: |
+  [!include[](includes/04-manage-app-settings-organization-level.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "John is the IT Administrator in Contoso Ltd. John recently publishes and distributes a custom LOB application to Salespeople's Teams client. The sales lead complains that users have to review and accept the permissions requested by the app when they start the app. What should John do to improve the user experience?"
+    choices:
+    - content: "Configure app permission policy"
+      isCorrect: false
+      explanation: "That's incorrect. App permission policy doesn't control the permissions request from custom or third-party apps. Try again."
+    - content: "Configure app permissions"
+      isCorrect: true
+      explanation: "That's correct. The global admin can review and grant consent to apps that request permissions on behalf of all users in the organization."
+    - content: "Configure app setup policy"
+      isCorrect: false
+      explanation: "That's incorrect. App setup policy doesn't control the permissions request from custom or third-party apps. Try again."

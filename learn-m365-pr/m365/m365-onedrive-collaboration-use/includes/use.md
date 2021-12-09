@@ -4,15 +4,15 @@ There are multiple ways to interact with files in OneDrive, and it is important 
 
 To access OneDrive from Office.com, users can browse to it from the **app launcher**.
 
-![To access OneDrive from Office.com, users can browse to it from the app launcher](../media/app-launcher.png)
+:::image type="content" source="../media/app-launcher.png" alt-text="To access OneDrive from Office.com, users can browse to it from the app launcher":::
 
 In the OneDrive mobile app, users can add their work or school account and easily switch between accounts.
 
-![In the OneDrive mobile app, users can add their work or school account and easily switch between accounts](../media/switch-accounts.png)
+:::image type="content" source="../media/switch-accounts.png" alt-text="In the OneDrive mobile app, users can add their work or school account and easily switch between accounts":::
 
 If OneDrive files are synced to a user's device, they are accessible in File Explorer under **OneDrive – [your company]**.
 
-![If OneDrive files are synced to a user's device, they are accessible in File Explorer under OneDrive – [your company]](../media/file-explorer.png)
+:::image type="content" source="../media/file-explorer.png" alt-text="If OneDrive files are synced to a user's device, they are accessible in File Explorer under OneDrive – [your company]":::
 
 ## Should users save files in OneDrive, SharePoint, or Teams?
 

@@ -4,12 +4,12 @@ title: Summary
 metadata:
   unitType: summary
   title: Summary
-  description: Here, you'll review what you've learnt about attack surface reduction in Microsoft Defender for Endpoint.
+  description: Here, you'll review what you've learned about attack surface reduction in Microsoft Defender for Endpoint.
   ms.date: 07/16/2021
-  author: alistairmatthews
+  author: beccarobins
   ms.author: beccarobins
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-durationInMinutes: 5
+durationInMinutes: 1
 content: |
   [!include[](includes/summary.md)]

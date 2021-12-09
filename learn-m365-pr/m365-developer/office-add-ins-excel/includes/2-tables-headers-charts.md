@@ -2,7 +2,7 @@ The Excel JavaScript API makes programmatic control over text, tables, and chart
 
 ## Office developer platform overview
 
-The Microsoft 365 developer platform platform, which includes Office, offers many canvases for developers to embed customizations and Office add-ins are one of three canvases: documents, conversations  and pages.
+The Microsoft 365 developer platform, which includes Office, offers many canvases for developers to embed customizations and Office add-ins are one of three canvases: documents, conversations  and pages.
 
 Microsoft Teams makes conversations between users and enables developers to extend the experience using messaging extensions, conversational bots, and other customization options.
 
@@ -44,7 +44,7 @@ Many objects within a worksheet can be accessed directly from the workbook objec
 
 Worksheets are aware of their siblings using `getNext()` and `getPrevious()` methods.
 
-You can get the active worksheet using the `workbook.worksheets.getActiveWorkshee()` method and set the active worksheet using `worksheet.activate()` method.
+You can get the active worksheet using the `workbook.worksheets.getActiveWorksheet()` method and set the active worksheet using `worksheet.activate()` method.
 
 Office.js also offers many worksheet events such as `onActivated`, `onDeactivated`, and `onSelectionChanged` that developers can use in their custom add-ins.
 

@@ -4,16 +4,15 @@ To use FSLogix to separate user profiles from the session host virtual machines 
 
 1. Sign in to the [Azure portal](https://portal.azure.com?azure-portal=true).
 1. Search for **Storage accounts** by using the Azure portal search box.
-1. In **Storage accounts**, select **Add**.
-1. Select or create a resource group to contain your storage resources.
-1. Enter a unique name for your Storage account.
-1. Accept the defaults for the rest of the values.
+1. In **Storage accounts** command bar, select **Create**. The **Create a storage account** page appears.
+1. Under *Project Details* select the **Subscription**, and then select or create a **Resource group** to contain your storage resources.
+1. Under *Instance details*, enter a unique name for your Storage account, and accept the defaults for the rest of the values.
 
    :::image type="content" source="../media/3-create-storage-account.png" alt-text="Screenshot of the create storage account experience with resource group selected and a storage account name entered.":::
 
-1. Select **Review + create** and then select **Create**.
+1. Select **Review + create** to validate your inputs, and then select **Create**.
 1. Wait for the deployment to complete. This may take a minute.
-1. Select **Go to resource**.
+1. Select **Go to resource**. The **Storage account** page displays details about your storage account.
 
 ## Enable Azure Active Directory authentication
 
@@ -21,7 +20,7 @@ The following steps cover how to enable authentication for Azure file shares wit
 
 ### Enable authentication for Azure file shares with Azure AD DS
 
-1. In the storage account you created, under **Settings**, select **Configuration**.
+1. In the Storage account menu, scroll to **Settings**, and then select **Configuration**.
 1. Under **Identity-based access for file shares**, enable the **Azure Active Directory Domain Services (AAD DS)** option.
 
     :::image type="content" source="../media/3-enable-storage-account-aadds.png" alt-text="Screenshot that shows the storage account configuration page with the Azure Active Directory Domain Services (AAD DS) option enabled.":::
@@ -37,12 +36,16 @@ Give the administrators the ability to modify NTFS permissions by assigning an e
 
 1. In the storage account you created, select **Access control (IAM)**.
 1. Select **Add** > **Add role assignment**.
-1. For **Role**, select **Storage File Data SMB Share Elevated Contributor**.
+1. For **Role**, search for and select **Storage File Data SMB Share Elevated Contributor**.
+1. Select **Next**.
+1. On the **Members** tab, accept the default **Assign access to** option: User, group, or service principal.
+
+    :::image type="content" source="../media/3-add-role-assignment.png" alt-text="Screenshot that shows member tab with selected role and the default assigned to field selected.":::
+
+1. Select **+ Select members**.
 1. Select **AAD DC Administrators**.
-
-    :::image type="content" source="../media/3-add-role-file-data-elevated.png" alt-text="Screenshot that shows the role and AAD DC Administrators selected.":::
-
-1. Select **Save**.
+1. Select **Review + assign**.
+1. To complete the role assignment,select **Review + assign**.
 
 ### Assign role to non-administrator Azure Virtual Desktop users
 
@@ -50,11 +53,12 @@ Assign users a contributor role so they have permission to read and write file d
 
 1. Select **Add** > **Add role assignment**.
 1. For **Role**, select **Storage File Data SMB Share Contributor**.
+1. Select **Next**.
+1. On the **Members** tab, accept the default **Assign access to** option: User, group, or service principal.
+1. Select **+ Select members**.
 1. Select each Azure Virtual Desktop user.
-
-    :::image type="content" source="../media/3-add-role-file-data-contributor.png" alt-text="Screenshot that shows the role and Azure Virtual Desktop user selected.":::
-
-1. Select **Save**.
+1. Select **Review + assign**.
+1. To complete the role assignment,select **Review + assign**.
 
 ## Create a file share to store the user profile virtual disks
 

@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.create-manage-teams.create-teams
+title: Create teams
+metadata:
+  title: Create teams
+  description: "Create teams"
+  ms.date: 10/25/2021
+  author: wwlpublish
+  ms.author: jennyche
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 6
+content: |
+  [!include[](includes/02-create-teams.md)]

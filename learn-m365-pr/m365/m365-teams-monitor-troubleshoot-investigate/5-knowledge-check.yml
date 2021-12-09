@@ -5,8 +5,8 @@ metadata:
   title: Knowledge check
   description: Check your knowledge
   ms.date: 09/14/2020
-  ms.author: elizapo
-  author: lizap
+  ms.author: teleary
+  author: temanteleary
   ms.topic: interactive-tutorial
   ms.prod: learning-teams
 durationInMinutes: 3
@@ -30,14 +30,14 @@ quiz:
   - content: "You want to find out how many users are currently active in Teams. Which report should you consult?"
     choices:
     - content: Teams live event usage
-      isCorrect: true
-      explanation: "That's correct. The Teams live event usage report shows how many users are currently active on Teams."
+      isCorrect: false
+      explanation: "The Teams live event usage report shows the activity overview for Live Events held in the Organization."
     - content: Teams user activity
       isCorrect: false
-      explanation: That's incorrect. The Teams activity report shows usage for a date range, but doesn't show current users."
+      explanation: That's incorrect. The Teams activity report the different type of activities that users undertake in Teams."
     - content: Teams usage
-      isCorrect: false
-      explanation: "That's incorrect. The Teams usage report shows usage for a date range, but doesn't show current users."  
+      isCorrect: true
+      explanation: "Yes, the Teams usage report gives details of the number of active users with the Organization who are using Teams."  
 
   - content: "A user has a problem logging in to Teams using their Windows laptop. Which of the following logs should you examine to diagnose the problem?"
     choices:

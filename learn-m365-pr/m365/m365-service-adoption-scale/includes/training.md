@@ -1,8 +1,8 @@
->![Awareness and training](../media/awareness.png)
+:::image type="content" source="../media/awareness.png" alt-text="A slide showing the components of awareness and training. Awareness, Engagement, Measurement, and Management. These are described below." border="false":::
 
 Marketing and communications capabilities will enable your employees to be aware of the new services you are delivering and know how to get assistance with using them to their best benefit. Using the methods of omni-directional marketing you will land these core messages in places your employees already are. This includes email announcements, intranet articles, staff meetings, executive events, and other communications methods.
 
-Your awareness campaign should design key messages by audience. It is important to discuss the change from the perspective of the employee not the IT or change management professional. You will use your simplified pain point research to craft these messages. Using the [Microsoft Teams Customer Success Kit](https://download.microsoft.com/download/A/E/9/AE984CD4-CF4B-41E7-9ABD-6735E3F01897/MicrosoftTeamsCustomerSuccessKit.zip), or kits for other services, you can accelerate this messaging by editing the provided templates for use in your company and with your branding.
+Your awareness campaign should design key messages by audience. It is important to discuss the change from the perspective of the employee not the IT or change management professional. You will use your simplified pain point research to craft these messages. Using the [Microsoft Teams Customer Success Kit](https://aka.ms/TeamsCustomerSuccess), or kits for other services, you can accelerate this messaging by editing the provided templates for use in your company and with your branding.
 
 The four elements of an awareness and engagement plan are:
 
@@ -11,4 +11,4 @@ The four elements of an awareness and engagement plan are:
 3. **Measurement - Analyze and adjust:** Usage, support, and health reporting from administrator experiences and feedback tools. Measurements also include training asset use and class attendance; reach or impressions of online articles & videos and activity within internal social networks.
 4. **Management - Improve the experience:** Adjustments to the experience, messaging, and training assets to continually improve usage and health. The analysis of your measurements will tell you what is and isn't working. Do not expect everything to work all the time. In Agile project management, work is done in shorter sprints or segments so that you can easily adjust. For instance, looking at the users who engaged with champions or attended training you may find less help desk tickets and deeper usage. You can speak with these individuals for success stories to encourage others to do the same behavior. Or potentially your classes are not getting good satisfaction surveys. This data can help you to adjust them quickly rather than only finding out at the end of a 90-day training program that it was not satisfactory.
 
->![Downloadable resources](../media/resources.png)
+[:::image type="content" source="../media/resources.png" alt-text="A slide showing the downloadable resources like project plans, flyers, posters, email templates, and presentations from https://aka.ms/TeamsSuccessKit" border="false":::](https://aka.ms/TeamsCustomerSuccess)

@@ -8,10 +8,10 @@ Reporting in the Microsoft 365 Defender portal is split up into four categories:
 In the **Identities** category of Reports, you can track:
 
 - Users with the most detected anomalies
-- How many users are reported at risk by conditional access policies
+- How many users are reported at risk by Conditional Access policies
 - The number of global admins in your org
 
-![Identities reports](../media/identities.png)
+:::image type="content" source="../media/identities.png" alt-text="Screenshot showing identities reports in the Microsoft 365 Defender portal." lightbox="../media/identities.png":::
 
 The **Data** category helps track user activity that could lead to unauthorized data disclosure. You can see:
 
@@ -20,7 +20,7 @@ The **Data** category helps track user activity that could lead to unauthorized 
 - How many DLP policies overrides or false positives are reported
 - How many DLP policy matches happened in 3rd-party cloud services via Microsoft Cloud App Security
 
-![Data reports](../media/data.png)
+:::image type="content" source="../media/data.png" alt-text="Screenshots showing data reports in the Microsoft 365 Defender portal." lightbox="../media/data.png":::
 
 The **Device** category ensures devices are secure, up-to-date, and that you can spot potential threats. You can see:
 
@@ -28,7 +28,7 @@ The **Device** category ensures devices are secure, up-to-date, and that you can
 - Intune enrolled device data such as: device compliance, devices with active malware, and types of malware on devices
 - Attack Surface Reduction rules, which help prevent actions that are used by exploit-seeking malware
 
-![Device compliance and malware detection reports](../media/device-reports.png)
+:::image type="content" source="../media/device-reports.png" alt-text="Screenshot showing device compliance and malware detection reports in the Microsoft 365 Defender portal.":::
 
 The **App** category provides more insight into how cloud apps are being used in your organization, including what kinds of apps, their level of risk, and alerts.
 
@@ -40,4 +40,7 @@ This includes:
 - Cloud app activity locations
 - **Azure Security Center** alerts signaling infrastructure health
 
-![Cloud Security and Discovered Cloud Apps reports](../media/app-reports.png)
+:::image type="content" source="../media/app-reports.png" alt-text="Screenshot showing Cloud Security and Discovered Cloud Apps reports in the Microsoft 365 Defender portal.":::
+
+> [!NOTE]
+> The report sections described here are visible at the time of writing. Microsoft regularly updates both the information available in the security report and the other reports available in the portal. If you find that some information is no longer available in the security report, it may have been moved into one of the other reports.

@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-m365-pr.defender-office-365-explore.introduction
+title: Introduction
+metadata:
+  unitType: introduction
+  title: Introduction 
+  description: Learn about how to customize security policies with Microsoft Defender for Office 365.  
+  ms.date: 08/12/2021
+  author: beccarobins
+  ms.author: beccarobins
+  ms.topic: interactive-tutorial 
+  ms.prod: learning-m365
+durationInMinutes: 1 
+content: |
+  [!include[](includes/introduction.md)]

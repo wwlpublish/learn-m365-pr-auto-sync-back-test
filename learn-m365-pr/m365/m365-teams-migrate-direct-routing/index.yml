@@ -3,9 +3,9 @@ uid: learn-m365.teams.migrate-direct-routing
 metadata:
   title: Migrate to Direct Routing in Teams
   description: Plan, execute, and complete a migration of an on-premises Skype for Business Server telephony system to Teams Direct Routing.
-  ms.date: 09/15/2020
-  author: lizap
-  ms.author: elizapo
+  ms.date: 07/16/2021
+  author: temanteleary
+  ms.author: teleary
   ms.topic: interactive-tutorial
   ms.prod: learning-teams
 title: Migrate to Direct Routing in Teams

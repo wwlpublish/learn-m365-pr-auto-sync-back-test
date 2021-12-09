@@ -9,7 +9,7 @@ metadata:
   ms.date: 07/14/2021
   author: lizap
   ms.author: elizapo
-  ms.topic: interactive-tutorial # do we need ms.topic?
+  ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Introduction to delivering virtual events using Microsoft Teams and Microsoft 365
 summary:  | 
@@ -24,7 +24,7 @@ abstract: | # user input: learning objectives (https://review.docs.microsoft.com
     - Understand the importance of the event design model
     - Explain the different platform requirements
 prerequisites: None
-iconUrl: /learn/achievements/generic-badge.svg
+iconUrl: /learn/achievements/introduction-to-delivering-virtual-events-using-microsoft-teams.svg
 levels: # user input: add levels from level taxonomy (https://review.docs.microsoft.com/help/contribute/metadata-taxonomies?branch=master#level)
   - beginner
 roles: # user input: add roles from role taxonomy (https://review.docs.microsoft.com/help/contribute/metadata-taxonomies?branch=master#role)

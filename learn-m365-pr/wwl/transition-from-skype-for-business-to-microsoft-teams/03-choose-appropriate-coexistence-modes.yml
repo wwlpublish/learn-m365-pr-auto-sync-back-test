@@ -1,0 +1,30 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.transition-from-skype-for-business-to-microsoft-teams.choose-appropriate-coexistence-modes
+title: Choose appropriate coexistence modes
+metadata:
+  title: Choose appropriate coexistence modes
+  description: "Choose appropriate coexistence modes"
+  ms.date: 10/25/2021
+  author: wwlpublish
+  ms.author: jennyche
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 8
+content: |
+  [!include[](includes/03-choose-appropriate-coexistence-modes.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "In which coexistence mode can users run Microsoft Teams alongside Skype for Business as two separate solutions that deliver similar and overlapping capabilities?"
+    choices:
+    - content: "Islands"
+      isCorrect: true
+      explanation: "That's correct. When you create a sensitivity label, you're asked to configure the label's scope, which determines two things - which label settings you can configure for that label, and where the label will be visible to users."
+    - content: "Skype for Business with Teams Collaboration"
+      isCorrect: false
+      explanation: "That's incorrect. This mode introduces Teams in your environment while you continue to use your existing investment in Skype for Business. Try again."
+    - content: "Skype for Business with Teams Collaboration and Meetings"
+      isCorrect: false
+      explanation: "That's incorrect. This coexistence mode accelerates the availability of Teams meeting and collaboration capabilities in an organization. This coexistence mode lets your users take advantage of the superior Teams meetings experience. Try again."

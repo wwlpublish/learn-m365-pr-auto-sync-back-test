@@ -15,7 +15,7 @@ You'll use Node.js to create the custom Word add-in in this module. The exercise
 - [Node.js](https://nodejs.org/) - (*the latest [LTS](https://nodejs.org/about/releases) version*)
 - NPM (installed with Node.js) - v6.x (or higher)
 - [Yeoman](https://yeoman.io/) - v3.x (or higher)
-- [Yeoman Generator for Microsoft Office](https://github.com/OfficeDev/generator-office) - v1.7.x (or higher)
+- [Yeoman Generator for Microsoft Office](https://github.com/OfficeDev/generator-office) - v1.8.x (or higher)
 - [Visual Studio Code](https://code.visualstudio.com)
 
 You must have the minimum versions of these prerequisites installed on your workstation.
@@ -61,7 +61,7 @@ You learned in a previous unit that an Office Add-in must have an associated Azu
 Before you can test the project, you'll need to register the Azure AD application and then update the project to use the Azure AD application.
 
 > [!TIP]
-> For details on registering the Azure AD application manually, see: **[Create a Node.js Office Add-in that uses single sign-on: Register the add-in with Azure AD v2.0 endpoint](https://docs.microsoft.com/office/dev/add-ins/develop/create-sso-office-add-ins-nodejs#register-the-add-in-with-azure-ad-v20-endpoint)**.
+> For details on registering the Azure AD application manually, see: **[Create a Node.js Office Add-in that uses single sign-on: Register the add-in with Azure AD v2.0 endpoint](/office/dev/add-ins/develop/create-sso-office-add-ins-nodejs#register-the-add-in-with-azure-ad-v20-endpoint)**.
 
 The Office Add-in project includes a utility that can create the Azure AD app registration and update the project.
 
@@ -83,7 +83,7 @@ After authenticating, the script will perform the following tasks:
 ![Screenshot of running and the output from the configure-sso script](../media/03-configure-sso.png)
 
 > [!WARNING]
-> The **configure-sso** command will fail if your Azure AD tenant is configured for multi-factor authentication (MFA)/two-factor authentication. In this case, you'll need manually create the Azure AD app registration as outlined in the **[Create a Node.js Office Add-in that uses single sign-on: Register the add-in with Azure AD v2.0 endpoint](https://docs.microsoft.com/office/dev/add-ins/develop/create-sso-office-add-ins-nodejs#register-the-add-in-with-azure-ad-v20-endpoint)** article.
+> The **configure-sso** command will fail if your Azure AD tenant is configured for multi-factor authentication (MFA)/two-factor authentication. In this case, you'll need manually create the Azure AD app registration as outlined in the **[Create a Node.js Office Add-in that uses single sign-on: Register the add-in with Azure AD v2.0 endpoint](/office/dev/add-ins/develop/create-sso-office-add-ins-nodejs#register-the-add-in-with-azure-ad-v20-endpoint)** article.
 
 Let's examine the work the **configure-sso** script performed.
 

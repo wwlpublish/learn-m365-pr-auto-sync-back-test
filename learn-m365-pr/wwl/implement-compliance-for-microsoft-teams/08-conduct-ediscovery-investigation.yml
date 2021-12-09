@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.implement-compliance-for-microsoft-teams.conduct-ediscovery-investigation
+title: Conduct an eDiscovery investigation for Teams content
+metadata:
+  title: Conduct an eDiscovery investigation for Teams content
+  description: "Conduct an eDiscovery investigation for Teams content"
+  ms.date: 10/25/2021
+  author: wwlpublish
+  ms.author: jennyche
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 8
+content: |
+  [!include[](includes/08-conduct-ediscovery-investigation.md)]

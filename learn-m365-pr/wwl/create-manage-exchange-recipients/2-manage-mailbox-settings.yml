@@ -1,0 +1,30 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.create-manage-exchange-recipients.manage-mailbox-settings
+title: Manage mailbox settings
+metadata:
+  title: Manage mailbox settings
+  description: "Manage mailbox settings"
+  ms.date: 11/24/2021
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 9
+content: |
+  [!include[](includes/2-manage-mailbox-settings.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "As the Messaging administrator for Contoso, Holly Dickson disabled the user mailbox for Patti Fernandez. Which of the following items results from this action?"
+    choices:
+    - content: "All Exchange attributes are removed from Patti's user account in Active Directory"
+      isCorrect: true
+      explanation: "This answer is correct. When a mailbox is disabled, all Exchange attributes are removed from the associated user account in Active Directory."
+    - content: "Patti's disabled mailbox is still visible"
+      isCorrect: false
+      explanation: "This answer is incorrect. When a mailbox is disabled, the disabled mailbox is then hidden and marked for removal. Try again."
+    - content: "Patti's AD user account is disabled and Patti can't sign into the domain"
+      isCorrect: false
+      explanation: "This answer is incorrect. When a mailbox is disabled, the user in Active Directory isn't disabled and can still sign into the domain. Try again."

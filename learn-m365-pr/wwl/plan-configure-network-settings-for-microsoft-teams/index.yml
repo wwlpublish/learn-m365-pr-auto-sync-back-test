@@ -1,0 +1,44 @@
+### YamlMime:Module
+uid: learn.wwl.plan-configure-network-settings-for-microsoft-teams
+metadata:
+  title: Plan and configure network settings for Microsoft Teams
+  description: "Plan and configure network settings for Microsoft Teams"
+  ms.date: 10/26/2021
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Plan and configure network settings for Microsoft Teams
+summary: Learn about the network requirements for Microsoft Teams and associated settings, including Network Planner, Quality of Service (QoS), configuration for location-enhanced reports, and Microsoft 365 network connectivity test tool.
+abstract: |
+  By the end of this module, you will be able to:
+  - Explain the network requirements of Microsoft Teams.
+  - Work with the Network Planner tool.
+  - Utilize the Network Test Companion.
+  - Describe the required network ports and protocols.
+  - Configure reporting labels for Microsoft Teams.
+  - Implement Quality of Service in your environment.
+prerequisites: |
+  - A proficient understanding of basic functional experience with Microsoft 365 services.
+  - A proficient understanding of general IT practices, including using PowerShell.
+iconUrl: /learn/achievements/teams-network-settings.svg
+levels:
+- intermediate
+roles:
+- administrator
+products:
+- m365
+- office-teams
+units:
+- learn.wwl.plan-configure-network-settings-for-microsoft-teams.introduction
+- learn.wwl.plan-configure-network-settings-for-microsoft-teams.examine-network-requirements
+- learn.wwl.plan-configure-network-settings-for-microsoft-teams.plan-for-network-deployment-using-network-planner
+- learn.wwl.plan-configure-network-settings-for-microsoft-teams.configure-network-ports-protocols
+- learn.wwl.plan-configure-network-settings-for-microsoft-teams.implement-quality-service
+- learn.wwl.plan-configure-network-settings-for-microsoft-teams.configure-reporting-labels
+- learn.wwl.plan-configure-network-settings-for-microsoft-teams.configure-tenant-data
+- learn.wwl.plan-configure-network-settings-for-microsoft-teams.assess-network-readiness-using-network-connectivity-test-tool
+- learn.wwl.plan-configure-network-settings-for-microsoft-teams.knowledge-check
+- learn.wwl.plan-configure-network-settings-for-microsoft-teams.summary
+badge:
+  uid: learn.wwl.plan-configure-network-settings-for-microsoft-teams.badge

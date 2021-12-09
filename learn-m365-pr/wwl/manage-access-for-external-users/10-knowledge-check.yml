@@ -1,0 +1,52 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.manage-access-for-external-users.knowledge-check
+title: Knowledge check
+metadata:
+  title: Knowledge check
+  description: "Knowledge check"
+  ms.date: 10/25/2021
+  author: wwlpublish
+  ms.author: jennyche
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 5
+content: |
+  [!include[](includes/10-knowledge-check.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "As the Teams administrator for Contoso, Holly Dickson wants to enable collaboration and communication with authenticated users outside the organization. Which of the following options should Holly set to enable access permission to users of an entire external domain?"
+    choices:
+    - content: "Guest access"
+      isCorrect: false
+      explanation: "That's incorrect. Guest access gives access permission to an individual. Guest access allows a user to invite people from outside your organization to join a team. Invited people get a guest account in Azure Active Directory.Try again."
+    - content: "External access"
+      isCorrect: true
+      explanation: "That's correct. External access enables access permission to users of an entire external domain. External access is a type of federation that allows users to find, call, chat, and set up meetings with people in other organizations."
+    - content: "Privileged Identity Management (PIM)"
+      isCorrect: false
+      explanation: "That's incorrect. PIM manages, controls, and monitors access within an organization. This feature includes access to resources in Azure AD and Azure, and other Microsoft Online Services, like Microsoft 365 and Intune. Try again."
+  - content: "As the Teams administrator for Tailspin Toys, Allan DeYoung wants to enable Tailspin users so they can invite people from outside the company to Teams meetings. Which of the following settings must be enabled?"
+    choices:
+    - content: "Guest access"
+      isCorrect: false
+      explanation: "That's incorrect. Guest access isn't required to invite people outside an organization to Teams meetings. Try again."
+    - content: "External access"
+      isCorrect: false
+      explanation: "That's incorrect. External access isn't required to invite people outside an organization to Teams meetings. Try again."
+    - content: "No setting must be enabled"
+      isCorrect: true
+      explanation: "That's correct. You can invite people outside your organization to Teams meetings without configuring external or guest access."
+  - content: "As the Teams administrator for Lucerne Publishing, Patti Fernandez wants guests to have access to Teams files and folders that are stored in SharePoint. Patti knows the SharePoint organization-level sharing settings must allow for sharing with guests. What other rule should Patti be aware of that affects file sharing in SharePoint?"
+    choices:
+    - content: "The Sharing permissions option must be set to Anyone"
+      isCorrect: false
+      explanation: "That's incorrect. This setting allows users to share files and folders by using links that let anyone who has the link access the files or folders without authenticating. Try again."
+    - content: "Site settings can't be more permissive than the organization-level settings"
+      isCorrect: true
+      explanation: "That's correct. The organization-level settings determine what settings are available for individual sites, including sites associated with teams. Site settings can't be more permissive than the organization-level settings."
+    - content: "The Sharing permissions option must be set to New and existing guests"
+      isCorrect: false
+      explanation: "That's incorrect. This setting requires people who have received invitations to sign in with their work or school account (if their organization uses Microsoft 365) or a Microsoft account, or to provide a code to verify their identity. Try again."

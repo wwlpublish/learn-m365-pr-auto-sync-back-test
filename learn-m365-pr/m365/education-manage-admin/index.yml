@@ -4,8 +4,8 @@ metadata:
   title: Manage scoped administration and delegation with Microsoft Intune and Intune for Education 
   description: Discover how to manage scoped administration and delegation with Microsoft Intune and Intune for Education. 
   ms.date: 06/02/2021
-  author: iankensey
-  ms.author: beccarobins
+  author: temanteleary
+  ms.author: teleary
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Manage scoped administration and delegation with Microsoft Intune and Intune for Education 
@@ -15,7 +15,7 @@ abstract: |
   - Discover how to Implement Role-Based Access Control with Microsoft Intune.
 prerequisites: |
  - Introduction to modern management in Microsoft 365 module.
-iconUrl: /learn/achievements/generic-badge.svg
+iconUrl: /learn/achievements/manage-scoped-administration-delegation-microsoft-intune-education.svg
 levels: 
 - beginner
 roles: 

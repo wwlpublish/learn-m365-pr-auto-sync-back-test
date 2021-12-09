@@ -5,8 +5,8 @@ metadata:
   title: Assess your environment for deployment
   description: Learn how assessments help you identify aspects of your environment that might need attention before you roll out Teams. 
   ms.date: 07/15/2021
-  ms.author: elizapo
-  author: lizap
+  ms.author: teleary
+  author: temanteleary
   ms.topic: interactive-tutorial
   ms.prod: learning-teams
 durationInMinutes: 4

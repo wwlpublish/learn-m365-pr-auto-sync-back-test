@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.configure-teams-phone-system.configure-emergency-calling-plans
+title: Configure emergency calling for Teams Calling Plans
+metadata:
+  title: Configure emergency calling for Teams Calling Plans
+  description: "Configure emergency calling for Teams Calling Plans"
+  ms.date: 11/08/2021
+  author: wwlpublish
+  ms.author: dahans
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 12
+content: |
+  [!include[](includes/2-configure-emergency-calling-plans.md)]

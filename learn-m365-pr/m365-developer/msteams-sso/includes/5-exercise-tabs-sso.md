@@ -22,7 +22,7 @@ You'll use Node.js to create a custom Microsoft Teams app in this module. The ex
 - NPM (installed with Node.js) - v6.\* (or higher)
 - [Gulp](https://gulpjs.com/) - v4.\* (or higher)
 - [Yeoman](https://yeoman.io/) - v3.\* (or higher)
-- [Yeoman Generator for Microsoft Teams](https://github.com/OfficeDev/generator-teams) - v3.0.\* (or higher)
+- [Yeoman Generator for Microsoft Teams](https://github.com/OfficeDev/generator-teams) - v3.2.0 (or higher)
 - [Visual Studio Code](https://code.visualstudio.com)
 
 You must have the minimum versions of these prerequisites installed on your workstation.
@@ -43,7 +43,7 @@ Yeoman will launch and ask you a series of questions. Answer the questions with 
 - **Where do you want to place the files?**: Use the current folder
 - **Title of your Microsoft Teams App project?**: SSO Teams Tab
 - **Your (company) name? (max 32 characters)**: Contoso
-- **Which manifest version would you like to use?**: v1.8
+- **Which manifest version would you like to use?**: v1.9
 - **Quick scaffolding**: Yes
 - **What features do you want to add to your project?**: A Tab
 - **The URL where you will host this solution?**: `https://REPLACE.ngrok.io`
@@ -54,6 +54,7 @@ Yeoman will launch and ask you a series of questions. Answer the questions with 
 - **Do you require Azure AD Single-Sign-On support for the tab?** Yes
 - **What is the Application ID to associate with the SSO Tab?**: *Enter the **Application (Client) ID** for the Azure AD application you registered in the previous exercise*
 - **What is the Application ID URI to associate with the SSO Tab?**: (Accept the default)
+- **Do you want this tab to be available in SharePoint Online?**: No
 
 > [!NOTE]
 > Most of the answers to these questions can be changed after creating the project. For example, the URL where the project will be hosted and Application ID URI must be changed when you start debugging your project using the ngrok utility.
@@ -72,13 +73,10 @@ The **./src/client** and **./src/public** folders represent the web app that imp
 
 Open the **./.env** file that contains the environment variables used by the project. Take note of the following properties that were set from the project creation process:
 
-- **HOSTNAME**: This is the fully qualified URL, excluding the protocol, you specified where the app would be hosted.
+- **PUBLIC_HOSTNAME**: This is the fully qualified URL, excluding the protocol, you specified where the app would be hosted.
 - **APPLICATION_ID**: This is the unique ID of the Microsoft Teams application.
-- **SSOTAB_APP_ID**: This is the Azure AD application (client) ID that you specified.
-- **SSOTAB_APP_URI** This is the Azure AD application ID URI you specified.
-
-> [!NOTE]
-> The prefix of the last two items in the above list is generated using the name of the tab you specified during the project creation process.
+- **TAB_APP_ID**: This is the Azure AD application (client) ID that you specified.
+- **TAB_APP_URI** This is the Azure AD application ID URI you specified.
 
 > [!IMPORTANT]
 > Each time ngrok starts, it generates a new dynamic subdomain for the URL. If you have to restart ngrok, you will need to repackage and and update the app in Microsoft Teams to make the installed app aware of the new URL. The optional licensed version of ngrok allows you to define and reuse the same subdomain.
@@ -113,7 +111,7 @@ useEffect(() => {
           message
         });
       },
-      resources: [process.env.SSOTAB_APP_URI as string]
+      resources: [process.env.TAB_APP_URI as string]
     });
   } else {
     setEntityId("Not in Microsoft Teams");
@@ -171,6 +169,12 @@ On the next screen, select the **Upload a custom app** link in the lower right c
 
 Locate and select the Microsoft Teams app package, found in the **./package** folder in your Visual Studio Code project to upload the app.
 
+> [!NOTE]
+> If the **./package** folder is not present, this means you are affected by a bug in the yoteams-deploy package. To resolve the issue:
+> - Stop the local web server by pressing <kbd>CTRL</kbd>+<kbd>C</kbd> in the console.
+> - Install the preview version of the **yoteams-deploy** package using the command `npm install yoteams-deploy@preview`
+> - Restart the server process: `gulp ngrok-serve`
+
 Microsoft Teams will display the details of the app in a dialog. Select the **Add** button to install the app into the current team:
 
 ![Screenshot installing a new tab, step 2](../media/05-add-tab-03.png)
@@ -198,15 +202,15 @@ To submit requests to Microsoft Graph, you must include an access token with the
 In your Microsoft Teams app project, locate and open the **./.env** file. At the end of the file, there are two environment variables that were set by the Yeoman generator when you created the project. Their names are based on the name of the project:
 
 ```text
-SSOTAB_APP_ID=...
-SSOTAB_APP_URI=...
+TAB_APP_ID=...
+TAB_APP_URI=...
 ```
 
 Add the following two properties after these two existing properties. Set the first to the Azure AD app's client secret you created in the previous exercise, and the second to the permissions defined by the app, separated by spaces:
 
 ```text
-SSOTAB_APP_SECRET=jFD.Od8qh3vNs-8OkN78ROGw_ovIT6rEh~
-SSOTAB_APP_SCOPES=https://graph.microsoft.com/User.Read email openid profile offline_access
+TAB_APP_SECRET=<CLIENT_SECRET>
+TAB_APP_SCOPES=https://graph.microsoft.com/User.Read email openid profile offline_access
 ```
 
 > [!TIP]
@@ -238,8 +242,8 @@ Add the following code before the lines you just found that set the listening po
 express.get("/exchangeSsoTokenForOboToken", async (req, res) => {
   log("getting access token for Microsoft Graph...");
 
-  const clientId = process.env.SSOTAB_APP_ID as string;
-  const clientSecret = process.env.SSOTAB_APP_SECRET as string;
+  const clientId = process.env.TAB_APP_ID as string;
+  const clientSecret = process.env.TAB_APP_SECRET as string;
   const ssoToken = req.query.ssoToken as string;
 
   // build Azure AD OAuth2 token endpoint
@@ -252,7 +256,7 @@ express.get("/exchangeSsoTokenForOboToken", async (req, res) => {
     client_secret: clientSecret,
     assertion: ssoToken,
     requested_token_use: "on_behalf_of",
-    scope: process.env.SSOTAB_APP_SCOPES
+    scope: process.env.TAB_APP_SCOPES
   };
 
   // convert params to URL encoded form body payload
@@ -384,10 +388,10 @@ The new **Mail.Read** permission you added to the Azure AD app needs to be inclu
 
 Locate and open the **./.env** file in your project.
 
-Near the end of the file, locate the existing environment variable `SSOTAB_APP_SCOPES`. Update this property to include the request for the **Mail.Read** property:
+Near the end of the file, locate the existing environment variable `TAB_APP_SCOPES`. Update this property to include the request for the **Mail.Read** property:
 
 ```text
-SSOTAB_APP_SCOPES=https://graph.microsoft.com/User.Read https://graph.microsoft.com/Mail.Read email openid profile offline_access
+TAB_APP_SCOPES=https://graph.microsoft.com/User.Read https://graph.microsoft.com/Mail.Read email openid profile offline_access
 ```
 
 #### Update the Microsoft Teams tab
@@ -420,11 +424,11 @@ With the state of the component updated, now add the following `useCallback()` h
 const getRecentEmails = useCallback(async () => {
   if (!msGraphOboToken) { return; }
 
-  const endpoint = `https://graph.microsoft.com/v1.0/me/messages?$select=receivedDateTime,subject&$orderby=receivedDateTime&$top=10`;
+  const endpoint = "https://graph.microsoft.com/v1.0/me/messages?$select=receivedDateTime,subject&$orderby=receivedDateTime&$top=10";
   const requestObject = {
-    method: 'GET',
+    method: "GET",
     headers: {
-      "authorization": "bearer " + msGraphOboToken
+      Authorization: "Bearer " + msGraphOboToken
     }
   };
 

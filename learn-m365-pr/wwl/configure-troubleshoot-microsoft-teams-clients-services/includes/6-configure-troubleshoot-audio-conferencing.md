@@ -24,7 +24,7 @@ To setup audio conferencing in Teams, you’ll need to complete the following hi
 
 ## Configure user settings
 
-Before users can enable audio conferencing for their meetings, they must be assigned a license. TO configure 
+Before users can enable audio conferencing for their meetings, they must be assigned a license.
 
 ### Enable audio conferencing
 

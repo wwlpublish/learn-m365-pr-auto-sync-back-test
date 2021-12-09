@@ -1,23 +1,35 @@
-Let's look at the journey of a file and discuss how Microsoft technologies can help protect the data within that file.
+Of course, all organizations use information slightly differently. However, the general pathway by which files are created, managed, updated, and destroyed is often broadly similar. In your legal company, you're concerned that your compliance with regulations might not be as good as it should be. You're investigating file lifecycles to analyze this problem further.
 
-![Microsoft technologies protect a file from creation through editing and cloud storage.](../media/story-of-file.png)
+Here, you'll learn about the typical lifecycle of the files in your organization.
 
-#### File is created
+## Lifecycle summary
 
-- Regardless of where the file is created, sensitivity labeling in Office apps can enforce information protection based on the labels attached to the data.
+Not all data is created equal. Some data is more sensitive and requires a stronger level of protection and control than other types. The kinds of information that need protecting depends on your internal security requirements and compliance obligations. Because every organization may have different governance or compliance standards, it's important to allow customization of classification policies.
 
-#### User edits the file
+For instance, a beverage company needs to protect the secret recipe to its most famous soft drink. However, a finance company's cafeteria recipes are not so critical to everyday business. There are general guidelines for more obvious sensitive data, such as credit card and social security numbers, but no two organizations classify data the same way.
 
-- The label is updated based on the user's changes and the content's sensitivity. This ensures the file has the right protection.
+Let's look at the journey of a file through your company and discuss how Microsoft technologies can help protect the data within that file.
 
-#### User shares the file with another user in the organization
+:::image type="content" source="../media/story-of-file.png" alt-text="Diagram showing how Microsoft technologies protect a file from creation through editing and cloud storage.":::
 
-- As an additional layer of protection, Data Loss Prevention (DLP) policies help prevent the accidental or inadvertent sharing of sensitive documents and emails.
+Now, let's examine these lifecycle stages in more detail.
 
-#### User opens the file on their phone
+1. **File is created**
 
-- If a user receives and opens the data on a mobile device, Intune enforces protection of the data.
+    Your legal department creates a slide deck to share with clients in PowerPoint. It's a generic deck that should be tailored for each client. The file isn't _immediately_ given any sensitivity labeling. Sensitivity labels enforce information protection based on labels added to any documents created in an Office app, so sensitivity labels will be added to each customized deck based on different client needs. 
 
-#### User uploads the file to another cloud service such as Dropbox
+1. **User edits the file**
 
-- If a user uploads the data to other clouds for external sharing, services such as Microsoft Cloud App Security can apply policies based on the data's labels.
+    A paralegal changes the presentation to include client specific information around the company's financial information. The paralegal adds a **Confidential** sensitivity label. This ensures the file has the right protection.
+
+1. **User shares the file with another user in the organization**
+
+    The paralegal is working closely with an attorney on a related case and shares the presentation from a folder in SharePoint. As an additional layer of protection, Data Loss Prevention (DLP) policies help prevent the accidental or inadvertent sharing of sensitive documents and emails.
+
+1. **User opens the file on their phone**
+
+    The attorney opens the file on their phone, Intune enforces protection of the data.
+
+1. **User uploads the file to another cloud service such as Dropbox**
+
+    If a user uploads the data to other clouds for external sharing, services such as Microsoft Cloud App Security can apply policies based on the data's labels.

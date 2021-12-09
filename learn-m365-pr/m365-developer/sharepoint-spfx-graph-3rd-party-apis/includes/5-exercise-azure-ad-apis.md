@@ -269,9 +269,9 @@ In a browser, navigate to a SharePoint Online site.
 
 In the Office 365 gear, select **Add an App**.
 
-In site navigation, select **From your Organization**.
+In site navigation, select **From my organization**.
 
-Select **sp-fx-aad-http-client-side-solution** to add your web part.
+Select the **Add** button in the **sp-fx-aad-http-client-side-solution** tile to add your web part.
 
 ![Screenshot of the Apps you can add dialog](../media/05-add-app.png)
 

@@ -91,6 +91,3 @@ New-Mailbox -Database "Mailbox Database 1" -Name MotorVehicle2 -OrganizationalUn
 - [Exchange Online Archiving service](/office365/servicedescriptions/exchange-online-archiving-service-description/exchange-online-archiving-service-description)
 - [Exchange Online Archiving plans](/office365/servicedescriptions/exchange-online-archiving-service-description/exchange-online-archiving-service-description#exchange-online-archiving-plans)
 - [Feature sets for Exchange Online Archiving plans](/office365/servicedescriptions/exchange-online-archiving-service-description/exchange-online-archiving-service-description#feature-availability-across-exchange-online-archiving-plans)
-- [Create and manage room mailboxes](/Exchange/recipients-in-exchange-online/manage-room-mailboxes)
-- [Create and manage equipment mailboxes](/Exchange/recipients-in-exchange-online/manage-equipment-mailboxes)
-- [PowerShell Reference Library](/powershell/windows/get-started?azure-portal=true)

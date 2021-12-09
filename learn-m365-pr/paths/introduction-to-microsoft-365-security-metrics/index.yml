@@ -10,7 +10,7 @@ metadata:
   ms.prod: learning-m365
 title: Explore security metrics in Microsoft 365
 prerequisites: |
-  -  Students should have completed a role-based administrator collection such as Messaging, Teamwork, Security and Compliance, or Collaboration.
+  - Students should have completed a role-based administrator collection such as Messaging, Teamwork, Security and Compliance, or Collaboration.
   - Students should have a proficient understanding of DNS and basic functional experience with Microsoft 365 services.
   - Students must have a proficient understanding of general IT practices.
 summary: |

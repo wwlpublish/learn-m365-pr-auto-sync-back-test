@@ -1,4 +1,4 @@
-﻿Throughout this module, you will learn about the key concepts and benefits of modern management with **Microsoft 365**.  We will explore the four key pillars to modern management, and how they can help your organization manage all their devices in a modern way that is easy to deploy, up-to-date, secure, and intelligent.
+﻿Throughout this module, you will learn about the key concepts and benefits of modern management with **Microsoft 365**.  We will explore the four key pillars to modern management, and how they can help your organization to manage all their devices in a modern way that is easy to deploy, up-to-date, secure, and intelligent.
 
 In this module, you will:
 
@@ -17,6 +17,6 @@ With modern management tools, such as **Microsoft Intune** and **System Center C
 
 Windows 10 offers a range of management options, as shown in the following diagram:
 
-![Diagram of modern management options](../media/windows-10-management-range-options.png)
+:::image type="content" source="../media/windows-10-management-range-options.png" alt-text="Diagram of modern management options" lightbox="../media/windows-10-management-range-options.png":::
 
 As indicated in the diagram, Microsoft continues to provide support for deep manageability and security through technologies like Group Policy, Active Directory, and System Center Configuration Manager. It also delivers a "mobile-first, cloud-first" approach of simplified, modern management using cloud-based device management solutions such as **Microsoft Enterprise Mobility + Security (EMS)**. Future Windows innovations, delivered through **Windows as a Service**, are complemented by cloud services like Microsoft Intune, Azure Active Directory, Azure Information Protection, and the Microsoft Store for Business.

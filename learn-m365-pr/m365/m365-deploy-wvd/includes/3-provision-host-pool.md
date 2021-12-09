@@ -23,7 +23,7 @@ To complete the exercise, you'll need the Azure credentials for:
    |Subscription     |  Subscription where you want Azure Virtual Desktop to run       |
    |Resource group     | Resource group you've created for Azure Virtual Desktop resources    |
    |Host pool name     |  wvd-host-pool-1      |
-   |Location    | Region needs to be same location as your virtual network        |
+   |Location    | Region where you want the metadata for your host pool stored        |
    |Validation environment|No|
    |Host pool type     |  Pooled  |
    |Load balancing algorithm    | Breadth-first |
@@ -42,24 +42,28 @@ To complete the exercise, you'll need the Azure credentials for:
    |---------|---------|
    |Add virtual machines     | Yes        |
    |Resource group    |  Resource group you've created for Azure Virtual Desktop resources       |
+   |Name prefix     | wvd-vm-pool        |
    |Virtual machine location     | Region needs to be same location as your virtual network       |
-   |Virtual machine size     | Keep the default size       |
-   |Number of VMs     | 2  |
-   |Name prefix     |  wvd-vm-pool      |
+   |Availability options     | Availability zone        |
+   |Availability zone     | 2        |
    |Image type     |  Gallery  |
    |Image     |  Windows 10 Enterprise multi-session, Version 1909 |
+   |Virtual machine size     | Keep the default size       |
+   |Number of VMs     | 2  |
    |OS disk type     | Standard SSD  |
    |Use managed disks     | Yes |
+   |Boot diagnostics     |  Enable with managed storage account |
    |Virtual network     |  Virtual network that can connect to the domain controller     |
-   |Subnet| Subnet you've created to segment VMs|
-   |Public IP     | No      |
    |Network security group    | Basic       |
    |Public inbound ports     | No   |
-   |Specific domain or unit     |Yes    |
-   |Domain to join| Add your full Active Directory domain name to join like `adds-contosoorg.onmicrosoft.com`. If you're using Azure Active Directory Domain Services (Azure AD DS), use the DNS domain name from the properties page.|
+   |Select which directory you would like to join     |Active Directory    |
    |AD domain join UPN     | User name for the user account that's assigned to the Active Directory Domain administrator role      |
-   |Password    | Password for the Active Directory Domain administrator's account   |
-   |Confirm password    | Confirm the password      |
+   |Specify domain or unit    | No   |
+   |Username    | Select a username for your VM administrator       |
+   |Password    | Select a password for your VM administrator       |
+   |Confirm    | Confirm the password      |
+   |ARM template file URL    | Leave blank       |
+   |ARM template parameter file URL    | Leave blank       |
 1. Select **Next: Workspace**.
 
 ### Step 3: Workspace
@@ -79,9 +83,10 @@ Assign the desktop application group to a non-administrative user account that's
 1. Select **Application groups**.
 1. Select the desktop application group.
 1. Select **Access control (IAM)** > **Add** > **Add role assignment**.
-1. For **Role**, select **Desktop Virtualization User**.
-1. For **Select**, enter the name of a non-administrative user account that's in Active Directory.
-1. Select **Save**.
+1. For **Role**, select **Desktop Virtualization User** and select **Next**.
+1. Beside Members, select **+ Select Members**. Find and select the name of a non-administrative user account that's in Active Directory and select **Select**.
+1. Select **Next**.
+1. Select **Review + Assign**.
 
 ## Verify access to desktop
 

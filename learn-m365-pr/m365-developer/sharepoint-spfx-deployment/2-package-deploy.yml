@@ -3,9 +3,9 @@ uid: learn-m365.sharepoint-spfx-deployment.2-package-deploy
 metadata:
   title: Package and deploy SharePoint Framework projects to production
   description: In this unit, you'll learn how to package and deploy SharePoint Framework solutions to production.
-  ms.date: 11/30/2020
-  author: andrewconnell
-  ms.author: v-johnco
+  ms.date: 09/13/2021
+  author: andrewconnell-msft
+  ms.author: suzanz
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Package and deploy SharePoint Framework projects to production

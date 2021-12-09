@@ -1,0 +1,30 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.implement-compliance-for-microsoft-teams.create-information-barrier-policy
+title: Create information barrier policy
+metadata:
+  title: Create information barrier policy
+  description: "Create information barrier policy"
+  ms.date: 10/25/2021
+  author: wwlpublish
+  ms.author: jennyche
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 8
+content: |
+  [!include[](includes/07-create-information-barrier-policy.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "As the Teams administrator for Tailspin Toys, Patti Fernandez is unable to create an information barrier policy. Patti has reviewed the information barrier prerequisites and identified the following items. All Tailspin users are assigned a Microsoft 365 E5 license. Tailspin Toys has no Exchange address book policies in place. Patti is assigned the Teams administrator role. Audit logging and Scoped directory search are both turned On. Which of the following items explains why Patti is unable to create an information barrier policy?"
+    choices:
+    - content: "Patti is assigned a Microsoft 365 E5 license"
+      isCorrect: false
+      explanation: "That's incorrect. A Microsoft 365 E5 license is a valid license that supports creating information barriers. Since all Tailspin users are assigned this license, this item isn't preventing Patti from creating an information barrier. Try again."
+    - content: "No Exchange address book policies are in place at Tailspin Toys"
+      isCorrect: false
+      explanation: "That's incorrect. An organization can't have Exchange address book policies if it wants to create information barriers. Since no Exchange address book policies are in place at Tailspin Toys, this item isn't preventing Patti from creating an information barrier. Try again."
+    - content: "The Teams administrator role doesn't provide permission to create an information barrier policy"
+      isCorrect: true
+      explanation: "That's correct. To define or edit information barrier policies, administrators must be assigned to one of the following roles - Microsoft 365 Global admin, Compliance administrator, and IB Compliance Management."

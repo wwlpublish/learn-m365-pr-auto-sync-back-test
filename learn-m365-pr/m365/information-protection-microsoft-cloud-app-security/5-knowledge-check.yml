@@ -4,7 +4,7 @@ metadata:
   title: Knowledge check
   description: Knowledge check
   ms.date: 07/02/2021
-  author: geoffallix
+  author: beccarobins
   ms.author: beccarobins
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
@@ -35,7 +35,7 @@ quiz:
     choices:
     - content: "A policy."
       isCorrect: true
-      explanation: "That's correct. You control user access based on a conditional access policy."
+      explanation: "That's correct. You control user access based on a Conditional Access policy."
     - content: "A rule."
       isCorrect: false
       explanation: "That's incorrect. A rule is not a Conditional Access App Control component. "

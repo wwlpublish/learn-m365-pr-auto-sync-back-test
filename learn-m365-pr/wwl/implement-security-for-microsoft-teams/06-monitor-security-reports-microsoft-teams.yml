@@ -1,0 +1,30 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.implement-security-for-microsoft-teams.monitor-security-reports
+title: Monitor security reports for Microsoft Teams
+metadata:
+  title: Monitor security reports for Microsoft Teams
+  description: "Monitor security reports for Microsoft Teams"
+  ms.date: 10/09/2021
+  author: wwlpublish
+  ms.author: jennyche
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 5
+content: |
+  [!include[](includes/06-monitor-security-reports-microsoft-teams.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "As the Teams administrator for Northwind Traders, Allan DeYoung is interested in a report that provides the count of email messages with malicious content, such as files or website addresses (URLs) that were blocked by the anti-malware engine, zero-hour auto purge (ZAP), and Defender for Office 365 features like Safe Links, Safe Attachments. Which report provides this information?"
+    choices:
+    - content: "Threat Protection status report"
+      isCorrect: true
+      explanation: "That's correct. This report provides the count of email messages with malicious content, such as files or website addresses (URLs) that were blocked by the anti-malware engine, zero-hour auto purge (ZAP), and Defender for Office 365 features like Safe Links, Safe Attachments, and impersonation protection features in anti-phishing policies. You can use this information to identify trends or determine whether organization policies need adjustment."
+    - content: "Threat Explorer report"
+      isCorrect: false
+      explanation: "That's incorrect. Threat Explorer is a powerful, near real-time tool to help Security Operations teams investigate and respond to threats in the Microsoft 365 Defender portal. Threat Explorer displays information about suspected malware and phishes in email and files in Microsoft 365, as well as other security threats and risks to an organization. Try again."
+    - content: "Defender for Office 365 Message Disposition report"
+      isCorrect: false
+      explanation: "That's incorrect. This report displays the actions that were taken on email messages that had malicious URLs or files. Try again."

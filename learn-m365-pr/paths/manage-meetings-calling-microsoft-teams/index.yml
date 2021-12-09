@@ -1,0 +1,32 @@
+### YamlMime:LearningPath
+uid: learn.wwl.manage-meetings-calling-microsoft-teams
+metadata:
+  title: Manage meetings and calling in Microsoft Teams
+  description: Manage meetings and calling in Microsoft Teams
+  ms.date: 09/23/2021
+  author: wwlpublish
+  ms.author: jennyche
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Manage meetings and calling in Microsoft Teams
+prerequisites: |
+  - A proficient understanding of basic functional experience with Microsoft 365 services.
+  - A proficient understanding of general IT practices, including using PowerShell.
+summary: |
+  Learn the meetings and calling features in Microsoft Teams, including managing meetings experiences, managing Microsoft Teams devices, managing calling features with Calling Plans and Phone System, and the basic troubleshooting tool for Teams issue.
+iconUrl: /learn/achievements/teams-manage-meeting-calling.svg
+levels:
+- intermediate
+roles:
+- administrator
+products:
+- m365
+- office-teams
+modules:
+- learn.wwl.manage-meetings-virtual-events-experiences
+- learn.wwl.configure-manage-microsoft-teams-devices
+- learn.wwl.manage-phone-numbers
+- learn.wwl.manage-phone-system-for-microsoft-teams
+- learn.wwl.troubleshoot-audio-video-client-issues
+trophy:
+  uid: learn.wwl.manage-meetings-calling-microsoft-teams.trophy

@@ -3,25 +3,25 @@ uid: learn-m365-pr.detect-respond-to-security-issues-using-microsoft-defender-fo
 metadata:
   moduleType: standard
   title: Detect and respond to security issues using Microsoft Defender for Endpoint
-  description: Learn how to detect and respond to security issues using Microsoft Defender for Endpoint, with the help of features and capabilities such as the incident queue, alerts queue, response actions on devices and files, and Live Response.
-  ms.date: 07/19/2021
-  author: iankensey
+  description: Learn how to detect and respond to security issues using Microsoft Defender for Endpoint with the help of features and capabilities such as the incident queue, alerts queue, response actions on devices and files, and Live Response.
+  ms.date: 08/17/2021
+  author: beccarobins
   ms.author: beccarobins
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Detect and respond to security issues using Microsoft Defender for Endpoint
-summary: Learn how to detect and respond to security issues using Microsoft Defender for Endpoint, with the help of features and capabilities such as the incident queue, alerts queue, response actions on devices and files, and Live Response.
+summary: Learn how to detect and respond to security issues using Microsoft Defender for Endpoint with the help of features and capabilities such as the incident queue, alerts queue, response actions on devices and files, and Live Response.
 abstract: |
   By the end of this module, you'll be able to:
   - Understand the incident queue
   - Understand the alerts queue
   - Understand response actions
-prerequisites: | 
+prerequisites: |
   - Basic familiarity with Microsoft Defender for Endpoint
-iconUrl: /learn/achievements/generic-badge.svg
-levels: 
+iconUrl: /learn/achievements/m365-defender-endpoint-detect-respond.svg
+levels:
   - beginner
-roles: 
+roles:
   - security-operations-analyst
   - security-engineer
   - administrator

@@ -2,21 +2,21 @@
 uid: learn-m365-pr.m365-windows.manage-windows-updates-cloud
 metadata:
   title: Manage Windows updates in the cloud
-  description: Learn about how to manage updates for your devices.
+  description: Learn about how to manage updates for your Windows devices.
   ms.date: 07/15/2021
-  author: iankensey
-  ms.author: v-iakens
+  author: lizap
+  ms.author: elizapo
   ms.topic: interactive-tutorial
   ms.prod: learning-windows
 title: Manage Windows updates in the cloud
-summary: In this module you'll learn about how to manage updates for your devices.
+summary: In this module you'll learn about how to manage updates for your Windows devices.
 abstract: |
   By the end of this module you will be able to:
   - Describe the tools you can use to update Windows devices
   - Manage quality, feature, and driver updates for Windows devices
   - Manage the post-deployment experience for updates
 prerequisites: Familiarity with the Windows update lifecycle.
-iconUrl: /learn/achievements/generic-badge.svg
+iconUrl: /learn/achievements/manage-windows-updates-in-the-cloud.svg
 levels:
 - intermediate
 roles:

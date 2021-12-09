@@ -5,8 +5,8 @@ metadata:
   title: Select devices for Microsoft Teams meetings
   description: Learn about the different types of meeting devices that can be used with Microsoft Teams.
   ms.date: 07/15/2021
-  ms.author: elizapo
-  author: lizap
+  ms.author: teleary
+  author: temanteleary
   ms.topic: interactive-tutorial
   ms.prod: learning-teams
 durationInMinutes: 2

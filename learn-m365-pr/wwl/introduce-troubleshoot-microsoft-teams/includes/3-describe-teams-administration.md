@@ -79,12 +79,10 @@ After you’ve installed the module, connect to Teams in your Office 365 tenant 
 
 2.  When prompted, sign in as a global admin in your tenant.
 
-
-
 After you are connected, you can use Windows PowerShell cmdlets to configure and manage Teams. For example, to create a new team, run the following command: 
 
 ```PowerShell
-New-Team -Name "Contoso Sales" -Description "Collaboration space for Contoso’s Sales department"
+New-Team -DisplayName "Contoso Sales" -Description "Collaboration space for Contoso’s Sales department"
 ```
 
 The following sections describe a few of the more common tasks you might undertake using PowerShell. 

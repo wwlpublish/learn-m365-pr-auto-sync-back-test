@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-m365-pr.defender-office-365-evaluate.evaluation-mode
+title: Learn how to evaluate Microsoft Defender for Office 365
+metadata:
+  unitType: learning-content
+  title: Learn how to evaluate Microsoft Defender for Office 365
+  description: Learn how to evaluate Microsoft Defender for Office 365 so to be able to make an informed decision before upgrading or purchasing.
+  ms.date: 08/12/2021
+  author: beccarobins
+  ms.author: beccarobins
+  ms.topic: interactive-tutorial 
+  ms.prod: learning-m365
+durationInMinutes: 23
+content: |
+  [!include[](includes/evaluation-mode.md)]

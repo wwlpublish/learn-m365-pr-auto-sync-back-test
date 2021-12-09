@@ -1,0 +1,41 @@
+### YamlMime:Module
+uid: learn.wwl.manage-collaboration-experiences-for-chat-channels
+metadata:
+  title: Manage collaboration experiences for chat and channels
+  description: "Manage collaboration experiences for chat and channels"
+  ms.date: 10/25/2021
+  author: wwlpublish
+  ms.author: jennyche
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Manage collaboration experiences for chat and channels
+summary: Learn about different controls for collaboration experiences in Microsoft Teams, including managing channel types, private channel creation, messaging policies, and channel moderation.
+abstract: |
+  By the end of this module, you will be able to:
+  - Manage the creation of private channels
+  - Control the email integration of teams
+  - Organize the file sharing functions from the Teams client
+  - Create and modify messaging policies
+  - Understand how to set up channel moderation in teams
+prerequisites: |
+  - A proficient understanding of basic functional experience with Microsoft 365 services.
+  - A proficient understanding of general IT practices, including using PowerShell.
+iconUrl: /learn/achievements/collaboration-manage-experiences.svg
+levels:
+- intermediate
+roles:
+- administrator
+products:
+- m365
+- office-teams
+units:
+- learn.wwl.manage-collaboration-experiences-for-chat-channels.introduction
+- learn.wwl.manage-collaboration-experiences-for-chat-channels.manage-public-private-channels
+- learn.wwl.manage-collaboration-experiences-for-chat-channels.manage-private-channel-creation
+- learn.wwl.manage-collaboration-experiences-for-chat-channels.configure-teams-settings
+- learn.wwl.manage-collaboration-experiences-for-chat-channels.create-manage-messaging-policies
+- learn.wwl.manage-collaboration-experiences-for-chat-channels.manage-channel-moderation
+- learn.wwl.manage-collaboration-experiences-for-chat-channels.knowledge-check
+- learn.wwl.manage-collaboration-experiences-for-chat-channels.summary
+badge:
+  uid: learn.wwl.manage-collaboration-experiences-for-chat-channels.badge

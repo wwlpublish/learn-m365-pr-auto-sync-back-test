@@ -5,8 +5,8 @@ metadata:
   title: Manage which updates are offered from Windows Update
   description: Learn about how to manage the updates that Windows Update offers to your devices
   ms.date: 07/15/2021
-  author: iankensey
-  ms.author: v-iakens
+  author: lizap
+  ms.author: elizapo
   ms.topic: interactive-tutorial
   ms.prod: learning-windows
 durationInMinutes: 6

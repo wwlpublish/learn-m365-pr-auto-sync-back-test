@@ -1,0 +1,30 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.manage-user-roles.create-new-roles-role-assignments-scopes
+title: Create new roles, role assignments, and scopes
+metadata:
+  title: Create new roles, role assignments, and scopes
+  description: "Create new roles, role assignments, and scopes"
+  ms.date: 11/22/2021
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 4
+content: |
+  [!include[](includes/4-create-new-roles-role-assignments-scopes.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "As the Messaging administrator for Fabrikam, Holly Spencer wants to create new user roles and assign them to role assignment policies. How should Holly complete this task?"
+    choices:
+    - content: "Holly must use the Exchange Management Shell"
+      isCorrect: true
+      explanation: "That's correct. While you can use the EAC to create and manage custom role assignment policies, it doesn't allow you to assign custom roles to them. To create new user roles and assign them to role assignment policies, you must use the Exchange Management Shell."
+    - content: "Holly must use the Exchange admin center (EAC)"
+      isCorrect: false
+      explanation: "That's incorrect. While you can use the EAC to create and manage custom role assignment policies, it doesn't allow you to assign custom roles to them. Try again."
+    - content: "Holly must use the Microsoft 365 Defender portal"
+      isCorrect: false
+      explanation: "That's incorrect. You can't use the Microsoft 365 Defender portal to create new user roles and assign them to role assignment policies. Try again."

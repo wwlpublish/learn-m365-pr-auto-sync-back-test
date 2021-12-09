@@ -16,17 +16,17 @@ content: |
 quiz:
   title: "Knowledge check"
   questions:
-  - content: "Conditional access, secure authentication, and identity protection fall under which security category?"
+  - content: "Conditional Access, secure authentication, and Identity Protection fall under which security category?"
     choices:
     - content: "Identity and access management"
       isCorrect: true
-      explanation: "Correct. Conditional access, secure authentication, and identity protection are all part of identity and access management."
+      explanation: "Correct. Conditional Access, secure authentication, and Identity Protection are all part of identity and access management."
     - content: "Threat protection"
       isCorrect: false
-      explanation: "Incorrect. Conditional access, secure authentication, and identity protection are all part of identity and access management, not threat protection."
+      explanation: "Incorrect. Conditional Access, secure authentication, and Identity Protection are all part of identity and access management, not threat protection."
     - content: "Security management"
       isCorrect: false
-      explanation: "Incorrect. Conditional access, secure authentication, and identity protection are all part of identity and access management, not security management."
+      explanation: "Incorrect. Conditional Access, secure authentication, and Identity Protection are all part of identity and access management, not security management."
   - content: "It can be helpful to think about your information protection strategy in terms of which four key activities?"
     choices:
     - content: "Discover, classify, protect, and monitor"

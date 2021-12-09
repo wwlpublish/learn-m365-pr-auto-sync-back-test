@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.transition-from-skype-for-business-to-microsoft-teams.set-coexistence-upgrade-settings
+title: Set your coexistence and upgrade settings
+metadata:
+  title: Set your coexistence and upgrade settings
+  description: "Set your coexistence and upgrade settings"
+  ms.date: 10/25/2021
+  author: wwlpublish
+  ms.author: jennyche
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 7
+content: |
+  [!include[](includes/04-set-coexistence-upgrade-settings.md)]

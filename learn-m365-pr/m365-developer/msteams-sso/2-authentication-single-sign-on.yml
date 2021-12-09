@@ -3,8 +3,8 @@ uid: learn-m365.msteams-sso.2-authentication-single-sign-on
 metadata:
   title: Understand authentication and single sign-on (SSO) in Microsoft Teams apps
   description: In this unit, you'll learn how authentication works with Microsoft Teams and how to use single sign-on (SSO) for your Microsoft Teams apps.
-  ms.date: 06/18/2021
-  author: andrewconnell
+  ms.date: 09/13/2021
+  author: andrewconnell-msft
   ms.author: suzanz
   ms.topic: interactive-tutorial
   ms.prod: learning-m365

@@ -3,8 +3,8 @@ uid: learn-m365.enable-conditional-access-app-control-third-party-apps.6-knowled
 metadata:
   title: Knowledge check
   description: Knowledge check
-  ms.date: 07/19/2021
-  author: alistairmatthews
+  ms.date: 07/02/2021
+  author: beccarobins
   ms.author: beccarobins
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
@@ -28,19 +28,19 @@ quiz:
       isCorrect: false
       explanation: "That's incorrect. Kerberos is an on-premises authentication protocol used in AD DS."
 
-  - content: "An administrator is planning to create a session policy to control access to a Workplace from Facebook. In which of the following portals should the administrator perform the step of creating a conditional access policy?"
+  - content: "An administrator is planning to create a session policy to control access to a Workplace from Facebook. In which of the following portals should the administrator perform the step of creating a Conditional Access policy?"
     choices:
     - content: "Cloud App Security."
       isCorrect: false
       explanation: " That's incorrect. You use the Cloud App Security portal to create the Conditional Access App Control policy."
     - content: " Azure Active Directory admin center."
       isCorrect: true
-      explanation: "That's correct. You use this portal to create the conditional access policy, and to configure most other settings that relate to configuring Conditional Access App Control policies."
+      explanation: "That's correct. You use this portal to create the Conditional Access policy, and to configure most other settings that relate to configuring Conditional Access App Control policies."
     - content: "Workplace from Facebook."
       isCorrect: false
       explanation: "That's incorrect. You use this portal to configure some of the SSO settings."
 
-  - content: "An administrator is configuring the final stages of Conditional Access App Control for Slack. They have added the app, assigned users, configured SSO, and created the conditional access policy. The administrator wants to block access to non-compliant devices to Slack. They create an access policy. In an access policy, by default, which of these options is unselected?"
+  - content: "An administrator is configuring the final stages of Conditional Access App Control for Slack. They have added the app, assigned users, configured SSO, and created the Conditional Access policy. The administrator wants to block access to non-compliant devices to Slack. They create an access policy. In an access policy, by default, which of these options is unselected?"
     choices:
     - content: "Valid client certificate."
       isCorrect: true

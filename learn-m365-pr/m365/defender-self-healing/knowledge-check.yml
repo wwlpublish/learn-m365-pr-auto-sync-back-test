@@ -1,0 +1,49 @@
+### YamlMime:ModuleUnit
+uid: learn-m365-pr.defender-self-healing.knowledge-check
+title: Knowledge check
+metadata:
+  unitType: knowledge_check
+  title: Knowledge check
+  description: Check what you've learned in this module.
+  ms.date: 05/20/2021
+  author: beccarobins
+  ms.author: beccarobins
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 3
+content: |
+quiz:
+  questions:
+  - content: "Microsoft 365 Defender provides automated self-healing to automatically investigate and remediate threats. Which two features enable this?"
+    choices:
+    - content: "Automated investigation and remediation, and advanced hunting"
+      isCorrect: false
+      explanation: "Incorrect. Advanced hunting does not support self-healing. "
+    - content: "Automated investigation and remediation, and Action center"
+      isCorrect: true
+      explanation: "That's right! Both of these features can be utilized to enable self-healing across your security environment."
+    - content: "Automated investigation and remediation, and Autoquarantine"
+      isCorrect: false
+      explanation: "That's not right. Autoquarantine is not a valid feature of self-healing."
+  - content: "In the investigation details view, which tab would you use to find the users impacted by the automated investigation?"
+    choices:
+    - content: "Pending actions"
+      isCorrect: false
+      explanation: "Incorrect. This tab lists items that require approval to proceed."
+    - content: "Alerts"
+      isCorrect: false
+      explanation: "That's not right. This tab lists alerts associated with the investigation. Alerts can come from threat protection features on a user's device, in Office apps, Cloud App Security, and other Microsoft 365 Defender features."
+    - content: "Investigation graph"
+      isCorrect: true
+      explanation: "That's correct! Provides a visual representation of the investigation. Depicts entities and lists threats found, along with alerts and whether any actions are awaiting approval. "
+  - content: "In the Action center, which tab would you use to see a list of all the actions that require attention?"
+    choices:
+    - content: "Pending" 
+      isCorrect: true
+      explanation: "Yes, it displays a list of actions that require attention."
+    - content: "Awaiting"
+      isCorrect: false
+      explanation: "That is incorrect.  Awaiting is not a valid tab in the Action center."
+    - content: "Attention"
+      isCorrect: false
+      explanation: "That is incorrect.  Attention is not a valid tab in the Action center"

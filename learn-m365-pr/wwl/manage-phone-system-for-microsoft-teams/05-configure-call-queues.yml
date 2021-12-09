@@ -1,0 +1,30 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.manage-phone-system-for-microsoft-teams.configure-call-queues
+title: Configure call queues
+metadata:
+  title: Configure call queues
+  description: "Configure call queues"
+  ms.date: 11/18/2021
+  author: wwlpublish
+  ms.author: jennyche
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 6
+content: |
+  [!include[](includes/05-configure-call-queues.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "Contoso's Microsoft 365 project team is considering using a Teams channel for their call agents. In doing so, they can assign an outbound caller ID number for the agents by specifying one or more resource accounts with a phone number. What should Contoso's project team consider doing if they don't use a Teams channel to control agent membership?"
+    choices:
+    - content: "Implement presence-based routing"
+      isCorrect: false
+      explanation: "That's incorrect. Presence-based routing uses the availability status of call agents to determine whether an agent should be included in the call routing list for the selected routing method. Try again."
+    - content: "Set the caller ID for members of the call queue to the service number of the call queue or appropriate auto attendant"
+      isCorrect: true
+      explanation: "That's correct. If you're not using a Teams channel to control agent membership, consider directly setting the caller ID for members of the call queue to the service number of the call queue or appropriate auto attendant."
+    - content: "Set the routing method to round robin"
+      isCorrect: false
+      explanation: "That's incorrect. Round robin routing method balances the routing of incoming calls so that each call agent gets the same number of calls from the queue. Try again."

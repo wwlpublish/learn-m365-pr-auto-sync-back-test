@@ -1,0 +1,45 @@
+### YamlMime:Module
+uid: learn.wwl.create-manage-teams
+metadata:
+  title: Create and manage teams
+  description: "Create and manage teams"
+  ms.date: 10/25/2021
+  author: wwlpublish
+  ms.author: jennyche
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Create and manage teams
+summary: Learn about creating teams from various approaches and managing teams' settings and membership. You will also learn how to archive, restore, and delete a team.
+abstract: |
+  By the end of this module, you will be able to:
+  - Create new teams
+  - Create teams from existing resources
+  - Create an org-wide team
+  - Manage team settings
+  - Manage users in a team
+  - Configure dynamic membership for teams
+  - Archive, restore from archive, delete, and restore deleted teams
+prerequisites: |
+  - A proficient understanding of basic functional experience with Microsoft 365 services.
+  - A proficient understanding of general IT practices, including using PowerShell.
+iconUrl: /learn/achievements/create-manage-teams.svg
+levels:
+- intermediate
+roles:
+- administrator
+products:
+- m365
+- office-teams
+units:
+- learn.wwl.create-manage-teams.introduction
+- learn.wwl.create-manage-teams.create-teams
+- learn.wwl.create-manage-teams.create-team-existing-resource
+- learn.wwl.create-manage-teams.plan-create-org-wide-teams
+- learn.wwl.create-manage-teams.manage-teams
+- learn.wwl.create-manage-teams.manage-users-team
+- learn.wwl.create-manage-teams.configure-dynamic-membership
+- learn.wwl.create-manage-teams.archive-delete-restore-team
+- learn.wwl.create-manage-teams.knowledge-check
+- learn.wwl.create-manage-teams.summary
+badge:
+  uid: learn.wwl.create-manage-teams.badge

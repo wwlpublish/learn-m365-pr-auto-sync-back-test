@@ -1,0 +1,30 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.implement-lifecycle-management-governance-for-microsoft-teams.manage-microsoft-365-groups-creation
+title: Manage Microsoft 365 Groups creation
+metadata:
+  title: Manage Microsoft 365 Groups creation
+  description: "Manage Microsoft 365 Groups creation"
+  ms.date: 10/27/2021
+  author: wwlpublish
+  ms.author: jennyche
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 7
+content: |
+  [!include[](includes/4-manage-microsoft-365-groups-creation.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "John is  the Teams Administrator in Contoso Ltd. Which Windows PowerShell cmdlet should John use to create Microsoft 365 groups?"
+    choices:
+    - content: "New-DistributionGroup"
+      isCorrect: false
+      explanation: "That's incorrect. The cmdlet \"New-DistributionGroup\" is to create distribution groups and mail-enabled security groups. Try again."
+    - content: "New-UnifiedGroup"
+      isCorrect: true
+      explanation: "That's correct. Use the cmdlet \"New-UnifiedGroup\" to create a new Microsoft 365 group."
+    - content: "New-AzureADGroup"
+      isCorrect: false
+      explanation: "That's incorrect. The cmdlet \"New-AzureADGroup\" is to create a security group in Azure Active Directory (AD). Try again."

@@ -29,7 +29,7 @@ Complete the following steps to enable Privileged Identity Management for your d
 3.  Select **All services** and use the **Filter** text box to search for Azure AD Privileged Identity Management.
 4.  Select **Pin to dashboard** and then select **Create**. The Privileged Identity Management application opens.
 
-**Additional reading.** For more information, see [Assign directory roles to users using Azure AD PIM](/azure/active-directory/privileged-identity-management/pim-how-to-add-role-to-user).
+**Additional reading.** For more information, see [Assign directory roles to users using Azure AD PIM](/azure/active-directory/privileged-identity-management/pim-how-to-add-role-to-user?azure-portal=true).
 
 ### Step 2 - Request role activation
 
@@ -37,7 +37,7 @@ To activate a role, an eligible admin must request a time-bound "activation" for
 
 Role activation is also customizable. In the Privileged Identity Management settings, you can determine the length of the activation and what information the admin needs to provide to activate the role.
 
-**Additional reading.** For more information, see [How to activate or deactivate roles in Azure AD Privileged Identity Management](/azure/active-directory/privileged-identity-management/pim-how-to-activate-role).
+**Additional reading.** For more information, see [How to activate or deactivate roles in Azure AD Privileged Identity Management](/azure/active-directory/privileged-identity-management/pim-how-to-activate-role?azure-portal=true).
 
 ## Knowledge check
 

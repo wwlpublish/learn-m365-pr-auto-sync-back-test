@@ -3,9 +3,9 @@ uid: learn-m365.msgraph-changenotifications-trackchanges.4-change-notifications
 metadata:
   title: Microsoft Graph change notifications
   description: In this unit, you'll learn how to manage the notification lifecycle with Microsoft Graph. The key aspect to notification lifecycle is to understand how change notification subscriptions work.
-  ms.date: 06/18/2021
-  author: andrewconnell
-  ms.author: v-johnco
+  ms.date: 09/13/2021
+  author: andrewconnell-msft
+  ms.author: suzanz
   ms.topic: interactive-tutorial
   ms.prod: learning-graph
 title: Microsoft Graph change notifications

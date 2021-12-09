@@ -2,7 +2,7 @@
 
 Microsoft 365 provides two subscriptions for home users. The features are the same, but Microsoft 365 Personal is for one person with multiple devices, whereas Microsoft 365 Family is for up to six people with multiple devices.
 
-Word Excel, PowerPoint, OneNote, and Outlook are provided for Windows, macOS, iOS, and Android, while Access and Publisher are provided as PC only versions.
+Word, Excel, PowerPoint, OneNote, and Outlook are provided for Windows, macOS, iOS, and Android, while Access and Publisher are provided as PC only versions.
 
 ## Microsoft 365 for organizations
 

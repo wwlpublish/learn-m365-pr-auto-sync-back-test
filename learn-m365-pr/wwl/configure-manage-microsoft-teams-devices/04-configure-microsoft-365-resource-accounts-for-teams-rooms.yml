@@ -1,0 +1,30 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.configure-manage-microsoft-teams-devices.configure-microsoft-365-resource-accounts-for-teams-rooms
+title: Configure Microsoft 365 resource accounts for Teams Rooms
+metadata:
+  title: Configure Microsoft 365 resource accounts for Teams Rooms
+  description: "Configure Microsoft 365 resource accounts for Teams Rooms"
+  ms.date: 11/18/2021
+  author: wwlpublish
+  ms.author: jennyche
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 7
+content: |
+  [!include[](includes/04-configure-microsoft-365-resource-accounts-for-teams-rooms.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "As the Teams administrator for Lucerne Publishing, Patti Fernandez wants to create a PowerShell script that automatically creates Teams Rooms accounts. This will enable her to quickly create multiple accounts in bulk. What two modules must Patti install to create these Teams Rooms accounts in PowerShell?"
+    choices:
+    - content: "Microsoft Online and Exchange Online"
+      isCorrect: true
+      explanation: "That's correct. There are two mandatory PowerShell modules that must be installed to create a resource account in Teams Rooms. One is the Microsoft Online module, which is the Azure Active Directory PowerShell module. The other is the Exchange Online PowerShell module."
+    - content: "Microsoft Online and Azure Active Directory"
+      isCorrect: false
+      explanation: "That's incorrect. The Microsoft Online module is the Azure Active Directory PowerShell module. They are one in the same. Try again."
+    - content: "Microsoft Online and Teams"
+      isCorrect: false
+      explanation: "That's incorrect. The Teams PowerShell module isn't required to create a Teams Rooms account. Try again."

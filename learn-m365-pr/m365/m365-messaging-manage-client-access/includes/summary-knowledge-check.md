@@ -6,5 +6,5 @@ Now that you have completed this module, you should be able to:
 - Explain how to configure Outlook on the web
 - Explain how to configure Virtual Directories
 - Explain how to configure Autodiscover
-- Describe how to troubleshoot connectivity problems  
+- Describe how to troubleshoot connectivity problems
 - Describe certificate-based authentication

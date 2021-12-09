@@ -4,9 +4,9 @@ title: Summary and knowledge check
 metadata:
   title: Summary and knowledge check
   description: Learn about the various Microsoft Teams clients, including desktop, web, and mobile clients. Discover how to deploy each type of client and how the update process works. 
-  ms.date: 07/15/2021
-  author: AlexandraHrt
-  ms.author: v-aleha
+  ms.date: 08/15/2019
+  author: temanteleary
+  ms.author: teleary
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 durationInMinutes: 3
@@ -15,38 +15,38 @@ content: |
 quiz:
     title: Check your knowledge
     questions:
-    - content: "Which Microsoft Teams client offers the fullest experience?"
+    - content: "Which Microsoft Teams client offers the most features?"
       choices:  
       - content: "Mobile client" 
         isCorrect: false  
-        explanation: "The Teams desktop client offers the fullest experience."
+        explanation: "That's incorrect. The Teams mobile client can join meetings and chat, but desktop sharing and presenting aren't supported."
       - content: "Desktop client" 
         isCorrect: true  
-        explanation: "The Teams desktop client offers the most features."      
+        explanation: "Correct. The Teams desktop client offers the most features."      
       - content: "Web client"  
         isCorrect: false
-        explanation: "The Teams desktop client offers the most features."  
+        explanation: "The Teams web client offers many of the same features on desktop, but is missing some like autostart on the desktop."  
 
     - content: "How does the Microsoft Teams desktop client handle updates?"
       choices:  
       - content: "Updates can be handled automatically or manually."  
         isCorrect: true  
-        explanation: "Microsoft Teams updates occur automatically with the desktop client and can also be performed manually by users."
+        explanation: "Correct. Microsoft Teams updates occur automatically with the desktop client and can also be performed manually by users."
       - content: "All updates are handled automatically."  
         isCorrect: false
-        explanation: "Microsoft Teams updates occur automatically with the desktop client and can also be performed manually by users."  
+        explanation: "That's incorrect. Microsoft Teams updates occur automatically with the desktop client and can also be performed manually by users."  
       - content: "All updates are handled by an organization’s administrator."
         isCorrect: false  
-        explanation: "Microsoft Teams updates occur automatically with the desktop client and can also be performed manually by users."  
+        explanation: "That's incorrect. Microsoft Teams updates occur automatically with the desktop client and can also be performed manually by users."  
 
-    - content: "Administrators have the option to perform a bulk deployment of which Teams client?"  
+    - content: "What happens if a user tries to run the Microsoft Teams web client in an unsupported browser?"  
       choices:  
-      - content: "Microsoft Teams mobile client"
+      - content: "Microsoft Teams will only block access to the web interface"
         isCorrect: false  
-        explanation: "Administrators cannot do a bulk deployment of the mobile client."
-      - content: "Microsoft Teams desktop client"  
+        explanation: "That's incorrect. Microsoft Teams won't only block access to the web interface."
+      - content: "Microsoft Teams will prompt the user to download a desktop or mobile client"  
         isCorrect: true
-        explanation: "Administrators can do a bulk deployment of the desktop client via MSI or Microsoft 365 Apps."       
-      - content: "Microsoft Teams web client"  
+        explanation: "That's correct. Microsoft Teams will block access to the web interface and prompt the user for other ways to access Teams."       
+      - content: "Microsoft Teams is built with graceful degradation and provides whatever features the browser can support"  
         isCorrect: false  
-        explanation: "Administrators cannot do a bulk deployment of the web client." 
+        explanation: "That's incorrect. Microsoft Teams web client doesn't support graceful degradation." 

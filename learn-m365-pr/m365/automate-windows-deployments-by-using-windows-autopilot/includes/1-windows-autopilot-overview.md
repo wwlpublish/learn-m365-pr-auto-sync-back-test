@@ -3,10 +3,10 @@
 In this module, you will learn to:
 
 - Describe the benefits of Windows Autopilot to IT organizations.
-- Define the different methods of deploying Windows 10 via Autopilot.
+- Define the different methods of deploying Windows clients via Autopilot.
 - Explain the different administration options for device configuration.
 
-**Windows Autopilot** offers a zero-touch, self-service Windows deployment platform introduced with Windows 10, version 1703. The Windows Autopilot process runs immediately after powering on a new computer for the first time, enabling employees to configure new devices to be business-ready with just a few clicks.
+**Windows Autopilot** offers a zero-touch, self-service Windows deployment platform. The Windows Autopilot process runs immediately after powering on a new computer for the first time, enabling employees to configure new devices to be business-ready with just a few clicks.
 
 You can also use Windows Autopilot to reset, repurpose and recover devices. This solution enables an IT department to achieve the above with little to no infrastructure to manage, with a process that's easy and simple.
 

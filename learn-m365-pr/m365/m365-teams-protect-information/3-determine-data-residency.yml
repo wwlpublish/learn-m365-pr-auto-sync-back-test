@@ -5,8 +5,8 @@ metadata:
   title: Determine data residency
   description: Learn how to control where your Teams data resides.
   ms.date: 06/02/2021
-  ms.author: elizapo
-  author: lizap
+  ms.author: teleary
+  author: temanteleary
   ms.topic: interactive-tutorial
   ms.prod: learning-teams
 durationInMinutes: 3

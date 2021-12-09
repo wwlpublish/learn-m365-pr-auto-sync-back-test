@@ -1,0 +1,31 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.manage-safe-attachments.create-safe-attachment-policies-scc
+title: Create Safe Attachment policies using Microsoft 365 Defender
+metadata:
+  title: Create Safe Attachment policies using Microsoft 365 Defender
+  description: "Create Safe Attachment policies using Microsoft 365 Defender"
+  ms.date: 09/15/2021
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+sandbox: false
+labModal: false
+durationInMinutes: 6
+content: |
+  [!include[](includes/2-create-policies-using-defender.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "As the Enterprise Administrator for Lucerne Publishing, Allan Deyoung wants to modify Lucerne's Safe Attachments policy. Which option should Allan select that removes an infected attachment and quarantines the message so that only an admin can review, release, or delete it?"
+    choices:
+    - content: "Block"
+      isCorrect: false
+      explanation: "That's incorrect. This option blocks current and future emails and attachments that have detected malware. These Messages aren't delivered to the user. Try again."
+    - content: "Dynamic delivery"
+      isCorrect: false
+      explanation: "That's incorrect. This option immediately delivers the message body to the user, but it doesn't include the attachments. The attachments are reattached after scanning if they're found to be safe. Try again."
+    - content: "Replace"
+      isCorrect: true
+      explanation: "That's correct. This option removes an infected attachment and quarantines the message so that only an admin can review, release, or delete it."

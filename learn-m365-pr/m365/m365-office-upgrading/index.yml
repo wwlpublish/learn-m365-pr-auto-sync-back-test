@@ -3,9 +3,9 @@ uid: learn-m365-office.m365-upgrading-office
 metadata:
   title: Upgrading Office in Windows  
   description: Learn how to perform Office upgrades in Windows at scale, including the tools to help you create, configure, and deploy Office packages.
-  ms.date: 11/14/2019
-  author: puffinanda
-  ms.author: v-jolev
+  ms.date: 07/14/2021
+  author: temanteleary
+  ms.author: teleary
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Upgrading Office in Windows  

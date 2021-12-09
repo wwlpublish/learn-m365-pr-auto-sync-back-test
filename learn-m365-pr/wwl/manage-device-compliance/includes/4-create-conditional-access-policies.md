@@ -1,32 +1,32 @@
-Conditional access policies enable organizations to implement automated access control decisions. Based on the conditions in these policies, the decisions they generate determine who can access an organization's cloud apps. There are two types of conditional access with Intune:
+Conditional Access policies enable organizations to implement automated access control decisions. Based on the conditions in these policies, the decisions they generate determine who can access an organization's cloud apps. There are two types of Conditional Access with Intune:
 
- -  Device-based conditional access
- -  App-based conditional access
+ -  Device-based Conditional Access
+ -  App-based Conditional Access
 
-Organizations must configure the related compliance policies to drive conditional access compliance. Conditional access is commonly used to do things like:
+Organizations must configure the related compliance policies to drive Conditional Access compliance. Conditional Access is commonly used to do things like:
 
  -  allow or block access to Exchange on-premises.
  -  control access to the network.
  -  integrate with a Mobile Threat Defense solution.
 
-A conditional access policy employs an access scenario using the **When this happens**/**Then do this** workflow.
+A Conditional Access policy employs an access scenario using the **When this happens**/**Then do this** workflow.
 
- -  **When this happens.** Defines the reason for triggering the conditional access policy. This reason is characterized by a group of conditions that have been satisfied. In conditional access, the two assignment conditions play a special role:
+ -  **When this happens.** Defines the reason for triggering the Conditional Access policy. This reason is characterized by a group of conditions that have been satisfied. In Conditional Access, the two assignment conditions play a special role:
     
      -  **Users.** The users doing the access attempt (Who).
      -  **Cloud apps.** The targets of the access attempt (What).
 
     > [!NOTE]
-    > These two conditions are mandatory in a conditional access policy. Besides the two mandatory conditions, other conditions that describe how the access attempt is done can also be included. Common examples are using mobile devices or locations that are outside the company network.
+    > These two conditions are mandatory in a Conditional Access policy. Besides the two mandatory conditions, other conditions that describe how the access attempt is done can also be included. Common examples are using mobile devices or locations that are outside the company network.<br>
 
- -  **Then do this.** Defines the response of the policy. With a conditional access policy, organizations control how authorized users (users that have been granted access to a cloud app) can access cloud apps under specific conditions. In the response, other requirements such as multi-factor authentication and a managed device can be enforced. In the context of conditional access, the requirements the policy enforces are called access controls. In the most restrictive form, a policy can block access.
+ -  **Then do this.** Defines the response of the policy. With a Conditional Access policy, organizations control how authorized users (users that have been granted access to a cloud app) can access cloud apps under specific conditions. In the response, other requirements such as multifactor authentication (MFA) and a managed device can be enforced. In the context of Conditional Access, the requirements the policy enforces are called access controls. In the most restrictive form, a policy can block access.
 
 A conditional policy can be created that includes many settings, including:
 
  -  Assignments
     
      -  **Users and groups.** Specifies users, groups, and directory roles for which the policy applies, or which are excluded from the policy.
-     -  **Cloud apps.** Specifies the cloud apps for which access is controlled by the conditional access policy.
+     -  **Cloud apps.** Specifies the cloud apps for which access is controlled by the Conditional Access policy.
      -  **Conditions.** Conditions define when the policy will apply. They include sign in risks, device platforms, locations, client apps, and device state.<br>
  -  Access controls
     
@@ -39,9 +39,9 @@ A conditional policy can be created that includes many settings, including:
 The following diagram displays the steps that are completed when:
 
  -  App protection policies are applied to the Outlook app.
- -  The app protection policies are followed by a conditional access policy. This policy adds the Outlook app to an approved list of apps that can be used when accessing company e-mail.<br>
+ -  The app protection policies are followed by a Conditional Access policy. This policy adds the Outlook app to an approved list of apps that can be used when accessing company e-mail.<br>
 
-:::image type="content" source="../media/app-protection-policy-workflow-0fb7c738.png" alt-text="diagram displays the steps that are completed when you apply app protection policies to the Outlook app, followed by a conditional access policy that adds the Outlook app to an approved list of apps that can be used when accessing company e-mail":::
+:::image type="content" source="../media/app-protection-policy-workflow-0fb7c738.png" alt-text="diagram displays the steps that are completed when you apply app protection policies to the Outlook app, followed by a Conditional Access policy that adds the Outlook app to an approved list of apps that can be used when accessing company e-mail":::
 
 
 This diagram displays the following steps:
@@ -60,8 +60,17 @@ This diagram displays the following steps:
 
 **Additional reading.** For more information, see the following resources:
 
- -  [Common Conditional Access policies](/azure/active-directory/conditional-access/concept-conditional-access-policy-common)
- -  [Conditional access with Intune](/intune/conditional-access)
+ -  [Common Conditional Access policies](/azure/active-directory/conditional-access/concept-conditional-access-policy-common?azure-portal=true)
+ -  [Conditional Access with Intune](/intune/conditional-access?azure-portal=true)
+
+## **Exercise – Interactive demonstrations**
+
+Select the following links to complete these interactive demonstrations:
+
+ -  [Manage enrolled devices](https://edxinteractivepage.blob.core.windows.net/edxpages/MS-101/M11-L10-E5-T2/index.html?azure-portal=true)
+ -  [Create a Conditional Access policy](https://edxinteractivepage.blob.core.windows.net/edxpages/MS-101/M11-L10-E5-T4/index.html?azure-portal=true)
+
+The first simulation guides you through the steps to manage devices that are enrolled in Microsoft Intune for the fictitious Adatum Corporation. In this simulation, you'll manage the Category property of the two enrolled devices that are joined to Azure AD. In the second simulation, you'll create a Conditional Access policy that enables Adatum to control the devices and apps that connect to its email and company resources.
 
 ## Knowledge check
 

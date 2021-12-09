@@ -1,0 +1,52 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.plan-configure-network-settings-for-microsoft-teams.knowledge-check
+title: Knowledge check
+metadata:
+  title: Knowledge check
+  description: "Knowledge check"
+  ms.date: 10/26/2021
+  author: wwlpublish
+  ms.author: jennyche
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 5
+content: |
+  [!include[](includes/09-knowledge-check.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "As the Teams administrator for Northwind Traders, Allan DeYoung wants to determine and organize network requirements for connecting Microsoft Teams users across the entire organization. Allan is especially excited about creating representations of Northwind Traders using sites and Microsoft recommended personas. Which of the following tools will enable Allan to meet these goals?"
+    choices:
+    - content: "Microsoft 365 connectivity test"
+      isCorrect: false
+      explanation: "That's incorrect. The Microsoft 365 connectivity test network assessment tool runs basic connectivity tests against your Microsoft 365 tenant and makes specific network design recommendations for optimal Microsoft 365 performance. Try again."
+    - content: "Network Planner"
+      isCorrect: true
+      explanation: "That's correct. Network Planner is designed to assist the admin to determine and organize network requirements for connecting Microsoft Teams users across the whole organization. After providing network details and Teams usage, the Network Planner calculates the network requirements for deploying Teams and cloud voice across the organization’s physical locations. With Network Planner, Allan can create representations of Northwind Traders using sites and Microsoft recommended personas (office workers, remote workers, and Teams room system devices)."
+    - content: "Call Quality Dashboard"
+      isCorrect: false
+      explanation: "That's incorrect. Call Quality Dashboard (CQD) provides a network-wide view of call quality across an organization. Try again."
+  - content: "Contoso is currently experiencing quality issues in video and voice. For example, media packets are arriving at different rates, packets are being dropped, and media packets are taking a long time to reach their destinations. Which of the following tools will enable Contoso to address these issues by more effectively managing their resources rather than having to add bandwidth?"
+    choices:
+    - content: "Quality of Service"
+      isCorrect: true
+      explanation: "That's correct. Quality of Service (QoS) in Microsoft Teams allows real-time network traffic that's sensitive to network delays (for example, voice or video streams) to \"cut in line\" in front of traffic that's less sensitive (like downloading a new app, where an extra second to download isn't a large deal). QoS provides a way to more effectively manage the resources you have instead of adding bandwidth. Without some form of QoS, an organization may see the following quality issues in voice and video - jitter, packet loss, and delayed round-trip time."
+    - content: "The Reporting labels page in the Microsoft Teams admin center"
+      isCorrect: false
+      explanation: "That's incorrect. The Reporting labels page in the Microsoft Teams admin center lets you provide a text file containing a list of physical locations and their associated network subnets. This file is used by Call Analytics for generating reports. Try again."
+    - content: "An Intrusion Detection or Prevention System"
+      isCorrect: false
+      explanation: "That's incorrect. An Intrusion Detection or Prevention System (IDS/IPS) provides an extra layer of security for outbound connections. Try again."
+  - content: "As the network engineer for Fabrikam, Holly Spencer wants to build a network-wide view of call quality across the organization. Holly wants to include different building locations or endpoint-specific views such as wired or Wi-Fi connected devices. This reporting will enable Holly to assess the data to determine whether a problem is isolated to a single user or affects a larger segment of users. Which of the following tools will provide Holly with this reporting functionality?"
+    choices:
+    - content: "Call analytics"
+      isCorrect: false
+      explanation: "That's incorrect. Call analytics shows call and meeting quality for individual users in Teams.  Try again."
+    - content: "Call Quality Dashboard"
+      isCorrect: true
+      explanation: "That's correct. Call Quality Dashboard (CQD) provides a network-wide view of call quality across an organization. Location-enhanced CQD reports help the network engineer determine if the problem is a site-related issue. For example, you can include different building locations or endpoint-specific views such as wired or Wi-Fi connected devices. The data can be assessed to determine if the problem is isolated to a single user or affects a larger segment of users."
+    - content: "Quality of Service"
+      isCorrect: false
+      explanation: "That's incorrect. Quality of Service (QoS) in Microsoft Teams allows real-time network traffic that's sensitive to network delays (for example, voice or video streams) to \"cut in line\" in front of traffic that's less sensitive. Try again."

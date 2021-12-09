@@ -1,0 +1,37 @@
+### YamlMime:Module
+uid: learn.wwl.configure-message-transport
+metadata:
+  title: Configure message transport
+  description: "Configure message transport"
+  ms.date: 12/08/2021
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Configure message transport
+summary: Examines how messaging administrators must configure message transport, reviews the message transport options, and provides instruction on how to configure domains and connectors and implement an approval workflow for messaging.
+abstract: |
+  By the end of this module, you'll be able to:
+  - Configure the different transport options.
+  - Plan and set up domains for your organization.
+  - Understand how the receive and send connectors work.
+  - Describe how message moderation for different recipients work.
+prerequisites: ""
+iconUrl: /learn/achievements/2-configure-message-transport.svg
+levels:
+- intermediate
+roles:
+- administrator
+products:
+- azure-active-directory
+- m365
+units:
+- learn.wwl.configure-message-transport.introduction
+- learn.wwl.configure-message-transport.options
+- learn.wwl.configure-message-transport.configure-smtp-domains
+- learn.wwl.configure-message-transport.configure-connectors
+- learn.wwl.configure-message-transport.examine-message-moderation
+- learn.wwl.configure-message-transport.knowledge-check
+- learn.wwl.configure-message-transport.summary
+badge:
+  uid: learn.wwl.configure-message-transport.badge

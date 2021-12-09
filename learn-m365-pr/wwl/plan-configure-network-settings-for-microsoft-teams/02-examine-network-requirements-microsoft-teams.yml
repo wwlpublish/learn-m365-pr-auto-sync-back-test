@@ -1,0 +1,30 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.plan-configure-network-settings-for-microsoft-teams.examine-network-requirements
+title: Examine network requirements for Microsoft Teams
+metadata:
+  title: Examine network requirements for Microsoft Teams
+  description: "Examine network requirements for Microsoft Teams"
+  ms.date: 10/26/2021
+  author: wwlpublish
+  ms.author: jennyche
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 8
+content: |
+  [!include[](includes/02-examine-network-requirements-microsoft-teams.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "As the Team administrator for Fabrikam, Holly Spencer is investigating why audio quality has been acceptable in Teams meetings, but video quality has been poor. What typically causes this situation?"
+    choices:
+    - content: "Proxy servers are bypassed"
+      isCorrect: false
+      explanation: "That's incorrect. It is recommended that proxy servers should be bypassed. Try again."
+    - content: "Band steering is implemented"
+      isCorrect: false
+      explanation: "That's incorrect. Band steering is a technique implemented by WiFi vendors to influence dual-band clients to use the 5-GHz range. Try again."
+    - content: "Bandwidth is insufficient"
+      isCorrect: true
+      explanation: "That's correct. When bandwidth is insufficient, Teams prioritizes audio quality over video quality."

@@ -1,4 +1,4 @@
-As the security analyst for your organization, you wanted to find a solution that will help you to efficiently investigate and remediate security issues across your organization's devices. You've learned that you can use Microsoft Defender for Endpoint's automated investigation and remediation capabilities to help you to achieve your goal.
+As the security analyst for your organization, you wanted to find a solution that will help you to efficiently investigate and remediate security issues across your organization's devices. You've learned that Microsoft Defender for Endpoint's AIR capabilities can help you to achieve your goal.
 
 Now that you've completed this module, you should be able to:
 
@@ -8,5 +8,5 @@ Now that you've completed this module, you should be able to:
 
 ## Learn more
 
-- [Overview of automated investigations](/microsoft-365/security/defender-endpoint/automated-investigations?view=o365-worldwide&preserve-view=true)
-- [Automation levels in automated investigation and remediation capabilities](/microsoft-365/security/defender-endpoint/automation-levels?view=o365-worldwide&preserve-view=true)
+- [Overview of automated investigations](/microsoft-365/security/defender-endpoint/automated-investigations)
+- [Automation levels in automated investigation and remediation capabilities](/microsoft-365/security/defender-endpoint/automation-levels)

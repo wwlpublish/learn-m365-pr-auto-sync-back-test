@@ -5,13 +5,13 @@ metadata:
   description: Secure software development means integrating security into each phase of your development lifecycle, from requirements analysis to maintenance. Microsoft provides many services that can help you develop more secure code and deploy a more secure application in the cloud. <br><br>This learning path provides an overview of the services and offerings available to help you build secure software as part of a cybersecurity solution.<br><br>The deadline for agencies to comply with NIST/CISA/OMB guidance on security measures for critical software (including applying practices of least privilege, network segmentation, and proper configuration), per section 4 of the Executive Order on Improving the Nation's Cybersecurity, is **August 10, 2021**. <br><br>The deadline for agencies to comply with the guidance identifying practices that enhance the security of the software supply chain with respect to software procurement, also per section 4, is **March 8, 2022**.<br>
   ms.date: 06/28/2021
   author: lizap
-  ms.author: elizapo
+  ms.author: beccarobins
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Learn how Microsoft supports secure software development as part of a cybersecurity solution
 summary: Secure software development means integrating security into each phase of your development lifecycle, from requirements analysis to maintenance. Microsoft provides many services that can help you develop more secure code and deploy a more secure application in the cloud. <br><br>This learning path provides an overview of the services and offerings available to help you build secure software as part of a cybersecurity solution.<br><br>The deadline for agencies to comply with NIST/CISA/OMB guidance on security measures for critical software (including applying practices of least privilege, network segmentation, and proper configuration), per section 4 of the Executive Order on Improving the Nation's Cybersecurity, is **August 10, 2021**. <br><br>The deadline for agencies to comply with the guidance identifying practices that enhance the security of the software supply chain with respect to software procurement, also per section 4, is **March 8, 2022**.<br>
 prerequisites: None
-iconUrl: /learn/achievements/generic-trophy.svg
+iconUrl: /learn/achievements/secure-software-development-as-part-of-a-cybersecurity-solution.svg
 levels: 
 - beginner
 roles:

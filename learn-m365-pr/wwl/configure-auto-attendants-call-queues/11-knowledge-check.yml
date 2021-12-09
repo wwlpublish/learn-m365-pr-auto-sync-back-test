@@ -1,0 +1,52 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.configure-auto-attendants-call-queues.knowledge-check
+title: Knowledge check
+metadata:
+  title: Knowledge check
+  description: "Knowledge check"
+  ms.date: 11/08/2021
+  author: wwlpublish
+  ms.author: dahans
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 6
+content: |
+  [!include[](includes/11-knowledge-check.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "An organization needs to create a call queue; the logic needs to be set up so that the first person in the queue rings all agents at the same time. How would they achieve this?"
+    choices:
+    - content: "Round Robin routing"
+      isCorrect: false
+      explanation: "This option is not correct. Round robin - To offer a new call to each agent in turn"
+    - content: "Attendant Routing"
+      isCorrect: true
+      explanation: "This option is correct. Attendant Routing causes the first call in the queue to ring all call agents at the same time. The first call agent to pick up the call gets the call."
+    - content: "Serial routing"
+      isCorrect: false
+      explanation: "That option is not correct. Serial routing - incoming calls ring all call agents one by one, from the beginning of the call agent list. Agents can't be ordered within the call agent list. If an agent dismisses or doesn't pick up a call, the call will ring the next agent and will try all agents until it's picked up or timed out."
+  - content: "When implementing an auto attendant. How is it possible to enable the caller to make voice requests?"
+    choices:
+    - content: "Set a greeting message"
+      isCorrect: false
+      explanation: "That option is not correct. The greeting message is simply a welcome message the caller hears first."
+    - content: "Create a nested auto attendant"
+      isCorrect: false
+      explanation: "That option is not correct. A nested auto attendant enables you to link multiple auto attendants, but not define voice inputs."
+    - content: "Enable Voice Inputs"
+      isCorrect: true
+      explanation: "This option is correct. Setting this will enable voice commands in following menus. It will also enable callers to say 'operator' and get transferred directly to the operator."
+  - content: "An organization needs to add call handlers to a call queue and set up the order in which certain call handlers receive calls. How would they achieve this?"
+    choices:
+    - content: "Setup Longest Idle routing"
+      isCorrect: false
+      explanation: "That option is not correct. That is a routing method based on idleness of a call agent it doesn't set a pre-defined ordering"
+    - content: "Setup User groups"
+      isCorrect: false
+      explanation: "That option  is not correct. Calls are routed first to individual agents, then to the agents in groups."
+    - content: "Add users in the order you've been asked"
+      isCorrect: true
+      explanation: "That option is correct. Setup individual agents in the order in which you want them to receive the call"

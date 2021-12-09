@@ -1,0 +1,30 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.manage-phone-system-for-microsoft-teams.configure-dial-plans
+title: Configure dial plans
+metadata:
+  title: Configure dial plans
+  description: "Configure dial plans"
+  ms.date: 11/18/2021
+  author: wwlpublish
+  ms.author: jennyche
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 7
+content: |
+  [!include[](includes/07-configure-dial-plans.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "If no tenant scoped dial plan is defined, and no tenant user scoped dial plan is assigned to the provisioned user, which service dialing plan should an organization plan to use?"
+    choices:
+    - content: "Service Country/Region + Tenant Global-scoped"
+      isCorrect: false
+      explanation: "That's incorrect. This dialing plan applies if a tenant user dial plan is defined but not assigned to a user. Try again."
+    - content: "Service Country/Region + Tenant User-scoped"
+      isCorrect: false
+      explanation: "That's incorrect. This dialing plan applies if a tenant user dial plan is defined and assigned to a user. Try again."
+    - content: "Service Country/Region"
+      isCorrect: true
+      explanation: "That's correct. If no tenant scoped dial plan is defined and no tenant user scoped dial plan is assigned to the provisioned user, the user will receive an effective dial plan mapped to the service country/region associated with their usage location."

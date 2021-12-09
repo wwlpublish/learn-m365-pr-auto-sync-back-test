@@ -9,7 +9,7 @@ The following sections provide an overview of the vulnerabilities reported by Az
 
 This vulnerability can affect the deployment of Azure AD Multi-Factor Authentication (MFA) in your organization. MFA provides a second layer of security to user authentication. It helps safeguard access to data and applications while meeting user demand for a simple sign-in process. MFA delivers strong authentication through a range of easy verification options, such as phone call, text message, mobile app notification, verification code, and third-party OATH tokens.
 
-**Recommended Action:** It's recommended that you require Azure AD Multi-Factor Authentication for user sign-in attempts. MFA plays a key role in risk-based conditional access policies available through Azure Identity Protection.
+**Recommended Action:** It's recommended that you require Azure AD Multi-Factor Authentication for user sign-in attempts. MFA plays a key role in risk-based Conditional Access policies available through Azure Identity Protection.
 
 ### Unmanaged cloud apps
 
@@ -29,12 +29,12 @@ Most security breaches occur when attackers gain access to an environment by ste
 
 Currently, Azure Active Directory detects six types of risk events:
 
- *  Users with leaked credentials
- *  Sign in attempts from anonymous IP addresses
- *  Impossible travel to atypical locations
- *  Sign in attempts from infected devices
- *  Sign in attempts from IP addresses with suspicious activity
- *  Sign in attempts from unfamiliar locations
+ -  Users with leaked credentials
+ -  Sign in attempts from anonymous IP addresses
+ -  Impossible travel to atypical locations
+ -  Sign in attempts from infected devices
+ -  Sign in attempts from IP addresses with suspicious activity
+ -  Sign in attempts from unfamiliar locations
 
 :::image type="content" source="../media/azure-identity-protection-risks-c26764c0.png" alt-text="screenshot of Azure Identity Protection showing the Risk window":::
 
@@ -164,10 +164,10 @@ The risk event type is an identifier for the suspicious action a risk event reco
 
 Cybercriminals often share credentials when they compromise valid passwords of legitimate users. Criminals share credentials by posting them publicly on the dark web or paste sites or by trading or selling the credentials on the black market. The Microsoft Leaked Credentials Service acquires username / password pairs by monitoring public and dark web sites and by working with:
 
- *  Researchers
- *  Law enforcement
- *  Security teams at Microsoft
- *  Other trusted sources
+ -  Researchers
+ -  Law enforcement
+ -  Security teams at Microsoft
+ -  Other trusted sources
 
 When the service acquires username/password pairs, they're checked against the Azure AD users' current credentials. If a match is found, it means that a user's password has been compromised, and a *leaked credentials risk event* is created.
 

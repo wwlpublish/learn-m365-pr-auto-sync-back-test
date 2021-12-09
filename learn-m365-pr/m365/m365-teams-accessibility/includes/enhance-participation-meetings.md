@@ -8,7 +8,7 @@ Here, you'll explore the different options available to you so that you can enha
 
 For some users with hearing disabilities or who are neurodiverse, it can be difficult to find the right moment to contribute to the discussion without speaking over others. Microsoft Teams provides the **Raise your hand** option, so users have more ways to participate in meeting discussions in a comfortable and inclusive way.
 
-When a user selects **Raise your Hand**, the meeting presenter will receive a notification so they can give that user the opportunity to provide their input in a way that works best for that user. Other participants are temporarily muted while this user speaks. When the user is done, they use the **Lower your hand** option. The meeting presenter can also lower a participant's hand if necessary.
+When a user selects **Raise your hand**, the meeting presenter will receive a notification so they can give that user the opportunity to provide their input in a way that works best for that user. Other participants are temporarily muted while this user speaks. When the user is done, they use the **Lower your hand** option. The meeting presenter can also lower a participant's hand if necessary.
 
 The **Raise your hand** option is available to all participants of the meeting and is a great way to let the presenter and all the other participants of the meeting know that you would like to speak.
 

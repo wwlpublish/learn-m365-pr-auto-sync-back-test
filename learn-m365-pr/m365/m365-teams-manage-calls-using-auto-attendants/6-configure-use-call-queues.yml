@@ -5,8 +5,8 @@ metadata:
   title: Configure and use call queues
   description: Learn how to control call routing options.
   ms.date: 06/02/2021
-  ms.author: elizapo
-  author: lizap
+  ms.author: teleary
+  author: temanteleary
   ms.topic: interactive-tutorial
   ms.prod: learning-teams
 durationInMinutes: 2

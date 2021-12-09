@@ -3,8 +3,8 @@ uid: learn-m365.mcas-threat-detection.5-knowledge-check
 metadata:
   title: Knowledge check
   description: Knowledge check
-  ms.date: 06/02/2021
-  author: geoffallix
+  ms.date: 07/15/2021
+  author: beccarobins
   ms.author: beccarobins
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
@@ -16,14 +16,14 @@ quiz:
   title: Check your knowledge
   questions:
 
-  - content: "Which of the following Microsoft Cloud App Security modes enable an administrator to implement conditional access app control?"
+  - content: "Which of the following Microsoft Cloud App Security modes enable an administrator to implement Conditional Access app control?"
     choices:
     - content: "Log collection."
       isCorrect: false
       explanation: "That's incorrect. Log collection enables you to gather data logging data from various sources for analysis."
     - content: "Reverse proxy."
       isCorrect: true
-      explanation: "That's correct. Reverse proxy enables you to implement conditional access app control over your data."
+      explanation: "That's correct. Reverse proxy enables you to implement Conditional Access app control over your data."
     - content: "API connectors."
       isCorrect: false
       explanation: "That's incorrect. API connectors enable you to connect Cloud App Security to both Microsoft and third-party SaaS platforms."

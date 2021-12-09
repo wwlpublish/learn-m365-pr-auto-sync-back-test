@@ -3,9 +3,9 @@ uid: learn-m365.teams.deploy-meetings
 metadata:
   title: Deploy meetings using Teams 
   description: Learn how to set up user accounts for access to meetings and how to configure advanced meetings features, such as recording and video interoperability.
-  ms.date: 09/16/2020
-  ms.author: elizapo
-  author: lizap
+  ms.date: 11/08/2021
+  author: temanteleary
+  ms.author: teleary
   ms.topic: interactive-tutorial
   ms.prod: learning-teams
 title: Deploy meetings using Teams

@@ -1,0 +1,5 @@
+This module examined how to upgrade from an on-premises Skype for Business deployment to a Microsoft Teams deployment. When an organization is still running a Skype for Business environment, the administrators need to plan their upgrade path from Skype for Business to Teams. For this upgrade journey to Microsoft Teams, administrators must create a solid plan for the upgrade strategy and path. 
+
+In this module, you explored the different upgrade paths and coexistence modes that are available. This information helps administrators become familiar with the various ways to transition from Skype for Business to Teams. In doing so, they can determine the most optimal solution for their organizations.
+
+This module examined the upgrade process from on-premises Skype for Business to Microsoft Teams. You were provided with guidance on how to determine which coexistence mode is most appropriate for your organization. You also learned how to configure coexistence and upgrade settings, and how to manage the migration for meetings.

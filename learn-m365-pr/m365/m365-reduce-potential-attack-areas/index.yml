@@ -3,25 +3,25 @@ uid: learn-m365-pr.reduce-potential-attack-areas-with-microsoft-defender-for-end
 metadata:
   moduleType: standard
   title: Reduce potential attack areas with Microsoft Defender for Endpoint
-  description: Learn how to reduce potential attack surfaces across your environment with Microsoft Defender for Endpoint through capabilities such as application control, network protection, hardware-based isolation, controlled folder access, and web protection.
-  ms.date: 07/16/2021
-  author: alistairmatthews
+  description: Learn how to reduce potential attack surfaces across your environment with Microsoft Defender for Endpoint. Capabilities include application control, network protection, hardware-based isolation, controlled folder access, and web protection. 
+  ms.date: 11/08/2021
+  author: beccarobins
   ms.author: beccarobins
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Reduce potential attack areas with Microsoft Defender for Endpoint
-summary: Learn how to reduce potential attack surfaces across your environment with Microsoft Defender for Endpoint through capabilities such as application control, network protection, hardware-based isolation, controlled folder access, and web protection.
-abstract: | 
+summary: Learn how to reduce potential attack surfaces across your environment with Microsoft Defender for Endpoint. Capabilities include application control, network protection, hardware-based isolation, controlled folder access, and web protection. 
+abstract: |
   By the end of this module, you'll be able to:
   - Understand attack surface reduction in Microsoft Defender for Endpoint.
-  - Understand the different surface attack reduction protections in Microsoft Defender for Endpoint.
+  - Understand the different kinds of surface attack reduction protection in Microsoft Defender for Endpoint. 
   - Understand attack surface reduction rules.
-prerequisites: | 
+prerequisites: |
   - Basic familiarity with Microsoft Defender for Endpoint.
-iconUrl: /learn/achievements/generic-badge.svg
-levels: 
+iconUrl: /learn/achievements/m365-defender-endpoint-reduce-attack-areas.svg
+levels:
   - beginner
-roles: 
+roles:
   - security-operations-analyst
   - security-engineer
 products:

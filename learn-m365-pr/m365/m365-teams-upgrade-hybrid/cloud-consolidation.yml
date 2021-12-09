@@ -5,8 +5,8 @@ metadata:
   title: Cloud consolidation for Teams and Skype for Business
   description: Learn how to consolidate multiple workloads into a single cloud tenant
   ms.date: 07/16/2021
-  author: lizap
-  ms.author: elizapo
+  author: temanteleary
+  ms.author: teleary
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 durationInMinutes: 2

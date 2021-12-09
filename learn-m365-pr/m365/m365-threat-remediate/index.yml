@@ -3,9 +3,9 @@ uid: learn-m365.m365-threat-remediate
 metadata:
   title: Remediate risks with Microsoft Defender for Office 365
   description: Learn about the Microsoft Defender for Office 365 component of Microsoft 365 Defender.
-  ms.date: 07/16/2021
-  author: AlexandraHrt
-  ms.author: elizapo
+  ms.date: 11/03/2021
+  author: beccarobins
+  ms.author: beccarobins
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Remediate risks with Microsoft Defender for Office 365  

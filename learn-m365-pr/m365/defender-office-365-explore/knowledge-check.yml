@@ -1,0 +1,60 @@
+### YamlMime:ModuleUnit
+uid: learn-m365-pr.defender-office-365-explore.knowledge-check
+title: Knowledge check 
+metadata:
+  unitType: knowledge_check
+  title: Knowledge check
+  description: Check what you've learned in this module.  
+  ms.date: 5/17/2021
+  author: beccarobins
+  ms.author: beccarobins
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 4
+content: |
+quiz:
+  questions:
+  - content: "Which of the following describe the tool you would use to find policies or settings that may be causing delivery of unwanted mail?"
+    choices:
+    - content: "Message overrides"
+      isCorrect: true
+      explanation: "Use message overrides to see what is causing delivery of unwanted emails."
+    - content: "Configuration analyzer"
+      isCorrect: false
+      explanation: "Configuration analyzer provides a central location to find and fix security policies where the settings are below the standard and strict protection levels."
+    - content: "Preset security policies"
+      isCorrect: false
+      explanation: "These are help you set policies based on recommended settings and stay current over time. "
+  - content: "Which of the following describes the feature that takes email attachments and detonates them in a virtual environment?"
+    choices:
+    - content: "Safe Links"
+      isCorrect: false
+      explanation: "That is incorrect. Safe Links provide URL scanning and rewriting of inbound email messages in mail flow, and time-of-click verification of URLs and links in email messages and other locations."
+    - content: "Safe Attachments"
+      isCorrect: true
+      explanation: "That's correct! Safe Attachments uses a virtual environment to check attachments in email messages before they're delivered to recipients (a process known as detonation)."
+    - content: "Anti-phishing policy"
+      isCorrect: false
+      explanation: "That is incorrect. The anti-phishing policy provides spoof protection and mailbox intelligence for all recipients."
+  - content: "Which of the following describes the correct order of precedence for preset policies from highest to lowest priority?"
+    choices:
+    - content: "Standard, Default, Strict, Custom"
+      isCorrect: false
+      explanation: "Strict is the highest order of precedence and default is the lowest."
+    - content: "Custom, Strict, Standard, Default"
+      isCorrect: false
+      explanation: "Strict is the highest order of precedence and default is the lowest."
+    - content: "Strict, Standard, Custom, Default"
+      isCorrect: true
+      explanation: "This is the correct order of precedence."
+  - content: "Which of the following statements is true regarding the release of quarantined messages?"
+    choices:
+    - content: "End users can release quarantined spam messages"
+      isCorrect: true
+      explanation: "Admins can enable end-user spam notifications from which users can release such messages."
+    - content: "You can release a message and report it as a false positive as many times as required."
+      isCorrect: false
+      explanation: "You can only release a message and report it as a false positive (not junk) once."
+    - content: "Messages are kept in quarantine for no longer than 90 days."
+      isCorrect: false
+      explanation: "Admins can configure how long messages are kept in quarantine before they're permanently deleted."

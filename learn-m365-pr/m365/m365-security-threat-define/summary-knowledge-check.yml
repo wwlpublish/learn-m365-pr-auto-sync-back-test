@@ -4,9 +4,9 @@ title: Summary and knowledge check
 metadata:
   title: Summary and knowledge check
   description: Learn about cybersecurity threats and how the new threat protection tools from Microsoft protect your organization’s users, devices, and data.
-  ms.date: 07/19/2021
-  author: AlexandraHrt
-  ms.author: elizapo
+  ms.date: 07/15/2021
+  author: beccarobins
+  ms.author: beccarobins
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 durationInMinutes: 5
@@ -15,14 +15,17 @@ content: |
 quiz:
     title: Check your knowledge
     questions:
-    - content: "Threats are the potential weakness that attackers can use to infiltrate your organization. "
+    - content: "Which statement best describes the relationship between cyber threats and vulnerabilities?"
       choices:
-      - content: "True"
+      - content: "A threat is a possible action that exploits a system vulnerability."
         isCorrect: true
-        explanation: "Correct! Threats are the potential weakness that attackers can use to infiltrate your organization."
-      - content: "False"
+        explanation: "Correct! Threats are potential actions by attackers that exploit system vulnerabilities."
+      - content: "A vulnerability is a potential weakness that attackers can use to infiltrate your organization."
         isCorrect: false
-        explanation: "Threats are the potential weakness that attackers can use to infiltrate your organization."
+        explanation: "Incorrect. A vulnerability is a weak point in system security that an attacker can exploit."
+      - content: "Threats and vulnerabilities are both tools used by attackers to gain access to systems."
+        isCorrect: false
+        explanation: "Incorrect. Neither threats nor vulnerabilities are tools used by attackers."
      
     - content: "Which of the following choices describe the benefits of Microsoft 365 Defender?"
       choices:
@@ -34,13 +37,13 @@ quiz:
         explanation: "Incorrect. This is an explanation of Azure Information Protection. Microsoft 365 Defender coordinates defenses to stop attacks from spreading and autoheals impacted assets."
       - content: "Safeguard access to data and applications by requiring a second form of authentication and deliver strong authentication via a range of easy-to-use authentication methods."
         isCorrect: false
-        explanation: "Incorrect. This is an explanation of multi-factor authentication. Microsoft 365 Defender coordinates defenses to stop attacks from spreading and autoheals impacted assets."      
+        explanation: "Incorrect. This is an explanation of multifactor authentication. Microsoft 365 Defender coordinates defenses to stop attacks from spreading and autoheals impacted assets."      
   
     - content: "Which of the following is not part of the typical attack timeline?"
       choices:
       - content: "Research and preparation"
         isCorrect: false
-        explanation: "Incorrect. Using social media, open source intelligence sources, and data from previous attacks, are all part of the typical attack timeline."
+        explanation: "Incorrect. Using social media, open-source intelligence sources, and data from previous attacks, are all part of the typical attack timeline."
       - content: "Data exfiltration"
         isCorrect: false
         explanation: "Incorrect. Attackers typically exfiltrate data for illicit purposes and go undetected for 200+ days."

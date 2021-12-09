@@ -3,7 +3,7 @@ uid: learn.wwl.troubleshoot-apps-channels
 metadata:
   title: Troubleshoot Apps and Channels
   description: "You will learn how to troubleshoot the issues that arise in public and private channels, including working with apps. You will learn how to configure and validate app permission policies, and setup policies. You will also learn how to define permissions and policies for public and private channels."
-  ms.date: 08/05/2021
+  ms.date: 08/24/2021
   author: wwlpublish
   ms.author: cyncarey
   ms.topic: interactive-tutorial
@@ -19,7 +19,7 @@ prerequisites: |
   - Experience configuring and administering Microsoft Teams
   - Experience using Windows PowerShell
   - Working experience with performance tuning and service monitoring
-iconUrl: /learn/achievements/generic-badge.svg
+iconUrl: /learn/achievements/troubleshoot-apps-channels.svg
 levels:
 - advanced
 roles:

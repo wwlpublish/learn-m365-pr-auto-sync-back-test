@@ -4,9 +4,9 @@ title: Manage Teams by using policies
 metadata:
   title: Manage Teams by using policies  
   description: Learn how policies can be used to impose restrictions on large numbers of users and devices across your Teams system.
-  ms.date: 07/16/2021
-  ms.author: elizapo
-  author: lizap
+  ms.date: 08/16/2021
+  ms.author: teleary
+  author: temanteleary
   ms.topic: interactive-tutorial
   ms.prod: learning-teams
 durationInMinutes: 8

@@ -7,9 +7,9 @@ As a result, most companies have resorted to making enrollment of personal devic
 
  -  Users can only access company resources from enrolled devices that follow company policy.
  -  Compliance policies are used to define how devices should be configured.
- -  Conditional access policies are used for controlling access to company resources.
+ -  Conditional Access policies are used for controlling access to company resources.
 
-To control access to company resources, organizations can configure either a Security policy in Microsoft 365 or a Conditional access policy in Intune. These policies can be configured to only allow access to company resources from enrolled devices.
+To control access to company resources, organizations can configure either a Security policy in Microsoft 365 or a Conditional Access policy in Intune. These policies can be configured to only allow access to company resources from enrolled devices.
 
 For example, if such a policy is in place and a user tries to access company resources, such as their Exchange Online mailbox, the user will be denied access and redirected to enroll their device first. After the user enrolls the device, they can access their mailbox.<br>
 
@@ -27,13 +27,13 @@ Organizations can configure automatic enrollment to MDM for Windows 10 devices o
  -  If a Windows 10 device is already joined to an on-premises AD DS that is synced to Azure AD, the **Enable automatic MDM enrollment using default Azure AD credentials** Group Policy setting can be configured to enroll devices to MDM.
  -  If Azure AD is integrated with MDM, then any Windows 10 devices that users join to Azure AD are automatically enrolled to MDM.
 
-    > [!NOTE]
-    > Azure AD users can enroll devices to Azure AD by default. However, they must have an Intune license to use this feature.
+> [!NOTE]
+> Azure AD users can enroll devices to Azure AD by default. However, they must have an Intune license to use this feature.
 
 **Additional reading.** For more information, see the following resources:
 
- -  [Enrolling Windows 10 devices by using Group Policy](/windows/client-management/mdm/enroll-a-windows-10-device-automatically-using-group-policy).
- -  [Integrating Azure AD with MDM](/windows/client-management/mdm/azure-ad-and-microsoft-intune-automatic-mdm-enrollment-in-the-new-portal).
+ -  [Enrolling Windows 10 devices by using Group Policy](/windows/client-management/mdm/enroll-a-windows-10-device-automatically-using-group-policy?azure-portal=true).
+ -  [Integrating Azure AD with MDM](/windows/client-management/mdm/azure-ad-and-microsoft-intune-automatic-mdm-enrollment-in-the-new-portal?azure-portal=true).
 
 ### Manual enrollment of Windows 10 devices
 
@@ -50,6 +50,6 @@ Organizations can enroll Android and iOS devices by using the Company Portal app
 :::image type="content" source="../media/company-portal-sign-in-page-041d875a.jpg" alt-text="screenshot of the company portal sign-in page":::
 
 
-**Additional reading.** For more information, see [Enrolling Android and iOS devices to MDM](/intune-user-help/enroll-your-device-in-intune-all).
+**Additional reading.** For more information, see [Enrolling Android and iOS devices to MDM](/intune-user-help/enroll-your-device-in-intune-all?azure-portal=true).
 
 ### 

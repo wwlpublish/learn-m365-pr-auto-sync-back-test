@@ -1,15 +1,15 @@
 ### YamlMime:LearningPath
 uid: learn-m365.microsoft-365-get-modern
 metadata:
-  title: Microsoft 365 - Modernize your enterprise deployment with Windows 10 and Microsoft 365 ProPlus
-  description: Microsoft 365 helps you create a secure, always-up-to-date environment by using Windows 10 devices that run Microsoft 365 ProPlus and are managed by Microsoft Enterprise Mobility + Security. Learn the recommended steps to upgrade your organization to Windows 10 and Microsoft 365 ProPl, including how to leverage your existing tools and processes while adopting modern management technology and approaches along the way.
-  ms.date: 06/06/2019
+  title: Microsoft 365 - Modernize your enterprise deployment with Windows devices and Microsoft 365 ProPlus
+  description: Microsoft 365 helps you create a secure, always-up-to-date environment by using Windows devices that run Microsoft 365 ProPlus and are managed by Microsoft Enterprise Mobility + Security. Learn the recommended steps to upgrade your organization to Windows devices and Microsoft 365 ProPlus, including how to leverage your existing tools and processes while adopting modern management technology and approaches along the way.
+  ms.date: 10/05/2021
   author: lizap
-  ms.author: elizapo
+  ms.author: teleary
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-title: Microsoft 365 - Modernize your enterprise deployment with Windows 10 and Microsoft 365 Apps
-summary: "Microsoft 365 helps you create a secure, always-up-to-date environment by using Windows 10 devices that run Microsoft 365 Apps and are managed by Microsoft Enterprise Mobility + Security. Learn the recommended steps to upgrade your organization to Windows 10 and Microsoft 365 Apps, including how to leverage your existing tools and processes while adopting modern management technology and approaches along the way. This learning path can help you prepare for the [Microsoft 365 Certified: Modern Desktop Associate](https://www.microsoft.com/learning/microsoft-365-exams.aspx#exam-md-100-section) certification."
+title: Microsoft 365 - Modernize your enterprise deployment with Windows devices and Microsoft 365 Apps
+summary: "Microsoft 365 helps you create a secure, always-up-to-date environment by using Windows devices that run Microsoft 365 Apps and are managed by Microsoft Enterprise Mobility + Security. Learn the recommended steps to upgrade your organization to Windows devices and Microsoft 365 Apps, including how to leverage your existing tools and processes while adopting modern management technology and approaches along the way. This learning path can help you prepare for the [Microsoft 365 Certified: Modern Desktop Associate](https://www.microsoft.com/learning/microsoft-365-exams.aspx#exam-md-100-section) certification."
 prerequisites: | 
  - Basic understanding of Microsoft 365.
 iconUrl: /learn/achievements/get-modern-with-windows-10-and-office-365-proplus-in-microsoft-365.svg

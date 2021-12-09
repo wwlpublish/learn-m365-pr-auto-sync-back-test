@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.configure-auto-attendants-call-queues.configure-auto-attendants-call-queues
+title: Configure auto attendants and call queues
+metadata:
+  title: Configure auto attendants and call queues
+  description: "Configure auto attendants and call queues"
+  ms.date: 11/08/2021
+  author: wwlpublish
+  ms.author: dahans
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 10
+content: |
+  [!include[](includes/3-configure-auto-attendants-call-queues.md)]

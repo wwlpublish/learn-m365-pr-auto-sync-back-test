@@ -4,8 +4,8 @@ metadata:
   title: Create and apply a form processing model
   description: Identify a scenario where a form processing model is necessary and learn how to resolve this scenario by creating a form processing model, train and test the form processing model, and apply the form processing model to the appropriate SharePoint document library.
   ms.date: 07/27/2021
-  author: beccarobins
-  ms.author: beccarobins
+  author: temanteleary
+  ms.author: teleary
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Create and apply a form processing model
@@ -18,7 +18,7 @@ abstract: |
 prerequisites: | 
    - Basic understanding of SharePoint Syntex  
    - Familiarity with document understanding models  
-iconUrl:  /learn/achievements/generic-badge.svg
+iconUrl:  /learn/achievements/create-and-apply-a-form-processing-model.svg
 ratingEnabled: true
 levels:
 - beginner

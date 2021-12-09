@@ -4,9 +4,9 @@ title: Knowledge check
 metadata:
   unitType: knowledge_check
   title: Knowledge check 
-  description: Check your knowledge of the module content. 
+  description: Check your knowledge of the module content.
   ms.date: 07/19/2021
-  author: iankensey
+  author: beccarobins
   ms.author: beccarobins
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
@@ -18,32 +18,32 @@ quiz:
     choices:
     - content: "Microsoft 365 Security Center portal"
       isCorrect: false
-      explanation: "You can't find Power BI sample reports in this portal."
+      explanation: "That's incorrect. You can't find Power BI sample reports in this portal."
     - content: "GitHub"
       isCorrect: true
-      explanation: "Use the sample reports from the GitHub repo. You can import them directly into your Power BI instance."
+      explanation: "That's correct! You can use the sample reports from the GitHub repo by importing them directly into your Power BI instance."
     - content: "The Sample Reports portal"
       isCorrect: false
-      explanation: "This portal doesn't exist."
+      explanation: "That's incorrect. This portal doesn't exist."
   - content: "Which report will you use to find out about how many sensors on your devices have impaired communications?"
     choices:
     - content: "Vulnerable devices report"
       isCorrect: false
-      explanation: "This isn't a report that will give the information you need to monitor the state of sensors across your devices."
+      explanation: "That's incorrect. This isn't a report that will give the information you need to monitor the state of sensors across your devices."
     - content: "Threat protection report"
       isCorrect: false
-      explanation: "This isn't a report that will give the information you need to monitor the state of sensors across your devices."
+      explanation: "That's not right. This isn't a report that will give the information you need to monitor the state of sensors across your devices."
     - content: "Device health and compliance report"
       isCorrect: true
-      explanation: "Use the device health and compliance report to review high-level information about the overall health of your devices, including the state of sensors."
+      explanation: "That's correct! Use the device health and compliance report to review high-level information about the overall health of your devices, including the state of sensors."
   - content: "You need to be able to keep up with changes to the threat environment in the outside world, such as newly emerging threats. Which built-in report will you do?"
     choices:
-    - content: "Use threat analytics."
+    - content: "Threat analytics"
       isCorrect: true
-      explanation: "Use threat analytics to monitor for the newest threats, and continuously assess how new threats can impact your endpoints."
-    - content: "Use custom reports."
+      explanation: "That's correct! Use threat analytics to monitor for the newest threats, and continuously assess how new threats can impact your endpoints."
+    - content: "Custom reports"
       isCorrect: false
-      explanation: "Custom reports aren't built-in reports."
-    - content: "Use vulnerable devices reports"
+      explanation: "That's incorrect. Custom reports aren't built-in reports."
+    - content: "Vulnerable devices reports"
       isCorrect: false
-      explanation: "These reports don't give you the information you need to learn about newly emerging threats."
+      explanation: "That's incorrect. These reports don't give you the information you need to learn about newly emerging threats."

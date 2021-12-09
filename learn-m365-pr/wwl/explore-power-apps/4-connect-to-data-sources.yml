@@ -4,19 +4,21 @@ title: Connect Power Apps to data sources
 metadata:
   title: Connect Power Apps to data sources
   description: "Connect Power Apps to data sources"
-  ms.date: 07/09/2021
+  ms.date: 09/10/2021
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
+sandbox: false
+labModal: false
 durationInMinutes: 6
 content: |
   [!include[](includes/4-connect-to-data-sources.md)]
 quiz:
   title: "Check your knowledge"
   questions:
-  - content: "What do connections to on-premises data sources, such as an on-premises SharePoint service, require to provide quick and secure data transfer between on-premises data and the Microsoft Power Platform products?"
+  - content: "What do connections to on-premises data sources, such as an on-premises SharePoint service, require to provide quick and secure data transfer between on-premises data and the Power Platform products?"
     choices:
     - content: "Common Data Service"
       isCorrect: false

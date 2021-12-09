@@ -5,8 +5,8 @@ metadata:
   title: Secure Microsoft Teams with three tiers of protection
   description: Learn about Microsoft's recommended three tiers of protection for data in Teams.
   ms.date: 07/15/2021
-  ms.author: elizapo
-  author: lizap
+  ms.author: teleary
+  author: temanteleary
   ms.topic: interactive-tutorial
   ms.prod: learning-teams
 durationInMinutes: 3

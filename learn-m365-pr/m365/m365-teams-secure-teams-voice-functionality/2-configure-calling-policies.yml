@@ -5,8 +5,8 @@ metadata:
   title: Control calling features 
   description: Learn how to use calling policies in Teams to control telephony in your company.
   ms.date: 07/16/2021
-  ms.author: elizapo
-  author: lizap
+  ms.author: teleary
+  author: temanteleary
   ms.topic: interactive-tutorial
   ms.prod: learning-teams
 durationInMinutes: 5

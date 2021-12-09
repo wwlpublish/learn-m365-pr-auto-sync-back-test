@@ -8,8 +8,8 @@ In Microsoft 365, user accounts are stored in Azure Active Directory (Azure AD).
 
 - **Multifactor authentication** - The user has to pass two or more tests, such as:
   - Entering the correct username and password.
-  - Providing a one-time authentication code that has been sent to their mobile phone as a text message or voice call. 
-  - Providing the correct time-limited code from the Microsoft Authenticator app on their mobile device. This method can also use other authenticator apps. 
+  - Providing a one-time authentication code that has been sent to their mobile phone as a text message or voice call.
+  - Providing the correct time-limited code from the Microsoft Authenticator app on their mobile device. This method can also use other authenticator apps.
 - **Client certificate authentication** - The user is authenticated when they supply a certificate that correctly identifies them, and has been signed by a certificate authority that is trusted by Microsoft 365.
 
 Once the user is authenticated, Azure AD uses the OAuth protocol to authorize that user to access Exchange. In this protocol, Azure AD issues a digital access token to the client app. When Outlook makes a request to Exchange, it includes this token, which Exchange uses to ensure the user should have access to the mailbox or resource requested.
@@ -19,7 +19,7 @@ Modern authentication enables Outlook for iOS and Android to use these features:
 - AutoDetect - helps users set up access to Exchange by supplying only their email address and credentials. AutoDetect gets all the other information necessary from the Exchange Online server.
 - Single sign-on. All Microsoft mobile device apps support Azure AD authentication. If the Office apps on a device use the same Microsoft 365 URL or use the same authenticator app, then they can reuse the tokens issued to other apps on the device. This feature is called single sign-on. For example, if you use Word to authenticate with Microsoft 365 and edit a document, you can subsequently use Outlook to open your mailbox without the need to sign in again.
 
->[!NOTE]
+> [!NOTE]
 > Many EAS, IMAP4, and POP3 clients also support modern authentication and OAuth. Support for these clients is currently being rolled out in Exchange Online.  
 
 ## Basic authentication for mobile devices

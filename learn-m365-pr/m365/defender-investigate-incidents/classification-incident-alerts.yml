@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-m365-pr.defender-investigate-incidents.classification-incident-alerts
+title: Classification of incidents and alerts
+metadata:
+  unitType: learning-content
+  title: Classification of incidents and alerts
+  description: Improving the quality of incident's in the incident queue is key. Here, you'll learn how to classify incident and alerts to improve and fine tune detections and reduce false positives. 
+  ms.date: 08/12/2021
+  author: beccarobins
+  ms.author: beccarobins
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 8
+content: |
+  [!include[](includes/classification-incident-alerts.md)]

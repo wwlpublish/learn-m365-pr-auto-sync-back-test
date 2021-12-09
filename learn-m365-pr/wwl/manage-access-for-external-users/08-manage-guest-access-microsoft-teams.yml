@@ -1,0 +1,30 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.manage-access-for-external-users.manage-guest-access-microsoft-teams
+title: Manage guest access in Microsoft Teams
+metadata:
+  title: Manage guest access in Microsoft Teams
+  description: "Manage guest access in Microsoft Teams"
+  ms.date: 10/25/2021
+  author: wwlpublish
+  ms.author: jennyche
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 5
+content: |
+  [!include[](includes/08-manage-guest-access-microsoft-teams.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "As the Teams administrator for Contoso, Holly Dickson wants to implement guest access to enable collaboration with people outside the organization. Holly activated guest access in Microsoft Teams, but external people with a personal or business email account still can't access Contoso's existing teams or channels. What else must Holly do to enable guest access?"
+    choices:
+    - content: "Set the Make private calls setting to On"
+      isCorrect: false
+      explanation: "That's incorrect. This setting enables guests to make peer-to-peer calls in Microsoft Teams. It doesn't enable guest access. Try again."
+    - content: "Update the Guest User Access setting on the External collaboration settings page"
+      isCorrect: false
+      explanation: "That's incorrect. This setting determines the permissions that guests have in Azure AD. It doesn't enable guest access. Try again."
+    - content: "Enable Guest access in Azure AD"
+      isCorrect: true
+      explanation: "That's correct. Even if you activate Guest access in Teams, you must also ensure that Guest access is enabled in Azure AD."

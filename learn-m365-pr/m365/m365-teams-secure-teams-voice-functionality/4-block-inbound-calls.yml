@@ -5,8 +5,8 @@ metadata:
   title: Control inbound calls 
   description: Learn how to use Microsoft Teams Calling Plans to block inbound calls from distrusted numbers.
   ms.date: 07/15/2021
-  ms.author: elizapo
-  author: lizap
+  ms.author: teleary
+  author: temanteleary
   ms.topic: interactive-tutorial
   ms.prod: learning-teams
 durationInMinutes: 8

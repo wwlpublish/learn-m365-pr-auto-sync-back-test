@@ -27,7 +27,7 @@ Service status
   :::column:::
     
 
-You can check the current Microsoft Cloud App Security service status by going to the [Microsoft Cloud App Security site](https://status.cloudappsecurity.com/?azure-portal=true) or directly from within your Cloud App Security portal by selecting **Help &gt; System status**.
+You can check the current Microsoft Cloud App Security service status by going to the [Microsoft Cloud App Security site](https://status.cloudappsecurity.com/?azure-portal=true) or directly from within your Cloud App Security portal by selecting **Help > System status**.
 
 
   :::column-end:::
@@ -49,7 +49,7 @@ Investigate error codes in the following areas:
  -  Log collector errors
  -  Discovery dashboard errors
 
-A detailed list of error codes and how to resolve them is available in the following article on [Troubleshooting Cloud Discovery](/cloud-app-security/troubleshooting-cloud-discovery).
+A detailed list of error codes and how to resolve them is available in the following article on [Troubleshooting Cloud Discovery](/cloud-app-security/troubleshooting-cloud-discovery?azure-portal=true).
 
 
   :::column-end:::
@@ -68,7 +68,7 @@ API Connectors using error messages
 App connector errors can be seen in the app connector dialog after attempting to connect a cloud app using the API App connector.
 
 
-A detailed list of error codes and how to resolve them is available in the following article on [Troubleshooting API Connectors using Error Messages](/cloud-app-security/troubleshooting-api-connectors-using-error-messages).
+A detailed list of error codes and how to resolve them is available in the following article on [Troubleshooting API Connectors using Error Messages](/cloud-app-security/troubleshooting-api-connectors-using-error-messages?azure-portal=true).
 
 
   :::column-end:::
@@ -87,7 +87,7 @@ Content inspection
 Troubleshooting content inspection, you need to consider the Content inspection status and take appropriate action.
 
 
-A detailed list of content inspection status codes and how to resolve them is available in the following article on [Troubleshooting Content Inspection](/cloud-app-security/troubleshooting-content-inspection).
+A detailed list of content inspection status codes and how to resolve them is available in the following article on [Troubleshooting Content Inspection](/cloud-app-security/troubleshooting-content-inspection?azure-portal=true).
 
 
   :::column-end:::
@@ -108,7 +108,7 @@ You can integrate Microsoft Cloud App Security with your generic SIEM server to 
 Verify the status of the SIEM agent in the Microsoft Cloud App Security portal isn't **Connection error** or **Disconnected.** Also ensure there are no agent notifications. The status will display **Connection error** if the connection is down for more than two hours. It will display as **Disconnected** if the connection is down for over 12 hours.
 
 
-For more information, see [Troubleshooting the SIEM Agent](/cloud-app-security/troubleshooting-siem).
+For more information, see [Troubleshooting the SIEM Agent](/cloud-app-security/troubleshooting-siem?azure-portal=true).
 
 
   :::column-end:::
@@ -124,7 +124,7 @@ Policies
   :::column:::
     
 
-To troubleshoot Microsoft Cloud App Security policies, you must consider the error code and find an appropriate resolution. All relevant error codes and resolutions are available in the following article on [Troubleshooting Microsoft Cloud App Security policies](/cloud-app-security/troubleshoot-policies).
+To troubleshoot Microsoft Cloud App Security policies, you must consider the error code and find an appropriate resolution. All relevant error codes and resolutions are available in the following article on [Troubleshooting Microsoft Cloud App Security policies](/cloud-app-security/troubleshoot-policies?azure-portal=true).
 
 
   :::column-end:::

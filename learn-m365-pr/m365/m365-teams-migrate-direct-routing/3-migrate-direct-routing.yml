@@ -5,8 +5,8 @@ metadata:
   title: Migrate to Direct Routing
   description: See how to setup staging for the migration.
   ms.date: 07/16/2021
-  author: lizap
-  ms.author: elizapo
+  author: temanteleary
+  ms.author: teleary
   ms.topic: interactive-tutorial
   ms.prod: learning-teams
 durationInMinutes: 15

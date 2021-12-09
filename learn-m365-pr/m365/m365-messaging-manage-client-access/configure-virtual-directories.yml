@@ -4,9 +4,9 @@ title: Configure virtual directories
 metadata:
   title: Configure virtual directories
   description: Learn how to configure clients to access associated Exchange Online mailboxes, how to troubleshoot connectivity issues, and how to connect your clients.  
-  ms.date: 07/14/2021
-  author: AlexandraHrt
-  ms.author: elizapo
+  ms.date: 10/21/2021
+  author: temanteleary
+  ms.author: teleary
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 durationInMinutes: 2

@@ -1,0 +1,30 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.manage-access-for-external-users.manage-access-external-users
+title: Manage access for external users
+metadata:
+  title: Manage access for external users
+  description: "Manage access for external users"
+  ms.date: 10/25/2021
+  author: wwlpublish
+  ms.author: jennyche
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 4
+content: |
+  [!include[](includes/04-manage-access-external-users.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "As the Teams administrator for Contoso, Holly Dickson wants to create teams of users across functional groups within the company. Holly's goal is to increase collaboration between users. What type of groups does Teams use for team membership?"
+    choices:
+    - content: "Microsoft 365 groups"
+      isCorrect: true
+      explanation: "That's correct. Teams uses Microsoft 365 Groups for team membership. Microsoft 365 groups are used for collaboration between users, both inside and outside a company."
+    - content: "Distribution groups"
+      isCorrect: false
+      explanation: "That's incorrect. Distribution groups are used for sending notifications to a group of people. Try again."
+    - content: "Mail-enabled Security groups"
+      isCorrect: false
+      explanation: "That's incorrect. Security groups are used for granting access to Microsoft 365 resources, such as SharePoint. Mail-enabled security groups function the same as regular security groups, except that they can't be dynamically managed through Azure AD and they can't contain devices. Try again."

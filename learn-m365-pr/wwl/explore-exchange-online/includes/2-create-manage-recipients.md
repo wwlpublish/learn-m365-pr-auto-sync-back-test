@@ -289,6 +289,18 @@ When directory synchronization is implemented in a Microsoft 365 tenant (that is
  -  [Outlook](https://aka.ms/edx-cld222x-ol?azure-portal=true)
  -  [Outlook on the web](https://aka.ms/edx-cld222x-ol01?azure-portal=true)
 
+## **Exercise – Interactive demonstrations**
+
+Select the following links to complete these interactive demonstrations:
+
+ -  [Manage recipients](https://edxinteractivepage.blob.core.windows.net/edxpages/MS-100/M4-L3-E1-T1/index.html?azure-portal=true)
+ -  [Manage groups](https://edxinteractivepage.blob.core.windows.net/edxpages/MS-100/M4-L3-E1-T2/index.html?azure-portal=true)
+ -  [Upgrade distribution lists](https://edxinteractivepage.blob.core.windows.net/edxpages/MS-100/M4-L3-E1-T3/index.html?azure-portal=true)
+ -  [Configure a group naming policy](https://edxinteractivepage.blob.core.windows.net/edxpages/MS-100/M4-L3-E1-T4/index.html?azure-portal=true)
+ -  [Manage resources](https://edxinteractivepage.blob.core.windows.net/edxpages/MS-100/M4-L3-E1-T5/index.html?azure-portal=true)
+
+These simulations guide you through the steps to complete various recipient management tasks in Exchange Online. You will use the Exchange admin center to manage recipients, create and manage Microsoft 365 groups, upgrade distribution lists, configure a group naming policy, and create a resource mailbox.
+
 ## Knowledge check
 
 Choose the best response for the following question. Then select “Check your answers.”

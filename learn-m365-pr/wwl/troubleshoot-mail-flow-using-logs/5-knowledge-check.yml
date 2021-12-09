@@ -1,0 +1,41 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.troubleshoot-mail-flow-using-logs.knowledge-check
+title: Knowledge check
+metadata:
+  title: Knowledge check
+  description: "Knowledge check"
+  ms.date: 12/09/2021
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 4
+content: |
+  [!include[](includes/5-knowledge-check.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "Which Exchange Management Shell cmdlet isn't available when connected to Exchange Online?"
+    choices:
+    - content: "Get-MessageTrace"
+      isCorrect: false
+      explanation: "That's incorrect. This cmdlet is available when connected to Exchange Online. Try again."
+    - content: "Get-MessageTraceDetails"
+      isCorrect: false
+      explanation: "That's incorrect. This cmdlet is available when connected to Exchange Online. Try again."
+    - content: "Get-MessageTrackingLog"
+      isCorrect: true
+      explanation: "That's correct. The Get-MessageTrackingLog cmdlet isn't available when connected to Exchange Online. Instead of Get-MessageTrackingLog, you must use Get-MessageTrace and Get-MessageTraceDetails to view results for message tracking."
+  - content: "Which source in the Application log includes information about Active Directory access, insufficient permissions, message tracking log corrupted, and the Transport Log Search service failing to start?"
+    choices:
+    - content: "MSExchangeTransportLogSearch"
+      isCorrect: true
+      explanation: "That's correct. This source includes information about Active Directory access, insufficient permissions, message tracking log corrupted, and the Transport Log Search service failing to start."
+    - content: "MSExchange Messaging Policies"
+      isCorrect: false
+      explanation: "That's incorrect. This source includes information about messaging policies features, such as encryption, federation, and certificate validation. Try again."
+    - content: "MSExchange Store Driver Delivery"
+      isCorrect: false
+      explanation: "That's incorrect. This source includes events about failures in mail delivery and submission processing. Try again."

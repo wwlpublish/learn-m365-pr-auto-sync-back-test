@@ -4,9 +4,9 @@ title: Configure multi-factor authentication (MFA)
 metadata:
   title: Configure multi-factor authentication (MFA)
   description: Learn how to require extra credentials during authentication that make it very hard for attackers to break into user accounts.
-  ms.date: 07/16/2021
-  ms.author: elizapo
-  author: lizap
+  ms.date: 10/20/2021
+  ms.author: teleary
+  author: temanteleary
   ms.topic: interactive-tutorial
   ms.prod: learning-teams
 durationInMinutes: 4

@@ -5,8 +5,8 @@ metadata:
   title: Knowledge check
   description: Check your knowledge
   ms.date: 09/16/2020
-  ms.author: elizapo
-  author: lizap
+  ms.author: teleary
+  author: temanteleary
   ms.topic: interactive-tutorial
   ms.prod: learning-teams
 durationInMinutes: 4
@@ -29,15 +29,15 @@ quiz:
 
   - content: "How does Teams support e-discovery requests for compliance admins who are interested in meeting or call recordings?"
     choices:
-    - content: Compliance admins are sent a chat message in Teams after each recording.
+    - content: Compliance admins are sent a chat message in Teams after each recording. 
       isCorrect: false
       explanation: A recording completed message is available in the compliance content search functionality for Microsoft Teams."
-    - content: A recording completed message is available in the compliance content search functionality for Microsoft Teams.
+    - content: Audio recordings are not currently eDiscoverable in Microsoft Teams. Meeting and call metadata is available.
       isCorrect: true
-      explanation: " A recording completed message is available in the compliance content search functionality for Microsoft Teams."
+      explanation: " Audio recordings are not eDiscoverable in Microsoft Teams."
     - content: "Compliance admins can use the **recordcmplt** PowerShell cmdlet to list completed recordings."
       isCorrect: false
-      explanation: " A recording completed message is available in the compliance content search functionality for Microsoft Teams."
+      explanation: "Recordcmplt is not a valid PowerShell cmdlet."
 
   - content: "What are the onboarding steps of a Microsoft Teams Rooms deployment?"
     choices:

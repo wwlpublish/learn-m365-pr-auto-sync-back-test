@@ -5,8 +5,8 @@ metadata:
   title: Configure Safe Attachments
   description: Learn how Safe Attachments can prevent malicious code from running and intercept other forms of attacks.
   ms.date: 07/15/2021
-  ms.author: elizapo
-  author: lizap
+  ms.author: teleary
+  author: temanteleary
   ms.topic: interactive-tutorial
   ms.prod: learning-teams
 durationInMinutes: 2

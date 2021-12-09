@@ -1,0 +1,30 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.create-manage-public-folders.create-public-folders
+title: Create public folders
+metadata:
+  title: Create public folders
+  description: "Create public folders"
+  ms.date: 11/25/2021
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 6
+content: |
+  [!include[](includes/4-create-public-folders.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "As the Messaging administrator for Lucerne Publishing, Patti Fernandez wants to implement public folders in the company's Exchange Server 2019 deployment. After planning Lucerne's public folder deployment, what's the first task that Patti must complete to create the company's public folder infrastructure?"
+    choices:
+    - content: "Create the primary public folder hierarchy mailbox"
+      isCorrect: true
+      explanation: "This answer is correct. To implement public folders in Exchange, you first must create a primary public folder hierarchy mailbox. Once that mailbox is created, you can then begin to create public folders."
+    - content: "Create the public folders"
+      isCorrect: false
+      explanation: "This answer is incorrect. Creating public folders isn't the first step that must be completed to create the public folder infrastructure. Try again."
+    - content: "Create a separate public folder database"
+      isCorrect: false
+      explanation: "This answer is incorrect. Public folders were stored in a separate public folder database in Exchange Server 2010 and earlier. Since Lucerne Publishing has Exchange Server 2019, public folders are stored in a public folder mailbox. Try again."

@@ -16,25 +16,25 @@ The Content Search tool is available in the Microsoft 365 Defender portal. Use t
 >[!NOTE]
 > Before you can create a retention tag (or any of the procedures in this unit), you need to be a member of the eDiscovery Manager role group.
 
-1. Go to the Microsoft 365 Defender portal at <https://security.microsoft.com/>, and sign in using your Microsoft 365 credentials.
-1. Click **Search > Content search**.
-1. On the **Search** page, click the arrow next to **+ New search**.
-   ![A screenshot shows the New search dropdown list in the Microsoft 365 Defender portal.](../media/create-new-search.png)
-1. Choose which kind of search you want to run:
-   - **Guided search** - a wizard guides you through your search.
-   - **New search** - create a search without the help of the search wizard. This is the default.
-   - **Search by ID List** - search for specific email messages or mailbox items. You'll use a list of Exchange IDs to identify which items to search for.
+1. Go to the Microsoft 365 Defender portal at <https://compliance.microsoft.com/>, and sign in using your Microsoft 365 credentials.
+1. Select **Content search**.
 
-   For this unit, we'll create a basic new search, so select **New search**.
+    :::image type="content" source="../media/m365-compliance-portal-content-search.png" alt-text="A screenshot of the Microsoft 365 Compliance portal with the Content search menu selected." lightbox="../media/m365-compliance-portal-content-search.png":::
+
+1. On the **Content search** page, select **+ New search**.
+
+1. Give the search a name and description, then select **Next**.
+
+1. You can choose to search all locations or just a subset of locations. If you choose **Specific locations**, you'll be prompted to choose which locations from a list of available locations.
+
 1. Enter the terms you want to search for in **Keywords**. You can use keywords, message properties (like the date a message was sent or received), or document properties (like file name). You can use Boolean operators AND, OR, NOT, and NEAR to create complex queries. If you don't enter any keywords, all content found in the search location is included in the search results.
-1. Add search conditions to narrow your search. Any condition you specify here is connected to the keywords you're searching for. That means that an item has to satisfy both the keyword query **and** the search condition to be included in the results.
-1. Set where to perform the search. You can choose to search all locations or just a subset of locations. If you choose **Specific locations**, you'll be prompted to choose which locations from a list of available locations.
-   ![A screenshot of the content search criteria user interface](../media/content-search-parameters.png)
-1. After you've set up your search query, click **Save & run**.
-1. Enter a name and optional description for the search. The name of the search has to be unique in your organization.
-1. Click **Save** to start the search.
 
-Depending on how you have the preview setting configured, the search results are either displayed on the screen or you have to click **Preview results** to view them. We'll set your preview preferences next.
+1. Add search conditions to narrow your search. Any condition you specify here is connected to the keywords you're searching for. That means that an item has to satisfy both the keyword query **and** the search condition to be included in the results.
+
+1. After you've set up your search query, select **Next**.
+
+1. Select **Submit** to save the search.
+
 
 ## Preview search results
 

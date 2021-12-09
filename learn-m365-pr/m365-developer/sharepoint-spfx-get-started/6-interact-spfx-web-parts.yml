@@ -3,9 +3,9 @@ uid: learn-m365.sharepoint-spfx-get-started.6-interact-spfx-web-parts
 metadata:
   title: Interact with SharePoint Framework web parts on modern pages
   description: In this unit, you'll learn how to interact with Framework-based client-side web parts in a SharePoint Online modern site collection.
-  ms.date: 08/31/2020
-  author: andrewconnell
-  ms.author: v-johnco
+  ms.date: 09/13/2021
+  author: andrewconnell-msft
+  ms.author: suzanz
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Interact with SharePoint Framework web parts on modern pages

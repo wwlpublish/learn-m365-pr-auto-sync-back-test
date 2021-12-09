@@ -5,8 +5,8 @@ metadata:
   title: Knowledge check
   description: Check your knowledge
   ms.date: 09/14/2020
-  ms.author: elizapo
-  author: lizap
+  ms.author: teleary
+  author: temanteleary
   ms.topic: interactive-tutorial
   ms.prod: learning-teams
 durationInMinutes: 3
@@ -39,14 +39,14 @@ quiz:
       isCorrect: false
       explanation: "We don't recommend the use of path rules because the Teams installation directory is user-writable."
 
-  - content: "When using AppLocker for allow lists in Teams, which type of rule are you recommended to use?"
+  - content: "Your manager has asked you to execute eDiscovery searches through your organizations Teams content. From the list below, what content can you search?"
     choices:
     - content: Reactions (likes, hearts, and so on.)
       isCorrect: false
-      explanation: "Reactions cannot be located through eDiscovery"
+      explanation: "Reactions cannot be found through eDiscovery"
     - content: Inline images
       isCorrect: true
-      explanation: "Inline images can be located through eDiscovery."
+      explanation: "Inline images can be found through eDiscovery."
     - content: Code snippets
       isCorrect: false
-      explanation: "Code snippets cannot be located through eDiscovery."
+      explanation: "Code snippets cannot be found through eDiscovery."

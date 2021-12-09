@@ -3,8 +3,8 @@ uid: learn-m365.audit-governance
 metadata:
   title: Understand Microsoft 365 governance
   description: Learn how Microsoft implements organization-wide security and privacy governance to support the secure operation of Microsoft 365 services and maintain compliance with regulatory requirements and customer commitments.
-  ms.date: 07/21/2021
-  author: NamrahK
+  ms.date: 09/07/2021
+  author: beccarobins
   ms.author: beccarobins
   ms.topic: interactive-tutorial
   ms.prod: learning-m365

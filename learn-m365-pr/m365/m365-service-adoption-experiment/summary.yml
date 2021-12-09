@@ -5,8 +5,8 @@ metadata:
   title: Summary and knowledge check
   description: Review phase 2 of the service adoption framework.
   ms.date: 07/15/2021
-  author: lizap
-  ms.author: elizapo
+  author: temanteleary
+  ms.author: teleary
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 durationInMinutes: 12
@@ -146,20 +146,6 @@ quiz:
       - content: "Audit employees"
         isCorrect: false
         explanation: "No, protecting corporate assets is one of the four pillars of content governance."
-    - content: "Which of the following is NOT a reason to approve apps available in Microsoft Teams?"
-      choices:
-      - content: "They will improve the collaboration experience."
-        isCorrect: false
-        explanation: "No, users should always have multiple apps to choose from."
-      - content: "End users use Microsoft 1st party apps and others in their day-to-day work. Approving them will create continuity in the experience."
-        isCorrect: false
-        explanation: "No, users should always have multiple apps to choose from."
-      - content: "Users should always have multiple apps to choose from."
-        isCorrect: true
-        explanation: "Correct, users should always have multiple apps to choose from."
-      - content: "Better Together scenarios depend on these apps being available."
-        isCorrect: false
-        explanation: "No, users should always have multiple apps to choose from."
     - content: "Which of the following examples of success measures should be included in your project?"
       choices:
       - content: "Service quality."

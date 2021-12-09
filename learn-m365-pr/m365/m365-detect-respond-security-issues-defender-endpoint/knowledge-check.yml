@@ -1,12 +1,12 @@
 ### YamlMime:ModuleUnit
 uid: learn-m365-pr.detect-respond-to-security-issues-using-microsoft-defender-for-endpoint.knowledge-check
-title: Knowledge check ### Do not edit: use "Knowledge check" as the title; also, don't add another title in the quiz element or an associated markdown page (if such a markdown page exists which is rare)
+title: Knowledge check
 metadata:
   unitType: knowledge_check
   title: Knowledge check
   description: Test your knowledge of the module content
   ms.date: 07/19/2021
-  author: iankensey
+  author: beccarobins
   ms.author: beccarobins
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
@@ -16,10 +16,10 @@ quiz:
   questions:
   - content: "You want to run custom scripts to access and gather forensic data on one of your devices. How will you do this?"
     choices:
-    - content: "Add an indicator to allow or block a file."
+    - content: "Add an indicator to allow or block a file"
       isCorrect: false
       explanation: "This doesn't enable you to run custom scripts on a device."
-    - content: "Use Live Response."
+    - content: "Use Live Response"
       isCorrect: true
       explanation: "Use Live Response to expand your investigative capabilities to proactively hunt and remediate threats."
     - content: "Start an automated investigation"
@@ -27,7 +27,7 @@ quiz:
       explanation: "This doesn't enable you to run custom scripts on a device."
   - content: "How can you block specific programs from running on a device?"
     choices:
-    - content: "Start an Automated Investigation"
+    - content: "Start an automated investigation"
       isCorrect: false
       explanation: "Automated investigations will investigate a threat for you. But this alone won't enable you to restrict specific apps from running."
     - content: "Add an indicator to block a file"

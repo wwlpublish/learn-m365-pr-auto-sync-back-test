@@ -1,0 +1,30 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.troubleshoot-audio-video-client-issues.troubleshoot-teams
+title: Troubleshoot Teams
+metadata:
+  title: Troubleshoot Teams
+  description: "Troubleshoot Teams"
+  ms.date: 10/09/2021
+  author: wwlpublish
+  ms.author: jennyche
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 5
+content: |
+  [!include[](includes/02-troubleshoot-teams.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "Contoso has been experiencing connectivity issues with the Teams client. Holly Dickson, Contoso's Teams administrator, began troubleshooting the issue using Call Analytics. Holly determined that Contoso's firewall settings were correct and the necessary URLs, IP addresses, and ports were opened in the company's firewall. What other issue should Holly investigate that's the most likely cause of the connectivity issues with the Teams client?"
+    choices:
+    - content: "Insufficient hard drive space"
+      isCorrect: false
+      explanation: "That's incorrect. This item isn't one of the most likely causes of connectivity issues with the Teams client. Try again."
+    - content: "DNS resolution issue"
+      isCorrect: false
+      explanation: "That's incorrect. This item isn't one of the most likely causes of connectivity issues with the Teams client. Try again."
+    - content: "Proxy server settings"
+      isCorrect: true
+      explanation: "That's correct. If you're experiencing connectivity issues with the Teams client, the most likely causes are firewall or proxy settings. Since the proper ports were open in Contoso's firewall, Holly should investigate the proxy server settings."

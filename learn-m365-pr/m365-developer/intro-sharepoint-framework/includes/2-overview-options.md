@@ -10,7 +10,7 @@ Over the past several years, with the evolution of Office 365, development of Sh
 
 Unfortunately, developers today find themselves constraint around building app parts because of iFrames, a reduced set of APIs, and no integration with cross Office 365 workloads. This in turn limits their ability to develop powerful portals that extend SharePoint.
 
-The client-side development framework will deliver capabilities that will help both first party and third-party developers build powerful, rich applications and provide an enjoyable web experience in Office 365 for end users that are both intuitive and simple to consume.
+The client-side development framework delivers capabilities that help both first party and third-party developers build powerful, rich applications and provide an enjoyable web experience in Office 365 for end users that are both intuitive and simple to consume.
 
 ![Screenshot overview of the SharePoint Framework](../media/02-sharepoint-framework.png)
 

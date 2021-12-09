@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-m365-pr.defender-advanced-hunting.custom-detections
+title: Using custom detections
+metadata:
+  unitType: learning-content
+  title: Using custom detections
+  description: Learn how to create and manage custom detections.
+  ms.date: 10/19/2021
+  author: beccarobins
+  ms.author: beccarobins
+  ms.topic: interactive-tutorial 
+  ms.prod: learning-m365
+durationInMinutes: 7
+content: |
+  [!include[](includes/custom-detections.md)]

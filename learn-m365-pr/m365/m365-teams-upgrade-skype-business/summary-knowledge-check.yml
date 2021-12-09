@@ -4,9 +4,9 @@ title: Summary and knowledge check
 metadata:
   title: Summary and knowledge check
   description: Discover the upgrade process from Skype for Business to Microsoft Teams. Learn how to upgrade to Teams from both Skype for Business Online and Skype for Business on-premises.
-  ms.date: 07/15/2021
-  author: AlexandraHrt
-  ms.author: elizapo
+  ms.date: 06/18/2021
+  author: temanteleary
+  ms.author: teleary
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 durationInMinutes: 5
@@ -20,9 +20,9 @@ quiz:
       - content: "You can move users to Teams all at once only if you're upgrading from Skype for Business Online and not from Skype for Business on-premises."
         isCorrect: false
         explanation: "You can move users to Teams all at once if you're upgrading from either Skype for Business Online or Skype for Business on-premises."
-      - content: "You can move users to Teams all at once if you're upgrading from either Skype for Business Online or Skype for Business on-premises."
+      - content: "You can move users to Teams all at once if you're upgrading from Skype for Business Online and Skype for Business on-premises."
         isCorrect: true
-        explanation: "True. You can move users all at once if you're upgrading from either Skype for Business Online or Skype for Business on-premises."
+        explanation: "You can move users all at once if you're upgrading from Skype for Business Online and Skype for Business on-premises, if on-premises Skype for Business users are moved to the cloud, which requires configuring Skype for Business hybrid mode."
       - content: "You can move users to Teams in stages only if you're upgrading from Skype for Business on-premises."
         isCorrect: false
         explanation: "You can move users to Teams all at once if you're upgrading from either Skype for Business Online or Skype for Business on-premises."

@@ -5,8 +5,8 @@ metadata:
   title: Record access
   description: Learn how to use audit logs to see who did what in Teams. 
   ms.date: 06/23/2021
-  ms.author: elizapo
-  author: lizap
+  ms.author: teleary
+  author: temanteleary
   ms.topic: interactive-tutorial
   ms.prod: learning-teams
 durationInMinutes: 2

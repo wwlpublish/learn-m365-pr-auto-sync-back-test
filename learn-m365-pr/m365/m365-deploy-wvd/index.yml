@@ -4,8 +4,8 @@ metadata:
   title: Deploy Azure Virtual Desktop
   description: Learn how to deploy Azure Virtual Desktop and customize the workspace for your users.  
   ms.date: 08/02/2021
-  author: lizap
-  ms.author: elizapo
+  author: ndelgado
+  ms.author: nedelgad
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Deploy Azure Virtual Desktop

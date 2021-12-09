@@ -18,17 +18,17 @@ Complete the following steps to acquire an app and make it available in your org
 1.  Sign in to the [Microsoft Store for Business](https://businessstore.microsoft.com/store/private-store?azure-portal=true).<br>
 2.  Select an app, choose the license type, and then select **Get the app** to acquire the app for your organization.
 3.  Microsoft Store adds the app to **Products and services**. 
-4.  Select **Manage**, and then select **Apps &amp; software** for app distribution options.
+4.  Select **Manage**, and then select **Apps & software** for app distribution options.
 
 > [!NOTE]
-> If you're working with a new Line-of-Business (LOB) app, you must wait for the app to be available in **Products &amp; services** before you can add it to your private store. For more information, see [Working with line-of-business apps](/microsoft-store/working-with-line-of-business-apps).
+> If you're working with a new Line-of-Business (LOB) app, you must wait for the app to be available in **Products & services** before you can add it to your private store. For more information, see [Working with line-of-business apps](/microsoft-store/working-with-line-of-business-apps?azure-portal=true).
 
 #### Make an app from your Apps &amp; software inventory available in your private store
 
-Complete the following steps to make an app from your **Apps &amp; software** inventory available in your organization's private store:
+Complete the following steps to make an app from your **Apps & software** inventory available in your organization's private store:
 
 1.  Sign in to Microsoft Store for Business.<br>
-2.  Select **Manage**, and then select **Apps &amp; software**.
+2.  Select **Manage**, and then select **Apps & software**.
 3.  Use **Refine results** to search for online-licensed apps under **License type**.
 4.  From the list of online-licensed apps, select the ellipses for the app you want. Then select **Add to private store** from the drop-down menu that appears.
 5.  The value under **Private store** for the app will change to **pending**.
@@ -49,7 +49,7 @@ The **Private store availability** setting enables you to choose which groups of
 Complete the following steps to assign security groups to an app:
 
 1.  Sign in to the Microsoft Store for Business.
-2.  Select **Manage**, and then select **Products &amp; services**.
+2.  Select **Manage**, and then select **Products & services**.
 3.  From the list of apps, select the ellipses for the app you want. Then select **View license details** from the drop-down menu that appears.
 4.  Select **Private store availability**, select **Specific groups**, and then select **Assign groups**.
 5.  Enter a name or email address for the security group you want to assign to the app, and then select **Add groups**.
@@ -81,7 +81,7 @@ If you decide that you don't want an app available for employees to install on t
 Complete the following steps to remove an app from your organization's private store:
 
 1.  Sign in to the Microsoft Store for Business.
-2.  Select **Manage**, and then select **Products &amp; services**.
+2.  Select **Manage**, and then select **Products & services**.
 3.  From the list of apps, select the ellipses for the app you want. Select **Remove from private store** from the drop-down menu that appears, and then select **Remove**.
 4.  Choose the private store collection, and then under **In collection**, set the toggle switch to **Off.**
 

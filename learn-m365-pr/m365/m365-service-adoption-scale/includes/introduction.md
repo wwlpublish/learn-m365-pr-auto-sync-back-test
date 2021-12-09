@@ -1,4 +1,13 @@
->![Adoption framework by phase](../media/adoption-phases.png)
+:::image type="complex" source="../media/adoption-phases.png" alt-text="A slide showing the keys to adoption success." border="false":::
+
+The slide has 4 points:
+
+1. Defined a vision and identified how Office 365 will be used. Obtained proactive support from senior leadership (rated 75% for importance)
+2. Obtained proactive support from senior leadership to encourage use of Office 365 (rated 75% for importance)
+3. Provided training for end users (rated 32% for importance)
+4. Raised awareness through email, Intranet, announcements, posters, teaser videos, and newsletters (rated 31% for importance)
+
+:::image-end:::
 
 In this phase, you'll use your learnings, talented project team, and relationships with stakeholders, champions, and early adopters to support the broad scale enablement of Teams for your organization. Complete the following steps as you prepare for continued business engagement regarding your organizations use of Microsoft Teams:
 
@@ -15,6 +24,6 @@ In many cases, you'll just be expanding the work you did for Start and Experimen
 
 As each segment of your organization onboards to the new experience, you will want to ensure their awareness of local champions and training opportunities.  
 
-|![Activity logo](../media/activity.png) Example activity for Contoso|
-|-|  
-|Review details about [service enablement strategies](/microsoftteams/teams-adoption-define-outcomes#select-a-service-enablement-strategy) for Microsoft Teams and discuss them with your IT partners and key stakeholders.|  
+:::image type="icon" source="../media/activity.png" border="false":::
+  
+Review details about [service enablement strategies](/microsoftteams/teams-adoption-define-outcomes#select-a-service-enablement-strategy) for Microsoft Teams and discuss them with your IT partners and key stakeholders.

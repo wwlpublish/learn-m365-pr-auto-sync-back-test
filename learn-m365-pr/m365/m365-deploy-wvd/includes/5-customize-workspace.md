@@ -10,6 +10,7 @@ To complete the exercise, you'll need the credentials for the user account that 
 1. Select the workspace you want to customize.
 1. Under **Settings**, select **Properties**.
 1. Update the **Friendly name**.
+1. Select **Save**.
 
    :::image type="content" source="../media/5-workspace-properties.png" alt-text="Screenshot that shows workspace properties with the friendly name Contoso workspace.":::
 
@@ -19,6 +20,7 @@ To complete the exercise, you'll need the credentials for the user account that 
 1. Select the application group you want to customize.
 1. Under **Settings**, select **Properties**.
 1. Update the **Friendly name**.
+1. Select **Save**.
 
    :::image type="content" source="../media/5-app-group-properties.png" alt-text="Screenshot that shows the RemoteApp application group properties with the friendly name Costoso apps.":::
 
@@ -42,11 +44,11 @@ In the previous units, we used the browser to connect to the Azure Virtual Deskt
 
    :::image type="content" source="../media/5-app-get-started.png" alt-text="Screenshot of the remote desktop window with the subscribe with URL button.":::
 
-1. Select **Subscribe with an alternate URL**.
+1. Select **Subscribe with URL**.
 1. Enter the URL `https://rdweb.wvd.microsoft.com/api/arm/feeddiscovery`.
 
     :::image type="content" source="../media/5-subscribe-workspace.png" alt-text="Screenshot of the subscribe to workspace form with the URL pasted in.":::
-1. Select Next.
+1. Select **Next**.
 1. Use the sign-in credentials for the account that has the RemoteApp application group assigned.
 1. You should see the app you added to the RemoteApp application group.
 

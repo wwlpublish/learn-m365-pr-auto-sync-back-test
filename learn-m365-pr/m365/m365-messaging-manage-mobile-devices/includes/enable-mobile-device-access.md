@@ -23,7 +23,7 @@ If your users have devices that don't support Outlook, you can still connect it 
 - **IMAP4** - Governed by international standards, this protocol sets a standard way to connect to, and download emails from, a mailbox with multiple folders. Users can't access their calendar or contact information, and there aren't any advanced features like the other protocols or operating systems.
 - **POP3** This standardized protocol enables a client to download emails from a mailbox with a single folder. Users can't access subfolders, calendars, contacts, or advanced features.
 
->[!NOTE]
+> [!NOTE]
 > The IMAP4 and POP3 protocols retrieve emails from your email server but aren't used to send mail. Clients that use these protocols use the SMTP protocol to send email.
 
 By default, IMAP4 and POP3 are enabled. You can disable them for each user to help harden your Exchange Online system. If you've enabled the security defaults feature in Azure Active Directory (Azure AD), then IMAP4 and POP3 are disabled by default for all mailboxes.
@@ -40,11 +40,11 @@ If you have a large number of mobile device users, you need a way to impose a se
 
 This suite has the broadest set of device protection features and is the recommended way to manage mobile devices. The suite includes Microsoft Intune, Azure Information Protection, and Azure AD Premium features. With these tools, you can:
 
-- Set conditional access requirements. Devices must meet these requirements before they can access their email in Exchange Online.
+- Set Conditional Access requirements. Devices must meet these requirements before they can access their email in Exchange Online.
 - Require that users use a PIN or fingerprint authentication on their mobile device before they access Exchange mailboxes.
 - Wipe Exchange Online emails from a device but leave email in other, personal accounts. This feature is known as selective wipe.
 
->[!NOTE]
+> [!NOTE]
 > The Enterprise Mobility + Security suite is an additional subscription service that you can add to Microsoft 365 Apps. A range of pricing options are available, to suit different organizations' needs and there is also a free trial.
 
 ### Mobile Device Management (MDM) for Microsoft 365
@@ -66,7 +66,7 @@ Mobile device mailbox policies (formerly known as Exchange ActiveSync policies) 
 - Require storage encryption on the device.
 - Enable the device to download attachments.
 
->[!NOTE]
+> [!NOTE]
 > Although you should use Enterprise Mobility + Security  or MDM to manage Outlook for iOS and Android clients, mobile device mailbox policy settings also apply to Outlook clients. For example, you can use them to impose a minimum password length or require encryption.
 
 ## Learn more

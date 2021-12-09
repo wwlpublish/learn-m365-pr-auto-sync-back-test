@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.viva-connections-get-started.understand-viva-connections-extensibility-capabilities
+title: Understand Viva Connections extensibility capabilities 
+metadata:
+  title: Understand Viva Connections extensibility capabilities 
+  description: In this unit, you'll learn about the options to extend Microsoft Viva Connections.
+  ms.date: 10/14/2021 
+  author: waldekmastykarz
+  ms.author: wmastyka
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 2
+content: |
+  [!include[](includes/4-understand-viva-connections-extensibility-capabilities.md)]

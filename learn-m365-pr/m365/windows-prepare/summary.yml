@@ -5,8 +5,8 @@ metadata:
   title: Summary
   description: Summary
   ms.date: 07/15/2021
-  author: IanKensey
-  ms.author: elizapo
+  author: temanteleary
+  ms.author: teleary
   ms.topic: interactive-tutorial
   ms.prod: m365
 durationInMinutes: 6
@@ -15,73 +15,39 @@ content: |
 quiz:
   title: Check your knowledge
   questions:
-  - content: Who is responsible for implementing and testing infrastructure changes?
+  - content: Which of the following is a feature of Desktop Analytics?
     choices:
-    - content: Process manager
+    - content: Automatically creating a list of application owners
       isCorrect: False
-      explanation: The process manager doesn’t implement or test changes, but must be informed of all activity.
-    - content: Developers
+      explanation: You can assign an owner to each application, but Desktop Analytics does not automatically create a list of application owners.
+    - content: Generating email tasks from your deployment plans 
       isCorrect: False
-      explanation: Developers don’t implement or test infrastructure changes, but they can be informed to keep the teams synchronized.
-    - content: End-user computing
+      explanation: Desktop analytics does allow you to create email tasks from your deployment plans.
+    - content: Creating an application and device inventory
       isCorrect: True
-      explanation: End-user computing are the most knowledgeable infrastructure and can carry out the work needed.
-  - content: Which of the following tasks will you carry out when preparing your infrastructure?
+      explanation: Desktop analytics will create an application and device inventory.
+  - content: Microsoft Desktop Analytics is a cloud-based service that integrates with which on-premises server solution?
     choices:
-    - content: Reviewing all approved changes
+    - content: Configuration Manager
       isCorrect: True
-      explanation: One of the first things you’ll do to prepare your infrastructure.
-    - content: Automated testing
+      explanation: Desktop Analytics integrates with Configuration Manager to provide insights and intelligence about the update readiness of your Windows clients.
+    - content: Windows Server 2019
       isCorrect: False
-      explanation: You do this to prepare your applications.
-    - content: Reviewing security baselines
+      explanation: Windows Server 2019 is a server operating system. It does not directly integrate with Desktop Analytics.
+    - content: Windows Admin Center
       isCorrect: False
-      explanation:  You do this to prepare your configuration.
-  - content: Who should be responsible for implementing security baseline changes?
+      explanation: Windows Admin Center allows you to manage server tasks and does not directly integrate with Desktop Analytics.
+  - content: Which of the following is a prerequisite to using Desktop Analytics?
     choices:
-    - content: End-User computing
+    - content: Installing Visual Studio Code.
       isCorrect: False
-      explanation: End-user computing don’t make security baseline changes, but they can be informed to keep the teams synchronized.
-    - content: Process Manager
-      isCorrect: False
-      explanation: The process manager doesn’t implement baseline changes, but must be informed of all activity.
-    - content: Security
+      explanation: Visual Studio Code is a code editing application. Installing Visual Studio Code is not a prerequisite to using Desktop Analytics.
+    - content: An active Azure subscription.
       isCorrect: True
-      explanation: Your security teams should be responsible for implementing security baseline changes.
-  - content: Which of the following would you use to achieve full quality assurance testing?
-    choices:
-    - content: Automated testing
+      explanation: Desktop Analytics runs on Azure, so you’ll need an Azure subscription.
+    - content: Installing Visual Studio 2017 or later
       isCorrect: False
-      explanation: It's used to put your applications through software that does automated tests, but it can’t account for all types of testing.
-    - content: Regression testing
-      isCorrect: True
-      explanation: Applications that are regression tested go through full quality assurance testing. It should be done by people who know the application well and can test the core functionality.
-    - content: Reactive response
-      isCorrect: False
-      explanation: Here, applications are tested in late pilot, and no specific users are selected. These applications normally have low install bases.
-  - content: Which of the following servicing tools enables you to approve updates before they’re applied to devices?
-    choices:
-    - content: Windows Update for Business
-      isCorrect: False
-      explanation: Windows Update for Business doesn’t support approval of updates.
-    - content: Microsoft Server Update Services
-      isCorrect: True
-      explanation: This tool enables you to incorporate approval of updates before they’re applied.
-    - content: Windows Update (standalone)
-      isCorrect: False
-      explanation: Windows Update doesn’t support approval of updates.
-  - content: Which of the following requirements should you have ready before you start using Desktop Analytics?
-    choices:
-    - content: Active Visual Studio Code subscription
-      isCorrect: False
-      explanation: Visual Studio Code is a great tool, but you don’t need it to use Desktop Analytics.
-    - content: Active Azure subscription
-      isCorrect: True
-      explanation: Desktop Analytics runs on Azure, so you’ll need an Azure subscription
-    - content: Active Microsoft 365 Apps subscription
-      isCorrect: False
-      explanation: You don’t need an active Microsoft 365 Apps subscription to use Desktop Analytics.
-
+      explanation: Installing Visual Studio 2017 or later is not a prerequisite to using Desktop Analytics.
 
 
 

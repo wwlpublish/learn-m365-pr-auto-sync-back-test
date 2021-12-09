@@ -1,0 +1,39 @@
+### YamlMime:Module
+uid: learn-m365-pr.defender-enable
+metadata:
+  moduleType: standard
+  title: Enable Microsoft 365 Defender in your organization 
+  description: Understand the steps needed to enable Microsoft 365 Defender for your organization. 
+  ms.date: 08/12/2021
+  author: beccarobins
+  ms.author: beccarobins
+  ms.topic: interactive-tutorial 
+  ms.prod: learning-m365
+title: Enable Microsoft 365 Defender in your organization 
+summary: Understand the steps needed to enable Microsoft 365 Defender for your organization. 
+abstract: | 
+  By the end of this module, you'll be able to:
+    - Prepare to roll out Microsoft 365 Defender. 
+    - Enable Microsoft 365 Defender in your organization. 
+    - Manage who has access to the functions and data in Microsoft 365 Defender. 
+prerequisites: | 
+  - None
+iconUrl: /learn/achievements/m365-defender-get-started.svg
+levels: 
+  - beginner
+roles: 
+  - security-operations-analyst
+  - security-engineer
+products:
+- m365
+- m365-ems-cloud-app-security
+- m365-security-center
+- m365-threat-protection
+units:
+- learn-m365-pr.defender-enable.introduction
+- learn-m365-pr.defender-enable.roll-out
+- learn-m365-pr.defender-enable.manage-access
+- learn-m365-pr.defender-enable.knowledge-check
+- learn-m365-pr.defender-enable.summary
+badge:
+  uid: learn-m365-pr.defender-enable.badge

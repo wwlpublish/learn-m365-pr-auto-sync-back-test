@@ -1,0 +1,49 @@
+### YamlMime:ModuleUnit
+uid: learn-m365-pr.defender-identity-defend-attacks.knowledge-check
+title: Knowledge check
+metadata:
+  unitType: knowledge_check
+  title: Knowledge check
+  description: Knowledge check
+  ms.date: 04/26/2021
+  author: beccarobins
+  ms.author: beccarobins
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 3
+content: |
+quiz:
+  questions:
+  - content: "What is a lateral movement path?"
+    choices:
+    - content: "A potential link between two accounts caused by sharing access to resources."
+      isCorrect: true
+      explanation: "That's correct. A lateral movement path is a potential link between two accounts caused by sharing access to resources"
+    - content: "A means of transferring data from a machine on one network to a machine on another network."
+      isCorrect: false
+      explanation: "That's incorrect. A lateral movement path is not a means of transferring data from a machine on one network to a machine on another network."
+    - content: "A mechanism for decrypting data that doesn't require an encryption key."
+      isCorrect: false
+      explanation: "That's incorrect. A lateral movement path is not a mechanism for decrypting data that doesn't require an encryption key."
+  - content: "What is the exfiltration phase?"
+    choices:
+    - content: "When an attacker attempts to guess your users' user names in your domain by sending sign-in requests to see which credentials works."
+      isCorrect: false
+      explanation: "That's incorrect. The exploit is something that happens during the reconnaissance phase."
+    - content: "When an attacker transfers account and security data to an off-site location for subsequent use."
+      isCorrect: true
+      explanation: "That's correct. The passwords, keys, and other credentials could be used for a larger attack in the future."
+    - content: "When an attacker modifies the security structure of the domain, replace encryption keys, grant and deny rights to users, and read or write any data in the domain."
+      isCorrect: false
+      explanation: "That's incorrect. The exploit is part of the domain dominance phase."
+  - content: "You're investigating an attack associated with a specific user account. Which fact about the account should you consider suspicious?"
+    choices:
+    - content: "The user account has been used to sign into a single computer."
+      isCorrect: false
+      explanation: "That's incorrect. Most users sign into a few of computers. It would be suspicious if the account had accessed several new computers that they don't usually access."
+    - content: "The user has failed to sign in twice in the past hour."
+      isCorrect: false
+      explanation: "That's incorrect. It's easy to mistype a password twice. It would be suspicious if the number of failed sign-ins was much higher."
+    - content: "The user account has low privileges on the local computer but high-level access to a spreadsheet on a shared folder."
+      isCorrect: true
+      explanation: "That's correct. This fact may indicate lateral movement, where an attack tries to gain access to a less-well protected account in the hope that it can be used to gain higher-level access elsewhere."

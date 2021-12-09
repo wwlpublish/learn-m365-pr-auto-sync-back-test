@@ -4,12 +4,13 @@ title: Explore email and calendaring
 metadata:
   title: Explore email and calendaring
   description: "Explore email and calendaring"
-  ms.date: 04/16/2021
+  ms.date: 10/19/2021
   author: wwlpublish
   ms.author: dahans
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
+labModal: false
 durationInMinutes: 1
 content: |
   [!include[](includes/6-email-calendar.md)]

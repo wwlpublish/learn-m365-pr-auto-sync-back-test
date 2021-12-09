@@ -144,7 +144,7 @@ Apps built using Power Apps provide rich business logic and workflow capabilitie
 
 Power Apps also provides an extensible platform that lets pro developers programmatically interact with data and metadata, apply business logic, create custom connectors, and integrate with external data.
 
-To create an app, you start with make.powerapps.com.
+To create an app, you start with [make.powerapps.com](https://make.powerapps.com/).
 
  -  **Power Apps Studio** is the app designer used for building canvas apps. The app designer makes creating apps feel more like building a slide deck in Microsoft PowerPoint. More information: Generate an app from data.
  -  **App designer** for model-driven apps lets you define the sitemap and add components to build a model-driven app. More information: Design model-driven apps using app designer.

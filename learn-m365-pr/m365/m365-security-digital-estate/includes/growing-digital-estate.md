@@ -1,6 +1,7 @@
 The boundaries of protected data have progressed through three main phases.
 
-![The boundaries of protected data: on-premises, managed mobile devices, elsewhere ](../media/protected-data-boundaries.png)
+> [!div class="centered"]
+> :::image type="content" source="../media/protected-data-boundaries.png" alt-text="Diagram showing the boundaries of protected data: on-premises, managed mobile devices, elsewhere." border="false":::
 
 - **On-premises.** You have control over data within your network. Your data protection is only as strong as your network and physical building security.
 - **Mobile and cloud.** The advent of cloud assets and managed devices, such as phones, tablets, and mobile laptops, has expanded data boundaries. Mobile device management solutions help you control data but not when it moves outside of your managed devices.

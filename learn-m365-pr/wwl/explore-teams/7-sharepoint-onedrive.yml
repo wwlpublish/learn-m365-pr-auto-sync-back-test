@@ -1,0 +1,30 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.explore-teams.sharepoint-onedrive
+title: Describe Microsoft Teams with SharePoint and OneDrive
+metadata:
+  title: Describe Microsoft Teams with SharePoint and OneDrive
+  description: "Describe Microsoft Teams with SharePoint and OneDrive"
+  ms.date: 11/08/2021
+  author: wwlpublish
+  ms.author: jennyche
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 5
+content: |
+  [!include[](includes/7-sharepoint-onedrive.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "Where are the recordings for channel meetings stored?"
+    choices:
+    - content: "A recordings folder in the OneDrive for the person who started the meeting recording"
+      isCorrect: false
+      explanation: "That's incorrect. OneDrive is for storing non-channel meeting recordings. Try again."
+    - content: "A channel folder in the SharePoint document library"
+      isCorrect: true
+      explanation: "That's correct. Channel meeting recordings are stored in a folder named Recordings in the channel folder that's in the document library for that team."
+    - content: "A group channel in Microsoft Stream"
+      isCorrect: false
+      explanation: "That's incorrect. All meeting recordings saved to OneDrive or SharePoint. Try again."

@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.plan-teams-phone-system.determine-license-requirements
+title: Determine license requirements
+metadata:
+  title: Determine license requirements
+  description: "Determine license requirements"
+  ms.date: 11/08/2021
+  author: wwlpublish
+  ms.author: dahans
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 6
+content: |
+  [!include[](includes/3-determine-license-requirements.md)]

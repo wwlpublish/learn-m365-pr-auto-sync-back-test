@@ -4,9 +4,9 @@ title: Summary and knowledge check
 metadata:
   title: Summary and knowledge check
   description: Review what you learned about using connectors in Exchange Online to route email to on-premises email systems and to secure email to partner organizations.
-  ms.date: 07/19/2021
-  author: AlexandraHrt
-  ms.author: elizapo
+  ms.date: 06/15/2021
+  author: temanteleary
+  ms.author: teleary
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 durationInMinutes: 5
@@ -31,7 +31,7 @@ quiz:
       choices:
       - content: "Do nothing."
         isCorrect: false
-        explanation: "No. Although the default organization in Exchange Online can route email to your partner organization, the only what to require encryption is to use connectors."
+        explanation: "No. Although the default organization in Exchange Online can route email to your partner organization, the only way to require encryption is to use connectors."
       - content: "Run the Hybrid Configuration wizard"
         isCorrect: false
         explanation: "No. The Hybrid Configuration wizard integrates Exchange Online with on-premises Exchange Servers; it does *not* integrate two Exchange Online tenants."

@@ -37,7 +37,7 @@ Other accounts or roles needed:
 - **Organizational ID** - As you create the host pools, you need to provide credentials to domain join the VMs as they're created. VM can't be Azure AD-joined. This organizational ID needs to be assigned to the Active Directory Domain administrators role. For example, if you're using Azure Active Directory Domain Services (Azure AD DS), the organizational ID needs to be assigned the role **AAD DC Administrators**.
 - **Subscription owner** - Allows you to register the Azure Virtual Desktop provider with the subscription.
 
-If you created your Azure Active Directory tenant or are using a Visual Studio subscription, your Azure account may have the all roles you need to deploy Azure Virtual Desktop.
+If you created your Azure Active Directory tenant or are using a Visual Studio subscription, your Azure account may have all the roles you need to deploy Azure Virtual Desktop.
 
 ## Assign licenses to Azure Virtual Desktop users
 

@@ -4,8 +4,8 @@ metadata:
   title: Enforce security, privacy, and compliance in Microsoft Teams
   description: Security is a key concern for administrators of any modern business system including Microsoft Teams. Threats to security include malicious attacks, disgruntled users, poor procedures, and human error. Enforce security, privacy, and compliance in Microsoft Teams introduces you to the features and tools that you can use to secure your business data in Teams and prevent both malicious attacks and accidental data loss. You'll learn how to identify users and grant them access to the resources they need, how to use Teams' advanced security features, how to comply with legal data management requirements, and how to identify common security weaknesses.
   ms.date: 09/03/2020
-  ms.author: elizapo
   author: lizap
+  ms.author: teleary
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Enforce security, privacy, and compliance in Microsoft Teams

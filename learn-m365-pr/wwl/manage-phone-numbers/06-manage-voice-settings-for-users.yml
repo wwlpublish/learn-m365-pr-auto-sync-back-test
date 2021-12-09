@@ -1,0 +1,30 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.manage-phone-numbers.manage-voice-settings-for-users
+title: Manage voice settings for users
+metadata:
+  title: Manage voice settings for users
+  description: "Manage voice settings for users"
+  ms.date: 11/18/2021
+  author: wwlpublish
+  ms.author: jennyche
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 7
+content: |
+  [!include[](includes/06-manage-voice-settings-for-users.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "As the Teams administrator for Contoso, Holly Dickson wants to implement the least disruptive form of call sharing to recipients. Which of the following forms of call sharing should Holly implement?"
+    choices:
+    - content: "Group call pickup"
+      isCorrect: true
+      explanation: "That's correct. Group call pickup is less disruptive to recipients than other forms of call sharing, such as call forwarding or simultaneous ringing. Group call pickup is less invasive because users can configure how they want to be notified of an incoming shared call (through audio and visual notification, visual only, or through a banner in the Teams app), and they can decide whether to answer it."
+    - content: "Call forwarding"
+      isCorrect: false
+      explanation: "That's incorrect. This item isn't the least disruptive form of call sharing. Try again."
+    - content: "Simultaneous ringing"
+      isCorrect: false
+      explanation: "That's incorrect. This item isn't the least disruptive form of call sharing. Try again."

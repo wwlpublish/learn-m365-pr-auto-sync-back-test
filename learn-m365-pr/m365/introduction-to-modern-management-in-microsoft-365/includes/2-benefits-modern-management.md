@@ -6,7 +6,7 @@ Video: Modern Windows 10 Management with Enterprise Mobility + Security
 
 |||
 | :--- | :--- |
-| ![Icon indicating play video](../media/video-icon.png)| Watch this video to learn why you should consider implementing a modern management approach for Windows devices in your organization:<br />[Modern Windows 10 Management with Enterprise Mobility + Security](https://www.youtube.com/watch?v=3gAtjMOJ-uw)|
+| :::image type="content" source="../media/video-icon.png" alt-text="Icon indicating play video" border="false":::| Watch this video to learn why you should consider implementing a modern management approach for Windows devices in your organization:<br />[Modern Windows 10 Management with Enterprise Mobility + Security](https://www.youtube.com/watch?v=3gAtjMOJ-uw)|
 
 ## Pillars of modern management
 
@@ -21,7 +21,7 @@ Video: Modern Windows 10 Management with Enterprise Mobility + Security
 
 With Windows 10, you can continue to use traditional OS deployment for small scale implementations, but you can also "manage out of the box" for a simpler experience for both users and IT. To transform new devices into fully configured, fully managed devices, you can:
 
-- Avoid reimaging with cloud-based device management services such as [Microsoft Autopilot](/windows/deployment/windows-10-auto-pilot) for Windows 10 and [Microsoft Intune](/intune/understand-explore/introduction-to-microsoft-intune) for dynamic provisioning of subscriptions, applications, devices, and user profiles.
+- Avoid reimaging with cloud-based device management services such as [Microsoft Autopilot](/windows/deployment/windows-10-auto-pilot) for Windows 10 and [Microsoft Intune](https://docs.microsoft.com/mem/intune/fundamentals/what-is-intune) for dynamic provisioning of subscriptions, applications, devices, and user profiles.
 
 - Create self-contained provisioning packages built with the [Windows Configuration Designer](https://technet.microsoft.com/itpro/windows/deploy/provisioning-packages).
 

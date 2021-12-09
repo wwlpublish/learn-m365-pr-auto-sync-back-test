@@ -4,9 +4,9 @@ title: Summary and knowledge check
 metadata:
   title: Summary and knowledge check
   description: Review the Microsoft Teams user experience and learn about requirements and important considerations for deploying Teams as part of a Microsoft 365 installation. 
-  ms.date: 07/16/2021
-  author: AlexandraHrt
-  ms.author: beccarobins
+  ms.date: 07/15/2021
+  author: temanteleary
+  ms.author: teleary
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 durationInMinutes: 4
@@ -15,46 +15,50 @@ content: |
 quiz:
     title: Check your knowledge
     questions:
-    - content: "Several members of your organization need to come together to work on a specific, short-term project. What should their Microsoft Teams administrator create?"
+    - content: "Several members of your organization need to come together to work on a specific, short-term project. What should you create?"
       choices:
-      - content: "A new team"
-        isCorrect: false
-        explanation: "A team can be organization-wide and can serve many purposes. Because these members are working on a short-term project, it makes more sense to create a new channel in the existing team, instead of a new team."
       - content: "A new channel"
+        isCorrect: false
+        explanation: "That's incorrect. A channel may be appropriate in some cases if a team already exists and this is a side project."
+      - content: "A new team"
         isCorrect: true
-        explanation: "Because these members are working on a short-term project, it makes more sense to create a new channel in the existing team."
+        explanation: "Correct. Because these members are working on a short-term project, a team is probably best as the project can then benefit from channels to help manage the project."
       - content: "A new chat group"
         isCorrect: false
-        explanation: "Chat is just one of many Teams features that can be used within a project-specific channel. You should create a new channel that includes chat."
-
-    - content: "For the full Teams experience, users should be enabled for every service EXCEPT:"
+        explanation: "That's incorrect. Chat is just one of many Teams features that can be used within a project-specific channel. You should create a new channel within a teams that include chat."
+  
+    - content: "Which management tool can administrators use to access data for Teams and other Microsoft 365 services?"
       choices:
-      - content: "Exchange Online"
+      - content: "Microsoft Teams PowerShell module"
         isCorrect: false
-        explanation: "No, you should enable Exchange Online."
-      - content: "SharePoint Online"
-        isCorrect: false
-        explanation: "No, you should enable SharePoint Online."
-      - content: "OneDrive for Business"
-        isCorrect: false
-        explanation: "No, you should enable OneDrive for Business."
-      - content: "OneNote Online"
-        isCorrect: true
-        explanation: "Correct - you *should not* enable OneNote Online."
-      - content: "Microsoft 365 Group"
-        isCorrect: false
-        explanation: "No, you should enable Microsoft 365 Group."
-
-      
-    - content: "Which management tool can administrators use to access data across Microsoft 365?"
-      choices:
-      - content: "Microsoft PowerShell"
-        isCorrect: false
-        explanation: "Administrators can use the PowerShell command-line tool to manage settings, configuration, and policy in Teams but can't access data across Microsoft 365."
+        explanation: "That's incorrect. Administrators can use the PowerShell command-line tool to manage settings, configuration, and policy in Teams but can't access data from other Microsoft 365 services."
       - content: "Microsoft Teams admin center"
-        isCorrect: false
-        explanation: "Administrators can use the Microsoft Teams admin center to edit group and team-specific settings but not to access data across Microsoft 365."
-      - content: "Microsoft Graph API"
         isCorrect: true
-        explanation: "Graph API provides a unified programmability model that lets you access data in Microsoft 365, Windows 10, and Enterprise Mobility + Security."
-      
+        explanation: "Correct. Administrators can use the Microsoft Teams admin center to edit group and team-specific settings but not to access data from other Microsoft 365 services."
+      - content: "Microsoft Graph API"
+        isCorrect: false
+        explanation: "That's incorrect. Graph API provides a unified programmability model that lets you access data in Microsoft 365, Windows 10, and Enterprise Mobility + Security."
+    
+    - content: "You need to create a new user level license for Teams, but are facing problems creating them.  What access level do you need to complete this task?"
+      choices:
+      - content: "Global Admin"
+        isCorrect: true
+        explanation: "Correct. This level of access is required to create new user level licenses for Teams." 
+      - content: "Teams Admin"
+        isCorrect: false
+        explanation: "That's incorrect. This role gives access to the Teams Admin Center and allows the management of Groups, but cannot assign new user level licenses."
+      - content: "Service Admin"
+        isCorrect: false
+        explanation: "That's incorrect. This role can create service requests for Azure and Microsoft 365 services and monitor service health, but cannot assign new user level licenses."
+
+    - content: "You're investigating possible networking issues that might occur when Teams is introduced into your organization.  You know there's a tool available to help determine and organize network requirements, what is it called?"
+      choices:
+      - content: "Network Manager in Azure AD"
+        isCorrect: false
+        explanation: "That's incorrect. There are no tools available within Azure AD to calculate network requirements."
+      - content: "Network Planner in Teams Admin Center"
+        isCorrect: true
+        explanation: "Correct. Network Planner is found with the Teams Admin Center and can help determine and organize the network requirements for a company."
+      - content: "Network Calculator in the Admin Center"
+        isCorrect: false
+        explanation: "That's incorrect. There are no tools available within the Global Admin Center to calculate network requirements."

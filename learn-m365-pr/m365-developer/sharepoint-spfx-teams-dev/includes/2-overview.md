@@ -108,8 +108,8 @@ The following code contains the default template for the **manifest.json** file 
 
 ```json
 {
-  "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.2/MicrosoftTeams.schema.json",
-  "manifestVersion": "1.5",
+  "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.10/MicrosoftTeams.schema.json",
+  "manifestVersion": "1.10",
   "packageName": "{{SPFX_COMPONENT_ALIAS}}",
   "id": "{{SPFX_COMPONENT_ID}}",
   "version": "0.1",

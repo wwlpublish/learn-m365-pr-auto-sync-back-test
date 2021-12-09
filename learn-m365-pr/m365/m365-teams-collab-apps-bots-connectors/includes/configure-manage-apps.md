@@ -6,7 +6,7 @@ As an administrator, you can use app setup policies in the Teams admin center to
 
 Apps are pinned to the app bar. This is the bar on the side of the Teams desktop client and at the bottom of the Teams mobile clients (iOS and Android).
 
-![App policies](../media/app-policies.png)
+:::image type="content" source="../media/app-policies.png" alt-text="Screenshot displaying App policies." lightbox="../media/app-policies.png":::
 
 Here are some examples of how you can use app policies:
 
@@ -19,7 +19,7 @@ You manage app setup policies in the Microsoft Teams admin center. You can use t
 
 You can edit the settings in the global policy to include the apps that you want. If you want to customize Teams for different groups of users in your organization, you can create and assign one or more custom policies. If a user is assigned a custom policy, that policy applies to the user. If a user isn't assigned a custom policy, the global policy applies. You can also assign a custom setup policy to multiple users that you've already identified, such as all users in a security group.
 
-![App setup policies](../media/app-setup-policies.png)
+:::image type="content" source="../media/app-setup-policies.png" alt-text="Screenshot shows App setup policies." lightbox="../media/app-setup-policies.png":::
 
 ## Customize tabs
 

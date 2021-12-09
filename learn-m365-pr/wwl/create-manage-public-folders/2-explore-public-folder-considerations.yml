@@ -1,0 +1,30 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.create-manage-public-folders.explore-public-folder-considerations
+title: Explore public folder considerations
+metadata:
+  title: Explore public folder considerations
+  description: "Explore public folder considerations"
+  ms.date: 11/25/2021
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 6
+content: |
+  [!include[](includes/2-explore-public-folder-considerations.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "As the Messaging administrator for Tailspin Toys, Alan Deyoung plans to deploy public folder mailboxes. Which of the following issues should Alan consider to ensure the mailboxes are protected and readily available to the Tailspin clients?"
+    choices:
+    - content: "Public folders should be hosted within the primary public folder mailbox"
+      isCorrect: false
+      explanation: "This answer is incorrect. There should be no public folders hosted within the primary public folder mailbox. This way the primary public folder mailbox can focus on its job of replicating hierarchy changes to other public folder mailboxes. Try again."
+    - content: "Include the primary public folder mailbox in the serving hierarchy to clients"
+      isCorrect: false
+      explanation: "This answer is incorrect. The primary public folder mailbox should be excluded from the serving hierarchy to clients. This step is done by setting the IsExcludedFromServingHierachy parameter to $True. Try again."
+    - content: "Deploy one public folder hierarchy mailbox for every 2000 users that access public folders"
+      isCorrect: true
+      explanation: "This answer is correct. Organizations should have one public folder hierarchy mailbox for every 2000 users that access public folders. More hierarchy-only public folder mailboxes can always be created to divide the connection load among users to ensure the 2000 connection limit isn't reached."

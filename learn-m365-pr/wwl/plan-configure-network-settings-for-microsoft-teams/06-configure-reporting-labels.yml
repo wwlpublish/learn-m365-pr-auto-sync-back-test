@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.plan-configure-network-settings-for-microsoft-teams.configure-reporting-labels
+title: Configure reporting labels for location-enhanced Call Analytics reports
+metadata:
+  title: Configure reporting labels for location-enhanced Call Analytics reports
+  description: "Configure reporting labels for location-enhanced Call Analytics reports"
+  ms.date: 10/26/2021
+  author: wwlpublish
+  ms.author: jennyche
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 6
+content: |
+  [!include[](includes/06-configure-reporting-labels.md)]

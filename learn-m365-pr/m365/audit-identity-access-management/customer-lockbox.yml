@@ -4,8 +4,8 @@ title: Understand Microsoft 365 Customer Lockbox
 metadata:
   title: Understand Microsoft 365 Customer Lockbox
   description: Learn how Microsoft 365 implements the principle of Zero Standing Access (ZSA) to protect production environments and customer data using Just-In-Time (JIT) and Just-Enough-Access (JEA).
-  ms.date: 07/19/2021
-  author: NamrahK
+  ms.date: 09/07/2021
+  author: beccarobins
   ms.author: beccarobins
   ms.topic: interactive-tutorial
   ms.prod: learning-m365

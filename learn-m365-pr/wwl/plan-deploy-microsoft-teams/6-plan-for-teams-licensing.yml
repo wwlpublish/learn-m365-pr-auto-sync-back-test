@@ -1,0 +1,30 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.plan-deploy-microsoft-teams.plan-for-teams-licensing
+title: Plan for Teams licensing
+metadata:
+  title: Plan for Teams licensing
+  description: "Plan for Teams licensing"
+  ms.date: 10/25/2021
+  author: wwlpublish
+  ms.author: jennyche
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 7
+content: |
+  [!include[](includes/6-plan-for-teams-licensing.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "Lidia is the Teams Administrator in Contoso Ltd. Lidia is evaluating the required licenses for Teams Room deployment. Lidia wants to include Teams Rooms Managed Services. Which of the following license should Lidia choose?"
+    choices:
+    - content: "Microsoft Teams Rooms Standard"
+      isCorrect: false
+      explanation: "That's incorrect. Microsoft Teams Rooms Standard doesn't include Teams Rooms Managed Services. Try again."
+    - content: "Microsoft Teams Rooms Premium"
+      isCorrect: true
+      explanation: "That's correct. Microsoft Teams Rooms Premium includes all the licenses that come with Microsoft Teams Rooms Standard while providing additional value through Teams Rooms Managed Services."
+    - content: "Microsoft 365 Business Voice"
+      isCorrect: false
+      explanation: "That's incorrect. Business Voice is a telephony solution designed for small and medium businesses. Try again."

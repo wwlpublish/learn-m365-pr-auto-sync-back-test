@@ -4,8 +4,8 @@ metadata:
   title: Introduction
   description: Explore the steps necessary to implement Teams Calling Plans. You will learn how to determine Call Plan availability, how to set up Call Plans, and some considerations for deploying both Call Plans and Direct Routing.
   ms.date: 07/15/2021
-  author: iankensey
-  ms.author: v-iakens
+  author: temanteleary
+  ms.author: teleary
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Introduction

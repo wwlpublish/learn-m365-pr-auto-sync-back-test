@@ -6,7 +6,8 @@ Microsoft Cloud App Security is a CASB that helps you identify and combat cybert
 
 The following graphic shows the flow of information around your organization. You can see how Cloud App Security functions as an intermediary between apps, data, and users.
 
-:::image type="content" source="../media/cloud-middleman.png" alt-text="A workflow diagram shows how data flows into and out of Cloud App Security, cloud apps, and cloud traffic in an organization. Each group is connected by two lines, going opposite directions that represent the inflow and outflow of data." border="true":::
+> [!div class="centered"]
+> :::image type="content" source="../media/cloud-middleman.png" alt-text="Workflow diagram shows how data flows into and out of Cloud App Security, cloud apps, and cloud traffic in an organization. Each group is connected by two lines, going opposite directions that represent the inflow and outflow of data." lightbox="../media/cloud-middleman.png" border="true":::
 
 There are four elements to the Cloud App Security framework:
 

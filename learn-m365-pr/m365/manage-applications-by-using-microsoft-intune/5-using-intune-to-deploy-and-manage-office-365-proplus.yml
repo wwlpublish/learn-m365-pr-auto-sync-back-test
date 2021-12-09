@@ -5,8 +5,8 @@ metadata:
   title: Using Intune to deploy and manage Microsoft 365 Apps
   description: Learn about the process to deploy and manage Microsoft 365 Apps with Microsoft Intune.
   ms.date: 07/15/2021
-  author: bneeb
-  ms.author: Bneeb
+  author: temanteleary
+  ms.author: teleary
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 durationInMinutes: 5

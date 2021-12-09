@@ -1,0 +1,46 @@
+### YamlMime:Module
+uid: learn.wwl.manage-access-for-external-users
+metadata:
+  title: Manage access for external users
+  description: "Manage access for external users"
+  ms.date: 10/25/2021
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Manage access for external users
+summary: Learn about the options to work with external users in Teams and the access controls from different places, including Azure AD, Microsoft 365, Teams, and SharePoint admin centers.
+abstract: |
+  By the end of this module, you will be able to:
+  - Explain external access and guest access.
+  - Describe how to manage external access and guest access.
+  - Manage external collaboration in Azure Active Directory.
+  - Manage external collaboration in Microsoft 365.
+  - Manage external access in Microsoft Teams.
+  - Manage guest access in Microsoft Teams.
+  - Manage file sharing in SharePoint
+prerequisites: |
+  - A proficient understanding of basic functional experience with Microsoft 365 services.
+  - A proficient understanding of general IT practices, including using PowerShell.
+iconUrl: /learn/achievements/access-manage-external-users.svg
+levels:
+- intermediate
+roles:
+- administrator
+products:
+- m365
+- office-teams
+units:
+- learn.wwl.manage-access-for-external-users.introduction
+- learn.wwl.manage-access-for-external-users.understand-features-azure-active-directory
+- learn.wwl.manage-access-for-external-users.work-external-users-microsoft-teams
+- learn.wwl.manage-access-for-external-users.manage-access-external-users
+- learn.wwl.manage-access-for-external-users.manage-external-collaboration-azure-active-directory
+- learn.wwl.manage-access-for-external-users.manage-external-collaboration-microsoft-365
+- learn.wwl.manage-access-for-external-users.manage-external-access-microsoft-teams
+- learn.wwl.manage-access-for-external-users.manage-guest-access-microsoft-teams
+- learn.wwl.manage-access-for-external-users.manage-file-sharing-sharepoint-onedrive
+- learn.wwl.manage-access-for-external-users.knowledge-check
+- learn.wwl.manage-access-for-external-users.summary
+badge:
+  uid: learn.wwl.manage-access-for-external-users.badge

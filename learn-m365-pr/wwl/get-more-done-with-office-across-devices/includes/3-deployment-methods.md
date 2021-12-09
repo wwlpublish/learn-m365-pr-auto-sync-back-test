@@ -14,11 +14,10 @@ You can deploy Microsoft 365 Apps from a local source using the same steps as de
 
 ## Deploy Microsoft 365 Apps with Microsoft Endpoint Configuration Manager (current branch)
 
-If your organization already uses Configuration Manager, we recommend upgrading to the current branch and using it to deploy Microsoft 365 Apps. You can deploy Office as an application using the Office Client Management dashboard and Office 365 Installer wizard in Configuration Manager.
-For more information, see [Deployment guide for Microsoft 365 Apps](https://docs.microsoft.com/deployoffice/deployment-guide-microsoft-365-apps).
+If your organization already uses Configuration Manager, we recommend upgrading to the current branch and using it to deploy Microsoft 365 Apps. You can deploy Office as an application using the Office Client Management dashboard and Office 365 Installer wizard in Configuration Manager. For more information, see [Deployment guide for Microsoft 365 Apps](/deployoffice/deployment-guide-microsoft-365-apps).
 
 ## Deploy Microsoft 365 interactive guide
 
 In this interactive guide, you will explore three methods for deploying Office 365 to your organization. The techniques remain the same for Microsoft 365 Apps:
 
-[Deploy Office 365 ProPlus in your organization](https://mslearn.cloudguides.com/guides/Deploy%20Office%20365%20ProPlus%20in%20your%20organization)
+> [!VIDEO https://mslearn.cloudguides.com/guides/Deploy%20Office%20365%20ProPlus%20in%20your%20organization]

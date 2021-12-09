@@ -5,8 +5,8 @@ metadata:
   title: Knowledge check
   description: Check your knowledge
   ms.date: 09/15/2020
-  author: lizap
-  ms.author: elizapo
+  author: temanteleary
+  ms.author: teleary
   ms.topic: interactive-tutorial
   ms.prod: learning-teams
 durationInMinutes: 3
@@ -50,12 +50,12 @@ quiz:
       isCorrect: false 
       explanation: "That's incorrect. In dynamic routing, the SBC queries information about users in Active Directory, not Teams."
 
-  - content: "Your Skype for Business environment has been decommissioned. A user tells you that their phone number has changed. After running the PowerShell command **Get-CsOnlineUser** for that user, you find **OnPremLineURIManuallySet=False**. Which of the following describes how you'll update the user's phone number?"
+  - content: "Your Skype for Business environment has been decommissioned. A user tells you that their phone number has changed. After running the PowerShell command **Get-CsOnlineUser** for that user, you find **OnPremLineURIManuallySet=True**. Which of the following describes how you'll update the user's phone number?"
     choices: 
     - content: Through Active Directory Users and Groups. 
       isCorrect: false 
       explanation: "That's incorrect. When the value of **OnPremLineURIManuallySet** is false, you can use Active Directory Users and Computers to manage a user's phone number." 
-    - content: "**Set-CsUser user -OnPremLineURI value**." 
+    - content: "Set-CsUser -Identity <User name> -OnPremLineURI <new_tel_value>" 
       isCorrect: true 
       explanation: "That's correct. You can only use the **Set-CsUser** cmdlet to configure a user's phone number when **OnPremLineURIManuallySet** is true."
     - content: Edit the number in the SBC. 

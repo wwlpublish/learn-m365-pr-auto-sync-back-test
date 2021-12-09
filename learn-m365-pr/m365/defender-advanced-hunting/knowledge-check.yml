@@ -1,0 +1,49 @@
+### YamlMime:ModuleUnit
+uid: learn-m365-pr.defender-advanced-hunting.knowledge-check
+title: Knowledge check
+metadata:
+  unitType: knowledge_check
+  title: Knowledge check
+  description: Test what you have learned in this module.
+  ms.date: 05/13/2021
+  author: beccarobins
+  ms.author: beccarobins
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 3
+content: |
+quiz:
+  questions:
+  - content: "When using KQL to build a query where you want to filter the table to a subset of rows that satisfy the predicate, what function would you use?"
+    choices:
+    - content: "`summarize`"
+      isCorrect: false
+      explanation: "Incorrect. This command will produce a table that aggregates the content of the input table."
+    - content: "`where`"
+      isCorrect: true
+      explanation: "That's right! When you are building a query, it is important to limit the rows you are working with to a specific subset. The `where` command will let you do that."
+    - content: "`limit`"
+      isCorrect: false
+      explanation: "Try again. This command will return up to the specified number of rows."
+  - content: "When constructing queries, you can use a built-in schema reference to obtain information about the contents of the schema. Which built-in schema would you use to obtain the type of data contained in a table and the source of the data?"
+    choices:
+    - content: "Table description"
+      isCorrect: true
+      explanation: "Correct! This built-in schema provides information on the type of data contain in the table."
+    - content: "Columns"
+      isCorrect: false
+      explanation: "That isn't right. This built-in schema will only provide you with information on the columns in the table."
+    - content: "Action types"
+      isCorrect: false
+      explanation: "Not quite. This built-in schema only returns values if the table contains an ActionType column, and provides the event types supported by the table."
+  - content: "When using a custom detection rule, what is the quota limit applied to every query result set?"
+    choices:
+    - content: "1,000 rows"
+      isCorrect: false
+      explanation: "Try again. The quota limit for a query is much higher than 1,000 rows."
+    - content: "10,000 rows"
+      isCorrect: true
+      explanation: "Each query can return up to 10,000 records."
+    - content: "100,000 rows"
+      isCorrect: false
+      explanation: "Try again. The quota limit for a query is a lot lower than 100,000 rows"

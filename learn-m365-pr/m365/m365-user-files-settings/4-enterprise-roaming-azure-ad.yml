@@ -5,8 +5,8 @@ metadata:
   title: Use enterprise state roaming with Azure AD
   description: Learn about enterprise state roaming with Azure AD
   ms.date: 07/15/2021
-  author: lizap
-  ms.author: aleha
+  author: temanteleary
+  ms.author: teleary
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 durationInMinutes: 1

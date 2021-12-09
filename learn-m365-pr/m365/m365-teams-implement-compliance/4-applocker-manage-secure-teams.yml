@@ -5,8 +5,8 @@ metadata:
   title: Manage and secure Teams using AppLocker
   description: See how to ensure that Teams is allowed by AppLocker.
   ms.date: 06/02/2021
-  ms.author: elizapo
-  author: lizap
+  ms.author: teleary
+  author: temanteleary
   ms.topic: interactive-tutorial
   ms.prod: learning-teams
 durationInMinutes: 2

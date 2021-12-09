@@ -4,8 +4,8 @@ metadata:
   title: Implement Microsoft Teams Calling Plans
   description: This module will introduce you to the steps required to implement Microsoft Teams Calling Plans. You will learn how to determine availability, proper licensing, and how to obtain phone numbers.
   ms.date: 07/16/2021
-  author: iankensey
-  ms.author: beccarobins
+  author: temanteleary
+  ms.author: teleary
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Implement Microsoft Teams Calling Plans

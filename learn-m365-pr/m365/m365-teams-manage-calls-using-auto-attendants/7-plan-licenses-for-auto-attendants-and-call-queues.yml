@@ -5,8 +5,8 @@ metadata:
   title: Plan licenses for auto attendants and call queues
   description: See how to assign licenses to users for auto attendants.
   ms.date: 06/02/2021
-  ms.author: elizapo
-  author: lizap
+  ms.author: teleary
+  author: temanteleary
   ms.topic: interactive-tutorial
   ms.prod: learning-teams
 durationInMinutes: 2

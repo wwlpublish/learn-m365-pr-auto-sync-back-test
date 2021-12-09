@@ -29,7 +29,7 @@ It's common for people to have multiple devices that use different platforms. Fo
 
 With Intune, you can manage multiple devices per person and the different platforms that run on each device, including iOS/iPadOS, macOS, Android, and Windows. Intune separates policies and settings by device platform. So it's easy to manage and view the devices of a specific platform.
 
-**Additional reading.** For more information, see [Microsoft Intune is an MDM and MAM provider for your devices](/mem/intune/fundamentals/what-is-intune).
+**Additional reading.** For more information, see [Microsoft Intune is an MDM and MAM provider for your devices](/mem/intune/fundamentals/what-is-intune?azure-portal=true).
 
 ### MDM within Microsoft 365 plans
 
@@ -46,7 +46,7 @@ Plan
   :::column:::
     
 
-Basic Mobility &amp; Security
+Basic Mobility & Security
 
 
   :::column-end:::
@@ -458,7 +458,7 @@ Feature highlights
   :::column:::
     
 
-Basic Mobility &amp; Security
+Basic Mobility & Security
 
 
   :::column-end:::
@@ -554,7 +554,7 @@ Available
   :::column:::
     
 
-Conditional access based on device compliance
+Conditional Access based on device compliance
 
 
   :::column-end:::
@@ -648,27 +648,27 @@ Send commands to devices over the internet. For example, remove Office data from
     
  -  [Delete](https://docs.microsoft.com/mem/intune/remote-actions/devices-wipe#delete-devices-from-the-intune-portal?azure-portal=true)
     
- -  [Disable activation loc](/mem/intune/remote-actions/device-activation-lock-disable) (iOS only)
+ -  [Disable activation loc](/mem/intune/remote-actions/device-activation-lock-disable?azure-portal=true) (iOS only)
     
- -  [Fresh start](/mem/intune/remote-actions/device-fresh-start) (Windows only)
+ -  [Fresh start](/mem/intune/remote-actions/device-fresh-start?azure-portal=true) (Windows only)
     
  -  [Full scan](https://docs.microsoft.com/mem/intune/configuration/device-restrictions-windows-10#microsoft-defender-antivirus?azure-portal=true) (Windows 10 only)
     
- -  [Locate device](/mem/intune/remote-actions/device-locate) (iOS only)
+ -  [Locate device](/mem/intune/remote-actions/device-locate?azure-portal=true) (iOS only)
     
- -  [Lost mode](/mem/intune/remote-actions/device-lost-mode) (iOS only)
+ -  [Lost mode](/mem/intune/remote-actions/device-lost-mode?azure-portal=true) (iOS only)
     
  -  [Quick scan](https://docs.microsoft.com/mem/intune/configuration/device-restrictions-windows-10#microsoft-defender-antivirus?azure-portal=true) (Windows 10 only)
     
- -  [Remote control for Android](/mem/intune/remote-actions/teamviewer-support)
+ -  [Remote control for Android](/mem/intune/remote-actions/teamviewer-support?azure-portal=true)
     
- -  [Remote lock](/mem/intune/remote-actions/device-remote-lock)
+ -  [Remote lock](/mem/intune/remote-actions/device-remote-lock?azure-portal=true)
     
- -  [Rename device](/mem/intune/remote-actions/device-rename)
+ -  [Rename device](/mem/intune/remote-actions/device-rename?azure-portal=true)
     
- -  [Reset passcode](/mem/intune/remote-actions/device-passcode-reset)
+ -  [Reset passcode](/mem/intune/remote-actions/device-passcode-reset?azure-portal=true)
     
- -  [Restart](/mem/intune/remote-actions/device-restart) (Windows only)
+ -  [Restart](/mem/intune/remote-actions/device-restart?azure-portal=true) (Windows only)
     
  -  [Retire](https://docs.microsoft.com/mem/intune/remote-actions/devices-wipe#retire?azure-portal=true)
     
@@ -680,7 +680,7 @@ Send commands to devices over the internet. For example, remove Office data from
     
  -  [Send custom notifications](https://docs.microsoft.com/mem/intune/remote-actions/custom-notifications#send-a-custom-notification-to-a-single-device?azure-portal=true) (Android, iOS, iPad OS)
     
- -  [Synchronize device](/mem/intune/remote-actions/device-sync)
+ -  [Synchronize device](/mem/intune/remote-actions/device-sync?azure-portal=true)
     
 
 

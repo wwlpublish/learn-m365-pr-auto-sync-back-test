@@ -3,9 +3,9 @@ uid: learn-m365.embedded-web-experiences.7-exercise-implement-tab-authentication
 metadata:
   title: Exercise - Implement authentication in a custom tab
   description: In this exercise, you'll create a custom channel tab that displays information about the current user, which was retrieved from Microsoft Graph.
-  ms.date: 06/09/2021
-  author: andrewconnell
-  ms.author: v-johnco
+  ms.date: 09/13/2021
+  author: andrewconnell-msft
+  ms.author: suzanz
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Exercise - Implement authentication in a custom tab

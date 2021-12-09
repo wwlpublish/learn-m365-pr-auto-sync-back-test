@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.modern-management-education.identity
+title: Migrate identities to the cloud by using School Data Sync and Azure Active Directory 
+metadata:
+  title: Migrate identities to the cloud by using School Data Sync and Azure Active Directory
+  description: Learn the best practices for moving identities from an on-premises solution to the cloud by using the School Data Sync and Azure Active Directory.
+  ms.date: 08/11/2021
+  author: lizap
+  ms.author: elizapo
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+ 
+durationInMinutes: 1
+content: |
+  [!include[](includes/identity.md)]

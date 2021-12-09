@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.audit-identity-access-management.access-control-management
+title: Explore access control management during employee transfer and termination 
+metadata:
+  title: Explore access control management during employee transfer and termination
+  description: Learn how Microsoft 365 implements the principle of Zero Standing Access (ZSA) to protect production environments and customer data using Just-In-Time (JIT) and Just-Enough-Access (JEA).
+  ms.date: 09/07/2021
+  author: beccarobins
+  ms.author: beccarobins
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 3
+content: |
+  [!include[](includes/access-control-management.md)]

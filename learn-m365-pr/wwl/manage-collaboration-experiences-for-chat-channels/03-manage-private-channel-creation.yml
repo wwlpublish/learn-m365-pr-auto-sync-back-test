@@ -1,0 +1,30 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.manage-collaboration-experiences-for-chat-channels.manage-private-channel-creation
+title: Manage private channel creation
+metadata:
+  title: Manage private channel creation
+  description: "Manage private channel creation"
+  ms.date: 10/25/2021
+  author: wwlpublish
+  ms.author: jennyche
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 7
+content: |
+  [!include[](includes/03-manage-private-channel-creation.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "Ann is the Teams admin for Contoso Ltd. Ann also owns two teams named TeamA and TeamB. Ann wants to prevent the team members of TeamA from creating private channels, but not TeamB. The team members are overlapped between those two teams. What should Ann do to achieve the goal?"
+    choices:
+    - content: "Configure the settings from Teams client"
+      isCorrect: true
+      explanation: "That's correct. Teams owners can control whether team members can create private channels of the team from the Teams client."
+    - content: "Configure Teams policies from Teams admin center"
+      isCorrect: false
+      explanation: "That's incorrect. Teams policies control whether users can create private channels at the user level. Try again."
+    - content: "Configure Teams settings from Teams admin center"
+      isCorrect: false
+      explanation: "That's incorrect. Teams settings don't control whether users can create private channels. Try again."

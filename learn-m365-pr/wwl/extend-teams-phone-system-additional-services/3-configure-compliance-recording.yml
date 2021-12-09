@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.extend-teams-phone-system-additional-services.configure-compliance-recording
+title: Configure compliance recording in Teams
+metadata:
+  title: Configure compliance recording in Teams
+  description: "Configure compliance recording in Teams"
+  ms.date: 12/08/2021
+  author: wwlpublish
+  ms.author: dahans
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 10
+content: |
+  [!include[](includes/3-configure-compliance-recording.md)]
