@@ -117,7 +117,7 @@ quiz:
       choices:
       - content: "Computer science."
         isCorrect: false
-        explanation: "No, you don't need a Computer science college degree to succeed as a Service Adoption Specialist. Try again."
+        explanation: "No, you don't need a Computer Science degree to succeed as a Service Adoption Specialist. Try again."
       - content: "Organizational psychology."
         isCorrect: false
         explanation: "No, you don't need an Organizational Psychology degree to succeed as a Service Adoption Specialist. Try again."
