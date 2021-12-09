@@ -75,7 +75,7 @@ Find a person in your organization who led a project that was not viewed as "suc
 
 ## Knowledge area - Technical competence
 
-:::image type="content" source="../media/technical-competence.png" alt-text="A slide showing the elements of Technical Competence. It lists them from the left as: Current State, Service Capabilities, Technical Limitations, Cost of Change and Health Measures." lightbox="../media/technical-competence.png":::
+:::image type="content" source="../media/technical-competence.png" alt-text="A slide showing the elements of Technical Competence. It lists them from the left as: Current State, Service Capabilities, Technical Limitations, Cost of Change and Health Measures.":::
 
 Technical competence is the depth of knowledge required to apply specific technology to a business problem to achieve a desired outcome. Without understanding what you can do, how you can do it, and how much it costs, you can't judiciously use technology in your organization. It's critical that you don't focus on new features simply because they exist, but instead focus on how you can make your employees' lives easier with the right technology.
 
