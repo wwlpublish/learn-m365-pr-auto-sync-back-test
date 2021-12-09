@@ -8,7 +8,7 @@ This training uses the enhanced adoption framework for teamwork and the modern w
 1. It separates service decisions required for a scale deployment from decisions required to start experimenting with the new technology or process. This enables hands-on learning in your own environment first.
 1. It emphasizes light business process mapping, identified success measures, and frequent feedback loops to ensure you're on track for success. If you get off-track, you can course correct sooner in the process to deliver a more agile project implementation.
 
-:::image type="complex" source="../media/phases.png" alt-text="Phases of the adoption framework" border="false":::
+:::image type="content" source="../media/phases.png" alt-text="Phases of the adoption framework" lightbox="../media/phases.png" border="false":::
 A slide with three steps, Step 1 Startup, Step 2 Experiment, and Step 3 Enable.
 :::image-end:::
 
