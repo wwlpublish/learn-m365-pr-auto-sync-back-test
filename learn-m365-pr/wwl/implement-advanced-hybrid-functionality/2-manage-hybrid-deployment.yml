@@ -10,7 +10,6 @@ metadata:
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
-sandbox: false
 labModal: false
 durationInMinutes: 5
 content: |
@@ -20,12 +19,12 @@ quiz:
   questions:
   - content: "Contoso has implemented a hybrid Exchange deployment. As the Messaging administrator for Contoso, Holly Dickson wants to verify the company's Exchange Web Services and Exchange ActiveSync settings are still configured properly and haven't changed in any way. How can Holly verify the company's configuration settings?"
     choices:
-    - content: "By running the Microsoft Remote Connectivity Analyzer tool"
+    - content: "Run the Microsoft Remote Connectivity Analyzer tool"
       isCorrect: true
       explanation: "This answer is correct. The Microsoft Remote Connectivity Analyzer (RCA) is a Microsoft tool that can verify your configuration, such as the Exchange Web Services or Exchange ActiveSync settings, and ensure that all settings are configured properly. Because a hybrid deployment uses those services to communicate between Exchange Online and on-premises, an organization should occasionally run the RCA to verify that its configuration hasn't changed in any way."
-    - content: "By monitoring message routing to ensure messages flow successfully and don't queue somewhere"
+    - content: "Monitor message routings to ensure messages flow successfully and don't queue somewhere"
       isCorrect: false
       explanation: "This answer is incorrect. This item won't verify that your configuration settings are configured properly. Try again."
-    - content: "By using monitoring software to monitor the federated delegation"
+    - content: "Deploy monitoring software to monitor the federated delegation"
       isCorrect: false
       explanation: "This answer is incorrect. This item won't verify that your configuration settings are configured properly. Try again."
