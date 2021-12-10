@@ -1,0 +1,30 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.plan-configure-hybrid-deployment-using-hybrid-configuration-wizard.plan-exchange-hybrid-configuration
+title: Plan for Exchange hybrid configuration
+metadata:
+  title: Plan for Exchange hybrid configuration
+  description: "Plan for Exchange hybrid configuration"
+  ms.date: 12/10/2021
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 10
+content: |
+  [!include[](includes/2-plan-exchange-hybrid-configuration.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "Contoso recently purchased Lucerne Publishing. As the Messaging administrator for Contoso, Holly Dickson wants to implement an Exchange hybrid deployment. However, with the acquisition of Lucerne Publishing, Holly is interested in a hybrid configuration that provides quick onboarding during acquisition scenarios. Which hybrid configuration option should Holly implement?"
+    choices:
+    - content: "Full Hybrid Configuration"
+      isCorrect: false
+      explanation: "This answer is incorrect. Full hybrid configuration isn't the best approach for quick onboarding during acquisition scenarios. Try again."
+    - content: "Minimal Hybrid Configuration"
+      isCorrect: true
+      explanation: "This answer is correct. Minimal hybrid configuration is intended for small or medium-sized organizations that need a seamless migration experience for their users. Typically, this option is used in scenarios where hybrid is used as a migration option that doesn't require enhanced features. The minimal hybrid configuration is also an excellent solution for a quick onboarding during merger and acquisition scenarios."
+    - content: "Exchange Modern Hybrid"
+      isCorrect: false
+      explanation: "This answer is incorrect. This configuration option is one of two approaches to a Full Hybrid Configuration. Try again."
