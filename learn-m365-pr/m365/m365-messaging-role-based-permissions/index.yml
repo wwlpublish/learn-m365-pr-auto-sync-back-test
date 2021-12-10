@@ -3,7 +3,7 @@ uid: learn-m365.m365-messaging-role-based-permissions
 metadata:
   title: Manage role-based-permissions in Microsoft 365 Messaging
   description: Learn about messaging role groups, admin roles, role-based access control, and how you can use eDiscovery in Exchange Online.  
-  ms.date: 10/19/2021
+  ms.date: 11/22/2021
   author: temanteleary
   ms.author: teleary
   ms.topic: interactive-tutorial
