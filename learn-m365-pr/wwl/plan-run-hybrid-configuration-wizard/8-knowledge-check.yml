@@ -10,6 +10,7 @@ metadata:
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
+sandbox: false
 labModal: false
 durationInMinutes: 6
 content: |
@@ -17,14 +18,14 @@ content: |
 quiz:
   title: "Check your knowledge"
   questions:
-  - content: "As the Messaging administrator for Lucerne Publishing, Patti Fernandez wants to implement a hybrid Exchange deployment. Which of the following is a recommended best practice to implementing a hybrid deployment that Patti should follow?"
+  - content: "As the Messaging administrator for Lucerne Publishing, Patti Fernandez wants to implement a hybrid Exchange deployment. Which of the following items is a recommended best practice to implementing a hybrid deployment that Patti should follow?"
     choices:
-    - content: "Manually configure the hybrid deployment so that you have optimum control over configuration settings"
+    - content: "Manually configure the hybrid deployment so that you have complete control over configuration settings"
       isCorrect: false
       explanation: "This answer is incorrect. While you can manually configure a hybrid deployment, the recommended best practice is to use the Hybrid Configuration Wizard, which automatically handles all necessary configuration settings for you. Try again."
     - content: "At the beginning, move production mailboxes for all users"
       isCorrect: false
-      explanation: "This answer is incorrect. You should start slowly, and then speed up when everything works. At the beginning, move mailboxes only for people who can acceptably work with a short outage. After you gain confidence that the hybrid deployment works reliably, move the other mailboxes. Always move test mailboxes first and then consider moving production mailboxes. Try again."
+      explanation: "This answer is incorrect. Organizations should start slowly, and then speed up when everything works. At the beginning, move mailboxes only for people who can acceptably work with a short outage. After you gain confidence that the hybrid deployment works reliably, move the other mailboxes. Always move test mailboxes first and then consider moving production mailboxes. Try again."
     - content: "Don't change the MX resource record at first"
       isCorrect: true
       explanation: "This answer is correct. Don't change the MX resource record until after you've verified the hybrid deployment works."
