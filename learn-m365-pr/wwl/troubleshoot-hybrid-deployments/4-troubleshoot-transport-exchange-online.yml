@@ -1,0 +1,30 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.troubleshoot-hybrid-deployments.troubleshoot-transport-exchange-online
+title: Troubleshoot transport with Exchange Online
+metadata:
+  title: Troubleshoot transport with Exchange Online
+  description: "Troubleshoot transport with Exchange Online"
+  ms.date: 12/10/2021
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 6
+content: |
+  [!include[](includes/4-troubleshoot-transport-exchange-online.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "As the Messaging administrator for Tailspin Toys, Alan Deyoung is troubleshooting a connectivity issue in Tailspin's Exchange hybrid deployment. Alan has discovered that free/busy information and mailbox migrations aren't passing through the firewall between Exchange on-premises and Exchange Online. What TCP port should Alan check to troubleshoot this issue?"
+    choices:
+    - content: "Port 25"
+      isCorrect: false
+      explanation: "This answer is incorrect. TCP port 25 is used for mail flow. Try again."
+    - content: "Port 443"
+      isCorrect: true
+      explanation: "This answer is correct. TCP port 443 is used for free/busy information and mailbox migrations."
+    - content: "Port 80"
+      isCorrect: false
+      explanation: "This answer is incorrect. TCP port 80 is used by web servers. Try again."

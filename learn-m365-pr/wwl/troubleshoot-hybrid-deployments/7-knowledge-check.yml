@@ -1,0 +1,52 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.troubleshoot-hybrid-deployments.knowledge-check
+title: Knowledge check
+metadata:
+  title: Knowledge check
+  description: "Knowledge check"
+  ms.date: 12/10/2021
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 6
+content: |
+  [!include[](includes/7-knowledge-check.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "As the Messaging administrator for Lucerne Publishing, Patti Fernandez is troubleshooting an issue with client access in coexistence. What's the recommended task that Patti should complete that will help the organization focus its troubleshooting to speed up the time for resolution?"
+    choices:
+    - content: "Start troubleshooting on the Edge Transport servers"
+      isCorrect: false
+      explanation: "This answer is incorrect. This task is used to troubleshoot mail flow. Try again."
+    - content: "Test client access across all the protocols to identify the protocol(s) that aren't working"
+      isCorrect: true
+      explanation: "This answer is correct. When an organization troubleshoots client access in coexistence, the problem is often limited to a single protocol. For example, Outlook on the Web may not work, but Outlook will work. When troubleshooting, it's recommended that you test client access across all the protocols to identify the protocol(s) that aren't working. This approach will help the organization focus its troubleshooting to speed up the time for resolution."
+    - content: "Verify the user is signed into their device using their domain account rather than a local account"
+      isCorrect: false
+      explanation: "This answer is incorrect. This task is used to troubleshoot single sign-on issues. Try again."
+  - content: "As the Messaging administrator for Tailspin Toys, Alan Deyoung is troubleshooting a client access issue in coexistence. Tailspin has been experiencing Autodiscover issues and namespace issues. What should Alan do to troubleshoot these client access problems?"
+    choices:
+    - content: "Run the Outlook Test Email AutoConfiguration tool"
+      isCorrect: true
+      explanation: "This answer is correct. Organizations should run the Outlook Test Email AutoConfiguration tool to look for Autodiscover issues and namespace or certificate issues."
+    - content: "Run the Remote Connectivity Analyzer tool"
+      isCorrect: false
+      explanation: "This answer is incorrect. While running this tool is useful for troubleshooting client access scenarios, it's typically used to pinpoint configuration issues by automating a series of connectivity and discovery requests. Try again."
+    - content: "Verify the Service URL is configured in the Intranet zone"
+      isCorrect: false
+      explanation: "This answer is incorrect. This step is used to troubleshoot issues with single sign-on. Try again."
+  - content: "Contoso has implemented Azure AD Connect pass-through authentication (PTA). As the Messaging administrator for Contoso, Holly Dickson was just notified that all the company's users are being prompted to input their credentials, but after a long pause during validation, pass-through authentication fails with an error message. Which of the following items causes this problem?"
+    choices:
+    - content: "The https://autologon.microsoftazuread-sso.com/ URL isn't defined in the Intranet zone"
+      isCorrect: false
+      explanation: "This answer is incorrect. This item is a reason why single sign-on fails. Try again."
+    - content: "Port 25 isn't enabled"
+      isCorrect: false
+      explanation: "This answer is incorrect. Pass-through authentication relies on TCP port 443. This port must be enabled for outbound from the PTA server to Microsoft Azure. Try again."
+    - content: "The Microsoft AAD Application Proxy Connector service isn't running"
+      isCorrect: true
+      explanation: "This answer is correct. Pass-through authentication relies on a service named Microsoft AAD Application Proxy Connector (WAPCSvc). If this service isn’t running, then pass-through authentication will be unavailable."

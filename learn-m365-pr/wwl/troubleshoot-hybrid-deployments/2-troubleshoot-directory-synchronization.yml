@@ -1,0 +1,30 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.troubleshoot-hybrid-deployments.troubleshoot-directory-synchronization
+title: Troubleshoot Directory Synchronization
+metadata:
+  title: Troubleshoot Directory Synchronization
+  description: "Troubleshoot Directory Synchronization"
+  ms.date: 12/10/2021
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 7
+content: |
+  [!include[](includes/2-troubleshoot-directory-synchronization.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "As the Messaging administrator for Fabrikam, Holly Spencer discovered that the Microsoft Azure AD Sync (ADSync) service isn't running. Holly completed standard troubleshooting steps to validate the status of the service, but it still won't start. Holly verified that the account used by the service is still valid, enabled, and not locked out, and that its password hasn't expired. What's the next step that Holly should do to determine why the ADSync service won't start?"
+    choices:
+    - content: "Verify the Windows Management Instrumentation service is running"
+      isCorrect: true
+      explanation: "This answer is correct. The Microsoft Azure AD Sync service depends on the Windows Management Instrumentation service, which should also be running. If the ADSync service account appears to be OK, you should then check the status of the Windows Management Instrumentation service and verify that it's running."
+    - content: "Verify the Connector credentials are valid"
+      isCorrect: false
+      explanation: "This answer is incorrect. This task is a valid troubleshooting step when synchronization fails. However, it's not a troubleshooting step when the ADSync service won't start. Try again."
+    - content: "Verify that none of the servers are set for Staging mode"
+      isCorrect: false
+      explanation: "This answer is incorrect. This task is a valid troubleshooting step when synchronization fails. However, it's not a troubleshooting step when the ADSync service won't start. Try again."
