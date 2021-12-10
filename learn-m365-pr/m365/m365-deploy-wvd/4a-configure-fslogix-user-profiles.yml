@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.deploy-wvd.configure-remote-apps
+title: Configure apps for users
+metadata:
+  title: Configure apps for users
+  description: Learn how to share apps with users by using Azure Virtual Desktop.
+  ms.date: 07/29/2021
+  author: lizap
+  ms.author: nedelgad
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 5
+content: |
+  [!include[](includes/4-configure-remote-apps.md)]
