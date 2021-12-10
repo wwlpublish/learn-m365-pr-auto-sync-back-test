@@ -10,8 +10,8 @@ Authentication options for Microsoft 365 identities fall into one of three main 
  -  **Cloud-only.** Cloud-only identities are exactly as the name suggests; the user identity only exists in the cloud, so all password management and policy control are done through Azure AD.
  -  **Directory synchronization with optional Password hash synchronization (PHS).** With directory synchronization, you set up a directory synchronization server or appliance that provides one-way synchronization of users, groups, and attributes from on-premises Active Directory to Azure AD. In Exchange hybrid environments, there's also synchronization of certain attributes from online to on-premises.
 
-> [!IMPORTANT]
-> Even with password hash synchronization, there are still two sets of security credentials - one on-premises and one in Azure AD. These credentials are kept aligned through directory synchronization and password synchronization. If you don't synchronize passwords, your users will have a separate password in Azure AD. They still authenticate to Azure AD to access Microsoft Exchange Online and other online services.
+    > [!IMPORTANT]
+    > Even with password hash synchronization, there are still two sets of security credentials - one on-premises and one in Azure AD. These credentials are kept aligned through directory synchronization and password synchronization. If you don't synchronize passwords, your users will have a separate password in Azure AD. They still authenticate to Azure AD to access Microsoft Exchange Online and other online services.
 
  -  **Directory synchronization with Pass-through authentication (PTA) or federated with AD FS.** Both PTA and federation delegate authentication control to your directory service. By doing so, users no longer authenticate against Azure AD. Instead, they authenticate against their organization's local Active Directory using a service such as Azure AD Connect pass-through authentication (PTA) or Active Directory Federation Services (AD FS). This design has the following results:
     

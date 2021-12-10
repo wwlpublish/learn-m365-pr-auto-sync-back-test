@@ -17,7 +17,7 @@ content: |
 quiz:
   title: "Check your knowledge"
   questions:
-  - content: "As the Messaging administrator for Contoso, Holly Dickson wants to use Azure AD Connect to enable coexistence between Contoso's on-premises Active Directory Domain Services (AD DS) environment and Microsoft 365. Which of the following is an Azure AD Connect feature that Holly should be aware of when using Azure AD Connect as the directory synchronization tool for Microsoft 365?"
+  - content: "As the Messaging administrator for Contoso, Holly Dickson wants to use Azure AD Connect to enable coexistence between Contoso's on-premises Active Directory Domain Services (AD DS) environment and Microsoft 365. Which of the following items is an Azure AD Connect feature that Holly should be aware of when using Azure AD Connect as the directory synchronization tool for Microsoft 365?"
     choices:
     - content: "New user objects in on-premises AD DS are added to Microsoft 365, and Microsoft 365 licenses are automatically assigned to these objects"
       isCorrect: false

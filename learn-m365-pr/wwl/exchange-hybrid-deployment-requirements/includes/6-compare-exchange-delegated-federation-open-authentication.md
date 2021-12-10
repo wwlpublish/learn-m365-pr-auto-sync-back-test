@@ -29,8 +29,8 @@ Open Authentication (OAuth) 2.0 is a framework that includes server-to-server au
 
 Open Authentication typically involves three components that must communicate with each other using the HTTPS protocol (Port 443):
 
- -  a trusted authorization server
- -  two services
+ -  A trusted authorization server
+ -  Two services
 
 The trusted authorization server, or token server, issues security tokens to the two services. These security tokens verify the authenticity of both services. They also ensure that user credentials and passwords don't pass between servers.
 
@@ -41,7 +41,7 @@ The security tokens control authentication and authorization. For example, the t
 
 In Skype for Business Server, the default SIP domain acts as the OAuth service.
 
-As part of its support within the Microsoft Office family of server products (including Microsoft 365 and the on-premises versions of Exchange 2013 or later, Lync Server 2013 or later, and SharePoint 2013 or later), the OAuth framework supports on-premises and hybrid topologies. In an on-premises topology, there's no requirement to implement a trusted authorization server, as the use of partner applications establishes the trust. By creating the partner application, the server products directly swap security tokens and bypass the need for a third party token server.
+As part of its support within the Microsoft Office family of server products (including Microsoft 365 and the on-premises versions of Exchange 2013 or later, Lync Server 2013 or later, and SharePoint 2013 or later), the OAuth framework supports on-premises and hybrid topologies. In an on-premises topology, there's no requirement to implement a trusted authorization server, as the use of partner applications establishes the trust. By creating the partner application, the server products directly swap security tokens and bypass the need for a third-party token server.
 
 ### Functionality OAuth provides to Exchange Server 2016 and later
 
