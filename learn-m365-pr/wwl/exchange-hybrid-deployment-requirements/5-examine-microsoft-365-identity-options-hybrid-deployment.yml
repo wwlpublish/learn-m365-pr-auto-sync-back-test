@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.explore-exchange-hybrid-deployment-requirements.examine-microsoft-365-identity-options-hybrid-deployment
+title: Examine the Microsoft 365 identity options for a hybrid Exchange deployment
+metadata:
+  title: Examine the Microsoft 365 identity options for a hybrid Exchange deployment
+  description: "Examine the Microsoft 365 identity options for a hybrid Exchange deployment"
+  ms.date: 12/10/2021
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 7
+content: |
+  [!include[](includes/5-examine-microsoft-365-identity-options-hybrid-deployment.md)]

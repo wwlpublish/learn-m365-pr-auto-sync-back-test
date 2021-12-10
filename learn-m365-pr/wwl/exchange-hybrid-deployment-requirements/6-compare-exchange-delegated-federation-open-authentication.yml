@@ -1,0 +1,30 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.explore-exchange-hybrid-deployment-requirements.compare-exchange-delegated-federation-open-authentication
+title: Compare Exchange delegated federation and Open Authentication
+metadata:
+  title: Compare Exchange delegated federation and Open Authentication
+  description: "Compare Exchange delegated federation and Open Authentication"
+  ms.date: 12/10/2021
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 7
+content: |
+  [!include[](includes/6-compare-exchange-delegated-federation-open-authentication.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "Which of the following items is a feature of DAuth?"
+    choices:
+    - content: "It's required for some Exchange 2016 and later features, such as cross-premises discovery and automatic archive retention"
+      isCorrect: false
+      explanation: "This answer is incorrect. This item is a feature of OAuth. Try again."
+    - content: "It's a standards-based framework that is widely used across the web services industry and within other Microsoft products such as Hotmail"
+      isCorrect: false
+      explanation: "This answer is incorrect. This item is a feature of OAuth. Try again."
+    - content: "It uses standard federation technologies to allow Exchange organizations to establish trusted relationships with each other"
+      isCorrect: true
+      explanation: "This answer is correct. Exchange Federated Sharing is also known as Delegated Federation or Delegated Authentication (DAuth). It uses standard federation technologies to allow Exchange organizations to establish trusted relationships with each other."

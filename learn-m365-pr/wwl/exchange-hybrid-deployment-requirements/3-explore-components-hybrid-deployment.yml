@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.explore-exchange-hybrid-deployment-requirements.explore-components-hybrid-deployment
+title: Explore the components of a hybrid deployment
+metadata:
+  title: Explore the components of a hybrid deployment
+  description: "Explore the components of a hybrid deployment"
+  ms.date: 12/10/2021
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 4
+content: |
+  [!include[](includes/3-explore-components-hybrid-deployment.md)]
