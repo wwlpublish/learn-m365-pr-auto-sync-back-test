@@ -39,7 +39,7 @@ quiz:
     - content: "Verify the Service URL is configured in the Intranet zone"
       isCorrect: false
       explanation: "This answer is incorrect. This step is used to troubleshoot issues with single sign-on. Try again."
-  - content: "Contoso has implemented Azure AD Connect pass-through authentication (PTA). As the Messaging administrator for Contoso, Holly Dickson was just notified that all the company's users are being prompted to input their credentials, but after a long pause during validation, pass-through authentication fails with an error message. Which of the following items causes this problem?"
+  - content: "Contoso has implemented Azure AD Connect pass-through authentication (PTA). As the Messaging administrator for Contoso, Holly Dickson was notified that all the company's users are being prompted to input their credentials. After entering their username and password, there's a long pause during validation, and then pass-through authentication fails with an error message. Which of the following items causes this problem?"
     choices:
     - content: "The https://autologon.microsoftazuread-sso.com/ URL isn't defined in the Intranet zone"
       isCorrect: false
