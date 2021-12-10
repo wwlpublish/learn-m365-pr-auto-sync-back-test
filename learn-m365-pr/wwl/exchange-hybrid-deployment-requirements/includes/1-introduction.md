@@ -1,6 +1,6 @@
 One of the main advantages of running an on-premises Exchange Server environment is that you can connect your environment in a seamless way to Exchange Online and Microsoft 365. This connection is called a hybrid deployment.
 
-A hybrid deployment allows you to move mailboxes between your on-premises and cloud environments and share a common global address list (GAL). Your users have the same experience, no matter if their mailbox is located on a local Exchange server or in Exchange Online.
+A hybrid deployment enables an organization to move mailboxes between its on-premises and cloud environments and share a common global address list (GAL). Its users have the same experience, whether their mailbox is located on a local Exchange server or in Exchange Online.
 
 Even if you don’t plan to migrate mailboxes from your on-premises environment to the cloud, a hybrid deployment still enables you to:
 
