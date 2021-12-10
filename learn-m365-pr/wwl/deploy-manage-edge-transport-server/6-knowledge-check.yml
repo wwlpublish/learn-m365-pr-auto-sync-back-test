@@ -1,0 +1,52 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.deploy-manage-edge-transport-server.knowledge-check
+title: Knowledge check
+metadata:
+  title: Knowledge check
+  description: "Knowledge check"
+  ms.date: 12/10/2021
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 6
+content: |
+  [!include[](includes/6-knowledge-check.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "As the Messaging administrator for Fabrikam, Holly Spencer plans to deploy Edge Transport servers. How can Holly reduce the effort needed to administer the Edge Transport servers?"
+    choices:
+    - content: "By deploying EdgeSync"
+      isCorrect: true
+      explanation: "This answer is correct. Edge Transport servers can be deployed without using EdgeSync. However, using EdgeSync can reduce the effort needed to administer the Edge Transport servers."
+    - content: "By creating an Edge Subscription"
+      isCorrect: false
+      explanation: "This answer is incorrect. This item won't reduce the effort needed to administer the Edge Transport servers. Try again."
+    - content: "By creating Azure IoT Edge Transport rules"
+      isCorrect: false
+      explanation: "This answer is incorrect. This item won't reduce the effort needed to administer the Edge Transport servers. Try again."
+  - content: "What's the primary function of the Edge Transport server?"
+    choices:
+    - content: "To secure both inbound and outbound Internet email"
+      isCorrect: true
+      explanation: "This answer is correct. The primary function of the Edge Transport server is to secure both inbound and outbound Internet email. After an organization configures an Edge Subscription between its Exchange servers and the Edge Transport servers in its perimeter network, both inbound and outbound Internet email are enabled."
+    - content: "To reduce the administration tasks Messaging administrators must complete in the perimeter network"
+      isCorrect: false
+      explanation: "This answer is incorrect. This item is one of the primary functions of EdgeSync. Try again."
+    - content: "To replicate AD DS information to AD LDS"
+      isCorrect: false
+      explanation: "This answer is incorrect. This item is one of the primary functions of EdgeSync. Try again."
+  - content: "As the Messaging administrator for Tailspin Toys, Alan Deyoung plans to deploy an Edge Transport server. Which of the following factors should Alan consider when deploying the Edge Transport server?"
+    choices:
+    - content: "The Edge Transport server should be installed on a computer that's a member of the internal Active Directory"
+      isCorrect: false
+      explanation: "This answer is incorrect. The Edge Transport server shouldn't be installed on a computer that's a member of the internal Active Directory. However, it can be installed in a perimeter network forest or workgroup. Try again."
+    - content: "The computer running the Edge Transport server doesn't require an FQDN"
+      isCorrect: false
+      explanation: "This answer is incorrect. The computer running the Edge Transport server must have an FQDN. Try again."
+    - content: "Active Directory communications shouldn't be allowed through the firewall that protects the internal network from the perimeter network"
+      isCorrect: true
+      explanation: "This answer is correct. Active Directory communications shouldn't be allowed through the firewall that protects the internal network from the perimeter network. Doing so can cause security issues, such as allowing an unauthorized user to retrieve your email addresses directly from Active Directory and then use them for spam."
