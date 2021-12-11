@@ -3,7 +3,7 @@ uid: learn-m365.sharepoint-spfx-extensions.6-command-set-extension
 metadata:
   title: Command set extensions
   description: "In this unit, you'll learn about another type of SharePoint Framework extension that enables adding buttons to a list toolbar and context menu: command sets."
-  ms.date: 09/13/2021
+  ms.date: 12/08/2021
   author: andrewconnell-msft
   ms.author: suzanz
   ms.topic: interactive-tutorial
