@@ -7,125 +7,126 @@ In this exercise, you'll extend the existing ASP.NET Core web API application to
 
 ## Update the ASP.NET Core web API project
 
-Open the **Startup.cs** file and comment out the following line to disable SSL redirection.
-
-```csharp
-//app.UseHttpsRedirection();
-```
-
-### Add model classes
-
-The application uses several new model classes for (de)serialization of messages to/from the Microsoft Graph.
-
-Right-click in the project file tree, select **New Folder**, and name the new folder **Models**.
-
-Right-click the **Models** folder and add three new files:
-
-- **Notification.cs**
-- **ResourceData.cs**
-- **MyConfig.cs**
-
-Replace the contents of **Notification.cs** with the following code:
+Open the **Program.cs** file and replace the entire contents with the following code:
 
 ```csharp
 using System;
-using System.Text.Json.Serialization;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+using Microsoft.AspNetCore.Hosting;
+using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.Hosting;
+using Microsoft.Extensions.Logging;
 
-namespace msgraphapp.Models
+namespace msgraphapp
 {
-  public class Notifications
-  {
-    [JsonPropertyName("value")]
-    public Notification[] Items { get; set; }
-  }
+    public class Program
+    {
+        public static void Main(string[] args)
+        {
+            CreateHostBuilder(args).Build().Run();
+        }
 
-  // A change notification.
-  public class Notification
-  {
-    // The type of change.
-    [JsonPropertyName("changeType")]
-    public string ChangeType { get; set; }
-
-    // The client state used to verify that the notification is from Microsoft Graph. Compare the value received with the notification to the value you sent with the subscription request.
-    [JsonPropertyName("clientState")]
-    public string ClientState { get; set; }
-
-    // The endpoint of the resource that changed. For example, a message uses the format ../Users/{user-id}/Messages/{message-id}
-    [JsonPropertyName("resource")]
-    public string Resource { get; set; }
-
-    // The UTC date and time when the webhooks subscription expires.
-    [JsonPropertyName("subscriptionExpirationDateTime")]
-    public DateTimeOffset SubscriptionExpirationDateTime { get; set; }
-
-    // The unique identifier for the webhooks subscription.
-    [JsonPropertyName("subscriptionId")]
-    public string SubscriptionId { get; set; }
-
-    // Properties of the changed resource.
-    [JsonPropertyName("resourceData")]
-    public ResourceData ResourceData { get; set; }
-  }
+        public static IHostBuilder CreateHostBuilder(string[] args) =>
+            Host.CreateDefaultBuilder(args)
+                .ConfigureWebHostDefaults(webBuilder =>
+                {
+                    webBuilder.UseStartup<Startup>();
+                });
+    }
 }
 ```
 
-Replace the contents of **ResourceData.cs** with the following:
+If the project doesn't contain a file named **Startup.cs**, then add it in the root of the project. Open the **Startup.cs** file and replace the entire contents with the following code:
 
 ```csharp
-using System.Text.Json.Serialization;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+using Microsoft.AspNetCore.Builder;
+using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.HttpsPolicy;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Hosting;
+using Microsoft.Extensions.Logging;
+using Microsoft.OpenApi.Models;
 
-namespace msgraphapp.Models
+namespace msgraphapp
 {
-  public class ResourceData
-  {
-    // The ID of the resource.
-    [JsonPropertyName("id")]
-    public string Id { get; set; }
+    public class Startup
+    {
+        public Startup(IConfiguration configuration)
+        {
+            Configuration = configuration;
+        }
 
-    // The OData etag property.
-    [JsonPropertyName("@odata.etag")]
-    public string ODataEtag { get; set; }
+        public IConfiguration Configuration { get; }
 
-    // The OData ID of the resource. This is the same value as the resource property.
-    [JsonPropertyName("@odata.id")]
-    public string ODataId { get; set; }
+        // This method gets called by the runtime. Use this method to add services to the container.
+        public void ConfigureServices(IServiceCollection services)
+        {
 
-    // The OData type of the resource: "#Microsoft.Graph.Message", "#Microsoft.Graph.Event", or "#Microsoft.Graph.Contact".
-    [JsonPropertyName("@odata.type")]
-    public string ODataType { get; set; }
-  }
+            services.AddControllers();
+            services.AddSwaggerGen(c =>
+            {
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "msgraphapp", Version = "v1" });
+            });
+        }
+
+        // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
+        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+        {
+            if (env.IsDevelopment())
+            {
+                app.UseDeveloperExceptionPage();
+                app.UseSwagger();
+                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "msgraphapp v1"));
+            }
+
+            app.UseRouting();
+
+            app.UseAuthorization();
+
+            app.UseEndpoints(endpoints =>
+            {
+                endpoints.MapControllers();
+            });
+        }
+    }
 }
 ```
 
-Replace the contents of **MyConfig.cs** with the following code:
+### Add model class
+
+The application uses several new model classes for (de)serialization of messages to/from the Microsoft Graph.
+
+Create a new folder named **Models** in the root of the project.
+
+Create a new file named **MyConfig.cs** in the **Models** folder and add the following code:
 
 ```csharp
 namespace msgraphapp
 {
   public class MyConfig
   {
-    public string AppId { get; set; }
-    public string AppSecret { get; set; }
-    public string TenantId { get; set; }
-    public string Ngrok { get; set; }
+    public string AppId { get; set; } = string.Empty;
+    public string AppSecret { get; set; } = string.Empty;
+    public string TenantId { get; set; } = string.Empty;
+    public string Ngrok { get; set; } = string.Empty;
   }
 }
 ```
 
-Open the **Startup.cs** file. Locate the method `ConfigureServices()` method and replace it with the following code:
+Open the **Startup.cs** file. Locate the method `ConfigureServices()` method and add the following code at the end of the method:
 
 ```csharp
-public void ConfigureServices(IServiceCollection services)
-{
-  services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_3_0);
-  services.AddSwaggerGen(c =>
-  {
-    c.SwaggerDoc("v1", new OpenApiInfo { Title = "msgraphapp", Version = "v1" });
-  });  
-  var config = new MyConfig();
-  Configuration.Bind("MyConfig", config);
-  services.AddSingleton(config);
-}
+var config = new MyConfig();
+Configuration.Bind("MyConfig", config);
+services.AddSingleton(config);
 ```
 
 Open the **appsettings.json** file and replace the content with the following JSON.
@@ -169,7 +170,6 @@ using System.Linq;
 using System.Net.Http;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-using msgraphapp.Models;
 using System.Text.Json;
 using System.Net;
 using System.Threading;
@@ -210,7 +210,7 @@ namespace msgraphapp.Controllers
       return $"Subscribed. Id: {newSubscription.Id}, Expiration: {newSubscription.ExpirationDateTime}";
     }
 
-    public async Task<ActionResult<string>> Post([FromQuery]string validationToken = null)
+    public async Task<ActionResult<string>> Post([FromQuery]string? validationToken = null)
     {
       // handle validation
       if(!string.IsNullOrEmpty(validationToken))
@@ -226,11 +226,13 @@ namespace msgraphapp.Controllers
 
         Console.WriteLine(content);
 
-        var notifications = JsonSerializer.Deserialize<Notifications>(content);
+        var notifications = JsonSerializer.Deserialize<ChangeNotificationCollection>(content);
 
-        foreach(var notification in notifications.Items)
-        {
-          Console.WriteLine($"Received notification: '{notification.Resource}', {notification.ResourceData?.Id}");
+        if (notifications != null) {
+          foreach(var notification in notifications.Value)
+          {
+            Console.WriteLine($"Received notification: '{notification.Resource}', {notification.ResourceData.AdditionalData["id"]}");
+          }
         }
       }
 
@@ -274,10 +276,9 @@ namespace msgraphapp.Controllers
 
 **Save** all files.
 
-Update the Visual Studio Code debugger launch configuration:
+### Update the Visual Studio Code debugger launch configuration
 
-> [!NOTE]
-> By default, the .NET Core launch configuration will open a browser and navigate to the default URL for the application when launching the debugger. For this application, we instead want to navigate to the NGrok URL. If you leave the launch configuration as is, each time you debug the application it will display a broken page. You can just change the URL, or change the launch configuration to not launch the browser:
+By default, the .NET Core launch configuration will open a browser and navigate to the default URL for the application when launching the debugger. For this application, we instead want to navigate to the NGrok URL. If you leave the launch configuration as is, each time you debug the application it will display a broken page. You can just change the URL, or change the launch configuration to not launch the browser.
 
 In Visual Studio Code, open the file **.vscode/launch.json**.
 
@@ -290,6 +291,14 @@ Delete the following section in the default configuration:
   "pattern": "^\\s*Now listening on:\\s+(https?://\\S+)"
 },
 ```
+
+Save your changes.
+
+Ensure the port being used to host the application matches the port that ngrok was configure to use.
+
+Open the file **Properties/launchSettings.json**.
+
+Set the value for **profiles.msgraphapp.applicationUrl** to `https://localhost:5001;http://localhost:5000`.
 
 Save your changes.
 
@@ -337,21 +346,21 @@ This indicates the application successfully received the notification from the M
 
 Subscriptions for notifications expire and need to be renewed periodically. The following steps will demonstrate how to renew notifications
 
-Open **Controllers > NotificationsController.cs** file
+Open **Controllers/NotificationsController.cs** file
 
 Add the following two member declarations to the `NotificationsController` class:
 
 ```csharp
 private static Dictionary<string, Subscription> Subscriptions = new Dictionary<string, Subscription>();
-private static Timer subscriptionTimer = null;
+private static Timer? subscriptionTimer = null;
 ```
 
 Add the following new methods. These will implement a background timer that will run every 15 seconds to check if subscriptions have expired. If they have, they'll be renewed.
 
 ```csharp
-private void CheckSubscriptions(Object stateInfo)
+private void CheckSubscriptions(Object? stateInfo)
 {
-  AutoResetEvent autoEvent = (AutoResetEvent)stateInfo;
+  AutoResetEvent? autoEvent = stateInfo as AutoResetEvent;
 
   Console.WriteLine($"Checking subscriptions {DateTime.Now.ToString("h:mm:ss.fff")}");
   Console.WriteLine($"Current subscription count {Subscriptions.Count()}");

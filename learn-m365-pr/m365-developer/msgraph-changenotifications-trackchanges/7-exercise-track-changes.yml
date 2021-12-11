@@ -3,7 +3,7 @@ uid: learn-m365.msgraph-changenotifications-trackchanges.7-exercise-track-change
 metadata:
   title: Exercise - Microsoft Graph track changes (delta query)
   description: In this exercise, you'll learn how to use the track changes capability in Microsoft Graph. The track changes capability (delta query), enables applications to get a list of all items that have been added, updated, or deleted since the last time the same query was issued.
-  ms.date: 09/13/2021
+  ms.date: 12/08/2021
   author: andrewconnell-msft
   ms.author: suzanz
   ms.topic: interactive-tutorial
