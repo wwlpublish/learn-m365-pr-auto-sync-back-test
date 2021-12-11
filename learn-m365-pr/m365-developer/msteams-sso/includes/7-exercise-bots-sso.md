@@ -30,42 +30,6 @@ You'll use Node.js to create a custom Microsoft Teams app in this module. The ex
 
 You must have the minimum versions of these prerequisites installed on your workstation.
 
-## Update the Azure AD app
-
-The next step is to update an Azure AD app you created in a previous exercise of this module. The  Azure AD app will be associated with the bot you'll register in the next step.
-
-Open a browser and navigate to the [Azure Active Directory admin center (https://aad.portal.azure.com)](https://aad.portal.azure.com). Sign in using a **Work or School Account** that has global administrator rights to the tenancy.
-
-Select **Manage > App registrations** in the left-hand navigation and select the **My Teams SSO App**.
-
-### Update authentication settings
-
-Next, select **Manage > Authentication** in the left-hand navigation.
-
-Change the **RedirectURI** to `https://token.botframework.com/.auth/web/redirect`.
-
-### Update the exposed API settings
-
-Next, select **Manage > Expose API** in the left-hand navigation.
-
-Currently, the **Application ID URI** looks similar to the following:
-
-```text
-api://d4fa28c4e203.ngrok.io/023adcaa-4fef-4a4d-a94a-0cde3a0c5b31
-```
-
-Remove the dynamic subdomain and slash and replace them with `botid-`. For example:
-
-```txt
-api://botid-023adcaa-4fef-4a4d-a94a-0cde3a0c5b31
-```
-
-Notice that the values of the **Scopes defined by this API** and **Authorized client applications** will now reflect this change as well:
-
-![Screenshot of updated expose API settings](../media/07-azure-ad-app-expose-api-01.png)
-
-With the Azure AD app configuration updated, the next step is to register the bot with Azure Bot Framework.
-
 ## Register the bot with the Microsoft Azure Bot Framework
 
 When you register a new bot with Azure Bot Framework, you'll need the URL where the bot will run. Bots, like tabs, must be served from a publicly accessible domain served over HTTPS. Like the previous exercises in this module, you'll use ngrok to expose the local web server to the Azure Bot Framework.
@@ -115,13 +79,49 @@ Select **Create**.
 
 Azure will start to provision the new resource. This will take a moment or two. Once it's finished, navigate to the bot resource in the resource group.
 
-After the bot has been provisioned, select it from within the new resource group you previously created.
+After the bot has been provisioned, select it from within the new resource group you previously created. Select **Configuration** from the left-hand navigation. Copy the Microsoft App ID of the bot as you'll need it later.
+
+![Screenshot of the bot's settings page](../media/07-azure-bot-registration-02a.png)
+
+## Update the Azure AD app
+
+The next step is to update an Azure AD app you created in a previous exercise of this module. The  Azure AD app will be associated with the bot you'll register in the next step.
+
+Open a browser and navigate to the [Azure Active Directory admin center (https://aad.portal.azure.com)](https://aad.portal.azure.com). Sign in using a **Work or School Account** that has global administrator rights to the tenancy.
+
+Select **Manage > App registrations** in the left-hand navigation and select the **My Teams SSO App**.
+
+### Update authentication settings
+
+Next, select **Manage > Authentication** in the left-hand navigation.
+
+Change the **RedirectURI** to `https://token.botframework.com/.auth/web/redirect`.
+
+### Update the exposed API settings
+
+Next, select **Manage > Expose API** in the left-hand navigation.
+
+Currently, the **Application ID URI** looks similar to the following:
+
+```text
+api://d4fa28c4e203.ngrok.io/023adcaa-4fef-4a4d-a94a-0cde3a0c5b31
+```
+
+Replace URI with the string `botid-` followed by the Microsoft App ID of the bot (copied above). For example:
+
+```txt
+api://botid-415a87e6-993f-4181-871b-02f4a7ea173e
+```
+
+Notice that the values of the **Scopes defined by this API** and **Authorized client applications** will now reflect this change as well:
+
+![Screenshot of updated expose API settings](../media/07-azure-ad-app-expose-api-01.png)
+
+With the Azure AD app configuration updated, the next step is to configure the bot service connection to the app.
 
 ### Configure the bot service connection (token store)
 
-Define the OAuth connection setting for the bot.
-
-Select **Settings > Configuration** from the left-hand menu.
+Navigate to the Azure Portal and select the bot registered above. Then select **Settings > Configuration** from the left-hand menu.
 
 Select the **Add OAuth Connection Settings** button on the **Configuration** screen.
 
@@ -131,9 +131,9 @@ Use the following values to create a new connection setting, and then select **S
 
 - **Name**: *enter a name for your connection, but copy this as you'll need it later when updating the project*
 - **Service Provider**: Azure Active Directory v2
-- **Client ID**: *use the Azure AD app's client ID from the previous exercise*
+- **Client ID**: *use the Azure AD app's client ID (the My Teams SSO application above)*
 - **Client secret**: *use the Azure AD app's client secret from the previous exercise*
-- **Token exchange URL**: *use the Azure AD app's application ID URI you updated previously in this exercise*
+- **Token exchange URL**: *use the Azure AD app's application ID URI you updated previously in this exercise (api://botid-{{Microsoft App Id}})*
 - **Tenant ID**: common
 - **Scopes**: Mail.Read openid profile User.Read
   - *This is a space-delimited list of all permissions the bot needs that have also been added to the Azure AD app you previously. The list contains a subset of the permissions listed in the Azure AD app from the exercises in this module that the bot will use.*
@@ -213,12 +213,12 @@ MICROSOFT_APP_PASSWORD=-fcY3P_1UoDV441_k58a37ylT9U_q6a-UD
 ```
 
 > [!NOTE]
-> The client secret listed above is only included as an example. Make sure you enter the secret you obtains when you registered the Azure AD app. If you don't have it, you can create another one and enter it here.
+> The client secret listed above is only included as an example. Make sure you enter the secret you obtained when you registered the Azure AD app. If you don't have it, you can create another one and enter it here.
 
 Add a new variable immediately after the `MICROSOFT_APP_PASSWORD`. Set the value of this variable to the name of the Bot's OAuth connection setting that you created previously in this exercise:
 
 ```text
-SSO_CONNECTION_NAME=MyTeamsBot003OAuthConnection
+SSO_CONNECTION_NAME={{OAUTH_CONNECTION_SETTING_NAME}}
 ```
 
 ### Add the bot to the Teams app manifest
@@ -237,10 +237,9 @@ Locate the bot by finding the `bots` array. It contains a single entry for your 
   "scopes": ["personal"],
   "commandLists": [{
     "scopes": ["personal"],
-    "commands": [{
-      "title": "Help",
-      "description": "Shows help information"
-    }]
+    "commands": [
+      ...
+    ]
   }]
 }],
 ```
@@ -250,7 +249,7 @@ Next, locate the `validDomains` array. Add `token.botframework.com` to the list 
 ```json
 "validDomains": [
   "token.botframework.com",
-  "{{HOSTNAME}}"
+  "{{PUBLIC_HOSTNAME}}"
 ],
 ```
 
@@ -306,7 +305,7 @@ export class SsoOAuthHelper {
   }
 
   public async exchangeToken(turnContext: TurnContext): Promise<boolean> {
-    let tokenExchangeResponse: TokenResponse;
+    let tokenExchangeResponse: TokenResponse | null = null;
     const tokenExchangeRequest = turnContext.activity.value;
 
     try {
@@ -320,7 +319,7 @@ export class SsoOAuthHelper {
       //   above stays null; send failure invoke response to the caller.
     }
 
-    if (!tokenExchangeResponse || !tokenExchangeResponse.token) {
+    if (tokenExchangeResponse === null || !tokenExchangeResponse.token) {
       // The token could not be exchanged (which could be due to a consent requirement)
       // Notify the sender that PreconditionFailed so they can respond accordingly.
       await turnContext.sendActivity({
@@ -565,11 +564,19 @@ import {
 import jwtDecode from "jwt-decode";
 
 export class TokenExchangeInvokeResponse {
+  id: string;
+  connectionName: string;
+  failureDetail: string;
+
+  constructor(id: string, connectionName: string, failureDetail: string) {
+    this.id = id;
+    this.connectionName = connectionName;
+    this.failureDetail = failureDetail;
+  }
 }
 
 export class SsoOauthPrompt extends OAuthPrompt {
   public async continueDialog(dialogContext: DialogContext): Promise<DialogTurnResult> {
-
     // if token previously successfully exchanged, it should be cached in
     //  TurnState along with the TokenExchangeInvokeRequest
     const cachedTokenResponse = dialogContext.context.turnState.get("tokenExchangeResponse");
@@ -657,16 +664,29 @@ The last step in creating our bot is to implement the bot itself.
 Create a new file, **./src/server/SsoBot/SsoBot.ts**, and add the following code to it:
 
 ```typescript
-import { DialogBot } from "./DialogBot";
-import { MainDialog } from "./dialogs/mainDialog";
+import { BotDeclaration } from "express-msteams-host";
+import * as debug from "debug";
 import {
   ConversationState,
   UserState,
   SigninStateVerificationQuery,
-  TurnContext
+  TurnContext,
+  MemoryStorage
 } from "botbuilder";
-import { SsoOAuthHelper } from "./helpers/SsoOauthHelper";
+import { DialogBot } from "./DialogBot";
+import { MainDialog } from "./dialogs/mainDialog";
+import { SsoOAuthHelper } from "./helpers/SsoOAuthHelper";
 
+// Initialize debug logging module
+const log = debug("msteams");
+
+@BotDeclaration(
+  "/api/messages",
+  new MemoryStorage(),
+  // eslint-disable-next-line no-undef
+  process.env.MICROSOFT_APP_ID,
+  // eslint-disable-next-line no-undef
+  process.env.MICROSOFT_APP_PASSWORD)
 export class SsoBot extends DialogBot {
   public _ssoOAuthHelper: SsoOAuthHelper;
 
@@ -715,76 +735,18 @@ The handler for the `signin/tokenExchange` activity uses the helper we previousl
 
 The last step is to add the bot to the web server when it starts.
 
-Locate and open the **./src/server/server.ts** file.
-
-Add the following two `import` statements after the existing `import` statements:
+Locate and open the file **./src/server/TeamsAppsComponents.ts**. Add the following to the end of the file:
 
 ```typescript
-import {
-  BotFrameworkAdapter,
-  ConversationState,
-  MemoryStorage,
-  UserState,
-  TurnContext
-} from "botbuilder";
-
-import { SsoBot } from "./SsoBot/SsoBot";
+export * from "./SsoBot/SsoBot";
 ```
-
-Within the **server.ts** file, find the following line:
-
-```typescript
-express.use(MsTeamsApiRouter(allComponents));
-```
-
-This code loads all components listed in the **./src/server/TeamsAppsComponents.ts** file within the web server. Instead of relying on this, we'll manually add the bot to the web server.
-
-Add the following code immediately following the line above:
-
-```typescript
-const adapter = new BotFrameworkAdapter({
-  appId: process.env.MICROSOFT_APP_ID,
-  appPassword: process.env.MICROSOFT_APP_PASSWORD
-});
-
-const memoryStorage = new MemoryStorage();
-const conversationState = new ConversationState(memoryStorage);
-const userState = new UserState(memoryStorage);
-
-const bot = new SsoBot(conversationState, userState);
-
-// listen for bot messages
-express.post("/api/messages", (req, res) => {
-  adapter.processActivity(req, res, async (context: TurnContext) => {
-    await bot.run(context);
-  });
-});
-
-// handle errors
-adapter.onTurnError = async (context, error) => {
-  console.error(`bot onTurnError: ${error}`);
-  await context.sendActivity('Bot encountered an error... see console');
-  await conversationState.delete(context);
-};
-```
-
-This code will create an instance of the `BotFrameworkAdapter`, initialized with our Azure AD app's credentials. It then runs our bot whenever an activity is received on the **/api/messages** endpoint.
-
-Lastly, locate and open the file **./src/server/TeamsAppsComponents.ts**. Make sure this file doesn't reference our bot, nor any non-existent files in our project. For instance, the default template may include a reference to the following file:
-
-```typescript
-export * from "./Bot/";
-```
-
-If so, delete or comment out that line.
-
 
 ## Build and test the application
 
 From the command line, navigate to the root folder for the project and execute the following command:
 
 ```console
-gulp ngrok-serve
+gulp ngrok-serve --debug
 ```
 
 This gulp task will run many other tasks all displayed within the command-line console. The **ngrok-serve** task builds your project and starts a local web server (http://localhost:3007). It then starts ngrok with a random subdomain that creates a secure URL to your local webserver.
@@ -815,7 +777,7 @@ In the file dialog that appears, select the Microsoft Teams package in your proj
 > If the **./package** folder is not present, this means you are affected by a bug in the yoteams-deploy package. To resolve the issue:
 > - Stop the local web server by pressing <kbd>CTRL</kbd>+<kbd>C</kbd> in the console.
 > - Install the preview version of the **yoteams-deploy** package using the command `npm install yoteams-deploy@preview`
-> - Restart the server process: `gulp ngrok-serve`
+> - Restart the server process: `gulp ngrok-serve --debug`
 
 Once the package is uploaded, Microsoft Teams will display a summary of the app. Here you can see some "todo" items to address. _None of these "todo" items are important to this exercise, so you'll leave them as is._
 
