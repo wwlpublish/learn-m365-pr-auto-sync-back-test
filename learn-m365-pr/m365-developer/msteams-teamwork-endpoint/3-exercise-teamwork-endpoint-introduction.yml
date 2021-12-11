@@ -17,13 +17,13 @@ quiz:
   questions:
   - content: "To convert a Microsoft 365 group to a Microsoft Teams team, the group must be set to the following values?"
     choices:
-    - content: "A Microsoft 365 group must have the following: groupTypes=Unified, mailEnabled=true, and securityEnabled=false"
+    - content: "A Microsoft 365 group must have the following properties: groupTypes=Unified, mailEnabled=true, and securityEnabled=false"
       isCorrect: true
       explanation: "Correct!"
-    - content: "A Microsoft 365 group must have the following: groupTypes=Unified, mailEnabled=true, and securityEnabled=true"
+    - content: "A Microsoft 365 group must have the following properties: groupTypes=Unified, mailEnabled=true, and securityEnabled=true"
       isCorrect: false
       explanation: "To convert a Microsoft 365 group to a team, the securityEnabled property must be set to false. When set to true, this group is used a security group in Microsoft 365."
-    - content: "A Microsoft 365 group must have the following: groupTypes=Teams, mailEnabled=true, and securityEnabled=false"
+    - content: "A Microsoft 365 group must have the following properties: groupTypes=Teams, mailEnabled=true, and securityEnabled=false"
       isCorrect: false
       explanation: "'Teams' isn't a valid `groupType`."
   - content: "Which of the following permission(s) must the user grant consent to an app to return the teams the user has joined?"
