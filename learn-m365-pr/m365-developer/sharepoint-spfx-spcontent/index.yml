@@ -34,8 +34,8 @@ units:
   - learn-m365.sharepoint-spfx-spcontent.3-exercise-get-data
   - learn-m365.sharepoint-spfx-spcontent.4-crud-sharepoint-rest
   - learn-m365.sharepoint-spfx-spcontent.5-exercise-crud-operations
-  - learn-m365.sharepoint-spfx-spcontent.6-use-sample-data-mocks
-  - learn-m365.sharepoint-spfx-spcontent.7-exercise-using-mocks
+  - learn-m365.sharepoint-spfx-spcontent.6-upload-file
+  - learn-m365.sharepoint-spfx-spcontent.7-exercise-upload-file
   - learn-m365.sharepoint-spfx-spcontent.8-summary
 badge:
   uid: learn-m365.sharepoint-spfx-spcontent.badge
