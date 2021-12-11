@@ -112,6 +112,20 @@ code .
 
 If Visual Studio Code displays a dialog box asking if you want to add required assets to the project, select **Yes**.
 
+### Update the console app to enable nullable reference types
+
+Nullable reference types refers to a group of features introduced in C# 8.0 that you can use to minimize the likelihood that your code causes the runtime to throw System.NullReferenceException.
+
+Nullable reference types are enabled by default in .NET 6 projects, they are disabled by default in .NET 5 projects.
+
+Ensuring that nullable reference types are enabled is not related to the use of Microsoft Graph, it just ensures the exercises in this module can contain a single set of code that will complie without warnings when using either .NET 5 or .NET 6.
+
+Open the **graphconsoleapp.csproj** file and ensure the `<PropertyGroup>` element contains the following child element:
+
+```xml
+<Nullable>enable</Nullable>
+```
+
 ### Update the console app to support Azure AD authentication
 
 Create a new file named **appsettings.json** in the root of the project and add the following code to it:
@@ -194,7 +208,7 @@ namespace Helpers
 
     public async Task<string> GetTokenAsync()
     {
-      AuthenticationResult authResult = null;
+      AuthenticationResult authResult;
       authResult = await _clientApplication.AcquireTokenForClient(_scopes).ExecuteAsync();
       return authResult.AccessToken;
     }
@@ -204,26 +218,38 @@ namespace Helpers
 
 ### Incorporate Microsoft Graph into the console app
 
-Open the **Program.cs** file and add the following `using` statements to the top of the file:
+Open the **Program.cs** file and replace the entire contents with the following code:
 
 ```csharp
+using System;
 using System.Collections.Generic;
 using Microsoft.Identity.Client;
 using Microsoft.Graph;
 using Microsoft.Extensions.Configuration;
 using Helpers;
+
+namespace graphconsoleapp
+{
+    public class Program
+    {
+        public static void Main(string[] args)
+        {
+            Console.WriteLine("Hello World!");
+        }
+    }
+}
 ```
 
 Add the following static member to the `Program` class in the **Program.cs** file. This member will be used to instantiate the client used to call Microsoft Graph:
 
 ```csharp
-private static GraphServiceClient _graphClient;
+private static GraphServiceClient? _graphClient;
 ```
 
 Add the following method `LoadAppSettings` to the `Program` class. This method retrieves the configuration details from the **appsettings.json** file previously created:
 
 ```csharp
-private static IConfigurationRoot LoadAppSettings()
+private static IConfigurationRoot? LoadAppSettings()
 {
   try
   {
