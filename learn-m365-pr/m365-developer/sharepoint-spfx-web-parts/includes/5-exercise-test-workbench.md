@@ -55,7 +55,7 @@ Add the following line just after the **Welcome to SharePoint** message:
 
 Wait a few seconds for the project to rebuild, and then refresh the hosted workbench. Notice that the title of the site is being displayed:
 
-![Screenshot of the SharePoint workbench](../media/05-web-part-01.png)
+![Screenshot of the SharePoint workbench - Developer site](../media/05-web-part-01.png)
 
 Now, open a new browser tab and navigate to a different site. Append the following to the end of the site's URL: **/_layouts/workbench.aspx**. 
 
@@ -63,7 +63,7 @@ Add the web part to the page.
 
 Notice that the title of the second site is being displayed:
 
-![Screenshot of the SharePoint workbench](../media/05-web-part-02.png)
+![Screenshot of the SharePoint workbench - Contoso site](../media/05-web-part-02.png)
 
 This is a simple demonstration of how the hosted workbench exposes the context of the current SharePoint site.
 

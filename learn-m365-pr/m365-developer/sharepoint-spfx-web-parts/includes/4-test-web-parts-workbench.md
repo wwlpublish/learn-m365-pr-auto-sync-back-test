@@ -46,9 +46,9 @@ SharePoint Framework web parts can run on both classic and modern pages. To test
 
 Select the web part from the gallery to add it to the page.
 
-![Figure showing the Site Pages New menu](../media/04-add-web-part-classic-page-01.png)
+![Figure showing the Site Pages New menu (Classic site)](../media/04-add-web-part-classic-page-01.png)
 
-![Figure showing the Web Part Gallery](../media/04-add-web-part-classic-page-02.png)
+![Figure showing the Web Part Gallery (Classic site)](../media/04-add-web-part-classic-page-02.png)
 
 ![Figure showing the Web Part on a classic page](../media/04-add-web-part-classic-page-03.png)
 
@@ -62,9 +62,9 @@ There are small differences between a classic and modern pages when testing web 
 
 Similar to the classic experience, create a new page or edit an existing one. Modern pages have a horizontal line with a **+** image that you use to open the web part toolbox.
 
-![Figure showing the Site Pages New menu](../media/04-add-web-part-modern-page-01.png)
+![Figure showing the Site Pages New menu (Modern site)](../media/04-add-web-part-modern-page-01.png)
 
-![Figure showing the Web Part Toolbox](../media/04-add-web-part-modern-page-02.png)
+![Figure showing the Web Part Toolbox (Modern site)](../media/04-add-web-part-modern-page-02.png)
 
 ![Figure showing the Web Part on a modern page](../media/04-add-web-part-modern-page-03.png)
 
