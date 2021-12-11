@@ -3,7 +3,7 @@ uid: learn-m365.sharepoint-spfx-web-parts.3-exercise-create-web-part
 metadata:
   title: Exercise - Create a SharePoint Framework client-side web part
   description: In this exercise, you'll create a SharePoint Framework client-side web part.
-  ms.date: 09/13/2021
+  ms.date: 12/08/2021
   author: andrewconnell-msft
   ms.author: suzanz
   ms.topic: interactive-tutorial

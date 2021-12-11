@@ -2,33 +2,19 @@ In this exercise, you'll explore a few different APIs available to you in the Sh
 
 Open the web part project from the first exercise.
 
-## Configure the project to use the local workbench
-
-Locate and open the **config/serve.json** file.
-
-In the **serve.json** file, locate the `initialPage` setting.
-
-Update the `initialPage` setting to open the local workbench:
-
-```json
-"initialPage": "https://localhost:5432/workbench",
-```
-
-Save you changes and close the file.
-
-## Checking the current page mode and state
+## Checking the current page mode and environment
 
 Locate the web part file **src/webparts/helloWorld/HelloWorldWebPart.ts**.
 
 At the top of the file, locate the following line:
 
-```ts
+```typescript
 import { Version } from '@microsoft/sp-core-library';
 ```
 
-Update this line to the following to import a few additional objects and enumerations into the file:
+Update this line to the following to import an additional enumeration into the file:
 
-```ts
+```typescript
 import {
   Version,
   DisplayMode,
@@ -37,53 +23,45 @@ import {
 } from '@microsoft/sp-core-library';
 ```
 
-Now locate the `render()` method and add the following two lines to the top of it, right after the method declaration:
+Now locate the `render()` method and add the following two lines to the top of it, right after the line that declares the `siteTitle` constant:
 
-```ts
+```typescript
 const pageMode : string = (this.displayMode === DisplayMode.Edit)
   ? 'You are in edit mode'
   : 'You are in read mode';
-const environmentType : string = (Environment.type === EnvironmentType.Local)
-  ? 'You are in local environment'
-  : 'You are in SharePoint environment';
+const environmentType : string = (Environment.type === EnvironmentType.ClassicSharePoint)
+  ? 'You are running in a classic page'
+  : 'You are running in a modern page';
 ```
 
-These two lines determine the current mode of the page and environment in which the web part is running. These can prove to be useful for the web part to render either mock data when running in the local web server, or real SharePoint data from a SharePoint list if you're running the web part in a SharePoint environment such as the hosted workbench or in a real SharePoint page.
+These two lines determine the current mode of the page and environment in which the web part is running. These can prove to be useful when determining how to render the user interface for the web part.
 
-Display the values in these two members by adding the following two lines to the HTML that is added to the `<div>` element that contains the rendered web part. Add these lines just after the **Welcome to SharePoint** message:
+Display the value of these two members by adding the following lines to the HTML for the web part. Add the lines just after the line that displays the site title:
 
 ```html
 <p class="${ styles.subTitle }"><strong>Page mode:</strong> ${ pageMode }</p>
 <p class="${ styles.subTitle }"><strong>Environment:</strong> ${ environmentType }</p>
 ```
 
-Test the web part to see what we get. Start the local web server using the provided gulp **serve** task:
+Test the web part to see the effect of the changes. Start the local web server using the provided gulp **serve** task:
 
 ```console
 gulp serve
 ```
 
-When the browser loads the local workbench, add the web part to the page. Notice the values of the page mode and environment type:
+When the browser loads the hosted workbench, add the web part to the page. Notice the value of the page mode and environment:
 
-![Screenshot of the SharePoint local workbench](../media/07-web-part-01.png)
-
-Now, open a new browser tab and navigate to one of your SharePoint Online sites and append the following to the end of the root site's URL: **/_layouts/workbench.aspx**.
-
-Add the web part to the page.
-
-Notice the values of the page mode and environment type:
-
-![Screenshot of the SharePoint hosted workbench](../media/07-web-part-02.png)
+![Screenshot of the SharePoint hosted workbench](../media/07-web-part-01.png)
 
 ## Leverage the SharePoint Framework Logging API
 
-The SharePoint Framework also provides a way to log messages to the console with additional information than the traditional `console.log()` method provides.
+The SharePoint Framework also provides a way to log messages to the developer dashboard with more information than the traditional `console.log()`.
 
 Locate the web part file **src/webparts/helloWorld/HelloWorldWebPart.ts**.
 
 At the top of the web part file, locate the following lines:
 
-```ts
+```typescript
 import {
   Version,
   DisplayMode,
@@ -94,7 +72,7 @@ import {
 
 Add an additional reference to `Log` the existing list so it looks like this:
 
-```ts
+```typescript
 import {
   Version,
   DisplayMode,
@@ -104,20 +82,20 @@ import {
 } from '@microsoft/sp-core-library';
 ```
 
-Add the following lines to the end of the `render()` method, immediately before it closes. These will look different messages to the browser's console window:
+Add the following lines to the end of the `render()` method, immediately before it closes. These will add different messages to the developer dashboard:
 
-```ts
+```typescript
 Log.info('HelloWorld', 'message', this.context.serviceScope);
 Log.warn('HelloWorld', 'WARNING message', this.context.serviceScope);
 Log.error('HelloWorld', new Error('Error message'), this.context.serviceScope);
 Log.verbose('HelloWorld', 'VERBOSE message', this.context.serviceScope);
 ```
 
-Go back to the browser tab containing the local workbench and open your browser's developer tools.
+Wait a few seconds for the project to rebuild, and then refresh the hosted workbench.
 
-Open the **Console** tab (*it may have a slightly different name depending on the browser you're using*).
+Open the developer dashboard by by pressing <kbd>CTRL</kbd>+<kbd>F12</kbd>
 
-There will be many messages logged to the console, so use the filter technique to filter based on the name of your web part, **HelloWorld**.
+There will be many messages logged to the developer dashboard, so set the Source filter to the name of your web part, **HelloWorld**.
 
 Notice in the following image that each message is prefixed with the unique name of the web part.
 
@@ -131,13 +109,13 @@ Locate the web part file **src/webparts/helloWorld/HelloWorldWebPart.ts**.
 
 Locate the following line in the `render()` method:
 
-```ts
+```typescript
 this.domElement.innerHTML = `
 ```
 
 Add the following lines just before the `this.domElement.innerHTML` line:
 
-```ts
+```typescript
 this.context.statusRenderer.displayLoadingIndicator(this.domElement, "message");
 setTimeout(() => {
   this.context.statusRenderer.clearLoadingIndicator(this.domElement);
@@ -145,7 +123,7 @@ setTimeout(() => {
 
 Add the following line just after the code that attaches the event handler to the button:
 
-```ts
+```typescript
 }, 5000);
 ```
 
@@ -153,11 +131,15 @@ The code you just added displays the string **message** in a loading indicator f
 
 The resulting code should look similar to this:
 
-```ts
+```typescript
 public render(): void {
-
-  const pageMode : string = this.displayMode === DisplayMode.Edit ? 'You are in edit mode' : 'You are in read mode';
-  const environmentType : string = Environment.type === EnvironmentType.Local ? 'You are in local environment' : 'You are in sharepoint environment';
+  const siteTitle: string = this.context.pageContext.web.title;
+  const pageMode: string = (this.displayMode === DisplayMode.Edit)
+    ? 'You are in edit mode'
+    : 'You are in read mode';
+  const environmentType : string = (Environment.type === EnvironmentType.ClassicSharePoint)
+    ? 'You are running in a classic page'
+    : 'You are running in a modern page';
 
   this.context.statusRenderer.displayLoadingIndicator(this.domElement, "message");
   setTimeout(() => {
@@ -169,6 +151,7 @@ public render(): void {
           <div class="${ styles.row }">
             <div class="${ styles.column }">
               <span class="${ styles.title }">Welcome to SharePoint!</span>
+              <p class="${styles.subTitle}"><strong>Site title:</strong> ${siteTitle}</p>
               <p class="${ styles.subTitle }"><strong>Page mode:</strong> ${ pageMode }</p>
               <p class="${ styles.subTitle }"><strong>Environment:</strong> ${ environmentType }</p>
               <p class="${ styles.description }">${escape(this.properties.description)}</p>
@@ -194,7 +177,7 @@ public render(): void {
 }
 ```
 
-Go back to the browser and, if it hasn't reloaded, refresh the page.
+Wait a few seconds for the project to rebuild, and then refresh the hosted workbench.
 
 When the web part initially loads, it displays the loading message:
 
