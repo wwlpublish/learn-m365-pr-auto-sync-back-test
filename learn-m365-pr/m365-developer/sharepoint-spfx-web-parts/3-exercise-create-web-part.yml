@@ -28,12 +28,12 @@ quiz:
       explanation: "The dist, lib, and temp folders that can be deleted."
   - content: "Which gulp task creates the file used to deploy a SharePoint Framework project?"
     choices:
-    - content: "gulp package-solution"
+    - content: "Gulp package-solution"
       isCorrect: true
       explanation: "Correct!"
-    - content: "gulp create-sppkg"
+    - content: "Gulp create-sppkg"
       isCorrect: false
       explanation: "The gulp task package-solution creates the SharePoint package."
-    - content: "gulp package-spsolution"
+    - content: "Gulp package-spsolution"
       isCorrect: false
       explanation: "The gulp task package-solution creates the SharePoint package."
