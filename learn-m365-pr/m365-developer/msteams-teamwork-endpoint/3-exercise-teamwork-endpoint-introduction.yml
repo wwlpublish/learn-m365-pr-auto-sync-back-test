@@ -3,7 +3,7 @@ uid: learn-m365.msteams-teamwork-endpoint.3-exercise-teamwork-endpoint-introduct
 metadata:
   title: Exercise - Teamwork endpoint introduction
   description: In this exercise, you’ll learn how to create a project and configure the custom Microsoft Teams app with single sign-on to submit requests to Microsoft Graph.
-  ms.date: 09/13/2021
+  ms.date: 12/08/2021
   author: andrewconnell-msft
   ms.author: suzanz
   ms.topic: interactive-tutorial

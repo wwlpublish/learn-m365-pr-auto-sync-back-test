@@ -71,7 +71,7 @@ https://m365x285179.sharepoint.com/sites/TestTeam/Shared%20Documents/Forms/AllIt
 > [!NOTE]
 > Line breaks have been added for readability.
 
-From this, you get the URL of the document library: `https://m365x285179.sharepoint.com/sites/TestTeam/Shared%20Documents`. From this, you can also see the folder is **General**, so the URL to this folder is: `https://m365x285179.sharepoint.com/sites/TestTeam/Shared%20Documents`.
+From this, you get the URL of the document library: `https://m365x285179.sharepoint.com/sites/TestTeam/Shared%20Documents`. You can also see the folder is **General**, so the URL to this folder is: `https://m365x285179.sharepoint.com/sites/TestTeam/Shared%20Documents/General`.
 
 Now, select the Word document to load it in the Microsoft Office Word web client. If you look at the URL in the browser's address bar, it should look similar to the following:
 
@@ -91,7 +91,7 @@ From this, you can get the ID of the document from the `sourcedoc` URL parameter
 Now you have what you need to create the Word tab:
 
 - **document ID:** `5E12B0DE-AD44-43D3-BD00-53C9BDD5609D`
-- **document URL:** `https://m365x285179.sharepoint.com/sites/TestTeam/Shared%20Documents/document.docx`
+- **document URL:** `https://m365x285179.sharepoint.com/sites/TestTeam/Shared%20Documents/General/document.docx`
 
 Repeat this process to get the same values for the Excel file.
 
@@ -132,8 +132,8 @@ const handleWordOnClick = useCallback(async() => {
       displayName: "Word",
       "teamsApp@odata.bind" : "https://graph.microsoft.com/v1.0/appCatalogs/teamsApps/com.microsoft.teamspace.tab.file.staticviewer.word",
       configuration: {
-        entityId: "CA2E9D19-3FE7-4E60-82DF-F73BD3B8D302",
-        contentUrl: "https://m365x285179.sharepoint.com/sites/TestTeam/Shared Documents/General/sample.docx",
+        entityId: "{{WORD_DOCUMENT_ID}}",
+        contentUrl: "{{WORD_DOCUMENT_URL}}",
         removeUrl: null,
         websiteUrl: null
       }
@@ -157,8 +157,8 @@ const handleExcelOnClick = useCallback(async() => {
       displayName: "Excel",
       "teamsApp@odata.bind" : "https://graph.microsoft.com/v1.0/appCatalogs/teamsApps/com.microsoft.teamspace.tab.file.staticviewer.excel",
       configuration: {
-        entityId: "2A451F2C-5BC0-4EEF-B986-671705798A54",
-        contentUrl: "https://m365x285179.sharepoint.com/sites/TestTeam/Shared Documents/General/Book.xlsx",
+        entityId: "{{EXCEL_DOCUMENT_ID}}",
+        contentUrl: "{{EXCEL_DOCUMENT_URL}}",
         removeUrl: null,
         websiteUrl: null
       }
@@ -187,12 +187,6 @@ Finally, save all your edits to the **MsGraphTeamworkTab.tsx** file.
 ## Build and test the application
 
 Now let's test the new functionality added in this exercise.
-
-From the command line, navigate to the root folder for the project and execute the following command:
-
-```console
-gulp ngrok-serve
-```
 
 > [!IMPORTANT]
 > If the **ngrok-serve** stopped for any reason, remember when you start/restart the **gulp ngrok-serve** task, the dynamic ngrok URL will change.
