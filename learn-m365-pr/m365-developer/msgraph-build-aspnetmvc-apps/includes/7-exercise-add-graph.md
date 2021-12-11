@@ -54,11 +54,12 @@ private static GraphServiceClient GetAuthenticatedClient()
                 var tokenStore = new SessionTokenStore(idClient.UserTokenCache,
                         HttpContext.Current, ClaimsPrincipal.Current);
 
-                var accounts = await idClient.GetAccountsAsync();
+                var userUniqueId = tokenStore.GetUsersUniqueId(ClaimsPrincipal.Current);
+                var account = await idClient.GetAccountAsync(userUniqueId);
 
                 // By calling this here, the token can be refreshed
                 // if it's expired right before the Graph call is made
-                var result = await idClient.AcquireTokenSilent(graphScopes, accounts.FirstOrDefault())
+                var result = await idClient.AcquireTokenSilent(graphScopes, account)
                     .ExecuteAsync();
 
                 requestMessage.Headers.Authorization =

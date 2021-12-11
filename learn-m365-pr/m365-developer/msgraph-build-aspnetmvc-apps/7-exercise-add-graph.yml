@@ -3,7 +3,7 @@ uid: learn-m365.msgraph-build-aspnetmvc-apps.7-exercise-add-graph
 metadata:
   title: Exercise - Incorporate Microsoft Graph into ASP.NET MVC web apps
   description: In this exercise, you'll learn how to customize and configure an ASP.NET MVC web application to request and integrate data obtained from Microsoft Graph.
-  ms.date: 09/13/2021
+  ms.date: 12/08/2021
   author: andrewconnell-msft
   ms.author: suzanz
   ms.topic: interactive-tutorial
