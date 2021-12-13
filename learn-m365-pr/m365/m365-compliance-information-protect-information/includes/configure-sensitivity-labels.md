@@ -44,7 +44,7 @@ The image below shows the three encryption options: **None**, **Apply**, and **R
 
 ### None
 
-None means that no encryption will be applied to files and email messages with this label applied.
+None means that original encryption is preserved for files and email messages with this label applied, however, if the label has administrator-defined permissions, the original encryption is removed.
 
 ### Apply
 
