@@ -70,7 +70,7 @@ Select the **HelloPropertyPane** web part to add the web part to the page:
 
 ![Screenshot of HelloPropertyPane web part in the SharePoint Workbench](../media/03-test-webpart-02.png)
 
-Open the proprty pane by selecting the pencil (edit) icon in the toolbar to the left of the web part:
+Open the property pane by selecting the pencil (edit) icon in the toolbar to the left of the web part:
 
 ![Screenshot of HelloPropertyPane's property pane](../media/03-test-webpart-03.png)
 
