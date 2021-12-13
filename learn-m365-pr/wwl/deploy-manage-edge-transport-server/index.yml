@@ -3,7 +3,7 @@ uid: learn.wwl.deploy-manage-edge-transport-server
 metadata:
   title: Provide a gateway for Internet email using Edge Transport servers
   description: "Provide a gateway for Internet email using Edge Transport servers"
-  ms.date: 12/10/2021
+  ms.date: 12/13/2021
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
