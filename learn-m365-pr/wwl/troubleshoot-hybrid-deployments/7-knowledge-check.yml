@@ -10,7 +10,6 @@ metadata:
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
-sandbox: false
 labModal: false
 durationInMinutes: 6
 content: |
@@ -48,6 +47,6 @@ quiz:
     - content: "Port 25 isn't enabled"
       isCorrect: false
       explanation: "This answer is incorrect. Pass-through authentication relies on TCP port 443. This port must be enabled for outbound from the PTA server to Microsoft Azure. Try again."
-    - content: "The Microsoft AAD Application Proxy Connector service isn't running"
+    - content: "The Microsoft Azure Active Directory Application Proxy Connector service isn't running"
       isCorrect: true
-      explanation: "This answer is correct. Pass-through authentication relies on a service named Microsoft AAD Application Proxy Connector (WAPCSvc). If this service isn’t running, then pass-through authentication will be unavailable."
+      explanation: "This answer is correct. Pass-through authentication relies on a service named Microsoft Azure Active Directory Application Proxy Connector (WAPCSvc). If this service isn’t running, then pass-through authentication will be unavailable."

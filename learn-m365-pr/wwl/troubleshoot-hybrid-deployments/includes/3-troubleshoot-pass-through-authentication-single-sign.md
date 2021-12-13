@@ -8,7 +8,7 @@ Let’s walk through a couple of common pass-through authentication failure scen
 
  -  **No users can sign in.** In this scenario, the problem is typically related to the backend components or connectivity.
     
-     -  Pass-through authentication relies on a service named Microsoft AAD Application Proxy Connector (WAPCSvc). If this service isn’t running, then pass-through authentication will be unavailable.
+     -  Pass-through authentication relies on a service named Microsoft Azure Active Directory Application Proxy Connector (WAPCSvc). If this service isn’t running, then pass-through authentication will be unavailable.
      -  If port 443 isn't enabled for outbound from the PTA server to Microsoft Azure, then pass-through authentication will be unavailable.
  -  **One user is unable to sign in.** In this scenario, the problem is typically related to the user account. In the most common scenario, a user isn't able to sign in because their user account hasn’t synced to Azure Active Directory.
     
@@ -26,7 +26,7 @@ The Invoke-WebRequest cmdlet sends HTTP and HTTPS requests to a web page or web 
  -  If successful, you should get a status code of 200.
  -  If unsuccessful, then look at your network connectivity, firewall, and proxy configuration.
 
-By default, pass-through authentication components are automatically updated to the latest versions. This design is helpful in keeping the components up to date, which ensures stability and compatibility with the latest improvements. Automatic updating uses TCP port 80 and a service named Microsoft AAD Application Proxy Connector Updater. Ensure you have TCP port 80 open for automatic updates and the service is running.
+By default, pass-through authentication components are automatically updated to the latest versions. This design is helpful in keeping the components up to date, which ensures stability and compatibility with the latest improvements. Automatic updating uses TCP port 80 and a service named Microsoft Azure Active Directory Application Proxy Connector Updater. Ensure you have TCP port 80 open for automatic updates and the service is running.
 
 ### Single sign-on troubleshooting
 
