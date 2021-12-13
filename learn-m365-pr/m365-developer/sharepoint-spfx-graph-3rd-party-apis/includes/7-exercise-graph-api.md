@@ -3,7 +3,7 @@ In this exercise, you'll create a new SharePoint Framework project with a single
 ## Create the Persona SharePoint Framework solution
 
 > [!IMPORTANT]
-> The instructions below assume you are using v1.12.1 of the SharePoint Framework Yeoman generator.
+> The instructions below assume you are using v1.13.0 of the SharePoint Framework Yeoman generator.
 
 Open a command prompt and change to the folder where you want to create the project. Run the SharePoint Yeoman generator by executing the following command:
 
@@ -14,7 +14,7 @@ yo @microsoft/sharepoint
 Use the following to complete the prompt that is displayed (*if additional options are presented, accept the default answer)*:
 
 - **What is your solution name?**: MSGraphSPFx
-- **Which baseline packages do you want to target for your component(s)?**: SharePoint Online only (latest)
+- **Only SharePoint Online (latest) is supported. For earlier versions of SharePoint (2016 and 2019) please use the 1.4.1 version of the generator.**: SharePoint Online only (latest)
 - **Where do you want to place the files?**: Use the current folder
 - **Do you want to allow the tenant admin the choice of being able to deploy the solution to all sites immediately without running any feature deployment or adding apps in sites?**: No
 - **Will the components in the solution require permissions to access web APIs that are unique and not shared with other components in the tenant?**: No
@@ -284,9 +284,9 @@ Select the **Approve or Reject** button, followed by selecting **Approve**.
 ## Test the web part
 
 > [!NOTE]
-> The SharePoint Framework includes a locally hosted and a SharePoint Online hosted workbench for testing custom solutions. However, the workbench will not work the first time when testing solutions that utilize the Microsoft due to nuances with how the workbench operates and authentication requirements. Therefore, the first time you test a Microsoft Graph enabled SPFx solution, you will need to test them in a real modern page.
+> The SharePoint Framework includes a SharePoint-hosted workbench for testing custom solutions. However, the workbench will not work the first time when testing solutions that utilize Microsoft Graph due to nuances with how the workbench operates and authentication requirements. Therefore, the first time you test a Microsoft Graph enabled SPFx solution, you will need to test it in a real modern page.
 >
-> Once this has been done and your browser has been cookied by the Azure AD authentication process, you can leverage local webserver and SharePoint Online-hosted workbench for testing the solution.
+> Once this has been done and your browser has been cookied by the Azure AD authentication process, you can leverage local webserver and SharePoint-hosted workbench for testing the solution.
 
 ### Add the web part to your site collection
 
