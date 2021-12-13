@@ -179,7 +179,7 @@ When the page loads, notice how the rendering has changed according to the code 
 
 ![Screenshot of the field customizer](../media/05-field-customizer-test.png)
 
-Stop the local web server by pressing <kbd>CTRL</kbd>+<kbd>C</kbd> in the ccommand prompt.
+Stop the local web server by pressing <kbd>CTRL</kbd>+<kbd>C</kbd> in the command prompt.
 
 ## Summary
 
