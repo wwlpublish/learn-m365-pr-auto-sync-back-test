@@ -278,7 +278,7 @@ namespace msgraphapp.Controllers
 
 ### Update the Visual Studio Code debugger launch configuration
 
-By default, the .NET Core launch configuration will open a browser and navigate to the default URL for the application when launching the debugger. For this application, we instead want to navigate to the NGrok URL. If you leave the launch configuration as is, each time you debug the application it will display a broken page. You can just change the URL, or change the launch configuration to not launch the browser.
+By default, the .NET Core launch configuration will open a browser and navigate to the default URL for the application when launching the debugger. For this application, we instead want to navigate to the ngrok URL. If you leave the launch configuration as is, each time you debug the application it will display a broken page. You can just change the URL, or change the launch configuration to not launch the browser.
 
 In Visual Studio Code, open the file **.vscode/launch.json**.
 

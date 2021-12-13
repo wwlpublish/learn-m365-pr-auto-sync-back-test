@@ -160,7 +160,7 @@ Nullable reference types refers to a group of features introduced in C# 8.0 that
 
 Nullable reference types are enabled by default in .NET 6 projects, they are disabled by default in .NET 5 projects.
 
-Ensuring that nullable reference types are enabled is not related to the use of Microsoft Graph, it just ensures the exercises in this module can contain a single set of code that will complie without warnings when using either .NET 5 or .NET 6.
+Ensuring that nullable reference types are enabled is not related to the use of Microsoft Graph, it just ensures the exercises in this module can contain a single set of code that will compile without warnings when using either .NET 5 or .NET 6.
 
 Open the **msgraphapp.csproj** file and ensure the `<PropertyGroup>` element contains the following child element:
 
