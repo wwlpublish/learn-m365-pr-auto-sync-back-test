@@ -29,7 +29,7 @@ if (Office.context.requirements.isSetSupported(RequirementSetName, MinimumVersio
 > [!NOTE]
 > **Office Insider's Program**
 >
-> To get the earliest or monthly changes to any of the Office hosts, you can join the Office Insider's program. This program is for Windows PC only and requires an Office 365 subscription. From any Office application, select **File > Account > Office Insider** to quickly join the program.
+> To get the earliest or monthly changes to any of the Office hosts, you can join the Office Insider's program. This program is for Windows PC only and requires an Microsoft 365 subscription. From any Office application, select **File > Account > Office Insider** to quickly join the program.
 
 ### Using Office JavaScript APIs
 
@@ -47,7 +47,7 @@ To use these APIs, reference them on the Office.js content delivery network (CDN
 
 Along with adding your preferred CDN link, all Office Add-ins require an `Office.onReady()` call. You put your add-in code in this method, and it gets called once the Office.js library has initialized. Inside the `onReady()` method, you can determine which host your add-in is running in by checking the `Office.HostType` enum value (for example, `Excel` or `Word`). You can check which platform your add-in is running on with an `Office.PlatformType` enum value (for example, `PC` or `Mac`).
 
-If you're using extra JavaScript frameworks that include their own initialization handler or tests, they should be placed within the response to `Office.onReady()`. For example, you would reference jQuery's `$(document).ready()` function as shown in the following code example.
+If you're using additional JavaScript frameworks that include their own initialization handler or tests, they should be placed within the response to `Office.onReady()`. For example, you would reference jQuery's `$(document).ready()` function as shown in the following code example.
 
 ```javascript
 Office.onReady(function() {
@@ -58,7 +58,7 @@ Office.onReady(function() {
 });
 ```
 
-### Making asynchronous calls using proxy objects
+### Making asynchronous calls with proxy objects
 
 When you work with a document, requested read or write actions are batched up using a proxy object. Your API calls don't actually read or update the underlying document until you call the `sync()` method.
 
