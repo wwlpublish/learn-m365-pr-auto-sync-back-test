@@ -1,16 +1,15 @@
 ### YamlMime:ModuleUnit
 uid: learn.wwl.troubleshoot-hybrid-deployments.troubleshoot-directory-synchronization
-title: Troubleshoot Directory Synchronization
+title: Troubleshoot directory synchronization
 metadata:
-  title: Troubleshoot Directory Synchronization
-  description: "Troubleshoot Directory Synchronization"
+  title: Troubleshoot directory synchronization
+  description: "Troubleshoot directory synchronization"
   ms.date: 12/14/2021
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
-sandbox: false
 labModal: false
 durationInMinutes: 7
 content: |
