@@ -3,7 +3,7 @@ uid: learn-m365.intro-office-add-ins.2-fundamentals
 metadata:
   title: Understand Office Add-ins fundamentals
   description: The Office Add-ins platform enables you to extend the functionality of Office applications. In this unit, you'll explore various ways you can use add-ins to extend and interact with Office applications. You'll also learn about configuring your add-in using the add-in's manifest file.
-  ms.date: 09/13/2021
+  ms.date: 12/07/2021
   author: andrewconnell-msft
   ms.author: suzanz
   ms.topic: interactive-tutorial
@@ -20,9 +20,9 @@ quiz:
     - content: "Add-ins can run only in Office on Windows, Mac, and iPad/iOS."
       isCorrect: false
       explanation: "Add-ins can also run in Office in a web browser and in Outlook on Android."
-    - content: "Office 365 administrators can use centralized deployment to deploy add-ins across their organization."
+    - content: "Microsoft 365 administrators can use centralized deployment to deploy add-ins across their organization."
       isCorrect: true
-      explanation: "Office 365 administrators can use centralized deployment through their organization's O365 admin center."
+      explanation: "Microsoft 365 administrators can use centralized deployment through their organization's O365 admin center."
     - content: "A developer publishes their add-in to AppSource to hide it from the general public."
       isCorrect: false
       explanation: "A developer publishes their add-in to AppSource to make it available to the general public."
