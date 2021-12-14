@@ -10,4 +10,4 @@ The module then reviewed the mail flow options for a hybrid deployment. Most org
 
 The module then reviewed why configuring a hybrid deployment is the first step for any Exchange organization. This step is completed whether you want to connect your Exchange on-premises and Exchange Online organizations for long-term coexistence, or as part of a cloud migration strategy.
 
-The module concluded by examining the requirements and best practices to configure a hybrid deployment.
+The module concluded by examining the requirements and best practices to configure a hybrid deployment. 
