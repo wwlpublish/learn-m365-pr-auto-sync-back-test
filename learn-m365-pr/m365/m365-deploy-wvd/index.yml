@@ -3,7 +3,7 @@ uid: learn-m365.deploy-wvd
 metadata:
   title: Deploy Azure Virtual Desktop
   description: Learn how to deploy Azure Virtual Desktop and customize the workspace for your users.  
-  ms.date: 08/02/2021
+  ms.date: 12/13/2021
   author: ndelgado
   ms.author: nedelgad
   ms.topic: interactive-tutorial
@@ -34,6 +34,7 @@ units:
 - learn-m365.deploy-wvd.wvd-deployment-overview
 - learn-m365.deploy-wvd.provision-host-pool
 - learn-m365.deploy-wvd.configure-remote-apps
+- learn-m365.deploy-wvd.configure-fslogix-user-profiles
 - learn-m365.deploy-wvd.customize-workspace
 - learn-m365.deploy-wvd.knowledge-check
 - learn-m365.deploy-wvd.summary-and-knowledge-check

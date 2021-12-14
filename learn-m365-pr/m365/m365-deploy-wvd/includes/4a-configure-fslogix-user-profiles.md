@@ -32,76 +32,90 @@ To use FSLogix to separate user profiles from the session host virtual machines 
 
 ## Enable Azure Active Directory authentication
 
-1. Go to the [Azure Virtual Desktop web client](https://rdweb.wvd.microsoft.com/arm/webclient/index.html).
+The following steps cover how to enable authentication for Azure file shares with Azure AD DS. If you’re using AD DS, you need to register your Azure storage account with AD DS, and then set the required domain properties on the storage account. Use the AzFilesHybrid Azure PowerShell module on a device that is domain joined to your on-premises AD DS. The Join-AzStorageAccountForAuth cmdlet performs the equivalent of an offline domain join on behalf of the Azure storage account. For the step-by-step instructions to enable authentication with AD DS on-premises, see the related Docs article at the end of this module.
 
-1. Sign in by using the credentials for the user you assigned to the RemoteApp application group.
+## Enable authentication for Azure file shares with Azure AD DS
 
-1. You should see the application in the workspace.
+1. In the Storage account menu, scroll to **Data Storage**, and then select **File shares**.
+1. At the top of the page, look for **Active Directory** and click **Not configured**.
+1. Under Azure Active Directory Domain Services, select **Set Up**.
+1. Select **Enable Azure Active Directory Domain Services (Azure AD DS) for this file share**.
+1. Click **Save**.
+1. Select **Save** again.
 
-Provide users a local profile experience, which can eliminate many compatibility issues with solutions that rely on folder redirection
+## Assign roles to access storage data
 
-1. [Sign in](https://portal.azure.com/learn.docs.microsoft.com?azure-portal=true) to the Azure portal.
+### Assign role to AAD DC Administrators
 
-1. Use the search box to find **Azure Virtual Desktop**. The Azure Virtual Desktop page appears.
+You need to assign roles to the AAD DC Administrators group and to your Azure Virtual Desktop users.
 
-1. From the resource menu under **Manage** category, select **Application groups**. The **Azure Virtual Desktop** *Application groups* pane appears.
+1. Give the administrators the ability to modify NTFS permissions by assigning an elevated contributor role for the file share.
+1. In the storage account you created, select **Access control (IAM)**.
+1. Select **Add > Add role assignment**.
+1. For **Role**, select **Storage File Data SMB Share Elevated Contributor** and click **Next**.
+1. On the **Members** blade, ensure **Assign access to** is set to **User, group, or service principal**.
+1. Click **Select Members**.
+1. Click **AAD DC Administrators and click Select**.
+1. Select **Review + assign**.
+1. Select **Review + assign again**.
 
-1. In the command bar, select **Create**. The **Create an application group** pane appears.
+### Assign role to Azure Virtual Desktop users
 
-1. On the Basics tab, enter the following values.
+1. Assign users a contributor role so they have permission to read and write file data in the SMB file share where the user profile virtual disks are stored.
+1. In the storage account you created, select **Access control (IAM)**.
+1. Select **Add > Add role assignment**.
+1. For **Role**, select **Storage File Data SMB Share Contributor** and click **Next**.
+1. On the **Members** blade, ensure **Assign access to** is set to **User, group, or service principal**.
+1. Click **Select Members**.
+1. Click **AAD DC Administrators and click Select**.
+1. Select **Review + assign**.
+1. Select **Review + assign again**.
 
-   |Field  |Description  |
+## Enable FSLogix
+
+Add a registry key to each VM registered to the host pool. You’ll need the storage account access key and the file share path.
+
+1. From the start menu, run RegEdit as an administrator.
+1. Go to **Computer_LOCAL_MACHINE*.
+1. Create a key for the VMs called **Profiles**.
+1. Create a registry key to store the SMB path you previously created. Under **Profiles**, add the following data type entries:
+
+   |Type  |Name  |Data/Value|
    |---------|---------|
-   |Subscription | Subscription where you want the app group to run |
-   |Resource group | Resource group you've created for Azure Virtual Desktop resources |
-   |Host pool | wvd-host-pool-1 |
-   |Application group type | RemoteApp |
-   |Application group name | RemoteApp1 |
+   |DWORD | Enabled | 1
+   |Multi-String Value | VHDLocations | File share location from Azure Files in SMB path format
 
-   :::image type="content" source="../media/4-create-application-group-basics.png" alt-text="Screenshot of the application groups basics tab filled out using values from table.":::
+1. Create a registry key to Enable FSLogix. Under Profiles, add the following data type entries:
 
-1. Select **Next: Applications**. The **Create an applications group** pane appears.
-
-### Step 2: Applications
-
-1. The application list is empty. Let's add a few applications. Select **Add applications**. The **Add Applications** tab appears.
-
-   :::image type="content" source="../media/4-remoteapp-applications.png" alt-text="Screenshot of the applications tab with add applications highlighted.":::
-
-1. Enter the following values. Accept default values for fields that are not listed in the table.
-
-   |Field  |Value  |
+   |Type  |Name  |Data/Value|
    |---------|---------|
-   |Application source |  Start menu |
-   |Application | WordPad |
-   |Display name  | WordPad  |
+   |DWORD | Enabled | 1
 
-   :::image type="content" source="../media/4-remoteapp-add-application.png" alt-text="Screenshot that shows WordPad selected.":::
+## Configure NTFS Permissions
 
-1. Select **Save**.
-1. Select **Next: Assignments**.
+### Get storage account access key
 
-### Step 3: Assignments
+You’ll need the storage account access key and file share path to configure NTFS permissions.
 
-1. Select **Add Azure AD users or user groups**.
+In your storage account, under **Security + networking**, select **Access keys**.
 
-   :::image type="content" source="../media/4-remoteapp-assignment.png" alt-text="Screenshot of the assignments tab with Add Azure AD users or user groups highlighted.":::
+Click **show keys**.
 
-1. Select single or multiple users, or you can select user groups.
-1. Select **Next: Workspace**.
+Copy the value from one of the key fields to use it later.
 
-### Step 4: Workspace
+### Get the file share path
 
-1. For **Register application group**, select **Yes**.
+1. In your storage account, in the left navigation, scroll down to **Data storage** and select **File shares**.
+1. Select the file share you created.
+1. Under **Settings**, select **Properties**.
+1. Copy the URL.
+1. Convert the URL from an HTTP path to an SMB path to use it later. For example, (**https://myfslogixstorage.file.core.windows.net/profiles**) converts to (**\\myfslogixstorage.file.core.windows.net\profiles**).
 
-   :::image type="content" source="../media/4-remoteapp-workspace.png" alt-text="Screenshot that shows workspace tab with yes selected.":::
-1. Select **Review + create**.
-1. Review what you've entered and select **Create**.
+### Login to a session host
 
-## Verify access to application
+1. Open an elevated command prompt on one of the session hosts.
+1. Run the following commands where you replace placeholder values with the SMB file share path, the storage account access key, and the user’s Azure AD User Principal Name (UPN). The UPN would look something like kaicarter@contoso.onmicrosoft.com.
 
-1. Go to the [Azure Virtual Desktop web client](https://rdweb.wvd.microsoft.com/arm/webclient/index.html).
+net use Z: [SMB path used in VHDLocations in the registry] /u:Azure\[storage account name] [storage access key]
 
-1. Sign in by using the credentials for the user you assigned to the RemoteApp application group.
-
-1. You should see the application in the workspace.
+Icacls Z: /grant [user UPN]:(f)

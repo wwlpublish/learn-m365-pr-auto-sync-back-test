@@ -4,6 +4,7 @@ In this module, you learned how to deploy Azure Virtual Desktop in your environm
 - Make a desktop and apps available to users by using application groups
 - Customize the workspace
 - Connect to the workspace by using the Azure Virtual Desktop client
+- Setting up roaming and stateful user profiles by using Azure Files and FSLogix
 
 ## Learn more
 
@@ -17,6 +18,12 @@ Connect to Azure Virtual Desktop with client:
 
 Other resources:
 
+- What is FSLogix?
+- Storage options for FSLogix profile containers in Azure Virtual Desktop
+- Set up MSIX app attach
+- Enable AD DS authentication for your Azure file shares
+- Download and Install FSLogix
+- Planning for an Azure File Sync deployment
 - [Azure subscription and service limits, quotas, and constraints](/azure/azure-resource-manager/management/azure-subscription-service-limits)
 - [Virtual machine sizing guidelines](/windows-server/remote/remote-desktop-services/virtual-machine-recs?context=/azure/virtual-desktop/context/context)
 - [Set up email discovery to subscribe to your RDS feed](/windows-server/remote/remote-desktop-services/rds-email-discovery)

@@ -1,8 +1,8 @@
 ### YamlMime:ModuleUnit
-uid: learn-m365.deploy-wvd.configure-remote-apps
-title: Configure apps for users
+uid: learn-m365.deploy-wvd.configure-user-profiles-apps
+title: Configure FSLogix user profiles
 metadata:
-  title: Configure apps for users
+  title: Configure FSLogix user profiles
   description: Learn how to share apps with users by using Azure Virtual Desktop.
   ms.date: 07/29/2021
   author: lizap
