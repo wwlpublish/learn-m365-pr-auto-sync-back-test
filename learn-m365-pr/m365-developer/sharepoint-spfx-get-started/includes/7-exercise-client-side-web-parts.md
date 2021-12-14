@@ -35,7 +35,7 @@ Select **Save as draft** to see the page as your users will see it.
 ## Verify your developer environment is properly configured
 
 > [!NOTE]
-> The instructions below assume you're using v1.12.1 of the SharePoint Framework Yeoman generator.
+> The instructions below assume you're using v1.13.0 of the SharePoint Framework Yeoman generator.
 
 Use the tools installed in the second exercise to create a new SharePoint Framework component and test it using the local workbench.
 
@@ -50,7 +50,7 @@ yo @microsoft/sharepoint
 Use the following to complete the prompt that is displayed:
 
 * **What is your solution name?**: HelloWorld
-* **Which baseline packages do you want to target for your component(s)?**: SharePoint Online only (latest)
+* **Only SharePoint Online (latest) is supported.  For earlier versions of SharePoint (2016 and 2019) please use the 1.4.1 version of the generator**: SharePoint Online only (latest)
 * **Where do you want to place the files?**: Use the current folder
 * **Do you want to allow the tenant admin the choice of being able to deploy the solution to all sites immediately without running any feature deployment or adding apps in sites?**: No
 * **Will the components in the solution require permissions to access web APIs that are unique and not shared with other components in the tenant?**: No
@@ -70,20 +70,22 @@ gulp trust-dev-cert
 Run the project by executing the following command:
 
 ```console
-gulp serve
+gulp serve --nobrowser
 ```
 
-The SharePoint Framework's gulp **serve** task will build the project, start a local web server, and launch a browser open to the SharePoint Workbench.
+The SharePoint Framework's gulp **serve** task with the **nobrowser** switch will build the project and start a local web server.
 
-![Screenshot of the SharePoint Workbench](../media/07-testing-01.png)
+Wait for the **reload** subtask to finish executing. At this point, the web part will be ready for testing.
 
-Select the web part icon button to open the list of available web parts.
+![Screenshot of the gulp serve output](../media/07-testing-01.png)
 
-![Screenshot of adding the HelloWorld web part](../media/07-testing-02.png)
+Open a browser and navigate to the developer site you created in the first exercise. If prompted, log in using your Work or School credentials. Append the following to the end of the site's URL: **/_layouts/workbench.aspx**. This is the SharePoint Online hosted workbench.
 
-Select the **HelloWorld** web part.
+![Screenshot of the SharePoint Workbench](../media/07-testing-02.png)
 
-![Screenshot of the HelloWorld web part](../media/07-testing-03.png)
+Select the web part icon button to open the list of available web parts, scroll down to the **Advanced** section, and select the **HelloWorld** web part.
+
+![Screenshot of adding the HelloWorld web part](../media/07-testing-03.png)
 
 Edit the web part's properties by selecting the pencil (edit) icon in the toolbar to the left of the web part.
 

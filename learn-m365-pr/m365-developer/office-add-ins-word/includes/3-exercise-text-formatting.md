@@ -2,7 +2,7 @@ In this exercise, you'll build a Word add-in that inserts text ranges and paragr
 
 ## Prerequisites
 
-Developing Office Add-ins for Microsoft Word requires Word 2016, version 1711 (Build 8730.1000 Click-to-Run) or later. You might need to be an Office Insider to get this version. For more information, see [Be an Office Insider](https://products.office.com/office-insider?tab=tab-1).
+Developing Office Add-ins for Microsoft Word requires Word 2016, version 1711 (Build 8730.1000 Click-to-Run) or later. You might need to be an Office Insider to get this version. For more information, see [Be an Office Insider](https://insider.office.com/?tab=tab-1).
 
 You'll use Node.js to create the custom Word add-in in this module. The exercises in this module assume you have the following tools installed on your developer workstation.
 
