@@ -1,0 +1,30 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.implement-advanced-hybrid-functionality.configure-onedrive-access
+title: Configure OneDrive access for on-premises mailboxes
+metadata:
+  title: Configure OneDrive access for on-premises mailboxes
+  description: "Configure OneDrive access for on-premises mailboxes"
+  ms.date: 12/14/2021
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 4
+content: |
+  [!include[](includes/5-configure-onedrive-access.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "As the Messaging administrator for Fabrikam, Holly Spencer ran Restart-WebAppPool MSExchangeOWAAppPool on the company's local Exchange 2019 server. What was a side effect of running this command?"
+    choices:
+    - content: "It uploaded the on-premises authorization certificate to Azure Active Directory ACS"
+      isCorrect: false
+      explanation: "This answer is incorrect. This item doesn't result from running Restart-WebAppPool MSExchangeOWAAppPool. Try again."
+    - content: "It created an authorization server object for Fabrikam's Exchange Online organization"
+      isCorrect: false
+      explanation: "This answer is incorrect. This item doesn't result from running Restart-WebAppPool MSExchangeOWAAppPool. Try again."
+    - content: "All Fabrikam users were disconnected from OWA"
+      isCorrect: true
+      explanation: "This answer is correct. Running Restart-WebAppPool MSExchangeOWAAppPool on your local Exchange 2016 or 2019 server will disconnect all your users from OWA."

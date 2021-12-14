@@ -1,0 +1,52 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.implement-advanced-hybrid-functionality.knowledge-check
+title: Knowledge check
+metadata:
+  title: Knowledge check
+  description: "Knowledge check"
+  ms.date: 12/14/2021
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 6
+content: |
+  [!include[](includes/6-knowledge-check.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "Contoso previously used Public Folders in its Exchange Server 2019 deployment. Now that the company has migrated to a hybrid deployment, it wants to configure Public Folder coexistence with Microsoft 365. As Contoso's Messaging administrator, Holly Dickson has satisfied the prerequisites for Public Folder coexistence with Microsoft 365. What task must Holly now complete to configure Public Folder coexistence?"
+    choices:
+    - content: "Enable the Exchange Online organization to access the on-premises Public Folder mailboxes by pointing to all the company's proxy Public Folder mailboxes"
+      isCorrect: false
+      explanation: "This answer is incorrect. This item configures legacy Public Folder coexistence for Exchange Server 2010. Try again."
+    - content: "Run Azure AD Connect"
+      isCorrect: false
+      explanation: "This answer is incorrect. Running Azure AD Connect is a prerequisite to configuring Public Folder coexistence. Since Holly has satisfied the Public Folder coexistence requirements, this task is already complete. Try again."
+    - content: "Enable the Exchange Online organization to access the on-premises Public Folder mailboxes by pointing to the company's Public Folder mailboxes"
+      isCorrect: true
+      explanation: "This answer is correct. For Exchange Server 2013 or later, you must enable the Exchange Online organization to access the on-premises Public Folders by pointing to to your Public Folder mailboxes."
+  - content: "When must an organization manually configure OAuth?"
+    choices:
+    - content: "When the hybrid deployment uses federated delegation"
+      isCorrect: false
+      explanation: "This answer is incorrect. This item isn't a reason why an organization must manually configure OAuth. Try again."
+    - content: "When the Exchange organization includes Exchange 2007 or 2010 servers"
+      isCorrect: true
+      explanation: "This answer is correct. OAuth must be manually configured when your Exchange organization includes Exchange 2007 or 2010 servers. The Hybrid Configuration Wizard doesn't configure OAuth in this situation."
+    - content: "If Azure AD Connect isn't running"
+      isCorrect: false
+      explanation: "This answer is incorrect. This item isn't a reason why an organization must manually configure OAuth. Try again."
+  - content: "Which of the following items is a prerequisite that must be satisfied to enable Public Folder coexistence with Microsoft 365?"
+    choices:
+    - content: "Outlook Anywhere must be enabled and functional on the on-premises Exchange servers"
+      isCorrect: true
+      explanation: "This answer is correct. To configure Public Folder coexistence with Microsoft 365, Outlook Anywhere must be enabled and functional on the on-premises Exchange servers."
+    - content: "Each server that hosts a Public Folder database requires the Client Access services role to be installed"
+      isCorrect: false
+      explanation: "This answer is incorrect. This item is a prerequisite for legacy Public Folder coexistence. Try again."
+    - content: "One mailbox database must be created per Exchange server that holds Public Folder databases"
+      isCorrect: false
+      explanation: "This answer is incorrect. This item is a prerequisite for legacy Public Folder coexistence. Try again."
