@@ -1,7 +1,7 @@
 In this exercise, you'll create a SharePoint Framework client-side web part.
 
 > [!IMPORTANT]
-> The instructions below assume you are using v1.12.1 of the SharePoint Framework Yeoman generator.
+> The instructions below assume you are using v1.13.0 of the SharePoint Framework Yeoman generator.
 
 Open a command prompt and change to the folder where you want to create the project.
 
@@ -14,7 +14,7 @@ yo @microsoft/sharepoint
 Use the following to complete the prompt that is displayed:
 
 - **What is your solution name?**: HelloWorld
-- **Which baseline packages do you want to target for your component(s)?**: SharePoint Online only (latest)
+- **Only SharePoint Online (latest) is supported.  For earlier versions of SharePoint (2016 and 2019) please use the 1.4.1 version of the generator.**: SharePoint Online only (latest)
 - **Where do you want to place the files?**: Use the current folder
 - **Do you want to allow the tenant admin the choice of being able to deploy the solution to all sites immediately without running any feature deployment or adding apps in sites?**: No
 - **Will the components in the solution require permissions to access web APIs that are unique and not shared with other components in the tenant?** No
@@ -34,20 +34,22 @@ gulp trust-dev-cert
 Run the project by executing the following command:
 
 ```console
-gulp serve
+gulp serve --nobrowser
 ```
 
-The SharePoint Framework's gulp **serve** task will build the project, start a local web server, and launch a browser open to the SharePoint Workbench:
+The SharePoint Framework's gulp **serve** task with the **nobrowser** switch will build the project and start a local web server.
 
-![Screenshot of the SharePoint Workbench](../media/03-testing-01.png)
+Wait for the **reload** subtask to finish executing. At this point, the web part will be ready for testing.
 
-Select the web part icon button to open the list of available web parts:
+![Screenshot of the gulp serve output](../media/03-testing-01.png)
 
-![Screenshot of adding the HelloWorld web part](../media/03-testing-02.png)
+Open a browser and navigate to the developer site you created in the first exercise. If prompted, log in using your Work or School credentials. Append the following to the end of the site's URL: **/_layouts/workbench.aspx**. This is the SharePoint-hosted workbench.
 
-Select the **HelloWorld** web part:
+![Screenshot of the SharePoint Workbench](../media/03-testing-02.png)
 
-![Screenshot of the HelloWorld web part](../media/03-testing-03.png)
+Select the web part icon button to open the list of available web parts, scroll down to the **Advanced** section, and select the **HelloWorld** web part:
+
+![Screenshot of adding the HelloWorld web part](../media/03-testing-03.png)
 
 Edit the web part's properties by selecting the pencil (edit) icon in the toolbar to the left of the web part:
 
@@ -61,7 +63,7 @@ In the property pane that opens, change the value of the **Description Field**. 
 
 Open the project folder in **Visual Studio Code**.
 
-If the local dev webserver isn't running, start it by running `gulp serve` on the command line from the root folder of the project, and add the **HelloWorld** web part to the SharePoint Workbench.
+If the local web server isn't running, start it by running **gulp serve --nobrowser** on the command line from the root folder of the project, and add the **HelloWorld** web part to the SharePoint Workbench.
 
 Next, update the code in the `render()` method to add a button that responds to an event.
 
@@ -89,7 +91,7 @@ this.domElement.getElementsByClassName(`${ styles.button }`)[0]
   });
 ```
 
-Save your changes. In a second or two, the SharePoint Workbench should automatically refresh so that you can test them.
+Save your changes. Wait a few seconds for the gulp **serve** task to rebuild your project, and then refresh the SharePoint Workbench so that you can test them.
 
 Select the **Learn More** button.
 
@@ -131,13 +133,13 @@ The web part's icon is the name of one of the icons listed in the Office UI Fabr
 }]
 ```
 
-Start the local web server using the provided gulp **serve** task:
+Start the local web server using the provided gulp **serve** task with the **nobrowser** switch:
 
 ```console
-gulp serve
+gulp serve --nobrowser
 ```
 
-The SharePoint Framework's gulp **serve** task will build the project, start a local web server, and launch a browser open to the SharePoint Workbench. This time, when you hover the mouse over the web part in the toolbox, you'll see the changes you applied to your web part:
+Wait for the **reload** subtask to finish executing, then open or refresh the SharePoint Workbench. This time, when you hover the mouse over the web part in the toolbox, you'll see the changes you applied to your web part:
 
 ![Screenshot of the web part gallery](../media/03-testing-06.png)
 
