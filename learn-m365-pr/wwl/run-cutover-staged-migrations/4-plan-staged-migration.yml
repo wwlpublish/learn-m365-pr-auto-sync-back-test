@@ -1,0 +1,30 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.run-cutover-staged-migrations.plan-staged-migration
+title: Plan a staged migration
+metadata:
+  title: Plan a staged migration
+  description: "Plan a staged migration"
+  ms.date: 12/15/2021
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/4-plan-staged-migration.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "As the Messaging administrator for Lucerne Publishing, Patti Fernandez wants to run a staged migration to move the user mailboxes from its Exchange 2013 deployment to Microsoft 365. Patti plans to create a CSV file that includes the batches of users that should be migrated. Each batch will have up to 2,000 user mailboxes. Patti also plans to implement directory synchronization using Azure AD Connect to ensure the Exchange Online address list is updated when a mailbox migration is finished. What problem will Patti face when trying to run a staged migration?"
+    choices:
+    - content: "Batches can only have up to 1,000 user mailboxes"
+      isCorrect: false
+      explanation: "This answer is incorrect. Batches can have up to 2,000 users in a staged migration. Try again,"
+    - content: "Lucerne's Exchange environment doesn't support staged migrations"
+      isCorrect: true
+      explanation: "This answer is correct. A staged migration can only be run in Exchange 2003 and 2007 environments. Staged migrations aren't supported in organizations running Exchange 2010 or later. Since Lucerne Publishing is running Exchange 2013, Patti can't run a staged migration."
+    - content: "Directory synchronization isn't supported in a staged migration"
+      isCorrect: false
+      explanation: "This answer is incorrect. Directory synchronization is not only supported, but is required, in a staged migration. Try again."
