@@ -4,12 +4,13 @@ title: Explore mail flow using Edge Subscriptions and EdgeSync
 metadata:
   title: Explore mail flow using Edge Subscriptions and EdgeSync
   description: "Explore mail flow using Edge Subscriptions and EdgeSync"
-  ms.date: 12/14/2021
+  ms.date: 12/15/2021
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
+sandbox: false
 labModal: false
 durationInMinutes: 7
 content: |
