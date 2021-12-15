@@ -4,7 +4,7 @@ title: Knowledge check
 metadata:
   title: Knowledge check
   description: Review what you learned about optimizing Azure Virtual Desktop.
-  ms.date: 07/19/2021
+  ms.date: 12/14/2021
   author: lizap
   ms.author: nedelgad
   ms.topic: interactive-tutorial
@@ -13,17 +13,6 @@ durationInMinutes: 3
 quiz:
    title: Check your knowledge
    questions:
-   - content: "Which of these steps is not part of creating an FSLogix profile?"
-     choices:
-     - content: "Create an Azure storage account with a file share"
-       isCorrect: false
-       explanation: "Incorrect. FSLogix profiles store user-assigned virtual disks in the file share in Azure."
-     - content: "Create a new role in Azure AD to read and write in Azure storage"
-       isCorrect: false
-       explanation: "Incorrect. You need a new role in Azure AD to read and write in Azure storage so users can access and modify the virtual disks that contain their user profile."
-     - content: "Install FSLogix software in Azure Virtual Desktop gallery images"
-       isCorrect: true
-       explanation: "Correct. FSLogix software is preinstalled in the Azure gallery images. If you use your *own* image, you'll need to install the FSLogix software yourself."
    - content: "What service can you use to migrate file or user profile data from an on-premises location to Azure?"
      choices:
      - content: "Azure Automation"

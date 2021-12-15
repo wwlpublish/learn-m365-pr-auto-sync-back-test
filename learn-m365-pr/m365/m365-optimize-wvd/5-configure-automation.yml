@@ -4,7 +4,7 @@ title: Automate depth and breadth scaling for Azure Virtual Desktop host pools
 metadata:
   title: Automate depth and breadth scaling for Azure Virtual Desktop host pools
   description: Learn how to configure automatic depth and breadth scaling for Azure Virtual Desktop host pools.
-  ms.date: 07/14/2021
+  ms.date: 12/14/2021
   author: lizap
   ms.author: nedelgad
   ms.topic: interactive-tutorial

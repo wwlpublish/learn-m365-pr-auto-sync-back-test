@@ -75,7 +75,7 @@ To create a scaling plan:
 1. Optionally, you can also add a "friendly" name that will be displayed to your users and a description for your plan.
 1. For Region, select a region for your scaling plan. The metadata for the object will be stored in the geography associated with the region. To learn more about regions, see Data locations.
 1. For Time zone, select the time zone you'll use with your plan.
-1. In Exclusion tags, enter tags for VMs you don't want to include in scaling operations. For example, you might want to use this functionality for maintenance. When you have set VMs on Drain mode use the tag so autoscale doesn’t override drain mode.
+1. In Exclusion tags, enter tags for VMs you don't want to include in scaling operations. For example, you might want to use this functionality for maintenance. When you have set VMs on Drain mode use the tag so Autoscale doesn’t override drain mode.
 1. Select Next, which should take you to the Schedules tab.
 
 ## Create a schedule for your scaling plan
@@ -86,7 +86,7 @@ This section will explain what a scaling plan schedule is and will walk you thro
 
 Schedules are Azure Virtual Desktop proxy resources for scaling plans that contain the information about the scaling configuration. In the schedule, you can configure the days it is applicable to and the start and end times. You can also configure the load balancing algorithm, capacity thresholds, and the minimum percentage of hosts for different points in the day, as well as your preferred ramp down strategy.
 
-In each phase of the schedule, autoscale only turns off VMs when a session host has no sessions active. The default values you'll see when you try to create a schedule are the suggested values for weekdays, but you can change them as needed.
+In each phase of the schedule, Autoscale only turns off VMs when a session host has no sessions active. The default values you'll see when you try to create a schedule are the suggested values for weekdays, but you can change them as needed.
 
 ## Create a schedule
 
@@ -100,9 +100,9 @@ In each phase of the schedule, autoscale only turns off VMs when a session host 
 - For **Load balancing algorithm**, we recommend selecting **breadth-first algorithm**. Breadth-first load balancing will distribute users across existing VMs to keep access times fast. 
 - **Note:** The load balancing preference you select here will override the one you selected for your original host pool settings.
 
-- For **Minimum percentage of session host VMs**, enter the amount of session host resources you want to use during ramp-up and peak hours. For example, if you choose **10%** and your host pool has 10 session hosts, autoscale will keep one session host available for user connections at all times during ramp-up and peak hours.
+- For **Minimum percentage of session host VMs**, enter the amount of session host resources you want to use during ramp-up and peak hours. For example, if you choose **10%** and your host pool has 10 session hosts, Autoscale will keep one session host available for user connections at all times during ramp-up and peak hours.
 
-- For **Capacity threshold**, enter the percentage of host pool usage that will trigger the start of the ramp-up and peak phases. For example, if you choose **60%** for a host pool that can handle 100 sessions, autoscale will only turn on additional hosts once the host pool goes over 60 sessions.
+- For **Capacity threshold**, enter the percentage of host pool usage that will trigger the start of the ramp-up and peak phases. For example, if you choose **60%** for a host pool that can handle 100 sessions, Autoscale will only turn on additional hosts once the host pool goes over 60 sessions.
 
 1. In the Peak hours tab, fill out the following fields:
 
@@ -113,40 +113,14 @@ In each phase of the schedule, autoscale only turns off VMs when a session host 
 
 - For **Ramp-down**, you'll enter values into similar fields to **Ramp-up**, but this time it will be for when your host pool usage drops off. This will include the following fields:
 
-Start time
+- Start time
+- Load-balancing algorithm
+- Minimum percentage of hosts (%)
+- Capacity threshold (%)
+- Force logoff users
 
-Load-balancing algorithm 
+- Likewise, Off-peak hours works the same way as Peak hours:
 
-Minimum percentage of hosts (%) 
-
-Capacity threshold (%) 
-
-Force logoff users 
-
-Likewise, Off-peak hours works the same way as Peak hours: 
-
-Start time, which is also the end of the ramp-down period. 
-
-Load-balancing algorithm. We recommend choosing depth-first to gradually reduce the number of session hosts based on sessions on each VM. 
-
-Just like peak hours, you can't configure the capacity threshold here. Instead, the value you entered in Ramp-down will carry over. 
-
-Use the scaling tool to:
-
-- Schedule VMs to start and stop based on Peak and Off-Peak business hours.
-- Scale out VMs based on number of sessions per CPU core.
-- Scale in VMs during Off-Peak hours, to leave the minimum number of session host VMs running.
-
-The scaling tool can manage:
-
-- Only to pooled session host VMs
-- VMs in any region, but can only be used in the same subscription as your Azure Automation account and Azure Logic Apps
-
-The following steps describe the high-level process you use to set up the scaling tool for Azure Virtual Desktop session hosts.
-
-1. *Create an Azure Automation account*: Download and run the Azure PowerShell script createazureautomationaccount.ps1 from the [scaling script repository](https://aka.ms/WVDscaling) in GitHub.
-1. *Create an Azure Automation Run As account*: In the Azure portal, from the Automation account you've created, add an Azure Run As Account. This process creates an asset named AzureRunAsConnection in the Automation account. The connection asset holds the application ID, tenant ID, subscription ID, and certificate thumbprint.
-1. *Create a role assignment in Azure Virtual Desktop*: Use the Azure Virtual Desktop PowerShell module to create a role assignment so that AzureRunAsConnection can interact with Azure Virtual Desktop.
-1. *Create the Azure Logic App and run schedule*: Download and run the Azure PowerShell script createazurelogicapp.ps1 from the [scaling script repository](https://aka.ms/WVDscaling) in GitHub.
-
-For step-by-step instructions and to learn more about this tool, review the links at the end of this module.
+- Start time, which is also the end of the ramp-down period.
+- Load-balancing algorithm. We recommend choosing depth-first to gradually reduce the number of session hosts based on sessions on each VM.
+- Just like peak hours, you can't configure the capacity threshold here. Instead, the value you entered in Ramp-down will carry over.
