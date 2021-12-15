@@ -1,5 +1,5 @@
 ### YamlMime:ModuleUnit
-uid: learn.wwl.manage-user-roles.summary
+uid: learn.wwl.deploy-manage-edge-transport-server.summary
 title: Summary
 metadata:
   title: Summary
@@ -10,7 +10,8 @@ metadata:
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
+sandbox: false
 labModal: false
-durationInMinutes: 2
+durationInMinutes: 1
 content: |
-  [!include[](includes/6-summary.md)]
+  [!include[](includes/7-summary.md)]
