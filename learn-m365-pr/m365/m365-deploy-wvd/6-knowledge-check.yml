@@ -56,4 +56,4 @@ quiz:
         explanation: "Incorrect. You need a new role in Azure AD to read and write in Azure storage so users can access and modify the virtual disks that contain their user profile."
       - content: "Install FSLogix software in Azure Virtual Desktop gallery images"
         isCorrect: true
-        explanation: "Correct. FSLogix software is preinstalled in the Azure gallery images. If you use your *own* image, you'll need to install the FSLogix software yourself."
+        explanation: "Correct. FSLogix software is preinstalled in the Azure gallery images. If you use your own image, you'll need to install the FSLogix software yourself."

@@ -16,7 +16,7 @@ The key components you deploy when you set up Azure Virtual Desktop are a host p
 There are two load-balancing options for the host pool:
 
 - *Breadth-first* - This option is the default configuration for new non-persistent host pools. Breadth-first load balancing distributes new user sessions across all available session hosts in the host pool. When you configure breadth-first load balancing, you may set a maximum session limit per session host in the host pool.
-- *Depth-first* - Distributes new user sessions to an available session host with the highest number of connections but has not reached its maximum session limit threshold. When you configure depth-first load balancing, you *must* set a maximum session limit per session host in the host pool.
+- *Depth-first* - Distributes new user sessions to an available session host with the highest number of connections but has not reached its maximum session limit threshold. When you configure depth-first load balancing, you must set a maximum session limit per session host in the host pool.
   
 ### Application group
 
@@ -27,7 +27,7 @@ An application group is a way to group remote resources and assign them to users
   
 ### Workspace
 
-A workspace is a logical grouping of application groups in Azure Virtual Desktop. When a user signs in to Azure Virtual Desktop, they see a workspace with a desktop and/or applications published to the application groups assigned to them.
+A workspace is a logical grouping of application groups in Azure Virtual Desktop. When a user signs in to Azure Virtual Desktop, they see a workspace with a desktop or applications published to the application groups assigned to them.
 
 The following diagram shows an Azure Virtual Desktop workspace with two host pools. Host pool A has two application groups: Desktop and RemoteApp. These resources are shared (pooled) across the sales team. Host pool B has a Desktop application group with personal desktops available to an engineering team.
 
