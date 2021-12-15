@@ -1,0 +1,50 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.run-imap-migrations.knowledge-check
+title: Knowledge check
+metadata:
+  title: Knowledge check
+  description: "Knowledge check"
+  ms.date: 12/15/2021
+  author: wwlpublish
+  ms.topic: interactive-tutorial
+azureSandbox: false
+labModal: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/5-knowledge-check.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "Fabrikam had earlier limited the connections to its source email system. It now plans to run an IMAP migration. Holly Spencer is the Messaging administrator at Fabrikam. Holly has created a CSV file that lists all the mailboxes to be migrated. Holly has also verified all the existing SMTP domains in Fabrikam's Microsoft 365 tenant. What can Holly do to improve the IMAP migration performance?"
+    choices:
+    - content: "Select the IMAP migration wizard option to only migrate message items and not contact, calendar items, and tasks"
+      isCorrect: false
+      explanation: "This answer is incorrect. There is no such wizard option. IMAP migrations only migrate message items in a user's mailbox. You can' migrate contacts, calendar items, or tasks. Try again."
+    - content: "Select the IMAP migration wizard option to only migrate messages that are less than 35 MB in size"
+      isCorrect: false
+      explanation: "This answer is incorrect. There is no such wizard option. IMAP migrations only migrate messages that are less than 35 MB in size. This is a fixed limitation. Try again."
+    - content: "Increase client/server total connections"
+      isCorrect: true
+      explanation: "This answer is correct. If you had previously limited the connections to your source email system, you should consider increasing them to improve migration performance. Common connection limits include client/server total connections, per-user connections, and IP address connections on either the server or the firewall."
+  - content: "What's the maximum number of mail items that can be migrated from a user's mailbox during an IMAP migration?"
+    choices:
+    - content: "250,000"
+      isCorrect: false
+      explanation: "This answer is incorrect. This value isn't the correct number of mail items that can be migrated from a user's mailbox during an IMAP migration. Try again."
+    - content: "500,000"
+      isCorrect: true
+      explanation: "This answer is correct. You can migrate a maximum of 500,000 mail items from a user’s mailbox (emails are migrated from newest to oldest) during an IMAP migration."
+    - content: "700,000"
+      isCorrect: false
+      explanation: "This answer is incorrect. This value isn't the correct number of mail items that can be migrated from a user's mailbox during an IMAP migration. Try again."
+  - content: "Which of the following steps should be completed before running an IMAP migration?"
+    choices:
+    - content: "Ask users to empty their Deleted Items folder"
+      isCorrect: true
+      explanation: "This answer is correct. Before running an IMAP migration, you must let your users know about the migration and how it impacts them. You should provide them with instruction as to the tasks that must be completed before, during, and after the migration. As a best practice, you should ask your users to reduce their mailbox size as much as possible and empty their Deleted Items folder."
+    - content: "Change the MX record to Microsoft 365"
+      isCorrect: false
+      explanation: "This answer is incorrect. This step must be completed after running the IMAP migration. Try again."
+    - content: "Send a Welcome message to your users to let them know about Microsoft 365 and how to sign into their new mailboxes"
+      isCorrect: false
+      explanation: "This answer is incorrect. This step must be completed after running the IMAP migration. Try again."

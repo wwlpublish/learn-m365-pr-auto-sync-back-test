@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.run-imap-migrations.plan-imap-migration
+title: Plan an IMAP migration
+metadata:
+  title: Plan an IMAP migration
+  description: "Plan an IMAP migration"
+  ms.date: 12/15/2021
+  author: wwlpublish
+  ms.topic: interactive-tutorial
+azureSandbox: false
+labModal: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/2-plan-imap-migration.md)]
