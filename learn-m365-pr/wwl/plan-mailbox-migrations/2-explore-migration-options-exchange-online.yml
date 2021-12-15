@@ -1,0 +1,31 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.plan-mailbox-migrations.explore-migration-options-exchange-online
+title: Explore migration options to Exchange Online
+metadata:
+  title: Explore migration options to Exchange Online
+  description: "Explore migration options to Exchange Online"
+  ms.date: 12/15/2021
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+sandbox: false
+labModal: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/2-explore-migration-options-exchange-online.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "Which of the following items provides the smoothest way to move mailboxes from the user perspective, but also requires the greatest effort for messaging administrators?"
+    choices:
+    - content: "Staged migration"
+      isCorrect: false
+      explanation: "This answer is incorrect. This migration option doesn't provide the smoothest way to move mailboxes from the user perspective while requiring the greatest effort for messaging administrators. Try again."
+    - content: "Minimal hybrid configuration / Express migration"
+      isCorrect: false
+      explanation: "This answer is incorrect. This migration option doesn't provide the smoothest way to move mailboxes from the user perspective while requiring the greatest effort for messaging administrators. Try again."
+    - content: "Coexistence"
+      isCorrect: true
+      explanation: "This answer is correct. In a coexistence, you can move mailboxes between your on-premises mail servers and Exchange Online as your business allows, and without the users noticing a difference. As such, coexistence provides the smoothest way to move mailboxes from the user perspective, but it also requires the greatest effort for messaging administrators."

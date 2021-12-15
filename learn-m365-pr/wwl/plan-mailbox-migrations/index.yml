@@ -1,0 +1,37 @@
+### YamlMime:Module
+uid: learn.wwl.plan-mailbox-migrations
+metadata:
+  title: Plan mailbox migrations
+  description: "Plan mailbox migrations"
+  ms.date: 12/15/2021
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Plan mailbox migrations
+summary: Examines the options that are available for migrating email to Exchange Online, such as performing a migration or using FastTrack, and summarizes the migration and co-existence options and recommends when to use which option.
+abstract: |
+  By the end of this module, you'll be able to:
+  - Describe the migration and coexistence strategies with Exchange Online.
+  - Describe considerations that affect which migration option to use.
+  - Determine whether DNS MX records must be changed during a mailbox migration.
+  - Use FastTrack to move mailboxes.
+prerequisites: ""
+iconUrl: /learn/achievements/generic-badge.svg
+levels:
+- intermediate
+roles:
+- administrator
+products:
+- azure-active-directory
+- m365
+units:
+- learn.wwl.plan-mailbox-migrations.introduction
+- learn.wwl.plan-mailbox-migrations.explore-migration-options-exchange-online
+- learn.wwl.plan-mailbox-migrations.determine-migration-option
+- learn.wwl.plan-mailbox-migrations.update-dns-during-microsoft-365-migration
+- learn.wwl.plan-mailbox-migrations.use-fasttrack-center
+- learn.wwl.plan-mailbox-migrations.knowledge-check
+- learn.wwl.plan-mailbox-migrations.summary
+badge:
+  uid: learn.wwl.plan-mailbox-migrations.badge
