@@ -4,7 +4,7 @@ title: Knowledge check
 metadata:
   title: Knowledge check
   description: Review what you learned about optimizing Azure Virtual Desktop.
-  ms.date: 12/14/2021
+  ms.date: 12/15/2021
   author: lizap
   ms.author: nedelgad
   ms.topic: interactive-tutorial
@@ -24,7 +24,7 @@ quiz:
      - content: "Azure Virtual Desktop"
        isCorrect: false
        explanation: "Virtualize desktops and apps by using Azure Virtual Desktop."
-   - content: "What's one of the primary reasons to use automated scaling in Azure Virtual Desktop?"
+   - content: "What's one of the primary reasons to use Autoscale"
      choices:
      - content: "To increase virtual disk storage when users get close to reaching the limits in a VM."
        isCorrect: false

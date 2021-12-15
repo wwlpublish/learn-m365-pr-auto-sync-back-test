@@ -3,21 +3,20 @@ uid: learn-m365.optimize-wvd
 metadata:
   title: Optimize Azure Virtual Desktop
   description: Learn the steps to optimize Azure Virtual Desktop, including how to take advantage of new storage, file management, and automated scaling options.  
-  ms.date: 12/14/2021
+  ms.date: 12/15/2021
   author: ndelgado
   ms.author: nedelgad
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Optimize Azure Virtual Desktop
-summary: Learn the steps to optimize Azure Virtual Desktop, including how to customize a basic environment to take advantage of new storage, file management, and automated scaling options.  
+summary: Learn the steps to optimize Azure Virtual Desktop, including how to customize a basic environment to use Autoscale.  
 abstract: |
   In this module, you will learn how to:
-  - Create separate roaming profiles for users by using FSLogix
-  - Migrate files and user profiles by using Azure File Sync
-  - Configure automatic scaling of session hosts   
+  - Configure automatic scaling of session hosts with Autoscale
 prerequisites: |
   - Familiarity with server and client management concepts and tools
   - Familiarity with Windows virtualization technologies, like Remote Desktop Services
+  - Azure Active Directory Domain Services is already configured
   - (Optional) Azure subscription owner or global administrator access to a deployed Azure Virtual Desktop environment
   - (Optional) User credentials for one user accounts in Azure AD
 iconUrl: /learn/achievements/optimize-windows-virtual-desktop.svg
