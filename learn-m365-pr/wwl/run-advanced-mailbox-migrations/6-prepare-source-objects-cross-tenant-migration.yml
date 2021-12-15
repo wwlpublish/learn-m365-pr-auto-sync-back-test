@@ -1,0 +1,28 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.run-advanced-mailbox-migrations.prepare-source-objects-cross-tenant-migration
+title: Prepare source objects for a cross-tenant migration
+metadata:
+  title: Prepare source objects for a cross-tenant migration
+  description: "Prepare source objects for a cross-tenant migration"
+  ms.date: 12/15/2021
+  author: wwlpublish
+  ms.topic: interactive-tutorial
+azureSandbox: false
+labModal: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/6-prepare-source-objects-cross-tenant-migration.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "Fabrikam is performing a cross-tenant migration. As the company's Messaging administrator, Holly Spencer has verified that the user objects being migrated are present in the target tenant and as MailUsers in Exchange Online. However, Holly just discovered that a target MailUser was previously licensed for Exchange Online. What must Holly do to correct this situation so that the MailUser can be migrated to Exchange Online?"
+    choices:
+    - content: "Complete a cleanup of the cloud mail end user"
+      isCorrect: true
+      explanation: "This answer is correct. If the target MailUser was previously licensed for or had an ExchangeGuid that doesn't match the Source ExchangeGuid, you must complete a cleanup of the cloud mail end user."
+    - content: "Synchronize the correct ExchangeGuid to the target mail user"
+      isCorrect: false
+      explanation: "This answer is incorrect. This action isn't what Holly should do to correct this situation. Try again."
+    - content: "Apply a new Exchange Online license to the target MailUser"
+      isCorrect: false
+      explanation: "This answer is incorrect. This action isn't what Holly should do to correct this situation. Try again."

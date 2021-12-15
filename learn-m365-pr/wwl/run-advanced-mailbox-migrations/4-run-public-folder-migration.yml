@@ -1,0 +1,30 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.run-advanced-mailbox-migrations.run-public-folder-migration
+title: Run a public folder migration
+metadata:
+  title: Run a public folder migration
+  description: "Run a public folder migration"
+  ms.date: 12/15/2021
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/4-run-public-folder-migration.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "Northwind Traders recently migrated from its Exchange Server 2016 CU2 deployment to Exchange Online. It wants to remove its on-premises Exchange servers, so the company's Messaging administrator, Alan Deyoung, must migrate its public folders to Exchange Online. Which of the following tasks must Alan complete before migrating the company's public folders?"
+    choices:
+    - content: "Configure a hybrid deployment"
+      isCorrect: false
+      explanation: "This answer is incorrect. You don't need to configure a hybrid deployment to migrate modern public folders. Try again."
+    - content: "Move all your mailboxes to Exchange Online before migrating legacy public folders"
+      isCorrect: false
+      explanation: "This answer is incorrect. Legacy public folders apply to Exchange Server 2010 or earlier deployments. Try again."
+    - content: "Upgrade your Exchange 2016 servers to CU4 or later"
+      isCorrect: true
+      explanation: "This answer is correct. For a modern public folder migration, Exchange 2016 servers must run at least Exchange Server 2016 CU4 or later. Since Northwind Traders is running Exchange Server 2016 CU2, it must upgrade to CU4 or later before it can migrate its modern public folders to Exchange Online."

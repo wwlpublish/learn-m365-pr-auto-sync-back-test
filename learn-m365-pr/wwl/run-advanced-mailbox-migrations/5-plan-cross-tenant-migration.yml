@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.run-advanced-mailbox-migrations.plan-cross-tenant-migration
+title: Plan a cross-tenant migration
+metadata:
+  title: Plan a cross-tenant migration
+  description: "Plan a cross-tenant migration"
+  ms.date: 12/15/2021
+  author: wwlpublish
+  ms.topic: interactive-tutorial
+azureSandbox: false
+labModal: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/5-plan-cross-tenant-migration.md)]
