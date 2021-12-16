@@ -12,11 +12,12 @@ title: Plan mailbox migrations
 summary: Examines the options that are available for migrating email to Exchange Online, such as completing a migration or using FastTrack, and summarizes the migration and coexistence options and recommends when to use which option.
 abstract: |
   By the end of this module, you'll be able to:
-  - Describe the migration and coexistence strategies with Exchange Online.
-  - Describe considerations that affect which migration option to use.
-  - Determine whether DNS MX records must be changed during a mailbox migration.
-  - Use FastTrack to move mailboxes.
-prerequisites: ""
+  *   Describe the migration and coexistence strategies with Exchange Online.
+  *   Describe considerations that affect which migration option to use.
+  *   Determine whether DNS MX records must be changed during a mailbox migration.
+  *   Use FastTrack to move mailboxes.
+prerequisites: |
+  None
 iconUrl: /learn/achievements/generic-badge.svg
 levels:
 - intermediate
