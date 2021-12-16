@@ -9,4 +9,4 @@ You also learned that two things are needed to migrate the contents of users' ma
  -  A CSV file that lists all the mailboxes to be migrated.
  -  The IMAP Migration wizard that’s located in the Exchange Admin Center.
 
-The module concluded by analyzing the steps involved in migrating mailboxes in an IMAP migration.
+The module concluded by analyzing the steps involved in migrating mailboxes in an IMAP migration. 
