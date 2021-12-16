@@ -8,8 +8,8 @@ metadata:
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
+  ms.prod: learning-m365
 azureSandbox: false
-sandbox: false
 labModal: false
 durationInMinutes: 10
 content: |

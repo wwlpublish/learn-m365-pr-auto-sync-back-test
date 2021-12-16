@@ -16,7 +16,8 @@ abstract: |
   *   Migrate Public Folders to Exchange Online.
   *   Plan for a cross-tenant mailbox migration.
   *   Prepare target user objects for cross-tenant migration.
-prerequisites: ""
+prerequisites: |
+  None
 iconUrl: /learn/achievements/generic-badge.svg
 levels:
 - intermediate
