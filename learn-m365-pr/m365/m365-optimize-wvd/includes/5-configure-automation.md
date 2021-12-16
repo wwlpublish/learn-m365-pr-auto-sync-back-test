@@ -23,21 +23,21 @@ This unit will walk you through the process of creating a custom RBAC role in th
 1. Next, name the custom role and add a description. We recommend you name the role "Autoscale."
 1. On the **Permissions tab**, add the following permissions to the subscription you're assigning the role to:
 
-"Microsoft.Insights/eventtypes/values/read" 
+    "Microsoft.Insights/eventtypes/values/read" 
 
-"Microsoft.Compute/virtualMachines/deallocate/action"
-"Microsoft.Compute/virtualMachines/restart/action"
-"Microsoft.Compute/virtualMachines/powerOff/action"
-"Microsoft.Compute/virtualMachines/start/action"
-"Microsoft.Compute/virtualMachines/read"
-"Microsoft.DesktopVirtualization/hostpools/read"
-"Microsoft.DesktopVirtualization/hostpools/write"
-"Microsoft.DesktopVirtualization/hostpools/sessionhosts/read"
-"Microsoft.DesktopVirtualization/hostpools/sessionhosts/write"
-"Microsoft.DesktopVirtualization/hostpools/sessionhosts/usersessions/delete"
-"Microsoft.DesktopVirtualization/hostpools/sessionhosts/usersessions/read"
-"Microsoft.DesktopVirtualization/hostpools/sessionhosts/usersessions/sendMessage/action"
-"Microsoft.DesktopVirtualization/hostpools/sessionhosts/usersessions/read"
+    "Microsoft.Compute/virtualMachines/deallocate/action"
+    "Microsoft.Compute/virtualMachines/restart/action"
+    "Microsoft.Compute/virtualMachines/powerOff/action"
+    "Microsoft.Compute/virtualMachines/start/action"
+    "Microsoft.Compute/virtualMachines/read"
+    "Microsoft.DesktopVirtualization/hostpools/read"
+    "Microsoft.DesktopVirtualization/hostpools/write"
+    "Microsoft.DesktopVirtualization/hostpools/sessionhosts/read"
+    "Microsoft.DesktopVirtualization/hostpools/sessionhosts/write"
+    "Microsoft.DesktopVirtualization/hostpools/sessionhosts/usersessions/delete"
+    "Microsoft.DesktopVirtualization/hostpools/sessionhosts/usersessions/read"
+    "Microsoft.DesktopVirtualization/hostpools/sessionhosts/usersessions/sendMessage/action"
+    "Microsoft.DesktopVirtualization/hostpools/sessionhosts/usersessions/read"
 
 1. When finished, select **Ok**.
 
@@ -82,13 +82,13 @@ To create a scaling plan:
 
 This section will explain what a scaling plan schedule is and will walk you through how to create one in the Azure portal.
 
-## What is a schedule and how does it work?
+### What is a schedule and how does it work?
 
 Schedules are Azure Virtual Desktop proxy resources for scaling plans that contain the information about the scaling configuration. In the schedule, you can configure the days it is applicable to and the start and end times. You can also configure the load balancing algorithm, capacity thresholds, and the minimum percentage of hosts for different points in the day, as well as your preferred ramp down strategy.
 
 In each phase of the schedule, Autoscale only turns off VMs when a session host has no sessions active. The default values you'll see when you try to create a schedule are the suggested values for weekdays, but you can change them as needed.
 
-## Create a schedule
+### Create a schedule
 
 1. In the **Schedules** tab, select **Add schedule**.
 1. Enter a name for your schedule into the **Schedule name** field.
@@ -98,7 +98,7 @@ In each phase of the schedule, Autoscale only turns off VMs when a session host 
     - For **Start time**, select a time from the drop-down menu to start preparing VMs for peak business hours.
 
     - For **Load balancing algorithm**, we recommend selecting **breadth-first algorithm**. Breadth-first load balancing will distribute users across existing VMs to keep access times fast.
-    - >[Note!]
+    - >[!Note]
     - >The load balancing preference you select here will override the one you selected for your original host pool settings.
 
     - For **Minimum percentage of session host VMs**, enter the amount of session host resources you want to use during ramp-up and peak hours. For example, if you choose **10%** and your host pool has 10 session hosts, Autoscale will keep one session host available for user connections at all times during ramp-up and peak hours.
@@ -110,19 +110,19 @@ In each phase of the schedule, Autoscale only turns off VMs when a session host 
     - For **Start time**, enter a start time for when your usage rate is highest during the day. Make sure the time is in the same time zone you specified for your scaling plan. This time is also the end time for your ramp-up phase.
 
     - For **Load balancing**, you can select either breadth-first or depth-first load balancing. Breadth-first load balancing distributes new user sessions across all available sessions in the host pool. Depth-first load balancing distributes new sessions to any available session host with the highest number of connections that hasn't reached its session limit yet. For more information about load-balancing types, see Configure the Azure Virtual Desktop load-balancing method.
-    - >[Note!]
+    - >[!Note]
     - >You can't change the capacity threshold here. Instead, the setting you entered in Ramp-up will carry over to this setting.
 
 1. For **Ramp-down**, you'll enter values into similar fields to **Ramp-up**, but this time it will be for when your host pool usage drops off. This will include the following fields:
 
-- Start time
-- Load-balancing algorithm
-- Minimum percentage of hosts (%)
-- Capacity threshold (%)
-- Force logoff users
+    - Start time
+    - Load-balancing algorithm
+    - Minimum percentage of hosts (%)
+    - Capacity threshold (%)
+    - Force logoff users
 
-- Likewise, Off-peak hours works the same way as Peak hours:
+    - Likewise, Off-peak hours works the same way as Peak hours:
 
-- Start time, which is also the end of the ramp-down period.
-- Load-balancing algorithm. We recommend choosing depth-first to gradually reduce the number of session hosts based on sessions on each VM.
-- Just like peak hours, you can't configure the capacity threshold here. Instead, the value you entered in Ramp-down will carry over.
+    - Start time, which is also the end of the ramp-down period.
+    - Load-balancing algorithm. We recommend choosing depth-first to gradually reduce the number of session hosts based on sessions on each VM.
+    - Just like peak hours, you can't configure the capacity threshold here. Instead, the value you entered in Ramp-down will carry over.
