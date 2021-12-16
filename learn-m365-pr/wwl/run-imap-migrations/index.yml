@@ -3,13 +3,13 @@ uid: learn.wwl.run-imap-migrations
 metadata:
   title: Run IMAP migrations
   description: "Run IMAP migrations"
-  ms.date: 12/15/2021
+  ms.date: 12/16/2021
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Run IMAP migrations
-summary: Examines the requirements for running an IMAP migration, the migration options that are available, and the steps that are performed during a migration.
+summary: Examines the requirements for running an IMAP migration, the migration options that are available, and the steps that are completed during a migration.
 abstract: |
   By the end of this module, you'll be able to:
   *   Describe the requirements for an IMAP migration and how it’s carried out.
