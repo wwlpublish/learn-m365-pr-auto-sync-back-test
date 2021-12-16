@@ -3,13 +3,13 @@ uid: learn.wwl.plan-mailbox-migrations
 metadata:
   title: Plan mailbox migrations
   description: "Plan mailbox migrations"
-  ms.date: 12/15/2021
+  ms.date: 12/16/2021
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Plan mailbox migrations
-summary: Examines the options that are available for migrating email to Exchange Online, such as performing a migration or using FastTrack, and summarizes the migration and co-existence options and recommends when to use which option.
+summary: Examines the options that are available for migrating email to Exchange Online, such as completing a migration or using FastTrack, and summarizes the migration and coexistence options and recommends when to use which option.
 abstract: |
   By the end of this module, you'll be able to:
   - Describe the migration and coexistence strategies with Exchange Online.

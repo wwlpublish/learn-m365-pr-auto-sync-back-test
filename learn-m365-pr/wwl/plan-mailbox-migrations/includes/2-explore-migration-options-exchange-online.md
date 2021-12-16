@@ -69,7 +69,7 @@ Automatic Outlook profile updates.
   :::column:::
     You use hybrid-only for migration.
 You plan to move to Exchange online and don't need a full hybrid configuration.
-You need to move users between your on-premises Exchange and Microsoft 365.
+You must move users between your on-premises Exchange and Microsoft 365.
 You need Exchange on-premises for recipient administration purposes.
   :::column-end:::
 :::row-end:::
@@ -86,8 +86,8 @@ Full featured Exchange federation between on-premises and Exchange Online organi
 Automatic Outlook profile updates.
   :::column-end:::
   :::column:::
-    You have the needs for a long-term coexistence between your on-premises Exchange and Microsoft 365.
-You need to move users between your on-premises Exchange and Microsoft 365.
+    You require a long-term coexistence between your on-premises Exchange and Microsoft 365.
+You must move users between your on-premises Exchange and Microsoft 365.
   :::column-end:::
 :::row-end:::
 :::row:::
@@ -135,7 +135,8 @@ You don't want to overutilize your Internet connectivity during migration.
 Configure the Move Mailbox application in Azure, EXO Migration Endpoint, and the EXO Organization Relationship.
   :::column-end:::
   :::column:::
-    For tenants in hybrid or cloud only deployments, or any combination of the two.When combining multiple Microsoft 365 tenants.
+    For tenants in hybrid or cloud only deployments, or any combination of the two.
+When combining multiple Microsoft 365 tenants.
   :::column-end:::
 :::row-end:::
 :::row:::

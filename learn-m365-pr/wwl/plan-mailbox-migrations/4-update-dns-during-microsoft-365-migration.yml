@@ -4,15 +4,14 @@ title: Update DNS during a Microsoft 365 migration
 metadata:
   title: Update DNS during a Microsoft 365 migration
   description: "Update DNS during a Microsoft 365 migration"
-  ms.date: 12/15/2021
+  ms.date: 12/16/2021
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
-sandbox: false
 labModal: false
-durationInMinutes: 3
+durationInMinutes: 4
 content: |
   [!include[](includes/4-update-dns-during-microsoft-365-migration.md)]
 quiz:
@@ -22,7 +21,7 @@ quiz:
     choices:
     - content: "Staged migration"
       isCorrect: false
-      explanation: "This answer is incorrect. In a staged migration, your DNS MX record must point to the on-premises environment for the entirety of the migration because Azure AD Connect synchronizes your Active Directory to Microsoft 365. You should not change the DNS MX record to point to Microsoft 365 until after all your migration batches are complete. Try again."
+      explanation: "This answer is incorrect. In a staged migration, your DNS MX record must point to the on-premises environment for the entirety of the migration. This action is required because Azure AD Connect synchronizes your Active Directory to Microsoft 365. The DNS MX record shouldn't be changed to point to Microsoft 365 until after all your migration batches are complete. Try again."
     - content: "Cutover migration"
       isCorrect: true
       explanation: "This answer is correct. When running a cutover migration, you must change the DNS MX record before your final synchronization run. Doing so will ensure that no mail will be routed to your on-premises Exchange server after the mailbox migration is complete."
