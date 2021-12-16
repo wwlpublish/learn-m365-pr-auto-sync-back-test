@@ -26,7 +26,7 @@ The following steps describe how to create a migration batch and migrate mailbox
 2.  On the menu bar, select the **plus (+) sign** icon and then select **Migrate to Exchange Online**.
 3.  On **new migration batch** page, select **Cutover migration**, and then select **Next**.
 
-‎    :::image type="content" source="../media/new-migration-batch-f8d564a3.png" alt-text="screenshot of new migration endpoint page to select the migration type":::
+    :::image type="content" source="../media/new-migration-batch-f8d564a3.png" alt-text="screenshot of new migration endpoint page to select the migration type":::
 
 
 4.  On the next page, you can either select a migration endpoint if you previously created one, or you can have the wizard create a new one for you. Then select **Next**.

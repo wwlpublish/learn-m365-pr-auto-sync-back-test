@@ -21,7 +21,7 @@ quiz:
     choices:
     - content: "Batches can only have up to 1,000 user mailboxes"
       isCorrect: false
-      explanation: "This answer is incorrect. Batches can have up to 2,000 users in a staged migration. Try again,"
+      explanation: "This answer is incorrect. Batches can have up to 2,000 users in a staged migration. Try again."
     - content: "Lucerne's Exchange environment doesn't support staged migrations"
       isCorrect: true
       explanation: "This answer is correct. A staged migration can only be run in Exchange 2003 and 2007 environments. Staged migrations aren't supported in organizations running Exchange 2010 or later. Since Lucerne Publishing is running Exchange 2013, Patti can't run a staged migration."
