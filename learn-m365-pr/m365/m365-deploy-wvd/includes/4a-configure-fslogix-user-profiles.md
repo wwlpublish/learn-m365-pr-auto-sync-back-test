@@ -76,7 +76,7 @@ You need to assign roles to the Azure AD DC Administrators group and to your Azu
 Add a registry key to each VM registered to the host pool. You’ll need the storage account access key and the file share path.
 
 1. From the start menu, run RegEdit as an administrator.
-1. Go to **Computer_LOCAL_MACHINE*.
+1. Go to *Computer_LOCAL_MACHINE*.
 1. Create a key for the VMs called **Profiles**.
 1. Create a registry key to store the SMB path you previously created. Under **Profiles**, add the following data type entries:
 
@@ -109,7 +109,7 @@ You'll need the storage account access key and file share path to configure NTFS
 1. Select the file share you created.
 1. Under **Settings**, select **Properties**.
 1. Copy the URL.
-1. Convert the URL from an HTTP path to an SMB path to use it later. For example, (`https://myfslogixstorage.file.core.windows.net/profiles`) converts to (`\\myfslogixstorage.file.core.windows.net\profiles`).
+1. Convert the URL from an HTTP path to an SMB path to use it later. For example, `https://myfslogixstorage.file.core.windows.net/profiles` converts to `\\myfslogixstorage.file.core.windows.net\profiles`.
 
 ### Login to a session host
 
@@ -119,3 +119,4 @@ You'll need the storage account access key and file share path to configure NTFS
     ```cmd
     net use Z: [SMB path used in VHDLocations in the registry] /u:Azure\[storage account name] [storage access key]
     Icacls Z: /grant [user UPN]:(f)
+    ```
