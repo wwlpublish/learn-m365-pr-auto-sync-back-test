@@ -3,13 +3,13 @@ uid: learn.wwl.run-advanced-mailbox-migrations
 metadata:
   title: Run advanced mailbox migrations
   description: "Run advanced mailbox migrations"
-  ms.date: 12/15/2021
+  ms.date: 12/16/2021
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Run advanced mailbox migrations
-summary: Examines how to plan for and perform a PST migration, how to perform a public folder migration, how to plan for a cross-tenant migration, and how to prepare source user objects for migration.
+summary: Examines how to plan for and run a PST migration, how to run a public folder migration, how to plan for a cross-tenant migration, and how to prepare source user objects for migration.
 abstract: |
   By the end of this module, you'll be able to:
   *   Import PST Files to Exchange Online mailboxes.

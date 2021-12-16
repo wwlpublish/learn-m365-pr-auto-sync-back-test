@@ -60,24 +60,25 @@ Complete the following high-level steps to prepare the target (destination) tena
 19. Under **Client secrets**, select **new client secre**t.
 20. In the **Add a client secret** window, enter a description, and configure your planned expiration settings.
 
-> [!IMPORTANT]
-> This password will be used when creating your migration endpoint. It's important that you copy this password to your clipboard or copy this password to a secure/secret password safe location. This moment is the only time you can see this password! If you do somehow lose it or need to reset it, you can sign back into our Azure portal, go to **App registrations**, find your migration app, select **Secrets &amp; certificates**, and create a new secret for your app.
+    > [!IMPORTANT]
+    > This password will be used when creating your migration endpoint. It's important that you copy this password to your clipboard or copy this password to a secure/secret password safe location. This moment is the only time you can see this password! If you do somehow lose it or need to reset it, you can sign back into our Azure portal, go to **App registrations**, find your migration app, select **Secrets &amp; certificates**, and create a new secret for your app.
 
 21. Now that you've successfully created the migration application and secret, you'll need to consent to the application. To consent to the application, go back to the **Azure Active Directory** landing page, select **Enterprise applications** in the left navigation, find the migration app you created, select it, and select **Permissions** on the left navigation.
 22. Select the **Grant admin consent for \[your tenant\]** button.
 23. A new browser window will open. Select **Accept**.
 24. You can go back to your portal window and select **Refresh** to confirm your acceptance.
-
-```powershell
-https://login.microsoftonline.com/sourcetenant.onmicrosoft.com/adminconsent?client_id=[application_id_of_the_app_you_just_created]&redirect_uri=https://office.com
-
-```
-
-To complete the URL in the final step, you'll need the following information:
-
- -  The application ID of the mailbox migration app you created.
- -  Replace sourcetenant.onmicrosoft.com in the example with your source tenant's correct onmicrosoft.com name.
- -  Replace \[application\_id\_of\_the\_app\_you\_just\_created\] with the application ID of the mailbox migration app you created.
+25. Formulate the URL to send to your trusted partner (source tenant admin) so they can also accept the application to enable mailbox migration. Here is an example of the URL to provide to them you will need the application ID of the app you just created:
+    
+    ```powershell
+    https://login.microsoftonline.com/sourcetenant.onmicrosoft.com/adminconsent?client_id=[application_id_of_the_app_you_just_created]&redirect_uri=https://office.com
+    
+    ```
+    
+    To complete the URL in this final step, you'll need the following information:
+    
+     -  The application ID of the mailbox migration app you created.
+     -  Replace sourcetenant.onmicrosoft.com in the example with your source tenant's correct onmicrosoft.com name.
+     -  Replace \[application\_id\_of\_the\_app\_you\_just\_created\] with the application ID of the mailbox migration app you created.
 
 ### Prepare the target tenant by creating the Exchange Online migration endpoint and organization relationship
 
@@ -87,38 +88,36 @@ To prepare the target tenant by creating the Exchange Online migration endpoint 
  -  The password (the secret) you configured during this process.
  -  Depending on the Microsoft 365 Cloud Instance you use, your endpoint may be different.
 
-> [!NOTE]
-> Refer to the [Microsoft 365 endpoints](/microsoft-365/enterprise/microsoft-365-endpoints?azure-portal=true) page and select the correct instance for your tenant. Then review the Exchange Online Optimize Required address and replace as appropriate in the following steps.<br>
+    > [!NOTE]
+    > Refer to the [Microsoft 365 endpoints](/microsoft-365/enterprise/microsoft-365-endpoints?azure-portal=true) page and select the correct instance for your tenant. Then review the Exchange Online Optimize Required address and replace as appropriate in the following steps.<br>
 
 Complete the following steps to prepare the target tenant by creating the Exchange Online migration endpoint and organization relationship:
 
 1.  Create a Remote PowerShell connection to the target Exchange Online tenant.
 2.  Create a new migration endpoint for cross-tenant mailbox moves.
-
-```powershell
-$AppId = "[guid copied from the migrations app]"
-
-$Credential = New-Object -TypeName System.Management.Automation.PSCredential -ArgumentList $AppId, (ConvertTo-SecureString -String "[this password is the secret password you saved in the previous steps]" -AsPlainText -Force)
-
-New-MigrationEndpoint -RemoteServer outlook.office.com -RemoteTenant "sourcetenant.onmicrosoft.com" -Credentials $Credential -ExchangeRemoteMove:$true -Name "[the name of your migration endpoint]" -ApplicationId $AppId
-```
-
+    
+    ```powershell
+    $AppId = "[guid copied from the migrations app]"
+    
+    $Credential = New-Object -TypeName System.Management.Automation.PSCredential -ArgumentList $AppId, (ConvertTo-SecureString -String "[this password is the secret password you saved in the previous steps]" -AsPlainText -Force)
+    
+    New-MigrationEndpoint -RemoteServer outlook.office.com -RemoteTenant "sourcetenant.onmicrosoft.com" -Credentials $Credential -ExchangeRemoteMove:$true -Name "[the name of your migration endpoint]" -ApplicationId $AppId
+    ```
 3.  Create a new relationship or edit your existing organization relationship object to your source tenant.
-
-```powershell
-$sourceTenantId="[tenant id of your trusted partner, where the source mailboxes are]"
-$orgrels=Get-OrganizationRelationship
-$existingOrgRel = $orgrels | ?{$_.DomainNames -like $sourceTenantId}
-If ($null -ne $existingOrgRel)
-{
-    Set-OrganizationRelationship $existingOrgRel.Name -Enabled:$true -MailboxMoveEnabled:$true -MailboxMoveCapability Inbound
-}
-If ($null -eq $existingOrgRel)
-{
-    New-OrganizationRelationship "[name of the new organization relationship]" -Enabled:$true -MailboxMoveEnabled:$true -MailboxMoveCapability Inbound -DomainNames $sourceTenantId$orgrels=Get-OrganizationRelationship
-$existingOrgRel = $orgrels | ?{$_.DomainNames -like $sourceTenantId
-}
-```
+    
+    ```powershell
+    $sourceTenantId="[tenant id of your trusted partner, where the source mailboxes are]"
+    $orgrels=Get-OrganizationRelationship
+    $existingOrgRel = $orgrels | ?{$_.DomainNames -like $sourceTenantId}
+    If ($null -ne $existingOrgRel)
+    {
+        Set-OrganizationRelationship $existingOrgRel.Name -Enabled:$true -MailboxMoveEnabled:$true -MailboxMoveCapability Inbound
+    }
+    If ($null -eq $existingOrgRel)
+    {
+        New-OrganizationRelationship "[name of the new organization relationship]" -Enabled:$true -MailboxMoveEnabled:$true -MailboxMoveCapability Inbound -DomainNames $sourceTenantId
+    }
+    ```
 
 ### Prepare the source tenant by accepting the migration application and configuring the organization relationship
 
@@ -135,27 +134,27 @@ Complete the following high-level steps to prepare the source (current mailbox l
      -  The application ID of the mailbox migration app you created.
      -  To replace sourcetenant.onmicrosoft.com in the example with your source tenants correct onmicrosoft.com name.
      -  To replace \[application\_id\_of\_the\_app\_you\_just\_created\] with the application ID of the mailbox migration app you created.
-2.  Accept the application when the pop-up window appears. You can also log into your Azure Active Directory portal and find the application under Enterprise applications.<br>
+2.  Accept the application when the pop-up window appears. You can also log into your Azure Active Directory portal and find the application under Enterprise applications.
 3.  Create new or edit your existing organization relationship object to your target (destination) tenant from an Exchange Online Remote PowerShell window.
+    
+    ```powershell
+    $targetTenantId="[tenant id of your trusted partner, where the mailboxes are being moved to]"
+    $appId="[application id of the mailbox migration app you consented to]"
+    $scope="[name of the mail enabled security group that contains the list of users who are allowed to migrate]"
+    $orgrels=Get-OrganizationRelationship
+    $existingOrgRel = $orgrels | ?{$_.DomainNames -like $targetTenantId}
+    If ($null -ne $existingOrgRel)
+    {
+        Set-OrganizationRelationship $existingOrgRel.Name -Enabled:$true -MailboxMoveEnabled:$true -MailboxMoveCapability RemoteOutbound -OAuthApplicationId $appId -MailboxMovePublishedScopes $scope
+    }
+    If ($null -eq $existingOrgRel)
+    {
+        New-OrganizationRelationship "[name of your organization relationship]" -Enabled:$true -MailboxMoveEnabled:$true -MailboxMoveCapability RemoteOutbound -DomainNames $targetTenantId -OAuthApplicationId $appId -MailboxMovePublishedScopes $scope
+    }
+    ```
 
-```powershell
-$targetTenantId="[tenant id of your trusted partner, where the mailboxes are being moved to]"
-$appId="[application id of the mailbox migration app you consented to]"
-$scope="[name of the mail enabled security group that contains the list of users who are allowed to migrate]"
-$orgrels=Get-OrganizationRelationship
-$existingOrgRel = $orgrels | ?{$_.DomainNames -like $targetTenantId}
-If ($null -ne $existingOrgRel)
-{
-    Set-OrganizationRelationship $existingOrgRel.Name -Enabled:$true -MailboxMoveEnabled:$true -MailboxMoveCapability RemoteOutbound -OAuthApplicationId $appId -MailboxMovePublishedScopes $scope
-}
-If ($null -eq $existingOrgRel)
-{
-    New-OrganizationRelationship "[name of your organization relationship]" -Enabled:$true -MailboxMoveEnabled:$true -MailboxMoveCapability RemoteOutbound -DomainNames $targetTenantId -OAuthApplicationId $appId -MailboxMovePublishedScopes $scope
-}
-```
-
-> [!NOTE]
-> The tenant ID that you enter as the $sourceTenantId and $targetTenantId is the GUID and not the tenant domain name. For an example of a tenant ID and information about finding your tenant ID, see [Find your Microsoft 365 tenant ID](/onedrive/find-your-office-365-tenant-id?azure-portal=true).
+    > [!NOTE]
+    > The tenant ID that you enter as the $sourceTenantId and $targetTenantId is the GUID and not the tenant domain name. For an example of a tenant ID and information about finding your tenant ID, see [Find your Microsoft 365 tenant ID](/onedrive/find-your-office-365-tenant-id?azure-portal=true).
 
 ### Verify whether the cross-tenant migration worked
 

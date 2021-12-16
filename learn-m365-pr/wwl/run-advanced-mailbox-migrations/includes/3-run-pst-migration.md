@@ -1,4 +1,7 @@
-The steps involved in importing a PST file using the PST Import tool in the Microsoft 365 compliance center are illustrated in the following diagram. The Messaging administrator should follow the steps defined in the PST import workflow (the center column in the diagram), although some portions of the process will vary depending on whether the Network upload or Drive shipping option is selected.
+The steps involved in importing a PST file using the PST Import tool in the Microsoft 365 compliance center are illustrated in the following diagram. The Messaging administrator should follow the steps defined in the PST import workflow (the center column in the diagram).
+
+> [!NOTE]
+> Some portions of the process will vary depending on whether the Network upload or Drive shipping option is selected.
 
 :::image type="content" source="../media/pst-import-workflow-bedfcf72.png" alt-text="Diagram showing the steps involved in importing a PST file using the Import service in the Security and Compliance Center":::
 
@@ -6,11 +9,11 @@ The steps involved in importing a PST file using the PST Import tool in the Micr
 The following list describes the steps defined in the diagram in greater detail:
 
 1.  **Download the PST import tool and key to a private Azure storage location.** The first step is to download the tool and access key used to upload the PST files or copy them to a hard drive. The access key is unique to your organization and provides you (or Microsoft data center personnel if you use drive shipping) with the necessary permissions to upload PST files to a private and secure Azure storage location.
-2.  **Upload or copy the PST files.** You must then use the appropriate tool to upload or copy the PST files:
+2.  **Upload or copy the PST files.** The appropriate tool must be used to upload or copy the PST files:
     
      -  **Network upload.** The **AzCopy.exe** tool is used to upload and store your PST files in a private Azure storage location in the Microsoft cloud.
      -  **Drive shipping.** The **WAImportExport.exe** tool is used to copy your PST files to the hard drive. This tool encrypts the hard drive with BitLocker and then copies the PST files to the hard drive.
-3.  **Create a PST import-mapping file.** You must then create a comma-separated value (CSV) file that specifies which user mailboxes the PST files will be imported to.
+3.  **Create a PST import-mapping file.** A comma-separated value (CSV) file must be created that specifies which user mailboxes the PST files will be imported to.
 4.  **Create a PST import job.** You’re now ready to create a PST import job on the **Import** page in the Microsoft 365 compliance center and submit the PST import-mapping file.
     
      -  **Network upload**. Because the PST files have been uploaded to Azure, Microsoft 365 analyzes the data in the PST files and then gives you an opportunity to set filters that control what data gets imported to the mailboxes specified in the PST import-mapping file.

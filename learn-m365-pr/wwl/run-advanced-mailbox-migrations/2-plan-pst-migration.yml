@@ -4,20 +4,20 @@ title: Plan a PST migration
 metadata:
   title: Plan a PST migration
   description: "Plan a PST migration"
-  ms.date: 12/15/2021
+  ms.date: 12/16/2021
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
 labModal: false
-durationInMinutes: 3
+durationInMinutes: 4
 content: |
   [!include[](includes/2-plan-pst-migration.md)]
 quiz:
   title: "Check your knowledge"
   questions:
-  - content: "As the Messaging administrator for Contoso, Holly Dickson wants to bulk-import PST files to Exchange Online using the PST Import tool. While planning this migration, Holly has come to realize there are far more PST files than what was originally expected. On top of that, many of the files are quite large in size. Given this information, what's the recommended approach that Holly should follow to import the data to Microsoft 365?"
+  - content: "As the Messaging administrator for Contoso, Holly Dickson wants to bulk-import PST files to Exchange Online using the PST Import tool. While planning this migration, Holly has come to realize there are far more PST files than what was originally expected. Many of the files are also large in size. Given this information, what's the recommended approach that Holly should follow to import the data to Microsoft 365?"
     choices:
     - content: "Upload the PST files to the Import service using Contoso's existing Internet connection"
       isCorrect: false
