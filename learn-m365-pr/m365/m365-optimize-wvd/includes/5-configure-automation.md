@@ -98,8 +98,8 @@ In each phase of the schedule, Autoscale only turns off VMs when a session host 
     - For **Start time**, select a time from the drop-down menu to start preparing VMs for peak business hours.
 
     - For **Load balancing algorithm**, we recommend selecting **breadth-first algorithm**. Breadth-first load balancing will distribute users across existing VMs to keep access times fast.
-    - >[!Note]
-    - >The load balancing preference you select here will override the one you selected for your original host pool settings.
+    >[!Note]
+    >The load balancing preference you select here will override the one you selected for your original host pool settings.
 
     - For **Minimum percentage of session host VMs**, enter the amount of session host resources you want to use during ramp-up and peak hours. For example, if you choose **10%** and your host pool has 10 session hosts, Autoscale will keep one session host available for user connections at all times during ramp-up and peak hours.
 
@@ -110,8 +110,8 @@ In each phase of the schedule, Autoscale only turns off VMs when a session host 
     - For **Start time**, enter a start time for when your usage rate is highest during the day. Make sure the time is in the same time zone you specified for your scaling plan. This time is also the end time for your ramp-up phase.
 
     - For **Load balancing**, you can select either breadth-first or depth-first load balancing. Breadth-first load balancing distributes new user sessions across all available sessions in the host pool. Depth-first load balancing distributes new sessions to any available session host with the highest number of connections that hasn't reached its session limit yet. For more information about load-balancing types, see Configure the Azure Virtual Desktop load-balancing method.
-    - >[!Note]
-    - >You can't change the capacity threshold here. Instead, the setting you entered in Ramp-up will carry over to this setting.
+    >[!Note]
+    >You can't change the capacity threshold here. Instead, the setting you entered in Ramp-up will carry over to this setting.
 
 1. For **Ramp-down**, you'll enter values into similar fields to **Ramp-up**, but this time it will be for when your host pool usage drops off. This will include the following fields:
 
