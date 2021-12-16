@@ -4,20 +4,20 @@ title: Knowledge check
 metadata:
   title: Knowledge check
   description: "Knowledge check"
-  ms.date: 12/15/2021
+  ms.date: 12/16/2021
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
 labModal: false
-durationInMinutes: 3
+durationInMinutes: 6
 content: |
   [!include[](includes/7-knowledge-check.md)]
 quiz:
   title: "Check your knowledge"
   questions:
-  - content: "As the Messaging administrator for Tailspin Toys, Alan Deyoung plans to run a staged migration for its Exchange 2007 environment. Which of the following is a Microsoft 365 post-migration task that Alan must complete?"
+  - content: "As the Messaging administrator for Tailspin Toys, Alan Deyoung plans to run a staged migration for its Exchange 2007 environment. Which of the following items is a Microsoft 365 post-migration task that Alan must complete?"
     choices:
     - content: "Change the Autodiscover DNS record to point to Tailspin's Microsoft 365 organization"
       isCorrect: true
@@ -28,7 +28,7 @@ quiz:
     - content: "Ensure Tailspin's Exchange 2007 organization can be reached from Microsoft 365 using Outlook Anywhere"
       isCorrect: false
       explanation: "This answer is incorrect. This action must be completed before running the migration because the Microsoft 365 migration service uses Outlook Anywhere to connect to the on-premises Exchange server. Try again."
-  - content: "Northwind Traders has finished running its staged migration. Which of the following is a post-migration task that Northwind should complete?"
+  - content: "Northwind Traders has finished running its staged migration. Which of the following items is a post-migration task that Northwind should complete?"
     choices:
     - content: "Update its on-premises Exchange servers to allow Outlook Anywhere communication for Microsoft 365"
       isCorrect: false
@@ -36,9 +36,9 @@ quiz:
     - content: "Disable Unified Messaging on the mailboxes that were migrated"
       isCorrect: false
       explanation: "This answer is incorrect. If the mailboxes being migrated are enabled for Unified Messaging, UM must be disabled on the mailboxes before the migration. UM can be enabled on the mailboxes after the migration is complete. Try again."
-    - content: "Decomission all Exchange Servers but one"
+    - content: "Decommission all Exchange Servers but one"
       isCorrect: true
-      explanation: "This answer is correct. Once there are no messages being sent in your source Exchange 2003 or 2007 environment, you can decommission all your servers but one. You must have one Exchange server available to complete any necessary management tasks. It's recommended that you keep one Exchange server on-premises to use the Exchange Admin Center and Exchange Management Shell to manage your users, groups and contacts. Having one Exchange Server available is necessary because you can't manage all user attributes in Exchange Online after enabling directory synchronization."
+      explanation: "This answer is correct. Once there are no messages being sent in your source Exchange 2003 or 2007 environment, you can decommission all your servers but one. One Exchange server must be available to complete any necessary management tasks. It's recommended that you keep one Exchange server on-premises to use the Exchange Admin Center and Exchange Management Shell to manage your users, groups, and contacts. Having one Exchange Server available is necessary because you can't manage all user attributes in Exchange Online after enabling directory synchronization."
   - content: "When running a cutover migration, which of the following actions can be completed by the migration wizard?"
     choices:
     - content: "Prepare the on-premises Exchange Servers to allow Outlook Anywhere communication for Microsoft 365"

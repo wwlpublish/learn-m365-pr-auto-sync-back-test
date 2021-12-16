@@ -4,14 +4,14 @@ title: Plan a cutover migration
 metadata:
   title: Plan a cutover migration
   description: "Plan a cutover migration"
-  ms.date: 12/15/2021
+  ms.date: 12/16/2021
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
 labModal: false
-durationInMinutes: 3
+durationInMinutes: 5
 content: |
   [!include[](includes/2-plan-cutover-migration.md)]
 quiz:

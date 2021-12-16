@@ -1,4 +1,4 @@
-As is the case with any type of deployment or installation process, you should spend enough time planning your cutover or staged migration so that you’re ready for any contingency that may occur. You must consider the cutover or staged migration planning factors, system requirements, and limitations that were covered previously, plus your organization’s business requirements. Once your plan is in place, you’re ready to complete a cutover or staged migration using the Exchange Admin Center (EAC) or Windows PowerShell.
+As is the case with any type of deployment or installation process, an organization should spend enough time planning its cutover or staged migration. By doing so, it will be ready almost every contingency that may occur. Organizations should consider the cutover or staged migration planning factors, system requirements, and limitations that were covered previously, plus their business requirements. Once an organization has finished its migration plan, it's ready to complete a cutover or staged migration using the Exchange Admin Center (EAC) or Windows PowerShell.
 
 This unit examines how to create and manage migration batches in the Exchange Admin Center.
 
@@ -10,12 +10,12 @@ The following steps explain how to create a migration endpoint:
 
 1.  In the EAC, navigate to **recipients** &gt; **migration**.
 2.  On the menu bar, select the **More (…)** icon and select **Migration endpoints**.
-3.  On the **Select the migration endpoint type** page, select **Outlook Anywhere** and then select **Next**.
+3.  On the **Select the migration endpoint type** page, select **Outlook Anywhere,** and then select **Next**.
 4.  On the **Enter on-premises account credentials** page, enter the e-mail address of an on-premises user, the sign-in information of an on-premises Exchange administrator, and then select **Next**.
 5.  Microsoft 365 tests the connection to the source server and displays the connection settings. If Microsoft 365 was unable to detect your settings, you need to type an Exchange server name that you plan to use for migration, the RPC proxy server name, authentication, and your mailbox permission. Then select **Next**.
-6.  On the **Enter general information** page, type a Migration endpoint name, the maximum concurrent migrations (max. 300) and the maximum incremental syncs (max. 300). Then select **New** to create the migration endpoint.
+6.  On the **Enter general information** page, enter a Migration endpoint name, the maximum concurrent migrations (max. 300), and the maximum incremental syncs (max. 300). Then select **New** to create the migration endpoint.
 
-:::image type="content" source="../media/migration-endpoint-c7e032f8.png" alt-text="screenshot of new migration endpoint page to enter general information":::
+    :::image type="content" source="../media/migration-endpoint-c7e032f8.png" alt-text="screenshot of new migration endpoint page to enter general information":::
 
 
 ### Move mailboxes using a cutover migration
@@ -26,7 +26,7 @@ The following steps describe how to create a migration batch and migrate mailbox
 2.  On the menu bar, select the **plus (+) sign** icon and then select **Migrate to Exchange Online**.
 3.  On **new migration batch** page, select **Cutover migration**, and then select **Next**.
 
-‎:::image type="content" source="../media/new-migration-batch-f8d564a3.png" alt-text="screenshot of new migration endpoint page to select the migration type":::
+‎    :::image type="content" source="../media/new-migration-batch-f8d564a3.png" alt-text="screenshot of new migration endpoint page to select the migration type":::
 
 
 4.  On the next page, you can either select a migration endpoint if you previously created one, or you can have the wizard create a new one for you. Then select **Next**.
@@ -53,7 +53,7 @@ Before you can create a migration batch and begin moving mailboxes using a stage
 
  -  **EmailAddress** (required). This field is the email address for a user’s on-premises mailbox.
  -  **Password** (optional). This field is the password that will be set on the user’s new Exchange Online mailbox. A password must have a minimum length of eight characters.
- -  **ForceChangePassword** (optional). When a user logs in to his or her new Exchange Online mailbox for the first time, this option specifies whether the user must change the password. Use either True or False for the value of this parameter. Other values are invalid.
+ -  **ForceChangePassword** (optional). When a user logs in to their new Exchange Online mailbox for the first time, this option specifies whether the user must change the password. Use either True or False for the value of this parameter. Other values are invalid.
 
 The following example is a CSV file that would migrate two users from contoso.com to Exchange Online using staged migration. The first record is the heading line that displays the sequence of fields in each record.
 
