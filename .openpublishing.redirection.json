@@ -1759,6 +1759,16 @@
     "source_path": "learn-m365-pr/wwl/manage-safe-attachments/2-create-safe-attachment-policies-security-compliance-center.md",
     "redirect_url": "https://docs.microsoft.com/learn/modules/manage-safe-attachments/2-create-policies-using-defender",
     "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/m365-developer/sharepoint-spfx-spcontent/6-use-sample-data-mocks.yml",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/sharepoint-spfx-spcontent/6-upload-file",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/m365-developer/sharepoint-spfx-spcontent/7-exercise-using-mocks.yml",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/sharepoint-spfx-spcontent/7-exercise-upload-file",
+      "redirect_document_id": true
     }
   ]
 }
