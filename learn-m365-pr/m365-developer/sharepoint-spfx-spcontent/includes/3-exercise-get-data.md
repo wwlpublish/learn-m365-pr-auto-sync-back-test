@@ -23,7 +23,7 @@ Add items to the list by entering the names of different countries as shown in t
 Open a command prompt and change to the folder where you want to create the project.
 
 > [!IMPORTANT]
-> The instructions below assume you are using v1.12.1 of the SharePoint Framework Yeoman generator.
+> The instructions below assume you are using v1.13.0 of the SharePoint Framework Yeoman generator.
 
 Run the SharePoint Yeoman generator by executing the following command:
 
@@ -34,7 +34,7 @@ yo @microsoft/sharepoint
 Use the following to complete the prompt that is displayed (*if additional options are presented, accept the default answer)*:
 
 - **What is your solution name?**: SpFxHttpClientDemo
-- **Which baseline packages do you want to target for your component(s)?**: SharePoint Online only (latest)
+- **Only SharePoint Online (latest) is supported.  For earlier versions of SharePoint (2016 and 2019) please use the 1.4.1 version of the generator.**: SharePoint Online only (latest)
 - **Where do you want to place the files?**: Use the current folder
 - **Do you want to allow the tenant admin the choice of being able to deploy the solution to all sites immediately without running any feature deployment or adding apps in sites?**: No
 - **Will the components in the solution require permissions to access web APIs that are unique and not shared with other components in the tenant?**: No
@@ -242,10 +242,14 @@ gulp trust-dev-cert
 Run the following command to start the local web server:
 
 ```console
-gulp serve
+gulp serve --nobrowser
 ```
 
-The browser will load the local workbench, but you can't use this for testing because there's no SharePoint context in the local workbench. Instead, navigate to the SharePoint Online site where you created the **Countries** list, and load the hosted workbench at **https://[sharepoint-online-site]/_layouts/workbench.aspx**.
+The SharePoint Framework's gulp **serve** task with the **nobrowser** switch will build the project and start a local web server.
+
+Wait for the **reload** subtask to finish executing. At this point, the web part will be ready for testing.
+
+Navigate to the SharePoint Online site where you created the **Countries** list, and load the hosted workbench at **https://[sharepoint-online-site]/_layouts/workbench.aspx**.
 
 Add the web part to the page: Select the **Add a new web part** control...
 

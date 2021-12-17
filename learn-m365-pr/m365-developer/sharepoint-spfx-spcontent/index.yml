@@ -3,7 +3,7 @@ uid: learn-m365.sharepoint-spfx-spcontent
 metadata:
   title: Work with SharePoint Content using the SharePoint Framework
   description: Learn how to work with SharePoint content in SharePoint Framework projects.
-  ms.date: 09/13/2021
+  ms.date: 12/10/2021
   author: andrewconnell-msft
   ms.author: suzanz
   ms.topic: interactive-tutorial
@@ -14,7 +14,7 @@ abstract: |
   By the end of this module, you'll be able to:
   - Demonstrate how to read and write list data using the SharePoint REST API
   - Create a SharePoint Framework project that performs CRUD operations with the SharePoint REST API
-  - Demonstrate when and how to implement mock data in SharePoint Framework projects
+  - Demonstrate when and how to upload files SharePoint Framework projects
 prerequisites: |
   - Experience using SharePoint Online at the intermediate level
   - Ability to program with JavaScript, TypeScript, and Node.js
@@ -34,8 +34,8 @@ units:
   - learn-m365.sharepoint-spfx-spcontent.3-exercise-get-data
   - learn-m365.sharepoint-spfx-spcontent.4-crud-sharepoint-rest
   - learn-m365.sharepoint-spfx-spcontent.5-exercise-crud-operations
-  - learn-m365.sharepoint-spfx-spcontent.6-use-sample-data-mocks
-  - learn-m365.sharepoint-spfx-spcontent.7-exercise-using-mocks
+  - learn-m365.sharepoint-spfx-spcontent.6-upload-file
+  - learn-m365.sharepoint-spfx-spcontent.7-exercise-upload-file
   - learn-m365.sharepoint-spfx-spcontent.8-summary
 badge:
   uid: learn-m365.sharepoint-spfx-spcontent.badge
