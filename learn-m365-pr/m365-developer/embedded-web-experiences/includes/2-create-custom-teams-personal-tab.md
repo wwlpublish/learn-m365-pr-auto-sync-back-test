@@ -8,7 +8,7 @@ Microsoft Teams enables developers to create custom experiences for users. For t
 
 ![Screenshot of a Microsoft Teams app](../media/02-01.png)
 
-A Microsoft Teams app is a package of services that you host. The services can be distributed through the Microsoft Teams product or uploaded by owners. These apps can consist of custom tabs, bots, messaging extensions, or web hooks and connectors. 
+A Microsoft Teams app is a package of services that you host. The services can be distributed through the Microsoft Teams product or uploaded by owners. These apps can consist of custom tabs, bots, messaging extensions, or web hooks and connectors.
 
 ![Screenshot of a custom bot](../media/02-02.png)
 
@@ -28,7 +28,7 @@ How do you create a custom Microsoft Teams app?
 
 First, you develop the components that support your Microsoft Teams app. Microsoft Teams apps are web applications that can be created by using HTML, TypeScript, or JavaScript, client-side web frameworks such as React, or any server-side framework such as .NET.
 
-Microsoft Teams apps can be stand-alone, or they can integrate with Microsoft Teams. Microsoft provides a JavaScript SDK for interactivity with the Microsoft teams client and the Bot Framework SDK for building bots.
+Microsoft Teams apps can be stand-alone, or they can integrate with Microsoft Teams. Microsoft provides a JavaScript SDK for interactivity with the Microsoft Teams client and the Bot Framework SDK for building bots.
 
 After you're finished creating the application, the final step is to package and deploy the application. Every Microsoft Teams app contains a manifest file that describes all aspects of your app. The manifest includes the URLs and unique identifiers for the components that you created to implement the application. After you create the manifest, create a package that includes the manifest and associated images used by the app. This package is a zip file. Before uploading and publishing the package, you need to deploy all resources that implement the app. These resources include webpages and services used within tabs, bots, and web hooks.
 
@@ -46,11 +46,11 @@ Microsoft Teams tabs are web applications that are hosted by the provider or dev
 
 While Microsoft Teams tabs are `<iframes>` that display webpages, there are some differences between interacting with the web app within the Microsoft Teams client compared to browsing the same content.
 
-Microsoft Teams tabs always display web content in an `<iframe>` where a webpage is loaded in any browser. In this way, you can create unique experiences with the web app for only Microsoft Teams by limiting where the application is hosted. For instance, you can limit a webpage to be displayed within an `<iframe>` only from a specific domain such as teams.microsoft.com.
+Microsoft Teams tabs always display web content in an `<iframe>` where a webpage is loaded in any browser. In this way, you can create unique experiences with the web app for only Microsoft Teams by limiting where the application is hosted. For instance, you can limit a webpage to be displayed within an `<iframe>` only from a specific domain such as `teams.microsoft.com`.
 
 Authentication is handled differently in a Microsoft Teams tab compared to a web app, either via a pop-up window or by calling Azure Active Directory (Azure AD) to fetch tokens. Most websites redirect to a sign-in provider that typically breaks custom tabs that are hosted inside an `<iframe>`. Tabs break in this experience because the sign-in pages typically don't load within an `<iframe>` to prevent click-jacking.
 
-Cross-domain navigation is handled differently in tabs from a web app. The Teams client needs to validate the origin against a static validDomains list in the app manifest when it loads or communicates with the tab.
+Cross-domain navigation is handled differently in tabs from a web app. The Teams client needs to validate the origin against a static `validDomains` list in the app manifest when it loads or communicates with the tab.
 
 Microsoft Teams tabs can be styled to match the current Microsoft Teams client's theme, such as default, dark or high contrast.
 
