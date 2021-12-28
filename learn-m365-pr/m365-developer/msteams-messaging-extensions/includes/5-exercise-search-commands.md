@@ -44,7 +44,7 @@ npm version patch
 
 The generator created the `composeExtensions` entry for the new Messaging Extension. Locate and open the **./src/manifest/manifest.json** file.
 
-Next, locate the `composeExtensions.commands` array. Update the array item with the id of `planeLookupMessageExtension` so that it has the following properites:
+Next, locate the `composeExtensions.commands` array. Update the array item with the ID of `planeLookupMessageExtension` so that it has the following properites:
 
 ```json
 {
