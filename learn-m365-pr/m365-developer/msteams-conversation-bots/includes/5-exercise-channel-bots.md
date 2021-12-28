@@ -282,7 +282,7 @@ protected async onAdaptiveCardInvoke(context: TurnContext, invokeValue: Adaptive
 }
 ```
 
-In the code you've added, notice the `update` code block retrieves and increments the `count` property it received. It then creates a new cardData object with an updated message and boolean property that will render an additional action to delete the card. The method returns an `AdaptiveCardInvokeResponse` object containing an updated card to render inplace of the original.
+In the code you've added, notice the `update` code block retrieves and increments the `count` property it received. It then creates a new cardData object with an updated message and boolean property that will render an additional action to delete the card. The method returns an `AdaptiveCardInvokeResponse` object containing an updated card to render in place of the original.
 
 The `delete` code block deletes the card using the `deleteActivity()` method.
 
