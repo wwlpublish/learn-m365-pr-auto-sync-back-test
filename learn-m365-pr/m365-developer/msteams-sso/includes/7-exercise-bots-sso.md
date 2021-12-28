@@ -121,7 +121,7 @@ With the Azure AD app configuration updated, the next step is to configure the b
 
 ### Configure the bot service connection (token store)
 
-Navigate to the Azure Portal and select the bot registered above. Then select **Settings > Configuration** from the left-hand menu.
+Navigate to the Azure portal and select the bot registered above. Then select **Settings > Configuration** from the left-hand menu.
 
 Select the **Add OAuth Connection Settings** button on the **Configuration** screen.
 
