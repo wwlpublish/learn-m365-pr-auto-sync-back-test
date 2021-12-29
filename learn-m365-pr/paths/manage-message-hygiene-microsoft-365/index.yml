@@ -3,7 +3,7 @@ uid: learn.wwl.manage-message-hygiene-microsoft-365
 metadata:
   title: Manage message hygiene in Microsoft 365
   description: Manage message hygiene in Microsoft 365
-  ms.date: 10/25/2021
+  ms.date: 12/09/2021
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -17,7 +17,7 @@ prerequisites: |
   - Ability to write PowerShell commands at an intermediate level
 summary: |
   Explores Microsoft Exchange Online Protection (EOP) features and functionality, including the use of anti-malware and anti-spam policies, and Microsoft 365 Defender features that extend messaging protection against advanced threats.
-iconUrl: /learn/achievements/generic-trophy.svg
+iconUrl: /learn/achievements/m365-manage-message-hygiene.svg
 levels:
 - intermediate
 roles:

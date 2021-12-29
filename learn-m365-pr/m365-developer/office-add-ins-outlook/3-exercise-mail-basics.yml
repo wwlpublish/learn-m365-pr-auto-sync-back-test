@@ -3,7 +3,7 @@ uid: learn-m365.office-add-ins-outlook.3-exercise-mail-basics
 metadata:
   title: Exercise - Mail add-in basics
   description: In this exercise, you'll learn how to create your first Outlook add-in project and load it in the Outlook client.
-  ms.date: 09/06/2021
+  ms.date: 12/07/2021
   author: andrewconnell-msft
   ms.author: suzanz
   ms.topic: interactive-tutorial

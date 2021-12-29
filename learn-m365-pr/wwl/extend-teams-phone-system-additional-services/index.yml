@@ -3,7 +3,7 @@ uid: learn.wwl.extend-teams-phone-system-additional-services
 metadata:
   title: Extend Teams Phone with additional services
   description: "Teams Phone leverages other Microsoft services and can be extended with third-party solutions for policy-based compliance recording, contact center integration, and custom bots."
-  ms.date: 10/02/2021
+  ms.date: 12/08/2021
   author: wwlpublish
   ms.author: dahans
   ms.topic: interactive-tutorial
@@ -19,7 +19,7 @@ abstract: |
 prerequisites: |
   - A general understanding of Office 365
   - An understanding of the fundamentals of Microsoft Teams and Teams Phone
-iconUrl: /learn/achievements/generic-badge.svg
+iconUrl: /learn/achievements/7-extend-teams-phone-system-with-additional-services.svg
 levels:
 - advanced
 roles:

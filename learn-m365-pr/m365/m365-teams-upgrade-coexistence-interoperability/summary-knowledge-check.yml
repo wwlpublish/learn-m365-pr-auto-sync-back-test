@@ -35,7 +35,7 @@ quiz:
       - content: "Interoperability allows file sharing within a one-to-one chat."
         isCorrect: false
         explanation: "Interoperability allows file sharing, but the users would need to start an on-demand meeting as screen sharing does not work within the conversation window."
-      - content: "Interoperability allows Teams and Skype for Business communicate across both applications"
+      - content: "Interoperability allows Teams and Skype for Business users to communicate across both applications"
         isCorrect: true
         explanation: "Interoperability is the ability for Teams and Skype for Business users in the same organization to communicate across both Teams and Skype for Business"
       
