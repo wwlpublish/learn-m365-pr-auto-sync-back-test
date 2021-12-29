@@ -1,7 +1,7 @@
 In this exercise, you'll create a SharePoint Framework (SPFx) command set extension that will display custom buttons in a SharePoint list.
 
 > [!IMPORTANT]
-> The instructions below assume you are using v1.12.1 of the SharePoint Framework Yeoman generator.
+> The instructions below assume you are using v1.13.0 of the SharePoint Framework Yeoman generator.
 
 Open a command prompt and change to the folder where you want to create the project.
 
@@ -14,7 +14,7 @@ yo @microsoft/sharepoint
 Use the following to complete the prompt that is displayed (*if additional options are presented, accept the default answer)*:
 
 - **What is your solution name?**: SPFxCommandSet
-- **Which baseline packages do you want to target for your component(s)?**: SharePoint Online only (latest)
+- **Only SharePoint Online (latest) is supported. For earlier versions of SharePoint (2016 and 2019) please use the 1.4.1 version of the generator.**: SharePoint Online only (latest)
 - **Where do you want to place the files?**: Use the current folder
 - **Do you want to allow the tenant admin the choice of being able to deploy the solution to all sites immediately without running any feature deployment or adding apps in sites?**: No
 - **Will the components in the solution require permissions to access web APIs that are unique and not shared with other components in the tenant?**: No
@@ -132,7 +132,7 @@ gulp serve
 
 When prompted, select the **Load debug scripts** button.
 
-Notice a new button in the toolbar after the page loads. When the **Always On** button is selected, a dialog appears that displays the message prefix defined in the public properties and the total number of items selected.
+Notice a new button in the toolbar after the page loads. When the **Always On** button is selected, a dialog appears that displays the message prefix defined in the public properties and the total number of items selected. If the buttons are not added to the toolbar, switch back to the command prompt, wait for the **reload** subtask to finish executing, and then refresh.
 
 ![Screenshot of the command set Always On button](../media/07-command-set-test-01.png)
 
@@ -144,7 +144,7 @@ Select a second item in the list. Notice a new button appears. Select the button
 
 ![Screenshot of the command set Two Item Selected button](../media/07-command-set-test-03.png)
 
-Stop the local web server by pressing <kbd>CTRL</kbd>+<kbd>C</kbd> in the console/terminal window.
+Stop the local web server by pressing <kbd>CTRL</kbd>+<kbd>C</kbd> in the command prompt.
 
 ## Summary
 

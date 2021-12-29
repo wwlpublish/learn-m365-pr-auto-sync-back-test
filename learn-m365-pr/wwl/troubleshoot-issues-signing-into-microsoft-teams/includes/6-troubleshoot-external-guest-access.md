@@ -5,7 +5,7 @@ Anyone can be added as guest in Teams. This means that anyone with a business (w
 Organizations using Teams can provide this external access while maintaining complete control over their own corporate data. All guests in Teams are covered by the same compliance and auditing protection as the rest of Office 365, and can be managed securely within Azure AD.
 
 > [!TIP]
-> Guest access is a tenant-level setting in Teams and is turned off by default.
+> Guest access is a tenant-level setting in Teams and is turned on by default.
 
 Before you get involved in fine tuning and troubleshooting guest access within specific services, it’s a good idea to make sure Guest access and External access is enabled at an organizational level. 
 

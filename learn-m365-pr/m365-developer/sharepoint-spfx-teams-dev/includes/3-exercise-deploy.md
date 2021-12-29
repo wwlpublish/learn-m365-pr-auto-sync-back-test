@@ -1,7 +1,7 @@
 In this exercise, you'll create a SharePoint Framework web part solution that will work in both SharePoint Online and as a tab in Microsoft Teams.
 
 > [!IMPORTANT]
-> The instructions below assume you are using v1.12.1 of the SharePoint Framework Yeoman generator.
+> The instructions below assume you are using v1.13.0 of the SharePoint Framework Yeoman generator.
 
 Open a command prompt and change to the folder where you want to create the SharePoint Framework project. Then, run the SharePoint Yeoman generator by executing the following command:
 
@@ -12,7 +12,7 @@ yo @microsoft/sharepoint
 Use the following to complete the prompt that is displayed (*if additional options are presented, accept the default answer*):
 
 - **What is your solution name?**: spfxteams
-- **Which baseline packages do you want to target for your component(s)?**: SharePoint Online only (latest)
+- **Only SharePoint Online (latest) is supported. For earlier versions of SharePoint (2016 and 2019) please use the 1.4.1 version of the generator.**: SharePoint Online only (latest)
 - **Where do you want to place the files?**: Use the current folder
 - **Do you want to allow the tenant admin the choice of being able to deploy the solution to all sites immediately without running any feature deployment or adding apps in sites?**: Yes
 - **Will the components in the solution require permissions to access web APIs that are unique and not shared with other components in the tenant?**: No
@@ -29,13 +29,7 @@ After provisioning the folders required for the project, the generator will inst
 
 Locate and open the file **./src/webparts/spFxTeamsTogether/SpFxTeamsTogetherWebPart.manifest.json**:
 
-Within the web part manifest file, locate the property `supportedHosts`:
-
-```typescript
-"supportedHosts": ["SharePointWebPart"],
-```
-
-Add another option to enable this web part to be used as a tab in a Microsoft Teams team:
+Within the web part manifest file, locate the property `supportedHosts`. Ensure the value of the property includes `TeamsTab`:
 
 ```typescript
 "supportedHosts": ["SharePointWebPart", "TeamsTab"],

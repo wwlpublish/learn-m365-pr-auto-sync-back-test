@@ -22,7 +22,7 @@ The Configuration Analyzer reviews the following policies for an organization:
 
 The following screenshot shows the expanded view of the Configuration Analyzer in the Microsoft 365 Defender portal.<br>
 
-:::image type="content" source="../media/configuration-analyzer-7ef36ed5.png" alt-text="screenshot showing the expanded view of the Configuration analyzer in the Microsoft 365 Defender portal" lightbox="../media/configuration-analyzer-7ef36ed5.png":::
+:::image type="content" source="../media/configuration-analyzer-7ef36ed5.png" alt-text="screenshot showing the expanded view of the Configuration analyzer in the Microsoft 365 Defender portal":::
 
 
 ### Preset security policies
@@ -76,4 +76,4 @@ The rest of the tab is the table of settings that must be brought up to the leve
 
 The following screenshot displays the Strict recommendations tab for an organization in the Configuration Analyzer tool. In this example, all policy group settings follow the Strict recommendations. The screenshot indicates that no policies require adjustment to meet the miminum Strict recommendation requirements.
 
-:::image type="content" source="../media/configuration-analyzer2-70d60d2a.png" alt-text="The following screenshot displays the Standard recommendations for an organization in the Configuration analyzer tool. In this example, all policy group settings follow the Strict recommendations." lightbox="../media/configuration-analyzer2-70d60d2a.png":::
+:::image type="content" source="../media/configuration-analyzer2-70d60d2a.png" alt-text="The following screenshot displays the Standard recommendations for an organization in the Configuration analyzer tool. In this example, all policy group settings follow the Strict recommendations.":::

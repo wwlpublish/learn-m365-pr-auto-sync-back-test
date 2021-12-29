@@ -6,14 +6,14 @@ Try to establish a naming convention, particularly when you move to Azure Active
 
 The Teams Rooms Premium license adds additional features such as a Microsoft-managed service that will help with everything from planning your rooms to monitoring and troubleshooting them. This license also includes everything in the Standard license. You can find more information about licensing on the [Teams Meeting Room Licensing Update](/MicrosoftTeams/rooms/rooms-licensing?azure-portal=true) page.
 
-![Standard versus Premium licenses](../media/standard-premium-license.png)
+:::image type="content" source="../media/standard-premium-license.png" alt-text="Screenshot shows Standard versus Premium licenses." lightbox="../media/standard-premium-license.png":::
 
 > [!IMPORTANT]
 > Every Teams Rooms compute module requires its own unique resource account. You cannot share a resource account across multiple rooms. If you do, only one of those accounts will be able to join a meeting and other rooms with the same account will not be able to join any meetings at the same time.
 
 - If you use Skype for Business on-premises, you'll need to assign an Enterprise Client Access license, and if you intend to use Enterprise Voice features of Skype for Business, you'll need to add a Plus Client Access license.
 - It's recommended that you create the account well in advance of hardware installation. This is because you may need to open tickets within your IT organization to have them created. You also need to test and review to make sure the accounts were set up correctly.
-- If your environment is configured to use modern authentication, Microsoft recommends that you enable it for the resource account. You can use Intune Conditional Access policies to help control and limit what the resource account has access to. For example, you can limit the account to only sign in on a given subnet.  
+- If your environment is configured to use modern authentication, Microsoft recommends that you enable it for the resource account. You can use Intune conditional access policies to help control and limit what the resource account has access to. For example, you can limit the account to only sign in on a given subnet.  
 
 > [!IMPORTANT]
 > All credentials are secured on the device through a physical TPM chip and are stored in the Windows Vault. Physical TPM chips are required on all compute modules used by Teams Rooms.
@@ -35,7 +35,7 @@ The Teams Rooms Premium license adds additional features such as a Microsoft-man
 
 4. If you have enabled the account for Skype, will you enable it for Teams and for Skype? If yes, assign a Teams license.
 
-    ![Resource account workflow](../media/resource-account-flow.png)
+   :::image type="content" source="../media/resource-account-flow.png" alt-text="Diagram shows Resource account workflow." lightbox="../media/resource-account-flow.png":::
 
 ## Learn more
 

@@ -3,7 +3,7 @@ In this exercise, you'll manipulate the property pane for a SharePoint Framework
 ## Create a new SharePoint Framework solution and web part
 
 > [!IMPORTANT]
-> The instructions below assume you are using v1.12.1 of the SharePoint Framework Yeoman generator.
+> The instructions below assume you are using v1.13.0 of the SharePoint Framework Yeoman generator.
 
 Open a command prompt and change to the folder where you want to create the project.
 
@@ -16,7 +16,7 @@ yo @microsoft/sharepoint
 Use the following to complete the prompt that is displayed (*if additional options are presented, accept the default answer*):
 
 - **What is your solution name?:** HelloPropertyPane
-- **Which baseline packages do you want to target for your component(s)?:** SharePoint Online only (latest)
+- **Only SharePoint Online (latest) is supported. For earlier versions of SharePoint (2016 and 2019) please use the 1.4.1 version of the generator.** SharePoint Online only (latest)
 - **Where do you want to place the files?:** Use the current folder
 - **Do you want to allow the tenant admin the choice of being able to deploy the solution to all sites immediately without running any feature deployment or adding apps in sites?:** No
 - **Will the components in the solution require permissions to access web APIs that are unique and not shared with other components in the tenant?:** No
@@ -33,13 +33,36 @@ When NPM completes downloading all dependencies, ensure the developer certificat
 gulp trust-dev-cert
 ```
 
-Next, verify everything is working. Execute the following command to build, start the local web server, and test the web part in the local workbench:
+Next, verify everything is working.
+
+Locate and open the file **config/serve.json**
+
+In the **serve.json** file, locate the `initialPage` setting. It's currently configured with a placeholder URL.
+
+```json
+"initialPage": "https://enter-your-SharePoint-site/_layouts/workbench.aspx",
+```
+
+Update the `initialPage` setting to open the hosted workbench:
+
+```json
+"initialPage": "https://contoso.sharepoint.com/sites/mySite/_layouts/workbench.aspx",
+```
+
+> [!NOTE]
+> Ensure you enter the proper URL of a SharePoint Online site collection you have access to.
+
+Execute the following command to build, start the local web server, and test the web part in the hosted workbench:
 
 ```console
 gulp serve
 ```
 
-When the browser loads the local workbench, select the **Add a new web part** control:
+If you see a warning dialog in the hosted workbench, switch back to the command prompt, wait for the **reload** subtask to finish executing, and then refresh the hosted workbench. 
+
+![Screenshot of the gulp serve warning](../media/gulp-serve-warning.png)
+
+Select the **Add a new web part** icon:
 
 ![Screenshot of the SharePoint Workbench](../media/03-test-webpart-01.png)
 
@@ -47,7 +70,7 @@ Select the **HelloPropertyPane** web part to add the web part to the page:
 
 ![Screenshot of HelloPropertyPane web part in the SharePoint Workbench](../media/03-test-webpart-02.png)
 
-Select the **edit web part** control to the side of the web part to display the property pane:
+Open the property pane by selecting the pencil (edit) icon in the toolbar to the left of the web part:
 
 ![Screenshot of HelloPropertyPane's property pane](../media/03-test-webpart-03.png)
 
@@ -91,9 +114,9 @@ Locate the following section in the file: `preconfiguredEntries[0].properties.de
 ```
 
 > [!TIP]
-> While the **gulp serve** task monitors the project's files for changes to rebuild and reload the local workbench, changes to the manifest and configuration files require restarting the local web server.
+> Changes to the manifest and configuration files will not be reflected in the workbench until you restart the local web server.
 
-Close the browser tab containing the local workbench and stop the local web server by pressing <kbd>CTRL</kbd>+<kbd>C</kbd> in the command prompt. Rebuild and restart the local web server by executing the command **gulp serve**. When the SharePoint workbench loads, add the web part back to the page to see the properties.
+Close the browser tab containing the hosted workbench and stop the local web server by pressing <kbd>CTRL</kbd>+<kbd>C</kbd> in the command prompt. Rebuild and restart the local web server by executing the command **gulp serve**. When the hosted workbench loads, add the web part back to the page to see the properties.
 
 ![Screenshot of HelloPropertyPane with values](../media/03-edit-property-pane-add-property-02.png)
 
