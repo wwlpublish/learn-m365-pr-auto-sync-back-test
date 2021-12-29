@@ -3,7 +3,7 @@ uid: learn-m365.intro-sharepoint-framework.2-overview-options
 metadata:
   title: SharePoint Framework overview & extensibility options
   description: Microsoft introduced the SharePoint Framework as the recommended way to customize and extend SharePoint Online in 2017. On-premises SharePoint customers that have deployed SharePoint Server 2016 and SharePoint Server 2019 can also use the SharePoint Framework to customize and extend their client-side solutions as well. In this unit, you’ll learn what the SharePoint Framework is and the extensibility options that enable developers to customize SharePoint environments.
-  ms.date: 09/13/2021
+  ms.date: 12/07/2021
   author: andrewconnell-msft
   ms.author: suzanz
   ms.topic: interactive-tutorial

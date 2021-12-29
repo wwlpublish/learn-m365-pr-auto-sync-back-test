@@ -9,7 +9,7 @@ In this module, you'll learn how to create engaging messages with Adaptive Cards
 - Ability to program with TypeScript and Node.js
 - Ability to develop with ASP.NET Core at the intermediate level
 - Experience using Visual Studio Code at the beginner level
-- Access to a [Microsoft 365 tenant](https://developer.microsoft.com/office/dev-program?ocid=MSlearn)
+- Access to a [Microsoft 365 tenant](https://developer.microsoft.com/microsoft-365/dev-program?ocid=MSlearn)
 - Access to a [Microsoft Azure subscription](https://azure.microsoft.com/free/)
 
 ## Learning objectives

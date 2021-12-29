@@ -1,0 +1,30 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.plan-configure-hybrid-deployment-using-hybrid-configuration-wizard.prepare-hybrid-configuration-wizard
+title: Prepare to run the Hybrid Configuration Wizard
+metadata:
+  title: Prepare to run the Hybrid Configuration Wizard
+  description: "Prepare to run the Hybrid Configuration Wizard"
+  ms.date: 12/14/2021
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 6
+content: |
+  [!include[](includes/6-prepare-hybrid-configuration-wizard.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "As the Messaging administrator for Fabrikam, Holly Spencer is planning the company's Exchange hybrid deployment. Fabrikam uses self-signed certificates for its Exchange Servers. How does this scenario affect the type of hybrid deployment that Holly can install?"
+    choices:
+    - content: "Fabrikam must use Exchange Classic Hybrid"
+      isCorrect: false
+      explanation: "This answer is incorrect. Exchange Classic Hybrid doesn't support self-signed certificates. Try again."
+    - content: "Fabrikam must install Trusted Digital Certificates for HTTPS services"
+      isCorrect: false
+      explanation: "This answer is incorrect. If you plan to implement Exchange Classic Hybrid for an Exchange Modern Hybrid deployment, you must install Digital Certificates for HTTPS services that you purchase from a trusted public certification authority (CA). However, Fabrikam wants to use self-signed certificates. Try again."
+    - content: "Fabrikam must use Exchange Modern Hybrid"
+      isCorrect: true
+      explanation: "This answer is correct. If you use self-signed certificates for Exchange Servers, you must use Exchange Modern Hybrid because Exchange Classic Hybrid doesn't support self-signed certificates."

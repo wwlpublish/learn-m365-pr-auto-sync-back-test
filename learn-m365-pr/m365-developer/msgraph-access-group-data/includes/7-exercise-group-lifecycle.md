@@ -83,13 +83,13 @@ private static async Task<Microsoft.Graph.Group> CreateGroupAsync(GraphServiceCl
 }
 ```
 
-When creating a new group, the developer can specify the owners and members of the group using the `AdditionalData` property on the group object. First, locate the IDs of a few users you want to assign as owners and members to the group. To do this, within the Azure AD admin center, select **Manage > Users**. Select a wanted user from the list and copy their **Object ID** property:
+When creating a new group, the developer can specify the owners and members of the group using the `AdditionalData` property on the group object. First, locate the IDs of a few users you want to assign as owners and members to the group. To do this, within the Azure AD admin center, select **Manage > Users**. Select a wanted user from the list and copy their **Object ID** property. Ensure the account you'll use to run the console app is one of the users.
 
 ![Screenshot of a user's properties in the Azure AD admin center](../media/azure-ad-portal-users-01.png)
 
 Repeat this process a few more times to get the IDs of a few users.
 
-Back in the .NET console app, add the following code to the new `CreateGroupAsync` method. Replace the IDs of the users in this code with the IDs you copied from the Azure AD admin center:
+Back in the .NET console app, add the following code to the new `CreateGroupAsync` method. Replace the IDs of the users in this code with the IDs you copied from the Azure AD admin center. Make the account you'll use to run the console app the owner of the group:
 
 ```csharp
 // create object to define members & owners as 'additionalData'
@@ -156,7 +156,7 @@ In the primary navigation, select **Groups > Manage Groups**.
 
 ![Screenshot of Outlook.com's navigation](../media/07-app-run-01.png)
 
-On the next screen, select **Directory > All Groups** and locate the group you created. It may take a minute or two to appear while Office 365 provisions all the resources for the group.
+On the next screen, select **Groups > Owner** and locate the group you created. It may take a minute or two to appear while Office 365 provisions all the resources for the group.
 
 After selecting the group, select the **Members** pivot to see a list of all users that have been added to the group. You should see both the owner(s) and member(s) you specified when creating the group:
 
