@@ -32,7 +32,7 @@ Office add-ins are built using modern web standards, which mean developers won't
 
 Modern Office add-ins are just web app applications. Office clients include Office.js, which provides a bridge between the hosting Office application and your custom add-in.
 
-The web applications that implement a modern Office add-in are hosted by the developer, which results in a greatly simplified deployment, installation, and upgrade experience for end users. There's zero client footprint on installation. In fact, when the add-in is installed in one Office client, provided the user is signed into their Microsoft 365 account, the add-in will be available in the desktop, mobile, and web Office client applications.
+The web applications that implement a modern Office add-in are hosted by the developer, which results in a greatly simplified deployment, installation, and upgrade experience for end users. There's zero-client footprint on installation. In fact, when the add-in is installed in one Office client, provided the user is signed into their Microsoft 365 account, the add-in will be available in the desktop, mobile, and web Office client applications.
 
 ![Screenshot of add-in structure](../media/02-modern-add-in-value-proposition.png)
 

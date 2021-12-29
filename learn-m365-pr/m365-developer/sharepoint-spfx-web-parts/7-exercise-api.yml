@@ -3,7 +3,7 @@ uid: learn-m365.sharepoint-spfx-web-parts.7-exercise-api
 metadata:
   title: Exercise - Exploring the SharePoint Framework API
   description: In this exercise, you'll explore a few different APIs available to you in the SharePoint Framework that are useful in many scenarios.
-  ms.date: 09/13/2021
+  ms.date: 12/08/2021
   author: andrewconnell-msft
   ms.author: suzanz
   ms.topic: interactive-tutorial
