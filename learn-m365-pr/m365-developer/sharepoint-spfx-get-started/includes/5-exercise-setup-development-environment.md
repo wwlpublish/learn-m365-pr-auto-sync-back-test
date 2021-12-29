@@ -19,34 +19,40 @@ The tools used in compiling, debugging, and packaging SharePoint Framework proje
 >
 > If a version number is returned, you already have Node.js. The version(s) of Node.js you may use depends on the environment(s) you'll be targeting.
 >
-> If you are building projects for SharePoint 2016, then you should not use a version of Node.js later than v8.x. If you do you'll not be able to debug SharePoint 2016 projects in the local or SharePoint-hosted workbenches. This means that the maximum version of the SharePoint Framework Yeoman generator you may use is v1.10.0.
+> If you are building projects for SharePoint 2016, then you need to use the SharePoint Framework v1.1.0 due to the server-side version dependencies. This means you should install Node.js v6.x. For more information on SharePoint Framework development with SharePoint 2016, please refer to [SharePoint Framework development with SharePoint Server 2016 Feature Pack 2](/sharepoint/dev/spfx/sharepoint-2016-support).
 >
-> If you are building projects for SharePoint 2019 and/or SharePoint Online, then it is recommended that you install the latest version of Node.js v14.x and the latest version of the SharePoint Framework (which is currently v1.12.1).
+> If you are building projects for SharePoint 2019, then you need to use the SharePoint Framework v1.4.1 because of the server-side version dependencies. This means you should install Node.js v6.x or v8.x. For more information on SharePoint Framework development with SharePoint 2019, please refer to [SharePoint Framework development with SharePoint Server 2019](/sharepoint/dev/spfx/sharepoint-2019-support).
+>
+> If you are building projects for SharePoint Online, then it is recommended that you install the latest version of Node.js v14.x and the latest version of the SharePoint Framework, which is currently v1.13.0.
 
-### SharePoint Framework / Node.js Compatibility
+### SharePoint Framework / Node.js / SharePoint Version Compatibility
 
-| SPFx    | Node.js                         |
-| ------- | ------------------------------- |
-| v1.12.1 | v10.13.0+, v12.13.0+, v14.15.0+ |
-| v1.11.0 | v10.x                           |
-| v1.10.0 | v8.x, v10.x                     |
-| v1.9.1  | v8.x, v10.x                     |
-| v1.9.0  | v8.x, v10.x                     |
-| v1.8.2  | v8.x, v10.x                     |
-| v1.8.1  | v8.x                            |
-| v1.8.0  | v8.x                            |
-| v1.7.1  | v8.x                            |
-| v1.7.0  | v8.x                            |
-| v1.6.0  | v6.x, v8.x                      |
-| v1.5.1  | v6.x, v8.x                      |
-| v1.5.0  | v6.x, v8.x                      |
-| v1.4.1  | v6.x, v8.x                      |
-| v1.4.0  | v6.x, v8.x                      |
-| v1.2.0  | v6.x, v8.x                      |
-| v1.1.1  | v6.x, v8.x                      |
-| v1.1.0  | v6.x                            |
+| SPFx    | Node.js                         | SP 2016 | SP 2019 | SP Online |
+| ------- | ------------------------------- | ------- | ------- | --------- |
+| v1.13.0 | v10.13.0+, v12.13.0+, v14.15.0+ |         |         |     X     |
+| v1.12.1 | v10.13.0+, v12.13.0+, v14.15.0+ |         |    X    |     X     |
+| v1.11.0 | v10.x                           |         |    X    |     X     |
+| v1.10.0 | v8.x, v10.x                     |    X    |    X    |     X     |
+| v1.9.1  | v8.x, v10.x                     |    X    |    X    |     X     |
+| v1.9.0  | v8.x, v10.x                     |    X    |    X    |     X     |
+| v1.8.2  | v8.x, v10.x                     |    X    |    X    |     X     |
+| v1.8.1  | v8.x                            |    X    |    X    |     X     |
+| v1.8.0  | v8.x                            |    X    |    X    |     X     |
+| v1.7.1  | v8.x                            |    X    |    X    |     X     |
+| v1.7.0  | v8.x                            |    X    |    X    |     X     |
+| v1.6.0  | v6.x, v8.x                      |    X    |    X    |     X     |
+| v1.5.1  | v6.x, v8.x                      |    X    |    X    |     X     |
+| v1.5.0  | v6.x, v8.x                      |    X    |    X    |     X     |
+| v1.4.1  | v6.x, v8.x                      |    X    |    X    |     X     |
+| v1.4.0  | v6.x, v8.x                      |    X    |         |     X     |
+| v1.2.0  | v6.x, v8.x                      |    X    |         |     X     |
+| v1.1.1  | v6.x, v8.x                      |    X    |         |     X     |
+| v1.1.0  | v6.x                            |    X    |         |     X     |
+| v1.0.0  | v6.x                            |         |         |     X     |
 
 > For SharePoint Framework v1.1.1 through 1.4.0, a workaround is required when debugging in the local or hosted workbench if you have Node.js v8.x installed. Please see the following GitHub issue for more information: [Run gulp serve with 'NODE_NO_HTTP2=1' when using SPFx on node v8](https://github.com/SharePoint/sp-dev-docs/issues/1002).
+
+> For more information on SharePoint Framework version compatibility, including compatibility with NPM, TypeScript, and React, please refer to [SharePoint Framework development tools and libraries compatibility](/sharepoint/dev/spfx/compatibility).
 
 If you already have a version of Node.js that's compatible with the environment(s) you'll be targeting, then skip to the next section.
 

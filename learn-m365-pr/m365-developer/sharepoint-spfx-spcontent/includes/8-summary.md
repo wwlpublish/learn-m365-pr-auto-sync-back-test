@@ -1,1 +1,1 @@
-This module introduced you to working with SharePoint content in SharePoint Framework projects. You learned about the SharePoint REST API, how to do CRUD operations with SharePoint data, the local workbench, and creating mock data in SharePoint Framework.
+This module introduced you to working with SharePoint content in SharePoint Framework projects. You learned about the SharePoint REST API, how to do CRUD operations with SharePoint data, and upload files with the SharePoint Framework.

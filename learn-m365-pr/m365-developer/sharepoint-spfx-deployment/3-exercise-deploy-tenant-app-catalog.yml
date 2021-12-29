@@ -3,7 +3,7 @@ uid: learn-m365.sharepoint-spfx-deployment.3-exercise-deploy-tenant-app-catalog
 metadata:
   title: Exercise - Deploy SharePoint Framework solutions to tenant App Catalog
   description: In this exercise, you'll create a SharePoint Framework (SPFx) client-side web part that will be used to try different deployment configurations.
-  ms.date: 09/13/2021
+  ms.date: 12/08/2021
   author: andrewconnell-msft
   ms.author: suzanz
   ms.topic: interactive-tutorial
