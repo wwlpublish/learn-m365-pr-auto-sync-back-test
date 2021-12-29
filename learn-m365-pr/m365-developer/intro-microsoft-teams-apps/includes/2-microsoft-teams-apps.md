@@ -23,8 +23,8 @@ Teams, channels, and group chats allow multiple people to collaborate. Apps that
 They can be expanded with:
 
 - **Conversational bots** interacting with members of the conversation through chat, and responding to events (like a new member being added, or a channel being renamed). All conversations with a bot in this context are visible to all members of the channel or group, so you'll need to ensure the conversation is relevant to everyone.
-- **Configurable Tabs** providing a full-screen embedded web experience configured for the channel or group chat it's installed in. All members will interact on the same shared web-app, so a stateless single page app experience is typical.
-- **Webhooks and Connectors** enabling external services to post messages to the conversation. You can take advantage of cards and card actions to create rich, actionable messages. Webhooks provide a simple, unauthenticated, one-way method to post messages to a channel, while Connectors provide a slightly more robust back-and-forth experience.
+- **Channel & Group Chat Tabs** providing a full-screen embedded web experience configured for the channel or group chat it's installed in. All members will interact on the same shared web-app, so a stateless single page app experience is typical.
+- **Webhooks & Connectors** enabling external services to post messages to the conversation. You can take advantage of cards and card actions to create rich, actionable messages. Webhooks provide a simple, unauthenticated, one-way method to post messages to a channel, while Connectors provide a slightly more robust back-and-forth experience.
 
 ### Personal apps
 
@@ -45,9 +45,9 @@ Your app can help users craft more effective messages by enabling them to search
 
 There are three ways your app can help users create better messages:
 
+- **Messaging Extension - action commands** present your user with a modal form (a task module), submit the results of the form to your app, then either insert a message into the conversation directly, or create part of a message the user can edit before sending to the conversation.
 - **Messaging Extension - search commands** allowing them to quickly search an external system, preview the results of that search, then insert the result into the chat as a rich card.
 - **Messaging Extension - link unfurling** allows your app to monitor web domains you're interested in. When a URL containing that domain is pasted into the compose message box, your app's API will be invoked, allowing you to add a rich card to the message with additional information about the item being linked to.
-- **Messaging Extension - action commands** present your user with a modal form (a task module), submit the results of the form to your app, then either insert a message into the conversation directly, or create part of a message the user can edit before sending to the conversation.
 
 ## User interface (UI) elements
 

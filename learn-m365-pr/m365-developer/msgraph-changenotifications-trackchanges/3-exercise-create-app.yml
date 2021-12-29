@@ -3,7 +3,7 @@ uid: learn-m365.msgraph-changenotifications-trackchanges.3-exercise-create-app
 metadata:
   title: Exercise - Azure AD apps .NET core web APIs
   description: In this exercise, you'll create a new Azure AD app registration using the Azure AD admin center and grant administrator consent to the required permission scopes.
-  ms.date: 09/13/2021
+  ms.date: 12/08/2021
   author: andrewconnell-msft
   ms.author: suzanz
   ms.topic: interactive-tutorial

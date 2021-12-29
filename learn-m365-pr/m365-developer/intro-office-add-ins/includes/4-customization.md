@@ -85,7 +85,7 @@ Your add-in can connect to Microsoft Graph and access the user's data so they ca
 Microsoft Graph REST APIs provide a way for your add-in to access the user's data in services like:
 
 - Azure Active Directory
-- Office 365 services
+- Microsoft 365 services
 - Enterprise Mobility and Security services
 - Windows 10 services
 - Dynamics 365
