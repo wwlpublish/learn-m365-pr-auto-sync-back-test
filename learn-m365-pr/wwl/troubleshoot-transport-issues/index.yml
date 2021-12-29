@@ -3,7 +3,7 @@ uid: learn.wwl.troubleshoot-transport-issues
 metadata:
   title: Troubleshoot transport issues
   description: "Troubleshoot transport issues"
-  ms.date: 10/19/2021
+  ms.date: 12/09/2021
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -17,7 +17,7 @@ abstract: |
   - Plan troubleshooting procedures for architectural issues.
   - Describe how to troubleshoot transport issues with coexistence.
 prerequisites: ""
-iconUrl: /learn/achievements/generic-badge.svg
+iconUrl: /learn/achievements/troubleshoot-transport-issues.svg
 levels:
 - intermediate
 roles:

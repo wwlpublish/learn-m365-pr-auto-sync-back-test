@@ -84,14 +84,11 @@ Drag this file into the **Apps for SharePoint** library in the browser. When pro
 
 ## Test the changes
 
-Navigate back to the SharePoint page where you added the web part in the previous exercise and refresh the page.
+Navigate back to the SharePoint page where you added the web part in the previous exercise and refresh the page. The value of the custom property will start out blank even though you set a default value for it in the manifest file. The default value only gets set for new web parts.
 
 Edit the page and add a value to the **Custom Setting** property in the property pane. Notice how the page shows the property value:
 
 ![Screenshot of the SPFx solution in SharePoint](../media/07-update-settings-step-01.png)
-
-> [!NOTE]
-> The value of the custom property will start out blank even though you set a default value for it in the manifest file. The default value only gets set for new web parts.
 
 Now go back into the Microsoft Teams team. Refresh the page if you have Teams open in a web browser. Select the down arrow to the right of the **SPFx Teams Together** tab and select **Settings**.
 

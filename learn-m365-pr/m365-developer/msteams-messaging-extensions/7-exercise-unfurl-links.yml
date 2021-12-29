@@ -3,7 +3,7 @@ uid: learn-m365.msteams-messaging-extensions.7-exercise-unfurl-links
 metadata:
   title: Exercise - Implement link unfurling messaging extensions
   description: In this exercise, you’ll learn how to add link unfurling to your Microsoft Teams app and how to implement this type of messaging extension.
-  ms.date: 09/13/2021
+  ms.date: 12/11/2021
   author: andrewconnell-msft
   ms.author: suzanz
   ms.topic: interactive-tutorial

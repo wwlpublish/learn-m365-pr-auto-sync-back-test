@@ -26,4 +26,3 @@ After completing this module, you'll be able to:<br>
  -  Explain the use and features of Exchange Online Protection.
  -  Plan message routing for Exchange Online Protection.
  -  Investigate the available EOP reports and logs.
-

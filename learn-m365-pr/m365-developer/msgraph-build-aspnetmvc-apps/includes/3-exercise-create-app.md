@@ -52,8 +52,8 @@ Update-Package bootstrap -Version 4.6.0
 Install-Package Microsoft.Owin.Host.SystemWeb
 Install-Package Microsoft.Owin.Security.OpenIdConnect
 Install-Package Microsoft.Owin.Security.Cookies
-Install-Package Microsoft.Identity.Client -Version 4.35.1
-Install-Package Microsoft.Graph -Version 4.3.0
+Install-Package Microsoft.Identity.Client -Version 4.38.0
+Install-Package Microsoft.Graph -Version 4.11.0
 ```
 
 ## Design the app
