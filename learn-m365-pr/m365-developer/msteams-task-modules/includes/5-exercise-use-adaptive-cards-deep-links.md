@@ -148,15 +148,7 @@ const taskModuleInfo = {
 
 ### Test the Adaptive Card task module
 
-Increment the `version` property in the app's **./manifest/manifest.json** file so you can update the previously deployed Teams app.
-
-From the command line, navigate to the root folder for the project and execute the following command:
-
-```console
-gulp ngrok-serve
-```
-
-Upgrade the previously deployed Teams app with the updated app package.
+Save the modified files. The `ngrok` task will detect the changes and re-run the webpack task. Upon completion, the web page should refresh to show the updated content.
 
 In the browser, navigate back to the tab in the Microsoft Teams interface and select the new button **Change Video ID (AdaptiveCard)**. Microsoft Teams will open a task module with the rendered Adaptive Card:
 

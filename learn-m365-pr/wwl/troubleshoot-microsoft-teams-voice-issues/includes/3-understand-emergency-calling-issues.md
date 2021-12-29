@@ -1,5 +1,6 @@
 Dynamic emergency calling is used by Microsoft Calling Plans and Phone System Direct Routing to enable emergency calls to be routed to the emergency services. As part of the call, The Teams client also includes location data. 
-Configure emergency calling
+
+## Configure emergency calling
 
 To configure dynamic emergency calling:
 1.	First, check the supported clients for emergency calling.

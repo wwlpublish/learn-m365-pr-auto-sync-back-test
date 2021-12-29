@@ -453,7 +453,7 @@ Add the following code immediately before the existing `return` statement.
 ```typescript
 useEffect(() => {
   getRecentEmails();
-}, [msGraphOboToken]);
+}, [getRecentEmails, msGraphOboToken]);
 ```
 
 The last step is to update the rendering in the component's `return` statement to include the list of recent emails. Locate following code in the `return` statement:

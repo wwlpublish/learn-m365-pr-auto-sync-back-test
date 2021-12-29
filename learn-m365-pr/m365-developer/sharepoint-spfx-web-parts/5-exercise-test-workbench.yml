@@ -3,7 +3,7 @@ uid: learn-m365.sharepoint-spfx-web-parts.5-exercise-test-workbench
 metadata:
   title: Exercise - Testing with the local and hosted SharePoint Workbench
   description: "In this exercise, you'll work with the two different versions of the SharePoint Workbench: the local & hosted workbench, as well as the different modes of the built-in gulp serve task."
-  ms.date: 09/13/2021
+  ms.date: 12/08/2021
   author: andrewconnell-msft
   ms.author: suzanz
   ms.topic: interactive-tutorial

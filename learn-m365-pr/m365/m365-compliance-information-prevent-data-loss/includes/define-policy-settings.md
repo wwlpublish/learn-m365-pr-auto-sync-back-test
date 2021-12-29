@@ -53,14 +53,14 @@ The image below shows the conditions set in the **High volume of content detecte
 
 The image below shows the actions in the **High volume of content detected U.K. Financial** rule. By default, users are blocked from sending outside the organization any email or Teams chats and channel messages that contain the type of content you're protecting.
 
-- The *Restrict access or encrypt the content in Microsoft 365 locations* action (enabled by default in this rule) adds files stored in SharePoint, OneDrive, and Teams to the locations where sharing is blocked. 
+- The *Restrict access or encrypt the content in Microsoft 365 locations* action (enabled by default in this rule) adds files stored in SharePoint, OneDrive, and Teams to the locations where sharing is blocked.
 - The *Audit or restrict activities on Windows devices* action isn't included by default. Select it to restrict activities on Windows devices. When the activities listed are detected on Windows devices for supported files containing sensitive info that matches this policy's conditions, you can choose to do any of the following:
 
   - Audit the activity only
   - Block the activity entirely
   - Block the activity but allow users to override the restriction
 
-   The ability to audit or restrict activities on Windows devices is part of the functionality referred to as "endpoint data loss prevention." In our example, we'll choose to block each type of endpoint activity, like printing and copying sensitive data to the clipboard, but allow users to override it.
+The ability to audit or restrict activities on Windows devices is part of the functionality referred to as "endpoint data loss prevention." In our example, we'll choose to block each type of endpoint activity, like printing and copying sensitive data to the clipboard, but allow users to override it.
 
 ### User notifications and overrides
 

@@ -4,7 +4,7 @@ title: Summary and knowledge check
 metadata:
   title: Summary and knowledge check
   description: Summary and knowledge check
-  ms.date: 06/18/2021
+  ms.date: 10/21/2021
   author: temanteleary
   ms.author: teleary
   ms.topic: interactive-tutorial
@@ -25,7 +25,7 @@ quiz:
         explanation: "That's incorrect. Microsoft Intune doesn't directly have this feature."
       - content: "Co-management"
         isCorrect: true
-        explanation: "That's correct. Co-managment allows you to transition from Configuration Manager and Active Directory to Microsoft Intune."
+        explanation: "That's correct. Co-management allows you to transition from Configuration Manager and Active Directory to Microsoft Intune."
     - content: "Which of the following options is a valid method for enrolling Windows 10 devices into Microsoft Intune?"
       choices:
       - content: "System Center Configuration Manager co-management"

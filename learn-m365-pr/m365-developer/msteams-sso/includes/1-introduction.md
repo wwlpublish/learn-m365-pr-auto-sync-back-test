@@ -9,7 +9,7 @@ In this module, you'll learn about the different authentication flows supported 
 - Basic knowledge of Microsoft Graph
 - Ability to program with JavaScript and Node.js
 - Experience using Visual Studio Code at the beginner level
-- Access to a [Microsoft 365 tenant](https://developer.microsoft.com/office/dev-program?ocid=MSlearn)
+- Access to a [Microsoft 365 tenant](https://developer.microsoft.com/microsoft-365/dev-program?ocid=MSlearn)
 - Access to a [Microsoft Azure subscription](https://azure.microsoft.com/free/)
 
 ### Learning objectives

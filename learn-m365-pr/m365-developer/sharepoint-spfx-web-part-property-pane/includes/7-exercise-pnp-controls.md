@@ -80,13 +80,34 @@ PropertyFieldPeoplePicker('people', {
 })
 ```
 
+## Configure the hosted workbench
+
+Locate and open the file **config/serve.json**
+
+In the **serve.json** file, locate the `initialPage` setting. It's currently configured with a placeholder URL.
+
+```json
+"initialPage": "https://enter-your-SharePoint-site/_layouts/workbench.aspx",
+```
+
+Update the `initialPage` setting to open the hosted workbench:
+
+```json
+"initialPage": "https://contoso.sharepoint.com/sites/mySite/_layouts/workbench.aspx",
+```
+
+> [!NOTE]
+> Ensure you enter the proper URL of a SharePoint Online site collection you have access to.
+
 ## Test the web part
 
-To test the web part, it should be run in a SharePoint Online environment where there are multiple users/groups. The benefit of using the people picker control is that it contains the logic necessary to call the SharePoint APIs that list users and groups within the current site.
+The benefit of using the people picker control is that it contains the logic necessary to call the SharePoint APIs that list users and groups within the current site.
 
-Start the project by executing **gulp serve --nobrowser** from the command line in the root of the project.
+Start the project by executing **gulp serve** from the command line in the root of the project.
 
-Open a browser and navigate to a SharePoint Online site's hosted SharePoint workbench that contains a few users in it: **https://[your-spo-tenant].sharepoint.com/[your-spo-site]/_layouts/15/workbench.aspx**.
+If you see this warning in the hosted workbench, switch back to the command prompt, wait for the **reload** subtask to finish executing, and then refresh the hosted workbench. 
+
+![Screenshot of the gulp serve warning](../media/gulp-serve-warning.png)
 
 Add the web part to the page using the same process from the previous exercises.
 
@@ -178,13 +199,9 @@ PropertyFieldCollectionData('expansionOptions', {
 
 ## Test the web part
 
-If you stopped the local webserver after adding the people picker control, start the project by executing **gulp serve --nobrowser** from the command line in the root of the project.
+If you stopped the local web server after adding the people picker control, start the project by executing **gulp serve** from the command line in the root of the project and add the web part to the page using the same process from the previous exercises. Otherwise, refresh the workbench.
 
-Open a browser and navigate to a SharePoint Online site's hosted SharePoint workbench that contains a few users in it: **https://[your-spo-tenant].sharepoint.com/[your-spo-site]/_layouts/15/workbench.aspx**.
-
-Add the web part to the page using the same process from the previous exercises.
-
-Once the web part has been added to the page, open the property pane with the edit web part icon using the same process from the previous exercises. Select the **Manage expansion options** button.
+Open the property pane with the edit web part icon using the same process from the previous exercises. Select the **Manage expansion options** button.
 
 Enter a few values in the provided fields, then select **Save**.
 
