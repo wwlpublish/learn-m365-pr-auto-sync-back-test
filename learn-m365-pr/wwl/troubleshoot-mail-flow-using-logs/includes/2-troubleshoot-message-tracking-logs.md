@@ -1,6 +1,8 @@
-Message tracking logs record a detailed account of all activity that takes place as email messages move through the transport pipeline. Message tracking logs and message traces can be useful to conduct forensics analysis on specific messages. They can also help troubleshoot the send and receive connectors that processed a message.
+Message tracking logs and message traces can be useful to conduct forensics analysis on specific messages. They can also help troubleshoot the send and receive connectors that processed a message. Message tracking logs are used for investigations involving on-premises Exchange Servers. Message traces are used with Exchange Online. This unit examines both forms of message troubleshooting.
 
-Message tracking logs contain detailed information about how messages were processed on the local server. Each Exchange Server maintains its own set of message tracking logs that are kept by default for 30 days. The maximum size for a message tracking log is 1 gigabyte (GB).
+### Message tracking logs in Exchange Server deployments
+
+Message tracking logs record a detailed account of all activity that takes place as email messages move through the transport pipeline in an Exchange Server deployment. Message tracking logs contain detailed information about how messages were processed on the local server. Each Exchange Server maintains its own set of message tracking logs that are kept by default for 30 days. The maximum size for a message tracking log is 1 gigabyte (GB).<br>
 
 Message tracking is enabled by default. A messaging administrator can use the Exchange admin center (EAC) to enable or disable message tracking and to specify the location of the message-tracking log files. However, for advanced message tracking configuration tasks, you must use the Exchange Management Shell’s **Set-TransportService** cmdlet. Other message tracking configuration tasks include:
 
@@ -82,7 +84,7 @@ You can also use the EAC to view information about messages sent or received by 
 
 The **Get-MessageTrackingLog** cmdlet isn't available when connected to Exchange Online. Instead of **Get-MessageTrackingLog**, you must use **Get-MessageTrace** and **Get-MessageTraceDetails** to view results for message tracking.
 
-### Message tracing
+### Message tracing in Exchange Online deployments
 
 The message trace functionality in Exchange Online enables you to view a message’s progress through the Exchange Online servers and identify whether the message was delivered. If the message wasn't delivered, you can investigate based on the error messages in the message trace.
 
@@ -98,6 +100,9 @@ The Exchange admin center enables Messaging administrators to run message traces
 
 > [!NOTE]
 > When you add a sender or recipient, it may appear that you're unable to add email addresses that aren't part of your organization. However, you can add any email address by typing it in the box next to the **Check names** button.
+
+> [!TIP]
+> The Microsoft 365 Defender portal also includes a link to the Exchange message trace feature in the EAC. By selecting **Exchange message trace** in the Microsoft 365 Defender portal, the EAC will be displayed. You can then run the message trace from the EAC.
 
 #### Message tracing in Windows PowerShell
 
@@ -122,4 +127,4 @@ Get-MessageTrace -SenderAddress “don@adatum.com” ‘
 ```
 
 > [!NOTE]
-> After a message is sent, there's usually a 5 to 30 minute delay before message trace information is available in the EAC and Windows PowerShell.
+> After a message is sent, there's usually a 5 to 30-minute delay before message trace information is available in the EAC and Windows PowerShell.

@@ -71,7 +71,7 @@ Before customizing the tab, let's test the tab to see the initial developer expe
 From the command line, navigate to the root folder for the project and execute the following command:
 
 ```console
-gulp ngrok-serve
+gulp ngrok-serve --debug
 ```
 
 This gulp task will run many other tasks all displayed within the command-line console. The **ngrok-serve** task builds your project and starts a local web server (http://localhost:3007). It then starts ngrok with a random subdomain that creates a secure URL to your local webserver.
@@ -153,7 +153,7 @@ Update the state of the component to contain a video ID. Add the following state
 const [youTubeVideoId, setYouTubeVideoId] = useState<string | undefined>("VlEH4vtaxp4");
 ```
 
-Add the following methods to the `YouTubePlayer1Tab` class. These methods will handle updating the state when specific events happen on the form you'll add to the component:
+Add the following methods to the `YouTubePlayer1Tab` component. These methods will handle updating the state when specific events happen on the form you'll add to the component:
 
 ```typescript
 const onShowVideo = (): void => {
@@ -202,12 +202,12 @@ The next step is to add some interactivity to the tab.
 
 At this point, our Microsoft Teams app, implemented as a custom person tab is set up and working. Verify this by starting ngrok again and refreshing the Microsoft Teams interface.
 
-Increment the `version` property in the app's **./manifest/manifest.json** file so you can update the previously deployed Teams app.
+Increment the `version` property in the app's **./manifest/manifest.json** file so you can update the previously deployed Teams app. (Alternatively, use the npm program to update the version of the solution: `npm version patch`.)
 
 From the command line, navigate to the root folder for the project and execute the following command:
 
 ```console
-gulp ngrok-serve
+gulp ngrok-serve --debug
 ```
 
 Upgrade the previously deployed Teams app with the updated app package.
@@ -217,8 +217,6 @@ In the browser, navigate back to the tab and notice the new UI you've implemente
 ![Screenshot of the updated YouTube Player tab](../media/03-yo-teams-09.png)
 
 Now you can update the project and add task modules to the custom Microsoft Teams app.
-
-Stop the local web server by pressing <kbd>CTRL</kbd>+<kbd>C</kbd> in the console to stop the running process.
 
 ## Add video player task module
 
@@ -293,7 +291,7 @@ const appRoot = (): string => {
   } else {
     return window.location.protocol + "//" + window.location.host;
   }
-}
+};
 ```
 
 Next, add the following code to the `onShowVideo()` method:
@@ -314,21 +312,11 @@ This code will create a new `taskInfo` object with the details of the task modul
 
 ### Test the video player task module
 
-Increment the `version` property in the app's **./manifest/manifest.json** file so you can update the previously deployed Teams app.
-
-From the command line, navigate to the root folder for the project and execute the following command:
-
-```console
-gulp ngrok-serve
-```
-
-Upgrade the previously deployed Teams app with the updated app package.
+Save the modified files. The `ngrok` task will detect the changes and re-run the webpack task. Upon completion, the web page should refresh to show the updated content.
 
 In the browser, navigate back to the tab in the Microsoft Teams interface. Select the **Show video** button. Microsoft Teams will load the video player task module with the specified video loaded in the embedded player:
 
 ![Screenshot of the YouTube Player task module with a video loaded in the web page](../media/03-yo-teams-10.png)
-
-Stop the local web server by pressing <kbd>CTRL</kbd>+<kbd>C</kbd> in the console to stop the running process.
 
 ## Add video selector task module
 
@@ -413,7 +401,6 @@ import { useState, useEffect } from "react";
 import { useTeams, getQueryVariable } from "msteams-react-base-component";
 import * as microsoftTeams from "@microsoft/teams-js";
 
-
 export const VideoSelectorTaskModule = () => {
 
   const [{ inTeams, theme, context }] = useTeams();
@@ -496,15 +483,7 @@ This code will first create the `taskInfo` object that defines the task module. 
 
 ### Test the video selector task module
 
-Increment the `version` property in the app's **./manifest/manifest.json** file so you can update the previously deployed Teams app.
-
-From the command line, navigate to the root folder for the project and execute the following command:
-
-```console
-gulp ngrok-serve
-```
-
-Upgrade the previously deployed Teams app with the updated app package.
+Save the modified files. The `ngrok` task will detect the changes and re-run the webpack task. Upon completion, the web page should refresh to show the updated content.
 
 In the browser, navigate back to the tab in the Microsoft Teams interface.
 

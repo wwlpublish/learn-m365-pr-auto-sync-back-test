@@ -3,7 +3,7 @@ uid: learn-m365.msteams-conversation-bots.5-exercise-channel-bots
 metadata:
   title: Exercise - Bots in Microsoft Teams channels and group chats
   description: In this exercise, you’ll modify the existing Microsoft Teams app to update your bot to respond to message reactions, and update or delete messages capabilities.
-  ms.date: 09/13/2021
+  ms.date: 12/08/2021
   author: andrewconnell-msft
   ms.author: suzanz
   ms.topic: interactive-tutorial

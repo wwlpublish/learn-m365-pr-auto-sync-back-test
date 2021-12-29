@@ -126,13 +126,17 @@ Add the following code immediately after the code you just commented out:
 // request 2 - user's manager
 var userId = "{{REPLACE_WITH_USER_ID}}";
 var requestUserManager = client.Users[userId]
-                               .Manager
-                               .Request();
+                                .Manager
+                                .Request();
 var resultsUserManager = requestUserManager.GetAsync().Result;
 Console.WriteLine("   User: " + userId);
 Console.WriteLine("Manager: " + resultsUserManager.Id);
-Console.WriteLine("Manager: " + (resultsUserManager as Microsoft.Graph.User).DisplayName);
-Console.WriteLine(resultsUserManager.Id + ": " + (resultsUserManager as Microsoft.Graph.User).DisplayName + " <" + (resultsUserManager as Microsoft.Graph.User).Mail + ">");
+var resultsUserManagerUser = resultsUserManager as Microsoft.Graph.User;
+if (resultsUserManagerUser != null)
+{
+  Console.WriteLine("Manager: " + resultsUserManagerUser.DisplayName);
+  Console.WriteLine(resultsUserManager.Id + ": " + resultsUserManagerUser.DisplayName + " <" + resultsUserManagerUser.Mail + ">");
+}
 
 Console.WriteLine("\nGraph Request:");
 Console.WriteLine(requestUserManager.GetHttpRequestMessage().RequestUri);

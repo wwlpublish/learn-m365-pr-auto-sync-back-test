@@ -3,7 +3,7 @@ uid: learn-m365.msgraph-build-aspnetmvc-apps.5-exercise-add-auth
 metadata:
   title: Exercise - Incorporate the Microsoft Authentication Library into ASP.NET MVC web apps
   description: In this exercise, you'll extend the application from the previous exercise to support authentication with Azure AD. This is required to obtain the necessary OAuth access token to call the Microsoft Graph API. In this step, you'll integrate the OWIN middleware and the Microsoft Authentication Library (MSAL) library into the application.
-  ms.date: 09/13/2021
+  ms.date: 12/08/2021
   author: andrewconnell-msft
   ms.author: suzanz
   ms.topic: interactive-tutorial
