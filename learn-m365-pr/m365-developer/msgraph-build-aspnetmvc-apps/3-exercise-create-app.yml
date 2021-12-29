@@ -3,7 +3,7 @@ uid: learn-m365.msgraph-build-aspnetmvc-apps.3-exercise-create-app
 metadata:
   title: Exercise - Create ASP.NET MVC web app and register Azure AD app
   description: In this exercise, you'll create an ASP.NET MVC web application with Visual Studio and Azure AD application with the Azure Active Directory admin center. Once the application is created, you'll then add the necessary packages and libraries that support user authentication and requesting data from Microsoft Graph.
-  ms.date: 09/13/2021
+  ms.date: 12/08/2021
   author: andrewconnell-msft
   ms.author: suzanz
   ms.topic: interactive-tutorial

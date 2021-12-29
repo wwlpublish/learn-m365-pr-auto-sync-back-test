@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.plan-mailbox-migrations.determine-migration-option
+title: Determine which migration option to use
+metadata:
+  title: Determine which migration option to use
+  description: "Determine which migration option to use"
+  ms.date: 12/16/2021
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 4
+content: |
+  [!include[](includes/3-determine-migration-option.md)]

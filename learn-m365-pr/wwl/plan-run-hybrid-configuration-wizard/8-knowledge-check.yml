@@ -1,0 +1,52 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.plan-configure-hybrid-deployment-using-hybrid-configuration-wizard.knowledge-check
+title: Knowledge check
+metadata:
+  title: Knowledge check
+  description: "Knowledge check"
+  ms.date: 12/14/2021
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 6
+content: |
+  [!include[](includes/8-knowledge-check.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "As the Messaging administrator for Lucerne Publishing, Patti Fernandez wants to implement a hybrid Exchange deployment. Which of the following items is a recommended best practice to implementing a hybrid deployment that Patti should follow?"
+    choices:
+    - content: "Manually configure the hybrid deployment so that you have complete control over configuration settings"
+      isCorrect: false
+      explanation: "This answer is incorrect. While you can manually configure a hybrid deployment, the recommended best practice is to use the Hybrid Configuration Wizard, which automatically handles all necessary configuration settings for you. Try again."
+    - content: "At the beginning, move production mailboxes for all users"
+      isCorrect: false
+      explanation: "This answer is incorrect. Organizations should start slowly, and then speed up when everything works. At the beginning, move mailboxes only for people who can acceptably work with a short outage. After you gain confidence that the hybrid deployment works reliably, move the other mailboxes. Always move test mailboxes first and then consider moving production mailboxes. Try again."
+    - content: "Don't change the MX resource record at first"
+      isCorrect: true
+      explanation: "This answer is correct. Don't change the MX resource record until after you've verified the hybrid deployment works."
+  - content: "As the Messaging administrator for Contoso, Holly Dickson wants to configure the company's hybrid deployment to receive inbound email from the Internet. As part of this requirement, Holly wants Microsoft to handle Contoso's email domains. Holly also wants to automatically take advantage of the antivirus and anti-spam scanning engines from Exchange Online Protection (EOP). Given these requirements, which of the following methods should Holly select to receive inbound email from the Internet?"
+    choices:
+    - content: "Inbound to Exchange Online"
+      isCorrect: true
+      explanation: "This answer is correct. This option is used if you want Microsoft to handle your email domains, and you want to automatically take advantage of the antivirus and anti-spam scanning engines from Exchange Online Protection (EOP). To configure this feature, point the MX resource record to Exchange Online Protection. Exchange Online automatically delivers messages that are located on the on-premises Exchange Server by using the Exchange Server that you define when you run the Hybrid Deployment Wizard."
+    - content: "Inbound to on-premises Exchange Server"
+      isCorrect: false
+      explanation: "This answer is incorrect. This option is used if you want to keep full control of your email domains, such as message tracking and journaling of messages in your company. In this scenario, Holly wants Microsoft to handle the company's email domains. Try again."
+    - content: "Inbound messages directly"
+      isCorrect: false
+      explanation: "This answer is incorrect. This item isn't a valid method of receiving inbound email from the Internet. Try again."
+  - content: "As the Messaging administrator for Tailspin Toys, Alan Deyoung just ran the Hybrid Configuration Wizard (HCW). What happened when Alan ran the HCW?"
+    choices:
+    - content: "It configured Exchange with the full Hybrid feature set"
+      isCorrect: false
+      explanation: "This answer is incorrect. When running the HCW, you can select either a Minimal Hybrid Configuration or a Full Hybrid Configuration. The Full hybrid feature set is only configured if you select the Full Hybrid Configuration option. Configuring the full Hybrid feature set isn't automatically done. Try again."
+    - content: "It enabled Tailspin Toys to optionally complete a one-time transfer of its organizational settings from its Exchange Server on-premises environment to Exchange Online"
+      isCorrect: true
+      explanation: "This answer is correct. Microsoft added a feature to the HCW called Organization Configuration Transfer (OCT). OCT enables an organization to complete a one-time transfer of its organizational settings from its Exchange Server on-premises environment to Exchange Online."
+    - content: "It configured Exchange with the minimal settings needed so that Tailspin Toys can seamlessly move its mailboxes to Exchange Online"
+      isCorrect: false
+      explanation: "This answer is incorrect. When running the HCW, you can select either a Minimal Hybrid Configuration or a Full Hybrid Configuration. Exchange is configured with the minimal settings needed so that Tailspin Toys can seamlessly move its mailboxes to Exchange Online only by selecting the Minimal Hybrid Configuration option. Configuring the minimal settings isn't automatically done. Try again."

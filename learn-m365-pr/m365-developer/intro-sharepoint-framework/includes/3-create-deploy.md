@@ -36,7 +36,7 @@ However, you aren't limited to Visual Studio Code. You can choose a different ed
 
 ## Server-side tool comparison
 
-The SharePoint Framework development toolchain is a significant change from the traditional server-side SharePoint development experience. Let's look at the two development toolchains to see how they're compare and contrast
+The SharePoint Framework development toolchain is a significant change from the traditional server-side SharePoint development experience. Let's look at the two development toolchains to see how they compare and contrast
 
 ![Screenshot of the server-side tool comparison](../media/03-server-side-tooling-comparison.png)
 
@@ -175,7 +175,7 @@ While this simplifies communicating with APIs secured with Azure AD, it allows a
 
 Isolated web parts introduce a new way to isolate access to APIs secured with Azure AD and ensure that only specific SharePoint Framework web parts are allowed to obtain an access token for the particular API.
 
-When deploying an isolated web part to the app catalog, all API permission requests are specified as isolated. Once the isolated API permission request is approved, SharePoint will create a separate Azure AD application in the tenant associated with the Office 365 tenant. The Azure AD application is specific to the SharePoint Framework solution that requested API permissions and will have set OAuth permissions as requested by that solution.
+When deploying an isolated web part to the app catalog, all API permission requests are specified as isolated. Once the isolated API permission request is approved, SharePoint will create a separate Azure AD application in the tenant associated with the Microsoft 365 tenant. The Azure AD application is specific to the SharePoint Framework solution that requested API permissions and will have set OAuth permissions as requested by that solution.
 
 The return URL of that Azure AD application, which is used by the OAuth implicit flow, will be set to a unique domain that is tied to that specific SharePoint Framework application. All web parts from solutions using isolated permissions, when added to a page, will be rendered in an Iframe that points to the unique domain tied to the particular SharePoint Framework solution.
 
