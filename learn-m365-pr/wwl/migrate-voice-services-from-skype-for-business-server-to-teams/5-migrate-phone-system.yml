@@ -1,10 +1,10 @@
 ### YamlMime:ModuleUnit
 uid: learn.wwl.migrate-voice-services-from-skype-for-business-server-to-teams.migrate-phone-system
-title: Migrate to Teams Phone System
+title: Migrate to Teams Phone
 metadata:
-  title: Migrate to Teams Phone System
-  description: "Migrate to Teams Phone System"
-  ms.date: 10/02/2021
+  title: Migrate to Teams Phone
+  description: "Migrate to Teams Phone"
+  ms.date: 12/29/2021
   author: wwlpublish
   ms.author: dahans
   ms.topic: interactive-tutorial

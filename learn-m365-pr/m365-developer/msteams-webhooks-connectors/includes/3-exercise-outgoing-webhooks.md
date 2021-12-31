@@ -54,10 +54,15 @@ Yeoman will launch and ask you a series of questions. Answer the questions with 
 
 After answering the generator's questions, the generator will create the scaffolding for the project and then execute `npm install` that downloads all the dependencies required by the project.
 
-Our web service will need one more NPM package to simplify finding data in an array. Execute the following command in the command prompt from the root folder of the project to install the library Lodash:
-
+To simplify working with collections, install the Lodash library by executing the following commands in the command line from the root folder of the project:
 ```console
 npm install lodash -S
+```
+
+Add the AdaptiveCards templating library by executing the following command:
+
+```console
+npm install adaptive-expressions adaptivecards-templating
 ```
 
 ## Code the outgoing webhook
@@ -86,9 +91,9 @@ Create a new file **planets.json** in the **./src/server/teamsWebhooksOutgoingWe
     "id": "1",
     "name": "Mercury",
     "summary": "Mercury is the smallest and innermost planet in the Solar System. Its orbit around the Sun takes 87.97 days, the shortest of all the planets in the Solar System. It is named after the Roman deity Mercury, the messenger of the gods.",
-    "solarOrbitYears": 0.24,
-    "solarOrbitAvgDistanceKm": 57909050,
-    "numSatellites": 0,
+    "solarOrbitYears": "0.24",
+    "solarOrbitAvgDistanceKm": "57909050",
+    "numSatellites": "0",
     "wikiLink": "https://en.wikipedia.org/wiki/Mercury_(planet)",
     "imageLink": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Mercury_in_color_-_Prockter07-edit1.jpg",
     "imageAlt": "NASA/Johns Hopkins University Applied Physics Laboratory/Carnegie Institution of Washington [Public domain]"
@@ -97,9 +102,9 @@ Create a new file **planets.json** in the **./src/server/teamsWebhooksOutgoingWe
     "id": "2",
     "name": "Venus",
     "summary": "Venus is the second planet from the Sun. It is named after the Roman goddess of love and beauty. As the second-brightest natural object in the night sky after the Moon, Venus can cast shadows and, rarely, is visible to the naked eye in broad daylight. Venus lies within Earth's orbit, and so never appears to venture far from the Sun, setting in the west just after dusk and rising in the east a bit before dawn.",
-    "solarOrbitYears": 0.62,
-    "solarOrbitAvgDistanceKm": 108208000,
-    "numSatellites": 0,
+    "solarOrbitYears": "0.62",
+    "solarOrbitAvgDistanceKm": "108208000",
+    "numSatellites": "0",
     "wikiLink": "https://en.wikipedia.org/wiki/Venus",
     "imageLink": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Venus-real_color.jpg",
     "imageAlt": "&quot;Image processing by R. Nunes&quot;, link to http://www.astrosurf.com/nunes [Public domain]"
@@ -108,9 +113,9 @@ Create a new file **planets.json** in the **./src/server/teamsWebhooksOutgoingWe
     "id": "3",
     "name": "Earth",
     "summary": "Earth is the third planet from the Sun and the only astronomical object known to harbor life. According to radiometric dating and other sources of evidence, Earth formed over 4.5 billion years ago. Earth's gravity interacts with other objects in space, especially the Sun and the Moon, which is Earth's only natural satellite. Earth orbits around the Sun in 365.256 days, a period known as an Earth sidereal year. During this time, Earth rotates about its axis about 366.256 times.",
-    "solarOrbitYears": 1.00,
-    "solarOrbitAvgDistanceKm": 149597500,
-    "numSatellites": 1,
+    "solarOrbitYears": "1.00",
+    "solarOrbitAvgDistanceKm": "149597500",
+    "numSatellites": "1",
     "wikiLink": "https://en.wikipedia.org/wiki/Earth",
     "imageLink": "https://upload.wikimedia.org/wikipedia/commons/9/97/The_Earth_seen_from_Apollo_17.jpg",
     "imageAlt": "Apollo 17 [Public domain]"
@@ -119,9 +124,9 @@ Create a new file **planets.json** in the **./src/server/teamsWebhooksOutgoingWe
     "id": "4",
     "name": "Mars",
     "summary": "Mars is the fourth planet from the Sun and the second-smallest planet in the Solar System after Mercury. In English, Mars carries a name of the Roman god of war and is often referred to as the 'Red Planet'. The latter refers to the effect of the iron oxide prevalent on Mars' surface, which gives it a reddish appearance distinctive among the astronomical bodies visible to the naked eye.",
-    "solarOrbitYears": 1.88,
-    "solarOrbitAvgDistanceKm": 134935000,
-    "numSatellites": 2,
+    "solarOrbitYears": "1.88",
+    "solarOrbitAvgDistanceKm": "134935000",
+    "numSatellites": "2",
     "wikiLink": "https://en.wikipedia.org/wiki/Mars",
     "imageLink": "https://upload.wikimedia.org/wikipedia/commons/0/02/OSIRIS_Mars_true_color.jpg",
     "imageAlt": "ESA - European Space Agency &amp; Max-Planck Institute for Solar System Research for OSIRIS Team ESA/MPS/UPD/LAM/IAA/RSSD/INTA/UPM/DASP/IDA [CC BY-SA 3.0-IGO (https://creativecommons.org/licenses/by-sa/3.0-igo)]"
@@ -130,9 +135,9 @@ Create a new file **planets.json** in the **./src/server/teamsWebhooksOutgoingWe
     "id": "5",
     "name": "Jupiter",
     "summary": "Jupiter is the fifth planet from the Sun and the largest in the Solar System. It is a gas giant with a mass one-thousandth that of the Sun, but two-and-a-half times that of all the other planets in the Solar System combined. Jupiter is one of the brightest objects visible to the naked eye in the night sky, and has been known to ancient civilizations since before recorded history. It is named after the Roman god Jupiter. When viewed from Earth, Jupiter can be bright enough for its reflected light to cast shadows, and is on average the third-brightest natural object in the night sky after the Moon and Venus.",
-    "solarOrbitYears": 11.86,
-    "solarOrbitAvgDistanceKm": 445336000,
-    "numSatellites": 78,
+    "solarOrbitYears": "11.86",
+    "solarOrbitAvgDistanceKm": "445336000",
+    "numSatellites": "78",
     "wikiLink": "https://en.wikipedia.org/wiki/Jupiter",
     "imageLink": "https://upload.wikimedia.org/wikipedia/commons/5/50/Jupiter%2C_image_taken_by_NASA%27s_Hubble_Space_Telescope%2C_June_2019_-_Edited.jpg",
     "imageAlt": "NASA, ESA, and A. Simon (NASA Goddard), edited by PlanetUser [Public domain]"
@@ -141,9 +146,9 @@ Create a new file **planets.json** in the **./src/server/teamsWebhooksOutgoingWe
     "id": "6",
     "name": "Saturn",
     "summary": "Saturn is the sixth planet from the Sun and the second-largest in the Solar System, after Jupiter. It is a gas giant with an average radius about nine times that of Earth. It has only one-eighth the average density of Earth; however, with its larger volume, Saturn is over 95 times more massive. Saturn is named after the Roman god of wealth and agriculture; its astronomical symbol (♄) represents the god's sickle.",
-    "solarOrbitYears": 29.46,
-    "solarOrbitAvgDistanceKm": 1433525000,
-    "numSatellites": 82,
+    "solarOrbitYears": "29.46",
+    "solarOrbitAvgDistanceKm": "1433525000",
+    "numSatellites": "82",
     "wikiLink": "https://en.wikipedia.org/wiki/Saturn",
     "imageLink": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Saturn_during_Equinox.jpg",
     "imageAlt": "NASA / JPL / Space Science Institute [Public domain]"
@@ -152,9 +157,9 @@ Create a new file **planets.json** in the **./src/server/teamsWebhooksOutgoingWe
     "id": "7",
     "name": "Uranus",
     "summary": "Uranus is the seventh planet from the Sun. It has the third-largest planetary radius and fourth-largest planetary mass in the Solar System. Uranus is similar in composition to Neptune, and both have bulk chemical compositions which differ from that of the larger gas giants Jupiter and Saturn. For this reason, scientists often classify Uranus and Neptune as \"ice giants\" to distinguish them from the gas giants.",
-    "solarOrbitYears": 84.02,
-    "solarOrbitAvgDistanceKm": 2883000000,
-    "numSatellites": 27,
+    "solarOrbitYears": "84.02",
+    "solarOrbitAvgDistanceKm": "2883000000",
+    "numSatellites": "27",
     "wikiLink": "https://en.wikipedia.org/wiki/Uranus",
     "imageLink": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Uranus2.jpg",
     "imageAlt": "NASA/JPL-Caltech [Public domain]"
@@ -163,15 +168,14 @@ Create a new file **planets.json** in the **./src/server/teamsWebhooksOutgoingWe
     "id": "8",
     "name": "Neptune",
     "summary": "Neptune is the eighth and farthest known planet from the Sun in the Solar System. In the Solar System, it is the fourth-largest planet by diameter, the third-most-massive planet, and the densest giant planet. Neptune is 17 times the mass of Earth, slightly more massive than its near-twin Uranus. Neptune is denser and physically smaller than Uranus because its greater mass causes more gravitational compression of its atmosphere.",
-    "solarOrbitYears": 164.80,
-    "solarOrbitAvgDistanceKm": 4500000000,
-    "numSatellites": 14,
+    "solarOrbitYears": "164.80",
+    "solarOrbitAvgDistanceKm": "4500000000",
+    "numSatellites": "14",
     "wikiLink": "https://en.wikipedia.org/wiki/Neptune",
     "imageLink": "https://upload.wikimedia.org/wikipedia/commons/6/63/Neptune_-_Voyager_2_%2829347980845%29_flatten_crop.jpg",
     "imageAlt": "Justin Cowart [CC BY (https://creativecommons.org/licenses/by/2.0)]"
   }
-]
-```
+]```
 
 Next, create a new file **planetDisplayCard.json** in the **./src/server/teamsWebhooksOutgoingWebhook** folder and add the following JSON to it. This file will contain a template of the adaptive card the web service will respond with:
 
@@ -179,7 +183,7 @@ Next, create a new file **planetDisplayCard.json** in the **./src/server/teamsWe
 {
   "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
   "type": "AdaptiveCard",
-  "version": "1.0",
+  "version": "1.4",
   "body": [
     {
       "id": "cardHeader",
@@ -188,8 +192,9 @@ Next, create a new file **planetDisplayCard.json** in the **./src/server/teamsWe
         {
           "id": "planetName",
           "type": "TextBlock",
-          "weight": "bolder",
-          "size": "medium"
+          "weight": "Bolder",
+          "size": "Medium",
+          "text": "${name}"
         }
       ]
     },
@@ -200,7 +205,8 @@ Next, create a new file **planetDisplayCard.json** in the **./src/server/teamsWe
         {
           "id": "planetSummary",
           "type": "TextBlock",
-          "wrap": true
+          "wrap": true,
+          "text": "${summary}"
         },
         {
           "id": "planetDetails",
@@ -208,37 +214,38 @@ Next, create a new file **planetDisplayCard.json** in the **./src/server/teamsWe
           "columns": [
             {
               "type": "Column",
-              "width": "100",
+              "width": 100,
               "items": [
                 {
                   "id": "planetImage",
-                  "size": "stretch",
-                  "type": "Image"
+                  "size": "Stretch",
+                  "type": "Image",
+                  "url": "${imageLink}"
                 }
               ]
             },
             {
               "type": "Column",
-              "width": "250",
+              "width": 250,
               "items": [
                 {
                   "type": "FactSet",
                   "facts": [
                     {
-                      "id": "orderFromSun",
-                      "title": "Order from the sun:"
+                      "title": "Order from the sun:",
+                      "value": "${id}"
                     },
                     {
-                      "id": "planetNumSatellites",
-                      "title": "Known satellites:"
+                      "title": "Known satellites:",
+                      "value": "${numSatellites}"
                     },
                     {
-                      "id": "solarOrbitYears",
-                      "title": "Solar orbit (*Earth years*):"
+                      "title": "Solar orbit (*Earth years*):",
+                      "value": "${solarOrbitYears}"
                     },
                     {
-                      "id": "solarOrbitAvgDistanceKm",
-                      "title": "Average distance from the sun (*km*):"
+                      "title": "Average distance from the sun (*km*):",
+                      "value": "${solarOrbitAvgDistanceKm}"
                     }
                   ]
                 }
@@ -249,51 +256,49 @@ Next, create a new file **planetDisplayCard.json** in the **./src/server/teamsWe
         {
           "id": "imageAttribution",
           "type": "TextBlock",
-          "size": "medium",
+          "size": "Medium",
           "isSubtle": true,
-          "wrap": true
+          "wrap": true,
+          "text": "*Image attribution: ${imageAlt}"
         }
       ]
-    }
-  ],
-  "actions": [
+    },
     {
-      "type": "Action.OpenUrl",
-      "title": "Learn more on Wikipedia"
+      "type": "ActionSet",
+      "actions": [
+        {
+          "type": "Action.OpenUrl",
+          "title": "Learn more on Wikipedia",
+          "url": "${wikiLink}"
+        }
+      ]
     }
   ]
 }
 ```
 
-Add the following `import` statement to the **./src/server/teamsWebhooksOutgoingWebhook/TeamsWebhooksOutgoingWebhook.ts** file, just after the existing `import` statements:
+Add the following `import` statements to the **./src/server/teamsWebhooksOutgoingWebhook/TeamsWebhooksOutgoingWebhook.ts** file, just after the existing `import` statements:
 
 ```typescript
+import { CardFactory } from "botbuilder";
 import { find, sortBy } from "lodash";
+import * as ACData from "adaptivecards-templating";
 ```
 
 Add the following method to the `TeamsWebhooksOutgoingWebhook` class. The `getPlanetDetailCard()` method will load and populate the adaptive card template with details using the provided planet object:
 
 ```typescript
 private static getPlanetDetailCard(selectedPlanet: any): builder.Attachment {
-
-  // load display card
+ // load card template
   const adaptiveCardSource: any = require("./planetDisplayCard.json");
-
-  // update planet fields in display card
-  adaptiveCardSource.actions[0].url = selectedPlanet.wikiLink;
-  find(adaptiveCardSource.body, { id: "cardHeader" }).items[0].text = selectedPlanet.name;
-  const cardBody: any = find(adaptiveCardSource.body, { id: "cardBody" });
-  find(cardBody.items, { id: "planetSummary" }).text = selectedPlanet.summary;
-  find(cardBody.items, { id: "imageAttribution" }).text = "*Image attribution: " + selectedPlanet.imageAlt + "*";
-  const cardDetails: any = find(cardBody.items, { id: "planetDetails" });
-  cardDetails.columns[0].items[0].url = selectedPlanet.imageLink;
-  find(cardDetails.columns[1].items[0].facts, { id: "orderFromSun" }).value = selectedPlanet.id;
-  find(cardDetails.columns[1].items[0].facts, { id: "planetNumSatellites" }).value = `${selectedPlanet.numSatellites}`;
-  find(cardDetails.columns[1].items[0].facts, { id: "solarOrbitYears" }).value = `${selectedPlanet.solarOrbitYears}`;
-  find(cardDetails.columns[1].items[0].facts, { id: "solarOrbitAvgDistanceKm" }).value = `${Number(selectedPlanet.solarOrbitAvgDistanceKm).toLocaleString()}`;
-
+  // Create a Template instance from the template payload
+  const template = new ACData.Template(adaptiveCardSource);
+  // bind the data to the card template
+  const boundTemplate = template.expand({ $root: selectedPlanet });
+  // load the adaptive card
+  const adaptiveCard = CardFactory.adaptiveCard(boundTemplate);
   // return the adaptive card
-  return builder.CardFactory.adaptiveCard(adaptiveCardSource);
+  return adaptiveCard;
 }
 ```
 
@@ -362,7 +367,7 @@ Finally, update the `requestHandler()` method:
 From the command line, navigate to the root folder for the project and execute the following command:
 
 ```console
-gulp serve
+gulp serve --debug
 ```
 
 Next, open a new console window and execute the following command:
@@ -413,7 +418,7 @@ Copy this value and set the `SECURITY_TOKEN` property in the **./.env** file in 
 Stop the project's local web server by pressing <kbd>CTRL</kbd>+<kbd>C</kbd> and restart it by executing the following command:
 
 ```console
-gulp serve
+gulp serve --debug
 ```
 
 > [!CAUTION]

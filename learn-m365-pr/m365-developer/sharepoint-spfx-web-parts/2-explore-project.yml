@@ -3,7 +3,7 @@ uid: learn-m365.sharepoint-spfx-web-parts.2-explore-project
 metadata:
   title: Explore a SharePoint Framework project
   description: In this unit, you'll learn about the different components in a SharePoint Framework project, and get an overview of the build and deployment process.
-  ms.date: 09/13/2021
+  ms.date: 12/08/2021
   author: andrewconnell-msft
   ms.author: suzanz
   ms.topic: interactive-tutorial

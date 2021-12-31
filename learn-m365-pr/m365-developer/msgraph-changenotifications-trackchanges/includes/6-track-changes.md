@@ -36,7 +36,7 @@ This first time this is submitted, you'll receive a list of all users in the dir
 {
   "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#users",
   "@odata.deltaLink": "https://graph.microsoft.com/v1.0/users/delta?$skiptoken=moXwmvoHW4B2uevGNLf2<snip>",
-  "vales": [ ..<users>.. ]
+  "values": [ ..<users>.. ]
 }
 ```
 

@@ -54,11 +54,11 @@ Select a valid subscription, enter a name for the resource group, and select the
 
 Complete the wizard to create the resource group. Once Azure has completed the resource group creation process, navigate to the resource group.
 
-From the resource group, select the **Add** or **Create resources** button.
+From the resource group, select the **Create resources** button.
 
 ![Screenshot of creating a new resource](../media/03-azure-bot-registration-01.png)
 
-Enter **bot** in the **Search the marketplace** input box, and select **Azure Bot** from the list of resources returned. Then select **Create** on the next page to start the process of registering a new bot resource:
+Enter **bot** in the **Search services and marketplace** input box, and select **Azure Bot** from the list of resources returned. Then select **Create** on the next page to start the process of registering a new bot resource:
 
 ![Screenshot of searching for the bot registration resource](../media/03-azure-bot-registration-02.png)
 
@@ -69,7 +69,7 @@ In the **Create an Azure Bot** blade, enter the following values and then select
 - **Resource group**: _Select the resource group you created previously_
 - **Pricing tier**: _Select a preferred pricing tier; the F0 tier is free_
 
-Select **Create**.
+Select **Review + create**, then select **Create**.
 
 Azure will start to provision the new resource. This will take a moment or two. Once it's finished, navigate to the bot resource in the resource group.
 
@@ -108,8 +108,6 @@ Select **Manage** to navigate to the Azure AD app blade:
 ### Create a client secret for the app
 
 In order for the daemon app to run without user involvement, it will sign in to Azure AD with an application ID and either a certificate or secret. In this exercise, you'll use a secret.
-
-Select **Certificates & secrets** from the left-hand navigation panel.
 
 Select the **New client secret** button:
 
@@ -159,62 +157,6 @@ Yeoman will launch and ask you a series of questions. Answer the questions with 
 > Most of the answers to these questions can be changed after creating the project. For example, the URL where the project will be hosted isn't important at the time of creating or testing the project.
 
 After answering the generator's questions, the generator will create the scaffolding for the project and then execute `npm install` that downloads all the dependencies required by the project.
-
-### Update the default bot
-
-The first version of this bot will respond to the message **MentionMe** in a 1:1 chat conversation. The response will mention the user who started the conversation.
-
-To implement this functionality, locate and open the **./src/server/conversationalBot/ConversationalBot.ts** file and add the following method to the `ConversationalBot` class:
-
-```typescript
-private async handleMessageMentionMeOneOnOne(context: TurnContext): Promise<void> {
-  const mention = {
-    mentioned: context.activity.from,
-    text: `<at>${new TextEncoder().encode(context.activity.from.name)}</at>`,
-    type: "mention"
-  };
-
-  const replyActivity = MessageFactory.text(`Hi ${mention.text} from a 1:1 chat.`);
-  replyActivity.entities = [mention];
-  await context.sendActivity(replyActivity);
-}
-```
-
-The method handler you added contains a reference to two objects you haven't imported into the bot file.
-
-Add the following code after the existing `import` statements at the top of the file to import the `TextEncoder` object:
-
-```typescript
-import * as Util from "util";
-const TextEncoder = Util.TextEncoder;
-```
-
-Add a reference to the `MessageFactory` object, by adding it to the existing list of object references in the **botbuilder** package `import` at the top of the file:
-
-```typescript
-import {
-  StatePropertyAccessor,
-  CardFactory,
-  TurnContext,
-  MemoryStorage,
-  ConversationState,
-  ActivityTypes,
-  TeamsActivityHandler,
-  MessageFactory,
-} from 'botbuilder';
-```
-
-Next, call this method when the bot receives the specific string **MentionMe** by doing the following:
-
-1. Locate the handler `onMessage()` within the `constructor()`.
-1. Locate and replace the line `if (text.startsWith("hello")) {` in the `onMessage()` handler with the following code:
-
-```typescript
-if (text.startsWith("mentionme")) {
-  await this.handleMessageMentionMeOneOnOne(context);
-  return;
-} else if (text.startsWith("hello")) {
-```
 
 ### Update the project's environment variables
 
@@ -374,11 +316,7 @@ Once the package is uploaded, Microsoft Teams will display a summary of the app.
 
 ![Screenshot of Microsoft Teams app](../media/03-test-03.png)
 
-Select the **Add** button to install the app, adding a new personal tab to your **More added apps** dialog:
-
-![Screenshot of the installed Microsoft Teams app in the More added apps dialog](../media/03-test-04.png)
-
-Select the app to navigate to chat with the bot:
+Select the **Add** button to install the app. Teams will navigate to the chat with the bot:
 
 ![Screenshot of the installed Microsoft Teams app](../media/03-test-05.png)
 
