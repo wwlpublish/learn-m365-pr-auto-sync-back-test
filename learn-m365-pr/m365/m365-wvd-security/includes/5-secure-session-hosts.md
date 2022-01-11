@@ -3,7 +3,7 @@ Customers can take several actions and use multiple tools to help secure their A
 |**Best practice**| **Result**                                                   |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 |Enable Azure Security Center for its cloud security posture management (CSPM) features| Use the CSPM feature of the security score to improve your overall security.|
-|Require multifactor authentication|Enhance user authentication.|
+|Require multi-factor authentication|Enhance user authentication.|
 |Enable Conditional Access|Manage risks before you grant users access.|
 |Collect audit logs|Review user and administrator activity.|
 |Use RemoteApp|Reduce risk by letting the user work with only a subset of the remote machine exposed.|
@@ -21,7 +21,7 @@ Customers can take several actions and use multiple tools to help secure their A
 
 ## Enable endpoint protection by using Microsoft Defender for Endpoint
 
-To help secure a company's endpoints, we recommend that you configure Microsoft Defender for Endpoint. It was previously known as Microsoft Defender for Endpoint. Microsoft Defender for Endpoint is typically used on-premises but can also be used in a virtual desktop infrastructure (VDI) environment.
+To help secure a company's endpoints, we recommend that you configure Microsoft Defender for Endpoint. It was previously known as Windows Defender for Endpoint. Microsoft Defender for Endpoint is typically used on-premises but can also be used in a virtual desktop infrastructure (VDI) environment.
 
 To deploy Microsoft Defender for Endpoint on your Azure Virtual Desktop VMs, enroll the VMs into Azure Security Center. Security Center provides a license as part of its standard offering.
 
