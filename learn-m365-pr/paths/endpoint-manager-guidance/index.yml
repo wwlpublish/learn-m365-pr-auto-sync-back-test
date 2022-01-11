@@ -38,9 +38,9 @@ products:
 - mem
 modules:
 - learn.paths-to-modern-endpoint-management
-- learn.determine-endpoint-implementation
+- learn.determine-endpoint-management-implementation
 - learn.set-up-microsoft-intune
-- learn-m365.setup-tenant-attach-using-configuration-manager
-- learn-m365.understand-co-management
+- learn.setup-tenant-attach-using-configuration-manager
+- learn.set-up-co-management
 trophy:
   uid: learn-m365.endpoint-manager-guidance.trophy
