@@ -43,7 +43,7 @@ The following table describes some of the main functionalities of Microsoft Intu
 |**Functionality**| **Description**|
 | --------------------------------- | ------------------------------------------------------------ |
 |Device management|User-owned and organization-owned enrolled devices in Microsoft Intune receive rules and settings through policies that you configure to match your organization's security policies. |
-|App management|Mobile application management at Microsoft Intune can bring app management on organization-owned devices and personal devices.|
+|App management|Mobile application management in Microsoft Intune can bring app management on organization-owned devices and personal devices.|
 |Compliance and Conditional Access|Intune integrates with Azure AD to enable a broad set of access control scenarios.|
 
 Application control moves from an application trust model that assumes all applications are trustworthy. The new model demands that applications earn trust before they can run. Windows 10 includes two technologies for application control: Windows Defender Application Control and AppLocker.
