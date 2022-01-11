@@ -3,7 +3,7 @@ Customers can take several actions and use multiple tools to help secure their A
 |**Best practice**| **Result**                                                   |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 |Enable Azure Security Center for its cloud security posture management (CSPM) features| Use the CSPM feature of the security score to improve your overall security.|
-|Require multifactor authentication|Enhance user authentication.|
+|Require multi-factor authentication|Enhance user authentication.|
 |Enable Conditional Access|Manage risks before you grant users access.|
 |Collect audit logs|Review user and administrator activity.|
 |Use RemoteApp|Reduce risk by letting the user work with only a subset of the remote machine exposed.|
@@ -21,7 +21,7 @@ Customers can take several actions and use multiple tools to help secure their A
 
 ## Enable endpoint protection by using Microsoft Defender for Endpoint
 
-To help secure a company's endpoints, we recommend that you configure Microsoft Defender for Endpoint. It was previously known as Microsoft Defender for Endpoint. Microsoft Defender for Endpoint is typically used on-premises but can also be used in a virtual desktop infrastructure (VDI) environment.
+To help secure a company's endpoints, we recommend that you configure Microsoft Defender for Endpoint. It was previously known as Windows Defender for Endpoint. Microsoft Defender for Endpoint is typically used on-premises but can also be used in a virtual desktop infrastructure (VDI) environment.
 
 To deploy Microsoft Defender for Endpoint on your Azure Virtual Desktop VMs, enroll the VMs into Azure Security Center. Security Center provides a license as part of its standard offering.
 
@@ -43,7 +43,7 @@ The following table describes some of the main functionalities of Microsoft Intu
 |**Functionality**| **Description**|
 | --------------------------------- | ------------------------------------------------------------ |
 |Device management|User-owned and organization-owned enrolled devices in Microsoft Intune receive rules and settings through policies that you configure to match your organization's security policies. |
-|App management|Mobile application management in Microsoft Intune can bring app management on organization-owned devices and personal devices.|
+|App management|Mobile application management at Microsoft Intune can bring app management on organization-owned devices and personal devices.|
 |Compliance and Conditional Access|Intune integrates with Azure AD to enable a broad set of access control scenarios.|
 
 Application control moves from an application trust model that assumes all applications are trustworthy. The new model demands that applications earn trust before they can run. Windows 10 includes two technologies for application control: Windows Defender Application Control and AppLocker.
