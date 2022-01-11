@@ -1,0 +1,46 @@
+### YamlMime:LearningPath
+uid: learn-m365.endpoint-manager-guidance
+metadata:
+  title: Microsoft Endpoint Manager planning and guidance
+  description: This learning path helps you plan and set up your endpoint management environment.
+  ms.date: 01/11/2022
+  author: Erikre
+  ms.author: erikre
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Microsoft Endpoint Manager planning and guidance
+summary: | 
+  This learning path helps you plan and set up your endpoint management environment.
+
+  By completing this learning path, you'll:
+
+  - Understand possible endpoint migrations paths
+  - Start planning the migration process to modern endpoint management
+  - Determine your organization's endpoint management objectives
+  - Determine endpoint management licensing
+  - Create an endpoint management rollout plan
+  - Sign up for the Microsoft Intune trial
+  - Add Intune users, groups, and assign licenses
+  - Understand tenant attach
+  - Learn about the benefits of co-management
+  - Learn about paths to implement co-management
+prerequisites: |
+  - Familiarity with basic device concepts
+  - Familiarity with security and cloud concepts
+  - Understand Microsoft Endpoint concepts, see [Microsoft Endpoint Manager fundamentals](/learn/paths/endpoint-manager-fundamentals/?azure-portal=true).  
+iconUrl: /learn/achievements/generic-badge.svg
+levels:
+- beginner
+roles:
+- administrator
+products:
+- m365
+- mem
+modules:
+- learn.paths-to-modern-endpoint-management
+- learn.determine-endpoint-implementation
+- learn.set-up-microsoft-intune
+- learn-m365.setup-tenant-attach-using-configuration-manager
+- learn-m365.understand-co-management
+trophy:
+  uid: learn-m365.endpoint-manager-guidance.trophy
