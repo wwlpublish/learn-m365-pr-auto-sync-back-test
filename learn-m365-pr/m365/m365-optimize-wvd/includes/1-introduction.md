@@ -1,10 +1,10 @@
-Learn the steps to optimize Azure Virtual Desktop, including how to customize a basic environment to use Autoscale. We'll look at how you can reduce cost and optimize user performance by scaling host pools on demand using depth and breadth scaling.
+Learn the steps to optimize deployment and infrastructure costs using Azure Virtual Desktop’s native scaling tool Autoscale. Learn how to configure Autoscale so that session host VMs are only running during peak, high- demand hours and deallocated otherwise.
 
 ## Learning objectives
 
 In this module, you will learn how to:
 
-- Configure automatic scaling of session hosts
+- Configure automatic scaling of session hosts with Autoscale
 
 ## Prerequisites
 
