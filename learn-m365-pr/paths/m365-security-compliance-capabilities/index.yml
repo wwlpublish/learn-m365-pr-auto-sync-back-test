@@ -1,13 +1,13 @@
 ### YamlMime:LearningPath
 uid: learn.wwl.m365-security-compliance-capabilities
 metadata:
-  title: Demonstrate fundamental knowledge of Microsoft 365 security and compliance capabilities
+  title: 'Microsoft 365 Fundamentals: Demonstrate fundamental knowledge of Microsoft 365 security and compliance capabilities'
   description: 'Microsoft 365 Fundamentals: Demonstrate fundamental knowledge of Microsoft 365 security and compliance capabilities'
-  ms.date: 11/05/2021
+  ms.date: 01/12/2022
   author: wwlpublish
-  ms.author: ceperezb
+  ms.author: dahans
   ms.topic: interactive-tutorial
-  ms.prod: learning-azure
+  ms.prod: learning-m365
 title: 'Microsoft 365 Fundamentals: Demonstrate fundamental knowledge of Microsoft 365 security and compliance capabilities'
 prerequisites: |
   - A basic understanding of cloud computing. If you're unfamiliar with basic cloud computing concepts, we recommend you take [Cloud Concepts - Principles of cloud computing](/learn/modules/principles-cloud-computing/index)
