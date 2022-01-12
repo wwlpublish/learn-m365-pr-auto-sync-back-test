@@ -10,20 +10,7 @@ metadata:
   ms.prod: learning-m365
 title: Microsoft Endpoint Manager planning and guidance
 summary: | 
-  This learning path helps you plan and set up your endpoint management environment.
-
-  By completing this learning path, you'll:
-
-  - Understand possible endpoint migrations paths
-  - Start planning the migration process to modern endpoint management
-  - Determine your organization's endpoint management objectives
-  - Determine endpoint management licensing
-  - Create an endpoint management rollout plan
-  - Sign up for the Microsoft Intune trial
-  - Add Intune users, groups, and assign licenses
-  - Understand tenant attach
-  - Learn about the benefits of co-management
-  - Learn about paths to implement co-management
+  Managing and protecting mobile devices, desktop computers, virtual machines, embedded devices, and servers that your organization uses can be a daunting task. In addition to devices, there's data to manage, as well as apps. Whether you are new to endpoint management, or are simply new to Microsoft Endpoint Manager, this learning path presents both planning and guidance to help you get started with or migrate to Microsoft Endpoint Manager. If you are new to endpoint management overall, consider reviewing [Microsoft Endpoint Manager fundamentals](/learn/paths/endpoint-manager-fundamentals/?azure-portal=true). After completing the modules in this learning path, you will be set to enroll your organization's devices and assign apps to the users at your organization.
 prerequisites: |
   - Familiarity with basic device concepts
   - Familiarity with security and cloud concepts
