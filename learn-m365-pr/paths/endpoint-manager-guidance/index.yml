@@ -3,14 +3,14 @@ uid: learn-m365.endpoint-manager-guidance
 metadata:
   title: Microsoft Endpoint Manager planning and guidance
   description: This learning path helps you plan and set up your endpoint management environment.
-  ms.date: 01/11/2022
+  ms.date: 01/12/2022
   author: Erikre
   ms.author: erikre
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Microsoft Endpoint Manager planning and guidance
 summary: | 
-  Managing and protecting mobile devices, desktop computers, virtual machines, embedded devices, and servers that your organization uses can be a daunting task. In addition to devices, there's data to manage, as well as apps. Whether you are new to endpoint management, or are simply new to Microsoft Endpoint Manager, this learning path presents both planning and guidance to help you get started with or migrate to Microsoft Endpoint Manager. If you are new to endpoint management overall, consider reviewing [Microsoft Endpoint Manager fundamentals](/learn/paths/endpoint-manager-fundamentals/?azure-portal=true). After completing the modules in this learning path, you will be set to enroll your organization's devices and assign apps to the users at your organization.
+  Managing and protecting data, mobile devices, desktop computers, virtual machines, servers, and apps that your organization uses may seem like an intimidating task. However, after completing the modules provided below, you will have both a better understanding and a path forward to implementing Microsoft Endpoint Manager. Whether you are new to endpoint management, or are simply new to Microsoft Endpoint Manager, this learning path presents both planning and guidance to help you get started with or migrate to Microsoft Endpoint Manager. If you are new to endpoint management overall, consider reviewing [Microsoft Endpoint Manager fundamentals](/learn/paths/endpoint-manager-fundamentals/?azure-portal=true). After completing the modules in this learning path, you will be ready to enroll your organization's devices and assign apps to the users at your organization.
 prerequisites: |
   - Familiarity with basic device concepts
   - Familiarity with security and cloud concepts
