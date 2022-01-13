@@ -130,7 +130,10 @@ var resultsGroupOwners = requestGroupOwners.GetAsync().Result;
 foreach (var owner in resultsGroupOwners)
 {
   var ownerUser = owner as Microsoft.Graph.User;
-  Console.WriteLine(ownerUser.Id + ": " + ownerUser.DisplayName + " <" + ownerUser.Mail + ">");
+  if (ownerUser != null)
+  {
+    Console.WriteLine(ownerUser.Id + ": " + ownerUser.DisplayName + " <" + ownerUser.Mail + ">");
+  }
 }
 ```
 
@@ -151,7 +154,10 @@ var resultsGroupMembers = requestGroupMembers.GetAsync().Result;
 foreach (var member in resultsGroupMembers)
 {
   var memberUser = member as Microsoft.Graph.User;
-  Console.WriteLine(memberUser.Id + ": " + memberUser.DisplayName + " <" + memberUser.Mail + ">");
+  if (memberUser != null)
+  {
+    Console.WriteLine(memberUser.Id + ": " + memberUser.DisplayName + " <" + memberUser.Mail + ">");
+  }
 }
 ```
 

@@ -63,7 +63,7 @@ Before you customize the tab, let's test the tab to see the initial developer ex
 From the command line, go to the root folder for the project and run the following command:
 
 ```console
-gulp ngrok-serve
+gulp ngrok-serve --debug
 ```
 
 This gulp task runs many other tasks all displayed within the command-line console. The ngrok-serve task builds your project and starts a local web server (http://localhost:3007). It then starts ngrok with a random subdomain that creates a secure URL to your local web server.
@@ -167,7 +167,8 @@ return (
       <Text content="These are your to-do items:" size="medium"></Text>
       <List selectable>
         {todoItems.map((todoItem, i) => (
-          <List.Item media={<WindowMaximizeIcon outline />}
+          <List.Item key={i}
+            media={<WindowMaximizeIcon outline />}
             content={todoItem} index={i} >
           </List.Item>))
         }
@@ -182,7 +183,7 @@ return (
 ```
 
 > [!TIP]
-> At this point, you can test your tab without loading it in Microsoft Teams. Run the command **gulp ngrok-serve** from the command line, and go to **https://`{your-ngrok-subdomain}`.ngrok.io/learnPersonalTab/index.html** in the browser.
+> At this point, you can test your tab without loading it in Microsoft Teams. Run the command **gulp ngrok-serve --debug** from the command line, and go to **https://`{your-ngrok-subdomain}`.ngrok.io/learnPersonalTab/index.html** in the browser.
 >
 > ![Screenshot of the update tab page in the default theme](../media/03-yo-teams-11.png)
 >

@@ -1,6 +1,6 @@
 Compliance Manager simplifies the process of managing compliance and helps reduce risk.
 
-Suppose you want to leverage Compliance Manager will help you meet your compliance management requirements, and you are ready to conduct and in-depth evaluation of the solution. You would like to explore the key features of the solution to gain a better understanding of the experience you and the compliance team will have when managing compliance for the organization.
+Suppose you want to leverage Compliance Manager to help you meet your compliance management requirements, and you are ready to conduct and in-depth evaluation of the solution. You would like to explore the key features of the solution to gain a better understanding of the experience you and the compliance team will have when managing compliance for the organization.
 
 This module provides you with a tour of the most important components of Microsoft Compliance Manager. You will start with a review of the Compliance Manager dashboard and then examine compliance score, solutions, improvement actions, assessments, and assessment templates.
 

@@ -16,7 +16,7 @@ quiz:
   questions:
   - content: "Where can you find Power BI sample reports?"
     choices:
-    - content: "Microsoft 365 Security Center portal"
+    - content: "Microsoft 365 Defender portal portal"
       isCorrect: false
       explanation: "That's incorrect. You can't find Power BI sample reports in this portal."
     - content: "GitHub"

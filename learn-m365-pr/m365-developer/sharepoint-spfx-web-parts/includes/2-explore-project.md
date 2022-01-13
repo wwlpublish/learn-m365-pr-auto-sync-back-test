@@ -49,13 +49,15 @@ The web part manifest file, **\*.manifest.json**, is located in the same folder 
 
 ```typescript
 {
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
   "id": "a632c154-6871-4bcb-b689-b54363e15544",
   "alias": "HelloWorldWebPart",
   "componentType": "WebPart",
   "version": "*",
   "manifestVersion": 2,
   "requiresCustomScript": false,
-  "supportedHosts": ["SharePointWebPart"],
+  "supportedHosts": ["SharePointWebPart", "TeamsPersonalApp", "TeamsTab", "SharePointFullPage"],
+  "supportsThemeVariants": true,
 
   "preconfiguredEntries": [{
     "groupId": "5c03119e-3074-46fd-976b-c60198311f70",
@@ -103,6 +105,7 @@ The **./config/config.json** file contains information about your JavaScript bun
 
 ```json
 {
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
   "version": "2.0",
   "bundles": {
     "hello-world-web-part": {
@@ -136,9 +139,7 @@ Now that you understand the important folders and files in a project, let's look
 
 In the figure above, the first column covers configuring your development environment for SharePoint Framework development by installing all the necessary dependencies. You then create the project using the Yeoman generator for the SharePoint Framework and develop your component.
 
-Moving onto the second column, test your component in the local or hosted workbench by executing the command `gulp serve` from the command line from the root folder of the project. This task will build, bundle, start the local web server, launch the default browser, and navigate to the local workbench. Here you can add your web part to the local workbench's page to test it.
-
-You can also test it in the hosted workbench by using the same browser and navigating to the hosted workbench. The hosted workbench will load the component from your local web server in the browser.
+Moving onto the second column, test your component in the hosted workbench by executing the command `gulp serve` from the command line from the root folder of the project. This task will build, bundle, start the local web server, launch the default browser, and navigate to the workbench. Here you can add your web part to the workbench's page to test it. The hosted workbench will load the component from your local web server in the browser.
 
 Follow standard development practices by iterating the component until you settle with the final version of your component that is ready to deploy.
 
@@ -155,7 +156,7 @@ The SharePoint Framework development and build toolchain includes many tasks dev
 - **bundle**: This ask will run the **build** task and then create JavaScript bundle(s) with Webpack using the files from the build task.
 - **dev-deploy** and **deploy-azure-storage**: These tasks upload the production manifest and JavaScript bundles to the Azure Storage blob specified in the **./config/deploy-azure-storage.json** configuration file when you've selected to use the Azure CDN to host and serve your files.
 - **package-solution**: This task will create a **\*.sppkg** SharePoint package file using the output from the **bundle** task.
-- **serve**: The serve task will start the local web server that hosts the local workbench.
+- **serve**: The serve task will will build the project and start the local web server.
 - **test**: This task will run the **build** task and then run all unit tests defined in the project.
 - **trust-dev-cert** and **untrust-dev-cert**: These two tasks are used to trust and untrust the self-signed development SSL certificate on your local development environment. The local web server started up by the **serve** task uses this self-signed certificate. The SSL certificate must be added to your development environment's trust root authority for the browser to accept the request.
 

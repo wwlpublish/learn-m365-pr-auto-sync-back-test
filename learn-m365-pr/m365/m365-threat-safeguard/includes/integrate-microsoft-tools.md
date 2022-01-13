@@ -1,10 +1,10 @@
 [![Integration architecture](../media/integration-architecture.png)](../media/integration-architecture-magnify.png#lightbox)
 
-The Microsoft Defender for Identity cloud service runs on Azure infrastructure and is currently deployed in the US, Europe, and Asia. Microsoft Defender for Identity cloud service is connected to Microsoft's intelligent security graph. This enables Microsoft Defender for Identity to integrate with Microsoft Cloud App Security, as part of a Microsoft 365 Defender monitoring strategy.
+The Microsoft Defender for Identity cloud service runs on Azure infrastructure and is currently deployed in the US, Europe, and Asia. Microsoft Defender for Identity cloud service is connected to Microsoft's intelligent security graph. This enables Microsoft Defender for Identity to integrate with Microsoft Defender for Cloud Apps, as part of a Microsoft 365 Defender monitoring strategy.
 
-Once integrated into Microsoft Cloud App Security, you'll be able to see on-premises activities for all the users in your organization. You will also get advanced insights on your users that combine alerts and suspicious activities across your cloud and on-premises environments. Additionally, policies from Microsoft Defender for Identity will appear on the Cloud App Security policies page. The following screenshot shows Microsoft Defender for Identity reporting within Cloud App Security.
+Once integrated into Microsoft Defender for Cloud Apps, you'll be able to see on-premises activities for all the users in your organization. You will also get advanced insights on your users that combine alerts and suspicious activities across your cloud and on-premises environments. Additionally, policies from Microsoft Defender for Identity will appear on the Defender for Cloud Apps policies page. The following screenshot shows Microsoft Defender for Identity reporting within Defender for Cloud Apps.
 
-[![Microsoft Defender for Identity reporting within Microsoft Cloud App Security](../media/azure-reporting-cloud-app-security.png)](../media/azure-reporting-cloud-app-security-magnify.png#lightbox)
+[![Microsoft Defender for Identity reporting within Microsoft Defender for Cloud Apps](../media/azure-reporting-cloud-app-security.png)](../media/azure-reporting-cloud-app-security-magnify.png#lightbox)
 
 >
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4CVTT]

@@ -23,13 +23,12 @@ PS> Add-SPOSiteCollectionAppCatalog -Site https://contoso.sharepoint.com/sites/d
 You can also use the [CLI for Microsoft 365](https://pnp.github.io/cli-microsoft365). This is a good option when your development environment isn't Windows.
 
 ```console
-# login as a tenant admin to the SharePoint Online tenant admin site
-# replace the URL shown below with the URL of your SharePoint Online tenant admin site
-$ spo connect https://contoso-admin.sharepoint.com
+# login as a tenant admin to the SharePoint Online tenant
+m365 login
 
 # create site collection app catalog
 # replace the URL shown below with the URL of a site collection within your SharePoint Online tenant
-$ spo site appcatalog add --url https://contoso.sharepoint/sites/dev01
+m365 spo site appcatalog add --url https://contoso.sharepoint/sites/dev01
 ```
 
 A few moments after executing the command to create a new site collection App Catalog, you should see the library **Apps for SharePoint** in the **Site Contents** page.

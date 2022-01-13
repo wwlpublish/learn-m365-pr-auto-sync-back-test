@@ -41,7 +41,7 @@ Before you customize the tab, let's test the tab to see the experience for testi
 From the command line, go to the root folder for the project and run the following command:
 
 ```console
-gulp ngrok-serve
+gulp ngrok-serve --debug
 ```
 
 Open a browser, and go to [Microsoft Teams](https://teams.microsoft.com). Sign in with the credentials of a Work and School account.
@@ -306,7 +306,7 @@ return (
 
 ### Test the channel tab page
 
-At this point, the channel tab page is complete. If the web server isn't still running, rebuild the project and start the web server by running **gulp ngrok-server**.
+At this point, the channel tab page is complete. If the web server isn't still running, rebuild the project and start the web server by running **gulp ngrok-server --debug**.
 
 Open a browser, and go to [Microsoft Teams](https://teams.microsoft.com). Sign in with the credentials of a Work and School account.
 

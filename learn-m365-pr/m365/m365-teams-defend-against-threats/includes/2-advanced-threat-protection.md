@@ -2,7 +2,7 @@ As systems such as Microsoft Teams become easier to use and more flexible, the e
 
 ## What is Microsoft 365 Defender?
 
-Microsoft Defender is a unified platform for detecting and blocking files that have been identified as malicious. Microsoft 365 Defender protects endpoints from cyber threats, detects advanced attacks and data breaches, and automates the handling of security incidents. It's available for Microsoft Teams, and SharePoint and OneDrive, which are used by Teams for content management. Microsoft 365 Defender allows you to identify malicious content in any of these applications and block it from user access.
+Microsoft Defender for Cloud is a unified platform for detecting and blocking files that have been identified as malicious. Microsoft 365 Defender protects endpoints from cyber threats, detects advanced attacks and data breaches, and automates the handling of security incidents. It's available for Microsoft Teams, and SharePoint and OneDrive, which are used by Teams for content management. Microsoft 365 Defender allows you to identify malicious content in any of these applications and block it from user access.
 
 After a problem is detected, how the content is managed depends on the settings in Microsoft 365. Microsoft recommends that you configure Microsoft 365 Defender for all applications.
 

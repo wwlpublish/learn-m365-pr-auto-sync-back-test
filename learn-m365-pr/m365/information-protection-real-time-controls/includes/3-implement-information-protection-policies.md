@@ -1,4 +1,4 @@
-Microsoft Cloud App Security file policies continually monitor files to protect sensitive data. You can create policies to perform many tasks including:
+Microsoft Defender for Cloud Apps file policies continually monitor files to protect sensitive data. You can create policies to perform many tasks including:
 
 - Detect or block external sharing of confidential or sensitive data.
 - Detect and encrypt sensitive data at rest.
@@ -21,6 +21,6 @@ To manage policies, perform the following steps:
 
 3. Examples of managing specific policies are in subsequent units of this module.
 
-The following video gives you an overview of how to protect cloud storage apps with Microsoft Cloud App Security:
+The following video gives you an overview of how to protect cloud storage apps with Microsoft Defender for Cloud Apps:
 
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWyfzX]

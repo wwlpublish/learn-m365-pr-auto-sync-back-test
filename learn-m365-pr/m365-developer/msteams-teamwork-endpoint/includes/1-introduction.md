@@ -8,7 +8,7 @@ In this module, you'll learn how to use Microsoft Graph to interact with Microso
 - Ability to program with JavaScript, TypeScript, and Node.js
 - Experience using Visual Studio Code at the intermediate level
 - Intermediate knowledge of Microsoft Graph
-- Access to a [Microsoft 365 tenant](https://developer.microsoft.com/office/dev-program?ocid=MSlearn)
+- Access to a [Microsoft 365 tenant](https://developer.microsoft.com/microsoft-365/dev-program?ocid=MSlearn)
 
 ## Learning objectives
 

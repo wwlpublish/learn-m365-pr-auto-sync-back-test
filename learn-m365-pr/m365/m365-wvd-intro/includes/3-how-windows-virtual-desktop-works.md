@@ -61,7 +61,7 @@ For cloud organizations:
 
 The Azure VMs you create for Azure Virtual Desktop must be:
 
-- Standard domain-joined or Hybrid AD-joined. VMs can't be Azure AD-joined.
+- Standard domain-joined, Hybrid AD-joined, or Azure AD-joined.
 - Running one of the supported OS images.
 
 ### Supported Remote Desktop clients

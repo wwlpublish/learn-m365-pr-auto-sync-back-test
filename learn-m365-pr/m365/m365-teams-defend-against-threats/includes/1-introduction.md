@@ -1,4 +1,4 @@
-Microsoft Teams provides your users with a powerful cloud-based collaboration experience. Moving to the cloud increases flexibility for employees and IT but also introduces security challenges and complexities. Microsoft provides powerful tools that can help identify and protect your cloud-based services using Microsoft Defender for Endpoint, Cloud App Security, and Conditional Access.
+Microsoft Teams provides your users with a powerful cloud-based collaboration experience. Moving to the cloud increases flexibility for employees and IT but also introduces security challenges and complexities. Microsoft provides powerful tools that can help identify and protect your cloud-based services using Microsoft Defender for Endpoint, Defender for Cloud Apps, and Conditional Access.
 
 This module covers what you need to consider as a Microsoft Teams security admin. After you've deployed Teams across your organization, you must be sure that security is optimal for your requirements, and that you protect Teams users from potential threats.
 

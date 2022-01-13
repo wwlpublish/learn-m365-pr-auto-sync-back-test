@@ -1,4 +1,4 @@
-Slack provides Contoso's users with ways to collaborate, and work together on projects. As with both Workplace from Facebook and Box, you can use Conditional Access App Control policies in Cloud App Security to help secure Contoso's content in this app.
+Slack provides Contoso's users with ways to collaborate, and work together on projects. As with both Workplace from Facebook and Box, you can use Conditional Access App Control policies in Defender for Cloud Apps to help secure Contoso's content in this app.
 
 Like Workplace, you start by adding the Slack app to Azure Active Directory, and then configure the required SSO settings before you're able to create a Conditional Access policy, and finally the required Conditional Access App Control policies.
 
@@ -60,9 +60,9 @@ The next step is to create a Conditional Access policy in Azure AD.
 
 ## Configure an access or session policy
 
-The final stage is to create the Access control or Session control policies. You complete these steps in the **Cloud App Security** portal. As they do not differ greatly from the preceding apps, we won't repeat them here.
+The final stage is to create the Access control or Session control policies. You complete these steps in the **Defender for Cloud Apps** portal. As they do not differ greatly from the preceding apps, we won't repeat them here.
 
-## Block chats with sensitive data using Microsoft Cloud App Security
+## Block chats with sensitive data using Microsoft Defender for Cloud Apps
 
 The following video demonstrates how to use Conditional Access App Control policies to control message content in Slack:
 

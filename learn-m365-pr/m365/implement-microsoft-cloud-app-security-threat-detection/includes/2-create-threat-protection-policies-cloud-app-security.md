@@ -1,4 +1,4 @@
-Microsoft Cloud App Security provides policy-driven mechanisms to help manage your users' behavior in the cloud. Policies enable you to detect and identify:
+Microsoft Defender for Cloud Apps provides policy-driven mechanisms to help manage your users' behavior in the cloud. Policies enable you to detect and identify:
 
 - Violations
 - Risky behavior
@@ -22,7 +22,7 @@ Threat protection policies are designed to help you:
 
 The following screenshot displays the high severity threat detection policies that are available by default.
 
-:::image type="content" source="../media/policies-1.png" alt-text="A screenshot of the Policies page in Cloud App Security, displaying a list of policies in the Threat detection category.":::
+:::image type="content" source="../media/policies-1.png" alt-text="A screenshot of the Policies page in Defender for Cloud Apps, displaying a list of policies in the Threat detection category.":::
 
 When establishing threat protection policies, there are three types of policies you can implement, described in the following table.  
 
@@ -37,9 +37,9 @@ When establishing threat protection policies, there are three types of policies 
 Activity policies are designed to monitor defined user activities, or to identify high rates of a specific activity. Once you create an activity detection policy, it starts to generate alerts.
 
 > [!IMPORTANT]
-> Cloud App Security disables policies that trigger more than 50,000 matches per day, for 3 out of the last 7 days.
+> Defender for Cloud Apps disables policies that trigger more than 50,000 matches per day, for 3 out of the last 7 days.
 
-Cloud App Security provides two activity policies by default. These are:
+Defender for Cloud Apps provides two activity policies by default. These are:
 
 - Log on from a risky IP address. Alert when a user logs on to your sanctioned apps from a risky IP address. By default, the Risky IP address category contains addresses that have IP address tags of Anonymous proxy, TOR, or Botnet.
 
@@ -50,7 +50,7 @@ Cloud App Security provides two activity policies by default. These are:
 
 To create an activity policy, use the following procedure:
 
-1. In Cloud App Security, select **Control**, select **Policies**, and then select **Create policy**.
+1. In Defender for Cloud Apps, select **Control**, select **Policies**, and then select **Create policy**.
 2. In the **Create policy** list, select **Activity policy**.
 3. Enter the following information:
 
@@ -86,12 +86,12 @@ For example, the following screenshot displays the settings for an activity poli
 
 ### Anomaly detection policies
 
-Anomaly detection policies are designed to analyze user and entity behavior. In Cloud App Security, Anomaly detection policies are automatically enabled by default, so you don't need to create any.
+Anomaly detection policies are designed to analyze user and entity behavior. In Defender for Cloud Apps, Anomaly detection policies are automatically enabled by default, so you don't need to create any.
 
 > [!IMPORTANT]
-> Cloud App Security has an initial learning period of seven days during which not all anomaly detection alerts are raised.
+> Defender for Cloud Apps has an initial learning period of seven days during which not all anomaly detection alerts are raised.
 
-Cloud App Security scans user activity to help identify anomalous behavior. Risks are evaluated by reviewing over 30 risk indicators, grouped into the following risk factors:
+Defender for Cloud Apps scans user activity to help identify anomalous behavior. Risks are evaluated by reviewing over 30 risk indicators, grouped into the following risk factors:
 
 - Risky IP address
 - Login failures
@@ -102,7 +102,7 @@ Cloud App Security scans user activity to help identify anomalous behavior. Risk
 - Device and user agent
 - Activity rate
 
-Cloud App Security raises security alerts as needed when it detects risky behavior. Although you don't create Anomaly detection policies, you can review the existing policies in the Cloud App Security portal. Select **Control** in the navigation pane, and then select **Policies**. In the TYPE list, select only **Anomaly detection policy**.
+Defender for Cloud Apps raises security alerts as needed when it detects risky behavior. Although you don't create Anomaly detection policies, you can review the existing policies in the Defender for Cloud Apps portal. Select **Control** in the navigation pane, and then select **Policies**. In the TYPE list, select only **Anomaly detection policy**.
 
 The following Anomaly policies are available:
 
@@ -148,7 +148,7 @@ Although you do not create anomaly detection policies, you can edit the followin
 Your users might choose to install OAuth apps within your organization without your knowledge. OAuth apps use a delegated authorization model. This delegation allows the app to obtain access to a user's data following user consent.
 
 > [!IMPORTANT]
-> Cloud App Security only identifies apps that request delegated permissions.
+> Defender for Cloud Apps only identifies apps that request delegated permissions.
 
 Give that some, perhaps most, users do not closely review the apps' request for permissions, these apps can pose a security risk to your organization. You can use OAuth app policies to determine which permissions each app requested. You can also determine which users authorized those apps for access to Office 365, Google Workspace, and Salesforce data.
 
@@ -159,7 +159,7 @@ By using policies, you can mark those granted permissions as either approved or 
 
 To create an OAuth app policy, use the following procedure:
 
-1. In Cloud App Security, select **Control**, select **Policies**, and then select **Create policy**.
+1. In Defender for Cloud Apps, select **Control**, select **Policies**, and then select **Create policy**.
 2. In the **Create policy** list, select **OAuth app policy**.
 3. Enter the following information:
 
