@@ -1,14 +1,14 @@
 ### YamlMime:ModuleUnit
 uid: learn-m365.mcas-casbs.3-mcas-best-practices
 metadata:
-  title: Microsoft Cloud App Security best practices
-  description: Learn about Microsoft Cloud App Security best practices
+  title: Microsoft Defender for Cloud Apps best practices
+  description: Learn about Microsoft Defender for Cloud Apps best practices
   ms.date: 02/10/2021
   author: beccarobins
   ms.author: beccarobins
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-title: Microsoft Cloud App Security best practices
+title: Microsoft Defender for Cloud Apps best practices
 durationInMinutes: 2
 content: |
   [!include[](includes/3-microsoft-cloud-app-security-best-practices.md)]

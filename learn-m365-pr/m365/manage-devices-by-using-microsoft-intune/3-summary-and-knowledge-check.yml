@@ -15,7 +15,7 @@ content: |
 quiz:
     title: Check your knowledge
     questions:
-    - content: "Which technology offers a way to transition from either on-premises Active Directory or ConfigMgr and Active Directory to a modern management approach?"
+    - content: "Your organization uses Configuration Manager and Active Directory. You want to transition to Intune and Azure AD. Which solution should you use?"
       choices:
       - content: "Azure"
         isCorrect: false
@@ -25,7 +25,7 @@ quiz:
         explanation: "That's incorrect. Microsoft Intune doesn't directly have this feature."
       - content: "Co-management"
         isCorrect: true
-        explanation: "That's correct."
+        explanation: "That's correct. Co-management allows you to transition from Configuration Manager and Active Directory to Microsoft Intune."
     - content: "Which of the following options is a valid method for enrolling Windows 10 devices into Microsoft Intune?"
       choices:
       - content: "System Center Configuration Manager co-management"

@@ -6,9 +6,9 @@ With so many apps in use, OAuth 2.0 reduces the need for multiple accounts and c
 
 If a user is tricked into authorizing a malicious OAuth app, their data could be accessed.
 
-## Manage OAuth Apps with MCAS
+## Manage OAuth Apps with Defender for Cloud Apps
 
-To manage OAuth apps in Cloud App Security, go to the Cloud App Security portal, select **Investigate**, and select **OAuth apps**.
+To manage OAuth apps in Defender for Cloud Apps, go to the Defender for Cloud Apps portal, select **Investigate**, and select **OAuth apps**.
 
 :::image type="content" source="../media/4-oauth-apps.png" alt-text="OAuth apps" lightbox="../media/4-oauth-apps.png":::
 
@@ -36,6 +36,6 @@ You can then choose to be alerted by email, text message, or a Microsoft Flow al
 
 You can create multiple policies allowing you to have one policy to alert you if there is a medium risk app, and another policy to automatically revoke high risk apps.
 
-The following video walks through the steps to manage OAuth apps in Microsoft Cloud App Security:
+The following video walks through the steps to manage OAuth apps in Microsoft Defender for Cloud Apps:
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4MANe]

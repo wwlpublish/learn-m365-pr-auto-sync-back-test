@@ -3,7 +3,7 @@ uid: learn.wwl.manage-mobile-device-access
 metadata:
   title: Manage mobile device access
   description: "Manage mobile device access"
-  ms.date: 11/03/2021
+  ms.date: 01/13/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -18,7 +18,7 @@ abstract: |
   - Describe alternatives for mobile device management.
   - Troubleshoot mobile device access.
 prerequisites: ""
-iconUrl: /learn/achievements/generic-badge.svg
+iconUrl: /learn/achievements/mobile-device-manage-access.svg
 levels:
 - intermediate
 roles:

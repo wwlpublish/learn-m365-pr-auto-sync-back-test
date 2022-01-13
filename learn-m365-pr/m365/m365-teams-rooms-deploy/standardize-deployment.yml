@@ -4,7 +4,7 @@ title: Standardize your Teams Rooms deployment
 metadata:
   title: Standardize your Teams Rooms deployment
   description: Learn to simplify the distribution of Teams Rooms across your environment by standardizing deployments. Discover the various components of Teams Rooms and their interconnections. Learn about the resource account, which represents the meeting room in Microsoft Teams.  
-  ms.date: 07/15/2021
+  ms.date: 11/15/2021
   author: temanteleary
   ms.author: teleary
   ms.topic: interactive-tutorial

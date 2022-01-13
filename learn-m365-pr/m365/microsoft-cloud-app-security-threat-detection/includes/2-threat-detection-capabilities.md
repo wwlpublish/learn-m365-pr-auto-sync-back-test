@@ -1,4 +1,4 @@
-Many attacks are now cloud-only and many sensitive resources are stored in the cloud. For this reason, it is important to understand the types of threats and the capabilities of Cloud Access Security Brokers (CASBs).
+Many attacks are now cloud-only and many sensitive resources are stored in the cloud. For this reason, it is important to understand the types of threats and the capabilities of cloud access security brokers (CASBs).
 
 ## Threats to cloud apps
 
@@ -6,11 +6,11 @@ Threats to cloud apps are wide-ranging. As well as attackers who seek financial 
 
 Because attacks are sophisticated and constantly evolving, a traditional list of known malware is no longer sufficient to protect an organization.
 
-## Microsoft Cloud App Security threat detection
+## Microsoft Defender for Cloud Apps threat detection
 
-Microsoft Cloud App Security includes threat detection capabilities across all phases of an attack. These capabilities provide user and entity behavioral analytics (UEBA) combined with machine learning (ML) to assess threats based on ongoing user behavior.
+Microsoft Defender for Cloud Apps includes threat detection capabilities across all phases of an attack. These capabilities provide user and entity behavioral analytics (UEBA) combined with machine learning (ML) to assess threats based on ongoing user behavior.
 
-In the Cloud App Security Portal, if you select **Control** and then **Policies**, you can see a list of policies.
+In the Defender for Cloud Apps Portal, if you select **Control** and then **Policies**, you can see a list of policies.
 
 :::image type="content" source="../media/2-microsoft-cloud-app-security-policies.png" alt-text="Microsoft Defender for Cloud Apps Policies" lightbox="../media/2-microsoft-cloud-app-security-policies.png":::
 
@@ -66,7 +66,7 @@ By creating policies, you can detect wide ranges of suspicious activity and choo
 
 You can create a policy from the **Policies** page, but it is normally more straightforward to either create a policy based on a template or create a policy based on a search.
 
-To Create a policy based on a template, from the **Cloud App Security** portal, select **Control**, and select **Templates**.
+To Create a policy based on a template, from the **Defender for Cloud Apps** portal, select **Control**, and select **Templates**.
 
 :::image type="content" source="../media/2-template.png" alt-text="Templates" lightbox="../media/2-template.png":::
 
@@ -78,7 +78,7 @@ You can now set a policy severity and create filters for the policy. Single acti
 
 :::image type="content" source="../media/2-create-activity-policy.png" alt-text="Create activity policy" lightbox="../media/2-create-activity-policy.png":::
 
-To create a policy based on a search, from the Cloud App Security portal, select **Investigate** and then choose the search type, for example, **Activity Log.**
+To create a policy based on a search, from the Defender for Cloud Apps portal, select **Investigate** and then choose the search type, for example, **Activity Log.**
 
 :::image type="content" source="../media/2-investigate.png" alt-text="Policy based on a search" lightbox="../media/2-investigate.png":::
 
@@ -88,6 +88,6 @@ You can now specify the criteria for the search and select **New policy from sea
 
 You can finalize the policy with the same **Create activity policy** page as a template policy.
 
-The following video gives you an overview of Microsoft Cloud App Security threat protection capabilities:
+The following video gives you an overview of Microsoft Defender for Cloud Apps threat protection capabilities:
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4MGoX]

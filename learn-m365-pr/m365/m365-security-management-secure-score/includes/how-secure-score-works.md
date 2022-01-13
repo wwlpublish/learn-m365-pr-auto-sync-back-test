@@ -1,4 +1,4 @@
-With Microsoft Secure Score in the Microsoft 365 Defender portal, you can have increased visibility and control over your organization's security posture. From a centralized dashboard you can monitor and improve the security for your Microsoft 365 identities, data, apps, devices, and infrastructure. The alerts include recommendations from Azure AD, Intune, Cloud App Security, Azure Security Center, and Microsoft Defender for Endpoint.
+With Microsoft Secure Score in the Microsoft 365 Defender portal, you can have increased visibility and control over your organization's security posture. From a centralized dashboard you can monitor and improve the security for your Microsoft 365 identities, data, apps, devices, and infrastructure. The alerts include recommendations from Azure AD, Intune, Defender for Cloud Apps, Microsoft Defender for Cloud, and Microsoft Defender for Endpoint.
 
 The overview page is the place to get an all-up view of the total score. This can be subdivided into the historical trend of your secure score with benchmark comparisons and prioritized recommended actions that can be taken to improve your score.
 

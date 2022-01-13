@@ -4,7 +4,7 @@ Microsoft Endpoint Manager is a unified platform including both on-premises Conf
 
 Configuration Manager is an on-premises tool to manage devices. Does it make sense to use Configuration Manager to manage Teams Rooms devices?
 
-Ultimately, this depends upon your environment, what your current processes and procedures look like, and how well they're managed. The main benefit of Configuration Manager is inventorying Teams Rooms devices and configuring settings for things like Microsoft Defender.
+Ultimately, this depends upon your environment, what your current processes and procedures look like, and how well they're managed. The main benefit of Configuration Manager is inventorying Teams Rooms devices and configuring settings for things like Microsoft Defender for Cloud.
 
 ## Microsoft Intune
 

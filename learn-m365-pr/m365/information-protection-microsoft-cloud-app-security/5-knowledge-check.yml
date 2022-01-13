@@ -22,13 +22,13 @@ quiz:
     choices:
     - content: "Security Administrator."
       isCorrect: true
-      explanation: "That's correct. A Security Administrator has the minimum required permissions to administer Cloud App Security."
+      explanation: "That's correct. A Security Administrator has the minimum required permissions to administer Defender for Cloud Apps."
     - content: "Global Administrator."
       isCorrect: false
-      explanation: "That's incorrect. A Global Administrator has more than the minimum required permissions to administer Cloud App Security. "
+      explanation: "That's incorrect. A Global Administrator has more than the minimum required permissions to administer Defender for Cloud Apps. "
     - content: "Application Administrator."
       isCorrect: false
-      explanation: "That's incorrect. An Application Administrator does not have the required permissions to administer Cloud App Security."
+      explanation: "That's incorrect. An Application Administrator does not have the required permissions to administer Defender for Cloud Apps."
 
 
   - content: "What component of Conditional Access App Control do you need to create to restrict downloads to unmanaged devices?"

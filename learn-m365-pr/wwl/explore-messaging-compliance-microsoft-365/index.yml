@@ -3,7 +3,7 @@ uid: learn.wwl.explore-messaging-compliance-microsoft-365
 metadata:
   title: Explore messaging compliance in Microsoft 365
   description: "Explore messaging compliance in Microsoft 365"
-  ms.date: 11/04/2021
+  ms.date: 01/12/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -18,7 +18,7 @@ abstract: |
   - Configure data loss prevention policies in Microsoft 365.
   - Create message traces to understand the mail flow in your Exchange Online organization.
 prerequisites: ""
-iconUrl: /learn/achievements/generic-badge.svg
+iconUrl: /learn/achievements/m365-messaging-compliance.svg
 levels:
 - intermediate
 roles:

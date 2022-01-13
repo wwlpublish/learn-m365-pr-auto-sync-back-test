@@ -1,0 +1,30 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.troubleshoot-public-folders.troubleshoot-public-folder-access
+title: Troubleshoot public folder access
+metadata:
+  title: Troubleshoot public folder access
+  description: "Troubleshoot public folder access"
+  ms.date: 11/25/2021
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 9
+content: |
+  [!include[](includes/4-troubleshoot-public-folder-access.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "As the Messaging administrator for Tailspin Toys, Alan Deyoung is troubleshooting an issue with the company's public folders that are deployed in Tailspin's Exchange Server 2019 environment. Alan wants to determine which public folder mailboxes are being returned to the end users when they connect from different sites using Outlook. Which of the following log files will provide this information?"
+    choices:
+    - content: "Autodiscover logs"
+      isCorrect: true
+      explanation: "This answer is correct. Autodiscover logs can be useful to administrators in determining which public folder mailboxes are being returned by the Autodiscover service. These logs will help Alan determine which public folder mailboxes are being returned to the end users when they connect from different sites using Outlook."
+    - content: "RPC Client Access logs and MAPI Client Access logs"
+      isCorrect: false
+      explanation: "This answer is incorrect. These logs identify which public folder mailboxes on a specific mailbox server the users are connecting to using RPC/HTTP and MAPI/HTTP protocols. These logs can only be used with Microsoft Exchange 2013. Try again."
+    - content: "MAPI/HTTP logs"
+      isCorrect: false
+      explanation: "This answer is incorrect. These logs identify which public folder mailboxes your MAPI/HTTP clients are connecting to. Try again."

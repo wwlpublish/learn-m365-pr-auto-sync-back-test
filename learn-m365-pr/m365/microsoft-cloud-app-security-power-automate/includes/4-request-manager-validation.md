@@ -12,18 +12,18 @@ To request manager validation for failed login attempts with Power Automate, per
 
 2. This alert should include several components:
 
-    1. The flow is triggered when a Microsoft Cloud App Security alert is generated.
+    1. The flow is triggered when a Microsoft Defender for Cloud Apps alert is generated.
     1. The flow gathers user information from their profile and Azure Active Directory.
     1. The flow requests manager input by email and has options for how the manager can respond to the alert.
 
         :::image type="content" source="../media/4-request-manager-input.png" alt-text="Request manager input.":::
 
     1. There is a switch, which takes the manager input and acts depending upon which action the manager chooses.
-    1. The switch dismisses the Microsoft Cloud App Security alert if the manager chooses **Ignore alert**.
+    1. The switch dismisses the Microsoft Defender for Cloud Apps alert if the manager chooses **Ignore alert**.
 
         :::image type="content" source="../media/4-dismiss-alert.png" alt-text="Dismiss alert.":::
 
-3. Create a policy in Microsoft Cloud App Security, which has filters to only act only repeated activity with an **Activity type** equal to **Failed log on**.
+3. Create a policy in Microsoft Defender for Cloud Apps, which has filters to only act only repeated activity with an **Activity type** equal to **Failed log on**.
 
     :::image type="content" source="../media/4-logon-policy.png" alt-text="Create filters for the policy.":::
 
@@ -31,6 +31,6 @@ To request manager validation for failed login attempts with Power Automate, per
 
     :::image type="content" source="../media/4-alerts.png" alt-text="Alerts.":::
 
-The following video gives you an overview of requesting manager validation for Microsoft Cloud App Security alerts:
+The following video gives you an overview of requesting manager validation for Microsoft Defender for Cloud Apps alerts:
 
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWyOGb]

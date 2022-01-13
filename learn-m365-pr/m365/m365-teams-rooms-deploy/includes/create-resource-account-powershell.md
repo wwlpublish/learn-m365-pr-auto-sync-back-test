@@ -9,7 +9,7 @@ There are two mandatory PowerShell modules needed to create a resource account. 
    Get-MsolAccountSku | where-object {$_.AccountSkuID -like "*meeting*"}
    ```
 
-   ![See your licenses](../media/see-licenses.png)
+   :::image type="content" source="../media/see-licenses.png" alt-text="Screenshot displays See your licenses by running the PowerShell cmdlet." lightbox="../media/see-licenses.png":::
 
    In this example, you can see there are 25 Meeting Room licenses and 19 of them have been consumed (or assigned). This means there are six licenses available to assign to resource accounts.
 

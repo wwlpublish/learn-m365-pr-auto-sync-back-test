@@ -16,14 +16,14 @@ quiz:
   title: Check your knowledge
   questions:
 
-  - content: "Which of the following statements is true when considering role-based access control roles in Microsoft Cloud App Security and Azure AD?"
+  - content: "Which of the following statements is true when considering role-based access control roles in Microsoft Defender for Cloud Apps and Azure AD?"
     choices:
-    - content: "Azure AD Global administrators and Security administrators don’t have full access and permissions in Microsoft Cloud App Security."
+    - content: "Azure AD Global administrators and Security administrators don’t have full access and permissions in Microsoft Defender for Cloud Apps."
       isCorrect: false
-      explanation: "That's incorrect. Azure AD Global administrators and Security administrators do have full access and permissions in Microsoft Cloud App Security."
+      explanation: "That's incorrect. Azure AD Global administrators and Security administrators do have full access and permissions in Microsoft Defender for Cloud Apps."
     - content: " You cannot overwrite a manually assigned Cloud App Security role with an Azure AD admin role."
       isCorrect: false
-      explanation: "That's incorrect. Azure AD role assignments take precedence over Cloud App Security assigned roles."
-    - content: "You cannot overwrite an Azure AD admin role with a manually assigned Cloud App Security role."
+      explanation: "That's incorrect. Azure AD role assignments take precedence over Defender for Cloud Apps assigned roles."
+    - content: "You cannot overwrite an Azure AD admin role with a manually assigned Defender for Cloud Apps role."
       isCorrect: true
-      explanation: "That's correct. Azure AD role assignments take precedence over Cloud App Security assigned roles."
+      explanation: "That's correct. Azure AD role assignments take precedence over Defender for Cloud Apps assigned roles."
