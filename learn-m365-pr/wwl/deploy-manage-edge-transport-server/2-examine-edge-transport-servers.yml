@@ -1,0 +1,31 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.deploy-manage-edge-transport-server.examine-edge-transport-servers
+title: Examine Edge Transport servers
+metadata:
+  title: Examine Edge Transport servers
+  description: "Examine Edge Transport servers"
+  ms.date: 12/15/2021
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+sandbox: false
+labModal: false
+durationInMinutes: 6
+content: |
+  [!include[](includes/2-examine-edge-transport-servers.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "Contoso has implemented an Edge Transport server to provide a secure SMTP gateway for all incoming and outgoing Internet email in the organization. The Edge Transport server will enable Contoso to maintain a secure border between external SMTP mail and its internal Exchange 2019 servers. It will also provide anti-spam protection. Which of the following methods can Contoso use to provide anti-malware protection?"
+    choices:
+    - content: "Through the Edge Transport role in Exchange Server 2019"
+      isCorrect: false
+      explanation: "This answer is incorrect. Exchange Server 2019’s Edge Transport role doesn't include anti-malware agents. Try again,"
+    - content: "Through Azure IoT Edge Transport rules"
+      isCorrect: false
+      explanation: "This answer is incorrect. Edge Transport rules control the flow of messages that are sent to, or received from, the Internet. They don't provide anti-malware protection. Try again."
+    - content: "Through Exchange Online Protection"
+      isCorrect: true
+      explanation: "This answer is correct. Exchange Server 2019’s Edge Transport role doesn't include anti-malware agents. If you don't want to rely upon Exchange 2019 Mailbox servers to provide anti-malware protection, you must use either Microsoft products such as Exchange Online Protection, or third-party software that integrates with Exchange Server 2019 to provide anti-malware protection."

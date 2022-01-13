@@ -2,7 +2,7 @@ In this exercise, you'll learn how to create your first Outlook add-in project a
 
 ## Prerequisites
 
-Developing Office add-ins for Microsoft Outlook requires Outlook 2016 or later. You might need to be an Office Insider to get this version. For more information, see [Be an Office Insider](https://products.office.com/office-insider?tab=tab-1).
+Developing Office add-ins for Microsoft Outlook requires Outlook 2016 or later. You might need to be an Office Insider to get this version. For more information, see [Be an Office Insider](https://insider.office.com/?tab=tab-1).
 
 You'll use Node.js to create the custom Outlook add-in in this module. The exercises in this module assume you have the following tools installed on your developer workstation.
 

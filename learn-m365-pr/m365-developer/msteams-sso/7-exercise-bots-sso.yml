@@ -3,7 +3,7 @@ uid: learn-m365.msteams-sso.7-exercise-bots-sso
 metadata:
   title: Exercise - Single sign-on (SSO) with Microsoft Teams bots
   description: In this exercise, you'll add a custom bot to the existing Microsoft Teams app and use single sign-on (SSO) to obtain an access token to submit requests to Microsoft Graph.
-  ms.date: 09/13/2021
+  ms.date: 12/08/2021
   author: andrewconnell-msft
   ms.author: suzanz
   ms.topic: interactive-tutorial

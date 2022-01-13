@@ -9,7 +9,7 @@ In this module, you'll learn how to create and add bots to custom Microsoft Team
 - Experience using Microsoft Teams at the intermediate level
 - Ability to program with JavaScript, TypeScript, and Node.js
 - Experience using Visual Studio Code at the intermediate level
-- Access to a [Microsoft 365 tenant](https://developer.microsoft.com/office/dev-program?ocid=MSlearn)
+- Access to a [Microsoft 365 tenant](https://developer.microsoft.com/microsoft-365/dev-program?ocid=MSlearn)
 - Access to a [Microsoft Azure subscription](https://azure.microsoft.com/free/)
 
 ## Learning objectives
@@ -20,6 +20,6 @@ In this module, you'll learn how to create and add bots to custom Microsoft Team
 
 ## Additional resources
 
-Refer to the following repository for additional resources associated with this module. This repository includes completed code samples from the exercise units found in this module: [40 Create interactive conversational bots for Microsoft Teams](https://github.com/OfficeDev/TrainingContent/tree/master/Teams/40%20Conversational%20Bots).
+Refer to the following repository for more resources associated with this module. This repository includes completed code samples from the exercise units found in this module: [40 Create interactive conversational bots for Microsoft Teams](https://github.com/OfficeDev/TrainingContent/tree/master/Teams/40%20Conversational%20Bots).
 
 This module is also available as the screencast [Create interactive conversational bots for Microsoft Teams](https://youtube.com/playlist?list=PLWZJrkeLOrbbh9EgDsFylRx4XmXbWaG4B).

@@ -25,11 +25,11 @@ Present day SharePoint exists in one of two versions:
 
 ![Screenshot of the SharePoint Framework extensibility principles](../media/02-extensibility-principles.png)
 
-Over the past several years, with the evolution of Office 365, development of SharePoint solutions has a new set of challenges: while on one hand IT and Tenant administrators require a new set of tools to control how data get accessed and consumed in their tenancies, developers want to programmatically control the whole lifecycle, experience, and data access capabilities of a Site.
+Over the past several years, with the evolution of Microsoft 365, development of SharePoint solutions has a new set of challenges: while on one hand IT and Tenant administrators require a new set of tools to control how data get accessed and consumed in their tenancies, developers want to programmatically control the whole lifecycle, experience, and data access capabilities of a Site.
 
-Unfortunately, developers today find themselves constraint around building app parts because of iFrames, a reduced set of APIs, and no integration with cross Office 365 workloads. This in turn limits their ability to develop powerful portals that extend SharePoint.
+Unfortunately, developers today find themselves constraint around building app parts because of iFrames, a reduced set of APIs, and no integration with cross Microsoft 365 workloads. This in turn limits their ability to develop powerful portals that extend SharePoint.
 
-The client-side development framework will deliver capabilities that will help both first party and third-party developers build powerful, rich applications and provide an enjoyable web experience in Office 365 for end users that are both intuitive and simple to consume.
+The client-side development framework will deliver capabilities that will help both first party and third-party developers build powerful, rich applications and provide an enjoyable web experience in Microsoft 365 for end users that are both intuitive and simple to consume.
 
 ![Screenshot overview of the SharePoint Framework](../media/02-sharepoint-framework.png)
 
@@ -77,10 +77,10 @@ There are a few things you need to take into consideration when setting up a Sha
 
 ### Set up a Microsoft 365 developer tenant
 
-A developer tenant is no different than a normal production tenant. Microsoft provides developers, through the Office Developer Program to get access to a developer tenant. The developer tenant same thing you would normally get when you purchase Office 365 licenses.
+A developer tenant is no different than a normal production tenant. Microsoft provides developers, through the Microsoft 365 Developer Program to get access to a developer tenant. The developer tenant same thing you would normally get when you purchase Microsoft 365 licenses.
 
 > [!TIP]
-> Sign up for the Office Developer Program at [https://aka.ms/offdp](https://aka.ms/offdp).
+> Sign up for the Microsoft 365 Developer Program at [https://aka.ms/offdp](https://aka.ms/offdp).
 
 Once you have a developer tenant, you need to create an App Catalog site. The App Catalog is where you deploy your custom packages that contain your components that you want to test or share with others in your organization. You can think of it like the SharePoint Store in a sense
 

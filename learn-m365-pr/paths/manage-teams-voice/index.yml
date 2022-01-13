@@ -3,7 +3,7 @@ uid: learn.wwl.manage-teams-voice
 metadata:
   title: Manage Teams Phone
   description: Manage Teams Phone
-  ms.date: 10/06/2021
+  ms.date: 12/29/2021
   author: wwlpublish
   ms.author: dahans
   ms.topic: interactive-tutorial
@@ -15,7 +15,7 @@ prerequisites: |
   [Microsoft 365 Certified: Teams Administrator Associate](/learn/certifications/m365-teams-administrator-associate/) or have equivalent experience.
 summary: |
   Discover how to manage Teams Voice after implementation. You’ll learn how to manage Teams Voice Users, Teams Devices, and perform common troubleshooting tasks.
-iconUrl: /learn/achievements/generic-trophy.svg
+iconUrl: /learn/achievements/manage-teams-voice.svg
 levels:
 - advanced
 roles:

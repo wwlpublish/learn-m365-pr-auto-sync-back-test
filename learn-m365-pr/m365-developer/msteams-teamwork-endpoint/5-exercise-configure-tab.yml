@@ -3,7 +3,7 @@ uid: learn-m365.msteams-teamwork-endpoint.5-exercise-configure-tab
 metadata:
   title: Exercise - Configure a built-in tab with Microsoft Graph
   description: In this exercise, you'll add a few built-in tabs to a channel in a Microsoft Teams team. Then, you'll use Microsoft Graph to programmatically configure the settings on these built-in tabs.
-  ms.date: 09/13/2021
+  ms.date: 12/08/2021
   author: andrewconnell-msft
   ms.author: suzanz
   ms.topic: interactive-tutorial
@@ -15,7 +15,7 @@ content: |
 quiz:
   title: Test your knowledge
   questions:
-  - content: "Which of the following options isn't a valid built-in tab users can add to Microsoft Teams channels?"
+  - content: "Which of the following options isn't a valid built-in tab that users can add to Microsoft Teams channels?"
     choices:
     - content: "com.microsoft.teamspace.tab.file.staticviewer.word"
       isCorrect: false
@@ -33,10 +33,10 @@ quiz:
     choices:
     - content: "The Azure AD app's URI"
       isCorrect: false
-      explanation: "In addition to app's URI, it also contains app's ID and the permissions the app requires."
+      explanation: "It also contains app's ID and the permissions the app requires."
     - content: "The Azure AD app registered for the app, and the app's URI."
       isCorrect: false
-      explanation: "In addition to these, it also contains the permissions the app requires."
+      explanation: "It also contains the permissions the app requires."
     - content: "The Azure AD app registered for the app, the permissions the app requires, and the app's URI."
       isCorrect: true
   - content: "The Azure AD application registered for Microsoft Teams apps automatically trust that of the Microsoft Teams clients to call it?"

@@ -3,7 +3,7 @@ uid: learn-m365.sharepoint-spfx-graph-3rd-party-apis.7-exercise-graph-api
 metadata:
   title: Exercise - Call Microsoft Graph from SharePoint Framework components
   description: In this exercise, you'll create a new SharePoint Framework project with a single client-side web part that uses React and Microsoft Graph to display the currently logged in user's personal details in a familiar office Persona card.
-  ms.date: 09/13/2021
+  ms.date: 12/08/2021
   author: andrewconnell-msft
   ms.author: suzanz
   ms.topic: interactive-tutorial
