@@ -9,7 +9,7 @@ In this module, you'll learn how to create both types of tabs for use within Mic
 - Experience using Microsoft Teams at the beginner level
 - Ability to program with JavaScript and Node.js
 - Experience using Visual Studio Code at the beginner level
-- Access to a [Microsoft 365 tenant](https://developer.microsoft.com/office/dev-program?ocid=MSlearn)
+- Access to a [Microsoft 365 tenant](https://developer.microsoft.com/microsoft-365/dev-program?ocid=MSlearn)
 
 ## Learning objectives
 

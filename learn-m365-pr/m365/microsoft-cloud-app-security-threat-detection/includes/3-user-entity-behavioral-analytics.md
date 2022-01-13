@@ -2,11 +2,11 @@
 
 UEBA uses machine learning to look at patterns of human behavior and statistical analysis to identify malicious or risky behavior. This technique can identify the riskiest users in your organization and their potential impact on your organization.
 
-### Microsoft Cloud App Security UEBA functionality
+### Microsoft Defender for Cloud Apps UEBA functionality
 
-Cloud App security reports the results of UEBA with an investigation priority score, which aggregates activity and alerts from Azure Advanced Threat Protection, Microsoft Cloud App Security, and Azure AD Identity Protection over the last seven days.
+Defender for Cloud Apps reports the results of UEBA with an investigation priority score, which aggregates activity and alerts from Azure Advanced Threat Protection, Microsoft Defender for Cloud Apps, and Azure AD Identity Protection over the last seven days.
 
-Cloud App Security uses alert scoring, activity scoring, and user impact to determine the investigation priority score.
+Defender for Cloud Apps uses alert scoring, activity scoring, and user impact to determine the investigation priority score.
 
 - **Alert scoring** increases the priority score if the alert is more severe, is more frequent, or affects more users.
 - **Activity scoring** increases the priority score if a specific user has a high probability of performing the specific action based on behavioral analytics.
@@ -14,11 +14,11 @@ Cloud App Security uses alert scoring, activity scoring, and user impact to dete
 
 By combining these three types of score, the investigation priority score not only looks at the risk of the activity, but how likely it is to happen, and the damage that it can cause.
 
-### Detecting UEBA threats in MCAS
+### Detecting UEBA threats in Defender for Cloud Apps
 
-The Cloud App Security dashboard list the top users to investigate based on their investigation priority score. You can also select **View all users to investigate** to view all users.
+The Defender for Cloud Apps dashboard list the top users to investigate based on their investigation priority score. You can also select **View all users to investigate** to view all users.
 
-![Microsoft Cloud App Security dashboard](../media/3-microsoft-cloud-app-security-dashboard.png)
+![Microsoft Defender for Cloud Apps dashboard](../media/3-microsoft-cloud-app-security-dashboard.png)
 
 If you select a user, you can see the details of their investigation priority score.
 
@@ -30,6 +30,6 @@ The items in the dashboard can be selected to provide further detail. Furthermor
 
 ![User actions](../media/3-user-actions.png)
 
-The following video discusses UEBA and how UEBA is implemented in Microsoft Cloud App Security:
+The following video discusses UEBA and how UEBA is implemented in Microsoft Defender for Cloud Apps:
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4MxJn]

@@ -8,7 +8,7 @@ The Microsoft 365 Defender portal features capabilities for monitoring and manag
 
 Microsoft 365 Defender portal includes the following data protection features.
 
-- Security Center Reports inform you about:
+- Defender for Cloud Reports inform you about:
   - Users with the most shared files
   - Matches from DLP Policies
   - False positives and overrides of the DLP Polices
@@ -32,7 +32,7 @@ Azure Information Protection analytics helps you track adoption of your data cla
 
 ## Microsoft 365 compliance center
 
-Microsoft 365 compliance center allows you to manage your organization's data protection posture. It shows how well your cloud service complies with regulations such as the General Data Protection Regulation (GDPR), Health Insurance Portability and Accountability Act (HIPAA), and the ISO-27001 information security standard. This dashboard links directly to the Cloud App Security Portal, Azure Information Protection (AIP) Analytics, and the Microsoft 365 Defender portal.
+Microsoft 365 compliance center allows you to manage your organization's data protection posture. It shows how well your cloud service complies with regulations such as the General Data Protection Regulation (GDPR), Health Insurance Portability and Accountability Act (HIPAA), and the ISO-27001 information security standard. This dashboard links directly to the Defender for Cloud Apps Portal, Azure Information Protection (AIP) Analytics, and the Microsoft 365 Defender portal.
 
 ![Screenshot of Microsoft 365 compliance center dashboard](../media/compliance-center-dashboard.png)
 

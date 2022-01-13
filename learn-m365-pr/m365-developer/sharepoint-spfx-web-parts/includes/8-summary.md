@@ -1,1 +1,1 @@
-This module introduced you to creating client-side web parts using the SharePoint Framework. You learned how to leverage both the local and hosted SharePoint Workbench and using different parts of the SharePoint Framework API.
+This module introduced you to creating client-side web parts using the SharePoint Framework. You learned how to leverage the SharePoint-hosted Workbench and use different parts of the SharePoint Framework API.

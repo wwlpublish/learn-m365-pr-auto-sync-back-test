@@ -28,7 +28,7 @@ Perform the following steps to add a new custom domain to your tenant:
 
 1. In the next step, you will need to verify the domain. Select **Add a TXT record instead.** 
 
-1. Select **Next **and note the TXT value generated to verify the domain name. 
+1. Select **Next** and note the TXT value generated to verify the domain name. 
 
 1. Provide the details to sip trunk provider and await confirmation the TXT records have been added before continuing. 
 

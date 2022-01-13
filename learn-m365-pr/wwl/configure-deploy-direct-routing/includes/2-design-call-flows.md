@@ -62,7 +62,7 @@ To connect your SBC to Microsoft Phone System, follow these steps:
 
 1. Navigate to the Microsoft Teams admin center at [https://admin.teams.microsoft.com](https://admin.teams.microsoft.com/)
 
-1. In the left navigation pane, select **Voice **and **Direct Routing.**
+1. In the left navigation pane, select **Voice** and **Direct Routing**.
 
 1. Select the **SBCs** tab and select **Add** to create a new entry.
 

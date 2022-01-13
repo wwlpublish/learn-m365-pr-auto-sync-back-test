@@ -1,0 +1,30 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.plan-configure-hybrid-deployment-using-hybrid-configuration-wizard.examine-exchange-modern-hybrid-hybrid-agent
+title: Examine Exchange Modern Hybrid and the Hybrid Agent
+metadata:
+  title: Examine Exchange Modern Hybrid and the Hybrid Agent
+  description: "Examine Exchange Modern Hybrid and the Hybrid Agent"
+  ms.date: 12/14/2021
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 10
+content: |
+  [!include[](includes/4-examine-exchange-modern-hybrid-hybrid-agent.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "Which of the following items describes Hybrid Agent functionality?"
+    choices:
+    - content: "Free busy requests from cloud users to on-premises users traverse the Hybrid Agent"
+      isCorrect: true
+      explanation: "This answer is correct. Two Exchange-related flows traverse the Hybrid Agent - Free busy requests from cloud users to on-premises users, and Mailbox migrations to and from the cloud."
+    - content: "MailTips, Message Tracking, and Multi-mailbox search traverse the Hybrid Agent"
+      isCorrect: false
+      explanation: "This answer is incorrect. MailTips, Message Tracking, and Multi-mailbox search don't traverse the Hybrid Agent. These hybrid features would require the classic connectivity model where Exchange Web Services and Autodiscover are published on premises and externally available to Microsoft 365. Try again."
+    - content: "SMTP email traffic traverses the Hybrid Agent"
+      isCorrect: false
+      explanation: "This answer is incorrect. SMTP email traffic doesn't traverse the Hybrid Agent. It still requires a certificate for encrypted mail flow between Microsoft 365 and on premises. Try again."

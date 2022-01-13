@@ -3,7 +3,7 @@ uid: learn.wwl.explore-transport-services
 metadata:
   title: Explore transport services
   description: "Explore transport services"
-  ms.date: 09/30/2021
+  ms.date: 12/08/2021
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -17,7 +17,7 @@ abstract: |
   - Modify message flow for your organization.
   - Describe which transport agents exist and what they do.
 prerequisites: ""
-iconUrl: /learn/achievements/generic-badge.svg
+iconUrl: /learn/achievements/1-explore-transport-services.svg
 levels:
 - intermediate
 roles:

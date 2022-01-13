@@ -221,7 +221,7 @@ export * from "./learningTeamsBot/learningTeamsBot";
 
 ### Test the bot in Microsoft Teams
 
-Increment the `version` property in the app's **./manifest/manifest.json** file so you can update the previously deployed Teams app.
+Increment the `version` property in the app's **./manifest/manifest.json** file so you can update the previously deployed Teams app. (Alternatively, use the npm program to update the version of the solution: `npm version patch`.)
 
 From the command line, navigate to the root folder for the project and execute the following command:
 
@@ -348,7 +348,7 @@ protected handleTeamsTaskModuleFetch(context: TurnContext, request: TaskModuleRe
 
 ### Test the video player task module
 
-After saving the page, let the project rebuild itself and restart the web server. Once that's happened, select the **Watch `Overview of Microsoft Teams`** button in the Hero card. Notice the task module from the previous exercise is displayed:
+After saving the page, let the project rebuild itself and restart the web server. Once that's happened, select the **Watch 'Task-oriented interactions in Microsoft Teams with messaging extensions'** button in the Hero card. Notice the task module from the previous exercise is displayed:
 
 ![Screenshot of the player task module](../media/07-task-module-02.png)
 

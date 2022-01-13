@@ -3,7 +3,7 @@ uid: learn.wwl.configure-organizational-settings
 metadata:
   title: Configure organizational settings
   description: "Configure organizational settings"
-  ms.date: 11/04/2021
+  ms.date: 12/22/2021
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -16,7 +16,7 @@ abstract: |
   - Configure quota configurations.
   - Deploy Microsoft 365 Integrated apps.
 prerequisites: ""
-iconUrl: /learn/achievements/generic-badge.svg
+iconUrl: /learn/achievements/organization-configure-settings.svg
 levels:
 - intermediate
 roles:

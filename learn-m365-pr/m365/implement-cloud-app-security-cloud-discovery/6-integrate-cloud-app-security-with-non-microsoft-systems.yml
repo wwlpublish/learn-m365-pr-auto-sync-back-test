@@ -1,14 +1,14 @@
 ### YamlMime:ModuleUnit
 uid: learn-m365.implement-mcas-cloud-discovery.6-integrate-cloud-app-security-with-non-microsoft-systems
 metadata:
-  title: Integrate Cloud App Security with non-Microsoft systems
-  description: You must integrate Cloud App Security with third-party proxies and firewalls to help ensure that you can properly implement Cloud Discovery throughout your organization
+  title: Integrate Defender for Cloud Apps with non-Microsoft systems
+  description: You must integrate Defender for Cloud Apps with third-party proxies and firewalls to help ensure that you can properly implement Cloud Discovery throughout your organization
   ms.date: 07/02/2021
   author: beccarobins
   ms.author: beccarobins
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-title: Integrate Cloud App Security with non-Microsoft systems
+title: Integrate Defender for Cloud Apps with non-Microsoft systems
 durationInMinutes: 7
 content: |
   [!include[](includes/6-integrate-cloud-app-security-with-non-microsoft-systems.md)]

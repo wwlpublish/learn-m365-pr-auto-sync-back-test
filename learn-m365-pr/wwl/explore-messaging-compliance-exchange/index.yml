@@ -3,7 +3,7 @@ uid: learn.wwl.explore-messaging-compliance-exchange
 metadata:
   title: Explore messaging compliance in Exchange
   description: "Explore messaging compliance in Exchange"
-  ms.date: 11/02/2021
+  ms.date: 01/12/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -17,7 +17,7 @@ abstract: |
   - Protect your mail flow with data loss prevention policies in Exchange Server.
   - Analyze your Exchange organization's message tracking log.
 prerequisites: ""
-iconUrl: /learn/achievements/generic-badge.svg
+iconUrl: /learn/achievements/exchange-messaging-compliance.svg
 levels:
 - intermediate
 roles:

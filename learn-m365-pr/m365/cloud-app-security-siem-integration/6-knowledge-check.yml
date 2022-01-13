@@ -16,45 +16,45 @@ quiz:
   title: Check your knowledge
   questions:
 
-  - content: "What level of logs and alerts can Microsoft Cloud App Security send to Azure Sentinel?" 
+  - content: "What level of logs and alerts can Microsoft Defender for Cloud Apps send to Microsoft Sentinel?" 
     choices: 
-    - content: "Microsoft Cloud App Security can send all logs and alerts to Azure Sentinel." 
+    - content: "Microsoft Defender for Cloud Apps can send all logs and alerts to Microsoft Sentinel." 
       isCorrect: true 
-      explanation: "That's correct. Microsoft Cloud App Security can send all logs and alerts to Azure Sentinel. " 
+      explanation: "That's correct. Microsoft Defender for Cloud Apps can send all logs and alerts to Microsoft Sentinel. " 
     - content: "Critical logs and alerts." 
       isCorrect: false 
       explanation: "That's incorrect. Logs and alerts can be filtered, but this is optional."
     - content: "No logs or alerts." 
       isCorrect: false 
-      explanation: "That's incorrect. Microsoft Cloud App Security can send logs and alerts to Azure Sentinel."
+      explanation: "That's incorrect. Microsoft Defender for Cloud Apps can send logs and alerts to Microsoft Sentinel."
 
 
-  - content: "How does Azure Sentinel gather additional information about an alert?" 
+  - content: "How does Microsoft Sentinel gather additional information about an alert?" 
     choices: 
-    - content: "Azure Sentinel playbooks can call APIs to gather additional information about an alert."
+    - content: "Microsoft Sentinel playbooks can call APIs to gather additional information about an alert."
       isCorrect: true 
-      explanation: "That's correct. Azure Sentinel playbooks can call APIs to gather additional information about an alert." 
-    - content: "Azure Sentinel Playbooks are automatically fed high priority alert data." 
+      explanation: "That's correct. Microsoft Sentinel playbooks can call APIs to gather additional information about an alert." 
+    - content: "Microsoft Sentinel Playbooks are automatically fed high priority alert data." 
       isCorrect: false 
-      explanation: "That's incorrect. Azure Sentinel Playbooks are not automatically fed high priority alert data. " 
-    - content: "Alerts create log files that Azure Sentinel can read." 
+      explanation: "That's incorrect. Microsoft Sentinel Playbooks are not automatically fed high priority alert data. " 
+    - content: "Alerts create log files that Microsoft Sentinel can read." 
       isCorrect: false 
       explanation: "That's incorrect. Alerts do not typically create log files."
 
-  - content: "How does Azure Sentinel automate the triage of infrequent country requests?" 
+  - content: "How does Microsoft Sentinel automate the triage of infrequent country requests?" 
     choices: 
-    - content: "Azure Active Directory automatically triggers Azure Sentinel when infrequent country requests occur and provides all user information to Azure Sentinel." 
+    - content: "Azure Active Directory automatically triggers Microsoft Sentinel when infrequent country requests occur and provides all user information to Microsoft Sentinel." 
       isCorrect: false 
-      explanation: "That's incorrect. Azure Active Directory does not  automatically trigger Azure Sentinel when infrequent country requests occur."
-    - content: "Azure Sentinel is triggered by Microsoft Cloud App Security and makes API calls to gather additional information." 
+      explanation: "That's incorrect. Azure Active Directory does not  automatically trigger Microsoft Sentinel when infrequent country requests occur."
+    - content: "Microsoft Sentinel is triggered by Microsoft Defender for Cloud Apps and makes API calls to gather additional information." 
       isCorrect: true 
-      explanation: "That's correct. Azure Sentinel is triggered by Microsoft Cloud App Security and makes API calls to gather additional information." 
-    - content: "Microsoft Cloud App Security is triggered by Azure Sentinel and makes API calls to gather additional information." 
+      explanation: "That's correct. Microsoft Sentinel is triggered by Microsoft Defender for Cloud Apps and makes API calls to gather additional information." 
+    - content: "Microsoft Defender for Cloud Apps is triggered by Microsoft Sentinel and makes API calls to gather additional information." 
       isCorrect: false 
-      explanation: "That's incorrect. Microsoft Cloud App Security does not make API calls to gather additional information." 
+      explanation: "That's incorrect. Microsoft Defender for Cloud Apps does not make API calls to gather additional information." 
 
 
-  - content: "What operating system can the syslog server run to connect Microsoft Cloud App Security to a 3rd party SIEM solution?" 
+  - content: "What operating system can the syslog server run to connect Microsoft Defender for Cloud Apps to a 3rd party SIEM solution?" 
     choices: 
     - content: "Windows only." 
       isCorrect: false 

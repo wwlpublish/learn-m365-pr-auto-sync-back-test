@@ -44,7 +44,7 @@ Within this file, locate the `connectors` array. Notice a single Connector is li
 "connectors": [
   {
     "connectorId": "{{CONNECTOR_ID}}",
-    "configurationUrl": "https://{{HOSTNAME}}/myFirstTeamsConnector/config.html",
+    "configurationUrl": "https://{{PUBLIC_HOSTNAME}}/myFirstTeamsConnector/config.html",
     "scopes": [
       "team"
     ]
@@ -196,7 +196,7 @@ Select the **Apps** tab and then the **More apps** button:
 
 ![Screenshot of the Manage team page](../media/07-test-setup-app-02.png)
 
-From the **Browse available apps and services**, select the **Upload a custom app > Upload for my org** at the bottom of the **Apps** panel of categories. Select the Microsoft Teams app package, the **MyFirstTeamsConnector.zip** file in the **./package** folder of your project.
+From the **Browse available apps and services**, select the **Upload a custom app > Upload for me or my teams** at the bottom of the **Apps** panel of categories. Select the Microsoft Teams app package, the **MyFirstTeamsConnector.zip** file in the **./package** folder of your project.
 
 > [!NOTE]
 > If the **./package** folder is not present, this means you are affected by a bug in the yoteams-deploy package. To resolve the issue:
@@ -204,15 +204,9 @@ From the **Browse available apps and services**, select the **Upload a custom ap
 > - Install the preview version of the **yoteams-deploy** package using the command `npm install yoteams-deploy@preview`
 > - Restart the server process: `gulp ngrok-serve`
 
-After uploading the app, Microsoft Teams will display it on the list of apps installed under the **Build for [tenant]** category page:
-
-![Screenshot of the installed app](../media/07-test-setup-app-03.png)
-
-Once installed, you can now add the Connector to a team. You can do this from the app by selecting it, then select the **Add to a team** button and enter the team...
+After uploading the app, select the **Add to a team** button and enter the team...
 
 ![Screenshot of the app details](../media/07-test-setup-app-04.png)
-
-... or you can add it directly to a team. Let's use this first option. Select the **Add to a team** button and select a team to add the Connector to. Then select **Set up a connector**.
 
 ![Screenshot of the Add to a team dialog](../media/07-test-setup-app-05.png)
 
@@ -232,117 +226,7 @@ Using the free tool [Postman](https://www.postman.com/), create a new request to
 
     ![Screenshot of the Headers tab in Postman](../media/07-test-setup-app-09.png)
 
-- add the following JSON to the **Body** tab and select the **raw** option (*make sure to update the URL of the image in the `sections[0].activityTile` property so the image renders when the message is set to Microsoft Teams*):
-
-    ```json
-    {
-      "@type": "MessageCard",
-      "@context": "http://schema.org/extensions",
-      "themeColor": "0076D7",
-      "summary": "Larry Bryant created a new task",
-      "sections": [
-        {
-          "activityTitle": "![TestImage](https://REPLACE.ngrok.io/Content/Images/default.png)Larry Bryant created a new task",
-          "activitySubtitle": "On Project Tango",
-          "activityImage": "https://myfirstteamsconnector.azurewebsites.net/static/img/image5.png",
-          "facts": [
-            {
-              "name": "Assigned to",
-              "value": "Unassigned"
-            },
-            {
-              "name": "Due date",
-              "value": "Mon May 01 2017 17:07:18 GMT-0700 (Pacific Daylight Time)"
-            },
-            {
-              "name": "Status",
-              "value": "Not started"
-            }
-          ],
-          "markdown": true
-        }
-      ],
-      "potentialAction": [
-        {
-          "@type": "ActionCard",
-          "name": "Add a comment",
-          "inputs": [
-            {
-              "@type": "TextInput",
-              "id": "comment",
-              "isMultiline": false,
-              "title": "Add a comment here for this task"
-            }
-          ],
-          "actions": [
-            {
-              "@type": "HttpPOST",
-              "name": "Add comment",
-              "target": "http://..."
-            }
-          ]
-        },
-        {
-          "@type": "ActionCard",
-          "name": "Set due date",
-          "inputs": [
-            {
-              "@type": "DateInput",
-              "id": "dueDate",
-              "title": "Enter a due date for this task"
-            }
-          ],
-          "actions": [
-            {
-              "@type": "HttpPOST",
-              "name": "Save",
-              "target": "http://..."
-            }
-          ]
-        },
-        {
-          "@type": "ActionCard",
-          "name": "Change status",
-          "inputs": [
-            {
-              "@type": "MultichoiceInput",
-              "id": "list",
-              "title": "Select a status",
-              "isMultiSelect": "false",
-              "choices": [
-                {
-                  "display": "In Progress",
-                  "value": "1"
-                },
-                {
-                  "display": "Active",
-                  "value": "2"
-                },
-                {
-                  "display": "Closed",
-                  "value": "3"
-                }
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "@type": "HttpPOST",
-              "name": "Save",
-              "target": "http://..."
-            }
-          ]
-        }
-      ]
-    }
-    ```
-
-    ![Screenshot of the Body tab in Postman](../media/07-test-setup-app-10.png)
-
-    > [!IMPORTANT]
-    > Connectors, like incoming webhooks, only support Office 365 Connector Cards for messages sent to Microsoft Teams. Adaptive cards aren't supported when sending messages with cards when using Connectors or incoming webhooks.
-
-Select the **Send** button in Postman. When you go back to the channel, you'll see the card displayed as a message in the team:
+Select the **Send** button in Postman. When you go back to the channel, you'll see a card displayed as a message in the team:
 
 ![Screenshot of the rendered card in the team](../media/07-test-setup-app-11.png)
 

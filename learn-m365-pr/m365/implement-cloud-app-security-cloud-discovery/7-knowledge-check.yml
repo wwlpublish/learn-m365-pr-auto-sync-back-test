@@ -16,7 +16,7 @@ quiz:
   title: Check your knowledge
   questions:
 
-  - content: "Which of the following Cloud App Security policy types has the category of Cloud Discovery?"
+  - content: "Which of the following Defender for Cloud Apps policy types has the category of Cloud Discovery?"
     choices:
     - content: "Activity policy."
       isCorrect: false
@@ -50,5 +50,4 @@ quiz:
       explanation: " That's incorrect. Corrata is a local Mobile gateway and monitors network traffic from your users’ mobile devices."
     - content: "Defender for Endpoint."
       isCorrect: true
-      explanation: "That's correct. Defender for Endpoint collects data about the cloud apps and services being accessed from your managed Windows 10 devices. Cloud App Security then leverages these data."
-
+      explanation: "That's correct. Defender for Endpoint collects data about the cloud apps and services being accessed from your managed Windows 10 devices. Defender for Cloud Apps then leverages these data."

@@ -1,10 +1,10 @@
-As a security administrator at Contoso, you've been involved with the early stages of planning for the control of critical corporate data during the transition to Microsoft 365. Having completed this module, you can now configure threat detection, UEBA, and OAuth apps in Cloud App Security.
+As a security administrator at Contoso, you've been involved with the early stages of planning for the control of critical corporate data during the transition to Microsoft 365. Having completed this module, you can now configure threat detection, UEBA, and OAuth apps in Defender for Cloud Apps.
 
 Now that you've completed this module, you should be able to:
 
-- Describe Microsoft Cloud App Security threat detection
-- Describe Microsoft Cloud App Security User & Entity Behavioral Analytics
-- Describe Microsoft Cloud App Security OAuth app protection
+- Describe Microsoft Defender for Cloud Apps threat detection
+- Describe Microsoft Defender for Cloud Apps User & Entity Behavioral Analytics
+- Describe Microsoft Defender for Cloud Apps OAuth app protection
 
 ## Learn more
 

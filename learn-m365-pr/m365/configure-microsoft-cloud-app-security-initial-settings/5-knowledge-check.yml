@@ -16,7 +16,7 @@ quiz:
   title: Check your knowledge
   questions:
 
-  - content: "An administrator at Contoso creates a new IP address range in the Cloud App Security portal. The administrator enters a name, the IP address ranges required, chooses a category and then selects Create. The following message displays: A rule with the same IP address range already exists. IP address ranges are normalized to IPv6 and have to be unique. What is the problem?"
+  - content: "An administrator at Contoso creates a new IP address range in the Defender for Cloud Apps portal. The administrator enters a name, the IP address ranges required, chooses a category and then selects Create. The following message displays: A rule with the same IP address range already exists. IP address ranges are normalized to IPv6 and have to be unique. What is the problem?"
     choices:
     - content: "The administrator didn’t enter a tag."
       isCorrect: false
@@ -28,7 +28,7 @@ quiz:
       isCorrect: false
       explanation: "That's incorrect. Selecting the wrong category does not generate this error."
 
-  - content: "A Contoso administrator is working with user groups in the Cloud App Security portal. The administrator notices a group called External users. What type of group is this?"
+  - content: "A Contoso administrator is working with user groups in the Defender for Cloud Apps portal. The administrator notices a group called External users. What type of group is this?"
     choices:
     - content: "The External users group is an automatic group that consolidates all users from all connected apps that are external to your organization."
       isCorrect: true
@@ -40,19 +40,19 @@ quiz:
       isCorrect: false
       explanation: "That's incorrect. The External users group is an automatic group that consolidates all users from all connected apps that are external to your organization."
 
-  - content: "Which of the following built-in Office 365 and Azure AD roles have read-only permissions and can manage alerts within Cloud App Security?"
+  - content: "Which of the following built-in Office 365 and Azure AD roles have read-only permissions and can manage alerts within Defender for Cloud Apps?"
     choices:
     - content: "Global administrator."
       isCorrect: false
-      explanation: "That's incorrect. Members are admins with Full access have full permissions in Cloud App Security."
+      explanation: "That's incorrect. Members are admins with Full access have full permissions in Defender for Cloud Apps."
     - content: "Compliance administrator."
       isCorrect: true
       explanation: "That's correct. Members have read-only permissions and can manage alerts. Also, members cannot access Security recommendations for cloud platforms."
     - content: "Security administrator."
       isCorrect: false
-      explanation: "That's incorrect. Members are admins with Full access have full permissions in Cloud App Security."
+      explanation: "That's incorrect. Members are admins with Full access have full permissions in Defender for Cloud Apps."
 
-  - content: "A Contoso administrator in Cloud App Security wants to add additional admins to Contoso’s Cloud App Security. The user is external to the Contoso organization. In the Cloud App Security portal, where does the administrator perform this task, and what information does the administrator require to complete the task?"
+  - content: "A Contoso administrator in Defender for Cloud Apps wants to add additional admins to Contoso’s Defender for Cloud Apps. The user is external to the Contoso organization. In the Defender for Cloud Apps portal, where does the administrator perform this task, and what information does the administrator require to complete the task?"
     choices:
     - content: "The administrator must navigate to the Manage admin access page and add the new admin. The administrator requires either the new admin’s email address or their distinguished name to complete the task."
       isCorrect: false
@@ -63,5 +63,3 @@ quiz:
     - content: "The administrator must navigate to the User groups page and add the new admin. The administrator requires either the new admin’s email address or their UPN to complete the task."
       isCorrect: false
       explanation: "That's incorrect. You cannot add a new admin from the User groups page."
-
-

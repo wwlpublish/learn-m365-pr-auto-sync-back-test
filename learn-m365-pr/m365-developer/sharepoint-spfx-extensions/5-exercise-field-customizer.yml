@@ -3,7 +3,7 @@ uid: learn-m365.sharepoint-spfx-extensions.5-exercise-field-customizer
 metadata:
   title: Exercise - Create a field customizer extension
   description: In this exercise, you'll create a SharePoint Framework (SPFx) field customizer extension that will display a colored bar in a column with a percentage of the bar filled depending on the value in the field.
-  ms.date: 09/13/2021
+  ms.date: 12/08/2021
   author: andrewconnell-msft
   ms.author: suzanz
   ms.topic: interactive-tutorial

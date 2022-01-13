@@ -3,7 +3,7 @@ uid: learn-m365.m365-messaging-manage-org-settings
 metadata:
   title: Plan and manage organizational settings with Exchange Online
   description: Plan and manage organizational settings such as global address lists, offline address books, address policies, organizational sharing, and add-ins in Exchange Online. 
-  ms.date: 11/08/2021
+  ms.date: 11/12/2021
   author: temanteleary
   ms.author: teleary
   ms.topic: interactive-tutorial
@@ -15,7 +15,6 @@ abstract: |
   - Manage global address lists. 
   - Manage the offline address book. 
   - Manage address book policies. 
-  - Manage email address policies. 
   - Configure organizational sharing. 
   - Manage add-ins. 
 prerequisites: |
@@ -34,7 +33,6 @@ units:
 - learn-m365.m365-messaging-manage-org-settings.manage-global-address-list
 - learn-m365.m365-messaging-manage-org-settings.manage-offline-address-book
 - learn-m365.m365-messaging-manage-org-settings.manage-address-policies
-- learn-m365.m365-messaging-manage-org-settings.manage-email-policies
 - learn-m365.m365-messaging-manage-org-settings.configure-org-sharing
 - learn-m365.m365-messaging-manage-org-settings.manage-add-ins
 - learn-m365.m365-messaging-manage-org-settings.summary-knowledge-check
