@@ -3,7 +3,7 @@ uid: learn.wwl.plan-configure-teams-voice
 metadata:
   title: Plan and configure Teams Phone
   description: Plan and configure Teams Phone
-  ms.date: 10/08/2021
+  ms.date: 12/29/2021
   author: wwlpublish
   ms.author: dahans
   ms.topic: interactive-tutorial
@@ -15,7 +15,7 @@ prerequisites: |
   [Microsoft 365 Certified: Teams Administrator Associate](/learn/certifications/m365-teams-administrator-associate/) or have equivalent experience.
 summary: |
   You will learn how to plan for and configure Teams Phone, including Calling Plans, Direct Routing, Auto Attendants, Call Queues, Operator Connect, and how to extend Teams Phone with additional services.
-iconUrl: /learn/achievements/generic-trophy.svg
+iconUrl: /learn/achievements/plan-and-configure-teams-voice.svg
 levels:
 - advanced
 roles:

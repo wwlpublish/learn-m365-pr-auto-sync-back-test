@@ -1,0 +1,43 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.sharepoint-spfx-spcontent.7-exercise-upload-file
+metadata:
+  title: Exercise - Upload files to document libraries
+  description: |
+    In this exercise, you'll create a new web part that someone can use to select a file to upload to the current site's Documents library.
+  ms.date: 12/10/2021
+  author: andrewconnell-msft
+  ms.author: suzanz
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Exercise - Upload files to document libraries
+durationInMinutes: 10
+content: |
+  [!include[](includes/7-exercise-upload-file.md)]
+quiz:
+  title: Test your knowledge
+  questions:
+  - content: "What options do developers have to upload files to SharePoint libraries using the SharePoint Framework?"
+    choices:
+    - content: "Use the SharePoint Framework API support for the SharePoint REST API."
+      isCorrect: false
+      explanation: "While true, developers can also use Microsoft Graph."
+    - content: "Use the SharePoint Framework API support for Microsoft Graph."
+      isCorrect: false
+      explanation: "While true, developers can also use the SharePoint REST API."
+    - content: "Both the SharePoint REST API and the Microsoft Graph API"
+      isCorrect: true
+      explanation: "Correct!"
+  - content: "Which of the following statements are true when uploading a file to a SharePoint document library using the REST API?"
+    choices:
+    - content: "You must include the contents of the file as a buffer in the body of the request."
+      isCorrect: false
+      explanation: "While true, all the answer options true for this question."
+    - content: "You must include the length of the body in the `content-length` header of the request."
+      isCorrect: false
+      explanation: "While true, all the answer options true for this question."
+    - content: "You must specify the SharePoint site, document library, the folder, and the name of the file in the endpoint of the request."
+      isCorrect: false
+      explanation: "While true, all the answer options true for this question."
+    - content: "All of these statements are true"
+      isCorrect: true
+      explanation: "Correct!"

@@ -1,9 +1,9 @@
 ### YamlMime:ModuleUnit
 uid: learn-m365.sci-asc.integrate-sentinel
-title: Integrate Azure Security Center with Azure Sentinel
+title: Integrate Microsoft Defender for Cloud with Microsoft Sentinel
 metadata:
-  title: Integrate Azure Security Center with Azure Sentinel
-  description: Learn how to connect Azure Sentinel with Azure Security Center.
+  title: Integrate Microsoft Defender for Cloud with Microsoft Sentinel
+  description: Learn how to connect Microsoft Sentinel with Microsoft Defender for Cloud.
   ms.date: 07/15/2021
   ms.author: beccarobins
   author: beccarobins

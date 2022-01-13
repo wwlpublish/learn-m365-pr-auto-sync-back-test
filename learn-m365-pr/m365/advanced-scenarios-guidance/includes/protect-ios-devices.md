@@ -8,7 +8,7 @@ Here, you'll learn about Microsoft Defender for Endpoint for iOS and how to depl
 
 Microsoft Defender for Endpoint is an app that you can install on many different types of devices that protects that device against common threats such as viruses and insecure websites. Defender for Endpoint for iOS is the version of that product for Apple iPhones and iPads.
 
-By deploying Defender for Endpoint to all your iOS devices, you ensure that users of those devices can't circumvent the protection you've configured for mobile devices in Microsoft Cloud App Security. For example, if an iOS user downloads a file that matches one of your indicators of compromise, it will generate an alert and can delete or quarantine the file, just as it would on a Windows computer.
+By deploying Defender for Endpoint to all your iOS devices, you ensure that users of those devices can't circumvent the protection you've configured for mobile devices in Microsoft Defender for Cloud Apps. For example, if an iOS user downloads a file that matches one of your indicators of compromise, it will generate an alert and can delete or quarantine the file, just as it would on a Windows computer.
 
 > [!NOTE]
 > Microsoft Defender for Endpoint for iOS is also known as Microsoft Defender ATP for iOS
@@ -17,7 +17,7 @@ By deploying Defender for Endpoint to all your iOS devices, you ensure that user
 
 Defender for Endpoint for iOS supports iOS devices that run iOS 11.0 and higher.
 
-Any iOS user can install the Defender for Endpoint for iOS on their device from the App Store. Search in the App Store for Microsoft Defender.
+Any iOS user can install the Defender for Endpoint for iOS on their device from the App Store. Search in the App Store for Microsoft Defender for Cloud.
 
 If you have Microsoft Intune in your organization, and the iOS devices are enrolled in Intune, administrators can use it to deploy Defender for Endpoint to all iOS devices automatically. Follow these steps:
 

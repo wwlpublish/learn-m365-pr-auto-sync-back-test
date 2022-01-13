@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.sharepoint-spfx-spcontent.6-upload-file
+metadata:
+  title: Upload files to document libraries
+  description: |
+    In this lesson, you'll learn about another common scenario: how to use the SharePoint Framework API to add files to SharePoint document libraries.
+  ms.date: 12/10/2021
+  author: andrewconnell-msft
+  ms.author: suzanz
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Upload files to document libraries
+durationInMinutes: 6
+content: |
+  [!include[](includes/6-upload-file.md)]

@@ -1,8 +1,8 @@
-Microsoft Cloud App Security can protect your organization, but it important to follow the best practices listed in this unit.
+Microsoft Defender for Cloud Apps can protect your organization, but it important to follow the best practices listed in this unit.
 
 ## Discover and assess cloud apps
 
-You can integrate Microsoft Cloud App Security with Microsoft Defender to be able to use Cloud Discovery outside of your corporate network. This approach will enable you to identify risky users and devices and track their actions.
+You can integrate Microsoft Defender for Cloud Apps with Microsoft Defender for Cloud to be able to use Cloud Discovery outside of your corporate network. This approach will enable you to identify risky users and devices and track their actions.
 
 Consider enabling App Discovery to identify risky apps.
 
@@ -16,9 +16,9 @@ Sanctioned apps are apps that are approved for use. Unsanctioned apps are not ap
 
 ## Limit exposure of shared data and enforce collaboration policies
 
-Connect Office 365 to Microsoft Cloud App Security to give visibility to users' actions in Office 365, SharePoint, OneDrive, Teams, Power BI, Exchange, and Dynamics.
+Connect Office 365 to Microsoft Defender for Cloud Apps to give visibility to users' actions in Office 365, SharePoint, OneDrive, Teams, Power BI, Exchange, and Dynamics.
 
-Connect third-party apps to Microsoft Cloud App Security to improve insights into users' activities in third-party apps,
+Connect third-party apps to Microsoft Defender for Cloud Apps to improve insights into users' activities in third-party apps,
 
 View file exposure reports to understand how users are sharing files with cloud apps.
 
@@ -26,11 +26,11 @@ Create policies to prevent users from sharing files with their personal accounts
 
 ## Discover, classify, label, and protect regulated and sensitive data stored in the cloud
 
-Connect Azure Information Protection to Microsoft Cloud App Security to automatically apply classification labels to files and apply encryption, where necessary.
+Connect Azure Information Protection to Microsoft Defender for Cloud Apps to automatically apply classification labels to files and apply encryption, where necessary.
 
 Create file policies to detect confidential data or unauthorized sharing.
 
-Connect Software as a Service (SaaS) apps to Microsoft Cloud App Security to be able to investigate the data stored by these apps.
+Connect Software as a Service (SaaS) apps to Microsoft Defender for Cloud Apps to be able to investigate the data stored by these apps.
 
 ## Enforce DLP and compliance policies for data stored in the cloud
 
@@ -58,8 +58,8 @@ Investigate alerts and view the audit trail of the alert to view activities from
 
 ## Secure IaaS services and custom apps
 
-Connect Microsoft Azure, Amazon Web Services (AWS), and Google Cloud Platform (GCP) to Microsoft Cloud App Security to monitor administrative or sign in activities for these services.
+Connect Microsoft Azure, Amazon Web Services (AWS), and Google Cloud Platform (GCP) to Microsoft Defender for Cloud Apps to monitor administrative or sign in activities for these services.
 
 Use the security configuration recommendations of Azure, AWS, and GCP to ensure that you meet the best practices of those services.
 
-Onboard custom apps to Microsoft Cloud App Security to gain extra insights into actions performed with or by these apps.
+Onboard custom apps to Microsoft Defender for Cloud Apps to gain extra insights into actions performed with or by these apps.

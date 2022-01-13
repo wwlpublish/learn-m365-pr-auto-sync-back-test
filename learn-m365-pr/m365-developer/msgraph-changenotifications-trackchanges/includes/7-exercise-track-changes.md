@@ -15,9 +15,8 @@ Add the following code to the existing `NotificationsController` class.
 This code includes a new method, `CheckForUpdates()`, that will call the Microsoft Graph using the delta url and then pages through the results until it finds a new `deltalink` on the final page of results. It stores the url in memory until the code is notified again when another notification is triggered.
 
 ```csharp
-private static object DeltaLink = null;
-
-private static IUserDeltaCollectionPage lastPage = null;
+private static object? DeltaLink = null;
+private static IUserDeltaCollectionPage? lastPage = null;
 
 private async Task CheckForUpdates()
 {
@@ -35,7 +34,7 @@ private async Task CheckForUpdates()
     OutputUsers(users);
   }
 
-  object deltaLink;
+  object? deltaLink;
 
   if (users.AdditionalData.TryGetValue("@odata.deltaLink", out deltaLink))
   {
@@ -45,24 +44,24 @@ private async Task CheckForUpdates()
 
 private void OutputUsers(IUserDeltaCollectionPage users)
 {
-  foreach(var user in users)
+  foreach (var user in users)
   {
     var message = $"User: {user.Id}, {user.GivenName} {user.Surname}";
     Console.WriteLine(message);
   }
 }
 
-private async Task<IUserDeltaCollectionPage> GetUsers(GraphServiceClient graphClient, object deltaLink)
+private async Task<IUserDeltaCollectionPage> GetUsers(GraphServiceClient graphClient, object? deltaLink)
 {
   IUserDeltaCollectionPage page;
 
-  if (lastPage == null)
+  if (lastPage == null || deltaLink == null)
   {
     page = await graphClient.Users
                             .Delta()
                             .Request()
                             .GetAsync();
-      }
+  }
   else
   {
     lastPage.InitializeNextPageRequest(graphClient, deltaLink.ToString());
@@ -77,7 +76,7 @@ private async Task<IUserDeltaCollectionPage> GetUsers(GraphServiceClient graphCl
 Locate the existing `Post()` method and replace it with the following code:
 
 ```csharp
-public async Task<ActionResult<string>> Post([FromQuery]string validationToken = null)
+public async Task<ActionResult<string>> Post([FromQuery] string? validationToken = null)
 {
   // handle validation
   if (!string.IsNullOrEmpty(validationToken))
@@ -93,11 +92,14 @@ public async Task<ActionResult<string>> Post([FromQuery]string validationToken =
 
     Console.WriteLine(content);
 
-    var notifications = JsonSerializer.Deserialize<Notifications>(content);
+    var notifications = JsonSerializer.Deserialize<ChangeNotificationCollection>(content);
 
-    foreach (var notification in notifications.Items)
+    if (notifications != null)
     {
-      Console.WriteLine($"Received notification: '{notification.Resource}', {notification.ResourceData?.Id}");
+      foreach (var notification in notifications.Value)
+      {
+        Console.WriteLine($"Received notification: '{notification.Resource}', {notification.ResourceData.AdditionalData["id"]}");
+      }
     }
   }
 

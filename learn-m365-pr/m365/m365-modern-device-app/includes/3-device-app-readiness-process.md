@@ -24,12 +24,10 @@ With inventory taken, you can prioritize the most common apps and hardware used 
 
 You'll find that most of the applications, drivers, and add-ins inventoried will work as-is. Both Upgrade Readiness and the Readiness Toolkit help assess items in your org that might have compatibility issues. They also provide you with known information about compatibility, including where to find version updates to resolve them. You'll want to test these updates before you roll them out.
 
-As a supplement to the upgrade readiness tools, you can download information about supporting apps in Windows and optimized strategies for testing your apps in the [Windows 10 Compatibility Cookbook](https://download.microsoft.com/download/3/D/3/3D36E358-A7E4-4DA3-9FC4-6E85C850A6C6/Windows%2010%20Compatibility%20Cookbook.docx).
+As a supplement to the upgrade readiness tools, you can get information about supporting apps in Windows and optimized strategies for testing your apps in the [Windows  Compatibility Cookbook](/windows/compatibility/).
 
 In some instances, particularly non-critical, sparsely deployed applications and older devices, you might consider retiring or replacing apps and devices, rather than devoting time and resources to solving their complex issues.
 
 ## 4. Remediate issues
 
-The final phase of device and app readiness is to *remediate*. Here you'll want to collect the required software or driver packages and use them to supersede or update older versions as part of the deployment process. As you work through the list remediating issues, you'll see that more and more PCs become *Ready for Deployment.*  This means that both the drivers and apps on the PCs are noted as compatible with the version of Windows 10 you are targeting.
-
-
+The final phase of device and app readiness is to *remediate*. Here you'll want to collect the required software or driver packages and use them to supersede or update older versions as part of the deployment process. As you work through the list remediating issues, you'll see that more and more PCs become *Ready for Deployment.*  This means that both the drivers and apps on the PCs are noted as compatible with the version of Windows you are targeting.

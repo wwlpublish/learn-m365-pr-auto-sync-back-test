@@ -10,5 +10,5 @@ After completing this module, you can:
 ## Learn more
 
 - [Sensitive Data Essentials – The Lifecycle Of A Sensitive File](https://www.microsoft.com/microsoft-365/business-insights-ideas/resources/life-cycle-of-a-sensitive-file)
-- [Microsoft Cloud App Security overview](/cloud-app-security/what-is-cloud-app-security)
+- [Microsoft Defender for Cloud Apps overview](/cloud-app-security/what-is-cloud-app-security)
 - [Learn about data loss prevention](/microsoft-365/compliance/dlp-learn-about-dlp)

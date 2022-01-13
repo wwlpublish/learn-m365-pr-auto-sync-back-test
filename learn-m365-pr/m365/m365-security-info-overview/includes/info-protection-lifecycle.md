@@ -32,4 +32,4 @@ Now, let's examine these lifecycle stages in more detail.
 
 1. **User uploads the file to another cloud service such as Dropbox**
 
-    If a user uploads the data to other clouds for external sharing, services such as Microsoft Cloud App Security can apply policies based on the data's labels.
+    If a user uploads the data to other clouds for external sharing, services such as Microsoft Defender for Cloud Apps can apply policies based on the data's labels.

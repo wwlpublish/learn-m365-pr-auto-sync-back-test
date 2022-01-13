@@ -5,7 +5,7 @@ This module will introduce you to leveraging the property pane for client-side w
 - Experience using SharePoint Online at the intermediate level
 - Ability to program with JavaScript, TypeScript, and Node.js
 - Experience using Visual Studio Code at the intermediate level
-- Access to a [Microsoft 365 tenant](https://developer.microsoft.com/office/dev-program?ocid=MSlearn)
+- Access to a [Microsoft 365 tenant](https://developer.microsoft.com/microsoft-365/dev-program?ocid=MSlearn)
 
 ## Learning objectives
 

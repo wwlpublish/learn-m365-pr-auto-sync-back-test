@@ -17,27 +17,27 @@ quiz:
     questions:
     - content: "Which statement best describes the relationship between cyber threats and vulnerabilities?"
       choices:
-      - content: "A threat is a possible action that exploits a system vulnerability."
+      - content: "A threat is a possible action that exploits an existing system vulnerability to cause harm."
         isCorrect: true
         explanation: "Correct! Threats are potential actions by attackers that exploit system vulnerabilities."
-      - content: "A vulnerability is a potential weakness that attackers can use to infiltrate your organization."
+      - content: "A vulnerability is a security incident in your systems that attackers can use as a threat."
         isCorrect: false
-        explanation: "Incorrect. A vulnerability is a weak point in system security that an attacker can exploit."
+        explanation: "Incorrect. A vulnerability isn't a security incident attackers can use as a threat."
       - content: "Threats and vulnerabilities are both tools used by attackers to gain access to systems."
         isCorrect: false
         explanation: "Incorrect. Neither threats nor vulnerabilities are tools used by attackers."
      
     - content: "Which of the following choices describe the benefits of Microsoft 365 Defender?"
       choices:
-      - content: "Coordinate defenses to stop attacks from spreading and autoheal impacted assets."
+      - content: "Coordinate defenses to stop attacks from spreading and autoheal affected assets."
         isCorrect: true
-        explanation: "Correct! Microsoft 365 Defender provides the built-in intelligence, automation, and integration to coordinate protection, detection, response, and prevention by combining and orchestrating into a single solution the capabilities of Microsoft Defender for Endpoints, Microsoft Defender for Office 365, Microsoft Defender for Identity, and Microsoft Cloud App Security (apps)."
+        explanation: "Correct! Microsoft 365 Defender provides the built-in intelligence, automation, and integration to coordinate protection, detection, response, and prevention by combining and orchestrating into a single solution the capabilities of Microsoft Defender for Endpoint, Microsoft Defender for Office 365, Microsoft Defender for Identity, and Microsoft Defender for Cloud Apps (apps)."
       - content: "Control and help secure email, documents, and sensitive data inside and outside your company walls."
         isCorrect: false
-        explanation: "Incorrect. This is an explanation of Azure Information Protection. Microsoft 365 Defender coordinates defenses to stop attacks from spreading and autoheals impacted assets."
+        explanation: "Incorrect. This is an explanation of Azure Information Protection. Microsoft 365 Defender coordinates defenses to stop attacks from spreading and autoheals affected assets."
       - content: "Safeguard access to data and applications by requiring a second form of authentication and deliver strong authentication via a range of easy-to-use authentication methods."
         isCorrect: false
-        explanation: "Incorrect. This is an explanation of multifactor authentication. Microsoft 365 Defender coordinates defenses to stop attacks from spreading and autoheals impacted assets."      
+        explanation: "Incorrect. This is an explanation of multifactor authentication. Microsoft 365 Defender coordinates defenses to stop attacks from spreading and autoheals affected assets."      
   
     - content: "Which of the following is not part of the typical attack timeline?"
       choices:
@@ -46,8 +46,7 @@ quiz:
         explanation: "Incorrect. Using social media, open-source intelligence sources, and data from previous attacks, are all part of the typical attack timeline."
       - content: "Data exfiltration"
         isCorrect: false
-        explanation: "Incorrect. Attackers typically exfiltrate data for illicit purposes and go undetected for 200+ days."
+        explanation: "Incorrect. Attackers typically exfiltrate data for illicit purposes and go undetected for more than 200 days."
       - content: "Attack discovered before 24 hours"
         isCorrect: true
-        explanation: "Correct! Attackers commonly go undetected for 200+ days."
-      
+        explanation: "Correct! Attackers commonly go undetected for more than 200 days."

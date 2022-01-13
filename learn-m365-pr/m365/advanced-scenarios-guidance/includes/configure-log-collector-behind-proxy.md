@@ -1,14 +1,14 @@
-Log collectors are an important component of Microsoft Cloud App Security. They collect communications logs from firewalls and proxy servers and send them to Cloud App Security for analysis. Some proxy servers can prevent them from sending their collected logs smoothly.
+Log collectors are an important component of Microsoft Defender for Cloud Apps. They collect communications logs from firewalls and proxy servers and send them to Defender for Cloud Apps for analysis. Some proxy servers can prevent them from sending their collected logs smoothly.
 
-In Contoso, your roll out of Microsoft Cloud App Security is complete but you have noticed a gap in log collection from three offices. Looking into the problem in more depth, you notice that all these offices are protected by proxy servers from the same manufacturer. You want to diagnose and fix the problem.
+In Contoso, your roll out of Microsoft Defender for Cloud Apps is complete but you have noticed a gap in log collection from three offices. Looking into the problem in more depth, you notice that all these offices are protected by proxy servers from the same manufacturer. You want to diagnose and fix the problem.
 
 Here, you'll learn about a common problem caused by misconfigured certificates that may affect your log collectors.
 
 ## Proxy server challenges
 
-In Microsoft Cloud App Security, log collectors run on-premises to gather information about the Shadow IT websites and apps that are in use. The collectors obtain web logs from firewalls and proxy servers by using either File Transfer Protocol (FTP) or the Syslog protocol. They transfer these logs to the Cloud App Security portal, where they can be analyzed and the results can be displayed to administrators. This system is an important component in Cloud Discovery.
+In Microsoft Defender for Cloud Apps, log collectors run on-premises to gather information about the Shadow IT websites and apps that are in use. The collectors obtain web logs from firewalls and proxy servers by using either File Transfer Protocol (FTP) or the Syslog protocol. They transfer these logs to the Defender for Cloud Apps portal, where they can be analyzed and the results can be displayed to administrators. This system is an important component in Cloud Discovery.
 
-Log collectors can usually upload their logs to the portal without problems, even when they have to do so through a proxy server. However, a common problem can arise when the log collector doesn't trust the proxy server's root Certificate Authority (CA). If this trust problem exists, the log collector can't obtain its correct configuration from Microsoft Cloud App Security or upload its collected logs.
+Log collectors can usually upload their logs to the portal without problems, even when they have to do so through a proxy server. However, a common problem can arise when the log collector doesn't trust the proxy server's root Certificate Authority (CA). If this trust problem exists, the log collector can't obtain its correct configuration from Microsoft Defender for Cloud Apps or upload its collected logs.
 
 The solution is to install the proxy server's root CA certificate on the log collector. Because the log collector is a Docker container, you can complete this task by using Docker's `exec` command to run some Bash commands on the collector.
 
@@ -17,7 +17,7 @@ The solution is to install the proxy server's root CA certificate on the log col
 To ensure that the log connector trusts the CA certificate, follow these procedures.
 
 > [!NOTE]
-> These steps assume that you have already set up Docker and started the log collector image. To complete these steps, you'll need the API token that was created when you configured the log collector in the Microsoft Cloud App Security portal.
+> These steps assume that you have already set up Docker and started the log collector image. To complete these steps, you'll need the API token that was created when you configured the log collector in the Microsoft Defender for Cloud Apps portal.
 
 ### Copy the CA certificate to the container
 
@@ -86,6 +86,6 @@ Before the new certificate can be used, you must update the log collector's conf
 
     :::image type="content" source="../media/05-reconfigure-collector.png" alt-text="A screenshot of the output from the collector_config command." lightbox="../media/05-reconfigure-collector.png":::
 
-1. In the Cloud App Security portal, the log collector's status should change from **Healthy** to **Connected**.
+1. In the Defender for Cloud Apps portal, the log collector's status should change from **Healthy** to **Connected**.
 
-    :::image type="content" source="../media/05-log-collector-healthy.png" alt-text="A screenshot of the log collectors display in the Cloud App Security portal, showing that the log collector is connected." lightbox="../media/05-log-collector-healthy.png":::
+    :::image type="content" source="../media/05-log-collector-healthy.png" alt-text="A screenshot of the log collectors display in the Defender for Cloud Apps portal, showing that the log collector is connected." lightbox="../media/05-log-collector-healthy.png":::
