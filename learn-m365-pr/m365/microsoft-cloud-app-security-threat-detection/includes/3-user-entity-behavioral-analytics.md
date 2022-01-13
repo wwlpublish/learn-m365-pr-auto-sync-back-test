@@ -18,17 +18,17 @@ By combining these three types of score, the investigation priority score not on
 
 The Defender for Cloud Apps dashboard list the top users to investigate based on their investigation priority score. You can also select **View all users to investigate** to view all users.
 
-![Microsoft Defender for Cloud Apps dashboard](../media/3-microsoft-cloud-app-security-dashboard.png)
+:::image type="content" source="../media/3-microsoft-cloud-app-security-dashboard.png" alt-text="Microsoft Defender for Cloud Apps dashboard" lightbox="../media/3-microsoft-cloud-app-security-dashboard.png":::
 
 If you select a user, you can see the details of their investigation priority score.
 
-![Investigation priority score](../media/3-user-risk.png)
+:::image type="content" source="../media/3-user-risk.png" alt-text="Investigation priority score" lightbox="../media/3-user-risk.png":::
 
 In this example, we can see that the user is an accountant, has 41 devices, and has activities including logons from risky IP addresses and suspicious inbox forwarding. The high level of access, high exposure, and number of suspicious activities are the reason for this user's high investigation priority score.
 
 The items in the dashboard can be selected to provide further detail. Furthermore, if you select **User actions** from the dashboard, you can perform actions to attempt to resolve the threat including requiring the user to sign in again, revoking admin privileges, or suspending the user.
 
-![User actions](../media/3-user-actions.png)
+:::image type="content" source="../media/3-user-actions.png" alt-text="User actions" lightbox="../media/3-user-actions.png":::
 
 The following video discusses UEBA and how UEBA is implemented in Microsoft Defender for Cloud Apps:
 

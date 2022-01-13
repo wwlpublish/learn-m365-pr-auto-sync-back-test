@@ -12,11 +12,11 @@ Microsoft Defender for Cloud Apps includes threat detection capabilities across 
 
 In the Defender for Cloud Apps Portal, if you select **Control** and then **Policies**, you can see a list of policies.
 
-![Defender for Cloud Apps policies](../media/2-microsoft-cloud-app-security-policies.png)
+:::image type="content" source="../media/2-microsoft-cloud-app-security-policies.png" alt-text="Microsoft Defender for Cloud Apps Policies" lightbox="../media/2-microsoft-cloud-app-security-policies.png":::
 
 If you select **Type**, you can see the threat detection policies grouped by type. Furthermore, you can create policies from the **Policies** page.
 
-![Defender for Cloud Apps policy types](../media/2-microsoft-cloud-app-security-policy-types.png)
+:::image type="content" source="../media/2-microsoft-cloud-app-security-policy-types.png" alt-text="Microsoft Defender for Cloud Apps policy types drop-down list" lightbox="../media/2-microsoft-cloud-app-security-policy-types.png":::
 
 Here is a list of policy types:
 
@@ -68,23 +68,23 @@ You can create a policy from the **Policies** page, but it is normally more stra
 
 To Create a policy based on a template, from the **Defender for Cloud Apps** portal, select **Control**, and select **Templates**.
 
-![Templates](../media/2-template.png)
+:::image type="content" source="../media/2-template.png" alt-text="Templates" lightbox="../media/2-template.png":::
 
 You can then select the appropriate template and select **Create policy**.
 
-![Policy templates](../media/2-policy-templates.png)
+:::image type="content" source="../media/2-policy-templates.png" alt-text="Policy templates" lightbox="../media/2-policy-templates.png":::
 
 You can now set a policy severity and create filters for the policy. Single activities could be filtered out, by only acting on repeated activity that happens a given number of times in a timeframe.
 
-![Create activity policy](../media/2-create-activity-policy.png)
+:::image type="content" source="../media/2-create-activity-policy.png" alt-text="Create activity policy" lightbox="../media/2-create-activity-policy.png":::
 
 To create a policy based on a search, from the Defender for Cloud Apps portal, select **Investigate** and then choose the search type, for example, **Activity Log.**
 
-![Policy based on search](../media/2-investigate.png)
+:::image type="content" source="../media/2-investigate.png" alt-text="Policy based on a search" lightbox="../media/2-investigate.png":::
 
 You can now specify the criteria for the search and select **New policy from search**.
 
-![Activity log](../media/2-activity-log.png)
+:::image type="content" source="../media/2-activity-log.png" alt-text="Activity log" lightbox="../media/2-activity-log.png":::
 
 You can finalize the policy with the same **Create activity policy** page as a template policy.
 
