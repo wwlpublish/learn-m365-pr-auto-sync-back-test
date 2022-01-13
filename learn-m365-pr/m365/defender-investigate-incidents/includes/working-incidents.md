@@ -12,7 +12,7 @@ Grouping related alerts and threat data into an incident helps you see:
 
 ## Example cyber attack
 
-:::image type="content" source="../media/2-attack-chain-overpass-the-hash-spear-phishing-lateral-movement.png" alt-text="Diagram showing the initial access through spear-phishing and lateral movement through overpass-the-hash attack":::
+:::image type="content" source="../media/2-attack-chain-overpass-the-hash-spear-phishing-lateral-movement.png" alt-text="Diagram showing the initial access through spear-phishing and lateral movement through overpass-the-hash attack" lightbox="../media/2-attack-chain-overpass-the-hash-spear-phishing-lateral-movement.png":::
 
 In this example, an attacker starts with a spear-phishing email targeting a specific user. The email contains a malicious link to download a file that contains the Meterpreter payload. With the malicious code running on the target device, an attacker performs reconnaissance to understand which users have signed into the device and which other devices these users have access to.
 
@@ -112,7 +112,7 @@ You can add multiple comments to an incident with the Comment field. Each commen
 
 Here's an example workflow for responding to incidents with the Microsoft 365 Defender portal.
 
-:::image type="content" source="../media/2-incidents-example-workflow.png" alt-text="Diagram showing the incident response workflow":::
+:::image type="content" source="../media/2-incidents-example-workflow.png" alt-text="Diagram showing the incident response workflow" lightbox="../media/2-incidents-example-workflow.png":::
 
 On an ongoing basis, identify the highest priority incidents for analysis and resolution in the incident queue and get them ready for response. This is a combination of:
 
