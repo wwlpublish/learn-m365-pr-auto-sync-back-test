@@ -1,3 +1,3 @@
 The **Solutions** page helps you understand how each Microsoft solution contributes to your compliance score. It shows the share of earned and potential points organized by solution. The same filters available on the **Overview page** are also available here. The links in the **Remaining actions** column open the **Improvement actions** page filtered for the actions yet to be completed for the solution you select. The links under the **Open solution** column lead to the administrator page for the solution listed in the **Solutions** column for the link you select. The view you will see is dependent on the rights you have been previously granted for that solution.
 
- [ ![Compliance Manager--Solutions view](../media/solutions.png)](../media/solutions.png#lightbox)
+ [ :::image type="content" source="../media/solutions.png" alt-text="Compliance Manager--Solutions view":::](../media/solutions.png#lightbox)
