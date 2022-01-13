@@ -1,6 +1,6 @@
 Malicious inbox forwarding rules can be used to automatically forward confidential information. For example, an inbox rule could have been created to forward any emails containing the string "purchase order". The attacker could then approach prospective clients with slightly cheaper bids in the knowledge that they are undercutting your prices every time.
 
-Microsoft Cloud App Security includes a policy that triggers an alert when suspicious inbox forwarding rules are set on a user's inbox, such as the following rule:
+Microsoft Defender for Cloud Apps includes a policy that triggers an alert when suspicious inbox forwarding rules are set on a user's inbox, such as the following rule:
 
 :::image type="content" source="../media/5-inbox-rule.png" alt-text="Inbox forwarding rule.":::
 
@@ -16,23 +16,23 @@ To remove a malicious inbox forwarding rule using Power Automate, perform the fo
 
 2. There are several key components for this flow:
 
-    a. The flow is triggered by an alert from Microsoft Cloud App Security.
+    a. The flow is triggered by an alert from Microsoft Defender for Cloud Apps.
 
-    b. Two variables store the Microsoft Cloud App Security tenant url and the API token value generated from the portal.
+    b. Two variables store the Microsoft Defender for Cloud Apps tenant url and the API token value generated from the portal.
 
     c. User details are gathered from the alert.
 
     d. User manager is gathered from Office 365.
 
-    e. Call the Microsoft Cloud App Security API to gather more information.
+    e. Call the Microsoft Defender for Cloud Apps API to gather more information.
 
-    :::image type="content" source="../media/5-get-microsoft-cloud-app-security-alert.png" alt-text="Get MCAS Alert.":::
+    :::image type="content" source="../media/5-get-microsoft-cloud-app-security-alert.png" alt-text="Get Defender for Cloud Apps Alert.":::
 
     f. Parse the alert JSON.
 
     g. Filter the array to only have entities of type **ruleName**.
 
-    h. Call Microsoft Graph to search in the user mailbox for inbox rules with a name that matches the name retrieved from the Microsoft Cloud App Security API.
+    h. Call Microsoft Graph to search in the user mailbox for inbox rules with a name that matches the name retrieved from the Microsoft Defender for Cloud Apps API.
 
     :::image type="content" source="../media/5-inbox-rule-id.png" alt-text="Get inbox rule ID.":::
 
@@ -42,9 +42,9 @@ To remove a malicious inbox forwarding rule using Power Automate, perform the fo
 
     :::image type="content" source="../media/5-switch.png" alt-text="Set isEnabled to False.":::
 
-    k. Finally resolve the Microsoft Cloud App Security alert and send an email to the user and their manager.
+    k. Finally resolve the Microsoft Defender for Cloud Apps alert and send an email to the user and their manager.
 
-3. Enable the Microsoft Cloud App Security policy **Suspicious inbox forwarding**.
+3. Enable the Microsoft Defender for Cloud Apps policy **Suspicious inbox forwarding**.
 4. Edit the **Suspicious inbox forwarding** policy, select **Send alerts to Power Automate**, and select the Power Automate flow that you created to handle these alerts.
 
 The following video gives you an overview of removing a malicious inbox forwarding rule using Power Automate:

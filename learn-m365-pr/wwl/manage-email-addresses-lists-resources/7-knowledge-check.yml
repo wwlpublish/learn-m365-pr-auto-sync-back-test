@@ -4,7 +4,7 @@ title: Knowledge check
 metadata:
   title: Knowledge check
   description: "Knowledge check"
-  ms.date: 11/19/2021
+  ms.date: 11/26/2021
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -21,32 +21,32 @@ quiz:
     choices:
     - content: "Hierarchical address lists"
       isCorrect: true
-      explanation: "That's correct. Subcategories of address lists are known as hierarchical address lists."
+      explanation: "This answer is correct. Subcategories of address lists are known as hierarchical address lists."
     - content: "Nested address lists"
       isCorrect: false
-      explanation: "That's incorrect. Subcategories of address lists aren't known as nested address lists. Try again."
+      explanation: "This answer is incorrect. Subcategories of address lists aren't known as nested address lists. Try again."
     - content: "Segmented address lists"
       isCorrect: false
-      explanation: "That's incorrect. Subcategories of address lists aren't known as segmented address lists. Try again."
+      explanation: "This answer is incorrect. Subcategories of address lists aren't known as segmented address lists. Try again."
   - content: "There are two requirements for an Outlook client to use an offline address book. One of the requirements is that the client can't be connected to Exchange. What's the second requirement?"
     choices:
     - content: "The client must be assigned an address book policy"
       isCorrect: false
-      explanation: "That's incorrect. This action isn't the second requirement for an Outlook client to use an offline address book. Try again."
+      explanation: "This answer is incorrect. This action isn't the second requirement for an Outlook client to use an offline address book. Try again."
     - content: "The client must be configured in cached mode"
       isCorrect: true
-      explanation: "That's correct. Offline address books (OABs) are downloadable copies of the address lists that are used by Outlook clients. To use an OAB, a client must be configured in cached mode, and it can't be connected to Exchange."
+      explanation: "This answer is correct. Offline address books (OABs) are downloadable copies of the address lists that are used by Outlook clients. To use an OAB, a client must be configured in cached mode, and it can't be connected to Exchange."
     - content: "The organization must turn on ABP routing in PowerShell"
       isCorrect: false
-      explanation: "That's incorrect. This action isn't the second requirement for an Outlook client to use an offline address book. Try again."
+      explanation: "This answer is incorrect. This action isn't the second requirement for an Outlook client to use an offline address book. Try again."
   - content: "What happens when you hide a user mailbox from address lists?"
     choices:
     - content: "The recipient is prevented from receiving email messages"
       isCorrect: false
-      explanation: "That's incorrect. This action isn't what happens when you hide a user mailbox from address lists. Try again."
+      explanation: "This answer is incorrect. This action isn't what happens when you hide a user mailbox from address lists. Try again."
     - content: "The recipient is hidden from all address lists but not the GAL"
       isCorrect: false
-      explanation: "That's incorrect. This action isn't what happens when you hide a user mailbox from address lists. Try again."
+      explanation: "This answer is incorrect. This action isn't what happens when you hide a user mailbox from address lists. Try again."
     - content: "The recipient is hidden from all address lists and the GAL"
       isCorrect: true
-      explanation: "That's correct. Hiding the recipient from an address list doesn’t prevent the recipient from receiving email messages. Doing so only hides the recipient from all address lists and the GAL."
+      explanation: "This answer is correct. Hiding the recipient from an address list doesn’t prevent the recipient from receiving email messages. Doing so only hides the recipient from all address lists and the GAL."

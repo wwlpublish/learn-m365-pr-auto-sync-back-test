@@ -1,19 +1,19 @@
 ### YamlMime:LearningPath
 uid: learn-m365.m365-cloud-app-security-advanced
 metadata:
-  title: Configure Microsoft Cloud App Security for advanced scenarios
-  description: This learning path investigates Microsoft Cloud App Security integration and advanced scenarios and guidance at an advanced level.  
+  title: Configure Microsoft Defender for Cloud Apps for advanced scenarios
+  description: This learning path investigates Microsoft Defender for Cloud Apps integration and advanced scenarios and guidance at an advanced level.  
   ms.date: 02/12/2021
   author: lizap
   ms.author: beccarobins
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-title: Configure Microsoft Cloud App Security for advanced scenarios
-summary: This learning path investigates Microsoft Cloud App Security integration and advanced scenarios and guidance at an advanced level. 
+title: Configure Microsoft Defender for Cloud Apps for advanced scenarios
+summary: This learning path investigates Microsoft Defender for Cloud Apps integration and advanced scenarios and guidance at an advanced level. 
 prerequisites: | 
   - Experience working with Microsoft 365 services
   - Experience working with Microsoft Azure 
-  - Intermediate knowledge of Microsoft Cloud App Security  
+  - Intermediate knowledge of Microsoft Defender for Cloud Apps  
 iconUrl: /learn/achievements/configure-microsoft-cloud-app-security-for-advanced-scenarios.svg
 levels: 
 - advanced

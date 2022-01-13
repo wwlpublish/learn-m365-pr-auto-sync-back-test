@@ -50,13 +50,13 @@ You can use an existing role group as the starting point for a new role group, a
 ### Copy a role group by using the Exchange admin center
 
 1. Sign into the Exchange admin center (EAC) with your credentials.
-1. Navigate to **Permissions**, and select **Admin Roles**.
-1. Select the role group you want to copy, and then select **Copy**.
-1. Enter a name for the new role group.
-1. Review the roles that have been copied to the new role group. Add or remove roles as necessary.
-1. Review the write scope, and change it as necessary.
-1. Review the members that have been copied to the new role group. Add or remove members as necessary.
-1. Select **Save** to create the role group.
+2. Navigate to **Permissions**, and select **Admin Roles**.
+3. Select the role group you want to copy, and then select **Copy**.
+4. Enter a name for the new role group.
+5. Review the roles that have been copied to the new role group. Add or remove roles as necessary.
+6. Review the write scope, and change it as necessary.
+7. Review the members that have been copied to the new role group. Add or remove members as necessary.
+8. Select **Save** to create the role group.
 
 ### Copy existing role groups using PowerShell
 
@@ -66,7 +66,7 @@ You can use an existing role group as the starting point for a new role group, a
     $RoleGroup = Get-RoleGroup "<Existing Role Group Name>"
     ```
 
-1. Create a new role group using the following syntax:
+2. Create a new role group using the following syntax:
 
     ```powershell
     New-RoleGroup -Name "<Unique Name>" -Roles $RoleGroup.Roles [-Members <Members>] [-ManagedBy <Managers>] [-CustomRecipientWriteScope "<Existing Custom Recipient Write Scope Name>"]
@@ -90,7 +90,7 @@ You can view a list of role groups or detailed information about a specific role
 ### View a role group in the Exchange admin center
 
 1. In the Exchange admin center, go to **Permissions > Admin Roles**. All of the role groups in your organization are listed here.
-1. Select a role group to view the members, assigned roles, and scope for that role group.
+2. Select a role group to view the members, assigned roles, and scope for that role group.
 
 ### View a role group by using PowerShell
 

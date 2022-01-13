@@ -1,6 +1,6 @@
-An Azure Information Protection classification label is metadata that is stored in a file. This information can be used by a data loss prevention (DLP) solution, such as Microsoft Cloud App Security, to limit access to, and actions that can be performed on, this file. The classification labels are retained if the file is exported.
+An Azure Information Protection classification label is metadata that is stored in a file. This information can be used by a data loss prevention (DLP) solution, such as Microsoft Defender for Cloud Apps, to limit access to, and actions that can be performed on, this file. The classification labels are retained if the file is exported.
 
-With Cloud App Security, you can automatically apply labels using a file policy that could then be used to protect the file, for example, by applying encryption to the file.
+With Defender for Cloud Apps, you can automatically apply labels using a file policy that could then be used to protect the file, for example, by applying encryption to the file.
 
 ## Create a policy to set up data protection
 

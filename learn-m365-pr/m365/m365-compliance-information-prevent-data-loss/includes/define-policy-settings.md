@@ -45,7 +45,7 @@ Now, let's look at the specific settings for the policy template we're using.
 The image below shows the conditions set in the **High volume of content detected U.K. Financial** rule. Each condition is currently using the default settings from the policy template:
 
 - The *Content contains* condition is relevant to all locations. By default, it looks for any of the three sensitive info types listed that exceed an instance count of 10. You can add extra sensitive info types and modify the lower and upper threshold for the instance count.
-- The *Content is shared from Microsoft 365* condition only applies to content shared from Exchange, SharePoint, OneDrive, and Microsoft Teams. It doesn't apply to the Windows 10 devices or Cloud App Security locations. We'll add the Windows 10 devices in the next step.
+- The *Content is shared from Microsoft 365* condition only applies to content shared from Exchange, SharePoint, OneDrive, and Microsoft Teams. It doesn't apply to the Windows 10 devices or Defender for Cloud Apps locations. We'll add the Windows 10 devices in the next step.
 
 :::image type="content" source="../media/uk-policy-conditions.png" alt-text="Screenshot shows the Conditions section of the DLP solution, showing the default conditions for the UK Financial Data policy template." lightbox="../media/uk-policy-conditions.png":::
 
@@ -53,14 +53,14 @@ The image below shows the conditions set in the **High volume of content detecte
 
 The image below shows the actions in the **High volume of content detected U.K. Financial** rule. By default, users are blocked from sending outside the organization any email or Teams chats and channel messages that contain the type of content you're protecting.
 
-- The *Restrict access or encrypt the content in Microsoft 365 locations* action (enabled by default in this rule) adds files stored in SharePoint, OneDrive, and Teams to the locations where sharing is blocked. 
+- The *Restrict access or encrypt the content in Microsoft 365 locations* action (enabled by default in this rule) adds files stored in SharePoint, OneDrive, and Teams to the locations where sharing is blocked.
 - The *Audit or restrict activities on Windows devices* action isn't included by default. Select it to restrict activities on Windows devices. When the activities listed are detected on Windows devices for supported files containing sensitive info that matches this policy's conditions, you can choose to do any of the following:
 
   - Audit the activity only
   - Block the activity entirely
   - Block the activity but allow users to override the restriction
 
-   The ability to audit or restrict activities on Windows devices is part of the functionality referred to as "endpoint data loss prevention." In our example, we'll choose to block each type of endpoint activity, like printing and copying sensitive data to the clipboard, but allow users to override it.
+The ability to audit or restrict activities on Windows devices is part of the functionality referred to as "endpoint data loss prevention." In our example, we'll choose to block each type of endpoint activity, like printing and copying sensitive data to the clipboard, but allow users to override it.
 
 ### User notifications and overrides
 

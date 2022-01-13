@@ -3,7 +3,7 @@ uid: learn.wwl.manage-admin-roles
 metadata:
   title: Manage administrator roles
   description: "Manage administrator roles"
-  ms.date: 11/22/2021
+  ms.date: 12/15/2021
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -18,7 +18,7 @@ abstract: |
   - Create custom management roles and assign them through role assignment policies to users.
   - Troubleshoot RBAC management roles.
 prerequisites: ""
-iconUrl: /learn/achievements/generic-badge.svg
+iconUrl: /learn/achievements/admin-roles-manage.svg
 levels:
 - intermediate
 roles:

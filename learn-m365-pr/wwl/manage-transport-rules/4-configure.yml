@@ -4,12 +4,13 @@ title: Configure transport rules
 metadata:
   title: Configure transport rules
   description: "Configure transport rules"
-  ms.date: 09/30/2021
+  ms.date: 12/08/2021
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
+sandbox: false
 labModal: false
 durationInMinutes: 3
 content: |

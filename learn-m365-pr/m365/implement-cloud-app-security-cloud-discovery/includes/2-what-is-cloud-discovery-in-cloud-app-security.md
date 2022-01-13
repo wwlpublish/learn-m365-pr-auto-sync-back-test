@@ -1,6 +1,6 @@
 During an assessment of cloud apps currently in use within Contoso, you begin to learn that there are many apps that business groups are using. These apps have been deployed without the knowledge of IT. This presents a security concern.
 
-However, you learn that you can use Cloud Discovery in Microsoft Cloud App Security to learn about the apps being used in your organization. You can also use Cloud Discovery to help you determine whether discovered apps pose a risk.
+However, you learn that you can use Cloud Discovery in Microsoft Defender for Cloud Apps to learn about the apps being used in your organization. You can also use Cloud Discovery to help you determine whether discovered apps pose a risk.
 
 ## Overview of Cloud Discovery
 
@@ -21,10 +21,10 @@ The following table describes these three key phases, which represent a continua
 
 These three phases represent a continuous process within your organization. In addition to these three continual phases, you must also consider two additional phases. These are:
 
-- Reporting. Use Cloud App Security options to get insights into your organization's app usage.
+- Reporting. Use Defender for Cloud Apps options to get insights into your organization's app usage.
 
    > [!TIP]
-   > You can integrate Cloud Discovery logs into Azure Sentinel for further investigation and analysis.
+   > You can integrate Cloud Discovery logs into Microsoft Sentinel for further investigation and analysis.
 
 - Controlling. Use app control via APIs or by using Conditional Access App Control.
 
@@ -36,7 +36,7 @@ In the following screenshot of the Cloud Discovery Dashboard, you can review the
 - Top app users
 - App Headquarter location map
 
-:::image type="content" source="../media/dashboard.png" alt-text="A screenshot of the Cloud Discovery Dashboard page of the Cloud App Security portal.":::
+:::image type="content" source="../media/dashboard.png" alt-text="A screenshot of the Cloud Discovery Dashboard page of the Defender for Cloud Apps portal.":::
 
 Use this at-a-glance overview to review the overall cloud app usage in your organization. You can then:
 
@@ -55,7 +55,7 @@ You can use the Cloud App Catalog to help you understand how risky your organiza
 > [!NOTE]
 > The Cloud App Catalog is the list of all the apps Microsoft has evaluated.
 
-:::image type="content" source="../media/cloud-app-catalog.png" alt-text="A screenshot of the Cloud App Catalog page of the Cloud App Security portal. The administrator has selected the Microsoft 365 admin center.":::
+:::image type="content" source="../media/cloud-app-catalog.png" alt-text="A screenshot of the Cloud App Catalog page of the Defender for Cloud Apps portal. The administrator has selected the Microsoft 365 admin center.":::
 
 The Cloud app catalog uses the following factors to rate risk for your cloud apps:
 
@@ -67,17 +67,17 @@ You can adjust the Cloud Discovery Score metrics if you want. These metrics enab
 
 To change these values, from the **Cloud Discovery dashboard** page, select **Settings** and then select the **Score metrics** tab. Use the Importance slider to adjust the metrics.
 
-:::image type="content" source="../media/score-metric.png" alt-text="A screenshot of the Settings page in Cloud App Security. The Administrator has selected the Score metrics tab.":::
+:::image type="content" source="../media/score-metric.png" alt-text="A screenshot of the Settings page in Defender for Cloud Apps. The Administrator has selected the Score metrics tab.":::
 
 ## Work with discovered apps
 
-You can use the Cloud Discovery dashboard page in the Cloud App Security portal to work with discovered apps in your organization. You can then use filters to locate apps based on specific criteria. You can also discover resources and custom apps being used within your organization.
+You can use the Cloud Discovery dashboard page in the Defender for Cloud Apps portal to work with discovered apps in your organization. You can then use filters to locate apps based on specific criteria. You can also discover resources and custom apps being used within your organization.
 
 ### Filter discovered apps
 
 The dashboard lists discovered apps in the Discovered apps section, as displayed in the following screenshot.
 
-:::image type="content" source="../media/dashboard.png" alt-text="A screenshot of the Cloud Discovery Dashboard page of the Cloud App Security portal.":::
+:::image type="content" source="../media/dashboard.png" alt-text="A screenshot of the Cloud Discovery Dashboard page of the Defender for Cloud Apps portal.":::
 
 But the dashboard displays only an at-a-glance summary of your discovered apps. If you want to find out more about your organization's app usage, you can filter the discovered apps. These filters enable you to determine which apps pose a risk, and which are widely used, among other factors.
 

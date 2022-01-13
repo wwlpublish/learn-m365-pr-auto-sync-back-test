@@ -33,4 +33,3 @@ After completing this module, you'll be able to:
  -  Describe the protection provided by Safe Attachment and Safe Links policies.
  -  Understand the spoof intelligence features provided by Exchange Online Protection.
  -  Describe how Microsoft Defender anti-phishing policies work.
-

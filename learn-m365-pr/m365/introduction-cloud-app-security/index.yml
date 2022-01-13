@@ -1,20 +1,20 @@
 ### YamlMime:Module
 uid: learn-m365.introduction-to-microsoft-cloud-app-security
 metadata:
-  title: Introduction to Microsoft Cloud App Security
-  description: Introduction to Microsoft Cloud App Security
+  title: Introduction to Microsoft Defender for Cloud Apps
+  description: Introduction to Microsoft Defender for Cloud Apps
   ms.date: 11/10/2021
   author: beccarobins
   ms.author: beccarobins
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-title: Introduction to Microsoft Cloud App Security
-summary: Learn how Microsoft Cloud App Security can help secure your organization’s data. Select an appropriate Cloud App Security licensing option, and access the Cloud App Security tech community.
+title: Introduction to Microsoft Defender for Cloud Apps
+summary: Learn how Microsoft Defender for Cloud Apps can help secure your organization’s data. Select an appropriate Defender for Cloud Apps licensing option, and access the Defender for Cloud Apps tech community.
 abstract: | 
   In this module, you will:
-  - Describe Cloud App Security 
+  - Describe Defender for Cloud Apps 
   - Select an appropriate licensing option
-  - Access the Cloud App Security tech community 
+  - Access the Defender for Cloud Apps tech community 
 prerequisites: | 
   - Knowledge of security fundamentals
   - Knowledge of Microsoft Azure and Microsoft 365 fundamentals

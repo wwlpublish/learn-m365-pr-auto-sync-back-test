@@ -4,7 +4,7 @@ title: Explore address lists
 metadata:
   title: Explore address lists
   description: "Explore address lists"
-  ms.date: 11/19/2021
+  ms.date: 11/26/2021
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -21,10 +21,10 @@ quiz:
     choices:
     - content: "Hierarchical address list filters"
       isCorrect: false
-      explanation: "That's incorrect. A hierarchical address list isn't a type of recipient filter. Rather, it's a subcategory of address lists. Try again."
+      explanation: "This answer is incorrect. A hierarchical address list isn't a type of recipient filter. Rather, it's a subcategory of address lists. Try again."
     - content: "Custom filters"
       isCorrect: false
-      explanation: "That's incorrect. This item isn't the type of recipient filter that Holly should use. Try again."
+      explanation: "This answer is incorrect. This item isn't the type of recipient filter that Holly should use. Try again."
     - content: "Pre-canned filters"
       isCorrect: true
-      explanation: "That's correct. A pre-canned filter is a commonly used Exchange filter that you can use to meet various recipient-filtering criteria for creating address lists. For example, using pre-canned filters, you can determine the scope of recipients and add conditional filtering based on properties such as company, department, and state or region."
+      explanation: "This answer is correct. A pre-canned filter is a commonly used Exchange filter that you can use to meet various recipient-filtering criteria for creating address lists. For example, using pre-canned filters, you can determine the scope of recipients and add conditional filtering based on properties such as company, department, and state or region."

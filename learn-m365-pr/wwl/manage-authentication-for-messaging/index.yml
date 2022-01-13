@@ -3,7 +3,7 @@ uid: learn.wwl.manage-authentication-for-messaging
 metadata:
   title: Manage authentication for messaging
   description: "Manage authentication for messaging"
-  ms.date: 11/23/2021
+  ms.date: 01/13/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -17,7 +17,7 @@ abstract: |
   - Implement multifactor authentication.
   - Plan password policies.
 prerequisites: ""
-iconUrl: /learn/achievements/generic-badge.svg
+iconUrl: /learn/achievements/messaging-manage-authentication.svg
 levels:
 - intermediate
 roles:

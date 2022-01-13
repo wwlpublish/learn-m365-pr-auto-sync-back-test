@@ -65,7 +65,7 @@ To install the PowerShell module, use the following procedure:
      Install-Module MicrosoftTeams
      ```
 
-3.  When prompted, enter **Y**. 
+3.  There will be multiple prompts to acknowledge.  Enter **Y** for both. 
 
  
 
@@ -92,10 +92,10 @@ The following sections describe a few of the more common tasks you might underta
 PowerShell provides several cmdlets you can use to manage teams: 
 
 ```PowerShell
-new-team
-get-team
-set-team
-remove-team
+New-Team
+Get-Team
+Set-Team
+Remove-Team
 ```
 
 ### Manage Teams users
@@ -103,8 +103,8 @@ remove-team
 To manage teams users, you can use: 
 
 ```PowerShell
-add-teamuser
-remove-teamuser
+Add-TeamUser
+Remove-TeamUser
 ```
 
 ### Manage Teams channels
@@ -112,8 +112,8 @@ remove-teamuser
 To manage channels, use: 
 
 ```PowerShell
-new-teamchannel
-remove-teamchannel
+New-TeamChannel
+Remove-TeamChannel
 ```
 
 > [!NOTE]

@@ -3,7 +3,7 @@ uid: learn-m365.msgraph-access-group-data.7-exercise-group-lifecycle
 metadata:
   title: Exercise - Manage group lifecycle
   description: In this exercise, you'll modify the existing Azure AD application registration using the Azure Active Directory admin center, a .NET Core console application, and use Microsoft Graph to manage the lifecycle of Office 365 groups. You'll also learn how to provision a Microsoft Teams team from an existing Office 365 group.
-  ms.date: 09/13/2021
+  ms.date: 12/08/2021
   author: andrewconnell-msft
   ms.author: suzanz
   ms.topic: interactive-tutorial

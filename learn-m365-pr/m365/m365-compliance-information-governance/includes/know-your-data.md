@@ -89,13 +89,13 @@ Azure Information Protection scanner helps discover, classify, label, and protec
 
 ## Discover and classify cloud services and SaaS apps
 
-Most organizations store some of their sensitive data outside the Microsoft ecosystem. Microsoft Cloud App Security extends protection to third-party clouds and SaaS applications.  This solution includes the following capabilities:
+Most organizations store some of their sensitive data outside the Microsoft ecosystem. Microsoft Defender for Cloud Apps extends protection to third-party clouds and SaaS applications.  This solution includes the following capabilities:
 
 - Inspect files for sensitive information
 - Automatically apply labels to sensitive files identified in cloud apps
 - Use sensitivity labels to apply policy, such as restricting access to sensitive information, blocking uploads, and blocking downloads
 
- ![Discover and classify cloud services using Microsoft Cloud App Security](../media/discover-classify-cloud-services.png)
+ ![Discover and classify cloud services using Microsoft Defender for Cloud Apps](../media/discover-classify-cloud-services.png)
 
 ## Learn more
 
