@@ -24,7 +24,7 @@ If you have Microsoft Intune in your organization, and the iOS devices are enrol
 1. In the Microsoft Endpoint manager admin center, navigate to **Apps > iOS/iPadOS > Add**.
 1. Select **iOS store** app.
 
-    ![A screenshot of the Microsoft Endpoint manager admin center showing how to push an iOS app to iOS devices.](../media/04-install-ios-app.png)
+    :::image type="content" source="../media/04-install-ios-app.png" alt-text="A screenshot of the Microsoft Endpoint manager admin center showing how to push an iOS app to iOS devices." lightbox="../media/04-install-ios-app.png":::
 
 1. In the **Add app** page, search for **Microsoft Defender ATP**, and then in the results select **Microsoft Defender ATP**.
 1. In the **Minimum operating system** list, select **iOS 11.0**, and then select **Next**.
@@ -41,12 +41,12 @@ To deny access to jailbroken iPhones and iPads, follow these steps:
 1. In Microsoft Endpoint Manager admin center, navigate to **Devices > Compliance policies**, and then select **Create Policy**.
 1. Select **iOS/iPadOS** and then select **Create**.
 
-    ![A screenshot of the Microsoft Endpoint manager admin center showing how to create a new policy for iOS devices.](../media/04-create-policy-ios.png)
+    :::image type="content" source="../media/04-create-policy-ios.png" alt-text="A screenshot of the Microsoft Endpoint manager admin center showing how to create a new policy for iOS devices." lightbox="../media/04-create-policy-ios.png":::
 
 1. Enter a name for the new policy and then select **Compliance settings**.
 1. In the **Device Health** section, next to **Jailbroken devices**, select **Block**, and then select **Next**.
 
-    ![A screenshot of the Microsoft Endpoint manager policy editor showing how to block jailbroken iOS devices.](../media/04-block-jailbroken-ios-devices.png)
+    :::image type="content" source="../media/04-block-jailbroken-ios-devices.png" alt-text="A screenshot of the Microsoft Endpoint manager policy editor showing how to block jailbroken iOS devices." lightbox="../media/04-block-jailbroken-ios-devices.png":::
 
 1. In the **Actions for noncompliance** page, select the actions you want to take when the system detects a jailbroken device and then select **Next**.
 1. In the **Assignments** page, select the user groups that you want the policy to apply to and then select **Next**.

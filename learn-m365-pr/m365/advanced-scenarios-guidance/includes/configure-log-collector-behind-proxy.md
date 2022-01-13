@@ -31,7 +31,7 @@ The first stage is to import the proxy server's root CA certificate into the log
 
     In the results, look for a container based on the image **mcr.microosft.com/mcas/logcollector**.
 
-    ![A screenshot of the output from the docker ps command, showing the log collector.](../media/05-list-containers.png)
+    :::image type="content" source="../media/05-list-containers.png" alt-text="A screenshot of the output from the docker ps command, showing the log collector." lightbox="../media/05-list-containers.png":::
 
 1. To copy the CA certificate to the container, run this command. Replace `Ubuntu-LogCollector` with the name of your container:
 
@@ -84,8 +84,8 @@ Before the new certificate can be used, you must update the log collector's conf
     collector_config <apiToken> ${CONSOLE} ${COLLECTOR}
     ```
 
-    ![A screenshot of the output from the collector_config command.](../media/05-reconfigure-collector.png)
+    :::image type="content" source="../media/05-reconfigure-collector.png" alt-text="A screenshot of the output from the collector_config command." lightbox="../media/05-reconfigure-collector.png":::
 
 1. In the Defender for Cloud Apps portal, the log collector's status should change from **Healthy** to **Connected**.
 
-    ![A screenshot of the log collectors display in the Defender for Cloud Apps portal, showing that the log collector is connected.](../media/05-log-collector-healthy.png)
+    :::image type="content" source="../media/05-log-collector-healthy.png" alt-text="A screenshot of the log collectors display in the Defender for Cloud Apps portal, showing that the log collector is connected." lightbox="../media/05-log-collector-healthy.png":::

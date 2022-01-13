@@ -62,7 +62,7 @@ The cards you can use fall into four categories:
 
 You can customize the cards that the home page displays. You can use cards to build a dashboard of information that's targeted precisely to your role and helps you to focus on the most relevant events.
 
-![A screenshot of the Microsoft 365 Defender portal homepage, showing the cards-based interface.](../media/03-security-center-homepage.png)
+:::image type="content" source="../media/03-security-center-homepage.png" alt-text="A screenshot of the Defender for Cloud Apps portal, showing the cards-based interface." lightbox="../media/03-security-center-homepage.png":::
 
 Other pages in the Microsoft 365 Defender portal include:
 

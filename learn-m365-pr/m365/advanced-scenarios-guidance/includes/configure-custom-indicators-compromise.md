@@ -23,14 +23,14 @@ You can create a custom indicator of compromise in Microsoft Defender for Cloud 
 
 1. Select **Create policy** and then select **File policy**.
 
-    ![A screenshot of the Microsoft Defender for Cloud Apps portal showing how to create a file policy.](../media/02-create-file-policy.png)
+    :::image type="content" source="../media/02-create-file-policy.png" alt-text="A screenshot of the Microsoft Defender for Cloud Apps portal showing how to create a file policy." lightbox="../media/02-create-file-policy.png":::
 
 1. In the **Edit file policy** page, in the **Policy name** and **Description** textboxes, enter information to describe this policy to other administrators.
 1. In the **Policy severity** drop-down list, select a severity. This setting is used to determine whether the policy will send a notification when a matching file is detected.
 1. In the **Category** drop-down list, select the most appropriate risk type. This setting associates this policy and its alerts with that risk type, which helps you to search for them later.
 1. In the **Create a filter for the files this policy will act on** box, select **File ID**, and then select **is** in the drop-down lists. Then enter the file hash in the third box.
 
-    ![A screenshot of the Microsoft Defender for Cloud Apps portal showing how to add a file filter to a policy.](../media/02-add-file-filter.png)
+    :::image type="content" source="../media/02-add-file-filter.png" alt-text="A screenshot of the Microsoft Defender for Cloud Apps portal showing how to add a file filter to a policy." lightbox="../media/02-add-file-filter.png":::
 
     You can add multiple file hashes with **OR** conditions to intercept several different files.
 
@@ -38,7 +38,7 @@ You can create a custom indicator of compromise in Microsoft Defender for Cloud 
 1. To filter the policy to apply to specific file owners, user the second **Apply to** drop-down list. If you want the policy to work for all files regardless of their owner, select **all file owners**.
 1. Use the **Alerts** section to govern how Defender for Cloud Apps uses alerts when a file matches this policy. For example, you can specify a daily alert limit to avoid flooding mailboxes and choose emails, test messages, or Power Automate as delivery methods.
 
-    ![A screenshot of the Microsoft Defender for Cloud Apps portal showing how to configure alerts for a policy.](../media/02-configure-policy-alerts.png)
+    :::image type="content" source="../media/02-configure-policy-alerts.png" alt-text="A screenshot of the Microsoft Defender for Cloud Apps portal showing how to configure alerts for a policy.":::
 
 1. Use the **Governance actions** section to remove the file from circulation. The actions you can take depend on the system where the file is stored. For example, if the file is found in Microsoft SharePoint Online, you can move the file to the recycle bin, or place it into quarantine.
 1. To complete the policy, select **Update**.
