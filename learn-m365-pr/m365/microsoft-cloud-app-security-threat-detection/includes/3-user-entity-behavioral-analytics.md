@@ -18,7 +18,7 @@ By combining these three types of score, the investigation priority score not on
 
 The Defender for Cloud Apps dashboard list the top users to investigate based on their investigation priority score. You can also select **View all users to investigate** to view all users.
 
-:::image type="content" source="../media/3-microsoft-cloud-app-security-dashboard.png" alt-text="Microsoft Cloud App Security dashboard" lightbox="../media/3-microsoft-cloud-app-security-dashboard.png":::
+:::image type="content" source="../media/3-microsoft-cloud-app-security-dashboard.png" alt-text="Microsoft Defender for Cloud Apps dashboard" lightbox="../media/3-microsoft-cloud-app-security-dashboard.png":::
 
 If you select a user, you can see the details of their investigation priority score.
 
