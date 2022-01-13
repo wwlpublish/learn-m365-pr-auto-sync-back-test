@@ -2,7 +2,7 @@ Microsoft 365 Defender portal is the new home for monitoring and managing securi
 
 The Home page features many of the common cards that security teams need to protect their assets. The composition of cards and data depends on the user role. Because the Microsoft 365 Defender portal uses role-based access control, different roles will see cards that are relevant to their work.
 
-![Microsoft 365 Defender portal](../media/security-center.png)
+:::image type="content" source="../media/m365-defender-portal.png" alt-text="Screenshot of the Microsoft 365 Defender portal home page." lightbox="../media/m365-defender-portal.png":::
 
 The Microsoft 365 Defender portal includes:
 
