@@ -12,7 +12,7 @@ To connect Microsoft Sentinel to Microsoft Defender for Cloud Apps, perform the 
 
 1. In the Microsoft Defender for Cloud Apps portal, select **Settings** and select **Security extensions**.
 
-    :::image type="content" source="../media/2-security-extensions.png" alt-text="Security extensions":::
+    :::image type="content" source="../media/2-security-extensions.png" alt-text="Screenshot of the Security extensions menu option." lightbox="../media/2-security-extensions.png":::
 
 2. Select **SIEM agents**, select **+**, and select **Microsoft Sentinel**.
 3. Select **Next** if you want to send all data to **Microsoft Sentinel**, or select appropriate filters and then select **Next**.
@@ -33,7 +33,7 @@ To connect Microsoft Sentinel to Microsoft Defender for Cloud Apps, perform the 
 
 10. In the search box, type **Microsoft Defender for Cloud Apps**, select **Microsoft Defender for Cloud Apps**.
 
-    :::image type="content" source="../media/2-mcas-data-connector.png" alt-text="Microsoft Defender for Cloud Apps data connector":::
+    :::image type="content" source="../media/2-defender-for-cloud-apps-data-connector.png" alt-text="Microsoft Defender for Cloud Apps data connector":::
 
 11. select **Open connector page**.
 12. Select **Alerts** and **Cloud Discovery Logs**.

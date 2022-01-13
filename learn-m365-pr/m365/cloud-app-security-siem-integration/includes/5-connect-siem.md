@@ -23,7 +23,7 @@ To connect a non-Microsoft security information and event management solution to
 
 1. In Microsoft Defender for Cloud Apps, select **Settings**, and select **Security extensions**.
 
-    :::image type="content" source="../media/5-security-extensions.png" alt-text="Security extensions":::
+    :::image type="content" source="../media/../media/2-security-extensions.png" alt-text="Security extensions":::
 
 2. Select **SIEM agents** and select **Add agent**.
 
