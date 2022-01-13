@@ -1,6 +1,6 @@
-You can configure session controls in Microsoft Cloud App Security to work with any web app. You can also configure these controls to work with third-party identity providers, so long as they support SAML 2.0 or OpenID Connect.
+You can configure session controls in Microsoft Defender for Cloud Apps to work with any web app. You can also configure these controls to work with third-party identity providers, so long as they support SAML 2.0 or OpenID Connect.
 
-Firstly, verify that you have a relevant PingOne license, and also a Microsoft Cloud App Security license. You'll also need to check that you have an existing PingOne SSO configuration for the app you want to control.
+Firstly, verify that you have a relevant PingOne license, and also a Microsoft Defender for Cloud Apps license. You'll also need to check that you have an existing PingOne SSO configuration for the app you want to control.
 
 > [!IMPORTANT]
 > This SSO must be based on the SAML 2.0 authentication protocol.
@@ -10,13 +10,13 @@ Firstly, verify that you have a relevant PingOne license, and also a Microsoft C
 After you verify you meet the prerequisites, you'll need to complete the following steps:
 
 1. Obtain the app's SSO settings
-1. Configure Cloud App Security with the app's SSO settings
+1. Configure Defender for Cloud Apps with the app's SSO settings
 1. Create a custom app in PingOne
-1. Configure Cloud App Security with the PingOne app's information
+1. Configure Defender for Cloud Apps with the PingOne app's information
 1. Complete the custom app configuration in PingOne
-1. Get the app changes in Cloud App Security
+1. Get the app changes in Defender for Cloud Apps
 1. Complete the app changes
-1. Complete the configuration in Cloud App Security
+1. Complete the configuration in Defender for Cloud Apps
 
 Let's look more closely at this procedure using Salesforce as an example app.
 
@@ -24,11 +24,11 @@ Let's look more closely at this procedure using Salesforce as an example app.
 
 This process might vary depending on the specific app being configured. But for Salesforce, select **Setup**, select **Settings**, select **Identity**, and then select **Single Sign-On Settings**. In the **SAML 2.0** section, record the **Login URL**. If a certificate is defined, download a copy of the certificate.
 
-### Configure Cloud App Security with the app's SSO settings
+### Configure Defender for Cloud Apps with the app's SSO settings
 
-The next step is to enter the SSO details from your app into Cloud App Security. Use the following procedure:
+The next step is to enter the SSO details from your app into Defender for Cloud Apps. Use the following procedure:
 
-1. In Cloud App Security, in the navigation pane, select **Investigate**, then select **Connected apps**.
+1. In Defender for Cloud Apps, in the navigation pane, select **Investigate**, then select **Connected apps**.
 1. On the **Connected apps** page, select the **Conditional Access App Control apps** tab.
 1. To add the details for the new app, select the plus symbol.
 1. In the **Add a SAML application with your identity provider** dialog box, in the search box, enter the app name and then select the app. In this example, enter and select **Salesforce**.
@@ -68,11 +68,11 @@ To create the custom app:
 1. On the **SSO Attribute Mapping** page, enter the existing Salesforce app's **SAML_SUBJECT** attribute and value you recorded earlier, and then select **Continue to Next Step**.
 1. On the **Group Access** page, add the existing Salesforce app's groups you recorded earlier, and complete the configuration.
 
-### Configure Cloud App Security with the PingOne app's information
+### Configure Defender for Cloud Apps with the PingOne app's information
 
-Switch back to the Cloud App Security portal.
+Switch back to the Defender for Cloud Apps portal.
 
-1. On the Cloud App Security **IDENTITY PROVIDER** page, select **Next**.
+1. On the Defender for Cloud Apps **IDENTITY PROVIDER** page, select **Next**.
 1. On the next page, select **Fill in data manually**, and then:
 
     1. For the Assertion consumer service URL, enter the **Salesforce Login URL** you recorded earlier.
@@ -81,24 +81,24 @@ Switch back to the Cloud App Security portal.
 1. Select **Next**.
 1. On the next page, record the following information for later, and then select **Next**:
 
-    - Cloud App Security single sign-on URL
-    - Cloud App Security attributes and values
+    - Defender for Cloud Apps single sign-on URL
+    - Defender for Cloud Apps attributes and values
 
 ### Complete the custom app configuration in PingOne
 
 Switch back to your identity provider's portal. In this case, switch to PingOne. Locate the custom app you created earlier. In this case, select the custom Salesforce app, and then complete the following procedure:
 
 1. Open the custom app for editing.
-1. In the **Assertion Consumer Service (ACS)** field, replace the URL with the Cloud App Security single sign-on URL you recorded earlier, and then select **Next**.
-1. Add the Cloud App Security attributes and values to the app's properties. You recorded these details earlier.
+1. In the **Assertion Consumer Service (ACS)** field, replace the URL with the Defender for Cloud Apps single sign-on URL you recorded earlier, and then select **Next**.
+1. Add the Defender for Cloud Apps attributes and values to the app's properties. You recorded these details earlier.
 1. Save your settings.
 
-### Get the app changes in Cloud App Security
+### Get the app changes in Defender for Cloud Apps
 
-Switch back to the Cloud App Security portal. In the **Add Salesforce with your identity provider** wizard, on the **APP CHANGES** page:
+Switch back to the Defender for Cloud Apps portal. In the **Add Salesforce with your identity provider** wizard, on the **APP CHANGES** page:
 
-1. Copy the Cloud App Security **SAML Single sign-on URL**.
-1. Select the **Cloud App Security SAML certificate** link to download the certificate for the app.
+1. Copy the Defender for Cloud Apps **SAML Single sign-on URL**.
+1. Select the **Defender for Cloud Apps SAML certificate** link to download the certificate for the app.
 
     > [!CAUTION]
     > Don't select **Finish** yet.
@@ -108,18 +108,18 @@ Switch back to the Cloud App Security portal. In the **Add Salesforce with your 
 Switch to the app. In this case, switch to Salesforce. Select **Setup**, select **Settings**, select **Identity**, and then select **Single Sign-On Settings**. Then complete the following procedure:
 
 1. It's recommended that you create a backup of your current settings.
-1. Then, replace the **Identity Provider Login URL** field value with the **Cloud App Security SAML single sign-on URL** you recorded earlier.
-1. Upload the **Cloud App Security SAML** certificate you previously downloaded.
+1. Then, replace the **Identity Provider Login URL** field value with the **Defender for Cloud Apps SAML single sign-on URL** you recorded earlier.
+1. Upload the **Defender for Cloud Apps SAML** certificate you previously downloaded.
 
     > [!IMPORTANT]
-    > The Cloud App Security SAML certificate is valid for one year, after which you must renew it.
+    > The Defender for Cloud Apps SAML certificate is valid for one year, after which you must renew it.
 
 1. Replace the **Entity ID** field value with the PingOne custom app Entity ID you noted earlier.
 1. Select **Save**.
 
-### Complete the configuration in Cloud App Security
+### Complete the configuration in Defender for Cloud Apps
 
-Finally, switch to the Cloud App Security portal. In the **Add Salesforce with your identity provider** wizard, on the **APP CHANGES** page, select **Finish**.
+Finally, switch to the Defender for Cloud Apps portal. In the **Add Salesforce with your identity provider** wizard, on the **APP CHANGES** page, select **Finish**.
 
 > [!NOTE]
 > After completing the wizard, all associated login requests to the app are routed through Conditional Access App Control.

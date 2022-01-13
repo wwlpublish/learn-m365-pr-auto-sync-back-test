@@ -1,14 +1,14 @@
 ### YamlMime:ModuleUnit
 uid: learn-m365.mcas-power-automate.2-remediate-country-alerts
 metadata:
-  title: Automatically remediate Microsoft Cloud App Security infrequent country alerts using Power Automate
-  description: Learn to automatically remediate Microsoft Cloud App Security infrequent country alerts using Power Automate
+  title: Automatically remediate Microsoft Defender for Cloud Apps infrequent country alerts using Power Automate
+  description: Learn to automatically remediate Microsoft Defender for Cloud Apps infrequent country alerts using Power Automate
   ms.date: 03/03/2021
   author: beccarobins
   ms.author: beccarobins
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-title: Automatically remediate Microsoft Cloud App Security infrequent country alerts using Power Automate
+title: Automatically remediate Microsoft Defender for Cloud Apps infrequent country alerts using Power Automate
 durationInMinutes: 10
 content: |
   [!include[](includes/2-remediate-country-alerts.md)]

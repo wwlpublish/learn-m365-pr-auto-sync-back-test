@@ -18,7 +18,7 @@ The **Data** category helps track user activity that could lead to unauthorized 
 - Users who share the most files from cloud apps
 - How many Data Loss Prevention (DLP) policy matches occurred
 - How many DLP policies overrides or false positives are reported
-- How many DLP policy matches happened in 3rd-party cloud services via Microsoft Cloud App Security
+- How many DLP policy matches happened in 3rd-party cloud services via Microsoft Defender for Cloud Apps
 
 :::image type="content" source="../media/data.png" alt-text="Screenshots showing data reports in the Microsoft 365 Defender portal." lightbox="../media/data.png":::
 
@@ -35,10 +35,10 @@ The **App** category provides more insight into how cloud apps are being used in
 This includes:
 
 - Monitor email accounts at risk
-- Apps discovered by **Cloud App Security** that have been granted permissions by users
+- Apps discovered by **Defender for Cloud Apps** that have been granted permissions by users
 - Cloud Discovery reporting to show what kind of apps are being used
 - Cloud app activity locations
-- **Azure Security Center** alerts signaling infrastructure health
+- **Microsoft Defender for Cloud** alerts signaling infrastructure health
 
 :::image type="content" source="../media/app-reports.png" alt-text="Screenshot showing Cloud Security and Discovered Cloud Apps reports in the Microsoft 365 Defender portal.":::
 

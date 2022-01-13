@@ -2,12 +2,12 @@ It's important that you understand how risky your organization's apps are. You c
 
 ## Use the Cloud App Catalog
 
-To access the Cloud App Catalog, in the Cloud App Security portal, in the navigation pane, select Cloud app catalog. A list of over 16,000 apps displays, with the apps' names, their respective scores, and Actions that have been performed against the app. The following screenshot displays this default layout.
+To access the Cloud App Catalog, in the Defender for Cloud Apps portal, in the navigation pane, select Cloud app catalog. A list of over 16,000 apps displays, with the apps' names, their respective scores, and Actions that have been performed against the app. The following screenshot displays this default layout.
 
 > [!NOTE]
 > the Cloud App Catalog is the list of all the apps Microsoft has evaluated. Discovered apps are all the apps that are mapped from the your environment.
 
-:::image type="content" source="../media/cloud-app-catalog.png" alt-text="A screenshot of the Cloud App Catalog page of the Cloud App Security portal. The administrator has selected the Microsoft 365 admin center.":::
+:::image type="content" source="../media/cloud-app-catalog.png" alt-text="A screenshot of the Cloud App Catalog page of the Defender for Cloud Apps portal. The administrator has selected the Microsoft 365 admin center.":::
 
 The Cloud app catalog uses the following factors to rate risk for your cloud apps:
 
@@ -15,11 +15,11 @@ The Cloud app catalog uses the following factors to rate risk for your cloud app
 - Industry standards
 - Best practices
 
-To help to ensure that the catalog is kept up-to-date, Cloud App Security runs four complementary processes. These are:
+To help to ensure that the catalog is kept up-to-date, Defender for Cloud Apps runs four complementary processes. These are:
 
 - Automated data extraction directly from the cloud app
-- Automated advanced data extraction for data by Cloud App Security's algorithms
-- Continuous analysis by the Cloud App Security cloud analyst team
+- Automated advanced data extraction for data by the Defender for Cloud Apps algorithms
+- Continuous analysis by the Defender for Cloud Apps cloud analyst team
 - Customer-based revision requests, based on customer submission requests for changes to the Cloud app catalog
 
 ### Score metrics
@@ -80,19 +80,19 @@ The following screenshot displays the **Actions** context menu for a selected ap
 
 ### Request an app review
 
-It's possible that you might discover an app within your organization for which there is no score in Cloud App Security. If this happens, you can request a review of that app. To do so, use the following procedure:
+It's possible that you might discover an app within your organization for which there is no score in Defender for Cloud Apps. If this happens, you can request a review of that app. To do so, use the following procedure:
 
 1. In Cloud Discovery, select the ellipsis button in the upper right of the display.
 
 2. Then select **Suggest new app**, as displayed in the following screenshot.
 
-    :::image type="content" source="../media/suggest-app.png" alt-text="A screenshot of the Cloud Discovery page in the Cloud App Security portal. The administrator has selected the ellipsis button to choose Suggest new app.":::
+    :::image type="content" source="../media/suggest-app.png" alt-text="A screenshot of the Cloud Discovery page in the Defender for Cloud Apps portal. The administrator has selected the ellipsis button to choose Suggest new app.":::
 
 3. Then, in the **Suggest new cloud app** dialog box, enter the app's details, including the app name and domain, which are required. Then enter your email address if you want to be contacted about the app's status.
 4. Select **Submit** to complete the process.
 
-## Use app risk scoring in Cloud App Security
+## Use app risk scoring in Defender for Cloud Apps
 
-The following video describes how to use app risk scoring in Cloud App Security:
+The following video describes how to use app risk scoring in Defender for Cloud Apps:
 
 >[!VIDEO https://www.microsoft.com/videoplayer/embed/RE4MAMu]

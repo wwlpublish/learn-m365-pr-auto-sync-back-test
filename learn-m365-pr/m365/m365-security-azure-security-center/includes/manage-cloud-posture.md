@@ -2,12 +2,12 @@ It's important to take a proactive approach to prevent security issues from happ
 
 To achieve this, you need to have a robust cloud security posture in place for your environment. You can then identify components and systems that don't meet your security and compliance best practices and standards, and deal with them appropriately.
 
-Here, you'll learn how to improve your cloud security posture with Azure Security Center.
-Azure Security Center helps you manage your cloud security posture through several measures, including:
+Here, you'll learn how to improve your cloud security posture with Microsoft Defender for Cloud.
+Microsoft Defender for Cloud helps you manage your cloud security posture through several measures, including:
 
 ## Secure score
 
-Azure Security Center will continually look for security issues with subscriptions and resources across your organization. It will then aggregate all of its findings into a single score to give an indication of your current security situation. The higher the secure score, the lower the identified risk level for your organization. To find more details about your secure score, you can select it in the Azure Security Center overview dashboard:
+Microsoft Defender for Cloud will continually look for security issues with subscriptions and resources across your organization. It will then aggregate all of its findings into a single score to give an indication of your current security situation. The higher the secure score, the lower the identified risk level for your organization. To find more details about your secure score, you can select it in the Microsoft Defender for Cloud overview dashboard:
 
 :::image type="content" source="../media/3-secure-score.png" alt-text="Secure score":::
 
@@ -28,11 +28,11 @@ If a recommendation in a control has the **Quick Fix** option, select it to appl
 :::image type="content" source="../media/3-apply-quick-fix-secure-score-inline.png" lightbox="../media/3-apply-quick-fix-secure-score-expanded.png" alt-text="Apply the recommendation":::
 
 > [!NOTE]
-> You can also access your secure score programmatically through the Azure Security Center REST API, to query data and generate your own reports.
+> You can also access your secure score programmatically through the Microsoft Defender for Cloud REST API, to query data and generate your own reports.
 
 ### Improved automation
 
-It can be difficult to remediate issues across a large fleet of resources and subscriptions. Azure Security Center helps you manage this scenario better through automation in several ways:
+It can be difficult to remediate issues across a large fleet of resources and subscriptions. Microsoft Defender for Cloud helps you manage this scenario better through automation in several ways:
 
 #### Quick Fix recommendations
 
@@ -46,14 +46,14 @@ At the top of the pane, you'll also see a general description and details of the
 
 ## Workflow automation with Logic Apps
 
-Using Azure Security Center's workflow automation feature, you can configure Logic Apps to be triggered on security alerts or recommendations, so that entire workflows are automatically carried out in response. For example, you can automate a process to ensure that a certain user is notified via email to carry out an investigation whenever a specific alert is raised by Azure Security Center.
+Using Microsoft Defender for Cloud's workflow automation feature, you can configure Logic Apps to be triggered on security alerts or recommendations, so that entire workflows are automatically carried out in response. For example, you can automate a process to ensure that a certain user is notified via email to carry out an investigation whenever a specific alert is raised by Microsoft Defender for Cloud.
 
 To use workflow automation with Logic Apps, you'll have to create a Logic App and define when it should be run. For example, to trigger an email to be sent to an admin in response to alerts, you do the following steps:
 
 > [!NOTE]
 > There are specific roles and permissions that are required to complete these steps. See the link in the **Learn more** section.
 
-1. In Azure Security Center, select **Workflow automation**.
+1. In Microsoft Defender for Cloud, select **Workflow automation**.
 
 1. Select **Add workflow automation**.
 
@@ -66,7 +66,7 @@ To use workflow automation with Logic Apps, you'll have to create a Logic App an
 
     1. Select a subscription in the **subscription** field then select a resource group in the **resource group** field.
 
-    1. Under **Trigger conditions**, select the trigger that will start this automated workflow.  For example, you can select **Threat detection alerts** in the **Select Security Center data types** field. 
+    1. Under **Trigger conditions**, select the trigger that will start this automated workflow.  For example, you can select **Threat detection alerts** in the **Select Defender for Cloud data types** field. 
 
     1. Select **High** in the **Alert severity** field and clear the other fields for it to be triggered only for threat detection alerts that have high alert severity.
 
@@ -89,13 +89,13 @@ created, then select **Go to resource**.
 1. In the Logic App designer, select **Security** in the **Category** field:
 
     :::image type="content" source="../media/3-security-category-app-designer.png" alt-text="App designer security category":::
-1. Select **Get a notification email when Security Center detects a threat**. Then select **Use this template**.
+1. Select **Get a notification email when Defender for Cloud detects a threat**. Then select **Use this template**.
 
 1. Configure an Office 365 Outlook connector by selecting the **+** next to the **Office 365 Outlook** field.
 
     :::image type="content" source="../media/3-add-outlook-connector.png" alt-text="Add Outlook connector":::
 
-1. When you're done, select the **+** next to the **Security Center Alert** field, then select **Continue**. Now you can configure the details for the emails you want to send for alerts:
+1. When you're done, select the **+** next to the **Defender for Cloud Alert** field, then select **Continue**. Now you can configure the details for the emails you want to send for alerts:
 
     :::image type="content" source="../media/3-configure-email-details-inline.png" lightbox="../media/3-configure-email-details-expanded.png" alt-text="Configure email details":::
 
@@ -110,7 +110,7 @@ created, then select **Go to resource**.
 
 ## Continuous export
 
-You might want to export information about alerts and recommendations for reporting purposes, or to feed this information into other monitoring tools (such as a SIEM) that you might already have in your environment. Azure Security Center lets you:
+You might want to export information about alerts and recommendations for reporting purposes, or to feed this information into other monitoring tools (such as a SIEM) that you might already have in your environment. Microsoft Defender for Cloud lets you:
 
 - Continuously export data to Log Analytics workspaces.
 
@@ -120,7 +120,7 @@ You might want to export information about alerts and recommendations for report
 
 For example, you can configure a continuous export to a Log Analytics workspace:
 
-1. In Azure Security Center, select **Pricing & settings** on the left pane.
+1. In Microsoft Defender for Cloud, select **Pricing & settings** on the left pane.
 
 1. Select the subscription for which you want to configure an export. Then Select **Continuous export** on the left. The **Continuous export** pane appears.
 
@@ -139,7 +139,7 @@ For example, you can configure a continuous export to a Log Analytics workspace:
 ## Regulatory compliance
 
 The regulatory compliance pane helps you to better understand and improve your
-compliance posture. Select **Regulator compliance** on the overview pane of the Azure Security Center dashboard to access the regulatory compliance dashboard:
+compliance posture. Select **Regulator compliance** on the overview pane of the workload protection dashboard to access the regulatory compliance dashboard:
 
 :::image type="content" source="../media/3-regulatory-compliance.png" alt-text="Regulatory compliance":::
 
@@ -159,9 +159,9 @@ Reports give a high-level summary of your compliance status against your selecte
 
 ### Create custom policies
 
-You can create your own policies that Azure Security Center uses to assess your environment. You'll then receive recommendations if your environment doesn't match up to them. You can create custom policies by using the following steps:
+You can create your own policies that Microsoft Defender for Cloud uses to assess your environment. You'll then receive recommendations if your environment doesn't match up to them. You can create custom policies by using the following steps:
 
-1. In Azure Security Center, in the left pane, select **Security policy** under **Policy & compliance**.
+1. In Microsoft Defender for Cloud, in the left pane, select **Security policy** under **Policy & compliance**.
 
 1. Select the subscription or management group where you want to apply your policy.
 
@@ -195,13 +195,13 @@ Your custom initiative will start to take effect. You'll find it in your complia
 
 ## Networking security
 
-Azure Security Center will continuously monitor your environment based on network security best practices. When Azure Security Center finds potential security risks, it will give alerts and recommendations to help you understand how to best deal with them. The network map is a tool in Azure Security Center to help you understand the state of your Azure network and remediate any identified issues.
+Microsoft Defender for Cloud will continuously monitor your environment based on network security best practices. When Microsoft Defender for Cloud finds potential security risks, it will give alerts and recommendations to help you understand how to best deal with them. The network map is a tool in Microsoft Defender for Cloud to help you understand the state of your Azure network and remediate any identified issues.
 
 :::image type="content" source="../media/3-network-map.png" alt-text="Network map":::
 
 You can use the network map to see the network topology of your workloads in Azure, and the connections between your virtual machines, virtual networks, and subnets. Use the map to drill down into specific resources to get a better understanding of them, along with the recommendations for those resources. To view the network map, you:
 
-1. Select **Networking** under **Resource Security Hygiene**, on the left pane of the Azure Security Center.
+1. Select **Networking** under **Resource Security Hygiene**, on the left pane of the Microsoft Defender for Cloud.
 
 1. In the network map pane, select **See topology**.
 
@@ -213,11 +213,11 @@ You select a specific resource to drill down into it, and view the recommendatio
 
 :::image type="content" source="../media/3-network-details-inline.png" lightbox="../media/3-network-details-expanded.png" alt-text="View network details":::
 
-### Explore how to protect your hybrid cloud with Azure Security Center
+### Explore how to protect your hybrid cloud with Microsoft Defender for Cloud
 
 View a [video version](https://www.microsoft.com/videoplayer/embed/RE4GsND) of the interactive guide (captions available in more languages).
 
-<a href="https://mslearn.cloudguides.com/guides/Protect%20your%20hybrid%20cloud%20with%20Azure%20Security%20Center">![Azure Security Center](../media/protect-your-hybrid-cloud.png)</a>  
+<a href="https://mslearn.cloudguides.com/guides/Protect%20your%20hybrid%20cloud%20with%20Azure%20Security%20Center">![Microsoft Defender for Cloud](../media/protect-your-hybrid-cloud.png)</a>  
 
 Be sure to click the full-screen option in the video player. When you're done, use the **Back** arrow in your browser to come back to this page. 
 

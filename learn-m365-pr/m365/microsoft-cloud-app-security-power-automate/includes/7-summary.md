@@ -2,12 +2,12 @@ As a security administrator at Contoso, you've been involved with the early stag
 
 Now that you've completed this module, you should be able to:
 
-- Automatically remediate Microsoft Cloud App Security infrequent country alerts using Power Automate
-- Creating custom flows for Microsoft Cloud App Security alerts using Power Automate
-- Request manager validation for Microsoft Cloud App Security alerts using Power Automate
+- Automatically remediate Microsoft Defender for Cloud Apps infrequent country alerts using Power Automate
+- Creating custom flows for Microsoft Defender for Cloud Apps alerts using Power Automate
+- Request manager validation for Microsoft Defender for Cloud Apps alerts using Power Automate
 - Remove a malicious inbox forwarding rule using Power Automate
 
 ## Learn more
 
 - [Power Automate templates](https://github.com/microsoft/Microsoft-Cloud-App-Security/tree/master/Playbooks)
-- [MCAS & Power Automate: Request user validation to reduce your SOC workload](https://www.youtube.com/watch?app=desktop&v=gDn7-u15t7E)
+- [Defender for Cloud Apps & Power Automate: Request user validation to reduce your SOC workload](https://www.youtube.com/watch?app=desktop&v=gDn7-u15t7E)
