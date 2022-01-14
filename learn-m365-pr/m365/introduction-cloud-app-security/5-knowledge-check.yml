@@ -16,7 +16,7 @@ quiz:
   title: Check your knowledge
   questions:
 
-  - content: "Which of the following Microsoft Cloud App Security modes enable an administrator to implement Conditional Access app control?"
+  - content: "Which of the following Microsoft Defender for Cloud Apps modes enable an administrator to implement Conditional Access app control?"
     choices:
     - content: "Log collection."
       isCorrect: false
@@ -26,20 +26,20 @@ quiz:
       explanation: "That's correct. Reverse proxy enables you to implement Conditional Access app control over your data."
     - content: "API connectors."
       isCorrect: false
-      explanation: "That's incorrect. API connectors enable you to connect Cloud App Security to both Microsoft and third party SaaS platforms."
+      explanation: "That's incorrect. API connectors enable you to connect Defender for Cloud Apps to both Microsoft and third party SaaS platforms."
 
 
-  - content: "Which cloud discovery feature does Microsoft Cloud App Security provide that Azure AD Cloud App Discovery doesn’t?"
+  - content: "Which cloud discovery feature does Microsoft Defender for Cloud Apps provide that Azure AD Cloud App Discovery doesn’t?"
     choices:
     - content: "Deployment for discovery analysis."
       isCorrect: false
-      explanation: "That's incorrect. Both Microsoft Cloud App Security and Azure AD Cloud App Discovery support this feature."
+      explanation: "That's incorrect. Both Microsoft Defender for Cloud Apps and Azure AD Cloud App Discovery support this feature."
     - content: "Cloud usage analytics per app, user, IP address."
       isCorrect: false
-      explanation: "That's incorrect. Both Microsoft Cloud App Security and Azure AD Cloud App Discovery support this feature."
+      explanation: "That's incorrect. Both Microsoft Defender for Cloud Apps and Azure AD Cloud App Discovery support this feature."
     - content: "Anomaly detection for discovered apps."
       isCorrect: true
-      explanation: "That's correct. Only Microsoft Cloud App Security supports this Cloud Discovery feature."
+      explanation: "That's correct. Only Microsoft Defender for Cloud Apps supports this Cloud Discovery feature."
 
 
   - content: "Which of the following products supports only manual log uploads for Cloud Discovery deployment for discovery analysis?"
@@ -47,12 +47,9 @@ quiz:
     - content: "Office 365 Cloud App Security."
       isCorrect: true
       explanation: "That's correct. Office 365 Cloud App Security supports only manual log uploads."
-    - content: "Microsoft Cloud App Security."
+    - content: "Microsoft Defender for Cloud Apps."
       isCorrect: false
-      explanation: "That's incorrect. Microsoft Cloud App Security supports automatic, in addition to manual, log upload. "
+      explanation: "That's incorrect. Microsoft Defender for Cloud Apps supports automatic, in addition to manual, log upload. "
     - content: "Azure AD Cloud App Discovery."
       isCorrect: false
       explanation: "That's incorrect. Azure AD Cloud App Discovery supports automatic, in addition to manual, log upload. "
-
-
-

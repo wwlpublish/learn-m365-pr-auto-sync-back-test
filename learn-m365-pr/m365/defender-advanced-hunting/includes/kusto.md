@@ -6,7 +6,7 @@ The advancing hunting capability in Microsoft 365 Defender is like those in Micr
 
 - Microsoft Defender for Endpoint
 - Microsoft Defender for Office 365
-- Microsoft Cloud App Security
+- Microsoft Defender for Cloud Apps
 - Microsoft Defender for Identity
 
 The advanced hunting query language offers excellent data ingestion and query performance. It maintains performance by losing the ability to do updates of individual rows, cross-table constraints, or transactions. Advanced hunting data can be categorized into two distinct types, each consolidated differently.

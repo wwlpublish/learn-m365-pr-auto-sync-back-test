@@ -5,7 +5,7 @@ Now that you've completed this module, you should be able to:
 - Discover the features of Cloud Discovery dashboard
 - Evaluate risk from SaaS apps
 - Work with discovered apps
-- Implement Cloud App Security app connectors
+- Implement Defender for Cloud Apps app connectors
 
 ## Learn more
 
@@ -14,4 +14,4 @@ Now that you've completed this module, you should be able to:
 - [Working with discovered apps](/cloud-app-security/discovered-apps?azure-portal=true).
 - [Working with App risk scores](/cloud-app-security/risk-score?azure-portal=true).  
 - [Connect apps](/cloud-app-security/enable-instant-visibility-protection-and-governance-actions-for-your-apps?azure-portal=true).  
-- [Interactive guide: Discover and manage cloud app usage with Microsoft Cloud App Security](https://aka.ms/Discover_and_manage_cloud_app-usage-with-Microsoft-Cloud_App-Security)
+- [Interactive guide: Discover and manage cloud app usage with Microsoft Defender for Cloud Apps](https://aka.ms/Discover_and_manage_cloud_app-usage-with-Microsoft-Cloud_App-Security)

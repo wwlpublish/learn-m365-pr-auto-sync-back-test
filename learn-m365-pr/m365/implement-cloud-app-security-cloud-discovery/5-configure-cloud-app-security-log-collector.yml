@@ -1,14 +1,14 @@
 ### YamlMime:ModuleUnit
 uid: learn-m365.implement-mcas-cloud-discovery.5-configure-cloud-app-security-log-collector
 metadata:
-  title: Configure the Cloud App Security log collector
-  description: You can use Cloud App Security log collector to help automate log upload from your corporate network
+  title: Configure the Defender for Cloud Apps log collector
+  description: You can use Defender for Cloud Apps log collector to help automate log upload from your corporate network
   ms.date: 07/02/2021
   author: beccarobins
   ms.author: beccarobins
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-title: Configure the Cloud App Security log collector
+title: Configure the Defender for Cloud Apps log collector
 durationInMinutes: 7
 content: |
   [!include[](includes/5-configure-cloud-app-security-log-collector.md)]

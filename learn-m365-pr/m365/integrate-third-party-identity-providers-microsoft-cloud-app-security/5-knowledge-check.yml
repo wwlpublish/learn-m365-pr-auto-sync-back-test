@@ -16,7 +16,7 @@ quiz:
   title: Check your knowledge
   questions:
 
-  - content: "An administrator at Contoso wants to use device identification as a way to enforce Conditional App Access Control in Cloud App Security. The administrator knows that client certificates in a trusted chain can be used to make a determination around access or session policies that implement device state as a filter. Which of the following can also be used?"
+  - content: "An administrator at Contoso wants to use device identification as a way to enforce Conditional App Access Control in Defender for Cloud Apps. The administrator knows that client certificates in a trusted chain can be used to make a determination around access or session policies that implement device state as a filter. Which of the following can also be used?"
     choices:
     - content: "Whether a device is AD DS joined."
       isCorrect: false
@@ -28,7 +28,7 @@ quiz:
       isCorrect: false
       explanation: "That's incorrect. A device must be Hybrid Azure AD joined."
 
-  - content: "An administrator at Contoso wants to use device identification as a way to enforce Conditional App Access Control in Cloud App Security. The administrator knows that client certificates in a trusted chain can be used to make a determination around access or session policies that implement device state as a filter. The administrator starts to upload root CA certificates to the Cloud App Security portal. What format do the certificates need to be?"
+  - content: "An administrator at Contoso wants to use device identification as a way to enforce Conditional App Access Control in Defender for Cloud Apps. The administrator knows that client certificates in a trusted chain can be used to make a determination around access or session policies that implement device state as a filter. The administrator starts to upload root CA certificates to the Defender for Cloud Apps portal. What format do the certificates need to be?"
     choices:
     - content: "Certificates must be in the .CER format."
       isCorrect: false

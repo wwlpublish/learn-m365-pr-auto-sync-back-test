@@ -1,10 +1,10 @@
 Business to business (B2B) communication is widespread in organizations today. This brings security challenges because it is difficult to monitor or control external users, however you want to give external users access to internal content.
 
-To solve this problem Microsoft Cloud App Security can limit external users to read-only access for Microsoft web apps, third party web apps, and custom apps.
+To solve this problem Microsoft Defender for Cloud Apps can limit external users to read-only access for Microsoft web apps, third party web apps, and custom apps.
 
 To apply read-only mode, you must create a policy to block downloads and another policy to block cutting, copying, or printing.
 
-Before creating the policies, you must create a Conditional Access policy in Azure AD to route traffic to Cloud App Security.
+Before creating the policies, you must create a Conditional Access policy in Azure AD to route traffic to Defender for Cloud Apps.
 
 ## Create a policy to block downloads
 
@@ -56,6 +56,6 @@ To create a policy to block cut, copy, and print, perform the following steps:
 9. In **Actions** select **Block** and, optionally, **Customize block message**.
 10. Click **Create**.
 
-The following video gives you an overview of how to configure read-only mode for external users apps with Microsoft Cloud App Security:
+The following video gives you an overview of how to configure read-only mode for external users apps with Microsoft Defender for Cloud Apps:
 
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWyfA5]
