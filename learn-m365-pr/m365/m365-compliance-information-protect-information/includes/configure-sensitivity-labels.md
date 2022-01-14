@@ -50,7 +50,7 @@ None means that original encryption is preserved for files and email messages wi
 
 Apply turns on encryption, which impacts Office files (Word, PowerPoint, Excel) with this label applied. Because the files will be encrypted for security reasons, performance will be slower when the files are opened or saved, and some SharePoint and OneDrive features may be limited or unavailable. The encryption settings you choose will be enforced when the label is applied to email and Office files.
 
-**Assign permission now or let users decide?** Choosing when to apply permissions is the next step in the process. Options are to assign them now let the users decide when they are going to apply them.
+**Assign permission now or let users decide?** Choosing when to apply permissions is the next step in the process. Options are to assign them now or let the users decide when they are going to apply them.
 
 - **Assign permissions now**. Selecting this option means the encryption settings chosen will be enforced when the label is applied to email and Office files. Selecting this option results in the additional configuration choices shown below.
   - **User access to content expires**. Options are never, on a specific date, and a number of days after the label is applied.
