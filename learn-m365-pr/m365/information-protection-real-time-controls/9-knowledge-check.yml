@@ -17,7 +17,7 @@ quiz:
   questions:
 
 
-  - content: "What additional configuration is necessary once you have connected GitHub before you create Microsoft Cloud App Security Policies?" 
+  - content: "What additional configuration is necessary once you have connected GitHub before you create Microsoft Defender for Cloud Apps Policies?" 
     choices:
     - content: "You must encrypt the GitHub API." 
       isCorrect: false 
@@ -27,23 +27,23 @@ quiz:
       explanation: "That's incorrect. It is not possible to host he GitHub service in Microsoft Azure."
     - content: "No additional steps are necessary." 
       isCorrect: true 
-      explanation: "That's correct. Once a connection is made, you can create Cloud App Security policies."
+      explanation: "That's correct. Once a connection is made, you can create Defender for Cloud Apps policies."
 
 
-  - content: "How often do Microsoft Cloud App Security file policies scan files?" 
+  - content: "How often do Microsoft Defender for Cloud Apps file policies scan files?" 
     choices: 
     - content: "Continually." 
       isCorrect: true 
-      explanation: "That's correct. Microsoft Cloud App Security file policies scan files continually. " 
+      explanation: "That's correct. Microsoft Defender for Cloud Apps file policies scan files continually. " 
     - content: "Daily." 
       isCorrect: false 
-      explanation: "That's incorrect. Microsoft Cloud App Security file policies do not scan files daily." 
+      explanation: "That's incorrect. Microsoft Defender for Cloud Apps file policies do not scan files daily." 
     - content: "Weekly."
       isCorrect: false 
-      explanation: "That's incorrect. Microsoft Cloud App Security file policies do not scan files weekly."
+      explanation: "That's incorrect. Microsoft Defender for Cloud Apps file policies do not scan files weekly."
 
 
-  - content: "What is the most straightforward way to create a malware detection policy in Microsoft Cloud App Security?" 
+  - content: "What is the most straightforward way to create a malware detection policy in Microsoft Defender for Cloud Apps?" 
     choices: 
     - content: "A malware detection policy already exists but must be enabled." 
       isCorrect: true 

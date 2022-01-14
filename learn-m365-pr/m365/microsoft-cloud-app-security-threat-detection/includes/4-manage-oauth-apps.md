@@ -6,21 +6,21 @@ With so many apps in use, OAuth 2.0 reduces the need for multiple accounts and c
 
 If a user is tricked into authorizing a malicious OAuth app, their data could be accessed.
 
-## Manage OAuth Apps with MCAS
+## Manage OAuth Apps with Defender for Cloud Apps
 
-To manage OAuth apps in Cloud App Security, go to the Cloud App Security portal, select **Investigate**, and select **OAuth apps**.
+To manage OAuth apps in Defender for Cloud Apps, go to the Defender for Cloud Apps portal, select **Investigate**, and select **OAuth apps**.
 
-![OAuth apps](../media/4-oauth-apps.png)
+:::image type="content" source="../media/4-oauth-apps.png" alt-text="OAuth apps" lightbox="../media/4-oauth-apps.png":::
 
 From the Manage OAuth apps page, you can manage all of the OAuth apps that were authorized by users in your organization.
 
-![Manage OAuth apps](../media/4-manage-oauth-apps.png)
+:::image type="content" source="../media/4-manage-oauth-apps.png" alt-text="Manage OAuth apps" lightbox="../media/4-manage-oauth-apps.png":::
 
 Each app has further details, if selected, and you can list the permissions that have been delegated to the app and how common the app is in the global community. Common apps are typically less risky.
 
 You can filter the list of apps, for example, to find apps with a high permission level that are rarely used in the community. If you find an app that you want to block, you can select **Mark app as banned**. This action blocks the app for all users and presents users with a custom notification.
 
-![Mark app as banned](../media/4-mark-app-banned.png)
+:::image type="content" source="../media/4-mark-app-banned.png" alt-text="Mark app as banned" lightbox="../media/4-mark-app-banned.png":::
 
 ## OAuth app policies
 
@@ -30,12 +30,12 @@ The most straightforward method for creating an OAuth app policy is to create a 
 
 Follow the steps from the previous section to create a filter that displays apps that you want to block. Once you have finalized the filter, select **New policy from search**.
 
-![New policy from search](../media/4-new-policy-search.png)
+:::image type="content" source="../media/4-new-policy-search.png" alt-text="New policy from search" lightbox="../media/4-new-policy-search.png":::
 
 You can then choose to be alerted by email, text message, or a Microsoft Flow alert and choose to automatically revoke an app.
 
 You can create multiple policies allowing you to have one policy to alert you if there is a medium risk app, and another policy to automatically revoke high risk apps.
 
-The following video walks through the steps to manage OAuth apps in Microsoft Cloud App Security:
+The following video walks through the steps to manage OAuth apps in Microsoft Defender for Cloud Apps:
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4MANe]

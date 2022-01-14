@@ -17,13 +17,13 @@ Each Microsoft Defender for Identity security alert includes:
 
 ![Microsoft Defender for Identity security alert](../media/security-alert.png)
 
-Alerts can also be viewed within Microsoft Cloud App Security:
+Alerts can also be viewed within Microsoft Defender for Cloud Apps:
 
-[![Microsoft Cloud App Security alert](../media/cloud-app-security-alerts.png)](../media/cloud-app-security-alerts-magnify.png#lightbox)
+[![Microsoft Defender for Cloud Apps alert](../media/cloud-app-security-alerts.png)](../media/cloud-app-security-alerts-magnify.png#lightbox)
 
 The following scenario describes an investigation into an attacker gaining administrator access to the domain controller and compromising the Active Directory domain and forest.
 
-The first alert we notice in the Cloud App Security portal shows **User and IP address reconnaissance** (SMB). Clicking into this alert, we see (under Description) that a user was able to learn the IP addresses of two accounts by enumerating SMB sessions on the domain controller.
+The first alert we notice in the Defender for Cloud Apps portal shows **User and IP address reconnaissance** (SMB). Clicking into this alert, we see (under Description) that a user was able to learn the IP addresses of two accounts by enumerating SMB sessions on the domain controller.
 
 [![User and IP address reconnaissance](../media/user-ip-address-reconnaissance.png)](../media/user-ip-address-reconnaissance-magnify.png#lightbox)
 
@@ -43,7 +43,7 @@ The next alert shows a **Suspected identity theft (pass-the-ticket)**.
 
 [![Pass-the-ticket alert](../media/pass-ticket-alert.png)](../media/pass-ticket-alert-magnify.png#lightbox)
 
-Microsoft Defender for Identity has detected theft of a ticket from a domain administrator to the infiltrated PC. The Cloud App Security portal shows exactly which resources were accessed using the stolen tickets.
+Microsoft Defender for Identity has detected theft of a ticket from a domain administrator to the infiltrated PC. The Defender for Cloud Apps portal shows exactly which resources were accessed using the stolen tickets.
 
 [![More information on the pass-the-ticket alert](../media/alert-pass-ticket.png)](../media/alert-pass-ticket-magnify.png#lightbox)
 

@@ -1,14 +1,14 @@
 ### YamlMime:ModuleUnit
 uid: learn-m365.introduction-to-microsoft-cloud-app-security.2-what-is-microsoft-cloud-app-security
 metadata:
-  title: What is Microsoft Cloud App Security?
-  description: Learn what Microsoft Cloud App Security can do for your organization
+  title: What is Microsoft Defender for Cloud Apps?
+  description: Learn what Microsoft Defender for Cloud Apps can do for your organization
   ms.date: 11/10/2021
   author: beccarobins
   ms.author: beccarobins
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-title: What is Microsoft Cloud App Security?
+title: What is Microsoft Defender for Cloud Apps?
 durationInMinutes: 12
 content: |
   [!include[](includes/2-what-is.md)]

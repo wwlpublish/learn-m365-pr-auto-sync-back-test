@@ -1,4 +1,4 @@
-You can automatically remediate many Microsoft Cloud App Security alerts. Governance Actions in Microsoft Cloud App Security include many actions that can successfully resolve alerts.
+You can automatically remediate many Microsoft Defender for Cloud Apps alerts. Governance Actions in Microsoft Defender for Cloud Apps include many actions that can successfully resolve alerts.
 
 :::image type="content" source="../media/3-governance-actions.png" alt-text="Governance actions":::
 
@@ -8,7 +8,7 @@ Some specific actions might not be included which might require a more complex f
 
 To create a custom flow alert with Power Automate to remove sensitive file sharing after requesting user validation, perform the following steps:
 
-1. Create a file policy in Microsoft Cloud App Security that includes filters that match the specifics of the sensitive files.
+1. Create a file policy in Microsoft Defender for Cloud Apps that includes filters that match the specifics of the sensitive files.
 2. In the policy, under **Alerts**, select **Send Alerts to Power Automate** and select the Power Automate playbook to send the alert to.
 
     :::image type="content" source="../media/3-send-alerts-power-automate.png" alt-text="Send alerts to Power Automate.":::
@@ -28,6 +28,6 @@ You can explore Power Automate now using the following interactive guide to simu
 
 Click on the image to get started.
 
-[![Automate alerts management with Microsoft Power Automate and Cloud App Security](../media/power-automate-custom-flow.png)](https://aka.ms/Automate_alerts-management_with-Microsoft-Power-Automate_and-Cloud-App-Security)
+[![Automate alerts management with Microsoft Power Automate and Defender for Cloud Apps](../media/power-automate-custom-flow.png)](https://aka.ms/Automate_alerts-management_with-Microsoft-Power-Automate_and-Cloud-App-Security)
 
 Be sure to click the full-screen option in the video player. When you're done, use the **Back** arrow in your browser to come back to this page.

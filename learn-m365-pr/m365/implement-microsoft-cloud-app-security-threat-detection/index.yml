@@ -1,26 +1,26 @@
 ### YamlMime:Module
 uid: learn-m365.implement-mcas-threat-detection
 metadata:
-  title: Detect threats with Microsoft Cloud App Security
-  description: Learn to identify, mitigate, and automatically remediate security threats by using Microsoft Cloud App Security and Microsoft Defender for Identity.
+  title: Detect threats with Microsoft Defender for Cloud Apps
+  description: Learn to identify, mitigate, and automatically remediate security threats by using Microsoft Defender for Cloud Apps and Microsoft Defender for Identity.
   ms.date: 09/07/2021
   author: beccarobins
   ms.author: beccarobins
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-title: Detect threats with Microsoft Cloud App Security
-summary: Learn to identify, mitigate, and automatically remediate security threats by using Microsoft Cloud App Security and Microsoft Defender for Identity.
+title: Detect threats with Microsoft Defender for Cloud Apps
+summary: Learn to identify, mitigate, and automatically remediate security threats by using Microsoft Defender for Cloud Apps and Microsoft Defender for Identity.
 abstract: | 
   In this module, you will:
-  - Create threat protection policies in Cloud App Security
-  - Integrate Cloud App Security with Microsoft Defender for Identity
+  - Create threat protection policies in Defender for Cloud Apps
+  - Integrate Defender for Cloud Apps with Microsoft Defender for Identity
   - Detect threats and manage alerts
   - Detect malware and configure automatic remediation 
 prerequisites: | 
   - Experience working with Microsoft 365 services
   - Experience working with Azure 
   - Knowledge of security concepts, risks, and mitigations
-  - Microsoft Cloud App Security fundamentals or equivalent
+  - Microsoft Defender for Cloud Apps fundamentals or equivalent
 iconUrl: /learn/achievements/cloud-app-security-detect-threats.svg
 levels:
 - intermediate
