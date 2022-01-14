@@ -9,6 +9,10 @@ First, download the [msixmgr tool](https://aka.ms/msixmgr) and save the msixmrg.
 ## Create a VHD or VHDX disk
 
 You must create and initialize a VHD or VHDX disk. You can create the disk by using either the Disk Management MMC console or PowerShell.
+
+>[!NOTE]
+> If you haven't already, make sure you enable Hyper-V by following the instructions in [Install HyperV on Windows 10](/virtualization/hyper-v-on-windows/quick-start/enable-hyper-v).
+
 Use the following steps to create and initialize the VHD or VHDX disk by using PowerShell:
 
 1. Run the following cmdlet in PowerShell to create a VHD:
