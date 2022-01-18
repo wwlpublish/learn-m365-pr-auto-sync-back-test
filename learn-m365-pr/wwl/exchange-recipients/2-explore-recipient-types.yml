@@ -4,7 +4,7 @@ title: Explore recipient types
 metadata:
   title: Explore recipient types
   description: "Explore recipient types"
-  ms.date: 11/19/2021
+  ms.date: 11/24/2021
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -21,10 +21,10 @@ quiz:
     choices:
     - content: "Distribution group"
       isCorrect: false
-      explanation: "That's incorrect. Distribution groups are used to distribute messages to a set of users or contacts. The most common form of a globally available distribution list for sending out one-to-many e-mail messages or where you need to use the membership list elsewhere, such as to determine who Transport Rules should apply to. It can also be used for reaching out to a team as a contact address or used to allow send-as another email alias without creating a shared mailbox. Try again."
+      explanation: "This answer is incorrect. Distribution groups are used to distribute messages to a set of users or contacts. The most common form of a globally available distribution list for sending out one-to-many e-mail messages or where you need to use the membership list elsewhere, such as to determine who Transport Rules should apply to. It can also be used for reaching out to a team as a contact address or used to allow send-as another email alias without creating a shared mailbox. Try again."
     - content: "Linked mailbox"
       isCorrect: false
-      explanation: "That's incorrect. Linked mailboxes are user mailboxes that are associated with specific users in a separate, trusted forest. When you create a linked mailbox, a disabled user account is created in the Exchange organization, and a user account from a trusted forest is given access to the mailbox. Try again."
+      explanation: "This answer is incorrect. Linked mailboxes are user mailboxes that are associated with specific users in a separate, trusted forest. When you create a linked mailbox, a disabled user account is created in the Exchange organization, and a user account from a trusted forest is given access to the mailbox. Try again."
     - content: "Shared mailbox"
       isCorrect: true
-      explanation: "That's correct. Shared mailboxes can be accessed by multiple users as an extra mailbox in Outlook. Team, department, or project mailboxes are used to centrally store, respond to, and manage messages. Organizations often use a shared mailbox to provide one specific mailbox for a dedicated group of people, such as sales, help desk, or general information requests."
+      explanation: "This answer is correct. Shared mailboxes can be accessed by multiple users as an extra mailbox in Outlook. Team, department, or project mailboxes are used to centrally store, respond to, and manage messages. Organizations often use a shared mailbox to provide one specific mailbox for a dedicated group of people, such as sales, help desk, or general information requests."

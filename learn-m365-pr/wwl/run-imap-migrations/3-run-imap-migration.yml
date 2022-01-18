@@ -1,0 +1,30 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.run-imap-migrations.run-imap-migration
+title: Run an IMAP migration
+metadata:
+  title: Run an IMAP migration
+  description: "Run an IMAP migration"
+  ms.date: 12/16/2021
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 5
+content: |
+  [!include[](includes/3-run-imap-migration.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "As the Messaging administrator for Contoso, Holly Dickson just finished running an IMAP migration. What should Holly do next?"
+    choices:
+    - content: "Reset user email passwords"
+      isCorrect: false
+      explanation: "This answer is incorrect. This task should be done before running an IMAP migration. Try again."
+    - content: "Change the MX record to Microsoft 365"
+      isCorrect: true
+      explanation: "This answer is correct. After the IMAP migration is complete, you must change the DNS MX record of all your SMTP domains so that new email is delivered to Microsoft 365. As a best practice, you should wait a day or two to ensure the DNS settings are propagated to all the other SMTP servers on the Internet so that no messages are transferred to your old mail server."
+    - content: "Communicate changes to users"
+      isCorrect: false
+      explanation: "This answer is incorrect. This task should be done before running an IMAP migration. Try again."

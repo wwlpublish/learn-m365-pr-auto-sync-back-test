@@ -19,7 +19,7 @@ You have several options for deploying your add-in. The following table notes ea
 |         Option         |                             Description                             |                                                                                  Best when...                                                                                  |
 | ---------------------- | ------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | Sideload               | Install your add-in locally.                                        | Developer building and testing add-in                                                                                                                                          |
-| Centralized deployment | Distribute your add-in to users via the Microsoft 365 admin center. | Add-in ready for use in your organization on Office 365 or in a hybrid environment                                                                                             |
+| Centralized deployment | Distribute your add-in to users via the Microsoft 365 admin center. | Add-in ready for use in your organization on Microsoft 365 or in a hybrid environment                                                                                             |
 | SharePoint catalog     | Distribute add-in to users via SharePoint.                          | Task pane or content add-in ready for use in your organization that's using an on-premises environment; Excel, Word, or PowerPoint is targeted but Mac isn't a target platform |
 | AppSource              | Make add-in available to the public.                                | Add-in ready for public use                                                                                                                                                    |
 | Exchange server        | Distribute add-in to users via Exchange.                            | Outlook add-in ready for use in an organization whose environment doesn't use Azure Active Directory identity service                                                          |
@@ -53,7 +53,7 @@ If you need to debug your add-in on a specific platform, there are more tools th
 On Windows 10, the tool you use depends on if the add-in is running in Microsoft Edge or Internet Explorer. Your add-in is running in Internet Explorer 11 unless it meets the following criteria to be running in Microsoft Edge.
 
 - Windows 10 (version 1903 or later)
-- Office 365 subscription (build 16.0.11629 or later)
+- Microsoft 365 subscription (build 16.0.11629 or later)
 
 For Microsoft Edge, install and use Microsoft Edge DevTools. For Internet Explorer, run F12 developer tools according to your Office version:
 

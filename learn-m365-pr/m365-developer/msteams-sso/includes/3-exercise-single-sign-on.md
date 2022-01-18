@@ -80,9 +80,9 @@ Next, select **Add a scope** to add a new permission for the app. Create a new s
 
 - **Scope name:** access_as_user
 - **Who can consent?** Admins and users
-- **Admin consent title:** Teams can access the user’s profile.
+- **Admin consent display name:** Teams can access the user’s profile.
 - **Admin consent description:** Teams can call the app’s web APIs as the current user.
-- **User consent title:** Teams can access the user profile and make requests on the user's behalf.
+- **User consent display name:** Teams can access the user profile and make requests on the user's behalf.
 - **User consent description:** Teams can call this app’s APIs with the same rights as the user.
 - **State**: Enabled
 

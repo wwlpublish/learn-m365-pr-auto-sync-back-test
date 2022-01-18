@@ -40,8 +40,8 @@ Now you'll update the application to retrieve and then display all users in the 
 First, add the following two members to the class, immediately before the `Main` method:
 
 ```csharp
-private static object _deltaLink = null;
-private static IUserDeltaCollectionPage _previousPage = null;
+private static object? _deltaLink = null;
+private static IUserDeltaCollectionPage? _previousPage = null;
 ```
 
 ### Add a Method to Display Users
@@ -69,14 +69,14 @@ Otherwise, if there are more pages of users, it will start a request for the nex
 Add the following method to the `Program` class:
 
 ```csharp
-private static IUserDeltaCollectionPage GetUsers(GraphServiceClient graphClient, object deltaLink)
+private static IUserDeltaCollectionPage GetUsers(GraphServiceClient graphClient, object? deltaLink)
 {
   IUserDeltaCollectionPage page;
 
-  // IF this is the first request (previous=null), then request all users
+  // IF this is the first request, then request all users
   //    and include Delta() to request a delta link to be included in the
   //    last page of data
-  if (_previousPage == null)
+  if (_previousPage == null || deltaLink == null)
   {
       page = graphClient.Users
                         .Delta()
@@ -127,7 +127,7 @@ The last thing this method needs to do is retrieve the delta link from the last 
 Add the following code to the end of the `CheckForUpdates` method:
 
 ```csharp
-object deltaLink;
+object? deltaLink;
 
 if (users.AdditionalData.TryGetValue("@odata.deltaLink", out deltaLink))
 {

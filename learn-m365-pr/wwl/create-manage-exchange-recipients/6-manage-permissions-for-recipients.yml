@@ -4,7 +4,7 @@ title: Manage permissions for recipients
 metadata:
   title: Manage permissions for recipients
   description: "Manage permissions for recipients"
-  ms.date: 11/19/2021
+  ms.date: 11/24/2021
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -21,10 +21,10 @@ quiz:
     choices:
     - content: "Remove Full Access permissions to all user mailboxes for each administrator"
       isCorrect: false
-      explanation: "That's incorrect. This action isn't what Contoso should do to address this situation. Try again."
+      explanation: "This answer is incorrect. This action isn't what Contoso should do to address this situation. Try again."
     - content: "Change each administrator's permissions for all user mailboxes from Full Access to Send As"
       isCorrect: false
-      explanation: "That's incorrect. This action isn't what Contoso should do to address this situation. Try again."
+      explanation: "This answer is incorrect. This action isn't what Contoso should do to address this situation. Try again."
     - content: "Disable Automapping"
       isCorrect: true
-      explanation: "That's correct. Automapping is an Exchange feature that allows an Outlook client to automatically map to any mailbox to which the user has Full Access permissions. If a user has Full Access permissions to so many mailboxes that it causes performance issues when starting Outlook, then you may need to disable automapping."
+      explanation: "This answer is correct. Automapping is an Exchange feature that allows an Outlook client to automatically map to any mailbox to which the user has Full Access permissions. If a user has Full Access permissions to so many mailboxes that it causes performance issues when starting Outlook, then you may need to disable automapping."

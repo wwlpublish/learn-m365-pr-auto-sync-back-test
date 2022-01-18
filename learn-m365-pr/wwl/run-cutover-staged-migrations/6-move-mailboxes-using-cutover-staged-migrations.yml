@@ -1,0 +1,30 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.run-cutover-staged-migrations.move-mailboxes-using-cutover-staged-migrations
+title: Move mailboxes using cutover and staged migrations
+metadata:
+  title: Move mailboxes using cutover and staged migrations
+  description: "Move mailboxes using cutover and staged migrations"
+  ms.date: 12/17/2021
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 10
+content: |
+  [!include[](includes/6-move-mailboxes-using-cutover-staged-migrations.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "Which of the following items is a prerequisite to creating a migration batch for a cutover or staged migration?"
+    choices:
+    - content: "Creating a migration endpoint to connect Microsoft 365"
+      isCorrect: true
+      explanation: "This answer is correct. Creating a migration endpoint to connect Microsoft 365 to your on-premises Exchange server is a prerequisite to creating a migration batch for a cutover or staged migration. Once the batch is created, you must verify this connection. The connection can be verified as a separate task in the EAC or during creation of the migration batch."
+    - content: "Enabling Unified Messaging on the mailboxes before you migrate them"
+      isCorrect: false
+      explanation: "This is incorrect. UM must be disabled on the mailboxes before you migrate them. That being said, UM isn't a prerequisite to creating a migration batch for a cutover or staged migration. Try again."
+    - content: "Disabling directory synchronization on the company's Microsoft 365 tenant"
+      isCorrect: false
+      explanation: "This answer is incorrect. Directory synchronization must be disabled for cutover migrations, but it's required for staged migrations. That being said, directory synchronization isn't a prerequisite to creating a migration batch for a cutover or staged migration. Try again."

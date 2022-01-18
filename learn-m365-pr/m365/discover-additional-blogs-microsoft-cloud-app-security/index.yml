@@ -1,15 +1,15 @@
 ### YamlMime:Module
 uid: learn-m365.discover-additional-blogs-mcas
 metadata:
-  title: Discover additional resources for Microsoft Cloud App Security
-  description: Learn where to find more information to help you to manage and administer Microsoft Cloud App Security. Keep up to date with announcements about Cloud App Security.
+  title: Discover additional resources for Microsoft Defender for Cloud Apps
+  description: Learn where to find more information to help you to manage and administer Microsoft Defender for Cloud Apps. Keep up to date with announcements about Defender for Cloud Apps.
   ms.date: 07/20/2021
   author: beccarobins
   ms.author: beccarobins
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-title: Discover additional resources for Microsoft Cloud App Security
-summary: Learn where to find more information to help you to manage and administer Microsoft Cloud App Security. Keep up to date with announcements about Cloud App Security.
+title: Discover additional resources for Microsoft Defender for Cloud Apps
+summary: Learn where to find more information to help you to manage and administer Microsoft Defender for Cloud Apps. Keep up to date with announcements about Defender for Cloud Apps.
 abstract: | 
   In this module, you will:
   - Review additional blogs 
@@ -17,7 +17,7 @@ prerequisites: |
   - Experience working with Microsoft 365 services
   - Experience working with Azure 
   - Knowledge of security concepts, risks, and mitigations
-  - Microsoft Cloud App Security intermediate or equivalent
+  - Microsoft Defender for Cloud Apps intermediate or equivalent
 iconUrl: /learn/achievements/discover-additional-resources-for-microsoft-cloud-app-security.svg
 levels:
 - advanced

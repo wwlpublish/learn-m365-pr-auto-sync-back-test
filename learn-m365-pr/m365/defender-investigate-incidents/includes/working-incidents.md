@@ -12,13 +12,13 @@ Grouping related alerts and threat data into an incident helps you see:
 
 ## Example cyber attack
 
-:::image type="content" source="../media/2-attack-chain-overpass-the-hash-spear-phishing-lateral-movement.png" alt-text="Diagram showing the initial access through spear-phishing and lateral movement through overpass-the-hash attack":::
+:::image type="content" source="../media/2-attack-chain-overpass-the-hash-spear-phishing-lateral-movement.png" alt-text="Diagram showing the initial access through spear-phishing and lateral movement through overpass-the-hash attack" lightbox="../media/2-attack-chain-overpass-the-hash-spear-phishing-lateral-movement.png":::
 
 In this example, an attacker starts with a spear-phishing email targeting a specific user. The email contains a malicious link to download a file that contains the Meterpreter payload. With the malicious code running on the target device, an attacker performs reconnaissance to understand which users have signed into the device and which other devices these users have access to.
 
 The attacker finds the credentials of an IT helpdesk team member. Impersonating this IT helpdesk team member using the overpass-the-hash method, the attacker moves laterally to a second device. On a new device, they steal the user's web credentials, which they use to remotely access the user's cloud apps like OneDrive or SharePoint. This allows the attacker to insert a malicious macro into an existing online Word document, which they then deploy in a lateral phishing attack by distributing links to the malicious document to other users in the organization.
 
-As a security analyst for an attack like this, you need all of the alert and threat information from multiple sources collated in the same place, such as Microsoft Defender for Office 365 for the phishing email, Microsoft Defender for Endpoint for the devices, Microsoft Defender for Identity for the compromised user accounts, and Microsoft Cloud App Security for OneDrive and SharePoint.
+As a security analyst for an attack like this, you need all of the alert and threat information from multiple sources collated in the same place, such as Microsoft Defender for Office 365 for the phishing email, Microsoft Defender for Endpoint for the devices, Microsoft Defender for Identity for the compromised user accounts, and Microsoft Defender for Cloud Apps for OneDrive and SharePoint.
 
 Microsoft 365 Defender can automatically collect and correlate isolated alerts and other related security events into incidents in an incident queue, reducing workloads so you have fewer, more comprehensive work items. The incident queue brings together related alerts, affected assets, and other evidence, making it easier to understand the complete attack story and take informed actions.
 
@@ -112,7 +112,7 @@ You can add multiple comments to an incident with the Comment field. Each commen
 
 Here's an example workflow for responding to incidents with the Microsoft 365 Defender portal.
 
-:::image type="content" source="../media/2-incidents-example-workflow.png" alt-text="Diagram showing the incident response workflow":::
+:::image type="content" source="../media/2-incidents-example-workflow.png" alt-text="Diagram showing the incident response workflow" lightbox="../media/2-incidents-example-workflow.png":::
 
 On an ongoing basis, identify the highest priority incidents for analysis and resolution in the incident queue and get them ready for response. This is a combination of:
 

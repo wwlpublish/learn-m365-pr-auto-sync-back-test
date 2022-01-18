@@ -20,7 +20,7 @@ The following table lists all the schemas and a short description of the data it
 |Table name|Description|
 |-|-|
 |**AlertEvidence**|It contains information about various entities: files, IP addresses, URLs, users, or devices.|
-|**AlertInfo**|Contains information about alerts from Microsoft Defender for Endpoint, Microsoft Defender for Office 365, Microsoft Cloud App Security, and Microsoft Defender for Identity.|
+|**AlertInfo**|Contains information about alerts from Microsoft Defender for Endpoint, Microsoft Defender for Office 365, Microsoft Defender for Cloud Apps, and Microsoft Defender for Identity.|
 |**CloudAppEvents**|Events involving accounts and objects in Office 365 and other cloud apps and services|
 |**DeviceEvents**|Multiple event types, including events triggered by security controls such as Windows Defender Antivirus and exploit protection|
 |**DeviceFileCertificateInfo**|Certificate information of signed files obtained from certificate verification events on endpoints|

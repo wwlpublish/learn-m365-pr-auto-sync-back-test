@@ -3,7 +3,7 @@ uid: learn-m365.msgraph-access-user-data.3-exercise-reading-users
 metadata:
   title: Exercise - Working with users in the organization
   description: In this exercise, you'll create an Azure AD application registration using the Azure Active Directory admin center, a .NET Core console application, and query Microsoft Graph for user data.
-  ms.date: 09/13/2021
+  ms.date: 12/08/2021
   author: andrewconnell-msft
   ms.author: suzanz
   ms.topic: interactive-tutorial

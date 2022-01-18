@@ -11,4 +11,4 @@ In this module, you'll learn the purpose and benefits of MSIX and MSIX app attac
 After completing this module, you'll be able to transform existing applications with the MSIX packaging tool and manage MSIX app attach.
 
 > [!NOTE]
-> If you perform the exercise in this module, you might incur costs in your Azure subscription. To estimate the costs, see [Azure Sentinel pricing](https://azure.microsoft.com/pricing/details/azure-sentinel/).
+> If you perform the exercise in this module, you might incur costs in your Azure subscription. To estimate the costs, see [Microsoft Sentinel pricing](https://azure.microsoft.com/pricing/details/azure-sentinel/).

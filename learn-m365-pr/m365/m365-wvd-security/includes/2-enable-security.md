@@ -53,7 +53,7 @@ Security processes and components contribute to this Azure AD identity as a serv
 
 - Using static and dynamic Conditional Access policies.
 - Using authentication that's enhanced with multifactor authentication.
-- Subscribing to Azure Security Center or Azure Defender for its integrated vulnerability assessment.
+- Subscribing to Microsoft Defender for Cloud or Microsoft Defender for its integrated vulnerability assessment.
 - Using strong credential management services and policies.
 
 The following load-balancing methods are available in Azure Virtual Desktop. Breadth-first load balancing and depth-first load balancing permit the customization for Azure Virtual Desktop host pools to match your deployment needs.

@@ -3,7 +3,7 @@ uid: learn.wwl.manage-exchange-online-archiving-auditing
 metadata:
   title: Manage Exchange Online archiving and auditing
   description: "Manage Exchange Online archiving and auditing"
-  ms.date: 11/01/2021
+  ms.date: 01/12/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -16,7 +16,7 @@ abstract: |
   - Understand the differences between journaling and archiving.
   - Identify how mailbox and administrator audit logs are used.
 prerequisites: ""
-iconUrl: /learn/achievements/generic-badge.svg
+iconUrl: /learn/achievements/exchange-online-auditing.svg
 levels:
 - intermediate
 roles:

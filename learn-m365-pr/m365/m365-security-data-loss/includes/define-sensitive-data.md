@@ -39,5 +39,5 @@ The following use case illustrates the lifecycle of a document.
 Where could you use Data Loss Prevention (DLP) in this scenario?
 
 - Use DLP policies to block the sending of emails that contain bank account information or Social Security numbers, or optionally apply encryption automatically to the messages.
-- Use Microsoft Cloud App Security to block the upload, download, or sharing of sensitive information that resides in a cloud repository
+- Use Microsoft Defender for Cloud Apps to block the upload, download, or sharing of sensitive information that resides in a cloud repository
 - Consider applying Rights Management service (RMS) on the SharePoint library hosting the documents.
