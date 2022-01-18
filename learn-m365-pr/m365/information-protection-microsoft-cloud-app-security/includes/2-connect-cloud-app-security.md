@@ -25,7 +25,7 @@ These are the steps to connect Office 365 to Cloud App Security, as an example. 
 
 1. In the Cloud App Security portal, select **Settings**, and select **App connectors**.
 
-    :::image type="content" source="../media/2-app-connectors.png" alt-text="App connectors." lightbox="../media/2-app-connectors-zoomed.png":::
+    :::image type="content" source="../media/2-app-connectors.png" alt-text="App connectors." lightbox="../media/2-app-connectors-menu.png":::
 
 2. Select **+** and select **Office 365**.
 
