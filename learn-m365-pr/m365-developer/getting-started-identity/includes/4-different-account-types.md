@@ -1,8 +1,8 @@
 This unit will cover the different account types that are used within the Microsoft identity platform. You'll also learn about the differences and relationships between applications and service principals.
 
-Developers that leverage the Microsoft identity platform within custom apps begin with registering an application in Azure AD. It doesn’t matter if the app runs on a mobile device or in the cloud. If the runs in the cloud, it doesn't matter which cloud provider hosts it. The app can even be a PowerShell script. The Azure AD application is the control point for how you access the identity and the information it protects.
+Developers that use the Microsoft identity platform within custom apps begin with registering an application in Azure AD. It doesn’t matter if the app runs on a mobile device or in the cloud. If it runs in the cloud, it doesn't matter which cloud provider hosts it. The app can even be a PowerShell script. The Azure AD application is the control point for how you access the identity and the information it protects.
 
-You as the developer have a number of choices to make and the choices you make are driven by the requirements for your application. Developers have to decide:
+You as the developer have many choices to make and the choices you make are driven by the requirements for your application. Developers have to decide:
 
 - how will customers get the app
 - should the app do work on behalf of a user, or as the app itself
@@ -35,7 +35,7 @@ Building great multi-tenant apps can be challenging because of the number of dif
 
 Test your app in a tenant that has configured Conditional Access policies. The Conditional Access feature in Azure AD offers one of several ways that IT Pros can use to secure your app and protect a service. Conditional Access enables enterprise customers to protect services in a multitude of ways including multi-factor authentication, allowing only Intune-enrolled devices to access specific services, and restricting user locations and IP ranges. Your application may, or may not, acquire access tokens due to various Conditional Access Policies. Your app must gracefully handle not obtaining an access token.​
 
-Your apps should also follow the principle of least user access to ensure that your app only requests permissions it actually needs. Avoid requesting permissions that require admin consent as this may prevent users from acquiring your app at all in some organizations.​
+Your apps should also follow the principle of least user access to ensure that your app only requests permissions it actually needs. Avoid requesting permissions that require admin consent as it may prevent users from acquiring your app at all in some organizations.​
 
 Finally, provide appropriate names and descriptions for any permissions you expose as part of your app. This helps users and admins know what they are agreeing to when they attempt to use your app's APIs.​
 
@@ -64,9 +64,9 @@ For a multi-tenant application, when an application is given permission to acces
 
 Consider the application object as the *global* representation of your application for use across all tenants, and the service principal as the *local* representation for use in a specific tenant.
 
-The application object serves as the template from which common and default properties are derived for use in creating corresponding service principal objects. Application objects therefore have a 1:1 relationship with the software application, and a 1:many relationship with its corresponding service principal object(s).
+The application object serves as the template from which common and default properties are derived for use in creating corresponding service principal objects. Application objects therefore have a 1:1 relationship with the software application, and a 1:many relationships with its corresponding service principal object(s).
 
-Service principals must be created in each tenant where the application is used, enabling it to establish an identity for sign in and/or access to resources being secured by the tenant.
+Service principals must be created in each tenant where the application is used, enabling it to establish an identity for sign-in and/or access to resources being secured by the tenant.
 
 A Single-tenant application has only one service principal (in its home tenant), created and consented for use during application registration.
 
