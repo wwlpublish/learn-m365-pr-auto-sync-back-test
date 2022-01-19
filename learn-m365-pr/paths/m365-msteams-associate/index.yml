@@ -3,7 +3,7 @@ uid: learn-m365.msteams-associate
 metadata:
   title: Develop apps for Microsoft Teams – Associate
   description: Microsoft Teams is an extensible platform you can create custom apps on; putting your app at the heart of your organizations collaboration platform. Apps for Microsoft Teams can be as simple or as complex as you need, from sending notifications to channels or users to complex multi-surface apps incorporating conversational bots, natural language processing, and embedded web experiences. You can build apps for an individual, your team, your organization, or for all Microsoft Teams users everywhere. Learn how to customize and extend Microsoft Teams.
-  ms.date: 01/20/2022
+  ms.date: 01/19/2022
   author: andrewconnell
   ms.author: v-johnco
   ms.topic: interactive-tutorial
@@ -28,6 +28,6 @@ modules:
   - learn-m365.msteams-webhooks-connectors
   - learn-m365.msteams-teamwork-endpoint
   - learn-m365.msteams-sso
-  - learn-m365.learn-m365.msteams-meetings-apps
+  - learn-m365.msteams-meetings-apps
 trophy:
   uid: learn-m365.msteams-associate.trophy

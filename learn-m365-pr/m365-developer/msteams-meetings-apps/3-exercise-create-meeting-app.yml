@@ -3,7 +3,7 @@ uid: learn-m365.msteams-meetings-apps.3-exercise-create-meeting-app
 metadata:
   title: Exercise - Creating meeting apps for Microsoft Teams
   description: In this exercise, you'll create a Microsoft Teams meetings app, install it into a new meeting, and interact with it before the meeting starts. This app will be used to organize and manage a product team's stand-up presentations to the rest of the team.
-  ms.date: 01/20/2022
+  ms.date: 01/19/2022
   author: andrewconnell-msft
   ms.author: v-johnco
   ms.topic: interactive-tutorial

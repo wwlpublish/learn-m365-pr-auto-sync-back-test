@@ -3,7 +3,7 @@ uid: learn-m365.msteams-meetings-apps.2-understand-meeting-apps
 metadata:
   title: Understand Microsoft Teams meetings apps
   description: Enhance your meeting experience by using the meeting extensibility feature. This feature enables you to integrate your apps within meetings. It also includes different stages of a meeting lifecycle, where you can integrate tabs, bots, and messaging extensions. In this unit, you'll learn what Microsoft Teams meetings apps are, how to create one, and how to interact with the app before the meeting starts.
-  ms.date: 01/20/2022
+  ms.date: 01/19/2022
   author: andrewconnell-msft
   ms.author: v-johnco
   ms.topic: interactive-tutorial

@@ -3,7 +3,7 @@ uid: learn-m365.msteams-meetings-apps.7-exercise-post-meeting-experience
 metadata:
   title: Exercise - Implement a post-meeting experience for attendees
   description: In this exercise, you'll improve on the existing Microsoft Teams meetings app by implementing the post-meeting experience. The tab in the meeting will display the presentations delivered during the meeting and include the resources for each of the presentations that were submitted by the presenter in the pre-meeting experience.
-  ms.date: 01/20/2022
+  ms.date: 01/19/2022
   author: andrewconnell-msft
   ms.author: v-johnco
   ms.topic: interactive-tutorial
