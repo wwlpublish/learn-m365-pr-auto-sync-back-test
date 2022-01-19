@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.msteams-meetings-apps.6-post-meeting-experience
+metadata:
+  title: Implement a post-meeting experience for attendees
+  description: The final stage of a Microsoft Teams meetings app is the post-meeting experience. In this scenario, meeting attendees can view a custom app experience in a tab from the meeting invite details. In this unit, you'll learn how you can implement the post-meeting experience for attendees.
+  ms.date: 01/20/2022
+  author: andrewconnell-msft
+  ms.author: v-johnco
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Implement a post-meeting experience for attendees
+durationInMinutes: 5
+content: |
+  [!include[](includes/6-post-meeting-experience.md)]
