@@ -25,7 +25,7 @@ These are the steps to connect Office 365 to Defender for Cloud Apps, as an exam
 
 1. In the Defender for Cloud Apps portal, select **Settings**, and select **App connectors**.
 
-    :::image type="content" source="../media/2-app-connectors.png" alt-text="App connectors.":::
+    :::image type="content" source="../media/2-app-connectors.png" alt-text="App connectors." lightbox="../media/2-app-connectors-menu.png":::
 
 2. Select **+** and select **Office 365**.
 
