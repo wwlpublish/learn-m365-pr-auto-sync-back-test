@@ -31,7 +31,7 @@ quiz:
     - content: "Only ask for the permissions required for implemented app functionality."
       isCorrect: false
       explanation: "This is a good practice that should be adopted."
-    - content: "When requesting permissions for app functionality, you should request the lease-privileged access."
+    - content: "When requesting permissions for app functionality, you should request the least-privileged access."
       isCorrect: false
       explanation: "This is a good practice that should be adopted."
     - content: "When registering apps with Azure AD, it's a good idea to always use the admin consent option so users aren't bothered with permission consent requests."
