@@ -23,6 +23,7 @@ roles:
 - administrator
 products:
 - m365
+- mem-intune
 units:
 - learn-wwl.manage-applications-by-using-microsoft-intune.1-understanding-mobile-application-management
 - learn-wwl.manage-applications-by-using-microsoft-intune.2-deploying-and-updating-applications

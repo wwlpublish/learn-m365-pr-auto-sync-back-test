@@ -25,6 +25,7 @@ roles:
 - administrator
 products:
 - m365-ems-cloud-app-security
+- defender-for-cloud-apps
 units:
 - learn-m365.mcas-casbs.1-introduction
 - learn-m365.mcas-casbs.2-what-are-cloud-access-security-brokers

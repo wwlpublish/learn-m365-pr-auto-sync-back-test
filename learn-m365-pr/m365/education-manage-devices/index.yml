@@ -25,6 +25,7 @@ roles:
 - administrator
 products: 
 - m365
+- mem-intune
 units:
 - learn-m365.edu-manage-devices.introduction
 - learn-m365.edu-manage-devices.access-intune-education

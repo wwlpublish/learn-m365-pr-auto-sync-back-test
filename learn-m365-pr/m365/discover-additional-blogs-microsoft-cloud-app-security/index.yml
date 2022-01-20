@@ -25,6 +25,7 @@ roles:
 - administrator
 products:
 - m365-ems-cloud-app-security
+- defender-for-cloud-apps
 units:
 - learn-m365.discover-additional-blogs-mcas.1-introduction
 - learn-m365.discover-additional-blogs-mcas.2-review-additional-blogs

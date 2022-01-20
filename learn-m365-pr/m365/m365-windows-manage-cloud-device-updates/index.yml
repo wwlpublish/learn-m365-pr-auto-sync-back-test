@@ -24,6 +24,7 @@ roles:
 products:
 - windows
 - mem-intune
+- windows-19044
 units:
 - learn-m365-pr.m365-windows.manage-windows-updates-cloud.1-introduction
 - learn-m365-pr.m365-windows.manage-windows-updates-cloud.2-get-updates-windows-devices

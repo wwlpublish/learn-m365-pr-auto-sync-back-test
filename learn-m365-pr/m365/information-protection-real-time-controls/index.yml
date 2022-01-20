@@ -33,6 +33,7 @@ roles:
 - administrator
 products:
 - m365-ems-cloud-app-security
+- m365-information-protection
 units:
 - learn-m365.information-protection-real-time-controls.1-introduction
 - learn-m365.information-protection-real-time-controls.2-connect-box-salesforce-github

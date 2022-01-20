@@ -29,6 +29,7 @@ products:
   - m365
   - m365-security-center
   - m365-threat-protection
+  - mdatp
 units:
 - learn-m365-pr.detect-respond-to-security-issues-using-microsoft-defender-for-endpoint.introduction
 - learn-m365-pr.detect-respond-to-security-issues-using-microsoft-defender-for-endpoint.use-alerts-incidents-queues

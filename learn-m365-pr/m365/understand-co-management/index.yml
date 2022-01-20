@@ -28,6 +28,7 @@ roles:
 products:
 - m365
 - mem
+- mem-configuration-manager
 units:
 - learn.set-up-co-management.introduction
 - learn.set-up-co-management.understand-co-management

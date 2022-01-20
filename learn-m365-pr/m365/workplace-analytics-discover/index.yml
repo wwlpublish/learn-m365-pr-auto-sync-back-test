@@ -26,6 +26,7 @@ roles:
 products:
 - m365
 - m365-workplace-analytics
+- viva-insights
 units:
 - learn-m365.workplace-analytics-discover.introduction
 - learn-m365.workplace-analytics-discover.see-how-tool-works
