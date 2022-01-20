@@ -29,6 +29,7 @@ roles:
 - administrator
 products:
 - m365-ems-cloud-app-security
+- defender-for-cloud-apps
 units:
 - learn-m365.implement-mcas-cloud-discovery.1-introduction
 - learn-m365.implement-mcas-cloud-discovery.2-what-is-cloud-discovery-in-cloud-app-security

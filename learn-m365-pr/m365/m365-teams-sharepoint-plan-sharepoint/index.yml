@@ -28,6 +28,8 @@ roles:
 products:
 - m365
 - office-365
+- office-teams
+- office-sp
 units:
 - learn-m365.m365-teams-sharepoint-plan-sharepoint.introduction
 - learn-m365.m365-teams-sharepoint-plan-sharepoint.administer-sharepoint

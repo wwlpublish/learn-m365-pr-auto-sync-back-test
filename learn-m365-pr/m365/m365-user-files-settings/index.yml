@@ -25,6 +25,7 @@ roles:
 - administrator
 products:
 - m365
+- office-onedrive
 units:
 - learn-m365.user-files-settings.1-introduction
 - learn-m365.user-files-settings.2-manual-automated-migrations

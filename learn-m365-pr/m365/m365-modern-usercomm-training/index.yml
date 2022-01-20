@@ -25,6 +25,7 @@ products:
 - m365
 - windows
 - office-365
+- windows-19044
 units:
 - learn-m365.modern-usercomm-training.1-introduction
 - learn-m365.modern-usercomm-training.2-communicating-benefits

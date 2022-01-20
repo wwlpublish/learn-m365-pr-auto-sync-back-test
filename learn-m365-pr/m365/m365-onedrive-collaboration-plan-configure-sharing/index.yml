@@ -26,6 +26,7 @@ levels:
 - intermediate
 roles:
 - administrator
+- office-onedrive
 products:
 - m365
 - office-365

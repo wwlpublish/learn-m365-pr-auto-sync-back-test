@@ -26,6 +26,7 @@ roles:
 - administrator
 products:
 - m365-ems-cloud-app-security
+- defender-for-cloud-apps
 units:
 - learn-m365.integrate-third-party-identity-providers-mcas.1-introduction
 - learn-m365.integrate-third-party-identity-providers-mcas.2-protect-apps-conditional-access-app-control
