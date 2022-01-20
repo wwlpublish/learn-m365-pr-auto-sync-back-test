@@ -3,7 +3,7 @@ uid: learn-m365.implement-mcas-cloud-discovery.3-implement-cloud-discovery-polic
 metadata:
   title: Implement Cloud Discovery policies
   description: Microsoft Defender for Cloud Apps provides policy-driven mechanisms to help manage your users behavior in the cloud
-  ms.date: 07/19/2021
+  ms.date: 11/03/2021
   author: beccarobins
   ms.author: beccarobins
   ms.topic: interactive-tutorial

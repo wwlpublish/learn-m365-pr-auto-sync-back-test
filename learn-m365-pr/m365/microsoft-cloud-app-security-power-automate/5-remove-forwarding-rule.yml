@@ -3,7 +3,7 @@ uid: learn-m365.mcas-power-automate.5-remove-forwarding-rule
 metadata:
   title: Remove a malicious inbox forwarding rule using Power Automate
   description: Learn to remove a malicious inbox forwarding rule using Power Automate
-  ms.date: 03/03/2021
+  ms.date: 11/03/2021
   author: beccarobins
   ms.author: beccarobins
   ms.topic: interactive-tutorial

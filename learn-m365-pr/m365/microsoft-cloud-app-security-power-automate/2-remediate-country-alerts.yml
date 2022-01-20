@@ -3,7 +3,7 @@ uid: learn-m365.mcas-power-automate.2-remediate-country-alerts
 metadata:
   title: Automatically remediate Microsoft Defender for Cloud Apps infrequent country alerts using Power Automate
   description: Learn to automatically remediate Microsoft Defender for Cloud Apps infrequent country alerts using Power Automate
-  ms.date: 03/03/2021
+  ms.date: 11/03/2021
   author: beccarobins
   ms.author: beccarobins
   ms.topic: interactive-tutorial

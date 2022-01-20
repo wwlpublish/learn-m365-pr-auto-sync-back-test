@@ -4,7 +4,7 @@ metadata:
   moduleType: standard
   title: Gain insights through reporting in Microsoft Defender for Endpoint
   description: Learn about the different reporting capabilities in Microsoft Defender for Endpoint including the threat protection report, vulnerable devices report, device health and compliance reports, custom reports, and threat analytics.
-  ms.date: 08/17/2021
+  ms.date: 11/03/2021
   author: beccarobins
   ms.author: beccarobins
   ms.topic: interactive-tutorial
