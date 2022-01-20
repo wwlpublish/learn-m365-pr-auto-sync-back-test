@@ -3,7 +3,7 @@ uid: learn-m365.implement-mcas-threat-detection
 metadata:
   title: Detect threats with Microsoft Defender for Cloud Apps
   description: Learn to identify, mitigate, and automatically remediate security threats by using Microsoft Defender for Cloud Apps and Microsoft Defender for Identity.
-  ms.date: 09/07/2021
+  ms.date: 11/03/2021
   author: beccarobins
   ms.author: beccarobins
   ms.topic: interactive-tutorial

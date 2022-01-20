@@ -3,7 +3,7 @@ uid: learn-m365.mcas-siem-integration.5-connect-siem
 metadata:
   title: Connect a non-Microsoft SIEM solution to Microsoft Defender for Cloud Apps
   description: Learn how to connect a non-Microsoft SIEM solution to Microsoft Defender for Cloud Apps
-  ms.date: 06/30/2021
+  ms.date: 01/13/2022
   author: beccarobins
   ms.author: beccarobins
   ms.topic: interactive-tutorial

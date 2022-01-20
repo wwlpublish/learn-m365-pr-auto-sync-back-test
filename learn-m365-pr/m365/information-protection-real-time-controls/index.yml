@@ -3,7 +3,7 @@ uid: learn-m365.information-protection-real-time-controls
 metadata:
   title: Protect information in real time with Microsoft Defender for Cloud Apps
   description: Learn to configure information protection in Microsoft Defender for Cloud Apps and protect data stored in all locations, including non-Microsoft services.
-  ms.date: 10/19/2021
+  ms.date: 11/03/2021
   author: beccarobins
   ms.author: beccarobins
   ms.topic: interactive-tutorial

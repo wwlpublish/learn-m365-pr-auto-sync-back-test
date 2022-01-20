@@ -3,7 +3,7 @@ uid: learn-m365.implement-mcas-threat-detection.3-integrate-cloud-app-security-w
 metadata:
   title: Integrate Defender for Cloud Apps with Microsoft Defender for Identity
   description: Microsoft Defender for Identity integrates with your on-premises AD DS environment to help you detect, investigate, and identify advanced threats, compromised identities, and other malicious actions
-  ms.date: 07/02/2021
+  ms.date: 11/03/2021
   author: beccarobins
   ms.author: beccarobins
   ms.topic: interactive-tutorial

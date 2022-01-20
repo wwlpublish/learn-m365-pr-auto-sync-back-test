@@ -3,7 +3,7 @@ uid: learn-m365.implement-mcas-cloud-discovery.5-configure-cloud-app-security-lo
 metadata:
   title: Configure the Defender for Cloud Apps log collector
   description: You can use Defender for Cloud Apps log collector to help automate log upload from your corporate network
-  ms.date: 07/02/2021
+  ms.date: 11/03/2021
   author: beccarobins
   ms.author: beccarobins
   ms.topic: interactive-tutorial
