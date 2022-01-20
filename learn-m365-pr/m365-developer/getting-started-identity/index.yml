@@ -29,7 +29,6 @@ roles:
 products:
 - m365
 - azure-active-directory
-- 
 units:
 - learn-m365.getting-started-identity.1-introduction
 - learn-m365.getting-started-identity.2-different-token-types
