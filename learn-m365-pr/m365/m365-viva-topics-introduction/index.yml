@@ -31,6 +31,7 @@ roles:
 - solution-architect
 products:
 - m365
+- viva-topics
 units:
 - learn-m365.viva-topics-intro.introduction
 - learn-m365.viva-topics-intro.ai-interaction
