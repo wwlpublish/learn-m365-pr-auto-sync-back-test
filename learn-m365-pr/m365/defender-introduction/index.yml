@@ -29,7 +29,6 @@ products:
   - m365-ems-cloud-app-security
   - m365-security-center
   - m365-threat-protection
-  - m365d
 units:
 - learn-m365-pr.defender-introduction.introduction
 - learn-m365-pr.defender-introduction.what-microsoft-365-defender
