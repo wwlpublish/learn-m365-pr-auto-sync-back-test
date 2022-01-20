@@ -3,7 +3,7 @@ uid: learn-m365.mcas-siem-integration
 metadata:
   title: Connect Security Information and Event Management solutions to Microsoft Defender for Cloud Apps
   description: Learn how to connect Microsoft Sentinel and other SIEM solutions to Microsoft Defender for Cloud Apps.
-  ms.date: 10/19/2021
+  ms.date: 01/13/2022
   author: beccarobins
   ms.author: beccarobins
   ms.topic: interactive-tutorial

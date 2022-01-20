@@ -3,7 +3,7 @@ uid: learn-m365.teams.defends-against-threats
 metadata:
   title: Defend against threats in Teams
   description: Learn about the powerful tools that can help identify and protect your cloud-based services using Microsoft Defender for Endpoint, Defender for Cloud Apps, and Conditional Access.
-  ms.date: 10/20/2021
+  ms.date: 11/05/2021
   author: temanteleary
   ms.author: teleary
   ms.topic: interactive-tutorial
