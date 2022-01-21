@@ -25,6 +25,7 @@ roles:
   - security-operations-analyst
 products:
   - m365-ems
+  - defender-identity
 units:
 - learn-m365-pr.defender-identity-plan.introduction
 - learn-m365-pr.defender-identity-plan.overview-architecture

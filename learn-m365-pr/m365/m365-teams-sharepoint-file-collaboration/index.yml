@@ -26,6 +26,8 @@ roles:
 - administrator
 products:
 - m365
+- office-teams
+- office-sp
 units:
 - learn-m365.m365-teams-sharepoint-file-collaboration.introduction
 - learn-m365.m365-teams-sharepoint-file-collaboration.sharing-sites-groups-teams

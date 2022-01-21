@@ -25,6 +25,7 @@ products:
 - m365
 - office-365
 - windows
+- windows-19044
 units:
 - learn-m365.get-modern-intro.1-get-started-w10-o365pp
 - learn-m365.get-modern-intro.2-deployment-process

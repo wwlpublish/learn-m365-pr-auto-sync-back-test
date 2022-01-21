@@ -28,6 +28,7 @@ roles:
 - administrator
 products:
 - m365-ems-cloud-app-security
+- defender-for-cloud-apps
 units:
 - learn-m365.implement-mcas-threat-detection.1-introduction
 - learn-m365.implement-mcas-threat-detection.2-create-threat-protection-policies-in-cloud-app-security

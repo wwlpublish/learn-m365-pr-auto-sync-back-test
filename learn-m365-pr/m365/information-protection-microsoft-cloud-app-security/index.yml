@@ -25,6 +25,8 @@ roles:
 - administrator
 products:
 - m365-ems-cloud-app-security
+- defender-for-cloud-apps
+- m365-information-protection
 units:
 - learn-m365.information-protection-microsoft-cloud-app-security.1-introduction
 - learn-m365.information-protection-microsoft-cloud-app-security.2-connect-cloud-app-security
