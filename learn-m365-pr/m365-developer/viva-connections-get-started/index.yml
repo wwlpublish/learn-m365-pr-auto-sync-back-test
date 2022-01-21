@@ -24,6 +24,7 @@ roles:
   - developer
 products:
   - m365
+  - viva-connections
 units:
 - learn-m365.viva-connections-get-started.introduction
 - learn-m365.viva-connections-get-started.what-is-microsoft-viva-connections
