@@ -1,4 +1,4 @@
-Microsoft Cloud App Security provides policy-driven mechanisms to help manage your users' behavior in the cloud. Policies enable you to detect and identify:
+Microsoft Defender for Cloud Apps provides policy-driven mechanisms to help manage your users' behavior in the cloud. Policies enable you to detect and identify:
 
 - Violations
 - Risky behavior
@@ -22,9 +22,9 @@ The following table describes the available policy types.
 
 ## Work with policies
 
-To create policies, you use the Cloud App Security **Control** node. Select **Policies** to review existing, default policies.
+To create policies, you use the Defender for Cloud Apps **Control** node. Select **Policies** to review existing, default policies.
 
-:::image type="content" source="../media/policies-1.png" alt-text="A screenshot of the Policies page in Cloud App Security, displaying a list of policies sorted by Category.":::
+:::image type="content" source="../media/policies-1.png" alt-text="A screenshot of the Policies page in Defender for Cloud Apps, displaying a list of policies sorted by Category.":::
 
 To create a new policy, you can either:
 
@@ -48,7 +48,7 @@ For example, if you're working in an Activity log, with files, or investigating 
 
 As mentioned, app discovery policies enable you to set notification alerts when new apps are detected within your organization. To create a Cloud Discovery policy, use the following procedure:
 
-1. In Cloud App Security, select **Control**, select **Policies**, and then select **Create policy**.
+1. In Defender for Cloud Apps, select **Control**, select **Policies**, and then select **Create policy**.
 2. In the **Create policy** list, select **App discovery policy**.
 3. Enter the following information:
 
@@ -102,7 +102,7 @@ For example, the following screenshot displays the settings for an app discovery
 
 In addition to app discovery, you can use Cloud Discovery anomaly detection policies to discover cloud apps and search for unusual occurrences. These policies leverage the logs you use for discovering cloud apps. Creating an app anomaly detection policy is similar to a cloud app discovery policy.
 
-1. In Cloud App Security, select **Control**, select **Policies**, and then select **Create policy**.
+1. In Defender for Cloud Apps, select **Control**, select **Policies**, and then select **Create policy**.
 2. In the **Create policy** list, select **Cloud Discovery anomaly detection policy**.
 3. Enter the following information:
     1. Policy name

@@ -1,14 +1,14 @@
 ### YamlMime:ModuleUnit
 uid: learn-m365.mcas-siem-integration.2-connect-azure-sentinel
 metadata:
-  title: Connect Azure Sentinel to Microsoft Cloud App Security
-  description: Learn how to connect Azure Sentinel to Microsoft Cloud App Security
-  ms.date: 03/03/2021
+  title: Connect Microsoft Sentinel to Microsoft Defender for Cloud Apps
+  description: Learn how to connect Microsoft Sentinel to Microsoft Defender for Cloud Apps
+  ms.date: 01/13/2022
   author: beccarobins
   ms.author: beccarobins
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-title: Connect Azure Sentinel to Microsoft Cloud App Security
+title: Connect Microsoft Sentinel to Microsoft Defender for Cloud Apps
 durationInMinutes: 5
 content: |
   [!include[](includes/2-connect-azure-sentinel.md)]

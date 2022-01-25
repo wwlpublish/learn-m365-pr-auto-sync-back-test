@@ -2,12 +2,12 @@ Microsoft 365 Defender portal is the new home for monitoring and managing securi
 
 The Home page features many of the common cards that security teams need to protect their assets. The composition of cards and data depends on the user role. Because the Microsoft 365 Defender portal uses role-based access control, different roles will see cards that are relevant to their work.
 
-![Microsoft 365 Defender portal](../media/security-center.png)
+:::image type="content" source="../media/m365-defender-portal.png" alt-text="Screenshot of the Microsoft 365 Defender portal home page." lightbox="../media/m365-defender-portal.png":::
 
 The Microsoft 365 Defender portal includes:
 
 - **Home** – Get an at-a-glance view of the overall security health of your organization.
-- **Alerts** – Greater visibility into all the alerts across your Microsoft 365 environment, including alerts from Microsoft Cloud App Security, Azure Active Directory (Azure AD), and Microsoft Defender.
+- **Alerts** – Greater visibility into all the alerts across your Microsoft 365 environment, including alerts from Microsoft Defender for Cloud Apps, Azure Active Directory (Azure AD), and Microsoft Defender for Cloud.
 - **Reports** – Organize the data and information you need to better protect your users, devices, apps, and more.
 - **Secure score** – Improve your overall security posture with Microsoft Secure Score. This page provides an overall summary of the different security features and capabilities you've enabled and includes recommendations for areas to improve.
 - **Hunting** – Proactively search for malware, suspicious files, and activities in your Microsoft 365 organization.

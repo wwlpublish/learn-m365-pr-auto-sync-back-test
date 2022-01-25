@@ -3,7 +3,7 @@ uid: learn-m365.cloud-app-security.knowledge-check
 title: Knowledge check
 metadata:
   title: Knowledge check
-  description: Review what you've learned about Microsoft Cloud App Security.
+  description: Review what you've learned about Microsoft Defender for Cloud Apps.
   ms.date: 08/05/2021
   author: beccarobins
   ms.author: beccarobins
@@ -26,17 +26,17 @@ quiz:
         isCorrect: true
         explanation: "That's correct. You can see what kinds of apps are being used, open alerts, and the risk levels of apps in your organization."
 
-    - content: "The Cloud App Security framework includes which of the following?"
+    - content: "The Defender for Cloud Apps framework includes which of the following?"
       choices:
       - content: "Discover and control the use of Shadow IT"
         isCorrect: true
-        explanation: "That's correct. The framework includes: Discover and control the use of Shadow IT, protect your sensitive information anywhere in the cloud, protect against cyberthreats and anomalies, and assess the compliance of your cloud apps are all parts of the Cloud App Security framework."
+        explanation: "That's correct. The framework includes: Discover and control the use of Shadow IT, protect your sensitive information anywhere in the cloud, protect against cyberthreats and anomalies, and assess the compliance of your cloud apps are all parts of the Defender for Cloud Apps framework."
       - content: "Block external traffic"
         isCorrect: false
-        explanation: "That's incorrect. The framework includes: Discover and control the use of Shadow IT, protect your sensitive information anywhere in the cloud, Protect against cyberthreats and anomalies, and Assess the compliance of your cloud apps are all parts of the Cloud App Security framework."
+        explanation: "That's incorrect. The framework includes: Discover and control the use of Shadow IT, protect your sensitive information anywhere in the cloud, Protect against cyberthreats and anomalies, and Assess the compliance of your cloud apps are all parts of the Defender for Cloud Apps framework."
       - content: "Protect Active Directory"
         isCorrect: false
-        explanation: "That's incorrect. The framework includes: Discover and control the use of Shadow IT, protect your sensitive information anywhere in the cloud, Protect against cyberthreats and anomalies, and Assess the compliance of your cloud apps are all parts of the Cloud App Security framework."
+        explanation: "That's incorrect. The framework includes: Discover and control the use of Shadow IT, protect your sensitive information anywhere in the cloud, Protect against cyberthreats and anomalies, and Assess the compliance of your cloud apps are all parts of the Defender for Cloud Apps framework."
       
     - content: "Which of these is a feature of Conditional Access App Control policies?"
       choices:

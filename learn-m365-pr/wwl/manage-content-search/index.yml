@@ -3,7 +3,7 @@ uid: learn.wwl.manage-content-search
 metadata:
   title: Manage Content Search
   description: "Manage Content Search"
-  ms.date: 11/02/2021
+  ms.date: 12/09/2021
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -16,7 +16,7 @@ abstract: |
   - Describe eDiscovery cases and in-place eDiscovery for Exchange.
   - Manage Advanced eDiscovery cases in the Microsoft 365 compliance center.
 prerequisites: ""
-iconUrl: /learn/achievements/generic-badge.svg
+iconUrl: /learn/achievements/content-search.svg
 levels:
 - intermediate
 roles:

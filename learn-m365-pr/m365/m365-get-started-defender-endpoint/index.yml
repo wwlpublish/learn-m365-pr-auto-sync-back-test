@@ -32,6 +32,7 @@ products:
   - m365
   - m365-ems-cloud-app-security
   - m365-threat-protection
+  - mdatp
 units:
 - learn-m365-pr.get-started-microsoft-defender-endpoint.introduction
 - learn-m365-pr.get-started-microsoft-defender-endpoint.plan

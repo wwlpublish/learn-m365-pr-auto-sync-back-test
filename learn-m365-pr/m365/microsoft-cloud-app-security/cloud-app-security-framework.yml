@@ -1,10 +1,10 @@
 ### YamlMime:ModuleUnit
 uid: learn-m365.cloud-app-security.framework
-title: Understand the Cloud App Security Framework
+title: Understand the Defender for Cloud Apps Framework
 metadata:
-  title: Understand the Cloud App Security Framework
-  description: Learn about cloud access security brokers and the Cloud App Security Framework.
-  ms.date: 10/29/2021
+  title: Understand the Defender for Cloud Apps Framework
+  description: Learn about cloud access security brokers and the Defender for Cloud Apps Framework.
+  ms.date: 11/05/2021
   author: beccarobins
   ms.author: beccarobins
   ms.topic: interactive-tutorial

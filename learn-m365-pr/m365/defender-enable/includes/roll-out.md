@@ -40,7 +40,7 @@ The supported security services are:
 - **Microsoft Defender for Endpoint** – Endpoint protection suite built around powerful behavioral sensors, cloud analytics, and threat intelligence.
 - **Microsoft Defender for Office 365** – Advanced protection for your apps and data in Office 365, including email and other collaborations tools like Microsoft Teams.
 - **Microsoft Defender for Identity** – Defend against advanced threats, compromised identities, and malicious insiders.
-- **Microsoft Cloud App Security** – Identify and combat cyber threats across your Microsoft and third-party cloud services.
+- **Microsoft Defender for Cloud Apps** – Identify and combat cyber threats across your Microsoft and third-party cloud services.
 
 When deploying the supported security services, there are typically two approaches:
 
@@ -65,7 +65,7 @@ Regardless of which deployment path you choose and which services your organizat
 
 1. Microsoft Defender for Office 365
 1. Microsoft Defender for Identity
-1. Microsoft Cloud App Security
+1. Microsoft Defender for Cloud Apps
 1. Microsoft Defender for Endpoint
 
 #### Deploy the services
@@ -77,4 +77,4 @@ Deploying each service typically requires provisioning to your tenant and some i
 |Microsoft Defender for Endpoint|[Microsoft Defender for Endpoint deployment guide](/microsoft-365/security/defender-endpoint/deployment-phases)|See provisioning instructions|
 |Microsoft Defender for Office 365|None, provisioned with Office 365|[Configure Microsoft Defender for Office 365 policies](/microsoft-365/security/office-365-security/defender-for-office-365)|
 |Microsoft Defender for Identity|[Quickstart: Create your Microsoft Defender for Identity instance](/defender-for-identity/install-step1)|See provisioning instructions|
-|Microsoft Cloud App Security|None|[Quickstart: Get started with Microsoft Cloud App Security](/cloud-app-security/getting-started-with-cloud-app-security)|
+|Microsoft Defender for Cloud Apps|None|[Quickstart: Get started with Microsoft Defender for Cloud Apps](/cloud-app-security/getting-started-with-cloud-app-security)|

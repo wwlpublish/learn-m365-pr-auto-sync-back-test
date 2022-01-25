@@ -7,7 +7,7 @@ At the highest level, a DLP policy contains locations and rules. Locations defin
 |     OneDrive accounts                  |     Accounts               |
 |     Teams chat and channel messages    |     Accounts               |
 |     Windows 10 devices                 |     User or group          |
-|     Microsoft Cloud App Security       |     Instance               |
+|     Microsoft Defender for Cloud Apps       |     Instance               |
 
 Rules are conditions and actions that you use to define when and how to protect content.
 

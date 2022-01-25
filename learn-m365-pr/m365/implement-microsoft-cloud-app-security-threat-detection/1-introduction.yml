@@ -2,8 +2,8 @@
 uid: learn-m365.implement-mcas-threat-detection.1-introduction
 metadata:
   title: Introduction
-  description: Implement threat detection with Microsoft Cloud App Security
-  ms.date: 07/20/2021
+  description: Implement threat detection with Microsoft Defender for Cloud Apps
+  ms.date: 11/03/2021
   author: beccarobins
   ms.author: beccarobins
   ms.topic: interactive-tutorial

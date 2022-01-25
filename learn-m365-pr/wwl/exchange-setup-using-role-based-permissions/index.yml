@@ -3,7 +3,7 @@ uid: learn.wwl.exchange-setup-using-role-based-permissions
 metadata:
   title: Analyze role-based permissions
   description: "Analyze role-based permissions"
-  ms.date: 11/22/2021
+  ms.date: 12/10/2021
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -16,7 +16,7 @@ abstract: |
   - Describe multi-forest permissions.
   - Identify the differences between the permission models.
 prerequisites: ""
-iconUrl: /learn/achievements/generic-badge.svg
+iconUrl: /learn/achievements/exchange-role-based-permissions.svg
 levels:
 - intermediate
 roles:

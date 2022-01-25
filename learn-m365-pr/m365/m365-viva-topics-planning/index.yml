@@ -23,6 +23,7 @@ roles:
 - administrator
 products: 
 - m365
+- viva-topics
 units:
 - learn-m365-pr.viva-topics-planning.introduction
 - learn-m365-pr.viva-topics-planning.organization-roles

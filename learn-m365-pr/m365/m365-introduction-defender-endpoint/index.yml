@@ -4,7 +4,7 @@ metadata:
   moduleType: introduction
   title: Introduction to Microsoft Defender for Endpoint
   description: Learn about Microsoft Defender for Endpoint and its key capabilities, such as threat and vulnerability management, attack surface reduction, automated investigation and remediation, endpoint detection and response, and more.
-  ms.date: 10/12/2021
+  ms.date: 11/03/2021
   author: beccarobins
   ms.author: beccarobins
   ms.topic: interactive-tutorial
@@ -29,6 +29,7 @@ products:
   - m365
   - m365-security-center
   - m365-threat-protection
+  - mdatp
 units:
 - learn-m365-pr.introduction-to-microsoft-defender-for-endpoint.introduction
 - learn-m365-pr.introduction-to-microsoft-defender-for-endpoint.get-overview

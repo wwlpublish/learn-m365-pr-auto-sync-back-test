@@ -1,7 +1,7 @@
 In this exercise, you'll create a SharePoint Framework (SPFx) client-side web part that will be used to try different deployment configurations.
 
 > [!IMPORTANT]
-> The instructions below assume you are using v1.12.1 of the SharePoint Framework Yeoman generator.
+> The instructions below assume you are using v1.13.0 of the SharePoint Framework Yeoman generator.
 
 Open a command prompt and change to the folder where you want to create the project. Run the SharePoint Yeoman generator by executing the following command:
 
@@ -12,7 +12,7 @@ yo @microsoft/sharepoint
 Use the following to complete the prompt that is displayed (*if additional options are presented, accept the default answer)*:
 
 - **What is your solution name?**: DeploymentDemo
-- **Which baseline packages do you want to target for your component(s)?**: SharePoint Online only (latest)
+- **Only SharePoint Online (latest) is supported. For earlier versions of SharePoint (2016 and 2019) please use the 1.4.1 version of the generator.**: SharePoint Online only (latest)
 - **Where do you want to place the files?**: Use the current folder
 - **Do you want to allow the tenant admin the choice of being able to deploy the solution to all sites immediately without running any feature deployment or adding apps in sites?**: No
 - **Will the components in the solution require permissions to access web APIs that are unique and not shared with other components in the tenant?**: No
@@ -111,7 +111,7 @@ Select the trash can icon in the toolbar to the left of the web part:
 
 ![Screenshot of the web part delete icon](../media/03-remove-step-01.png)
 
-### Uninstall the SharePoint package
+### Remove the SharePoint app
 
 Navigate back to the site's **Site Contents** page.
 
@@ -129,15 +129,35 @@ Select the context menu for the installed package and select the **Remove** acti
 
 In the left-hand navigation menu, select the **Exit classic experience** link.
 
+### Delete the SharePoint app from the recycle bin
+
+Navigate back to the site's **Site Contents** page.
+
+Select **Recycle bin** in the command bar.
+
+![Screenshot of modern site contents](../media/03-recycle-bin-01.png)
+
+Select **deployment-demo-client-side-solution** and select **Delete** in the command bar. Select **Delete** in the pop-up dialog to confirm you wish to delete the file.
+
+![Screenshot of the first-stage recycle bin](../media/03-recycle-bin-02.png)
+
+Select **Second-stage recycle bin** at the bottom of the page to navigate to the second-stage recycle bin. 
+
+Select **deployment-demo-client-side-solution** and select **Delete** in the command bar. Select **Delete** in the pop-up dialog to confirm you wish to delete the file.
+
+![Screenshot of the second-stage recycle bin](../media/03-recycle-bin-03.png)
+
 ### Retract the SharePoint package
 
-Navigate back to the tenant's App Catalog site.
+Navigate back to the tenant's **App Catalog** site.
 
 Select the **Apps for SharePoint** option from the left-hand navigation.
 
 Select the menu for the deployed package, open the extra actions, and then select **Delete** as shown in the following figure:
 
 ![Screenshot of retracting the SharePoint app package](../media/03-remove-step-05.png)
+
+Delete the SharePoint package from both the first and second-stage recycle bins.
 
 ## Summary
 

@@ -1,14 +1,14 @@
 ### YamlMime:ModuleUnit
 uid: learn-m365.advanced-scenarios-guidance.integrate-security-center
 metadata:
-  title: Integrate the Microsoft 365 Defender portal with Microsoft Cloud App Security
-  description: Advanced scenarios and guidance with Microsoft Cloud App Security
-  ms.date: 07/19/2021
+  title: Integrate the Microsoft 365 Defender portal with Microsoft Defender for Cloud Apps
+  description: Advanced scenarios and guidance with Microsoft Defender for Cloud Apps
+  ms.date: 01/13/2022
   author: beccarobins
   ms.author: beccarobins
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-title: Integrate the Microsoft 365 Defender portal with Microsoft Cloud App Security
+title: Integrate the Microsoft 365 Defender portal with Microsoft Defender for Cloud Apps
 durationInMinutes: 5
 content: |
   [!include[](includes/integrate-security-center.md)]

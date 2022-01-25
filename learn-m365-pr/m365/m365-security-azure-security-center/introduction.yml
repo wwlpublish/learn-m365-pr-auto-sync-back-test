@@ -3,8 +3,8 @@ uid: learn-m365.sci-asc.introduction
 title: Introduction
 metadata:
   title: Introduction
-  description: Learn about how you can use Azure Security Center to better protect your estate and meet regulatory compliance.
-  ms.date: 07/15/2021
+  description: Learn about how you can use Microsoft Defender for Cloud to better protect your estate and meet regulatory compliance.
+  ms.date: 11/03/2021
   ms.author: beccarobins
   author: beccarobins
   ms.topic: interactive-tutorial

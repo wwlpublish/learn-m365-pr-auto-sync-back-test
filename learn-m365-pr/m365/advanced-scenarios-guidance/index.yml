@@ -1,15 +1,15 @@
 ### YamlMime:Module
 uid: learn-m365.advanced-scenarios-guidance
 metadata:
-  title: Configure advanced scenarios in Microsoft Cloud App Security
-  description: Use advanced features of Microsoft Cloud App Security to protect more devices, integrate with other products, and customize security tools.
-  ms.date: 07/19/2021
+  title: Configure advanced scenarios in Microsoft Defender for Cloud Apps
+  description: Use advanced features of Microsoft Defender for Cloud Apps to protect more devices, integrate with other products, and customize security tools.
+  ms.date: 01/13/2022
   author: beccarobins
   ms.author: beccarobins
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-title: Configure advanced scenarios in Microsoft Cloud App Security
-summary: Use advanced features of Microsoft Cloud App Security to protect more devices, integrate with other products, and customize security tools.
+title: Configure advanced scenarios in Microsoft Defender for Cloud Apps
+summary: Use advanced features of Microsoft Defender for Cloud Apps to protect more devices, integrate with other products, and customize security tools.
 abstract: | 
   After completing this module, you’ll be able to:
   -	Create a custom indicator of compromise in Microsoft Cloud App Security.
@@ -21,7 +21,7 @@ prerequisites: |
   - Experience working with Microsoft 365 services
   - Experience working with Azure 
   - Knowledge of security concepts, risks, and mitigations
-  - Microsoft Cloud App Security fundamentals or equivalent
+  - Microsoft Defender for Cloud Apps fundamentals or equivalent
 iconUrl: /learn/achievements/configure-advanced-scenarios-in-microsoft-cloud-app-security.svg
 levels:
 - advanced

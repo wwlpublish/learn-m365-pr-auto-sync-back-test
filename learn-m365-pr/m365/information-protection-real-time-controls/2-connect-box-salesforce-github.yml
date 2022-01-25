@@ -1,14 +1,14 @@
 ### YamlMime:ModuleUnit
 uid: learn-m365.information-protection-real-time-controls.2-connect-box-salesforce-github
 metadata:
-  title: Connect non-Microsoft services to Microsoft Cloud App Security
-  description: Learn how to connect non-Microsoft services to Microsoft Cloud App Security
-  ms.date: 06/02/2021
+  title: Connect non-Microsoft services to Microsoft Defender for Cloud Apps
+  description: Learn how to connect non-Microsoft services to Microsoft Defender for Cloud Apps
+  ms.date: 11/03/2021
   author: beccarobins
   ms.author: beccarobins
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-title: Connect non-Microsoft services to Microsoft Cloud App Security
+title: Connect non-Microsoft services to Microsoft Defender for Cloud Apps
 durationInMinutes: 5
 content: |
   [!include[](includes/2-connect-box-salesforce-github.md)]

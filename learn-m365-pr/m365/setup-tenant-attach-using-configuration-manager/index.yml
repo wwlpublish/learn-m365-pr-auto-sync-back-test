@@ -1,0 +1,47 @@
+### YamlMime:Module
+uid: learn.setup-tenant-attach-using-configuration-manager
+metadata:
+  moduleType: standard
+  title: Set up tenant attach using Microsoft Endpoint Configuration Manager
+  description: After completing this module, you will have set up tenant attach using Microsoft Endpoint Configuration Manager. 
+  ms.date: 8/16/2021
+  author: Erikre
+  ms.author: erikre
+  ms.topic: interactive-tutorial
+title: Set up tenant attach using Microsoft Endpoint Configuration Manager
+summary: Microsoft Endpoint Configuration Manager, which is a part of Microsoft Endpoint Manager, helps you protect the on-premises devices, apps, and data that the people at your organization use to be productive. After completing this module, you will understand and enable tenant attach, which is the first step to cloud attach your on-premises devices.
+abstract: | 
+  In this module, you will:
+    - Understand tenant attach
+    - Confirm tenant attach prerequisites
+    - Enable internet endpoints
+    - Enable device upload
+    - Display the connector status
+    - Perform device actions
+    - View on-premises device details
+prerequisites: | 
+  - Basic knowledge of Microsoft Endpoint Manager and endpoint management concepts, see [Microsoft Endpoint Manager fundamentals](/learn/paths/endpoint-manager-fundamentals?azure-portal=true).
+  - Understand your endpoint management objectives, device inventory considerations, licensing needs, infrastructure objectives, and rollout plans, see [Determine your endpoint management implementation](/learn/modules/determine-endpoint-implementation?azure-portal=true).
+iconUrl: /learn/achievements/generic-badge.svg
+ratingEnabled: true
+levels:
+- beginner
+roles:
+- administrator
+products:
+- m365
+- mem
+- mem-configuration-manager
+units:
+- learn.setup-tenant-attach-using-configuration-manager.introduction
+- learn.setup-tenant-attach-using-configuration-manager.understand-tenant-attach
+- learn.setup-tenant-attach-using-configuration-manager.confirm-tenant-attach-prerequisites
+- learn.setup-tenant-attach-using-configuration-manager.enable-internet-endpoints
+- learn.setup-tenant-attach-using-configuration-manager.enable-device-upload
+- learn.setup-tenant-attach-using-configuration-manager.display-the-connector-status
+- learn.setup-tenant-attach-using-configuration-manager.perform-device-actions
+- learn.setup-tenant-attach-using-configuration-manager.view-on-premises-devices
+- learn.setup-tenant-attach-using-configuration-manager.knowledge-check
+- learn.setup-tenant-attach-using-configuration-manager.summary
+badge:
+  uid: learn.setup-tenant-attach-using-configuration-manager.badge
