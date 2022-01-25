@@ -25,6 +25,7 @@ products:
 - m365
 - office-365
 - windows
+- windows-19044
 units:
 - learn-m365.modern-device-app.1-introduction
 - learn-m365.modern-device-app.2-readiness-assessment-tools

@@ -3,7 +3,7 @@ uid: learn-m365.introduction-to-microsoft-cloud-app-security
 metadata:
   title: Introduction to Microsoft Defender for Cloud Apps
   description: Introduction to Microsoft Defender for Cloud Apps
-  ms.date: 11/10/2021
+  ms.date: 11/29/2021
   author: beccarobins
   ms.author: beccarobins
   ms.topic: interactive-tutorial
@@ -25,6 +25,7 @@ roles:
 - administrator
 products:
 - m365-ems-cloud-app-security
+- defender-for-cloud-apps
 units:
 - learn-m365.introduction-to-microsoft-cloud-app-security.1-introduction
 - learn-m365.introduction-to-microsoft-cloud-app-security.2-what-is-microsoft-cloud-app-security

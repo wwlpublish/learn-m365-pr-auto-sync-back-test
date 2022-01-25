@@ -22,6 +22,7 @@ roles:
 - administrator
 products:
 - m365
+- mem-intune
 units:
 - learn-m365-pr.manage-devices-by-using-microsoft-intune.1-modern-management-options
 - learn-m365-pr.manage-devices-by-using-microsoft-intune.2-managing-windows-devices-with-intune

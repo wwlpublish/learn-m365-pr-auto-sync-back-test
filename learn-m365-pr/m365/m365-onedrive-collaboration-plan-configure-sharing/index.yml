@@ -29,6 +29,7 @@ roles:
 products:
 - m365
 - office-365
+- office-onedrive
 units:
 - learn-m365.m365-onedrive-collaboration-plan-configure-sharing.introduction
 - learn-m365.m365-onedrive-collaboration-plan-configure-sharing.configure-sharing

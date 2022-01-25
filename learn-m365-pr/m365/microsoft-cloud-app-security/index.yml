@@ -3,7 +3,7 @@ uid: learn-m365.cloud-app-security
 metadata:
   title: Secure your cloud apps and services with Defender for Cloud Apps
   description: Microsoft Defender for Cloud Apps is a cloud access security broker (CASB) that operates on multiple clouds. It provides rich visibility, control over data travel, and sophisticated analytics to identify and combat cyberthreats across all your cloud services. Learn how to use Defender for Cloud Apps in your organization.
-  ms.date: 11/11/2021
+  ms.date: 11/29/2021
   author: beccarobins
   ms.author: beccarobins
   ms.topic: interactive-tutorial
@@ -24,6 +24,7 @@ roles:
 products:
 - m365
 - m365-ems-cloud-app-security
+- defender-for-cloud-apps
 units:
 - learn-m365.cloud-app-security.introduction
 - learn-m365.cloud-app-security.framework

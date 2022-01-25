@@ -3,7 +3,7 @@ uid: learn-m365.implement-mcas-threat-detection.2-create-threat-protection-polic
 metadata:
   title: Create threat protection policies in Defender for Cloud Apps
   description: Microsoft Defender for Cloud Apps provides policy-driven mechanisms to help manage your users' behavior in the cloud
-  ms.date: 07/06/2021
+  ms.date: 11/03/2021
   author: beccarobins
   ms.author: beccarobins
   ms.topic: interactive-tutorial

@@ -32,6 +32,7 @@ products:
 - m365
 - m365-workplace-analytics
 - power-bi
+- viva-insights
 
 units:
 - learn-m365.workplace-analytics-ways-working-action.introduction

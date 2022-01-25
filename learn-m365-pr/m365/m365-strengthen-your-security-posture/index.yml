@@ -30,6 +30,7 @@ products:
   - m365
   - m365-security-center
   - m365-threat-protection
+  - mdatp
 units:
 - learn-m365-pr.strengthen-your-security-posture.introduction
 - learn-m365-pr.strengthen-your-security-posture.get-overview-threat-management

@@ -3,7 +3,7 @@ uid: learn-m365.implement-mcas-cloud-discovery.6-integrate-cloud-app-security-wi
 metadata:
   title: Integrate Defender for Cloud Apps with non-Microsoft systems
   description: You must integrate Defender for Cloud Apps with third-party proxies and firewalls to help ensure that you can properly implement Cloud Discovery throughout your organization
-  ms.date: 07/02/2021
+  ms.date: 11/03/2021
   author: beccarobins
   ms.author: beccarobins
   ms.topic: interactive-tutorial

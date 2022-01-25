@@ -3,7 +3,7 @@ uid: learn-m365.implement-mcas-cloud-discovery
 metadata:
   title: Implement Microsoft Defender for Cloud Apps Cloud Discovery
   description: Learn how to configure Cloud Discovery in Microsoft Defender for Cloud Apps, to integrate with Microsoft Defender for Endpoint, and how to integrate with non-Microsoft systems.
-  ms.date: 07/20/2021
+  ms.date: 11/03/2021
   author: beccarobins
   ms.author: beccarobins
   ms.topic: interactive-tutorial
@@ -29,6 +29,7 @@ roles:
 - administrator
 products:
 - m365-ems-cloud-app-security
+- defender-for-cloud-apps
 units:
 - learn-m365.implement-mcas-cloud-discovery.1-introduction
 - learn-m365.implement-mcas-cloud-discovery.2-what-is-cloud-discovery-in-cloud-app-security

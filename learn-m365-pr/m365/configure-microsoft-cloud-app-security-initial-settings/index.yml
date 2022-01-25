@@ -3,7 +3,7 @@ uid: learn-m365.configure-microsoft-cloud-app-security-initial-settings
 metadata:
   title: Configure Microsoft Defender for Cloud Apps initial settings
   description: Learn to configure the initial Microsoft Defender for Cloud Apps settings, such as IP addresses, user groups, admin roles, and Managed Security Service Provider access.
-  ms.date: 07/20/2021
+  ms.date: 11/29/2021
   author: beccarobins
   ms.author: beccarobins
   ms.topic: interactive-tutorial
@@ -25,6 +25,7 @@ roles:
 - administrator
 products:
 - m365-ems-cloud-app-security
+- defender-for-cloud-apps
 units:
 - learn-m365.configure-microsoft-cloud-app-security-initial-settings.1-introduction
 - learn-m365.configure-microsoft-cloud-app-security-initial-settings.2-configure-ip-address-ranges
