@@ -28,36 +28,33 @@ quiz:
      choices:
      - content: "To reduce and optimize storage costs"
        isCorrect: false
-       explanation: "Incorrect. Autoscale today does not reduce or optimize storage costs."
+       explanation: "Incorrect.Autoscale today does not reduce or optimize storage costs."
      - content: "To reduce and optimize compute costs and management overhead by automating power management"
        isCorrect: true
-       explanation: "Correct. Autoscale reduces and optimizes compute costs and management overhead by automatically turning session host virtual machines on and off according to demand and schedule."
+       explanation: "Correct.Autoscale reduces and optimizes compute costs and management overhead by automatically turning session host virtual machines on and off according to demand and schedule."
    - content: "What must you set up to grant Autoscale the necessary permissions to turn session host VMs on and off?"
      choices:
      - content: "A custom RBAC role on the subscription"
        isCorrect: true
-       explanation: "Correct. You must set up a custom RBAC role on the subscription to grant Autoscale the necessary permissions to turn session host VMs on and off."
+       explanation: "Correct.You must set up a custom RBAC role on the subscription to grant Autoscale the necessary permissions to turn session host VMs on and off."
      - content: "A custom RBAC role on the host pool"
        isCorrect: false
-       explanation: "Incorrect. Setting up the RBAC role on the host pool will cause Autoscale to not work. The RBAC role must be on the subscription."
+       explanation: "Incorrect.Setting up the RBAC role on the host pool will cause Autoscale to not work. The RBAC role must be on the subscription."
      - content: "A custom RBAC role on the session host VM"
        isCorrect: false
-       explanation: "Incorrect. Setting up the RBAC role on the session host VM will cause Autoscale to not work. The RBAC role must be on the subscription."
+       explanation: "Incorrect.Setting up the RBAC role on the session host VM will cause Autoscale to not work. The RBAC role must be on the subscription."
      - content: "Nothing, it should just work"
        isCorrect: false
-       explanation: "Incorrect. In order for Autoscale to have access to the VMs, you must set up an RBAC role on the subscription."
+       explanation: "Incorrect.In order for Autoscale to have access to the VMs, you must set up an RBAC role on the subscription."
    - content: "Which of the following statements are true?"
      choices:
-     - content: "Autoscale currently only works for pooled host pools, not personal"
-       isCorrect: true
-       explanation: "This statement is correct; however, the other statements are also correct."
+     - content: "Autoscale currently only works for personal"
+       isCorrect: false
+       explanation: "Incorrect.Autoscale works for pooled host pools, and personal."
      - content: "Autoscale currently only turns session host VMs on and off, it does not create or delete them"
        isCorrect: true
-       explanation: "This statement is correct, however, the other statements are also correct."
-     - content: "Autoscale currently only scale according to your defined schedule and metrics, it does not scale according to resource consumption"
-       isCorrect: true
-       explanation: "This statement is correct, however, the other statements are also correct."
-     - content: "All the above"
-       isCorrect: true
        explanation: "Correct."
+     - content: "Autoscale currently only scale according to resource consumption"
+       isCorrect: false
+       explanation: "Incorrect.Autoscale scales according to your defined schedule and metrics, it does not scale according to resource consumption."
 
