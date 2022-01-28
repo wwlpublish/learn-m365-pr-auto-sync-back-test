@@ -10,7 +10,7 @@ Automation is at the heart of how we provide security at scale. The bulk of acco
 
 ## Role-based access control (RBAC)
 
-Microsoft 365 service teams use Role-Based Access Control (RBAC) enforced by Active Directory (AD) and Azure Active Directory (AAD). Service team personnel request access to required roles, subject to management approval. If approved, they’re placed in security groups corresponding to their roles for supporting the system.
+Microsoft 365 service teams use Role-Based Access Control (RBAC) enforced by Active Directory (AD) and Azure Active Directory (Azure AD). Service team personnel request access to required roles, subject to management approval. If approved, they’re placed in security groups corresponding to their roles for supporting the system.
 
 Service team account access is managed according to the principle of least privilege. RBAC limits service team accounts to only the access necessary to complete required tasks in environments corresponding to their role. RBAC also helps to enforce separation of duties requirements by limiting service team accounts to roles appropriate for their current responsibilities.
 
