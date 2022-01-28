@@ -14,7 +14,8 @@ IDM eligibilities and Lockbox roles work together to ensure JIT requests are lim
 
 The JIT workflow leverages Lockbox to initiate JIT requests, facilitate review by Lockbox approvers, grant or deny access based on approver decisions, and audit JIT requests. The following diagram illustrates the Lockbox workflow when an engineer requests JIT access.
 
-:::image type="content" source="../media/lockbox-diagram.png" alt-text="Microsoft engineers lockbox workflow diagram, explanation to follow":::
+> [!div class="centered"]
+> :::image type="content" source="../media/lockbox-diagram.png" alt-text="Microsoft engineers lockbox workflow diagram, explanation to follow" border = "false":::
 
 1. A service team engineer with a business need for privileged access to production resources requests access through Lockbox. The request specifies the privileged role, resources, and time required to complete the task. It also includes a business justification for why the task is necessary. Engineers can only request elevation into privileged roles allowed by their security groups memberships, and can only specify resources in-scope for their service team account eligibilities.
 

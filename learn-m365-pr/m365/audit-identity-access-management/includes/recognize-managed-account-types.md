@@ -5,7 +5,8 @@ At Microsoft, we mitigate the risks associated with privileged accounts through 
 
 Microsoft 365 has identified three categories of accounts to support organizational missions and business functions: service team accounts, service accounts, and customer accounts. Two of these categories, service team accounts and service accounts, are managed by Microsoft and enable us to operate and support our products and services. The third category, customer accounts, are managed by the customer and give customers the flexibility to meet their internal access control requirements.
 
-:::image type="content" source="../media/shared-responsibility-accounts.png" alt-text="A visual representation of shared responsibility in managing accounts. Two account types: service team accounts and service accounts are managed by Microsoft. Customer accounts are managed by customers.":::
+> [!div class="centered"]
+> :::image type="content" source="../media/shared-responsibility-accounts.png" alt-text="A visual representation of shared responsibility in managing accounts. Two account types: service team accounts and service accounts are managed by Microsoft. Customer accounts are managed by customers." border = "false":::
 
 ## Microsoft-managed accounts
 
