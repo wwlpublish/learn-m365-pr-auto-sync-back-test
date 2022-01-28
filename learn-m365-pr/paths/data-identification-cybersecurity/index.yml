@@ -4,7 +4,7 @@ metadata:
   title: Learn how Microsoft supports data discovery, classification, and protection as part of a cybersecurity solution
   description: Know your data, protect your data, and don't lose your data. These are the basic tenets of good information protection - data discovery, classification, and protection. <br><br>This learning path provides an overview of the Microsoft data protection capabilities and how to use them to protect and govern data as part of a cybersecurity solution.<br><br>The deadline for the heads of federal civilian agencies to evaluate and classify agency data and provide to DHS and OMB a report of their evaluation, per Section 8 of the Executive Order on Improving the Nation's Cybersecurity, is **August 24, 2021**.
   ms.date: 06/28/2021
-  author: lizap
+  author: beccarobins
   ms.author: beccarobins
   ms.topic: interactive-tutorial
   ms.prod: learning-m365

@@ -4,7 +4,7 @@ metadata:
   title: Protect on-premises identities with Microsoft Defender for Cloud for Identity 
   description: Microsoft Defender for Identity is a cloud-based solution to protect on-premises and hybrid identities. Defender for Identity can act both proactively, to eliminate vulnerabilities, and reactively, to detect active threats.
   ms.date: 08/17/2021
-  author: alistairmatthews
+  author: beccarobins
   ms.author: beccarobins
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
