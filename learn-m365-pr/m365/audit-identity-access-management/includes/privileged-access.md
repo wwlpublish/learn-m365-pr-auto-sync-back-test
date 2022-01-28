@@ -20,8 +20,8 @@ The JIT workflow leverages Lockbox to initiate JIT requests, facilitate review b
 
 2. Lockbox sends the JIT request to a designated access approver, who reviews the request and makes the decision to grant or deny access. Engineers cannot approve their own JIT requests. If the access approver denies the request or allows the request to expire without any action, access is not granted.
 
-3. If the access approver approves the request, the engineer who requested access receives a temporary account and one-time machine-generated complex password. This temporary account allows access to the resources specified in the request.
+3. If the access approver approves the request, the engineer is granted temporary access that is specifically limited to the resources specified in the request.
 
-4. The engineer uses this temporary privileged account to connect to the production environment using multifactor authentication (MFA) through a Secure Access Workstation (SAW). Use of the temporary account is automatically monitored and logged to ensure accountability and detect anomalous behavior. After the duration specified in the request expires, the temporary account is disabled, and access is automatically revoked.
+4. The engineer uses these temporary privileges to connect to the production environment using multifactor authentication (MFA) through a Secure Access Workstation (SAW). Use of the temporary privileged access is automatically monitored and logged to ensure accountability and detect anomalous behavior. After the duration specified in the request expires, the temporary access is automatically revoked.
 
 The JIT access model limits the impact of a compromised service team account by ensuring service team accounts do not have standing privileged access to production environments. Moreover, the temporary privileged access granted through Lockbox is limited in scope and expires after the specified duration. This means that compromise would not grant an attacker unlimited or persistent access to production resources. Use of a SAW to connect to the production environment further limits the potential impact of a compromised account.
