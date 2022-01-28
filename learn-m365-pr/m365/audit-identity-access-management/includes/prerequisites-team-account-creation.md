@@ -2,7 +2,7 @@ Now that you understand various tools and technologies Microsoft 365 uses to enf
 
 When an engineer is assigned to a service team to support production services, they request eligibility for a service team account through the Identity Management Tool (IDM). The request for eligibility triggers a series of personnel checks to ensure the engineer has passed all screening requirements, completed necessary training, and received appropriate management approval prior to account creation. Only after meeting all eligibility requirements can a service team account be created for the requested environment.
 
-![A workflow diagram, starting with Microsoft Service Engineer joining the service team. They must go through personnel screening and role-based training in order to be eligible to request for service team Account. After authorized manager's approval, the account is created.](../media/personnel-screening-diagram.png)
+:::image type="content" source="../media/personnel-screening-diagram.png" alt-text="A workflow diagram, starting with Microsoft Service Engineer joining the service team. They must go through personnel screening and role-based training in order to be eligible to request for service team Account. After authorized manager's approval, the account is created.":::
 
 ## Personnel screening
 
