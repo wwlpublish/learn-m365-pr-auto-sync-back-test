@@ -4,7 +4,7 @@ metadata:
   title: Secure your organization with Microsoft Defender for Endpoint 
   description: This learning path provides an overview of Microsoft Defender for Endpoint and how to use it as part of a cybersecurity solution. Microsoft Defender for Endpoint can help you prevent, detect, investigate, and respond to threats across your organization's endpoints – your devices and systems.<br><br>Endpoint detection and response (EDR) capabilities provide advanced attack detections that are near real-time and actionable. When you implement EDR in your environment, your security analysts can prioritize alerts effectively, gain visibility into the full scope of a breach, and take action to remediate threats.<br><br>The deadline for agencies to adopt government-wide EDR approaches based on OMB requirements, per section 7 of the Executive Order on Improving the Nation's Cybersecurity, is **September 9, 2021**.<br><br>Microsoft Defender for Endpoint for US Government customers, built in the Azure US Government environment, uses the same underlying technologies as Defender for Endpoint in Azure Commercial and is based on the same prevention, detection, investigation, and remediation. However, there are some differences in the capabilities available for this offering. If you’re using Microsoft Defender for Endpoint as part of your cybersecurity solution, per the Executive Order, be sure to [review the differences](/microsoft-365/security/defender-endpoint/gov) as you build your plan. 
   ms.date: 06/28/2021
-  author: lizap
+  author: beccarobins
   ms.author: beccarobins
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
