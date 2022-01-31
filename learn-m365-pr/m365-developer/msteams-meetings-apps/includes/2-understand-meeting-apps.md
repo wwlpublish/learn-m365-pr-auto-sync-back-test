@@ -24,21 +24,21 @@ With the pre-meeting app experience, you can find and add meeting apps. You can 
 
 Add meeting apps to meetings using the same process you can add tabs to channels. Use the plus icon from the meeting details tab to open the gallery. Once in the gallery, you can select the meeting app that you want to add.
 
-![Installing meeting apps for Microsoft Teams meetings](../media/02-premeeting.png)
+![Screenshot of installing a meeting apps for Microsoft Teams meetings.](../media/03-edit-meeting-02.png)
 
 Once the meeting app is installed in a meeting, it's accessible as a tab.
 
-![Pre-meeting experience for the Microsoft Teams meeting app](../media/02-premeetingtab.png)
+![Screenshot of the pre-meeting experience for the Microsoft Teams meeting app.](../media/02-premeeting-tab.png)
 
 ### In-meeting app experience
 
 With the in-meeting app experience, you can engage participants during the meeting by using apps and the in-meeting dialog box. Meeting apps are hosted on the toolbar of the meeting window as an in-meeting tab. Use the in-meeting dialog box to showcase actionable content for meeting participants.
 
-![In-meeting experience for the Microsoft Teams meeting app](../media/02-in-meeting-dialog-view.png)
+![Screenshot of the in-meeting experience for the Microsoft Teams meeting app.](../media/02-in-meeting-dialog-view.png)
 
 In addition to dialogs, meeting apps can also be surfaced within the side-panel of an active meeting. This is a great way for developers to implement a user-specific interface for the meeting app as each meeting attendee can see individual content during the meeting in the side-panel.
 
-![Side-panel experience for the Microsoft Teams meeting app](../media/02-in-meeting-dialog.png)
+![Screenshot of the side-panel experience for the Microsoft Teams meeting app.](../media/02-in-meeting-dialog.png)
 
 Finally, the meeting app developer can implement a shared view experience with the meeting stage. This area, launched from the side-panel, is presented to everyone else in the meeting.
 

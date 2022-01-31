@@ -19,13 +19,13 @@ quiz:
     choices:
     - content: "The app's manifest must include the `meetingStage` in the tab's `context` array."
       isCorrect: false
-      explanation: "While this is correct, it isn't the only correct statement."
+      explanation: "While this statement is correct, other options for this question are also correct."
     - content: "The tab renders content when the Microsoft Teams `context.frameContext` property equals `sidePanel`."
       isCorrect: false
-      explanation: "While this is correct, it isn't the only correct statement."
+      explanation: "While this statement is correct, other options for this question are also correct."
     - content: "A meeting attendee with the appropriate role selects the 'present' button in the meeting app's side-panel."
       isCorrect: false
-      explanation: "While this is correct, it isn't the only correct statement."
+      explanation: "While this statement is correct, other options for this question are also correct."
     - content: "All of these are correct"
       isCorrect: true
       explanation: "Correct!"
@@ -33,13 +33,13 @@ quiz:
     choices:
     - content: "Bots can be used to determine the current meeting context, where tabs cannot."
       isCorrect: false
-      explanation: "Tabs can use the current Microsoft Teams context using the Microsoft Teams JavaScript SDK."
+      explanation: "This isn't correct because tabs can use the current Microsoft Teams context using the Microsoft Teams JavaScript SDK."
     - content: "Bots can be used to respond to specific meeting events, such as when a meeting starts or ends."
       isCorrect: true
       explanation: "Correct"
     - content: "Bots can be used to start a meeting once a quorum of attendees has joined."
       isCorrect: false
-      explanation: "Bots can't control when a meeting starts or ends."
+      explanation: "This isn't correct because bots can't control when a meeting starts or ends."
   - content: "Meeting apps can only be implemented using tabs in Microsoft Teams clients."
     choices:
     - content: "False"
@@ -47,4 +47,4 @@ quiz:
       explanation: "Correct!"
     - content: "True"
       isCorrect: false
-      explanation: "Meeting apps can be implemented using tabs or bots."
+      explanation: "This isn't correct because meeting apps can be implemented using tabs or bots."

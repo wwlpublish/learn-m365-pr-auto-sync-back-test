@@ -15,9 +15,9 @@ In this module, you'll learn how to create custom apps to be used in Microsoft T
 
 ## Learning objectives
 
-1. Understand the capabilities of Microsoft Teams meetings extensibility feature
-1. Create a Microsoft Teams meetings app that meeting attendees can use before and during a meeting
-1. Implement a summary view of the meeting after the meeting has concluded
+- Understand the capabilities of Microsoft Teams meetings extensibility feature
+- Create a Microsoft Teams meetings app that meeting attendees can use before and during a meeting
+- Implement a summary view of the meeting after the meeting has concluded
 
 ## Additional resources
 

@@ -164,10 +164,10 @@ Go back to the first meeting you previously created, the one for a date before t
 
 Notice when you select the meeting app, you no longer see the list of editable stand-up topics. Instead, you see the post-meeting experience:
 
-![Screenshot of the post-meeting experience](../media/07-post-meeting-experience.png)
+![Screenshot of the post-meeting experience.](../media/07-post-meeting-experience.png)
 
 Now, join the meeting and launch the meeting app.
 
 When the side-panel loads, select the presentation icon to launch the stage. Microsoft Teams will display your stage user experience in the main window:
 
-![Screenshot of the in-meeting stage experience](../media/07-in-meeting-stage-experience.png)
+![Screenshot of the in-meeting stage experience.](../media/07-in-meeting-stage-experience.png)

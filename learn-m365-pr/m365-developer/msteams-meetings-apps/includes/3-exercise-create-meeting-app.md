@@ -30,7 +30,7 @@ Open a browser and navigate to the [Azure Active Directory admin center (https:/
 
 Select **Azure Active Directory > Manage > App registrations** in the left-hand navigation and then select **New registration**.
 
-![Screenshot of the App registrations](../media/03-azure-ad-app-registration-01.png)
+![Screenshot of the App registrations.](../media/03-azure-ad-app-registration-01.png)
 
 On the **Register an application** page, set the values as follows, and then select **Register**:
 
@@ -38,7 +38,7 @@ On the **Register an application** page, set the values as follows, and then sel
 - **Supported account types**: Accounts in any organizational directory (Any Azure AD directory - Multitenant)
 - **Redirect URI**: Web & `https://REPLACE.ngrok.io/auth-end`
 
-![Screenshot of the Register an application page](../media/03-azure-ad-app-registration-02.png)
+![Screenshot of the Register an application page.](../media/03-azure-ad-app-registration-02.png)
 
 > [!NOTE]
 > The **Redirect URL** will need to be updated once you know the dynamic subdomain of the proxy URL created by ngrok, a tool you'll use to simplify testing and debugging your Microsoft Teams app.
@@ -49,7 +49,7 @@ On the **Register an application** page, set the values as follows, and then sel
 
 On the **My Teams SSO App** page, copy the value of the **Application (client) ID** and **Directory (tenant) ID**; you'll need these later when you create the Microsoft Teams app later in this exercise.
 
-![Screenshot of the application ID of the new app registration](../media/03-azure-ad-app-registration-03.png)
+![Screenshot of the application ID of the new app registration.](../media/03-azure-ad-app-registration-03.png)
 
 ### Configure authentication
 
@@ -57,7 +57,7 @@ Next, configure the app's authentication settings. Select **Manage > Authenticat
 
 In the **Implicit grant and hybrid flows** section, select both of the following options, and then select **Save** at the top of the screen:
 
-![Screenshot of the app's authentication settings](../media/03-azure-ad-app-registration-04.png)
+![Screenshot of the app's authentication settings.](../media/03-azure-ad-app-registration-04.png)
 
 ### Create a client secret
 
@@ -86,7 +86,7 @@ By default, the app has the **User.Read** permission. When Microsoft Teams reque
 
 Once you've added the permissions, select the **Grant admin consent for ...** to consent these permissions for all users in the tenant.
 
-![Screenshot of consented permissions](../media/03-azure-ad-app-registration-06.png)
+![Screenshot of consented permissions.](../media/03-azure-ad-app-registration-06.png)
 
 To simplify the process of testing our app, let's grant user consent to the permissions for all users in our organization.
 
@@ -96,7 +96,7 @@ On the **Permissions** page, select the **User consent** tab, then select the **
 
 Microsoft identity will prompt you to grant permissions on behalf of all users in the organization. Select the **Accept** button to allow this:
 
-![Screenshot of consenting user consent on behalf of all users in the organization](../media/03-azure-ad-app-registration-09.png)
+![Screenshot of consenting user consent on behalf of all users in the organization.](../media/03-azure-ad-app-registration-09.png)
 
 ### Expose an API for the app
 
@@ -104,7 +104,7 @@ The next step is to configure the app's API for Microsoft Teams. Select **Manage
 
 On the **Expose an API** page, select the **Set** link next to the **Application ID URI**. This will default the app's ID to `api://<app-id>`. This needs to include the domain where the Microsoft Teams app will be hosted. Add `REPLACE.ngrok.io/` to the start of the address after the protocol and select **Save**
 
-![Screencast of the app ID URI](../media/03-azure-ad-app-registration-07.png)
+![Screencast of the app ID URI.](../media/03-azure-ad-app-registration-07.png)
 
 Next, select **Add a scope** to add a new permission for the app. Create a new scope using the following settings and then select **Add scope**:
 
@@ -116,7 +116,7 @@ Next, select **Add a scope** to add a new permission for the app. Create a new s
 - **User consent description:** Teams can call this app’s APIs with the same rights as the user.
 - **State**: Enabled
 
-![Screenshot of the add scope page](../media/03-azure-ad-app-registration-08.png)
+![Screenshot of the add scope page.](../media/03-azure-ad-app-registration-08.png)
 
 The last step is to preauthorize the Microsoft Teams clients that the app's API will trust. This means users won't be asked to consent to specific permissions, or scopes, exposed by the API.
 
@@ -839,7 +839,7 @@ This gulp task will run many other tasks all displayed within the command-line c
 > [!IMPORTANT]
 > Each time ngrok starts, it generates a new dynamic subdomain for the URL. If you have to restart ngrok, you will need to repackage and and update the app in Microsoft Teams to make the installed app aware of the new URL. The optional licensed version of ngrok allows you to define and reuse the same subdomain.
 
-![Screenshot of gulp ngrok-serve](../media/03-ngrok-dynamic-url.png)
+![Screenshot of gulp ngrok-serve.](../media/03-ngrok-dynamic-url.png)
 
 Before testing the Microsoft Teams app, you need to update all locations where you entered the URL `REPLACE.ngrok.io` in both your project and the Azure AD app you registered. For example:
 
@@ -865,7 +865,7 @@ Create two meetings to test our meeting app. Ensure one meeting is created for a
 
 For both meetings, invite at least one attendee to the meeting so there will be at least two people: the organizer and an attendee.
 
-![Creating meetings](../media/03-create-meeting.png)
+![Screenshot of creating a meeting.](../media/03-create-meeting.png)
 
 > [!IMPORTANT]
 > Meeting apps can only be installed in meetings that have at least two participants.
@@ -876,28 +876,28 @@ With the meetings created, now you can install the meeting app. Repeat the follo
 
 1. Select one of the meetings and select the **Edit** button:
 
-    ![Edit meeting](../media/03-edit-meeting-01.png)
+    ![Screenshot of edit meeting.](../media/03-edit-meeting-01.png)
 
 1. Select the plus icon in the meeting header to install a new app:
 
-    ![Add tab to meeting - step 1](../media/03-edit-meeting-02.png)
+    ![Screenshot of adding a tab to meeting - step 1.](../media/03-edit-meeting-02.png)
 
 1. In the **Add a tab** dialog, select **Manage apps** in the lower-right corner.
 1. In the **Manage apps** screen, select **Upload a custom app** in the lower-right corner.
 1. When prompted, select the **./package/standupagenda.zip** Microsoft Teams app package generated from building the app.
 1. Microsoft Teams will display some details about our meeting app. Select **Add** to add the app to Microsoft Teams.
 
-    ![Upload meeting app to Microsoft Teams](../media/03-edit-meeting-03.png)
+    ![Screenshot of uploading a meeting app to Microsoft Teams.](../media/03-edit-meeting-03.png)
 
 1. Now, go back to the meeting and repeat the steps to add a meeting. Except this time, select the newly added **Stand-up Agenda** app from the list of apps on the **Add a tab** screen:
 
-    ![Install Stand-up Agenda app to meeting](../media/03-edit-meeting-04.png)
+    ![Screenshot of installing the Stand-up Agenda app to meeting.](../media/03-edit-meeting-04.png)
 
 1. When prompted to configure the tab, ignore the input and select **Save**. We didn't do anything with the configuration page for this app.
 
 Now, when you are editing the meeting, you can select the new **Stand-Up Agenda** tab to launch the app:
 
-![Stand-up Agenda - empty list](../media/03-edit-meeting-05.png)
+![Screenshot of the Stand-up Agenda - empty list.](../media/03-edit-meeting-05.png)
 
 What you see is the pre-meeting experience. We haven't added any stand-up topics to our meeting so the list is showing the empty state.
 
@@ -905,11 +905,11 @@ What you see is the pre-meeting experience. We haven't added any stand-up topics
 
 As the meeting organizer, add a few stand-up topics to address. Do this by selecting the **Add stand-up topic** option in the toolbar of the meeting. Selecting that option will shrink the list to display the form. Use the form to add three topics, as shown:
 
-![Stand-up Agenda - add topic form](../media/03-edit-meeting-06.png)
+![Screenshot of the Stand-up Agenda - add topic form.](../media/03-edit-meeting-06.png)
 
-Now, logout and login into the Microsoft Teams client with the other user that was invited to the meeting. As that user, add a few stand-up topics to present during the meeting.
+Now, sign out and sign in into the Microsoft Teams client with the other user that was invited to the meeting. As that user, add a few stand-up topics to present during the meeting.
 
-![Stand-up Agenda - filled list](../media/03-edit-meeting-07.png)
+![Screenshot of the Stand-up Agenda - filled list.](../media/03-edit-meeting-07.png)
 
 At this point, our meeting app supports meeting attendees to submit topics to present during the meeting. These topics are submitted and available to view within the pre-meeting experience.
 

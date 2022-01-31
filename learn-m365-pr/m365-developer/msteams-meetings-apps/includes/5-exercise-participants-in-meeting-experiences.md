@@ -162,7 +162,7 @@ Go back to the two meetings you previously created.
 
 Notice all the topics look the exact same as they did from the previous exercise. There's no checkbox at the start of each row to indicate they're selectable.
 
-![Stand-up Agenda - filled list](../media/03-edit-meeting-07.png)
+![Screenshot of the Stand-up Agenda - filled list.](../media/03-edit-meeting-07.png)
 
 So, the meeting attendee can't make changes to the topic status'.
 
@@ -172,17 +172,17 @@ Go back to the two meetings you previously created.
 
 Notice the topics all have checkboxes next to them indicating they're selectable:
 
-![Selectable meeting topics for meeting organizer](../media/05-meeting-organizer-01.png)
+![Screenshot of the selectable meeting topics for meeting organizer.](../media/05-meeting-organizer-01.png)
 
 Select one of the meeting topics. Notice how the toolbar changes to remove the existing action to add a new topic and it's replaced with a new action to approve the selected topic.
 
 The new topic action that's no longer visible went away because we'd added it using the `<List>` control's `emptySelectedActionGroups` property. Therefore, it's only shown when no items are selected in the list.
 
-![Selected meeting topic for meeting organizer](../media/05-meeting-organizer-02.png)
+![Screenshot of selected meeting topic for meeting organizer.](../media/05-meeting-organizer-02.png)
 
 Select the **Approve** action in the toolbar to approve the topic. The app will save the change and update the collection of stand-up topics.
 
-![Updated meeting topic approved](../media/05-meeting-organizer-03.png)
+![Screenshot of the updated meeting topic approved.](../media/05-meeting-organizer-03.png)
 
 ## Implement in-meeting experience with a side-panel
 
@@ -312,10 +312,10 @@ Using the Microsoft Teams client, sign in with the credentials of a Work and Sch
 
 Go back to the two meetings you previously created. This time, join the meeting instead of just editing it. In the header bar of the meeting window, select our custom meeting app to launch the side-panel:
 
-![Select the app icon in the meeting to launch the side-panel](../media/05-meeting-organizer-side-panel-01.png)
+![Screenshot of select the app icon in the meeting to launch the side-panel.](../media/05-meeting-organizer-side-panel-01.png)
 
 When the tab loads, it will display all the approved meeting topics. If you're signed in as the organizer,  you can see everyone's approved topics. Otherwise, you only see your approved topics.
 
 You can also select the **Presented** toggle to change the status of the topic:
 
-![Screenshot of the custom meeting app side-panel](../media/05-meeting-organizer-side-panel-02.png)
+![Screenshot of screenshot of the custom meeting app side-panel.](../media/05-meeting-organizer-side-panel-02.png)

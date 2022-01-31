@@ -8,13 +8,13 @@ Developers can create unique experiences in their meeting app that can be used a
 
 For example, consider the scenario you're implementing in the exercises of this module. The meeting stage can display a summary of all the topics from all meeting attendees and indicate if they've been presented so far in the meeting:
 
-![Microsoft Teams meeting stage](../media/07-in-meeting-stage-experience.png)
+![Screenshot of the Microsoft Teams meeting stage.](../media/07-in-meeting-stage-experience.png)
 
 An attendee of the meeting with the meeting presenter role can trigger this view by selecting the present button in the header of the app's side-panel experience as shown in the previous figure.
 
 This same experience could even be used as the post-meeting experience:
 
-![Post-meeting lifecycle uses the same presentation as the in-meeting stage](../media/07-post-meeting-experience.png)
+![Screenshot of the post-meeting lifecycle uses the same presentation as the in-meeting stage.](../media/07-post-meeting-experience.png)
 
 In our scenario, this works because the meeting stage is used to show the current presentation status of all approved stand-up topics submitted by the meeting attendees.
 

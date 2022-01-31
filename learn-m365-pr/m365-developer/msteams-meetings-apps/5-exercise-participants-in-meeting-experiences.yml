@@ -23,17 +23,17 @@ quiz:
     - content: "The pre-meeting experience is only available once an attendee joins the meeting and is shown in the stage, or main, area of the meeting."
       isCorrect: false
       explanation: "The pre-meeting lifecycle isn't limited in when or where it can be used. It's determined by the developer."
-    - content: "The pre-meeting experience is only available once an attendee joins the meeting and is shown in the stage."
+    - content: "This isn't correct because the pre-meeting experience is only available once an attendee joins the meeting and is shown in the stage."
       isCorrect: false
       explanation: "The pre-meeting lifecycle isn't limited in when or where it can be used. It's determined by the developer."
-  - content: "The side-panel context is available in the meeting details and within the window after joining a meeting."
+  - content: "This isn't correct because the side-panel context is available in the meeting details and within the window after joining a meeting."
     choices:
     - content: "False"
       isCorrect: true
       explanation: "Correct!"
     - content: "True"
       isCorrect: false
-      explanation: "The side-panel context is only available within a running meeting once the current user as joined the meeting."
+      explanation: "This isn't correct because the side-panel context is only available within a running meeting once the current user as joined the meeting & isn't available in the meeting details window."
   - content: "What are the different roles of attendees in a meeting that custom apps can use in creating unique experiences for attendees?"
     choices:
     - content: "Organizer, presenter, and attendee"
@@ -41,7 +41,7 @@ quiz:
       explanation: "Correct!"
     - content: "Organizer and attendee"
       isCorrect: false
-      explanation: "In addition to these, someone can also have the presenter role."
-    - content: "Presenter, and attendee"
+      explanation: "This isn't correct because in addition to these two options, someone can also have the presenter role."
+    - content: "Presenter and attendee"
       isCorrect: false
-      explanation: "In addition to these, someone can also have the organizer role."
+      explanation: "This isn't correct because in addition to these two options, someone can also have the organizer role."
