@@ -88,7 +88,7 @@ foreach (var group in resultsAllGroups)
 
 The list of groups returned by the `/groups` endpoint include a subset of all the properties available on a group if the query parameter `$select` isn't specified. If you want to control the specific properties returned in the request, include a `$select` query parameter with a comma-delimited list of all the properties you want returned.
 
-If you want a list of a specific type of group, such as all the Office 365 groups (also known as unified groups), use the `$filter` query parameter on the `grouupTypes` property:
+If you want a list of a specific type of group, such as all the Office 365 groups (also known as unified groups), use the `$filter` query parameter on the `groupTypes` property:
 
 ```http
 GET https://graph.microsoft.com/v1.0/groups?$filter=groupTypes/any(c:c+eq+'Unified')
@@ -130,7 +130,10 @@ var resultsGroupOwners = requestGroupOwners.GetAsync().Result;
 foreach (var owner in resultsGroupOwners)
 {
   var ownerUser = owner as Microsoft.Graph.User;
-  Console.WriteLine(ownerUser.Id + ": " + ownerUser.DisplayName + " <" + ownerUser.Mail + ">");
+  if (ownerUser != null)
+  {
+    Console.WriteLine(ownerUser.Id + ": " + ownerUser.DisplayName + " <" + ownerUser.Mail + ">");
+  }
 }
 ```
 
@@ -151,7 +154,10 @@ var resultsGroupMembers = requestGroupMembers.GetAsync().Result;
 foreach (var member in resultsGroupMembers)
 {
   var memberUser = member as Microsoft.Graph.User;
-  Console.WriteLine(memberUser.Id + ": " + memberUser.DisplayName + " <" + memberUser.Mail + ">");
+  if (memberUser != null)
+  {
+    Console.WriteLine(memberUser.Id + ": " + memberUser.DisplayName + " <" + memberUser.Mail + ">");
+  }
 }
 ```
 

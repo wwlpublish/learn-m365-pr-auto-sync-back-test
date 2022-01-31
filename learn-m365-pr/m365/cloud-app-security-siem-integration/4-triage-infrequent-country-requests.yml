@@ -1,14 +1,14 @@
 ### YamlMime:ModuleUnit
 uid: learn-m365.mcas-siem-integration.4-triage-infrequent-country-requests
 metadata:
-  title: Triage infrequent country requests with Microsoft Cloud App Security and Azure Sentinel
-  description: Learn how to triage infrequent country requests with Microsoft Cloud App Security and Azure Sentinel
-  ms.date: 03/03/2021
+  title: Triage infrequent country requests with Microsoft Defender for Cloud Apps and Microsoft Sentinel
+  description: Learn how to triage infrequent country requests with Microsoft Defender for Cloud Apps and Microsoft Sentinel
+  ms.date: 11/03/2021
   author: beccarobins
   ms.author: beccarobins
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-title: Triage infrequent country requests with Microsoft Cloud App Security and Azure Sentinel
+title: Triage infrequent country requests with Microsoft Defender for Cloud Apps and Microsoft Sentinel
 durationInMinutes: 14
 content: |
   [!include[](includes/4-triage-infrequent-country-requests.md)]

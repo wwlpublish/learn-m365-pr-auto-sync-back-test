@@ -11,7 +11,7 @@ Open the **Microsoft Teams admin center**, and review the **Audio & video** sect
 Ensure that the **Mode for IP audio** and **Mode for IP video** are both enabled. Also ensure that **Allow IP video** is enabled. 
 
 > [!TIP]
-> If video quality is poor, increase the **Media bit rate (Kbs)** value. 
+> If video quality is poor, increase the **Media bit rate (Kbps)** value. 
 
 ## Verify network settings
 

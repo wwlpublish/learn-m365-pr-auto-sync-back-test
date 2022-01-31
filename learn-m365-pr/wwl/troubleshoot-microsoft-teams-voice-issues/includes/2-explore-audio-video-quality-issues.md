@@ -28,7 +28,7 @@ By using the signaling connection, which all devices can establish, the STUN and
 - Check that packet shaper or packet inspection devices are not installed.
 
 > [!TIP] 
-> Do not use any kind of packet snipper, packet inspection, or packet shaper devices. These can degrade the Teams media traffic quality significantly.
+> Do not use any kind of packet sniffer, packet inspection, or packet shaper devices. These can degrade the Teams media traffic quality significantly.
 
 ## Call Quality Dashboard
 

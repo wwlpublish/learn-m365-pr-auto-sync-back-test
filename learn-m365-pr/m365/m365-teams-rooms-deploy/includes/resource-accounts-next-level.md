@@ -14,13 +14,14 @@ You can also set the MailTip using PowerShell using the `Set-Mailbox` cmdlet and
 Set-Mailbox -Identity $MailBoxAlias -MailTip "This room is equipped to support Teams and Skype Meetings"
 ```
 
- ![Set a mailbox MailTip](../media/set-mailbox-mailtip.png)
+:::image type="content" source="../media/set-mailbox-mailtip.png" alt-text="Screenshot displays Set a mailbox MailTip window." lightbox="../media/set-mailbox-mailtip.png":::
 
 When the resource account auto-accepts a meeting, it sends an e-mail back confirming that it accepted or rejected the meeting request.
 
 By using HTML in the **booking options** setting, you can add graphics or links to videos, and then send a helpful message back such as a reminder to make this a Teams meeting. You could also add end-user training links or corporate logos to this response.
 
-![Set HTML booking options](../media/html-booking-options.png)
+:::image type="content" source="../media/html-booking-options.png" alt-text="Screenshot displaying Set HTML booking options." lightbox="../media/html-booking-options.png":::
+
 
 If you use additional responses, you can create a much more interesting e-mail back to the meeting organizer.
 
@@ -42,7 +43,7 @@ Now we can use the `$AdditionalResponse` variable with the `Set-CalendarProcssin
 Set-CalendarProcessing -Identity mtr-stp-avanti-1@contoso.com -AddAdditionalResponse $true -AdditionalResponse $AdditionalResponse
 ```
 
-![Additional responses for request accepted](../media/request-accepted.png)
+:::image type="content" source="../media/request-accepted.png" alt-text="Screenshot shows Additional responses for request accepted." lightbox="../media/request-accepted.png":::
 
 By default, only members of your domain can schedule a meeting room. If you are contoso.com, your Teams Rooms resource accounts will not accept a meeting invite from nwtraders.com. However, if you enable `ProcessExternalMeetingMessages`, that resource account will now accept meeting invites from external domains.
 
@@ -84,7 +85,7 @@ Room Lists help you organize all your meeting rooms. Instead of having a flat li
 
 In this example, a room list has been created. If  Tampa Bay is clicked, it then filters and shows the three meeting rooms available in the Tampa Bay area.
 
-![Room Lists](../media/room-list.png)
+:::image type="content" source="../media/room-list.png" alt-text="Screenshot displays Room Lists." lightbox="../media/room-list.png":::
 
 How do you create room lists? It must be done via PowerShell, but it's simple. Type `New-DistributionGroup` and give it a name.  Then make sure you flag it as a special distribution group called a `RoomList`.
 
@@ -107,7 +108,7 @@ Instead of just naming the location of where rooms are, you can add additional c
 
 Here's an example of Places for Tampa Bay. When filtering on Tampa Bay, you can see there are three rooms that are available. Clicking **Filters** brings up a new menu. Now you can filter on rooms that have at least a 10-person capacity, a video camera, and are wheelchair accessible. Click the **Apply button** and you'll see one room that matches the criteria.
 
-![Places feature to filter on room criteria](../media/places-feature.png)
+:::image type="content" source="../media/places-feature.png" alt-text="Screenshot displays Places feature to filter on room criteria." lightbox="../media/places-feature.png":::
 
 Creating Places must be done via PowerShell using the `Set-Place` cmdlet. In this example, the place is the meeting room `MTR-STP-Avanti-1`. This room will be listed as wheelchair accessible, with a 12-person capacity, and a video display.
 

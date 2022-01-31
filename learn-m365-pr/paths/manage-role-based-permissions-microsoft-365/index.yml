@@ -3,7 +3,7 @@ uid: learn.wwl.manage-role-based-permissions-microsoft-365
 metadata:
   title: Manage role-based permissions in Microsoft 365
   description: Manage role-based permissions in Microsoft 365
-  ms.date: 11/17/2021
+  ms.date: 12/15/2021
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -17,7 +17,7 @@ prerequisites: |
   - Ability to write PowerShell commands at an intermediate level
 summary: |
   Examines how messaging administrators manage role-based permissions, and how they must plan and configure permissions carefully so as not to put their messaging environment or their entire Active Directory at risk.
-iconUrl: /learn/achievements/generic-trophy.svg
+iconUrl: /learn/achievements/m365-role-based-permission.svg
 levels:
 - intermediate
 roles:

@@ -1,10 +1,10 @@
 ### YamlMime:ModuleUnit
 uid: learn-m365.teams.defends-against-threats.3-cloud-app-security
-title: Examine the Cloud App Security
+title: Examine the Defender for Cloud Apps
 metadata:
-  title: Examine the Cloud App Security
-  description: Learn about how Cloud App Security can protect your users from downloading threats contained in apps from app stores and other locations that you can't control directly.
-  ms.date: 07/15/2021
+  title: Examine the Defender for Cloud Apps
+  description: Learn about how Defender for Cloud Apps can protect your users from downloading threats contained in apps from app stores and other locations that you can't control directly.
+  ms.date: 11/05/2021
   ms.author: teleary
   author: temanteleary
   ms.topic: interactive-tutorial

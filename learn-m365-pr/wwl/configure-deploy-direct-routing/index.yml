@@ -3,7 +3,7 @@ uid: learn.wwl.configure-deploy-direct-routing
 metadata:
   title: Configure and deploy Direct Routing
   description: "In this module, you'll learn how administrators configure Direct Routing to meet user needs for telephony through a PSTN."
-  ms.date: 09/30/2021
+  ms.date: 01/13/2022
   author: wwlpublish
   ms.author: dahans
   ms.topic: interactive-tutorial
@@ -19,7 +19,7 @@ abstract: |
 prerequisites: |
   - Knowledge of PBX telephony systems and terminology
   - Knowledge equivalent to the Plan for Direct Routing module
-iconUrl: /learn/achievements/generic-badge.svg
+iconUrl: /learn/achievements/6-configure-and-deploy-direct-routing.svg
 levels:
 - advanced
 roles:

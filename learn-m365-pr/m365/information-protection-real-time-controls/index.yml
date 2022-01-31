@@ -1,18 +1,18 @@
 ### YamlMime:Module
 uid: learn-m365.information-protection-real-time-controls
 metadata:
-  title: Protect information in real time with Microsoft Cloud App Security
-  description: Learn to configure information protection in Microsoft Cloud App Security and protect data stored in all locations, including non-Microsoft services.
-  ms.date: 10/19/2021
+  title: Protect information in real time with Microsoft Defender for Cloud Apps
+  description: Learn to configure information protection in Microsoft Defender for Cloud Apps and protect data stored in all locations, including non-Microsoft services.
+  ms.date: 11/03/2021
   author: beccarobins
   ms.author: beccarobins
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-title: Protect information in real time with Microsoft Cloud App Security
-summary: Learn to configure information protection in Microsoft Cloud App Security and protect data stored in all locations, including non-Microsoft services. Learn how to restrict external users and unauthorized browsers, how to label or quarantine files, and how to apply information protection policies.
+title: Protect information in real time with Microsoft Defender for Cloud Apps
+summary: Learn to configure information protection in Microsoft Defender for Cloud Apps and protect data stored in all locations, including non-Microsoft services. Learn how to restrict external users and unauthorized browsers, how to label or quarantine files, and how to apply information protection policies.
 abstract: | 
   In this module, you will:
-  - Connect Box, Salesforce, and GitHub to Microsoft Cloud App Security.
+  - Connect Box, Salesforce, and GitHub to Microsoft Defender for Cloud Apps.
   - Protect storage apps and implement malware detection.
   - Configure read-only mode for external users.
   - Block unauthorized browsers from accessing corporate web apps.
@@ -24,7 +24,7 @@ prerequisites: |
   - Experience working with Microsoft 365 services
   - Experience working with Azure 
   - Knowledge of security concepts, risks, and mitigations
-  - Microsoft Cloud App Security fundamentals or equivalent
+  - Microsoft Defender for Cloud Apps fundamentals or equivalent
 
 iconUrl: /learn/achievements/protect-information-in-real-time-with-mcas.svg
 levels:
@@ -33,6 +33,7 @@ roles:
 - administrator
 products:
 - m365-ems-cloud-app-security
+- m365-information-protection
 units:
 - learn-m365.information-protection-real-time-controls.1-introduction
 - learn-m365.information-protection-real-time-controls.2-connect-box-salesforce-github

@@ -60,9 +60,7 @@ You can also add a field customizer to site column programmatically by setting p
 
 ## Debugging and testing extensions
 
-Now let's look at how you can debug and test SharePoint Framework field customizer extensions. Unlike client-side web parts, extensions require a live SharePoint site, list, or library. This means you can't test extensions in either the local or SharePoint-hosted workbench. You can still build and host extensions projects locally while debugging and testing in a remote SharePoint site.
-
-The testing experience is similar to the experience when you use the hosted SharePoint workbench for a web part development testing and debugging.
+Now let's look at how you can debug and test SharePoint Framework field customizer extensions. The SharePoint workbench doesn't support testing extensions. However, you can still build and host extensions projects locally while debugging and testing in a remote SharePoint site.
 
 To test a field customizer extension, you include special query string parameters to the URL of a live SharePoint modern page, list, or library. These parameters instruct SharePoint to do the following things:
 

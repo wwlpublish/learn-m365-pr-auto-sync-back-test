@@ -24,6 +24,7 @@ roles:
 - administrator
 products: 
 - m365
+- viva-topics
 units:
 - learn-m365-pr.viva-topics-implement.introduction
 - learn-m365-pr.viva-topics-implement.launch

@@ -4,7 +4,7 @@ In this unit, you'll learn how the SharePoint Framework enables developers to in
 
 ## Create appealing solutions with the Office UI Fabric (Fluent UI)
 
-Office UI Fabric React is the front-end framework for building experiences for Office and Office 365. It includes a robust collection of responsive, mobile-first components that make it easy for you to create web experiences by using the Office Design Language.
+Office UI Fabric React is the front-end framework for building experiences for Office and Microsoft 365. It includes a robust collection of responsive, mobile-first components that make it easy for you to create web experiences by using the Office Design Language.
 
 The new modern experiences in SharePoint use Office UI Fabric (Fluent UI) and Office UI Fabric React as the default front-end framework for building the new experiences. As a result, SharePoint Framework ships with a default version of Office UI Fabric (Fluent UI) and Fabric React that matches the version available in SharePoint. This ensures that the web part you're building uses the right version of the Fabric styles and components when deployed to SharePoint.
 
@@ -85,7 +85,7 @@ The Microsoft Graph is the gateway to your data in the Microsoft cloud.
 
 ![Microsoft Graph - gateway to your data in the Microsoft cloud](../media/04-microsoft-graph-gateway.png)
 
-The Microsoft cloud is included of multiple services and data types that we can take advantage of from Office 365, and it's all considered part of the Microsoft 365 platform.
+The Microsoft cloud is included of multiple services and data types that we can take advantage of from Microsoft 365, and it's all considered part of the Microsoft 365 platform.
 
 Developers can integrate the signed-in user's email, calendar, contacts, and tasks into custom apps. We can work with content in SharePoint sites and lists files in OneDrive, channels and content within Microsoft Teams, and users in Azure Active Directory (Azure AD).
 

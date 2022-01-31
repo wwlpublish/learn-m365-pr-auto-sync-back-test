@@ -134,21 +134,11 @@ Custom components can access the following properties on the page context:
 - web server-relative URL
 - current user login name
 
-The `context` property is available in both the local workbench and SharePoint-hosted workbench. When testing a component in the local workbench, mock data is returned. For example, the title of the current site and details of the current user never change because they're hard-coded in the SharePoint Framework API.
-
-The `context` property will always return real data when testing the component in the SharePoint-hosted workbench.
-
-![Figure showing different values returned by the page context depending based on where its running](../media/06-page-context.png)
-
-Here's a web part running in the local workbench compared to running in the SharePoint-hosted workbench. Notice the local workbench version has a site title of **Local Workbench**.
-
-In the other version of the web part, it's running in a real SharePoint page. This can be in the SharePoint-hosted workbench or on a web part page. Notice the title of the current site is different from the local workbench and will match the title of the site where the web part is currently running.
+![Figure showing the page context](../media/05-web-part-01.png)
 
 ## Environment type
 
-If your custom component works with data from Microsoft Graph or another external API, you should consider adding logic that detects if the web part is running in the local workbench or in a real SharePoint environment. In the case where its running in the local workbench, you can return mock data instead of calling the external APIs.
-
-To do this, you need to use the SharePoint Framework API to detect the current environment. To check for the current environment, import the `Environment` object and the `EnvironmentType` enumeration from the **@microsoft/sp-core-library** package:
+The SharePoint Framework API provides a mechanism you can use to detect the current environment. For example, to check if your web part is running in a classic or a modern page. To determine the current environment, import the `Environment` object and the `EnvironmentType` enumeration from the **@microsoft/sp-core-library** package:
 
 ```typescript
 import {
@@ -156,21 +146,23 @@ import {
   EnvironmentType
 } from '@microsoft/sp-core-library';
 
-const environmentType: string = (Environment.type === EnvironmentType.Local)
-  ? 'You are in local environment'
-  : 'You are in SharePoint environment';
+const environmentType : string = (Environment.type === EnvironmentType.ClassicSharePoint)
+  ? 'You are running in a classic page'
+  : 'You are running in a modern page';  
 ```
 
 The `EnvironmentType` enumeration has the following options:
 
-- **Local**: indicates the component is running in the local workbench
-- **ClassicSharePoint**: indicates the component is running on a classic page in a real SharePoint environment
-- **SharePoint**: indicates the component is running on a modern page in a real SharePoint environment (*includes the SharePoint-hosted workbench*)
+- **Local**: (deprecated after SPFx v1.12.1) indicates the component is running in the local workbench
+- **ClassicSharePoint**: indicates the component is running on a classic page
+- **SharePoint**: indicates the component is running on a modern page (*includes the SharePoint-hosted workbench*)
 - **Test**: indicates the component is running in a test harness
 
-The following figure shows a web part running in the local workbench on the left, and another running in a real SharePoint environment on the right:
+The following figures show a web part running in a classic page and in a modern page:
 
-![Screenshot of the web part running in two environments](../media/06-environment-type.png)
+![Screenshot of the web part running in a classic page](../media/06-environment-type-01.png)
+
+![Screenshot of the web part running in a modern page](../media/06-environment-type-02.png)
 
 ## Logging
 
@@ -183,7 +175,7 @@ The `Log` class contains four static methods for logging:
 - **error**: log errors
 - **verbose**: log everything
 
-In the SharePoint Framework, all logging is written to the JavaScript console. You can see the logging messages using the developer tools in a web browser.
+In the SharePoint Framework, all logging is written to the developer dashboard.
 
 All static methods have the same signature, except the error method - they take three arguments:
 
@@ -193,9 +185,9 @@ All static methods have the same signature, except the error method - they take 
 
 The error method takes an `Error` object instead of the message string, otherwise they're the same.
 
-To use the SharePoint Framework logging infrastructure, import the `Log` object from the **@microsoft/sp-core-library** package. Each of the methods will write a different type of logging message to the JavaScript console, as you can see here:
+To use the SharePoint Framework logging infrastructure, import the `Log` object from the **@microsoft/sp-core-library** package. Each of the methods will write a different type of logging message to the developer dashboard, as you can see here:
 
-![Screenshot of log messages in the console](../media/06-logging-javascript-console.png)
+![Screenshot of log messages in the developer dashboard](../media/07-web-part-03.png)
 
 ## Loading scripts and CSS files with the SPComponentLoader
 

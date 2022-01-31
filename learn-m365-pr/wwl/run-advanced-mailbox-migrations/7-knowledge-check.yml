@@ -1,0 +1,52 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.run-advanced-mailbox-migrations.knowledge-check
+title: Knowledge check
+metadata:
+  title: Knowledge check
+  description: "Knowledge check"
+  ms.date: 12/16/2021
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 6
+content: |
+  [!include[](includes/7-knowledge-check.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "As the Messaging administrator at Contoso, Holly Dickson wants to migrate the company's on-premises public folders over to Microsoft 365 Groups. Doing so will enable Contoso to take advantage of the latest collaboration features from Microsoft, as opposed to staying with the older public folder technology. Contoso currently has an Exchange Server 2019 deployment. What must Holly do to migrate Contoso's on-premises public folders to Microsoft 365 Groups?"
+    choices:
+    - content: "Store the public folders on an encrypted hard drive and physically ship the drive to Microsoft"
+      isCorrect: false
+      explanation: "This answer is incorrect. This item item isn't what Holly should do to migrate Contoso's on-premises public folders to Microsoft 365 Groups. Try again."
+    - content: "Set up an Exchange hybrid environment"
+      isCorrect: true
+      explanation: "This answer is correct. If your public folders are on-premises, you must have an Exchange hybrid environment set up before you can migrate the public folder data to Microsoft Groups."
+    - content: "Upload the public folders to the Import service using your existing Internet connection"
+      isCorrect: false
+      explanation: "This answer is incorrect. This item item isn't what Holly should do to migrate Contoso's on-premises public folders to Microsoft 365 Groups. Try again."
+  - content: "Fabrikam recently merged with Contoso. As the Messaging administrator for Contoso, Holly Dickson must move the Fabrikam users' Exchange Online mailboxes into Contoso's Microsoft 365 tenant. How can Holly accomplish this task?"
+    choices:
+    - content: "Using the Microsoft Exchange Mailbox Replication Service (MRS)"
+      isCorrect: false
+      explanation: "This answer is incorrect. Cross-tenant Exchange mailbox migrations can't be done using MRS. Try again."
+    - content: "Through the Exchange admin center (EAC)"
+      isCorrect: false
+      explanation: "This answer is incorrect. Cross-tenant Exchange mailbox migrations can't be done using the EAC. Try again."
+    - content: "Through Windows PowerShell"
+      isCorrect: true
+      explanation: "This answer is correct. Cross-tenant mailbox moves are done using Windows PowerShell. The feature doesn’t have a UI through the Exchange admin center (EAC) portal. Administrators can use the New-MigrationBatch cmdlet, available through the Move Mailboxes management role, to execute cross-tenant moves."
+  - content: "As the Messaging administrator for Lucerne Publishing, Patti Fernandez wants to import PST files using the PST Import tool. What's the first thing that Patti should do?"
+    choices:
+    - content: "Upload or copy the PST files"
+      isCorrect: false
+      explanation: "This answer is incorrect. This action isn't the first step in the PST migration process. Try again."
+    - content: "Download the PST import tool and key to a private Azure storage location"
+      isCorrect: true
+      explanation: "This answer is correct. The first step is to download the tool and access key used to upload the PST files or copy them to a hard drive. The access key is unique to your organization and provides you (or Microsoft data center personnel if you use drive shipping) with the necessary permissions to upload PST files to a private and secure Azure storage location."
+    - content: "Create a PST import-mapping file"
+      isCorrect: false
+      explanation: "This answer is incorrect. This action isn't the first step in the PST migration process. Try again."

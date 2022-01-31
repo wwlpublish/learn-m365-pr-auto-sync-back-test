@@ -92,7 +92,7 @@ const sendActivityMessage = useCallback(async() => {
     method: "POST",
     headers: {
       authorization: `bearer ${msGraphOboToken}`,
-      "content-type": "application/json",
+      "content-type": "application/json"
     },
     body: JSON.stringify({
       topic: {
@@ -135,17 +135,15 @@ At this point, you're ready to test the activity feed notification code. Save yo
 
 ## Build and test the application
 
-Now let's test the new functionality added in this exercise.
+Now let's test the new functionality added in this exercise. If the **ngrok-serve** task is running, stop it by pressing <kbd>CTRL</kbd>+<kbd>C</kbd> in the console.
 
 From the command line, navigate to the root folder for the project and execute the following command:
 
 ```console
-gulp ngrok-serve
+gulp ngrok-serve --debug
 ```
 
 > [!IMPORTANT]
-> If the **ngrok-serve** stopped for any reason, remember when you start/restart the **gulp ngrok-serve** task, the dynamic ngrok URL will change.
->
 > You'll need to update all the locations where you set the URL in your project as well as in the Azure AD app registration as previously explained.
 >
 > In addition, you'll need to reinstall your app package because the Microsoft Teams app manifest contains the URL. To do this, you'll first need to increment the `version` property in the app's **./manifest/manifest.json** file. This value is dynamically set using the `version` property from the **./package.json** file. When you repeat the installation process of the app, it will update the existing installation.

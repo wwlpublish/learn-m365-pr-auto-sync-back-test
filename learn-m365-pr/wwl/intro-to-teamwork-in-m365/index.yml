@@ -25,6 +25,7 @@ roles:
 - administrator
 products:
 - m365
+- office-teams
 units:
 - learn-m365.teamwork-in-m365.1-introduction
 - learn-m365.teamwork-in-m365.2-choose-the-right-tools

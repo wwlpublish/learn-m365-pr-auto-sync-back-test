@@ -8,7 +8,7 @@ Microsoft Defender for Office 365  includes best-of-class threat investigation a
 
 Threat Explorer enables you to begin delving into granular data for your organization.  Inside Threat Explorer, you are first shown the variety of threat families impacting our organization over time. Additionally, you are shown the top threats and top targeted users inside the organization.
   
-You can also change the category for the graph. In this case, the malware family is shown, but you can filter the Threat Explorer graph through several options including sender email, recipient email, and even the detection technology used to stop a threat. The detection technology piece highlights the issue if an email was blocked by Microsoft Defender's sandboxing or through an EOP filter. The graph adjusts to reflect the category being examined.
+You can also change the category for the graph. In this case, the malware family is shown, but you can filter the Threat Explorer graph through several options including sender email, recipient email, and even the detection technology used to stop a threat. The detection technology piece highlights the issue if an email was blocked by Microsoft Defender for Cloud's sandboxing or through an EOP filter. The graph adjusts to reflect the category being examined.
 
  :::image type="content" source="../media/threat-explorer-graph.png" alt-text="Threat Explorer graph" lightbox="../media/threat-explorer-graph.png":::
 

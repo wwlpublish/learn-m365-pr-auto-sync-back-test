@@ -2,8 +2,8 @@
 uid: learn-m365.configure-microsoft-cloud-app-security-cloud-discovery.5-implement-app-connectors
 metadata:
   title: Implement app connectors
-  description: Learn to implement app connectors in Cloud App Security
-  ms.date: 07/19/2021
+  description: Learn to implement app connectors in Defender for Cloud Apps
+  ms.date: 11/03/2021
   author: beccarobins
   ms.author: beccarobins
   ms.topic: interactive-tutorial

@@ -1,9 +1,9 @@
 ### YamlMime:Module
 uid: learn-m365.m365-teams-sharepoint-plan-sharepoint
 metadata:
-  title: Plan for SharePoint in Microsoft 365
+  title: Introduction to SharePoint in Microsoft 365
   description: Discover how SharePoint works with Microsoft 365. Learn the role and key tasks of the SharePoint administrator and the tools available to secure your environment.
-  ms.date: 11/10/2021
+  ms.date: 11/29/2021
   author: temanteleary
   ms.author: teleary
   ms.topic: interactive-tutorial
@@ -28,6 +28,7 @@ roles:
 products:
 - m365
 - office-365
+- office-sp
 units:
 - learn-m365.m365-teams-sharepoint-plan-sharepoint.introduction
 - learn-m365.m365-teams-sharepoint-plan-sharepoint.administer-sharepoint

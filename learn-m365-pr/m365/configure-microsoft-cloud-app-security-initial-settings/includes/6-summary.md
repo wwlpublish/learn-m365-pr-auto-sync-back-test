@@ -8,7 +8,7 @@ Now that you've completed this module, you should be able to:
 
 ## Learn more
 
-- [Basic setup for Cloud App Security]( /cloud-app-security/general-setup?azure-portal=true)
+- [Basic setup for Defender for Cloud Apps]( /cloud-app-security/general-setup?azure-portal=true)
 - [Network requirements]( /cloud-app-security/network-requirements?azure-portal=true)
 - [Working with IP ranges and tags]( /cloud-app-security/ip-tags?azure-portal=true )
 - [Importing user groups from connected apps]( /cloud-app-security/user-groups?azure-portal=true )

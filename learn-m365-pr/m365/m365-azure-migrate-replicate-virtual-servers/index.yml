@@ -3,7 +3,7 @@ uid: learn-m365.m365-azure-migrate-replicate-virtual-servers
 metadata:
   title: Replicate and migrate virtual machine servers with Azure Migrate
   description: Learn the process for replicating, testing, and finally migrating your virtual machines into production. 
-  ms.date: 07/06/2021
+  ms.date: 11/03/2021
   author: beccarobins
   ms.author: beccarobins
   ms.topic: interactive-tutorial

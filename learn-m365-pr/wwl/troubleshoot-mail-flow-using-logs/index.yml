@@ -3,7 +3,7 @@ uid: learn.wwl.troubleshoot-mail-flow-using-logs
 metadata:
   title: Troubleshoot mail flow using logs
   description: "Troubleshoot mail flow using logs"
-  ms.date: 10/19/2021
+  ms.date: 12/09/2021
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -16,7 +16,7 @@ abstract: |
   - Describe how to troubleshoot using the protocol logs.
   - Understand how to work with the event logging for Exchange.
 prerequisites: ""
-iconUrl: /learn/achievements/generic-badge.svg
+iconUrl: /learn/achievements/troubleshoot-mail-flow-logs.svg
 levels:
 - intermediate
 roles:

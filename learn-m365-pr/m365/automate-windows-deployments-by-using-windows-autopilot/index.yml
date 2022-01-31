@@ -23,6 +23,7 @@ roles:
 - administrator
 products:
 - m365
+- windows-19044
 units:
 - learn-m365-pr.automate-windows-deployments-by-using-windows-autopilot.1-windows-autopilot-overview
 - learn-m365-pr.automate-windows-deployments-by-using-windows-autopilot.2-windows-autopilot-deployment-modes

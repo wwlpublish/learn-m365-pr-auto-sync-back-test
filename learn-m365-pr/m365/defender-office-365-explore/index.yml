@@ -26,6 +26,7 @@ roles:
   - security-engineer
 products:
 - m365
+- defender-office365
 units:
 - learn-m365-pr.defender-office-365-explore.introduction
 - learn-m365-pr.defender-office-365-explore.preset-policies-overrides

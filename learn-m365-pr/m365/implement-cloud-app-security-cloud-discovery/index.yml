@@ -1,27 +1,27 @@
 ### YamlMime:Module
 uid: learn-m365.implement-mcas-cloud-discovery
 metadata:
-  title: Implement Microsoft Cloud App Security Cloud Discovery
-  description: Learn how to configure Cloud Discovery in Microsoft Cloud App Security, to integrate with Microsoft Defender for Endpoint, and how to integrate with non-Microsoft systems.
-  ms.date: 07/20/2021
+  title: Implement Microsoft Defender for Cloud Apps Cloud Discovery
+  description: Learn how to configure Cloud Discovery in Microsoft Defender for Cloud Apps, to integrate with Microsoft Defender for Endpoint, and how to integrate with non-Microsoft systems.
+  ms.date: 11/03/2021
   author: beccarobins
   ms.author: beccarobins
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-title: Implement Microsoft Cloud App Security Cloud Discovery
-summary: Learn how to configure Cloud Discovery in Microsoft Cloud App Security, to integrate with Microsoft Defender for Endpoint, and how to integrate with non-Microsoft systems.
+title: Implement Microsoft Defender for Cloud Apps Cloud Discovery
+summary: Learn how to configure Cloud Discovery in Microsoft Defender for Cloud Apps, to integrate with Microsoft Defender for Endpoint, and how to integrate with non-Microsoft systems.
 abstract: | 
   In this module, you will:
   - Use the Cloud Discovery interactive guide to help protect your apps
   - Implement Cloud Discovery policies
-  - Configure Cloud App Security in Microsoft Defender for Endpoint
-  - Configure the Cloud App Security log collector
-  - Integrate Cloud App Security with non-Microsoft systems
+  - Configure Defender for Cloud Apps in Microsoft Defender for Endpoint
+  - Configure the Defender for Cloud Apps log collector
+  - Integrate Defender for Cloud Apps with non-Microsoft systems
 prerequisites: | 
   - Experience working with Microsoft 365 services
   - Experience working with Azure 
   - Knowledge of security concepts, risks, and mitigations
-  - Microsoft Cloud App Security fundamentals or equivalent
+  - Microsoft Defender for Cloud Apps fundamentals or equivalent
 iconUrl: /learn/achievements/cloud-app-security-implement-discovery.svg
 levels:
 - intermediate
@@ -29,6 +29,7 @@ roles:
 - administrator
 products:
 - m365-ems-cloud-app-security
+- defender-for-cloud-apps
 units:
 - learn-m365.implement-mcas-cloud-discovery.1-introduction
 - learn-m365.implement-mcas-cloud-discovery.2-what-is-cloud-discovery-in-cloud-app-security

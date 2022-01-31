@@ -1,10 +1,10 @@
 ### YamlMime:ModuleUnit
 uid: learn-m365.cloud-app-security.walkthrough
-title: Walk through discovery and access control with Microsoft Cloud App Security
+title: Walk through discovery and access control with Microsoft Defender for Cloud Apps
 metadata:
-  title: Walk through discovery and access control with Microsoft Cloud App Security
-  description: See how Cloud Discovery and Conditional Access App Control work in the Cloud App Security portal.  
-  ms.date: 06/14/2021
+  title: Walk through discovery and access control with Microsoft Defender for Cloud Apps
+  description: See how Cloud Discovery and Conditional Access App Control work in the Defender for Cloud Apps portal.  
+  ms.date: 11/03/2021
   author: beccarobins
   ms.author: beccarobins
   ms.topic: interactive-tutorial

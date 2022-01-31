@@ -29,6 +29,7 @@ products:
 - office-365
 - office
 - windows
+- windows-19044
 units:
 - learn-m365.m365-office-it-prepare.introduction
 - learn-m365.m365-office-it-prepare.prerequisites

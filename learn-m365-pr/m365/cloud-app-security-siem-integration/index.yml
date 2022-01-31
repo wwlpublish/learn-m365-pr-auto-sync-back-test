@@ -1,28 +1,28 @@
 ### YamlMime:Module
 uid: learn-m365.mcas-siem-integration
 metadata:
-  title: Connect Security Information and Event Management solutions to Microsoft Cloud App Security
-  description: Learn how to connect Azure Sentinel and other SIEM solutions to Microsoft Cloud App Security.
-  ms.date: 10/19/2021
+  title: Connect Security Information and Event Management solutions to Microsoft Defender for Cloud Apps
+  description: Learn how to connect Microsoft Sentinel and other SIEM solutions to Microsoft Defender for Cloud Apps.
+  ms.date: 01/13/2022
   author: beccarobins
   ms.author: beccarobins
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-title: Microsoft Cloud App Security SIEM integration
-summary: Learn how to connect Azure Sentinel and other SIEM solutions to Microsoft Cloud App Security.
+title: Microsoft Defender for Cloud Apps SIEM integration
+summary: Learn how to connect Microsoft Sentinel and other SIEM solutions to Microsoft Defender for Cloud Apps.
 abstract: | 
   In this module, you will:
-  - Connect Azure Sentinel to Microsoft Cloud App Security
-  - Enrich incidents in Azure Sentinel with playbooks
-  - Triage infrequent country requests with Microsoft Cloud App Security and Azure Sentinel
-  - Connect a non-Microsoft security information and event management solution to Microsoft Cloud App Security
+  - Connect Microsoft Sentinel to Microsoft Defender for Cloud Apps
+  - Enrich incidents in Microsoft Sentinel with playbooks
+  - Triage infrequent country requests with Microsoft Defender for Cloud Apps and Microsoft Sentinel
+  - Connect a non-Microsoft security information and event management solution to Microsoft Defender for Cloud Apps
 
 prerequisites: | 
   - Experience working with Microsoft 365 services
   - Experience working with Azure 
-  - Experience working with Azure Sentinel
+  - Experience working with Microsoft Sentinel
   - Knowledge of security concepts, risks, and mitigations
-  - Microsoft Cloud App Security intermediate or equivalent  
+  - Microsoft Defender for Cloud Apps intermediate or equivalent  
 iconUrl: /learn/achievements/microsoft-cloud-app-security-siem-integration.svg
 levels:
 - advanced
@@ -30,6 +30,7 @@ roles:
 - administrator
 products:
 - m365-ems-cloud-app-security
+- defender-for-cloud-apps
 units:
 - learn-m365.mcas-siem-integration.1-introduction
 - learn-m365.mcas-siem-integration.2-connect-azure-sentinel

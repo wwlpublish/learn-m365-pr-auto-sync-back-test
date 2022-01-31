@@ -2,8 +2,8 @@
 uid: learn-m365.implement-mcas-threat-detection.4-detect-threats-and-manage-alerts
 metadata:
   title: Detect threats and manage alerts
-  description: Cloud App Security alerts are your entry point into identifying potential security threats and other issues within your apps
-  ms.date: 09/07/2021
+  description: Defender for Cloud Apps alerts are your entry point into identifying potential security threats and other issues within your apps
+  ms.date: 11/03/2021
   author: beccarobins
   ms.author: beccarobins
   ms.topic: interactive-tutorial

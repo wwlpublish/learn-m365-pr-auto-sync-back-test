@@ -1,18 +1,18 @@
 ### YamlMime:Module
 uid: learn-m365.cloud-app-security
 metadata:
-  title: Secure your cloud apps and services with Microsoft Cloud App Security
-  description: Microsoft Cloud App Security is a Cloud Access Security Broker (CASB) that operates on multiple clouds. It provides rich visibility, control over data travel, and sophisticated analytics to identify and combat cyberthreats across all your cloud services. Learn how to use Cloud App Security in your organization.  
-  ms.date: 11/11/2021
+  title: Secure your cloud apps and services with Defender for Cloud Apps
+  description: Microsoft Defender for Cloud Apps is a cloud access security broker (CASB) that operates on multiple clouds. It provides rich visibility, control over data travel, and sophisticated analytics to identify and combat cyberthreats across all your cloud services. Learn how to use Defender for Cloud Apps in your organization.
+  ms.date: 11/29/2021
   author: beccarobins
   ms.author: beccarobins
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-title: Secure your cloud apps and services with Microsoft Cloud App Security
-summary: Microsoft Cloud App Security is a Cloud Access Security Broker (CASB) that operates on multiple clouds. It provides rich visibility, control over data travel, and sophisticated analytics to identify and combat cyberthreats across all your cloud services. Learn how to use Cloud App Security in your organization.
+title: Secure your cloud apps and services with Microsoft Defender for Cloud Apps
+summary: Microsoft Defender for Cloud Apps is a cloud access security broker (CASB) that operates on multiple clouds. It provides rich visibility, control over data travel, and sophisticated analytics to identify and combat cyberthreats across all your cloud services. Learn how to use Defender for Cloud Apps in your organization.
 abstract: |
   At the end of this module, you should be able to:
-  - Define the Cloud App Security framework
+  - Define the Defender for Cloud Apps framework
   - Explain how Cloud Discovery helps you see what's going on in your organization
   - Understand how to use Conditional Access App Control policies to control access to the apps in your organization 
 prerequisites: None
@@ -24,6 +24,7 @@ roles:
 products:
 - m365
 - m365-ems-cloud-app-security
+- defender-for-cloud-apps
 units:
 - learn-m365.cloud-app-security.introduction
 - learn-m365.cloud-app-security.framework
