@@ -20,7 +20,7 @@ quiz:
        explanation: "Incorrect.Autoscale does not cost anything additional."
      - content: "It does not cost anything additional"
        isCorrect: true
-       explanation: "Correct.Autoscale does not cost anything additional."
+       explanation: "Correct.Autoscale has no additional cost."
      - content: "$0.50 per schedule"
        isCorrect: false
        explanation: "Incorrect.Autoscale does not cost anything additional."
