@@ -1,17 +1,17 @@
-Workplace Analytics provides insights around three key pillars of customer focus: External collaboration, Internal collaboration, and Coaching and onboarding.
+The Workplace Analytics app with Viva Insights provides organizational insights around the key pillars of customer focus, including: external collaboration, internal collaboration, and coaching and onboarding.
 
 > [!div class="centered"]
 > ![Customer focus categories](../media/customer-focus-categories.png)
 
 ## What questions about customer focus can you answer with Workplace Analytics?
 
-When beginning your customer focus analysis, it is important to know your business priorities and identify business questions to guide your analysis. The following are some examples of questions you might ask for each pillar:
+When beginning your customer focus analysis, identify your business priorities and key business questions for focusing the analysis on. The following are some examples of questions you might ask for each pillar:
 
-- **External collaboration** - Are sales employees spending the right amount of time with the right customers to effectively drive high-value activities?
-- **Internal collaboration** - Are sales employees getting sufficient support from internal teams who can help drive high-value, external activities, and spending the minimum time possible in internal processes?
-- **Coaching and onboarding** - Are sales employees getting enough empowerment from the management and building the knowledge and skills that can set them up for success?
+* **External collaboration** - Are sales employees spending the right amount of time with the right customers to effectively drive high-value activities?
+* **Internal collaboration** - Are sales employees getting sufficient support from internal teams who can help drive high-value, external activities, and spending the minimum time possible in internal processes?
+* **Coaching and onboarding** - Are sales employees getting enough empowerment from the management and building the knowledge and skills that can set them up for success?
 
-These are just a few of the questions a Workplace Analytics customer focus analysis can help answer. There are multiple analyses in each category that you can perform to help boost customer focus for sales effectiveness.
+These are just a few of the questions your customer focus analysis with Workplace Analytics can help answer. You can create multiple analyses in each category to help boost customer focus and sales effectiveness.
 
 ## External collaboration
 
@@ -19,7 +19,7 @@ More time spent with the best customer opportunities is key to sales effectivene
 
 ### External time allocation
 
-**Do employees spend most of their time with customers or other external parties?** With Workplace Analytics, you can analyze internal and external collaboration and email by group to understand who your external-facing employees spend time with.  
+**Do employees spend most of their time with customers or other external parties?** You can use Workplace Analytics to analyze internal and external collaboration and email by group to understand who your external-facing employees spend time with.
 
 ![External time allocation](../media/external-time-allocation.png)
 
@@ -49,8 +49,8 @@ More time spent with the best customer opportunities is key to sales effectivene
 
 **Why does this matter?** Locating and maintaining relationships with the right contacts, based on the nature of the product or service, leads to more effective sales conversations.
 
-> [!NOTE]
-> The External contact analysis described above requires detailed CRM and customer contact data. To perform this analysis, additional data extraction capabilities are required.
+>[!NOTE]
+>The External contact analysis described above requires detailed CRM and customer contact data. To perform this analysis, additional data extraction capabilities are required.
 
 ### CRM augmentation
 
@@ -60,8 +60,8 @@ More time spent with the best customer opportunities is key to sales effectivene
 
 **Why does this matter?** An up-to-date CRM database is the foundation for effective sales planning, sales projections, and coaching conversations. It is critical for smooth operations and keeping the team informed.
 
-> [!NOTE]
-> The CRM augmentation analysis described above requires detailed CRM and customer contact data. To perform this analysis, additional data extraction capabilities are required.
+>[!NOTE]
+>The CRM augmentation analysis described above requires detailed CRM and customer contact data. To perform this analysis, additional data extraction capabilities are required.
 
 ## Internal collaboration
 
@@ -111,8 +111,8 @@ Knowledge and skills are essential for sales success. A robust onboarding progra
 
 **Why does this matter?** Regular check-ins between employees and their managers play an important role in driving employee engagement. Research shows these meetings provide the most value when they take place at least 60 minutes every month and occur at least once every other week.
 
-> [!NOTE]
-> A similar analysis is available in the Workplace Analytics Ways of working assessment dashboard.
+>[!NOTE]
+>A similar analysis is available in the Workplace Analytics Ways of working assessment dashboard.
 
 ### Coaching and engagement
 
@@ -150,22 +150,14 @@ Knowledge and skills are essential for sales success. A robust onboarding progra
 
 Identifying the core business issues and defining your business questions are key to an impactful project with insights-driven data analysis. Use the business questions introduced in this unit to begin team conversations on which priorities to address.
 
-> [!NOTE]
-> See the Workplace Analytics Customer Focus Playbook for more detailed information on the analyses presented in this module. To access the playbook, use the Resource playbooks link in **Learn more**, or do the following in Workplace Analytics.
-
-To access the Customer Focus Playbook from Workplace Analytics:
-
-1. Select the **Help** (?) icon.
-1. Select **Resource playbooks**.
-1. Select the **Workplace Analytics Customer Focus Playbook** to download it.
-
-![Get customer focus playbook](../media/get-customer-focus-playbook.png)
+>[!NOTE]
+>Select the **Viva Insights playbooks** link in [Learn more](#learn-more), and then select the **Viva Insights Customer Focus Playbook** for more detailed information on the analyses presented in this module.
 
 In the next unit, you'll learn how to scope your analysis, use the business questions you've identified, understand the data requirements to perform each analysis, and understand how you can track and manage the results to create value.
 
 ## Learn more
 
-- [Workplace Analytics glossary](/workplace-analytics/use/glossary?azure-portal=true)
-- [Workplace Analytics metrics](/workplace-analytics/use/metric-definitions?azure-portal=true)
-- [Learn about the Ways of working assessment](/workplace-analytics/tutorials/power-bi-collab-assess?azure-portal=true)
-- [Workplace Analytics Resource playbooks](/workplace-analytics/use/playbooks?azure-portal=true)
+* [Glossary for Workplace Analytics](/viva/insights/use/glossary)
+* [Metric descriptions](/viva/insights/use/metric-definitions)
+* [Learn about the Ways of working assessment](/viva/insights/tutorials/power-bi-collab-assess)
+* [Viva Insights playbooks](/viva/insights/use/playbooks)

@@ -1,24 +1,24 @@
 ### YamlMime:Module
 uid: learn-m365.workplace-analytics-r-package
 metadata:
-  title: Analyze Microsoft Workplace Analytics data using the wpa R package
-  description: Learn how to install and load the wpa R package. Validate and explore Microsoft Workplace Analytics data, and learn how you can use wpa R package functions to create your own analysis.  
-  ms.date: 08/31/2021
-  author: maggierui
-  ms.author: ruihu
+  title: Analyze Microsoft Viva Insights with Workplace Analytics data by using the wpa R package
+  description: Learn how to install and use the wpa R package. Validate and explore Microsoft Viva Insights with Workplace Analytics data, and learn how you can use wpa R package functions to create your own analysis.  
+  ms.date: 01/26/2022
+  author: madehmer
+  ms.author: helayne
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-title: Analyze Microsoft Workplace Analytics data using the wpa R package
-summary: Learn how to install and load the wpa R package. Validate and explore Microsoft Workplace Analytics data, and learn how you can use wpa R package functions to create your own analysis.  
+title: Analyze Microsoft Viva Insights with Workplace Analytics data by using the wpa R package
+summary: Learn how to install and load the wpa R package. Validate and explore Microsoft Viva Insights with Workplace Analytics data, and learn how you can use wpa R package functions to create your own analysis.  
 abstract: |
   At the end of this module, you should be able to:
-  - Explain what the wpa R package is, and how to use it to analyze Workplace Analytics data 
+  - Explain what the wpa R package is, and how to use it to analyze Viva Insights with Workplace Analytics data 
   - Install R and set up the wpa R package 
-  - Validate Workplace Analytics data by using the wpa R package  
+  - Validate Viva Insights with Workplace Analytics data by using the wpa R package  
   - Use the functions in the wpa R package to explore the data and create your own analysis  
 prerequisites: |
  - Familiarity with Workplace Analytics data sources and metrics 
- - Basic knowledge of Workplace Analytics queries and query structure 
+ - Basic knowledge of the Query designer and query structure in Workplace Analytics
  - Basic understanding of data manipulation in R. Knowledge of the basic verbs in the dplyr package is also recommended.
 iconUrl: /learn/achievements/workplace-analytics-r-package.svg
 levels:
@@ -30,7 +30,7 @@ roles:
 products:
 - m365
 - m365-workplace-analytics
-- viva-insights
+- m365-viva-insights
 units:
 - learn-m365.workplace-analytics-r-package.introduction
 - learn-m365.workplace-analytics-r-package.r-package

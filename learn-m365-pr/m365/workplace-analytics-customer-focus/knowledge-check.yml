@@ -3,10 +3,10 @@ uid: learn-m365.workplace-analytics-customer-focus.knowledge-check
 title: Knowledge check
 metadata:
   title: Knowledge check
-  description: Confirm what you've learned about customer focus in Workplace Analytics.
-  ms.date: 07/30/2021
-  author: maggierui
-  ms.author: ruihu
+  description: Confirm what you've learned about customer focus in Workplace Analytics with Viva Insights
+  ms.date: 01/21/2022
+  author: madehmer
+  ms.author: helayne
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 durationInMinutes: 5
@@ -28,32 +28,32 @@ quiz:
       - content: "External collaboration, Internal collaboration, and Coaching and onboarding"
         isCorrect: true
         explanation: "Correct. External collaboration, Internal collaboration, and Coaching and onboarding are the three analysis areas you can focus on to help improve customer focus."
-    - content: "How can sales organizations benefit by using Workplace Analytics?"
+    - content: "How can sales organizations benefit by using Workplace Analytics and Viva Insights?"
       choices:
       - content: "Increased sales performance and Increased sales cycles"
         isCorrect: false
-        explanation: "Sorry, that's incorrect. Reduced sales cycles are a benefit of using Workplace Analytics for customer focus."
+        explanation: "Sorry, that's incorrect. Reduced sales cycles are a benefit of using Workplace Analytics and Viva Insights for customer focus."
       - content: "Increased sales performance and Increased time on internal processes"
         isCorrect: false
-        explanation: "Sorry, that's incorrect. Reduced time on internal processes are a benefit of using Workplace Analytics for customer focus."
+        explanation: "Sorry, that's incorrect. Reduced time on internal processes are a benefit of using Workplace Analytics and Viva Insights for customer focus."
       - content: "Increased sales performance and Reduced sales cycles and internal processes"
         isCorrect: true
-        explanation: "Correct. Increase sales performance and Reduced sales cycles and internal processes are benefits of using Workplace Analytics for customer focus."
-    - content: "What themes are part of the three-tiered process that create an effective customer focus analysis?"
+        explanation: "Correct. Increase sales performance and Reduced sales cycles and internal processes are benefits of using Workplace Analytics and Viva Insights for customer focus."
+    - content: "What themes are part of the three-tiered process that create effective customer focus analysis?"
       choices:
       - content: "Project scoping, Data analysis, and Value creation"
         isCorrect: true
-        explanation: "Correct. Project scoping, Data analysis, and Value creation are the three components of the process to create an effective customer focus analysis."
+        explanation: "Correct. Project scoping, Data analysis, and Value creation are the three components of the process to create effective customer focus analysis."
       - content: "Project scoping, Data integration, and Data analysis"
         isCorrect: false
-        explanation: "Sorry, that's incorrect. Data integration is not a component of the three-tiered process to create an effective customer focus analysis."
+        explanation: "Sorry, that's incorrect. Data integration is not a component of the three-tiered process to create effective customer focus analysis."
       - content: "Data analysis, Seller success, and Value creation"
         isCorrect: false
-        explanation: "Sorry, that's incorrect. Seller success is not a component of the three-tiered process to create an effective customer focus analysis."
+        explanation: "Sorry, that's incorrect. Seller success is not a component of the three-tiered process to create an ffective customer focus analysis."
       - content: "Project scoping, Data analysis, and Customer relationships"
         isCorrect: false
-        explanation: "Sorry, that's incorrect. Customer relationships are not a component of the three-tiered process to create an effective customer focus analysis."
-    - content: "Which of the following Workplace Analytics Plans can you use to help sellers be more successful?"
+        explanation: "Sorry, that's incorrect. Customer relationships are not a component of the three-tiered process to create effective customer focus analysis."
+    - content: "Which of the following Plans in Workplace Analytics can you use to help sellers be more successful?"
       choices:
       - content: "Collaboration plan"
         isCorrect: false
