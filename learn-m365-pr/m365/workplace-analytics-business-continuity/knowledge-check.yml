@@ -3,32 +3,32 @@ uid: learn-m365.workplace-analytics-business-continuity.knowledge-check
 title: Knowledge check
 metadata:
   title: Knowledge check
-  description: Learn how to set up and interpret the results from the Workplace Analytics Power BI Business continuity dashboard. Generate insights from the behavioral data to help navigate shifts in employee and team work patterns.
-  ms.date: 07/16/2021
-  author: maggierui
-  ms.author: ruihu
+  description: Learn how to set up and interpret the results for the Business continuity dashboard in Power BI from Viva Insights. Generate insights from the behavioral data to help navigate shifts in employee and team work patterns.
+  ms.date: 02/02/2022
+  author: madehmer
+  ms.author: helayne
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 durationInMinutes: 5
 quiz:
     title: Check your knowledge
     questions:
-    - content: "To prepare the Business continuity dashboard, which pre-defined queries do you need to run?"
+    - content: "To prepare the Business continuity dashboard, which queries do you need to run?"
       choices:
-      - content: "Hourly Collaboration and Manager impact"
+      - content: "Hourly collaboration and Manager impact"
         isCorrect: false
-        explanation: "No, incorrect. Business Continuity and Hourly collaboration are the pre-defined queries you need to run."
-      - content: "Business Continuity and Hourly collaboration"
+        explanation: "No, incorrect. Business continuity and Hourly collaboration are the queries you need to run."
+      - content: "Business continuity and Hourly collaboration"
         isCorrect: true
-        explanation: "Yes, correct. Business Continuity and Hourly collaboration are the pre-defined queries you need to run."
+        explanation: "Yes, correct. Business continuity and Hourly collaboration are the queries you need to run."
       - content: "Protect after hours and Business continuity"
         isCorrect: false
-        explanation: "No, incorrect. Business Continuity and Hourly collaboration are the pre-defined queries you need to run."
-      - content: "Collaboration tracker and Teams Insights "
+        explanation: "No, incorrect. Business continuity and Hourly collaboration are the queries you need to run."
+      - content: "Collaboration tracker and Teams insights "
         isCorrect: false
-        explanation: "No, incorrect. Business Continuity and Hourly collaboration are the pre-defined queries you need to run."
+        explanation: "No, incorrect. Business continuity and Hourly collaboration are the queries you need to run."
 
-    - content: "Which of the following insights are **not** presented in the Workplace Analytics Power BI Business continuity dashboard? "
+    - content: "Which of the following insights are **not** presented in the Business continuity dashboard? "
       choices:
       - content: "How are collaboration activities changing?"
         isCorrect: false
@@ -45,16 +45,16 @@ quiz:
 
     - content: "Which of the following opportunity categories to improve remote work effectiveness are presented in the Business continuity dashboard?"
       choices:
-      - content: "Manageable work levels, Sustained working cadence, Work-life integration"
+      - content: "Manageable work levels, Sustained working cadence, and Work-life integration"
         isCorrect: true
         explanation: "That's correct. Manageable work levels, Sustained working cadence, and Work-life integration are all presented as opportunity categories in the Business continuity dashboard."
-      - content: "Work-life integration, Employee connectivity, Manager time in after hours"
+      - content: "Work-life integration, Employee connectivity, and Manager time in after hours"
         isCorrect: false
         explanation: "Sorry, that's incorrect. Manager time in after-hours is not presented as an opportunity category in the Business continuity dashboard."
-      - content: "Manageable work levels, Manager Guidance, Manager time in after hours"
+      - content: "Manageable work levels, Manager Guidance, and Manager time in after hours"
         isCorrect: false
         explanation: "Sorry, that's incorrect. Manager time in after-hours is not presented as an opportunity category in the Business continuity dashboard."
-      - content: "Manager work levels, Manager Guidance, Manager time in after hours"
+      - content: "Manager work levels, Manager guidance, and Manager time in after hours"
         isCorrect: false
         explanation: "Sorry, that's incorrect. Manager work levels and Manager time in after-hours are not presented as opportunity categories in the Business continuity dashboard."
       
