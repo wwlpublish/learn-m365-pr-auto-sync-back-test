@@ -3,10 +3,10 @@ uid: learn-m365.workplace-analytics-ways-working.knowledge-check
 title: Knowledge check
 metadata:
   title: Knowledge check
-  description: Learn to evaluate collaboration culture and employee experience with a Power BI template using Workplace Analytics data.
-  ms.date: 07/19/2021
-  author: maggierui
-  ms.author: ruihu
+  description: Learn to evaluate collaboration culture and employee experience with a Power BI template by using Viva Insights data through Workplace Analytics.
+  ms.date: 01/24/2022
+  author: madehmer
+  ms.author: helayne
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 durationInMinutes: 5
@@ -27,15 +27,15 @@ quiz:
 
     - content: "Which of the following queries are needed to populate the Ways of working assessment dashboard?"
       choices:
-      - content: "Collaboration overload and Standard meeting query"
+      - content: "Collaboration overload and Ways of working meeting query"
         isCorrect: false
-        explanation: "Incorrect. The Ways of working assessment and Standard meeting queries are required to populate the dashboard."
-      - content: "Standard meeting query and Ways of working tracker"
+        explanation: "Incorrect. The Ways of working assessment and Ways of working meeting queries are required to populate the dashboard."
+      - content: "Ways of working meeting query and Ways of working tracker"
         isCorrect: false
-        explanation: "Incorrect. The Ways of working assessment and Standard meeting queries are required to populate the dashboard."
-      - content: "Ways of working assessment and Standard meeting query"
+        explanation: "Incorrect. The Ways of working assessment and Ways of working meeting queries are required to populate the dashboard."
+      - content: "Ways of working assessment and Ways of working meeting query"
         isCorrect: true
-        explanation: "Correct. The Ways of working assessment and Standard meeting queries are required to populate the dashboard."
+        explanation: "Correct. The Ways of working assessment and Ways of working meeting queries are required to populate the dashboard."
       
     - content: "What does the Ways of working assessment consider a *bloated* meeting?"
       choices:

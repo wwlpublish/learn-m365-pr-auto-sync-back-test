@@ -3,10 +3,10 @@ uid: learn-m365.workplace-analytics-onboard.assign-roles
 title: Assign Workplace Analytics roles
 metadata:
   title: Assign Workplace Analytics roles
-  description: Learn how to assign Workplace Analytics roles to the users in your organization.  
-  ms.date: 06/18/2021
-  author: maggierui
-  ms.author: ruihu
+  description: Learn how to assign Workplace Analytics roles to the users in your organization  
+  ms.date: 01/14/2022
+  author: madehmer
+  ms.author: helayne
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 durationInMinutes: 3

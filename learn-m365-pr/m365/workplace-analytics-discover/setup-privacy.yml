@@ -3,10 +3,10 @@ uid: learn-m365.workplace-analytics-discover.setup-privacy
 title: Understand setup and privacy
 metadata:
   title: Understand setup and privacy
-  description: Learn what Workplace Analytics is, how it works, and key features that allow you to generate insights and improve collaboration in your organization. 
-  ms.date: 07/16/2021
-  author: maggierui
-  ms.author: ruihu
+  description: Learn how to set up Workplace Analytics and change the privacy settings based on your organization's requirements
+  ms.date: 01/20/2022
+  author: madehmer
+  ms.author: helayne
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 durationInMinutes: 7

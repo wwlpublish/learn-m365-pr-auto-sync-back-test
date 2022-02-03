@@ -1,4 +1,4 @@
-This section covers how to explore data in Workplace Analytics in R.
+This section covers how to explore data from Viva Insights with Workplace Analytics in R.
 
 After you have loaded the person query data and completed all necessary data validation, you can run a few functions to establish a baseline for your data. The following examples will continue to use `sq_data` as the demo person query data. For your analysis, be sure to replace this with the name of your query variable.
 
@@ -42,11 +42,11 @@ Note the use of the pipe operator `%>%` in these exercises. It's roughly used fo
 
 If at any point you want to understand more about the functions, you can:
 
-- Enter a question mark in the console followed by the function name and run it.
+* Enter a question mark in the console followed by the function name and run it.
 For example: `?keymetrics_scan`
-- View the underlying source code of the function with `View()`.
+* View the underlying source code of the function with `View()`.
 For example: `View(keymetrics_scan)`
-- Visit the function reference page online (see **Learn more** section).
+* Visit the function reference page online through the link in [Learn more](#learn-more).
 
 ## Explore data with reports
 
@@ -60,19 +60,19 @@ See the **Learn more** section for example output for a collaboration report.
 
 When you run a report, an HTML file (opened with a web browser, like a website) is written to your working directory. For example, the collaboration report does the following:
 
-- Embeds plots and tables on the corresponding subject. For `collaboration_report()`, the subject is collaboration.
-- Stands alone as portable output You can share the HTML file through email that does not require server hosting and is viewable offline.
-- Does not embed raw data. Because the report is effectively a static web page, only the plots and tables are exposed (as HTML and JavaScript).
-- Contains interactive tables that you can use to export values, such as a PDF, a .csv for Excel, or paste to a clipboard.
+* Embeds plots and tables on the corresponding subject. For `collaboration_report()`, the subject is collaboration.
+* Stands alone as portable output You can share the HTML file through email that does not require server hosting and is viewable offline.
+* Does not embed raw data. Because the report is effectively a static web page, only the plots and tables are exposed (as HTML and JavaScript).
+* Contains interactive tables that you can use to export values, such as a PDF, a .csv for Excel, or paste to a clipboard.
 
 The following are some examples of quick start reports you can use for baseline analysis:
 
-- `collaboration_report()` - Summary and analysis on collaboration metrics such as email and meeting hours.
-- `capacity_report()` - Summary and analysis on capacity metrics, such as length of week and time in after-hours.
-- `coaching_report()` - Summary and analysis relating to coaching metrics in relation to time spent between managers and direct reports.
-- `connectivity_report()` - Summary and analysis related to connectivity, including internal and external network size and breadth.
+* `collaboration_report()` - Summary and analysis on collaboration metrics such as email and meeting hours.
+* `capacity_report()` - Summary and analysis on capacity metrics, such as length of week and time in after-hours.
+* `coaching_report()` - Summary and analysis relating to coaching metrics in relation to time spent between managers and direct reports.
+* `connectivity_report()` - Summary and analysis related to connectivity, including internal and external network size and breadth.
 
-See the links in the **Learn more** section for more information on quick start reports.
+See the links [Learn more](#learn-more) for more information on quick start reports.
 
 ## Explore data with functions
 
@@ -118,13 +118,13 @@ Output:
 
 The package includes a wide range of summary functions that create bar plots for specific metrics, including the following:
 
-- `email_summary()` - Bar plot summarizing email hours by selected HR attribute.
-- `meeting_summary()` - Bar plot summarizing meeting hours by selected HR attribute.
-- `one2one_summary()` - Bar plot summarizing manager one-to-one meeting hours, by selected HR attribute.
-- `workloads_summary()` - Bar plot summarizing workweek span by selected HR attribute.
-- `afterhours_summary()` - Bar plot summarizing after-hours collaboration hours by selected HR attribute.
+* `email_summary()` - Summarizes email hours grouped by the selected HR attribute.
+* `meeting_summary()` - Summarizes meeting hours grouped by the selected HR attribute.
+* `one2one_summary()` - Summarizes manager one-to-one meeting hours, grouped by the selected HR attribute.
+* `workloads_summary()` - Summarizes workweek span grouped by the selected HR attribute.
+* `afterhours_summary()` - Summarizes after-hours collaboration hours grouped by the selected HR attribute.
 
-All of these functions are equivalent to the `collaboration_summary()` function because they use person query data as the input, and accept the `hrvar`, `return`, and `mingroup` arguments.
+These functions are equivalent to the `collaboration_summary()` function because they use person query data as the input, and accept the `hrvar`, `return`, and `mingroup` arguments.
 
 Use the following to get a summary of after-hours collaboration:
 
@@ -165,19 +165,19 @@ Output:
 
 The `wpa` R package has over 150 functions with different options. See the Learn more section for details about:
 
-- What each function does.
-- Required and available arguments and parameters for each function.
-- Output returned when you use each function.
+* What each function does.
+* Required and available arguments and parameters for each function.
+* Output returned when you use each function.
 
 For a guided tour on the available visualization functions, see the following link for the `wpa` R package introduction.
 
 ## Learn more
 
-- [`wpa` R package introduction](https://microsoft.github.io/wpa/analyst_guide.html?azure-portal=true)
-- [`wpa` R package function reference](https://microsoft.github.io/wpa/reference/index.html?azure-portal=true)
-- [`wpa` R package summary functions](https://microsoft.github.io/wpa/analyst_guide_summary.html?azure-portal=true)
-- [Collaboration demo report](https://microsoft.github.io/wpa/report-demo/collaboration-report.html?azure-portal=true)
-- [Capacity demo report](https://microsoft.github.io/wpa/report-demo/capacity-report.html?azure-portal=true)
-- [Coaching demo report](https://microsoft.github.io/wpa/report-demo/coaching-report.html?azure-portal=true)
-- [Connectivity demo report](https://microsoft.github.io/wpa/report-demo/connectivity-report.html?azure-portal=true)
-- [Information on the ggplot2 package](https://ggplot2.tidyverse.org/?azure-portal=true)
+* [`wpa` R package introduction](https://microsoft.github.io/wpa/analyst_guide.html)
+* [`wpa` R package function reference](https://microsoft.github.io/wpa/reference/index.html)
+* [`wpa` R package summary functions](https://microsoft.github.io/wpa/analyst_guide_summary.html)
+* [Collaboration demo report](https://microsoft.github.io/wpa/report-demo/collaboration-report.html)
+* [Capacity demo report](https://microsoft.github.io/wpa/report-demo/capacity-report.html)
+* [Coaching demo report](https://microsoft.github.io/wpa/report-demo/coaching-report.html)
+* [Connectivity demo report](https://microsoft.github.io/wpa/report-demo/connectivity-report.html)
+* [Information on the ggplot2 package](https://ggplot2.tidyverse.org/e)
