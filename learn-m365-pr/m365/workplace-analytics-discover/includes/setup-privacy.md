@@ -26,7 +26,7 @@ The following are user-specific controls.
 * Specific individuals or domains.
 * Organizational attributes loaded.
 
-With Workplace Analytics, the objective is not to examine individual activity, but to recognize group-level trends occuring in your organization. It uses header level metadata and not content, such as body of emails or email attachments.
+With Workplace Analytics, the objective is not to examine individual activity, but to recognize group-level trends occurring in your organization. It uses header level metadata and not content, such as body of emails or email attachments.
 
 Features in Workplace Analytics default to non-personal information and a minimum aggregate threshold of five employees, which you can set higher if required.
 

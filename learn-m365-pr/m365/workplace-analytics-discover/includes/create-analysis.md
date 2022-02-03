@@ -66,7 +66,7 @@ Before you can analyze a business process, you need to create a dataset for it. 
 5. For **Meeting exclusions**, specify a meeting exclusion rule or accept the default.
 6. For **Which meetings do you want to include in your query results**, define the filters to scope the dataset for the analysis. For example, to filter out specific meetings, select **Add filter**, and then select **Meeting** with a **Duration** of less than or equal to one hour. Or specify the duration you want to analyze or don't define this filter if you want to include all meeting hours regardless of their duration.
 7. Select **Attendee**, and then select the group (such as Sales) for the meeting attendees.
-8. Select **Organizer**, and then select select the group (such as Sales) for the meeting organizer.
+8. Select **Organizer**, and then select the group (such as Sales) for the meeting organizer.
 
    ![Define the dataset.](../media/define-dataset.png)
 
@@ -124,7 +124,7 @@ You can filter by business processes wherever the **Meeting** is available as a 
 3. Select **Set up query** and enter the initial information about it, such as a name, time period, and which exclusions to use.
 4. In **Select filters**, select **Meeting**.
 5. Select **Business process**, and then select an available business process. Only business processes with a **Ready** status are available.
-6. In **Organizational data**, select **BusinessProcesses** as as an attribute to include in the query.
+6. In **Organizational data**, select **BusinessProcesses** as an attribute to include in the query.
 7. Finish defining your query, and then select **Run**.
 
 #### Interpret the results

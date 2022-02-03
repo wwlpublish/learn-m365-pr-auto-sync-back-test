@@ -49,7 +49,7 @@ quiz:
         explanation: "Sorry, that's incorrect. Data integration is not a component of the three-tiered process to create effective customer focus analysis."
       - content: "Data analysis, Seller success, and Value creation"
         isCorrect: false
-        explanation: "Sorry, that's incorrect. Seller success is not a component of the three-tiered process to create an ffective customer focus analysis."
+        explanation: "Sorry, that's incorrect. Seller success is not a component of the three-tiered process to create an effective customer focus analysis."
       - content: "Project scoping, Data analysis, and Customer relationships"
         isCorrect: false
         explanation: "Sorry, that's incorrect. Customer relationships are not a component of the three-tiered process to create effective customer focus analysis."
