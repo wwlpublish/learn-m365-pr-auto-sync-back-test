@@ -5,7 +5,7 @@ Workplace Analytics users can analyze and explore the data in multiple ways:
 * The **Plans** page works with personal insights, where available, to show targeted suggestions to help improve focus, collaboration, wellbeing, and sales success.
 * The pages in the **Controls** section allow you to validate your data sources, define leader and manager settings, and define the analyst settings for system defaults, privacy, and meeting and attendee exclusions.
 
-![Workplace Analytics left navigation.](../media/main-menu.png)
+  ![Workplace Analytics left navigation.](../media/main-menu.png)
 
 >[!NOTE]
 >Select the **menu** (top) icon in the left navigation to toggle whether to show or hide the menu names.
@@ -46,7 +46,7 @@ See [Learn more](#learn-more) for links to the metric descriptions and the gloss
 
 Each themed business outcome on the **Home** page leverages multiple key indicators to offer views of how work happens, with links to further explore the stats and evidence-based suggestions on how to drive change for business success.
 
-The following is a snapshot of the **Protect employee wellbeing** view, which can be found by selecting the **Enhance organizational agility** outcome.
+The following is a snapshot of the **Protect employee wellbeing** view, which can be found by selecting the **Enhance organizational resiliency** outcome.
 
 ![Home page insight](../media/insight-example.png)
 
