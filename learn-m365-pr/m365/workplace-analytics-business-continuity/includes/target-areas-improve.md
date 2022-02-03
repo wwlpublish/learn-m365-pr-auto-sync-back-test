@@ -38,5 +38,5 @@ The *Glossary* includes metrics and terminology used within the dashboard.
 
 * [Metric descriptions](/viva/insights/use/metric-definitions)
 * [About the reports](/viva/insights/tutorials/power-bi-bc#about-the-reports)
-* [Workplace Analytics Plans](/viva/insights/tutorials/solutionsv2-taske)
+* [Workplace Analytics Plans](/viva/insights/tutorials/solutionsv2-task)
 * [Article: How Managers Can Support Remote Employees](https://hbr.org/2020/04/how-managers-can-support-remote-employees)

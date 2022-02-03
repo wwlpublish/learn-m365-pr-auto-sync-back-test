@@ -1,6 +1,6 @@
 The Business continuity dashboard uses a prebuilt Power BI template populated by output (OData) from the Business continuity and Hourly collaboration queries through the Query designer in Workplace Analytics.
 
-![Business Continuity and Hourly Collaboration queries](../media/template-setup.png)
+:::image type="content" source="../media/template-setup.png" alt-text="Screenshot that shows Business Continuity and Hourly Collaboration queries." lightbox="../media/template-setup.png":::
 
 To set up the Business continuity dashboard:
 
