@@ -27,7 +27,7 @@ An application group is a way to group remote resources and assign them to users
   
 ### Workspace
 
-A workspace is a logical grouping of application groups in Azure Virtual Desktop. When a user signs in to Azure Virtual Desktop, they see a workspace with a desktop and applications published to the application groups assigned to them.
+A workspace is a logical grouping of application groups in Azure Virtual Desktop. When a user signs in to Azure Virtual Desktop, they see a workspace with a desktop or applications published to the application groups assigned to them.
 
 The following diagram shows an Azure Virtual Desktop workspace with two host pools. Host pool A has two application groups: Desktop and RemoteApp. These resources are shared (pooled) across the sales team. Host pool B has a Desktop application group with personal desktops available to an engineering team.
 
@@ -53,7 +53,7 @@ For multi-session VM sizing recommendations, see [Virtual machine sizing guideli
 
 You choose the image type Azure uses to create the virtual machine, either Gallery or Storage blob.
 
-- *Gallery* -  With this image type, you can select one of the recommended images from the drop-down menu like Windows 10 Enterprise multi-session + Office 365. If you don't see the image you want, select **See all images and disks**. This lets you select an image in your gallery or another image provided by Microsoft and other publishers.  
+- *Gallery* -  With this image type, you can select one of the recommended images from the drop-down menu like Windows 10 Enterprise multi-session + Office 365. If you don't see the image you want, select **See all images**. This lets you select an image in your gallery or another image provided by Microsoft and other publishers.  
 
 - *Storage blob* - Allows you to use your own image built through Hyper-V or on an Azure VM. You might use this option when you have an image you're using on-premises and just want to upload it and start using it in Azure immediately. When you select this option, there are some additional fields you need to complete.
   - *Image URI* - Enter the URL to the generalized VHD from your Azure Storage account. 
@@ -69,7 +69,7 @@ We discussed the virtual network requirements in the module Prepare for Azure Vi
 If you're using Azure Active Directory Domain Services (Azure AD DS), we recommend that an Azure AD DS-managed domain is deployed into its own dedicated subnet. Don't deploy your VM in the same subnet as your Azure AD DS-managed domain. To
 deploy your VM and connect to an appropriate virtual network subnet, we recommend one of the following options:
 
-- Create or select an existing, subnet in the same the virtual network as your Azure AD DS-managed domain is deployed.
+- Create or select an existing, subnet in the same virtual network as your Azure AD DS-managed domain is deployed.
 - Select a subnet in an Azure virtual network that is connected to it using Azure virtual network peering.
 
 ## Domain join VMs
