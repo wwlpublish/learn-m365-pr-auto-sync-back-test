@@ -1,3 +1,5 @@
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWUJEY]
+
 In this exercise, you'll improve on the existing Microsoft Teams meetings app by implementing the post-meeting experience.
 
 The tab in the meeting will display the presentations delivered during the meeting and include the resources for each of the presentations that were submitted by the presenter in the pre-meeting experience.

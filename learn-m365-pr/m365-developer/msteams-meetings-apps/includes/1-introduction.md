@@ -22,3 +22,5 @@ In this module, you'll learn how to create custom apps to be used in Microsoft T
 ## Additional resources
 
 Refer to the following repository for more resources associated with this module. This repository includes completed code samples from the exercise units found in this module: [90 Create interactive meeting apps for Microsoft Teams](https://github.com/OfficeDev/TrainingContent/tree/master/Teams/90%20Create%20interactive%20meeting%20apps%20for%20Microsoft%20Teams).
+
+This module is also available as a screencast: [SharePoint Framework Training - Create interactive meeting apps for Microsoft Teams](https://www.youtube.com/playlist?list=PLWZJrkeLOrbb6cyUwEfSlI-cSS742srtM).
