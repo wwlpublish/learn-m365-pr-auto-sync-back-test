@@ -1,3 +1,5 @@
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWUJEV]
+
 In this exercise, you'll create a Microsoft Teams meetings app, install it into a new meeting, and interact with it before the meeting starts. This app will be used to organize and manage a product team's stand-up presentations to the rest of the team.
 
 ## Prerequisites
@@ -147,6 +149,8 @@ It also contains Microsoft Graph permissions to obtain basic information about t
 
 ## Create Microsoft Teams app
 
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWUJEW]
+
 Open your command prompt, and go to a directory where you want to save your work. Create a new folder named **learn-msteams-meetings**, and change the directory into that folder.
 
 Run the Yeoman generator for Microsoft Teams by running the following command:
@@ -242,6 +246,8 @@ When you're finished with the edits, the `configurableTabs` property should look
 ```
 
 ## Create an API endpoint
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWUreC]
 
 The meetings app will need primarily run client-side code within tabs in the Microsoft Teams client. However, we do have some requirements for server-side logic. These requirements include:
 
@@ -492,6 +498,8 @@ http.createServer(express).listen(port, () => {
 
 ## Implement the app's pre-meeting user experience
 
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWUreE]
+
 Now that the Azure AD app is registered with the necessary permissions, the project is created, and our custom API is implemented, you can create the meeting app's first user experience!
 
 ### Install dependencies for the user experience
@@ -664,6 +672,8 @@ const onNewStandupTopicSubmit = (): void => {
 
 ### Create the pre-meeting user experience
 
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWUreD]
+
 Our custom meeting app will have a different user experience that depends how and where the app is used. For example, in a pre-meeting experience, the meeting should display a form for attendees to submit topics but once the meeting has concluded, attendees should only be able to see the results of the meeting, not submit new topics.
 
 Let's start by implementing the pre-meeting experience. In this view, we need a list of submitted topics and a form for meeting attendees to submit new stand-up topics to present.
@@ -822,6 +832,8 @@ return (
 ```
 
 ## Build and test the application
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWUJER]
 
 Let's test the meeting app installation and pre-meeting experience.
 

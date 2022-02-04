@@ -3,7 +3,7 @@ uid: learn-m365.msteams-meetings-apps.4-participants-in-meeting-experiences
 metadata:
   title: In-meeting experience & participant roles
   description: Developers creating custom Microsoft Teams meetings apps can implement different experiences for meeting participants depending on the participants role in the meeting and the lifecycle of the meeting. In this section, learn how to use the Microsoft Teams SDK to determine the current lifecycle stage of the meeting and the participant’s role to present context aware experiences to each user.
-  ms.date: 01/19/2022
+  ms.date: 02/04/2022
   author: andrewconnell-msft
   ms.author: v-johnco
   ms.topic: interactive-tutorial

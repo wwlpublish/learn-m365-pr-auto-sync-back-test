@@ -1,3 +1,5 @@
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWUJEQ]
+
 Enhance your meeting experience by using the meeting extensibility feature. This feature enables you to integrate your apps within meetings. It also includes different stages of a meeting lifecycle, where you can integrate tabs, bots, and messaging extensions.
 
 In this unit, you'll learn what Microsoft Teams meetings apps are, how to create one, and how to interact with the app before the meeting starts.
@@ -111,6 +113,8 @@ The tab's `meetingSurfaces` array is a set of scopes where the app is shown. The
 ```
 
 ## Get meeting details in your meeting app
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWUJEN]
 
 Developers can get details about the current meeting the app is installed in different ways. Meeting apps can take advantage of the support for single sign-on for all apps.
 

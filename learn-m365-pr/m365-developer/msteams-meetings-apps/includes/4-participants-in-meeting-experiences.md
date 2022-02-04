@@ -1,3 +1,5 @@
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWUJEX]
+
 Developers creating custom Microsoft Teams meetings apps can implement different experiences for meeting participants depending on the participants role in the meeting and the lifecycle of the meeting.
 
 In this unit, learn how to use the Microsoft Teams SDK to determine the current lifecycle stage of the meeting and the participant’s role to present context aware experiences to each user.

@@ -1,3 +1,5 @@
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWUwJw]
+
 In this exercise, you’ll implement the in-meeting experience for the meeting and improve the existing pre-meeting experience.
 
 In the pre-meeting experience, organizers can approve and modify the presentations submitted by other meeting participants.
@@ -186,11 +188,13 @@ Select the **Approve** action in the toolbar to approve the topic. The app will 
 
 ## Implement in-meeting experience with a side-panel
 
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWUreF]
+
 Meeting apps for Microsoft Teams can implement a side-panel experience for user interaction. The side-panel occupies the same space where the meeting participant list and chat is located.
 
 You can use this area to provide a user-specific experience during the meeting related to your app.
 
-Now, Let's update the meeting app to display a different experience during the meeting in the side-panel.
+Now, let's update the meeting app to display a different experience during the meeting in the side-panel.
 
 You'll update the in-meeting experience so users can view all the attendees can see a list of the topics they're supposed present, and mark topics as having been presented.
 
@@ -224,7 +228,7 @@ Add the following code after the existing `getPreMeetingUX` function:
 ```typescript
 const getSidepanelUX = () => {
   const filteredTopics = standupTopics.filter((topic) => {
-    return (setCurrentUserIsOrganizer)
+    return (currentUserIsOrganizer)
       ? (topic.approved === true)
       : ((topic.approved === true) && (topic.presenter.id === currentUserId));
   });

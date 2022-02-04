@@ -3,7 +3,7 @@ uid: learn-m365.msteams-meetings-apps.5-exercise-participants-in-meeting-experie
 metadata:
   title: Exercise - In-meeting experience & participant roles
   description: In this exercise, you'll implement the in-meeting experience for the meeting and improve the existing pre-meeting experience. In the pre-meeting experience, organizers can approve and modify the presentations submitted by other meeting participants. In addition, the in-meeting experience will display a different experience depending on if the participant is a presenter, organizer, or attendee of the meeting in the side panel of the meeting.
-  ms.date: 01/19/2022
+  ms.date: 02/04/2022
   author: andrewconnell-msft
   ms.author: v-johnco
   ms.topic: interactive-tutorial
