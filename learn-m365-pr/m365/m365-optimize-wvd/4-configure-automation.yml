@@ -1,8 +1,8 @@
 ### YamlMime:ModuleUnit
 uid: learn-m365.optimize-wvd.configure-automation
-title: Optimize compute costs by setting up Autoscale for your host pools
+title: Create and assign the RBAC role
 metadata:
-  title: Optimize compute costs by setting up Autoscale for your host pools
+  title: Create and assign the RBAC role
   description: Learn how to configure automatic depth and breadth scaling for Azure Virtual Desktop host pools.
   ms.date: 02/02/2022
   author: lizap
