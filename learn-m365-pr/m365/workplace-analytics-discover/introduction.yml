@@ -1,12 +1,12 @@
 ### YamlMime:ModuleUnit
 uid: learn-m365.workplace-analytics-discover.introduction
-title: Learn about Workplace Analytics
+title: Learn about Workplace Analytics with Viva Insights
 metadata:
-  title: Learn about Workplace Analytics
-  description: Learn what Workplace Analytics is, how it works, and key features that allow you to generate insights and improve collaboration in your organization.
-  ms.date: 07/30/2021
-  author: maggierui
-  ms.author: ruihu
+  title: Learn about Workplace Analytics with Microsoft Viva Insights
+  description: Learn what Workplace Analytics is, how it works, and key features for generating analysis and improving collaboration in your organization
+  ms.date: 01/20/2022
+  author: madehmer
+  ms.author: helayne
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 durationInMinutes: 5

@@ -1,31 +1,31 @@
 You'll often note that some behaviors are reinforced as part of your organization's unique culture. You can design specific custom tactics to drive change in your organization with the following approach:
 
-1. **Problem**: what is preventing us from doing our best work?
-2. **Root cause**: Why does this behavior happen?
-3. **Target behavior**: What can we do?
-4. **Barrier**: Why won't we do it?
-5. **Custom tactics**: How can we ensure that we do it?
+1. **Problem** - What is preventing us from doing our best work?
+2. **Root cause** - Why does this behavior happen?
+3. **Target behavior** - What can we do?
+4. **Barrier** - Why won't we do it?
+5. **Custom tactics** - How can we ensure that we do it?
 
 ## 1. Define the problem
 
-Before developing tactics to drive change, it's important to define the problem. Common problems that impede work performance and are measurable with Workplace Analytics include:
+Before developing tactics to drive change, it's important to define the problem. Common problems that impede work performance and are measurable with Viva Insights include:
 
-- Poor meeting culture
-- Inadequate manager coaching
-- Siloed communication
-- Lack of empowered employees
-- Excessive after-hours collaboration
+* Poor meeting culture
+* Inadequate manager coaching
+* Siloed communication
+* Lack of empowered employees
+* Excessive after-hours collaboration
 
-By using your own Workplace Analytics data and employee feedback, you can prioritize the top problems across your organization.
+By using your own Viva Insights data and employee feedback, you can prioritize the top problems across your organization.
 
 ## 2. Identify the root cause
 
 The outcome you want is often unachievable without first identifying the root cause. If you identify that your organization has poor meeting culture, it's valuable to keep asking why until you get to an addressable root cause.
 
-> [!div class="centered"]
-> :::image type="content" source="../media/identify-root-cause.png" alt-text="Screenshot showing steps to identify the root cause.":::
+>[!div class="centered"]
+>:::image type="content" source="../media/identify-root-cause.png" alt-text="Screenshot showing steps to identify the root cause.":::
 
-## 3. Define the target behavior(s)
+## 3. Define the target behaviors
 
 After you've identified the root cause you can begin to identify specific behaviors that individuals will need to start doing.
 
@@ -34,13 +34,13 @@ After you've identified the root cause you can begin to identify specific behavi
 
 In some cases, you might have an exhaustive list of target behaviors but find a need to prioritize due to the risk of overwhelming people or limited resources to drive the change. In either case you can use the following to prioritize target behaviors:
 
-- **Behavioral Impact**. How likely is it that adoption of the target behavior will result in a change to our root cause?
-- **Likelihood of changing behavior**. How likely is it that we can get employees to adopt this new behavior?
+* **Behavioral Impact** - How likely is it that adoption of the target behavior will result in a change to our root cause?
+* **Likelihood of changing behavior** - How likely is it that we can get employees to adopt this new behavior?
 
 Here's an example of what it looks like to prioritize your target behaviors. Your results will vary and be determined by your organization's culture.
 
-> [!div class="centered"]
-> :::image type="content" source="../media/target-behavior-impact.png" alt-text="Screenshot showing prioritization of target behaviors.":::
+>[!div class="centered"]
+>:::image type="content" source="../media/target-behavior-impact.png" alt-text="Screenshot showing prioritization of target behaviors.":::
 
 ## 4. Identify barriers to change
 
@@ -56,16 +56,13 @@ After identifying the top barriers to change, the next step is to develop custom
 
 :::image type="content" source="../media/design-custom-tactics.png" alt-text="Screenshot showing how to design custom tactics.":::
 
-In some cases, you might develop quite a few tactics that you'd like to prioritize. You can do that with these two questions:
+In some cases, you might develop quite a few tactics that you'd like to prioritize. You can do that with these questions:
 
-- How likely is it that the goal will be achieved by implementing this tactic?
-- How easy is it to implement?
+* How likely is it that the goal will be achieved by implementing this tactic?
+* How easy is it to implement?
 
-<div class="centered">
-
-:::image type="content" source="../media/prioritize-tactics.png" alt-text="screenshot of a chart showing prioritization options.":::
-
-</div>
+>[!div class="centered"]
+>:::image type="content" source="../media/prioritize-tactics.png" alt-text="screenshot of a chart showing prioritization options.":::
 
 ## What are co-creation workshops?
 

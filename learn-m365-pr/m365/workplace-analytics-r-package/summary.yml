@@ -3,10 +3,10 @@ uid: learn-m365.workplace-analytics-r-package.summary
 title: Summary
 metadata:
   title: Summary
-  description: Review what you've learned about using the wpa R package with Workplace Analytics.
-  ms.date: 08/31/2021
-  author: maggierui
-  ms.author: ruihu
+  description: Review what you've learned about using the wpa R package with Viva Insights through the Workplace Analytics app.
+  ms.date: 01/26/2022
+  author: madehmer
+  ms.author: helayne
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 durationInMinutes: 3
