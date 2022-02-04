@@ -1,4 +1,4 @@
-Learn the steps to optimize deployment and infrastructure costs using Azure Virtual Desktop’s native scaling tool Autoscale. Learn how to configure Autoscale so that session host VMs are only running during peak, high- demand hours and deallocated otherwise.
+Learn how to optimize deployment and infrastructure costs using Azure Virtual Desktop’s native scaling tool Autoscale. Learn how to configure Autoscale so that session host VMs are only running during peak, high- demand hours and deallocated otherwise.
 
 ## Learning objectives
 
