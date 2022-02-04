@@ -23,8 +23,7 @@ This unit will walk you through the process of creating a custom RBAC role in th
 1. Next, name the custom role and add a description. We recommend you name the role "Autoscale."
 1. On the **Permissions tab**, add the following permissions to the subscription you're assigning the role to:
 
-    "Microsoft.Insights/eventtypes/values/read" 
-
+    "Microsoft.Insights/eventtypes/values/read"
     "Microsoft.Compute/virtualMachines/deallocate/action"
     "Microsoft.Compute/virtualMachines/restart/action"
     "Microsoft.Compute/virtualMachines/powerOff/action"
@@ -37,7 +36,6 @@ This unit will walk you through the process of creating a custom RBAC role in th
     "Microsoft.DesktopVirtualization/hostpools/sessionhosts/usersessions/delete"
     "Microsoft.DesktopVirtualization/hostpools/sessionhosts/usersessions/read"
     "Microsoft.DesktopVirtualization/hostpools/sessionhosts/usersessions/sendMessage/action"
-    "Microsoft.DesktopVirtualization/hostpools/sessionhosts/usersessions/read"
 
 1. When finished, select **Ok**.
 
