@@ -1761,6 +1761,21 @@
     "redirect_document_id": true
     },
     {
+      "source_path": "learn-m365-pr/m365/m365-optimize-wvd/2-fslogix-overview.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/m365-deploy-wvd/4a-configure-fslogix-user-profiles",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/m365/m365-optimize-wvd/3-provision-fslogix.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/m365-deploy-wvd/4a-configure-fslogix-user-profiles",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-m365-pr/m365/m365-optimize-wvd/4-migrate-files.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/m365-deploy-wvd/4a-configure-fslogix-user-profiles",
+      "redirect_document_id": false
+      },
+      {
       "source_path": "learn-m365-pr/m365-developer/sharepoint-spfx-spcontent/6-use-sample-data-mocks.yml",
       "redirect_url": "https://docs.microsoft.com/learn/modules/sharepoint-spfx-spcontent/6-upload-file",
       "redirect_document_id": true
