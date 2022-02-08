@@ -1,6 +1,6 @@
 Windows 10 and later run on several different types of devices or form factors. However, not all editions of Windows can run on all device types. This discussion will help you to decide which form factor and edition of Windows to choose in different scenarios.
 
-## Form factors
+### Form factors
 
 Windows is designed to run on several form factors. Here is a list of the different form factors and their typical use in a work environment:
 
@@ -12,7 +12,7 @@ Windows is designed to run on several form factors. Here is a list of the differ
  -  **HoloLens**. The HoloLens is one of the first holographic computers. It has many uses for educational purposes, design, and constructing businesses.
  -  **Surface Hub**. The Surface Hub is a large-format, touch friendly monitor used in meetings.
 
-## 32-bit and 64-bit editions
+### 32-bit and 64-bit editions
 
 Windows 11 is only available in 64-bit. Desktop editions of Windows 10 are available in both 32-bit and 64-bit versions. However, starting with Windows 10 2004 update, OEMs selling new devices are only sold with 64-bit editions. Existing devices with Windows 10 32-bit installations will continue to receive updates. Most devices in use today that are capable of running Windows have 64-bit architectures. Devices running 32-bit installations of Windows are becoming increasingly rare.
 
@@ -25,13 +25,13 @@ Regardless of whether you use Windows 10 or 11, you should install or upgrade to
 
 32-bit editions of Windows should only be installed on legacy hardware or drivers that only support 32-bit architectures or when 16-bit Windows applications are still used in the organization. Given the significant trade-offs of not using 64-bit, organizations should consider solutions such as virtualization to support legacy apps as an alternative.
 
-## Scenarios
+### Scenarios
 
  -  **Scenario 1**. Contoso Pharmaceuticals considers purchasing new computers to control and supervise its production lines. The production lines require special hardware with sensors in the computers that employees will use to perform the supervision. The production line software is sensitive to major changes in the operating system. Which edition of Windows would you recommend for purchase by Contoso Pharmaceuticals for supervision of its production lines?
  -  **Scenario 2**. Samuel is an independent contractor. He travels often with his laptop, which contains sensitive customer financial data. He is concerned about the impact to his business if his laptop is lost or stolen. Which edition of Windows would be best suited to protect his data?
  -  **Scenario 3**. Contoso Pharmaceuticals is trying to secure their information technology (IT) infrastructure by limiting the apps that users can run. Some employees install unauthorized apps on their devices. Contoso wants to limit users to apps that are on the company’s list of approved apps. Which edition of Windows would you recommend that Contoso Pharmaceuticals use?
 
-### **Scenario Answers**
+#### **Scenario Answers**
 
  -  ***Scenario 1.** Enterprise LTSC - As it does not receive feature updates, this minimizes changes to the OS that may impact the sensitive application.*
  -  ***Scenario 2.** Pro - While Samuael can leverage any edition of Windows to take advantage of features such as OneDrive to minimize losing data, or Windows Hello for authentication, the additional benefits of Pro like BitLocker can protect his data from being accessed in the event his device is stolen.*

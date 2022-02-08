@@ -1,10 +1,10 @@
 Windows 10 and 11 have similar requirements. Many computers in enterprises today easily meet the minimum hardware requirements.
 
-## OS requirements
+### OS requirements
 
 The following section lists the minimum recommended hardware requirements for the Windows client. Windows will install if some of these requirements are not met. However, user experience and operating system performance might be compromised if the computer does not meet or exceed the following specifications:
 
-### Windows 10
+#### Windows 10
 
  -  **Processor**: 1 gigahertz (GHz) or faster processor, or system on a chip (SOC)
  -  **RAM:** 1 GB for 32-bit or 2 GB for 64-bit
@@ -15,7 +15,7 @@ The following section lists the minimum recommended hardware requirements for th
 > [!NOTE]
 > Beginning with Windows 10 version 2004, new computers are no longer sold with a 32-bit edition.
 
-### Windows 11
+#### Windows 11
 
 To install or upgrade to Windows 11, devices must meet the following minimum hardware requirements:
 
@@ -48,13 +48,13 @@ Windows client offers additional options if the correct hardware is present. The
  -  **InstantGo**. Works only with computers designed for connected standby. InstantGo allows network connectivity in standby mode and allows for receiving updates, mail, and Skype calls with the screen turned off.
  -  **DirectStorage.** Requires an NVMe SSD to store and run games that use the Standard NVM Express Controller driver and a DirectX12 GPU with Shader Model 6.0 support.
 
-## Device drivers
+### Device drivers
 
 Windows will detect most hardware and install the appropriate driver needed to support the device. Many companies producing hardware have their drivers tested and certified at the Windows Hardware Quality Labs and are delivered through Windows update.
 
 However, you might not be able to find a built-in driver for a specific piece of hardware. Depending on your deployment method, there may be a need to deploy the driver as part of the OS installation. The best way to find drivers for hardware is to search the manufacturer’s website.
 
-## Check for Hyper-V compatibility
+### Check for Hyper-V compatibility
 
 To verify compatibility, open PowerShell window or a command prompt and run **systeminfo.exe**. If all listed Hyper-V requirements have a value of **Yes**, your system can run the Hyper-V role. Below you can see the hardware requirements highlighted above are checked when systeminfo.exe is run.
 

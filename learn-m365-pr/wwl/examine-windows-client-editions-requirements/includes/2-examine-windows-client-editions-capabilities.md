@@ -1,6 +1,6 @@
 Before you install Windows, you should select the most suitable edition for your organization. The different editions of Windows address the needs of consumers ranging from individuals to large enterprises. This topic describes the different features of each edition available for Windows and later.
 
-## Windows edition overview
+### Windows edition overview
 
 :::row:::
   :::column:::
@@ -103,9 +103,9 @@ Before you install Windows, you should select the most suitable edition for your
 :::row-end:::
 
 
-## Windows edition details
+### Windows edition details
 
-### Home
+#### Home
 
 Home is the consumer-oriented desktop edition of Windows. It offers the familiar Windows experience for PCs, tablets, and the new hybrid laptop/tablets. Features with Home edition include :
 
@@ -118,7 +118,7 @@ Home is the consumer-oriented desktop edition of Windows. It offers the familiar
  -  Always On VPN
  -  New updates and features received automatically
 
-### Pro
+#### Pro
 
 Pro edition builds on the features of Windows Home, with many extra features to meet the needs of small and medium-sized businesses. Pro edition is also suitable for advanced consumers who are looking for features such as BitLocker and virtualization.
 
@@ -141,7 +141,7 @@ Some of the features Pro edition provides:
  -  **Granular user-interface Control**. This feature enables administrators to lock the user interface so that users can perform specific tasks only. This feature is useful when deploying Windows as a kiosk.
  -  **Enterprise State Roaming**. Provides users a unified experience across organizational Windows devices.
 
-### Pro for Workstations
+#### Pro for Workstations
 
 Pro for Workstations edition offers the same features as Pro edition. It includes additional features intended for workloads that require higher performance and resilience.
 
@@ -150,7 +150,7 @@ Pro for Workstations edition offers the same features as Pro edition. It include
  -  **SMB Direct**. Supports network adapters that have Remote Direct Memory Access capability. This offers improved performance when transferring large amounts of data on remote SMB file shares.
  -  **Expanded Hardware Support**. Takes full advantage of high-performance hardware such as server-grade Intel Xeon and AMD Opteron processors, with support for up to 4 CPUs and 6 TB of memory.
 
-### Enterprise
+#### Enterprise
 
 Enterprise edition builds on the features of Pro edition, with additional features that meet the needs of large enterprises. Enterprise edition is available to Volume Licensing customers only. They can choose the pace at which they adopt new technology. Enterprise edition also supports a broad range of options for operating system deployment and device and app management.
 
@@ -168,7 +168,7 @@ Some of the features Enterprise edition provides:
  -  **Desktop Analytics**. Insights and recommendations about your computers, applications, and drivers.
  -  **DirectAccess**. While this feature is supported, its recommended organizations use Always On VPN, which is available in Home, Pro, and Enterprise and Education editions.
 
-### Enterprise LTSC
+#### Enterprise LTSC
 
 Enterprise Long Term Servicing Channel (LTSC) is a special edition of Enterprise that Microsoft will not update with any new features. Enterprise LTSC only gets security updates and other important updates. You can install Enterprise LTSC to devices that run in a known environment that does not change. A common example of this would be a PC that is used as part of a medical or industrial system. These environments are typically closed systems designed to a particular specification that would be impacted by traditional updates. The differences between Enterprise LTSC and the normal Enterprise edition include:
 
@@ -184,11 +184,11 @@ Windows 11 LTSC is not yet available. It's recommended that customers with devic
 > [!NOTE]
 > The Long-Term Servicing Channel edition was previously called the Long Term Servicing Branch (LTSB).<br>
 
-### Pro Education and Education
+#### Pro Education and Education
 
 Pro Education and Education offer the same features as Pro and Enterprise editions respectively, except for Long-Term Servicing Channel. These editions of Windows have configurations more suitable for school staff, administrators, teachers, and students. Pro Education and Education edition are only available through academic Volume Licensing.
 
-### IoT Core/Enterprise
+#### IoT Core/Enterprise
 
 The IoT Edition of Windows is designed for fixed purpose devices. Examples include automated teller machines, point-of-sale terminals, industrial and medical devices. Windows 10 IoT Core is a smaller OS designed to run a single app, while Windows 10/11 IoT Enterprise is a full version of Windows Enterprise with specialized features.
 

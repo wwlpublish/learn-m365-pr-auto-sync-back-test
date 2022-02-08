@@ -1,6 +1,6 @@
 You can use Windows 10 and later on various computing devices, from traditional platforms to the latest tablet, phone, and gaming platforms. This module introduces the different editions of Windows, the features of each, and describes why and when you might select a specific Windows edition. This module also covers methods for installations.
 
-## Module objectives
+### Objectives
 
 After completing this module, you will be able to:
 
