@@ -13,7 +13,7 @@ This topic highlights some of the important features that are new or improved in
  -  **Windows Terminal app.** Previously a separate download, this is now included with Windows 11. This app combines Windows PowerShell, a command prompt, and Azure Cloud Shell all within the same terminal window, negating the need to open separate applications.
  -  **Chromium-based Microsoft Edge.** While previously a separate download, this version is now included starting with Windows 10 version 20H2 and Windows 11.
 
-## Recovery tools
+### Recovery tools
 
  -  **Reset this PC.** Introduced in Windows 10, using the *Reset this PC* feature, you can return a device to its initial state, or recover Windows from corrupted operating system files and other errors. When you launch Reset this PC, you can choose to:
     
@@ -24,12 +24,12 @@ This topic highlights some of the important features that are new or improved in
      -  **Use a device**. Enables you to recover Windows by using a universal serial bus (USB) drive, network connection, or recovery disk.
      -  **Troubleshoot**. Enables you to access Advanced options, including System Restore, System Image Recovery, Startup Repair, Command Prompt, and Unified Extensible Firmware Interface (UEFI) settings.
 
-## Virtualization
+### Virtualization
 
  -  **Client Hyper-V.** Windows provides a flexible and high-performing client virtualization environment. You can use this environment to use a single device to test applications and IT scenarios in multiple operating system configurations. By using Client Hyper-V, IT departments can provide a consolidated and efficient virtual environment through virtual-machine compatibility with Windows Server.
  -  **Windows Sandbox** provides a lightweight desktop environment for temporarily running applications in an isolated environment. Launching Sandbox creates a pristine installation of Windows, isolated from the host and without the need to download or create a separate VHD. When the application is closed, everything is discarded.
 
-## Mobility Improvements
+### Mobility Improvements
 
  -  **Support for multiple device types.** Windows client runs on desktop and laptop computers, tablets and similar devices, phones, the Xbox platform, and Microsoft HoloLens, thereby providing users with extensive access to the Windows 10 environment.
  -  **Bring Your Own Device support.** Many users have their own personal computing devices, and they might wish to connect these devices to their corporate networks so that they can access apps and services, and work with data files. Bring Your Own Device (BYOD) is the ability to connect users’ personal devices to a corporate network. Windows 10 introduced many features that improve the support of users who wish to bring their own devices.
@@ -37,7 +37,7 @@ This topic highlights some of the important features that are new or improved in
  -  **Broadband tethering.** You can turn your Windows 10 or later device into a Wi-Fi hotspot.
  -  **Autotriggered VPN.** If an app requires access to your company’s intranet, Windows can automatically trigger a virtual private network (VPN) connection.
 
-## Security Enhancements
+### Security Enhancements
 
  -  **Remote Business Data Removal.** With Windows client and Windows Server, you can use Remote Business Data Removal to classify and flag corporate files, and to differentiate between these files and user files. With this classification, the remote wipe of a Windows device will not remove user-owned data when securing or removing corporate data on the device.
  -  **Improved biometrics.** Windows 10 introduced many improvements in the area of biometrics, including the use of Windows sign-in, remote access, and user account control (UAC). Furthermore, you can configure biometric authentication to enable Microsoft Store access.
@@ -47,7 +47,7 @@ This topic highlights some of the important features that are new or improved in
  -  **Virtual secure mode.** This is a secure process-execution environment that Windows 10 introduces. This execution environment helps protect system processes by running them in a separate, virtualized container, known as a trustlet, rather than in the operating system itself. Because the Windows operating system does not have access to these trustlets, processes and data within them are safer.
  -  **Nearby Sharing.** Nearby Sharing lets you instantly share your videos, photos, documents, and websites with people and devices near you over Bluetooth or Wi-Fi.
 
-## Windows as a Service
+### Windows as a Service
 
 Windows 10 first introduced a new method of delivering new features and functional changes. This method is known as Windows as a Service. This is a major change from the past, when new Windows versions arrived approximately every three years. Windows releases quality updates regularly, while significant changes, also known as feature updates, will occur annually. Security and driver updates will automatically download and install as soon as they become available for some Windows client editions. Other editions can defer some updates for a non-configurable period.
 
