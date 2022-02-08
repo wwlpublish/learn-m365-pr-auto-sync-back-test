@@ -1,0 +1,65 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.evaluate-windows-client-installation-methods. knowledge-check
+title: Knowledge check
+metadata:
+  title: Knowledge check
+  description: "Knowledge check"
+  ms.date: 02/08/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  zone_pivot_groups: azure-interface
+azureSandbox: false
+labModal: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/6-knowledge-check.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "Tailspin Toys is planning to upgrade its entire fleet of Windows 10 devices to Windows 11. Tailspin wants to restore the machines to a \"first-run\" experience and allow administrators to apply organization-specific configurations and even some types of apps. It wants to achieve the same result as reimaging, but without the need to deploy an entire image over a network and reduce the number of custom images. Which upgrade method should Tailspin Toys use to achieve these goals?"
+    choices:
+    - content: "Windows Autopilot"
+      isCorrect: true
+      explanation: "Correct. If the computer already has Windows 10 or later, Windows Autopilot can be used to achieve the same state as a new deployment. It uses the existing Windows 10 or 11 installation to restore the machine to a “first-run” experience, but allows administrators to apply organization-specific configurations and even some types of apps. As most new computers come with Windows pre-installed, this enables organizations to achieve the same result as reimaging for some scenarios, without the need to deploy an entire image over a network and reduce the number of custom images."
+    - content: "Migration"
+      isCorrect: false
+      explanation: "Incorrect. You perform a migration when you move a user from one OS to another. Try again."
+    - content: "Bare metal installation"
+      isCorrect: false
+      explanation: "Incorrect. This method is used to perform a clean installation on a computer without an operating system (also known as a “bare-metal” installation). This method is accomplished by starting the computer directly from the install media. Try again."
+  - content: "Fabrikam plans to upgrade more than 500 devices from Windows 8.1 Enterprise and Windows 10 Enterprise to Windows 11 Enterprise. Which of the following guidelines should Fabrikam employ to ensure the configuration of each device doesn't drift to a state that becomes a security risk?"
+    choices:
+    - content: "Identify the necessary device drivers"
+      isCorrect: false
+      explanation: "Incorrect. While this guideline should be part of your overall strategy, it won't ensure the configuration of each device doesn't drift to a state that becomes a security risk. Try again."
+    - content: "Identify storage and network resources that you can use during deployment"
+      isCorrect: false
+      explanation: "Incorrect. While this guideline should be part of your overall strategy, it won't ensure the configuration of each device doesn't drift to a state that becomes a security risk. Try again."
+    - content: "Centralized management to identify the method or tools for deploying the OS"
+      isCorrect: true
+      explanation: "Correct. When an organization is managing more than 25 devices, centralized management should be considered to identify the method or tools for deploying the OS and applications. While this might seem like a low threshold, keep in mind that deployment isn't just about the delivery of an operating system and apps, but also continuous management. Specifically, ensuring that the device configuration does not drift to a state that becomes a security risk. Organizations should consider a management solution such as Microsoft Intune, whether they choose to manage devices themselves or contract with an IT management company."
+  - content: "Adventure Works Cycles has some Windows 10 devices that have been experiencing issues such as not responding, frequent errors, and runnng slow. As the Desktop Administrator for Adventure Works, you don't want to spend significant time troubleshooting these issues, especially since they don't appear to have anything in common that could help expedite the troubleshooting process. Instead of troubleshooting the root cause of these issues, what Windows 10 feature can you use to revert the machines back to their original state of the image that was used to install Windows?"
+    choices:
+    - content: "In-place migration"
+      isCorrect: false
+      explanation: "Incorrect. An in-place migration moves a user from one OS to another by replacing the user's device with a new one. Try again."
+    - content: "Reset this PC"
+      isCorrect: true
+      explanation: "Correct. A Windows 10 or 11 device may begin having problems such as not responding, frequent errors, or just runs slow. Refreshing the OS can often be easier than spending significant time trying to troubleshoot the root cause. Windows 10 and later provides a feature called Reset this PC. Reset this PC essentially reverts the machine back to its original state of the image that was used to install Windows. When resetting the PC, the Windows OS will reinstall."
+    - content: "Side-by-side migration"
+      isCorrect: false
+      explanation: "Incorrect. A side-by-side migration moves a user from one OS to another by doing a wipe and load of the OS on a given device. Try again."
+  - content: "Contoso has a large number of devices running Windows 8.1. It wants to upgrade these devices to Windows 11 while retaining all user applications, files, and settings. Which of the following installation methods should Contoso use?"
+    choices:
+    - content: "Upgrade with Feature update"
+      isCorrect: false
+      explanation: "Incorrect. This installation method is used to upgrade from Windows 10 to Windows 11. To leverage the feature update method, the device must be running Windows 10. Older versions of Windows can't upgrade directly to Windows 11 using this method. Try again."
+    - content: "In-place upgrade using image-based upgrade"
+      isCorrect: true
+      explanation: "Correct. Larger organizations typically use tools like Endpoint Configuration Manager and a pre-defined image to initiate an in-place upgrade. This method is recommended for upgrading existing Windows 8.1 devices to Windows 10 or later. During an in-place upgrade, the Windows installation program automatically retains all user settings, data, hardware device settings, apps, and other configuration information."
+    - content: "Refresh using the Reset this PC feature"
+      isCorrect: false
+      explanation: "Incorrect. Windows 10 and later provides a feature called Reset this PC. Reset this PC essentially reverts the machine back to its original state of the image that was used to install Windows. When resetting the PC, the Windows OS will reinstall. This method is used to refresh Windows 10 or 11 and not to upgrade from an older Windows version. Try again."
+interactive: bash

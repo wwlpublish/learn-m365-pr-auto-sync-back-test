@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.evaluate-windows-client-installation-methods.describe-installation-methods-windows-client
+title: Describe installation methods for Windows client
+metadata:
+  title: Describe installation methods for Windows client
+  description: "Describe installation methods for Windows client"
+  ms.date: 02/08/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+azureSandbox: false
+labModal: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/3-describe-installation-methods-windows-client.md)]

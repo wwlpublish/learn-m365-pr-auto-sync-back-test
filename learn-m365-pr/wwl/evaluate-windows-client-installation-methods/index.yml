@@ -1,0 +1,38 @@
+### YamlMime:Module
+uid: learn.wwl.evaluate-windows-client-installation-methods
+metadata:
+  title: Evaluate Windows client installation methods
+  description: "In this module, you will also learn about the different processes and methods for installing Windows 10 and later."
+  ms.date: 02/08/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Evaluate Windows client installation methods
+summary: In this module, you will also learn about the different processes and methods for installing Windows 10 and later.
+abstract: |
+  After completing this module, you will be able to:
+  *   Describe the options available for installing and deploying the Windows client. -Understand the process of installing the Windows client.
+  *   Describe the methods of activation for the Windows client.
+  *   Describe the factors to consider in a new machine deployment.
+prerequisites: |
+  *   Students should have a basic understanding of computer networks and hardware concepts.
+  *   Students should have a basic understanding of OS and Application concepts.
+  *   Students should have experience with using Windows 10 or later.
+iconUrl: /learn/achievements/generic-badge.svg
+levels:
+- beginner
+roles:
+- administrator
+products:
+- windows
+units:
+- learn.wwl.evaluate-windows-client-installation-methods.introduction
+- learn.wwl.evaluate-windows-client-installation-methods.explore-windows-client-installation-methods
+- learn.wwl.evaluate-windows-client-installation-methods.describe-installation-methods-windows-client
+- learn.wwl.evaluate-windows-client-installation-methods.examine-process-install-windows-client
+- learn.wwl.evaluate-windows-client-installation-methods.evaluate-new-deployment-options
+- learn.wwl.evaluate-windows-client-installation-methods. knowledge-check
+- learn.wwl.evaluate-windows-client-installation-methods.summary
+badge:
+  uid: learn.wwl.evaluate-windows-client-installation-methods.badge
