@@ -11,5 +11,6 @@ metadata:
   ms.prod: learning-m365
 azureSandbox: false
 labModal: false
+durationInMinutes: 8
 content: |
   [!include[](includes/5-explore-deployment-tools.md)]
