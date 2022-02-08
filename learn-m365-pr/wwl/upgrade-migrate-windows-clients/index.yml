@@ -1,0 +1,41 @@
+### YamlMime:Module
+uid: learn.wwl.upgrade-migrate-windows-clients
+metadata:
+  title: Upgrade and migrate Windows clients
+  description: "This module examines the fundamentals of upgrading and migrating processes for a single Windows device."
+  ms.date: 02/08/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Upgrade and migrate Windows clients
+summary: This module examines the fundamentals of upgrading and migrating processes for a single Windows device.
+abstract: |
+  After completing this module, you will be able to:
+  - Describe the process of upgrading to a newer version of Windows.
+  - Describe the factors to consider when deciding to upgrade Windows.
+  - Describe the process of migrating to Windows.
+  - Understand the considerations when choosing between the upgrade and migration processes.
+  - Upgrade a Windows device.
+prerequisites: |
+  *   Students should have a basic understanding of computer networks and hardware concepts.
+  *   Students should have a basic understanding of OS and Application concepts.
+  *   Students should have experience with using Windows 10 or later.
+iconUrl: /learn/achievements/generic-badge.svg
+levels:
+- beginner
+roles:
+- administrator
+products:
+- windows
+units:
+- learn.wwl.upgrade-migrate-windows-clients.introduction
+- learn.wwl.upgrade-migrate-windows-clients.examine-process-upgrade-windows-clients
+- learn.wwl.upgrade-migrate-windows-clients.explore-supported-upgrade-paths
+- learn.wwl.upgrade-migrate-windows-clients.examine-process-migrate-windows-clients
+- learn.wwl.upgrade-migrate-windows-clients.compare-upgrade-migration-considerations
+- learn.wwl.upgrade-migrate-windows-clients.evaluate-common-upgrade-migration-scenarios
+- learn.wwl.upgrade-migrate-windows-clients.knowledge-check
+- learn.wwl.upgrade-migrate-windows-clients.summary
+badge:
+  uid: learn.wwl.upgrade-migrate-windows-clients.badge
