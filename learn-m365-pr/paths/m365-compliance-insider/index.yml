@@ -4,7 +4,7 @@ metadata:
   title: Manage insider risk in Microsoft 365
   description: Insider threats and risks from illegal, inappropriate, unauthorized, or unethical behavior and actions are a major issue for all companies and can easily go undetected until it is too late. From IP theft to data leaks to many other scenarios, protecting the data within an organization from inadvertent or malicious actions is paramount for any organization. Microsoft's solutions for minimizing threats help organizations achieve the right balance between keeping their data protected and their people productive.  
   ms.date: 05/28/2020
-  author: ericweisberg
+  author: beccarobins
   ms.author: beccarobins
   ms.topic: interactive-tutorial
   ms.prod: learning-m365

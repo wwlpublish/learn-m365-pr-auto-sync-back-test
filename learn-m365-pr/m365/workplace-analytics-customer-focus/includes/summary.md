@@ -6,13 +6,13 @@ Based on the results, your leaders are now able to make informed decisions that 
 
 As introduced earlier in the module, many external-facing functions can benefit from the insights and take actions that maximize productivity and effectiveness of external-facing activities. Now that you have finished this module, you should be able to:
 
-- Explain how your organization can benefit by using Workplace Analytics to improve customer focus.
-- Understand the many ways you can analyze collaboration data to improve customer focus.
-- Determine project scoping, data requirements, and how you can create value with your customer focus analysis.
-- Know which Microsoft 365 tools you can use to effectively track and manage customer focus initiatives.
+* Explain how your organization can benefit by using Viva Insights to improve customer focus.
+* Understand the many ways you can analyze collaboration data to improve customer focus.
+* Determine project scoping, data requirements, and how you can create value with your customer focus analysis.
+* Know which Microsoft 365 tools you can use to effectively track and manage customer focus initiatives.
 
-For more detailed information on how to build a customer focus analysis, see the Resource playbooks link in **Learn more** and download the Customer Focus Playbook.
+For more detailed information on how to build a customer focus analysis, see the **Viva Insights playbooks** link in [Learn more](#learn-more), and then download the **Customer Focus Playbook**.
 
 ## Learn more
 
-- [Workplace Analytics Resource playbooks](/workplace-analytics/use/playbooks?azure-portal=true)
+[Viva Insights playbooks](/viva/insights/use/playbooks)

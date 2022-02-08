@@ -8,6 +8,7 @@ In this module, you will:
 
 - Learn about the key components of Azure Virtual Desktop and the deployment options
 - Deploy a customized workspace with a virtual desktop and remote app
+- Configure FSLogix user profiles
 
 ## Prerequisites
 

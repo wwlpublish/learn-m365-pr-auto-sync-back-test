@@ -115,7 +115,7 @@ Command sets enable you to add buttons to list and library toolbars or to the co
 
 The other two types of components previously covered, web parts and extensions, enable developers to extend and customize the SharePoint user experience. This third option, the library component, differs from those other types in that it's used to share code across multiple components projects.
 
-The library component is developer tool that enables developers to create a single package of reusable code that's independency versioned & deployed from your other components. These reusable code packages are deployed a single time to SharePoint Online tenant app catalog ad served automatically for SharePoint Framework components.
+The library component is developer tool that enables developers to create a single package of reusable code that's independency versioned & deployed from your other components. These reusable code packages are deployed a single time to SharePoint Online tenant app catalog and served automatically for SharePoint Framework components.
 
 Library components give developers an alternative option to create shared code, which can be then used and referenced cross all the components in the tenant.
 

@@ -1,0 +1,50 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.msteams-meetings-apps.7-exercise-post-meeting-experience
+metadata:
+  title: Exercise - Implement a post-meeting experience for attendees
+  description: In this exercise, you'll improve on the existing Microsoft Teams meetings app by implementing the post-meeting experience. The tab in the meeting will display the presentations delivered during the meeting and include the resources for each of the presentations that were submitted by the presenter in the pre-meeting experience.
+  ms.date: 02/04/2022
+  author: andrewconnell-msft
+  ms.author: v-johnco
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Exercise - Implement a post-meeting experience for attendees
+durationInMinutes: 5
+content: |
+  [!include[](includes/7-exercise-post-meeting-experience.md)]
+quiz:
+  title: Test your knowledge
+  questions:
+  - content: "How does a meeting app display content in the meeting stage?"
+    choices:
+    - content: "The app's manifest must include the `meetingStage` in the tab's `context` array."
+      isCorrect: false
+      explanation: "While this statement is correct, other options for this question are also correct."
+    - content: "The tab renders content when the Microsoft Teams `context.frameContext` property equals `sidePanel`."
+      isCorrect: false
+      explanation: "While this statement is correct, other options for this question are also correct."
+    - content: "A meeting attendee with the appropriate role selects the 'present' button in the meeting app's side-panel."
+      isCorrect: false
+      explanation: "While this statement is correct, other options for this question are also correct."
+    - content: "All of these are correct"
+      isCorrect: true
+      explanation: "Correct!"
+  - content: "Why would you use a bot in a meeting app?"
+    choices:
+    - content: "Bots can be used to determine the current meeting context, where tabs cannot."
+      isCorrect: false
+      explanation: "This isn't correct because tabs can use the current Microsoft Teams context using the Microsoft Teams JavaScript SDK."
+    - content: "Bots can be used to respond to specific meeting events, such as when a meeting starts or ends."
+      isCorrect: true
+      explanation: "Correct"
+    - content: "Bots can be used to start a meeting once a quorum of attendees has joined."
+      isCorrect: false
+      explanation: "This isn't correct because bots can't control when a meeting starts or ends."
+  - content: "Meeting apps can only be implemented using tabs in Microsoft Teams clients."
+    choices:
+    - content: "False"
+      isCorrect: true
+      explanation: "Correct!"
+    - content: "True"
+      isCorrect: false
+      explanation: "This isn't correct because meeting apps can be implemented using tabs or bots."
