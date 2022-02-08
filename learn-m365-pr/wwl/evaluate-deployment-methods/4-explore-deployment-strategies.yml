@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.evaluate-deployment-methods.explore-deployment-strategies
+title: Explore deployment strategies
+metadata:
+  title: Explore deployment strategies
+  description: "Explore deployment strategies"
+  ms.date: 02/08/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+content: |
+  [!include[](includes/4-explore-deployment-strategies.md)]

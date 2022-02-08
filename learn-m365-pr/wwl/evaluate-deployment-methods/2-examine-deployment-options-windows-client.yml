@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.evaluate-deployment-methods.examine-deployment-options-windows-client
+title: Examine deployment options for Windows client
+metadata:
+  title: Examine deployment options for Windows client
+  description: "Examine deployment options for Windows client"
+  ms.date: 02/08/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+content: |
+  [!include[](includes/2-examine-deployment-options-windows-client.md)]

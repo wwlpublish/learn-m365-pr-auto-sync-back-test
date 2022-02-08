@@ -1,0 +1,75 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.evaluate-deployment-methods.knowledge-check
+title: Knowledge check
+metadata:
+  title: Knowledge check
+  description: "Knowledge check"
+  ms.date: 02/08/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  zone_pivot_groups: azure-interface
+azureSandbox: false
+labModal: false
+content: |
+  [!include[](includes/8-knowledge-check.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "Tailspin Toys is a small organization with approximately 25 client computers. George works in the company's Accounting department, but given his background with Excel and other business-related computer software, he's also considered the company's \"computer\" guy. George is the person who everyone turns to when an issue occurs with a computer, printer, or the company's fax machine and telephone system. George wants to upgrade several of Tailspin's older Window devices with Windows 11 as quickly and as easily as possible. Which of the following deployment strategies should George implement to achieve this goal?"
+    choices:
+    - content: "High-touch deployment with a standard image"
+      isCorrect: false
+      explanation: "Incorrect. This strategy involves the creation of a standard image by using the available tools in the Windows ADK, which you can customize. It requires an IT professional with imaging knowledge and is ideal for small or distributed networks with minimal configuration requirements. However, this deployment method requires an IT professional with imaging experience; not someone such as George. Try again."
+    - content: "Lite-touch deployment"
+      isCorrect: false
+      explanation: "Incorrect. The Lite-touch Installation (LTI) deployment strategy is suitable for medium-sized organizations with 200–500 client computers. This strategy uses management tools such as Microsoft Deployment Toolkit (MDT) or Microsoft Intune. As such, it requires a true IT professional with experience in this type of deployment. Try again."
+    - content: "High-touch deployment with retail media"
+      isCorrect: true
+      explanation: "Correct. The high-touch with retail media deployment strategy is suitable for small organizations that do not have information technology (IT) staff, or have IT staff members without deployment experience. Such organizations typically have fewer than 100 client computers. This strategy is the simplest way to deploy Windows. Insert the Windows media and run the setup program. It is a manual installation that requires you to answer each prompt in the setup program."
+  - content: "Fabrikam recently purchased several new devices that had Windows 11 pre-installed by the hardware vendor, along with the vendor's preferred configuration. Fabrikam wants to reconfigure the device to a clean Windows 11 installation, providing an out-of-box experience while applying the company's desired configuration and applications. Which of the following deployment methods achieves this goal, while also being the easiest method for Fabrikam to implement?"
+    choices:
+    - content: "Using Windows Autopilot"
+      isCorrect: true
+      explanation: "Correct. Autopilot was first introduced in Windows 10. The concept behind autopilot was to reduce the need to reimage machines. Typically, when a new device is purchased, Windows is pre-installed on it by the hardware vendor, with the vendor's preferred configuration. Autopilot reconfigures the device to a clean Windows 10 or 11 install, providing an out-of-box experience while applying the organization's desired configuration and applications. Configuring a device using Autopilot is typically easier than creating and managing images."
+    - content: "Side-by-side migration"
+      isCorrect: false
+      explanation: "Incorrect. A side-by-side migration is typically used when the user's device is being replaced. Try again."
+    - content: "Imaging"
+      isCorrect: false
+      explanation: "Incorrect. Imaging would not be the easiest method of configuring a device. Try again."
+  - content: "Which component of the Windows Assessment and Deployment Kit (ADK) creates provisioning packages that can be used to dynamically configure a Windows device without the need for re-imaging the device with a custom image?"
+    choices:
+    - content: "Deployment Image Servicing and Management"
+      isCorrect: false
+      explanation: "Incorrect. DISM is a command-line tool that enables you to create and manage images. Try again."
+    - content: "Windows Imaging and Configuration Designer"
+      isCorrect: true
+      explanation: "Correct. Windows Imaging and Configuration Designer is a tool designed to assist with the creation of provisioning packages that can be used to dynamically configure a Windows device (PCs, tablets, and phones). This is particularly useful for setting up new devices, without the need for re-imaging the device with a custom image."
+    - content: "Windows System Image Manageer"
+      isCorrect: false
+      explanation: "Incorrect. Windows SIM is a graphical tool that you can use to create unattended installation answer files (Unattend.xml) and distribution shares, or modify the files that a configuration set contains. Try again."
+  - content: "Contoso is running Windows Enterprise on its 500+ devices. It wants to enable its users to quickly start an isolated, pristine Windows environment for temporary use scenarios, such as launching a downloaded executable they may not fully trust. It also wants a solution that's disposable, so that nothing persists on the device and everything is discarded once the user is finished using the temporary Windows environment. Which of the following virtualization technologies should Contoso deploy that satisfies these requirements?"
+    choices:
+    - content: "Windows Sandbox"
+      isCorrect: true
+      explanation: "Correct. Windows Sandbox is a feature first introduced in Windows 10 that allows Windows clients to set up an isolated environment without the need to configure Hyper-V or create a Windows VM or set up a VHD. This enables the user to quickly start an isolated, pristine Windows environment for temporary use scenarios such as launching a downloaded executable that you may not fully trust. Sandbox also provides a disposable environment so that nothing persists on the device. When Sandbox is closed, everything is discarded."
+    - content: "Client Hyper-V"
+      isCorrect: false
+      explanation: "Incorrect. This virtual technology is not the easiest or quickest to deploy. Try again."
+    - content: "Windows VM"
+      isCorrect: false
+      explanation: "Incorrect. This virtual technology is not the easiest or quickest to deploy. Try again."
+  - content: "Which Modern deployment option uses Windows Setup to update the OS and migrate apps and settings?"
+    choices:
+    - content: "Windows Autopilot"
+      isCorrect: false
+      explanation: "Incorrect. Autopilot is a Modern deployment option, but it reconfigures a Windows 10 or later device, effectively achieving a customized new install with apps and settings already configured. Try again."
+    - content: "Subscription activation"
+      isCorrect: false
+      explanation: "Incorrect. This Dynamic deployment method switches from Windows Pro to Enterprise when a subscribed user signs in. Try again,."
+    - content: "In-place upgrade"
+      isCorrect: true
+      explanation: "Correct. In-place upgrade uses Windows Setup to update your OS and migrate apps and settings."
+interactive: bash

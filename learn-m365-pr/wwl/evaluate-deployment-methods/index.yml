@@ -1,0 +1,41 @@
+### YamlMime:Module
+uid: learn.wwl.evaluate-deployment-methods
+metadata:
+  title: Evaluate deployment methods
+  description: "This module will provide an introduction to the tools and processes for automating and performing large-scale deployments."
+  ms.date: 02/08/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Evaluate deployment methods
+summary: This module will provide an introduction to the tools and processes for automating and performing large-scale deployments.
+abstract: |
+  After completing this module, you will be able to:
+  - Describe the different methods of automated desktop deployments.
+  - Describe common tools used to perform automated steps.
+  - Describe how to leverage virtualization in Windows client.
+  - Configure a Hyper-V virtual machine.
+prerequisites: |
+  - Students should have a basic understanding of computer networks and hardware concepts.
+  - Students should have a basic understanding of OS and Application concepts.
+  - Students should have experience with using Windows 10 or later.
+iconUrl: /learn/achievements/generic-badge.svg
+levels:
+- beginner
+roles:
+- administrator
+products:
+- windows
+units:
+- learn.wwl.evaluate-deployment-methods.introduction
+- learn.wwl.evaluate-deployment-methods.examine-deployment-options-windows-client
+- learn.wwl.evaluate-deployment-methods.explore-imaging-autopilot
+- learn.wwl.evaluate-deployment-methods.explore-deployment-strategies
+- learn.wwl.evaluate-deployment-methods.explore-deployment-tools
+- learn.wwl.evaluate-deployment-methods.explore-user-state-migration-tool
+- learn.wwl.evaluate-deployment-methods.explore-client-virtualization
+- learn.wwl.evaluate-deployment-methods.knowledge-check
+- learn.wwl.evaluate-deployment-methods.summary
+badge:
+  uid: learn.wwl.evaluate-deployment-methods.badge

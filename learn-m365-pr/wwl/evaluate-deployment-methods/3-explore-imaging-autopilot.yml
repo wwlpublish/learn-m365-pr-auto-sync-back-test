@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.evaluate-deployment-methods.explore-imaging-autopilot
+title: Explore imaging and autopilot
+metadata:
+  title: Explore imaging and autopilot
+  description: "Explore imaging and autopilot"
+  ms.date: 02/08/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+content: |
+  [!include[](includes/3-explore-imaging-autopilot.md)]
