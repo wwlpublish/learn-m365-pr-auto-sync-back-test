@@ -1,12 +1,12 @@
 ### YamlMime:ModuleUnit
 uid: learn-m365.workplace-analytics-onboard.licenses
-title: Assign Workplace Analytics licenses
+title: Assign Viva Insights (Workplace Analytics) licenses
 metadata:
-  title: Assign Workplace Analytics licenses
-  description: Learn how to assign Workplace Analytics licenses to your users.
-  ms.date: 06/18/2021
-  author: temanteleary
-  ms.author: teleary
+  title: Assign Viva Insights licenses
+  description: Learn how to assign Viva Insights license to use the Workplace Analytics app
+  ms.date: 01/14/2022
+  author: madehmer
+  ms.author: helayne
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 durationInMinutes: 2

@@ -1,12 +1,12 @@
 ### YamlMime:ModuleUnit
 uid: learn-m365.workplace-analytics-r-package.explore-data-in-r
-title: Explore Workplace Analytics data in R
+title: Explore Viva Insights data in R
 metadata:
-  title: Explore Workplace Analytics data in R
+  title: Explore Viva Insights data with the Workplace Analytics app in R
   description: Learn how to view your data in R. 
-  ms.date: 08/31/2021
-  author: temanteleary
-  ms.author: teleary
+  ms.date: 01/26/2022
+  author: madehmer
+  ms.author: helayne
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 durationInMinutes: 14

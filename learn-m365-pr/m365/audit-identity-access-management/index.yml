@@ -3,7 +3,7 @@ uid: learn-m365.audit-identity-access-management
 metadata:
   title: Understand Microsoft 365 identity and access management 
   description: Learn how Microsoft 365 implements the principle of Zero Standing Access (ZSA) to protect production environments and customer data using Just-In-Time (JIT) and Just-Enough-Access (JEA). 
-  ms.date: 09/07/2021
+  ms.date: 01/28/2022
   author: beccarobins
   ms.author: beccarobins
   ms.topic: interactive-tutorial

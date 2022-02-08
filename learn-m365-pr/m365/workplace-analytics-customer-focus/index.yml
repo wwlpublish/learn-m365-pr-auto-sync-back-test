@@ -3,23 +3,23 @@ uid: learn-m365.workplace-analytics-customer-focus
 metadata:
   title: Introduction to customer focus with Microsoft Viva Insights (Workplace Analytics)
   description: Discover ways to use Microsoft Viva Insights (Workplace Analytics) to analyze collaboration behaviors related to customer focus, and how your organization can benefit from the analysis. Understand the data requirements and key considerations to scope and perform a customer focus analysis and learn how you can identify opportunities and track progress to create value for your organization.
-  ms.date: 07/30/2021
-  author: temanteleary
-  ms.author: teleary
+  ms.date: 01/21/2022
+  author: madehmer
+  ms.author: helayne
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Introduction to customer focus with Microsoft Viva Insights (Workplace Analytics)
 summary: "**Note**: The Workplace Analytics web app is being rebranded to **Viva Insights** in the next few months. As mentioned in this module, Workplace Analytics refers to the web app with advanced analysis tools and accelerators available to those who are assigned the Analyst, Limited Analyst, or Admin role.<br><br>Discover ways to use Microsoft Viva Insights (Workplace Analytics) to analyze collaboration behaviors related to customer focus, and how your organization can benefit from the analysis. Understand the data requirements and key considerations to scope and perform a customer focus analysis and learn how you can identify opportunities and track progress to create value for your organization."
 abstract: |
   At the end of this module, you should be able to:
-  - Explain how your organization can benefit from using Viva Insights (Workplace Analytics) to improve customer focus.
+  - Explain how your organization can benefit from using Viva Insights and Workplace Analytics to improve customer focus.
   - Understand the many ways you can analyze collaboration data to improve customer focus.
   - Determine project scoping, data requirements, and how you can create value with your customer focus analysis.
   - Know which Microsoft 365 tools you can use to effectively track and manage customer focus initiatives.
 prerequisites: |
   - Familiarity with Workplace Analytics data sources and metrics
-  - Basic knowledge of Workplace Analytics queries and query structure
-  - Familiarity with the analyses in the Workplace Analytics Ways of working assessment
+  - Basic knowledge of the Query designer, queries, and query structure
+  - Familiarity with the analyses in the Ways of working assessment Power BI dashboard available through Workplace Analytics
 iconUrl: /learn/achievements/workplace-analytics-customer-focus.svg
 levels:
 - intermediate
@@ -30,7 +30,6 @@ roles:
 products:
 - m365
 - m365-workplace-analytics
-- viva-insights
 units:
 - learn-m365.workplace-analytics-customer-focus.introduction
 - learn-m365.workplace-analytics-customer-focus.why-user-focus

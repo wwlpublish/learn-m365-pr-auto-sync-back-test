@@ -1,4 +1,4 @@
-In terms of access control, employee transfers and terminations need to be timely and consistently orchestrated to prevent unauthorized access after their transition. Employees transferring to another team may only need a subset of the eligibilities they currently hold or no eligibilities at all. Terminated employees must have their access disabled in a timely manner after they officially end their employment. Microsoft has well established procedures and automated workflows to help conduct consistent and accurate transitions for employees and their access.
+In terms of access control, employee transfers and terminations need to be timely and consistently orchestrated to prevent unauthorized access after their transition. Employees transferring to another team may only need a subset of the eligibilities they currently hold or no eligibilities at all. Terminated employees must have their access disabled in a timely manner after they officially end their employment. Microsoft has well-established procedures and automated workflows to help conduct consistent and accurate transitions for employees and their access.
 
 ## Transfers
 
@@ -8,6 +8,6 @@ The employee transfer process starts when a request is made by the employee’s 
 
 Terminations need to be handled with care, specifically in cases of involuntary termination. For this reason, Microsoft uses clearly defined policies and procedures to revoke physical and logical access at exactly the right moment to help prevent any potential insider related risks.
 
-When an employee provides notice that they are leaving Microsoft, their manager enters the termination date into the HRIS. At the end of the day on the employee’s termination date, the HRIS marks the employee as terminated, automatically triggering IDM to disable all service team accounts and revoke all eligibilities and lockbox roles.
+When an employee provides notice that they’re leaving Microsoft, their manager enters the termination date into the HRIS. At the end of the day on the employee’s termination date, the HRIS marks the employee as terminated, automatically triggering IDM to disable all service team accounts and revoke all eligibilities and lockbox roles.
 
 Involuntary terminations work similarly with the employee’s manager entering their termination date into the HRIS, prompting IDM to remove their access on the specified date. Additionally, urgent requests can be made to disable an employee’s account and revoke their eligibilities immediately if they pose a threat to Microsoft or our customers

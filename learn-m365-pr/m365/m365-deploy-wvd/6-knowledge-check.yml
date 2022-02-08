@@ -4,7 +4,7 @@ title: Knowledge check
 metadata:
   title: Knowledge check
   description: Review what you've learned.
-  ms.date: 08/02/2021
+  ms.date: 12/15/2021
   author: lizap
   ms.author: nedelgad
   ms.topic: interactive-tutorial
@@ -46,3 +46,14 @@ quiz:
       - content: "Assign the RemoteApp and desktop application groups to your users."
         isCorrect: true
         explanation: "You can assign users to both a desktop application group and a RemoteApp application group in the same host pool. But users can only launch one type of application group per session."
+    - content: "Which of these steps is not part of creating an FSLogix profile?"
+      choices:
+      - content: "Create an Azure storage account with a file share"
+        isCorrect: false
+        explanation: "Incorrect. FSLogix profiles store user-assigned virtual disks in the file share in Azure."
+      - content: "Create a new role in Azure AD to read and write in Azure storage"
+        isCorrect: false
+        explanation: "Incorrect. You need a new role in Azure AD to read and write in Azure storage so users can access and modify the virtual disks that contain their user profile."
+      - content: "Install FSLogix software in Azure Virtual Desktop gallery images"
+        isCorrect: true
+        explanation: "Correct. FSLogix software is preinstalled in the Azure gallery images. If you use your own image, you'll need to install the FSLogix software yourself."

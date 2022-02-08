@@ -1,12 +1,12 @@
 ### YamlMime:ModuleUnit
 uid: learn-m365.workplace-analytics-discover.create-analysis
-title: Create customized analysis with Workplace Analytics
+title: Create custom analysis with Workplace Analytics for Viva Insights
 metadata:
-  title: Create customized analysis with Workplace Analytics
-  description: Learn what Workplace Analytics is, how it works, and key features that allow you to generate insights and improve collaboration in your organization.
-  ms.date: 07/16/2021
-  author: temanteleary
-  ms.author: teleary
+  title: Create custom analysis with Workplace Analytics for Viva Insights
+  description: Learn what Workplace Analytics is, how it works, and key features for generating insights and improving collaboration in your organization
+  ms.date: 01/20/2022
+  author: madehmer
+  ms.author: helayne
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 durationInMinutes: 16

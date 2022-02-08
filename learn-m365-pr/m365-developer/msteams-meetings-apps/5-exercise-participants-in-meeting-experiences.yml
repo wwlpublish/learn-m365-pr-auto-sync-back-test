@@ -1,0 +1,47 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.msteams-meetings-apps.5-exercise-participants-in-meeting-experiences
+metadata:
+  title: Exercise - In-meeting experience & participant roles
+  description: In this exercise, you'll implement the in-meeting experience for the meeting and improve the existing pre-meeting experience. In the pre-meeting experience, organizers can approve and modify the presentations submitted by other meeting participants. In addition, the in-meeting experience will display a different experience depending on if the participant is a presenter, organizer, or attendee of the meeting in the side panel of the meeting.
+  ms.date: 02/04/2022
+  author: andrewconnell-msft
+  ms.author: v-johnco
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Exercise - In-meeting experience & participant roles
+durationInMinutes: 9
+content: |
+  [!include[](includes/5-exercise-participants-in-meeting-experiences.md)]
+quiz:
+  title: Test your knowledge
+  questions:
+  - content: "Which of the following is a correct statement about the pre-meeting context?"
+    choices:
+    - content: "The pre-meeting experience is defined by the developer, not by a setting or property on the meeting."
+      isCorrect: true
+      explanation: "Correct!"
+    - content: "The pre-meeting experience is only available once an attendee joins the meeting and is shown in the stage, or main, area of the meeting."
+      isCorrect: false
+      explanation: "The pre-meeting lifecycle isn't limited in when or where it can be used. It's determined by the developer."
+    - content: "This isn't correct because the pre-meeting experience is only available once an attendee joins the meeting and is shown in the stage."
+      isCorrect: false
+      explanation: "The pre-meeting lifecycle isn't limited in when or where it can be used. It's determined by the developer."
+  - content: "This isn't correct because the side-panel context is available in the meeting details and within the window after joining a meeting."
+    choices:
+    - content: "False"
+      isCorrect: true
+      explanation: "Correct!"
+    - content: "True"
+      isCorrect: false
+      explanation: "This isn't correct because the side-panel context is only available within a running meeting once the current user as joined the meeting & isn't available in the meeting details window."
+  - content: "What are the different roles of attendees in a meeting that custom apps can use in creating unique experiences for attendees?"
+    choices:
+    - content: "Organizer, presenter, and attendee"
+      isCorrect: true
+      explanation: "Correct!"
+    - content: "Organizer and attendee"
+      isCorrect: false
+      explanation: "This isn't correct because in addition to these two options, someone can also have the presenter role."
+    - content: "Presenter and attendee"
+      isCorrect: false
+      explanation: "This isn't correct because in addition to these two options, someone can also have the organizer role."
