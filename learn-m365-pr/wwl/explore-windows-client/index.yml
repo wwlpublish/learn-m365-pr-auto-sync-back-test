@@ -1,0 +1,40 @@
+### YamlMime:Module
+uid: learn.wwl.explore-windows-client
+metadata:
+  title: Explore the Windows client
+  description: "This module describes the new features in Windows and provides guidance with respect to navigating and customizing the user interface."
+  ms.date: 02/08/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Explore the Windows client
+summary: This module describes the new features in Windows and provides guidance with respect to navigating and customizing the user interface.
+abstract: |
+  After completing this lesson, you will be able to:
+  *   Describe Windows 10 and Windows 11.
+  *   Explain the new features available in Windows.
+  *   Explain the benefits of using the Windows client for small and medium-sized organizations.
+  *   Discuss managing the Windows client in an enterprise environment.
+  *   Describe the elements of the new Windows 10 and 11 user interfaces.
+prerequisites: |
+  *   Students should have a basic understanding of computer networks and hardware concepts.
+  *   Students should have a basic understanding of OS and Application concepts.
+  *   Students should have experience with using Windows 10 or later.
+iconUrl: /learn/achievements/generic-badge.svg
+levels:
+- beginner
+roles:
+- administrator
+products:
+- windows
+units:
+- learn.wwl.explore-windows-client.introduction
+- learn.wwl.explore-windows-client.describe-windows-client
+- learn.wwl.explore-windows-client.explore-whats-new-windows-client
+- learn.wwl.explore-windows-client.evaluate-benefits-windows-client-small-medium-sized-organizations
+- learn.wwl.explore-windows-client.explain-desktop-management-enterprise-environment
+- learn.wwl.explore-windows-client.knowledge-check
+- learn.wwl.explore-windows-client.summary
+badge:
+  uid: learn.wwl.explore-windows-client.badge

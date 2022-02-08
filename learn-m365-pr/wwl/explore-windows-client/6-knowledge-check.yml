@@ -1,0 +1,74 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.explore-windows-client.knowledge-check
+title: Knowledge check
+metadata:
+  title: Knowledge check
+  description: "Knowledge check"
+  ms.date: 02/08/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+azureSandbox: false
+labModal: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/6-knowledge-check.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "Contoso's IT department wants to provide a consolidated and efficient virtual environment through virtual-machine compatibility with Windows Server. This design will enable them to use a single device to test applications and IT scenarios in multiple operating system configurations. Which of the following Windows 11 features should the IT department use to support this effort?"
+    choices:
+    - content: "Windows Sandbox"
+      isCorrect: false
+      explanation: "Incorrect. Windows Sandbox provides a lightweight desktop environment for temporarily running applications in an isolated environment. Try again."
+    - content: "Virtual secure mode"
+      isCorrect: false
+      explanation: "Incorrect. Virtual secure mode is a secure process-execution environment that Windows 10 introduced. This execution environment helps protect system processes by running them in a separate, virtualized container, known as a trustlet, rather than in the operating system itself. Try again."
+    - content: "Client Hyper-V"
+      isCorrect: true
+      explanation: "Correct. By using Client Hyper-V, IT departments can provide a consolidated and efficient virtual environment through virtual-machine compatibility with Windows Server. This environment can use a single device to test applications and IT scenarios in multiple operating system configurations."
+  - content: "Contoso has a a large fleet of computers that it wants to manage more efficiently. Contoso is looking to implement a solution that will simplify deployment of new and replacement computers, provide consistent applications and hardware across the enterprise, and simplify inventory and software development. What should Contoso use that will satisfy these requirements?"
+    choices:
+    - content: "Standard operating environment"
+      isCorrect: true
+      explanation: "Correct. To more efficiently manage a large fleet of computers, enterprises often use one or more standard operating environments (SOEs). An SOE is a set operating system, application, and hardware configuration. The benefits of an SOE include simplified deployment of new and replacement computers, consistent applications and hardware across the organization, simplified inventory, simplified updating, and simpler software development."
+    - content: "Windows as a Service"
+      isCorrect: false
+      explanation: "Incorrect. Windows as a Service is a method of delivering new features and functional changes. With this method, Windows releases quality updates regularly, while significant changes, also known as feature updates, will occur annually. Security and driver updates will automatically download and install as soon as they become available for some Windows client editions. Try again."
+    - content: "Autotriggered VPN"
+      isCorrect: false
+      explanation: "Incorrect. With autotriggered VPN, if an app requires access to your company’s intranet, Windows can automatically trigger a virtual private network (VPN) connection. Try again."
+  - content: "As the Desktop Administrator for Fabrikam, Holly Spencer wants to implement an on-premises management solution to manage desktops, servers, and laptops that are on the company's network or are internet-based. Holly also wants monitor compliance, and query and act on clients in real time. What tool will provide Holly with this functionality?"
+    choices:
+    - content: "Desktop Analytics"
+      isCorrect: false
+      explanation: "Incorrect. Desktop Analytics is a cloud-based service that provides insight and intelligence for you to make more informed decisions about the update readiness of your Windows clients. Try again."
+    - content: "Windows Autopilot"
+      isCorrect: false
+      explanation: "Incorrect. Windows Autopilot sets up and pre-configures new devices, getting them ready for use. It's designed to simplify the lifecycle of Windows devices, for both IT and end users, from initial deployment through end of life. Try again."
+    - content: "Configuration Manager"
+      isCorrect: true
+      explanation: "Correct. Configuration Manager is an on-premises management solution to manage desktops, servers, and laptops that are on your network or internet-based. You can cloud-enable it to integrate with Intune, Azure Active Directory (AD), Microsoft Defender for Endpoint, and other cloud services. Use Configuration Manager to deploy apps, software updates, and operating systems. You can also monitor compliance, query and act on clients in real time, and much more."
+  - content: "Which feature in Windows 10 and 11 enables a user to turn their device into a Wi-Fi hotspot?"
+    choices:
+    - content: "Broadband tethering"
+      isCorrect: true
+      explanation: "Correct. With broadband tethering, you can turn your Windows 10 or later device into a Wi-Fi hotspot."
+    - content: "Autotriggered VPN"
+      isCorrect: false
+      explanation: "Incorrect. If an app requires access to your company’s intranet, Windows can automatically trigger a virtual private network (VPN) connection. This feature does not turn a device into a Wi-Fi hotspot. Try again."
+    - content: "Mobile broadband"
+      isCorrect: false
+      explanation: "Incorrect. With its mobile broadband feature, Windows provides support for embedded wireless radio. This support helps to improve power efficiency and reduce the size of some devices. This feature does not turn a device into a Wi-Fi hotspot. Try again."
+  - content: "Lucerne Publishing has experienced a rash of security issues related to device management. As such, it wants to control how the organization’s devices are used, including mobile phones, tablets, and laptops. The company has decided that it wants to prevent emails from being sent to people outside the organization. And while the company allows selected employees to use their personal devices for work, it wants to ensure the organization's data stays protected. It also wants to isolate organization data from personal data. What tool should Lucerne Publishing implement to provide these device management features?"
+    choices:
+    - content: "Client Hyper-V"
+      isCorrect: false
+      explanation: "Incorrect. Client Hyper-V is a flexible and high-performing client virtualization environment. You can use this environment to use a single device to test applications and IT scenarios in multiple operating system configurations. By using Client Hyper-V, IT departments can provide a consolidated and efficient virtual environment through virtual-machine compatibility with Windows Server. Try again."
+    - content: "Configuration Manager"
+      isCorrect: false
+      explanation: "Incorrect. Configuration Manager enables secure and scalable deployment of applications, software updates, and operating systems. Try again."
+    - content: "Microsoft Intune"
+      isCorrect: true
+      explanation: "Correct. Microsoft Intune controls how your organization’s devices are used, including mobile phones, tablets, and laptops. It can also configure specific policies to control applications. For example, you can prevent emails from being sent to people outside your organization. Intune also allows people in your organization to use their personal devices for school or work. On personal devices, Intune helps make sure your organization's data stays protected and can isolate organization data from personal data."

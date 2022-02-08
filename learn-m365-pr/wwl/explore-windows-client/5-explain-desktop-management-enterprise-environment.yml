@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.explore-windows-client.explain-desktop-management-enterprise-environment
+title: Explain desktop management in an enterprise environment
+metadata:
+  title: Explain desktop management in an enterprise environment
+  description: "Explain desktop management in an enterprise environment"
+  ms.date: 02/08/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+azureSandbox: false
+labModal: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/5-explain-desktop-management-enterprise-environment.md)]
