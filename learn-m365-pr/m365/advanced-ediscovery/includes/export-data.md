@@ -68,7 +68,7 @@ To export content:
 
     The **Blob containers** node (under **Storage Accounts > Attached Containers**) is opened to a container with the display name from step 7. This container contains a folder for each export job that you have created. The folders are named with an ID that corresponds to the ID of the export job.
 
-    :::image type="content" source="../media/containers-1.png" alt-text="Export content, step 8." lightbox="../media/containers-1.png":::
+    :::image type="content" source="../media/containers-1.png" alt-text="Export content, step 8." lightbox="../media/containers-1.png" border="false":::
 
 1. Double-click the export job folder to open it and display the list of folders and export reports.
 
