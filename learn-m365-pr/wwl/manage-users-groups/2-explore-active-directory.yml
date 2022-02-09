@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.manage-users-groups.explore-active-directory
+title: Explore Active Directory
+metadata:
+  title: Explore Active Directory
+  description: "Explore Active Directory"
+  ms.date: 02/09/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/2-explore-active-directory.md)]

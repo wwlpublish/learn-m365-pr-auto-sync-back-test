@@ -1,0 +1,74 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.manage-users-groups.knowledge-check
+title: Knowledge Check
+metadata:
+  title: Knowledge Check
+  description: "Knowledge Check"
+  ms.date: 02/09/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/6-knowledge-check.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "What does AD DS use to perform authentication for computer accounts during the startup process and for user accounts when the user signs in?"
+    choices:
+    - content: "Domain controllers"
+      isCorrect: true
+      explanation: "Correct. The sign-in process authenticates both the computer and user accounts. In an AD DS environment, domain controllers perform authentication for computer accounts during the startup process and for user accounts when the user signs in."
+    - content: "LDAP calls"
+      isCorrect: false
+      explanation: "Incorrect. LDAP calls are used to query and manage AD DS. Try again."
+    - content: "Group policy objects"
+      isCorrect: false
+      explanation: "Incorrect. A Group Policy Object (GPO) is a virtual collection of policy settings. Try again."
+  - content: "What does AD DS use for locating resources such as domain controllers?"
+    choices:
+    - content: "Domain Name System"
+      isCorrect: true
+      explanation: "Correct. AD DS uses Domain Name System (DNS) for locating resources such as domain controllers."
+    - content: "LDAP"
+      isCorrect: false
+      explanation: "Incorrect. Lightweight Directory Access Protocol (LDAP) provides a mechanism for connecting to, searching, and modifying Internet directories. Try again."
+    - content: "Kerberos"
+      isCorrect: false
+      explanation: "Incorrect. Kerberos is the protocol used by AD DS for authentication. Try again."
+  - content: "As the Enterprise Administrator for World Wide Importers, Patti Fernandez deployed AD DS on an Azure virtual machine to enable scalability and availability for an on-premises AD DS. What's one of the repercussions of deploying AD DS on an Azure virtual machine?"
+    choices:
+    - content: "Authentication will be very slow"
+      isCorrect: false
+      explanation: "Incorrect. This items isn't a drawback of deployig AD DS on an Azure virtual machine. Try again."
+    - content: "You can't use drive C for AD DS storage"
+      isCorrect: false
+      explanation: "Incorrect. It's not that you can't use drive C for AD DS storage, but you shouldn't. Instead, you should deploy one or more additional Azure data disks to store the AD DS database, logs ,and SYSVOL. Try again."
+    - content: "It doesn't make any use of Azure AD"
+      isCorrect: true
+      explanation: "Correct. You can deploy AD DS on an Azure virtual machine to enable scalability and availability for an on-premises AD DS. However, deploying AD DS on an Azure virtual machine doesn't make any use of Azure AD."
+  - content: "As the Enterprise Administrator for Contoso, Holly Dickson recently deployed several new Windows 11 computers. George, who was a recipient of one of those new computers, complained to Holly that he was unable to access the local computer or network resources. Which of the following items could be causing the authentication failures that George has been experiencing?"
+    choices:
+    - content: "Holly didn't properly configure the list of DNS servers on George's computer"
+      isCorrect: true
+      explanation: "Correct. If you don't properly configure the list of DNS servers on a Windows client computer, it can't obtain a list of domain controllers. This will result in authentication failures, in which case the user can't access the local computer or network resources."
+    - content: "George didn't reauthenticate his user account by restarting the computer"
+      isCorrect: false
+      explanation: "Incorrect. This step doesn't apply to this scenario. It's only needed if George's computer had been added to a group. Restarting the computer would be necessary to reauthenticate the account to update the security token with group membership. Try again."
+    - content: "Holly didn't assign George to an Active Directory security group"
+      isCorrect: false
+      explanation: "Incorrect. This item wouldn't be causing the problem George is experiencing. Try again."
+  - content: "Wingtip Toys has a hybrid Exchange deployment. Wingtip employs an on-premises AD DS that supports its Exchange Server 2019 deployment. It also has a cloud-based Azure AD environment that supports Exchange Online in its Microsoft 365 tenant. What tool can Wingtip's Enterprise Administrator use to synchronize these AD DS and Azure AD services together to meet its hybrid identity goals?"
+    choices:
+    - content: "Active Directory Rights Management Services (AD RMS)"
+      isCorrect: false
+      explanation: "Incorrect. AD RMS is the server role that provides you with management and development tools that work with industry security technologies—including encryption, certificates, and authentication—to help organizations create reliable information protection solutions. Try again."
+    - content: "Azure AD Connect"
+      isCorrect: true
+      explanation: "Correct. Administrators can synchronize AD DS and Azure AD together using the Azure AD Connect tool. Azure AD Connect enables IT to take advantage of the benefits each service has to offer. It's an on-premises Microsoft application that's designed to meet and accomplish an organization's hybrid identity goals."
+    - content: "Active Directory Lightweight Directory Services (AD LDS)"
+      isCorrect: false
+      explanation: "Incorrect. AD LDS is an independent mode of Active Directory, minus infrastructure features, that provides directory services for applications. Try again."
