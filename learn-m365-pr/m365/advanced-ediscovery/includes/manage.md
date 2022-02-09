@@ -15,7 +15,7 @@ This section explains permissions that a user must have to manage the following:
 - Use Advanced eDiscovery
 - View custodian audit activity
 - Load non-Microsoft 365 data
-- Set up set up Attorney-Client Privilege Detection
+- Set up Attorney-Client Privilege Detection
 - Access Advanced eDiscovery Reports (in Preview)
 
 ### Permissions to use eDiscovery
@@ -62,7 +62,7 @@ To run the compliance security filter cmdlets, you must be a member of the Organ
 
 ### Licensing
 
-Microsoft 365 E3 only provide the rights for a user to benefit from core eDiscovery features as illustrated in the table below.
+Microsoft 365 E3 only provides the rights for a user to benefit from core eDiscovery features as illustrated in the table below.
 
 :::image type="content" source="../media/microsoft-365-ediscovery-features.png" alt-text="Microsoft 365 eDiscovery features by plan":::
 

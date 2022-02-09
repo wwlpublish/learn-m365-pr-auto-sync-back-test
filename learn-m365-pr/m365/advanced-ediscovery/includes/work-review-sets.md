@@ -151,12 +151,12 @@ These properties and their corresponding values are searchable within a review s
 
 1. To enable attorney-client privilege detection in your tenant, navigate to the **Cases** tab in Advanced eDiscovery and click **Configure global analytics settings**.
 
-    :::image type="content" source="../media/advanced-ediscovery.png" alt-text="Setting uyp Configure global analytics settings, part 1.":::
+    :::image type="content" source="../media/advanced-ediscovery.png" alt-text="Setting up Configure global analytics settings, part 1.":::
 
 1. On the **Analytics settings** tab, click **Manage attorney-client privilege setting**.
 1. On the **Attorney-client privilege** flyout page, use the toggle to turn on the feature and then select **Save**.
 
-    :::image type="content" source="../media/attorney-client-privilege.png" alt-text="Setting uyp Configure global analytics settings, part 2.":::
+    :::image type="content" source="../media/attorney-client-privilege.png" alt-text="Setting up Configure global analytics settings, part 2.":::
 
 ### Upload a list of attorneys (optional)
 
