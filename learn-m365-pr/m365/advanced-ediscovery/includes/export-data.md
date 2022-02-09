@@ -1,6 +1,6 @@
 After you have finished culling your data in a review set to the content that is most relevant, you can download or export content for presentation or external review. This is the *Export data* phase of the EDRM workflow.
 
-> [div class = "centered"]
+> [!div class = "centered"]
 > :::image type="content" source="../media/edrm-model-5.png" alt-text="Seventh phase of the EDRM model – Export data." lightbox="../media/edrm-model-5.png":::
 
 ### Download documents from a review set

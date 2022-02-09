@@ -1,7 +1,7 @@
 
 In this section, we discuss the *Collection* and *Processing* phases of the EDRM model.
 
-> [div class = "centered"]
+> [!div class="centered"]
 > :::image type="content" source="../media/edrm-model-2.png" alt-text="Third and fourth phases of the EDRM model – Collection and Processing.":::
 
 After creating the case, adding the custodians and their associated data sources, the next step typically involves searching for and collecting relevant content to build out the case. You can quickly do this by creating a search.  

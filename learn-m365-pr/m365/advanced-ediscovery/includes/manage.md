@@ -68,7 +68,7 @@ Microsoft 365 E3 only provide the rights for a user to benefit from core eDiscov
 
 > [!NOTE]
 > Advanced eDiscovery is a capability included with:
-
+>
 > - Microsoft 365 E5
 > - Microsoft 365 E5 Compliance
 > - Microsoft 365 E5 eDiscovery and Audit

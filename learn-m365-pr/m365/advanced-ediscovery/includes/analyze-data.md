@@ -1,7 +1,7 @@
 
 This section discusses the *Analysis* phase of the EDRM model.
 
-> [div class = "centered"]
+> [!div class = "centered"]
 > :::image type="content" source="../media/edrm-model-4.png" alt-text="Phase 6 of the EDRM model – Analysis." lightbox="../media/edrm-model-4.png":::
 
 When an evidence collection is large, it often includes multiple copies of the same or similar email messages or documents. Analysis tools in Advanced eDiscovery support the Analysis phase of the EDRM model by enabling you to cull data from the review set that isn't relevant to the investigation.

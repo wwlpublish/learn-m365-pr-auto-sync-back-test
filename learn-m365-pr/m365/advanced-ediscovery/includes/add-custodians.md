@@ -52,7 +52,6 @@ Holds are applied at the site level. When you place a site on hold, a Preservati
 > [!div class="centered"]
 > :::image type="content" source="../media/sharepoint-holds-1.png" alt-text="A flow diagram showing the process for placing SharePoint Online sites on hold." lightbox="../media/sharepoint-holds-1.png" border="false":::
   
-
 ### Place a hold on Microsoft Teams
 
 Channel conversations that are part of a Microsoft Teams channel are stored in the mailbox that is associated with the Team. On the other hand, files that team members share in a channel are stored on the SharePoint site associated with the Microsoft Team. Therefore, if you need to retain conversations and files in a channel you must place the Microsoft Team mailbox and SharePoint site on hold by adding Teams content to the custodial hold. Consider the following example:
@@ -123,7 +122,7 @@ The flyout page also enables you to do the following:
 
 - *Edit a custodian*. As the case progresses, you may discover that there may be additional data sources relevant to a specific custodian. Alternatively, you may want to remove certain data sources that have been reviewed and deemed as not relevant. Clicking the **Edit** button lets you add or remove data sources.
 
-> :::image type="content" source="../media/data-sources.png" alt-text="Click the Edit button to add or remove data sources.":::
+  :::image type="content" source="../media/data-sources.png" alt-text="Click the Edit button to add or remove data sources.":::
 
 - *Re-index custodian data*. During the lifetime of a case, new data sources might be associated with a custodian while some data remains partially indexed. Clicking **Update index** lets you re-index the custodian's data, remediate any partially indexed items and update the index for the custodian's data.
 - *View custodian audit activity*. Clicking **View activity** lets you search the audit log for activities performed by a custodian, such as when they viewed a specific document or purged an item from their mailbox.

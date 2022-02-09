@@ -1,6 +1,6 @@
 This section discusses the *Review*, or Early Case Assessment (ECA), phase of the EDRM model.
 
-> [div class = "centered"]
+> [!div class = "centered"]
 > :::image type="content" source="../media/edrm-model-3.png" alt-text="Fifth phase of the EDRM model – Review." lightbox="../media/edrm-model-3.png":::
 
 After you've collected all data relevant to the case, the next step is process it for further review. In Advanced eDiscovery, the live, in-place data that you identified in the collection phase is copied offline to an Azure Storage location called a review set.
