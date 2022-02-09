@@ -3,7 +3,7 @@ In an organizational environment, password policies define the configuration of 
 :::image type="content" source="../media/account-password-policies-4a64a7a6.jpg" alt-text="Screenshot of the user properties screen showing where password polices are set.":::
 
 
-## Using Group Policy to configure password policies
+### Using Group Policy to configure password policies
 
 Although domain administrators configure password policies, you should know the available password-policy options so that you recognize when they affect the user’s ability to sign in. You configure password policies by using Group Policy, which contains settings for account lockout. When you enable account lockout, a user who attempts to sign in by using an incorrect password is locked out after the number of attempts that you configure. Remember that account lockouts can occur based on sign-in attempts to any system that authenticates users to AD DS. The most common scenario is users signing in at workstations, but account lockout also applies to applications such as Microsoft Outlook Web App.
 
@@ -88,7 +88,7 @@ The following table lists important Group Policy settings that can affect the us
 :::row-end:::
 
 
-## **User account settings that can affect the sign-in process**
+### **User account settings that can affect the sign-in process**
 
 Each user account has settings that are relevant to the sign-in process. You need to be aware of these settings so that you can identify them as potential sources of sign-in issues, and then escalate the issue to the appropriate group in your organization.
 

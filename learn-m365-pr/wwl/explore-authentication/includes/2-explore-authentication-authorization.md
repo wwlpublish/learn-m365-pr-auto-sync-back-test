@@ -10,7 +10,7 @@ However, password authentication is inherently weak when you use it for certain 
 
 You can provide authorization and access without implementing authentication, such as when granting permissions for anonymous users that have not been authenticated. However, these permissions typically are limited.
 
-## Windows authentication methods
+### Windows authentication methods
 
 Users must authenticate to verify their identity when they access files over a network, and authentication occurs during the network logon process. The Windows client operating system supports the following authentication methods for network logons:
 

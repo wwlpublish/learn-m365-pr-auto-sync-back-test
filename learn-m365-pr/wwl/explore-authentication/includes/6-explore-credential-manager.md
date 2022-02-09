@@ -5,7 +5,7 @@ Consider a scenario where you access another computer in a workgroup every day. 
 :::image type="content" source="../media/credential-manager-59ab41eb.jpg" alt-text="Screenshot of the credential manager application.":::
 
 
-## How to use Credential Manager
+### How to use Credential Manager
 
 1.  Open the Windows **Control Panel**. Select **User Accounts**
 2.  Choose to manage either Web Credentials or Windows Credentials.

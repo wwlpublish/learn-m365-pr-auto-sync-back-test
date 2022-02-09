@@ -1,6 +1,6 @@
 Domains and workgroups provide a method for sharing and accessing resources on a network, such as access to files and printers on other devices in the network.
 
-## What is a Workgroup?
+### What is a Workgroup?
 
 During installation, Windows creates a default Workgroup called “WORKGROUP”. A Workgroup can share files, network storage, printers, and any connected resource. There is no centralization of user accounts and related security policies and settings. It is a peer-to-peer network, in which each device has its own set of user and group accounts, its own security policy, and its own resources that you can share with others.
 
@@ -19,7 +19,7 @@ Workgroups include the following attributes:
 
 You must set up user accounts on each computer. This step is necessary because there is no centralization of user accounts in a workgroup. When users map a network drive to a folder that you have shared on your computer, they must provide credentials to connect to the resource; the sharing computer stores these credentials.
 
-## What is a Domain?
+### What is a Domain?
 
 Active Directory and Azure Active Directory Domain Services domains are also a collection of resource-sharing computers with the following characteristics:
 

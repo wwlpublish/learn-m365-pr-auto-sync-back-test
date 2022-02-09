@@ -2,11 +2,11 @@ Local user accounts are stored locally on the client. Choose a local account if 
 
 Local users accounts are typically only for used in scenarios such as home use, and only when there are specific reasons not to use a Microsoft Account. However, it's important to understand the fundamentals of local accounts and the default local user accounts that are part of Windows.
 
-## Default local user accounts
+### Default local user accounts
 
 Default local user accounts are used to manage access to the local client's resources based on the rights and permissions that are assigned to the account. The default local user accounts are built-in accounts that are created automatically when you install Windows. The default local user accounts cannot be removed or deleted. In addition, default local user accounts do not provide access to network resources.
 
-### Administrator account<br>
+#### Administrator account<br>
 
 The default local Administrator account is a user account for the system administrator. The Administrator account has full control of the files, directories, services, and other resources on the local computer. The Administrator account can create other local users, assign user rights, and assign permissions. The Administrator account can take control of local resources at any time simply by changing the user rights and permissions.
 
@@ -14,17 +14,17 @@ The default Administrator account cannot be deleted or locked out, but it can be
 
 In a typical install, Windows disables the built-in Administrator account and creates another local account that is a member of the Administrators group. Members of the Administrators groups can run apps with elevated permissions without using the *Run as Administrator* option. As a security best practice, use a non-administrator account to sign in and then use **Run as administrator** to accomplish tasks that require a higher level of rights than a standard user account. Do not use the Administrator account to sign in to your computer unless it is entirely necessary.
 
-### Default Account
+#### Default Account
 
 The DefaultAccount is a built-in account. It is a user neutral account that can be used to run processes that are either multi-user aware or user-agnostic, such as apps that launch, but have the option to sign-in. This account should be left at its default disabled state (which does not prevent the account from serving its purpose).
 
-### Default local system accounts
+#### Default local system accounts
 
 There are many services and processes in the Windows operating system that need the capability to sign in internally, such as during a Windows installation. The SYSTEM account was designed to be used by the operating system and by services that run under Windows. It is an internal account that does not show up in User Manager, and it cannot be added to any groups.<br>
 
 The NETWORK SERVICE and LOCAL SERVICE accounts are also predefined local accounts. Unlike the SYSTEM account, these accounts have minimum privileges, and are used by Windows to perform services that do not need full permissions. Using least privilege accounts is part of defense-in-depth security strategy that helps limit malicious damage, in the event a particular service is compromised.
 
-## Managing users and using account groups
+### Managing users and using account groups
 
 Local accounts can be managed in the Accounts option of the Settings app. Here, users can be created or removed, as well as changed between a Standard user, which has limited permissions, and an Administrator with full permissions.
 
