@@ -1,0 +1,17 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.explore-authentication.explore-windows-hello
+title: Explore Windows Hello
+metadata:
+  title: Explore Windows Hello
+  description: "Explore Windows Hello"
+  ms.date: 02/09/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  zone_pivot_groups: azure-interface
+azureSandbox: false
+labModal: false
+content: |
+  [!include[](includes/7-explore-windows-hello.md)]
+interactive: bash

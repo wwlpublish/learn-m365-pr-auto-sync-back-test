@@ -1,0 +1,17 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.explore-authentication.explore-user-profiles-contents
+title: Explore user profiles and their contents
+metadata:
+  title: Explore user profiles and their contents
+  description: "Explore user profiles and their contents"
+  ms.date: 02/09/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  zone_pivot_groups: azure-interface
+azureSandbox: false
+labModal: false
+content: |
+  [!include[](includes/9-explore-user-profiles-contents.md)]
+interactive: bash

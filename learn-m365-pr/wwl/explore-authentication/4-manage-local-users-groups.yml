@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.explore-authentication.manage-local-users-groups
+title: Manage local users and groups
+metadata:
+  title: Manage local users and groups
+  description: "Manage local users and groups"
+  ms.date: 02/09/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+azureSandbox: false
+labModal: false
+content: |
+  [!include[](includes/4-manage-local-users-groups.md)]
