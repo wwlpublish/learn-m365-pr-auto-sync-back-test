@@ -1,0 +1,75 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.configure-user-account-control.knowledge-check
+title: Knowledge Check
+metadata:
+  title: Knowledge Check
+  description: "Knowledge Check"
+  ms.date: 02/09/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  zone_pivot_groups: azure-interface
+azureSandbox: false
+labModal: false
+content: |
+  [!include[](includes/6-knowledge-check.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "Which variation of the UAC elevation prompt is displayed to standard users when they attempt to perform an administrative task?"
+    choices:
+    - content: "Consent prompt"
+      isCorrect: false
+      explanation: "Incorrect. This prompt is displayed to local administrators when they attempt to perform an administrative task. It requests approval to continue from the user. Try again."
+    - content: "Credential prompt"
+      isCorrect: true
+      explanation: "Correct. Users elevate only to perform tasks that require an administrator access token. When a standard user attempts to perform an administrative task, UAC prompts the user to enter valid credentials for an administrator account. This is the default for standard user-prompt behavior."
+    - content: "Approval prompt"
+      isCorrect: false
+      explanation: "Incorrect. This items isn't a valid variation of the elevation prompt. Try again."
+  - content: "As the Desktop Administrator for Contoso, you enabled UAC on all the company's Windows 11 computers to prevent users from installing unauthorized software. However, some of the users are local Administrators on their computers. Which of the following tasks will generate a UAC consent prompt for these users?"
+    choices:
+    - content: "Use Remote Desktop to connect to another computer"
+      isCorrect: false
+      explanation: "Incorrect. This task can be performed by a standard user. Try again."
+    - content: "Install software and drivers"
+      isCorrect: true
+      explanation: "Correct. Installing and uninstalling an application will generate a UAC consent prompt for a local Administrator account."
+    - content: "Connect and configure a Bluetooth device"
+      isCorrect: false
+      explanation: "Incorrect. This task can be performed by a standard user. Try again."
+  - content: "As the Desktop Administrator for Contoso, you enabled UAC on all the company's Windows 11 computers to prevent users from installing unauthorized software. Which of the following tasks can a standard user perform without receiving a UAC prompt?"
+    choices:
+    - content: "Install drivers from Windows Update"
+      isCorrect: true
+      explanation: "Correct. A standard user won't receive a UAC prompt when installing drivers from Windows Update or those that are included with the operating system."
+    - content: "Install drivers for a device"
+      isCorrect: false
+      explanation: "Incorrect. This task requires elevation to an administrator account. Try again."
+    - content: "Copy or move files into the Program Files or Windows directory"
+      isCorrect: false
+      explanation: "Incorrect. This task requires elevation to an administrator account. Try again."
+  - content: "When a permission or password is necessary to complete a task, UAC will notify you with one of three different types of elevation prompts. Which type of elevation prompt will you receive when the item has a valid digital signature that verifies that Microsoft is the publisher of this item?"
+    choices:
+    - content: "A program that isn't part of Windows needs your permission to start"
+      isCorrect: false
+      explanation: "Incorrect. You'll receive this prompt when the program has a valid digital signature, which helps to ensure that the program actually is what it claims to be, and it verifies the identity of the program’s publisher. Try again."
+    - content: "A program with an unknown publisher needs your permission to start"
+      isCorrect: false
+      explanation: "Incorrect. You'll receive this prompt when program doesn't have a valid digital signature from its publisher. Try again."
+    - content: "A setting or feature that's part of Windows needs your permission to start"
+      isCorrect: true
+      explanation: "Correct. You'll receive this prompt when the item has a valid digital signature that verifies that Microsoft is the publisher of this item. If this type of dialog box displays, it usually is safe to continue. If you are unsure, check the name of the program or function to decide if it is something that you want to run."
+  - content: "As the Desktop Administrator for Fabrikam, you are a local administrator on your Windows 11 computer. When you attempted to install a new application on your computer, you received a UAC prompt that asked for permission to complete the task. You granted the permission, at which time the task was performed by using full adminstrative rights. What happened next?"
+    choices:
+    - content: "You received a prompt asking whether you wanted to retain full administrative rights"
+      isCorrect: false
+      explanation: "Incorrect. This action isn't what happened next. Try again."
+    - content: "Your account reverted to a lower level of permission"
+      isCorrect: true
+      explanation: "Correct. When users with administrative permissions perform a task that requires administrative permissions, UAC prompts the user for permission to complete the task. When the user grants permission, the task is performed by using full administrative rights, and then the account reverts to a lower level of permission."
+    - content: "Your account automatically retained full administrative rights"
+      isCorrect: false
+      explanation: "Incorrect. This action isn't what happened next. Try again."
+interactive: bash

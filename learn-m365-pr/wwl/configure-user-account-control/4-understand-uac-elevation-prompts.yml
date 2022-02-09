@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.configure-user-account-control.understand-uac-elevation-prompts
+title: Understand UAC elevation prompts
+metadata:
+  title: Understand UAC elevation prompts
+  description: "Understand UAC elevation prompts"
+  ms.date: 02/09/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+azureSandbox: false
+labModal: false
+content: |
+  [!include[](includes/4-understand-uac-elevation-prompts.md)]

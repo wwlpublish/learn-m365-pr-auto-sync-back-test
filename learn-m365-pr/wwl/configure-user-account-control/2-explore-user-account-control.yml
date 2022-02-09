@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.configure-user-account-control.explore-user-account-control
+title: Explore User Account Control
+metadata:
+  title: Explore User Account Control
+  description: "Explore User Account Control"
+  ms.date: 02/09/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+azureSandbox: false
+labModal: false
+content: |
+  [!include[](includes/2-explore-user-account-control.md)]

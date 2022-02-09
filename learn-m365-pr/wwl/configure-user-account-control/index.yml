@@ -1,0 +1,35 @@
+### YamlMime:Module
+uid: learn.wwl.configure-user-account-control
+metadata:
+  title: Configure user account control
+  description: "This module introduces how User Account Control works and how you can use UAC-related desktop features to reduce security risks."
+  ms.date: 02/09/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+title: Configure user account control
+summary: ''
+abstract: |
+  After completing this module, you will be able to:
+  - Describe User Account Control (UAC).
+  - Explain how UAC works.
+  - Explain how to configure UAC notification settings.
+prerequisites: ""
+iconUrl: /learn/achievements/generic-badge.svg
+levels:
+- beginner
+roles:
+- administrator
+products:
+- windows
+units:
+- learn.wwl.configure-user-account-control.introduction
+- learn.wwl.configure-user-account-control.explore-user-account-control
+- learn.wwl.configure-user-account-control.examine-how-uac-works
+- learn.wwl.configure-user-account-control.understand-uac-elevation-prompts
+- learn.wwl.configure-user-account-control.configure-uac-notification-settings
+- learn.wwl.configure-user-account-control.knowledge-check
+- learn.wwl.configure-user-account-control.summary
+badge:
+  uid: learn.wwl.configure-user-account-control.badge
