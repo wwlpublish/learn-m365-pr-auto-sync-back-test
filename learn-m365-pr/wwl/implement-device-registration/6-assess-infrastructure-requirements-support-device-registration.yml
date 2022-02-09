@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.implement-device-registration.assess-infrastructure-requirements-support-device-registration
+title: Assess infrastructure requirements to support device registration
+metadata:
+  title: Assess infrastructure requirements to support device registration
+  description: "Assess infrastructure requirements to support device registration"
+  ms.date: 02/09/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+azureSandbox: false
+labModal: false
+content: |
+  [!include[](includes/6-assess-infrastructure-requirements-support-device-registration.md)]

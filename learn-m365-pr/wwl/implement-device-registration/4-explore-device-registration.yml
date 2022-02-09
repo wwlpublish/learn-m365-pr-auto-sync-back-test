@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.implement-device-registration.explore-device-registration
+title: Explore device registration
+metadata:
+  title: Explore device registration
+  description: "Explore device registration"
+  ms.date: 02/09/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+azureSandbox: false
+labModal: false
+content: |
+  [!include[](includes/4-explore-device-registration.md)]

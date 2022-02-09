@@ -1,0 +1,75 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.implement-device-registration.knowledge-check
+title: Knowledge Check
+metadata:
+  title: Knowledge Check
+  description: "Knowledge Check"
+  ms.date: 02/09/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  zone_pivot_groups: azure-interface
+azureSandbox: false
+labModal: false
+content: |
+  [!include[](includes/8-knowledge-check.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "As an IT Support professional for Contoso, you're helping to configure the company’s infrastructure to allow Device Registration. Which of the following prerequisites must you implement before you can enable Device Registration on your devices?"
+    choices:
+    - content: "Each client machine must have a 64-bit operating system"
+      isCorrect: false
+      explanation: "Incorrect. The device that you want to enable for Device Registration must be running a supported operating system. Whether it's 32-bit or 64-bit doesn't matter. Currently, you can only enable Device Registration on devices that are running at least Windows 8.1 or later, or a currently supported iOS or Android operating system. Try again."
+    - content: "Web Application Proxy must be set up"
+      isCorrect: false
+      explanation: "Incorrect. Web Application Proxy is an optional component that isn't required when you enable Device Registration on devices that are connected to the company network. Web Application Proxy only needs to be set up if you want to enable Device Registration on devices that aren't connected to the company network, but are connected to the Internet. Try again."
+    - content: "A DNS record for the host that's named \"Enterpriseregistration\""
+      isCorrect: true
+      explanation: "Correct. The name Enterpriseregistration is mandatory, and you can't change it. The DNS server must resolve this name to the IP address of the AD FS server. The AD FS server will then use it as one of its Subject Alternative Name attributes in the SSL certificate."
+  - content: "Fabrikam has enabled Device Registration. After a Fabrikam user enrolls a device, why is the device object created in AD DS?"
+    choices:
+    - content: "So that a company Group Policy can be applied to the device"
+      isCorrect: false
+      explanation: "Incorrect. A company Group Policy applies only to domain-joined devices and not to devices enabled for Device Registration. Try again."
+    - content: "So the user won't have to enter credentials every time they access internal websites and company apps"
+      isCorrect: true
+      explanation: "Correct. The device object in AD DS establishes a link between the user and the device. This enables the device to be used as a second form of authentication. Administrators can then configure which apps the user can access from the device without entering credentials, and they can ensure that company policies and security applies to the device by configuring a device policy."
+    - content: "So that the registered devices can access company resources from external networks such as the Internet"
+      isCorrect: false
+      explanation: "Incorrect. This item is the reason why a company would implement the Web Application Proxy component. Try again."
+  - content: "Patti Fernandez is a sales rep for Contoso. Contoso has enabled Device Registration, and Patti has enrolled her smartphone through the enrollment process. Patti is out of town on a sales trip. However, by using her smartphone, Patti can still access internal Contoso applications through the Internet. This scenario is made possible because of two services. One of them is the Web Application Proxy. What is the other service that works in conjunction with the Web Application Proxy to provide Internet access to internal company resources for an enrolled device?"
+    choices:
+    - content: "AD DS"
+      isCorrect: false
+      explanation: "Incorrect. This item isn't the second service that works in conjunction with the Web Application Proxy to provide Internet access to internal company resources for an enrolled device. Try again."
+    - content: "AD FS"
+      isCorrect: true
+      explanation: "Correct. By implementing the Web Application Proxy component, you can enable registered devices to access company resources from external networks such as the Internet. A user can be in a coffee shop or at home, and if their device is registered, it can access internal applications through Web Application Proxy and AD FS. A company must set up AD FS before users can use the Device Registration feature on their devices. You must configure AD FS with a Secure Sockets Layer (SSL) certificate from a trusted CA, and the SSL certificate must have properly configured Subject Name and Subject Alternative Name attributes."
+    - content: "Azure AD"
+      isCorrect: false
+      explanation: "Incorrect. This item isn't the second service that works in conjunction with the Web Application Proxy to provide Internet access to internal company resources for an enrolled device. Try again."
+  - content: "Device Registration works by using the Device Registration Service. When a user registers a device through the enrollment process, the Device Registration Service provisions a certificate for the device. What's the purpose of this certificate?"
+    choices:
+    - content: "It's used to authenticate the device when it accesses internal resources"
+      isCorrect: false
+      explanation: "Correct. When a user registers a device through the enrollment process, the Device Registration Service provisions a certificate for the device. This certificate is used to authenticate the device when it accesses internal resources."
+    - content: "It enables the device to access company resources from external networks such as the Internet"
+      isCorrect: true
+      explanation: "Incorrect. This item is why you would enable the Web Application Proxy component. Try again."
+    - content: "So the user isn't prompted for credentials each time they try to access a company resource"
+      isCorrect: false
+      explanation: "Incorrect. This item is why you would enable SSO for some applications. Try again."
+  - content: "World Wide Importers requires control over the web apps that users can access from their devices. The company has deployed Device Registration. Which of the following tasks will occur after a user registers and enrolls a device?"
+    choices:
+    - content: "The device is associated with the user's account in the company directory"
+      isCorrect: true
+      explanation: "Correct. After a user enrolls a device, the following steps occur: 1) The device is associated with the user's account in the company directory, 2) The device object is created in AD DS, and 3) The user certificate is installed on the device."
+    - content: "An email is sent to the user verifying the device enrollment"
+      isCorrect: false
+      explanation: "Incorrect. This task doesn't occur after a user enrolls a device. Try again."
+    - content: "The web apps are added as bookmarks in the device's browser"
+      isCorrect: false
+      explanation: "Incorrect. This task doesn't occur after a user enrolls a device. Try again."
+interactive: bash

@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.implement-device-registration.register-enroll-devices
+title: Register and enroll devices
+metadata:
+  title: Register and enroll devices
+  description: "Register and enroll devices"
+  ms.date: 02/09/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+azureSandbox: false
+labModal: false
+content: |
+  [!include[](includes/7-register-enroll-devices.md)]

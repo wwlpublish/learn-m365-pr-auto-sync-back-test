@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.implement-device-registration.explore-microsoft-device-strategy-framework
+title: Explore the Microsoft device strategy framework
+metadata:
+  title: Explore the Microsoft device strategy framework
+  description: "Explore the Microsoft device strategy framework"
+  ms.date: 02/09/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+azureSandbox: false
+labModal: false
+content: |
+  [!include[](includes/3-explore-microsoft-device-strategy-framework.md)]
