@@ -123,7 +123,7 @@ The flyout page also enables you to do the following:
 
 - *Edit a custodian*. As the case progresses, you may discover that there may be additional data sources relevant to a specific custodian. Alternatively, you may want to remove certain data sources that have been reviewed and deemed as not relevant. Clicking the **Edit** button lets you add or remove data sources.
 
-:::image type="content" source="../media/data-sources.png" alt-text="Click the Edit button to add or remove data sources."::: 
+> :::image type="content" source="../media/data-sources.png" alt-text="Click the Edit button to add or remove data sources.":::
 
 - *Re-index custodian data*. During the lifetime of a case, new data sources might be associated with a custodian while some data remains partially indexed. Clicking **Update index** lets you re-index the custodian's data, remediate any partially indexed items and update the index for the custodian's data.
 - *View custodian audit activity*. Clicking **View activity** lets you search the audit log for activities performed by a custodian, such as when they viewed a specific document or purged an item from their mailbox.

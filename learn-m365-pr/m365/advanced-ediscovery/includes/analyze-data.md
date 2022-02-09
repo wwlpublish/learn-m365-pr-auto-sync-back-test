@@ -1,7 +1,8 @@
 
 This section discusses the *Analysis* phase of the EDRM model.
 
-![Phase 6 of the EDRM model – Analysis.](../media/edrm-model-4.png)
+> [div class = "centered"]
+> :::image type="content" source="../media/edrm-model-4.png" alt-text="Phase 6 of the EDRM model – Analysis." lightbox="../media/edrm-model-4.png":::
 
 When an evidence collection is large, it often includes multiple copies of the same or similar email messages or documents. Analysis tools in Advanced eDiscovery support the Analysis phase of the EDRM model by enabling you to cull data from the review set that isn't relevant to the investigation.
 
@@ -22,7 +23,7 @@ To configure search and analytics settings for a case:
 1. On the **Advanced eDiscovery** page, select the case.
 1. On the **Settings** tab, under **Search & analytics**, click **Select**.
 
-    ![Configure search and analytics settings for a case.](../media/analytics.png)
+    :::image type="content" source="../media/analytics.png" alt-text="Configure search and analytics settings for a case." lightbox="../media/analytics.png":::
 
 ### Near duplicates and email threading
 
@@ -58,14 +59,14 @@ This section lets you set the following parameters:
 
 If you select the **Automatically create a For Review saved search after analytics** checkbox, Advanced eDiscovery autogenerates review set query named **For Review**.
 
- ![Review set query named For Review.](../media/review-set-query.png) 
+ :::image type="content" source="../media/review-set-query.png" alt-text="Review set query named For Review." lightbox="../media/review-set-query.png":::
 
 This query filters out duplicate items from the review set which enables you review the unique items in the review set.
 
 > [!NOTE]
 > This query is created only when you run analytics for a review set in the case.
 
- ![Query created when you run analytics for a review set in the case. ](../media/run-analytics.png)
+ :::image type="content" source="../media/run-analytics.png" alt-text="Query created when you run analytics for a review set in the case. ":::
 
 ### Ignore text
 
