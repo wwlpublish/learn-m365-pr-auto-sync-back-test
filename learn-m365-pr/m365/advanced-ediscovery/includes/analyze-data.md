@@ -2,7 +2,7 @@
 This section discusses the *Analysis* phase of the EDRM model.
 
 > [!div class = "centered"]
-> :::image type="content" source="../media/edrm-model-4.png" alt-text="Phase 6 of the EDRM model – Analysis." lightbox="../media/edrm-model-4.png" "border=false":::
+> :::image type="content" source="../media/edrm-model-4.png" alt-text="Phase 6 of the EDRM model – Analysis." lightbox="../media/edrm-model-4.png" border="false":::
 
 When an evidence collection is large, it often includes multiple copies of the same or similar email messages or documents. Analysis tools in Advanced eDiscovery support the Analysis phase of the EDRM model by enabling you to cull data from the review set that isn't relevant to the investigation.
 
@@ -23,7 +23,7 @@ To configure search and analytics settings for a case:
 1. On the **Advanced eDiscovery** page, select the case.
 1. On the **Settings** tab, under **Search & analytics**, click **Select**.
 
-    :::image type="content" source="../media/analytics.png" alt-text="Configure search and analytics settings for a case." lightbox="../media/analytics.png" "border=false":::
+    :::image type="content" source="../media/analytics.png" alt-text="Configure search and analytics settings for a case." lightbox="../media/analytics.png" border="false":::
 
 ### Near duplicates and email threading
 
@@ -66,7 +66,7 @@ This query filters out duplicate items from the review set which enables you rev
 > [!NOTE]
 > This query is created only when you run analytics for a review set in the case.
 
- :::image type="content" source="../media/run-analytics.png" alt-text="Query created when you run analytics for a review set in the case." "border=false":::
+ :::image type="content" source="../media/run-analytics.png" alt-text="Query created when you run analytics for a review set in the case." border="false":::
 
 ### Ignore text
 
