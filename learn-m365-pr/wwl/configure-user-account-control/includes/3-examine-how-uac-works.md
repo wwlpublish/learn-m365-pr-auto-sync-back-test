@@ -1,6 +1,6 @@
 There are two general types of user groups in Windows clients: standard users and administrative users. UAC simplifies users’ ability to operate as standard users and perform all necessary daily tasks. Administrative users also benefit from UAC, because administrative permissions are available only after UAC requests permission from the user for that instance.
 
-## Standard users
+### Standard users
 
 In previous versions of the Windows operating system, many users were configured to use administrative permissions rather than standard user permissions. This was because previous Windows versions required that users have administrator permissions to perform basic system tasks, such as adding a printer or configuring a time zone. In Windows 10 and later, many of these tasks no longer require administrative permissions.
 
@@ -12,7 +12,7 @@ When users have administrative permissions on their computers, they can install 
  -  Pair Bluetooth devices with the computer.
  -  Reset the network adapter and perform other network-diagnostic and repair tasks.
 
-## Administrative users
+### Administrative users
 
 Administrative users automatically have:
 

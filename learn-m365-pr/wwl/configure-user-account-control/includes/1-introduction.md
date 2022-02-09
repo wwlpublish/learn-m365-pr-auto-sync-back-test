@@ -2,7 +2,7 @@ Many users sign in to their computers with a user account that has more rights t
 
 Windows provides UAC to simplify and help secure the process of elevating your account rights. However, unless you know how UAC works, and how it can affect your users, you might have problems when you attempt to carry out typical end-user support tasks. This module introduces how User Account Control works and how you can use UAC-related desktop features to reduce security risks.
 
-## Module objectives
+### Objectives
 
 After completing this module, you will be able to:
 

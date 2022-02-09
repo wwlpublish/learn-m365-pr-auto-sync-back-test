@@ -1,6 +1,6 @@
 Many applications require users to be administrators, by default, because they check Administrators group membership before running an application.
 
-## Standard user account permission tasks
+### Standard user account permission tasks
 
 The following list details some of the tasks that a standard user can perform:
 
@@ -20,7 +20,7 @@ The following list details some of the tasks that a standard user can perform:
  -  Set up computer synchronization with a mobile device, including a smartphone, laptop, or personal digital assistant (PDA).
  -  Connect and configure a Bluetooth device.
 
-## Administrator account permission tasks
+### Administrator account permission tasks
 
 The following list details some of the tasks that require elevation to an administrator account:
 
@@ -76,7 +76,7 @@ Elevation entry points do not remember that elevation has occurred, such as when
 
 The Windows client operating system reduces the number of UAC elevation prompts for a standard user who performs everyday tasks. However, there are times when it is appropriate for an elevation prompt to be returned. For example, viewing firewall settings does not require elevation. However, changing the settings does require elevation because the changes have a system-wide impact.
 
-## Types of elevation prompts
+### Types of elevation prompts
 
 When a permission or password is necessary to complete a task, UAC will notify you with one of three different types of dialog boxes. The following table describes the different types of dialog boxes that users will see, and provides guidance on how to respond to them.
 
