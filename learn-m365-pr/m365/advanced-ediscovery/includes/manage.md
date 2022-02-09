@@ -108,7 +108,7 @@ In the example illustrated below, Contoso LTD is a Microsoft 365 organization th
 - eDiscovery managers and investigators can only see eDiscovery cases in their agency.
 - eDiscovery managers and investigators can only access the cases that they are a member of.
 
- > [div class = "centered"]
+ > [!div class = "centered"]
  > :::image type="content" source="../media/compliance-boundaries.png" alt-text="Compliance boundaries":::
 
 ### Implement compliance boundaries
