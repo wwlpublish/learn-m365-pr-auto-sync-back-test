@@ -12,6 +12,7 @@ metadata:
   zone_pivot_groups: azure-interface
 azureSandbox: false
 labModal: false
+durationInMinutes: 3
 content: |
   [!include[](includes/7-explore-windows-hello.md)]
 interactive: bash

@@ -12,6 +12,7 @@ metadata:
   zone_pivot_groups: azure-interface
 azureSandbox: false
 labModal: false
+durationInMinutes: 2
 content: |
   [!include[](includes/9-explore-user-profiles-contents.md)]
 interactive: bash
