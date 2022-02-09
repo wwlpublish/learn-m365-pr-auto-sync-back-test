@@ -1,6 +1,6 @@
 Managing individual accounts and permissions on each device doesn't scale when devices are used in an organization. Centralized management is key to ensuring that users are able to access the information they need, while protecting that same information against unauthorized users. Microsoft Active Directory provides a solution for Administrators to manage user acounts and granting permissions to resources.
 
-## Module objectives
+### Objectives
 
 After completing this module, you will be able to:
 

@@ -11,6 +11,6 @@ metadata:
   ms.prod: learning-m365
 azureSandbox: false
 labModal: false
-durationInMinutes: 3
+durationInMinutes: 1
 content: |
   [!include[](includes/7-summary.md)]

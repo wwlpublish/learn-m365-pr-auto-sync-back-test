@@ -1,6 +1,6 @@
 Active Directory (AD) is a group of services responsible for identity-related management. It uses a structured data store as the basis for a logical, hierarchical organization of directory information, represented as objects. Active Directory stores information about objects on the network and makes this information easy to find and use. AD services also facilitate authorization and managing permissions to the services and data those objects represent.
 
-## Active Directory Domain Services
+### Active Directory Domain Services
 
 Active Directory Domain Services (AD DS) is the service responsible for storing directory data and making this data available to network users and administrators. These objects typically include shared resources such as servers, volumes, printers, and the network user and computer accounts. AD DS stores information about user accounts, such as names, passwords, phone numbers, or information about a computer, such as the device name or the last user logged on.
 
@@ -8,7 +8,7 @@ AD DS is installed on one or more Windows Servers with the *domain controller* r
 
 Computers that are managed by Active Directory are commonly referred to as *domain-joined*. Users accounts that managed by AD are often referred to as their *domain username* or *LDAP username.*
 
-## Azure Active Directory
+### Azure Active Directory
 
 Azure Active Directory (Azure AD) is Microsoft’s cloud-based identity and access management service. Like AD DS, it’s used to provide the same functions as AD DS. However, unlike AD DS, there is no physical infrastructure to setup. Administrators can sign-up for Azure AD and immediately begin configuring the directory and joining devices to the domain.
 

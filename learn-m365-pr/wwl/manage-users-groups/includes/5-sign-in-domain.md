@@ -1,6 +1,6 @@
 When a user signs in with a domain account, they are typically authenticating to either an Active Directory Domain Service (AD DS) or Azure Active Directory (Azure AD).
 
-## Active Directory Domain Services (AD DS) Authentication
+### Active Directory Domain Services (AD DS) Authentication
 
 The sign-in process authenticates both the computer and user accounts. In an AD DS environment, domain controllers perform authentication for computer accounts during the startup process and for user accounts when the user signs in.
 
@@ -24,7 +24,7 @@ During the sign-in process, Windows assigns a security token to both the compute
  -  **Name resolution issues**. The Windows computer cannot locate a domain controller in DNS, either because of configuration issues, or because of DNS unavailability.
  -  **Physical network issues**. If the client cannot connect to the network, then authentication fails.
 
-## Azure AD Authentication
+### Azure AD Authentication
 
 When users try to access cloud-based services, such as Microsoft 365, authentication must occur as it does in an on-premises AD DS environment. However, the process is different because the services that provide the authentication are not located locally. Therefore, the client computer must locate where the authentication services reside by using DNS.
 

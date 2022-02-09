@@ -1,6 +1,6 @@
 You could view Azure AD simply as the cloud-based counterpart of AD DS; however, while Azure AD and AD DS share some common characteristics, there are several significant differences between them.
 
-## Characteristics of AD DS
+### Characteristics of AD DS
 
 AD DS is the traditional deployment of Windows Server-based Active Directory on a physical or virtual server. Although AD DS is commonly considered to be primarily a directory service, it’s only one component of the Windows Active Directory suite of technologies, which also includes Active Directory Certificate Services (AD CS), Active Directory Lightweight Directory Services (AD LDS), Active Directory Federation Services (AD FS), and Active Directory Rights Management Services (AD RMS).
 
@@ -16,7 +16,7 @@ When comparing AD DS with Azure AD, it’s important to note the following chara
 
 You can deploy AD DS on an Azure virtual machine to enable scalability and availability for an on-premises AD DS. However, deploying AD DS on an Azure virtual machine does not make any use of Azure AD. Note that deploying AD DS on an Azure virtual machine requires one or more additional Azure data disks, because you should not use drive C for AD DS storage. These disks are needed to store the AD DS database, logs, and SYSVOL. The Host Cache Preference setting for these disks must be set to None.
 
-## Characteristics of Azure AD
+### Characteristics of Azure AD
 
 Although Azure AD has many similarities to AD DS, there are also many differences. It’s important to realize that using Azure AD isn’t the same as deploying an Active Directory domain controller on an Azure virtual machine and adding it to your on-premises domain.
 

@@ -4,7 +4,7 @@ As with local accounts, domain user accounts are created for each user in most c
 
 Like local accounts, domain user accounts can also be used as dedicated service accounts for applications or services..
 
-## Active Directory groups
+### Active Directory groups
 
 Groups are used to collect user accounts, computer accounts, and other groups into manageable units. Using groups allows administrators to manage activities like permissions at scale. With users entering, leaving, or changing positions within the company, it's best to define groups - which could represent a role as well as a group - and assign permissions to the group. Users can be added and removed from groups, instead of having to determine permissions every time a personnel change occurs.
 
@@ -19,7 +19,7 @@ There are two types of groups in Active Directory:
 > [!NOTE]
 > Both distribution groups and security groups can be used as an email entity.
 
-## Active Directory default security groups<br>
+### Active Directory default security groups<br>
 
 There are several built-in groups that are created by default when Active Directory is installed. The following list is some of the commonly used groups:
 
