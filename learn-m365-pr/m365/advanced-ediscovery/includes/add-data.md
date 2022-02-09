@@ -19,7 +19,7 @@ There are various methods for adding data to a review set in an Advanced eDiscov
 
 After you are satisfied with the collection of custodial content, you can evaluate the content further by moving it into a review set in the case. You do this by selecting a search on the **Searches** tab, and then clicking **Add results to review set** on the flyout page.
 
- :::image type="content" source="../media/add-results.png" alt-text="Evaluate the collection of custodial content further by moving it into a review set in the case." lightbox="../media/add-results.png":::
+ :::image type="content" source="../media/add-results.png" alt-text="Evaluate the collection of custodial content further by moving it into a review set in the case." lightbox="../media/add-results.png" border="false":::
 
 Adding the results of your search to a review set triggers Advanced eDiscovery to collect all the content from your search results. It then processes all that content by extracting the text and metadata and places the results in a centralized index. These results from the sources you selected can then be searched and analyzed through one interface.
 
@@ -53,7 +53,7 @@ The files to be uploaded must be located in subfolders, where each subfolder is 
 1. In the review set, click **Manage review set**, and then click **View uploads** on the **Non-Microsoft 365 data** tile.
 1. Click **Upload files** to start the data import wizard.
 
-    :::image type="content" source="../media/review-set.png" alt-text="Click Upload files to start the data import wizard.":::
+    :::image type="content" source="../media/review-set.png" alt-text="Click Upload files to start the data import wizard." border="false":::
 
     The first step in the wizard prepares a secure Microsoft-provided Azure Storage location to upload the files to. When the preparation is completed, the **Next: Upload files** button becomes active.
 
@@ -80,11 +80,11 @@ In some cases, it may be necessary to select content from one review set and wor
 
 Before you start, you will need to create a new review set to add the data to. A new review set can be added on the **Review sets** tab of the case by clicking **Add Review Set**.
 
-:::image type="content" source="../media/add-review-set.png" alt-text="Create a new review set to add the data to." lightbox="../media/add-review-set.png":::
+:::image type="content" source="../media/add-review-set.png" alt-text="Create a new review set to add the data to." lightbox="../media/add-review-set.png" border="false":::
 
 You can add content from one review set to another one by selecting specific documents in the source review set or by selecting all items returned by review set query. If you are adding selected items, select the items, select **Action**, and then select **Add to another review set**.
 
-:::image type="content" source="../media/action.png" alt-text="Adding selected items." lightbox="../media/action.png":::
+:::image type="content" source="../media/action.png" alt-text="Adding selected items." lightbox="../media/action.png" border="false":::
 
 In the **Add to another review set** flyout page, choose the review set you want to add the items to. Choose whether to add **All documents in the review set** or **Selected documents only**. **Additional information** provides options to include metadata from the items and whether to include [tags](/microsoft-365/compliance/tagging-documents?azure-portal=true) from the source review set when the documents are added to the new review set.
 

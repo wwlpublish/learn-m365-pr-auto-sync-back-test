@@ -22,7 +22,7 @@ The process of creating a search begins from the **Searches** tab in your case, 
 
 1. Enter keywords and/or add conditions to narrow search results.
 
-    :::image type="content" source="../media/search-criteria.png" alt-text="Keywords and conditions fields" lightbox="../media/search-criteria.png":::
+    :::image type="content" source="../media/search-criteria.png" alt-text="Keywords and conditions fields" lightbox="../media/search-criteria.png" border="false":::
 
 ## Build search queries and add conditions
 
@@ -45,7 +45,7 @@ Conditions are granular parameters such as dates, authors, or email recipients t
 
 After executing a search, you can use **Statistics** and **Preview** options to verify the search you created is collecting the type of data you need.
 
-:::image type="content" source="../media/search-custodian-data.png" alt-text="Statistics and Preview options verify the search" lightbox="../media/search-custodian-data.png":::
+:::image type="content" source="../media/search-custodian-data.png" alt-text="Statistics and Preview options verify the search" lightbox="../media/search-custodian-data.png" border="false":::
 
 Statistics on the retrieved items lets you validate your search results and make sure they align with your expectations. You can see things such as the locations that had the most items that matched the search query, and the number of and size of unindexed items. To learn more about statistics, see [Search statistics](/microsoft-365/compliance/search-statistics?azure-portal=true).
 
@@ -57,7 +57,7 @@ Preview generates a sampling of the various data sources and provides another vi
 
 You can also generate your own sample from a search.
 
-:::image type="content" source="../media/sample.png" alt-text="You can also generate your own sample from a search.":::
+:::image type="content" source="../media/sample.png" alt-text="You can also generate your own sample from a search." border="false":::
 
 Generating a sample lets you use parameters such as confidence level and confidence interval.
 
