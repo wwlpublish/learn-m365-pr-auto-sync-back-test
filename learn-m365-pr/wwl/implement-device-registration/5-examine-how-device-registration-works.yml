@@ -11,5 +11,6 @@ metadata:
   ms.prod: learning-azure
 azureSandbox: false
 labModal: false
+durationInMinutes: 2
 content: |
   [!include[](includes/5-examine-how-device-registration-works.md)]

@@ -11,7 +11,7 @@ The device object in AD DS establishes a link between the user and the device. F
 
 After you enable the device for Device Registration, the device is used as a second form of authentication. If multiple users use the same device, each user can enable the device for Device Registration independently. Administrators can configure which apps users then can access from the device without entering credentials, and they can then ensure that company policies and security applies to those devices by configuring a device policy. Be aware that a company Group Policy applies only to domain-joined devices and not to devices enabled for Device Registration. If a device enabled for Device Registration is compromised, or if a device owner leaves the company, an administrator can remove the device object from the domain, and by doing so, the administrator revokes the device’s ability to access domain resources through SSO.
 
-## Scenarios for using Device Registration
+### Scenarios for using Device Registration
 
 Many devices that employees use to access company data are company-owned, and those devices usually are domain-joined. Users also might access company data by using their own devices from inside the company network and over the Internet. The company’s IT department can closely monitor and manage domain-joined computers, but devices that are not domain members can be an issue. Users typically use devices for accessing virtual desktops, for running company apps, and for accessing other company resources.
 

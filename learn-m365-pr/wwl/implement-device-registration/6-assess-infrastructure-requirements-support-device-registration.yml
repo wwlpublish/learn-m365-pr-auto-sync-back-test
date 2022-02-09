@@ -11,5 +11,6 @@ metadata:
   ms.prod: learning-azure
 azureSandbox: false
 labModal: false
+durationInMinutes: 4
 content: |
   [!include[](includes/6-assess-infrastructure-requirements-support-device-registration.md)]

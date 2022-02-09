@@ -12,6 +12,7 @@ metadata:
   zone_pivot_groups: azure-interface
 azureSandbox: false
 labModal: false
+durationInMinutes: 1
 content: |
   [!include[](includes/9-summary.md)]
 interactive: bash
