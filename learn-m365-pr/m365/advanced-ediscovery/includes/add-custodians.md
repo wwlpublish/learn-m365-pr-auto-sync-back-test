@@ -108,7 +108,7 @@ After selecting the custodians you want to notify, you can review your settings,
 
 In turn, custodians receiving hold notifications will receive something like the sample below and are able to acknowledge receipt of the notice by clicking one of the three buttons near the bottom of the message:
 
-:::image type="content" source="../media/issuance-hold-notification.png" alt-text="Issuance of hold notification" lightbox="../media/issuance-hold-notification.png":::
+:::image type="content" source="../media/issuance-hold-notification.png" alt-text="Issuance of hold notification." lightbox="../media/issuance-hold-notification.png":::
 
 ## Manage custodian details
 

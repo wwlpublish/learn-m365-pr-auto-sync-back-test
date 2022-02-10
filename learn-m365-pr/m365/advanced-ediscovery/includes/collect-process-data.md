@@ -10,19 +10,19 @@ The process of creating a search begins from the **Searches** tab in your case, 
 
 1. Enter a name and description (optional).
 
-    :::image type="content" source="../media/name-description.png" alt-text="Name and description fields":::
+    :::image type="content" source="../media/name-description.png" alt-text="Name and description fields.":::
 
 1. Add the custodians relevant to the search.
 
-    :::image type="content" source="../media/custodians.png" alt-text="Custodian field":::
+    :::image type="content" source="../media/custodians.png" alt-text="Custodian field.":::
 
 1. Select the locations to search, including any additional locations that weren't exposed during the hold process.
 
-    :::image type="content" source="../media/locations.png" alt-text="Locations field" lightbox="../media/locations.png":::
+    :::image type="content" source="../media/locations.png" alt-text="Locations field." lightbox="../media/locations.png":::
 
 1. Enter keywords and/or add conditions to narrow search results.
 
-    :::image type="content" source="../media/search-criteria.png" alt-text="Keywords and conditions fields" lightbox="../media/search-criteria.png" border="false":::
+    :::image type="content" source="../media/search-criteria.png" alt-text="Keywords and conditions fields." lightbox="../media/search-criteria.png" border="false":::
 
 ## Build search queries and add conditions
 
@@ -45,7 +45,7 @@ Conditions are granular parameters such as dates, authors, or email recipients t
 
 After executing a search, you can use **Statistics** and **Preview** options to verify the search you created is collecting the type of data you need.
 
-:::image type="content" source="../media/search-custodian-data.png" alt-text="Statistics and Preview options verify the search" lightbox="../media/search-custodian-data.png" border="false":::
+:::image type="content" source="../media/search-custodian-data.png" alt-text="Statistics and Preview options verify the search." lightbox="../media/search-custodian-data.png" border="false":::
 
 Statistics on the retrieved items lets you validate your search results and make sure they align with your expectations. You can see things such as the locations that had the most items that matched the search query, and the number of and size of unindexed items. To learn more about statistics, see [Search statistics](/microsoft-365/compliance/search-statistics?azure-portal=true).
 
@@ -85,7 +85,7 @@ Error remediation of documents leverages an Azure AzCopy command that contains p
 
 1. To begin the process of error remediation, select **Errors** in the **View** drop-down menu on the **Processing** tab and then select a case or review set from the **Scope** drop-down menu. This section displays all errors from the case or error from a specific review set. In the example below, an error was found in the Investigation – 01234 case.
 
-    :::image type="content" source="../media/new-error-remediation.png" alt-text="Error remediation screen" lightbox="../media/new-error-remediation.png":::
+    :::image type="content" source="../media/new-error-remediation.png" alt-text="Error remediation screen." lightbox="../media/new-error-remediation.png":::
 
 1. To remediate the password protected file, select the radio button next to the file type, then click **New error remediation**. The error remediation process begins with a preparation stage where the files with errors are copied to a Microsoft-provided Azure Storage location so that you can download them to your local computer to remediate.
 
@@ -112,11 +112,11 @@ Error remediation of documents leverages an Azure AzCopy command that contains p
 
 1. Return to the error remediation wizard in Advanced eDiscovery, then click **Next: Upload files**. This moves to the next page where you can now upload the files.
 
-    :::image type="content" source="../media/download-files.png" alt-text="Download files screen" lightbox="../media/download-files.png":::
+    :::image type="content" source="../media/download-files.png" alt-text="Download files screen." lightbox="../media/download-files.png":::
 
 1. Specify the parent folder where the remediated files are located in the **Path to location of files** text box. The parent folder must have the same subfolder structure that was created when you downloaded the files. The path to the parent folder is automatically added to the AzCopy command as the value of the **/Source** parameter.
 
-    :::image type="content" source="../media/upload-files.png" alt-text="Upload files screen" lightbox="../media/upload-files.png":::
+    :::image type="content" source="../media/upload-files.png" alt-text="Upload files screen." lightbox="../media/upload-files.png":::
 
 1. Copy the predefined command by clicking **Copy to clipboard**. Open a Windows command prompt (Run as administrator), paste the AzCopy command, and then press **Enter** to upload the files.
 

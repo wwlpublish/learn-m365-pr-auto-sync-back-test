@@ -2,7 +2,7 @@
 
 Capability validation is an integral part of the EBCM lifecycle. It involves testing Business Continuity Plan (BCP) effectiveness in both theory and practice. Each service team tests their BCP regularly to measure the plan's effectiveness and the service team's readiness to execute the plan. Per EBCM Program guidelines, an annual review of BCP and capability validation must take place within 12 months of the last review and include review of supporting documentation, such as the BIA and DA.
 
-![capability validation phase: - develop scenarios, - conduct validations, - document results, - identify gaps and improvements](../media/capability-validation.png)
+:::image type="content" source="../media/capability-validation.png" alt-text="capability validation phase: - develop scenarios, - conduct validations, - document results, - identify gaps and improvements" border="false":::
 
 ## Validation levels
 
