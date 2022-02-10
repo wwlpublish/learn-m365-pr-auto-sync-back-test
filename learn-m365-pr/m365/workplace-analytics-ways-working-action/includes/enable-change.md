@@ -1,6 +1,6 @@
 Technology can assist you in driving change. These Microsoft 365 features can be tools for your change initiative.
 
-* **Peronal insights** - Enable personal insights through Viva Insights apps, such as the Viva Insights app in Teams, the Viva Insights Outlook add-in, and the monthly digests.
+* **Personal insights** - Enable personal insights through Viva Insights apps, such as the Viva Insights app in Teams, the Viva Insights Outlook add-in, and the monthly digests.
 * **Plans** - Transform your knowledge into targeted change plans.
 * **Team insights** - Provide people managers with metrics and insights that you can act on.
 
