@@ -1,6 +1,6 @@
 The process of deploying a Windows operating system is simpler today than it has been in the past. The person who performs the deployment has fewer decisions to make. However, those decisions are critical to the success of the deployment.
 
-:::image type="content" source="../media/installing-windows-10-99a1c5f8.jpg" alt-text="Screenshot showing the first screen displayed when installing Windows10":::
+:::image type="content" source="../media/install-windows-10-79bc334b.jpg" alt-text="Screenshot showing the first screen displayed when installing Windows10":::
 
 
 A typical manual installation of Windows involves performing the following procedure:
