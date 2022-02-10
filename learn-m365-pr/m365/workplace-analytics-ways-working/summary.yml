@@ -1,12 +1,12 @@
 ### YamlMime:ModuleUnit
 uid: learn-m365.workplace-analytics-ways-working.summary
-title: Summary
+title: Summary for the Ways of working assessment dashboard
 metadata:
-  title: Summary
-  description: Learn to evaluate collaboration culture and employee experience with a Power BI template using Workplace Analytics data.
-  ms.date: 07/15/2021
-  author: temanteleary
-  ms.author: teleary
+  title: Summary for the Ways of working assessment dashboard
+  description: Learn to evaluate collaboration culture and employee experience with a Power BI template by using Viva Insights data through Workplace Analytics.
+  ms.date: 01/24/2022
+  author: madehmer
+  ms.author: helayne
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 durationInMinutes: 3

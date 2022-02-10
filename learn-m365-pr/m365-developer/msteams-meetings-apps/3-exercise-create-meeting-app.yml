@@ -1,0 +1,50 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.msteams-meetings-apps.3-exercise-create-meeting-app
+metadata:
+  title: Exercise - Creating meeting apps for Microsoft Teams
+  description: In this exercise, you'll create a Microsoft Teams meetings app, install it into a new meeting, and interact with it before the meeting starts. This app will be used to organize and manage a product team's stand-up presentations to the rest of the team.
+  ms.date: 02/04/2022
+  author: andrewconnell-msft
+  ms.author: v-johnco
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Exercise - Creating meeting apps for Microsoft Teams
+durationInMinutes: 28
+content: |
+  [!include[](includes/3-exercise-create-meeting-app.md)]
+quiz:
+  title: Test your knowledge
+  questions:
+  - content: "What are the different meeting lifecycles available to developers?"
+    choices:
+    - content: "Pre-meeting, in-meeting, and post-meeting"
+      isCorrect: true
+      explanation: "Correct!"
+    - content: "Pre-meeting and post-meeting"
+      isCorrect: false
+      explanation: "The correct meeting lifecycles include these, and in-meeting."
+    - content: "Side-panel, content, and stage"
+      isCorrect: false
+      explanation: "The answers listed here are the different contexts a meeting app has access to, not the meeting lifecycle."
+  - content: "What are the different meeting contexts available to developers?"
+    choices:
+    - content: "Pre-meeting, in-meeting, and post-meeting"
+      isCorrect: false
+      explanation: "These are different meeting lifecycles the meeting app has access to, not the meeting contexts."
+    - content: "Chat, content, and stage"
+      isCorrect: false
+      explanation: "The correct meeting contexts include these, and side-panel."
+    - content: "Side-panel, chat, content, and stage"
+      isCorrect: true
+      explanation: "Correct!"
+  - content: "What details are listed in the `webApplicationInfo` object in Microsoft Teams app's manifest?"
+    choices:
+      - content: "The Azure AD app's URI"
+        isCorrect: false
+        explanation: "In addition to the app's URI, it also contains app's ID and the permissions the app requires."
+      - content: "The Azure AD app registered for the app, and the app's URI."
+        isCorrect: false
+        explanation: "It also contains the permissions the app requires."
+      - content: "The Azure AD app registered for the app, the permissions the app requires, and the app's URI."
+        isCorrect: true
+        explanation: "Correct!"

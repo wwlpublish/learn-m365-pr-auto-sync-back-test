@@ -54,7 +54,7 @@ There are seven pillars to Microsoft Defender for Endpoint (MSDE):
 
 In this video, you'll learn more about Microsoft Defender for Endpoint:
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4zwew]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4zwew]
 
 For more information, read [Microsoft Defender for Endpoint](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection)
 

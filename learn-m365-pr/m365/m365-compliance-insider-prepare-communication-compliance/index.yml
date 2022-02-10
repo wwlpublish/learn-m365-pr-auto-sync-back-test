@@ -3,7 +3,7 @@ uid: learn-m365.m365-compliance-insider-prepare-communication-compliance
 metadata:
   title: Prepare communication compliance in Microsoft 365
   description: Communication compliance in Microsoft 365 is a solution that helps organizations address code-of-conduct policy violations in company communications, while also assisting organizations in regulated industries meet specific supervisory compliance requirements. Communication Compliance uses machine learning to intelligently detect violations across different communication channels such as Microsoft Teams, Exchange Online, or Yammer messages.
-  ms.date: 11/16/2021
+  ms.date: 02/01/2022
   author: beccarobins
   ms.author: beccarobins
   ms.topic: interactive-tutorial

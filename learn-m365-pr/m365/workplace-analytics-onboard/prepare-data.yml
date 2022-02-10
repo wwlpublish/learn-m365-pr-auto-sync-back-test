@@ -2,11 +2,11 @@
 uid: learn-m365.workplace-analytics-onboard.prepare-data
 title: Prepare and upload organizational data
 metadata:
-  title: Prepare and upload organizational data
-  description: Learn how to prepare and upload your Workplace Analytics organizational data. 
-  ms.date: 07/15/2021
-  author: temanteleary
-  ms.author: teleary
+  title: Prepare and upload organizational data for Viva Insights
+  description: Learn how to prepare and upload your organizational data into the Workplace Analytics app for Viva Insights analysis 
+  ms.date: 01/14/2022
+  author: madehmer
+  ms.author: helayne
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 durationInMinutes: 7

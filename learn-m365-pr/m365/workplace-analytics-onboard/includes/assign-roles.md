@@ -1,15 +1,15 @@
-Workplace Analytics includes four user roles, with different data-access rights and responsibilities:
+Workplace Analytics includes the following user roles, which have different data-access rights and responsibilities:
 
-:::image type="content" source="../media/assign-user-roles.png" border="false" alt-text="A graphic shows the four user roles available in Workplace Analytics. Each role includes an avatar or user image and description of the roles. Scroll down for text descriptions of those user roles.":::
+:::image type="content" source="../media/assign-user-roles.png" border="false" alt-text="A graphic shows the user roles available in Workplace Analytics with an avatar or user image and description of each role. Scroll down for text descriptions of these roles.":::
 
-- The **Microsoft 365 administrator** assigns Workplace Analytics licenses to user mailboxes and the other Workplace Analytics roles to users. This role doesn't have access to the Workplace Analytics application (unless they assign themselves one of the Workplace Analytics roles).
-- The **Workplace Analytics administrator** sets system defaults and privacy settings for your company's Workplace Analytics environment and is responsible for uploading and verifying organizational/HR data. This role can access the **Settings** menu, and through it, the **Data sources**, **Upload**, and **Admin settings** pages.
-- A **Workplace Analytics analyst** has full access to all Workplace Analytics features (except the **Settings** menu) and can directly query the full dataset. This role is typically assigned to analysts who need complete data access to perform their analyses.
-- A **Workplace Analytics analyst (limited)** has the same access as the analyst role but has the following restrictions:
-  - No access to Queries
-  - Read-only access to the **Analysis settings** page
+- The **Microsoft 365 admin** assigns Workplace Analytics licenses to user mailboxes and an applicable Workplace Analytics role to these users. This role doesn't have access to the Workplace Analytics app (unless they assign themselves an applicable role, such as an analyst role).
+- The **Workplace Analytics admin** sets system defaults and privacy settings for your company's Workplace Analytics and Viva Insights environment and is responsible for uploading and verifying the organizational (HR) data. This role can access **Data sources**, **Leader & manager settings**, and **Analyst settings**.
+- A **Workplace Analytics analyst** has full access to all Workplace Analytics features (except **Upload** in **Data sources** and other admin-only settings) and can directly query the full dataset. This role is typically assigned to analysts who need complete data access to perform their analyses.
+- A **Workplace Analytics analyst (limited)** has similar access as analysts with the following exceptions:
+  - No access to **Query designer**
+  - Read-only access to **Analyst settings**
 
-To get started with Workplace Analytics, your Microsoft 365 Administrator will need to assign the roles of Workplace Analytics administrator and Workplace Analytics analyst.
+To get started with Workplace Analytics, your Microsoft 365 admin must assign one or more users the roles of Workplace Analytics admin and analyst.
 
 >[!NOTE]
->Only users with Workplace Analytics roles assigned can sign into the Workplace Analytics web application and access the data.
+>Only people with an assigned Workplace Analytics role can access and use the Workplace Analytics web app and its features.
