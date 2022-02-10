@@ -3,5 +3,5 @@ In this module, you compared the different editions of Windows, the audiences th
 ### Learn more
 
  -  [Windows 11 requirements](/windows/whats-new/windows-11-requirements)<br>
- -  [Windows 11 Specs and System Requirements](https://www.microsoft.com/en-us/windows/windows-11-specifications?r=1)
+ -  [Windows 11 Specs and System Requirements](https://www.microsoft.com/windows/windows-11-specifications?r=1)
  -  [Windows 10 Hyper-V System Requirements](/virtualization/hyper-v-on-windows/reference/hyper-v-requirements)
