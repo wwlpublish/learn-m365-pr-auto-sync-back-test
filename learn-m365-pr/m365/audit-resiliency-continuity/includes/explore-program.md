@@ -25,7 +25,7 @@ The EBCM Program Office and individual service BCLs work with Microsoft Enterpri
 
 In addition to facilitating cooperation on business continuity, Microsoft's EBCM program provides a consistent BCM framework that is implemented by business units across the enterprise. This framework addresses the recovery and continuity of critical business functions, services, and data required to maintain an acceptable level of operations during an incident. Use of a common framework ensures the existence of effective, reliable, well-tested plans, systems, and processes that can be counted on to support business continuity and minimize adverse impacts during a disruptive event.
 
-![A graphical representation of how EBCM program work with Microsoft Business Units. EBCM program is responsible for governance, compliance, and guidance. Microsoft Business Units are responsible for following EBCM methodology and policy and collaborate with EBCM program in different aspects.](../media/program.png)
+:::image type="content" source="../media/program.png" alt-text="A graphical representation of how EBCM program work with Microsoft Business Units. EBCM program is responsible for governance, compliance, and guidance. Microsoft Business Units are responsible for following EBCM methodology and policy and collaborate with EBCM program in different aspects." border="false":::
 
 ## BCM lifecycle
 
@@ -33,7 +33,7 @@ The BCM lifecycle is at the core of our BCM methodology. This process is designe
 
 The BCM lifecycle includes three high-level phases. It begins with an initial **Assessment**, which involves identifying critical processes and objectives that should be included in the business continuity program. The **Planning** phase focuses on developing and implementing resilience and recovery strategies, as well as documenting them in official business continuity plans. Finally, **Capability Validation** tests business continuity plans and their implementations to verify effectiveness and identify improvements.
 
-![A diagram of the BCM lifecycle - assessment, planning, and capacity validation](../media/lifecycle.png)
+![A diagram of the BCM lifecycle - assessment, planning, and capacity validation.](../media/lifecycle.png)
 
 ## Learn more
 
