@@ -109,12 +109,12 @@ Before you install Windows, you should select the most suitable edition for your
 
 Home is the consumer-oriented desktop edition of Windows. It offers the familiar Windows experience for PCs, tablets, and the new hybrid laptop/tablets. Features with Home edition include :
 
- -  Microsoft Edge<br>
- -  Windows Hello<br>
+ -  Microsoft Edge
+ -  Windows Hello
  -  Virtual Desktops
  -  Photos, Maps, Mail, Calendar, Music and Video, and other built-in universal Windows apps
- -  Device encryption<br>
- -  Firewall and virus protection<br>
+ -  Device encryption
+ -  Firewall and virus protection
  -  Always On VPN
  -  New updates and features received automatically
 
@@ -127,12 +127,12 @@ Some of the features Pro edition provides:
  -  **Windows Autopilot**. Uses an existing Windows installation to transform or reset the device to a “business-ready” state, applying settings, policies, apps, and edition changes, without the need to reimage.
  -  **Dynamic Provisioning**. Allows an out of the box PC to be configured for an organization with minimal effort.
  -  **Mobile Device Management (MDM) support**. Allows devices to be managed through an MDM instead of traditional management solutions.
- -  **Domain Join**. Computers that support domain join can be joined to an Active Directory domain.<br>
+ -  **Domain Join**. Computers that support domain join can be joined to an Active Directory domain.
  -  **Ability to join Azure Active Directory**. This enables them to perform single sign-on across Windows, Microsoft 365, and other cloud-hosted apps and services.
  -  **Group Policy Management**. Computers that support the Group Policy Management feature can be managed using Group Policy when they are joined to an Active Directory domain.
  -  **BitLocker**. BitLocker functions as a full volume encryption and boot environment protection solution.
  -  Windows Information Protection (with MDM management) helps protects apps and data leaks on organization and personally owned devices.
- -  **Assigned Access**. Allows devices to run different applications based on the user.<br>
+ -  **Assigned Access**. Allows devices to run different applications based on the user.
  -  **Remote Desktop**. This feature enables Remote Desktop connections from compatible Remote Desktop Connection clients.
  -  **Client Hyper-V**. Client Hyper-V enables you to host virtual machines on a client computer that has sufficient hardware resources.
  -  **Microsoft Store for Business**. Single store for finding and managing apps in an organization.
@@ -156,7 +156,7 @@ Enterprise edition builds on the features of Pro edition, with additional featur
 
 Some of the features Enterprise edition provides:
 
- -  **AppLocker**. AppLocker is a feature of Windows that enables administrators to control which applications can act on a computer, including limiting access so that only specific versions of an application can run.<br>
+ -  **AppLocker**. AppLocker is a feature of Windows that enables administrators to control which applications can act on a computer, including limiting access so that only specific versions of an application can run.
  -  **Universal Print**. A modern print solution that organizations can use to manage their print infrastructure through cloud services from Microsoft using printers that support Universal Print.
  -  **Start menu layout control**. This feature enables you to use MDM policies or Group Policy to customize the appearance and content of the start menu.
  -  **Microsoft Defender Credential Guard**. Virtualization-based security isolates secrets so only privileged users can access them.
@@ -182,7 +182,7 @@ Microsoft does release an updated version of the LTSC edition approximately ever
 Windows 11 LTSC is not yet available. It's recommended that customers with devices that are best suited for LTSC scenarios continue to use Windows 10 Enterprise LTSC.
 
 > [!NOTE]
-> The Long-Term Servicing Channel edition was previously called the Long Term Servicing Branch (LTSB).<br>
+> The Long-Term Servicing Channel edition was previously called the Long Term Servicing Branch (LTSB).
 
 #### Pro Education and Education
 

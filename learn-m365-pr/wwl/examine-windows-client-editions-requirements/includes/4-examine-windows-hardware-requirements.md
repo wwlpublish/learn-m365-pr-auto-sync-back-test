@@ -58,7 +58,7 @@ However, you might not be able to find a built-in driver for a specific piece of
 
 To verify compatibility, open PowerShell window or a command prompt and run **systeminfo.exe**. If all listed Hyper-V requirements have a value of **Yes**, your system can run the Hyper-V role. Below you can see the hardware requirements highlighted above are checked when systeminfo.exe is run.
 
-:::image type="content" source="../media/systeminfo-hyperv-b7b8342d-8e7e4135.png" alt-text="Image showing Hyper-V Requirements when running systeminfo.exe":::
+:::image type="content" source="../media/system-information-hyperv-b7b8342d-ae01d6a6.png" alt-text="Image showing Hyper-V Requirements when running systeminfo.exe":::
 
 
 If Hyper-V is already enabled on the system, you will see the following message from systeminfo.exe:
