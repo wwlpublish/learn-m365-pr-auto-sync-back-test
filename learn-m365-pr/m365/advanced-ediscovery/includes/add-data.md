@@ -1,6 +1,7 @@
 This section discusses the *Review*, or Early Case Assessment (ECA), phase of the EDRM model.
 
-![Fifth phase of the EDRM model – Review.](../media/edrm-model-3.png)
+> [!div class = "centered"]
+> :::image type="content" source="../media/edrm-model-3.png" alt-text="Fifth phase of the EDRM model – Review." lightbox="../media/edrm-model-3.png":::
 
 After you've collected all data relevant to the case, the next step is process it for further review. In Advanced eDiscovery, the live, in-place data that you identified in the collection phase is copied offline to an Azure Storage location called a review set.
 
@@ -12,13 +13,13 @@ There are various methods for adding data to a review set in an Advanced eDiscov
 - Adding non-Office 365 data to a review set.
 - Adding data from a review set to another review set.
 
-![Three methods for adding data to a review set in an Advanced eDiscovery case.](../media/add-data.png)
+:::image type="content" source="../media/add-data.png" alt-text="Three methods for adding data to a review set in an Advanced eDiscovery case.":::
 
 ## Add search results to a review set
 
 After you are satisfied with the collection of custodial content, you can evaluate the content further by moving it into a review set in the case. You do this by selecting a search on the **Searches** tab, and then clicking **Add results to review set** on the flyout page.
 
- ![Evaluate the collection of custodial content further by moving it into a review set in the case.](../media/add-results.png) 
+ :::image type="content" source="../media/add-results.png" alt-text="Evaluate the collection of custodial content further by moving it into a review set in the case." lightbox="../media/add-results.png" border="false":::
 
 Adding the results of your search to a review set triggers Advanced eDiscovery to collect all the content from your search results. It then processes all that content by extracting the text and metadata and places the results in a centralized index. These results from the sources you selected can then be searched and analyzed through one interface.
 
@@ -44,7 +45,7 @@ The files to be uploaded must be located in subfolders, where each subfolder is 
 - c:\nonO365\jewell.gordon@contoso.com
 - c:\nonO365\staci.gonzalez@contoso.com
 
-![Required file structure](../media/file-structure.png)  
+:::image type="content" source="../media/file-structure.png" alt-text="Required file structure":::
 
 ## Upload non-Microsoft 365 data
 
@@ -52,20 +53,20 @@ The files to be uploaded must be located in subfolders, where each subfolder is 
 1. In the review set, click **Manage review set**, and then click **View uploads** on the **Non-Microsoft 365 data** tile.
 1. Click **Upload files** to start the data import wizard.
 
-    ![Click Upload files to start the data import wizard.](../media/review-set.png)  
+    :::image type="content" source="../media/review-set.png" alt-text="Click Upload files to start the data import wizard." border="false":::
 
     The first step in the wizard prepares a secure Microsoft-provided Azure Storage location to upload the files to. When the preparation is completed, the **Next: Upload files** button becomes active.
 
-    ![The first step in the wizard prepares a secure Microsoft-provided Azure Storage location to upload the files to. When the preparation is completed, the Next: Upload files button becomes active.](../media/non-office-data.png)  
+    :::image type="content" source="../media/non-office-data.png" alt-text="The first step in the wizard prepares a secure Microsoft-provided Azure Storage location to upload the files to. When the preparation is completed, the Next: Upload files button becomes active.":::
 
 1. Click **Next: Upload files**.
 1. On the **Upload files** page, verify or type the location of the root folder where you've stored the non-Microsoft 365 data you want to upload in the **Path to location of files** box. Next, click **Copy to clipboard** to copy the command that is displayed in the box.
 
-    ![Upload files screen](../media/non-office-data-upload-files.png)  
+    :::image type="content" source="../media/non-office-data-upload-files.png" alt-text="Upload files screen":::
 
 1. Open a Windows command prompt (Run as administrator), paste the command that you copied in the previous step, and then press **Enter** to start the AzCopy command. After you start the command, the non-Microsoft 365 files will be uploaded to the Azure Storage location that was prepared in step 3.
 
-    ![Command prompt commands](../media/process-files-2.png)  
+    :::image type="content" source="../media/process-files-2.png" alt-text="Command prompt commands" lightbox="../media/process-files-2.png":::
 
 1. Return to the data import wizard in Advanced eDiscovery and click **Next: Process files**. This initiates processing, text extraction, and indexing of the non-Microsoft 365 files that were uploaded to the Azure Storage location.
 1. After the processing is finished, you can close the wizard.
@@ -79,15 +80,15 @@ In some cases, it may be necessary to select content from one review set and wor
 
 Before you start, you will need to create a new review set to add the data to. A new review set can be added on the **Review sets** tab of the case by clicking **Add Review Set**.
 
-![Create a new review set to add the data to.](../media/add-review-set.png)  
+:::image type="content" source="../media/add-review-set.png" alt-text="Create a new review set to add the data to." lightbox="../media/add-review-set.png" border="false":::
 
 You can add content from one review set to another one by selecting specific documents in the source review set or by selecting all items returned by review set query. If you are adding selected items, select the items, select **Action**, and then select **Add to another review set**.
 
-![Adding selected items.](../media/action.png)  
+:::image type="content" source="../media/action.png" alt-text="Adding selected items." lightbox="../media/action.png" border="false":::
 
 In the **Add to another review set** flyout page, choose the review set you want to add the items to. Choose whether to add **All documents in the review set** or **Selected documents only**. **Additional information** provides options to include metadata from the items and whether to include [tags](/microsoft-365/compliance/tagging-documents?azure-portal=true) from the source review set when the documents are added to the new review set.
 
- ![Add to another review set options flyout page](../media/add-to-another-review-set.png)
+ :::image type="content" source="../media/add-to-another-review-set.png" alt-text="Add to another review set options flyout page":::
 
 ### What is a load set?
 
