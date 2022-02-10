@@ -28,7 +28,7 @@ quiz:
     - content: "Client Hyper-V"
       isCorrect: true
       explanation: "Correct. By using Client Hyper-V, IT departments can provide a consolidated and efficient virtual environment through virtual-machine compatibility with Windows Server. This environment can use a single device to test applications and IT scenarios in multiple operating system configurations."
-  - content: "Contoso has a a large fleet of computers that it wants to manage more efficiently. Contoso is looking to implement a solution that will simplify deployment of new and replacement computers, provide consistent applications and hardware across the enterprise, and simplify inventory and software development. What should Contoso use that will satisfy these requirements?"
+  - content: "Contoso has a large fleet of computers that it wants to manage more efficiently. Contoso is looking to implement a solution that will simplify deployment of new and replacement computers, provide consistent applications and hardware across the enterprise, and simplify inventory and software development. What should Contoso use that will satisfy these requirements?"
     choices:
     - content: "Standard operating environment"
       isCorrect: true

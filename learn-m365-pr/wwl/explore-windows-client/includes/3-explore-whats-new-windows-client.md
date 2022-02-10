@@ -51,4 +51,4 @@ This topic highlights some of the important features that are new or improved in
 
 Windows 10 first introduced a new method of delivering new features and functional changes. This method is known as Windows as a Service. This is a major change from the past, when new Windows versions arrived approximately every three years. Windows releases quality updates regularly, while significant changes, also known as feature updates, will occur annually. Security and driver updates will automatically download and install as soon as they become available for some Windows client editions. Other editions can defer some updates for a non-configurable period.
 
-For more information about the new features in Windows, see [What's new in Windows](http://aka.ms/sfakvk).
+For more information about the new features in Windows, see [What's new in Windows](https://aka.ms/sfakvk).
