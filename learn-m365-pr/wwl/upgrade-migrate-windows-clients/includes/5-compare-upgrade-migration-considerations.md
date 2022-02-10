@@ -24,7 +24,7 @@ With Windows 10 and later, this process is no longer necessary. Instead, adminis
 
 A migration should be used when you have a target computer already running the Windows operating system, and you need to move files and settings from your old operating system (source device) to a newer Windows-based computer (destination device).
 
-#### Side-by-side migration<br>
+#### Side-by-side migration
 
 In a side-by-side migration, the source computer and the destination computer are two different computers. A side-by-side migration is typically used when the user's device is being replaced. The target device is configured with a fresh install of Windows using whatever method of OS deployment is typically used by the organization. USMT is used to migrate the data and settings to a migration store or directly to the target device. This process applies to whether the target device is the same or a newer version of Windows.
 
@@ -98,7 +98,7 @@ The following table outlines the advantages and disadvantages of in-place upgrad
 :::row-end:::
 
 
-#### **Migration considerations**
+#### Migration considerations
 
 As an alternative, you might consider using the migration process. The following table outlines the advantages and disadvantages of migrations.
 

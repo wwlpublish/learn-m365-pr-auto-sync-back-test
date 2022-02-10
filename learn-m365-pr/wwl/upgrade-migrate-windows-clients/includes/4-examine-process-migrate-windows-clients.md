@@ -14,29 +14,29 @@ The migration process includes the following steps:<br>
 :::image type="content" source="../media/windows-10-migrate-process-86cb7ba1.jpg" alt-text="Image representing the steps involved in migrating Windows 10.":::
 
 
-### Back up<br>
+### Back up
 
 Before installing the new operating system, you must back up all user files, and possibly user-related settings as well. This is typically done with the User State Migration Tool (USMT), which captures and stores the data temporaily during the process. While the custom installation option retains user files, this does not retain user settings. USMT simplifies the process of capturing and restoring the user state.
 
 > [!NOTE]
 > Before the installation begins, you can choose to repartition or reformat the hard disk. If you choose one of these actions, all user data will be deleted from the hard disk.
 
-### **Install Windows**
+### Install Windows
 
-Run the Windows installation program (setup.exe) using product media or a network share, and perform a clean installation by selecting **Custom (advanced)** during the installation process. Then follow the on-screen instructions to complete the installation.<br>
+Run the Windows installation program (setup.exe) using product media or a network share, and perform a clean installation by selecting **Custom (advanced)** during the installation process. Then follow the on-screen instructions to complete the installation.
 
 > [!NOTE]
 > When you do a clean installation of Windows without reformatting the hard disk, the existing Windows installation will be moved to a windows.old directory containing the Windows, Program Files, and Users directories. All remaining directories and files stay in place. While application files may still exist, applications still must be re-installed.
 
-### **Update**
+### Update
 
 If you chose not to check for updates during the installation process, it is important to do so after verifying the installation. Keep your computer protected by ensuring that you have the most current updates installed.
 
-### **Install applications**
+### Install applications
 
 Performing an upgrade by using a clean installation and migration process does not migrate the installed applications. When you complete the Windows installation, you must reinstall all applications. Windows may block the installation of any incompatible programs. To install any of these programs, contact the software vendor for an updated version that is compatible with the OS version installed.
 
-### **Restore**
+### Restore
 
 After installing your applications, application settings and user-related settings must be migrated to the new device.
 

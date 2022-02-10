@@ -11,7 +11,7 @@ Administrators should check device hardware against the minimum requirements for
 
 Most applications compatible with at least Windows 8.1 will work fine with Windows 10, and likewise for Windows 11. While even drivers should work fine, some drivers might be OS-specific. Low-level applications such as anti-virus applications might also have OS-specific versions. However, critical business applications should still be tested. Administrators should build test environments to test these applications and validate their functionality against a set of defined scenarios. Tools included with the Windows Assessment and Deployment Toolkit (Windows ADK) can assist with setting up test environment processes.<br>
 
-### Back up<br>
+### Back up
 
 Typical upgrade processes can be done without deleting user data on the device. However, when performing an upgrade, it's best to have a plan to restore data if something goes wrong, or if the upgrade process chosen wipes the drive. Administrators are encouraged to configure devices to use cloud services such as OneDrive, so that user files are synchronized with the cloud. If this isn't used or if application data needs to be retained, the User State Migration Tool (USMT) should be used to back up data to a secure location, such as a network folder.
 

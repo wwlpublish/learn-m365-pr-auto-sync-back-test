@@ -373,11 +373,11 @@ The Edition Upgrade policy in Configuration Manager can also be used to upgrade 
 
 S Mode is available in Home, Pro and Enterprise editions in Windows 10. You can switch out of S Mode to Home, Pro, or Enterprise Edition, but once this is done, you cannot switch back without reloading the OS. This can be done using Microsoft Store or Microsoft Intune. In Windows 11, S mode is only avaiable for Home Edition. Therefore, only Windows Home in S mode can be upgraded to Windows 11 Home S Mode.
 
-### Downgrade Paths<br>
+### Downgrade Paths
 
 Downgrading is possible from either Enteprise or Education edition to any of the three Pro editions or Education is supported. If the target downgrade edition is any supported edition other than the firmware embedded key, an additional key is required. Volume license customers who license has expired must downgrade to an edition with an active license. If the downgrath path is supported, the edition can be switched the same as an upgrade, otherwise, a clean install is required.
 
-### <br>Deprecated features<br>
+### Deprecated features
 
 When you upgrade to Windows 10 or Windows 11, there may be some features in your old operating system that will no longer be available. The following list details the deprecated features that are not a part of Windows 10 and Windows 11:
 

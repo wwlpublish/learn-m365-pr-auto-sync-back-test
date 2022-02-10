@@ -5,19 +5,19 @@ Because in-place upgrades are the preferred upgrade method, you should select th
  -  Side-by-side migration
  -  In-place migration
 
-**Scenario 1**
+### Scenario 1
 
 Contoso Pharmaceuticals owns 100 workstations on which Windows 8.1 was manually installed. They want to upgrade these workstations to Windows 10, and switch to a more standardized and managed deployment. What is the best upgrade method for Contoso?
 
-**Scenario 2**
+### Scenario 2
 
 Litware, Inc. is in the process of upgrading all devices from Windows 10 to Windows 11. There are some devices that will not upgrade because TPM 2.0 was not detected. They intend to replace any devices that require hardware upgrades. Which upgrade methods should be performed?
 
-**Scenario 3**
+### Scenario 3
 
 A.Datum Corporation has 5000 client computers running Windows 8.1 in a managed environment. All computers have the same set of applications installed. They want to upgrade to Windows 10. What is the best upgrade method for A.Datum?
 
-**Scenario 4**
+### Scenario 4
 
 Contoso Pharmaceuticals is upgrading from Windows 8.1 to Windows 10. Some devices are running the 32-bit edition of Windows 8.1, however all the devices meet the minimum 64-bit specifications for Windows 10. Which upgrade methods should be performed?
 
