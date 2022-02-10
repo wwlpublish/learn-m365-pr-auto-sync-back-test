@@ -15,7 +15,7 @@ This section explains permissions that a user must have to manage the following:
 - Use Advanced eDiscovery
 - View custodian audit activity
 - Load non-Microsoft 365 data
-- Set up set up Attorney-Client Privilege Detection
+- Set up Attorney-Client Privilege Detection
 - Access Advanced eDiscovery Reports (in Preview)
 
 ### Permissions to use eDiscovery
@@ -44,7 +44,7 @@ Because of the broad scope of access, an organization should have only a few adm
 
 To view custodian activity in the audit log, you must be assigned the View-Only Audit Logs or Audit Logs role in Exchange Online. By default, these roles are assigned to the Compliance Management and Organization Management role groups on the **permissions** page in [Exchange admin center](https://outlook.office365.com/ecp?azure-portal=true).
 
-![Exchange admin center](../media/exchange-admin-center.png)
+:::image type="content" source="../media/exchange-admin-center.png" alt-text="Exchange admin center" lightbox="../media/exchange-admin-center.png":::
 
 To give a user the ability to search the Advanced eDiscovery audit log with the minimum level of privileges, you can create a custom role group in Exchange Online, add the View-Only Audit Logs or Audit Logs role, and then add the user as a member of the new role group.
 
@@ -62,13 +62,13 @@ To run the compliance security filter cmdlets, you must be a member of the Organ
 
 ### Licensing
 
-Microsoft 365 E3 only provide the rights for a user to benefit from core eDiscovery features as illustrated in the table below.
+Microsoft 365 E3 only provides the rights for a user to benefit from core eDiscovery features as illustrated in the table below.
 
-![Microsoft 365 eDiscovery features by plan](../media/microsoft-365-ediscovery-features.png)
+:::image type="content" source="../media/microsoft-365-ediscovery-features.png" alt-text="Microsoft 365 eDiscovery features by plan":::
 
 > [!NOTE]
 > Advanced eDiscovery is a capability included with:
-
+>
 > - Microsoft 365 E5
 > - Microsoft 365 E5 Compliance
 > - Microsoft 365 E5 eDiscovery and Audit
@@ -81,14 +81,14 @@ You can add or remove members to manage who can access the case. However, before
 
 On the **Advanced eDiscovery** page, go to the case that you want to add a member to.
 
-1.	Click the **Settings** tab and then click **Select** in the **Access & permissions** tile.
+1. Click the **Settings** tab and then click **Select** in the **Access & permissions** tile.
 1. Click **Update.**
 1. Under **Manage members**, click **Add** to add members to the case. You can also choose to add a role group to the case by clicking **Add** under **Manage role groups**.
 1. In the list of people or role groups that can be added as members of the case, select the check box next to the names of the people or role groups that you want to add.
 1. After you have selected the people or role groups to add as members of the case, click **Add**.
 1. In the **Manage this case** flyout page, click **Save** to save the new list of case members.
 
- ![Manage this case flyout page](../media/manage-case.png) 
+ :::image type="content" source="../media/manage-case.png" alt-text="Manage this case flyout page":::
 
 ## Compliance boundaries
 
@@ -108,7 +108,8 @@ In the example illustrated below, Contoso LTD is a Microsoft 365 organization th
 - eDiscovery managers and investigators can only see eDiscovery cases in their agency.
 - eDiscovery managers and investigators can only access the cases that they are a member of.
 
- ![Compliance boundaries](../media/compliance-boundaries.png) 
+ > [!div class = "centered"]
+ > :::image type="content" source="../media/compliance-boundaries.png" alt-text="Compliance boundaries":::
 
 ### Implement compliance boundaries
 
@@ -195,4 +196,4 @@ It might take up to 60 minutes for the closing process to complete.
 1. Click **Delete case**.
 It might take up to 60 minutes for the closing process to complete.
 
-![Case information](../media/close-delete.png)
+:::image type="content" source="../media/close-delete.png" alt-text="Case information":::
