@@ -6,7 +6,7 @@ This topic highlights some of the important features that are new or improved in
     
      -  Pinned apps: A customizable area that allows users to select frequently used apps.
      -  All apps: Displays an alphabetical list of all apps on the device.
-     -  Recommended: Shows recently opened files and recently installed apps.<br>
+     -  Recommended: Shows recently opened files and recently installed apps.
  -  **Cloud integration.** Windows 10 and later provides increased integration with cloud-based services and information. Users signing in to a Windows device can connect instantly to the information and settings that are important to them. The Windows client ensures a consistent user experience across devices, regardless of a specific device’s location.
  -  **Snap Layouts and Snap Groups.** Windows Snap was first introduced in Windows 7. Windows 11 significantly enhanced this feature, allowing users to choose layouts when hovering the mouse over the minimize/maximize option of a window and selecting where a particular app is positioned. These positions are saved in a Snap Group, and can be selected by hovering over the one of the apps in the task bar.
  -  **Widgets:** Windows 11 introduced Widgets, found on the taskbar. This is a customizable area that allows users to configure a personalized feed such as weather, calendar, stock prices, news, etc.

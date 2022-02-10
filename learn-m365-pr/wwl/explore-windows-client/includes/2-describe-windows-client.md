@@ -8,4 +8,4 @@ Prior to Windows 10, Microsoft would create a new version of their client operat
 
 Starting with Windows 10, Microsoft shifted from releasing a new version every few years to releasing new capabilities at regular intervals. Instead of replacing or upgrading the previous OS with a new version, new capabilities and features are delivered similarly to how OS updates are delivered. Even upgrading from Windows 10 to Windows 11 can be done using this service, as opposed to traditional upgrade method. This is also known as *Windows as a service*, which is covered in the next unit.
 
-:::image type="content" source="../media/win11-desktop-b7bc3ca3.jpg" alt-text="The Windows 11 desktop, with the Start menu opened, showing pinned and recommended apps.":::
+:::image type="content" source="../media/windows-11-desktop-199f43af.jpg" alt-text="The Windows 11 desktop, with the Start menu opened, showing pinned and recommended apps.":::
