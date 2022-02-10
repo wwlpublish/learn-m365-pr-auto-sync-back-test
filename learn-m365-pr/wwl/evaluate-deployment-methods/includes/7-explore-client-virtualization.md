@@ -16,7 +16,7 @@ Windows Sandbox is a feature first introduced in Windows 10 that allows Windows 
 
 Windows Sandbox includes the following characteristics:
 
- -  **Pristine**. Every time Windows Sandbox runs, it’s as clean as a brand-new installation of Windows.<br>
+ -  **Pristine**. Every time Windows Sandbox runs, it’s as clean as a brand-new installation of Windows.
  -  **Disposable**. Nothing persists on the device. When Sandbox is closed, everything is discarded.
  -  **Secure**. Uses hardware-based virtualization for kernel isolation, which relies on the Microsoft’s hypervisor to run a separate kernel, which isolates Windows Sandbox from the host.
  -  **Efficient**. Uses the integrated kernel scheduler, smart memory management, and virtual GPU

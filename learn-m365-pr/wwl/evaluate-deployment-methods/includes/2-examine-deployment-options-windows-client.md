@@ -1,6 +1,6 @@
 When deploying Windows 10 or later in an organization, using Windows media to run Setup.exe does not scale. There are several different tools and methods that can be used for deploying Windows at scale, depending on the existing infrastructure and desired future state. These can be essentially grouped into three categories - Modern, Dynamic, and Traditional.
 
-### **Modern**
+### Modern
 
 Modern refers to the recommended method of deploying Windows clients. There are two modern deployment methods. What's notable about these methods is that upgrades, migrations, and new deployments can usually occur without the need to reinstall the OS or reimage the device. These methods include:
 
@@ -9,7 +9,7 @@ Modern refers to the recommended method of deploying Windows clients. There are 
 
 These methods are supported with existing tools, such as the Microsoft Deployment Toolkit (MDT) and Configuration Manager.
 
-### **Dynamic**
+### Dynamic
 
 Like modern, these methods also achieve certain deployment scenarios that historically required a reinstallation of Windows, that is no longer necessary. Dynamic deployment methods enable you to configure applications and settings for specific use cases. Some examples are:
 
@@ -17,7 +17,7 @@ Like modern, these methods also achieve certain deployment scenarios that histor
  -  **Azure Active Directory (AAD) and mobile device management (MDM).** You can automatically join a device to AAD and enroll it in your management solution with no additional user interaction.
  -  **Provisioning packages**. Use the Windows Imaging and Configuration Designer tool to create provisioning packages that include the collection of apps and settings that have been customized for your deployment. These packages are then applied to devices.
 
-### **Traditional**
+### Traditional
 
 Sometimes, deployment can't be achieved through modern or dynamic methods. An organization's existing infrastructure or configuration requirements may require the need to deploy operating system images. Imaging typically addresses one of the following scenarios:
 

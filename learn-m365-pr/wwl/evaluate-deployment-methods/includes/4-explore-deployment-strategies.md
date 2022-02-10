@@ -12,14 +12,14 @@ Organizations with 100-200 client computers should consider high-touch with a st
 
 The Lite-touch Installation (LTI) deployment strategy is suitable for medium-sized organizations with 200–500 client computers. This strategy uses management tools such as Microsoft Deployment Toolkit (MDT) or Microsoft Intune. It is an easier deployment strategy, because Administrators use a centrally managed console to automate the delivery of the OS, configurations, and applications. MDT also requires minimal infrastructure and Intune is a cloud-based solution.
 
-:::image type="content" source="../media/mdt_windows10-ecac9a65-ec7ae4ac.png" alt-text="Example of Microsoft Deployment Toolkit UI":::
+:::image type="content" source="../media/microsoft-deployment-toolkit-windows10-ecac9a65-569f4d30.png" alt-text="Example of Microsoft Deployment Toolkit UI":::
 
 
 ### Zero-touch Deployment
 
 The Zero-touch Installation (ZTI) deployment strategy is suitable for large organizations that typically have more than 500 client computers. This deployment strategy uses MDT and/or Intune together with Microsoft Endpoint Configuration Manager to deliver a more streamlined, fully automated deployment that does not require user interaction.
 
-:::image type="content" source="../media/task_sequence-2073446e-ab778466.png" alt-text="Example of the Task Sequence Editor":::
+:::image type="content" source="../media/task-sequence-2073446e-165d9b56.png" alt-text="Example of the Task Sequence Editor":::
 
 
 ### Bring Your Own Device
