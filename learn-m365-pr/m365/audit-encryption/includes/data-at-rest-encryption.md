@@ -4,7 +4,6 @@ BitLocker is deployed with Advanced Encryption Standard (AES) 256-bit encryption
 
 :::image type="content" source="../media/encryption-flow-bitlocker.png" alt-text="A flow diagram depicting the chain of trust for BitLocker encryption. Cleartext data is encrypted by a Full Volume Encryption Key, which is protected by the Volume Master Key, which is bound to the Trusted Platform Module." border="false":::
 
-
 BitLocker supports keys which fall into two management categories:
 
 - BitLocker-managed keys, which are generally short-lived and tied to the lifetime of an operating system instance installed on a server or to a given disk. These keys are deleted and reset during server reinstallation or disk formatting.
