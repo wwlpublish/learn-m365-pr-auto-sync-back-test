@@ -9,6 +9,7 @@ The customer is the data controller for their use of Microsoft online services a
 **Data processor:** A natural or legal person, public authority, agency, or other body, which processes personal data on behalf of the controller. In enterprise services, Microsoft acts as a data processor, which processes data in accordance with a customer's documented instructions to provide the online services or professional services. Microsoft will only process data based on your documented instructions. The volume licensing agreement, including the Data Protection Terms, and the way in which a customer configures and uses the service form a customer's documented instructions.
 
 The diagram below describes the relationship between data controllers, data processors, data subjects, and personal data in more detail. In the following examples, C1 is a direct customer of an enterprise service, and C2 is a customer of C1.
+
 :::image type="content" source="../media/relationship-diagram.png" alt-text="Data processor is microsoft when delivering online and professional services. Data controller is C1 admin (license holder). An example would be Contoso tenant admin. Both C1 user and C2 user can be data subject. An example of C1 user is contoso employee, and an example of C2 user would be contoso external users." border="false":::
 
 There are two types of C1 roles and one type of C2 role:
