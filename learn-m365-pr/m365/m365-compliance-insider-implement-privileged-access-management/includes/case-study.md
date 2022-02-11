@@ -100,7 +100,7 @@ When an approval request is created, members of the approver group receive an em
 
 Members of the approver group can either approve or deny the request in the Microsoft 365 admin center by navigating to **Settings** > **Security & Privacy** > **Privileged access** and selecting the **Manage access policies and requests** link to view the list of pending requests. Selecting a request opens the **Request details** page for that request and the approver can either select **Approve** or **Deny**.
 
-:::image type="content" source="../media/approve-deny.png" alt-text="A dialog box with the options "Approve" or "Deny."" border="false":::
+:::image type="content" source="../media/approve-deny.png" alt-text="A dialog box with the options 'Approve' or 'Deny.'. " border="false":::
 
 The requestor is subsequently notified of the request approval or denial via email.  
   
