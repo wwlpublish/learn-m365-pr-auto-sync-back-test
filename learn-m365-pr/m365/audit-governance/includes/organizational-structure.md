@@ -2,7 +2,7 @@ Microsoft is organized around engineering groups who build and support Microsoft
 
 Microsoft 365 is a multi-tenant, cloud-based subscription service offering from Microsoft. Subscriptions to Microsoft 365 provide customers with an option to select from various cloud services, including Exchange Online, SharePoint Online, Microsoft Teams, and Office Online. Microsoft 365 service infrastructure is housed in Microsoft datacenters and uses many features of Microsoft Azure. Our services are designed to provide performance, scalability, security, management capabilities, and service levels required for mission-critical applications and systems used by business organizations.
 
-![A diagram showing the distinctions between Microsoft 365 Software as a Service (Saas), Microsoft Azure Platform as a Service (PaaS), and Microsoft Datacenters Infrastructure as a Service (IaaS).](../media/subscriptions.png)
+:::image type="content" source="../media/subscriptions.png" alt-text="A diagram showing the distinctions between Microsoft 365 Software as a Service (Saas), Microsoft Azure Platform as a Service (PaaS), and Microsoft Datacenters Infrastructure as a Service (IaaS)." border="false":::
 
 ## Microsoft 365 services
 

@@ -11,15 +11,15 @@ Once you specify the sender domain, you can use this to create your search and s
 1. Open the case under investigation and navigate to the **Review Sets** tab, then select a review set.
 1. In the **Individual results** dropdown list, click **Search profile view**.
 
-     :::image type="content" source="../media/search-profile-view.png" alt-text="Search profile view screen" lightbox="../media/search-profile-view.png" border="false":::
+     :::image type="content" source="../media/search-profile-view.png" alt-text="Search profile view screen." lightbox="../media/search-profile-view.png" border="false":::
 
 1. When the Search profile view page is displayed, you will see several default widgets.
 
-     :::image type="content" source="../media/widgets.png" alt-text="Search profile view widgets" lightbox="../media/widgets.png":::
+     :::image type="content" source="../media/widgets.png" alt-text="Search profile view widgets." lightbox="../media/widgets.png":::
 
 1. To customize the dashboard, **click New widget**.
 
-     :::image type="content" source="../media/widgets.png" alt-text="Click New widget" lightbox="../media/widgets.png":::
+     :::image type="content" source="../media/widgets.png" alt-text="Click New widget." lightbox="../media/widgets.png":::
 
 1. You can select **Choose from library** to add more widgets from a library.
 
@@ -125,7 +125,7 @@ In addition to queries that you can save, you can use filters to quickly apply a
 
 When compliance officers, attorneys, or other users review content in a review set, their opinions related to the content can be captured by using tags. For example, if the intent is to cull unnecessary content, a user can tag documents with a tag such as "Non-responsive". After content has been reviewed and tagged, a review set search can be created to exclude any content tagged as "Non-responsive", which removes this content from the next steps in the Advanced eDiscovery workflow.
 
- :::image type="content" source="../media/manage-tags.png" alt-text="Manage tags screen in review set" lightbox="../media/manage-tags.png" border="false":::
+ :::image type="content" source="../media/manage-tags.png" alt-text="Manage tags screen in review set." lightbox="../media/manage-tags.png" border="false":::
 
 When you click **Manage tags**, a customizable coding panel is displayed to enable you to effectively apply tags and triage and organize the content under review.
 

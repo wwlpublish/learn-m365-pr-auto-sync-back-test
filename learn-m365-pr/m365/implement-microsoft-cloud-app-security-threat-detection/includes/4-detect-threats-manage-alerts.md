@@ -54,6 +54,6 @@ View a [video version](https://www.microsoft.com/videoplayer/embed/RWJISe) of th
 
 Click on the image to get started.
 
-[![Detect threats and manage alerts with Microsoft Defender for Cloud Apps](../media/detect-threats.png)](https://aka.ms/DetectThreats-ManageAlerts-MCAS_InteractiveGuide)
+[:::image type="content" source="../media/detect-threats.png" alt-text="Detect threats and manage alerts with Microsoft Defender for Cloud Apps" border="false":::](https://aka.ms/DetectThreats-ManageAlerts-MCAS_InteractiveGuide)
 
 Be sure to click the full-screen option in the video player. When you're done, use the **Back** arrow in your browser to come back to this page.
