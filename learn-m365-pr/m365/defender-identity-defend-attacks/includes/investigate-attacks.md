@@ -47,6 +47,6 @@ An entity is a user, computer, or device within a domain. With Microsoft Defende
 
 ## Explore attack investigation and response
 
-[![Investigate and respond to attacks with Microsoft Defender for Identity](../media/investigate-threats.png)](https://aka.ms/MSDI.IG)
+:::image type="content" source="../media/investigate-threats.png" alt-text="Investigate and respond to attacks with Microsoft Defender for Identity." border="false":::
 
 Be sure to click the full-screen option in the video player. When you're done, use the **Back** arrow in your browser to come back to this page.

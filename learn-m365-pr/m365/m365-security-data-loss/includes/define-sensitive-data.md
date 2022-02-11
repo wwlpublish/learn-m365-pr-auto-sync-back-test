@@ -34,7 +34,7 @@ The following use case illustrates the lifecycle of a document.
 1. The finance and HR teams approve the final document and email it to the payroll team.
 1. Payroll opens the document in a third-party tool for payout.
 
-![Flowchart that illustrates the workflow of a document with sensitive information](../media/sensitive-data-workflow.png)
+:::image type="content" source="../media/sensitive-data-workflow.png" alt-text="Flowchart that illustrates the workflow of a document with sensitive information." border="false":::
 
 Where could you use Data Loss Prevention (DLP) in this scenario?
 

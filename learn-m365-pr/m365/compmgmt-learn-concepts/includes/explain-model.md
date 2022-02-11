@@ -2,4 +2,4 @@ In organizations running only on-premises hardware and software, the organizatio
 
 Microsoft manages controls relating to physical infrastructure, security, and networking with a software as a service (SaaS) offering like Microsoft 365. Organizations no longer need to spend resources building datacenters or setting up network controls. With this model, organizations manage the risk for data classification and accountability. And risk management is shared in certain areas like identity and access management. The chart below is an example of how responsibility is shared between the cloud customer and cloud provider with various on-premises and online services models.
 
-  ![Shared responsibility model](../media/shared-responsibility-model.png)
+:::image type="content" source="../media/shared-responsibility-model.png" alt-text="Shared responsibility model." border="false":::

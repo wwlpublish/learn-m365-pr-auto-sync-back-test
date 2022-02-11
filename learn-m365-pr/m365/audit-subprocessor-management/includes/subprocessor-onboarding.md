@@ -12,7 +12,7 @@ Adding a new subprocessor requires a series of rigorous verifications to ensure 
 
 In addition, business unit approval is required as a final check after all scores and checks have been returned and accounted for.
 
-![a workflow detailing SSPA enrollment process explained in below narrative](../media/enrollment-process.png)
+:::image type="content" source="../media/enrollment-process.png" alt-text="a workflow detailing SSPA enrollment process explained in below narrative." border="false":::
 
 Subprocessor enrollment begins with an email request to a prospective subprocessor with instructions to create a profile in the Microsoft Supplier Compliance Portal (MSCP). Subprocessors use the portal to choose the data processing activities they wish to be approved for. These data processing activities include:
 

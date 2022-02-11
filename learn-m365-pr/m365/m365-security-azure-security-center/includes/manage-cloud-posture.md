@@ -9,23 +9,23 @@ Microsoft Defender for Cloud helps you manage your cloud security posture throug
 
 Microsoft Defender for Cloud will continually look for security issues with subscriptions and resources across your organization. It will then aggregate all of its findings into a single score to give an indication of your current security situation. The higher the secure score, the lower the identified risk level for your organization. To find more details about your secure score, you can select it in the Microsoft Defender for Cloud overview dashboard:
 
-:::image type="content" source="../media/3-secure-score.png" alt-text="Secure score":::
+:::image type="content" source="../media/3-secure-score.png" alt-text="Secure score.":::
 
 You can review the secure score, and then begin to work on improving it. You'll see the overall score, and how it's split across your subscriptions:
 
-:::image type="content" source="../media/3-secure-score-dashboard-inline.png" lightbox="../media/3-secure-score-dashboard-expanded.png" alt-text="Screenshot showing the Secure score dashboard":::
+:::image type="content" source="../media/3-secure-score-dashboard-inline.png" lightbox="../media/3-secure-score-dashboard-expanded.png" alt-text="Screenshot showing the Secure score dashboard.":::
 
 Select any subscription to find out how its score has been calculated:
 
-:::image type="content" source="../media/3-secure-score-calculation-inline.png" lightbox="../media/3-secure-score-calculation-expanded.png" alt-text="Secure score calculation":::
+:::image type="content" source="../media/3-secure-score-calculation-inline.png" lightbox="../media/3-secure-score-calculation-expanded.png" alt-text="Secure score calculation.":::
 
 You'll see a list of controls. Each control is made up of a group of related recommendations to deal with a specific risk, along with detailed instructions about how to implement them. Your secure score is calculated using these controls. The controls are prioritized for you in the top down list, so that you're aware of which ones to take care of first. Each control will only help you increase your secure score if you get maximum points for that specific control. You only get all those points if you implement all of its associated recommendations. For example, the **Manage access and permissions control** has several recommendations that need to be implemented to get its maximum number of points (four):
 
-:::image type="content" source="../media/3-control-breakdown-inline.png" lightbox="../media/3-control-breakdown-expanded.png" alt-text="Breakdown" :::
+:::image type="content" source="../media/3-control-breakdown-inline.png" lightbox="../media/3-control-breakdown-expanded.png" alt-text="Breakdown." :::
 
 If a recommendation in a control has the **Quick Fix** option, select it to apply the recommendation automatically:
 
-:::image type="content" source="../media/3-apply-quick-fix-secure-score-inline.png" lightbox="../media/3-apply-quick-fix-secure-score-expanded.png" alt-text="Apply the recommendation":::
+:::image type="content" source="../media/3-apply-quick-fix-secure-score-inline.png" lightbox="../media/3-apply-quick-fix-secure-score-expanded.png" alt-text="Apply the recommendation.":::
 
 > [!NOTE]
 > You can also access your secure score programmatically through the Microsoft Defender for Cloud REST API, to query data and generate your own reports.
@@ -38,11 +38,11 @@ It can be difficult to remediate issues across a large fleet of resources and su
 
 You can use **Quick Fix** to implement certain recommendations across multiple resources. When you select **Quick Fix**, you can choose the resources that this recommendation should be implemented across. For example, for the **Secure transfer to storage accounts should be enabled** Quick Fix recommendation, you select which storage accounts should be remediated:
 
-:::image type="content" source="../media/3-secure-transfer-storage-accounts-recommendation-inline.png" lightbox="../media/3-secure-transfer-storage-accounts-recommendation-expanded.png" alt-text="Secure storage accounts recommendation":::
+:::image type="content" source="../media/3-secure-transfer-storage-accounts-recommendation-inline.png" lightbox="../media/3-secure-transfer-storage-accounts-recommendation-expanded.png" alt-text="Secure storage accounts recommendation.":::
 
 At the top of the pane, you'll also see a general description and details of the remediation, and information on how to remediate it manually if you wish. When you select **Remediate**, a pane appears on the right for you to review what this remediation will do, and the implications. If you're happy to go ahead, select **Remediate resources**:
 
-:::image type="content" source="../media/3-select-remediate-resources-inline.png" lightbox="../media/3-select-remediate-resources-expanded.png" alt-text="Remediate resources":::
+:::image type="content" source="../media/3-select-remediate-resources-inline.png" lightbox="../media/3-select-remediate-resources-expanded.png" alt-text="Remediate resources.":::
 
 ## Workflow automation with Logic Apps
 
@@ -57,11 +57,11 @@ To use workflow automation with Logic Apps, you'll have to create a Logic App an
 
 1. Select **Add workflow automation**.
 
-    :::image type="content" source="../media/3-select-add-workflow-automation.png" alt-text="Add workflow automation":::
+    :::image type="content" source="../media/3-select-add-workflow-automation.png" alt-text="Add workflow automation.":::
 
 1. In the pane that appears on the right, fill in the form, like this:
 
-    :::image type="content" source="../media/3-add-workflow-automation-form.png" alt-text="Add workflow automation form":::
+    :::image type="content" source="../media/3-add-workflow-automation-form.png" alt-text="Add workflow automation form.":::
     1. Provide a name and description for your automation in the **name** and **description** fields.
 
     1. Select a subscription in the **subscription** field then select a resource group in the **resource group** field.
@@ -73,31 +73,31 @@ To use workflow automation with Logic Apps, you'll have to create a Logic App an
     1. Under **Actions**, select the **visit the Logic Apps page** link to create a new Logic App.
 
     1. You'll be taken to the Logic Apps pane. Select **Add**:
-    :::image type="content" source="../media/3-select-add-logic-app.png" alt-text="Add logic app":::
+    :::image type="content" source="../media/3-select-add-logic-app.png" alt-text="Add logic app.":::
 
 Now you can configure your Logic App.
 
 1. In the form that appears, select your subscription and resource group. Give your Logic App a name, then select a region. When you're done, select **Review + Create,** then select **Create**:
 
-    :::image type="content" source="../media/3-select-review-create-logic-app.png" alt-text="Select review and create logic app":::
+    :::image type="content" source="../media/3-select-review-create-logic-app.png" alt-text="Select review and create logic app.":::
 
 1. Wait until your Logic App has been
 created, then select **Go to resource**.
 
-    :::image type="content" source="../media/3-logic-app-resource.png" alt-text="Go to resource":::
+    :::image type="content" source="../media/3-logic-app-resource.png" alt-text="Go to resource.":::
 
 1. In the Logic App designer, select **Security** in the **Category** field:
 
-    :::image type="content" source="../media/3-security-category-app-designer.png" alt-text="App designer security category":::
+    :::image type="content" source="../media/3-security-category-app-designer.png" alt-text="App designer security category.":::
 1. Select **Get a notification email when Defender for Cloud detects a threat**. Then select **Use this template**.
 
 1. Configure an Office 365 Outlook connector by selecting the **+** next to the **Office 365 Outlook** field.
 
-    :::image type="content" source="../media/3-add-outlook-connector.png" alt-text="Add Outlook connector":::
+    :::image type="content" source="../media/3-add-outlook-connector.png" alt-text="Add Outlook connector.":::
 
 1. When you're done, select the **+** next to the **Defender for Cloud Alert** field, then select **Continue**. Now you can configure the details for the emails you want to send for alerts:
 
-    :::image type="content" source="../media/3-configure-email-details-inline.png" lightbox="../media/3-configure-email-details-expanded.png" alt-text="Configure email details":::
+    :::image type="content" source="../media/3-configure-email-details-inline.png" lightbox="../media/3-configure-email-details-expanded.png" alt-text="Configure email details.":::
 
     When you're done, select **Save**.
 
@@ -106,7 +106,7 @@ created, then select **Go to resource**.
 
     1. Select **Refresh** at the bottom of the form. You can select your Logic App in the **Logic App name** field. Then select **Create** when you're done:
 
-    :::image type="content" source="../media/3-select-logic-app.png" alt-text="Select Logic App":::
+    :::image type="content" source="../media/3-select-logic-app.png" alt-text="Select Logic App.":::
 
 ## Continuous export
 
@@ -124,7 +124,7 @@ For example, you can configure a continuous export to a Log Analytics workspace:
 
 1. Select the subscription for which you want to configure an export. Then Select **Continuous export** on the left. The **Continuous export** pane appears.
 
-    :::image type="content" source="../media/3-select-continuous-export.png" alt-text="Select continuous export":::
+    :::image type="content" source="../media/3-select-continuous-export.png" alt-text="Select continuous export.":::
 
 1. Select the **Log Analytics workspaces** tab.
 
@@ -141,11 +141,11 @@ For example, you can configure a continuous export to a Log Analytics workspace:
 The regulatory compliance pane helps you to better understand and improve your
 compliance posture. Select **Regulator compliance** on the overview pane of the workload protection dashboard to access the regulatory compliance dashboard:
 
-:::image type="content" source="../media/3-regulatory-compliance.png" alt-text="Regulatory compliance":::
+:::image type="content" source="../media/3-regulatory-compliance.png" alt-text="Regulatory compliance.":::
 
 The regulatory compliance dashboard gives an overview of your environment's compliance status, based on the assessments made against your environment for a particular standard and its associated controls. For example, you could use it to see how you're matching up to the Azure Security Benchmark, based on its associated controls:
 
-:::image type="content" source="../media/3-regulatory-compliance-breakdown.png" alt-text="Regulatory compliance breakdown":::
+:::image type="content" source="../media/3-regulatory-compliance-breakdown.png" alt-text="Regulatory compliance breakdown.":::
 
 To remediate compliance issues, you expand the list of controls and select the recommendations to implement them.
 
@@ -153,7 +153,7 @@ The Azure Security Benchmark consists of a collection of high-impact security re
 
 You can also generate reports for a standard. For example, you can download a report for the Azure Security Benchmark, by selecting **Download report**, and then selecting **Azure Security Benchmark** in the dropdown:
 
-:::image type="content" source="../media/3-select-download-report-inline.png" lightbox="../media/3-select-download-report-expanded.png" alt-text="Download report":::
+:::image type="content" source="../media/3-select-download-report-inline.png" lightbox="../media/3-select-download-report-expanded.png" alt-text="Download report.":::
 
 Reports give a high-level summary of your compliance status against your selected standard. You can share these reports with stakeholders, and provide them for internal and external auditing.
 
@@ -167,7 +167,7 @@ You can create your own policies that Microsoft Defender for Cloud uses to asses
 
 1. In the pane that appears, select **Add a custom initiative** under **Your custom initiatives**:
 
-    :::image type="content" source="../media/3-add-custom-initiative.png" alt-text="Add custom initiative":::
+    :::image type="content" source="../media/3-add-custom-initiative.png" alt-text="Add custom initiative.":::
 1. The **Add custom initiatives** pane appears. You then select **Create new** at the top.
 
 1. In the **Initiative definition** pane, provide the following values:
@@ -181,11 +181,11 @@ You can create your own policies that Microsoft Defender for Cloud uses to asses
 
 1. On the right, select the policy definitions you want to include in this initiative definition. Some policy definitions allow you to set parameters when you add a new policy definition.
 
-    :::image type="content" source="../media/3-add-policy-definition.png" alt-text="Add policy definition":::
+    :::image type="content" source="../media/3-add-policy-definition.png" alt-text="Add policy definition.":::
 
 1. Select **Save** then, in the **Add custom initiatives** pane, select **Add** in the list that appears.
 
-    :::image type="content" source="../media/3-select-add-custom-initiative.png" alt-text="Select Add custom initiative":::
+    :::image type="content" source="../media/3-select-add-custom-initiative.png" alt-text="Select Add custom initiative.":::
 
     1. In the pane that appears, review the basic information about your custom policy. Make sure that **Policy enforcement** is set to **Enabled**. Then select **Review + create**.
 
@@ -197,7 +197,7 @@ Your custom initiative will start to take effect. You'll find it in your complia
 
 Microsoft Defender for Cloud will continuously monitor your environment based on network security best practices. When Microsoft Defender for Cloud finds potential security risks, it will give alerts and recommendations to help you understand how to best deal with them. The network map is a tool in Microsoft Defender for Cloud to help you understand the state of your Azure network and remediate any identified issues.
 
-:::image type="content" source="../media/3-network-map.png" alt-text="Network map":::
+:::image type="content" source="../media/3-network-map.png" alt-text="Network map.":::
 
 You can use the network map to see the network topology of your workloads in Azure, and the connections between your virtual machines, virtual networks, and subnets. Use the map to drill down into specific resources to get a better understanding of them, along with the recommendations for those resources. To view the network map, you:
 
@@ -205,19 +205,19 @@ You can use the network map to see the network topology of your workloads in Azu
 
 1. In the network map pane, select **See topology**.
 
-    :::image type="content" source="../media/3-select-see-typology.png" alt-text="See typology":::
+    :::image type="content" source="../media/3-select-see-typology.png" alt-text="See typology.":::
 
 You can use filters at the top of the topology to specify what you want to see. For example, you might want to see only high or medium severity security issues, or security issues of all severity.
 
 You select a specific resource to drill down into it, and view the recommendations. Details and recommendations for that specific resource will show in a pane that appears on the right:
 
-:::image type="content" source="../media/3-network-details-inline.png" lightbox="../media/3-network-details-expanded.png" alt-text="View network details":::
+:::image type="content" source="../media/3-network-details-inline.png" lightbox="../media/3-network-details-expanded.png" alt-text="View network details.":::
 
 ### Explore how to protect your hybrid cloud with Microsoft Defender for Cloud
 
 View a [video version](https://www.microsoft.com/videoplayer/embed/RE4GsND) of the interactive guide (captions available in more languages).
 
-<a href="https://mslearn.cloudguides.com/guides/Protect%20your%20hybrid%20cloud%20with%20Azure%20Security%20Center">![Microsoft Defender for Cloud](../media/protect-your-hybrid-cloud.png)</a>  
+<a href="https://mslearn.cloudguides.com/guides/Protect%20your%20hybrid%20cloud%20with%20Azure%20Security%20Center">![Microsoft Defender for Cloud.](../media/protect-your-hybrid-cloud.png)</a>  
 
 Be sure to click the full-screen option in the video player. When you're done, use the **Back** arrow in your browser to come back to this page. 
 

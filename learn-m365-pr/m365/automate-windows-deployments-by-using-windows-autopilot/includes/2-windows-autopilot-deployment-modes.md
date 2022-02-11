@@ -2,7 +2,7 @@
 
 |||
 | :--- | :--- |
-| ![Icon indicating play video](../media/video-icon.png)| Watch this video to learn more about the various scenarios that are supported by Windows Autopilot.|
+| ![Icon indicating play video.](../media/video-icon.png)| Watch this video to learn more about the various scenarios that are supported by Windows Autopilot.|
 
 >[!VIDEO https://www.youtube.com/embed/7t7xaV8sm50]
 
