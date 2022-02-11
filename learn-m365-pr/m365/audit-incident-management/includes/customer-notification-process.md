@@ -40,7 +40,7 @@ To ensure notifications are received promptly by the correct customer contacts, 
 - Customers should ensure their contact information is up to date in the [Microsoft 365 Admin center](/microsoft-365/admin/admin-overview/about-the-admin-center?azure-portal=true).
 - Customer administrators should [configure the options](/microsoft-365/admin/manage/message-center?azure-portal=true) for how Data Privacy messages are displayed in the Message Center to ensure relevant customer administrators are made aware of incident notifications.
 
-   :::image type="content" source="../media/defender-365-admin-roles.png" alt-text="Screenshot of Microsoft 365 admin center" lightbox="../media/defender-365-admin-roles.png":::
+   :::image type="content" source="../media/defender-365-admin-roles.png" alt-text="Screenshot of Microsoft 365 admin center." lightbox="../media/defender-365-admin-roles.png":::
 
 - If necessary, Global Admins can configure additional roles with access to Message Center content to avoid granting unnecessary administrative rights to non-administrators who require access to incident notifications.
 
