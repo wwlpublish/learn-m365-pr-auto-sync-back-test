@@ -11,4 +11,9 @@ With Microsoft Managed Keys, the Microsoft service manages and stores the root e
 
 Microsoft Managed Keys are a viable solution for cloud customers that don't have key management requirements. For some customers, Microsoft Managed Keys may not meet their obligations for key management, operation, or storage. To meet these obligations, customer-managed keys can be implemented using the Customer Key feature.
 
+<<<<<<< HEAD
 :::image type="content" source="../media/managed-key-hierarchy.png" alt-text="Two flow diagrams showing the Microsoft Managed key hierarchy. The diagram to the left shows the key hierarchy for Exchange Online, which shows how two Microsoft Managed RSA keys and one equivalent AES-256 availability key are used to protect the Data Encryption Policy Key, which in turn protects the Mailbox Key used to encrypt mailboxes in Exchange Online. The diagram to the right shows the key hierarchy for SharePoint Online, OneDrive for Business, and Microsoft Teams files, which use SQL Transparent Data Encryption to protect File Chunk Encryption Keys for SQL Databases." lightbox="../media/managed-key-hierarchy.png" border="false":::
+=======
+:::image type="content" source="../media/managed-key-hierarchy.png" alt-text="Two flow diagrams showing the Microsoft Managed key hierarchy. The diagram to the left shows the key hierarchy for Exchange Online, which shows how two Microsoft Managed RSA keys and one equivalent AES-256 availability key are used to protect the Data Encryption Policy Key, which in turn protects the Mailbox Key used to encrypt mailboxes in Exchange Online. The diagram to the right shows the key hierarchy for SharePoint Online, OneDrive for Business, and Microsoft Teams files, which use SQL Transparent Data Encryption to protect File Chunk Encryption Keys for SQL Databases." border="false":::
+
+>>>>>>> 5d8ac5f222ea5caa671fa746a4553b183ec4c04a
