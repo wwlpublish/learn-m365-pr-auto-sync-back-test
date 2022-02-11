@@ -2,7 +2,7 @@ While a manual installation might be suitable for a small organization with a fe
 
 This module will provide an introduction to the tools and processes for automating and performing large-scale deployments.
 
-### Objectives 
+### Objectives
 
 After completing this module, you will be able to:
 
