@@ -17,7 +17,7 @@ Data Handling Standards provide guidance about how to manage each data classific
 
 To comply with broadly applicable privacy laws, we strictly limit our use of all personal data within the four categories of data processed. To protect the confidentiality of customer business data, we further strictly limit the use of all customer data and all professional services data. We do not access the contents of customer data to determine what is personal or not. Instead, we assume that all customer data and all professional services data contain personal data.  Below is a visual representation of the data types defined in the DPA. The blue box helps to illustrate that all personal data is processed as a part of one of the other data types (all of which also include non-personal data). Support data is a subset of professional services data.
 
-![a visual representation to show personal data can be found in all types of data such as customer data, diagnostic data, service-generated data, professional services data, and support data.](../media/personal-data.png)
+:::image type="content" source="../media/personal-data.png" alt-text="a visual representation to show personal data can be found in all types of data such as customer data, diagnostic data, service-generated data, professional services data, and support data." border="false":::
 
 The personal data within diagnostic data and service-generated data is mostly in the form of unique machine-generated numbers that are linkable to users.
 
