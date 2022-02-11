@@ -3,10 +3,6 @@ Microsoft 365 uses BitLocker to encrypt the disk drives containing customer data
 BitLocker is deployed with Advanced Encryption Standard (AES) 256-bit encryption on disks containing customer data. Disk sectors are encrypted with a Full Volume Encryption Key (FVEK), which is itself encrypted with the Volume Master Key (VMK), which in turn is bound to the Trusted Platform Module (TPM) in the server. Because the VMK directly protects the FVEK, protecting the VMK using the TPM is critical for preventing unauthorized access to the FVEK. BitLocker uses FIPS-compatible algorithms to ensure that encryption keys are not stored or sent over the wire in the clear. The Microsoft 365 implementation of customer data-at-rest-protection does not deviate from the default BitLocker implementation.
 
 :::image type="content" source="../media/encryption-flow-bitlocker.png" alt-text="A flow diagram depicting the chain of trust for BitLocker encryption. Cleartext data is encrypted by a Full Volume Encryption Key, which is protected by the Volume Master Key, which is bound to the Trusted Platform Module." border="false":::
-<<<<<<< HEAD
-=======
-
->>>>>>> 5d8ac5f222ea5caa671fa746a4553b183ec4c04a
 
 BitLocker supports keys which fall into two management categories:
 

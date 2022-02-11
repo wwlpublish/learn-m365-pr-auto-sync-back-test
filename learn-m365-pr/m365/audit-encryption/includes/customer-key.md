@@ -9,11 +9,7 @@ The benefits of using Customer Key include:
 - Providing rights protection and management features on top of strong encryption protection.
 - Enhancing the ability of Microsoft 365 to meet the demands of customers with compliance requirements regarding encryption.
 
-<<<<<<< HEAD
 :::image type="content" source="../media/customer-key-hierarchy.png" alt-text="Two flow diagrams depicting the Microsoft Customer Key hierarchy. The diagram to the left depicts the key hierarchy for Exchange Online, which shows how two Customer root RSA keys and one equivalent AES-256 availability key are used to protect the Data Encryption Policy Key, which in turn protects the Mailbox Key used to encrypt mailboxes in Exchange Online. The diagram to the right depicts the Customer Key hierarchy for SharePoint Online, OneDrive for Business, and Microsoft Teams files, which shares the same root and availability key configuration but uses these keys to protect a Tenant Intermediate Key, which in turn protects a Site Encryption Key, which is used to protect File Chunk Encryption Keys for encrypting customer data." lightbox="../media/customer-key-hierarchy.png" border="false":::
-=======
-:::image type="content" source="../media/customer-key-hierarchy.png" alt-text="Two flow diagrams depicting the Microsoft Customer Key hierarchy. The diagram to the left depicts the key hierarchy for Exchange Online, which shows how two Customer root RSA keys and one equivalent AES-256 availability key are used to protect the Data Encryption Policy Key, which in turn protects the Mailbox Key used to encrypt mailboxes in Exchange Online. The diagram to the right depicts the Customer Key hierarchy for SharePoint Online, OneDrive for Business, and Microsoft Teams files, which shares the same root and availability key configuration but uses these keys to protect a Tenant Intermediate Key, which in turn protects a Site Encryption Key, which is used to protect File Chunk Encryption Keys for encrypting customer data." border="false":::
->>>>>>> 5d8ac5f222ea5caa671fa746a4553b183ec4c04a
 
 ## Availability key
 
