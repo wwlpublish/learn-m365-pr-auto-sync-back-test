@@ -10,7 +10,7 @@ The customer is the data controller for their use of Microsoft online services a
 
 The diagram below describes the relationship between data controllers, data processors, data subjects, and personal data in more detail. In the following examples, C1 is a direct customer of an enterprise service, and C2 is a customer of C1.
 
-![Data processor is microsoft when delivering online and professional services. Data controller is C1 admin (license holder). An example would be Contoso tenant admin. Both C1 user and C2 user can be data subject. An example of C1 user is contoso employee, and an example of C2 user would be contoso external users.](../media/relationship-diagram.png)
+:::image type="content" source="../media/relationship-diagram.png" alt-text="Data processor is microsoft when delivering online and professional services. Data controller is C1 admin (license holder). An example would be Contoso tenant admin. Both C1 user and C2 user can be data subject. An example of C1 user is contoso employee, and an example of C2 user would be contoso external users." border="false":::
 
 There are two types of C1 roles and one type of C2 role:
 
