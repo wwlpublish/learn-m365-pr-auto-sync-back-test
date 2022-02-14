@@ -39,7 +39,7 @@ DISM /Unmount-Image /MountDir:C:\test\offline /Commit
 
 Windows Imaging and Configuration Designer (Windows ICD) is a tool designed to assist with the creation of provisioning packages that can be used to dynamically configure a Windows device (PCs, tablets, and phones). This is particularly useful for setting up new devices, without the need for re-imaging the device with a custom image.
 
-:::image type="content" source="../media/icd-create-options-1703-e7b93af9.png" alt-text="The WICD dashboard, showing buttons to create a new provisioning pkg.":::
+:::image type="content" source="../media/windows-imaging-configuration-designer-create-options-1703-587e3860.png" alt-text="The WICD dashboard, showing buttons to create a new provisioning pkg.":::
 
 
 <sup>The WICD Create Page.</sup>
