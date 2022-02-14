@@ -33,7 +33,7 @@ The BCM lifecycle is at the core of our BCM methodology. This process is designe
 
 The BCM lifecycle includes three high-level phases. It begins with an initial **Assessment**, which involves identifying critical processes and objectives that should be included in the business continuity program. The **Planning** phase focuses on developing and implementing resilience and recovery strategies, as well as documenting them in official business continuity plans. Finally, **Capability Validation** tests business continuity plans and their implementations to verify effectiveness and identify improvements.
 
-![A diagram of the BCM lifecycle - assessment, planning, and capacity validation.](../media/lifecycle.png)
+:::image type="content" source="../media/lifecycle.png" alt-text="A diagram of the BCM lifecycle - assessment, planning, and capacity validation." border="false":::
 
 ## Learn more
 
