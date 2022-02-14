@@ -2,7 +2,7 @@ To view the assessment, click on **Assessment** from the home screen. You will s
 
 Within the assessment (pictured below), you can find an overview of Azure readiness with a monthly cost estimate for compute and storage.
 
->![Azure readiness](../media/azure-readiness.png)
+:::image type="content" source="../media/azure-readiness.png" alt-text="Azure readiness." border="false":::
 
 From there you can explore Azure Readiness for a more detailed breakdown of:
 
@@ -13,11 +13,11 @@ From there you can explore Azure Readiness for a more detailed breakdown of:
 
 Azure Migrate also discovers dependencies across virtual machines in your group. To access this view, go back to the **Azure Migrate Servers** screen and click on **Discovered servers**.
 
->![Assessment](../media/assessment-2.png)
+:::image type="content" source="../media/assessment-2.png" alt-text="Assessment." border="false":::
 
 Click on **View Dependencies** from the list of servers to see dependencies for a virtual machine. There, you will find a view of dependent resources with ports and IP addresses that communicate with your virtual machine. This view displays all TCP/IP traffic between resources You can migrate those dependent resources to ensure your applications will work after the migration.
 
->![A screenshot of dependencies including the number of servers for different ports.](../media/dependencies.png)
+:::image type="content" source="../media/dependencies.png" alt-text="A screenshot of dependencies including the number of servers for different ports.." border="false":::
 
 You can export the assessment in a detailed Microsoft Excel spreadsheet. Using the assessment, you can find virtual machine recommendations, cost estimates, and any dependencies to ensure your migration goes smoothly.
 

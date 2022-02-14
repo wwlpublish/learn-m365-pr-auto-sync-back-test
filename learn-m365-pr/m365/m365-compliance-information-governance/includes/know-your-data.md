@@ -38,11 +38,11 @@ Unlike retention labels, which are published to locations such as all Exchange m
 
 This image shows how you select a sensitivity label in a Word document.
 
- ![Word document sensitivity label](../media/word-document-sensitivity-label.png)
+:::image type="content" source="../media/word-document-sensitivity-label.png" alt-text="Word document sensitivity label." border="false":::
 
 This image shows a retention label named GDPR applied to an email in Outlook.
 
- ![GDPR retention label for Outlook email](../media/retention-label-outlook-email.png)
+:::image type="content" source="../media/retention-label-outlook-email.png" alt-text="GDPR retention label for Outlook email." border="false":::
 
 Content can have both a sensitivity label and a retention label associated with it, but not more than one of each. An example might be an Excel file with a sensitivity label of "Internal use only" and a retention label named "Employee Record".
 
@@ -85,7 +85,7 @@ The ability to discover and classify data in Microsoft 365 apps and services is 
 
 Azure Information Protection scanner helps discover, classify, label, and protect sensitive information in on-premises file servers. You can run the scanner and get immediate insight into risks with on-premises data. Discover mode helps you identify and report on files containing sensitive data. Enforce mode automatically classifies, labels, and protects files with sensitive data.
   
- ![Discover and classify on-premises files](../media/discover-classify-on-premises-files.png)
+ ![Discover and classify on-premises files.](../media/discover-classify-on-premises-files.png)
 
 ## Discover and classify cloud services and SaaS apps
 
@@ -95,7 +95,7 @@ Most organizations store some of their sensitive data outside the Microsoft ecos
 - Automatically apply labels to sensitive files identified in cloud apps
 - Use sensitivity labels to apply policy, such as restricting access to sensitive information, blocking uploads, and blocking downloads
 
- ![Discover and classify cloud services using Microsoft Defender for Cloud Apps](../media/discover-classify-cloud-services.png)
+ ![Discover and classify cloud services using Microsoft Defender for Cloud Apps.](../media/discover-classify-cloud-services.png)
 
 ## Learn more
 

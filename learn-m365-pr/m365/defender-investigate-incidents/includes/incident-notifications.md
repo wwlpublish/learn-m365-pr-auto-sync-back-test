@@ -21,7 +21,7 @@ To start receiving notifications for new or progressing incidents, you'll need t
    1. A **description** of the rule.
 1. Next, you'll need to **configure the notification**:
 
-   :::image type="content" source="../media/4-incidents-email-notification-settings-expanded.png" lightbox="../media/4-incidents-email-notification-settings-expanded.png"alt-text="Screenshot showing the notification settings":::
+   :::image type="content" source="../media/4-incidents-email-notification-settings-expanded.png" lightbox="../media/4-incidents-email-notification-settings-expanded.png"alt-text="Screenshot showing the notification settings.":::
 
    - **Alert severity** - Choose the alert severities that will trigger an incident notification. For example, if you only want to be informed about high-severity incidents, select High.
    - **Device group scope** - You can specify all device groups or select from the list of device groups in your tenant.
