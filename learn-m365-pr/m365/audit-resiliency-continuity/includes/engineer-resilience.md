@@ -6,7 +6,7 @@ Microsoft defines resilience as "the ability of a business process or service to
 
 We respond to these challenges by using Microsoft's hyper-scale cloud and employing service automation to make our services resilient against multiple failure modes.
 
-![A graphic representation of engineering for resilience principles - active/active service design, fault isolation, reduced blast radius, and continuous improvement](../media/engineering-resilience-principles.png)
+:::image type="content" source="../media/engineering-resilience-principles.png" alt-text="A graphic representation of engineering for resilience principles - active/active service design, fault isolation, reduced blast radius, and continuous improvement" border="false":::
 
 ## Active/Active service design
 

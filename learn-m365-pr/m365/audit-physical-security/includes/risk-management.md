@@ -2,7 +2,7 @@ Managing risk within our datacenters is a continuous process, with formal assess
 
 Microsoft facilitates the TVRA process following these steps:
 
-![a visual representation of TVRA process starting with risk identification, risk analysis, risk classification, and report](../media/assurance-tvra-flow.png)
+:::image type="content" source="../media/assurance-tvra-flow.png" alt-text="a visual representation of TVRA process starting with risk identification, risk analysis, risk classification, and report" border="false":::
 
 - **Risk Identification:** TVRAs consider a wide range of threat scenarios arising from natural and human-created (including accidental) hazards. The results will vary depending on datacenter location, design, scope of services, and other factors. The TVRA selects the threat scenarios to highlight in the TVRA document based on customer requirements, an independent country, city, and site-level assessment of the risk environment provided by 3rd-party, and 1st-party risk information. For regions that have multiple datacenters, TVRA ratings are aggregated to ensure a holistic view of the physical and environmental threats, vulnerabilities, and risks for the locations being assessed.
 

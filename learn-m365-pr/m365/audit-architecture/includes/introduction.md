@@ -8,7 +8,7 @@ In this module, we explore how Microsoft 365 is designed to provide secure and r
 
 Currently, close to a million machines are used to power Microsoft 365 services. The infrastructure behind these services varies across service-specific hardware and virtualized environments in Azure, Windows, and Linux, and includes both multitenant and dedicated platforms. Microsoft 365 is a global business, and our infrastructure is distributed in datacenters around the world, enabling our customers to meet data residency and sovereignty requirements. Microsoft 365 services are designed to run at massive scale, which requires thousands of Microsoft engineers to build and maintain them.   Keeping our infrastructure secure is one of Microsoft's top priorities.
 
-![A diagram showing the distinctions between Microsoft 365 Software as a Service (Saas), Microsoft Azure Platform as a Service (PaaS), and Microsoft Datacenters Infrastructure as a Service (IaaS).](../media/subscription-types.png)
+:::image type="content" source="../media/subscription-types.png" alt-text="A diagram showing the distinctions between Microsoft 365 Software as a Service (Saas), Microsoft Azure Platform as a Service (PaaS), and Microsoft Datacenters Infrastructure as a Service (IaaS)." border="false":::
 
 Microsoft 365 service infrastructure is housed in Microsoft datacenters and leverages many features of Microsoft Azure. Four core features amongst many others are:
 

@@ -45,7 +45,7 @@ The files to be uploaded must be located in subfolders, where each subfolder is 
 - c:\nonO365\jewell.gordon@contoso.com
 - c:\nonO365\staci.gonzalez@contoso.com
 
-:::image type="content" source="../media/file-structure.png" alt-text="Required file structure":::
+:::image type="content" source="../media/file-structure.png" alt-text="Required file structure.":::
 
 ## Upload non-Microsoft 365 data
 
@@ -62,11 +62,11 @@ The files to be uploaded must be located in subfolders, where each subfolder is 
 1. Click **Next: Upload files**.
 1. On the **Upload files** page, verify or type the location of the root folder where you've stored the non-Microsoft 365 data you want to upload in the **Path to location of files** box. Next, click **Copy to clipboard** to copy the command that is displayed in the box.
 
-    :::image type="content" source="../media/non-office-data-upload-files.png" alt-text="Upload files screen":::
+    :::image type="content" source="../media/non-office-data-upload-files.png" alt-text="Upload files screen.":::
 
 1. Open a Windows command prompt (Run as administrator), paste the command that you copied in the previous step, and then press **Enter** to start the AzCopy command. After you start the command, the non-Microsoft 365 files will be uploaded to the Azure Storage location that was prepared in step 3.
 
-    :::image type="content" source="../media/process-files-2.png" alt-text="Command prompt commands" lightbox="../media/process-files-2.png":::
+    :::image type="content" source="../media/process-files-2.png" alt-text="Command prompt commands." lightbox="../media/process-files-2.png":::
 
 1. Return to the data import wizard in Advanced eDiscovery and click **Next: Process files**. This initiates processing, text extraction, and indexing of the non-Microsoft 365 files that were uploaded to the Azure Storage location.
 1. After the processing is finished, you can close the wizard.
@@ -88,7 +88,7 @@ You can add content from one review set to another one by selecting specific doc
 
 In the **Add to another review set** flyout page, choose the review set you want to add the items to. Choose whether to add **All documents in the review set** or **Selected documents only**. **Additional information** provides options to include metadata from the items and whether to include [tags](/microsoft-365/compliance/tagging-documents?azure-portal=true) from the source review set when the documents are added to the new review set.
 
- :::image type="content" source="../media/add-to-another-review-set.png" alt-text="Add to another review set options flyout page":::
+ :::image type="content" source="../media/add-to-another-review-set.png" alt-text="Add to another review set options flyout page.":::
 
 ### What is a load set?
 

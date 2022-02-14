@@ -4,7 +4,7 @@ title: Create audit log retention policies
 metadata:
   title: Create audit log retention policies
   description: Microsoft 365 delivers comprehensive audit logs and alerts across more than 15 services, which enables customers to track user and administration activity within their tenants. Improvements in Advanced Auditing in Microsoft 365 include preservation of audit logs for up to a year, faster access to data, and access to crucial events for quicker investigations.
-  ms.date: 08/04/2021
+  ms.date: 02/10/2022
   author: beccarobins
   ms.author: beccarobins
   ms.topic: interactive-tutorial
