@@ -1,6 +1,6 @@
 You'll need to let the process run for up to 24 hours to see complete performance metrics, but a basic assessment usually takes just a couple of minutes.
 
->![A screenshot of the Azure assessment tools card](../media/assessment.png)
+:::image type="content" source="../media/assessment.png" alt-text="A screenshot of the Azure assessment tools card." border="false":::
 
 To start:
 
@@ -12,7 +12,7 @@ To start:
 1. Search for the servers to add to your group.
 1. Select the servers you want to assess and later migrate.
 
-   ![A screenshot of steps used to deploy an image](../media/deploy-image-1.png)
+:::image type="content" source="../media/deploy-image-1.png" alt-text="A screenshot of steps used to deploy an image." border="false":::
 
 1. When finished, click **Create Assessment**.
 

@@ -41,7 +41,7 @@ To review discovered resources and custom apps, use the following procedure:
     - Transaction detail
     - User information
 
-:::image type="content" source="../media/discovered-resources.png" alt-text="Discovered resources page with a Bucket resource type and a Custom app resource type" lightbox="../media/discovered-resources.png":::
+:::image type="content" source="../media/discovered-resources.png" alt-text="Discovered resources page with a Bucket resource type and a Custom app resource type." lightbox="../media/discovered-resources.png":::
 
 5. For each custom app, use the ellipsis button (…) to select **Add custom app**.
 6. You can then identify and name the app so it appears in the Cloud Discovery dashboard.

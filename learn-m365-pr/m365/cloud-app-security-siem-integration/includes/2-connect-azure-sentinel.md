@@ -18,22 +18,22 @@ To connect Microsoft Sentinel to Microsoft Defender for Cloud Apps, perform the 
 3. Select **Next** if you want to send all data to **Microsoft Sentinel**, or select appropriate filters and then select **Next**.
 4. Select **Microsoft Sentinel** to finalize the integration.
 
-    :::image type="content" source="../media/2-finalize-integration.png" alt-text="Go to Microsoft Sentinel":::
+    :::image type="content" source="../media/2-finalize-integration.png" alt-text="Go to Microsoft Sentinel.":::
 
 5. In **Microsoft Sentinel** select **Connect workspace** and select **Create a new workspace**.
 
-    :::image type="content" source="../media/2-connect-workspace.png" alt-text="Connect workspace":::
+    :::image type="content" source="../media/2-connect-workspace.png" alt-text="Connect workspace.":::
 
 6. Select **Create a new workspace**.
 7. Select the appropriate resource group region and pricing tier, select **Review + Create** and select **Create**.
 8. Select your new workspace and select **Add**.
 9. In **Configuration**, select **Data Connectors**.
 
-    :::image type="content" source="../media/2-sentinel-configuration.png" alt-text="Microsoft Sentinel configuration":::
+    :::image type="content" source="../media/2-sentinel-configuration.png" alt-text="Microsoft Sentinel configuration.":::
 
 10. In the search box, type **Microsoft Defender for Cloud Apps**, select **Microsoft Defender for Cloud Apps**.
 
-    :::image type="content" source="../media/2-defender-for-cloud-apps-data-connector.png" alt-text="Microsoft Defender for Cloud Apps data connector":::
+    :::image type="content" source="../media/2-defender-for-cloud-apps-data-connector.png" alt-text="Microsoft Defender for Cloud Apps data connector.":::
 
 11. select **Open connector page**.
 12. Select **Alerts** and **Cloud Discovery Logs**.

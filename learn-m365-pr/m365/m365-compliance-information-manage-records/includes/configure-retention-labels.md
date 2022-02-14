@@ -9,7 +9,7 @@ The process of creating a retention label consists of these steps:
 1. Configure label setting.
 1. Review settings and create the label.
 
-:::image type="content" source="../media/retention-label-configuration.png" alt-text="Retention label configuration":::
+:::image type="content" source="../media/retention-label-configuration.png" alt-text="Retention label configuration.":::
 
 ## Step 1: Name your label
 

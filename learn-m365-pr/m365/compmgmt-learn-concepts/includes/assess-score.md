@@ -5,7 +5,7 @@ Compliance Manager helps you prioritize which actions to focus on to improve you
 
 The image below shows the point value impact of each type of action on your compliance score. For example, implementation of a discretionary preventative action results in a compliance score increase of nine points.
 
-  ![How is your compliance score calculated?](../media/compliance-score.png)
+:::image type="content" source="../media/compliance-score.png" alt-text="How is your compliance score calculated?." border="false":::
 
 Your compliance score is expressed as a percentage. It is calculated by taking the total of the points achieved, either through implementing your actions or the actions Microsoft has implemented on your behalf, and dividing by the total of the possible number of points you could achieve. You can also look at your compliance score broken out in many ways using filters.
 

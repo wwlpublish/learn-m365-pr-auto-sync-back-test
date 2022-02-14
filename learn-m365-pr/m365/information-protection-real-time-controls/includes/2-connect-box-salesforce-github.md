@@ -16,15 +16,15 @@ To connect Box to Defender for Cloud Apps, perform the following steps:
 
 2. Select **Admin Console**.
 
-    :::image type="content" source="../media/2-box-admin-console.png" alt-text="Admin console":::
+    :::image type="content" source="../media/2-box-admin-console.png" alt-text="Admin console.":::
 
 3. Select **Apps**.
 
-    :::image type="content" source="../media/2-box-apps.png" alt-text="Box apps":::
+    :::image type="content" source="../media/2-box-apps.png" alt-text="Box apps.":::
 
 4. Select **Custom Apps** and select **Settings**.
 
-    :::image type="content" source="../media/2-box-custom-apps.png" alt-text="Box custom apps":::
+    :::image type="content" source="../media/2-box-custom-apps.png" alt-text="Box custom apps.":::
 
 5. Ensure that **Disable unpublished apps by default** is disabled or enter the API key from [Connect Box to Defender for Cloud Apps \| Microsoft Docs](/cloud-app-security/connect-box-to-microsoft-cloud-app-security).
 
@@ -32,23 +32,23 @@ To connect Box to Defender for Cloud Apps, perform the following steps:
 
 7. Select **Investigate**, and select **Add an app**.
 
-    :::image type="content" source="../media/2-microsoft-cloud-app-security-portal.png" alt-text="Add an app":::
+    :::image type="content" source="../media/2-microsoft-cloud-app-security-portal.png" alt-text="Add an app.":::
 
 8. Select **+** and select **Box**.
 
-    :::image type="content" source="../media/2-connected-apps.png" alt-text="Connected apps":::
+    :::image type="content" source="../media/2-connected-apps.png" alt-text="Connected apps.":::
 
 9. Type a name for your Box instance and select **Connect Box**.
 
 10. Select **follow this link**.
 
-    :::image type="content" source="../media/2-follow-this-link.png" alt-text="Follow this link":::
+    :::image type="content" source="../media/2-follow-this-link.png" alt-text="Follow this link.":::
 
 11. Enter your Box credentials.
 
 12. Select **Grant access to Box**.
 
-    :::image type="content" source="../media/2-grant-box-access.png" alt-text="Grant access to Box":::
+    :::image type="content" source="../media/2-grant-box-access.png" alt-text="Grant access to Box.":::
 
 13. Box is now being protected by Microsoft Defender for Cloud Apps.
 
