@@ -27,7 +27,7 @@ To connect to the Exchange Online PowerShell V2, open Windows PowerShell and fol
     $UserCredential = Get-Credential
     ```
 
-2. Type the **username** and **password** when the Windows PowerShell credential request dialog box appears.
+2. Type the **`username`** and **`password`** when the Windows PowerShell credential request dialog box appears.
 3. Run the following command after providing your credentials:
 
     ```PowerShell
@@ -78,7 +78,7 @@ Here are the values used in the example:
 |  EndDate |  05/14/2020 |
 | UserIds  | meganb  |
 
-Here are the results of running the `Search-UnifiedAuditLog` command. Megan Bowen's mailbox (meganb) had one sync activity during the dates specified. The next step is to determine if the sync activity came from Megan Bowen (meganb) or the attacker.
+Here are the results of running the `Search-UnifiedAuditLog` command. Megan Bowen's mailbox (`meganb`) had one sync activity during the dates specified. The next step is to determine if the sync activity came from Megan Bowen (`meganb`) or the attacker.
 
  :::image type="content" source="../media/search-unifiedauditlog.png" alt-text="**Search-UnifiedAuditLog** command results" lightbox="../media/search-unifiedauditlog.png":::
 
@@ -93,7 +93,7 @@ Check sync activities to determine if sync activity occurred in the same context
 |  SessionId | Session ID helps to differentiate attacker actions vs. day-to-day user activities on the same account (in the case of a compromised account)  |
 |  UserId |  UPN of the user reading the message |
 
-The following PowerShell command helps determine the context for the sync activity. Substitute the values for EndDate, StartDate, and Identity with what is appropriate for your situation.
+The following PowerShell command helps determine the context for the sync activity. Substitute the values for `EndDate`, `StartDate`, and `Identity` with what is appropriate for your situation.
 
 ```PowerShell
 Search-MailboxAuditLog -Identity meganb -StartDate 05/13/2020 -EndDate 05/14/2020 -ShowDetails -Operations MailltemsAccessed -ResultSize 2000 | Select LastAccessed, Operation, ClientIPAddress, ClientInfoString
