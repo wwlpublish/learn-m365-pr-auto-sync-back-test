@@ -5,8 +5,8 @@ Viva Topics is an add-on service of Microsoft Viva, an employee experience platf
 
 To include the appropriate content for your users, you need the right people for crowdsourcing and resources.  
 
-By the end of this module, you'll understand how to:
+By the end of this module, you'll be able to:
 
 - Create a deployment plan for Viva Topics.
 - Get your environment ready for Viva Topics.
-- Understand best practices for deploying Viva Topics.
+- Implement best practices for deploying Viva Topics.
