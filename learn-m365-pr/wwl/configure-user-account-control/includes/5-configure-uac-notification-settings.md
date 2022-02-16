@@ -1,6 +1,6 @@
 In Windows, you can configure UAC to notify you when changes are made to your computer. To do this, go to the Control Panel, select **System and Maintenance**, and then under **Action Center**, select **Change User Account Control settings**. Use the slider to determine how Windows will prompt you. The default is **Notify me only when apps try to make changes to my computer**.
 
-:::image type="content" source="../media/uac-notification-settings-8288eea2.jpg" alt-text="Screenshot of the UAC notification settings screen.":::
+:::image type="content" source="../media/user-account-control-notification-settings-73297947.jpg" alt-text="Screenshot of the UAC notification settings screen.":::
 
 
 The following table identifies the four settings that enable customization of the elevation-prompt experience.
