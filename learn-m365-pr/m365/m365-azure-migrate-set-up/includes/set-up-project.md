@@ -12,13 +12,13 @@ Here, you can see options for assessing and migrating servers, databases, web ap
 1. Choose your **Geography**.
 1. Click **Next**.
 
-   ![Migrate project](../media/migrate-project.png)
+:::image type="content" source="../media/migrate-project.png" alt-text="Migrate project." border="false":::
 1. Under the **Select assessment tool** tab, you'll see a list of Microsoft and Microsoft partner tools. The Microsoft first-party tools are included in your Azure subscription. There are several partner options that are especially useful if you have partners helping with your migration or have used one of these tools in the past. Select a migration tool. In this case, select **Azure Migrate: Server Assessment**.
 
-   ![Choose assessment tool](../media/choose-assessment.png)
+:::image type="content" source="../media/choose-assessment.png" alt-text="Choose assessment tool." border="false":::
 1. Under the **Select Migration Tool** tab, you'll see a list of Microsoft and Microsoft partner tools just like in the assessment tool step. There are several partner options that are especially useful if you have partners helping with your migration or have used one of these tools in the past.
 
-   ![Choose migration tool](../media/choose-migration.png)
+:::image type="content" source="../media/choose-migration.png" alt-text="Choose migration tool." border="false":::
 1. Select a migration tool. In this case, select **Azure Migrate: Server Migration**.
 1. Click **Next** where you will see a summary of your selections to review.
 1. Click on **Add Tools** which adds the selected tools to your Azure Migrate project.

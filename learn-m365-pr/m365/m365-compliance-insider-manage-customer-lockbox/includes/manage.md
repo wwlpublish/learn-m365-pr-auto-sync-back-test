@@ -4,17 +4,17 @@ You can turn on Customer Lockbox controls in the Microsoft 365 admin center. Whe
 
 1. To turn on Customer Lockbox, anyone with a work or school account who has been granted the global administrator role or someone assigned the Customer Lockbox access approver admin role signs in to the [Microsoft 365 admin center](https://admin.microsoft.com?azure-portal=true) and selects **Settings > Settings > Security & privacy**.
 
-   ![Customer lockbox settings](../media/customer-lockbox-settings.png)
+:::image type="content" source="../media/customer-lockbox-settings.png" alt-text="Customer lockbox settings." border="false":::
 
 2. Selecting Customer lockbox opens the Customer lockbox flyout page where you can toggle the setting to be On or Off by using the Require approval for all data requests checkbox and clicking Save changes.
 
-    ![Require approvals](../media/require-approvals.png)
+:::image type="content" source="../media/require-approvals.png" alt-text="Require approvals." border="false":::
 
 ## Approve or deny a Customer Lockbox request
 
 1. To approve or deny a Customer Lockbox request from Microsoft, someone with a work or school account who has been granted the global administrator role or has been assigned the Customer Lockbox access approver role signs in to the [Microsoft 365 admin center](https://admin.microsoft.com?azure-portal=true) and selects **Support > Customer Lockbox Requests**.
 
-   ![Customer lockbox requests](../media/customer-lockbox-requests.png) 
+   ![Customer lockbox requests.](../media/customer-lockbox-requests.png) 
 
 1. To display a list of Customer Lockbox requests, the customer selects **Customer Lockbox Requests** from the **Support** menu. The customer can then select the appropriate request and choose either **Approve** or **Deny**.
 
@@ -22,7 +22,7 @@ You can turn on Customer Lockbox controls in the Microsoft 365 admin center. Whe
 
 1. A confirmation message about the approval of the Customer Lockbox request is displayed.
 
-    ![Screenshot of the confirmation shown after a request has been either approved or denied.](../media/confirmation.png)
+    ![Screenshot of the confirmation shown after a request has been either approved or denied..](../media/confirmation.png)
 
 ## Auditing Customer Lockbox requests
 

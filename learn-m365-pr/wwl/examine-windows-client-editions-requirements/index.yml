@@ -1,0 +1,38 @@
+### YamlMime:Module
+uid: learn.wwl.examine-windows-client-editions-requirements
+metadata:
+  title: Examine Windows client editions and requirements
+  description: "This module introduces the different editions of Windows, the features of each, and describes why and when you might select a specific Windows edition. This module also covers methods for installations."
+  ms.date: 02/14/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Examine Windows client editions and requirements
+summary: This module introduces the different editions of Windows, the features of each, and describes why and when you might select a specific Windows edition. This module also covers methods for installations.
+abstract: |
+  After completing this module, you will be able to:
+  *   Explain the differences between the different editions of Windows.
+  *   Select the most suitable Windows device for your needs.
+  *   Describe the minimum recommended hardware requirements for installing Windows 10 and 11\.
+prerequisites: |
+  *   Students should have a basic understanding of computer networks and hardware concepts.
+  *   Students should have a basic understanding of OS and Application concepts.
+  *   Students should have experience with using Windows 10 or later.
+iconUrl: /learn/achievements/generic-badge.svg
+hidden: true
+levels:
+- beginner
+roles:
+- administrator
+products:
+- windows
+units:
+- learn.wwl.examine-windows-client-editions-requirements.introduction
+- learn.wwl.examine-windows-client-editions-requirements.examine-windows-client-editions-capabilities
+- learn.wwl.examine-windows-client-editions-requirements.select-windows-client-edition
+- learn.wwl.examine-windows-client-editions-requirements.examine-windows-hardware-requirements
+- learn.wwl.examine-windows-client-editions-requirements.knowledge-check
+- learn.wwl.examine-windows-client-editions-requirements.summary
+badge:
+  uid: learn.wwl.examine-windows-client-editions-requirements.badge

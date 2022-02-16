@@ -17,13 +17,13 @@ quiz:
     questions:
     - content: "The Advanced Audit “default audit log retention policy” retains any audit record that contains the value of which of the following choices for the Workload property?"
       choices:
-      - content: "Exchange, SharePoint, OneDrive "
+      - content: "`Exchange`, `SharePoint`, `OneDrive`"
         isCorrect: false
         explanation: "The Advanced Audit default audit log retention policy doesn't modify the retention period for OneDrive audit records."
-      - content: "Exchange, SharePoint, AzureActiveDirectory "
+      - content: "`Exchange`, `SharePoint`, `AzureActiveDirectory`"
         isCorrect: true
         explanation: "Advanced Audit retains all Exchange, SharePoint, and Azure Active Directory audit records for one year. This retention is accomplished by a default audit log retention policy that retains any audit record that contains the value of **Exchange**, **SharePoint**, or **AzureActiveDirectory** for the **Workload** property (which indicates the service in which the activity occurred) for one year. "
-      - content: "Exchange, SharePoint, Teams "
+      - content: "`Exchange`, `SharePoint`, `Teams`"
         isCorrect: false
         explanation: "The Advanced Audit default audit log retention policy doesn't modify the retention period for Teams audit records. "
 

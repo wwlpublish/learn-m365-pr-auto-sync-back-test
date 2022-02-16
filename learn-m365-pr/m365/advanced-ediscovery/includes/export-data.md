@@ -1,6 +1,7 @@
 After you have finished culling your data in a review set to the content that is most relevant, you can download or export content for presentation or external review. This is the *Export data* phase of the EDRM workflow.
 
-![Seventh phase of the EDRM model – Export data.](../media/edrm-model-5.png)
+> [!div class = "centered"]
+> :::image type="content" source="../media/edrm-model-5.png" alt-text="Seventh phase of the EDRM model – Export data." lightbox="../media/edrm-model-5.png":::
 
 ### Download documents from a review set
 
@@ -8,15 +9,15 @@ In some cases, you may just need to download a few documents from a case for a s
 
 To download content from a review set, start by selecting the files you want to download then click **Download** under the **Action** menu.
 
-![Download content screen from a review set.](../media/download.png)  
+:::image type="content" source="../media/download.png" alt-text="Download content screen from a review set." lightbox="../media/download.png" border="false":::
 
 ### Export documents from a review set
 
-For bigger volumes, you can use the **Export** option. Export lets you customize the content that is included in the download package. This includes exporting file metadata, native files, text files, and redacted documents that have been saved to a PDF file. After the exported data is uploaded to an Azure Storage location, you can download it to a local computer. 
+For bigger volumes, you can use the **Export** option. Export lets you customize the content that is included in the download package. This includes exporting file metadata, native files, text files, and redacted documents that have been saved to a PDF file. After the exported data is uploaded to an Azure Storage location, you can download it to a local computer.
 
 To export content from a review set, start by selecting the files you want to download then click **Export** under the **Action** menu.
 
- ![Export content screen from a review set.](../media/export.png)
+ :::image type="content" source="../media/export.png" alt-text="Export content screen from a review set." lightbox="../media/export.png" border="false":::
 
 ## Download export jobs using Azure Storage Explorer
 
@@ -35,43 +36,43 @@ Before you can export content, you need to install the [Azure Storage Explorer t
 To export content:
 
 1. Select the files you want to export from the review set, then click **Export** under the **Action** menu. It may take several minutes or longer before the content is ready. You can check the status on the **Jobs** page.
-1. Select your settings on the **Export options** configuration page, then click **Export**. In this example, the Microsoft-provided storage container is selected. 
+1. Select your settings on the **Export options** configuration page, then click **Export**. In this example, the Microsoft-provided storage container is selected.
 
-    ![Export content, step 1.](../media/export-options.png)
+    :::image type="content" source="../media/export-options.png" alt-text="Export content, step 1." lightbox="../media/export-options.png":::
 
     A message appears to inform you that a job has been created and that you can track its status on the **Jobs** tab.
 
-    ![Export content, step 2.](../media/ok.png)
+    :::image type="content" source="../media/ok.png" alt-text="Export content, step 2.":::
 
 1. When the documents have been successfully uploaded to the Azure storage container, the **Jobs** tab will display the Status of the job as Successful along with the time stamp for when the job completed.
 
-    ![Export content, step 3.](../media/status.png)
+    :::image type="content" source="../media/status.png" alt-text="Export content, step 3." lightbox="../media/status.png" border="false":::
 
 1. The next step is to obtain the shared access signature (SAS) URI that is generated when you created the export job. On the **Exports** tab, click the export job that you want to download. On the flyout page, under **Locations**, copy the SAS URI that is displayed to the clipboard, then click **Close**.
 
-    ![Export content, step 4.](../media/sas-url.png)
+    :::image type="content" source="../media/sas-url.png" alt-text="Export content, step 4." lightbox="../media/sas-url.png" border="false":::
 
 1. Open the Azure Storage Explorer tool that you installed in Step 1, then select **Use a shared access signature (SAS) URI**. Click **Next**.
 
-    ![Export content, step 5.](../media/connect-azure-storage.png)
+    :::image type="content" source="../media/connect-azure-storage.png" alt-text="Export content, step 5." border="false":::
 
 1. On the **Attach with SAS URI** page, click in the URI box, and then paste the SAS URI that you copied in Step 4. Notice that a portion of the SAS URI is displayed in the **Display name** box. This will be used as the display name of the container that is created under the **Storage accounts** after you connect to the storage location. This name consists of the ID of the Advanced eDiscovery case is from and a unique identifier. You can keep the default display name or change it. If you change it, the display name must be unique.
 
-    ![Export content, step 6.](../media/attach-sas-url.png)
+    :::image type="content" source="../media/attach-sas-url.png" alt-text="Export content, step 6." border="false":::
 
 1. Click **Next** to display the **Connection summary** page.
 
-    ![Export content, step 7.](../media/connect-summary.png)
+    :::image type="content" source="../media/connect-summary.png" alt-text="Export content, step 7." lightbox="../media/connect-summary.png" border="false":::
 
 1. On the **Connection summary** page, review the connection information, then click **Connect**.
 
     The **Blob containers** node (under **Storage Accounts > Attached Containers**) is opened to a container with the display name from step 7. This container contains a folder for each export job that you have created. The folders are named with an ID that corresponds to the ID of the export job.
 
-    ![Export content, step 8.](../media/containers-1.png) 
+    :::image type="content" source="../media/containers-1.png" alt-text="Export content, step 8." lightbox="../media/containers-1.png" border="false":::
 
 1. Double-click the export job folder to open it and display the list of folders and export reports.
 
-    ![Export content, step 9.](../media/containers-2.png) 
+    :::image type="content" source="../media/containers-2.png" alt-text="Export content, step 9." lightbox="../media/containers-2.png" border="false":::
 
 1. To export all contents in the export, select the export folder, and then click **Download**.
 

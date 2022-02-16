@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.upgrade-migrate-windows-clients.examine-process-upgrade-windows-clients
+title: Examine the process of upgrading Windows clients
+metadata:
+  title: Examine the process of upgrading Windows clients
+  description: "Examine the process of upgrading Windows clients"
+  ms.date: 02/10/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+azureSandbox: false
+labModal: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/2-examine-process-upgrade-windows-clients.md)]
