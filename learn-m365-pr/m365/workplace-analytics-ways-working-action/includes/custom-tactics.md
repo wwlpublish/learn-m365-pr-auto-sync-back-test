@@ -48,8 +48,18 @@ As humans we are generally change averse, or we need a compelling reason to want
 
 It's possible to be proactive in addressing barriers to change and identify common challenges that individuals face. To be proactive, you can use the following barrier checklist to get started. The bold words refer to our target behavior and each question helps identify whether individuals have the capability, motivation, and environment to reinforce change.
 
-:::image type="content" source="../media/identify-barriers.png" alt-text="Screenshot showing a list to help identify barriers to change.":::
-
+|                                       Question                                       | Likelihood to be a barrier |
+|:------------------------------------------------------------------------------------|:--------------------------:|
+| Do people know about **meeting agendas**?                                            |                            |
+| Do people know how to send **meeting agendas**?                                      |                            |
+| Do people forget to send **meeting agendas**?                                        | &check;                    |
+| Is it difficult for people to send **meeting agendas**?                              |                            |
+| Do people believe that **meeting agendas** will solve the problem?                   | &check;                    |
+| Do people believe that other consequences will occur from using **meeting agendas**? |                            |
+| Do incentives discourage sending **meeting agendas**?                                |                            |
+| Do people want to send **meeting agendas**?                                          | &check;                    |
+| Do people have the resources to send **meeting agendas**?                            | &check;                    |
+| Does social pressure make it difficult to send **meeting agendas**?                  |                            |
 ## 5. Design custom tactics
 
 After identifying the top barriers to change, the next step is to develop custom tactics to address these barriers. Causes of behavior and barriers to change vary depending on culture; the feedback you collect, and your organizational knowledge to develop tailored solutions. Here's an example of what it looks like to create custom tactics to address the previously identified barriers.

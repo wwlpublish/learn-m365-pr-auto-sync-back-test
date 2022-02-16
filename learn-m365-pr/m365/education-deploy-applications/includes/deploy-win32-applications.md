@@ -22,7 +22,7 @@ The tool creates a file with the extension *.intunewin*. You upload this file to
 1. Using a browser, connect to the [Microsoft Endpoint Manager admin center](https://endpoint.microsoft.com).
 
 1. On the **Home** page, select **Apps** from the menu on the left.
-   :::image type="content" source="../media/3-mem-apps-menu.png" alt-text="Microsoft Endpoint Manager admin center":::
+   :::image type="content" source="../media/3-mem-apps-menu.png" alt-text="Microsoft Endpoint Manager admin center.":::
 
 1. On the **Apps | Overview** page, under **By platform**, select **Windows**.
 
@@ -38,11 +38,11 @@ The tool creates a file with the extension *.intunewin*. You upload this file to
 
 1. On the **Add App** page, select **Select app package file**.
 
-   :::image type="content" source="../media/3-add-app.png" alt-text="Microsoft Endpoint Manager Select Add App page":::
+   :::image type="content" source="../media/3-add-app.png" alt-text="Microsoft Endpoint Manager Select Add App page.":::
 
 1. In the **App package file** pane, select the package file (the *.itunewin file) you created earlier, and the select **OK**.
 
-   :::image type="content" source="../media/3-add-package-file.png" alt-text="Microsoft Endpoint Manager App package pane":::
+   :::image type="content" source="../media/3-add-package-file.png" alt-text="Microsoft Endpoint Manager App package pane.":::
 
 1. On the **Add App | App information** page, fill in the details for the app, and then select **Next**.
 
@@ -114,17 +114,17 @@ Intune for Education supports Win32 apps packaged as *msi* files; this is the fo
 
 1. In the Intune for Education console, select **Apps** from the menu on the left.
 
-   :::image type="content" source="../media/3-intune-apps-menu.png" alt-text="Screenshot of Intune for Education Apps":::
+   :::image type="content" source="../media/3-intune-apps-menu.png" alt-text="Screenshot of Intune for Education Apps.":::
 
 1. On the Apps screen, select **New App**, and then select **New desktop app**. This will take you to the Microsoft Store for Education portal and you'll already be signed in.
 
-   :::image type="content" source="../media/3-intune-new-apps.png" alt-text="Intune for Education New App":::
+   :::image type="content" source="../media/3-intune-new-apps.png" alt-text="Intune for Education New App.":::
 
 1. In the New desktop app pane, select the MSI file containing the installer for the desktop app you want to add. You can use the browse button to navigate to the file.
 
 1. Fill in the remaining details for the app. The **App Name** is the name of the app as it will appear on students' devices. The **Command Line** provides any parameters required by the installer. The **Publisher** and **Icon** identity the publisher of the app.
 
-   :::image type="content" source="../media/3-intune-new-desktop-app.png" alt-text="Intune for Education New Desktop App":::
+   :::image type="content" source="../media/3-intune-new-desktop-app.png" alt-text="Intune for Education New Desktop App.":::
 
 1. Select **Save** to add the app to the dashboard. Wait while the MSI file is uploaded before continuing.
 
@@ -136,11 +136,11 @@ After you've added an app to the dashboard, use Intune for Education to specify 
 
 1. In the Intune for Education console, select **Apps** from the menu on the left.
 
-    :::image type="content" source="../media/3-intune-apps-menu.png" alt-text="Screenshot of Apps in Intune for Education":::
+    :::image type="content" source="../media/3-intune-apps-menu.png" alt-text="Screenshot of Apps in Intune for Education.":::
 
 1. On the Apps page, select the app you want to install. You may need to select **Load more** if your app doesn't appear.
 
-    :::image type="content" source="../media/3-intune-apps.png" alt-text="Screenshot of using Apps in Intune for Education":::
+    :::image type="content" source="../media/3-intune-apps.png" alt-text="Screenshot of using Apps in Intune for Education.":::
 
 1. On the page for your app, select **Group assignments**.
 

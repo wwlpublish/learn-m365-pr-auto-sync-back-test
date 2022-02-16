@@ -8,4 +8,4 @@ Here are some of the issues we are seeing due to the dynamic nature of the compl
 
 **Complexity across IT environments hinders adoption.** Understanding how to integrate the many solutions available and configure each one to minimize compliance risks can be difficult. This is especially true in organizations with solutions sourced from multiple vendors that often have overlapping functionality. Decision makers want simple step-by-step guidance on how to make the tools work for the industry standards and regulations they are subject to.
 
-[![Companies need tools and guidance](../media/companies-need-tools.png)](../media/companies-need-tools.png#lightbox)
+:::image type="content" source="../media/companies-need-tools.png" alt-text="Companies need tools and guidance." border="false":::

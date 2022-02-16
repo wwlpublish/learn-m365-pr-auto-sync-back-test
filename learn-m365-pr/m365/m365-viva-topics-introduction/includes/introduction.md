@@ -16,7 +16,7 @@ When content is created or shared in Microsoft 365 apps, the graph database reco
 
 By the end of this learning path, you be able to:
 
-- Understand how AI interacts on Viva Topics  
+- Describe how AI interacts on Viva Topics  
 - Use Viva Topics for admins  
 - Modernize SharePoint  
 - Sign up for & set up a Viva Topics trial

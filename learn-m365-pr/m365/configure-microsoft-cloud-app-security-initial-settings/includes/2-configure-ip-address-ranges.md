@@ -88,7 +88,7 @@ For example, in the following screenshot, the administrator has defined the foll
 - Tags: London HQ
 - Both Override registered ISP and Override location are not selected
 
-:::image type="content" source="../media/ip-address-range.png" alt-text="A screenshot displays the New IP address range dialog box. The administrator has created a range based on the text in the preceding section":::
+:::image type="content" source="../media/ip-address-range.png" alt-text="A screenshot displays the New IP address range dialog box. The administrator has created a range based on the text in the preceding section.":::
 
 The following video describes the benefits of configuring IP address ranges, and demonstrates how to set up IP address ranges:
 

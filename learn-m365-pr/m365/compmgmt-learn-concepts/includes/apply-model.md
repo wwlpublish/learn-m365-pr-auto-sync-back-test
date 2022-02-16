@@ -2,4 +2,4 @@ Because the responsibility is shared, transitioning your IT infrastructure from 
 
 The image below depicts the sharing of responsibilities for managing NIST 800-53 compliance in Microsoft 365.
 
-  ![Examples of shared responsibilities: NIST](../media/nist.png)
+:::image type="content" source="../media/nist.png" alt-text="Examples of shared responsibilities: NIST" border="false":::
