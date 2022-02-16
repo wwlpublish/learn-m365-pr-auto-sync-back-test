@@ -43,20 +43,20 @@ Here's how to enable JIT to protect your virtual machines:
 
 1. The **Just-in-time VM access** pane opens. You'll see your virtual machines have been grouped into several tabs. Select **Not configured**, to configure just-in-time access for a virtual machine.
 
-    :::image type="content" source="../media/4-select-tab.png" alt-text="Select the Not Configured tab":::
+    :::image type="content" source="../media/4-select-tab.png" alt-text="Select the Not Configured tab.":::
 
 1. Select the virtual machines you want
 to configure for JIT, and then select **Enable
 JIT on VMs**.
 
-    :::image type="content" source="../media/4-select-enable-virtual-machines.png" alt-text="Enable JIT on virtual machines":::
+    :::image type="content" source="../media/4-select-enable-virtual-machines.png" alt-text="Enable JIT on virtual machines.":::
 
 1. You'll see a list of ports that Microsoft Defender for Cloud recommends protecting. These include 22 for SSH and 3389 for RDP. You select any of these ports if you want to make changes to their configuration. The **Add port configuration** pane opens up for you to make changes. When you're done, select **OK** at the bottom.
 
-    :::image type="content" source="../media/4-add-port-configuration.png" alt-text="Add port configuration":::
+    :::image type="content" source="../media/4-add-port-configuration.png" alt-text="Add port configuration.":::
 
 1. Finally, select **Save**.
-    :::image type="content" source="../media/4-save-port-configuration.png" alt-text="Save port configuration":::
+    :::image type="content" source="../media/4-save-port-configuration.png" alt-text="Save port configuration.":::
 
 ### Adaptive application controls
 
@@ -70,13 +70,13 @@ If Microsoft Defender for Cloud identifies machines in your environment that usu
 
 1. Select the **Recommended** tab. You'll see groups of machines for which Microsoft Defender for Cloud recommends you apply application controls to define a list of known-safe applications.
 
-    :::image type="content" source="../media/4-select-recommended.png" alt-text="Select the recommended tab":::
+    :::image type="content" source="../media/4-select-recommended.png" alt-text="Select the recommended tab.":::
 
 1. Select any group.
 
 1. To configure the new rule, you'll need to review the different sections of the **Configure application control rules** pane. These will be unique to this specific group of machines.
 
-    :::image type="content" source="../media/4-configure-application-control-rules.png" alt-text="Configure application control rules":::
+    :::image type="content" source="../media/4-configure-application-control-rules.png" alt-text="Configure application control rules.":::
 
     1. **Select machines**: You can clear any machines you want to exclude.
 
@@ -98,7 +98,7 @@ Here's how you deploy vulnerability scanning to your virtual machines:
 
 1. Select the **A vulnerability assessment solution should be enabled on your virtual machines** recommendation:
 
-    :::image type="content" source="../media/4-vulnerability-assessment.png" alt-text="Recommendation details":::
+    :::image type="content" source="../media/4-vulnerability-assessment.png" alt-text="Recommendation details.":::
 
 1. Select the **Unhealthy resources** tab then select the virtual machines where you want the scanner to be deployed.
 
@@ -106,7 +106,7 @@ Here's how you deploy vulnerability scanning to your virtual machines:
 
 1. You can choose between different options. Select **Recommended: Deploy Defender for Cloud integrated vulnerability scanner powered by Qualys (included in standard pricing tier)**.
 
-    :::image type="content" source="../media/4-select-recommended-vulnerability-solution.png" alt-text="Select recommended vulnerability solution":::
+    :::image type="content" source="../media/4-select-recommended-vulnerability-solution.png" alt-text="Select recommended vulnerability solution.":::
 
 The scanner will then be installed on the machines within a few minutes. After installation, scanning will begin automatically and take place at four-hour intervals.
 
@@ -116,13 +116,13 @@ You can view findings for your vulnerability assessments by doing the following:
 
 1. You'll see findings for all of your virtual machines in your selected subscription, ordered by severity.
 
-    :::image type="content" source="../media/4-select-affected-resources.png" alt-text="Affected resources":::
+    :::image type="content" source="../media/4-select-affected-resources.png" alt-text="Affected resources.":::
 
 1. Look for a specific virtual machine by selecting the **Affected resources** tab. You can then select the virtual machine to view which vulnerabilities have been identified for it.
 
 1. If you want to learn more about a certain vulnerability, you select it. A details pane will appear on the right. You can then remediate it by following the steps in the details pane.
 
-    :::image type="content" source="../media/4-virtual-machine-vulnerabilities.png" alt-text="Virtual machine vulnerability details":::
+    :::image type="content" source="../media/4-virtual-machine-vulnerabilities.png" alt-text="Virtual machine vulnerability details.":::
 
 ## Container protection
 
@@ -147,30 +147,30 @@ Microsoft Defender for Cloud provides protection for your containers and their a
 
 To use vulnerability management, you'll need to make sure you're on the Microsoft Defender for Cloud standard tier. You can then enable the Container Registries bundle. You do this by going to **the Pricing & settings** pane, and then enabling **Container registries**:
 
-:::image type="content" source="../media/4-enable-container-registries.png" alt-text="Enable container registries":::
+:::image type="content" source="../media/4-enable-container-registries.png" alt-text="Enable container registries.":::
 
 When an image is pushed to your registry, Microsoft Defender for Cloud will scan it using a Qualys scanner. If issues are identified, you'll receive recommendations through the Microsoft Defender for Cloud's **Recommendations** pane. Select a
 recommendation to implement it:
 
-:::image type="content" source="../media/4-select-qualys-recommendation.png" alt-text="A recommendation for the Container Registry images":::
+:::image type="content" source="../media/4-select-qualys-recommendation.png" alt-text="A recommendation for the Container Registry images.":::
 
 1. You'll see details about the recommendation, including a list of registries with vulnerable
 images, under the **Affected resources** section. You select a specific registry to view affected repositories:
 
-    :::image type="content" source="../media/4-affected-container-registries.png" alt-text="Affected registries":::
+    :::image type="content" source="../media/4-affected-container-registries.png" alt-text="Affected registries.":::
 
 1. Under the **Unhealthy repositories** tab, you select a repository, to see its
 vulnerable images:
 
-    :::image type="content" source="../media/4-unhealthy-repositories.png" alt-text="Unhealthy repositories":::
+    :::image type="content" source="../media/4-unhealthy-repositories.png" alt-text="Unhealthy repositories.":::
 
 1. Then you select an image to see its vulnerabilities:
 
-    :::image type="content" source="../media/4-unhealth-images.png" alt-text="Unhealthy images":::
+    :::image type="content" source="../media/4-unhealth-images.png" alt-text="Unhealthy images.":::
 
 1. You'll see the list of findings. When you select any finding, a pane appears on the right that you can use to investigate further, and begin to remediate it.
 
-    :::image type="content" source="../media/4-vulnerability-details-pane.png" alt-text="Vulnerability details":::
+    :::image type="content" source="../media/4-vulnerability-details-pane.png" alt-text="Vulnerability details.":::
 
 After you've remediated the issue, you'll need to:
 
@@ -188,12 +188,12 @@ Microsoft Defender for Cloud will then tell you if there are any containers that
 
 1. Select the **Containers** tab. You'll see a list of container host machines.
 
-    :::image type="content" source="../media/4-select-containers.png" alt-text="Select the containers tab":::
+    :::image type="content" source="../media/4-select-containers.png" alt-text="Select the containers tab.":::
 1. Select any machine to investigate further.
 
 1. The **Container host information** pane opens. In the **Recommendation list** section, you select a recommendation you want to implement.
 
-    :::image type="content" source="../media/4-select-containers-recommendation.png" alt-text="Select a recommendation":::
+    :::image type="content" source="../media/4-select-containers-recommendation.png" alt-text="Select a recommendation.":::
 
 1. A new pane appears. Use it to review further details about the recommendation, and possible remediation steps to take to resolve the issue.
 
@@ -223,7 +223,7 @@ Microsoft Defender for Cloud provides specific protections for each resource or 
 
 Through advanced threat protection, Azure Key Vault detects suspicious attempts to exploit or access your Azure Key Vault accounts. When suspicious activities are detected by Microsoft Defender for Cloud, you'll receive alerts.
 
-:::image type="content" source="../media/4-key-vault-alerts-inline.png" lightbox="../media/4-key-vault-alerts-expanded.png" alt-text="Azure Key Vault security alerts":::
+:::image type="content" source="../media/4-key-vault-alerts-inline.png" lightbox="../media/4-key-vault-alerts-expanded.png" alt-text="Azure Key Vault security alerts.":::
 
 Microsoft Defender for Cloud will also send an email to the subscription administrator, which includes information about activity that occurred, and how to remediate it.
 
@@ -232,7 +232,7 @@ Here's how you configure advanced threat protection for your Azure Key Vaults:
 1. Go to the **Pricing & settings** pane in Microsoft Defender for Cloud, then select your subscription.
 1. Make sure you're on the standard tier.
 
-    :::image type="content" source="../media/4-enable-key-vaults.png" alt-text="Enable Key Vaults":::
+    :::image type="content" source="../media/4-enable-key-vaults.png" alt-text="Enable Key Vaults.":::
 
 1. Set **Key Vaults (preview)** to **enabled**.
 1. Select **Save** at the top.
@@ -254,7 +254,7 @@ Microsoft Defender for Cloud also uses malware reputation screening, where hash 
 
 You can select an alert to get more information, along with details about how you can remediate it.
 
-:::image type="content" source="../media/4-remediate-malware-alert-inline.png" lightbox="../media/4-remediate-malware-alert-expanded.png" alt-text="A malware alert":::
+:::image type="content" source="../media/4-remediate-malware-alert-inline.png" lightbox="../media/4-remediate-malware-alert-expanded.png" alt-text="A malware alert.":::
 
 Microsoft Defender for Cloud can also send an email to the storage owner to approve or delete the file. You can set up workflow automation for this, by configuring an automated workflow that deletes suspicious files whenever the **Potential malware uploaded to a storage account** alert is triggered.
 
@@ -263,7 +263,7 @@ Here's how you configure advanced threat protection for Azure Storage:
 1. Go to the **Pricing & settings** pane in Microsoft Defender for Cloud, and select your subscription.
 1. Make sure you're on the standard tier of Microsoft Defender for Cloud.
 
-    :::image type="content" source="../media/4-enable-storage-accounts-protection.png" alt-text="Enable storage accounts protection":::
+    :::image type="content" source="../media/4-enable-storage-accounts-protection.png" alt-text="Enable storage accounts protection.":::
 
 1. Set **Storage accounts** to **enabled**.
 1. Select **Save**.
@@ -315,14 +315,14 @@ After you've set up Microsoft Defender for IoT, it will begin to provide securit
 1. Select **IoT Hubs & resources**, under **Resource security hygiene**.
 1. You'll see security recommendations for your IoT Hubs. Select a recommendation to investigate it further.
 
-    :::image type="content" source="../media/4-security-recommendation-for-iot-hub-inline.png" lightbox="../media/4-security-recommendation-for-iot-hub-expanded.png" alt-text="Security recommendation for IoT Hub":::
+    :::image type="content" source="../media/4-security-recommendation-for-iot-hub-inline.png" lightbox="../media/4-security-recommendation-for-iot-hub-expanded.png" alt-text="Security recommendation for IoT Hub.":::
 
 1. In the pane that appears, you'll see
 more information about the security recommendations, which of your IoT Hubs are
 affected, and details about remediation steps you can take to address the
 issue.
 
-    :::image type="content" source="../media/4-recommendation-details-iot-hub-inline.png" lightbox="../media/4-recommendation-details-iot-hub-expanded.png" alt-text="Recommendation details for IoT Hub":::
+    :::image type="content" source="../media/4-recommendation-details-iot-hub-inline.png" lightbox="../media/4-recommendation-details-iot-hub-expanded.png" alt-text="Recommendation details for IoT Hub.":::
 
 1. To remediate, select an IoT Hub and then select **Remediate**, or select **Trigger Logic App** to trigger an automated workflow.
 

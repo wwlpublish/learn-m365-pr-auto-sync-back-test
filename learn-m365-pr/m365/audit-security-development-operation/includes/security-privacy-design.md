@@ -12,7 +12,7 @@ The optimal time to define security and privacy requirements is during the initi
 
 Once a product's design includes clearly defined security and privacy requirements, development teams build threat models to visualize the security and privacy threats most likely to affect the product. Threat modeling helps to identify, categorize, and rate potential threats according to risk so developers can propose and implement appropriate mitigations. The SDL requires development teams at Microsoft to maintain up-to-date threat models and DFDs for all major service components and features.
 
-![A visual representation of what consists of threat modeling - define, diagram, identify, mitigate, and validate](../media/threat-modeling-representation.png)
+:::image type="content" source="../media/threat-modeling-representation.png" alt-text="A visual representation of what consists of threat modeling - define, diagram, identify, mitigate, and validate." border="false":::
 
 Threat modeling begins by **defining** a product or feature's components and **diagraming** their relationships to one another for key functional scenarios, such as authentication or sensitive data handling. Threat modeling diagrams include relevant dataflows, functions, and processes to help visualize threats to the service. As part of the threat modeling process, service teams create and maintain DFDs that document all dataflows, ports, and protocols used by a service component or feature.
 

@@ -49,7 +49,7 @@ To enable integration, you don't need to perform extra deployment or complex con
 
 After you have configured integration, you can use the Cloud Discovery dashboard to review discovered device data.
 
-   :::image type="content" source="../media/windows-10-dashboard-report.png" alt-text="A screenshot of the Discovery dashboard in Defender for Cloud Apps. ":::
+   :::image type="content" source="../media/windows-10-dashboard-report.png" alt-text="A screenshot of the Discovery dashboard in Defender for Cloud Apps. .":::
 
 1. To access the data, in the dashboard, under **Continuous reports**, select **Win10 Endpoint Users**. You can review the number of discovered devices in the upper area of the dashboard.
 2. Select the **Machines** tab. For listed devices, you can review each device on the **Overview** tab. This information includes device risk level, transactions, total traffic, and both uploads and downloads.

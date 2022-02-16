@@ -18,7 +18,7 @@ Here is the flow to configure event-driven retention:
 1. Publish or auto-apply label.
 1. Create an event.
 
-:::image type="content" source="../media/event-driven-retention-configuration.png" alt-text="Event-driven retention configuration" border="false":::
+:::image type="content" source="../media/event-driven-retention-configuration.png" alt-text="Event-driven retention configuration." border="false":::
 
 ## Step 1: Create a label with event-based retention period
 

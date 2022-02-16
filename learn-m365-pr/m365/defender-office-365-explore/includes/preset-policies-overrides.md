@@ -48,19 +48,19 @@ To view overrides:
 1. Then select **Email & collaboration reports**
 1. Finally, select **Email & collaboration reports**
 
-   :::image type="content" source="../media/3-email-and-collaboration-reports.png" alt-text="Email and Collaboration Reports" lightbox="../media/3-email-and-collaboration-reports.png":::
+   :::image type="content" source="../media/3-email-and-collaboration-reports.png" alt-text="Email and Collaboration Reports." lightbox="../media/3-email-and-collaboration-reports.png":::
 
 1. From the **Email & collaboration reports** page, locate the Threat protection status card and then select **View details**.
 
-   :::image type="content" source="../media/3-threat-protection-status-view-details.png" alt-text="View Details Threat Protection Status" lightbox="../media/3-threat-protection-status-view-details.png":::
+   :::image type="content" source="../media/3-threat-protection-status-view-details.png" alt-text="View Details Threat Protection Status." lightbox="../media/3-threat-protection-status-view-details.png":::
 
 1. Select **View data by Overview** and then select **View data by System override**.
 
-   :::image type="content" source="../media/3-view-data-by-system-override.png" alt-text="View Data by System Override" lightbox="../media/3-view-data-by-system-override.png":::
+   :::image type="content" source="../media/3-view-data-by-system-override.png" alt-text="View Data by System Override." lightbox="../media/3-view-data-by-system-override.png":::
 
 1. Scroll down to view the report.
 
-   :::image type="content" source="../media/3-view-data-by-system-override-report.png" alt-text="System Override Report" lightbox="../media/3-view-data-by-system-override-report.png":::
+   :::image type="content" source="../media/3-view-data-by-system-override-report.png" alt-text="System Override Report." lightbox="../media/3-view-data-by-system-override-report.png":::
 
 Here you see a graph showing the number of overrides by day and color coded by type of override. Some of the overrides are the result of an Exchange transport rule and User Safe Sender category. You should make a habit of viewing these tables frequently to investigate the causes of overrides, which will help you and your security team determine what policy changes might need to be changed over time.
 

@@ -32,7 +32,7 @@ Watch the video below to learn how Customer Lockbox in Microsoft 365 brings your
 
 The following diagram illustrates the Customer Lockbox workflow after a customer experiences an issue in Office 365. In this example, you initiate a Customer Lockbox request upon experiencing an issue with an Exchange Online mailbox.
 
-  ![Customer lockbox workflow](../media/customer-lockbox-workflow.png)
+  ![Customer lockbox workflow.](../media/customer-lockbox-workflow.png)
 
 1. After you troubleshoot the issue but can't fix it, you open a support request with Microsoft Support.
 
@@ -44,7 +44,7 @@ The following diagram illustrates the Customer Lockbox workflow after a customer
 
     Customer Lockbox requests have a default duration of 12 hours. If you don't respond to a request within 12 hours, the request expires.
 
-    ![Customer lockbox request](../media/customer-lockbox-request.png)
+    ![Customer lockbox request.](../media/customer-lockbox-request.png)
 
 1. The approver signs into the Microsoft 365 admin center and approves the request. This step triggers the creation of an audit record available by searching the audit log. All actions performed by a Microsoft engineer are logged in the audit log. You can search for and review these audit records.  Before you can use the audit log to track requests for Customer Lockbox, there are some steps you need to take to set up audit logging. For more information, see Search the audit log in the [Microsoft 365 Defender portal](/office365/securitycompliance/search-the-audit-log-in-security-and-compliance#before-you-begin?azure-portal=true). 
 

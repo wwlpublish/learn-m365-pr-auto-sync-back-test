@@ -4,7 +4,7 @@ The **Assessments** page lists the assessments your organization is tracking and
 
 The image below shows the **Assessments** page with the default **Data Protection Baseline** assessment listed.
 
-  :::image type="content" source="../media/assessments.png" alt-text="Compliance Manager--Assessments summary page" lightbox="../media/assessments.png":::
+  :::image type="content" source="../media/assessments.png" alt-text="Compliance Manager--Assessments summary page." lightbox="../media/assessments.png":::
 
 ## Assessment details page
 
@@ -17,4 +17,4 @@ Clicking an individual assessment provides more details on that assessment in a 
 
 The image below shows the **Overview** page for the **Data Protection Baseline** assessment.
 
-  :::image type="content" source="../media/data-protection-baseline.png" alt-text="Data Protection Baseline page" lightbox="../media/data-protection-baseline.png":::
+  :::image type="content" source="../media/data-protection-baseline.png" alt-text="Data Protection Baseline page." lightbox="../media/data-protection-baseline.png":::

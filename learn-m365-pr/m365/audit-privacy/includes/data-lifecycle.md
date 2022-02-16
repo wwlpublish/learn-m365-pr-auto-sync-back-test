@@ -4,7 +4,7 @@ As an example, consider the topic of access control. Our account management syst
 
 Microsoft's Defense-In-Depth protects data through the entire data lifecycle, beginning with data collection and ending with its destruction when data is no longer needed.
 
-![data lifecycle workflow - starting from collection, processing, third party sharing, retention, and destruction](../media/data-lifecycle.png)
+:::image type="content" source="../media/data-lifecycle.png" alt-text="data lifecycle workflow - starting from collection, processing, third party sharing, retention, and destruction." border="false":::
 
 - Collection – Collection begins the data lifecycle and describes the receipt of data by an organization.
 - Processing – Processing refers to any action performed on collected data, whether automated or manual.
