@@ -14,7 +14,7 @@ As a unified infrastructure security management system, Microsoft Defender for C
 
 Use the workload protection dashboard in the Azure portal to obtain and manage an organization level overview of the company's security posture, compliance, and any threats.
 
-:::image type="content" source="../media/2-dashboard-inline.png" lightbox="../media/2-dashboard-expanded.png" alt-text="workload protection dashboard":::
+:::image type="content" source="../media/2-dashboard-inline.png" lightbox="../media/2-dashboard-expanded.png" alt-text="workload protection dashboard.":::
 
 The workload protection dashboard consists of a few high-level sections:
 
@@ -30,7 +30,7 @@ Microsoft Defender for Cloud also enables you to set up security policies to pro
 
 Use this section to understand which common security hygiene issues are affecting your resources. These issues will be labeled as low, medium, or high severity, based on the impact they might have on your organization's security. For example, Microsoft Defender for Cloud tells you whether there are any Azure SQL Database servers that don't have advanced data security enabled. You can then let Microsoft Defender for Cloud automatically remediate this situation using Quick Fix:
 
-:::image type="content" source="../media/2-resource-hygiene-inline.png" lightbox="../media/2-resource-hygiene-expanded.png" alt-text="Resource hygiene":::
+:::image type="content" source="../media/2-resource-hygiene-inline.png" lightbox="../media/2-resource-hygiene-expanded.png" alt-text="Resource hygiene.":::
 
 ### Threat protection
 

@@ -1,6 +1,6 @@
 The Azure Migrate process uses Microsoft's tools for assessment and migration
 
-![Migration process](../media/migration-process.png)
+:::image type="content" source="../media/migration-process.png" alt-text="Migration process." border="false":::
 
 1. Set up prerequisites and ensure both environments have the needed permissions.
 2. Set up an Azure Migrate project, including the tools for assessment and migration.

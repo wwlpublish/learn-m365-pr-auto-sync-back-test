@@ -43,13 +43,13 @@ While the Office built-in labeling client is the preferred choice, it will not w
 
 Use the decision tree below to help you decide which Windows client to install if you have yet to deploy an information protection solution from Microsoft.
  
-![Use the decision tree below to help you decide which Windows client to install if you have yet to deploy an information protection solution from Microsoft.](../media/windows-client-decision-tree.png)
+![Use the decision tree below to help you decide which Windows client to install if you have yet to deploy an information protection solution from Microsoft..](../media/windows-client-decision-tree.png)
 
 ### Guidance for existing Azure Information Protection customers
 
 Use the decision tree below to help you decide which Windows client to install if you are an existing Azure Information Protection customer transitioning to Microsoft Information Protection.
 
-![Use the decision tree below to help you decide which Windows client to install if you are an existing Azure Information Protection customer transitioning to Microsoft Information Protection..](../media/windows-client-aip-decision-tree.png)
+![Use the decision tree below to help you decide which Windows client to install if you are an existing Azure Information Protection customer transitioning to Microsoft Information Protection...](../media/windows-client-aip-decision-tree.png)
 
 ## Learn more
 

@@ -19,7 +19,7 @@ Watch the video below for a quick overview of privileged access management in Mi
 
 Privileged access management complements other data and access feature protections within the Microsoft 365 security architecture. Including privileged access management as part of an integrated and layered approach to security provides a security model that maximizes protection of sensitive information and Microsoft 365 configuration settings. As shown in the diagram, privileged access management builds on the protection provided with native encryption of Microsoft 365 data and the role-based access control security model of Microsoft 365 services. When used with [Azure AD Privileged Identity Management](/azure/active-directory/active-directory-privileged-identity-management-configure?azure-portal=true), these two features provide access control with just-in-time access at different scopes.
 
-  ![Layers of protection](../media/layers-of-protection.png)
+:::image type="content" source="../media/layers-of-protection.png" alt-text="Layers of protection." border="false":::
 
 Privileged access management in Microsoft 365 is defined and scoped at the *task* level, while Azure AD Privileged Identity Management applies protection at the *role* level with the ability to execute multiple tasks. Azure AD Privileged Identity Management primarily allows managing accesses for AD roles and role groups, while privileged access management in Microsoft 365 applies only at the task level.
 
@@ -34,29 +34,29 @@ Each of the following process flows outline the architecture of privileged acces
 
 When you configure a privileged access policy with the [Microsoft 365 admin center](https://admin.microsoft.com/?azure-portal=true) or Exchange Online PowerShell, you define the policy and the privileged access feature processes and the policy attributes in the Microsoft 365 substrate. The activities are logged in the Microsoft 365 Defender portal. The policy is now enabled and ready to handle incoming requests for approvals.
 
- ![Configure privileged access policy](../media/configure-privileged-access-policy.png)  
+:::image type="content" source="../media/configure-privileged-access-policy.png" alt-text="Configure privileged access policy." border="false":::
 
 ### Step 2: Access request
 
 In the Microsoft 365 admin center or with the Exchange Online PowerShell, users can request access to elevated or privileged tasks. The privileged access feature sends the request to the Microsoft 365 substrate for processing against the configured privilege access policy and records the activity in the Microsoft 365 Defender portal logs. 
   
- ![Access request](../media/access-request.png)
+ ![Access request.](../media/access-request.png)
 
 ### Step 3: Access approval
 
 An approval request is generated and the pending request notification is emailed to approvers. If approved, the privileged access request is processed as an approval and the task is ready to be completed. If denied, the task is blocked and no access is granted to the requestor. The requestor is notified of the request approval or denial via email message.
 
-  ![Access approval](../media/access-approval.png)
+  ![Access approval.](../media/access-approval.png)
 
 ### Step 4: Access processing
 
 For an approved request, the task is processed by the Exchange Management runspace. The approval is checked against the privileged access policy and processed by the Microsoft 365 substrate. All activity for the task is logged in the Microsoft 365 Defender portal.
 
-  ![Access processing](../media/access-processing.png)  
+  ![Access processing.](../media/access-processing.png)  
 
 The approval workflow can also be illustrated as follows:
 
-   ![Approval workflow](../media/approval-workflow.png)
+   ![Approval workflow.](../media/approval-workflow.png)
 
 ## Learn more
 

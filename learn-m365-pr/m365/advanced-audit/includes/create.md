@@ -25,7 +25,7 @@ Here are the steps to connect to Security & Compliance PowerShell:
     $UserCredential = Get-Credential
     ```
 
-    Type the **username** and **password** when the Windows PowerShell credential request dialog box appears.
+    Type the `username` and `password` when the Windows PowerShell credential request dialog box appears.
 
 1. Run the following command:
 
@@ -67,7 +67,7 @@ You must be assigned the Organization Configuration role in the Microsoft 365 De
 
     The image below is an example of the confirmation received that AlexW user is a member of the Organization Management role group. AlexW can now create or modify audit log retention policies.
 
-    :::image type="content" source="../media/role-group.png" alt-text="User confirmation screen":::
+    :::image type="content" source="../media/role-group.png" alt-text="User confirmation screen.":::
 
 ## Create audit log retention policy in Microsoft 365 compliance center
 

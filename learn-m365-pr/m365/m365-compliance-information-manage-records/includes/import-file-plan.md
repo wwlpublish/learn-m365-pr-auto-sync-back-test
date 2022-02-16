@@ -12,7 +12,7 @@ The process consists of the following steps:
 
 Remember that imported file plan labels still need to be published or auto-applied to see any results.
 
-:::image type="content" source="../media/file-plan-import.png" alt-text="Screenshot showing the three step process of file plan importing" border="false" lightbox="../media/file-plan-import.png":::
+:::image type="content" source="../media/file-plan-import.png" alt-text="Screenshot showing the three step process of file plan importing." border="false" lightbox="../media/file-plan-import.png":::
 
 ## Step 1: Download the file plan template
 

@@ -13,22 +13,22 @@ To create a policy to block downloads, perform the following steps:
 1. Navigate to <https://portal.cloudappsecurity.com>.
 2. Select **Control** and select **Policies**.
 
-    :::image type="content" source="../media/4-microsoft-cloud-app-security-policies.png" alt-text="Policies":::
+    :::image type="content" source="../media/4-microsoft-cloud-app-security-policies.png" alt-text="Policies.":::
 
 3. Select **Create policy** and select **Session policy**.
 
-    :::image type="content" source="../media/5-session-policy.png" alt-text="Session policy":::
+    :::image type="content" source="../media/5-session-policy.png" alt-text="Session policy.":::
 
 4. Enter a name and description in **Policy name** and **Description**.
 5. In **Category**, select **DLP** for data loss prevention.
 6. In **Session control type**, select **Control file download (with DLP)**.
 7. In **Add activity filters to the policy**, enter a name for the external user that you want to control. You can remove the filter for apps if you want the policy to apply to all apps.
 
-    :::image type="content" source="../media/5-activity-filters.png" alt-text="Add activity filters":::
+    :::image type="content" source="../media/5-activity-filters.png" alt-text="Add activity filters.":::
 
 8. In **Actions**, select **Block** and, optionally, add a custom message.
 
-    :::image type="content" source="../media/5-block-message.png" alt-text="Customize block message":::
+    :::image type="content" source="../media/5-block-message.png" alt-text="Customize block message.":::
 
 9. Click **Create**.
 
@@ -39,11 +39,11 @@ To create a policy to block cut, copy, and print, perform the following steps:
 1. Navigate to <https://portal.cloudappsecurity.com>.
 2. Select **Control** and select **Policies**.
 
-    :::image type="content" source="../media/4-microsoft-cloud-app-security-policies.png" alt-text="Policies":::
+    :::image type="content" source="../media/4-microsoft-cloud-app-security-policies.png" alt-text="Policies.":::
 
 3. Select **Create policy** and select **Session policy**.
 
-    :::image type="content" source="../media/5-session-policy.png" alt-text="Session policy":::
+    :::image type="content" source="../media/5-session-policy.png" alt-text="Session policy.":::
 
 4. Enter a name and description in **Policy name** and **Description**.
 5. In **Category**, select **DLP** for data loss prevention.
