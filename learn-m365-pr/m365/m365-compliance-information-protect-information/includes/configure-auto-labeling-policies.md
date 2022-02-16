@@ -23,7 +23,7 @@ The steps to create an auto labeling policy are listed below:
 
 Start with a policy template or create a custom policy to choose the sensitive information you want this label applied to. Select a category to see the policy templates you can use or create a custom policy to start from scratch. If you need to protect labeled content, you will be able to choose labels later.  
 
-![Choose info you want this label applied to](../media/choose-info.png)
+:::image type="content" source="../media/choose-info.png" alt-text="Choose info you want this label applied to." border="false":::
 
 ## Step 2: Name
 
@@ -41,7 +41,7 @@ Provide information to help identify the automatically applied label, locations,
 
 Select which locations and users or groups (Exchange), sites (SharePoint), or accounts (OneDrive) the policy will apply to. Exchange will automatically apply the label to unlabeled emails, regardless of which device or platform is used to send and receive the email. SharePoint and OneDrive will automatically apply the label to unlabeled Office documents. The example below shows the configured policy will apply to one Exchange user or group and not SharePoint sites and OneDrive accounts. You can configure a maximum of 10 site collections in all auto-labeling policies at this time.
 
-![Choose locations where you want to apply this label](../media/choose-locations.png)
+:::image type="content" source="../media/choose-locations.png" alt-text="Choose locations where you want to apply this label." border="false":::
 
 ## Step 4: Policy rules
 
@@ -93,7 +93,7 @@ The **Policy Simulator** assists you in validating and fine-tuning your auto-lab
 
 The image below shows an auto-label policy named **U.S. Patriot Act** that has been running in simulation mode for two days. You can click on the **Matched items** tab to see the results of your auto-labeling policy simulation, provided you have the appropriate permissions.  Selecting **Turn on policy** starts policy enforcement.
 
- ![Auto-labeling policy example](../media/auto-labeling-policy-example.png) 
+:::image type="content" source="../media/auto-labeling-policy-example.png" alt-text="Auto-labeling policy example." border="false":::
 
 ## Learn more
 

@@ -33,7 +33,7 @@ You should choose from the other two options:
 - False alert
 - True alert
 
-:::image type="content" source="../media/3-classification-types.png" alt-text="Screenshot showing the different classification types" lightbox="../media/3-classification-types.png":::
+:::image type="content" source="../media/3-classification-types.png" alt-text="Screenshot showing the different classification types." lightbox="../media/3-classification-types.png":::
 
 From the classification options, if you select **True alert**, you'll be prompted with to provide a determination.
 

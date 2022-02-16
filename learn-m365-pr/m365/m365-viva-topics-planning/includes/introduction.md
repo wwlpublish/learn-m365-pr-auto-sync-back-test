@@ -15,9 +15,9 @@ IT skills planning and learning for Viva Topics is suitable for most solutions a
 
 You can use Viva Topics to automate scenarios and improve productivity and reduce costs, such as onboarding, training, expertise-finding, and decision-making. Employee adoption for new technology is a key driver of implementation and total cost of Viva Topics ownership, including Viva Topics training for all new users.
 
-By the end of this module, you'll understand:
+By the end of this module, you'll be able to:
 
-- Viva Topics roles in your organization  
-- Viva Topics scenarios in your organization  
-- Viva Topics IT skills planning  
-- Skills planning for all new users
+- Describe the different Viva Topics roles in your organization  
+- Identify Viva Topics scenarios in your organization  
+- List the Viva Topics IT skills  
+- List the Viva Topics skills for all new users

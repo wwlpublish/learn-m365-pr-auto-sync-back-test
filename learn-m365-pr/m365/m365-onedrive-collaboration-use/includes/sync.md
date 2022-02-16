@@ -4,7 +4,7 @@ For users with Windows 10, the OneDrive sync app is already installed. Users wit
 
 Once a user is signed in, they will see the OneDrive cloud icon in the Windows taskbar notification area:
 
-:::image type="content" source="../media/onesdrive-icon.png" alt-text="OneDrive cloud icon in the Windows taskbar notification area":::
+:::image type="content" source="../media/onesdrive-icon.png" alt-text="OneDrive cloud icon in the Windows taskbar notification area.":::
 
 Once a user has signed in to their work or school account and synced your files, the files will appear in File Explorer in the OneDrive folder with **OneDrive – CompanyName**.
 
@@ -18,7 +18,7 @@ If a user doesn't want to sync all of their folders in OneDrive to their compute
 
 Users can start syncing a SharePoint or Microsoft Teams library by using the Sync button in the toolbar:
 
-:::image type="content" source="../media/sync-button.png" alt-text="Users can start syncing a SharePoint or Microsoft Teams library by using the Sync button in the toolbar":::
+:::image type="content" source="../media/sync-button.png" alt-text="Users can start syncing a SharePoint or Microsoft Teams library by using the Sync button in the toolbar.":::
 
 ## Using Files On-Demand
 
@@ -33,7 +33,7 @@ With OneDrive Files On-Demand, users can:
 
 With Files On-Demand, users will see new icons next to your files synced to their device:
 
-:::image type="content" source="../media/new-icons.png" alt-text="With Files On-Demand users will see new icons next to your files synced to their device":::
+:::image type="content" source="../media/new-icons.png" alt-text="With Files On-Demand users will see new icons next to your files synced to their device.":::
 
 Users can move online-only files within their OneDrive folder and restore those files through their OneDrive recycle bin. When they search for online-only files by name, OneDrive will let them search the name of those files not on their device. The files-on demand settings are unique to each device, so users should make sure to turn it on for each device where they want to use it.
 

@@ -17,7 +17,7 @@ To manage policies, perform the following steps:
 1. Navigate to [[https://portal.cloudappsecurity.com]{.ul}](https://portal.cloudappsecurity.com).
 2. Select **Control** and select **Policies**.
 
-    :::image type="content" source="../media/4-microsoft-cloud-app-security-policies.png" alt-text="Policies":::
+    :::image type="content" source="../media/4-microsoft-cloud-app-security-policies.png" alt-text="Policies.":::
 
 3. Examples of managing specific policies are in subsequent units of this module.
 

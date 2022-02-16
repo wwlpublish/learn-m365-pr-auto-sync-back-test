@@ -25,7 +25,7 @@ Here are the steps to connect to Security & Compliance PowerShell:
     $UserCredential = Get-Credential
     ```
 
-    Type the **username** and **password** when the Windows PowerShell credential request dialog box appears.
+    Type the `username` and `password` when the Windows PowerShell credential request dialog box appears.
 
 1. Run the following command:
 

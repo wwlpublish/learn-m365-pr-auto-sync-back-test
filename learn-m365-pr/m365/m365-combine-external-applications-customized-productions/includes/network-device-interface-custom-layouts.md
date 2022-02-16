@@ -41,7 +41,7 @@ Once you have enabled NDI, you can start NDI broadcasts within any meeting or li
 
 Once you've joined a meeting, to start broadcasting, go to the **More actions ...** menu, and then select **Broadcast over NDI**.
 
-:::image type="content" source="../media/broadcast-over-network-device-interface.png" alt-text="Starting broadcasting a meeting over NDI":::
+:::image type="content" source="../media/broadcast-over-network-device-interface.png" alt-text="Starting broadcasting a meeting over NDI.":::
 
 Now, Teams will broadcast several different streams:
 
