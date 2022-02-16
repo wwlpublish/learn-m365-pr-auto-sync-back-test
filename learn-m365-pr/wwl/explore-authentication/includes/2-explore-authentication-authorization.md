@@ -17,5 +17,3 @@ Users must authenticate to verify their identity when they access files over a n
  -  **Kerberos version 5 protocol**. Windows-based clients and servers use this as the main sign-in authentication method. It provides authentication for user and computer accounts.
  -  **NTLM**. This method provides backward compatibility with pre-Windows 2000 operating systems and some applications. However, it is less flexible, less efficient, and not as secure as the Kerberos protocol.
  -  **Certificate mapping**. Typically, users utilize this method in conjunction with smart cards. The certificate that a smart card stores can link to a user account. Users utilize a smart card reader, which scans the card’s chip to authenticate a user.
-
----

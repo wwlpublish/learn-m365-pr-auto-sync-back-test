@@ -19,7 +19,7 @@ Windows Hello introduces system support for biometric authentication – using y
 
 ### Using Windows Hello
 
-In order to use Windows Hello, you must have a PIN for your login already setup. On your PC select theStart button, then select **Settings** &gt; **Accounts** &gt; **Sign-in** **options** to set up Windows Hello. Under Windows Hello, you’ll see options for face, fingerprint, or iris if your PC has a fingerprint reader or a camera that supports it. Once you’re set up, you will be able to sign in with a quick swipe on your fingerprint reader or glance at your camera.
+In order to use Windows Hello, you must have a PIN for your login already setup. On your PC select theStart button, then select **Settings** &gt; **Accounts** &gt; **Sign-inoptions** to set up Windows Hello. Under Windows Hello, you’ll see options for face, fingerprint, or iris if your PC has a fingerprint reader or a camera that supports it. Once you’re set up, you will be able to sign in with a quick swipe on your fingerprint reader or glance at your camera.
 
 > [!NOTE]
 > Windows Hello features will only appear if your computer includes hardware to support it.

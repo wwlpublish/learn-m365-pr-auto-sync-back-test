@@ -9,7 +9,6 @@ metadata:
   ms.author: brhinkel
   ms.topic: interactive-tutorial
   ms.prod: learning-azure
-  zone_pivot_groups: azure-interface
 azureSandbox: false
 labModal: false
 durationInMinutes: 5
@@ -29,7 +28,7 @@ quiz:
     - content: "Disable the Administrator account and have users sign in with a local account that's a member of the Administrators group"
       isCorrect: true
       explanation: "Correct. Because the Administrator account is known to exist on many versions of the Windows operating system, it's a best practice to disable the Administrator account when possible to make it more difficult for malicious users to gain access to the server or client computer. Then create a local account that's a member of the Administrators group. Members of the Administrators groups can run apps with elevated permissions without using the \"Run as Administrator\" option."
-  - content: "As the Decktop Administrator for Fabrikam, you must set up an account that will be used to sign-in to a Windows 11 PC. This account must be able to synchronize files with OneDrive. What type of account should you create?"
+  - content: "As the Desktop Administrator for Fabrikam, you must set up an account that will be used to sign-in to a Windows 11 PC. This account must be able to synchronize files with OneDrive. What type of account should you create?"
     choices:
     - content: "Domain Account"
       isCorrect: false

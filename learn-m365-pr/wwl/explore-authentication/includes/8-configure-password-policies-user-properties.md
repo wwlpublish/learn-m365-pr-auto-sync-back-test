@@ -1,6 +1,6 @@
 In an organizational environment, password policies define the configuration of user passwords. AD DS stores user accounts, which are managed by network administrators or other support staff, such as help-desk employees.
 
-:::image type="content" source="../media/account-password-policies-4a64a7a6.jpg" alt-text="Screenshot of the user properties screen showing where password polices are set.":::
+:::image type="content" source="../media/account-password-policies-4a64a7a6.jpg" alt-text="Screenshot of the user properties screen showing where password policies are set.":::
 
 
 ### Using Group Policy to configure password policies
