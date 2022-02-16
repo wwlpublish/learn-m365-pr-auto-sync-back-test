@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.explore-common-configuration-options.use-control-panel
+title: Use the Control Panel
+metadata:
+  title: Use the Control Panel
+  description: "Use the Control Panel"
+  ms.date: 02/16/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+azureSandbox: false
+labModal: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/5-use-control-panel.md)]
