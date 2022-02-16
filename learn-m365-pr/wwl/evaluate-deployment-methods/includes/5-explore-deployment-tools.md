@@ -4,14 +4,14 @@ Microsoft provides several tools for facilitating deployments and managing devic
 
 Windows Assessment and Deployment Kit (ADK) for Windows is a collection of tools that you can use to automate the deployment of Windows operating systems and mitigate application compatibility issues. Previously, Windows ADK was called the Windows Automated Installation Kit (for Windows 7). SQL Server 2012 Express is also included here for the tools that require a connection to a SQL Server.
 
-:::image type="content" source="../media/windows-assessmen-deployment-kit-features-install-8026a9af.png" alt-text="The ADK installer showing the various tools availble to choose to install.":::
+:::image type="content" source="../media/windows-assessmen-deployment-kit-features-install-8026a9af.png" alt-text="Screenshot of the A D K installer showing the various tools available to choose to install.":::
 
 
 Windows ADK contains core assessment and deployment tools and technologies, including Deployment Image Servicing and Management (DISM), Windows Imaging and Configuration Designer (Windows ICD), Windows System Image Manager (Windows SIM), User State Migration Tool (USMT), Volume Activation Management Tool (VAMT), Windows Assessment Services, Windows Performance Toolkit (WPT), Application Compatibility Toolkit (ACT), and Microsoft SQL Server 2012 Express.
 
 ### Deployment Image Servicing and Management (DISM)
 
-Deployment Image Servicing and Management (DISM) is a command-line tool that enables you to create and manage images. You can use it to capture a "reference" device, with a desired configuration, The desired configuration might be the choice of OS edition, Windows configurations, pre-installed drivers, appliations, and files. Once the image is captures, you can use the image to deploy the pre-configured OS install to multiple devices. Once images are created, you can also DISM to change the image or keep it up to date. This can include applying updates, drivers, and language packs to the Windows image, offline or online.
+Deployment Image Servicing and Management (DISM) is a command-line tool that enables you to create and manage images. You can use it to capture a "reference" device, with a desired configuration. The desired configuration might be the choice of OS edition, Windows configurations, pre-installed drivers, applications, and files. Once the image is captures, you can use the image to deploy the pre-configured OS install to multiple devices. Once images are created, you can also DISM to change the image or keep it up to date. This can include applying updates, drivers, and language packs to the Windows image, offline or online.
 
 For example, to capture a Windows partition to a USB storage drive, the command line might look like this:
 
@@ -27,7 +27,7 @@ DISM can be used to modify images while they are not in use. To edit an existing
 :::image type="content" source="../media/service-mount-ce81e592-908467a7.png" alt-text="Graphic that shows the process of mounting an image, modifying the mounted folders, unmounting the image, and then applying to multiple devices.":::
 
 
-For example, if you need to add a driver to an existing image, you first mount the image, then
+For example, if you need to add a driver to an existing image, you first mount the image, add the driver, and then commit the changes.
 
 ```powershell
 DISM /Mount-Image /ImageFile:C:\test\images\install.wim /MountDir:C:\test\offline
@@ -37,9 +37,9 @@ DISM /Unmount-Image /MountDir:C:\test\offline /Commit
 
 ### Windows Imaging and Configuration Designer
 
-Windows Imaging and Configuration Designer (Windows ICD) is a tool designed to assist with the creation of provisioning packages that can be used to dynamically configure a Windows device (PCs, tablets, and phones). This is particularly useful for setting up new devices, without the need for re-imaging the device with a custom image.
+Windows Imaging and Configuration Designer (Windows ICD) is a tool designed to assist with the creation of provisioning packages that can be used to dynamically configure a Windows device (PCs, tablets, and phones). This is particularly useful for setting up new devices, without the need for reimaging the device with a custom image.
 
-:::image type="content" source="../media/windows-imaging-configuration-designer-create-options-1703-587e3860.png" alt-text="The WICD dashboard, showing buttons to create a new provisioning pkg.":::
+:::image type="content" source="../media/windows-imaging-configuration-designer-create-options-1703-587e3860.png" alt-text="Screenshot of the W I C D dashboard, showing buttons to create a new provisioning package.":::
 
 
 <sup>The WICD Create Page.</sup>
@@ -48,7 +48,7 @@ Windows Imaging and Configuration Designer (Windows ICD) is a tool designed to a
 
 Windows System Image Manager (Windows SIM) is a graphical tool that you can use to create unattended installation answer files (Unattend.xml) and distribution shares, or modify the files that a configuration set contains. When using MDT and/or Configuration Manager, you don’t need Windows SIM very often because those systems automatically update the Unattend.xml file during the deployment, greatly simplifying the process overall.
 
-:::image type="content" source="../media/microsoft-deployment-toolkit-11-figure-07-1d0c144e-e5a55228.png" alt-text="Windows answer file opened in Windows SIM.":::
+:::image type="content" source="../media/microsoft-deployment-toolkit-11-figure-07-1d0c144e-e5a55228.png" alt-text="Screenshot of the Windows answer file opened in Windows S I M.":::
 
 
 <sup>Windows answer file opened in Windows SIM.</sup>
@@ -57,7 +57,7 @@ Windows System Image Manager (Windows SIM) is a graphical tool that you can use 
 
 Volume Activation Management Tool (VAMT) is a graphical tool that you can use to automate and manage activation of Windows, Windows Server, and Microsoft Office. If you don’t use KMS, you can still manage your MAKs centrally with the Volume Activation Management Tool (VAMT). With this tool, you can install and manage product keys throughout the organization. VAMT also can activate on behalf of clients without Internet access, acting as a MAK proxy.
 
-:::image type="content" source="../media/microsoft-deployment-toolkit-11-figure-08-d3bf0f01-1d190384.png" alt-text="The VAMT tool dashboard. On the left pane, shows products Office and Windows, as well as VL Reports. The center pane shows inventory and licence counts, the right pane shows actions.":::
+:::image type="content" source="../media/microsoft-deployment-toolkit-11-figure-08-d3bf0f01-1d190384.png" alt-text="Screenshot of the V A M T tool dashboard. On the left pane, shows products Office and Windows, as well as V L Reports.":::
 
 
 <sup>The Volume Activation Management Tool.</sup>
@@ -76,14 +76,14 @@ Windows PE is a minimal 32 bit or 64-bit operating system with limited services,
 
 The Windows PE is no longer part of the ADK install, and is now a separate download that can be found at [Download WinPE](/windows-hardware/manufacture/desktop/download-winpe--windows-pe?view=windows-11).
 
-:::image type="content" source="../media/microsoft-deployment-toolkit-11-figure-09-a0045fa8-b72cdadf.png" alt-text="A machine booted with the Windows ADK default Windows PE boot image.":::
+:::image type="content" source="../media/microsoft-deployment-toolkit-11-figure-09-a0045fa8-b72cdadf.png" alt-text="Screenshot of a machine booted with the Windows A D K default Windows P E boot image.":::
 
 
 <sup>A machine booted with the Windows ADK default Windows PE boot image.</sup>
 
 ### Windows Deployment Services (WDS)
 
-Windows Deployment Services (WDS) enables the deployment of Windows operating systems. You can use WDS to set up new clients with a network-based installation without requiring that administrators visit each computer or install directly from CD or DVD media. Images are added to a server running WDS, and transmit the image to clients using multicast funcationality.
+Windows Deployment Services (WDS) enables the deployment of Windows operating systems. You can use WDS to set up new clients with a network-based installation without requiring that administrators visit each computer or install directly from CD or DVD media. Images are added to a server running WDS, and transmit the image to clients using multicast functionality.
 
 :::image type="content" source="../media/microsoft-deployment-toolkit-11-figure-11-af96b09e-0c99e7e8.png" alt-text="Windows Deployment Services using multicast to deploy three machines.":::
 
@@ -104,7 +104,7 @@ MDT has two main parts:
 > [!NOTE]
 > Lite Touch and Zero Touch are names for the two solutions that MDT supports, and the naming has nothing to do with automation. You can fully automate the stand-alone MDT solution (Lite Touch), and you can configure the solution integration with Configuration Manager to prompt for information.
 
-:::image type="content" source="../media/microsoft-deployment-toolkit-11-figure-13-9198f864-09b5de1c.png" alt-text="The Deployment Workbench in, showing a task sequence.":::
+:::image type="content" source="../media/microsoft-deployment-toolkit-11-figure-13-9198f864-09b5de1c.png" alt-text="Screenshot of the Deployment Workbench, showing a task sequence.":::
 
 
-<sup>The Deployment Workbench in, showing a task sequence.</sup>
+<sup>The Deployment Workbench, showing a task sequence.</sup>

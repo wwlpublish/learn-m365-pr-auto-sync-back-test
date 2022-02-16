@@ -14,7 +14,7 @@ These methods are supported with existing tools, such as the Microsoft Deploymen
 Like modern, these methods also achieve certain deployment scenarios that historically required a reinstallation of Windows, that is no longer necessary. Dynamic deployment methods enable you to configure applications and settings for specific use cases. Some examples are:
 
  -  **Subscription activation.** Switch from Windows Pro to Enterprise when a subscribed user signs in. Organizations upgrading from Pro to Enterprise can instantly step up without having to reinstall Windows.
- -  **Azure Active Directory (AAD) and mobile device management (MDM).** You can automatically join a device to AAD and enroll it in your management solution with no additional user interaction.
+ -  **Azure Active Directory (Azure AD) and mobile device management (MDM).** You can automatically join a device to Azure AD and enroll it in your management solution with no additional user interaction.
  -  **Provisioning packages**. Use the Windows Imaging and Configuration Designer tool to create provisioning packages that include the collection of apps and settings that have been customized for your deployment. These packages are then applied to devices.
 
 ### Traditional

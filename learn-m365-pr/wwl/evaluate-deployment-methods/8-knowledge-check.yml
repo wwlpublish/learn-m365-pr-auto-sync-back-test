@@ -4,7 +4,7 @@ title: Knowledge check
 metadata:
   title: Knowledge check
   description: "Knowledge check"
-  ms.date: 02/14/2022
+  ms.date: 02/16/2022
   author: wwlpublish
   ms.author: brhinkel
   ms.topic: interactive-tutorial
@@ -48,7 +48,7 @@ quiz:
     - content: "Windows Imaging and Configuration Designer"
       isCorrect: true
       explanation: "Correct. Windows Imaging and Configuration Designer is a tool designed to assist with the creation of provisioning packages that can be used to dynamically configure a Windows device (PCs, tablets, and phones). This is particularly useful for setting up new devices, without the need for re-imaging the device with a custom image."
-    - content: "Windows System Image Manageer"
+    - content: "Windows System Image Manager"
       isCorrect: false
       explanation: "Incorrect. Windows SIM is a graphical tool that you can use to create unattended installation answer files (Unattend.xml) and distribution shares, or modify the files that a configuration set contains. Try again."
   - content: "Contoso is running Windows Enterprise on its 500+ devices. It wants to enable its users to quickly start an isolated, pristine Windows environment for temporary use scenarios, such as launching a downloaded executable they may not fully trust. It also wants a solution that's disposable, so that nothing persists on the device and everything is discarded once the user is finished using the temporary Windows environment. Which of the following virtualization technologies should Contoso deploy that satisfies these requirements?"
