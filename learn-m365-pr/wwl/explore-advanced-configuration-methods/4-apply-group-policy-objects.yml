@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.explore-advanced-configuration-methods.apply-group-policy-objects
+title: Apply Group Policy Objects
+metadata:
+  title: Apply Group Policy Objects
+  description: "Apply Group Policy Objects"
+  ms.date: 02/16/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+azureSandbox: false
+labModal: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/4-apply-group-policy-objects.md)]

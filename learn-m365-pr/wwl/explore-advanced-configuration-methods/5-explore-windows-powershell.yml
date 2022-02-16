@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.explore-advanced-configuration-methods.explore-windows-powershell
+title: Explore Windows PowerShell
+metadata:
+  title: Explore Windows PowerShell
+  description: "Explore Windows PowerShell"
+  ms.date: 02/16/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+azureSandbox: false
+labModal: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/5-explore-windows-powershell.md)]

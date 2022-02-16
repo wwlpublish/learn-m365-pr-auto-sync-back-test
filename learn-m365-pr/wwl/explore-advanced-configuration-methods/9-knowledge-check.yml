@@ -1,0 +1,18 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.explore-advanced-configuration-methods.knowledge-check
+title: Knowledge Check
+metadata:
+  title: Knowledge Check
+  description: "Knowledge Check"
+  ms.date: 02/16/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  zone_pivot_groups: azure-interface
+azureSandbox: false
+labModal: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/9-knowledge-check.md)]
+interactive: bash
