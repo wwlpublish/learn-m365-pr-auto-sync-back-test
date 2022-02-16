@@ -2,4 +2,4 @@ Technology is profoundly impacting our lives; from the way we connect with each 
 
 Managing this data overload and the variety of devices on which it is created can be complicated, especially when it comes to ensuring compliance. There are many solution categories and vendors whose solutions fall within some aspect of compliance management. Many have overlapping functionality, which leads to a fragmented approach to resolving the problem.   Many organizations struggle to decide what they need and where to start as result.
 
-  ![Data is exploding](../media/data-is-exploding.png)
+:::image type="content" source="../media/data-is-exploding.png" alt-text="Data is exploding." border="false":::
