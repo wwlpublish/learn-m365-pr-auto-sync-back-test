@@ -1,0 +1,43 @@
+### YamlMime:Module
+uid: learn.wwl.implement-device-registration
+metadata:
+  title: Implement device registration
+  description: "This module examines the process of device restrigration and discusses how to register and enroll devices in Active Directory."
+  ms.date: 02/17/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Implement device registration
+summary: This module examines the process of device restrigration and discusses how to register and enroll devices in Active Directory.
+abstract: |
+  After completing this module, you will be able to:
+  *   Describe the challenges that BYOD introduces.
+  *   Describe Device Registration and its uses.
+  *   Describe how Device Registration works.
+  *   Describe the infrastructure requirements for Device Registration.
+  *   Describe how to register and enroll a device.
+prerequisites: |
+  *   Students should have a basic understanding of computer networks and hardware concepts.
+  *   Students should have a basic understanding of OS and Application concepts.
+  *   Students should have experience with using Windows 10 or later.
+iconUrl: /learn/achievements/generic-badge.svg
+hidden: true
+levels:
+- beginner
+roles:
+- administrator
+products:
+- windows
+units:
+- learn.wwl.implement-device-registration.introduction
+- learn.wwl.implement-device-registration.understand-challenges-data-access-multiple-device-types
+- learn.wwl.implement-device-registration.explore-microsoft-device-strategy-framework
+- learn.wwl.implement-device-registration.explore-device-registration
+- learn.wwl.implement-device-registration.examine-how-device-registration-works
+- learn.wwl.implement-device-registration.assess-infrastructure-requirements-support-device-registration
+- learn.wwl.implement-device-registration.register-enroll-devices
+- learn.wwl.implement-device-registration.knowledge-check
+- learn.wwl.implement-device-registration.summary
+badge:
+  uid: learn.wwl.implement-device-registration.badge
