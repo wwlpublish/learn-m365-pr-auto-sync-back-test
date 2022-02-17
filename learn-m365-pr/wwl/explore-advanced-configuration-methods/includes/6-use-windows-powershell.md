@@ -2,7 +2,7 @@ You can use Windows PowerShell to run individual cmdlets that perform actions, o
 
 Windows PowerShell uses Windows PowerShell drives to provide access to data stores. These drives present data in a format similar to a file system. Some common Windows PowerShell drives are:
 
- -  The C drive is the local file system�s C drive.
+ -  The C drive is the local file system's C drive.
  -  The cert drive is the local certificate store.
  -  The Env drive contains environmental variables that are stored in memory.
  -  The HKCU drive is the HKEY\_CURRENT\_USER portion of the registry.
@@ -17,10 +17,10 @@ Cmdlets use a naming convention of a verb or action, followed by a noun or a sub
  -  Set. Establishes or modifies data.
  -  New. Creates a new object.
 
-Each cmdlet has options called parameters. Some parameters are required and some are optional. The parameters vary for each cmdlet. The following example shows how to start the Application Identity service by using the �Name parameter:
+Each cmdlet has options called parameters. Some parameters are required and some are optional. The parameters vary for each cmdlet. The following example shows how to start the Application Identity service by using the - Name parameter:
 
 ```
-Start-Service �Name �Application Identity�
+Start-Service -Name "Application Identity"
 
 
 ```

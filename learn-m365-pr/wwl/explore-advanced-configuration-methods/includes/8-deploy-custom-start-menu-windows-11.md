@@ -7,8 +7,12 @@ While you can define a default layout, users can change the layout, including pi
 ## Creating a custom Start menu JSON layout file
 
 1.  Configure the Start Menu as desired.
-2.  Open the Windows PowerShell app and<br>
-3.  Run the following cmdlet. Name the file LayoutModification.json. Export the Start menu to a JSON file using the Export-StartLayout command in Windows PowerShell. For the -Path switch, place a path and name the filename "LayoutModification.json".<br><br>For example:<br>`Export-StartLayout -Path "C:\Layouts\LayoutModification.json"`<br><br>
+2.  Open the Windows PowerShell app and
+3.  Run the following cmdlet. Name the file LayoutModification.json. Export the Start menu to a JSON file using the Export-StartLayout command in Windows PowerShell. For the -Path switch, place a path and name the filename "LayoutModification.json".
+    
+    For example:
+    
+    `Export-StartLayout -Path "C:\Layouts\LayoutModification.json"`
 4.  Once you've saved the file, you can optionally make manual edits to the JSON file.
 
 The JSON file will look something like this:

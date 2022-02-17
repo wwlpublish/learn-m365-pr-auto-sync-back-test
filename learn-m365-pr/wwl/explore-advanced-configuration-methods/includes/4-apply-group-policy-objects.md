@@ -17,17 +17,17 @@ If multiple policies apply at the same level, an administrator can assign a pref
 
 ## Local GPOs
 
-Each Windows�based computer has one local GPO that contains default computer and user settings, regardless of whether the computer is part of an AD DS environment. In addition to this default local GPO, you can create custom local user GPOs.
+Each Windows-based computer has one local GPO that contains default computer and user settings, regardless of whether the computer is part of an AD DS environment. In addition to this default local GPO, you can create custom local user GPOs.
 
 A local GPO is the least influential object in an AD DS environment because its settings can be overwritten by GPOs that are associated with sites, domains, and OUs. In a non-networked environment, or in a networked environment that does not have a domain controller, local GPO settings are important because other GPOs do not overwrite them. Stand-alone computers only use local GPOs to control the environment.
 
-Windows Vista and newer Windows client operating systems, and Windows Server 2008 and newer Windows Server operating systems, have an added feature: multiple local GPOs. Since Windows 8 and Windows Server 2012, you also can have different user settings for different local users, but this is only available for users� configurations that are in Group Policy. In fact, there is only one set of computer configurations available that affects all users of the computer.
+Windows Vista and newer Windows client operating systems, and Windows Server 2008 and newer Windows Server operating systems, have an added feature: multiple local GPOs. Since Windows 8 and Windows Server 2012, you also can have different user settings for different local users, but this is only available for users' configurations that are in Group Policy. In fact, there is only one set of computer configurations available that affects all users of the computer.
 
 Computers that run Windows 7 and newer versions provide this ability with the following three layers of local GPOs:
 
  -  Local Group Policy (contains the computer configuration settings)
- -  Administrators and Non?Administrators Local Group Policy
- -  User?specific Local Group Policy
+ -  Administrators and Non‑Administrators Local Group Policy
+ -  User-specific Local Group Policy
 
 ## Domain GPOs
 

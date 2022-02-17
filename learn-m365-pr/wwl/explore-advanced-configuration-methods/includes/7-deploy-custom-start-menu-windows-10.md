@@ -8,7 +8,11 @@ Creating custom Start menus is quite easy.
 
 1.  Administrators simply setup a device with a fresh installation of Windows or installation using an organizations base image.
 2.  Customize the Start menu on that device to the desired layout. Pin or unpin apps, create or delete app groups, drag tiles to the desired location, and resize tiles as needed.
-3.  Export the Start menu to an XML file using the Export-StartLayout command in Windows PowerShell. Use the -UseDesktopApplicationID switch and after the -Path switch, add the UNC path and filename.<br><br>For example, if you wish to export to a file called "StartLayoutMarketing.xml" and save to the location \\\\FileServer01\\StartLayouts\\:<br>`Export-StartLayout -UseDesktopApplicationID -Path \\FileServer01\StartLayouts\StartLayoutMarketing.xml`<br><br>
+3.  Export the Start menu to an XML file using the Export-StartLayout command in Windows PowerShell. Use the -UseDesktopApplicationID switch and after the -Path switch, add the UNC path and filename.
+    
+    For example, if you wish to export to a file called "StartLayoutMarketing.xml" and save to the location \\\\FileServer01\\StartLayouts\\:
+    
+    `Export-StartLayout -UseDesktopApplicationID -Path \\FileServer01\StartLayouts\StartLayoutMarketing.xml`
 4.  Once the file is exported, it is ready to be applied to desktops. You can optionally edit the XML file if you wish.
 
 Example of a layout file produced by Export-StartLayout:
@@ -36,7 +40,9 @@ The above process is considered a full layout. It's important to know that when 
 In scenarios where you want to leverage layout, but still provide flexibility for end users to customize the layout, consider a partial layout. Creating a partial layout is nearly identical to creating a full layout. Following the steps above, you configure the groups and tiles you wish to apply, and export the layout.
 
 1.  Open the layout .xml file.
-2.  Modify the &lt;DefaultLayoutOverride&gt; element to include the following property:<br><br>`<DefaultLayoutOverride LayoutCustomizationRestrictionType="OnlySpecifiedGroups">`
+2.  Modify the &lt;DefaultLayoutOverride&gt; element to include the following property:
+    
+    `<DefaultLayoutOverride LayoutCustomizationRestrictionType="OnlySpecifiedGroups">`
 3.  Save the XML file.
 
 The groups specified in the xml file will still be locked, and users will be unable to edit the group or the tiles within the group. Any applications that were duplicated in another group will be removed, and only exist in the locked group.
@@ -119,8 +125,10 @@ If you use Group Policy and your configuration contains a taskbar layout, but no
 To configure Start Layout policy settings in Local Group Policy Editor
 
 1.  On the test computer, press the Windows key, type **gpedit**, and then select **Edit group policy (Control panel)**.
-2.  Go to **User Configuration** or **Computer Configuration** &gt; **Administrative Templates** &gt;**Start Menu and Taskbar**.<br>:::image type="content" source="../media/starttemplate-20a391b5.jpg" alt-text="starttemplate.jpg":::
-    <br><br>
+2.  Go to **User Configuration** or **Computer Configuration** &gt; **Administrative Templates** &gt;**Start Menu and Taskbar**.
+    
+    :::image type="content" source="../media/starttemplate-20a391b5.jpg" alt-text="starttemplate.jpg":::
+    
 3.  Right-click **Start Layout** in the right pane, and click **Edit**.
 4.  This opens the **Start Layout** policy settings.
 5.  Enter the following settings, and then click **OK**

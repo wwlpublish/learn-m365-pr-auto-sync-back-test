@@ -11,7 +11,7 @@ Windows PowerShell has several characteristics that make it ideal for local and 
 
 ## Using the command-line interface
 
-Commands provide Windows PowerShell�s main functionality. There are different types of commands, including cmdlets (pronounced �command-lets�), functions, and workflows. These commands are building blocks, designed for piecing together and implementing complex and customized processes and procedures. Windows PowerShell provides a command-line interface (CLI) that you can use to enter cmdlets interactively.
+Commands provide Windows PowerShell's main functionality. There are different types of commands, including cmdlets (pronounced "command-lets"), functions, and workflows. These commands are building blocks, designed for piecing together and implementing complex and customized processes and procedures. Windows PowerShell provides a command-line interface (CLI) that you can use to enter cmdlets interactively.
 
 ## Using the GUI
 
@@ -23,4 +23,4 @@ The architecture of Windows PowerShell and the ability to use it directly as a C
 
 ## Windows PowerShell ISE
 
-There is another Windows PowerShell app in the same app area called Windows PowerShell Integrated Scripting Environment (ISE) that provides command-completion functionality, and enables you to see all available commands and the parameters that you can use with those commands. You also can use a scripting window within Windows PowerShell ISE to construct and save Windows PowerShell scripts. The ability to view cmdlet parameters ensures that you are aware of the full functionality of each cmdlet, and can create syntactically correct Windows PowerShell commands. Windows PowerShell ISE provides color?coded cmdlets to assist with troubleshooting. Windows PowerShell Integrated Scripting Environment also provides debugging tools that you can use to debug simple and complex Windows PowerShell scripts. You can use the Windows PowerShell ISE to view available cmdlets by module.
+There is another Windows PowerShell app in the same app area called Windows PowerShell Integrated Scripting Environment (ISE) that provides command-completion functionality, and enables you to see all available commands and the parameters that you can use with those commands. You also can use a scripting window within Windows PowerShell ISE to construct and save Windows PowerShell scripts. The ability to view cmdlet parameters ensures that you are aware of the full functionality of each cmdlet, and can create syntactically correct Windows PowerShell commands. Windows PowerShell ISE provides color‑coded cmdlets to assist with troubleshooting. Windows PowerShell Integrated Scripting Environment also provides debugging tools that you can use to debug simple and complex Windows PowerShell scripts. You can use the Windows PowerShell ISE to view available cmdlets by module.
