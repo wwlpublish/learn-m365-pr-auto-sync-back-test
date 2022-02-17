@@ -3,7 +3,7 @@ uid: learn.wwl.evaluate-deployment-methods
 metadata:
   title: Evaluate deployment methods
   description: "This module will provide an introduction to the tools and processes for automating and performing large-scale deployments."
-  ms.date: 02/16/2022
+  ms.date: 02/17/2022
   author: wwlpublish
   ms.author: brhinkel
   ms.topic: interactive-tutorial
