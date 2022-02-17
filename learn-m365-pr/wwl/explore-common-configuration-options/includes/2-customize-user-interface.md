@@ -4,7 +4,7 @@ The following functions apply to both Windows 10 and 11:
 
  -  **Pin to Start**. When the Start menu is opened, several apps will appear either in a group (Windows 10) or under the Pinned label (Windows 11). To pin an app, select from either the list of apps sorted alphabetically on the left side of the Start menu (Windows 10) or by selecting the **All apps** button (Windows 11) which provides an alphabetical list of all installed apps. Tap and hold (or right-click) the desired app, and then tap **Pin to Start**. The app appears as a tile in Start in its own unnamed tile group (Windows 10) or added to the list of pinned apps (Windows 11).
  -  **Unpin from Start**. Unpinning the app does not uninstall the app, but simply removes it from the pinned app list. Tap and hold (or right-click) the app that you wish to remove from Start, and then tap **Unpin from Start**.
- -  **Pin to the taskbar**. You also can pin apps to the taskbar, in addition to (or rather than) pinning them to Start. To do this, tap and hold (or right-click) the desired app, and then tap **Pin to taskbar**. The app appears as an icon on the taskbar. Administrators also can pin apps to a user�s taskbar when configuring the user environment.
+ -  **Pin to the taskbar**. You also can pin apps to the taskbar, in addition to (or rather than) pinning them to Start. To do this, tap and hold (or right-click) the desired app, and then tap **Pin to taskbar**. The app appears as an icon on the taskbar. Administrators also can pin apps to a user's taskbar when configuring the user environment.
 
 The Windows 10 Start menu represents applications as tiles. These objects were resizable and provided the ability to provide dynamic content, called live tiles, instead of a typical application icon. In Windows 11 applications as represented as an icon in the Start menu, and dynamic content in Windows 11 is now delivered through widgets. Therefore, the following capabilities apply only to the Windows 10 Start menu:
 
@@ -25,7 +25,7 @@ Settings are persistent using a Microsoft Account. This facilitates a common ide
 
 Settings that can be synchronized across devices include:
 
- -  **Passwords**. Includes Windows Credential Manager and Wi-Fi profiles.<br>
+ -  **Passwords**. Includes Windows Credential Manager and Wi-Fi profiles.
  -  **Language Preferences**. Includes spelling dictionary and system language settings.
  -  **Ease of Access**. Includes Narrator, on-screen keyboard, and Magnifier.
  -  **Microsoft Edge browser setting**. Includes Microsoft Edge favorites, reading list, and other settings (via Microsoft Edge Sync).

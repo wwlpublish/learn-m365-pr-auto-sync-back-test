@@ -11,5 +11,3 @@ In this module you will learn how to:
  -  Describe how to manage mobile-device settings in Windows.
  -  Describe power plans.
  -  Configure power options.
-
-#### 
