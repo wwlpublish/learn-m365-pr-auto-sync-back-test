@@ -3,7 +3,7 @@ uid: learn.wwl.manage-users-groups
 metadata:
   title: Manage users and groups
   description: "This module introduces the management of users and groups using Active Directory, and compares the differences between Active Directory Directory Services and Azure Active Directory."
-  ms.date: 02/16/2022
+  ms.date: 02/17/2022
   author: wwlpublish
   ms.author: brhinkel
   ms.topic: interactive-tutorial

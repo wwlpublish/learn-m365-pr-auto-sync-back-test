@@ -14,7 +14,7 @@ When comparing AD DS with Azure AD, it’s important to note the following chara
  -  AD DS includes computer objects, representing computers that join an Active Directory domain.
  -  AD DS uses trusts between domains for delegated management.
 
-You can deploy AD DS on an Azure virtual machine to enable scalability and availability for an on-premises AD DS. However, deploying AD DS on an Azure virtual machine does not make any use of Azure AD. Note that deploying AD DS on an Azure virtual machine requires one or more additional Azure data disks, because you should not use drive C for AD DS storage. These disks are needed to store the AD DS database, logs, and SYSVOL. The Host Cache Preference setting for these disks must be set to None.
+You can deploy AD DS on an Azure virtual machine to enable scalability and availability for an on-premises AD DS. However, deploying AD DS on an Azure virtual machine doesn't make any use of Azure AD. Deploying AD DS on an Azure virtual machine requires one or more extra Azure data disks, because you shouldn't use drive C for AD DS storage. These disks are needed to store the AD DS database, logs, and SYSVOL. The Host Cache Preference setting for these disks must be set to None.
 
 ### Characteristics of Azure AD
 
@@ -24,10 +24,10 @@ When comparing Azure AD with AD DS, it’s important to note the following chara
 
  -  Azure AD is primarily an identity solution, and it’s designed for internet-based applications by using HTTP (port 80) and HTTPS (port 443) communications.
     
-     -  Port 80 is the port number assigned to the commonly used internet communication protocol, Hypertext Transfer Protocol (HTTP). It's the port from which a computer sends and receives Web client-based communication and messages from a Web server and is used to send and receive HTML pages or data.
-     -  Port 443 is the port number for the secure version of the Hypertext Transfer Protocol (HTTPS) that's used to access web pages. It's the port used by servers and browsers to ensure you access the right version of a site, and that criminals aren't able to eavesdrop on you or tamper with the data you send across the internet.
+     -  Port 80 is the port number assigned to the commonly used internet communication protocol, Hypertext Transfer Protocol (HTTP). It's the port from which a computer sends and receives Web client-based communication, messages from a Web server, and is used to send and receive HTML pages or data.
+     -  Port 443 is the port number for the secure version of the Hypertext Transfer Protocol (HTTPS) that's used to access web pages. It's the port used by servers and browsers to ensure you access the right version of a site. Criminals aren't able to eavesdrop on you or tamper with the data you send across the internet.
  -  Azure AD is a multi-tenant directory service.
  -  Azure AD users and groups are created in a flat structure, and there are no OUs or GPOs.
- -  You cannot query Azure AD by using LDAP; instead, Azure AD uses the REST API over HTTP and HTTPS.
- -  Azure AD does not use Kerberos authentication; instead, it uses HTTP and HTTPS protocols such as SAML, WS-Federation, and OpenID Connect for authentication, and uses OAuth for authorization.
+ -  You can’t query Azure AD by using LDAP; instead, Azure AD uses the REST API over HTTP and HTTPS.
+ -  Azure AD doesn't use Kerberos authentication; instead, it uses HTTP and HTTPS protocols such as SAML, WS-Federation, and OpenID Connect for authentication, and uses OAuth for authorization.
  -  Azure AD includes federation services, and many third-party services such as Facebook are federated with and trust Azure AD.
