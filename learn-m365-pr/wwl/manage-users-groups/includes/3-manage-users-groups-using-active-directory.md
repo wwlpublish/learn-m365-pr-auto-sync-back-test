@@ -19,15 +19,15 @@ There are two types of groups in Active Directory:
 > [!NOTE]
 > Both distribution groups and security groups can be used as an email entity.
 
-### Active Directory default security groups<br>
+### Active Directory default security groups
 
 There are several built-in groups that are created by default when Active Directory is installed. The following list is some of the commonly used groups:
 
  -  **DnsAdmins** \- Members of this group have administrative access to the DNS Server service.
  -  **Domain Admins** \- Designated administrators of the domain; the Domain Admins group is a member of every domain-joined computer's local Administrators group and receives rights and permissions granted to the local Administrators group, in addition to the domain's Administrators group.
  -  **Domain Computers** \- All workstations and servers that are joined to the domain are by default members of this group.
- -  **Domain Users** \- All users in the domain<br>
+ -  **Domain Users** \- All users in the domain
  -  **Enterprise Admins** \- Enterprise Admins are like Domain Admins, but have permissions to change forest-wide configuration settings; the Enterprise Admins group is a member of every domain's Administrators group and receives rights and permissions granted to that group.
- -  **IIS\_IUSRS** \- Built-in group used by Internet Information Services.<br>
- -  **Print Operators** \- Members of this group can administer domain printers.<br>
- -  **Remote Desktop Users** \- Members of this group are granted the right to log on remotely using RDP.<br>
+ -  **IIS\_IUSRS** \- Built-in group used by Internet Information Services.
+ -  **Print Operators** \- Members of this group can administer domain printers.
+ -  **Remote Desktop Users** \- Members of this group are granted the right to log on remotely using RDP.
