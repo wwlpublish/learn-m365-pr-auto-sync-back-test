@@ -15,11 +15,11 @@ Windows Hello enables users to sign in to their device using a PIN. At first, a 
 
 #### Windows Hello using Biometrics
 
-Windows Hello introduces system support for biometric authentication – using your face, iris, or fingerprint to unlock your devices. You– uniquely you– plus your device are the keys to your Windows experience, apps, data, and even websites and services. Modern sensors recognize your unique personal characteristics to sign you in on a supporting Windows device. A PIN is also created when setting up biometrics, and can be used in the event biometric authentication does not work properly (such as a sensor failure).
+Windows Hello introduces system support for biometric authentication – using your face, iris, or fingerprint to unlock your devices. You– uniquely you– plus your device are the keys to your Windows experience, apps, data, and even websites and services. Modern sensors recognize your unique personal characteristics to sign you in on a supporting Windows device. A PIN is also created when setting up biometrics, and can be used in the event biometric authentication doesn't work properly (such as a sensor failure).
 
 ### Using Windows Hello
 
-In order to use Windows Hello, you must have a PIN for your login already setup. On your PC select theStart button, then select **Settings** &gt; **Accounts** &gt; **Sign-inoptions** to set up Windows Hello. Under Windows Hello, you’ll see options for face, fingerprint, or iris if your PC has a fingerprint reader or a camera that supports it. Once you’re set up, you will be able to sign in with a quick swipe on your fingerprint reader or glance at your camera.
+In order to use Windows Hello, you must have a PIN for your sign in already setup. On your PC select theStart button, then select **Settings** &gt; **Accounts** &gt; **Sign in options** to set up Windows Hello. Under Windows Hello, you’ll see options for face, fingerprint, or iris if your PC has a fingerprint reader or a camera that supports it. Once you’re set up, you'll be able to sign in with a quick scan on your fingerprint reader or glance at your camera.
 
 > [!NOTE]
 > Windows Hello features will only appear if your computer includes hardware to support it.
