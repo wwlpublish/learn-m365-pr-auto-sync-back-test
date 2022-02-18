@@ -4,7 +4,7 @@ title: Knowledge Check
 metadata:
   title: Knowledge Check
   description: "Knowledge Check"
-  ms.date: 02/17/2022
+  ms.date: 02/18/2022
   author: wwlpublish
   ms.author: brhinkel
   ms.topic: interactive-tutorial
@@ -28,7 +28,7 @@ quiz:
       explanation: "Correct. Users elevate only to perform tasks that require an administrator access token. When a standard user attempts to perform an administrative task, UAC prompts the user to enter valid credentials for an administrator account. This is the default for standard user-prompt behavior."
     - content: "Approval prompt"
       isCorrect: false
-      explanation: "Incorrect. This items isn't a valid variation of the elevation prompt. Try again."
+      explanation: "Incorrect. This item isn't a valid variation of the elevation prompt. Try again."
   - content: "As the Desktop Administrator for Contoso, you enabled UAC on all the company's Windows 11 computers to prevent users from installing unauthorized software. However, some of the users are local Administrators on their computers. Which of the following tasks will generate a UAC consent prompt for these users?"
     choices:
     - content: "Use Remote Desktop to connect to another computer"
