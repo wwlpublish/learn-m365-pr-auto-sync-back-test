@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.manage-users-groups.manage-users-groups-using-active-directory
+title: Manage users and groups using Active Directory
+metadata:
+  title: Manage users and groups using Active Directory
+  description: "Manage users and groups using Active Directory"
+  ms.date: 02/17/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 4
+content: |
+  [!include[](includes/3-manage-users-groups-using-active-directory.md)]
