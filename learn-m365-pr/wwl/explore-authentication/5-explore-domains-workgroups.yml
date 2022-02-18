@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.explore-authentication.explore-domains-workgroups
+title: Explore domains and workgroups
+metadata:
+  title: Explore domains and workgroups
+  description: "Explore domains and workgroups"
+  ms.date: 02/18/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+azureSandbox: false
+labModal: false
+durationInMinutes: 2
+content: |
+  [!include[](includes/5-explore-domains-workgroups.md)]
