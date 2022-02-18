@@ -4,7 +4,7 @@ title: Knowledge check
 metadata:
   title: Knowledge check
   description: "Knowledge check"
-  ms.date: 02/17/2022
+  ms.date: 02/18/2022
   author: wwlpublish
   ms.author: brhinkel
   ms.topic: interactive-tutorial
@@ -29,7 +29,7 @@ quiz:
     - content: "Local GPOs, Site GPOs, Domain GPOs, OU GPOs, Child OU GPOs"
       isCorrect: true
       explanation: "Correct. GPOs are applied from the least influential objects to the greatest influential objects in an AD DS environment. A local GPO is the least influential object. That's followed by sites, then domains, then OUs, and then child OUs. Any policies that link to child OUs process last."
-  - content: "As the Desktop Administrator for Fabrikam, Holly Spencer wants to link the custom GPOs that she creates to AD DS containers. This will enable her to apply customizaed settings to the objects in those containers. Which of the following AD DS containers can Holly apply GPOs to?"
+  - content: "As the Desktop Administrator for Fabrikam, Holly Spencer wants to link the custom GPOs that she creates to AD DS containers. This will enable her to apply customized settings to the objects in those containers. Which of the following AD DS containers can Holly apply GPOs to?"
     choices:
     - content: "Domains container"
       isCorrect: true

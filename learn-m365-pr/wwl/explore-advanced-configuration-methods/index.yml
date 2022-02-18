@@ -3,7 +3,7 @@ uid: learn.wwl.explore-advanced-configuration-methods
 metadata:
   title: Explore advanced configuration methods
   description: "This module describes how administrators can activate Windows clients at scale and use Group Policy and PowerShell to apply configuration settings to groups of Windows clients."
-  ms.date: 02/17/2022
+  ms.date: 02/18/2022
   author: wwlpublish
   ms.author: brhinkel
   ms.topic: interactive-tutorial

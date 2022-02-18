@@ -1,19 +1,19 @@
 The default Start menu in Windows may not be the best layout for an organization. While the default items are intended to expose users to features that they may be unaware of, many of these features are consumer or entertainment related, and not always appropriate for a commercial or education environment. Furthermore, organizations may want to take advantage of the customizations options available to better expose users to tools and resources that users might not be aware of.
 
-After deploying a device, making these configurations on each device would be quite tedious. Fortunately, there is a way for administrators to create a standard, customized layout, that can be applied to multiple desktops. You can also create multiple layouts, if different groups within an organization may have different requirements. For example, you might want to create a grouping of LOB apps, but the LOB apps in Accounting are different than the LOB apps used in Human Resources.
+After deploying a device, making these configurations on each device would be tedious. Fortunately, there's a way for administrators to create a standard, customized layout, that can be applied to multiple desktops. You can also create multiple layouts, if different groups within an organization may have different requirements. For example, you might want to create a grouping of LOB apps, but the LOB apps in Accounting are different than the LOB apps used in Human Resources.
 
 ## Creating the Start menu XML layout file
 
 Creating custom Start menus is quite easy.
 
-1.  Administrators simply setup a device with a fresh installation of Windows or installation using an organizations base image.
+1.  Administrators set up a device with a fresh installation of Windows or installation using an organizations base image.
 2.  Customize the Start menu on that device to the desired layout. Pin or unpin apps, create or delete app groups, drag tiles to the desired location, and resize tiles as needed.
 3.  Export the Start menu to an XML file using the Export-StartLayout command in Windows PowerShell. Use the -UseDesktopApplicationID switch and after the -Path switch, add the UNC path and filename.
     
     For example, if you wish to export to a file called "StartLayoutMarketing.xml" and save to the location \\\\FileServer01\\StartLayouts\\:
     
     `Export-StartLayout -UseDesktopApplicationID -Path \\FileServer01\StartLayouts\StartLayoutMarketing.xml`
-4.  Once the file is exported, it is ready to be applied to desktops. You can optionally edit the XML file if you wish.
+4.  Once the file is exported, it's ready to be applied to desktops. You can optionally edit the XML file if you wish.
 
 Example of a layout file produced by Export-StartLayout:
 
@@ -35,9 +35,9 @@ Example of a layout file produced by Export-StartLayout:
 
 ### Full layouts versus partial layouts
 
-The above process is considered a full layout. It's important to know that when a full layout is applied, the layout is locked. Users cannot modify the Start menu, which includes not being able to pin or unpin apps. This might be ideal for scenarios like kiosks, but not for a user's device that has been assigned to them for everyday use.
+The above process is considered a full layout. It's important to know that when a full layout is applied, the layout is locked. Users can’t modify the Start menu, which includes not being able to pin or unpin apps. This might be ideal for scenarios like kiosks, but not for a user's device that has been assigned to them for everyday use.
 
-In scenarios where you want to leverage layout, but still provide flexibility for end users to customize the layout, consider a partial layout. Creating a partial layout is nearly identical to creating a full layout. Following the steps above, you configure the groups and tiles you wish to apply, and export the layout.
+In scenarios where you want to use layouts, but still provide flexibility for end users to customize the layout, consider a partial layout. Creating a partial layout is nearly identical to creating a full layout. Following the steps above, you configure the groups and tiles you wish to apply, and export the layout.
 
 1.  Open the layout .xml file.
 2.  Modify the &lt;DefaultLayoutOverride&gt; element to include the following property:
@@ -55,9 +55,9 @@ The groups specified in the xml file will still be locked, and users will be una
 
 ## Customizing the taskbar
 
-In addition to the Start menu, Windows 10 allows administrators to create custom taskbar configurations that can define additional apps to be pinned to the taskbar and remove default pinned apps. Like the Start menu, you can create multiple configurations for different audiences.
+In addition to the Start menu, Windows 10 allows administrators to create custom taskbar configurations that can define other apps to be pinned to the taskbar and remove default pinned apps. Like the Start menu, you can create multiple configurations for different audiences.
 
-The taskbar configuration can be added to the same XML file that defines the Start menu layout. Alternatively, you can create an XML file that only contains taskbar configuration. Unlike the previous process, you cannot configure a device taskbar and export the configuration. You must create a new XML file or edit an existing file to add the taskbar configuration information.
+The taskbar configuration can be added to the same XML file that defines the Start menu layout. Alternatively, you can create an XML file that only contains taskbar configuration. Unlike the previous process, you can’t configure a device taskbar and export the configuration. You must create a new XML file or edit an existing file to add the taskbar configuration information.
 
 Below is an example of a configuration file that contains only taskbar information.
 
@@ -92,7 +92,7 @@ To get this information, run the following PowerShell command on a device with t
 Get-StartApps
 ```
 
-In the AppID column, you will find the AUMID or Desktop Application Link Path listed. Alternatively, if you are customizing the Start menu as well, and the application is in the Start menu, you can find the AUMID or Desktop Application Link Path in the application's Start menu element in the export file.
+In the AppID column, you'll find the AUMID or Desktop Application Link Path listed. Alternatively, if you're customizing the Start menu as well, and the application is in the Start menu, you can find the AUMID or Desktop Application Link Path in the application's Start menu element in the export file.
 
 ### Removing default apps
 
@@ -120,18 +120,18 @@ Once the configuration file is complete, you need to deploy the configuration. T
 
 If you use a provisioning package to apply the configuration, and a user unpins the app in the taskbar, the user's changes will be undone the next time explorer.exe restarts (such as a reboot). User changes on the taskbar persist if the configuration is applied with Group Policy.
 
-If you use Group Policy and your configuration contains a taskbar layout, but no Start menu configuration (or a full Start menu layout), the user will not be able to change the Start menu, only the taskbar. To ensure users have some ability to customize the Start menu when a taskbar configuration is being applied, include a partial Start layout.
+If you use Group Policy and your configuration contains a taskbar layout, but no Start menu configuration (or a full Start menu layout), the user won't be able to change the Start menu, only the taskbar. To ensure users have some ability to customize the Start menu when a taskbar configuration is being applied, include a partial Start layout.
 
-To configure Start Layout policy settings in Local Group Policy Editor
+To configure Start Layout policy settings in Local Group Policy Editor:
 
 1.  On the test computer, press the Windows key, type **gpedit**, and then select **Edit group policy (Control panel)**.
 2.  Go to **User Configuration** or **Computer Configuration** &gt; **Administrative Templates** &gt;**Start Menu and Taskbar**.
     
-    :::image type="content" source="../media/starttemplate-20a391b5.jpg" alt-text="starttemplate.jpg":::
+    :::image type="content" source="../media/start-template-2094c05d.jpg" alt-text="starttemplate.jpg":::
     
-3.  Right-click **Start Layout** in the right pane, and click **Edit**.
+3.  Right-click **Start Layout** in the right pane, and select **Edit**.
 4.  This opens the **Start Layout** policy settings.
-5.  Enter the following settings, and then click **OK**
+5.  Enter the following settings, and then select **OK.**
 6.  Select **Enabled**.
 7.  Under **Options**, specify the path to the .xml file that contains the Start and taskbar layout. For example, type **C:\\Users\\Test01\\StartScreenMarketing.xml**.
 8.  Optionally, enter a comment to identify the Start and taskbar layout.

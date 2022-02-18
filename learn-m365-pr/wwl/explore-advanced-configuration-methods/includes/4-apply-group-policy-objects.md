@@ -1,6 +1,6 @@
 GPOs apply in a consistent order that allows you to predict which settings are effective when there are conflicting settings in GPOs that apply to a user or computer. GPOs that apply later in the process overwrite any conflicting policy settings that applied earlier.
 
-:::image type="content" source="../media/gpmc1-a828502e-754f30f4.png" alt-text="Screenshot of Group Policy Management Console":::
+:::image type="content" source="../media/group-policy-management-contoso-a828502e-af2ab195.png" alt-text="Screenshot of Group Policy Management Console":::
 
 
 GPOs apply in the following order:

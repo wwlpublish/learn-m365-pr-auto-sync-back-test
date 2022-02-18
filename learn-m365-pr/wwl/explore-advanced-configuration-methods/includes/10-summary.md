@@ -3,5 +3,5 @@ This module explored the various methods of configuring Windows clients at scale
 ## Learn More
 
  -  [Implement Group Policy Objects - Learn](/learn/modules/implement-group-policy-objects/)
- -  [Getting Started with PowerShell - PowerShell \| Microsoft Docs](/powershell/scripting/learn/ps101/01-getting-started?view=powershell-7.2)
+ -  [Getting Started with PowerShell - PowerShell \| Microsoft Docs](https://docs.microsoft.com/powershell/scripting/learn/ps101/01-getting-started?view=powershell-7.2&amp;preserve-view=true)
  -  [Add or remove pinned apps on the Start menu in Windows 11](/windows/configuration/customize-start-menu-layout-windows-11)
