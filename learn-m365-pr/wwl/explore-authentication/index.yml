@@ -1,0 +1,44 @@
+### YamlMime:Module
+uid: learn.wwl.explore-authentication
+metadata:
+  title: Explore authentication
+  description: "In this module, you will learn about the differences between authentication and authorization."
+  ms.date: 02/18/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+title: Explore authentication
+summary: In this module, you will learn about the differences between authentication and authorization.
+abstract: |
+  After completing this lesson, you will be able to:
+  *   Configure a service account.
+  *   Set up a local account.
+  *   Use Credential Manager to manage credentials.
+  *   Describe and configure Windows Hello.
+prerequisites: |
+  *   Students should have a basic understanding of computer networks and hardware concepts.
+  *   Students should have a basic understanding of OS and Application concepts.
+  *   Students should have experience with using Windows 10 or later.
+iconUrl: /learn/achievements/generic-badge.svg
+hidden: true
+levels:
+- beginner
+roles:
+- administrator
+products:
+- windows
+units:
+- learn.wwl.explore-authentication.introduction
+- learn.wwl.explore-authentication.explore-authentication-authorization
+- learn.wwl.explore-authentication.explore-user-account-types
+- learn.wwl.explore-authentication.manage-local-users-groups
+- learn.wwl.explore-authentication.explore-domains-workgroups
+- learn.wwl.explore-authentication.explore-credential-manager
+- learn.wwl.explore-authentication.explore-windows-hello
+- learn.wwl.explore-authentication.configure-password-policies-user-properties
+- learn.wwl.explore-authentication.explore-user-profiles-contents
+- learn.wwl.explore-authentication.knowledge-check
+- learn.wwl.explore-authentication. summary
+badge:
+  uid: learn.wwl.explore-authentication.badge
