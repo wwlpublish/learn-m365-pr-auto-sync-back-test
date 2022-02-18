@@ -1,0 +1,47 @@
+### YamlMime:Module
+uid: learn.wwl.explore-common-configuration-options
+metadata:
+  title: Explore common configuration options
+  description: "This module discusses configuring and customizing some of the common default settings in Windows clients."
+  ms.date: 02/18/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+title: Explore common configuration options
+summary: This module discusses configuring and customizing some of the common default settings in Windows clients.
+abstract: |
+  In this module you will learn how to:
+  *   Use advanced startup options.
+  *   Customize desktop settings.
+  *   Describe the various display settings in Windows.
+  *   Configure display options.
+  *   Describe how to manage mobile-device settings in Windows.
+  *   Describe power plans.
+  *   Configure power options.
+prerequisites: |
+  *   Students should have a basic understanding of computer networks and hardware concepts.
+  *   Students should have a basic understanding of OS and Application concepts.
+  *   Students should have experience with using Windows 10 or later.
+iconUrl: /learn/achievements/generic-badge.svg
+hidden: true
+levels:
+- beginner
+roles:
+- administrator
+products:
+- windows
+units:
+- learn.wwl.explore-common-configuration-options.introduction
+- learn.wwl.explore-common-configuration-options.customize-user-interface
+- learn.wwl.explore-common-configuration-options.explore-action-center
+- learn.wwl.explore-common-configuration-options.use-settings-app
+- learn.wwl.explore-common-configuration-options.use-control-panel
+- learn.wwl.explore-common-configuration-options.examine-display-options
+- learn.wwl.explore-common-configuration-options.evaluate-options-mobile-devices
+- learn.wwl.explore-common-configuration-options.configure-power-plans
+- learn.wwl.explore-common-configuration-options.examine-windows-client-privacy-features
+- learn.wwl.explore-common-configuration-options.knowledge-check
+- learn.wwl.explore-common-configuration-options.summary
+badge:
+  uid: learn.wwl.explore-common-configuration-options.badge

@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.explore-common-configuration-options.customize-user-interface
+title: Customize the user interface
+metadata:
+  title: Customize the user interface
+  description: "Customize the user interface"
+  ms.date: 02/18/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+azureSandbox: false
+labModal: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/2-customize-user-interface.md)]
