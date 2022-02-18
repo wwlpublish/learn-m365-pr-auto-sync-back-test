@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.implement-device-registration.examine-how-device-registration-works
+title: Examine how device registration works
+metadata:
+  title: Examine how device registration works
+  description: "Examine how device registration works"
+  ms.date: 02/17/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+azureSandbox: false
+labModal: false
+durationInMinutes: 2
+content: |
+  [!include[](includes/5-examine-how-device-registration-works.md)]
