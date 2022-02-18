@@ -4,7 +4,7 @@ title: Knowledge Check
 metadata:
   title: Knowledge Check
   description: "Knowledge Check"
-  ms.date: 02/17/2022
+  ms.date: 02/18/2022
   author: wwlpublish
   ms.author: brhinkel
   ms.topic: interactive-tutorial
@@ -62,7 +62,7 @@ quiz:
     - content: "High performance"
       isCorrect: true
       explanation: "Correct. The High performance power plan keeps the system’s disk drive, memory, and processor continuously supplied with power. It requires the highest energy usage of the available power plans, and it sets the screen at its highest brightness."
-  - content: "Holly Spencer is the Desktop Administrator for Fabrikam. Holly, who uses more than one Windows device, has has bookmarked several websites in MIcrosoft Edge. As such, when Holly moves from one device to another, those bookmarks persist in the Favorites list on each device. Which of the following items makes this synchronization of settings possible?"
+  - content: "Holly Spencer is the Desktop Administrator for Fabrikam. Holly, who uses more than one Windows device, has has bookmarked several websites in Microsoft Edge. As such, when Holly moves from one device to another, those bookmarks persist in the Favorites list on each device. Which of the following items makes this synchronization of settings possible?"
     choices:
     - content: "A Microsoft Account"
       isCorrect: true
