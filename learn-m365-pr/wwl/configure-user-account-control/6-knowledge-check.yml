@@ -62,7 +62,7 @@ quiz:
     - content: "A setting or feature that's part of Windows needs your permission to start"
       isCorrect: true
       explanation: "Correct. You'll receive this prompt when the item has a valid digital signature that verifies that Microsoft is the publisher of this item. If this type of dialog box displays, it usually is safe to continue. If you are unsure, check the name of the program or function to decide if it is something that you want to run."
-  - content: "As the Desktop Administrator for Fabrikam, you are a local administrator on your Windows 11 computer. When you attempted to install a new application on your computer, you received a UAC prompt that asked for permission to complete the task. You granted the permission, at which time the task was performed by using full adminstrative rights. What happened next?"
+  - content: "As the Desktop Administrator for Fabrikam, you are a local administrator on your Windows 11 computer. When you attempted to install a new application on your computer, you received a UAC prompt that asked for permission to complete the task. You granted the permission, at which time the task was performed by using full administrative rights. What happened next?"
     choices:
     - content: "You received a prompt asking whether you wanted to retain full administrative rights"
       isCorrect: false
