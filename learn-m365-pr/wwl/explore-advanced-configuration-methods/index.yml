@@ -12,7 +12,7 @@ title: Explore advanced configuration methods
 summary: This module describes how administrators can activate Windows clients at scale and use Group Policy and PowerShell to apply configuration settings to groups of Windows clients.
 abstract: |
   After this module, you will be able to:
-  *   Deploy custuomized Start menu configurations
+  *   Deploy customized Start menu configurations
   *   Describe activation methods
   *   Describe Active Directory
   *   Describe the benefits of using Group Policy
