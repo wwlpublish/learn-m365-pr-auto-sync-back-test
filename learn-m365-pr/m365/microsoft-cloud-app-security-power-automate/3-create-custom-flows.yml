@@ -1,14 +1,14 @@
 ### YamlMime:ModuleUnit
 uid: learn-m365.mcas-power-automate.3-create-custom-flows
 metadata:
-  title: Create custom flows for Microsoft Cloud App Security alerts
-  description: Learn to create custom flows for Microsoft Cloud App Security alerts
-  ms.date: 09/07/2021
-  author: geoffallix
+  title: Create custom flows for Microsoft Defender for Cloud Apps alerts
+  description: Learn to create custom flows for Microsoft Defender for Cloud Apps alerts
+  ms.date: 11/03/2021
+  author: beccarobins
   ms.author: beccarobins
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-title: Create custom flows for Microsoft Cloud App Security alerts
+title: Create custom flows for Microsoft Defender for Cloud Apps alerts
 durationInMinutes: 4
 content: |
   [!include[](includes/3-create-custom-flows.md)]

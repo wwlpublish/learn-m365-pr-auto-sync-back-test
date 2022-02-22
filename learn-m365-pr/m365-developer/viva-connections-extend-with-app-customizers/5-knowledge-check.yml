@@ -1,0 +1,60 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.viva-connections-extend-with-app-customizers.knowledge-check
+metadata:
+  title: Knowledge check
+  description: Check your knowledge.
+  ms.date: 10/21/2021
+  author: waldekmastykarz
+  ms.author: wmastyka
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Knowledge check
+durationInMinutes: 3
+content: |
+quiz:
+  title: Check your knowledge
+  questions:
+  - content: "Viva Connections application customizers work in which of the following experiences?"
+    choices:
+    - content: "Desktop"
+      isCorrect: true
+      explanation: "Application customizers work only in Viva Connections desktop."
+    - content: "Mobile"
+      isCorrect: false
+      explanation: "Application customizers work only in Viva Connections desktop."
+  - content: "When should you consider building application customizers to extend Viva Connections?"
+    choices:
+    - content: "When you need to add custom code to all pages in Viva Connections."
+      isCorrect: true
+      explanation: "To add code to all pages in Viva Connections, you should build an application customizer."
+    - content: "When you want to provide content editors with a reusable widget that they can place on pages."
+      isCorrect: false
+      explanation: "Web parts are the right type of extension to build when you need to provide content editors with a widget they can place on pages."
+    - content: "When you need to extend Viva Connections desktop and mobile."
+      isCorrect: false
+      explanation: "Application customizers work only in Viva Connections desktop. To extend both the desktop and mobile Viva Connections experiences, you should build an Adaptive Card Extension."
+  - content: "What should you consider when building application customizers?"
+    choices:
+    - content: "That application customizers must have a UI."
+      isCorrect: false
+      explanation: "While you can build a UI for an application customizer, it's not necessary."
+    - content: "That content editors can place it anywhere on the page."
+      isCorrect: false
+      explanation: "You as a developer decide where the application customizer will be displayed on the page."
+    - content: "That application customizers can but don't need to have a UI."
+      isCorrect: true
+      explanation: "You can build a UI for an application customizer but it's not required. You can use application customizers to add background code to all pages in Viva Connections desktop."
+  - content: "Which JavaScript framework can you use to build application customizers?"
+    choices:
+    - content: "Only React"
+      isCorrect: false
+      explanation: "You can use any JavaScript framework to build application customizers."
+    - content: "Only Angular"
+      isCorrect: false
+      explanation: "You can use any JavaScript framework to build application customizers."
+    - content: "Only VueJS"
+      isCorrect: false
+      explanation: "You can use any JavaScript framework to build application customizers."
+    - content: "You can use any JavaScript framework"
+      isCorrect: true
+      explanation: "You can use any JavaScript framework to build application customizers."

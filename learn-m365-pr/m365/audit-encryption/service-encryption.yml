@@ -4,8 +4,8 @@ title: Understand service encryption in Microsoft 365
 metadata:
   title: Understand service encryption in Microsoft 365
   description: Learn how Microsoft 365 encrypts data at rest and in transit, securely manages encryption keys, and provides key management options to customers to meet their business needs and compliance obligations.
-  ms.date: 04/27/2021
-  author: NamrahK
+  ms.date: 02/11/2022
+  author: beccarobins
   ms.author: beccarobins
   ms.topic: interactive-tutorial
   ms.prod: learning-m365

@@ -5,7 +5,7 @@ metadata:
   title: Review the network, language, policies, and common configurations
   description: Review configuration information for network, language, policies, and other common elements required to upgrade and update Office at scale. 
   ms.date: 07/19/2021
-  author: lizap 
+  author: temanteleary
   ms.author: teleary
   ms.topic: interactive-tutorial
   ms.prod: learning-m365

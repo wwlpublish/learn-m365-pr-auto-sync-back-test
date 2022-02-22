@@ -1,15 +1,15 @@
-When you connect Microsoft Cloud App Security to apps by using API connectors, Cloud App Security enables you to import user groups from those apps. There are two types of user groups.
+When you connect Microsoft Defender for Cloud Apps to apps by using API connectors, Defender for Cloud Apps enables you to import user groups from those apps. There are two types of user groups.
 
 - Automatic groups
 - Imported groups
 
 ## What are automatic groups?
 
-Automatic groups are created by Cloud App Security automatically. The following is a list of some of these automatic groups.
+Automatic groups are created by Defender for Cloud Apps automatically. The following is a list of some of these automatic groups.
 
 - External users
 - Office 365 administrator
-- Application (Cloud App Security)
+- Application (Defender for Cloud Apps)
 - Dropbox administrator
 - G Suite administrator
 - Box administrator
@@ -29,7 +29,7 @@ You can also import user groups from other connected apps. For example, you coul
 
 To import user groups, use the following procedure:
 
-1. Navigate to the [Cloud App Security portal](https://portal.cloudappsecurity.com).
+1. Navigate to the [Defender for Cloud Apps portal](https://portal.cloudappsecurity.com).
 2. Sign in as a Global Admin in your Microsoft 365 tenant.
 3. In the portal, select **Settings**. This is the cog next to your profile picture.
 4. Select **User groups**. A list of automatic user groups is returned, plus any additional user groups you previously created.
@@ -48,7 +48,7 @@ To import user groups, use the following procedure:
 
 After you complete the import, you can review the imported group from the User groups page. To review the properties of a group, whether automatic or imported, select the group from the list.
 
-:::image type="content" source="../media/view-groups.png" alt-text="A screenshot displays the list of User groups. These are All Employees (Imported), and three automatic groups: Office 365 administrator, External users, and Application (Cloud App Security)." lightbox="../media/view-groups.png":::
+:::image type="content" source="../media/view-groups.png" alt-text="A screenshot displays the list of User groups. These are All Employees (Imported), and three automatic groups: Office 365 administrator, External users, and Application (Defender for Cloud Apps)." lightbox="../media/view-groups.png":::
 
 ### Import user groups
 

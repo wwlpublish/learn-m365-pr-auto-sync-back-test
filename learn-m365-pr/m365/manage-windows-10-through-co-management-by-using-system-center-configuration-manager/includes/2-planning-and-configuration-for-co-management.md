@@ -13,11 +13,11 @@ Co-management supports the following workloads:
 | **Client apps**| Use Intune to manage client apps and PowerShell scripts on co-managed Windows 10 devices. After you transition this workload, any available apps deployed from Intune are available in the Company Portal. Apps that you deploy from Configuration Manager are available in Software Center.|
 
 > [!NOTE]
-> The supported workloads are updated after each new release of System Center Configuration Manager, check the official documentations on [Co-management workloads](/sccm/comanage/workloads) for updates.
+> The supported workloads are updated after each new release of Microsoft Endpoint Configuration Manager, check the official documentations on [Co-management workloads](/sccm/comanage/workloads) for updates.
 
-### Diagram for app workloads
+This diagram illustrates how the **Office Click-to-Run apps** and **Client apps** workloads interact:
 
-![Diagram for app workloads](../media/co-management-apps.png)
+:::image type="content" source="../media/co-management-apps.png" alt-text="Diagram showing interactions between Office Click-to-Run apps and client apps workloads.":::
 
 ## Paths to co-management
 

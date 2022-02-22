@@ -3,10 +3,10 @@ uid: learn-m365.workplace-analytics-teams-insights.summary
 title: Summary
 metadata:
   title: Summary
-  description: Learn how to prepare and generate useful data using the Workplace Analytics Power BI Microsoft Teams insights dashboard.  Analyze Microsoft Teams adoption trends from the populated reports.
-  ms.date: 11/17/2020
-  author: AlexandraHrt
-  ms.author: elizapo
+  description: Learn how to prepare and generate useful data using Microsoft Teams insights dashboard in Power BI through Workplace Analytics with Viva Insights. Analyze Microsoft Teams adoption trends from the populated reports.
+  ms.date: 02/02/2022
+  author: madehmer
+  ms.author: helayne
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 durationInMinutes: 3

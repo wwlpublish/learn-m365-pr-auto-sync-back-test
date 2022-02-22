@@ -3,10 +3,10 @@ uid: learn-m365.workplace-analytics-business-continuity.target-areas-improve
 title: Target opportunity areas to improve remote work
 metadata:
   title: Target opportunity areas to improve remote work
-  description: Learn how to set up and interpret the results from the Workplace Analytics Power BI Business continuity dashboard. Generate insights from the behavioral data to help navigate shifts in employee and team work patterns.  
-  ms.date: 06/18/2021
-  author: AlexandraHrt
-  ms.author: elizapo
+  description: Learn how to set up and interpret the results from the Business continuity dashboard in Power BI through Viva Insights. Generate insights from the behavioral data to help navigate shifts in employee and team work patterns.  
+  ms.date: 02/03/2022
+  author: madehmer
+  ms.author: helayne
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 durationInMinutes: 7

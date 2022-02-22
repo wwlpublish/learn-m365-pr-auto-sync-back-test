@@ -1,0 +1,30 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.explore-messaging-compliance-exchange.examine-place-litigation-holds
+title: Examine In-Place and Litigation holds
+metadata:
+  title: Examine In-Place and Litigation holds
+  description: "Examine In-Place and Litigation holds"
+  ms.date: 01/12/2022
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 10
+content: |
+  [!include[](includes/2-examine-place-litigation-holds.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "Which type of hold in Exchange Server is either enabled or disabled for a mailbox?"
+    choices:
+    - content: "In-place hold"
+      isCorrect: false
+      explanation: "That's incorrect. An In-Place Hold preserves only those items that meet the criteria of a search query that you define by using the In-Place eDiscovery tool. You can place multiple In-Place Holds on a mailbox. Try again."
+    - content: "Litigation hold"
+      isCorrect: true
+      explanation: "That's correct. Litigation Hold is either enabled or disabled for a mailbox. When Litigation Hold is enabled for a mailbox, all items in the mailbox are placed on hold."
+    - content: "Discovery hold"
+      isCorrect: false
+      explanation: "That's incorrect. There is no such hold as a Discovery hold. If a user is put on an In-Place hold, deleted items are moved to the DiscoveryHolds folder. Try again."

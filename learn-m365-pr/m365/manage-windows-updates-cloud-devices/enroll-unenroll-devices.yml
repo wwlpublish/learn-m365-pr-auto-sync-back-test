@@ -1,0 +1,40 @@
+### YamlMime:ModuleUnit
+uid: learn-m365-pr.manage-windows-updates-cloud-devices.enroll-unenroll-devices
+title: Enroll and unenroll devices
+metadata:
+  unitType: learning-content
+  title: Enroll and unenroll devices
+  description: Learn how to enroll and unenroll devices from the Windows Update for Business deployment service using the Microsoft Graph PowerShell SDK.
+  ms.date: 10/15/2021
+  author: beccarobins
+  ms.author: beccarobins
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 6
+content: |
+  [!include[](includes/enroll-unenroll-devices.md)]
+quiz:
+  title: Check your knowledge
+  questions:
+  - content: Which command can be used to enroll a device?
+    choices:
+    - content: Invoke-MgEnrollWindowsUpdatesDevice
+      isCorrect: false
+      explanation: This isn’t a valid command to enroll devices.
+    - content: Invoke-MgEnrollWindowsUpdatesUpdatableAsset
+      isCorrect: true
+      explanation: You can also use its alias Invoke-MgEnrollWuUpdatableAsset.
+    - content: Invoke-MgEnrollWindowsUpdatesUpdatableDevices
+      isCorrect: false
+      explanation: This isn’t a valid command to enroll devices.
+  - content: What parameter should be used to unenroll a device for management by the deployment service?
+    choices:
+    - content: Use the -UpdateCategory parameter
+      isCorrect: true
+      explanation: Use this parameter to specify the type of update category management to unenroll the device from.
+    - content: Use the -FeatureUpdate parameter
+      isCorrect: false
+      explanation: This isn’t a valid parameter to unenroll a device.
+    - content: Use the -UnEnrollUpdateCategory parameter
+      isCorrect: false
+      explanation: This isn’t a valid parameter to unenroll a device.

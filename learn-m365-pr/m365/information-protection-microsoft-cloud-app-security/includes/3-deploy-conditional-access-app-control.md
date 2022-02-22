@@ -11,8 +11,8 @@ The process of using a web app protected by Conditional Access App Control is as
 
 1. User browses to web app.
 2. User authenticates using web app's identity provider.
-3. Identity provider redirects to Microsoft Cloud App Security and Microsoft Cloud App Security applies a session policy.
-4. The web session is proxied by Microsoft Cloud App Security.
+3. Identity provider redirects to Microsoft Defender for Cloud Apps and Microsoft Defender for Cloud Apps applies a session policy.
+4. The web session is proxied by Microsoft Defender for Cloud Apps.
 5. Session activity is audited and governed.
 
 ## Steps to add an app to Conditional Access App Control
@@ -29,7 +29,7 @@ These are the steps to add a featured app to Conditional Access App Control:
 
     :::image type="content" source="../media/3-device-compliance-app-policy.png" alt-text="Device compliance policy.":::
 
-4. Save the policy and Conditional App Access Control works instantly for featured apps. Other apps can be onboarded in the Cloud App Security portal.
+4. Save the policy and Conditional App Access Control works instantly for featured apps. Other apps can be onboarded in the Defender for Cloud Apps portal.
 
 The following video walks through the steps to add an app to Conditional Access App Control:
 

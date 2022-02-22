@@ -2,7 +2,7 @@
 
 Data is exploding and it is being created, stored, and shared everywhere. IDC estimates that in 2025, the world will create and replicate 163 zettabytes of data, representing a tenfold increase from the amount of data created in 2016. Not only is the amount of data growing, but the types of data continue to evolve. In the past, organizations primarily dealt with documents and emails. Now they are also dealing with instant messages, text messages, video files, and images. Many organizations are struggling with how to manage this data overload and the variety of devices on which it is created.
 
-   ![Data is exploding](../media/data-is-exploding.png)
+:::image type="content" source="../media/data-is-exploding.png" alt-text="Data is exploding." border="false":::
 
 > [!NOTE]
 > 1 Zettabyte = 1,000,000 Petabytes
@@ -11,7 +11,7 @@ Data is exploding and it is being created, stored, and shared everywhere. IDC es
 
 Not only is the amount of data increasing, the number of regulations organizations must comply with continues to grow. The maintenance and protection of personal data is one area where there has been a lot of focus. The cost of not complying with privacy regulations like the European General Data Protection Regulation (GDPR) could result in fines, withdrawal of licenses, and lower credibility with regulators and customers.
 
-   ![Data regulations are increasing around the world](../media/data-regulations-are-increasing-around-world.png) 
+:::image type="content" source="../media/data-regulations-are-increasing-around-world.png" alt-text="Data regulations are increasing around the world." border="false":::
 
 ## Discovering and managing data is challenging
 
@@ -22,7 +22,7 @@ Here are few points to consider:
 - More than 80% of corporate data is "dark", meaning it is not classified, protected, or governed.
 - Protecting and governing sensitive data is the biggest concern in complying with regulations.
 
-   ![Discovery and managing data is challenging](../media/discovery-managing-data-is-challenging.png)
+:::image type="content" source="../media/discovery-managing-data-is-challenging.png" alt-text="Discovery and managing data is challenging." border="false":::
 
 ## Defining an information and protection strategy
 
@@ -40,7 +40,7 @@ Microsoft offers integrated information protection and governance solutions to h
 
 It is not just about the data in Microsoft 365 services like Exchange Online, SharePoint Online and Microsoft Teams. You probably have data in other locations like on-premises SharePoint sites and local file shares. Sensitive data also resides in data visualization tools, like Power BI. Your organization might also use non-Microsoft clouds like Dropbox, Box, or software-as-a-service (SaaS) apps like Salesforce. And let's not forget about your corporate social networking presence. The image below lists some possible sensitive data storage locations.
  
-   ![Protect and govern your data wherever it lives](../media/protect-govern-data-wherever-it-lives.png)
+:::image type="content" source="../media/protect-govern-data-wherever-it-lives.png" alt-text="Protect and govern your data wherever it lives." border="false":::
 
 ## Unified approach to data discovery and classification
 
@@ -57,7 +57,7 @@ You must strike a balance in the organization's interest in security with your w
 
 These capabilities tip the security side of the scale:
 
-- Enforce conditional access to sensitive data.
+- Enforce Conditional Access to sensitive data.
 - Data loss prevention (DLP) actions to block sharing.
 - File and email encryption based on sensitivity label.
 - Prevent data leakage through DLP policies.
@@ -71,7 +71,7 @@ These capabilities tip the productivity side of the scale:
 - Recommended labeling and visual markings like watermarks, lock icons, and policy tips.
 - Built-in labeling in Office applications on iOS and Android.
 
-![Balance data security and productivity](../media/balance-data-security-productivity.png) 
+:::image type="content" source="../media/balance-data-security-productivity.png" alt-text="Balance data security and productivity." border="false":::
 
 ## Information protection and governance lifecycle
 
@@ -97,7 +97,7 @@ From a process perspective, here are the major phases you should follow for a su
 - **Create, test, and deploy the labels and policy settings**. Once you determine the methods you will use to protect and govern your data, it is important to test everything thoroughly prior to deploying your configuration across the organization.
 - **Ongoing usage, monitoring and remediation**. It is important to understand how data classification is being used and to ensure your policies are accurate and achieving the desired results.
 
-![Roles and processes](../media/roles-processes.png)
+:::image type="content" source="../media/roles-processes.png" alt-text="Roles and processes." border="false":::
 
 ### Technology
 
@@ -121,7 +121,7 @@ Knowing your data, protecting your data, preventing data loss, and governing you
 
 As the image below illustrates, information protection and governance is not something you do once and then you are finished. It is a continuous process where you start with the basics and refine your approach over time.
 
-![Powered by an intelligent platform](../media/powered-by-intelligent-platform.png)
+:::image type="content" source="../media/powered-by-intelligent-platform.png" alt-text="Powered by an intelligent platform." border="false":::
 
 ## Learn more
 

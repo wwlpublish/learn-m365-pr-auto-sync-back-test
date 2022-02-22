@@ -1,0 +1,30 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.manage-user-roles.implement-user-role-assignment-policies
+title: Implement user roles for role assignment policies
+metadata:
+  title: Implement user roles for role assignment policies
+  description: "Implement user roles for role assignment policies"
+  ms.date: 12/15/2021
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 5
+content: |
+  [!include[](includes/2-implement-user-role-assignment-policies.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "Which of the following built-in user roles allows an end user to view and modify basic configuration and access settings for Outlook on the web?"
+    choices:
+    - content: "MyDiagnostics"
+      isCorrect: false
+      explanation: "That's incorrect. This built-in role enables end users to complete basic diagnostics on their mailbox. Try again."
+    - content: "MyBaseOptions"
+      isCorrect: true
+      explanation: "That's correct. This built-in role enables end users to view and modify basic configuration and access settings for Outlook on the web."
+    - content: "MyProfileInformation"
+      isCorrect: false
+      explanation: "That's incorrect. This built-in role enables end users to change their name and display name. Try again."

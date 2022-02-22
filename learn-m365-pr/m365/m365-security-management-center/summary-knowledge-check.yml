@@ -5,7 +5,7 @@ metadata:
   title: Summary and knowledge check
   description: Review what you learned about the Microsoft 365 Defender portal. 
   ms.date: 07/15/2021
-  author: AlexandraHrt
+  author: beccarobins
   ms.author: beccarobins
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
@@ -37,7 +37,7 @@ quiz:
         explanation: "Sorry, that's not right. Classification is used to help protect against data loss by adding labels that classify documents, email messages, and sites. The classification applies protection to the content or site based on the settings chosen for that label."
       - content: "The Alerts tab"
         isCorrect: false
-        explanation: "Not quite. The Alerts page provides visibility by collecting alerts across your Microsoft 365 environment, including alerts from Microsoft Cloud App Security, Azure Active Directory (Azure AD), and Microsoft Defender."
+        explanation: "Not quite. The Alerts page provides visibility by collecting alerts across your Microsoft 365 environment, including alerts from Microsoft Defender for Cloud Apps, Azure Active Directory (Azure AD), and Microsoft Defender for Cloud."
       - content: "Hunting"
         isCorrect: true
         explanation: "That's right! The hunting feature allows you to defend your Microsoft 365 organization by proactively <i>hunting</i> for malware, suspicious files, and activities."

@@ -1,0 +1,52 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.troubleshoot-mail-flow.knowledge-check
+title: Knowledge check
+metadata:
+  title: Knowledge check
+  description: "Knowledge check"
+  ms.date: 12/09/2021
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 6
+content: |
+  [!include[](includes/5-knowledge-check.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "Which Microsoft Exchange tool provides detailed message activity information as mail flows through the transport pipeline on Mailbox servers and Edge Transport servers?"
+    choices:
+    - content: "Protocol logging"
+      isCorrect: false
+      explanation: "That's incorrect. Protocol logging logs the activity of each Send and Receive connector. Try again."
+    - content: "Message tracking logs"
+      isCorrect: true
+      explanation: "That's correct. Message tracking logs provide much more detailed information about message delivery than delivery reports. Message tracking records the message activity as mail flows through the transport pipeline on Mailbox servers and Edge Transport servers."
+    - content: "Telnet"
+      isCorrect: false
+      explanation: "That's incorrect. A telnet client can be used to connect directly to a server running Exchange Server. This process enables you to verify whether the server is allowing connections on port 25 for SMTP delivery. Try again."
+  - content: "Contoso recently began experiencing back pressure in its Exchange Server deployment. Message delivery slowed down and incoming messages were being blocked. What's the best way for Contoso to avoid back pressure?"
+    choices:
+    - content: "Ensure the organization's Exchange Server has the necessary amount of system resources"
+      isCorrect: true
+      explanation: "That's correct. Exchange Server monitors the resources used for message transport and throttles resource usage to ensure the system remains functional. When resource usage is throttled, you’ll notice symptoms such as slow message delivery or incoming messages being blocked. The best way to avoid back pressure is to ensure the Exchange server has the necessary amount of system resources, including memory and disk space."
+    - content: "Download the Microsoft Connectivity Analyzer tool"
+      isCorrect: false
+      explanation: "That's incorrect. The Microsoft Connectivity Analyzer tool identifies connectivity issues between email clients and the Exchange Server. Try again."
+    - content: "Enable protocol logging on SMTP Send and SMTP Receive connectors"
+      isCorrect: false
+      explanation: "That's incorrect. Protocol logging records the SMTP conversations that occur between messaging servers and between Exchange services in the transport pipeline as part of message delivery. Try again."
+  - content: "Contoso wants to migrate from a third-party email solution to its Exchange Server. Since the domain suffix is the same for all users in the third-party email solution and Contoso's Exchange Server, what must Contoso's Messaging administrator do to properly configure the Exchange Server to allow correct email routing?"
+    choices:
+    - content: "Configure one or more Active Directory sites as hub sites"
+      isCorrect: false
+      explanation: "That's incorrect. This action isn't what Contoso's Messaging administrator must do to properly configure the Exchange Server to allow correct email routing. Try again."
+    - content: "Configure an SMTP Receive connector that enables an Exchange Transport service to receive mail from any other SMTP sources"
+      isCorrect: false
+      explanation: "That's incorrect. This action isn't what Contoso's Messaging administrator must do to properly configure the Exchange Server to allow correct email routing. Try again."
+    - content: "Configure a shared namespace environment"
+      isCorrect: true
+      explanation: "That's correct. Shared namespace is a scenario where an organization shares the same SMTP domain between its Exchange Server and a third-party email solution. Since the domain suffix is the same for all users, Exchange Server must be configured properly to allow correct email routing. This design requires the Messaging administrator to configure a shared namespace environment."

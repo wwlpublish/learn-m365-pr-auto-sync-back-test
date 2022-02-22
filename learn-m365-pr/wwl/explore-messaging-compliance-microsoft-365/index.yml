@@ -1,0 +1,39 @@
+### YamlMime:Module
+uid: learn.wwl.explore-messaging-compliance-microsoft-365
+metadata:
+  title: Explore messaging compliance in Microsoft 365
+  description: "Explore messaging compliance in Microsoft 365"
+  ms.date: 01/12/2022
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Explore messaging compliance in Microsoft 365
+summary: Examines the different Microsoft 365 compliance features that messaging administrators can use to comply with legal and regulatory requirements.
+abstract: |
+  By the end of this module, you'll be able to:
+  - Describe different policy and compliance features for messaging.
+  - Evaluate the different administrator roles in Microsoft 365.
+  - Plan retention policies for Exchange Online mailboxes.
+  - Configure data loss prevention policies in Microsoft 365.
+  - Create message traces to understand the mail flow in your Exchange Online organization.
+prerequisites: ""
+iconUrl: /learn/achievements/m365-messaging-compliance.svg
+levels:
+- intermediate
+roles:
+- administrator
+products:
+- azure-active-directory
+- m365
+units:
+- learn.wwl.explore-messaging-compliance-microsoft-365.introduction
+- learn.wwl.explore-messaging-compliance-microsoft-365.examine-message-policy-compliance
+- learn.wwl.explore-messaging-compliance-microsoft-365.explore-permission-model
+- learn.wwl.explore-messaging-compliance-microsoft-365.configure-retention-policies
+- learn.wwl.explore-messaging-compliance-microsoft-365.configure-data-loss-prevention-policies
+- learn.wwl.explore-messaging-compliance-microsoft-365.run-message-trace
+- learn.wwl.explore-messaging-compliance-microsoft-365.knowledge-check
+- learn.wwl.explore-messaging-compliance-microsoft-365.summary
+badge:
+  uid: learn.wwl.explore-messaging-compliance-microsoft-365.badge

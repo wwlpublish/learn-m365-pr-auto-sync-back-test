@@ -1,0 +1,35 @@
+### YamlMime:Module
+uid: learn.wwl.manage-user-roles
+metadata:
+  title: Manage user roles
+  description: "Manage user roles"
+  ms.date: 12/15/2021
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Manage user roles
+summary: Examines how to manage user roles using built-in role assignment policies and management role assignment policies, and how to create new roles, role assignments, and scopes.
+abstract: |
+  By the end of this module, you'll be able to:
+  *   Describe the built-in end-user roles.
+  *   Configure role assignment policies.
+  *   Create new custom roles and role assignment policies.
+prerequisites: ""
+iconUrl: /learn/achievements/user-roles-manage.svg
+levels:
+- intermediate
+roles:
+- administrator
+products:
+- azure-active-directory
+- m365
+units:
+- learn.wwl.manage-user-roles.introduction
+- learn.wwl.manage-user-roles.implement-user-role-assignment-policies
+- learn.wwl.manage-user-roles.implement-management-role-assignment-policies
+- learn.wwl.manage-user-roles.create-new-roles-role-assignments-scopes
+- learn.wwl.manage-user-roles.knowledge-check
+- learn.wwl.manage-user-roles.summary
+badge:
+  uid: learn.wwl.manage-user-roles.badge

@@ -9,7 +9,7 @@ metadata:
           -	Set up: Learn how to set up a Microsoft Defender for Endpoint instance and how it connects with your environment.
           -	Onboard: Learn about the supported onboarding tools, and how to configure available capabilities.
   ms.date: 08/16/2021
-  author: iankensey
+  author: beccarobins
   ms.author: beccarobins
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
@@ -32,6 +32,7 @@ products:
   - m365
   - m365-ems-cloud-app-security
   - m365-threat-protection
+  - mdatp
 units:
 - learn-m365-pr.get-started-microsoft-defender-endpoint.introduction
 - learn-m365-pr.get-started-microsoft-defender-endpoint.plan

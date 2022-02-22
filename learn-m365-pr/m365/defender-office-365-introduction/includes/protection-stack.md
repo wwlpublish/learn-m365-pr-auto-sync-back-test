@@ -1,6 +1,6 @@
 The Microsoft Defender for Office 365 protection stack provides multiple layers of security protection to all incoming messages. The stack comprises four parts: edge protection, sender intelligence, content filtering, and post-delivery protection, with each layer checking for a different type of threat. Typically, a message will pass through each of the layers. However, the actual route through each part depends on how you've chosen to configure Defender for Office 365.
 
-:::image type="content" source="../media/3-protection-stack-inline.png" lightbox="../media/3-protection-stack-expanded.png" alt-text="Protection Stack":::
+:::image type="content" source="../media/3-protection-stack-inline.png" lightbox="../media/3-protection-stack-expanded.png" alt-text="Protection Stack.":::
 
 ### The edge protection layer
 

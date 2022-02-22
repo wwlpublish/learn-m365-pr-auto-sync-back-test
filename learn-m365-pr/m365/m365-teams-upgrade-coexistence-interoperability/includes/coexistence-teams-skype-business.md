@@ -27,7 +27,7 @@ A TeamsOnly user (also called an upgraded user) has access to all the capabiliti
 
 As soon as your organization is ready for some or all users to use Teams as their only communications and collaboration tool, you can upgrade those users to TeamsOnly mode. If you are upgrading from Islands mode, we advise that you first saturate Teams adoption throughout your organization before beginning the upgrade process. Doing so avoids broken communication scenarios due to Islands mode not providing interoperability.
 
-![Coexistence of Teams and Skype for Business](../media/now-using-teams.png)
+:::image type="content" source="../media/now-using-teams.png" alt-text="Screen shot of a generic Teams window.":::
 
 ## Skype for Business with Teams Collaboration mode
 

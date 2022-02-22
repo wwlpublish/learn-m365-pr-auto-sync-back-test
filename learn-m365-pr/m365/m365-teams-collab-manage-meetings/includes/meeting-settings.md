@@ -7,7 +7,7 @@ You use meeting settings to:
 - Customize settings to handle real-time media traffic.
 - Set port ranges for real-time media traffic.
 
-![Meeting settings](../media/meeting-settings.png)
+:::image type="content" source="../media/meeting-settings.png" alt-text="Screenshot showing meeting settings in the Teams admin center.":::
 
 ## Learn more
 

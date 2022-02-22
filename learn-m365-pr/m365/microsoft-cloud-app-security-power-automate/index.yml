@@ -1,27 +1,27 @@
 ### YamlMime:Module
 uid: learn-m365.mcas-power-automate
 metadata:
-  title: Automate Microsoft Cloud App Security with Power Automate
-  description: Learn how to use automation with Power Automate to manage alerts in Microsoft Cloud App Security.
-  ms.date: 09/07/2021
-  author: geoffallix
+  title: Automate Microsoft Defender for Cloud Apps with Power Automate
+  description: Learn how to use automation with Power Automate to manage alerts in Microsoft Defender for Cloud Apps.
+  ms.date: 11/03/2021
+  author: beccarobins
   ms.author: beccarobins
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-title: Automate Microsoft Cloud App Security with Power Automate
-summary: Learn how to use automation with Power Automate to manage alerts in Microsoft Cloud App Security.
+title: Automate Microsoft Defender for Cloud Apps with Power Automate
+summary: Learn how to use automation with Power Automate to manage alerts in Microsoft Defender for Cloud Apps.
 abstract: | 
   In this module, you will:
-  - Automatically remediate Microsoft Cloud App Security infrequent country alerts using Power Automate.
-  - Creating custom flows for Microsoft Cloud App Security alerts using Power Automate.
-  - Request manager validation for Microsoft Cloud App Security alerts using Power Automate.
+  - Automatically remediate Microsoft Defender for Cloud Apps infrequent country alerts using Power Automate.
+  - Creating custom flows for Microsoft Defender for Cloud Apps alerts using Power Automate.
+  - Request manager validation for Microsoft Defender for Cloud Apps alerts using Power Automate.
   - Remove a malicious inbox forwarding rule using Power Automate.
 prerequisites: | 
   - Experience working with Microsoft 365 services
   - Experience working with Azure 
   - Experience working with Power Automate
   - Knowledge of security concepts, risks, and mitigations
-  - Microsoft Cloud App Security intermediate or equivalent  
+  - Microsoft Defender for Cloud Apps intermediate or equivalent  
 iconUrl: /learn/achievements/automate-microsoft-cloud-app-security-with-power-automate.svg
 levels:
 - advanced
@@ -29,6 +29,7 @@ roles:
 - administrator
 products:
 - m365-ems-cloud-app-security
+- defender-for-cloud-apps
 units:
 - learn-m365.mcas-power-automate.1-introduction
 - learn-m365.mcas-power-automate.2-remediate-country-alerts

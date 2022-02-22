@@ -4,7 +4,7 @@ metadata:
   title: Knowledge check
   description: Knowledge check
   ms.date: 07/01/2021
-  author: geoffallix
+  author: beccarobins
   ms.author: beccarobins
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
@@ -41,7 +41,7 @@ quiz:
       isCorrect: false
       explanation: "That's incorrect. While 1 is the lowest numerical value, it represents the highest risk."
 
-  - content: "An organization is using a custom app which runs in Azure. Which Cloud App Security feature enables an administrator in that organization to discover that app?"
+  - content: "An organization is using a custom app which runs in Azure. Which Defender for Cloud Apps feature enables an administrator in that organization to discover that app?"
     choices:
     - content: "The Cloud Discovery dashboard."
       isCorrect: false
@@ -58,11 +58,10 @@ quiz:
     choices:
     - content: " Azure AD User and groups."
       isCorrect: true
-      explanation: "That's correct. Enables Cloud App Security to monitor users and groups in Azure AD. This is a prerequisite for all other components."
+      explanation: "That's correct. Enables Defender for Cloud Apps to monitor users and groups in Azure AD. This is a prerequisite for all other components."
     - content: " Azure AD Apps."
       isCorrect: false
-      explanation: "That's incorrect. Enables Cloud App Security to monitor all OAuth apps registered in Azure AD but is optional."
+      explanation: "That's incorrect. Enables Defender for Cloud Apps to monitor all OAuth apps registered in Azure AD but is optional."
     - content: " Azure AD Sign-in events."
       isCorrect: false
-      explanation: "That's incorrect. Enables Cloud App Security to audit all sign in and sign out activities, but is optional."
-
+      explanation: "That's incorrect. Enables Defender for Cloud Apps to audit all sign in and sign out activities, but is optional."

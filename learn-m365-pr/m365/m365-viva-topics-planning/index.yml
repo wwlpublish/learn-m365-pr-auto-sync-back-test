@@ -4,17 +4,17 @@ metadata:
   title: Plan roles, automation, and training for Viva Topics
   description: Learn about the Viva Topics roles you'll need for your organization. Identify opportunities for automation. Make a plan to train your users on how to get the most from Viva Topics. 
   ms.date: 07/16/2021
-  author: lizap
-  ms.author: teleary
+  author: maggierui
+  ms.author: ruihu
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Plan roles, automation, and training for Viva Topics
 summary: Learn about the Viva Topics roles you'll need for your organization. Identify opportunities for automation. Make a plan to train your users on how to get the most from Viva Topics. 
 abstract: |
   By the end of this module, you should be able to:
-  - Understand the different Viva Topics roles.
+  - Describe the different Viva Topics roles.
   - Identify scenarios you can automate.
-  - Understand the skills your users need to get the most out of Viva Topics.
+  - List the skills your users need to get the most out of Viva Topics.
 prerequisites: None
 iconUrl: /learn/achievements/plan-roles-automation-training-viva-topics.svg
 levels: 
@@ -23,6 +23,7 @@ roles:
 - administrator
 products: 
 - m365
+- viva-topics
 units:
 - learn-m365-pr.viva-topics-planning.introduction
 - learn-m365-pr.viva-topics-planning.organization-roles

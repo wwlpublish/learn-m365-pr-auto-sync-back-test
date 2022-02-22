@@ -6,7 +6,7 @@ metadata:
   description: Check your knowledge
   ms.date: 07/16/2021
   ms.author: teleary
-  author: lizap
+  author: temanteleary
   ms.topic: interactive-tutorial
   ms.prod: learning-teams
 durationInMinutes: 3
@@ -15,29 +15,29 @@ quiz:
   title: Check your knowledge
   questions:
 
-  - content: "Which of these examples is part of the Cloud App Security framework?"
+  - content: "Which of these examples is part of the Defender for Cloud Apps framework?"
     choices:
     - content: "Identity cyber threats in your Shadow IT"
       isCorrect: false
-      explanation: "That's incorrect. The Cloud App Security framework doesn't identify cyber threats in your Shadow IT, but does identify apps."
+      explanation: "That's incorrect. The Defender for Cloud Apps framework doesn't identify cyber threats in your Shadow IT, but does identify apps."
     - content: "Discover and control the use of Shadow IT"
       isCorrect: true
-      explanation: "That's correct. The Cloud App Security framework allows you to identify apps that aren't controlled by the central IT function."
+      explanation: "That's correct. The Defender for Cloud Apps framework allows you to identify apps that aren't controlled by the central IT function."
     - content: "Assess the compliance of your Shadow IT"
       isCorrect: false
-      explanation: "That's incorrect. The Cloud App Security framework doesn't allow you to assess compliance. It does allow you to sanction or unsanction Shadow IT apps."
+      explanation: "That's incorrect. The Defender for Cloud Apps framework doesn't allow you to assess compliance. It does allow you to sanction or unsanction Shadow IT apps."
  
-  - content: "Which three services are part of Microsoft Defender?"
+  - content: "Which three services are part of Microsoft Defender for Cloud?"
     choices:
-    - content: "Microsoft Defender for Endpoint, Microsoft Defender for Identity, Microsoft Cloud App Security"
+    - content: "Microsoft Defender for Endpoint, Microsoft Defender for Identity, Microsoft Defender for Cloud Apps"
       isCorrect: true
       explanation: "That's correct. These three technologies work together to allow you to protect users, endpoints and data."
-    - content: "Microsoft Defender for Endpoint, Conditional Access, Microsoft Cloud App Security"
+    - content: "Microsoft Defender for Endpoint, Conditional Access, Microsoft Defender for Cloud Apps"
       isCorrect: false
-      explanation: "That's incorrect. Conditional Access isn't part of Microsoft Defender."
-    - content: "Conditional Access, Compliance and Security, Microsoft Cloud App Security"
+      explanation: "That's incorrect. Conditional Access isn't part of Microsoft Defender for Cloud."
+    - content: "Conditional Access, Compliance and Security, Microsoft Defender for Cloud Apps"
       isCorrect: false
-      explanation: "That's incorrect. Conditional Access isn't part of Microsoft Defender. Compliance and Security isn't a specific Microsoft technology."
+      explanation: "That's incorrect. Conditional Access isn't part of Microsoft Defender for Cloud. Compliance and Security isn't a specific Microsoft technology."
 
   - content: "What security model does Conditional Access comply with?"
     choices:
@@ -59,6 +59,6 @@ quiz:
     - content: "Microsoft 365 Defender"
       isCorrect: true
       explanation: "That's correct. Microsoft 365 Defender includes next generation antivirus protection."
-    - content: "Cloud app security"
+    - content: "Defender for Cloud Apps"
       isCorrect: false
-      explanation: "That's incorrect. Cloud app security doesn't include antivirus protection."
+      explanation: "That's incorrect. Defender for Cloud Apps doesn't include antivirus protection."

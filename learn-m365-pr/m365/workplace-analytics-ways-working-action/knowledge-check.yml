@@ -3,10 +3,10 @@ uid: learn-m365.workplace-analytics-ways-working-action.knowledge-check
 title: Knowledge check
 metadata:
   title: Knowledge check
-  description: After using Microsoft Workplace Analytics and Power BI to generate insights about your employees’ work behaviors, you’ll learn about the Microsoft 365 features that can be tools to implement and measure the changes you’ve identified. You’ll learn how to initiate common change practices and what tools and tactics are the most useful.  
-  ms.date: 07/30/2021
-  author: AlexandraHrt
-  ms.author: elizapo
+  description: After using Microsoft Viva Insights with Workplace Analytics and Power BI to generate insights about your employees’ work behaviors, you’ll learn about the Microsoft 365 features that can be tools to implement and measure the changes you’ve identified. You’ll learn how to initiate common change practices and what tools and tactics are the most useful.  
+  ms.date: 01/25/2022
+  author: madehmer
+  ms.author: helayne
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 durationInMinutes: 5
@@ -27,15 +27,15 @@ quiz:
 
     - content: "What can you do to improve manager effectiveness?"
       choices:
-      - content: "Launch the Workplace Analytics seller success plan."
+      - content: "Launch the Workplace Analytics Seller success plan."
         isCorrect: false
-        explanation: "Incorrect. The seller success plan is intended to improve seller effectiveness by providing data on collaboration with external parties."
-      - content: "Enable insights for people managers."
+        explanation: "Incorrect. The Seller success plan is intended to improve seller effectiveness by providing data on collaboration with external parties."
+      - content: "Enable Team insights for people managers."
         isCorrect: true
-        explanation: "That's correct. Insights for people managers use dashboards that help managers identify ways to improve their effectiveness."
-      - content: "Provide all managers access to Workplace Analytics queries."
+        explanation: "That's correct. Team insights for people managers use dashboards that help managers identify ways to improve their effectiveness."
+      - content: "Provide managers access to the Query designer."
         isCorrect: false
-        explanation: "Incorrect. Workplace Analytics queries are used to extract raw behavior data that is intended to be used by an analyst."
+        explanation: "Incorrect. The Query designer is used to extract raw behavior data that is intended to be used by an analyst."
       
     - content: "Which of the following should you consider when designing custom tactics?"
       choices:
@@ -51,12 +51,12 @@ quiz:
 
     - content: "Which of the following are ways in which you can measure behavior across the whole organization?"
       choices:
-      - content: "MyAnalytics dashboards"
+      - content: "Personal insights through Viva Insights apps"
         isCorrect: false
-        explanation: "Incorrect. MyAnalytics dashboards provide personal data for your eyes only."
-      - content: "The Workplace Analytics Ways of working tracker"
+        explanation: "Incorrect. Personal insights through Viva Insights apps provide personal data for an individual's use."
+      - content: "The Ways of working tracker dashboard"
         isCorrect: true
-        explanation: "That's correct. The Workplace Analytics Ways of working tracker is a Power BI template that can help you measure change across your organization while respecting individual privacy."
-      - content: "Insights for people managers"
+        explanation: "That's correct. The Ways of working tracker dashboard in Power BI can help you measure change across your organization while respecting individual privacy."
+      - content: "Team insights for people managers"
         isCorrect: false
-        explanation: "Incorrect. Data from Insights for people managers isn't available to someone who would like to access data across all managers."
+        explanation: "Incorrect. Data from Team insights for people managers isn't available to someone who would like to access data across all managers."

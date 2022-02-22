@@ -3,10 +3,10 @@ uid: learn-m365.workplace-analytics-onboard.knowledge-check
 title: Knowledge check
 metadata:
   title: Knowledge check
-  description: Confirm what you've learned about Workplace Analytics.
-  ms.date: 07/30/2021
-  author: lizap
-  ms.author: elizapo
+  description: Confirm what you've learned about Workplace Analytics
+  ms.date: 01/14/2022
+  author: madehmer
+  ms.author: helayne
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 durationInMinutes: 5
@@ -16,37 +16,37 @@ quiz:
     questions:
     - content: "Which of these roles is not used during Workplace Analytics setup and onboarding?"
       choices:
-      - content: "HR database administrator"
+      - content: "HR database admin"
         isCorrect: true
-        explanation: "Correct. You need the Workplace Analytics administrator to upload organizational data, which is generally pulled from your HR database, but that doesn't require your HR admin's participation."
-      - content: "Microsoft 365 administrator"
+        explanation: "Correct. You need the Workplace Analytics admin to upload organizational data, which is generally pulled from your HR database, but it doesn't require your HR admin's participation."
+      - content: "Microsoft 365 admin"
         isCorrect: false
         explanation: "Sorry, that’s incorrect. The Microsoft 365 admin assigns Workplace Analytics licenses."
-      - content: "Workplace Analytics administrator"
+      - content: "Workplace Analytics admin"
         isCorrect: false
-        explanation: "Sorry, that’s incorrect. The Workplace Analytics administrator configures settings and assigns user roles."
+        explanation: "Sorry, that’s incorrect. The Workplace Analytics admin configures settings and assigns user roles."
     - content: "Which of the following is true of Workplace Analytics licenses?"
       choices:
       - content: "A Workplace Analytics license changes the user's day-to-day experience."
         isCorrect: false
         explanation: "Sorry, that's incorrect. Workplace Analytics operates entirely on the back-end and has no impact on the user's experience."
-      - content: "Workplace Analytics ingests and analyzes digital collaboration patterns for employees included in the analysis population."
+      - content: "Workplace Analytics analyzes digital collaboration patterns for employees included in the analysis population."
         isCorrect: true
         explanation: "Correct. The digital collaboration signals (from Outlook and Teams) for employees included in the analysis population form the core Workplace Analytics data set."
-      - content: "Workplace Analytics ingests telemetry data from employee computers, for example keystrokes, clicks, amount of time spend in applications."
+      - content: "Workplace Analytics uses telemetry data from employee computers, for example keystrokes, clicks, amount of time spend in applications."
         isCorrect: false
         explanation: "Sorry, that's incorrect. Workplace Analytics only captures digital collaboration signals from Outlook and Teams."
-    - content: "Which role has full access to all Workplace Analytics features (including the ability to directly query the data set) but can't change Workplace Analytics settings (like system defaults and privacy settings)?"
+    - content: "Which role has full access to all Workplace Analytics features (including the ability to directly query data) but can't change Workplace Analytics settings (system defaults and privacy settings)?"
       choices:
-      - content: "Microsoft 365 administrator"
+      - content: "Microsoft 365 admin"
         isCorrect: false
         explanation: "Sorry, that's incorrect. Your Microsoft 365 admin assigns Workplace Analytics licenses but isn't assigned a Workplace Analytics role."
-      - content: "Workplace Analytics administrator"
+      - content: "Workplace Analytics admin"
         isCorrect: false
         explanation: "Sorry, that's incorrect. Your Workplace Analytics admin can configure and modify Workplace Analytics settings but doesn't have access to other product features."
       - content: "Workplace Analytics analyst"
         isCorrect: true
-        explanation: "Correct. The Workplace Analytics analyst has full access to product features, including querying the data set."
+        explanation: "Correct. The Workplace Analytics analyst has full access to product features, including querying data."
       - content: "Workplace Analytics analyst limited"
         isCorrect: false
         explanation: "Sorry, that's incorrect. The Workplace Analytics analyst limited can access the Home page and Explore dashboards but can't directly query the data set."
@@ -66,9 +66,9 @@ quiz:
       - content: "ManagerId"
         isCorrect: false
         explanation: "Sorry, that's incorrect. ManagerId defines the employee's manager and is required in the organizational data file."
-      - content: "LevelDesignation"
+      - content: "PersonId"
         isCorrect: false
-        explanation: "Sorry, that's incorrect. LevelDesignation is required to determine the time spent in redundant meetings and to view analyses by employee level."
+        explanation: "Sorry, that's incorrect. PersonId defines the employees in your analysis population."
       - content: "Organization"
         isCorrect: false
         explanation: "Sorry, that's incorrect. Organization is required to determine the collaboration time that is spent between various groups."

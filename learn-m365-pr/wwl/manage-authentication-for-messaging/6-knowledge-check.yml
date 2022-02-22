@@ -1,0 +1,52 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.manage-authentication-for-messaging.knowledge-check
+title: Knowledge check
+metadata:
+  title: Knowledge check
+  description: "Knowledge check"
+  ms.date: 01/13/2022
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 6
+content: |
+  [!include[](includes/6-knowledge-check.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "As the Messaging administrator for Lucerne Publishing, Patti Fernandez is planning the company's password policy. Patti wants to maximize the security of the sign-in credentials for Lucerne's users. Which of the following items is a best practice that Patti should implement as part of the company's password management policy?"
+    choices:
+    - content: "Enforce at least six character minimum length requirement"
+      isCorrect: false
+      explanation: "That's incorrect. A password management best practice should be to enforce at least an eight character minimum length requirement. Keep in mind, however, that passwords longer than eight characters can often force users to repeat patterns that are easier to guess. Try again."
+    - content: "Periodic password resets should occur on short intervals"
+      isCorrect: false
+      explanation: "That's incorrect. As a best practice, periodic password resets shouldn't occur on short intervals. Resetting passwords on short intervals often results in users writing down passwords or creating predictable passwords that can easily be guessed. Try again."
+    - content: "Enforce registration for multifactor authentication"
+      isCorrect: true
+      explanation: "That's correct. Multifactor authentication (MFA) requires the use of more than one verification method. MFA adds a second layer of security to user sign-in and transactions."
+  - content: "Fabrikam has an Exchange Server 2019 on-premises environment. The company also has an Azure AD Premium Plan 1 subscription and a Microsoft 365 E3 tenant. As the company's Messaging administrator, Holly Spencer wanted to implement self-service password reset (SSPR) so that Fabrikam's users can reset their own passwords. However, Holly was unable to do so. What prevented Holly from implementing SSPR?"
+    choices:
+    - content: "SSPR isn't available in Exchange Server on-premises environments"
+      isCorrect: true
+      explanation: "That's correct. SSPR is only available in Exchange Online and hybrid environments. It isn't available in Exchange Server on-premises environments."
+    - content: "SSPR is only available with Microsoft 365 E5 subscriptions"
+      isCorrect: false
+      explanation: "That's incorrect. In Fabrikam's on-premises Exchange Server environment, the Microsoft 365 subscription has no bearing on SSPR availability. Try again."
+    - content: "SSPR is only available with Azure AD Premium Plan 2 subscriptions"
+      isCorrect: false
+      explanation: "That's incorrect. The Azure AD Premium Plan only impacts hybrid environments (in which case, an Azure AD Premium Plan 1 subscription is required). Fabrikam doesn't have a hybrid environment. Try again."
+  - content: "Tailspin Toys has an Exchange Server 2019 on-premises deployment. Alan Deyoung, who's assigned the Microsoft 365 Messaging admin role, wants to configure the company's password policy in Microsoft 365. However, Alan has discovered that the password policy settings are disabled in the Microsoft 365 admin center. Which of the following items would cause these settings to be disabled?"
+    choices:
+    - content: "Password policies can only be defined for Exchange Online and hybrid deployments"
+      isCorrect: false
+      explanation: "That's incorrect. Password policy can be defined in Microsoft 365 regardless of the Exchange environment. Try again."
+    - content: "Password policies can only be defined in Azure Active Directory"
+      isCorrect: false
+      explanation: "That's incorrect. Password policy is defined in Microsoft 365 using the Microsoft 365 admin center. In Exchange Online deployments, you can also use Azure Active Directory to configure other password policy settings, such as password length and complexity. Try again."
+    - content: "Alan is assigned the Microsoft 365 Messaging admin role and not the Global Administrator role"
+      isCorrect: true
+      explanation: "That's correct. You must be assigned the Global admin role to configure password policy in Microsoft 365."

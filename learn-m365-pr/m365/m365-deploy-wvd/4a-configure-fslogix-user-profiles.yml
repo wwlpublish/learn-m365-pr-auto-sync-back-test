@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.deploy-wvd.configure-fslogix-user-profiles
+title: Configure FSLogix user profiles
+metadata:
+  title: Configure FSLogix user profiles
+  description: Learn how to configure user profiles by using Azure Virtual Desktop.
+  ms.date: 12/15/2021
+  author: lizap
+  ms.author: nedelgad
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 5
+content: |
+  [!include[](includes/4a-configure-fslogix-user-profiles.md)]

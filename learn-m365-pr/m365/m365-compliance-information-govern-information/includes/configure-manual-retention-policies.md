@@ -14,7 +14,7 @@ Creating a retention label policy to publish labels for manual application consi
 1. Name your policy
 1. Review your settings
 
-![Manual retention label policy configuration](../media/manual-retention-label-policy-configuration.png)
+:::image type="content" source="../media/manual-retention-label-policy-configuration.png" alt-text="Diagram showing Steps of Manual retention label policy configuration.":::
 
 ## Step 1: Choose labels to publish
 

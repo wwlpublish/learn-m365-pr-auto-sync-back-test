@@ -4,9 +4,9 @@ title: Manage different kinds of mailboxes with Exchange Online
 metadata:
   title: Manage mailboxes
   description: Learn about the different kinds of mailboxes available, including archive mailboxes and resource mailboxes.  
-  ms.date: 07/19/2021
-  author: AlexandraHrt
-  ms.author: v-aleha
+  ms.date: 10/21/2021
+  author: temanteleary
+  ms.author: teleary
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 durationInMinutes: 10

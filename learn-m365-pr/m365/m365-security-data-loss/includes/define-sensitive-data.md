@@ -34,10 +34,10 @@ The following use case illustrates the lifecycle of a document.
 1. The finance and HR teams approve the final document and email it to the payroll team.
 1. Payroll opens the document in a third-party tool for payout.
 
-![Flowchart that illustrates the workflow of a document with sensitive information](../media/sensitive-data-workflow.png)
+:::image type="content" source="../media/sensitive-data-workflow.png" alt-text="Flowchart that illustrates the workflow of a document with sensitive information." border="false":::
 
 Where could you use Data Loss Prevention (DLP) in this scenario?
 
 - Use DLP policies to block the sending of emails that contain bank account information or Social Security numbers, or optionally apply encryption automatically to the messages.
-- Use Microsoft Cloud App Security to block the upload, download, or sharing of sensitive information that resides in a cloud repository
-- Consider applying RMS on the SharePoint library hosting the documents.
+- Use Microsoft Defender for Cloud Apps to block the upload, download, or sharing of sensitive information that resides in a cloud repository
+- Consider applying Rights Management service (RMS) on the SharePoint library hosting the documents.

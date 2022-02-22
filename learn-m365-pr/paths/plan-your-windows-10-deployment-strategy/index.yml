@@ -1,20 +1,20 @@
 ### YamlMime:LearningPath
 uid: learn.wwl.plan-your-windows-10-deployment-strategy
 metadata:
-  title: Plan your Windows 10 deployment strategy
-  description: Plan your Windows 10 deployment strategy
-  ms.date: 06/30/2021
+  title: Plan your Windows devices deployment strategy
+  description: Plan your Windows devices deployment strategy
+  ms.date: 10/05/2021
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-title: Plan your Windows 10 deployment strategy
+title: Plan your Windows devices deployment strategy
 prerequisites: |
   - Students should have completed a role-based administrator collection such as Messaging, Teamwork, Security and Compliance, or Collaboration.
   - Students should have a proficient understanding of DNS and basic functional experience with Microsoft 365 services.
   - Students must have a proficient understanding of general IT practices.
 summary: |
-  This learning path examines the Microsoft 365 features an organization must plan for to implement its Windows 10 deployment strategy, including Windows Autopilot, its Windows 10 subscription activation strategy, and Desktop Analytics.
+  This learning path examines the Microsoft 365 features an organization must plan for to implement its Windows devices deployment strategy, including Windows Autopilot, its Windows device subscription activation strategy, and Desktop Analytics.
 iconUrl: /learn/achievements/windows-deployment.svg
 levels:
 - intermediate

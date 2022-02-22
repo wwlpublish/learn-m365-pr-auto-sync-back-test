@@ -5,7 +5,7 @@ A typical organization's IT support staff reckon on their users using 30 or 40 a
 
 ## What is Cloud App Discovery?
 
-You can use Cloud Discovery in Microsoft Cloud App Security to learn about the apps being used in your organization. *Shadow IT* helps you learn about the apps being used, and whether they pose a risk.
+You can use Cloud Discovery in Microsoft Defender for Cloud Apps to learn about the apps being used in your organization. *Shadow IT* helps you learn about the apps being used, and whether they pose a risk.
 
 When planning to implement Shadow IT Cloud Discovery, there are three key phases to consider. These phases are displayed in the following diagram.
 
@@ -21,10 +21,10 @@ The following table describes these three key phases, which represent a continua
 
 These three phases represent a continuous process within your organization. In addition to these three continual phases, you must also consider two additional phases. These are:
 
-- Reporting. Use Cloud App Security options to get insights into your organization's app usage.
+- Reporting. Use Defender for Cloud Apps options to get insights into your organization's app usage.
 
     > [!TIP]
-    > You can integrate Cloud Discovery logs into Azure Sentinel for further investigation and analysis.
+    > You can integrate Cloud Discovery logs into Microsoft Sentinel for further investigation and analysis.
 
 - Controlling. Use app control via APIs or by using Conditional Access App Control, discussed later in this module.
 
@@ -32,7 +32,7 @@ These three phases represent a continuous process within your organization. In a
 
 Your primary means for managing app discovery is the Cloud Discovery dashboard. To access the Cloud Discovery dashboard, use the following procedure:
 
-1. Navigate to the [Cloud App Security portal](https://portal.cloudappsecurity.com?azure-portal=true).
+1. Navigate to the [Defender for Cloud Apps portal](https://portal.cloudappsecurity.com?azure-portal=true).
 2. Sign in as a Global Admin.
 3. In the navigation pane, select **Discover** and then select **Cloud Discovery dashboard**.
 
@@ -48,7 +48,7 @@ In the following screenshot of the Cloud Discovery Dashboard, you can review the
 
 - App Headquarter location map
 
-:::image type="content" source="../media/dashboard.png" alt-text="A screenshot of the Cloud Discovery Dashboard page of the Cloud App Security portal.":::
+:::image type="content" source="../media/dashboard.png" alt-text="A screenshot of the Cloud Discovery Dashboard page of the Microsoft Defender for Cloud Apps portal." lightbox="../media/dashboard.png":::
 
 Use this at-a-glance overview to review the overall cloud app usage in your organization. Then you can:
 

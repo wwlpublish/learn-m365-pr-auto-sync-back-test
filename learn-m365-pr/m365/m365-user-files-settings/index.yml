@@ -4,7 +4,7 @@ metadata:
   title: Migrate user files and settings in Microsoft 365
   description: Review the different options for ensuring users’ files and settings have been captured and migrated.
   ms.date: 07/16/2021
-  author: AlexandraHrt
+  author: temanteleary
   ms.author: teleary
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
@@ -25,6 +25,7 @@ roles:
 - administrator
 products:
 - m365
+- office-onedrive
 units:
 - learn-m365.user-files-settings.1-introduction
 - learn-m365.user-files-settings.2-manual-automated-migrations

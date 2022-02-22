@@ -4,8 +4,8 @@ metadata:
   title: Introduction to Viva Topics
   description: Viva Topics is an add-on service in Microsoft Viva, an employee experience platform (EXP) for a unified knowledge and content experience across Microsoft 365 and Microsoft Search. Viva Topics can help your people learn in the flow with Microsoft 365 apps without manually mining disparate applications or repositories.  
   ms.date: 07/16/2021
-  author: lizap
-  ms.author: teleary
+  author: maggierui
+  ms.author: ruihu
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Introduction to Viva Topics
@@ -13,7 +13,7 @@ summary: Viva Topics is an add-on service in Microsoft Viva, an employee experie
 abstract: |
   When you finish with this module, you'll be able to: 
   - Describe how AI interacts with Viva Topics
-  - Understand the administrator scenarios for Viva Topics
+  - Identify the administrator scenarios for Viva Topics
   - Optimize your SharePoint environment to take advantage of Viva Topics
   - Sign up for a trial of Viva Topics
   - Create a Topic center & assign licenses
@@ -31,6 +31,7 @@ roles:
 - solution-architect
 products:
 - m365
+- viva-topics
 units:
 - learn-m365.viva-topics-intro.introduction
 - learn-m365.viva-topics-intro.ai-interaction

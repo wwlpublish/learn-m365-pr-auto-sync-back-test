@@ -4,16 +4,16 @@ metadata:
   title: Safeguard multi-cloud apps and resources with cloud security solutions from Microsoft
   description: Learn how Azure can provide comprehensive security for your organization's estate. 
   ms.date: 05/27/2021
-  author: IanKensey
+  author: beccarobins
   ms.author: beccarobins
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Safeguard multi-cloud apps and resources with cloud security solutions from Microsoft
 summary: |
-  Microsoft 365 provides you with a suite of security and compliance tools to keep your organizations data, assets, and resources secure and safe.  By using tools like **Azure Security Center**, you can manage your security posture, using Azure Defender you can proactively protect your workloads, and with Azure Sentinel you gain threat identification and resolution across your estate. Using **Microsoft Cloud App Security** you can monitor how your data is accessed and used, as well as identify and combat cyberthreats across all your cloud services.
+  Microsoft 365 provides you with a suite of security and compliance tools to keep your organizations data, assets, and resources secure and safe.  By using tools like **Azure Security Center**, you can manage your security posture, using Azure Defender you can proactively protect your workloads, and with Azure Sentinel you gain threat identification and resolution across your estate. Using **Microsoft Defender for Cloud Apps** you can monitor how your data is accessed and used, as well as identify and combat cyberthreats across all your cloud services.
 prerequisites: | 
   - An understanding of concepts including containers, virtual machines, storage, Logic Apps, and Log Analytics.
-  - Familiarity with the Azure portal, and Azure Security Center.
+  - Familiarity with the Azure portal, and Microsoft Defender for Cloud.
 iconUrl: /learn/achievements/cloud-security-solutions-safeguard.svg
 levels: 
 - intermediate

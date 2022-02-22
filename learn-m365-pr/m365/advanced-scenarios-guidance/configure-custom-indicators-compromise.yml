@@ -2,9 +2,9 @@
 uid: learn-m365.advanced-scenarios-guidance.configure-custom-indicators-compromise
 metadata:
   title: Configure custom indicators of compromise
-  description: Advanced scenarios and guidance with Microsoft Cloud App Security
-  ms.date: 07/19/2021
-  author: alistairmatthews
+  description: Advanced scenarios and guidance with Microsoft Defender for Cloud Apps
+  ms.date: 01/13/2022
+  author: beccarobins
   ms.author: beccarobins
   ms.topic: interactive-tutorial
   ms.prod: learning-m365

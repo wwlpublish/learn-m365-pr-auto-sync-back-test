@@ -27,17 +27,17 @@ quiz:
     - content: "Configuration Manager"
       isCorrect: true
       explanation: "That's correct. Configuration Manager is the recommended tool for deploying and managing desktop apps. It can also be used for deploying Microsoft Store for Business apps."
-  - content: "As the Enterprise Administrator at Northwind Traders, Allan Deyoung wants to manage risk by using Conditional Access policies. Which of the following features should Allan couple with Conditional access to provide high levels of security for accessing applications?"
+  - content: "As the Enterprise Administrator at Northwind Traders, Allan Deyoung wants to manage risk by using Conditional Access policies. Which of the following features should Allan couple with Conditional Access to provide high levels of security for accessing applications?"
     choices:
     - content: "Azure AD"
       isCorrect: false
-      explanation: "That's incorrect. This item isn't what Allan should couple with Conditional access to provide high levels of security for accessing applications. Try again."
+      explanation: "That's incorrect. This item isn't what Allan should couple with Conditional Access to provide high levels of security for accessing applications. Try again."
     - content: "Azure AD single sign-on"
       isCorrect: true
-      explanation: "That's correct. Coupling Azure AD single sign-on with Conditional access provides high levels of security for accessing applications."
+      explanation: "That's correct. Coupling Azure AD single sign-on with Conditional Access provides high levels of security for accessing applications."
     - content: "Intune"
       isCorrect: false
-      explanation: "That's incorrect. This item isn't what Allan should couple with Conditional access to provide high levels of security for accessing applications. Try again."
+      explanation: "That's incorrect. This item isn't what Allan should couple with Conditional Access to provide high levels of security for accessing applications. Try again."
   - content: "Which of the following features must be connected to Intune to manage mobile apps?"
     choices:
     - content: "Mobile Device Management"

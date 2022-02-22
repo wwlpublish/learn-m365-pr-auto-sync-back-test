@@ -33,7 +33,7 @@ quiz:
     choices:
     - content: "a Security policy in Microsoft 365"
       isCorrect: true
-      explanation: "That's correct. To control access to company resources, organizations can configure either a Security policy in Microsoft 365 or a Conditional access policy in Intune. These policies can be configured to only allow access to company resources from enrolled devices."
+      explanation: "That's correct. To control access to company resources, organizations can configure either a Security policy in Microsoft 365 or a Conditional Access policy in Intune. These policies can be configured to only allow access to company resources from enrolled devices."
     - content: "a Compliance Policy in Intune"
       isCorrect: false
       explanation: "That's incorrect. A Compliance Policy doesn't provide this type of control. Try again."

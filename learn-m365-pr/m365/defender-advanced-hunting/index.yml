@@ -4,8 +4,8 @@ metadata:
   moduleType: standard
   title: Locate threats using advanced hunting with Microsoft 365 Defender 
   description: Gain an understanding of the advanced hunting query language, Kusto, and how to create queries to find threats. You'll gain an awareness of the data schemas provided by Microsoft 365 and how they can enrich query results. Finally, you'll explore custom detections and how they can be used to automate detection and remediation of threats.
-  ms.date: 08/12/2021
-  author: iankensey
+  ms.date: 11/03/2021
+  author: beccarobins
   ms.author: beccarobins
   ms.topic: interactive-tutorial
   ms.prod: learning-m365

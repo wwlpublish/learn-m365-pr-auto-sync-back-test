@@ -1,4 +1,4 @@
-Workplace from Facebook is a collaborative app that enables the users at Contoso to work together. You can use Conditional Access App Control policies in Microsoft Cloud App Security to help secure content in this app, and to manage things such as file uploads and downloads.
+Workplace from Facebook is a collaborative app that enables the users at Contoso to work together. You can use Conditional Access App Control policies in Microsoft Defender for Cloud Apps to help secure content in this app, and to manage things such as file uploads and downloads.
 
 ## Locate the Audience and ACS URLs
 
@@ -29,9 +29,9 @@ Next, you'll need to configure the identity provider. In this case, we'll add th
 
     :::image type="content" source="../media/users-groups.png" alt-text="A screenshot displaying the Users and groups page in the Azure AD portal. The administrator is adding users to the Workplace from Facebook app.":::
 
-## Create a conditional access policy for the app
+## Create a Conditional Access policy for the app
 
-The next step is to create a conditional access policy in Azure AD.
+The next step is to create a Conditional Access policy in Azure AD.
 
 1. In the **Workplace from Facebook** page, in the navigation pane, select **Conditional Access**.
 1. On the **Conditional Access** page, select **New Policy**.
@@ -49,7 +49,7 @@ The next step is to create a conditional access policy in Azure AD.
     > [!NOTE]
     > You can configure additional conditions, such as device state.
 
-    :::image type="content" source="../media/session.png" alt-text="A screenshot displaying the Session page of a new conditional access policy in the Azure Active Directory admin center.":::
+    :::image type="content" source="../media/session.png" alt-text="A screenshot displaying the Session page of a new Conditional Access policy in the Azure Active Directory admin center.":::
 
 ## Configure Workplace from Facebook SSO settings
 
@@ -75,9 +75,9 @@ In the Azure Active Directory Admin Center, you must now complete the app config
 1. Select the **Test SSO** button.
 1. In the **Single sign-on (SSO) setup** dialog box, select **Save Changes**.
 
-## Configure a Cloud App Security Conditional Access App Control app
+## Configure a Defender for Cloud Apps Conditional Access App Control app
 
-The next stage is to create the Conditional Access App Control policy. In a new browser tab, open the Microsoft Cloud App Security portal, and then complete the following steps:
+The next stage is to create the Conditional Access App Control policy. In a new browser tab, open the Microsoft Defender for Cloud Apps portal, and then complete the following steps:
 
 1. In the navigation pane, expand **Investigate** and then select **Connected apps**.
 1. In the **Connected apps** page, select the **Conditional Access App Control apps** tab.
@@ -96,10 +96,10 @@ The next stage is to create the Conditional Access App Control policy. In a new 
 
 ## Configure a session policy
 
-The final stage is to create the Access control or Session control policies. In this example, we'll create a session policy. In the Microsoft Cloud App Security portal, complete the following steps:
+The final stage is to create the Access control or Session control policies. In this example, we'll create a session policy. In the Microsoft Defender for Cloud Apps portal, complete the following steps:
 
 1. In the navigation pane, select **Control** and then select **Policies**.
-1. In the **Policies** page, select the **Conditional access** tab.
+1. In the **Policies** page, select the **Conditional Access** tab.
 1. Select the **Create policy** button, and then select **Session policy**.
 1. In the Policy template list, select the type of activity. For example, select **Block sending of messages based on real-time content inspection**.
 1. Select **Apply template**. The various fields are updated with suitable values based on the template. If you want to modify any fields, you can do so.
@@ -107,8 +107,8 @@ The final stage is to create the Access control or Session control policies. In 
 
     :::image type="content" source="../media/add-session-policy.png" alt-text="A screenshot of a session policy with the Block sending of messages based on real-time content inspection template selected.":::
 
-## Block or apply DLP to file downloads in Workplace from Facebook using Microsoft Cloud App Security
+## Block or apply DLP to file downloads in Workplace from Facebook using Microsoft Defender for Cloud Apps
 
-The following video demonstrates how to use DLP for file downloads in Workplace from Facebook using Cloud App Security:
+The following video demonstrates how to use DLP for file downloads in Workplace from Facebook using Defender for Cloud Apps:
 
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWyDG3]

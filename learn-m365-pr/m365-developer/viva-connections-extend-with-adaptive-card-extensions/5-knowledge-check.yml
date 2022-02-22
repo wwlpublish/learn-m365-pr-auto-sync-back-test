@@ -1,0 +1,60 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.viva-connections-extend-with-adaptive-card-extensions.knowledge-check
+metadata:
+  title: Knowledge check
+  description: Check your knowledge.
+  ms.date: 10/21/2021
+  author: waldekmastykarz
+  ms.author: wmastyka
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Knowledge check
+durationInMinutes: 3
+content: |
+quiz:
+  title: Check your knowledge
+  questions:
+  - content: "Viva Connections Adaptive Card Extensions work in which of the following experiences?"
+    choices:
+    - content: "Only desktop"
+      isCorrect: false
+      explanation: "Adaptive Card Extensions work in both desktop and mobile experience of Viva Connections."
+    - content: "Only mobile"
+      isCorrect: false
+      explanation: "Adaptive Card Extensions work in both desktop and mobile experience of Viva Connections."
+    - content: "Desktop and mobile"
+      isCorrect: true
+      explanation: "Adaptive Card Extensions work in both desktop and mobile experience of Viva Connections."
+  - content: "When should you consider building Adaptive Card Extensions to extend Viva Connections?"
+    choices:
+    - content: "When you need to add custom code to all pages in Viva Connections."
+      isCorrect: false
+      explanation: "To add code to all pages in Viva Connections, you should build an application customizer."
+    - content: "When you want to provide content editors with a reusable widget that they can place on pages."
+      isCorrect: false
+      explanation: "Web parts are the right type of extension to build when you need to provide content editors with a widget they can place on pages."
+    - content: "When you need to extend Viva Connections desktop and mobile."
+      isCorrect: true
+      explanation: "Adaptive Card Extensions are the only type of Viva Connections extensions that works both in the desktop and mobile experience."
+  - content: "Which views can you build in Adaptive Card Extensions?"
+    choices:
+    - content: "Card view and dashboard view"
+      isCorrect: false
+      explanation: "Each Adaptive Card Extension has a card view and is displayed on the dashboard, but there's no dashboard view in the card."
+    - content: "Card view and quick view"
+      isCorrect: true
+      explanation: "Each Adaptive Card Extension has a card view and an optional quick view."
+    - content: "Card view and app view"
+      isCorrect: false
+      explanation: "An Adaptive Card Extension has the card view and can link to an app, but there's no app view in the card."
+  - content: "Which technology do you use to build the Adaptive Card Extension's UI?"
+    choices:
+    - content: "HTML"
+      isCorrect: false
+      explanation: "You use Adaptive Cards to build the Adaptive Card Extension's UI."
+    - content: "Web components"
+      isCorrect: false
+      explanation: "You use Adaptive Cards to build the Adaptive Card Extension's UI."
+    - content: "Adaptive Cards"
+      isCorrect: true
+      explanation: "You use Adaptive Cards to build the Adaptive Card Extension's UI."

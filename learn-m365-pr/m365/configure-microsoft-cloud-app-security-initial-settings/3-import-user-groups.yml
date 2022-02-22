@@ -2,9 +2,9 @@
 uid: learn-m365.configure-microsoft-cloud-app-security-initial-settings.3-import-user-groups
 metadata:
   title: Import user groups
-  description: Learn to import user groups in Cloud App Security.
-  ms.date: 07/19/2021
-  author: geoffallix
+  description: Learn to import user groups in Defender for Cloud Apps.
+  ms.date: 11/03/2021
+  author: beccarobins
   ms.author: beccarobins
   ms.topic: interactive-tutorial
   ms.prod: learning-m365

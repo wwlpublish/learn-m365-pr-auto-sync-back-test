@@ -37,4 +37,5 @@ Accelerate your time to value with out-of-the-box capabilities and scenarios tha
 
 Launch your new intranet with an adoption plan that will have your staff ready to successfully engage. Before you launch, you’ll want to have an adoption plan to ensure you make employees aware of the intranet, and how you’ll drive regular engagement. Microsoft 365 created the SharePoint Adoption Playbook, Project, and Training plans to help organizations prepare a successful roll-out.
 
-> \[!NOTE\] For more information on the intelligent intranet with SharePoint, including a 4-part web series covering each stage, see [The intelligent intranet](https://resources.techcommunity.microsoft.com/intelligent-intranet/)
+> [!NOTE]
+> For more information on the intelligent intranet with SharePoint, including a 4-part web series covering each stage, see [The intelligent intranet](https://resources.techcommunity.microsoft.com/intelligent-intranet/)

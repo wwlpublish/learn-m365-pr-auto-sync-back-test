@@ -20,11 +20,12 @@ You can use the tools in the Exchange admin center to create a migration endpoin
 1. In the Exchange admin center, in the dashboard under Recipients, select **Migration**.
 2. Next to the refresh button, click **…** and then select **Migration endpoints**.
 
-   ![Select migration endpoints](../media/migration-endpoints.png)
+
+:::image type="content" source="../media/migration-endpoints.png" alt-text="Screenshot showing about selecting Migration Endpoints in the Exchange admin center.":::
 
 3. In the migration endpoints list, select **+**, select **Exchange Remote**, and then click **Next**.
 
-   ![Select Exchange Remote](../media/exchange-remote.png)
+ :::image type="content" source="../media/exchange-remote.png" alt-text="Screenshot showing new migration endpoints page and the option of Exchange Remote is selected.":::
 
 4. In the **Enter on-premises account credentials** page, enter these values and then click **Next**:
 
@@ -34,7 +35,7 @@ You can use the tools in the Exchange admin center to create a migration endpoin
    | Account with privileges  | Enter the domain and username of an account with administrative privileges in the on-premises system. This is the account used to perform the migration.  |
    | Password of account with privileges  | Enter the correct password for the administrative account.  |
 
-   ![Migration Endpoint Wizard](../media/migration-endpoint-wizard.png)
+ :::image type="content" source="../media/migration-endpoint-wizard.png" alt-text="Screenshot showing Migration Endpoint Wizard. It asks to enter the email address, user name, and password of the account holder.":::
 
 5. Exchange Online attempts to connect to the on-premises Exchange server. If the connection is not successful, enter the **FQDN** of the server manually, and then select **Next**.
 6. Enter a **Name** for the endpoint, and then select **New**.

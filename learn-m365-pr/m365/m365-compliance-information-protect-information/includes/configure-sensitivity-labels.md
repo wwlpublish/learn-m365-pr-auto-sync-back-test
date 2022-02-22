@@ -12,7 +12,7 @@ Here are the steps involved in sensitivity label configuration:
 - Auto-labeling for Office apps
 - Review your settings
 
- ![Sensitivity label configuration](../media/sensitivity-label-configuration.png)
+:::image type="content" source="../media/sensitivity-label-configuration.png" alt-text="Sensitivity label configuration." border="false":::
 
 ## Step 1: Name & Description
 
@@ -40,28 +40,28 @@ The next step in the creation process is to determine who can access files and e
 
 The image below shows the three encryption options: **None**, **Apply**, and **Remove**.
 
-![Three encryption options--None, Apply, and Remove](../media/encryption-1.png)
+:::image type="content" source="../media/encryption-1.png" alt-text="Three encryption options--None, Apply, and Remove." border="false":::
 
 ### None
 
-None means that no encryption will be applied to files and email messages with this label applied.
+None means that original encryption is preserved for files and email messages with this label applied, however, if the label has administrator-defined permissions, the original encryption is removed.
 
 ### Apply
 
 Apply turns on encryption, which impacts Office files (Word, PowerPoint, Excel) with this label applied. Because the files will be encrypted for security reasons, performance will be slower when the files are opened or saved, and some SharePoint and OneDrive features may be limited or unavailable. The encryption settings you choose will be enforced when the label is applied to email and Office files.
 
-**Assign permission now or let users decide?** Choosing when to apply permissions is the next step in the process. Options are to assign them now let the users decide when they are going to apply them.
+**Assign permission now or let users decide?** Choosing when to apply permissions is the next step in the process. Options are to assign them now or let the users decide when they are going to apply them.
 
 - **Assign permissions now**. Selecting this option means the encryption settings chosen will be enforced when the label is applied to email and Office files. Selecting this option results in the additional configuration choices shown below.
   - **User access to content expires**. Options are never, on a specific date, and a number of days after the label is applied.
   - **Allow offline access**. Options are never, on a specific date, and only for a number of days.
   - **Assign permissions to specific users and groups**. Only the users or groups you choose will be assigned permissions to use the content with this label applied. You can choose from existing permissions (such as Co-Owner, Co-Author, and Reviewer) or customize them to meet your needs. You must assign permissions to at least one user or group.
-   ![Assign permissions now options](../media/encryption-2.png)
+:::image type="content" source="../media/encryption-2.png" alt-text="Assign permissions now options." border="false":::
 
 - **Let users assign permissions when they apply the label**. Selecting this option gives the user more control over what happens when the label is applied. These actions vary based on if the label is applied in Outlook or if it is applied in Word, PowerPoint, and Excel. Selecting this option results in the additional configuration choices shown below. You must choose at least one option.
   - Outlook. The restrictions enforced are equivalent to the Do Not Forward option.
   - Word, PowerPoint, Excel. The user will be prompted to specify permissions.
-   ![Assign permissions now or let users decide](../media/encryption-3.png)  
+:::image type="content" source="../media/encryption-3.png" alt-text="Assign permissions now or let users decide." border="false":::
 
 ### Remove
 
@@ -76,7 +76,7 @@ Content marking adds custom headers, footers, and watermarks to email messages o
 - Footer
 
 Options to customize the text displayed include font size, font color and alignment.
-![Content marking](../media/content-marking.png)  
+:::image type="content" source="../media/content-marking.png" alt-text="Content marking." border="false":::
 
 ## Step 4: Site and group settings (preview)
 
@@ -93,11 +93,11 @@ Content in the containers do not inherit the labels for settings such as the lab
 
 The image below shows how the wizard appears if the preview feature has not been enabled.
 
-![Wizard with preview feature not enabled](../media/wizard-without-preview.png)
+:::image type="content" source="../media/wizard-without-preview.png" alt-text="Wizard with preview feature not enabled." border="false":::
 
 This image below shows how the wizard appears if the preview feature has been enabled.
 
-![Wizard with preview feature enabled](../media/wizard-with-preview.png)
+:::image type="content" source="../media/wizard-with-preview.png" alt-text="Wizard with preview feature enabled." border="false":::
 
 ### Privacy of Microsoft 365 group-connected team sites
 
@@ -119,7 +119,7 @@ Specify the type of access users have from unmanaged devices. The options are:
 - Allow limited, web only access
 - Block access
 
-![Unmanaged devices settings](../media/unmanaged-devices.png)
+:::image type="content" source="../media/unmanaged-devices.png" alt-text="Unmanaged devices settings." border="false":::
 
 ## Step 5: Auto-labeling for Office apps
 
@@ -155,13 +155,13 @@ What auto-label action should be taken when content matches the conditions? The 
 
 What message should be displayed to the user informing them of the action?
 
-![Auto-labeling for Office apps](../media/auto-labeling-for-office-apps.png)
+:::image type="content" source="../media/auto-labeling-for-office-apps.png" alt-text="Auto-labeling for Office apps." border="false":::
 
 ## Step 6: Review your settings
 
 You will be given one last opportunity to review and edit your settings before submission. Hitting the submit button saves the label. It must be published or auto-applied before it is enforced.
 
-![Review your settings](../media/review-your-settings.png)
+:::image type="content" source="../media/review-your-settings.png" alt-text="Review your settings." border="false":::
 
 ## Learn more
 

@@ -1,14 +1,14 @@
 ### YamlMime:ModuleUnit
 uid: learn-m365.mcas-threat-detection.2-threat-detection-capabilities
 metadata:
-  title: Microsoft Cloud App Security threat detection capabilities
-  description: Learn about Microsoft Cloud App Security threat detection capabilities
-  ms.date: 02/10/2021
-  author: geoffallix
+  title: Microsoft Defender for Cloud Apps threat detection capabilities
+  description: Learn about Microsoft Defender for Cloud Apps threat detection capabilities
+  ms.date: 01/13/2022
+  author: beccarobins
   ms.author: beccarobins
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-title: Microsoft Cloud App Security threat detection capabilities
+title: Microsoft Defender for Cloud Apps threat detection capabilities
 durationInMinutes: 10
 content: |
   [!include[](includes/2-threat-detection-capabilities.md)]

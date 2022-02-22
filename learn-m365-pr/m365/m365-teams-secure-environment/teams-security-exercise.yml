@@ -4,9 +4,9 @@ title: Exercise - Configure identity, access management, and threat protection f
 metadata:
   title: Exercise - Configure identity, access management, and threat protection for Teams
   description: Walk through the steps to configure security in Microsoft Teams.
-  ms.date: 07/16/2021
+  ms.date: 10/19/2021
   ms.author: teleary
-  author: lizap
+  author: temanteleary
   ms.topic: interactive-tutorial
   ms.prod: learning-teams
 durationInMinutes: 10

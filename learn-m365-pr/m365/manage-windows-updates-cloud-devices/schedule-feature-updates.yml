@@ -1,0 +1,40 @@
+### YamlMime:ModuleUnit
+uid: learn-m365-pr.manage-windows-updates-cloud-devices.schedule-feature-updates
+title: Schedule Windows feature updates
+metadata:
+  unitType: learning-content
+  title: Schedule Windows feature updates
+  description: Learn how to schedule Windows feature updates using the Microsoft Graph PowerShell SDK.
+  ms.date: 10/15/2021
+  author: beccarobins
+  ms.author: beccarobins
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+durationInMinutes: 6
+content: |
+  [!include[](includes/schedule-feature-updates.md)]
+quiz:
+  title: Check your knowledge
+  questions:
+  - content: Which property should be used to specify how many devices should be deployed to gradually?
+    choices:
+    - content: devicesUpdated
+      isCorrect: false
+      explanation: i.	This isn’t a valid property for specifying the total devices for a gradual deployment.
+    - content: devicesBetweenOffer 
+      isCorrect: false
+      explanation: This isn’t a valid property for specifying the total devices for a gradual deployment
+    - content: devicesPerOffer 
+      isCorrect: true
+      explanation: Use this property to specify the total devices that should be deployed to gradually.
+  - content: When creating a scheduled deployment, which two parameters should be used?
+    choices:
+    - content: -Content and -Schedule
+      isCorrect: false
+      explanation: -Schedule isn’t a valid parameter.
+    - content: -Content and -Settings
+      isCorrect: true
+      explanation: Use both of these parameters to create a scheduled deployment.
+    - content: -Schedule and -Update
+      isCorrect: false
+      explanation: Neither of these are valid parameters.

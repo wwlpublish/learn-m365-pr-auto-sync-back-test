@@ -6,7 +6,7 @@ metadata:
   title: Knowledge check
   description: Check what you've learned in this module.
   ms.date: 05/20/2021
-  author: iankensey
+  author: beccarobins
   ms.author: beccarobins
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
@@ -32,7 +32,7 @@ quiz:
       explanation: "Incorrect. This tab lists items that require approval to proceed."
     - content: "Alerts"
       isCorrect: false
-      explanation: "That's not right. This tab lists alerts associated with the investigation. Alerts can come from threat protection features on a user's device, in Office apps, Cloud App Security, and other Microsoft 365 Defender features."
+      explanation: "That's not right. This tab lists alerts associated with the investigation. Alerts can come from threat protection features on a user's device, in Office apps, Defender for Cloud Apps, and other Microsoft 365 Defender features."
     - content: "Investigation graph"
       isCorrect: true
       explanation: "That's correct! Provides a visual representation of the investigation. Depicts entities and lists threats found, along with alerts and whether any actions are awaiting approval. "

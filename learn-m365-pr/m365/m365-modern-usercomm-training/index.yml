@@ -4,7 +4,7 @@ metadata:
   title: Train users on the new Windows and Microsoft 365 Apps features
   description: Learn how to inform your end users about new experiences, features, and functionalities within Windows 10 and Microsoft 365 Apps.
   ms.date: 07/21/2021
-  author: AlexandraHrt
+  author: temanteleary
   ms.author: teleary
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
@@ -25,6 +25,7 @@ products:
 - m365
 - windows
 - office-365
+- windows-19044
 units:
 - learn-m365.modern-usercomm-training.1-introduction
 - learn-m365.modern-usercomm-training.2-communicating-benefits

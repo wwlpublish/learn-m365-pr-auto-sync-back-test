@@ -1,6 +1,6 @@
 Teams uses audio and video technology (codecs) that can adapt to—and therefore perform better under—most network conditions. To ensure optimal and consistent performance, you should prepare your network for Teams.
 
-![Prepare your network for upgrading to Teams](../media/evaluate-environment.png)
+:::image type="content" source="../media/evaluate-environment.png" alt-text="Prepare your network for upgrading to Teams." border="false":::
 
 ## Why should you prepare your network?
 
@@ -88,7 +88,7 @@ If the results of bandwidth planning, port testing, or network requirements test
 > [!NOTE]
 > Many networks evolve over time due to upgrades, expansion, or other business requirements. Ensure that you have operational processes in place to maintain these areas as part of your service management planning.
 
-## Key takeaways  
+## Key takeaways
 
 These are the main takeaways from this guidance. You must:
 
@@ -100,6 +100,6 @@ These are the main takeaways from this guidance. You must:
 ## Learn more
 
 - [Evaluate your environment before upgrading to Teams](/MicrosoftTeams/upgrade-plan-journey-evaluate-environment?azure-portal=true)
-- [Configure media optimizations using QOS](/microsoftteams/qos-in-teams?azure-portal=true)
+- [Implement Quality of Service (QoS) in Microsoft Teams](/microsoftteams/qos-in-teams?azure-portal=true)
 - [Prepare your network for upgrading to Teams](/MicrosoftTeams/upgrade-prepare-environment-prepare-network?azure-portal=true)
-- [Use Network Planner](/microsoftteams/network-planner?azure-portal=true)
+- [Use the Network planner for Microsoft Teams](/microsoftteams/network-planner?azure-portal=true)

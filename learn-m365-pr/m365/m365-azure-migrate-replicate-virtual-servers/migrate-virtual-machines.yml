@@ -4,8 +4,8 @@ title: Migrate the virtual machines into production
 metadata:
   title: Migrate the virtual machines into production
   description: Learn the process for replicating, testing, and finally migrating your virtual machines into production. 
-  ms.date: 07/06/2021
-  author: ericweisberg
+  ms.date: 11/03/2021
+  author: beccarobins
   ms.author: beccarobins
   ms.topic: interactive-tutorial
   ms.prod: learning-m365

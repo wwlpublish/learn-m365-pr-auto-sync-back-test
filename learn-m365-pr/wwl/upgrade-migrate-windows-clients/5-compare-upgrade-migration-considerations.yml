@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.upgrade-migrate-windows-clients.compare-upgrade-migration-considerations
+title: Compare upgrade and migration considerations
+metadata:
+  title: Compare upgrade and migration considerations
+  description: "Compare upgrade and migration considerations"
+  ms.date: 02/10/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+azureSandbox: false
+labModal: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/5-compare-upgrade-migration-considerations.md)]

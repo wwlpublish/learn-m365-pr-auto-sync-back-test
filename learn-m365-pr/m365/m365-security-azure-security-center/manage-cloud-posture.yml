@@ -1,12 +1,12 @@
 ### YamlMime:ModuleUnit
 uid: learn-m365.sci-asc.manage-cloud-posture
-title: Manage your cloud security posture with Azure Security Center
+title: Manage your cloud security posture with Microsoft Defender for Cloud
 metadata:
-  title: Manage your cloud security posture with Azure Security Center
-  description: Learn how you can improve your cloud security posture with Azure Security Center.
-  ms.date: 07/15/2021
+  title: Manage your cloud security posture with Microsoft Defender for Cloud
+  description: Learn how you can improve your cloud security posture with Microsoft Defender for Cloud.
+  ms.date: 11/03/2021
   ms.author: beccarobins
-  author: iankensey
+  author: beccarobins
   ms.topic: interactive-tutorial
   ms.prod: learning-teams
 durationInMinutes: 30

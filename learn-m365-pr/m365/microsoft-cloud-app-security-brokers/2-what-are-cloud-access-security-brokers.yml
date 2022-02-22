@@ -1,14 +1,14 @@
 ### YamlMime:ModuleUnit
 uid: learn-m365.mcas-casbs.2-what-are-cloud-access-security-brokers
 metadata:
-  title: What are Cloud Access Security Brokers?
-  description: Learn what Cloud Access Security Brokers are
-  ms.date: 07/15/2021
-  author: geoffallix
+  title: What are cloud access security brokers?
+  description: Learn what cloud access security brokers are
+  ms.date: 11/05/2021
+  author: beccarobins
   ms.author: beccarobins
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-title: What are Cloud Access Security Brokers?
+title: What are cloud access security brokers?
 durationInMinutes: 5
 content: |
   [!include[](includes/2-what-are-cloud-access-security-brokers.md)]

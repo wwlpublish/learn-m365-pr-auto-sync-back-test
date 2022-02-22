@@ -1,0 +1,31 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.deploy-manage-edge-transport-server.explore-mail-flow-using-edgesync
+title: Explore mail flow using Edge Subscriptions and EdgeSync
+metadata:
+  title: Explore mail flow using Edge Subscriptions and EdgeSync
+  description: "Explore mail flow using Edge Subscriptions and EdgeSync"
+  ms.date: 12/15/2021
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+sandbox: false
+labModal: false
+durationInMinutes: 7
+content: |
+  [!include[](includes/4-explore-mail-flow-using-edgesync.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "Where is the configuration and recipient information the Edge Transport server uses to process messages stored?"
+    choices:
+    - content: "Active Directory"
+      isCorrect: false
+      explanation: "This answer is incorrect. An Edge Transport server doesn't have direct access to Active Directory. As such, they can't directly access the Exchange Server organization configuration or recipient information that's stored in Active Directory. Try again."
+    - content: "Locally in AD LDS"
+      isCorrect: true
+      explanation: "This answer is correct. The configuration and recipient information used by the Edge Transport server to process messages is stored locally in AD LDS. Creating an Edge Subscription establishes secure, automatic replication of information from Active Directory to AD LDS."
+    - content: "Azure Active Directory"
+      isCorrect: false
+      explanation: "This answer is incorrect. The configuration and recipient information the Edge Transport server uses to process messages isn't stored in Azure AD. Try again."

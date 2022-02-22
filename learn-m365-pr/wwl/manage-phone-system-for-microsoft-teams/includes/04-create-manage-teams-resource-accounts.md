@@ -7,7 +7,7 @@ Microsoft Teams requires a resource account for each auto attendant or call queu
 
 You can create a resource account in the Teams admin center by completing the following steps:
 
-1. In the Teams admin center, in the left-hand navigation pane, select **Org-wide settings**, and then select **Resource accounts**.
+1. In the Teams admin center, in the left-hand navigation pane, select **Voice**, and then select **Resource accounts**.
 
 2. Select **Add**.
 
@@ -53,7 +53,7 @@ If you're planning to use the resource account with an auto attendant or call qu
 
 Complete the following steps to manage resource accounts using the Microsoft Teams Admin Center:
 
-1. In the **Teams Admin Center**, navigate to **Org-wide settings** > **Resource accounts**.
+1. In the **Teams Admin Center**, navigate to **Voice** > **Resource accounts**.
 2. Select the account you want to modify.
 3. Select **Edit**.
 4. Modify the following options:

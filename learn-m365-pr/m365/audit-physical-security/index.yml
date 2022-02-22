@@ -3,8 +3,8 @@ uid: learn-m365.audit-physical-security
 metadata:
   title: Understand Microsoft datacenter security
   description: Learn how Microsoft uses Defense-In-Depth to secure our datacenters against unauthorized access, environmental hazards, and other physical threats, as well as how Microsoft implements resilient architecture, business continuity, and disaster recovery to maintain the availability of our services.
-  ms.date: 07/19/2021
-  author: NamrahK
+  ms.date: 02/10/2022
+  author: beccarobins
   ms.author: beccarobins
   ms.topic: interactive-tutorial
   ms.prod: learning-m365

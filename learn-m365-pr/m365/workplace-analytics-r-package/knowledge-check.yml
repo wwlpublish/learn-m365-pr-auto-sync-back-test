@@ -3,10 +3,10 @@ uid: learn-m365.workplace-analytics-r-package.knowledge-check
 title: Knowledge check
 metadata:
   title: Knowledge check
-  description: Confirm what you've learned about using the R package with Workplace Analytics.
-  ms.date: 07/16/2021
-  author: jelathro
-  ms.author: teleary
+  description: Confirm what you've learned about using the R package with the Workplace Analytics app for Viva Insights.
+  ms.date: 01/26/2022
+  author: madehmer
+  ms.author: helayne
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 durationInMinutes: 5
@@ -16,13 +16,13 @@ quiz:
     questions:
     - content: "What is the wpa R package?"
       choices:
-      - content: " A set of tools and functions to analyze Workplace Analytics data."
+      - content: " A set of tools and functions to analyze Viva Insights with Workplace Analytics data."
         isCorrect: true
-        explanation: "Correct. The wpa R package is a set of tools and functions to analyze Workplace Analytics data."
+        explanation: "Correct. The wpa R package is a set of tools and functions to analyze Viva Insights with Workplace Analytics data."
       - content: "A set of tools used to build graphics with Workplace Analytics data."
         isCorrect: false
         explanation: "Sorry, that’s incorrect. The wpa R package includes data visualization functions, but it is not limited to building graphics."
-      - content: "A collection of R packages you can use for data science with Workplace Analytics. "
+      - content: "A collection of R packages you can use for data science with Workplace Analytics data. "
         isCorrect: false
         explanation: "Sorry, that’s incorrect. The wpa R package is a single package that includes many essential and advanced functions to help you deliver advanced analytics."
     - content: "What code should you run to load the wpa R library?"

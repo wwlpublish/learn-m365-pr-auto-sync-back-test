@@ -7,85 +7,104 @@ In this exercise, you’ll update the existing Teams app to send a proactive mes
 
 ## Start a proactive message from the bot
 
+Locate and open the card in the file **./src/server/conversationalBot/cards/responseCard.json**.
+
+Add the following action to the card:
+
+```json
+{
+  "type":"Action.Execute",
+  "title":"Create new thread in this channel",
+  "verb":"newconversation"
+}
+```
+
+The card should now look like the following:
+
+```json
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.4",
+  "body": [
+    {
+      "type": "Container",
+      "items": [
+        {
+          "type": "TextBlock",
+          "text": "Adaptive card response",
+          "weight": "bolder",
+          "size": "large"
+        }
+      ]
+    },
+    {
+      "type": "Container",
+      "items": [
+        {
+          "type": "TextBlock",
+          "text": "${message}",
+          "wrap": true
+        }
+      ]
+    },
+    {
+      "type": "ActionSet",
+      "actions": [
+        {
+          "type": "Action.Execute",
+          "title": "Update card",
+          "verb": "update",
+          "data": {
+            "count": "${count}"
+          }
+        },
+        {
+          "type": "Action.Execute",
+          "title": "Create new thread in this channel",
+          "verb": "newconversation"
+        },
+        {
+          "type": "Action.Execute",
+          "title": "Delete card",
+          "verb": "delete",
+          "$when": "${showDelete}"
+        }
+      ]
+    }
+  ]
+}
+```
+
 Locate and open the bot in the file **./src/server/conversationalBot/ConversationalBot.ts**.
 
 Add the following objects to the existing `import {...} from "botbuilder";` statement you'll need:
 
 ```typescript
 import {
-  ConversationReference,
-  ConversationParameters,
-  teamsGetChannelId,
+  MessageFactory,
   Activity,
   BotFrameworkAdapter,
+  teamsGetChannelId,
+  ConversationParameters,
   // existing imports omitted for clarity
 } from "botbuilder";
 ```
 
-Locate the card in the `else` statement in the `onMessage()` handler you added in the previous section.
 
-Add a second action button to the card that will trigger the creation of a new message:
-
-```typescript
-{
-  type: "Action.Submit",
-  title: "Create new thread in this channel",
-  data: { cardAction: "newconversation" }
-}
-```
-
-The card should now look like the following:
-
-```typescript
-const card = CardFactory.adaptiveCard({
-  $schema: "http://adaptivecards.io/schemas/adaptive-card.json",
-  type: "AdaptiveCard",
-  version: "1.0",
-  body: [
-    {
-      type: "Container",
-      items: [
-        {
-          type: "TextBlock",
-          text: "Adaptive card response",
-          weight: "bolder",
-          size: "large"
-        }
-      ]
-    },
-    {
-      type: "Container",
-      items: [
-        {
-          type: "TextBlock",
-          text: "Demonstrates how to respond with a card, update the card & ultimately delete the response.",
-          wrap: true
-        }
-      ]
-    }
-  ],
-  actions: [
-    {
-      type: "Action.Submit",
-      title: "Update card",
-      data: value
-    },
-    {
-      type: "Action.Submit",
-      title: "Create new thread in this channel",
-      data: { cardAction: "newconversation" }
-    }
-  ]
-});
-```
-
-Next, add another `case` statement to the `switch (context.activity.value.cardAction)` statement the `onMessage()` handler to detect this new action:
+Next, add another `case` statement to the `switch (verb)` statement in the `onAdaptiveCardInvoke()` handler to detect this new action:
 
 ```typescript
 case "newconversation":
+{
   const message = MessageFactory.text("This will be the first message in a new thread");
   await this.teamsCreateConversation(context, message);
-  break;
+  return Promise.resolve({
+    statusCode: 200,
+    type: "application/vnd.microsoft.activity.message",
+    value: "Thread created"
+  });
+}
 ```
 
 The last step is to add the `teamsCreateConversation()` method that will create the new conversation. Add the following method to the `ConversationalBot` class:
@@ -119,7 +138,7 @@ private async teamsCreateConversation(context: TurnContext, message: Partial<Act
 From the command line, navigate to the root folder for the project and execute the following command:
 
 ```console
-gulp ngrok-serve
+gulp ngrok-serve --debug
 ```
 
 > [!IMPORTANT]

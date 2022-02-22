@@ -3,18 +3,17 @@
 In this module, you will learn to:
 
 - Describe the benefits of Windows Autopilot to IT organizations.
-- Define the different methods of deploying Windows 10 via Autopilot.
+- Define the different methods of deploying Windows clients via Autopilot.
 - Explain the different administration options for device configuration.
 
-**Windows Autopilot** offers a zero-touch, self-service Windows deployment platform introduced with Windows 10, version 1703. The Windows Autopilot process runs immediately after powering on a new computer for the first time, enabling employees to configure new devices to be business-ready with just a few clicks.
+**Windows Autopilot** offers a zero-touch, self-service Windows deployment platform. The Windows Autopilot process runs immediately after powering on a new computer for the first time, enabling employees to configure new devices to be business-ready with just a few clicks.
 
 You can also use Windows Autopilot to reset, repurpose and recover devices. This solution enables an IT department to achieve the above with little to no infrastructure to manage, with a process that's easy and simple.
 
 Windows Autopilot is designed to simplify all parts of the lifecycle of Windows devices, for both IT and end users, from initial deployment through the eventual end of life. Leveraging cloud-based services, it can reduce the overall costs for deploying, managing, and retiring devices by reducing the amount of time that IT needs to spend on these processes and the amount of infrastructure that they need to maintain, while ensuring ease of use for all types of end users.
 
-|||
-| :--- | :--- |
-| ![Icon indicating play video](../media/video-icon.png)|Watch this video to learn more about how Windows Autopilot can help your organization deploy new devices that are ready to use right out of the box.
+
+:::image type="content" source="../media/video-icon.png" alt-text="Icon indicating play video." border="false":::|Watch this video to learn more about how Windows Autopilot can help your organization deploy new devices that are ready to use right out of the box.
 
 >[!VIDEO https://www.youtube.com/embed/4K4hC5NchbE]
 

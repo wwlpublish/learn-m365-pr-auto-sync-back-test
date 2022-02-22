@@ -6,21 +6,22 @@ One of the benefits of Microsoft 365 Apps is that Microsoft provides new or upda
 
 For Microsoft 365 Apps, Microsoft provides you options (called update channels) that allow you to control how often Microsoft 365 Apps receives feature updates. Here are the primary update channels for Microsoft 365 Apps:
 
-- Current Channel, which receives feature updates approximately every month.
-- Monthly Enterprise Channel, which receives feature updates once a month, on the second Tuesday of the month.
-- Semi-Annual Channel (Preview), which receives feature updates in March and September. This is typically used for pilot users and application compatibility testers.
-- Semi-Annual Enterprise Channel, which receives feature updates every six months, in January and July.
+ -  Current Channel, which receives feature updates approximately every month.
+ -  Monthly Enterprise Channel, which receives feature updates once a month, on the second Tuesday of the month.
+ -  Semi-Annual Channel (Preview), which receives feature updates in March and September. This is typically used for pilot users and application compatibility testers.
+ -  Semi-Annual Enterprise Channel, which receives feature updates every six months, in January and July.
 
 Feature updates in Semi-Annual Enterprise Channel have already been released in Current Channel in previous months. Current Channel is the default update channel for Microsoft 365 Apps for business.
 
 As you can see in this image, Current Channel updates occur at different times of the month and filter into the next Monthly Enterprise Channel update:
 
-:::image type="content" source="../media/5-office-updates.png" alt-text="Update frequency":::
+:::image type="content" source="../media/5-office-updates-cadfb3ff.png" alt-text="Update frequency":::
+
 
 As needed, Microsoft also provides each update channel with two additional types of updates:
 
-- Security updates, such as updates that help keep Office protected from potential malicious attacks.
-- Quality updates, such as updates that provide stability or performance improvements for Office.
+ -  Security updates, such as updates that help keep Office protected from potential malicious attacks.
+ -  Quality updates, such as updates that provide stability or performance improvements for Office.
 
 Security updates are usually released on the second Tuesday of every month. Quality updates, which are sometimes referred to as non-security updates, are also usually released on this day. But, if necessary, both types of updates can be released at other times.
 
@@ -34,7 +35,7 @@ If application compatibility testing isn’t a significant concern, and if your 
 
 If your users need the newest features of Microsoft 365 Apps, but you need a predictable release schedule for monthly feature updates, then Monthly Enterprise Channel is probably for you.
 
-For more information about Monthly Enterprise Channel, read [Overview of update channels for Microsoft 365 Apps](https://docs.microsoft.com/DeployOffice/overview-update-channels).
+For more information about Monthly Enterprise Channel, read [Overview of update channels for Microsoft 365 Apps](/DeployOffice/overview-update-channels).
 
 Not all users in your organization need to be on the same update channel. For example, you can provide your training department with Current Channel so they can start learning about the new Office features, while the rest of your organization is on Semi-Annual Enterprise Channel.
 
@@ -52,9 +53,9 @@ Because organizations have different requirements and concerns when it comes to 
 
 For example, you can configure Microsoft 365 Apps to get updates from one of the following locations:
 
-- The Office Content Delivery Network (CDN) on the internet
-- A shared folder on your local network
-- An enterprise software deployment tool, such as Configuration Manager
+ -  The Office Content Delivery Network (CDN) on the internet
+ -  A shared folder on your local network
+ -  An enterprise software deployment tool, such as Configuration Manager
 
 If network connectivity or other considerations based on your organization’s requirements aren’t an issue, Microsoft recommends updating Microsoft 365 Apps from the Office CDN, because it requires the least amount of administrative effort.
 

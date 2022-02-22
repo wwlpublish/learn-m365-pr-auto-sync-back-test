@@ -2,9 +2,9 @@
 uid: learn-m365.information-protection-real-time-controls.1-introduction
 metadata:
   title: Introduction
-  description: Microsoft Cloud App Security information protection and real-time controls
-  ms.date: 02/10/2021
-  author: geoffallix
+  description: Microsoft Defender for Cloud Apps information protection and real-time controls
+  ms.date: 11/03/2021
+  author: beccarobins
   ms.author: beccarobins
   ms.topic: interactive-tutorial
   ms.prod: learning-m365

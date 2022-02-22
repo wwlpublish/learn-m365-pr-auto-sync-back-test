@@ -6,7 +6,7 @@ metadata:
   title: Knowledge check
   description: Test what you've learned in this module.
   ms.date: 04/26/2021
-  author: iankensey
+  author: beccarobins
   ms.author: beccarobins
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
@@ -27,9 +27,9 @@ quiz:
       explanation: "That is incorrect. Neither of these two roles will grant you access to Microsoft 365 Defender functionality or data."
   - content: "When turning on Microsoft 365 Defender, what key capability will allow you to identify and combat cyberthreats across all your Microsoft and third-party cloud services?"
     choices:
-    - content: "Microsoft Cloud App Security"
+    - content: "Microsoft Defender for Cloud Apps"
       isCorrect: true
-      explanation: "That's right! Microsoft Cloud App Security allows you to identify and combat cyberthreats across your Microsoft and third-party cloud services."
+      explanation: "That's right! Microsoft Defender for Cloud Apps allows you to identify and combat cyberthreats across your Microsoft and third-party cloud services."
     - content: "Microsoft Defender for Endpoint"
       isCorrect: false
       explanation: "That is incorrect. The Microsoft Defender for Endpoint protection suite is built around powerful behavioral sensors, cloud analytics, and threat intelligence for Windows 10 devices."

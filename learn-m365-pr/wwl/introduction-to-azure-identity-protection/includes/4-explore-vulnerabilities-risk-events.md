@@ -9,7 +9,7 @@ The following sections provide an overview of the vulnerabilities reported by Az
 
 This vulnerability can affect the deployment of Azure AD Multi-Factor Authentication (MFA) in your organization. MFA provides a second layer of security to user authentication. It helps safeguard access to data and applications while meeting user demand for a simple sign-in process. MFA delivers strong authentication through a range of easy verification options, such as phone call, text message, mobile app notification, verification code, and third-party OATH tokens.
 
-**Recommended Action:** It's recommended that you require Azure AD Multi-Factor Authentication for user sign-in attempts. MFA plays a key role in risk-based conditional access policies available through Azure Identity Protection.
+**Recommended Action:** It's recommended that you require Azure AD Multi-Factor Authentication for user sign-in attempts. MFA plays a key role in risk-based Conditional Access policies available through Azure Identity Protection.
 
 ### Unmanaged cloud apps
 

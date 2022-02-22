@@ -102,8 +102,8 @@ function sphereVolume(radius) {
 
 Custom functions are available in Excel on the following platforms.
 
-- Windows _(connected to an Office 365 subscription)_
-- macOS _(connected to an Office 365 subscription)_
+- Windows _(connected to a Microsoft 365 subscription)_
+- macOS _(connected to a Microsoft 365 subscription)_
 - Web browser
 
 ### Define the custom function add-in type
@@ -185,15 +185,15 @@ Add-in commands are available in Excel, Outlook, OneNote, PowerPoint, and Word a
 
 | Platform    | Major Office version | Subscription or one-time purchase?   | Notes                                                                                                                                                           |
 | ----------- | -------------------- | ------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Windows     | _Not applicable_     | connected to Office 365 subscription | _Not available in OneNote_                                                                                                                                      |
+| Windows     | _Not applicable_     | connected to Microsoft 365 subscription | _Not available in OneNote_                                                                                                                                      |
 |             | 2019                 | one-time purchase                    | _Not available in OneNote_                                                                                                                                      |
 |             | 2016                 | one-time purchase                    | _Only available in Outlook on Exchange 2016 (requires post-release update) or later. Not available in Office other applications._                               |
 |             | 2013                 | one-time purchase                    | _Only available in Outlook on Exchange 2016 or later. Requires post-release updates for Outlook and Exchange 2016. Not available in other Office applications._ |
-| macOS       | _Not applicable_     | connected to Office 365 subscription | _Not available in OneNote_                                                                                                                                      |
+| macOS       | _Not applicable_     | connected to Microsoft 365 subscription | _Not available in OneNote_                                                                                                                                      |
 |             | 2019                 | one-time purchase                    | _Not available in OneNote_                                                                                                                                      |
 |             | 2016                 | one-time purchase                    | _Not available in OneNote_                                                                                                                                      |
-| iOS         | _Not applicable_     | connected to Office 365 subscription | _Only available in Outlook_                                                                                                                                     |
-| Android     | _Not applicable_     | connected to Office 365 subscription | _Only available in Outlook_                                                                                                                                     |
+| iOS         | _Not applicable_     | connected to Microsoft 365 subscription | _Only available in Outlook_                                                                                                                                     |
+| Android     | _Not applicable_     | connected to Microsoft 365 subscription | _Only available in Outlook_                                                                                                                                     |
 | web browser | _Not applicable_     | _Not applicable_                     | _Available in all supported Office applications_                                                                                                                |
 
 ## Understand the purpose of the add-in manifest

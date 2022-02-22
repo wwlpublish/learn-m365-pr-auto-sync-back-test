@@ -5,7 +5,7 @@ metadata:
   title: Summary and knowledge check
   description: Today’s security threat landscape is filled with aggressive and tenacious threats, including holding devices and data hostage until the owner pays a demanded ransom. Modern attacks are increasingly focusing on intellectual property theft and targeted system degradation. In recognition of this landscape, Windows 10 includes multiple security features designed to make it difficult on attackers to find and exploit any vulnerabilities.
   ms.date: 07/15/2021
-  author: AlexandraHrt
+  author: beccarobins
   ms.author: beccarobins
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
@@ -15,48 +15,39 @@ content: |
 quiz:
     title: Check your knowledge
     questions:
-    - content: "An end user in the finance department has reported unusual behavior that when they launch a PowerPoint file they notice a command prompt gets launched in the background. As a security administrator what can you implement to prevent unknown or malicious behavior like this from occurring?"
+    - content: "An employee in the finance department reports unusual behavior when they launch a PowerPoint file. They notice a command prompt gets launched in the background. As a security administrator, what can you implement to prevent unknown or malicious behavior like this from occurring?"
       choices:
-      - content: "Microsoft Defender for Endpoint"
+      - content: "Roll out Microsoft Defender for Endpoint"
         isCorrect: false
-        explanation: "Microsoft Defender for Endpoint contains many protection features, including what should be used here, but simply having Microsoft Defender for Endpoint would not prevent this behavior."
-      - content: "Windows Defender Firewall"
+        explanation: "That's incorrect. Microsoft Defender for Endpoint contains many protection features, including what should be used here, but simply having Microsoft Defender for Endpoint would not prevent this behavior."
+      - content: "Enable Windows Defender Firewall"
         isCorrect: false
-        explanation: "Windows Defender Firewall blocks unauthorized network traffic flowing into or out of the local device, working with Network Awareness to apply security settings appropriate to the types of networks to which the device is connected."
-      - content: "Windows Defender Credential Guard"
-        isCorrect: false
-        explanation: "Credential Guard uses virtualization-based security to isolate secrets, such as NTLM password hashes and Kerberos Ticket Granting Tickets, so that only privileged system software can access them."
-      - content: "Attack surface reduction rules"
+        explanation: "That's incorrect. Windows Defender Firewall blocks unauthorized network traffic flowing into or out of the local device. It can't prevent this behavior."
+      - content: "Implement attack surface reduction rules"
         isCorrect: true
         explanation: "Correct. Attack surface reduction rules help to prevent malware from infecting computers with malicious code, including executable files and scripts used in Office apps or webmail."
 
     - content: "As the security administrator of Contoso you decide to monitor executable scripts running in mail. The Research & Development department says that it needs you to allow executable scripts to run in its mail. What would be the best solution to keep all of Contoso protected and secured?"
       choices:
-      - content: "Create an attack surface reduction rule for all users that blocks executable content from their webmail and email."
-        isCorrect: false
-        explanation: "This would prevent the R&D department from being able to run an executable in their email client or webmail."
       - content: "Create an attack surface reduction rule for all users that blocks executable content from their webmail, but create an audit for the R&D department."
         isCorrect: false
-        explanation: "This solution would work but would not protect end users from running executables in the desktop email client, it would only provide webmail protection. "
+        explanation: "That's incorrect. This solution would work but would not protect end users from running executables in the desktop email client, it would only provide webmail protection. "
       - content: "Create an attack surface reduction rule for all users that blocks executable content from their webmail and email, but create an audit for the R&D department."
         isCorrect: true
         explanation: "Correct. This solution would protect all end users from running executables in both the webmail and desktop email client but create an exception for the R&D department to run these executables under an audit tracking. "
       - content: "Create an attack surface reduction rule for all users that audits executable content from their webmail and email."
         isCorrect: false
-        explanation: "This would allow all users to run executable content in mail under an audit tracking. While this solution may be used by some organizations, it does not meet the requirements of preventing all standard users from running executables in mail."
+        explanation: "That's incorrect. This would allow all users to run executable content in mail under an audit tracking. While this solution may be used by some organizations, it does not meet the requirements of preventing all standard users from running executables in mail."
       
     - content: "Which of the following Windows 10 security features focuses on securing organizational identities and passwords?"
       choices:
-      - content: "Windows Defender Antivirus"
-        isCorrect: false
-        explanation: "Windows Defender AV provides comprehensive, ongoing, and real-time protection against software threats like viruses, malware and spyware across email, apps, the cloud, and the web."
       - content: "Windows Hello"
         isCorrect: false
-        explanation: "Windows Hello replaces passwords with strong two-factor authentication on PCs and mobile devices such as a biometric or PIN. Windows Hello for Business lets user authenticate to an Active Directory or Azure Active Directory account."
+        explanation: "That's incorrect. Windows Hello replaces passwords with strong two-factor authentication on PCs and mobile devices such as a biometric or PIN. Windows Hello for Business lets user authenticate to an Active Directory or Azure Active Directory account."
       - content: "Windows Defender Credential Guard"
         isCorrect: true
         explanation: "Correct. Credential Guard uses virtualization-based security protecting NTLM password hashes, Kerberos Ticket Granting Tickets, and credentials stored by applications as domain credentials so that only privileged system software can access them."
       - content: "Azure Information Protection Scanner"
         isCorrect: false
-        explanation: "AIP Scanner crawls through storage to identify documents containing possible sensitive information and classify those documents accordingly."
+        explanation: "That's incorrect. AIP Scanner crawls through storage to identify documents containing possible sensitive information and classify those documents accordingly."
       

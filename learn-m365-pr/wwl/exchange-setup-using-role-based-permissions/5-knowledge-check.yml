@@ -1,0 +1,53 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.exchange-setup-using-role-based-permissions.knowledge-check
+title: Knowledge check
+metadata:
+  title: Knowledge check
+  description: "Knowledge check"
+  ms.date: 12/10/2021
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+sandbox: false
+labModal: false
+durationInMinutes: 6
+content: |
+  [!include[](includes/5-knowledge-check.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "RBAC applies permissions to all Exchange objects within what type of Exchange forest?"
+    choices:
+    - content: "A Resource forest"
+      isCorrect: false
+      explanation: "That's incorrect. This item isn't the correct type of Exchange forest in which RBAC applies permissions to all Exchange objects. Try again."
+    - content: "All forests in the same forest topology type"
+      isCorrect: false
+      explanation: "That's incorrect. This item isn't the correct type of Exchange forest in which RBAC applies permissions to all Exchange objects. Try again."
+    - content: "A single forest"
+      isCorrect: true
+      explanation: "That's correct. RBAC applies permissions to all Exchange objects within a single forest. The RBAC configuration in each forest is configured independently of all other forests."
+  - content: "Which of the following items is a type of multiple forest topologies that Microsoft Exchange Server supports?"
+    choices:
+    - content: "Security forest"
+      isCorrect: false
+      explanation: "That's incorrect. This item isn't one of the multiple forest topologies supported by Microsoft Exchange Server. Try again."
+    - content: "Cross forest"
+      isCorrect: true
+      explanation: "That's correct. Microsoft Exchange Server supports Cross-forest and Resource forest topologies. A cross-forest topology type can have multiple forests, each with their own installation of Exchange. A resource forest topology type has an Exchange forest and one or more accounts forests."
+    - content: "Active Directory forest"
+      isCorrect: false
+      explanation: "That's incorrect. This item isn't one of the multiple forest topologies supported by Microsoft Exchange Server. Try again."
+  - content: "As the Messaging admin for Fabrikam, Holly Spencer wants to create a mailbox for Patti Fernandez. The mailbox will have Active Directory split permissions enabled. Holly began by creating a user account for Patti using Active Directory tools. What's the next step that Holly must complete?"
+    choices:
+    - content: "Use the Exchange management tools to mailbox enable Patti's account"
+      isCorrect: true
+      explanation: "That's correct. After creating Patti's user account using Active Directory tools, Holly must use the Exchange management tools to mailbox enable Patti's account."
+    - content: "Configure Exchange permissions on Patti's account"
+      isCorrect: false
+      explanation: "That's incorrect. This item isn't the next step that Holly must complete. Try again."
+    - content: "Add Patti's account to the Mail Recipient role"
+      isCorrect: false
+      explanation: "That's incorrect. This item isn't the next step that Holly must complete. Try again."

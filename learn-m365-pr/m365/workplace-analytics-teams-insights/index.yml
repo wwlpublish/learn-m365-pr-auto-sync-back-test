@@ -1,25 +1,25 @@
 ### YamlMime:Module
 uid: learn-m365.workplace-analytics-teams-insights
 metadata:
-  title: Measure Teams collaboration with the Microsoft Teams insights dashboard in Microsoft Viva Insights (Workplace Analytics)
-  description: Learn how to prepare and generate actionable data by using the Viva Insights (Workplace Analytics) Power BI Teams insights dashboard.  Analyze Microsoft Teams adoption trends from the populated reports.   
-  ms.date: 07/30/2021
+  title: Measure Teams collaboration with the Microsoft Teams insights dashboard in Power BI through Workplace Analytics with Viva Insights
+  description: Learn how to prepare and generate actionable data by using Workplace Analytics with Viva Insights and the Teams insights dashboard in Power BI.  Analyze Microsoft Teams adoption trends from the populated Power BI reports.   
+  ms.date: 02/02/2022
   author: madehmer
-  ms.author: v-mideh
+  ms.author: helayne
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-title: Measure Teams collaboration with the Microsoft Teams insights dashboard in Viva Insights (Workplace Analytics)
+title: Measure Teams collaboration with the Microsoft Teams insights dashboard in Power BI through Workplace Analytics with Viva Insights
 summary: "**Note**: The Workplace Analytics web app is being rebranded to **Viva Insights** in the next few months. As mentioned in this module, Workplace Analytics refers to the web app with advanced analysis tools and accelerators available to those who are assigned the Analyst, Limited Analyst, or Admin role.<br><br>Learn how to prepare and generate actionable data by using the Viva Insights (Workplace Analytics) Power BI Teams insights dashboard.  Analyze Microsoft Teams adoption trends from the populated reports."  
 abstract: |
   At the end of this module, you should be able to:
-  - Explain what the Workplace Analytics Power BI Teams insights dashboard is, and why it provides an important perspective.
+  - Explain what the Microsoft Teams insights dashboard in Power BI is, and why it provides an important perspective.
   - Run queries, load the data, and select your settings.
-  - Interpret the results in the dashboard.
+  - Interpret the results in the Power BI reports.
  
 prerequisites: |
  - Familiarity with Workplace Analytics data sources
  - Basic knowledge of Power BI software
- - Basic knowledge of data queries and query structure 
+ - Basic knowledge of the Query designer, data queries, and query structure 
 
 iconUrl: /learn/achievements/measure-teams-collaboration-with-the-teams-insights-dashboard-in-workplace-analytics.svg
 levels:

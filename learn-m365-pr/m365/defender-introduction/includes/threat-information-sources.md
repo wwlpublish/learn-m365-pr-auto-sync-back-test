@@ -34,8 +34,8 @@ Watch this short video for an overview of Microsoft Defender for Office 365.
 
 With the integration of Microsoft Defender for Office 365 into Microsoft 365 Defender, you get to see and respond to alerts and data from a larger attack that includes email and collaboration tools.
 
-## Microsoft Cloud App Security
+## Microsoft Defender for Cloud Apps
 
-Microsoft Cloud App Security provides you with visibility, control, and the analytics you need to identify and defeat security threats in Microsoft and third-party cloud services.
+Microsoft Defender for Cloud Apps provides you with visibility, control, and the analytics you need to identify and defeat security threats in Microsoft and third-party cloud services.
 
-With the integration of Cloud App Security with Microsoft 365 Defender, your security team can detect unusual behavior across cloud apps to identify compromised users or rogue applications, analyze high-risk usage, and automatically remediate to limit the risk to your organization.
+With the integration of Defender for Cloud Apps with Microsoft 365 Defender, your security team can detect unusual behavior across cloud apps to identify compromised users or rogue applications, analyze high-risk usage, and automatically remediate to limit the risk to your organization.

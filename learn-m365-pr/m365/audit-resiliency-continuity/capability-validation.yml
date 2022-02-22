@@ -4,8 +4,8 @@ title: Understand BCP capability validation
 metadata:
   title: Understand BCP capability validation
   description: Learn how Microsoft 365 builds resilient services to meet customer expectations in the face of faults and challenges to normal operations, maintains optimal service availability, and fulfills business continuity requirements.
-  ms.date: 07/19/2021
-  author: NamrahK
+  ms.date: 02/10/2022
+  author: beccarobins
   ms.author: beccarobins
   ms.topic: interactive-tutorial
   ms.prod: learning-m365

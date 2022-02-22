@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.m365-compliance-information-manage-records.introduction
+title: Introduction
+metadata:
+  title: Introduction
+  description: Learn how to use intelligent classification to automate and simplify the retention schedule for regulatory, legal, and business-critical records in your organization. 
+  ms.date: 10/20/2021
+  author: beccarobins
+  ms.author: beccarobins
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+
+durationInMinutes: 1
+content: |
+  [!include[](includes/introduction.md)]

@@ -17,7 +17,7 @@ You must also create a comma-separated text file, which lists a mailbox to impor
 
 You can use Microsoft Excel or any text editor to create these files:
 
-![Mailbox import text file](../media/mailbox-import-text-file.png)
+:::image type="content" source="../media/mailbox-import-text-file.png" alt-text="Screenshot showing Mailbox import text file. It shows a list of emails, user names and passwords in a text file.":::
 
 In Excel, to save the list as a .csv file, select **File** > **Export** > **Change File Type**. Under Other File Types, select **CSV (Comma delimited) (*.csv)**, and then select **Save As**.
 
@@ -29,15 +29,15 @@ To create and run a migration batch that uses the IMAP protocol, follow these st
 2. Select **+**, and then click **Migrate to Exchange Online**.
 3. On the **Select a migration type** page, select **IMAP migration**, and then click **Next**.
 
-   ![Select the IMAP migration type](../media/select-imap-migration-type.png)
+:::image type="content" source="../media/select-imap-migration-type.png" alt-text="Screenshot showing the migration type page and the option of IMAP migration is selected.":::
 
 4. On the **Select the users** page, click **Browse**, select the .csv file you created, and then select **Next**.
 
-   ![Select the .csv file on the users page](../media/select-csv-users-page.png)
+:::image type="content" source="../media/select-csv-users-page.png" alt-text="Screenshot showing about browsing and selecting the .csv file you created on the select the users page.":::
 
 5. On the **IMAP migration configuration** page, enter the name of the IMAP server, select the authentication and encryption option that the IMAP server supports, and then select **Next**. Exchange Online attempts to connect to the IMAP server.
 
-   ![Enter the IMAP server name on the IMAP migration configuration page](../media/imap-migration-configuration.png)
+:::image type="content" source="../media/imap-migration-configuration.png" alt-text="Screenshot showing about entering the IMAP server name on the IMAP migration configuration page.":::
 
 6. Select the migration endpoint that you created for the IMAP server.
 7. On the **Move configuration** page, in the **Name** text box, type a descriptive name for this migration batch, and then click **Next**.

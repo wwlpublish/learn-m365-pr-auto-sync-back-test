@@ -3,8 +3,8 @@ uid: learn-m365-pr.dlp-for-teams-and-microsoft-365.describe-dlp-policy
 metadata:
   title: Describe DLP Policy
   description: Learn about location and rules that are the foundation of a DLP policy.
-  ms.date: 07/19/2021
-  author: iankensey
+  ms.date: 11/03/2021
+  author: beccarobins
   ms.author: beccarobins
   ms.topic: interactive-tutorial
   ms.prod: learning-teams

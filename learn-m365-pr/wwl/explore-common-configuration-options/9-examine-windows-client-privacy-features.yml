@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.explore-common-configuration-options.examine-windows-client-privacy-features
+title: Examine Windows client privacy features
+metadata:
+  title: Examine Windows client privacy features
+  description: "Examine Windows client privacy features"
+  ms.date: 02/18/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+azureSandbox: false
+labModal: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/9-examine-windows-client-privacy-features.md)]

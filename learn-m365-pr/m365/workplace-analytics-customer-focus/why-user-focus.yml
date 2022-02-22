@@ -1,12 +1,12 @@
 ### YamlMime:ModuleUnit
 uid: learn-m365.workplace-analytics-customer-focus.why-user-focus
-title: Why use Workplace Analytics to improve customer focus?
+title: Why use Workplace Analytics and Viva Insights to improve customer focus?
 metadata:
-  title: Why use Workplace Analytics to improve customer focus?
-  description: Learn how to use Workplace Analytics to improve customer focus.  
-  ms.date: 07/16/2021
-  author: jelathro
-  ms.author: jelathro
+  title: Why use Workplace Analytics and Viva Insights to improve customer focus?
+  description: Learn how to use Workplace Analytics and Viva Insights to improve customer focus  
+  ms.date: 02/03/2022
+  author: madehmer
+  ms.author: helayne
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 durationInMinutes: 6

@@ -1,22 +1,22 @@
 ### YamlMime:Module
 uid: learn-m365.workplace-analytics-discover
 metadata:
-  title: Discover Microsoft Viva Insights (Workplace Analytics)
-  description: Learn what Microsoft Viva Insights (Workplace Analytics) is, how it works, and key features that allow you to generate insights and improve collaboration in your organization.  
-  ms.date: 07/30/2021
+  title: Discover Workplace Analytics with Viva Insights
+  description: Learn how to use Workplace Analytics with Viva Insights to generate analysis about how to improve collaboration in your organization
+  ms.date: 02/03/2022
   author: madehmer
-  ms.author: v-mideh
+  ms.author: helayne
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-title: Discover Microsoft Viva Insights (Workplace Analytics)
+title: Discover Workplace Analytics with Microsoft Viva Insights
 summary: "**Note**: The Workplace Analytics web app is being rebranded to **Viva Insights** in the next few months. As mentioned in this module, Workplace Analytics refers to the web app with advanced analysis tools and accelerators available to those who are assigned the Analyst, Limited Analyst, or Admin role.<br><br>Learn what Microsoft Viva Insights (Workplace Analytics) is, how it works, and key features that allow you to generate insights and improve collaboration in your organization."
 abstract: |
   At the end of this module, you should be able to:
   - Identify how Workplace Analytics can help improve collaboration behaviors in your organization.
   - Discover the sources of data used in Workplace Analytics.
-  - Explore the high-level insights available in Workplace Analytics.
-  - Create customized analysis using Workplace Analytics features.
-  - Understand tasks and considerations for setting up Workplace Analytics and managing privacy.
+  - Explore the high-level insights available through Workplace Analytics for Viva Insights.
+  - Create custom analysis with Workplace Analytics.
+  - Summarize tasks and considerations for setting up Workplace Analytics and managing privacy.
 prerequisites: None
 iconUrl: /learn/achievements/discover-workplace-analytics.svg
 levels:

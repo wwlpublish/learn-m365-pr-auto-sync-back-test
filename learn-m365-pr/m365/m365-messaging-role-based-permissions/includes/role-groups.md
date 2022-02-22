@@ -2,13 +2,13 @@ In this unit, you'll take a closer look at role groups in Exchange Online, what 
 
 ## What is a role group
 
-Permissions granted to users and administrators are based on management roles. Roles define what tasks or activities a user or administrator can carry out. A role group in Exchange Online is combines multiple roles and assigns them to users. A role group is a *special universal security group* (USG) - it can contain roles, other role groups, USGs, or Active Directory users. When you assign a role to a role group, all the permissions granted by that role are passed on to all members in the role group. You can assign as many roles as needed to a role group. However, because of their scope, you should only use role groups with administrative roles.
+Permissions granted to users and administrators are based on management roles. Roles define what tasks or activities a user or administrator can carry out. A role group in Exchange Online combines multiple roles and assigns them to users. A role group is a *special universal security group* (USG) - it can contain roles, other role groups, USGs, or Active Directory users. When you assign a role to a role group, all the permissions granted by that role are passed on to all members in the role group. You can assign as many roles as needed to a role group. However, because of their scope, you should only use role groups with administrative roles.
 
 :::image type="content" source="../media/role-group.png" alt-text="A diagram shows a role group made up of two people. The group is surrounded by other users and groups with arrows toward the group in the middle." border="true":::
 
 Role groups are typically granted to users with broad management areas, for example, recipient management. An administrator that is a member of multiple role groups has all the permissions from all the role groups they are a member of.
 
-Exchange Online includes a dozen default role groups with specific permission to manage different areas of Exchange Online. Before you create a new rule group, make sure none of the existing role groups provide the permissions that you need.
+Exchange Online includes a dozen default role groups with specific permission to manage different areas of Exchange Online. Before you create a new role group, make sure none of the existing role groups provide the permissions that you need.
 
 ## Create role groups
 
@@ -21,12 +21,12 @@ To create a new custom management role group:
 1. Sign in to the Exchange admin center (EAC) with your credentials.
     >[!NOTE]
     > You can get to the Exchange admin center from the Microsoft 365 admin center. In that case, you might not have to sign in again.
-1. Go to **Permissions**, then select **Admin Roles**.
-1. Select **Add**.
-1. Enter a name for the new rule group.
-1. Select the roles that you want to assign to the role group, and select the members you want to be added to the role group. (You can also create the role group now and add members and permissions later.)
-1. Select the write scope that you want to apply to the new role group. The write scope determines what resources a user or group can modify. For example, a configuration write scope means that any user in this role group can modify organizational, database, and server objects in Active Directory.
-1. Select **Save** to create the role group.
+2. Go to **Permissions**, then select **Admin Roles**.
+3. Select **Add**.
+4. Enter a name for the new role group.
+5. Select the roles that you want to assign to the role group, and select the members you want to be added to the role group. (You can also create the role group now and add members and permissions later.)
+6. Select the write scope that you want to apply to the new role group. The write scope determines what resources a user or group can modify. For example, a configuration write scope means that any user in this role group can modify organizational, database, and server objects in Active Directory.
+7. Select **Save** to create the role group.
 
 ### Create a role group using PowerShell
 
@@ -50,13 +50,13 @@ You can use an existing role group as the starting point for a new role group, a
 ### Copy a role group by using the Exchange admin center
 
 1. Sign into the Exchange admin center (EAC) with your credentials.
-1. Navigate to **Permissions**, and select **Admin Roles**.
-1. Select the role group you want to copy, and then select **Copy**.
-1. Enter a name for the new role group.
-1. Review the roles that have been copied to the new role group. Add or remove roles as necessary.
-1. Review the write scope, and change it as necessary.
-1. Review the members that have been copied to the new role group. Add or remove members as necessary.
-1. Select **Save** to create the role group.
+2. Navigate to **Permissions**, and select **Admin Roles**.
+3. Select the role group you want to copy, and then select **Copy**.
+4. Enter a name for the new role group.
+5. Review the roles that have been copied to the new role group. Add or remove roles as necessary.
+6. Review the write scope, and change it as necessary.
+7. Review the members that have been copied to the new role group. Add or remove members as necessary.
+8. Select **Save** to create the role group.
 
 ### Copy existing role groups using PowerShell
 
@@ -66,7 +66,7 @@ You can use an existing role group as the starting point for a new role group, a
     $RoleGroup = Get-RoleGroup "<Existing Role Group Name>"
     ```
 
-1. Create a new role group using the following syntax:
+2. Create a new role group using the following syntax:
 
     ```powershell
     New-RoleGroup -Name "<Unique Name>" -Roles $RoleGroup.Roles [-Members <Members>] [-ManagedBy <Managers>] [-CustomRecipientWriteScope "<Existing Custom Recipient Write Scope Name>"]
@@ -90,7 +90,7 @@ You can view a list of role groups or detailed information about a specific role
 ### View a role group in the Exchange admin center
 
 1. In the Exchange admin center, go to **Permissions > Admin Roles**. All of the role groups in your organization are listed here.
-1. Select a role group to view the members, assigned roles, and scope for that role group.
+2. Select a role group to view the members, assigned roles, and scope for that role group.
 
 ### View a role group by using PowerShell
 

@@ -14,7 +14,7 @@ SharePoint sites consist of three different site types:
 
 ### Team sites
 
-Team sites are collaboration sites for each project team, department, and division in your organization. Team sites provide document storage and sharing, and support for custom lists, workflow integration with Microsoft Flow, file libraries, and direct integration with Microsoft Teams.
+Team sites are collaboration sites for each project team, department, and division in your organization. Team sites provide document storage and sharing, and support for custom lists, workflow integration with Power Automate, file libraries, and direct integration with Microsoft Teams.
 
 ### Communication sites
 
@@ -36,7 +36,7 @@ SharePoint hub sites are used to organize families of team sites and communicati
 
 ## Information protection
 
-Microsoft 365 services such as Data Loss Protection, Cloud App Security, and Microsoft Defender for Office 365 provide more methods for keeping your SharePoint data safe and allowing for secure collaboration with other users in your organization and with guests.
+Microsoft 365 services such as Data Loss Protection, Defender for Cloud Apps, and Microsoft Defender for Office 365 provide more methods for keeping your SharePoint data safe and allowing for secure collaboration with other users in your organization and with guests.
 
 ## Learn more
 

@@ -4,8 +4,8 @@ metadata:
   title: Manage knowledge content in Viva Topics
   description: Learn about knowledge management in Viva Topics - creating, editing, and maintaining topic content.
   ms.date: 07/16/2021
-  author: lizap
-  ms.author: teleary
+  author: maggierui
+  ms.author: ruihu
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Manage knowledge content in Viva Topics
@@ -23,6 +23,7 @@ roles:
 - administrator
 products: 
 - m365
+- viva-topics
 units:
 - learn-m365-pr.viva-topics-knowledge.introduction
 - learn-m365-pr.viva-topics-knowledge.topic-center

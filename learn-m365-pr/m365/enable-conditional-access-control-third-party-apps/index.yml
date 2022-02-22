@@ -2,14 +2,14 @@
 uid: learn-m365.enable-conditional-access-app-control-third-party-apps
 metadata:
   title: Enable Conditional Access App Control for third-party apps
-  description: Learn how to configure Conditional Access App Control in Microsoft Cloud App Security for Workplace from Facebook, Box, and Slack.
-  ms.date: 07/19/2021
-  author: alistairmatthews
+  description: Learn how to configure Conditional Access App Control in Microsoft Defender for Cloud Apps for Workplace from Facebook, Box, and Slack.
+  ms.date: 11/03/2021
+  author: beccarobins
   ms.author: beccarobins
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Enable Conditional Access App Control for third-party apps
-summary: Learn how to configure Conditional Access App Control in Microsoft Cloud App Security for Workplace from Facebook, Box, and Slack.
+summary: Learn how to configure Conditional Access App Control in Microsoft Defender for Cloud Apps for Workplace from Facebook, Box, and Slack.
 abstract: | 
   In this module, you will:
   - Configure Conditional Access App Control steps for Workplace for Facebook.
@@ -19,7 +19,7 @@ prerequisites: |
   - Experience working with Microsoft 365 services
   - Experience working with Azure 
   - Knowledge of security concepts, risks, and mitigations
-  - Microsoft Cloud App Security intermediate or equivalent
+  - Microsoft Defender for Cloud Apps intermediate or equivalent
 iconUrl: /learn/achievements/enable-conditional-access-app-control-for-third-party-apps.svg
 levels:
 - advanced

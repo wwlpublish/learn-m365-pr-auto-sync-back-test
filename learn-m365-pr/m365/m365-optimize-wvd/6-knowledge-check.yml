@@ -4,45 +4,57 @@ title: Knowledge check
 metadata:
   title: Knowledge check
   description: Review what you learned about optimizing Azure Virtual Desktop.
-  ms.date: 07/19/2021
+  ms.date: 01/31/2022
   author: lizap
-  ms.author: elizapo
+  ms.author: nedelgad
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 durationInMinutes: 3
 quiz:
    title: Check your knowledge
    questions:
-   - content: "Which of these steps is not part of creating an FSLogix profile?"
+   - content: "How much does it cost to use Autoscale?"
      choices:
-     - content: "Create an Azure storage account with a file share"
+     - content: "$0.50 per scaling plan"
        isCorrect: false
-       explanation: "Incorrect. FSLogix profiles store user-assigned virtual disks in the file share in Azure."
-     - content: "Create a new role in Azure AD to read and write in Azure storage"
-       isCorrect: false
-       explanation: "Incorrect. You need a new role in Azure AD to read and write in Azure storage so users can access and modify the virtual disks that contain their user profile."
-     - content: "Install FSLogix software in Azure Virtual Desktop gallery images"
+       explanation: "Incorrect.Autoscale does not cost anything additional."
+     - content: "It does not cost anything additional"
        isCorrect: true
-       explanation: "Correct. FSLogix software is preinstalled in the Azure gallery images. If you use your *own* image, you'll need to install the FSLogix software yourself."
-   - content: "What service can you use to migrate file or user profile data from an on-premises location to Azure?"
+       explanation: "Correct.Autoscale has no additional cost."
+     - content: "$0.50 per schedule"
+       isCorrect: false
+       explanation: "Incorrect.Autoscale does not cost anything additional."
+   - content: "What is the purpose of Autoscale?"
      choices:
-     - content: "Azure Automation"
+     - content: "To reduce and optimize storage costs"
        isCorrect: false
-       explanation: "Use Azure Automation and Azure Logic Apps to automatically scale Azure Virtual Desktop session hosts."
-     - content: "Azure File Sync"
+       explanation: "Incorrect.Autoscale today does not reduce or optimize storage costs."
+     - content: "To reduce and optimize compute costs and management overhead by automating power management"
        isCorrect: true
-       explanation: "Deploy Azure File Sync to sync on-premises files or user profile data to Azure Storage."
-     - content: "Azure Virtual Desktop"
-       isCorrect: false
-       explanation: "Virtualize desktops and apps by using Azure Virtual Desktop."
-   - content: "What's one of the primary reasons to use automated scaling in Azure Virtual Desktop?"
+       explanation: "Correct.Autoscale reduces and optimizes compute costs and management overhead by automatically turning session host virtual machines on and off according to demand and schedule."
+   - content: "What must you set up to grant Autoscale the necessary permissions to turn session host VMs on and off?"
      choices:
-     - content: "To increase virtual disk storage when users get close to reaching the limits in a VM."
-       isCorrect: false
-       explanation: "Incorrect. Automated scaling is used to provision and deprovision VMs to save costs based on user demands or usage patterns. Vertically scaling VM size is possible but not the primary reason for autoscaling."
-     - content: "To increase service uptime and availability"
-       isCorrect: false
-       explanation: "Incorrect. VM availability sets are used to help ensure service uptime and availability. Automated scaling is used to provision and deprovision VMs to save costs based on user demands or usage patterns."
-     - content: "To save costs by matching the number of running VMs to user demand"
+     - content: "A custom RBAC role on the subscription"
        isCorrect: true
-       explanation: "Correct. Automated scaling is used to provision and deprovision virtual machines in order to save costs based on user demands or usage patterns. The automation can be based on a schedule to match common business hours or actual resource utilization."
+       explanation: "Correct.You must set up a custom RBAC role on the subscription to grant Autoscale the necessary permissions to turn session host VMs on and off."
+     - content: "A custom RBAC role on the host pool"
+       isCorrect: false
+       explanation: "Incorrect.Setting up the RBAC role on the host pool will cause Autoscale to not work. The RBAC role must be on the subscription."
+     - content: "A custom RBAC role on the session host VM"
+       isCorrect: false
+       explanation: "Incorrect.Setting up the RBAC role on the session host VM will cause Autoscale to not work. The RBAC role must be on the subscription."
+     - content: "Nothing, it should just work"
+       isCorrect: false
+       explanation: "Incorrect.In order for Autoscale to have access to the VMs, you must set up an RBAC role on the subscription."
+   - content: "Which of the following statements are true?"
+     choices:
+     - content: "Autoscale currently only works for personal"
+       isCorrect: false
+       explanation: "Incorrect.Autoscale works for pooled host pools, and personal."
+     - content: "Autoscale currently only turns session host VMs on and off, it does not create or delete them"
+       isCorrect: true
+       explanation: "Correct."
+     - content: "Autoscale currently only scale according to resource consumption"
+       isCorrect: false
+       explanation: "Incorrect.Autoscale scales according to your defined schedule and metrics, it does not scale according to resource consumption."
+

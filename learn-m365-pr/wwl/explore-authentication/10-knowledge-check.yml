@@ -1,0 +1,75 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.explore-authentication.knowledge-check
+title: Knowledge Check
+metadata:
+  title: Knowledge Check
+  description: "Knowledge Check"
+  ms.date: 02/18/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+azureSandbox: false
+labModal: false
+durationInMinutes: 5
+content: |
+  [!include[](includes/10-knowledge-check.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "As the new Desktop Administrator for Northwind Traders, Alan Deyoung is trying to fix some of the security issues left behind by his predecessor. One such practice directed users to sign in to their computers with the Administrator account. Alan discovered that this policy lead to malicious users gaining access to server and client computers. What should Alan do to resolve this issue with each device?"
+    choices:
+    - content: "Delete the Administrator account and have users sign in with the Default Account"
+      isCorrect: false
+      explanation: "Incorrect. The Administrator account can't be deleted. While the Default account can be used to sign in, it would require the user to use \"Run as administrator\" to accomplish tasks that require a higher level of rights than a standard user account. Try again."
+    - content: "Lock out the Administrator account and have users sign in using the Local Service account"
+      isCorrect: false
+      explanation: "Incorrect. The Administrator account can't be locked out. Local service accounts shouldn't be used by users. They're used by Windows to perform services that do not need full permissions. Try again."
+    - content: "Disable the Administrator account and have users sign in with a local account that's a member of the Administrators group"
+      isCorrect: true
+      explanation: "Correct. Because the Administrator account is known to exist on many versions of the Windows operating system, it's a best practice to disable the Administrator account when possible to make it more difficult for malicious users to gain access to the server or client computer. Then create a local account that's a member of the Administrators group. Members of the Administrators groups can run apps with elevated permissions without using the \"Run as Administrator\" option."
+  - content: "As the Desktop Administrator for Fabrikam, you must set up an account that will be used to sign-in to a Windows 11 PC. This account must be able to synchronize files with OneDrive. What type of account should you create?"
+    choices:
+    - content: "Domain Account"
+      isCorrect: false
+      explanation: "Incorrect. Domain accounts enable users to access other resources that are also in the domain, such as other clients, servers, printers, and so on using a service called Active Directory. Try again."
+    - content: "Local Account"
+      isCorrect: false
+      explanation: "Incorrect. A local user account resides on the local device only. It does not allow a user to access resources on other Windows computers. Typically, you use local user accounts for workgroup environments in which you have networked only a few computers, and in which users typically work with resources attached to their own devices. Try again."
+    - content: "Microsoft Account"
+      isCorrect: true
+      explanation: "Correct. A Microsoft Account (formerly Windows Live ID) enables a user to have easier access to Microsoft’s services. If you have ever used services such as Xbox Live, Hotmail, Outlook.com, OneDrive, or Windows Messenger, you already have a Microsoft Account. Microsoft has combined all their services together, which allows a user to access them with a single account. Just one email address and password are used for all these services."
+  - content: "As the Desktop Administrator for World Wide Importers, you want to create a workgroup for the Warehouse department. This workgroup will enable the warehouse staff to share files, network storage, printers, and any connected resource. What's the maximum number of computers that you can assign to this workgroup?"
+    choices:
+    - content: "20"
+      isCorrect: true
+      explanation: "Correct. A workgroup has a limit of 20 computers, all of which must be on the same local network."
+    - content: "40"
+      isCorrect: false
+      explanation: "Incorrect. This answer isn't the maximum number of computers that can be assigned to a workgroup. Try again."
+    - content: "75"
+      isCorrect: false
+      explanation: "Incorrect. This answer isn't the maximum number of computers that can be assigned to a workgroup. Try again."
+  - content: "As the Desktop Administrator for Trey Research, you were approached by members of the Engineering department regarding a sign-in issue. Each day the engineers access computers, CAD machines, and printers, in the company's Engineering workgroup. These machines are all running either Windows 10 or Windows 11. Every time they access one of these workgroup resources, they're prompted to enter their credentials. The engineers have found this continual entering of credentials to be very time consuming and annoying. What Windows tool can you use that will save each engineer's credentials on each resource so that they're not prompted each time they access computers in the Engineering workgroup?"
+    choices:
+    - content: "Credential Manager"
+      isCorrect: true
+      explanation: "Correct. The Credential Manager utility is built into Windows Control Panel. Credential Manager saves the credentials that users enter when accessing other computers and resources on local networks. In doing so, users aren't prompted each time they access other computers. Credential Manager can also be used to back up and restore those credentials."
+    - content: "Windows Hello using Biometrics"
+      isCorrect: false
+      explanation: "Incorrect. Windows Hello supports biometric authentication that uses your face, iris, or fingerprint to unlock your devices. Try again."
+    - content: "Web Credentials"
+      isCorrect: false
+      explanation: "Incorrect. Web Credentials is the web component of Credential Manager and it remembers web login passwords. Try again."
+  - content: "Contoso's Engineering department typically uses smart cards for user authentication. Each engineer utilizes a smart card reader, which scans the chip on the user's card to authenticate the user. Which of the following authentication methods is used in conjunction with smart cards?"
+    choices:
+    - content: "Kerberos version 5 protocol"
+      isCorrect: false
+      explanation: "Incorrect. Windows-based clients and servers use this as the main sign-in authentication method. It provides authentication for user and computer accounts. Try again."
+    - content: "Certificate mapping"
+      isCorrect: true
+      explanation: "Correct. Typically, users utilize this method in conjunction with smart cards. The certificate that a smart card stores can link to a user account. Users utilize a smart card reader, which scans the card’s chip to authenticate a user."
+    - content: "NTLM"
+      isCorrect: false
+      explanation: "Incorrect. This method provides backward compatibility with pre-Windows 2000 operating systems and some applications. However, it is less flexible, less efficient, and not as secure as the Kerberos protocol. Try again."
+interactive: bash

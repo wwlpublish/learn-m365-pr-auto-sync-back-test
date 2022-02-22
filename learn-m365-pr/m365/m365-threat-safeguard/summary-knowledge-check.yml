@@ -5,7 +5,7 @@ metadata:
   title: Summary and knowledge check
   description: Learn about the Microsoft Defender for Identity component of Microsoft 365 Defender. 
   ms.date: 02/04/2021
-  author: AlexandraHrt
+  author: beccarobins
   ms.author: beccarobins
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
@@ -24,7 +24,7 @@ quiz:
         isCorrect: false
         explanation: "Incorrect. Microsoft Defender for Identity is a cloud-based security solution that requires an on-premises Active Directory."
 
-    - content: "Which of the following describes advanced threats Microsoft Defender for Identity detects along the cyber-attack kill-chain?"
+    - content: "Which of the following describes advanced threats detected by Microsoft Defender for Identity?"
       choices:
       - content: "Reconnaissance "
         isCorrect: true
@@ -40,10 +40,10 @@ quiz:
       choices:
       - content: "Microsoft Defender for Endpoint"
         isCorrect: false
-        explanation: "Incorrect. Microsoft Defender for Identity supports integration with Microsoft Defender for Endpoint and Microsoft Cloud App Security."
-      - content: "Microsoft Cloud App Security"
+        explanation: "Incorrect. Microsoft Defender for Identity supports integration with Microsoft Defender for Endpoint and Microsoft Defender for Cloud Apps."
+      - content: "Microsoft Defender for Cloud Apps"
         isCorrect: false
-        explanation: "Incorrect. Microsoft Defender for Identity supports integration with Microsoft Defender for Endpoint and Microsoft Cloud App Security."
+        explanation: "Incorrect. Microsoft Defender for Identity supports integration with Microsoft Defender for Endpoint and Microsoft Defender for Cloud Apps."
       - content: "Intune"
         isCorrect: true
         explanation: "Correct! Currently, there is no supported integration with Microsoft Defender for Identity and Microsoft Intune."

@@ -3,10 +3,10 @@ uid: learn-m365.workplace-analytics-discover.summary-knowledge-check
 title: Summary and knowledge check
 metadata:
   title: Summary and knowledge check
-  description: Learn what Workplace Analytics is, how it works, and key features that allow you to generate insights and improve collaboration in your organization.
-  ms.date: 02/18/2021
-  author: jelathro
-  ms.author: jelathro
+  description: Knowledge check for using the Workplace Analytics app with Microsoft Viva Insights
+  ms.date: 02/02/2022
+  author: madehmer
+  ms.author: helayne
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 durationInMinutes: 5
@@ -17,37 +17,37 @@ quiz:
     questions:
     - content: "What are the required and optional data sources included in Workplace Analytics?"
       choices:
-      - content: "Microsoft 365 and HR organization data are required; CRM data is optional."
+      - content: "Microsoft 365 and HR organizational data are required; CRM data is optional."
         isCorrect: true
-        explanation: "Correct. Microsoft 365 data and HR organization data are required in Workplace Analytics; CRM data is optional."
-      - content: "Microsoft 365 and CRM data are required; HR organization data is optional."
+        explanation: "Correct. Microsoft 365 data and HR organizational data are required in Workplace Analytics; CRM data is optional."
+      - content: "Microsoft 365 and CRM data are required; HR organizational data is optional."
         isCorrect: false
-        explanation: "Sorry, that’s incorrect. Microsoft 365 data and HR organization data are required in Workplace Analytics; CRM data is optional."
-      - content: "HR organization and CRM data are required; Microsoft 365 data is optional."
+        explanation: "Sorry, that’s incorrect. Microsoft 365 data and HR organizational data are required in Workplace Analytics; CRM data is optional."
+      - content: "HR organizational and CRM data are required; Microsoft 365 data is optional."
         isCorrect: false
-        explanation: "Sorry, that’s incorrect. Microsoft 365 data and HR organization data are required in Workplace Analytics; CRM data is optional."
+        explanation: "Sorry, that’s incorrect. Microsoft 365 data and HR organizational data are required in Workplace Analytics; CRM data is optional."
 
     - content: "Where can leaders go to view out-of-the-box insights on important business outcomes in Workplace Analytics?"
       choices:
-      - content: "Queries"
+      - content: "Query designer"
         isCorrect: false
-        explanation: "Sorry, that’s incorrect. The Home page is the correct answer. The Queries feature is used to access non-identifiable row-level data."
-      - content: "Peer Analysis"
+        explanation: "Sorry, that’s incorrect. The Home page is the correct answer. The Query designer is used to access templates and create custom queries for row-level data."
+      - content: "Peer analysis"
         isCorrect: false
         explanation: "Sorry, that’s incorrect. The Home page is the correct answer. The Peer analysis feature is used to compare the collaboration behaviors of two different groups."
       - content: "Home page"
         isCorrect: true
-        explanation: "Correct. The Home page provides leaders with quick insights into nine research-based business outcomes."
+        explanation: "Correct. The Home page provides leaders with quick insights into research-based business outcomes."
       
-    - content: "Which content does Workplace Analytics look at in collaboration data?"
+    - content: "What type of data does Workplace Analytics use within the Microsoft 365 collaboration data?"
       choices:
       - content: "Email attachments"
         isCorrect: false
-        explanation: "Sorry, that’s incorrect. Header level data is the correct answer. Workplace Analytics does not look at email attachments as they are considered sensitive in nature."
+        explanation: "Sorry, that’s incorrect. Header-level data is the correct answer. Workplace Analytics does not look at email attachments."
       - content: "Header-level data"
         isCorrect: true
-        explanation: "Correct. Workplace Analytics does not look at content or data that is considered sensitive in nature."
+        explanation: "Correct. Workplace Analytics does not look at email body text."
       - content: "Body of emails"
         isCorrect: false
-        explanation: "Sorry, that’s incorrect. Header level data is the correct answer. Workplace Analytics does not look at the body of emails as it is considered sensitive in nature."
+        explanation: "Sorry, that’s incorrect. Header-level data is the correct answer. Workplace Analytics does not look at the body text in emails."
       

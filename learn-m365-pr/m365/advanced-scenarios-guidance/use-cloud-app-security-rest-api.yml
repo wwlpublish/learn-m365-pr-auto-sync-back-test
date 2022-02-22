@@ -1,14 +1,14 @@
 ### YamlMime:ModuleUnit
 uid: learn-m365.advanced-scenarios-guidance.use-mcas-rest-api
 metadata:
-  title: Use the Microsoft Cloud App Security REST API to interact with security information
-  description: Advanced scenarios and guidance with Microsoft Cloud App Security
-  ms.date: 07/19/2021
-  author: alistairmatthews
+  title: Use the Microsoft Defender for Cloud Apps REST API to interact with security information
+  description: Advanced scenarios and guidance with Microsoft Defender for Cloud Apps
+  ms.date: 01/13/2022
+  author: beccarobins
   ms.author: beccarobins
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-title: Use the Microsoft Cloud App Security REST API to interact with security information
+title: Use the Microsoft Defender for Cloud Apps REST API to interact with security information
 durationInMinutes: 5
 content: |
   [!include[](includes/use-cloud-app-security-rest-api.md)]

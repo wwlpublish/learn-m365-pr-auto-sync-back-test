@@ -1,0 +1,41 @@
+### YamlMime:Module
+uid: learn-m365.viva-connections-extend-with-web-parts
+metadata:
+  title: Extend Microsoft Viva Connections with web parts
+  description: Learn how to extend Viva Connections with custom web parts by using your existing web development skills. You'll learn about the scenarios where web parts are most suitable and how to build them.
+  ms.date: 10/14/2021
+  author: waldekmastykarz
+  ms.author: wmastyka
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Extend Microsoft Viva Connections with web parts
+summary: Learn how to extend Viva Connections with custom web parts by using your existing web development skills. You'll learn about the scenarios where web parts are most suitable and how to build them.
+abstract: |
+  By the end of this module, you'll be able to:
+    - Install development tools for building Viva Connections extensions.
+    - Extend Viva Connections desktop with web parts.
+    - Deploy and test custom web parts in Viva Connections desktop.
+prerequisites: | # user input: prerequisites (https://review.docs.microsoft.com/help/learn/id-guidance-prerequisites?branch=master)
+  - SharePoint administrator access to a Microsoft 365 tenant
+  - Viva Connections enabled in the Microsoft 365 tenant
+  - Ability to develop JavaScript applications by using modern web technologies 
+  - Basic knowledge of TypeScript
+  - Code editor or IDE
+  - Node.js v14
+iconUrl: /learn/achievements/generic-badge.svg
+levels:
+  - beginner
+roles:
+  - developer
+products:
+  - m365
+  - viva-connections
+units:
+- learn-m365.viva-connections-extend-with-web-parts.introduction
+- learn-m365.viva-connections-extend-with-web-parts.exercise-install-development-tools-for-extending-viva-connections
+- learn-m365.viva-connections-extend-with-web-parts.extend-viva-connections-desktop-with-web-parts
+- learn-m365.viva-connections-extend-with-web-parts.exercise-extend-viva-connections-desktop-with-web-parts
+- learn-m365.viva-connections-extend-with-web-parts.knowledge-check
+- learn-m365.viva-connections-extend-with-web-parts.summary
+badge:
+  uid: learn-m365.viva-connections-extend-with-web-parts.badge

@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.create-manage-public-folders.deploy-public-folder-mailboxes
+title: Deploy public folder mailboxes
+metadata:
+  title: Deploy public folder mailboxes
+  description: "Deploy public folder mailboxes"
+  ms.date: 11/25/2021
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 4
+content: |
+  [!include[](includes/3-deploy-public-folder-mailboxes.md)]

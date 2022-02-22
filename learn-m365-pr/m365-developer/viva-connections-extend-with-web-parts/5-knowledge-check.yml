@@ -1,0 +1,60 @@
+### YamlMime:ModuleUnit
+uid: learn-m365.viva-connections-extend-with-web-parts.knowledge-check
+metadata:
+  title: Knowledge check
+  description: Check your knowledge.
+  ms.date: 10/20/2021
+  author: waldekmastykarz
+  ms.author: wmastyka
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Knowledge check
+durationInMinutes: 3
+content: |
+quiz:
+  title: Check your knowledge
+  questions:
+  - content: "Viva Connections web parts work in which of the following experiences?"
+    choices:
+    - content: "Desktop"
+      isCorrect: true
+      explanation: "Web parts work only in Viva Connections desktop."
+    - content: "Mobile"
+      isCorrect: false
+      explanation: "Web parts work only in Viva Connections desktop."
+  - content: "When should you consider building web parts to extend Viva Connections?"
+    choices:
+    - content: "When you need to add custom code to all pages in Viva Connections."
+      isCorrect: false
+      explanation: "To add code to all pages in Viva Connections, you should build an application customizer."
+    - content: "When you want to provide content editors with a reusable widget that they can place on pages."
+      isCorrect: true
+      explanation: "Web parts are the right type of extension to build when you need to provide content editors with a widget they can place on pages."
+    - content: "When you need to extend Viva Connections desktop and mobile."
+      isCorrect: false
+      explanation: "Web parts work only in Viva Connections desktop. To extend both the desktop and mobile Viva Connections experiences, you should build an Adaptive Card Extension."
+  - content: "What should you consider when building web parts?"
+    choices:
+    - content: "That you can only use Adaptive Cards to build the UI."
+      isCorrect: false
+      explanation: "When building web parts, you use HTML to build the UI."
+    - content: "That they use the same design language, responsive UI and support themes."
+      isCorrect: true
+      explanation: "When building web parts, ensure that they use the same design language as other elements on the page and support themes to integrate seamlessly. Also, use responsive UI because content editors can place web parts in different sections on the page."
+    - content: "That you as a developer decide where the web part is placed on the page."
+      isCorrect: false
+      explanation: "Content editors can place web parts in the content area of the page."
+  - content: "Which JavaScript framework can you use to build web parts?"
+    choices:
+    - content: "Only React"
+      isCorrect: false
+      explanation: "You can use any JavaScript framework to build web parts."
+    - content: "Only Angular"
+      isCorrect: false
+      explanation: "You can use any JavaScript framework to build web parts."
+    - content: "Only VueJS"
+      isCorrect: false
+      explanation: "You can use any JavaScript framework to build web parts."
+    - content: "You can use any JavaScript framework"
+      isCorrect: true
+      explanation: "You can use any JavaScript framework to build web parts."

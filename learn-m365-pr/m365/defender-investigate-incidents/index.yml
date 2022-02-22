@@ -4,8 +4,8 @@ metadata:
   moduleType: standard
   title: Investigate incidents with Microsoft 365 Defender
   description: Learn how to use Microsoft 365 Defender to manage and respond to incidents and alerts in your Microsoft 365 tenant. Cyber threats are an ever present and on-going concern for all organizations regardless of size. Learn how to minimize the time between an incident and its management for subsequent response and resolution.
-  ms.date: 08/12/2021
-  author: iankensey
+  ms.date: 01/13/2022
+  author: beccarobins
   ms.author: beccarobins
   ms.topic: interactive-tutorial 
   ms.prod: learning-m365

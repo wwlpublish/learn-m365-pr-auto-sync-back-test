@@ -5,7 +5,7 @@ metadata:
   title: Knowledge check
   description: Check what you've learned about data loss prevention in Microsoft 365. 
   ms.date: 08/06/2021
-  author: lizap
+  author: beccarobins
   ms.author: beccarobins
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
@@ -15,15 +15,15 @@ content: |
 quiz:
     title: Check your knowledge
     questions:
-    - content: "A user sends an email to several recipients containing 16 unique credit card numbers that match a DLP Policy with this sensitive information type. How many lines will display on the DLP Policy matches report? "
+    - content: "A user sends an email to several recipients containing 16 unique credit card numbers that match a single DLP Policy rule with this sensitive information type. How many lines will display on the DLP Policy matches report? "
       choices:
       - content: "1"
         isCorrect: true
         explanation: "Correct. The DLP policy matches report shows matches at a rule level. If an email matched three different rules, the DLP policy matches report would show three different line items. By contrast, the DLP incidents report shows matches at an item level. If an email matched three different rules, the incidents report shows a single line-item for that item. "
-      - content: "16"
+      - content: "3"
         isCorrect: false
         explanation: "Sorry, this is incorrect. The DLP policy matches report shows matches at a rule level. If an email matched three different rules, the DLP policy matches report would show three different line items. By contrast, the DLP incidents report shows matches at an item level. If an email matched three different rules, the incidents report shows a single line-item for that item."
-      - content: "3"
+      - content: "16"
         isCorrect: false
         explanation: "Sorry, this is incorrect. The DLP policy matches report shows matches at a rule level. If an email matched three different rules, the DLP policy matches report would show three different line items. By contrast, the DLP incidents report shows matches at an item level. If an email matched three different rules, the incidents report shows a single line-item for that item."
       
@@ -32,7 +32,7 @@ quiz:
       - content: "Modify the DLP policy."
         isCorrect: true
         explanation: "Correct. When identifying information to protect, you need to configure the conditions that will result in a policy being triggered via rules. Data loss prevention includes policy templates that include rules for detecting many common sensitive information types. You can modify these rules using the rule editor if they are resulting in too many false positives."
-      - content: Create a new retention policy and attach it to the DLP policy."
+      - content: "Create a new retention policy and attach it to the DLP policy."
         isCorrect: false
         explanation: "Sorry, this is incorrect. Retention policies are used to decide proactively whether to retain content, delete content, or both. They have nothing to do with data loss prevention."
       - content: "Design a new DLP policy."
@@ -51,7 +51,7 @@ quiz:
         isCorrect: true
         explanation: "Correct. In most cases, you will want to test the DLP policy to make sure it is functioning as expected and meets your specific organization’s needs. "
 
-    - content: "You have already deployed data loss prevention and are using it to protect data in Microsoft Teams, Exchange, SharePoint, and OneDrive. You also want to protect data stored on your Windows 10 devices, so you have modified an existing policy and added Devices to the list of locations you will protect. What else must you do to begin protecting content on your Windows 10 devices?"
+    - content: "You have already deployed data loss prevention and are using it to protect data in Microsoft Teams, Exchange, SharePoint, and OneDrive. You also want to protect data stored on your Windows devices, so you have modified an existing policy and added Devices to the list of locations you will protect. What else must you do to begin protecting content on your Windows devices?"
       choices:
       - content: "Make sure each device is Azure AD registered."
         isCorrect: false

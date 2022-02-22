@@ -6,7 +6,7 @@ metadata:
   description: Check your knowledge
   ms.date: 09/15/2020
   ms.author: teleary
-  author: lizap
+  author: temanteleary
   ms.topic: interactive-tutorial
   ms.prod: learning-teams
 durationInMinutes: 4
@@ -19,47 +19,47 @@ quiz:
     choices:
     - content: The per-organizer policy applies only to meeting organizers.
       isCorrect: false
-      explanation: "A per-organizer policy applies to the meeting organizer and meeting participants."
+      explanation: "That's incorrect. A per-organizer policy applies to the meeting organizer and meeting participants."
     - content: The per-organizer policy applies to meeting organizers and meeting participants.
       isCorrect: true
-      explanation: "With a per-organizer policy, the meeting participants inherit the policy from the organizer."
+      explanation: "That's correct. With a per-organizer policy, the meeting participants inherit the policy from the organizer."
     - content: The per-organizer policy applies only to meeting participants.
       isCorrect: false
-      explanation: "A per-organizer policy applies to the meeting organizer and meeting participants."
+      explanation: "That's incorrect. A per-organizer policy applies to the meeting organizer and meeting participants."
 
   - content: "What's required for a meeting participant to start a meeting recording?"
     choices:
     - content: The participant has an assigned policy with **Allow cloud recording** set to On, and they're part of the same organization.
       isCorrect: true
-      explanation: "The user must be assigned a policy with the meeting recording option set to On, and be a user in the same organization as the meeting organizer."
+      explanation: "That's correct. The user must be assigned a policy with the meeting recording option set to On, and be a user in the same organization as the meeting organizer."
     - content: The participant has an assigned policy with **Allow IP video** set to On, and they're part of the same organization.
       isCorrect: false
-      explanation: "The **Allow IP video** policy setting doesn't allow them to start a meeting recording."
+      explanation: "That's incorrect. The **Allow IP video** policy setting doesn't allow them to start a meeting recording."
     - content: The participant has an assigned policy with **Allow cloud recording** and **Allow IP video**, and is an external user.
       isCorrect: false
-      explanation: "External users or guests can't start a meeting recording."
+      explanation: "That's incorrect. External users or guests can't start a meeting recording."
 
   - content: "When should you create a custom meeting policy?"
     choices:
     - content: When you want to prevent all users from creating transcriptions of meetings.
       isCorrect: false
-      explanation: "You can amend the global policy if you want to prevent all users from creating transcriptions."
+      explanation: "That's incorrect. You can amend the global policy if you want to prevent all users from creating transcriptions."
     - content: When you want to prevent everyone except users who work in Marketing from creating transcriptions of meetings.
       isCorrect: true
-      explanation: "A customer meeting policy allows you to create a policy that's assigned to certain users."
+      explanation: "That's correct. A customer meeting policy allows you to create a policy that's assigned to certain users."
     - content: When you want to prevent guests joining meetings for your organization.
       isCorrect: false
-      explanation: "You can amend the global policy if you want to prevent guests from joining meetings."
+      explanation: "That's incorrect. You can amend the global policy if you want to prevent guests from joining meetings."
 
-  - content: "Your organization doesn't have a Microsoft Stream license. How long are meeting recordings stored?"
+  - content: "Your organization doesn't have OneDrive for Business or SharePoint Online enabled. How long are meeting recordings stored?"
     choices:
       - content: Indefinitely, or until they're deleted.
         isCorrect: false
-        explanation: "To store meetings recordings indefinitely you require a license for Microsoft Stream."
+        explanation: "That's incorrect. To store meetings recordings indefinitely you need to use OneDrive for Business or SharePoint Online."
       - content: The time a recording is stored is set in the meetings policy.
         isCorrect: false
-        explanation: "There isn't a meetings policy setting for the time a recording is stored."
-      - content: For 20 days.
+        explanation: "That's incorrect. There isn't a meetings policy setting for the time a recording is stored."
+      - content: For 21 days.
         isCorrect: true
-        explanation: "If your organization doesn't have a license for Microsoft Stream, recordings are stored in Azure Media Services for 20 days, then they're deleted."
+        explanation: "That's correct. Recordings are stored in temporary Teams storage with a 21-day limit, before it's deleted"
 

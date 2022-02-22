@@ -37,7 +37,7 @@ Key features of Azure AD Pass-through Authentication include:
 
  -  Support for user sign-in into all web browser-based applications and into Microsoft Office client applications that use [modern authentication](https://www.microsoft.com/microsoft-365/blog/2015/11/19/updated-office-365-modern-authentication-public-preview/?azure-portal=true).
  -  Sign-in usernames can be either the on-premises default username (userPrincipalName) or another attribute configured in Azure AD Connect (known as Alternate ID).
- -  It works seamlessly with [conditional access](/azure/active-directory/active-directory-conditional-access-azure-portal) features such as multifactor authentication to help secure your users.
+ -  It works seamlessly with [Conditional Access](/azure/active-directory/active-directory-conditional-access-azure-portal) features such as multifactor authentication to help secure your users.
  -  It's integrated with cloud-based [self-service password management](/azure/active-directory/authentication/active-directory-passwords-overview), including password writeback to on-premises Active Directory and password protection by banning commonly used passwords.
  -  Multi-forest environments are supported if there are forest trusts between your AD forests and if name suffix routing is correctly configured.
  -  It's a free feature, and you don't need any paid editions of Azure AD to use it.
@@ -61,7 +61,7 @@ The following scenarios are fully supported:
 
 The following scenarios aren't supported:
 
- -  User sign-ins to legacy Office client applications, excluding Outlook (see **Supported scenarios** above): Office 2010, and Office 2013 *without* modern authentication. Organizations are encouraged to switch to modern authentication, if possible. Modern authentication allows for Pass-through Authentication support. It also helps you secure your user accounts by using [conditional access](/azure/active-directory/active-directory-conditional-access-azure-portal) features, such as Azure Active Directory Multifactor authentication.
+ -  User sign-ins to legacy Office client applications, excluding Outlook (see **Supported scenarios** above): Office 2010, and Office 2013 *without* modern authentication. Organizations are encouraged to switch to modern authentication, if possible. Modern authentication allows for Pass-through Authentication support. It also helps you secure your user accounts by using [Conditional Access](/azure/active-directory/active-directory-conditional-access-azure-portal) features, such as Azure Active Directory Multifactor authentication.
  -  Access to calendar sharing and free/busy information in Exchange hybrid environments on Office 2010 only.
  -  User sign-ins to Skype for Business client applications *without* modern authentication.
  -  User sign-ins to PowerShell version 1.0. We recommended that you use PowerShell version 2.0.

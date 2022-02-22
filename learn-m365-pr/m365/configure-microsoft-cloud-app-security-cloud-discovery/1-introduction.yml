@@ -2,9 +2,9 @@
 uid: learn-m365.configure-microsoft-cloud-app-security-cloud-discovery.1-introduction
 metadata:
   title: Introduction
-  description: Configure Microsoft Cloud App Security Cloud discovery
-  ms.date: 07/20/2021
-  author: geoffallix
+  description: Configure Microsoft Defender for Cloud Apps Cloud discovery
+  ms.date: 11/03/2021
+  author: beccarobins
   ms.author: beccarobins
   ms.topic: interactive-tutorial
   ms.prod: learning-m365

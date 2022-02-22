@@ -41,7 +41,7 @@ Meeting organizers can select **Meeting Options** in the meeting invitation to c
 
 As the admin, you can control this using the meeting options. The setting is labeled **Automatically admit people**.
 
-:::image type="content" source="../media/microsoft-teams-admin-center-meeting-policies-automatically-admit-people.png" alt-text="Screenshot showing how to allow automatically admit people to a teams meeting.":::
+:::image type="content" source="../media/microsoft-teams-admin-center-meeting-policies-automatically-admit-people.png" alt-text="Screenshot showing how to automatically admit people to a teams meeting.":::
 
 You can set it to one of the following options:
 
@@ -51,7 +51,7 @@ You can set it to one of the following options:
 | **Everyone in your organization and federated organizations** | Authenticated users within the organization, including guest users and the users from trusted organizations, join the meeting directly without waiting in the lobby. Anonymous users wait in the lobby. |
 | **Everyone in your organization**                           | Authenticated users from within the organization, including guest users, join the meeting directly without waiting in the lobby. Users from trusted organizations and anonymous users wait in the lobby. This is the default setting. |
 
-### Allow interpreters and participants to share IP video feed  
+### Allow interpreters and participants to share IP video feed
 
 Sign language interpreters need to be able to share their video feed with meeting participants so that users can see their interpretation, and so that the interpreters can also read signs from users who are deaf.
 

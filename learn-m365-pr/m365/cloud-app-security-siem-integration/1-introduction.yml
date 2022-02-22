@@ -2,9 +2,9 @@
 uid: learn-m365.mcas-siem-integration.1-introduction
 metadata:
   title: Introduction
-  description: Connect security information an event management (SIEM) solutions to Microsoft Cloud App Security
-  ms.date: 02/10/2021
-  author: geoffallix
+  description: Connect security information an event management (SIEM) solutions to Microsoft Defender for Cloud Apps
+  ms.date: 11/03/2021
+  author: beccarobins
   ms.author: beccarobins
   ms.topic: interactive-tutorial
   ms.prod: learning-m365

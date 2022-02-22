@@ -6,7 +6,7 @@ metadata:
   title: Knowledge check 
   description: Check your knowledge of the module content.
   ms.date: 07/19/2021
-  author: iankensey
+  author: beccarobins
   ms.author: beccarobins
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
@@ -16,7 +16,7 @@ quiz:
   questions:
   - content: "Where can you find Power BI sample reports?"
     choices:
-    - content: "Microsoft 365 Security Center portal"
+    - content: "Microsoft 365 Defender portal portal"
       isCorrect: false
       explanation: "That's incorrect. You can't find Power BI sample reports in this portal."
     - content: "GitHub"

@@ -39,7 +39,7 @@ This following table is an example, which you can follow in order to create your
 
 1. Sign in to **Teams admin center**.
 
-2. Select **Locations** > **Reporting labels**.
+2. Select **Analytics & reports** > **Reporting labels**.
 
 3. On the **Reporting labels** page, select **Upload**.
 
@@ -49,4 +49,4 @@ This following table is an example, which you can follow in order to create your
 
 Once the file is uploaded successfully, you can see the update in the locations summary pane.
 
-:::image type="content" source="../media/configure-reporting-labels.png" alt-text="Configuration of reporting labels" lightbox="../media/configure-reporting-labels.png":::
+:::image type="content" source="../media/configure-reporting-labels.png" alt-text="Configuration of reporting labels" :::

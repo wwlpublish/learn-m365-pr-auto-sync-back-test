@@ -4,13 +4,12 @@ title: Create and manage configuration profiles
 metadata:
   title: Create and manage configuration profiles
   description: "Create and manage configuration profiles"
-  ms.date: 09/14/2021
+  ms.date: 11/18/2021
   author: wwlpublish
   ms.author: jennyche
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
-sandbox: false
 labModal: false
 durationInMinutes: 5
 content: |

@@ -1,12 +1,12 @@
 ### YamlMime:ModuleUnit
 uid: learn-m365.sci-asc.gain-insights
-title: Gain insights about your security with the Azure Security Center dashboard
+title: Gain insights about your security with the workload protection dashboard
 metadata:
-  title: Gain insights about your security with the Azure Security Center dashboard
-  description: Learn how the Azure Security Center dashboard can give you a detailed understanding of the security of your environment.
-  ms.date: 07/15/2021
+  title: Gain insights about your security with the workload protection dashboard
+  description: Learn how the workload protection dashboard can give you a detailed understanding of the security of your environment.
+  ms.date: 11/03/2021
   ms.author: beccarobins
-  author: iankensey
+  author: beccarobins
   ms.topic: interactive-tutorial
   ms.prod: learning-teams
 durationInMinutes: 3

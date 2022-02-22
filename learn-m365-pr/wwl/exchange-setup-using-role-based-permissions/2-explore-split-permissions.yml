@@ -1,0 +1,31 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.exchange-setup-using-role-based-permissions.explore-split-permissions
+title: Explore the use of split permissions
+metadata:
+  title: Explore the use of split permissions
+  description: "Explore the use of split permissions"
+  ms.date: 12/10/2021
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+sandbox: false
+labModal: false
+durationInMinutes: 5
+content: |
+  [!include[](includes/2-explore-split-permissions.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "What's the highest level of split permissions?"
+    choices:
+    - content: "The separation of Exchange management and Compliance management"
+      isCorrect: false
+      explanation: "That's incorrect. This item is the highest level of split permissions. Try again."
+    - content: "The separation of Active Directory management and Azure Active Directory management"
+      isCorrect: false
+      explanation: "That's incorrect. This item is the highest level of split permissions. Try again."
+    - content: "The separation of Exchange management and Active Directory management"
+      isCorrect: true
+      explanation: "That's correct. The highest level of split permissions is the separation of Exchange management and Active Directory management."

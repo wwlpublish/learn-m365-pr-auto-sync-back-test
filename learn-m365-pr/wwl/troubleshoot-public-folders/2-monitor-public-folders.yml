@@ -1,0 +1,30 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.troubleshoot-public-folders.monitor-public-folders
+title: Monitor public folders
+metadata:
+  title: Monitor public folders
+  description: "Monitor public folders"
+  ms.date: 11/25/2021
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 7
+content: |
+  [!include[](includes/2-monitor-public-folders.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "As the Messaging administrator for Fabrikam, Holly Spencer wants to monitor the company's public folders. Of particular interest to Holly is the event-level information about each public folder mailbox. This information will enable Holly to troubleshoot item access issues such as whether an item in a public folder isn't shown to every user. Which of the following cmdlets will provide this information?"
+    choices:
+    - content: "Get-PublicFolderItemStatistics"
+      isCorrect: false
+      explanation: "This answer is incorrect. This cmdlet displays information about items within a specified public folder. The information includes the subject, last modification time, last access time, creation time, attachments, message size, and type of item. This cmdlet enables you to identify large public folder items. Try again."
+    - content: "Get-PublicFolderStatistics"
+      isCorrect: false
+      explanation: "This answer is incorrect. This cmdlet displays statistical information about all public folders, such as folder size and last sign-in time. This information enables you to identify the largest public folders and monitor their growth rate. Try again."
+    - content: "Get-PublicFolderMailboxDiagnostics"
+      isCorrect: true
+      explanation: "This answer is correct. This cmdlet displays event-level information about a public folder mailbox. This information can be used to troubleshoot public folder hierarchy synchronization or item access issues such as whether an item in a public folder isn't shown to every user."

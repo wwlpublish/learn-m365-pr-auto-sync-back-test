@@ -121,7 +121,7 @@ Update properties with the following values:
 - `YOUR_TENANT_ID_HERE`: Azure AD directory ID
 - `YOUR_APP_ID_HERE`: Azure AD client ID
 
-#### Create helper class
+### Create helper class
 
 Create a new folder **Helpers** in the project.
 
@@ -470,7 +470,7 @@ Run the following command to run the console application:
 dotnet run
 ```
 
-After entering the username and password of a user, you'll see the results of all users in the organization written to the console.
+After entering the username and password of a user, you'll see a message than an email was sent.
 
 ![Screenshot of the console application confirming the email was sent](../media/05-send-mail-test-01.png)
 
@@ -504,7 +504,7 @@ npm init -y
 Install the required dependencies for the project by running the following command. This will install packages used to run project:
 
 ```console
-npm install adaptivecards-templating adaptive-expressions axios base64url body-parser debug dotenv express jsonwebtoken morgan rsa-pem-from-mod-exp typescript -S
+npm install adaptivecards adaptivecards-templating adaptive-expressions axios base64url body-parser debug dotenv express json-schema jsonwebtoken morgan rsa-pem-from-mod-exp typescript -S
 ```
 
 Install the following packages used during development of the project by running the following command.

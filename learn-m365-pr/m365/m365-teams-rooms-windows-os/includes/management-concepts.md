@@ -20,10 +20,10 @@ Create dedicated:
 - Active Directory organizational units (OU) for the accounts and Teams Rooms devices.
 - Active Directory/Azure AD security groups for accounts and Teams Rooms devices.
 - Intune device configuration policies.
-- Conditional access policies.
+- Conditional Access policies.
 
 Block inheritance on Active Directory OUs for Teams Rooms accounts and devices. Exclude from:
 
-- Conditional access policies.
+- Conditional Access policies.
 - Mobile device management (MDM) configuration policies.
 - Multifactor authentication policies.

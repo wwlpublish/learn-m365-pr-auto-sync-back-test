@@ -5,7 +5,7 @@ metadata:
   title: Summary and knowledge check
   description: Learn how Microsoft 365 information protection and governance solutions help you protect and govern your data, throughout its lifecycle – wherever it lives, or wherever it travels. 
   ms.date: 07/19/2021
-  author: ericweisberg
+  author: beccarobins
   ms.author: beccarobins
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
@@ -32,7 +32,7 @@ quiz:
       choices:
       - content: "Automation at scale"
         isCorrect: true
-        explanation: "Automation is scale is all about controlling that data explosion we have been talking about and it’s about scaling and automating."
+        explanation: "Automation at scale is all about controlling that data explosion we have been talking about and it’s about scaling and automating."
       - content: "Streamlined administration "
         isCorrect: false
         explanation: "Managing a set of governance policies in SharePoint, another set in Exchange, and then another for each of your line of business systems is not productive and can be redundant. Microsoft centralized the administration of policies in the Microsoft 365 compliance center and added native connectors to let you incorporate data outside Microsoft 365 to be governed by one set of policies."

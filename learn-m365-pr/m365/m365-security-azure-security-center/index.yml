@@ -1,24 +1,24 @@
 ### YamlMime:Module
 uid: learn-m365.sci-asc
 metadata:
-  title: Improve your cloud security posture with Azure Security Center
-  description: Learn how you can strengthen your security posture through Azure Security Center.
-  ms.date: 07/15/2021
-  author: iankensey
+  title: Improve your cloud security posture with Microsoft Defender for Cloud
+  description: Learn how you can strengthen your security posture through Microsoft Defender for Cloud.
+  ms.date: 11/03/2021
+  author: beccarobins
   ms.author: beccarobins
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-title: Improve your cloud security posture with Azure Security Center
-summary: Learn how you can strengthen your security posture through Azure Security Center.
+title: Improve your cloud security posture with Microsoft Defender for Cloud
+summary: Learn how you can strengthen your security posture through Microsoft Defender for Cloud.
 abstract: |
   At the end of this module, you should be able to:
-  - Understand how Azure Security Center can help organizations keep ahead of their security and compliance needs.
+  - Understand how Microsoft Defender for Cloud can help organizations keep ahead of their security and compliance needs.
   - Explore Cloud Security Posture Management and the services and features available in Azure.
   - Understand how to use Cloud Workload Protection to protect VMs and Servers, Containers, IoT, Data and Storage.
-  - Improve Azure security using Azure Sentinel.
+  - Improve Azure security using Microsoft Sentinel.
 prerequisites: | 
   - Familiarity with Azure administration and security.
-  - Basic familiarity with Azure services, particularly Azure Security Center.
+  - Basic familiarity with Azure services, particularly Microsoft Defender for Cloud.
   - Familiarity with Azure virtual machines and virtual networking.
 iconUrl: /learn/achievements/azure-security-center-cloud-posture.svg
 levels:

@@ -14,7 +14,7 @@ By using a combination of Microsoft 365 services alongside SharePoint—dependin
 
 ## Enable self-service
 
-While you can choose an IT-focused model where users must request sites and provide a business justification, we recommend allowing users to create Microsoft Teams, Microsoft 365 Groups, and SharePoint sites as needed. You can use Data Loss Prevention and Cloud App Security to help protect your content while using expiration and renewal policies to make sure unused sites don't accumulate.
+While you can choose an IT-focused model where users must request sites and provide a business justification, we recommend allowing users to create Microsoft Teams, Microsoft 365 Groups, and SharePoint sites as needed. You can use Data Loss Prevention and Defender for Cloud Apps to help protect your content while using expiration and renewal policies to make sure unused sites don't accumulate.
 
 By choosing options that favor user self-service, you can minimize the impact on your IT staff while creating an easier experience for your users.
 
@@ -30,7 +30,7 @@ Microsoft 365 provides a variety of tools that you can use with SharePoint to cr
 - **Classify and protect information.** Data loss prevention in Microsoft 365 provides a way to classify your sites and documents, and to create a series of conditions, actions, and exceptions to govern how they're used and shared.
 - **Manage devices.** Use device management to ensure your organization's information is accessed only from compliant devices and apps that you trust.
 - **Review users.** Use Azure Active Directory access reviews to automate a periodic review of group and team ownership and membership.
-- **Manage risk.** Use Microsoft Cloud App Security to monitor activity that you consider to be risky for your organization's data.
+- **Manage risk.** Use Microsoft Defender for Cloud Apps to monitor activity that you consider to be risky for your organization's data.
 - **Protect against malware.** Use Microsoft Defender for Office 365 to protect against users uploading malicious files to SharePoint or Teams.
 - **Monitor information.** Use reports to ensure your governance requirements are met and sensitive information is being kept secure.
 

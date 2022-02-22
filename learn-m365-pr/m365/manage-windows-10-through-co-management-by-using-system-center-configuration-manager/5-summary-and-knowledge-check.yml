@@ -5,7 +5,7 @@ metadata:
   title: Summary and knowledge check
   description: Summary and knowledge check
   ms.date: 06/18/2021
-  author: dahans-msft2
+  author: temanteleary
   ms.author: teleary
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
@@ -15,7 +15,7 @@ content: |
 quiz:
     title: Check your knowledge
     questions:
-    - content: "What is the configuration when you manage devices with Microsoft System Center Configuration Manager and enroll to a third-party MDM service?"
+    - content: "What is the configuration called when you manage devices with Microsoft Endpoint Configuration Manager and enroll in a third-party MDM service?"
       choices:
       - content: "Co-management"
         isCorrect: false
@@ -29,7 +29,7 @@ quiz:
       - content: "Coexistence"
         isCorrect: true
         explanation: "Correct!"
-    - content: "Which of the following statements best describes how Microsoft 365 workloads must be switched over to co-management if you decide to implement it?"
+    - content: "Which of the following statements best describes how Microsoft 365 workloads must be switched over to co-management, if you decide to implement it?"
       choices:
       - content: "All Intune workloads must be switched over first."
         isCorrect: false
@@ -43,7 +43,7 @@ quiz:
       - content: "All unsupported Configuration Manager workloads must be switched over."
         isCorrect: false
         explanation: "Incorrect."
-    - content: "Which path to co-management is described by having new Windows 10 devices that join Azure AD and auto-enroll to Intune but you install Configuration Manager to reach co-management?"
+    - content: "You have some new Windows 10 devices. You have added them to Azure AD and automatically enrolled them in Intune. Which path to co-management is this process?"
       choices:
       - content: "Bootstrap existing clients"
         isCorrect: false
@@ -57,17 +57,14 @@ quiz:
       - content: "Bootstrap with modern provisioning"
         isCorrect: true
         explanation: "Correct!"
-    - content: "Which of the following actions is an available remote action from Intune once co-management is enabled in System Center Configuration Manager?"
+    - content: "Which of the following actions is an available remote action from Intune once co-management is enabled in Microsoft Endpoint Configuration Manager?"
       choices:
       - content: "Remote device flushes"
         isCorrect: false
         explanation: "Incorrect."
-      - content: "Remote device wipes"
+      - content: "Selective wipe"
         isCorrect: true
         explanation: "Correct!"
-      - content: "Remote device selective activate"
-        isCorrect: false
-        explanation: "Incorrect."
-      - content: "Remote device reboots"
+      - content: "Selective activate"
         isCorrect: false
         explanation: "Incorrect."

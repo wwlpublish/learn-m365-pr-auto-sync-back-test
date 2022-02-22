@@ -3,8 +3,8 @@ uid: learn-m365.m365-onedrive-collaboration-manage-migrations-deployment
 metadata:
   title: Manage OneDrive migrations and deployment 
   description:  Learn the different options for migration and how you can ensure you choose the best route for your organization.
-  ms.date: 07/21/2021
-  author: ericweisberg
+  ms.date: 10/20/2021
+  author: temanteleary
   ms.author: teleary
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
@@ -32,6 +32,7 @@ roles:
 products:
 - m365
 - office-365
+- office-onedrive
 units:
 - learn-m365.m365-onedrive-collaboration-manage-migrations-deployment.introduction-onedrive-deployment
 - learn-m365.m365-onedrive-collaboration-manage-migrations-deployment.configure-device-management

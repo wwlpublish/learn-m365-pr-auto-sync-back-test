@@ -5,7 +5,7 @@ metadata:
   title: Summary and knowledge check
   description: Test your understanding of the concepts presented in this module. 
   ms.date: 10/16/2019
-  author: puffinanda
+  author: beccarobins
   ms.author: beccarobins
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
@@ -19,43 +19,44 @@ quiz:
       choices:
       - content: "Automatic"
         isCorrect: false
-        explanation: "With automatic, documents are automatically classified, labeled, and protected according to the data they contain."
+        explanation: "Incorrect. With automatic, documents are automatically classified, labeled, and protected according to the data they contain."
       - content: "Required"
         isCorrect: true
         explanation: "Correct. Required is not a user classification experience."
       - content: "Recommended"
         isCorrect: false
-        explanation: "With recommended, documents are automatically classified and labeled according to the data they contain, but the user can change the classification."
+        explanation: "Incorrect. With recommended, documents are automatically classified and labeled according to the data they contain, but the user can change the classification."
       - content: "Reclassification"
         isCorrect: false
-        explanation: "Reclassification allows the end user to reclassify the data or remove the label."
+        explanation: "Incorrect. Reclassification allows the end user to reclassify the data or remove the label."
 
-    - content: "Which of the following is the optimal end-user classification experience for highly regulated and sensitive financial documents that must be classified as confidential?"
+    - content: "Which classification experience allows the end user to provide a justification for reclassifying the data or removing the label?"
       choices:
       - content: "Automatic"
-        isCorrect: true
-        explanation: "Correct. With automatic, the documents are automatically classified, labeled, and protected without allowing the end user to reclassify."
+        isCorrect: false
+        explanation: "Incorrect. With automatic, the documents are automatically classified, labeled, and protected **without** allowing the end user to reclassify."
       - content: "User-set"
         isCorrect: false
-        explanation: "User-set would allow the end user to classify the document manually to a level other than classified."
+        explanation: "Incorrect. User-set would allow the end user to classify the document manually to a level other than classified."
       - content: "Recommended"
-        isCorrect: false
-        explanation: "With recommended, the end user could change the document to a level other than classified."
+        isCorrect: true
+        explanation: "Correct. Recommended allows the end user to change the document to a level other than classified or remove the label."
       - content: "Reclassification"
         isCorrect: false
-        explanation: "Reclassification would allow the end user to reclassify the data, or worse remove the label."
+        explanation: "Incorrect. Reclassification would allow the end user to reclassify the data, or worse remove the label."
+        
       
     - content: "Which department should you first work with to identify data protection standards, regulations, and requirements?"
       choices:
       - content: "IT"
         isCorrect: false
-        explanation: "IT should work with the surrounding departments to understand business requirements and regulations before defining IT-led classifications."
+        explanation: "Incorrect. IT should work with the surrounding departments to understand business requirements and regulations before defining IT-led classifications."
       - content: "Human Resources (HR)"
         isCorrect: false
-        explanation: "Although HR may have its own standards and requirements, this is not the first place to start."
+        explanation: "Incorrect. Although HR may have its own standards and requirements, this is not the first place to start."
       - content: "Information protection steering committee"
         isCorrect: false
-        explanation: "A steering committee or champion team is a great solution to drive data protection, but you should consult them to help create labels and standards across all departments."
+        explanation: "Incorrect. A steering committee or champion team is a great solution to drive data protection, but you should consult them to help create labels and standards across all departments."
       - content: "Legal"
         isCorrect: true
         explanation: "Correct. The legal department typically has worked through your organization’s data sensitivity and protection regulations. Partnering with the legal department helps IT scope out the baseline requirements and standards."

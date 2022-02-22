@@ -1,0 +1,30 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.manage-exchange-online-archiving-auditing.plan-implement-place-archiving
+title: Plan and implement in-place archiving
+metadata:
+  title: Plan and implement in-place archiving
+  description: "Plan and implement in-place archiving"
+  ms.date: 01/12/2022
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 8
+content: |
+  [!include[](includes/2-plan-implement-place-archiving.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "As the Messaging administrator for Tailspin Toys, Alan Deyoung wants to move a user's archive mailbox to another mailbox database on the same Mailbox server. What must Alan do to move the user's archive mailbox?"
+    choices:
+    - content: "Create a migration batch and perform a remote mailbox move request"
+      isCorrect: false
+      explanation: "That's incorrect. Remote mailbox move requests using migration batches are used to move mailboxes between an on-premises Exchange deployment and an Exchange Online deployment. Try again."
+    - content: "Create a mailbox move request"
+      isCorrect: true
+      explanation: "That's correct. Alan must create a mailbox move request to move the user's archive mailbox to another mailbox database on the same Mailbox server or to another server, independent of the primary mailbox."
+    - content: "Create a migration endpoint for a local mailbox move"
+      isCorrect: false
+      explanation: "That's incorrect. Migration endpoints are used for cross-forest mailbox moves, but not for local mailbox moves. Try again."

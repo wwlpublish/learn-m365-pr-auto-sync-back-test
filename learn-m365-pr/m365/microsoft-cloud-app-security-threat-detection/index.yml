@@ -1,18 +1,18 @@
 ### YamlMime:Module
 uid: learn-m365.mcas-threat-detection
 metadata:
-  title: Implement threat detection using Microsoft Cloud App Security
-  description: Learn about the threat detection capabilities of Microsoft Cloud App Security.
-  ms.date: 07/15/2021
-  author: geoffallix
+  title: Implement threat detection using Microsoft Defender for Cloud Apps
+  description: Learn about the threat detection capabilities of Microsoft Defender for Cloud Apps.
+  ms.date: 01/13/2022
+  author: beccarobins
   ms.author: beccarobins
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-title: Implement threat detection using Microsoft Cloud App Security
-summary: Learn about the threat detection capabilities of Microsoft Cloud App Security.
+title: Implement threat detection using Microsoft Defender for Cloud Apps
+summary: Learn about the threat detection capabilities of Microsoft Defender for Cloud Apps.
 abstract: | 
   In this module, you will:
-  - Describe Microsoft Cloud App Security threat detection capabilities
+  - Describe Microsoft Defender for Cloud Apps threat detection capabilities
   - Implement User and Entity Behavioral Analytics
   - Discover and manage OAuth applications
 
@@ -27,6 +27,7 @@ roles:
 - administrator
 products:
 - m365-ems-cloud-app-security
+- defender-for-cloud-apps
 units:
 - learn-m365.mcas-threat-detection.1-introduction
 - learn-m365.mcas-threat-detection.2-threat-detection-capabilities

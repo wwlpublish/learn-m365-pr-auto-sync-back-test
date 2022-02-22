@@ -1,23 +1,23 @@
 ### YamlMime:Module
 uid: learn-m365.optimize-wvd
 metadata:
-  title: Optimize Azure Virtual Desktop
-  description: Learn the steps to optimize Azure Virtual Desktop, including how to take advantage of new storage, file management, and automated scaling options.  
-  ms.date: 07/19/2021
-  author: lizap
-  ms.author: elizapo
+  title: Optimize Costs with Azure Virtual Desktops Autoscale
+  description: Learn how to optimize deployment and infrastructure costs using Azure Virtual Desktops native scaling tool Autoscale. Learn how to configure Autoscale so that session host VMs are only running when you need them to be.   
+  ms.date: 02/03/2022
+  author: ndelgado
+  ms.author: nedelgad
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Optimize Azure Virtual Desktop
-summary: Learn the steps to optimize Azure Virtual Desktop, including how to customize a basic environment to take advantage of new storage, file management, and automated scaling options.  
+summary: Learn how to optimize Azure Virtual Desktop, by setting up Autoscale for your host pool.  
 abstract: |
   In this module, you will learn how to:
-  - Create separate roaming profiles for users by using FSLogix
-  - Migrate files and user profiles by using Azure File Sync
-  - Configure automatic scaling of session hosts   
+  - Configure automatic scaling of session hosts with Autoscale
+
 prerequisites: |
-  - Familiarity with server and client management concepts and tools
   - Familiarity with Windows virtualization technologies, like Remote Desktop Services
+  - Familiarity with server and client management concepts and tools 
+  - Azure Active Directory Domain Services is already configured 
   - (Optional) Azure subscription owner or global administrator access to a deployed Azure Virtual Desktop environment
   - (Optional) User credentials for one user accounts in Azure AD
 iconUrl: /learn/achievements/optimize-windows-virtual-desktop.svg
@@ -32,10 +32,8 @@ products:
 - azure-virtual-desktop
 units:
 - learn-m365.optimize-wvd.introduction
-- learn-m365.optimize-wvd.fslogix
-- learn-m365.optimize-wvd.provision-fslogix
-- learn-m365.optimize-wvd.migrate-files
 - learn-m365.optimize-wvd.configure-automation
+- learn-m365.optimize-wvd.create-scale
 - learn-m365.optimize-wvd.knowledge-check
 - learn-m365.optimize-wvd.summary-and-knowledge-check
 badge: 

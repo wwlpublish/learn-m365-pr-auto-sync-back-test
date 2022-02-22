@@ -4,8 +4,8 @@ metadata:
   moduleType: standard
   title: Evaluate Microsoft Defender for Office 365
   description: Understand how to get started by evaluating Microsoft Defender for Office 365.
-  ms.date: 08/12/2021
-  author: iankensey
+  ms.date: 11/24/2021
+  author: beccarobins
   ms.author: beccarobins
   ms.topic: interactive-tutorial 
   ms.prod: learning-m365
@@ -27,6 +27,7 @@ roles:
   - administrator
 products:
 - m365
+- defender-office365
 units:
 - learn-m365-pr.defender-office-365-evaluate.introduction
 - learn-m365-pr.defender-office-365-evaluate.evaluation-mode

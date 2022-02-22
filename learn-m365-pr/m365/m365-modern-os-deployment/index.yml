@@ -3,8 +3,8 @@ uid: learn-m365.modern-os-deployment
 metadata:
   title: Deploy, upgrade, and migrate to Windows 10
   description: Learn about task sequence automation and the option of Windows Autopilot to help automate large scale phased deployments.
-  ms.date: 07/21/2021
-  author: AlexandraHrt
+  ms.date: 11/18/2021
+  author: temanteleary
   ms.author: teleary
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
@@ -25,6 +25,7 @@ roles:
 products:
 - m365
 - windows
+- windows-19044
 units:
 - learn-m365.modern-os-deployment.1-introduction
 - learn-m365.modern-os-deployment.deployment-tools

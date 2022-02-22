@@ -1,0 +1,43 @@
+### YamlMime:Module
+uid: learn-m365.viva-connections-extend-with-adaptive-card-extensions
+metadata:
+  title: Extend Microsoft Viva Connections with Adaptive Card Extensions
+  description: Learn how to extend Viva Connections with custom Adaptive Card Extensions using nothing but your existing web development skills. You'll learn about the scenarios where they're most suitable and how to build them.
+  ms.date: 10/15/2021
+  author: waldekmastykarz
+  ms.author: wmastyka
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Extend Microsoft Viva Connections with Adaptive Card Extensions
+summary: Learn how to extend Viva Connections with custom Adaptive Card Extensions using nothing but your existing web development skills. You'll learn about the scenarios where they're most suitable and how to build them.
+abstract: |
+  By the end of this module, you'll be able to:
+    - Install development tools for building Microsoft Viva Connections extensions.
+    - Extend Microsoft Viva Connections desktop with Adaptive Card Extensions.
+    - Deploy Adaptive Card Extensions to Viva Connections.
+    - Test custom Adaptive Card Extensions in the Viva Connections desktop and mobile experiences.
+
+prerequisites: |
+  - SharePoint Administrator access to a Microsoft 365 tenant
+  - Viva Connections enabled in the Microsoft 365 tenant
+  - Ability to develop JavaScript applications using modern web technologies 
+  - Basic knowledge of TypeScript
+  - Code editor or IDE
+  - Node.js v14
+iconUrl: /learn/achievements/generic-badge.svg
+levels:
+  - beginner
+roles:
+  - developer
+products:
+  - m365
+  - viva-connections
+units:
+- learn-m365.viva-connections-extend-with-adaptive-card-extensions.introduction
+- learn-m365.viva-connections-extend-with-adaptive-card-extensions.exercise-install-development-tools-for-extending-viva-connections
+- learn-m365.viva-connections-extend-with-adaptive-card-extensions.extend-viva-connections-with-adaptive-card-extensions
+- learn-m365.viva-connections-extend-with-adaptive-card-extensions.exercise-extend-viva-connections-with-adaptive-card-extensions
+- learn-m365.viva-connections-extend-with-adaptive-card-extensions.knowledge-check
+- learn-m365.viva-connections-extend-with-adaptive-card-extensions.summary
+badge:
+  uid: learn-m365.viva-connections-extend-with-adaptive-card-extensions.badge

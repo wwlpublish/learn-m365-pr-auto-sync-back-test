@@ -1,0 +1,76 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.upgrade-migrate-windows-clients.knowledge-check
+title: Knowledge check
+metadata:
+  title: Knowledge check
+  description: "Knowledge check"
+  ms.date: 02/10/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+  zone_pivot_groups: azure-interface
+azureSandbox: false
+labModal: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/7-knowledge-check.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "As Contoso's Desktop Administrator, you want to complete an in-place upgrade to upgrade a Windows 8.1 Enterprise device to Windows 11 Enterprise. What steps should you take to complete this upgrade?"
+    choices:
+    - content: "Evaluate, Back up, Upgrade, Verify, Update"
+      isCorrect: true
+      explanation: "Correct. When upgrading from Windows 8.1 to Windows 11 on a single device, performing an in-place upgrade is the easiest way to upgrade Windows. The in-place upgrade process includes the following steps: 1) Evaluate whether the device meets the minimum OS requirements, 2) Back up existing data to a secure location, 3) complete the (in-place) Upgrade, 4) after the upgrade is complete, Verify that all the applications and hardware devices function correctly, and 5) Update the Windows OS with any relevant updates."
+    - content: "Evaluate, Set up, Upgrade, Update, Verify"
+      isCorrect: false
+      explanation: "Incorrect. A different set of steps is recommended to complete the in-place upgrade process from Windows 8.1 to Windows 10 or later. Try again."
+    - content: "Evaluate, Back up, Upgrade, Update, Verify"
+      isCorrect: false
+      explanation: "Incorrect. A different set of steps is recommended to complete the in-place upgrade process from Windows 8.1 to Windows 10 or later. Try again."
+  - content: "Adventure Works Cycles has an older Windows 8.1 device that it wants to replace with a new device running Windows 11. The Desktop Administrator for Adventure Works wants to replace the current device by running a side-by-side migration to its replacement device. The Desktop Admin has completed the first three steps in the migration process. The user data and application settings on the source device were backed up to a network location. The Windows 11 OS was installed, and the most current Windows updates were installed. What's the next step that must be completed in the migration process?"
+    choices:
+    - content: "Restore application and user-related settings on the new device"
+      isCorrect: false
+      explanation: "Incorrect. This task is completed as part of the final step in the migration process. Try again."
+    - content: "Use OneDrive to synchronize user files and settings between devices"
+      isCorrect: false
+      explanation: "Incorrect. This task is completed as part of the final step in the migration process. Try again."
+    - content: "Reinstall all applications"
+      isCorrect: true
+      explanation: "Correct. After the Windows OS and Windows updates have been installed, the next step in the side-by-side migration process is to reinstall all applications. Performing an upgrade by using a clean installation and migration process doesn't migrate the installed applications. When you complete the Windows installation, you must reinstall all applications. Windows may block the installation of any incompatible programs. To install any of these programs, contact the software vendor for an updated version that is compatible with the OS version installed."
+  - content: "What's the recommended way to move from Windows 8.1 to Windows 10?"
+    choices:
+    - content: "In-place upgrade"
+      isCorrect: true
+      explanation: "Correct. The in-place upgrade is the recommended way to move from Windows 8.1 to Windows 10. You perform an in-place upgrade when you want to replace an existing Windows and wish to retain all user applications, files, and settings. Following the in-place upgrade, the Windows installation program retains all user settings, data, hardware device settings, applications, and other configuration information from the previous version of Windows."
+    - content: "In-place upgrade using feature update"
+      isCorrect: false
+      explanation: "Incorrect. This method is recommended if the device has Windows 10 or later. Try again."
+    - content: "Side-by-side migration"
+      isCorrect: false
+      explanation: "Incorrect. In a side-by-side migration, the source computer and the destination computer are two different computers. A side-by-side migration is typically used when the user's device is being replaced. Try again."
+  - content: "Contoso recently purchased a new Windows 11 device that came with the Windows Pro edition installed. Since Contoso uses the Windows Enterprise edition on all its devices, it must change the Windows edition on the new machine from Pro to Enterprise. How can Contoso complete this edition upgrade?"
+    choices:
+    - content: "Manually enter a product key for Windows Enterprise"
+      isCorrect: false
+      explanation: "Incorrect. You can't manually enter a product key to upgrade from Windows Pro to Enterprise. Try again."
+    - content: "Use a provisioning package"
+      isCorrect: true
+      explanation: "Correct. There are several supported methods of upgrading from Windows Pro to Enterprise, including: using a provisioning package, using an MDM solution, using a command line tool (changepk.exe), and using Microsoft Store for Business or PC."
+    - content: "Purchase a Windows Enterprise license from the Microsoft Store"
+      isCorrect: false
+      explanation: "Incorrect. You can't purchase a Windows Enterprise license from the Microsoft Store to upgrade from Windows Pro to Enterprise. Try again."
+  - content: "What's the default browser in Windows 10 and Windows 11?"
+    choices:
+    - content: "Internet Explorer"
+      isCorrect: false
+      explanation: "Incorrect. Internet Explorer is a deprecated feature that's no longer part of Windows 10 or 11. Try again."
+    - content: "Microsoft Edge"
+      isCorrect: false
+      explanation: "Incorrect. Microsoft Edge is a deprecated feature that's no longer being developed. Try again."
+    - content: "Microsoft Edge Chromium"
+      isCorrect: true
+      explanation: "Correct. Microsoft Edge Chromium is the default browser for Windows 10 or later. The legacy version of Microsoft Edge (non-Chromium) is no longer being developed. Chromium is a free and open-source web browser project. Microsoft Edge and many other browsers are based on the Chromium codebase."
+interactive: bash

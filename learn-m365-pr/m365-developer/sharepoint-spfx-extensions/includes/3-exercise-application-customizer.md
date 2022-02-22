@@ -1,7 +1,7 @@
 In this exercise, you'll create a SharePoint Framework (SPFx) application customizer extension.
 
 > [!IMPORTANT]
-> The instructions below assume you are using v1.12.1 of the SharePoint Framework Yeoman generator.
+> The instructions below assume you are using v1.13.0 of the SharePoint Framework Yeoman generator.
 
 Open a command prompt and change to the folder where you want to create the project.
 
@@ -14,7 +14,7 @@ yo @microsoft/sharepoint
 Use the following to complete the prompt that is displayed (*if additional options are presented, accept the default answer)*:
 
 - **What is your solution name?**: SPFxAppCustomizer
-- **Which baseline packages do you want to target for your component(s)?**: SharePoint Online only (latest)
+- **Only SharePoint Online (latest) is supported. For earlier versions of SharePoint (2016 and 2019) please use the 1.4.1 version of the generator.**: SharePoint Online only (latest)
 - **Where do you want to place the files?**: Use the current folder
 - **Do you want to allow the tenant admin the choice of being able to deploy the solution to all sites immediately without running any feature deployment or adding apps in sites?**: Yes
 - **Will the components in the solution require permissions to access web APIs that are unique and not shared with other components in the tenant?**: No
@@ -25,7 +25,7 @@ Use the following to complete the prompt that is displayed (*if additional optio
 
 After provisioning the folders required for the project, the generator will install all the dependency packages by running `npm install` automatically. When NPM completes downloading all dependencies, test the default project provisioned by the generator.
 
-Unlike web parts, which can be tested in the local or hosted workbench, extensions must be tested in a modern SharePoint page. Special query string parameters are included with the request to indicate that the extension should be loaded from the local development web server.
+Unlike web parts, which can be tested in the hosted workbench, extensions must be tested in a modern SharePoint page. Special query string parameters are included with the request to indicate that the extension should be loaded from the local development web server.
 
 To test the extension, you need to modify the **serve.json** configuration file. Start by obtaining the URL of a modern page in a live SharePoint environment.
 
@@ -46,7 +46,11 @@ Select the **Load debug scripts** button.
 
 ![Screenshot of Allow debug scripts dialog](../media/app-customizer-load-debug-scripts.png)
 
-Once the scripts load, a SharePoint alert dialog will be shown:
+If you see this warning, switch back to the command prompt, wait for the **reload** subtask to finish executing, and then refresh the page: 
+
+![Screenshot of the load manifest warning](../media/load-manifest-warning.png)
+
+Once the page loads, a SharePoint alert dialog will be shown:
 
 ![Screenshot of SharePoint Alert dialog](../media/03-app-customizer-test.png)
 
@@ -56,7 +60,7 @@ This alert dialog is shown by the application customizer. Open the application c
 Dialog.alert(`Hello from ${strings.Title}:\n\n${message}`);
 ```
 
-Stop the local web server by pressing <kbd>CTRL</kbd>+<kbd>C</kbd> in the console/terminal window.
+Stop the local web server by pressing <kbd>CTRL</kbd>+<kbd>C</kbd> in the command prompt.
 
 ## Update application customizer to add placeholders to the page
 
@@ -274,11 +278,11 @@ gulp serve
 
 When prompted, select the **Load debug scripts** button.
 
-Notice when the page loads, the text defined in the public properties is displayed in the header and footer of the page:
+Notice when the page loads, the text defined in the public properties is displayed in the header and footer of the page. If the header and footer do not show on the page, switch back to the command prompt, wait for the **reload** subtask to finish executing, and then refresh. 
 
 ![Screenshot displaying the application customizer placeholders](../media/03-application-customizer-test-placeholders.png)
 
-Stop the local web server by pressing <kbd>CTRL</kbd>+<kbd>C</kbd> in the console/terminal window.
+Stop the local web server by pressing <kbd>CTRL</kbd>+<kbd>C</kbd> in the command prompt.
 
 ## Deploy the Application Customizer to all Sites in the SharePoint Online Tenant
 

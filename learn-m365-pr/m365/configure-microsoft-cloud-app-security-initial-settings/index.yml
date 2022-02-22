@@ -1,15 +1,15 @@
 ### YamlMime:Module
 uid: learn-m365.configure-microsoft-cloud-app-security-initial-settings
 metadata:
-  title: Configure Microsoft Cloud App Security initial settings
-  description: Learn to configure the initial Microsoft Cloud App Security settings, such as IP addresses, user groups, admin roles, and Managed Security Service Provider access.
-  ms.date: 07/20/2021
-  author: geoffallix
+  title: Configure Microsoft Defender for Cloud Apps initial settings
+  description: Learn to configure the initial Microsoft Defender for Cloud Apps settings, such as IP addresses, user groups, admin roles, and Managed Security Service Provider access.
+  ms.date: 11/29/2021
+  author: beccarobins
   ms.author: beccarobins
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-title: Configure Microsoft Cloud App Security initial settings
-summary: Learn to configure the initial Microsoft Cloud App Security settings, such as IP addresses, user groups, admin roles, and Managed Security Service Provider access.
+title: Configure Microsoft Defender for Cloud Apps initial settings
+summary: Learn to configure the initial Microsoft Defender for Cloud Apps settings, such as IP addresses, user groups, admin roles, and Managed Security Service Provider access.
 abstract: | 
   In this module, you will:
   - Configure IP addresses
@@ -25,6 +25,7 @@ roles:
 - administrator
 products:
 - m365-ems-cloud-app-security
+- defender-for-cloud-apps
 units:
 - learn-m365.configure-microsoft-cloud-app-security-initial-settings.1-introduction
 - learn-m365.configure-microsoft-cloud-app-security-initial-settings.2-configure-ip-address-ranges

@@ -2,16 +2,16 @@
 uid: learn-m365-pr.m365-manage-education-devices
 metadata:
   title: Manage your education devices with Microsoft 365
-  description: Manage your education devices introduces you to the features and capabilities of device management using Microsoft 365.  
-  ms.date: 02/15/2021
-  author: iankensey
+  description: This learning path introduces you to the features and capabilities of device management using Microsoft 365.  
+  ms.date: 10/05/2021
+  author: temanteleary
   ms.author: teleary
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Manage your education devices with Microsoft 365
 summary: "The **Manage your education devices with Microsoft 365** learning path introduces you to the cloud-connected deployment and management tools available for educators. These tools make it easy to get started using modern device management in your school or organization."
 prerequisites: |
-  - Familiarity with Windows 10 and Microsoft 365 Apps
+  - Familiarity with Windows devices and Microsoft 365 Apps
 iconUrl: /learn/achievements/manage-team-collaboration-with-microsoft-teams.svg
 levels: 
 - beginner

@@ -1,0 +1,30 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.explore-messaging-compliance-microsoft-365.examine-message-policy-compliance
+title: Examine message policy and compliance
+metadata:
+  title: Examine message policy and compliance
+  description: "Examine message policy and compliance"
+  ms.date: 01/12/2022
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 6
+content: |
+  [!include[](includes/2-examine-message-policy-compliance.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "As the Messaging administrator for Lucerne Publishing, Patti Fernandez wants to regain control of the organization's messaging data by eliminating the need for personal store (.pst) files. Which messaging compliance feature in Exchange Online should Patti configure to provide this functionality?"
+    choices:
+    - content: "eDiscovery"
+      isCorrect: false
+      explanation: "That's incorrect. eDiscovery allows you to search mailbox data across your Exchange organization and create eDiscovery cases to organize compliance relevant search operations. Try again."
+    - content: "In-place archiving"
+      isCorrect: true
+      explanation: "That's correct. In-place archiving helps you regain control of your organization's messaging data by eliminating the need for personal store (.pst) files and allowing users to store messages in an archive mailbox accessible in Outlook and Outlook on the web."
+    - content: "Retention policies"
+      isCorrect: false
+      explanation: "That's incorrect. Retention policies enable you to keep or delete mailbox content based on policies to follow regulatory and legal rules. Try again."

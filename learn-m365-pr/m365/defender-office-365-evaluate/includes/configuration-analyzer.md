@@ -27,7 +27,7 @@ You access the configuration analyzer through the Microsoft 365 Defender portal.
 1. In the **Policies & rules** page, select **Threat policies**
 1. Then in the **Threat policies** page, select **Configuration analyzer**.
 
-:::image type="content" source="../media/3-select-configuration-analyzer.png" alt-text="Navigate to configuration analyzer" lightbox="../media/3-select-configuration-analyzer.png":::
+:::image type="content" source="../media/configuration-analyzer-settings-and-recommendations-view.png" alt-text="Navigate to configuration analyzer." lightbox="../media/configuration-analyzer-settings-and-recommendations-view.png":::
 
 The configuration analyzer has two main modes of operation:
 
@@ -40,7 +40,7 @@ In this mode, you pick standard or strict and compare those settings to your exi
 
 By default, configuration analyzer opens with a view of the comparison to the Standard protection profile.
 
-:::image type="content" source="../media/3-setting-and-recommendations-tab.png" alt-text="Settings and recommendations tab in configuration analyzer" lightbox="../media/3-setting-and-recommendations-tab.png":::
+:::image type="content" source="../media/configuration-analyzer-settings-and-recommendations-view.png" alt-text="Settings and recommendations tab in configuration analyzer." lightbox="../media/configuration-analyzer-settings-and-recommendations-view.png":::
 
 You can switch to the comparison of the Strict protection profile by clicking **View Strict recommendations**. To switch back, select **View Standard recommendations**.
 
@@ -73,7 +73,7 @@ If there are any recommendations for improvement, the settings that require atte
 
 ### Configuration drift analysis and history tab in the configuration analyzer
 
-:::image type="content" source="../media/3-configuration-drift-analysis.png" alt-text="Configuration drift analysis and history tab" lightbox="../media/3-configuration-drift-analysis.png":::
+:::image type="content" source="../media/configuration-analyzer-configuration-drift-analysis-view.png" alt-text="Configuration drift analysis and history tab." lightbox="../media/configuration-analyzer-configuration-drift-analysis-view.png":::
 
 This tab allows you to track the changes that you've made to your custom security policies. By default, the following information is displayed:
 

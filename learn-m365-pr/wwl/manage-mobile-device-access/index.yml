@@ -1,0 +1,39 @@
+### YamlMime:Module
+uid: learn.wwl.manage-mobile-device-access
+metadata:
+  title: Manage mobile device access
+  description: "Manage mobile device access"
+  ms.date: 01/13/2022
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Manage mobile device access
+summary: Examines how to manage and troubleshoot mobile device access, how to  configure both access and infrastructure for mobile devices, the implications of mobile device remote wipe, and alternative methods for mobile device management.
+abstract: |
+  By the end of this module, you'll be able to:
+  - Configure access for mobile devices.
+  - Identify the components of mobile device infrastructure.
+  - Describe how a mobile device remote wipe works.
+  - Describe alternatives for mobile device management.
+  - Troubleshoot mobile device access.
+prerequisites: ""
+iconUrl: /learn/achievements/mobile-device-manage-access.svg
+levels:
+- intermediate
+roles:
+- administrator
+products:
+- azure-active-directory
+- m365
+units:
+- learn.wwl.manage-mobile-device-access.introduction
+- learn.wwl.manage-mobile-device-access.configure-access-mobile-devices
+- learn.wwl.manage-mobile-device-access.configure-infrastructure-mobile-devices
+- learn.wwl.manage-mobile-device-access.protect-company-data-using-remote-wipe
+- learn.wwl.manage-mobile-device-access.examine-alternatives-management
+- learn.wwl.manage-mobile-device-access.troubleshoot
+- learn.wwl.manage-mobile-device-access.knowledge-check
+- learn.wwl.manage-mobile-device-access.summary
+badge:
+  uid: learn.wwl.manage-mobile-device-access.badge

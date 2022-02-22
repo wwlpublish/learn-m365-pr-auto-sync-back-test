@@ -3,17 +3,17 @@ uid: learn-m365.workplace-analytics-teams-insights.knowledge-check
 title: Knowledge check
 metadata:
   title: Knowledge check
-  description: Learn how to prepare and generate useful data using the Workplace Analytics Power BI Microsoft Teams insights dashboard.  Analyze Microsoft Teams adoption trends from the populated reports.
-  ms.date: 11/17/2020
-  author: AlexandraHrt
-  ms.author: elizapo
+  description: Check your knowledge about using the Microsoft Teams insights dashboard in Power BI through Workplace Analytics and Viva Insights. Analyze Microsoft Teams adoption trends from the populated reports.
+  ms.date: 01/21/2022
+  author: madehmer
+  ms.author: helayne
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 durationInMinutes: 5
 quiz:
     title: Check your knowledge
     questions:
-    - content: "To prepare the Workplace Analytics Power BI Teams insights dashboard, which pre-defined queries do you need to run?"
+    - content: "To prepare the Teams insights dashboard in Power BI, which predefined queries do you need to run?"
       choices:
       - content: "Standard person query and Microsoft Teams insights query"
         isCorrect: false
@@ -28,7 +28,7 @@ quiz:
         isCorrect: false
         explanation: "Sorry, incorrect. Microsoft Teams insights and Influence insights queries are the two needed for this dashboard."
 
-    - content: "Which of the following reports are **NOT** presented in the Workplace Analytics Power BI Teams insights dashboard? "
+    - content: "Which of the following reports are **NOT** presented in the Teams insights dashboard in Power BI? "
       choices:
       - content: "What does adoption look like so far?"
         isCorrect: false
@@ -45,16 +45,16 @@ quiz:
       
     - content: "Which three opportunity areas for meaningful change are presented in the Teams insights dashboard?"
       choices:
-      - content: "Protect wellbeing, Drive adoption with influencers, and Reduce adhoc calls"
+      - content: "Protect wellbeing, Drive adoption with influencers, and Reduce unschedule calls"
         isCorrect: false
-        explanation: "That's incorrect. Reduce ad-hoc calls isn't one of the opportunity areas."
+        explanation: "That's incorrect. Reduce unscheduled calls isn't one of the opportunity areas."
       - content: "Increase channel and IM use to speed up communication, Protect wellbeing, and Drive adoption with influencers"
         isCorrect: true
         explanation: "That's correct. Increase channel and IM use to speed up communication, Protect wellbeing, and Drive adoption with influencers are all opportunity areas in this dashboard."
       - content: "Drive adoption with influencers, Reduce email hours, and Protect wellbeing"
         isCorrect: false
         explanation: "Sorry, that's incorrect. Reduce email hours isn't one of the opportunity areas. However, a reduction in email hours could occur with increased Teams channel and IM use."
-      - content: "Manage documents in Teams, Protect wellbeing, Drive adoption with influencers"
+      - content: "Manage documents in Teams, Protect wellbeing, and Drive adoption with influencers"
         isCorrect: false
         explanation: "Sorry, that's incorrect. Manage documents in Teams isn't one of the opportunity areas."
       

@@ -1,8 +1,7 @@
 ﻿Depending on your organization's needs and requirements, Windows Autopilot supports a growing list of common scenarios that make transitioning to modern management a smooth process.
 
-|||
-| :--- | :--- |
-| ![Icon indicating play video](../media/video-icon.png)| Watch this video to learn more about the various scenarios that are supported by Windows Autopilot.|
+
+:::image type="content" source="../media/video-icon.png" alt-text="Icon indicating play video." border="false":::| Watch this video to learn more about the various scenarios that are supported by Windows Autopilot.
 
 >[!VIDEO https://www.youtube.com/embed/7t7xaV8sm50]
 
@@ -36,9 +35,9 @@ The Windows Autopilot Reset process automatically retains information from the e
 
 Windows Autopilot Resets can be triggered locally or remotely by IT staff.
 
-## White glove deployments using Windows Autopilot
+## Pre-provisioned deployment using Windows Autopilot
 
-White glove deployments are for devices that will be configured by the OEM or member of the IT organization before deployment. In scenarios where bandwidth is a concern during deployment or complex configurations are needed, IT can pre-install applications and configurations before final delivery. The end user only needs to personalize their settings, policies, and account information before using their device.
+Pre-provisioned deployment is for devices that will be configured by the OEM or member of the IT organization before deployment. In scenarios where bandwidth is a concern during deployment or complex configurations are needed, IT can pre-install applications and configurations before final delivery. The end user only needs to personalize their settings, policies, and account information before using their device.
 
 ## Deploy Windows 10 on existing Windows 7 or 8.1 devices
 

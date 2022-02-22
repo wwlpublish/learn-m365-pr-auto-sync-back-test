@@ -5,7 +5,7 @@ metadata:
   title: Summary and knowledge check
   description: Learn how information protection helps organizations protect data to prevent data loss or theft. 
   ms.date: 10/16/2019
-  author: puffinanda
+  author: beccarobins
   ms.author: beccarobins
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
@@ -35,9 +35,9 @@ quiz:
       - content: "Data Loss Prevention"
         isCorrect: false
         explanation: "Data Loss Prevention helps keep data protected and secured but will not scan through file storage to detect and classify documents."
-      - content: "Microsoft Cloud App Security (MCAS)"
+      - content: "Microsoft Defender for Cloud Apps"
         isCorrect: false
-        explanation: "MCAS is a cloud broker solution to help extend your security to third-party apps and services"
+        explanation: "Defender for Cloud Apps is a cloud broker solution to help extend your security to third-party apps and services"
       - content: "SharePoint File Scanner"
         isCorrect: false
         explanation: "SharePoint File Scanner is not a solution available within SharePoint or Microsoft 365."
@@ -53,7 +53,7 @@ quiz:
       - content: "Use Azure Information Protection Scanner"
         isCorrect: false
         explanation: "Azure Information Protection Scanner crawls through storage to identify documents containing possible sensitive information and classify them accordingly."
-      - content: "Configure a Cloud App Security (CAS) DLP rule"
+      - content: "Configure a Defender for Cloud Apps (CAS) DLP rule"
         isCorrect: true
         explanation: "Correct. The security administrator could create a CAS DLP rule that detects and reclassifies Excel files that have been shared to OneDrive or SharePoint Online."
       - content: "Create an Exchange transport rule"

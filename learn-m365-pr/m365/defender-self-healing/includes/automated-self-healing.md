@@ -9,7 +9,7 @@ In Microsoft 365 Defender, automated self-healing mimics the steps you and membe
 
 Automated self-healing helps by responding more efficiently to investigate and remediate alerts and free you and your team to focus on other tasks.
 
-An automated investigation begins before any member of your security team receives the alert. It starts by investigating impacted assets and grouping them together. Then, it collects all the evidence of compromise across apps, identity, endpoints and data to provide visibility into related events, and timelines. At each stage in the automated investigation, Microsoft 365 Defender gives each piece of evidence a verdict:
+An automated investigation begins before any member of your security team receives the alert. It starts by investigating affected assets and grouping them together. Then, it collects all the evidence of compromise across apps, identity, endpoints and data to provide visibility into related events, and timelines. At each stage in the automated investigation, Microsoft 365 Defender gives each piece of evidence a verdict:
 
 - Suspicious
 - Malicious

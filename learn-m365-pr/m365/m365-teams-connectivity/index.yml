@@ -3,8 +3,8 @@ uid: learn-m365.m365-teams-connectivity
 metadata:
   title: Configure your network for Microsoft 365 and Teams connectivity
   description: Learn how to ensure that Microsoft 365 and Teams users experience good network performance and functional meetings while you ensure optimal security.
-  ms.date: 07/16/2021
-  author: iankensey
+  ms.date: 10/20/2021
+  author: temanteleary
   ms.author: teleary
   ms.topic: interactive-tutorial
   ms.prod: learning-m365

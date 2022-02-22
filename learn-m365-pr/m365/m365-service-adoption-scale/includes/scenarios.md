@@ -1,4 +1,4 @@
->![Simplified scenario mapping](../media/business-mapping.png)
+:::image type="content" source="../media/business-mapping.png" alt-text="A slide titled: Simplified scenario mapping. The text below describes the sections." lightbox="../media/business-mapping.png":::
 
 **Business scenario mapping at its most simple form is defining a successful process journey for an employee.** While business process mapping can be an extremely detailed and expensive task what we are suggesting here is simplified. The slide above shows a basic format for capturing these scenarios, which can then be charted by impact and difficulty to inform your scale service adoption plan. In your work with stakeholders, end users and champions you will need to answer the following questions for each scenario:
 
@@ -12,12 +12,12 @@ In the slide above, this reads as follows:
 
 ## Prioritize business scenarios
 
->![Prioritize business scenarios](../media/prioritize-scenarios.png)
+:::image type="content" source="../media/prioritize-scenarios.png" alt-text="Prioritize business scenarios" lightbox="../media/prioritize-scenarios.png":::
 
-> |![Activity logo](../media/activity.png) Activity|
-> |-|  
-> |Download the [scenario-mapping template](/microsoftteams/teams-adoption-define-usage-scenarios) and write out some simple scenarios using your simplified persona information.|
+:::image type="icon" source="../media/activity.png" border="false":::
+  
+Download the [scenario-mapping template](/microsoftteams/teams-adoption-define-usage-scenarios) and write out some simple scenarios using your simplified persona information.
 
-> |![Activity logo](../media/activity.png) Example activity for Contoso|  
-> |-|
-> |Your sales leadership has been very vocal about needing to collaborate on proposals more quickly and escalate customer issues back to regional corporate offices with greater speed. They also want to understand the status of existing customer issues. You have used the provided templates to gain insights from your stakeholders and employees, validated the technical capabilities you can use to solve the issue and designed the solution in partnership with your IT team. You've determined that you can easily help people collaborate on documents and then move to integrating the customer issue ticketing system with Microsoft Teams, Forms and a simple chatbot. This prioritization allows employees to get familiar with the system doing document collaboration before using it for customer issues.|
+:::image type="icon" source="../media/activity.png" border="false":::
+
+Your sales leadership has been very vocal about needing to collaborate on proposals more quickly and escalate customer issues back to regional corporate offices with greater speed. They also want to understand the status of existing customer issues. You have used the provided templates to gain insights from your stakeholders and employees, validated the technical capabilities you can use to solve the issue and designed the solution in partnership with your IT team. You've determined that you can easily help people collaborate on documents and then move to integrating the customer issue ticketing system with Microsoft Teams, Forms and a simple chatbot. This prioritization allows employees to get familiar with the system doing document collaboration before using it for customer issues.

@@ -4,7 +4,7 @@ metadata:
   title: Knowledge check
   description: Knowledge check
   ms.date: 07/02/2021
-  author: geoffallix
+  author: beccarobins
   ms.author: beccarobins
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
@@ -16,7 +16,7 @@ quiz:
   title: Check your knowledge
   questions:
 
-  - content: "Which type of policy should an administrator use in Cloud App Security to detect a login from a risky IP address?"
+  - content: "Which type of policy should an administrator use in Defender for Cloud Apps to detect a login from a risky IP address?"
     choices:
     - content: "Anomaly detection policy."
       isCorrect: false
@@ -28,7 +28,7 @@ quiz:
       isCorrect: false
       explanation: "That's incorrect. These policies enable you to determine which permissions an OAuth app requested and to automatically approve or revoke that permission."
 
-  - content: "Which of the following should an administrator consider integrating with Cloud App Security in order to get insights into security risks posed to their on-premises AD DS?"
+  - content: "Which of the following should an administrator consider integrating with Defender for Cloud Apps in order to get insights into security risks posed to their on-premises AD DS?"
     choices:
     - content: "Azure AD Identity Protection."
       isCorrect: false
@@ -40,15 +40,14 @@ quiz:
       isCorrect: true
       explanation: "That's correct. Defender for Identity helps identify attacks in your on-premises AD DS."
 
-  - content: "An administrator wants to start detecting malware using Cloud App Security. Which of the following represents their best approach to achieving this?"
+  - content: "An administrator wants to start detecting malware using Defender for Cloud Apps. Which of the following represents their best approach to achieving this?"
     choices:
-    - content: "The administrator doesn’t need to do anything. Malware detection is enabled out of the box in Cloud App Security"
+    - content: "The administrator doesn’t need to do anything. Malware detection is enabled out of the box in Defender for Cloud Apps"
       isCorrect: false
       explanation: "That's incorrect. Malware detection is not enabled by default."
     - content: "The administrator must create a malware detection policy from an activity log search."
       isCorrect: false
       explanation: " That's incorrect. The administrator doesn’t need to create a malware detection policy as one already exists."
-    - content: "The administrator must enable the Malware detection policy in the list of policies in the Cloud App Security portal."
+    - content: "The administrator must enable the Malware detection policy in the list of policies in the Defender for Cloud Apps portal."
       isCorrect: true
-      explanation: "That's correct. Cloud App Security provides a default malware detection policy, but it must be enabled."
-
+      explanation: "That's correct. Defender for Cloud Apps provides a default malware detection policy, but it must be enabled."

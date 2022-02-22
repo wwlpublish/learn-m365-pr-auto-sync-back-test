@@ -11,13 +11,13 @@ Teams app capabilities depend on underlying communication and collaboration tech
 
 When you create a team from an existing Microsoft 365 Group, that group's membership, site, mailbox, and notebook are surfaced in Teams. To customize and extend Teams, you can add other apps such as Planner and Power BI through apps, bots, and connectors using custom tabs.  
 
-![Teams logical architecture](../media/logical-architecture.png)
+:::image type="content" source="../media/logical-architecture.png" alt-text="A diagram showing the Teams logical architecture. It includes where files, Teams, Chats, Meetings, and calls are stored." lightbox="../media/logical-architecture.png":::
 
 ## Teams integration with Microsoft 365 Groups
 
 When you create a team in Microsoft Teams, on the back end, you're creating a Microsoft 365 Group and the associated SharePoint document library and OneNote notebook, along with ties into other cloud applications. You can add or remove group members just as you would any other group-based security object in Active Directory.
 
-Learn more about Teams integration with Microsoft 365 Groups in the module **Manage Teams.**
+Learn more about Teams integration with Microsoft 365 Groups in the module **Manage Teams**.
 
 ## How does Teams manage identities?
 
@@ -39,7 +39,7 @@ Key data types are stored in various locations when the data is not in active us
 
 For the full Teams experience, every user should be enabled for Exchange Online, SharePoint Online, OneDrive for Business, and Microsoft 365 Group creation. Administrators should consider whether they'll be able to deploy the Teams features that their organization requires with its current Exchange and SharePoint deployments.
 
-![Teams service dependencies](../media/service-dependencies.png)
+:::image type="content" source="../media/service-dependencies.png" alt-text="A diagram showing Teams service dependencies." lightbox="../media/service-dependencies.png":::
 
 > [!IMPORTANT]
 > SharePoint Online is a prerequisite for using OneDrive for Business. Without SharePoint Online and/or OneDrive for Business, you can't store and share files in channels, perform private file sharing, or access the team SharePoint site.

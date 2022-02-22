@@ -28,7 +28,7 @@ To access the Teams usage reports, you need to have one of the following roles a
 * Skype for Business admin
 
 
-Go to the Microsoft Teams admin center, in the left navigation, select **Analytics & reports**, and then under **Report**, choose the report you want to run. You can select different **Data range** or **Columns** to be shown in the report. 
+Go to the Microsoft Teams admin center, in the left navigation, select **Analytics & reports**  > **Usage reports**, and then under **Report**, choose the report you want to run. You can select different **Data range** or **Columns** to be shown in the report. 
 
 |Report  |What's measured? |Screenshot |
 |---------|---------|---------|

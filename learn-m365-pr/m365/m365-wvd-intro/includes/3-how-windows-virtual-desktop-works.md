@@ -35,7 +35,7 @@ Create application groups to group, publish, and assign access to remote apps or
 - Profile management - Configure FSLogix with a storage solution like Azure Files to containerize user profiles and provide a fast and stateful experience for users.
 - Sizing and scaling - Specify session host VM sizes including GPU-enabled VMs. Specify depth-first or breadth-first load balancing when you create a host pool. Configure automation policies for scaling.
 - Networking policies - Define network topology to access virtual desktop and virtual apps from the intranet or internet based on organizational policy. Connect your Azure Virtual Desktop vNET to your on-premises network by using a virtual private network. Or use Azure ExpressRoute to extend your on-premises networks into the Microsoft cloud platform over a private connection.
-- User management and identity -  Use Azure AD and role-based access controls to manage user access to resources. Take advantage of Azure Active Directory security features, such as conditional access, multifactor authentication, and the Intelligent Security Graph. Azure Virtual Desktop requires Active Directory Domain Services (AD DS). Domain-join session host VMs to this AD DS. Sync AD DS with Azure AD so users are associated between the two.
+- User management and identity -  Use Azure AD and role-based access controls to manage user access to resources. Take advantage of Azure Active Directory security features, such as Conditional Access, multifactor authentication, and the Intelligent Security Graph. Azure Virtual Desktop requires Active Directory Domain Services (AD DS). Domain-join session host VMs to this AD DS. Sync AD DS with Azure AD so users are associated between the two.
 
 ## Infrastructure and system requirements
 
@@ -61,7 +61,7 @@ For cloud organizations:
 
 The Azure VMs you create for Azure Virtual Desktop must be:
 
-- Standard domain-joined or Hybrid AD-joined. VMs can't be Azure AD-joined.
+- Standard domain-joined, Hybrid AD-joined, or Azure AD-joined.
 - Running one of the supported OS images.
 
 ### Supported Remote Desktop clients

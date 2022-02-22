@@ -3,10 +3,10 @@ uid: learn-m365.workplace-analytics-ways-working-action.enable-change
 title: Enable Microsoft 365 driven change
 metadata:
   title:  Enable Microsoft 365 driven change
-  description: After using Microsoft Workplace Analytics and Power BI to generate insights about your employees’ work behaviors, you’ll learn about the Microsoft 365 features that can be tools to implement and measure the changes you’ve identified. You’ll learn how to initiate common change practices and what tools and tactics are the most useful.  
-  ms.date: 07/15/2021
-  author: AlexandraHrt
-  ms.author: elizapo
+  description: After using Microsoft Viva Insights with Workplace Analytics and Power BI to generate insights about your employees’ work behaviors, you’ll learn about the Microsoft 365 features that can be tools to implement and measure the changes you’ve identified. You’ll learn how to initiate common change practices and what tools and tactics are the most useful.  
+  ms.date: 02/09/2022
+  author: madehmer
+  ms.author: helayne
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 

@@ -1,4 +1,4 @@
->![Framework overview](../media/service-adoption-framework.png)
+:::image type="content" source="../media/service-adoption-framework.png" alt-text="A slide with the title 'Deliver an improved user experience and business outcomes through the service adoption framework.' There are then five steps Assemble your team, Define strategy and scenarios, Assess readiness, Build plan, and Onboard employees." border="false":::
 
 This training uses the enhanced adoption framework for teamwork and the modern workplace designed by the Microsoft Teams engineering team in partnership with adoption and marketing partners at Microsoft. This framework represents what we've learned from working with customers, listening to partners, and observing our service adoption programs worldwide. Key enhancements to this framework are:
 
@@ -6,7 +6,7 @@ This training uses the enhanced adoption framework for teamwork and the modern w
 1. It separates service decisions required for a scale deployment from decisions required to start experimenting with the new technology or process. This enables hands-on learning in your own environment first.
 1. It emphasizes light business process mapping, identified success measures, and frequent feedback loops to ensure you're on track for success. If you get off-track, you can course correct sooner in the process to deliver a more agile project implementation.
 
->![Phases of the adoption framework](../media/phases.png)
+:::image type="content" source="../media/phases.png" alt-text="A slide with three steps, Step 1 Startup, Step 2 Experiment, and Step 3 Enable." lightbox="../media/phases.png" border="false":::
 
 ## Meet Contoso
 

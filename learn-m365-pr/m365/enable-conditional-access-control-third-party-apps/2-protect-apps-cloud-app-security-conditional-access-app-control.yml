@@ -1,14 +1,14 @@
 ### YamlMime:ModuleUnit
 uid: learn-m365.enable-conditional-access-app-control-third-party-apps.2-protect-apps-cloud-app-security-conditional-access-app-control
 metadata:
-  title: Describe how to protect apps with Cloud App Security Conditional Access App Control
-  description: Use Microsoft Cloud App Security to implement access and session controls with any supported identity provider
-  ms.date: 07/19/2021
-  author: alistairmatthews
+  title: Describe how to protect apps with Defender for Cloud Apps Conditional Access App Control
+  description: Use Microsoft Defender for Cloud Apps to implement access and session controls with any supported identity provider
+  ms.date: 11/03/2021
+  author: beccarobins
   ms.author: beccarobins
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-title: Describe how to protect apps with Cloud App Security Conditional Access App Control
+title: Describe how to protect apps with Defender for Cloud Apps Conditional Access App Control
 durationInMinutes: 6
 content: |
   [!include[](includes/2-protect-apps-cloud-app-security-conditional-access-app-control.md)]

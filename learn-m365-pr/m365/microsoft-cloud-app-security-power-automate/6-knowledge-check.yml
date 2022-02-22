@@ -4,7 +4,7 @@ metadata:
   title: Knowledge check
   description: Knowledge check
   ms.date: 07/15/2021
-  author: geoffallix
+  author: beccarobins
   ms.author: beccarobins
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
@@ -16,7 +16,7 @@ quiz:
   title: Check your knowledge
   questions:
 
-  - content: "What steps to you need to take to integrate Microsoft Cloud App Security with Power Automate?" 
+  - content: "What steps to you need to take to integrate Microsoft Defender for Cloud Apps with Power Automate?" 
     choices: 
     - content: "You must call the Power Automate API." 
       isCorrect: false 
@@ -26,20 +26,20 @@ quiz:
       explanation: "That's incorrect. Power Automate is a cloud-based service."
     - content: "No additional steps are necessary." 
       isCorrect: true 
-      explanation: "That's correct. No additional steps are necessary to integrate Power Automate with Microsoft Cloud App Security."
+      explanation: "That's correct. No additional steps are necessary to integrate Power Automate with Microsoft Defender for Cloud Apps."
 
 
-  - content: "What steps need to be taken for Power Automate to resolve a Microsoft Cloud App Security alert?" 
+  - content: "What steps need to be taken for Power Automate to resolve a Microsoft Defender for Cloud Apps alert?" 
     choices: 
     - content: "Continually." 
       isCorrect: true 
-      explanation: "That's correct. Microsoft Cloud App Security file policies scan files continually. " 
+      explanation: "That's correct. Microsoft Defender for Cloud Apps file policies scan files continually. " 
     - content: "Daily." 
       isCorrect: false 
-      explanation: "That's incorrect. Microsoft Cloud App Security file policies do not scan files daily." 
+      explanation: "That's incorrect. Microsoft Defender for Cloud Apps file policies do not scan files daily." 
     - content: "Weekly."
       isCorrect: false 
-      explanation: "That's incorrect. Microsoft Cloud App Security file policies do not scan files weekly."
+      explanation: "That's incorrect. Microsoft Defender for Cloud Apps file policies do not scan files weekly."
 
 
   - content: "What component do you need to use in Power Automate to give a manager a choice of outcomes?" 
@@ -55,14 +55,14 @@ quiz:
       explanation: "That's incorrect. A branch can run multiple paths of a flow at the same time."
 
 
-  - content: "What does Power Automate add to the inbuilt Microsoft Cloud App Security method for handling malicious inbox user rules?" 
+  - content: "What does Power Automate add to the inbuilt Microsoft Defender for Cloud Apps method for handling malicious inbox user rules?" 
     choices: 
     - content: "The ability to alert on suspicious forwarding rules." 
       isCorrect: false 
-      explanation: "That's incorrect. Microsoft Cloud App Security includes ability to alert on suspicious forwarding rules. " 
-    - content: "Power Automate does not alter the inbuilt Microsoft Cloud App security method." 
+      explanation: "That's incorrect. Microsoft Defender for Cloud Apps includes ability to alert on suspicious forwarding rules. " 
+    - content: "Power Automate does not alter the inbuilt Microsoft Defender for Cloud Apps method." 
       isCorrect: true 
-      explanation: "That's correct. Power Automate does not alter the inbuilt Microsoft Cloud App security method."
+      explanation: "That's correct. Power Automate does not alter the inbuilt Microsoft Defender for Cloud Apps method."
     - content: "The ability to detect suspicious forwarding rules." 
       isCorrect: false 
-      explanation: "That's incorrect. Microsoft Cloud App Security includes ability to detect suspicious forwarding rules."
+      explanation: "That's incorrect. Microsoft Defender for Cloud Apps includes ability to detect suspicious forwarding rules."

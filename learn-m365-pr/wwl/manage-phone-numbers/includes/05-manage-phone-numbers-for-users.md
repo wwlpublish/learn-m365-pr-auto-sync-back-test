@@ -22,7 +22,7 @@ You can assign or change a phone number or an emergency location for a user in t
 
 Complete the following steps to change a user’s phone number using the Teams admin center:
 
-1. In the left-hand navigation pane, select **Users** and select a user.
+1. In the left-hand navigation pane, select **Users** > **Manage users** and select a user.
 2. In the **Account** tab, below **General information**, you can see the user’s assigned phone number.
 3. In the left-hand navigation pane, select **Voice**, and then select **Phone numbers**.
 4. On the **Phone numbers** page, select the number that you want to change, and then select **Edit** from the top pane.
@@ -36,7 +36,7 @@ Complete the following steps to change a user’s phone number using the Teams a
 
 Complete the following steps to remove a user’s phone number using the Microsoft Teams admin center:
 
-1. In the **Users** section, locate and select the user, select **Account**, and then under **General information**, make a note of the phone number that's assigned to the user.
+1. In the **Manage users** section, locate and select the user, select **Account**, and then under **General information**, make a note of the phone number that's assigned to the user.
 2. In the left-hand navigation pane, select **Voice** and then select **Phone numbers**.
 3. On the **Phone numbers** page, select the number that you want to remove for a user, and then select **Edit**.
 4. In the **Edit** section, under **Assigned to**, select **X** to remove the user.

@@ -3,4 +3,4 @@ Microsoft 365 Defender portal is the new home for monitoring and managing securi
 This module introduces the capabilities of the Microsoft 365 Defender portal. These include real-time reports that provide insights and recommendations to help you improve your security posture and make the best use of Microsoft 365 security features.
 
 > [!Important]
-> The Microsoft 365 Defender was formerly known as the Microsoft 365 security center.
+> The Microsoft 365 Defender was formerly known as the Microsoft 365 Defender portal.

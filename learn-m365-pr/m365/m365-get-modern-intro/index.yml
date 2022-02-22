@@ -3,8 +3,8 @@ uid: learn-m365.get-modern-intro
 metadata:
   title: Get started with Microsoft 365 
   description: Discover best practices for ensuring a smooth transition to Windows 10 and Microsoft 365 Apps by using the eight-step deployment process.
-  ms.date: 07/19/2021
-  author: AlexandraHrt
+  ms.date: 11/11/2021
+  author: temanteleary
   ms.author: teleary
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
@@ -25,6 +25,7 @@ products:
 - m365
 - office-365
 - windows
+- windows-19044
 units:
 - learn-m365.get-modern-intro.1-get-started-w10-o365pp
 - learn-m365.get-modern-intro.2-deployment-process

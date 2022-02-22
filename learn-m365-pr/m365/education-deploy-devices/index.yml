@@ -3,8 +3,8 @@ uid: learn-m365.edu-deploy-devices
 metadata:
   title: Deploy and enroll your education devices
   description: This module will introduce you to the different options you can use to provision new and existing devices for the start of the school year. You’ll learn about Set up School PCs and Windows Autopilot for deploying Windows devices and Automated device enrollment for iOS devices.
-  ms.date: 08/06/2021
-  author: iankensey
+  ms.date: 10/19/2021
+  author: temanteleary
   ms.author: teleary
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
@@ -26,6 +26,7 @@ roles:
 - administrator
 products: 
 - m365
+- mem-intune
 units:
 - learn-m365.edu-deploy-devices.1-introduction
 - learn-m365.edu-deploy-devices.2-modern-deployment-options

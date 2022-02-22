@@ -2,9 +2,9 @@
 uid: learn-m365.mcas-power-automate.1-introduction
 metadata:
   title: Introduction
-  description: Add automation to Microsoft Cloud App Security with Power Automate
-  ms.date: 07/16/2021
-  author: geoffallix
+  description: Add automation to Microsoft Defender for Cloud Apps with Power Automate
+  ms.date: 11/03/2021
+  author: beccarobins
   ms.author: beccarobins
   ms.topic: interactive-tutorial
   ms.prod: learning-m365

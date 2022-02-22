@@ -2,9 +2,9 @@
 uid: learn-m365.enable-conditional-access-app-control-third-party-apps.3-configure-conditional-access-app-control-workplace-facebook
 metadata:
   title: Configure Conditional Access App Control for Workplace from Facebook
-  description: Use Conditional Access App Control policies in Microsoft Cloud App Security to help secure content in Workplace from Facebook
-  ms.date: 07/19/2021
-  author: alistairmatthews
+  description: Use Conditional Access App Control policies in Microsoft Defender for Cloud Apps to help secure content in Workplace from Facebook
+  ms.date: 11/03/2021
+  author: beccarobins
   ms.author: beccarobins
   ms.topic: interactive-tutorial
   ms.prod: learning-m365

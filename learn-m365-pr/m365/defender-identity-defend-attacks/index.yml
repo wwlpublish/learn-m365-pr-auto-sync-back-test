@@ -4,8 +4,8 @@ metadata:
   moduleType: standard
   title: Defend against attacks with Microsoft Defender for Identity
   description:  Learn how Microsoft Defender for Identity helps you to protect your environment against different types of threats by enabling you to detect and investigate attempts to compromise credentials, lateral movement attacks, reconnaissance activity, and more.
-  ms.date: 09/09/2021
-  author: GeoffAllix
+  ms.date: 11/03/2021
+  author: beccarobins
   ms.author: beccarobins
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
@@ -24,6 +24,7 @@ roles:
   - security-operations-analyst
 products:
   - m365-ems
+  - defender-identity
 units:
 - learn-m365-pr.defender-identity-defend-attacks.introduction
 - learn-m365-pr.defender-identity-defend-attacks.identify-attacks

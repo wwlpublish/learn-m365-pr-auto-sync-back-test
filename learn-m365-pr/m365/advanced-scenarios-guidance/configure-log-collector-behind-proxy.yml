@@ -1,14 +1,14 @@
 ### YamlMime:ModuleUnit
 uid: learn-m365.advanced-scenarios-guidance.configure-log-collector-behind-proxy
 metadata:
-  title: Configure a log collector to connect to Microsoft Cloud App Security from behind a proxy
-  description: Advanced scenarios and guidance with Microsoft Cloud App Security
-  ms.date: 07/19/2021
-  author: alistairmatthews
+  title: Configure a log collector to connect to Microsoft Defender for Cloud Apps from behind a proxy
+  description: Advanced scenarios and guidance with Microsoft Defender for Cloud Apps
+  ms.date: 01/13/2022
+  author: beccarobins
   ms.author: beccarobins
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-title: Configure a log collector to connect to Microsoft Cloud App Security from behind a proxy
+title: Configure a log collector to connect to Microsoft Defender for Cloud Apps from behind a proxy
 durationInMinutes: 5
 content: |
   [!include[](includes/configure-log-collector-behind-proxy.md)]

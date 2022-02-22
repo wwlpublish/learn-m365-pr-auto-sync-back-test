@@ -4,7 +4,7 @@ metadata:
   title: Design and configure Microsoft Teams Rooms
   description: "**Design and configure Microsoft Teams Rooms** introduces you to the features and capabilities of Microsoft Teams Rooms. You’ll learn how you can use Teams Rooms to enhance your in-room meeting experiences by understanding its core components and how they fit into meeting room spaces of all sizes.  You’ll learn how to create the accounts required for Teams Rooms and understand how to properly configure the Teams Rooms app. You’ll also look at maintenance and monitoring of Teams Rooms including using Microsoft Teams admin center and other tools like Microsoft Endpoint Manager. You’ll gain an understanding of how Teams Rooms provides a comprehensive and flexible environment for collaboration across various meeting spaces."
   ms.date: 10/14/2020
-  author: AlexandraHrt
+  author: temanteleary
   ms.author: teleary
   ms.topic: interactive-tutorial
   ms.prod: learning-m365

@@ -5,7 +5,7 @@ metadata:
   title: Knowledge check
   description: Check what you've learned about Direct Routing.
   ms.date: 09/10/2020
-  author: lizap
+  author: temanteleary
   ms.author: teleary
   ms.topic: interactive-tutorial
   ms.prod: learning-teams
@@ -22,7 +22,7 @@ quiz:
       explanation: "That's incorrect. Direct Routing enables users to make calls outside the organization."
     - content: Users can have individual dial-in numbers.
       isCorrect: true
-      explanation: "That's correct. Direct Routing allows users to have individual Direct Inward Dial numbers (DIDs)."
+      explanation: "That's correct. Direct Routing allows users to have individual telephone numbers."
     - content: Skype for Business users can make PSTN calls.
       isCorrect: false
       explanation: "That's incorrect. Direct Routing is a capability of Teams, but not Skype for Business." 

@@ -1,4 +1,4 @@
-It's important that you monitor alerts raised by Cloud App Security. Alerts are your entry point into identifying potential security threats and other issues within your apps.
+It's important that you monitor alerts raised by Defender for Cloud Apps. Alerts are your entry point into identifying potential security threats and other issues within your apps.
 
 ## Alert types
 
@@ -15,9 +15,9 @@ To help you monitor and investigate suspicious or malicious activity, there are 
 
 ## Work with alerts
 
-You can easily review your apps by selecting **Alerts** in the navigation pane of the Cloud App Security portal.
+You can easily review your apps by selecting **Alerts** in the navigation pane of the Defender for Cloud Apps portal.
 
-:::image type="content" source="../media/alerts-2.png" alt-text="A screenshot of the Alerts page in the Cloud App Security portal.":::
+:::image type="content" source="../media/alerts-2.png" alt-text="A screenshot of the Alerts page in the Defender for Cloud Apps portal.":::
 
 If you can tell at a glance that the alert is of little interest, you can select the **Action** (ellipsis) button. Choose between:
 
@@ -44,7 +44,7 @@ To adjust the policy, select **Adjust policy** from the **Actions** list. The po
 
 After you resolve an alert, the Alerts page displays updated information. You can use the STATUS option to review alerts that are OPEN or CLOSED, or both. When reviewing CLOSED alerts, the Resolution type is updated with the reason you gave for the closure. You can also choose to filter Alerts using the Resolution type. For example, the following screenshot displays the available options for Resolution type.
 
-:::image type="content" source="../media/resolution.png" alt-text="A screenshot of the Alerts page. The administrator has entered an advanced query for Resolution type. ":::
+:::image type="content" source="../media/resolution.png" alt-text="A screenshot of the Alerts page. The administrator has entered an advanced query for Resolution type. .":::
 
 ## Explore threat detection and alert management
 
@@ -54,6 +54,6 @@ View a [video version](https://www.microsoft.com/videoplayer/embed/RWJISe) of th
 
 Click on the image to get started.
 
-[![Detect threats and manage alerts with Microsoft Cloud App Security](../media/detect-threats.png)](https://aka.ms/DetectThreats-ManageAlerts-MCAS_InteractiveGuide)
+[:::image type="content" source="../media/detect-threats.png" alt-text="Detect threats and manage alerts with Microsoft Defender for Cloud Apps." border="false":::](https://aka.ms/DetectThreats-ManageAlerts-MCAS_InteractiveGuide)
 
 Be sure to click the full-screen option in the video player. When you're done, use the **Back** arrow in your browser to come back to this page.

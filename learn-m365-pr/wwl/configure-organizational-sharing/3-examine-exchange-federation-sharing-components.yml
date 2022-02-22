@@ -1,0 +1,30 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.configure-organizational-sharing.examine-exchange-federation-sharing-components
+title: Examine Exchange federation sharing components
+metadata:
+  title: Examine Exchange federation sharing components
+  description: "Examine Exchange federation sharing components"
+  ms.date: 12/22/2021
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 7
+content: |
+  [!include[](includes/3-examine-exchange-federation-sharing-components.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "Which of the following items is a free Microsoft offering that acts as a trust broker between two federated Exchange Server organizations?"
+    choices:
+    - content: "The Azure AD authentication system"
+      isCorrect: true
+      explanation: "That's correct. The Azure AD authentication system is an Azure-based service, which is a free Microsoft offering that acts as a trust broker between two federated Exchange Server organizations. Instead of establishing a direct trust as with forest trusts in Active Directory Domain Services (AD DS), you establish a trust between your Exchange server environment and the Azure AD authentication system."
+    - content: "A Security Assertion Markup Language (SAML) delegation token"
+      isCorrect: false
+      explanation: "That's incorrect. A SAML token is issued to each user that the on-premises Active Directory domain controllers authenticate. This token enables the authenticated user to access shared resources within federated Exchange Server organizations. Try again."
+    - content: "The Federated Trust wizard"
+      isCorrect: false
+      explanation: "That's incorrect. The Federated Trust wizard creates a self-signed certificate for federation. Try again."

@@ -1,0 +1,52 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.manage-email-addresses,-lists,-resources.knowledge-check
+title: Knowledge check
+metadata:
+  title: Knowledge check
+  description: "Knowledge check"
+  ms.date: 11/26/2021
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 6
+content: |
+  [!include[](includes/7-knowledge-check.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "As the Messaging administrator for Tailspin Toys, Alan Deyoung created an address list that contains all recipients in Tailspin's Dallas office. Alan then created another address list that contains all recipients in Tailspin's Chicago office. Alan then created a third list titled Research and Development. This list is within the Dallas address list, and it contains all employees who work in Dallas’ Research and Development department. The Research and Development list is a subcategory of the Dallas address list. What are these subcategories of address lists known as?"
+    choices:
+    - content: "Hierarchical address lists"
+      isCorrect: true
+      explanation: "This answer is correct. Subcategories of address lists are known as hierarchical address lists."
+    - content: "Nested address lists"
+      isCorrect: false
+      explanation: "This answer is incorrect. Subcategories of address lists aren't known as nested address lists. Try again."
+    - content: "Segmented address lists"
+      isCorrect: false
+      explanation: "This answer is incorrect. Subcategories of address lists aren't known as segmented address lists. Try again."
+  - content: "There are two requirements for an Outlook client to use an offline address book. One of the requirements is that the client can't be connected to Exchange. What's the second requirement?"
+    choices:
+    - content: "The client must be assigned an address book policy"
+      isCorrect: false
+      explanation: "This answer is incorrect. This action isn't the second requirement for an Outlook client to use an offline address book. Try again."
+    - content: "The client must be configured in cached mode"
+      isCorrect: true
+      explanation: "This answer is correct. Offline address books (OABs) are downloadable copies of the address lists that are used by Outlook clients. To use an OAB, a client must be configured in cached mode, and it can't be connected to Exchange."
+    - content: "The organization must turn on ABP routing in PowerShell"
+      isCorrect: false
+      explanation: "This answer is incorrect. This action isn't the second requirement for an Outlook client to use an offline address book. Try again."
+  - content: "What happens when you hide a user mailbox from address lists?"
+    choices:
+    - content: "The recipient is prevented from receiving email messages"
+      isCorrect: false
+      explanation: "This answer is incorrect. This action isn't what happens when you hide a user mailbox from address lists. Try again."
+    - content: "The recipient is hidden from all address lists but not the GAL"
+      isCorrect: false
+      explanation: "This answer is incorrect. This action isn't what happens when you hide a user mailbox from address lists. Try again."
+    - content: "The recipient is hidden from all address lists and the GAL"
+      isCorrect: true
+      explanation: "This answer is correct. Hiding the recipient from an address list doesn’t prevent the recipient from receiving email messages. Doing so only hides the recipient from all address lists and the GAL."

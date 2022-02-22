@@ -1,0 +1,33 @@
+### YamlMime:LearningPath
+uid: learn.wwl.install-windows-client
+metadata:
+  title: Install the Windows client
+  description: Install the Windows client
+  ms.date: 02/17/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Install the Windows client
+prerequisites: |
+  *   Students should have a basic understanding of computer networks and hardware concepts.
+  *   Students should have a basic understanding of OS and Application concepts.
+  *   Students should have experience with using Windows 10 or later.
+summary: |
+  This learning path covers installing the Windows client OS. Students will learn the different editions, requirements, methods, and tools used in the deployment process.
+iconUrl: /learn/achievements/generic-trophy.svg
+hidden: true
+levels:
+- beginner
+roles:
+- administrator
+products:
+- windows
+modules:
+- learn.wwl.explore-windows-client
+- learn.wwl.examine-windows-client-editions-requirements
+- learn.wwl.evaluate-windows-client-installation-methods
+- learn.wwl.upgrade-migrate-windows-clients
+- learn.wwl.evaluate-deployment-methods
+trophy:
+  uid: learn.wwl.install-windows-client.trophy

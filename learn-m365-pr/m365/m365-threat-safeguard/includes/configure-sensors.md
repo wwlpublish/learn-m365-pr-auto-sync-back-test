@@ -7,12 +7,12 @@ At a high level, the following steps are required to enable Microsoft Defender f
 5. Integrate your VPN solution (optional).
 6. Exclude the sensitive accounts you've listed during the design process.
 7. Configure the required permissions for the sensor to make SAM-R calls.
-8. Configure integration with Microsoft Cloud App Security.
+8. Configure integration with Microsoft Defender for Cloud Apps.
 9. Configure integration with Microsoft 365 Defender (optional).
 
-The following diagram shows the Microsoft Defender for Identity architecture. In this unit, we will discuss how to configure the Microsoft Defender for Identity Sensor.
+The following diagram shows the Microsoft Defender for Identity architecture. In this unit, we will discuss how to configure the Microsoft Defender for Identity Sensor.  
 
-![Microsoft Defender for Identity architecture](../media/azure-architecture.png)
+:::image type="content" source="../media/defender-identity-architecture-topology.png" alt-text="Microsoft Defender for Identity architecture" border="false":::
 
 Installed directly on your domain controllers, the Microsoft Defender for Identity sensor accesses the event logs it requires directly from the domain controller. After the logs and network traffic are parsed by the sensor, Microsoft Defender for Identity sends only the parsed information to the Microsoft Defender for Identity cloud service (only a percentage of the logs are sent).
 

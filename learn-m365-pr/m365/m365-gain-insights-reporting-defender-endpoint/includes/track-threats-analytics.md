@@ -5,7 +5,7 @@ Here, you'll learn about threat analytics.
 
 ## What is threat analytics?
 
-Threat analytics in Microsoft Defender for Endpoints is a set of detailed threat analysis reports conducted by Microsoft security researchers. You can use threat analytics to get information on:
+Threat analytics in Microsoft Defender for Endpoint is a set of detailed threat analysis reports conducted by Microsoft security researchers. You can use threat analytics to get information on:
 
 - The most popular and newest attack tactics
 - The most critical vulnerabilities

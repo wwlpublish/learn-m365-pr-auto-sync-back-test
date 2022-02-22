@@ -8,14 +8,14 @@ The key components you deploy when you set up Azure Virtual Desktop are a host p
 
 ### Host pool
 
- A host pool is a collection of Azure virtual machines (VMs) that act as session hosts for Azure Virtual Desktop. There are two types of host pools:
+ A host pool is a collection of identical Azure virtual machines (VMs) that act as session hosts for Azure Virtual Desktop, letting your users access desktops or remote applications. There are two types of host pools:
 
-- *Pooled* - You can configure a *pooled* host pool where several users sign in and share a VM. Typically, none of those users would be a local administrator on the pooled VM. With pooled, you can use one of the recommended images that include Windows 10 Enterprise multi-session. This OS is exclusive to Azure Virtual Desktop.
+- *Pooled* - A *pooled* host pool lets several users sign in and share a VM. This option is generally more efficient and less expensive, because several users share virtual machine resources. The pooled option provides a consistent experience for users who don't need to install apps or configure their virtual machines. Typically, none of those users would be a local administrator on the pooled VM. With pooled host pools, you can use one of the recommended images that include Windows 10 Enterprise multi-session. This OS is exclusive to Azure Virtual Desktop.
 - *Personal* - A *personal* host pool is where each user has their own dedicated VM. Those users would typically be a local administrator for the VM. So they could install or uninstall apps without impacting other users.
 
 There are two load-balancing options for the host pool:
 
-- *Breadth-first* - Default configuration for new non-persistent host pools. Distributes new user sessions across all available session hosts in the host pool. When you configure breadth-first load balancing, you may set a maximum session limit per session host in the host pool.
+- *Breadth-first* - This option is the default configuration for new non-persistent host pools. Breadth-first load balancing distributes new user sessions across all available session hosts in the host pool. When you configure breadth-first load balancing, you may set a maximum session limit per session host in the host pool.
 - *Depth-first* - Distributes new user sessions to an available session host with the highest number of connections but has not reached its maximum session limit threshold. When you configure depth-first load balancing, you must set a maximum session limit per session host in the host pool.
   
 ### Application group
@@ -27,7 +27,7 @@ An application group is a way to group remote resources and assign them to users
   
 ### Workspace
 
-A workspace is a logical grouping of application groups in Azure Virtual Desktop. When a user signs in to Azure Virtual Desktop, they see a workspace with either a desktop or applications published to the application groups assigned to them.
+A workspace is a logical grouping of application groups in Azure Virtual Desktop. When a user signs in to Azure Virtual Desktop, they see a workspace with a desktop or applications published to the application groups assigned to them.
 
 The following diagram shows an Azure Virtual Desktop workspace with two host pools. Host pool A has two application groups: Desktop and RemoteApp. These resources are shared (pooled) across the sales team. Host pool B has a Desktop application group with personal desktops available to an engineering team.
 
@@ -41,7 +41,7 @@ When you create an Azure Virtual Desktop host pool, you can choose to create new
 
 ### Number of VMs
 
-You can create up to 159 VMs when you first create your host pool. Each deployment creates four objects per VM, that can be seen in your resource group plus some additional Azure Resource Manager objects. So you can quickly reach the 800 Azure resources per deployment limit. You can add more VMs after you finish creating your host pool. Check the Azure VM and API limits for your resource group and subscription.
+You can create up to 159 VMs when you first create your host pool. Each deployment creates four objects per VM, which you can see in your resource group, along with Azure Resource Manager objects. As a result, you can reach the 800 Azure resources per deployment limit very quickly. You can add more VMs to the host pool after you finish creating your host pool. Check the Azure VM and API limits for your resource group and subscription.
 
 ### VM sizing
 
@@ -53,12 +53,14 @@ For multi-session VM sizing recommendations, see [Virtual machine sizing guideli
 
 You choose the image type Azure uses to create the virtual machine, either Gallery or Storage blob.
 
-- *Gallery* -  With this image type, you can select one of the recommended images from the drop-down menu like Windows 10 Enterprise multi-session + Office 365. If you don't see the image you want, select Browse all images and disks. Browse lets you select another image in your gallery or an image provided by Microsoft and other publishers.  
+- *Gallery* -  With this image type, you can select one of the recommended images from the drop-down menu like Windows 10 Enterprise multi-session + Office 365. If you don't see the image you want, select **See all images**. This lets you select an image in your gallery or another image provided by Microsoft and other publishers.  
 
 - *Storage blob* - Allows you to use your own image built through Hyper-V or on an Azure VM. You might use this option when you have an image you're using on-premises and just want to upload it and start using it in Azure immediately. When you select this option, there are some additional fields you need to complete.
-  - *Image URI* - Enter the URL to the generalized VHD from your Azure Storage account.
-  - *Use managed disks* - For Storage blob image type, we recommend you choose *Yes* for most VM configurations. You'd choose *No* where you want to use unmanaged disks for classic scenarios or to manage VHDs in your storage account.  
+  - *Image URI* - Enter the URL to the generalized VHD from your Azure Storage account. 
   - *Storage account* - You select the Azure storage account that contains your image.
+
+>[!NOTE]
+>We recommend registering these images within Azure using the Azure Image Creation tool to unlock better performance and management capabilities.
 
 ## Select virtual network
 
@@ -67,7 +69,7 @@ We discussed the virtual network requirements in the module Prepare for Azure Vi
 If you're using Azure Active Directory Domain Services (Azure AD DS), we recommend that an Azure AD DS-managed domain is deployed into its own dedicated subnet. Don't deploy your VM in the same subnet as your Azure AD DS-managed domain. To
 deploy your VM and connect to an appropriate virtual network subnet, we recommend one of the following options:
 
-- Create or select an existing, subnet in the same the virtual network as your Azure AD DS-managed domain is deployed.
+- Create or select an existing, subnet in the same virtual network as your Azure AD DS-managed domain is deployed.
 - Select a subnet in an Azure virtual network that is connected to it using Azure virtual network peering.
 
 ## Domain join VMs

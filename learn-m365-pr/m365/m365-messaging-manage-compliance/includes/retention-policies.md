@@ -73,7 +73,7 @@ After you create a retention policy, you must apply it to mailbox users. You can
 You can use retention policies to group one or more retention tags and apply them to mailboxes to enforce message retention settings. A mailbox can't have more than one retention policy.
 
 >[!CAUTION]
-> Messages expired based on settings defined in the retention tags linked to the policy. These settings include actions such moving messages to the archive or permanently deleting them. Before applying a retention policy to one or more mailboxes, test the policy and inspect each retention tag associated with it.
+> Messages expire based on settings defined in the retention tags linked to the policy. These settings include actions such as moving messages to the archive or permanently deleting them. Before applying a retention policy to one or more mailboxes, test the policy and inspect each retention tag associated with it. 
 
 You can apply a retention policy to a single mailbox or to multiple mailboxes. You can use either the Exchange admin center or the **Get-Mailbox** and **Set-Mailbox** cmdlets. The following steps use the Exchange admin center.
 

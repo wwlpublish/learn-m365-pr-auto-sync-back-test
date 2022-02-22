@@ -1,26 +1,25 @@
 ### YamlMime:Module
 uid: learn-m365.workplace-analytics-ways-working
 metadata:
-  title: Analyze collaboration and engagement using the Workplace Analytics Ways of working assessment dashboard
-  description: Learn to evaluate collaboration culture and employee experience with a Power BI template using Workplace Analytics data.
-  ms.date: 07/19/2021
-  author: AlexandraHrt
-  ms.author: teleary
+  title: Analyze collaboration and engagement using the Ways of working assessment dashboard in Power BI
+  description: Learn to evaluate collaboration culture and employee experience with a Power BI template by using Viva Insights data in Workplace Analytics.
+  ms.date: 02/02/2022
+  author: madehmer
+  ms.author: helayne
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-title: Analyze collaboration and engagement using the Workplace Analytics Ways of working assessment dashboard
-summary: Learn to evaluate collaboration culture and employee experience with a Power BI template using Workplace Analytics data.
+title: Analyze collaboration and engagement using the Ways of working assessment dashboard in Power BI
+summary: Learn to evaluate collaboration culture and employee experience with a Power BI template by using Viva Insights data through Workplace Analytics.
 abstract: |
   At the end of this module, you should be able to:
-  - Explain what the Workplace Analytics Power BI Ways of working assessment dashboard is, and why it provides an important perspective. 
-  - Run queries, load the data, and select your settings. 
+  - Explain what the Ways of working assessment dashboard in Power BI is, and why it provides an important perspective. 
+  - Use the Query designer for the template setup, and then load the data and select the dashboard settings in Power BI. 
   - Interpret the results from multiple reports in the dashboard. 
 
-
 prerequisites: | 
- - Familiarity with Workplace Analytics data sources
- - Basic knowledge of Microsoft Power BI software
- - Basic knowledge of queries and query structure 
+  - Familiarity with Workplace Analytics data sources in Microsoft Viva Insights
+  - Basic knowledge of Microsoft Power BI software
+  - Basic knowledge of the Query designer and query results 
 
 iconUrl: /learn/achievements/analyze-collaboration-and-engagement-with-ways-working-dashboard-in-workplace-analytics.svg
 levels:

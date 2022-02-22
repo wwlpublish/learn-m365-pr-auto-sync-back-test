@@ -3,8 +3,8 @@ uid: learn-m365.get-modern-security-compliance
 metadata:
   title: Update your security and compliance configuration – Windows 10 and Microsoft 365 Apps
   description: Learn about changes to Windows 10 and Microsoft 365 Apps that help you protect your data, devices, and users while quickly detecting and responding to threats.
-  ms.date: 07/21/2021
-  author: AlexandraHrt
+  ms.date: 10/20/2021
+  author: temanteleary
   ms.author: teleary
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
@@ -24,6 +24,7 @@ products:
 - m365
 - windows
 - office-365
+- windows-19044
 units:
 - learn-m365.get-modern-security-compliance.1-introduction
 - learn-m365.get-modern-security-compliance.2-new-m365-capabilities

@@ -1,19 +1,19 @@
 ### YamlMime:LearningPath
 uid: learn-m365.m365-cloud-app-security-intermediate
 metadata:
-  title: Detect threats and protect information in cloud apps using Microsoft Cloud App Security
-  description: This learning path investigates Microsoft Cloud App Security, discovery, information protection and threat detection at an intermediate level.  
+  title: Detect threats and protect information in cloud apps using Microsoft Defender for Cloud Apps
+  description: This learning path investigates Microsoft Defender for Cloud Apps, discovery, information protection and threat detection at an intermediate level.  
   ms.date: 05/12/2021
-  author: lizap
+  author: beccarobins
   ms.author: beccarobins
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-title: Detect threats and protect information in cloud apps using Microsoft Cloud App Security
-summary: This learning path investigates Microsoft Cloud App Security, discovery, information protection and threat detection at an intermediate level. 
+title: Detect threats and protect information in cloud apps using Microsoft Defender for Cloud Apps
+summary: This learning path investigates Microsoft Defender for Cloud Apps, discovery, information protection and threat detection at an intermediate level. 
 prerequisites: | 
   - Experience working with Microsoft 365 services
   - Experience working with Microsoft Azure 
-  - Fundamental knowledge of Microsoft Cloud App Security
+  - Fundamental knowledge of Microsoft Defender for Cloud Apps
 iconUrl: /learn/achievements/detect-threats-and-protect-information-in-cloud-apps-using-mcas.svg
 levels: 
 - intermediate

@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.monitor-troubleshoot-teams-phone-system.report-on-troubleshoot-teams-calls-with-call-quality-dashboard
+title: Report on and troubleshoot Teams calls with Call Quality Dashboard
+metadata:
+  title: Report on and troubleshoot Teams calls with Call Quality Dashboard
+  description: "Report on and troubleshoot Teams calls with Call Quality Dashboard"
+  ms.date: 12/29/2021
+  author: wwlpublish
+  ms.author: dahans
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 9
+content: |
+  [!include[](includes/5-report-on-troubleshoot-teams-calls-with-call-quality-dashboard.md)]

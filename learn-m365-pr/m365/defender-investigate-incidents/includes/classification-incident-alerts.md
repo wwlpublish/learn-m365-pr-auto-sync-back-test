@@ -33,11 +33,11 @@ You should choose from the other two options:
 - False alert
 - True alert
 
-:::image type="content" source="../media/3-classification-types.png" alt-text="Screenshot showing the different classification types":::
+:::image type="content" source="../media/3-classification-types.png" alt-text="Screenshot showing the different classification types." lightbox="../media/3-classification-types.png":::
 
 From the classification options, if you select **True alert**, you'll be prompted with to provide a determination.
 
-:::image type="content" source="../media/3-true-positivie-determination.png" alt-text="Screenshot showing the available determination options.":::
+:::image type="content" source="../media/3-true-positivie-determination.png" alt-text="Screenshot showing the available determination options." lightbox="../media/3-true-positivie-determination.png":::
 
 The determination is used to further qualify a true incident. You can select:
 
@@ -56,7 +56,7 @@ Once you've assigned the correct classification, save your change to apply it.
 
 Classifying an alert is similar to classifying an incident. From the Alert page, you'll select an alert to open the alert details pane. From there, you can manage the alerts classification by selecting True alert or False alert.
 
-:::image type="content" source="../media/3-alert-classification.png" alt-text="Screenshot showing the alert classification options.":::
+:::image type="content" source="../media/3-alert-classification.png" alt-text="Screenshot showing the alert classification options." lightbox="../media/3-alert-classification.png":::
 
 ## Improving incident and alert queue quality
 

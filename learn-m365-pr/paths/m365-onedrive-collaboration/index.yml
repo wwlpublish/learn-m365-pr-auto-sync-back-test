@@ -4,7 +4,7 @@ metadata:
   title: Use OneDrive in Microsoft 365
   description: OneDrive is the Microsoft cloud service that connects your users to all their files on any device. As an admin for OneDrive, you’ll learn what components make up OneDrive along with the deployment, configuration, and management options you have. When you’re done, you’ll understand how to help users use OneDrive to connect to all their files so they can share and work together from anywhere.
   ms.date: 06/16/2020
-  author: ericweisberg
+  author: temanteleary
   ms.author: teleary
   ms.topic: interactive-tutorial
   ms.prod: learning-m365

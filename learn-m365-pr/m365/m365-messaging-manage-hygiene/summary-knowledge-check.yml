@@ -4,8 +4,8 @@ title: Summary and knowledge check
 metadata:
   title: Summary and knowledge check
   description: Learn how to plan, implement, and configure policies to protect your organization from malware, spam, and phishing.
-  ms.date: 02/04/2021
-  author: AlexandraHrt
+  ms.date: 11/12/2021
+  author: temanteleary
   ms.author: teleary
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
@@ -55,9 +55,9 @@ quiz:
       - content: "Exchange Online Protection"
         isCorrect: false
         explanation: "No, Exchange Online Protection can't create fake phishing messages."
-      - content: "Microsoft Defender for Endpoint"
+      - content: "Microsoft Defender for Office 365"
         isCorrect: true
-        explanation: "Yes, you can use the Attack simulator in Microsoft Defender for Endpoint to create and send fake phishing mails."
+        explanation: "Yes, you can use the Attack simulator in Microsoft Defender for Office 365 to create and send fake phishing mails."
       - content: "Microsoft 365"
         isCorrect: false
         explanation: "No, Microsoft 365 can't create and send fake phishing emails without using additional tools."      

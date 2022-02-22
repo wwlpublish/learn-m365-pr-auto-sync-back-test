@@ -4,8 +4,8 @@ title: Summary and knowledge check
 metadata:
   title: Summary and knowledge check
   description: Summary and knowledge check
-  ms.date: 06/18/2021
-  author: dahans-msft2
+  ms.date: 10/21/2021
+  author: temanteleary
   ms.author: teleary
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
@@ -15,31 +15,25 @@ content: |
 quiz:
     title: Check your knowledge
     questions:
-    - content: "Which of the following offers a simplified and manageable way to transition from either on-premises Active Directory or ConfigMgr and Active Directory to a modern management approach?"
+    - content: "Your organization uses Configuration Manager and Active Directory. You want to transition to Intune and Azure AD. Which solution should you use?"
       choices:
       - content: "Azure"
         isCorrect: false
-        explanation: "Incorrect."
+        explanation: "That's incorrect. Azure doesn't directly have this feature."
       - content: "Microsoft Intune"
         isCorrect: false
-        explanation: "Incorrect."
+        explanation: "That's incorrect. Microsoft Intune doesn't directly have this feature."
       - content: "Co-management"
         isCorrect: true
-        explanation: "Correct!"
-    - content: "Which of the following options is NOT a valid method for enrolling Windows 10 devices into Microsoft Intune?"
+        explanation: "That's correct. Co-management allows you to transition from Configuration Manager and Active Directory to Microsoft Intune."
+    - content: "Which of the following options is a valid method for enrolling Windows 10 devices into Microsoft Intune?"
       choices:
-      - content: "Add a non-AD joined account"
-        isCorrect: true
-        explanation: "Correct!"
       - content: "System Center Configuration Manager co-management"
+        isCorrect: true
+        explanation: "That's correct.  This option is a valid method."
+      - content: "Azure Active Directory - add device"
         isCorrect: false
-        explanation: "Incorrect.  This option is a valid method."
-      - content: "Enroll in MDM only"
+        explanation: "That's incorrect.  This isn't something provided by Azure AD."
+      - content: "Intune device ingestion"
         isCorrect: false
-        explanation: "Incorrect.  This option is a valid method."
-      - content: "Azure AD join (autopilot self-deploying mode)"
-        isCorrect: false
-        explanation: "Incorrect.  This option is a valid method."
-      - content: "Azure AD join (bulk enrollment)"
-        isCorrect: false
-        explanation: "Incorrect.  This option is a valid method."
+        explanation: "That's incorrect. This isn't an option in Intune."

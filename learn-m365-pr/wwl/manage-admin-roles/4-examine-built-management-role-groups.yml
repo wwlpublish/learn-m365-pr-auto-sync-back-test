@@ -1,0 +1,30 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.manage-admin-roles.examine-built-management-role-groups
+title: Examine built-in management role groups
+metadata:
+  title: Examine built-in management role groups
+  description: "Examine built-in management role groups"
+  ms.date: 12/15/2021
+  author: wwlpublish
+  ms.author: tfrink
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 10
+content: |
+  [!include[](includes/4-examine-built-management-role-groups.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "As the Messaging administrator for Tailspin Toys, Alan Deyoung wants to assign built-in role groups in Exchange to several administrators. However, Alan has discovered that the built-in role groups in Exchange don't match the job function of these administrators. What should Alan do?"
+    choices:
+    - content: "Assign the built-in role groups to the administrators and then customize the roles assigned to these role group to meet Tailspin's requirements"
+      isCorrect: false
+      explanation: "That's incorrect. This action isn't what Alan should do to address this situation. Try again."
+    - content: "Create custom role groups and add roles to them"
+      isCorrect: true
+      explanation: "That's correct. If the built-in role groups in Exchange don't match the job function of your administrators, you can create custom role groups and add roles to them."
+    - content: "Create custom roles that meet Tailspin's requirements and assign the roles to the administrators"
+      isCorrect: false
+      explanation: "That's incorrect. This action isn't what Alan should do to address this situation. Try again."

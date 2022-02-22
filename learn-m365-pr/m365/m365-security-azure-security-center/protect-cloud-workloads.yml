@@ -3,10 +3,10 @@ uid: learn-m365.sci-asc.protect-cloud-workloads
 title: Protect your cloud workloads
 metadata:
   title: Protect your cloud workloads
-  description: Learn how you can use Azure Defender capabilities to protect these different workloads.
-  ms.date: 07/15/2021
+  description: Learn how you can use Microsoft Defender for Cloud capabilities to protect these different workloads.
+  ms.date: 11/03/2021
   ms.author: beccarobins
-  author: iankensey
+  author: beccarobins
   ms.topic: interactive-tutorial
   ms.prod: learning-teams
 durationInMinutes: 18

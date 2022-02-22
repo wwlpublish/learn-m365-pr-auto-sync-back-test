@@ -1,14 +1,14 @@
-Microsoft Cloud App Security uses IP address ranges to help to identify locations and the services they host. Cloud App Security is preconfigured with IP address ranges for commonly accessed cloud providers.
+Microsoft Defender for Cloud Apps uses IP address ranges to help to identify locations and the services they host. Defender for Cloud Apps is preconfigured with IP address ranges for commonly accessed cloud providers.
 
 ## How are IP address ranges used?
 
-It's good practice to configure additional IP address ranges to suit your organizational needs. When you add IP address ranges in Cloud App Security, you:
+It's good practice to configure additional IP address ranges to suit your organizational needs. When you add IP address ranges in Defender for Cloud Apps, you:
 
 - Improve detection accuracy
 - Reduce false positives
 - Simplify the investigative experience
 
-For example, IT administrators at Contoso should define the IP address ranges of the Contoso datacenters. This will help reduce false positives in Cloud App Security.
+For example, IT administrators at Contoso should define the IP address ranges of the Contoso datacenters. This will help reduce false positives in Defender for Cloud Apps.
 
 When you add IP address ranges, you must define the properties described in the following table. 
 
@@ -17,7 +17,7 @@ When you add IP address ranges, you must define the properties described in the 
 | Name                     | Provide a  meaningful name for the IP address range.         |
 | IP address  range        | Enter the  IPv4 address range (or ranges) using network prefix notation (also known as  CIDR notation). For example, 172.16.16.0/20. |
 | Category                 | Select from a  range of predefined categories or choose Other. The category defines the type  of the location, such as Corporate or Cloud provider. |
-| Tags                     | Enter a word  into the text box to assign a tag. You use these tags to help build policies  in Cloud App Security. |
+| Tags                     | Enter a word  into the text box to assign a tag. You use these tags to help build policies  in Defender for Cloud Apps. |
 | Override  registered ISP | Select this  option to enter an ISP name.                    |
 | Override  location       | Select this  option to select from a list of locations.      |
 
@@ -26,7 +26,7 @@ When you add IP address ranges, you must define the properties described in the 
 
 ### Tags and categories
 
-A tag is a text label that you can associate with objects in Cloud App Security, including IP address ranges. You can then use the tags to implement Cloud App Security policies.
+A tag is a text label that you can associate with objects in Defender for Cloud Apps, including IP address ranges. You can then use the tags to implement Defender for Cloud Apps policies.
 
 For example, in the following graphic, the Contoso administrator has created tag called London HQ, which is associated with an IP address range.
 
@@ -59,9 +59,9 @@ You can select between the categories described in the following table.
 
 ## Setup IP address ranges
 
-To create an IP address range in Cloud App Security, use the following procedure:
+To create an IP address range in Defender for Cloud Apps, use the following procedure:
 
-1. Navigate to the [Cloud App Security portal](https://portal.cloudappsecurity.com).
+1. Navigate to the [Defender for Cloud Apps portal](https://portal.cloudappsecurity.com).
 2. Sign in as a Global Admin in your Microsoft 365 tenant.
 3. In the portal, select **Settings**. This is the cog next to your profile picture.
 4. Select **IP address ranges**. A list of defined (and previously created) IP address ranges is returned.
@@ -88,7 +88,7 @@ For example, in the following screenshot, the administrator has defined the foll
 - Tags: London HQ
 - Both Override registered ISP and Override location are not selected
 
-:::image type="content" source="../media/ip-address-range.png" alt-text="A screenshot displays the New IP address range dialog box. The administrator has created a range based on the text in the preceding section":::
+:::image type="content" source="../media/ip-address-range.png" alt-text="A screenshot displays the New IP address range dialog box. The administrator has created a range based on the text in the preceding section.":::
 
 The following video describes the benefits of configuring IP address ranges, and demonstrates how to set up IP address ranges:
 

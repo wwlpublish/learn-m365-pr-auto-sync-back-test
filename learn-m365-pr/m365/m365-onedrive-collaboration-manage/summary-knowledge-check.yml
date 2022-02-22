@@ -5,7 +5,7 @@ metadata:
   title: Summary and knowledge check
   description: The management of OneDrive is ongoing after your rollout. Learn how to view reports of usage and activity within OneDrive to better understand what is happening in your organization and how to audit activities that occur. Learn what you can do to further protect files in OneDrive and also ensure they are retained and available after a user leaves the organization. 
   ms.date: 07/14/2021
-  author: ericweisberg
+  author: temanteleary
   ms.author: teleary
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
@@ -20,16 +20,16 @@ quiz:
       choices:
       - content: "A manager needs to delete the OneDrive manually."
         isCorrect: false
-        explanation: "Files are not moved and are retained for a period of time."
-      - content: "The files are automatically deleted after a period of time designated by the admin."
+        explanation: "Files are not moved and are retained."
+      - content: "The files are automatically deleted after a set time designated by the admin."
         isCorrect: true
         explanation: "Default retention can be set for up to 10 years (3650 days)."
       - content: "The files are retained forever by default."
         isCorrect: false
-        explanation: "Files are not moved and are retained for a period of time."
+        explanation: "Files are not moved and are retained."
       - content: "The files are automatically moved to another location."
         isCorrect: false
-        explanation: "Files are not moved and are retained for a period of time."
+        explanation: "Files are not moved and are retained."
 
     - content: "True or False: When a Data Loss Prevention policy is deployed to identify credit numbers in files on OneDrive, if a credit card number is later added to a file, the policy will be triggered."
       choices:

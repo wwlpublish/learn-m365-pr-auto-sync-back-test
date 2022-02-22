@@ -6,7 +6,8 @@ Setting transitional coexistence mode enables a smoother transition to Microsoft
 
 The following steps configure upgrade for all users within your organization:
 
-1. Sign in to **Microsoft Teams admin center**, and under **Org-wide settings** > select **Teams upgrade**.
+1. Sign in to **Microsoft Teams admin center**, and under **Teams** > select **Teams upgrade settings**.
+
 :::image type="content" source="../media/teams-org-wide-upgrade.png" alt-text="Upgrade options for all users from Teams Admin Center":::
 
 2. On the **Teams upgrade** page, from **Coexistence mode** options, choose one of the following options for your organization:

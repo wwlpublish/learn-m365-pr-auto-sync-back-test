@@ -2,9 +2,9 @@
 uid: learn-m365.advanced-scenarios-guidance.knowledge-check
 metadata:
   title: Knowledge check
-  description: Advanced scenarios and guidance with Microsoft Cloud App Security
+  description: Advanced scenarios and guidance with Microsoft Defender for Cloud Apps
   ms.date: 06/07/2021
-  author: alistairmatthews
+  author: beccarobins
   ms.author: beccarobins
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
@@ -19,35 +19,35 @@ quiz:
     choices:
     - content: "Use Intune to deploy Microsoft Defender for Endpoint for iOS to all iPhones in your organization."
       isCorrect: true
-      explanation: "That’s correct. Microsoft Defender for Endpoint for iOS enables you to protect Microsoft Cloud App Security measures onto iOS devices."
+      explanation: "That’s correct. Microsoft Defender for Endpoint for iOS enables you to protect Microsoft Defender for Cloud Apps measures onto iOS devices."
     - content: "Create a custom indicator of compromise that blocks the website."
       isCorrect: false
       explanation: "That’s incorrect. If the iOS device can still access the blocked website, a custom indicator of compromise will not fix the problem."
     - content: "Install a new log collector to protect iOS devices."
       isCorrect: false
       explanation: "That’s incorrect. A log collector doesn’t protect devices. Instead it helps Shadow IT discovery by collecting logs from "
-  - content: "Your organization has recently acquired a new company and you want to investigate Shadow IT that is in use on the company’s network. You have installed a log collector but it cannot connect to Microsoft Cloud App Security. Which of the following conditions might cause this problem?"
+  - content: "Your organization has recently acquired a new company and you want to investigate Shadow IT that is in use on the company’s network. You have installed a log collector but it cannot connect to Microsoft Defender for Cloud Apps. Which of the following conditions might cause this problem?"
     choices:
     - content: "You have used a Linux container for the log collector. Use a Windows container instead"
       isCorrect: false
       explanation: "That’s incorrect. You can use a container on either a Linux docker host or a Windows docker host to run the log collector."
-    - content: "The Cloud App Security portal doesn’t trust the root certificate authority installed on the log collector"
+    - content: "The Defender for Cloud Apps portal doesn’t trust the root certificate authority installed on the log collector"
       isCorrect: false
-      explanation: "That’s incorrect. The Cloud App Security portal doesn’t need to trust the root certificate installed on the log collector to transfer logs."
+      explanation: "That’s incorrect. The Defender for Cloud Apps portal doesn’t need to trust the root certificate installed on the log collector to transfer logs."
     - content: "The log collector doesn’t trust the root certificate authority installed on the proxy server"
       isCorrect: true
-      explanation: "That’s correct. If the log collector doesn’t trust the root certificate installed on the proxy server, then it can’t establish a secure connection through that proxy server to the Cloud App Security portal and transfer logs."
-  - content: "A new phishing attack relies on users being misled into downloading a compiled executable file and running it. How can you ensure that Microsoft Cloud App Security blocks this new file as quickly as possible?"
+      explanation: "That’s correct. If the log collector doesn’t trust the root certificate installed on the proxy server, then it can’t establish a secure connection through that proxy server to the Defender for Cloud Apps portal and transfer logs."
+  - content: "A new phishing attack relies on users being misled into downloading a compiled executable file and running it. How can you ensure that Microsoft Defender for Cloud Apps blocks this new file as quickly as possible?"
     choices:
     - content: "Use a new file policy to implement a custom indicator of compromise."
       isCorrect: true
-      explanation: "That’s correct. In the Microsoft Cloud App Security portal, you can create policies to match new indicators of compromise quickly and use them to delete or quarantine files."
-    - content: "Write a custom app that uses the Microsoft Cloud App Security REST API to define a custom indicator of compromise."
+      explanation: "That’s correct. In the Microsoft Defender for Cloud Apps portal, you can create policies to match new indicators of compromise quickly and use them to delete or quarantine files."
+    - content: "Write a custom app that uses the Microsoft Defender for Cloud Apps REST API to define a custom indicator of compromise."
       isCorrect: false
       explanation: "That’s incorrect. It would take time to develop and test custom code that calls the REST API. You need a quicker method to respond to this threat before the file enters your systems."
     - content: "Configure all log collectors to block the executable file."
       isCorrect: false
-      explanation: "Log collectors are used to obtain logs from firewalls and proxy servers and send them to Cloud App Security. You can’t use them to intercept and prevent access to malicious files."
+      explanation: "Log collectors are used to obtain logs from firewalls and proxy servers and send them to Defender for Cloud Apps. You can’t use them to intercept and prevent access to malicious files."
   - content: "You’re using the Advanced hunting tool in the Microsoft 365 Defender portal to find information about a suspicious activity certain users have been executing. Which of these languages should you use to write the query?"
     choices:
     - content: "Transact SQL"
@@ -63,10 +63,10 @@ quiz:
     choices:
     - content: "Include a filter in your query"
       isCorrect: false
-      explanation: "That’s incorrect. A filter is used to return more relevant results. You’ve been denied access because you haven’t authenticated with the Microsoft Cloud App Security REST API."
+      explanation: "That’s incorrect. A filter is used to return more relevant results. You’ve been denied access because you haven’t authenticated with the Microsoft Defender for Cloud Apps REST API."
     - content: "Include an authorization token in your command"
       isCorrect: true
-      explanation: "That’s correct. You’ve been denied access because you haven’t authenticated with the Microsoft Cloud App Security REST API. To authenticate, include an authorization token."
+      explanation: "That’s correct. You’ve been denied access because you haven’t authenticated with the Microsoft Defender for Cloud Apps REST API. To authenticate, include an authorization token."
     - content: "Send the query from custom code instead of from the curl command-line tool."
       isCorrect: false
-      explanation: "That’s incorrect. You can send requests with either curl or custom code. You’ve been denied access because you haven’t authenticated with the Microsoft Cloud App Security REST API."
+      explanation: "That’s incorrect. You can send requests with either curl or custom code. You’ve been denied access because you haven’t authenticated with the Microsoft Defender for Cloud Apps REST API."

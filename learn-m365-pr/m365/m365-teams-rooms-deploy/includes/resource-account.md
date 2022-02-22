@@ -6,7 +6,7 @@ Try to establish a naming convention, particularly when you move to Azure Active
 
 The Teams Rooms Premium license adds additional features such as a Microsoft-managed service that will help with everything from planning your rooms to monitoring and troubleshooting them. This license also includes everything in the Standard license. You can find more information about licensing on the [Teams Meeting Room Licensing Update](/MicrosoftTeams/rooms/rooms-licensing?azure-portal=true) page.
 
-![Standard versus Premium licenses](../media/standard-premium-license.png)
+:::image type="content" source="../media/standard-premium-license.png" alt-text="Screenshot shows Standard versus Premium licenses." lightbox="../media/standard-premium-license.png":::
 
 > [!IMPORTANT]
 > Every Teams Rooms compute module requires its own unique resource account. You cannot share a resource account across multiple rooms. If you do, only one of those accounts will be able to join a meeting and other rooms with the same account will not be able to join any meetings at the same time.
@@ -35,7 +35,7 @@ The Teams Rooms Premium license adds additional features such as a Microsoft-man
 
 4. If you have enabled the account for Skype, will you enable it for Teams and for Skype? If yes, assign a Teams license.
 
-    ![Resource account workflow](../media/resource-account-flow.png)
+   :::image type="content" source="../media/resource-account-flow.png" alt-text="Diagram shows Resource account workflow." lightbox="../media/resource-account-flow.png":::
 
 ## Learn more
 

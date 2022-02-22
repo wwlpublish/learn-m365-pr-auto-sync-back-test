@@ -3,7 +3,7 @@ uid: learn.wwl.configure-deploy-manage-teams-devices
 metadata:
   title: Configure, deploy, and manage Teams devices
   description: "Teams devices provide a familiar experience and are essential for a hybrid workspace. Learn how to provision and manage devices, and associated device accounts."
-  ms.date: 10/05/2021
+  ms.date: 12/29/2021
   author: wwlpublish
   ms.author: dahans
   ms.topic: interactive-tutorial
@@ -20,7 +20,7 @@ abstract: |
 prerequisites: |
   - Familiarity with Microsoft Teams voice services
   - Understanding of the Teams Admin Center and PowerShell
-iconUrl: /learn/achievements/generic-badge.svg
+iconUrl: /learn/achievements/2-configure-deploy-and-manage-teams-devices.svg
 levels:
 - advanced
 roles:
