@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.configure-user-account-control.examine-how-uac-works
+title: Examine how UAC works
+metadata:
+  title: Examine how UAC works
+  description: "Examine how UAC works"
+  ms.date: 02/22/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+azureSandbox: false
+labModal: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/3-examine-how-user-account-control-works.md)]
