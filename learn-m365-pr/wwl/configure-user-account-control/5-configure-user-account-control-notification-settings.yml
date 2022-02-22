@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.configure-user-account-control.configure-uac-notification-settings
+title: Configure UAC notification settings
+metadata:
+  title: Configure UAC notification settings
+  description: "Configure UAC notification settings"
+  ms.date: 02/22/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+azureSandbox: false
+labModal: false
+durationInMinutes: 2
+content: |
+  [!include[](includes/5-configure-user-account-control-notification-settings.md)]
