@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.manage-drivers-device-peripherals.manage-client-side-printing
+title: Manage client-side printing
+metadata:
+  title: Manage client-side printing
+  description: "Manage client-side printing"
+  ms.date: 02/23/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+azureSandbox: false
+labModal: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/6-manage-client-side-printing.md)]

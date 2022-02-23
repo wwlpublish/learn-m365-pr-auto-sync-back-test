@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.explore-advanced-configuration-methods.deploy-custom-start-menu-windows-11
+title: Deploy a custom Start menu in Windows 11
+metadata:
+  title: Deploy a custom Start menu in Windows 11
+  description: "Deploy a custom Start menu in Windows 11"
+  ms.date: 02/23/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+azureSandbox: false
+labModal: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/8-deploy-custom-start-menu-windows-11.md)]
