@@ -1,4 +1,4 @@
-This module explored the various methods of configuring Windows clients at scale. Windows can be activated without the need for individual keys using MAK and KMS activation methods. Group Policy Objects can be created to apply configuration settings to groups of users or devices. PowerShell provides a command line option to query and set configurations. PowerShell commands can be used in scripts to peform tasks to mulitple devices. Windows provides administrators a way to create custom Start Menu and taskbar layouts that can be applied to different groups of users.
+This module explored the various methods of configuring Windows clients at scale. Windows can be activated without the need for individual keys using MAK and KMS activation methods. Group Policy Objects can be created to apply configuration settings to groups of users or devices. PowerShell provides a command line option to query and set configurations. PowerShell commands can be used in scripts to perform tasks to multiple devices. Windows provides administrators a way to create custom Start Menu and taskbar layouts that can be applied to different groups of users.
 
 ## Learn More
 
