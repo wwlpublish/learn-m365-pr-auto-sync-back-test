@@ -1,0 +1,46 @@
+### YamlMime:Module
+uid: learn.wwl.manage-drivers-device-peripherals
+metadata:
+  title: Manage drivers and device peripherals
+  description: "This module introduces device drivers. Student will learn how drivers work and the tools used to manage common peripheral devices such as printers."
+  ms.date: 02/23/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+title: Manage drivers and device peripherals
+summary: This module introduces device drivers. Student will learn how drivers work and the tools used to manage common peripheral devices such as printers.
+abstract: |
+  After completing this module, you will be able to:
+  *   Explain the use and importance of device drivers.
+  *   Explain how to manage device peripherals.
+  *   Describe Windows printer features.
+  *   Describe printing components.
+  *   Describe benefits of Type 4 printer drivers.
+  *   Describe how to manage client-side printing.
+  *   Describe how to manage print server properties.
+  *   Install and share a printer.
+prerequisites: |
+  *   Students should have a basic understanding of computer networks and hardware concepts.
+  *   Students should have a basic understanding of OS and Application concepts.
+  *   Students should have experience with using Windows 10 or later.
+iconUrl: /learn/achievements/generic-badge.svg
+hidden: true
+levels:
+- beginner
+roles:
+- administrator
+products:
+- windows
+units:
+- learn.wwl.manage-drivers-device-peripherals.introduction
+- learn.wwl.manage-drivers-device-peripherals.examine-device-drivers
+- learn.wwl.manage-drivers-device-peripherals.manage-device-peripherals
+- learn.wwl.manage-drivers-device-peripherals.examine-printer-configuration
+- learn.wwl.manage-drivers-device-peripherals.understand-type-3-4-printer-drivers
+- learn.wwl.manage-drivers-device-peripherals.manage-client-side-printing
+- learn.wwl.manage-drivers-device-peripherals.manage-print-server-properties
+- learn.wwl.manage-drivers-device-peripherals.knowledge-check
+- learn.wwl.manage-drivers-device-peripherals.summary
+badge:
+  uid: learn.wwl.manage-drivers-device-peripherals.badge
