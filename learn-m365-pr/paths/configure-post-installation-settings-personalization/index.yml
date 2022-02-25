@@ -1,0 +1,31 @@
+### YamlMime:LearningPath
+uid: learn.wwl.configure-post-installation-settings-personalization
+metadata:
+  title: Configure post-installation settings and personalization
+  description: Configure post-installation settings and personalization
+  ms.date: 02/24/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Configure post-installation settings and personalization
+prerequisites: |
+  - Students should have a basic understanding of computer networks and hardware concepts.
+  - Students should have a basic understanding of OS and Application concepts.
+  - Students should have experience with using Windows 10 or later.
+summary: |
+  Students will learn how to customize the user interface and use the control panel and settings app to configure common OS settings. This path will also introduce students to Windows PowerShell and device drivers.
+iconUrl: /learn/achievements/generic-trophy.svg
+hidden: true
+levels:
+- beginner
+roles:
+- administrator
+products:
+- windows
+modules:
+- learn.wwl.explore-common-configuration-options
+- learn.wwl.explore-advanced-configuration-methods
+- learn.wwl.manage-drivers-device-peripherals
+trophy:
+  uid: learn.wwl.configure-post-installation-settings-personalization.trophy
