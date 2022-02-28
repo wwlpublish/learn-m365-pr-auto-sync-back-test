@@ -4,11 +4,11 @@ Complete the following steps to proceed with the replication process.
 
 1. Start **Azure Migrate: Server Migration** by clicking **Replicate**.
 
-:::image type="content" source="../media/click-replicate.png" alt-text="Click replicate." border="false":::
+    :::image type="content" source="../media/click-replicate.png" alt-text="Click replicate." border="false":::
 
 1. In **Source settings**, select how your machines were virtualized along with your appliance.
 
-:::image type="content" source="../media/select-appliance.png" alt-text="Select appliance." border="false":::
+    :::image type="content" source="../media/select-appliance.png" alt-text="Select appliance." border="false":::
 
 1. In **Virtual Machines**,
 
@@ -16,7 +16,7 @@ Complete the following steps to proceed with the replication process.
     b. Choose your assessment group and assessment.  
     c. Select the servers that you want to migrate. You also have the option to search for larger assessments.
 
-:::image type="content" source="../media/select-server.png" alt-text="Select server." border="false":::
+    :::image type="content" source="../media/select-server.png" alt-text="Select server." border="false":::
 
    You can replicate up to 100 VMs simultaneously. To replicate more than 100, we recommend creating multiple batches.
 
@@ -35,8 +35,8 @@ Complete the following steps to proceed with the replication process.
 
    Here you can also define availability sets already configured in the targeted resource group. Availability sets run two or more copies of virtual machines on separate virtual machine hosts in Azure to ensure 99.95% uptime.
 
-8. In **Disks**, you can choose which disks to replicate from the VMs.
+1. In **Disks**, you can choose which disks to replicate from the VMs.
 
     :::image type="content" source="../media/review-and-start-replication.png" alt-text="Review and start replication." lightbox="../media/review-and-start-replication.png" border="false":::
 
-9. Finally, in **Review + Start replication**, click **Replicate** to begin replication. Times for replication will vary based on number and size of virtual machines along with connection speeds between your data center and Azure.
+1. Finally, in **Review + Start replication**, click **Replicate** to begin replication. Times for replication will vary based on number and size of virtual machines along with connection speeds between your data center and Azure.
