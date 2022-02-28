@@ -93,8 +93,8 @@ Buy yourself a subscription to Microsoft 365. You'll have access to all the admi
 
 ## Knowledge area - Marketing and communications
 
-:::image type="complex" source="../media/market-comms.png" alt-text="Marketing and communications":::image-end::: description: Slide showing three areas; Create awareness, Engage employees, and Enable self-service. These are above Measure our effectiveness.
-
+:::image type="complex" source="../media/market-comms.png" alt-text="Marketing and communications":::description: Slide showing three areas; Create awareness, Engage employees, and Enable self-service. These are above Measure our effectiveness.
+:::image-end:::
 
 Since service adoption is a human-centered activity, a critical knowledge area focuses on marketing and communications. If you can't communicate why a change is beneficial, you can't convince employees to participate. Not many IT departments have marketing communication specialists. Often a communication specialist is confused with training specialists, but these are two very different skills. In the context of service adoption, you need to be able to communicate why, when, where, and how the change will occur in a creative and appealing way. Your goal is to get participants in the change and increase the pace of adoption throughout the organization. Often employees resist change because no one's explained the change in terms that are meaningful to their experience. You can change that!
 
