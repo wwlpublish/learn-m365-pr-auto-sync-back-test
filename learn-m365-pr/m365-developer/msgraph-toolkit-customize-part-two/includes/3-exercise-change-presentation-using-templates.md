@@ -27,16 +27,16 @@ To create this application, follow these steps:
     ```html
     <!DOCTYPE html>
     <html lang="en">
-        <head>    
-            <script src="https://unpkg.com/@microsoft/mgt/dist/bundle/mgt-loader.js"></script>
+        <head>
+          <script src="https://unpkg.com/@microsoft/mgt/dist/bundle/mgt-loader.js"></script>
         </head>
-        <body>    
-            <mgt-msal2-provider client-id="YOUR-CLIENT-ID"></mgt-msal2-provider>
-            <mgt-login></mgt-login>
-            <mgt-agenda></mgt-agenda>
+        <body>
+          <mgt-msal2-provider client-id="YOUR-CLIENT-ID"></mgt-msal2-provider>
+          <mgt-login></mgt-login>
+          <mgt-agenda></mgt-agenda>
         </body>
     </html>
-    
+
     ```
 
 1. Add a folder named **.vscode** into the root of your project folder.
@@ -44,10 +44,9 @@ To create this application, follow these steps:
 
     ```json
     {
-        "liveServer.settings.host": "localhost",
-        "liveServer.settings.port": 3000
-    }   
-    
+      "liveServer.settings.host": "localhost",
+      "liveServer.settings.port": 3000
+    }
     ```
 
 ## Use templates in the Login component
@@ -56,9 +55,9 @@ Suppose you want to show a user's email address as the content of a signed-in bu
 
 ```html
 <mgt-login>
-    <template data-type=”signed-in-button-content”> 
-        <div>{{personDetails.mail}}</div>
-    </template>
+  <template data-type=”signed-in-button-content”>
+    <div>{{personDetails.mail}}</div>
+  </template>
 </mgt-login>
 ```
 
@@ -70,38 +69,38 @@ The final version of **index.html** will look like this example:
 ```html
 <!DOCTYPE html>
 <html lang="en">
-    <head>    
-        <script src="https://unpkg.com/@microsoft/mgt/dist/bundle/mgt-loader.js"></script>
-    </head>
-    <body>    
-        <mgt-msal2-provider client-id="YOUR-CLIENT-ID"></mgt-msal2-provider>   
- 
-        <mgt-login>
-            <template data-type=”signed-in-button-content”> 
-                <div>{{personDetails.mail}}</div>
-            </template>
-        </mgt-login>
+  <head>
+    <script src="https://unpkg.com/@microsoft/mgt/dist/bundle/mgt-loader.js"></script>
+  </head>
+  <body>
+    <mgt-msal2-provider client-id="YOUR-CLIENT-ID"></mgt-msal2-provider>
 
-        <mgt-agenda
-            date="March 9, 2021"
-            days="3"
-            group-by-day>
-        </mgt-agenda>
+    <mgt-login>
+      <template data-type=”signed-in-button-content”>
+        <div>{{personDetails.mail}}</div>
+      </template>
+    </mgt-login>
 
-    </body>
+    <mgt-agenda
+        date="March 9, 2021"
+        days="3"
+        group-by-day>
+    </mgt-agenda>
+  </body>
 </html>
 
 ```
 
 ## Test your app in the browser
 
-1. In Visual Studio Code, select the following key combination and search for Live Server:
+1. In Visual Studio Code, select the following key combination in Visual Studio Code and search for Live Server:
 
-    - **Windows**: Ctrl+Shift+P
-    - **macOS**: Cmd+Shift+P
+    - **Windows**: <kbd>CTRL</kbd>+<kbd>SHIFT</kbd>+<kbd>P</kbd>
+    - **macOS**: <kbd>COMMAND</kbd>+<kbd>SHIFT</kbd>+<kbd>P</kbd>
 
    Run Live Server to test your app.
-1. Open your browser, and go to http://localhost:3000.
+
+1. Open your browser, and go to `http://localhost:3000`.
 1. Sign in with your Microsoft 365 developer account. Consent to the required permissions, and select **Accept**.
 1. Finally, the signed-in button's content shows the user's email address after signing in.
 
