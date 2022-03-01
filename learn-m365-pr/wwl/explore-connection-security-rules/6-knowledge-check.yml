@@ -1,0 +1,74 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.explore-connection-security-rules.knowledge-check
+title: Knowledge check
+metadata:
+  title: Knowledge check
+  description: "Knowledge check"
+  ms.date: 03/01/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 5
+content: |
+  [!include[](includes/6-knowledge-check.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "How does IPsec provide protection from replay attacks?"
+    choices:
+    - content: "By using sequence numbers"
+      isCorrect: true
+      explanation: "Correct. IPsec uses sequence numbers. As a result, any packets that hackers attempt to capture for later replay use numbers that are out of sequence. Using sequenced numbers ensures that an attacker cannot reuse or replay captured data to establish a session or gain information. Using sequenced numbers also protects against attempts to intercept a message and use it to access resources, possibly months later."
+    - content: "By using one of several available algorithms to encrypt data"
+      isCorrect: false
+      explanation: "Incorrect. IPsec's ESP mode encrypts data using one of several available algorithms. However, this doesn't provide protection from replay attacks. Try again."
+    - content: "By signing traffic"
+      isCorrect: false
+      explanation: "Incorrect. IPsec's AH mode signs traffic, but does not encrypt it. However, this doesn't provide protection from replay attacks. Try again."
+  - content: "A connection security rule forces authentication between two peer computers before they can establish a connection and transmit secure information. Windows Defender Firewall with Advanced Security uses IPsec to enforce configurable rules. Which type of connection security rule allows you to protect connections between gateway computers, and typically use it when you are connecting across the Internet between two security gateways?"
+    choices:
+    - content: "Server to server"
+      isCorrect: false
+      explanation: "Incorrect. A server-to-server rule protects connections between specific computers. This type of rule usually protects connections between servers. Try again."
+    - content: "Tunnel"
+      isCorrect: true
+      explanation: "Correct. A tunnel rule allows you to protect connections between gateway computers, and typically, you use it when you are connecting across the Internet between two security gateways."
+    - content: "Isolation"
+      isCorrect: false
+      explanation: "Incorrect. An isolation rule isolates computers by restricting connections based on credentials, such as domain membership or health status. Isolation rules allow you to implement an isolation strategy for servers or domains. Try again."
+  - content: "As the IT Support professional for Contoso, you want to use the New Connection Security Rule Wizard to create a new rule that specifies how you want authentication to apply to inbound and outbound connections. Which authentication option should you select if you want to specify that all inbound and outbound traffic must authenticate, but that the connection is allowable if authentication fails?"
+    choices:
+    - content: "Require authentication for inbound and outbound connections option"
+      isCorrect: false
+      explanation: "Incorrect. This option requires that all inbound and outbound traffic either is authenticated or else blocked. Try again."
+    - content: "Require authentication for inbound connections and Request authentication for outbound connections option"
+      isCorrect: false
+      explanation: "Incorrect. This option ensures that all inbound traffic is authenticated or blocked. Try again."
+    - content: "Request authentication for inbound and outbound connections option"
+      isCorrect: true
+      explanation: "Correct. This option specifies that all inbound and outbound traffic must authenticate, but that the connection is allowable if authentication fails. However, if authentication succeeds, traffic is protected. You typically use this option in low-security environments or in an environment where computers must be able to connect, but they cannot perform the types of authentication that are available with Windows Defender Firewall with Advanced Security."
+  - content: "As the IT Support professional for Fabrikam, Holly Spencer created firewall rules to allow traffic through the company's firewall. Holly now wants to secure this traffic using IPsec. What must Holly do to secure this traffic with IPsec?"
+    choices:
+    - content: "Create connection security rules that apply between the computers that are the two endpoints"
+      isCorrect: true
+      explanation: "Correct. Connection security rules don't apply to programs and services. They apply only between the computers that are the two endpoints."
+    - content: "Create connection security rules that apply to services"
+      isCorrect: false
+      explanation: "Incorrect. Connection security rules don't apply to services. Try again."
+    - content: "Create connection security rules that apply to programs"
+      isCorrect: false
+      explanation: "Incorrect. Connection security rules don't apply to programs. Try again."
+  - content: "Your organization has identified potential weaknesses in its private networks that may make them susceptible to exploitation. As an IT support professional for your organization, you are tasked to implement IPsec. Which of the following items is a feature of IPsec?"
+    choices:
+    - content: "IPsec offers self-authentication before and during communications"
+      isCorrect: false
+      explanation: "Incorrect. IPsec offers mutual authentication both before and during communications. Try again."
+    - content: "IPsec has two modes: Basic and Advanced"
+      isCorrect: false
+      explanation: "Incorrect. IP has two modes: Encapsulating security payload and Authentication Header. Try again."
+    - content: "IPsec provides a private channel for sending and exchanging potentially sensitive or vulnerable data"
+      isCorrect: true
+      explanation: "Correct. If you implement IPsec properly, it provides a private channel for sending and exchanging potentially sensitive or vulnerable data, whether it is email, FTP traffic, news feeds, partner and supply-chain data, medical records, or any other type of TCP/IP-based data."
