@@ -1,0 +1,74 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.manage-microsoft-edge-browser.knowledge-check
+title: Knowledge check
+metadata:
+  title: Knowledge check
+  description: "Knowledge check"
+  ms.date: 03/01/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 5
+content: |
+  [!include[](includes/9-knowledge-check.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "As the Desktop Administrator for Adventure Works Cycles, you've received several complaints from users that Microsoft Edge is loading pages very slowly. What common troubleshooting step should you instruct the users to do to try and resolve this issue?"
+    choices:
+    - content: "Delete their cached files and enable InPrivate Browsing to disable any trackers"
+      isCorrect: true
+      explanation: "Correct. A common troubleshooting step when website pages load slowly in Microsoft Edge is to delete the user's cached files and enable InPrivate Browsing to disable any trackers."
+    - content: "Install an AdBlock extension from the Edge Add-ons catalog"
+      isCorrect: false
+      explanation: "Incorrect. This step is used to block ads in Microsoft Edge. Try again."
+    - content: "Implement Microsoft Edge extensions"
+      isCorrect: false
+      explanation: "Incorrect. Microsoft Edge extensions is a feature of Edge and not a troubleshooting step. Try again."
+  - content: "As the Desktop Administrator for Wingtip Toys, you want to configure Microsoft Edge with group policy objects (GPOs). Doing so will enable you to add rules and settings for Microsoft Edge to the group policy Central Store in your Active Directory domain or the Policy Definition template folder on individual computers. What's the first thing you must do to configure Microsoft Edge with GPOs?"
+    choices:
+    - content: "Ingest the administrative GPOs from Microsoft Intune"
+      isCorrect: false
+      explanation: "Incorrect. There are no such things as administrative GPOs in Microsoft Intune. Try again."
+    - content: "Install the administrative templates"
+      isCorrect: true
+      explanation: "Correct. To configure Microsoft Edge with group policy objects, you must first install the administrative templates (ADMX files) that add rules and settings for Microsoft Edge to the group policy Central Store in your Active Directory domain or the Policy Definition template folder on individual computers. If using an MDM such as Microsoft Intune, you can ingest the ADMX files, and create configuration policies."
+    - content: "Download the administrative GPOs from the Microsoft Store for Business"
+      isCorrect: false
+      explanation: "Incorrect. There are no such things as administrative GPOs in the Microsoft Store for Business. Try again."
+  - content: "Which Microsoft Edge feature enables users to surf the web withou collecting browsing history?"
+    choices:
+    - content: "InPrivate browsing"
+      isCorrect: true
+      explanation: "Correct. For enterprises that want their users to able to browse without collecting browsing history, Microsoft Edge has a privacy mode called InPrivate Browsing. This allows users to surf the web without leaving a trail. InPrivate Browsing helps protect data and privacy by preventing the browser from locally storing or retaining browsing history, temporary Internet files, form data, cookies, user names, and passwords. This leaves virtually no evidence of browsing or search history as the browsing session does not store session data."
+    - content: "Tracking Protection"
+      isCorrect: false
+      explanation: "Incorrect. Tracking Protection monitors the frequency of all third-party content as it appears across all websites that a user visits. Try again."
+    - content: "Cached browsing"
+      isCorrect: false
+      explanation: "Incorrect. There is no such feature as cached browsing. Try again."
+  - content: "Lucerne Publishing wants to employ InPrivate Browsing to help protect data and privacy by preventing the browser from locally storing or retaining browsing history, temporary Internet files, form data, cookies, user names, and passwords. However, the company is concerned that some users may attempt to use InPrivate Browsing to conceal their tracks when browsing prohibited websites, or websites that do not pertain to work. What feature can Lucerne Publishing use to configure how it uses InPrivate Browsing and still provide full manageability control on users’ work devices?"
+    choices:
+    - content: "Tracking Protection"
+      isCorrect: false
+      explanation: "Incorrect. Tracking Protection monitors the frequency of all third-party content as it appears across all websites that a user visits. Try again."
+    - content: "Tracking prevention templates from Microsoft Intune"
+      isCorrect: false
+      explanation: "Incorrect. There are no such templates in Microsoft Intune. Try again."
+    - content: "Group Policy"
+      isCorrect: true
+      explanation: "Correct. Some users may attempt to use InPrivate Browsing to conceal their tracks when browsing prohibited websites, or websites that don't pertain to work. However, you can use Group Policy to configure how your organization uses InPrivate Browsing, thereby providing you with full manageability control on users’ work devices."
+  - content: "Microsoft Edge provides a side panel that allows you to add pages or drag objects into the panel. This panel allows you to organize and share content that you find across the web. That's this feature?"
+    choices:
+    - content: "Pinned tabs"
+      isCorrect: false
+      explanation: "Incorrect. In Microsoft Edge, you can pin tabs to the tab row. Pinned tabs take up less space because they only display the site icon, and they reappear when you close and reopen Microsoft Edge. Try again."
+    - content: "Pivot between profiles"
+      isCorrect: false
+      explanation: "Incorrect. Pivot between profiles allows you to easily switch credentials when you want to change your experience on different devices. Try again."
+    - content: "Collections"
+      isCorrect: true
+      explanation: "Correct. Collections allow you to easily collect, organize and share content that you find across the web. Collections provide a side panel that allows you to add pages or drag objects into the panel. This provides an easy way to perform actions such as comparing items when shopping or collecting information for planning a trip or event."
