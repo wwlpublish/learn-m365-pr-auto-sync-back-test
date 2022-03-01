@@ -1,0 +1,74 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.manage-universal-windows-platform-apps.knowledge-check
+title: Knowledge check
+metadata:
+  title: Knowledge check
+  description: "Knowledge check"
+  ms.date: 03/01/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 5
+content: |
+  [!include[](includes/5-knowledge-check.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "The Microsoft Store is primarily for end-users’ use when not necessarily working for an enterprise. In contrast, the Microsoft Store for Business gives enterprise employees a way to install work-related Universal Windows apps. Which of the following items is a feature of the Microsoft Store?"
+    choices:
+    - content: "Purchasing requires an Azure AD account"
+      isCorrect: false
+      explanation: "Incorrect. This item is a feature of the Microsoft Store for Business rather than the Microsoft Store. Purchasing in Microsoft Store requires a Microsoft account. Try again."
+    - content: "Each user purchases their own license for an application"
+      isCorrect: true
+      explanation: "Correct. In the Microsoft Store, each user purchases their own license for an application. In contrast, in the Microsoft Store for Business, an administrator can purchase multiple application licenses."
+    - content: "You can deploy applications through the Microsoft Store and by using deployment tools"
+      isCorrect: false
+      explanation: "Incorrect. This item is a feature of the Microsoft Store for Business rather than the Microsoft Store. In Microsoft Store, you can only deploy apps through the Microsoft Store. Try again."
+  - content: "Contoso is running Windows 11 on all its client devices. The company wants to disable user access to the Microsoft Store as a means of controlling application installations. What tool should it use to disable user access to the Microsoft Store?"
+    choices:
+    - content: "Windows PowerShell"
+      isCorrect: false
+      explanation: "Incorrect. This tool won't allow you to disable user access to the Microsoft Store. Try again."
+    - content: "Command line prompt"
+      isCorrect: false
+      explanation: "Incorrect. This tool won't allow you to disable user access to the Microsoft Store. Try again."
+    - content: "regedit.exe"
+      isCorrect: true
+      explanation: "Correct. To disable user access to the Microsoft Store, you should run rededit.exe. You will then navigate to HKEY_LOCAL_MACHINE\\SOFTWARE\\Policies\\Microsoft\\WindowsStore. From here, you will create a new DWORD value named RemoveWindowsStore, and change the value to 1. To finalize the process, you must restart the computer and sign back in."
+  - content: "Northwind Traders is currently running Windows 10 Enterprise on its client devices. Northwind recently experienced several security breaches where users unknowingly ran malicious software that transmitted sensitive company information out of the organization. Since Northwind had no previous application control policies in place, its users were free to download whatever applications they wanted on to their devices. This lead to the malicious apps being downloaded that resulted in the security breaches. Northwind wants to rectify this situation by controlling which Universal Windows apps users can install and run. Which tool will provide this security feature?"
+    choices:
+    - content: "AppLocker"
+      isCorrect: true
+      explanation: "Correct. Windows 10 Enterprise and Windows 10 Education editions enable you to use AppLocker to control which Universal Windows apps users can install and run. In AppLocker, you configure which Universal Windows apps to allow or deny, under the category Packaged Apps."
+    - content: "BitLocker"
+      isCorrect: false
+      explanation: "Incorrect. BitLocker is a full volume encryption feature included with Microsoft Windows. It's designed to protect data by providing encryption for entire volumes. Try again."
+    - content: "Microsoft App-V for Windows"
+      isCorrect: false
+      explanation: "Incorrect. Microsoft Application Virtualization (App-V) for Windows delivers Win32 applications to users as virtual applications. Try again."
+  - content: "Since many users have multiple devices, Microsoft Store allows a user to install a single Universal Windows application on multiple devices. How many installations of a single application can a user install through the Microsoft Store?"
+    choices:
+    - content: "5"
+      isCorrect: false
+      explanation: "Incorrect. This value isn't the correct number of installations allowed for a single app. Try again."
+    - content: "8"
+      isCorrect: false
+      explanation: "Incorrect. This value isn't the correct number of installations allowed for a single app. Try again."
+    - content: "10"
+      isCorrect: true
+      explanation: "Correct. Many users have multiple devices—for example, a desktop and a laptop computer. The Microsoft Store allows 10 installations of a single application so that users can run the same application on each of their devices. If users attempt to install an application on an 11th device, they receive a prompt that they must first remove the application from another device."
+  - content: "As the Desktop Administrator for Contoso, Holly Dickson wants to convert several desktop apps to Universal Windows apps. What tool must Holly run that repackages an existing binary into the Universal Windows Platform (UWP) format, resulting in a package that contains the same base code that runs the desktop app?"
+    choices:
+    - content: "UWP Converter"
+      isCorrect: false
+      explanation: "Incorrect. This item isn't the tool that Holly must run. Try again."
+    - content: "Desktop App Converter"
+      isCorrect: true
+      explanation: "Correct. Converting desktop apps to Universal Windows apps relies on two components. The first component is the Desktop App Converter, which is a tool that repackages an existing binary into the Universal Windows Platform (UWP) format. The resulting package contains the same base code that runs the desktop app. The second component is a runtime that allows UWP packages to operate with the full trust level, rather than in an app container. It also assigns a package identity to a converted app."
+    - content: "Universal Windows App Generator"
+      isCorrect: false
+      explanation: "Incorrect. This item isn't the tool that Holly must run. Try again."

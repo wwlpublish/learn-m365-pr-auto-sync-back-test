@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.manage-universal-windows-platform-apps.manage-access-microsoft-store-apps
+title: Manage access to Microsoft Store apps
+metadata:
+  title: Manage access to Microsoft Store apps
+  description: "Manage access to Microsoft Store apps"
+  ms.date: 03/01/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/3-manage-access-microsoft-store-apps.md)]
