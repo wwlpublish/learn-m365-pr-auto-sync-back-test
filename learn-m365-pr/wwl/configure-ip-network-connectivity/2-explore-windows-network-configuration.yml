@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.configure-ip-network-connectivity.explore-windows-network-configuration
+title: Explore Windows network configuration
+metadata:
+  title: Explore Windows network configuration
+  description: "Explore Windows network configuration"
+  ms.date: 03/01/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/2-explore-windows-network-configuration.md)]

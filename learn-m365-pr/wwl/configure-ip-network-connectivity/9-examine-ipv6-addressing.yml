@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.configure-ip-network-connectivity.examine-ipv6-addressing
+title: Examine IPv6 addressing
+metadata:
+  title: Examine IPv6 addressing
+  description: "Examine IPv6 addressing"
+  ms.date: 03/01/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 4
+content: |
+  [!include[](includes/9-examine-ipv6-addressing.md)]

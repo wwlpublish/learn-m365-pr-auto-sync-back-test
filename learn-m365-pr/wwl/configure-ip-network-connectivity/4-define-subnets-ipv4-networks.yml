@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.configure-ip-network-connectivity.define-subnets-ipv4-networks
+title: Define subnets for IPv4 networks
+metadata:
+  title: Define subnets for IPv4 networks
+  description: "Define subnets for IPv4 networks"
+  ms.date: 03/01/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/4-define-subnets-ipv4-networks.md)]

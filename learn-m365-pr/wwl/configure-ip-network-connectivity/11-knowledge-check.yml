@@ -1,0 +1,77 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.configure-ip-network-connectivity.knowledge-check
+title: Knowledge Check
+metadata:
+  title: Knowledge Check
+  description: "Knowledge Check"
+  ms.date: 03/01/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 5
+content: |
+  [!include[](includes/11-knowledge-check.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "What benefit does multicast provide?"
+    choices:
+    - content: "Reduces bandwidth consumption by sending the same information to multiple computers at once"
+      isCorrect: true
+      explanation: "Correct. Multicast can send a single packet of information to mutliple computers, instead of sending the same packet of information repeatedly to multiple computers."
+    - content: "Allows one device to talk to multiple devices"
+      isCorrect: false
+      explanation: "Incorrect. Mutlicast isn't necessary for communicating with multiple devices."
+    - content: "Increases the network speed"
+      isCorrect: false
+      explanation: "Incorrect. While using multicast can reduce network traffic congestion and improve performce, multicast does not change the speed at which data is transmitted."
+  - content: "Your organization recently upgraded to Windows 10 from Windows 8.1. You want to use a familiar, wizard-driven tool to configure wired and wireless connections. Which tool should you use?"
+    choices:
+    - content: "Network and Internet"
+      isCorrect: false
+      explanation: "Incorrect. This interface isn't wizard driven."
+    - content: "Network and Sharing Center"
+      isCorrect: true
+      explanation: "Correct. The Network and Sharing Center provides a clear view of the status for any wired or wireless connection. You can use it to create additional network connections by using a wizard-driven interface. The Network and Sharing Center also provides links for accessing other network-related tools."
+    - content: "Windows PowerShell"
+      isCorrect: false
+      explanation: "Incorrect. PowerShell isn't wizard driven."
+  - content: "You migrated a website to a new server. One of your users reported that he received an \"Unavailable\" message when trying to access the website. However, other users that you checked with report that they can access the site with no problem. Which PowerShell cmdlet can you use that hay help resolve the issue?"
+    choices:
+    - content: "Test-Connection"
+      isCorrect: false
+      explanation: "Incorrect. While this cmdlet may help confirm whether the server is available, it won't resolve the problem. Try again."
+    - content: "Clear-DnsClientCache"
+      isCorrect: true
+      explanation: "Correct. The client may still be resolving the IP address of the old server. Therefore, clearing the client's resolver cache will force the client to ask the DNS server for the IP address."
+    - content: "Register-DnsClient"
+      isCorrect: false
+      explanation: "Incorrect. This cmdlet won't correct a communication issue between the client and web server. Try again."
+  - content: "Your network administrator has asked you to verify that a Windows client computer in your Houston office has network connectivity to a file server at the Chicago office. You need to provide detailed statistics on delay and packet loss on the individual steps, or hops, through the network routers. Which command or tool should you use?"
+    choices:
+    - content: "The Pathping command"
+      isCorrect: true
+      explanation: "Correct. The Pathping command traces a route through the network in a manner similar to the Tracert tool. However, Pathping provides more detailed statistics on the individual steps, or hops, through the network. The command can provide greater detail because it sends 100 packets for each router, which enables it to establish trends."
+    - content: "The Ping command"
+      isCorrect: false
+      explanation: "Incorrect. Ping will report the delay between devices, but not the number of hops. Try again."
+    - content: "The Tracert tool"
+      isCorrect: false
+      explanation: "Incorrect. Tracert will return the number of hops and minimal information. It does not return information such as packet loss. Try again."
+    - content: "NSLookup"
+      isCorrect: false
+      explanation: "Incorrect. NSLookup is used to get information on DNS servers."
+  - content: "Your organization has recently upgraded the network to support IPv6. Which of the following features is unique to IPv6 addresses?"
+    choices:
+    - content: "Smaller, more efficient address space than IPv4"
+      isCorrect: false
+      explanation: "Incorrect. The size of an address in IPv6 is four times larger than an IPv4 address. Try again."
+    - content: "The IPv6 address space is more efficient for routers"
+      isCorrect: true
+      explanation: "Correct. The IPv6 address space is more efficient for routers due to its hierarchical addressing and routing infrastructure. This design means that even though there are many more addresses in IPv6 than IPv4, routers can process data much more efficiently because of address optimization."
+    - content: "URL filtering"
+      isCorrect: false
+      explanation: "Incorrect. URL filtering isn't a feature that's unique to IPv6. Try again."
