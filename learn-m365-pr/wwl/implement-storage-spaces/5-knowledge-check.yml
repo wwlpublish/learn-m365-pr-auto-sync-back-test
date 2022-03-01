@@ -1,0 +1,76 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.implement-storage-spaces.knowledge-check
+title: Knowledge Check
+metadata:
+  title: Knowledge Check
+  description: "Knowledge Check"
+  ms.date: 03/01/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+  zone_pivot_groups: azure-interface
+azureSandbox: false
+labModal: false
+durationInMinutes: 5
+content: |
+  [!include[](includes/5-knowledge-check.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "As the Desktop Administrator for Fabrikam, Holly Spencer wants to add physical disks to a storage pool. Which of the following requirements do the disks need to satisfy?"
+    choices:
+    - content: "Two physical disks are needed to create a storage pool"
+      isCorrect: false
+      explanation: "Incorrect. One physical disk is needed to create a storage pool. Try again."
+    - content: "A minimum of two physical disks are needed to create a resilient mirror virtual disk"
+      isCorrect: true
+      explanation: "Correct. Creating a resilient mirror virtual disk requires a minimum of two physical disks."
+    - content: "Disks must be blank but formatted"
+      isCorrect: false
+      explanation: "Incorrect. When adding disks to a storage pool, the disks must be blank and unformatted; no volume must exist on them. Try again."
+  - content: "You're the Desktop Administrator for World Wide Importers. In the past, the company has employed a more traditional fixed storage allocation method, in which it allocated large pools of storage capacity that often remained unused. You want to change methodologies from this traditional method to one that optimizes the utilization of available storage. In other words, you only want the allocation of storage space to occur when datasets grow to require the storage. Which of the following provisioning schemes should you employ?"
+    choices:
+    - content: "Parity"
+      isCorrect: false
+      explanation: "Incorrect. Parity is a type of storage layout; it's not a provisioning scheme. Try again."
+    - content: "Fixed provisioning space"
+      isCorrect: false
+      explanation: "Incorrect. Storage capacity allocation in the fixed provisioning space happens at the same time as storage space creation rather than when the storage space is needed. Try agan."
+    - content: "Thin provisioning space"
+      isCorrect: true
+      explanation: "Correct. Thin provisioning is a mechanism that enables you to allocate storage when the storage space needs it. The storage pool organizes the storage capacity into provisioning slabs. The allocation does not happen until the point when datasets grow to require the storage. As opposed to the traditional fixed storage allocation method, in which you might allocate large pools of storage capacity that remain unused, thin provisioning optimizes utilization of available storage."
+  - content: "Which of the following items is a collection of one or more physical disks that you can use to create virtual disks?"
+    choices:
+    - content: "Storage space"
+      isCorrect: false
+      explanation: "Incorrect. A storage space is similar to a physical disk from the perspective of users and programs. However, storage spaces are more flexible because they include thin provisioning or just-in-time (JIT) allocations, and they include resiliency to physical disk failures with built-in functionality such as mirroring. Try again."
+    - content: "Mirror space"
+      isCorrect: false
+      explanation: "Incorrect. Mirror spaces maintain two or three copies of the data that they host (two data copies for two-way mirrors and three data copies for three-way mirrors). Data duplication happens with every write to ensure that all data copies are always current. Try again."
+    - content: "Storage pool"
+      isCorrect: true
+      explanation: "Correct. A storage pool is a collection of one or more physical disks that you can use to create virtual disks. You can add all nonformatted physical disks and disks that do not have an attachment to another storage pool to a storage pool."
+  - content: "As the Desktop Administrator for Tailspin Toys, Alan Deyoung wants to create storage spaces from storage pools. When configuring storage layout, which option should Alan select that has data striping but no redundancy?"
+    choices:
+    - content: "Simple"
+      isCorrect: true
+      explanation: "Correct. A simple space has data striping but no redundancy. In data striping, logically sequential data is segmented across all disks in such a way that provides access for these sequential segments to different physical storage drives. Striping makes it possible to access multiple segments of data concurrently."
+    - content: "Two-way and three-way mirrors"
+      isCorrect: false
+      explanation: "Incorrect. Mirror spaces maintain two or three copies of the data that they host (two data copies for two-way mirrors and three data copies for three-way mirrors). Data duplication happens with every write to ensure that all data copies are always current. Try again."
+    - content: "Parity"
+      isCorrect: false
+      explanation: "Incorrect. A parity space is similar to RAID 5. Storage Spaces stores data, along with parity information, striped across multiple physical drives. Parity enables Storage Spaces to continue servicing read and write requests even when a drive has failed. Try again."
+  - content: "As the Desktop Administrator for Contoso, Holly Dickson wants to implement storage virtualization in both Windows Server and Windows clients. Holly wants to add physical disks of any type and size to a storage pool, and then create highly available virtual disks from the storage pool. What feature should Holly employ to provide this functionality?"
+    choices:
+    - content: "Block virtualization"
+      isCorrect: false
+      explanation: "Incorrect. This item is a type of virtualization, but it's not what Holly should employ. Try again."
+    - content: "Storage Spaces"
+      isCorrect: true
+      explanation: "Correct. Storage Spaces is a storage virtualization capability that is available in both Windows Server and Windows client. You can use Storage Spaces to add physical disks of any type and size to a storage pool, and then create highly available virtual disks from the storage pool."
+    - content: "File virtualization"
+      isCorrect: false
+      explanation: "Incorrect. This item is a type of virtualization, but it's not what Holly should employ. Try again."
+interactive: bash
