@@ -1,0 +1,40 @@
+### YamlMime:Module
+uid: learn.wwl.provide-apps-users
+metadata:
+  title: Provide apps to users
+  description: "In this module, you will learn about traditional app-deployment methods, as well as methods that you can use to help to automate app deployment."
+  ms.date: 03/01/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Provide apps to users
+summary: In this module, you will learn about traditional app-deployment methods, as well as methods that you can use to help to automate app deployment.
+abstract: |
+  After completing this module, you will be able to:
+  - Differentiate between the types of apps in Windows.
+  - Describe manual app installation.
+  - Explain the methods for automating installation of desktop apps.
+prerequisites: |
+  - Students should have a basic understanding of computer networks and hardware concepts.
+  - Students should have a basic understanding of OS and Application concepts.
+  - Students should have experience with using Windows 10 or later.
+iconUrl: http://via.placeholder.com/120x120
+hidden: true
+levels:
+- beginner
+roles:
+- administrator
+products:
+- windows
+units:
+- learn.wwl.provide-apps-users.introduction
+- learn.wwl.provide-apps-users.explore-types-windows-apps
+- learn.wwl.provide-apps-users.examine-methods-deploying-desktop-apps
+- learn.wwl.provide-apps-users.install-desktop-apps-manually
+- learn.wwl.provide-apps-users.automate-desktop-app-installation
+- learn.wwl.provide-apps-users.install-microsoft-365-apps
+- learn.wwl.provide-apps-users.knowledge-check
+- learn.wwl.provide-apps-users.summary
+badge:
+  uid: learn.wwl.provide-apps-users.badge
