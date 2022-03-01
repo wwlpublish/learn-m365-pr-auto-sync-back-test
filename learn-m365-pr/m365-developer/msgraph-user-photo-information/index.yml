@@ -3,7 +3,7 @@ uid: learn-m365.msgraph-user-photo-information
 metadata:
   title: Access user photo information by using Microsoft Graph
   description: Learn how to create a custom JavaScript application to retrieve user photo information by using Microsoft Graph.
-  ms.date: 03/16/2021
+  ms.date: 03/01/2022
   author: rabwill
   ms.author: rwilliams
   ms.topic: interactive-tutorial
@@ -12,25 +12,25 @@ title: Access user photo information by using Microsoft Graph
 summary: Learn how to create a custom JavaScript application to retrieve user photo information by using Microsoft Graph.
 abstract: |
   In this module, you will:
-  - Use Microsoft Graph to integrate a user photo into an application 
+  - Use Microsoft Graph to integrate a user photo into an application
 prerequisites: |
-  - Global Administrator access to a [Microsoft 365 tenant](https://developer.microsoft.com/microsoft-365/dev-program?ocid=MSlearn&WT.mc_id=m365-16105-cxa)
-  - Ability to develop JavaScript applications
-  - Basic understanding of Azure Active Directory and [Microsoft identity](https://docs.microsoft.com/learn/modules/getting-started-identity/?WT.mc_id=m365-16105-cxa) concepts is recommended
+  - Global Administrator access to a [Microsoft 365 tenant](https://developer.microsoft.com/microsoft-365/dev-program?ocid=MSlearn&WT.mc_id=m365-16105-cxa)
+  - Ability to develop JavaScript applications
+  - Basic understanding of Azure Active Directory and [Microsoft identity](https://docs.microsoft.com/learn/modules/getting-started-identity/?WT.mc_id=m365-16105-cxa) concepts is recommended
   - [Node.js](https://nodejs.org/en/)
   - Completion of the [Configure a JavaScript application to retrieve Microsoft 365 data by using Microsoft Graph](https://docs.microsoft.com/learn/modules/msgraph-javascript-app/?WT.mc_id=m365-16105-cxa) module
 iconUrl: /learn/achievements/graph-photo-information.svg
 levels:
-- beginner
+  - beginner
 roles:
-- developer
+  - developer
 products:
-- m365
-- ms-graph
+  - m365
+  - ms-graph
 units:
-- learn-m365.msgraph-user-photo-information.1-introduction
-- learn-m365.msgraph-user-photo-information.2-access-user-profile-photo
-- learn-m365.msgraph-user-photo-information.3-exercise-access-user-profile-photo
-- learn-m365.msgraph-user-photo-information.4-summary
+  - learn-m365.msgraph-user-photo-information.1-introduction
+  - learn-m365.msgraph-user-photo-information.2-access-user-profile-photo
+  - learn-m365.msgraph-user-photo-information.3-exercise-access-user-profile-photo
+  - learn-m365.msgraph-user-photo-information.4-summary
 badge:
   uid: learn-m365.msgraph-user-photo-information.badge
