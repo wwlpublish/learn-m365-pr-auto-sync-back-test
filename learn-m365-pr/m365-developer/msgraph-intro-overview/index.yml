@@ -2,38 +2,38 @@
 uid: learn-m365.msgraph-intro-overview
 metadata:
   title: What is Microsoft Graph?
-  description: Microsoft Graph provides access to data stored across Microsoft 365 services. Custom applications can use the Microsoft Graph API to connect to data and use it in custom applications to enhance organizational productivity. 
-  ms.date: 02/17/2021
+  description: Microsoft Graph provides access to data stored across Microsoft 365 services. Custom applications can use the Microsoft Graph API to connect to data and use it in custom applications to enhance organizational productivity.
+  ms.date: 03/01/2022
   author: aycabas
   ms.author: aycabas
   ms.topic: interactive-tutorial
   ms.prod: learning-graph
 title: What is Microsoft Graph?
-summary: Microsoft Graph provides access to data stored across Microsoft 365 services. Custom applications can use the Microsoft Graph API to connect to data and use it in custom applications to enhance organizational productivity. 
+summary: Microsoft Graph provides access to data stored across Microsoft 365 services. Custom applications can use the Microsoft Graph API to connect to data and use it in custom applications to enhance organizational productivity.
 abstract: |
   In this module, you will:
   - Learn about what Microsoft Graph is and how it can be used
   - Understand the benefits that Microsoft Graph offers
   - Use Graph Explorer to retrieve organizational data
 prerequisites: |
-  - Global Administrator access to a [Microsoft 365 tenant](https://developer.microsoft.com/microsoft-365/dev-program?ocid=MSlearn&WT.mc_id=m365-16105-cxa)
+  - Global Administrator access to a [Microsoft 365 tenant](https://developer.microsoft.com/microsoft-365/dev-program?ocid=MSlearn&WT.mc_id=m365-16105-cxa)
   - Ability to develop JavaScript applications
   - Basic understanding of Azure Active Directory and [Microsoft identity](https://docs.microsoft.com/learn/modules/getting-started-identity/?WT.mc_id=m365-16105-cxa) concepts is recommended
   - [Node.js](https://nodejs.org/en/)
 iconUrl: /learn/achievements/graph-intro.svg
 levels:
-- beginner
+  - beginner
 roles:
-- developer
+  - developer
 products:
-- m365
-- ms-graph
+  - m365
+  - ms-graph
 units:
-- learn-m365.msgraph-intro-overview.1-introduction
-- learn-m365.msgraph-intro-overview.2-what-is-microsoft-graph
-- learn-m365.msgraph-intro-overview.3-microsoft-graph-services
-- learn-m365.msgraph-intro-overview.4-graph-explorer
-- learn-m365.msgraph-intro-overview.5-exercise-graph-explorer
-- learn-m365.msgraph-intro-overview.6-summary
+  - learn-m365.msgraph-intro-overview.1-introduction
+  - learn-m365.msgraph-intro-overview.2-what-is-microsoft-graph
+  - learn-m365.msgraph-intro-overview.3-microsoft-graph-services
+  - learn-m365.msgraph-intro-overview.4-graph-explorer
+  - learn-m365.msgraph-intro-overview.5-exercise-graph-explorer
+  - learn-m365.msgraph-intro-overview.6-summary
 badge:
   uid: learn-m365.msgraph-intro-overview.badge
