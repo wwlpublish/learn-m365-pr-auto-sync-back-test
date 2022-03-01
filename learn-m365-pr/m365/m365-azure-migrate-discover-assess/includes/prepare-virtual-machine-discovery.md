@@ -17,13 +17,13 @@ The Azure Migrate appliance is a complete, pre-configured Open Virtual Appliance
 
    Click **File> Deploy OVF> Template> Browse** to the OVA file that was downloaded, and go through the normal virtual machine provisioning process, ensuring that it is on a network that can connect to your targeted virtual machines.
 
-   ![Deploy OVA file.](../media/deploy-ovf.png)
+   :::image type="content" source="../media/deploy-ovf.png" alt-text="Deploy OVA file." lightbox="../media/deploy-ovf.png" border="false":::
 
 2. Log into the Azure Migrate appliance running in the ESX environment. This is a Windows image, where you set up and conduct discovery of your on-premises environment.
 
    Keep in mind that this is a **read-only inspection** of your VMs and corresponding metadata including performance history. There are no agents installed on your VM. When you first launch the Azure Migrate Appliance tool, you'll be asked to go through three steps.
 
-   ![Set up discovery for Azure Migrate.](../media/set-up-discovery.png)
+   :::image type="content" source="../media/set-up-discovery.png" alt-text="Set up discovery for Azure Migrate." lightbox="../media/set-up-discovery.png" border="false":::
 
 - Step 1: Set up prerequisites
     Once you accept the terms and conditions, the Azure Migrate Appliance automatically checks to ensure that:
@@ -35,7 +35,7 @@ The Azure Migrate appliance is a complete, pre-configured Open Virtual Appliance
 - Step 3: Specify vCenter Server
     Enter administrator credentials for the vCenter, including IP address, username, and password, and then validate the connection.
 
-   ![Add credentials.](../media/add-credentials.png)
+   :::image type="content" source="../media/add-credentials.png" alt-text="Add credentials." lightbox="../media/add-credentials.png" border="false":::
 - Step 4: Discover apps and dependencies
     This step is optional but recommended. Here you provide virtual machine administrator credentials for discovery of applications and for dependency analysis to ensure your migrations are successful. The credentials are saved on the appliance and encrypted.
 
