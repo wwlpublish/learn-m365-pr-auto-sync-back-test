@@ -1,0 +1,76 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.maintain-disks-volumes.knowledge-check
+title: Knowledge Check
+metadata:
+  title: Knowledge Check
+  description: "Knowledge Check"
+  ms.date: 03/01/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+  zone_pivot_groups: azure-interface
+azureSandbox: false
+labModal: false
+durationInMinutes: 5
+content: |
+  [!include[](includes/5-knowledge-check.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "Contoso recently purchased solid state drives (SSDs) for the laptops used by its Sales team. What method of defragmentation should the Sales team members periodically complete to defragment their new drives and maintain optimum performance?"
+    choices:
+    - content: "Run the Defragment and Optimize Your Drives tool"
+      isCorrect: false
+      explanation: "Incorrect. This item is not the correct response for this question. Try again."
+    - content: "Run the Disk Cleanup feature (cleanmgr.exe)"
+      isCorrect: false
+      explanation: "Incorrect. This item is not the correct response for this question. Try again."
+    - content: "Defragmentation is not needed on SSDs"
+      isCorrect: true
+      explanation: "Correct. Defragmentation is not needed on SSDs, as they work quite differently from traditional hard disk drives. The Windows Storage Optimizer subsystem automatically uses TRIM to mark data blocks as not being used and optimize the drive. While the Optimize Drives UI does not distinguish between defragmentation and retrimming, Windows detects the drive type and runs the appropriate optimization task when needed."
+  - content: "As the Desktop Administrator for Wingtip Toys, Holly Spencer has been managing the storage resources on a laptop that seems to consistently run low on available disk space. The disk on this device uses NTFS-formatted volumes, so Holly has been taking advantage of NTFS folder compression. Holly recently copied several compressed files to an uncompressed folder within an NTFS partition. What happened to the compression state of the compressed files?"
+    choices:
+    - content: "The files were automatically uncompressed after being copied to the target folder"
+      isCorrect: true
+      explanation: "Correct. When you copy a file or folder within an NTFS partition, the file or folder inherits the compression state of the target folder. For example, if you copy a compressed file or folder to an uncompressed folder, the file or folder is uncompressed automatically."
+    - content: "The files remained compressed after being copied to the target folder"
+      isCorrect: false
+      explanation: "Incorrect. This item is true when you move a file or folder within an NTFS partition. In this scenario, the file or folder retains its original compression state. In Holly's scenario, the files were copied and not moved. Try again."
+    - content: "Nothing. Holly was prohibited from copying the files because their compression state didn't match the compression state of the target folder"
+      isCorrect: false
+      explanation: "Incorrect. Holly wasn't prohibited from copying compressed files to an uncompressed folder. Try again."
+  - content: "NTFS compression is available on volumes that use NTFS. Which of the following statements is a characteristic of NTFS compression?"
+    choices:
+    - content: "NTFS compression and decompression always cause some data loss"
+      isCorrect: false
+      explanation: "Incorrect. The NTFS file compression algorithm is a lossless compression algorithm, which means that compressing and decompressing a file results in no data loss. Try again."
+    - content: "The compression state of a folder reflects the compression state of the files within that folder."
+      isCorrect: false
+      explanation: "Incorrect. The compression state of a folder does not necessarily reflect the compression state of the files within that folder. For example, you can compress a folder without compressing its contents, and you can compress some or all of the files in a compressed folder. Try again."
+    - content: "When you open a compressed file, the Windows operating system automatically decompresses it for you."
+      isCorrect: true
+      explanation: "Correct. When you open a compressed file, the Windows operating system automatically decompresses it for you."
+  - content: "As the Desktop Administrator for Adventure Works Cycles, you have been monitoring storage usage on a several tablets that have limited storage space. Which category of storage usage enables you to select which folders synchronize to these devices to save disk space?"
+    choices:
+    - content: "Apps and Games"
+      isCorrect: false
+      explanation: "Incorrect. With this category, you can sort the application list by size, name, and install date. You can also search for an app by name, and when you select the app, you have easy access to uninstall the app. However, you can't select which folders synchronize to these devices to save disk space. Try again."
+    - content: "OneDrive"
+      isCorrect: true
+      explanation: "Correct. The OneDrive category enables you to select which folders synchronize to the device to save disk space. This is particularly useful on devices with limited storage space, such as tablets."
+    - content: "System and Reserved"
+      isCorrect: false
+      explanation: "Incorrect. This category gives you a list of disk space used by Windows system files, virtual memory, hibernation file, and System Restore. However, you can't select which folders synchronize to these devices to save disk space. Try again."
+  - content: "Which type of disk fragmentation occurs when disk space is over-provisioned and then not used by an application?"
+    choices:
+    - content: "Internal fragmentation"
+      isCorrect: true
+      explanation: "Correct. Internal fragmentation occurs when disk space is over-provisioned and then not used by an application. Disk space is provisioned into fixed-sized units, so any portion of a unit that's unused is a leftover fragment."
+    - content: "External fragmentation"
+      isCorrect: false
+      explanation: "Incorrect. External fragmentation occurs when an application or process is removed from a storage system and the used space is not immediately reallocated. The unused space that's left behind is a fragment. Try again."
+    - content: "Data fragmentation"
+      isCorrect: false
+      explanation: "Incorrect. Data fragmentation occurs when data is written to file storage in a non-sequential manner, using the next available block of storage. Try again."
+interactive: bash

@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.maintain-disks-volumes.understand-disk-optimization
+title: Understand disk optimization
+metadata:
+  title: Understand disk optimization
+  description: "Understand disk optimization"
+  ms.date: 03/01/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 4
+content: |
+  [!include[](includes/3-understand-disk-optimization.md)]
