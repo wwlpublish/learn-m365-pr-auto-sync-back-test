@@ -1,0 +1,37 @@
+### YamlMime:Module
+uid: learn.wwl.explore-device-encryption-features
+metadata:
+  title: Explore device encryption features
+  description: "This module explains the benefits of using encryption to protect drives and files against unauthorized access."
+  ms.date: 03/01/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Explore device encryption features
+summary: This module explains the benefits of using encryption to protect drives and files against unauthorized access.
+abstract: |
+  After completing this module, you will be able to:
+  - Describe the benefits of drive encryption with Bitlocker
+  - Describe the benefits of Encrypted File System
+prerequisites: |
+  - Students should have a basic understanding of computer networks and hardware concepts.
+  - Students should have a basic understanding of OS and Students should have experience with using Windows 10 or later.
+iconUrl: /learn/achievements/generic-badge.svg
+hidden: true
+levels:
+- beginner
+roles:
+- administrator
+products:
+- windows
+units:
+- learn.wwl.explore-device-encryption-features.introduction
+- learn.wwl.explore-device-encryption-features.examine-bitlocker
+- learn.wwl.explore-device-encryption-features.evaluate-bitlocker-tpms
+- learn.wwl.explore-device-encryption-features.recover-bitlocker-encrypted-drive
+- learn.wwl.explore-device-encryption-features.assess-encrypting-files-system
+- learn.wwl.explore-device-encryption-features.knowledge-check
+- learn.wwl.explore-device-encryption-features.summary
+badge:
+  uid: learn.wwl.explore-device-encryption-features.badge
