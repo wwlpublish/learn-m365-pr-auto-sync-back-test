@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.explore-remote-access.create-vpn-connection-windows-client
+title: Create a VPN connection in Windows client
+metadata:
+  title: Create a VPN connection in Windows client
+  description: "Create a VPN connection in Windows client"
+  ms.date: 03/01/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 2
+content: |
+  [!include[](includes/3-create-vpn-connection-windows-client.md)]
