@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.manage-storage-windows-clients.describe-mbr-gpt-paritions
+title: Describe MBR and GPT paritions
+metadata:
+  title: Describe MBR and GPT paritions
+  description: "Describe MBR and GPT paritions"
+  ms.date: 03/01/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 4
+content: |
+  [!include[](includes/4-describe-mbr-gpt-paritions.md)]
