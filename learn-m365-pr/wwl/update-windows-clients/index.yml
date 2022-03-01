@@ -1,0 +1,42 @@
+### YamlMime:Module
+uid: learn.wwl.update-windows-clients
+metadata:
+  title: Update Windows clients
+  description: "This module describes the various methods for applying updates to Windows and explains how to configure Windows update in an organization."
+  ms.date: 03/01/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Update Windows clients
+summary: This module describes the various methods for applying updates to Windows and explains how to configure Windows update in an organization.
+abstract: |
+  After completing this module, you will be able to:
+  - Describe the available methods for applying updates to Windows.
+  - Explain the Windows Update configuration options.
+  - Explain the Group Policy Object (GPO) settings available for configuring Windows Update.
+  - Configure Windows Update.
+  - Describe how to use Windows Server Update Services (WSUS) to provide updates to Windows.
+prerequisites: |
+  - Students should have a basic understanding of computer networks and hardware concepts.
+  - Students should have a basic understanding of OS and Application concepts.
+  - Students should have experience with using Windows 10 or later.
+iconUrl: http://via.placeholder.com/120x120
+hidden: true
+levels:
+- beginner
+roles:
+- administrator
+products:
+- windows
+units:
+- learn.wwl.update-windows-clients.introduction
+- learn.wwl.update-windows-clients.examine-windows-update-settings-windows-clients
+- learn.wwl.update-windows-clients.use-wsus-server-deploy-updates
+- learn.wwl.update-windows-clients.update-clients-using-windows-update-business
+- learn.wwl.update-windows-clients.use-group-policy-settings-configure-windows-update
+- learn.wwl.update-windows-clients.troubleshoot-windows-updates
+- learn.wwl.update-windows-clients.knowledge-check
+- learn.wwl.update-windows-clients.summary
+badge:
+  uid: learn.wwl.update-windows-clients.badge
