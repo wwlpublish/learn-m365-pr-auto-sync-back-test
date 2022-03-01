@@ -3,7 +3,7 @@ uid: learn-m365.msgraph-manage-files
 metadata:
   title: Download and upload files in a JavaScript app with Microsoft Graph
   description: Learn how to list, download, and upload a user's files from a single-page application by using Microsoft Graph.
-  ms.date: 03/30/2021
+  ms.date: 03/01/2022
   author: BobGerman
   ms.author: rogerman
   ms.topic: interactive-tutorial
@@ -12,34 +12,34 @@ title: Download and upload files in a JavaScript app with Microsoft Graph
 summary: Learn how to list, download, and upload a user's files from a single-page application by using Microsoft Graph.
 abstract: |
   After completing this module, you'll be able to:
-  - Configure a JavaScript app to list files in a user's instance of OneDrive for Business.
+  - Configure a JavaScript app to list files in a user's instance of OneDrive for Business.
   - Download files from OneDrive for Business by using Microsoft Graph.
   - Upload user files from a browser into OneDrive for Business by using Microsoft Graph.
 prerequisites: |
-  - Global administrator access to a [Microsoft 365 tenant](https://developer.microsoft.com/microsoft-365/dev-program?ocid=MSlearn&WT.mc_id=m365-16105-cxa).
+  - Global administrator access to a [Microsoft 365 tenant](https://developer.microsoft.com/microsoft-365/dev-program?ocid=MSlearn&WT.mc_id=m365-16105-cxa).
   - [Basic understanding of authentication and authorization on Microsoft 365](https://docs.microsoft.com/learn/modules/msgraph-javascript-app/?WT.mc_id=m365-16105-cxa)
   - Basic understanding of HTML and JavaScript
   - [Basic understanding of Microsoft Graph](https://docs.microsoft.com/learn/modules/msgraph-intro-overview/?WT.mc_id=m365-16105-cxa)
   - [Node.js LTS](https://nodejs.org/en/)
 iconUrl: /learn/achievements/graph-downloads-update.svg
 levels:
-- intermediate
+  - intermediate
 roles:
-- developer
+  - developer
 products:
-- m365
-- ms-graph
+  - m365
+  - ms-graph
 units:
-- learn-m365.msgraph-manage-files.1-introduction
-- learn-m365.msgraph-manage-files.2-exercise-configure-azure-active-directory-app
-- learn-m365.msgraph-manage-files.3-connect-javascript-app
-- learn-m365.msgraph-manage-files.4-exercise-connect-javascript-app
-- learn-m365.msgraph-manage-files.5-display-user-files
-- learn-m365.msgraph-manage-files.6-exercise-display-user-files
-- learn-m365.msgraph-manage-files.7-download-user-files
-- learn-m365.msgraph-manage-files.8-exercise-download-user-files
-- learn-m365.msgraph-manage-files.9-upload-user-files
-- learn-m365.msgraph-manage-files.10-exercise-upload-user-files
-- learn-m365.msgraph-manage-files.11-summary
+  - learn-m365.msgraph-manage-files.1-introduction
+  - learn-m365.msgraph-manage-files.2-exercise-configure-azure-active-directory-app
+  - learn-m365.msgraph-manage-files.3-connect-javascript-app
+  - learn-m365.msgraph-manage-files.4-exercise-connect-javascript-app
+  - learn-m365.msgraph-manage-files.5-display-user-files
+  - learn-m365.msgraph-manage-files.6-exercise-display-user-files
+  - learn-m365.msgraph-manage-files.7-download-user-files
+  - learn-m365.msgraph-manage-files.8-exercise-download-user-files
+  - learn-m365.msgraph-manage-files.9-upload-user-files
+  - learn-m365.msgraph-manage-files.10-exercise-upload-user-files
+  - learn-m365.msgraph-manage-files.11-summary
 badge:
   uid: learn-m365.msgraph-manage-files.badge

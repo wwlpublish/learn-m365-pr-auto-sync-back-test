@@ -4,7 +4,7 @@ In this module, you'll learn how to use Microsoft Graph to download and upload f
 
 Your development team is continuing work on a new application that salespeople within your organization will use to manage customers. You've received feedback that application users want to download and upload their sales proposals and customer presentations directly within the application.
 
-The sales team is already using Microsoft 365 and are used to having features such as coauthoring, version control, and web-based Word and Excel. For that reason, your team has been asked that all documents within the customer order application be stored in Microsoft 365, specifically in OneDrive for Business.
+The sales team is already using Microsoft 365 and is used to having features such as coauthoring, version control, and web-based Word and Excel. For that reason, your team has been asked that all documents within the customer order application be stored in Microsoft 365, specifically in OneDrive for Business.
 
 To add this feature, you'll use Microsoft Graph to list, download, and upload files in OneDrive for Business from a single-page application. The application will use the Microsoft Graph JavaScript SDK to simplify the coding, especially the management of large file uploads.
 
@@ -13,7 +13,7 @@ To add this feature, you'll use Microsoft Graph to list, download, and upload fi
 - Global administrator access to a [Microsoft 365 tenant](https://developer.microsoft.com/microsoft-365/dev-program?ocid=MSlearn&WT.mc_id=m365-16105-cxa)
 - [Basic understanding of authentication and authorization on Microsoft 365](https://docs.microsoft.com/learn/modules/msgraph-javascript-app/?WT.mc_id=m365-16105-cxa)
 - Basic understanding of HTML and JavaScript
-- [Basic understanding of Microsoft Graph](https://docs.microsoft.com/learn/modules/msgraph-intro-overview/?WT.mc_id=m365-16105-cxa)
+- [Basic understanding of Microsoft Graph](/learn/modules/msgraph-intro-overview/?WT.mc_id=m365-16105-cxa)
 - [Node.js LTS](https://nodejs.org/en/)
 
 ## Learning objectives
