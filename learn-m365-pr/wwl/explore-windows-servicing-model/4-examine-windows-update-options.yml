@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.explore-windows-servicing-model.examine-windows-update-options
+title: Examine Windows Update options
+metadata:
+  title: Examine Windows Update options
+  description: "Examine Windows Update options"
+  ms.date: 03/01/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 4
+content: |
+  [!include[](includes/4-examine-windows-update-options.md)]

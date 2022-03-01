@@ -1,0 +1,38 @@
+### YamlMime:Module
+uid: learn.wwl.explore-windows-servicing-model
+metadata:
+  title: Explore the Windows servicing model
+  description: "This module examines the Windows client service module and describes the available methods for applying Windows updates."
+  ms.date: 03/01/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Explore the Windows servicing model
+summary: This module examines the Windows client service module and describes the available methods for applying Windows updates.
+abstract: |
+  After completing this module, you will be able to:
+  - Describe the Windows client sevice model.
+  - Describe the different Windows service channels.
+  - Describe the available methods for applying updates to Windows.
+prerequisites: |
+  - Students should have a basic understanding of computer networks and hardware concepts.
+  - Students should have a basic understanding of OS and Application concepts.
+  - Students should have experience with using Windows 10 or later.
+iconUrl: http://via.placeholder.com/120x120
+hidden: true
+levels:
+- beginner
+roles:
+- administrator
+products:
+- windows
+units:
+- learn.wwl.explore-windows-servicing-model.introduction
+- learn.wwl.explore-windows-servicing-model.examine-windows-servicing-model
+- learn.wwl.explore-windows-servicing-model.explore-windows-client-servicing-channels
+- learn.wwl.explore-windows-servicing-model.examine-windows-update-options
+- learn.wwl.explore-windows-servicing-model.knowledge-check
+- learn.wwl.explore-windows-servicing-model.summary
+badge:
+  uid: learn.wwl.explore-windows-servicing-model.badge
