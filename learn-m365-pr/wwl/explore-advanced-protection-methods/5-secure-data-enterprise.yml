@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.explore-advanced-protection-methods.secure-data-enterprise
+title: Secure data in the enterprise
+metadata:
+  title: Secure data in the enterprise
+  description: "Secure data in the enterprise"
+  ms.date: 03/01/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 4
+content: |
+  [!include[](includes/5-secure-data-enterprise.md)]
