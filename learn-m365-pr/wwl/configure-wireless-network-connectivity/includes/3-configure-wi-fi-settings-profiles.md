@@ -43,7 +43,7 @@ From the Network and Sharing Center, you also can configure advanced wireless pr
 
 You can use Windows Server Group Policy Objects (GPOs) to configure wireless profiles. This saves your users from having to configure their wireless connections manually.
 
-## Miracast<br>
+## Miracast
 
 Windows has built-in support for the Wi-Fi Alliance Miracast devices. Miracast is a protocol that will transmit audio and video between devices via Wi-Fi. It is peer-to-peer and uses Wi-Fi Direct for the connection. It is not necessary that both devices are connected to the Internet. They only need to share the same local wireless network. The shared information is sent by the device via Wi-Fi through a Wi-Fi Direct connection to a receiver connected to the display device. The receiver then decodes the video signal and passes it to the TV display (or other display device). Miracast supports WPA2-PSK encryption, so all content you share is safe.
 

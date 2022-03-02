@@ -99,7 +99,12 @@ Wireless security has been the biggest consideration by organizations planning a
     Wi-Fi Protected Access (WPA)
   :::column-end:::
   :::column:::
-    Developed to replace WEP, WPA has two variations:*WPA-Personal* is for home and small business networks, and is easier to implement than WPA Enterprise. It involves providing a security password, and uses a technology called Temporal Key Integrity Protocol. The password and the network SSID generate constantly changing encryption keys for each wireless client.*WPA-Enterprise* is for corporate networks. It involves the use of a Remote Authentication Dial-In User Service (RADIUS) server for authentication.
+    Developed to replace WEP, WPA has two variations.
+
+ -  *WPA-Personal* is for home and small business networks, and is easier to implement than WPA Enterprise. It involves providing a security password, and uses a technology called Temporal Key Integrity Protocol. The password and the network SSID generate constantly changing encryption keys for each wireless client.
+ -  *WPA-Enterprise* is for corporate networks. It involves the use of a Remote Authentication Dial-In User Service (RADIUS) server for authentication.
+
+
   :::column-end:::
 :::row-end:::
 :::row:::
