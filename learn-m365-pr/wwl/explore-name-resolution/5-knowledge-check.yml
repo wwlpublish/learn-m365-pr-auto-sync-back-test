@@ -1,10 +1,10 @@
 ### YamlMime:ModuleUnit
 uid: learn.wwl.explore-name-resolution.knowledge-check
-title: Knowledge Check
+title: Knowledge check
 metadata:
-  title: Knowledge Check
-  description: "Knowledge Check"
-  ms.date: 03/01/2022
+  title: Knowledge check
+  description: "Knowledge check"
+  ms.date: 03/02/2022
   author: wwlpublish
   ms.author: brhinkel
   ms.topic: interactive-tutorial
@@ -21,10 +21,10 @@ quiz:
     choices:
     - content: "16 characters"
       isCorrect: false
-      explanation: "Incorrect. This value isn't the maximum number of charaters in a host name. However, 16 characters is the maximum allowed in a NetBIOS name. Try again."
+      explanation: "Incorrect. This value isn't the maximum number of characters in a host name. However, 16 characters is the maximum allowed in a NetBIOS name. Try again."
     - content: "32 characters"
       isCorrect: false
-      explanation: "Incorrect. This value isn't the maximum number of charaters in a host name. Try again."
+      explanation: "Incorrect. This value isn't the maximum number of characters in a host name. Try again."
     - content: "255 characters"
       isCorrect: true
       explanation: "Correct. A host name is a user-friendly name that is associated with a host’s IP address and identifies it as a TCP/IP host. A host name can be no more than 255 characters in length. It can only contain alphanumeric characters, periods, and hyphens."

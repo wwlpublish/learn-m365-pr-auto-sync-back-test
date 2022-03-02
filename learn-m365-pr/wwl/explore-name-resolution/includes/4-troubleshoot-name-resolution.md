@@ -21,7 +21,10 @@ If you can't connect to a remote host, and if you suspect a name resolution prob
     
     > [!NOTE]
     > Alternately, you can use the Windows PowerShell cmdlet **Clear-DnsClientCache**.
-2.  Attempt to verify connectivity to a remote host by using its IP address. This helps you identify whether the issue is due to name resolution. You can use the **Ping** command or the **test-connection** Windows PowerShell cmdlet. If the **Ping** command succeeds with the IP address but fails by the host name, the problem is with name resolution. **Note:** Remember that the remote host must allow inbound ICMP echo packets through its firewall for this test to be viable.
+2.  Attempt to verify connectivity to a remote host by using its IP address. This helps you identify whether the issue is due to name resolution. You can use the **Ping** command or the **test-connection** Windows PowerShell cmdlet. If the **Ping** command succeeds with the IP address but fails by the host name, the problem is with name resolution.
+    
+    > [!NOTE]
+    > Remember that the remote host must allow inbound ICMP echo packets through its firewall for this test to be viable.
 3.  Attempt to verify connectivity to the remote host by its host name, by using the FQDN followed by a period. For example, type the following command at the command prompt:
     
     ```

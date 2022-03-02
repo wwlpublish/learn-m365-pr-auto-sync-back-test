@@ -3,7 +3,7 @@ uid: learn.wwl.explore-name-resolution
 metadata:
   title: Explore name resolution
   description: "This module focuses on name resolution in Windows client and the methods used to resolve device names to addresses."
-  ms.date: 03/01/2022
+  ms.date: 03/02/2022
   author: wwlpublish
   ms.author: brhinkel
   ms.topic: interactive-tutorial
