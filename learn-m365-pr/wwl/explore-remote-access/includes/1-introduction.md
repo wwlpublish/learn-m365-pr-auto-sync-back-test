@@ -2,7 +2,7 @@ Windows helps users improve their productivity, regardless of their location, or
 
 ### Objectives
 
-After completing this modules, you will be able to:
+After completing this module, you'll be able to:
 
  -  Describe how to use VPNs to connect to a remote network.
  -  Explain how Always On VPN can help remote users connect.

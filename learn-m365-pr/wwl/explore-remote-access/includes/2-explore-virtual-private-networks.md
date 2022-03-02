@@ -30,7 +30,7 @@ All VPN connections, irrespective of tunneling protocol, share some common chara
 
 You can provide additional security for your remote access connections by integrating VPN with the Azure Active Directory (Azure AD) Conditional Access Framework. The Conditional Access Framework is a Microsoft Azure Active Directory–based policy engine that in combination with a mobile device management (MDM) solution such as Microsoft Intune, can verify device compliance before granting access to a corporate network or Microsoft Online.
 
-Conditional Access policies analyze signals such as user, device, and location to automate decisions and enforce organizational access policies for resources. Conditional Access policies allow you to build conditions that manage security controls that can block access, require multifactor authentication, or restrict the user’s session when needed and stay out of the user’s way when not.
+Conditional Access policies analyze signals such as user, device, and location to automate decisions and enforce organizational access policies for resources. Conditional Access policies allow you to build conditions that manage security controls that can block access, require multi-factor authentication, or restrict the user’s session when needed and stay out of the user’s way when not.
 
 Conditional Access policies at their simplest are if-then statements. If a user wants to access a resource, then they must complete an action. Example: A payroll manager wants to access the company's payroll application and is required to complete multi-factor authentication to access it.
 

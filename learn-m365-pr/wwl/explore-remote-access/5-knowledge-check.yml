@@ -49,7 +49,7 @@ quiz:
       explanation: "Incorrect. Fabrikam's current solution only supports IPv6, and its clients must be domain-joined. These are the features of Direct Access. Try again."
     - content: "Conditional Access Framework"
       isCorrect: false
-      explanation: "Incorrect. Conditional Access Framwork is a security feature that provides additional security for your remote access connections. Try again."
+      explanation: "Incorrect. Conditional Access Framework is a security feature that provides additional security for your remote access connections. Try again."
   - content: "Contoso wants to provide additional security for its remote access connections. Specifically, it wants to protect enterprise data against leakage and unauthorized use. To do so, what feature should Contoso integrate its VPN client with?"
     choices:
     - content: "Microsoft Defender for Cloud Apps"
