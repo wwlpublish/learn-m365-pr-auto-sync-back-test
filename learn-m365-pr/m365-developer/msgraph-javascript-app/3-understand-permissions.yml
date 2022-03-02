@@ -3,7 +3,7 @@ uid: learn-m365.msgraph-javascript-app.3-understand-permissions
 metadata:
   title: Understand Microsoft Graph permissions and consent
   description: Learn about how permissions and consent work in Microsoft Graph.
-  ms.date: 03/16/2021
+  ms.date: 03/01/2022
   author: rabwill
   ms.author: rwilliams
   ms.topic: interactive-tutorial
