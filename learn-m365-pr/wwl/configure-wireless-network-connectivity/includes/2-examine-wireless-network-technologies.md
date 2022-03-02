@@ -3,7 +3,7 @@ Wireless networking uses radio waves to connect wireless devices to other networ
 :::image type="content" source="../media/wireless-network-diagram-0b4ee712.jpg" alt-text="Diagram showing the relationship of IPv4.":::
 
 
-### Wireless Network Topologies
+### Wireless network topologies
 
 There are two types of wireless network topologies:
 
@@ -51,7 +51,7 @@ The 802.11 standard has been evolving since 1997. There have been many improveme
     802.11g
   :::column-end:::
   :::column:::
-    This specification is for transmission over short distances at speeds up to 54 mbps. It is backward compatible with 802.11b, and operates in the 2.4 GHz range.
+    This specification is for transmission over short distances at speeds up to 54 mbps. It's backward compatible with 802.11b, and operates in the 2.4 GHz range.
   :::column-end:::
 :::row-end:::
 :::row:::
@@ -76,7 +76,7 @@ Guest devices that don't support the 802.11x wireless standards won't be able to
 
 ### Wireless security
 
-Wireless security has been the biggest consideration by organizations planning a wireless implementation. Because wireless traffic travels across open airwaves, it is susceptible to interception by attackers. Therefore, organizations utilize several security technologies to address these concerns. Most Wi-Fi devices support multiple security standards. The following table describes the current security methods available for wireless networks.
+Wireless security has been the biggest consideration by organizations planning a wireless implementation. Because wireless traffic travels across open airwaves, it's susceptible to interception by attackers. Therefore, organizations utilize several security technologies to address these concerns. Most Wi-Fi devices support multiple security standards. The following table describes the current security methods available for wireless networks.
 
 :::row:::
   :::column:::
@@ -91,7 +91,7 @@ Wireless security has been the biggest consideration by organizations planning a
     Wired Equivalent Privacy (WEP)
   :::column-end:::
   :::column:::
-    WEP is the oldest form of wireless security. Some devices support different versions: WEP 64-bit key, WEP 128-bit key, WEP 256-bit key. The security issues surrounding WEP are well documented, and you should avoid using WEP unless it is the only alternative.
+    WEP is the oldest form of wireless security. Some devices support different versions: WEP 64-bit key, WEP 128-bit key, WEP 256-bit key. The security issues surrounding WEP are well documented, and you should avoid using WEP unless it's the only alternative.
   :::column-end:::
 :::row-end:::
 :::row:::
@@ -120,17 +120,17 @@ Wireless security has been the biggest consideration by organizations planning a
     WPA3
   :::column-end:::
   :::column:::
-    WPA3 improves upon WPA2, and is relatively new. It addresses issues with using brute-force attacks to match passwords and unencrypt data. Malicous users with the WiFi password cannot see the contents of traffic by other clients. The Easy Connect feature makes connecting IoT devices easier.WPA-Enterprise increases encryption to 192 bits.
+    WPA3 improves upon WPA2, and is relatively new. It addresses issues with using brute-force attacks to match passwords and unencrypt data. Malicious users with the WiFi password can’t see the contents of traffic by other clients. The Easy Connect feature makes connecting IoT devices easier.WPA-Enterprise increases encryption to 192 bits.
   :::column-end:::
 :::row-end:::
 
 
 The security methods that a given wireless device supports depends on the vendor and the device’s age. All modern wireless devices should support WPA2.
 
-### Wireless Driver Model
+### Wireless driver model
 
 Windows 10 introduces a new Wireless Driver Interface (WDI) driver model. This feature allows for a universal WLAN driver package that supports native functionality in the various versions of Windows. Such a driver is called a Universal Windows driver. This driver works on OneCore Universal App Platform (UAP) based editions of Windows, such as Windows for desktop editions (Home, Pro, Enterprise, and Education) and Windows IoT Core (IoT Core).
 
 A Universal Windows driver calls a subset of the interfaces that are available to a Windows driver. For example, the cellular and Wi-Fi connections can be managed using the same networking stack. That allows for easy configuration of metered connections, where you want to avoid large data transfers when possible, and monitoring data usage on a per-connection basis. It also offers greater reliability, with the capability to recover quickly when a device hangs for firmware-related reasons. The new driver model also supports MAC address randomization to increase security and privacy.
 
-Why would you want to randomize your MAC address? When you are not connected to Wi-Fi, your PC sends a signal to look for Wi-Fi networks in the area to help you get connected. The signal contains the unique physical hardware (MAC) address for your device. Some places, for example shopping malls, stores, or other public areas, might use this unique address to track your movement in that area. If your Wi-Fi hardware supports it, you can turn on random hardware addresses to make it harder for people to track you when your PC scans for networks and connects.
+Why would you want to randomize your MAC address? When you aren't connected to Wi-Fi, your PC sends a signal to look for Wi-Fi networks in the area to help you get connected. The signal contains the unique physical hardware (MAC) address for your device. Some places, for example shopping malls, stores, or other public areas, might use this unique address to track your movement in that area. If your Wi-Fi hardware supports it, you can turn on random hardware addresses to make it harder for people to track you when your PC scans for networks and connects.

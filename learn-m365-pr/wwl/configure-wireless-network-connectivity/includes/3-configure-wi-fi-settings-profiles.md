@@ -2,7 +2,7 @@ An increasing number of devices use wireless connections as the primary method f
 
 ### Configuring Wi-Fi Settings/Profile
 
-Windows makes it very easy to connect to and configure wireless network settings. Use the following procedures to manage your wireless network connections.
+Windows makes it easy to connect to and configure wireless network settings. Use the following procedures to manage your wireless network connections.
 
 :::image type="content" source="../media/windows-10-configure-wifi-fbd67219.jpg" alt-text="Diagram showing the relationship of IPv4.":::
 
@@ -14,9 +14,9 @@ To connect to a wireless network:
 1.  Tap the wireless network icon on the notification area to see a list of available wireless networks.
 2.  Tap the network of your choice.
 3.  Tap **Connect**.
-4.  When prompted, enter the security information required by the wireless hub to which you are connecting your device, and then tap **Next**.
+4.  When prompted, enter the security information required by the wireless hub to which you're connecting your device, and then tap **Next**.
 
-You are connected.
+You're connected.
 
 #### Configure wireless networks
 
@@ -45,11 +45,11 @@ You can use Windows Server Group Policy Objects (GPOs) to configure wireless pro
 
 ## Miracast
 
-Windows has built-in support for the Wi-Fi Alliance Miracast devices. Miracast is a protocol that will transmit audio and video between devices via Wi-Fi. It is peer-to-peer and uses Wi-Fi Direct for the connection. It is not necessary that both devices are connected to the Internet. They only need to share the same local wireless network. The shared information is sent by the device via Wi-Fi through a Wi-Fi Direct connection to a receiver connected to the display device. The receiver then decodes the video signal and passes it to the TV display (or other display device). Miracast supports WPA2-PSK encryption, so all content you share is safe.
+Windows has built-in support for the Wi-Fi Alliance Miracast devices. Miracast is a protocol that will transmit audio and video between devices via Wi-Fi. It's peer-to-peer and uses Wi-Fi Direct for the connection. It isn't necessary that both devices are connected to the Internet. They only need to share the same local wireless network. The shared information is sent by the device via Wi-Fi through a Wi-Fi Direct connection to a receiver connected to the display device. The receiver then decodes the video signal and passes it to the TV display (or other display device). Miracast supports WPA2-PSK encryption, so all content you share is safe.
 
 ## Near Field Communication
 
-Windows has built-in support for Near Field Communication (NFC), which is still an emerging technology based on short-range wireless radio technologies using radio frequency identification (RFID). NFC-enabled printing enables users to “tap” a device (such as a tablet or phone) onto a printer to connect to it. Where the components cannot be tapped together, NFC should still work if the devices are brought close together, within a maximum distance of 4 inches (10 centimeters).
+Windows has built-in support for Near Field Communication (NFC), which is still an emerging technology based on short-range wireless radio technologies using radio frequency identification (RFID). NFC-enabled printing enables users to “tap” a device (such as a tablet or phone) onto a printer to connect to it. Where the components can’t be tapped together, NFC should still work if the devices are brought close together, within a maximum distance of 4 inches (10 centimeters).
 
 NFC is similar to Bluetooth, but without the option to manually pair—the communication is triggered due to physical proximity. NFC uses short-range radio waves for discovery and for transmitting data, and requires some form of NFC-enabled hardware, such as a smart tag, sticker, key fob, or wallet card, which may also be located inside a laptop or tablet. Most smartphones have NFC built into the devices, which enables NFC sharing of photos between NFC-connected devices.
 
@@ -58,7 +58,9 @@ Once an enterprise has made available NFC-enabled devices, administrators can pe
  -  Add an NFC smart tag to their printer, or purchase printers with NFC built in.
  -  Enable the following connection types to be used: Universal Naming Convention (UNC), Web Services on Devices (WSD), and Wi-Fi Direct.
  -  Optionally, use the PowerShell cmdlet Write-PrinterNfcTag to provision an NFC tag with information about a printer.
- -  Although NFC built-in support is provided by Windows, this is available for OEMs and ISVs to produce NFC-enabled hardware. NFC offers mobile devices significant opportunities to access resources by using proximity alone. Other emerging technologies include Windows support for the Windows Sensor and Location platform, and support for the Windows Biometric Framework (WBF). These frameworks enable developers to utilize support for sensors, which can be attached or embedded within modern Windows devices (phone, tablets, Internet of Things, PCs), and include capabilities such as:
+
+Although NFC built-in support is provided by Windows, this is available for OEMs and ISVs to produce NFC-enabled hardware. NFC offers mobile devices significant opportunities to access resources by using proximity alone. Other emerging technologies include Windows support for the Windows Sensor and Location platform, and support for the Windows Biometric Framework (WBF). These frameworks enable developers to utilize support for sensors, which can be attached or embedded within modern Windows devices (phone, tablets, Internet of Things, PCs), and include capabilities such as:
+
  -  Speed, motion, acceleration, gyrometer
  -  GPS location, elevation, inclinometer, compass orientation
  -  Humidity, temperature, light, atmospheric pressure

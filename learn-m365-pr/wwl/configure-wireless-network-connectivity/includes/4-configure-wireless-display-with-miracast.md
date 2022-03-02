@@ -20,8 +20,8 @@ After you add the wireless display to your PC, you can project your screen to it
 
 To project your screen:
 
- -  Swipe in from the right edge of the screen, and then tap **Devices**. (If you're using a mouse, point to the lower-right corner of the screen, move the mouse pointer up, and then select **Devices**.)
- -  Tap or select **Project**, and then tap or select the wireless display you want.
+1.  Swipe in from the right edge of the screen, and then tap **Devices**. (If you're using a mouse, point to the lower-right corner of the screen, move the mouse pointer up, and then select **Devices**.)
+2.  Tap or select **Project**, and then tap or select the wireless display you want.
 
 To choose what you see on each screen:
 

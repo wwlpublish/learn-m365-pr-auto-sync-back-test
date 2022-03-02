@@ -71,5 +71,5 @@ quiz:
       explanation: "Correct. Encryption is typically not a factor when troubleshooting basic network connectivity."
     - content: "Interference"
       isCorrect: false
-      explanation: "Incorrect. Wired connections are susceptable to interference, such as when cables are damaged, or run parallel to electical cables. Try again."
+      explanation: "Incorrect. Wired connections are susceptible to interference, such as when cables are damaged, or run parallel to electrical cables. Try again."
 interactive: bash
