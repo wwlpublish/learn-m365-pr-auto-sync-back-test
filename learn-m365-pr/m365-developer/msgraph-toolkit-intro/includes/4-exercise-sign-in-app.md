@@ -6,7 +6,7 @@ In this unit, you'll create a web application and explore a starter project. You
 
 1. Open Visual Studio Code. In Windows, select **File** > **Open Folder** from the command menu. In macOS, select **File** > **Open** to open the folder.
 1. When you're opening a folder, the operating system provides a button to create a **New folder**.
-1. Go to the location where you want to create the new folder, and select **New Folder**. Name the folder *mgt-app*.
+1. Go to the location where you want to create the new folder, and select **New Folder**. Name the folder **mgt-app**.
 1. Open the folder **mgt-app** in Visual Studio Code.
 
 ### Create files and folders under the project folder
@@ -14,26 +14,26 @@ In this unit, you'll create a web application and explore a starter project. You
 Your web application will have one HTML file and a folder for Live Server settings. Live Server is a Visual Studio Code extension. Let's create the project structure.
 
 1. Select **File** > **New File**.
-1. Name the file *index.html*, and save the file by using `Control+S` (Windows) or `Command+S` (macOS).
-1. Add the following HTML into *index.html*, and save the file.
+1. Name the file **index.html**, and save the file by using <kbd>CTRL</kbd>+<kbd>S</kbd> (Windows) or <kbd>COMMAND</kbd>+<kbd>S</kbd> (macOS).
+1. Add the following HTML into **index.html**, and save the file.
 
     ```html
     <!DOCTYPE html>
     <html>
-     <head>    
-     </head>
-     <body>    
-     </body>
+      <head>
+      </head>
+      <body>
+      </body>
     </html>
     ```
 
-1. Add a folder named *.vscode* into the root of your project folder
-1. Add a file named *settings.json* into the *.vscode* folder. Copy and paste the following code into *settings.json*, and save the file.
+1. Add a folder named **\*.vscode** into the root of your project folder
+1. Add a file named **settings.json** into the **\*.vscode** folder. Copy and paste the following code into **settings.json**, and save the file.
 
     ```json
     {
-        "liveServer.settings.host": "localhost",
-        "liveServer.settings.port": 3000
+      "liveServer.settings.host": "localhost",
+      "liveServer.settings.port": 3000
     }
     ```
 
@@ -53,18 +53,17 @@ Now that you have successfully set up the application, let's add some code!
 
 ### Add the Microsoft Graph Toolkit to your project
 
-Earlier you learned that you can reference the toolkit directly from the content delivery network. To do that, add the following code snippet just before the </head> tag in your *index.html* file.
+Earlier you learned that you can reference the toolkit directly from the content delivery network. To do that, add the following code snippet just before the `</head>` tag in your **index.html** file.
 
 ```html
 <script src="https://unpkg.com/@microsoft/mgt/dist/bundle/mgt-loader.js"></script>
-
 ```
 
 ### Initialize the MSAL v2 provider
 
 To authenticate your application, initialize the MSAL v2 provider by using the **Application(client) ID** that you saved in the previous section.
 
-Add the following snippet into the body of your *index.html* file.
+Add the following snippet into the `<body>` of your **index.html** file.
 
 ```html
 <mgt-msal2-provider client-id="YOUR-CLIENT-ID"></mgt-msal2-provider>
@@ -74,7 +73,7 @@ Replace `YOUR-CLIENT-ID` with the **Application (client) ID** that you saved in 
 
 ### Add the Login component to your web app
 
-To add the Login component, add the following element in the body of the *index.html* file.
+To add the Login component, add the following element in the body of the **index.html** file.
 
 ```html
 <mgt-login></mgt-login>
@@ -100,11 +99,10 @@ Save the file and let's test the results!
 
 To test your application in a browser, you need to have installed [Visual Studio Code Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer).
 
-To run your application in Live Server, press the following key combination in Visual Studio Code, and search for Live Server:  
+To run your application in Live Server, press the following key combination in Visual Studio Code, and search for Live Server:
 
-- Windows: Ctrl-Shift-P
-
-- macOS: Cmd-Shift-P
+- Windows: <kbd>CRL</kbd>+<kbd>SHIFT</kbd>+<kbd>P</kbd>
+- macOS: <kbd>COMMAND</kbd>+<kbd>SHIFT</kbd>+<kbd>P</kbd>
 
 Open with Live Server, select the option, and press **Enter**.
 

@@ -10,7 +10,7 @@ For the Microsoft 365 tenant, follow the instructions on the [Microsoft 365 Deve
 
 The exercises in this module assume you have the following tools installed on your developer workstation.
 
-- [Visual Studio 2019](https://visualstudio.com)
+- [Visual Studio 2022](https://visualstudio.com)
 
 ## Create ASP.NET MVC web application
 
@@ -18,18 +18,18 @@ Open Visual Studio, and select **Create a new project**.
 
 In the **Create new project** dialog, choose the **ASP.NET Web Application (.NET Framework)** option that uses C#, then select **Next**.
 
-![Visual Studio 2019 Create New Project dialog](../media/03-vs-create-new-project.png)
+![Visual Studio Create New Project dialog](../media/03-vs-create-new-project.png)
 
 Enter **graph-tutorial** in the **Project name** field and select **Create**.
 
-![Visual Studio 2019 Configure New Project dialog](../media/03-vs-configure-new-project.png)
+![Visual Studio Configure New Project dialog](../media/03-vs-configure-new-project.png)
 
 > [!NOTE]
 > Ensure that you enter the exact same name for the Visual Studio Project that is specified in these instructions. The Visual Studio Project name becomes part of the namespace in the code. The code inside these instructions depends on the namespace matching the Visual Studio Project name specified in these instructions. If you use a different project name the code will not compile unless you adjust all the namespaces to match the Visual Studio Project name you enter when you create the project.
 
 Select **MVC** and select **Create**.
 
-![Visual Studio 2019 Create new ASP.NET web application dialog](../media/03-vs-create-new-asp-app.png)
+![Visual Studio Create new ASP.NET web application dialog](../media/03-vs-create-new-asp-app.png)
 
 Press **F5** or select **Debug > Start Debugging**. If everything is working, your default browser should open and display a default ASP.NET page.
 
@@ -52,8 +52,8 @@ Update-Package bootstrap -Version 4.6.0
 Install-Package Microsoft.Owin.Host.SystemWeb
 Install-Package Microsoft.Owin.Security.OpenIdConnect
 Install-Package Microsoft.Owin.Security.Cookies
-Install-Package Microsoft.Identity.Client -Version 4.38.0
-Install-Package Microsoft.Graph -Version 4.11.0
+Install-Package Microsoft.Identity.Client -Version 4.41.0
+Install-Package Microsoft.Graph -Version 4.18.0
 ```
 
 ## Design the app

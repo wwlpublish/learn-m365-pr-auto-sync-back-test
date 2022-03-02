@@ -22,9 +22,9 @@ Here's the helper function used by the sample application to add more scopes to 
 
 ```javascript
 function ensureScope (scope) {
-    if (!msalRequest.scopes.some((s) => s.toLowerCase() === scope.toLowerCase())) {
-        msalRequest.scopes.push(scope);
-    }
+  if (!msalRequest.scopes.some((s) => s.toLowerCase() === scope.toLowerCase())) {
+    msalRequest.scopes.push(scope);
+  }
 }
 ```
 
@@ -32,34 +32,33 @@ The idea is that the application requests permissions when it needs them. For ex
 
 ```javascript
 async function getFiles() {
-    ensureScope('files.read');
-    try {
-        const response = await graphClient
-            .api('/me/drive/root/children')
-            .select('id,name,folder,package')
-            .get();
-        return response.value;
-    } catch (error) {
-        console.error(error);
-    }
+  ensureScope('files.read');
+  try {
+    const response = await graphClient
+      .api('/me/drive/root/children')
+      .select('id,name,folder,package')
+      .get();
+    return response.value;
+  } catch (error) {
+    console.error(error);
+  }
 }
 ```
 
-The call to `ensureScope()` ensures that `files.read` permission is included in the access token that will be used to call Microsoft Graph.
+The call to `ensureScope()` ensures that **files.read** permission is included in the access token that will be used to call Microsoft Graph.
 
 The Microsoft Graph SDK takes care of calling the Microsoft Authentication Library by using the `msalRequest` object, and it does that for every Microsoft Graph call. While this activity might seem wasteful, it's not. The Microsoft Authentication Library automatically reuses the same access token until the old one expires or the permission scopes change. At the top of *graph.js*, you can see the code where this instruction is set up.
 
 ```javascript
 const authProvider = {
-    getAccessToken: async () => {
-        return await getToken();
-    }
+  getAccessToken: async () => {
+    return await getToken();
+  }
 };
-const graphClient =
-    MicrosoftGraph.Client.initWithMiddleware({ authProvider });
+const graphClient = MicrosoftGraph.Client.initWithMiddleware({ authProvider });
 ```
 
-First, the code declares an `auth` provider, which is a JSON object that contains the `getAccessToken()` function. This function calls `getToken()`, which is a function in the *auth.js* file that calls the Microsoft Authentication Library. You can check that out if you want to. The `auth` provider object is passed to the Microsoft SDK, which will call `getAccessToken()` whenever it needs to, so your code doesn't have to.
+First, the code declares an `authProvider`, which is a JSON object that contains the `getAccessToken()` function. This function calls `getToken()`, which is a function in the **auth.js** file that calls the Microsoft Authentication Library. You can check that out if you want to. The `authProvider` object is passed to the Microsoft SDK, which will call `getAccessToken()` whenever it needs to, so your code doesn't have to.
 
 ## Retrieve the files in the user's OneDrive root directory by using Microsoft Graph
 
@@ -72,18 +71,17 @@ This GET request is expressed in the Microsoft Graph SDK as follows:
 
 ```javascript
 const response = await graphClient
-    .api('/me/drive/root/children')
-    .get();
-
+  .api('/me/drive/root/children')
+  .get();
 ```
 
 You can make the call more efficient by specifying the data columns that are needed. This task is handled by using the `$select= query` string parameter in REST (based on the OData standard). The SDK makes it easier by providing a `select()` function. Notice that the functions can be chained to make the request easy to read.
 
 ```javascript
-        const response = await graphClient
-            .api('/me/drive/root/children')
-            .select('id,name,folder,package')
-            .get();
+const response = await graphClient
+    .api('/me/drive/root/children')
+    .select('id,name,folder,package')
+    .get();
 ```
 
 ## Next steps
