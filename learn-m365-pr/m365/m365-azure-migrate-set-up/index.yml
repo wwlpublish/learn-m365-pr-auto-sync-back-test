@@ -3,7 +3,7 @@ uid: learn-m365.m365-azure-migrate-set-up
 metadata:
   title: Set up Azure Migrate for server migration
   description: Learn how to check your prerequisite configurations in Azure and in your VMware vSphere environment and then perform the initial steps in Azure Migrate to choose your assessment and migration tools.  
-  ms.date: 07/19/2021
+  ms.date: 02/11/2022
   author: beccarobins
   ms.author: beccarobins
   ms.topic: interactive-tutorial
