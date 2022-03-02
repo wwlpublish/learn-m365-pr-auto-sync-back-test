@@ -286,7 +286,7 @@ To set up Take a Test, you can configure a Take a Test profile in Intune for Edu
 
 1. Fill in the **New Take a Test profile** form that appears on the right:
 
-    :::image type="content" source="../media/2-create-profile.png" alt-text="Create a new Take a Test profile.":::
+   :::image type="content" source="../media/2-create-profile.png" alt-text="Create a new Take a Test profile.":::
 
     |Field  |Description  |
     |---------|---------|
@@ -295,8 +295,8 @@ To set up Take a Test, you can configure a Take a Test profile in Intune for Edu
     |Assessment URL|Provide the URL of the assessment.|
     |Description|Optionally, you can provide a meaningful description for the profile. This won't be visible to test takers, it will only be visible in Intune for Education.|
     |Require printer connection|Set this to **Yes** if you want to ensure that test takers can only access the Take a Test app using devices that are connected to a printer.|
-    |Allow screen capture|Set this to **Yes** if you want to allow the use of screen recording and screen capture capabilities in the Take a Test app.||
-    |Allow text suggestions|Set this to **Yes** if you want to allow text suggestions during testing.||
+    |Allow screen capture|Set this to **Yes** if you want to allow the use of screen recording and screen capture capabilities in the Take a Test app.|
+    |Allow text suggestions|Set this to **Yes** if you want to allow text suggestions during testing.|
 
 1. When you're done, select **Create and assign profile**.
 

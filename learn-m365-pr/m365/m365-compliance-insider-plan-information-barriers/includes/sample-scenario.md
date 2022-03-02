@@ -35,20 +35,20 @@ With the segments defined, Contoso proceeds to define policies.
 
 ### Contoso's information barrier policies
 
-Contoso defines three policies, as described in the following table:
+Contoso defines three policies, as described in the following tables:
 
 |  Policy | Policy definition  |
 |---|---|
 | Policy 1: Prevent Sales from communicating with Research  |  `New-InformationBarrierPolicy -Name "Sales-Research" -AssignedSegment "Sales" -SegmentsBlocked "Manufacturing","Research" -State Inactive`
 >In this example, the information barrier policy is called **Sales-Research**. When this policy is active and applied, it will help prevent users who are in the Sales segment from communicating with users in the Research segment. This is a one-way policy; it won't prevent Research from communicating with Sales. For that, Policy 2 is needed.
 
-|   |   |
+|  Policy | Policy definition  |
 |---|---|
 | Policy 2: Prevent Research from communicating with Sales |  `New-InformationBarrierPolicy -Name "Research-Sales" -AssignedSegment "Manufacturing","Research" -SegmentsBlocked "Sales" -State Inactive`
 
 >In this example, the information barrier policy is called **Research-Sales**. When this policy is active and applied, it will help prevent users who are in the Research segment from communicating with users in the Sales segment.
 
-|   |   |
+|  Policy | Policy definition  |
 |---|---|
 | Policy 3: Allow Manufacturing to communicate only with HR and Marketing |  `New-InformationBarrierPolicy -Name "Manufacturing-HRMarketing" -AssignedSegment "Manufacturing" -SegmentsAllowed "Manufacturing","HR","Marketing" -State Inactive`
 

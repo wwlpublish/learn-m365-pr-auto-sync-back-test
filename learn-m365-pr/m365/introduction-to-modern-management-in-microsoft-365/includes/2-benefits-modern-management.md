@@ -4,13 +4,13 @@ Modern management is a novel approach of managing Windows 10 similar to how mobi
 
 Video: Modern Windows 10 Management with Enterprise Mobility + Security
 
-|||
+|:::image type="content" source="../media/video-icon.png" alt-text="Icon indicating play video." border="false":::|Watch this video to learn why you should consider implementing a modern management approach for Windows devices in your organization:|
 | :--- | :--- |
-| :::image type="content" source="../media/video-icon.png" alt-text="Icon indicating play video." border="false":::| Watch this video to learn why you should consider implementing a modern management approach for Windows devices in your organization:<br />[Modern Windows 10 Management with Enterprise Mobility + Security](https://www.youtube.com/watch?v=3gAtjMOJ-uw)|
+| |[Modern Windows 10 Management with Enterprise Mobility + Security](https://www.youtube.com/watch?v=3gAtjMOJ-uw)|
 
 ## Pillars of modern management
 
-|||
+|Pillar|Description|
 | :--- | :--- |
 | **Easy to deploy and manage**| Traditional operating system deployment (OSD) while powerful is typically complex and time consuming. There is now a simpler way to provision new Windows 10 devices. Windows Autopilot, which is deeply integrated with Azure Active Directory (Azure AD) and Intune, simplifies and personalizes out-of-the-box (OOBE) experience for users, joins the device to Azure AD, and enrolls it in Intune. Users' email, apps, files, preferences as well organization's security settings are also automatically applied by Intune without needing to create custom OS images.|
 | **Always up-to-date**| Keeping up with emerging security threats and increasing user productivity requires a shift in how often Windows 10 and Microsoft 365 Apps need to be updated. With aligned updates, powerful insights driven by cloud intelligence, and a modern management approach with EMS, there is now a better way to keep devices up-to-date without the complexity of maintaining an on-premises infrastructure.|
