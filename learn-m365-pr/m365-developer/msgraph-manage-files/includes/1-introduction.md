@@ -11,7 +11,7 @@ To add this feature, you'll use Microsoft Graph to list, download, and upload fi
 ## Prerequisites
 
 - Global administrator access to a [Microsoft 365 tenant](https://developer.microsoft.com/microsoft-365/dev-program?ocid=MSlearn&WT.mc_id=m365-16105-cxa)
-- [Basic understanding of authentication and authorization on Microsoft 365](https://docs.microsoft.com/learn/modules/msgraph-javascript-app/?WT.mc_id=m365-16105-cxa)
+- [Basic understanding of authentication and authorization on Microsoft 365](/learn/modules/msgraph-javascript-app/?WT.mc_id=m365-16105-cxa)
 - Basic understanding of HTML and JavaScript
 - [Basic understanding of Microsoft Graph](/learn/modules/msgraph-intro-overview/?WT.mc_id=m365-16105-cxa)
 - [Node.js LTS](https://nodejs.org/en/)
