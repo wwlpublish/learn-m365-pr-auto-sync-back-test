@@ -6,7 +6,7 @@ ms.prod: learning-graph
 ms.topic: include
 ---
 
-1. In the browser, go to the [Azure Active Directory admin center (https://aad.portal.azure.com)](https://aad.portal.azure.com), sign in, and go to Azure Active Directory.
+1. In the browser, go to the [Azure Active Directory admin center](https://aad.portal.azure.com), sign in, and go to Azure Active Directory.
 1. Select **App registrations** in the left pane, and select **New Registration**.
 
     :::image type="content" source="../media/exercise-register-azure-ad-application-mgt/select-new-registration.png" alt-text="Screenshot that shows selecting New registration to create a new app registration.":::
