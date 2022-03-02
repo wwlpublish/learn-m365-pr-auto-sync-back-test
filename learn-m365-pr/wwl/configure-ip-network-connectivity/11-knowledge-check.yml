@@ -61,9 +61,6 @@ quiz:
     - content: "The Tracert tool"
       isCorrect: false
       explanation: "Incorrect. Tracert will return the number of hops and minimal information. It does not return information such as packet loss. Try again."
-    - content: "NSLookup"
-      isCorrect: false
-      explanation: "Incorrect. NSLookup is used to get information on DNS servers."
   - content: "Your organization has recently upgraded the network to support IPv6. Which of the following features is unique to IPv6 addresses?"
     choices:
     - content: "Smaller, more efficient address space than IPv4"

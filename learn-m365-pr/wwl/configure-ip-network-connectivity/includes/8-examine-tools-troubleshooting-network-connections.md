@@ -86,7 +86,7 @@ The **IPConfig** command displays the current TCP/IP network configuration. Addi
 You use the **Ping** command to verify IP-level connectivity to another TCP/IP computer. This command sends and receives Internet Control Message Protocol (ICMP) echo request messages, and displays the receipt of corresponding echo reply messages. The **Ping** command is the primary TCP/IP command used to troubleshoot connectivity.
 
 > [!NOTE]
-> Firewalls might block the ICMP requests. As a result, you might receive false negatives when using \*\*Ping\*\* as a troubleshooting tool.
+> Firewalls might block the ICMP requests. As a result, you might receive false negatives when using **Ping** as a troubleshooting tool.
 
 ## Tracert
 
