@@ -9,6 +9,7 @@ metadata:
   ms.author: beccarobins
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
+  ms.custom: intro-internal
 title: Introduction to Microsoft 365 Defender 
 summary: Understand what Microsoft 365 Defender is and how it can help to improve your security posture by empowering your Security Operations Center (SOC) or security teams with the tools they need to identify, control, and remediate security threats.
 abstract: | 

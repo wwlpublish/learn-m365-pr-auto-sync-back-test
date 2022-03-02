@@ -9,6 +9,7 @@ metadata:
   ms.author: beccarobins
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
+  ms.custom: intro-internal
 title: Introduction to Microsoft Defender for Identity
 summary: Get an introduction to Microsoft Defender for Identity and its capabilities that help you to protect your users' identities by monitoring profile user behavior and activities and protecting hybrid environments.
 abstract: |
