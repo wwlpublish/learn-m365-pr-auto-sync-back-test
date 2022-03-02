@@ -1,14 +1,14 @@
 ### YamlMime:ModuleUnit
 uid: learn-m365.msgraph-access-user-events.2-exercise-configure-app
-title: Exercise - Configure Azure AD app to connect to Microsoft 365   
+title: Exercise - Configure Azure AD app to connect to Microsoft 365
 metadata:
-  unitType: learning-content  
-  title: Exercise - Configure Azure AD app to connect to Microsoft 365  
+  unitType: learning-content
+  title: Exercise - Configure Azure AD app to connect to Microsoft 365
   description: In this exercise, you'll configure an Azure AD app to connect to Microsoft 365.
-  ms.date: 03/23/2021  
-  author: rabwill  
-  ms.author: rwilliams  
-  ms.topic: interactive-tutorial 
+  ms.date: 03/01/2022
+  author: rabwill
+  ms.author: rwilliams
+  ms.topic: interactive-tutorial
   ms.prod: learning-graph
 durationInMinutes: 7
 content: |
