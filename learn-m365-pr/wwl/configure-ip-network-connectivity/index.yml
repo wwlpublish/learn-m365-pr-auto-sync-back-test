@@ -3,7 +3,7 @@ uid: learn.wwl.configure-ip-network-connectivity
 metadata:
   title: Configure IP network connectivity
   description: "This module explores configuring Windows clients to communicate over IPv4 and IPv6 networks."
-  ms.date: 03/01/2022
+  ms.date: 03/02/2022
   author: wwlpublish
   ms.author: brhinkel
   ms.topic: interactive-tutorial

@@ -1,10 +1,10 @@
 ### YamlMime:ModuleUnit
 uid: learn.wwl.configure-ip-network-connectivity.knowledge-check
-title: Knowledge Check
+title: Knowledge check
 metadata:
-  title: Knowledge Check
-  description: "Knowledge Check"
-  ms.date: 03/01/2022
+  title: Knowledge check
+  description: "Knowledge check"
+  ms.date: 03/02/2022
   author: wwlpublish
   ms.author: brhinkel
   ms.topic: interactive-tutorial
@@ -21,13 +21,13 @@ quiz:
     choices:
     - content: "Reduces bandwidth consumption by sending the same information to multiple computers at once"
       isCorrect: true
-      explanation: "Correct. Multicast can send a single packet of information to mutliple computers, instead of sending the same packet of information repeatedly to multiple computers."
+      explanation: "Correct. Multicast can send a single packet of information to multiple computers, instead of sending the same packet of information repeatedly to multiple computers."
     - content: "Allows one device to talk to multiple devices"
       isCorrect: false
-      explanation: "Incorrect. Mutlicast isn't necessary for communicating with multiple devices."
+      explanation: "Incorrect. Multicast isn't necessary for communicating with multiple devices."
     - content: "Increases the network speed"
       isCorrect: false
-      explanation: "Incorrect. While using multicast can reduce network traffic congestion and improve performce, multicast does not change the speed at which data is transmitted."
+      explanation: "Incorrect. While using multicast can reduce network traffic congestion and improve performance, multicast does not change the speed at which data is transmitted."
   - content: "Your organization recently upgraded to Windows 10 from Windows 8.1. You want to use a familiar, wizard-driven tool to configure wired and wireless connections. Which tool should you use?"
     choices:
     - content: "Network and Internet"
