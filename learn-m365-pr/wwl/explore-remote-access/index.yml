@@ -2,14 +2,14 @@
 uid: learn.wwl.explore-remote-access
 metadata:
   title: Explore remote access
-  description: "This module explores how Windows clients can connect to resource over public networks using virtual priveate networks."
-  ms.date: 03/01/2022
+  description: "This module explores how Windows clients can connect to resource over public networks using virtual private networks."
+  ms.date: 03/02/2022
   author: wwlpublish
   ms.author: brhinkel
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Explore remote access
-summary: This module explores how Windows clients can connect to resource over public networks using virtual priveate networks.
+summary: This module explores how Windows clients can connect to resource over public networks using virtual private networks.
 abstract: |
   After completing this modules, you will be able to:
   - Describe how to use VPNs to connect to a remote network.

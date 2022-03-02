@@ -1,15 +1,14 @@
 ### YamlMime:ModuleUnit
 uid: learn.wwl.explore-remote-access.knowledge-check
-title: Knowledge Check
+title: Knowledge check
 metadata:
-  title: Knowledge Check
-  description: "Knowledge Check"
-  ms.date: 03/01/2022
+  title: Knowledge check
+  description: "Knowledge check"
+  ms.date: 03/02/2022
   author: wwlpublish
   ms.author: brhinkel
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-  zone_pivot_groups: azure-interface
 azureSandbox: false
 labModal: false
 durationInMinutes: 5
