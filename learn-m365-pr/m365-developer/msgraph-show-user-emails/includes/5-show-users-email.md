@@ -54,7 +54,7 @@ graphClient
 
 When you retrieve data from Microsoft Graph, you should always retrieve only the data that you need as mentioned earlier. Minimizing the amount of data that Microsoft Graph retrieves and transfers over the wire to your app helps you significantly improve your app's performance.
 
-You can limit the amount of data retrieved from Microsoft 365 in 2 ways:
+You can limit the amount of data retrieved from Microsoft 365 in two ways:
 
 - Select how many items you want to get.
 - Select the specific information to be included.
