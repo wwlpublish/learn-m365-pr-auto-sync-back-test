@@ -1,11 +1,11 @@
 ### YamlMime:ModuleUnit
 uid: learn-m365.msgraph-dotnet-core-manage-files.3-connect-app
-title: Connect an ASP.NET Core app to Microsoft 365 
+title: Connect an ASP.NET Core app to Microsoft 365
 metadata:
-  unitType: learning-content  
-  title: Connect an ASP.NET Core app to Microsoft 365 
+  unitType: learning-content
+  title: Connect an ASP.NET Core app to Microsoft 365
   description: In this unit, you'll learn about why you should consider connecting your apps to Microsoft 365. You'll also learn about Microsoft Graph, the API to access data and insights from Microsoft 365, and how to authenticate with it through Azure Active Directory.
-  ms.date: 09/04/2021
+  ms.date: 03/01/2022
   author: DanWahlin
   ms.author: dwahlin
   ms.topic: interactive-tutorial
