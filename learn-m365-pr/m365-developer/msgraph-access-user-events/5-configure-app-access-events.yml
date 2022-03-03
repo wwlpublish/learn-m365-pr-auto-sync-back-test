@@ -2,12 +2,12 @@
 uid: learn-m365.msgraph-access-user-events.5-configure-app-access-events
 title: Access a user's calendar events by using Microsoft Graph
 metadata:
-  unitType: learning-content  
+  unitType: learning-content
   title: Access a user's calendar events by using Microsoft Graph
   description: In this unit, you'll learn how to access a user's calendar events by using Microsoft Graph.
-  ms.date: 03/23/2021  
-  author: rabwill  
-  ms.author: rwilliams  
+  ms.date: 03/01/2022
+  author: rabwill
+  ms.author: rwilliams
   ms.topic: interactive-tutorial
   ms.prod: learning-graph
 durationInMinutes: 8

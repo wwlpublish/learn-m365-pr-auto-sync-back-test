@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.explore-name-resolution.explore-domain-name-system
+title: Explore the domain name system
+metadata:
+  title: Explore the domain name system
+  description: "Explore the domain name system"
+  ms.date: 03/02/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 4
+content: |
+  [!include[](includes/3-explore-domain-name-system.md)]

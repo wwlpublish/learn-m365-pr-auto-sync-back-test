@@ -1,4 +1,4 @@
-In the next exercise, you'll extend the app to support file uploads. There are two ways to upload a file using Microsoft Graph. The easiest way is to use a single PUT request:
+In the next exercise, you'll extend the app to support file uploads. There are two ways to upload a file using Microsoft Graph. The easiest way is to use a single **PUT** request:
 
 ```csharp
 var driveItem = await _graphServiceClient
@@ -25,18 +25,15 @@ The upload session is passed into the `LargeFileUploadTask` constructor along wi
 
 ```csharp
 int maxSliceSize = 320 * 1024;
-var fileUploadTask =
-    new LargeFileUploadTask<DriveItem>(uploadSession, 
-      stream, maxSliceSize);
+var fileUploadTask = new LargeFileUploadTask<DriveItem>(uploadSession, stream, maxSliceSize);
 ```
 
-To track the file upload progress, a `Progress `object can be created and passed into the `LargeFileUploadTask` object's `UploadAsync` method.
+To track the file upload progress, a `Progress` object can be created and passed into the `LargeFileUploadTask` object's `UploadAsync` method.
 
 ```csharp
 IProgress<long> progress = new Progress<long>(prog =>
 {
-    _logger.LogInformation($"Uploaded {prog} bytes 
-       of {stream.Length} bytes");
+  _logger.LogInformation($"Uploaded {prog} bytes of {stream.Length} bytes");
 });
 
 var uploadResult = await fileUploadTask.UploadAsync(progress);
@@ -46,8 +43,8 @@ To start the file upload, an HTML form can be added into the webpage with a file
 
 ```html
 <form method="post" enctype="multipart/form-data">
-    <input asp-for="UploadedFile" type="file"></input>
-    <input type="submit" value="Upload File"></input>
+  <input asp-for="UploadedFile" type="file"></input>
+  <input type="submit" value="Upload File"></input>
 </form>
 ```
 
