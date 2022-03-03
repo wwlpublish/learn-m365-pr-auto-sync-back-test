@@ -68,7 +68,7 @@ The change notifications that your app receives from Microsoft Graph can allow y
 
 The development experience for creating an app that receives change notifications can be challenging because you do have to stand up a well-known and accessible HTTPS secured endpoint to receive the notifications.
 
-A free tool, [ngrok](https://ngrok.com) simplifies the developer experience. It creates a temporary well-known endpoint that redirects to your developer environment. Once you start your local web server to host your application, you start ngrok in a separate process. Ngrok creates a public HTTPS secured endpoint that points to your local web server. Once both are running, Microsoft Graph can submit HTTP POST requests to the ngrok URL, which will be routed down to your local web server.
+A free tool, [ngrok](https://ngrok.com) simplifies the developer experience. It creates a temporary well-known endpoint that redirects to your developer environment. Once you start your local web server to host your application, you start ngrok in a separate process. Ngrok creates a public HTTPS secured endpoint that points to our local web server. Once both are running, Microsoft Graph can submit HTTP POST requests to the ngrok URL, which will be routed down to our local web server.
 
 ## Summary
 

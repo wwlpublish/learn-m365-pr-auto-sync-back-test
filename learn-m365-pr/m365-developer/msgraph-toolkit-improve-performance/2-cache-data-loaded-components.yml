@@ -3,7 +3,7 @@ uid: learn-m365.msgraph-toolkit-improve-performance.2-cache-data-loaded-componen
 metadata:
   title: Cache data loaded by components
   description: Learn how Microsoft Graph Toolkit components cache their data.
-  ms.date: 04/09/2021
+  ms.date: 03/01/2022
   author: waldekmastykarz
   ms.author: wmastyka
   ms.topic: interactive-tutorial

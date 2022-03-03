@@ -1,14 +1,14 @@
 ### YamlMime:ModuleUnit
-uid: learn-m365.msgraph-dotnet-core-access-user-events.7-summary  
-title: Summary  
+uid: learn-m365.msgraph-dotnet-core-access-user-events.7-summary
+title: Summary
 metadata:
-  unitType: summary  
+  unitType: summary
   title: Summary
   description: This unit summarizes what you learned in this module.
-  ms.date: 08/28/2021  
-  author: DanWahlin  
-  ms.author: dwahlin  
-  ms.topic: interactive-tutorial 
+  ms.date: 03/01/2022
+  author: DanWahlin
+  ms.author: dwahlin
+  ms.topic: interactive-tutorial
   ms.prod: learning-graph
   ms.contributors: dwahlin-12092021
   ms.custom: team=cloud_advocates

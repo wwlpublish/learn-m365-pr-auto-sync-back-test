@@ -11,7 +11,8 @@ metadata:
 title: Prepare to deploy updates for Windows client and Microsoft 365 apps
 summary: Learn how to prepare your organization for the latest updates to Windows clients and Microsoft 365 apps.
 abstract: | 
-  In this module, you'll use the servicing process to prepare your plan to stay current.
+  In this module, you'll:
+  - Use the servicing process to prepare your plan to stay current.
 prerequisites: | 
   - None
 iconUrl: /learn/achievements/prepare-to-deploy-updates-for-windows-10.svg

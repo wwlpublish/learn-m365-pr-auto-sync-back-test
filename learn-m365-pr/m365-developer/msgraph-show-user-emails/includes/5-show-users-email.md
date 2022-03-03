@@ -2,13 +2,13 @@ You built a JavaScript app and connected it to Microsoft 365 by using the Micros
 
 ## Decide which permissions your app needs
 
-All data exposed by Microsoft Graph is secured, and your app must have the proper permissions granted to access it. The permissions you need depends on the type of information that your app needs to access. For example, to access a user's calendar, your app must have the `Calendars.Read` permission. To access a user's email, your app needs the `Mail.Read` permission. The exact list of the permissions required for each operation is available in the Microsoft Graph API reference.
+All data exposed by Microsoft Graph is secured, and your app must have the proper permissions granted to access it. The permissions you need depends on the type of information that your app needs to access. For example, to access a user's calendar, your app must have the **Calendars.Read** permission. To access a user's email, your app needs the **Mail.Read** permission. The exact list of the permissions required for each operation is available in the Microsoft Graph API reference.
 
 If your app loads different types of data, users must grant it multiple permissions required to access this information. Your app should request only the permissions that you actually need.
 
 Let's say your app has two pages. One page shows a user's emails, and the other page shows their calendar. When the user signs in to your app for the first time, your app requests access to only their basic profile information. When they go to the page that shows emails, your app requests permission to read their email. If they never visit the page in your app that shows their calendar, your app wouldn't have access to their calendar data.
 
-This pattern is called _dynamic consent_, and it's the recommended way to request permissions by apps connected to Microsoft 365. With dynamic consent, users control the data they share with the apps they use, which minimizes security risks.
+This pattern is called *dynamic consent*, and it's the recommended way to request permissions by apps connected to Microsoft 365. With dynamic consent, users control the data they share with the apps they use, which minimizes security risks.
 
 ## Specify the necessary permissions
 
@@ -40,7 +40,7 @@ To get a user's emails from Microsoft Graph, you call the `/me/messages` endpoin
 Retrieving emails is a GET request that you execute as follows:
 
 ```javascript
-graphClient.api('/me/messages').get(); 
+graphClient.api('/me/messages').get();
 ```
 
 Microsoft Graph endpoints return data in arbitrary order. To ensure that you get the latest messages, sort them in descending order by the date they were received.
@@ -63,7 +63,7 @@ To specify which properties you want to retrieve, extend the Microsoft Graph req
 
 ```javascript
 
-graphClient 
+graphClient
   .api('/me/messages')
   .select('subject,receivedDateTime')
   .orderby('receivedDateTime desc')

@@ -3,8 +3,8 @@ uid: learn-m365.msgraph-dotnet-core-show-user-emails.1-introduction
 metadata:
   title: Introduction
   description: This unit introduces you to the module and explains what you'll learn.
-  ms.date: 08/29/2021
-  author: DanWahlin 
+  ms.date: 03/01/2022
+  author: DanWahlin
   ms.author: dwahlin
   ms.topic: interactive-tutorial
   ms.prod: learning-graph

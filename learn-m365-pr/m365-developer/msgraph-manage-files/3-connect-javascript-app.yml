@@ -1,16 +1,16 @@
 ### YamlMime:ModuleUnit
 uid: learn-m365.msgraph-manage-files.3-connect-javascript-app
 metadata:
-  title: Connect a JavaScript app to Microsoft 365 
+  title: Connect a JavaScript app to Microsoft 365
   description: In this unit, you'll learn about why you should consider connecting your apps to Microsoft 365. You'll also learn about Microsoft Graph, the API to access data and insights from Microsoft 365, and how to authenticate with it through Azure Active Directory.
-  ms.date: 03/31/2021
+  ms.date: 03/01/2022
   author: BobGerman
   ms.author: rogerman
   ms.topic: interactive-tutorial
   ms.prod: learning-graph
   ms.custom: team=cloud_advocates
   ms.contributors: rogerman-04162021
-title: Connect a JavaScript app to Microsoft 365 
+title: Connect a JavaScript app to Microsoft 365
 durationInMinutes: 2
 content: |
   [!include[](includes/3-connect-javascript-app.md)]

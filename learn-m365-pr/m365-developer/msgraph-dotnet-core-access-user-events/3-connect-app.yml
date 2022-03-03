@@ -2,12 +2,12 @@
 uid: learn-m365.msgraph-dotnet-core-access-user-events.3-connect-app
 title: Connect an ASP.NET Core app to Microsoft 365
 metadata:
-  unitType: learning-content  
-  title: Connect an ASP.NET Core app to Microsoft 365  
+  unitType: learning-content
+  title: Connect an ASP.NET Core app to Microsoft 365
   description: In this unit, you'll learn how to connect an ASP.NET Core app to Microsoft 365.
-  ms.date: 08/28/2021  
-  author: DanWahlin 
-  ms.author: dwahlin  
+  ms.date: 03/01/2022
+  author: DanWahlin
+  ms.author: dwahlin
   ms.topic: interactive-tutorial
   ms.prod: learning-graph
   ms.contributors: dwahlin-12092021

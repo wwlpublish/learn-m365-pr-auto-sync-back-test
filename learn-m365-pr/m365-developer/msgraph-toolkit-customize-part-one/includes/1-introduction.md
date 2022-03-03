@@ -5,6 +5,7 @@ The components provide access to popular Microsoft 365 datasets with the power o
 ## Scenario
 
 Suppose you're building a web app that shows a user's upcoming meetings stored in Microsoft 365. Your app is styled to match your organization's brand identity. The data you retrieve from Microsoft 365 should be seamlessly integrated in your app. You want to use Microsoft Graph Toolkit to easily retrieve the data from Microsoft 365, but you need to style how it shows the data. You also need to ensure that all data required by the stakeholders is displayed on the page.
+
 :::image type="content" source="../media/1-graph-toolkit-overview.png" alt-text="Overview diagram that shows how Microsoft Graph Toolkit components interact with your application.":::
 
 In this module, you'll learn how to change the behavior of components by using attributes. You'll also explore how to style components.

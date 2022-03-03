@@ -2,10 +2,10 @@
 uid: learn-m365.msgraph-dotnet-core-manage-files.5-display-user-files
 title: Display user files
 metadata:
-  unitType: learning-content  
-  title: Exercise – Connect an ASP.NET Core app to Microsoft 365
+  unitType: learning-content
+  title: Exercise - Connect an ASP.NET Core app to Microsoft 365
   description: In this unit, you'll learn how to display files from Microsoft 365 in an ASP.NET Core app.
-  ms.date: 09/04/2021
+  ms.date: 03/01/2022
   author: DanWahlin
   ms.author: dwahlin
   ms.topic: interactive-tutorial

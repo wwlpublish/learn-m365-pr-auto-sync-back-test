@@ -3,29 +3,29 @@ In this exercise, you'll learn how to examine data available in Microsoft Graph 
 ## Prepare the web app
 
 1. In Visual Studio Code, open the **index.html** file.
-1. Reset its contents to the following HTML content. You'll replace `YOUR-CLIENT-ID` with the **Application (client) ID** from the Azure Active Directory app that you created earlier.
+1. Reset its contents to the following HTML content. You'll replace `YOUR-CLIENT-ID` with the **Application (client) ID** from the Azure Active Directory app you registered in the previous module, **[Configure and style Microsoft Graph Toolkit components by using attributes and CSS](/learn/modules/msgraph-toolkit-customize-part-one)**:
 
     ```html
     <html>
-        <head>
-          <script src="https://unpkg.com/@microsoft/mgt/dist/bundle/mgt-loader.js"></script>
-        </head>
-        
-        <body>
-          <mgt-msal2-provider client-id="YOUR-CLIENT-ID"></mgt-msal2-provider>
-          <mgt-login></mgt-login>
-          <mgt-agenda days="3" group-by-day></mgt-agenda>
-        </body>   
+      <head>
+        <script src="https://unpkg.com/@microsoft/mgt/dist/bundle/mgt-loader.js"></script>
+      </head>
+
+      <body>
+        <mgt-msal2-provider client-id="YOUR-CLIENT-ID"></mgt-msal2-provider>
+        <mgt-login></mgt-login>
+        <mgt-agenda days="3" group-by-day></mgt-agenda>
+      </body>
     </html>
     ```
 
-1. Verify that the web app works as expected. In Visual Studio Code, run Live Server to test your app. Open your browser, and go to http://localhost:3000. You should see a list of events.
+1. Verify that the web app works as expected. In Visual Studio Code, run Live Server to test your app. Open your browser, and go to `http://localhost:3000`. You should see a list of events.
 
 ## Debug the component template
 
-Now that you've confirmed that the web app works, let's adjust how the Agenda component displays events.
+Now that you've confirmed that the web app works, let's adjust how the **Agenda** component displays events.
 
-1. Change the Agenda component to only show an event's title by specifying the following in the template.
+1. Change the **Agenda** component to only show an event's title by specifying the following in the template.
 
     ```html
     <mgt-agenda days="3" group-by-day>
@@ -33,9 +33,9 @@ Now that you've confirmed that the web app works, let's adjust how the Agenda co
     </mgt-agenda>
     ```
 
-   The Agenda component doesn't show anything now. Let's fix it!
+   The **Agenda** component doesn't show anything now. Let's fix it!
 
-1. Because you want to change the rendering of `events`, let's use the event template by using the `data-type` attribute.
+1. Because you want to change the rendering of the events, let's use the `event` template by using the `data-type` attribute.
 
     ```html
     <mgt-agenda days="3" group-by-day>
@@ -97,7 +97,7 @@ Now, let's change the font color in the web app.
             }
           </style>
         </head>
-        
+
         <body>
           <h1>Hello</h1>
           <mgt-msal2-provider client-id="YOUR-CLIENT-ID"></mgt-msal2-provider>
@@ -107,11 +107,11 @@ Now, let's change the font color in the web app.
     </html>
     ```
 
-1. In Visual Studio Code, run Live Server to test your app. Open your browser, and go to http://localhost:3000. You should see a list of events.
+1. In Visual Studio Code, run Live Server to test your app. Open your browser, and go to `http://localhost:3000`. You should see a list of events.
 
-   :::image type="content" source="../media/5-styling.png" alt-text="Screenshot that shows the result of the styling.":::
+    :::image type="content" source="../media/5-styling.png" alt-text="Screenshot that shows the result of the styling.":::
 
-      The list of events isn't using the font color you defined. Let's fix it!
+    The list of events isn't using the font color you defined. Let's fix it!
 
 1. In Visual Studio Code, extend the `style` definition to include the CSS custom properties for styling events.
 
@@ -129,6 +129,6 @@ Now, let's change the font color in the web app.
     </style>
     ```
 
-1. In Visual Studio Code, run Live Server to test your app. Open your browser, and go to http://localhost:3000. You should see a list of events displayed that use your web app's font color.
+1. In Visual Studio Code, run Live Server to test your app. Open your browser, and go to `http://localhost:3000`. You should see a list of events displayed that use your web app's font color.
 
    :::image type="content" source="../media/5-final-result.png" alt-text="Screenshot that shows the final result.":::
