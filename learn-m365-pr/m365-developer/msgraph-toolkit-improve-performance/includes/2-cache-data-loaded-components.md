@@ -12,16 +12,16 @@ To avoid loading data that you already have, you might consider building a custo
 
 ## Configure cache for Microsoft Graph Toolkit components
 
-Microsoft Graph Toolkit components automatically cache the data they retrieve. If you need a particular piece of information in your app, it's downloaded only once, and stored in the cache until it expires. By default, Microsoft Graph Toolkit caches data for 1 hour. Note that information about user’s presence is cached for only 5 minutes, because presence tends to change often.
+Microsoft Graph Toolkit components automatically cache the data they retrieve. If you need a particular piece of information in your app, it's downloaded only once, and stored in the cache until it expires. By default, Microsoft Graph Toolkit caches data for 1 hour. Information about user’s presence is cached for only 5 minutes, because presence tends to change often.
 
-You can control cache globally but also override configuration for a specific workload if necessary. Cache settings are exposed through the `CacheService` class.
+You can control cache globally but also override configuration for a specific workload if necessary. Cache settings are exposed through the **CacheService** class.
 
 To change the cache duration for all components, change the value of the `defaultInvalidationPeriod` property:
 
 ```typescript
-import { CacheService } from '@microsoft/mgt'; 
+import { CacheService } from '@microsoft/mgt';
 
-// set cache expiration for all components to 30 minutes 
+// set cache expiration for all components to 30 minutes
 CacheService.config.defaultInvalidationPeriod = 1800000;
 ```
 
@@ -29,9 +29,9 @@ CacheService.config.defaultInvalidationPeriod = 1800000;
 > If you load Microsoft Graph Toolkit from a content delivery network, you can access the `CacheService` configuration through the global `mgt` variable, as follows:
 >
 > ```html
-> <script src="https://unpkg.com/@microsoft/mgt/dist/bundle/mgt-loader.js"></script> 
-> <script> 
->   mgt.CacheService.config.defaultInvalidationPeriod = 1800000; 
+> <script src="https://unpkg.com/@microsoft/mgt/dist/bundle/mgt-loader.js"></script>
+> <script>
+>   mgt.CacheService.config.defaultInvalidationPeriod = 1800000;
 > </script>
 > ```
 
@@ -40,8 +40,8 @@ To disable the cache for all components, set the `isEnabled` property to `false`
 ```typescript
 import { CacheService } from '@microsoft/mgt';
 
-// disable cache for all Microsoft Graph Toolkit components 
-CacheService.config.isEnabled = false; 
+// disable cache for all Microsoft Graph Toolkit components
+CacheService.config.isEnabled = false;
 ```
 
 > [!IMPORTANT]
@@ -52,15 +52,15 @@ To disable components from caching people data, set the `isEnabled` property of 
 ```typescript
 import { CacheService } from '@microsoft/mgt';
 
-// disable people cache for all Microsoft Graph Tookit components 
-CacheService.config.people.isEnabled = false; 
+// disable people cache for all Microsoft Graph Toolkit components
+CacheService.config.people.isEnabled = false;
 ```
 
-## Configure cache for the `mgt-get` component
+## Configure cache for the mgt-get component
 
-Microsoft Graph Toolkit components cache their data per workload, such as `people`, `photos`, or `groups`. Such organization of the cache allows one component to load the data and other components to retrieve it from cache, without running duplicate requests. The only component that works differently is `mgt-get`.
+Microsoft Graph Toolkit components cache their data per workload, such as people, photos, or groups. Such organization of the cache allows one component to load the data and other components to retrieve it from cache, without running duplicate requests. The only component that works differently is **mgt-get**.
 
-With the `mgt-get` component, you can load and show any data from Microsoft Graph in your app. Because `mgt-get` can show arbitrary data, it has its own cache named `response`. As with any other cache object, you can configure if the `response` cache is enabled, and how long it should keep data. The `response` cache isn't used by any other component in Microsoft Graph Toolkit.
+With the **mgt-get** component, you can load and show any data from Microsoft Graph in your app. Because **mgt-get** can show arbitrary data, it has its own cache named **response**. As with any other cache object, you can configure if the **response** cache is enabled, and how long it should keep data. The **response** cache isn't used by any other component in Microsoft Graph Toolkit.
 
 ## Next steps
 
