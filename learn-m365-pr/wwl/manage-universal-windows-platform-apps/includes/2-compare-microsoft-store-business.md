@@ -1,7 +1,7 @@
 The Microsoft Store provides a convenient, single location where users can browse, install, and update applications. Many Universal Windows apps from the Microsoft Store are free, while others are available for purchase, or for free trial period. Users can access the Microsoft Store from both the desktop taskbar and the Start menu.
 
 :::image type="content" source="../media/microsoft-store-home-04d4e5cd.png" alt-text="Screenshot of Microsoft Store Home screen, showing a banner for Microsoft 365, and a list of trending apps.":::
-<br>
+
 
 > [!NOTE]
 > To access the Microsoft Store, users must sign in by using a Microsoft account. Users can create this account during the Windows installation, or after installation. You also can access the Microsoft Store by connecting your Microsoft account to your AD DS user account. The built-in administrator account cannot access the Microsoft Store or run any Universal Windows apps by default.
