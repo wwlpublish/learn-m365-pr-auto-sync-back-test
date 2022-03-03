@@ -8,6 +8,8 @@ metadata:
   ms.author: aycabas
   ms.topic: interactive-tutorial
   ms.prod: learning-graph
+  ms.custom: team=cloud_advocates
+  ms.contributors: aycabas-04232021
 title: Improve your app’s performance when using Microsoft Graph Toolkit
 summary: Learn about caching features offered with Microsoft Graph Toolkit, and discover how to quickly display any additional data you might need in Microsoft Graph Toolkit components.
 abstract: |
