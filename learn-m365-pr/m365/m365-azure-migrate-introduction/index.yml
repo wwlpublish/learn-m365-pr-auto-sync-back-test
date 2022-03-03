@@ -3,7 +3,7 @@ uid: learn-m365.m365-azure-migrate-introduction
 metadata:
   title: Introduction to Azure Migrate for server migration 
   description: Discover how Azure Migrate helps you realize the benefits of moving your on-premises VMware or Hyper-V server workloads to Azure infrastructure as a service (IaaS). Learn the process for migrating your workload agent-less, all within the hub. 
-  ms.date: 07/06/2021
+  ms.date: 02/11/2022
   author: beccarobins
   ms.author: beccarobins
   ms.topic: interactive-tutorial

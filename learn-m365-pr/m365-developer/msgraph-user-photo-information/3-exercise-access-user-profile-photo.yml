@@ -3,7 +3,7 @@ uid: learn-m365.msgraph-user-photo-information.3-exercise-access-user-profile-ph
 metadata:
   title: Exercise - Use Microsoft Graph in your web application to retrieve a user's profile photo
   description: Learn how you can use Microsoft Graph to retrieve a user's profile photo or information in a sample application.
-  ms.date: 03/16/2021
+  ms.date: 03/01/2022
   author: rabwill
   ms.author: rwilliams
   ms.topic: interactive-tutorial

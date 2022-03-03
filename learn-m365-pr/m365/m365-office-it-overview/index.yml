@@ -8,6 +8,7 @@ metadata:
   ms.author: teleary
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
+  ms.custom: intro-internal
 title: Introduction to upgrading Office at scale 
 summary: Learn the basic steps and considerations when you manage Office upgrades in a large-scale environment.
 abstract: |

@@ -3,7 +3,7 @@ uid: learn-m365.msgraph-show-user-emails.8-exercise-load-users-email-batches
 metadata:
   title: Exercise - Load a user's emails in batches
   description: In this exercise, you'll learn how to load a large collection of data exposed through Microsoft Graph in batches.
-  ms.date: 06/01/2021
+  ms.date: 03/01/2022
   author: waldekmastykarz
   ms.author: wmastyka
   ms.topic: interactive-tutorial
