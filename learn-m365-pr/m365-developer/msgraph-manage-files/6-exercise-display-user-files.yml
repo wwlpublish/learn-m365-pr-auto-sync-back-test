@@ -8,6 +8,8 @@ metadata:
   ms.author: rogerman
   ms.topic: interactive-tutorial
   ms.prod: learning-graph
+  ms.custom: team=cloud_advocates
+  ms.contributors: rogerman-04192021
 title: Exercise - Display user files
 durationInMinutes: 3
 content: |

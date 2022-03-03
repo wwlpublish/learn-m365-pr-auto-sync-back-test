@@ -8,6 +8,8 @@ metadata:
   ms.author: dwahlin
   ms.topic: interactive-tutorial
   ms.prod: learning-graph
+  ms.custom: team=cloud_advocates
+  ms.contributors: dwahlin-09302021
 title: Show a user's emails in an ASP.NET Core app with Microsoft Graph
 summary: Learn how to show a user's emails in ASP.NET Core apps with Microsoft Graph. Also, learn how to optimize Microsoft Graph queries and load email in batches.
 abstract: |

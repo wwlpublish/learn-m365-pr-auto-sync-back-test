@@ -8,6 +8,8 @@ metadata:
   ms.author: rogerman
   ms.topic: interactive-tutorial
   ms.prod: learning-graph
+  ms.custom: team=cloud_advocates
+  ms.contributors: rogerman-04162021
 title: Connect a JavaScript app to Microsoft 365 
 durationInMinutes: 2
 content: |

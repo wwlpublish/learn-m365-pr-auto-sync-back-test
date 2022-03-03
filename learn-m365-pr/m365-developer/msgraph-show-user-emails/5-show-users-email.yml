@@ -8,6 +8,8 @@ metadata:
   ms.author: wmastyka
   ms.topic: interactive-tutorial
   ms.prod: learning-graph
+  ms.custom: team=cloud_advocates
+  ms.contributors: wmastyka-04142021
 title: Show a user's emails
 durationInMinutes: 5
 content: |
