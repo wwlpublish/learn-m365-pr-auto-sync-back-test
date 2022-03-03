@@ -3,7 +3,7 @@ uid: learn.wwl.explore-microsoft-defender
 metadata:
   title: Explore Microsoft Defender
   description: "The module explains how Microsoft Defender can be used to protect against malware and reduce exposure to attacks using a firewall."
-  ms.date: 03/01/2022
+  ms.date: 03/03/2022
   author: wwlpublish
   ms.author: brhinkel
   ms.topic: interactive-tutorial
