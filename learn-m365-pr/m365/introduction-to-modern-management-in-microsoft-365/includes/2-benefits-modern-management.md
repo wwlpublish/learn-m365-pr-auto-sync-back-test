@@ -4,9 +4,8 @@ Modern management is a novel approach of managing Windows 10 similar to how mobi
 
 Video: Modern Windows 10 Management with Enterprise Mobility + Security
 
-|:::image type="content" source="../media/video-icon.png" alt-text="Icon indicating play video." border="false":::|Watch this video to learn why you should consider implementing a modern management approach for Windows devices in your organization:|
-| :--- | :--- |
-| |[Modern Windows 10 Management with Enterprise Mobility + Security](https://www.youtube.com/watch?v=3gAtjMOJ-uw)|
+|:::image type="content" source="../media/video-icon.png" alt-text="Icon indicating play video." border="false":::|[Modern Windows 10 Management with Enterprise Mobility + Security](https://www.youtube.com/watch?v=3gAtjMOJ-uw)| :--- | :--- |
+||Watch this video to learn why you should consider implementing a modern management approach for Windows devices in your organization.|
 
 ## Pillars of modern management
 

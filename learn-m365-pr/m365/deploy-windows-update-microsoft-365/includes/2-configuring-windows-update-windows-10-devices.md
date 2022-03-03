@@ -16,6 +16,6 @@ In Windows 10, devices download updates directly from Windows Update by default.
 
 To configure Windows Update settings on a local computer, open Settings. Click **Update &amp; Security**, and then click **Windows Update**. On the Windows Update tab, you can use the Update status and Update settings sections to configure and control Windows Update.
 
-|:::image type="content" source="../media/video-icon.png" alt-text="Icon indicating play video." border="false":::|Watch this video to learn more about how to manage updates on a Windows 10 device:|
+|:::image type="content" source="../media/video-icon.png" alt-text="Icon indicating play video." border="false":::|[How to Manage Updates in Windows 10](https://www.youtube.com/watch?v=ZsPRcG16cok)|
 | --- | --- |
-||[How to Manage Updates in Windows 10](https://www.youtube.com/watch?v=ZsPRcG16cok)|
+||Watch this video to learn more about how to manage updates on a Windows 10 device.|

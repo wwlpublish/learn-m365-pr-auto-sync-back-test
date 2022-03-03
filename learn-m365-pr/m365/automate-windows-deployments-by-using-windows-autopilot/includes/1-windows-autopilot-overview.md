@@ -13,9 +13,9 @@ You can also use Windows Autopilot to reset, repurpose and recover devices. This
 Windows Autopilot is designed to simplify all parts of the lifecycle of Windows devices, for both IT and end users, from initial deployment through the eventual end of life. Leveraging cloud-based services, it can reduce the overall costs for deploying, managing, and retiring devices by reducing the amount of time that IT needs to spend on these processes and the amount of infrastructure that they need to maintain, while ensuring ease of use for all types of end users.
 
 
-:::image type="content" source="../media/video-icon.png" alt-text="Icon indicating play video." border="false"::: Watch this video to learn more about how Windows Autopilot can help your organization deploy new devices that are ready to use right out of the box.
-
->[!VIDEO https://www.youtube.com/embed/4K4hC5NchbE]
+|:::image type="content" source="../media/video-icon.png" alt-text="Icon indicating play video." border="false":::| Watch this video to learn more about how Windows Autopilot can help your organization deploy new devices that are ready to use right out of the box.|
+|--|--|
+||[!VIDEO https://www.youtube.com/embed/4K4hC5NchbE]|
 
 Windows Autopilot enables you to:
 

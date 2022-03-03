@@ -286,9 +286,9 @@ To set up Take a Test, you can configure a Take a Test profile in Intune for Edu
 
 1. Fill in the **New Take a Test profile** form that appears on the right:
 
-   :::image type="content" source="../media/2-create-profile.png" alt-text="Create a new Take a Test profile.":::
+    :::image type="content" source="../media/2-create-profile.png" alt-text="Create a new Take a Test profile.":::
 
-    |Field  |Description  |
+    |Setting  |Description  |
     |---------|---------|
     |Profile name|Provide a descriptive name for your profile.|
     |Account name|Provide the name of a local guest account to be used for tests. This name will be visible in the tile that the users will select to start a test.|
