@@ -103,9 +103,9 @@ Here are the values used in the example:
 
 |   |   |
 |---|---|
-|  StartDate | 05/13/2020  |
-|  EndDate |  05/14/2020 |
-| Identity | meganb  |
+|  `StartDate` | `05/13/2020`  |
+|  `EndDate` |  `05/14/2020` |
+| `Identity` | `meganb`  |
 
 Here is the result of running the PowerShell command shown above. The `ClientIPAddress` and `ClientInfoString` details help to determine if the sync activity came from a legitimate source.
 
