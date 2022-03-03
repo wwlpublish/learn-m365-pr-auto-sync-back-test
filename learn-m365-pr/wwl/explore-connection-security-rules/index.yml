@@ -3,7 +3,7 @@ uid: learn.wwl.explore-connection-security-rules
 metadata:
   title: Explore connection security rules
   description: "This module describes how connection security rules can be used to provide addtional security to protect data transmitted across networks."
-  ms.date: 03/01/2022
+  ms.date: 03/03/2022
   author: wwlpublish
   ms.author: brhinkel
   ms.topic: interactive-tutorial
