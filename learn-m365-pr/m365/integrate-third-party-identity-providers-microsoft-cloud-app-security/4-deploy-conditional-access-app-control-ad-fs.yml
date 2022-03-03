@@ -3,7 +3,7 @@ uid: learn-m365.integrate-third-party-identity-providers-mcas.4-deploy-condition
 metadata:
   title: Deploy Conditional Access App Control with AD FS as the identity provider
   description: Configure session controls in Defender for Cloud Apps using AD FS
-  ms.date: 11/03/2021
+  ms.date: 02/11/2022
   author: beccarobins
   ms.author: beccarobins
   ms.topic: interactive-tutorial
