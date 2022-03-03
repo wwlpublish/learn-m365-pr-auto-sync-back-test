@@ -1,9 +1,9 @@
 ﻿Depending on your organization's needs and requirements, Windows Autopilot supports a growing list of common scenarios that make transitioning to modern management a smooth process.
 
 
-|:::image type="content" source="../media/video-icon.png" alt-text="Icon indicating play video." border="false":::|Watch this video to learn more about the various scenarios that are supported by Windows Autopilot.|
-|--|--|
-||> [!VIDEO https://www.youtube.com/embed/7t7xaV8sm50]|
+:::image type="content" source="../media/video-icon.png" alt-text="Icon indicating play video." border="false"::: Watch this video to learn more about the various scenarios that are supported by Windows Autopilot.
+
+> [!VIDEO https://www.youtube.com/embed/7t7xaV8sm50]
 
 ## Windows Autopilot in User-driven mode
 
