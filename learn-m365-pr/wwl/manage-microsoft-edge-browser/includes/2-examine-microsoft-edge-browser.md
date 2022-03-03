@@ -17,7 +17,7 @@ In Microsoft Edge, you can pin tabs to the tab row. Pinned tabs take up less spa
  -  Extensions
  -  Performance
 
-### Collections<br>
+### Collections
 
 Collections allow you to easily collect, organize and share content that you find across the web. Collections provide a side panel that allows you to add pages or drag objects into the panel. This provides an easy way to perform actions such as comparing items when shopping or collecting information for planning a trip or event.
 

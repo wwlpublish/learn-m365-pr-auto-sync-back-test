@@ -25,7 +25,7 @@ Tracking Protection monitors the frequency of all third-party content as it appe
 
 ### Clear browsing data
 
-Microsoft Edge allows uers to clear browsing data. This can be found in option found in Settings-&gt;Privacy, search and services. Users can selectively choose which information they wish to clear, as well as a time range, such as the hour, or the last day of activity. Types of information that can be cleared include the following:
+Microsoft Edge allows uers to clear browsing data. This can be found in option found in Settings -&gt; Privacy, search and services. Users can selectively choose which information they wish to clear, as well as a time range, such as the hour, or the last day of activity. Types of information that can be cleared include the following:
 
  -  **Browsing history.**  Clears the history of all urls visited within the selected time range. As an alternative to InPrivate Browsing, a user can delete their browsing history manually without losing site functionality. From an enterprise and IT professional perspective, InPrivate Browsing is inherently more secure than clearing browsing history option to maintain privacy.
  -  **Download history.** Clears the list of files downloaded. Note that this does not delete the actual files downloaded.

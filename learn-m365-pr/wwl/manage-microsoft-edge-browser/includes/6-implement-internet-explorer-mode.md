@@ -1,4 +1,4 @@
-Internet Explorer 11 is the previous Microsoft web browser. Microsoft Edge has replaced Internet Explorer as a more modern web browser. While IE does not come with Windows anymore, some computers may still have it installed. It was previously recommended that IE 11 be used for legacy web applications that were developed around specific features that require Internet Explorer. This was not an ideal experience, as it often required the end user to switch between browsers. Microsoft introduced IE Mode in the Microsoft Edge browser, which allowed Edge to seemlessly render web applications designed for IE 11, negating the need to continue using Internet Explorer.<br>
+Internet Explorer 11 is the previous Microsoft web browser. Microsoft Edge has replaced Internet Explorer as a more modern web browser. While IE does not come with Windows anymore, some computers may still have it installed. It was previously recommended that IE 11 be used for legacy web applications that were developed around specific features that require Internet Explorer. This was not an ideal experience, as it often required the end user to switch between browsers. Microsoft introduced IE Mode in the Microsoft Edge browser, which allowed Edge to seemlessly render web applications designed for IE 11, negating the need to continue using Internet Explorer.
 
 > [!NOTE]
 > Internet Explorer 11 will no longer be supported after June 15, 2022.
@@ -41,11 +41,11 @@ An example of an exported XML file:
 
 Once the list is created, it must be deployed using a policy. When using IE Mode and an Enterprise Site list, Internet Explorer integration must be enabled and the location of the site list must be configured. To enable using Group Policy, perform the following steps:
 
-1.  Download and use the latest Microsoft Edge Policy Template.<br>
+1.  Download and use the latest Microsoft Edge Policy Template.
 2.  Open Group Policy Editor.
-3.  Select User Configuration/Computer Configuration &gt; Administrative Templates &gt; Microsoft Edge.<br>
-4.  Double-click **Configure Internet Explorer integration.**<br>
-5.  Select **Enabled**.<br>
+3.  Select User Configuration/Computer Configuration &gt; Administrative Templates &gt; Microsoft Edge.
+4.  Double-click **Configure Internet Explorer integration.**
+5.  Select **Enabled**.
 6.  Under Options, set the dropdown value to:
 
  -  **Internet Explorer mode** if you want sites to open in IE mode on Microsoft Edge

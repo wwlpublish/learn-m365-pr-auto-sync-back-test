@@ -86,7 +86,7 @@ You can also opt in to channels using policies as well, such as Group Policy or 
 
 The following steps are an example of configuring a client configured for automatic updates to switch to the Extended Stable channel using Group Policy:
 
-1.  Open the local Group Policy Editor and go to *Computer Configuration&gt;Administrative Templates&gt;Microsoft Edge Update&gt;Applications&gt;Microsoft Edge*.
+1.  Open the local Group Policy Editor and go to *Computer Configuration &gt; Administrative Templates &gt; Microsoft Edge Update &gt; Applications &gt; Microsoft Edge*.
 2.  Select **Target Channel override** and then select **Enabled**.
 3.  Under **Options**, select **Extended Stable** from the Policy dropdown list.
 
