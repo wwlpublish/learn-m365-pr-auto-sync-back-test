@@ -3,9 +3,9 @@ uid: learn-m365.msgraph-dotnet-core-manage-files.1-introduction
 title: Introduction
 metadata:
   title: Introduction
-  unitType: introduction 
+  unitType: introduction
   description: This unit introduces you to the module and explains what you'll learn.
-  ms.date: 09/04/2021
+  ms.date: 03/01/2022
   author: DanWahlin
   ms.author: dwahlin
   ms.topic: interactive-tutorial

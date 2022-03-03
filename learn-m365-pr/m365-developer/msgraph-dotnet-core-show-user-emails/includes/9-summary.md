@@ -5,4 +5,4 @@ Visit the other modules in this learning path for additional information about u
 ## More resources
 
 - [Microsoft 365 Developer Program](https://developer.microsoft.com/microsoft-365/dev-program/?WT.mc_id=m365-30352-cxa)
-- [List messages API](/graph/api/user-list-messages/?&WT.mc_id=m365-30352-cxa) 
+- [List messages API](/graph/api/user-list-messages/?&WT.mc_id=m365-30352-cxa)
