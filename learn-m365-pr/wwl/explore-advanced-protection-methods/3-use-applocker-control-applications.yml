@@ -1,10 +1,10 @@
 ### YamlMime:ModuleUnit
 uid: learn.wwl.explore-advanced-protection-methods.use-applocker-control-applications
-title: Use Applocker to control applications
+title: Use AppLocker to control applications
 metadata:
-  title: Use Applocker to control applications
-  description: "Use Applocker to control applications"
-  ms.date: 03/01/2022
+  title: Use AppLocker to control applications
+  description: "Use AppLocker to control applications"
+  ms.date: 03/03/2022
   author: wwlpublish
   ms.author: brhinkel
   ms.topic: interactive-tutorial

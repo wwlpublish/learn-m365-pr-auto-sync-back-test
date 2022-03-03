@@ -1,4 +1,4 @@
-Today’s organizations face a number of challenges in controlling which applications run on client computers. These challenges include controlling:<br>
+Today’s organizations face a number of challenges in controlling which applications run on client computers. These challenges include controlling:
 
  -  The Universal Windows and desktop apps that users can access.
  -  Which users are allowed to install new applications.
