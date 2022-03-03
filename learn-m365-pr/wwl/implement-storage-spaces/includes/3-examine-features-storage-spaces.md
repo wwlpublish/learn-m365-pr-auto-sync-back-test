@@ -1,0 +1,16 @@
+You can create storage spaces from storage pools. If your storage pool contains more than one disk, you can also create redundant storage spaces. To configure Storage Spaces in the Control Panel or Windows PowerShell, you need to consider the following features and their redundancy functionalities.
+
+### Storage layout
+
+Configure this feature to define the number of disks from the storage pool that you allocate to a virtual disk. Valid options include:
+
+ -  Simple. A simple space has data striping but no redundancy. In data striping, logically sequential data is segmented across all disks in such a way that provides access for these sequential segments to different physical storage drives. Striping makes it possible to access multiple segments of data concurrently. Do not host important data on a simple volume, because it provides no failover capabilities when the disk that is storing the data fails. This is similar to the striped volumes discussed earlier.
+ -  Two-way and three-way mirrors. Mirror spaces maintain two or three copies of the data that they host (two data copies for two-way mirrors and three data copies for three-way mirrors). Data duplication happens with every write to ensure that all data copies are always current. Mirror spaces also stripe the data across multiple physical drives. Mirror spaces provide the benefit of greater data throughput and lower access latency. They also do not introduce a risk of corrupting at-rest data, and do not require the extra journaling stage when writing data. Two-way mirrors are similar to the mirrored volumes discussed earlier.
+ -  Parity. A parity space is similar to RAID 5. Storage Spaces stores data, along with parity information, striped across multiple physical drives. Parity enables Storage Spaces to continue servicing read and write requests even when a drive has failed. Parity always rotates across available disks to enable I/O optimization. Storage Spaces require a minimum of three physical drives for parity spaces. Parity spaces have increased resiliency through journaling. There is no equivalent to parity in volumes on dynamic disks.
+
+### Provisioning schemes
+
+You can provision a virtual disk by using two different schemes:
+
+ -  Thin provisioning space. Thin provisioning is a mechanism that enables you to allocate storage when the storage space needs it. The storage pool organizes the storage capacity into provisioning slabs. The allocation does not happen until the point when datasets grow to require the storage. As opposed to the traditional fixed storage allocation method, in which you might allocate large pools of storage capacity that remain unused, thin provisioning optimizes utilization of available storage. Organizations also can save on operating costs, such as electricity and floor space, associated with keeping the unused drives operating. The disadvantage of using thin provisioning is lower disk performance because storage allocation occurs when the pool needs extra storage.
+ -  Fixed (or “thick”) provisioning space. With Storage Spaces, fixed provisioned spaces also employ the flexible provisioning slabs. The difference between thin provisioning and a fixed provisioning space is that the storage capacity allocation in the fixed provisioning space happens at the same time as storage space creation.
