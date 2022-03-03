@@ -7,7 +7,7 @@ Before you get started, you'll want to create a high-level plan and get the nece
 | Step | Description |
 |-----------|--------|
 |**Step 1: Analyze your device and app readiness.** ||
-|![Step 1 icon](../media/step1-icon-intro.png) |  For a successful deployment, you must first take an inventory of your devices and apps and verify compatibility, leveraging the Microsoft tools available. |
+|![Step 1 icon](../media/step1-icon-intro.png) | For a successful deployment, you must first take an inventory of your devices and apps and verify compatibility, leveraging the Microsoft tools available. |
 
 |**Step 2: Analyze your directory and network readiness.** ||
 |![Step 2 icon](../media/step-2-icon-intro.png) | You'll need to implement Azure Active Directory for identity and access management while also preparing your network for the movement of system images, application packages, user files, and updates across it. |
