@@ -19,6 +19,9 @@ In this module, you'll learn how to change the presentation of data by using tem
 - [Visual Studio Code](https://code.visualstudio.com/)
 - [Visual Studio Code Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
 
+> [!IMPORTANT]
+> This module assumes you've completed the first part of the sample app in module **[Configure and style Microsoft Graph Toolkit components by using attributes and CSS](/learn/modules/msgraph-toolkit-customize-part-one)**.
+
 ## Learning objectives
 
 By completing this module, you'll be able to:

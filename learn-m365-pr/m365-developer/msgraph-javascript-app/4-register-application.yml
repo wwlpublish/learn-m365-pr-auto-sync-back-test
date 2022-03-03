@@ -3,7 +3,7 @@ uid: learn-m365.msgraph-javascript-app.4-register-application
 metadata:
   title: Register an application with Azure Active Directory
   description: Learn how to register your JavaScript application with Azure Active Directory.
-  ms.date: 02/17/2021
+  ms.date: 03/01/2022
   author: aycabas
   ms.author: aycabas
   ms.topic: interactive-tutorial

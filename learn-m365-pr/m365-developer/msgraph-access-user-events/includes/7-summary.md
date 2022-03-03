@@ -5,5 +5,5 @@ Check out the other modules in this series to learn how to do even more with Mic
 ## More resources
 
 - [Microsoft 365 Developer Program](https://developer.microsoft.com/microsoft-365/dev-program?WT.mc_id=m365-16105-cxa)
-- [List calendarView - Microsoft Graph v1.0 | Microsoft Docs](https://docs.microsoft.com/graph/api/user-list-calendarview?WT.mc_id=m365-16105-cxa)
-- [Use query parameters to customize responses](https://docs.microsoft.com/graph/query-parameters?WT.mc_id=m365-16105-cxa)
+- [List calendarView - Microsoft Graph v1.0 | Microsoft Docs](/graph/api/user-list-calendarview?WT.mc_id=m365-16105-cxa)
+- [Use query parameters to customize responses](/graph/query-parameters?WT.mc_id=m365-16105-cxa)

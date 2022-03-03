@@ -43,13 +43,13 @@ If you build web apps without using a bundler, you can load Microsoft Graph Tool
 <script src="https://unpkg.com/@microsoft/mgt/dist/bundle/mgt-loader.js"></script>
 ```
 
-If you work on projects that use a package manager like npm, add Microsoft Graph Toolkit to your web app by installing the `@microsoft/mgt` package:
+If you work on projects that use a package manager like npm, add Microsoft Graph Toolkit to your web app by installing the **@microsoft/mgt** package:
 
 ```console
 npm install @microsoft/mgt
 ```
 
-If you build React apps, install the `@microsoft/mgt-react` package instead:
+If you build React apps, install the **@microsoft/mgt-react** package instead:
 
 ```console
 npm install @microsoft/mgt-react
