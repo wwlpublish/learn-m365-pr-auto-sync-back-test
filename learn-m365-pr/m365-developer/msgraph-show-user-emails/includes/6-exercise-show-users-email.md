@@ -1,16 +1,16 @@
-In this exercise, you'll extend the app to let users view their last 10 emails. 
+In this exercise, you'll extend the app to let users view their last 10 emails.
 
 ## Load emails from Microsoft Graph
 
 Start by adding a call to Microsoft Graph to load the current user's last 10 emails.
 
-1. In your code editor, open the *graph.js* file.
+1. In your code editor, open the **graph.js** file.
 1. At the end of the file, add a new async function to retrieve the 10 last emails. Load each email's subject and the date and time when it was received.
 
     ```javascript
     async function getEmails() {
       ensureScope('mail.read');
-    
+
       return await graphClient
         .api('/me/messages')
         .select('subject,receivedDateTime')
@@ -24,7 +24,14 @@ Start by adding a call to Microsoft Graph to load the current user's last 10 ema
 
 Next, extend the app with a button to load emails and add a placeholder to display them.
 
-1. In your code editor, open the *index.html* file.
+1. In your code editor, open the **index.html** file.
+1. Locate the line `<h4>Welcome <span id="userName"></span></h4>` and add the following markup immediately after it:
+
+    ```html
+    <button onclick="displayEmail();" id="displayEmail">Show email</button>
+    <ul id="emails"></ul>
+    ```
+
 1. Extend the content block with a button to load emails and a placeholder to display them.
 
     ```html
@@ -32,15 +39,15 @@ Next, extend the app with a button to load emails and add a placeholder to displ
       <h4>Welcome <span id="userName"></span></h4>
       <button onclick="displayEmail();" id="displayEmail">Show email</button>
       <ul id="emails"></ul>
-    </div> 
+    </div>
     ```
 
 ## Display emails in the app
 
 The last step is to request emails by using Microsoft Graph and show them in the placeholder.
 
-1. In your code editor, open the *ui.js* file.
-1. At the end of the file, add the `displayEmail` function.
+1. In your code editor, open the **ui.js** file.
+1. At the end of the file, add the `displayEmail` function:
 
     ```javascript
     async function displayEmail() {
@@ -48,9 +55,9 @@ The last step is to request emails by using Microsoft Graph and show them in the
       if (!emails || emails.value.length < 1) {
         return;
       }
-    
+
       document.getElementById('displayEmail').style = 'display: none';
-    
+
       var emailsUl = document.getElementById('emails');
       emails.value.forEach(email => {
         var emailLi = document.createElement('li');
@@ -66,7 +73,7 @@ You've extended your app to show a user's emails by using Microsoft Graph. Let's
 
 1. Preview the web app by executing the following command in the terminal.
 
-    ```cmd
+    ```console
     npm start
     ```
 

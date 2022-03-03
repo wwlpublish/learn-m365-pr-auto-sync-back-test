@@ -1,0 +1,39 @@
+### YamlMime:Module
+uid: learn.wwl.explore-name-resolution
+metadata:
+  title: Explore name resolution
+  description: "This module focuses on name resolution in Windows client and the methods used to resolve device names to addresses."
+  ms.date: 03/02/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Explore name resolution
+summary: This module focuses on name resolution in Windows client and the methods used to resolve device names to addresses.
+abstract: |
+  After completing this module, you will be able to:
+  - Describe name resolution.
+  - Describe DNS.
+  - Explain how to troubleshoot name resolution.
+  - Configure and test name resolution settings in Windows.
+prerequisites: |
+  - Students should have a basic understanding of computer networks and hardware concepts.
+  - Students should have a basic understanding of OS and Application concepts.
+  - Students should have experience with using Windows 10 or later.
+iconUrl: /learn/achievements/generic-badge.svg
+hidden: true
+levels:
+- beginner
+roles:
+- administrator
+products:
+- windows
+units:
+- learn.wwl.explore-name-resolution.introduction
+- learn.wwl.explore-name-resolution.explain-how-name-resolution-works
+- learn.wwl.explore-name-resolution.explore-domain-name-system
+- learn.wwl.explore-name-resolution.troubleshoot-name-resolution
+- learn.wwl.explore-name-resolution.knowledge-check
+- learn.wwl.explore-name-resolution.summary
+badge:
+  uid: learn.wwl.explore-name-resolution.badge

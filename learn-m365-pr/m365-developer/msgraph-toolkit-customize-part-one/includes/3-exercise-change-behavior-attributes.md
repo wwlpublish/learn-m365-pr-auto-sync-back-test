@@ -10,8 +10,8 @@ For this module, you'll need an application with the following settings:
 
 - **Name**: My app
 - **Platform**: Single Page Application (SPA)
-- **Supported account types**: Accounts in any organizational directory (Any Azure AD directory - Multitenant) and personal Microsoft accounts (e.g. Skype, Xbox)
-- **Redirect URIs**: http://localhost:3000
+- **Supported account types**: Accounts in any organizational directory (Any Azure AD directory - Multitenant) and personal Microsoft accounts (for example, Skype, Xbox)
+- **Redirect URIs**: `http://localhost:3000`
 
 To create this application, follow these steps:
 
@@ -27,14 +27,14 @@ To create this application, follow these steps:
     ```html
     <!DOCTYPE html>
     <html lang="en">
-        <head>    
-            <script src="https://unpkg.com/@microsoft/mgt/dist/bundle/mgt-loader.js"></script>
-        </head>
-        <body>    
-            <mgt-msal2-provider client-id="YOUR-CLIENT-ID"></mgt-msal2-provider>
-            <mgt-login></mgt-login>
-            <mgt-agenda></mgt-agenda>
-        </body>
+      <head>
+        <script src="https://unpkg.com/@microsoft/mgt/dist/bundle/mgt-loader.js"></script>
+      </head>
+      <body>
+        <mgt-msal2-provider client-id="YOUR-CLIENT-ID"></mgt-msal2-provider>
+        <mgt-login></mgt-login>
+        <mgt-agenda></mgt-agenda>
+      </body>
     </html>
     ```
 
@@ -43,8 +43,8 @@ To create this application, follow these steps:
 
     ```json
     {
-        "liveServer.settings.host": "localhost",
-        "liveServer.settings.port": 3000
+      "liveServer.settings.host": "localhost",
+      "liveServer.settings.port": 3000
     }
     ```
 
@@ -69,32 +69,35 @@ Add these attributes to the existing **mgt-agenda** component in **index.html**.
 ```html
 <!DOCTYPE html>
 <html lang="en">
-    <head>    
-        <script src="https://unpkg.com/@microsoft/mgt/dist/bundle/mgt-loader.js"></script>
-    </head>
-    <body>    
-        <mgt-msal2-provider client-id="YOUR-CLIENT-ID"></mgt-msal2-provider>
-        <mgt-login></mgt-login>
+  <head>
+      <script src="https://unpkg.com/@microsoft/mgt/dist/bundle/mgt-loader.js"></script>
+  </head>
+  <body>
 
-        <mgt-agenda
-            date="March 9, 2021"
-            days="3"
-            group-by-day>
-        </mgt-agenda>
+    <mgt-msal2-provider client-id="YOUR-CLIENT-ID"></mgt-msal2-provider>
+    <mgt-login></mgt-login>
 
-    </body>
+    <mgt-agenda
+        date="March 9, 2021"
+        days="3"
+        group-by-day>
+    </mgt-agenda>
+
+  </body>
 </html>
 ```
 
 ## Test your app in the browser
 
-1. If this is the first time you've used your Microsoft 365 developer tenant, you might not have any events in your account's calendar. Before you start testing your app, see https://outlook.office.com/calendar and sign in with your Microsoft 365 developer tenant account. Add sample events on March 9, 10, and 11 of 2021 in your calendar.
+1. If this is the first time you've used your Microsoft 365 developer tenant, you might not have any events in your account's calendar. Before you start testing your app, see `https://outlook.office.com/calendar` and sign in with your Microsoft 365 developer tenant account. Add sample events on March 9, 10, and 11 of 2022 in your calendar.
 1. In Visual Studio Code, select the following key combination in Visual Studio Code and search for Live Server:
-    - **Windows**: Ctrl+Shift+P
-    - **macOS**: Cmd+Shift+P
+
+    - **Windows**: <kbd>CTRL</kbd>+<kbd>SHIFT</kbd>+<kbd>P</kbd>
+    - **macOS**: <kbd>COMMAND</kbd>+<kbd>SHIFT</kbd>+<kbd>P</kbd>
 
    Run Live Server to test your app.
-1. Open your browser, and go to http://localhost:3000.
+
+1. Open your browser, and go to `http://localhost:3000`.
 1. Sign in with your Microsoft 365 developer account. Consent to the required permissions, and select **Accept**.
 1. The next three days of calendar events will be displayed and grouped by day, starting from March 9, 2021.
 

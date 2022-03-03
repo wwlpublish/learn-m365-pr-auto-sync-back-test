@@ -116,7 +116,7 @@ Start the app, sign in, and select the **Calendar** link in the nav bar. If ever
 
 Now you can add a view to display the results in a more user-friendly manner.
 
-In **Solution Explorer**, right-click the **Views/Calendar** folder and select **Add > View...**. Name the view **Index** and select **Add**. Replace the entire contents of the new file with the following code.
+In **Solution Explorer**, right-click the **Views/Calendar** folder and select **Add > View...**. Choose **MVC 5 View** and select **Add**. Name the view **Index** and select **Add**. Replace the entire contents of the new file with the following code.
 
 ```html
 @model IEnumerable<Microsoft.Graph.Event>
