@@ -2,12 +2,12 @@
 uid: learn-m365.msgraph-access-user-events.3-connect-app
 title: Connect a JavaScript app to Microsoft 365
 metadata:
-  unitType: learning-content  
-  title: Connect a JavaScript app to Microsoft 365  
+  unitType: learning-content
+  title: Connect a JavaScript app to Microsoft 365
   description: In this unit, you'll learn how to connect a JavaScript app to Microsoft 365.
-  ms.date: 03/23/2021  
-  author: rabwill  
-  ms.author: rwilliams  
+  ms.date: 03/01/2022
+  author: rabwill
+  ms.author: rwilliams
   ms.topic: interactive-tutorial
   ms.prod: learning-graph
 durationInMinutes: 8
