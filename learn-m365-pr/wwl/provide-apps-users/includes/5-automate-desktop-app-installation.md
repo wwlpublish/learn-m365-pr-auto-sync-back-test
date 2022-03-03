@@ -39,7 +39,7 @@ The LTI process requires only the tools that are available in MDT. You do not ne
 
 With Windows, organizations can use Microsoft Intune to manage Windows PCs either as mobile devices with mobile device management (MDM) or as computers with the Intune software client. Windows 8.1 and later, macOS, iOS, and Android can be managed using Intune’s MDM management capabilities.
 
-Microsoft recommends that customers use the MDM management solution whenever possible. For more information on the differences between managing Windows as a computer or as a mobile device with Intune, see [http://aka.ms/AA3tzmy](http://aka.ms/AA3tzmy).
+Microsoft recommends that customers use the MDM management solution whenever possible. For more information on the differences between managing Windows as a computer or as a mobile device with Intune, see [https://aka.ms/AA3tzmy](http://aka.ms/AA3tzmy).
 
 Once clients are enrolled in Intune, administrators can:
 
