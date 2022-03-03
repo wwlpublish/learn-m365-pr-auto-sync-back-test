@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.configure-ip-network-connectivity.explain-public-private-ip-addressing
+title: Explain public and private IP addressing
+metadata:
+  title: Explain public and private IP addressing
+  description: "Explain public and private IP addressing"
+  ms.date: 03/02/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 2
+content: |
+  [!include[](includes/5-explain-public-private-ip-addressing.md)]

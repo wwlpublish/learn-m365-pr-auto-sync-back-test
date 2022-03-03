@@ -25,7 +25,7 @@ You can find more information about the available custom CSS properties exposed 
 
 Microsoft Graph Toolkit also provides light and dark themes. You can choose the best theme for your web app and apply it as an individual component theme, regional theme, or global theme to the HTML body. You can also customize CSS with a theme.
 
-Let's say you're using the **People picker** component and you want the dark theme. You can apply the dark theme to `<mgt-people-picker>` by assigning a value of **mgt-dark** to the **class** attribute.
+Let's say you're using the **People picker** component and you want the dark theme. You can apply the dark theme to `<mgt-people-picker>` by assigning a value of **mgt-dark** to the `class` attribute.
 
 ```html
 <mgt-people-picker class="mgt-dark"></mgt-people-picker>
