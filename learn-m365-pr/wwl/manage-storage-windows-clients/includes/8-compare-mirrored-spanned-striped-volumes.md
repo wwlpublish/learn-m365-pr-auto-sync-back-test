@@ -4,16 +4,16 @@ In addition to simple volumes, disk arrangements also support the following volu
  -  **Spanned volume**. A spanned volume joins areas of unallocated space on at least two and at most 32 disks into a single logical disk.
  -  **Striped volume**. Similar to a spanned volume, a striped volume also requires two or more disks. However, striped volumes map stripes of data cyclically across the disks.
 
-Basic disks support only primary partitions, extended partitions, and logical drives. To use mirrored, spanned, or striped volumes, you must convert the disks to dynamic disks as described previously. Dynamic disks use a database to track information about the disk’s dynamic volumes and the computer’s other dynamic disks. Because each dynamic disk on a computer stores a replica of the dynamic disk database, the Windows operating system can repair a corrupted database on one dynamic disk by using the database on another dynamic disk.<br>
+Basic disks support only primary partitions, extended partitions, and logical drives. To use mirrored, spanned, or striped volumes, you must convert the disks to dynamic disks as described previously. Dynamic disks use a database to track information about the disk’s dynamic volumes and the computer’s other dynamic disks. Because each dynamic disk on a computer stores a replica of the dynamic disk database, the Windows operating system can repair a corrupted database on one dynamic disk by using the database on another dynamic disk.
 
 :::image type="content" source="../media/mirrored-disks-62cde902.jpg" alt-text="Diagram showing the relationship of IPv4.":::
 
 
 ### Mirrored volumes
 
-A mirrored volume also is a RAID-1 (Redundant Array of Independent Disks) volume. A mirrored volume combines equal-sized areas of unallocated space from two disks. You use a mirrored volume when you wish to provide redundancy for your system partition. Both spanned volumes and striped volumes require a Windows operating system to be running to recognize the volume—therefore, neither of those solutions can provide protection against disk failures for a system partition.
+A mirrored volume also is a RAID-1 (Redundant Array of Independent Disks) volume. A mirrored volume combines equal-sized areas of unallocated space from two disks. You use a mirrored volume when you wish to provide redundancy for your system partition. Both spanned volumes and striped volumes require a Windows operating system to be running to recognize the volume. Therefore, neither of those solutions can provide protection against disk failures for a system partition.
 
-When creating a mirrored volume, the disk for the shadow volume must be at least the same size as the volume you want to mirror. Once you establish the mirror, you cannot resize the mirrored volume.
+When creating a mirrored volume, the disk for the shadow volume must be at least the same size as the volume you want to mirror. Once you establish the mirror, you can’t resize the mirrored volume.
 
 There are two main benefits of using mirrored volumes. Recovering from a disk failure is very quick as there is no data to rebuild. Additionally, read operations have a slight performance boost because you can read from both disks simultaneously.
 
@@ -41,9 +41,9 @@ You should create a striped volume when you want to improve the I/O performance 
 
 Striped volumes also are well suited for isolating the paging file. By creating a volume where Pagefile.sys is the only file on the entire volume, the paging file is less likely to become fragmented, which helps improve performance. Redundancy is not required for the paging file normally. Striped volumes provide a better solution than RAID-5 for paging file isolation. This is because the paging file activity is write-intensive, and RAID-5 is better suited for read performance than write performance.
 
-Because there is no allocated capacity for redundant data, striped volumes do not provide data-recovery mechanisms such as those in RAID-1 and RAID-5. The failure of any disk results in data loss on a larger scale than it would on a simple volume, because it disrupts the entire file system that spreads across multiple physical disks. The more disks that you combine in RAID-0, the less reliable the volume becomes.
+Because there is no allocated capacity for redundant data, striped volumes do not provide data-recovery mechanisms such as those in RAID-1 and RAID-5. The failure of any disk would result in data loss on a larger scale than it would on a simple volume. It disrupts the entire file system that spreads across multiple physical disks. The more disks that you combine in RAID-0, the less reliable the volume becomes.
 
 When you create a striped volume, you define the file system, drive letter, and other standard volume properties. Additionally, you must define the disks from which to allocate free space. The allocated space from each disk must be identical in size. It is possible to delete a striped volume, but it is not possible to extend or to shrink the volume.
 
 > [!NOTE]
-> RAID-5 is a striped set with parity volume. It combines the speed of striped volumes with fault tolerance. It is not possible to create RAID-5 in Disk Management in Windows client. A similar configuration can be achived using Storage Spaces.
+> RAID-5 is a striped set with parity volume. It combines the speed of striped volumes with fault tolerance. It isn't possible to create RAID-5 in Disk Management in Windows client. A similar configuration can be achieved using Storage Spaces.

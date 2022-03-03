@@ -4,7 +4,7 @@ title: Knowledge check
 metadata:
   title: Knowledge check
   description: "Knowledge check"
-  ms.date: 03/01/2022
+  ms.date: 03/03/2022
   author: wwlpublish
   ms.author: brhinkel
   ms.topic: interactive-tutorial
@@ -28,18 +28,18 @@ quiz:
     - content: "Storage Area Networking"
       isCorrect: true
       explanation: "Correct. SAN is a high‐speed network that connects computer systems or host servers to high-performance storage subsystems. A SAN enables multiple servers to access a pool of storage in which any server can potentially access any storage unit. Because a SAN is a network, you can use a SAN to connect many different devices and hosts and provide access to any connected device from anywhere."
-  - content: "You are upgrading the local storage for a 64-bit, Windows 10 laptop. The Windows 10 client runs on a motherboard with BIOS firmware and requires an MBR-partitioned system disk. You want to upgrade the local storage for this laptop to a 6 TB removable disk. You have decided to configure it as a GPT disk. Will you encounter any problems?"
+  - content: "The local storage needs upgrading for a 64-bit, Windows 10 laptop. The Windows 10 client runs on a motherboard with BIOS firmware and requires an MBR-partitioned system disk. The upgrade for the local storage for this laptop will be a 6 TB removable disk. You have decided to configure it as a GPT disk. Will you encounter any problems?"
     choices:
     - content: "The GPT partition style can't be used on removable disks"
       isCorrect: true
       explanation: "Correct. GPT disks address the limitations of MBR disks. However, you can't use the GPT partition style on removable disks."
     - content: "You can't boot from GPT disks on BIOS systems running 64-bit Windows operating systems"
       isCorrect: false
-      explanation: "Incorrect. You can't boot from GPT disks on BIOS systems running 32-bit Windows operating systems. You can boot from from 64-bit Windows operating systems. Try again."
-    - content: "The protective MBR doesn't protect GPT disks from previously released MBR disk tools, which makes them vulnerable to incidential data loss"
+      explanation: "Incorrect. You can't boot from GPT disks on BIOS systems running 32-bit Windows operating systems. You can boot from 64-bit Windows operating systems. Try again."
+    - content: "The protective MBR doesn't protect GPT disks from previously released MBR disk tools, which makes them vulnerable to incidental data loss"
       isCorrect: false
       explanation: "Incorrect. The protective MBR protects GPT disks from previously released MBR disk tools. Because these tools view a GPT disk as a single encompassing partition by interpreting the protected MBR, it makes the disk less vulnerable to incidental data loss. Try again."
-  - content: "As the Desktop Administrator for Wingtip Toys, you have replaced a hard disk drive on one of your PCs. You began by partioning the disk using the master boot record (MBR) scheme. What's the next step that you must complete before an operating system can use the disk?"
+  - content: "As the Desktop Administrator for Wingtip Toys, you have replaced a hard disk drive on one of your PCs. You began by partitioning the disk using the master boot record (MBR) scheme. What's the next step that you must complete before an operating system can use the disk?"
     choices:
     - content: "Restart the PC to recognize the disk"
       isCorrect: false
@@ -61,7 +61,7 @@ quiz:
     - content: "Striped volumes"
       isCorrect: false
       explanation: "Incorrect. A striped volume requires two or more disks. Striped volumes map stripes of data cyclically across the disks. Try again."
-  - content: "Contoso uses virtual hard disks, which are an integral part of its Client Hyper-V virtual machine environments. Which of the following items is an advantage of using virtual hard disks:"
+  - content: "Contoso uses virtual hard disks, which are an integral part of its Client Hyper-V virtual machine environments. Which of the following items is an advantage of using virtual hard disks?"
     choices:
     - content: "Performance"
       isCorrect: false

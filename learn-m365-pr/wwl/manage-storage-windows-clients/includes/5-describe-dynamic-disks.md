@@ -43,11 +43,20 @@ The following table describes the differences between using basic and dynamic di
     Basic disks
   :::column-end:::
   :::column:::
-    Compatible with most operating systems. Convert to dynamic disk without data loss.
+    
+
+ -  Compatible with most operating systems.
+ -  Convert to dynamic disk without data loss.
+
+
   :::column-end:::
   :::column:::
-    • Only uses contiguous space on one disk.
-• Limited number of partitions on MBR disks.
+    
+
+ -  Only uses contiguous space on one disk.
+ -  Limited number of partitions on MBR disks.
+
+
   :::column-end:::
 :::row-end:::
 :::row:::
@@ -55,10 +64,20 @@ The following table describes the differences between using basic and dynamic di
     Dynamic disks
   :::column-end:::
   :::column:::
-    Multidisk volumes. Fault-tolerant volumes. 1024 volumes on MBR disks.
+    
+
+ -  Multidisk volumes.
+ -  Fault-tolerant volumes.
+ -  1024 volumes on MBR disks.
+
+
   :::column-end:::
   :::column:::
-    • Only compatible with Windows.
-• Does not convert to basic disk without data loss.
+    
+
+ -  Only compatible with Windows.
+ -  Does not convert to basic disk without data loss.
+
+
   :::column-end:::
 :::row-end:::

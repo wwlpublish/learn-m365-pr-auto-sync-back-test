@@ -5,10 +5,10 @@ You can use the following tools to manage Windows disks and the volumes or parti
  -  **Windows PowerShell 5.0**. Windows PowerShell is a scripting language that accomplishes many tasks in the Windows environment. Starting with Windows PowerShell 3.0, disk management commands are available for use as stand-alone commands or as part of a script.
 
 > [!NOTE]
-> Windows does not support remote connections in workgroups. Both the local computer and the remote computer must be in a domain for you to use Disk Management to manage a disk remotely.
+> Windows doesn't support remote connections in workgroups. Both the local computer and the remote computer must be in a domain for you to use Disk Management to manage a disk remotely.
 
 > [!NOTE]
-> Do not use disk-editing tools such as dskprobe.exe to make changes to GPT disks. Any change that you make renders the checksums invalid, which might cause the disk to become inaccessible. To make changes to GPT disks, use Windows PowerShell, DiskPart, or Disk Management.
+> Don't use disk-editing tools such as dskprobe.exe to make changes to GPT disks. Any change that you make renders the checksums invalid, which might cause the disk to become inaccessible. To make changes to GPT disks, use Windows PowerShell, DiskPart, or Disk Management.
 
 With either tool, you can initialize disks, create volumes, and format a volume file system. Additional common tasks include moving disks between computers, changing disks between basic and dynamic types, and changing the partition style of disks. You can perform most disk-related tasks without restarting a system or interrupting users, and most configuration changes take effect immediately.
 
@@ -48,7 +48,7 @@ The following table shows several DiskPart commands that you will use frequently
     list disk
   :::column-end:::
   :::column:::
-    Displays a list of disks and related information, including: Disk size The amount of available free space on the disks Whether the disks are basic or dynamic Whether the disks use the MBR or GPT partition style The disks marked with an asterisk (\*) are the ones against which the commands will execute.
+    Displays a list of disks and related information, including: Disk size, the amount of available free space on the disks, whether the disks are basic or dynamic, and whether the disks use the MBR or GPT partition style. The disks marked with an asterisk (\*) are the ones against which the commands will execute.
   :::column-end:::
 :::row-end:::
 :::row:::
@@ -92,7 +92,7 @@ Prior to Windows PowerShell 3.0, if you wanted to script disk management tasks, 
     Returns information on all disks or disks that you specify with a filter.
   :::column-end:::
   :::column:::
-    FriendlyName returns information about disks that have the specified friendly name. Number returns information about a specific disk.
+    *FriendlyName* returns information about disks that have the specified friendly name. Number returns information about a specific disk.
   :::column-end:::
 :::row-end:::
 :::row:::
@@ -103,7 +103,7 @@ Prior to Windows PowerShell 3.0, if you wanted to script disk management tasks, 
     Cleans a disk by removing all partition information.
   :::column-end:::
   :::column:::
-    ZeroOutEntireDisk writes zeros to all sectors of a disk.
+    *ZeroOutEntireDisk* writes zeros to all sectors of a disk.
   :::column-end:::
 :::row-end:::
 :::row:::
@@ -114,7 +114,7 @@ Prior to Windows PowerShell 3.0, if you wanted to script disk management tasks, 
     Prepares a disk for use. By default, it creates a GPT partition.
   :::column-end:::
   :::column:::
-    PartitionStyle PartitionStyle specifies the type of the partition, either MBR or GPT.
+    *PartitionStyle* specifies the type of the partition, either MBR or GPT.
   :::column-end:::
 :::row-end:::
 :::row:::
@@ -125,7 +125,7 @@ Prior to Windows PowerShell 3.0, if you wanted to script disk management tasks, 
     Updates a physical disk with the specified attributes.
   :::column-end:::
   :::column:::
-    PartitionStyle PartitionStyle specifies the type of the partition, either MBR or GPT. You can use this to convert a disk that was initialized previously.
+    *PartitionStyle* specifies the type of the partition, either MBR or GPT. You can use this to convert a disk that was initialized previously.
   :::column-end:::
 :::row-end:::
 :::row:::
@@ -136,6 +136,6 @@ Prior to Windows PowerShell 3.0, if you wanted to script disk management tasks, 
     Returns information on all file systems’ volumes, or those volumes that you specify with a filter.
   :::column-end:::
   :::column:::
-    DriveLetter Char gets information about the specified drive letter. FileSystemLabel String returns information on the NTFS file systems or Resilient File System (ReFS) volumes.
+    *DriveLetter Char* gets information about the specified drive letter. *FileSystemLabel* String returns information on the NTFS file systems or Resilient File System (ReFS) volumes.
   :::column-end:::
 :::row-end:::

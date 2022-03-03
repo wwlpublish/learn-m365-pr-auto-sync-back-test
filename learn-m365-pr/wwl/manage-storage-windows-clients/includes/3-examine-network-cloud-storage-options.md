@@ -23,7 +23,7 @@ SANs provide block-level access. This means that, rather than accessing the cont
 
 Today, most SAN solutions offer SAN and NAS together. The backend head units, disks, and technologies are identical, and only the access method differs. Enterprises often provision block storage from the SAN to the servers by using Fibre Channel over Ethernet or iSCSI. NAS services use the CIFS and NFS protocols. If you want to use a SAN, Windows supports the iSCSI protocol with the iSCSI initiator.
 
-#### Cloud Based Storage
+#### Cloud based storage
 
 Cloud storage simplifies access to your files as long as you have Internet access. When you sign in with your Microsoft account, you can access all the files on your Microsoft OneDrive. Microsoft also offers enterprise cloud storage with Microsoft Azure Storage. Cloud storage provides several benefits:
 
@@ -33,9 +33,9 @@ Cloud storage simplifies access to your files as long as you have Internet acces
 
 #### OneDrive
 
-OneDrive offers the benefits of making files accessible by any device, while offering a seamless end user experience in the desktop client. OneDrive is covered in more detail in the next topic.
+OneDrive offers the benefits of making files accessible by any device, while offering a seamless end user experience in the desktop client. OneDrive is covered in more detail in the next unit.
 
-#### Azure Storage
+#### Azure storage
 
 Microsoft Azure Storage is a cloud storage solution that developers and IT professionals use to build applications. Azure Storage saves data in the cloud. You can access Azure Storage by using any type of device and by using any type of application, from the smallest app to applications with terabytes of data.
 
