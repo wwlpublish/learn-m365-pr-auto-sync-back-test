@@ -3,7 +3,7 @@ uid: learn.wwl.implement-storage-spaces
 metadata:
   title: Implement Storage Spaces
   description: "This module explains how to configure and implement the Storage Spaces feature in Windows."
-  ms.date: 03/01/2022
+  ms.date: 03/03/2022
   author: wwlpublish
   ms.author: brhinkel
   ms.topic: interactive-tutorial
