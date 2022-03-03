@@ -40,7 +40,7 @@ Here you can see a successful connection to Exchange Online PowerShell V2.
 
 ### Accounts with multifactor authentication enabled
 
-1. Replace `UPN` with your account in user principal name format (meganb@contoso.com) and run the following command:
+1. Replace `UPN` with your account in user principal name format (`meganb@contoso.com`) and run the following command:
 
     ```PowerShell
     Connect-ExchangeOnline -UserPrincipalName <UPN> -ShowProgress $true
@@ -48,7 +48,7 @@ Here you can see a successful connection to Exchange Online PowerShell V2.
 
 ## Identify throttled mailboxes
 
-Check if the mailbox was throttled during the time it may have been compromised. If it has been throttled, some mailbox auditing records were likely not logged. In the case where any audit records have "IsThrottled" as "True," you should assume that for a 24-hour period after that record was generated, access to the mailbox wasn't audited and that all mail data has been compromised. Getting no results means the mailbox wasn't throttled during the period you're investigating. To search for `MailItemsAccessed` records where the mailbox was throttled, run the following PowerShell command, substituting the appropriate values for your investigation.
+Check if the mailbox was throttled during the time it may have been compromised. If it has been throttled, some mailbox auditing records were likely not logged. In the case where any audit records have `IsThrottled` as `True`, you should assume that for a 24-hour period after that record was generated, access to the mailbox wasn't audited and that all mail data has been compromised. Getting no results means the mailbox wasn't throttled during the period you're investigating. To search for `MailItemsAccessed` records where the mailbox was throttled, run the following PowerShell command, substituting the appropriate values for your investigation.
 
 ```PowerShell
 Search-UnifiedAuditLog -StartDate 05/13/2020 -EndDate 05/14/2020 -UserIds meganb -Operations MailItemsAccessed -ResultSize 1000 | Where {$_.AuditData -like '*"IsThrottled","Value":"True"*'} | FL
@@ -58,9 +58,9 @@ Here are the values used in the example:
 
 |   |   |
 |---|---|
-|  StartDate | 05/13/2020  |
-|  EndDate |  05/14/2020 |
-| UserIds  | meganb  |
+|  `StartDate` | `05/13/2020`  |
+|  `EndDate` |  `05/14/2020` |
+| `UserIds`  | `meganb`  |
 
 ## Check for sync activities
 
@@ -74,9 +74,9 @@ Here are the values used in the example:
 
 |   |   |
 |---|---|
-|  StartDate | 05/13/2020  |
-|  EndDate |  05/14/2020 |
-| UserIds  | meganb  |
+|  `StartDate` | `05/13/2020`  |
+|  `EndDate` |  `05/14/2020` |
+| `UserIds` | `meganb` |
 
 Here are the results of running the `Search-UnifiedAuditLog` command. Megan Bowen's mailbox (`meganb`) had one sync activity during the dates specified. The next step is to determine if the sync activity came from Megan Bowen (`meganb`) or the attacker.
 
@@ -88,10 +88,10 @@ Check sync activities to determine if sync activity occurred in the same context
 
 |  Property |  Description |
 |---|---|
-| ClientInfoString  |  Describes protocol, client (includes version) |
-|  ClientIPAddress | IP address of the client machine  |
-|  SessionId | Session ID helps to differentiate attacker actions vs. day-to-day user activities on the same account (in the case of a compromised account)  |
-|  UserId |  UPN of the user reading the message |
+| `ClientInfoString`  |  Describes protocol, client (includes version) |
+|  `ClientIPAddress` | IP address of the client machine  |
+|  `SessionId` | Session ID helps to differentiate attacker actions vs. day-to-day user activities on the same account (in the case of a compromised account)  |
+|  `UserId` |  `UPN` of the user reading the message |
 
 The following PowerShell command helps determine the context for the sync activity. Substitute the values for `EndDate`, `StartDate`, and `Identity` with what is appropriate for your situation.
 

@@ -130,7 +130,7 @@ Using the Contoso compliance boundaries sample scenario, four role groups need t
 
 #### Create a search permissions filter to enforce the compliance boundary
 
-The **New-ComplianceSecurityFilter** cmdlet is used to create a search permissions filter that controls the content locations that eDiscovery managers and investigators can search. This means eDiscovery managers and investigators in the Fourth Coffee agency can only search content locations in the Fourth Coffee subsidiary. The same restriction applies to the Coho Winery subsidiary.
+The `New-ComplianceSecurityFilter` cmdlet is used to create a search permissions filter that controls the content locations that eDiscovery managers and investigators can search. This means eDiscovery managers and investigators in the Fourth Coffee agency can only search content locations in the Fourth Coffee subsidiary. The same restriction applies to the Coho Winery subsidiary.
 
 Here are examples of the two search permissions filters that would be created to support the Contoso compliance boundaries scenario. Both of these examples include a comma-separated filters list, in which the mailbox and site filters are included in the same search permissions filter and are separated by a comma.
 
