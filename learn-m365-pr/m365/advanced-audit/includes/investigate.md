@@ -40,7 +40,7 @@ Here you can see a successful connection to Exchange Online PowerShell V2.
 
 ### Accounts with multifactor authentication enabled
 
-1. Replace `UPN` with your account in user principal name format (</meganb@contoso.com>) and run the following command:
+1. Replace `UPN` with your account in user principal name format (`meganb@contoso.com`) and run the following command:
 
     ```PowerShell
     Connect-ExchangeOnline -UserPrincipalName <UPN> -ShowProgress $true
