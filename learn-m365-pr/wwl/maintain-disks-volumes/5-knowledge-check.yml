@@ -4,7 +4,7 @@ title: Knowledge check
 metadata:
   title: Knowledge check
   description: "Knowledge check"
-  ms.date: 03/01/2022
+  ms.date: 03/03/2022
   author: wwlpublish
   ms.author: brhinkel
   ms.topic: interactive-tutorial
@@ -33,10 +33,10 @@ quiz:
     choices:
     - content: "The files were automatically uncompressed after being copied to the target folder"
       isCorrect: true
-      explanation: "Correct. When you copy a file or folder within an NTFS partition, the file or folder inherits the compression state of the target folder. For example, if you copy a compressed file or folder to an uncompressed folder, the file or folder is uncompressed automatically."
+      explanation: "Correct. When copying a file or folder within an NTFS partition, the file or folder inherits the compression state of the target folder. For example, if copying a compressed file or folder to an uncompressed folder, the file or folder is uncompressed automatically."
     - content: "The files remained compressed after being copied to the target folder"
       isCorrect: false
-      explanation: "Incorrect. This item is true when you move a file or folder within an NTFS partition. In this scenario, the file or folder retains its original compression state. In Holly's scenario, the files were copied and not moved. Try again."
+      explanation: "Incorrect. This item is true when moving a file or folder within an NTFS partition. In this scenario, the file or folder retains its original compression state. In Holly's scenario, the files were copied and not moved. Try again."
     - content: "Nothing. Holly was prohibited from copying the files because their compression state didn't match the compression state of the target folder"
       isCorrect: false
       explanation: "Incorrect. Holly wasn't prohibited from copying compressed files to an uncompressed folder. Try again."
@@ -47,11 +47,11 @@ quiz:
       explanation: "Incorrect. The NTFS file compression algorithm is a lossless compression algorithm, which means that compressing and decompressing a file results in no data loss. Try again."
     - content: "The compression state of a folder reflects the compression state of the files within that folder."
       isCorrect: false
-      explanation: "Incorrect. The compression state of a folder does not necessarily reflect the compression state of the files within that folder. For example, you can compress a folder without compressing its contents, and you can compress some or all of the files in a compressed folder. Try again."
-    - content: "When you open a compressed file, the Windows operating system automatically decompresses it for you."
+      explanation: "Incorrect. The compression state of a folder does not necessarily reflect the compression state of the files within that folder. For example, compressing a folder without compressing its contents, and compressing some or all of the files in a compressed folder. Try again."
+    - content: "When opening a compressed file, the Windows operating system automatically decompresses it."
       isCorrect: true
-      explanation: "Correct. When you open a compressed file, the Windows operating system automatically decompresses it for you."
-  - content: "As the Desktop Administrator for Adventure Works Cycles, you have been monitoring storage usage on a several tablets that have limited storage space. Which category of storage usage enables you to select which folders synchronize to these devices to save disk space?"
+      explanation: "Correct. When opening a compressed file, the Windows operating system automatically decompresses it."
+  - content: "As the Desktop Administrator for Adventure Works Cycles, you have been monitoring storage usage on several tablets that have limited storage space. Which category of storage usage enables you to select which folders synchronize to these devices to save disk space?"
     choices:
     - content: "Apps and Games"
       isCorrect: false

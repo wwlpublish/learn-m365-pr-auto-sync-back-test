@@ -1,6 +1,6 @@
 By default, Windows will optimize internal storage devices automatically. The method of optimization depends on whether the drive is hard disk drive or a solid state drive.
 
-### Hard Disk Drives and Defragmentation
+### Hard disk drives and defragmentation
 
 Fragmentation of a file system occurs over time as you save, change, and delete files. Initially, Windows saves files in contiguous areas on a given volume. This is efficient for the physical disk, as the read/write heads are able to access these contiguous blocks most quickly.
 
@@ -16,10 +16,10 @@ There are several key types of fragmentation:
 
 Although NTFS is more efficient at handling disk fragmentation than earlier file systems, this fragmentation still presents a potential performance problem. Combined hardware and software advances in the Windows operating system help to mitigate the impact of fragmentation and deliver better responsiveness.
 
-:::image type="content" source="../media/disk-defrag-4c577c7d.jpg" alt-text="Diagram showing how file blocks reside on a drive when fragmented.":::
+:::image type="content" source="../media/disk-defragment-d8b7ae53.jpg" alt-text="Diagram showing how file blocks reside on a drive when fragmented.":::
 
 
-### Solid State Drives (SSD)
+### Solid state drives (SSD)
 
 Defragmentation is not needed on SSDs, as they work quite differently from traditional hard disk drives. The Windows Storage Optimizer subsystem automatically uses TRIM to mark data blocks as not being used and optimize the drive. While the Optimize Drives UI does not distinguish between defragmentation and retrimming, Windows detects the drive type and runs the appropriate optimization task when needed.
 
