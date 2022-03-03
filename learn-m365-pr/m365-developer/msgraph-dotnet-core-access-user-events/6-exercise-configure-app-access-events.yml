@@ -2,12 +2,12 @@
 uid: learn-m365.msgraph-dotnet-core-access-user-events.6-exercise-configure-app-access-events
 title: Exercise - Access a user's calendar events by using Microsoft Graph
 metadata:
-  unitType: learning-content  
+  unitType: learning-content
   title: Exercise - Access a user's calendar events by using Microsoft Graph
-  description: In this exercise, you'll configure the ASP.NET Core app to access a user's calendar events by using Microsoft Graph. 
-  ms.date: 08/28/2021  
-  author: DanWahlin 
-  ms.author: dwahlin  
+  description: In this exercise, you'll configure the ASP.NET Core app to access a user's calendar events by using Microsoft Graph.
+  ms.date: 03/01/2022
+  author: DanWahlin
+  ms.author: dwahlin
   ms.topic: interactive-tutorial
   ms.prod: learning-graph
 durationInMinutes: 10
