@@ -3,7 +3,7 @@ uid: learn-m365.msgraph-dotnet-core-manage-files
 metadata:
   title: Download and upload files in an ASP.NET Core app with Microsoft Graph
   description: Learn how to list, download, and upload a user's files in an ASP.NET Core application by using Microsoft Graph.
-  ms.date: 09/04/2021
+  ms.date: 03/01/2022
   author: DanWahlin
   ms.author: dwahlin
   ms.topic: interactive-tutorial
@@ -12,33 +12,33 @@ title: Download and upload files in an ASP.NET Core app with Microsoft Graph
 summary: Learn how to list, download, and upload a user's files in an ASP.NET Core application by using Microsoft Graph.
 abstract: |
   After completing this module, you'll be able to:
-  - Configure an ASP.NET Core app to list files in a user's instance of OneDrive for Business.
+  - Configure an ASP.NET Core app to list files in a user's instance of OneDrive for Business.
   - Download files from OneDrive for Business by using Microsoft Graph.
   - Upload user files from a browser into OneDrive for Business by using Microsoft Graph.
 prerequisites: |
-  - [Microsoft 365 developer tenant](https://developer.microsoft.com/office/dev-program?ocid=MSlearn&WT.mc_id=m365-30352-cxa)  
+  - [Microsoft 365 developer tenant](https://developer.microsoft.com/office/dev-program?ocid=MSlearn&WT.mc_id=m365-30352-cxa)
   - Basic understanding of [authentication and authorization](/learn/modules/getting-started-identity/?WT.mc_id=m365-30352-cxa) on Microsoft 365
-  - Basic understanding of HTML, C#, and [ASP.NET Core](/aspnet/core/razor-pages/?WT.mc_id=m365-30352-cxa) 
-  - Basic understanding of [Microsoft Graph](/learn/modules/msgraph-intro-overview/?WT.mc_id=m365-30352-cxa) 
+  - Basic understanding of HTML, C#, and [ASP.NET Core](/aspnet/core/razor-pages/?WT.mc_id=m365-30352-cxa)
+  - Basic understanding of [Microsoft Graph](/learn/modules/msgraph-intro-overview/?WT.mc_id=m365-30352-cxa)
   - [.NET Core 5 (or higher) SDK installed](https://dot.net?WT.mc_id=m365-30352-cxa)
 iconUrl: /learn/achievements/graph-downloads-update.svg
 levels:
-- intermediate
+  - intermediate
 roles:
-- developer
+  - developer
 products:
-- m365
-- ms-graph
-- dotnet-core
+  - m365
+  - ms-graph
+  - dotnet-core
 units:
-- learn-m365.msgraph-dotnet-core-manage-files.1-introduction
-- learn-m365.msgraph-dotnet-core-manage-files.2-exercise-configure-azure-ad-app
-- learn-m365.msgraph-dotnet-core-manage-files.3-connect-app
-- learn-m365.msgraph-dotnet-core-manage-files.4-exercise-connect-app
-- learn-m365.msgraph-dotnet-core-manage-files.5-display-user-files
-- learn-m365.msgraph-dotnet-core-manage-files.6-exercise-display-download-user-files
-- learn-m365.msgraph-dotnet-core-manage-files.7-upload-user-files
-- learn-m365.msgraph-dotnet-core-manage-files.8-exercise-upload-user-files
-- learn-m365.msgraph-dotnet-core-manage-files.9-summary
+  - learn-m365.msgraph-dotnet-core-manage-files.1-introduction
+  - learn-m365.msgraph-dotnet-core-manage-files.2-exercise-configure-azure-ad-app
+  - learn-m365.msgraph-dotnet-core-manage-files.3-connect-app
+  - learn-m365.msgraph-dotnet-core-manage-files.4-exercise-connect-app
+  - learn-m365.msgraph-dotnet-core-manage-files.5-display-user-files
+  - learn-m365.msgraph-dotnet-core-manage-files.6-exercise-display-download-user-files
+  - learn-m365.msgraph-dotnet-core-manage-files.7-upload-user-files
+  - learn-m365.msgraph-dotnet-core-manage-files.8-exercise-upload-user-files
+  - learn-m365.msgraph-dotnet-core-manage-files.9-summary
 badge:
   uid: learn-m365.msgraph-dotnet-core-manage-files.badge

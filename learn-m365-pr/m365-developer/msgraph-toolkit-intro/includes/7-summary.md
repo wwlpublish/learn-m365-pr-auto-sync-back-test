@@ -7,4 +7,4 @@ You can use Microsoft Graph Toolkit components in any JavaScript framework. Beca
 ## More resources
 
 - [Explore Microsoft Graph Toolkit components in an interactive playground](https://mgt.dev)
-- [Microsoft Graph Toolkit documentation](https://docs.microsoft.com/graph/toolkit/overview?WT.mc_id=m365-12585-cxa)
+- [Microsoft Graph Toolkit documentation](/graph/toolkit/overview?WT.mc_id=m365-12585-cxa)
