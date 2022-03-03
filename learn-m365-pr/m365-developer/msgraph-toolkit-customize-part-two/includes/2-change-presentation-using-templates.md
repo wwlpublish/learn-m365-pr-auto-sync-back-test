@@ -8,8 +8,8 @@ To add templating to Microsoft Graph Toolkit components, you can use the `<templ
 
 ```html
 <mgt-login>
-	<template> 
-	</template>
+  <template>
+  </template>
 </mgt-login>
 ```
 
@@ -19,8 +19,8 @@ Multiple data parts are available to template for each component. You can define
 
 ```html
 <mgt-login>
-	<template data-type=”signed-in-button-content”> 
-	</template>
+  <template data-type=”signed-in-button-content”>
+  </template>
 </mgt-login>
 ```
 
@@ -32,15 +32,15 @@ The Login component passes a `{personDetails}` object to the component at runtim
 
 ```html
 <mgt-login>
-    <template data-type=”signed-in-button-content”> 
-        <div>{{personDetails.givenName}}</div>
-    </template>
+  <template data-type=”signed-in-button-content”>
+    <div>{{personDetails.givenName}}</div>
+  </template>
 </mgt-login>
 ```
 
-> [!Tip]
->To see what data is available in the template, enter `{{ this }}`. This step shows you the whole object bound to the template. If the `{personDetails.givenName}` value is Megan, the button content looks like the following example.
-
->:::image type="content" source="../media/2-tip.png" alt-text="Screenshot that shows Microsoft Graph Toolkit components with templates.":::
+> [!TIP]
+> To see what data is available in the template, enter `{{ this }}`. This step shows you the whole object bound to the template. If the `{personDetails.givenName}` value is Megan, the button content looks like the following example.
+>
+> :::image type="content" source="../media/2-tip.png" alt-text="Screenshot that shows Microsoft Graph Toolkit components with templates.":::
 
 In the next exercise, you'll learn how to use templates with Microsoft Graph Toolkit components to modify the presentation of data.
