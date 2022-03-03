@@ -10,11 +10,9 @@ To answer many of these challenges, Power BI serves analysts today with industry
 
 - **Visual data preparation** – We are introducing “Diagram View” within the Power Query Editor, that provides an interface to easily create your queries and visualize your data preparation process. We want to simplify the experience for analysts to get started, speed up the data preparation process, and help quickly understand the data flow, both the ‘big picture view’ of how the queries are related and the ‘detailed view’ around specific data preparation steps within a query.
 
-|||
-| :--- | :--- |
-| ![Icon indicating play video](../media/video-icon.png)| Watch this video to learn more about Dataflow, data preparation, and machine learning.|
+![Icon indicating play video](../media/video-icon.png)  Watch this video to learn more about Dataflow, data preparation, and machine learning.
 
->[!VIDEO https://www.microsoft.com/videoplayer/embed/RE4HnBb]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4HnBb]
 
 For more information on dataflows, see [Introduction to dataflows and self-service data prep](https://docs.microsoft.com/power-bi/transform-model/dataflows/dataflows-introduction-self-service).
 

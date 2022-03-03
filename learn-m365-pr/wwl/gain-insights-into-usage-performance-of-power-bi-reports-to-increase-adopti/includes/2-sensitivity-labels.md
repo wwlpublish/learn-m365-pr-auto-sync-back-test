@@ -8,9 +8,7 @@ Power BI is the only BI product in the industry to support [Microsoft Informatio
 
 - MIP sensitivity labels in Power BI desktop – Expanded support for MIP sensitivity labels support to Power BI desktop, to enable creators to apply sensitivity labels and protection on PBIX files while author dataset and reports in Power BI desktop. The label applied in desktop will persist upon publish dataset and report.
 
-|||
-| :--- | :--- |
-| ![Icon indicating play video](../media/video-icon.png)| Watch this video to learn more about sensitivity labels in Power BI and how end-to-end label inheritance makes it easy to protect and govern data, no matter where it is being used.|
+![Icon indicating play video](../media/video-icon.png)  Watch this video to learn more about sensitivity labels in Power BI and how end-to-end label inheritance makes it easy to protect and govern data, no matter where it is being used.
 
 >[!VIDEO https://www.microsoft.com/videoplayer/embed/RE4HuYW]
 

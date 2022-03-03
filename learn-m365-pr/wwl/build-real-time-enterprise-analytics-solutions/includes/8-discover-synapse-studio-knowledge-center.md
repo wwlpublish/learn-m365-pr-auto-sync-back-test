@@ -8,9 +8,7 @@ The Knowledge center allows you to do three things:
 
 - Tour Synapse studio. This option takes you on a brief tour of the basic parts of Synapse Studio. This is useful if you have never used Synapse Studio before.
 
-|||
-| :--- | :--- |
-| ![Icon indicating play video](../media/video-icon.png)| Watch this video to learn more about the Azure Synapse Analytics Knowledge center.|
+![Icon indicating play video](../media/video-icon.png) Watch this video to learn more about the Azure Synapse Analytics Knowledge center.
 
 >[!VIDEO https://www.microsoft.com/videoplayer/embed/RE4HsCv]
 

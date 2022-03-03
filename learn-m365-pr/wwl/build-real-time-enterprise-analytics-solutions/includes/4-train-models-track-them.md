@@ -18,9 +18,7 @@ Models that have been trained either in Azure Synapse or outside Azure Synapse c
 
 - Another option for batch scoring machine learning models in Azure Synapse is to leverage the Apache Spark Pools for Azure Synapse.
 
-|||
-| :--- | :--- |
-| ![Icon indicating play video](../media/video-icon.png)| Watch this video to see an example of how to train an Azure Machine Learning model in an Azure Synapse workspace using Apache Spark and a Synapse Notebook.|
+![Icon indicating play video](../media/video-icon.png) Watch this video to see an example of how to train an Azure Machine Learning model in an Azure Synapse workspace using Apache Spark and a Synapse Notebook.
 
 >[!VIDEO https://www.microsoft.com/videoplayer/embed/RE4Hv0A]
 

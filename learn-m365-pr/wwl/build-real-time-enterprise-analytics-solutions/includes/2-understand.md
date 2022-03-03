@@ -28,9 +28,7 @@ Azure Synapse provides a single way for enterprises to manage analytics resource
 
 Synapse Studio is the web-native experience that ties everything together for data engineers, allowing them in one location to do every task they need to build a complete solution.
 
-|||
-| :--- | :--- |
-| ![Icon indicating play video](../media/video-icon.png)| Watch this video to learn more about all the ways Azure Synapse Analytics can help your organization handle any kind of data on a massive scale.|
+![Icon indicating play video](../media/video-icon.png) Watch this video to learn more about all the ways Azure Synapse Analytics can help your organization handle any kind of data on a massive scale.
 
 >[!VIDEO https://www.microsoft.com/videoplayer/embed/RE4Hkyt]
 

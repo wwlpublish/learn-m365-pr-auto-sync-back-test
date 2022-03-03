@@ -2,9 +2,7 @@ Azure Stream Analytics is a real-time analytics and complex event-processing eng
 
 Stream Analytics can route job output to many storage systems such as Azure Blob storage, Azure SQL Database, Azure Data Lake Store, and Azure CosmosDB. You can also run batch analytics on stream outputs with Azure Synapse Analytics or HDInsight, or you can send the output to another service, like Event Hubs for consumption or Power BI for real-time visualization.
 
-|||
-| :--- | :--- |
-| ![Icon indicating play video](../media/video-icon.png)| Watch this video to see an example of the high-throughput data ingestion you can achieve by sending Azure Stream Analytics data to Azure Synapse Analytics.|
+![Icon indicating play video](../media/video-icon.png) Watch this video to see an example of the high-throughput data ingestion you can achieve by sending Azure Stream Analytics data to Azure Synapse Analytics.
 
 >[!VIDEO https://www.microsoft.com/videoplayer/embed/RE4HnEg]
 
