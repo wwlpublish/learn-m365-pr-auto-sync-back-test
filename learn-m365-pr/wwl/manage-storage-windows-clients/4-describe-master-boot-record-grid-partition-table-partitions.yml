@@ -1,9 +1,9 @@
 ### YamlMime:ModuleUnit
 uid: learn.wwl.manage-storage-windows-clients.describe-master-boot-record-grid-partition-table-partitions
-title: Describe Master Boot Record and and Grid Partition Table partitions
+title: Describe Master Boot Record and Grid Partition Table partitions
 metadata:
-  title: Describe Master Boot Record and and Grid Partition Table partitions
-  description: "Describe Master Boot Record and and Grid Partition Table partitions"
+  title: Describe Master Boot Record and Grid Partition Table partitions
+  description: "Describe Master Boot Record and Grid Partition Table partitions"
   ms.date: 03/03/2022
   author: wwlpublish
   ms.author: brhinkel
