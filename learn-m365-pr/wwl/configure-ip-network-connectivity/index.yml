@@ -1,0 +1,50 @@
+### YamlMime:Module
+uid: learn.wwl.configure-ip-network-connectivity
+metadata:
+  title: Configure IP network connectivity
+  description: "This module explores configuring Windows clients to communicate over IPv4 and IPv6 networks."
+  ms.date: 03/02/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Configure IP network connectivity
+summary: This module explores configuring Windows clients to communicate over IPv4 and IPv6 networks.
+abstract: |
+  After completing this module, you will be able to:
+  - Describe IPv4\.
+  - Describe IPv4 subnets.
+  - Explain the difference between public and private IPv4 addressing.
+  - Implement automatic IPv4 address allocation.
+  - Describe the tools available to configure network settings in Windows.
+  - Describe the tools available to troubleshoot network connections.
+  - Configure an IPv4 network connection.
+  - Describe IPv6\.
+  - Explain IPv6 addressing.
+prerequisites: |
+  - Students should have a basic understanding of computer networks and hardware concepts.
+  - Students should have a basic understanding of OS and Application concepts.
+  - Students should have experience with using Windows 10 or later.
+iconUrl: /learn/achievements/generic-badge.svg
+hidden: true
+levels:
+- beginner
+roles:
+- administrator
+products:
+- windows
+units:
+- learn.wwl.configure-ip-network-connectivity.introduction
+- learn.wwl.configure-ip-network-connectivity.explore-windows-network-configuration
+- learn.wwl.configure-ip-network-connectivity.explore-ipv4-settings
+- learn.wwl.configure-ip-network-connectivity.define-subnets-ipv4-networks
+- learn.wwl.configure-ip-network-connectivity.explain-public-private-ip-addressing
+- learn.wwl.configure-ip-network-connectivity.implement-automatic-ipv4-addressing
+- learn.wwl.configure-ip-network-connectivity.examine-tools-configuring-network-settings
+- learn.wwl.configure-ip-network-connectivity.examine-tools-troubleshooting-network-connections
+- learn.wwl.configure-ip-network-connectivity.examine-ipv6-addressing
+- learn.wwl.configure-ip-network-connectivity.explore-ipv6-windows-client
+- learn.wwl.configure-ip-network-connectivity.knowledge-check
+- learn.wwl.configure-ip-network-connectivity.summary
+badge:
+  uid: learn.wwl.configure-ip-network-connectivity.badge

@@ -1,64 +1,69 @@
 Let's use all the concepts discussed up to this point and make changes to the sample app to access the calendar events.
 
-1. Locate the *index.html* file in your code editor. Add the following HTML code in the `<main>` tag just before its closing `</main>` tag.
+1. Locate the **index.html** file in your code editor. Add the following HTML code in the `<main>` tag just before its closing `</main>` tag.
 
-    ```HTML
-       <button id="btnShowEvents" style="display: none;" onclick="displayEvents();">Show events</button> 
-       <div id="eventWrapper" style="display: none;">
-           <p>Your events retrieved from Microsoft Graph for the upcoming week:</p> 
-           <ul id="events"></ul> 
-       </div>
+    ```html
+    <button id="btnShowEvents" style="display: none;" onclick="displayEvents();">Show events</button>
+    <div id="eventWrapper" style="display: none;">
+      <p>Your events retrieved from Microsoft Graph for the upcoming week:</p>
+      <ul id="events"></ul>
+    </div>
     ```
 
-1. Locate the *graph.js* file in your editor. Add a new function to get the calendar events of the signed-in user for the upcoming week by using the Microsoft Graph API endpoint `/me/calendarView`. You'll call this function `getEvents()`. Copy the following snippet, and append it to the file.
+1. Locate the **graph.js** file in your editor. Add a new function to get the calendar events of the signed-in user for the upcoming week by using the Microsoft Graph API endpoint `/me/calendarView`. You'll call this function `getEvents()`.
 
-    ```JavaScript
-      async function getEvents() { 
-        ensureScope('Calendars.read');      
-        const dateNow = new Date();
-        const dateNextWeek = new Date();
-        dateNextWeek.setDate(dateNextWeek.getDate() + 7);
-        const query = `startDateTime=${dateNow.toISOString()}&endDateTime=${dateNextWeek.toISOString()}`;
-          
-       return await graphClient     
-        .api('/me/calendarView').query(query)
-        .select('subject,start,end')
-        .orderby(`start/DateTime`)
-        .get();
-       }
+    Add the following code to the end of the file:
+
+    ```javascript
+    async function getEvents() {
+      ensureScope('Calendars.read');
+      const dateNow = new Date();
+      const dateNextWeek = new Date();
+      dateNextWeek.setDate(dateNextWeek.getDate() + 7);
+      const query = `startDateTime=${dateNow.toISOString()}&endDateTime=${dateNextWeek.toISOString()}`;
+
+      return await graphClient
+      .api('/me/calendarView').query(query)
+      .select('subject,start,end')
+      .orderby(`start/DateTime`)
+      .get();
+    }
     ```
 
-1. Locate the *ui.js* file, and add a new function to display the calendar events received from Microsoft Graph in the list element. You'll call this function `displayEvents()`. Copy the following snippet, and append it into the file.
+1. Locate the **ui.js** file, and add a new function to display the calendar events received from Microsoft Graph in the list element. You'll call this function `displayEvents()`.
 
-    ```JavaScript
+    Add the following code to the end of the file:
+
+    ```javascript
     async function displayEvents() {
-        var events = await getEvents();    
-        if (!events || events.value.length < 1) {
-            var content = document.getElementById('content');       
-            var noItemsMessage = document.createElement('p');
-            noItemsMessage.innerHTML = `No events for the coming week!`;
-            content.appendChild(noItemsMessage)
-           
-        }else{       
-            var wrapperShowEvents = document.getElementById('eventWrapper');
-            wrapperShowEvents.style = "display: block";
-            const eventsElement = document.getElementById('events');
-            eventsElement.innerHTML = '';  
-            events.value.forEach(event => {
-            var eventList = document.createElement('li');
-            eventList.innerText = `${event.subject} - From  ${new Date(event.start.dateTime).toLocaleString()} to 
-            ${new Date(event.end.dateTime).toLocaleString()} `;
-            eventsElement.appendChild(eventList);
-        });        
-    }
-    var btnShowEvents = document.getElementById('btnShowEvents');
-    btnShowEvents.style = "display: none";
+      var events = await getEvents();
+      if (!events || events.value.length < 1) {
+        var content = document.getElementById('content');
+        var noItemsMessage = document.createElement('p');
+        noItemsMessage.innerHTML = `No events for the coming week!`;
+        content.appendChild(noItemsMessage)
+
+      } else {
+        var wrapperShowEvents = document.getElementById('eventWrapper');
+        wrapperShowEvents.style = "display: block";
+        const eventsElement = document.getElementById('events');
+        eventsElement.innerHTML = '';
+        events.value.forEach(event => {
+          var eventList = document.createElement('li');
+          eventList.innerText = `${event.subject} - From  ${new Date(event.start.dateTime).toLocaleString()} to ${new Date(event.end.dateTime).toLocaleString()} `;
+          eventsElement.appendChild(eventList);
+        });
+      }
+      var btnShowEvents = document.getElementById('btnShowEvents');
+      btnShowEvents.style = "display: none";
     }
     ```
 
-1. In the same *ui.js* file, update the `displayUI()` function to display the **Show events** button only on successful authorization. Copy and paste the following code snippet into the `displayUI()` function.
+1. In the same **ui.js** file, update the `displayUI()` function to display the **Show events** button only on successful authorization.
 
-    ```JavaScript
+    Add the following code to the end of the `displayUI()` function:
+
+    ```javascript
     var btnShowEvents = document.getElementById('btnShowEvents');
     btnShowEvents.style = "display: block";
     ```
@@ -75,15 +80,15 @@ To run and test the application, you'll need to add some calendar events into yo
 It's time to see your application run locally.
 
 1. In the terminal window, go to the project folder where the source code is located.
-1. Run the following script in the command line to start your app locally by opening [http://localhost:8080](http://localhost:8080) in the browser.
+1. Run the following script in the command line to start your app locally by opening `http://localhost:8080` in the browser.
 
-    ```powershell
+    ```console
     npm start
     ```
 
-1. If the app is configured correctly, you'll see a sign-in button.
+1. If the app is configured correctly, you'll see a sign in button.
 
-    :::image type="content" source="../media/6-sign-in-button.png" alt-text="Screenshot showing the Sign in with Microsoft button.":::
+    :::image type="content" source="../media/6-sign-in-button.png" alt-text="Screenshot showing the Sign-in with Microsoft button.":::
 
 1. Sign in by using an account in the same Microsoft 365 developer tenant used in unit 2, where you registered the Azure Active Directory application.
 1. After you successfully sign in, you're prompted to give consent.

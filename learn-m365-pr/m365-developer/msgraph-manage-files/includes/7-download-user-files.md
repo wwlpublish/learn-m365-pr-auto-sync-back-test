@@ -13,17 +13,16 @@ When a user selects a file link, an `onClick` event sends the user to the `downl
 
 ```javascript
 async function downloadFile(file) {
-    try {
-        const response = await graphClient
-            .api(`/me/drive/items/${file.id}`)
-            .select('@microsoft.graph.downloadUrl')
-            .get();
-        const downloadUrl =
-            response["@microsoft.graph.downloadUrl"];
-        window.open(downloadUrl, "_self");
-    } catch (error) {
-        console.error(error);
-     }
+  try {
+    const response = await graphClient
+        .api(`/me/drive/items/${file.id}`)
+        .select('@microsoft.graph.downloadUrl')
+        .get();
+    const downloadUrl = response["@microsoft.graph.downloadUrl"];
+    window.open(downloadUrl, "_self");
+  } catch (error) {
+    console.error(error);
+  }
 }
 ```
 
