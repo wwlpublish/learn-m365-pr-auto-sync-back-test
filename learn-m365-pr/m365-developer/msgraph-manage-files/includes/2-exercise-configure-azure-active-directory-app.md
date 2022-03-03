@@ -2,12 +2,10 @@ In this module, you'll show a user's emails retrieved from Microsoft 365 by usin
 
 To start, you register your Microsoft 365 application by creating an application registration in Azure Active Directory (Azure AD). For this module, you'll need an application with the following settings:
 
-Setting|Value
--------|-----
-Name|My app
-Platform|Single-page application
-Redirect URIs|`http://localhost:8080`
-Supported account types|Accounts in this organizational directory only (Single tenant)
-API permissions|Microsoft Graph `User.Read` (delegated)
+- **Name:** My app
+- **Platform:** Single Page Application (SPA)
+- **Supported account types:** Accounts in this organizational directory only (Single tenant)
+- **Redirect URIs:** `http://localhost:8080`
+- **API permissions:** Microsoft Graph `User.Read` (delegated)
 
 [!INCLUDE [Register Azure AD application](../../../includes/exercise-register-aad-application.md)]
