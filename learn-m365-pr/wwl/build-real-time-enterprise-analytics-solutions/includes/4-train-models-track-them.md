@@ -22,5 +22,5 @@ Models that have been trained either in Azure Synapse or outside Azure Synapse c
 
 >[!VIDEO https://www.microsoft.com/videoplayer/embed/RE4Hv0A]
 
- For more information on Azure Synapse Analytics and machine learning, see: [Machine Learning capabilities in Azure Synapse Analytics (workspaces preview)](https://docs.microsoft.com/azure/synapse-analytics/machine-learning/what-is-machine-learning)
+ For more information on Azure Synapse Analytics and machine learning, see: [Machine Learning capabilities in Azure Synapse Analytics (workspaces preview)](/azure/synapse-analytics/machine-learning/what-is-machine-learning)
 

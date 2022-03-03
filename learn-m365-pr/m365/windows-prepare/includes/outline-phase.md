@@ -18,24 +18,24 @@ You outline the following high-level decisions and tasks to be implemented acros
 
 :::image type="content" source="../media/2-deployment-arrow.png" border="false"alt-text="Deployment":::
 
-||||||
+||Task|Task|Task|Task|
 |---------|---------|---------|---------|---------|
-|**Infrastructure**|Review all of the approved infrastructure changes.|Validate all the changes.|Implement all the changes.|Agree that deployment readiness criteria have been met (pass or fail).|
-|**Configuration**|Review new security settings.|Review security baselines for changes.|Implement and validate security settings and baseline changes.|Create a security and settings baseline file.|
+|***Infrastructure***|Review all of the approved infrastructure changes.|Validate all the changes.|Implement all the changes.|Agree that deployment readiness criteria have been met (pass or fail).|
+|***Configuration***|Review new security settings.|Review security baselines for changes.|Implement and validate security settings and baseline changes.|Create a security and settings baseline file.|
 
 :::image type="content" source="../media/2-compatibility-arrow.png" border="false"alt-text="Compatilibility":::
 
-||||||
+||Task|Task|Task|Task|
 |---------|---------|---------|---------|---------|
-|**Applications**|Define application validation plan|Validate applications|Remediate apps and escalate failures|Determine Pilot deployment readiness
-|**Devices**|Identify devices|Configure devices|Identify users|Validate by pilot testing on devices|
+|***Applications***|Define application validation plan|Validate applications|Remediate apps and escalate failures|Determine Pilot deployment readiness
+|***Devices***|Identify devices|Configure devices|Identify users|Validate by pilot testing on devices|
 
 :::image type="content" source="../media/2-capability-arrow.png" border="false"alt-text="Capability & modernization":::
 
-||||||
+||Task|Task|Task|Task|
 |---------|---------|---------|---------|---------|
-|**Capability**|Enable changes|Validate changes|Remediate potential issues|Create communication schedule for the feature update
-|**Modernization Example:**|Set up Desktop Analytics|Enroll devices|Create deployment plans|Deploy to pilot|
+|***Capability***|Enable changes|Validate changes|Remediate potential issues|Create communication schedule for the feature update
+|***Modernization Example:***|Set up Desktop Analytics|Enroll devices|Create deployment plans|Deploy to pilot|
 
 ## Desktop Analytics
 

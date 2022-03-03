@@ -32,5 +32,5 @@ Synapse Studio is the web-native experience that ties everything together for da
 
 >[!VIDEO https://www.microsoft.com/videoplayer/embed/RE4Hkyt]
 
-For more information on Azure Synapse Analytics, see: [What is Azure Synapse Analytics (workspaces preview)?](https://docs.microsoft.com/azure/synapse-analytics/overview-what-is)
+For more information on Azure Synapse Analytics, see: [What is Azure Synapse Analytics (workspaces preview)?](/azure/synapse-analytics/overview-what-is)
 

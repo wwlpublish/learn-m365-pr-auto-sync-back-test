@@ -14,9 +14,9 @@ Azure Synapse provides a single way for enterprises to manage analytics resource
 
 For more information, see these resources:
 
-- [What is column-level security for Azure Synapse?](https://docs.microsoft.com/azure/synapse-analytics/sql-data-warehouse/column-level-security)
+- [What is column-level security for Azure Synapse?](/azure/synapse-analytics/sql-data-warehouse/column-level-security)
 
-- [Row-Level Security - SQL Server](https://docs.microsoft.com/sql/relational-databases/security/row-level-security)
+- [Row-Level Security - SQL Server](/sql/relational-databases/security/row-level-security)
 
-- [Dynamic Data Masking - SQL Server](https://docs.microsoft.com/sql/relational-databases/security/dynamic-data-masking)
+- [Dynamic Data Masking - SQL Server](/sql/relational-databases/security/dynamic-data-masking)
 

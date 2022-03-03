@@ -10,11 +10,11 @@ Additionally, the Power BI Premium Capacity Metrics app provides a comprehensive
 
 ## Advanced Audit in Microsoft 365
 
-The [advanced auditing functionality](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance?view=o365-worldwide) in Microsoft 365 provides organizations with visibility into many types of audited activities across many different services in Microsoft 365. Advanced Audit helps organizations to conduct forensic and compliance investigations by increasing audit log retention required to conduct an investigation, providing access to crucial events that help determine scope of compromise, and faster access to Office 365 Management Activity API.
+The [advanced auditing functionality](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance) in Microsoft 365 provides organizations with visibility into many types of audited activities across many different services in Microsoft 365. Advanced Audit helps organizations to conduct forensic and compliance investigations by increasing audit log retention required to conduct an investigation, providing access to crucial events that help determine scope of compromise, and faster access to Office 365 Management Activity API.
 
 ![Icon indicating play video](../media/video-icon.png)  Watch this video to learn more about different ways to gain insights about how your Power BI reports are performing and utilized.
 
 >[!VIDEO https://www.microsoft.com/videoplayer/embed/RE4HnCa]
 
-For more information, see [Monitor usage metrics in the new workspace experience](https://docs.microsoft.com/power-bi/collaborate-share/service-modern-usage-metrics).
+For more information, see [Monitor usage metrics in the new workspace experience](/power-bi/collaborate-share/service-modern-usage-metrics).
 

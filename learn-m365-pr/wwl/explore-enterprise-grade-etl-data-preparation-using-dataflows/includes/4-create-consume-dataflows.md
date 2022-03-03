@@ -14,9 +14,9 @@ A dataflow can be consumed in the following three ways:
 
 To learn more about the demos and concepts in this video, read the following resources:
 
-- [Configure and consume a dataflow](https://docs.microsoft.com/power-bi/transform-model/dataflows/dataflows-configure-consume).
+- [Configure and consume a dataflow](/power-bi/transform-model/dataflows/dataflows-configure-consume).
 
-- [Grouping or summarizing rows - Fuzzy Grouping](https://docs.microsoft.com/power-query/group-by)
+- [Grouping or summarizing rows - Fuzzy Grouping](/power-query/group-by)
 
-- [Power Query Text/CSV by Example connector](https://docs.microsoft.com/power-query/connectors/textcsv)
+- [Power Query Text/CSV by Example connector](/power-query/connectors/textcsv)
 

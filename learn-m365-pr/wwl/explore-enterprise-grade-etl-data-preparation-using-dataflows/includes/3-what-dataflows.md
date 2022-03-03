@@ -4,5 +4,5 @@ A **dataflow** is a collection of entities (entities are similar to tables) that
 
 >[!VIDEO https://www.microsoft.com/videoplayer/embed/RE4HxEi]
 
-For more information on dataflows, see: [Introduction to dataflows and self-service data prep](https://docs.microsoft.com/power-bi/transform-model/dataflows/dataflows-introduction-self-service).
+For more information on dataflows, see: [Introduction to dataflows and self-service data prep](/power-bi/transform-model/dataflows/dataflows-introduction-self-service).
 

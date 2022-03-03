@@ -4,5 +4,5 @@ Easily enrich your data in dedicated SQL pools with predictive machine learning 
 
 >[!VIDEO https://www.microsoft.com/videoplayer/embed/RE4Hv0z]
 
-For more detailed steps, see: [Tutorial: Machine learning model scoring wizard for dedicated SQL pools](https://docs.microsoft.com/azure/synapse-analytics/machine-learning/tutorial-sql-pool-model-scoring-wizard)
+For more detailed steps, see: [Tutorial: Machine learning model scoring wizard for dedicated SQL pools](/azure/synapse-analytics/machine-learning/tutorial-sql-pool-model-scoring-wizard)
 

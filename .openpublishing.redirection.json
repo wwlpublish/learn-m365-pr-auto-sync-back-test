@@ -498,7 +498,7 @@
     {
       "source_path": "learn-m365-pr/wwl-mba/welcome-to-microsoft-365/index.md",
       "redirect_url": "https://docs.microsoft.com/learn/browse/",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/wwl-mba/welcome-to-microsoft-365/1-introduction.md",
@@ -923,7 +923,7 @@
     {
       "source_path": "learn-m365-pr/m365/m365-wvd-intro/introduction.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/m365-wvd-intro/1-introduction/",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/m365/m365-wvd-intro/wvd-configuration.md",
@@ -938,7 +938,7 @@
     {
       "source_path": "learn-m365-pr/m365/m365-prepare-for-wvd/introduction.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/m365-prepare-for-wvd/1-introduction/",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/m365/m365-prepare-for-wvd/wvd-provision-azure.md",
@@ -968,7 +968,7 @@
     {
       "source_path": "learn-m365-pr/m365/m365-deploy-wvd/introduction.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/m365-deploy-wvd/1-introduction/",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/m365/m365-deploy-wvd/provision-host-pool.md",
@@ -988,7 +988,7 @@
     {
       "source_path": "learn-m365-pr/m365/m365-optimize-wvd/introduction.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/m365-optimize-wvd/1-introduction/",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/m365/m365-optimize-wvd/provision-fslogix.md",
@@ -1013,7 +1013,7 @@
     {
       "source_path": "learn-m365-pr/m365/m365-optimize-wvd/summary-and-knowledge-check.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/m365-optimize-wvd/6-knowledge-check/",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "learn-m365-pr/wwwl/describe-cloud-security-capabilities-of-microsoft-365/index.md",

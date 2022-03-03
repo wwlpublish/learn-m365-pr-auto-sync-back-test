@@ -6,5 +6,5 @@ Stream Analytics can route job output to many storage systems such as Azure Blob
 
 >[!VIDEO https://www.microsoft.com/videoplayer/embed/RE4HnEg]
 
-For more information, see: [Welcome to Azure Stream Analytics](https://docs.microsoft.com/azure/stream-analytics/stream-analytics-introduction)
+For more information, see: [Welcome to Azure Stream Analytics](/azure/stream-analytics/stream-analytics-introduction)
 

@@ -4,5 +4,5 @@ The Power BI performance accelerator for Azure Synapse Analytics can be turned o
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4HxDw]
 
-For more information, read [What is Azure Synapse Analytics (workspaces preview)](https://docs.microsoft.com/azure/synapse-analytics/overview-what-is).
+For more information, read [What is Azure Synapse Analytics (workspaces preview)](/azure/synapse-analytics/overview-what-is).
 

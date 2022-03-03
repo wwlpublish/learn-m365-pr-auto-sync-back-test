@@ -12,5 +12,5 @@ The Knowledge center allows you to do three things:
 
 >[!VIDEO https://www.microsoft.com/videoplayer/embed/RE4HsCv]
 
-For a more in-depth look at the Knowledge center, see: [Tutorial: Get started explore the Synapse Knowledge Center](https://docs.microsoft.com/azure/synapse-analytics/get-started-knowledge-center)
+For a more in-depth look at the Knowledge center, see: [Tutorial: Get started explore the Synapse Knowledge Center](/azure/synapse-analytics/get-started-knowledge-center)
 
