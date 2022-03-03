@@ -6,7 +6,7 @@ Users can use DirectQuery with the new Common Data Service (beta) Connector. Thi
 
 >[!VIDEO https://www.microsoft.com/videoplayer/embed/RE4HDtq]
 
-For more about the Common Data Service (beta) connector, see: [View table data in Power BI Desktop (Preview)](https://docs.microsoft.com/powerapps/maker/common-data-service/view-entity-data-power-bi)
+For more about the Common Data Service (beta) connector, see: [View table data in Power BI Desktop (Preview)](/powerapps/maker/common-data-service/view-entity-data-power-bi)
 
 For more information, see:  [Use Power BI to connect to Microsoft Dataverse with DirectQuery](/power-platform-release-plan/2020wave2/data-platform/use-power-bi-connect-microsoft-dataverse-directquery)
 
