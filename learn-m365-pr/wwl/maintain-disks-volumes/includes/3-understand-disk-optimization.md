@@ -14,7 +14,7 @@ There are several key types of fragmentation:
 
  -  **Data fragmentation**. Occurs when data is written to file storage in a non-sequential manner, using the next available block of storage.
 
-Although NTFS is more efficient at handling disk fragmentation than earlier file systems, this fragmentation still presents a potential performance problem. Combined hardware and software advances in the Windows operating system help to mitigate the impact of fragmentation and deliver better responsiveness.
+Although NTFS is more efficient at handling disk fragmentation than earlier file systems, this fragmentation still presents a potential performance problem. Combined hardware and software advances in the Windows operating system help to mitigate the effect of fragmentation and deliver better responsiveness.
 
 :::image type="content" source="../media/disk-defragment-d8b7ae53.jpg" alt-text="Diagram showing how file blocks reside on a drive when fragmented.":::
 
@@ -29,7 +29,7 @@ When you optimize a disk, files are relocated optimally. This ability to relocat
 
 To optimize a volume or drive manually, or to change the automatic optimization schedule, right-click a volume in File Explorer, select Properties, select the Tools tab, and then select Optimize. You can perform the following tasks:
 
- -  Change settings, which allows you to:
+ -  Change settings, which allow you to:
     
      -  Enable or disable the automated optimization.
      -  Specify the automated optimization frequency.

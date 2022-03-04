@@ -3,7 +3,7 @@ uid: learn.wwl.maintain-disks-volumes
 metadata:
   title: Maintain disks and volumes
   description: "This module explores file system fragmentation and the tools that you can use to reduce fragmentation. Students will learn how Windows can compress files to take up less space on the hard disk."
-  ms.date: 03/03/2022
+  ms.date: 03/04/2022
   author: wwlpublish
   ms.author: brhinkel
   ms.topic: interactive-tutorial
