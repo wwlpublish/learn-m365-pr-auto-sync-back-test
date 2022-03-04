@@ -1,0 +1,44 @@
+### YamlMime:Module
+uid: learn-m365-pr.produce-custom-virtual-events
+metadata:
+  moduleType: standard
+  title: Produce custom virtual events in Microsoft 365
+  description: Learn best practices for producing, presenting, moderating, and attending a custom virtual event in Microsoft Teams or Microsoft 365.
+  ms.date: 07/20/2021
+  author: nkagole
+  ms.author: nkagole
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Producing custom virtual events in Microsoft 365
+summary:  | 
+    Learn best practices for producing, presenting, moderating, and attending a virtual event in Microsoft Teams or Microsoft 365. 
+
+    This module has content for producers, moderators, and presenters.
+abstract: |
+  By the end of this module, you'll be able to:
+    - Understand the workflow for producing a virtual event with an external app or encoder. 
+    - Schedule a Teams Live Event to be produced with an external application.
+    - Produce a custom virtual event in Teams using an external application. 
+    - Leverage external applications like OBS Studio.
+prerequisites: | 
+  - Familiarity with Microsoft 365 apps and Microsoft Teams. 
+  - Basic understanding of how to produce and deliver a virtual event using Microsoft Teams and Microsoft 365.
+iconUrl: /learn/achievements/produce-custom-virtual-events.svg
+levels: 
+  - intermediate 
+roles: 
+  - business-user
+  - administrator
+products:
+  - office-teams
+  - office-yammer
+units:
+- learn-m365-pr.produce-custom-virtual-events.introduction
+- learn-m365-pr.produce-custom-virtual-events.production-concepts
+- learn-m365-pr.produce-custom-virtual-events.schedule-external-app
+- learn-m365-pr.produce-custom-virtual-events.produce-external-app
+- learn-m365-pr.produce-custom-virtual-events.go-live-content-network
+- learn-m365-pr.produce-custom-virtual-events.knowledge-check
+- learn-m365-pr.produce-custom-virtual-events.summary
+badge:
+  uid: learn-m365-pr.produce-custom-virtual-events.badge 
