@@ -3,7 +3,7 @@ uid: learn.wwl.manage-storage-windows-clients
 metadata:
   title: Manage storage on Windows clients
   description: "This module describes some of the different storage technologies, including different types of server-based and cloud-based storage. This module will also cover considerations for configuring storage for use in Windows client."
-  ms.date: 03/03/2022
+  ms.date: 03/04/2022
   author: wwlpublish
   ms.author: brhinkel
   ms.topic: interactive-tutorial
