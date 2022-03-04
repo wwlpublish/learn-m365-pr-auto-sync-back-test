@@ -1,4 +1,3 @@
-## Introduction 
 You learned the fundamentals of producing a virtual event using Microsoft Teams and Microsoft 365 services in the Virtual Event Producer fundamentals learning path., In this module, you’ll build on that knowledge and learn how to use an external app or encoder with Microsoft Teams to create custom layouts and mix multiple video and audio feeds. Custom virtual events can help your organization stand out to your audiences. 
 
 Image
