@@ -87,13 +87,13 @@ When content is exported from a review set, the content is organized in the foll
 
 Root folder – Download ID
 
-- Extracted_text_files = contains all of the extracted text files generated at processing.
-- Input_or native_files = contains all native files
-- Export_load_file.csv = metadata file
-- Summary.txt = a summary file with export statistics
-- Error_files = contains any error files included in the export
-  - ExtractionError – a csv that contains any available metadata of files that were not properly extracted from parent files
-  - ProcessingError – content with processing errors. This content is item level meaning if an attachment experienced a processing error, the email that contains the attachment will be included in this folder.
+- `Extracted_text_files` = contains all of the extracted text files generated at processing.
+- `Input_or native_files` = contains all native files
+- `Export_load_file.csv` = metadata file
+- `Summary.txt` = a summary file with export statistics
+- `Error_files` = contains any error files included in the export
+  - `ExtractionError` – a csv that contains any available metadata of files that were not properly extracted from parent files
+  - `ProcessingError` – content with processing errors. This content is item level meaning if an attachment experienced a processing error, the email that contains the attachment will be included in this folder.
 
 ## Learn more
 
