@@ -3,7 +3,7 @@ uid: learn.wwl.create-manage-public-folders
 metadata:
   title: Create and manage public folders
   description: "Create and manage public folders"
-  ms.date: 11/25/2021
+  ms.date: 03/04/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -19,7 +19,7 @@ abstract: |
   *   Create and manage mail-enabled public folders.
 prerequisites: |
   None
-iconUrl: /learn/achievements/generic-badge.svg
+iconUrl: /learn/achievements/2-create-and-manage-public-folders.svg
 levels:
 - intermediate
 roles:

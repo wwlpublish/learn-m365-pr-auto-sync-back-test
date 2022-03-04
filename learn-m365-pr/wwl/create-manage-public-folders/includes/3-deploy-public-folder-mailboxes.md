@@ -22,4 +22,4 @@ To implement public folders in Exchange, you first must create a primary public 
 
 The first (or primary) public folder mailbox contains the only writeable copy of the public folder hierarchy. After creating the primary public folder mailbox, you can create other public folder mailboxes as secondary public folder mailboxes. These extra public folder mailboxes will contain a read-only version of the public folder hierarchy, which is referred to as the “Secondary Hierarchy”.
 
-**Additional reading.** For more information, see Create a public folder mailbox in Exchange Server.
+**Additional reading.** For more information, see [Create a public folder mailbox in Exchange Server](/exchange/collaboration/public-folders/create-public-folder-mailboxes?azure-portal=true).
