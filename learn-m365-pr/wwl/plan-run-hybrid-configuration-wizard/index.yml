@@ -3,7 +3,7 @@ uid: learn.wwl.plan-configure-hybrid-deployment-using-hybrid-configuration-wizar
 metadata:
   title: Plan and configure a hybrid deployment using the Hybrid Configuration Wizard
   description: "Plan and configure a hybrid deployment using the Hybrid Configuration Wizard"
-  ms.date: 12/14/2021
+  ms.date: 03/04/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -19,7 +19,7 @@ abstract: |
   - Describe the prerequisites to run the Microsoft 365 Hybrid Configuration Wizard.
   - Explain best practices for implementing a hybrid deployment.
 prerequisites: ""
-iconUrl: /learn/achievements/generic-badge.svg
+iconUrl: /learn/achievements/plan-configure-hybrid-deployment-using-hybrid-configuration-wizard.svg
 levels:
 - intermediate
 roles:
