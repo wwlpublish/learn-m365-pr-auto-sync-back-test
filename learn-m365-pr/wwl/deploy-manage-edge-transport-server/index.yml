@@ -3,7 +3,7 @@ uid: learn.wwl.deploy-manage-edge-transport-server
 metadata:
   title: Provide a gateway for Internet email using Edge Transport servers
   description: "Provide a gateway for Internet email using Edge Transport servers"
-  ms.date: 12/15/2021
+  ms.date: 03/04/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -17,7 +17,7 @@ abstract: |
   - Describe the Edge Subscription process using EdgeSync.
   - Plan for message flow with an Edge Transport server.
 prerequisites: ""
-iconUrl: /learn/achievements/generic-badge.svg
+iconUrl: /learn/achievements/3-deploy-and-manage-an-edge-transport-server.svg
 levels:
 - intermediate
 roles:

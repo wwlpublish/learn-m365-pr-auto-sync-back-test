@@ -3,7 +3,7 @@ uid: learn.wwl.manage-public-folders-microsoft-365
 metadata:
   title: Manage public folders in Microsoft 365
   description: Manage public folders in Microsoft 365
-  ms.date: 11/30/2021
+  ms.date: 03/04/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -17,7 +17,7 @@ prerequisites: |
   *   Ability to write PowerShell commands at an intermediate level
 summary: |
   Examines the use of public folders in Exchange, as well as how to implement, manage, and troubleshoot public folder mailboxes, public folders, public folder permissions, and mail-enabled public folders.
-iconUrl: /learn/achievements/generic-trophy.svg
+iconUrl: /learn/achievements/manage-public-folders-in-microsoft-365.svg
 levels:
 - intermediate
 roles:
