@@ -3,7 +3,7 @@ uid: learn.wwl.manage-hybrid-deployment-life-cycle
 metadata:
   title: Manage the hybrid deployment life cycle
   description: Manage the hybrid deployment life cycle
-  ms.date: 12/15/2021
+  ms.date: 03/04/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -17,7 +17,7 @@ prerequisites: |
   *   Ability to write PowerShell commands at an intermediate level
 summary: |
   Examines how to plan, implement, and troubleshoot a hybrid Exchange deployment, including implementing the Hybrid Configuration Wizard and advanced hybrid functionality, such as public folder coexistence, pass-through authentication, and mailbox replication
-iconUrl: /learn/achievements/generic-trophy.svg
+iconUrl: /learn/achievements/manage-the-hybrid-deployment-life-cycle.svg
 levels:
 - intermediate
 roles:
