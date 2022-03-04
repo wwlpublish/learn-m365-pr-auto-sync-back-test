@@ -1,0 +1,74 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.explore-support-diagnostic-tools.knowledge-check
+title: Knowledge check
+metadata:
+  title: Knowledge check
+  description: "Knowledge check"
+  ms.date: 03/04/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 5
+content: |
+  [!include[](includes/12-knowledge-check.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "A user reports problems regarding application failures. The user has indicated that this isn't the first time they've experienced issues with this application. Which of the tools provided in Windows 10 can create a problem report that you can use to troubleshoot this?"
+    choices:
+    - content: "Reliability Monitor"
+      isCorrect: true
+      explanation: "Correct. The Reliability Monitor reviews a computer’s reliability and problem history. You can use the Reliability Monitor to produce several kinds of reports and charts that can help you identify the source of reliability issues and troubleshoot the problems."
+    - content: "Process Explorer"
+      isCorrect: false
+      explanation: "Incorrect. Process Explorer enables you to determine the currently active processes on a Windows computer. Try again."
+    - content: "Task Manager"
+      isCorrect: false
+      explanation: "Incorrect. The Task Manager tool is one of the tools that end users and administrators use most for viewing system performance and resource utilization on a device. Task Manager primarily is a performance-monitoring tool, and not a reliability-monitoring tool. Try again."
+  - content: "You are troubleshooting a computer problem. You need access to essential event information from applications, security, setup, and the system. Which of the following tools provided in Windows 10 lists and categorizes this event information?"
+    choices:
+    - content: "Performance Monitor"
+      isCorrect: false
+      explanation: "Incorrect. The Performance Monitor is a Microsoft Management Console (MMC) snap-in that you can use to analyze the performance effect that applications and services have on a computer. You can also use it to obtain an overview of system performance or collect detailed information for troubleshooting. Try again."
+    - content: "Resource Monitor"
+      isCorrect: false
+      explanation: "Incorrect. You can access Resource Monitor from Task Manager or by running the perfmon /res command at a command prompt. Similar to Task Manager, the primary goal of Resource Monitor is to monitor system performance and utilization of CPU, disk, network, and memory resources. However, you also can use it to help you to identify reliability problems, such as excessive use of system resources or unresponsive apps. Try again."
+    - content: "Event Viewer"
+      isCorrect: true
+      explanation: "Correct. Event Viewer provides categorized lists of essential Windows log events, including application, security, setup, and system events, in addition to log groupings for individual installed applications and specific Windows component categories. Individual events provide detailed information regarding the type of event that occurred, when the event occurred, the source of the event, and technical detailed information to assist in troubleshooting the event."
+  - content: "As an IT Support professional for your organization, you need to configure the settings for Windows Logs. You create a new GPO for all the computers in your domain. Which of the following is something you can define for each log?"
+    choices:
+    - content: "Event level to log, such as errors or warnings"
+      isCorrect: false
+      explanation: "Incorrect. This item can't be defined in log settings. Try again."
+    - content: "Behavior that occurs when the log is full"
+      isCorrect: true
+      explanation: "Correct. For each log, you can define: 1) The location of the log file, 2) The maximum size of the log file, 3) Automatic backup options, 4) Permissions on the logs, and 5) Behavior that occurs when the log is full."
+    - content: "Which apps should be excluded"
+      isCorrect: false
+      explanation: "Incorrect. This item can't be defined in log settings. Try again."
+  - content: "Which Windows 10 performance-monitoring tool provides a snapshot of system performance?"
+    choices:
+    - content: "Resource Monitor"
+      isCorrect: true
+      explanation: "Correct. Resource Monitor provides a snapshot of system performance, including a summary and tab with detailed information for the four key system components: processor, memory, disk, and network. If a Windows computer runs slowly, you can use Resource Monitor to view current activity in each of the four component areas, and determine which is causing a performance bottleneck. However, Resource Monitor can show only resource utilization for the local computer, not remote or virtual computers."
+    - content: "Task Manager"
+      isCorrect: false
+      explanation: "Incorrect. The Task Manager tool is one of the tools that end users and administrators use most for viewing system performance and resource utilization on a device. Task Manager primarily is a performance-monitoring tool, and not a reliability-monitoring tool. It doesn't provide a snapshot of system performance. Try again."
+    - content: "Performance Monitor"
+      isCorrect: false
+      explanation: "Incorrect. The Performance Monitor obtains system performance information. You can use this tool to analyze the performance effect that applications and services have on a computer, and you can use it to obtain an overview of system performance or collect detailed information for troubleshooting. It doesn't provide a snapshot of system performance. Try again."
+  - content: "An end user reports a problem with an app. To troubleshoot the issue, you examine the startup items to determine whether a particular program is causing problems after it starts. You also scan the processes for unresponsive apps. Which tool do you use to perform these troubleshooting steps?"
+    choices:
+    - content: "Reliability Monior"
+      isCorrect: false
+      explanation: "Incorrect. The Reliability Monitor reviews a computer’s reliability and problem history. You can use the Reliability Monitor to produce several kinds of reports and charts that can help you identify the source of reliability issues. Try again."
+    - content: "Task Manager"
+      isCorrect: true
+      explanation: "Correct. When a reliability problem first becomes apparent, you should use Task Manager to see if you can troubleshoot the issue. For example, you might examine the startup items to determine whether a particular program is causing problems after it starts and scan the processes for unresponsive apps."
+    - content: "The Microsoft Diagnostics and Recovery Toolset"
+      isCorrect: false
+      explanation: "Incorrect. The Microsoft Diagnostics and Recovery Toolset (DaRT) 10 enables you to troubleshoot, diagnose, and repair a Windows computer that will not start, or that generates errors when starting. Try again."
