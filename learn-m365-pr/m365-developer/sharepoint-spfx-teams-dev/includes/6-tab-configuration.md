@@ -47,7 +47,7 @@ The tab's `canUpdateConfiguration` property is set to `true` by default, but you
 
 When set to `false`, the settings page is only displayed immediately before the tab is added to the channel. In this scenario, the **Settings** button isn't present on the tab's context menu:
 
-![Screenshot of a tab's settings menu option](../media/07-update-settings-step-06.png)
+![Screenshot of a tab's settings menu option](../media/07-update-settings-step-11.png)
 
 ## Summary
 
