@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.monitor-device-profiles.manage-device-sync-intune
+title: Manage device sync in Intune
+metadata:
+  title: Manage device sync in Intune
+  description: "Manage device sync in Intune"
+  ms.date: 03/07/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/3-manage-device-sync-intune.md)]
