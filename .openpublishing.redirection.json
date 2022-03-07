@@ -1784,6 +1784,11 @@
       "source_path": "learn-m365-pr/m365-developer/sharepoint-spfx-spcontent/7-exercise-using-mocks.yml",
       "redirect_url": "https://docs.microsoft.com/learn/modules/sharepoint-spfx-spcontent/7-exercise-upload-file",
       "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-m365-pr/wwl/implement-security-for-microsoft-teams/05-examine-cloud-app-security.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/implement-security-for-microsoft-teams/",
+      "redirect_document_id": false
     }
   ]
 }
