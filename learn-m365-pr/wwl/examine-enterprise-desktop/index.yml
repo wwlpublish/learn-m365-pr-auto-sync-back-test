@@ -1,0 +1,46 @@
+### YamlMime:Module
+uid: learn.wwl.examine-enterprise-desktop
+metadata:
+  title: Examine the enterprise desktop
+  description: "This module introduces the student to the concepts of modern management and the enterprise desktop lifecycle."
+  ms.date: 03/07/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Examine the enterprise desktop
+summary: This module introduces the student to the concepts of modern management and the enterprise desktop lifecycle.
+abstract: |
+  After completing this module, you will be able to:
+  - Describe the benefits of Modern Management.
+  - Explain the enterprise desktop life-cycle model.
+  - Describe considerations for planning hardware strategies.
+  - Describe the steps in planning OS and app deployment.
+  - Describe considerations for post-deployment and retirement.
+prerequisites: |
+  - Strong technical skills installing, maintaining, and troubleshooting the Windows 10 OS or later.
+  - Strong understanding of computer networking, client security, and application concepts.
+  - Experience using Active Directory Domain Services.
+iconUrl: /learn/achievements/generic-badge.svg
+levels:
+- intermediate
+roles:
+- administrator
+products:
+- mem
+- mem-configuration-manager
+- mem-intune
+- windows
+units:
+- learn.wwl.examine-enterprise-desktop.introduction
+- learn.wwl.examine-enterprise-desktop.examine-benefits-modern-management
+- learn.wwl.examine-enterprise-desktop.examine-enterprise-desktop-life-cycle-model
+- learn.wwl.examine-enterprise-desktop.examine-planning-purchasing
+- learn.wwl.examine-enterprise-desktop.examine-desktop-deployment
+- learn.wwl.examine-enterprise-desktop.plan-application-deployment
+- learn.wwl.examine-enterprise-desktop.plan-operations-support
+- learn.wwl.examine-enterprise-desktop.plan-upgrades-retirement
+- learn.wwl.examine-enterprise-desktop.knowledge-check
+- learn.wwl.examine-enterprise-desktop.summary
+badge:
+  uid: learn.wwl.examine-enterprise-desktop.badge
