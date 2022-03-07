@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.implement-security-for-microsoft-teams.examine-defender-cloud-app
+title: Examine the Defender for Cloud Apps
+metadata:
+  title: Examine the Defender for Cloud Apps
+  description: "Examine the Defender for Cloud Apps"
+  ms.date: 03/07/2022
+  author: wwlpublish
+  ms.author: jennyche
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 5
+content: |
+  [!include[](includes/05-examine-defender-cloud-app.md)]
