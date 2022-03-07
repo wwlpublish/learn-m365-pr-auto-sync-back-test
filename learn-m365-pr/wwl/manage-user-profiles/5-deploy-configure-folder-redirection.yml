@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.manage-user-profiles.deploy-configure-folder-redirection
+title: Deploy and configure folder redirection
+metadata:
+  title: Deploy and configure folder redirection
+  description: "Deploy and configure folder redirection"
+  ms.date: 03/07/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/5-deploy-configure-folder-redirection.md)]

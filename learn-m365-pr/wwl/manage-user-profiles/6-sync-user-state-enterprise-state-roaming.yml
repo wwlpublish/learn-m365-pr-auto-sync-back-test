@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.manage-user-profiles.sync-user-state-enterprise-state-roaming
+title: Sync user state with Enterprise State Roaming
+metadata:
+  title: Sync user state with Enterprise State Roaming
+  description: "Sync user state with Enterprise State Roaming"
+  ms.date: 03/07/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/6-sync-user-state-enterprise-state-roaming.md)]
