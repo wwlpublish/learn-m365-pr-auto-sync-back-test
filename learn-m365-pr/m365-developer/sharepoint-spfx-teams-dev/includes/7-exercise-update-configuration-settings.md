@@ -82,6 +82,8 @@ Drag this file into the **Apps for SharePoint** library in the browser. When pro
 
 ![Screenshot dragging the SharePoint package into the Apps for SharePoint library](../media/05-upload-solution.png)
 
+In the **Do you trust spfxteams-client-side-solution?** dialog, ensure the checkbox **Make this solution available to all sites in the organization** is selected and then select **Deploy**.
+
 ## Test the changes
 
 Navigate back to the SharePoint page where you added the web part in the previous exercise and refresh the page. The value of the custom property will start out blank even though you set a default value for it in the manifest file. The default value only gets set for new web parts.
@@ -129,13 +131,31 @@ When prompted, select **Remove**.
 
 ## Update the previously installed Microsoft Teams app
 
-Within the Microsoft Teams client, select **Apps** in the lower right corner, and then select **Built for your org** from the sidebar menu.
+Navigate to the Microsoft Teams Admin Center located at **https://admin.teams.microsoft.com/**.
 
-Select the app menu, then select **Update**.
+In the navigation, select **Teams apps > Manage apps**, search for **SPFx Teams Together**, and then select the **SPFx Teams Together** app:
 
-![Screenshot of the SPFx solution in Microsoft Teams - Selecting the Update context menu item](../media/07-update-settings-step-04.png)
+![Screenshot of the Microsoft Teams Admin Center](../media/07-update-settings-step-04.png)
 
-Select the new Microsoft Teams app manifest you created a moment ago.
+In the **Manage apps \ SPFx Teams Together** pane, note that the **Published version** is 0.1. Select the **Upload file** link to upload the updated Teams app package:
+
+![Screenshot of the Manage apps pane](../media/07-update-settings-step-05.png)
+
+In the **Update app** dialog, select **Select a file**, and select the new Microsoft Teams app manifest you created a moment ago:
+
+![Screenshot of the Update app dialog](../media/07-update-settings-step-06.png)
+
+Go back to the **Manage apps \ SPFx Teams Together** pane to ensure that the **Published version** is now 0.2:
+
+![Screenshot of the Manage apps pane with updated version](../media/07-update-settings-step-07.png)
+
+Within the Microsoft Teams client, select **Apps** in the lower right corner, select **Built for your org** from the sidebar menu, and then select the **SPFx Teams Together** app.
+
+![Screenshot of the SPFx solution in Microsoft Teams](../media/07-update-settings-step-08.png)
+
+In the **SPFx Teams Together** dialog, ensure the **Version** is 0.2:
+
+![Screenshot of the SPFx Teams Together dialog](../media/07-update-settings-step-09.png)
 
 ## Test the new Microsoft Teams app
 
@@ -163,11 +183,11 @@ The application should now load in Microsoft Teams within the **General** channe
 
 Notice how the web part's property pane opens by default. Edit the values of the public properties on the web part and then select the **X** in the upper-right corner of the property pane to close the initial configuration:
 
-![Screenshot of the default settings on the web part](../media/07-update-settings-step-05.png)
+![Screenshot of the default settings on the web part](../media/07-update-settings-step-10.png)
 
 Now go back into the Microsoft Teams team. Select the down arrow to the right of the **SPFx Teams Together** tab. Notice the **Settings** option is no longer present. This is because the setting in the Microsoft Teams app manifest specified the configuration can't be updated once its installed into Microsoft Teams.
 
-![Screenshot of the SPFx solution in Microsoft Teams - Missing Settings context menu item](../media/07-update-settings-step-06.png)
+![Screenshot of the SPFx solution in Microsoft Teams - Missing Settings context menu item](../media/07-update-settings-step-11.png)
 
 ## Summary
 
