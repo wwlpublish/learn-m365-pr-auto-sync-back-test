@@ -19,7 +19,7 @@ You'll use Node.js to create custom Microsoft Teams tabs in this module. The exe
 - NPM (installed with Node.js) - v6.\* (or higher)
 - [Gulp](https://gulpjs.com/) - v4.\* (or higher)
 - [Yeoman](https://yeoman.io/) - v3.\* (or higher)
-- [Yeoman Generator for Microsoft Teams](https://github.com/OfficeDev/generator-teams) - v3.2.0 (or higher)
+- [Yeoman Generator for Microsoft Teams](https://github.com/OfficeDev/generator-teams) - v3.5.0 (or higher)
 - [Visual Studio Code](https://code.visualstudio.com)
 
 *You must have the minimum versions of these prerequisites installed on your workstation.
@@ -42,7 +42,7 @@ On the **App registrations** page, select **New registration**.
 
 On the **Register an application** page, set the values as follows:
 
-- **Name**: Teams Calendar Graph Tab
+- **Name**: Teams Messages Graph Tab
 - **Supported account types**: Accounts in this organizational directory only (Contoso only - Single tenant)
 - **Redirect URI**: Web = `https://XXXX.ngrok.io/auth-end.html`
 
@@ -53,7 +53,7 @@ On the **Register an application** page, set the values as follows:
 
     Select **Register**.
 
-On the **Teams Calendar Graph Tab** page, copy the value of the **Application (client) ID**. You'll need it later in this exercise.
+On the **Teams Messages Graph Tab** page, copy the value of the **Application (client) ID**. You'll need it later in this exercise.
 
   ![Screenshot of the Application ID of the new app registration](../media/azure-ad-portal-new-app-details.png)
 
@@ -63,7 +63,7 @@ Locate the section **Implicit grant**, and select both **Access tokens** and **I
 
 ![Screenshot selecting ID and access tokens to be returned under the implicit flow](../media/azure-ad-portal-new-app-implicit.png)
 
-Save the settings by selecting **Save** in the toolbar at the top of the page.
+Save the settings by selecting **Save** in the toolbar at the bottom of the page.
 
 ### Grant Azure AD application permissions to Microsoft Graph
 
@@ -105,7 +105,7 @@ Yeoman starts and asks you a series of questions. Answer the questions with the 
 - **Where do you want to place the files?**: Use the current folder
 - **Title of your Microsoft Teams App project**: Learn MSTeams Auth Tabs
 - **Your (company) name (max 32 characters)**: Contoso
-- **Which manifest version would you like to use?**: v1.9
+- **Which manifest version would you like to use?**: v1.11
 - **Quick scaffolding**: Yes
 - **What features do you want to add to your project?**: A tab
 - **The URL where you will host this solution?**: (Accept the default option)
@@ -379,23 +379,26 @@ gulp ngrok-serve --debug
 
 Copy the ngrok URL displayed in the console. Go back to Azure AD, and add or update the redirect URI of the Azure AD application previously created in this lab. Otherwise, Azure AD won't redirect you back to the **auth-end.html** page. The URL should be in the form of **https://{ngrok-subdomain}.ngrok.io/auth-end.html**.
 
-In the browser, go to [Microsoft Teams](https://teams.microsoft.com), and sign in with the credentials of a Work and School account.
+In the browser, go to [Microsoft Teams](https://teams.microsoft.com), and sign in with the credentials of a Work and School account. 
 
-Using the app bar on the left, select the **More added apps** button. Then select **More apps**.
 
-On the **Browse available apps and services** page, select **Upload a custom app** > **Upload for me or my teams**.
+Navigate to (or create) a Team for testing the Team Tab. In the Teams list, select **More options** next to the Team. Then select **Manage team**.
 
-In the file dialog box that appears, select the Microsoft Teams package in your project. This app package is a zip file that can be found in the project's **./package** folder.
+![Screenshot of selecting the Manage team option](../media/07-channel-app-01.png)
 
-> [!NOTE]
-> If the **./package** folder is not present, this means you are affected by a bug in the yoteams-deploy package. To resolve the issue:
-> - Stop the local web server by pressing <kbd>CTRL</kbd>+<kbd>C</kbd> in the console.
-> - Install the preview version of the **yoteams-deploy** package using the command `npm install yoteams-deploy@preview`
-> - Restart the server process: `gulp ngrok-serve`
+Select the **Apps** tab and then **Upload a custom app**.
 
-After the package is uploaded, Microsoft Teams displays a summary of the app. Select the **Add to a team** button to install the app. Select a team to add the channel to, and select **Save** on the configuration page.
+![Screenshot of the Apps tab of the Manage Team page](../media/07-channel-app-02.png)
 
-Select the app to go to the new tab.
+In the file dialog that appears, select the Microsoft Teams package in your project. This app package is a ZIP file that can be found in the project's **./package** folder.
+
+After the package is uploaded, Microsoft Teams displays a summary of the app. Select the **Add** buttonto install the app.
+
+In the Team's General channel, select the **+** button in the Tab strip. In the **Add a Tab** dialog, select the **Learn MSTeams Auth Tabs** app.
+
+![Screenshot of the Add a Tab dialog](../media/07-channel-app-03.png)
+
+Once the app is selected, the configuration page is displayed. Select **Save**. The tab is displayed.
 
 ![Screenshot of the Learn Auth tab](../media/07-01.png)
 
