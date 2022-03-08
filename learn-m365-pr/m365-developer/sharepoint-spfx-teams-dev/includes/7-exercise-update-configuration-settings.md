@@ -147,7 +147,7 @@ In the **Update app** dialog, select **Select a file**, and select the new Micro
 
 Go back to the **Manage apps \ SPFx Teams Together** pane to ensure that the **Published version** is now 0.2:
 
-![Screenshot of the Manage apps pane](../media/07-update-settings-step-07.png)
+![Screenshot of the Manage apps pane with updated version](../media/07-update-settings-step-07.png)
 
 Within the Microsoft Teams client, select **Apps** in the lower right corner, select **Built for your org** from the sidebar menu, and then select the **SPFx Teams Together** app.
 
