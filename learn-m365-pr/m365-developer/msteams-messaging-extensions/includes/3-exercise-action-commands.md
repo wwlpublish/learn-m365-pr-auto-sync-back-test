@@ -22,7 +22,7 @@ You'll use Node.js to create a custom Microsoft Teams app in this module. The ex
 - NPM (installed with Node.js) - v6.\* (or higher)
 - [Gulp](https://gulpjs.com/) - v4.\* (or higher)
 - [Yeoman](https://yeoman.io/) - v3.\* (or higher)
-- [Yeoman Generator for Microsoft Teams](https://github.com/OfficeDev/generator-teams) - v3.2.0 (or higher)
+- [Yeoman Generator for Microsoft Teams](https://github.com/OfficeDev/generator-teams) - v3.5.0 (or higher)
 - [Visual Studio Code](https://code.visualstudio.com)
 
 You must have the minimum versions of these prerequisites installed on your workstation.
@@ -68,6 +68,7 @@ In the **Create an Azure Bot** blade, enter the following values and then select
 - **Subscription**: *Select the subscription you selected previously when creating the resource group*
 - **Resource group**: *Select the resource group you created previously*
 - **Pricing tier**: *Select a preferred pricing tier; the F0 tier is free*
+- **Type of App**: *Select Multi Tenant*
 - **Microsoft App ID**: Create new Microsoft App ID
 
 Select **Create**.
@@ -142,7 +143,7 @@ Yeoman will launch and ask you a series of questions. Answer the questions with 
 - **Where do you want to place the files?**: Use the current folder
 - **Title of your Microsoft Teams App project?**: Planet Messaging
 - **Your (company) name? (max 32 characters)**: Contoso
-- **Which manifest version would you like to use?**: v1.10
+- **Which manifest version would you like to use?**: v1.11
 - **Quick scaffolding**: Yes
 - **What features do you want to add to your project?**: *(uncheck the default option **A Tab** using the <kbd>space</kbd> key and press <kbd>enter</kbd>)*
 - **The URL where you will host this solution?**: (Accept the default option)
@@ -686,9 +687,11 @@ Now let's install the app in Microsoft Teams. In the browser, navigate to **http
 > [!NOTE]
 > Microsoft Teams is available for use as a web client, desktop client and a mobile client. In this module, we will use the web client but any of the clients can be used.
 
-Using the app bar navigation menu, select the **More added apps** button. Then select **Browse all apps** followed by **Upload for me or my teams**.
+Using the app bar navigation menu, select the **More added apps** button. Then select **More apps**.
 
 ![Screenshot of More added apps dialog in Microsoft Teams](../media/03-test-02.png)
+
+On the Apps page, select **Manage your apps** followed by **Upload a custom app**.
 
 In the file dialog that appears, select the Microsoft Teams package in your project. This app package is a ZIP file that can be found in the project's **./package** folder.
 
