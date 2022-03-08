@@ -3,7 +3,7 @@ uid: learn-m365.sharepoint-spfx-graph-3rd-party-apis.5-exercise-azure-ad-apis
 metadata:
   title: Exercise - Call Azure AD secured REST APIs
   description: In this exercise, you'll create a new SharePoint Framework project with a single client-side web part that uses React and Microsoft Graph to display users in the currently logged in user's directory. You'll use the Azure AD HTTP client API included in the SharePoint Framework to authenticate and call the Microsoft Graph REST API.
-  ms.date: 12/08/2021
+  ms.date: 03/07/2022
   author: andrewconnell-msft
   ms.author: suzanz
   ms.topic: interactive-tutorial

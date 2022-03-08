@@ -1,14 +1,14 @@
 ### YamlMime:ModuleUnit
 uid: learn-m365.sharepoint-spfx-web-parts.4-test-web-parts-workbench
 metadata:
-  title: Test web parts in the local and hosted workbench
-  description: In this unit, you'll learn how to test custom web parts using both local and Office 365 hosted workbench.
-  ms.date: 12/08/2021
+  title: Test web parts in the hosted workbench
+  description: In this unit, you'll learn how to test custom web parts using SharePoint hosted workbench.
+  ms.date: 03/07/2022
   author: andrewconnell-msft
   ms.author: suzanz
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-title: Test web parts in the local and hosted workbench
+title: Test web parts in the hosted workbench
 durationInMinutes: 9
 content: |
   [!include[](includes/4-test-web-parts-workbench.md)]
