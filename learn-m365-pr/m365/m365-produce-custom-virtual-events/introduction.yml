@@ -1,12 +1,11 @@
 ### YamlMime:ModuleUnit
 uid: learn-m365-pr.produce-custom-virtual-events.introduction
-title: 
+title: Introduction 
 metadata:
-  unitType: Introduction
-  title:
+  title: Introduction
   description: Produce a custom virtual event with an external app in Microsoft Teams or Microsoft 365 and optimize your experience.
   ms.date: 03/9/2022
-  author: nkagole
+  author: nataliekagole
   ms.author: nkagole
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
