@@ -3,7 +3,7 @@ uid: learn.wwl.explore-transport-services
 metadata:
   title: Explore transport services
   description: "Explore transport services"
-  ms.date: 12/08/2021
+  ms.date: 03/09/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -23,8 +23,10 @@ levels:
 roles:
 - administrator
 products:
-- azure-active-directory
 - m365
+- office
+- office-365
+- office-exchange-server
 units:
 - learn.wwl.explore-transport-services.introduction
 - learn.wwl.explore-transport-services.examine-message-transport-components
