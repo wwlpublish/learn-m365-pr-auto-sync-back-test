@@ -3,7 +3,7 @@ uid: learn.wwl.manage-transport-rules
 metadata:
   title: Manage transport rules
   description: "Manage transport rules"
-  ms.date: 12/08/2021
+  ms.date: 03/09/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -23,8 +23,10 @@ levels:
 roles:
 - administrator
 products:
-- azure-active-directory
-- m365
+- office
+- ' office-365'
+- ' office-exchange-server'
+- ' m365'
 units:
 - learn.wwl.manage-transport-rules.introduction
 - learn.wwl.manage-transport-rules.explore
