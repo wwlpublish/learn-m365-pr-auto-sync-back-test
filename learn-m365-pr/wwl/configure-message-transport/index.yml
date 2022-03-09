@@ -23,10 +23,10 @@ levels:
 roles:
 - administrator
 products:
+- m365
 - office
-- ' office-365'
-- ' office-exchange-server'
-- ' m365'
+- office-365
+- office-exchange-server
 units:
 - learn.wwl.configure-message-transport.introduction
 - learn.wwl.configure-message-transport.options
