@@ -20,7 +20,7 @@ However, when a web part is used as a Microsoft Teams tab, the tab is loading a 
 
 SharePoint's native property pane experience is then used to display edit the web part's public properties:
 
-![Screenshot of a tab's settings menu option](../media/07-update-settings-step-03.png)
+![Screenshot of a tab's property pane](../media/07-update-settings-step-03.png)
 
 ## Configure settings – edit only on install
 
@@ -47,7 +47,7 @@ The tab's `canUpdateConfiguration` property is set to `true` by default, but you
 
 When set to `false`, the settings page is only displayed immediately before the tab is added to the channel. In this scenario, the **Settings** button isn't present on the tab's context menu:
 
-![Screenshot of a tab's settings menu option](../media/07-update-settings-step-06.png)
+![Screenshot of a tab's settings menu option not present](../media/07-update-settings-step-11.png)
 
 ## Summary
 
