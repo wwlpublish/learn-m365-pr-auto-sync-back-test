@@ -94,11 +94,13 @@ Navigate to a modern site page.
 
 Put it in edit mode by selecting the **Edit** button in the top-right portion of the content area on the page.
 
-Select the web part icon button to open the list of available web parts:
+Select the web part icon button to open the list of available web parts. 
 
 ![Screenshot of adding the web part to the page](../media/03-deploy-step-05.png)
 
-Scroll to the bottom and notice the new web part isn't listed. This is because web parts are added to the web part gallery by activating a feature.
+Search for **Second Deployment Demo**. Notice the new web part isn't listed. This is because web parts are added to the web part gallery by activating a feature.
+
+![Screenshot of the empty web part toolbox](../media/07-update-package-step-06.png)
 
 > [!NOTE]
 > When the package was first deployed, the features within it were activated. Without versioning the package, SharePoint does not expose the user interface needed to activate or reactivate any new or existing features.

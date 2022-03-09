@@ -4,7 +4,7 @@ metadata:
   title: Upload files to document libraries
   description: |
     In this lesson, you'll learn about another common scenario: how to use the SharePoint Framework API to add files to SharePoint document libraries.
-  ms.date: 12/10/2021
+  ms.date: 03/07/2022
   author: andrewconnell-msft
   ms.author: suzanz
   ms.topic: interactive-tutorial

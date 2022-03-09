@@ -3,7 +3,7 @@ In this exercise, you'll manipulate the property pane for a SharePoint Framework
 ## Create a new SharePoint Framework solution and web part
 
 > [!IMPORTANT]
-> The instructions below assume you are using v1.13.0 of the SharePoint Framework Yeoman generator.
+> The instructions below assume you are using v1.13.1 of the SharePoint Framework Yeoman generator.
 
 Open a command prompt and change to the folder where you want to create the project.
 
@@ -17,7 +17,6 @@ Use the following to complete the prompt that is displayed (*if additional optio
 
 - **What is your solution name?:** HelloPropertyPane
 - **Only SharePoint Online (latest) is supported. For earlier versions of SharePoint (2016 and 2019) please use the 1.4.1 version of the generator.** SharePoint Online only (latest)
-- **Where do you want to place the files?:** Use the current folder
 - **Do you want to allow the tenant admin the choice of being able to deploy the solution to all sites immediately without running any feature deployment or adding apps in sites?:** No
 - **Will the components in the solution require permissions to access web APIs that are unique and not shared with other components in the tenant?:** No
 - **Which type of client-side component to create?:** WebPart
@@ -34,6 +33,8 @@ gulp trust-dev-cert
 ```
 
 Next, verify everything is working.
+
+Open the project folder in **Visual Studio Code**.
 
 Locate and open the file **config/serve.json**
 
@@ -78,8 +79,6 @@ Open the property pane by selecting the pencil (edit) icon in the toolbar to the
 
 With a working web part, the next step is to customize the property pane experience. Create two new properties that will be used in the web part and property pane. 
 
-Open the project folder in **Visual Studio Code**.
-
 Open the file **.\src\webparts\helloPropertyPane\HelloPropertyPaneWebPart.ts**. Locate the interface `IHelloPropertyPaneWebPartProps` after the `import` statements. Add the following two properties to the interface:
 
 ```typescript
@@ -100,7 +99,7 @@ Add the following two lines after the line you located:
 <p class="${ styles.description }">Number of continents I've visited: ${this.properties.numContinentsVisited}</p>
 ```
 
-At the moment, the web part will render a blank string and **undefined** for these two fields as nothing is present in their values:
+Wait a few seconds for the project to rebuild, and then refresh the hosted workbench. The web part will render a blank string and **undefined** for these two fields as nothing is present in their values:
 
 ![Screenshot of HelloPropertyPane with no values](../media/03-edit-property-pane-add-property-01.png)
 
