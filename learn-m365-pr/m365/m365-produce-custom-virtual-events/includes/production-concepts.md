@@ -1,4 +1,3 @@
-## Production Concepts
 Before you start designing your event, it’s helpful to understand the high-level components that make for a successful custom event.
 ## High level process flow
 Production with an external app or encoder requires multiple components:
