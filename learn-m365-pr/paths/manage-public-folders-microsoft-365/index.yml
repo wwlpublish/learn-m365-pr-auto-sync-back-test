@@ -3,7 +3,7 @@ uid: learn.wwl.manage-public-folders-microsoft-365
 metadata:
   title: Manage public folders in Microsoft 365
   description: Manage public folders in Microsoft 365
-  ms.date: 03/04/2022
+  ms.date: 03/09/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -23,8 +23,10 @@ levels:
 roles:
 - administrator
 products:
-- azure-active-directory
 - m365
+- office
+- office-365
+- office-exchange-server
 modules:
 - learn.wwl.design-your-public-folder-hierarchy
 - learn.wwl.create-manage-public-folders
