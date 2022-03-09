@@ -3,7 +3,7 @@ uid: learn.wwl.manage-content-search
 metadata:
   title: Manage Content Search
   description: "Manage Content Search"
-  ms.date: 12/09/2021
+  ms.date: 03/09/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -22,8 +22,10 @@ levels:
 roles:
 - administrator
 products:
-- azure-active-directory
 - m365
+- office
+- office-365
+- office-exchange-server
 units:
 - learn.wwl.manage-content-search.introduction
 - learn.wwl.manage-content-search.design-content-searches
