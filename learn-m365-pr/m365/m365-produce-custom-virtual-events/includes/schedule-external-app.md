@@ -1,5 +1,3 @@
-## Schedule a Teams Live Event for use with an external application 
-
 The following graphic walks you through the workflow for using an encoder to produce your event. 
 These steps represent the production workflow for broadcast streaming. At each step, you decide the specific technology to use based on your specific needs:
 - Schedule 

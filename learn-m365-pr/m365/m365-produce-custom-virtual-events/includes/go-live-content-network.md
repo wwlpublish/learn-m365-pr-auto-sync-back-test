@@ -1,5 +1,4 @@
-## Go Live
- Now you have connected your encoder. Before you go live with custom produced Live Event, make sure to configure your OBS Studio settings to the following:
+Now you have connected your encoder. Before you go live with custom produced Live Event, make sure to configure your OBS Studio settings to the following:
 
 Launch OBS, go to **File** -> **Settings** .
 Click **Output**, then choose **Advanced** output mode and configure the following settings:

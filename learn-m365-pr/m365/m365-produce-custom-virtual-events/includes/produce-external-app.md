@@ -1,6 +1,3 @@
-## How to produce your live event with an external application
-*Role - Producer* 
-
 Once you’ve set up the live event and the content source, in this case, using Teams, there are several external applications for production (encoders) that you can use to customize the virtual event experience. An encoder compresses audio and video from various inputs and sends that output to a streaming service. Some popular encoders are OBS Studio, Halvision and Switcher Studio. For your custom live event, you’ll use OBS Studio. 
  
 
