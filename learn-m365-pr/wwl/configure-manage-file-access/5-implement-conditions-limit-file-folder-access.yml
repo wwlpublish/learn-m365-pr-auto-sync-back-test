@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.configure-manage-file-access.implement-conditions-limit-file-folder-access
+title: Implement conditions to limit file and folder access
+metadata:
+  title: Implement conditions to limit file and folder access
+  description: "Implement conditions to limit file and folder access"
+  ms.date: 03/10/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/5-implement-conditions-limit-file-folder-access.md)]

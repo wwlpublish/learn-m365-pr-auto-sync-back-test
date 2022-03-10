@@ -1,0 +1,46 @@
+### YamlMime:Module
+uid: learn.wwl.configure-manage-file-access
+metadata:
+  title: Configure and manage file access
+  description: "This module describes how to control access to files and folders using permissions."
+  ms.date: 03/10/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Configure and manage file access
+summary: This module describes how to control access to files and folders using permissions.
+abstract: |
+  After completing this module, you will be able to:
+  *   Describe the tools for managing files and folders.
+  *   Describe how to configure file and folder permissions.
+  *   Describe the concept of permission inheritance.
+  *   Implement conditions to limit file and folder access.
+  *   Secure files and folders by using file permissions.
+  *   Use the effective permissions feature.
+  *   Describe how copying and moving files and folders affect permissions.
+prerequisites: |
+  *   Students should have a basic understanding of computer networks and hardware concepts.
+  *   Students should have a basic understanding of OS and Application concepts.
+  *   Students should have experience with using Windows 10 or later.
+iconUrl: /learn/achievements/generic-badge.svg
+hidden: true
+levels:
+- beginner
+roles:
+- administrator
+products:
+- windows
+units:
+- learn.wwl.configure-manage-file-access.introduction
+- learn.wwl.configure-manage-file-access.explore-tools-used-managing-files-folders
+- learn.wwl.configure-manage-file-access.understand-file-folder-permissions
+- learn.wwl.configure-manage-file-access.understand-permission-inheritance
+- learn.wwl.configure-manage-file-access.implement-conditions-limit-file-folder-access
+- learn.wwl.configure-manage-file-access.understand-effective-permissions
+- learn.wwl.configure-manage-file-access.use-effective-access-feature
+- learn.wwl.configure-manage-file-access.examine-permissions-when-copying-moving-files
+- learn.wwl.configure-manage-file-access.knowledge-check
+- learn.wwl.configure-manage-file-access.summary
+badge:
+  uid: learn.wwl.configure-manage-file-access.badge

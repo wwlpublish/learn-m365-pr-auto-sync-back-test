@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.configure-manage-file-access.understand-effective-permissions
+title: Understand effective permissions
+metadata:
+  title: Understand effective permissions
+  description: "Understand effective permissions"
+  ms.date: 03/10/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 2
+content: |
+  [!include[](includes/6-understand-effective-permissions.md)]
