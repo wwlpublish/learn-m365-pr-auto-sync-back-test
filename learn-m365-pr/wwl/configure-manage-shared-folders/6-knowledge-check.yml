@@ -1,0 +1,63 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.configure-manage-shared-folders.knowledge-check
+title: Knowledge check
+metadata:
+  title: Knowledge check
+  description: "Knowledge check"
+  ms.date: 03/10/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 5
+content: |
+  [!include[](includes/6-knowledge-check.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "When configuring shared folder permissions for a shared folder, three permissions can allowed or denied. Two of them are Read and Change. What's the third shared folder permission that can be allowed or denied?"
+    choices:
+    - content: "Write"
+      isCorrect: false
+      explanation: "Incorrect. This permission isn't the third shared folder permission you can allow or deny. Try again."
+    - content: "Read and execute"
+      isCorrect: false
+      explanation: "Incorrect. When you configure shared folder permissions per shared folder, you can allow or deny only Read, Change, and Full Control permissions, and these permissions apply to content in all folders and subfolders."
+    - content: "Full control"
+      isCorrect: true
+      explanation: "Correct. When you configure shared folder permissions per shared folder, you can allow or deny only Read, Change, and Full Control permissions. These permissions apply to content in all folders and subfolders."
+  - content: "Aleksander has been asked to configure basic properties for a share by using Advanced Sharing. They used Advanced Sharing to assign the share name, configure caching, and assign permissions. What other basic property can be configured with Advanced Sharing?"
+    choices:
+    - content: "Number of simultaneous users"
+      isCorrect: true
+      explanation: "Correct. This share property limits the number of users that can have an open connection to the share. The connection to the share is open when a user accesses the share for the first time, and it closes automatically after a period of inactivity. The default value in Windows client is no more than 20 users. However, you can configure this to a lower number."
+    - content: "Access-based enumeration"
+      isCorrect: false
+      explanation: "Incorrect. This advanced share property can't be set using Advanced Sharing. It can only be set using the Set-SmbShare cmdlet in Windows PowerShell. Try again."
+    - content: "Online Settings"
+      isCorrect: false
+      explanation: "Incorrect. While Offline Settings is a share property that can be configured with Advanced Sharing, there's no such property as Online Settings. Try again."
+  - content: "Pierre has created a shared folder on a volume that's formatted with a file system that supports security. As such, both the shared folder permissions and the file and folder permissions combine to control permissions to file resources when a user connects via a network. The share permission for the shared folder that Pierre created is set to Read. What actions can be performed when connecting through a shared folder?"
+    choices:
+    - content: "Read or modify the file if the individual file system permission is set to Modify"
+      isCorrect: false
+      explanation: "Incorrect. This item isn't the most you can do when the share permission is set to Read. Try again."
+    - content: "Read the file only"
+      isCorrect: true
+      explanation: "Correct. When you combine file system and share permissions and a share permission is set to Read, the most that you can do when connecting through a shared folder is read the file, even if the individual file system permission is set to Full Control. All file system permissions that are less restrictive than the share permissions filter out, so that only the most restrictive permissions remain – in this case, the Read permission."
+    - content: "You have complete control of the file or folder and control of permissions if the individual file system permission is set to Full Control"
+      isCorrect: false
+      explanation: "Incorrect. This item isn't the most you can do when the share permission is set to Read. Try again."
+  - content: "As an IT Support professional, you share folders for your organization on a regular basis. The IT Manager has asked you to create a new shared folder on a Windows 10 computer. Given the sensitive nature of the files that will be stored in this folder, you have also been asked to assign an advanced share property to the folder that enables Server Message Block (SMB) encryption. Which of the following methods can be used to share the folder and assign this property?"
+    choices:
+    - content: "The Shared Folders snap-in"
+      isCorrect: false
+      explanation: "Incorrect. This method can be used to configure basic sharing properties, but not an advanced share property such as SMB encryption. Try again."
+    - content: "Using Advanced Sharing"
+      isCorrect: false
+      explanation: "Incorrect. Advanced Sharing is somewhat of a misnomer. This method can be used to configure basic sharing properties, but not an advanced share property such as SMB encryption. Try again."
+    - content: "The Set-SmbShare PowerShell cmdlet"
+      isCorrect: true
+      explanation: "Correct. You can configure basic share properties in several ways, including Advanced Sharing, the Shared Folders snap-in, the net use Command prompt, and the New-SmbShare or Set-SmbShare Windows PowerShell cmdlets. However, if you want to modify more advanced share properties, such as by using access-based enumeration or Server Message Block (SMB) encryption, you can do that only by using the Set-SmbShare cmdlet."
