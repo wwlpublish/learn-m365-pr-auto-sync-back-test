@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.configure-manage-shared-folders.examine-shared-folder-properties
+title: Examine shared folder properties
+metadata:
+  title: Examine shared folder properties
+  description: "Examine shared folder properties"
+  ms.date: 03/10/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/4-examine-shared-folder-properties.md)]

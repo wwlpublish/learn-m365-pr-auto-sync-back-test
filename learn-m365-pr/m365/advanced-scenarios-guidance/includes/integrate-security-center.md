@@ -21,7 +21,7 @@ The Microsoft 365 Defender portal integrates with many different Microsoft Secur
 You can access the Microsoft 365 Defender portal at <https://security.microsoft.com>
 
 > [!NOTE]
-> Before June 2021, The Microsoft 365 Defender portal was known as the Microsoft 365 Defender portal.
+> Before June 2021, The Microsoft 365 Defender portal was known as the Microsoft 365 security center.
 
 ## Prerequisites
 

@@ -3,7 +3,7 @@ uid: learn-m365.sharepoint-spfx-web-part-property-pane.7-exercise-pnp-controls
 metadata:
   title: Exercise - Use the SPFx PnP reusable property pane controls
   description: In this exercise, you'll learn how to use existing third-party controls from the popular PnP SPFx reusable property pane controls project.
-  ms.date: 12/08/2021
+  ms.date: 03/07/2022
   author: andrewconnell-msft
   ms.author: suzanz
   ms.topic: interactive-tutorial

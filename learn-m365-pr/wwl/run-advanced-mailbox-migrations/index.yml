@@ -3,7 +3,7 @@ uid: learn.wwl.run-advanced-mailbox-migrations
 metadata:
   title: Run advanced mailbox migrations
   description: "Run advanced mailbox migrations"
-  ms.date: 12/16/2021
+  ms.date: 03/09/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -24,8 +24,10 @@ levels:
 roles:
 - administrator
 products:
-- azure-active-directory
 - m365
+- office
+- office-365
+- office-exchange-server
 units:
 - learn.wwl.run-advanced-mailbox-migrations.introduction
 - learn.wwl.run-advanced-mailbox-migrations.plan-pst-migration
