@@ -10,7 +10,7 @@ You can use content from a variety of sources for your virtual event; in this mo
 ## Produce your broadcast from a secure, virtual stage
 This graphic shows how you can take your content (in this case a Teams meeting) and broadcast it for your event.
 
-Image
+![Flow Chart of steps to produce your broadcast from a secure, virtual stage](../media/produce-broadcast-secure-stage.png)
 
 **Source**:The content source comes from a Teams meeting, which is your secure, virtual stage. The producer joins the Teams meeting and uses NDI to extract the video feeds and mixed audio feed.  
 

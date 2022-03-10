@@ -6,11 +6,11 @@ Once you’ve set up the live event and the content source, in this case, using 
 ## Produce your event using an app/device
 To start the production setup, the Producer needs to join the live event from their Teams calendar or Outlook calendar.
 
-Image
+![Teams calendar showing how to join as a producer](../media/join-producer-teams.jpg)
 
 After you have joined, click Start Setup to provision the event
 
-Image
+![Teams calendar showing how to start meeting as a producer](../media/join-producer-one.jpg)
 
 Once the setup is complete, use the URLs listed on the bottom right to connect the encoder
 
@@ -33,12 +33,12 @@ Click **Video** and Configure the following settings
 - **Output (Scaled) Resolution**: 1280 x 720 (Encoder Profiles are maxed at 720p in Stream for Live Events).
 - **Common FPS Values**: 30 is normally used for frames per second.
 
-Image 
+![Image showing OBS settings](../media/OBS-settings-live-events.jpg)
 
 ## Extracting content from Teams as a (content source) 
  In our scenario, we are using a Teams meeting as our content source. Remember, this is the Source machine, and it joins the Teams meeting and uses NDI to extract the isolated video feeds and mixed audio feed.  
 
-Image
+![Flow chart explaining Teams meeting](../media/extracting-content-teams.jpg)
 
 **The Producer must**: 
 - Enable NDI in the Teams client
@@ -48,18 +48,19 @@ Image
 - Invoke the Together Mode (Preview) Enable Broadcast over NDI in Teams meeting
 - NDI feeds contain mixed audio of all participants, except the user on the Source machine 
  
-Image
+![Teams image showing enablement of NDI teams](../media\enable-ndi-teams.jpg)
+
 
 ## Bringing in sources to the Producers Machine (using OBS as an example)
  **Note**: This is the Producer’s machine, and it runs the production software (e.g., OBS, Wirecast, vMix) to produce the desired layouts. From here, you can send the feed to your external audience.
 - Install OBS and the OBS NDI Plugin (requires restart) 
 - In OBS, create a new Scene, and add a new NDI source
 
-Image
+![checkmark icon](../media/checkmark-icon.png)
 
 - Select the desired feed and position into the scene
 
-Image
+![checkmark icon](../media/checkmark-icon.png)
 
 **Note**: both audio and video must be present.
 
