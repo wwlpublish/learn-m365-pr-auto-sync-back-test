@@ -24,8 +24,6 @@ You can create a custom indicator of compromise in Microsoft Defender for Cloud 
 1. Select **Create policy** and then select **File policy**.
 
     :::image type="complex" source="../media/02-create-file-policy.png" alt-text="A screenshot of the Microsoft Defender for Cloud Apps portal showing how to create a file policy." lightbox="../media/02-create-file-policy.png" border="false":::
-	<<PLACEHOLDER>>
-    :::image-end:::
 
 1. In the **Edit file policy** page, in the **Policy name** and **Description** textboxes, enter information to describe this policy to other administrators.
 1. In the **Policy severity** drop-down list, select a severity. This setting is used to determine whether the policy will send a notification when a matching file is detected.
