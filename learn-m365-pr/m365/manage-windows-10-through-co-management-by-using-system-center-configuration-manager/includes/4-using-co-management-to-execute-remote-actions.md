@@ -1,8 +1,6 @@
 ﻿IT must be able to ensure that every device they manage is reachable – no matter where it is – whenever it connects. IT must also provide each device and device user with everything needed to stay productive while protecting the apps and data being used. With the device actions supported by Intune and co-management, these critical functions can be solved remotely.
 
-|||
-| :--- | :--- |
-| :::image type="icon" source="../media/video-icon.png"::: | In the following video, principal program manager Heidi Cheng and senior program manager Danny Guillory discuss and demo remote actions with co-management.|
+:::image type="icon" source="../media/video-icon.png":::  In the following video, principal program manager Heidi Cheng and senior program manager Danny Guillory discuss and demo remote actions with co-management.
 
 >[!VIDEO https://www.youtube.com/embed/MVKvN_JirHs]
 
@@ -10,7 +8,7 @@
 
 Use these remote actions from Intune once you enable co-management in Configuration Manager.
 
-|||
+|Action|Description|
 | :--- | :--- |
 | **Remove devices** | **Retire**: This action removes managed apps and data (where applicable), settings, and e-mail profiles that were assigned to that device. The device is then removed from Intune management. This process happens the next time the device checks in and receives the remote retire action. The Retire function leaves the user's personal data on the device.<br /><br />**Wipe**: This action restores a device to its factory default settings. If you choose the option to Retain enrollment state and user account, then the user data is kept. Otherwise the drive is securely erased.<br /><br />**Delete**: If you want to remove devices from the Intune on Azure portal, delete them from the specific device pane. The next time the device checks in, it removes any organizational data stored on it. |
 | **Selective wipe** | When you choose an App selective wipe, it removes company app data without removing personal data. Use this action when a device is reported as lost or stolen. |

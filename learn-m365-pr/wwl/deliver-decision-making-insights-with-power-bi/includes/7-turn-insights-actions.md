@@ -2,9 +2,7 @@ In order to truly build a culture around data, you not only need to find insight
 
 In addition, the Power Automate visual in Power BI enabled dynamic process automation in Power BI, allowing users to trigger and change the flows based on data from Power BI.
 
-|||
-| :--- | :--- |
-| ![Icon indicating play video](../media/video-icon.png)| Watch this video to learn more about the Power Apps and Power Automate visuals in Power BI.|
+![Icon indicating play video](../media/video-icon.png)  Watch this video to learn more about the Power Apps and Power Automate visuals in Power BI.
 
 >[!VIDEO https://www.microsoft.com/videoplayer/embed/RE4HnAz]
 
