@@ -1,4 +1,4 @@
-Microsoft Defender Antivirus helps protect your computer from spyware, malware, and viruses. Microsoft Defender Antivirus also is Hyper-V-aware, which means that can detect wshether Windows is running as a virtual machine. Microsoft Defender Antivirus uses definitions to determine if software it detects is unwanted, and it alerts you to potential risks. To help keep definitions up to date, Microsoft Defender Antivirus automatically installs new definitions as they are released.
+Microsoft Defender Antivirus helps protect your computer from spyware, malware, and viruses. Microsoft Defender Antivirus also is Hyper-V-aware, which means that can detect whether Windows is running as a virtual machine. Microsoft Defender Antivirus uses definitions to determine if software it detects is unwanted, and it alerts you to potential risks. To help keep definitions up to date, Microsoft Defender Antivirus automatically installs new definitions as they're released.
 
 :::image type="content" source="../media/windows-10-virus-threat-0ace05bb.png" alt-text="Screenshot showing virus and threat protection status, with no current threats.":::
 
@@ -55,18 +55,18 @@ Microsoft Defender includes automatic scanning options that provide regular scan
 :::row-end:::
 
 
-As a best practice, you should schedule a daily Quick scan. At any time, if you suspect that spyware has infected a computer, run a Full scan. When you run a scan, the progress displays on the Microsoft Defender Home page. When Microsoft Defender detects a potentially harmful file, it moves the file to a quarantine area, and it does not allow it to run or allow other processes to access it. Once the scan is complete, you can perform the following steps. You can select **Remove or Restore Quarantined items** and to maintain the Allowed list, and then a list of Quarantined items is available from the Settings page. Select **View** to see all items. Review each item, and then individually **Remove** or **Restore** each. Alternatively, if you want to remove all Quarantined items, select **Remove All**.
+As a best practice, you should schedule a daily Quick scan. At any time, if you suspect that spyware has infected a computer, run a Full scan. When you run a scan, the progress displays on the Microsoft Defender Home page. When Microsoft Defender detects a potentially harmful file, it moves the file to a quarantine area, and it doesn't allow it to run or allow other processes to access it. Once the scan is complete, you can perform the following steps. You can select **Remove or Restore Quarantined items** and to maintain the Allowed list, and then a list of Quarantined items is available from the Settings page. Select **View** to see all items. Review each item, and then individually **Remove** or **Restore** each. Alternatively, if you want to remove all Quarantined items, select **Remove All**.
 
 > [!NOTE]
-> Do not restore software with severe or high alert ratings because it can put your privacy and your computer’s security at risk.
+> Don't restore software with severe or high alert ratings because it can put your privacy and your computer’s security at risk.
 
 If you trust detected software, stop Microsoft Defender from alerting you to risks that the software might pose by adding it to the Allowed list. If you decide to monitor the software later, remove it from the Allowed list.
 
-The next time Microsoft Defender alerts you about software that you want to include in the Allowed list, you can perform the following steps. In the **Alert** dialog box, on the Action menu, select **Allow**, and then select **Apply actions**. Review and remove software that you have allowed from the **Excluded files and locations** list on the **Settings** page.
+The next time Microsoft Defender alerts you about software that you want to include in the Allowed list, you can perform the following steps. In the **Alert** dialog box, on the Action menu, select **Allow**, and then select **Apply actions**. Review and remove software that you've allowed from the **Excluded files and locations** list on the **Settings** page.
 
 By using Microsoft Defender Offline, you can boot and run a scan from a trusted environment, rather than running Microsoft Defender Antivirus from a fully booted Windows environment. Microsoft Defender Offline runs separate from the Windows kernel and can target malware that bypasses the Windows shell, including malware that may infect or overwrite a computer’s master boot record (MBR). Microsoft Defender Offline can be launched with a single button from the Microsoft Defender Antivirus client.
 
-Microsoft Defender Antivirus includes 12 Windows PowerShell cmdlets that you can use to perform a variety of tasks. The following table lists these cmdlets.
+Microsoft Defender Antivirus includes 12 Windows PowerShell cmdlets that you can use to perform various tasks. The following table lists these cmdlets.
 
 :::row:::
   :::column:::
