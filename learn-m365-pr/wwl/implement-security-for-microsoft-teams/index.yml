@@ -3,9 +3,9 @@ uid: learn.wwl.implement-security-for-microsoft-teams
 metadata:
   title: Implement security for Microsoft Teams
   description: "Implement security for Microsoft Teams"
-  ms.date: 10/09/2021
+  ms.date: 03/07/2022
   author: wwlpublish
-  ms.author: tfrink
+  ms.author: jennyche
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Implement security for Microsoft Teams
@@ -33,7 +33,7 @@ units:
 - learn.wwl.implement-security-for-microsoft-teams.configure-conditional-access-multifactor-authentication
 - learn.wwl.implement-security-for-microsoft-teams.configure-safe-attachments
 - learn.wwl.implement-security-for-microsoft-teams.configure-safe-links
-- learn.wwl.implement-security-for-microsoft-teams.examine-cloud-app-security
+- learn.wwl.implement-security-for-microsoft-teams.examine-defender-cloud-app
 - learn.wwl.implement-security-for-microsoft-teams.monitor-security-reports
 - learn.wwl.implement-security-for-microsoft-teams.knowledge-check
 - learn.wwl.implement-security-for-microsoft-teams.summary

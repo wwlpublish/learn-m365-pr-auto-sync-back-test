@@ -3,7 +3,7 @@ uid: learn.wwl.manage-hybrid-deployment-life-cycle
 metadata:
   title: Manage the hybrid deployment life cycle
   description: Manage the hybrid deployment life cycle
-  ms.date: 03/04/2022
+  ms.date: 03/09/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -23,8 +23,10 @@ levels:
 roles:
 - administrator
 products:
-- azure-active-directory
 - m365
+- office
+- office-365
+- office-exchange-server
 modules:
 - learn.wwl.explore-exchange-hybrid-deployment-requirements
 - learn.wwl.plan-configure-hybrid-deployment-using-hybrid-configuration-wizard

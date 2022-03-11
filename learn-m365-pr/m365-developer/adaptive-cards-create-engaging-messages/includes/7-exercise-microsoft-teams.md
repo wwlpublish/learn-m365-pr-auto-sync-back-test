@@ -25,7 +25,7 @@ You'll use Node.js to create custom Microsoft Teams tabs in this module. The exe
 - NPM (installed with Node.js) - v6.\* (or higher)
 - [Gulp](https://gulpjs.com/) - v4.\* (or higher)
 - [Yeoman](https://yeoman.io/) - v3.\* (or higher)
-- [Yeoman Generator for Microsoft Teams](https://github.com/OfficeDev/generator-teams) - v3.2.0 (or higher)
+- [Yeoman Generator for Microsoft Teams](https://github.com/OfficeDev/generator-teams) - v3.5.0 (or higher)
 - [Visual Studio Code](https://code.visualstudio.com)
 
 You must have the minimum versions of these prerequisites installed on your workstation.
@@ -48,7 +48,7 @@ Yeoman will launch and ask you a series of questions. Answer the questions with 
 - **Where do you want to place the files?**: Use the current folder
 - **Title of your Microsoft Teams App project?**: Adaptive Cards Task Modules
 - **Your (company) name? (max 32 characters)**: Contoso
-- **Which manifest version would you like to use?**: v1.10
+- **Which manifest version would you like to use?**: v1.11
 - **Quick scaffolding**: Yes
 - **What features do you want to add to your project?**: A Tab
 - **The URL where you will host this solution?**: (Accept the default option)
@@ -77,7 +77,7 @@ Before customizing the tab, let's test the tab to see the initial developer expe
 From the command line, navigate to the root folder for the project and execute the following command:
 
 ```console
-gulp ngrok-serve
+gulp ngrok-serve --debug
 ```
 
 This gulp task will run many other tasks all displayed within the command-line console. The **ngrok-serve** task builds your project and starts a local web server (http://localhost:3007). It then starts ngrok with a random subdomain that creates a secure URL to your local webserver.
@@ -107,7 +107,7 @@ Using the app bar navigation menu, select the **More added apps** button. Then s
 
 ![Screenshot of More added apps dialog in Microsoft Teams](../media/07-yo-teams-05.png)
 
-On the **Apps** page, select **Upload a custom app** > **Upload for me or my teams**.
+On the **Apps** page, select **Manage your apps** > **Upload a custom app**.
 
 In the file dialog that appears, select the Microsoft Teams package in your project. This app package is a ZIP file that can be found in the project's **./package** folder.
 
@@ -115,7 +115,7 @@ In the file dialog that appears, select the Microsoft Teams package in your proj
 > If the **./package** folder is not present, this means you are affected by a bug in the yoteams-deploy package. To resolve the issue:
 > - Stop the local web server by pressing <kbd>CTRL</kbd>+<kbd>C</kbd> in the console.
 > - Install the preview version of the **yoteams-deploy** package using the command `npm install yoteams-deploy@preview`
-> - Restart the server process: `gulp ngrok-serve`
+> - Restart the server process: `gulp ngrok-serve --debug`
 
 Once the package is uploaded, Microsoft Teams will display a summary of the app. Here you can see some "todo" items to address. *None of these "todo" items are important to this exercise, so you'll leave them as is.*
 
@@ -209,12 +209,12 @@ At this point, our Microsoft Teams app, implemented as a custom person tab is se
 From the command line, navigate to the root folder for the project and execute the following command:
 
 ```console
-gulp ngrok-serve
+gulp ngrok-serve --debug
 ```
 
 The ngrok subdomain will change when the ngrok process is restarted. Re-add the app to Teams, following the same steps as before:
 - Using the app bar navigation menu, select the **More added apps** button. Then select **More apps**.
-- On the **Apps** page, select **Upload a custom app** > **Upload for me or my teams**. In the file dialog that appears, select the Microsoft Teams package in your project. (This app package is a ZIP file that can be found in the project's **./package** folder.)
+- On the **Apps** page, select **Manage your apps** > **Upload a custom app**. In the file dialog that appears, select the Microsoft Teams package in your project. (This app package is a ZIP file that can be found in the project's **./package** folder.)
 - Once the package is uploaded, Microsoft Teams will display a summary of the app. Select the **Add** button to install the app, adding a new personal tab to your **More added apps** dialog.
 - Select the app to navigate to the new tab.
 
@@ -295,7 +295,7 @@ const appRoot = (): string => {
   } else {
     return window.location.protocol + "//" + window.location.host;
   }
-}
+};
 ```
 
 Next, add the following code to the `onShowVideo` method:
@@ -319,7 +319,7 @@ This code will create a new `taskInfo` object with the details of the task modul
 From the command line, navigate to the root folder for the project and execute the following command:
 
 ```console
-gulp ngrok-serve
+gulp ngrok-serve --debug
 ```
 
 Re-add the app as above. Select the **Show video** button. Microsoft Teams will load the video player task module with the specified video loaded in the embedded player:
@@ -441,7 +441,7 @@ const taskModuleInfo = {
 From the command line, navigate to the root folder for the project and execute the following command:
 
 ```console
-gulp ngrok-serve
+gulp ngrok-serve --debug
 ```
 
 Refresh the Microsoft Teams interface and select the button **Change Video ID**. Microsoft Teams will open a task module with the rendered Adaptive Card:

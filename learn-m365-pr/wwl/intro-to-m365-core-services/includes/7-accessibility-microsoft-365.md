@@ -2,9 +2,7 @@ There are no limits to what people can achieve when technology reflects the dive
 
 At Microsoft, our mission is to empower every person and every organization on the planet to achieve more. With more than 1 billion people in the world with disabilities, there is no limit to what people can achieve when technology reflects the diversity of all those who use it.
 
-|||
-| :--- | :--- |
-| ![Icon indicating play video](../media/video-icon.png)| Watch this video to learn more about Microsoft's approach to accessibility.|
+![Icon indicating play video](../media/video-icon.png) Watch this video to learn more about Microsoft's approach to accessibility.
 
 >[!VIDEO https://www.microsoft.com/videoplayer/embed/RE3WSd3]
 

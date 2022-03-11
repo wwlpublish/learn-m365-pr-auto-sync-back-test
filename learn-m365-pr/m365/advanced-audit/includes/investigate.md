@@ -56,7 +56,7 @@ Search-UnifiedAuditLog -StartDate 05/13/2020 -EndDate 05/14/2020 -UserIds meganb
 
 Here are the values used in the example:
 
-|   |   |
+| Parameter  | Value  |
 |---|---|
 |  `StartDate` | `05/13/2020`  |
 |  `EndDate` |  `05/14/2020` |
@@ -72,7 +72,7 @@ Search-UnifiedAuditLog -StartDate 05/13/2020 -EndDate 05/14/2020 -UserIds meganb
 
 Here are the values used in the example:
 
-|   |   |
+| Parameter  | Value  |
 |---|---|
 |  `StartDate` | `05/13/2020`  |
 |  `EndDate` |  `05/14/2020` |
@@ -101,7 +101,7 @@ Search-MailboxAuditLog -Identity meganb -StartDate 05/13/2020 -EndDate 05/14/202
 
 Here are the values used in the example:
 
-|   |   |
+| Parameter  | Value  |
 |---|---|
 |  `StartDate` | `05/13/2020`  |
 |  `EndDate` |  `05/14/2020` |
