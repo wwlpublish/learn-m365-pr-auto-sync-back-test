@@ -1,8 +1,8 @@
-Windows does not authenticate or encrypt connections made from one computer to another, by default. However, by configuring and using connection security rules, you can verify the identity of each computer that is communicating. You also can encrypt the connection between those computers, and then ensure that no tampering has occurred with respect to the transmission between the two computers.
+Windows doesn't authenticate or encrypt connections made from one computer to another, by default. However, by configuring and using connection security rules, you can verify the identity of each computer that is communicating. You also can encrypt the connection between those computers, and then ensure that no tampering has occurred with respect to the transmission between the two computers.
 
 #### Objectives
 
-After completing this module, you will be able to:
+After completing this module, you'll be able to:
 
  -  Describe the purpose and functionality of IPsec.
  -  Describe how to configure IPsec.
