@@ -18,7 +18,7 @@ To recap, the process is very similar as shown above:
 
  
 
-    [![Search for Edge in the App Store, from Microsoft Endpoint Manager](../media/unit5-intune-mobile-step2v2.png)](../media/unit5-intune-mobile-step2v2.png#lightox)
+    [![Select iOS store app, from Microsoft Endpoint Manager.](../media/unit5-intune-mobile-step2v2.png)](../media/unit5-intune-mobile-step2v2.png#lightox)
 
     *Search for Edge in the App Store, from Microsoft Endpoint Manager*
 
@@ -28,7 +28,7 @@ To recap, the process is very similar as shown above:
 
  
 
-    [![Search for Edge in the App Store, from Microsoft Endpoint Manager](../media/unit5-intune-mobile-step3v2.png)](../media/unit5-intune-mobile-step3v2.png#lightbox)
+    [![Search for Edge in the App Store, from Microsoft Endpoint Manager.](../media/unit5-intune-mobile-step3v2.png)](../media/unit5-intune-mobile-step3v2.png#lightbox)
 
     *Search for Edge in the App Store, from Microsoft Endpoint Manager*
 

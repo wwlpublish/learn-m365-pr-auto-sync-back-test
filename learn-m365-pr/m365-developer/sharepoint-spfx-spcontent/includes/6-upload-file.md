@@ -3,7 +3,7 @@ So far in this module, we’ve explored how to work with content in SharePoint F
 > [!NOTE]
 > A previous version of this exercise demonstrated how to use mock data within your web part when testing the component in the SharePoint local workbench. However, the local workbench was removed in the SharePoint Framework release v1.13. The mock data exercise was retired in favor of the common scenario to upload files to document libraries with the SharePoint Framework.
 
-## Differences from document libraries vs SharePoint lists
+## Differences between SharePoint document libraries and SharePoint lists
 
 In a previous unit in this module, you learned how to read and write to SharePoint lists with the SharePoint Framework using the SharePoint REST API. Working with document libraries is similar to working with lists, but there are some differences.
 

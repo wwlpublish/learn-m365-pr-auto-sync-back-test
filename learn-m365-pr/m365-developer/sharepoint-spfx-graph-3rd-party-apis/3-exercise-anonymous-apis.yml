@@ -3,7 +3,7 @@ uid: learn-m365.sharepoint-spfx-graph-3rd-party-apis.3-exercise-anonymous-apis
 metadata:
   title: Exercise - Call anonymous third-party REST APIs
   description: "In this exercise, you'll create a new SharePoint Framework project with a single client-side web part that uses React to display the results from a call to an anonymous third-party API: the NASA Image REST API."
-  ms.date: 12/08/2021
+  ms.date: 03/07/2022
   author: andrewconnell-msft
   ms.author: suzanz
   ms.topic: interactive-tutorial

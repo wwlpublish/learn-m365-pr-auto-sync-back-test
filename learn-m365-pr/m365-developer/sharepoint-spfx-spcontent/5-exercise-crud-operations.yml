@@ -3,7 +3,7 @@ uid: learn-m365.sharepoint-spfx-spcontent.5-exercise-crud-operations
 metadata:
   title: Exercise - Write operations using the SharePoint Framework APIs and SharePoint REST API
   description: In this exercise, you'll extend the SharePoint Framework project from the previous exercise to add write capabilities using the SharePoint REST API.
-  ms.date: 09/13/2021
+  ms.date: 03/07/2022
   author: andrewconnell-msft
   ms.author: suzanz
   ms.topic: interactive-tutorial

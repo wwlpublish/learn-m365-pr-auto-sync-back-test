@@ -55,7 +55,7 @@ quiz:
     - content: Through Active Directory Users and Groups. 
       isCorrect: false 
       explanation: "That's incorrect. When the value of **OnPremLineURIManuallySet** is false, you can use Active Directory Users and Computers to manage a user's phone number." 
-    - content: "Set-CsUser -Identity <User name> -OnPremLineURI <new_tel_value>" 
+    - content: "Set-CsUser -Identity 'User name' -OnPremLineURI 'new_tel_value'" 
       isCorrect: true 
       explanation: "That's correct. You can only use the **Set-CsUser** cmdlet to configure a user's phone number when **OnPremLineURIManuallySet** is true."
     - content: Edit the number in the SBC. 

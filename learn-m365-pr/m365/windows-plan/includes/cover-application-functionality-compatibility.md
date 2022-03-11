@@ -37,7 +37,7 @@ You'll detail who is responsible for assigning an application owner, and who sho
 
 | |End-user computing  |Application developers  |Process manager  |
 |---------|---------|---------|---------|
-|Assign application owner     |Responsible|Consulted|Informed|
+|**Assign application owner**|Responsible|Consulted|Informed|
 
 ## Outputs
 
