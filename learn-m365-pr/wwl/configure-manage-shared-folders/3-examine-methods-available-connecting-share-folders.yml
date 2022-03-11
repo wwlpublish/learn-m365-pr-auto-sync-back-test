@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.configure-manage-shared-folders.examine-methods-available-connecting-share-folders
+title: Examine methods available for connecting to share folders
+metadata:
+  title: Examine methods available for connecting to share folders
+  description: "Examine methods available for connecting to share folders"
+  ms.date: 03/10/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 4
+content: |
+  [!include[](includes/3-examine-methods-available-connecting-share-folders.md)]
