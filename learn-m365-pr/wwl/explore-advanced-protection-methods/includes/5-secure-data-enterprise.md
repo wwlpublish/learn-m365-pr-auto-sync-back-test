@@ -4,11 +4,11 @@ Windows includes many security features specifically targeted at large organizat
 
 ### Windows Device Health Attestation
 
-Windows Device Health Attestation ensures that the OS has not been tampered with or compromised and helps verify the overall health of the system. Certain services (like Exchange e-mail, SharePoint, or AAD membership) take advantage of this service and can disallow access until a Windows Enterprise edition PC meets certain qualifications.
+Windows Device Health Attestation ensures that the OS has not been tampered with or compromised and helps verify the overall health of the system. Certain services (like Exchange e-mail, SharePoint, or Azure AD membership) take advantage of this service and can disallow access until a Windows Enterprise edition PC meets certain qualifications.
 
-For example, when a user tries to join a new Windows PC to the AAD, the Microsoft-hosted directory service, conditional access can verify the integrity of the PC using Windows Device Health Attestation and then ensure that BitLocker, Secure Boot, or Virtualization-Based Security features like Credential Guard are enabled. If a user elects to not allow these settings to be configured, access to the requested resource is denied.
+For example, when a user tries to join a new Windows PC to the Azure AD, the Microsoft-hosted directory service, conditional access can verify the integrity of the PC using Windows Device Health Attestation and then ensure that BitLocker, Secure Boot, or Virtualization-Based Security features like Credential Guard are enabled. If a user elects to not allow these settings to be configured, access to the requested resource is denied.
 
-This functionality requires the use of “modern authentication.” Modern authentication is the name Microsoft uses to describe the AAD Authentication Library (ADAL) for clients and other technologies that implement authentication using OAuth 2.0 and Open ID connect protocols. Microsoft has built these technologies natively into Windows and Office and into Microsoft-hosted services such as Microsoft 365.
+This functionality requires the use of “modern authentication.” Modern authentication is the name Microsoft uses to describe the Azure AD Authentication Library (ADAL) for clients and other technologies that implement authentication using OAuth 2.0 and Open ID connect protocols. Microsoft has built these technologies natively into Windows and Office and into Microsoft-hosted services such as Microsoft 365.
 
 ### Windows Information Protection
 
