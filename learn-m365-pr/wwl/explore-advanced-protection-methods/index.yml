@@ -1,0 +1,41 @@
+### YamlMime:Module
+uid: learn.wwl.explore-advanced-protection-methods
+metadata:
+  title: Explore advanced protection methods
+  description: "This module explores additional tools used to provide additional layers of security within an organization."
+  ms.date: 03/11/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Explore advanced protection methods
+summary: This module explores additional tools used to provide additional layers of security within an organization.
+abstract: |
+  After completing this module, you'll be able to:
+  - Describe the features and use of the Security Compliance Toolkit
+  - Describe the features of AppLocker
+  - Describe methods of securing data in the enterprise
+  - Describe the benefits and features of Microsoft Defender for Endpoint
+prerequisites: |
+  - Students should have a basic understanding of computer networks and hardware concepts.
+  - Students should have a basic understanding of OS and Application concepts.
+  - Students should have experience with using Windows 10 or later.
+iconUrl: /learn/achievements/generic-badge.svg
+hidden: true
+levels:
+- beginner
+roles:
+- administrator
+products:
+- windows
+units:
+- learn.wwl.explore-advanced-protection-methods.introduction
+- learn.wwl.explore-advanced-protection-methods.explore-security-compliance-toolkit
+- learn.wwl.explore-advanced-protection-methods.use-applocker-control-applications
+- learn.wwl.explore-advanced-protection-methods.use-applocker-control-universal-windows-platform-apps
+- learn.wwl.explore-advanced-protection-methods.secure-data-enterprise
+- learn.wwl.explore-advanced-protection-methods.understand-microsoft-defender-endpoint
+- learn.wwl.explore-advanced-protection-methods.knowledge-check
+- learn.wwl.explore-advanced-protection-methods.summary
+badge:
+  uid: learn.wwl.explore-advanced-protection-methods.badge
