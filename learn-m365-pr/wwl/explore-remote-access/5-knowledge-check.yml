@@ -1,0 +1,64 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.explore-remote-access.knowledge-check
+title: Knowledge check
+metadata:
+  title: Knowledge check
+  description: "Knowledge check"
+  ms.date: 03/04/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 5
+content: |
+  [!include[](includes/5-knowledge-check.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "Which of the following characteristics of VPN connections allows data to traverse the transit network?"
+    choices:
+    - content: "Authentication"
+      isCorrect: false
+      explanation: "Incorrect. Authentication ensures that the two communicating parties know with whom they are communicating. Try again."
+    - content: "Data encryption"
+      isCorrect: false
+      explanation: "Incorrect. To ensure data confidentiality as the data traverses the shared or public transit network, the sender encrypts the data and the receiver decrypts it. Try again."
+    - content: "Encapsulation"
+      isCorrect: true
+      explanation: "Correct. With VPN technology, private data is encapsulated with a header that contains routing information, which allows the data to traverse the transit network."
+  - content: "Which of the following items is a common disadvantage to using traditional VPNs?"
+    choices:
+    - content: "You must enroll clients and then connect the clients to your on-premises securely through several network changes"
+      isCorrect: false
+      explanation: "Incorrect. This is an Always On VPN feature. Try again."
+    - content: "All network traffic is tunneled over the VPN"
+      isCorrect: true
+      explanation: "Correct. Traditional VPNs are an “all or nothing” solution. Once connected, all network traffic is tunneled over the VPN. This can lead to large amounts of bandwidth on the organization’s network being consumed when it isn’t necessary. The most notable example being remote users who frequently use publicly accessible websites and resources. They may need VPN access for one or two tasks, but inadvertently pass all internet traffic over the organization’s network instead of directly through the end user’s ISP."
+    - content: "It requires IPv6 and that clients be domain-joined"
+      isCorrect: false
+      explanation: "Incorrect. This is a disadvantage of Direct Access. Try again."
+  - content: "Fabrikam's current VPN solution only supports IPv6, and its clients must be domain-joined. What VPN solution can Fabrikam migrate to that uses either IPv4 of IPv6 and supports non-domain joined devices?"
+    choices:
+    - content: "Always On VPN"
+      isCorrect: true
+      explanation: "Correct. Direct Access is Fabrikam's current VPN solution, since it requires IPv6 and that clients be domain-joined. Always On VPN is the successor to Direct Access. It can use either IPv4 or IPv6, and supports non-domain joined devices. Always On VPN also provides more granular controls over how traffic is routed and support for conditional access policies."
+    - content: "Direct Access"
+      isCorrect: false
+      explanation: "Incorrect. Fabrikam's current solution only supports IPv6, and its clients must be domain-joined. These are the features of Direct Access. Try again."
+    - content: "Conditional Access Framework"
+      isCorrect: false
+      explanation: "Incorrect. Conditional Access Framework is a security feature that provides additional security for your remote access connections. Try again."
+  - content: "Contoso wants to provide additional security for its remote access connections. Specifically, it wants to protect enterprise data against leakage and unauthorized use. To do so, what feature should Contoso integrate its VPN client with?"
+    choices:
+    - content: "Microsoft Defender for Cloud Apps"
+      isCorrect: false
+      explanation: "Incorrect. This product enables user application access and sessions to be monitored and controlled in real time, increasing visibility and control over access to and activities done within your cloud environment. Try again."
+    - content: "Azure AD Conditional Access Framework"
+      isCorrect: false
+      explanation: "Incorrect. Conditional Access policies allow you to build conditions that manage security controls that can block access, require multifactor authentication, or restrict the user’s session when needed. Try again."
+    - content: "Windows Information Protection"
+      isCorrect: true
+      explanation: "Correct. Windows Information Protection is a feature that uses a number of technologies (including BitLocker Drive Encryption, AppLocker, and Microsoft Azure Rights Management) to protect enterprise data against leakage and unauthorized use. It relies on Microsoft Intune, Microsoft Endpoint Configuration Manager, or another third-party MDM solution to create and deploy policies that you use to specify protected apps, and to apply desired protection levels to your data."
+interactive: bash

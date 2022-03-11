@@ -12,9 +12,7 @@ With both the Microsoft Power Apps Studio and the Power Virtual Agents Portal em
 
 With an environment for each Team and no limit on the number of applications, Microsoft Dataverse for Teams enables a simplified sharing model for Teams owners and members, all with immediate access to the data. Rely on built-in security and governance that works and was proven through Microsoft Dataverse. Microsoft Dataverse for Teams provides access and security roles granted automatically through Teams membership, but customizable by Teams owners. Easily create and share chatbots with one-click deployment using your organization’s subject matter expertise and Microsoft Dataverse for Teams data.
 
-|||
-| :--- | :--- |
-| ![Icon indicating play video](../media/video-icon.png)| Watch this video to learn more about how Microsoft Dataverse for Teams and Microsoft Teams empower everyone to be a developer using low-code tools.|
+![Icon indicating play video](../media/video-icon.png) Watch this video to learn more about how Microsoft Dataverse for Teams and Microsoft Teams empower everyone to be a developer using low-code tools.
 
 >[!VIDEO https://www.microsoft.com/videoplayer/embed/RE4HsBV]
 

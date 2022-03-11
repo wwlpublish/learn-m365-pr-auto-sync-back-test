@@ -1,0 +1,48 @@
+### YamlMime:Module
+uid: learn.wwl.manage-storage-windows-clients
+metadata:
+  title: Manage storage on Windows clients
+  description: "This module describes some of the different storage technologies, including different types of server-based and cloud-based storage. This module will also cover considerations for configuring storage for use in Windows client."
+  ms.date: 03/04/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Manage storage on Windows clients
+summary: This module describes some of the different storage technologies, including different types of server-based and cloud-based storage. This module will also cover considerations for configuring storage for use in Windows client.
+abstract: |
+  After completing this module, you will be able to:
+  - Describe the different ways to access storage.
+  - Explain the difference between network-attached storage (NAS) and storage area networks (SANs).
+  - Compare MBR and GUID partition table (GPT) disks.
+  - Describe how to convert a basic disk to a dynamic disk.
+  - Describe the tools available for managing disks.
+  - Describe a simple volume.
+  - Describe mirrored, spanned, and striped volumes.
+  - Create volumes, resize, and manage volumes.
+prerequisites: |
+  - Students should have a basic understanding of computer networks and hardware concepts.
+  - Students should have a basic understanding of OS and Application concepts.
+  - Students should have experience with using Windows 10 or later.
+iconUrl: /learn/achievements/generic-badge.svg
+hidden: true
+levels:
+- beginner
+roles:
+- administrator
+products:
+- windows
+units:
+- learn.wwl.manage-storage-windows-clients.introduction
+- learn.wwl.manage-storage-windows-clients.understand-storage-options
+- learn.wwl.manage-storage-windows-clients.examine-network-cloud-storage-options
+- learn.wwl.manage-storage-windows-clients.describe-master-boot-record-grid-partition-table-partitions
+- learn.wwl.manage-storage-windows-clients.describe-dynamic-disks
+- learn.wwl.manage-storage-windows-clients.explore-disk-management-tools
+- learn.wwl.manage-storage-windows-clients.describe-simple-volumes
+- learn.wwl.manage-storage-windows-clients.compare-mirrored-spanned-striped-volumes
+- learn.wwl.manage-storage-windows-clients.manage-existing-volumes
+- learn.wwl.manage-storage-windows-clients.knowledge-check
+- learn.wwl.manage-storage-windows-clients.summary
+badge:
+  uid: learn.wwl.manage-storage-on-windows-clients.badge

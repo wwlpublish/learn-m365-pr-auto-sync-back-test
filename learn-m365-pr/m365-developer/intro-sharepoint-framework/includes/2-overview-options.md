@@ -33,6 +33,7 @@ The SharePoint Framework enables developers to create different types of custom 
 - Client-side web parts
 - Extensions
 - Libraries
+- Adaptive Card Extensions (ACEs)
 
 ### Client-side web parts
 
@@ -115,12 +116,27 @@ Command sets enable you to add buttons to list and library toolbars or to the co
 
 The other two types of components previously covered, web parts and extensions, enable developers to extend and customize the SharePoint user experience. This third option, the library component, differs from those other types in that it's used to share code across multiple components projects.
 
-The library component is developer tool that enables developers to create a single package of reusable code that's independency versioned & deployed from your other components. These reusable code packages are deployed a single time to SharePoint Online tenant app catalog and served automatically for SharePoint Framework components.
+The library component is developer tool that enables developers to create a single package of reusable code that's independency versioned & deployed from your other components. These reusable code packages are deployed a single time to SharePoint Online tenant app catalog ad served automatically for SharePoint Framework components.
 
 Library components give developers an alternative option to create shared code, which can be then used and referenced cross all the components in the tenant.
 
 > [!NOTE]
 > Library components are only supported in SharePoint Online.
+
+### Adaptive Card Extensions
+
+Developers can extend Microsoft Viva Connections for building engaging experiences with the widely adopted SharePoint Framework (SPFx). Viva Connections is your gateway to a modern employee experience where you can build and integrate apps that shape culture and foster connections to help employees thrive.
+
+With SPFx, you have multiple ways to extend – using the same out-of-the-box or custom SPFx web parts, SPFx extensions (for example header, footer), and specific components for optimized mobile experiences.
+
+The Viva Connections Dashboard is the digital toolset for your employees. You can create a curated experience using dashboard cards to give your employees access to their most critical content and tools.
+
+The cards are designed to enable quick task completion by interacting with a card directly or by opening a quick view.
+
+![Screenshot of the Viva Connections dashboards](../media/02-viva-connections-dashboard-overview.jpeg)
+
+> [!NOTE]
+> Adaptive Card Extensions (ACEs) are only supported in Viva Connections.
 
 ## SharePoint Framework availability
 
