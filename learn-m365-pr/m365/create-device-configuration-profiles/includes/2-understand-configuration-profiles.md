@@ -24,7 +24,7 @@ A profile type is a device configuration area, feature, or capability that conta
 
 ## Device credentials
 
-In an environment where smart cards are required for authentication or encryption and signing, you can use Intune to provision mobile devices with a certificate that's derived from a user's smart card. That certificate is called a [derived credential](/mem/intune/protect/derived-credentials?azure-portal=true). Intune [supports several derived credential issuers](mem/intune/protect/derived-credentials##supported-issuers), though you can use only a single issuer per tenant at a time. Derived credentials are commonly used with device configuration profile types such as Wi-Fi, VPN, app authentication, Email, or S/MIME signing and encryption. However, each platform that supports derived credentials has a different set of supported device configuration settings.
+In an environment where smart cards are required for authentication or encryption and signing, you can use Intune to provision mobile devices with a certificate that's derived from a user's smart card. That certificate is called a [derived credential](/mem/intune/protect/derived-credentials?azure-portal=true). Intune [supports several derived credential issuers](/mem/intune/protect/derived-credentials##supported-issuers), though you can use only a single issuer per tenant at a time. Derived credentials are commonly used with device configuration profile types such as Wi-Fi, VPN, app authentication, Email, or S/MIME signing and encryption. However, each platform that supports derived credentials has a different set of supported device configuration settings.
 
 ## Device restrictions
 

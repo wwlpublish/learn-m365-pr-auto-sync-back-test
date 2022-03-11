@@ -1,7 +1,5 @@
 In addition to the fundemental configuration profiles, you should consider adding more involved device configuration profiles. The following information describes these types of enhanced configuration profiles. Later in this module, you'll step through the process of adding these more involved profiles to Intune. Unlike the fundemental configuration profiles that most organizations should add, these profiles should be added as needed.
 
-https://docs.microsoft.com/en-us/mem/intune/configuration/device-profile-create
-
 ## Derived credentials
 
 As previously mentioned, you can use Intune to provision mobile devices with a certificate that's derived from a user's smart card. That certificate is called a derived credential. Derived credentials are commonly used with device configuration profile types such as Wi-Fi, VPN, app authentication, Email, or S/MIME signing and encryption. However, each platform that supports derived credentials has a different set of supported device configuration settings.
@@ -27,7 +25,7 @@ For more information, see [Use derived credentials with Microsoft Intune](/mem/i
 
 ## Domain join
 
-Many environments use on-premises Active Directory (AD). When AD domain-joined devices are also joined to Azure AD, they're called hybrid Azure AD joined devices. Using Windows Autopilot, you can [enroll hybrid Azure AD joined devices](../../autopilot/windows-autopilot-hybrid.md) in Intune. To enroll, you also need a **Domain Join** configuration profile.
+Many environments use on-premises Active Directory (AD). When AD domain-joined devices are also joined to Azure AD, they're called hybrid Azure AD joined devices. Using Windows Autopilot, you can [enroll hybrid Azure AD joined devices](/mem/autopilot/windows-autopilot-hybrid) in Intune. To enroll, you also need a **Domain Join** configuration profile.
 
 A **Domain Join** configuration profile includes on-premises Active Directory domain information. When devices are provisioning (and typically offline), this profile deploys the AD domain details so devices know which on-premises domain to join. If you don't create a domain join profile, these devices might fail to deploy.
 
@@ -57,7 +55,7 @@ To be successful, you'll use the following configurations in concert:
 - **Use a device compliance policy to set the level of risk you want to allow**. Risk levels are reported by Microsoft Defender for Endpoint. Devices that exceed the allowed risk level are identified as noncompliant.
 - **Use a conditional access policy** to block users from accessing corporate resources from devices that are noncompliant.
 
-When you integrate Intune with Microsoft Defender for Endpoint, you can take advantage of Microsoft Defender for Endpoints Threat & Vulnerability Management (TVM) and [use Intune to remediate endpoint weakness identified by TVM](atp-manage-vulnerabilities.md).
+When you integrate Intune with Microsoft Defender for Endpoint, you can take advantage of Microsoft Defender for Endpoints Threat & Vulnerability Management (TVM) and [use Intune to remediate endpoint weakness identified by TVM](/mem/intune/protect/atp-manage-vulnerabilities).
 
 ## Manage Android Enterprise devices with OEMConfig
 
