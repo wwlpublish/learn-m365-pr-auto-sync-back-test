@@ -20,7 +20,7 @@ Content downloaded to the device is automatically protected by WIP, and only app
 
 WIP will provide encryption at rest using Microsoft's Encrypting File System (EFS) and also use the Microsoft-hosted Azure Rights Management Services functionality, which is included with Microsoft 365, to protect the data when the data egresses outside of the corporate network boundary or when it arrives on non-Windows platforms, such as iOS and Android.
 
-### VPN Profiles
+### VPN profiles
 
 Windows offers finer-grained control of virtual private network (VPN) software on the client through VPN profiles. Windows offers configuration of Microsoft and select third-party VPN profiles on client computers using Group Policy, Intune, or third-party MDM. Centrally configuring VPN profiles can help provide good defaults for network traffic from applications and devices that the organization would like to protect.
 

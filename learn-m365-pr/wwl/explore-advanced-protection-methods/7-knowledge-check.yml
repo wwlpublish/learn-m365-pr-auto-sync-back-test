@@ -4,7 +4,7 @@ title: Knowledge check
 metadata:
   title: Knowledge check
   description: "Knowledge check"
-  ms.date: 03/03/2022
+  ms.date: 03/11/2022
   author: wwlpublish
   ms.author: brhinkel
   ms.topic: interactive-tutorial
@@ -49,7 +49,7 @@ quiz:
       explanation: "Incorrect. Leveraging big-data, machine-learning, and unique Microsoft optics across the Windows ecosystem, enterprise cloud products (such as Microsoft 365), and online assets - behavioral signals are translated into insights, detections, and recommended responses to advanced threats. Try again."
     - content: "Endpoint behavioral sensors"
       isCorrect: false
-      explanation: "Incorrect. mbedded in Windows, these sensors collect and process behavioral signals from the operating system and sends this sensor data to your private, isolated, cloud instance of Microsoft Defender for Endpoint. Try again."
+      explanation: "Incorrect. Embedded in Windows, these sensors collect and process behavioral signals from the operating system and sends this sensor data to your private, isolated, cloud instance of Microsoft Defender for Endpoint. Try again."
   - content: "Which Microsoft Defender for Endpoint feature protects Windows kernel-mode processes against the injection and execution of malicious or unverified code?"
     choices:
     - content: "Microsoft Defender Application Guard"

@@ -1,6 +1,6 @@
 To enable AppLocker restrictions for the Universal Windows apps, you must configure the appropriate Group Policy settings by performing the following procedure:
 
-1.  Open the **Local Group Policy editor** (gpedit.msc).
+1.  Open the **Local Group Policy Editor** (gpedit.msc).
 2.  Under **Local Computer Policy**, in the left pane, navigate to **Computer Configuration\\Windows Settings\\Security Settings\\Application Control Policies\\AppLocker**, and then select **Packaged app Rules**.
 3.  Right-click **Packaged app Rules**, and then select **Create New Rule**.
 4.  Use the **Create Packaged App Rules Wizard** to configure the application restriction policy with the following settings:
