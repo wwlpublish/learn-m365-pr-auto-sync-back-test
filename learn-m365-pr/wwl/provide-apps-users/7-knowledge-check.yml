@@ -4,7 +4,7 @@ title: Knowledge check
 metadata:
   title: Knowledge check
   description: "Knowledge check"
-  ms.date: 03/04/2022
+  ms.date: 03/11/2022
   author: wwlpublish
   ms.author: brhinkel
   ms.topic: interactive-tutorial
@@ -28,7 +28,7 @@ quiz:
     - content: "Virtualized applications"
       isCorrect: false
       explanation: "Incorrect. Microsoft Application Virtualization (App-V) can make applications available on desktop computers without installing the applications directly. Try again."
-  - content: "As the Desktop Adminitstrator for Northwind Traders, you want to deploy Microsoft 365 using the same deployment method that you used to deploy desktop apps. This method will provide native integration for deployment of Microsoft 365. It will also provide extensive control over installation, updates, and settings. Which deployment option is this?"
+  - content: "As the Desktop Administrator for Northwind Traders, you want to deploy Microsoft 365 using the same deployment method that you used to deploy desktop apps. This method will provide native integration for deployment of Microsoft 365. It will also provide extensive control over installation, updates, and settings. Which deployment option is this?"
     choices:
     - content: "Configuration Manager"
       isCorrect: true
@@ -41,7 +41,7 @@ quiz:
       explanation: "Incorrect. The ODT is a command-line tool that you can use to download and customize your deployment of Microsoft 365 Apps. The ODT can be used to customize and manage Click-to-run deployments as well. Try again."
   - content: "You need to plan and perform an automated desktop app deployment. You want to determine the best deployment method for your organization. You were initially interested in using Group Policy, but one potential drawback has you concerned. Which of the following items is that drawback?"
     choices:
-    - content: "You can't assign apps to usersor computers"
+    - content: "You can't assign apps to users or computers"
       isCorrect: false
       explanation: "Incorrect. Actually, group policy software deployment supports assigning apps to users or computers. Try again."
     - content: "It can be difficult to determine whether a deployment is successful"
@@ -61,7 +61,7 @@ quiz:
     - content: "Apps that you deploy from .msi packages are more likely to uninstall cleanly"
       isCorrect: true
       explanation: "Correct. Because of the way that Windows Installer packages manage changes to an operating system, apps that you deploy from an MSI package are more likely to uninstall cleanly than those that you deploy by using apps installers in EXE files. A \"clean\" uninstall means that no \"artifacts\" related to the uninstalled app are left behind. This is important from an app-management perspective, because the ability to remove an app cleanly, without leaving any trace of it on a device, is as important as installing it correctly in the first place."
-  - content: "Which of the following items is a benefit of using Univeral Windows Platform (UWP) apps as compared to desktop apps (Win32 apps)?"
+  - content: "Which of the following items is a benefit of using Universal Windows Platform (UWP) apps as compared to desktop apps (Win32 apps)?"
     choices:
     - content: "UWP apps can be uninstalled without leaving artifacts like desktop apps typically do when they're uninstalled"
       isCorrect: true
