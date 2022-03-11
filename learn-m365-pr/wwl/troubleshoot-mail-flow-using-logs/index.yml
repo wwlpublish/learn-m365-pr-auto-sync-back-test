@@ -3,7 +3,7 @@ uid: learn.wwl.troubleshoot-mail-flow-using-logs
 metadata:
   title: Troubleshoot mail flow using logs
   description: "Troubleshoot mail flow using logs"
-  ms.date: 12/09/2021
+  ms.date: 03/09/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -22,8 +22,10 @@ levels:
 roles:
 - administrator
 products:
-- azure-active-directory
 - m365
+- office
+- office-365
+- office-exchange-server
 units:
 - learn.wwl.troubleshoot-mail-flow-using-logs.introduction
 - learn.wwl.troubleshoot-mail-flow-using-logs.troubleshoot-message-tracking-logs

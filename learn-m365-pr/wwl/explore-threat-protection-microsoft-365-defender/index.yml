@@ -3,7 +3,7 @@ uid: learn.wwl.explore-threat-protection-microsoft-365-defender
 metadata:
   title: Explore threat protection in Microsoft 365 Defender
   description: "Explore threat protection in Microsoft 365 Defender"
-  ms.date: 12/09/2021
+  ms.date: 03/09/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -24,8 +24,10 @@ levels:
 roles:
 - administrator
 products:
-- azure-active-directory
 - m365
+- office
+- office-365
+- office-exchange-server
 units:
 - learn.wwl.explore-threat-protection-microsoft-365-defender.introduction
 - learn.wwl.explore-threat-protection-microsoft-365-defender.examine-threat-protection

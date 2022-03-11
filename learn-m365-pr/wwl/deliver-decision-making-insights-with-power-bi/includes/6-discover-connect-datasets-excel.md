@@ -2,9 +2,7 @@ While publishing your data into Power BI gives you and your team an easy way to 
 
 Now, you’ll be able to discover Power BI tables available to you through the data types gallery in Excel. You can then convert your cells into data types. Once cells have been converted into linked data types, you can then extract additional information to work within your spreadsheets. When you import data into your spreadsheet, you’ll have the option to transform that data into a data type. From here, you can pull in, clean up and curate, and transform that data into custom data types according to your needs and preferences. These data types live within the workbook you’re building, allowing you to simplify large volumes of data and make it easier for others in the organization to consume. But the additional data is connected and available whenever it’s needed.
 
-|||
-| :--- | :--- |
-| ![Icon indicating play video](../media/video-icon.png)| Watch this video to learn more about Power BI datasets in Excel.|
+![Icon indicating play video](../media/video-icon.png)  Watch this video to learn more about Power BI datasets in Excel.
 
 >[!VIDEO https://www.microsoft.com/videoplayer/embed/RE4HuXN]
 

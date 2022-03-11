@@ -3,7 +3,7 @@ uid: learn.wwl.design-your-public-folder-hierarchy
 metadata:
   title: Design your public folder hierarchy
   description: "Design your public folder hierarchy"
-  ms.date: 11/25/2021
+  ms.date: 03/09/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -19,14 +19,16 @@ abstract: |
   *   Evaluate alternatives to public folders.
 prerequisites: |
   None
-iconUrl: /learn/achievements/generic-badge.svg
+iconUrl: /learn/achievements/1-design-your-public-folder-hierarchy.svg
 levels:
 - intermediate
 roles:
 - administrator
 products:
-- azure-active-directory
 - m365
+- office
+- office-365
+- office-exchange-server
 units:
 - learn.wwl.design-your-public-folder-hierarchy.introduction
 - learn.wwl.design-your-public-folder-hierarchy.explore-public-folders-exchange

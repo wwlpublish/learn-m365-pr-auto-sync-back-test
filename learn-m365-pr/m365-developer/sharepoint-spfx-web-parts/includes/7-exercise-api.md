@@ -12,7 +12,7 @@ At the top of the file, locate the following line:
 import { Version } from '@microsoft/sp-core-library';
 ```
 
-Update this line to the following to import an additional enumeration into the file:
+Update this line to the following:
 
 ```typescript
 import {
