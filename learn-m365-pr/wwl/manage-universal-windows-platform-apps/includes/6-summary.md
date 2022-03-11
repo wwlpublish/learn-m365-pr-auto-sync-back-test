@@ -1,4 +1,4 @@
-The Microsoft Store provides a convienent portal for browsing and installing applications. Microsoft Store for Buiness is the current solution for providing organizations with a tool for managing apps with Windows 10 devices. For Windows 11, Endpoint Manager is used to manage the delivery of Microsoft Store applications. Applications can be assigned or blocked based on organizational policies.
+The Microsoft Store provides a convenient portal for browsing and installing applications. Microsoft Store for Business is the current solution for providing organizations with a tool for managing apps with Windows 10 devices. For Windows 11, Endpoint Manager is used to manage the delivery of Microsoft Store applications. Applications can be assigned or blocked based on organizational policies.
 
 ### Learn more
 
