@@ -12,6 +12,6 @@ Now that you have completed this module, you can:
 - [Use Admin Submission to submit suspected spam, phish, URLs, and files to Microsoft](/microsoft-365/security/office-365-security/admin-submission)
 - [Enable the Report Message or the Report Phishing add-ins](/microsoft-365/security/office-365-security/enable-the-report-message-add-in)
 - [Report false positives and false negatives to Outlook](/microsoft-365/security/office-365-security/report-false-positives-and-false-negatives)
-- [Manually submit messages to Microsoft for analysis](/microsoft-365/security/office-365-security/submit-spam-non-spam-and-phishing-scam-messages-to-microsoft-for-analysis)
+- [Manually submit messages to Microsoft for analysis](microsoft-365/security/office-365-security/report-junk-email-messages-to-microsoft?view=o365-worldwide)
 - [Use mail flow rules to see what your users are reporting to Microsoft](/microsoft-365/security/office-365-security/use-mail-flow-rules-to-see-what-your-users-are-reporting-to-microsoft)
 - [Submit malware and non-malware to Microsoft for analysis](/microsoft-365/security/office-365-security/submitting-malware-and-non-malware-to-microsoft-for-analysis)
