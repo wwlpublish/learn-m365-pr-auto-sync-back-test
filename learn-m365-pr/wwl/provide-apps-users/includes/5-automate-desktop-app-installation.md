@@ -57,9 +57,9 @@ Endpoint Configuration Manager provides a comprehensive platform for app deploym
 
  -  **Collections**. Configuration Manager enables you to create collections that consist of manually created groups of users or computers, or collections based on the results of queries of user or computer properties. You then can target app deployment to these collections. For example, you can create a collection that includes only the computers that are located at a specific site with a certain deployed app and a specific piece of installed hardware.
  -  **Multiple deployment type**s. Configuration Manager enables you to use multiple deployment types. With this feature, you can configure a single app deployment but make it possible for that deployment to occur in different ways, depending on the conditions that apply to the target computer or user. For example, you can configure an app to install locally if a user is logged on to his or her primary device, but to stream as an App-V app if the user is logged on to another device.
-
-> [!NOTE]
-> App V, which is included in the Enterprise and Education editions of Windows. It is a Microsoft solution that allows users to run virtualized applications on their computers without having to install or configure them locally.
+    
+    > [!NOTE]
+    > App V, which is included in the Enterprise and Education editions of Windows. It is a Microsoft solution that allows users to run virtualized applications on their computers without having to install or configure them locally.
 
  -  **Reporting**. This feature enables you to determine how successful an app deployment was after its completion. Configuration Manager also enables you to simulate app deployments before performing them, enabling you to determine if any factors that you have not considered might block a successful app deployment.
  -  **Wake on LAN (WOL)**. Instead of interrupting a user with an app installation that might require a restart, which could disrupt his or her current productivity WOL functionality allows you to schedule app deployment to occur after normal business hours. Typically, users are done working during this time, and compatible computers are in a low power state.

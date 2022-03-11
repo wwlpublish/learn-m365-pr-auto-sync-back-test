@@ -17,14 +17,14 @@ content: |
 quiz:
   title: "Check your knowledge"
   questions:
-  - content: "As the Desktop Administrator for Tailspin Toys, Patti Fernandez wants to installs several desktop apps throughout the company. Patti wants to use an installation methodology that's as robust as Microsoft Endpoint Configuration Manager, but is significantly less effort to set up and manage. Patti also wants the installation method to deploy apps to non-Windows devices such as iOS, Android and MacOS, as well as deployment to unmanaged (BYOD) devices. Which deployment methodology should Patti use that meets these requirements?"
+  - content: "As the Desktop Administrator for Tailspin Toys, Patti Fernandez wants to installs several desktop apps throughout the company. Patti wants to use an installation methodology that's as robust as Microsoft Endpoint Configuration Manager, but is significantly less effort to set up and manage. Patti also wants the installation method to deploy apps to non-Windows devices such as iOS, Android and macOS, as well as deployment to unmanaged (BYOD) devices. Which deployment methodology should Patti use that meets these requirements?"
     choices:
     - content: "Group Policy"
       isCorrect: false
       explanation: "Incorrect. This method uses a Group Policy Object (GPO) to automate desktop app installation using the Windows Installer package file format (.msi file) from a network share. You can make desktop apps available for users to install via Control Panel, or you can configure desktop apps so that they install automatically for specific users, or on specific computers. Try again."
     - content: "Microsoft Intune"
       isCorrect: true
-      explanation: "Correct. Intune is Microsoft’s cloud –based solution for managing desktop and mobile devices. Intune supports deployment of UWP, AppX, and has recently added support for Win32 apps such as simple MSI files. While not as robust as Configuration Manager, Intune is significantly less effort to setup and manage. Intune also manages deployment of apps to non-Windows devices such as iOS, Android and MacOS, as well as deployment to unmanaged (BYOD) devices."
+      explanation: "Correct. Intune is Microsoft’s cloud –based solution for managing desktop and mobile devices. Intune supports deployment of UWP, AppX, and has recently added support for Win32 apps such as simple MSI files. While not as robust as Configuration Manager, Intune is significantly less effort to setup and manage. Intune also manages deployment of apps to non-Windows devices such as iOS, Android and macOS, as well as deployment to unmanaged (BYOD) devices."
     - content: "Virtualized applications"
       isCorrect: false
       explanation: "Incorrect. Microsoft Application Virtualization (App-V) can make applications available on desktop computers without installing the applications directly. Try again."
