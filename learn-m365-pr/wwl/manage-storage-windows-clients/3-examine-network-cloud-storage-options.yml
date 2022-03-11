@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.manage-storage-windows-clients.examine-network-cloud-storage-options
+title: Examine network and cloud storage options
+metadata:
+  title: Examine network and cloud storage options
+  description: "Examine network and cloud storage options"
+  ms.date: 03/04/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 4
+content: |
+  [!include[](includes/3-examine-network-cloud-storage-options.md)]

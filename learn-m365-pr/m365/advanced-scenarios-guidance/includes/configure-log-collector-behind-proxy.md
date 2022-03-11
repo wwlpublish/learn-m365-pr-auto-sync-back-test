@@ -72,7 +72,7 @@ Now that the certificate is copied into the log collector container, you must in
     ./keytool --list --keystore ../lib/security/cacerts | grep self
     ```
 
-    The list of certificates should include one named **SelfSignedCert**.
+    The list of certificates should include one named `SelfSignedCert`.
 
 ### Configure the log collector to use the new configuration
 

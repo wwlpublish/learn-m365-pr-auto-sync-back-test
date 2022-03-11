@@ -4,13 +4,12 @@ title: Explore transport rules
 metadata:
   title: Explore transport rules
   description: "Explore transport rules"
-  ms.date: 12/08/2021
+  ms.date: 03/09/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 azureSandbox: false
-sandbox: false
 labModal: false
 durationInMinutes: 5
 content: |

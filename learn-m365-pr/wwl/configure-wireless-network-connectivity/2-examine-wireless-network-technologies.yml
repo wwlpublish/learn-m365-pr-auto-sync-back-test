@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.configure-wireless-network-connectivity.examine-wireless-network-technologies
+title: Examine wireless network technologies
+metadata:
+  title: Examine wireless network technologies
+  description: "Examine wireless network technologies"
+  ms.date: 03/04/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 4
+content: |
+  [!include[](includes/2-examine-wireless-network-technologies.md)]

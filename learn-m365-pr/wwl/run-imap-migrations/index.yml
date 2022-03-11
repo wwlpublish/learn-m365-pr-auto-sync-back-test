@@ -3,7 +3,7 @@ uid: learn.wwl.run-imap-migrations
 metadata:
   title: Run IMAP migrations
   description: "Run IMAP migrations"
-  ms.date: 12/16/2021
+  ms.date: 03/09/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -13,16 +13,19 @@ summary: Examines the requirements for running an IMAP migration, the migration 
 abstract: |
   By the end of this module, you'll be able to:
   *   Describe the requirements for an IMAP migration and how it’s carried out.
-  - Move mailbox data using an IMAP migration.
-prerequisites: ""
+  *   Move mailbox data using an IMAP migration.
+prerequisites: |
+  None
 iconUrl: /learn/achievements/generic-badge.svg
 levels:
 - intermediate
 roles:
 - administrator
 products:
-- azure-active-directory
 - m365
+- office
+- office-365
+- office-exchange-server
 units:
 - learn.wwl.run-imap-migrations.introduction
 - learn.wwl.run-imap-migrations.plan-imap-migration

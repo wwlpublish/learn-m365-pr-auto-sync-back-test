@@ -3,7 +3,7 @@ uid: learn.wwl.manage-compliance-microsoft-365
 metadata:
   title: Manage compliance in Microsoft 365
   description: Manage compliance in Microsoft 365
-  ms.date: 12/09/2021
+  ms.date: 03/09/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -23,8 +23,10 @@ levels:
 roles:
 - administrator
 products:
-- azure-active-directory
 - m365
+- office
+- office-365
+- office-exchange-server
 modules:
 - learn.wwl.explore-messaging-compliance-microsoft-365
 - learn.wwl.explore-messaging-compliance-exchange

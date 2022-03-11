@@ -3,7 +3,7 @@ uid: learn.wwl.troubleshoot-public-folders
 metadata:
   title: Troubleshoot public folders
   description: "Troubleshoot public folders"
-  ms.date: 11/25/2021
+  ms.date: 03/09/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -17,14 +17,16 @@ abstract: |
   - Troubleshoot public folder access.
 prerequisites: |
   None
-iconUrl: /learn/achievements/generic-badge.svg
+iconUrl: /learn/achievements/3-troubleshoot-public-folders.svg
 levels:
 - intermediate
 roles:
 - administrator
 products:
-- azure-active-directory
 - m365
+- office
+- office-365
+- office-exchange-server
 units:
 - learn.wwl.troubleshoot-public-folders.introduction
 - learn.wwl.troubleshoot-public-folders.monitor-public-folders

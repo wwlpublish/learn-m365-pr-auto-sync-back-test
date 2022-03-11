@@ -3,7 +3,7 @@ uid: learn.wwl.manage-email-addresses,-lists,-resources
 metadata:
   title: Manage email addresses, lists, and resources
   description: "Manage email addresses, lists, and resources"
-  ms.date: 11/26/2021
+  ms.date: 03/09/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -19,14 +19,16 @@ abstract: |
   - Describe email address policies.
 prerequisites: |
   None
-iconUrl: /learn/achievements/generic-badge.svg
+iconUrl: /learn/achievements/3-manage-email-addresses-lists-and-resources.svg
 levels:
 - intermediate
 roles:
 - administrator
 products:
-- azure-active-directory
 - m365
+- office
+- office-365
+- office-exchange-server
 units:
 - learn.wwl.manage-email-addresses,-lists,-resources.introduction
 - learn.wwl.manage-email-addresses,-lists,-resources.explore-address-lists

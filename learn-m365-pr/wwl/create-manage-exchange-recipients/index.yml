@@ -3,7 +3,7 @@ uid: learn.wwl.create-manage-exchange-recipients
 metadata:
   title: Create and manage Exchange recipients
   description: "Create and manage Exchange recipients"
-  ms.date: 11/24/2021
+  ms.date: 03/09/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -19,14 +19,16 @@ abstract: |
   - Create and manage groups.
 prerequisites: |
   None
-iconUrl: /learn/achievements/generic-badge.svg
+iconUrl: /learn/achievements/2-create-and-manage-exchange-recipients.svg
 levels:
 - intermediate
 roles:
 - administrator
 products:
-- azure-active-directory
 - m365
+- office
+- office-365
+- office-exchange-server
 units:
 - learn.wwl.create-manage-exchange-recipients.introduction
 - learn.wwl.create-manage-exchange-recipients.manage-mailbox-settings

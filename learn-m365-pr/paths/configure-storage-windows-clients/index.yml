@@ -1,0 +1,31 @@
+### YamlMime:LearningPath
+uid: learn.wwl.configure-storage-windows-clients
+metadata:
+  title: Configure storage on Windows clients
+  description: Configure storage on Windows clients
+  ms.date: 03/04/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Configure storage on Windows clients
+prerequisites: |
+  - Students should have a basic understanding of computer networks and hardware concepts.
+  - Students should have a basic understanding of OS and Application concepts.
+  - Students should have experience with using Windows 10 or later.
+summary: |
+  This learning path covers storage configuration and management in Windows client.  Students will be introduced to local, cloud and virtual storage options.
+iconUrl: /learn/achievements/generic-trophy.svg
+hidden: true
+levels:
+- beginner
+roles:
+- administrator
+products:
+- windows
+modules:
+- learn.wwl.manage-storage-windows-clients
+- learn.wwl.maintain-disks-volumes
+- learn.wwl.implement-storage-spaces
+trophy:
+  uid: learn.wwl.configure-storage-windows-clients.trophy

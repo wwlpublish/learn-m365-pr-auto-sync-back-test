@@ -33,7 +33,7 @@ Users regularly experience some of the following limitations in their daily work
  -  **Recipient limit.** This limitation is the maximum number of recipients allowed in the **To**, **Cc**, and **Bcc** fields for a single email message. 500 recipients are currently supported.
  -  **Message rate limit.** Message rate limits determine how many messages a user can send from their Exchange Online account within a specified period of time. This limit helps prevent the overconsumption of system resources by a single sender. If a user submits messages through SMTP client submission at a rate that exceeds the limit, the messages will be rejected, and the client will need to retry.
 
-**Additional reading**. For more information, see [Exchange Online Limits](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits#address-book-limits-1?azure-portal=true).
+**Additional reading**. For more information, see [Exchange Online Limits](/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits#address-book-limits-1?azure-portal=true).
 
 ## Knowledge check
 
