@@ -23,7 +23,7 @@ Add items to the list by entering the names of different countries as shown in t
 Open a command prompt and change to the folder where you want to create the project.
 
 > [!IMPORTANT]
-> The instructions below assume you are using v1.13.0 of the SharePoint Framework Yeoman generator.
+> The instructions below assume you are using v1.13.1 of the SharePoint Framework Yeoman generator.
 
 Run the SharePoint Yeoman generator by executing the following command:
 
@@ -35,7 +35,6 @@ Use the following to complete the prompt that is displayed (*if additional optio
 
 - **What is your solution name?**: SpFxHttpClientDemo
 - **Only SharePoint Online (latest) is supported.  For earlier versions of SharePoint (2016 and 2019) please use the 1.4.1 version of the generator.**: SharePoint Online only (latest)
-- **Where do you want to place the files?**: Use the current folder
 - **Do you want to allow the tenant admin the choice of being able to deploy the solution to all sites immediately without running any feature deployment or adding apps in sites?**: No
 - **Will the components in the solution require permissions to access web APIs that are unique and not shared with other components in the tenant?**: No
 - **Which type of client-side component to create?**: Web Part
@@ -43,9 +42,7 @@ Use the following to complete the prompt that is displayed (*if additional optio
 - **What is your Web Part description?**: SPFxHttpClientDemo description
 - **Which framework would you like to use?** React
 
-After provisioning the folders required for the project, the generator will install all the dependency packages by running `npm install` automatically. When NPM completes downloading all dependencies, test the default project provisioned by the generator.
-
-Open the project in **Visual Studio Code**.
+After provisioning the folders required for the project, the generator will install all the dependency packages by running `npm install` automatically. When NPM completes downloading all dependencies, open the project in **Visual Studio Code**.
 
 ### Create an interface for the SharePoint list items
 
@@ -249,13 +246,11 @@ The SharePoint Framework's gulp **serve** task with the **nobrowser** switch wil
 
 Wait for the **reload** subtask to finish executing. At this point, the web part will be ready for testing.
 
-Navigate to the SharePoint Online site where you created the **Countries** list, and load the hosted workbench at **https://[sharepoint-online-site]/_layouts/workbench.aspx**.
+Open a browser and navigate to the SharePoint Online site where you created the **Countries** list. Append the **/_layouts/workbench.aspx** to the end of the site's URL to open the SharePoint-hosted workbench.
 
-Add the web part to the page: Select the **Add a new web part** control...
+![Screenshot of the SharePoint Workbench](../media/03-add-webpart-01.png)
 
-![Screenshot of the SharePoint workbench](../media/03-add-webpart-01.png)
-
-Then search for **spfxhttp** select the **SPFxHttpClientDemo** web part to add the web part to the page.
+Select the web part icon button to open the list of available web parts, and select the **SPFxHttpClientDemo** web part from the **Local** section:
 
 ![Screenshot of the SharePoint workbench - web part gallery](../media/03-add-webpart-02.png)
 

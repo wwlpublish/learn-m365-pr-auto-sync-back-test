@@ -10,6 +10,6 @@ After completing this module, you'll be able to:
 
 - Configure Safe Links for Microsoft Teams.
 
-- Examine the Cloud App Security.
+- Examine the Microsoft Defender for Cloud Apps.
 
 - Describe security reports for Microsoft Teams.

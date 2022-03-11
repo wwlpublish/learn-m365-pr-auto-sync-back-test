@@ -249,16 +249,18 @@ gulp trust-dev-cert
 Start the local web server and test the web part in the hosted workbench:
 
 ```console
-gulp serve
+gulp serve --nobrowser
 ```
 
-The browser will loads the local workbench, but you can't use this for testing because there's no SharePoint context in the local workbench. Instead, navigate to the SharePoint Online site where you created the **Countries** list, and load the hosted workbench at **https://[sharepoint-online-site]/_layouts/workbench.aspx**.
+The SharePoint Framework's gulp **serve** task with the **nobrowser** switch will build the project and start a local web server.
 
-Add the web part to the page: Select the **Add a new web part** control...
+Wait for the **reload** subtask to finish executing. At this point, the web part will be ready for testing.
 
-![Screenshot of the SharePoint workbench](../media/03-add-webpart-01.png)
+Open a browser and navigate to the SharePoint Online site where you created the **Countries** list. Append the **/_layouts/workbench.aspx** to the end of the site's URL to open the SharePoint-hosted workbench.
 
-Then search for **spfxhttp** select the **SPFxHttpClientDemo** web part to add the web part to the page.
+![Screenshot of the SharePoint Workbench](../media/03-add-webpart-01.png)
+
+Select the web part icon button to open the list of available web parts, and select the **SPFxHttpClientDemo** web part from the **Local** section:
 
 ![Screenshot of the SharePoint workbench - web part gallery](../media/03-add-webpart-02.png)
 
@@ -272,7 +274,7 @@ Select the **Add List item** button and scroll to the end of the results returne
 
 ![Screenshot of the web part with the new item](../media/05-add-item.png)
 
-Ensure there's an item in the list with the title equal to **United States**. 
+Ensure there's an item in the list with the title set to **United States**. 
 
 ![Screenshot of the web part before updating an item](../media/05-update-item-01.png)
 

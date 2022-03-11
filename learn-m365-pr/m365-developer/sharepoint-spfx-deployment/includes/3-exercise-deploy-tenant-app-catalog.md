@@ -1,7 +1,7 @@
 In this exercise, you'll create a SharePoint Framework (SPFx) client-side web part that will be used to try different deployment configurations.
 
 > [!IMPORTANT]
-> The instructions below assume you are using v1.13.0 of the SharePoint Framework Yeoman generator.
+> The instructions below assume you are using v1.13.1 of the SharePoint Framework Yeoman generator.
 
 Open a command prompt and change to the folder where you want to create the project. Run the SharePoint Yeoman generator by executing the following command:
 
@@ -13,7 +13,6 @@ Use the following to complete the prompt that is displayed (*if additional optio
 
 - **What is your solution name?**: DeploymentDemo
 - **Only SharePoint Online (latest) is supported. For earlier versions of SharePoint (2016 and 2019) please use the 1.4.1 version of the generator.**: SharePoint Online only (latest)
-- **Where do you want to place the files?**: Use the current folder
 - **Do you want to allow the tenant admin the choice of being able to deploy the solution to all sites immediately without running any feature deployment or adding apps in sites?**: No
 - **Will the components in the solution require permissions to access web APIs that are unique and not shared with other components in the tenant?**: No
 - **Which type of client-side component to create?**: WebPart
@@ -83,9 +82,9 @@ Select the web part icon button to open the list of available web parts:
 
 ![Screenshot of adding the web part to the page - web part gallery](../media/03-deploy-step-05.png)
 
-Select the expand icon, a diagonal line with two arrows in the top-right corner, to expand the web part toolbox.
+Select the **Sort and filter** dropdown under the **Search** box, and select **Advanced** under **Filter by category**.
 
-Scroll to the bottom, locate, and select the **Deployment Demo** web part.
+Select the **Deployment Demo** web part in the **Advanced** section.
 
 ![Screenshot of adding the web part to the page - selecting web part](../media/03-deploy-step-06.png)
 

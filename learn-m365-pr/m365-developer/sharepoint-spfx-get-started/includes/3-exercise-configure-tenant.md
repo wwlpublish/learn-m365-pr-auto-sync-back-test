@@ -24,11 +24,11 @@ When the new page opens, select **App Catalog**.
 >
 > ![Screenshot of the app catalog creation options](../media/03-app-catalog-05.png)
 
-Select the **Automatically create a new app catalog site** option if you want SharePoint to create the app catalog site for you, or select the **Manually create a new app catalog site (classic)** option if you wish to configure the app catalog site settings prior to the site creation. 
+You have two options to create an app catalog. You can have it created for you automatically or you can create it manually. The manual option enables you to configure the app catalog site settings prior to the site creation.  
 
-Select the **OK** button.
+If you want to have the app catalog created for you automatically, select the **Automatically create a new app catalog site** option and select the **OK** button. 
 
-If you selected the **Create a new app catalog site** option, then on the **Create App Catalog Site Collection** page, enter the following details, and select **OK**.
+If you want to create the app catalog manually, select the **Create a new app catalog site** option and select the **OK** button. Then on the **Create App Catalog Site Collection** page, enter the following details, and select **OK**.
 
 - **Title**: App Catalog
 - **Web Site Address (suffix)**: appcatalog
@@ -48,23 +48,26 @@ On the **SharePoint admin center** site, select **Sites > Active sites** from th
 
 ![Screenshot of the Active sites list](../media/03-new-site-collection-01.png)
 
-On the **Create a site** panel, select the **Other options** button.
+On the **Create a site** panel, select the **Team site** button.
 
 ![Screenshot of the Create a site panel](../media/03-new-site-collection-02.png)
 
-On the **Other options** panel, keep the default value of **Team site** in the **Choose a template** dropdown and then enter the following values to create a new team site collection and select **Finish**.
+On the **Create a team site** panel, enter the following values to create a new team site collection and select **Next**.
 
 - **Site name**: Developer Site
-- **Site address**: ../sites/DeveloperSite
 - **Primary administrator**: *use the people picker to select your account*
-- **Select a language**: English
+- **Select a language**: *select the default language for your site*
 
-![Screenshot of the Other options panel](../media/03-new-site-collection-03.png)
+![Screenshot of the Create a team site panel](../media/03-new-site-collection-03.png)
+
+On the **Add site owners and members**, you may optionally add owners and members to the site. Select **Finish**.
+
+![Screenshot of the Add site owners and members panel](../media/03-new-site-collection-04.png)
 
 > [!NOTE]
 > After a minute or two the site collection will be created. On the **SharePoint admin center** site, select the **Sites > Active Sites** item in the left-hand navigation. You'll see a list of all *classic* and *modern* sites including the **Developer site** that you just created.
 >
-> ![Screenshot of the Active sites list - Created site](../media/03-new-site-collection-04.png)
+> ![Screenshot of the Active sites list - Created site](../media/03-new-site-collection-05.png)
 
 ## Summary
 
