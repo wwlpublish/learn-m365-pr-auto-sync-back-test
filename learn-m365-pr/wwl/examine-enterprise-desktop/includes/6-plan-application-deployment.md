@@ -28,17 +28,17 @@ Application life-cycle support usually involves deploying new applications, inst
 
 Organizations have several options for choosing how to deliver applications. Applications can be installed automatically (such as during deployment, based on user group memberships) or through a portal, where users choose to install applications on-demand. Consideration should also be given on whether the organization will support access to applications and data on personal devices. Most common scenarios include the ability to access work e-mail using Outlook on a mobile phone but can also include the ability for users to install LOB apps on personal devices as well.
 
-**Microsoft Store for Business**
+#### Microsoft Store for Business
 
 The Microsoft Store for Business is a Microsoft Azure–based portal for finding, distributing, and managing applications in an enterprise. You can filter applications by device, such as phone, Surface Hub, IoT, and HoloLens. You can develop line-of-business (LOB) applications and publish them through the Microsoft Store for Business so that they are available only to your organization. The Microsoft Store for Business may not be available in all locations.
 
 > [!NOTE]
 > The Microsoft Store for Business will be retired in Q1 2023. Organizations will be able to host and manage their own private stores using solutions such as Microsoft Intune to deploy private applications. More on this will be announced in early 2022.
 
-**Microsoft Endpoint Manager**
+#### Microsoft Endpoint Manager
 
 Microsoft Endpoint Manager is a suite of tools for centralized device deployment and management. Customers can choose to manage their app deployments using Microsoft Intune and Microsoft Endpoint Configuration Manager. Endpoint Manager supports a wide variety of application installation types. This includes common apps such as Office, application package deployment, line-of-business (LOB) apps, Microsoft Store for Business apps, and curation of built-in apps. Endpoint Manager also supports application policies to protect data in BYOD scenarios and ensuring that only devices that meet compliance rules can access application data.
 
-**Virtual Application Delivery**
+#### Virtual Application Delivery
 
 Virtual application delivery can be beneficial when the client is unable to run the application. Applications are installed on a server and delivered remotely using Remote Desktop Services. Azure Virtual Desktop can deliver an entire desktop experience to a client. These solutions can also be used in scenarios where installing the application isn't practical or desired, such as providing temporary access to a contractor.

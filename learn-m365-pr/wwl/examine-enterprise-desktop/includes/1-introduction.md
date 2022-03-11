@@ -4,7 +4,7 @@ Traditional management methods frequently struggle to accommodate these new scen
 
 The enterprise deployment life cycle is a framework for identifying the processes and tasks required to deploy and manage an organization’s desktops. This includes the initial planning of the entire deployment lifecycle, desktop acquisition, the deployment process itself, and post-deployment management. The lifecycle also includes how the deployment is to be supported, including upgrades, and how it will eventually be retired.
 
-#### Module objectives
+#### Objectives
 
 After completing this module, you will be able to:
 
