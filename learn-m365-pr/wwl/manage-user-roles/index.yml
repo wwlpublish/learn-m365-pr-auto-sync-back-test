@@ -3,7 +3,7 @@ uid: learn.wwl.manage-user-roles
 metadata:
   title: Manage user roles
   description: "Manage user roles"
-  ms.date: 12/15/2021
+  ms.date: 03/09/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -22,8 +22,10 @@ levels:
 roles:
 - administrator
 products:
-- azure-active-directory
 - m365
+- office
+- office-365
+- office-exchange-server
 units:
 - learn.wwl.manage-user-roles.introduction
 - learn.wwl.manage-user-roles.implement-user-role-assignment-policies

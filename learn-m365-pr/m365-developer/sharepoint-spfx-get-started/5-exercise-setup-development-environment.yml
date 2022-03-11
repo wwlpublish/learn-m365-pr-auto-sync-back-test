@@ -3,7 +3,7 @@ uid: learn-m365.sharepoint-spfx-get-started.5-exercise-setup-development-environ
 metadata:
   title: Exercise - Configure your SharePoint Framework development environment
   description: In this exercise, you set up your local developer environment with everything you need to start creating SharePoint Framework components.
-  ms.date: 12/11/2021
+  ms.date: 03/08/2022
   author: andrewconnell-msft
   ms.author: suzanz
   ms.topic: interactive-tutorial
@@ -17,13 +17,13 @@ quiz:
   questions:
   - content: "What are the minimum tools you must install in your development environment to build SharePoint Framework components?"
     choices:
-    - content: "Node.js, Gulp, Yeoman, and the Yeoman generator for the SharePoint Framework."
+    - content: "Node.js, Gulp-cli, Yeoman, and the Yeoman generator for the SharePoint Framework."
       isCorrect: true
       explanation: "Correct!"
-    - content: "Microsoft .NET Core, Node.js, Gulp, Yeoman, and the Yeoman generator for the SharePoint Framework."
+    - content: "Microsoft .NET Core, Node.js, Gulp-cli, Yeoman, and the Yeoman generator for the SharePoint Framework."
       isCorrect: false
       explanation: "Microsoft .NET Core isn't required."
-    - content: "Node.js, Gulp, and Yeoman"
+    - content: "Node.js, Gulp-cli, and Yeoman"
       isCorrect: false
       explanation: "You also need to install the Yeoman generator for the SharePoint Framework."
   - content: "What purpose does Gulp serve in the build toolchain?"

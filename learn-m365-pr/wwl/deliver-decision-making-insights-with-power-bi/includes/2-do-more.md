@@ -4,9 +4,7 @@ How we share and consume data must transform as well. Since Power BI was made ge
 
 Power BI continues to advance the state of the art in leveraging artificial intelligence (AI) and machine learning (ML) to help business users and business analysts extract insights from both structured and unstructured data. Power BI has a comprehensive set of AI capabilities in the industry – helping our customers analyze text and images, build automated machine learning models, interact with their data simply by asking questions, and automatically detect patterns in their data – all through highly interactive visual experiences.
 
-|||
-| :--- | :--- |
-| ![Icon indicating play video](../media/video-icon.png)| Watch this video to learn how Power BI helps drive a data culture, where every team and individual can make more insightful, data-driven decisions.|
+![Icon indicating play video](../media/video-icon.png)  Watch this video to learn how Power BI helps drive a data culture, where every team and individual can make more insightful, data-driven decisions.
 
 >[!VIDEO https://www.microsoft.com/videoplayer/embed/RE4HxD7]
 

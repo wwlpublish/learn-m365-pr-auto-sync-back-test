@@ -3,7 +3,7 @@ uid: learn.wwl.troubleshoot-hybrid-deployments
 metadata:
   title: Troubleshoot hybrid deployments
   description: "Troubleshoot hybrid deployments"
-  ms.date: 12/14/2021
+  ms.date: 03/09/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -19,14 +19,16 @@ abstract: |
   - Troubleshoot the Mailbox Replication service.
 prerequisites: |
   None
-iconUrl: /learn/achievements/generic-badge.svg
+iconUrl: /learn/achievements/5-troubleshoot-hybrid-deployments.svg
 levels:
 - intermediate
 roles:
 - administrator
 products:
-- azure-active-directory
 - m365
+- office
+- office-365
+- office-exchange-server
 units:
 - learn.wwl.troubleshoot-hybrid-deployments.introduction
 - learn.wwl.troubleshoot-hybrid-deployments.troubleshoot-directory-synchronization

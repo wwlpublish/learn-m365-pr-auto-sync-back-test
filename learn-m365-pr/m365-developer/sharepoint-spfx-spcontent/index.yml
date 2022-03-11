@@ -3,13 +3,13 @@ uid: learn-m365.sharepoint-spfx-spcontent
 metadata:
   title: Work with SharePoint Content using the SharePoint Framework
   description: Learn how to work with SharePoint content in SharePoint Framework projects.
-  ms.date: 12/10/2021
+  ms.date: 03/07/2022
   author: andrewconnell-msft
   ms.author: suzanz
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Work with SharePoint Content using the SharePoint Framework
-summary: This module will introduce you to working with SharePoint content in SharePoint Framework projects. You'll learn about the SharePoint REST API, do CRUD operations with SharePoint data, the local workbench, and creating mock data in SharePoint Framework.
+summary: This module will introduce you to working with SharePoint content in SharePoint Framework projects. You'll learn about the SharePoint REST API, do CRUD operations with SharePoint data, the hosted workbench, and creating mock data in SharePoint Framework.
 abstract: |
   By the end of this module, you'll be able to:
   - Demonstrate how to read and write list data using the SharePoint REST API

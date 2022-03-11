@@ -1,0 +1,16 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.implement-storage-spaces.examine-features-storage-spaces
+title: Examine features of Storage Spaces
+metadata:
+  title: Examine features of Storage Spaces
+  description: "Examine features of Storage Spaces"
+  ms.date: 03/03/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+azureSandbox: false
+labModal: false
+durationInMinutes: 2
+content: |
+  [!include[](includes/3-examine-features-storage-spaces.md)]

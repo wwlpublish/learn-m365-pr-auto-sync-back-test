@@ -3,7 +3,7 @@ uid: learn.wwl.configure-message-transport
 metadata:
   title: Configure message transport
   description: "Configure message transport"
-  ms.date: 12/08/2021
+  ms.date: 03/09/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -23,8 +23,10 @@ levels:
 roles:
 - administrator
 products:
-- azure-active-directory
 - m365
+- office
+- office-365
+- office-exchange-server
 units:
 - learn.wwl.configure-message-transport.introduction
 - learn.wwl.configure-message-transport.options

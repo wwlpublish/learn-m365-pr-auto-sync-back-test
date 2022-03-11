@@ -1,14 +1,14 @@
 ### YamlMime:ModuleUnit
 uid: learn-m365.sharepoint-spfx-web-parts.5-exercise-test-workbench
 metadata:
-  title: Exercise - Testing with the local and hosted SharePoint Workbench
+  title: Exercise - Testing with the hosted SharePoint Workbench
   description: "In this exercise, you'll work with the two different versions of the SharePoint Workbench: the local & hosted workbench, as well as the different modes of the built-in gulp serve task."
-  ms.date: 12/08/2021
+  ms.date: 03/07/2022
   author: andrewconnell-msft
   ms.author: suzanz
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
-title: Exercise - Testing with the local and hosted SharePoint Workbench
+title: Exercise - Testing with the hosted SharePoint Workbench
 durationInMinutes: 15
 content: |
   [!include[](includes/5-exercise-test-workbench.md)]
@@ -23,10 +23,10 @@ quiz:
     - content: "The local workbench is free, while the SharePoint-hosted workbench requires a special developer license."
       isCorrect: false
       explanation: "Neither workbenches have a licensing requirement."
-    - content: "The local workbench doesn't have a real SharePoint context because it runs off a local web server. The SharePoint-hosted workbench runs in a real SharePoint environment and does have a real SharePoint context."
+    - content: "The local workbench is only supported up through SPFx v1.12.1, while the hosted workbench is supported in all versions of SPFx."
       isCorrect: true
       explanation: "Correct!"
-  - content: "How can you configure a project to load the SharePoint-hosted workbench instead of the local workbench when you run gulp serve?"
+  - content: "How can you configure a project to load the SharePoint-hosted workbench when you run gulp serve?"
     choices:
     - content: "Set the `initialPage` property in the serve.json config file to the URL of the SharePoint-hosted workbench you want to load when the browser opens."
       isCorrect: true
@@ -34,6 +34,3 @@ quiz:
     - content: "Include the `--url https://{your-sharepoint-site/_layouts/workbench.aspx` when you run the gulp serve task."
       isCorrect: false
       explanation: "There's no `--url` argument for the gulp serve task."
-    - content: "You can't; the gulp serve task always opens the local workbench."
-      isCorrect: false
-      explanation: "You can configure the initial page loaded in the browser in the serve.json config file."

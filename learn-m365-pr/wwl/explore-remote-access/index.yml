@@ -1,0 +1,38 @@
+### YamlMime:Module
+uid: learn.wwl.explore-remote-access
+metadata:
+  title: Explore remote access
+  description: "This module explores how Windows clients can connect to resource over public networks using virtual private networks."
+  ms.date: 03/04/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Explore remote access
+summary: This module explores how Windows clients can connect to resource over public networks using virtual private networks.
+abstract: |
+  After completing this module, you will be able to:
+  *   Describe how to use VPNs to connect to a remote network.
+  *   Explain how Always On VPN can help remote users connect.
+  *   Discuss the considerations of enabling remote access for your users.
+prerequisites: |
+  - Students should have a basic understanding of computer networks and hardware concepts.
+  - Students should have a basic understanding of OS and Application concepts.
+  - Students should have experience with using Windows 10 or later.
+iconUrl: /learn/achievements/generic-badge.svg
+hidden: true
+levels:
+- beginner
+roles:
+- administrator
+products:
+- windows
+units:
+- learn.wwl.explore-remote-access.introduction
+- learn.wwl.explore-remote-access.explore-virtual-private-networks
+- learn.wwl.explore-remote-access.create-vpn-connection-windows-client
+- learn.wwl.explore-remote-access.describe-always-on-vpn
+- learn.wwl.explore-remote-access.knowledge-check
+- learn.wwl.explore-remote-access.summary
+badge:
+  uid: learn.wwl.explore-remote-access.badge
