@@ -1,8 +1,6 @@
 Many times, we see users use PowerPoint, text boxes, interactive headers, or custom visuals to add narrative to their data.  All these options either lack interactive data, interactive and customizable text, or useful automatic insights.
 
-|||
-| :--- | :--- |
-| ![Icon indicating play video](../media/video-icon.png)| Watch this video to learn how the Smart narrative visualization helps you quickly summarize visuals and reports by providing relevant out-of-the-box insights that are customizable.|
+![Icon indicating play video](../media/video-icon.png)  Watch this video to learn how the Smart narrative visualization helps you quickly summarize visuals and reports by providing relevant out-of-the-box insights that are customizable.
 
 >[!VIDEO https://www.microsoft.com/videoplayer/embed/RE4HnCi]
 

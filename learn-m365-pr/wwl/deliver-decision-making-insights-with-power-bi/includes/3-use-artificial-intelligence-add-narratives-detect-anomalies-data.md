@@ -4,9 +4,7 @@ Many times, we see users use PowerPoint, text boxes, interactive headers, or cus
 
 With Smart narratives, creators can add narratives to their report to address key takeaways, point out trends, and edit the language and format it to fit a specific audience. Instead of pasting a screenshot of their report in PowerPoint with key takeaways added, they can now add narratives to the report that are updated with every refresh. You can use the narratives to understand their data, get to the key points faster, and explain the data to others.
 
-|||
-| :--- | :--- |
-| ![Icon indicating play video](../media/video-icon.png)| Watch this video to learn more about two new capabilities in Power BI: Smart narratives and anomaly detection.|
+![Icon indicating play video](../media/video-icon.png)  Watch this video to learn more about two new capabilities in Power BI: Smart narratives and anomaly detection.
 
 >[!VIDEO https://www.microsoft.com/videoplayer/embed/RE4HuXU]
 

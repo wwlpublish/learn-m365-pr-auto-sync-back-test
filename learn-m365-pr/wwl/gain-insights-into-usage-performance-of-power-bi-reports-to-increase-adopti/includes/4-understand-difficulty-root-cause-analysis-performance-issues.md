@@ -22,9 +22,7 @@ Azure Monitor Log Analytics is a feature of Azure Monitor that collects and orga
 
 - Cost effective when compared to other logging and monitoring solutions.
 
-|||
-| :--- | :--- |
-| ![Icon indicating play video](../media/video-icon.png)| Watch this video to learn more about the insight challenge and Azure Monitor Log Analytics.|
+![Icon indicating play video](../media/video-icon.png)  Watch this video to learn more about the insight challenge and Azure Monitor Log Analytics.
 
 >[!VIDEO https://www.microsoft.com/videoplayer/embed/RE4HuYV]
 

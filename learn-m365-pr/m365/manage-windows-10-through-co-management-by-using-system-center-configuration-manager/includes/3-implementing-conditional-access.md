@@ -9,9 +9,7 @@ With co-management, Intune evaluates every device in your network to determine h
 
 Conditional Access also provides you with a centralized place to see the health of all network-connected devices, and you get the advantages of cloud scale – which is especially valuable for testing ConfigMgr production instances.
 
-|||
-| :--- | :--- |
-| :::image type="icon" source="../media/video-icon.png"::: | Watch this video to learn more about the security benefits of conditional access and why you should implement conditional access policies in your organization.|
+:::image type="icon" source="../media/video-icon.png":::  Watch this video to learn more about the security benefits of conditional access and why you should implement conditional access policies in your organization.
 
 >[!VIDEO https://www.youtube.com/embed/5NLBNtEhGB8]
 
