@@ -13,7 +13,7 @@ The simplest way to remove a problematic update is to uninstall it. To remove an
 
 #### Uninstall drivers
 
-If you suspect a driver to be problematic, you can uninstall the driver. To uninstall a unwanted driver:
+If you suspect a driver to be problematic, you can uninstall the driver. To uninstall an unwanted driver:
 
 1.  Open **Device Manager**.
 2.  Locate the device driver with the problem driver installed, right select it, and then select **Uninstall**.

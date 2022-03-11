@@ -4,7 +4,7 @@ title: Knowledge check
 metadata:
   title: Knowledge check
   description: "Knowledge check"
-  ms.date: 03/04/2022
+  ms.date: 03/11/2022
   author: wwlpublish
   ms.author: brhinkel
   ms.topic: interactive-tutorial
@@ -60,7 +60,7 @@ quiz:
       explanation: "Incorrect. This value isn't the maximum deferral period for quality updates. Try again."
     - content: "365 days"
       isCorrect: false
-      explanation: "Incorrect. This value isn't themaximum deferral period for quality updates. Try again."
+      explanation: "Incorrect. This value isn't the maximum deferral period for quality updates. Try again."
   - content: "Your organization requires that updates are controlled and deferred. You want to utilize the service updates with Windows. Which servicing tool will allow you to perform centralized management using Group Policy or Microsoft Intune?"
     choices:
     - content: "Windows Update"
