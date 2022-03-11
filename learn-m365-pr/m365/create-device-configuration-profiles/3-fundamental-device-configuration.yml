@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn.create-device-configuration.fundamental-device-configuration
+title: Basic device configuration
+metadata:
+  unitType: learning-content
+  title: Basic device configuration
+  description: Basic device configuration
+  ms.date: 02/03/2022 
+  author: Erikre 
+  ms.author: erikre 
+  ms.topic: interactive-tutorial 
+  ms.prod: learning-endpoint-manager
+durationInMinutes: 3
+content: |
+  [!include[](includes/3-fundamental-device-configuration.md)]

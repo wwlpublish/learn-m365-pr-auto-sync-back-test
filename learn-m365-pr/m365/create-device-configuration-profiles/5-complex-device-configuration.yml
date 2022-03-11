@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn.create-device-configuration.complex-device-configuration
+title: Complex device configuration
+metadata:
+  unitType: learning-content
+  title: Complex device configuration
+  description: Complex device configuration
+  ms.date: 02/03/2022 
+  author: Erikre 
+  ms.author: erikre 
+  ms.topic: interactive-tutorial 
+  ms.prod: learning-endpoint-manager
+durationInMinutes: 3
+content: |
+  [!include[](includes/5-complex-device-configuration.md)]

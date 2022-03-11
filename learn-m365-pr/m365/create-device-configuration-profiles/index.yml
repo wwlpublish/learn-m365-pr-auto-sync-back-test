@@ -1,0 +1,46 @@
+### YamlMime:Module
+uid: learn.create-device-configuration
+metadata:
+  moduleType: standard
+  title: Create device configuration profiles using Microsoft Endpoint Manager
+  description: By completing this module, you will understand the capabilities of device configuration profiles available in Microsoft Endpoint Manager. In addition, you will create a new configuration profile and assign it to a group of users.
+  ms.date: 02/03/2022
+  author: Erikre
+  ms.author: erikre
+  ms.topic: interactive-tutorial
+title: Create device configuration profiles using Microsoft Endpoint Manager
+summary: Microsoft Endpoint Manager helps you protect devices that the people at your organization use to be productive. By completing this module, you will understand the capabilities of device configuration profiles available in Microsoft Endpoint Manager. In addition, you will create a new configuration profile and assign it to a group of users.
+abstract: | 
+  In this module, you will:
+    - Learn about device configuration concepts
+    - Create and assign a new device configuration profile
+    - View the device configuration profile
+    - Understand the basic, enhanced, and complex device configuration profiles 
+prerequisites: | 
+  - Basic knowledge of Microsoft Endpoint Manager and endpoint management concepts, see [Microsoft Endpoint Manager fundamentals](/learn/paths/endpoint-manager-fundamentals?azure-portal=true).
+  - Understand your endpoint management objectives, device inventory considerations, licensing needs, infrastructure objectives, and rollout plans, see [Determine your endpoint management implementation](/learn/modules/determine-endpoint-implementation?azure-portal=true).
+  - Set up and understand how to use Intune, see [Set up Microsoft Intune](/learn/modules/set-up-microsoft-intune?azure-portal=true).
+iconUrl: /learn/achievements/generic-badge.svg
+ratingEnabled: true
+levels:
+- beginner
+roles:
+- administrator
+products:
+- m365
+- mem
+units:
+- learn.create-device-configuration.introduction
+- learn.create-device-configuration.understand-configuration-profiles
+- learn.create-device-configuration.fundamental-device-configuration
+- learn.create-device-configuration.standard-device-configuration
+- learn.create-device-configuration.complex-device-configuration
+- learn.create-device-configuration.configure-password-restrictions
+- learn.create-device-configuration.add-email-settings
+- learn.create-device-configuration.create-vpn-profile
+- learn.create-device-configuration.add-wi-fi-settings
+- learn.create-device-configuration.view-configuration-profiles
+- learn.create-device-configuration.knowledge-check
+- learn.create-device-configuration.summary
+badge:
+  uid: learn.create-device-configuration.badge
