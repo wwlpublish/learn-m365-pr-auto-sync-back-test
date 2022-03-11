@@ -3,7 +3,7 @@ uid: learn.wwl.plan-for-message-hygiene
 metadata:
   title: Plan for message hygiene
   description: "Plan for message hygiene"
-  ms.date: 12/09/2021
+  ms.date: 03/09/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -22,8 +22,10 @@ levels:
 roles:
 - administrator
 products:
-- azure-active-directory
 - m365
+- office
+- office-365
+- office-exchange-server
 units:
 - learn.wwl.plan-for-message-hygiene.introduction
 - learn.wwl.plan-for-message-hygiene.explore-exchange-online-protection

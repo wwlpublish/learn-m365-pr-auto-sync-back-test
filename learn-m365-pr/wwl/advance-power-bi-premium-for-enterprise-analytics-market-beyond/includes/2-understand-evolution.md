@@ -16,9 +16,7 @@ Power BI Premium per user is a new way to license premium features on a per user
 
 With per user and per capacity licensing options, customers can choose the best and most cost-efficient package for their needs and enjoy the benefits that Premium provides.
 
-|||
-| :--- | :--- |
-| ![Icon indicating play video](../media/video-icon.png)| Watch this video to learn more about how Power BI Premium has evolved and some of the upcoming investments being made with the next generation of Power BI Premium.|
+![Icon indicating play video](../media/video-icon.png) Watch this video to learn more about how Power BI Premium has evolved and some of the upcoming investments being made with the next generation of Power BI Premium.
 
 >[!VIDEO https://www.microsoft.com/videoplayer/embed/RE4HkvX]
 

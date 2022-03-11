@@ -1,0 +1,38 @@
+### YamlMime:Module
+uid: learn.wwl.configure-wireless-network-connectivity
+metadata:
+  title: Configure wireless network connectivity
+  description: "This module discusses the various wireless standards and the configuration and support of Windows wireless clients."
+  ms.date: 03/04/2022
+  author: wwlpublish
+  ms.author: brhinkel
+  ms.topic: interactive-tutorial
+  ms.prod: learning-m365
+title: Configure wireless network connectivity
+summary: This module discusses the various wireless standards and the configuration and support of Windows wireless clients.
+abstract: |
+  After completing this module, you will be able to:
+  - Describe wireless technologies.
+  - Configure wireless settings in Windows.
+  - Discuss the considerations for implementing wireless networks within organizations.
+prerequisites: |
+  - Students should have a basic understanding of computer networks and hardware concepts.
+  - Students should have a basic understanding of OS and Application concepts.
+  - Students should have experience with using Windows 10 or later.
+iconUrl: /learn/achievements/generic-badge.svg
+hidden: true
+levels:
+- beginner
+roles:
+- administrator
+products:
+- windows
+units:
+- learn.wwl.configure-wireless-network-connectivity.introduction
+- learn.wwl.configure-wireless-network-connectivity.examine-wireless-network-technologies
+- learn.wwl.configure-wireless-network-connectivity.configure-wi-fi-settings-profiles
+- learn.wwl.configure-wireless-network-connectivity.configure-wireless-display-with-miracast
+- learn.wwl.configure-wireless-network-connectivity.knowledge-check
+- learn.wwl.configure-wireless-network-connectivity.summary
+badge:
+  uid: learn.wwl.configure-wireless-network-connectivity.badge

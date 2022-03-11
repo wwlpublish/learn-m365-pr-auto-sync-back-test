@@ -1,7 +1,7 @@
 In this exercise, you'll create a SharePoint Framework web part solution that will work in both SharePoint Online and as a tab in Microsoft Teams.
 
 > [!IMPORTANT]
-> The instructions below assume you are using v1.13.0 of the SharePoint Framework Yeoman generator.
+> The instructions below assume you are using v1.13.1 of the SharePoint Framework Yeoman generator.
 
 Open a command prompt and change to the folder where you want to create the SharePoint Framework project. Then, run the SharePoint Yeoman generator by executing the following command:
 
@@ -13,7 +13,6 @@ Use the following to complete the prompt that is displayed (*if additional optio
 
 - **What is your solution name?**: spfxteams
 - **Only SharePoint Online (latest) is supported. For earlier versions of SharePoint (2016 and 2019) please use the 1.4.1 version of the generator.**: SharePoint Online only (latest)
-- **Where do you want to place the files?**: Use the current folder
 - **Do you want to allow the tenant admin the choice of being able to deploy the solution to all sites immediately without running any feature deployment or adding apps in sites?**: Yes
 - **Will the components in the solution require permissions to access web APIs that are unique and not shared with other components in the tenant?**: No
 - **Which type of client-side component to create?**: Web Part
@@ -155,11 +154,9 @@ Finally, create a deployment package of the project by running the following com
 gulp package-solution --ship
 ```
 
-Locate the file created by the gulp **package-solution** task in the **./sharepoint/solution** folder with the name **\*.sppkg**.
+Drag the package created in the previous steps, located in the project's **./sharepoint/solution/spfxteams.sppkg**, into the **Apps for SharePoint** library.
 
-Drag this file into the **Apps for SharePoint** library in the browser.
-
-In the **Do you trust...?** dialog, select the checkbox **Make this solution available to all sites in the organization** and then select **Deploy**.
+In the **Do you trust spfxteams-client-side-solution?** dialog, select the checkbox **Make this solution available to all sites in the organization** and then select **Deploy**.
 
 ![Screenshot of the app deployment trust dialog](../media/03-deploy-package-01.png)
 
@@ -175,13 +172,17 @@ In the browser, navigate to a modern SharePoint page.
 
 Select the **Edit** button in the top-right of the page.
 
-Select the (+) icon to open the SharePoint web part toolbox and locate the web part **SPFx Teams Together**:
+In the browser, select the Web part icon button to open the list of available web parts:
 
-![Screenshot of the SharePoint web part in the gallery](../media/03-add-web-part-step-01.png)
+![Screenshot of adding the web part to the modern SharePoint page](../media/add-web-part-01.png)
+
+Search for the **SPFx Teams Together** web part and select it
+
+![Screenshot of the SharePoint web part in the gallery](../media/03-add-web-part-step-02.png)
 
 The SharePoint Framework web part will be displayed on the page as shown in the following figure:
 
-![Screenshot of the SharePoint web part](../media/03-add-web-part-step-02.png)
+![Screenshot of the SharePoint web part](../media/03-add-web-part-step-03.png)
 
 ## Test the SharePoint Framework web part in Microsoft Teams
 

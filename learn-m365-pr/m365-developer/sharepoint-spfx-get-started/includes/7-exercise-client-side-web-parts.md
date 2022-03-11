@@ -35,7 +35,7 @@ Select **Save as draft** to see the page as your users will see it.
 ## Verify your developer environment is properly configured
 
 > [!NOTE]
-> The instructions below assume you're using v1.13.0 of the SharePoint Framework Yeoman generator.
+> The instructions below assume you're using v1.13.1 of the SharePoint Framework Yeoman generator.
 
 Use the tools installed in the second exercise to create a new SharePoint Framework component and test it using the local workbench.
 
@@ -83,7 +83,7 @@ Open a browser and navigate to the developer site you created in the first exerc
 
 ![Screenshot of the SharePoint Workbench](../media/07-testing-02.png)
 
-Select the web part icon button to open the list of available web parts, scroll down to the **Advanced** section, and select the **HelloWorld** web part.
+Select the web part icon button to open the list of available web parts and select the **HelloWorld** web part from the **Local** section.
 
 ![Screenshot of adding the HelloWorld web part](../media/07-testing-03.png)
 

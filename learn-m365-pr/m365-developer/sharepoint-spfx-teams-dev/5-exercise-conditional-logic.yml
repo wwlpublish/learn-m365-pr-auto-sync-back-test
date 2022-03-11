@@ -3,7 +3,7 @@ uid: learn-m365.sharepoint-spfx-teams-dev.5-exercise-conditional-logic
 metadata:
   title: Exercise - Add conditional logic for SharePoint or Microsoft Teams
   description: In this exercise, you'll update the SharePoint Framework web part from the previous exercise to display different information depending on whether its running within a SharePoint or Microsoft Teams context.
-  ms.date: 09/13/2021
+  ms.date: 03/07/2022
   author: andrewconnell-msft
   ms.author: suzanz
   ms.topic: interactive-tutorial

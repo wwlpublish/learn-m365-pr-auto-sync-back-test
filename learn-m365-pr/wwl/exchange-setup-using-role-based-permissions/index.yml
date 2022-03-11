@@ -3,7 +3,7 @@ uid: learn.wwl.exchange-setup-using-role-based-permissions
 metadata:
   title: Analyze role-based permissions
   description: "Analyze role-based permissions"
-  ms.date: 12/10/2021
+  ms.date: 03/09/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -22,8 +22,10 @@ levels:
 roles:
 - administrator
 products:
-- azure-active-directory
 - m365
+- office
+- office-365
+- office-exchange-server
 units:
 - learn.wwl.exchange-setup-using-role-based-permissions.introduction
 - learn.wwl.exchange-setup-using-role-based-permissions.explore-split-permissions

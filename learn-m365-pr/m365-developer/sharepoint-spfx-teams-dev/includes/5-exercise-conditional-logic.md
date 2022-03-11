@@ -77,6 +77,8 @@ Drag this file into the **Apps for SharePoint** library in the browser. When pro
 
 ![Screenshot dragging the SharePoint package into the Apps for SharePoint library](../media/05-upload-solution.png)
 
+In the **Do you trust spfxteams-client-side-solution?** dialog, ensure the checkbox **Make this solution available to all sites in the organization** is selected and then select **Deploy**.
+
 ## Test the changes
 
 Navigate back to the SharePoint page where you added the web part in the previous exercise.
