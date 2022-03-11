@@ -6,7 +6,7 @@ This example sets up a policy called "Domain and CEO" that provides both user an
 
 The security administrator at Contoso might use the following values to create an anti-phishing policy that meets these needs.
 
-|||
+|Setting|Description|
 |-|-|
 |**Name**|Domain and CEO|
 |**Description**|Ensure that the CEO and our domain are not being impersonated.|

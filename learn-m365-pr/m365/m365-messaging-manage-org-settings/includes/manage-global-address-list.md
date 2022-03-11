@@ -19,7 +19,7 @@ To modify an existing address list, use the following syntax:
 Set-AddressList -Identity <AddressListIdentity> [-Name <Name>] [<Precanned recipient filter | Custom recipient filter>] [-RecipientContainer <OrganizationalUnit>]
 ```
 
-When you modify the Conditional parameter values, you can use the following syntax to add or remove values without affecting other existing values: @{Add="<Value1>","<Value2>"...; Remove="<Value1>","<Value2>"...}.
+When you modify the Conditional parameter values, you can use the following syntax to add or remove values without affecting other existing values: @{Add="\<Value1>","\<Value2>"...; Remove="\<Value1>","\<Value2>"...}.
 
 ## Use Exchange Online PowerShell to delete address lists
 
