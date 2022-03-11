@@ -3,7 +3,7 @@ uid: learn.wwl.manage-mobile-device-access
 metadata:
   title: Manage mobile device access
   description: "Manage mobile device access"
-  ms.date: 01/13/2022
+  ms.date: 03/09/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -24,8 +24,10 @@ levels:
 roles:
 - administrator
 products:
-- azure-active-directory
 - m365
+- office
+- office-365
+- office-exchange-server
 units:
 - learn.wwl.manage-mobile-device-access.introduction
 - learn.wwl.manage-mobile-device-access.configure-access-mobile-devices

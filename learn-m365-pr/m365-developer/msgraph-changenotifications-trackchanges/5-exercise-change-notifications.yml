@@ -3,7 +3,7 @@ uid: learn-m365.msgraph-changenotifications-trackchanges.5-exercise-change-notif
 metadata:
   title: Exercise - Microsoft Graph change notifications
   description: In this exercise, you'll extend the existing ASP.NET console application to receive notifications from Microsoft Graph subscriptions. The notifications are sent after a subscription is successfully created, requesting Microsoft Graph to notify an endpoint when specified entities are created, updated, or deleted.
-  ms.date: 12/08/2021
+  ms.date: 03/07/2022
   author: andrewconnell-msft
   ms.author: suzanz
   ms.topic: interactive-tutorial
@@ -26,7 +26,7 @@ quiz:
     - content: "Three hours"
       isCorrect: false
       explanation: "The duration of a subscription depends on the entity. Usually this is three days, but it can be different for each entity type."
-  - content: "What is the purpose of the `clientSecret` property when creating a new change notification subscription?"
+  - content: "What is the purpose of the `clientState` property when creating a new change notification subscription?"
     choices:
     - content: "It must be the client secret associated with the registered Azure AD app used by your custom app."
       isCorrect: false

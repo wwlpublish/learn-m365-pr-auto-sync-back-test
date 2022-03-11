@@ -4,7 +4,7 @@ title: Knowledge check
 metadata:
   title: Knowledge check
   description: "Knowledge check"
-  ms.date: 10/09/2021
+  ms.date: 03/07/2022
   author: wwlpublish
   ms.author: jennyche
   ms.topic: interactive-tutorial
@@ -28,7 +28,7 @@ quiz:
     - content: "Share"
       isCorrect: false
       explanation: "That's incorrect. People can't share a blocked file. Try again."
-  - content: "Which stage of the Cloud App Security framework assesses whether cloud apps meet relevant requirements, including regulatory compliance and industry standards?"
+  - content: "Which stage of the Microsoft Defender for Cloud Apps framework assesses whether cloud apps meet relevant requirements, including regulatory compliance and industry standards?"
     choices:
     - content: "Control"
       isCorrect: true
@@ -39,14 +39,14 @@ quiz:
     - content: "Detect"
       isCorrect: false
       explanation: "That's incorrect. This stage detects unusual behavior across cloud apps to identify ransomware, compromised users, or rogue applications. It analyzes high-risk usage and remediates automatically to limit the risk to the organization. Try again."
-  - content: "Which feature of the Cloud App Security architecture analyzes your traffic logs against the Cloud App Security catalog of more than 16,000 cloud apps and, using more than 80 risk factors, provides risk assessment reports."
+  - content: "Which feature of the Microsoft Defender for Cloud Apps architecture analyzes your traffic logs against the Microsoft Defender for Cloud Apps catalog of more than 16,000 cloud apps and, using more than 80 risk factors, provides risk assessment reports."
     choices:
     - content: "Conditional Access App Control"
       isCorrect: false
       explanation: "That's incorrect. This feature provides real-time protection, visibility, and control over access and activities within your cloud apps. Try again."
     - content: "App connectors"
       isCorrect: false
-      explanation: "That's incorrect. App connectors use the APIs of app providers to give visibility and control by Cloud App Security over the apps you connect to. Try again."
+      explanation: "That's incorrect. App connectors use the APIs of app providers to give visibility and control by Microsoft Defender for Cloud Apps over the apps you connect to. Try again."
     - content: "Cloud Discovery"
       isCorrect: true
-      explanation: "That's correct. This feature analyzes your traffic logs against the Cloud App Security catalog of more than 16,000 cloud apps. Using more than 80 risk factors, the apps are ranked and scored to provide risk assessment reports."
+      explanation: "That's correct. This feature analyzes your traffic logs against the Microsoft Defender for Cloud Apps catalog of more than 16,000 cloud apps. Using more than 80 risk factors, the apps are ranked and scored to provide risk assessment reports."
