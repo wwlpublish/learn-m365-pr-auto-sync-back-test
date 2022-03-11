@@ -1,6 +1,6 @@
 You can control user access to files by configuring file and folder permissions. If file permissions are supported by the file system, such as NTFS or ReFS, you can configure permissions at different levels. You also can assign permissions explicitly or you can inherit them from the higher levels. If you're unsure whether you can inherit permissions, you can use the effective permissions feature to review what type of permissions a user or group has to a file. While permissions typically use group membership to control access, if Windows client is an AD DS member, you also can use conditions to limit access. Conditions use claims, which are user-property values in AD DS.
 
-### Objectives 
+### Objectives
 
 After completing this module, you'll be able to:
 

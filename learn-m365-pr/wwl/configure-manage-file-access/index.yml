@@ -3,7 +3,7 @@ uid: learn.wwl.configure-manage-file-access
 metadata:
   title: Configure and manage file access
   description: "This module describes how to control access to files and folders using permissions."
-  ms.date: 03/10/2022
+  ms.date: 03/11/2022
   author: wwlpublish
   ms.author: brhinkel
   ms.topic: interactive-tutorial
