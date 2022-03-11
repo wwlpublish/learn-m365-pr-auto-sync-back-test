@@ -9,9 +9,9 @@ metadata:
   ms.topic: interactive-tutorial
   ms.prod: learning-m365
 title: Provide apps to users
-summary: In this module, you will learn about traditional app-deployment methods, as well as methods that you can use to help to automate app deployment.
+summary: In this module, you'll learn about traditional app-deployment methods, as well as methods that you can use to help to automate app deployment.
 abstract: |
-  After completing this module, you will be able to:
+  After completing this module, you'll be able to:
   - Differentiate between the types of apps in Windows.
   - Describe manual app installation.
   - Explain the methods for automating installation of desktop apps.
