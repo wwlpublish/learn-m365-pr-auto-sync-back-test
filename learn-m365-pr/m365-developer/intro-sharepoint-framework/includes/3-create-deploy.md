@@ -30,9 +30,9 @@ When building client-side applications, developers commonly use web frameworks. 
 
 ### Code editors
 
-You'll also want to get a code editor to develop your project. Most developers use Visual Studio Code by Microsoft. It's a lightweight version of Visual Studio and is just a text editor that understands TypeScript and can be customized using extensions.
+You'll also want to get a code editor to develop your project. Most developers are use Visual Studio Code by Microsoft. It's a lightweight version of Visual Studio and is just a text editor that understands TypeScript and can be customized using extensions.
 
-However, you aren't limited to Visual Studio Code. You can choose a different editor if you wanted to. Something as simple as notepad, Atom, Sublime, or WebStorm will work as well. It doesn't matter what you use as all development is done though text editors.
+However, you aren't limited to Visual Studio Code. You can choose a different editor if you wanted to. Something as simple as notepad, Atom, Sublime, or WebStorm will work as well. It doesn't matter what you use as all development is done through text editors.
 
 ## Server-side tool comparison
 
@@ -110,12 +110,6 @@ Let's look at the folders in a newly created and built SharePoint Framework proj
 ## Developing and testing solutions
 
 Microsoft provides developers two options to test SharePoint Framework projects. The *workbench* is a special SharePoint page that contains a single canvas that developers can add their web parts to. There are two different workbench options: local and hosted.
-
-### Local workbench
-
-The local workbench is served up from a local web server included in each project. It runs on https://localhost that has no SharePoint context. It's simply an HTML page that loads the SharePoint Framework in the browser.
-
-The local workbench is a great option for developers develop and test web parts that don't require an instance of SharePoint. For web parts that need SharePoint context or work with live SharePoint data, you'll need to mock data requests to test your web part in the local workbench.
 
 ### SharePoint-hosted workbench
 
