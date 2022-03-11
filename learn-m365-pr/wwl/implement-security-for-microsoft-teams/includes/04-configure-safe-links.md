@@ -81,11 +81,11 @@ You can also configure safe links policies by using the *-SafeLinksPolicy:
 
 For more information, see:
 
-- [Safe Links settings for Microsoft Teams](https://docs.microsoft.com/microsoft-365/security/office-365-security/safe-links?azure-portal=true#safe-links-settings-for-microsoft-teams)
+- [Safe Links settings for Microsoft Teams](/microsoft-365/security/office-365-security/safe-links?azure-portal=true#safe-links-settings-for-microsoft-teams)
 
 - [Set up Safe Links policies in Microsoft Defender for Office 365](/microsoft-365/security/office-365-security/set-up-safe-links-policies?azure-portal=true)
 
-- [Safe Links policy settings](https://docs.microsoft.com/microsoft-365/security/office-365-security/recommended-settings-for-eop-and-office365?azure-portal=true#safe-links-policy-settings)
+- [Safe Links policy settings](/microsoft-365/security/office-365-security/recommended-settings-for-eop-and-office365?azure-portal=true#safe-links-policy-settings)
 
 ## Knowledge check
 

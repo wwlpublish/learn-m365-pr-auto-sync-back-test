@@ -14,9 +14,7 @@ When a Windows 10 device has the Configuration Manager client and is enrolled to
 > [!NOTE]
 > When you concurrently manage Windows 10 devices with both Configuration Manager and Microsoft Intune, this configuration is called co-management. When you manage devices with Configuration Manager and enroll to a third-party MDM service, this configuration is called coexistence. Having two management authorities for a single device can be challenging if it's not properly orchestrated between the two. With co-management, Configuration Manager and Intune balance the workloads to make sure there are no conflicts. This interaction doesn't exist with third-party services, so there are limitations with the management capabilities of coexistence.
 
-|||
-| :--- | :--- |
-|  :::image type="icon" source="../media/video-icon.png"::: | Watch this video to learn more about how you can quickly drive new management value. Co-management is built to create features and tools you can use right now.|
+:::image type="icon" source="../media/video-icon.png":::  Watch this video to learn more about how you can quickly drive new management value. Co-management is built to create features and tools you can use right now.
 
 >[!VIDEO https://www.youtube.com/embed/ynpmB7LBiRc]
 

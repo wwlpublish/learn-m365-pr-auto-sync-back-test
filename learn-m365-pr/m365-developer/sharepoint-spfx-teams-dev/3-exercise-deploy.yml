@@ -3,7 +3,7 @@ uid: learn-m365.sharepoint-spfx-teams-dev.3-exercise-deploy
 metadata:
   title: Exercise - Deploy SharePoint Framework solutions to Microsoft Teams
   description: In this exercise, you'll create a SharePoint Framework web part solution that will work in both SharePoint Online and as a tab in Microsoft Teams.
-  ms.date: 12/08/2021
+  ms.date: 03/07/2022
   author: andrewconnell-msft
   ms.author: suzanz
   ms.topic: interactive-tutorial

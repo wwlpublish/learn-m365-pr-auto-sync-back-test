@@ -3,7 +3,7 @@ uid: learn.wwl.plan-mailbox-migrations
 metadata:
   title: Plan mailbox migrations
   description: "Plan mailbox migrations"
-  ms.date: 12/16/2021
+  ms.date: 03/09/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -24,8 +24,10 @@ levels:
 roles:
 - administrator
 products:
-- azure-active-directory
 - m365
+- office
+- office-365
+- office-exchange-server
 units:
 - learn.wwl.plan-mailbox-migrations.introduction
 - learn.wwl.plan-mailbox-migrations.explore-migration-options-exchange-online

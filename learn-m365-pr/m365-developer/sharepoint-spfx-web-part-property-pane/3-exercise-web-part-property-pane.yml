@@ -3,7 +3,7 @@ uid: learn-m365.sharepoint-spfx-web-part-property-pane.3-exercise-web-part-prope
 metadata:
   title: Exercise - Work with the web part property pane
   description: In this exercise, you'll manipulate the property pane for a SharePoint Framework client-side web part with controls, groups, and pages.
-  ms.date: 12/08/2021
+  ms.date: 03/07/2022
   author: andrewconnell-msft
   ms.author: suzanz
   ms.topic: interactive-tutorial

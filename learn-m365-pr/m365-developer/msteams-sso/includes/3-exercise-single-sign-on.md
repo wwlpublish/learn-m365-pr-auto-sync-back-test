@@ -90,7 +90,7 @@ Next, select **Add a scope** to add a new permission for the app. Create a new s
 
 The last step is to preauthorize the Microsoft Teams clients that the app's API will trust. This means users won't be asked to consent to specific permissions, or scopes, exposed by the API.
 
-Add the following client applications by selecting the **Add a client application** link. For each, select the **api://REPLACE.ngrok.io/<app-id>/access_as_user** scope you previously created:
+Add the following client applications by selecting the **Add a client application** link. For each, select the **api://REPLACE.ngrok.io/\<app-id>/access_as_user** scope you previously created:
 
 - `1fec8e78-bce4-4aaf-ab1b-5451cc387264`
   - *Microsoft Teams mobile & desktop clients*

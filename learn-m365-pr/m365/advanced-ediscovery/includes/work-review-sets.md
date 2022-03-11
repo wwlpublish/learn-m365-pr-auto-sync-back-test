@@ -28,7 +28,7 @@ Once you specify the sender domain, you can use this to create your search and s
     Or you can click **Create custom widget** which displays a flyout page that you can use to set up a custom widget.
 
      :::image type="content" source="../media/add-widget.png" alt-text="Create custom widget screen.":::
-1. In our example, we want to review the data from a specific sender domain and display the results in a bar chart. Therefore, after entering a name for the widget in the **Title** field, select **SenderDomain** from the **Choose pivot** drop-down list.
+1. In our example, we want to review the data from a specific sender domain and display the results in a bar chart. Therefore, after entering a name for the widget in the `Title` field, select `SenderDomain` from the **Choose pivot** drop-down list.
   
      :::image type="content" source="../media/senderdomain.png" alt-text="Create custom widget example." border="false":::
 
@@ -139,9 +139,9 @@ Advanced eDiscovery recently introduced a new smart tag for detecting attorney-c
 
 To take full advantage of the attorney-client privilege detection model, it is recommended that you submit a list of attorneys for your organization when you set up attorney-client privilege detection in your tenant. The model then compares the participants of the document with the attorney list to determine if a document has at least one attorney participant. The ML model also uses machine learning to determine the likelihood that the document contains content that is legal in nature. The analysis of this combination produces three properties for each document that ultimately determines whether or not privileged communications were detected:
 
-- **AttorneyClientPrivilegeScore**. The likelihood the document is legal in nature; the values for the score are between **0** and **1**.
-- **HasAttorney**. This property is set to **true** if one of the document participants is listed in the attorney list; otherwise the value is **false**. The value is also set to **false** if your organization didn't upload an attorney list.
-- **IsPrivilege**. This property is set to **true** if the value for **AttorneyClientPrivilegeScore** is above the threshold *or* if the document has an attorney participant; otherwise the value is set to **false**.
+- `AttorneyClientPrivilegeScore`. The likelihood the document is legal in nature; the values for the score are between `0` and `1`.
+- `HasAttorney`. This property is set to `true` if one of the document participants is listed in the attorney list; otherwise the value is `false`. The value is also set to `false` if your organization didn't upload an attorney list.
+- `IsPrivilege`. This property is set to `true` if the value for `AttorneyClientPrivilegeScore` is above the threshold *or* if the document has an attorney participant; otherwise the value is set to `false`.
 
 These properties and their corresponding values are searchable within a review set and added to the file metadata of the documents in a review set, as illustrated in the screenshot below:
 

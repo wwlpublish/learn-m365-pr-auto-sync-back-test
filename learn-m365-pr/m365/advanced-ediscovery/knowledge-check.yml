@@ -55,7 +55,7 @@ quiz:
       choices:
       - content: "Specific custodian"
         isCorrect: true
-        explanation: "All files that are uploaded to a review set must be located in folders, where each folder is associated with a specific custodian. The names for these folders must use the following naming format: *alias@domainname*."
+        explanation: "All files that are uploaded to a review set must be located in folders, where each folder is associated with a specific custodian. The names for these folders must use the following naming format: `alias@domainname`."
       - content: "Specific eDiscovery case"
         isCorrect: false
         explanation: "You must have an existing Advanced eDiscovery case before uploading data into a review set. "

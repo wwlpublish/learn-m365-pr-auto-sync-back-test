@@ -3,7 +3,7 @@ uid: learn.wwl.explore-exchange-hybrid-deployment-requirements
 metadata:
   title: Explore Exchange hybrid deployment requirements
   description: "Explore Exchange hybrid deployment requirements"
-  ms.date: 12/13/2021
+  ms.date: 03/09/2022
   author: wwlpublish
   ms.author: tfrink
   ms.topic: interactive-tutorial
@@ -18,14 +18,16 @@ abstract: |
   - Identify Microsoft 365 identity options for Exchange hybrid.
   - Compare Exchange delegated federation to OAuth.
 prerequisites: ""
-iconUrl: /learn/achievements/generic-badge.svg
+iconUrl: /learn/achievements/1-explore-exchange-hybrid-deployment-requirements.svg
 levels:
 - intermediate
 roles:
 - administrator
 products:
-- azure-active-directory
 - m365
+- office
+- office-365
+- office-exchange-server
 units:
 - learn.wwl.explore-exchange-hybrid-deployment-requirements.introduction
 - learn.wwl.explore-exchange-hybrid-deployment-requirements.examine-connection-options
