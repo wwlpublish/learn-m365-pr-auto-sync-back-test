@@ -2,9 +2,7 @@ Power BI has two new ways to explore your data in a more natural and intuitive w
 
 Next, the Q&A Visual allows end users to ask questions of their data using natural language and get answers in the context of their report.  Artificial intelligence is used to analyze the data and automatically suggests relevant questions to help users get started.
 
-|||
-| :--- | :--- |
-| ![Icon indicating play video](../media/video-icon.png)| Watch this video to learn more about the decomposition tree and Q&A visual in Power BI.|
+![Icon indicating play video](../media/video-icon.png)  Watch this video to learn more about the decomposition tree and Q&A visual in Power BI.
 
 >[!VIDEO https://www.microsoft.com/videoplayer/embed/RE4HuZb]
 

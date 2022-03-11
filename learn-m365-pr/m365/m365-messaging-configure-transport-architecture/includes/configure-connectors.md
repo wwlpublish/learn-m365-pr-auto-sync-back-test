@@ -76,7 +76,7 @@ Before you set up the connector, you need to set up your Microsoft 365 environme
 
 Finally, modify your MX record to redirect email flow to Microsoft 365. Access the DNS records held by your domain hosting service. Add or update the MX record, so that messages sent to your domain will come to Microsoft 365.  
 
-The MX record you'll add includes a value (the **Points to address** value) that looks something like this: /<MX token/>.mail.protection.outlook.com, where /<MX token/> is a value like "MSxxxxxxx."
+The MX record you'll add includes a value (the **Points to address** value) that looks something like this: \<MX token/>.mail.protection.outlook.com, where \<MX token/> is a value like "MSxxxxxxx."
 
 1. To get the information for the MX record from Microsoft 365, in the Microsoft 365 admin center, go to ****Setup > Domains**, and then select your domain.  
 1. Under **Required DNS settings**, you'll see the DNS records. Copy the **Points to address** value. You'll use this value in the record you create or update on your DNS host's site.
